@@ -76,6 +76,10 @@ The Director of Legal, Privacy and Product collaborates with clients across GitL
 
 The Director of Legal, Employment collaborates with clients across GitLab on a broad range of employment law matters affecting our global team member base.
 
+### Compliance
+
+The Director of Legal, Compliance collaborates with clients across GitLab to ensure GitLab's compliance with applicable laws and regulations.
+
 ### Senior Director of Legal, Litigation & Risk Management
 
 The Senior Director of Legal, Litigation & Risk Management reports to the [Chief Legal Officer, Head of Corporate Affairs and Corporate Secretary](https://about.gitlab.com/job-families/legal-and-corporate-affairs/chief-legal-officer/), and is responsible for providing counsel and guidance related to litigation, claims, and dispute resolution. As part of their role, the Senior Director of Legal, Litigation & Risk Management will collaborate with key leaders across GitLab in order to manage a variety of projects related to risk management and dispute resolution.
