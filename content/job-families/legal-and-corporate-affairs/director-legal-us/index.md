@@ -46,7 +46,7 @@ The Senior Director, Legal is a [grade 11](https://about.gitlab.com/handbook/tot
 - Manage outside counsel and associated budget
 - Strategic planning and oversight over areas related to subject matter expertise (ex. headcount planning, budget, etc.)
 
-### Director, Legal Requirements
+### Senior Director, Legal Requirements
 
 - 12+ years combined law firm and in-house legal department experience, preferably in a multinational company, with a considerable amount of that time dedicated to their area of subject matter expertise, for those roles which require an attorney
 - Juris Doctorate/United States law degree and bar admission in at least one US state for those roles which require an attorney
