@@ -62,7 +62,7 @@ The Senior Director, Legal is a [grade 11](https://about.gitlab.com/handbook/tot
 
 ### Corporate
 
-The Director of Legal, Corporate collaborates on matters with clients across GitLab related to corporate governance and securities law compliance and related issues.
+The [Director of Legal, Corporate Development](https://handbook.gitlab.com/job-families/legal-and-corporate-affairs/corporate-development/#coporate-development) collaborates on matters with clients across GitLab related to corporate governance and securities law compliance and related issues.
 
 ### Commercial
 
