@@ -725,8 +725,10 @@ confirm.
 
 After it installs the app, you will be brought to the app management page for
 your new app. If you used any parameters, you would add them here. You also have
-the option to set role or group restrictions if needed. Once you are done, click
-the blue `Install` button.
+the option to set role or group restrictions if needed. As a general rule, all
+apps that need to be restricted should have group restrictions in place unless 
+there is a specific need for role restrictions. 
+Once you are done, click the blue `Install` button.
 
 ## How to update a Zendesk App
 
