@@ -127,11 +127,10 @@ redacted text file).
 App information:
 
 - Located in the ticket sidebar
-- Restricted by Role
-  - Administrator
-  - Support Managers
-  - Support Staff
-  - Support Staff - Explore
+- Restricted by Group:
+  - Support AMER
+  - Support APAC
+  - Support EMEA
 - This application was developed by
   [Zendesk](https://www.zendesk.com/marketplace/partners/zendesk/) and is
   available in the
@@ -147,16 +146,10 @@ support tickets in Zendesk.
 App information:
 
 - Located in the ticket sidebar
-- Restricted by Role:
-  - Administrator
-  - GitLab Staff
-  - GitLab Staff - Delete tickets
-  - GitLab Staff - Explore
-  - Support Managers
-  - Support Staff
-  - Support Staff - Explore
-  - Support Staff - Professional Services
-  - Tech Support
+- Restricted by Group:
+  - Support AMER
+  - Support APAC
+  - Support EMEA
 - This application was developed by Unbabel and is available in the
   [Zendesk Marketplace](https://www.zendesk.com/apps/support/unbabel-for-zendesk-support/).
 
@@ -732,8 +725,10 @@ confirm.
 
 After it installs the app, you will be brought to the app management page for
 your new app. If you used any parameters, you would add them here. You also have
-the option to set role or group restrictions if needed. Once you are done, click
-the blue `Install` button.
+the option to set role or group restrictions if needed. As a general rule, all
+apps that need to be restricted should have group restrictions in place unless
+there is a specific need for role restrictions. Once you are done, click the
+blue `Install` button.
 
 ## How to update a Zendesk App
 
