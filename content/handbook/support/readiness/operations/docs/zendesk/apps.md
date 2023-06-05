@@ -127,11 +127,10 @@ redacted text file).
 App information:
 
 - Located in the ticket sidebar
-- Restricted by Role
-  - Administrator
-  - Support Managers
-  - Support Staff
-  - Support Staff - Explore
+- Restricted by Group
+  - Support AMER
+  - Support APAC
+  - Support EMEA
 - This application was developed by
   [Zendesk](https://www.zendesk.com/marketplace/partners/zendesk/) and is
   available in the
