@@ -127,7 +127,7 @@ redacted text file).
 App information:
 
 - Located in the ticket sidebar
-- Restricted by Group
+- Restricted by Group:
   - Support AMER
   - Support APAC
   - Support EMEA
@@ -146,16 +146,10 @@ support tickets in Zendesk.
 App information:
 
 - Located in the ticket sidebar
-- Restricted by Role:
-  - Administrator
-  - GitLab Staff
-  - GitLab Staff - Delete tickets
-  - GitLab Staff - Explore
-  - Support Managers
-  - Support Staff
-  - Support Staff - Explore
-  - Support Staff - Professional Services
-  - Tech Support
+- Restricted by Group:
+  - Support AMER
+  - Support APAC
+  - Support EMEA
 - This application was developed by Unbabel and is available in the
   [Zendesk Marketplace](https://www.zendesk.com/apps/support/unbabel-for-zendesk-support/).
 
