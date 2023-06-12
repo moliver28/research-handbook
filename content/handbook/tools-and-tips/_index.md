@@ -72,6 +72,14 @@ That's it! Don't forget to update your username in the following places:
 - [Marketing Handbook](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/source/handbook/marketing/index.html.md), in case you're a Marketing Team member.
 - Workday - GitLab Username under 'Additional Data' > 'View all' in your profile actions
 
+#### STEP 5: Set up your notifications
+
+Team members choose to manage their GitLab activities in different ways. Setup your notifications in a way that works best for you.
+
+1. **To-do list:** all team members will see a [to-do list](https://docs.gitlab.com/ee/user/todos.html) within their GitLab account. This will track different action items. Items can be marked as done as they are completed. 
+1. **Email:** team members can choose which, if any, notifications show up in their Gmail accounts by [using filters](handbook/tools-and-tips/#filters). 
+1. **Slack notifications:** team members can choose to enable [Slack notifications](https://docs.gitlab.com/ee/user/project/integrations/gitlab_slack_application.html). Please note that GitLab slack expires after 90 days, so this is not a tool for longer-term activity management. 
+
 ### GitLab team members' resources
 
 The [GitLab team-member resources project](https://gitlab.com/gitlab-com/gitlab-team-member-resources) has a wiki for sharing among [GitLab team-members](/company/team/structure/#team-and-team-members).
