@@ -4,9 +4,10 @@ description: Support Operations documentation page for Zendesk Explore
 canonical_path: "/handbook/support/readiness/operations/docs/zendesk/zendesk-explore/overview"
 ---
 
-# Zendesk Explore
+## Zendesk Explore
 
 ## Overview
+
 Zendesk Explore is a powerful analytics and reporting tool offered by Zendesk, designed to provide in-depth insights into customer support metrics and trends. With Explore, our team can analyze and visualize our support data to make informed decisions, improve customer experiences, and optimize support operations.
 
 Explore offers a user-friendly interface that allows admins to create customized dashboards, reports, and queries without the need for coding knowledge. It integrates seamlessly with Zendesk Support, combining data from multiple sources to deliver comprehensive and actionable analytics.
@@ -17,6 +18,7 @@ Explore Database refreshes hourly which means Explore based data is not always r
 
 
 ## Meanings of Common Terms
+
 | Terms | What it means                                                                            |
 |-----------------------|------------------------------------------------------------------------|
 | Query | A query in Explore refers to a request for specific data from your support dataset. Queries are used to generate reports, charts, and visualizations by selecting the desired metrics, attributes, and filters.   |
@@ -35,6 +37,7 @@ Explore Database refreshes hourly which means Explore based data is not always r
 For detailed Gloassary, please visit: https://support.zendesk.com/hc/en-us/articles/4408824134810-Zendesk-Explore-glossary
 
 ## Important Links
+
  - [Explore Basics](~/content/handbook/support/readiness/operations/docs/zendesk/zendesk-explore/basics.md)
  - [Setting up Explore](~/content/handbook/support/readiness/operations/docs/zendesk/zendesk-explore/setting_up.md)
  - [Dashboards](~/content/handbook/support/readiness/operations/docs/zendesk/zendesk-explore/dashboards.md)
@@ -43,3 +46,4 @@ For detailed Gloassary, please visit: https://support.zendesk.com/hc/en-us/artic
  - [Important Reports](~/content/handbook/support/readiness/operations/docs/zendesk/zendesk-explore/important_reports.md)
  - [Formulas](~/content/handbook/support/readiness/operations/docs/zendesk/zendesk-explore/formulas.md)
  - [Performing Calculations](~/content/handbook/support/readiness/operations/docs/zendesk/zendesk-explore/performing_calculations.md)
+ 
