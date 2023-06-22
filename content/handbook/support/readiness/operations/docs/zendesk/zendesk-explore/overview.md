@@ -6,16 +6,18 @@ canonical_path: "/handbook/support/readiness/operations/docs/zendesk/zendesk-exp
 
 ## Zendesk Explore
 
+
 ## Overview
 
 Zendesk Explore is a powerful analytics and reporting tool offered by Zendesk, designed to provide in-depth insights into customer support metrics and trends. With Explore, our team can analyze and visualize our support data to make informed decisions, improve customer experiences, and optimize support operations.
 
 Explore offers a user-friendly interface that allows admins to create customized dashboards, reports, and queries without the need for coding knowledge. It integrates seamlessly with Zendesk Support, combining data from multiple sources to deliver comprehensive and actionable analytics.
 
-Explore offers API access, allowing you to programmatically retrieve data, create and manage queries, and integrate Explore with other systems or custom applications.
+Explore also offers API access, allowing you to programmatically retrieve data, create and manage queries, and integrate Explore with other systems or custom applications.
 
-Explore Database refreshes hourly which means Explore based data is not always real time depending on query.
+Note: Explore refreshes hourly which means Explore based data is not always real time depending on query.
 
+>> Tip: Whenever you start working on Explore yourself, please create a copy of dataset with your name or initials. This way it will preserve your own formulas in reports and dashboards you build.
 
 ## Meanings of Common Terms
 
@@ -34,7 +36,7 @@ Explore Database refreshes hourly which means Explore based data is not always r
 | Scheduled Delivery   | Scheduled delivery allows you to automate the delivery of reports and dashboards to specified recipients at specific times. It ensures that stakeholders receive up-to-date support metrics without manual intervention.    |
 | Joining Datasets      | Joining datasets involves combining data from multiple sources or tables to create a comprehensive dataset for analysis. Explore allows you to join datasets to enrich your support data      |
 
-For detailed Gloassary, please visit: https://support.zendesk.com/hc/en-us/articles/4408824134810-Zendesk-Explore-glossary
+For detailed Glossary, please visit: https://support.zendesk.com/hc/en-us/articles/4408824134810-Zendesk-Explore-glossary
 
 ## Important Links
 
