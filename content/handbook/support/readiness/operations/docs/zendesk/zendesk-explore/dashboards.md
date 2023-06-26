@@ -12,7 +12,18 @@ A dashboard consists of following components:
 1. Reports
 1. Tabs
 
->> Tip: Always clone the Custom Dashboards whenever you want to change anything in them and work on new cloned Dashboard. You can do so by clicking the dashboard you want to clone. Click More>Clone.
+
+### Widgets and Filters
+
+1. __Static widgets__: These widgets inlcude reports, images, text, shapes, and tabs, do not impact the results of a report or how users interact with your dashboard. These widgets provide static content that remains unchanged.
+
+
+1. __Interactive widgets__: They  allow users to specify the specific results they want to view and how they want to view them. With interactive widgets, viewers can modify metrics or attributes, apply filters to refine results, and utilize what-if variables to perform analysis.
+
+1. __Live data widgets__: As we use Zendesk Explore Enterprise version, we have real time live data widgets available too. These widgets provide real-time updates, ensuring that the data displayed is up-to-date and reflects the latest information available.
+
+
+## Types of Dashboards
 
 There are two types of Dashboards in Explore:
 1. Prebuilt Dashboards
@@ -30,7 +41,7 @@ You won't need to clone this dashboard as it comes by default.
 
 Custom dashboards in Zendesk Explore allow you to create personalized visualizations and reports tailored to your specific business needs. They enable you to track and analyze key metrics, monitor trends, and gain actionable insights to drive decision-making and improve your customer support operations.
 
->>Note: These dashboards must be cloned as stated above.
+>> Tip: Always clone the Custom Dashboards whenever you want to change anything in them and work on new cloned Dashboard. You can do so by clicking the dashboard you want to clone. Click More>Clone. 
 
 ## Creating Custom Dashboards
 
