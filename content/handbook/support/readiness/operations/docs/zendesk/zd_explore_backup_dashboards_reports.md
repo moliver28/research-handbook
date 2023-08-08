@@ -4,18 +4,18 @@ description: Support Operations documentation page for Zendesk Explore Dashboard
 canonical_path: "/handbook/support/readiness/operations/docs/zendesk/zd_explore_backup_dashboards_reports.md"
 ---
 
-# Dashboards
+## Dashboards
 
-## Support Metrics
+### Support Metrics
 
-### Tabs
+#### Tabs
 
 1. Incoming:
     - Widgets used:
         None
     - Reports used:
         1. Total Incoming Tickets For Support
-        1. IK - Total Incoming Tickets Per Form 
+        1. IK - Total Incoming Tickets Per Form
         1. Intake Per Hour Last 12 Months - All Plans
         1. Intake Per Hour Last 12 Months SM - All Plans
         1. Intake Per Hour Last 12 Months .COM - All Plans
@@ -25,17 +25,18 @@ canonical_path: "/handbook/support/readiness/operations/docs/zendesk/zd_explore_
         - Time Filter widget
     - Reports used:
         1. FRT SLA % Achieved for .COM/SM
-        1. xxx FRT MED .COM/SM
+        1. FRT MED .COM/SM
         1. NRT SLA % Achieved for .COM/SM
 
-# Reports
+## Reports
 
 ### Total Incoming Tickets For Support
+
 aka IK - Total Incoming Tickets For Support #2
 - Dataset used: Support ( Tickets )
 - Visualization type: Column
 - Metric used: Count (Tickets)
-- Rows: 
+- Rows:
     1. Ticket Priority
 - Columns:
     1. Ticket Created (Year)
@@ -50,6 +51,7 @@ aka IK - Total Incoming Tickets For Support #2
     1. Make sure report should have "Sort" type `A-Z` and have "Totals" show percentage inside bars and top of bars shows Total in Result Manipulation 
 
 ### IK - Total Incoming Tickets Per Form
+
  aka IK - Total Incoming Tickets Per Groups #3
 - Dataset used: Support ( Tickets )
 - Visualization type: Column
@@ -67,6 +69,7 @@ aka IK - Total Incoming Tickets For Support #2
     1. Make sure report should have "Sort" type `A-Z` and have "Totals" show percentage on rows inside bars in Result Manipulation.
 
 ### Intake Per Hour Last 12 Months - All Plans
+
 aka IK - H/N/L Tickets - Intake Per Hour Last 12 Months
 - Dataset used: Support ( Tickets )
 - Visualization type: Column
@@ -89,6 +92,7 @@ aka IK - H/N/L Tickets - Intake Per Hour Last 12 Months
     1. Make sure report should have "Sort" type `A-Z` and have "Totals" at top of bars  in Result Manipulation 
 
 ### Intake Per Hour Last 12 Months SM - All Plans
+
 aka IK - H/N/L Tickets - Intake Per Hour Last 12 Months SM
 - Dataset used: Support ( Tickets )
 - Visualization type: Column
@@ -111,6 +115,7 @@ aka IK - H/N/L Tickets - Intake Per Hour Last 12 Months SM
     1. Make sure report should have "Sort" type `A-Z` and sum is top on every bar in Result Manipulation 
 
 ### Intake Per Hour Last 12 Months .COM - All Plans
+
 aka IK - H/N/L Tickets - Intake Per Hour Last 12 Months .COM
 - Dataset used: Support ( Tickets )
 - Visualization type: Column
@@ -133,6 +138,7 @@ aka IK - H/N/L Tickets - Intake Per Hour Last 12 Months .COM
     1. Make sure report should have "Sort" type `A-Z` and sum is top on every bar in Result Manipulation 
 
 ### Prefered Region last 6 / 3 Months
+
 aka IK - Prefered Region last 6 / 3 Months
 - Dataset used: Support ( Tickets )
 - Visualization type: Column
@@ -152,6 +158,7 @@ aka IK - Prefered Region last 6 / 3 Months
     1. Make sure report should have "Sort" type `A-Z` and "Total" show `sum` on top on every bar in Result Manipulation 
 
 ### FRT SLA % Achieved for .COM/SM
+
 aka IK - FRT SLA For .com/SM
 - Dataset used: Support ( SLAs )
 - Visualization type: Column
@@ -175,7 +182,8 @@ aka IK - FRT SLA For .com/SM
     1. Make sure report should have "Sort" type `A-Z` and Percentage is shown inside every bar in Result Manipulation.
     1. It also shows a trend line which can be found in Chart Configuration menu. 
 
-### xxx FRT MED .COM/SM
+### FRT MED .COM/SM
+
 aka IK - FRT MED .COM/SM w/o License
 - Dataset used: Support ( SLAs )
 - Visualization type: Column
@@ -191,7 +199,7 @@ aka IK - FRT MED .COM/SM w/o License
     1. Has Plan - Ticket Tag
 - Custom Settings:
     1. SLA Metric includes only First Reply Time
-   1. Ticket Form filter should include `SaaS`, `SaaS Acocunt`, `Self-Managed`
+    1. Ticket Form filter should include `SaaS`, `SaaS Acocunt`, `Self-Managed`
     1. 2FA is custom attribute and "Not 2FA" needs to be selected.
     1. Has Plan - Ticket Tag is a custom attribute and setting of Includes have `Has Plan` checked.
     1. SLA Update - Year filter was used and it use Advanced Date Range settings i.e. "From beginning of" should have `13 months in the past` to "The end of" should have `1 month in the past`
@@ -199,6 +207,7 @@ aka IK - FRT MED .COM/SM w/o License
     1. It also shows a trend line which can be found in Chart Configuration menu. 
 
 ## NRT SLA % Achieved for .COM/SM
+
 aka IK - NRT SLA for .com/SM
 - Dataset used: Support ( SLAs )
 - Visualization type: Column
@@ -248,40 +257,41 @@ aka IK - NRT SLA for .com/SM
 # Custom Attributes and Metrics:
 
 ## Custom Attributes
+
 1. Has Plan Ticket Tags -SSAT (Incl L&R):
 
     Type: Standard Calculated Attribute
     Formula:
-    ````
+    ```text
     IF(INCLUDES_ANY([Ticket tags],"silver","basic","starter","premium","gold","bronze","ultimate")
     OR [Ticket form]="L&R")
     THEN "Has Plan + L&R"
     ELSE "No Plan"
     ENDIF
-    ````
+    ```
     Special settings: None
 
 1. 2FA
 
     Type: Standard Calculated Attribute
     Formula:
-    ````
+    ```text
     IF (NOT INCLUDES([Ticket tags], ARRAY("%autoresponder_2fa%"))) THEN
     "Not 2FA"
     ELSE
     "2FA Ticket"
     ENDIF
-    ````
+    ```
     Special settings: None
 
 1. Has Plan - Ticket Tags: 
 
     Type: Standard Calculated Attribute
     Formula:
-    ````
+    ```text
     IF(INCLUDES_ANY([Ticket tags],"silver","basic","starter","premium","gold","bronze","ultimate"))
     THEN "Has Plan"
     ELSE "No Plan"
     ENDIF
-    ````
+    ```
     Special settings: None
