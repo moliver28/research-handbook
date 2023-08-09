@@ -7,13 +7,14 @@ canonical_path: "/handbook/support/readiness/operations/docs/zendesk/zd_explore_
 ## Key Review Reports
 
 ### Slide 7: Report 1: Ticket Volume Trend
+
 aka Total Ticket Volume - Last 6 Months - Month YYYY
 
 This is the main report in slide 7
 
 - Dataset used: Support ( Tickets )
 - Visualization type: Area
-- Metric used: D_Count (Tickets), D_Count (SM Ticket Count)* , D_Count (.com Ticket Count)* , D_Count (L&R Ticket Count (w/o Internal))* , D_Count (L&R Internal Ticket Count)* , D_Count (Ops Ticket Count)*
+- Metric used: D_Count (Tickets), \*D_Count (SM Ticket Count)*\, \*D_Count (.com Ticket Count)*\, \*D_Count (L&R Ticket Count (w/o Internal))*\, \*D_Count (L&R Internal Ticket Count)*\ , \*D_Count (Ops Ticket Count)*\
 - Rows:
     None
 - Columns:
@@ -25,8 +26,8 @@ This is the main report in slide 7
 - Custom Settings:
     1. (*) represents standard calculated metrics.
     1. Ticket Form filter should exclude `GitLab Incidents`, `Professional Services`, `Security`, `Billing`, `Accounts Receiveable/Refunds`, `Security Issue`.
-    1. Created By GitLab Bot Agent is a custom attribute and should have included `Regular Ticket` 
-    1. Ticket Created (Year) use Advanced Date Range settings i.e. "From beginning of" should have `First day of the previous year in second option i.e. for 2023 reports it should be 01/01/2022` to "The end of" should have `1 month in the past`. 
+    1. Created By GitLab Bot Agent is a custom attribute and should have included `Regular Ticket`.
+    1. Ticket Created (Year) use Advanced Date Range settings i.e. "From beginning of" should have `First day of the previous year in second option i.e. for 2023 reports it should be 01/01/2022` to "The end of" should have `1 month in the past`.
     1. Make sure report should have "Sort" type `A-Z` and have "Totals" show `count` inside area and top of area shows Total in Result Manipulation.
     1. Order of result manipulation should be `1-value filter`in Result Manipulation
 
@@ -48,7 +49,7 @@ This is informative report in slide 7
     1.
     1. Ticket Form filter should exclude `GitLab Incidents`, `Professional Services`, `Security`, `Billing`, `Accounts Receiveable/Refunds`, `Security Issue`.
     1. New Tier Split is a custom attribute and should have excluded `Unknown`
-    1. Ticket Created (Year) use Advanced Date Range settings i.e. "From beginning of" should have `2 Months in the past` to "The end of" should have `1 month in the past`. 
+    1. Ticket Created (Year) use Advanced Date Range settings i.e. "From beginning of" should have `2 Months in the past` to "The end of" should have `1 month in the past`.
     1. Make sure report should have "Sort" type `A-Z` and have "Totals" show `count` inside table in Result Manipulation
     1. Order of result manipulation should be `1-value filter`in Result Manipulation
 
@@ -77,7 +78,7 @@ This is main report in Slide 9
     1. EDU is a custom attribute and should have included `Not EDU`.
     1. Has Plan Ticket Tags -SSAT (Incl L&R) is a custom attribute and includes should have `Has Plan + L&R`.
     1. Ticket ID should exclude `279135`
-    1. Ticket Solved (Year) use Advanced Date Range settings i.e. "From beginning of" should have `8 Months in the past` to "The end of" should have `1 month in the past`. 
+    1. Ticket Solved (Year) use Advanced Date Range settings i.e. "From beginning of" should have `8 Months in the past` to "The end of" should have `1 month in the past`.
     1. Make sure report should have "Sort" type `A-Z` and have "Totals" show `percent` on top of every month in Result Manipulation
     1. It also shows a trend line which can be found in Chart Configuration menu.
 
@@ -119,13 +120,13 @@ aka IK - Total Incoming Tickets For Support #2
     1. Ticket Created (Year)
     1. Ticket Created (Month)
 - Filters used:
-    1. Ticket Form 
+    1. Ticket Form
     1. Has Plan Ticket Tags -SSAT (Incl L&R)
 - Custom Settings:
     1. Ticket Form filter should exclude Security, Billing, Accounts Receiveable/Refunds.
     1. Has Plan Ticket Tags -SSAT (Incl L&R) is a custom attribute and setting of Includes have `Has Plan + L&R` checked.
-    1. Ticket Created (Year) use Advanced Date Range settings i.e. "From beginning of" should have `13 months in the past` to "The end of" should have `all history`
-    1. Make sure report should have "Sort" type `A-Z` and have "Totals" show percentage inside bars and top of bars shows Total in Result Manipulation 
+    1. Ticket Created (Year) use Advanced Date Range settings i.e. "From beginning of" should have `13 months in the past` to "The end of" should have `all history`.
+    1. Make sure report should have "Sort" type `A-Z` and have "Totals" show percentage inside bars and top of bars shows Total in Result Manipulation.
 
 ### IK - Total Incoming Tickets Per Form
 
@@ -133,7 +134,7 @@ aka IK - Total Incoming Tickets For Support #2
 - Dataset used: Support ( Tickets )
 - Visualization type: Column
 - Metric used: D_Count (Tickets)
-- Rows: 
+- Rows:
     1. Ticket Priority
 - Columns:
     1. Ticket Created (Year)
@@ -151,22 +152,20 @@ aka IK - H/N/L Tickets - Intake Per Hour Last 12 Months
 - Dataset used: Support ( Tickets )
 - Visualization type: Column
 - Metric used: Count (Tickets)
-- Rows: 
-    1. Ticket Priority
-    
-        (Includes only Normal, Low, High)
+- Rows:
+    1. Ticket Priority  
+    (Includes only Normal, Low, High)
 - Columns:
-    1. Ticket Created (Hour)
-        
-        (Includes  Check all even DESELECT ALL as well)
+    1. Ticket Created (Hour)  
+    (Includes  Check all even DESELECT ALL as well)
 - Filters used:
-    1. Ticket Form 
+    1. Ticket Form
     1. Has Plan Ticket Tags -SSAT (Incl L&R)
 - Custom Settings:
-    1. Ticket Form filter should exclude Security, Billing, Accounts Receiveable/Refunds
+    1. Ticket Form filter should exclude Security, Billing, Accounts Receiveable/Refunds.
     1. Has Plan Ticket Tags -SSAT (Incl L&R) is a custom attribute and setting of Includes have `Has Plan + L&R` checked.
-    1. Ticket Created (Year) filter was used and it  use Advanced Date Range settings i.e. "From beginning of" should have `12 months in the past` to "The end of" should have `all history`
-    1. Make sure report should have "Sort" type `A-Z` and have "Totals" at top of bars  in Result Manipulation 
+    1. Ticket Created (Year) filter was used and it  use Advanced Date Range settings i.e. "From beginning of" should have `12 months in the past` to "The end of" should have `all history`.
+    1. Make sure report should have "Sort" type `A-Z` and have "Totals" at top of bars  in Result Manipulation.
 
 ### Intake Per Hour Last 12 Months SM - All Plans
 
@@ -174,22 +173,20 @@ aka IK - H/N/L Tickets - Intake Per Hour Last 12 Months SM
 - Dataset used: Support ( Tickets )
 - Visualization type: Column
 - Metric used: Count (Tickets)
-- Rows: 
-    1. Ticket Priority 
-    
+- Rows:
+    1. Ticket Priority  
         (Includes only Normal, Low, High)
 - Columns:
-    1. Ticket Created (Hour)
-     
+    1. Ticket Created (Hour)  
         (Includes  Check all even DESELECT ALL as well)
 - Filters used:
-    1. Ticket Form 
+    1. Ticket Form
     1. Has Plan Ticket Tags -SSAT (Incl L&R)
 - Custom Settings:
-    1. Ticket Form filter should include only `Self-Managed`. 
+    1. Ticket Form filter should include only `Self-Managed`.
     1. Has Plan Ticket Tags -SSAT (Incl L&R) is a custom attribute and setting of Includes have `Has Plan + L&R` checked.
-    1. Ticket Created (Year) filter was used and it  use Advanced Date Range settings i.e. "From beginning of" should have `12 months in the past` to "The end of" should have `all history`
-    1. Make sure report should have "Sort" type `A-Z` and sum is top on every bar in Result Manipulation 
+    1. Ticket Created (Year) filter was used and it  use Advanced Date Range settings i.e. "From beginning of" should have `12 months in the past` to "The end of" should have `all history`.
+    1. Make sure report should have "Sort" type `A-Z` and sum is top on every bar in Result Manipulation.
 
 ### Intake Per Hour Last 12 Months .COM - All Plans
 
@@ -197,22 +194,20 @@ aka IK - H/N/L Tickets - Intake Per Hour Last 12 Months .COM
 - Dataset used: Support ( Tickets )
 - Visualization type: Column
 - Metric used: Count (Tickets)
-- Rows: 
-    1. Ticket Priority 
-    
-        (Includes only Normal, Low, High)
+- Rows:
+    1. Ticket Priority  
+    (Includes only Normal, Low, High)
 - Columns:
-    1. Ticket Created (Hour)
-     
-        (Includes  Check all even DESELECT ALL as well)
+    1. Ticket Created (Hour)  
+    (Includes  Check all even DESELECT ALL as well)
 - Filters used:
-    1. Ticket Form 
+    1. Ticket Form
     1. Has Plan Ticket Tags -SSAT (Incl L&R)
 - Custom Settings:
     1. Ticket Form filter should include `SaaS` and `SaaS Acocunt`.
     1. Has Plan Ticket Tags -SSAT (Incl L&R) is a custom attribute and setting of Includes have `Has Plan + L&R` checked.
-    1. Ticket Created (Year) filter was used and it  use Advanced Date Range settings i.e. "From beginning of" should have `12 months in the past` to "The end of" should have `all history`
-    1. Make sure report should have "Sort" type `A-Z` and sum is top on every bar in Result Manipulation 
+    1. Ticket Created (Year) filter was used and it  use Advanced Date Range settings i.e. "From beginning of" should have `12 months in the past` to "The end of" should have `all history`.
+    1. Make sure report should have "Sort" type `A-Z` and sum is top on every bar in Result Manipulation.
 
 ### Prefered Region last 6 / 3 Months
 
@@ -223,16 +218,15 @@ aka IK - Prefered Region last 6 / 3 Months
 - Rows: 
     None
 - Columns:
-    1. Preferred Region for Support
-
-        (Includes All Regions, Americas USA, Asia Pacific and Europe Middle East Africa)
+    1. Preferred Region for Support  
+    (Includes All Regions, Americas USA, Asia Pacific and Europe Middle East Africa)
 - Filters used:
-    1. Ticket Form 
+    1. Ticket Form
     1. Has Plan Ticket Tags -SSAT (Incl L&R)
 - Custom Settings:
-    1. Ticket Form filter should include `SaaS`, `SaaS Acocunt`, `Self-Managed` and `L&R` 
-    1. Has Plan Ticket Tags -SSAT (Incl L&R) is a custom attribute and has `no` value to select
-    1. Make sure report should have "Sort" type `A-Z` and "Total" show `sum` on top on every bar in Result Manipulation 
+    1. Ticket Form filter should include `SaaS`, `SaaS Acocunt`, `Self-Managed` and `L&R`.
+    1. Has Plan Ticket Tags -SSAT (Incl L&R) is a custom attribute and has `no` value to select.
+    1. Make sure report should have "Sort" type `A-Z` and "Total" show `sum` on top on every bar in Result Manipulation.
 
 ### FRT SLA % Achieved for .COM/SM
 
@@ -247,17 +241,17 @@ aka IK - FRT SLA For .com/SM
     1. SLA Update - Month
 - Filters used:
     1. SLA Metric
-    1. Ticket Form 
+    1. Ticket Form
     1. 2FA
     1. Has Plan - Ticket Tags
 - Custom Settings:
-    1. SLA Metric includes only First Reply Time
-    1. Ticket Form filter should include `SaaS`, `SaaS Acocunt`, `Self-Managed`
+    1. SLA Metric includes only First Reply Time.
+    1. Ticket Form filter should include `SaaS`, `SaaS Acocunt`, `Self-Managed`.
     1. 2FA is custom attribute and "Not 2FA" needs to be selected.
     1. Has Plan - Ticket Tags is a custom attribute and setting of Includes have `Has Plan` checked.
-    1. SLA Update - Year filter was used and it use Advanced Date Range settings i.e. "From beginning of" should have `13 months in the past` to "The end of" should have `1 month in the past`
+    1. SLA Update - Year filter was used and it use Advanced Date Range settings i.e. "From beginning of" should have `13 months in the past` to "The end of" should have `1 month in the past`.
     1. Make sure report should have "Sort" type `A-Z` and Percentage is shown inside every bar in Result Manipulation.
-    1. It also shows a trend line which can be found in Chart Configuration menu. 
+    1. It also shows a trend line which can be found in Chart Configuration menu.
 
 ### FRT MED .COM/SM
 
@@ -271,17 +265,17 @@ aka IK - FRT MED .COM/SM w/o License
     1. SLA Update - Year
     1. SLA Update - Month
 - Filters used:
-    1. Ticket Form 
+    1. Ticket Form
     1. 2FA
     1. Has Plan - Ticket Tag
 - Custom Settings:
-    1. SLA Metric includes only First Reply Time
-    1. Ticket Form filter should include `SaaS`, `SaaS Acocunt`, `Self-Managed`
+    1. SLA Metric includes only First Reply Time.
+    1. Ticket Form filter should include `SaaS`, `SaaS Acocunt`, `Self-Managed`.
     1. 2FA is custom attribute and "Not 2FA" needs to be selected.
     1. Has Plan - Ticket Tag is a custom attribute and setting of Includes have `Has Plan` checked.
-    1. SLA Update - Year filter was used and it use Advanced Date Range settings i.e. "From beginning of" should have `13 months in the past` to "The end of" should have `1 month in the past`
+    1. SLA Update - Year filter was used and it use Advanced Date Range settings i.e. "From beginning of" should have `13 months in the past` to "The end of" should have `1 month in the past`.
     1. Make sure report should have "Sort" type `A-Z` and Percentage is shown inside every bar in Result Manipulation.
-    1. It also shows a trend line which can be found in Chart Configuration menu. 
+    1. It also shows a trend line which can be found in Chart Configuration menu.
 
 ## NRT SLA % Achieved for .COM/SM
 
@@ -296,13 +290,13 @@ aka IK - NRT SLA for .com/SM
     1. SLA Update - Month
 - Filters used:
     1. GitLab Plan
-    1. Ticket Form 
+    1. Ticket Form
     1. Has Plan - Ticket Tag
 - Custom Settings:
     1. GitLab Plan filter should include `Basic`, `Bronze`, `Gold`, `Premium`, `Silver`, `Ultimate`.
-    1. Ticket Form filter should include `SaaS`, `SaaS Acocunt`, `Self-Managed`
+    1. Ticket Form filter should include `SaaS`, `SaaS Acocunt`, `Self-Managed`.
     1. Has Plan - Ticket Tag is a custom attribute and setting of Includes have `Has Plan` checked.
-    1. SLA Update - Year filter was used and it use Advanced Date Range settings i.e. "From beginning of" should have `13 months in the past` to "The end of" should have `1 month in the past`
+    1. SLA Update - Year filter was used and it use Advanced Date Range settings i.e. "From beginning of" should have `13 months in the past` to "The end of" should have `1 month in the past`.
     1. Make sure report should have "Sort" type `A-Z` and Percentage is shown inside every bar in Result Manipulation.
     1. It also shows a trend line which can be found in Chart Configuration menu.
 
@@ -506,3 +500,4 @@ aka IK - NRT SLA for .com/SM
     ```
 
     Special settings: None
+    
