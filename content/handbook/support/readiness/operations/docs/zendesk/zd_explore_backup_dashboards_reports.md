@@ -215,7 +215,7 @@ aka IK - Prefered Region last 6 / 3 Months
 - Dataset used: Support ( Tickets )
 - Visualization type: Column
 - Metrics used: D_Count (Tickets Created - Last 6 months) and D_Count (Tickets Created - Last 3 months)
-- Rows: 
+- Rows:
     None
 - Columns:
     1. Preferred Region for Support  
@@ -234,7 +234,7 @@ aka IK - FRT SLA For .com/SM
 - Dataset used: Support ( SLAs )
 - Visualization type: Column
 - Metric used: SUM (% Achieved SLA Targets)
-- Rows: 
+- Rows:
     None
 - Columns:
     1. SLA Update - Year
@@ -259,7 +259,7 @@ aka IK - FRT MED .COM/SM w/o License
 - Dataset used: Support ( SLAs )
 - Visualization type: Column
 - Metric used: MED (First reply time (hrs))
-- Rows: 
+- Rows:
     None
 - Columns:
     1. SLA Update - Year
@@ -283,7 +283,7 @@ aka IK - NRT SLA for .com/SM
 - Dataset used: Support ( SLAs )
 - Visualization type: Column
 - Metric used: SUM (% Achieved SLA Targets)
-- Rows: 
+- Rows:
     None
 - Columns:
     1. SLA Update - Year
@@ -325,9 +325,9 @@ aka IK - NRT SLA for .com/SM
 
 
 
-# Custom Attributes and Metrics:
+## Custom Attributes and Metrics:
 
-## Custom Attributes
+### Custom Attributes
 
 1. Created By GitLab Bot Agent:
 
@@ -410,7 +410,7 @@ aka IK - NRT SLA for .com/SM
 
     Special settings: None
 
-1. Has Plan - Ticket Tags: 
+1. Has Plan - Ticket Tags:
 
     Type: Standard Calculated Attribute
     Formula:
@@ -428,7 +428,7 @@ aka IK - NRT SLA for .com/SM
 
 
 
-## Custom Metrics
+### Custom Metrics
 
 1. SM Ticket Count:
 
@@ -499,5 +499,4 @@ aka IK - NRT SLA for .com/SM
     ENDIF
     ```
 
-    Special settings: None
-    
+    Special settings: None  
