@@ -29,7 +29,7 @@ This is the main report in slide 7
     1. Created By GitLab Bot Agent is a custom attribute and should have included `Regular Ticket`.
     1. Ticket Created (Year) use Advanced Date Range settings i.e. "From beginning of" should have `First day of the previous year in second option i.e. for 2023 reports it should be 01/01/2022` to "The end of" should have `1 month in the past`.
     1. Make sure report should have "Sort" type `A-Z` and have "Totals" show `count` inside area and top of area shows Total in Result Manipulation.
-    1. Order of result manipulation should be `1-value filter`in Result Manipulation
+    1. Order of result manipulation should be `1-value filter`in Result Manipulation.
 
 ### Slide 7: Report 2: IK - New Tier Split
 
@@ -46,12 +46,11 @@ This is informative report in slide 7
     1. Ticket Form
     1. Ticket Created (Year)
 - Custom Settings:
-    1.
     1. Ticket Form filter should exclude `GitLab Incidents`, `Professional Services`, `Security`, `Billing`, `Accounts Receiveable/Refunds`, `Security Issue`.
     1. New Tier Split is a custom attribute and should have excluded `Unknown`
     1. Ticket Created (Year) use Advanced Date Range settings i.e. "From beginning of" should have `2 Months in the past` to "The end of" should have `1 month in the past`.
-    1. Make sure report should have "Sort" type `A-Z` and have "Totals" show `count` inside table in Result Manipulation
-    1. Order of result manipulation should be `1-value filter`in Result Manipulation
+    1. Make sure report should have "Sort" type `A-Z` and have "Totals" show `count` inside table in Result Manipulation.
+    1. Order of result manipulation should be `1-value filter`in Result Manipulation.
 
 
 ### Slide 8: Reports use combination of Sheets and Periscope so will be completed by Ilia
@@ -79,8 +78,196 @@ This is main report in Slide 9
     1. Has Plan Ticket Tags -SSAT (Incl L&R) is a custom attribute and includes should have `Has Plan + L&R`.
     1. Ticket ID should exclude `279135`
     1. Ticket Solved (Year) use Advanced Date Range settings i.e. "From beginning of" should have `8 Months in the past` to "The end of" should have `1 month in the past`.
-    1. Make sure report should have "Sort" type `A-Z` and have "Totals" show `percent` on top of every month in Result Manipulation
+    1. Make sure report should have "Sort" type `A-Z` and have "Totals" show `percent` on top of every month in Result Manipulation.
     1. It also shows a trend line which can be found in Chart Configuration menu.
+
+### Slide 10: Report 1 & 2: Outdated Calc
+
+### Slide 11: Report 1,2 (Same like Slide 10), 3 & 4: Outdated Calc
+
+### Slide 12: Report 1,2 (Same like Slide 10 and 11): Outdated Calc
+
+### Slide 12: Report 3: FRT SLAs MoM (4months) - Sep 2022 - No Plan
+
+This is bottom main table in Slide 12
+
+- Dataset used: Support ( SLAs )
+- Visualization type: Table
+- Metric used: D_Count (SLA Tickets), \*AVG (Achieved SLA % - Fix)*\
+- Rows:
+    1. Plan Tags - SaaS/SM
+- Columns:
+    1. SLA Update (Year)
+    1. SLA Update (Month)
+- Filters used:
+    1. Ticket Form
+    1. SLA Metric
+    1. 2FA
+- Custom Settings:
+    1. Plan Tags - SaaS/SM use `Group` in Calculation menu to compute from `Plan Tags - Ticket Tags` and group Self Managed inlucdes `Basic`, `Premium`, `Ultimate` and SaaS includes `Bronze`, `Silver`, `Gold`.
+    1. Ticket Form filter should include `L&R`, `Emergency`, `SaaS`, `SaaS Account`, `Self-Managed`, `Emergencies`.
+    1. SLA Metric should have `First Reply Time` selected.
+    1. 2FA is custom attribute and `Not 2FA` needs to be selected.
+    1. SLA Update (Year) use Advanced Date Range settings i.e. "From beginning of" should have `4 Months in the past` to "The end of" should have `1 month in the past`.
+    1. Make sure report should have "Sort" type `A-Z` and have "Totals" inside `Sum of tickets` Tickets column and show `percent` on % SLA achieved column inside every month in Result Manipulation.
+    1. Order of result manipulation should be `1-value filter`in Result Manipulation.
+
+### Slide 13: Report 1: Outdated Calc
+
+### Slide 13: Report 2: IK - FRT Median Per SLA Type Self-Managed - Table - Oct 2022
+
+This is bottom main table in Slide 13
+
+- Dataset used: Support ( SLAs )
+- Visualization type: Table
+- Metric used: MED (First Reply Time - Business Hours (hrs)), MED (First Reply Time (hrs))
+- Rows:
+    1. Priority by SLA
+- Columns:
+    1. SLA Update (Year)
+    1. SLA Update (Month)
+- Filters used:
+    1. Ticket Form
+    1. Has Plan - Ticket Tags
+    1. Plan Tags - Ticket Tags
+- Custom Settings:
+    1. Priority by SLA use `Rename Values` in Calculation menu to compute from `Ticket Priority - Unsorted` and rename `High` to `4 Hours`, `Normal` to `8 Hours`, `Low` to `24 Hours` and `Urgent` to `30 mins` and check the `Sort attributes like time attributes`.
+    1. Ticket Form filter should include `Self-Managed`, `Emergencies`.
+    1. Has Plan - Ticket Tags is a custom attribute and setting of Includes have `Has Plan` checked.
+    1. Plan Tags - Ticket Tags is a custom attribute and should have `Ultimate` and `Premium` selected.
+    1. SLA Update (Year) use Simple Date Range settings for value `last month`.
+    1. Make sure report should have "Sort" type `A-Z`.
+    1. Order of result manipulation should be `1-value filter`in Result Manipulation.
+
+### Slide 14: Report 1: Outdated Calc
+
+### Slide 14: Report 2: IK - FRT Median Per SLA Type SaaS - Table - Oct 2022
+
+This is bottom main table in Slide 14
+
+- Dataset used: Support ( SLAs )
+- Visualization type: Table
+- Metric used: MED (First Reply Time - Business Hours (hrs)), MED (First Reply Time (hrs))
+- Rows:
+    1. Priority by SLA
+- Columns:
+    1. SLA Update (Year)
+    1. SLA Update (Month)
+- Filters used:
+    1. Ticket Form
+    1. Has Plan - Ticket Tags
+    1. Plan Tags - Ticket Tags
+    1. 2FA
+- Custom Settings:
+    1. Priority by SLA use `Rename Values` in Calculation menu to compute from `Ticket Priority - Unsorted` and rename `High` to `4 Hours`, `Normal` to `8 Hours`, `Low` to `24 Hours` and `Urgent` to `30 mins` and check the `Sort attributes like time attributes`.
+    1. Ticket Form filter should include `SaaS`, `SaaS Account`, `Emergencies`.
+    1. Has Plan - Ticket Tags is a custom attribute and setting of Includes have `Has Plan` checked.
+    1. Plan Tags - Ticket Tags is a custom attribute and should have `Gold` and `Silver` selected.
+    1. 2FA is custom attribute and `Not 2FA` needs to be selected.
+    1. SLA Update (Year) use Simple Date Range settings for value `last month`.
+    1. Make sure report should have "Sort" type `A-Z`.
+    1. Order of result manipulation should be `1-value filter`in Result Manipulation.
+
+### Slide 15: Report 1: Median FRT - Last 6 Months by Plan (self-managed) - Oct 2022
+
+This is side main chart in Slide 15
+
+- Dataset used: Support ( SLAs )
+- Visualization type: Column
+- Metric used: MED (First Reply Time - Business Hours (hrs))
+- Rows:
+    1. Plan Tags - SaaS/SM
+- Columns:
+    1. SLA Update (Year)
+    1. SLA Update (Month)
+- Filters used:
+    1. Ticket Form
+    1. Has Plan - Ticket Tags
+    1. 2FA
+- Custom Settings:
+    1. Plan Tags - SaaS/SM use `Group` in Calculation menu to compute from `Plan Tags - Ticket Tags` and group Self Managed inlucdes `Basic`, `Premium`, `Ultimate` and SaaS includes `Bronze`, `Silver`, `Gold`.
+    1. Rows should have `Plan Tags - SaaS/SM` selected with `Self - Managed`.
+    1. Ticket Form filter should include `L&R`, `Emergency`, `Other`, `SaaS`, `SaaS Account`, `Self-Managed`, `Emergencies`.
+    1. Has Plan - Ticket Tags is a custom attribute and setting of Includes have `Has Plan` checked.
+    1. 2FA is custom attribute and `Not 2FA` needs to be selected.
+    1. SLA Update (Year) use Advanced Date Range settings i.e. "From beginning of" should have `6 Months in the past` to "The end of" should have `1 month in the past`.
+    1. Make sure report should have "Sort" type `A-Z` and have "Totals" `Median of Hours` in Tickets column over every month in Result Manipulation.
+    1. Order of result manipulation should be `1-value filter`in Result Manipulation.
+
+## Slide 15: Report 2: Median FRT - Last 6 Months by Plan (.com) - Oct 2022
+
+This is side main chart in Slide 15
+
+- Dataset used: Support ( SLAs )
+- Visualization type: Column
+- Metric used: MED (First Reply Time - Business Hours (hrs))
+- Rows:
+    1. Plan Tags - SaaS/SM
+- Columns:
+    1. SLA Update (Year)
+    1. SLA Update (Month)
+- Filters used:
+    1. Ticket Form
+    1. Has Plan - Ticket Tags
+    1. 2FA
+- Custom Settings:
+    1. Plan Tags - SaaS/SM use `Group` in Calculation menu to compute from `Plan Tags - Ticket Tags` and group Self Managed inlucdes `Basic`, `Premium`, `Ultimate` and SaaS includes `Bronze`, `Silver`, `Gold`.
+    1. Rows should have `Plan Tags - SaaS/SM` selected with `SaaS`.
+    1. Ticket Form filter should include `L&R`, `Emergency`, `Other`, `SaaS`, `SaaS Account`, `Self-Managed`, `Emergencies`.
+    1. Has Plan - Ticket Tags is a custom attribute and setting of Includes have `Has Plan` checked.
+    1. 2FA is custom attribute and `Not 2FA` needs to be selected.
+    1. SLA Update (Year) use Advanced Date Range settings i.e. "From beginning of" should have `6 Months in the past` to "The end of" should have `1 month in the past`.
+    1. Make sure report should have "Sort" type `A-Z` and have "Totals" `Median of Hours` in Tickets column over every month in Result Manipulation.
+    1. Order of result manipulation should be `1-value filter`in Result Manipulation.
+
+### Slide 16: Report 1: Median FRT - Last 6 Months
+
+This is main chart in Slide 16
+
+- Dataset used: Support ( SLAs )
+- Visualization type: Area
+- Metric used: MED (First Reply Time - Business Hours (hrs))
+- Rows:
+    None
+- Columns:
+    1. SLA Update (Year)
+    1. SLA Update (Month)
+- Filters used:
+    1. Ticket Form
+    1. Has Plan Ticket Tags - SSAT (Inc L&R)
+    1. 2FA
+- Custom Settings:
+    1. Ticket Form filter should include `L&R`, `Emergency`, `Other`, `SaaS`, `SaaS Account`, `Self-Managed`, `Emergencies`.
+    1. Has Plan Ticket Tags -SSAT (Incl L&R) is a custom attribute and includes should have `Has Plan + L&R`.
+    1. 2FA is custom attribute and `Not 2FA` needs to be selected.
+    1. SLA Update (Year) use Advanced Date Range settings i.e. "From beginning of" should have `6 Months in the past` to "The end of" should have `1 month in the past`.
+    1. Make sure report should have "Sort" type `A-Z` and have "Totals" `Median of Hours` in area over every month in Result Manipulation.
+    1. Order of result manipulation should be `1-value filter`in Result Manipulation.
+
+## Slide 16: Report 2: Median FRT - Last Month Per Plan - Sep 2022 - No Plan
+
+This is side small table in Slide 16
+
+- Dataset used: Support ( SLAs )
+- Visualization type: Table
+- Metric used: MED (First Reply Time (hrs)), MED (First Reply Time - Business Hours (hrs))
+- Rows:
+    1. Plan Tags - SaaS/SM
+- Columns:
+    1. SLA Update (Month)
+- Filters used:
+    1. Ticket Form
+    1. Has Plan Ticket Tags - SSAT (Inc L&R)
+    1. 2FA
+- Custom Settings:
+    1. Plan Tags - SaaS/SM use `Group` in Calculation menu to compute from `Plan Tags - Ticket Tags` and group Self Managed inlucdes `Basic`, `Premium`, `Ultimate` and SaaS includes `Bronze`, `Silver`, `Gold`.
+    1. Rows should have `Plan Tags - SaaS/SM` selected with both `SaaS` and `Self - Managed`.
+    1. Ticket Form filter should include `L&R`, `Emergency`, `Other`, `SaaS`, `SaaS Account`, `Self-Managed`, `Emergencies`.
+    1. Has Plan Ticket Tags -SSAT (Incl L&R) is a custom attribute and includes should have `Has Plan + L&R`.
+    1. 2FA is custom attribute and `Not 2FA` needs to be selected.
+    1. SLA Update (Month) use Simple Date Range settings for value `last month`.
+    1. Make sure report should have "Sort" type `A-Z` and have "Totals" `Median of FRT Hours` and `Median of First Reply Time - Business Hours` in `FRT` and `FRT Business Hours` Tickets column and `Plans` will be showing in rows.
+    1. Order of result manipulation should be `1-value filter`in Result Manipulation.
 
 ## Dashboards
 
@@ -267,12 +454,12 @@ aka IK - FRT MED .COM/SM w/o License
 - Filters used:
     1. Ticket Form
     1. 2FA
-    1. Has Plan - Ticket Tag
+    1. Has Plan - Ticket Tags
 - Custom Settings:
     1. SLA Metric includes only First Reply Time.
     1. Ticket Form filter should include `SaaS`, `SaaS Acocunt`, `Self-Managed`.
     1. 2FA is custom attribute and "Not 2FA" needs to be selected.
-    1. Has Plan - Ticket Tag is a custom attribute and setting of Includes have `Has Plan` checked.
+    1. Has Plan - Ticket Tags is a custom attribute and setting of Includes have `Has Plan` checked.
     1. SLA Update - Year filter was used and it use Advanced Date Range settings i.e. "From beginning of" should have `13 months in the past` to "The end of" should have `1 month in the past`.
     1. Make sure report should have "Sort" type `A-Z` and Percentage is shown inside every bar in Result Manipulation.
     1. It also shows a trend line which can be found in Chart Configuration menu.
@@ -291,11 +478,11 @@ aka IK - NRT SLA for .com/SM
 - Filters used:
     1. GitLab Plan
     1. Ticket Form
-    1. Has Plan - Ticket Tag
+    1. Has Plan - Ticket Tags
 - Custom Settings:
     1. GitLab Plan filter should include `Basic`, `Bronze`, `Gold`, `Premium`, `Silver`, `Ultimate`.
     1. Ticket Form filter should include `SaaS`, `SaaS Acocunt`, `Self-Managed`.
-    1. Has Plan - Ticket Tag is a custom attribute and setting of Includes have `Has Plan` checked.
+    1. Has Plan - Ticket Tags is a custom attribute and setting of Includes have `Has Plan` checked.
     1. SLA Update - Year filter was used and it use Advanced Date Range settings i.e. "From beginning of" should have `13 months in the past` to "The end of" should have `1 month in the past`.
     1. Make sure report should have "Sort" type `A-Z` and Percentage is shown inside every bar in Result Manipulation.
     1. It also shows a trend line which can be found in Chart Configuration menu.
@@ -424,8 +611,29 @@ aka IK - NRT SLA for .com/SM
 
     Special settings: None
 
+1. Plan Tags - Ticket Tags:
 
+    Type: Standard Calculated Attribute
+    Formula:
 
+    ```text
+    IF(INCLUDES_ANY([Ticket tags],"ultimate"))
+    THEN "Ultimate"
+    ELIF(INCLUDES_ANY([Ticket tags],"premium"))
+    THEN "Premium"
+    ELIF(INCLUDES_ANY([Ticket tags],"basic","starter"))
+    Then "Basic"
+    ELIF(INCLUDES_ANY([Ticket tags],"gold"))
+    THEN "Gold"
+    ELIF(INCLUDES_ANY([Ticket tags],"silver"))
+    THEN "Silver"
+    ELIF(INCLUDES_ANY([Ticket tags],"bronze"))
+    THEN "Bronze"
+    ELSE "Unknown"
+    ENDIF
+    ```
+
+    Special settings: None
 
 
 ### Custom Metrics
@@ -497,6 +705,17 @@ aka IK - NRT SLA for .com/SM
     THEN 
     [Ticket ID] 
     ENDIF
+    ```
+
+    Special settings: None  
+
+1. Achieved SLA % - Fix
+
+    Type: Standard Calucated Metric
+    Formula:
+
+    ```Text
+    SUM(Achieved SLA tickets)/(SUM(Achieved SLA tickets)+D_COUNT(Breached SLA tickets))
     ```
 
     Special settings: None  
