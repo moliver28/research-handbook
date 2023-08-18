@@ -57,7 +57,7 @@ This is informative report in slide 7
 
 ### Slide 9: Report 1: Month over Month Trend: SSAT (Customers)
 
-This is main report in Slide 9
+This is main chart in Slide 9
 
 - Dataset used: Support ( Tickets )
 - Visualization type: Area
@@ -376,7 +376,7 @@ This is main chart in Slide 21
 
 ### Slide 21: Report 2: Median FRT - Last Month Per Plan - Sep 2022 - No Plan
 
-This is side small table in Slide 16
+This is side small table in Slide 22
 
 - Dataset used: Support ( SLAs )
 - Visualization type: Table
@@ -400,7 +400,132 @@ This is side small table in Slide 16
     1. Make sure report should have "Sort" type `A-Z` and have "Totals" `Median of FRT Hours` and `Median of First Reply Time - Business Hours` in `FRT` and `FRT Business Hours` Tickets column and `Plans` will be showing in rows.
     1. Order of result manipulation should be `1-value filter`in Result Manipulation.
 
+### Slide 22: Report 1: IK - MED FRT L&R 6 Months
 
+This is left side top chart in slide 22
+
+- Dataset used: Support ( SLAs )
+- Visualization type: Area
+- Metric used: MED (First Reply Time (hrs)), MED (First Reply Time - Business Hours (hrs))
+- Rows:
+    None
+- Columns:
+    1. SLA Update (Year)
+    1. SLA Update (Month)
+- Filters used:
+    1. Ticket Form
+- Custom Settings:
+    1. Ticket Form filter should include `L&R`.
+    1. SLA Update (Year) use Advanced Date Range settings i.e. "From beginning of" should have `6 Months in the past` to "The end of" should have `1 month in the past`.
+    1. Make sure report should have "Sort" type `A-Z` and have "Totals" `Median of Hours` in area over every month in Result Manipulation.
+    1. Order of result manipulation should be `1-value filter`in Result Manipulation.
+
+### Slide 22: Report 2: Outdated Calc
+
+### Slide 22: Report 3: IK - Total Incoming Tickets For L&R - 6 Months
+
+This is left side bottom chart in slide 22
+
+- Dataset used: Updates History
+- Visualization type: Column
+- Metric used: Count (Tickets Created)
+- Rows:
+    1. Ticket Priority
+- Columns:
+    1. Ticket Created - Year
+    1. Ticket Created - Month
+- Filters used:
+    1. Ticket Form
+- Custom Settings:
+    1. Ticket Form filter should include `L&R`.
+    1. Ticket Created - Year use Advanced Date Range settings i.e. "From beginning of" should have `6 Months in the past` to "The end of" should have `1 month in the past`.
+    1. Make sure report should have "Sort" type `A-Z`.
+
+### Slide 22: Report 4: Incorrect Calculated Metric i.e. RWT Minus On-hold
+
+### lide 23: Report 1: Incorrect Calculated Metric i.e. RWT Minus On-hold
+
+### Slide 23: Report 2: Incorrect Calculated Metric i.e. TTR
+
+### Slide 24: Report 1: IK - Reduced Effort Free Ratio
+
+This is main side chart in Slide 24
+
+- Dataset used: Support ( Tickets)
+- Visualization type: Line (Main)
+- Metric used: D_Count \*(Free Reduced Effort - May/2023)*\, \*D_Count (All Free)*\, \*SUM (Reduction Effort %)*\
+- Rows:
+    None
+- Columns:
+    1. Ticket Created - Year
+    1. Ticket Created - Month
+- Filters used:
+    1. Ticket Form
+    1. Created By Agent
+    1. Plan - Support costs adjusted 2021/10
+    1. Custom plan remove
+    1. Validation License Failed
+    1. Ticket Organization Name
+- Custom Settings:
+    1. Free Reduced Effort - May/2023 is a custom Metric.
+    1. All Free is a custom metric.
+    1. Reduction Effort % is a custom metric and use Dual Axis in the Metrics panel.
+    1. Plan - Support costs adjusted 2021/10 is a custom attribute and should have selected `Core`, `Free Account`, `Free SaaS`.
+    1. Created By Agent is a custom attribute and should have selected `Not Created By Agent`.
+    1. Custom plan remove is a custom attribute and should have selected `All Else`.
+    1. Validation License Failed is a custom attribute and should have selected `All Else`.
+    1. Ticket Form filter should include `SaaS`, `SaaS Account`, `Self-Managed`.
+    1. Ticket Created - Year use Advanced Date Range settings i.e. "From beginning of" should have `6/1/2020` to "The end of" should have `1 month in the past`.
+    1. Make sure report should have "Sort" type `A-Z` and have "Totals of Count" shows in lines over every month in Result Manipulation.
+    1. Order of result manipulation should be `1-value filter`in Result Manipulation.
+
+### Slide 25: Report 1: IK - Top 20 SSAT 
+
+This is left side top chart in slide 25. **USE Self Manged or SAAS in Ticket Form filter to create another report**
+
+- Dataset used: Support (Tickets)
+- Visualization type: Column
+- Metric used: Sum (%Satisfaction Score), D_Count(Rated Satisfaction Tickets)
+- Rows:
+    None
+- Columns:
+    1. Ticket Solved - Year
+    1. Ticket Solved - Month
+- Filters used:
+    1. Ticket Form
+    1. Ticket Organization
+- Custom Settings:
+    1. D_Count(Rated Satisfaction Tickets) is using Dual axis in the Metrics panel.
+    1. Ticket Form filter should include `L&R`, `Emergency`, `SaaS`, `SaaS Account`, `Self-Managed`, `Emergencies`.
+    1. Ticket Organization should be selected with Organization having top 20 ARR.
+    1. Ticket Solved - Year use Advanced Date Range settings i.e. "From beginning of" should have `6 Months in the past` to "The end of" should have `1 month in the past`.
+    1. Make sure report should have "Sort" type `A-Z` and "Totals of Count" shows in percentage in columns over every month in Result Manipulation.
+    1. Order of result manipulation should be `1-value filter`in Result Manipulation.
+
+### Slide 25: Report 2: IK - Top 20 FRT 
+
+This is left side bottom chart in Slide 25. **USE Self Manged or SAAS in Ticket Form filter to create another report**
+
+- Dataset used: Support ( SLAs )
+- Visualization type: Column
+- Metric used: SUM (% Achieved SLA tickets), D_Count (SLA Tickets)
+- Rows:
+    None
+- Columns:
+    1. SLA Update - Year
+    1. SLA Update - Month
+- Filters used:
+    1. Ticket Form
+    1. SLA Metric
+    1. Ticket Organization
+- Custom Settings:
+    1. D_Count(SLA Tickets) is using Dual axis in the Metrics panel.
+    1. Ticket Form filter should include `L&R`, `Emergency`, `SaaS`, `SaaS Account`, `Self-Managed`, `Emergencies`.
+    1. Ticket Organization should be selected with Organization having top 20 ARR.
+    1. SLA Metric should be selected as `First Reply Time`.
+    1. SLA Update - Year use Advanced Date Range settings i.e. "From beginning of" should have `6 Months in the past` to "The end of" should have `1 month in the past`.
+    1. Make sure report should have "Sort" type `A-Z` and "Totals of Count" shows in percentage in columns over every month in Result Manipulation.
+    1. Order of result manipulation should be `1-value filter`in Result Manipulation.
 
 ## Dashboards
 
@@ -768,6 +893,74 @@ aka IK - NRT SLA for .com/SM
 
     Special settings: None
 
+1. Plan - Support costs adjusted 2021/10
+
+    Type: Standard Calculated Attribute
+    Formula:
+
+    ```text
+    IF (INCLUDES_ANY([Ticket tags],"consumption_only")) THEN "Consumption"
+    ELIF((NOT INCLUDES_ANY([Ticket tags],"silver","basic","starter","premium","gold","bronze","ultimate") AND ([Ticket form]="SaaS Account"))) THEN "Free Account"
+    ELIF ([SaaS Subscription]="com_sales_assisted_trial" OR [SaaS Subscription]="Sales Assisted Trial" OR [Self-Managed Subscription]="sm_sales_assisted_trial" OR [Self-Managed Subscription]="Sales Assisted Trial") THEN "Sales asisted trial"
+    ELIF(INCLUDES_ANY([Ticket tags],"priority_prospect")) THEN "Priority Prospect"
+    ELIF([Ticket form]="L&R" AND NOT (INCLUDES_ALL([Ticket tags],"%edu_account_inquiries__pass_to_edu_%"))) THEN "L&R"
+    ELIF(NOT INCLUDES_ANY([Ticket tags],"silver","basic","starter","premium","gold","bronze","ultimate") AND ([Ticket form]="Self-Managed") OR (INCLUDES_ALL([Ticket tags],"%edu_account_inquiries__pass_to_edu_%")))THEN "Core"
+    ELIF(NOT INCLUDES_ANY([Ticket tags],"silver","basic","starter","premium","gold","bronze","ultimate") AND ([Ticket form]="SaaS")) THEN "Free SaaS"
+    ELIF(INCLUDES_ANY([Ticket tags],"silver","basic","starter","premium","gold","bronze","ultimate") AND ([Ticket form]="SaaS Account")) THEN "Paid Account"
+    ELIF(INCLUDES_ANY([Ticket tags],"ultimate")) THEN "Ultimate"
+    ELIF(INCLUDES_ANY([Ticket tags],"premium")) THEN "Premium"
+    ELIF(INCLUDES_ANY([Ticket tags],"basic","starter"))THEN "Basic"
+    ELIF(INCLUDES_ANY([Ticket tags],"gold")) THEN "Gold"
+    ELIF(INCLUDES_ANY([Ticket tags],"silver")) THEN "Silver"
+    ELIF(INCLUDES_ANY([Ticket tags],"bronze")) THEN "Bronze"
+    ELIF([Ticket form]="Other") THEN "Other"
+    ELSE "Unknown"
+    ENDIF
+    ```
+
+    Special settings: None
+
+1. Created By Agent
+
+    Type: Standard Calculated Attribute
+    Formula:
+
+    ```text
+    IF (INCLUDES_ANY([Ticket tags],"created_by_agent"))
+    THEN "Created By Agent"
+    ELSE "Not Created By Agent"
+    ENDIF
+    ```
+
+    Special settings: None
+
+1. Custom plan remove
+
+    Type: Standard Calculated Attribute
+    Formula:
+
+    ```text
+    IF (INCLUDES([Ticket tags], ARRAY("custom"))) 
+    THEN "Custom Plan"
+    ELSE "All Else"
+    ENDIF
+    ```
+
+    Special settings: None
+
+1. Validation License Failed
+
+    Type: Standard Calculated Attribute
+    Formula:
+
+    ```text
+    IF (INCLUDES([Ticket tags], ARRAY("%autoclose_nonapproved_users%"))) 
+    THEN "Validation Failed"
+    ELSE "All Else"
+    ENDIF
+    ```
+
+    Special settings: None
 
 ### Custom Metrics
 
@@ -849,6 +1042,61 @@ aka IK - NRT SLA for .com/SM
 
     ```Text
     SUM(Achieved SLA tickets)/(SUM(Achieved SLA tickets)+D_COUNT(Breached SLA tickets))
+    ```
+
+    Special settings: None
+
+1. Free Reduced Effort - May/2023
+
+    Type: Standard Calucated Metric
+    Formula:
+
+    ```Text
+    IF (INCLUDES_ANY([Ticket tags], ARRAY("autoclose-2fa-free","autoclose_2fa_free")))
+    OR (INCLUDES_ALL([Ticket tags], ARRAY("email_suppression_autochecked","free_customer"))) 
+    OR (INCLUDES_ANY([Ticket tags], ARRAY("autoresponder_free_tickets","auto_reply_free_plan"))) 
+    OR (INCLUDES_ANY([Ticket tags], ARRAY("agent_identified_free_user"))) 
+    OR (INCLUDES_ALL([Ticket tags], ARRAY("verification_requested","stage-needsorg")))
+    OR (INCLUDES_ANY([Ticket tags], ARRAY("autowork_account_blocked"))) 
+    OR (INCLUDES_ANY([Ticket tags], ARRAY("autowork_no_confirmation_email"))) 
+    OR (INCLUDES_ANY([Ticket tags], ARRAY("autowork_forgot_password")))
+    OR (INCLUDES_ANY([Ticket tags], ARRAY("autoreply_saas_free")))
+    OR (INCLUDES_ANY([Ticket tags], ARRAY("autoreply_prospect_free")))
+    OR (INCLUDES_ANY([Ticket tags], ARRAY("close_unmonitored_inbox")))
+    OR (INCLUDES_ANY([Ticket tags], ARRAY("autoclose_namesquatting_free")))
+    OR (INCLUDES_ALL([Ticket tags], ARRAY("autoclose_security"))) 
+    OR (INCLUDES_ALL([Ticket tags], ARRAY("autoresponder_gdpr"))) 
+    OR (INCLUDES_ALL([Ticket tags], ARRAY("autoclose_sm_free")))
+    OR (INCLUDES_ALL([Ticket tags], ARRAY("closed_unassociated_ticket")))
+    OR (INCLUDES_ALL([Ticket tags], ARRAY("saas_account_access_issues_locked")))
+    OR (INCLUDES_ALL([Ticket tags], ARRAY("submitted_via_gitlab_email")))
+    OR (INCLUDES_ALL([Ticket tags], ARRAY("autoclose_nonapproved_users")))
+    THEN [Ticket ID]
+    ENDIF
+    ```
+
+    Special settings: None
+
+1. All Free
+
+    Type: Standard Calucated Metric
+    Formula:
+
+    ```Text
+    IF (NOT INCLUDES_ANY([Ticket tags],"silver","basic","starter","premium","gold","bronze","ultimate"))
+    THEN [Ticket ID]
+    ENDIF
+    ```
+
+    Special settings: None
+
+1. Reduction Effort %
+
+    Type: Standard Calucated Metric
+    Formula:
+
+    ```Text
+    (D_COUNT(Free Reduced Effort - May/2023)/D_COUNT(All Free))*100
     ```
 
     Special settings: None
