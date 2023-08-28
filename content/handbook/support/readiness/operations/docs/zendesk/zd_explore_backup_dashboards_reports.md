@@ -529,7 +529,7 @@ This is left side bottom chart in Slide 25. **USE Self Manged or SAAS in Ticket 
 
 ### Slide 26: Report 1: IK - Linked Total
 
-This is top table in Slide 26. 
+This is top table in Slide 26.
 
 - Dataset used: Support ( Tickets )
 - Visualization type: Table
@@ -542,7 +542,7 @@ This is top table in Slide 26.
 - Filters used:
     1. Duplicate Tickets
     1. Ticket Form
-    1. Has Plan - Ticket Tag 
+    1. Has Plan - Ticket Tag
     1. Created by Agent
 - Custom Settings:
     1. `Total Linked`, `% Total Linked`, `% Linked Docs`, `Linked Docs`, `% Linked MR`, `Linked MR`, `% Linked Issues`, `Linked Issues`, `% Linked HB` and `Linked Handbook` are custom mertrics.
@@ -555,7 +555,7 @@ This is top table in Slide 26.
 
 ### Slide 26: Report 2: IK - Linked Docs
 
-This is bottom left chart in Slide 26. 
+This is bottom left chart in Slide 26.
 
 - Dataset used: Support ( Tickets )
 - Visualization type: Column
@@ -568,7 +568,7 @@ This is bottom left chart in Slide 26.
 - Filters used:
     1. Duplicate Tickets
     1. Ticket Form
-    1. Has Plan - Ticket Tag 
+    1. Has Plan - Ticket Tag
 - Custom Settings:
     1. % Linked Docs is a custom mertric.
     1. Duplicate Tickets is a custom attribute and should have `Not Duplicate` selected.
@@ -580,7 +580,7 @@ This is bottom left chart in Slide 26.
 
 ### Slide 26: Report 3: IK - Linked Issues
 
-This is bottom middle chart in Slide 26. 
+This is bottom middle chart in Slide 26.
 
 - Dataset used: Support ( Tickets )
 - Visualization type: Column
@@ -593,7 +593,7 @@ This is bottom middle chart in Slide 26.
 - Filters used:
     1. Duplicate Tickets
     1. Ticket Form
-    1. Has Plan - Ticket Tag 
+    1. Has Plan - Ticket Tag
 - Custom Settings:
     1. % Linked Issues is a custom mertric.
     1. Duplicate Tickets is a custom attribute and should have `Not Duplicate` selected.
@@ -605,7 +605,7 @@ This is bottom middle chart in Slide 26.
 
 ### Slide 26: Report 4: IK - Linked MR's
 
-This is bottom middle chart in Slide 26. 
+This is bottom middle chart in Slide 26.
 
 - Dataset used: Support ( Tickets )
 - Visualization type: Column
@@ -618,7 +618,7 @@ This is bottom middle chart in Slide 26.
 - Filters used:
     1. Duplicate Tickets
     1. Ticket Form
-    1. Has Plan - Ticket Tag 
+    1. Has Plan - Ticket Tag
 - Custom Settings:
     1. % Linked MR is a custom mertric.
     1. Duplicate Tickets is a custom attribute and should have `Not Duplicate` selected.
@@ -630,7 +630,7 @@ This is bottom middle chart in Slide 26.
 
 ### Slide 26: Report 4: IK - Linked HB
 
-This is bottom right chart in Slide 26. 
+This is bottom right chart in Slide 26.
 
 - Dataset used: Support ( Tickets )
 - Visualization type: Column
@@ -643,7 +643,7 @@ This is bottom right chart in Slide 26.
 - Filters used:
     1. Duplicate Tickets
     1. Ticket Form
-    1. Has Plan - Ticket Tag 
+    1. Has Plan - Ticket Tag
 - Custom Settings:
     1. % Linked HB is a custom mertric.
     1. Duplicate Tickets is a custom attribute and should have `Not Duplicate` selected.
@@ -667,7 +667,7 @@ This is bottom right chart in Slide 26.
     - Widgets used:
         None
     - Reports used:
-        
+  
 1. SaaS General:
     - Widgets used:
         - None
