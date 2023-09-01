@@ -24,11 +24,27 @@ IT Enterprise Applications Admin is a [grade 6](https://about.gitlab.com/handboo
 
 ### IT Enterprise Applications Admin Responsibilities
 
-- TO BE ADDED
+- Technical Delivery: Ability to administer and configure enterprise applications to support GitLab business processes while adhering to SOX compliant change management
+- Process Improvement: Accomplish improvements to processes that you support. Understanding the impacts of changes recommended and how to translate them into technical requirements. Document updated processes in the company handbook
+- Business Acumen: Understanding of core business processes of quote to cash, record to report, hire to retire and procure to pay. Motivation for continuous learning in these areas.
+- Business Engagement: Engage with your team and stakeholders regarding their business strategy and objectives for automating and optimizing processes. Meet regularly with business partners to ensure that the applications are functioning as designed and supporting their needs
+- Compliance: Supports data, security, and legal governance processes and adherence of guidelines between internal business units and systems in order to ensure efficient and compliance of technical delivery
+- Project Management: Run small sized projects that improve our ability to make better data focused insights or make the company more efficient
+- Solve technical problems of moderate scope and complexity
+- Craft code as required in Dev that meets our internal standards for style, maintainability, and best practices
+- Conduct Code Review within our Code Review Guidelines and ensure community contributions receive a swift response
 
 ### IT Enterprise Applications Admin Requirements
 
-- TO BE ADDED
+- Bachelor’s degree, preferably in Computer Science, Information Technology, Computer Engineering, or related IT discipline; or equivalent experience
+- Ability to use GitLab
+- 2-3 years of experience in a systems administrator
+- Hands-on administrator experience: SalesForce, DocuSign CLM, Netsuite, Zuora Billing, Zuora Revenue, Coupa, Zip, Navan, Workday, ADP, eTrade etc
+- Public company and SOX ITGC controls experience preferred
+- Ability to thrive in a fully remote organization
+- Be a self-starter, and thrive in a fast paced environment, customer centric and have the interpersonal skills necessary to manage business and technology - relationships
+- Exceptional time management and prioritization skills, resilient under pressure
+- Exhibit strong security and confidentiality practices with systems that handle sensitive data
 
 ## Senior IT Enterprise Applications Admin
 
