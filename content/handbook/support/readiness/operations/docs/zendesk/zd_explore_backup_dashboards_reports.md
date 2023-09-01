@@ -659,60 +659,6 @@ This is bottom right chart in Slide 26.
 
 ## Dashboards
 
-### Support KPIs
-
-#### Tabs
-
-1. SWIR:
-    - Widgets used:
-        None
-    - Reports used:
-  
-1. SaaS General:
-    - Widgets used:
-        - None
-    - Reports used:
-
-1. SaaS Accounts:
-    - Widgets used:
-        - None
-    - Reports used:
-
-1. SM:
-    - Widgets used:
-        - None
-    - Reports used:
-
-1. L&R:
-    - Widgets used:
-        - None
-    - Reports used:
-
-1. SWIR L&R:
-    - Widgets used:
-        - None
-    - Reports used:
-
-1. Total w/o L&R:
-    - Widgets used:
-        - None
-    - Reports used:
-
-1. Two Week Target:
-    - Widgets used:
-        - None
-    - Reports used:
-
-1. On-Hold:
-    - Widgets used:
-        - None
-    - Reports used:
-
-1. RWT:
-    - Widgets used:
-        - Bookmark Widget
-    - Reports used:
-
 ### Support Metrics
 
 #### Tabs
@@ -734,6 +680,174 @@ This is bottom right chart in Slide 26.
         1. FRT SLA % Achieved for .COM/SM
         1. FRT MED .COM/SM
         1. NRT SLA % Achieved for .COM/SM
+        1. NRT MED .COM/SM
+        1. FRT SLA % Achieved for SM
+        1. NRT SLA % Achieved for SM
+        1. FRT SLA % Achieved for .COM
+        1. NRT SLA % Achieved for .COM
+        1. Requester Wait Time .COM/SM/L&R
+        1. NRT Achieved per Preferred Region
+        1. FRT Achieved per Preferred Region
+        1. FRT Per Priority .COM/SM
+        1. FRT Per Priority .COM/SM
+1. SLA #2 :
+    - Widgets used:
+        - Time Filter widget
+    - Reports used:
+        1. Median TTR SaaS/SM
+        1. Median TTR SM
+        1. Median TTR SaaS
+        1. Requester Wait Time SM
+        1. Requester Wait Time SaaS
+        1. Support Solved/Closed Tickets
+        1. One-Touch Solved Per Ticket Form Ratio (w/o Free)
+1. SSAT :
+    - Widgets used:
+        - Time Filter widget
+    - Reports used:
+        1. SSAT Distribution For Combined .COM/SM
+        1. SSAT Distribution .COM
+        1. SSAT Distribution SM
+        1. Poor SSAT Reasons Breakdown for .COM
+        1. Poor SSAT Reasons Breakdown for SM
+        1. SSAT Volume 3 Months .COM
+        1. SSAT Volume 3 Months SM
+        1. SSAT% For Tickets with Issue Links
+        1. Survery Responded 12 Months
+1. Doc:
+    - Widgets used:
+        - None
+    - Reports used:
+        1. Linked Total
+        1. Linked Docs
+        1. Linked Issues
+        1. Linked MR's
+        1. Linked HB's
+        1. Linked Total - Private
+        1. No Problem Type
+1. Assignment:
+    - Widgets used:
+        - None
+    - Reports used:
+        1. Assigned vs Unassigned
+        1. Unassigned Tickets per Ticket Form
+        1. Unassigned vs Assigned Not New Multi-Touch Ticket Ratio
+        1. Public comments on Assigned tickets ratio in % Per Region Weekly
+        1. Total Support Open Tickets Per Ticket Form
+        1. Unassigned Open Tickets Per Ticket Form
+        1. Public comments on Unassigned vs Assigned Tickets Per Team.
+1. Emergency:
+    - Widgets used:
+        - None
+    - Reports used:
+        1. Emergency Tickets - Intake Per Month
+        1. Emergency Tickets - Weekend Opened Worldwide
+        1. Emergency NRT
+        1. Emergency FRT
+        1. Opened on Weekend Breached
+1. Region:
+    - Widgets used:
+        - None
+    - Reports used:
+        1. Regional Updates Per Hour Last 6 Months
+        1. US Update per preferred region last 6 Months
+        1. EMEA Update per preferred region last 6 Months
+        1. APAC Update per preferred region last 6 Months
+        1. SLA % Breached Per Hour Last 4 Months
+        1. SLA Events Breached Per Hour Last 4 Months
+        1. SLA % Breached Per Hour Last 4 Months .COM
+        1. SLA Events Breached Per Hour Last 4 Months .COM
+        1. SLA % Breached Per Hour Last 4 Months SM
+        1. SLA Events Breached Per Hour Last 4 Months SM
+1. SWIR:
+    - Widgets used:
+        - None
+    - Reports used:
+        1. SSAT
+        1. FRT
+        1. NRT
+        1. Volume
+        1. Week Over Week SM SLA
+        1. LK - Total FRT SLA - Last 4 Weeks + Priority
+        1. FRT SLA For SM - Last 3 Weeks
+        1. FRT SLA For SM - This Week
+        1. NRT SLO For SM - Last 3 Weeks
+        1. NRT SLO For SM - This Week
+        1. SSAT For SM - Last 3 Weeks
+        1. SSAT For SM - This Week
+        1. SSAT Volume 4 Weeks SM
+        1. Requester Wait Time SM
+        1. SM Incoming Tickets For Support Per Week
+        1. Week Over Week .COM SLA
+        1. FRT SLA For .COM - Last 3 Weeks
+        1. FRT SLA For .COM - This Week
+        1. NRT SLO For .COM - Last 3 Weeks
+        1. NRT SLO For .COM - This Week
+        1. SSAT For .COM - Last 3 Weeks
+        1. SSAT For .COM - This Week
+        1. SSAT Volume 4 Weeks .com
+        1. Requester Wait Time .COM
+        1. .COM Incoming Tickets For Support Per Week
+        1. Emergency Tickets - Weekend Opened Worldwide Per Week
+1. SWIR #2:
+    - Widgets used:
+        - None
+    - Reports used:
+        1. Week Over Week L&R SLA
+        1. FRT SLA For L&R - Last 3 Weeks
+        1. FRT SLA For L&R - This Week
+        1. NRT SLA For L&R - Last 3 Weeks
+        1. NRT SLA For L&R - This Week
+        1. SSAT For L&R - Last 3 Weeks
+        1. SSAT For L&R - This Week
+        1. SSAT Distribution 4 Weeks L&R - Table
+        1. Requester Wait Time L&R
+        1. L&R Incoming Tickets For Support Per Week
+1. Base:
+    - Widgets used:
+        - None
+    - Reports used:
+        1. Baseline comments SM
+        1. Baseline comments .COM
+        1. Baseline comments L&R
+1. L&R:
+    - Widgets used:
+        - Time Filter widget
+    - Reports used:
+        1. L&R No Assignee
+        1. FRT SLA For L&R 
+        1. NRT SLA For L&R - 
+        1. SSAT 12 Months L&R - All Plans
+        1. L&R Incoming Volume Per Week
+        1. L&R Incoming Volume Per Day
+        1. Total Incoming Tickets For L&R All Plans
+        1. L&R Escalated to Sales AVG Time to First Solve
+        1. L&R No Transaction Type Per Month
+        1. Intake Per Hour Last 12 Months L&R - All Plans 
+        1. Poor CSAT For L&R Breakdown per Month - All Plans
+        1. Time To Resolve Escalated to Sales
+1. Free:
+    - Widgets used:
+        - None
+    - Reports used:
+        1. Free Reduced Effort - May/2023 and All Free
+        1. Intake Last 12 Months Free Plans - Per Ticket Form
+1. Security:
+    - Widgets used:
+        - None
+    - Reports used:
+        1. Total Incoming Tickets For Security
+        1. SSAT Distribution 12 Month Security
+        1. Requester Wait Time Security
+1. Ops:
+    - Widgets used:
+        - None
+    - Reports used:
+        1. LK - Ops SSAT - Last 4 Weeks
+        1. LK - Ops Total FRT SLA - Last 4 Weeks
+        1. LK - Ops Total NRT SLA - Last 4 Weeks
+        1. LK - Ops Incoming Tickets For Support Per Week
+        1. LK - Incoming Ops
 
 ## Reports
 
