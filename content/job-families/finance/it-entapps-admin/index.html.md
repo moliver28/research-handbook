@@ -13,13 +13,13 @@ Associate IT Enterprise Applications Administrator is a [grade 5](https://about.
 ### Associate IT Enterprise Applications Administrator Responsibilities
 
 - Responsible for managing individual work and projects.
-- Is focused on tactical responsibilities rather that strategic decisions. 
-- Works on problems of moderate complexity in which analysis of situation or data requires a review of existing factors. 
-- Follows specific instructions/frameworks in day to day work. 
-- Work and solutions are reviewed by more senior team members and/or their direct manager. 
-- Learns and develops understanding of GitLab's way of working. 
-- Explains moderately complex issues and works to build alignment.  
-- Collaborates with team members on their team to accomplish the team goals. 
+- Is focused on tactical responsibilities rather that strategic decisions.
+- Works on problems of moderate complexity in which analysis of situation or data requires a review of existing factors.
+- Follows specific instructions/frameworks in day to day work.
+- Work and solutions are reviewed by more senior team members and/or their direct manager.
+- Learns and develops understanding of GitLab's way of working.
+- Explains moderately complex issues and works to build alignment.
+- Collaborates with team members on their team to accomplish the team goals.
 - Adapts to GitLab communication framework.
 
 ### Associate IT Enterprise Applications Administrator Requirements
