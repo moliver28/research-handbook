@@ -815,15 +815,15 @@ This is bottom right chart in Slide 26.
         - Time Filter widget
     - Reports used:
         1. L&R No Assignee
-        1. FRT SLA For L&R 
-        1. NRT SLA For L&R - 
+        1. FRT SLA For L&R
+        1. NRT SLA For L&R 
         1. SSAT 12 Months L&R - All Plans
         1. L&R Incoming Volume Per Week
         1. L&R Incoming Volume Per Day
         1. Total Incoming Tickets For L&R All Plans
         1. L&R Escalated to Sales AVG Time to First Solve
         1. L&R No Transaction Type Per Month
-        1. Intake Per Hour Last 12 Months L&R - All Plans 
+        1. Intake Per Hour Last 12 Months L&R - All Plans
         1. Poor CSAT For L&R Breakdown per Month - All Plans
         1. Time To Resolve Escalated to Sales
 1. Free:
