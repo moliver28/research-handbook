@@ -2,7 +2,7 @@
 title: IT Enterprise Applications Administrator
 ---
 
-The IT Enterprise Applications Administrator job family is responsible for TO BE ADDED.
+The IT Enterprise Applications Administrator job family is responsible for the implementation and operational ownership of all Enterprise Applications.
 
 ## Levels
 
