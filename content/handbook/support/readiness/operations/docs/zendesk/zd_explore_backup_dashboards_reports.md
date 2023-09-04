@@ -452,7 +452,7 @@ This is left side bottom chart in slide 22
 This is main side chart in Slide 24
 
 - Dataset used: Support ( Tickets)
-- Visualization type: Line (Main)
+- Visualization type: Line
 - Metric used: \*D_Count (Free Reduced Effort - May/2023)*\, \*D_Count (All Free)*\, \*SUM (Reduction Effort %)*\
 - Rows:
     None
@@ -689,7 +689,7 @@ This is bottom right chart in Slide 26.
         1. NRT Achieved per Preferred Region
         1. FRT Achieved per Preferred Region
         1. FRT Per Priority .COM/SM
-        1. FRT Per Priority .COM/SM
+        1. NRT Per Priority .COM/SM
 1. SLA #2 :
     - Widgets used:
         - Time Filter widget
@@ -816,7 +816,7 @@ This is bottom right chart in Slide 26.
     - Reports used:
         1. L&R No Assignee
         1. FRT SLA For L&R
-        1. NRT SLA For L&R 
+        1. NRT SLA For L&R
         1. SSAT 12 Months L&R - All Plans
         1. L&R Incoming Volume Per Week
         1. L&R Incoming Volume Per Day
@@ -854,6 +854,7 @@ This is bottom right chart in Slide 26.
 ### Total Incoming Tickets For Support
 
 aka IK - Total Incoming Tickets For Support #2
+
 - Dataset used: Support ( Tickets )
 - Visualization type: Column
 - Metric used: Count (Tickets)
@@ -873,7 +874,8 @@ aka IK - Total Incoming Tickets For Support #2
 
 ### IK - Total Incoming Tickets Per Form
 
- aka IK - Total Incoming Tickets Per Groups #3
+aka IK - Total Incoming Tickets Per Groups #3
+
 - Dataset used: Support ( Tickets )
 - Visualization type: Column
 - Metric used: D_Count (Tickets)
@@ -892,6 +894,7 @@ aka IK - Total Incoming Tickets For Support #2
 ### Intake Per Hour Last 12 Months - All Plans
 
 aka IK - H/N/L Tickets - Intake Per Hour Last 12 Months
+
 - Dataset used: Support ( Tickets )
 - Visualization type: Column
 - Metric used: Count (Tickets)
@@ -913,6 +916,7 @@ aka IK - H/N/L Tickets - Intake Per Hour Last 12 Months
 ### Intake Per Hour Last 12 Months SM - All Plans
 
 aka IK - H/N/L Tickets - Intake Per Hour Last 12 Months SM
+
 - Dataset used: Support ( Tickets )
 - Visualization type: Column
 - Metric used: Count (Tickets)
@@ -934,6 +938,7 @@ aka IK - H/N/L Tickets - Intake Per Hour Last 12 Months SM
 ### Intake Per Hour Last 12 Months .COM - All Plans
 
 aka IK - H/N/L Tickets - Intake Per Hour Last 12 Months .COM
+
 - Dataset used: Support ( Tickets )
 - Visualization type: Column
 - Metric used: Count (Tickets)
@@ -955,6 +960,7 @@ aka IK - H/N/L Tickets - Intake Per Hour Last 12 Months .COM
 ### Prefered Region last 6 / 3 Months
 
 aka IK - Prefered Region last 6 / 3 Months
+
 - Dataset used: Support ( Tickets )
 - Visualization type: Column
 - Metrics used: D_Count (Tickets Created - Last 6 months) and D_Count (Tickets Created - Last 3 months)
@@ -968,12 +974,13 @@ aka IK - Prefered Region last 6 / 3 Months
     1. Has Plan Ticket Tags -SSAT (Incl L&R)
 - Custom Settings:
     1. Ticket Form filter should include `SaaS`, `SaaS Acocunt`, `Self-Managed` and `L&R`.
-    1. Has Plan Ticket Tags -SSAT (Incl L&R) is a custom attribute and has `no` value to select.
+    1. Has Plan Ticket Tags -SSAT (Incl L&R) is a custom attribute and has no value to select.
     1. Make sure report should have "Sort" type `A-Z` and "Total" show `sum` on top on every bar in Result Manipulation.
 
 ### FRT SLA % Achieved for .COM/SM
 
 aka IK - FRT SLA For .com/SM
+
 - Dataset used: Support ( SLAs )
 - Visualization type: Column
 - Metric used: SUM (% Achieved SLA Targets)
@@ -988,9 +995,9 @@ aka IK - FRT SLA For .com/SM
     1. 2FA
     1. Has Plan - Ticket Tags
 - Custom Settings:
-    1. SLA Metric includes only First Reply Time.
+    1. SLA Metric includes only `First Reply Time`.
     1. Ticket Form filter should include `SaaS`, `SaaS Acocunt`, `Self-Managed`.
-    1. 2FA is custom attribute and "Not 2FA" needs to be selected.
+    1. 2FA is custom attribute and `Not 2FA` needs to be selected.
     1. Has Plan - Ticket Tags is a custom attribute and setting of Includes have `Has Plan` checked.
     1. SLA Update - Year filter was used and it use Advanced Date Range settings i.e. "From beginning of" should have `13 months in the past` to "The end of" should have `1 month in the past`.
     1. Make sure report should have "Sort" type `A-Z` and Percentage is shown inside every bar in Result Manipulation.
@@ -999,6 +1006,7 @@ aka IK - FRT SLA For .com/SM
 ### FRT MED .COM/SM
 
 aka IK - FRT MED .COM/SM w/o License
+
 - Dataset used: Support ( SLAs )
 - Visualization type: Column
 - Metric used: MED (First reply time (hrs))
@@ -1012,17 +1020,18 @@ aka IK - FRT MED .COM/SM w/o License
     1. 2FA
     1. Has Plan - Ticket Tags
 - Custom Settings:
-    1. SLA Metric includes only First Reply Time.
+    1. SLA Metric includes only `First Reply Time`.
     1. Ticket Form filter should include `SaaS`, `SaaS Acocunt`, `Self-Managed`.
-    1. 2FA is custom attribute and "Not 2FA" needs to be selected.
+    1. 2FA is custom attribute and `Not 2FA` needs to be selected.
     1. Has Plan - Ticket Tags is a custom attribute and setting of Includes have `Has Plan` checked.
     1. SLA Update - Year filter was used and it use Advanced Date Range settings i.e. "From beginning of" should have `13 months in the past` to "The end of" should have `1 month in the past`.
     1. Make sure report should have "Sort" type `A-Z` and Percentage is shown inside every bar in Result Manipulation.
     1. It also shows a trend line which can be found in Chart Configuration menu.
 
-## NRT SLA % Achieved for .COM/SM
+### NRT SLA % Achieved for .COM/SM
 
 aka IK - NRT SLA for .com/SM
+
 - Dataset used: Support ( SLAs )
 - Visualization type: Column
 - Metric used: SUM (% Achieved SLA Targets)
@@ -1044,22 +1053,190 @@ aka IK - NRT SLA for .com/SM
     1. It also shows a trend line which can be found in Chart Configuration menu.
 
 
+### FRT SLA % Achieved For .COM - Outdated Calculations
+
+### NRT SLA % Achieved For .COM - Outdated Calculations
+
+### Requester Wait Time .COM/SM/L&R - Custom Metric Error (RWT Minus On-hold)
+
+### NRT Achieved Per Preferred Region
+
+aka IK - NRT Achieved Per Preferred Region - Test
+
+- Dataset used: Support ( SLAs )
+- Visualization type: Table
+- Metric used: SUM (% Achieved SLA Tickets)
+- Rows:
+    1. Preferred Region for Support
+- Columns:
+    1. SLA Update (Month)
+- Filters used:
+    1. Ticket Form
+    1. Has Plan - Ticket Tags
+    1. SLA Metric
+- Custom Settings:
+    1. Preferred Region for Support includes `All Regions`, `Americas, USA`, `Europe, Middle East, Africa`, `Asia Pacific`.
+    1. Ticket Form filter excludes `Security`, `Account Receivable/Refunds`.
+    1. Has Plan - Ticket Tags is a custom attribute and includes should have `Has Plan`.
+    1. SLA Metric filter should have `Next Reply Time` selected.
+    1. SLA Update (Month) was used and it use Advanced Date Range settings i.e. "From beginning of" should have `3 months in the past` to "The end of" should have `All History`.
+    1. Make sure report should have "Sort" type `A-Z` and have "Totals" showing in `Percentage` in every month on each cell.
+
+### FRT Achieved Per Preferred Region
+
+aka IK - FRT Achieved Per Preferred Region - Test
+
+- Dataset used: Support ( SLAs )
+- Visualization type: Table
+- Metric used: SUM (% Achieved SLA Tickets)
+- Rows:
+    1. Preferred Region for Support
+- Columns:
+    1. SLA Update (Month)
+- Filters used:
+    1. Ticket Form
+    1. Has Plan - Ticket Tags
+    1. SLA Metric
+    1. 2FA
+- Custom Settings:
+    1. Preferred Region for Support includes `All Regions`, `Americas, USA`, `Europe, Middle East, Africa`, `Asia Pacific`.
+    1. Ticket Form filter excludes `Security`, `Account Receivable/Refunds`.
+    1. Has Plan - Ticket Tags is a custom attribute and includes should have `Has Plan`.
+    1. SLA Metric filter should have `First Reply Time` selected.
+    1. 2FA is custom attribute and `Not 2FA` needs to be selected.
+    1. SLA Update (Month) was used and it use Advanced Date Range settings i.e. "From beginning of" should have `3 months in the past` to "The end of" should have `1 months in the past`.
+    1. Make sure report should have "Sort" type `A-Z` and have "Totals" showing in `Percentage` in every month on each cell.
 
 
+## FRT Per Priority .COM/SM
+
+aka IK - Total Breached FRT % Month
+
+- Dataset used: Support ( SLAs )
+- Visualization type: Column
+- Metric used: SUM (% Breached SLA Tickets), SUM (% Achieved SLA Targets)
+- Rows:
+    1. Ticket Priority
+        (Includes only Normal, Low, High)
+- Columns:
+    1. SLA Update - Year
+    1. SLA Update - Month
+- Filters used:
+    1. SLA Metric
+    1. Ticket Form
+    1. 2FA
+    1. Has Plan - Ticket Tags
+- Custom Settings:
+    1. SLA Metric includes only `First Reply Time`.
+    1. Ticket Form filter excludes `Security`, `Account Receivable/Refunds`, `L&R`.
+    1. 2FA is custom attribute and `Not 2FA` needs to be selected.
+    1. Has Plan - Ticket Tags is a custom attribute and setting of Includes have `Has Plan` checked.
+    1. SLA Update - Year filter was used and it use Advanced Date Range settings i.e. "From beginning of" should have `13 months in the past` to "The end of" should have `1 month in the past`.
+    1. Make sure report should have "Sort" type `A-Z` and `Percentage` is shown on top of every bar in Result Manipulation.
 
 
+### NRT Per Priority .COM/SM
+
+aka IK - Total Breached NRT % Month
+
+- Dataset used: Support ( SLAs )
+- Visualization type: Column
+- Metric used: SUM (% Breached SLA Tickets), SUM (% Achieved SLA Targets)
+- Rows:
+    1. Ticket Priority
+        (Includes only Normal, Low, High)
+- Columns:
+    1. SLA Update - Year
+    1. SLA Update - Month
+- Filters used:
+    1. SLA Metric
+    1. Ticket Form
+    1. Has Plan - Ticket Tags
+- Custom Settings:
+    1. SLA Metric includes only `Next Reply Time`.
+    1. Ticket Form filter excludes `Security`, `Account Receivable/Refunds`, `L&R`.
+    1. Has Plan - Ticket Tags is a custom attribute and setting of Includes have `Has Plan` checked.
+    1. SLA Update - Year filter was used and it use Advanced Date Range settings i.e. "From beginning of" should have `13 months in the past` to "The end of" should have `1 month in the past`.
+    1. Make sure report should have "Sort" type `A-Z` and `Percentage` is shown on top of every bar in Result Manipulation.
 
 
+### Median TTR SaaS/SM - Custom Metric Error (TTR)
 
+### Median TTR SM - Custom Metric Error (TTR)
 
+### Median TTR SaaS - Custom Metric Error (TTR)
 
+### Requester Wait Time SM
 
+aka IK - Requester Wait Time SM
 
+- Dataset used: Support ( SLAs )
+- Visualization type: Line
+- Metric used: MED (requester wait time (hrs))
+- Rows:
+    None
+- Columns:
+    1. Ticket Update - Year
+    1. Ticket Update - Month
+- Filters used:
+    1. Ticket Form
+    1. Has Plan - Ticket Tags
+- Custom Settings:
+    1. Ticket Form filter includes only `Self-Managed`.
+    1. Has Plan - Ticket Tags is a custom attribute and setting of Includes have `Has Plan` checked.
+    1. SLA Update - Year filter was used and it use Advanced Date Range settings i.e. "From beginning of" should have `13 months in the past` to "The end of" should have `1 month in the past`.
+    1. Make sure report should have "Sort" type `A-Z`.
 
+### Requester Wait Time SaaS- Deleted Report
 
+### Support Solved / Closed Tickets
 
+aka IK - Support Closed Tickets
 
+- Dataset used: Support ( Updates History )
+- Visualization type: Column
+- Metric used: COUNT (Tickets Solved)
+- Rows:
+    None
+- Columns:
+    1. Ticket Solved (Year)
+    1. Ticket Solved (Month)
+- Filters used:
+    1. Ticket Form
+    1. Ticket Status
+    1. Has Plan - Ticket Tags
+- Custom Settings:
+    1. Ticket Form filter should include `L&R`, `SaaS`, `SaaS Account`, `Self-Managed`, `Emergencies`.
+    1. Ticket Status filter should include only `Closed`.
+    1. Has Plan - Ticket Tags is a custom attribute and setting of Includes have `Has Plan` checked.
+    1. Ticket Solved (Year) use Advanced Date Range settings i.e. "From beginning of" should have `12 Months in the past` to "The end of" should have `1 month in the past`.
+    1. Make sure report should have "Sort" type `A-Z` and have "Totals" show `sum` on top of every month column in Result Manipulation.
+    1. It also shows a trend line which can be found in Chart Configuration menu.
 
+### One-Touch Solved Per Ticket Form Ratio (w/o Free)
+
+aka IK - One-Touch Solved Per Ticket Form Ratio (w/o Free)
+
+aka IK - Requester Wait Time SM
+
+- Dataset used: Support ( SLAs )
+- Visualization type: Line
+- Metric used: \* D_Count (One Touch Ticket Ratio)*\
+- Rows:
+    1. Ticket Form
+        (Includes only Self Managed, SaaS, SaaS Account)
+- Columns:
+    1. Ticket Solved (Year)
+    1. Ticket Solved (Month)
+- Filters used:
+    1. 2FA
+    1. Has Plan Ticket Tags -SSAT (Incl L&R)
+- Custom Settings:
+    1. One Touch Ticket Ratio is a custom metric.
+    1. Has Plan Ticket Tags -SSAT (Incl L&R) is a custom attribute and setting of Includes have `Has Plan + L&R` checked.
+    1. 2FA is custom attribute and `Not 2FA` needs to be selected.
+    1. Ticket Solved (Year) was used and it use Advanced Date Range settings i.e. "From beginning of" should have `13 months in the past` to "The end of" should have `1 month in the past`.
+    1. Make sure report should have "Sort" type `A-Z` and "Totals" have "Percentage" shows in lines over every month in Result Manipulation.
 
 
 
@@ -1530,6 +1707,18 @@ aka IK - NRT SLA for .com/SM
     ```Text
     IF ([Ticket tags] ="linked-to-hb")
     THEN [Ticket ID]
+    ENDIF
+    ```
+
+    Special settings:  None
+
+1. One-Touch Ticket Ratio
+
+    Type: Standard Calucated Metric
+    Formula:
+
+    ```Text
+    (D_COUNT(One-touch tickets)/D_COUNT(Tickets))*100
     ENDIF
     ```
 
