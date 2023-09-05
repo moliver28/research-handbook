@@ -1317,7 +1317,7 @@ aka IK - Main - SSAT Distribution 3 months .com - Table
 
 - Dataset used: Support ( Tickets )
 - Visualization type: Table
-- Metric used: Sum (% Satisfaction Score), /* D_Count (Rated VS Tickets in %) */, D_Count (Rated satisfaction tickets), Count (Tickets)
+- Metric used: Sum (% Satisfaction Score), /*D_Count (Rated VS Tickets in %)*/, D_Count (Rated satisfaction tickets), Count (Tickets)
 - Rows:
     1. GitLab Plan
         (Includes only Bronze, Gold, Silver)
@@ -1340,7 +1340,7 @@ aka IK - Main - SSAT Distribution 3 months SM - Table
 
 - Dataset used: Support ( Tickets )
 - Visualization type: Table
-- Metric used: Sum (% Satisfaction Score), /* D_Count (Rated VS Tickets in %) */, D_Count (Rated satisfaction tickets), Count (Tickets)
+- Metric used: Sum (% Satisfaction Score), /*D_Count (Rated VS Tickets in %)*/, D_Count (Rated satisfaction tickets), Count (Tickets)
 - Rows:
     1. GitLab Plan
         (Includes only Starter, Premium, Basic, Ultimate)
@@ -1385,7 +1385,7 @@ aka IK - Survey Responded 12 Months
 
 - Dataset used: Support ( Tickets )
 - Visualization type: Column
-- Metric used:  D_Count (Rated satisfaction tickets), D_Count (SSAT Form), /* D_Count (Rated VS Tickets in %) */.
+- Metric used: D_Count (Rated satisfaction tickets), D_Count (SSAT Form), /*D_Count (Rated VS Tickets in %)*/.
 - Rows:
     None
 - Columns:
