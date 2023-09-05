@@ -628,7 +628,7 @@ This is bottom middle chart in Slide 26.
     1. Make sure report should have "Sort" type `A-Z` and and "SUM" shows in percentage in columns inside every month in Result Manipulation.
     1. Report has a `linear` trend line in Chart configuration.
 
-### Slide 26: Report 4: IK - Linked HB
+### Slide 26: Report 4: IK - Linked HB's
 
 This is bottom right chart in Slide 26.
 
@@ -1034,7 +1034,7 @@ aka IK - NRT SLA for .com/SM
 
 - Dataset used: Support ( SLAs )
 - Visualization type: Column
-- Metric used: SUM (% Achieved SLA Targets)
+- Metric used: Sum (% Achieved SLA Targets)
 - Rows:
     None
 - Columns:
@@ -1088,7 +1088,7 @@ aka IK - FRT Achieved Per Preferred Region - Test
 
 - Dataset used: Support ( SLAs )
 - Visualization type: Table
-- Metric used: SUM (% Achieved SLA Tickets)
+- Metric used: Sum (% Achieved SLA Tickets)
 - Rows:
     1. Preferred Region for Support
 - Columns:
@@ -1114,7 +1114,7 @@ aka IK - Total Breached FRT % Month
 
 - Dataset used: Support ( SLAs )
 - Visualization type: Column
-- Metric used: SUM (% Breached SLA Tickets), SUM (% Achieved SLA Targets)
+- Metric used: Sum (% Breached SLA Tickets), Sum (% Achieved SLA Targets)
 - Rows:
     1. Ticket Priority
         (Includes only Normal, Low, High)
@@ -1141,7 +1141,7 @@ aka IK - Total Breached NRT % Month
 
 - Dataset used: Support ( SLAs )
 - Visualization type: Column
-- Metric used: SUM (% Breached SLA Tickets), SUM (% Achieved SLA Targets)
+- Metric used: Sum (% Breached SLA Tickets), Sum (% Achieved SLA Targets)
 - Rows:
     1. Ticket Priority
         (Includes only Normal, Low, High)
@@ -1195,7 +1195,7 @@ aka IK - Support Closed Tickets
 
 - Dataset used: Support ( Updates History )
 - Visualization type: Column
-- Metric used: COUNT (Tickets Solved)
+- Metric used: Count (Tickets Solved)
 - Rows:
     None
 - Columns:
@@ -1237,6 +1237,349 @@ aka IK - Requester Wait Time SM
     1. 2FA is custom attribute and `Not 2FA` needs to be selected.
     1. Ticket Solved (Year) was used and it use Advanced Date Range settings i.e. "From beginning of" should have `13 months in the past` to "The end of" should have `1 month in the past`.
     1. Make sure report should have "Sort" type `A-Z` and "Totals" have "Percentage" shows in lines over every month in Result Manipulation.
+
+### SSAT Distribution For Combined .COM/SM - Outdated Calc
+
+### SSAT Distribution .COM - Outdated Calc
+
+### SSAT Distribution SM
+
+aka IK - Main - SSAT Distribution 12 months SM
+
+- Dataset used: Support ( Tickets )
+- Visualization type: Column
+- Metric used: Sum (% Satisfaction Score)
+- Rows:
+    None
+- Columns:
+    1. Ticket Solved - Year
+    1. Ticket Solved - Month
+- Filters used:
+    1. Ticket Satisfaction Rating
+    1. Ticket Form
+    1. Has Plan - Ticket Tag
+- Custom Settings:
+    1. Ticket Satisfaction Rating filter excludes `Offered`, `Unoffered` and `null`.
+    1. Ticket Form filter should include only `Self-Managed`.
+    1. Has Plan - Ticket Tags is a custom attribute and setting of Includes have `Has Plan` checked.
+    1. Ticket Solved - Year use Advanced Date Range settings i.e. "From beginning of" should have `12 Months in the past` to "The end of" should have `1 month in the past`.
+    1. Make sure report should have "Sort" type `A-Z` and and "SUM" shows in percentage in columns inside every month in Result Manipulation.
+    1. Report has a `linear` trend line in Chart configuration.
+
+### Poor SSAT Reason Breakdown For .COM
+
+aka IK - Poor CSAT For .COM Breakdown Per Month
+
+- Dataset used: Support ( Updates History )
+- Visualization type: Column
+- Metric used: Count  (Bad Initial Satisfaction Rating)
+- Rows:
+    1. Ticket Satisfaction Reason
+- Columns:
+    1. Ticket Solved - Year
+    1. Ticket Solved - Month
+- Filters used:
+    1. Ticket Form
+    1. Has Plan Ticket Tags -SSAT (Incl L&R)
+- Custom Settings:
+    1. This report shows Legend for Row values in top of chart configurable in Chart configuration.
+    1. Ticket Form filter should include only `SaaS` and `SaaS Account`.
+    1. Has Plan - Ticket Tags is not used for any filteration.
+    1. Ticket Solved - Year use Advanced Date Range settings i.e. "From beginning of" should have `12 Months in the past` to "The end of" should have `1 month in the past`.
+    1. Make sure report should have "Sort" type `A-Z` and and "Total" shows in percentage in columns inside every month for every reason in Result Manipulation.
+
+
+### Poor SSAT Reason Breakdown For SM
+
+aka IK - Poor CSAT For SM Breakdown Per Month
+
+- Dataset used: Support ( Updates History )
+- Visualization type: Column
+- Metric used: Count  (Bad Initial Satisfaction Rating)
+- Rows:
+    1. Ticket Satisfaction Reason
+- Columns:
+    1. Ticket Solved - Year
+    1. Ticket Solved - Month
+- Filters used:
+    1. Ticket Form
+    1. Has Plan Ticket Tags -SSAT (Incl L&R)
+- Custom Settings:
+    1. This report shows Legend for Row values in top of chart configurable in Chart configuration.
+    1. Ticket Form filter should include only `Self-Managed`.
+    1. Has Plan Ticket Tags -SSAT (Incl L&R) is a custom attribute and setting of Includes have `Has Plan + L&R` checked.
+    1. Ticket Solved - Year use Advanced Date Range settings i.e. "From beginning of" should have `12 Months in the past` to "The end of" should have `1 month in the past`.
+    1. Make sure report should have "Sort" type `A-Z` and "Total" shows in percentage in columns inside every month for every reason in Result Manipulation.
+
+### SSAT Volume 3 months .com
+
+aka IK - Main - SSAT Distribution 3 months .com - Table
+
+- Dataset used: Support ( Tickets )
+- Visualization type: Table
+- Metric used: Sum (% Satisfaction Score), /* D_Count (Rated VS Tickets in %) */, D_Count (Rated satisfaction tickets), Count (Tickets)
+- Rows:
+    1. GitLab Plan
+        (Includes only Bronze, Gold, Silver)
+- Columns:
+    1. Ticket Solved - Year
+    1. Ticket Solved - Month
+- Filters used:
+    1. Ticket Form
+    1. Has Plan Ticket Tags -SSAT (Incl L&R)
+- Custom Settings:
+    1. Rated VS Tickets in % is a custom metric.
+    1. Ticket Form filter should include only `SaaS` and `SaaS Account`.
+    1. Has Plan Ticket Tags -SSAT (Incl L&R) is a custom attribute and setting of Includes have `Has Plan + L&R` checked.
+    1. Ticket Solved - Year use Advanced Date Range settings i.e. "From beginning of" should have `2 Months in the past` to "The end of" should have `All History`.
+    1. Make sure report should have "Sort" type `A-Z`.
+
+### SSAT Volume 3 months SM
+
+aka IK - Main - SSAT Distribution 3 months SM - Table
+
+- Dataset used: Support ( Tickets )
+- Visualization type: Table
+- Metric used: Sum (% Satisfaction Score), /* D_Count (Rated VS Tickets in %) */, D_Count (Rated satisfaction tickets), Count (Tickets)
+- Rows:
+    1. GitLab Plan
+        (Includes only Starter, Premium, Basic, Ultimate)
+- Columns:
+    1. Ticket Solved - Year
+    1. Ticket Solved - Month
+- Filters used:
+    1. Ticket Form
+    1. Has Plan Ticket Tags -SSAT (Incl L&R)
+- Custom Settings:
+    1. Rated VS Tickets in % is a custom metric.
+    1. Ticket Form filter should include only `Self-Managed`.
+    1. Has Plan Ticket Tags -SSAT (Incl L&R) is a custom attribute and setting of Includes have `Has Plan + L&R` checked.
+    1. Ticket Solved - Year use Advanced Date Range settings i.e. "From beginning of" should have `2 Months in the past` to "The end of" should have `All History`.
+    1. Make sure report should have "Sort" type `A-Z`.
+
+### SSAT% For Tickets with Issue Links
+
+aka IK - SSAT% For Tickets with Issue Links
+
+- Dataset used: Support ( Tickets )
+- Visualization type: Table
+- Metric used: Sum (% Satisfaction Score), D_Count (Rated satisfaction tickets), D_Count (Tickets). Sum (% Satisfaction rated)
+- Rows:
+    1. Ticket Form
+        (Includes only SaaS, SaaS Account, L&R, Self-Managed)
+    1. Linked to Issue
+- Columns:
+    1. Ticket Solved - Year
+    1. Ticket Solved - Month
+- Filters used:
+    1. Has Plan Ticket Tags -SSAT (Incl L&R)
+- Custom Settings:
+    1. Linked to Issue is a custom metric.
+    1. Has Plan Ticket Tags -SSAT (Incl L&R) is a custom attribute and setting of Includes have `Has Plan + L&R` checked.
+    1. Ticket Solved - Year use Advanced Date Range settings i.e. "From beginning of" should have `3 Months in the past` to "The end of" should have `1 Months in the past`.
+    1. Make sure report should have "Sort" type `A-Z`.
+
+### Survey Responded 12 Months
+
+aka IK - Survey Responded 12 Months
+
+- Dataset used: Support ( Tickets )
+- Visualization type: Column
+- Metric used:  D_Count (Rated satisfaction tickets), D_Count (SSAT Form), /* D_Count (Rated VS Tickets in %) */.
+- Rows:
+    None
+- Columns:
+    1. Ticket Solved - Year
+    1. Ticket Solved - Month
+- Filters used:
+    1. Ticket Solved - Month
+    1. Ticket Form
+    1. Has Plan Ticket Tags -SSAT (Incl L&R)
+- Custom Settings:
+    1. This report shows Legend for Metrics in top of chart configurable in Chart configuration.
+    1. Rated VS Tickets in % is a custom metric and use Dual Axis in the Metrics panel.
+    1. SSAT Form is a custom mertic
+    1. Ticket Form filter should exclude `Professional Services`, `Security`, `Billing`, `Accounts Receiveable/Refunds`, `Security`.
+    1. Has Plan Ticket Tags -SSAT (Incl L&R) is a custom attribute and setting of Includes have `Has Plan + L&R` checked.
+    1. Ticket Solved - Year use Advanced Date Range settings i.e. "From beginning of" should have `12 Months in the past` to "The end of" should have `1 Months in the past`.
+    1. Make sure report should have "Sort" type `A-Z` and have "Sum" shows in columns over and inside every month as well as the value of dual axis line in metrics in Result Manipulation.
+
+### Linked Total
+
+aka IK - Linked Total
+
+- Dataset used: Support ( Tickets )
+- Visualization type: Table
+- Metric used: D_Count (Solved Tickets), \*D_Count (Total Linked)*\, \*Count (% Total Linked)*\, \*Count (% Linked Docs)*\, \*D_Count (Linked Docs)*\, \*Count (% Linked MR)*\, \*D_Count (Linked MR)*\, \*Count (% Linked Issues)*\, \*D_Count (Linked Issues)*\, \*Count (% Linked HB)*\, \*D_Count (Linked Handbook)*\
+- Rows:
+    1. Ticket Solved - Year
+    1. Ticket Solved - Month
+- Columns:
+    None
+- Filters used:
+    1. Duplicate Tickets
+    1. Ticket Form
+    1. Has Plan - Ticket Tag
+    1. Created by Agent
+- Custom Settings:
+    1. `Total Linked`, `% Total Linked`, `% Linked Docs`, `Linked Docs`, `% Linked MR`, `Linked MR`, `% Linked Issues`, `Linked Issues`, `% Linked HB` and `Linked Handbook` are custom mertrics.
+    1. Duplicate Tickets is a custom attribute and should have `Not Duplicate` selected.
+    1. Ticket Form filter should include `Emergency`, `SaaS`, `SaaS Account`, `Self-Managed`,.
+    1. Has Plan - Ticket Tags is a custom attribute and setting of Includes have `Has Plan` checked.
+    1. Created By Agent is a custom attribute and should have selected `Not Created By Agent`.
+    1. Ticket Solved - Year use Advanced Date Range settings i.e. "From beginning of" should have `3 Months in the past` to "The end of" should have `1 month in the past`.
+    1. Make sure report should have "Sort" type `A-Z`.
+
+### Linked Docs
+
+aka IK - Linked Docs
+
+- Dataset used: Support ( Tickets )
+- Visualization type: Column
+- Metric used: \* SUM (% Linked Docs)*\
+- Rows:
+    None
+- Columns:
+    1. Ticket Solved - Year
+    1. Ticket Solved - Month
+- Filters used:
+    1. Duplicate Tickets
+    1. Ticket Form
+    1. Has Plan - Ticket Tag
+- Custom Settings:
+    1. % Linked Docs is a custom mertric.
+    1. Duplicate Tickets is a custom attribute and should have `Not Duplicate` selected.
+    1. Ticket Form filter should include `Emergency`, `SaaS`, `SaaS Account`, `Self-Managed`.
+    1. Has Plan - Ticket Tags is a custom attribute and setting of Includes have `Has Plan` checked.
+    1. Ticket Solved - Year use Advanced Date Range settings i.e. "From beginning of" should have `3 Months in the past` to "The end of" should have `1 month in the past`.
+    1. Make sure report should have "Sort" type `A-Z` and and "SUM" shows in percentage in columns inside every month in Result Manipulation.
+    1. Report has a `linear` trend line in Chart configuration.
+
+### Linked Issues
+
+aka IK - Linked Issues
+
+- Dataset used: Support ( Tickets )
+- Visualization type: Column
+- Metric used: \* SUM (% Linked Issues)*\
+- Rows:
+    None
+- Columns:
+    1. Ticket Solved - Year
+    1. Ticket Solved - Month
+- Filters used:
+    1. Duplicate Tickets
+    1. Ticket Form
+    1. Has Plan - Ticket Tag
+- Custom Settings:
+    1. % Linked Issues is a custom mertric.
+    1. Duplicate Tickets is a custom attribute and should have `Not Duplicate` selected.
+    1. Ticket Form filter should include `Emergency`, `SaaS`, `SaaS Account`, `Self-Managed`.
+    1. Has Plan - Ticket Tags is a custom attribute and setting of Includes have `Has Plan` checked.
+    1. Ticket Solved - Year use Advanced Date Range settings i.e. "From beginning of" should have `3 Months in the past` to "The end of" should have `1 month in the past`.
+    1. Make sure report should have "Sort" type `A-Z` and and "SUM" shows in percentage in columns inside every month in Result Manipulation.
+    1. Report has a `linear` trend line in Chart configuration.
+
+### Linked MR's
+
+aka IK - Linked MR's
+
+ Dataset used: Support ( Tickets )
+- Visualization type: Column
+- Metric used: \* SUM (% Linked MR)*\
+- Rows:
+    None
+- Columns:
+    1. Ticket Solved - Year
+    1. Ticket Solved - Month
+- Filters used:
+    1. Duplicate Tickets
+    1. Ticket Form
+    1. Has Plan - Ticket Tag
+- Custom Settings:
+    1. % Linked MR is a custom mertric.
+    1. Duplicate Tickets is a custom attribute and should have `Not Duplicate` selected.
+    1. Ticket Form filter should include `Emergency`, `SaaS`, `SaaS Account`, `Self-Managed`.
+    1. Has Plan - Ticket Tags is a custom attribute and setting of Includes have `Has Plan` checked.
+    1. Ticket Solved - Year use Advanced Date Range settings i.e. "From beginning of" should have `3 Months in the past` to "The end of" should have `1 month in the past`.
+    1. Make sure report should have "Sort" type `A-Z` and and "SUM" shows in percentage in columns inside every month in Result Manipulation.
+    1. Report has a `linear` trend line in Chart configuration.
+
+### Linked HB's
+
+aka IK - Linked HB's
+
+- Dataset used: Support ( Tickets )
+- Visualization type: Column
+- Metric used: \* SUM (% Linked HB)*\
+- Rows:
+    None
+- Columns:
+    1. Ticket Solved - Year
+    1. Ticket Solved - Month
+- Filters used:
+    1. Duplicate Tickets
+    1. Ticket Form
+    1. Has Plan - Ticket Tag
+- Custom Settings:
+    1. % Linked HB is a custom mertric.
+    1. Duplicate Tickets is a custom attribute and should have `Not Duplicate` selected.
+    1. Ticket Form filter should include `Emergency`, `SaaS`, `SaaS Account`, `Self-Managed`.
+    1. Has Plan - Ticket Tags is a custom attribute and setting of Includes have `Has Plan` checked.
+    1. Ticket Solved - Year use Advanced Date Range settings i.e. "From beginning of" should have `3 Months in the past` to "The end of" should have `1 month in the past`.
+    1. Make sure report should have "Sort" type `A-Z` and and "SUM" shows in percentage in columns inside every month in Result Manipulation.
+    1. Report has a `linear` trend line in Chart configuration.
+
+### Linked Total - Private
+
+aka IK - Linked Total - Private
+
+- Dataset used: Support ( Tickets )
+- Visualization type: Table
+- Metric used: D_Count (Solved Tickets), \*D_Count (Total Linked)*\, \*D_Count (Linked Docs)*\, \*D_Count (Linked Docs - Private)*\, \*D_Count (Linked MR)*\, \*D_Count (Linked MR - Private)*\, \*D_Count (Linked Issues)*\, \*D_Count (Linked Issues - Private)*\, \*D_Count (Linked Handbook)*\, \*D_Count (Linked Handbook - Private)*\
+- Rows:
+    1. Ticket Solved - Year
+    1. Ticket Solved - Month
+- Columns:
+    None
+- Filters used:
+    1. Duplicate Tickets
+    1. Ticket Form
+    1. Has Plan - Ticket Tag
+- Custom Settings:
+    1. `Total Linked`, `Linked Docs`, `Linked Docs - Private`, `Linked MR`, `Linked MR - Private`, `Linked Issues`, `Linked Issues - Private`, `Linked Handbook` and `Linked Handbook - Private` are custom mertrics.
+    1. Duplicate Tickets is a custom attribute and should have `Not Duplicate` selected.
+    1. Ticket Form filter should include `Emergency`, `SaaS`, `SaaS Account`, `Self-Managed`.
+    1. Has Plan - Ticket Tags is a custom attribute and setting of Includes have `Has Plan` checked.
+    1. Ticket Solved - Year use Advanced Date Range settings i.e. "From beginning of" should have `3 Months in the past` to "The end of" should have `All History`.
+    1. Make sure report should have "Sort" type `A-Z`.
+
+
+### No Problem Type
+
+aka IK - No Problem Type
+
+- Dataset used: Support ( Tickets )
+- Visualization type: Column
+- Metric used: \*Count (No Problem Type - .COM)*\, \*Count (No Problem Type - SM)*\,\*Count (No Problem Type - L&R)*\, \*Count (No Problem Type - Accounts SaaS)*\, Count (% Tickets)
+- Rows:
+    None
+- Columns:
+    1. Ticket Solved - Year
+    1. Ticket Solved - Month
+- Filters used:
+    1. Duplicate Tickets
+    1. Ticket Form
+    1. Has Plan Ticket Tags -SSAT (Incl L&R)
+- Custom Settings:
+    1. This report shows Legend for Metrics in top of chart configurable in Chart configuration.
+    1. `No Problem Type - .COM`, `No Problem Type - SM`, `No Problem Type - L&R`and `No Problem Type - Accounts SaaS` are custom mertrics.
+    1. Count (Tickets) metric use Dual Axis in the Metrics panel and should show total value in trend line format.
+    1. Duplicate Tickets is a custom attribute and should have `Not Duplicate` selected.
+    1. Ticket Form filter should include `Emergencies`, `SaaS`, `SaaS Account`, `Self-Managed`, `L&R`.
+    1. Has Plan Ticket Tags -SSAT (Incl L&R) is a custom attribute and setting of Includes have `Has Plan + L&R` checked.
+    1. Ticket Solved - Year use Advanced Date Range settings i.e. "From beginning of" should have `13 Months in the past` to "The end of" should have `1 month in the past`.
+    1. Make sure report should have "Sort" type `A-Z` and Totals show "Sum" in columns inside and top of every month in Result Manipulation.
 
 
 
@@ -1640,6 +1983,19 @@ aka IK - Requester Wait Time SM
 
     Special settings:  None
 
+1. Linked docs - Private
+
+    Type: Standard Calucated Metric
+    Formula:
+
+    ```Text
+    IF ([Ticket tags] = "linked-to-docs-private")
+    THEN [Ticket ID]
+    ENDIF
+    ```
+
+    Special settings:  None
+
 1. % Linked MR
 
     Type: Standard Calucated Metric
@@ -1664,6 +2020,20 @@ aka IK - Requester Wait Time SM
 
     Special settings:  None
 
+1. Linked MR - Private
+
+    Type: Standard Calucated Metric
+    Formula:
+
+    ```Text
+    IF ([Ticket tags] ="linked-to-mr-private")
+    THEN [Ticket ID]
+    ENDIF
+    ```
+
+    Special settings:  None
+
+
 1. % Linked Issues
 
     Type: Standard Calucated Metric
@@ -1682,6 +2052,19 @@ aka IK - Requester Wait Time SM
 
     ```Text
     IF ([Ticket tags] ="linked-to-issue")
+    THEN [Ticket ID]
+    ENDIF
+    ```
+
+    Special settings:  None
+
+1. Linked Issues - Private
+
+    Type: Standard Calucated Metric
+    Formula:
+
+    ```Text
+    IF ([Ticket tags] ="linked-to-issue-private")
     THEN [Ticket ID]
     ENDIF
     ```
@@ -1712,6 +2095,19 @@ aka IK - Requester Wait Time SM
 
     Special settings:  None
 
+1. Linked Handbook - Private
+
+    Type: Standard Calucated Metric
+    Formula:
+
+    ```Text
+    IF ([Ticket tags] ="linked-to-hb-private")
+    THEN [Ticket ID]
+    ENDIF
+    ```
+
+    Special settings:  None
+
 1. One-Touch Ticket Ratio
 
     Type: Standard Calucated Metric
@@ -1719,7 +2115,82 @@ aka IK - Requester Wait Time SM
 
     ```Text
     (D_COUNT(One-touch tickets)/D_COUNT(Tickets))*100
+    ```
+
+    Special settings:  None
+
+1. Rated VS Tickets in %
+
+    Type: Standard Calucated Metric
+    Formula:
+
+    ```Text
+    (COUNT(SSAT Form)+COUNT(Rated satisfaction tickets))/COUNT(Surveyed satisfaction tickets)
+    ```
+
+    Special settings:  None
+
+1. SSAT Form
+
+    Type: Standard Calucated Metric
+    Formula:
+
+    ```Text
+    IF (CONTAINS([Ticket tags],"satisfaction"))
+    THEN [Ticket ID]
     ENDIF
     ```
 
     Special settings:  None
+
+1. No Problem Type - .COM
+
+    Type: Standard Calucated Metric
+    Formula:
+
+    ```Text
+    IF ([Ticket form]="SaaS")
+    AND ([SaaS Problem Type]=NULL)
+    THEN [Ticket ID] ENDIF
+    ```
+
+    Special settings:  Check `Compute Seperately`
+
+1. No Problem Type - SM
+
+    Type: Standard Calucated Metric
+    Formula:
+
+    ```Text
+    IF ([Ticket form]="Self-Managed")
+    AND  ([Self-managed Problem Type]=NULL)
+    Then [Ticket ID] ENDIF
+    ```
+
+    Special settings:  Check `Compute Seperately`
+
+1. No Problem Type - L&R
+
+    Type: Standard Calucated Metric
+    Formula:
+
+    ```Text
+    IF ([Ticket form]="L&R")
+    AND  ([Transactions Issue Type]=NULL)
+    Then [Ticket ID] ENDIF
+    ```
+
+    Special settings:  Check `Compute Seperately`
+
+1. No Problem Type - Accounts SaaS
+
+    Type: Standard Calucated Metric
+    Formula:
+
+    ```Text
+    IF ([Ticket form]="SaaS Account")
+    AND ([SaaS Account Problem Type]=NULL)
+    THEN [Ticket ID] ENDIF
+    ```
+
+    Special settings: Check `Compute Seperately`
