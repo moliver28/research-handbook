@@ -123,6 +123,14 @@ The [Security Assurance Department]({{< ref "security-assurance" >}}) is compris
 
 Security Program Management is responsible for complete overview and driving security initiatives across Product, Engineering, and Business Enablement. This includes the tracking, monitoring, and influencing priority of significant security objectives, goals, and plans/roadmaps from all security sub-departments.  [Security Program Manager Job Family]({{< ref "security-program-manager" >}})
 
+Labels used for Security Program Management:
+
+- `~Division::Security` - included on each
+- `~SecurityPM` - included on each where the Security Program Manager is involved
+- `~Security::<Department>`
+- `~<Department>::<SubDepartment>`
+- `~sec-type::<type>` - With `<type>` in `initiative`, `program`, `project`
+
 ###### Security Program areas of focus
 
 - Drive Accountability & Visibility for Program Objectives & Goals
