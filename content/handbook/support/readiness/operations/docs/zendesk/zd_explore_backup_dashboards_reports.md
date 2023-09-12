@@ -1581,6 +1581,28 @@ aka IK - No Problem Type
     1. Ticket Solved - Year use Advanced Date Range settings i.e. "From beginning of" should have `13 Months in the past` to "The end of" should have `1 month in the past`.
     1. Make sure report should have "Sort" type `A-Z` and Totals show "Sum" in columns inside and top of every month in Result Manipulation.
 
+### Assigned vs Unassigned
+
+aka IK - Assigned VS Unassigned
+
+- Dataset used: Support ( Tickets )
+- Visualization type: Line
+- Metric used: \*D_Count (Unassigned)*\, \*D_Count (Assigned)*\
+- Rows:
+    None
+- Columns:
+    1. Ticket Created - Year
+    1. Ticket Created - Month
+- Filters used:
+    1. Ticket Form
+    1. Has Plan Ticket Tags -SSAT (Incl L&R)
+- Custom Settings:
+    1. This report shows Legend for Metrics in top of chart configurable in Chart configuration.
+    1. `Unassigned` and `Assigned`are custom mertrics.
+    1. Ticket Form filter should include `Emergencies`, `SaaS`, `SaaS Account`, `Self-Managed`, `L&R`.
+    1. Has Plan Ticket Tags -SSAT (Incl L&R) is a custom attribute and setting of Includes have `Has Plan + L&R` checked.
+    1. Ticket Created - Year use Advanced Date Range settings i.e. "From beginning of" should have `12 Months in the past` to "The end of" should have `1 month in the past`.
+    1. Make sure report should have "Sort" type `A-Z` and Totals show on top of every month in Result Manipulation.
 
 
 
@@ -2194,3 +2216,31 @@ aka IK - No Problem Type
     ```
 
     Special settings: Check `Compute Seperately`
+
+1. Unassigned
+
+    Type: Standard Calucated Metric
+    Formula:
+
+    ```Text
+    IF ([Assignee name]=NULL)
+    THEN
+    [Ticket ID]
+    ENDIF
+    ```
+
+    Special settings: None
+
+1. Assigned
+
+    Type: Standard Calucated Metric
+    Formula:
+
+    ```Text
+    IF ([Assignee name]!=NULL)
+    THEN
+    [Ticket ID]
+    ENDIF
+    ```
+
+    Special settings: None
