@@ -1635,7 +1635,7 @@ aka IK - Unassigned VS Assigned Not New Multi-Touch Ticket Ratio
 - Rows:
     1. Ticket Form
 - Columns:
-    1. Comment touch 
+    1. Comment touch
     1. Unassigned
 - Filters used:
     1. Ticket Status
@@ -1688,7 +1688,7 @@ aka IK - Total Support Open Tickets Per Support Group
     1. Ticket Status
     1. Has Plan Ticket Tags -SSAT (Incl L&R)
 - Custom Settings:
-    1. This report shows Legend for Column values in top of chart configurable in Chart configuration. 
+    1. This report shows Legend for Column values in top of chart configurable in Chart configuration.
     1. Ticket Status filter should include `New`, `Open`, `Pending`, `On-Hold`, `Solved`.
     1. Has Plan Ticket Tags -SSAT (Incl L&R) is a custom attribute and setting of Includes have `Has Plan + L&R` checked.
     1. Make sure report should have "Sort" type `A-Z` and Totals show `Percentage` ans `Count` in Pie sections and in center is the Grand Total without percentage.
@@ -1710,7 +1710,7 @@ aka IK - Unassigned Tickets Per Ticket Form
     1. Assignee name
     1. Has Plan Ticket Tags -SSAT (Incl L&R)
 - Custom Settings:
-    1. This report shows Legend for Column values in top of chart configurable in Chart configuration. 
+    1. This report shows Legend for Column values in top of chart configurable in Chart configuration.
     1. Ticket Status filter should include `New`, `Open`, `Pending`, `On-Hold`, `Solved`.
     1. Assignee name filter should include `NULL` only.
     1. Has Plan Ticket Tags -SSAT (Incl L&R) is a custom attribute and setting of Includes have `Has Plan + L&R` checked.
@@ -1796,7 +1796,7 @@ aka IK - Emergency Breached NRT % Per Month
 
 - Dataset used: Support ( SLAs )
 - Visualization type: Column
-- Metric used: Sum (% Breached SLA Tickets), Sum (% Achieved SLA Targets)
+- Metric used: Sum (% Breached SLA Targets), Sum (% Achieved SLA Targets)
 - Rows:
     None
 - Columns:
@@ -1822,7 +1822,7 @@ aka IK - Emergency Breached FRT % Per Month
 
 - Dataset used: Support ( SLAs )
 - Visualization type: Column
-- Metric used: Sum (% Breached SLA Tickets), Sum (% Achieved SLA Targets)
+- Metric used: Sum (% Breached SLA Tickets), Sum (% Achieved SLA Tickets)
 - Rows:
     None
 - Columns:
@@ -1871,9 +1871,228 @@ aka IK - Opened On Weekend Breached
     1. It also shows 2 trend lines which can be found in Chart Configuration menu.
 
 
+### Regional Updates Per Hour Last 6 Months
 
+aka IK - Regional updates per hour - 2019/2020
 
+- Dataset used: Support ( Ticket Updates )
+- Visualization type: Area
+- Metric used: /*D_Count (Region - EMEA)*/, /*D_Count (Region - APAC)*/. /*D_Count (Region - US)*/, /*D_Count (Updates)*/
+- Rows:
+    None
+- Columns:
+    1. Update - Hour
+- Filters used:
+    1. Has Plan Ticket Tags -SSAT (Incl L&R)
+    1. Comment Type
+    1. Updater Role
+    1. Updater Tags
+- Custom Settings:
+    1. Region - EMEA, Region - APAC and Region - US are custom metrics.
+    1. Updates metric use Trend Axis in the Metrics panel.
+    1. This report shows Legend for Metric values in top of chart configurable in Chart configuration.
+    1. Has Plan Ticket Tags -SSAT (Incl L&R) is a custom attribute and setting of Includes have `Has Plan + L&R` checked.
+    1. Comment Type filter should include `Public`.
+    1. Updater Role filter should include `Agent` only.
+    1. Updater Tags should inlcude all manager name tags found in agent profile.
+    1. Update - Hour use Advanced Date Range settings i.e. "From beginning of" should have `6 Months in the past` to "The end of" should have `All History`.
+    1. Make sure report should have "Sort" type `A-Z`.
 
+### US update per prefered region last 6 months
+
+aka IK - US update per prefered region last 6 months
+
+- Dataset used: Support ( Ticket Updates )
+- Visualization type: Table
+- Metric used: D_Count (Updates)
+- Rows:
+    1. Preferred Region for Support
+- Columns:
+    1. Ticket Created - Year
+    1. Ticket Created - Month
+- Filters used:
+    1. Updater Tags
+    1. Ticket Created - Month
+    1. Ticket Form
+- Custom Settings:
+    1. Updater Tags should inlcude all US manager name tags found in agent profile.
+    1. Ticket Form filter should include `SaaS`, `SaaS Account`, `Self-Managed`, `L&R`.
+    1. Ticket Created - Year use Advanced Date Range settings i.e. "From beginning of" should have `6 Months in the past` to "The end of" should have `All History`.
+    1. Make sure report should have "Sort" type `A-Z` and Total shows in `% of Total` in path `Rows` under Result path calculation found under result manipulation menu.
+
+### EMEA update per prefered region last 6 months
+
+aka IK - EMEA update per prefered region last 6 months
+
+- Dataset used: Support ( Ticket Updates )
+- Visualization type: Table
+- Metric used: D_Count (Updates)
+- Rows:
+    1. Preferred Region for Support
+- Columns:
+    1. Ticket Created - Year
+    1. Ticket Created - Month
+- Filters used:
+    1. Updater Tags
+    1. Ticket Form
+- Custom Settings:
+    1. Updater Tags should inlcude all EMEA manager name tags found in agent profile.
+    1. Ticket Form filter should include `SaaS`, `SaaS Account`, `Self-Managed`, `L&R`.
+    1. Ticket Created - Year use Advanced Date Range settings i.e. "From beginning of" should have `6 Months in the past` to "The end of" should have `All History`.
+    1. Make sure report should have "Sort" type `A-Z` and Total shows in `% of Total` in path `Rows` under Result path calculation found under result manipulation menu.
+
+### APAC update per prefered region last 6 months
+
+aka IK - APAC update per prefered region last 6 months
+
+- Dataset used: Support ( Ticket Updates )
+- Visualization type: Table
+- Metric used: D_Count (Updates)
+- Rows:
+    1. Preferred Region for Support
+- Columns:
+    1. Ticket Created - Year
+    1. Ticket Created - Month
+- Filters used:
+    1. Updater Tags
+    1. Ticket Form
+- Custom Settings:
+    1. Updater Tags should inlcude all APAC manager name tags found in agent profile.
+    1. Ticket Form filter should include `SaaS`, `SaaS Account`, `Self-Managed`, `L&R`.
+    1. Ticket Created - Year use Advanced Date Range settings i.e. "From beginning of" should have `6 Months in the past` to "The end of" should have `All History`.
+    1. Make sure report should have "Sort" type `A-Z` and Total shows in `% of Total` in path `Rows` under Result path calculation found under result manipulation menu.
+
+### SLA % Breached Per Hour Last 4 Months
+
+aka IK - SLA  %  Breached Per Hour Last 4 Months
+
+- Dataset used: Support ( SLAs )
+- Visualization type: Column
+- Metric used: Sum (% Breached SLA Targets)
+- Rows:
+    None
+- Columns:
+    1. SLA Update - Hour
+- Filters used:
+    1. SLA metric
+    1. Has Plan Ticket Tags -SSAT (Incl L&R)
+    1. Ticket Form
+- Custom Settings:
+    1. SLA metric filter should include `Next Reply Time` and `First Reply Time` only,
+    1. Has Plan Ticket Tags -SSAT (Incl L&R) is a custom attribute and setting of Includes have `Has Plan + L&R` checked.
+    1. Ticket Form filter should exclude `Professional Services`, `Security`, `Billing`.
+    1. SLA Update - Hour use Advanced Date Range settings i.e. "From beginning of" should have `4 Months in the past` to "The end of" should have `1 Month in the Past`.
+    1. Make sure report should have "Sort" type `A-Z` and Totals show `Percentage` on top of every month in Result Manipulation.
+
+### SLA Events Breached Per Hour Last 4 Months
+
+aka IK - SLA Breached Per Hour Last 4 Months
+
+- Dataset used: Support ( SLAs )
+- Visualization type: Column
+- Metric used: Count (Breached SLA Targets)
+- Rows:
+    None
+- Columns:
+    1. SLA Update - Hour
+- Filters used:
+    1. SLA metric
+    1. Has Plan Ticket Tags -SSAT (Incl L&R)
+    1. Ticket Form
+- Custom Settings:
+    1. SLA metric filter should include `Next Reply Time` and `First Reply Time` only,
+    1. Has Plan Ticket Tags -SSAT (Incl L&R) is a custom attribute and setting of Includes have `Has Plan + L&R` checked.
+    1. Ticket Form filter should exclude `Professional Services`, `Security`, `Billing`.
+    1. SLA Update - Hour use Advanced Date Range settings i.e. "From beginning of" should have `4 Months in the past` to "The end of" should have `1 Month in the Past`.
+    1. Make sure report should have "Sort" type `A-Z` and Totals show `Percentage` on top of every month in Result Manipulation.
+
+### SLA % Breached Per Hour Last 4 Months .COM
+
+aka IK - SLA  %  Breached Per Hour Last 4 Months .COM
+
+- Dataset used: Support ( SLAs )
+- Visualization type: Column
+- Metric used: Sum (% Breached SLA Targets)
+- Rows:
+    None
+- Columns:
+    1. SLA Update - Hour
+- Filters used:
+    1. SLA metric
+    1. Has Plan Ticket Tags -SSAT (Incl L&R)
+    1. Ticket Form
+- Custom Settings:
+    1. SLA metric filter should include `Next Reply Time` and `First Reply Time` only,
+    1. Has Plan Ticket Tags -SSAT (Incl L&R) is a custom attribute and setting of Includes have `Has Plan + L&R` checked.
+    1. Ticket Form filter should include `SaaS` and `SaaS Acccount`.
+    1. SLA Update - Hour use Advanced Date Range settings i.e. "From beginning of" should have `4 Months in the past` to "The end of" should have `1 Month in the Past`.
+    1. Make sure report should have "Sort" type `A-Z` and Totals show `Percentage` on top of every month in Result Manipulation.
+
+### SLA Events Breached Per Hour Last 4 Months .COM
+
+aka IK - SLA Breached Per Hour Last 4 Months .COM
+
+- Dataset used: Support ( SLAs )
+- Visualization type: Column
+- Metric used: Count (Breached SLA Targets)
+- Rows:
+    None
+- Columns:
+    1. SLA Update - Hour
+- Filters used:
+    1. SLA metric
+    1. Has Plan Ticket Tags -SSAT (Incl L&R)
+    1. Ticket Form
+- Custom Settings:
+    1. SLA metric filter should include `Next Reply Time` and `First Reply Time` only,
+    1. Has Plan Ticket Tags -SSAT (Incl L&R) is a custom attribute and setting of Includes have `Has Plan + L&R` checked.
+    1. Ticket Form filter should include `SaaS` and `SaaS Acccount`.
+    1. SLA Update - Hour use Advanced Date Range settings i.e. "From beginning of" should have `4 Months in the past` to "The end of" should have `1 Month in the Past`.
+    1. Make sure report should have "Sort" type `A-Z` and Totals show `Percentage` on top of every month in Result Manipulation.
+
+### SLA % Breached Per Hour Last 4 Months SM
+
+aka IK - SLA  %  Breached Per Hour Last 4 Months SM
+
+- Dataset used: Support ( SLAs )
+- Visualization type: Column
+- Metric used: Sum (% Breached SLA Targets)
+- Rows:
+    None
+- Columns:
+    1. SLA Update - Hour
+- Filters used:
+    1. SLA metric
+    1. Has Plan Ticket Tags -SSAT (Incl L&R)
+    1. Ticket Form
+- Custom Settings:
+    1. SLA metric filter should include `Next Reply Time` and `First Reply Time` only,
+    1. Has Plan Ticket Tags -SSAT (Incl L&R) is a custom attribute and setting of Includes have `Has Plan + L&R` checked.
+    1. Ticket Form filter should include `Self Managed` only.
+    1. SLA Update - Hour use Advanced Date Range settings i.e. "From beginning of" should have `4 Months in the past` to "The end of" should have `1 Month in the Past`.
+    1. Make sure report should have "Sort" type `A-Z` and Totals show `Percentage` on top of every month in Result Manipulation.
+
+### SLA Events Breached Per Hour Last 4 Months SM
+
+aka IK - SLA Breached Per Hour Last 4 Months SM
+
+- Dataset used: Support ( SLAs )
+- Visualization type: Column
+- Metric used: Count (Breached SLA Targets)
+- Rows:
+    None
+- Columns:
+    1. SLA Update - Hour
+- Filters used:
+    1. SLA metric
+    1. Has Plan Ticket Tags -SSAT (Incl L&R)
+    1. Ticket Form
+- Custom Settings:
+    1. SLA metric filter should include `Next Reply Time` and `First Reply Time` only,
+    1. Has Plan Ticket Tags -SSAT (Incl L&R) is a custom attribute and setting of Includes have `Has Plan + L&R` checked.
+    1. Ticket Form filter should include `Self Managed` only.
+    1. SLA Update - Hour use Advanced Date Range settings i.e. "From beginning of" should have `4 Months in the past` to "The end of" should have `1 Month in the Past`.
+    1. Make sure report should have "Sort" type `A-Z` and Totals show `Percentage` on top of every month in Result Manipulation.
 
 ## Custom Attributes and Metrics:
 
@@ -2574,6 +2793,50 @@ aka IK - Opened On Weekend Breached
     IF ([Assignee name]!=NULL)
     THEN
     [Update ID]
+    ENDIF
+    ```
+
+    Special settings: None
+
+1. Region - EMEA
+
+    Type: Standard Calucated Metric
+    Formula:
+
+    ```Text
+    IF ([Updater tags]="tom_atkins" OR [Updater tags]="tine_sørensen" 
+    OR [Updater tags]="ilia_kosenko" OR [Updater tags]="john_lyttle"  
+    OR [Updater tags]="rebecca_spainhower")
+    THEN [Update ID]
+    ENDIF
+    ```
+
+    Special settings: None
+
+1. Region - APAC
+
+    Type: Standard Calucated Metric
+    Formula:
+
+    ```Text
+    IF ([Updater tags]="wei-meng_lee" OR [Updater tags]="viji_rao"
+    OR [Updater tags]="jane_gianoutsos")
+    THEN [Update ID]
+    ENDIF
+    ```
+
+    Special settings: None
+
+1. Region - US
+
+    Type: Standard Calucated Metric
+    Formula:
+
+    ```Text
+    IF ([Updater tags]="aric_buerer" OR [Updater tags]="izzy_fee" 
+    OR [Updater tags]="james_lopes" OR [Updater tags]="michael_dunninger" 
+    OR [Updater tags]="ronnie_alfaro")
+    THEN [Update ID]
     ENDIF
     ```
 
