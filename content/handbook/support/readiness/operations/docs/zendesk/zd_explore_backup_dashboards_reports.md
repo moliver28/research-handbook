@@ -735,7 +735,7 @@ This is bottom right chart in Slide 26.
         1. Public comments on Assigned tickets ratio in % Per Region Weekly
         1. Total Support Open Tickets Per Ticket Form
         1. Unassigned Open Tickets Per Ticket Form
-        1. Public comments on Unassigned vs Assigned Tickets Per Team.
+        1. Public comments on Unassigned vs Assigned Tickets Per Team
 1. Emergency:
     - Widgets used:
         - None
@@ -1604,6 +1604,271 @@ aka IK - Assigned VS Unassigned
     1. Ticket Created - Year use Advanced Date Range settings i.e. "From beginning of" should have `12 Months in the past` to "The end of" should have `1 month in the past`.
     1. Make sure report should have "Sort" type `A-Z` and Totals show on top of every month in Result Manipulation.
 
+### Unassigned Tickets Per Ticket Form
+
+aka IK - Unassigned Tickets Per Ticket Form Per Month
+
+- Dataset used: Support ( Tickets )
+- Visualization type: Line
+- Metric used: Count (Tickets)
+- Rows:
+    1. Ticket Form
+- Columns:
+    1. Ticket Created - Year
+    1. Ticket Created - Month
+- Filters used:
+    1. Assignee Name
+- Custom Settings:
+    1. This report shows Legend for Rows in top of chart configurable in Chart configuration.
+    1. Ticket Form should include `SaaS`, `SaaS Account`, `Self-Managed`, `L&R`.
+    1. Assignee name filter should include `NULL`.
+    1. Ticket Created - Year use Advanced Date Range settings i.e. "From beginning of" should have `8 Months in the past` to "The end of" should have `1 month in the past`.
+    1. Make sure report should have "Sort" type `A-Z` and Totals show on top of every month in Result Manipulation.
+
+### Unassigned vs Assigned Not New Multi-Touch Ticket Ratio
+
+aka IK - Unassigned VS Assigned Not New Multi-Touch Ticket Ratio
+
+- Dataset used: Support ( Tickets )
+- Visualization type: Table
+- Metric used: Count (Tickets)
+- Rows:
+    1. Ticket Form
+- Columns:
+    1. Comment touch 
+    1. Unassigned
+- Filters used:
+    1. Ticket Status
+    1. Has Plan Ticket Tags -SSAT (Incl L&R)
+- Custom Settings:
+    1. This report shows Legend for Rows in top of chart configurable in Chart configuration.
+    1. Ticket Form should include `SaaS`, `SaaS Account`, `Self-Managed`, `L&R`.
+    1. Has Plan Ticket Tags -SSAT (Incl L&R) is a custom attribute and setting of Includes have `Has Plan + L&R` checked.
+    1. Comment touch is a custom attribute and setting of Includes have `Multi-touch` selected.
+    1. Unassigned is a custom attribute and needs nothing to be checked.
+    1. Ticket Status filter should include `Open`, `Pending`, `On-Hold`, `Solved`.
+    1. Make sure report should have "Sort" type `A-Z` and Totals show Metric i.e. Count (Tickets) as per Patter of `% of Total` and Path should be in `Columns` in Result Path Calculation inside Result Manipulation.
+
+### Public comments on Assigned tickets ratio in % Per Region Weekly
+
+aka IK - Public comments on Assigned tickets ratio in % Per Region Weekly
+
+- Dataset used: Support ( Ticket Updates )
+- Visualization type: Line
+- Metric used: /*Sum (Assignment Ratio)*/
+- Rows:
+    1. Region
+- Columns:
+    1. Update - Year
+    1. Update - Month
+- Filters used:
+    1. Ticket Form
+    1. Comment Type
+- Custom Settings:
+    1. Assignment Ratio is a custom metric.
+    1. Ticket Form filter should include `SaaS`, `SaaS Account`, `Self-Managed`, `L&R`.
+    1. Comment Type filter should include `Public`.
+    1. Region is a group attribute and the values are Computed from `Updater Tags`. Manager tags are used for `APAC`, `EMEA` and `AMER` sections.
+    1. Update - Year use Advanced Date Range settings i.e. "From beginning of" should have `12 Months in the past` to "The end of" should have `All History`.
+    1. Make sure report should have "Sort" type `A-Z` and Totals show `Percentage` in top of every week.
+
+### Total Support Open Tickets Per Ticket Form
+
+aka IK - Total Support Open Tickets Per Support Group
+
+- Dataset used: Support ( Tickets )
+- Visualization type: Pie
+- Metric used: Count (Tickets)
+- Rows:
+    None
+- Columns:
+    1. Ticket Form
+        (includes `SaaS`, `SaaS Account`, `Self-Managed`, `L&R`)
+- Filters used:
+    1. Ticket Status
+    1. Has Plan Ticket Tags -SSAT (Incl L&R)
+- Custom Settings:
+    1. This report shows Legend for Column values in top of chart configurable in Chart configuration. 
+    1. Ticket Status filter should include `New`, `Open`, `Pending`, `On-Hold`, `Solved`.
+    1. Has Plan Ticket Tags -SSAT (Incl L&R) is a custom attribute and setting of Includes have `Has Plan + L&R` checked.
+    1. Make sure report should have "Sort" type `A-Z` and Totals show `Percentage` ans `Count` in Pie sections and in center is the Grand Total without percentage.
+
+### Unassigned Open Tickets Per Ticket Form
+
+aka IK - Unassigned Tickets Per Ticket Form
+
+- Dataset used: Support ( Tickets )
+- Visualization type: Pie
+- Metric used: Count (Tickets)
+- Rows:
+    None
+- Columns:
+    1. Ticket Form
+        (includes `SaaS`, `SaaS Account`, `Self-Managed`, `L&R`)
+- Filters used:
+    1. Ticket Status
+    1. Assignee name
+    1. Has Plan Ticket Tags -SSAT (Incl L&R)
+- Custom Settings:
+    1. This report shows Legend for Column values in top of chart configurable in Chart configuration. 
+    1. Ticket Status filter should include `New`, `Open`, `Pending`, `On-Hold`, `Solved`.
+    1. Assignee name filter should include `NULL` only.
+    1. Has Plan Ticket Tags -SSAT (Incl L&R) is a custom attribute and setting of Includes have `Has Plan + L&R` checked.
+    1. Make sure report should have "Sort" type `A-Z` and Totals show `Percentage` ans `Count` in Pie sections and in center is the Grand Total without percentage.
+
+### Public comments on Unassigned vs Assigned Tickets Per Team
+
+aka IK - Public comments on Unassigned VS Assigned Tickets Per Team
+
+- Dataset used: Support ( Ticket Updates )
+- Visualization type: Line
+- Metric used: /*D_Count (Unassigned - Update)*/, /*D_Count (Assigned - update)*/
+- Rows:
+    1. Updater Tags
+        ( include all managers name tags inside the agent's field)
+- Columns:
+    1. Update - Year
+    1. Update - Month
+- Filters used:
+    1. Ticket Form
+    1. Comment Type
+- Custom Settings:
+    1. Unassigned - Update and Assigned - update are a custom metric.
+    1. Updater Tags should should show all manager tags on right side and shows Legend for row values on top of report for metrics value.
+    1. Ticket Form filter should include `SaaS`, `SaaS Account`, `Self-Managed`, `L&R`.
+    1. Comment Type filter should include `Public`.
+    1. Update - Year use Advanced Date Range settings i.e. "From beginning of" should have `12 Months in the past` to "The end of" should have `1 Month in the past`.
+    1. Make sure report should have "Sort" type `A-Z` and Totals show `Count` in top of every month.
+
+### Emergency Tickets - Intake Per Month
+
+aka IK - Emergency Tickets - Intake Per Month
+
+- Dataset used: Support ( Tickets )
+- Visualization type: Column
+- Metric used: Count (Tickets)
+- Rows:
+    None
+- Columns:
+    1. Ticket Created - Year
+    1. Ticket Created - Month
+- Filters used:
+    1. Ticket Tags
+    1. Requester Role
+    1. Requester Name
+- Custom Settings:
+    1. Ticket Tags filter should include `emergency` only.
+    1. Requester Role filter should exclude `Admin` and `Agent`.
+    1. Requester Name filter should exclude `Lis Vinueza` only.
+    1. Ticket Created - Year use Advanced Date Range settings i.e. "From beginning of" should have `12 Months in the past` to "The end of" should have `All History`.
+    1. Make sure report should have "Sort" type `A-Z` and Totals show on top of every month in Result Manipulation.
+    1. It also shows a trend line which can be found in Chart Configuration menu.
+
+### Emergency Tickets - Weekend Opened Worldwide
+
+aka IK - Emergency Tickets - Weekend Opened Worldwide
+
+- Dataset used: Support ( Tickets )
+- Visualization type: Column
+- Metric used: Count (Tickets)
+- Rows:
+    None
+- Columns:
+    1. Ticket Created - Year
+    1. Ticket Created - Month
+- Filters used:
+    1. Ticket Tags
+    1. Ticket Created - Day of week
+    1. Requester Role
+    1. Requester Name
+- Custom Settings:
+    1. Ticket Tags filter should include `emergency` only.
+    1. Ticket Created - Day of week filter should include `Saturday` and `Sunday`.
+    1. Requester Role filter should exclude `Admin` and `Agent`.
+    1. Requester Name filter should exclude `Lis Vinueza` only.
+    1. Ticket Created - Year use Advanced Date Range settings i.e. "From beginning of" should have `12 Months in the past` to "The end of" should have `All History`.
+    1. Make sure report should have "Sort" type `A-Z` and Totals show on top of every month in Result Manipulation.
+    1. It also shows a trend line which can be found in Chart Configuration menu.
+
+### Emergency NRT
+
+aka IK - Emergency Breached NRT % Per Month
+
+- Dataset used: Support ( SLAs )
+- Visualization type: Column
+- Metric used: Sum (% Breached SLA Tickets), Sum (% Achieved SLA Targets)
+- Rows:
+    None
+- Columns:
+    1. Ticket Created - Year
+    1. Ticket Created - Month
+- Filters used:
+    1. SLA metric
+    1. Ticket Created - Year
+    1. Ticket Tags
+    1. Requester Role
+- Custom Settings:
+    1. This report shows Legend for Metrics values in top of chart configurable in Chart configuration.
+    1. SLA metric filter should include `Next Reply Time` only,
+    1. Ticket Tags filter should include `emergency` only.
+    1. Requester Role filter should exclude `Admin` and `Agent`.
+    1. Ticket Created - Year use Advanced Date Range settings i.e. "From beginning of" should have `12 Months in the past` to "The end of" should have `1 Month in the Past`.
+    1. Make sure report should have "Sort" type `A-Z` and Totals show `Percentage` on top of every month in Result Manipulation.
+    1. It also shows a trend line which can be found in Chart Configuration menu.
+
+### Emergency FRT
+
+aka IK - Emergency Breached FRT % Per Month
+
+- Dataset used: Support ( SLAs )
+- Visualization type: Column
+- Metric used: Sum (% Breached SLA Tickets), Sum (% Achieved SLA Targets)
+- Rows:
+    None
+- Columns:
+    1. Ticket Created - Year
+    1. Ticket Created - Month
+- Filters used:
+    1. SLA metric
+    1. Ticket Created - Year
+    1. Ticket Created - Month
+    1. Ticket Tags
+    1. Requester Name
+- Custom Settings:
+    1. This report shows Legend for Metrics values in top of chart configurable in Chart configuration.
+    1. SLA metric filter should include `First Reply Time` only,
+    1. Ticket Tags filter should include `emergency` only.
+    1. Requester Name filter should exclude `Lis Vinueza` only.
+    1. Ticket Created - Year use Advanced Date Range settings i.e. "From beginning of" should have `12 Months in the past` to "The end of" should have `1 Month in the Past`.
+    1. Make sure report should have "Sort" type `A-Z` and Totals show `Percentage` on top of every month in Result Manipulation.
+    1. It also shows a trend line which can be found in Chart Configuration menu.
+
+### Opened On Weekend Breached
+
+aka IK - Opened On Weekend Breached
+
+- Dataset used: Support ( SLAs )
+- Visualization type: Column
+- Metric used: D_Count (Breached SLA Tickets)
+- Rows:
+    1. Ticket Created - Day of week
+        ( includes `Saturday` and `Sunday`)
+- Columns:
+    1. Ticket Created - Year
+    1. Ticket Created - Month
+- Filters used:
+    1. SLA metric
+    1. SLA Update- Year
+    1. Requester Role
+    1. Requester Name
+- Custom Settings:
+    1. This report shows Legend for Row values in top of chart configurable in Chart configuration.
+    1. SLA metric filter should include `First Reply Time` only,
+    1. Requester Name filter should exclude `Lis Vinueza` only.
+    1. Requester Role filter should exclude `Admin` and `Agent`.
+    1. Ticket Created - Year use Advanced Date Range settings i.e. "From beginning of" should have `12 Months in the past` to "The end of" should have `1 Month in the Past`.
+    1. Make sure report should have "Sort" type `A-Z` and Totals show `Sum` on top of every month in Result Manipulation.
+    1. It also shows 2 trend lines which can be found in Chart Configuration menu.
 
 
 
@@ -1812,6 +2077,36 @@ aka IK - Assigned VS Unassigned
     "Duplicate"
     ELSE
     "Not Duplicate"
+    ENDIF
+    ```
+
+    Special settings: None
+
+1. Comment touch
+
+    Type: Standard Calculated Attribute
+    Formula:
+
+    ```text
+    IF (VALUE(Agent replies) <2) 
+    THEN "One-touch"
+    ELSE "Multi-touch"
+    ENDIF
+    ```
+
+    Special settings: None
+
+1. Unassigned
+
+    Type: Standard Calculated Attribute
+    Formula:
+
+    ```text
+    IF([Assignee name]=NULL)
+    THEN 
+    "Un"
+    ELSE
+    "As"
     ENDIF
     ```
 
@@ -2240,6 +2535,45 @@ aka IK - Assigned VS Unassigned
     IF ([Assignee name]!=NULL)
     THEN
     [Ticket ID]
+    ENDIF
+    ```
+
+    Special settings: None
+
+1. Assignment Ratio
+
+    Type: Standard Calucated Metric
+    Formula:
+
+    ```Text
+    100-((D_COUNT(Unassigned - Update)/D_COUNT(Assigned - update))*100)
+    ```
+
+    Special settings: None
+
+1. Unassigned - Update
+
+    Type: Standard Calucated Metric
+    Formula:
+
+    ```Text
+    IF ([Assignee name]=NULL)
+    THEN
+    [Update ID]
+    ENDIF
+    ```
+
+    Special settings: None
+
+1. Assigned - update
+
+    Type: Standard Calucated Metric
+    Formula:
+
+    ```Text
+    IF ([Assignee name]!=NULL)
+    THEN
+    [Update ID]
     ENDIF
     ```
 
