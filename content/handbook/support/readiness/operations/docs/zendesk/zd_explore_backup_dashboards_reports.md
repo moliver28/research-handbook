@@ -485,7 +485,7 @@ This is left side top chart in slide 25. **USE Self Manged or SAAS in Ticket For
 
 - Dataset used: Support (Tickets)
 - Visualization type: Column
-- Metric used: Sum (%Satisfaction Score), D_Count(Rated Satisfaction Tickets)
+- Metric used: Sum (% Satisfaction Score), D_Count(Rated Satisfaction Tickets)
 - Rows:
     None
 - Columns:
@@ -2092,7 +2092,857 @@ aka IK - SLA Breached Per Hour Last 4 Months SM
     1. Has Plan Ticket Tags -SSAT (Incl L&R) is a custom attribute and setting of Includes have `Has Plan + L&R` checked.
     1. Ticket Form filter should include `Self Managed` only.
     1. SLA Update - Hour use Advanced Date Range settings i.e. "From beginning of" should have `4 Months in the past` to "The end of" should have `1 Month in the Past`.
-    1. Make sure report should have "Sort" type `A-Z` and Totals show `Percentage` on top of every month in Result Manipulation.
+    1. Make sure report should have "Sort" type `A-Z` and Totals show `Percentage` on top of every column month in Result Manipulation.
+
+### SSAT
+
+aka IK - SSAT - Last 4 Weeks
+
+- Dataset used: Support ( Tickets )
+- Visualization type: Column
+- Metric used: SUM (% Satisfaction score)
+- Rows:
+    None
+- Columns:
+    1. Ticket Solved - Week of Year
+- Filters used:
+    1. Ticket satisfaction rating
+    1. Ticket Form
+    1. Has Plan - Ticket Tags
+- Custom Settings:
+    1. Ticket satisfaction rating filter exclude `NULL`, `Offered`, `Unoffered`.
+    1. Ticket Form filter should include `Alliance Parnters`, `Open Partner`, `Select Partner`, `SaaS`, `SaaS Account`, `Self-Managed`, `Emergencies`.
+    1. Has Plan - Ticket Tags is a custom attribute and setting of Includes have `Has Plan` checked.
+    1. Ticket Solved - Week of Year use Advanced Date Range settings i.e. "From beginning of" should have `3 weeks in the past` to "The end of" should have `All history`.
+    1. Make sure report should have "Sort" type `A-Z` and have "Totals" show `percent` inside of every column in Result Manipulation.
+    1. It also shows a trend line which can be found in Chart Configuration menu.
+
+
+### FRT
+
+aka IK - Total FRT SLA - Last 4 Weeks
+
+- Dataset used: Support ( SLAs )
+- Visualization type: Column
+- Metric used: Sum (% Achieved SLA targets)
+- Rows:
+    None
+- Columns:
+    1. SLA Update - Week of Year
+- Filters used:
+    1. Ticket Form
+    1. Has Plan - Ticket Tags
+    1. SLA Metric
+    1. 2FA
+- Custom Settings:
+    1. Ticket Form filter should include `Alliance Parnters`, `Open Partner`, `Select Partner`, `SaaS`, `SaaS Account`, `Self-Managed`, `Emergencies`.
+    1. Has Plan - Ticket Tags is a custom attribute and includes should have `Has Plan`.
+    1. SLA Metric filter should have `First Reply Time` selected.
+    1. 2FA is custom attribute and `Not 2FA` needs to be selected.
+    1. SLA Update - Week of Year was used and it use Advanced Date Range settings i.e. "From beginning of" should have `3 weeks in the past` to "The end of" should have `All history`.
+    1. Make sure report should have "Sort" type `A-Z` and have "Totals" show `percent` inside of every column in Result Manipulation.
+    1. It also shows a trend line which can be found in Chart Configuration menu.
+
+### NRT
+
+aka IK - NRT SLA - Last 4 Weeks
+
+- Dataset used: Support ( SLAs )
+- Visualization type: Column
+- Metric used: Sum (% Achieved SLA targets)
+- Rows:
+    None
+- Columns:
+    1. SLA Update - Week of Year
+- Filters used:
+    1. Ticket Form
+    1. Has Plan - Ticket Tags
+    1. SLA Metric
+- Custom Settings:
+    1. Ticket Form filter should include `Alliance Parnters`, `Open Partner`, `Select Partner`, `SaaS`, `SaaS Account`, `Self-Managed`, `Emergencies`.
+    1. Has Plan - Ticket Tags is a custom attribute and includes should have `Has Plan`.
+    1. SLA Metric filter should have `Next Reply Time` selected.
+    1. SLA Update - Week of Year was used and it use Advanced Date Range settings i.e. "From beginning of" should have `3 weeks in the past` to "The end of" should have `All history`.
+    1. Make sure report should have "Sort" type `A-Z` and have "Totals" show `percent` inside of every column in Result Manipulation.
+    1. It also shows a trend line which can be found in Chart Configuration menu.
+
+### Volume
+
+aka IK - Incoming Tickets For Support Per Week (excl L&R)
+
+- Dataset used: Updates History
+- Visualization type: Column
+- Metric used: Count (Tickets Created)
+- Rows:
+    1. Ticket Priority
+- Columns:
+    1. Ticket Created - Week of Year
+- Filters used:
+    1. Ticket Form
+    1. Has Plan Ticket Tags -SSAT (Incl L&R)
+- Custom Settings:
+    1. This report shows Legend for Rows values in top of chart configurable in Chart configuration.
+    1. Ticket Form filter should include `Alliance Parnters`, `Open Partner`, `Select Partner`, `SaaS`, `SaaS Account`, `Self-Managed`, `Emergencies`.
+    1. Has Plan Ticket Tags -SSAT (Incl L&R) is a custom attribute and setting of Includes have `Has Plan + L&R` checked.
+    1. Ticket Created - Year use Advanced Date Range settings i.e. "From beginning of" should have `3 weeks in the past` to "The end of" should have `All history`.
+    1. Make sure report should have "Sort" type `A-Z` and "Totals" show on top of every column in Result Manipulation.
+
+### Week Over Week SM SLA
+
+aka IK - Week Over Week SM SLA
+
+- Dataset used: Support ( SLAs )
+- Visualization type: Table
+- Metric used: /*Sum (SLA % achieved last week)*/,  /*Sum (SLA % achieved this week)*/
+- Rows:
+    1. SLA Metric
+        (includes only First Reply Time, Next Reply Time)
+- Columns:
+    1. SM Plan - Ticket Tags
+- Filters used:
+    1. Ticket Form
+    1. Has Plan - Ticket Tags
+- Custom Settings:
+    1. SLA % achieved last week) and SLA % achieved this week) are custom date range metrics.
+    1. SM Plan - Ticket Tags are "Group" attribute in Calculation menu to computed from `Plan Tags - Ticket Tags` and group SM inlucdes `Basic`, `Premium`, `Ultimate` which needs to be selected.
+    1. Ticket Form filter should include `Self-Managed` only.
+    1. Has Plan - Ticket Tags is a custom attribute and includes should have `Has Plan`.
+    1. Result Metric calculation is used in Result Manipulation with name "week over week SLA" and formula used is ```(SUM(SLA % achieved this week)-SUM(SLA % achieved last week))/SUM(SLA % achieved last week)```.
+    1. Make sure report should have "Sort" type `A-Z`.
+
+
+### LK - Total FRT SLA - Last 4 Weeks + Priority
+
+aka LK - Total FRT SLA - Last 4 Weeks + Priority
+
+- Dataset used: Support ( SLAs )
+- Visualization type: Column
+- Metric used: Sum (% Achieved SLA targets)
+- Rows:
+    1. Ticket Priority
+- Columns:
+    1. SLA Update - Week of Year
+- Filters used:
+    1. Ticket Form
+    1. Has Plan - Ticket Tags
+    1. SLA Metric
+    1. 2FA
+- Custom Settings:
+    1. This report shows Legend for Row values in top of chart configurable in Chart configuration.
+    1. Ticket Form filter should include `Alliance Parnters`, `Open Partner`, `Select Partner`, `SaaS`, `SaaS Account`, `Self-Managed`, `Emergencies`.
+    1. Has Plan - Ticket Tags is a custom attribute and includes should have `Has Plan`.
+    1. SLA Metric filter should have `First Reply Time` selected.
+    1. 2FA is custom attribute and `Not 2FA` needs to be selected.
+    1. SLA Update - Week of Year was used and it use Advanced Date Range settings i.e. "From beginning of" should have `3 weeks in the past` to "The end of" should have `All history`.
+    1. Make sure report should have "Sort" type `A-Z` and have "Totals" show `percent` inside of every column in Result Manipulation.
+
+
+### FRT SLA For SM - Last 3 Weeks
+
+aka IK - FRT SLA For SM - Last 3 Weeks
+
+- Dataset used: Support ( SLAs )
+- Visualization type: Column
+- Metric used: Sum (% Achieved SLA targets)
+- Rows:
+    None
+- Columns:
+    1. SLA Update - Week of Year
+- Filters used:
+    1. Ticket Form
+    1. Has Plan - Ticket Tags
+    1. SLA Metric
+    1. 2FA
+- Custom Settings:
+    1. Ticket Form filter should include `Self-Managed` only.
+    1. Has Plan - Ticket Tags is a custom attribute and includes should have `Has Plan`.
+    1. SLA Metric filter should have `First Reply Time` selected.
+    1. 2FA is custom attribute and `Not 2FA` needs to be selected.
+    1. SLA Update - Week of Year was used and it use Advanced Date Range settings i.e. "From beginning of" should have `3 weeks in the past` to "The end of" should have `1 week in the past`.
+    1. Make sure report should have "Sort" type `A-Z` and have "Totals" show `percent` inside of every column in Result Manipulation.
+    1. It also shows a trend line which can be found in Chart Configuration menu.
+
+### FRT SLA For SM - This Week
+
+aka IK - FRT SLA For SM - This Week
+
+- Dataset used: Support ( SLAs )
+- Visualization type: Column
+- Metric used: Sum (% Achieved SLA targets)
+- Rows:
+    None
+- Columns:
+    1. SLA Update - Week of Year
+- Filters used:
+    1. Ticket Form
+    1. Has Plan - Ticket Tags
+    1. SLA Metric
+    1. 2FA
+- Custom Settings:
+    1. Ticket Form filter should include `Self-Managed` only.
+    1. Has Plan - Ticket Tags is a custom attribute and includes should have `Has Plan`.
+    1. SLA Metric filter should have `First Reply Time` selected.
+    1. 2FA is custom attribute and `Not 2FA` needs to be selected.
+    1. SLA Update - Week of Year filter used Simple Date Range settings i.e.`This Week`.
+    1. Make sure report should have "Sort" type `A-Z` and have "Totals" show `percent` inside of every column in Result Manipulation.
+    1. It also shows a trend line which can be found in Chart Configuration menu.
+
+### NRT SLO For SM - Last 3 Weeks
+
+aka IK - NRT SLA for SM - Last 3 Weeks
+
+- Dataset used: Support ( SLAs )
+- Visualization type: Column
+- Metric used: Sum (% Achieved SLA targets)
+- Rows:
+    None
+- Columns:
+    1. SLA Update - Week of Year
+- Filters used:
+    1. Ticket Form
+    1. Has Plan - Ticket Tags
+    1. SLA Metric
+- Custom Settings:
+    1. Ticket Form filter should include `Self-Managed` only.
+    1. Has Plan - Ticket Tags is a custom attribute and includes should have `Has Plan`.
+    1. SLA Metric filter should have `Next Reply Time` selected.
+    1. SLA Update - Week of Year was used and it use Advanced Date Range settings i.e. "From beginning of" should have `3 weeks in the past` to "The end of" should have `1 week in the past`.
+    1. Make sure report should have "Sort" type `A-Z` and have "Totals" show `percent` inside of every column in Result Manipulation.
+    1. It also shows a trend line which can be found in Chart Configuration menu.
+
+### NRT SLO For SM - This Week
+
+aka IK - NRT SLA For SM - This Week
+
+- Dataset used: Support ( SLAs )
+- Visualization type: Column
+- Metric used: Sum (% Achieved SLA targets)
+- Rows:
+    None
+- Columns:
+    1. SLA Update - Week of Year
+- Filters used:
+    1. Ticket Form
+    1. Has Plan - Ticket Tags
+    1. SLA Metric
+- Custom Settings:
+    1. Ticket Form filter should include `Self-Managed` only.
+    1. Has Plan - Ticket Tags is a custom attribute and includes should have `Has Plan`.
+    1. SLA Metric filter should have `Next Reply Time` selected.
+    1. SLA Update - Week of Year filter used Simple Date Range settings i.e.`This Week`.
+    1. Make sure report should have "Sort" type `A-Z` and have "Totals" show `percent` inside of every column in Result Manipulation.
+    1. It also shows a trend line which can be found in Chart Configuration menu.
+
+
+### SSAT For SM - Last 3 Weeks
+
+aka IK - SSAT For SM - Last 3 Weeks
+
+- Dataset used: Support ( Tickets )
+- Visualization type: Column
+- Metric used: SUM (% Satisfaction score)
+- Rows:
+    None
+- Columns:
+    1. Ticket Solved - Week of Year
+- Filters used:
+    1. Ticket satisfaction rating
+    1. Ticket Form
+    1. Has Plan - Ticket Tags
+- Custom Settings:
+    1. Ticket satisfaction rating filter exclude `NULL`, `Offered`, `Unoffered`.
+    1. Ticket Form filter should include `Self-Managed` only.
+    1. Has Plan - Ticket Tags is a custom attribute and setting of Includes have `Has Plan` checked.
+    1. Ticket Solved - Week of Year use Advanced Date Range settings i.e. "From beginning of" should have `3 weeks in the past` to "The end of" should have `1 week in the past`.
+    1. Make sure report should have "Sort" type `A-Z` and have "Totals" show `percent` inside of every column in Result Manipulation.
+    1. It also shows a trend line which can be found in Chart Configuration menu.
+
+
+## SSAT For SM - This Week
+
+aka IK - SSAT For SM - This Week
+
+- Dataset used: Support ( Tickets )
+- Visualization type: Column
+- Metric used: SUM (% Satisfaction score)
+- Rows:
+    None
+- Columns:
+    1. Ticket Solved - Week of Year
+- Filters used:
+    1. Ticket satisfaction rating
+    1. Ticket Form
+    1. Has Plan - Ticket Tags
+- Custom Settings:
+    1. Ticket satisfaction rating filter exclude `NULL`, `Offered`, `Unoffered`.
+    1. Ticket Form filter should include `Self-Managed` only.
+    1. Has Plan - Ticket Tags is a custom attribute and setting of Includes have `Has Plan` checked.
+    1. Ticket Solved - Week of Year filter used Simple Date Range settings i.e.`This Week`.
+    1. Make sure report should have "Sort" type `A-Z` and have "Totals" show `percent` inside of every column in Result Manipulation.
+    1. It also shows a trend line which can be found in Chart Configuration menu.
+
+### SSAT Volume 4 Weeks SM
+
+aka IK - SSAT Distribution 4 Weeks SM - Table
+
+- Dataset used: Support ( Tickets )
+- Visualization type: Table
+- Metric used: Sum (% Satisfaction Score), D_Count (Rated satisfaction tickets)
+- Rows:
+    None
+- Columns:
+    1. Ticket Solved - Week of Year
+- Filters used:
+    1. Ticket satisfaction rating
+    1. Ticket Form
+    1. Has Plan Ticket Tags -SSAT (Incl L&R)
+- Custom Settings:
+    1. Ticket satisfaction rating filter exclude `NULL`, `Offered`, `Unoffered`.
+    1. Ticket Form filter should include only `Self-Managed`.
+    1. Has Plan Ticket Tags -SSAT (Incl L&R) is a custom attribute and setting of Includes have `Has Plan + L&R` checked.
+    1. Ticket Solved - Year use Advanced Date Range settings i.e. "From beginning of" should have `3 Weeks in the past` to "The end of" should have `All History`.
+    1. Make sure report should have "Sort" type `A-Z`.
+
+### Requester Wait Time SM
+
+aka IK - SWIR - Requester Wait Time SM
+
+- Dataset used: Support ( SLAs )
+- Visualization type: Line
+- Metric used: MED (requester wait time (hrs))
+- Rows:
+    None
+- Columns:
+    1. Ticket Updated - Week of Year
+- Filters used:
+    1. Ticket Form
+    1. Has Plan - Ticket Tags
+- Custom Settings:
+    1. Ticket Form filter includes only `Self-Managed`.
+    1. Has Plan - Ticket Tags is a custom attribute and setting of Includes have `Has Plan` checked.
+    1. Ticket Updated - Week of Year filter was used and it use Advanced Date Range settings i.e. "From beginning of" should have `3 Weeks in the past` to "The end of" should have `All History`.
+    1. Make sure report should have "Sort" type `A-Z` and Total shows on top of every week in Result Manipulation.
+
+### SM Incoming Tickets For Support Per Week
+
+aka IK - SM Incoming Tickets For Support Per Week
+
+- Dataset used: Updates History
+- Visualization type: Column
+- Metric used: Count (Tickets Created)
+- Rows:
+    1. Ticket Priority
+- Columns:
+    1. Ticket Created - Week of Year
+- Filters used:
+    1. Ticket Form
+    1. Has Plan Ticket Tags -SSAT (Incl L&R)
+- Custom Settings:
+    1. This report shows Legend for Rows values in top of chart configurable in Chart configuration.
+    1. Ticket Form filter should include only `Self-Managed`.
+    1. Has Plan Ticket Tags -SSAT (Incl L&R) is a custom attribute and setting of Includes have `Has Plan + L&R` checked.
+    1. Ticket Created - Year use Advanced Date Range settings i.e. "From beginning of" should have `3 weeks in the past` to "The end of" should have `All history`.
+    1. Make sure report should have "Sort" type `A-Z` and "Totals" show on top of every column and the priortiy percentage shows inside columns in Result Manipulation.
+
+### Week Over Week .COM SLA
+
+aka IK - Week Over Week .COM SLA
+
+- Dataset used: Support ( SLAs )
+- Visualization type: Table
+- Metric used: /*Sum (SLA % achieved last week)*/,  /*Sum (SLA % achieved this week)*/
+- Rows:
+    1. SLA Metric
+        (includes only First Reply Time, Next Reply Time)
+- Columns:
+    1. .COM Plan - Ticket Tags
+- Filters used:
+    1. Ticket Form
+    1. Has Plan - Ticket Tags
+- Custom Settings:
+    1. SLA % achieved last week) and SLA % achieved this week) are custom date range metrics.
+    1. .COM Plan - Ticket Tags are "Group" attribute in Calculation menu to computed from `Plan Tags - Ticket Tags` and group .COM inlucdes `Bronze`, `Gold`, `Silver` which needs to be selected.
+    1. Ticket Form filter should include `SaaS` and `SaaS Account`.
+    1. Has Plan - Ticket Tags is a custom attribute and includes should have `Has Plan`.
+    1. Result Metric calculation is used in Result Manipulation with name "week over week SLA" and formula used is ```(SUM(SLA % achieved this week)-SUM(SLA % achieved last week))/SUM(SLA % achieved last week)```.
+    1. Make sure report should have "Sort" type `A-Z`.
+
+### FRT SLA For .COM - Last 3 Weeks
+
+aka IK - FRT SLA For .COM - Last 3 Weeks
+
+- Dataset used: Support ( SLAs )
+- Visualization type: Column
+- Metric used: Sum (% Achieved SLA targets)
+- Rows:
+    None
+- Columns:
+    1. SLA Update - Week of Year
+- Filters used:
+    1. Ticket Form
+    1. Has Plan - Ticket Tags
+    1. SLA Metric
+    1. 2FA
+- Custom Settings:
+    1. Ticket Form filter should include `SaaS` and `SaaS Account`.
+    1. Has Plan - Ticket Tags is a custom attribute and includes should have `Has Plan`.
+    1. SLA Metric filter should have `First Reply Time` selected.
+    1. 2FA is custom attribute and `Not 2FA` needs to be selected.
+    1. SLA Update - Week of Year was used and it use Advanced Date Range settings i.e. "From beginning of" should have `3 weeks in the past` to "The end of" should have `1 week in the past`.
+    1. Make sure report should have "Sort" type `A-Z` and have "Totals" show `percent` inside of every column in Result Manipulation.
+    1. It also shows a trend line which can be found in Chart Configuration menu.
+
+### FRT SLA For .COM - This Week
+
+aka IK - FRT SLA For .COM - This Week
+
+- Dataset used: Support ( SLAs )
+- Visualization type: Column
+- Metric used: Sum (% Achieved SLA targets)
+- Rows:
+    None
+- Columns:
+    1. SLA Update - Week of Year
+- Filters used:
+    1. Ticket Form
+    1. Has Plan - Ticket Tags
+    1. SLA Metric
+    1. 2FA
+- Custom Settings:
+    1. Ticket Form filter should include `SaaS` and `SaaS Account`.
+    1. Has Plan - Ticket Tags is a custom attribute and includes should have `Has Plan`.
+    1. SLA Metric filter should have `First Reply Time` selected.
+    1. 2FA is custom attribute and `Not 2FA` needs to be selected.
+    1. SLA Update - Week of Year filter used Simple Date Range settings i.e.`This Week`.
+    1. Make sure report should have "Sort" type `A-Z` and have "Totals" show `percent` inside of every column in Result Manipulation.
+    1. It also shows a trend line which can be found in Chart Configuration menu.
+
+### NRT SLO For .COM - Last 3 Weeks
+
+aka IK - NRT SLA for .COM - Last 3 Weeks
+
+- Dataset used: Support ( SLAs )
+- Visualization type: Column
+- Metric used: Sum (% Achieved SLA targets)
+- Rows:
+    None
+- Columns:
+    1. SLA Update - Week of Year
+- Filters used:
+    1. Ticket Form
+    1. Has Plan - Ticket Tags
+    1. SLA Metric
+- Custom Settings:
+    1. Ticket Form filter should include `SaaS` and `SaaS Account`.
+    1. Has Plan - Ticket Tags is a custom attribute and includes should have `Has Plan`.
+    1. SLA Metric filter should have `Next Reply Time` selected.
+    1. SLA Update - Week of Year was used and it use Advanced Date Range settings i.e. "From beginning of" should have `3 weeks in the past` to "The end of" should have `1 week in the past`.
+    1. Make sure report should have "Sort" type `A-Z` and have "Totals" show `percent` inside of every column in Result Manipulation.
+    1. It also shows a trend line which can be found in Chart Configuration menu.
+
+### NRT SLO For .COM - This Week
+
+aka IK - NRT SLA For .COM - This Week
+
+- Dataset used: Support ( SLAs )
+- Visualization type: Column
+- Metric used: Sum (% Achieved SLA targets)
+- Rows:
+    None
+- Columns:
+    1. SLA Update - Week of Year
+- Filters used:
+    1. Ticket Form
+    1. Has Plan - Ticket Tags
+    1. SLA Metric
+- Custom Settings:
+    1. Ticket Form filter should include `SaaS` and `SaaS Account`.
+    1. Has Plan - Ticket Tags is a custom attribute and includes should have `Has Plan`.
+    1. SLA Metric filter should have `Next Reply Time` selected.
+    1. SLA Update - Week of Year filter used Simple Date Range settings i.e.`This Week`.
+    1. Make sure report should have "Sort" type `A-Z` and have "Totals" show `percent` inside of every column in Result Manipulation.
+    1. It also shows a trend line which can be found in Chart Configuration menu.
+
+
+### SSAT For .COM - Last 3 Weeks
+
+aka IK - SSAT For .COM - Last 3 Weeks
+
+- Dataset used: Support ( Tickets )
+- Visualization type: Column
+- Metric used: SUM (% Satisfaction score)
+- Rows:
+    None
+- Columns:
+    1. Ticket Solved - Week of Year
+- Filters used:
+    1. Ticket satisfaction rating
+    1. Ticket Form
+    1. Has Plan - Ticket Tags
+- Custom Settings:
+    1. Ticket satisfaction rating filter exclude `NULL`, `Offered`, `Unoffered`.
+    1. Ticket Form filter should include `SaaS` and `SaaS Account`.
+    1. Has Plan - Ticket Tags is a custom attribute and setting of Includes have `Has Plan` checked.
+    1. Ticket Solved - Week of Year use Advanced Date Range settings i.e. "From beginning of" should have `3 weeks in the past` to "The end of" should have `1 week in the past`.
+    1. Make sure report should have "Sort" type `A-Z` and have "Totals" show `percent` inside of every column in Result Manipulation.
+    1. It also shows a trend line which can be found in Chart Configuration menu.
+
+
+## SSAT For .COM - This Week
+
+aka IK - SSAT For .COM - This Week
+
+- Dataset used: Support ( Tickets )
+- Visualization type: Column
+- Metric used: SUM (% Satisfaction score)
+- Rows:
+    None
+- Columns:
+    1. Ticket Solved - Week of Year
+- Filters used:
+    1. Ticket satisfaction rating
+    1. Ticket Form
+    1. Has Plan - Ticket Tags
+- Custom Settings:
+    1. Ticket satisfaction rating filter exclude `NULL`, `Offered`, `Unoffered`.
+    1. Ticket Form filter should include `SaaS` and `SaaS Account`.
+    1. Has Plan - Ticket Tags is a custom attribute and setting of Includes have `Has Plan` checked.
+    1. Ticket Solved - Week of Year filter used Simple Date Range settings i.e.`This Week`.
+    1. Make sure report should have "Sort" type `A-Z` and have "Totals" show `percent` inside of every column in Result Manipulation.
+    1. It also shows a trend line which can be found in Chart Configuration menu.
+
+### SSAT Volume 4 Weeks .COM
+
+aka IK - SSAT Distribution 4 Weeks .COM - Table
+
+- Dataset used: Support ( Tickets )
+- Visualization type: Table
+- Metric used: Sum (% Satisfaction Score), D_Count (Rated satisfaction tickets)
+- Rows:
+    None
+- Columns:
+    1. Ticket Solved - Week of Year
+- Filters used:
+    1. Ticket satisfaction rating
+    1. Ticket Form
+    1. Has Plan Ticket Tags -SSAT (Incl L&R)
+- Custom Settings:
+    1. Ticket satisfaction rating filter exclude `NULL`, `Offered`, `Unoffered`.
+    1. Ticket Form filter should include `SaaS` and `SaaS Account`.
+    1. Has Plan Ticket Tags -SSAT (Incl L&R) is a custom attribute and setting of Includes have `Has Plan + L&R` checked.
+    1. Ticket Solved - Year use Advanced Date Range settings i.e. "From beginning of" should have `3 Weeks in the past` to "The end of" should have `All History`.
+    1. Make sure report should have "Sort" type `A-Z`.
+
+### Requester Wait Time .COM
+
+aka IK - SWIR - Requester Wait Time .COM
+
+- Dataset used: Support ( SLAs )
+- Visualization type: Line
+- Metric used: MED (requester wait time (hrs))
+- Rows:
+    None
+- Columns:
+    1. Ticket Updated - Week of Year
+- Filters used:
+    1. Ticket Form
+    1. Has Plan - Ticket Tags
+- Custom Settings:
+    1. Ticket Form filter should include `SaaS` and `SaaS Account`.
+    1. Has Plan - Ticket Tags is a custom attribute and setting of Includes have `Has Plan` checked.
+    1. Ticket Updated - Week of Year filter was used and it use Advanced Date Range settings i.e. "From beginning of" should have `3 Weeks in the past` to "The end of" should have `All History`.
+    1. Make sure report should have "Sort" type `A-Z` and Total shows on top of every week in Result Manipulation.
+
+### .COM Incoming Tickets For Support Per Week
+
+aka IK - .COM Incoming Tickets For Support Per Week
+
+- Dataset used: Updates History
+- Visualization type: Column
+- Metric used: Count (Tickets Created)
+- Rows:
+    1. Ticket Priority
+- Columns:
+    1. Ticket Created - Week of Year
+- Filters used:
+    1. Ticket Form
+    1. Has Plan Ticket Tags -SSAT (Incl L&R)
+- Custom Settings:
+    1. This report shows Legend for Rows values in top of chart configurable in Chart configuration.
+    1. Ticket Form filter should include `SaaS` and `SaaS Account`.
+    1. Has Plan Ticket Tags -SSAT (Incl L&R) is a custom attribute and setting of Includes have `Has Plan + L&R` checked.
+    1. Ticket Created - Year use Advanced Date Range settings i.e. "From beginning of" should have `3 weeks in the past` to "The end of" should have `All history`.
+    1. Make sure report should have "Sort" type `A-Z` and "Totals" show on top of every column and the priortiy percentage shows inside columns in Result Manipulation.
+
+### Emergency Tickets - Weekend Opened Worldwide Per Week
+
+aka IK - Emergency Tickets - Weekend Opened Worldwide Per Week.
+
+- Dataset used: Support ( Tickets )
+- Visualization type: Column
+- Metric used: Count (Tickets)
+- Rows:
+    None
+- Columns:
+    1. Ticket Created - Year
+    1. Ticket Created - Month
+    1. Ticket Created - Week of Year
+- Filters used:
+    1. Ticket Tags
+    1. Ticket Created - Day of week
+    1. Requester Role
+    1. Requester Name
+- Custom Settings:
+    1. Ticket Tags filter should include `emergency` only.
+    1. Ticket Created - Day of week filter should include `Saturday` and `Sunday`.
+    1. Requester Role filter should exclude `Admin` and `Agent`.
+    1. Requester Name filter should exclude `Lis Vinueza` only.
+    1. Ticket Created - Year use Advanced Date Range settings i.e. "From beginning of" should have `3 Months in the past` to "The end of" should have `All History`.
+    1. Make sure report should have "Sort" type `A-Z` and Totals show on top of every month in Result Manipulation.
+    1. It also shows a trend line which can be found in Chart Configuration menu.
+
+### Week Over Week L&R SLA
+
+aka IK - Week Over Week L&R SLA
+
+- Dataset used: Support ( SLAs )
+- Visualization type: Table
+- Metric used: /*Sum (SLA % achieved last week)*/,  /*Sum (SLA % achieved this week)*/
+- Rows:
+    1. SLA Metric
+        (includes only First Reply Time, Next Reply Time)
+- Columns:
+    None
+- Filters used:
+    1. Ticket Form
+- Custom Settings:
+    1. SLA % achieved last week) and SLA % achieved this week) are custom date range metrics.
+    1. Ticket Form filter should include `L&R` only.
+    1. Has Plan - Ticket Tags is a custom attribute and includes should have `Has Plan`.
+    1. Result Metric calculation is used in Result Manipulation with name "week over week SLA" and formula used is ```(SUM(SLA % achieved this week)-SUM(SLA % achieved last week))/SUM(SLA % achieved last week)```.
+    1. Make sure report should have "Sort" type `A-Z`.
+
+### FRT SLA For L&R - Last 3 Weeks
+
+aka IK - FRT SLA For L&R - Last 3 Weeks
+
+- Dataset used: Support ( SLAs )
+- Visualization type: Column
+- Metric used: Sum (% Achieved SLA targets)
+- Rows:
+    None
+- Columns:
+    1. SLA Update - Week of Year
+- Filters used:
+    1. Ticket Form
+    1. SLA Metric
+    1. 2FA
+- Custom Settings:
+    1. Ticket Form filter should include `L&R` only.
+    1. SLA Metric filter should have `First Reply Time` selected.
+    1. 2FA is custom attribute and `Not 2FA` needs to be selected.
+    1. SLA Update - Week of Year was used and it use Advanced Date Range settings i.e. "From beginning of" should have `3 weeks in the past` to "The end of" should have `1 week in the past`.
+    1. Make sure report should have "Sort" type `A-Z` and have "Totals" show `percent` inside of every column in Result Manipulation.
+    1. It also shows a trend line which can be found in Chart Configuration menu.
+
+### FRT SLA For L&R - This Week
+
+aka IK - FRT SLA For L&R - This Week
+
+- Dataset used: Support ( SLAs )
+- Visualization type: Column
+- Metric used: Sum (% Achieved SLA targets)
+- Rows:
+    None
+- Columns:
+    1. SLA Update - Week of Year
+- Filters used:
+    1. Ticket Form
+    1. SLA Metric
+    1. 2FA
+- Custom Settings:
+    1. Ticket Form filter should include `L&R` only.
+    1. SLA Metric filter should have `First Reply Time` selected.
+    1. 2FA is custom attribute and `Not 2FA` needs to be selected.
+    1. SLA Update - Week of Year filter used Simple Date Range settings i.e.`This Week`.
+    1. Make sure report should have "Sort" type `A-Z` and have "Totals" show `percent` inside of every column in Result Manipulation.
+    1. It also shows a trend line which can be found in Chart Configuration menu.
+
+### NRT SLO For L&R - Last 3 Weeks
+
+aka IK - NRT SLA for L&R - Last 3 Weeks
+
+- Dataset used: Support ( SLAs )
+- Visualization type: Column
+- Metric used: Sum (% Achieved SLA targets)
+- Rows:
+    None
+- Columns:
+    1. SLA Update - Week of Year
+- Filters used:
+    1. Ticket Form
+    1. SLA Metric
+- Custom Settings:
+    1. Ticket Form filter should include `L&R` only.
+    1. SLA Metric filter should have `Next Reply Time` selected.
+    1. SLA Update - Week of Year was used and it use Advanced Date Range settings i.e. "From beginning of" should have `3 weeks in the past` to "The end of" should have `1 week in the past`.
+    1. Make sure report should have "Sort" type `A-Z` and have "Totals" show `percent` inside of every column in Result Manipulation.
+    1. It also shows a trend line which can be found in Chart Configuration menu.
+
+### NRT SLO For L&R - This Week
+
+aka IK - NRT SLA For L&R - This Week
+
+- Dataset used: Support ( SLAs )
+- Visualization type: Column
+- Metric used: Sum (% Achieved SLA targets)
+- Rows:
+    None
+- Columns:
+    1. SLA Update - Week of Year
+- Filters used:
+    1. Ticket Form
+    1. SLA Metric
+- Custom Settings:
+    1. Ticket Form filter should include `L&R` only.
+    1. SLA Metric filter should have `Next Reply Time` selected.
+    1. SLA Update - Week of Year filter used Simple Date Range settings i.e.`This Week`.
+    1. Make sure report should have "Sort" type `A-Z` and have "Totals" show `percent` inside of every column in Result Manipulation.
+    1. It also shows a trend line which can be found in Chart Configuration menu.
+
+
+### SSAT For L&R - Last 3 Weeks
+
+aka IK - SSAT For L&R - Last 3 Weeks
+
+- Dataset used: Support ( Tickets )
+- Visualization type: Column
+- Metric used: SUM (% Satisfaction score)
+- Rows:
+    None
+- Columns:
+    1. Ticket Solved - Week of Year
+- Filters used:
+    1. Ticket satisfaction rating
+    1. Ticket Form
+- Custom Settings:
+    1. Ticket satisfaction rating filter exclude `NULL`, `Offered`, `Unoffered`.
+    1. Ticket Form filter should include `L&R` only.
+    1. Ticket Solved - Week of Year use Advanced Date Range settings i.e. "From beginning of" should have `3 weeks in the past` to "The end of" should have `1 week in the past`.
+    1. Make sure report should have "Sort" type `A-Z` and have "Totals" show `percent` inside of every column in Result Manipulation.
+    1. It also shows a trend line which can be found in Chart Configuration menu.
+
+
+## SSAT For L&R - This Week
+
+aka IK - SSAT For L&R - This Week
+
+- Dataset used: Support ( Tickets )
+- Visualization type: Column
+- Metric used: SUM (% Satisfaction score)
+- Rows:
+    None
+- Columns:
+    1. Ticket Solved - Week of Year
+- Filters used:
+    1. Ticket satisfaction rating
+    1. Ticket Form
+- Custom Settings:
+    1. Ticket satisfaction rating filter exclude `NULL`, `Offered`, `Unoffered`.
+    1. Ticket Form filter should include `L&R` only.
+    1. Ticket Solved - Week of Year filter used Simple Date Range settings i.e.`This Week`.
+    1. Make sure report should have "Sort" type `A-Z` and have "Totals" show `percent` inside of every column in Result Manipulation.
+    1. It also shows a trend line which can be found in Chart Configuration menu.
+
+### SSAT Volume 4 Weeks L&R
+
+aka IK - SSAT Distribution 4 Weeks L&R - Table
+
+- Dataset used: Support ( Tickets )
+- Visualization type: Table
+- Metric used: Sum (% Satisfaction Score), D_Count (Rated satisfaction tickets)
+- Rows:
+    None
+- Columns:
+    1. Ticket Solved - Week of Year
+- Filters used:
+    1. Ticket satisfaction rating
+    1. Ticket Form
+- Custom Settings:
+    1. Ticket satisfaction rating filter exclude `NULL`, `Offered`, `Unoffered`.
+    1. Ticket Form filter should include `L&R` only.
+    1. Ticket Solved - Year use Advanced Date Range settings i.e. "From beginning of" should have `3 Weeks in the past` to "The end of" should have `All History`.
+    1. Make sure report should have "Sort" type `A-Z`.
+
+### Requester Wait Time L&R
+
+aka IK - SWIR - Requester Wait Time L&R
+
+- Dataset used: Support ( SLAs )
+- Visualization type: Line
+- Metric used: MED (requester wait time (hrs))
+- Rows:
+    None
+- Columns:
+    1. Ticket Updated - Week of Year
+- Filters used:
+    1. Ticket Form
+- Custom Settings:
+    1. Ticket Form filter should include `L&R` only.
+    1. Ticket Updated - Week of Year filter was used and it use Advanced Date Range settings i.e. "From beginning of" should have `3 Weeks in the past` to "The end of" should have `All History`.
+    1. Make sure report should have "Sort" type `A-Z` and Total shows on top of every week in Result Manipulation.
+
+### L&R Incoming Tickets For Support Per Week
+
+aka IK - L&R Incoming Tickets For Support Per Week
+
+- Dataset used: Updates History
+- Visualization type: Column
+- Metric used: Count (Tickets Created)
+- Rows:
+    1. Ticket Priority
+- Columns:
+    1. Ticket Created - Week of Year
+- Filters used:
+    1. Ticket Form
+- Custom Settings:
+    1. This report shows Legend for Rows values in top of chart configurable in Chart configuration.
+    1. Ticket Form filter should include `L&R` only.
+    1. Ticket Created - Year use Advanced Date Range settings i.e. "From beginning of" should have `3 weeks in the past` to "The end of" should have `All history`.
+    1. Make sure report should have "Sort" type `A-Z` and "Totals" show on top of every column and the priortiy percentage shows inside columns in Result Manipulation.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Custom Attributes and Metrics:
 
@@ -2841,3 +3691,19 @@ aka IK - SLA Breached Per Hour Last 4 Months SM
     ```
 
     Special settings: None
+
+1. SLA % achieved last week
+
+    Type: Date Range Calucated Metric
+    Original Metric: % Achieved SLA Targets
+    Defined on: SLA Update
+    Date Range: Advanced Date Range settings i.e. "From beginning of" should have `1 week in the past` to "The end of" should have `1 week in the past`.
+    Repeat Pattern: Yesterday
+
+1. SLA % achieved this week
+
+    Type: Date Range Calucated Metric
+    Original Metric: % Achieved SLA Targets
+    Defined on: SLA Update
+    Date Range: Simple Date Range settings i.e. `This Week`.
+    Repeat Pattern: None
