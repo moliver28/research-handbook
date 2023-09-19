@@ -63,7 +63,7 @@ Senior IT Enterprise Applications Administrator is a [grade 7](https://about.git
 
 Extends the IT Enterprise Applications Administrator responsibilities:
 
-- Provides input on strategic decisions within the team, such as: new system features and functionality, system roadmap, annual planning, portfolio management.
+- Provides input on strategic decisions within the team, such as: new system features and functionality, process definition, system roadmap, annual planning, portfolio management, etc.
 - Applies technical and functional knowledge to assist in projects that enable the team to meet their goals.
 - Works on complex problems in which analysis of situations or data requires an in-depth evaluation of various factors.
 - Solves problems of medium complexity that will have an impact to the business results of their team.
