@@ -2934,7 +2934,7 @@ aka IK - Baseline comments SM
     1. Has Plan - Ticket Tags is a custom attribute and includes should have `Has Plan`.
     1. Update - Week of Year was used and it use Advanced Date Range settings i.e. "From beginning of" should have `8 weeks in the past` to "The end of" should have `1 week in the past`.
     1. Make sure report should have "Sort" type `A-Z` and have "Totals" show `SUM` inside of every column in Result Manipulation.
- 
+
 ### Baseline comments .COM
 
 aka IK - Baseline comments .COM
