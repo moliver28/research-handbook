@@ -426,7 +426,7 @@ This is left side top chart in slide 22
 
 This is left side bottom chart in slide 22
 
-- Dataset used: Updates History
+- Dataset used: Support ( Updates History )
 - Visualization type: Column
 - Metric used: Count (Tickets Created)
 - Rows:
@@ -830,15 +830,15 @@ This is bottom right chart in Slide 26.
     - Widgets used:
         - None
     - Reports used:
-        1. Free Reduced Effort - May/2023 and All Free
+        1. Free Reduced Effort Free Ratio
         1. Intake Last 12 Months Free Plans - Per Ticket Form
-1. Security:
+1. Security (Not used any more):
     - Widgets used:
         - None
     - Reports used:
-        1. Total Incoming Tickets For Security
-        1. SSAT Distribution 12 Month Security
-        1. Requester Wait Time Security
+        1. Total Incoming Tickets For Security (Deprecated)
+        1. SSAT Distribution 12 Month Security (Deprecated)
+        1. Requester Wait Time Security (Deprecated)
 1. Ops:
     - Widgets used:
         - None
@@ -2170,7 +2170,7 @@ aka IK - NRT SLA - Last 4 Weeks
 
 aka IK - Incoming Tickets For Support Per Week (excl L&R)
 
-- Dataset used: Updates History
+- Dataset used: Support ( Updates History )
 - Visualization type: Column
 - Metric used: Count (Tickets Created)
 - Rows:
@@ -2427,7 +2427,7 @@ aka IK - SWIR - Requester Wait Time SM
 
 aka IK - SM Incoming Tickets For Support Per Week
 
-- Dataset used: Updates History
+- Dataset used: Support ( Updates History )
 - Visualization type: Column
 - Metric used: Count (Tickets Created)
 - Rows:
@@ -2657,7 +2657,7 @@ aka IK - SWIR - Requester Wait Time .COM
 
 aka IK - .COM Incoming Tickets For Support Per Week
 
-- Dataset used: Updates History
+- Dataset used: Support ( Updates History )
 - Visualization type: Column
 - Metric used: Count (Tickets Created)
 - Rows:
@@ -2707,7 +2707,7 @@ aka IK - Week Over Week L&R SLA
 
 - Dataset used: Support ( SLAs )
 - Visualization type: Table
-- Metric used: /*Sum (SLA % achieved last week)*/,  /*Sum (SLA % achieved this week)*/
+- Metric used: /*Sum (SLA % achieved last week)*/, /*Sum (SLA % achieved this week)*/
 - Rows:
     1. SLA Metric
         (includes only First Reply Time, Next Reply Time)
@@ -2896,7 +2896,7 @@ aka IK - SWIR - Requester Wait Time L&R
 
 aka IK - L&R Incoming Tickets For Support Per Week
 
-- Dataset used: Updates History
+- Dataset used: Support ( Updates History )
 - Visualization type: Column
 - Metric used: Count (Tickets Created)
 - Rows:
@@ -2908,41 +2908,372 @@ aka IK - L&R Incoming Tickets For Support Per Week
 - Custom Settings:
     1. This report shows Legend for Rows values in top of chart configurable in Chart configuration.
     1. Ticket Form filter should include `L&R` only.
-    1. Ticket Created - Year use Advanced Date Range settings i.e. "From beginning of" should have `3 weeks in the past` to "The end of" should have `All history`.
+    1. Ticket Created - Week of Year use Advanced Date Range settings i.e. "From beginning of" should have `3 weeks in the past` to "The end of" should have `All history`.
     1. Make sure report should have "Sort" type `A-Z` and "Totals" show on top of every column and the priortiy percentage shows inside columns in Result Manipulation.
 
 
+### Baseline comments SM
 
+aka IK - Baseline comments SM
 
+- Dataset used: Support ( Ticket Updates )
+- Visualization type: Table
+- Metric used: /*D_Count (Public Comments - Agent)*/,  /*D_Count (Baseline Public Comments SM)*/,  /*D_Count (Public Comments AVG SM)*/,  /*D_Count (Internal Comments - Agent)*/,  /*D_Count (Baseline Internal Comments SM)*/,  /*D_Count (Avrage Internal Comments SM)*/,  D_Count (Tickets Solved),  /*D_Count (Baseline Solved SM)*/,  /*D_Count (Solved AVG SM)*/
+- Rows:
+    None
+- Columns:
+    1. Update - Week of Year
+- Filters used:
+    1. Ticket Form
+    1. Updater Name
+    1. Has Plan - Ticket Tags
+- Custom Settings:
+    1. Public Comments - Agent, Baseline Public Comments SM, Public Comments AVG SM, Internal Comments - Agent, Baseline Internal Comments SM, Avrage Internal Comments SM, Baseline Solved SM and Solved AVG SM are custom metrics.
+    1. Ticket Form filter includes `Self=Managed` only.
+    1. Update Name filter excludes `GitLab Support`, `GitLab SupportOps Bot`, `SupportOps`.
+    1. Has Plan - Ticket Tags is a custom attribute and includes should have `Has Plan`.
+    1. Update - Week of Year was used and it use Advanced Date Range settings i.e. "From beginning of" should have `8 weeks in the past` to "The end of" should have `1 week in the past`.
+    1. Make sure report should have "Sort" type `A-Z` and have "Totals" show `SUM` inside of every column in Result Manipulation.
+ 
+### Baseline comments .COM
 
+aka IK - Baseline comments .COM
 
+- Dataset used: Support ( Ticket Updates )
+- Visualization type: Table
+- Metric used: /*D_Count (Public Comments - Agent)*/,  /*D_Count (Baseline Public Comments .COM)*/,  /*D_Count (Public Comments AVG .COM)*/,  /*D_Count (Internal Comments - Agent)*/,  /*D_Count (Baseline Internal Comments .COM)*/,  /*D_Count (Avrage Internal Comments .COM)*/,  D_Count (Tickets Solved),  /*D_Count (Baseline Solved .COM)*/,  /*D_Count (Solved AVG .COM)*/
+- Rows:
+    None
+- Columns:
+    1. Update - Week of Year
+- Filters used:
+    1. Ticket Form
+    1. Updater Name
+    1. Has Plan - Ticket Tags
+- Custom Settings:
+    1. Public Comments - Agent, Baseline Public Comments .COM, Public Comments AVG .COM, Internal Comments - Agent, Baseline Internal Comments .COM, Avrage Internal Comments .COM, Baseline Solved ,COM and Solved AVG .COM are custom metrics.
+    1. Ticket Form filter includes `SaaS` and `SaaS Account`.
+    1. Update Name filter excludes `GitLab Support`, `GitLab SupportOps Bot`, `SupportOps`.
+    1. Has Plan - Ticket Tags is a custom attribute and includes should have `Has Plan`.
+    1. Update - Week of Year was used and it use Advanced Date Range settings i.e. "From beginning of" should have `8 weeks in the past` to "The end of" should have `1 week in the past`.
+    1. Make sure report should have "Sort" type `A-Z` and have "Totals" show `SUM` inside of every column in Result Manipulation.
 
+### Baseline comments L&R
 
+aka IK - Baseline comments L&R
 
+- Dataset used: Support ( Ticket Updates )
+- Visualization type: Table
+- Metric used: /*D_Count (Public Comments - Agent)*/,  /*D_Count (Baseline Public Comments L&R)*/,  /*D_Count (Public Comments AVG L&R)*/,  /*D_Count (Internal Comments - Agent)*/,  /*D_Count (Baseline Internal Comments L&R)*/,  /*D_Count (Avrage Internal Comments L&R)*/,  D_Count (Tickets Solved),  /*D_Count (Baseline Solved L&R)*/,  /*D_Count (Solved AVG L&R)*/
+- Rows:
+    None
+- Columns:
+    1. Update - Week of Year
+- Filters used:
+    1. Ticket Form
+    1. Updater Name
+- Custom Settings:
+    1. Public Comments - Agent, Baseline Public Comments L&R, Public Comments AVG L&R, Internal Comments - Agent, Baseline Internal Comments L&R, Avrage Internal Comments L&R, Baseline Solved L&R and Solved AVG L&R are custom metrics.
+    1. Ticket Form filter includes `L&R` only.
+    1. Update Name filter excludes `GitLab Support`, `GitLab SupportOps Bot`, `SupportOps`.
+    1. Update - Week of Year was used and it use Advanced Date Range settings i.e. "From beginning of" should have `8 weeks in the past` to "The end of" should have `1 week in the past`.
+    1. Make sure report should have "Sort" type `A-Z` and have "Totals" show `SUM` inside of every column in Result Manipulation.
 
+### L&R No Assignee
 
+aka IK - L&R Ticket With No Assignee
 
+- Dataset used: Support ( Tickets )
+- Visualization type: Auto
+- Metric used: D_Count (Tickets Solved)
+- Rows:
+    None
+- Columns:
+    1. Assignee Name
+- Filters used:
+    1. Ticket Form
+    1. Ticket Status
+- Custom Settings:
+    1. Assignee Name should have `NULL` only as selected.
+    1. Ticket Form filter includes `L&R` only.
+    1. Ticket Status filter excludes `Solved` and `Closed`.
+    1. Make sure report should have "Sort" type `A-Z`.
 
+### FRT SLA For L&R
 
+aka IK - FRT SLA For L&R
 
+- Dataset used: Support ( SLAs )
+- Visualization type: Column
+- Metric used: SUM (% Achieved SLA Targets)
+- Rows:
+    None
+- Columns:
+    1. SLA Update - Year
+    1. SLA Update - Month
+- Filters used:
+    1. SLA Metric
+    1. Ticket Form
+- Custom Settings:
+    1. SLA Metric includes only `First Reply Time`.
+    1. Ticket Form filter should include `L&R` only.
+    1. SLA Update - Year filter was used and it use Advanced Date Range settings i.e. "From beginning of" should have `13 months in the past` to "The end of" should have `1 month in the past`.
+    1. Make sure report should have "Sort" type `A-Z` and Percentage is shown inside every bar in Result Manipulation.
+    1. It also shows a trend line which can be found in Chart Configuration menu.
 
+### NRT SLA For L&R
 
+aka IK - NRT SLA For L&R
 
+- Dataset used: Support ( SLAs )
+- Visualization type: Column
+- Metric used: SUM (% Achieved SLA Targets)
+- Rows:
+    None
+- Columns:
+    1. SLA Update - Year
+    1. SLA Update - Month
+- Filters used:
+    1. SLA Metric
+    1. Ticket Form
+- Custom Settings:
+    1. SLA Metric includes only `Next Reply Time`.
+    1. Ticket Form filter should include `L&R` only.
+    1. SLA Update - Year filter was used and it use Advanced Date Range settings i.e. "From beginning of" should have `13 months in the past` to "The end of" should have `1 month in the past`.
+    1. Make sure report should have "Sort" type `A-Z` and Percentage is shown inside every bar in Result Manipulation.
+    1. It also shows a trend line which can be found in Chart Configuration menu.
 
+### SSAT 12 Months L&R - All Plans
 
+aka IK - Main - SSAT Distribution 12 Months Licensing
 
+- Dataset used: Support ( Tickets )
+- Visualization type: Column
+- Metric used: Sum (% Satisfaction Score)
+- Rows:
+    None
+- Columns:
+    1. Ticket Solved - Year
+    1. Ticket Solved - Month
+- Filters used:
+    1. Ticket Form
+- Custom Settings:
+    1. Ticket Form filter should include only `L&R`.
+    1. Ticket Solved - Year use Advanced Date Range settings i.e. "From beginning of" should have `13 Months in the past` to "The end of" should have `1 month in the past`.
+    1. Make sure report should have "Sort" type `A-Z` and and "SUM" shows in percentage in columns inside every month in Result Manipulation.
+    1. It also shows a trend line which can be found in Chart Configuration menu.
 
+### L&R Incoming Volume Per Week
 
+aka IK - L&R Incoming Volume Per Week
 
+- Dataset used: Support ( Tickets )
+- Visualization type: Column
+- Metric used: D_Count (Tickets)
+- Rows:
+    None
+- Columns:
+    1. Ticket Created - Week of Year
+- Filters used:
+    1. Ticket Form
+- Custom Settings:
+    1. Ticket Form filter should include `L&R` only.
+    1. Ticket Created - Week of Year use Advanced Date Range settings i.e. "From beginning of" should have `2 Months in the past` to "The end of" should have `All history`.
+    1. Make sure report should have "Sort" type `A-Z` and "Totals" show inside of every column  in Result Manipulation.
 
+### L&R Incoming Volume Per Day
 
+aka IK - L&R Incoming Volume Per Day
 
+- Dataset used: Support ( Tickets )
+- Visualization type: Column
+- Metric used: D_Count (Tickets)
+- Rows:
+    None
+- Columns:
+    1. Ticket Created - Month
+    1. Ticket Created - Day of Month
+- Filters used:
+    1. Ticket Form
+- Custom Settings:
+    1. Ticket Form filter should include `L&R` only.
+    1. Ticket Created - Month use Advanced Date Range settings i.e. "From beginning of" should have `2 weeks in the past` to "The end of" should have `All history`.
+    1. Make sure report should have "Sort" type `A-Z` and "Totals" show inside of every column  in Result Manipulation.
 
+### Total Incoming Tickets For L&R - All Plans
 
+aka IK - Total Incoming Tickets For L&R
 
+- Dataset used: Support ( Updates History )
+- Visualization type: Column
+- Metric used: Count (Tickets Created)
+- Rows:
+    1. Ticket Priority
+- Columns:
+    1. Ticket Created - Year
+    1. Ticket Created - Month
+- Filters used:
+    1. Ticket Form
+- Custom Settings:
+    1. This report shows Legend for Rows values in top of chart configurable in Chart configuration.
+    1. Ticket Form filter should include `L&R` only.
+    1. Ticket Created - Year use Advanced Date Range settings i.e. "From beginning of" should have `13 Months in the past` to "The end of" should have `1 Month in the past`.
+    1. Make sure report should have "Sort" type `A-Z` and "Totals" show on top of every column and the priortiy percentage shows inside columns in Result Manipulation.
 
+### L&R Escalated to Sales AVG Time to First Solve
 
+aka IK - L&R Escalated to Sales AVG Time to Resolve
 
+- Dataset used: Support ( SLAs )
+- Visualization type: Column
+- Metric used: Avg (First resolution time (hrs))
+- Rows:
+    1. Escalated to Sales
+        (Includes only `true` and `false`)
+- Columns:
+    1. Ticket Solved - Year
+    1. Ticket Solved - Month
+- Filters used:
+    1. Ticket Form
+- Custom Settings:
+    1. This report shows Legend for Rows values in top of chart configurable in Chart configuration.
+    1. Ticket Form filter should include only `L&R`.
+    1. Ticket Solved - Year use Advanced Date Range settings i.e. "From beginning of" should have `13 Months in the past` to "The end of" should have `1 month in the past`.
+    1. Make sure report should have "Sort" type `A-Z` and and "Total" shows on top of columns on every month in Result Manipulation.
+
+### L&R No Transaction Type Per Month
+
+aka IK - L&R No Transaction Type Per Month
+
+- Dataset used: Support ( Tickets )
+- Visualization type: Column
+- Metric used: D_Count (Tickets)
+- Rows:
+    1. Transaction Issue Type
+        (Includes only `NULL`)
+- Columns:
+    1. Ticket Solved - Year
+    1. Ticket Solved - Month
+- Filters used:
+    1. Ticket Form
+- Custom Settings:
+    1. Ticket Form filter should include only `L&R`.
+    1. Ticket Solved - Year use Advanced Date Range settings i.e. "From beginning of" should have `13 Months in the past` to "The end of" should have `1 month in the past`.
+    1. Make sure report should have "Sort" type `A-Z` and and "Total" shows inside of columns on every month in Result Manipulation.
+
+## Intake Per Hour Last 12 Months L&R - All Plans
+
+aka IK - H/N/L Tickets - Intake Per Hour Last 12 Months L&R
+
+- Dataset used: Support ( Tickets )
+- Visualization type: Column
+- Metric used: Count (Tickets)
+- Rows:
+    1. Ticket Priority  
+        (Includes only Normal, Low, High)
+- Columns:
+    1. Ticket Created (Hour)  
+        (Includes  Check all even DESELECT ALL as well)
+- Filters used:
+    1. Ticket Form
+    1. Has Plan Ticket Tags -SSAT (Incl L&R)
+- Custom Settings:
+    1. This report shows Legend for Rows values in top of chart configurable in Chart configuration.
+    1. Ticket Form filter should include only `L&R`.
+    1. Ticket Created (Year) filter was used and it  use Advanced Date Range settings i.e. "From beginning of" should have `13 months in the past` to "The end of" should have `1 month in the past`.
+    1. Make sure report should have "Sort" type `A-Z` and "Total" is top on every column in Result Manipulation.
+
+### Poor CSAT For L&R Breakdown per Month - All Plans
+
+aka IK - Poor CSAT For L&R Breakdown Per Month
+
+- Dataset used: Support ( Updates History )
+- Visualization type: Column
+- Metric used: Count  (Bad Initial Satisfaction Rating)
+- Rows:
+    1. Ticket Satisfaction Reason
+- Columns:
+    1. Ticket Created - Year
+    1. Ticket Created - Month
+- Filters used:
+    1. Ticket Form
+    1. Ticket Created - Year
+    1. Ticket Satisfaction Reason
+- Custom Settings:
+    1. This report shows Legend for Row values in top of chart configurable in Chart configuration.
+    1. Ticket Form filter should include only `L&R`.
+    1. Ticket Created - Year use Advanced Date Range settings i.e. "From beginning of" should have `13 Months in the past` to "The end of" should have `1 month in the past`.
+    1. Make sure report should have "Sort" type `A-Z` and and "Total" shows on top of every column as well as in percentage in columns inside every month for every reason in Result Manipulation.
+
+### Time To Resolve Escalated to Sales - Custom Metric Error (TTR)
+
+### Reduced Effort Free Ratio - Takes way too long to load
+
+### Intake Last 12 Months Free Plans - Per Ticket Form
+
+aka IK - Intake Last 12 Months Free Plans - Per Ticket Form
+
+- Dataset used: Support ( Tickets )
+- Visualization type: Column
+- Metric used: Count (Tickets)
+- Rows:
+    1. Ticket Form
+        (Includes `Self-Managed`, `SaaS`. `SaaS Account`.)
+- Columns:
+    1. Ticket Created - Year
+    1. Ticket Created - Month
+- Filters used:
+    1. Has Plan - Ticket Tags
+- Custom Settings:
+    1. This report shows Legend for Row values in top of chart configurable in Chart configuration.
+    1. Has Plan - Ticket Tags  is a custom attribute and setting of Includes have `No Plan` checked.
+    1. Ticket Created - Year filter was used and it  use Advanced Date Range settings i.e. "From beginning of" should have `13 months in the past` to "The end of" should have `1 month in the past`.
+    1. Make sure report should have "Sort" type `A-Z` and "Sum" is top on every bar as well as Totals for Rows inside every column in Result Manipulation.
+
+### LK - Ops SSAT - Last 4 Weeks - Outdated Calc
+
+### LK - Ops Total FRT SLA - Last 4 Weeks - Outdated Calc
+
+### LK - Ops NRT SLA - Last 4 Weeks - Outdated Calc
+
+### LK - Ops Incoming Tickets For Support Per Week
+
+aka LK - Ops Incoming Tickets For Support Per Week
+
+- Dataset used: Support ( Tickets )
+- Visualization type: Column
+- Metric used: Count (Tickets)
+- Rows:
+    1. Ticket Priority  
+    (Includes `Urgent`, `Normal`, `Low`, `High`.)
+- Columns:
+    1. Ticket created - Week of year
+- Filters used:
+    1. Ticket Form
+- Custom Settings:
+    1. 1. This report shows Legend for Row values in top of chart configurable in Chart configuration.
+    1. Ticket Form filter should includes `Support Ops` only.
+    1. Ticket Created (Year) filter was used and it  use Advanced Date Range settings i.e. "From beginning of" should have `3 weeks in the past` to "The end of" should have `All History`.
+    1. Make sure report should have "Sort" type `A-Z` and have "Totals" at top of bars  in Result Manipulation.
+
+### LK - Incoming Ops
+
+aka LK - Incoming Ops
+
+- Dataset used: Support ( Tickets )
+- Visualization type: Column
+- Metric used: D_Count (Tickets)
+- Rows:
+    1. Ticket Form
+        (Includes `Support Ops` only.)
+- Columns:
+    1. Ticket Created - Year
+    1. Ticket Created - Month
+- Filters used:
+    None
+- Custom Settings:
+    1. Ticket Created - Year filter was used and it  use Advanced Date Range settings i.e. "From beginning of" should have `12 months in the past` to "The end of" should have `All History`.
+    1. Make sure report should have "Sort" type `A-Z` and Count is shown inside every column in Result Manipulation.
 
 ## Custom Attributes and Metrics:
 
@@ -3707,3 +4038,229 @@ aka IK - L&R Incoming Tickets For Support Per Week
     Defined on: SLA Update
     Date Range: Simple Date Range settings i.e. `This Week`.
     Repeat Pattern: None
+
+1. Public Comments - Agent
+
+    Type: Standard Calucated Metric
+    Formula:
+
+    ```Text
+    IF ([Comment present] = TRUE AND [Comment public] = TRUE)
+    AND NOT ([Updater role]="End-user")
+    THEN [Update ID]
+    ENDIF
+    ```
+
+    Special settings: None
+
+1. Baseline Public Comments SM
+
+    Type: Standard Calucated Metric
+    Formula:
+
+    ```Text
+    D_COUNT(Public Comments - Agent)/(53*0.85)*0.85
+    ```
+
+    Special settings: None
+
+1. Public Comments AVG SM
+
+    Type: Standard Calucated Metric
+    Formula:
+
+    ```Text
+    D_COUNT(Public Comments - Agent)/(53*0.85)
+    ```
+
+    Special settings: None
+
+1. Internal Comments - Agent
+
+    Type: Standard Calucated Metric
+    Formula:
+
+    ```Text
+    IF ([Comment present] = TRUE AND [Comment public] = FALSE)
+    AND NOT ([Updater role]="End-user")
+    THEN [Update ID]
+    ENDIF
+    ```
+
+    Special settings: None
+
+1. Baseline Internal Comments SM
+
+    Type: Standard Calucated Metric
+    Formula:
+
+    ```Text
+    D_COUNT(Internal Comments - Agent)/(53*0.85)*0.85
+    ```
+
+    Special settings: None
+
+1. Avrage Internal Comments SM
+
+    Type: Standard Calucated Metric
+    Formula:
+
+    ```Text
+    D_COUNT(Internal Comments - Agent)/(53*0.85)
+    ```
+
+    Special settings: None
+
+1. Baseline Solved SM
+
+    Type: Standard Calucated Metric
+    Formula:
+
+    ```Text
+    D_COUNT(Tickets solved)/(53*0.85)*0.85
+    ```
+
+    Special settings: None
+
+1. Solved AVG SM
+
+    Type: Standard Calucated Metric
+    Formula:
+
+    ```Text
+    D_COUNT(Tickets solved)/(53*0.85)
+    ```
+
+    Special settings: None
+
+1. Baseline Public Comments .COM
+
+    Type: Standard Calucated Metric
+    Formula:
+
+    ```Text
+    D_COUNT(Public Comments - Agent)/(35*0.85)*0.85
+    ```
+
+    Special settings: None
+
+1. Public Comments AVG .COM
+
+    Type: Standard Calucated Metric
+    Formula:
+
+    ```Text
+    D_COUNT(Public Comments - Agent)/(35*0.85)
+    ```
+
+    Special settings: None
+
+1. Baseline Internal Comments .COM
+
+    Type: Standard Calucated Metric
+    Formula:
+
+    ```Text
+    D_COUNT(Internal Comments - Agent)/(35*0.85)*0.85
+    ```
+
+    Special settings: None
+
+1. Avrage Internal Comments .COM
+
+    Type: Standard Calucated Metric
+    Formula:
+
+    ```Text
+    D_COUNT(Internal Comments - Agent)/(35*0.85)
+    ```
+
+    Special settings: None
+
+1. Baseline Solved .COM
+
+    Type: Standard Calucated Metric
+    Formula:
+
+    ```Text
+    D_COUNT(Tickets solved)/(35*0.85)*0.85
+    ```
+
+    Special settings: None
+
+1. Solved AVG .COM
+
+    Type: Standard Calucated Metric
+    Formula:
+
+    ```Text
+    D_COUNT(Tickets solved)/(35*0.85)
+    ```
+
+    Special settings: None
+
+1. Baseline Public Comments L&R
+
+    Type: Standard Calucated Metric
+    Formula:
+
+    ```Text
+    D_COUNT(Public Comments - Agent)/(9*0.85)*0.85
+    ```
+
+    Special settings: None
+
+1. Public Comments AVG L&R
+
+    Type: Standard Calucated Metric
+    Formula:
+
+    ```Text
+    D_COUNT(Public Comments - Agent)/(9*0.85)
+    ```
+
+    Special settings: None
+
+1. Baseline Internal Comments L&R
+
+    Type: Standard Calucated Metric
+    Formula:
+
+    ```Text
+    D_COUNT(Internal Comments - Agent)/(9*0.85)*0.85
+    ```
+
+    Special settings: None
+
+1. Avrage Internal Comments L&R
+
+    Type: Standard Calucated Metric
+    Formula:
+
+    ```Text
+    D_COUNT(Internal Comments - Agent)/(9*0.85)
+    ```
+
+    Special settings: None
+
+1. Baseline Solved L&R
+
+    Type: Standard Calucated Metric
+    Formula:
+
+    ```Text
+    D_COUNT(Tickets solved)/(9*0.85)*0.85
+    ```
+
+    Special settings: None
+
+1. Solved AVG L&R
+
+    Type: Standard Calucated Metric
+    Formula:
+
+    ```Text
+    D_COUNT(Tickets solved)/(9*0.85)
+    ```
+
+    Special settings: None
