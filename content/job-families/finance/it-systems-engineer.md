@@ -2,9 +2,40 @@
 title: IT Systems Engineer
 ---
 
-The IT Systems Engineer is responsible for performing functions such as evaluation, testing, debugging and implementation of applications programs supporting the company infrastructure business processes and operations. Other functions include analyze, install, modify and support operating systems, databases, and utilities software. The IT Systems Engineer also plans, conducts and directs the analysis of business problems with automated systems solutions. This job family reports to the [IT Manager](/job-families/finance/manager-it/).
+The IT Systems Engineer is responsible for performing functions such as evaluation, testing, debugging and implementation of applications programs supporting the company infrastructure business processes and operations. Other functions include analyze, install, modify and support operating systems, databases, and utilities software. The IT Systems Engineer also plans, conducts and directs the analysis of business problems with automated systems solutions. This job family reports to the [IT Manager, IT Engineering](https://handbook.gitlab.com/job-families/finance/manager-it/#manager-it-engineering).
 
-## Responsibilities
+## Levels
+
+### Associate IT Systems Engineer
+
+#### Associate IT Systems Engineer Job Grade
+
+The Associate IT Systems Engineer is a [grade 5](https://about.gitlab.com/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) and reports to the [IT Manager, IT Engineering](https://handbook.gitlab.com/job-families/finance/manager-it/#manager-it-engineering).
+
+#### Associate IT Systems Engineer Responsibilities
+
+- Responsible for managing individual work and projects related to designing, implementing, and maintaining IT systems and infrastructure
+- Is focused on a mix of tactical and operational responsibilities. Tactical responsibilities involve day-to-day tasks and activities that are essential for the smooth functioning of IT systems and infrastructure
+- Works on problems of moderate complexity in which analysis of situation or data requires a review of existing factors
+- Follows specific instructions/frameworks in day to day work
+- Work and solutions are reviewed by more senior team members and/or their direct manager
+- Learns and develops understanding of GitLab's way of working
+- Explains moderately complex issues and works to build alignment
+- Collaborates with team members on their team to accomplish the team goals
+- Adapts to GitLab communication framework
+
+#### Associate IT Systems Engineer Requirements
+
+- 0-2 years of experience in a system administration role ideally with enterprise SaaS software model
+- Hands-on entry-level administrator experience across multiple platforms: OKTA, AWS, GCP, Google Workspace, Sailpoint, Saviynt, Slack
+
+### IT Systems Engineer
+
+#### IT Systems Engineer Job Grade
+
+The IT Systems Engineer is a [grade 6](https://about.gitlab.com/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) and reports to the [IT Manager, IT Engineering](https://handbook.gitlab.com/job-families/finance/manager-it/#manager-it-engineering).
+
+#### IT Systems Engineer Responsibilities
 
 - Deploy and manage business critical applications in cloud infrastructure like Amazon Web Services (AWS) and Google Cloud Platform (GCP)
 - Collaborate with engineering and security teams to coordinate on IT policies
@@ -19,8 +50,14 @@ The IT Systems Engineer is responsible for performing functions such as evaluati
 - Assist in ongoing evaluation and management of major vendor relationships and outsourcing arrangements
 - Develop system-monitoring and support automation to enhance and scale the quality of support
 
-## Requirements
+#### IT Systems Engineer Requirements
 
+- 5+ years of experience in IT in a high growth Software as a service (SaaS) environment
+- 3+ years of experience in user support in a cloud-first modern IT environment
+- Experience with security information and event management (SIEM) tools like Splunk or ElasticSearch
+- Knowledge of identity and access management
+- Knowledge in one of the following scripting languages - Python or Ruby
+- Knowledge of container and microservice technologies
 - Experience administering SaaS applications like Okta, Google Workspace, Slack, Zoom
 - Knowledge of configuration management tools like Ansible, Chef, or Terraform
 - Hands-on experience supporting Linux and Mac
@@ -29,38 +66,15 @@ The IT Systems Engineer is responsible for performing functions such as evaluati
 - Experience working with CI/CD tools and Git
 - Ability to use GitLab
 
-## Levels
-
-### IT Systems Engineer (Intermediate)
-
-#### Job Grade
-
-The IT Systems Engineer is a [grade 6](https://about.gitlab.com/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
-
-#### Responsibilities
-
-The IT Systems Engineers share the same responsibilities outlined above.
-
-#### Requirements
-
-The IT Systems Engineer position has all the same requirements as the ones outlined above plus the following:
-
-- 5+ years of experience in IT in a high growth Software as a service (SaaS) environment
-- 3+ years of experience in user support in a cloud-first modern IT environment
-- Experience with security information and event management (SIEM) tools like Splunk or ElasticSearch
-- Knowledge of identity and access management
-- Knowledge in one of the following scripting languages - Python or Ruby
-- Knowledge of container and microservice technologies
-
 ### Senior IT Systems Engineer
 
 #### Senior IT Systems Engineer Job Grade
 
-The Senior IT Systems Engineer is a [grade 7](https://about.gitlab.com/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+The Senior IT Systems Engineer is a [grade 7](https://about.gitlab.com/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) and reports to the [IT Manager, IT Engineering](https://handbook.gitlab.com/job-families/finance/manager-it/#manager-it-engineering).
 
 #### Senior IT Systems Engineer Responsibilities
 
-The Senior IT Systems Engineer has all the same responsibilities as the intermediate position plus the following:
+The Senior IT Systems Engineer has all the same responsibilities as the IT Systems Engineer position plus the following:
 
 - Provide senior level technical guidance and serve as an escalation point for engineering and Security teams
 - Provide senior level direction to the Information Technology team, assist with mentoring and providing technical guidance to more junior staff members
@@ -75,7 +89,7 @@ The Senior IT Systems Engineer has all the same responsibilities as the intermed
 
 #### Senior IT Systems Engineer Requirements
 
-The Senior IT Systems Engineer has all the same requirements as the ones outlined above plus the following:
+The Senior IT Systems Engineer has all the same requirements as as the IT Systems Engineer position plus the following:
 
 - 7+ years of experience in IT in a high growth SaaS environment
 - 5+ years of experience in user support in a cloud-first modern IT environment
@@ -86,33 +100,31 @@ The Senior IT Systems Engineer has all the same requirements as the ones outline
 
 ### Staff IT Systems Engineer
 
-A Staff IT Systems Engineer focuses on multiple disciplines and cross-department meta-level challenges related to IT to tactically improve efficiency across the organization. They provide technical and thought leadership, and drive innovation through next-generation architecture and iterating on larger problems while leading efforts to reduce tech debt across the organization.
-
 #### Staff IT Systems Engineer Job Grade
 
-The Staff IT Systems Engineer is a [grade 8](https://about.gitlab.com/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+The Staff IT Systems Engineer is a [grade 8](https://about.gitlab.com/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) and reports to the [IT Manager, IT Engineering](https://handbook.gitlab.com/job-families/finance/manager-it/#manager-it-engineering).
 
 #### Staff IT Systems Engineer Responsibilities
 
 The Staff IT Systems Engineer has all the same responsibilities as the senior position plus the following:
 
-- Architecting next-generation automation and integration between IT managed systems that provides data consistency, reliability, strong security, and audibility.
-- Building relationships with cross-department system owners and proposing solutions to ensure our tech stack applications conform to our latest IT and Security best practices in collaboration with the Security Department Staff and Principal engineers.
-- Consolidating and refactoring legacy tech debt.
-- Designing and developing software that improves back office automation.
-- Escalation engineering and emergency response for IT Operations and Security teams, and providing assistance to team members with all of the systems that we build and manage.
-- Factor in cost, security, compatibility, maintainability and user experience when making decisions.
-- Growing other team members’ skill sets through mentorship to improve operational efficiency and encourage professional development.
-- Handbook documentation for processes and systems architecture.
-- Identifying and communicating the technical direction of our broader IT department to team members, stakeholders, and engineers.
-- Joint collaboration with Compliance, IT, People, and Security team members for improving automation efficiency, security posture, and vulnerability management.
-- Keeping leaders and stakeholders informed of next-gen initiatives and contributing to creating automated analytics for day-to-day IT operations.
-- Leading innovation opportunities between several teams with a willingness to experiment and to boldly confront problems of large complexity and scope.
-- Making technical decisions on behalf of the department and organization while providing presentation support to leaders during technical discussions.
+- Architecting next-generation automation and integration between IT managed systems that provides data consistency, reliability, strong security, and audibility
+- Building relationships with cross-department system owners and proposing solutions to ensure our tech stack applications conform to our latest IT and Security best practices in collaboration with the Security Department Staff and Principal engineers
+- Consolidating and refactoring legacy tech debt
+- Designing and developing software that improves back office automation
+- Escalation engineering and emergency response for IT Operations and Security teams, and providing assistance to team members with all of the systems that we build and manage
+- Factor in cost, security, compatibility, maintainability and user experience when making decisions
+- Growing other team members’ skill sets through mentorship to improve operational efficiency and encourage professional development
+- Handbook documentation for processes and systems architecture
+- Identifying and communicating the technical direction of our broader IT department to team members, stakeholders, and engineers
+- Joint collaboration with Compliance, IT, People, and Security team members for improving automation efficiency, security posture, and vulnerability management
+- Keeping leaders and stakeholders informed of next-gen initiatives and contributing to creating automated analytics for day-to-day IT operations
+- Leading innovation opportunities between several teams with a willingness to experiment and to boldly confront problems of large complexity and scope
+- Making technical decisions on behalf of the department and organization while providing presentation support to leaders during technical discussions
 
 #### Staff IT Systems Engineer Requirements
 
-The Staff IT Systems Engineer has all the same responsibilities as the ones outlined above plus the following:
+The Staff IT Systems Engineer has all the same responsibilities as the senior position plus the following:
 
 - 10+ years of experience in IT in a high growth SaaS environment
 - 5+ years of experience in user support in a cloud-first modern IT environment
@@ -121,6 +133,62 @@ The Staff IT Systems Engineer has all the same responsibilities as the ones outl
 - Advanced knowledge in one of the following scripting languages - Python or Ruby
 - Advanced knowledge of container and microservice technologies
 - Ability to use GitLab
+
+### Principal IT Systems Engineer
+
+#### Principal IT Systems Engineer Job Grade
+
+The Staff IT Systems Engineer is a [grade 9](https://about.gitlab.com/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) and reports to the [IT Manager, IT Engineering](https://handbook.gitlab.com/job-families/finance/manager-it/#manager-it-engineering).
+
+#### Principal IT Systems Engineer Responsibilities
+
+The Principal IT Systems Engineer has all the same responsibilities as the Staff position plus the following:
+
+- Focuses on providing strategic leadership and expertise in designing, implementing, and managing complex IT systems and infrastructure
+- Plays a central role providing technical guidance to IT teams, designing the overall IT architecture for the organization and creating high-level system designs that align with the company's goals, scalability, and performance requirements
+- Drives formal networks with key decision makers and serves as external spokesperson for the organization
+- Works on significant and unique issues where coming to a resolution requires complex analysis
+- Requires conceptual thinking to understand advanced issues and implications
+- Exercises independent judgment in methods, techniques and evaluation criteria for obtaining results
+- Proposed solutions may impact results of a team member's division
+- Analyzes situations and makes decisions impacting multiple teams. These decisions may involve more team members and resources and generally at a higher level of risk and complexity than the manager level
+- Acts independently to determine methods and procedures on new assignments
+- A strategic leader within the organization
+- Collaborates and makes proposals across several teams, and helps team members make informed decisions in alignment with strategic plans
+
+#### Principal IT Systems Engineer Requirements
+
+The Principal IT Systems Engineer has all the same responsibilities as the Staff position plus the following:
+
+- 8-12 years of experience in a system administration role ideally with enterprise SaaS software model
+
+### Distinguished IT Systems Engineer
+
+#### Distinguished IT Systems Engineer Job Grade
+
+The Distinguished IT Systems Engineer is a [grade 10](https://about.gitlab.com/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) and reports to the [IT Manager, IT Engineering](https://handbook.gitlab.com/job-families/finance/manager-it/#manager-it-engineering).
+
+#### Distinguished IT Systems Engineer Responsibilities
+
+The Distinguished IT Systems Engineer has all the same responsibilities as the Principal position plus the following:
+
+- Focuses on helping the organization align its IT infrastructure and systems with its long-term goals and objectives
+- Plays a critical role in shaping the organization's IT strategy
+- Creates a measurable impact on the work of teams across the company
+- Takes a central role in decision making for technical, business, and organizational issues
+- Problems to be solved have a high degree of complexity and may impact future business results
+- Works on issues that impact program success or addresses future concepts and products
+- Implementation of solutions requires a longer term view which impacts strategic goals and objectives
+- Proposed solutions may impact results of multiple sub-departments
+- Provides a point of escalation for teams facing extremely complex technical challenges
+- Acts as an advisor to Senior Leadership
+- Influences Senior Leadership to adopt a different point of view when appropriate, and makes decisions that have an impact on business direction
+
+#### Distinguished IT Systems Engineer Requirements
+
+The Distinguished IT Systems Engineer has all the same responsibilities as the Principal position plus the following:
+
+- 12+ years of experience in a system administration role ideally with enterprise SaaS software mode
 
 ## Performance Indicators
 
