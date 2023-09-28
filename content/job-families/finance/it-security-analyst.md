@@ -4,53 +4,59 @@ title: IT Security Analyst
 
 The security analyst plays a vital role in keeping an organization’s proprietary and sensitive information secure. He/she works inter-departmentally to identify and correct flaws in the company’s security systems, solutions, and programs while recommending specific measures that can improve the company’s overall security posture.
 
-This job family reports to the [Director, IT Operations](/job-families/finance/director-it-operations/).
-
-## Responsibilities
-
-- Generate reports for IT administrators and business managers to evaluate the efficacy of the security policies in place.
-- Monitoring security access
-- Performing both internal and external security audits
-- Continuously updating the company’s incident response and disaster recovery plans
-
-## Requirements
-
-- BA/BS in a business related field and/or equivalent years of education and experience working in a related field
-- 3-5 years experience in Information Technology or Information Security experience.
-- Certified Information Systems Security Professional (CISSP) preferred
-- Knowledge of policies and procedures related to GDPR, CCPA, and PCI
-- Excellent interpersonal, verbal, and written communication skills with the ability to communicate compliance related concepts to a broad range of technical and non-technical staff
-- Successful experience working, collaborating, and establishing credibility and relationships with senior leadership, colleagues, and clients
-- Demonstrated success working with internal audit, external auditors, outside consultants, and legal affairs
-- Demonstrated experience leading large-scale projects
-- Ability to use GitLab
-
 ## Levels
 
-### IT Security Analyst (Intermediate)
+### Associate IT Security Analyst
 
-#### IT Security Analyst (Intermediate) Job Grade
+#### Associate IT Security Analyst Job Grade
 
-The IT Security Analyst is a [grade 6](https://about.gitlab.com/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+Associate IT Security Analyst is a [grade 5](https://about.gitlab.com/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) and reports to the [Manager, IT Security Operations](https://handbook.gitlab.com/job-families/finance/manager-it-security-operations/).
 
-#### IT Security Analyst (Intermediate) Responsibilities
+#### Associate IT Security Analyst Responsibilities
 
-The IT Security Analysts share the same responsibilities outlined above.
+- Learns and develops understanding of GitLab's way of working.
+- Adapts to GitLab communication framework.
+- Develops skills and behaviors aligned with GitLab Values.
+- Has awareness of GitLab remote working best practices.
 
-#### IT Security Analyst (Intermediate) Requirements
+#### Associate IT Security Analyst Requirements
 
-The IT Security Analyst position has all the same requirements as the ones outlined above plus the following:
+- Add
+
+### Intermediate IT Security Analyst
+
+#### Intermediate IT Security Analyst Job Grade
+
+The IT Security Analyst is a [grade 6](https://about.gitlab.com/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) and reports to the [Manager, IT Security Operations](https://handbook.gitlab.com/job-families/finance/manager-it-security-operations/).
+
+#### Intermediate IT Security Analyst Responsibilities
+
+- Generate reports for IT administrators and business managers to evaluate the efficacy of the security policies in place.
+- Monitoring security access.
+- Performing both internal and external security audits.
+- Continuously updating the company’s incident response and disaster recovery plans.
+
+#### Intermediate IT Security Analyst Requirements
+
+- BA/BS in a business related field and/or equivalent years of education and experience working in a related field.
+- 3-5 years experience in Information Technology or Information Security experience.
+- Certified Information Systems Security Professional (CISSP) preferred.
+- Knowledge of policies and procedures related to GDPR, CCPA, and PCI.
+- Excellent interpersonal, verbal, and written communication skills with the ability to communicate compliance related concepts to a broad range of technical and non-technical staff.
+- Successful experience working, collaborating, and establishing credibility and relationships with senior leadership, colleagues, and clients.
+- Demonstrated success working with internal audit, external auditors, outside consultants, and legal affairs.
+- Demonstrated experience leading large-scale projects.
+- Ability to use GitLab.
 
 ### Senior IT Security Analyst
 
 #### Senior IT Security Analyst Job Grade
 
-The IT Security Analyst is a [grade 7](https://about.gitlab.com/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+The IT Security Analyst is a [grade 7](https://about.gitlab.com/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) and reports to the [Manager, IT Security Operations](https://handbook.gitlab.com/job-families/finance/manager-it-security-operations/).
 
 #### Senior IT Security Analyst Responsibilities
 
-The Senior IT Security Analyst has all the same responsibilities as the intermediate position plus the following:
-
+Extends the IT Security Analyst responsibilities plus:
 - Install security measures and operate software to protect systems and information infrastructure, including firewalls and data encryption programs.
 - Work with the security team to perform tests and uncover network vulnerabilities.
 - Address questions from internal and external audits and examinations.
@@ -65,8 +71,7 @@ practices.
 
 #### Senior IT Security Analyst Requirements
 
-The Senior IT Security Analyst has all the same requirements as the ones outlined above plus the following:
-
+Extends the IT Security Analyst requirements plus:
 - 5-7 years experience in Information Technology or Information Security experience.
 - 4+ years experience conducting IT compliance assessments (Sarbanes-Oxley, PCI, etc.).
 - 4+ years experience in administering IT security controls in an organization.
@@ -77,6 +82,60 @@ The Senior IT Security Analyst has all the same requirements as the ones outline
 - Understanding of firewalls, proxies, SIEM, antivirus, and IDPS concepts.
 - Ability to identify and mitigate network vulnerabilities and explain how to avoid them.
 - Understanding of patch management with the ability to deploy patches in a timely manner while understanding business impact.
+
+### Staff IT Security Analyst
+
+#### Staff IT Security Analyst Job Grade
+
+Staff IT Site Reliability Engineer is a [grade 8](https://about.gitlab.com/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) and reports to the [Manager, IT Security Operations](https://handbook.gitlab.com/job-families/finance/manager-it-security-operations/).
+
+#### Staff IT Security Analyst Responsibilities
+
+Extends the Senior IT Security Analyst responsibilities plus:
+- Coaches team members on skills and behaviors aligned with GitLab Values.
+- Consistently demonstrates and educates other team members on GitLab remote work best practices.
+
+#### Staff IT Security Analyst Requirements
+
+Extends the Senior IT Security Analyst requirements plus:
+- Add
+
+### Principal IT Security Analyst
+
+#### Principal IT Security Analyst Job Grade
+
+Principal IT Operations System Administrator is a [grade 9](https://about.gitlab.com/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) and reports to the [Manager, IT Security Operations](https://handbook.gitlab.com/job-families/finance/manager-it-security-operations/).
+
+#### Principal IT Security Analyst Responsibilities
+
+Extends the Staff IT Security Analyst responsibilities plus:
+- Acts independently to determine methods and procedures on new assignments.
+- Fosters decision making and problem solving aligned with GitLab Values.
+- Consistently demonstrates GitLab remote work best practices and coaches others on how to apply them in their work.
+
+#### Principal IT Security Analyst Requirements
+
+Extends the Staff IT Security Analyst requirements plus:
+- Add
+
+### Distinguished IT Security Analyst
+
+#### Distinguished IT Security Analyst Job Grade
+
+Distinguished IT Site Reliability Engineer is a [grade 10](https://about.gitlab.com/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) and reports to the [Manager, IT Security Operations](https://handbook.gitlab.com/job-families/finance/manager-it-security-operations/).
+
+#### Distinguished IT Security Analyst Responsibilities
+
+Extends the Principal IT Security Analyst responsibilities plus:
+- Acts as an advisor to Senior Leadership.
+- Influences Senior Leadership to adopt a different point of view when appropriate, and makes decisions that have an impact on business direction.
+- Drives collaboration, efficient execution of results and behaviors aligned with GitLab Values.
+- Demonstrates and advocates for GitLab remote work best practices both internally and externally.
+
+#### Distinguished IT Security Analyst Requirements
+
+Extends the Principal IT Security Analyst requirements plus:
+- Add
 
 ## Performance Indicators
 
