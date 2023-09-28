@@ -138,10 +138,6 @@ Extends the Principal IT Security Engineer responsibilities plus:
 Extends the Principal IT Security Engineer requirements plus:
 - Add
 
-## Career Ladder
-
-An IT Security Engineer may decide to pursue the [Manager, IT Security Operations](/job-families/finance/manager-it-security-operations/) role.
-
 ## Performance Indicators
 
 - Security tools compliance > 95%
