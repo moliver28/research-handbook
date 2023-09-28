@@ -2,105 +2,145 @@
 title: IT Security Engineer
 ---
 
-## Role
-
 As a member of the IT Security Operations team at GitLab, you will be working towards raising the bar on security, focusing on securing our internal systems and SaaS applications. We will achieve that by working and collaborating with cross-functional teams to provide guidance on security best practices.
 
-## Responsibilities for IT Security Engineer roles
+## Levels
 
-- Assess, deploy and optimize security tools as needed to improve security posture
-- Serve as a technical resource for IT, advising on Security related issues
-- Be naturally inquisitive and look constantly for ways to improve
-- Ability to communicate clearly on technical issues, especially through text-based mediums (Slack, GitLab Issues, Email)
-- Work with compliance and privacy regulations such as PCI, GDPR, FedRAMP, and SOX
-- Assist with recruiting activities and administrative work
+## Associate IT Security Engineer
 
-## Requirements for IT Security Engineer roles
+### Associate IT Security Engineer Job Grade
+
+Associate IT Security Engineer is a [grade 5](https://about.gitlab.com/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) and reports to the [Manager, IT Security Operations](https://handbook.gitlab.com/job-families/finance/manager-it-security-operations/).
+
+### Associate IT Security Engineer Responsibilities
+
+- Learns and develops understanding of GitLab's way of working.
+- Adapts to GitLab communication framework.
+- Develops skills and behaviors aligned with GitLab Values.
+- Has awareness of GitLab remote working best practices.
+
+### Associate IT Security Engineer Requirements
+
+- Add
+
+### Intermediate IT Security Engineer
+
+#### Intermediate IT Security Engineer Job Grade
+
+The IT Security Engineer (Intermediate) is a [grade 6](https://about.gitlab.com/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) and reports to the [Manager, IT Security Operations](/job-families/finance/manager-it-security-operations/).
+
+#### Intermediate IT Security Engineer Responsibilities
+
+- Leverage understanding of fundamental security concepts.
+- Triages/handles basic security issues.
+- Be positive and solution oriented.
+- Good written and verbal communication skills.
+- Constantly working to improve endpoint and IT security.
+- Assess, deploy and optimize security tools as needed to improve security posture.
+- Serve as a technical resource for IT, advising on Security related issues.
+- Be naturally inquisitive and look constantly for ways to improve.
+- Ability to communicate clearly on technical issues, especially through text-based mediums (Slack, GitLab Issues, Email).
+- Work with compliance and privacy regulations such as PCI, GDPR, FedRAMP, and SOX.
+- Assist with recruiting activities and administrative work.
+
+#### Intermediate IT Security Engineer Requirements
 
 - Technical Skills in three or more of the following:
-  - Endpoint detection and response (EDR) platforms
-  - Device management/asset inventory tools
-  - Securing Mac and Linux devices
-  - Email security
-  - Identity and access management
-  - Authentication technologies such as OAuth, SAML, CAs and TOTP, SSO
-  - Securing public Cloud environments (AWS, Azure, GCP)
-  - Vulnerability detection and remediation
-  - Security incident response
-  - Metric collection and dashboard creation
-- Automation & scripting experience using REST APIs
-- You have a passion for security
-- You are a team player, and enjoy collaborating with cross-functional teams
-- You are a great communicator
-- You employ a flexible and constructive approach when solving problems
-- You share our values, and work in accordance with those values
-- CISSP, CCSP, SANS or other relevant industry security-focused certifications preferred
-- Ability to use GitLab
+  - Endpoint detection and response (EDR) platforms.
+  - Device management/asset inventory tools.
+  - Securing Mac and Linux devices.
+  - Email security.
+  - Identity and access management.
+  - Authentication technologies such as OAuth, SAML, CAs and TOTP, SSO.
+  - Securing public Cloud environments (AWS, Azure, GCP).
+  - Vulnerability detection and remediation.
+  - Security incident response.
+  - Metric collection and dashboard creation.
+- Automation & scripting experience using REST APIs.
+- You have a passion for security.
+- You are a team player, and enjoy collaborating with cross-functional teams.
+- You are a great communicator.
+- You employ a flexible and constructive approach when solving problems.
+- You share our values, and work in accordance with those values.
+- CISSP, CCSP, SANS or other relevant industry security-focused certifications preferred.
+- Ability to use GitLab.
 
-## Levels of IT Security Engineer
+### Senior IT Security Engineer
 
-### IT Security Engineer (Intermediate)
+#### Senior IT Security Job Grade
 
-The IT Security Engineer (Intermediate) reports to the [Manager, IT Security Operations](/job-families/finance/manager-it-security-operations/).
+The Senior Security Engineer is a [grade 7](https://about.gitlab.com/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) and reports to the [Manager, IT Security Operations](/job-families/finance/manager-it-security-operations/).
 
-#### The IT Security Engineer (Intermediate) Job Grade
+#### Senior IT Security Engineer Responsibilities
 
-The IT Security Engineer (Intermediate) is a [grade 6](https://about.gitlab.com/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+Extends the Intermediate IT Security Engineer responsibilities plus:
+- Leverages security expertise in at least one specialty area.
+- Triages and handles/escalates security issues independently.
+- Conduct security architecture reviews and makes recommendations.
+- Great written and verbal communication skills.
+- Interview security candidates during hiring process.
 
-#### IT Security Engineer (Intermediate) Responsibilities
+#### Senior IT Security Engineer Requirements
 
-- Leverage understanding of fundamental security concepts
-- Triages/handles basic security issues
-- Be positive and solution oriented
-- Good written and verbal communication skills
-- Constantly working to improve endpoint and IT security
+Extends the Intermediate IT Security Engineer requirements plus:
+- Leverages security expertise in at least one specialty area.
 
-### Senior Security Engineer
+## Staff IT Security Engineer
 
-The Senior Security Engineer reports to the Manager, IT Security Operations](/job-families/finance/manager-it-security-operations/).
+### Staff IT Security Engineer Job Grade
 
-#### Senior Security Job Grade
+Staff IT Security Engineer is a [grade 8](https://about.gitlab.com/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) and reports to the [Manager, IT Security Operations](https://handbook.gitlab.com/job-families/finance/manager-it-security-operations/)
 
-The Senior Security Engineer is a [grade 7](https://about.gitlab.com/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+### Staff IT Security Engineer
 
-#### Senior Security Engineer Responsibilities
+Extends the Senior IT Security Engineer responsibilities plus:
+- Coaches team members on skills and behaviors aligned with GitLab Values.
+- Consistently demonstrates and educates other team members on GitLab remote work best practices.
 
-The Senior Security Engineer role extends the IT Security Engineer (Intermediate) role.
+### Staff IT Security Engineer Requirements
 
-- Leverages security expertise in at least one specialty area
-- Triages and handles/escalates security issues independently
-- Conduct security architecture reviews and makes recommendations
-- Great written and verbal communication skills
-- Interview security candidates during hiring process
+Extends the Senior IT Security Engineer requirements plus:
+- Add
 
-#### Career Ladder
+## Principal IT Security Engineer
 
-A Senior Security Engineer may decide to pursue the may decide to pursue the [Manager, IT Security Operations](/job-families/finance/manager-it-security-operations/), should they wish to, or progress to Staff.
+### Principal IT Security Engineer Job Grade
 
-### Staff Security Engineer
+Principal IT Security Engineer is a [grade 9](https://about.gitlab.com/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) and reports to the [Manager, IT Security Operations](https://handbook.gitlab.com/job-families/finance/manager-it-security-operations/).
 
-The Senior Security Engineer reports to the [Manager, IT Security Operations](/job-families/finance/manager-it-security-operations/).
+### Principal IT Security Engineer Responsibilities
 
-#### Staff Security Job Grade
+Extends the Staff IT Security Engineer responsibilities plus:
+- Fosters decision making and problem solving aligned with GitLab Values.
+- Consistently demonstrates GitLab remote work best practices and coaches others on how to apply them in their work.
 
-The Staff Security Engineer is a [grade 8](https://about.gitlab.com/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+### Principal IT Security Engineer Requirements
 
-#### Staff Security Responsibilities
+Extends the Staff IT Security Engineer requirements plus:
+- Add
 
-The Senior Security Engineer role extends the Senior Security Engineer role.
+## Distinguished IT Security Engineer
 
-- Recognized security expert in multiple specialty areas, with cross-functional team experience
-- Make security architecture decisions
-- Provide actionable and constructive feedback to cross-functional teams
-- Implement security technical and process improvements
-- Exquisite written and verbal communication skills
-- Author technical security documents
-- Author questions/processes for hiring and screening candidates
+### Distinguished IT Security Engineer Job Grade
 
-#### Career Ladder
+Distinguished IT Security Engineer is a [grade 10](https://about.gitlab.com/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) and reports to the [Manager, IT Security Operations](https://handbook.gitlab.com/job-families/finance/manager-it-security-operations/).
 
-A Staff Security Engineer may decide to pursue the [Manager, IT Security Operations](/job-families/finance/manager-it-security-operations/).
-.
+### Distinguished IT Security Engineer Responsibilities
+
+Extends the Principal IT Security Engineer responsibilities plus:
+- Acts as an advisor to Senior Leadership.
+- Influences Senior Leadership to adopt a different point of view when appropriate, and makes decisions that have an impact on business direction.
+- Drives collaboration, efficient execution of results and behaviors aligned with GitLab Values.
+- Demonstrates and advocates for GitLab remote work best practices both internally and externally.
+
+### Distinguished IT Security Engineer Requirements
+
+Extends the Principal IT Security Engineer requirements plus:
+- Add
+
+## Career Ladder
+
+An IT Security Engineer may decide to pursue the [Manager, IT Security Operations](/job-families/finance/manager-it-security-operations/) role.
 
 ## Performance Indicators
 
