@@ -14,6 +14,9 @@ Associate IT Security Analyst is a [grade 5](https://about.gitlab.com/handbook/t
 
 #### Associate IT Security Analyst Responsibilities
 
+- Analyze security alerts and logs to identify potential security incidents.
+- Assist in responding to security incidents and breaches, including collecting evidence, containing threats, and mitigating the impact.
+- Collaborate with senior security analysts and incident response teams to investigate and resolve security incidents.
 - Learns and develops understanding of GitLab's way of working.
 - Adapts to GitLab communication framework.
 - Develops skills and behaviors aligned with GitLab Values.
@@ -21,7 +24,10 @@ Associate IT Security Analyst is a [grade 5](https://about.gitlab.com/handbook/t
 
 #### Associate IT Security Analyst Requirements
 
-- Add
+- Nice to have: BA/BS in a business related field.
+- Nice to have: Entry-level certifications such as Certified Information Systems Security Professional (CISSP) Associate.
+- Basic knowledge of cybersecurity concepts, including threats, vulnerabilities, and risk management.
+- Ability to use GitLab.
 
 ### Intermediate IT Security Analyst
 
@@ -92,13 +98,18 @@ Staff IT Site Reliability Engineer is a [grade 8](https://about.gitlab.com/handb
 #### Staff IT Security Analyst Responsibilities
 
 Extends the Senior IT Security Analyst responsibilities plus:
+- Lead and coordinate incident response efforts when security incidents occur. This includes determining the severity of incidents, containing threats, and coordinating with relevant teams for remediation.
+- Manage vulnerability assessment programs and conduct regular scans to identify security weaknesses in systems, applications, and networks.
+- Collaborate with IT and development teams to prioritize and oversee the remediation of identified vulnerabilities.
+- Conduct thorough investigations into security incidents, gathering evidence, and documenting findings.
 - Coaches team members on skills and behaviors aligned with GitLab Values.
 - Consistently demonstrates and educates other team members on GitLab remote work best practices.
 
 #### Staff IT Security Analyst Requirements
 
 Extends the Senior IT Security Analyst requirements plus:
-- Add
+- 10+ years of experience in cybersecurity-related roles, such as Security Analyst, Security Engineer, or similar positions.
+- Substantial experience in incident response, vulnerability management, and security operations.
 
 ### Principal IT Security Analyst
 
@@ -109,6 +120,9 @@ Principal IT Operations System Administrator is a [grade 9](https://about.gitlab
 #### Principal IT Security Analyst Responsibilities
 
 Extends the Staff IT Security Analyst responsibilities plus:
+- Develop and lead the organization's overall cybersecurity strategy, aligning it with business goals and objectives.
+- Define and prioritize security initiatives and projects to address emerging threats and vulnerabilities.
+- Provide leadership and guidance to security teams, helping them implement security policies, standards, and best practices.
 - Acts independently to determine methods and procedures on new assignments.
 - Fosters decision making and problem solving aligned with GitLab Values.
 - Consistently demonstrates GitLab remote work best practices and coaches others on how to apply them in their work.
@@ -116,7 +130,8 @@ Extends the Staff IT Security Analyst responsibilities plus:
 #### Principal IT Security Analyst Requirements
 
 Extends the Staff IT Security Analyst requirements plus:
-- Add
+- 12 to 15 years of experience in cybersecurity-related roles, such as Security Analyst, Security Engineer, or Security Consultant.
+- Extensive experience in leading and managing complex security projects and initiatives.
 
 ### Distinguished IT Security Analyst
 
@@ -127,6 +142,8 @@ Distinguished IT Site Reliability Engineer is a [grade 10](https://about.gitlab.
 #### Distinguished IT Security Analyst Responsibilities
 
 Extends the Principal IT Security Analyst responsibilities plus:
+- Plays a critical role in safeguarding GitLab’s information technology infrastructure and data assets from cyber threats and vulnerabilities.
+- Collaborate with senior management to develop and refine the organization's cybersecurity strategy and policies, aligning them with business objectives.
 - Acts as an advisor to Senior Leadership.
 - Influences Senior Leadership to adopt a different point of view when appropriate, and makes decisions that have an impact on business direction.
 - Drives collaboration, efficient execution of results and behaviors aligned with GitLab Values.
@@ -135,7 +152,7 @@ Extends the Principal IT Security Analyst responsibilities plus:
 #### Distinguished IT Security Analyst Requirements
 
 Extends the Principal IT Security Analyst requirements plus:
-- Add
+- 15+ years of hands-on experience in various security roles, including progressively responsible positions.
 
 ## Performance Indicators
 
