@@ -14,6 +14,9 @@ Associate IT Security Engineer is a [grade 5](https://about.gitlab.com/handbook/
 
 ### Associate IT Security Engineer Responsibilities
 
+- Assist in monitoring network traffic and security alerts to detect and respond to security incidents.
+- Help conduct vulnerability assessments and scans on network infrastructure, systems, and applications to identify security weaknesses.
+- Assist in responding to security incidents by following established procedures, documenting the incident details, and collaborating with senior team members to resolve issues.
 - Learns and develops understanding of GitLab's way of working.
 - Adapts to GitLab communication framework.
 - Develops skills and behaviors aligned with GitLab Values.
@@ -21,7 +24,11 @@ Associate IT Security Engineer is a [grade 5](https://about.gitlab.com/handbook/
 
 ### Associate IT Security Engineer Requirements
 
-- Add
+- Nice to have: BA/BS in a business related field.
+- Nice to have: Entry-level certifications such as Certified Information Systems Security Professional (CISSP) Associate.
+- Basic understanding of networking concepts and protocols.
+- Basic knowledge of cybersecurity principles, such as access control, encryption, and authentication.
+- Ability to use GitLab.
 
 ### Intermediate IT Security Engineer
 
@@ -91,16 +98,21 @@ Extends the Intermediate IT Security Engineer requirements plus:
 
 Staff IT Security Engineer is a [grade 8](https://about.gitlab.com/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) and reports to the [Manager, IT Security Operations](https://handbook.gitlab.com/job-families/finance/manager-it-security-operations/)
 
-### Staff IT Security Engineer
+### Staff IT Security Engineer Responsibilities
 
 Extends the Senior IT Security Engineer responsibilities plus:
-- Coaches team members on skills and behaviors aligned with GitLab Values.
+- Lead the development and implementation of security architecture and design, ensuring that it aligns with the GitLab's business objectives and industry best practices.
+- Develop, review, and enforce security policies, procedures, and standards to maintain a strong security posture and compliance with relevant regulations and standards.
+- Identify, assess, and prioritize security risks, and develop and execute risk mitigation strategies and action plans.
+- Provide leadership and guidance to junior security engineers and analysts, mentoring them in developing their skills and knowledge aligned with GitLab Values.
 - Consistently demonstrates and educates other team members on GitLab remote work best practices.
 
 ### Staff IT Security Engineer Requirements
 
 Extends the Senior IT Security Engineer requirements plus:
-- Add
+- 5 to 10 years of relevant work experience in cybersecurity or related roles. Experience should include progressively responsible positions with increasing complexity.
+- Nice to have: Industry certifications such as Certified Information Systems Security Professional (CISSP).
+- Strong project management skills, including the ability to plan, execute, and monitor security initiatives effectively.
 
 ## Principal IT Security Engineer
 
@@ -111,13 +123,17 @@ Principal IT Security Engineer is a [grade 9](https://about.gitlab.com/handbook/
 ### Principal IT Security Engineer Responsibilities
 
 Extends the Staff IT Security Engineer responsibilities plus:
+- Develop and drive the organization's long-term security strategy, aligning it with business objectives and industry best practices.
+- Create and maintain a roadmap for implementing security improvements and enhancements.
+- Lead the design and implementation of a robust security architecture that includes network, infrastructure, and application security measures.
 - Fosters decision making and problem solving aligned with GitLab Values.
 - Consistently demonstrates GitLab remote work best practices and coaches others on how to apply them in their work.
 
 ### Principal IT Security Engineer Requirements
 
 Extends the Staff IT Security Engineer requirements plus:
-- Add
+- 12-15 years of relevant work experience in cybersecurity or related roles. Experience should include progressively responsible positions with a focus on security strategy, architecture, and leadership.
+- Nice to have: Industry certifications such as Certified Information Systems Security Professional (CISSP).
 
 ## Distinguished IT Security Engineer
 
@@ -128,6 +144,10 @@ Distinguished IT Security Engineer is a [grade 10](https://about.gitlab.com/hand
 ### Distinguished IT Security Engineer Responsibilities
 
 Extends the Principal IT Security Engineer responsibilities plus:
+- Develop and lead the organization's cybersecurity strategy, aligning it with business objectives and industry best practices.
+- Provide leadership and guidance to the security team, fostering a culture of excellence and continuous improvement.
+- Oversee the design and implementation of a robust security architecture that includes network, infrastructure, and application security measures.
+- Ensure security controls are integrated into system and software development lifecycles (DevSecOps).
 - Acts as an advisor to Senior Leadership.
 - Influences Senior Leadership to adopt a different point of view when appropriate, and makes decisions that have an impact on business direction.
 - Drives collaboration, efficient execution of results and behaviors aligned with GitLab Values.
@@ -136,7 +156,8 @@ Extends the Principal IT Security Engineer responsibilities plus:
 ### Distinguished IT Security Engineer Requirements
 
 Extends the Principal IT Security Engineer requirements plus:
-- Add
+- 15+ years of practical experience in cybersecurity or related roles. This experience should encompass progressively responsible positions, including hands-on technical roles and leadership or management positions.
+- Proven leadership capabilities, including experience in managing and leading security teams, projects, and initiatives.
 
 ## Performance Indicators
 
