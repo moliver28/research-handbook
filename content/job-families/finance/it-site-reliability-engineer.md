@@ -23,7 +23,10 @@ Associate IT Site Reliability Engineer is a [grade 5](https://about.gitlab.com/h
 
 ### Associate IT Site Reliability Engineer Requirements
 
-- Add
+- Basic understanding of configuration management tools like Ansible, Chef, or Terraform.
+- Familiarity in working in GCP and AWS environments.
+- Basic knowledge of CI/CD tools and Git.
+- Ability to use GitLab.
 
 ## Intermediate IT Site Reliability Engineer
 
@@ -53,11 +56,11 @@ The Intermediate IT Site Reliability Engineer is a [grade 6](https://about.gitla
 
 ### Intermediate IT Site Reliability Engineer Requirements
 
-- 5+ years of experience in IT in a high growth Software as a service (SaaS) environment
-- Knowledge of configuration management tools like Ansible, Chef, or Terraform
-- Hands-on experience working in GCP and AWS environments
-- Experience working with CI/CD tools and Git
-- Ability to use GitLab
+- 5+ years of experience in IT in a high growth Software as a service (SaaS) environment.
+- Knowledge of configuration management tools like Ansible, Chef, or Terraform.
+- Hands-on experience working in GCP and AWS environments.
+- Experience working with CI/CD tools and Git.
+- Ability to use GitLab.
 
 ## Senior IT Site Reliability Engineer
 
@@ -78,10 +81,10 @@ The Senior IT Site Reliability Engineer has all the same responsibilities as the
 ### Senior IT Site Reliability Engineer Requirements
 
 The Senior IT Site Reliability Engineer has all the same responsibilities as the ones outlined above plus the following:
-- 7+ years of experience in IT in a high growth SaaS environment
-- Advanced knowledge of identity and access management
-- Advanced knowledge in one of the following scripting languages - Python or Ruby
-- Advanced knowledge of container and microservice technologies
+- 7+ years of experience in IT in a high growth SaaS environment.
+- Advanced knowledge of identity and access management.
+- Advanced knowledge in one of the following scripting languages - Python or Ruby.
+- Advanced knowledge of container and microservice technologies.
 
 ## Staff IT Site Reliability Engineer
 
@@ -92,13 +95,18 @@ Staff IT Site Reliability Engineer is a [grade 8](https://about.gitlab.com/handb
 ### Staff IT Site Reliability Engineer Responsibilities
 
 Extends the Senior IT Site Reliability Engineer responsibilities plus:
+- Collaborate with leadership and engineering teams to develop and execute long-term strategies for improving system reliability, scalability, and performance.
+- Define service-level objectives (SLOs) and service-level indicators (SLIs) that align with business goals.
+- Lead incident response efforts during high-severity incidents, ensuring effective troubleshooting and resolution.
+- Provide mentorship, guidance, and training to junior SREs, helping them develop their skills and advance in their careers.
 - Coaches team members on skills and behaviors aligned with GitLab Values.
 - Consistently demonstrates and educates other team members on GitLab remote work best practices.
 
 ### Staff IT Site Reliability Engineer Requirements
 
 Extends the Senior IT Site Reliability Engineer requirements plus:
-- Add
+- A minimum of 7 to 10 years of hands-on experience in IT operations, system administration, or software engineering, with a significant focus on reliability and performance.
+- Prior experience in SRE or a related field is crucial, with a track record of progressively increasing responsibilities.
 
 ## Principal IT Site Reliability Engineer
 
@@ -109,13 +117,17 @@ Principal IT Operations System Administrator is a [grade 9](https://about.gitlab
 ### Principal IT Site Reliability Engineer Responsibilities
 
 Extends the Staff IT Site Reliability Engineer responsibilities plus:
+- Collaborate with executive leadership and engineering teams to develop and execute long-term strategies for improving system reliability, scalability, and performance.
+- Define and champion the adoption of industry-leading SRE best practices.
+- Lead and inspire a team of SREs to achieve high standards of reliability.
 - Fosters decision making and problem solving aligned with GitLab Values.
 - Consistently demonstrates GitLab remote work best practices and coaches others on how to apply them in their work.
 
 ### Principal IT Site Reliability Engineer Requirements
 
 Extends the Staff IT Site Reliability Engineer requirements plus:
-- Add
+- A minimum of 10 to 15 years of hands-on experience in IT operations, system administration, software engineering, or a related field.
+- Extensive experience in SRE or a closely related discipline, including several years in progressively responsible roles.
 
 ## Distinguished IT Site Reliability Engineer
 
@@ -126,6 +138,9 @@ Distinguished IT Site Reliability Engineer is a [grade 10](https://about.gitlab.
 ### Distinguished IT Site Reliability Engineer Responsibilities
 
 Extends the Principal IT Site Reliability Engineer responsibilities plus:
+- Collaborate with senior leadership, including C-level executives, to shape the organization's long-term strategy for system reliability, scalability, and performance.
+- Develop and advocate for industry-leading SRE practices and methodologies.
+- Act as the incident commander during high-severity incidents, orchestrating the response and resolution efforts.
 - Acts as an advisor to Senior Leadership.
 - Influences Senior Leadership to adopt a different point of view when appropriate, and makes decisions that have an impact on business direction.
 - Drives collaboration, efficient execution of results and behaviors aligned with GitLab Values.
@@ -134,7 +149,10 @@ Extends the Principal IT Site Reliability Engineer responsibilities plus:
 ### Distinguished IT Site Reliability Engineer Requirements
 
 Extends the Principal IT Site Reliability Engineer requirements plus:
-- Add
+- A minimum of 15+ years of hands-on experience in IT operations, system administration, software engineering, or a closely related field.
+- Extensive experience in SRE or a closely related discipline, including many years in progressively responsible roles, such as Principal SRE.
+- A strategic mindset with the ability to develop and execute long-term strategies for improving system reliability, scalability, and performance.
+- Expertise in defining and managing service-level objectives (SLOs) and service-level indicators (SLIs).
 
 ## Performance Indicators
 
