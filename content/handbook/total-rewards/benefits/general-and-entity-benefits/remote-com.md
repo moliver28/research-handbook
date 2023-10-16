@@ -7,16 +7,39 @@ The following benefits are provided by [Remote](https://www.remote.com/) and app
 
 ## Brazil
 
-All of the benefits listed below are administered and managed by [Remote](https://remote.com/country-explorer/brazil). Queries can be directed to help@remote.com.
+All of the benefits listed below are administered and managed by [Remote](https://remote.com/country-explorer/brazil). Queries can be directed to help@remote.com. See [Benefits Guide](https://remote.com/benefits-guide/brazil) for the complete list of benefits offered through Remote.
 
 - 13th Salary - Also known as a 'Christmas Bonus', this payment is an amount equal to one month’s salary which is paid out to employees in two parts in November (by the 20th) and December. The pro-rated 13th-month salary is also due upon termination. The 13th-month payment is a legally mandated benefit and not part of the base salary. During negotiations with candidates, it is important to clearly state what salary is being offered and whether it is inclusive or exclusive of the 13th-month payment. The Christmas Bonus is calculated at 8.33% of the base annual salary
 - Vacations Bonus - Professionals in Brazil are entitled to 30 calendar days of vacation per year after every 12 months of service, and the employee must be paid 1/3rd of a month’s salary as a Vacations bonus. Holiday pay and holiday bonus payments are pro-rated upon termination. The Vacation bonus is calculated at 2.77% of the base annual salary.
 
-### Medical
+### Medical & Dental
 
 Remote will offer healthcare through Omint all hired from April 2022 onwards. Team members have the option to add dependents to the healthcare plan at an additional cost.
 
 Team Members hired prior to April 2022 are legacied in to the medical allowance policy. Team Members hired after April 2022 are not eligible for this policy.
+
+### Meal Vouchers & Grocery Card
+
+#### Meal Vouchers
+
+- Employees are entitled to a monthly meal voucher payment in Brazil.
+- Remote pays the vouchers once a month (by the 30th) to the employees into their meal/food cards (VR Card).
+- This amount is annually updated per the union renewal.
+- The amount is only due for the days worked by the employee, meaning the employer is not obliged to pay during justified or unjustified absences, sick leaves, and vacations.
+
+#### Grocery Card
+
+- All employees who receive a monthly gross salary of 6,189.94 BRL or less (approx. $1,200 USD, annually adjusted) receive this benefit.
+- If the employee is taking sick leave this should be paid for 30 days (but no longer).
+- In the case of PTO, maternity leave, or other absences allowed by law, the payment is still required.
+
+### Life Insurance
+
+- Death: BRL 50,000
+- Total or partial permanent disability due to accident: BRL 50,000
+- Family funeral assistance: BRL 5,000
+
+Note: All amounts stated above are estimates and may change during the course of the year as more employees in Brazil are added or removed from the policy.
 
 ### Remote - Brazil  Statutory Leave policies
 
