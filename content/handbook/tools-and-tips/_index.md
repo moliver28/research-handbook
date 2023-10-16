@@ -923,7 +923,7 @@ The default setting of showing the previous (older) message is usually preferred
 
 #### Email signature
 
-Set up an [email signature](https://support.google.com/mail/answer/8395) which includes your full name and job title so people can quickly know what you do.
+Set up an [email signature](https://support.google.com/mail/answer/8395) which includes your full name, [pronouns](https://handbook.gitlab.com/handbook/people-group/pronouns/) and job title so people can quickly know who you are and what you do.
 
 ##### Example
 
