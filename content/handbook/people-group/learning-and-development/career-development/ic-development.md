@@ -20,7 +20,7 @@ References to `Year 1`, `Year 2`, etc. in the outline below are meant to indicat
 ### Q2
 
 1. Make a plan to incorporate learning into the GitLab work week using the [Take time to Learn Campaign]({{< ref "learning-initiatives#take-time-out-to-learn-campaign" >}}). [Focus Friday's]({{< ref "communication#focus-fridays" >}}) are a great time to learn during the week. Block out a recurring calendar focus block dedicated to learning.
-1. Sign up for a [LinkedIn Learning license]({{< ref "linkedin-learning" >}}) with the GitLab company account. If there are no available licneses, use the [Growth and Development benefit]({{< ref "growth-and-development" >}}) to expense the license cost.
+1. Sign up for a [LinkedIn Learning license]({{< ref "linkedin-learning" >}}) with the GitLab company account. If there are no available licneses, use the [Growth and Development benefit]({{< ref "/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development" >}}) to expense the license cost.
 1. Attend one Live Learning session found on the [L&D calendar]({{< ref "/handbook/people-group/learning-and-development#fy23-learning--development-calendar" >}})
 
 ### Q3
@@ -40,7 +40,7 @@ References to `Year 1`, `Year 2`, etc. in the outline below are meant to indicat
 
 ### Q1
 
-1. Review the [Growth and Development benefit]({{< ref "growth-and-development" >}}) with your manager and research trainings, certifications, degree programs, and/or conferences specific to your role, division, and career goals at GitLab.
+1. Review the [Growth and Development benefit]({{< ref "/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development" >}}) with your manager and research trainings, certifications, degree programs, and/or conferences specific to your role, division, and career goals at GitLab.
 1. Attend one Live Learning session found on the [L&D calendar]({{< ref "/handbook/people-group/learning-and-development#fy23-learning--development-calendar" >}})
 1. Attend at least one Group Conversation from a division other than your own
 
@@ -62,6 +62,6 @@ References to `Year 1`, `Year 2`, etc. in the outline below are meant to indicat
 
 ## Year 3 Considerations
 
-1. Explore high level, industry specific trainings and certification programts utilizing the [Growth and Development benefit]({{< ref "growth-and-development" >}})
+1. Explore high level, industry specific trainings and certification programts utilizing the [Growth and Development benefit]({{< ref "/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development" >}})
 1. Participate in [Elevate]](/handbook/people-group/learning-and-development/elevate/) if you are an aspiring manager
 1. Explore company wide shadow programs including [CoS Shadow]({{< ref "chief-of-staff-team#chief-of-staff-shadow" >}}), People Experience Shadow, [Development Director Shadow Program](https://about.gitlab.com/handbook/engineering/development/shadow/director-shadow-program.html), [Security shadow]({{< ref "security-shadow" >}}), [Security engineering and research shadow]({{< ref "security-shadow-sec-eng-res" >}})

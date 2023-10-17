@@ -24,7 +24,7 @@ The Customer Success and Development departments each have a number of licenses 
 
 #### Other
 
-If you aren't in Customer Success or Development but would still like access to an O'Reilly licenses, you can utilize the [Growth and Development benefit]({{< ref "growth-and-development" >}}) to purchase a license. (Manager approval required)
+If you aren't in Customer Success or Development but would still like access to an O'Reilly licenses, you can utilize the [Growth and Development benefit]({{< ref "/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development" >}}) to purchase a license. (Manager approval required)
 
 ### Accessing O'Reilly content
 

@@ -5,7 +5,7 @@ description: "An outline of the internal Crucial Conversations training structur
 
 Two members of the GitLab Learning & Development Team are certified to deliver Crucial Conversations Training. You can learn more about the importance of Crucial Converations at GitLab on our [Crucial Conversations]({{< ref "/handbook/leadership/crucial-conversations" >}}) handbook page.
 
-If you complete Crucial Conversations training with one of our in house certified trainers, you can utilize our [growth and development budget]({{< ref "growth-and-development#crucial-conversations-training" >}}).
+If you complete Crucial Conversations training with one of our in house certified trainers, you can utilize our [growth and development budget]({{< ref "/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development#crucial-conversations-training" >}}).
 
 ## What to Expect
 

@@ -4,7 +4,7 @@ title: Our L&D Team
 
 While our team loves making learning and development content for the rest of the organization, we also love learning and growing ourselves. This page is meant to serve as a resource for the L&D team to explore, learn, and grow. We encourage all L&D Team Members to add to this page as you find additional resources.
 
-The content should be accessible at no cost but anything requiring payment [can be reimbursed following the GitLab Growth and Development policy]({{< ref "growth-and-development" >}}).
+The content should be accessible at no cost but anything requiring payment [can be reimbursed following the GitLab Growth and Development policy]({{< ref "/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development" >}}).
 
 ## New Learning and Development Team Members
 

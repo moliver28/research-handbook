@@ -327,22 +327,22 @@
     url: https://about.gitlab.com/handbook/alliances/
 - name: Finance
   icon: fa-solid fa-landmark
-  url: https://about.gitlab.com/handbook/finance/
+  url: /handbook/finance
   links:
   - name: Accounts Payable
-    url: https://about.gitlab.com/handbook/finance/accounts-payable/
+    url: /handbook/finance/accounts-payable
   - name: Accounts Receivable
-    url: https://about.gitlab.com/handbook/finance/accounting/#accounts-receivable/
+    url: /handbook/finance/accounting/#accounts-receivable
   - name: Business Technology
     url: https://about.gitlab.com/handbook/business-technology/
   - name: Expenses
-    url: https://about.gitlab.com/handbook/finance/expenses/
+    url: /handbook/finance/expenses
   - name: Financial Planning & Analysis
-    url: https://about.gitlab.com/handbook/finance/financial-planning-and-analysis/
+    url: /handbook/finance/financial-planning-and-analysis
   - name: Payroll
-    url: https://about.gitlab.com/handbook/finance/payroll/
+    url: /handbook/finance/payroll
   - name: Procurement
-    url: https://about.gitlab.com/handbook/finance/procurement/
+    url: /handbook/finance/procurement
   - name: Tax
     url: /handbook/tax
   - name: Board meetings

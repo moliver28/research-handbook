@@ -41,10 +41,10 @@ Navigate to career development resources located throughout the GitLab handbook:
     <a href="{{< ref "self-paced-learning#linux-foundation-courses" >}}" class="btn btn-primary" style="margin:5px;">Linux Foundation Courses</a>
     <a href="{{< ref "self-paced-learning#oreilly-learning" >}}" class="btn btn-primary" style="margin:5px;">O'Reilly Learning</a>
     <a href="{{< ref "self-paced-learning#gcp-learning" >}}" class="btn btn-primary" style="margin:5px;">GCP Learning</a>
-    <a href="{{< ref "growth-and-development#professional-developmentcertificationslicenses" >}}" class="btn btn-primary" style="margin:5px;">Professional Certifications</a>
-    <a href="{{< ref "growth-and-development#workshops-and-conferences" >}}" class="btn btn-primary" style="margin:5px;">Attend a Workshop/Conference</a>
-    <a href="{{< ref "growth-and-development#crucial-conversations-training" >}}" class="btn btn-primary" style="margin:5px;">Crucial Conversations</a>
-    <a href="{{< ref "growth-and-development#academic-study" >}}" class="btn btn-primary" style="margin:5px;">Academic Study</a>
+    <a href="{{< ref "/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development#professional-developmentcertificationslicenses" >}}" class="btn btn-primary" style="margin:5px;">Professional Certifications</a>
+    <a href="{{< ref "/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development#workshops-and-conferences" >}}" class="btn btn-primary" style="margin:5px;">Attend a Workshop/Conference</a>
+    <a href="{{< ref "/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development#crucial-conversations-training" >}}" class="btn btn-primary" style="margin:5px;">Crucial Conversations</a>
+    <a href="{{< ref "/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development#academic-study" >}}" class="btn btn-primary" style="margin:5px;">Academic Study</a>
     <a href="{{< ref "/job-families/expert/merge-request-coach" >}}" class="btn btn-primary" style="margin:5px;">MR Coaching</a>
     <a href="https://levelup.gitlab.com/access/saml/login/internal-team-members?returnTo=https://levelup.gitlab.com/learn/course/teamops" class="btn btn-primary" style="margin:5px;">TeamOps Certification</a>
     <a href="https://about.gitlab.com/company/culture/inclusion/tmrg-gitlab-women/" class="btn btn-primary" style="margin:5px;">#IamRemarkable Workshop</a>
@@ -105,7 +105,7 @@ A live speaker series hosted in March 2022 with [Lavinia Mehedintu](https://www.
 
 1. 70% of your development should come from on-the-job and action learning.  This can include development experiences like managing a project, serving on a cross-functional team, taking on a new task, job shadowing, job rotation, etc.
 1. 20% of your development should come from interactions with others.  This includes having a mentor, being a mentor, coaching, participating in communities of practice, providing and receiving feedback, serving as a leader in your organization, etc.
-1. 10% of your development should come from training, including classes, seminars, webinars, podcasts, reading, conferences, etc. GitLab offers a [growth and development benefit]({{< ref "growth-and-development" >}}) to help with this.
+1. 10% of your development should come from training, including classes, seminars, webinars, podcasts, reading, conferences, etc. GitLab offers a [growth and development benefit]({{< ref "/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development" >}}) to help with this.
 
 
 ### Career Development versus Career Mobility
@@ -240,7 +240,7 @@ Team Members: Take the [Support your team with Career Conversations course in Le
 Managers should support their direct reports with their professional development goals. Implement the following into a [1-1]({{< ref "1-1" >}}), team meeting, or async communication to support your team.
 
 1. Encourage team members to create an [Individual Growth Plan]({{< ref "career-development#individual-growth-plan" >}}) or use [Gitlab Epics to track their career development]({{< ref "career-development#use-gitlab-epics-to-track-your-career-development" >}}).
-1. Utilize the [Growth & Development Benefit]({{< ref "growth-and-development" >}}).
+1. Utilize the [Growth & Development Benefit]({{< ref "/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development" >}}).
 1. Recommend (and model) blocking [time to learn during the work week]({{< ref "learning-initiatives#take-time-out-to-learn-campaign" >}}).
 1. Organize team specific and cross-functional learning communities to practice [social learning]({{< ref "learning-initiatives#social-learning-through-live-learning" >}}).
 1. Model and share your own career and professional development pursuits.

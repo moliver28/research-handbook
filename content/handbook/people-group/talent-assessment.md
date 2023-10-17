@@ -154,7 +154,7 @@ When completing the talent assessment form, team members and managers should ref
 - **Sometime Demonstrated**: team member demonstrates most of the sub-values associated with this value on a regular basis.
 - **Consistently Demonstrated**: team member demonstrates a large majority of the sub-values associated with the value in most interactions.
 
-Use the comment box at the end of the CREDIT values section to provide examples to support the ratings selected.  
+Use the comment box at the end of the CREDIT values section to provide examples to support the ratings selected.
 
 ## What is "Growth Potential"? {#what-is-growth}
 
@@ -271,7 +271,7 @@ For newly onboarded team members, with a tenure up to 3 months, we have implemen
 
 The introduction of a "Too New to Rate" category is a solution as feedback was raised that being rated "Developing" in many cases does not reflect the actual Performance/Growth Potential. Therefore a TNTR designation is to accurately reflect the time to get up and running of recently onboarded team members. This category acknowledges that new hires require a reasonable timeframe to familiarize themselves with the organization, their role, and the expectations before they can be accurately assessed using the Performance/Growth Potential Matrix.
 
-While newly onboarded team members do not need to complete the Talent Assessment evaluation in Workday, it's still important for them to have a check-in conversation with their manager. We recommend that this conversation happens after the team member has completed 3 months with GitLab. We've created [this template](https://docs.google.com/document/d/1itxP_OOuNC2oRXYu3ep_ZQdutqcZUdUyXgzQomEpuKM/edit) for team members and managers to complete. The goal would be for the newly onboarded team member and their manager to come together to have a conversation reflecting on their first 3 months at GitLab, highlighting their strengths and opportunities, then aligning on any support needed for the team member moving forward.  
+While newly onboarded team members do not need to complete the Talent Assessment evaluation in Workday, it's still important for them to have a check-in conversation with their manager. We recommend that this conversation happens after the team member has completed 3 months with GitLab. We've created [this template](https://docs.google.com/document/d/1itxP_OOuNC2oRXYu3ep_ZQdutqcZUdUyXgzQomEpuKM/edit) for team members and managers to complete. The goal would be for the newly onboarded team member and their manager to come together to have a conversation reflecting on their first 3 months at GitLab, highlighting their strengths and opportunities, then aligning on any support needed for the team member moving forward.
 
 Besides team members with a GitLab tenure up to 3 months (New hire TNTR), the “Too New to Rate” designation will also be available for team members that have just transferred or were promoted to a new role. Please see the [Promotions or Transfer During Assessment Cycle](https://handbook.gitlab.com/handbook/people-group/talent-assessment/#promotions-or-transfers-during-assessment-cycle) section for more details and guidance on how to evaluate and consider performance in these scenarios.
 
@@ -574,8 +574,8 @@ If you feel a conversation might be particularly challenging, you may reach out 
 **My team member is exceeding growth potential expectations, how should I be thinking about their ongoing development?**
 
 Great! At GitLab team members have the opportunity to own their own development, and deserve a great manager (you) to facilitate it. Ask your team member to articulate where they would like to see their skills and career develop. You may have insights that help them refine those goals based on where you see the business going, as they will be most successful in gaining the experience they’re looking for if there are opportunities to align those goals with business goals.
-Using the [70-20-10 model for learning]({{< ref "career-development#70-20-10-rule-for-development" >}}), help your team member identify experiential and formal learning opportunities, and consider connections you can facilitate that will support their growth.
-The [Career Development handbook page]({{< ref "career-development" >}}) has more ideas to help your team member craft a growth plan, including information on GitLab’s [Growth and Development benefit]({{< ref "growth-and-development" >}}).
+Using the [70-20-10 model for learning]({{< ref "/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development#70-20-10-rule-for-development" >}}), help your team member identify experiential and formal learning opportunities, and consider connections you can facilitate that will support their growth.
+The [Career Development handbook page]({{< ref "/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development" >}}) has more ideas to help your team member craft a growth plan, including information on GitLab’s [Growth and Development benefit]({{< ref "/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development" >}}).
 
 **How should we be communicating Growth Potential to team members who we haven't communicated this to before?**
 

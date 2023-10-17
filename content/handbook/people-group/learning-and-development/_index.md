@@ -45,7 +45,7 @@ The Learning & Development team has a number of resources to help team members l
 <div class="flex-row" markdown="0">
   <div>
     <a href="{{< ref "manager-development" >}}" class="btn btn-primary" style="width:200px;margin:5px;">Transitioning to a Manager Role</a>
-    <a href="{{< ref "growth-and-development" >}}" class="btn btn-primary" style="width:200px;margin:5px;">Growth & Development Benefit</a>
+    <a href="{{< ref "/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development" >}}" class="btn btn-primary" style="width:200px;margin:5px;">Growth & Development Benefit</a>
     <a href="{{< ref "career-development" >}}" class="btn btn-primary" style="width:200px;margin:5px;">Career Development & Mobility</a>
   </div>
 </div>

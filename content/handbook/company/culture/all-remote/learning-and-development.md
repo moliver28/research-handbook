@@ -103,7 +103,7 @@ For a remote team to work well, managers should coach their team in healthy remo
 - creating an [optimal workspace]({{< ref "./workspace" >}})
 - understanding the importance of [self-learning/self-service]({{< ref "./self-service" >}}).
 
-To stay ahead in L&D, GitLab prioritizes personal [Growth & Development opportunities]({{< ref "growth-and-development" >}}) by allowing team members to take advantage of training opportunities for professional development, certifications, workshops, coaching, language courses, and much more!
+To stay ahead in L&D, GitLab prioritizes personal [Growth & Development opportunities]({{< ref "/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development" >}}) by allowing team members to take advantage of training opportunities for professional development, certifications, workshops, coaching, language courses, and much more!
 
 ### Trust and communication
 

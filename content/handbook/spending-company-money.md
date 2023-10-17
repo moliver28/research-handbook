@@ -24,7 +24,7 @@ This table captures all of the links for different policies that are documented 
 | [Procurement Process (PO)](/handbook/finance/procurement/) | VP Finance | Process to engage the procurement team |
 | [Spending Company Money]({{< ref "spending-company-money" >}}) | CFO | Our policy on spending Company money; Links to resources |
 | [GitLab Internal Acceptable Use Policy]({{< ref "/handbook/people-group/acceptable-use-policy" >}}) | CPO, CLO | Requirements related to the use of GitLab computing resources and data assets by GitLab team members |
-| [Growth and Development Benefit]({{< ref "growth-and-development" >}}) | CPO | Access external resources to develop their career |
+| [Growth and Development Benefit]({{< ref "/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development" >}}) | CPO | Access external resources to develop their career |
 | [Navan Physical Card Policy](/handbook/finance/accounts-payable/corp-credit-cards/) | CFO | Guidelines for acceptable use of physical corporate cards |
 | [GitLab Related Party Transactions](https://about.gitlab.com/handbook/legal/gitlab-related-party-transactions-policy/) | CLO | Related Party Transactions Policy |
 

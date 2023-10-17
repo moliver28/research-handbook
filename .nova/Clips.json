@@ -31,7 +31,7 @@
       "shortcut" : "ctrl-shift-d"
     },
     {
-      "content" : "{{< panel header=\"**Note**\" header-bg=\"blue\" >}}\n$SELECTED_TEXT\n{{< \/panel >}}",
+      "content" : "{{% panel header=\"**Note**\" header-bg=\"primary\" %}}\n$SELECTED_TEXT\n{{% \/panel %}}",
       "name" : "panel",
       "shortcut" : "ctrl-shift-p"
     },

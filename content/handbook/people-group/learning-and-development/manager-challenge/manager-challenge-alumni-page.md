@@ -7,7 +7,7 @@ title: Manager Challenge Alumni
 
 **Please note that the next Manager Challenge has been paused until further notice.**
 
-Team member can reach out in the [#learninganddevelopment Slack channel](https://app.slack.com/client/T02592416/CMRAWQ97W) with any questions about upcoming manager training or utilize their [Growth and Development benefit]({{< ref "growth-and-development" >}}) for external training opportunities.
+Team member can reach out in the [#learninganddevelopment Slack channel](https://app.slack.com/client/T02592416/CMRAWQ97W) with any questions about upcoming manager training or utilize their [Growth and Development benefit]({{< ref "/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development" >}}) for external training opportunities.
 
 ## Introduction
 
@@ -30,7 +30,7 @@ As a team member, you have access to multiple avenues for professional coaching 
 GitLab offers the following benefits for team members to receive coaching:
 
 1. [Modern Health Coach]({{< ref "modern-health" >}}): Through GitLab, you have access to 5 coaching sessions and 6 therapy sessions at no cost to you. It's an easy to use resource for people leaders interested in exploring coaching for the first time, or for leaders who want to be reacquainted with a coach.
-1. [Growth & Development Budget]({{< ref "growth-and-development" >}}): Team members have access to up $10,000 USD to use for professional development, including coaching. Managers can find coaches and use the funds for personalized leadership coaching that is action-oriented for professional development.
+1. [Growth & Development Budget]({{< ref "/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development" >}}): Team members have access to up $10,000 USD to use for professional development, including coaching. Managers can find coaches and use the funds for personalized leadership coaching that is action-oriented for professional development.
 
 **Note:** L&D is exploring a formalized coaching program for the organization
 
