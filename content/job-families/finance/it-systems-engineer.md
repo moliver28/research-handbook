@@ -170,23 +170,6 @@ Extends the Staff IT Enterprise Applications Engineer requirements plus:
 
 Distinguished IT Enterprise Applications Engineering is a [grade 10](https://about.gitlab.com/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) and reports to the IT Manager, IT Engineering.
 
-### Distinguished IT Systems Engineering Responsibilities
-
-Extends the Principal IT Systems Engineer responsibilities plus:
-
-- Focuses on helping the organization align its IT infrastructure and systems with its long-term goals and objectives.
-- Plays a critical role in shaping the organization's IT strategy.
-- Creates a measurable impact on the work of teams across the company.
-- Takes a central role in decision making for technical, business, and organizational issues.
-- Acts as an advisor to Senior Leadership.
-- Influences Senior Leadership to adopt a different point of view when appropriate, and makes decisions that have an impact on business direction.
-
-### Distinguished ITSystems Engineering Requirements
-
-Extends the Principal IT Systems Engineer requirements plus:
-
-- 12+ years of experience in a system administration role ideally with enterprise SaaS software model.
-
 
 ## Performance Indicators
 
