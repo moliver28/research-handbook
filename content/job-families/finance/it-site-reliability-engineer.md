@@ -129,31 +129,6 @@ Extends the Staff IT Site Reliability Engineer requirements plus:
 - A minimum of 10 to 15 years of hands-on experience in IT operations, system administration, software engineering, or a related field.
 - Extensive experience in SRE or a closely related discipline, including several years in progressively responsible roles.
 
-## Distinguished IT Site Reliability Engineer
-
-### Distinguished IT Site Reliability Engineer Job Grade
-
-Distinguished IT Site Reliability Engineer is a [grade 10](https://about.gitlab.com/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) and reports to the [IT Manager](https://handbook.gitlab.com/job-families/finance/manager-it/#manager-it).
-
-### Distinguished IT Site Reliability Engineer Responsibilities
-
-Extends the Principal IT Site Reliability Engineer responsibilities plus:
-- Collaborate with senior leadership, including C-level executives, to shape the organization's long-term strategy for system reliability, scalability, and performance.
-- Develop and advocate for industry-leading SRE practices and methodologies.
-- Act as the incident commander during high-severity incidents, orchestrating the response and resolution efforts.
-- Acts as an advisor to Senior Leadership.
-- Influences Senior Leadership to adopt a different point of view when appropriate, and makes decisions that have an impact on business direction.
-- Drives collaboration, efficient execution of results and behaviors aligned with GitLab Values.
-- Demonstrates and advocates for GitLab remote work best practices both internally and externally.
-
-### Distinguished IT Site Reliability Engineer Requirements
-
-Extends the Principal IT Site Reliability Engineer requirements plus:
-- A minimum of 15+ years of hands-on experience in IT operations, system administration, software engineering, or a closely related field.
-- Extensive experience in SRE or a closely related discipline, including many years in progressively responsible roles, such as Principal SRE.
-- A strategic mindset with the ability to develop and execute long-term strategies for improving system reliability, scalability, and performance.
-- Expertise in defining and managing service-level objectives (SLOs) and service-level indicators (SLIs).
-
 ## Performance Indicators
 
 - [Mean Time between Failures (MTBF)](https://about.gitlab.com/handbook/business-technology/metrics/#mean-time-between-failures-mtbf)
