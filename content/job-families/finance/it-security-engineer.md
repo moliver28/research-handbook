@@ -135,30 +135,6 @@ Extends the Staff IT Security Engineer requirements plus:
 - 12-15 years of relevant work experience in cybersecurity or related roles. Experience should include progressively responsible positions with a focus on security strategy, architecture, and leadership.
 - Nice to have: Industry certifications such as Certified Information Systems Security Professional (CISSP).
 
-## Distinguished IT Security Engineer
-
-### Distinguished IT Security Engineer Job Grade
-
-Distinguished IT Security Engineer is a [grade 10](https://about.gitlab.com/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) and reports to the [Manager, IT Security Operations](https://handbook.gitlab.com/job-families/finance/manager-it-security-operations/).
-
-### Distinguished IT Security Engineer Responsibilities
-
-Extends the Principal IT Security Engineer responsibilities plus:
-- Develop and lead the organization's cybersecurity strategy, aligning it with business objectives and industry best practices.
-- Provide leadership and guidance to the security team, fostering a culture of excellence and continuous improvement.
-- Oversee the design and implementation of a robust security architecture that includes network, infrastructure, and application security measures.
-- Ensure security controls are integrated into system and software development lifecycles (DevSecOps).
-- Acts as an advisor to Senior Leadership.
-- Influences Senior Leadership to adopt a different point of view when appropriate, and makes decisions that have an impact on business direction.
-- Drives collaboration, efficient execution of results and behaviors aligned with GitLab Values.
-- Demonstrates and advocates for GitLab remote work best practices both internally and externally.
-
-### Distinguished IT Security Engineer Requirements
-
-Extends the Principal IT Security Engineer requirements plus:
-- 15+ years of practical experience in cybersecurity or related roles. This experience should encompass progressively responsible positions, including hands-on technical roles and leadership or management positions.
-- Proven leadership capabilities, including experience in managing and leading security teams, projects, and initiatives.
-
 ## Performance Indicators
 
 - Security tools compliance > 95%
