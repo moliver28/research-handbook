@@ -99,6 +99,10 @@ mistake after the fact, perhaps after seeing someone's pronouns listed in Slack.
 
 Set your GitLab.com pronouns on your [GitLab profile](https://docs.gitlab.com/ee/user/profile/#add-your-gender-pronouns).
 
+### Google Mail (Gmail)
+
+Set your pronouns in your [email signature](/handbook/tools-and-tips/index.md#email-signature).
+
 ### Slack
 
 Set your Slack pronouns on your [Slack profile](https://slack.com/help/articles/204092246-Edit-your-profile).
