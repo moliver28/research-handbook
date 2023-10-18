@@ -19,25 +19,34 @@ is correct. We define here our most current processes for determining scope,
 gathering data and feedback, choosing a path forward, rolling out a change,
 managing adoption, and reviewing results for future improvements.
 
+We'll talk about two different types of changes:
+
+1. [Process changes](#process-changes)
+1. [Individual assignment and responsibilities changes](#individual-assignment-and-responsibilities-changes)
+
+## Process changes
+
 ### This process is not limited to the GitLab Support Leadership Team
 
 If you're looking to roll out a global change (see definition below), you might
 have been directed to this process. Global changes are commonly but not
 exclusively handled by the GitLab Support Leadership Team. For that reason, this
-process is documented within the "Managers" handbook section.  
+process is documented within the "Managers" handbook section.
+
 This does not mean the process should only be followed by managers. If you're
 having trouble with any part of it, reach out for guidance – either to your
-manager or SEs who followed the process before.
+manager or to SEs who followed the process before.
 
 Examples of SEs using the process:
 
 - [Slack groups per SGG and region](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/4618#gitlab-support-process-change-rollout-plan)
 - [Limit PagerDuty Notifications in `#support_self-managed` to Triggered Events](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/5090)
 
-## Start with a Request for Comments (RFC)
+### Start with a Request for Comments (RFC)
 
 An RFC is a safe space for a lively discussion where all contributors bring
-their own context and knowledge to determine the pros/cons of potential solutions.
+their own context and knowledge to determine the pros and cons of potential
+solutions.
 
 In an RFC *everyone* contributes equally, **regardless of their title**.
 
@@ -45,12 +54,12 @@ If you have an idea (or have noticed a problem) but aren't ready to propose spec
 with the [Request for Comments](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/new?issuable_template=Request%20for%20Comments)
 issue template. The template includes guidance on how to make your RFC.
 
-## Determining the Scope
+### Determining the Scope
 
 One of the most important considerations when looking to make a change is what
 the scope of the change will be.
 
-### Local Change or Global Change?
+#### Local Change or Global Change?
 
 When thinking about whether a change should be local or global, you might be
 tempted to focus on the size of the change (number of lines of code changed,
@@ -76,17 +85,17 @@ potential impacts of making a local change:
       differently in some way with your team than with the other teams?
    1. Will customers’ expectations of “normal” service continue to be met?
    1. Will customers like your change enough to be dissatisfied when other teams
-      /regions don’t do the same thing?
+      or regions don’t do the same thing?
 1. Will it create different job descriptions or performance measures between
    your team and the other regions?
 
-## Communicating a Change Proposal
+### Communicating a Change Proposal
 
 Whether you’re making a local change, based on the decision criteria above, or
 proposing a global one, it’s important to communicate your plans with the rest
 of the Support Leadership Team.
 
-### Creating a Requested Change Issue and/or MRs
+#### Creating a Requested Change Issue and/or MRs
 
 The first step toward making a change is to
 [create a Requested Change issue](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/new?issuable_template=Requested%20Change)
@@ -114,7 +123,7 @@ We use the rollout issue template to get acknowledgement of awareness of a new w
 *NOTE: If there's any part of the proposed changes that cannot be presented through
 a MR, place the information in the issue instead.*
 
-### Communicating a Local Change Proposal
+#### Communicating a Local Change Proposal
 
 Inform the leadership team as an “inform” item in the agenda for the next
 [leadership sync meeting](/handbook/support/managers/#organization-of-support-leadership-meetings).
@@ -124,7 +133,7 @@ Why?
 - Someone else might be interested in what you’re doing
 - It aligns well with our Transparency value
 
-### Communicating a Global Change Proposal
+#### Communicating a Global Change Proposal
 
 Engage the leadership team in a conversation through your issue and through a full agenda
 topic in the [leadership sync meeting](/handbook/support/managers/#organization-of-support-leadership-meetings):
@@ -150,7 +159,7 @@ topic in the [leadership sync meeting](/handbook/support/managers/#organization-
 - Describe how you plan to measure the success of the change (not just the
   tests)
 
-### Constructing a Valuable Test Plan
+#### Constructing a Valuable Test Plan
 
 We make data driven decisions whenever possible. If your proposed change doesn't
 have any supporting data, you'll run one or more localized trials. Be frugal if
@@ -170,7 +179,7 @@ there is a cost and always be sensitive to disrupting existing workflows:
   - try to run them in parallel with each other to save time
   - limit your testing to the two or three most likely potential solutions
 
-## Standard Timelines
+### Standard Timelines
 
 For future iterations:
 
@@ -180,9 +189,9 @@ For future iterations:
 
 1. Do we want to weigh the impact of changes to ensure that we aren't changing too many complex things at once?
 
-## Rolling Out a Change
+### Rolling Out a Change
 
-### Roles in Change Management
+#### Roles in Change Management
 
 During the rollout, use these terms and their provided descriptions to
 communicate clearly about the different roles people can play in the change
@@ -191,11 +200,45 @@ process.
 | Role | Description |
 | --- | --- |
 | Champion | Person who will advocate for the change due to their strong interest in, and possible responsibility for, the success of the change. Most of the time champions are managers. |
-| User | Person who use the processes, documents and resources that are being changed. |
+| User | Person who uses the processes, documents and resources that are being changed. |
 | Impacted Non-User | Person who is not an actual user of the processes, documents and resources that are being changed, yet who will experience changes in the behaviors of the users. <br>*E.g.* Support Engineers may notice managers responding differently to escalations, though they themselves do not need to do anything new. |
 
-### The Process Change Rollout Plan
+#### The Process Change Rollout Plan
 
 When it's time at last to make the change, create a
 [Process Change Rollout Plan issue](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/new?issuable_template=support-change-rollout).
 The process change rollout plan template contains instructions to guide you through filling in all the appropriate details. And the issue itself then describes your full action plan.
+
+---
+
+## Individual assignment and responsibilities changes
+
+These types of changes are almost always local and small. Some examples are:
+
+- Changing the SGG assignment of an SE
+- Changing the workload balance of an SE to have them spend more time sharing
+  knowledge and less time taking tickets
+
+The motivation for these changes could come from a need to manage individual
+performance and development, balance resources, improve expertise distribution,
+or address other similar items.
+
+Although planning of such a change tends to occur outside of issues (for
+confidentiality reasons), and to be conducted between managers and directors,
+if it will impact people other than those directly involved, consider taking
+one or more of the following actions before making the change:
+
+1. Explain your plan and ask for concerns and questions in your region's next
+   managers' sync.
+1. Host two separate cross-regional meetings, one with each of the regions
+   other than your own, to explain your plan and ask for concerns and questions.
+   1. This is an important step to take if the plan is to make one or more
+      changes related to one or more SGGs, **even if the change will only
+      happen within your region**.
+   1. If the change is specific to certain SGGs, keep the meetings small by
+      inviting only the managers who are aligned with those SGGs.
+1. As soon it becomes apparent that there is an SGG-level problem you will try
+   to mitigate or resolve with one or more individual changes, notify all
+   potentially-impacted SGGs of the problem and that you are working to
+   figure out a mitigation or resolution. This has been requested by SEs to
+   provide some advance warning that something may change soon.
