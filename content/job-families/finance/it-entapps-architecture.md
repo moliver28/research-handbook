@@ -67,7 +67,7 @@ Extends the IT Architect responsibilities:
 - Technical Delivery: Drive end to end delivery processes with minimal guidance.
 - Project Management: Run medium-sized projects that improve our ability to make better data driven insights or make the company more efficient.
 - Communication: Target audience Sr. Manager, Director, Sr. Director and functional VP.
-- Communicate and document technical details clearly to various stakeholders of different technical capabilities (VP of IT, Sales Operations, Software Engineer) 
+- Communicate and document technical details clearly to various stakeholders of different technical capabilities (VP of IT, Sales Operations, Software Engineer).
 - Ability to understand & define the long-term ("big picture") and short-term technology perspectives of changing business situations.
 - One or more ERP, CRM, Subscriptions, Billing, Revenue, Web, Commerce, Data, AI related implementations.
 - Understanding and implementation of Master Data Management concepts, tools and technologies.
@@ -77,20 +77,20 @@ Extends the IT Architect responsibilities:
    - SFDC:
       - Development experience with advanced Salesforce.com development tools and techniques (e.g. Apex language, Force.com custom development, triggers, controllers, JavaScript, Force.com SOAP and REST APIs, JSON, AngularJS, jQuery, JavaScript, sObjects, SOQL, SOSL, Chatter APIs, outbound messaging, Bootstrap, Lightning Design System (LDS), Lightning Components and Visualforce pages).
       - Experience with one or more sales cloud technologies i.e. Revenue Cloud, Service Cloud, Data Cloud, Analytics Cloud, etc.
-  - NetSuite:
-     - Good understanding of NetSuite stack and experience with all NetSuite modules (GL, AP, AR, FA, SuiteBilling, Procurement, etc.).
-     - Technical knowledge of SuiteScript, SuiteTalk, SuiteFlow, CSV imports, user provisioning, defining roles, analytics, and scheduling scripts.
-  - Workday:
-     - Strong technical experience with XSLT, XTT, XML and object-oriented development including Java.
-     - Experience with Web Services and APIs (WSDL, SOAP, REST and WS standards).
-  - Zuora Billing & Revenue:
-     - Experience working with Zuora, including experience with the Zuora 360, API and ZOQL.
-     - Experience integrating Zuora with other systems such as Salesforce, Netsuite, and Avalara.
-  - Preferred Integration & RPA Specific Skills:
-     - Integration & Automation:
-        - Experience integrating business systems with Workato Platform.
-  - RPA
-     - Experience working and implementing BOTs using Ui Path.
+   - NetSuite:
+      - Good understanding of NetSuite stack and experience with all NetSuite modules (GL, AP, AR, FA, SuiteBilling, Procurement, etc.).
+      - Technical knowledge of SuiteScript, SuiteTalk, SuiteFlow, CSV imports, user provisioning, defining roles, analytics, and scheduling scripts.
+   - Workday:
+      - Strong technical experience with XSLT, XTT, XML and object-oriented development including Java.
+      - Experience with Web Services and APIs (WSDL, SOAP, REST and WS standards).
+   - Zuora Billing & Revenue:
+      - Experience working with Zuora, including experience with the Zuora 360, API and ZOQL.
+      - Experience integrating Zuora with other systems such as Salesforce, Netsuite, and Avalara.
+   - Preferred Integration & RPA Specific Skills:
+      - Integration & Automation:
+         - Experience integrating business systems with Workato Platform.
+   - RPA
+      - Experience working and implementing BOTs using Ui Path.
 
 ### Senior IT Architect Requirements
 
