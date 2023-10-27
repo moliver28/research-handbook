@@ -97,7 +97,7 @@ Extends the IT Helpdesk Analyst requirements plus:
 
 #### Staff IT Helpdesk Analyst Job Grade
 
-The IT Helpdesk Analyst is a [grade 6](https://about.gitlab.com/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) and reports to the [IT Manager, IT End User Services](https://handbook.gitlab.com/job-families/finance/manager-it/#manager-it-end-user-services).
+The Staff IT Helpdesk Analyst is a [grade 8](https://about.gitlab.com/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) and reports to the [IT Manager, IT End User Services](https://handbook.gitlab.com/job-families/finance/manager-it/#manager-it-end-user-services).
 
 #### Staff IT Helpdesk Analyst responsibilities
 
