@@ -58,7 +58,7 @@ The IT Security Analyst is a [grade 6](https://about.gitlab.com/handbook/total-r
 
 #### Senior IT Security Analyst Job Grade
 
-The IT Security Analyst is a [grade 7](https://about.gitlab.com/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) and reports to the [Manager, IT Security Operations](https://handbook.gitlab.com/job-families/finance/manager-it-security-operations/).
+The Senior IT Security Analyst is a [grade 7](https://about.gitlab.com/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) and reports to the [Manager, IT Security Operations](https://handbook.gitlab.com/job-families/finance/manager-it-security-operations/).
 
 #### Senior IT Security Analyst Responsibilities
 
@@ -93,7 +93,7 @@ Extends the IT Security Analyst requirements plus:
 
 #### Staff IT Security Analyst Job Grade
 
-Staff IT Site Reliability Engineer is a [grade 8](https://about.gitlab.com/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) and reports to the [Manager, IT Security Operations](https://handbook.gitlab.com/job-families/finance/manager-it-security-operations/).
+The Staff IT Security Analyst is a [grade 8](https://about.gitlab.com/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) and reports to the [Manager, IT Security Operations](https://handbook.gitlab.com/job-families/finance/manager-it-security-operations/).
 
 #### Staff IT Security Analyst Responsibilities
 
