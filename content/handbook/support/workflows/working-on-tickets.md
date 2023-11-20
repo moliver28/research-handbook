@@ -50,13 +50,13 @@ Through that process you may:
 1. Select a new, unassigned ticket in another group's view
 
    In this situation, follow the guidance in the SGG FAQ to
-   [move the ticket to your group](/handbook/support/support-global-groups/sgg-faq.html#3-how-do-i-move-a-ticket-to-a-different-group)
+   [move the ticket to your group](/handbook/support/support-global-groups/sgg-faq/#3-how-do-i-move-a-ticket-to-a-different-group)
    before proceeding to [ticket assignment](#assigning-tickets)
 
 1. Select an in-progress ticket assigned to someone else
 
    In this situation, proceed according to the guidance in our SGG FAQ about
-   [responding to other SEs’ tickets](/handbook/support/support-global-groups/sgg-faq.html#1-should-ses-respond-to-other-ses-tickets).
+   [responding to other SEs’ tickets](/handbook/support/support-global-groups/sgg-faq/#1-should-ses-respond-to-other-ses-tickets).
 
 ## Assigning tickets
 
@@ -119,22 +119,22 @@ seek help as soon as you need it.
 
 #### Pathway for handling high priority tickets from a different region
 
-1. If a ticket is marked as "High Priority" and you have the answer, take assignment of the ticket and offer a solution. If the solution does not resolve the issue, proceed with the steps in [Handing over tickets and customer calls between regions](/handbook/support/workflows/working-on-tickets.html#handing-over-tickets-and-customer-calls-between-regions).
+1. If a ticket is marked as "High Priority" and you have the answer, take assignment of the ticket and offer a solution. If the solution does not resolve the issue, proceed with the steps in [Handing over tickets and customer calls between regions](/handbook/support/workflows/working-on-tickets/#handing-over-tickets-and-customer-calls-between-regions).
 1. If a ticket is marked as "High Priority" and will not breach the FRT (First Response Time) SLA before an hour after the preferred region's support comes online, consider conducting initial research, and recording your findings as an internal note. Do not assign the ticket to yourself.
-1. If a ticket is marked as "High Priority" and there's a risk it might breach the FRT SLA time before the preferred region's support is online, take the assignment, send a substantive response to the requester, and then proceed with the steps in [Handing over tickets and customer calls between regions](/handbook/support/workflows/working-on-tickets.html#handing-over-tickets-and-customer-calls-between-regions).
+1. If a ticket is marked as "High Priority" and there's a risk it might breach the FRT SLA time before the preferred region's support is online, take the assignment, send a substantive response to the requester, and then proceed with the steps in [Handing over tickets and customer calls between regions](/handbook/support/workflows/working-on-tickets/#handing-over-tickets-and-customer-calls-between-regions).
 
 #### Pathway for handling normal and low priority tickets from a different region
 
 1. If a ticket is not marked as "High Priority," and you're confident in your ability to resolve it, follow these steps:
       - Take assignment of the ticket and prepare the first technical response.
       - Use the ZD macro "clarify preferred region assignment" as part of the first response.
-      - If the customer responds and confirms the preferred region, proceed with the steps in [Handing over tickets and customer calls between regions](/handbook/support/workflows/working-on-tickets.html#handing-over-tickets-and-customer-calls-between-regions).
+      - If the customer responds and confirms the preferred region, proceed with the steps in [Handing over tickets and customer calls between regions](/handbook/support/workflows/working-on-tickets/#handing-over-tickets-and-customer-calls-between-regions).
       - If the customer is okay with out-of-region support, continue to offer assistance and regularly assess customer satisfaction and technical progress. Consider a handover if the ticket's priority changes or if the customer becomes frustrated.
       - If neither of the above scenarios applies, continue to work on the ticket to find a solution.
 1. If a ticket is not marked as "High Priority," and it's at risk of breaching the FRT SLA, and you are not confident in resolving the issue, follow these steps:
       - Take assignment of the ticket.
       - Provide a first technical response to the customer.
-      - Proceed with the steps in [Handing over tickets and customer calls between regions](/handbook/support/workflows/working-on-tickets.html#handing-over-tickets-and-customer-calls-between-regions).
+      - Proceed with the steps in [Handing over tickets and customer calls between regions](/handbook/support/workflows/working-on-tickets/#handing-over-tickets-and-customer-calls-between-regions).
 
 #### Pathway for handling tickets handed over from a different region
 
@@ -247,7 +247,7 @@ If you need to involve the CSM or AM in the conversation, you can use one or mor
 ### 1. How many new tickets should I pick up each week?
 
 Each week, every Support Engineer should aim at least to meet, and preferably to exceed, [the
-appropriate baseline](/handbook/support/support-engineer-responsibilities.html#ticket-baseline) from the following list for the number of first responses:
+appropriate baseline](/handbook/support/support-engineer-responsibilities/#ticket-baseline) from the following list for the number of first responses:
 
 - **Self-managed: 6 tickets**
 - **SaaS: 7 tickets**
@@ -265,13 +265,13 @@ There will be times when you may be leading an escalation, working through chall
 
 ### 2. What can I do when I'm stuck and I really need help?
 
-   Follow the [how to get help workflow](/handbook/support/workflows/how-to-get-help.html)
+   Follow the [how to get help workflow](/handbook/support/workflows/how-to-get-help/)
    for guidance on this. Reach out to a manager for guidance if you are still
    stuck.
 
 ### 3. I'm going to be absent, what do I do with my assigned tickets?
 
-   Please see the [Support Team Member Time Off page](/handbook/support/support-time-off.html)
+   Please see the [Support Team Member Time Off page](/handbook/support/support-time-off/)
    for a full description of this situation.
 
 ### 4. The customer is absent and wants to keep the ticket open until they're back
@@ -280,7 +280,7 @@ There will be times when you may be leading an escalation, working through chall
    and then set the ticket to **On-Hold** *and* change it to type **Task** with a reminder for yourself
    to check in with the customer x days after their planned return.
    This way, the ticket will permanently stay **On-Hold** for the duration of the customer's absence. See
-   [Behavior of `On-Hold` tickets](/handbook/support/workflows/zendesk-ticket-basics.html#behavior-of-on-hold-tickets)
+   [Behavior of `On-Hold` tickets](/handbook/support/workflows/zendesk-ticket-basics/#behavior-of-on-hold-tickets)
    for details.
 
 ### 5. May I reassign a ticket to someone else?
@@ -288,7 +288,7 @@ There will be times when you may be leading an escalation, working through chall
    There are some situations in which it is appropriate to reassign a ticket:
 
    1. If you'll be absent, follow the guidance given on the
-      [Support Team Member Time Off page](/handbook/support/support-time-off.html).
+      [Support Team Member Time Off page](/handbook/support/support-time-off/).
    1. If you've determined that specific expertise outside your own is required
       to resolve the ticket, pair with an expert so that you can get the ticket
       resolved and learn in the process. If that person determines that they
