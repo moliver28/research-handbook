@@ -143,7 +143,7 @@ which can be found
           </li>
           <li>
             <i class="fas fa-star fa-fw" style="color:rgb(255,0,0);"></i>
-            <a href='https://about.gitlab.com/handbook/support/workflows/large_files.html' target='_blank'>Support Uploader</a>
+            Support Uploader
           </li>
           <li>
             <i class="fas fa-square fa-fw" style="color:rgb(204,204,0);"></i>

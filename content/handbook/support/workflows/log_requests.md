@@ -61,8 +61,7 @@ such as a log request, needs to be delivered compressed and password protected t
 - The password protected file should be attached to the ZenDesk ticket, and the password needs to be sent separately through your email account directly to the customer's email address.
 - Once the customer had successfully received and opened the files you should delete the pulled data from your computer and the email from your mailbox.
 
-If there are numerous files that need to be sent over time, or if the log files are too large to attach to the ticket in ZenDesk,
-you can use the [Support Uploader]({{ ref "large_files" >}}). Please ensure the password is still sent separately.
+If the log files are too large to attach to the ticket in ZenDesk, refer to the [Provide large files to GitLab support](https://about.gitlab.com/support/providing-large-files/) page.
 
 In case you need to share the data pull results internally, such as in an internal issue, upload the files to Google Drive, such as the [Support Ticket Attachments folder](https://drive.google.com/drive/folders/1RpCb_li2RTYsE8GnVFExCux3QpZ2i0TD) (internal).
 
