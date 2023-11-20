@@ -287,8 +287,7 @@ There are no perfect or required ways to set up your Greenhouse notifications, b
 |------|------|
 | Austria | 9 |
 | Denmark   | 9 |
-| Hungary | 9 |
-| Italy  | 9 |
+| Italy (non dirigenti) | 9 |
 | Mexico  | 3 |
 | South Africa  | 5 |
 | Spain  | 7 |
