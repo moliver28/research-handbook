@@ -53,3 +53,12 @@ The table below lists all exit criteria for the working group. See the top-level
 | Functional Lead         |          |             |                  |
 | Functional Lead         |          |             |                  |
 | Member         |          |             |                  |
+
+## Prior art
+
+- Within GitLab, [Release evidence](https://docs.gitlab.com/ee/user/project/releases/release_evidence.html)
+- Outside of GitLab
+  - Helm, Kustomize
+  - Radar
+  - CNAB
+
