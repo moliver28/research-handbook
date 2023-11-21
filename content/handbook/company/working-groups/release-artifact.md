@@ -54,7 +54,20 @@ The table below lists all exit criteria for the working group. See the top-level
 | Functional Lead         |          |             |                  |
 | Member         |          |             |                  |
 
-## Prior art
+## Jobs to be done
+
+- I want to add various evidence to a release artifact (RA)
+- I want to be able to collaborate on a RA, to add comments, invite others to comment
+- I want to ensure that certain aspects of the RA are immutable after a specific step in the release process
+- I want to deploy to non-production and production environments based on the RA
+  - I want the RA to include all the environment variables and references to secrets needed for a successful deployment
+  - I want to RA to support my deployment independently of the deployment target and the technology used for the deployment
+- I want to roll out a new version to its users based on the information available in the RA
+  - I want to switch feature flags outside of the RA, but feature flags might be defined within the RA
+  - I want to switch load balancers / networking outside of the RA and it should be reflected on the state of the RA
+- I want to define or reference metrics needed to evaluate a deployment or a rollout within the RA, I want to use these metrics to drive the rollout process
+
+### Prior art
 
 - Within GitLab, [Release evidence](https://docs.gitlab.com/ee/user/project/releases/release_evidence.html)
 - Outside of GitLab
