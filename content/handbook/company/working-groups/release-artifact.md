@@ -17,7 +17,10 @@ status: active
 
 ## Goal
 
-The Release Artifacts Working Group aims to create a new ubiqutious standard/spec to describe release artifacts within and outside of GitLab.
+The overall business goal is position GitLab as a best-in-class release management tool for our Ultimate customers operating in highly regulated industries and for the wider cloud-native community.
+
+The Release Artifacts Working Group wants to provide the product and R&D foundations of the business goal. The WG aims to 
+create a new standard/spec to describe release artifacts within and outside of GitLab.
 
 ### Overview
 
@@ -26,6 +29,8 @@ We [identified](https://gitlab.com/gitlab-com/Product/-/issues/12815#note_165188
 > Think like an auditor (quote from a GitLab customer)
 
 Today, no single tool provides or specification exists to describe a release artifact with strong auditing requirements. There are solutions for cloud native application delivery (CNAB, Terraform, Helm, Radar), but these tools don't include the scope of the approval process and auditing.
+
+Moreover, while SBOMs are gaining adoption, there is no specification that would describe their usage in a standard format, to support the whole release process.
 
 ### Goals
 
@@ -69,6 +74,7 @@ The table below lists all exit criteria for the working group. See the top-level
 
 ### Prior art
 
+- [SBOM](https://www.ntia.gov/page/software-bill-materials)
 - Within GitLab, [Release evidence](https://docs.gitlab.com/ee/user/project/releases/release_evidence.html)
 - Outside of GitLab
   - Helm, Kustomize
