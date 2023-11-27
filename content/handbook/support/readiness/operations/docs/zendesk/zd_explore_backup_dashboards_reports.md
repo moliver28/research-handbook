@@ -215,7 +215,7 @@ This is bottom main table in Slide 12
     1. Make sure report should have "Sort" type `A-Z` and have "Totals" inside `Sum of tickets` Tickets column and show `percent` on % SLA achieved column inside every month in Result Manipulation.
     1. Order of result manipulation should be `1-value filter`in Result Manipulation.
 
-### Slide 13: Report 1: FRT Median Per SLA Type Self-Managed - Chart 
+### Slide 13: Report 1: FRT Median Per SLA Type Self-Managed - Chart
 
 This is the main chart users in Slide 13. We use Screenshots of different Priority by SLA metric in Rows to post it in slide i.e. `4 Hours SLA`, `8 Hours SLA` and `24 Hours SLA`.
 
@@ -240,7 +240,7 @@ This is the main chart users in Slide 13. We use Screenshots of different Priori
     1. Make sure report should have "Sort" type `A-Z`.
     1. Order of result manipulation should be `1-value filter`in Result Manipulation.
 
-### Slide 13: Report 2: IK - FRT Median Per SLA Type Self-Managed - Table 
+### Slide 13: Report 2: IK - FRT Median Per SLA Type Self-Managed - Table
 
 This is bottom main table in Slide 13
 
@@ -265,8 +265,7 @@ This is bottom main table in Slide 13
     1. Make sure report should have "Sort" type `A-Z` and have "Totals" `Median of Hours` in Tickets column over every month in Result Manipulation.
     1. Order of result manipulation should be `1-value filter`in Result Manipulation.
 
-
-### Slide 14: Report 1: FRT Median Per SLA Type SaaS - Chart 
+### Slide 14: Report 1: FRT Median Per SLA Type SaaS - Chart
 
 This is the main chart users in Slide 13. We use Screenshots of different Priority by SLA metric in Rows to post it in slide i.e. `4 Hours SLA`, `8 Hours SLA` and `24 Hours SLA`.
 
@@ -292,7 +291,7 @@ This is the main chart users in Slide 13. We use Screenshots of different Priori
     1. Make sure report should have "Sort" type `A-Z` and have "Totals" `Median of Hours` in Tickets column over every month in Result Manipulation.
     1. Order of result manipulation should be `1-value filter`in Result Manipulation.
 
-### Slide 14: Report 2: IK - FRT Median Per SLA Type SaaS - Table 
+### Slide 14: Report 2: IK - FRT Median Per SLA Type SaaS - Table
 
 This is bottom main table in Slide 14
 
@@ -319,7 +318,7 @@ This is bottom main table in Slide 14
     1. Make sure report should have "Sort" type `A-Z`.
     1. Order of result manipulation should be `1-value filter`in Result Manipulation.
 
-### Slide 15: Report 1: Median FRT - Last 6 Months by Plan (self-managed) 
+### Slide 15: Report 1: Median FRT - Last 6 Months by Plan (self-managed)
 
 This is side main chart in Slide 15
 
@@ -489,7 +488,7 @@ This is main left chart in Slide 19
     1. SLA Metric
 - Custom Settings:
     1. (*) represents standard calculated metrics.
-    1. Plan Tags - SaaS/SM use `Group` in Calculation menu to compute from `Plan Tags - Ticket Tags`. Group Self Managed inlucdes `Basic`, `Premium`, `Ultimate` and SaaS includes `Bronze`, `Silver`, `Gold`. 
+    1. Plan Tags - SaaS/SM use `Group` in Calculation menu to compute from `Plan Tags - Ticket Tags`. Group Self Managed inlucdes `Basic`, `Premium`, `Ultimate` and SaaS includes `Bronze`, `Silver`, `Gold`.
     1. Rows should have `Plan Tags - SaaS/SM` selected with only `Self-Managed`.
     1. Ticket Form filter should include `L&R`, `Emergency`, `Other`, `SaaS`, `SaaS Account`, `Self-Managed`, `Emergencies`.
     1. SLA Metric should have `Next Reply Time` selected.
@@ -515,7 +514,7 @@ This is main right chart in Slide 19
     1. SLA Metric
 - Custom Settings:
     1. (*) represents standard calculated metrics.
-    1. Plan Tags - SaaS/SM use `Group` in Calculation menu to compute from `Plan Tags - Ticket Tags`. Group Self Managed inlucdes `Basic`, `Premium`, `Ultimate` and SaaS includes `Bronze`, `Silver`, `Gold`. 
+    1. Plan Tags - SaaS/SM use `Group` in Calculation menu to compute from `Plan Tags - Ticket Tags`. Group Self Managed inlucdes `Basic`, `Premium`, `Ultimate` and SaaS includes `Bronze`, `Silver`, `Gold`.
     1. Rows should have `Plan Tags - SaaS/SM` selected with only `SaaS`.
     1. Ticket Form filter should include `L&R`, `Emergency`, `Other`, `SaaS`, `SaaS Account`, `Self-Managed`, `Emergencies`.
     1. SLA Metric should have `Next Reply Time` selected.
