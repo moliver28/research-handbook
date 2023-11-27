@@ -6,6 +6,8 @@ canonical_path: "/handbook/support/readiness/operations/docs/zendesk/zd_explore_
 
 ## Key Review Reports
 
+These r
+
 ### Slide 7: Report 1: Ticket Volume Trend
 
 aka Total Ticket Volume - Last 6 Months - Month YYYY
