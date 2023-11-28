@@ -32,7 +32,8 @@ GitLab strictly prohibits any form of retaliatory action against any Team Member
 - supporting another Team Member’s internal or administrative complaint of unlawful discrimination (by, for example, testifying or providing an affidavit in support of a coworker who has filed a discrimination complaint);
 - participating in an investigation or audit conducted by any regulatory, administrative or law enforcement body;
 - requesting an accommodation under relevant statutes;
-- requesting or taking any statutory/required leave; or
+- requesting or taking any statutory/required leave; 
+- reporting an actual or suspected wrongdoing under any of our whistleblower policies; or
 - making a disclosure protected by relevant local laws.
 
 All forms of unlawful retaliation or penalization are prohibited. A non-exhaustive list of examples includes:
