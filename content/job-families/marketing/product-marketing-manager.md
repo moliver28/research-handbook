@@ -336,7 +336,7 @@ As a Product Marketing Manager, Market Insights, you will bring your market know
 
 ## Career Ladder
 
-The next step in a Senior Product Marketing Manager's career at GitLab is to be a [Manager, Product Marketing.](/job-families/marketing/product-marketing-management/).
+The next step in a Senior Product Marketing Manager's career at GitLab is to be a [Principal Product Marketing Manager.](/https://handbook.gitlab.com/job-families/marketing/product-marketing-manager/#principal-product-marketing-manager/).
 
 ## Hiring Process
 
