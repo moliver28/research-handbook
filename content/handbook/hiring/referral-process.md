@@ -98,8 +98,8 @@ As a way of ensuring a consistent and positive experience with both the candidat
 
 ##### Additional considerations for the talent acquisition team
 
-- Review and action any outstanding candidates in the [Weekly Referral Report.](https://docs.google.com/presentation/d/1RK1HsdHPpdpPJbE0hc6aZrhRJVAw8rBQsRM6NuwviOA/edit#slide=id.g152eafd0392_0_0)
-   1. Pay close attention to those referred candidates sitting in the `Get To Know Us` and `Qualified` stages in the report who haven't been actioned yet.
+- Review and action any outstanding candidates in the [Weekly Referral Report.](https://docs.google.com/spreadsheets/d/18MU7LMql_j3SIbAXvfIN4bmS5ZtAyghSOt_nwOMk_wo/edit#gid=828364844)
+   1. The first tab shows a summary of all referrals in Greenhouse by Recruiter. Pay close attention to referred candidates that have been sitting for 5+ days indicated in yellow, orange and red.
    1. If the candidate is attached to multiple requisitions in Greenhouse then disposition the candidate in Greenhouse using the rejection reason `Moved Forward In Different Role` > click `Reject and Don't Send Email`
 - Set up Greenhouse notifications correctly so you never miss a referral.
    1. Click on the role and navigate to `Job Setup`
