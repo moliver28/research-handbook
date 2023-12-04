@@ -148,8 +148,7 @@ The executive layer is structured as follows. R&D focused executives include the
 Go-to-market focused executives include the Chief Revenue Officer (CRO) and Chief Marketing Officer (CMO).
 The three enabling functions, legal, finance and people, also each have a C-level executive, the Chief Legal Officer (CLO), Chief Financial Officer (CFO) and Chief People Officer (CPO).
 
-Together, these executives consist of the [E-group](#e-group)
-They meet weekly, attend quarterly board meetings, have a [public Slack channel #e-group](https://gitlab.slack.com/messages/C5W3VS1C4) for most discussion topics, as well as a private one for rare confidential matters.
+Together, these executives consist of the [E-group](#e-group).
 
 Except for Sales and Marketing, there are usually multiple executives to a [cost center](/handbook/finance/financial-planning-and-analysis/#cost--reporting-structure). For example, CLO, CFO, CEO, and CPO all fall under the G&A (General & Administrative Expenses) Cost Center.
 
