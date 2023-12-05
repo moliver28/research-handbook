@@ -130,8 +130,8 @@ For those with regular commitments, look for shorter weeks or timezone variation
 | 2024-01-29 | 2024-02-02 | AVAILABLE | [Riley Longo](https://gitlab.com/rilongo) - Customer Service Manager | REMOTE - PT, Likely 2 or 3 days TBC |
 | 2024-02-05 | 2024-02-09 | AVAILABLE | AVAILABLE | REMOTE - PT |
 | 2024-02-12 | 2024-02-14 | AVAILABLE | AVAILABLE | REMOTE - PT, MON - WED |
-| 2024-02-20 | 2024-02-23 | AVAILABLE | AVAILABLE | REMOTE - PT, TUES - FRI |
-| 2024-02-26 | 2024-03-01 | [Viktor Nagy](https://gitlab.com/nagyv-gitlab) - Senior Product Manager, Deploy:Environments | AVAILABLE | REMOTE - PT |
+| 2024-02-20 | 2024-02-23 | [Laura Geburtzki](https://gitlab.com/lgeburtzki) - First Order Account Executive EMEA Mid-Market | AVAILABLE | REMOTE - PT, TUES - FRI |
+| 2024-02-26 | 2024-03-01 | [Viktor Nagy](https://gitlab.com/nagyv-gitlab) - Senior Product Manager, Deploy:Environments | [Laura Geburtzki](https://gitlab.com/lgeburtzki) - First Order Account Executive EMEA Mid-Market | REMOTE - PT |
 | 2024-03-04 | 2024-03-08 | AVAILABLE | [Viktor Nagy](https://gitlab.com/nagyv-gitlab) - Senior Product Manager, Deploy:Environments | REMOTE - PT |
 | 2024-03-11 | 2023-03-15 | NO SHADOW | NO SHADOW | SUMMIT - PT |
 | 2024-03-18 | 2024-03-22 | AVAILABLE - VP-Directs Only | AVAILABLE | REMOTE - PT |
