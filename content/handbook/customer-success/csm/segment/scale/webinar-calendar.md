@@ -19,17 +19,9 @@ We’d like to invite you to our free upcoming webinars and workshops in the mon
 
 If you know someone who might be interested in attending, feel free to share the registration links with them. Everyone is welcome, and we hope to see you there!
 
-
 ## December 2023
 
 ### AMER Time Zone Webinars & Workshops
-
-#### Intro to GitLab
-##### December 5th, 2023 at 9:00-10:00AM Pacific Time / 12:00-1:00PM Eastern Time
-
-Are you new to GitLab? Join this webinar, where we will review what GitLab is, how it benefits you, and the recommended workflow to allow you to get the most out of the platform.
-
-[<button class="btn btn-primary" type="button">Register</button>](https://gitlab.zoom.us/webinar/register/WN__GhoG-_dQSG6o_AJVf6LJg)
 
 #### Hands-On GitLab CI Workshop 
 ##### December 6th, 2023 at 9:00-10:30AM Pacific Time / 12:00-1:30PM Eastern Time
@@ -38,7 +30,7 @@ Join us for a hands-on GitLab CI workshop and learn how it can fit in your organ
 
 Learn how to build simple GitLab pipelines and work up to more advanced pipeline structures and workflows, including security scanning and compliance enforcement.
 
-[<button class="btn btn-primary" type="button">Register</button>]https://gitlab.zoom.us/webinar/register/WN_K0gwXOCuQ7-crycYDNTIpA#/registration)
+[<button class="btn btn-primary" type="button">Register</button>](https://gitlab.zoom.us/webinar/register/WN_K0gwXOCuQ7-crycYDNTIpA#/registration)
 
 #### Intro to CI/CD
 ##### December 8th, 2023 at 9:00-10:00AM Pacific Time / 12:00-1:00PM Eastern Time
@@ -86,12 +78,6 @@ Next, we will look at compliance frameworks and pipelines to show how you can en
 
 
 ### EMEA Time Zone Webinars and Workshops
-
-#### Intro to GitLab
-##### December 5th, 2023 at 10:00-11:00AM UTC / 11:00AM-12:00PM CET
-Are you new to GitLab? Join this webinar, where we will review what GitLab is, how it benefits you, and the recommended workflow to allow you to get the most out of the platform.
-
-[<button class="btn btn-primary" type="button">Register</button>](https://gitlab.zoom.us/webinar/register/WN_R7pEIKu2Rpe64Jq8uAZwvg)
 
 #### Hands-On GitLab CI Workshop 
 ##### December 6th, 2023 at 10:00-11:30AM UTC / 11:00AM-12:30PM CET

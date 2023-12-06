@@ -5,7 +5,7 @@ description: "GitLab country specific data in regard to team members location, g
 
 ## GitLab Identity Data
 
-Below is a list of the different ways GitLab Team Members choose to identify. The purpose of this page is to give an overview of our current representation as compared to a year ago. For further trending information, some of these metrics can also be viewed on the [People Success Performance Indicators](/handbook/people-group/people-success-performance-indicators/) page. The DIB Team is actively working to find data sets outside the US and inclusion metrics for underrepresented groups we cannot report on as team member representation.
+Below is a list of the different ways GitLab Team Members choose to identify. The purpose of this page is to give an overview of our current representation as compared to a year ago. For further trending information, some of these metrics can also be viewed on the [People Success Performance Indicators](/handbook/people-group/people-success-performance-indicators/) page.
 
 ### Region Data
 
@@ -37,7 +37,7 @@ Below is a list of the different ways GitLab Team Members choose to identify. Th
 
 {{% sisense dashboard="1131846" chart="16548805" height="200" %}}
 
-### Underrepresented Groups (URG) Data - US-Only**
+### Underrepresented Groups (URG) Data - Global**
 
 #### URG at GitLab
 
@@ -65,4 +65,7 @@ Below is a list of the different ways GitLab Team Members choose to identify. Th
 
 **Source**: GitLab's People Analytics Team, WorkDay
 **Of Note**: `Management` refers to Team Members who are *People Managers*, whereas `Leadership` denotes Team Members who are in *Director-level positions and above*.
-**Due to data and or legal limitations, this is not an exhaustive list of all of our underrepresented groups.  Those with disabilities, those that identify as LGBTQIA+, etc. who choose not to disclose or underrepresented ethnicities outside of the US.
+
+**As of 2023-11-01 underrepresented groups for ethnicity are reported globally as opposed to just for team members in the US. This decision was made to better align with GitLab values and to show true representation of team members globally.
+
+Due to data and or legal limitations, this is not an exhaustive list of all of our underrepresented groups (those with disabilities, those that identify as LGBTQIA+, etc. who choose not to disclose).

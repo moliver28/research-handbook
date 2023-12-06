@@ -139,8 +139,6 @@ To learn more on how this automation works, check the [IT-Help Slack Issue Creat
 
 - Senior Director, IT Operations - [Robert Rea](/handbook/company/team/#rrea1), rrea@gitlab.com, @rrea1
 
-- Senior Manager, IT - [Peter Kaldis](/handbook/company/team/#pkaldis), pkaldis@gitlab.com, @pkaldis
-
 - Senior Manager, IT - [Michael Beltran](/handbook/company/team/#mbeee), mbeltran@gitlab.com, @mbeee
 
 - Business Systems Analyst - [Marc Di Sabatino](/handbook/company/team/#marc_disabatino), mdisabatino@gitlab.com, @marc_disabatino

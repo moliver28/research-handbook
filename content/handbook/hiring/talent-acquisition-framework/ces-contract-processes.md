@@ -343,7 +343,7 @@ LOAs should be treated like contracts, where RSUs are only features in US ones a
     - #1 Hiring Manager (receives a copy)
     - #2 Candidate (needs to sign)
     - #3 People Ops (receives a copy)
-    - #3 Nitin Upadhyay and Julia Nishioki (receives a copy)
+    - #3 Nitin Upadhyay and Julia Demina (receives a copy)
     - This ensures that the contract goes to the GitLab signatory to sign first, as well as the recruiter for a Cc and once signed by them it will go to the People Experience for an update of records.
 1. Then click "Done".
 1. When the JCL is signed, ensure that you merge profiles before Hiring to avoid creating duplicate profile

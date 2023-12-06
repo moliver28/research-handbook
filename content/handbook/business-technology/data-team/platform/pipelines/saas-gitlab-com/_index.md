@@ -171,32 +171,13 @@ Below a overview of the end 2 end flow. From GCP snapshot creation up untill dbt
 
 #### Large tables backfilling
 
-In case files in the `Postgres` pipeline definition are changed in the files:
-- [el_gitlab_com_ci_db_manifest.yaml](https://gitlab.com/gitlab-data/analytics/-/blob/master/extract/postgres_pipeline/manifests_decomposed/el_gitlab_com_ci_db_manifest.yaml) and
-- [el_gitlab_com_db_manifest.yaml](https://gitlab.com/gitlab-data/analytics/-/blob/master/extract/postgres_pipeline/manifests_decomposed/el_gitlab_com_db_manifest.yaml)
+There should no longer be any manual work required when backfilling a bigger table (i.e > 500M records).
+Previously, a new backfill task would always start backfilling from the beginning, even if the previous task was in the middle of a backfill that was *unsuccessfully* finished. 
 
-and the changes lead to modifying the table structure and will trigger the backfill. In case some of the huge tables are changed - will be running for a long duration generating an outage for a large number of data sets downstream.
+With the updated logic, a backfill will start from where it left off if various conditions are met.
+This is especially useful when backfilling for bigger tables such as `ci_job_artifacts` where in the past, the backfill would have to be manually processed over a weekend maintenance window.
 
-Check the number of records in the table using the `SQL` command:
-
-```sql
-SELECT COUNT(1)
-  FROM raw.tap_postgres.{TABLE_NAME};
-```
-
-A suitable example of the enormous table is `CI_JOB_ARTIFACT`.
-
-It is difficult to say what represents *"huge"* table,  probably everything with over `200m` records should be considered a huge table.
-
-> **Warning:** In case you have a huge table among changed tables, avoid deploying the code during the work days.
-
-Generally, when we have had to do backfill on tables with large volumes of data, we should do it on a weekend so that no business stakeholders are affected by the long execution of backfilling.
-
-This recommendation is relevant to 2 `DAG`s which are affected by the changes:
-- [el_gitlab_com_ci_db_incremental_backfill](https://airflow.gitlabdata.com/tree?dag_id=el_gitlab_com_ci_db_incremental_backfill)
-- [el_gitlab_com_db_incremental_backfill](https://airflow.gitlabdata.com/tree?dag_id=el_gitlab_com_db_incremental_backfill)
-
-A matching example is exposed in the [**issue**](https://gitlab.com/gitlab-data/analytics/-/issues/15990) should use to backfill your changes.
+For more detailed information on the updated backfill process logic, please see this [saas backfills handbook page](/handbook/business-technology/data-team/platform/pipelines/SAAS-Gitlab-com/SAAS-Gitlab-com-backfill/).
 
 ### Manual Backfill of table from Postgres To Snowflake
 
@@ -296,3 +277,9 @@ When one (or more) tables require decommissioning from the `Postgres` pipeline, 
 
 So far, that includes these tables:
 - `merge_request_diff_commits`
+
+
+### Capturing deletes in the source
+Using the new backfill process, compare the source primary keys against the Snowflake table, and mark any records that are not in the source as deleted.
+
+More info on the capturing deletes process in the [saas backfills handbook page](/handbook/business-technology/data-team/platform/pipelines/saas-gitlab-com/saas-gitlab-com-backfill/).

@@ -103,7 +103,7 @@ If you need a manager's help with a ticket, please keep in mind that only US Cit
 In order to better facilite asynchronous collaboration on tickets within the US Government ticket system, we have a macro which allows US Government support engineers to trigger the creation of a confidential GitLab issue connected with the ticket. This issue will be open for the duration of the ticket and can provide a way for US Government support engineers to relay information to collaborators.
 
 **NOTE:
-It is important to never included any customer specific information inside of these issues, because even though they are confidential, they are still visable to people who do not have access to the US Government ticket system.**
+It is important to never included any customer specific information inside of these issues, because even though they are confidential, they are still visible to people who do not have access to the US Government ticket system.**
 
 To trigger the creation of one of these issues, select the `General::Create discussion issue` macro from the macros menu then submit the ticket. The support ops bot will then create an issue and link to it in an internal note. At first, this issue will contain very little information. The title will include the ticket number and the body will contain a link to the ticket plus empty sections, marked with headers, where you can provide information as you have it. All of these sections are optional.
 
@@ -128,3 +128,41 @@ It is recommended to continue working the case async while awaiting the discover
 When the scheduled session occurs the agent should set the expectations that we will be asking the customer to demonstrate the issue and then work with them to create a collection of artifacts that will be uploaded to the case at a later time.
 
 A short post call synopsis reminding the customer of what artifacts were collected and providing a technical description of what was observed is recommended to ensure both parties have the same understanding of next steps.
+
+## US Government Shift Engineer Workflow
+
+The US Government shift engineers are a hybrid role between US Government support and global support, they work in both support portals. This workflow outlines the heirarchy of priorities for shift engineers to follow:
+
+1. US Government Emergencies (while on-call)
+1. US Government High priority cases for 24x7 Eligible customers ([24x7 Entitled Customers view](https://gitlab-federal-support.zendesk.com/agent/filters/20166453511316))
+1. Global Support cases in Custom Personal view ([Create the view](#create-the-personal-view-in-global-support))
+1. US Government cases that are breached or soon to breach
+
+
+#### Create the personal view in Global Support
+
+The following will describe how to create the personal view to list cases in Global where US Gov shift engineers can contribute.
+
+1. Navigate to the [create new view](https://gitlab.zendesk.com/admin/workspaces/agent-workspace/views/new) section of Gitlab's Global Support Portal.
+1. Set the name to `US Government Shift View`
+1. Use the following conditions for **Tickets must meet all of these conditions to appear in the view**:
+    - `Status` - `Less than` - `Pending`
+    - `Tags` - `Contains at least one of the following` - `org_region_amer` `all_regions`
+    - `Ticket Stage` - `is` - `FRT`
+1. Use the following conditions for **Tickets can meet any of these conditions to appear in the view**
+    - `Form` - `is` - `Self-Managed`
+    - `Form` - `is` - `SaaS`
+    - `Form` - `is` - `SaaS Account`
+    - `Form` - `is` - `GitLab Dedicated`
+1. For **Formatting Options** please use the following columns:
+    - `ID`
+    - `SLA`
+    - `Subject`
+    - `Requester`
+    - `Assignee`
+    - `Organization`
+    - `Priority`
+    - `Request date`
+1. Group by: `Priority` - Descending
+1. Order by: `SLA` - Ascending
+

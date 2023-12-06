@@ -236,24 +236,35 @@ Please note that Long Island is not part of NYC and this process does not apply 
     - Under "Order Information", select Gitlab as the Job Position and under "Screening Package" select NYC Step 2.
     - Then scroll to the bottom right of the page and select Send.
 
-**PIAA**
+**Outside Work and PIAA Process**
 
-In the form, you'll find a question that informs the candidate that they will be required to sign an Employee Invention Assignment Agreement. They are asked for invention disclosures. If they state "none" or "n/a", you can skip this step. If the candidate discloses any outside activities, CES will take the following steps:
+In the form, you will find that candidates are required to disclose whether or not they have any outside work, side projects, Inventions, etc. If they state "none" or "n/a", you can skip this step. If the candidate discloses any information in either the Outside Work section or the PIAA section, CES will take the following steps:
 
-1. Email the Team through Greenhouse using the template `CES - PIAA Disclosed`.
-1. Fill out the email template with the hiring managers name and a screen shot of the disclosed information. This email will be sent to the People Connect Team at  people-connect@gitlab.com. **Please rember to put the name of the candidate in the email subject line.**
-
-People Connect will follow our standard process per the [internal handbook](https://internal.gitlab.com/handbook/people-group/people-operations/people-connect/onboarding_process/#piaa). Reach out to legal_employment@gitlab.com with any questions about things written in a PIAA.
-
-**Outside Work**
-
-If the candidate writes "none" or "n/a", you can skip this step. If a candidate discloses any outside activities, CES will need to take the following steps:
-1. In the ticket issue use "refchecktodo" text expander snippet to track progress and add the "Outside Work Disclosure" label.
-1. Email the Team through Greenhouse using the template `CES - Outside Work Email`, you can either copy and paste what the candidate has disclosed or you can attach a screenshot of the "outside work" section of the form. Send this email to the Hiring Manager. The Recruiter, Coordinator, and Team Member Relations will automatically be CC'ed.
-1. Await approval from the Hiring Manager and/or TMR. Once you have approval, take a screenshot of the email conversation (make sure to capture both the work disclosed and the approval from the HM and/or TMR). Save screenshots to a folder on your desktop.
-1. Once the candidate has been marked as hired and their profile has been created, CES will need to upload the approval screenshots to WorkDay. In WorkDay, search the candidate's name then navigate to the "Personal" tab. Click on "Documents" and then "Add". Upload the correct screenshots, under the "Document Category" drop down, select "Contract & Changes - Confidential (No Employee View), click "Upload".
-
-See more information about this process [here]({{< ref "contracts-probation-periods#approval-for-outside-activities" >}}).
+1. CES will visit the [TA Candidate PIAA and Outside Work Disclosure Group](https://gitlab.com/groups/gl-ta-candidate-disclosures)
+1. CES will click “New Project” in the upper right corner of the page
+1. Select “Create from template”
+1. Select “Group (1)” and click on the blue button “Use Template”
+1. For Project Name - create a title as the Candidate Name
+1. Leave all other fields as is and click “Create Project”
+   - NOTE: Once the project is created, you will then be brought to a page where you can create an issue within that project. This is where we will provide all information about the disclosure and loop in HMs, TMR, the Recruiter and Director.
+1. Click on “Issues” on the left side of the page and select “New Issue.”
+1. For Issue Name - create a title using the candidates full name along with the type of disclosure received.
+1. Under the Description drop-down - select piaa_outside work_discussion template
+1. Fill in all pertinent information.
+   - Candidate Name along with the Greenhouse Link
+   - Copy/Paste the disclosure made by the candidate underneath the CES checkbox
+1. Assign the issue to yourself, and at the bottom, click “Create Issue”
+1. Once the issue is created, click on “Manage” in the left toolbar and select “Members".
+1. Click “Invite Members” - type in HM’s name, Director’s name, and recruiter name; leave them as a Guest and click “Invite” (These will only be invited in at the “issue” level and therefore will only be able to see the issue they are tagged in. They will not have visibility into the other projects created)
+   - IMPORTANT NOTE: For ALL disclosures, Director Level approval is ALWAYS required.
+1. Go back into the issue, click Edit and in the info box tag the recruiter, HM & Director, then click save
+   - These team members will be notified by email when tagged.
+1. In the Comment section of the issue request participants review the disclosure(s) by using TE snippet “discreview”
+1. Approvers are asked to remove their relevant label once they approve. This will allow CES to keep track as to what approvals we have and still need.
+1. If Legal review and approval is required, TMR will invite the appropriate Legal member into the issue and request their review
+1. Once fully approved, please add the “Fully Approved” label and close the issue.
+1. Proceed to the candidate's GH profile and select “Email (Candidate’s Name). Select the “Disclosure Confirmation” template, copy/paste the disclosure the candidate made into the blank space, and Send. The email will CC you and the recruiter.
+1. Download the email from your inbox and upload into the “Pre Hire Documents & Changes” folder in the candidate's Workday profile.
 
 **TMRG Conversations**
 

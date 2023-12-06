@@ -57,7 +57,7 @@ Since GitLab is an [all remote](/handbook/company/culture/all-remote/) company w
 - [Safety and Health Protection on the Job](https://www.dir.ca.gov/dosh/dosh_publications/shpstreng012000.pdf)
 - [Notice to Employees - Injuries Caused by Work](https://www.dir.ca.gov/dwc/NoticePoster.pdf)
 - [Whistleblower Protections](https://www.dir.ca.gov/dlse/WhistleblowersNotice.pdf)
-- [Notice to Employees - unemployment, disability, and paid family leave insurance](https://edd.ca.gov/siteassets/files/pdf_pub_ctr/de1857a.pdf)
+- [Notice to Employees - Unemployment, Disability, and Paid Family Leave insurance](https://edd.ca.gov/siteassets/files/pdf_pub_ctr/de1857a.pdf)
 - [Notice to Employees - Unemployment Insurance Benefits](https://edd.ca.gov/siteassets/files/pdf_pub_ctr/de1857d.pdf)
 - [Sexual Harassment Fact Sheet](https://calcivilrights.ca.gov/wp-content/uploads/sites/32/2020/03/Sexual-Harassment-Fact-Sheet_ENG.pdf)
 - [Supplemental Paid Sick Leave - COVID-19](https://www.dir.ca.gov/dlse/COVID19resources/2022-COVID-19-SPSL-Poster.pdf)
@@ -109,7 +109,7 @@ Since GitLab is an [all remote](/handbook/company/culture/all-remote/) company w
 - [Notice to Employer of Injury](https://codwc.app.box.com/v/WC50-Injury-Poster)
 - [Notice of Paydays](https://drive.google.com/file/d/1B9NG0eCOvxGD_KE_R9Zxtw58lTi4fkje/view?usp=sharing)
 - [Workers' Compensation Act](https://drive.google.com/file/d/1OkdN7QSD23d5-etB7awiU4C_JjM9KXHM/view?usp=sharing)
-- [Paid Family and Medical Leave Insurance](https://famli.colorado.gov/sites/famli/files/documents/BreakRoomPoster.pdf)
+- [Paid Family and Medical Leave Insurance](https://famli.colorado.gov/sites/famli/files/FAMLI%20Break%20Room%20Poster%20Official%20Revised%20V2.pdf)
 - [Paid Leave, Whistleblowing, and Personal Protective Equipment](https://cdle.colorado.gov/sites/cdle/files/%5BCLEAN%20June%201%2C%202022%5D%20Poster%2C%20Paid%20Leave%20%26%20Whistleblower.pdf)
 
 ### Connecticut
@@ -131,7 +131,7 @@ Since GitLab is an [all remote](/handbook/company/culture/all-remote/) company w
 
 ### District of Columbia
 
-- [Paid Family Leave Employee Notice](https://does.dc.gov/sites/default/files/dc/sites/does/publication/attachments/2021%20OPFL%20Employee%20Worksite%20Notice_2.pdf)
+- [Paid Family Leave Employee Notice](https://dcpaidfamilyleave.dc.gov/employer-forms/)
 - [COVID-19 Leave Notice](https://ohr.dc.gov/sites/default/files/dc/sites/ohr/publication/attachments/COVID-19%20Leave_EmployerPoster_011422.pdf)
 - [Equal Employment Opportunity](https://ohr.dc.gov/sites/default/files/dc/sites/ohr/publication/attachments/EEO_Poster_2015.pdf)
 - [DC Family and Medical Leave Act](https://ohr.dc.gov/sites/default/files/dc/sites/ohr/publication/attachments/DCFMLA%20updated%20poster%20-%20Oct2022.pdf)
@@ -266,11 +266,10 @@ Since GitLab is an [all remote](/handbook/company/culture/all-remote/) company w
 
 ### Massachusetts
 
-- [Paid Family and Medical Leave](https://www.mass.gov/doc/2022-paid-family-and-medical-leave-mandatory-workplace-poster/download)
+- [Paid Family and Medical Leave](https://www.mass.gov/files/documents/2023/11/20/2024%20pfml%20mandatory%20workplace%20poster%20english.pdf)
 - [Earned Sick Time](https://www.mass.gov/doc/earned-sick-time-notice-of-employee-rights/download)
 - [Massachusetts Wage and Hours Laws](https://www.mass.gov/doc/massachusetts-wage-hour-laws-poster/download)
 - [Fair Employment Law](https://www.mass.gov/doc/mcad-fair-employment-law-poster/download)
-- [Parental Leave Act](https://www.umass.edu/humres/sites/default/files/MA%20Parental%20Leave%20poster%20-%20MMLA.pdf)
 - [Sexual Harassment](https://www.mass.gov/doc/sexual-harassment-poster/download)
 - [Workers' Compensation Notice - Federal](https://drive.google.com/file/d/1D4R0Iu7gnoyiWK97TUI41FoW1wbGWyRJ/view?usp=sharing)
 - [Workers' Compensation Notice - Inc.](https://drive.google.com/file/d/15l8Fea45OKPQhfPlwsJ_2IqLtF6lP7GQ/view?usp=sharing)
@@ -368,10 +367,11 @@ Since GitLab is an [all remote](/handbook/company/culture/all-remote/) company w
 - [Unemployment Notice](https://www.nhes.nh.gov/forms/documents/unemployment-notice.pdf)
 - [Employment Discrimination is Against the Law](https://www.nh.gov/hrc/documents/employment_poster.pdf)
 - [Workers' Compensation Notice - Inc.](https://drive.google.com/file/d/14mEVQW_6sVJZhAcdU5aGd8v5NCEpXKNr/view?usp=sharing)
+- [Optional Paid Family and Medical Leave Insurance](https://www.paidfamilymedicalleave.nh.gov/sites/g/files/ehbemt781/files/documents/nh-pfml-notice-of-benefits-poster-optional.pdf)
 
 ### New Jersey
 
-- [New Jersey Earned Sick Leave](https://www.nj.gov/labor/wageandhour/assets/PDFs/Employer%20Poster%20Packet/mw565sickleaveposter.pdf)
+- [New Jersey Earned Sick Leave](https://www.nj.gov/labor/wageandhour/assets/PDFs/Forms%20and%20Publications/MW-565%20(12-21)%20BLUE%2011x17%20Sick%20Leave%20poster-English.pdf)
 - [Wage and Hour Law Abstract](https://www.nj.gov/labor/wageandhour/assets/PDFs/Employer%20Poster%20Packet/MW-220%20(1-22)%20Wage%20Hour%20Abstract%20Poster.pdf)
 - [Child Labor Law](https://www.nj.gov/labor/wageandhour/assets/PDFs/Employer%20Poster%20Packet/mw-129-1.pdf)
 - [Employer Obligation to Maintain and Report Records](https://www.nj.gov/labor/wageandhour/assets/PDFs/Employer%20Poster%20Packet/MW-400_11x17.pdf)
@@ -404,8 +404,7 @@ Since GitLab is an [all remote](/handbook/company/culture/all-remote/) company w
 - [Equal Pay Provision](https://dol.ny.gov/system/files/documents/2021/03/ls603_equity_provision.pdf)
 - [Minimum Wage](https://dol.ny.gov/system/files/documents/2021/12/ls207.pdf)
 - [Wage Theft Prevention](https://dol.ny.gov/system/files/documents/2021/03/p715.pdf)
-- [Paid Family Leave](https://www.wcb.ny.gov/content/main/forms/PFLDocs/pfl-at-a-glance-2023.pdf)
-- [New York State Disability Statement of Rights (DB217S)](https://www.wcb.ny.gov/content/main/forms/db271s.pdf)
+- [New York State Disability Statement of Rights (DB217S)](https://www.newyorklife.com/assets/gbs/pdf/pfl271s-2024.pdf?rid=112365101&cid=nylDM57160&bid=290028294)
 - [Rights of Nursing Mothers to Express Breast Milk in the Work Place](https://dol.ny.gov/system/files/documents/2023/06/p705-policy-on-the-rights-of-employees-to-express-breast-milk-in-the-workplace-single.pdf)
 - [Child Labor Law - permitted working hours](https://dol.ny.gov/system/files/documents/2021/03/ls171.pdf)
 - [Prohibition of Employer Retaliation](https://dol.ny.gov/system/files/documents/2022/02/ls740_1.pdf)
@@ -464,6 +463,8 @@ Since GitLab is an [all remote](/handbook/company/culture/all-remote/) company w
 - [Worker's Compensation Poster](https://www.dli.pa.gov/Businesses/Compensation/WC/claims/wcais/Documents/wcais%20forms/LIBC-500%20print.pdf)
 - [Workers' Compensation Notice - Federal](https://drive.google.com/file/d/1SKo7zi1Q9rkrR03gVIor1exbz1tPxlB2/view?usp=sharing)
 - [Workers' Compensation Notice - Inc.](https://drive.google.com/file/d/1exd3Hy9ODgexMuAZtza-PmvGsqzHZAIZ/view?usp=sharing)
+- **Allegheny County, PA**
+    - [Paid Sick Leave Ordinance](https://www.alleghenycounty.us/uploadedFiles/Allegheny_Home/Dept_-_Content/Administrative/Docs/Paid%20Sick%20Leave%20Ordinance%20-%20notice.pdf)
 - **City of Philadelphia**
     - [Promoting Healthy Families and Workplaces](https://www.phila.gov/media/20191218103833/Paid-Sick-Leave-Poster-Translations.pdf)
     - [Fair Chance Hiring Law](https://www.phila.gov/media/20210423160847/Fair-Chance-Hiring-law-poster.pdf)
@@ -472,7 +473,7 @@ Since GitLab is an [all remote](/handbook/company/culture/all-remote/) company w
 
 ### Puerto Rico
 
-- ["SINOT"](https://www.trabajo.pr.gov/docs/Afiches/SINOT.pdf)
+- ["SINOT"](https://www.trabajo.pr.gov/docs/Afiches/Afiche%20SINOT_B.pdf)
 - [El Discrimen es Ilegal](https://www.trabajo.pr.gov/docs/Afiches/Antidiscrimen.pdf)
 - [Carta de Derecgis de ka Mujer Trabajadora](https://www.trabajo.pr.gov/docs/Afiches/Carta_de_Derechos_de_la_Mujer_Trabajadora.pdf)
 - [Normas del Trabajo](https://www.trabajo.pr.gov/docs/Afiches/Normas_del_Trabajo.pdf)
@@ -557,8 +558,7 @@ Since GitLab is an [all remote](/handbook/company/culture/all-remote/) company w
 
 ### Washington
 
-- [Paid Family and Medical Leave](https://paidleave.wa.gov/app/uploads/2019/12/Employer-poster.pdf)
-- [Washington Family Medical Leave Act](https://paidleave.wa.gov/app/uploads/2019/12/Employer-to-employee-notice-2019.pdf)
+- [Paid Family and Medical Leave](https://drive.google.com/file/d/1FnaPyYIGBovgZBiGgPqCZaKiAMeqGhWL/view?usp=drive_link)
 - [Job Safety and Health Law](https://www.lni.wa.gov/forms-publications/f416-081-909.pdf)
 - [Your Rights as a Worker](https://www.lni.wa.gov/forms-publications/F700-074-000.pdf)
 - [Notice to Employees if a Job Injury Occurs](https://www.lni.wa.gov/forms-publications/f242-191-909.pdf)

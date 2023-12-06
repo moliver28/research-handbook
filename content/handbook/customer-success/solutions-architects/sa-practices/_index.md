@@ -42,6 +42,6 @@ The following practice and process are lead by the Solutions Architects during p
 
 [Selling Professional Services](/handbook/customer-success/solutions-architects/sa-practices/selling-professional-services)
 
-[Technical Opportunity Plan](/handbook/customer-success/solutions-architects/sa-practices/technical-opportunity-plan/)
+[Technical Close Plan](/handbook/customer-success/solutions-architects/sa-practices/technical-close-plan/)
 
 [Business Value Consulting](/handbook/customer-success/solutions-architects/sa-practices/business-value-consulting/)

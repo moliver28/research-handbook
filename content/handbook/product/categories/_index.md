@@ -338,7 +338,7 @@ Maybe we should make our features easier to search to replace the section below.
 - [Performance Test Data](https://gitlab.com/gitlab-org/quality/performance-data)
 - [Zero Downtime Testing Tool](https://gitlab.com/gitlab-org/quality/zero-downtime-testing-tool)
 
-Internal Customers: [Create:Gitaly](#gitaly-group), [Enablement section](#enablement-section), [SaaS Platforms section](#saas-platforms-section), [Infrastructure Department](https://about.gitlab.com/handbook/engineering/infrastructure/), [Support Department](/handbook/support/), [Customer Success](/handbook/customer-success/)
+Internal Customers: [Gitaly](#gitalycluster-group), [Core Platform section](#core-platform-section), [SaaS Platforms section](#saas-platforms-section), [Infrastructure Department](https://about.gitlab.com/handbook/engineering/infrastructure/), [Support Department](/handbook/support/), [Customer Success](/handbook/customer-success/)
 
 ### Other functionality in [Analytics](/handbook/product/categories/#analytics-stage)
 

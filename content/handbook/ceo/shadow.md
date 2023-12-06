@@ -83,12 +83,17 @@ Exceptions to eligibility:
 
 CEO Shadow rotations will be reserved for [Functional Leaders]({{< ref "/content/handbook/company/structure.md#functional-leaders" >}}) during the week of [E-Group Offsites](/handbook/company/offsite/#schedule). An exception will be made if there is last minute availability as two functional leaders are not available to serve in this role during this window.
 
-**Note:** At this time, all shadow rotations are fully remote.
-Given the CEO generally works from 8 a.m. to 6 p.m. Pacific,
-it's best for remote shadows to be in Pacific, Mountain, or Central time zones.
-Other time zones will be considered on a case-by-case basis.
+**Note:** At this time, all shadow rotations are fully remote. Learn more about what to expect from a [remote shadow rotation](#remote-shadow-rotations).
 
-Learn more about what to expect from a [remote shadow rotation](#remote-shadow-rotations).
+### Expectations for hours of participation
+
+The CEO generally works from 8am to 6pm Pacific. This means that shadows from Pacific, Mountain, or Central time zones can participate without dramatic shifts to their usual working hours. To the degree possible, these folks should plan to clear their schedule during the CEO's working hours.
+
+If a person is applying from over 3 time zones from the Pacific time zones or has special considerations (for example, inflexible care duties), they can still participate. We ask that they:
+1. Commit to participating at least 6 hours a day between 8am and 6pm Pacific
+1. Confirm with their "See One" and "Teach One" partners that they can provide sufficient coverage during the times that the participant will not be participating
+
+If you have questions about your individual case, please contact the EBA to the CEO.
 
 ### How to apply
 
@@ -130,17 +135,17 @@ For those with regular commitments, look for shorter weeks or timezone variation
 | 2024-01-29 | 2024-02-02 | AVAILABLE | [Riley Longo](https://gitlab.com/rilongo) - Customer Service Manager | REMOTE - PT, Likely 2 or 3 days TBC |
 | 2024-02-05 | 2024-02-09 | AVAILABLE | AVAILABLE | REMOTE - PT |
 | 2024-02-12 | 2024-02-14 | AVAILABLE | AVAILABLE | REMOTE - PT, MON - WED |
-| 2024-02-20 | 2024-02-23 | [Laura Geburtzki](https://gitlab.com/lgeburtzki) - First Order Account Executive EMEA Mid-Market | AVAILABLE | REMOTE - PT, TUES - FRI |
-| 2024-02-26 | 2024-03-01 | [Viktor Nagy](https://gitlab.com/nagyv-gitlab) - Senior Product Manager, Deploy:Environments | [Laura Geburtzki](https://gitlab.com/lgeburtzki) - First Order Account Executive EMEA Mid-Market | REMOTE - PT |
+| 2024-02-20 | 2024-02-23 | [Emma Neuberger](https://gitlab.com/eneuberger) | AVAILABLE | REMOTE - PT, TUES - FRI |
+| 2024-02-26 | 2024-03-01 | [Viktor Nagy](https://gitlab.com/nagyv-gitlab) - Senior Product Manager, Deploy:Environments | [Emma Neuberger](https://gitlab.com/eneuberger) | REMOTE - PT |
 | 2024-03-04 | 2024-03-08 | AVAILABLE | [Viktor Nagy](https://gitlab.com/nagyv-gitlab) - Senior Product Manager, Deploy:Environments | REMOTE - PT |
 | 2024-03-11 | 2023-03-15 | NO SHADOW | NO SHADOW | SUMMIT - PT |
 | 2024-03-18 | 2024-03-22 | AVAILABLE - VP-Directs Only | AVAILABLE | REMOTE - PT |
 | 2024-03-25 | 2024-03-29 | [Reshmi Krishna](https://gitlab.com/reshmikrishna) - Director, Enterprise Solutions Architecture | AVAILABLE - VP-Directs Only | TBC - PT |
 | 2024-04-01 | 2024-04-05 | [Jeremy Wagner](https://gitlab.com/jeremywagner) - Sr Solutions Architect | [Reshmi Krishna](https://gitlab.com/reshmikrishna) - Director, Enterprise Solutions Architecture | REMOTE - PT |
-| 2024-04-08 | 2024-04-12 | [Karen Kwentus](https://gitlab.com/kkwentus1) - Sr Solutions Architect | [Jeremy Wagner](https://gitlab.com/jeremywagner) - Sr Solutions Architect | REMOTE - PT |
-| 2024-04-15 | 2024-04-19 | AVAILABLE - REMOTE | [Karen Kwentus](https://gitlab.com/kkwentus1) - Sr Solutions Architect | REMOTE - PT |
-| 2024-04-22 | 2024-04-26 | AVAILABLE | AVAILABLE | REMOTE - PT |
-| 2024-04-29 | 2024-05-03 | AVAILABLE | AVAILABLE | REMOTE - PT |
+| 2024-04-08 | 2024-04-12 | [Karen Kwentus] (https://gitlab.com/kkwentus1) - Sr Solutions Architect | [Jeremy Wagner](https://gitlab.com/jeremywagner) - Sr Solutions Architect | REMOTE - PT |
+| 2024-04-15 | 2024-04-19 | [Djordje Micovic](https://gitlab.com/dmicovic) - Sr Data Analyst, Marketing Analytics - REMOTE | [Karen Kwentus] (https://gitlab.com/kkwentus1) - Sr Solutions Architect | REMOTE - PT |
+| 2024-04-22 | 2024-04-26 | [Sam Wiskow - Senior Product Manager, Delivery & Scalability](https://gitlab.com/swiskow)  | [Djordje Micovic](https://gitlab.com/dmicovic) - Sr Data Analyst, Marketing Analytics  | REMOTE - PT |
+| 2024-04-29 | 2024-05-03 | AVAILABLE | [Sam Wiskow - Senior Product Manager, Delivery & Scalability](https://gitlab.com/swiskow)  | REMOTE - PT |
 
 If you have questions regarding the planned rotation schedule, please ping the [EBA to the CEO]({{< ref "eba#executive-business-administrator-team" >}}) and [Chief of Staff to the CEO]({{< ref chief-of-staff >}}) in the `#ceo-shadow` Slack channel. The CoS and EBA to the CEO manage the rotation schedule. Please do not add new dates to the schedule when adding in your rotation. The CEO's schedule is subject to constant change and your rotation may need to be rescheduled.
 
