@@ -141,7 +141,7 @@ If changes are required to the onboarding email template, follow these steps to 
 
 ## Swag Email
 
-This is the [email](https://gitlab.com/gitlab-com/people-group/people-operations/employment-templates/-/blob/main/email_templates/swag_email.md) that is sent on the first day of a new team member so they receive the code to get a discount at the swag store. The email is cc'd to `people-connect@domain`.
+This is the [email](https://gitlab.com/gitlab-com/people-group/people-operations/employment-templates/-/blob/main/email_templates/swag_email.md) that is sent on the first day of a new team member so they receive the instructions to redeem their new hire swag. The email is cc'd to `people-connect@domain`.
 
 Every day at 9 AM UTC we run a scheduled pipeline. This pipeline will fetch all the eligible team members. An eligible team
 member means:

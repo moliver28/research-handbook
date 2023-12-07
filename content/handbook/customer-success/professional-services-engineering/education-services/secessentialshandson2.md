@@ -1,83 +1,136 @@
 ---
-title: "GitLab Security Essentials<br/>Hands-On Guide: Lab 2"
+title: "GitLab Security Essentials - Hands-On Lab"
 description: "This Hands-On Guide walks you through the lab exercises used in the GitLab Security Essentials course."
 ---
 
-## LAB 2: Enable, configure, and run Dependency Scanning
+# Lab 2: Enable and Configure Dependency Scanning
 
-### A. Optional: Streamline your pipeline
+> Estimated time to complete: 15 to 30 minutes
 
-Before beginning this lab and all later labs, you can optionally disable any scanners that you enabled in previous labs. This will speed up pipeline runs. You especially might want to disable the **DAST** scanner, since it can take a few minutes to complete.
+> **You are viewing the latest Version 16.x instructions.** You are using v16 if your group URL is `https://gitlab.com/gitlab-learn-labs/...`. If your group URL starts with `https://ilt.gitlabtraining.cloud` or `https://spt.gitlabtraining.cloud`, please use the [Version 15.x instructions](https://gitlab.com/gitlab-com/content-sites/handbook/-/blob/d14ee71aeac2054c72ce96e8b35ba2511f86a7ca/content/handbook/customer-success/professional-services-engineering/education-services/secessentialshandson2.md).
 
-1. Return to the **Security Labs** project you created in Lab 1.
-1. To disable a scanner, add a hash before the template that enables it in `.gitlab-ci.yml`. For example, to disable **Secret Detection** and **DAST**, make these edits to your existing `.gitlab-ci.yml`:
+## Objectives
 
-   ```yml
-   include:
-     - template: Security/SAST.gitlab-ci.yml
-   #  - template: Security/Secret-Detection.gitlab-ci.yml
-   #  - template: DAST.gitlab-ci.yml
-   ```
+Many projects depend on open source software and libraries. The dependencies that a project uses can also contain security vulnerabilities.
 
-1. If you do disable any scanners, you'll also need to comment out or remove any job definitions that you overrode while configuring the disabled scanners. For example, since you overrode the `secret_detection` job that was defined by the Secret Detection template, you must comment out that overriding job definition:
+In this lab, you will learn how to scan for vulnerabilities in your project dependencies.
 
-   ```yml
-   # secret_detection:
-   #   variables:
-   #     SECRET_DETECTION_EXCLUDED_PATHS: tests/
-   ```
+## Prerequisites
 
-### B. Identify your project’s dependencies
+Before beginning this lab and all later labs, you should disable any scanners that you enabled in previous labs to speed up pipeline runtime.
 
-1. Return to the **Security Labs** project you created in Lab 1.
-1. Python-based projects list their dependencies in a file called `requirements.txt`. That file already exists in your project. Open it to see a list of the project’s dependencies.
-1. Notice that your only dependency is version 2.0.0 of a machine learning library called **Keras**. Since it’s a complicated library, it has many dependencies of its own (although they’re not listed in `requirements.txt`). The Dependency Scanner will traverse all of these dependencies looking for security vulnerabilities. Considering that version of Keras was released in 2017, do you expect the Dependency Scanner to find any problems?
+1. Open your browser to to the **Security Labs** project that you created in Lab 1.
 
+    > If you closed the tab or lost the link, open a browser tab and start typing `https://gitlab.com/gitlab-learn-labs` in your URL and the group should appear in your history.
 
-### C. Enable Dependency Scanning
+2. To disable a scanner, add a hash before the template that enables it in `.gitlab-ci.yml`. For example, to disable the scanners configured in Lab 1, make these edits to your existing `.gitlab-ci.yml`.
 
-You’ll enable Dependency Scanning by including a GitLab-provided template in your CI/CD configuration file. You can do this manually, or you can use the GitLab GUI to make a merge request that does it for you. Since you used the manual technique to enable SAST, Secret Detection, and DAST in the last lab, use the GUI to enable Dependency Scanning in this lab.
+    ```yml
+    include:
+    # - template: Security/SAST.gitlab-ci.yml
+    # - template: Security/Secret-Detection.gitlab-ci.yml
+    # - template: DAST.gitlab-ci.yml
+    ```
 
-1. Navigate to **Security & Compliance > Configuration**.
-1. In the **Dependency Scanning** pane, select **Configure with a merge request**. This does 3 things:
+    > It is also possible to disable these features by setting CI variables on the project, such as `DAST_DISABLE=true` and `SECRET_DETECTION_DISABLE=true`. Learn more in the <a target="_blank" href="https://docs.gitlab.com/ee/topics/autodevops/cicd_variables.html#job-disabling-variables">documentation</a>.
+
+3. When you disable any scanners that use templates, you'll also need to comment out or remove any job definitions that you overrode while configuring the disabled scanners. For example, since you overrode the `secret_detection` job that was defined by the Secret Detection template, you need to comment out the overriding job definition:
+
+    ```yml
+    #secret_detection:
+    # variables:
+    #   SECRET_DETECTION_EXCLUDED_PATHS: tests/
+    ```
+
+## Task A. Add Project Dependencies
+
+> Python-based projects often use pip for package management. With pip, developers will often provide a list of dependencies in a file called `requirements.txt`.
+
+> Although this example uses Python with the pip package manager, GitLab supports various other package managers. For a full list of supported languages and package managers, see the <a target="_blank" href="https://docs.gitlab.com/ee/user/application_security/dependency_scanning/#supported-languages-and-package-managers"></a>.
+
+1. In your `Security Labs` project, navigate to **Code > Repository**.
+
+1. Create a file by clicking **+ > This directory > New file**
+
+1. Set the Filename to `requirements.txt` and add the following text.
+
+    ```
+    requests==2.27.1
+    ```
+
+1. Enter an appropriate commit message (ex. `Adding requirements file`), set the **Target Branch** to `main`, and click the **Commit changes** button.
+
+## Task B. Enable Dependency Scanning
+
+> The Dependency Scanner will traverse your project dependencies looking for security vulnerabilities.
+
+> You’ll enable Dependency Scanning by including a GitLab-provided template in your CI/CD configuration file. You can do this manually, or you can use the GitLab GUI to make a merge request that does it for you. Since you used the manual technique to enable SAST, Secret Detection, and DAST in the last lab, use the GUI to enable Dependency Scanning in this lab.
+
+1. Navigate to **Secure > Security configuration**.
+
+1. In the **Dependency Scanning** pane, click **Configure with a merge request**. This does 3 things for you:
     1. Creates a new branch
     2. Adds a commit to the branch which edits your CI/CD configuration file to enable Dependency Scanning
     3. Redirects you to a page for creating an MR for that branch
-1. On the MR creation page, leave all fields at their default values and select **Create merge request**. GitLab will redirect you to the details page for the MR you just created.
-1. In the middle of the page, find the notification that a pipeline is running on the MR’s branch. It could take a few minutes for the pipeline to finish, even if you've disabled scans from the previous lab. Do **not** select **Auto-merge** in the MR, since that can lead to unexpected behavior. Instead, wait for the pipeline to finish (you can watch it by selecting **CI/CD > Pipelines** in the left navigation pane) and then select **Merge** in the MR. You might have to refresh the MR page to see this button.
-1. In the left navigation pane, select **Repository > Files** and open `.gitlab-ci.yml`. Notice that the MR has added documentation at the top, reformatted the file, and added a Dependency Scanning template in the `include:` section.
 
+1. On the merge request (MR) creation page, leave all fields at their default values and click the **Create merge request** button. You will be redirected to the details page for the MR that you just created.
 
-### D. Configure and run Dependency Scanning
+1. In the middle of the page, find the notification that a pipeline is running on the MR’s branch.
 
-You configure Dependency Scanning by setting variables in your CI/CD configuration file. In this section you’ll change the Dependency Scanner's log level to `info`.
+    1. It could take a few minutes for the pipeline to finish, even if you've disabled scans from the previous lab.
+    2. Do **not** click **Auto-merge** button since that can lead to unexpected behavior.
+    3. Wait for the pipeline to finish. You can watch it by navigating to **Build > Pipelines** or clicking on the pipeline number in the merge request.
 
-1. In the left navigation pane, select **CI/CD > Editor**.
-1. Add this job definition to the bottom of your CI/CD configuration file. It overrides an existing job that’s defined by the Dependency Scanning template. *Note that there are 2 hyphens and 1 underscore in the first line.*<br/>
+1. After the pipeline has finished, click the **Merge** button in the MR. You might need to refresh the page to see this button.
+
+1. Navigate to **Code > Repository** and open `.gitlab-ci.yml`. Notice that the MR has added documentation at the top, reformatted the file, and added a Dependency Scanning template in the `include:` section.
+
+## Task D. Configure Dependency Scanning
+
+> You can configure Dependency Scanning by setting variables in your the `gitlab-ci.yml` file. In this task, you’ll change the Dependency Scanner's log level to `info`.
+
+1. Navigate to **Build > Pipeline editor**.
+
+1. Add this job definition to the bottom of your `.gitlab-ci.yml` file. It overrides an existing job that’s defined by the Dependency Scanning template. *Note that there are 2 hyphens and 1 underscore in the first line.*
 
     ```yml
-   gemnasium-python-dependency_scanning:
-     variables:
-       SECURE_LOG_LEVEL: "info"
+    gemnasium-python-dependency_scanning:
+      variables:
+        SECURE_LOG_LEVEL: "info"
     ```
 
-1. Commit this change to the **main** branch, using `change log level for Python dependency scanner` as a commit message. This commit triggers a pipeline run using your new Dependency Scanning configuration.
-1. In the left navigation pane, select **CI/CD > Pipelines** and wait for the most recent pipeline to finish. If you want to watch its progress, go to the pipeline’s details page or the console for the **gemnasium-python-dependency_scanning** job. Remember that Dependency Scanning can take a few minutes to run.
+    > For a full list of variables available for dependency scanning, see the <a target="_blank" href="https://docs.gitlab.com/ee/user/application_security/dependency_scanning/#available-cicd-variables">documentation</a>.
 
+1. Commit this change to the **main** branch, using `Change log level for Python dependency scanner` as a
+commit message. This commit triggers a pipeline run using your new Dependency Scanning configuration.
 
-### E. View and take action on vulnerabilities
+1. Navigate to **Build > Pipelines** and wait for the most recent pipeline to finish. If you want to watch its progress, go to the pipeline’s details page and click on the job the **gemnasium-python-dependency_scanning** pill button to see the console output for the job. Remember that Dependency Scanning can take a few minutes to run.
 
-1. In the left navigation pane, select **Security & Compliance > Vulnerability Report**.
-1. In the **Tool** filter, select **Dependency Scanning**. Notice how many security vulnerabilities Dependency Scanning found in the 2017 Keras code.
-1. Select the description of any vulnerability with **High** severity to learn more about it.
-1. Your team decides not to fix this problem. Stay on the details page for the vulnerability you clicked on in the previous step, go to the **Status** dropdown in the top right of the page, select **Dismiss**, and select **Change status**.
-1. Return to the Vulnerability Report, change the **Tool** filter back to **Dependency Scanning**, and select the description of another vulnerability with **High** severity.
-1. Review the vulnerability's information by clicking on its entry. Change its **Status** to **Confirm**.
-1. On the vulnerability details page you’re already on, select **Create issue** at the bottom right so you can track the vulnerability remediation work.
-1. Assign the ticket to yourself and select **Create issue**.
-1. Return to the Vulnerability Report. Notice that the vulnerability you just created an issue for has a link to that issue in the **Activity** column.
-1. Select the description of another **High** severity vulnerability found by the Dependency Scanner, and change its status to **Resolve** to show that your team has fixed that problem.
+## Task E. Take Action on Vulnerabilities
 
+> The first step in managing dependency based vulnerabilities is to verify that the vulnerability does exist in your usage of the dependency. If the vulnerability does exist in your project, you should take steps to remedy the issue.
+
+1. Navigate to **Secure > Vulnerability Report**.
+
+1. In the **Tool** filter, click **Dependency Scanning**. Notice any security vulnerabilities Dependency Scanning found in the requirements file.
+
+1. There is a single vulnerability in the project dependencies, with a description of **Unintended leak of Proxy-Authorization header in requests**. Click the description.
+
+1. On the description page, you will see a description of the vulnerability, including the impact of the vulnerability. You will additionally see information about the patch and workaround for the vulnerability.
+
+1. In the top right corner, click the **Status** dropdown and choose **Confirm**.
+
+1. In the **Linked items** section of the vulnerability description, click the **Create issue** button.
+
+1. Assign the issue to yourself and click the **Create issue** button.
+
+    > Note that the description of the vulnerability was copied to the issue.
+
+1. Navigate back to **Secure > Vulnerability report**. Notice that the vulnerability you just created an issue for has a link to that issue in the **Activity** column.
+
+## Lab Guide Complete
+
+You have completed this lab exercise. You can view the other [lab guides for this course](/handbook/customer-success/professional-services-engineering/education-services/secessentialshandson).
 
 ## Suggestions?
 

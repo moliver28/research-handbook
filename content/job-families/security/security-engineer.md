@@ -84,16 +84,31 @@ The Senior Security Engineer is a [grade 7](/handbook/total-rewards/compensation
 
 ### Staff Security Engineer
 
-The Staff Security Engineer role extends the [Senior Security Engineer](#senior-security-engineer) role.
+The Staff Security Engineer role is a progression of the [Senior Security Engineer](#senior-security-engineer) role and typically reports to Manager or Senior Manager.
 
-- Recognized security expert in multiple specialty areas, with cross-functional team experience
-- Make security architecture decisions
-- Provide actionable and constructive feedback to cross-functional teams
-- Implement security technical and process improvements
-- Exquisite written and verbal communication skills
-- Author technical security documents
-- Author questions/processes for hiring and screening candidates
-- Write public blog posts and represent GitLab as a speaker at security conferences
+#### Responsibilities
+
+- Serve as trusted advisor to team's leadership, actively shaping the team's direction
+- Collaborate across teams as technical expert, driving the success of larger projects
+- Evangelize and foster a culture of security awareness across the company, and may represent the organization at industry events
+- Actively lead cross-team technical/project decisions, collaborating closely with other team members, and acting as a directly responsible individual (DRI) where needed
+- Provide mentorship and guidance to engineers within and sometimes outside of the team
+- Proactively address high impact and difficult security challenges, contributing to innovative solutions
+- Gather and analyze security metrics, provide recommendations, and resolve intricate issues within their specialty
+- Play a pivotal role in preventing security issues through contribution of proactive detections and mitigations
+- Implement appropriate solutions that address unique and challenging security issues with cross-team dependencies
+- Lead efforts according to their specialty, set standards, and provide guidance to less experienced team members
+
+#### Requirements
+
+- Demonstrated effective collaboration with cross-functional teams, actively fostering a culture of security awareness, and supporting the development of security solutions that impact larger projects
+- Demonstrated innovative problem-solving on complex security issues within your area of expertise
+- Exhibits excellent written and verbal communication skills
+- Communicates technical concepts clearly and can convey the importance of security practices to peers within the Security department as well as team members on other teams.
+- Demonstrated consistent willingness and ability to take on new and difficult challenges
+- Possesses expert-level knowledge in their specialty field and the security technology stack
+- Demonstrates strong technical leadership, acknowledged by cross-functional peers and stakeholders
+
 
 #### Job Grade
 
@@ -101,20 +116,29 @@ The Staff Security Engineer is a [grade 8](/handbook/total-rewards/compensation/
 
 ### Principal Security Engineer
 
-The Principal Security Engineer role extends the [Staff Security Engineer](#staff-security-engineer) role.
+The Principal Security Engineer role is a progression of the [Staff Security Engineer](#staff-security-engineer) role and typically reports to Senior Manager/Director.
 
-- Collaborate and makes proposals across several teams on cross-functional security initiatives
-- Help team members make informed decisions in support of and alignment with the sub-department strategy
-- Expose technology and organizational needs throughout their department
-- Teach, guide and mentor new and existing team members
-- Play a central role in technical, business, and organizational contributions affecting the sub-department/department
-- Assist in developing team and sub-department roadmap
-- Solve technical problems of the highest scope, complexity, and ambiguity for their sub-department.
-- Interface with organizational stakeholders and enable Staff Engineers to engage on department-level aspects of larger (sub-department wide) initiatives.
-- Looks for innovation opportunities between several teams with a willingness to experiment and to boldly confront problems of large complexity and scope.
-- Guide conversations to remove blockers and encourage collaboration across teams.
-- Provide a point of escalation for sub-department teams facing complex technical challenges.
-- Exposes the work of the sub department and their business impact internally.
+#### Responsibilities
+
+- Collaborate with department leadership, serving as a trusted advisor, and significantly influence the organization's security strategy
+- Drive complex security initiatives across departments, proactively identifying and leading high-impact projects to success
+- Serve as an ambassador for security within and outside the organization, engaging with industry peers, communities, and customers as needed
+- Provide mentorship, fostering a culture of continuous learning and collaboration across the department
+- Proactively lead large complex efforts with multiple cross-org dependencies, drives innovation, and provides thought leadership both internally and sometimes externally
+- Contribute to the development of cutting-edge security practices and technologies
+- Provide strategic guidance and direction that is adopted into the organization's security strategy
+
+#### Requirements
+
+- Proven excellence in devising holistic security direction and strategies that encompass a wide range of technical and organizational considerations
+- Outstanding interpersonal and collaboration skills, demonstrated consistent and successful collaboration across teams on cross-functional security initiatives
+- Demonstrated ability solving complex and intricate security problems that demand innovative solutions
+- Notable technical leader with demonstrated effective communication and influence at all levels across the organization
+- Highly regarded as a subject matter expert with deep knowledge of the enterprise technology stack
+- Demonstrated profound impact on the organization's security posture
+- Recognized for their ability to teach, mentor, grow, and provide advice to other domain experts and individual contributors
+- Strong ability to adapt to evolving circumstances, technologies, and strategic priorities, while leading complex initiatives
+- Demonstrate strong conflict management abilities within high-impact initiatives
 
 #### Job Grade
 
@@ -122,20 +146,35 @@ The Principal Security Engineer is a [grade 9](/handbook/total-rewards/compensat
 
 ### Distinguished Security Engineer
 
-The Distinguished Security Engineer role extends the [Principal Security Engineer](#principal-security-engineer) role.
+The Distinguished Security Engineer role is a progression of the [Principal Security Engineer](#principal-security-engineer) role and typically reports to Director/Senior Director/VP.
 
-- Considered the leading domain expert for the sub-department
-- Act as DRI and point of escalation for teams facing extremely complex technical challenges
-- Responsible for attaining a measurable impact of leading initiatives within sub-department
-- Identify challenges and technical interdependencies and suggest solutions to address them
-- Use quantitative analysis to impact key business decisions
-- Evangelize and drive department needs across organiational stakeholders to achieve success
-- Lead conversations to encourage collaboration across teams
-- Assist in the growth and development of team members within sub-department
-- Play central role in decision making for technical, business, and organizational issues
-- Build technology and organizational bridges to key organizational partners
-- Ownership of significant sub-department objectives, goals and OKR's
-- Contributor to sub-department roadmap and strategic direction
+
+#### Responsibilities
+
+- Collaborate as a trusted advisor to Security Senior Leadership, providing visionary technical leadership that shapes the organization's long-term security strategic direction
+- Collaborate across the Sub-department/teams, successfully influencing and leading the most challenging and impactful security initiatives in alignment with business goals
+- Evangelize and act as an ambassador for GitLab internally and externally through actively engaging with industry peers, customers, and/or regulatory bodies
+- Mentor and guide the most seasoned security professionals and sets examples for Principal and Staff Engineers, nurturing the next generation of security leaders
+- Define and lead the most critical and transformative security initiatives with far-reaching cross-organizational dependencies
+- Set new industry standards, drive innovation, and provide thought leadership both internally and externally, positioning the organization as a security leader
+- Identify and mitigate emerging threats before they impact the organization, designing and deploying advanced countermeasures
+- Shape the company's security strategy, influencing its direction and ensuring it remains at the forefront of industry best practices
+- Develop solutions addressing longer term strategic goals and objectives that have deep and broad impact both internally and externally
+
+
+#### Requirements
+
+- Demonstrated transformative impact on the organization's security strategy and posture
+- Exemplifies exceptional interpersonal and collaboration skills, consistently delivering successful cross-functional security initiatives
+- Excels at solving the most critical, intricate, and multifaceted security challenges
+- Recognized for their ability to solve problems that others find exceptionally challenging or complex
+- Division and industry leader, demonstrated ability as an influential and recognized subject matter expert
+- Possesses unparalleled knowledge across the entire enterprise technology stack
+- Highly visible technical leader, possessing an exceptional ability to communicate, influence, and lead at all organizational levels
+- Renowned for guiding, mentoring, and shaping not only domain experts but also the future generation of security leaders
+- Display exceptional adaptability when requirements, direction, or circumstances change
+- Exhibit exceptional conflict management skills to navigate and resolve complex and critical conflicts with far-reaching organizational impact
+
 
 #### Job Grade
 
@@ -387,6 +426,10 @@ All interviews are conducted using Zoom video conferencing software. Candidates 
 
 As always, the interviews and screening call will be conducted via a video call.
 See more details about our hiring process on the [hiring handbook](/handbook/hiring/).
+
+## Performance Indicators
+
+- [Security Department KPI's](https://internal.gitlab.com/handbook/company/performance-indicators/security/)
 
 ## Career Ladder
 

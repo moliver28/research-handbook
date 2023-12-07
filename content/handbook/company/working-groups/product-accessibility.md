@@ -35,18 +35,17 @@ This Working Group has the following goals:
 
 #### Exit Criteria Progress
 
-| Criteria                                                                                      | Start Date | Completed Date | Progress | DRI     |
-| --------------------------------------------------------------------------------------------- | ---------- | -------------- | -------- | ------- |
-| Add axe-core checks to feature specs                                                          |            |                | 0%       | `@you?` |
-| Add axe-core checks to components specs                                                       |            |                | 0%       | `@you?` |
-| Address accessibility violations                                                              |            |                | 0%       | `@you?` |
-| Validate existing accessibility issues                                                        |            |                | 0%       | `@you?` |
+| Criteria                                                                                      | Start Date | Completed Date | Progress | DRI             |
+| --------------------------------------------------------------------------------------------- | ---------- | -------------- | -------- | --------------- |
+| [Add axe-core checks to feature specs](https://gitlab.com/groups/gitlab-org/-/epics/11126)    | 15-08-2023 |                | 20%      | `@psjakubowska` |
+| [Add axe-core checks to components specs](https://gitlab.com/groups/gitlab-org/-/epics/11127) |            |                | 33%      | `@rchanila`     |
+| Address accessibility violations                                                              |            |                | 0%       | `@you?`         |
+| Validate existing accessibility issues                                                        |            |                | 0%       | `@you?`         |
 
 ### Roles and Responsibilities
 
 | Working Group Role | Person                     | Title                                        |
 | ------------------ | -------------------------- | ---------------------------------------------|
-| Executive Sponsor  | Christie Lenneville        | VP of User Experience                        |
 | Executive Sponsor  | Tim Zallmann               | Senior Director of Engineering, Dev          |
 | Facilitator        |                            |                                              |
 | Functional Lead    | Paulina Sędłak-Jakubowska  | Frontend Engineer, Monitor:Respond           |
@@ -56,4 +55,4 @@ This Working Group has the following goals:
 | Member             | Lisa Falcone               | Senior Paralegal, Legal & Corporate Affairs  |
 | Member             | Scott de Jonge             | Senior Frontend Engineer, Manage:Foundations |
 | Member             | Rajan Mistry               | Frontend Engineer, Plan:Product Planning     |
-| Member             | Deepika Guliani               | Frontend Engineer, Plan:Project Management     |
+| Member             | Deepika Guliani            | Frontend Engineer, Plan:Project Management   |

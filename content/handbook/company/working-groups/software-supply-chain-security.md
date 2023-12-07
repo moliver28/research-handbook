@@ -6,17 +6,17 @@ status: active
 
 ## Attributes
 
-| Property        | Value           |
-|-----------------|-----------------|
-| Date Created    | 2023-03-23      |
-| End Date        | TBD             |
-| Slack           | `#wg_software_supply_chain_security` (only accessible from within the company) |
-| Google Doc      | [Software Supply Chain Security Working Group Agenda](https://docs.google.com/document/d/1MEMPo1zxRrVr7yliOq1HMRJuaOZEgYvmFSIPBIXpu3A) (only accessible from within the company) |
-| Issue Label     | `WorkingGroup::SSCS` |
+| Property     | Value                                                                                                                                                                            |
+| ------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Date Created | 2023-03-23                                                                                                                                                                       |
+| End Date     | TBD                                                                                                                                                                              |
+| Slack        | `#wg_software_supply_chain_security` (only accessible from within the company)                                                                                                   |
+| Google Doc   | [Software Supply Chain Security Working Group Agenda](https://docs.google.com/document/d/1MEMPo1zxRrVr7yliOq1HMRJuaOZEgYvmFSIPBIXpu3A) (only accessible from within the company) |
+| Issue Label  | `WorkingGroup::SSCS`                                                                                                                                                             |
 
 ## Overview and goals
 
-Software Supply Chain Security (SSCS) is a key area where GitLab needs to excel, not only for the benefit of the company but for the benefit and security of our users.  SSCS features and capabilities span across nearly all of the stages and groups in GitLab.  The primary focus of this working group will be to work on building signing and verification into GitLab and will involve contributions in areas the following groups maintain: `Create::Source Code`, `Verify::Pipeline Execution`, `Verify::Runner`, `Package::Package Registry`, and `Package::Container Registry`.  There may be some minor code contributions into other team areas as well.  The other SSCS feature work at GitLab that is unrelated to signing and verification is outside the scope of this Working Group (but is still being considered or worked on in other areas in GitLab).  This [direction page](https://about.gitlab.com/direction/supply-chain) describes the broad, long-term future vision for SSCS across the entire SDLC.
+Software Supply Chain Security (SSCS) is a key area where GitLab needs to excel, not only for the benefit of the company but for the benefit and security of our users. SSCS features and capabilities span across nearly all of the stages and groups in GitLab. The primary focus of this working group will be to work on building signing and verification into GitLab and will involve contributions in areas the following groups maintain: `Create::Source Code`, `Verify::Pipeline Execution`, `Verify::Runner`, `Package::Package Registry`, and `Package::Container Registry`. There may be some minor code contributions into other team areas as well. The other SSCS feature work at GitLab that is unrelated to signing and verification is outside the scope of this Working Group (but is still being considered or worked on in other areas in GitLab). This [direction page](https://about.gitlab.com/direction/supply-chain) describes the broad, long-term future vision for SSCS across the entire SDLC.
 
 Signing and verification are traditionally difficult tasks. To securely sign a build artifact, container image, or package, users need to first securely store a private signing key. This key needs to be regularly rotated, and the signing tool needs a way to securely access the signing key. The combination of all of these requirements result in a high barrier to entry for users to sign their builds. As a result, many private projects and small open source projects do not publish signed build artifacts.
 
@@ -25,6 +25,7 @@ At a high level, this working group plans on making it possible for signing to h
 ## Useful references and links
 
 Some of these links may provide useful background for the working group:
+
 - [SLSA framework requirements](https://slsa.dev/spec/v0.1/requirements)
 - [OpenSSF's SLSA verifier](https://github.com/slsa-framework/slsa-verifier)
 - [Sigstore Cosign project](https://github.com/sigstore/cosign)
@@ -60,29 +61,21 @@ Because software supply chain security impacts areas across GitLab, this working
 ## Exit criteria
 
 The exit criteria for this working group is the completion of the following four criteria:
- 1. Builds are [signed by default](https://gitlab.com/groups/gitlab-org/-/epics/9212), including build artifacts, attestation files, container images, and packages.
- 1. Commits are [signed by default](https://gitlab.com/gitlab-org/gitlab/-/issues/364428), including commits made through the Web UI. Our approach for doing this commit signing is still being determined.
- 1. SLSA level 3 attestations are generated by default (currently we generate [SLSA level 1 attestations](https://docs.gitlab.com/ee/ci/runners/configure_runners.html#artifact-attestation) by default)
- 1. Build signatures and validation status is visible in the UI for [build artifacts](https://gitlab.com/groups/gitlab-org/-/epics/8839), [container images](https://gitlab.com/groups/gitlab-org/-/epics/7856), and packages.  Verification status should be visible by default without requiring users to run custom tooling outside of just viewing the item in GitLab.
 
-Epics to track the above work are still being created, along with the necessary requirements and designs.  Please consider the items that do have links as a work-in-progress.  Epics to track items that do not have links will be created and added in the future.
+1. Builds are [signed by default](https://gitlab.com/groups/gitlab-org/-/epics/9212), including build artifacts, attestation files, container images, and packages.
+1. Commits are [signed by default](https://gitlab.com/gitlab-org/gitlab/-/issues/364428), including commits made through the Web UI. Our approach for doing this commit signing is still being determined.
+1. SLSA level 3 attestations are generated by default (currently we generate [SLSA level 1 attestations](https://docs.gitlab.com/ee/ci/runners/configure_runners.html#artifact-attestation) by default)
+1. Build signatures and validation status is visible in the UI for [build artifacts](https://gitlab.com/groups/gitlab-org/-/epics/8839), [container images](https://gitlab.com/groups/gitlab-org/-/epics/7856), and packages. Verification status should be visible by default without requiring users to run custom tooling outside of just viewing the item in GitLab.
+
+Epics to track the above work are still being created, along with the necessary requirements and designs. Please consider the items that do have links as a work-in-progress. Epics to track items that do not have links will be created and added in the future.
 
 ## Priorities and progress
 
 A prioritized list of work will be tracked here after an engineering DRI has been identified.
 
-| Priority | Epic  | Status |
-| -------- | ----- | ------ |
-| 1        | [Research spike](https://gitlab.com/gitlab-org/gitlab/-/issues/396632) into the next steps to support [Native Signing of Build Artifacts](https://gitlab.com/groups/gitlab-org/-/epics/9212) | Joint research scheduled for 16.6 |
-| 2        | [User Experience for Signed Container Registry Images](https://gitlab.com/groups/gitlab-org/-/epics/7856)   | In development; target release 16.6. |
-| 3        | [Support keyless signing when CI config is located outside of the project](https://gitlab.com/gitlab-org/gitlab/-/issues/411317) | In development |
-| 4        | [Generate attestation metadata using SLSA v1.0](https://gitlab.com/gitlab-org/gitlab-runner/-/issues/36869) | Waiting for development |
-| 5        | [Store a `source` value for Jobs](https://gitlab.com/groups/gitlab-org/-/epics/11796) | Ready for development |
-| 6        | [Optional control of all scan execution policy CI variables](https://gitlab.com/groups/gitlab-org/-/epics/11797) | Waiting for designs |
-| 7        | [Verify Signed Container Registry Images](https://gitlab.com/groups/gitlab-org/-/epics/11798)   | Blocked due to lack of ruby-sigstore library |
-| 8        | [User Experience for Signed Build Artifacts](https://gitlab.com/groups/gitlab-org/-/epics/8839)   | Blocked due to lack of ruby-sigstore library |
-| 9        | [Support for GitSign](https://gitlab.com/gitlab-org/gitlab/-/issues/364428) | Ready for refinement |
-| 10+      | This is a WIP and we are still working to add a list of prioritized Epics to deliver on the rest of the exit criteria for the group. | In progress |
+{{< product-priorities/software-supply-chain-security-wg >}}
+
+This list is a WIP and we are still working to add a list of prioritized Epics to deliver on the rest of the exit criteria for the group.
 
 ## Outcome
 

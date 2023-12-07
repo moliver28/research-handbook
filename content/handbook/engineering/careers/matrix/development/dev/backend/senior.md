@@ -1,0 +1,39 @@
+---
+title: "Dev Career Framework: Senior Backend Engineer"
+---
+
+## Dev Senior Backend Engineer (BE)
+ 
+{{% include "includes/engineering/dev-be-career-matrix-nav.md" %}}
+
+**Dev Senior Backend Engineers at GitLab are expected to exhibit the following competencies:**
+
+- [Leadership Competencies](#leadership-competencies)
+- [Technical Competencies](#technical-competencies)
+- [Values Alignment](#values-alignment)
+
+---
+
+### Senior Leadership Competencies
+
+{{% include "includes/engineering/senior-leadership-competency.md" %}}
+{{% include "includes/engineering/development-senior-leadership-competency.md" %}}
+- Leads technical architecture discussions and help drive technical decisions
+- Performs Code Reviews across multiple stages on a regular cadence
+- Participates on Working Groups as the need arises
+
+### Senior Technical Competencies
+
+{{% include "includes/engineering/senior-technical-competency.md" %}}
+{{% include "includes/engineering/development-senior-technical-competency.md" %}}
+- Able to work with 3rd party services regardless of the quality of the documentation
+- Identifies slow and inefficient code produced by team members
+- Provides high level of expertise in server side programming languages and their frameworks
+- Understands the DB constraints, relational vs non-relational, and potential limitations
+- Able to debug production issues across services and multiple levels of the technical stack
+- Develops the architecture by extending existing features
+
+### Senior Values Alignment
+
+{{% include "includes/engineering/values-competency.md" %}}
+{{% include "includes/engineering/development-senior-values-competency.md" %}}

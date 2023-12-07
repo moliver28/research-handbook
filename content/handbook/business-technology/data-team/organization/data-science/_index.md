@@ -257,8 +257,8 @@ We are in the process of fully moving over the training and scoring of our machi
 ```mermaid
 graph 
     A[Enterprise Data Warehouse: Raw and Normalized Data Sources]
-    B[JupyterLab & CI/CD: Model Training, Tuning, and Selection]
-    C(Airflow: Batch scoring with Papermill)
+    B[JupyterLab & Gitlab CI/CD: Model Training, Tuning, and Selection]
+    C(Gitlab CI/CD & Pipeline Schedules: Batch scoring with Papermill)
     F[Enterprise Data Warehouse: Model Output for Consumption]
     D[Salesforce/Marketo: CRM Use Cases]
     E[Sisense/Monte Carlo: Model Monitoring and Reporting]

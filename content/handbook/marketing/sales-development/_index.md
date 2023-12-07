@@ -327,7 +327,7 @@ While the below measurements do not impact your quota attainment, they are monit
 
 
 * **Sales Development Representative (SDR) to Sales Development Representative Team Lead (SDR TL) Criteria**
-    * Minimum 9 months in the SDR Role
+    * Minimum 9 months in the SDR Role (incl. ramp)
     * Hitting quota cumulatively over the last **fully-ramped** 5 months
     * Willingness to coach and up-level their peers
     * Endorsement from SDR management
@@ -336,7 +336,7 @@ While the below measurements do not impact your quota attainment, they are monit
         * NOTE: Not every SDR will have the opportunity to become a team lead. Interviews will take place when a spot is available. A successful applicant must make a 3 month minimum commitment to the Team Lead Role before they can pursue a promotion into another role.
 
  * **Sales Development Representative (SDR) to Business Development Representative (BDR)**
-    * Minimum 12 months in the SDR Role
+    * Minimum 12 months in the SDR Role (incl. ramp)
     * Hitting quota cumulatively over the last 2 **fully-ramped** quarters (neither quarter can be below 80% attainment)
     * Endorsement from current SDR manager
     * Demonstration of GitLab's Values
@@ -344,14 +344,14 @@ While the below measurements do not impact your quota attainment, they are monit
         * NOTE: All promotions require a formal application + interview. Performance and adherence to our values will guarantee an interview but the SDR will have to demonstrate that they are the best candidate during the interview process. Factors such as interview performance, headcount, and language requirements can influence promotion timelines.
 
 * **Business Development Representative (BDR) to Senior Business Development Representative (Senior BDR)**
-    * Minimum 6 months in the BDR Role
+    * Minimum 6 months in the BDR Role (incl. ramp)
     * Hitting quota cumulatively over the last 6 months (**fully-ramped** months must hit 100% cumulatively)
     * Endorsement from BDR management
     * Demonstration of GitLab's Values
     * Completion of BDR Q1-Q2 Tanuki Techs
 
 * **Business Development Representative (BDR) to Business Development Representative Team Lead (BDR Team Lead)**
-    * Minimum 9 months in the BDR Role
+    * Minimum 9 months in the BDR Role (incl. ramp)
     * Hitting quota cumulatively over the last **fully-ramped** 5 months
     * Willingness to coach and up-level their peers
     * Endorsement from BDR management
@@ -360,7 +360,7 @@ While the below measurements do not impact your quota attainment, they are monit
         * NOTE: Not every BDR will have the opportunity to become a team lead. Interviews will take place when a spot is available. A successful applicant must make a 3 month minimum  commitment to the Team Lead Role before they can pursue a promotion into another role.
 
 * **Business Development Representative (BDR) and Business Development Representative Team Lead (BDR Team Lead) to Next Step**
-    * Minimum 12 months in the BDR Role
+    * Minimum 12 months in the BDR Role (incl. ramp)
     * Hitting quota cumulatively over the last 2 **fully-ramped** quarters (neither quarter can be below 80% attainment)
     * Endorsement from BDR management
     * Demonstration of GitLab Values
@@ -371,8 +371,7 @@ While the below measurements do not impact your quota attainment, they are monit
 
 #### Visualization of Sales Development Career Path
 
-
-![Career Path Visual](/images/handbook/marketing/sales-development/SalesDevCareer24.png)
+![Career-Path-Chart](/handbook/marketing/sales-development/FY24CareerPath.png)
 
 ## After Promotion Transition
 After being promoted from SDR to BDR or BDR to an external department, your existing pipeline will not move with you but rather will be reassigned to the team you are leaving. This includes:
@@ -617,6 +616,7 @@ When a territory moves from one BDR to another but the previous BDR remains with
 3. Check **“Matched Account”** and **ZoomInfo** sections:
     *   For Commercial leads (SMB and MM), if the existing SFDC account type equals "Customer", press 'Convert to Account' and convert the lead to a contact for that account. Once converted, please also chatter the Account Owner and inform them of the details of the lead for them to potentially action. **An exception exists if they've only bought CI/CD or storage; these leads can still be worked by the SDR. Leads should only be converted if the Customer account purchased Premium or Ultimate.**
     *   Also for Commercial leads, if the existing SFDC account is not a customer but contains an open opportunity, update the Lead Status field to **Recycle** and the Recycle Reasons field to **Evaluating**. Once the status has been updated, please also chatter the opportunity owner and inform them of the details of the lead for them to potentially action.
+    *   For Universities/Education leads (non-US Pub Sec), if the SFDC lead/contact is a technical contact (not student) then work this as a regular lead as these will not qualify for educational pricing.
     *   If an existing SFDC Large/Enterprise Customer account already exists, verify that the SFDC lead/prospect is not part of the existing GitLab subscription before working the lead by sending a short snippet like, "Hi XYZ, Thanks for reaching out. ABC company current has a GitLab subscription, are you currently using a GitLab license and if so, what version?". If they are, please follow the "Convert to Account" instructions above.
     *   Read the ZoomInfo description to check for **USA** PubSec indicators which will include words like the following in the description: County, City Of, State, University, College, Defense, Intelligence, Agency, Mission, Mission Critical, Mission Support, Speed to Mission, System Integrator, Contract Vehicle, Government Bid, Government Contract, Civilian, or Task Order.  **Canadian government leads get routed to the AMER commercial team.**
 4. Press **Find Duplicates**
@@ -797,7 +797,7 @@ Your manager will review the information and decide whether SAO credit is warran
 
 ### Opportunity Creation Workflow
 
-![Opportunity Creation Workflow](/images/handbook/marketing/sales-development/Opportunitycreationworkflow.png)
+![Opp-Creation-Workflow](/handbook/marketing/sales-development/FY24OpportunityCreationWorkflow.png)
 
 #### SDR/BDR to AE SAO Handoff Process 
 
@@ -1236,7 +1236,7 @@ BDRs should not support joint partner related events where there the routing pla
 
 #### Routing Workflow Chart
 
-![Routing Workflow Chart](/images/handbook/marketing/sales-development/routing-chart.png)
+![Routing-Chart](/handbook/marketing/sales-development/RoutingChart.png)
 
 
 ### Current asks into the Sales Development Org

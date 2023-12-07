@@ -48,8 +48,7 @@ All GitLab Team Members should submit a referral by submitting them directly thr
 
 ##### Submitting a Referral in Greenhouse
 
-1. Login to [Greenhouse](https://gitlab.greenhouse.io) and click the `+` icon in the top right corner, then `Add a Referral`.
-    - There's also an `Add a Referral` section on your dashboard and that'll take you to the same page.
+1. Login to [Greenhouse](https://gitlab.greenhouse.io) and click the `Add a Referral` button in the top menu bar.
 1. Fill-in all the required fields (designated by a red asterisk) and as many of the non-required fields as possible.
     - Of note:
         - We recommend you upload an up-to-date version of the candidate's resume to ensure the relevant recruiting team(s) have all information available to evaluate the candidate. If no resume is available please include a link to their LinkedIn profile.

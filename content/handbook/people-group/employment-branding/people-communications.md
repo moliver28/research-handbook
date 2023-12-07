@@ -168,6 +168,35 @@ For example, if we were announcing a **big, exciting new program** we might casc
 
 It's important to note that information cascading could be seen as lacking transparency. That's not the case, rather it allows for managers and leaders to keep people more informed as they will have a chance to understand key changes with enough time to then answer questions to their teams.
 
+## Runbook for contentious internal announcements
+
+We have a runbook for internal announcements that could lead to heated conversation or disagreement among team members. It includes these steps:
+
+1. A DRI will inform @devinrogo that there is a need for a company-wide communication. The DRI will be resonsbile for drafting the communications using this [internal communications announcement template](https://docs.google.com/document/d/15QN0c6THE2wo_MGkyDi84Dhu3WyiY5p3MJFWfbWUlFQ/edit#heading=h.6s2x6x4j5l3). This will include, at a minimum:
+   1. Who is responsible for posting
+   1. Where the message will be shared
+   1. When the message will be optimally be shared
+   1. Main messages to be communicated and message content
+   1. An activity and communications timeline that includes key participants and their responsibilities. It will specify any planned follow up in the minutes, hours, and weeks after the initial communications. This should include:
+      1. Who will be on call to respond in Slack or other channels immediately after an announcement, including coordinated leadership participation. Key leaders, including members of E-Group and often members of [VP-Directs Group](/content/handbook/company/structure.md#vp-directs), should be aware of when an announcement will happen and the response expectations for them. For example, if there is a contentious Slack announcement, a designated group of people should be monitoring the thread and responding immediately after the announcement.
+      1. Any AMAs or other designated plans for discussion or follow up communications
+   1. Who is required to sign-off on the message and plan
+   1. The desired timeline for sign-off
+1. The DRI will share the draft communication with the Executive Sponsor and any other key senior stakeholders. If there are any questions around what can [SAFEly](https://handbook.gitlab.com/handbook/legal/safe-framework/) be shared, the CLO or another legal representative should be included in the review.
+1. Both legal and corporate comms should review planned communications of this nature as well with the appropriate stakeholders from each team identified in the comms plan.
+1. Once the Executive Sponsors and Key Stakeholders are in agreement on the comms and plan, it should be shared with all of E-Group in #e-group-confidential or in the E-Group Weekly as a discussion item. Plan feedback should be incorporated.
+1. If applicable, once the plan has gone through E-Group review, it should be shared with the [B.V. Netherlands Works Council](https://internal.gitlab.com/handbook/legal-and-corporate-affairs/legal-and-compliance/netherlands/#works-council-rights) and any other councils that have review rights. When possible, this should be done at least two weeks before a planned announcement to allow adequate time for review and feedback.
+1. When possible, share with managers in advance (1-2 days before a broader announcement) and ask for their support in following up with their teams. We should be clear on how we expect them to support (answer questions, cascade info, [manager mention](/communication/#scaling-merge-requests-through-manager-mention-mrs-formerly-consolidated-mrs), etc.)
+1. If the post includes a merge request (MR), we should ensure that we are following MR best practice before we post.
+    1. If discussion is happening in an issue, we can ask for [manager mentions](/communication/#scaling-merge-requests-through-manager-mention-mrs-formerly-consolidated-mrs).
+    1. MRs should not already be merged. Team members should be invited to share feedback on a change and be clear on the intended merge timeline.
+    1. We shouldn’t use separate MRs for removing and adding content. This makes it harder for team members to track changes.
+1. After a communication is shared, there should be a placeholder for the Executive Sponsor and designated team to connect synchronously to review feedback and (if agreed upon) respond. A calendar hold should be placed on the calendar for 25 to 50 minutes after the communication.
+1. A similar Executive Sponsor and designated team check in should be scheduled for the following day. This meeting can be canceled if it is agreed that it is not needed.
+1. If there will be an AMA or other synchronous touchpoint with team members, the Executive Sponsor or designated team member can choose to schedule a meeting shortly before the session (optimally 1-2 hours before), so participants can align on their roles and their plan for communication.
+
+This runbook outlines key steps to be followed. Additional steps may be added based on the communication and level of coordination required.
+
 ## Resources and helpful links
 
 - [Request for Internal Communications Support Template](https://docs.google.com/document/d/1whzG0NxWfUyKDWdIwwojiDy_2xy5W-JIjV34BJm7nek/edit#heading=h.x4nz4qi9s12r)

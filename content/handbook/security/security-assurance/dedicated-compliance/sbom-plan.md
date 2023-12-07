@@ -22,11 +22,11 @@ The ability to generate and consume complete and accurate SBOMs is **essential**
     - Although there are few binding requirements today, SBOMs have been referenced as a requirement for U.S. Federal Agencies to do business with software providers in and Executive Order, the National Cybersecurity Strategy, NIST SSDF standard, CISA, and is already appearing in draft legislation and Requests for Information (RFI). Non-U.S. public sector and commercial regulatory frameworks are following suit, and the regulatory landscape is expected to very dynamic over the coming years. See the Resources section at the bottom of this page for more information.
 
 
-## Current State (as of %16.3)
+## Current State (as of %16.4)
 
 Refer to GitLab's Software Supply Chain Security [direction page](https://about.gitlab.com/direction/supply-chain/) for the latest information on current and planned features related to SBOMs.
 
-GitLab the Product currently has the following SBOM features: ability to generate CycloneDX-formatted SBOMs after GitLab [Dependency](https://docs.gitlab.com/ee/user/application_security/dependency_scanning/index.html#cyclonedx-software-bill-of-materials) and [Container](https://docs.gitlab.com/ee/user/application_security/container_scanning/index.html#cyclonedx-software-bill-of-materials) scans, and the ability to view a [Dependency List](https://docs.gitlab.com/ee/user/application_security/dependency_list/) with vulnerability and license data pulled in from existing GitLab databases.
+GitLab the Product currently has the following SBOM features: ability to generate CycloneDX-formatted SBOMs after GitLab [Dependency](https://docs.gitlab.com/ee/user/application_security/dependency_scanning/index.html#cyclonedx-software-bill-of-materials) and [Container](https://docs.gitlab.com/ee/user/application_security/container_scanning/index.html#cyclonedx-software-bill-of-materials) scans, and the ability to view a [Dependency List](https://docs.gitlab.com/ee/user/application_security/dependency_list/) with vulnerability and license data pulled in from existing GitLab databases. As of 16.4, GitLab the product added an API for [Pipeline-specific CycloneDX SBOM exports](https://docs.gitlab.com/ee/api/dependency_list_export.html) and the ability to create [group-level dependency lists](https://docs.gitlab.com/ee/user/application_security/dependency_list/).
 
 GitLab the Company uses the Dependency List for viewing vulnerability information for key projects, however generally uses the [Vulnerability Report](https://docs.gitlab.com/ee/user/application_security/vulnerability_report/) instead after running dependency and/or container scans in CI pipelines. Although CycloneDX SBOMs are generated for most of our projects, we do not yet consume these, combine them with one another, generate VEX BOMs, nor make them readily available to customers.
 
@@ -37,7 +37,7 @@ GitLab the Company uses the Dependency List for viewing vulnerability informatio
 #### GitLab the Product
 
 - Ability to automatically generate complete and accurate SBOMs in an accepted format such as CycloneDX for GitLab repositories, which includes all of NTIA's recommended minimum data elements: Supplier Name, Component Name, Version of the Component, Other Unique Identifiers, Dependency Relationship, Author of SBOM Data, and Timestamp.
-  - This appears to be available today (sampled SBOM from a dependency scan job for `gitlab-org/gitlab`)
+  - Many of these fields are available today (sampled SBOM from a dependency scan job for `gitlab-org/gitlab`), however, Dependency Relationship and Author must be enabled. [Feature request for missing fields](https://gitlab.com/gitlab-org/gitlab/-/issues/428073).
 - Feature for "Source SBOM" created directly from the development environment, source files, and included dependencies used to build a product artifact. Typically generated from software composition analysis (SCA) tooling, with manual clarifications.
   - This is already a feature, see [Dependency List](https://docs.gitlab.com/ee/user/application_security/dependency_list/) docs. It cannot yet be exported into CycloneDX format.
 - Feature for "Analyzed SBOM" generated through analysis of artifacts (e.g., executables, packages, containers, and virtual machine images) after its build. Such analysis generally requires a variety of heuristics. In some contexts, this may also be referred to as a “3rd party” SBOM. Typically generated through analysis of artifacts by 3rd party tooling.
@@ -53,7 +53,7 @@ GitLab the Company uses the Dependency List for viewing vulnerability informatio
   - This can be done manually, for example using CycloneDX CLI, but there is no native GitLab support for this.
 - Create a company-wide SBOM Standard which includes the practices and process that must be followed such as the tools and format, how frequently we will generate SBOMs and for which software/projects, what level of depth it needs to be, how it will be used/consumed, how we will track inaccuracies or incompleteness, and how they will be distributed/shared with customers.
 - Digitally sign all SBOMs and/or assemblies within BOMs to provide integrity verification and non-repudiation.
-- Maintain readily accessible and digitally signed SBOM repositories, and have a documented mechanism to share SBOMs with customers. Inform Product, Field Security, and Sales of how customers can request/access GitLab SBOMs.
+- Maintain readily accessible and digitally signed SBOM repositories, and have a documented mechanism to share SBOMs with customers. The mechanism may be within the [Security CAP](https://about.gitlab.com/security/cap/) or through a similar, publicly available page. Inform Product, Field Security, and Sales of how customers can request/access GitLab SBOMs.
 
 ### Intermediate Capabilities
 
@@ -68,6 +68,7 @@ GitLab the Company uses the Dependency List for viewing vulnerability informatio
 - GitLab has a feature to import 3rd party SBOMs (ideally within GitLab using UI and API) and enrich this with vulnerability data (e.g. from GitLab Security Advisory database).
 - Include [security advisories as external references](https://cyclonedx.org/use-cases/#security-advisories) within SBOMs / VEX BOMs.
 - Develop a feature to combine SBOMs within GitLab to get a full picture of a particular component/assembly or product. For example this could be achieved by manually selecting various SBOM job artifacts and/or dependency lists from within a top-level group.
+- Native support for other SBOM formats such as SPDX. Customers can already convert CycloneDX outputs into SPDX via a custom CI job or via publicly available OSS tools.
 
 #### GitLab the Company
 
@@ -76,6 +77,8 @@ GitLab the Company uses the Dependency List for viewing vulnerability informatio
 - GitLab has a process to consume and analyze SBOMs (ideally within GitLab using UI and API) from 3rd party commercial vendors and non-GitLab open source software to understand if there are vulnerability or licensing risks.
 - GitLab maintains up-to-date vulnerability metadata for its SBOMs via annotating and updating linked VEX BOMs (or embedded VEX metadata). The intent is to relay VEX info to customers.
 - Automatically consume and report on vulnerabilities gleaned from GitLab-generated SBOMs and linked VEX BOMs at a point in time. The intent is to drive internal security awareness and remediation prioritization.
+- Produce and maintain a SaaS SBOM for GitLab.com and GitLab Dedicated.
+- Produce and maintain a SBOM for GitLab Omnibus and CNG.
 
 ### Advanced Capabilities
 
@@ -87,6 +90,7 @@ GitLab the Company uses the Dependency List for viewing vulnerability informatio
 - Provide support for [other properties](https://cyclonedx.org/use-cases/#properties--name-value-store) in GitLab-generated SBOMs that allow for automating the triage and remediation process (e.g. using built-in name-value store to identify product groups or departments, internal severity information, remediation SLAs/due dates, etc.).
 - Provide support for [composition completeness](https://cyclonedx.org/use-cases/#composition-completeness) information within the SBOM.
 - ML Transparency metadata (once supported by industry-accepted specifications such as CycloneDX).
+- Support [Vulnerability Disclosure Report (VDR)](https://cyclonedx.org/capabilities/vdr/) as a feature in SBOM reports. Issue: [Support Vulnerability Disclosure Report (VDR) in SBOM reports](https://gitlab.com/gitlab-org/omnibus-gitlab/-/issues/8298).
 - Feature for "Deployed SBOM" provides an inventory of software that is present on a system. This may be an assembly of other SBOMs that combines analysis of configuration options, and examination of execution behavior in a (potentially simulated) deployment environment. Typically generated by recording the SBOMs and configuration information of artifacts that have been installed on systems.
 - Feature for "Runtime SBOM" generated through instrumenting the system running the software, to capture only components present in the system, as well as external call-outs or dynamically loaded components. In some contexts, this may also be referred to as an “Instrumented” or “Dynamic” SBOM. Typically generated from tooling interacting with a system to record the artifacts present in a running environment and/or that have been executed.
 
@@ -95,8 +99,7 @@ GitLab the Company uses the Dependency List for viewing vulnerability informatio
 - Develop risk management and measurement capabilities to dynamically monitor the impact of SBOMs’ vulnerability disclosures on the acquiring organization.
 - Perform binary decomposition of software installation packages to generate SBOMs when no vendor-supplied SBOM is available (e.g., legacy software), when technically and legally feasible.
 - Ensure all available SBOM spec properties are completed for GitLab's SBOMs including vulnerability metadata/VEX, composition completeness information, assembly data, and other properties as needed.
-- Produce and maintain a SaaSBOM for GitLab.com and GitLab Dedicated.
-- Produce and maintain an OBOM for GitLab Omnibus and CNG.
+- Add [Vulnerability Disclosure Report (VDR)](https://cyclonedx.org/capabilities/vdr/) data to CycloneDX SBOMs.
 
 ## Proposed SBOM Implementation Plan / Roadmap (not yet agreed to)
 
@@ -109,4 +112,3 @@ Target implementation of all Foundational capabilities and select Intermediate c
 Target implementation of all Intermediate capabilities and select Advanced capabilities for both GitLab the Product and GitLab the Company, as warranted by customer value-add, product differentiation, or security/compliance requirements.
 
 ## Resources
-

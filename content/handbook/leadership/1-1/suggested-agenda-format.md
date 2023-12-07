@@ -1,12 +1,15 @@
 ---
-title: "1-1 Suggested Agenda Format"
+title: "Suggested 1:1 Agenda and Daily Standup Format"
 ---
 
 This page describes how [Sid]({{< ref "/handbook/ceo" >}}) formats his 1-1 agendas.
-If you are new to 1-1s or not sure how to make your previous experience with 1-1s work in
+If you are new to [1-1s](/handbook/leadership/1-1/) or not sure how to make your previous experience with 1-1s work in
 GitLab's culture, this can be a great starting place for you to learn.
-However, remember that 1-1s are private meetings between a manager and their report, so consistency is secondary to effectiveness -
+
+Remember that 1-1s are private meetings between a manager and their report, so consistency is secondary to effectiveness -
 please make sure to find a format that works for you and your team.
+
+The "hallway" section of the 1:1 agenda is the recommended agenda format for daily standups. At GitLab, daily standups exist to quickly align and accelerate an initiative. They are scheduled for a limited duration. We use the "1:1" agenda, because it helps to keep track of progress on key open items. These is less risk of important information being lost from week to week, as a net new agenda is not created.
 
 ## Agenda headers
 

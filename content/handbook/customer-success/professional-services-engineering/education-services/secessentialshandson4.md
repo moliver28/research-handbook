@@ -1,91 +1,113 @@
 ---
-title: "GitLab Security Essentials<br/>Hands-On Guide: Lab 4"
+title: "GitLab Security Essentials - Hands-On Lab"
 description: "This Hands-On Guide walks you through the lab exercises used in the GitLab Security Essentials course."
 ---
 
-## LAB 4: Enable, configure, and run License Compliance
+# Lab 4: Enable and Configure License Compliance
 
-### A. Setup
+> Estimated time to complete: 15 minutes
 
-1. Return to the **Security Labs** project you used in previous labs.
-1. **OPTIONAL:** Follow the instructions at the start of [Lab 2](secessentialshandson2.html) for speeding up your pipeline by disabling scanners that you enabled in previous labs.
-1. **OPTIONAL:** Disable the **build-and-push-docker-image** job you added in the previous lab, since it takes some time to run.
+> **You are viewing the latest Version 16.x instructions.** You are using v16 if your group URL is `https://gitlab.com/gitlab-learn-labs/...`. If your group URL starts with `https://ilt.gitlabtraining.cloud` or `https://spt.gitlabtraining.cloud`, please use the [Version 15.x instructions](https://gitlab.com/gitlab-com/content-sites/handbook/-/blob/d14ee71aeac2054c72ce96e8b35ba2511f86a7ca/content/handbook/customer-success/professional-services-engineering/education-services/secessentialshandson4.md).
 
+## Objectives
 
-### B. Unblock License Compliance for your project
+When you add new dependencies to a project, you need to carefully consider how the licenses of the dependencies impact the project. To ensure that license requirements are met, you can add a policy to require approval for newly detected licenses.
 
-**Important**: if you are taking a self-paced class, skip this section and continue with the **View your dependencies** section below. This section is only for students taking an instructor-led class.
+In addition to scanning dependencies for vulnerabilities, the dependency scanner will also record the license that each dependency uses.
 
-The training environment for instructor-led classes blocks License Compliance for all projects by default. You need to unblock it for your project before you can enable it in `.gitlab-ci.yml`. Outside the training environment, you'll probably never need to do this step.
+The License Compliance report will generate a list of all of the licenses detected in the project that are out of compliance with the project policies.
 
-1. In the left navigation pane, select **Settings > CI/CD**. In the **Variables** section, select **Expand**.
-1. Select **Add variable**.
-1. In the **Key** field, enter `LICENSE_MANAGEMENT_DISABLED`
-1. In the **Value** field, enter a single space.
-1. Uncheck **Protect variable**.
-1. Select **Add variable**.
+## Prerequisites
 
+1. Open your browser to to the **Security Labs** project that you created in Lab 1.
 
-### C. View your dependencies
+    > If you closed the tab or lost the link, open a browser tab and start typing `https://gitlab.com/gitlab-learn-labs` in your URL and the group should appear in your history.
 
-1. As you saw in the Dependency Scanning lab, this Python project has 1 dependency: version **2.0.0** of the open-source **Keras** library. Confirm this by looking in the `requirements.txt` file in your project's repository.
+1. Before beginning this lab and all later labs, you should disable any jobs and scanners that you enabled in previous labs to speed up pipeline runtime. You should have already completed this at the end of Lab 3.
 
+## Task A. License Compliance Scans
 
-### D. Enable and run License Compliance
+1. Navigate to **Secure > License compliance**.
 
-1. Add the `Security/License-Scanning.gitlab-ci.yml` template to the `include:` section of `.gitlab-ci.yml`. If necessary, use any already-included templates as a model for syntax and indentation.
-1. Commit the edited `.gitlab-ci.yml` with an appropriate message.
-1. Visit the details page for pipeline that your commit triggered. Watch the progress of the `license_scanning` job. This might take a few minutes because the scanner has to download all of your project's dependencies, those dependencies' dependencies, and so on.
+1. Click any of the licenses to view more details about the license and the compliance requirements.
 
+## Task B. Approve and Deny Licenses
 
-### E. View the License Compliance report with uncategorized licenses
+> Let's assume that your team has approved the MIT license. If any license aside from the MIT license exists in a dependency, it must be approved before the merge request can be complete.
 
-1. Return to the details page for your pipeline and select the new **Licenses** tab. Keras is a big library with many dependencies of its own, so you'll see several licenses. Since you haven't added any rules for approving or denying licenses yet, GitLab will list all of these licenses as "uncategorized."
+1. Navigate to **Secure > Policies**.
 
+1. Click the **New policy** button.
 
-### F. Approve and deny licenses
+1. Click **Scan result policy > Select policy**.
 
-Normally you would approve or deny each of the licenses for your project's dependencies, but in this lab you'll manage just 3 of them.
+1. Input any name (ex. `ScanApprovedPolicy`) and description for the policy.
 
-1. Select **Manage licenses**.
-1. Select **Add license policy**.
-1. In the **License name** dropdown, select `MIT License`. There are several licenses with similar names, so be sure to pick the right one.
-1. Select the **Allow** radio button.
-1. Select **Submit**.
-1. Select **Add license policy**.
-1. In the **License name** dropdown, select `Apache License 2.0`. Make sure not to accidentally select a different license with a similar name.
-1. Select the **Deny** radio button.
-1. Select **Submit**.
-1. Use the same process to **deny** the `ISC License` (*not* the license just called `ISC`).
+1. Set the **Policy status** to **Enabled**.
 
+1. In **Rules**, set the **Select scan type** dropdown menu to **License Scan**. Ensure that `all protected branches` with `No exceptions` is selected for the merge request target.
 
-### G. View the License Compliance report with categorized licenses
+1. Set the **Status is** dropdown menu to **Newly Detected**.
 
-1. Return to the details page of the most recent pipeline and select the **Licenses** tab.
-1. Notice that GitLab now describes the **Apache License 2.0** as out of compliance, and lists the dependencies that you should remove from your project to restore compliance.
-1. See that GitLab describes the **MIT License** as acceptable to use in this project.
+1. Set the first dropdown in the **License is** section to **Except**.
 
+    > To exit the multi-select dropdown, click anywhere outside of it.
 
-### H. Add approval rules
+1. In the **Select license types** dropdown, click `MIT License`. There are several licenses with similar names, so be sure to pick the right one.
 
-The security team decides that your project *generally* shouldn't use dependencies with the MIT License, but is willing to consider some exceptions. MRs that introduce dependencies with denied licenses are normally blocked from being merged, but you can make an approval rule that allows any member of the security team to override blocked MRs. GitLab calls this special approval ruleset **License-Check**.
+1. In the **Actions** section, require 1 approval from an Individual user. Click your username as the approval user.
 
-1. Select **Manage licenses**.
-1. Select the **Update Approvals** button (not the link with the same name). This shows the special **License-Check** approval ruleset, which is currently empty.
-1. Leave **Approvals required** set to `1` so the MR can be unblocked by any single member of the security team.
-1. In **Add approvers** select any user other than yourself (you can't give the project owner permission to approve license compliance overrides). If there had been a "security team" group defined, you could have added that group instead.
-1. Click away from the **Add approvers** dropdown to close it, and confirm that an approver has been configured.
-1. Select **Add approvers** and notice the new message **License Approvals are active**.
+1. Click **Configure with a merge request**. Leave the **Override project approval settings** checkbox selected.
 
+1. In the resulting merge request, click the **Merge** button.
 
-### I. Make an MR that adds a dependency with a denied license
+1. When you create a policy, GitLab will create a new project for managing the policies. After you click **Merge**, you will need to navigate back to your original project.
 
-1. Make a new branch called `add-dnspython-dependency`
-1. Make an MR for that branch, making sure to remove `Draft:` from the MR title so that it's ready to merge.
-1. Add a new dependency to the **add-dnspython-dependency** branch (not the **main** branch!) by pasting `dnspython==2.1.0` as a new line at the end of `requirements.txt`. Commit the edit.
-1. Navigate to the details page for the pipeline that was triggered by your commit, and wait for it to finish.
-1. Navigate to the branch's MR. In the **License Compliance** pane, select **Expand**. The MR is blocked from being merged because the **dnspython** dependency that it adds uses a denied license.<br/><br/>Normally you would need to either remove the dependency or have a member of the security team approve the MR and override the license compliance block. Since there are no approvers available in this training environment, you can stop here and leave the MR unmerged.
+## Task C. View the License Compliance report with categorized licenses
 
+1. Click **Secure > Licenses compliance**.
+
+2. Notice that GitLab now describes every license except the **MIT License** as a policy violation. This report helps to flag existing dependencies which may contain licenses that you have not approved.
+
+## Task D. Create an MR that adds a dependency with a denied license
+
+1. Create a new branch named `add-dnspython-dependency`
+
+1. Add a new dependency to the `add-dnspython-dependency` branch **(not the `main` branch!)** by pasting `dnspython==2.1.0` as a new line at the end of `requirements.txt`. Commit the change.
+
+1. Click the **Create merge request** button.
+
+1. Leave all fields as their default values and click **Create merge request**.
+
+1. Wait for the pipeline for the merge request to complete.
+
+1. Once the pipeline completes, refresh the page. A license compliance scan will now display, showing 1 new license detected. Click **Full report**.
+
+1. The license compliance report will list all of the licenses that are no longer in compliance with the project policy.
+
+1. Return to the merge request overview.
+
+1. Note that the merge status will appear stating **Requires 1 approval from policy**.
+
+1. A new comment is also added to the activity of the merge request, stating that a policy violation was detected.
+
+    > This merge request now requires additional approval because `dnspython` does not use an approved license. A reviewer can now verify if the license is ok to proceed with before the merge is complete.
+
+## Task E. Lab Policy Cleanup
+
+> To ensure that you can merge branches into main without approval, it is best to disable the policy.
+
+1. Navigate to **Secure > Policies**.
+
+2. Click on the policy you created. Click **Edit policy**.
+
+3. Click **Delete Policy**.
+
+4. Click **Merge** on the resulting merge request.
+
+## Lab Guide Complete
+
+You have completed this lab exercise. You can view the other [lab guides for this course](/handbook/customer-success/professional-services-engineering/education-services/secessentialshandson).
 
 ## Suggestions?
 

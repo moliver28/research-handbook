@@ -1,0 +1,36 @@
+{{ $dataURL := printf "https://gitlab.com/gitlab-com/www-gitlab-com/-/raw/master/data/product_priorities/software_supply_chain_security_wg.yml"}}
+{{ with resources.GetRemote $dataURL }}
+{{ with .Err}}
+
+<h2>Unable to fetch priority Data</h2>
+{{ else }}
+{{ $data := . | transform.Unmarshal }}
+
+<table>
+  <thead>
+    <tr>
+      <th>Priority</th>
+      <th>Name</th>
+      <th>DRI</th>
+      <th>Target release</th>
+    </tr>
+  </thead>
+  <tbody>
+
+    {{ with $data.priorities }}
+      {{ $filteredPriorities := where . "status" "!=" "closed" }}
+      {{ range $priorityIndex, $priority := $filteredPriorities }}
+<tr>
+  <td> {{ add $priorityIndex 1 }} </td>
+  <td><a href="{{ .url }}">{{ .name }}</a></td>
+  <td>{{ with .dri }}{{.}}{{ else }}TBD{{ end }}</td>
+  <td>{{ with .target_release }}{{.}}{{ else }}TBD{{ end }}</td>
+</tr>
+      {{ end }}
+    {{ end }}
+
+  </tbody>
+</table>
+
+{{ end }}
+{{ end }}

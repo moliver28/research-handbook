@@ -116,30 +116,12 @@ Some content on docs.gitlab.com is [not reviewed by TWs](#content-not-reviewed-b
 
 ### Assignments to DevOps Stages and Groups
 
-{{% alert title="Note" color="primary" %}}
-**If you were directed here from a documentation page's metadata:**
-References to stages and groups in documentation metadata don't indicate developer group ownership, but instead help connect people to the assigned stable counterpart technical writer with subject matter awareness.
-If internal groups want to use other metadata parameters to track information in documentation pages, please create an issue in the Technical Writing repository for discussion.
-Additional discussions are in [this issue](https://gitlab.com/gitlab-org/technical-writing/-/issues/547).
-{{% /alert %}}
-
 The designated Technical Writer is the go-to person for their assigned
-[stage groups](/handbook/product/categories/). They collaborate with
+[groups](/handbook/product/categories/). They collaborate with
 other team members to plan new documentation, edit existing documentation,
-review any proposed changes to documentation, suggest changes to the microcopy
-exposed to users, and generally partner with subject matter experts (SMEs) in
+review any proposed changes to documentation, suggest changes to UI microcopy,
+and generally partner with subject matter experts (SMEs) in
 all situations where documentation is required.
-
-When a Technical Writer [is on PTO](#technical-writer-pto), the whole team acts as their backup.
-
-If you've been directed here from metadata in a documentation page
-that has `none` as the stage, refer to the
-[Assignments to other projects and subjects](#assignments-to-other-projects-and-subjects)
-section, referencing the group shown in metadata with the listed Subjects in the table.
-
-{{% alert title="Note" color="primary" %}}
-Not sure who's responsible for a feature? Review feature assignments by [stage](https://about.gitlab.com/features/) or [group](/handbook/product/categories/features/).
-{{% /alert %}}
 
 {{% tech-writing %}}
 
@@ -152,10 +134,19 @@ Not sure who's responsible for a feature? Review feature assignments by [stage](
 Reference: https://gitlab.com/gitlab-com/www-gitlab-com/merge_requests/24952
 -->
 
+{{% alert title="Note" color="primary" %}}
+**If you were directed here from a documentation page's metadata:**
+- The metadata doesn't indicate developer ownership, but is meant to direct you to an appropriate technical writer.
+- If you are a development group and would like metadata in documentation pages, create an issue in [the Technical Writing repository](https://gitlab.com/gitlab-org/technical-writing) for discussion. Additional discussion is in [this issue](https://gitlab.com/gitlab-org/technical-writing/-/issues/547).
+- If the stage is listed as `none`, see if [there is a DRI](#assignments-to-other-projects-and-subjects) or use [roulette](https://gitlab-org.gitlab.io/gitlab-roulette/?sortKey=stats.avg30&order=-1&hourFormat24=true&visible=maintainer%7Cdocs).
+{{% /alert %}}
+
 Technical Writers are encouraged to review and improve documentation of other
 stages but they aren't required to. When contributing to docs they don't own,
 they must respect the assigned TW's ownership and ensure to request their review
 and approval when adding significant changes to their docs.
+
+When a Technical Writer [is on PTO](#technical-writer-pto), the whole team acts as their backup.
 
 ### Assignments to other projects and subjects
 
@@ -203,6 +194,7 @@ The number of pages in the five primary repositories (GitLab, Omnibus, Charts, O
 
 | Date          | # of pages | Increase from previous quarter |
 |---------------|------------| ------------|
+| Dec  2023     | 2,201      | 5 %         |
 | Sept 2023     | 2,088      | 8 %         |
 | Jun 2023      | 1,993      | 5 %         |
 | Mar 2023      | 1,929      | 3 %         |
@@ -212,12 +204,13 @@ The number of pages in the five primary repositories (GitLab, Omnibus, Charts, O
 | Jan 2022      | 1,562      | -           |
 | May 2020      | 1,165      | -           |
 
-**Change between May 2020 and Sept 2023:** 923 more pages (a 79% increase)
+**Change between May 2020 and Dec 2023:** 1036 more pages (a 89% increase)
 
 The number of words in these repositories:
 
 | Date          | Word count | Increase from previous quarter |
 |---------------|------------| ------------|
+| Dec  2023     | 2,990,400  | 5 %        |
 | Sept 2023     | 2,842,399  | 5 %         |
 | Jun 2023      | 2,701,888  | 6 %         |
 | Mar 2023      | 2,546,466  | 6 %         |
@@ -227,7 +220,7 @@ The number of words in these repositories:
 | Jan 2022      | 2,017,183  | -           |
 | May 2020      | 1,190,371  | -           |
 
-**Change between May 2020 and Sept 2023:** 1,652,028 more words (a 138% increase)
+**Change between May 2020 and Dec 2023:** 1,800,029 more words (a 151% increase)
 
 The word count has more than doubled in this timeframe.
 

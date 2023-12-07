@@ -11,12 +11,6 @@ description: >-
 
 Solutions Architects record all customer and prospect activity to promote **transparency** and **collaboration**. By consistently capturing our prospect or customer-facing activity, we can perform analysis for further reporting to establish **efficient** decision making for GitLab's business.
 
-
-
-
-
-
-
 ## Why Record Customer Activities?
 
 1. **Transparency** Reporting on SA activity regularly provides an easy way for other team members to see summaries of all SA activity, allowing for questioning our actions and increasing our accountability. Transparency also promotes valuable collaboration through increased visibility of our prospect and customer interactions.
@@ -82,7 +76,7 @@ _Tip:_ You can create a dedicated slack section for all of your Troops related c
 
 ### SA Specific Opportunity Fields
 
-An **SA Validated Tech Evaluation** is a set of SA-assisted activities a prospect or a customer undertakes to make a decision on whether or not a GitLab solution will provide the value they expect. These activities include and are not limited to a guided trial, POV, value stream assessment, workshops, and strategy roadmap planning. An SA Validated Tech Evaluation does not start until a prospect or customer explicitly engages in an evaluation of value and involves meaningful engagement with a GitLab SA.  Ideally, the GitLab SA has created a techncial win plan as part of an SA Validated Tech Evaluation.  **If the GitLab SA does not know the next actions to progress the evaluation towards closure, it's an indication that there is NOT an SA Validated Tech Evaluation that the SA is meaningfully engaged on.**  
+An **SA Validated Tech Evaluation** is a set of SA-assisted activities a prospect or a customer undertakes to make a decision on whether or not a GitLab solution will provide the value they expect. These activities include and are not limited to a guided trial, POV, value stream assessment, workshops, and strategy roadmap planning. An SA Validated Tech Evaluation does not start until a prospect or customer explicitly engages in an evaluation of value and involves meaningful engagement with a GitLab SA. As part of an SA Validated Tech Evaluation, the GitLab SA should create a [Technical Close Plan](/handbook/customer-success/solutions-architects/sa-practices/technical-close-plan/).  **If the GitLab SA does not know the next actions to progress the evaluation towards closure, it's an indication that there is NOT an SA Validated Tech Evaluation that the SA is meaningfully engaged on.**  
 
 To assist with the analysis of SA guided technical evaluations by our prospects and customer, the SA team maintains four opportunity fields in Salesforce. These four fields can be updated through Troops.ai or within the opportunity in Salesforce:
 

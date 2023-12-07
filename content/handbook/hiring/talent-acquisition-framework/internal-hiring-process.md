@@ -45,12 +45,12 @@ description: "This page discusses the Internal Hiring Process"
 - Please follow the scheduling process for executive scheduling
 - Recruiters will notify CES via Greenhouse once a [Job Change Letter (JCL)]({{< ref "promotions-transfers#job-change-letter" >}}) is ready to be sent.
 
-## People Connect Lead Responsibilities
+## People Connect Responsibilities
 
-- People Connect Leads will handle all eligibility checks for team members applying for an internal opportunity.
+- People Connect will handle all eligibility checks for team members applying for an internal opportunity.
    - For eligibility checks for candidates on the people-connect team please reach out directly to the Director of People Operations.
-- Engage People Connect by emailing people-connect@gitlab.com with the following subject line “Eligibility Check for Internal Team Member”. In the body of the email please include the team member name and the link to their Greenhouse application.
-- People Connect Leads will notify the Recruiter that the eligibility check is completed by tagging them in the private note section in Greenhouse within 48 business hours.
+- Engage People Connect by emailing people-connect@gitlab.com with the following subject line “Eligibility Check for Internal Team Member (Team Member Name)”. In the body of the email please include the team member name and the link to their Greenhouse application.
+- People Connect will reply directly to the email to notify the Recruiter of the eligibility within 48 business hours.
 Ensure you have met your department specific eligibility requirements:
    - Guidelines for performance eligibility:
       - Team members who are assessed at a Performing or Exceeding Performance level during Talent Assessment are eligible to be considered for another role

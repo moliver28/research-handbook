@@ -1,4 +1,5 @@
 ---
+aliases: /handbook/legal/privacy/us-state-privacy-disclosure.html
 title: "U.S. State Privacy Rights and Disclosures"
 description: "Privacy Notice applicable for residents of the United States."
 ---

@@ -149,6 +149,9 @@ The contract phase is unique based upon the team member's relocation. The differ
 ##### Tasks for People Connect
 
 1. Create a new [contract](https://internal.gitlab.com/handbook/people-group/people-operations/people-connect/employment_contracts/) for the team member confirming new compensation (if applicable) and effective date.
+    - If a team member is relocating to France, you should follow [similar steps to CES](https://handbook.gitlab.com/handbook/hiring/talent-acquisition-framework/ces-contract-processes/#creating-a-french-offer), when creating a French offer, by requesting support from the [Legal,Employment Team](legal-employment@gitlab.com) to determine which contract template should be used and to have the relocating team member classified under the applicable CBA in France. One of the Legal, Employment Team members will respond with the following information:
+        - The Template that you should use (A,B or C); and
+        - The classification wording that should be added to the template (including information on where the wording should be placed on both the English & French sides)
     - No stock options are given through relocation, so that line can be removed
     - [Probation Period](contracts-probation-periods/#probation-period): If a team member has continued service with GitLab (tenure with GitLab has been uninterrupted) and they have already passed the probationary period of their original location or contract, they do not need to go through the probation period of their new location or contract.
     - A list of all signatories can be found [here](/handbook/hiring/talent-acquisition-framework/ces-contract-processes/#entity-contract-signatories).

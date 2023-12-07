@@ -25,40 +25,40 @@ important to those working within Zendesk:
 <details>
 <summary>SLA Related Tags</summary>
 
-| Tag                 | What it means                                                                                                                |
-|---------------------|------------------------------------------------------------------------------------------------------------------------------|
-| `starter`           | Signifies the ticket is using a Starter plan, granting Standard SLA on Support tickets                                       |
-| `premium`           | Signifies the ticket is using a Premium plan, granting Priority SLA on Support tickets                                       |
-| `ultimate`          | Signifies the ticket is using a Ultimate plan, granting Priority SLA on Support tickets                                      |
-| `bronze`            | Signifies the ticket is using a Bronze plan, granting Standard SLA on Support tickets                                        |
-| `silver`            | Signifies the ticket is using a Silver plan, granting Priority SLA on Support tickets                                        |
-| `gold`              | Signifies the ticket is using a Gold plan, granting Priority SLA on Support tickets                                          |
-| `priority_prospect` | Signifies the ticket is from a prospect who has been temporarily granted Standard SLA on Support tickets                     |
-| `free_customer`     | Signifies the ticket is from a non-paying end-user. This means they receive no SLA on Support Tickets                        |
-| `missing_sla_tag`   | This means the ticket is missing any form of SLA tagging. As this is a problem, this tag applies a Standard SLA              |
-| `low`               | Signifies the ticket as a Low priority, thus granting it bare-level support SLAs for Support tickets with Priority SLA       |
-| `medium`            | Signifies the ticket as a Normal priority, thus granting it mid-level support SLAs for Support tickets with Priority SLA     |
-| `high`              | Signifies the ticket as a High priority, thus granting it high level support SLAs for Support tickets with Priority SLA      |
-| `urgent`            | Signifies the ticket is an emergency request                                                                                 |
-| `prospect`          | Signifies the ticket is from a prospect. This means they receive no SLA on Support Tickets                                   |
+| Tag                 | What it means |
+|---------------------|---------------|
+| `starter`           | Signifies the ticket is using a Starter plan, granting Standard SLA on Support tickets |
+| `premium`           | Signifies the ticket is using a Premium plan, granting Priority SLA on Support tickets |
+| `ultimate`          | Signifies the ticket is using a Ultimate plan, granting Priority SLA on Support tickets |
+| `bronze`            | Signifies the ticket is using a Bronze plan, granting Standard SLA on Support tickets |
+| `silver`            | Signifies the ticket is using a Silver plan, granting Priority SLA on Support tickets |
+| `gold`              | Signifies the ticket is using a Gold plan, granting Priority SLA on Support tickets |
+| `priority_prospect` | Signifies the ticket is from a prospect who has been temporarily granted Standard SLA on Support tickets |
+| `free_customer`     | Signifies the ticket is from a non-paying end-user. This means they receive no SLA on Support Tickets |
+| `missing_sla_tag`   | This means the ticket is missing any form of SLA tagging. As this is a problem, this tag applies a Standard SLA |
+| `low`               | Signifies the ticket as a Low priority, thus granting it bare-level support SLAs for Support tickets with Priority SLA |
+| `medium`            | Signifies the ticket as a Normal priority, thus granting it mid-level support SLAs for Support tickets with Priority SLA |
+| `high`              | Signifies the ticket as a High priority, thus granting it high level support SLAs for Support tickets with Priority SLA |
+| `urgent`            | Signifies the ticket is an emergency request |
+| `prospect`          | Signifies the ticket is from a prospect. This means they receive no SLA on Support Tickets |
 | `trial`             | Signifies the ticket is from a non-paying end-user using the trial system. This means they receive no SLA on Support Tickets |
-| `consumption_only`  | Signifies the ticket is a consumption ticket                                                                                 |
+| `consumption_only`  | Signifies the ticket is a consumption ticket |
 
 </details>
 <details>
 <summary>Account Related Tags</summary>
 
-| Tag | What it means                                                                            |
-|-----------------------|------------------------------------------------------------------------|
-| `customer`            | Signifies the ticket is from an account labeled as Customer            |
-| `former_customer`     | Signifies the ticket is from an account labeled as Former Customer     |
+| Tag                   | What it means |
+|-----------------------|---------------|
+| `customer`            | Signifies the ticket is from an account labeled as Customer |
+| `former_customer`     | Signifies the ticket is from an account labeled as Former Customer |
 | `authorized_reseller` | Signifies the ticket is from an account labeled as Authorized Reseller |
-| `integrator`          | Signifies the ticket is from an account labeled as Integrator          |
-| `partner`             | Signifies the ticket is from an account labeled as Partner             |
+| `integrator`          | Signifies the ticket is from an account labeled as Integrator |
+| `partner`             | Signifies the ticket is from an account labeled as Partner |
 | `unofficial_reseller` | Signifies the ticket is from an account labeled as Unofficial Reseller |
-| `open_partner`        | Signifies the ticket is from an account labeled as Open Partner        |
-| `select_partner`      | Signifies the ticket is from an account labeled as Select Partner      |
-| `alliance_partner`    | Signifies the ticket is from an account labeled as Alliance Partner    |
+| `open_partner`        | Signifies the ticket is from an account labeled as Open Partner |
+| `select_partner`      | Signifies the ticket is from an account labeled as Select Partner |
+| `alliance_partner`    | Signifies the ticket is from an account labeled as Alliance Partner |
 
 </details>
 <details>
@@ -583,52 +583,78 @@ important to those working within Zendesk:
 <details>
 <summary>License and Renewals Internal Request Tags</summary>
 
-| Tag                                | What it means                                                                     |
-|------------------------------------|-----------------------------------------------------------------------------------|
-| `lnr_internal_request`             | Indicates the ticket is a L&R internal request                                    |
-| `lnr_valid_request`                | Indicates the L&R internal request was valid for submission                       |
-| `lnr_saas_subscription`            | Indicates the L&R internal request is about a SaaS subscription                   |
-| `lnr_saas_sub_extension`           | Indicates the problem type is "Extend an (almost) expired subscription"           |
-| `lnr_saas_sub_issue`               | Indicates the problem type is "Investigate incorrect subscription info"           |
-| `lnr_saas_nfr`                     | Indicates the problem type is "SaaS NFR license request"                          |
-| `lnr_billing_entity_change`        | Indicates the problem type is "Billing Entity change"                             |
-| `lnr_saas_trial`                   | Indicates the L&R internal request is about a SaaS trial                          |
-| `lnr_saas_trial_extension`         | Indicates the problem type is "Extend a SaaS trial"                               |
-| `lnr_saas_trial_edit`              | Indicates the problem type is "Change existing SaaS trial plan"                   |
-| `lnr_sm_license`                   | Indicates the L&R internal request is about a self-managed license                |
-| `lnr_sm_license_extension`         | Indicates the problem type is "Extend an (almost) expired subscription"           |
-| `lnr_sm_license_receive_error`     | Indicates the problem type is "Customer did not receive the license"              |
+| Tag                                | What it means |
+|------------------------------------|---------------|
+| `lnr_internal_request`             | Indicates the ticket is a L&R internal request |
+| `lnr_valid_request`                | Indicates the L&R internal request was valid for submission |
+| `lnr_saas_subscription`            | Indicates the L&R internal request is about a SaaS subscription |
+| `lnr_saas_sub_extension`           | Indicates the problem type is "Extend an (almost) expired subscription" |
+| `lnr_saas_sub_issue`               | Indicates the problem type is "Investigate incorrect subscription info" |
+| `lnr_saas_nfr`                     | Indicates the problem type is "SaaS NFR license request" |
+| `lnr_billing_entity_change`        | Indicates the problem type is "Billing Entity change" |
+| `lnr_saas_trial`                   | Indicates the L&R internal request is about a SaaS trial |
+| `lnr_saas_trial_extension`         | Indicates the problem type is "Extend a SaaS trial" |
+| `lnr_saas_trial_edit`              | Indicates the problem type is "Change existing SaaS trial plan" |
+| `lnr_sm_license`                   | Indicates the L&R internal request is about a self-managed license |
+| `lnr_sm_license_extension`         | Indicates the problem type is "Extend an (almost) expired subscription" |
+| `lnr_sm_license_receive_error`     | Indicates the problem type is "Customer did not receive the license" |
 | `lnr_sm_license_new_contact`       | Indicates the problem type is "Customer needs the license resent to a new person" |
-| `lnr_multiyear_license`            | Indicates the problem type is "Multi-year license needs to be generated"          |
-| `lnr_sm_nfr`                       | Indicates the problem type is "Self-managed NFR license request"                  |
-| `lnr_sm_trial`                     | Indicates the L&R internal request is about a self-managed trial                  |
-| `lnr_sm_trial_new`                 | Indicates the problem type is "Problems starting a new Self-managed trial"        |
-| `lnr_sm_trial_edit`                | Indicates the problem type is "Modify an existing Self-managed trial"             |
-| `lnr_sm_trial_extension`           | Indicates the problem type is "Extend an existing Self-managed trial"             |
-| `lnr_order_management`             | Indicates the problem type is "Order Management"                                  |
-| `lnr_hackerone`                    | Indicates the problem type is "Hacker One Reporter License"                       |
-| `lnr_community_license`            | Indicates the problem type is "Wider Community License"                           |
-| `lnr_request_other`                | Indicates the problem type is "Other (nothing else fits the request)"             |
-| `lnr_reason_more_time_needed`      | To indicate the extension reason is "More time needed for POC"                    |
-| `lnr_reason_negotiations_underway` | To indicate the extension reason is "Contract negotiations still underway"        |
-| `lnr_reason_payment_delays`        | To indicate the extension reason is "Delay in customer's payment process"         |
-| `lnr_reason_true_up_problems`      | To indicate the extension reason is "True-up problem"                             |
+| `lnr_multiyear_license`            | Indicates the problem type is "Multi-year license needs to be generated" |
+| `lnr_sm_nfr`                       | Indicates the problem type is "Self-managed NFR license request" |
+| `lnr_sm_trial`                     | Indicates the L&R internal request is about a self-managed trial |
+| `lnr_sm_trial_new`                 | Indicates the problem type is "Problems starting a new Self-managed trial" |
+| `lnr_sm_trial_edit`                | Indicates the problem type is "Modify an existing Self-managed trial" |
+| `lnr_sm_trial_extension`           | Indicates the problem type is "Extend an existing Self-managed trial" |
+| `lnr_order_management`             | Indicates the problem type is "Order Management" |
+| `lnr_hackerone`                    | Indicates the problem type is "Hacker One Reporter License" |
+| `lnr_community_license`            | Indicates the problem type is "Wider Community License" |
+| `lnr_request_other`                | Indicates the problem type is "Other (nothing else fits the request)" |
+| `lnr_reason_more_time_needed`      | To indicate the extension reason is "More time needed for POC" |
+| `lnr_reason_negotiations_underway` | To indicate the extension reason is "Contract negotiations still underway" |
+| `lnr_reason_payment_delays`        | To indicate the extension reason is "Delay in customer's payment process" |
+| `lnr_reason_true_up_problems`      | To indicate the extension reason is "True-up problem" |
 
 </details>
 <details>
 <summary>Automation Skipping Related Tags</summary>
 
-| Tag                             | What it means                                                                                           |
-|---------------------------------|---------------------------------------------------------------------------------------------------------|
+| Tag                             | What it means |
+|---------------------------------|---------------|
 | `pending_followup_notification` | This is applied by an automation to followup on pending tickets. Adding this tag skips that automation. |
-| `skip_2fa_automation`           | Tell Zendesk to not run any 2FA automations/autoresponders                                              |
-| `skip_autoassign`               | Tell Zendesk to not auto-assign the ticket                                                              |
-| `skip_autoclose`                | Tell Zendesk to not auto-close the ticket                                                               |
-| `skip_autoreopen`               | Tell Zendesk to not auto-reopen the ticket                                                              |
-| `skip_autosolve`                | Tell Zendesk to not auto-solve the ticket                                                               |
-| `skip_autosolve_message`        | Tell Zendesk not to send a message about the ticket being autosolved                                    |
-| `skip_community_automation`     | Tells Zendesk to not send the community autoresponder message                                           |
-| `skip_gdpr_automation`          | Tell Zendesk to not run any Account Deletion automations/autoresponders                                 |
+| `skip_2fa_automation`           | Tell Zendesk to not run any 2FA automations/autoresponders |
+| `skip_autoassign`               | Tell Zendesk to not auto-assign the ticket |
+| `skip_autoclose`                | Tell Zendesk to not auto-close the ticket |
+| `skip_autoreopen`               | Tell Zendesk to not auto-reopen the ticket |
+| `skip_autosolve`                | Tell Zendesk to not auto-solve the ticket |
+| `skip_autosolve_message`        | Tell Zendesk not to send a message about the ticket being autosolved |
+| `skip_community_automation`     | Tells Zendesk to not send the community autoresponder message |
+| `skip_gdpr_automation`          | Tell Zendesk to not run any Account Deletion automations/autoresponders |
+
+</details>
+<details>
+<summary>Other Notable Tags</summary>
+
+| Tag                              | What it means |
+|----------------------------------|---------------|
+| `agent_offered_call`             | SE has sent a call link in a public comment |
+| `docs_link`                      | SE has sent a link to docs.gitlab.com in a public comment |
+| `gitlab_issue_link`              | SE has sent a link to a gitlab.com issue in a public comment |
+| `gitlab_merge_request_link`      | SE has sent a link to a gitlab.com merge request in a public comment |
+| `hb_link`                        | SE has sent a link to handbook.gitlab.com in a public comment |
+| `partner_customer`               | Indicates the account is a customer of an Alliance partner and not eligible for support |
+| `star_submitted`                 | Indicates a STAR has been submitted on the ticket |
+| `CUSTOM_PATH_issues_IID`         | See below for more information |
+| `CUSTOM_PATH_merge_requests_IID` | See below for more information |
+
+For `CUSTOM_PATH_issues_IID` and `CUSTOM_PATH_merge_requests_IID`, this refers
+to a long tag that contains the entire project path.
+
+So an example:
+
+- a link to issue 5 on project jcolyer/most_amazing_project_ever would be:
+  `jcolyer_most_amazing_project_ever_issues_5`
+- a link to merge request 27 on project jcolyer/most_amazing_project_ever would
+  be: `jcolyer_most_amazing_project_ever_merge_requests_27`
 
 </details>
 
@@ -637,56 +663,56 @@ important to those working within Zendesk:
 <details>
 <summary>SLA Related Tags</summary>
 
-| Tag               | What it means                                                                                                                                                          |
-|-------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| `starter`         | Signifies the ticket is using a Starter plan, granting Standard SLA on Support tickets                                                                                 |
-| `premium`         | Signifies the ticket is using a Premium plan, granting Priority SLA on Support tickets                                                                                 |
-| `ultimate`        | Signifies the ticket is using a Ultimate plan, granting Priority SLA on Support tickets                                                                                |
-| `prospect`        | Signifies the ticket is from a prospect who has been temporarily granted Standard SLA on Support tickets                                                               |
-| `missing_sla_tag` | This means the ticket is missing any form of SLA tagging. As this is a problem, this tag applies a Standard SLA and forces the ticket into the Needs Org & Triage view |
-| `low`             | Signifies the ticket as a Low priority, thus granting it bare-level support SLAs for Support tickets with Priority SLA                                                 |
-| `medium`          | Signifies the ticket as a Normal priority, thus granting it mid-level support SLAs for Support tickets with Priority SLA                                               |
-| `high`            | Signifies the ticket as a High priority, thus granting it high level support SLAs for Support tickets with Priority SLA                                                |
-| `urgent`          | Signifies the ticket is an emergency request                                                                                                                           |
+| Tag               | What it means |
+|-------------------|---------------|
+| `starter`         | Signifies the ticket is using a Starter plan, granting Standard SLA on Support tickets |
+| `premium`         | Signifies the ticket is using a Premium plan, granting Priority SLA on Support tickets |
+| `ultimate`        | Signifies the ticket is using a Ultimate plan, granting Priority SLA on Support tickets |
+| `prospect`        | Signifies the ticket is from a prospect who has been temporarily granted Standard SLA on Support tickets |
+| `missing_sla_tag` | This means the ticket is missing any form of SLA tagging. |
+| `low`             | Signifies the ticket as a Low priority, thus granting it bare-level support SLAs for Support tickets with Priority SLA |
+| `medium`          | Signifies the ticket as a Normal priority, thus granting it mid-level support SLAs for Support tickets with Priority SLA |
+| `high`            | Signifies the ticket as a High priority, thus granting it high level support SLAs for Support tickets with Priority SLA |
+| `urgent`          | Signifies the ticket is an emergency request |
 
 </details>
 <details>
 <summary>Account Related Tags</summary>
 
-| Tag                   | What it means                                                          |
-|-----------------------|------------------------------------------------------------------------|
-| `customer`            | Signifies the ticket is from an account labeled as Customer            |
-| `former_customer`     | Signifies the ticket is from an account labeled as Former Customer     |
-| `reseller`            | Signifies the ticket is from an account labeled as Reseller            |
+| Tag                   | What it means |
+|-----------------------|---------------|
+| `customer`            | Signifies the ticket is from an account labeled as Customer |
+| `former_customer`     | Signifies the ticket is from an account labeled as Former Customer |
+| `reseller`            | Signifies the ticket is from an account labeled as Reseller |
 | `authorized_reseller` | Signifies the ticket is from an account labeled as Authorized Reseller |
-| `integrator`          | Signifies the ticket is from an account labeled as Integrator          |
-| `partner`             | Signifies the ticket is from an account labeled as Partner             |
+| `integrator`          | Signifies the ticket is from an account labeled as Integrator |
+| `partner`             | Signifies the ticket is from an account labeled as Partner |
 | `unofficial_reseller` | Signifies the ticket is from an account labeled as Unofficial Reseller |
-| `open_partner`        | Signifies the ticket is from an account labeled as Open Partner        |
-| `select_partner`      | Signifies the ticket is from an account labeled as Select Partner      |
-| `alliance_partner`    | Signifies the ticket is from an account labeled as Alliance Partner    |
+| `open_partner`        | Signifies the ticket is from an account labeled as Open Partner |
+| `select_partner`      | Signifies the ticket is from an account labeled as Select Partner |
+| `alliance_partner`    | Signifies the ticket is from an account labeled as Alliance Partner |
 
 </details>
 <details>
 <summary>Automation Skipping Related Tags</summary>
 
-| Tag                      | What it means                                                            |
-|--------------------------|--------------------------------------------------------------------------|
-| `skip_autosolve`         | Tell Zendesk to not auto-solve the ticket                                |
-| `skip_autoclose`         | Tell Zendesk to not auto-close the ticket                                |
-| `skip_autoreopen`        | Tell Zendesk to not auto-reopen the ticket                               |
+| Tag                      | What it means |
+|--------------------------|---------------|
+| `skip_autosolve`         | Tell Zendesk to not auto-solve the ticket |
+| `skip_autoclose`         | Tell Zendesk to not auto-close the ticket |
+| `skip_autoreopen`        | Tell Zendesk to not auto-reopen the ticket |
 | `skip_gdpr_automation`   | Tell Zendesk to not run any Account Deletion automations/autoresponders  |
-| `skip_autosolve_message` | Tell Zendesk not to send a message about the ticket being autosolved.    |
-| `skip_autoassign`        | Tell Zendesk to not auto-assign the ticket                               |
+| `skip_autosolve_message` | Tell Zendesk not to send a message about the ticket being autosolved. |
+| `skip_autoassign`        | Tell Zendesk to not auto-assign the ticket |
 
 </details>
 
 <details>
 <summary>Other Notable Tags</summary>
 
-| Tag                | What it means                                                                           |
-|--------------------|-----------------------------------------------------------------------------------------|
-| `partner_customer` | Indicates the account is a customer of an Alliance partner and not eligible for support |
-| `star_submitted`   | Indicates a STAR has been submitted on the ticket                                       |
+| Tag                              | What it means |
+|----------------------------------|---------------|
+| `partner_customer`               | Indicates the account is a customer of an Alliance partner and not eligible for support |
+| `star_submitted`                 | Indicates a STAR has been submitted on the ticket |
 
 </details>

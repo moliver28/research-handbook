@@ -11,7 +11,7 @@ This handbook page is meant to support both learners and administrators in Level
 
 ## Contribute to Level Up
 
-At GitLab, [everyone can contribute]({{< ref "mission#mission" >}}). Read below about how to contribute to Level Up.
+At GitLab, [everyone can contribute]({{< ref "mission#mission" >}}). Read below about how to contribute to Level Up. If you'd like to explore the content creation options in Level Up, check out this [Demo Course](https://levelup.gitlab.com/access/saml/login/internal-team-members?returnTo=https://levelup.gitlab.com/learn/course/demo-course).
 
 ### Why contribute?
 

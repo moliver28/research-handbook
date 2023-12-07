@@ -62,7 +62,7 @@ There are various services a Customer Success Manager will provide to ensure tha
 ### Working with Customer Support Engineering
 
 - Upgrade planning (in partnership with Support)
-  - Review the [Upgrade Assistance page](/support/scheduling-upgrade-assistance/) with customers during upgrade planning to ensure a plan is in place (including a rollback strategy) and Support have enough time to review the plan
+  - Review the [Upgrade Assistance page](/support/workflows/upgrade-assistance/) with customers during upgrade planning to ensure a plan is in place (including a rollback strategy) and Support have enough time to review the plan
 - [Infrastructure upgrade coordination](/handbook/customer-success/csm/services/infrastructure-upgrade/) -  CSMs may provide high-level guidance but the technical implementation should ideally be provided by Professional Services via [Dedicated Implementation Services](/services/implementation/enterprise/)
 - Launch best practices
 - Review and submit [Support Ticket Attention Requests](/handbook/support/internal-support/support-ticket-attention-requests.html)

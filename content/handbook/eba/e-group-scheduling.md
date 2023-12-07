@@ -90,7 +90,7 @@ Before scheduling with an E-Group member, please be sure to reach out to their p
 
 ## Scheduling for Jörg Heilig, Interim CTO
 
-- All meeting requests should go through Sr. EBA, Marisa Carlson.
+- All meeting requests should go through Sr. EBA, Kim Hohmann.
 - Priority given to candidate interviews, CEO, E-Group, GitLab BoD, and direct reports to the CTO.
 - Limited availability due to personal commitments from 9-10am PT Mon.-Fri. due personal commitments
 - Can often make meetings during these blocks, if given advance notice, but strong preference for meeting outside of these times

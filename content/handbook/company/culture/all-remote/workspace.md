@@ -205,7 +205,7 @@ If you plan to stand for an extended portion of your working day, consider inves
 
 ### Office supplies
 
-If you're transitioning from an office environment where supplies magically appeared or were stocked in a closet for your use, now you are responsible for acquiring them. Check out our [complete list of office supplies](/handbook/finance/procurement/office-equipment-supplies).
+If you're transitioning from an office environment where supplies magically appeared or were stocked in a closet for your use, now you are responsible for acquiring them. Check out our [complete list of office supplies](/handbook/finance/expenses/#equipment).
 
 ## Creating the right environment
 

@@ -77,6 +77,34 @@ The Senior Digital Marketing Manager is a [grade 7](/handbook/total-rewards/comp
 - 1-3 years experience in using Salesforce, Marketo (or other marketing automation software) required
 - Advanced analytics and reporting experience including advanced knowledge of Excel, Tableau, SQL, and/or similar.=
 
+#### Staff, Digital Marketing Programs
+
+##### Job Grade
+
+The Staff Digital Marketing Manager is a [grade 8](https://about.gitlab.com/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+
+##### Responsibilities
+
+- Define strategic direction and independently lead the execution of the Digital Marketing media budget and oversee our paid search, paid social, programmatic display, and sponsored publisher programs (end-to-end, including finance processes, tracking, and performance reporting)
+- Maximize channel and tactic performance and ensure an efficient return-on-ad-spend (RoAS)
+- Build and implement a broader digital growth strategy—understand key partnerships within the organization to drive full-funnel customer acquisition, retention, and upsell.
+- Provide technical and functional knowledge representing Digital Marketing and paid media as the subject-matter expert with stakeholders across organizations. Act as the go-to person and thought partner for the Digital Strategy Director on all aspects of digital media
+- Work across marketing teams on alignment for digital tactics, navigating sometimes conflicting priorities to deliver the best business outcomes
+- Create and lead execution of cross-team projects (e.g. conversion rate optimization efforts).
+- Mentor more junior teammates on digital media best practices, support them with complex problem solving.
+- Lead cross-functional efforts to create standardized marketing reporting and dashboards, presenting performance to the marketing department as well as stakeholders throughout the company
+- Ensure GitLab benefits from the latest in digital marketing technologies and best practices, innovating when it will improve program RoAS
+
+##### Requirements
+
+- 10+ years in a Digital Marketing role
+- 5+ years of enterprise software marketing experience
+- Experience managing advertising publishers and media agencies across all areas of digital media: SEO, SEM, Paid and Organic Social, ABM, Paid sponsorships, and Conversion Rate Optimization
+- Experience managing large-scale paid programs (e.g. $1M+ annual)
+- In-depth industry experience and knowledge in at least one digital marketing or marketing programs specialty
+- Strong technical marketing and advanced digital analytics skills and deep understanding of complex data and reporting to drive strategy and direction
+- Experience in content marketing and website UX optimization are also helpful in this role
+
 #### Manager, Digital Marketing Programs
 
 The Manager of Digital Marketing Programs for GitLab should have a background and hands-on experience in all areas of marketing: SEO, SEM, Paid and Organic Social, ABM, Paid sponsorships, and Conversion Rate Optimization. They will have experience managing marketing teams and working with marketing agencies. They should also be able to maintain a budget, use analytics tools, CRM, MAT, and other marketing tools, and have a data-driven approach to marketing. Experience in content marketing and website maintenance are also helpful in this role.

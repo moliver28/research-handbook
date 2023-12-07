@@ -1,22 +1,8 @@
 ---
----
-aliases: /handbook/customer-success/professional-services-engineering/education-services/
-gitlabcicdhandsonlab3.md.html
-
----
-aliases: /handbook/customer-success/professional-services-engineering/education-services/
-{}.html
-
 title: "GitLab CI/CD Hands-On Guide: Lab 3"
 description: "This Hands-On Guide walks you through the lab exercises in the GitLab CI/CD course."
 ---
----
-aliases: /handbook/customer-success/professional-services-engineering/education-services/
-gitlabcicdhandsonlab3.md.html
 
----
-aliases: /handbook/customer-success/professional-services-engineering/education-services/
-{}.html
 # GitLab CI/CD Hands-On Guide: Lab 3
 
 

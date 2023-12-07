@@ -13,6 +13,7 @@ red="\e[31m"
 # Globals
 HANDBOOK_REPO=$(git rev-parse --show-toplevel)
 DIRECTORY_TO_SPLIT=NOSET
+export FILTER_BRANCH_SQUELCH_WARNING=1
 
 # Command line options
 DUBDUBDUB_REPO=$(git rev-parse --show-toplevel)/../www-gitlab-com
@@ -280,10 +281,9 @@ menu:
 EOF
 fi
 
-
-if [[ $IS_MARKETING != "true" || $IS_ENGINEERING != "true" ]]; then
 cd content
 
+if [[ $IS_MARKETING != "true" && $IS_ENGINEERING != "true" ]]; then
 # Migrated Sections using fully qualified url on about
 echo "Migrating links which have been migrated to the new handbook..."
 find . -type f -name "*.md" -exec sed -i '' "s~](https://about.gitlab.com/handbook/anti-harassment/~](/handbook/anti-harassment/~g" {} +
@@ -432,6 +432,7 @@ find . -type f -name "*.md" -exec sed -i '' "s~](/handbook/style-guide/~](https:
 echo "Fixing links for sections which won't be migrated..."
 find . -type f -name "*.md" -exec sed -i '' "s~](/blog/~](https://about.gitlab.com/blog/~g" {} +
 find . -type f -name "*.md" -exec sed -i '' "s~](/direction/~](https://about.gitlab.com/direction/~g" {} +
+fi
 
 # Clean up the markdown and erb files a bit
 echo  "Cleaning up markdown files..."
@@ -465,7 +466,7 @@ find . -type f -name "*.erb" -exec sed -i '' "s~{: .shadow}~~g" {} +
 find . -type f -name "*.md" -exec sed -i '' "s~{:toc}~~g" {} +
 
 cd ..
-fi
+
 
 # Run markdownlint to try to fix as many errors as possible
 

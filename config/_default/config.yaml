@@ -47,39 +47,19 @@ params:
   privacy_policy: https://about.gitlab.com/privacy/
   links:
     user:
+      - name: "Slack"
+        url: "https://gitlab.slack.com/archives/C81PT2ALD"
+        icon: "fab fa-slack"
+        desc: "#handbook on Slack"
       - name: "Preferences"
         url: "/preferences/"
         icon: "fa-solid fa-sliders"
         desc: "Handbook Preferences"
-      - name: "Contribute"
-        url: "/docs/"
-        icon: "fa fa-pen"
-        desc: "Contribute to the internal handbook"
-      - name: "GitLab Repository"
+      - name: "Repository"
         url: "https://gitlab.com/gitlab-com/content-sites/handbook"
-        icon: "fab fa-gitlab"
+        icon: "fa-solid fa-code-branch"
         desc: "Contribute on GitLab"
-      - name: "Slack Discussions"
-        url: "https://gitlab.slack.com/archives/C81PT2ALD"
-        icon: "fab fa-slack"
-        desc: "Discuss GitLab Handbook on Slack"
-    developer:
-      - name: "GitLab"
-        url: "https://about.gitlab.com/"
-        icon: "fab fa-gitlab"
-        desc: "GitLab"
-      - name: "TeamOps"
-        url: "https://about.gitlab.com/teamops"
-        icon: "fa-solid fa-arrows-spin"
-        desc: "TeamOps"
-      - name: "Handbook"
-        url: "/handbook/"
-        icon: "fa fa-book"
-        desc: "The Handbook"
-      - name: "Job Families"
-        url: "/job-families/"
-        icon: "fa-solid fa-users"
-        desc: "Job Families"
+    developer: []
 
 staticDir:
         - data

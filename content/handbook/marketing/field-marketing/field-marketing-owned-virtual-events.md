@@ -449,11 +449,13 @@ More options
 
 **Webcasts:**    
 - Create a new Pathfactory track by following the instructions outlined [here](/handbook/marketing/marketing-operations/pathfactory/#content-tracks) and then add your track to the [Changelog](/handbook/marketing/marketing-operations/pathfactory/#changelog). NOTE: You must create a [custom slug](/handbook/marketing/marketing-operations/pathfactory/#configure-content-track-settings) when creating the Pathfactory track. 
+- Follow the instructions [here](/handbook/marketing/field-marketing/field-marketing-owned-virtual-events/#converting-the-webcast-to-an-on-demand-gated-asset) to upload your content to Vimeo.
 - In Pathfactory, add the Vimeo video link as new content by following the instructions outlined [here](/handbook/marketing/marketing-operations/pathfactory/content-library/#how-to-upload-content). Add this new piece of content to your previously created Pathfactory track.  
 
 **Workshops:**     
 - FMC to have already created a Pathfactory track for the workshop and added the workshop presentation slides from the [webcast prep issue](https://gitlab.com/gitlab-com/marketing/field-marketing/-/blob/master/.gitlab/issue_templates/webcast-prep.md#fmc-tasks-dri-fmc-).
-- In Pathfactory, add the YouTube Unlisted video link as new content by following the instructions outlined [here](/handbook/marketing/marketing-operations/pathfactory/content-library/#how-to-upload-content). Add this new piece of content to your previously created Pathfactory track.
+- Follow the instructions [here](/handbook/marketing/field-marketing/field-marketing-owned-virtual-events/#converting-the-webcast-to-an-on-demand-gated-asset) to upload your content to Vimeo (this is also outlined in the [follow up email issue template](https://gitlab.com/gitlab-com/marketing/field-marketing/-/blob/master/.gitlab/issue_templates/request_email_followup.md)).
+- In Pathfactory, add the Vimeo video link as new content by following the instructions outlined [here](/handbook/marketing/marketing-operations/pathfactory/content-library/#how-to-upload-content). Add this new piece of content to your previously created Pathfactory track.
 
 #### Marketo - FMC
 

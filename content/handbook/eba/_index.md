@@ -12,13 +12,13 @@ This page details processes and general guidelines specific to the Executive Bus
 | --- | --- | --- |
 | [CEO](/job-families/chief-executive-officer/) | **Jeanne Rotenberry**<br>Staff EBA, **Liki Simonot**<br>Sr EBA  | Sid Sijbrandij (CEO)
 | [Chief of Staff](/job-families/chief-executive-officer/chief-of-staff/) | **Liki Simonot**<br>Sr EBA  | Stella Treas (Chief of Staff)
-| [Engineering](https://about.gitlab.com/handbook/engineering/) | **Marisa Carlson**<br>Sr EBA  | Jörg Heilig (Interim CTO)
+| [Engineering](https://about.gitlab.com/handbook/engineering/) | **Kim Hohmann**<br>Sr EBA  | Jörg Heilig (Interim CTO)
 | [Finance](/handbook/finance/) | **Darci Tadich**<br>Sr EBA |  Brian Robins (CFO)
 | [Finance](/handbook/finance/) | **Cindy King**<br>Sr EBA| Erin Mannix (Chief Accounting Officer)<br>Jim Gladen (VP of Tax)<br>Brijen Joshi (VP of Internal Audit)
 | [Finance](/handbook/finance/) | **Anita Mall**<br>Sr EBA | Craig Mestel (VP of Finance & Business Technology)
 | [Legal](/handbook/legal/) | **Sharlene Seemungal**<br>Sr EBA  | Robin Schulman (CLO and Head of Corporate Affairs)
 | [Legal](/handbook/legal/)  | **Lauren Lopez**<br>EBA  | Eliran Mesika (Sr. Director of Corporate Development)<br>Emily Plotkin (Sr. Director of Legal, Employment)<br>Lynsey Sayers (VP of Legal, Privacy & IP)<br>Matt Taylor (Sr. Director of Legal, Commercial)<br>Rashmi Chachra (Sr. Director of Legal & Corporate Affairs, Corporate)<br>Robert Nalen (VP of Legal Operations)<br>Stacy Cline (Sr. Director of ESG)<br>Dan Hodes (Sr. Director of Legal, Risk Management and Dispute Resolution)
-| [Marketing](/handbook/marketing/)| **Alexa Schrauth**<br>INTERIM Sr EBA | Ashley Kramer (CMSO)
+| [Marketing](/handbook/marketing/)| **Chelsea Peterson**<br> Sr EBA | Ashley Kramer (CMSO)
 | [Marketing](/handbook/marketing/)| **Linsea O'Shea**<br>Sr EBA | Dave Steer (VP of Brand & Product Marketing)<br>Carrie Maynard (VP of Integrated Marketing)<br>Lisa Boughner (VP of Communications)<br> Jean-Baptiste Larramendy (VP of Sales Development)
 | [People](/handbook/people-group/) | **Julia Nishioki**<br>EBA  | Wendy Barnes (CPO)<br>Pattie Egan (VP of People Operations, Technology and Analytics)<br> Rob Allen (VP of Talent Acquisition)<br>Sherida McMullan (VP of Diversity, Inclusion and Belonging)
 | [Product](/handbook/product/) | **Gena Schwam**<br>Sr EBA|  David DeSanto (CProdO)
@@ -43,6 +43,7 @@ If you would like to schedule a meeting with a Leader at GitLab, please slack th
 1. Subject of the meeting
 1. Desired outcome of the meeting
 1. Provide context: include a link to the [agenda doc](https://docs.google.com/document/d/1eH-adpjfyo_RnlfbPvJ3i0e1Qb-aVoNc4yajnkZgJcU/edit?usp=sharing) and provide context in the document so that the EBA can adequately understand and prioritize your meeting with E-Group. The google doc is required to be included in the calendar invite. If you're requesting the meeting, it is your responsibility to prepare the agenda document.
+1. For meetings with the CEO, please tag @ceoeba in your slack message to reach the CEO EBA team.
 1. When scheduling an internal call with the CEO, confirm that there are attendees in non-United States time zones before requesting meetings before 10am PST.
 
 ### Agenda Document Templates

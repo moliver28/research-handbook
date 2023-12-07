@@ -19,5 +19,17 @@
 <td style="text-align:left">{{ index $r 3 }}</td>
 </tr>
 {{ end }}
+{{- if eq $site "handbook" }}
+{{- $scratch := newScratch }}
+{{- range .Site.RegularPages }}
+    {{- $scratch.Add "wordcount" .WordCount }}
+{{- end }}
+<tr>
+    <td style="text-align:center">{{ time.Format "2006-01-02" time.Now }}</td>
+    <td style="text-align:center">{{ $scratch.Get "wordcount" | lang.NumFmt 0 }}</td>
+    <td style="text-align:center">{{ len .Site.RegularPages | lang.NumFmt 0 }}</td>
+    <td style="text-align:center">⬅️ Hugo generated Live Count</td>
+</tr>
+{{ end }}
 </tbody>
 </table>

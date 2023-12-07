@@ -17,28 +17,26 @@ Ensure maximum operational uptime of mission critical infrastructure and informa
 
 ### Team Members
 
-The following people are permanent members of the SIRT
-
-|Person|Role|
+| | |
 |---|---|
-|Joaquin Fuentes|[Director, Security Operations](/job-families/security/security-incident-response-team/#manager-security-incident-response-team)|
-|Valentine Mairet|[Security Manager, SIRT](/job-families/security/security-incident-response-team/#manager-security-incident-response-team)|
-|Matt Coons|[Security Manager, SIRT]({{< ref "security-incident-response-team#manager-security-incident-response-team" >}})|
-|Shrishti Choudhary|[Security Manager, SIRT]({{< ref "security-incident-response-team#manager-security-incident-response-team" >}})|
-|Mitra Jozenazemian|[Staff Security Engineer, SIRT]({{< ref "security-incident-response-team#staff-security-incident-response-team-engineer" >}})|
-|Harjeet Sharma|[Staff Security Engineer, SIRT]({{< ref "security-incident-response-team#staff-security-incident-response-team-engineer" >}})|
-|Janina Roppelt|[Senior Security Engineer, SIRT]({{< ref "security-incident-response-team#senior-security-incident-response-team-engineer" >}})|
-|Laurens Van Dijk|[Senior Security Engineer, SIRT]({{< ref "security-incident-response-team#senior-security-incident-response-team-engineer" >}})|
-|Chathura Kuruwita|[Senior Security Engineer, SIRT]({{< ref "security-incident-response-team#senior-security-incident-response-team-engineer" >}})|
-|Sean Gillespie|[Senior Security Engineer, SIRT]({{< ref "security-incident-response-team#senior-security-incident-response-team-engineer" >}})|
-|Bala Allam|[Security Engineer, SIRT]({{< ref "security-incident-response-team#security-incident-response-team-engineer-intermediate" >}})|
-|Leslie Anzures|[Security Engineer, SIRT]({{< ref "security-incident-response-team#security-incident-response-team-engineer-intermediate" >}})|
-|Ellis Coulson|[Security Engineer, SIRT]({{< ref "security-incident-response-team#security-incident-response-team-engineer-intermediate" >}})|
-|Jason Hawkins|[Senior Security Engineer, SIRT]({{< ref "security-incident-response-team#senior-security-incident-response-team-engineer" >}})|
-|Neil McDonald|[Senior Security Engineer, SIRT]({{< ref "security-incident-response-team#senior-security-incident-response-team-engineer" >}})|
-|Yunus Khan|[Senior Security Engineer, SIRT]({{< ref "security-incident-response-team#senior-security-incident-response-team-engineer" >}})|
+|Matt Coons|[Security Manager]({{< ref "security-incident-response-team#manager-security-incident-response-team" >}})|
+|Shrishti Choudhary|[Security Manager]({{< ref "security-incident-response-team#manager-security-incident-response-team" >}})|
+|Valentine Mairet|[Security Manager]({{< ref "security-incident-response-team#manager-security-incident-response-team" >}})|
 
-
+| | |
+|---|---|
+|Bala Allam|[Senior Security Engineer]({{< ref "security-incident-response-team#senior-security-incident-response-team-engineer" >}})|
+|Chathura Kuruwita|[Senior Security Engineer]({{< ref "security-incident-response-team#senior-security-incident-response-team-engineer" >}})|
+|Ellis Coulson|[Security Engineer]({{< ref "security-incident-response-team#security-incident-response-team-engineer-intermediate" >}})|
+|Harjeet Sharma|[Staff Security Engineer]({{< ref "security-incident-response-team#staff-security-incident-response-team-engineer" >}})|
+|Janina Roppelt|[Senior Security Engineer]({{< ref "security-incident-response-team#senior-security-incident-response-team-engineer" >}})|
+|Jason Hawkins|[Senior Security Engineer]({{< ref "security-incident-response-team#senior-security-incident-response-team-engineer" >}})|
+|Laurens Van Dijk|[Senior Security Engineer]({{< ref "security-incident-response-team#senior-security-incident-response-team-engineer" >}})|
+|Leslie Anzures|[Security Engineer]({{< ref "security-incident-response-team#security-incident-response-team-engineer-intermediate" >}})|
+|Mitra Jozenazemian|[Staff Security Engineer]({{< ref "security-incident-response-team#staff-security-incident-response-team-engineer" >}})|
+|Neil McDonald|[Senior Security Engineer]({{< ref "security-incident-response-team#senior-security-incident-response-team-engineer" >}})|
+|Sean Gillespie|[Senior Security Engineer]({{< ref "security-incident-response-team#senior-security-incident-response-team-engineer" >}})|
+|Yunus Khan|[Senior Security Engineer]({{< ref "security-incident-response-team#senior-security-incident-response-team-engineer" >}})|
 
 ## <i class="fas fa-stream" id="biz-tech-icons"></i> Services We Provide:
 

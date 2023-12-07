@@ -69,7 +69,7 @@ feedback in the [discussion issue](https://gitlab.com/gitlab-com/support/support
 
 ### Cliff of definite underperformance
 
-A support engineer is definitively underperforming when they handle less than 7 tickets in any of 3 of the past 4 weeks. <i class="fa-solid fa-triangle-exclamation"></i>
+A support engineer is definitively underperforming when they handle less than 8 tickets in any of 3 of the past 4 weeks. <i class="fa-solid fa-triangle-exclamation"></i>
 
 A support engineer is considered to have handled a ticket when they leave either
 a public or internal comment on a ticket.
@@ -103,9 +103,10 @@ each financial quarter.
    - the number for the Cliff of Definite Underperformance (CoDU) as observed for the 12 month period concluding prior to the listed quarter.
    - a link to the notification issue when the number was reviewed for that period.
 
-| **Quarter** | **CoDU Number** | **Notification Issue**  |
+| **Quarter** | **Cliff Number** | **Notification Issue**  |
 |------------| -------- |------|--------------------------|
-| FY24-Q3 (Current) | 7 | [STM#5494](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/5494) |
+| FY24-Q4 (Current) | 8 | [STM#5672](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/5672) |
+| FY24-Q3 | 7 | [STM#5494](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/5494) |
 | FY24-Q2 | 7 | Nil - practice started in FY24-Q3 |
 | FY24-Q1 | 6 | |
 | FY23-Q4 | 5 | |

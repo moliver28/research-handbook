@@ -16,12 +16,12 @@ description: "This Hands On Guide is designed to walk you through the lab exerci
 6. Enter your credentials and launch the demo environment.
 
 ## GitLab System Administration Basics Labs
-- [Lab 1- Install GitLab EE](/handbook/customer-success/professional-services-engineering/education-services/sysadminbasicshandson1.html)
-- [Lab 2- Verify Your GitLab Installation](/handbook/customer-success/professional-services-engineering/education-services/sysadminbasicshandson2.html)
-- [Lab 3- Use the GitLab Admin Panel](/handbook/customer-success/professional-services-engineering/education-services/sysadminbasicshandson3.html)
-- [Lab 4- Use GitLab Admin Commands](/handbook/customer-success/professional-services-engineering/education-services/sysadminbasicshandson4.html)
-- [Lab 5- GitLab Runner Registration](/handbook/customer-success/professional-services-engineering/education-services/sysadminbasicshandson5.html)
-- [Lab 6- Improve Instance Security](/handbook/customer-success/professional-services-engineering/education-services/sysadminbasicshandson6.html)
+- [Lab 1- Install GitLab EE](/handbook/customer-success/professional-services-engineering/education-services/sysadminbasicshandson1)
+- [Lab 2- Verify Your GitLab Installation](/handbook/customer-success/professional-services-engineering/education-services/sysadminbasicshandson2)
+- [Lab 3- Use the GitLab Admin Panel](/handbook/customer-success/professional-services-engineering/education-services/sysadminbasicshandson3)
+- [Lab 4- Use GitLab Admin Commands](/handbook/customer-success/professional-services-engineering/education-services/sysadminbasicshandson4)
+- [Lab 5- GitLab Runner Registration](/handbook/customer-success/professional-services-engineering/education-services/sysadminbasicshandson5)
+- [Lab 6- Improve Instance Security](/handbook/customer-success/professional-services-engineering/education-services/sysadminbasicshandson6)
 
 ## Quick links
 

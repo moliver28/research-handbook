@@ -43,7 +43,7 @@ If you are issued a refreshed or replacement laptop, please do not transfer data
 
 # Linux laptops
 
-We do not have Linux-based endpoint management in place at this time. We are using [DriveStrike](/handbook/business-technology/team-member-enablement/onboarding-access-requests/#fleet-intelligence--remote-lockwipe) to perform remote disk wipes in case a Linux device is lost, stolen, or the team-member is offboarded. There will be a second initiative to address Linux-based endpoint management in the future.
+We do not have Linux-based endpoint management in place at this time. We are using [DriveStrike](/handbook/it/guides/drivestrike/) to perform remote disk wipes in case a Linux device is lost, stolen, or the team-member is offboarded. There will be a second initiative to address Linux-based endpoint management in the future.
 
 # Windows laptops
 

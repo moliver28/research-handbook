@@ -42,7 +42,7 @@ The [Monthly Kick-Off](https://about.gitlab.com/direction/kickoff/#overview) is 
 | ---- | ---- | -------------- |
 | 2023-09-18 | Hillary Benson | [16.5 Release Kick Off Issue](https://gitlab.com/gitlab-com/Product/-/issues/12732) | 
 | 2023-10-16 | Justin Farris | [16.6 Release Kick Off Issue](https://gitlab.com/gitlab-com/Product/-/issues/12796) |
-| 2023-11-16 | Mike Flouton | To be added |
+| 2023-11-16 | Mike Flouton | [16.7 Release Kick Off](https://gitlab.com/gitlab-com/Product/-/issues/12859) |
 | 2023-12-18 | Hillary Benson | To be added |
 | 2024-01-18 | Justin Farris | To be added |
 | 2024-02-19 | Mike Flouton | To be added |
@@ -64,7 +64,7 @@ The Product [Key Review](/handbook/key-review/) is hosted by a member of the [Pr
 
 | Date | Host | Planning Issue |
 | ---- | ---- | -------------- |
-| 2023-11-15 | Mike Flouton | To be added |
+| 2023-11-15 | Mike Flouton | https://gitlab.com/gitlab-com/Product/-/issues/12863 |
 | 2024-XX-XX | Hillary Benson | To be added |
 | 2024-XX-XX | Justin Farris | To be added |
 | 2024-XX-XX | Mike Flouton | To be added |
@@ -79,8 +79,8 @@ For more details, visit the Group Conversations [handbook page](/handbook/group-
 
 | Date | Host | Planning Issue |
 | ---- | ---- | -------------- |
-| 2023-09-27 | Mike Flouton | To be added | 
-| 2023-11-29 | Hillary Benson | To be added |
+| 2023-09-27 | Mike Flouton | https://gitlab.com/gitlab-com/Product/-/issues/12401 | 
+| 2023-12-06 | Hillary Benson | https://gitlab.com/gitlab-com/Product/-/issues/12909 |
 | 2024-XX-XX | Justin Farris | To be added  |
 | 2024-XX-XX | Mike Flouton | To be added |
 | 2024-XX-XX | Hillary Benson | To be added |

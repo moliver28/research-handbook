@@ -46,7 +46,7 @@ When it comes to training models, there are trade-offs to training on your local
 
 ## Getting Started
 
-This section covers, in detail, the mechanisms behind how this pipeline is created and configured. **If you are just interested in getting your data science CI pipeline up and running, skip directly to the [Step-by-Step Instructions](/handbook/business-technology/data-team/platform/ci-for-ds-pipelines/index.html.md#step-by-step-instructions)**
+This section covers, in detail, the mechanisms behind how this pipeline is created and configured. **If you are just interested in getting your data science CI pipeline up and running, skip directly to the [Step-by-Step Instructions](/handbook/business-technology/data-team/platform/ci-for-ds-pipelines#step-by-step-instructions)**
 
 ### Repository Files
 
@@ -131,5 +131,5 @@ Let's take a detailed look at the repository (**Code -> Repository**):
 1. Finally, let's look at the container that was used to train the model (**Deploy -> Container Registry**)
    - This container will be used in subsequent runs of the model and will only get rebuilt when **Dockerfile** or **requirements.txt** are modified. ![Container](container.png)
 
-**And that's it! Feel free to modify this pipeline and notebook to fit your data science modeling needs. And be sure to check out all the other great data science resources on our [Data Science Handbook Page](handbook/business-technology/data-team/organization/data-science/). Happy pipelining!**
+**And that's it! Feel free to modify this pipeline and notebook to fit your data science modeling needs. And be sure to check out all the other great data science resources on our [Data Science Handbook Page](/handbook/business-technology/data-team/organization/data-science/). Happy pipelining!**
 

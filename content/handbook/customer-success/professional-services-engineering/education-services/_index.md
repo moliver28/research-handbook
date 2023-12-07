@@ -1,28 +1,7 @@
 ---
----
-aliases: /handbook/customer-success/professional-services-engineering/education-services/
-_index.md.html
-
----
-aliases: /handbook/customer-success/professional-services-engineering/education-services/
-{}.html
-
 title: "GitLab Professional Education Services"
 description: “Technical Learning and Certification from GitLab Professional Services”
 ---
----
-aliases: /handbook/customer-success/professional-services-engineering/education-services/
-_index.md.html
-
----
-aliases: /handbook/customer-success/professional-services-engineering/education-services/
-{}.html
-
-
-
-
-
-
 
 ## Professional Education Services Overview
 

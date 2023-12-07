@@ -26,12 +26,6 @@ for a milestone when:
 - A process, workflow, or previously documented feature is changed.
 - A feature is deprecated or removed.
 
-{{% alert title="Note" color="primary" %}}
-Documentation refactoring unrelated to a feature change is covered by
-the [process for changes not related to a specific milestone](https://docs.gitlab.com/ee/development/documentation/workflow.html),
-which allows for time-sensitive documentation updates to be prioritized.
-{{% /alert %}}
-
 Documentation isn't typically required when a *backend feature* is added or changed.
 
 ## Documentation for a product change
@@ -44,7 +38,7 @@ Documentation is required for any new or changed feature, and is:
   documentation get out-of-sync.
 - Required with the delivery of a feature for a specific milestone as part of the
   GitLab [definition of done](https://docs.gitlab.com/ee/development/contributing/merge_request_workflow.html#definition-of-done).
-- Often linked from the release post.
+- Linked from the release post.
 
 ### Developer responsibilities
 
@@ -79,8 +73,7 @@ Technical Writers are happy to help, as requested and planned on an
 issue-by-issue basis.
 
 For feature issues requiring documentation, follow the process below unless
-otherwise agreed with the Product Manager and Technical Writer for a given
-issue:
+otherwise agreed with the Product Manager and Technical Writer:
 
 - Include any new and edited documentation, either in:
   - The merge request introducing the code.
@@ -159,12 +152,7 @@ Technical Writers are responsible for:
   before merge or after it is merged, in accordance with [review principles](/handbook/product/ux/technical-writing/#review-principles).
 - Assisting the developer and Product Manager with feature documentation
   delivery.
-- Ensuring that issues and MRs are labeled appropriately, and that doc content:
-  - Has the correct [metadata](https://docs.gitlab.com/ee/development/documentation/index.html#metadata).
-  - Has an entry in the repo's CODEOWNERS file, if one exists (typically
-    [CODEOWNERS](https://gitlab.com/gitlab-org/gitlab/-/blob/master/.gitlab/CODEOWNERS)
-    in `gitlab-org/gitlab` repo). The entry can be a path if all its files are
-    owned by the same group; otherwise include references to individual files.
+- Ensuring that issues and MRs are labeled appropriately, and that doc content has the correct [metadata](https://docs.gitlab.com/ee/development/documentation/metadata.html).
 
 #### Planning
 
@@ -327,10 +315,8 @@ changes might need to happen to a team's current workflow:
   reviews, to ensure the described processes match the expected use of the
   feature, and that examples
   are correct. They *don't* need to worry about style, grammar, and so on.
-- The Technical Writer must be assigned the MR directly and not only pinged.
-  Thanks to the ability to have
-  [multiple assignees for any MR](https://docs.gitlab.com/ee/user/project/merge_requests/#assign-multiple-users),
-  this can be done at any time, but must be before the code maintainer review.
+- The Technical Writer must be assigned as a reviewer on the MR directly and not only pinged.
+  This can be done at any time, but must be before the code maintainer review.
   It's common to have both the documentation and code reviews happening at the
   same time, with the author, reviewer and Technical Writer discussing the
   documentation together.
@@ -345,10 +331,6 @@ changes might need to happen to a team's current workflow:
   If the feature is merged before final documentation approval, the maintainer
   must create a [post-merge follow-up issue](https://docs.gitlab.com/ee/development/documentation/workflow.html#post-merge-reviews),
   and assign it to both the engineer and Technical Writer.
-
-Maintainers are allowed to merge features with the documentation *as-is*, even
-if the Technical Writer hasn't given final approval yet but the merge request
-has all other required approvals.
 
 You can visualize the parallel workflow for code and documentation reviews as:
 

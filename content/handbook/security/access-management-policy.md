@@ -53,7 +53,7 @@ These templates should be used during the [onboarding process](/handbook/people-
    - ARs for Slack groups for internal GitLab team members
    - ARs using a role based template
    - ARs for access removal
-   - ARs resulting from a [User Access Review](/handbook/security/security-assurance/security-compliance/access-reviews.html) in which users are marked for an access change by the technical/business owner performing the review
+   - ARs resulting from a [User Access Review](/handbook/security/security-assurance/security-compliance/access-reviews) in which users are marked for an access change by the technical/business owner performing the review
 
   Please note that ARs for access to internal systems for "external to GitLab individuals" require managerial approval. This includes access to Google Workspace security groups.
 
