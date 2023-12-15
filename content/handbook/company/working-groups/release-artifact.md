@@ -32,6 +32,8 @@ Today, no single tool provides or specification exists to describe a release art
 
 Moreover, while SBOMs are gaining adoption, there is no specification that would describe their usage in a standard format, to support the whole release process.
 
+There is a clear miss in capturing the end to end business process of a release from a cross functional perspective instead of from the atomic point of view of a developer persona.
+
 ### Goals
 
 - Create a specification for a new standard that we can donate to the CNCF
@@ -71,6 +73,7 @@ The table below lists all exit criteria for the working group. See the top-level
   - I want to switch feature flags outside of the RA, but feature flags might be defined within the RA
   - I want to switch load balancers / networking outside of the RA and it should be reflected on the state of the RA
 - I want to define or reference metrics needed to evaluate a deployment or a rollout within the RA, I want to use these metrics to drive the rollout process
+- When I receive an audit question. I want the release artifact to be my SSoT for answers
 
 ### Prior art
 
