@@ -78,7 +78,10 @@ The table below lists all exit criteria for the working group. See the top-level
 ### Prior art
 
 - [SBOM](https://www.ntia.gov/page/software-bill-materials)
-- Within GitLab, [Release evidence](https://docs.gitlab.com/ee/user/project/releases/release_evidence.html)
+- Within GitLab, 
+   - [Release evidence](https://docs.gitlab.com/ee/user/project/releases/release_evidence.html)
+   - [Release as an input to a pipeline](https://gitlab.com/gitlab-org/gitlab/-/issues/332897)
+   - [Connection between releases and environments](https://gitlab.com/gitlab-org/gitlab/-/issues/332103)
 - Outside of GitLab
   - Helm, Kustomize
   - Radar
