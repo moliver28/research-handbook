@@ -275,7 +275,7 @@ As a Customer Advocacy Product Marketer, you will identify, activate, and amplif
 - Define and develop a cross-functional programmatic strategy to create customer success content that reinforces key marketing messages including customer pain points, jobs-to-be-done, GitLabs’ solutions, and other marketing content areas as defined.
 - Define and develop, in collaboration with Sales and other stakeholders, a customer incentive strategy and approach that results in additional net new and growth customer references.
 - Own internal advocacy efforts by cultivating and promoting champions; this includes embracing an “always-on” advocacy methodology that highlights the importance of customer references, a definition of internal economic/non-economic incentives and recognition programs for surfacing stories.
-- Leverage customer advocacy insights and lessons learned in relation to Gitlab’s marketing plan and deliverables to influence the overall product marketing strategy and roadmap.
+- Leverage customer advocacy insights and lessons learned in relation to GitLab’s marketing plan and deliverables to influence the overall product marketing strategy and roadmap.
 
 ### Market Insights
 

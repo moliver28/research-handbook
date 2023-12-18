@@ -92,7 +92,7 @@ The Senior People Business Partner is a [grade 7](/handbook/total-rewards/compen
 - Relevant, progressive People Business Partner experience supporting front line, mid-level and executive leaders.
 - Expert-level experience in a variety of HR competency areas such as organizational design and development, leadership development, change management, performance management, and employee relations.
 - Strong attention to detail and ability to work well with fluid information.
-- Comfortable using technology, including Google Workspace and Gitlab.
+- Comfortable using technology, including Google Workspace and GitLab.
 - Effective and concise verbal and written communication skills; ability to collaborate cross-functionally.
 - Obsessed with results that matter; able to create and deliver full-cycle projects (start to finish) and results in a timely manner.
 - Team player who acts with a sense of urgency and adapts to a fast-paced and ever-changing environment.
@@ -129,7 +129,7 @@ This job may be an individual contributor or a manager of people, but the title 
 - Relevant, progressive People Business Partner experience supporting front line, mid-level and executive leaders.
 - Expert-level experience in a variety of HR competency areas such as organizational design and development, leadership development, change management, performance management, and employee relations.
 - Strong attention to detail and ability to work well with fluid information.
-- Comfortable using technology, including Google Workspace and Gitlab.
+- Comfortable using technology, including Google Workspace and GitLab.
 - Effective and concise verbal and written communication skills; ability to collaborate cross-functionally.
 - Obsessed with results that matter; able to create and deliver full-cycle projects (start to finish) and results in a timely manner.
 - Team player who acts with a sense of urgency and adapts to a fast-paced and ever-changing environment.
@@ -164,7 +164,7 @@ The Senior Manager, People Business Partner is a [grade 9](/handbook/total-rewar
 - Relevant, progressive People Business Partner experience supporting front line, mid-level and executive leaders.
 - Expert-level experience in a variety of HR competency areas such as organizational design and development, leadership development, change management, performance management, and employee relations.
 - Strong attention to detail and ability to work well with fluid information.
-- Comfortable using technology, including Google Workspace and Gitlab.
+- Comfortable using technology, including Google Workspace and GitLab.
 - Effective and concise verbal and written communication skills; ability to collaborate cross-functionally.
 - Obsessed with results that matter; able to create and deliver full-cycle projects (start to finish) and results in a timely manner.
 - Team player who acts with a sense of urgency and adapts to a fast-paced and ever-changing environment.

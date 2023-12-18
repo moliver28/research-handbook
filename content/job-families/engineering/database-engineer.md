@@ -1,6 +1,6 @@
 ---
 title: "Database Engineer Roles"
-description: "Learn more about Database Engineer roles at Gitlab including requirements, responsibilities and more."
+description: "Learn more about Database Engineer roles at GitLab including requirements, responsibilities and more."
 ---
 
 ## Database Engineer

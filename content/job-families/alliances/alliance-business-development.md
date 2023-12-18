@@ -2,7 +2,7 @@
 title: "Alliance Business Development"
 ---
 
-The Alliance Business Development team is responsible for facilitating co-selling between the Gitlab field sales organization and the sales organizations of strategic public cloud partners such as AWS, Google Cloud and Azure to achieve sales targets. Individual contributor Alliance Business Development Managers are often referred to as “ABDMs”.
+The Alliance Business Development team is responsible for facilitating co-selling between the GitLab field sales organization and the sales organizations of strategic public cloud partners such as AWS, Google Cloud and Azure to achieve sales targets. Individual contributor Alliance Business Development Managers are often referred to as “ABDMs”.
 
 ## Levels
 
@@ -16,9 +16,9 @@ The Associate Alliance Business Development Manager is a [grade 8](/handbook/tot
 
 ### Associate ABDM Responsibilities
 
-- Execution of day-to-day co-selling motion between Gitlab and strategic cloud partner field sellers.
+- Execution of day-to-day co-selling motion between GitLab and strategic cloud partner field sellers.
 - Ensure that any strategic cloud partner incentives are positioned accurately and used appropriately.
-- Facilitate initial co-sell meetings between Gitlab sellers and strategic cloud partner sellers.
+- Facilitate initial co-sell meetings between GitLab sellers and strategic cloud partner sellers.
 - Resolve route conflicts appropriately.
 - Proactively engage with regional sales reps and regional sales leadership.
 - Facilitate territory mapping and identification of new joint opportunities.
@@ -27,7 +27,7 @@ The Associate Alliance Business Development Manager is a [grade 8](/handbook/tot
 - Coordinate the involvement of GitLab personnel, including sales leadership, support, etc. as needed to ensure meeting sales targets and strategic cloud partner performance objectives.
 - Contribute to quarterly business reviews (QBRs) within your assigned territory.
 - Participate in annual planning within the Alliances organization.
-- Build, maintain, and manage relationships with the Gitlab field sales organization.
+- Build, maintain, and manage relationships with the GitLab field sales organization.
 - Build, maintain, and leverage relationships and communications with strategic cloud partner regional partner liaisons.
 - Log all joint co-sell sales activities in Salesforce.
 - Help ensure that private offers are prepared correctly and that correct marketplace fees are applied.
@@ -67,9 +67,9 @@ The Alliance Business Development Manager is a [grade 8](/handbook/total-rewards
 
 ### ABDM Responsibilities
 
-- Execution of day-to-day co-selling motion between Gitlab and strategic cloud partner field sellers.
+- Execution of day-to-day co-selling motion between GitLab and strategic cloud partner field sellers.
 - Ensure that any strategic cloud partner incentives are positioned accurately and used appropriately.
-- Facilitate initial co-sell meetings between Gitlab sellers and strategic cloud partner sellers.
+- Facilitate initial co-sell meetings between GitLab sellers and strategic cloud partner sellers.
 - Resolve route conflicts appropriately.
 - Proactively engage with regional sales reps and regional sales leadership.
 - Facilitate territory mapping and identification of new joint opportunities.
@@ -78,7 +78,7 @@ The Alliance Business Development Manager is a [grade 8](/handbook/total-rewards
 - Coordinate the involvement of GitLab personnel, including sales leadership, support, etc. as needed to ensure meeting sales targets and strategic cloud partner performance objectives.
 - Contribute to quarterly business reviews (QBRs) within your assigned territory.
 - Participate in annual planning within the Alliances organization.
-- Build, maintain, and manage relationships with the Gitlab field sales organization.
+- Build, maintain, and manage relationships with the GitLab field sales organization.
 - Build, maintain, and leverage relationships and communications with strategic cloud partner regional partner liaisons.
 - Log all joint co-sell sales activities in Salesforce.
 - Help ensure that private offers are prepared correctly and that correct marketplace fees are applied.
@@ -118,9 +118,9 @@ The Senior Alliance Business Development Manager is a [grade 8](/handbook/total-
 
 ### Senior ABDM Responsibilities
 
-- Execution of day-to-day co-selling motion between Gitlab and strategic cloud partner field sellers.
+- Execution of day-to-day co-selling motion between GitLab and strategic cloud partner field sellers.
 - Ensure that any strategic cloud partner incentives are positioned accurately and used appropriately.
-- Facilitate initial co-sell meetings between Gitlab sellers and strategic cloud partner sellers.
+- Facilitate initial co-sell meetings between GitLab sellers and strategic cloud partner sellers.
 - Resolve route conflicts appropriately.
 - Proactively engage with regional sales reps and regional sales leadership.
 - Facilitate territory mapping and identification of new joint opportunities.
@@ -129,7 +129,7 @@ The Senior Alliance Business Development Manager is a [grade 8](/handbook/total-
 - Coordinate the involvement of GitLab personnel, including sales leadership, support, etc. as needed to ensure meeting sales targets and strategic cloud partner performance objectives.
 - Contribute to quarterly business reviews (QBRs) within your assigned territory.
 - Participate in annual planning within the Alliances organization.
-- Build, maintain, and manage relationships with the Gitlab field sales organization.
+- Build, maintain, and manage relationships with the GitLab field sales organization.
 - Build, maintain, and leverage relationships and communications with strategic cloud partner regional partner liaisons.
 - Log all joint co-sell sales activities in Salesforce.
 - Help ensure that private offers are prepared correctly and that correct marketplace fees are applied.
@@ -172,12 +172,12 @@ The Director Alliance Business Development is a [grade 10](/handbook/total-rewar
 - Directly manage Alliance Business Development Manager team globally across all market segments (Enterprise, Mid Market & SMB)
 - Provide understanding of business dynamics and key drivers and set strategies, tactics, and success metrics.
 - Oversee ABDM demand generation and pipeline building activities globally.
-- Facilitate co-selling to drive Gitlab revenue through strategic cloud partner marketplaces.
+- Facilitate co-selling to drive GitLab revenue through strategic cloud partner marketplaces.
 - Resolve marketplace deal escalations.
 - Provide VP, Alliances with critical business visibility and weekly business status.
 - Participate in and/or present in quarterly business reviews.
 - Preparation of presentations, territory plans and reports
-- Engage Gitlab global and regional sales leadership, solutions architects and partner marketing teams to ensure awareness and leverage of strategic cloud partnerships.
+- Engage GitLab global and regional sales leadership, solutions architects and partner marketing teams to ensure awareness and leverage of strategic cloud partnerships.
 - Foster executive relationships globally, both internally and within the strategic cloud partner sales and partner organizations,
 - Contribute to cloud partners go to market planning.
 - Support partner marketing in support of joint marketing activities with strategic cloud partners within each geo and globally.
@@ -210,9 +210,9 @@ The Senior Director Alliance Business Development is a [grade 11](/handbook/tota
 
 In addition to the responsibilities and requirements of the Director Alliance Business Development, the Senior Director Alliance Business Development includes the following:
 
-- Execution of day-to-day co-selling motion between Gitlab and strategic cloud partner field sellers.
+- Execution of day-to-day co-selling motion between GitLab and strategic cloud partner field sellers.
 - Ensure that any strategic cloud partner incentives are positioned accurately and used appropriately.
-- Facilitate initial co-sell meetings between Gitlab sellers and strategic cloud partner sellers.
+- Facilitate initial co-sell meetings between GitLab sellers and strategic cloud partner sellers.
 - Resolve route conflicts appropriately.
 - Proactively engage with regional sales reps and regional sales leadership.
 - Facilitate territory mapping and identification of new joint opportunities.
@@ -221,7 +221,7 @@ In addition to the responsibilities and requirements of the Director Alliance Bu
 - Coordinate the involvement of GitLab personnel, including sales leadership, support, etc. as needed to ensure meeting sales targets and strategic cloud partner performance objectives.
 - Contribute to quarterly business reviews (QBRs) within your assigned territory.
 - Participate in annual planning within the Alliances organization.
-- Build, maintain, and manage relationships with the Gitlab field sales organization.
+- Build, maintain, and manage relationships with the GitLab field sales organization.
 - Build, maintain, and leverage relationships and communications with strategic cloud partner regional partner liaisons.
 - Log all joint co-sell sales activities in Salesforce.
 - Help ensure that private offers are prepared correctly and that correct marketplace fees are applied.

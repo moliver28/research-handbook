@@ -55,7 +55,7 @@ The Senior Inside Sales Representative is a [grade 7](/handbook/total-rewards/co
 ### Additional Responsibilities
 
 - One year of successful account management related to closed sales results with GitLab Public Sector clients.
-- One year of successful account management at Gitlab with regards to call, deal and other metrics (e.g. managing tasks in SalesForce).
+- One year of successful account management at GitLab with regards to call, deal and other metrics (e.g. managing tasks in SalesForce).
 - Ability and willingness to mentor less experienced PubSec team members.
 
 {{% job-families/sales/performance %}}

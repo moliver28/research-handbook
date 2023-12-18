@@ -255,7 +255,7 @@ The VP of Security is a [grade 12](/handbook/total-rewards/compensation/compensa
 #### VP of Security Responsibilities
 
 - Extends that of the Senior Director, Security requirements
-- Set the vision of a Gitlab Security function with a clear roadmap
+- Set the vision of a GitLab Security function with a clear roadmap
 - Build and maintain a rapidly growing team with top-tier talent
 - Embrace GitLab's values by balancing transparency and security
 - Establish and implement security policies, procedures, standards, and guidelines

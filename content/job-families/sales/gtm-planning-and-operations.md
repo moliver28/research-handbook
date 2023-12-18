@@ -94,7 +94,7 @@ From a survey data perspective, this role rolls up to the broader Sales Operatio
 - Relevant experience and a solid understanding of go-to-market design & sales planning as well as sales compensation design & analytics
 - Some experience interacting with Leaders at the VP level as well as experience collaborating closely with leaders at the Sr. Director level and below
 - Advanced analytical and financial modeling skills with high motivation to drive high value insights
-- Meet the [Leadership at Gitlab](/handbook/company/team/structure/#management-group) requirements
+- Meet the [Leadership at GitLab](/handbook/company/team/structure/#management-group) requirements
 
 ### Senior Manager, GTM Planning and Operations
 
@@ -118,7 +118,7 @@ The Senior Manager, GTM Planning and Operations is a [grade 9](/handbook/total-r
 - Considerable relevant experience and a solid understanding of go-to-market design & sales planning as well as sales compensation design & analytics
 - Considerable experience interacting with Leaders at the VP level as well as experience collaborating closely with leaders at the Sr. Director level and below
 - Advanced analytical and financial modeling skills with high motivation to drive high value insights
-- Meet the [Leadership at Gitlab](/handbook/company/team/structure/#management-group) requirements
+- Meet the [Leadership at GitLab](/handbook/company/team/structure/#management-group) requirements
 
 ### Director, GTM Planning and Operations
 
@@ -144,7 +144,7 @@ The Director, GTM Planning and Operations is a [grade 10](/handbook/total-reward
 - Significant experience in relevant fields and a comprehensive understanding of go-to-market design & sales planning as well as sales compensation design & analytics
 - Significant experience interacting with C-suite Executives and closely partnering with Leaders at the VP level and below
 - Advanced analytical and financial modeling skills with a superb ability to drive high value insights
-- Meet the [Leadership at Gitlab](/handbook/company/team/structure/#management-group) requirements
+- Meet the [Leadership at GitLab](/handbook/company/team/structure/#management-group) requirements
 
 ### Senior Director, GTM Planning and Operations
 
@@ -175,7 +175,7 @@ The Senior Director, GTM Planning and Operations is a [grade 11](/handbook/total
 - Ability to work independently with a high degree of accountability, while also able to collaborate cross-functionally with exceptional intrapersonal skills Proven ability to thrive in a fluid, fast-paced, unpredictable environment.
 - Unquestionable ethics, integrity and business judgment; you share our values, and work in accordance with those values.
 
-- Meet the [Leadership at Gitlab](/handbook/company/team/structure/#management-group) requirements
+- Meet the [Leadership at GitLab](/handbook/company/team/structure/#management-group) requirements
 
 ## Performance Indicators
 

@@ -1,9 +1,9 @@
 ---
 title: Revenue Accounting
-description: "The Revenue Accounting Team at Gitlab forms part of the Revenue Organization. The Revenue Accounting Team is responsible for Worldwide Revenue Accounting."
+description: "The Revenue Accounting Team at GitLab forms part of the Revenue Organization. The Revenue Accounting Team is responsible for Worldwide Revenue Accounting."
 ---
 
-The Revenue Accounting Team at Gitlab forms part of the Revenue Organization. The Revenue Accounting Team is responsible for Worldwide Revenue Accounting.
+The Revenue Accounting Team at GitLab forms part of the Revenue Organization. The Revenue Accounting Team is responsible for Worldwide Revenue Accounting.
 
 ## Revenue Accounting Team Levels
 
@@ -198,7 +198,7 @@ The Director, Revenue Accounting is a [grade 10](/handbook/total-rewards/compens
 #### Director, Revenue Accounting Responsibilities
 
 - Guide, mentor and manage the world-wide revenue organization, which includes the revenue accounting, revenue gpo, billing and accounts receivable teams.
-- Matrix management capabilities to communicate with and educate finance and non-finance personnel on revenue accounting guidance, Gitlab specific policies and procedures as well as inputs on structuring of customer arrangements
+- Matrix management capabilities to communicate with and educate finance and non-finance personnel on revenue accounting guidance, GitLab specific policies and procedures as well as inputs on structuring of customer arrangements
 - Review customer arrangements for proper revenue recognition in accordance with company policy and revenue recognition accounting standards
 - Ensure the integrity of the world-wide license, support, service and training revenue and assist in new product offerings that may be developed over time
 - Review license and service revenue related balance sheet account reconciliations
@@ -233,7 +233,7 @@ The Senior Director, Revenue Accounting is a [grade 11](/handbook/total-rewards/
 - Guide, mentor and manage the world-wide revenue organization, which includes the revenue accounting, revenue gpo, billing and accounts receivable teams.
 - Trusted advisor to the business on commercial and go to market decisions
 - Drive continuous scalability, automation and efficiency
-- Matrix management capabilities to communicate with and educate finance and non-finance personnel on revenue accounting guidance, Gitlab specific policies and procedures as well as inputs on structuring of customer arrangements
+- Matrix management capabilities to communicate with and educate finance and non-finance personnel on revenue accounting guidance, GitLab specific policies and procedures as well as inputs on structuring of customer arrangements
 Review customer arrangements for proper revenue recognition in accordance with company policy and revenue recognition accounting standards
 - Ensure the integrity of the world-wide license, support, service and training revenue and assist in new product offerings that may be developed over time
 - Review license and service revenue related balance sheet account reconciliations
@@ -257,7 +257,7 @@ Provide revenue training to other groups within GitLab
 
 ### VP, Revenue Accounting
 
-The Vice President, Revenue leads the world-wide revenue organization spanning revenue assurance, accounting & reporting, revenue operations, billing operations, accounts receivable and cash collection as well as SOX compliance for the revenue organization. This senior leadership role will set the long term direction for the revenue organization and will be a highly visible presence in commercial and go to market decision making, supporting complex contract negotiations and influencing policy making and complex issues of great significance across Gitlab. The VP, Revenue reports to the Principal Accounting Officer (PAO).
+The Vice President, Revenue leads the world-wide revenue organization spanning revenue assurance, accounting & reporting, revenue operations, billing operations, accounts receivable and cash collection as well as SOX compliance for the revenue organization. This senior leadership role will set the long term direction for the revenue organization and will be a highly visible presence in commercial and go to market decision making, supporting complex contract negotiations and influencing policy making and complex issues of great significance across GitLab. The VP, Revenue reports to the Principal Accounting Officer (PAO).
 
 #### Job Grade
 
@@ -265,29 +265,29 @@ The Vice President, Revenue, is a [job grade 12](/handbook/total-rewards/compens
 
 #### VP, Revenue Accounting Responsibilities
 
-- Develop a long term vision for the revenue organization at Gitlab.
-- Set direction, develop and drive strategic plans and objectives for the revenue organization and influence across Gitlab.
-- Drive the ongoing maturation and automation of systems, processes and teams within the revenue organization and across Gitlab.
+- Develop a long term vision for the revenue organization at GitLab.
+- Set direction, develop and drive strategic plans and objectives for the revenue organization and influence across GitLab.
+- Drive the ongoing maturation and automation of systems, processes and teams within the revenue organization and across GitLab.
 - Develop an excellent working relationship with the sales organization and establish yourself as a highly visible and trusted advisor to sales on complex contract negotiations, commercial and go to market decisions.
 - Approve non standard deal terms in accordance with the deal approval matrix and set Annual Recurring Revenue policy for non routine transactions.
-- Develop and maintain excellent collaborative working relationships with other teams across Gitlab, not only with Sales and the * Sales Organization but also including Customer Service, Legal, FP&A, IT, Accounting and Tax.
+- Develop and maintain excellent collaborative working relationships with other teams across GitLab, not only with Sales and the * Sales Organization but also including Customer Service, Legal, FP&A, IT, Accounting and Tax.
 - Develop an excellent working relationship with external auditors, present significant item updates, supporting documentation for the quarterly reviews and year-end audits.
-- Provide frequent education to the business on complex revenue matters including ASC 606 and provide highly visible communications to critical audiences across Gitlab.
+- Provide frequent education to the business on complex revenue matters including ASC 606 and provide highly visible communications to critical audiences across GitLab.
 - Ensure robust and effective control environment and successful SOX implementation and compliance.
 
 #### VP, Revenue Accounting Requirements
 
 - CPA is required, with minimum 20 years of professional experience with a publicly traded company in a senior revenue leadership role including technology industry experience.
 - Ability to lead a diverse, globally distributed team at scale in a fully remote environment.
-- Ability to negotiate and influence opinions and decision making at the senior leadership level across Gitlab.
+- Ability to negotiate and influence opinions and decision making at the senior leadership level across GitLab.
 - Outstanding business and commercial acumen and ability to educate and translate complex revenue issues to non-finance personnel.
-- Outstanding leadership skills with ability to create a high performing and inclusive organization and to develop and effectively communicate a clear sense of mission, purpose, and priority for long term direction for multiple teams and across Gitlab.
+- Outstanding leadership skills with ability to create a high performing and inclusive organization and to develop and effectively communicate a clear sense of mission, purpose, and priority for long term direction for multiple teams and across GitLab.
 - Polished communication skills, including an ability to listen to the needs of the business, research and comprehend complex matters, articulate issues in a clear and simplified manner, and present findings and recommendations in both oral and written presentations.
 - Excellent technical accounting knowledge with detailed understanding of current US GAAP standards.
 - Experience implementing SOX controls.
 - Meticulous attention to detail and analytical thinking.
 - Superb time management, decision-making and problem solving skills.
-- Demonstrates strong personal integrity, Gitlab values and ethics.
+- Demonstrates strong personal integrity, GitLab values and ethics.
 - Ability to use GitLab.
 
 ### Performance Indicators

@@ -1,9 +1,9 @@
 ---
 title: "Billing Operations"
-description: "The Billing Operations Team at Gitlab form part of the Revenue Accounting Group and are responsible for the Global Billing Operations within the order to cash process."
+description: "The Billing Operations Team at GitLab form part of the Revenue Accounting Group and are responsible for the Global Billing Operations within the order to cash process."
 ---
 
-The Billing Operations Team at Gitlab form part of the Revenue Accounting Group and are responsible for the Global Billing Operations within the order to cash process.
+The Billing Operations Team at GitLab form part of the Revenue Accounting Group and are responsible for the Global Billing Operations within the order to cash process.
 
 ### Billing Operations Team Levels
 

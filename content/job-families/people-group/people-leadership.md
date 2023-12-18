@@ -4,7 +4,7 @@ title: "People Leadership"
 
 ## Senior Director, People Success
 
-The Senior Director of People is responsible for overseeing the team member experience throughout their lifecycle with GitLab. This position reports to the Chief People Officer and works closely with the other People Group leads and organizational leaders in shaping the Gitlab cultural strategies to support ongoing innovation and change. This individual uses their deep global experience and knowledge of multiple HR areas to enable Gitlab's rapid growth.
+The Senior Director of People is responsible for overseeing the team member experience throughout their lifecycle with GitLab. This position reports to the Chief People Officer and works closely with the other People Group leads and organizational leaders in shaping the GitLab cultural strategies to support ongoing innovation and change. This individual uses their deep global experience and knowledge of multiple HR areas to enable GitLab's rapid growth.
 
 ### Job Grade
 

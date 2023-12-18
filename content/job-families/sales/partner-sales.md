@@ -12,7 +12,7 @@ The Senior Manager, Partner Sales is a [grade 9](/handbook/total-rewards/compens
 
 #### Responsibilities
 
-- Engage GitLab country specific team members (Sales Leaders, Customer Success, Marketing, etc.) to ensure awareness and leverage of Gitlab partner strategy and philosophy.
+- Engage GitLab country specific team members (Sales Leaders, Customer Success, Marketing, etc.) to ensure awareness and leverage of GitLab partner strategy and philosophy.
 - Foster executive level relationships in assigned country/territory both internally and with specific partners.
 - Collaborate with partner programs, services and marketing teams to develop the partner strategy and drive revenue in assigned country/territory.
 - Directly manage assigned country/territory of the alliance and channels team across all market segments.

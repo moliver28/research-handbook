@@ -264,7 +264,7 @@ transition from Product Management to General Management.
 
 ### Manage (Organization)
 
-We're looking for product managers that can help us work on the future of developer tools. Specifically, building out our lovable support for GitLab by driving strategy to help organizations prosper and by providing functionality that enables them to manage Gitlab for their organization.
+We're looking for product managers that can help us work on the future of developer tools. Specifically, building out our lovable support for GitLab by driving strategy to help organizations prosper and by providing functionality that enables them to manage GitLab for their organization.
 
 #### Requirements
 

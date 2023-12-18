@@ -1,7 +1,7 @@
 ---
 title: "Integrations Engineering"
 ---
-The Integrations Engineering job family is responsible for ownership and delivery of the core services and APIs that serve as an enterprise data backbone, using an array of different platforms, APIs, databases, protocols and data formats to ensure that the data and the business processes that intersect in the Enterprise Applications Ecosystem are as efficient and high fidelity as possible. Integrations Engineering works to align Gitlab's Enterprise Architecture by building and maintaining key integrations that connect the GitLab Enterprise Application Ecosystem, from the GitLab product ecosytem to cloud systems.
+The Integrations Engineering job family is responsible for ownership and delivery of the core services and APIs that serve as an enterprise data backbone, using an array of different platforms, APIs, databases, protocols and data formats to ensure that the data and the business processes that intersect in the Enterprise Applications Ecosystem are as efficient and high fidelity as possible. Integrations Engineering works to align GitLab's Enterprise Architecture by building and maintaining key integrations that connect the GitLab Enterprise Application Ecosystem, from the GitLab product ecosytem to cloud systems.
 
 ## Responsibilities
 

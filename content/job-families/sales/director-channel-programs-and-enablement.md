@@ -12,10 +12,10 @@ The Director, Channel Programs & Enablement is a [grade 10](/handbook/total-rewa
 
 ### Responsibilities
 
-- Responsible for the design, build and management of partner programs to support Gitlab Channel working in collaboration with the Channel Sales team
+- Responsible for the design, build and management of partner programs to support GitLab Channel working in collaboration with the Channel Sales team
 - Develop Partner Program collateral/documents and onboarding tools to enhance overall partner experience and communicate to partners
 - Develop Partner Portal; leveraging SFDC & PRM - working with marketing & Channel Ops
-- Provide management of Partner Portal to create an engaging platform for partners to interact with Gitlab (lead registration, opportunity tracking, commissions, etc)
+- Provide management of Partner Portal to create an engaging platform for partners to interact with GitLab (lead registration, opportunity tracking, commissions, etc)
 - Work with channel operations/IT to implement channel strategy, data/reporting, system workflows, and overall operational governance for the program
 - Design Channel Enablement Certification & Badge Model.  Work closely with Channel Marketing, Channel Services, Customer Success & Sales enablement on partner enablement tools/training and implement as part of overall program
 - Manage and provide administration of partner agreements/partner contracting working in coordination with legal

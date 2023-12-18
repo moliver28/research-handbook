@@ -306,7 +306,7 @@ The Director, Professional Services Engagement Management is a [grade 10](/handb
 - Develop data-driven growth plan for Engagement Manager team. Execute on hiring plan to staff team appropriately to hit customer satisfaction and financial goals.
 - Contribute to thought leadership and practice development efforts in order to help evolve and mature practice service areas of GitLab Professional Services.
 - Craft and lead the pursuit strategy for Services for both direct and partner services opportunities to ensure customers get the most value with GitLab Solutions.
-- Deeply understand customer's needs and requirements to efficiently and effectively provide a solution and expand Gitlab's scope in every opportunity.
+- Deeply understand customer's needs and requirements to efficiently and effectively provide a solution and expand GitLab's scope in every opportunity.
 - Partner with Sales, Customer Success, and Channel leadership to develop integrated GTM strategies and integrate services selling into sales and adoption strategies and processes to optimize globally for positive customer and business outcomes.
 - Support opportunity progression and negotiation to deliver to booking plan while ensuring services deals are setup to ensure quality delivery, reliable revenue recognition, customer outcome delivery.
 - Lead, drive and implement our business strategy and plans to meet all business goals.

@@ -161,7 +161,7 @@ The business need for an individual contributor Staff Manager Marketing Operatio
 - Collaborate and make proposals across several teams, and helps team members make informed decisions in alignment with strategic plans.
 - Drives formal networks with key decision makers and serves as external spokesperson for the organization.
 - Impact results across teams.
-- Expert in using Gitlab.
+- Expert in using GitLab.
 
 #### Requirements
 

@@ -4,7 +4,7 @@ title: Billing Operations GPO Global Process Owner
 
 ## Billing Operations Global Process Owner (GPO)
 
-The Billing Operations Global Process Owner (GPO) Team at Gitlab forms part of the Revenue Organization. This problem solving, process oriented and outcome based team play a crucial role in system implementation, automation and enhancement, defining new processes and/or refining existing processes within the Billing and Accounts Receivable space. The GPO team provides technical guidance and consultation to the larger Revenue Accounting Team, liaising with internal audit for Billing Operations SOX compliance and participating in cross functional projects.
+The Billing Operations Global Process Owner (GPO) Team at GitLab forms part of the Revenue Organization. This problem solving, process oriented and outcome based team play a crucial role in system implementation, automation and enhancement, defining new processes and/or refining existing processes within the Billing and Accounts Receivable space. The GPO team provides technical guidance and consultation to the larger Revenue Accounting Team, liaising with internal audit for Billing Operations SOX compliance and participating in cross functional projects.
 
 ## Billing Operations GPO Levels
 

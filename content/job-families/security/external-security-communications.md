@@ -2,7 +2,7 @@
 title: Security Analyst, External Security Communications
 ---
 
-As a member of the [Security department](https://about.gitlab.com/handbook/security) at Gitlab, the External Security Communications specialty of the Security Analyst role work to increase visibility, strengthen community engagement and industry recognition of GitLab Security initiatives, programs and team members’ expertise through multi-channel campaigns and initiatives that include blogs, contributed articles, social media, online events and more.
+As a member of the [Security department](https://about.gitlab.com/handbook/security) at GitLab, the External Security Communications specialty of the Security Analyst role work to increase visibility, strengthen community engagement and industry recognition of GitLab Security initiatives, programs and team members’ expertise through multi-channel campaigns and initiatives that include blogs, contributed articles, social media, online events and more.
 
 ## Responsibilities
 

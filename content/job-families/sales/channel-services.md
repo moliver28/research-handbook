@@ -76,15 +76,15 @@ The Senior Channel Services Manager is a [grade 7](/handbook/total-rewards/compe
 
 ### Responsibilities
 
-- Identify, define and assist in building services offerings and/or practices at the partner that support all levels of the Gitlab Customer Success cycle.
-- Provide a channel of communication between the partner and Gitlab to ensure consulting, training, professional and managed services are available across all geographies.
+- Identify, define and assist in building services offerings and/or practices at the partner that support all levels of the GitLab Customer Success cycle.
+- Provide a channel of communication between the partner and GitLab to ensure consulting, training, professional and managed services are available across all geographies.
 - Work with partners to understand services enablement needs, and develop programs and enablement offerings to meet those needs.
-- Work cross-functionally to support the Gitlab Enablement, Professional Services & Customer Success teams in building and improving tools and processes that promote mutual success.
+- Work cross-functionally to support the GitLab Enablement, Professional Services & Customer Success teams in building and improving tools and processes that promote mutual success.
 - Working with the Channel Sales Managers, drive and facilitate partner certifications through eLearning, instructor-led training, boot camps and ongoing certification maintenance.
 - Improve processes for partner services onboarding and engagement with GitLab PS and Sales teams.
 - Create and facilitate communications about GitLab news, opportunities, program details and product updates with channel partners in the regular Channel Programs newsletters and webcasts.
 - Find and recommend new Services Partners in collaboration with corporate and regional Channel Sales Managers
-- Ensure our partners have the skills, training, and expertise to implement, operate and support Gitlab solutions.
+- Ensure our partners have the skills, training, and expertise to implement, operate and support GitLab solutions.
 
 ### Requirements
 
@@ -116,7 +116,7 @@ The Lead Channel Services Manager is a [grade 8](/handbook/total-rewards/compens
 
 - Develop partner services and solution vision and roadmap to drive partner services engagement across the customer lifecycle.
 - Work with the Product Marketing, Alliances, Revenue Programs and Customer Success teams to define the role of service offerings in the GitLab GTM strategies and customer success life cycle. These include professional, training, consulting,and managed services.
-- Provide a channel of communication between the partner and Gitlab to ensure smooth and effective customer implementation processes, seamless Managed Services and value-driven strategic advisory services.
+- Provide a channel of communication between the partner and GitLab to ensure smooth and effective customer implementation processes, seamless Managed Services and value-driven strategic advisory services.
 - Work with partners to understand services enablement needs, and develop programs and enablement offerings to meet those needs.
 - Set cross-functional goals with the Customer Success teams that build partner services into the strategic plans for delivering quality customer outcomes across all phases of the customer life cycle.
 - Working with the Channel Sales Managers, drive and facilitate partner certifications through eLearning, instructor-led training, boot camps and ongoing certification maintenance.
@@ -124,7 +124,7 @@ The Lead Channel Services Manager is a [grade 8](/handbook/total-rewards/compens
 - Collaborate with Product, Solution Architect, Alliances and Professional Services teams to identify and develop enablement materials for new solution offerings.
 - Find and recommend new Services Partners in collaboration with corporate and regional Channel Sales Managers.
 - Lead high impact initiatives to drive greater engagement and value from partner services.
-- Ensure our partners have the skills, training, and expertise to implement, operate and support Gitlab solutions.
+- Ensure our partners have the skills, training, and expertise to implement, operate and support GitLab solutions.
 - Create and facilitate communications about GitLab news, opportunities, program details and product updates with channel partners in the regular Channel Programs communications.
 
 #### Requirements
@@ -169,13 +169,13 @@ The Senior Manager, Channel Services is a [grade 9](/handbook/total-rewards/comp
 #### Responsibilities
 
 - Develop partner services and solution vision and roadmap to drive partner services engagement across the customer lifecycle.
-- Identify and define services offerings and/or practices at the partner that support all levels of the Gitlab Customer Service cycle.  These include professional, training advisory and managed services.
+- Identify and define services offerings and/or practices at the partner that support all levels of the GitLab Customer Service cycle.  These include professional, training advisory and managed services.
 - Work with partners to understand services enablement needs, and define programs and enablement offerings to meet those needs.
 - Improve processes for partner services onboarding and engagement with GitLab Professional Services and Sales teams.  Secure process and rules of engagement commitment from cross functional team leadership.
 - Collaborate with Product, Solution Architect, Alliances and Professional Services teams to define requirements enablement materials for new solution offerings.
 - Find and recommend new Services Partners in collaboration with corporate and regional Channel Sales Managers.
 - Work with Sales and Channel leadership to define program elements for greater partner services engagement with GitLab customers and prospects.
-- Ensure our partners have the skills, training, and expertise to implement, operate and support Gitlab solutions.
+- Ensure our partners have the skills, training, and expertise to implement, operate and support GitLab solutions.
 - Recruit and manage team of Lead and Senior Channel Services Program Managers, establishing team goals, measuring performance and supporting team member career development.
 
 #### Requirements
@@ -202,13 +202,13 @@ The Director, Channel Services is a [grade 10](/handbook/total-rewards/compensat
 
 - Develop partner services and solution vision and roadmap to drive partner services engagement across the customer lifecycle.
 - Collaborate with Customer Success, Sales, Channel and Alliances leadership to align services programs with overall GitLab go to market strategies.
-- Identify and define services offerings and/or practices at the partner that support all levels of the Gitlab Customer Service cycle.  These include professional, training advisory and managed services.
+- Identify and define services offerings and/or practices at the partner that support all levels of the GitLab Customer Service cycle.  These include professional, training advisory and managed services.
 - Work with partners to understand services enablement needs, and define programs and enablement offerings to meet those needs.
 - Secure commitment from cross-functional team leadership for the delivery of resources, and alignment around process and rules of engagement.
 - Collaborate with Product, Solution Architect, Alliances and Professional Services leadership to commit resources for the development of new solution offerings.
 - Find and recommend new Services Partners in collaboration with corporate and regional Channel Sales Managers
 - Work with Sales and Channel leadership to define program elements for greater partner services engagement with GitLab customers and prospects
-- Ensure our partners have the skills, training, and expertise to implement, operate and support Gitlab solutions.
+- Ensure our partners have the skills, training, and expertise to implement, operate and support GitLab solutions.
 - Recruit and manage team of Lead and Senior Channel Services Program Managers, establishing team goals, measuring performance and supporting team member career development.
 
 #### Requirements

@@ -1,10 +1,10 @@
 ---
 title: Revenue GPO Global Process Owner
-description: "The Revenue Global Process Owner (GPO) Team at Gitlab forms part of the Revenue Organization. This problem solving, process oriented and outcome based team play a crucial role in systems implementation, automation and enhancement, defining new processes and/or refining existing processes within the Revenue space, providing ASC 606 technical guidance and consultation to the Revenue Accounting Team, liaising with internal audit for Revenue SOX compliance and participating in cross functional projects. 
+description: "The Revenue Global Process Owner (GPO) Team at GitLab forms part of the Revenue Organization. This problem solving, process oriented and outcome based team play a crucial role in systems implementation, automation and enhancement, defining new processes and/or refining existing processes within the Revenue space, providing ASC 606 technical guidance and consultation to the Revenue Accounting Team, liaising with internal audit for Revenue SOX compliance and participating in cross functional projects. 
 "
 ---
 
-The Revenue Global Process Owner (GPO) Team at Gitlab forms part of the Revenue Organization. This problem solving, process oriented and outcome based team play a crucial role in system implementation, automation and enhancement, defining new processes and/or refining existing processes within the Revenue space, providing ASC 606 technical guidance and consultation to the Revenue Accounting Team, liaising with internal audit for Revenue SOX compliance and participating in cross functional projects.
+The Revenue Global Process Owner (GPO) Team at GitLab forms part of the Revenue Organization. This problem solving, process oriented and outcome based team play a crucial role in system implementation, automation and enhancement, defining new processes and/or refining existing processes within the Revenue space, providing ASC 606 technical guidance and consultation to the Revenue Accounting Team, liaising with internal audit for Revenue SOX compliance and participating in cross functional projects.
 
 ## Revenue GPO Team Levels
 

@@ -102,7 +102,7 @@ The Manager, Technology Partner Managers is a [grade 8](/handbook/total-rewards/
 - Presentation skills with a high degree of comfort speaking with executives, IT Management, and developers
 - Significant experience with executive presence and a proven ability to lead and facilitate executive meetings including architecture whiteboards
 - Excellent time management and written/verbal communication skills
-- Works collaboratively between partners and Gitlab sales team to drive white space discussion and opportunity generation.
+- Works collaboratively between partners and GitLab sales team to drive white space discussion and opportunity generation.
 - Ability to quickly understand technical concepts and explain them to audiences of varying technical expertise
 - Leadership at GitLab
 - Ability to use GitLab

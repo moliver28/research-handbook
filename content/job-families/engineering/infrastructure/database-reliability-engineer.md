@@ -139,7 +139,7 @@ Communication and Collaboration:
 Influence and Maturity:
 
 1. Routinely has an impact on the broader Engineering organization
-1. Write in-depth documentation that shares knowledge and radiates GitLab technical strengths. Participate actively and lead Gitlab technical/Business calls.
+1. Write in-depth documentation that shares knowledge and radiates GitLab technical strengths. Participate actively and lead GitLab technical/Business calls.
 1. Have a high level of self awareness.
 1. Help to develop other team members into senior levels and leaders in the team.
 1. Collaborates closely with development groups and exerts influence on how GitLab (the application) interacts with the database

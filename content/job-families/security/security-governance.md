@@ -7,7 +7,7 @@ extra_js:
 As members of GitLab's [Security Assurance sub department](/handbook/security/security-assurance/), it is the goal of the [Security Governance](/handbook/security/security-assurance/governance/) function to:
 
 - Provide oversight and coordination of security policies, procedures, metrics and internally facing training
-- Ensure security documentation upholds Gitlab's security governance framework through monitoring of the regulatory and compliance landscapes applicable to GitLab and our stakeholders.
+- Ensure security documentation upholds GitLab's security governance framework through monitoring of the regulatory and compliance landscapes applicable to GitLab and our stakeholders.
 - Administer and monitor Security Assurance technologies
 
 Security Governance professionals at GitLab focus on oversight of our security assurance programs and are proficient in all things regulatory. They have a tight partnership with the externally facing Field Security team, are comfortable operating within our transparent assurance programs and understand how security works with cloud-native technology stacks.

@@ -155,7 +155,7 @@ The Director, Global Partner Marketing is a [grade 10](/handbook/total-rewards/c
 - Develop worldwide partner marketing strategy, develop GTM partner marketing plans, metrics and KPIs in alignment with FY22 planning and GTM goals for Partner Initiated Opportunities (PIOs) that are both incremental to our business or represent growth opportunities with existing customers.
 - Work with Technology and Ecosystem alliance partners to identify, develop and execute joint Go To Market (GTM) campaigns.  Identify and integrate Channel partners into these campaigns as appropriate.
 - Lead a team of partner marketers focused on developing scalable, global campaigns aligned to our approved major GTM motions, developed and executed jointly with partners and our demand generation, field marketing, corporate marketing teams to drive demand resulting in PIOs.
-- Develop unique marketing campaigns and messaging to attract and recruit high value partners to become Gitlab channel partners.
+- Develop unique marketing campaigns and messaging to attract and recruit high value partners to become GitLab channel partners.
 - Develop Technology, Ecosystem and Channel Partner  marketing engagement strategy to build share of voice and sales preference for GitLab with partner sales, sales engineers, marketing and C-level.
 - Implement channel partner marketing enablement initiatives, inclusive of programs, tactics, communication vehicles, and enablement tools that will help Channel Partners drive increased market adoption and channel revenue goals.
 - Manage our Market Development Fund (MDF) program including strategy, rules, requests and reimbursement processes.

@@ -184,7 +184,7 @@ Are Site Reliability Engineers who meet the following criteria:
 
 1. Identifies significant projects that result in substantial improvements in reliability, cost savings and/or revenue.
 1. Identifies changes for the product architecture from the reliability, performance and availability perspectives with a data driven approach.
-1. Influences the product roadmap and works with engineering and product counterparts to influence improved resiliency and reliability of the Gitlab product.
+1. Influences the product roadmap and works with engineering and product counterparts to influence improved resiliency and reliability of the GitLab product.
 1. Proactively work on the efficiency and capacity planning to set clear requirements and reduce the system resources usage to make GitLab cheaper to run for all our customers.
 1. Identify parts of the system that do not scale, provides immediate palliative measures and drives long term resolution of these incidents.
 1. Identify Service Level Indicators (SLIs) that will align the team to meet the availability and latency objectives.

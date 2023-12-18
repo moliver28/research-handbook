@@ -1,7 +1,7 @@
 ---
 title: "SMB Account Executive Roles"
 RoleName: "SMB Customer Advocate"
-description: "Learn more about SMB Account Executive roles at Gitlab including requirements, responsibilities and more."
+description: "Learn more about SMB Account Executive roles at GitLab including requirements, responsibilities and more."
 ---
 
 ## Job Grade
@@ -111,7 +111,7 @@ Ticket status can be updated in the following ways:
 
 #### Pitch
 
-**Here are some basic resources for pitching Gitlab and our different product offerings:**
+**Here are some basic resources for pitching GitLab and our different product offerings:**
 
 - [GitLab product messaging](/handbook/marketing/strategic-marketing/)
 - [GitLab product tiers](/handbook/marketing/strategic-marketing/)

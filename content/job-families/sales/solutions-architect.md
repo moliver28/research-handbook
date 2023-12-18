@@ -36,7 +36,7 @@ The Associate Solutions Architect is a [grade 5](/handbook/total-rewards/compens
 - Customer relationships: Establish and maintain positive relationships with customers, focusing on building rapport and trust. Collaborate with individuals within customer environments, understand their needs, and assist them in becoming advocates for GitLab.
 - Customer feedbacks: Effectively communicate customer feedback, requirements, and challenges to relevant teams (including Product Development, Sales, and Marketing) to drive continuous improvement.
 - Market knowledge: Maintain a foundational understanding of technologies related to GitLab's market focus.
-- Gitlab knowledge: Develop a comprehensive knowledge of the GitLab platform and associated technologies. Stay up to date with product updates, new features, and industry trends related to GitLab.
+- GitLab knowledge: Develop a comprehensive knowledge of the GitLab platform and associated technologies. Stay up to date with product updates, new features, and industry trends related to GitLab.
 - Training & Certifications: Aquire industry standard certifications to build up credibility as technical expert.
 - Growth & Development: Continuously improve your professional skills with a focus on personal mastery and team learning through activities such as training, reading and seeking mentorship from others.
 
@@ -65,7 +65,7 @@ The Solutions Architect is a [grade 6](/handbook/total-rewards/compensation/comp
 - Customer relationships: Build deep relationships with people within customer environments to enable them to be GitLab advocates.
 - Customer feedbacks: Serve as the customer advocate to other GitLab teams, including Product Development, Sales, and Marketing.
 - Market knowledge: Maintain specialty competency in one or more technologies related to GitLab's market focus through activities such as training, certification and creation of working examples for reuse internally and by customers and partners.
-- Gitlab knowledge: With comprehensive knowledge of the GitLab platform and associated technologies, educate customers of all sizes on the value proposition of GitLab while participating in discussions throughout the organization to ensure successful GitLab deployment.
+- GitLab knowledge: With comprehensive knowledge of the GitLab platform and associated technologies, educate customers of all sizes on the value proposition of GitLab while participating in discussions throughout the organization to ensure successful GitLab deployment.
 - Growth & Development: Continuously improve your professional skills with a focus on personal mastery and team learning through activities such as training, reading and seeking mentorship from others.
 - Strategic Client Engagement: Run Value Stream Assessments in your account with support of a Senior SA leading the engagement
 
@@ -294,7 +294,7 @@ Specialty responsibilities and requirements may extend or overlay [Level roles](
 #### Channel Solutions Architect Responsibilities
 
 - Since this role deals primarily with partner relationships, any responsibilities in an individual's [Role Level](#levels) that reference customers can also be fulfilled by Partners. If responsibilities appear duplicated, the version in this description has priority due to being more specific to your role.
-- Engage in a technical consultancy role for channel and system integrator partners, providing technical assistance and guidance specific to the selling and service delivery readiness of Gitlab Channel partners.
+- Engage in a technical consultancy role for channel and system integrator partners, providing technical assistance and guidance specific to the selling and service delivery readiness of GitLab Channel partners.
 - Create and maintain relationships with external partner leaders that contribute to large Net ARR deals and customer success.
 - In partnership with the channel sales team, formulate and execute a sales, solution and practice strategy to exceed revenue targets through the delivery of solutions & services that drive the adoption of GitLab.
 - Work with Customer Success teams (SA, CSM, Sales) to ensure the partner is acting in good faith and effectively when delivering GitLab services to a customer.

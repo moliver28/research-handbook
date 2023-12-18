@@ -164,7 +164,7 @@ The Manager, CSM is a [grade 9](/handbook/total-rewards/compensation/compensatio
 - Mentor and enable the team to exceed company growth and retention forecasts
 - Work with the Customer Success Director to help establish and manage goals and responsibilities for CSMs
 - Manage a team of highly motivated, customer-focused CSMs to manage the overall health and care of accounts (e.g., onboarding customers, stage adoption, executive business reviews, and successful renewals)
-- Ensure the CSMs exceed Gitlab expectations in core knowledge, communication, and execution
+- Ensure the CSMs exceed GitLab expectations in core knowledge, communication, and execution
 - Challenge the team and yourself to learn and grow as trusted advisors to customers continually
 - Provide leadership and guidance to coach, motivate and lead the team members to their optimum performance levels and career development, providing timely feedback and development assistance
 - Manage resource assignments and staffing levels, including recruitment as needed
@@ -174,7 +174,7 @@ The Manager, CSM is a [grade 9](/handbook/total-rewards/compensation/compensatio
 - Develop strong relationships with Engineering and Product to ensure cohesion and shared understanding of goals, initiatives
 - Oversee initiatives set forth in [OKRs](/handbook/company/okrs/)
 - Work together with the other managers to execute strategies and vision with the Director
-- Represent Gitlab leadership and reflect our [Gitlab values](/handbook/values/) in internal and external interactions
+- Represent GitLab leadership and reflect our [GitLab values](/handbook/values/) in internal and external interactions
 
 ### Manager, CSM Requirements
 
@@ -208,7 +208,7 @@ The Senior Manager, CSM is a [grade 9](/handbook/total-rewards/compensation/comp
 - Action upon identified opportunities for continuous improvement across the customer lifecycle
 - Consistent representation of our values to the customer, our CSM team, and the company as a whole. Lead in cross-functional work representing customer success in GitLabs more strategic revenue-focused initiatives
 - Owns and manages more than just the CSM manager purview - defined by looking for and solving larger team or organizational challenges, and owning initiatives that span wider than the CSM manager role
-- Aligned with the objectives of Gitlab and is responsible for ensuring that the CSM team as a whole is contributing to our company objectives
+- Aligned with the objectives of GitLab and is responsible for ensuring that the CSM team as a whole is contributing to our company objectives
 - Strategic in thinking to solve challenges for the entire CSM team and make improvements that will positively impact all customers
 
 ### Senior Manager, CSM Requirements
