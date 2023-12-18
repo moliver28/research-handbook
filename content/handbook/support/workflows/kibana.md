@@ -368,3 +368,13 @@ When looking at the `pubsub-rails-inf-gprd-*` index, you can determine if a user
 - [`action: git_upload_pack`](https://log.gprd.gitlab.net/app/r/s/dLqA1) is when someone performs a clone of a repository.
 - [`action: git_receive_pack`](https://log.gprd.gitlab.net/app/r/s/lRA1L) is when someone push's a repository.
 - [`action: archive`](https://log.gprd.gitlab.net/app/r/s/Lxx9w) is when someone downloads a repository via the `Download source code` button in the UI.
+
+#### Webhook related events
+
+Outbound [webhook events](https://docs.gitlab.com/ee/user/project/integrations/webhooks.html) for GitLab.com can be located in Kibana, including identifying when a group or project has gone over [enforced rate limits](https://docs.gitlab.com/ee/user/gitlab_com/index.html#webhooks). Rate limiting varies depending on the subscription plan *and* number of seats in the subscription.
+
+Here are some suggestions:
+
+- Use `pubsub-sidekiq-inf-gprd` (Sidekiq) with the filters `json.class: "WebHookWorker"` and `json.meta.project : "path/to/project"` to identify outbound webhook events.
+- Use `pubsub-rails-inf-gprd-*` (Rails) with the filters `json.message : "Webhook rate limit exceeded"` and `json.meta.project : "path/to/project"` to identify webhooks that failed to send due to rate limiting.
+  - You can filter between Group and Project hooks by using `json.meta.related_class : "GroupHook"` or `json.meta.related_class : "ProjectHook"`.
