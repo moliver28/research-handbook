@@ -13,8 +13,8 @@ Professional Services Engineers are expected to be able to interface not only wi
 | [Associate](#associate-professional-services-engineer) | [Grade 5](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) |
 | [Intermediate](#professional-services-engineer) | [Grade 6](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) |
 | [Senior](#senior-professional-services-engineer) | [Grade 7](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) |
-| [Professional Services Engineering Manager](#professional-services-engineering-manager) |	[Grade 9](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) |
-| [Senior Professional Services Engineering Manager](#senior-professional-services-engineering-manager) | [Grade 9](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) |
+| [Engineering Manager, Professional Services](#engineering-manager-professional-services) |	[Grade 9](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) |
+| [Senior Engineering Manager, Professional Services](#senior-engineering-manager-professional-services) | [Grade 9](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) |
 
 ## Performance Indicator
 
@@ -144,11 +144,9 @@ documents those opportunities
 - Experience working with a global or otherwise multicultural team
 - Computer science education or equivalent experience
 
-## Professional Services Engineering Manager
+## Engineering Manager, Professional Services
 
-## Senior Professional Services Engineering Manager
-
-The Senior Engineering Manager, Professional Services reports to the Director, Professional Services.
+The Engineering Manager, Professional Services reports to the Director, Professional Services.
 
 ### Responsibilities
 
@@ -169,8 +167,6 @@ The Senior Engineering Manager, Professional Services reports to the Director, P
 
 ### Requirements
 
-- Demonstrated progressive experience managing, leading and/or delivering professional services or customer success
-- Demonstrated progressive experience with a subscription-based business model, delivering on-premises and SaaS solutions
 - Experience managing technical, cross-functional professional services teams (e.g., consulting, implementation, trainers, project managers) and delivery partners
 - Experienced in and with advanced insight to the GitLab platform
 - Experienced in giving and receiving positive and constructive feedback
@@ -178,6 +174,23 @@ The Senior Engineering Manager, Professional Services reports to the Director, P
 - Experienced in collaborating with other managers and executing strategies
 - Proven track record in software/technology sales or consulting and management
 - Demonstrated ability to think strategically about business, products, and technical challenges
+
+## Senior Engineering Manager, Professional Services
+
+The Senior Engineering Manager, Professional Services reports to the Director, Professional Services.
+
+The Responsibilities and Roles for the `Senior Engineering Manager, Professional Services` extend those for the `Engineering Manager, Professional Services` as follows:
+
+### Responsibilities
+
+- Collaborate with peers in Practice Management, Engagement Management, and Operations to implement efficiency improvements for Professional Services
+- Be a trusted advisor to GitLab AEs, SALs, and SAs
+- Deliver updates on key Professional Services engagements and initiatives in the Sales and Professional Services forecast calls
+
+### Requirements
+
+- Demonstrated progressive experience managing, leading and/or delivering professional services or customer success
+- Demonstrated progressive experience with a subscription-based business model, delivering on-premises and SaaS solutions
 
 ## Public Sector
 
