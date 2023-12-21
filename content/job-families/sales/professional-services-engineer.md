@@ -13,6 +13,8 @@ Professional Services Engineers are expected to be able to interface not only wi
 | [Associate](#associate-professional-services-engineer) | [Grade 5](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) |
 | [Intermediate](#professional-services-engineer) | [Grade 6](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) |
 | [Senior](#senior-professional-services-engineer) | [Grade 7](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) |
+| [Engineering Manager, Professional Services](#engineering-manager-professional-services) |	[Grade 9](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) |
+| [Senior Engineering Manager, Professional Services](#senior-engineering-manager-professional-services) | [Grade 9](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) |
 
 ## Performance Indicator
 
@@ -141,6 +143,54 @@ documents those opportunities
 - Developer platform/tool industry experience
 - Experience working with a global or otherwise multicultural team
 - Computer science education or equivalent experience
+
+## Engineering Manager, Professional Services
+
+The Engineering Manager, Professional Services reports to the Director, Professional Services.
+
+### Responsibilities
+
+- Work with the Professional Services Director to help establish and manage goals and responsibilities for Professional Services Engineers
+- Identify and own improvements to the processes and tools used to drive engineering in Professional Services
+- Assist in the development of thought leadership, event-specific, and customer-facing presentations
+- Provide leadership and guidance to coach, motivate, and lead services team members to their optimum performance levels and career development
+- Manage resource assignments and staffing levels, working with PS Operations, including recruitment as needed
+- Review and approve formal statements of work, change requests, and proposals
+- Lead delivery of consulting, specifically for the PS Engineers who execute the custom SOWs and SKUs sold to our customers
+- Remain knowledgeable and up-to-date on GitLab product releases and features
+- Own operational metrics and financial goals, as defined by organizational goals, for the PS Engineering team including:
+  - Revenue target
+  - Gross margin
+  - Engineer utilization and overall attainment
+  - CSAT
+  - % of projects on time and on budget
+
+### Requirements
+
+- Experience managing technical, cross-functional professional services teams (e.g., consulting, implementation, trainers, project managers) and delivery partners
+- Experienced in and with advanced insight to the GitLab platform
+- Experienced in giving and receiving positive and constructive feedback
+- Adaptive to environmental changes based on project successes and failures
+- Experienced in collaborating with other managers and executing strategies
+- Proven track record in software/technology sales or consulting and management
+- Demonstrated ability to think strategically about business, products, and technical challenges
+
+## Senior Engineering Manager, Professional Services
+
+The Senior Engineering Manager, Professional Services reports to the Director, Professional Services.
+
+The Responsibilities and Roles for the `Senior Engineering Manager, Professional Services` extend those for the `Engineering Manager, Professional Services` as follows:
+
+### Responsibilities
+
+- Collaborate with peers in Practice Management, Engagement Management, and Operations to implement efficiency improvements for Professional Services
+- Be a trusted advisor to GitLab AEs, SALs, and SAs
+- Deliver updates on key Professional Services engagements and initiatives in the Sales and Professional Services forecast calls
+
+### Requirements
+
+- Demonstrated progressive experience managing, leading and/or delivering professional services or customer success
+- Demonstrated progressive experience with a subscription-based business model, delivering on-premises and SaaS solutions
 
 ## Public Sector
 
