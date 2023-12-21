@@ -7,12 +7,6 @@ twitter_image: '/images/tweets/handbook-marketing.png'
 
 
 
-
-
-
-
-# The GitLab Brand Strategy team
-
 The Brand Strategy team is responsible for accelerating GitLab’s path to market by creating awareness, trust, and affinity for the GitLab brand.
 
 ## Meet the team:
