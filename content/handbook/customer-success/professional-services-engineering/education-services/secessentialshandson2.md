@@ -59,6 +59,14 @@ Before beginning this lab and all later labs, you should disable any scanners th
 
 1. In the left sidebar, navigate to **Code > Repository** to return to your code.
 
+4. Add a job placeholder job to avoid "GitLab CI configuration is invalid" message since jobs config should contain at least one visible job.
+
+    ```test-job1:
+  stage: test
+  script:
+    - echo "This job tests something"
+    ```
+
 ## Task A. Add Project Dependencies
 
 > Python-based projects often use pip for package management. With pip, developers will often provide a list of dependencies in a file called `requirements.txt`.
