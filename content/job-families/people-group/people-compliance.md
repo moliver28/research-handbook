@@ -87,15 +87,15 @@ Primary performance indicators for this role:
 - [People Data and HRIS Compliance](/handbook/people-group/people-success-performance-indicators/#compliance-people-data-and-hris-compliance)
 - [Onboarding Issue Audits](/handbook/people-group/people-success-performance-indicators/#onboarding-issue-audits)
 
-## People Compliance Program Manager
+## Senior People Compliance Program Manager
 
-The People Compliance Program Manager reports to the Director, People Operations.
+The Senior People Compliance Program Manager reports to the Director, People Operations.
 
 ### Job Grade
 
-The People Compliance Program Manager is a [grade 7](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+The Senior People Compliance Program Manager is a [grade 7](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
-### People Compliance Program Manager Responsibilities
+### Senior People Compliance Program Manager Responsibilities
 
 - Partner with Employment Counsel, Legal and Privacy team on laws and regulation updates.
 - Maintain appropriate level of process, program, and policy knowledge to assist team members.
@@ -111,7 +111,7 @@ The People Compliance Program Manager is a [grade 7](/handbook/total-rewards/com
 - Engage with internal legal counsel, vendors, and external professionals and legal counsel as needed.
 - Complete ad-hoc projects, reporting, and tasks.
 
-### People Compliance Program Manager Requirements
+### Senior People Compliance Program Manager Requirements
 
 - Prior extensive experience in HR Compliance, Team Member Data Retention or a People Operations role that included compliance.
 - Ability to work independently and put forth recommendations that take into consideration that state of the business.
@@ -124,7 +124,7 @@ The People Compliance Program Manager is a [grade 7](/handbook/total-rewards/com
 - Exceptional customer service skills.
 - Experience with the following tools is a plus: Greenhouse, Workday, GitLab and Culture Amp.
 
-### People Compliance Program Manager Performance Indicators
+### Senior People Compliance Program Manager Performance Indicators
 
 Primary performance indicators for this role:
 
