@@ -44,13 +44,13 @@ Team Members can find Archived benefit plans, details, and open enrollment for p
 
 - For a full list of carrier contacts please see the [Benefit Mobile Wallet Card](https://mymobilewalletcard.com/gitlab/)
 - For benefit inquiries and assistance with any claims escalations: WTW Benefits Helpline `877-409-9288` or `GitLab@willistowerswatson.com`
-- For support with the PlanSource system: `total-rewards@ gitlab`
+- For support with the PlanSource system: `total-rewards@ gitlab.com`
 - For questions regarding internal policies, etc. 401k, : `total-rewards@ gitlab.com`
 
 
 ### ID Cards
 
-Cigna will be moving from Physical to Digital ID cards. Team members can request a physical medical card on mycigna.com. Please allow up to two weeks for ID cards to generate after completing your enrollment.
+Cigna has moved from Physical to Digital ID cards. Team members can request a physical medical card on mycigna.com. Please allow up to two weeks for ID cards to generate after completing your enrollment.
 
 
 Kaiser cards will be mailed within 3 weeks of submitting your benefit elections.
@@ -331,7 +331,7 @@ You may need a [reasonable accommodation]({{< ref "inc-usa#reasonable-accommodat
 
 ### Dental
 
-Dental is provided by Cigna, plan: DPPO. Effective 2024-01-01 GitLab will offer a Base and Buy-Up Dental Plans
+Dental is provided by Cigna, plan: DPPO. Effective 2024-01-01 GitLab offers a Base and Buy-Up Dental Plans
 
 Dental does not come with individualized insurance cards from Cigna, although you can download them by setting up a Cigna account through the [Cigna website](https://my.cigna.com). Cigna's site and app will house individualized ID cards team members can access at any time. For the most part, dental providers do not request or require ID cards as they look up insurance through your social security number. If you need additional information for a claim please let the [WTW](inc-benefits-us/#who-to-contact) know. Cigna'a mailing address is PO Box 188037 Chattanooga, TN, 37422 and the direct phone number is 800-244-6224.
 
@@ -375,9 +375,9 @@ For out-of-network services: 365 days from Date of Service.
 
 ### Vision
 
-Vision is provided by Cigna. Effective 2024-01-01 GitLab will offer a Base and Buy-Up Vision Plans
+Vision is provided by Cigna. Effective 2024-01-01 GitLab offers a Base and Buy-Up Vision Plans
 
-Effective 2023-01-01 Cigna will be partnering with EyeMed for their vision plans, you can check coverage details on mycigna.com
+Cigna has partnered with EyeMed for their vision plan offerings, you can check coverage details on mycigna.com
 
 
 When submitting a claim, you can mail it to Cigna Vision PO Box 385018 Birmingham, AL 35238 or submit it online using the following instructions:
@@ -521,7 +521,7 @@ For more details and steps on how to enroll please see the [MetLife Pet Insuranc
 
 ## 529 Savings Plans
 
-Coming in 2024, GitLab will offer access to 529 plan investments to US team members so that you can use tax-advantaged savings for your child’s future education expenses.
+Effective 2024, GitLab offers access to 529 plan investments to US team members so that you can use tax-advantaged savings for your child’s future education expenses.
 
 - Support your financial goals for you and your family
 - ScholarShare 529 Workplace Savings is a direct deposit program that can make it easy for you and them
@@ -531,11 +531,17 @@ Coming in 2024, GitLab will offer access to 529 plan investments to US team memb
 
 To learn more visit ScholarShare529.com/employer or email: workplace529@scholarshare.com
 
-More details and links will be provided by the program launch, 2024-01-01.
+Enroll anytime at [ScholarShare529](ScholarShare529.com) or call 800-544-5248.
+[ScholarShare Flyer Guide](https://drive.google.com/file/d/1D3k31fDxkeks7XigTa_Cn0_itIYoQW1A/view?usp=sharing) & [529 Overview](https://drive.google.com/file/d/1GXAdVLVJLsruj-2s9twpQ3p1c6CzOAFn/view?usp=sharing).  
+
+Want more information?
+• Register for one of our live and interactive [webinars](https://www.scholarshare529.com/events) that fits your schedule, hosted monthly.
+• [Schedule a consultation](https://www.scholarshare529.com/appointments) with a 529 specialist.
+• Rollover an existing 529 into your ScholarShare 529 account. [Schedule an appointment](https://www.scholarshare529.com/appointments) to have a consultant assist you.
 
 ## Student Loan Guidance & Tools
 
-Coming in 2024, GitLab will offer a student loan guidance products, tools, and expert consultation services through SoFi.
+GitLab offers a student loan guidance products, tools, and expert consultation services through SoFi.
 
 GitLab has partnered with Sofi to offer student loan guidance services, discounts & perks, and financial well-being products with SoFi:
 - A central location for team members to focus on financial well-being
@@ -544,7 +550,14 @@ GitLab has partnered with Sofi to offer student loan guidance services, discount
 - Delivers impactful discounts, preferred pricing, and exclusive offers on SoFi’s award-winning financial products
 - Arm yourself with knowledge on your journey to financial independence with access to Sofi’s financial library, tools, and resources
 
-More details and links will be provided by 2024-01-01
+Enroll anytime at [SoFi.com/GitLab](sofi.com/gitlab)
+[GitLab SoFi Flyer](https://drive.google.com/file/d/1kKZXeqwY96cHE4QpjrWjONSawwe-rkIf/view?usp=sharing)
+You’re eligible for an exclusive 0.25% rate discount* when you refinance your student loans through SoFi.com/GitLab, plus you could save big by locking in a lower rate.
+
+Refi with SoFi and you could
+- Save thousands with the member rate discount.
+- Lower your monthly payments or pay off your debt sooner with flexible terms.
+- No fees.
 
 ## 401k Plan
 
@@ -554,7 +567,7 @@ The company offers a 401k plan in which you may make voluntary pre-tax contribut
 
 1. You are eligible to participate in GitLab’s 401k as of your hire date. There is no auto-enrollment. You must actively elect your deductions.
 1. You will receive an invitation to register for access to your account on Fidelity [NetBenefits](https://www.netbenefits.com) who is GitLab's plan recordkeeper. For more information about Fidelity, please check out this [Brainshark video](https://www.brainshark.com/1/player/fidelityemg?fb=0&r3f1=&custom=gitlab).
-1. Any changes to your plan information will be effective on the next available payroll.
+1. Any changes to your plan information will be effective within 2 payroll cycle (typically updated within 1 payroll cycle, depending on when the change is made and cut-off changes dates).
 1. Once inside the platform you may elect your annual/pay-period contributions and investments.
 1. If you have any questions about making changes to your elections, we recommend that you reach out to Fidelity directly, by chat in the app, or by phone at 800-835-5097.
 1. Please review the [Summary Plan Document](https://drive.google.com/file/d/1I8JrLhxBH7rGBjfztsRyrjdhQXINQpBe/view?usp=sharing), [QDIA](https://drive.google.com/file/d/1dYIe2NRFCNeOY843KfSyMUhJiLuGGTXg/view?usp=sharing), [Fee Disclosure](https://drive.google.com/file/d/138hjLkXsQ0tdCCqoC-iWnaydkl33GdLn/view?usp=sharing). If you have any questions about the plan or the documents, please reach out to Total Rewards at `total-rewards@gitlab.com`. Total Rewards is not able to advise you on your financial decisions.
@@ -576,7 +589,7 @@ All employer contributions are pre-tax contributions. Team members can still mak
 - The employer will use the calculation on each check date effective as of January 1, 2019.
 - The team member must have a contribution for a check date to be eligible for the employer match.
 - Employer matching will be released into participant accounts three business days after the check date.
-- For team members who defer more than 6% on each check date, an annual true-up will be conduct after calendar year end.
+- For team members who defer more than 6% on each check date, an annual true-up will be conducted after calendar year end.
 
 ### 401(k) Rollover
 
@@ -734,7 +747,8 @@ If you leave GitLab, all supplemental life insurance is not included in COBRA an
 
 ### PerkSpot
 
-Coming in 2024, GitLab has partnered with PerkSpot: a new discount platform providing Team Members with discounts on over 10,000 brands, including electronics, home goods, mortgages, travel, and more.
+GitLab has partnered with PerkSpot: a new discount platform providing Team Members with discounts on over 10,000 brands and more than 25 different categories, including electronics, home goods, mortgages, travel, and more.
+This discount platform is offered at no cost to you.
 
 PerkSpot is a one-stop shop for thousands of exclusive discounts and in more than 25 different areas of interest:
 - Quick Links – section that allows you to access various resources to locate savings
@@ -742,7 +756,13 @@ PerkSpot is a one-stop shop for thousands of exclusive discounts and in more tha
 - Interests – ability to select what your interests are and narrow, search
 - Brands review – search for the Brands you’re looking for using the PerkSpot Brands tab and narrowing your discount search
 
-More details and links will be provided by 2024-01-01.
+You can enroll anytime at
+[gitlab.perkspot.com](gitlab.perkspot.com)
+- Click on "Create Your Account"
+- Using Access Code: "GitLabPerks"
+
+PerkSpot [Overview Flyer](https://drive.google.com/file/d/1k0CsjErpcy4DUXqmOq3BYe8fHAC02t0B/view?usp=sharing)
+If you have any questions on discounts or the PerkSpot platform,please reach out to cs@perkspot.com or 866-606-6057.
 
 ### LifeMart through ADP
 
