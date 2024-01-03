@@ -42,11 +42,10 @@ Use this workflow for requests to change subscription owner, transfer ownership,
 
 Consider using the [Support::L&R::Change Customers Portal Contact](https://gitlab.com/gitlab-com/support/support-ops/zendesk-global/macros/-/blob/master/macros/active/Support/Self-Managed/Change%20Customers%20Portal%20Contact.yaml) macro so the requestor can self-service. **Important**: Do not add the existing `Sold To:` contact as a CC. The requester would see the email address, which would be considered a leak of Personal Data.
 
-If the requestor is an existing subscription contact, have access to the Customer Portal account or email address of the previous owner, guide them to:
+If the requester is an existing subscription contact and has access to the Customer Portal account or email address of the previous owner, guide them to:
 
-1. Issue a [password reset](https://customers.gitlab.com/customers/password/new)
-  to the existing owner's email.
-1. [Claim the account](https://docs.gitlab.com/ee/subscriptions/customers_portal.html#change-account-owner-information) by changing over the personal details.
+1. Trigger a [one time sign-in link](https://customers.gitlab.com/customers/sign_in?legacy=true) to the existing owner's email.
+1. [Claim the account](https://docs.gitlab.com/ee/subscriptions/customers_portal.html#change-profile-owner-information) by changing over the profile owner details.
 1. [Link their GitLab account](https://docs.gitlab.com/ee/subscriptions/customers_portal.html#link-a-gitlabcom-account) to the Customers Portal account or [change the linked account](https://docs.gitlab.com/ee/subscriptions/customers_portal.html#change-the-linked-account) for authentication.
 1. Once the requestor has updated the account on the Customers Portal, verify that the `Sold To:` contact in the Zuora account matches the Customers Portal account. Follow the [Update Zuora Sold To contact using CustomersDot workflow](#update-zuora-sold-to-contact-using-customersdot) if they do not match.
 
@@ -74,12 +73,12 @@ If the requestor is an existing CustomersDot user when doing an email search:
 
 If the requestor is not an existing CustomersDot user when doing an email search:
 
-1. Edit the `Name` and `Email` of the current `Sold To:` contact user account to the new contact, check the box `Skip email confirmation` and click `Save`.
-1. Check if the CustomersDot user is linked to a GitLab.com account:
-  - On the CustomersDot account, navigate to the `Show` tab and confirm there is a value under `Uid`. The `Uid` is the ID of a GitLab account which can be checked via the Users API `https://gitlab.com/api/v4/users/<Uid>`
-  - [Unlink GitLab.com Account mechanizer function]({{< ref "mechanizer#unlink-gitlabcom-account" >}}).
-1. Trigger a [password reset](https://customers.gitlab.com/customers/password/new) to the new email. For SaaS, link their GitLab.com account.
-1. Follow [Update Zuora Sold To contact using CustomersDot workflow](#update-zuora-sold-to-contact-using-customersdot).
+1. Edit the `Name` and `Email` of the current `Sold To:` contact's CustomersDot customer account to the new contact, check the box `Skip email confirmation` and click `Save`.
+1. Check if the CustomersDot account is linked to a GitLab.com account:
+      - On the CustomersDot account, navigate to the `Show` tab and confirm there is a value under `Uid`. The `Uid` is the ID of a GitLab account which can be checked via the Users API `https://gitlab.com/api/v4/users/<Uid>`
+      - [Unlink GitLab.com Account mechanizer function]({{< ref "mechanizer#unlink-gitlabcom-account" >}}).
+1. Trigger a [one time sign-in link](https://customers.gitlab.com/customers/sign_in?legacy=true) to the new email. Request the customer to [Link their GitLab account](https://docs.gitlab.com/ee/subscriptions/customers_portal.html#link-a-gitlabcom-account) to the CustomersDot account.
+1. Confirm that the `Sold To:` contact in the Billing account is also updated, otherwise follow [Update Zuora Sold To contact using CustomersDot workflow](#update-zuora-sold-to-contact-using-customersdot).
 
 ## Other notable workflows involving CustomersDot
 
