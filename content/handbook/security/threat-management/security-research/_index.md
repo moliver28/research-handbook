@@ -51,25 +51,148 @@ Even if the outcome of the research is not yielding the expected
 outcomes the approaches and procedures conducted during the research
 phase should be documented and published.
 
-## Methodology
+## Project Lifecycle
+
+The Security Research project lifecycle is designed to quickly iterate through
+the technical validation of research questions. The technical validation is
+followed by a business validation in which stakeholders are formally identified
+and concrete deliverables are defined. This workflow allows for the exploration
+of new ideas, but ensures that projects are aligned with business objectives.
+Details on how projects are prioritized are covered in
+[Project Prioritization](#project-prioritization).
+
+### Participants
+
+#### Team Members
+
+As experts, security research team members are given space to direct their own
+projects. To do so, they use data from a number of different sources to decide
+where their focus can be impactful to the business, and the larger security
+community.
+
+Some sources of data include:
+
+- Their own security background
+- Security questions/problems raised within GitLab
+- Outreach with GitLab team members
+- Security industry trends
+
+#### Team Manager
+
+The role of the team manager is to support and guide team members in their
+project. This includes sharing information that they may collect and
+facilitating communication with other team members. One example of where the
+manager can be impactful is raising security questions/problems identified
+within the company.
+
+#### Stakeholders
+
+In order to ensure that projects are well aligned with business objectives
+we seek to identify stakeholders within the company to act as sponsors for
+our projects. A stakeholder can be identified at any time, but we also seek
+to identify stakeholders once a technical idea has been validated. A team
+member can volunteer to be a stakeholder by reaching out to the team or
+opening a [Lightbulb issue](#lightbulb-ideas).
 
 ### Lightbulb Ideas
 
-Lightbulb ideas are those inspired ideas that are interesting, but may not be fully developed.
-These ideas are interesting to capture as they
-encourage discussion and push us to think broadly. They
-might become a research proposal, a side project, or stay just an idea for
-future inspiration. Lightbulb ideas are labeled with
-`~security-research::lightbulb`, and the team periodically discusses open
-lightbulb ideas during the security research sync.
+Lightbulb ideas are the first step of a security research project. These
+are inspired [research questions](https://en.wikipedia.org/wiki/Research_question)
+that we believe are worth investigating and are boardly aligned with business
+objectives. Lightbulb ideas are labeled with `~security-research::lightbulb`, and open
+lightbulb ideas are discussed during the security research sync to help shape
+our team roadmap. Lightbulb ideas can be opened by anyone interested in
+partnering with the Security Research team.
 
-### Issue Labels
+Lightbulb ideas are labeled with `~security-research::lightbulb`. To help align
+and communicate the goals of our projects, the `~Security Focus::` and
+`~Project Goal::` scoped labels are used. One label from each group should be
+applied to lightbulb issues upon creation. See [team labels](#team-labels) for
+details.
 
-To help align and communicate the goals of our projects, the `~Security Focus::`
-and `~Project Goal::` scoped labels are used. One label from each group should
-be applied to team issues upon creation.
+### Project Prioritization
 
-### Security Focus labels
+Projects are prioritized by a mix of factors, including business priorities,
+project completion stage, and the judgement of the participating security
+research team member. Project prioritization is a continuous discussion
+within the team, but will be performed at least once prior to the beginning
+of each quarter in order to participate in alignment with division OKRs.
+
+The general prioritization order is (from highest to lowest priority):
+- Projects in the [Product Integration](#product-integration) stage.
+- Projects in the [GitLab-internal Adoption](#gitlab-internal-adoption)
+stage.
+- Projects aligned with top risk areas as identified by our internal risk
+assessment.
+
+Once a new project has been prioritized, it will follow the project completion
+criteria as defined below.
+
+### Project Completion Criteria
+
+When a project is considered to be completed depends on the objectives of the project. The objectives for research projects are:
+- Idea validation
+- GitLab-internal adoption
+- GitLab Product integration
+
+All (self-guided) projects start with idea validation and might be expanded to GitLab-internal adoption and/or GitLab Product integration.
+
+#### Idea Validation
+
+Entry criteria:
+- Lightbulb issue
+- Alignment with focus area
+
+Exit criteria:
+- Research question answered
+- Research findings documented and communicated to potential stakeholders
+
+The idea validation phase begins with formulating one or more research questions which we seek to answer with a research project (see also [Lightbulb Ideas](#lightbulb-ideas)). The idea should be related to the focus areas of the Security Department to align the work with company objectives. Once the questions are answered, the idea validation phase is completed and the results should be published as a conference talk, blog post, or tech note. The results should also be shared in a focused effort internally with peers in the Security Department and with product managers to which the work might be relevant.
+
+#### GitLab-internal Adoption
+
+Entry criteria:
+- Stakeholder from within the company exist.
+- Stakeholder commitment (e.g. willingness to maintain code, operate a service, or triage findings).
+- Project plan describing goals and implementation tasks.
+
+Exit criteria:
+- Project plan completed
+
+Once an idea has been validated, the research project can be extended to achieve GitLab-internal adoption and/or integration into GitLab’s products. If the project is extended, a new research proposal should be created and buy-in from stakeholders should be obtained. The expected deliverables should be documented. For example, internal adoption can be achieved by documenting research insights in the handbook or by implementing a software service.
+
+Factors to consider when scoping a project for internal adoption or product integration are:
+- The time and resources available to the researcher. If the researcher is working on a tight deadline or has limited resources, they may need to scale back the scope of the project or adjust their expectations for completion. In other words, a single person introducing a fundamentally new capability to the product is unrealistic.
+- If ongoing maintenance is required, which team will own the maintenance?
+
+#### Product Integration
+
+Entry criteria:
+- Stakeholder from Product exist.
+- Stakeholder commitment (e.g. engineering resources for implementation, maintenance, budget).
+- Project plan describing goals and implementation tasks.
+
+Exit criteria:
+- Project plan completed.
+
+| Project Goal | Idea validation | Internal Adoption | Product Integration |
+| ---      | ---      | ---      | ---    |
+| Completion Criteria   | Research question answered   | <ul><li> Detection capabilities developed </li><li> Process improved  </li></ul>   | <ul><li> Risk mitigated </li><li> Vulnerability fixed </li></ul> |
+| Deliverables   |  <ul><li>PoC</li><li>Talk, Blog Post, Tech Note</li></ul>  |  <ul><li>Code, Infra, Software Service</li><li>Handbook MR</li></ul>  | <ul><li>Code, Infra, Software Service</li><li>Docs MR</li></ul>  |
+| Timeframe (Estimates)| 1-2 quarters | 2-3 quarters | 3-4 quarters |
+
+#### Communicating Results
+
+At the end of each project phase, the team member will share their
+results. Our goal is to share our results as widely as possible, therefore
+the most appropriate communication form will be chosen given sensitivity and
+time constraints. In some cases, due to the sensitivity of the work, the
+results will only be shared with the company, until which time they can be
+shared more widely.
+
+### Team Labels
+
+#### Security Focus labels
 
 [`~Security Focus::`](https://gitlab.com/groups/gitlab-com/gl-security/-/labels?subscribed=&search=Security+Focus)
 labels are used to align an issue with the broad high-level focus areas of the
@@ -88,7 +211,7 @@ and authorization to business services and data.
 trust in 3rd party code, data, and services necessary for the business.
 - `Security Focus::Other` - Related to anything not fitting into the four main focus areas.
 
-### Project Goal labels
+#### Project Goal labels
 
 [`~Project Goal::`](https://gitlab.com/groups/gitlab-com/gl-security/security-research/-/labels?search=Project+Goal&subscribed=)
  labels are used to communicate the high-level goal of a project.
@@ -102,160 +225,6 @@ processes and improve understanding of how the team works.
 - `Project Goal::Team Maturity::Technical Growth` - The project aims to grow
 the team's understanding of a technical area. The focus is on learning which
 can be applied in future projects.
-
-### Research Topic Discovery
-
-#### Team Members
-
-As experts, security research team members are given space to direct their own
-projects. To do so, they use data from a number of different sources to decide
-where their focus can be impactful to the business, and the larger security
-community.
-
-Some sources of data include:
-
-- Their own security background
-- Security questions/problems raised within GitLab
-- Outreach with GitLab team members
-- Security industry trends
-
-#### Team Manager
-
-The role of the team manager is to support and guide team members in their data
-discovery. This includes sharing information that they may collect and
-facilitating communication with other team members. One example of where the
-manager can be impactful is raising security questions/problems identified
-within the company.
-
-#### Collaborators
-
-As a catch-all category, we invite anyone interested in working with the security
-research team to reach out to us. We are always looking for opportunities to
-support security and company initiatives.
-
-### Proposals for Research Projects
-
-#### Creating Research Proposals
-
-Prior to the beginning of a quarter, security research team members will propose
-a research problem as their focus project. The proposals can be in an entirely
-new problem space or an extension of previous work. In both cases, a proposal
-issue is created in the [Security Research issue tracker](https://gitlab.com/gitlab-com/gl-security/security-research/sec-research/-/issues/new?issuable_template=Research%20Proposal)
-using the `Research Proposal` template.
-
-As security research entails the study of the unknown, the goal of the proposal issues
-is to document known information and the
-[research questions](https://en.wikipedia.org/wiki/Research_question) to be
-addressed. It is expected that they will be living documents that evolve as
-new information is collected.
-
-The issue is used to capture the following information. Full details are
-available in the issue template.
-
-- Problem Description
-- Research Question(s)
-- Business Impact, including the impacted teams
-- Project Methods and Outputs
-- Tasks for the quarter
-- Total project time frame
-
-When a proposal is created, the `~security-research::proposal` label should be
-applied. The `@gitlab-com/gl-security/security-research` handle is also cc'd
-so that feedback can be collected from team members.
-
-If the work is an extension of previous work, the new issue should be linked
-to the previous issue.
-
-#### Proposal Review
-
-Once created, each research proposal will be reviewed by the other team
-members, the team manager, and other stakeholders. These reviews are used to
-clarify and focus the project, and validate alignment with
-business goals. This step of the process is collaborative, and everyone is invited
-to provide feedback. The final decision to move forward with the project is
-shared between the team member and the team manager.
-
-When a proposal is accepted, the `~security-research::accepted` label should be
-applied.
-
-If it is decided between the team member and the team manager to not move
-forward, an explanation should be added as a comment to the issue, and the
-issue should be closed.
-
-#### Project Completion Criteria
-
-When a project is considered to be completed depends on the objectives of the project. The objectives for research projects are:
-- Idea validation
-- GitLab-internal adoption
-- GitLab Product integration
-
-All (self-guided) projects start with idea validation and might be expanded to GitLab-internal adoption and/or GitLab Product integration.
-
-##### Idea Validation
-
-Entry criteria:
-- Lightbulb issue
-- Alignment with focus area
-
-Exit criteria:
-- Research question answered
-- Research findings documented and communicated to potential stakeholders
-
-The idea validation phase begins with formulating one or more research questions which we seek to answer with a research project (see also [Creating a Research Proposal](#creating-research-proposals)). The idea should be related to the focus areas of the Security Department to align the work with company objectives. Once the questions are answered, the idea validation phase is completed and the results should be published as a conference talk, blog post, or tech note. The results should also be shared in a focused effort internally with peers in the Security Department and with product managers to which the work might be relevant.
-
-##### GitLab-internal Adoption
-
-Entry criteria:
-- Stakeholder from within the company exist.
-- Stakeholder commitment (e.g. willingness to maintain code, operate a service, or triage findings).
-- Project plan describing goals and implementation tasks.
-
-Exit criteria:
-- Project plan completed
-
-Once an idea has been validated, the research project can be extended to achieve GitLab-internal adoption and/or integration into GitLab’s products. If the project is extended, a new research proposal should be created and buy-in from stakeholders should be obtained. The expected deliverables should be documented. For example, internal adoption can be achieved by documenting research insights in the handbook or by implementing a software service.
-
-Factors to consider when scoping a project for internal adoption or product integration are:
-- The time and resources available to the researcher. If the researcher is working on a tight deadline or has limited resources, they may need to scale back the scope of the project or adjust their expectations for completion. In other words, a single person introducing a fundamentally new capability to the product is unrealistic.
-- If ongoing maintenance is required, which team will own the maintenance?
-
-##### Product Integration
-
-Entry criteria:
-- Stakeholder from Product exist.
-- Stakeholder commitment (e.g. engineering resources for implementation, maintenance, budget).
-- Project plan describing goals and implementation tasks.
-
-Exit criteria:
-- Project plan completed.
-
-| Project Goal | Idea validation | Internal Adoption | Product Integration |
-| ---      | ---      | ---      | ---    |
-| Completion Criteria   | Research question answered   | <ul><li> Detection capabilities developed </li><li> Process improved  </li></ul>   | <ul><li> Risk mitigated </li><li> Vulnerability fixed </li></ul> |
-| Deliverables   |  <ul><li>PoC</li><li>Talk, Blog Post, Tech Note</li></ul>  |  <ul><li>Code, Infra, Software Service</li><li>Handbook MR</li></ul>  | <ul><li>Code, Infra, Software Service</li><li>Docs MR</li></ul>  |
-| Timeframe (Estimates)| 1-2 quarters | 2-3 quarters | 3-4 quarters |
-
-#### Communicating Results
-
-At the end of each quarter, the team member will share with stakeholders their
-results. In addition, to meet the team goal of widely
-sharing the results of our work, the results might be used in public
-communication. In some cases, due to the sensitivity
-of the work, the results will only be shared with the company, until which
-time they can be shared more widely.
-
-In addition to the results with stakeholders, a retrospective should be added
-to the quarterly issue.
-
-This summary will help to capture:
-
-- What was accomplished for the quarter.
-- Tasks that were not completed.
-- What went well/What could have been done differently.
-- A recommendation on additional work that should be done in the problem space.
-- A list of recommended actions to be taken, if applicable, with a focus on the remediation of vulnerabilities, reduction of risk, or strengthing of security controls.
-
-After the summary has been completed, the issue should be closed.
 
 ### Current and Past Research Projects
 
