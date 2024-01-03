@@ -80,8 +80,8 @@ Equity refresh budget will be held at the Dir+ level. Managers below the Directo
 
 **2024-01-09 - 2024-02-05:** Managers complete merit, promotion and equity recommendations
 We recommend these general timelines for completion based on your level to enable department heads to review and finalize recommendations by the deadline.
-    - Managers, Senior Managers, Director: Complete planning by 2024-01-17
-    - Senior Directors, VPs: Complete planning by 2024-01-26
+- Managers, Senior Managers, Director: Complete planning by 2024-01-17
+- Senior Directors, VPs: Complete planning by 2024-01-26
 
 **2024-02-05:** E-Group submits ACR pay recommendations for their respective departments
 
