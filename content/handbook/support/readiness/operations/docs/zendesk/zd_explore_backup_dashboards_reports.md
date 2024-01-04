@@ -6,7 +6,7 @@ canonical_path: "/handbook/support/readiness/operations/docs/zendesk/zd_explore_
 
 ## Key Review Reports
 
-These r
+These reports are used for Support Key Review.
 
 ### Slide 7: Report 1: Ticket Volume Trend
 
@@ -136,7 +136,59 @@ This is main table in Slide 10
     1. Ticket Solved (Month) use Simple Date Range settings i.e. `Last Month`
     1. Make sure report should have "Sort" type `A-Z` and have "Totals" are present on every `cell` in Result Manipulation.
 
-### Slide 11: Report 1,2 (Same like Slide 10), 3 & 4: Outdated Calc
+### Slide 11: Report 1 : Satisfaction Score by Support Level - 100% View - No Plan
+
+This is main chart in Slide 11
+
+- Dataset used: Support ( Tickets )
+- Visualization type: Column
+- Metric used: SUM (% Satisfaction score)
+- Rows:
+    None
+- Columns:
+    1. Plan Tags (SaaS/SM)
+- Filters used:
+    1. Ticket Solved (Month)
+    1. Ticket Form
+    1. EDU
+    1. Has Plan Ticket Tags -SSAT (Incl L&R)
+    1. Ticket ID
+- Custom Settings:
+    1. Plan Tags - SaaS/SM use `Group` in Calculation menu to compute from `Plan Tags - Ticket Tags`. Group Self Managed inlucdes `Basic`, `Premium`, `Ultimate` and SaaS includes `Bronze`, `Silver`, `Gold`. Both groups should be selected.
+    1. Ticket Form filter should include `L&R`, `Emergency`, `Other`, `SaaS`, `SaaS Account`, `Self-Managed`, `Emergencies`.
+    1. EDU is a custom attribute and should have included `Not EDU`.
+    1. Has Plan Ticket Tags -SSAT (Incl L&R) is a custom attribute and includes should have `Has Plan + L&R`.
+    1. Ticket ID should exclude `279135`
+    1. Ticket Solved (Month) use Simple Date Range settings i.e. `Last 6 Months`
+    1. Make sure report should have "Sort" type `A-Z` and have "Totals" show `percent` on middle of every month in Result Manipulation.
+    1. It also shows a trend line which can be found in Chart Configuration menu and set as constant at `95`.
+
+### Slide 11: Report 2 : Satisfaction Score by Support Level - Table - No Plan
+
+This is main table in Slide 11
+
+- Dataset used: Support ( Tickets )
+- Visualization type: Table
+- Metric used: SUM (% Satisfaction score) , D_Count (Rated Satisfaction Tickets), D_Count (Bad Satisfaction Tickets)
+- Rows:
+    1. Plan Tags (SaaS/SM)
+- Columns:
+    None
+- Filters used:
+    1. Ticket Solved (Month)
+    1. Ticket Form
+    1. EDU
+    1. Has Plan Ticket Tags -SSAT (Incl L&R)
+    1. Ticket ID
+- Custom Settings:
+    1. Plan Tags - SaaS/SM use `Group` in Calculation menu to compute from `Plan Tags - Ticket Tags`. Group Self Managed inlucdes `Basic`, `Premium`, `Ultimate` and SaaS includes `Bronze`, `Silver`, `Gold`. Both groups should be selected.
+    1. Ticket Form filter should include `L&R`, `Emergency`, `Other`, `SaaS`, `SaaS Account`, `Self-Managed`, `Emergencies`.
+    1. EDU is a custom attribute and should have included `Not EDU`.
+    1. Has Plan Ticket Tags -SSAT (Incl L&R) is a custom attribute and includes should have `Has Plan + L&R`.
+    1. Ticket ID should exclude `279135`
+    1. Ticket Solved (Month) use Simple Date Range settings i.e. `Last 6 Months`
+    1. Make sure report should have "Sort" type `A-Z` and have "Totals" are present on every `cell` in Result Manipulation.
+
 
 ### Slide 12: Report 1: SM FRT SLAs Achieved Chart - No Plan
 
@@ -713,15 +765,59 @@ This is left side bottom chart in slide 22
     1. Ticket Created - Year use Advanced Date Range settings i.e. "From beginning of" should have `6 Months in the past` to "The end of" should have `1 month in the past`.
     1. Make sure report should have "Sort" type `A-Z`.
 
-### Slide 22: Report 4: Incorrect Calculated Metric i.e. RWT Minus On-hold
+### Slide 22: Report 4: IK - Requester Wait Time L&R - 6 Months
 
-### Slide 23: Report 1: Incorrect Calculated Metric i.e. RWT Minus On-hold
+This is right side bottom chart in slide 22
+
+- Dataset used: Support ( Tickets )
+- Visualization type: Area
+- Metric used: \*MED (RWT Minus On-Hold)*\
+- Rows:
+    None
+- Columns:
+    1. Ticket Updated - Year
+    1. Ticket Updated - Month
+- Filters used:
+    1. Ticket Form
+- Custom Settings:
+    1. (*) represents standard calculated metrics.
+    1. Ticket Form filter should include `L&R`.
+    1. Ticket Updated - Year use Advanced Date Range settings i.e. "From beginning of" should have `6 Months in the past` to "The end of" should have `1 month in the past`.
+    1. Make sure report should have "Sort" type `A-Z`.
+
+### Slide 23: Report 1: IK - Requester Wait Time .COM/SM/L&R
+
+This is left chart in Slide 23
+
+- Dataset used: Support ( SLAs )
+- Visualization type: Area
+- Metric used: MED (Requester wait time (hrs))
+- Rows:
+    None
+- Columns:
+    1. Ticket Solved - Year
+    1. Ticket Solved - Month
+- Filters used:
+    1. Ticket Form
+    1. Duplicate Ticket
+    1. Ticket Status
+    1. Follow-Up Ticket
+    1. Has Plan Ticket Tags - SSAT (Inc L&R)
+- Custom Settings:
+    1. Ticket Form filter should include `L&R`, `Emergency`, `SaaS`, `SaaS Account`, `Self-Managed`, `Emergencies`.
+    1. Duplicate Ticket is a custom attribute and should have selected `Not Duplicate` only.
+    1. Ticket Status should include `Solved` and `Closed` only.
+    1. Follow-Up Ticket is a custom attribute and should have selected `Not Follow-Up Ticket` only.
+    1. Has Plan Ticket Tags -SSAT (Incl L&R) is a custom attribute and includes should have `Has Plan + L&R` only.
+    1. Ticket Solved - Year use Advanced Date Range settings i.e. "From beginning of" should have `7 Months in the past` to "The end of" should have `1 month in the past`.
+    1. Make sure report should have "Sort" type `A-Z` and "Totals of Count" shows in percentage in columns over every month in Result Manipulation.
+    1. Order of result manipulation should be `1-value filter`in Result Manipulation.
 
 ### Slide 23: Report 2: IK - TTR
 
 This is right chart in Slide 24
 
-- Dataset used: Support ( Tickets)
+- Dataset used: Support ( Tickets )
 - Visualization type: Area
 - Metric used: \*MED (TTR)*\
 - Rows:
@@ -741,7 +837,7 @@ This is right chart in Slide 24
 - Custom Settings:
     1. (*) represents standard calculated metrics.
     1. Ticket Form filter should include `Alliance Parnters`, `Open Partner`, `Select Partner`, `SaaS`, `SaaS Account`, `Self-Managed`, `Emergencies`, `L&R` and `Other`.
-    1. Duplicate Ticket is a custom attribute and should have selected `Not Duplicate Only`.
+    1. Duplicate Ticket is a custom attribute and should have selected `Not Duplicate` only.
     1. Ticket Status should include `Solved` and `Closed` only.
     1. Follow-Up Ticket is a custom attribute and should have selected `Not Follow-Up Ticket` only.
     1. Free Reduced Effort - May 2022 is a custom attribute and should have selected `Regular Tickets` only.
@@ -1362,7 +1458,33 @@ aka IK - NRT SLA for .com/SM
 
 ### NRT SLA % Achieved For .COM - Outdated Calculations
 
-### Requester Wait Time .COM/SM/L&R - Custom Metric Error (RWT Minus On-hold)
+### Requester Wait Time .COM/SM/L&R
+
+aka IK - Requester Wait Time .COM/SM/L&R
+
+- Dataset used: Support ( SLAs )
+- Visualization type: Area
+- Metric used: MED (Requester wait time (hrs))
+- Rows:
+    None
+- Columns:
+    1. Ticket Solved - Year
+    1. Ticket Solved - Month
+- Filters used:
+    1. Ticket Form
+    1. Duplicate Ticket
+    1. Ticket Status
+    1. Follow-Up Ticket
+    1. Has Plan Ticket Tags - SSAT (Inc L&R)
+- Custom Settings:
+    1. Ticket Form filter should include `L&R`, `Emergency`, `SaaS`, `SaaS Account`, `Self-Managed`, `Emergencies`.
+    1. Duplicate Ticket is a custom attribute and should have selected `Not Duplicate` only.
+    1. Ticket Status should include `Solved` and `Closed` only.
+    1. Follow-Up Ticket is a custom attribute and should have selected `Not Follow-Up Ticket` only.
+    1. Has Plan Ticket Tags -SSAT (Incl L&R) is a custom attribute and includes should have `Has Plan + L&R` only.
+    1. Ticket Solved - Year use Advanced Date Range settings i.e. "From beginning of" should have `7 Months in the past` to "The end of" should have `1 month in the past`.
+    1. Make sure report should have "Sort" type `A-Z` and "Totals of Count" shows in percentage in columns over every month in Result Manipulation.
+    1. Order of result manipulation should be `1-value filter`in Result Manipulation.
 
 ### NRT Achieved Per Preferred Region
 
@@ -4128,6 +4250,17 @@ aka LK - Incoming Ops
 
     ```Text
     (D_COUNT(Free Reduced Effort - May/2023)/D_COUNT(All Free))*100
+    ```
+
+    Special settings: None
+
+1.  RWT Minus On-Hold
+
+    Type: Standard Calucated Metric
+    Formula:
+
+    ```Text
+    VALUE(Requester wait time (hrs))-VALUE(On-hold time (hrs))
     ```
 
     Special settings: None
