@@ -112,7 +112,7 @@ Extends the Senior IT Enterprise Applications Administrator requirements:
 
 ## Career Ladder
 
-The next step in the IT Enterprise Applications Administrator job family is to move to TO BE ADDED job family.
+Any IT team member can explore lateral career moves within the broader IT job family, provided they fulfill the responsibilities and requirements associated with the desired role.
 
 ## Hiring Process
 
