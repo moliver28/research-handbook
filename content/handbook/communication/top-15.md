@@ -7,7 +7,7 @@ description: 15 things all team members should know about how we work together.
 
 Looking for guidance to best understand how and why the GitLab team works the way we do? Then you’ve landed in the right place!
 
-You might be a new team member who’s read the GitLab CREDIT values and know our mission that everyone can contribute. Maybe you’re a tenured individual contributor who’s building new efficiencies in your daily workflow. Or, maybe you’re a new manager setting collaboration expectations for your team.
+You might be a new team member who’s read the [GitLab CREDIT values](https://handbook.gitlab.com/handbook/values/) and know our mission that [everyone can contribute](https://handbook.gitlab.com/handbook/company/mission/#mission). Maybe you’re a tenured individual contributor who’s building new efficiencies in your daily workflow. Or, maybe you’re a new manager setting collaboration expectations for your team.
 
 This list is designed for all team members to orient themselves to the most important and impactful practices that enable the GitLab team to achieve results every day.
 
