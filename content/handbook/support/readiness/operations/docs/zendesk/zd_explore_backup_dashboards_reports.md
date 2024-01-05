@@ -1250,6 +1250,49 @@ This is bottom right chart in Slide 26.
         1. LK - Ops Incoming Tickets For Support Per Week
         1. LK - Incoming Ops
 
+### Manager boards:
+
+#### Tabs:
+
+1. Tickets:
+    - Widgets used:
+        - Bookmark filter with Indivial Support Manager Name and SGGs. Hide Reset should be enabled.
+    - Reports used:
+        1. Ticket Type Ratio - Last 3 Months
+        1. Ticket Volume Target - Weighted Target Met - Last Month
+        1. Ticket Volume Target - Weighted Target Met - 6 Months
+        1. IK - FRT Replies Per Week - 12 Months
+        1. IK - Public Updates - Main
+        1. IK - Internal Comments - Main
+        1. IK - Solved/Closed Tickets - Main
+        1. Public Comments Per Week
+        1. Tickets Data 90 Days
+1. Ticket Volume Target:
+    - Widgets used:
+        - None
+    - Reports used:
+        1. Ticket Volume Target Replies Last Two Weeks
+        1. Ticket Volume Target - Targets Met - Last Month
+        1. Ticket Volume Target - This Week
+1. SSAT:
+    - Widgets used:
+        - None
+    - Reports used:
+        1. Solved Tickets With SSAT Comments 30 Days
+1. Long:
+    - Widgets used:
+        - None
+    - Reports used:
+        1. More than 7 Days No Agent Updates
+        1. 800K$ and above ARR opened 7 Days 
+        1. Open Ticket Over 60 Days
+        1. More than 40 Public Comments
+1. Public Comments:
+    - Widgets used:
+        - None
+    - Reports used:
+        1. Public Comments Breakdown Multiple Comments - Last Week
+
 ## Reports
 
 ### Total Incoming Tickets For Support
@@ -4254,7 +4297,7 @@ aka LK - Incoming Ops
 
     Special settings: None
 
-1.  RWT Minus On-Hold
+1. RWT Minus On-Hold
 
     Type: Standard Calucated Metric
     Formula:
