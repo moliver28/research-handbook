@@ -3,7 +3,7 @@ title: The GitLab Top 15
 description: 15 things all team members should know about how we work together.
 ---
 
-# The GitLab Top 15: How we work together in an all-remote workplace
+## The GitLab Top 15: How we work together in an all-remote workplace
 
 Looking for guidance to best understand how and why the GitLab team works the way we do? Then you’ve landed in the right place!
 
@@ -17,7 +17,7 @@ From this page, you can quickly navigate through the GitLab handbook and Level U
 
 Do you notice a top item that is missing from this list? Open a merge request to suggest additions to this page.
 
-# GitLab Top 15
+## GitLab Top 15
 
 ### How we treat each other
 
