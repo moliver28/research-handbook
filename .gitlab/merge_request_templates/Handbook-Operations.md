@@ -2,22 +2,16 @@
 
 ## Why is this change being made?
 
-> :bulb: **Provide a detailed answer to the question on *why* this change is being proposed, in accordance with our value of [Transparency][transparency].**
-
-<!-- Example: `We have discussed the topic in Slack - (copy of Slack conversation). The current process is not efficient, this MR makes the description of X more clear, and helps move Y forward.` -->
-
-CHANGEME - add the details saying [why, not just what][say-why-not-just-what].
-
 %{all_commits}
 
 ## Author and Reviewer Checklist
 
 **Please verify the check list and ensure to tick them off before the MR is merged.**
 
-- [ ] Provided a concise title for this [Merge Request (MR)][mr]
-- [ ] Added a description to this MR explaining the reasons for the proposed change, per [**say why, not just what**][say-why-not-just-what]
+- [x] Provided a concise title for this [Merge Request (MR)][mr]
+- [x] Added a description to this MR explaining the reasons for the proposed change, per [**say why, not just what**][say-why-not-just-what]
   - Copy/paste the Slack conversation to document it for later, or upload screenshots. Verify that no confidential data is added, and the content is [SAFE][SAFE]
-- [ ] Assign reviewers for this MR to the correct [Directly Responsible Individual/s (DRI)][dri]
+- [x] Assign reviewers for this MR to the correct [Directly Responsible Individual/s (DRI)][dri]
     - If the DRI for the page/s being updated isn’t immediately clear, then assign it to one of the people listed in the `Maintained by` section on the page being edited
     - If your manager does not have merge rights, please ask someone to merge it **AFTER** it has been approved by your manager in [#mr-buddies][mr-buddies-slack]
     - The [when to get approval][when-to-get-approval] handbook section explains the workflow in more detail
@@ -32,6 +26,7 @@ CHANGEME - add the details saying [why, not just what][say-why-not-just-what].
 <!-- Assign yourself -->
 
 /assign me
+/assign_reviewer me
 
 <!-- Assign reviewer(s), following https://about.gitlab.com/handbook/handbook-usage/#when-to-get-approval. Remove the [HTML comment tags](https://www.w3schools.com/tags/tag_comment.asp) to enable. -->
 
@@ -41,7 +36,7 @@ CHANGEME - add the details saying [why, not just what][say-why-not-just-what].
 
 <!-- Apply labels: You can keep or remove `~"handbook::content"` as needed, add other relevant labels, or remove this line. -->
 
-/label ~"handbook::content"
+/label ~"handbook::operations"
 
 ---
 
