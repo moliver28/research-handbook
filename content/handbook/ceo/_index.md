@@ -117,6 +117,8 @@ Sometimes I will ask to be kept apprised of an action item or follow up. One com
 
 I get a lot of @ mentions in Slack, often when I'm being discussed. Please only @ mention me when you need me to see something or approve something, when you just want to refer to me you can just say Sid. This saves time and enables increased efficiency.
 
+If there is a suggested message draft that you’d like me to post in Slack, you should send two messages to me. The first message should include the context behind the ask, the suggested timing for posting, and a link to the channel that the draft will be posted in. Under this message reply in thread with your second message. This should only contain the draft message. This allows me to easily copy and paste on mobile.  
+
 ### No Sacred Cows
 
 I’ve been thinking about the notion of Sacred Cows since I heard that people use “Sid said” as an argument in conversations.
