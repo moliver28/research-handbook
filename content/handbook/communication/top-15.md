@@ -1,9 +1,9 @@
 ---
-title: The GitLab Top 15
-description: 15 things all team members should know about how we work together.
+title: The GitLab Top 15 Practices
+description: 15 practices all team members should know about how we work together.
 ---
 
-## The GitLab Top 15: How we work together in an all-remote workplace
+## The GitLab Top 15 Practices: How we work together in an all-remote workplace
 
 Looking for guidance to best understand how and why the GitLab team works the way we do? Then you’ve landed in the right place!
 
@@ -21,12 +21,13 @@ Do you notice a top item that is missing from this list? Open a merge request to
 
 ### How we treat each other
 
-1. [Be respectful of others' time](https://handbook.gitlab.com/handbook/communication/#be-respectful-of-others-time) and working hours - it’s 5 o'clock somewhere!
+1. [Be respectful of others' time](https://handbook.gitlab.com/handbook/communication/#be-respectful-of-others-time) and working hours - it’s 5 o'clock somewhere!<!-- markdownlint-disable-line -->
 2. Feel [safe](https://handbook.gitlab.com/handbook/leadership/emotional-intelligence/psychological-safety/) to make mistakes, we all do it. They’re an opportunity for learning, so take a [bias for action](https://handbook.gitlab.com/handbook/values/#bias-for-action) as you iterate.
 3. You aren’t going to bump into each other in the corridor, so make time to [build friendships](https://handbook.gitlab.com/handbook/communication/#informal-communication) with coffee chats and social Slack channels.
 
 ### How we collaborate
 
+<!-- markdownlint-disable-line -->
 4. Communicate [async-first](https://handbook.gitlab.com/handbook/communication/#asynchronous-communication),...
 5. ...but don’t underestimate [sync conversation](https://handbook.gitlab.com/handbook/communication/#effective--responsible-communication-guidelines). In some cases, a 1:1 Zoom call is more efficient.
 6. Start with the handbook, end with the handbook - we are [handbook first](https://handbook.gitlab.com/handbook/company/culture/all-remote/handbook-first/)!
