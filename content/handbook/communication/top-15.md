@@ -41,8 +41,7 @@ Do you notice a top item that is missing from this list? Open a merge request to
 
 ##### 9: Don’t be afraid to overshare (at least when it comes to work) - remember to use [low-context communication](https://handbook.gitlab.com/teamops/decision-velocity/#low-context-communication)
 
-##### 10: [Manage your own attention](https://handbook.gitlab.com/handbook/company/culture/all-remote/live-doc-meetings/
-manage your own attention). Need time to focus? Let people know with a calendar block and Slack status. Meeting topics not relevant to your work? Leave the meeting or work on something else.
+##### 10: [Manage your own attention](https://handbook.gitlab.com/handbook/company/culture/all-remote/live-doc-meetings/manage your own attention). Need time to focus? Let people know with a calendar block and Slack status. Meeting topics not relevant to your work? Leave the meeting or work on something else.
 
 ### How we work async-first
 
