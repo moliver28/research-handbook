@@ -43,9 +43,9 @@ manage your own attention). Need time to focus? Let people know with a calendar 
 
 ### How we sync
 
-13. Every [meeting](https://handbook.gitlab.com/handbook/company/culture/all-remote/live-doc-meetings/ ) needs an agenda. Schedule meetings using Google Speedy Meetings and always start an agenda using this Google Docs template.
-14. Everyone contributes to [note taking](https://handbook.gitlab.com/handbook/communication/#smart-note-taking-in-meetings ), so don’t be afraid to jump in and give it a try!
-15. Time is precious, so [limit presentations during meetings](https://handbook.gitlab.com/handbook/communication/#few-meetings-with-presentations ). Spend more time discussing, debating, and reflecting.
+13. Every [meeting](https://handbook.gitlab.com/handbook/company/culture/all-remote/live-doc-meetings/) needs an agenda. Schedule meetings using Google Speedy Meetings and always start an agenda using this Google Docs template.
+14. Everyone contributes to [note taking](https://handbook.gitlab.com/handbook/communication/#smart-note-taking-in-meetings), so don’t be afraid to jump in and give it a try!
+15. Time is precious, so [limit presentations during meetings](https://handbook.gitlab.com/handbook/communication/#few-meetings-with-presentations). Spend more time discussing, debating, and reflecting.
 
 
 ## Keep Learning
