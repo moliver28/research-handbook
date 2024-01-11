@@ -3,7 +3,7 @@ title: The GitLab Top 15 Workplace Practices
 description: 15 workplace practices all team members should know about how we work together.
 ---
 
-## The GitLab Top 15 Practices: How we work together in an all-remote workplace
+## The GitLab Top 15 Workplace Practices: How we work together in an all-remote workplace
 
 Looking for guidance to best understand how and why the GitLab team works the way we do? Then you’ve landed in the right place!
 
