@@ -68,7 +68,7 @@ If a user has submitted multiple requests via the form, apply the `/duplicate` q
 
  <p>It looks like you have submitted multiple requests for the same purpose. </p>
 
- <p>I'm closing this issue in favour of #123, and we will continue processing your request on the other issue.</p>
+ <p>I'm closing this issue in favor of #123, and we will continue processing your request on the other issue.</p>
 
  <p>Regards,</p>
 </details>
