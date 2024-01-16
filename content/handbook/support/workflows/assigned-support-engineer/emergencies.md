@@ -1,5 +1,5 @@
 ---
-title: ASE Emergency Workflow
+title: Emergency Workflow
 category: Assigned Support Engineer
 description: Workflow for an ASE when their account submits an emergency
 ---
