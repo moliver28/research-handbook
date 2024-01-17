@@ -700,7 +700,7 @@ Some people might choose to use a nickname, for example: "Bob" instead of "Rober
 As long as this is their choice this is perfectly acceptable.
 We should avoid assigning a nickname to a person when we have difficulty with their name.
 
-###### Slack Pronunciation
+###### Slack pronunciation features
 
 Slack has two features to help with this issue: the phonetic name pronunciation field and the ability to record your own name pronunciation audio clip. We encourage all team members to complete both of these.
 
