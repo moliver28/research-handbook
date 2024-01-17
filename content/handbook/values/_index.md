@@ -676,22 +676,22 @@ Please also visit our [Gender and Sexual-orientation Identity Definitions and FA
 
 ##### Learn how to pronounce other people's names
 
-We attach part of our identity to our names, and if it is mis-pronounced it can feel less-inclusive.
+We attach part of our identity to our names, and if it is mispronounced it can feel less inclusive.
 If it happens repeatedly, then it is sending a message to that person that you are not interested
 in learning how to pronounce their name correctly. This applies to everyone you are in contact with:
-team members, customers, candidates for jobs and anyone else.
+team members, customers, candidates for jobs, and anyone else.
 
-People who's name is repeatedly mis-pronounced may feel unimportant or self-conscious and may not
+People whose name is repeatedly mispronounced might feel unimportant or self-conscious, and might not
 speak up about it.
 Other negative behaviours are giving a person a nickname without their permission, or not referring
 to them by name at all in sync calls.
 
-There can be challenges for some people with names from a different language or culture than their
+It might be challenging to pronounce names from a different language or culture than your
 own, but with some effort, name pronunciation can be learned by anyone. Some ways to achieve this are:
 
-- Ask the person for help: "I'm sorry, I don't think I am pronouncing your name correctly? Can you help me with the correct pronouncation?"
-- Use the written and recorded pronunciation tools in Slack
-- Use online tools such such videos recorded on YouTube or [NameShouts](https://www.nameshouts.com/)
+- Ask the person for help: "I'm sorry, I don't think I am pronouncing your name correctly? Can you help me with the correct pronunciation?"
+- Use the written and recorded pronunciation tools in Slack.
+- Use online tools such such videos recorded on YouTube or [NameShouts](https://www.nameshouts.com/).
 - Practice the pronunciation with a friend or team member who knows the correct pronunication.
 
 ###### Use of nicknames
