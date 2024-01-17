@@ -123,5 +123,5 @@ All 1:1 notes documents should include similar text and links at the top.
 1. Documentation updates - [Link example](/handbook/support/support-engineer-responsibilities#7-improve-documentation-and-publicly-share-knowledge-weekly)
 1. Bug fixes - [Link example](/handbook/support/support-engineer-responsibilities#8-fix-gitlab-bugs-and-create-features-occasionally)
 1. Learning and training progress - [Link example](/handbook/support/support-engineer-responsibilities#11-develop-your-skills-through-learning-and-training-weekly)
-1. Customer calls? (Currently no link for this item. Included as a reminder to mention customer calls completed in the last week.)
+1. Customer pairing sessions? (Currently no link for this item. Included as a reminder to mention customer pairing sessions completed in the last week.)
 1. Interviews? (Currently no link for this item. Included as a reminder to mention interviews completed in the last week.)

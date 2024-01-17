@@ -25,7 +25,7 @@ During your time as onboarding buddy, you'll be working alongside the new Suppor
 |   | Open the lines of communication in Slack. Throughout this process, check in with them periodically to see how their onboarding module is progressing and ask if they need help.        |
 | |Call to help them update the team page, GitLab Sandbox Cloud for GCP, the GDK, or anything else they may have questions about or trouble with. |
 | [Weeks 3+](#pairings)| Pair at least twice, but more often if you can. Ideally, aim for once a week. |
-| | Invite them to shadow you on any customer calls. |
+| | Invite them to shadow you on any customer pairing sessions. |
 | | Identify tickets that help push the engineer out of their comfort zone, and encourage the engineer to [self-assign](/handbook/support/workflows/working-on-tickets) these tickets. |
 
 ## Ideas & Suggestions
@@ -65,9 +65,9 @@ Note that everyone's needs are different, so consider the following as a list of
   - Alternate who shares their screen and answers the tickets
   - Reproduce problems whenever you can. Show them how to quickly spin up an instance using your preferred method (Docker, GitLab Sandbox Cloud for GCP, etc.)
 
-- Customer calls:
-  - Ping them when you have a customer call so they can shadow it
-  - Show them how to find customer calls to shadow
+- Customer pairing sessions:
+  - Ping them when you have a customer pairing session so they can shadow it
+  - Show them how to find customer pairing session to shadow
   - Be available for their first customer call, if possible. If not, do what you can to ensure they have a shadow to help them out
 
 ### What to do afterwards

@@ -49,7 +49,7 @@ Checkpoints for new starters who are working through their support hybrid learni
 - You have completed:
   - GitLab-com SaaS Basics
 - You have taken assignment of a couple of SaaS Account tickets
-- You have shadowed some customer calls
+- You have shadowed some customer pairing sessions
 - You understand how to ask for help through the different channels
 - You know which views/dashboards to work from within Zendesk
 - You understand the organizational structure of GitLab
@@ -61,7 +61,7 @@ Checkpoints for new starters who are working through their support hybrid learni
   - Omnibus GitLab training module
   - GitLab.com prod console
   - License & Renewals module
-- You have led customer calls
+- You have led customer pairing sessions
 - You have submitted MRs
 
 ### Refining Your Documentation
@@ -74,7 +74,7 @@ Checkpoints for new starters who are working through their support hybrid learni
 ### Participate in Upgrade Assistance
 
 - You have been DRI on upgrade assistance tickets
-- You are comfortable initiating customer calls as necessary
+- You are comfortable initiating customer pairing sessions as necessary
 - You have updated your Areas of Focus in the Support Team Page
 - You have discussed which on-call roster you will be working towards ([CMOC](/handbook/support/workflows/cmoc_workflows#contacting-a-user) or [Customer Emergencies](/handbook/on-call/#sts=Customer%20Emergency%20On-Call%20Rotation)) with your manager
 

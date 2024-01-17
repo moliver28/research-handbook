@@ -38,7 +38,7 @@ Our primary responsibility in the Support Leadership team is to ensure high qual
 | Help Support Engineers to manage tickets, manage customer expectations, and communicate well | Coach SEs on communication techniques |
 |  | Understand Support Workflows and escalation paths |
 |  | Support your team members' [participation in on-call rotations](/handbook/support/on-call/) to coordinate and resolve emergencies
-|  | Join [Customer Calls](/handbook/support/workflows/customer_calls) with SEs on request or according to your judgement |
+|  | Join [Customer Pairing Sessions](/handbook/support/workflows/customer_pairing_sessions) with SEs on request or according to your judgement |
 |  | Propose, develop, and evaluate improvements to Support processes by acting as DRI for [issues in the Support Meta project](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues) |
 | Stay up-to-date on GitLab Product, Strategy, Pricing, etc. | Contribute to and read the [Support Week in Review](/handbook/support/#support-week-in-review) document every week |
 |  | Participate (at the Section level or cross-functional level) in [Support Stable Counterparts](/handbook/support/#support-stable-counterparts) or [Cross-functional non-product counterparts](/handbook/support/#cross-functional-non-product-counterparts)
@@ -136,7 +136,7 @@ Each week, Support Managers should do one or more of these activities:
 
 - own and resolve one ticket from first reply to closing statement
 - join a pairing session with one or more Support Engineers
-- join a scheduled or emergency call
+- join a scheduled customer pairing session or emergency call
 
 By continually engaging with workflows, tickets, and customers we can build empathy and understand pain points through first-hand experience.
 
