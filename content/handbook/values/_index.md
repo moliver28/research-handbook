@@ -695,7 +695,6 @@ Some people may choose to use a nickname, eg: "Bob" instead of "Robert". As long
 
 Slack has two features to help with this issue: the phoenetic name prouncation field and the ability to record your own name pronunciation audioclip. We encourage all team members to complete both of these.
 
-
 ##### Inclusive interviewing
 
 This is documented on our page about [interviewing](/handbook/hiring/interviewing/#inclusive-interviewing).
