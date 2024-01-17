@@ -676,7 +676,7 @@ Please also visit our [Gender and Sexual-orientation Identity Definitions and FA
 
 ##### Learn How to Pronounce Other People's Names
 
-We attach part of our identity to our names, and if it is mis-pronounced it can feel less-inclusive. If it happens repeatedly, then it is sending a message to that person that you are not interested in learning how to pronounce their name correctly. This applies to everyone you are in contact with: team members, customers, candidatesates for jobs and anyone else.
+We attach part of our identity to our names, and if it is mis-pronounced it can feel less-inclusive. If it happens repeatedly, then it is sending a message to that person that you are not interested in learning how to pronounce their name correctly. This applies to everyone you are in contact with: team members, customers, candidates for jobs and anyone else.
 
 People who's name is repeatly mis-pronounced may feel unimportant or self-conscious and may not speak up about it. Other negative behaviours are giving a person a nickname without their permission, or not referring to them by name at all in sync calls.
 
