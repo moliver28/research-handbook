@@ -674,7 +674,7 @@ If your goal is to be inclusive, it is more effective to make a small adjustment
 And if you make a mistake (e.g. accidentally using the wrong pronoun or an outdated phrase), acknowledge it, **apologize gracefully and move on**; there is no need to dwell on it, and you can work to avoid making that mistake in the future.
 Please also visit our [Gender and Sexual-orientation Identity Definitions and FAQ](/handbook/people-group/orientation-identity/) page if you have questions around pronouns and other topics related to gender / sexual orientation.
 
-##### Learn How to Pronounce Other People's Names
+##### Learn how to pronounce other people's names
 
 We attach part of our identity to our names, and if it is mis-pronounced it can feel less-inclusive.
 If it happens repeatedly, then it is sending a message to that person that you are not interested
