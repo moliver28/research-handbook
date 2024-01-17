@@ -29,6 +29,13 @@ building software products. Engineering excellence is being fueled by a strong
 engineering culture combined with a mission: to build better software that
 allows everyone to contribute.
 
+### Collaboration in Engineering
+
+[Collaboration](/handbook/values/#collaboration] and [Efficiency](/handbook/values/#efficiency), as two of our Values, are clearly important to GitLab. Across Engineering we need to be mindful that in our day-to-day we are [providing efficiency for the right group](#efficiency-for-the-right-group) as we approach these two values. Engineers shouldn't generally spend their entire day working alone on their personal task list in focus mode. Remember to take a step away from what's important to you and help unblock someone else _every_ day.
+
+Different sub-departments will have different interpretations of this principle. For example, [Development](/handbook/engineering/development/principles/) emphasizes the importance of [maintaining velocity by reducing review time](/handbook/engineering/development/principles/#reduce-review-time), whereas Support manifests this principle in pairing sessions with customers and other Support Engineers.
+
+
 ## Engineering Initiatives
 
 Engineering is the primary advocate for the performance, availability, and security of the GitLab project. Product Management prioritizes 60% of engineering time, so everyone in the engineering function should participate in the Product Management [prioritization process](/handbook/product/cross-functional-prioritization) to ensure that our project stays ahead in these areas. Engineering prioritizes 40% of time on initiatives that improve the product, underlying platform and foundational technologies we use.
