@@ -128,7 +128,7 @@ For those with regular commitments, look for shorter weeks or timezone variation
 | ---------- | -------- | ------- | --------- | -------------- |
 | 2024-01-15 | 2024-01-19 | [Ben Venker](https://gitlab.com/bvenker) - Sr. PM, Global Search | [Javier Garcia](https://gitlab.com/jgarc) - Frontend Engineer, Digital Experience | REMOTE - PT, TUES - FRI |
 | 2024-01-22 | 2024-01-26 | [Riley Longo](https://gitlab.com/rilongo) - Customer Service Manager | [Ben Venker](https://gitlab.com/bvenker) - Sr. PM, Global Search | REMOTE - PT |
-| 2024-01-29 | 2024-02-02 | [Dilan Orrino](https://gitlab.com/dorrino) - Sr Product Manager | [Riley Longo](https://gitlab.com/rilongo) - Customer Service Manager | REMOTE - PT, Likely 2 or 3 days TBC |
+| 2024-01-29 | 2024-02-02 | [Dilan Orrino](https://gitlab.com/dorrino) - Sr Product Manager | [Riley Longo](https://gitlab.com/rilongo) - Customer Service Manager | REMOTE - PT |
 | 2024-02-05 | 2024-02-09 | [Deepika Guliani](https://gitlab.com/deepika.guliani) - Frontend Engineer, Plan:Project Management | [Dilan Orrino](https://gitlab.com/dorrino) - Sr Product Manager | REMOTE - PT |
 | 2024-02-12 | 2024-02-14 | [Miracle Banks](https://gitlab.com/miraclebanks) - Full Stack Engineer | [Deepika Guliani](https://gitlab.com/deepika.guliani) - - Frontend Engineer, Plan:Project Management  | REMOTE - PT, MON - WED |
 | 2024-02-20 | 2024-02-23 | [Emma Neuberger](https://gitlab.com/eneuberger) - Sr Product Analyst | [Miracle Banks](https://gitlab.com/deepika.guliani) - Full Stack Engineer | REMOTE - PT, TUES - FRI |
