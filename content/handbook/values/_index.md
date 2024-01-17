@@ -702,7 +702,7 @@ We should avoid assigning a nickname to a person when we have difficulty with th
 
 ###### Slack Pronunciation
 
-Slack has two features to help with this issue: the phoenetic name prouncation field and the ability to record your own name pronunciation audioclip. We encourage all team members to complete both of these.
+Slack has two features to help with this issue: the phonetic name pronunciation field and the ability to record your own name pronunciation audio clip. We encourage all team members to complete both of these.
 
 ##### Inclusive interviewing
 
