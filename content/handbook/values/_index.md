@@ -676,11 +676,18 @@ Please also visit our [Gender and Sexual-orientation Identity Definitions and FA
 
 ##### Learn How to Pronounce Other People's Names
 
-We attach part of our identity to our names, and if it is mis-pronounced it can feel less-inclusive. If it happens repeatedly, then it is sending a message to that person that you are not interested in learning how to pronounce their name correctly. This applies to everyone you are in contact with: team members, customers, candidates for jobs and anyone else.
+We attach part of our identity to our names, and if it is mis-pronounced it can feel less-inclusive.
+If it happens repeatedly, then it is sending a message to that person that you are not interested
+in learning how to pronounce their name correctly. This applies to everyone you are in contact with:
+team members, customers, candidates for jobs and anyone else.
 
-People who's name is repeatedly mis-pronounced may feel unimportant or self-conscious and may not speak up about it. Other negative behaviours are giving a person a nickname without their permission, or not referring to them by name at all in sync calls.
+People who's name is repeatedly mis-pronounced may feel unimportant or self-conscious and may not
+speak up about it.
+Other negative behaviours are giving a person a nickname without their permission, or not referring
+to them by name at all in sync calls.
 
-There can be challenges for some people with names from a different language or culture than their own, but with some effort, name pronunciation can be learned by anyone. Some ways to achieve this are:
+There can be challenges for some people with names from a different language or culture than their
+own, but with some effort, name pronunciation can be learned by anyone. Some ways to achieve this are:
 
 - Ask the person for help: "I'm sorry, I don't think I am pronouncing your name correctly? Can you help me with the correct pronouncation?"
 - Use the written and recorded pronunciation tools in Slack
@@ -689,7 +696,9 @@ There can be challenges for some people with names from a different language or 
 
 ###### Use of nicknames
 
-Some people may choose to use a nickname, eg: "Bob" instead of "Robert". As long as this is their choice this is perfectly acceptable. We should avoid assigning a nickname to a person when we have difficulty with their name.
+Some people may choose to use a nickname, eg: "Bob" instead of "Robert".
+As long as this is their choice this is perfectly acceptable.
+We should avoid assigning a nickname to a person when we have difficulty with their name.
 
 ###### Slack Pronunciation
 
