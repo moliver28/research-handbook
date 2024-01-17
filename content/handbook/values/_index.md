@@ -674,6 +674,28 @@ If your goal is to be inclusive, it is more effective to make a small adjustment
 And if you make a mistake (e.g. accidentally using the wrong pronoun or an outdated phrase), acknowledge it, **apologize gracefully and move on**; there is no need to dwell on it, and you can work to avoid making that mistake in the future.
 Please also visit our [Gender and Sexual-orientation Identity Definitions and FAQ](/handbook/people-group/orientation-identity/) page if you have questions around pronouns and other topics related to gender / sexual orientation.
 
+##### Learn How to Pronounce Other People's Names
+
+We attach part of our identity to our names, and if it is mis-pronounced it can feel less-inclusive. If it happens repeatedly, then it is sending a message to that person that you are not interested in learning how to pronounce their name correctly. This applies to everyone you are in contact with: team members, customers, candidatesates for jobs and anyone else.
+
+People who's name is repeatly mis-pronounced may feel unimportant or self-conscious and may not speak up about it. Other negative behaviours are giving a person a nickname without their permission, or not referring to them by name at all in sync calls. 
+
+There can be challenges for some people with names from a different language or culture than their own, but with some effort, name pronunciation can be learned by anyone. Some ways to achieve this are:
+
+- Ask the person for help: "I'm sorry, I don't think I am pronouncing your name correctly? Can you help me with the correct pronouncation?"
+- Use the written and recorded pronunciation tools in Slack
+- Use online tools such such videos recorded on YouTube or [NameShouts](https://www.nameshouts.com/)
+- Practice the prouncation with a friend or team member who knows the correct pronunication.
+
+###### Use of nicknames
+
+Some people may choose to use a nickname, eg: "Bob" instead of "Robert". As long as this is their choice this is perfectly acceptable. We should avoid assigning a nickname to a person when we have difficulty with their name.
+
+###### Slack Pronunciation
+
+Slack has two features to help with this issue: the phoenetic name prouncation field and the ability to record your own name pronunciation audioclip. We encourage all team members to complete both of these.
+
+
 ##### Inclusive interviewing
 
 This is documented on our page about [interviewing](/handbook/hiring/interviewing/#inclusive-interviewing).
