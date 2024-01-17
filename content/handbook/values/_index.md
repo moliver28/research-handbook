@@ -691,7 +691,7 @@ own, but with some effort, name pronunciation can be learned by anyone. Some way
 
 - Ask the person for help: "I'm sorry, I don't think I am pronouncing your name correctly? Can you help me with the correct pronunciation?"
 - Use the written and recorded pronunciation tools in Slack.
-- Use online tools such such videos recorded on YouTube or [NameShouts](https://www.nameshouts.com/).
+- Use online tools such as videos recorded on YouTube or [NameShouts](https://www.nameshouts.com/).
 - Practice the pronunciation with a friend or team member who knows the correct pronunication.
 
 ###### Use of nicknames
