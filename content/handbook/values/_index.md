@@ -696,7 +696,7 @@ own, but with some effort, name pronunciation can be learned by anyone. Some way
 
 ###### Use of nicknames
 
-Some people may choose to use a nickname, eg: "Bob" instead of "Robert".
+Some people might choose to use a nickname, for example: "Bob" instead of "Robert".
 As long as this is their choice this is perfectly acceptable.
 We should avoid assigning a nickname to a person when we have difficulty with their name.
 
