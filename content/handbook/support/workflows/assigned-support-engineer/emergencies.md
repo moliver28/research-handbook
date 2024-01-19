@@ -1,5 +1,5 @@
 ---
-title: ASE Emergency Workflow
+title: Emergency Workflow
 category: Assigned Support Engineer
 description: Workflow for an ASE when their account submits an emergency
 ---
@@ -17,7 +17,7 @@ troubleshooting during this emergency scenario.
 
 ## Process for the on-call engineer
 
-Regardless of when it comes in, the [DRI](/handbook/people-group/directly-responsible-individuals/)
+Regardless of when it comes in, the [DRI](/handbook/people-group/directly-responsible-individuals.html)
 for the emergency continues to be the on-call Support Engineer.
 Their only process change is that they should **notify the ASE when
 their account submits an emergency**.
@@ -37,7 +37,7 @@ available or can be available, then work alongside the on-call engineer to
 resolve the ticket. This may involve *any* of the following:
 
 - Taking over as
-  [DRI](/handbook/people-group/directly-responsible-individuals/) for the emergency
+  [DRI](/handbook/people-group/directly-responsible-individuals.html) for the emergency
 - Shadowing the emergency for any amount of time
 - Troubleshooting the emergency in Slack, asynchronously
 - Updating the on-call engineer with any required context

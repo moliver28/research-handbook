@@ -37,25 +37,25 @@ Some questions we discussed so far:
 
 ### Taking Time Off
 
-We build on [the process for all of Support](../../../support-time-off.md) when planning days off.
+We build on [the process for all of Support](../../../support-time-off.html) when planning days off.
 
 More specifically, we collaborate to ensure that we
 can continue to deliver a good experience for our customers when we're
 out. Here's how we do that.
 
-- Review the [OOO calendar for our region in Pine](../../../support-time-off.md#support-time-off-calendars)
+- Review the [OOO calendar for our region in Pine](../../../support-time-off.html#support-time-off-calendars)
   to ensure that the team still has coverage on planned days off. If we lose
   coverage and the day(s) off are important to us, we coordinate with our
   region and/or get help from our managers
 - Communicate our planned day(s) off with each other in Slack.
   This is normally done in our daily stand-up Slack thread with our
   regional colleagues
-- [Manage our tickets to ensure they get attention while we are out](../../../support-time-off.md#coverage-for-assigned-tickets):
+- [Manage our tickets to ensure they get attention while we are out](../../../support-time-off.html#coverage-for-assigned-tickets):
   - Our AMER and EMEA teams bring attention to the tickets
     that need a temporary assignee in their daily stand-up threads. If an
     assignee can't be found within the SGG, then they bring it to the attention
     of a manager who can help find a temporary assignee externally
-  - Our APAC team uses [the dedicated Slack channel workflow](../../../workflows/ooo-ticket-management/index.md#using-a-dedicated-slack-channel)
+  - Our APAC team uses [the dedicated Slack channel workflow](../../../workflows/ooo-ticket-management/index.html#using-a-dedicated-slack-channel)
     to keep track of the tickets that need assignees and their ongoing state
 
 ### Slack
