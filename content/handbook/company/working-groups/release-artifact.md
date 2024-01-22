@@ -45,8 +45,11 @@ The table below lists all exit criteria for the working group. See the top-level
 
 | # | Completed Date | Progress | DRI             | Criteria                                                                                                                                        |
 |---|----------------|----------|-----------------|-------------------------------------------------------------------------------------------------------------------------------------------------|
-| 1 | TBD | - | - | - |
-| 2 | TBD | - | - | - |
+| 1 | Define a Generic/flexible release business process | - | - | - |
+| 2 | Design an artefact standard internally with GitLab team members | - | - | - |
+| 3 | Gather Feedback from key customer adopters and make changes | - | - | - |
+| 4 | Release to GitLab product and open to the open source community for comment  | - | - | - |
+| 5 | Donate to the CNCF - Accepted/Rejected | - | - | - |
 
 ## Roles and Responsibilities
 
