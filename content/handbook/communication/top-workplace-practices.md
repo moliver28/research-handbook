@@ -5,10 +5,6 @@ description: 15 workplace practices all team members should know about how we wo
 
 ## The GitLab Top 15 Workplace Practices: How we work together in an all-remote workplace
 
-Looking for guidance to best understand how and why the GitLab team works the way we do? Then you’ve landed in the right place!
-
-You might be a new team member who’s recently read the [GitLab CREDIT values](https://handbook.gitlab.com/handbook/values/). Maybe you’re a tenured individual contributor who’s building new efficiencies in your daily workflow. Or, maybe you’re a new manager setting collaboration expectations for your team.
-
 This list is designed for all team members to orient themselves to the most important and impactful practices that enable the GitLab team to achieve results every day.
 
 From this page, you can quickly navigate through the GitLab handbook and Level Up to learn more about how each practice comes to life in our day to day flow of work.
