@@ -683,7 +683,7 @@ team members, customers, candidates for jobs, and anyone else.
 
 People whose name is repeatedly mispronounced might feel unimportant or self-conscious, and might not
 speak up about it.
-Other negative behaviours include giving a person a nickname without their permission, or 
+Other negative behaviours include giving a person a nickname without their permission, or
 actively avoiding using their name in sync calls.
 
 It might be challenging to pronounce names from a different language or culture than your
@@ -693,7 +693,7 @@ own, but with some effort, name pronunciation can be learned by anyone. Some way
 - Use the written and recorded pronunciation tools in Slack.
 - Use online tools such as videos recorded on YouTube or [NameShouts](https://www.nameshouts.com/).
 - Practice the pronunciation with a friend or team member who knows the correct pronunication.
-- Avoid making jokes or comments about how it is difficult to pronounce their name 
+- Avoid making jokes or comments about how it is difficult to pronounce their name
 
 ###### Use of nicknames
 
