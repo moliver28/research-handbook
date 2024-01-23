@@ -132,16 +132,6 @@ This includes the entire stack and all its facets. The product team needs to wei
 
 We have a library dedicated to collecting and highlighting the best resources to support the growth and success of product managers in doing their job at GitLab as well as beyond, to achieve their long term career goals. We encourage product managers to work with their managers to identify areas for improvement, and leverage the [learning and development for product management](./learning-and-development/) resources accordingly.
 
-## Evaluating External Roles
-As members of a prolific, product-focused company, GitLab Product Managers are frequently approached with job offers at other companies. Below is a list of criteria to consider when evaluating those roles:
-- **Culture:** Consider some of the tangible benefits of culture such as productivity, autonomy, transparency, and remote flexibility.
-- **Product System:** Consider how well the company ships today, what the PM process is and how much autonomy Product Managers are given to do their primary role.
-- **Role:** Consider the degree of challenge, scope and learning curve of the role, not just the title.
-- **Company Trajectory:** Consider the rate at which the company is growing and how much additional market there is for it to capture. This can impact career growth  related to wealth generation over multi-year periods.
-- **Market:** Consider the degree to which you'll be exposed to many different markets as opposed to being focused on one specific market.
-- **GTM Motions:** Consider the type of GTM motion and how that will impact your available and priority sensing mechanisms.
-- **Additional Resources:** [Seven tips for picking your next job](https://theskip.substack.com/p/seven-tips-for-picking-your-first), [Product Salaries](https://www.levels.fyi/company/Google/salaries/Product-Manager/)
-
 ## Product Manager Onboarding
 
 Product Manager onboarding consists of 2 related issue templates. 
