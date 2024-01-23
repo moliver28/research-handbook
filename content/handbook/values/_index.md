@@ -683,8 +683,8 @@ team members, customers, candidates for jobs, and anyone else.
 
 People whose name is repeatedly mispronounced might feel unimportant or self-conscious, and might not
 speak up about it.
-Other negative behaviours include giving a person a nickname without their permission, or not referring
-to them by name at all in sync calls.
+Other negative behaviours include giving a person a nickname without their permission, or 
+actively avoiding using their name in sync calls.
 
 It might be challenging to pronounce names from a different language or culture than your
 own, but with some effort, name pronunciation can be learned by anyone. Some ways to achieve this are:
