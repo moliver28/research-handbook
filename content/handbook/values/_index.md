@@ -693,6 +693,7 @@ own, but with some effort, name pronunciation can be learned by anyone. Some way
 - Use the written and recorded pronunciation tools in Slack.
 - Use online tools such as videos recorded on YouTube or [NameShouts](https://www.nameshouts.com/).
 - Practice the pronunciation with a friend or team member who knows the correct pronunication.
+- Avoid making jokes or comments about how it is difficult to pronounce their name 
 
 ###### Use of nicknames
 
