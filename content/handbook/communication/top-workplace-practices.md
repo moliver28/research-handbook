@@ -18,7 +18,7 @@ From this page, you can quickly navigate through the GitLab handbook and Level U
 
 ##### 2: Feel [safe](https://handbook.gitlab.com/handbook/leadership/emotional-intelligence/psychological-safety/) to make mistakes, we all do it. They’re an opportunity for learning, so take a [bias for action](https://handbook.gitlab.com/handbook/values/#bias-for-action) as you iterate.
 
-##### 3: You aren’t going to bump into each other in the corridor, so make time to [build friendships](https://handbook.gitlab.com/handbook/communication/#informal-communication) with coffee chats and social Slack channels.
+##### 3: You aren’t going to bump into each other in the corridor, so make time to [build meaningful connections](https://handbook.gitlab.com/handbook/communication/#informal-communication) with coffee chats and social Slack channels.
 
 ### How we collaborate
 
