@@ -44,7 +44,7 @@ From this page, you can quickly navigate through the GitLab handbook and Level U
 
 ### How we sync
 
-##### 13: Every [meeting](https://handbook.gitlab.com/handbook/company/culture/all-remote/live-doc-meetings/) needs an agenda. Schedule meetings using Google Speedy Meetings and always start an agenda using this Google Docs template.
+##### 13: Every [meeting](https://handbook.gitlab.com/handbook/company/culture/all-remote/live-doc-meetings/) needs an agenda. Schedule meetings using Google Speedy Meetings and always start an agenda using the Google Docs template.
 
 ##### 14: Everyone contributes to [note taking](https://handbook.gitlab.com/handbook/communication/#smart-note-taking-in-meetings), so don’t be afraid to jump in and give it a try!
 
