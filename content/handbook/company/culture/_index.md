@@ -11,7 +11,11 @@ twitter_creator: "@gitlab"
 
 Please see our [company page]({{< ref "company" >}}) for more general information about GitLab. You can see how our team has grown at the [GitLab Contribute page.](https://about.gitlab.com/events/gitlab-contribute/)
 
-{{< youtube "GKMUs7WXm-E" >}}
+<!-- blank line -->
+<figure class="video_container">
+  <iframe src="https://vimeo.com/848558836?share=copy&login=true" frameborder="0" allowfullscreen="true"> </iframe>
+</figure>
+<!-- blank line -->
 
 ## Life at GitLab
 
