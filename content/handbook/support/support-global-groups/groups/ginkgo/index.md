@@ -114,4 +114,8 @@ We have dedicated Slack group handles in place that allow us to easily target sp
 - `@spt-ginkgo-apac`
 - `@spt-ginkgo-emea`
 
+### Trials
+
+Trials scoped to Ginkgo are recorded as Issues [under the Ginkgo gitlab.com project.](https://gitlab.com/gitlab-com/support/sgg-ginkgo/trials).
+
 ![multiple tanuki celebrating a party under a ginkgo tree in cartoon style](/handbook/support/support-global-groups/groups/ginkgo/sgg_ginkgo_party.png)
