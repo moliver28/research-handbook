@@ -26,8 +26,8 @@ description: "This Hands-On Guide walks you through the lab exercises used in th
 
 Here are some quick links that may be useful when reviewing this Hands On Guide.
 
-* [GitLab Project Management course description](/services/education/pm/)
-* [GitLab Project Management Specialist certification details](/services/education/gitlab-project-management-associate/)
+* [GitLab Project Management course description](https://about.gitlab.com/services/education/pm/)
+* [GitLab Project Management Specialist certification details](https://about.gitlab.com/services/education/gitlab-project-management-associate/)
 
 ## Suggestions?
 
