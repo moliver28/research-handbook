@@ -32,7 +32,7 @@ From this page, you can quickly navigate through the GitLab handbook and Level U
 
 ##### 8: It helps to have someone calling the shots. Assign a [Directly Responsible Individual](https://handbook.gitlab.com/handbook/people-group/directly-responsible-individuals/#empowering-dris) (DRI), then empower them to [make decisions](https://handbook.gitlab.com/teamops/decision-velocity).
 
-##### 9: Don’t be afraid to overshare (at least when it comes to work) - remember to use [low-context communication](https://handbook.gitlab.com/teamops/decision-velocity/#low-context-communication)
+##### 9: Don’t be afraid to overshare (at least when it comes to work) - remember to use [low-context communication](https://handbook.gitlab.com/teamops/decision-velocity/#low-context-communication).
 
 ##### 10: [Manage your own attention](https://handbook.gitlab.com/handbook/company/culture/all-remote/live-doc-meetings/). Need time to focus? Let people know with a calendar block and Slack status. Meeting topics not relevant to your work? Leave the meeting or work on something else.
 
