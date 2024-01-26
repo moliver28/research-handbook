@@ -370,7 +370,7 @@ Effective 2024-02-01, GitLab offers Eligible New Zealand Team members a comprehe
 
 GitLab covers 100% of the Team Member costs for the plan. Eligible family members can be added to the plan at a significant discount. Eligible Team Members who wish to add their family members to the plan can arrange ongoing direct debit billing directly with Southern Cross.
 
-The plan offers immediate cover for qualifying pre-existing conditions if you sign up within 90 days of the plans commencement date or team member’s start date (whichever is later). 
+The plan offers immediate cover for qualifying pre-existing conditions if you sign up within 90 days of the plans commencement date or team member’s start date (whichever is later).
 
 Please note this benefit is considered a “Fringe Benefit” and will be subject to Fringe Benefit Tax. The benefit is optional and team members are not required to enroll.
 
