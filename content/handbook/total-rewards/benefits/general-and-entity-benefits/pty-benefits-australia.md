@@ -391,7 +391,10 @@ Eligible Team Members and their families can join the plan at any time, but plea
 ### Adding a new-born child
 
 The special pre-existing condition cover concession above is extended to a newborn child if they are
-added to the policy within three months of the child’s birth. Congenital conditions are not covered. Please contact WTW (benefits.nz@willistowerswatson.com) by email to help add members to your policy.
+added to the policy within three months of the child’s birth. Congenital conditions are not covered, please refer to the policy document to review all exclusions. Please contact WTW (benefits.nz@willistowerswatson.com) by email to help add members to your policy.
+
+For a full overview of the plan please view our [2024 New Zealand Webinar](https://drive.google.com/file/d/1CCqSMJTBV8NUtvk5YilKPgZ8kPw2bVcb/view?usp=sharing)
+
 
 ### Medical Plan Administration Details
 
