@@ -370,13 +370,13 @@ Effective 2024-02-01, GitLab offers Eligible New Zealand Team members a comprehe
 
 GitLab covers 100% of the Team Member costs for the plan. Eligible family members can be added to the plan at a significant discount. Eligible Team Members who wish to add their family members to the plan can arrange ongoing direct debit billing directly with Southern Cross.
 
-The plan offers immediate cover for qualifying pre-existing conditions if you sign up within 90 days of the plans commencement date or team member’s start date (whichever is later).
+The plan offers immediate cover for qualifying pre-existing conditions if you sign up within 90 days of the plans commencement date or team member’s start date (whichever is later). 
 
 Please note this benefit is considered a “Fringe Benefit” and will be subject to Fringe Benefit Tax. The benefit is optional and team members are not required to enroll.
 
 GitLab retains the right to replace the provider or policy at any time and is not required to offer this benefit to those that may be ineligible. Any benefits provided under the plan do not impact the Team Member’s or GitLab’s rights to end the employment relationship.
 
-For additional details please refer to the [FAQ](https://drive.google.com/file/d/1Sd2DpIAf7kgl_A5au0VIUYdRuOZ1ZdJx/view?usp=sharing) and [Benefit Summary](https://drive.google.com/file/d/17WUPQMvvWka77Khe6_adSOiSbibNY3GC/view?usp=sharing)
+For additional details please refer to the [FAQ](https://drive.google.com/file/d/1Sd2DpIAf7kgl_A5au0VIUYdRuOZ1ZdJx/view?usp=sharing) [Benefit Summary](https://drive.google.com/file/d/17WUPQMvvWka77Khe6_adSOiSbibNY3GC/view?usp=sharing), and the full [Policy](https://drive.google.com/file/d/1oGOlDjxFKKV96f8URZ31vNlzCYv8kgru/view?usp=sharing)
 
 For questions regarding the plan or enrollment please contact WTW:
 email: benefits.nz@willistowerswatson.com
@@ -393,25 +393,25 @@ Eligible Team Members and their families can join the plan at any time, but plea
 The special pre-existing condition cover concession above is extended to a newborn child if they are
 added to the policy within three months of the child’s birth. Congenital conditions are not covered. Please contact WTW (benefits.nz@willistowerswatson.com) by email to help add members to your policy.
 
-## Medical Plan Administration Details
+### Medical Plan Administration Details
 
-### New Hires
+#### New Hires
 
 Eligible New Hires will be given a link and code to access the portal and enroll in the plan during their onboarding issue
 Total Rewards will also send a monthly report to WTW with new hires as a backup (This process will soon be replaced by automated notifications from Workday)
 WTW will have Southern Cross email the eligible new hire with enrollment instructions.
 
-### Leavers
+#### Leavers
 
 Total rewards will send a monthly report to WTW with leavers (this process will soon be replaced by automated notifications from Workday) - Terminations need to be updated no later than 1 month after the termination date to avoid any overcharging.
 
-### Payroll Reporting
+#### Payroll Reporting
 
 Subsidies for Health insurance are considered a non-cash benefit and are therefore subject to “Fringe Benefit Tax” and must be reported as such.
 
 The Southern Cross portal will generate reports outlining the benefit. The payroll team will have access to the Southern Cross portal to download these reports as needed.
 
-### Invoicing
+#### Invoicing
 
 Southern Cross will load invoices and cover schedules on a monthly basis to the portal. The contact person at GitLab will be notified whenever a new invoice is ready. Payments will be made via bank transfer.
 
