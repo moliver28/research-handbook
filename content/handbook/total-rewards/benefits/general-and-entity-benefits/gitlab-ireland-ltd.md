@@ -21,6 +21,17 @@ Dependents eligible for the GitLab Medical subsidy are Spouse or Domestic Partne
 
 From 1st of May 2015, if you are 35 or over when you first take out private health insurance, you will pay an additional amount of 2% for each year that you are aged 35 and over. Please contact VHI if you think this may apply.
 
+### Dependent Eligibility
+
+Dependents eligible for the GitLab subsidy include Team Member's Spouse, Domestic Partner, and Children up to the age of 21 as long as they are still enrolled in school.
+
+Domestic Partnership is defined as follows:
+- Neither partner is currently married to anyone else nor currently has a different Domestic Partner.
+- Partners have assumed mutual obligations for the welfare and support of each other.
+- Partners reside together as a non-married cohabiting couple and share the common necessities of life.
+- Partners are living together as a couple in the same household as each other’s sole Domestic Partner and intend to do so indefinitely.
+
+
 ### Enroll in the VHI Plan
 
 GitLab's VHI scheme will renew November 1. You can choose to enroll from this date or
