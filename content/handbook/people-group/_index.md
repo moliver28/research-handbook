@@ -192,7 +192,6 @@ Please note that the source of truth for role responsibilites is the job family 
 | [Anniversary Emails]({{< ref "celebrations#anniversary-gifts" >}}) | Last day of the month |
 | Slack and Email Queries | Within 12 - 24 hours |
 | [Probation Period Notifications]({{< ref "contracts-probation-periods#probation-period" >}}) | Daily (when applicable) |
-| [Evaluate onboarding surveys]({{< ref "people-group-metrics#onboarding-satisfaction-osat" >}}) | As responses are submitted |
 | [Determining quarterly winners of the onboarding buddy program]({{< ref "onboarding-buddies" >}}) | Last week of each quarter |
 | [People Connect Shadow Program]({{< ref "people-connect-shadow-program" >}}) | As requested by other team members |
 | [Contract Renewals]({{< ref "contracts-probation-periods#contract-renewals" >}}) | 30 days or more prior to team member's renewal date |
