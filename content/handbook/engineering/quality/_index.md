@@ -37,25 +37,6 @@ We staff our department with the following gearing ratios:
   - This ratio is captured as a department [performance indicator](/handbook/engineering/quality/performance-indicators/#quality-engineering-manager-gearing-ratio).
 - Secondary Ratio: Approximately a 1:1 ratio of Quality Engineering Manager to Development Department Directors.
 
-## Communication
-
-In addition to GitLab's [communication guidelines](/handbook/communication) and [engineering communication](/handbook/engineering/#communication), we communicate and collaborate actively across GitLab in the following venues:
-
-- [Group Conversation](#group-conversation)
-- [Week-in-review](#week-in-review)
-- [Department meetings](#department-meetings)
-- [Engineering-wide retrospective](#engineering-wide-retrospective)
-
-### Week-in-review
-
-By the end of the week, we populate the **Engineering Week-in-Review document** with relevant updates from our department. The agenda is internal only, please search in Google Drive for 'Engineering Week-in-Review'.
-Every Monday a reminder is sent to all of engineering in the [#eng-week-in-review](https://gitlab.slack.com/messages/CJWA4E9UG) slack channel to read summarize updates in the google doc.
-
-### Engineering-wide retrospective
-
-The Quality team holds an asynchronous retrospective for each release.
-The process is automated and notes are captured in [Quality retrospectives](https://gitlab.com/gl-retrospectives/quality/) (GITLAB ONLY)
-
 ## Engineering Metrics task process
 
 We track work related to Engineering performance indicators in the [Engineering Analytics](https://gitlab.com/gitlab-org/quality/engineering-analytics/team-tasks/-/boards/2650515?group_by=epic) board.
