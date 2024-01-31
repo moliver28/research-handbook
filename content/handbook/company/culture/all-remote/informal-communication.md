@@ -192,7 +192,7 @@ Working in a truly global team means it's quite possible that nobody else works 
 
 It can be a great way to learn about a new place that you may not know about and is a great source of conversation topics for coffee chats.
 
-{{% tweet user="TheRealArty" id="1420903891764342786" %}}
+{{% tweet user="TheRealArty" id="1420903891764342" %}}
 
 {{% tweet user="manoj_g33k" id="1379339796447784961" %}}
 

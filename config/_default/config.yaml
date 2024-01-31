@@ -129,3 +129,7 @@ module:
     disable: false
   - path: github.com/google/docsy/dependencies
     disable: false
+
+# Ignore errors from shortcodes failures
+#ignoreErrors:
+#  - shortcodes
