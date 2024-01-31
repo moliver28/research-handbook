@@ -130,6 +130,9 @@ module:
   - path: github.com/google/docsy/dependencies
     disable: false
 
-# Ignore errors from shortcodes failures
+# Ignore build errors
 ignoreErrors:
-  - shortcodes
+  # WARNING: this will ignore any error returned by Hugo's
+  # GetJSON https://gohugo.io/functions/data/getjson/ function,
+  # including shortcodes https://gohugo.io/content-management/shortcodes
+  - error-remote-getjson
