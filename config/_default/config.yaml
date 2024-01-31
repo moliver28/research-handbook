@@ -134,5 +134,7 @@ module:
 ignoreErrors:
   # WARNING: this will ignore any error returned by Hugo's
   # GetJSON https://gohugo.io/functions/data/getjson/ function,
-  # including shortcodes https://gohugo.io/content-management/shortcodes
+  # including shortcodes https://gohugo.io/content-management/shortcodes.
+  # See https://gitlab.com/gitlab-com/content-sites/handbook/-/issues/179
+  # for a proper solution.
   - error-remote-getjson
