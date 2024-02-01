@@ -114,6 +114,17 @@ By default, rancher will allocate a small percentage of your machine's memory to
 
 ## Connecting to GitLab Model Experiments (MLFlow Integration)
 
+1. To connect you will need to enable [Experiment Tracking](https://docs.gitlab.com/ee/user/project/ml/experiment_tracking/) in your project settings.
+1. In your GitLab profile, you will need to create a personal access token access token with api permissions
+1. Locate the project id for your project under `Settings -> General`
+1. On your local machine, you will need to create two new environment variables `MLFLOW_TRACKING_TOKEN` and `MLFLOW_TRACKING_URI`
+  1. Open up your shell resource file (`.zshrc`, for example) in your local machine home directory. 
+  1. Add the following line `export MLFLOW_TRACKING_TOKEN="your-access-token"`
+  1. Add the following line `export MLFLOW_TRACKING_URI="https://gitlab.com/api/v4/projects/your-project-id/ml/mlflow"`, but with your project id. Alternatively, you can also place this directly in your notebook.
+  1. Save the file
+  1. Source the file (i.e. `source ./zshrc`) or exit terminal and restart
+1. Launch Jupyter. You should now be able to initialize the experiment tracker via the `mlflow.set_tracking_uri(os.getenv('MLFLOW_TRACKING_URI'))`command in Jupyter
+
 
 **Note:* If looking to connect to the Model Experiments via CI, refer to [Model Training Step-by-Step Instructions](/handbook/business-technology/data-team/platform/ci-for-ds-pipelines#model-training-step-by-step-instructions)**
 
