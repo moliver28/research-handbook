@@ -1284,7 +1284,7 @@ This is bottom right chart in Slide 26.
         - None
     - Reports used:
         1. More than 7 Days No Agent Updates
-        1. 800K$ and above ARR opened 7 Days 
+        1. 800K$ and above ARR opened 7 Days
         1. Open Ticket Over 60 Days
         1. More than 40 Public Comments
 1. Public Comments:
@@ -3730,7 +3730,7 @@ aka IK - H/N/L Tickets - Intake Per Hour Last 12 Months L&R
 - Custom Settings:
     1. This report shows Legend for Rows values in top of chart configurable in Chart configuration.
     1. Ticket Form filter should include only `L&R`.
-    1. Ticket Created (Year) filter was used and it  use Advanced Date Range settings i.e. "From beginning of" should have `13 months in the past` to "The end of" should have `1 month in the past`.
+    1. Ticket Created (Year) filter was used and it use Advanced Date Range settings i.e. "From beginning of" should have `13 months in the past` to "The end of" should have `1 month in the past`.
     1. Make sure report should have "Sort" type `A-Z` and "Total" is top on every column in Result Manipulation.
 
 ### Poor CSAT For L&R Breakdown per Month - All Plans
@@ -3777,7 +3777,7 @@ aka IK - Intake Last 12 Months Free Plans - Per Ticket Form
 - Custom Settings:
     1. This report shows Legend for Row values in top of chart configurable in Chart configuration.
     1. Has Plan - Ticket Tags  is a custom attribute and setting of Includes have `No Plan` checked.
-    1. Ticket Created - Year filter was used and it  use Advanced Date Range settings i.e. "From beginning of" should have `13 months in the past` to "The end of" should have `1 month in the past`.
+    1. Ticket Created - Year filter was used and it use Advanced Date Range settings i.e. "From beginning of" should have `13 months in the past` to "The end of" should have `1 month in the past`.
     1. Make sure report should have "Sort" type `A-Z` and "Sum" is top on every bar as well as Totals for Rows inside every column in Result Manipulation.
 
 ### LK - Ops SSAT - Last 4 Weeks - Outdated Calc
@@ -3790,7 +3790,7 @@ aka IK - Intake Last 12 Months Free Plans - Per Ticket Form
 
 aka LK - Ops Incoming Tickets For Support Per Week
 
-- Dataset used: Support ( Tickets )
+- Dataset used: Support ( Ticket )
 - Visualization type: Column
 - Metric used: Count (Tickets)
 - Rows:
@@ -3801,9 +3801,9 @@ aka LK - Ops Incoming Tickets For Support Per Week
 - Filters used:
     1. Ticket Form
 - Custom Settings:
-    1. 1. This report shows Legend for Row values in top of chart configurable in Chart configuration.
+    1. This report shows Legend for Row values in top of chart configurable in Chart configuration.
     1. Ticket Form filter should includes `Support Ops` only.
-    1. Ticket Created (Year) filter was used and it  use Advanced Date Range settings i.e. "From beginning of" should have `3 weeks in the past` to "The end of" should have `All History`.
+    1. Ticket Created (Year) filter was used and it use Advanced Date Range settings i.e. "From beginning of" should have `3 weeks in the past` to "The end of" should have `All History`.
     1. Make sure report should have "Sort" type `A-Z` and have "Totals" at top of bars  in Result Manipulation.
 
 ### LK - Incoming Ops
@@ -3822,8 +3822,209 @@ aka LK - Incoming Ops
 - Filters used:
     None
 - Custom Settings:
-    1. Ticket Created - Year filter was used and it  use Advanced Date Range settings i.e. "From beginning of" should have `12 months in the past` to "The end of" should have `All History`.
+    1. Ticket Created - Year filter was used and it use Advanced Date Range settings i.e. "From beginning of" should have `12 months in the past` to "The end of" should have `All History`.
     1. Make sure report should have "Sort" type `A-Z` and Count is shown inside every column in Result Manipulation.
+
+### Ticket Type Ratio - Last 3 Months
+
+aka IK - Ticket Type Ratio Per IC
+
+- Dataset used: Support ( Ticket Updates )
+- Visualization type: Table
+- Metric used: /*D_Count (NTVT Matched Public Comment)*/
+- Rows:
+    1. Updater Name
+        (You may want to exclude team members who left 3 months ago)
+- Columns:
+    1. Ticket Form
+        (Includes `GitLab Dedicated`, `L&R`, `SaaS`, `SaaS Account`, `Self-Managed` only.)
+- Filters used:
+    1. Updater Tags
+    1. Update - Month
+- Custom Settings:
+    1. NTVT Matched Public Comment is a custom metric.
+    1. Updater Tags filter should only include current manager tags and exclude everything including director tags.
+    1. Update - Month filter was used and it use Advanced Date Range settings i.e. "From beginning of" should have `3 months in the past` to "The end of" should have `All History`.
+    1. Make sure report should have "Sort" type `A-Z` and "Percentage" is shown under every cell in Result Manipulation.
+
+### Ticket Volume Target - Weighted Targets Met - Last Month
+
+aka IK - FRT Replies Per Week Per IC - Targets Met - Last Month - Table
+
+- Dataset used: Support ( Updates History )
+- Visualization type: Column
+- Metric used: /*D_Count (Ticket FRT Targets - May 23)*/, /*D_Count (FRT Emergencies)*/
+- Rows:
+    None
+- Columns:
+    1. Updater Name
+        (You may want to exclude team members who left a month ago)
+- Filters used:
+    1. Updater Tags
+    1. Update - Date
+    1. FRT
+- Custom Settings:
+    1. Ticket FRT Targets - May 23 and FRT Emergencies are custom metrics.
+    1. Updater Tags filter should only include current manager tags and exclude everything including director tags.
+    1. Update - Date filter was used and it use Simple Date Range settings i.e. `Last Month`
+    1. FRT is a custom attribute and value of `FRT` should be selected only .
+    1. Make sure report should have "Sort" type `A-Z` and "Sum" is shown in top of every column in Result Manipulation.
+    1. Trendline is set at `Constant` with value `24` in Chart Configuration.
+
+### Ticket Volume Target - Weighted Targets Met - 6 Months
+
+aka IK - FRT Replies Per Week Per IC - Targets Met - 6 Months - Table
+
+- Dataset used: Support ( Updates History )
+- Visualization type: Column
+- Metric used: /*D_Count (Ticket FRT Targets - May 23)*/, /*D_Count (FRT Emergencies)*/
+- Rows:
+    None
+- Columns:
+    1. Updater Name
+        (You may want to exclude team members who left 6 months ago)
+- Filters used:
+    1. Updater Tags
+    1. Update - Date
+- Custom Settings:
+    1. Ticket FRT Targets - May 23 and FRT Emergencies are custom metrics.
+    1. Updater Tags filter should only include current manager tags and exclude everything including director tags.
+    1. Update - Date filter was used and it use Advanced Date Range settings i.e. "From beginning of" should have `6 months in the past` to "The end of" should have `1 Month in the past`.
+    1. Make sure report should have "Sort" type `A-Z` and "Sum" is shown in top of every column in Result Manipulation.
+    1. Trendline is set at `Constant` with value `24` in Chart Configuration.
+
+### IK - FRT Replies Per Week - 12 Months
+
+aka IK - FRT Replies Per Week - 12 Months
+
+- Dataset used: Support ( Updates History )
+- Visualization type: Column
+- Metric used: /*D_Count (FRT Response)*/, /*D_Count (FRT Emergencies)*/
+- Rows:
+    1. Updater Name
+        (You may want to exclude team members who left 12 months ago)
+- Columns:
+    1. Update - Year
+    1. Update - Week of Year
+- Filters used:
+    1. Updater Tags
+    1. Ticket Form
+- Custom Settings:
+    1. Ticket FRT Response and FRT Emergencies are custom metrics.
+    1. Updater Tags filter should only include current manager tags and exclude everything including director tags.
+    1. Ticket Form excludes `Billing`, `Professional Services` and `Security`.
+    1. Update - Year was used and it use Advanced Date Range settings i.e. "From beginning of" should have `12 months in the past` to "The end of" should have `All History`.
+    1. Updater Name is used as filter inside the report to select updater.
+    1. Make sure report should have "Sort" type `A-Z` and "Sum" is shown in top of every column in Result Manipulation.
+
+### IK - Public Updates - Main
+
+aka IK - Public Updates - Main
+
+- Dataset used: Support ( Updates History )
+- Visualization type: Area
+- Metric used: D_Count (Public Comments)
+- Rows:
+    1. Updater Name
+        (You may want to exclude team members who left 12 months ago)
+- Columns:
+    1. Update - Year
+    1. Update - Week of Year
+- Filters used:
+    1. Updater Tags
+- Custom Settings:
+    1. Updater Tags filter should only include current manager tags and exclude everything including director tags.
+    1. Update - Year was used and it use Advanced Date Range settings i.e. "From beginning of" should have `12 months in the past` to "The end of" should have `All History`.
+    1. Updater Name is used as filter inside the report to select updater.
+    1. Make sure report should have "Sort" type `A-Z` and "Sum" is shown in top of every week in Result Manipulation.
+    1. Trendline is set at `Linear` in Chart Configuration.
+
+### IK - Internal Comments - Main
+
+aka IK - Internal Comments - Main
+
+- Dataset used: Support ( Updates History )
+- Visualization type: Area
+- Metric used: D_Count (Internal Comments)
+- Rows:
+    1. Updater Name
+        (You may want to exclude team members who left 12 months ago)
+- Columns:
+    1. Update - Year
+    1. Update - Week of Year
+- Filters used:
+    1. Updater Tags
+- Custom Settings:
+    1. Updater Tags filter should only include current manager tags and exclude everything including director tags.
+    1. Update - Year was used and it use Advanced Date Range settings i.e. "From beginning of" should have `12 months in the past` to "The end of" should have `All History`.
+    1. Updater Name is used as filter inside the report to select updater.
+    1. Make sure report should have "Sort" type `A-Z` and "Sum" is shown in top of every week in Result Manipulation.
+    1. Trendline is set at `Linear` in Chart Configuration.
+
+### IK - Solved/Closed Tickets - Main
+
+aka IK - Solved/Closed Tickets - Main
+
+- Dataset used: Support ( Tickets )
+- Visualization type: Area
+- Metric used: Count (Tickets)
+- Rows:
+    1. Assignee Name
+        (You may want to exclude team members who left 12 months ago)
+- Columns:
+    1. Ticket updated - Year
+    1. Ticket updated - Week of Year
+- Filters used:
+    1. Assignee Tags
+    1. Ticket Status
+- Custom Settings:
+    1. Ticket Status only includes `Solved` and `Closed` status.
+    1. Assignee Tags filter should only include current manager tags and exclude everything including director tags.
+    1. Ticket updated - Year was used and it use Advanced Date Range settings i.e. "From beginning of" should have `12 months in the past` to "The end of" should have `All History`.
+    1. Assignee Name is used as filter inside the report to select updater.
+    1. Make sure report should have "Sort" type `A-Z` and "Sum" is shown in top of every week in Result Manipulation.
+    1. Trendline is set at `Linear` in Chart Configuration.
+
+### Public Comments per Week
+
+aka IK - Public Updates - Last 7 Weeks
+
+- Dataset used: Support ( Updates History )
+- Visualization type: Table
+- Metric used: D_Count (Public Comments)
+- Rows:
+    1. Updater Name
+        (You may want to exclude team members who left 12 months ago)
+- Columns:
+    1. Update - Week of Year
+- Filters used:
+    1. Updater Tags
+- Custom Settings:
+    1. Updater Tags filter should only include current manager tags and exclude everything including director tags.
+    1. Update - Week of Year was used and it use Advanced Date Range settings i.e. "From beginning of" should have `6 weeks in the past` to "The end of" should have `All History`.
+    1. Updater Name is used as filter inside the report to select updater.
+    1. Make sure report should have "Sort" type `A-Z` and Total used Advanced Aggregators of "Sum" and "Avg" of `All columns` in Result Manipulation.
+
+### Tickets Data 90 Days
+
+aka IK - Solved Tickets 90 Days - Main
+
+- Dataset used: Support ( Tickets )
+- Visualization type: Table
+- Metric used: Count (Solved Tickets), MED (First reply time (hrs)), /*MED (TTR)*/, MED (Requester wait time(hrs)), Count (Rated Satisfaction Ticket), Sum (% Satisfaction Score), Sum (% One-touch Tickets), Sum (% Two-touch Tickets), Sum (% Multi-touch Tickets)
+- Rows:
+    1. Assignee Name
+        (You may want to exclude team members who left 12 months ago)
+- Columns:
+    None
+- Filters used:
+    1. Assignee Tags
+    1. Ticket Solved - Date
+- Custom Settings:
+    1. TTR is a custom metric.
+    1. Assignee Tags filter should only include current manager tags and exclude everything including director tags.
+    1. Ticket Solved - Date was used and it use Advanced Date Range settings i.e. "From beginning of" should have `90 Days in the past` to "The end of" should have `All History`.
+    1. Make sure report should have "Sort" type `A-Z` and there is no result manipulation.
 
 ## Custom Attributes and Metrics:
 
@@ -4145,6 +4346,25 @@ aka LK - Incoming Ops
     ```
 
     Special settings: None
+
+1. FRT
+
+    Type: Standard Calucated Metric
+    Formula:
+
+    ```Text
+    IF ([Changes - Field name]="Ticket Stage"
+    AND [Changes - Previous value]="stage-frt"
+    AND [Changes - New value]="stage-nrt")
+    THEN 
+    "FRT"
+    ELSE
+    "NRT"
+    ENDIF
+    ```
+
+    Special settings: None
+
 
 ### Custom Metrics
 
@@ -4908,7 +5128,7 @@ aka LK - Incoming Ops
 
     Special settings: None
 
-1. Avrage Internal Comments L&R
+1. Average Internal Comments L&R
 
     Type: Standard Calucated Metric
     Formula:
@@ -4937,6 +5157,78 @@ aka LK - Incoming Ops
 
     ```Text
     D_COUNT(Tickets solved)/(9*0.85)
+    ```
+
+    Special settings: None
+
+1. NTVT Matched Public Comment
+
+    Type: Standard Calucated Metric
+    Formula:
+
+    ```Text
+    IF ([Ticket form] = "Self-Managed") THEN
+     D_COUNT(Public comments) * 1
+    ELIF ([Ticket form] = "SaaS") THEN
+     D_COUNT(Public comments) * 0.85
+    ELIF ([Ticket form] = "SaaS Account") THEN
+     D_COUNT(Public comments)* 0.75
+    ELIF ([Ticket form] = "L&R") THEN
+     D_COUNT(Public comments)* 0.25
+    ELSE
+     D_COUNT(Public comments) * 1
+    ENDIF
+    ```
+
+    Special settings: None
+
+1. Ticket FRT Targets - May 23
+
+    Type: Standard Calucated Metric
+    Formula:
+
+    ```Text
+    IF ([Ticket form] = "Self-Managed") THEN
+     D_COUNT(FRT Response) * 1
+    ELIF ([Ticket form] = "SaaS") THEN
+     D_COUNT(FRT Response) * 0.85
+    ELIF ([Ticket form] = "SaaS Account") THEN
+     D_COUNT(FRT Response) * 0.75
+    ELIF ([Ticket form] = "L&R") THEN
+     D_COUNT(FRT Response) * 0.25
+    ELSE
+     D_COUNT(FRT Response) * 1
+    ENDIF
+    ```
+
+    Special settings: None
+
+1. FRT Emergencies
+
+    Type: Standard Calucated Metric
+    Formula:
+
+    ```Text
+    IF ([Comment present]=TRUE AND [Comment public]=TRUE
+    AND [Ticket form]="Emergencies"
+    AND DATE_FIRST_FIX([Update - Timestamp],[Update ticket ID],[Comment present],[Comment public])=[Update - Timestamp])
+    THEN [Update ID]
+    ENDIF
+    ```
+
+    Special settings: None
+
+1. FRT Response
+
+    Type: Standard Calucated Metric
+    Formula:
+
+    ```Text
+    IF ([Changes - Field name]="Ticket Stage"
+    AND [Changes - Previous value]="stage-frt"
+    AND [Changes - New value]="stage-nrt")
+    THEN [Update ID]
+    ENDIF
     ```
 
     Special settings: None
