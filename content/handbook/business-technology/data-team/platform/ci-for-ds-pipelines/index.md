@@ -54,7 +54,7 @@ When it comes to training and scoring machine learning models, there are trade-o
 
 This section covers, in detail, the mechanisms behind how these pipelines is created and configured. **If you are just interested in getting your data science CI training pipeline up and running, skip directly to the [Model Training Step-by-Step Instructions](/handbook/business-technology/data-team/platform/ci-for-ds-pipelines#model-training-step-by-step-instructions)**
 
-**If you are just interested in getting your data science CI scoring pipeline up and running, skip directly to the [Model Scoring Step-by-Step Instructions](/handbook/business-technology/data-team/platform/ci-for-ds-pipelines#model-training-step-by-step-instructions)**
+**If you are just interested in getting your data science CI scoring pipeline up and running, skip directly to the [Scoring and Productionalization Step-by-Step Instructions](/handbook/business-technology/data-team/platform/ci-for-ds-pipelines#score-and-productionalization-step-by-step-instructions)**
 
 ### Key Repository Files
 
@@ -165,7 +165,7 @@ Let's take a detailed look at the repository (**Code -> Repository**):
 ### Productionalization Setup
 
 
-### Scoring & Productionalization Step-by-Step Instructions
+### Scoring and Productionalization Step-by-Step Instructions
 
 
 ## Slack Notifications (optional)
