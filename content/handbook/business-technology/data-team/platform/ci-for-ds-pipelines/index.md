@@ -160,7 +160,7 @@ Let's take a detailed look at the repository (**Code -> Repository**):
   - **cml**: Write model performance metrics as a comment on the merge request.
   - **write-to-wiki**: Write model performance metrics to the project wiki. Only executes for scheduled jobs using `score-scheduled` 
 
-**PUT DIAGRAM OF SCORING JOBS HERE**
+![Scoring Pipeline](scoring-pipeline.png)
 
 ### Productionalization Setup
 
