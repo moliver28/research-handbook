@@ -16,55 +16,67 @@ description: "How to Run Data Science Pipelines Using GitLab CI/CD"
 
 ## Our Approach to Using CI/CD For Data Science
 
-### Training Models
-
 When it comes to training and scoring machine learning models, there are trade-offs to using your local machine vs. CI. Our approach is flexible to allow a user to do both.
 
-- When executing training runs on your local machine users will be able to:
-  - Execute training code using local resources and python builds specific to the machine
-  - Log experiments in your preferred experiment tracker
-  - Upload model artifacts to your preferred model/package registry
+- When executing training or scoring runs on your local machine, users will be able to:
+  - Execute training or scoring code using local resources and python builds specific to the machine
+  - Log, view, and retrieve experiments in your preferred experiment tracker
+  - Upload and download model artifacts to your preferred model/package registry
   - Commit changes to the repository that will ***not*** trigger a CI pipeline
 
-- When executing training runs remotely using GitLab CI/CD, users will be able to:
-  - Select CPU or GPU compute instance based on the needs of your model
-  - Automatically detect and rebuild the training CI image based on changes to the Dockerfile
-  - Log experiments in your preferred experiment tracker
-  - Upload model artifacts directly to the GitLab package registry
-  - Automatically report model metrics in the training issue or merge request, for review by others.
+- When executing training or scoring runs remotely using GitLab CI/CD, users will be able to:
+  - Select CPU or GPU compute instance based on the needs of the model
+  - Automatically detect and rebuild the model image based on changes to the Dockerfile or requirements.txt
+  - Log, view, and retrieve experiments in your preferred experiment tracker
+  - Upload and download model artifacts directly to the GitLab package registry
+  - Automatically report model metrics and performance in the merge request for review by others.
   - Commit changes to the repository and automatically trigger the training CI pipeline based on a specific commit message
-  - Training CI pipeline only executes with the following commit message: `train <path/to/notebook/your_notebook.ipynb>`
-  - Allows the pipeline to execute just the desired notebook
+     - Training CI pipeline only executes with the following commit message: `train <path/to/notebook/your_notebook.ipynb>`
+     - Allows the pipeline to execute just the desired notebook
+  - Commit changes to the repository and automatically trigger the scoring CI pipeline based on a specific commit message
+     - Scoring CI pipeline only executes with the following commit message: `score <path/to/notebook/your_notebook.ipynb>`
+  - Schedule training and scoring CI pipelines to run at set dates and times
+  - Log pipeline results to project [wiki](https://docs.gitlab.com/ee/user/project/wiki/)
+  - Use [GitLab for Slack](https://docs.gitlab.com/ee/user/project/integrations/gitlab_slack_application.html) integration to monitor pipeline status
 
-  **ADD SCORING STUFF HERE**
   
 ### Advantages of Using CI for Training Data Science Models
 
   - Reproducibility
   - Automation
   - Speed
-  - Logging results directly to Merge Request and/or Wiki
+  - Logging results directly to Merge Request and project wiki
   - Scalable GPU and CPU resources
   - Scheduling
+  - Slack notifications for monitoring CI pipelines
 
-## Getting Started with CI Model Training
+## Getting Started
 
-This section covers, in detail, the mechanisms behind how this pipeline is created and configured. **If you are just interested in getting your data science CI training pipeline up and running, skip directly to the [Model Training Step-by-Step Instructions](/handbook/business-technology/data-team/platform/ci-for-ds-pipelines#model-training-step-by-step-instructions)**
+This section covers, in detail, the mechanisms behind how these pipelines is created and configured. **If you are just interested in getting your data science CI training pipeline up and running, skip directly to the [Model Training Step-by-Step Instructions](/handbook/business-technology/data-team/platform/ci-for-ds-pipelines#model-training-step-by-step-instructions)**
+
+**If you are just interested in getting your data science CI scoring pipeline up and running, skip directly to the [Model Scoring Step-by-Step Instructions](/handbook/business-technology/data-team/platform/ci-for-ds-pipelines#model-training-step-by-step-instructions)**
 
 ### Key Repository Files
 
 Within our public **[GitLab Data Science CI Example](https://gitlab.com/gitlab-data/data-science-ci-example)** repository are the following:
-- **.gitlab-ci.yml**: This is the CI/CD configuration file that define the jobs that define the jobs that should be run in the pipeline
+- **.gitlab-ci.yml**: This is the CI/CD configuration file that define the jobs that define the jobs that will be run in each pipeline
 - **Dockerfile**: Instructions for creating the docker image. Here we are using python 3.9 running on Ubuntu 22.04 with CUDA drivers for GPU  
 - **requirements.txt**: The python packages to install in the docker container
 - **config.yaml**: Configuration for training notebook
+- **scoring_config.yaml**: Configuration for scoring notebook
 - **notebooks/training_example.ipynb**: training notebook used for this example
+- **notebooks/scoring_example.ipynb**: scoring code productionalization notebook used for this example
+
+## Model Training with CI/CD
 
 ### Training Pipeline
 
-1. **build-ds-image**: activated whenever changes are added to the **Dockerfile** or **requirements.txt** files. This will rebuild the image used to train the model
-1. **train-commit-activated**: To execute a training pipeline. Activated by using the `train <path/to/notebook/your_notebook.ipynb>` commit message
-1. **cml** (Optional): Write model metrics as a comment to the merge request.
+1. **Build**
+  - **build-ds-image**: activated whenever changes are added to the **Dockerfile** or **requirements.txt** files. This will rebuild the image used to train the model
+1. **Train**
+  - **train-commit-activated**: To execute a training pipeline. Activated by using the `train <path/to/notebook/your_notebook.ipynb>` commit message
+1. **Notify** (optional)
+  - **cml**: Write model metrics as a comment to the merge request.
 
 **PUT DIAGRAM OF TRAINING JOBS HERE**
 
@@ -136,24 +148,27 @@ Let's take a detailed look at the repository (**Code -> Repository**):
    - This container will be used in subsequent runs of the model and will only get rebuilt when **Dockerfile** or **requirements.txt** are modified. ![Container](container.png)
 
 
-## Getting Started with CI Score and Productionalization
+## Scoring and Productionalization with CI/CD
 
-This section covers, in detail, the mechanisms behind how this pipeline is created and configured. **If you are just interested in getting your data science CI scoring pipeline up and running, skip directly to the [Model Scoring Step-by-Step Instructions](/handbook/business-technology/data-team/platform/ci-for-ds-pipelines#model-training-step-by-step-instructions)**
-
-### Key Repository Files
-
-### Scoring Pipelines
-1. **build-ds-image**: activated whenever changes are added to the **Dockerfile** or **requirements.txt** files. This will rebuild the image used to score the model. Ideally, this should be the same image that was used to train the model.
-1. **score-commit-activated**: To execute a scoring pipeline. Activated by using the `score <path/to/notebook/your_notebook.ipynb>` commit message
-1. **score-scheduled**: To execute a scoring pipeline based on a defined schedule using [Scheduled pipeliens](https://docs.gitlab.com/ee/ci/pipelines/schedules.html)
-1. **cml** (Optional): Write model metrics as a comment to the merge request.
-1. **write-to-wiki** (Optional): 
+### Scoring Pipeline
+1. **Build** 
+  - **build-ds-image**: activated whenever changes are added to the **Dockerfile** or **requirements.txt** files. This will rebuild the image used to score the model. Ideally, this should be the same image that was used to train the model.
+1. **Score**
+  - **score-commit-activated**: To manually execute a scoring pipeline. Activated by using the `score <path/to/notebook/your_notebook.ipynb>` in the commit message
+  - **score-scheduled**: To execute a scoring pipeline based on a defined schedule using [Scheduled pipeliens](https://docs.gitlab.com/ee/ci/pipelines/schedules.html)
+1. **Notify** (Optional)
+  - **cml**: Write model performance metrics as a comment on the merge request.
+  - **write-to-wiki**: Write model performance metrics to the project wiki. Only executes for scheduled jobs using `score-scheduled` 
 
 **PUT DIAGRAM OF SCORING JOBS HERE**
 
 ### Productionalization Setup
 
-### Scoring * Productionalization Step-by-Step Instructions
+
+### Scoring & Productionalization Step-by-Step Instructions
+
+
+## Slack Notifications (optional)
 
 **And that's it! Feel free to modify these pipelines and notebooks to fit your data science modeling needs. And be sure to check out all the other great data science resources on our [Data Science Handbook Page](/handbook/business-technology/data-team/organization/data-science/). Happy pipelining!**
 
