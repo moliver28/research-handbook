@@ -72,11 +72,11 @@ Within our public **[GitLab Data Science CI Example](https://gitlab.com/gitlab-d
 ### Training Pipeline
 
 1. **Build**
-  - **build-ds-image**: activated whenever changes are added to the **Dockerfile** or **requirements.txt** files. This will rebuild the image used to train the model
-1. **Train**
-  - **train-commit-activated**: To execute a training pipeline. Activated by using the `train <path/to/notebook/your_notebook.ipynb>` commit message
-1. **Notify** (optional)
-  - **cml**: Write model metrics as a comment to the merge request.
+   - **build-ds-image**: activated whenever changes are added to the **Dockerfile** or **requirements.txt** files. This will rebuild the image used to train the model
+2. **Train**
+   - **train-commit-activated**: To execute a training pipeline. Activated by using the `train <path/to/notebook/your_notebook.ipynb>` commit message
+3. **Notify** (optional)
+   - **cml**: Write model metrics as a comment to the merge request.
 
 **PUT DIAGRAM OF TRAINING JOBS HERE**
 
@@ -152,13 +152,13 @@ Let's take a detailed look at the repository (**Code -> Repository**):
 
 ### Scoring Pipeline
 1. **Build** 
-  - **build-ds-image**: activated whenever changes are added to the **Dockerfile** or **requirements.txt** files. This will rebuild the image used to score the model. Ideally, this should be the same image that was used to train the model.
-1. **Score**
-  - **score-commit-activated**: To manually execute a scoring pipeline. Activated by using the `score <path/to/notebook/your_notebook.ipynb>` in the commit message
-  - **score-scheduled**: To execute a scoring pipeline based on a defined schedule using [Scheduled pipeliens](https://docs.gitlab.com/ee/ci/pipelines/schedules.html)
-1. **Notify** (Optional)
-  - **cml**: Write model performance metrics as a comment on the merge request.
-  - **write-to-wiki**: Write model performance metrics to the project wiki. Only executes for scheduled jobs using `score-scheduled` 
+   - **build-ds-image**: activated whenever changes are added to the **Dockerfile** or **requirements.txt** files. This will rebuild the image used to score the model. Ideally, this should be the same image that was used to train the model.
+2. **Score**
+   - **score-commit-activated**: To manually execute a scoring pipeline. Activated by using the `score <path/to/notebook/your_notebook.ipynb>` in the commit message
+   - **score-scheduled**: To execute a scoring pipeline based on a defined schedule using [Scheduled pipeliens](https://docs.gitlab.com/ee/ci/pipelines/schedules.html)
+3. **Notify** (Optional)
+   - **cml**: Write model performance metrics as a comment on the merge request.
+   - **write-to-wiki**: Write model performance metrics to the project wiki. Only executes for scheduled jobs using `score-scheduled` 
 
 ![Scoring Pipeline](scoring-pipeline.png)
 
