@@ -46,6 +46,18 @@ project but may include:
 
 The Engineering Manager (EM) can also help provide support in project management, but it is up to the tech lead and EM to decide on who owns what to ensure these responsibilities are covered.
 
+### Tech Lead designation
+
+To designate a team member as a Tech Lead, author an MR to update their [Team Member data entry](https://gitlab.com/gitlab-com/www-gitlab-com/-/tree/master/data/team_members). A team member may be a Tech Lead on more than one project.
+
+The top level key is `tech_lead` and the projets are listed underneath. For example:
+
+```
+tech_lead:
+  - cells
+  - branch rules
+```
+
 ### Slack channel
 
 There is Slack channel available
