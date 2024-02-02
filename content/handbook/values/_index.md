@@ -699,7 +699,7 @@ own, but with some effort, name pronunciation can be learned by anyone. Some way
 
 Some people might choose to use a nickname, for example: "Bob" instead of "Robert".
 As long as this is their choice this is perfectly acceptable.
-We should avoid assigning a nickname to a person when we have difficulty with their name.
+We should avoid assigning a nickname to a person without their permission.
 
 ###### Slack pronunciation features
 
