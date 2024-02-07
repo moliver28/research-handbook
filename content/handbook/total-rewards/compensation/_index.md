@@ -96,8 +96,9 @@ We have a market-based approach to compensation because:
 
 1. It allows for us to adapt to market changes, thus remaining competitive for local talent
 1. Role, location, and level benchmarks keep compensation bands consistent. Market-based benchmarks also help with keeping it fair and consistent rather than expecting our team members to negotiate their pay.
-1. Prevents wage compression which occurs when new employees negotiate and get higher wages than those being paid to current team members.
 1. As long as budget permits, we do what’s right for the market even if it means paying a team member higher than their “expected” pay.
+
+**Note:** This does not prevent wage compression at GitLab, which is happening at GitLab, and happens when new employees negotiate and get higher wages than those being paid to current team members. See issue https://gitlab.com/gitlab-com/people-group/total-rewards/-/issues/1890.
 
 ## Compensation Group
 
