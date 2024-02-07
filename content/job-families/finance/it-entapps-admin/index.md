@@ -24,8 +24,15 @@ Associate IT Enterprise Applications Administrator is a [grade 5](https://about.
 
 ### Associate IT Enterprise Applications Administrator Requirements
 
+- Bachelor’s degree, preferably in Computer Science, Information Technology, Computer Engineering, or related IT discipline; or equivalent experience.
+- Ability to use GitLab.
 - 0-2 years of experience in a system administration role ideally with enterprise SaaS software model.
 - Hands-on entry-level administrator experience across multiple platforms: SalesForce, DocuSign CLM, Netsuite, Zuora Billing, Zuora Revenue, Coupa, Zip, Navan, Workday, ADP, eTrade etc.
+- Ability to thrive in a fully remote organization.
+- Be a self-starter, and thrive in a fast paced environment, customer centric and have the interpersonal skills necessary to manage business and technology - relationships.
+- Good time management and prioritization skills, resilient under pressure.
+- Ability to learn strong security and confidentiality practices with systems that handle sensitive data.
+- Willingness to pursue industry certifications.
 
 ## IT Enterprise Applications Administrator
 
@@ -65,7 +72,7 @@ Extends the IT Enterprise Applications Administrator responsibilities:
 
 - Provides input on strategic decisions within the team, such as: new system features and functionality, process definition, system roadmap, annual planning, portfolio management, etc.
 - Applies technical and functional knowledge to assist in projects that enable the team to meet their goals.
-- Works on complex problems in which analysis of situations or data requires an in-depth evaluation of various factors.
+- Works on problems in which analysis of situations or data requires an in-depth evaluation of various factors
 - Solves problems of medium complexity that will have an impact to the business results of their team.
 - Works independently and leverages their manager for feedback on critical problems.
 
@@ -76,6 +83,7 @@ Extends the IT Enterprise Applications Administrator requirements:
 
 - 3-5 years of experience in a system administration role ideally with enterprise SaaS software model.
 - Hands-on administrator experience across multiple platforms: SalesForce, DocuSign CLM, Netsuite, Zuora Billing, Zuora Revenue, Coupa, Zip, Navan, Workday, ADP, eTrade etc.
+- Multiple industry certifications preferred.
 
 
 ## Staff IT Enterprise Applications Administrator
@@ -86,10 +94,11 @@ Staff IT Enterprise Applications Administrator is a [grade 8](https://about.gitl
 
 Extends the Senior IT Enterprise Applications Administrator responsibilities:
 
-- Implements strategic decisions within the team and the department.
-- Thought partner for team's manager to make technical/project decisions for the team.
+- Provides input and drives discussion on strategic decisions within the team, such as: new system features and functionality, process definition, system roadmap, annual planning, portfolio management, etc.
+- Implements strategic decisions within the team and the department including technical solutions, roadmaps, sprint planning, and resource management.
+- Works closely with the team's manager and Enterprise Applications leadership to make technical/project decisions for the team.
 - Proposed solutions may impact results within a team member's department.
-- Provides technical and functional knowledge to projects that contribute to overall direction across teams.
+- Provides technical and functional knowledge to highly complex projects that contribute to overall direction across teams.
 - Understands and works on complex problems that requires a deep understanding of multiple sources of data to make a recommendation.
 - Exercises independent judgment in developing methods, techniques and evaluation criteria for obtaining results.
 - Leads others by sharing solutions and problem solving approaches with others.
@@ -103,6 +112,7 @@ Extends the Senior IT Enterprise Applications Administrator requirements:
 
 - 5-8 years of experience in a system administration role ideally with enterprise SaaS software model.
 - Hands-on expert-level administrator experience across multiple platforms: SalesForce, DocuSign CLM, Netsuite, Zuora Billing, Zuora Revenue, Coupa, Zip, Navan, Workday, ADP, eTrade etc.
+- Multiple industry certifications – including architecture level – preferred.
 
 ## Performance Indicators (PI)
 
