@@ -25,7 +25,7 @@ The Manager, IT is a [grade 8](/handbook/total-rewards/compensation/compensation
 - Strong written and verbal communication skills
 - Share and work in accordance with our values
 - Must be able to work in alignment with Americas timezones
-- [Leadership at GitLab](/handbook/company/team/structure/#management-group)
+- [Leadership at GitLab](/handbook/company/structure/#management-group)
 - Ability to use GitLab
 
 ## Specialties

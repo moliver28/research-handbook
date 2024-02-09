@@ -334,7 +334,7 @@ The Identity Team has three functional specialties and collaborates cross-functi
 
 ### Identity Infrastructure Engineering
 
-The Identity Infrastructure team is focused on our top-level cloud provider infrastructure organization-level management for AWS and GCP in collaboration with the [Infrastructure Security](/handbook/security/security-engineering/infrastructure-security) team.
+The Identity Infrastructure team is focused on our top-level cloud provider infrastructure organization-level management for AWS and GCP in collaboration with the [Infrastructure Security](/handbook/security/product-security/infrastructure-security) team.
 
 We build self-service tools for users to create their own AWS accounts and GCP projects and provide castle wall hardening.
 

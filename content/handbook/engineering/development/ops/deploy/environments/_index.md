@@ -371,36 +371,28 @@ We follow the Engineering Department [Career Development Framework](/handbook/en
 
 ## Maximize asynchronous performance in this team
 
-We're a highly distributed team.
-It's simply hard to find a synchronous call slot that works for everyone,
-therefore it's important that our main communication is asynchronous basis and it's well-optimized for our team dynamics.
+Async practices are particularly important to us because we live in time zones that do not afford much, if any, overlap during our working hours.
 
-For example, when you [refine an issue](#issue-refinement),
-you would like to collect input from various team members, domain experts and stable counterparts.
-Typically, posting a comment with pinging them is enough, however, if the topic is complicated, ambiguous or too broad,
-you wouldn't get useful and relevant feedback. This frustrates both you and participants, which should be avoided.
-
-To maximize our asynchronous performance, we should follow [GitLab Communication](/handbook/communication/) guideline,
+To maximize our asynchronous performance, we should follow [the GitLab Communication guideline](/handbook/communication/).
 More specifically, the following points are important:
 
 - Have an SSOT discussion page (Issue or MR). This is the main collaboration point that everyone can get the latest information quickly.
   The description section should contain essential and up-to-date information, such as:
   - What's the problem to solve?
-  - Who's DRI in charge of making the decision?
-  - What's the [acceptance criteria](https://www.productplan.com/glossary/acceptance-criteria/) (e.g. user experience goal) ?
-  - What's out of scope? (if any)
+  - Who's the DRI in charge of making the decision?
+  - What's the [acceptance criteria](https://www.productplan.com/glossary/acceptance-criteria/) (e.g. user experience goal)?
+  - Is anything out of scope?
   - What proposals do we have?
   - What are the PROs/CONs and technical difficulty of each proposal?
   - Whose approval do you need for making the decision?
-  - When is the deadline to make the decision?
+  - When is the due date to make the decision?
   - FAQ
-- When DRI got additional input in the discussion page (e.g. Discussion threads), DRI should reflect it to the SSOT description.
-  - In a discussion thread, focus on the proposed topic. Try to avoid mixing multiple topics or switching to another topic.
-- When DRI got additional input outside of the discussion page (e.g. Zoom, Google Doc or Slack), DRI should reflect it to the SSOT description.
-- When Reviewer is asked to give input, Reviewer should respond as soon as possible for unblocking discussions.
-  It's also fine to respond that you don't have any feedback or can't take time for it, so that DRI can avoid waiting for your response.
-- If DRI didn't get much progress from the asynchronous communication, DRI should schedule a synchronous meeting or reach out broader audiences.
-- When DRI schedules a sync meeting, DRI should make sure that agendas are prepared before the meeting starts.
+- The DRI keeps the description updated with latest information based on any
+  decisions made in threads.
+- When a team member is asked to give input, they should respond as soon as possible to unblock discussions.
+  It's also fine to respond that you don't have any feedback or can't take time for it, so that the DRI can avoid waiting for your response.
+- If the DRI didn't get much progress from the asynchronous communication, the DRI should schedule a synchronous meeting or reach out to broader audiences.
+- When the DRI schedules a sync meeting, they should make sure that agendas are prepared before the meeting starts.
 
 ### Monthly Showcases DRI
 

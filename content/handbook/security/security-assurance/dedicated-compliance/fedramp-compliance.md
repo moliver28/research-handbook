@@ -10,23 +10,46 @@ FedRAMP authorization has three levels (low, moderate, and high) based upon the 
 
 ## FedRAMP Authorization Process
 
-There are two possible authorization paths that vary slightly; however, the common process includes:
+GitLab is following the Agency Authorization process (as opposed to the Joint Authorization Board) which looks like this:
 
-1. Preparation, partnership establishment, and readiness assessment
-1. Full security assessment resulting in an Authorization to Operate (ATO)
-1. Continuous monitoring and annual assessments
+```mermaid
+graph TD
+    subgraph Continuous Monitoring Phase
+        P(Post-Authorization) --> Q(Ongoing Continuous Monitoring Deliverables)
+        P --> R(Annual Assessment)
+    end
+    
+    subgraph Agency Authorization Phase
+        I(Agency Review of Security Authorization Package) --> J(SAR Debrief)
+        J -->|Remediation| K(Agency Final Review)
+        K --> L(Agency Issues ATO)
+        L --> M(FedRAMP PMO Review)
+        M -->|Remediation| N(FedRAMP Marketplace Designation - Authorized)
+    end
 
-An assessment (security audit) of a cloud service against FedRAMP requirements that results an acceptable level of residual risk (as deemed by a sponsoring Agency and the FedRAMP Program Management Office) results in an Authorization to Operate (ATO). The results of this assessment and the ATO can subsequently be relied upon and reused by other Agencies/customers who want or need the FedRAMP-authorized cloud service, rather than having to repeat an assessment and authorization process for each customer.
+    subgraph Security Authorization Assessment Phase
+        F[Prepare for Security Authorization Assessment] --> |Documentation Package|G(Security Authorization Assessment)
+        G --> |"Security Assessment Report (SAR) and Plan of Action & Milestones (POA&M)"|H[Secrity Authorization Package Submission]
+    end
+
+    subgraph Pre-Authorization Phase
+        B(Partnership Establishment) --> |Agency Sponsor|C(Authorization Planning)
+        C --> D(Kickoff Meeting)
+        D --> E(FedRAMP Marketplace Designation - In Process)
+    end
+```
+
+A security assessment which results in an acceptable level of residual risk (as deemed by a sponsoring Agency and the FedRAMP Program Management Office) results in an Authorization to Operate (ATO). The results of this assessment and the ATO can subsequently be relied upon and reused by other Agencies/customers who want or need the FedRAMP-authorized cloud service, rather than having to repeat an assessment and authorization process for each customer.
 
 ## GitLab's FedRAMP initiative
 
 GitLab is pursuing FedRAMP Moderate authorization for a new government community cloud Software-as-a-Service (SaaS) offering. A government community cloud is intended for use by U.S. federal, state, local, tribal, and territorial customers, in addition to federally funded research centers (FFRDCs), contractors or service providers working on behalf of the government, and lab entities.
 
-FedRAMP is a top cross-functional initiative at GitLab and has a [working group](/handbook/company/team/structure/working-groups/fedramp-execution/) that convenes at least monthly. The [Security Compliance (Dedicated Markets) team](/handbook/security/security-assurance/dedicated-compliance/) is responsible for translating and clarifying the FedRAMP requirements for the organization, providing advice and consultation, and ultimately achieving and maintaining compliance.
+FedRAMP is a top cross-functional initiative at GitLab and has a [working group](/handbook/company/working-groups/fedramp-execution/) that convenes at least monthly. The [Security Compliance (Dedicated Markets) team](/handbook/security/security-assurance/dedicated-compliance/) is responsible for translating and clarifying the FedRAMP requirements for the organization, providing advice and consultation, and ultimately achieving and maintaining compliance.
 
 Unfortunately, GitLab cannot publicly share specific timelines or progress with key milestones at this time. Internal team members can learn more [here](https://internal.gitlab.com/handbook/engineering/fedramp-compliance/#-keeping-fedramp-safe).
 
-## What are some of the FedRAMP requirements (controls)?
+## What are some of the FedRAMP requirements (security controls)?
 
 FedRAMP Authorization is very challenging and requires prescriptive security controls to be implemented at the organizational, system, and process levels. Some of the several hundred requirements include:
 

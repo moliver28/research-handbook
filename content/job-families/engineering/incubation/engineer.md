@@ -15,7 +15,7 @@ Incubation Engineers work within the [Incubation Engineering Department](/handbo
 - Interact with community members and help drive initial user adoption
 - Develop strategies for scaling beyond the Incubation phase
 - Craft code that meets our internal standards for style, maintainability, and best practices for a high-scale web environment. Maintain and advocate for these standards through code review.
-- Regularly [demonstrate](/handbook/engineering/#engineering-demo-process) progress to stake holders
+- Regularly [demonstrate](/handbook/engineering/demos/#single-engineer-groups-demo) progress to stake holders
 - Contribute to documentation and UI design as required
 
 ### Requirements

@@ -45,7 +45,7 @@ Our scoring definitions are as follows:
 
 ## Single Engineer Groups Demo
 
-A different demo process is used by the [Single-Engineer Groups](/handbook/company/team/structure/#single-engineer-groups) and does not require a demo score card.
+A different demo process is used by the [Single-Engineer Groups](/handbook/company/structure/#single-engineer-groups) and does not require a demo score card.
 
 - Record a video on your computer or via Zoom livestream of the working software
 - Upload to the [GitLab Unfiltered Channel](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A)

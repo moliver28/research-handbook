@@ -41,6 +41,8 @@ Elevate is organized into 5 learning modules. Read more about the skills covered
 
 ![visual displaying the content in each elevate module](../elevatemodules.png)
 
+We've put together a Level Up course available to all GitLab Team Members, to share the self-paced training content for each Elevate module. You can check it out here: [Elevate Learning Materials](https://levelup.gitlab.com/access/saml/login/internal-team-members?returnTo=https://levelup.gitlab.com/learn/learning-path/elevate-learning-materials)
+
 ## Time Commitment
 
 ![visual displaying the module path for learners in the Elevate program](../elevatepath.png)
@@ -163,11 +165,12 @@ Yes! Upon successful completion of the program, including attendance to all requ
 
 ### How often will this program run?
 
-We currently plan for a new group of ~100 people leaders to start this program every 2-3 months. Our goal is that 85% of our people leaders complete Elevate by the end of FY24.
+We currently plan for a new group of ~30 people leaders to start this program every 2-3 months.
 
 ### Is there opportunity to participate in the program if I am an aspiring manager?
 
-Due to our priority to certify 85% of our people leaders in FY24, participation by aspiring managers is not currently an option.
+Due to our priority to certify people leaders, participation by aspiring managers is not currently an option. We've put together a Level Up course available to all GitLab Team Members, to share the self-paced training content for each Elevate module. You can check it out here: [Elevate Learning Materials](https://levelup.gitlab.com/access/saml/login/internal-team-members?returnTo=https://levelup.gitlab.com/learn/learning-path/elevate-learning-materials)
+
 
 ### What if I get promoted while I'm part of Elevate?
 

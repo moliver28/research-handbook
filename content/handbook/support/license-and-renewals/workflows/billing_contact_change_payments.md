@@ -129,7 +129,7 @@ Once you locate a `subscription_id` you can directly access the subscription by 
 
 In Zuora, the old / cancelled subscription may also have a field `Renewal subscription`, which lists the name of the newly created subscription.
 
-## Cancellations, Downgrades, and Refunds
+## Cancellations, Downgrades, Contract Resets and Refunds
 
 ### Cancellations
 
@@ -152,6 +152,10 @@ the request to the AR team by selecting the `Accounts Receivable` macro and ask 
 If a SaaS Ultimate customer would like to renew for a Premium plan, advise them to purchase a Premium subscription and link their group to the new subscription. Ensure that they have set their Ultimate subscription to expire/cancel on the end date.
 
 If a Self-managed Ultimate customer would like to renew for a Premium plan, refer them to Sales for assistance.
+
+### Contract Resets for GitLab.com
+
+Previously, whenever a `contract reset` was performed on a GitLab.com subscription, the namespace would be downgraded to the free tier, requiring manual intervention from L&R Support to link the new subscription to the customer's existing namespace. Support Operations has since implemented a new workflow process in SFDC to prevent this from occuring, ensuring that the namespace is automatically associated with the new subscription created during a contract reset. Detailed guidance on this workflow process can be found in the sales operations handbook under the section titled [contract reset](https://handbook.gitlab.com/handbook/sales/field-operations/sales-operations/deal-desk/#contract-reset).
 
 ### Refunds
 

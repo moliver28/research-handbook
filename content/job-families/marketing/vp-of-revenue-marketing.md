@@ -40,7 +40,7 @@ The Vice President of Revenue Marketing role is a [grade 12](/handbook/total-rew
 - Must understand the difference between a leader and a manager
 - Experience managing external vendors and agencies
 - Exemplary work ethic; takes the initiative and thinks creatively to get the job done
-- [Leadership at GitLab](/handbook/company/team/structure/#director-group)
+- [Leadership at GitLab](/handbook/company/structure/#director-group)
 - Ability to use GitLab
 
 ## Performance Indicators

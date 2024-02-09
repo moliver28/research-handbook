@@ -35,7 +35,7 @@ The Technical Accounting Manager is a [grade 8](/handbook/total-rewards/compensa
 - Revenue recognition, namely 606, experience highly preferred.
 - Detail-oriented, self-directed and able to effectively complete tasks with minimal supervision
 - You share our [values](/handbook/values/), and work in accordance with those values.
-- [Leadership at GitLab](/handbook/company/team/structure/#management-group)
+- [Leadership at GitLab](/handbook/company/structure/#management-group)
 - Ability to use GitLab.
 
 ### Director, Technical Accounting

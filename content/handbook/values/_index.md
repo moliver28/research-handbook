@@ -383,7 +383,7 @@ We value the ability to maintain focus and motivation when work is tough and ask
 
 It's important that we keep our focus on action, and don't fall into the trap of analysis paralysis or sticking to a slow, quiet path without risk. Decisions should be thoughtful, but delivering fast results requires the fearless acceptance of occasionally making mistakes; our bias for action also allows us to course correct quickly. Everyone will make mistakes, but it's the relative number of mistakes against all decisions made (i.e. percentage of mistakes), and the swift correction or resolution of that mistake, which is important. A key to success with transparency is to always combine an observation with (1) questions (to ensure understanding) *and* (2) suggestions for solutions / improvement to the group that can take action.  We don't make general complaints without including and supporting the groups that can effect change. Success with transparency almost always requires effective [collaboration](#collaboration).
 
-An example of our bias for action can be seen in our [Follow the Sun Coverage model](/handbook/engineering/development/#follow-the-sun-coverage).
+An example of our bias for action can be seen in our [Follow the Sun Coverage model](/handbook/engineering/development/processes/follow-the-sun-coverage/).
 
 ##### Disagree, commit, and disagree
 
@@ -527,7 +527,7 @@ When team members are managers of one they can have an increased work/life balan
 
 ##### Freedom and responsibility over rigidity
 
-When possible, we give people the responsibility to make a decision and hold them accountable for that, instead of imposing rules and approval processes. You should have clear objectives and the freedom to work on them as you see fit. Freedom and responsibility are more efficient than rigidly following a process, [or creating interdependencies](/handbook/company/team/structure/#product-groups), because they enable faster decision velocity and higher rates of [iteration](#iteration).
+When possible, we give people the responsibility to make a decision and hold them accountable for that, instead of imposing rules and approval processes. You should have clear objectives and the freedom to work on them as you see fit. Freedom and responsibility are more efficient than rigidly following a process, [or creating interdependencies](/handbook/company/structure/#product-groups), because they enable faster decision velocity and higher rates of [iteration](#iteration).
 
 When team members have freedom and responsibility over rigidity, they have more room to help others.
 
@@ -943,7 +943,7 @@ Similarly, when adding features to GitLab, consider ways to [reduce the scope](/
 
 ##### Always iterate deliberately
 
-Rapid iteration can get in the way of [results](#results) if it's not thought out; for example, when adjusting our marketing messaging (where consistency is key), product categories (where we've set development plans), [organizational structure](/handbook/company/team/structure/#organizational-structure) or [product scope alignment](/handbook/people-group/promotions-transfers/#realignment-of-resources-impacting-multiple-team-members) (where real human stresses and team stability are involved), sales methodologies (where we've trained our teams) and this values page (where
+Rapid iteration can get in the way of [results](#results) if it's not thought out; for example, when adjusting our marketing messaging (where consistency is key), product categories (where we've set development plans), [organizational structure](/handbook/company/structure/#organizational-structure) or [product scope alignment](/handbook/people-group/promotions-transfers/#realignment-of-resources-impacting-multiple-team-members) (where real human stresses and team stability are involved), sales methodologies (where we've trained our teams) and this values page (where
 we use the values to guide all GitLab team members). In those instances, we add additional review to the approval
 process; not to prohibit, but to be more deliberate in our iteration. The change process is documented in the [GitLab Handbook Usage](/handbook/handbook-usage/) page and takes place via merge request approvals.
 

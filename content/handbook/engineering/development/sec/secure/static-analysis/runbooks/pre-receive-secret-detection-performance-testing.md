@@ -90,6 +90,21 @@ docker run -it \
 * As we are currently deploying the latest GitLab release, we no longer need to update the `gitlab_deb_download_url`
 * Redeploy with the same ansible command from the setup steps: `ansible-playbook -i environments/$GCP_ENV_PREFIX/inventory playbooks/all.yml`
 
+### Monitoring
+
+The Grafana dashboards can be found at `/-/grafana/dashboards/`. Login credentials can be found in 1password under "Static Analysis - 2K GCP Grafana".
+
+Setting up the environment is covered in previous sections, but the
+files necessary to make this work are as follows:
+* ansible/environments/gcp-2k/files/gitlab_tasks/monitor.yml
+* ansible/environments/linux_package/server-performance.json
+* ansible/environments/dashboards.yaml
+* ansible/environments/datasources.yaml
+
+These files can be found in [this MR](https://gitlab.com/gitlab-org/secure/pocs/gitlab-environment-toolkit-configs/-/merge_requests/4). 
+
+See the [Custom Tasks section](https://gitlab.com/gitlab-org/gitlab-environment-toolkit/-/blob/main/docs/environment_advanced.md#custom-tasks) of the GET docs for more info. 
+
 ### Resources/Acronyms
 * [GitLab Environment Toolkit (GET)](https://gitlab.com/gitlab-org/gitlab-environment-toolkit)
 * [GitLab Performance Tool (GPT)](https://gitlab.com/gitlab-org/quality/performance)

@@ -97,21 +97,50 @@ graph BT;
   id5(Better Insights)-.->id3;
 ```
 
-## A Complete Enterprise Data Platform
+## Our Data Platform Vision
+These ambitions are set to be a guiding vision for GitLab's data platform. 
 
-The following table represents capabilities of a mature Enterprise Data Platform which can solve for the wide range of data and analytics needed by a large business. Not all capabilities listed are required to meet GitLab's short-term needs or known long-term needs. The decision to implement a given capability will be driven by a clear business need and the final result may differ significantly from the reference example.
+### Makes it Easier to Contribute
+Contributing to GitLab's Data Platform is easy and using the platform is intuitive
 
-|                                                                                                                               |                                                                                                    |                                                                                                     |
-| ----------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
-| [Data Architecture](https://en.wikipedia.org/wiki/Data_architecture)                                                          | [Data Security](https://en.wikipedia.org/wiki/Data_security)                                       | [Data Quality](https://en.wikipedia.org/wiki/Data_quality)                                          |
-| [Descriptive](https://www.kdnuggets.com/2017/07/4-types-data-analytics.html)                                                  | [Diagnostic](https://www.kdnuggets.com/2017/07/4-types-data-analytics.html)                        | [Advanced Analytics](https://www.gartner.com/en/information-technology/glossary/advanced-analytics) |
-| [Reporting](https://en.wikipedia.org/wiki/Report)                                                                             | [Dashboarding](https://www.microstrategy.com/us/resources/introductory-guides/business-dashboards) | [Self-Service](https://www.gartner.com/en/information-technology/glossary/self-service-analytics)               |
-| [Operational Data Store](https://en.wikipedia.org/wiki/Operational_data_store)                                                | [Data Warehouse](https://en.wikipedia.org/wiki/Data_warehouse)                                     | [Data Lake](https://aws.amazon.com/big-data/datalakes-and-analytics/what-is-a-data-lake/)           |
-| [Data Model Standards](https://en.wikipedia.org/wiki/Data_modeling)                                                           | [Enterprise Dimensional Model](https://en.wikipedia.org/wiki/Dimensional_modeling)                 | [Data Marts](https://en.wikipedia.org/wiki/Data_mart)                                              |
-| [Reference Data Management](https://en.wikipedia.org/wiki/Reference_data)                                                     | [Data Enrichment](https://www.redpointglobal.com/blog/what-is-data-enrichment)                     | [Master Data Management](https://en.wikipedia.org/wiki/Master_data)                                 |
-| [Data Pipeline](https://www.alooma.com/blog/what-is-a-data-pipeline)                                                          | [Data Transformation](https://en.wikipedia.org/wiki/Data_transformation)                           | [Real-Time Data](https://en.wikipedia.org/wiki/Real-time_data)                                      |
-| [Data Exports](https://www.qualtrics.com/support/survey-platform/data-and-analysis-module/data/download-data/export-formats/) | [Data Publishing](https://en.wikipedia.org/wiki/Open_data)                                         | [Data Products](https://hbr.org/2018/10/how-to-build-great-data-products)                           |
-| [Data Taxonomy](https://www.nielsen.com/us/en/insights/resource/2019/why-you-need-a-data-taxonomy/)                           | [Data Catalog](https://www.alation.com/blog/what-is-a-data-catalog/)                               | [Data Portal](https://dataportals.org/)                                                             |
+* Documentation is complete and relevant for users and contributors
+* All data transformations are implemented in dbt
+* CI/CD is seamless, intuitive, automated for contributors and reviewers
+* Data state is derivative from sources and transformations
+* Data pipelines are idempotent 
+
+### Is Reliable 
+The data plaform along with the data it delivers is consitent in availability and accuracy
+
+* All breaking changes are testable in Dev and/or Staging Environments
+* Automated tests are implemented at every stage of the data delivery process
+* Every component of the platform can and should be defined in code and version controlled
+
+### Is Secure
+The Data Platform doesn't put people at risk
+
+* Data is only accisible to those authorized by documented approvals
+* The GitLab data team will stick with the [Principle of Least Privilege](https://handbook.gitlab.com/handbook/security/access-management-policy/#principle-of-least-privilege) regarding the authorization and authentication  
+### Is Secure
+The Data Platform doesn't put people at risk
+
+* Data is only accessible to those authorized by documented approvals
+
+### Is Maintainable 
+
+* The Data Platform component will be created with considering the good engineering practices for the [ease of maintainability](https://en.wikipedia.org/wiki/Maintainability). It means tracking of maintainability is intended to help reduce or reverse a system's tendency toward "code entropy" or degraded integrity 
+
+### Benefits a Larger Community
+GitLab's Data Platform is relevant to a community larger than GitLab's and depends on a larger community of engineers.
+
+* Relevant Platform code is open sourced
+* Platform enhancements are contributed back into community projects
+* We prefer generalizable specifications and standards over idiosyncratic custom development
+
+
+### Data Platform FY25 initiatives
+
+The following sections describe the Data Platform FY25 initiatives.
 
 
 ## Data Value Pyramid

@@ -108,7 +108,7 @@ Each sub-department has different guidance on OKR:
 
 ## Key Review
 
-[Key Review meetings](/handbook/key-review/) provide the department leadership an opportunity to inform the executive team of our [performance indicator](#performance-indicators/) progress, results on OKRs, and updates on any [Cross-functional Key Initiatives](/handbook/company/team/structure/working-groups/#top-cross-functional-initiatives) which we are leading.
+[Key Review meetings](/handbook/key-review/) provide the department leadership an opportunity to inform the executive team of our [performance indicator](#performance-indicators/) progress, results on OKRs, and updates on any [Cross-functional Key Initiatives](/handbook/company/working-groups/#top-cross-functional-initiatives) which we are leading.
 
 Key Review meetings are facilitated and led by the currently responsible VP, with Directors being the backup DRIs.
 

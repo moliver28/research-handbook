@@ -23,7 +23,7 @@ and then pasting it in the `Org` input field for the user in question (make sure
 to click the organization that appears after doing so to finish the
 association).
 
-#### Proving support entitlement
+### Proving support entitlement
 
 When a user is not associated to an organization, they may need to prove their
 support entitlement. You can request this using the macro
@@ -31,7 +31,7 @@ support entitlement. You can request this using the macro
 
 Once the user has replied with the requested information, the next steps depend
 on the product offering being used (see
-[Locating the Salesforce ID for SaaS customers](#locating-the-salesforce-id-for-saas-customers)
+[Locating the Salesforce ID for gitlab.com customers](#locating-the-salesforce-id-for-gitlabcom-customers)
 or
 [Locating the Salesforce ID for Self-Managed customers](#locating-the-salesforce-id-for-self-managed-customers)
  for more info). Ultimately, we need to get the Salesforce ID so we can search for them in
@@ -61,14 +61,14 @@ If the organization has a contact management project, we cannot proceed forward.
 The organization would need to add the user in question via the contact
 management project.
 
->> Note: If customer purchased AWS license (AWS AMI with GitLab domain email),
+> Note: If customer purchased AWS license (AWS AMI with GitLab domain email),
 please use [this organization](https://gitlab.zendesk.com/agent/organizations/9306291514524)
 to associate. Please read the organization notes carefully.
 
-##### Locating the Salesforce ID for SaaS customers
+#### Locating the Salesforce ID for gitlab.com customers
 
-For SaaS customers, we need to use a combination of the `GitLab Super App` and
-the `Support Ops Super App`.
+For gitlab.com customers, we need to use a combination of the `GitLab Super App`
+and the `Support Ops Super App`.
 
 To start, you will need to locate the parent namespace that has a valid paid
 subscription. To do this, search for the user in question via the GitLab Super
@@ -90,7 +90,7 @@ With that value, use the `Namespace Lookup` plugin in the Support Ops Super App
 to search for the top-level namespace. The output from this plugin will give you
 the namespace's ID.
 
-##### Locating the Salesforce ID for Self-Managed customers
+#### Locating the Salesforce ID for Self-Managed customers
 
 For Self-Managed customers, we need to locate them in
 [cDot](https://customers.gitlab.com/admin):

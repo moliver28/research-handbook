@@ -105,7 +105,7 @@ https://handbook.gitlab.com/handbook/security/
 
 ## Creating New Security Issues
 
-Use [the Vulnerability Disclosure issue template](https://gitlab.com/gitlab-org/gitlab/-/issues/new?issuable_template=Vulnerability%20Disclosure) to report a new security vulnerability, or use our [HackerOne bug bounty program](https://hackerone.com/gitlab).
+Use [the Vulnerability Disclosure issue template](https://gitlab.com/gitlab-org/gitlab/-/issues/new?issuable_template=Vulnerability%20Disclosure) to report a new security vulnerability, or use our [HackerOne bug bounty program](https://hackerone.com/gitlab). Please note that we are only able to pay out bounties for eligible vulnerabilities through the HackerOne platform.
 
 New security issue should follow these guidelines when being created on `GitLab.com`:
 

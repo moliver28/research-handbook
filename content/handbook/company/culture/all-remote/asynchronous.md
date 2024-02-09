@@ -30,7 +30,7 @@ In an asynchronous company, team members are given [agency]({{< ref "values#give
 
 If someone is [traveling]({{< ref "./people#travelers" >}}) to a new time zone each month, or chooses to spend a beautiful afternoon [with family]({{< ref "./people#worklife-harmony" >}}), that's their [prerogative](https://about.gitlab.com/blog/2019/12/10/how-to-build-a-more-productive-remote-team/).
 
-Unsurprisingly, providing those who are capable of being [managers of one]({{< ref "values#managers-of-one" >}}) with this type of autonomy leads to extraordinary [loyalty]({{< ref "./remote-benefits#for-your-organization" >}}), [retention]({{< ref "people-group-metrics#team-member-retention" >}}), and quality of work.
+Unsurprisingly, providing those who are capable of being [managers of one]({{< ref "values#managers-of-one" >}}) with this type of autonomy leads to extraordinary [loyalty]({{< ref "./remote-benefits#for-your-organization" >}}), [retention](/handbook/people-group/people-success-performance-indicators/#executive-summary), and quality of work.
 
 To further optimize this approach, consider adding a "[flexible time off policy]({{< ref "paid-time-off#a-gitlab-team-members-guide-to-time-off" >}})", which means team members do not need to ask permission to step away from work.
 

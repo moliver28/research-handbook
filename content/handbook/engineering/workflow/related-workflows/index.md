@@ -17,7 +17,7 @@ The diagram below shows how these processes interact with one another. Links to 
 1. [Error budgets](/handbook/engineering/error-budgets/)
 1. [Capacity planning](/handbook/engineering/infrastructure/capacity-planning/)
 1. [Rapid actions](/handbook/product/product-processes/#rapid-action)
-1. [Working groups](/handbook/company/team/structure/working-groups/)
+1. [Working groups](/handbook/company/working-groups/)
 1. [InfraDev](/handbook/engineering/workflow/#infradev)
 1. [Cross Functional Prioritization](/handbook/product/product-processes/#prioritization)
 1. [Incident Review](/handbook/engineering/infrastructure/incident-review/)

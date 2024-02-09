@@ -77,7 +77,7 @@ The Sales Strategy Manager is a [grade 8](/handbook/total-rewards/compensation/c
 - You share our values, and work in accordance with those values
 - Ability to thrive in a fully remote organization
 - You share our values, and work in accordance with those values.
-- [Leadership at GitLab](/handbook/company/team/structure/#director-group)
+- [Leadership at GitLab](/handbook/company/structure/#director-group)
 - Ability to use GitLab
 
 ### Sales Strategy Senior Manager
@@ -135,7 +135,7 @@ The Sales Strategy Senior Manager is a [grade 10](/handbook/total-rewards/compen
 - You share our values, and work in accordance with those values
 - Ability to thrive in a fully remote organization
 - You share our values, and work in accordance with those values.
-- [Leadership at GitLab](/handbook/company/team/structure/#director-group)
+- [Leadership at GitLab](/handbook/company/structure/#director-group)
 - Ability to use GitLab
 
 ### Senior Director, Sales Strategy

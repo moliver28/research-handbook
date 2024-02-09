@@ -32,11 +32,9 @@ To request access to Zip:
 
    -a)In Step 2, in the *Justification for this access* question, please describe what budget, management approvals, purchase orders and invoices approvals you will manage.
 
-   -b)Add the labels `FinSys - Coupa`,`FinSys - Zip` and `FinSys::Service Desk`.
+   -b)**After the AR is approved, you must review the [tech stack](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/tech_stack.yml) and follow the instructions for provisioning (either assign to the provisioner, add the correct labels or both if not clearly stated) to avoid any provisioning delays.**
 
-   -c)**After the AR is approved, you must review the [tech stack](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/tech_stack.yml) and follow the instructions for provisioning (either assign to the provisioner, add the correct labels or both if not clearly stated) to avoid any provisioning delays.**
-
-   -d)If you require immediate Zip/Coupa access, please ping in the `#coupa_help` Slack channel.
+   -c)If you require immediate Zip/Coupa access, please ping in the `#coupa_help` Slack channel.
 
 
 

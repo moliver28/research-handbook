@@ -33,7 +33,7 @@ This document is limited to describe the Data Platform conceptually. There are o
 - [Jupyter Guide](/handbook/business-technology/data-team/platform/jupyter-guide/)
 - [Permifrost](/handbook/business-technology/data-team/platform/permifrost/)
 - [Python Guide](/handbook/business-technology/data-team/platform/python-guide/)
-- [Sisense (Periscope)](/handbook/business-technology/data-team/platform/sisensecdt/)
+- [Python/Tools package management and inventory](/handbook/business-technology/data-team/platform/python-tool-package-management/)
 - [Snowplow](/handbook/business-technology/data-team/platform/snowplow/)
 - [SQL Style Guide](/handbook/business-technology/data-team/platform/sql-style-guide/)
 - [Meltano](https://internal.gitlab.com/handbook/enterprise-data/platform/Meltano-Gitlab/)
@@ -55,7 +55,7 @@ Changes are implemented via merge requests, including changes to our pipelines, 
 | Orchestration   | Airflow, Tableau Prep |
 | Data Warehouse  | Snowflake Enterprise Edition |
 | Transformations | dbt and Python scripts |
-| Data Visualization | Sisense For Cloud Data Teams and Tableau |
+| Data Visualization | Tableau |
 | Advanced Analytics | jupyter |
 
 ## <i class="fas fa-exchange-alt fa-fw" style="color:rgb(107,79,187); font-size:.85em" aria-hidden="true" id="extract-and-load"></i>Extract and Load
@@ -121,6 +121,7 @@ The following table indexes all of the RAW data sources we are loading into the 
 | [Netsuite](https://www.netsuite.com/portal/home.shtml) | Fivetran | `netsuite_fivetran` | `netsuite` | Finance | 6h / 24h | Yes | Tier 2 |
 | [OCI Reports](https://docs.oracle.com/en-us/iaas/Content/Billing/Concepts/usagereportsoverview.htm) | Airflow | `oci_reports` | `oci_reports` | Engineering | 24h / 48h | No | Tier 3 |
 | [Omamori](https://gitlab.com/gitlab-com/gl-security/security-operations/trust-and-safety/omamori) | Airflow | `omamori` | `omamori` | Engineering | 1h / 24h | No  | Tier 2 |
+| Pajamas Adoption Scanner | Airflow | `pajamas_adoption_scanner` | `pajamas_adoption_scanner` | Engineering | 24h / 48h | No | Tier 3 |
 | [PMG](https://www.pmg.com/) | x | `pmg` | `pmg` | x | x / x | No | Tier 3 |
 | [Time Off by Deel](https://www.deel.com/engage/pto) | Snowpipe | `pto` | `gitlab_pto` | Engineering Productivity / People | 7 days / x | No | Tier 3 |
 | [Qualtrics](https://www.qualtrics.com/) | Airflow | `qualitrics` | `qualtrics` | Marketing | 12h / 48h | No | Tier 2 |
@@ -167,8 +168,6 @@ In some cases, it may only be 2 data engineers.
 We will likely request an additional account for the automated extraction process.
 
 Sensitive data is locked down through the security paradigms listed below;
-Sisense will never have access to sensitive data, as Sisense does not have access to any data by default.
-Sisense's access is always explicitly granted.
 
 ### Data Source Overviews
 
@@ -180,9 +179,6 @@ Sisense's access is always explicitly granted.
 - [Salesforce](https://youtu.be/KwG3ylzWWWo)
 - [Zendesk](https://drive.google.com/open?id=1oExE1ZM5IkXcq1hJIPouxlXSiafhRRua)
 
-### DataSiren
-
-To ensure that the data team has a complete picture of where sensitive data is in the data warehouse, as well as make sure Sisense does not have access to sensitive data, a periodic scan of the data warehouse is made using dbt along with the internally-developed library of tools created as [`datasiren`](https://gitlab.com/gitlab-data/datasiren). This scan is currently executed weekly. The fine-grained results are stored in Snowflake in the `PREP.DATASIREN` schema and are not available in Periscope because of sensitivity reasons.  High-level results have been made available in Periscope, including the simple dashboard found [here](https://app.periscopedata.com/app/gitlab/793578/DataSiren).
 
 ### Snowplow Infrastructure
 
@@ -395,6 +391,10 @@ Here are the proper steps for deprovisioning existing user:
 
 For more information, watch this [recorded pairing session](https://youtu.be/-vpH0aSeO9c) (must be viewed as GitLab Unfiltered).
 
+#### Provisioning permissions to external tables to user roles
+
+Provisioning USAGE permissions for external tables to user roles inside snowflake is not handled by permifrost in the moment. If you have to provision access for an external table to a user role, then it must be granted manually via GRANT command in snowflake(docs)[https://docs.snowflake.com/en/sql-reference/sql/grant-privilege] using a `securityadmin` role. This implies that the user role already has access to the schema and the db in which the external table is located, if not add them to the [roles.yml](https://gitxlab.com/gitlab-data/analytics/-/blob/master/permissions/snowflake/roles.yml).
+
 #### Logging in and using the correct role
 
 When you apply for a Snowflake account via an AR and get access provisioned it takes until 3.00AM UTC for the change to take effect. This is because we have a script running daily to provision the access in Snowflake. When you can login, you can do this via Okta. After you logged in via Okta, you need to select the right role that is attached to your account. This is by default the same as your account and it follows the convention of your email adres minus `@gitlab.com`.
@@ -423,13 +423,12 @@ To use our credit consumption effectively, we try to minimize the amount of ware
 | warehouse            | purpose                                                                                         | max query (minutes) |
 | -------------------- | ----------------------------------------------------------------------------------------------- | ------------------- |
 | `admin`              | This is for permission bot and other admin tasks                                                | 10                  |
-| `datasiren`          | This is used for the Data siren proces                                                          | 30                  |
 | `dev_xs/m/l/xl`      | This is used for development purposes, to be used when using the Snowflake UI and in CI-pipelines | 180               |
 | `gainsight_xs`       | This is used for gainsight data pump                                                            | 30                  |
 | `gitlab_postgres`    | This is for extraction jobs that pull from GitLab internal Postgres databases                   | 10                  |
 | `grafana`            | This is exclusively for Grafana to use                                                          | 60                  |
 | `loading`            | This is for our Extract and Load jobs and testing new Meltano loaders                           | 60                  |
-| `reporting`          | This is for the BI tool for querying. Note that Sisense enforces a 5 minute timeout.            | 30*                 |
+| `reporting`          | This is for the BI tool for querying.           | 30*                 |
 | `transforming_xs`    | These are for production dbt jobs                                                               | 180                 |
 | `transforming_s`     | These are for production dbt jobs                                                               | 180                 |
 | `transforming_l`     | These are for production dbt jobs                                                               | 240                 |
@@ -445,7 +444,7 @@ If you're running into query time limits please check your query for optimisatio
    - Every warehouse suspends after a set period, but when idle (time between query result and the suspend time), we still consume snowflake credits
    - In general we don't spend more money if we run concurrent queries.
 
-- The query timeout in Snowflake is set to 30 minutes for the `REPORTING` warehouse. Sisense has a threshold that has been set to 10 minutes to time-out in order to prevent queuing on the Sisense platform.
+- The query timeout in Snowflake is set to 30 minutes for the `REPORTING` warehouse.
 
 ### Data Storage
 
@@ -479,15 +478,17 @@ There is a `bi_tool_eval` database, which is used for testing bi tooling. Users 
 
 All databases not defined in our [`roles.yml`](https://gitlab.com/gitlab-data/analytics/-/blob/master/permissions/snowflake/roles.yml) Permifrost file are removed on a weekly basis.
 
-| Database | Viewable in Sisense |
+| Database | Suitable to use in Tableau |
 |:-:|:-:|
 | raw | No |
 | prep | No |
 | prod | Yes |
 
+Only the `prod` database should be used in Tableau as this data has been transformed and modeled for business use. Using `raw` and `prep` databases in Tableau could result in incorrect data and or broken queries/dashboards now or in the future. Important to keep in mind that data transformations are checked and tested only for the `prod` database results. This means if dashboards are directly connected to the raw or `prep` database it could break or report wrong data. 
+
 #### Raw
 
-This database is not available to query in Sisense. No dbt models exist for this data and so it may be the case that the data needs review or transformation in order to be useful or accurate. This review, documentation, and transformation all happens downstream in dbt for `PREP` and `PROD`
+No dbt models exist for this data and so it may be the case that the data needs review or transformation in order to be useful or accurate. This review, documentation, and transformation all happens downstream in dbt for `PREP` and `PROD`. This database should not be used in Tableau.
 
 - Raw may contain sensitive data, so permissions need to be carefully controlled
 - RAW will contain data that isn't ready for business use.
@@ -496,7 +497,7 @@ This database is not available to query in Sisense. No dbt models exist for this
 
 #### Prep
 
-This database is not available to query in Sisense, and is the first layer of verification and transformation in the warehouse, but is not yet ready for general business use.
+This is the first layer of verification and transformation in the warehouse, but is not yet ready for general business use. This database should not be used in Tableau.
 
 - [Source models](/handbook/business-technology/data-team/platform/dbt-guide/#source-models) are built in logical schemas corresponding to the data source (i.e. `sfdc`, `zuora`)
 - PREPARATION - this is the default schema where dbt models are built
@@ -504,7 +505,7 @@ This database is not available to query in Sisense, and is the first layer of ve
 
 #### Prod
 
-This database and all schemas and tables in it are queryable by Sisense. This data has been transformed and modeled for business use.
+This database and all schemas and tables in it are queryable by Tableau. This data has been transformed and modeled for business use.
 
 With the exception of `public`, and [`boneyard`](/handbook/business-technology/data-team/#mind-about-sheetload), all schemas are controlled by dbt.
 See the [dbt guide](/handbook/business-technology/data-team/platform/dbt-guide) for more information.
@@ -515,7 +516,7 @@ The table below shows a mapping of how models stored within folders in the [`mod
 
 The source of truth for this is in the [`dbt_project.yml` configuration file](https://gitlab.com/gitlab-data/analytics/-/blob/master/transform/snowflake-dbt/dbt_project.yml).
 
-| Folder in snowflake-dbt/models/ | db.schema | Details | Queryable in Sisense |
+| Folder in snowflake-dbt/models/ | db.schema | Details | Queryable in Tableau |
 |-|-|-|:-:|
 | common/ | prod.common | Top-level folder for facts and dimensions. Do not put models here. | Yes |
 | common/bridge | prod.common | Sub-folder for creating many-to-many mappings between data that come from different sources. | Yes |
@@ -749,7 +750,7 @@ With all tests being run via dbt, storing tests results is simple. We store the 
 - measurement of system quality improvements over time (an increase in the PASS rate)
 - development of an alerting system based on test result
 
-These test results are parsed and are available for querying in Sisense.
+These test results are parsed and are available for querying in Tableau.
 
 The schema we store all test results is: `WORKSPACE_DATA`. <br>
 Note: This schema only containts views.
@@ -766,7 +767,7 @@ The implementation details of these tests are documented in our [dbt guide](/han
 
 #### Trusted Data Dashboard
 
-The [Trusted Data Dashboard](https://app.periscopedata.com/app/gitlab/756199/Trusted-Data-Dashboard) as available in Sisense.
+The data team is working on either a dashboard or the use of collections to organize trusted data dashboards as well as published Tableau Data Sources which as certified as trusted data.
 
 #### Test Run
 
@@ -898,15 +899,15 @@ Sales Systems Use-Case: Using the Snowflake API
 
 ## <i class="fas fa-chart-bar fa-fw" style="color:rgb(252,109,38); font-size:.85em" aria-hidden="true"></i>Visualization
 
-We use [Sisense](https://www.periscopedata.com) as our Data Visualization and Business Intelligence tool. To request access, please follow submit an [access request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=New_Access_Request).
+We use [Tableau](https://www.tableau.com/) as our Data Visualization and Business Intelligence tool. To request access, please follow submit an [access request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=New_Access_Request). Use the template [Tableau_Rquest](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/blob/master/.gitlab/issue_templates/Tableau_Request.md) for Tableau access requests.
 
 #### Meta Analyses for the Data Team
 
-- [Sisense Usage! 📈](https://app.periscopedata.com/app/gitlab/410320/)
-- [Sisense Account Optimization 💪](https://app.periscopedata.com/app/gitlab/410321/)
-- [Sisense Account Maintenance 🗑️](https://app.periscopedata.com/app/gitlab/410322/)
-- [dbt Event Logging](https://app.periscopedata.com/app/gitlab/420622/)
-- [Snowflake Spend ️❄](https://app.periscopedata.com/app/gitlab/443349/)
+- Tableau Usage! 📈 - coming soon
+- Tableau Account Optimization 💪 - coming soon
+- Tableau Account Maintenance 🗑️ - coming soon
+- dbt Event Logging - coming soon
+- [Snowflake Spend ️❄](https://10az.online.tableau.com/t/gitlab/views/SnowflakeSpend/SnowflakeSpend)
 
 ## <i class="fas fa-user-lock fa-fw" style="color:rgb(107,79,187); font-size:.85em" aria-hidden="true"></i>Security
 
@@ -918,7 +919,7 @@ We also rotate Snowflake user passwords the first Sunday of every 3rd month of t
 
 ### Software User Provisioning
 
-The data team is responsible for provisioning users within the tools managed by the Data Team. This includes tools like Sisense, MonteCarlo, Fivetran, Stitch, and Snowflake.
+The data team is responsible for provisioning users within the tools managed by the Data Team. This includes tools like Tableau, MonteCarlo, Fivetran, Stitch, and Snowflake.
 
 For Snowflake, we have a robust process documented in the [Snowflake Permissions Paradigm](/handbook/business-technology/data-team/platform/#snowflake-permissions-paradigm) section of this page.
 
@@ -941,7 +942,7 @@ There are 3 types of objects available in Google Data Studio:
 - Explorer
   - This is a tool to quickly explore data sets and find detailed insights.
 
-The sharing and access process in Data Studio is comparable to sharing in Google Drive / Google Docs. Google Studio Objects can be shared with individuals in our GitLab organization account or with the Organization as a whole. There are no group or role level permissions available. Given the decentralized quality of managing dashboards and data sources in Data studio it is advised that business critical data and reporting be eventually migrated to Snowflake and Sisense. This is made easy with the use of [sheetload](https://internal.gitlab.com/handbook/enterprise-data/platform/pipelines/#sheetload) or FiveTran, which has a BigQuery connector.
+The sharing and access process in Data Studio is comparable to sharing in Google Drive / Google Docs. Google Studio Objects can be shared with individuals in our GitLab organization account or with the Organization as a whole. There are no group or role level permissions available. Given the decentralized quality of managing dashboards and data sources in Data studio it is advised that business critical data and reporting be eventually migrated to Snowflake and Tableau. This is made easy with the use of [sheetload](https://internal.gitlab.com/handbook/enterprise-data/platform/pipelines/#sheetload) or FiveTran, which has a BigQuery connector.
 
 A GitLab Team Member that creates any artifacts in Google Studio owns the owner permissions of that particular object. With the ownership the GitLab Team Member holds responsibility to keep data [SAFE](/handbook/legal/safe-framework/) within GitLab and outside the organization. Google Data Studio currently doesn't provide an admin interface that can take over the ownership. Upon off-boarding any ownership of existing objects should be carried over to ensure business continuity by the respective object owner. Note that [Red Data](/handbook/security/data-classification-standard.html#red) should never be stored or transmitted within Google Data Studio.
 
@@ -978,7 +979,7 @@ Currently, under the `/daily/` notebooks we have [one sample notebook and its co
 
 This notebook runs daily and the scores produced during execution are loaded into `Snowflake` in the `RAW.SALES_ANALYTICS` schema.
 
-For this data to be available on Sisense, `dbt` models will have to be written to expose them as views in the production database, under the `PROD.WORKSPACE_SALES` schema.
+For this data to be available on Tableau, `dbt` models will have to be written to expose them as views in the production database, under the `PROD.WORKSPACE_SALES` schema.
 
 For that the Sales Analyst can either open an MR directly into the [gitlab-data/analytics](https://gitlab.com/gitlab-data/analytics) project, or create an issue on this project and a data platform engineer will implement the necessary dbt models.
 

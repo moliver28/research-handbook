@@ -237,7 +237,7 @@ The Trust and Safety Manager is a [grade 8](/handbook/total-rewards/compensation
 - Capability to make sound decisions in the face of ambiguity and imperfect knowledge
 - Robust understanding of abuse-related issues, vectors, processes, and a solid grasp of the current global abuse landscape
 - First hand experience with major cloud providers - GCP, AWS, Azure, Digital Ocean
-- Alignment with Manager responsibilities as outlined in [Leadership at GitLab](/handbook/company/team/structure/#management-group)
+- Alignment with Manager responsibilities as outlined in [Leadership at GitLab](/handbook/company/structure/#management-group)
 
 ### Senior Manager, Trust and Safety
 

@@ -40,7 +40,7 @@ There are some online training courses that describe the managerial experience:
 
 * Review Promotion Docs for team members from your functional area who have recently been promoted to Engineering Managers
 * Schedule a coffee chat with team members who have recently been promoted and ask them questions that will help you learn more about their transition and their new role
-* See what is [expected of GitLab leadership](/handbook/company/team/structure/#management-group)
+* See what is [expected of GitLab leadership](/handbook/company/structure/#management-group)
 * Consider a mentor outside of GitLab
 
 **Stay Informed**

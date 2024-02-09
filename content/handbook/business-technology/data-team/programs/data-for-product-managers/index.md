@@ -17,7 +17,7 @@ This page is intended to help Product Managers at GitLab understand what data is
 
 ## How to Consume Data at GitLab
 
-The user-facing end of GitLab's data stack is comprised of our BI Tool, Sisense (formerly known as Periscope) which is connected to our Snowflake data warehouse. The [Sisense page](/handbook/business-technology/data-team/platform/sisensecdt/) of the data team handbook has general information about Sisense aimed for a wider GitLab audience.
+The user-facing end of GitLab's data stack is comprised of our BI Tool, Tableau which is connected to our Snowflake data warehouse. The [Tableau handbook page](https://handbook.gitlab.com/handbook/business-technology/data-team/platform/tableau/) of the data team handbook has general information about Tableau aimed for a wider GitLab audience.
 
 #### Useful links for Product Managers
 
@@ -29,38 +29,25 @@ Here are some useful links that we recommend for you to bookmark:
 - [Service Ping Metrics Dictionary](https://metrics.gitlab.com/)
 - [Service Ping documentation](https://docs.gitlab.com/ee/development/service_ping/)
 - [Snowplow documentation](https://docs.gitlab.com/ee/development/snowplow/)
-- [Sisense](https://app.periscopedata.com/app/gitlab/910238/GitLab-Dashboard-Index)
 - [Analytics Instrumentation Quick Links](https://about.gitlab.com/direction/analytics/analytics-instrumentation/#quick-links)
 - [Product Data Insights handbook](/handbook/product/product-analysis/)
 
 #### Getting Access
 
 - Everybody at GitLab should automatically have view access granted through Okta.
-- To write your own queries and create your own charts + dashboard, you'll need to create an [access request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=New+Access+Request) asking for the Editor role. These access requests can be assigned to a data team manager.
+- To create your own charts + dashboard, you'll need to have a Creator or Explorer license - you can read more about the Tableau license types [here](https://handbook.gitlab.com/handbook/business-technology/data-team/platform/tableau/#capabilities). Create an [access request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=New+Access+Request) asking for the appropriate license type. These access requests can be assigned to a data team manager.
 
-#### The 2 basic building blocks in Sisense are charts and dashboards.
+#### The 2 basic building blocks in Tableau are charts and dashboards.
 
 - Charts are queries to the data warehouse, materialized into visualizations.
 - Dashboards are collections of charts and have a unique URL (like a "page").
-- If you have Editor access, you'll be able to create both of these. New dashboards can be created on the left-hand nav bar and charts can be created by clicking "New Chart" in the top right on any dashboard where you have sufficient permissions.
+- If you have a Creator or Explorer license, you'll be able to create both of these.
 
-#### Creating Charts
-
-- Clicking _"New Chart"_ will take you to the Sisense SQL editor. This is a safe environment, meaning you don't need to worry about breaking any of the data infrastructure. The Sisense "user" has read access only and will kill all queries lasting longer than 5 minutes so you can't rack up any massive bills.
-    - The variant of SQL used in the data warehouse is [Snowflake](https://docs.snowflake.net/manuals/index.html).
-- A great way to learn about building charts is to watch this 10-minute [Data Onboarding](https://www.youtube.com/watch?v=F4FwRcKb95w&feature=youtu.be) video from Sisense.
-- If you do happen to experience timeouts in Sisense (you'll see an error message saying "query killed"), reach out to the data team and we might be able to help you optimize your query or run it as a one-off with more computational resources.
-- Sisense dashboards can be designated as "Official", meaning it has been reviewed by a data team member. If you're interested in making your dashboard official, the process is documented [here](/handbook/business-technology/data-team/platform/sisensecdt/#official-badge-for-a-dashboard).
-- Sisense has a concept of "Topics" which organizes dashboards into topical areas. Check out the [Product Topic](https://app.periscopedata.com/app/gitlab/topic/Product/ab707846c91f4d30b1c1ca0399803d67) to see what's already available in Periscope and to get inspiration for future charts.
-- One limitation of Sisense is that it is a BI tool, not a product analytics tool. We've received feedback that it's difficult to do any product analytics without a strong knowledge of SQL. To meet this need, the product team is exploring alternative analytics tools in [this epic](https://gitlab.com/gitlab-org/analytics-section/analytics-instrumentation/internal/-/issues/303)
 
 #### How do I know what tables are available?
 
 - The data team uses a tool called [dbt](https://www.getdbt.com/) for our data transformation layer. A nice feature of dbt is dbt docs, which automatically creates documentation for all of the models in our schema. Our dbt docs instance can be found [here](https://gitlab-data.gitlab.io/analytics/#!/overview).
-    - Navigating to `Projects > gitlab_snowflake > models` will give a list of all of the models (think of these as tables) that exist in the data warehouse. Models are organized in directories according to their data source.
-    - ![](/handbook/business-technology/data-team/programs/data-for-product-managers/projects_periscope.png)
-    - Clicking on a model will reveal more details including documentation, a column list, and the underlying SQL.
-- Also, Sisense will show a list of all tables available for querying on the left-hand side while in the SQL chart editor.
+    - Tableau will show a list of all tables available for querying when you form a connection to Snowflake in the Data Source pane.
     - ![](/handbook/business-technology/data-team/programs/data-for-product-managers/schemas.png)
     - Table names are always prefixed by their source name. So the table that stores the ngroups table from the gitlab dotcom database is available at `legacy.gitlab_dotcom_groups`
 
@@ -85,7 +72,6 @@ Next, create a branch and then submit an MR using the `dbt Model Changes` templa
 
 The first question we on the data team ask product managers is usually "are you interested in knowing this for self-managed or GitLab.com?" Our approach to answering your question differs greatly between the two. Although our self-managed offering has many more active customers, our GitLab.com offering has much more data available to analyze.
 
-- See this [Sisense chart](https://app.periscopedata.com/app/gitlab/602123/Data-For-Product-Managers:-Supporting-Dashboard?widget=7940644&udv=0) which shows the differences between the 2 product offerings from a financial perspective.
 - We have three primary data sources that are useful from a product perspective.
     - **Service Ping** (for Self-Managed and GitLab.com)
     - **GitLab.com Postgres Database** (for GitLab.com)
@@ -95,9 +81,9 @@ The first question we on the data team ask product managers is usually "are you 
 
 - [Service Ping](https://docs.gitlab.com/ee/administration/settings/usage_statistics.html) is a custom tool that GitLab built to deal with the problem of collecting weekly aggregate information from our customers who host our product on their own hardware.
 - It is optional but defaults to being on.
-- You can see the percent of paid subscriptions that successfully send a ping every month on [this chart](https://app.periscopedata.com/app/gitlab/771580/Product-Adoption-Dashboard?widget=9864774&udv=1468937). We do not know about unlicensed (core) users but assume the same rate. Here is more [information](https://gitlab.com/gitlab-org/analytics-section/analytics-instrumentation/internal/-/issues/291#note_276741996) on why some instances block data from being sent.
+- You can see the percent of paid subscriptions that successfully send a ping every month on [this chart](hhttps://10az.online.tableau.com/t/gitlab/views/DevelopmentPDCentralizedMetricsDashboard/MetricReporting/4c1649dc-2d4d-444d-9fc7-470d2ef21e58/9176da06-6f61-4e95-b3a7-14ae391cfc8f). We do not know about unlicensed (core) users but assume the same rate. Here is more [information](https://gitlab.com/gitlab-org/analytics-section/analytics-instrumentation/internal/-/issues/291#note_276741996) on why some instances block data from being sent.
 - GitLab.com service pings can be filtered out of your query using the `ping_delivery_type` field.
-- Monthly totals for Service Ping are added to Snowflake daily. By the 2nd all the data should be available from the previous month. You can always check the [Manual Service Ping Validation Status Dashboard](https://app.periscopedata.com/app/gitlab/762611/Manual-Usage-Ping-Validation).
+- Monthly totals for Service Ping are added to Snowflake daily. By the 2nd all the data should be available from the previous month.
 
 **Query Example filtering out GitLab.com:**
 
@@ -111,7 +97,7 @@ LIMIT 100
 
 #### Snippets
 
-Snippets are great ways to allow Sisense users to build charts without writing any SQL. Anyone with editor access can write their own snippets. The data team has created several snippets that have the official badge. To find a list of available snippets, click on the scissors in the left menu.
+Published data Tableau sources are great ways to allow Tableau users to build charts without writing any SQL or modeling. The data team has created several Published data Tableau sources that have the official badge. Any published data sources that are trusted data will have the [TD] prefix.
 
 We created several snippets that allow you to get quickly without any SQL writing some feature usage from the Service Pings data source. 
 You can find details about those snippets on the [Product Manager Toolkit](/handbook/business-technology/data-team/data-catalog/xmau-analysis/product-manager-toolkit.html) handbook page.
@@ -119,8 +105,8 @@ You can find details about those snippets on the [Product Manager Toolkit](/hand
 ### GitLab.com Postgres Database
 
 - Because GitLab.com is a GitLab instance hosted by GitLab, we have access to the instance's postgres database and can load parts of it into our snowflake data warehouse. This means we can get a very detailed look into how our product is used on GitLab.com.
-- This is largely an **untapped resource** as historically not many PMs have known that this data was consistently available in Sisense.
-- Any part of the product that creates a table on the backend (see the [schema](https://gitlab.com/gitlab-org/gitlab/-/blob/master/db/structure.sql) file) can be added to the ELT job which will sync 3x a day to the warehouse. From there, all we need to do is build a dbt base model to make them accessible in Sisense.
+- This is largely an **untapped resource** as historically not many PMs have known that this data was consistently available in BI tools.
+- Any part of the product that creates a table on the backend (see the [schema](https://gitlab.com/gitlab-org/gitlab/-/blob/master/db/structure.sql) file) can be added to the ELT job which will sync 3x a day to the warehouse. From there, all we need to do is build a dbt base model to make them accessible in Tableau.
 
 #### What if the table or column I want isn't in the data warehouse?
 
@@ -132,13 +118,10 @@ You can find details about those snippets on the [Product Manager Toolkit](/hand
 - Because service ping only aggregates data at an `instance` level, it is not super useful for GitLab.com since we often want to see information at the `namespace` level. For example, knowing that 40K people used your stage on GitLab.com is somewhat useful, but you'll probably want to know more context (Are they free or paid? What plan are they on? Do I have any power users or is usage equally distributed?)
 - But since we have access to the GitLab.com postgres database, we are capable of replicating any part of service ping at the namespace level or even the user level.
 - All service ping does under the hood is execute some `SELECT COUNT(*) FROM x` statements, making it trivial to replicate.
-- [This model](https://gitlab-data.gitlab.io/analytics/#!/model/model.gitlab_snowflake.mart_event_valid) exemplifies hows service ping could be replicated for GitLab.com at the namespace level. This model is available as a discovery dataset in Periscope. [More information is available here](/handbook/business-technology/data-team/platform/sisensecdt/#discovery-datasets)
-- We created [this dashboard](https://app.periscopedata.com/app/gitlab/576469/WIP:-Namespace-Overview) to demonstrate what data is available and which type of drilldowns can be done.
+- [This model](https://gitlab-data.gitlab.io/analytics/#!/model/model.gitlab_snowflake.mart_event_valid) exemplifies hows service ping could be replicated for GitLab.com at the namespace level. This model is available as a discovery dataset in Tableau.
 
 #### Examples
 
-- [How many snippets are created every day?](https://app.periscopedata.com/app/gitlab/602123/Data-For-Product-Manager:-Supporting-doc?widget=7886091&udv=953103)
-- [How many issues with the label "group:: source code" are opened each month?](https://app.periscopedata.com/app/gitlab/602123/Data-For-Product-Managers:-Supporting-Doc?widget=7933301&udv=0)
 
 ### Snowplow
 
@@ -149,10 +132,6 @@ You can find details about those snippets on the [Product Manager Toolkit](/hand
 - We have found the [Snowplow Inspector](https://chrome.google.com/webstore/detail/snowplow-inspector/maplkdomeamdlngconidoefjpogkmljm?hl=en) to be very useful in tracing and debugging events being sent through the browser.
 - Snowplow is not sending data from self-managed instances. If they deem it helpful, the instance administrator can [configure their own Snowplow endpoint](https://docs.gitlab.com/ee/development/snowplow/#enable-snowplow-tracking) for the events.
 
-**Examples**
-  - [How many GitLab.com users visit the preferences page every day?](https://app.periscopedata.com/app/gitlab/602123/Data-For-Product-Managers:-Supporting-Dashboard?widget=7940849)
-  - [How many "users" convert from one trial form to another in the last 30 days?](https://app.periscopedata.com/app/gitlab/602123/Data-For-Product-Managers:-Supporting-Dashboard?widget=7940858)
-  - [Which "status" tabs ('Open', 'Merged', etc) get clicked on the /merge_requests page?](https://app.periscopedata.com/app/gitlab/602123/Data-For-Product-Managers:-Supporting-Dashboard?widget=7940862)
 
 #### What can Product Managers do?
 
@@ -182,10 +161,10 @@ Testing Snowplow events can be tricky. Snowplow doesn't have a proper testing in
 - When working on your local instance: you can use [Snowplow Micro](https://snowplow.io/blog/introducing-snowplow-micro/). [This video is a nice tutorial on getting started with Snowplow Micro](https://www.youtube.com/watch?v=OX46fo_A0Ag).
 - In the near future, we plan to implement [Snowplow Mini](https://github.com/snowplow/snowplow-mini) as a way to QA our events on our staging environment. You can follow the progress [in this issue](https://gitlab.com/gitlab-org/analytics-section/analytics-instrumentation/internal/-/issues/266).
 
-#### Visualize your events in Sisense
+#### Visualize your events in Tableau
 
-The data you have instrumented is useful only if it can be visualized in a chart. Follow the following steps to create a chart in a Sisense dashboard.
-- Check if they are correctly stored in Snowflake in the [Snowplow Event Exploration Dashboard](https://app.periscopedata.com/app/gitlab/539181/Snowplow-Event-Exploration---last-30-days). You can use the filters to find your events. If you are not sure of the value of the different attributes, they should have been captured in your issue using [Snowplow event tracking template](https://gitlab.com/gitlab-org/gitlab/-/blob/master/.gitlab/issue_templates/Snowplow%20event%20tracking.md). If not, check with your engineering manager.
+The data you have instrumented is useful only if it can be visualized in a chart. Refer to the [Tableau section](https://handbook.gitlab.com/handbook/business-technology/data-team/platform/tableau/) of the handbook for information on creating charts.
+- Check if they are correctly stored in Snowflake in the [Snowplow Event Exploration Dashboard](https://10az.online.tableau.com/#/site/gitlab/workbooks/2294309). You can use the filters to find your events. If you are not sure of the value of the different attributes, they should have been captured in your issue using [Snowplow event tracking template](https://gitlab.com/gitlab-org/gitlab/-/blob/master/.gitlab/issue_templates/Snowplow%20event%20tracking.md). If not, check with your engineering manager.
 - Once you have verified that your events is properly stored. You are ready to query and visualize the data! Please be aware that we are collecting several millions of events (page views, structured events) per month, so the whole dataset is quite slow to query. In order to make  it easy to explore this data source we have created several smaller and more compact tables:
   - [`legacy.snowplow_structured_events_all`](https://gitlab-data.gitlab.io/analytics/#!/model/model.gitlab_snowflake.snowplow_structured_events_all): contains ALL structured events
   - [`legacy.snowplow_page_views_all`](https://gitlab-data.gitlab.io/analytics/#!/model/model.gitlab_snowflake.snowplow_page_views_all): contains ALL page views
@@ -213,12 +192,6 @@ ORDER BY 2 DESC
 </div>
 </div>
 
-#### Snowplow events snippets
-Use these SQL snippets to help you get started visualizing your Snowplow events.
-
-| Snippet | Intended Use | Example |
-| --------- | ------- | -------- |
-| [Chart Snowplow Actions(actions,categories)](https://app.periscopedata.com/app/gitlab/snippet/Chart-Snowplow-Actions/5546da87ae2c4a3fbc98415c88b3eedd/edit) | Plot the Snowplow events by action or category | [Chart Snowplow Actions("('view_alerts_list', 'update_alert_status', 'view_alert_details')","('Alert Management')")] |
 
 #### Some Issues and Merge Requests examples
 

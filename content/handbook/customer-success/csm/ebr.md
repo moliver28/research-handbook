@@ -17,12 +17,7 @@ View the [CSM Handbook homepage](/handbook/customer-success/csm/) for additional
 
 An Executive Business Review (EBR) is a strategic meeting with stakeholders from both GitLab and the customer. It is an extension of the account planning process and part of the CSM's regular business rhythm. The EBR aims to demonstrate to the [Economic Buyer](/handbook/sales/meddppicc/#economic-buyer) the value they are getting in their partnership with GitLab. It is interactive from both sides, discussing the customer's desired business outcomes and related metrics, progress against these metrics and desired outcomes, and aligning on strategic next steps. The most crucial element in all EBRs is giving the customer stakeholders the time to speak about what matters to them, and creating a framework to enable them to do so.
 
-CSMs conduct EBRs with their customers as follows:
-
-| Segment | Cadence |
-|---|---|
-| Commercial | 20% of book of business is offered an EBR per year, in line with the goal of having [20% of the book of business be PR1](/handbook/customer-success/csm/engagement/#growth-accounts) |
-| Enterprise | 1 EBR per customer per year minimum |
+CSMs should have 1 EBR per customer per year at minimum.
 
 ## What constitutes an EBR?
 
@@ -104,12 +99,7 @@ The EBR is not considered scheduled until calendar invites are sent & confirmed 
 
 #### EBR length
 
-The recommended length of an EBR depends on the customer's segment:
-
-| Segment | Length |
-|---|---|
-| Commercial | 60 minutes |
-| Enterprise | 90 minutes |
+The recommended length of an EBR is typically 90 minutes, however this is flexible based on customer need and content.
 
 Any EBR should be structured to provide time for key focus areas, with plenty of discussion on customer objectives and roadmap. If key personas cannot participate for the full session, [arrange the EBR](#planning--assembly) agenda to cover the topic(s) most relevant to these personas at the beginning to ensure maximum benefit to all involved.
 
@@ -138,7 +128,7 @@ Sessions should be planned and scheduled in advance, with proactively prepared t
 
 ##### Travel & Accommodations
 
-Travel should be booked & planned two weeks prior to the EBR to ensure all client stakeholders and attendees are still confirmed for the day of. Travel and expenses are to be booked through [Navan](/handbook/business-technology/enterprise-applications/guides/navan-expense-guide/). Do a suggested review of the [travel](/handbook/travel/) & [expense](/handbook/finance/expenses/) handbook pages prior to planning.
+Travel should be booked & planned two weeks prior to the EBR to ensure all client stakeholders and attendees are still confirmed for the day of. Travel and expenses are to be booked through [Navan](/handbook/business-technology/-applications/guides/navan-expense-guide/). Do a suggested review of the [travel](/handbook/travel/) & [expense](/handbook/finance/expenses/) handbook pages prior to planning.
 
 #### Cadence call mini-EBR
 

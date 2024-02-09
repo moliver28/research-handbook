@@ -7,39 +7,35 @@ description: "Test Platform Sub-Department"
 
 [Bug Prioritization](/handbook/engineering/infrastructure/test-platform/bug-prioritization/)
 {.h4}
-
 [Quad Planning](/handbook/engineering/infrastructure/test-platform/quad-planning/)
 {.h4}
-
 [On-call Rotation](/handbook/engineering/infrastructure/test-platform/oncall-rotation/)
 {.h4}
-
 [Test Coverage](/handbook/engineering/infrastructure/test-platform/test-coverage/)
 {.h4}
-
-[E2E Test Execution Metrics](/handbook/engineering/infrastructure/test-platform/test-metrics-dashboards/)
+[E2E Test Execution Reports](/handbook/engineering/infrastructure/test-platform/test-execution-reports/)
 {.h4}
 
 ---
 
 ## Mission
 
-At GitLab [Quality is everyone's responsibility](https://handbook.gitlab.com/handbook/engineering/development/principles/#quality). The Test Platform sub-department's mission is to be a world class team that enables successful development and deployment of high quality GitLab software applications with [kaizen](https://www.techtarget.com/searcherp/definition/kaizen-or-continuous-improvement) workflow efficiency, reliability, productivity. 
+At GitLab [Quality is everyone's responsibility](https://handbook.gitlab.com/handbook/engineering/development/principles/#quality). The Test Platform sub-department's mission is to be a world class team that enables successful development and deployment of high quality GitLab software applications with [kaizen](https://www.techtarget.com/searcherp/definition/kaizen-or-continuous-improvement) workflow efficiency, reliability, productivity.
 
-The Test Platform sub-department does this by focusing on: 
+The Test Platform sub-department does this by focusing on:
 
-- Innovative test architecture, efficiency, and customer results while delivering impact to the company's critical business initiatives. 
-- Broadening our lead in ensuring self-managed excellence, improve deployment confidence, drive visibility and actionability of test results, and expand our Architecture focus. 
+- Innovative test architecture, efficiency, and customer results while delivering impact to the company's critical business initiatives.
+- Broadening our lead in ensuring self-managed excellence, improve deployment confidence, drive visibility and actionability of test results, and expand our Architecture focus.
 - Enabling development and deployment at scale.
 - Fostering a culture of quality evangelism, promoting testing best practices across GitLab.
 
 ## Vision
 
-The Test Platform sub-department vision is to focus on customer satisfaction and enable GitLab to deliver faster and efficiently by supporting Gitlab’s principle of Quality is everyone’s responsibility. 
+The Test Platform sub-department vision is to focus on customer satisfaction and enable GitLab to deliver faster and efficiently by supporting Gitlab’s principle of Quality is everyone’s responsibility.
 
 Integral parts of this vision:
 
-1. Test Tooling: Build tools and frameworks that enable GitLab Engineering & Product teams to ship high-quality & reliable products to our customers efficiently. 
+1. Test Tooling: Build tools and frameworks that enable GitLab Engineering & Product teams to ship high-quality & reliable products to our customers efficiently.
 1. Reliable platform: This includes monitoring the platform for performance issues, implementing security measures, and conducting capacity planning to ensure that the platform can handle the expected load.
 1. Technical Support and Expertise: By providing technical support and expertise to development teams, test platform teams can help to solve complex technical challenges and ensure that applications are built with utmost quality.
 
@@ -112,7 +108,7 @@ Test Platform has been key to supporting prospect POVs and providing prompt, kno
 - Contribute quality tools to GitLab the product to help mature and dogfood our testing offerings.
 - Increase MR Rate.
 
-## Team Structure 
+## Team Structure
 
 Infrastructure Department structure is documented [here](/handbook/engineering/infrastructure/#organization-structure).
 
@@ -149,10 +145,6 @@ Feel free to reach out to us by opening an issue on the [Quality Team Tasks proj
 
 ### Individual contributors
 
-The following people are members of the [Test and Tools Infrastructure team](test-and-tools-infrastructure-team):
-
-{{< team-by-manager-slug "ghosh-abhinaba" >}}
-
 The following people are members of the [Self-Managed Platform team](self-managed-platform-team):
 
 {{< team-by-manager-slug "ksvoboda" >}}
@@ -160,6 +152,41 @@ The following people are members of the [Self-Managed Platform team](self-manage
 The following people are members of the [Test Engineering team](test-engineering-team):
 
 {{< team-by-manager-slug "kkolpakova" >}}
+
+The following people are members of the [Test and Tools Infrastructure team](test-and-tools-infrastructure-team):
+
+{{< team-by-manager-slug "ghosh-abhinaba" >}}
+
+## Communication
+
+In addition to GitLab's [communication guidelines](/handbook/communication) and [engineering communication](/handbook/engineering/engineering-comms), we communicate and collaborate actively across GitLab in the following venues:
+
+- [Meetings](#meetings)
+- [Group Conversation](#group-conversation)
+- [Week-in-review](#week-in-review)
+- [Engineering-wide retrospective](#engineering-wide-retrospective)
+
+### Meetings
+
+GitLab is an all-remote, timezone distributed company as such we optimize for asynchronous communication. While some topics benefit from a real-time discussion, we should always evaluate meetings to ensure they are valuable. We follow the [guidance for all-remote meetings](/company/culture/all-remote/meetings/), including starting and ending on time - or earlier.
+
+### Group Conversation
+
+[Group Conversations](/handbook/group-conversations/) take the information from the Key Review (plus any additional topics) and shared with all of GitLab. All Team Members are invited to participate in Group Conversations by adding questions and comments in the Group Conversation Agenda.
+
+Coordination of Infrastructure Group Conversation materials and facilitation of the discussion is a rotating role among the managers within the department.
+
+Group Conversation DRI [Schedule](/handbook/group-conversations/#current-schedule).
+
+### Week-in-review
+
+By the end of the week, we populate the **Engineering Week-in-Review document** with relevant updates from our department. The agenda is internal only, please search in Google Drive for 'Engineering Week-in-Review'.
+Every Monday a reminder is sent to all of engineering in the [#eng-week-in-review](https://gitlab.slack.com/messages/CJWA4E9UG) slack channel to read summarize updates in the google doc.
+
+### Engineering-wide retrospective
+
+The Test Platform sub-department holds an asynchronous retrospective for each release.
+The process is automated and notes are captured [here](https://gitlab.com/gl-retrospectives/quality/) (GITLAB ONLY).
 
 ## How we Work
 
@@ -207,6 +234,24 @@ Section-level members of the quad are QEMs, Directors of Development, Directors 
 This is where building as part of GitLab is not immediately viable. An issue will be created to document the decision making process in our [team task](https://gitlab.com/gitlab-org/quality/team-tasks) issue tracker.
 This shall follow our [dogfooding](/handbook/engineering#dogfooding) process.
 
+## Test Platform sub-department on-call process
+
+The Test Platform sub-department has two on-call rotations: pipeline triage (SET-led) and incident management (QEM-led). These are scheduled in advance to share the responsibilities of debugging pipeline failures and representing Quality in incident responses.
+
+### Pipeline triage
+
+Every member in the Test Platform sub-department shares the responsibility of analyzing the daily QA tests against `master` and `staging` branches.
+More details can be seen [here](/handbook/engineering/infrastructure/test-platform/oncall-rotation)
+
+### Incident management
+
+Every manager and director in the Test Platform sub-department shares the responsibility of monitoring new and existing incidents
+and responding or mitigating as appropriate. Incidents may require review of test coverage, test planning, or updated
+procedures, as examples of follow-up work which should be tracked by the DRI.
+More details can be seen [here](/handbook/engineering/infrastructure/test-platform/oncall-rotation).
+
+**Please note**: Any manager or director within Test Platform sub-department can step in to help in an urgent situation if the primary DRI is not available. Don't hesitate to reach out in the Slack channel `#test-platform`.
+
 ## Processes
 
 ### General tips and tricks
@@ -214,12 +259,6 @@ This shall follow our [dogfooding](/handbook/engineering#dogfooding) process.
 We have compiled a number of tips and tricks we have found useful in day-to-day Test Platform related tasks.
 
 For more information, please visit our [tips and tricks page](tips-and-tricks).
-
-### On-call rotations
-
-The Test Platform Sub-Department has two on-call rotations: pipeline triage (SET-led) and incident management (QEM-led). These are scheduled in advance to share the responsibilities of debugging pipeline failures and representing Quality in incident responses.
-
-For more information, please visit our [on-call rotation page](oncall-rotation).
 
 ### Quad planning
 

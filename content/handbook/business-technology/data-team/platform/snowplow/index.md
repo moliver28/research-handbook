@@ -343,3 +343,7 @@ Backfills are done via Airflow. The [`dbt_snowplow_backfill` DAG](https://gitlab
 #### Do Not Track
 
 Our snowplow tracking configuration and particular implementations respect the [Do Not Track (DNT) headers](https://en.wikipedia.org/wiki/Do_Not_Track) whenever it's present on a user's browser.
+
+#### Duo data redaction
+
+We only keep Duo free form feedback for 60 days in snowflake. This is managed by the [duo_data_redaction DAG](https://gitlab.com/gitlab-data/analytics/-/blob/master/dags/general/duo_data_redaction.py), which runs daily, removing contents of the `extendedFeedback` attribute in the `contexts` column for all feedback response Snowplow events in `RAW` and `PREP`. This timeline allows for our full-refresh process to complete, updating all downstream data, within 90 days for compliance.  

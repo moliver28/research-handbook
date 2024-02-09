@@ -12,7 +12,7 @@ GitLab's open source program is part of the [Developer Relations team](/handbook
 
 ## How to reach us
 
-* DRI: [@bbehr](https://gitlab.com/bbehr)
+* DRI: [Alex Karsten](https://gitlab.com/akarsten1)
 * Slack channel: `#community-programs`
 * Email: `opensource@gitlab.com`
 

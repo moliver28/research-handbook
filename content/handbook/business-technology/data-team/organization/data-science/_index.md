@@ -150,8 +150,8 @@ Maturity of data science projects is similar to the [GitLab product maturity mod
    - [Exec Summary](https://docs.google.com/presentation/d/1Aaf2HzFYrYDPgrZKDHxS9gzep4LHGMlwF5SxYs-her0/edit#slide=id.gf528ae95ed_0_0)
    - [Sales GTM](https://docs.google.com/presentation/d/1F_XSJrhemIbaffhvwx0byQ1mUvdo4X1ZcGsBa7VgVnU/edit#slide=id.g123a13deda8_0_405)
 - Dashboards (internal only):
-   - [PtE Inspector](https://app.periscopedata.com/app/gitlab:safe-dashboard/951374/PtE-Inspector)
-   - [PtE Results Dashboard](https://app.periscopedata.com/app/gitlab:safe-dashboard/1054667/PtE-Performance-Results)
+   - [PtE Inspector](https://10az.online.tableau.com/#/site/gitlab/workbooks/2344783)
+   - [PtE Results Dashboard](https://10az.online.tableau.com/#/site/gitlab/workbooks/2146809)
 - Data sources: Product usage: SaaS & Self-Managed - paid tiers; Product stage usage: SaaS & Self-Managed - paid tiers; Salesforce (account, opportunities, events, tasks); Zuora (billing); Bizible (marketing); Firmographics; ZenDesk (help tickets); prior expansion type (product change, seat licenses), amount, and time lapse; account health scores
    - Future sources: Buyer personas attached to opportunities
 
@@ -174,9 +174,9 @@ Maturity of data science projects is similar to the [GitLab product maturity mod
    - [Sales Leadership Readout - PtC for Sep 2022 - Mar 2023](https://docs.google.com/presentation/d/1waIKnjnL6lA1UKH-Fc2BYdOw6gtjiBKkmlyl6F8YFEw/edit#slide=id.g218452df868_0_1099)
    - [Churn Forecasting - July 2023](https://docs.google.com/presentation/d/1hiukpYHzopsTWH0CWnS_2uah9G2TLq_JOMojQz4mZao/edit#slide=id.g25880664535_2_278)
 - Dashboards (internal only):
-   - [PtC Inspector](https://app.periscopedata.com/app/gitlab:safe-dashboard/971581/PtC-Inspector)
-   - [PtC Results Dashboard](https://app.periscopedata.com/app/gitlab:safe-dashboard/1055609/PtC-Performance-Results)
-   - [Health of Ultimate Accounts Dashboard](https://app.periscopedata.com/app/gitlab:safe-dashboard/1098020/Health-of-Ultimate-Accounts)
+   - [PtC Inspector](https://10az.online.tableau.com/t/gitlab/views/PtCInspector/About)
+   - [PtC Results Dashboard](https://10az.online.tableau.com/#/site/gitlab/workbooks/2163169)
+   - [Health of Ultimate Accounts Dashboard](https://10az.online.tableau.com/#/site/gitlab/workbooks/2272458)
 - Data sources:  Product usage: SaaS & Self-Managed - paid tiers; Product stage usage: SaaS & Self-Managed - paid tiers; Salesforce (account, opportunities, events, tasks); Zuora (billing); Bizible (marketing); ZenDesk (help tickets); Firmographics, account health fields; security score
    - Future sources: # of answered emails, ratio sent/answered emails, sales activity (Gainsight)
 
@@ -190,8 +190,6 @@ Maturity of data science projects is similar to the [GitLab product maturity mod
 - Read-outs (internal only):
    - [SaaS Trials Model Readout](https://docs.google.com/presentation/d/1EyS9Wq6F0qlQwt5sj7x8VnSSGD1vIy3AcSpMGddZdbk/edit?usp=sharing)
    - [SaaS Free Namespaces Readout](https://docs.google.com/presentation/d/1UNfthItOOfT3L4v5PkZh4z4hVPKdCcn8aQg_raVflxg/edit#slide=id.g12e25a29994_0_0)
-- Dashboards (internal only):  
-   - [SaaS Trials Results Dashboard](https://app.periscopedata.com/app/gitlab:safe-dashboard/1056823/PtPT-Performance-Results)
 - Data sources: Product usage: SaaS Only - free tiers; Product stage usage and adoption: SaaS Only - Free Tiers; Registration; Namespace metadata; User-level
    - Future sources: Self-managed usage data
 
@@ -204,8 +202,12 @@ Maturity of data science projects is similar to the [GitLab product maturity mod
 - Repositories (internal only): [Namespace Segmentation](https://gitlab.com/gitlab-data/data-science-projects/namespace-segmentation)
 - Read-outs (internal only):  
    - [Namespace Segmentation Deck](https://docs.google.com/presentation/d/1Pmm0g1mUquBR6P_aguGkOiGBVqO1ZtDzIyRrbR-r9jA/edit#slide=id.g29a70c6c35_0_68)
-- Dashboards (internal only):
-   - [Namespace Segmentation Dashboard](https://app.periscopedata.com/app/gitlab:safe-dashboard/1081864/Namespace-Segmentation-(Paid-only))
+- Data sources: Product usage: SaaS & Self Managed - free and paid tiers; Product stage usage: SaaS & Self Managed - free and paid tiers; Salesforce (account); Zuora (billing); Bizible (marketing)
+   - Future sources: # of consecutive days of product/stage usage
+
+### Project Structure
+
+The Data Science Team follows [Cross-Industry standard process for data mining (CRISP-DM)](https://en.wikipedia.org/wiki/Cross-industry_standard_process_for_data_mining)
 - Data sources: Product usage: SaaS & Self Managed - free and paid tiers; Product stage usage: SaaS & Self Managed - free and paid tiers; Salesforce (account); Zuora (billing); Bizible (marketing)
    - Future sources: # of consecutive days of product/stage usage
 
@@ -266,7 +268,7 @@ graph
     C(GitLab CI/CD & Pipeline Schedules: Batch scoring with Papermill)
     F[Enterprise Data Warehouse: Model Output for Consumption]
     D[Salesforce/Marketo: CRM Use Cases]
-    E[Sisense/Monte Carlo: Model Monitoring and Reporting]
+    E[Tableau/Monte Carlo: Model Monitoring and Reporting]
     G[GitLab: Source Code Management]
     H[Experiment tracking]
     A --> |ODBC| B

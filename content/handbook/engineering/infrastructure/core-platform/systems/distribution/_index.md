@@ -116,7 +116,7 @@ The following people are members of the Distribution:Deploy Team:
 
 ### Stable counterparts
 
-The following members of other functional teams are our [stable counterparts](/handbook/company/team/structure/#stage-groups):
+The following members of other functional teams are our [stable counterparts](/handbook/company/structure/#stage-groups):
 
 {{< stable-counterparts manager-role="Backend Engineering Manager, Distribution" role="Core Platform:Distribution" >}}
 
@@ -221,7 +221,7 @@ graph TD
 
 
 | Name | Location | Description |
-| -------- | -------- |
+| -------- | -------- | -------- |
 | Omnibus GitLab | [gitlab-org/omnibus-gitlab](https://gitlab.com/gitlab-org/omnibus-gitlab) | Build Omnibus packages with HA support for LTS versions of all major Linux operating systems such as Ubuntu, Debian, CentOS/RHEL, OpenSUSE, SLES |
 | Docker All in one GitLab image | [gitlab-org/omnibus-gitlab/docker](https://gitlab.com/gitlab-org/omnibus-gitlab/tree/master/docker) | Build Docker images for GitLab CE/EE based on the omnibus-gitlab package |
 | GitLab Helm Chart | [gitlab-org/charts/gitlab](https://gitlab.com/gitlab-org/charts/gitlab) | Cloud Native GitLab Helm Charts |
@@ -340,7 +340,7 @@ The following important areas of the GitLab Handbook impact how we work and are 
 * [Distribution workflow page](workflow.html)
 * [General engineering workflow page](/handbook/engineering/workflow/)
 * [How to reinforce our values](/handbook/values/#how-do-we-reinforce-our-values)
-* [Continue to serve smaller users](/handbook/leadership/mitigating-concerns/#serve-smaller-users)
+* [Continue to serve smaller users](https://internal-handbook.gitlab.io/handbook/leadership/mitigating-concerns#serve-smaller-users) (internal only)
 * [Promises to our Open Source community](/handbook/company/stewardship/#promises)
 * [How to follow our Product Principles](/handbook/product/product-principles/#how-we-follow-our-principles)
 * [Principles of our company strategy](/handbook/company/strategy/#principles)

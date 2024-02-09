@@ -94,6 +94,7 @@ Community platforms:
 
 Content:
 
+- [<i class="far fa-folder-open"></i> Content Effectiveness Strategy](/handbook/marketing/developer-relations/content-effectiveness/)
 - [<i class="far fa-edit"></i> Community newsletter](/handbook/marketing/developer-relations/developer-evangelism/community-newsletter/)
 - [<i class="far fa-edit"></i> Content Review / Fix Fridays](/handbook/marketing/developer-relations/workflows-tools/content-review/)
 - [<i class="fas fa-chart-line"></i> UTM Tracking Strategy](/handbook/marketing/developer-relations/utm-strategy/)

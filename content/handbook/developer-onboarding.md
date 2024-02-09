@@ -106,9 +106,8 @@ volunteer contributors.
 
 GitLab EE requires a license key to be used.
 
-Team members should [open an issue](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=GitLab_Team_Member_License_request)
-using the `GitLab_Team_Member_License_request` template. In the issue, request for a license that is valid for a year, and provide "Developer on-boarding"
-as the reason for a longer expiration.
+Team members should file a submission via the [Support Super Form](https://support-super-form-gitlab-com-support-support-op-651f22e90ce6d7.gitlab.io/) by selecting
+"Request a team member license" from the drop down options.
 
 Wider community members should contact the [Contributor Success Team](/handbook/marketing/developer-relations/contributor-success/community-contributors-workflows#contributing-to-the-gitlab-enterprise-edition-ee).
 

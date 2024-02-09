@@ -4,18 +4,11 @@ title: "Wayne Haber's README"
 job: "Engineering Director"
 ---
 
-#
-
-
-
-
-
 # Priorities
 
 I’m the director of development for these stages:
 * [Secure](/handbook/engineering/development/sec/secure/)
 * [Govern](/handbook/engineering/development/sec/govern/)
-* [Growth](/handbook/engineering/development/growth/)
 
 In addition to leading development for these development sub-departments, I also focus on:
 
@@ -28,8 +21,8 @@ In addition to leading development for these development sub-departments, I also
 # Prioritization and results philosphy
 
 * Teams determine high confidence due dates on the highest priority items.
-* Teams do a [blameless RCA](/handbook/customer-success/professional-services-engineering/workflows/internal/root-cause-analysis/) if those due dates are significantly missed. 
-* Teams say no to or deprioritize lower priority things in order to deliver [results](/handbook/values/#efficiency) on the highest priority items.  
+* Teams do a [blameless RCA](/handbook/customer-success/professional-services-engineering/workflows/internal/root-cause-analysis/) if those due dates are significantly missed.
+* Teams say no to or deprioritize lower priority things in order to deliver [results](/handbook/values/#efficiency) on the highest priority items.
 * Teams depend on their [stable counterparts](https://about.gitlab.com/blog/2018/10/16/an-ode-to-stable-counterparts/) in product management, quality, and design to help with deciding on priorities and then achieving them
 * Teams publish weekly updates on the highest priority items to keep the focus on them and to keep them on track
 
@@ -100,13 +93,13 @@ Corresponding handbook pages:
 * [Secure](/handbook/engineering/development/sec/secure/#cross-functional-backlog)
 * [Govern](/handbook/engineering/development/sec/govern/#cross-functional-backlog)
 * [Data Science](/handbook/engineering/development/data-science/#dashboards)
-* [Growth](/handbook/engineering/development/growth/#cross-functional-backlog)
+* [Growth](/handbook/marketing/growth/engineering/#cross-functional-backlog)
 
 # What I am working on improving
 
 Please be an [accountability partner](https://web.archive.org/web/20221209205931/https://medium.com/@MaryLouWrites/accountability-partners-what-are-they-and-how-do-i-get-some-c5ebd1a828ef) for me on the following items:
 
-* When I make requests or ask questions, confirm I always include the why, the priority, and the expected time frames 
+* When I make requests or ask questions, confirm I always include the why, the priority, and the expected time frames
 * In meetings, don't talk for more than 60 seconds without pausing for questions.
 * In meetings, reduce filler words like "so" and "uh"
 * Use my [standing desk](https://www.webmd.com/fitness-exercise/standing-desks-help-beat-inactivity) at least one hour a day.

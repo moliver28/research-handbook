@@ -490,14 +490,16 @@ Make sure the appropriate labels (such as `customer`) are applied so every issue
 
 ## Product Development Timeline
 
-[![](gitlab-release-timelines.png)](https://gitlab.com/gitlab-org/gitlab-foss/-/snippets/1731455)
+[![](/handbook/engineering/workflow/gitlab-release-timelines.png)](https://gitlab.com/gitlab-org/gitlab/-/snippets/3670861)
 
 Teams (Product, UX, Development, Quality) continually work on issues according to their respective workflows.
 There is no specified process whereby a particular person should be working on a set of issues in a given time period.
 However, there are specific deadlines that should inform team workflows and prioritization.
 
-The [release date](/handbook/engineering/releases/) is always the third Thursday of the release month, and the code cut-off is always the Friday of the previous week.
-The next milestone begins the Saturday after code cut-off.
+With the monthly [release date](/handbook/engineering/releases/) being the third Thursday of the release month, the **code cut-off** is the Friday prior.
+
+The **next milestone begins** the Saturday after code cut-off.
+
 All other important dates for a milestone are relative to the release date:
 
 - **Monday, 19 days before the milestone begins**:
@@ -538,12 +540,8 @@ All other important dates for a milestone are relative to the release date:
 - **Friday immediately after release day**:
   - The patch release process for the milestone starts. This includes regular and security patch releases.
   - All of the milestone's unfinished issues and merge requests are automatically moved to the next milestone, with the exception of `~security` issues.
-- **The first Monday after the release date**:
-  - Moderator opens the [Retrospective planning and execution issue](#retrospective).
-- **From the first Monday after the release day to the Wednesday of the next week (~9 days)**:
-  - Assignees of [Group Retrospective issues](#retrospective) summarize the discussion, ensure corrective actions are taken and a DRI is assigned to each. Actions related to participation in [section-based Retrospective Summaries](#retrospective-summary-experiment-in-fy22-q4) are taken.
 - **On or around the Wednesday immediately following the release day**:
-  - [Product plans](/handbook/product/product-processes/#managing-your-product-direction) are to update to reflecting previous and current releases, including category epics and direction pages.
+  - [Product plans](/handbook/product/product-processes/#managing-your-product-direction) are updated to reflect previous and current releases, including category epics and direction pages.
 - **On or around the second Monday following the release day**:
   - Non-critical security patches are [released](https://about.gitlab.com/handbook/engineering/releases/security-releases/).
 
@@ -556,165 +554,7 @@ See [auto deploy transition](https://gitlab.com/gitlab-org/release/docs/blob/21c
 
 At the beginning of each release, we have a kickoff meeting, publicly livestreamed to YouTube. In the call, the Product Development team (PMs, Product Designers, and Engineers) communicate with the rest of the organization which issues are in scope for the upcoming release. The call is structured by [product area](/handbook/product/categories/#devops-stages) with each PM leading their part of the call.
 
-The notes are available in a publicly-accessible [Google doc](https://docs.google.com/document/d/1ElPkZ90A8ey_iOkTvUs_ByMlwKK6NAB2VOK5835wYK0/edit?usp=sharing). Refer to the doc for details on viewing the livestream.
-
-## Retrospective
-
-The purpose of our retrospective is to help each Product Group, and the entire [R&D cost center](/handbook/finance/financial-planning-and-analysis/#by-cost-center---where-departments-report) at GitLab learn and improve as much as possible from every monthly release.
-
-Each retrospective consist of three parts:
-
-- [Group Retrospectives](/handbook/engineering/management/group-retrospectives/): retrospectives held by individual [Product Groups](/handbook/company/team/structure/#product-groups)
-- [Retrospective Summary](/handbook/engineering/workflow/#retrospective-summary): a short pre-recorded video which summarizes the learnings across all group retrospectives
-- [Retrospective Discussion](/handbook/engineering/workflow/#retrospective-discussion): a 25 minute live discussion diving into retrospective discussion topics
-
-**Timeline**
-
-- **Wednesday, 11 days after the milestone begins**: GitLab Bot opens [Group Retrospective](/handbook/engineering/management/group-retrospectives/) issue for the current milestone.
-- **Wednesday, the day before the release date**: Group Retrospectives should be held.
-- **The first Monday after the release date**: Moderator opens the Retrospective planning and execution issue and communicates a reminder in R&D quad slack channels.
-- **From the first Monday after the release day to the Wednesday of the next week (~9 days)**: Participants complete the Retrospective planning and execution issue, add their notes to the [retro doc](https://docs.google.com/document/d/1nEkM_7Dj4bT21GJy0Ut3By76FZqCfLBmFQNVThmW2TY/edit#), and suggest and vote on discussion topics.
-- **Thursday, 14 days after the release date**: Moderator records the Retrospective Summary video and announces the video and discussion topics.
-- **Monday, 18 days after the release date**: Retrospective Discussion is held.
-   - OR, the 2nd working day after if this is a holiday.
-
-**Moderator**
-
-The moderator of each retrospective is responsible for:
-
-- Coordinating the Retrospective planning and execution issue.
-- Presenting the Retrospective Summary.
-- Hosting the Retrospective Discussion.
-
-The job of a moderator is to remain objective and is focused on guiding conversations forward. The moderator for each retrospective is assigned by the VP Development in each milestone.
-
-**Retrospective planning and execution issue**
-
-For each monthly release, a Retrospective planning and execution issue ([example](https://gitlab.com/gitlab-com/www-gitlab-com/-/issues/8418)) is opened by the moderator to help us coordinate this work.
-
-Create the Retrospective planning and execution issue by selecting the 'product-development-retro' issue template in the ['www-gitlab-com' project](https://gitlab.com/gitlab-com/www-gitlab-com/-/issues/new#).
-
-Title the issue *<MILESTONE VERSION #> Team Retrospectives*.
-
-Set the due date to 2 days before the Retrospective Discussion to encourage team members to contribute prior to recording of the Retrospective Summary video.
-
-**Retro doc**
-
-The [retro doc](https://docs.google.com/document/d/1nEkM_7Dj4bT21GJy0Ut3By76FZqCfLBmFQNVThmW2TY/edit) is a Google Doc we use to collaborate on for our Retrospective Summary and Retrospective Discussion.
-
-### Group Retrospectives
-
-At the end of every release, each team should host their own retrospective. For details on how this is done, see [Group Retrospectives](/handbook/engineering/management/group-retrospectives/).
-
-### Retrospective Summary
-
-Note - we are currently conducting an experiment with [section-based Retrospective Summaries](#retrospective-summary-experiment-in-fy22-q4). During such time we will not be conducting an R&D-wide Retrospective Summary.
-
-The Retrospective Summary is a short pre-recorded video which summarizes the learnings across all [Group Retrospectives](/handbook/engineering/management/group-retrospectives/) ([example video](https://www.youtube.com/watch?v=XdENBhVOSiw&feature=youtu.be), [example presentation](https://docs.google.com/presentation/d/1kH9TwUAXbslM1cac938hS4Y-3mEBojQlwHw_Mm44kDE/edit?usp=sharing)).
-
-Once all Group Retrospectives are completed, each team inputs their learnings into a single publicly-accessible [retro doc](https://docs.google.com/document/d/1ElPkZ90A8ey_iOkTvUs_ByMlwKK6NAB2VOK5835wYK0/edit?usp=sharing). The  moderator then pre-records a video of the highlights. This video is then announced in the Retrospective planning and execution issue along with the #whats-happening-at-gitlab slack channel. In line with our value of [transparency](/handbook/values/#transparency), we also post this video to our public [GitLab Unfiltered channel](https://www.youtube.com/c/GitLabUnfiltered/videos).
-
-**Steps for participants**
-1. Please host your Group Retrospective following the guidelines outlined in the [handbook](/handbook/engineering/management/group-retrospectives/).
-1. After the Group Retrospective is complete, please choose a subset some of your most interesting learnings to share company-wide in the [retro doc](https://docs.google.com/document/d/1nEkM_7Dj4bT21GJy0Ut3By76FZqCfLBmFQNVThmW2TY/edit).  Please try to group by these by our [CREDIT values](/handbook/values/).
-1. In the retro doc, if there is a learning that you would like to explicitly highlight, please add the text **highlight** at the beginning of the text. The moderator will highlight this along with other learnings listed in the retro doc when they create the pre-recorded video.
-1. If there are improvement tasks for your team from the previous retrospective, please provide an update on them in the retro doc. They will be verbalized during the Retrospective Discussion.
-1. If there are improvement tasks for your team in the current retrospective, please add them in the [retro doc](https://docs.google.com/document/d/1nEkM_7Dj4bT21GJy0Ut3By76FZqCfLBmFQNVThmW2TY/edit). They will be verbalized during the Retrospective Discussion.
-1. Add a checkbox in the table of the Retrospective planning and execution issue when your Group Retrospective is complete and when the retro doc is updated.
-
-**Steps for the moderator**
-1. Please read through the Group Retrospective learnings in the [retro doc](https://docs.google.com/document/d/1nEkM_7Dj4bT21GJy0Ut3By76FZqCfLBmFQNVThmW2TY/edit).
-1. Add the learnings into a slide deck and identify the highlights you would like to cover.
-1. Record a video presentation summarizing the highlights.
-1. Upload this video to our public [GitLab Unfiltered channel](https://www.youtube.com/c/GitLabUnfiltered/videos).
-1. Announce the video and discussion topics in Retrospective planning and execution issue, the #whats-happening-at-gitlab slack channel, and the retro doc.
-
-### Retrospective Discussion
-
-The Retrospective Discussion is a 25 minute live discussion among participants where we deep dive into discussion topics from our Group Retrospectives ([example](https://www.youtube.com/watch?v=WP9E7RbNSPw)). In line with our value of [transparency](/handbook/values/#transparency), we livestream this meeting to YouTube and monitor chat for questions from viewers. Please check the [retro doc](https://docs.google.com/document/d/1nEkM_7Dj4bT21GJy0Ut3By76FZqCfLBmFQNVThmW2TY/edit?usp=sharing) for details on joining the livestream.
-
-**Discussion Topics**
-
-For each retrospective discussion, we aim to host an interactive discussion covering two discussion topics. We limit this to two topics due to the length of the meeting.
-
-The discussion topics stem from our Group Retrospective learnings and should be applicable to the majority of participants.
-
-Discussion topics are suggested by participants by commenting on the Retrospective planning and execution issue. Participants can vote on these topics by adding a :thumbsup: reaction. The two topics with the most :thumbsup: votes will be used as the discussion topics. If there are not enough votes or if the discussion topics are not relevant to the majority of participants, the moderator can choose other discussion topics.
-
-**Meeting Agenda**
-
-- Improvement tasks from the previous release (5 minutes)
-- Discussion topics (14 minutes, 2 topics at 7 minutes each)
-- Improvement tasks from the current release (5 minutes)
-- Wrap up (1 minute)
-
-**Steps for participants**
-
-1. Suggest discussion topics by commenting on to the Retrospective planning and execution issue.
-1. Vote on discussion topics by adding a :thumbsup: reaction. Voting closes on the **Wednesday, 13 days after the release date**.
-1. Once discussion topics are announced on the **Thursday, 14 days after the release date**, begin adding your comments to the [retro doc](https://docs.google.com/document/d/1nEkM_7Dj4bT21GJy0Ut3By76FZqCfLBmFQNVThmW2TY/edit).
-1. During the Retrospective Discussion, be prepared to verbalize any improvement tasks or commentary on the discussion topics. If you can't make the meeting and there is an item for you to verbalize, please ask someone else on your team to attend to do so.
-
-**Steps for the moderator**
-
-1. In the Retrospective planning and execution issue, create a thread asking participants to suggest and vote on topics.
-1. Voting ends at the close of business on the **Wednesday, 13 days after the release date**. Take note of which discussion topics have the most votes at this time. If there are not enough votes or if you deem the discussion topics as not relevant to the majority of participants, please choose other discussion topics.
-1. Announce the discussion topics alongside of the Retrospective Summary video in the Retrospective planning and execution issue, the #whats-happening-at-gitlab slack channel, and the [retro doc](https://docs.google.com/document/d/1nEkM_7Dj4bT21GJy0Ut3By76FZqCfLBmFQNVThmW2TY/edit)
-1. Ensure the Retrospective Discussion calendar invite is sent to participants by coordinating with the VP Development.
-1. Host the Retrospective Discussion and press livestream to YouTube.
-1. After the Retrospective Discussion, close the Retrospective planning and execution issue.
-
-### Utilizing Internal Notes in Retrospective Issues
-
-Monthly retrospectives are usually performed in a confidential issue made public upon close. Content of these issues while public aligns with [GitLab SAFE Framework](/handbook/legal/safe-framework/).
-
-Where unSAFE information must be discussed in a retrospective, [Internal Notes](https://docs.gitlab.com/ee/user/discussions/#add-an-internal-note) should be utilized in order to adhere to SAFE Guidelines. Internal notes remain confidential to participants of the retrospective even after the issue is made public, including Guest users of the parent group.
-
-Examples of information that should remain Confidential per SAFE guidelines are any company confidential information that is not public, or any data that reveals information not generally known or not available externally which may be considered sensitive information. Specific examples of information that should be carefully submitted to the retrospective include impact on revenue, information relating to the security of the platform, or specific customer data.
-
-### Triaging retrospective improvements
-
-At the end of each retrospective the [Engineering Productivity team](/handbook/engineering/quality/#engineering-productivity-structure) is responsible for triaging improvement items identified from the retrospective.
-This is needed for a single owner to be aware of the bigger picture technical debt and backstage work. The actual work can be assigned out to other teams or engineers to execute.
-
-### Retrospective Summary Moderators for FY22
-
-The Moderator for the Retrospective Summary is chosen on a quarterly basis.  For FY22 we have selected 4 moderators from across Engineering and Product.  The moderators are:
-
-- Q1: [Sam Goldstein](/handbook/company/team/#sgoldstein)
-- Q2: [Tanya Pazitny](/handbook/company/team/#tpazitny)
-- Q3: [Kenny Johnston](/handbook/company/team/#kencjohnston)
-- Q4: [Section Based Retro Experiment](/handbook/engineering/workflow/#retrospective-summary-experiment-in-fy22-q4)
-
-## Retrospective Summary Experiment in FY22 Q4
-
-During FY22 Q4 (the 14.4, 14.5, 14.6 Retrospectives) we will conduct an experiment where we perform retrospective summaries at the Section level instead of an R&D-wide retrospective summary. Section level leaders in Product and Development are the DRIs for retrofitting the current retrospective summary process for their section and documenting their process for doing so.
-
-### Experiment Hypothesis
-
-As GitLab has grown, there have become too many layers between a group retrospective and the company-wide retrospective. Performing retrospective summaries at the Section level will increase our rate of learning and encourage broader collaboration between stable counterparts across the R&D organization.
-
-### Experiment Success Measurements
-
-We'll consider this experiment a success if:
-- All team member cumulative engagement, as measured by issue and agenda doc comments, in all section Retrospective Summary discussions is higher than the current baseline (14.1,14.2,14.3)
-- Stable counterpart engagement, as measured by issue and agenda doc comments, in section Retrospective Summary discussions include team members from an average of more than 4 functions (Security, UX, Quality)
-- The effort to prepare and perform a retrospective summary is deemed by DRIs to be < 4 hours per month
-
-### Experiment Section DRIs
-
-While leaders are available in the [categories page](/handbook/product/categories/) (and subject to change) - we explicitly call out the DRIs for each section in this experiment.
-
-- Dev - Tim Zallman and David Desanto
-- Sec - Todd Stadelhofer and Hillary Benson
-- Ops - Sam Goldstein and Kenny Johnston
-- Enablement - Chun Du and Josh Lambert
-- Growth - Wayne Haber and Hila Qu
-- Fulfillment - Wayne Haber and Justin Farris
-- AI Assisted and Anti-Abuse - Wayne Haber and Taylor McCaslin
-
-### Conducting a Section Retrospective
-Discretion is provided to Section leaders on how to conduct a section retrospective discussion. A good starting point would be to follow the current [handbook](#retrospective-summary) and [issue template](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/.gitlab/issue_templates/product-development-retro.md) recommendations for our R&D wide retrospective. Consider creating section versions of the [issue template](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/.gitlab/issue_templates/product-development-retro.md) and [discussion doc](https://docs.google.com/document/d/1ElPkZ90A8ey_iOkTvUs_ByMlwKK6NAB2VOK5835wYK0/edit?usp=sharing).
+The [Product Kickoff page](https://about.gitlab.com/direction/kickoff/) is updated each month, which follows the content on the livestream.
 
 ## Milestone Cleanup
 
@@ -753,10 +593,9 @@ These actions will be applied to open issues:
 
 Milestones are closed when the Delivery team no longer needs to create a backport release for a specific milestone.
 
-## Kickoff and Retrospective Public Stream Instructions
+## Kickoff Public Stream Instructions
 
-Both the monthly kickoff and retrospective meetings are publicly streamed to the [GitLab Unfiltered YouTube Channel](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A?view_as=subscriber). The [EBA](/job-families/people-group/executive-business-administrator/) for Engineering is the [moderator](/handbook/group-conversations/#moderator) and responsible for initiating the Public Stream or designating another moderator if EBA is unable to attend.
-
+The monthly kickoff meeting is publicly streamed to the [GitLab Unfiltered YouTube Channel](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A?view_as=subscriber). The [EBA](/job-families/people-group/executive-business-administrator/) for Engineering is the [moderator](/handbook/group-conversations/#moderator) and responsible for initiating the Public Stream or designating another moderator if EBA is unable to attend.
 
 ## Use Group Labels and Group Milestones
 
@@ -770,9 +609,9 @@ To help with prioritization and decision-making process here, we recommend think
 
 > You wouldn't pay off your $50k student loan before first paying off your $5k credit card and it's because of the high interest rate. The best debt to pay off first is one that has the highest loan payment to recurring payment reduction ratio, i.e. the one that reduces your overall debt payments the most, and that is usually the loan with the highest interest rate.
 
-Technical debt is prioritized like [other technical decisions](/handbook/engineering/development/principles/#prioritizing-technical-decisions) in [product groups](/handbook/company/team/structure/#product-groups) by [product management](/handbook/product/product-processes/#how-we-prioritize-work).
+Technical debt is prioritized like [other technical decisions](/handbook/engineering/development/principles/#prioritizing-technical-decisions) in [product groups](/handbook/company/structure/#product-groups) by [product management](/handbook/product/product-processes/#how-we-prioritize-work).
 
-For technical debt which might span, or fall in gaps between groups they should be brought up for a [globally optimzed](/handbook/values/#global-optimization) prioritization in [retrospectives](/handbook/engineering/management/group-retrospectives/) or directly with the appropriate member of the [Product Leadership team](/handbook/product/product-leadership/). Additional avenues for addressing technical debt outside of product groups are [Rapid Action issues](/handbook/engineering/development/#rapid-action-issue) and [working groups](/handbook/company/team/structure/working-groups/).
+For technical debt which might span, or fall in gaps between groups they should be brought up for a [globally optimzed](/handbook/values/#global-optimization) prioritization in [retrospectives](/handbook/engineering/management/group-retrospectives/) or directly with the appropriate member of the [Product Leadership team](/handbook/product/product-leadership/). Additional avenues for addressing technical debt outside of product groups are [Rapid Action issues](/handbook/engineering/development/#rapid-action-issue) and [working groups](/handbook/company/working-groups/).
 
 ## UX debt
 
@@ -780,7 +619,7 @@ Sometimes there is an intentional decision to deviate from the agreed-upon [MVC]
 
 For the same reasons as technical debt, we don't want UX debt to grow faster than our code base.
 
-These issues are prioritized like [other technical decisions](/handbook/engineering/development/principles/#prioritizing-technical-decisions) in [product groups](/handbook/company/team/structure/#product-groups) by [product management](/handbook/product/product-processes/#how-we-prioritize-work). You can see the number of UX debt issues on the [UX Debt dashboard](https://app.periscopedata.com/app/gitlab/641753/UX-Debt).
+These issues are prioritized like [other technical decisions](/handbook/engineering/development/principles/#prioritizing-technical-decisions) in [product groups](/handbook/company/structure/#product-groups) by [product management](/handbook/product/product-processes/#how-we-prioritize-work). You can see the number of UX debt issues on the [UX Debt dashboard](https://app.periscopedata.com/app/gitlab/641753/UX-Debt).
 
 As with [technical debt](#technical-debt), UX debt should be brought up for [globally optimized](/handbook/values/#global-optimization) prioritization in [retrospectives](/handbook/engineering/management/group-retrospectives/) or directly with the appropriate member of the [Product Leadership team](/handbook/product/product-leadership/).
 
@@ -809,9 +648,9 @@ Open merge requests may also have other properties that indicate that the engine
 
 ## Security is everyone's responsibility
 
-[Security](/security/) is our top priority. Our Security Team is raising the bar on security every day to protect users' data and make GitLab a safe place for everyone to contribute. There are many lines of code, and Security Teams need to scale. That means shifting security left in the [Software Development LifeCycle (SDLC)](/stages-devops-lifecycle/). Each team has an [Application Security Stable Counterpart](/handbook/security/security-engineering/application-security/stable-counterparts.html) who can help you, and you can find more secure development help in the `#sec-appsec` Slack channel.
+[Security](/security/) is our top priority. Our Security Team is raising the bar on security every day to protect users' data and make GitLab a safe place for everyone to contribute. There are many lines of code, and Security Teams need to scale. That means shifting security left in the [Software Development LifeCycle (SDLC)](/stages-devops-lifecycle/). Each team has an [Application Security Stable Counterpart](/handbook/security/product-security/application-security/stable-counterparts.html) who can help you, and you can find more secure development help in the `#sec-appsec` Slack channel.
 
-Being able to start the security review process earlier in the software development lifecycle means we will catch vulnerabilities earlier, and mitigate identified vulnerabilities before the code is merged. You should know when and how to proactively [seek an Application Security Review](/handbook/security/security-engineering/application-security/appsec-reviews.html). You should also be familiar with our [Secure Coding Guidelines](https://docs.gitlab.com/ee/development/secure_coding_guidelines.html).
+Being able to start the security review process earlier in the software development lifecycle means we will catch vulnerabilities earlier, and mitigate identified vulnerabilities before the code is merged. You should know when and how to proactively [seek an Application Security Review](/handbook/security/product-security/application-security/appsec-reviews.html). You should also be familiar with our [Secure Coding Guidelines](https://docs.gitlab.com/ee/development/secure_coding_guidelines.html).
 
 We are fixing the obvious security issues before every merge, and therefore, scaling the security review process. Our workflow includes a check and validation by the reviewers of every merge request, thereby enabling developers to act on identified vulnerabilities before merging. As part of that process, developers are also encouraged to reach out to the Security Team to discuss the issue at that stage, rather than later on, when mitigating vulnerabilities becomes more expensive. After all, security is everyone's job. See also our [Security Paradigm](https://about.gitlab.com/direction/secure/#security-paradigm)
 

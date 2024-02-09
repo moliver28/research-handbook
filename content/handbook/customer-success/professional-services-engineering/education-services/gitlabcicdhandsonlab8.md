@@ -1,9 +1,7 @@
 ---
-title: "GitLab CI/CD - Hands-On Lab 8"
+title: "GitLab CI/CD - Hands-On Lab: Working with the GitLab Container Registry"
 description: "This Hands-On Guide walks you through the lab exercises in the GitLab CI/CD course."
 ---
-
-# Lab 8: GitLab Docker Registry
 
 > Estimate time to complete: 15 - 20 minutes
 

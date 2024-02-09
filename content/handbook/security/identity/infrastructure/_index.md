@@ -73,7 +73,7 @@ end
 
 ## Cloud Provider Organization Management
 
-The Identity Infrastructure team manages our top-level cloud provider infrastructure organization-level management for AWS and GCP in collaboration with the [Infrastructure Security](/handbook/security/security-engineering/infrastructure-security) team.
+The Identity Infrastructure team manages our top-level cloud provider infrastructure organization-level management for AWS and GCP in collaboration with the [Infrastructure Security](/handbook/security/product-security/infrastructure-security) team.
 
 Each team that deploys infrastructure resources is responsible for managing their own infrastructure workloads and DevOps operations using industry best practices. In other words, the Security team provides the scaffolding for your castle (Terraform templates) and provides hardened castle walls, while your team is responsible for anything you build inside the castle walls.
 
@@ -228,7 +228,7 @@ We use a shared responsibility model for cloud providers.
 - GCP Infrastructure (SaaS Production) Folder and Projects
 - Tech Debt Reduction of legacy GCP projects
 
-See the team's [handbook page](/handbook/security/security-engineering/infrastructure-security) to learn more.
+See the team's [handbook page](/handbook/security/product-security/infrastructure-security) to learn more.
 
 ### Infrastructure SaaS Platforms Team
 

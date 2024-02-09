@@ -24,7 +24,7 @@ The responsibilities include both directed work that will mostly be triggered by
 1. Create written material and presentations on behalf of the CEO.
 1. Suggest changes to processes via [the handbook](/handbook/handbook-usage/) based on discussions during meetings or from the CEO and address any comments on them. The [CEO shadows](/handbook/ceo/shadow/) will keep doing the majority of these.
 1. Ensure upcoming [E-Group Weekly](/handbook/e-group-weekly/) meetings are relevant, well structured, and that the preparation is complete and correct.
-1. Moderate the [e-group](/handbook/company/team/structure/#e-group) meetings.
+1. Moderate the [e-group](/handbook/company/structure/#e-group) meetings.
 1. Ensure action points coming out of meetings (i.e. executive, OKR, key, or incident meetings) are implemented.
 1. Reinforce [communication guidelines](/handbook/communication/).
 1. Help create [mecefu-terms](/handbook/communication/#mecefu-terms).
@@ -48,7 +48,7 @@ The responsibilities include both directed work that will mostly be triggered by
 
 ## Requirements
 
-1. Capacity to be a [senior leader](/handbook/company/team/structure/#senior-leaders) at GitLab.
+1. Capacity to be a [senior leader](/handbook/company/structure/#senior-leaders) at GitLab.
 1. Proven ability to quickly learn new things.
 1. Concise written and verbal communication.
 1. Ability to work during Pacific Time (PT) friendly hours.

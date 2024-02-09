@@ -11,7 +11,7 @@ To identify contributions from JiHu, the `~"JiHu contribution"` label is automat
 
 JiHu enablement efficiency age and review metrics are publicly accessible in this [dashboard](https://app.periscopedata.com/shared/f7af38e3-0cea-4219-a5d3-6f6b25f10244?).
 
-The [Engineering Productivity](/handbook/engineering/quality/engineering-productivity/) team is the DRI for JiHu Engineering enablement efficiency tooling and metrics.
+The [Engineering Productivity](/handbook/engineering/infrastructure/engineering-productivity/) team is the DRI for JiHu Engineering enablement efficiency tooling and metrics.
 
 ### Guidelines for upstream contributions
 

@@ -259,7 +259,7 @@ GitLab’s [Corporate Governance Guidelines, Codes, Policies, and other governan
 The Board’s responsibilities include:
 
 - [Risk oversight](https://www.sec.gov/ix?doc=/Archives/edgar/data/0001653482/000162828023018206/gtlb-20230515.htm)
-- Monitoring the performance of the Chief Executive Officer (CEO) and other [Executive](/handbook/company/team/structure/#executives) leaders
+- Monitoring the performance of the Chief Executive Officer (CEO) and other [Executive](/handbook/company/structure/#executives) leaders
 - Giving feedback on the [mission](/handbook/company/mission/#mission), [values](/handbook/company/mission/#values), and [strategy](/handbook/company/mission/#goals)
 - Evaluating if adequate resources are available to achieve our goals and that those resources are used effectively
 - Advocating for GitLab externally

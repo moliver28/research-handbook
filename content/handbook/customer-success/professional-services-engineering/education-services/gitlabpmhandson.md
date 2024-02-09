@@ -1,5 +1,5 @@
 ---
-title: "GitLab Project Management - Hands-On Lab"
+title: "GitLab Project Management - Hands-On Lab Overview"
 description: "This Hands-On Guide walks you through the lab exercises used in the GitLab Project Management course."
 ---
 

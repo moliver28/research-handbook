@@ -1,152 +1,60 @@
 ---
-title: "Engineering Metrics"
+title: "Engineering Dashboarding and Metrics"
 ---
 
-## Centralized Engineering Metrics
+## Engineering Analytics Dashboard Inventory
 
-Our centralized engineering dashboards provide a set of common metrics that capture the overall health of the entire R&D Product/Engineering structure, with drill downs into every stage and group.
+Several dashboards have been published to the Engineering project in the Tableau environment. Below is a brief overview of some of the dashboards created and where you can find them.
 
-This work is the product of the team working in our unified [engineering metrics task process](/handbook/engineering/quality#engineering-metrics-task-process).
-The inception of this initiative can be see in this [epic](https://gitlab.com/groups/gitlab-org/-/epics/3580).
+### Centralized Engineering Metrics
 
-### Engineering Metrics Dashboards
+Please refer to our Centralized Engineering Metrics page [here](https://handbook.gitlab.com/handbook/engineering/metrics/dashboards/). 
 
-The links below take you to a handbook dashboard page which covers metrics from the Development, Infrastructure, Quality, UX, and Security Departments.
+### Tableau Dashboards
 
-- [Dev Section Dashboards](/handbook/engineering/metrics/dev/)
-  - [Create Stage Dashboards](/handbook/engineering/metrics/dev/create)
-    - [Source Code Group Dashboards](/handbook/engineering/metrics/dev/create/source-code)
-    - [Code Review Group Dashboards](/handbook/engineering/metrics/dev/create/code-review)
-    - [IDE Group Dashboards](/handbook/engineering/metrics/dev/create/ide)
-  - [Plan Stage Dashboards](/handbook/engineering/metrics/dev/plan)
-    - [Knowledge Group Dashboards](/handbook/engineering/metrics/dev/plan/knowledge)
-    - [Project Management Group Dashboards](/handbook/engineering/metrics/dev/plan/project-management)
-    - [Product Planning Group Dashboards](/handbook/engineering/metrics/dev/plan/product-planning)
-    - [Optimize Group Dashboards](/handbook/engineering/metrics/dev/plan/optimize)
-  - [Manage Stage Dashboards](/handbook/engineering/metrics/dev/manage)
-    - [Foundations Group Dashboards](/handbook/engineering/metrics/dev/manage/foundations)
-    - [Import and Integrate Group Dashboards](/handbook/engineering/metrics/dev/manage/import-and-integrate)
-- [Ops Section Dashboards](/handbook/engineering/metrics/ops/)
-  - [Verify Stage Dashboards](/handbook/engineering/metrics/ops/verify)
-    - [Pipeline Execution Group Dashboards](/handbook/engineering/metrics/ops/verify/pipeline-execution)
-    - [Pipeline Authoring Group Dashboards](/handbook/engineering/metrics/ops/verify/pipeline-authoring)
-    - [Runner Group Dashboards](/handbook/engineering/metrics/ops/verify/runner)
-    - [Pipeline Security Group Dashboards](/handbook/engineering/metrics/ops/verify/pipeline-security)
-    - [Runner SaaS Dashboards](/handbook/engineering/metrics/ops/verify/runner-saas)
-  - [Package Stage Dashboards](/handbook/engineering/metrics/ops/package)
-    - [Package Registry Group Dashboards](/handbook/engineering/metrics/ops/package/package-registry)
-    - [Container Registry Dashboards](/handbook/engineering/metrics/ops/package/container-registry)
-  - [Configure Stage Dashboards](/handbook/engineering/metrics/ops/configure)
-  - [Monitor Stage Dashboards](/handbook/engineering/metrics/ops/monitor)
-    - [Respond Stage Dashboards](/handbook/engineering/metrics/ops/monitor/respond)
-    - [Observability Stage Dashboards](/handbook/engineering/metrics/ops/monitor/observability)
-  - [Release Stage Dashboards](/handbook/engineering/metrics/ops/release)
-- [Sec Section Dashboards](/handbook/engineering/metrics/sec/)
-  - [Secure Stage Dashboards](/handbook/engineering/metrics/sec/secure/)
-    - [Static Analysis Group Dashboards](/handbook/engineering/metrics/sec/secure/static-analysis)
-    - [Dynamic Analysis Group Dashboards](/handbook/engineering/metrics/sec/secure/dynamic-analysis)
-    - [Composition Analysis Group Dashboards](/handbook/engineering/metrics/sec/secure/composition-analysis)
-    - [Vulnerability Research Group Dashboards](/handbook/engineering/metrics/sec/secure/vulnerability-research)
-  - [Govern Stage Dashboards](/handbook/engineering/metrics/sec/govern/)
-    - [Anti-Abuse Group Dashboards](/handbook/engineering/metrics/sec/govern/anti-abuse)
-    - [Authentication Group Dashboards](/handbook/engineering/metrics/sec/govern/authentication)
-    - [Authorization Group Dashboards](/handbook/engineering/metrics/sec/govern/authorization)
-    - [Compliance Group Dashboards](/handbook/engineering/metrics/sec/govern/compliance)
-    - [Security Policies Group Dashboards](/handbook/engineering/metrics/sec/govern/security-policies)
-    - [Threat Insights Group Dashboards](/handbook/engineering/metrics/sec/govern/threat-insights)
-- [Analytics Section Dashboards](/handbook/engineering/metrics/analytics/analytics)
-  - [Analytics Stage Dashboards](/handbook/engineering/metrics/analytics/analytics)
-    - [Analytics Instrumentation Group Dashboards](/handbook/engineering/metrics/analytics/analytics/analytics-instrumentation)
-    - [Product Analytics Group Dashboards](/handbook/engineering/metrics/analytics/analytics/product-analytics)
-- [Growth Section Dashboards](/handbook/engineering/metrics/growth)
-  - [Acquisition Group Dashboards](/handbook/engineering/metrics/growth/acquisition)
-  - [Activation Group Dashboards](/handbook/engineering/metrics/growth/activation)
-- [Fulfillment Section Dashboards](/handbook/engineering/metrics/fulfillment/)
-  - [Purchase Group Dashboards](/handbook/engineering/metrics/fulfillment/purchase)
-  - [Provision Group Dashboards](/handbook/engineering/metrics/fulfillment/provision)
-  - [Utilization Group Dashboards](/handbook/engineering/metrics/fulfillment/utilization)
-  - [Fulfillment Platform Group Dashboards](/handbook/engineering/metrics/fulfillment/fulfillment-platform)
-  - [Billing and Subscription Management Group Dashboards](/handbook/engineering/metrics/fulfillment/billing-and-subscription-management)
-  - [Commerce Integrations Group Dashboards](/handbook/engineering/metrics/fulfillment/commerce-integrations)
-  - [Fulfillment Admin Tooling Group Dashboards](/handbook/engineering/metrics/fulfillment/fulfillment-admin-tooling)
-- [Enablement Section Dashboards](/handbook/engineering/metrics/enablement/)
-  - [Systems Stage Dashboards](/handbook/engineering/metrics/enablement/systems)
-    - [Distribution Group Dashboards](/handbook/engineering/metrics/enablement/systems/distribution)
-    - [Geo Group Dashboards](/handbook/engineering/metrics/enablement/systems/geo)
-    - [Gitaly Group Dashboards](/handbook/engineering/metrics/enablement/systems/gitaly)
-  - [Data Stores Stage Dashboards](/handbook/engineering/metrics/enablement/data-stores)
-    - [Application Performance Group Dashboards](/handbook/engineering/metrics/enablement/data-stores/application-performance)
-    - [Global Search Group Dashboards](/handbook/engineering/metrics/enablement/data-stores/global-search)
-    - [Database Group Dashboards](/handbook/engineering/metrics/enablement/data-stores/database)
-    - [Tenant Scale Group Dashboards](/handbook/engineering/metrics/enablement/data-stores/tenant-scale)
-- [Data Science Section Dashboards](/handbook/engineering/metrics/data-science/)
-  - [ModelOps Stage Dashboards](/handbook/engineering/metrics/data-science/modelops/)
-    - [AI Assisted Group Dashboards](/handbook/engineering/metrics/data-science/modelops/ai-assisted)
-    - [MLOps Group Dashboards](/handbook/engineering/metrics/data-science/modelops/mlops)
-    - [DataOps Group Dashboards](/handbook/engineering/metrics/data-science/modelops/dataops)
+You can find published dashboards in [Ad-hoc/Development/General](https://10az.online.tableau.com/#/site/gitlab/projects/367746). These dashboards are safe for general use by the Tableau User population here at GitLab.
 
-These handbook dashboard pages are populated from the following filterable Sisense dashboards.
+### Dashboarding Guidelines
 
-- [Top Engineering Metrics Dashboard](https://app.periscopedata.com/app/gitlab/1000952/Top-Engineering-Metrics-Dashboard)
-- [MR Types Dashboard](https://app.periscopedata.com/app/gitlab/976854/Merge-Request-Types-Detail)
-- [Development Embedded Dashboard](https://app.periscopedata.com/app/gitlab/681347/Development-Embedded-Dashboard)
-- [Quality Embedded Dashboard](https://app.periscopedata.com/app/gitlab/736012/Quality-Embedded-Dashboard)
-- [Infrastructure Embedded Dashboard](https://app.periscopedata.com/app/gitlab/798401/Infrastructure-Embedded-Dashboard)
-- [UX Embedded Dashboard](https://app.periscopedata.com/app/gitlab/736036/UX-Embedded-Dashboard)
-- [Security Embedded Dashboard](https://app.periscopedata.com/app/gitlab/758795/Appsec-Embedded-Dashboard)
+*  Each KPI chart is a timeseries chart.
+    - The `URL` property is only used to link to a chart until it is an embedded Sisense chart.
+    - Use HTML hyperlinks `<a>` in description text if we need to link out to a supporting artifact e.g. Epics or Issues.
+    - Use Purple bars to denote values.
+    - Use a Red stepped-line for timeseries target.
+    - Directional targets will be used:
+      - `Above ...`
+      - `Below ...`
+      - `At ...`
+      - `At or above ...`
+      - `At or below ...`
+    - Optional: Use a Black line for rolling average.
+    - Optional: Use a Gray line for supporting indicator in the background.
+*  For bar charts, the current month should be Green and subsequent months Purple. Highlighting the current month in a different color helps to indicate that data for the current month is not complete.
+    - This can be quickly implemented via a `case` `when` clause in Sisense. Example below:
+    - `CASE WHEN date_month < date_trunc('month',current_date) THEN MEDIAN(open_age_in_days) ELSE NULL END AS "Historical Median Open Days",`
+    - `CASE WHEN date_month = date_trunc('month',current_date) THEN MEDIAN(open_age_in_days) ELSE NULL END AS "Current Median Open Days",`
+* List a DRI for the KPI/PI if the metric is being delegated by the VP of that Engineering department.
+*  Each dashboard for KPIs should consider the following settings to ensure timely updates:
+    - [Setting up auto-refresh](/handbook/business-technology/data-team/platform/periscope/#sts=Requesting%20Automatic%20Dashboard%20Refresh) for a frequency that fits the KPI
+    - [Excluding Dashboards from Auto Archive](https://dtdocs.sisense.com/article/auto-archive)
+*  Each KPI should have a standalone dashboard with a single chart representing the KPI and a text box with a link back to the handbook definition.
+    - In Sisense, [create a shared dashboard link](https://dtdocs.sisense.com/article/share-dashboards) to get the shared dashboard ID.
+    - In Sisense, [use the Share Link action of the chart](https://dtdocs.sisense.com/article/chart-options#ShareLink) to get the chart (widget_id) and the dashboard ID.
+    - Add the `shared_dashboard`, `chart` , and the `dashboard` key-value pairs to the [corresponding Performance Indicators data file](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/performance_indicators/) under the `sisense_data` property
+    - Note: When we move to Tableau, we will have updated guidelines on where to create new charts
+*  Multi-series performance indicators should consider the following guidelines:
+    * If series are mutually exclusive, use stacked bars for each series with a monthly time series
+    * If series are not mutually exclusive, use grouped bars for each series with a monthly time series
+    * Do not graph any targets in the chart.
+    * Current month styling guidelines will not apply
+* Tableau has the functionability to create target lines with shaded areas above or below the target line. For charts with a designated target, please create a reference line.
+*  Avoid `:` in strings as it's an important character in YAML and will confuse the data parsing process. Put the string in "quotes" if you really need to use a `:`
 
-#### How to navigate Engineering Metrics Dashboards
-To navigate to section metrics, click on the `___ Section Dashboards` link above. To navigate to stage metrics, click on the `___ Stage Dashboards` link above or redirect from the section dashboards pages. To navigate to group metrics, find the stage that contains the group and click on the corresponding `___ Stage Dashboards` link above.
+## Metric definitions
 
-Group metrics can be queried using labels. For example, the `~"group::authentication"` label is used to query MRs or issues belonging to the Authentication. If a group is missing from the filter dropdown in the embedded dashboards above, check if it’s included in this [spreadsheet](https://docs.google.com/spreadsheets/d/1_IFiLaHK9BfpaomwFU864OQWjVgXR3jokwOKIuhXLd8/edit#gid=0). If it’s missing, add a new row with the corresponding stage and section. This spreadsheet flows to our data warehouse once a day so you may not see updates in Sisense until the next day. In order to display this new group in the handbook dashboard pages, please reach out to a member of the [Engineering Analytics Team](/handbook/engineering/quality/engineering-analytics/#how-to-engage-with-us) to get this added to the handbook dashboard page filters.
+Taken from https://handbook.gitlab.com/handbook/engineering/metrics/#metrics-list
 
-### Metrics list
-
-The Engineering Metrics listed here are available for all product group teams. The indicators captured here may or may not roll into an existing KPI/PI.
-The Engineering Analytics team reserves the urgency for these dashboards to provide timely visibility without the requirement of having all indicators be a KPI/PI at the department level.
-
-#### Development indicators
-
-- MRs vs Issues
-- [MR Rate](/handbook/engineering/development/performance-indicators/#mr-rate)
-- [Open MR Review Time (OMRT)](/handbook/engineering/development/performance-indicators/#open-mr-review-time-omrt)
-- MRs by team members vs Community
-- [Merged Product MRs by Type](/handbook/engineering/development/performance-indicators/#overall-mrs-by-type)
-- Feature flags older than 2 months
-- [Past Due Security Issues](/handbook/engineering/development/performance-indicators/#past-due-security-issues)
-
-#### Infrastructure indicators
-
-- S1 Open InfraDev Age
-- S2 Open InfraDev Age
-- InfraDev past SLO
-- [Corrective Actions past SLO](/handbook/engineering/infrastructure/performance-indicators/#corrective-action-slo)
-- Open S1/S2 InfraDev Issues
-
-#### Quality indicators
-
-- [S1 Open Bug Age (OBA)](/handbook/engineering/quality/performance-indicators/#s1-oba)
-- [S2 Open Bug Age (OBA)](/handbook/engineering/quality/performance-indicators/#s2-oba)
-
-#### UX indicators
-
-- [Open UX Debt Age](/handbook/product/ux/performance-indicators/#open-ux-debt-age)
-- [Issues with Actionable Insights](/handbook/product/ux/performance-indicators/#actionable-insights)
-- Total open SUS-impacting issues by severity
-- SUS-impact issues opened/closed
-
-#### Security indicators
-
-- [Average Age of currently open bug vulnerabilities](/handbook/security/performance-indicators/#average-age-of-open-vulnerabilities-by-severity)
-
-### Helpful pointers
-
-- Review the chart regularly and take notes of your group, stage or section's trends.
-- Take note of anything that might be impacting the team's capacity such as holidays or increased PTO.
-- Take note of your team's focus on community contribution as an example. If the team is able to consistently merge MRs in this categories, celebrate it.
-- If you see a large amount `undefined`, spend some time to review your team's issues and MRs and add labels so we can get a more accurate classification.
-
-## Merge Request Rate
+### Merge Request Rate
 
 Merge Request (MR) Rate is a measure of productivity and efficiency. The numerator is a collection of merge requests to a set of projects.  The denominator is a collection of people based on the `job title specialty` field in Workday. Both are tracked over time (usually monthly). The [stages.yml file](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/stages.yml) is the SSOT for group names. We rely on a mapping between the group name in this file to the job title specialty field in Workday. A mismatch between the two would cause team members or MRs not to be counted.
 
@@ -156,14 +64,12 @@ You can use [this MR Rate troubleshooting dashboard](https://app.periscopedata.c
 
 To update the job title speciality field, please refer to [the guidelines](/handbook/people-group/promotions-transfers/#for-people-connect-processing-job-information-change-requests).
 
-### Examples
+#### Examples
 
 - Team "Apples" consists of 5 members as defined in the `job title specialty` field in Workday. In the past month, there were 20 merged MRs with the `group::Apples` label. Team A's MR Rate for that month would be: (20 / 5) = 4.
 - Team "Oranges" consists of 8 members as defined in the `job title specialty` field in Workday. In the past month, there were 20 merged MRs with the `group::Orange` label. Since the `job title specialty` does not match the group label (an extra `s` in the `job title specialty` field), we are unable to map the MRs back to the respective groups. We recommend either 1) updating the group label and [stages.yml file](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/stages.yml) or 2) updating the Workday value.
 
-### MR Rate Data
-
-Group MR Rate can be found on [this dashboard](https://app.periscopedata.com/app/gitlab/681347/Development-Embedded-Dashboard?widget=9159032&udv=1043280) and filtered by group. It can also be queried by department or group using the following SQL:
+Group MR Rate can be found [here](https://10az.online.tableau.com/#/site/gitlab/views/DevelopmentEmbeddedDashboard_17017859046500/DevelopmentEmbeddedDashboard) and filtered by group. It can also be queried by department or group using the following SQL:
 
 ```sql
 SELECT merge_month
@@ -176,30 +82,7 @@ AND granularity_level = 'group'
 ORDER BY 1
 ```
 
-## Tableau Migration
-
-Please see our team’s [FY24 Q2 OKR - Begin migration from Sisense to Tableau for Engineering](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/2732) for a general overview of the Tableau migration.
-
-In FY24 Q2, we plan to migrate ~20 following dashboards, starting with:
-
-- Top Engineering Metrics dashboard: [Sisense](https://app.periscopedata.com/app/gitlab/1000952) [Tableau](https://10az.online.tableau.com/t/gitlab/views/TopEngineeringMetrics_16873826376700/TopEngineeringMetricsDashboard?:origin=card_share_link&:embed=n)
-- Quality Department KPIs: [Sisense](https://app.periscopedata.com/app/gitlab/516343)
-- Development KPIs: [Sisense](https://app.periscopedata.com/app/gitlab/504639)
-
-[Analysis of Sisense dashboards owned by Engineering](https://app.periscopedata.com/app/gitlab/1142390/WIP:-cdeleon---Engineering-owned-dashboards-and-owners)
-
-[Google sheet to check off which dashboards need to be ported over, deprecated, or re-designed](https://docs.google.com/spreadsheets/d/1ZpfHJ5CpRlxjmW2aHYzjbRC5pxyQ2NYQWTPle9spYPY/edit#gid=0)
-
-This effort includes:
-
-- migration or deprecation of existing Engineering dashboards/charts
-- migration of charts embedded in our public handbook
-- any data engineering work that is required as we move from Sisense to Tableau (e.g., snippets in Sisense to become data models in Snowflake that can be explored/used in Tableau)
-- updating of documentation related to Engineering metrics
-
-Note: These dashboards in particular will not be re-designed, and thus porting should be relatively straightforward; i.e., the overall dashboards and their charts will look and act very similarly to how they are displayed and how they behave in Sisense today.
-
-## Work Type Classification
+### Work Type Classification
 
 We use the following type labels to classify our Issues and Merge Requests.
 
@@ -326,47 +209,10 @@ The guidelines for inclusion in the `is_part_of_product` lists are:
 Follow these steps to request a new project to be tracked:
 
 1. Create a merge request to the GitLab.com or ops.gitlab.net project list from above.
-1. Assign the merge request to the [Engineering Productivity team](/handbook/engineering/quality/engineering-productivity/#team-members) Engineering Manager.
+1. Assign the merge request to the [Engineering Productivity team](/handbook/engineering/infrastructure/engineering-productivity/#team-members) Engineering Manager.
 1. The Manager of the Engineering Productivity team will work with the [Engineering Analytics Team](/handbook/engineering/quality/engineering-analytics/#counterpart-assignments) to determine the changes to MR Rate metrics and provide validation for the projects. For self-service, team members can validate changes to the MR Rate using [this dashboard](https://app.periscopedata.com/app/gitlab/794887/Scratch-Engineering-Metrics:-MR-Rates-for-Proposals).
-1. The [VP of Development](https://gitlab.com/clefelhocz1) is the DRI to approve and merge the list of projects.
+1. The [Director of Engineering Productivity](@dcroft) is the DRI to approve and merge the list of projects.
 
 There is no need to remove archived projects from the `is_part_of_product` list. Removal of projects will remove historical merge requests from metrics and reduce Merge Request rates.
 
-Please reach out to a member of the [Engineering Productivity team](/handbook/engineering/quality/engineering-productivity/) if more assistance is needed
-
-
-## Guidelines
-
-*  Each KPI chart is a timeseries chart.
-    - The `URL` property is only used to link to a chart until it is an embedded Sisense chart.
-    - Use HTML hyperlinks `<a>` in description text if we need to link out to a supporting artifact e.g. Epics or Issues.
-    - Use Purple bars to denote values.
-    - Use a Red stepped-line for timeseries target.
-    - Directional targets will be used:
-      - `Above ...`
-      - `Below ...`
-      - `At ...`
-      - `At or above ...`
-      - `At or below ...`
-    - Optional: Use a Black line for rolling average.
-    - Optional: Use a Gray line for supporting indicator in the background.
-*  For bar charts, the current month should be Green and subsequent months Purple. Highlighting the current month in a different color helps to indicate that data for the current month is not complete.
-    - This can be quickly implemented via a `case` `when` clause in Sisense. Example below:
-    - `CASE WHEN date_month < date_trunc('month',current_date) THEN MEDIAN(open_age_in_days) ELSE NULL END AS "Historical Median Open Days",`
-    - `CASE WHEN date_month = date_trunc('month',current_date) THEN MEDIAN(open_age_in_days) ELSE NULL END AS "Current Median Open Days",`
-* List a DRI for the KPI/PI if the metric is being delegated by the VP of that Engineering department.
-*  Each dashboard for KPIs should consider the following settings to ensure timely updates:
-    - [Setting up auto-refresh](/handbook/business-technology/data-team/platform/periscope/#sts=Requesting%20Automatic%20Dashboard%20Refresh) for a frequency that fits the KPI
-    - [Excluding Dashboards from Auto Archive](https://dtdocs.sisense.com/article/auto-archive)
-*  Each KPI should have a standalone dashboard with a single chart representing the KPI and a text box with a link back to the handbook definition.
-    - In Sisense, [create a shared dashboard link](https://dtdocs.sisense.com/article/share-dashboards) to get the shared dashboard ID.
-    - In Sisense, [use the Share Link action of the chart](https://dtdocs.sisense.com/article/chart-options#ShareLink) to get the chart (widget_id) and the dashboard ID.
-    - Add the `shared_dashboard`, `chart` , and the `dashboard` key-value pairs to the [corresponding Performance Indicators data file](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/performance_indicators/) under the `sisense_data` property
-    - Note: When we move to Tableau, we will have updated guidelines on where to create new charts
-*  Multi-series performance indicators should consider the following guidelines:
-    * If series are mutually exclusive, use stacked bars for each series with a monthly time series
-    * If series are not mutually exclusive, use grouped bars for each series with a monthly time series
-    * Do not graph any targets in the chart.
-    * Current month styling guidelines will not apply
-* Tableau has the functionability to create target lines with shaded areas above or below the target line. For charts with a designated target, please create a reference line.
-*  Avoid `:` in strings as it's an important character in YAML and will confuse the data parsing process. Put the string in "quotes" if you really need to use a `:`
+Please reach out to a member of the [Engineering Productivity team](/handbook/engineering/infrastructure/engineering-productivity/) if more assistance is needed

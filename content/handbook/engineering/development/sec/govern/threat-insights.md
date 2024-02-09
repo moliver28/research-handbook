@@ -47,6 +47,11 @@ Additional information can be found on the [Planning page](/handbook/engineering
 - All issues scheduled for the milestone should have the `~Deliverable` label as well as `Health Status: On Track` at the beginning of the milestone.
 - The planning issue is created in this [epic](https://gitlab.com/groups/gitlab-org/-/epics/9951) for 16.0-16.11.
 
+### Tracking Deliverables 
+- Issues that are marked as Deliverables for a milestone serve as the single source of truth for what we aimed to deliver for a given milestone. Throughout the milestone, things may change, become blocked, etc. _Ideally, we'd like to keep the Planning Issue unchanged after the milestone starts._
+- Something is considered delivered if it is either a. merged into production in time for the release date, b. completed before the next milestone start, or c. the feature flag enabling the feature is turned on.  It is important to keep track of the milestone of the deliverable; we encourage self-managed customers to turn on feature flags so they can try different features. Ensuring the milestone is correct, allows someone to tell if that change is available in a specific release.
+
+
 ### MR Reviews
 
 We follow these guidelines when submitting MRs for review when the change is within the Threat Insights domain:

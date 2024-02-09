@@ -51,12 +51,12 @@ Iterate on the product development flow to shift away from a "step by step" and 
 To propose an idea or solution that addresses one of the [defined problems](https://gitlab.com/groups/gitlab-com/-/epics/938#problems-to-solve) - follow the below steps to ensure effective asynchronous collaboration:
 1. Create an issue to address your proposal and add it to [Product Development Flow as a Framework epic](https://gitlab.com/groups/gitlab-com/-/epics/938)
 1. We use [this issue board](https://gitlab.com/gitlab-com/www-gitlab-com/-/boards/2012861?label_name[]=wg-product-development-flow) as a single source of truth. Issues should be moved through the board from left to right
-1. Assign newly created issues to [the Facilitator](/handbook/company/team/structure/working-groups/product-development-flow/#roles-and-responsibilities) who is currently @fseifoddini for prioritization
+1. Assign newly created issues to [the Facilitator](/handbook/company/working-groups/product-development-flow/#roles-and-responsibilities) who is currently @fseifoddini for prioritization
 
 **MR review process**
 
-- Contributors will generate MRs and tag the Contributor group '@wg-contributors-pd-flow' for feedback first. [The Facilitator](/handbook/company/team/structure/working-groups/product-development-flow/#roles-and-responsibilities) and Contributors will then review and align if the MR is merge-able (non-controversial) or if it needs more feedback before the merge
-- Next, [the Facilitator](/handbook/company/team/structure/working-groups/product-development-flow/#roles-and-responsibilities) or the MR author will tag in specific people and/or tag in the whole Reviewer group (which includes Executive Sponsors) '@wg-reviewers-pd-flow' for feedback before the merge
+- Contributors will generate MRs and tag the Contributor group '@wg-contributors-pd-flow' for feedback first. [The Facilitator](/handbook/company/working-groups/product-development-flow/#roles-and-responsibilities) and Contributors will then review and align if the MR is merge-able (non-controversial) or if it needs more feedback before the merge
+- Next, [the Facilitator](/handbook/company/working-groups/product-development-flow/#roles-and-responsibilities) or the MR author will tag in specific people and/or tag in the whole Reviewer group (which includes Executive Sponsors) '@wg-reviewers-pd-flow' for feedback before the merge
    - If unique action is needed from any individual, especially Executive Sponsors, they will be directly pinged. Otherwise, getting pinged as a Reviewer is a standard review/feedback before the merge cycle.
 - Our goal is to minimize noise for Reviewers (inclusive of Executive Sponsors) and focus feedback efforts to move forward efficiently. If you want to follow every issue/MR, you're welcome to do so via our [WG board](https://gitlab.com/gitlab-com/www-gitlab-com/-/boards/2012861?label_name[]=wg-product-development-flow)
 

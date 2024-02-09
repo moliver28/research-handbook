@@ -875,7 +875,8 @@ To help move sales through the sales process, [here](https://docs.google.com/doc
 - What to Complete in This Stage:
     - For BDR/SDR sourced opportunities, the opportunity meets [Sales Accepted Opportunity criteria](/handbook/sales/field-operations/gtm-resources/#opportunities).
     - The BDR/SDR has scheduled a call via Google Calendar, sent invites, created an event on the account object, named the event: GitLab Introductory Meeting - {{Account Name}}
-    - Once it is confirmed that the opportunity meets our Sales Accepted Opportunity criteria, the SAE or AE should move the opportunity to the next stage and the `Amount` field must be populated with estimated pipeline. The date the opportunity moves from this to the next stage in the sales cycle will populate the `Sales Accepted Date` field on the opportunity record.
+    - The opportunity will populate the Stage 1 XDR Net ARR field with an estimate of the Net ARR value of this opportunity based on a per-Geo/Segment/deal type average and median.
+    - Once it is confirmed that the opportunity meets our Sales Accepted Opportunity criteria, the SAE or AE should move the opportunity to the next stage and the `Amount` field must be populated with estimated pipeline. This will then populate the Stage 1 Net ARR field which will demonstrate Net ARR value of this opportunity as it crosses into Stage 1. The date the opportunity moves from this to the next stage in the sales cycle will populate the `Sales Accepted Date` field on the opportunity record.
     - If the details on the opportunity do not meet our Sales Accepted Opportunity criteria, the SAE or AE should move the opportunity to an `9-Unqualified` stage (this is the only time an opportunity can move into `9-Unqualified` stage)
     - All Opps that are sales assisted must first enter this stage before they can be moved further in the pipeline. If they do not enter this stage at some point you will encounter a validation rule error.
     - For renewal opportunities, `0-Pending Acceptance` is only to be used if the renewal is not being actively worked by the Account Executive/Strategic Account Executive.
@@ -898,6 +899,7 @@ To help move sales through the sales process, [here](https://docs.google.com/doc
     - Complete a Demo (Optional)
     - Schedule a Technical Evaluation Call
     - Confirm and collect new [MEDDPPICC](/handbook/sales/meddppicc/) information.
+    - Make adjustments to expected opp amount as this will impact the field Stage 3 Net ARR which popluates the Net ARR value of this opportunity as it crosses into Stage 3. 
 
 **3-Technical Evaluation**: Confirming technical requirements. A proof-of-concept (POC) might occur at this stage. This is also the stage to confirm information before a proposal is delivered.
 

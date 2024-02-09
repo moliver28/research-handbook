@@ -37,8 +37,6 @@ The development team is responsible for developing products in the following cat
 - [Sec](/handbook/engineering/development/sec/)
 - [Data Science](/handbook/engineering/development/data-science/)
 - [Fulfillment](/handbook/engineering/development/fulfillment/)
-- [Growth](/handbook/engineering/development/growth/)
-
 
 ## Team Members
 
@@ -160,7 +158,7 @@ At GitLab we value [freedom and responsibility over rigidity](/handbook/values/#
 
 Development's headcount planning follows the Engineering [headcount planning](/handbook/engineering/#headcount-planning) and [long term profitability targets](/handbook/engineering/#long-term-profitability-targets). Development headcount is a percentage of overall engineering headcount. For FY20, the headcount size is 271 or ~58% of overall engineering headcount.
 
-We follow normal span of control both for our managers and directors of [4 to 10](/handbook/company/team/structure/#management-group). Our sub-departments and teams match as closely as we can to the [Product Hierarchy](/handbook/product/categories/#hierarchy) to best map 1:1 to [Product Managers](/handbook/product/).
+We follow normal span of control both for our managers and directors of [4 to 10](/handbook/company/structure/#management-group). Our sub-departments and teams match as closely as we can to the [Product Hierarchy](/handbook/product/categories/#hierarchy) to best map 1:1 to [Product Managers](/handbook/product/).
 
 ### Development Staff Meeting
 
@@ -185,7 +183,7 @@ The following is a non exhaustive list of daily duties for engineering directors
 1. Review hiring dashboards
 1. Personal todo list
 1. Personal GitLab board(s) if any
-1. [Working groups](/handbook/company/team/structure/working-groups/) that the director drives or participates in
+1. [Working groups](/handbook/company/working-groups/) that the director drives or participates in
     1. Action items in agenda documents
     1. Issue boards
     1. Slack channel

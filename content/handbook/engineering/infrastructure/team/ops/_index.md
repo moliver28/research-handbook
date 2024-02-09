@@ -51,9 +51,9 @@ The General Team is responsible for ensuring the published Monthly Availability 
 1. [GitLab.com Availability](/handbook/engineering/infrastructure-quality/performance-indicators/#gitlabcom-availability) (Only last 3 months are required)
 
 Each of these items should be updated to reflect the most recent month.  ([Sample MR](https://gitlab.com/gitlab-com/www-gitlab-com/-/merge_requests/127806)).
- 
+
 Latest results are on the [GitLab.com General SLA Dashboard](https://dashboards.gitlab.net/d/general-slas/general-slas?orgId=1&from=now-1M%2FM&to=now-1M%2FM) (internal only)
- 
+
 {{% alert title="Note" color="primary" %}}
 Updates must be merged by the 7th day of each month.  This is currently a scheduled event on the Reliability General Team's Calendar.  Contact any member of the team for more details on this process.
 {{% /alert %}}
@@ -68,7 +68,7 @@ The General team coordinates the monthly process to identify incident and pager 
    - [Corrective Actions](/handbook/engineering/infrastructure/incident-management/#corrective-actions)
    - [Infradev Issues](/handbook/engineering/workflow/#infradev)
    - [Reliability Improvement Issues](https://gitlab.com/gitlab-com/gl-infra/reliability/-/issues/new)
-    
+
 These efforts are coordinated asynchronously via the [GitLab Incident and Pager Trends Monthly Review Agenda](https://docs.google.com/document/d/1SBoyuKK_g3RbYMcwJZs6dFqCGH9NCqu-M3QsHIwiKMw/edit#)
 
 The process is scheduled on the General Team Calendar to kick off on the first Tuesday of each month.
@@ -110,7 +110,7 @@ OKRs are updated every Wednesday as required by the [Reliability Process for OKR
 
 ## Team Members
 
-{{< team-by-manager-slug manager="gerir" role="Reliability:General" >}}
+{{< team-by-manager-slug manager="kkyrala" >}}
 
 ## Key Technical Skills
 

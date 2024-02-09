@@ -22,21 +22,21 @@ This chart reflects the available signatories for each of GitLab's entities. The
 
 | Entity | Signatory |
 |-------- | -----|
-| GitLab Inc | All Recruiting Leads (Jake Foster, Marissa Ferber, Ursela Knezevic), Jess Dallmar, Rob Allen, Other People Group Team Members who are employed by Inc. and of the appropriate grade to sign the document. JCLs can be signed by Morgan Wilkins  |
+| GitLab Inc | All Recruiting Leads (Jake Foster, Marissa Farris, Ursela Knezevic), Jess Dallmar, Rob Allen, Other People Group Team Members who are employed by Inc. and of the appropriate grade to sign the document. JCLs can be signed by Morgan Wilkins  |
 | GitLab Federal LLC    |       Bob Stevens     |
-| GitLab BV Belgium, Dutch & English | Rob Allen & Pattie Egan. Backups: Craig Mestel|
-| GitLab BV, Netherlands | Rob Allen & Pattie Egan. Backup: Craig Mestel|
-| GitLab GmbH | Rob Allen & Pattie Egan|
+| GitLab BV Belgium, Dutch & English | Marissa Farris, Pattie Egan. Backups: Craig Mestel|
+| GitLab BV, Netherlands | Marissa Farris & Pattie Egan. Backup: Craig Mestel|
+| GitLab GmbH | Marissa Farris, Rob Allen & Pattie Egan|
 | GitLab PTY Ltd, Australia | Jess Dallmar & Rob Allen. Backup: Craig Mestel|
 | GitLab PTY Ltd, New Zealand | Jess Dallman & Rob Allen. Backup: Craig Mestel|
 | GitLab Ireland LTD | Rob Allen & Pattie Egan. Backup: Craig Mestel|
-| GitLab UK Ltd | Rob Allen, Pattie Egan|
+| GitLab UK Ltd | Marissa Farris, Rob Allen, Pattie Egan|
 | GitLab Canada Corp | Craig Mestel, Simon Mundy |
 | GitLab GK, Japan | Jess Dallmar, Rob Allen. Backups: Simon Mundy, Craig Mestel |
-| GitLab IT BV | Rob Allen & Pattie Egan. Backup: Craig Mestel|
+| GitLab IT BV | Marissa Farris, Pattie Egan. Backup: Craig Mestel|
 | GitLab South Korea | Jess Dallmar & Rob Allen. Backup: Craig Mestel |
 | GitLab France S.A.S. | Rob Allen & Pattie Egan. Backup: Craig Mestel|
-| GitLab Singapore PTE. LTD. | Jess Dallmar & Rob Allen |
+| GitLab Singapore PTE. LTD. | Jess Dallmar & Rob Allen. Backup: Simon Mundy |
 | JCLs | Choose signatory from the list above. For the US, Morgan Wilkins can also sign. |
 | PEOs | The Candidate Experience Specialist processing the offer. For JCLs, choose Morgan Wilkins or Marissa Ferber |
 

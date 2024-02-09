@@ -106,26 +106,26 @@ important to those working within Zendesk:
 | `resold_status_reseller`                                   | The customer has stated they are a reseller                                               |
 | `resold_status_resold`                                     | The customer has stated they did buy via a reseller                                       |
 | `resold_status_unsure`                                     | The customer is unsure if they bought via a reseller or not                               |
-| `saas_account_2fa_issues_questions`                        | The SaaS Account ticket involves 2FA questions                                            |
-| `saas_account_2fa_issues_removal`                          | The SaaS Account ticket involves 2FA removal                                              |
-| `saas_account_2fa_issues_setup`                            | The SaaS Account ticket involves 2FA setup                                                |
-| `saas_account_access_issues_blocked`                       | The SaaS Account ticket involves getting account blocked errors                           |
-| `saas_account_access_issues_cannot_login`                  | The SaaS Account ticket involves not being able to login to gitlab.com                    |
-| `saas_account_access_issues_change_account`                | The SaaS Account ticket involves changing something on a gitlab.com account               |
-| `saas_account_access_issues_cloudflare`                    | The SaaS Account ticket involves CloudFlare issues                                        |
-| `saas_account_access_issues_ip_blocked`                    | The SaaS Account ticket involves the customer's IP being blocked                          |
-| `saas_account_access_issues_locked`                        | The SaaS Account ticket involves getting account locked errors                            |
-| `saas_account_access_issues_other`                         | The SaaS Account ticket involves something else about accessing gitlab.com                |
-| `saas_account_category_2fa_issues`                         | The SaaS Account ticket involves 2FA                                                      |
-| `saas_account_category_access_issues`                      | The SaaS Account ticket involves accessing gitlab.com                                     |
-| `saas_account_category_account_deletion`                   | The SaaS Account ticket involves account deletion                                         |
-| `saas_account_category_email_issues`                       | The SaaS Account ticket involves email issues                                             |
-| `saas_account_category_namesquatting`                      | The SaaS Account ticket involves namesquatting                                            |
-| `saas_account_category_other`                              | The SaaS Account ticket something else                                                    |
-| `saas_account_category_registration_issues`                | The SaaS Account ticket involves registering a gitlab.com account                         |
-| `saas_account_email_issues_confirmation`                   | The SaaS Account ticket involves confirmation emails                                      |
-| `saas_account_email_issues_notifications`                  | The SaaS Account ticket involves notification emails                                      |
-| `saas_account_email_issues_reset`                          | The SaaS Account ticket involves password reset emails                                    |
+| `saas_account_2fa_issues_questions`                        | The gitlab.com Account ticket involves 2FA questions                                      |
+| `saas_account_2fa_issues_removal`                          | The gitlab.com Account ticket involves 2FA removal                                        |
+| `saas_account_2fa_issues_setup`                            | The gitlab.com Account ticket involves 2FA setup                                          |
+| `saas_account_access_issues_blocked`                       | The gitlab.com Account ticket involves getting account blocked errors                     |
+| `saas_account_access_issues_cannot_login`                  | The gitlab.com Account ticket involves not being able to login to gitlab.com              |
+| `saas_account_access_issues_change_account`                | The gitlab.com Account ticket involves changing something on a gitlab.com account         |
+| `saas_account_access_issues_cloudflare`                    | The gitlab.com Account ticket involves CloudFlare issues                                  |
+| `saas_account_access_issues_ip_blocked`                    | The gitlab.com Account ticket involves the customer's IP being blocked                    |
+| `saas_account_access_issues_locked`                        | The gitlab.com Account ticket involves getting account locked errors                      |
+| `saas_account_access_issues_other`                         | The gitlab.com Account ticket involves something else about accessing gitlab.com          |
+| `saas_account_category_2fa_issues`                         | The gitlab.com Account ticket involves 2FA                                                |
+| `saas_account_category_access_issues`                      | The gitlab.com Account ticket involves accessing gitlab.com                               |
+| `saas_account_category_account_deletion`                   | The gitlab.com Account ticket involves account deletion                                   |
+| `saas_account_category_email_issues`                       | The gitlab.com Account ticket involves email issues                                       |
+| `saas_account_category_namesquatting`                      | The gitlab.com Account ticket involves namesquatting                                      |
+| `saas_account_category_other`                              | The gitlab.com Account ticket something else                                              |
+| `saas_account_category_registration_issues`                | The gitlab.com Account ticket involves registering a gitlab.com account                   |
+| `saas_account_email_issues_confirmation`                   | The gitlab.com Account ticket involves confirmation emails                                |
+| `saas_account_email_issues_notifications`                  | The gitlab.com Account ticket involves notification emails                                |
+| `saas_account_email_issues_reset`                          | The gitlab.com Account ticket involves password reset emails                              |
 | `support_administering_gitlab_admin_area`                  | The Support ticket involves the GitLab admin area                                         |
 | `support_administering_gitlab_admin_area_instance`         | The Support ticket                                                                        |
 | `support_administering_gitlab_admin_area_limits`           | The Support ticket account limits and settings in the GitLab admin area                   |
@@ -587,14 +587,14 @@ important to those working within Zendesk:
 |------------------------------------|---------------|
 | `lnr_internal_request`             | Indicates the ticket is a L&R internal request |
 | `lnr_valid_request`                | Indicates the L&R internal request was valid for submission |
-| `lnr_saas_subscription`            | Indicates the L&R internal request is about a SaaS subscription |
+| `lnr_saas_subscription`            | Indicates the L&R internal request is about a gitlab.com subscription |
 | `lnr_saas_sub_extension`           | Indicates the problem type is "Extend an (almost) expired subscription" |
 | `lnr_saas_sub_issue`               | Indicates the problem type is "Investigate incorrect subscription info" |
-| `lnr_saas_nfr`                     | Indicates the problem type is "SaaS NFR license request" |
+| `lnr_saas_nfr`                     | Indicates the problem type is "gitlab.com NFR license request" |
 | `lnr_billing_entity_change`        | Indicates the problem type is "Billing Entity change" |
-| `lnr_saas_trial`                   | Indicates the L&R internal request is about a SaaS trial |
-| `lnr_saas_trial_extension`         | Indicates the problem type is "Extend a SaaS trial" |
-| `lnr_saas_trial_edit`              | Indicates the problem type is "Change existing SaaS trial plan" |
+| `lnr_saas_trial`                   | Indicates the L&R internal request is about a gitlab.com trial |
+| `lnr_saas_trial_extension`         | Indicates the problem type is "Extend a gitlab.com trial" |
+| `lnr_saas_trial_edit`              | Indicates the problem type is "Change existing gitlab.com trial plan" |
 | `lnr_saas_trial_over_plan`         | Indicates the problem type is "Request an Ultimate trial for a customer using a Premium subscription" |
 | `lnr_sm_license`                   | Indicates the L&R internal request is about a self-managed license |
 | `lnr_sm_license_extension`         | Indicates the problem type is "Extend an (almost) expired subscription" |

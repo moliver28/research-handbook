@@ -46,8 +46,20 @@ The host of the webinar should download the recording from [Webinar Master Recor
 
 The host and Q&A panelist should start/join the webinar at least 10 minutes before the webinar start time so that they can test the video sharing and ensure everything is set for the webinar.  There is no need for the host to say any opening remarks prior to playing the video.  All housekeeping items are handled as part of the recording.
 
+For the webinars, we collect feedback from attendees through a Zoom Poll. 
+At the end of the webinar, the host should launch the poll for the attendees. The default poll is already configured and saved in Zoom. To access it, follow the steps below:
+
+1. In Zoom, while presenting the video, click on the **More** button in the bottom menu.
+2. Select **Polls**, then click on the **Feedback Poll**. 
+3. Check the questions and click on the **Launch** button to launch the poll for all attendees.
+
+![example-zoom-polls-webinars-cse](/handbook/customer-success/csm/segment/scale/zoom-polls-cse.gif)
+
+It is recommended to check before the webinar if the recorded video already mentions the poll. If yes, you should try to launch the poll at the same time it is mentioned in the recorded video.
+
 The Scale Program Manager will handle all pre- and post-webinar communication with the attendees.
 
+Here is a quick video guide on how to host the webinar, including steps for sharing the local webinar video file through zoom: [Quick Guide Video](https://drive.google.com/file/d/1kjntQ_ZzSDTmThP1XvYEARSCS4cjS6XM/view)
 
 #### Preparing for and Delivering a Hands-on Lab
 

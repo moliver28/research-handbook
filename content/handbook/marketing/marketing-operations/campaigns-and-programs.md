@@ -403,6 +403,7 @@ If this is to set up a program that involves a channel partner, you must also fo
    - Jenkins [YYYYMMDD_Workshop_Jenkins_EventType](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/ME8285A1) 
    - AI in DevSecOps: [YYYYMMDD_Workshop_AIDevSecOps_EventType](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/ME16197A1)
    - GitHub GitLab Migration: [YYYYMMDD_Workshop_GitHubGitLab_EventType](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/ME13738A1)
+   - GitLab Basics: [YYYYMMDD_Workshop_GitLabBasics_EventType](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/ME17530A1)
 
 ##### Other Tactic Marketo Templates
 - Conference - `Virtual`: [YYYYMMDD_YYYYMMDD_Vendor_VirtualConfName1 (Virtual Conference Template)](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/ME7624A1)

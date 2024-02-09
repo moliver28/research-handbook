@@ -63,8 +63,8 @@ to confirm the action. Click red `Delete` button to do so.
 
 #### Zendesk Global
 
-- [Support managed content project](https://gitlab.com/gitlab-com/support/zendesk-global/groups)
+- [Sync repo project](https://gitlab.com/gitlab-support-readiness/zendesk-global/groups)
 
 #### Zendesk US Government
 
-- [Support managed content project](https://gitlab.com/gitlab-com/support/zendesk-us-government/groups)
+- [Sync repo project](https://gitlab.com/gitlab-support-readiness/zendesk-us-government/groups)

@@ -99,7 +99,7 @@ In addition to the [status process from Dedicated team page](/handbook/engineeri
 
 1. **Exec Sponsor**: David DeSanto - Chief Product Officer
 1. **Initiative DRI**: Ryan Wedmore - Director, Strategy & Operations
-    - [Working Group DRI responsibilities](/handbook/company/team/structure/working-groups/#required-roles) and [Cross Functional Initiative DRI responsibilities](/handbook/company/top-cross-functional-initiatives/#cross-functional-initiative-dris)
+    - [Working Group DRI responsibilities](/handbook/company/working-groups/#required-roles) and [Cross Functional Initiative DRI responsibilities](/handbook/company/top-cross-functional-initiatives/#cross-functional-initiative-dris)
     - DRI for cross-functional initiative strategy, collaboration, and work streams
 1. **Engineering DRI**: Marin Jankovski - Director of Infrastructure, Platforms
     - Overall DRI for Engineering, Infrastructure, and Engineering Strategy

@@ -54,6 +54,7 @@ All meetings on Sid's calendar should be scheduled and vetted by the EBA to the 
 1. Meetings should be set up on Sid's Zoom account. Customer/Prospect meetings are an exception and Sid is happy to join on another platform of the customers choosing like WebEx or Google Meet.
     1. If Sid is invited to a meeting on WebEx add a reminder to his calendar 5 minutes before the meeting to `disable shush` in advance of the next meeting.
 1. The default Zoom meeting should have no waiting room.
+1. Zoom links are to be tested for validity daily for the following day's meetings.
 1. Office hours hosted by the CEO like Iteration Office Hours should be live streamed publicly by default and the live stream should be hosted by a member of the EBA team or a CEO Shadow.
 1. Sid will attend one of the Monthly Diversity, Inclusion and Belonging calls (typically scheduled at 8am or 4pm PT). Please accept one and decline the other.
 1. After an E-Group offsite, block at least 50 minutes to handle slack, emails, etc

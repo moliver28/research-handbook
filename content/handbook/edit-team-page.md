@@ -71,8 +71,8 @@ Choose the method below that feels most comfortable and have the following infor
     - Consider adding `pronunciation` for your full name to help others to pronounce your name correctly (e.g. sid see-brandy for Sid Sijbrandij)
     - Add your Twitter and GitLab handles without the leading `@`
     - Ensure your list of `departments` is accurate. Use other team members' as a reference.
-    - Add your [`specialty`](/handbook/company/team/structure/#specialist)
-    - Add your [`expertise`](/handbook/company/team/structure/#expert)
+    - Add your [`specialty`](/handbook/company/structure/#specialist)
+    - Add your [`expertise`](/handbook/company/structure/#expert)
     - Add your own `story`. Use other team members' stories as a reference.
     - If remote work has [changed your life](/handbook/company/culture/all-remote/people/) in a meaningful way, consider adding your own `remote_story`, using other team members' remote stories as a [reference](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/uploads/8161ceac4523a9f36244f9533960ccbd/remote-story-example.png)
     - Update any data that was filled in but is incorrect

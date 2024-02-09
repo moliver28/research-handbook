@@ -3,6 +3,7 @@ title: "Handbook frontmatter"
 description: "Information on what frontmatter entries are available and how to use them."
 aliases:
 - /docs/frontmatter/
+controlled_document: true
 ---
 
 This page covers what frontmatter information is available on handbook pages, and their usage.
@@ -43,4 +44,17 @@ If a user visits one of the listed aliases, it will redirect to the current page
 aliases:
 - /handbook/page/path/
 - /handbook/old/page/location/
+```
+
+## Controlled Documents
+
+[Controlled documents](/handbook/security/controlled-document-procedure/) require the handbook frontmatter attribute `controlled_document` set to `true`. This attribute also renders the warning header, linking to [controlled documents review section](/handbook/security/controlled-document-procedure/#review). Example:
+
+```markdown
+---
+title: "Controlled Document Procedure"
+description: "GitLab deploys control activities through policies and standards that establish what is expected and procedures that put policies and standards into action."
+controlled_document: true
+---
+
 ```

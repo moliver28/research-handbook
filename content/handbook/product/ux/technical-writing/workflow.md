@@ -16,7 +16,6 @@ The process for creating and maintaining GitLab product documentation depends on
 - [Changes outside a specific milestone](https://docs.gitlab.com/ee/development/documentation/workflow.html): Usually not associated with a specific code change, is of lower priority, and
   is open to all GitLab contributors.
 
-
 Documentation [is required](https://docs.gitlab.com/ee/development/contributing/merge_request_workflow.html#definition-of-done)
 for a milestone when:
 
@@ -170,6 +169,10 @@ The Technical Writer:
 - Updates the Technical Writing milestone plan. [Example](https://gitlab.com/gitlab-org/technical-writing/-/issues/521), created from the [issue template](https://gitlab.com/gitlab-org/technical-writing/-/blob/main/.gitlab/issue_templates/tw-milestone-plan.md).
   - Add a link to the board or filter that shows the planned documentation and UI text work for the upcoming milestone.
   - Confirm that the group PM or EM is aware of the planned work.
+
+For stages that have a [stage lead](#stage-leads-experiment) (experiment):
+
+- Technical writers (or PMs) apply a `tw-lead` label to any issues that have are likely to have cross-group or cross-stage impact on the documentation, and where additional review or assistance is likely to be required. The label can be used to filter assignments in an issue board.
 
 #### Collaboration
 
@@ -377,6 +380,8 @@ one or more of the questions:
 - How do I use it?
 - Why should I care?
 
+Consider tagging the Technical Writer once in a review request with a message indicating the number of points and/or the areas where reviews are needed. This will help manage the volume of notifications per review round.
+
 ### MR Reviews
 
 Once the merge request is created, all changes and additions to text in the UI *must* be reviewed by
@@ -445,6 +450,30 @@ To review and triage documentation feedback and improvement issues for your grou
 1. Apply the labels described in [Documentation feedback and improvements](#documentation-feedback-and-improvements).
 1. Aim to keep the list of open, untriaged issues at **<10**.
 1. Share the triaged list with the group and group PM.
+
+## Stage leads (experiment)
+
+{{% alert title="Note" color="primary" %}}
+This section outlines a process that we have not yet used or implemented in the Technical Writing team. We plan to experiment with stage leads in Q1 and Q2 of 2024. This process is subject to change.
+{{% /alert %}}
+
+Some Technical Writers are assigned as _stage leads_ for a given DevOps stage.
+
+Stage leads might work across an entire stage, or a subset of groups in the stage.
+They support other Technical Writers assigned to groups in the stage.
+
+Stage leads:
+
+- Assume the same [responsibilities](/job-families/product/technical-writer/#responsibilities) as Technical Writers, but with a more targeted focus on proactively creating and improving
+documentation for their assigned stage. 
+- Spend approximately 30% of their time supporting technical writers in the stage to work on issues and review merge requests authored by developers for [new features and enhancements](#documentation-for-a-product-change). Issues and merge requests where they support other technical writers are labeled `tw-lead`.
+  The remaining merge requests are reviewed by the supporting Technical Writers assigned to the groups in the stage.
+- Spend the remainder of their time creating and refining content to address documentation needs and gaps for their assigned stage.
+  For example, writing tutorials, creating use-based content, restructuring existing content, working on the information architecture, and so on.
+- Create a quarterly planning issue to outline the content gaps and improvements that they aim to address over three milestones.
+
+For [documentation improvements](#documentation-feedback-and-improvements), stage leads are responsible for creating an
+issue board to track ongoing and planned documentation enhancements and additions.
 
 ## Topic types and team progress
 

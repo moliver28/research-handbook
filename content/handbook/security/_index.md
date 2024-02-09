@@ -68,15 +68,13 @@ To reflect this, we have structured the Security Division around four key tenets
         <ul>
             <li><a href="{{< ref "./product-security/application-security" >}}">Application Security</a></li>
             <li><a href="{{< ref "./product-security/infrastructure-security" >}}">Infrastructure Security</a></li>
-            <li><a href="{{< ref "./product-security/security-logging" >}}">Security Logging</a></li>
-            <li><a href="{{< ref "./product-security/automation" >}}">Security Automation</a></li>
-            <li>External Security Communications</li>
         </ul>
       </td>
       <td>
         <ul>
             <li><a href="{{< ref "./security-operations/sirt" >}}">Security Incident Response Team (SIRT)</a></li>
             <li><a href="{{< ref "./security-operations/trustandsafety" >}}">Trust and Safety</a></li>
+            <li><a href="{{< ref "./security-operations/security-logging" >}}">Security Logging</a></li>
         </ul>
       </td>
       <td>
@@ -101,7 +99,7 @@ To reflect this, we have structured the Security Division around four key tenets
 
 #### Secure the Product - The Product Security Department
 
-The [Product Security Department]({{< ref "product-security" >}}) is primarily focused on Securing the Product. This reflects the Security Division's current efforts to be involved in the Application development and Release cycle for Security Releases, Security Research, our HackerOne bug bounty program, Security Automation, External Security Communications, and Vulnerability Management.
+The [Product Security Department]({{< ref "product-security" >}}) is primarily focused on Securing the Product. This reflects the Security Division's current efforts to be involved in the Application development and Release cycle for Security Releases, Infrastructure Security, and our HackerOne bug bounty program.
 
 The term “Product” is interpreted broadly and includes the GitLab application itself and all other integrations and code that is developed internally to support the GitLab application for the multi-tenant SaaS. Our responsibility is to ensure all aspects of GitLab that are exposed to customers or that host customer data are held to the highest security standards, and to be proactive and responsive to ensure world-class security in anything GitLab offers.
 
@@ -182,7 +180,6 @@ Many teams follow a convention of having a GitLab group `team-name-team` with a 
     - [gitlab-com/gl-security/engineering-and-research-meta](https://gitlab.com/gitlab-com/gl-security/engineering-and-research-meta) For department wide management and planning issues.
     - [gitlab-com/gl-security/engineering-and-research/automation-team/automation](https://gitlab.com/gitlab-com/gl-security/engineering-and-research/automation-team/automation)
     - [@gitlab-com/gl-security/appsec](https://gitlab.com/gitlab-com/gl-security/appsec) is the primary group for @'mentioning the Application Security team.
-    - [@gitlab-com/gl-security/automation](https://gitlab.com/gitlab-com/gl-security/engineering-and-research/automation) is the primary group for @'mentioning the Security Automation team.
 - [Security Operations (@gitlab-com/gl-security/security-operations)](https://gitlab.com/gitlab-com/gl-security/security-operations) Security Operations Department
     - [@gitlab-com/gl-security/security-operations/sirt](https://gitlab.com/gitlab-com/gl-security/security-operations/sirt) is the primary group for @'mentioning the Security Incident Response Team (SIRT).
         - [SIRT (private)](https://gitlab.com/gitlab-com/gl-security/security-operations/sirt/operations) for SIRT issues.

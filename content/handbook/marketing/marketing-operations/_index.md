@@ -8,12 +8,6 @@ description: "Marketing Operations (MktgOps) supports the entire Marketing team 
 
 
 
-
-
-
-
-
-
 ## <i class="far fa-newspaper" id="biz-tech-icons"></i> Charter
 
 Marketing Operations (MktgOps) supports the marketing organization to streamline processes and manage related tools. We work closely with multiple teams to ensure information between systems is seamless, data is as accurate as possible, and terminology is consistent in respective systems. Our team's primary functions are:
@@ -178,9 +172,10 @@ Collaboration with Sales Systems
 - `MktgOpsPrio::01: In Approved`: Issues that have received business process owner approval
 - `MktgOpsPrio::02: In Queue - Mops`: Issues that are ready for prioritization with Sales Systems 
 - `MktgOpsPrio::03: In Queue - Systems`: Discussed in prioritization and added to a temporary milestone
-- `MtkgOpsPrio::04: Actioned`: Issue is in current or future milestone. 
-- `MtkgOpsPrio::05: Pending Release`: Issue fully tested and approved in staging. Awaiting deploy by systems team.
-- `MtkgOpsPrio::06: Complete`: Issue has been deployed into production. 
+- `MtkgOpsPrio::04: Actioned`: Issue is in current or future milestone, not yet ready for UAT
+- `MktgOpsPrio:: 05: Business Owner UAT`: Issue is in UAT by the business owner, Systems cannot move forward without signoff
+- `MtkgOpsPrio::06: Pending Release`: Issue fully tested and approved in staging. Awaiting deploy by systems team
+- `MtkgOpsPrio::07: Complete`: Issue has been deployed into production
 
 </details>
 
@@ -283,7 +278,7 @@ Video: [Marketing Salesforce.com Sandbox Training - Creating Changesets](https:/
 If a field needs to be created in Marketo AND SFDC, it must be created in SFDC first and then added to the Marketo User Permission set within SFDC. From there, the field will sync down to Marketo. If you miss this order of operations and the field is created in Marketo first, you will need to still follow the directions above and then open a support to re-map the fields. **Use [documentation for Marketo](https://developers.marketo.com/rest-api/lead-database/fields/field-types/) for field types.
 
 If you need assistance with Sales Systems follow the next steps:
-1. Open an [Sales System issue](https://gitlab.com/gitlab-com/sales-team/field-operations/systems/-/issues/new) in their project and assign the label `EntAppsCustomer::MOPS`. Then, add to the corresponding Epic as a related issue, or in the description ([FY23Q4 Example](https://gitlab.com/groups/gitlab-com/-/epics/2043).
+1. Open an [Sales System issue](https://gitlab.com/gitlab-com/sales-team/field-operations/systems/-/issues/new) in their project and assign the label `EntAppsCustomer::MOPS`.
 2. If Mops member can create a changeset, please do so shortly after creating the issue to decrease time to deploy,
 3. Add [prioritization label](/handbook/marketing/marketing-operations/#labeling) of `MktgOpsPrio::00: Requested`
 4. Business process owner (Amy or Christine) will review, and if they approve of the request from a business standpoint, they will check the appropriate box and add the `MktgOpsPrio::01: Approved` label. If not, the request will stay in `MktgOpsPrio::00: Requested` status until blockers or outstanding questions are resolved.
@@ -292,7 +287,7 @@ If you need assistance with Sales Systems follow the next steps:
 5. Once a milestone is added and the issue is discussed, the label will be updated to `MktgOpsPrio::04: Actioned` by the MktgOps representative that is in the prioritization call.
     * Once the label has been updated to `MktgOpsPrio::04: Actioned`, follow along with the Sales Systems labels for next steps.
 6. Systems will work on the issue and push any updates to the Staging environment first
-7. It is the responsibility of the Business Owner to test and accept. The Business Owner must show proof (such as a testing plan, or screenshot) that the solution is working correctly in the staging environment. This is an important step that represents acceptance of the solution, its testing, and the authority to change the related process.
+7. Once systems build, it is the responsibility of the Business Owner to test and accept. The Business Owner must show proof (such as a testing plan, or screenshot) that the solution is working correctly in the staging environment. This is an important step that represents acceptance of the solution, its testing, and the authority to change the related process. The issue will stay in `MktgOpsPrio:: 05: Business Owner UAT` during this time.
 8. Once ready to deploy, Systems manager will add `SFDCReleaseHelp` to flag to release managers it is ready for production release. Marketing Ops label should be updated to `MktgOpsPrio::05: Pending Release`
 7. Once in production, MktgOps should confirm again that the field/update in SFDC and corresponding/impacted systems is working as anticipated. Label updated to `MktgOpsPrio::06: Completed`
 8. Issue is closed and completed. 
@@ -390,12 +385,12 @@ Below are tools in the Marketing Technology stack, organized by tier.
 
 - [Allocadia](/handbook/marketing/strategy-performance/allocadia/)
 - Base
-- Hopin
 - [Hightouch](/handbook/marketing/marketing-operations/hightouch/)
 - [LinkedIn Sales Navigator](/handbook/sales/training/social-selling/)
 - [MailJet](/handbook/marketing/marketing-operations/mailjet/)
 - [OneTrust](/handbook/marketing/digital-experience/onetrust/)
 - [RingLead](/handbook/marketing/marketing-operations/ringlead/)
+- Integrate DAP
 
 #### Management Technology - Tier 3
 
@@ -531,8 +526,6 @@ Once the evaluation Epic is created, the following evaluation steps should be fo
 | **Post-Implementation Reviewer(s) (optional)** | Review of the change in production after the change is made to ensure everything is working as expected |
 
 
-
-
 #### Resources
 
 1. [Requirements Gathering Template](https://docs.google.com/spreadsheets/d/1JsUcCnePqWnc8ownZQEsjsDtMea6pLPk2k-6TV3M_uI/edit#gid=0)
@@ -629,7 +622,6 @@ Status in the table below means:
 | Startup Application | inbound |  | Inactive |
 | Consultancy Request | inbound |  | Inactive |
 | Promotion | paid demand gen |  | Inactive |
-
 
 
 

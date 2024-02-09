@@ -58,7 +58,7 @@ Before starting any kind of quantitative research, it is important to identify y
 
 #### How do I collect data?
 
-At GitLab, there are two main approaches to collecting data: 1) [querying from usage data in Sisense](/handbook/business-technology/data-team/platform/sisensecdt/) see this [handbook page](/handbook/product/ux/ux-resources/designers-guide-to-data/#how-is-data-being-captured) for more information on GitLab's data sources and/or 2) using survey data.
+At GitLab, there are two main approaches to collecting data: 1) querying from usage data in Snowflake or Tableau - see this [handbook page](/handbook/product/ux/ux-resources/designers-guide-to-data/#how-is-data-being-captured) for more information on GitLab's data sources - and/or 2) using survey data.
 
 You can use these two data sources to build a comprehensive understanding of your problem. For example, you might use usage data to first understand the user population you are looking at and then identify where you will need to go to get more data. Once you understand your user population, you might use a survey to uncover additional insights.
 

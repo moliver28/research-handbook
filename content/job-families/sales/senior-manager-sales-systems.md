@@ -33,7 +33,7 @@ The Manager, Sales Systems is a [grade 8](/handbook/total-rewards/compensation/c
 - Interest in GitLab, and open source software.
 - You share our values, and work in accordance with those values.
 - Ability to thrive in a fully remote organization.
-- [Leadership at GitLab](/handbook/company/team/structure/#management-group).
+- [Leadership at GitLab](/handbook/company/structure/#management-group).
 - Ability to use GitLab.
 
 ## Senior Manager, Sales Systems
@@ -66,7 +66,7 @@ The Senior Manager, Sales Systems is a [grade 9](/handbook/total-rewards/compens
 - Interest in GitLab, and open source software
 - You share our values, and work in accordance with those values
 - Ability to thrive in a fully remote organization
-- [Leadership at GitLab](/handbook/company/team/structure/#management-group)
+- [Leadership at GitLab](/handbook/company/structure/#management-group)
 - Ability to use GitLab
 
 {{% job-families/sales/performance %}}
@@ -104,7 +104,7 @@ The Director, Sales Systems is a [grade 10](/handbook/total-rewards/compensation
 - Excellent communication and interpersonal skills, with the ability to resolve complicated interdepartmental projects and manage stakeholders.
 - Committed to “Drink our own Champagne” and fully utilize the GitLab product for internal project management and collaboration.
 - Share and work in accordance with our [values](/handbook/values/).
-- [Leadership at GitLab](/handbook/company/team/structure/#management-group)
+- [Leadership at GitLab](/handbook/company/structure/#management-group)
 
 ## Senior Director, Sales Systems
 
@@ -138,7 +138,7 @@ The Senior Director, Sales Systems is a [grade 11](/handbook/total-rewards/compe
 - Strong analytical and problem-solving skills with a clear and relentless focus under pressure.
 - Drive the utilization of the GitLab product for internal project management and collaboration.
 - Share and work in accordance with our [values](/handbook/values/).
-- [Leadership at GitLab](/handbook/company/team/structure/#management-group)
+- [Leadership at GitLab](/handbook/company/structure/#management-group)
 
 ## Performance Indicators
 

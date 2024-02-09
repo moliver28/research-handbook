@@ -119,7 +119,7 @@ The release management plan helps the IT team:
 
 ### Release Calendar
 
-![it-pmo](/handbook/business-technology/pmo/calendar.png)
+![it-pmo](/handbook/business-technology/pmo/calendar2024.png)
 
 # <i class="fas fa-bullhorn" id="biz-tech-icons"></i> How We Work
 

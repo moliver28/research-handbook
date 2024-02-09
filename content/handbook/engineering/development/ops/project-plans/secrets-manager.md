@@ -12,63 +12,62 @@ description: "Secrets Manager - Weekly Project Plan - Pipeline Security Group"
 
 ## Secrets Manager - Weekly Project Plan
 
-### Milestone 16.7 (November 13, 2023 - December 15, 2023)
+### Milestone 16.9 (January 15, 2024 - February 9, 2024)
 
 #### Goals:
-- [Create the secrets manager index page](https://gitlab.com/gitlab-org/gitlab/-/issues/424457)
-- [Create the add/edit secrets form](https://gitlab.com/gitlab-org/gitlab/-/issues/424458)
+- [https://gitlab.com/gitlab-org/gitlab/-/issues/424457](https://gitlab.com/gitlab-org/gitlab/-/issues/424457) Create the index page for the secrets manager (Frontend)
+- [https://gitlab.com/gitlab-org/gitlab/-/issues/424458](https://gitlab.com/gitlab-org/gitlab/-/issues/424458) Create form for adding secrets (Frontend)
+- [https://gitlab.com/groups/gitlab-org/-/epics/11776](https://gitlab.com/groups/gitlab-org/-/epics/11776) Begin work on backend POC for client authentication
 
-### Week of  November 20, 2023 (Milestone 16.7)
+### Week of  January 29, 2024 (Milestone 16.9)
 
 #### Team Capacity:
 - 2 FE
 
 #### Goals:
-- [https://gitlab.com/gitlab-org/gitlab/-/issues/424457](https://gitlab.com/gitlab-org/gitlab/-/issues/424457) Begin development for the secrets manager index page
-- [https://gitlab.com/gitlab-org/gitlab/-/issues/424458](https://gitlab.com/gitlab-org/gitlab/-/issues/424458) Begin the development for the add/edit secrets form
+- [https://gitlab.com/gitlab-org/gitlab/-/issues/424457](https://gitlab.com/gitlab-org/gitlab/-/issues/424457) Finish the MR for the secrets manager index page
+- [https://gitlab.com/gitlab-org/gitlab/-/issues/424458](https://gitlab.com/gitlab-org/gitlab/-/issues/424458) Finish the MR for the add/edit secrets form
 
-### Week of  November 27, 2023 (Milestone 16.7)
-
-#### Team Capacity:
-- 2 FE
-
-#### Goals:
-- [https://gitlab.com/gitlab-org/gitlab/-/issues/424457](https://gitlab.com/gitlab-org/gitlab/-/issues/424457) Create an MR for the secrets manager index page
-- [https://gitlab.com/gitlab-org/gitlab/-/issues/424458](https://gitlab.com/gitlab-org/gitlab/-/issues/424458) Begin the MR for the add/edit secrets form
-
-### Week of  December 4, 2023 (Milestone 16.7)
+### Week of  February 5, 2024 (Milestone 16.9)
 
 #### Team Capacity:
 - 2 FE
-
-#### Goals:
-- [https://gitlab.com/gitlab-org/gitlab/-/issues/424457](https://gitlab.com/gitlab-org/gitlab/-/issues/424457) Review the MR for the secrets manager index page
-- [https://gitlab.com/gitlab-org/gitlab/-/issues/424458](https://gitlab.com/gitlab-org/gitlab/-/issues/424458) Review the MR for the add/edit secrets form
-
-### Week of  December 11, 2023 (Milestone 16.7)
-
-#### Team Capacity:
-- 2 FE
+- 1 BE
 
 #### Goals:
 - [https://gitlab.com/gitlab-org/gitlab/-/issues/424457](https://gitlab.com/gitlab-org/gitlab/-/issues/424457) Merge the MR for the secrets manager index page
 - [https://gitlab.com/gitlab-org/gitlab/-/issues/424458](https://gitlab.com/gitlab-org/gitlab/-/issues/424458) Merge the MR for the add/edit secrets form
-
-
-### Milestone 16.8 (December 18, 2023 - January 12, 2024)
-
-#### Goals:
--
-
-### Milestone 16.9 (January 15, 2024 - February 9, 2024)
-
-#### Goals:
--
+- [https://gitlab.com/groups/gitlab-org/-/epics/11776](https://gitlab.com/groups/gitlab-org/-/epics/11776) Begin work on backend POC for client authentication
 
 ### Milestone 16.10 (February 12, 2024 - March 8, 2024)
 
 #### Goals:
--
+- [https://gitlab.com/gitlab-org/gitlab/-/issues/434233](https://gitlab.com/gitlab-org/gitlab/-/issues/434233) Check that secret exists before viewing details
+- [https://gitlab.com/gitlab-org/gitlab/-/issues/424460](https://gitlab.com/gitlab-org/gitlab/-/issues/424460) Create secret details page
+- [https://gitlab.com/groups/gitlab-org/-/epics/11776](https://gitlab.com/groups/gitlab-org/-/epics/11776) Present backend demo POC for client authentication 
+- [https://gitlab.com/groups/gitlab-org/-/epics/11776](https://gitlab.com/groups/gitlab-org/-/epics/11776) Begin work on backend POC for GCP idententies 
+
+### Week of  February 12, 2024 (Milestone 16.9)
+
+#### Team Capacity:
+- 2 FE
+- 1 BE
+
+#### Goals:
+- [https://gitlab.com/gitlab-org/gitlab/-/issues/434233](https://gitlab.com/gitlab-org/gitlab/-/issues/434233) Begin work on checking that secret exists before viewing details
+- [https://gitlab.com/gitlab-org/gitlab/-/issues/424460](https://gitlab.com/gitlab-org/gitlab/-/issues/424460) Begin work on create secret details page
+- [https://gitlab.com/groups/gitlab-org/-/epics/11776](https://gitlab.com/groups/gitlab-org/-/epics/11776) Present backend demo POC for client authentication 
+
+### Week of  February 19, 2024 (Milestone 16.9)
+
+#### Team Capacity:
+- 2 FE
+- 1 BE
+
+#### Goals:
+- [https://gitlab.com/gitlab-org/gitlab/-/issues/434233](https://gitlab.com/gitlab-org/gitlab/-/issues/434233) Complete MR for checking that secret exists before viewing details
+- [https://gitlab.com/gitlab-org/gitlab/-/issues/424460](https://gitlab.com/gitlab-org/gitlab/-/issues/424460) Complete MR for create secret details page
+- [https://gitlab.com/groups/gitlab-org/-/epics/11776](https://gitlab.com/groups/gitlab-org/-/epics/11776) Begin work on backend POC for GCP idententies 
 
 ### Milestone 16.11 (March 11, 2024 - April 12, 2024)
 
@@ -224,6 +223,12 @@ description: "Secrets Manager - Weekly Project Plan - Pipeline Security Group"
 - [https://gitlab.com/groups/gitlab-org/-/epics/11776](https://gitlab.com/groups/gitlab-org/-/epics/11776) Begin work on backend POC for client authentication
 - [https://gitlab.com/gitlab-org/gitlab/-/issues/424453](https://gitlab.com/gitlab-org/gitlab/-/issues/424453) Merge the MR for creating the root Vue component
 
+### Milestone 16.7 (November 13, 2023 - December 15, 2023)
+
+#### Goals:
+- [Create the secrets manager index page](https://gitlab.com/gitlab-org/gitlab/-/issues/424457)
+- [Create the add/edit secrets form](https://gitlab.com/gitlab-org/gitlab/-/issues/424458)### Milestone 16.7 (November 13, 2023 - December 15, 2023)
+
 ### Week of  November 13, 2023 (Milestone 16.6)
 
 #### Team Capacity:
@@ -233,5 +238,41 @@ description: "Secrets Manager - Weekly Project Plan - Pipeline Security Group"
 #### Goals:
 - [https://gitlab.com/groups/gitlab-org/-/epics/11776](https://gitlab.com/groups/gitlab-org/-/epics/11776) Complete work on backend POC for client authentication
 - [https://gitlab.com/gitlab-org/gitlab/-/issues/424457](https://gitlab.com/gitlab-org/gitlab/-/issues/424457) Begin work on the secrets managemer index page
+
+### Week of  November 20, 2023 (Milestone 16.7)
+
+#### Team Capacity:
+- 2 FE
+
+#### Goals:
+- [https://gitlab.com/gitlab-org/gitlab/-/issues/424457](https://gitlab.com/gitlab-org/gitlab/-/issues/424457) Begin development for the secrets manager index page
+- [https://gitlab.com/gitlab-org/gitlab/-/issues/424458](https://gitlab.com/gitlab-org/gitlab/-/issues/424458) Begin the development for the add/edit secrets form
+
+### Week of  November 27, 2023 (Milestone 16.7)
+
+#### Team Capacity:
+- 2 FE
+
+#### Goals:
+- [https://gitlab.com/gitlab-org/gitlab/-/issues/424457](https://gitlab.com/gitlab-org/gitlab/-/issues/424457) Create an MR for the secrets manager index page
+- [https://gitlab.com/gitlab-org/gitlab/-/issues/424458](https://gitlab.com/gitlab-org/gitlab/-/issues/424458) Begin the MR for the add/edit secrets form
+
+### Week of  December 4, 2023 (Milestone 16.7)
+
+#### Team Capacity:
+- 2 FE
+
+#### Goals:
+- [https://gitlab.com/gitlab-org/gitlab/-/issues/424457](https://gitlab.com/gitlab-org/gitlab/-/issues/424457) Review the MR for the secrets manager index page
+- [https://gitlab.com/gitlab-org/gitlab/-/issues/424458](https://gitlab.com/gitlab-org/gitlab/-/issues/424458) Review the MR for the add/edit secrets form
+
+### Week of  December 11, 2023 (Milestone 16.7)
+
+#### Team Capacity:
+- 2 FE
+
+#### Goals:
+- [https://gitlab.com/gitlab-org/gitlab/-/issues/424457](https://gitlab.com/gitlab-org/gitlab/-/issues/424457) Merge the MR for the secrets manager index page
+- [https://gitlab.com/gitlab-org/gitlab/-/issues/424458](https://gitlab.com/gitlab-org/gitlab/-/issues/424458) Merge the MR for the add/edit secrets form
 
 </details> 

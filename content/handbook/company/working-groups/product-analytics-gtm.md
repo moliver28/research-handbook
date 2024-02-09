@@ -83,4 +83,4 @@ Meeting notes are logged in the [Weekly Meeting Notes](https://docs.google.com/d
 
 1. We've acheived our original exit criteria
 1. We've built a reliabile working model between Customer Success, Product & Engineering, and the Data team. We no longer need a formal working group to maintain progress
-1. Work on this initiative will continue via the [top 12 inititiaves](/handbook/company/team/structure/working-groups/#top-cross-functional-initiatives)
+1. Work on this initiative will continue via the [top 12 inititiaves](/handbook/company/working-groups/#top-cross-functional-initiatives)

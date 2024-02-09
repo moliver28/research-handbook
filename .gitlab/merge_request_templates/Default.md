@@ -39,9 +39,9 @@ CHANGEME - add the details saying [why, not just what][say-why-not-just-what].
 /assign_reviewer @
 -->
 
-<!-- Apply labels: You can keep or remove `~"handbook::content"` as needed, add other relevant labels, or remove this line. -->
+<!-- Apply labels: You can keep or remove `~"Handbook::Content"` as needed, add other relevant labels, or remove this line. -->
 
-/label ~"handbook::content"
+/label ~"Handbook::Content"
 
 ---
 

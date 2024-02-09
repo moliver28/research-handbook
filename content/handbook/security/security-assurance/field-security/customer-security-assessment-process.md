@@ -29,6 +29,8 @@ We will start all CAA requests (with the exception of Contract Reviews) by **sha
 
 The process will be handled in SafeBase. Customers/prospects who have access to the [Trust Center](https://trust.gitlab.com) can directly upload questionnaires by clicking the *Submit a Questionnaire* link at the top of the Trust Center.
 
+Field Security has certain thresholds when determining when, and to what extent, we will complete custom security review questionnaires from customers. Field Security will consider completing questionnaires as detailed [here](https://internal.gitlab.com/handbook/security/security-assurance/field_security/questionnaire_thresholds) in the Internal Handbook.
+
 ### For Customer Calls and General Requests
 
 Please use the `Customer Call Request` or `General Request` buttons above and follow the instructions.

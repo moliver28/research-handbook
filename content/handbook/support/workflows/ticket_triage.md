@@ -1,7 +1,7 @@
 ---
 
 title: Triaging Tickets
-description: "A walk through of some basic checks and items to tick off when working on the Needs Org and Triage queue in ZenDesk."
+description: "A walkthrough of triaging tickets in Zendesk"
 category: Handling tickets
 subcategory: Triaging
 ---
@@ -10,7 +10,7 @@ subcategory: Triaging
 
 ## Purpose of this page
 
-This page aims to walk you through some basic checks and items to tick off when working on the Needs Org and Triage queue in ZenDesk.
+This page aims to walk you through how to triage tickets in Zendesk.
 
 ## Overall Flow
 
@@ -43,11 +43,11 @@ Below is a list of some commonly used Zendesk forms with a brief explanation reg
 - L&R (License and Renewals): subscription and purchase issues, see also [L&R workflows](/handbook/support/license-and-renewals/workflows/).
 - Level Up: For tickets that should go to the Professional Services team, such as requests about [the GitLab LevelUp platform](/handbook/people-group/learning-and-development/level-up/)(`levelup.gitlab.com`).
 
-**Please note:** It's recommended to always use the `General::Forms::Incorrect form used` macro to *change* the ticket form, unless it's between Self-Managed, SaaS (GitLab.com) and SaaS Account.
+**Please note:** Please follow the guidance under [Moving to non-support forms](#moving-to-non-support-forms) to *change* the ticket form, unless it's between Self-Managed, SaaS (GitLab.com) and SaaS Account.
 
 ### For security related matters
 
-Apply the macro `Security::All Security Questions`. This will reply and solve out the ticket.
+Apply the macro `Security::All Security Questions`. This will reply and mark the ticket `solved`.
 
 ### Moving to non-support forms
 
@@ -71,7 +71,7 @@ If the request falls outside of such scenarios, see the [Other Requests section]
 ## After applying the correct form
 
 - Apply the correct `Problem type` if possible (this may need to happen after looking up the organization information).
-- With help from the [Looking up customer details]({{< ref "looking_up_customer_account_details" >}}) page to understand how and where you can find customer information from ZenDesk, Salesforce and the customer portal.
+- Get help from the [Looking up customer details]({{< ref "looking_up_customer_account_details" >}}) page to understand how and where you can find customer information from Zendesk, Salesforce and the customer portal.
 - Check [SLA and Zendesk views page]({{< ref "sla_and_views" >}}) for after an org is assigned.
 
 ## US Government tickets in Global Support Portal
@@ -89,7 +89,6 @@ We also receive non Support requests in our queue - if you see something not lis
 |Training|Redirect requester to [Education from Professional Services](https://about.gitlab.com/services/education/)|
 |New Set Up/Installation|Follow the [Passing a Lead to Sales](/handbook/support/license-and-renewals/workflows/working_with_sales#specific-workflows-to-pass-to-sales) workflow|
 |Requests for swag|Ask in the #swag internal slack channel or direct to [the FAQ](https://shop.gitlab.com/faq) for existing orders. For general requests for free swag, use the `General::Free Swag Request` Macro.|
-|Questions related to jobs/openings|Redirect requester to Outbound Talent Acquisition Model page|
 |Questions related to status of job application| Use the `General::Job Application Questions` [macro](https://gitlab.com/gitlab-com/support/support-ops/zendesk-global/macros/-/blob/master/macros/active/General/Job%20Application%20Questions.yaml) and send a note to the internal `#talent acquisition` Slack channel.|
 |Legal Questions and Concerns|Ask in the #legal internal slack channel|
 |Missing Learning and Development Certificates | Direct requester to review  Missed Certificate and contact `learning@` with a note about which certificate/knowledge assessment is missing. |

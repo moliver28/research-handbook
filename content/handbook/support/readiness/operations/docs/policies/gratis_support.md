@@ -129,10 +129,11 @@ With that created, you need to edit some of the organization fields:
 | Expiration Date        | 30 days from setup           |
 
 For `GitLab Plan`, you need to review the opportunity to determine if this is
-a SaaS or Self-Managed opportunity. If you cannot determine it, please ask the
-requester on the issue to clarify that.
+a gitlab.com or Self-Managed opportunity. If you cannot determine it, please ask
+the requester on the issue to clarify that.
 
-If it is SaaS, use `Prospect SaaS`. If it is Self-Managed, use `Prospect SM`.
+If it is gitlab.com, use `Prospect Dotcom`. If it is Self-Managed, use
+`Prospect SM`.
 
 After setting up the organization, you need to add the support contacts from the
 issue to the organization.
@@ -157,10 +158,10 @@ with the following:
 > Please ensure you inform the customer who will be filing tickets (the email
 > given via the form) of the following:
 >
-> - All SaaS related tickets should be submitted via
+> - All gitlab,com related tickets should be submitted via
 >   [this form](https://support.gitlab.com/hc/en-us/requests/new?ticket_form_id=334447&tf_360005241679=saas_prospect_customer)
->   unless it is specifically about SaaS Account related matters
-> - All SaaS Account related matters should be submitted via
+>   unless it is specifically about gitlab,com Account related matters
+> - All gitlab,com Account related matters should be submitted via
 >   [this form](https://support.gitlab.com/hc/en-us/requests/new?ticket_form_id=360000803379&tf_360005241679=saas_prospect_customer)
 > - All Self-Managed related tickets should be submitted via
 >   [this form](https://support.gitlab.com/hc/en-us/requests/new?ticket_form_id=426148&tf_360005182220=sm_prospect_customer)
@@ -255,7 +256,7 @@ append the following):
 > - Starting product: INITIAL_OFFERING
 > - Ending product: ENDING_OFFERING
 > - Self-managed tag(s): SM_TAG
-> - SaaS tag(s): SAAS_TAG
+> - gitlab.com tag(s): DOTCOM_TAG
 >
 > When you see this note in a ticket and you are the first to work that ticket,
 > please remove the unneeded SLA tag and add the needed tag based on the subject
@@ -268,10 +269,10 @@ in this table:
 
 | Term              | Description                                    | Possible values                  |
 |-------------------|------------------------------------------------|----------------------------------|
-| INITIAL_OFFERING  | The product from which they are migrating      | `SM`, `SaaS`                     |
-| ENDING_OFFERING   | The product to which they are migrating        | `SM`, `SaaS`                     |
+| INITIAL_OFFERING  | The product from which they are migrating      | `SM`, `DotCom`                   |
+| ENDING_OFFERING   | The product to which they are migrating        | `SM`, `DotCom`                   |
 | SM_TAG            | The self-managed tag the organization is using | `starter`, `premium`, `ultimate` |
-| SAAS_TAG          | The SaaS tag the organization is using         | `bronze`, `silver`, `gold`       |
+| DOTCOM_TAG        | The gitlab.com tag the organization is using   | `bronze`, `silver`, `gold`       |
 | ISSUE_LINK        | The issue you are working                      |                                  |
 
 The information needed for the above values should be determined from the issue

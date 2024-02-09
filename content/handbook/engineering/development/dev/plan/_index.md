@@ -166,18 +166,11 @@ We feel it is important to document and communicate, that changing of any item's
 
 #### Active Quarter OKRs
 
-FY24-Q4 Stage-level Objectives are available [here](https://gitlab.com/gitlab-com/gitlab-OKRs/-/issues/?sort=created_date&state=opened&label_name%5B%5D=devops%3A%3Aplan&label_name%5B%5D=division%3A%3AEngineering&not%5Blabel_name%5D%5B%5D=group%3A%3A%2a&type%5B%5D=objective&milestone_title=FY24-Q4&first_page_size=20).
+FY25-Q1 Stage-level Objectives are available [here](https://gitlab.com/gitlab-com/gitlab-OKRs/-/issues/?sort=created_date&state=opened&label_name%5B%5D=devops%3A%3Aplan&label_name%5B%5D=division%3A%3AEngineering&not%5Blabel_name%5D%5B%5D=group%3A%3A%2a&type%5B%5D=objective&milestone_title=FY25-Q1&first_page_size=20) (internal).
 
 #### Previous Quarter OKRs
 
-FY24-Q3 Stage-level Objectives are available [here](https://gitlab.com/gitlab-com/gitlab-OKRs/-/issues/?sort=created_date&state=all&label_name%5B%5D=devops%3A%3Aplan&label_name%5B%5D=division%3A%3AEngineering&not%5Blabel_name%5D%5B%5D=group%3A%3A%2a&type%5B%5D=objective&milestone_title=FY24-Q3&first_page_size=20) (internal).
-
-In addition, Plan groups had KRs supporting an Objective to [Reach a 50% minimum of pajamas compliance for dropdowns](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/3885) in Q3:
-
-* [Project Management](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/4145)
-* [Product Planning](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/4078)
-* [Optimize](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/4080)
-* [Knowledge](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/4142)
+FY24-Q4 Stage-level Objectives all closed out between 82% and 89% and are available [here](https://gitlab.com/gitlab-com/gitlab-OKRs/-/issues/?sort=created_date&state=closed&label_name%5B%5D=devops%3A%3Aplan&label_name%5B%5D=division%3A%3AEngineering&not%5Blabel_name%5D%5B%5D=group%3A%3A%2a&type%5B%5D=objective&milestone_title=FY24-Q4&first_page_size=20) (internal).
 
 #### Drafting OKRs using GitLab
 

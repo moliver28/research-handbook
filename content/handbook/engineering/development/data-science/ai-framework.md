@@ -51,15 +51,19 @@ Depending on the context here are the most appropriate ways to reach out to the 
 - When: [Biweekly](https://docs.google.com/document/d/1Zy2behLK2dYq8QV3x0vFNs5QtY_Z6L9ObU8tzeJWWZw/edit#heading=h.onbz64sai6dd) (for specific time, refer to the GitLab Team Meetings calendar)
 - What: This meeting is an opportunity for team members to ask questions about AI features, especially the abstraction layer and GitLab Duo chat, seek support for ongoing experiments, or learn how to write good prompts. If there are no topics to discuss, the meeting may not be held. Recordings from previous sessions can be found in this GitLab Unfiltered YouTube [playlist](https://www.youtube.com/playlist?list=PL05JrBw4t0Kpt0DsmS5WSZbeiMgrBeZXv).
 
-#### Main team meeting
+#### Team Meetings
 
-- **When:** Every Tuesday at 14:00 UTC (EMEA/AMEA friendly)
-- **What:** This meeting operates on an open agenda. If there are no topics to discuss, the meeting will be cancelled. This meeting provides an opportunity for team members to engage in informal discussions and share updates.
+1. **Weekly Work Assignment Meeting**
+   - **When:** Every Monday, alternating time zones from Europe to Asia–Pacific weekly
+   - **What:** This meeting is dedicated to workload assignment. The Engineering Manager and Product Manager assign work as needed for the entire team.
 
-#### Short sync meeting
+2. **Monthly Team-Wide Meeting**
+   - **When:** Once a month
+   - **What:** This meeting is an open discussion for the entire team to share ideas, discuss ongoing projects, and plan for the future.
 
-- **When:** Every Thusday at 9:30 UTC (APAC/EMEA friendly)
-- **What:** This meeting also operates on an open agenda. If there are no topics to discuss, the meeting will be cancelled. This meeting serves as a platform for team members to catch up, share quick updates, and engage in brief discussions.
+3. **Monthly Sync Retro**
+   - **When:** Once a month
+   - **What:** This meeting is for our team retrospectives. We reflect on the past month, discuss what went well and what could be improved.
 
 ### Shared calendars
 
@@ -72,26 +76,12 @@ AI Framework team members should [sync your PTO events](/handbook/people-group/e
 
 Each week the team EM provides a Weekly Status update issue which aims to capture the most important items for the team to be aware of. These can be found [here](https://gitlab.com/gitlab-org/ai-powered/ai-framework/team-hq/-/issues/?sort=title_asc&state=opened&label_name%5B%5D=Weekly%20Announcements&first_page_size=20).
 
-### 📄 Milestone Planning
-
-Every month, we create a Milestone Planning issue that serves as the single source of truth (SSoT) for the current milestone.
-
-This issue provides us with a centralized location to discuss our upcoming milestone work, plan for feature, bug, and maintenance tasks, and provides us with the necessary flexibility to iterate mid-milestone if required.
-
-You can find all milestone planning issues in the [AI Framework team’s project](https://gitlab.com/gitlab-org/ai-powered/ai-framework/team-hq/-/issues/?sort=title_asc&state=opened&label_name%5B%5D=Planning%20Issue&first_page_size=20).
-
-The layout for these Milestone issues are automated and can be found [here](https://gitlab.com/gitlab-org/ai-powered/ai-framework/team-hq/-/blob/main/.gitlab/issue_templates/planning_issue.md).
-
-Additionaly, you can filter by:
-
-- To find the issues you're currently working on, change the filter to `Assignee=<your-handle-name>`.
-- To find a new issue that you will work on, change the filter to `Assignee=None` (And assign yourself to the issue to prevent other people from working on it).
-
 ### 📚 AI Framework Board Outline
 
 Our workflow process for our [board](https://gitlab.com/gitlab-org/gitlab/-/boards/5518200?label_name[]=group%3A%3Aai%20framework) is outlined below.
 
 1. **Open** 📝: This list contains all identified issues. An engineering manager will be assigned if either the Milestone or the label "workflow::ready for development" is missing.
+2. **workflow::solution validation** 🧪: Issues here are undergoing validation to ensure the proposed solution meets the requirements. Once validated, the "ready for development" label is applied.
 2. **workflow::ready for development** 🎯: Issues that have been prioritized and assigned to a specific milestone are moved to this list and the "ready for development" label is applied.
 3. **workflow::in dev** 👩‍💻: When a developer starts working on an issue, they should move it to this list and apply the "in dev" label.
 4. **workflow::in review** 👀: Once the development work on an issue is complete, it should be moved to this list and the "in review" label should be applied.
@@ -102,15 +92,13 @@ Our workflow process for our [board](https://gitlab.com/gitlab-org/gitlab/-/boar
 
 #### Weekly 🗓️
 
-1. **Issue Review** 🕵️‍♂️: (DRI: Engineering Manager and Product Manager) Review all the issues in the Open list. Prioritize them based on their importance, urgency, and input from development EM, Quality, and UX. Move the top priority issues to the "workflow::ready for development" list.
-2. **Progress Check** 🔄: (DRI: Assigned Developer) Check the "workflow::in dev" list to see the status of the ongoing tasks. If a task has been in progress for too long, find out why and try to resolve any blockers.
-3. **Review Completed Tasks** 👥: (DRI: Assigned Developer and Reviewer) Review the tasks in the "workflow::in review" list. Test them to ensure they've been completed correctly. If they pass the review, move them to the "workflow::verification" list.
+1. **Backlog Refinement 📝**: (DRI: PM /EM) Once per week, review all the issues in the **Open** lane. Prioritize them based on their importance, urgency, and input from the team. Identify which issues need discovery work and which can be moved straight into **workflow::ready for development**.
+2. **Discovery Work Assignment 🧪**: (DRI: PM/EM) Move issues that need discovery work into the **workflow::solution validation** lane. These issues are not yet fully defined and need further investigation before they can be developed.
+3. **Ready for Development Assignment 🎯**: (DRI: PM/EM) Move issues that have the necessary details for development into the **workflow::ready for development** lane. These issues are either already assigned to an individual contributor (IC), or if not, are ordered by priority so they can be picked up with ease.
+4. **Progress Check 🔄**: (DRI: Assigned Developer) Check the **workflow::in dev** lane daily to see the status of the ongoing tasks. 
+5. **Review Completed Tasks 👥**: (DRI: Assigned Developer) Review the tasks in the **workflow::in review** lane. Ensure they are moving forward.
 
-#### Monthly 📅
-
-1. **Board Cleanup** 🧹: (DRI: Engineering Manager, Product Manager) On the last day of each milestone (e.g., for milestone 16.7, this would be December 15, 2023), clean up the board. Close all the issues in the "workflow::complete" list. Archive any issues in the "Open" list that are no longer relevant.
-2. **Milestone Planning** 🗓️: (DRI: Product Manager) 19 days before the next milestone begins (e.g., for milestone 16.8, this would be November 27, 2023), plan for the next milestone. Identify the tasks that need to be completed in the next month and move them to the "workflow::ready for development" list. This
-3. **Performance Review** 📈: (DRI: Engineering Manager, Product Manager) On the third Friday of the month (e.g., for milestone 16.7, this would be December 15, 2023, the day after the release date), review the team's performance. See how many issues were completed in the past month and how many are still in progress. Use this information to improve your planning and workflow.
+**Issues for the AI Framework team are binary: they are categorized as either a discovery issue, requiring further investigation, or an implementation issue, ready for development. This approach helps us maintain a lean and efficient workflow.**
 
 #### Milestone Running Dates 2023 - 2024 📅
 

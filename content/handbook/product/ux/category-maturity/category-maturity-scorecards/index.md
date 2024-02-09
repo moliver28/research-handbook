@@ -24,11 +24,22 @@ If you have questions, suggestions for improvement, or find this process doesnâ€
 
 Any Category Maturity Scorecard effort should have a corresponding issue created in the GitLab UX Research project. Ensure the label `CM Scorecard` is applied to the issue to aid in tracking UX research efforts.
 
-Refer to the [Category Maturity](https://about.gitlab.com/direction/maturity/) page to understand scoring. It is important to note that:
+It is important to note that there are specifc requirements that should be met before considering a Category Maturity Scorecard study. These requirements are designed to capture:
 
-- **Minimal:** Category Maturity Scorecard is *not* required.
-- **Viable:** Category Maturity Scorecard is conducted with internal users who are dogfooding.
-- **Competitive and Complete:** Category Maturity Scorecard is conducted with external users on the JTBDs.
+- Usability progression
+- Adherance to the GitLab Design Standards
+- How we stack up against at least one competitor
+
+The below table outlines the requirements for each maturity level:
+
+| Category level | Conducted with?                   | [Usability status](https://handbook.gitlab.com/handbook/product/ux/ux-scorecards/#overall-experience)                                                                                          | [GitLab Design Standards](https://docs.gitlab.com/ee/development/contributing/design.html) criteria              | [Competitive add-on](https://handbook.gitlab.com/handbook/product/ux/category-maturity/competitor-comparison/)                    |
+|----------------|-----------------------------------|------------------------------------------------------------------------------------------------------------|-----------------------------------------------|---------------------------------------|
+| Complete       | External users on the JTBDs       | **A** (High quality/Exceeds expectations). This is the same grading system as the UX Scorecard grading rubric. / The path for all JTBDs are well established, intentional in design, and clear in the outcomes they enable users to reach. | Meets 100% of GitLab design standards         | GitLab scores: **Best in class**          |
+| Competitive    | External users on the JTBDs       | **B** (Meets expectations). This is the same grading system as the UX Scorecard grading rubric. / The path for the primary and related JTBDs are well established, intentional in design, and clear in the outcomes they enable users to reach.               | Meets 100% of GitLab design standards         | GitLab scores: **Equal** or **Best in class** |
+| Viable         | Internal users who are dogfooding | **C** (Average). This is the same grading system from the UX Scorecard grading rubric. / The path for the primary JTBD is well established, intentional in design, and clear in the outcome it enables users to reach.                       | Meets 100% of GitLab design standards         | (not required)                        |
+| Minimal        | (not required)                    | **D** (Poor). This is the same grading system from the UX Scorecard grading rubric. / The path for the primary JTBD is established, intentional in design, and nearing a clear outcome for users to reach.                            | Meets at least 80% of GitLab design standards | (not required)                        |
+
+Refer to the [Category Maturity](https://about.gitlab.com/direction/maturity/) page to understand scoring of a Category Maturity Scorecard study. 
 
 Previously completed Category Maturity Scorecards can be found in this [epic](https://gitlab.com/groups/gitlab-org/-/epics/6930).
 
@@ -38,7 +49,7 @@ See how Scorecards relate to Category Maturity Scorecards in the [UX Scorecards]
 
 All of the UX Scorecards can be found in this [epic](https://gitlab.com/groups/gitlab-org/-/epics/1714).
 
-## Setup
+## Steps for running a Category Maturity Scorecard study
 
 ### Step 0: Jobs to be Done (JTBD)
 

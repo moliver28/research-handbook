@@ -9,9 +9,26 @@ The Developer Evangelism team creates content that can be reused for campaigns. 
 
 You can search for relevant content and contact the team in the linked content epics or in the [#dev-evangelism-and-technical-marketing](https://app.slack.com/client/T02592416/CMELFQS4B) Slack channel. 
 
-### Highspot
+### Click-through Demos
 
-The team's content is distributed in [Highspot](https://gitlab.highspot.com/) in topic and type-specific spots, for example, [GitLab Duo (AI)](https://gitlab.highspot.com/spots/64b14e7cc4b08381c0408bb4) and [Customer Outreach](https://gitlab.highspot.com/spots/615dd7c2506d3fc490ad78cd). 
+Click-through demos are product simulation demonstrations that can be used for self-guided training. They are invaluable for delivering demos to customers in areas with limited internet connectivity or complex environments, where preparation is necessary to showcase the flow. Toggle off the click boxes and speaker notes using fn+F2 to experience the real look and feel of the product.
+
+* [GitLab Duo (AI)](https://tech-marketing.gitlab.io/static-demos/ai-demos.html)
+* [Remote Development](https://tech-marketing.gitlab.io/static-demos/workspaces/ws_html.html)
+* [Feature Flags](https://tech-marketing.gitlab.io/static-demos/feature-flags/feature-flags-html.html)
+* [CI Overview](https://tech-marketing.gitlab.io/static-demos/ci_overview_v1.html)
+
+Note: The demos can be run offline in the absence of internet connectivity. To do so, you can directly obtain the necessary HTML files from [here](https://gitlab.com/tech-marketing/static-demos/-/tree/master/public).
+
+### Product tours 
+
+Product tours are a self-guided journey emphasizing the 'What' of a feature, skipping the 'How-to' steps to directly showcase the value aspects. 
+
+* [Resolving vulnerabilities with GitLab Duo (AI)](https://tech-marketing.gitlab.io/static-demos/pt-explain-vulnerability.html)
+* [CI/CD Catalog beta](https://gitlab.navattic.com/cicd-catalog)
+* [Integrating security to the pipeline](https://gitlab.navattic.com/gitlab-scans)
+* [Code Suggestions](https://gitlab.navattic.com/code-suggestions)
+
 
 ### Projects
 
@@ -22,7 +39,12 @@ Source code, demo projects, workshops, etc. are documented in the [Projects hand
 - [Developer Evangelism](https://www.youtube.com/playlist?list=PL05JrBw4t0Kq-bYO9jCJaN45BBpzWSLAQ) with talks, workshops and community engagements.
 - [GitLab Duo Coffee Chat](/handbook/marketing/developer-relations/developer-evangelism/projects/#gitlab-duo-coffee-chat)
 
+
 ## Content Distribution
+
+### Highspot
+
+The team's content is distributed in [Highspot](https://gitlab.highspot.com/) in topic and type-specific spots, for example, [GitLab Duo (AI)](https://gitlab.highspot.com/spots/64b14e7cc4b08381c0408bb4) and [Customer Outreach](https://gitlab.highspot.com/spots/615dd7c2506d3fc490ad78cd). 
 
 ### UTMs for URL tagging and tracking
 

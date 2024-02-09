@@ -111,7 +111,7 @@ We are in the process of creating <a href="/handbook/it/access-manager">GitLab A
 <br />
 The IT Infrastructure team manages AWS and GCP infrastructure that is not related to GitLab.com SaaS production infrastructure and provide managed infrastructure services for other departments, including most ephemeral sandbox infrastructure needs across the company. We also handle access requests for cloud infrastructure and DNS/domain name requests.<br />
 <br />
-We collaborate with the <a href="/handbook/engineering/infrastructure">Reliability Engineering (SRE)</a> and <a href="/handbook/security/security-engineering/infrastructure-security/">Infrastructure Security</a> teams to provide Infrastructure Shared Services for all AWS, Azure, and GCP related requests and support across the organization.<br />
+We collaborate with the <a href="/handbook/engineering/infrastructure">Reliability Engineering (SRE)</a> and <a href="/handbook/security/product-security/infrastructure-security/">Infrastructure Security</a> teams to provide Infrastructure Shared Services for all AWS, Azure, and GCP related requests and support across the organization.<br />
 <br />
 We also provide escalation engineering and triage support for the <a href="/handbook/security/security-operations/sirt">Security Incident Response Team ("SIRT")</a> and <a href="/handbook/security/threat-management/red-team">Security Red Team</a> when security anomalies, events, or incidents require AWS/GCP subject matter expertise.<br />
 <br />

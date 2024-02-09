@@ -1,9 +1,7 @@
 ---
-title: "GitLab CI/CD - Hands-On Lab 9 (alternative)"
+title: "GitLab CI/CD - Hands-On Lab: Code Quality Scanning"
 description: "This Hands-On Guide walks you through the lab exercises in the GitLab CI/CD course."
 ---
-
-# Lab 9: Code Quality Scanning
 
 > Estimated time to complete: 15 - 20 minutes
 

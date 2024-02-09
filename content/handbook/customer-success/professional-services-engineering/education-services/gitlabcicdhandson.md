@@ -1,5 +1,5 @@
 ---
-title: "GitLab CI/CD - Hands-On Lab"
+title: "GitLab CI/CD - Hands-On Lab Overview"
 description: "This Hands-On Guide walks you through the lab exercises in the GitLab CI/CD course."
 ---
 # GitLab CI/CD Hands-On Guide

@@ -9,59 +9,59 @@ Below is a list of the different ways GitLab Team Members choose to identify. Th
 
 ### Region Data
 
-{{< tableau height="200px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/DraftDIBIdentityDashboard/Region" />}}
+{{< tableau height="200px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/DIBIdentityDashboard/Region" />}}
 
 ### Gender Data
 
 #### Gender Identification (Global)
 
-{{< tableau height="200px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/DraftDIBIdentityDashboard/Gender" />}}
+{{< tableau height="200px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/DIBIdentityDashboard/Gender" />}}
 
 #### Gender in Management (Global)
 
-{{< tableau height="200px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/DraftDIBIdentityDashboard/GenderMgmt" />}}
+{{< tableau height="200px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/DIBIdentityDashboard/GenderMgmt" />}}
 
 #### Gender in Leadership (Global)
 
-{{< tableau height="200px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/DraftDIBIdentityDashboard/GenderLeadership" />}}
+{{< tableau height="200px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/DIBIdentityDashboard/GenderLeadership" />}}
 
 #### Gender in Tech (Global)
 
-{{< tableau height="200px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/DraftDIBIdentityDashboard/GenderTech" />}}
+{{< tableau height="200px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/DIBIdentityDashboard/GenderTech" />}}
 
 #### Gender in Non-Tech (Global)
 
-{{< tableau height="200px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/DraftDIBIdentityDashboard/GenderNon-Tech" />}}
+{{< tableau height="200px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/DIBIdentityDashboard/GenderNon-Tech" />}}
 
 #### Gender in Sales (Global)
 
-{{< tableau height="200px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/DraftDIBIdentityDashboard/GenderSales" />}}
+{{< tableau height="200px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/DIBIdentityDashboard/GenderSales" />}}
 
 ### Underrepresented Groups (URG) Data - Global**
 
 #### URG at GitLab
 
-{{< tableau height="200px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/DraftDIBIdentityDashboard/URG" />}}
+{{< tableau height="200px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/DIBIdentityDashboard/URG" />}}
 
 #### URG in Management
 
-{{< tableau height="200px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/DraftDIBIdentityDashboard/URGMgmt" />}}
+{{< tableau height="200px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/DIBIdentityDashboard/URGMgmt" />}}
 
 #### URG in Leadership
 
-{{< tableau height="200px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/DraftDIBIdentityDashboard/URGLeadership" />}}
+{{< tableau height="200px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/DIBIdentityDashboard/URGLeadership" />}}
 
 #### URG in Tech
 
-{{< tableau height="200px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/DraftDIBIdentityDashboard/URGTech" />}}
+{{< tableau height="200px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/DIBIdentityDashboard/URGTech" />}}
 
 #### URG in Non-Tech
 
-{{< tableau height="200px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/DraftDIBIdentityDashboard/URGNon-Tech" />}}
+{{< tableau height="200px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/DIBIdentityDashboard/URGNon-Tech" />}}
 
 #### URG in Sales
 
-{{< tableau height="200px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/DraftDIBIdentityDashboard/URGSales" />}}
+{{< tableau height="200px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/DIBIdentityDashboard/URGSales" />}}
 
 **Source**: GitLab's People Analytics Team, WorkDay
 **Of Note**: `Management` refers to Team Members who are *People Managers*, whereas `Leadership` denotes Team Members who are in *Director-level positions and above*.

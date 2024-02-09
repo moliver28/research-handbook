@@ -14,7 +14,7 @@ The process for these is:
    [Support Super Form](https://support-super-form-gitlab-com-support-support-op-651f22e90ce6d7.gitlab.io/).
 1. If valid, an issue is filed in
    [support-ops-project](https://gitlab.com/gitlab-com/support/support-ops/support-ops-project).
-1. Support Operations logs into the staging
+1. Support Operations logs into the
    [staging cDot app](https://customers.staging.gitlab.com/admin/license/new_license)
    and generates the license using the parameters in the AR.
 1. Support Operations updates the AR and closes it out.

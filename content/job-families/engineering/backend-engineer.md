@@ -495,7 +495,7 @@ making the GitLab project maintainable in the long-term.
 - Experience using Continuous Integration systems (e.g., GitLab CI, Jenkins, Travis).
 - Experience using Docker and containerized architectures (e.g. Kubernetes).
 
-See the description of the [Engineering Productivity team](/handbook/engineering/quality/engineering-productivity/) for more details.
+See the description of the [Engineering Productivity team](/handbook/engineering/infrastructure/engineering-productivity/) for more details.
 The position also involves working with the community as
 [Merge Request Coach](/job-families/expert/merge-request-coach/), and working together with our
 [Backend Engineers](/job-families/engineering/backend-engineer/) to respond and

@@ -1,5 +1,5 @@
 ---
-title: Zendesk Documentation
+title: Zendesk docs
 description: Support Operations documentation page for Zendesk
 canonical_path: "/handbook/support/readiness/operations/docs/zendesk/"
 ---

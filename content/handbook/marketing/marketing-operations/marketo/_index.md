@@ -199,87 +199,97 @@ Some leads are exluded from scoring if they:
 
 #### Auto-MQL
 
-Based on certain criteria, a lead may auto-MQL. The scenarios are listed below:
+Based on certain criteria, a lead may auto-MQL. Note that any auto-MQL is considered to be part of the `Behavior` score category. The scenarios are listed below:
 
-- Self-Managed Trial + Business email domain
+WIP 
+
+<!-- Self-Managed Trial + Business email domain
 - SaaS Trial - Signed Up + Business email domain
-- SaaS Trial Signed Up + `Setup for Company/Use = TRUE`
-- `Contact Us`, `Duo / Code suggestions` `Professional Services` or `Renewal` forms
-- [Handraise PQL](/handbook/product/product-principles/#a-pql-can-be-further-broken-down-into-two-types-usage-and-hand-raise)
-- In-app Health Check form
-- Program status of `Follow Up Requested`
-- Qualified (chat) interaction with meeting scheduled
+- SaaS Trial Signed Up + `Setup for Company/Use = TRUE`-->
+
+| Auto-MQL Behavior | Campaign Description | Points Assigned | Schedule/Flow Limit |
+| ------ | ------ | ------ | ------|
+|   Follow Up Requested  | Follow Up Requested, <br> Conference > Meeting Attended   | +100 | Everytime | 
+|  Inbound  | Contact Request, <br> Renewals, <br> [Hand Raise PQL](https://handbook.gitlab.com/handbook/product/product-principles/#a-pql-can-be-further-broken-down-into-two-types-usage-and-hand-raise), <br> In-app Health Check, <br> Duo Requests | +100 | 1/day | 
+| PTP Score  |Assigned a 4 or 5 score via the [Propensity Model](https://handbook.gitlab.com/handbook/customer-success/csm/segment/commercial/#propensity-models) | +100 | TBD |
+| Web Chat  |Web chat interaction with meeting scheduled | +100 | 1/day | 
+
 
 #### Behavior Scoring
 
 Behavior scoring is based on the actions that person has taken. The cadence of how often they can be scored is listed below. For campaign scoring, there must be a success in order to capture the score, those below are marked with a *. Refer to the [programs page and progression statuses](/handbook/marketing/marketing-operations/campaigns-and-programs) to see what constitues a `success`.
 
-|**Action**|Campaign Type|**Points**|**Token**|**Type**|**Schedule/Flow Limit**|
-|:-------------:|:-------:|:-----:|:--------:|:-------------:|:-----:|
-|Registered |Registered, <br> Conference > Meeting Requested|    +10    |{{my.Registered}}|    Trigger    | Everytime|
-|Follow Up Requested| Follow Up Requested <br> Conference > Meeting Attended|    +100    |{{my.Follow Up Requested}}    |Trigger    | Everytime|
-|* Program High|Workshop, <br> Self-Service Virtual Event, <br> Webcast, <br> Executive Roundtables |    +30    |{{my.Online - High}} |Trigger| Everytime|
-|* Program Med|Sponsored Webcast, <br>Speaking Session,<br> Owned Event,<br> Conference > Visited Booth    |+20    |{{my.Online - Med}}|Trigger|Everytime|
-|* Program Low |Vendor Arranged Meetings,<br> Conference > Attended    |+10|    {{my.Online - Low}}        |Trigger|Everytime|
-|* Content - High|Analyst Reports| +45|    {{my.Content - High}}    |Trigger  |Everytime|
-|* Content - Med|Gated Content|+15|    {{my.Content - Med}}    |Trigger  |Everytime|
-|* Content -  Low|Content Syndication|+5|    {{my.Content - Low}}    |Trigger  |Everytime|
-|* Survey - Med|(None Defined)    |+30|    {{my.Survey - Med}}        |Trigger|Everytime|
-|* Survey - Low|Googleforms, <br> Default    |+15|    {{my.Survey - Low}}        |Trigger|Everytime|
-|* PathFactory |Consumes PF content|+10|{{my.Content - High}}|Trigger|Everytime|
-|* Inbound  - High|Contact Request, <br> Renewals, <br> [Hand Raise PQL](/handbook/product/product-principles/#a-pql-can-be-further-broken-down-into-two-types-usage-and-hand-raise) <br> In-app Health Check <br> Duo|    +100|{{my.Inbound - High}}|    Trigger|    1/day    |
-|* Inbound - Med|Inbound form, not above |    +60|{{my.Inbound - Med}}    |    Trigger    |1/day|
-|Drift - High| Drift Interactions with Meeting Scheduled|+100|{{my.Drift - High}}|Trigger|1/day|
-|Drift - Low|All other Drift Interactions|+10|{{my.Drift - Low}}|Trigger|1/day|
-|* Trial - Default | SaaS,<br>Subscription Portal   |    +40|{{my.Trial - Default}}    |Trigger| 1/day    |
-|* Trial - Personal | SaaS,<br>Self-Managed,<br>Subscription Portal   |    +65|{{my.Trial - Personal}}    |Trigger| 1/day    |
-|* Trial | SaaS,<br>Self-Managed,<br>Subscription Portal   |    +100|{{my.Trial - Signed Up}}    |Trigger| 1/day    |
-|Subscription|Fills out Subscription Form    |+5|{{my.Subscription}}    |Trigger    |1/week    |
-|Visits Key Webpage|`/pricing, /get-started`, `/install`, `/free-trial`, `/livestream`    |+5    |{{my.Visits Key Webpage}}    |Trigger|1/day    |
-|Visits Mult Webpages|7 pages in 1 day    |+5    |{{my.Visits Mult. Webpages}}    |Trigger    |1/ 3 days|
-|No activity in 30 days|No web, scoring, program activity in last 30, not created in last 30|    -10    |{{my.No Web Activity}}|    Trigger|    1/month|
-|Web: Visits Low Value|`/jobs`|    -10    |{{my.Visits Low Value Webpage}}|    Trigger    |1/day|
-|Email: Unsubscribed|Unsubscribed from Email|    Score Reset    |{{my.Unsubscribed}}|    Trigger    |1/month|
-|Email:  Bounce    |Email Hard Bounces|    -20|    {{my.Bounce}}|    Trigger|1/month|
+|**Behavior**|Campaign Description|**Points Assigned**|**Schedule/Flow Limit**|
+|:--------:|:-------:|:-----:|:--------:|
+|Registered |Registered, <br> Conference > Meeting Requested|    +10    |Everytime|
+|* Program High|Workshop, <br> Self-Service Virtual Event, <br> Webcast, <br> Executive Roundtables |    +30    |Everytime|
+|* Program Med|Sponsored Webcast, <br>Speaking Session,<br> Owned Event,<br> Conference > Visited Booth    |+20    |Everytime|
+|* Program Low |Vendor Arranged Meetings,<br> Conference > Attended    |+10| Everytime|
+|* Content - High|Analyst Reports| +45|Everytime|
+|* Content - Med|Gated Content|+15|  Everytime|
+|* Content -  Low|Content Syndication|+5| Everytime|
+|* Survey - Med|(None Defined)    |+30| Everytime|
+|* Survey - Low|Googleforms, <br> Default    |+15|  Everytime|
+|* PathFactory |Consumes PF content|+10| Everytime|
+|* Inbound - Med|Inbound form, not above |    +60|1/day|
+|Web Chat - Low|All other Drift Interactions|+10|1/day|
+|* Trial - Default | SaaS,<br>Subscription Portal   |    +40| 1/day    |
+|* Trial - Personal | SaaS,<br>Self-Managed,<br>Subscription Portal   |    +65|1/day    |
+|* Trial | SaaS,<br>Self-Managed,<br>Subscription Portal   |    +100| 1/day    |
+|Subscription|Fills out Subscription Form    |+5|1/week    |
+|Visits Key Webpage|`/pricing/`,<br> `/sales`,<br> `/install`,<br> `/features`,<br> `/direction`,<br> `/solutions/startups/`,<br> `/releases/gitlab-com/`    |+25    |1/week    |
 
-##### Score Boosters
+##### Score Boosters and Combination Boosters
 
-These are boosters to scores that occur when a special action takes place above the traditional action above.
+Boosts to scores occur when a special action takes place above the traditional action above. There are also boosters activated when specific high conversion combinations are tracked. 
 
-|**Action**|Description|**Points**|**Token**|**Type**|**Schedule/Flow Limit**|
-|:-------------:|:-------:|:-----:|:--------:|:-------------:|:-----:|
-|PF Demo Booster|Consumes PF content that is a demo|+35|{{my.Demo PF Booster}}|Trigger|1/day|
-|PF Engagement Booster 1|Engagement Time >  2 minutes < 4 minutes|+10|{{my.Content Boost 1}}|Trigger|Everytime|
-|PF Engagement Booster 2|Engagement Time > 4 minutes|+15|{{my.Content Boost 2}}|Trigger|Everytime|
-|PF Fast Moving Buyer|Becomes fast moving buyer|+10|{{my.FMB Booster}}|Trigger|1/month|
-|LinkedIn Form Fill Booster| Fills out LinkedIn Lead Gen Form | +30| {{my.LinkedIn Booster}}|Trigger|Everytime|
-|Re-MQL Score|    Status is Nurture,user takes an activity that increases behaviour score<br>MQL Counter >0    |+20    |{{my.ReMQL}}    |Requested|    1/month|
-|Trial + Action|Success in program within 40 days of starting a trial |+20|{{my.Trial plus Action Booster}}|Trigger|1/month|
-|On24 Engagement Booster | |+10 | {{my.On24 - High}} | Trigger | Once/3 month |
-|On24 Questions Asked Booster | | +5 | {{my.On24 - Low}} | Trigger | Once/week  |
-|On24 Resources Booster | | +5| {{my.On24 - Low}} | Trigger | Once |
+|**Behavior/Combo**|Campaign Description|**Points Assigned**|**Schedule/Flow Limit**|
+|:-------------:|:-------:|:-----:|:--------:|
+|PF Demo Booster|Consumes PF content that is a demo|+35|1/day|
+|PF Engagement Booster 1|Engagement Time >  2 minutes < 4 minutes|+10|Everytime|
+|PF Engagement Booster 2|Engagement Time > 4 minutes|+15|Everytime|
+|PF Fast Moving Buyer|Becomes fast moving buyer|+10|1/month|
+|LinkedIn Form Fill Booster| Fills out LinkedIn Lead Gen Form | +30|Everytime|
+|Re-MQL Score|    Status is Nurture,user takes an activity that increases behaviour score<br>MQL Counter >0    |+20    |    1/month|
+|On24 Engagement Booster | Earned a high "engagement score" on On24 platform |+10 | Once/3 month |
+|On24 Questions Asked Booster | Engaged with team via questions on On24 platform | +5 | Once/week  |
+|On24 Resources Booster | Viewed available research assets via On24 platform| +5| Once |
+|Trial + Action|Success in program within 40 days of starting a trial |+20|1/month|
 
 #### Demographic Scoring
 
-For Job role/function and seniority descriptions can be found [here](https://docs.google.com/spreadsheets/d/1EztHU53vE9Y_mmxlb4taQJ5_oo7CatdFvZNxbMklJf4/edit?usp=sharing). As of February 2023, there is a 70 pt limit on demographic scoring that applies to both demographic and person score.
+For Job role/function and seniority descriptions can be found [here](https://docs.google.com/spreadsheets/d/1EztHU53vE9Y_mmxlb4taQJ5_oo7CatdFvZNxbMklJf4/edit?usp=sharing). There is a 70 pt soft limit on demographic scoring that applies to both demographic and person score.
 
-|**Action**|Campaign Type|**Points**|**Token**|**Type**|**Schedule/Flow Limit**|
-|:-------------:|:-------:|:-----:|:--------:|:-------------:|:-----:|
-|Setup for Company/Team Use|Self-Identified as using for company or team in the product|    +40    |{{my.Setup for Company}}|    Trigger|Once|
-|Business Email Domain|Has a valid business email address|    +20    |{{my.Business Domain}}|    Trigger|Once|
-|Generic Domain|[Contains generic email domain](https://docs.google.com/spreadsheets/d/1IO7DAIvhAhvIydkvLjwP-X_g97Zharf8JpkSVIsmiSs/edit?usp=sharing)|    -10    |{{my.Generic Domain}}|Triggered|Once|
-|Technology - High (Not Live)|[See tech here](https://docs.google.com/spreadsheets/d/1EztHU53vE9Y_mmxlb4taQJ5_oo7CatdFvZNxbMklJf4/edit?usp=sharing)    |+20|    {{my.Tech - High}}|    Batch / Nightly|    Once|
-|Technology - Low (Not Live)|[See tech here](https://docs.google.com/spreadsheets/d/1EztHU53vE9Y_mmxlb4taQJ5_oo7CatdFvZNxbMklJf4/edit?usp=sharing)    |+10|{{my.Tech - Low}}    |    Batch / Nightly|    Once|
-|Seniority - High|[Find descriptions here](https://docs.google.com/spreadsheets/d/1EztHU53vE9Y_mmxlb4taQJ5_oo7CatdFvZNxbMklJf4/edit?usp=sharing)|    +20    |{{my.Seniority - High}}|    Trigger on creation or Update to Title|    Once|
-|Seniority - Med|[Find descriptions here](https://docs.google.com/spreadsheets/d/1EztHU53vE9Y_mmxlb4taQJ5_oo7CatdFvZNxbMklJf4/edit?usp=sharing)|    +15    |{{my.Seniority - Med}}    |    Trigger on creation or Update to Title|    Once|
-|Seniority - Low|[Find descriptions here](https://docs.google.com/spreadsheets/d/1EztHU53vE9Y_mmxlb4taQJ5_oo7CatdFvZNxbMklJf4/edit?usp=sharing)|    +15    |{{my.Seniority - Low}}    |    Trigger on creation or Update to Title|    Once|
-|Seniority - Negative|[Find descriptions here](https://docs.google.com/spreadsheets/d/1EztHU53vE9Y_mmxlb4taQJ5_oo7CatdFvZNxbMklJf4/edit?usp=sharing)|    -10    |{{my.Seniority - Negative}}|    Trigger on creation or Update to Title|    Once|
-|Function - High|[Find descriptions here](https://docs.google.com/spreadsheets/d/1EztHU53vE9Y_mmxlb4taQJ5_oo7CatdFvZNxbMklJf4/edit?usp=sharing)|    +20    |{{my.Function - High}}|    Trigger on creation or Update to Title|    Once|
-|Function - Med|[Find descriptions here](https://docs.google.com/spreadsheets/d/1EztHU53vE9Y_mmxlb4taQJ5_oo7CatdFvZNxbMklJf4/edit?usp=sharing)|+15|    {{my.Function - Med}}|    Trigger on creation or Update to Title|    Once|
-|Function - Low|[Find descriptions here](https://docs.google.com/spreadsheets/d/1EztHU53vE9Y_mmxlb4taQJ5_oo7CatdFvZNxbMklJf4/edit?usp=sharing)|    +10|    {{my.Function - Low}}    |    Trigger on creation or Update to Title|    Once|
-|Function - Negative|[Find descriptions here](https://docs.google.com/spreadsheets/d/1EztHU53vE9Y_mmxlb4taQJ5_oo7CatdFvZNxbMklJf4/edit?usp=sharing)|    -20    |{{my.Function - Negative}}        |Trigger on creation or Update to Title|    Once|
-|Country - Tier 1, Tier 2 |[Country = Tier 1, Tier 2](/handbook/marketing/localization/#priority-countries)|    +5    |{{my.Country - P0, P1}}|    Trigger on creation or Update     |Once|
-| Key Account | Key Account = True |    +20    |{{my.Focus Account}}|    Trigger on creation or Update     |Once|
+|**Demographic Characteristic**|Campaign Type|**Points**|**Schedule/Flow Limit**|
+|:-------------:|:-------:|:-----:|:--------:|
+|Setup for Company/Team Use|Self-Identified as using for company or team in the product|    +30    |Once|
+|Business Email Domain|Has a valid business email address|    +30    |Once|
+|Technology - High (Not Live)|[See tech here](https://docs.google.com/spreadsheets/d/1EztHU53vE9Y_mmxlb4taQJ5_oo7CatdFvZNxbMklJf4/edit?usp=sharing)    |+20|    Once|
+|Technology - Low (Not Live)|[See tech here](https://docs.google.com/spreadsheets/d/1EztHU53vE9Y_mmxlb4taQJ5_oo7CatdFvZNxbMklJf4/edit?usp=sharing)    |+10| Once|
+|Seniority - High|[Find descriptions here](https://docs.google.com/spreadsheets/d/1EztHU53vE9Y_mmxlb4taQJ5_oo7CatdFvZNxbMklJf4/edit?usp=sharing)|    +20    |   Once|
+|Seniority - Med|[Find descriptions here](https://docs.google.com/spreadsheets/d/1EztHU53vE9Y_mmxlb4taQJ5_oo7CatdFvZNxbMklJf4/edit?usp=sharing)|    +15    |   Once|
+|Seniority - Low|[Find descriptions here](https://docs.google.com/spreadsheets/d/1EztHU53vE9Y_mmxlb4taQJ5_oo7CatdFvZNxbMklJf4/edit?usp=sharing)|    +15    |    Once|
+|Function - High|[Find descriptions here](https://docs.google.com/spreadsheets/d/1EztHU53vE9Y_mmxlb4taQJ5_oo7CatdFvZNxbMklJf4/edit?usp=sharing)|    +20    |   Once|
+|Function - Med|[Find descriptions here](https://docs.google.com/spreadsheets/d/1EztHU53vE9Y_mmxlb4taQJ5_oo7CatdFvZNxbMklJf4/edit?usp=sharing)|+15|   Once|
+|Function - Low|[Find descriptions here](https://docs.google.com/spreadsheets/d/1EztHU53vE9Y_mmxlb4taQJ5_oo7CatdFvZNxbMklJf4/edit?usp=sharing)|    +10 |    Once|
+|Country - Tier 1, Tier 2 |[Country = Tier 1, Tier 2](/handbook/marketing/localization/#priority-countries)|    +5   |Once|
+| Key Account | Key Account = True |    +20  |Once|
+
+#### Score Decay
+
+|**Behavior Decay**|**Campaign Description**|**Points Removed**|**Schedule/Flow Limit**|
+|:-------------:|:-------:|:-----:|:--------:|
+|No activity in 30 days|No web, scoring, program activity in last 30, not created in last 30|    -10    |    1/month|
+|Web: Visits Low Value|`/jobs`, `/careers`, `/unsubscribe`|    -10    |1/day|
+|Email:  Bounce    |Email Hard Bounces|    -20|1/month|
+|Email: Unsubscribed|Unsubscribed from Email|    Score Reset based on Demographic score    |1/month|
+
+| **Demographic Decay** |**Campaign Description**|**Points Removed**|**Schedule/Flow Limit**|
+|:-------------:|:-------:|:-----:|:--------:|
+|Generic Domain|[Contains generic email domain](https://docs.google.com/spreadsheets/d/1IO7DAIvhAhvIydkvLjwP-X_g97Zharf8JpkSVIsmiSs/edit?usp=sharing)|    -10    |Once|
+|Seniority - Negative|[Find descriptions here](https://docs.google.com/spreadsheets/d/1EztHU53vE9Y_mmxlb4taQJ5_oo7CatdFvZNxbMklJf4/edit?usp=sharing)|    -10    |    Once|
+|Function - Negative|[Find descriptions here](https://docs.google.com/spreadsheets/d/1EztHU53vE9Y_mmxlb4taQJ5_oo7CatdFvZNxbMklJf4/edit?usp=sharing)|    -20    |  Once|
+
 
 ### Lead Score Classification
 
@@ -289,7 +299,7 @@ To streamline prospecting with lead scoring, as of January 2024 Salesforce now d
 
 A `lead score classification` is a 2-character score/designation meant to classify the likelihood of a prospect leading into a closed-won opportunity - with the score being modeled after the lead's current `demographic` and `behavior` scores. A Marketo automation sets or changes the lead score classification a few minutes after two types of events: 1) when a lead is created 2) when a lead experiences a change in either their `demographic` or `behavior` scores. A visual representation of the scores and their definitions are pictured below in the `Lead Classification Matrix`. 
 
-![Lead Classification Matrix](/content/handbook/marketing/marketing-operations/marketo/lead_classification_matrix.png)
+![Lead Classification Matrix](/handbook/marketing/marketing-operations/marketo/lead_classification_matrix.png)
 
 #### How to use the Lead Classification Matrix and read the Lead Classification
 

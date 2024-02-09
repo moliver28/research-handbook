@@ -31,7 +31,7 @@ This page details processes and general guidelines specific to the Executive Bus
 
 ## Contact us
 
-Please feel free to ping/hang out with us in slack at #eba-team. If you need to quickly communicate with the entire team please @ mention exec-admins in slack.
+Please feel free to ping/hang out with us in slack at #eba-team. If you need to quickly communicate with the entire team please @ mention exec-admins in slack. For requests for Sid, please tag @ceoeba.
 
 ## Meeting request requirements
 

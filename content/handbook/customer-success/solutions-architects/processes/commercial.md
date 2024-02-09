@@ -324,7 +324,7 @@ Commercial SA team holds [Peer Review sessions](/handbook/customer-success/solut
 
 
 ## Paid Time Off
-Commercial SA team members are strongly encouraged to take time off as part of [GitLab's paid time off policy](/handbook/source/handbook/paid-time-off/). Taking off can be intimidating as we may support multiple customers at any given time. 
+Commercial SA team members are strongly encouraged to take time off as part of [GitLab's paid time off policy](/handbook/paid-time-off/). Taking off can be intimidating as we may support multiple customers at any given time.
 To best support our customers, consider the following:
 1. Communicate your time off within your circle in case of coverage.
 2. Create a [PTO coverage issue](https://gitlab.com/gitlab-com/customer-success/solutions-architecture/commercial/announcements/-/issues/new?issuable_template=PTO) A PTO coverage issue may not always be required but here are a couple guiding examples on when to create one:

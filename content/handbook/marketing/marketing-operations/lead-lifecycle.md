@@ -98,6 +98,7 @@ The fields are formula fields and have three possible options - `True`, `False` 
 In an effort to ensure that leads are not owned by inactive users in Salesforce, leads will be reassigned to either new owners or queues based on the lead's status. The following table describes where a lead is reassigned when it's owner moves into a new role or leaves the company.
 
 | Lead Status | New Owner Assignment |
+|----|----|
 | Raw | Raw Queue |
 | Inquiry | Inquiry Queue |
 | Recycle | Recycle Queue |

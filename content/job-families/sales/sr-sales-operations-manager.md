@@ -32,7 +32,7 @@ We're looking for an experienced Sales Operations Sr/Manager to help support the
 - SaaS and B2B experience preferred
 - Interest in GitLab, and open source software
 - You share our values, and work in accordance with those values.
-- [Leadership at GitLab](/handbook/company/team/structure/#management-group)
+- [Leadership at GitLab](/handbook/company/structure/#management-group)
 - Ability to use GitLab
 
 {{% job-families/sales/performance %}}

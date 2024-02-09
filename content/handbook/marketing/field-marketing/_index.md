@@ -124,6 +124,10 @@ When working in GitLab issues and epics, please remember that due to GitLab's va
 
 For more information regarding confidentiality levels and compliancy, please visit [this handbook page](/handbook/communication/confidentiality-levels/).
 
+# [Global Field Marketing Vendor Feedback](https://gitlab.com/groups/gitlab-com/marketing/-/epics/4736)
+
+This feedback epic/spreadsheet is only open to GitLab team members. FMMs and managers to keep details in this spreadsheet regarding both positive and negative experiences with various event vendors for team reference. 
+
 # Field Marketing Campaign Issue Templates, Epic Codes and Progression Status
 
 Field Marketing utilizes the below issue templates and epic codes for virtual events and other campaign tactics.
@@ -970,54 +974,11 @@ It is important to note that there is no limit on link sharing when utilizing th
 1. Once you have the Coupa virtual card information from your FMC, proceed to book/pay for your Pizzatime order via the Pizzatime website.
 1. Provide the payment receipt to your FMC for reference.
 
-# Sourcing New Field Marketing Vendors
-
-Field marketers are always looking for new ways to support the sales teams within their regions and to provide unique, alternative ways to draw potential prospects closer to our company and show value to our current customers in order to expand within those accounts. Field marketers have a vast tool kit of marketing initiatives for precisely that. However, sometimes a gap is identified and field marketers will look to external third party vendors to help fill that gap when it comes to achieving their goals to their marketing metrics.
-
-When souring and selecting a new third-party vendor, there are a few things that should be considered:
-
-1. What are you trying to achieve? What is the gap you have identified? Is it filling the top of the funnel? Building relationships within a specific target audience (i.e. C-Level)? Maybe your goal is delivering on more qualified leads? Be clear on your end goal(s) from the beginning.
-1. Can this vendor achieve your goal? Have the vendor show you proven use cases and references on your specific goals.
-1. Have you sourced more than 1 vendor? A good point of reference is to research at least 2 or 3.
-1. Is this vendor willing to proceed with a pilot program with you? Even with the best intentions, not all 3rd party vendors will fulfill your needs as originally discussed. A pilot program will allow you to try out the vendor and/or their product without requiring a full investment up front.
-1. Identify all of the pieces of the contract. Ensure that you and the 3rd party vendor are aligned on the following:
-    - Cost
-    - Timeline of project
-    - Timeline of onboarding
-    - What is required when it comes to integration - Full Access, No Access or Partial Access
-    - What are your deliverables?
-    - What are their deliverables?
-    - Identify who needs to be trained. What does that training involve?
-    - Who will be the DRI for the project (always have 1 person who will support you during your contract process)?
-    - What is the cost of renewal, or, if you are running a pilot, what is the cost of a full term contract?
-    - If you're running a pilot, what are the goals you have in place to determine if you should invest beyond the pilot phase?
-
-Once you feel confident that you have chosen the right 3rd party vendor, now is the time to begin the following review process.
-
-# Software Vendor/Product Approval Process
-
-1. FMM and FMC to review the [Procurement Handbook Page](/handbook/finance/procurement/#when-should-i-contact-procurement) so you are familiar with the procurement process and lead times. Please be aware of the [SLAs](/handbook/finance/procurement/#-how-long-does-it-take-to-approve-my-coupa-purchase-request) for processing all reviews, approvals and contract negotiations. Note that if the overall cost of the product is over $100k, 2-3 comparison bids are required.
-1. FMM to open a Field Marketing issue and detail out the justification for the potential new vendor/product. Include any presentations, slides and demos that have been provided to help explain the product. Tag your regional manager in the issue to review and discuss. Approval must be received to move forward. Make sure to attach all of the following issues to your main Field Marketing Issue for easy access.
-1. FMM to open a [Contract Request](/handbook/marketing/field-marketing/#field-marketing-contract-requests) issue and assign to the regional FMC.
-    - SLA for FMC to complete the Contract Request issue is 3 business days from the date all needed info is filled out by the FMM in the Contract Request issue. FMM to leave a note if turnaround is urgent (FMCs have been averaging 1-2 business days currently).
-1. FMC to process an NDA with the vendor, specified in the procurement handbook [here](/handbook/legal/procurement-guide-collaborating-with-gitlab-legal/#nda-process). Remember to attach your executed NDA when opening your Zip requisition in the steps below.
-1. If you're requesting a new tool, FMM to open a Marketing Ops Eval issue. Marketing Ops will help evaluate the product and will assist in the procurement process. They will also help you determine if an integration is required with any products in our current tech stack and if so, which team will be the DRI for the integration.
-1. FMC to follow [these instructions](/handbook/business-technology/enterprise-applications/guides/zip-guide) for opening a Zip requisition. Please note that you can submit the Zip requisition even before a contract has been provided. This template details the following approvals:
-    - NDA requirement
-    - Privacy review (if applicable)
-    - Security review
-    - Tech stack request (for new software purchases)
-1. If you're requesting a new tool, and if the new product requires integration with any of our existing products (SFDC, Marketo, Outreach, etc.) FMC to open an integration request issue with the appropriate team (see step above where the Marketing Ops team will help determine). Integration will not begin until all approvals are final and the contract has been fully executed, but opening the integration issue early will give the appropriate team advance notice for planning.
-
 # AMER Field Marketing Event Venue Tracking
 
 The below epic is for tracking venues we would like to utilize for future events, or as a way to evaluate event venues we have already worked with to note the pros and cons of various event space across different regions.
 
 - [AMER Field Marketing Event Venues Epic](https://gitlab.com/groups/gitlab-com/marketing/-/epics/625)
-
-# Field Marketing Contract Requests
-
-In Field Marketing, the FMCs manage all [Zip requisitions](/handbook/business-technology/enterprise-applications/guides/zip-guide) for their regions. For contracts or invoices ready to submit for approval, the FMM will open an issue utilizing the [`Contract_Request`](https://gitlab.com/gitlab-com/marketing/field-marketing/issues/new?issuable_template=Contract_Request) template and follow the instructions to provide important details required before assigning to the regional FMC. SLA for FMC to complete the Contract Request issue is 3 business days from the date all needed info is filled out by the FMM in the Contract Request issue. FMM to leave a note if turnaround is urgent (FMCs have been averaging 1-2 business days currently).
 
 # Corporate Memberships Owned by GitLab Field Marketing
 
@@ -1604,6 +1565,65 @@ Field Marketing manages its budget in [Allocadia](/handbook/marketing/strategy-p
 
 Please note that there is a limit of $75 USD annually per person on customer speaker gifts.
 
+# Field Marketing and the Procurement Process
+
+## Field Marketing Contract Requests
+
+In Field Marketing, the FMCs manage all [Zip requisitions](/handbook/business-technology/enterprise-applications/guides/zip-guide) for their regions. For contracts or invoices ready to submit for approval, the FMM will open an issue utilizing the [`Contract_Request`](https://gitlab.com/gitlab-com/marketing/field-marketing/issues/new?issuable_template=Contract_Request) template and follow the instructions to provide important details required before assigning to the regional FMC. SLA for FMC to complete the Contract Request issue is 3 business days from the date all needed info is filled out by the FMM in the Contract Request issue. FMM to leave a note if turnaround is urgent (FMCs have been averaging 1-2 business days currently).
+
+## Field Marketing Procurement Details
+
+[The Field Marketing Contract Request Template](https://gitlab.com/gitlab-com/marketing/field-marketing/issues/new?issuable_template=Contract_Request) noted above has detailed information regarding numerous aspects of the procurement process. Please make sure to reference this template with any questions. If you have any additional concerns or special cases not covered in the template's details, please reach out to your FMC to discuss in advance of submitting your contract request. 
+
+## Sourcing New Field Marketing Vendors
+
+Field marketers are always looking for new ways to support the sales teams within their regions and to provide unique, alternative ways to draw potential prospects closer to our company and show value to our current customers in order to expand within those accounts. Field marketers have a vast tool kit of marketing initiatives for precisely that. However, sometimes a gap is identified and field marketers will look to external third party vendors to help fill that gap when it comes to achieving their goals to their marketing metrics.
+
+When souring and selecting a new third-party vendor, there are a few things that should be considered:
+
+1. What are you trying to achieve? What is the gap you have identified? Is it filling the top of the funnel? Building relationships within a specific target audience (i.e. C-Level)? Maybe your goal is delivering on more qualified leads? Be clear on your end goal(s) from the beginning.
+1. Can this vendor achieve your goal? Have the vendor show you proven use cases and references on your specific goals.
+1. Have you sourced more than 1 vendor? A good point of reference is to research at least 2 or 3.
+1. Is this vendor willing to proceed with a pilot program with you? Even with the best intentions, not all 3rd party vendors will fulfill your needs as originally discussed. A pilot program will allow you to try out the vendor and/or their product without requiring a full investment up front.
+1. Identify all of the pieces of the contract. Ensure that you and the 3rd party vendor are aligned on the following:
+    - Cost
+    - Timeline of project
+    - Timeline of onboarding
+    - What is required when it comes to integration - Full Access, No Access or Partial Access
+    - What are your deliverables?
+    - What are their deliverables?
+    - Identify who needs to be trained. What does that training involve?
+    - Who will be the DRI for the project (always have 1 person who will support you during your contract process)?
+    - What is the cost of renewal, or, if you are running a pilot, what is the cost of a full term contract?
+    - If you're running a pilot, what are the goals you have in place to determine if you should invest beyond the pilot phase?
+
+Once you feel confident that you have chosen the right 3rd party vendor, now is the time to begin the following review process.
+
+### Working with vendors that are brand new
+New vendors are popping up frequently and in the spirit of iteration and testing, the Field Marketing team at time may want to engage with a vendor that is brand new to the space (remember, at one point in time way back in 2011, GitLab the company was brand new too!). You should work with your leader to assess these opportunties. To ensure we are protecting our own company, you should follow these steps when working with a brand new vendor:
+
+1.  If contacted via social media or other manner by an unknown individual and/or individual(s) related to an event, review all event/program materials, including a detailed review of the organizers website to confirm past events. In addition, review various social media materials.
+1. If an event is unknown, new or first time, the Team Member can engage with Alliance and Channel Team Members to gather feedback on the events organizer and ensure value, use your netowrk internally and ask around if folks know this vendor.
+- Where applicable, request details and documentation related to previous event(s) hosted by the organizer.
+- In situations where an organizer is hosting an inaugural event, Team Members can ask for other partners / sponsors who are participating, and receive direct confirmation from the event space host (e.g, hotel).
+- In situations with first events, the field marketing team can engage the GitLab Legal Team for additional review.
+- [Video walk through](https://youtu.be/Ao-HUl15c1A) with our legal team outlining this process can be found on GitLab Unfiltered.
+
+## Software Vendor/Product Approval Process
+
+1. FMM and FMC to review the [Procurement Handbook Page](/handbook.gitlab.com/handbook/finance/procurement/) so you are familiar with the procurement process and lead times. Please be aware of the SLAs listed in the [Procurement Process](/handbook.gitlab.com/handbook/finance/procurement/#the-procurement-process) for processing all reviews, approvals and contract negotiations. Note the [bid process](/handbook/finance/procurement/#how-to-start-the-procurement-process) based on thresholds as well.
+1. FMM to open a Field Marketing issue and detail out the justification for the potential new vendor/product. Include any presentations, slides and demos that have been provided to help explain the product. Tag your regional manager in the issue to review and discuss. Approval must be received to move forward. Make sure to attach all of the following issues to your main Field Marketing Issue for easy access.
+1. FMM to open a [Contract Request](https://gitlab.com/gitlab-com/marketing/field-marketing/-/issues/new?issuable_template=Contract_Request) issue and assign to the regional FMC.
+    - SLA for FMC to complete the Contract Request issue is 3 business days from the date all needed info is filled out by the FMM in the Contract Request issue. FMM to leave a note if turnaround is urgent (FMCs have been averaging 1-2 business days currently).
+1. FMC to process an NDA with the vendor, specified in the procurement handbook [here](/handbook/finance/procurement/#documentation). Remember to attach your executed NDA when opening your Zip requisition in the steps below.
+1. If you're requesting a new software tool, FMM to open a [Marketing Ops Tools Eval issue](https://gitlab.com/gitlab-com/marketing/marketing-operations/-/issues/new?issuable_template=tools_eval). Marketing Ops will help evaluate the product and will assist in the procurement process. They will also help you determine if an integration is required with any products in our current tech stack and if so, which team will be the DRI for the integration.
+1. FMC to follow [these instructions](/handbook/business-technology/enterprise-applications/guides/zip-guide/) for opening a Zip requisition. Please note that you can submit the Zip requisition even before a contract has been provided. This template details the following approvals:
+    - NDA requirement
+    - Privacy review (if applicable)
+    - Security review
+    - Tech stack request (for new software purchases)
+1. If you're requesting a new tool, and if the new product requires integration with any of our existing products (SFDC, Marketo, Outreach, etc.) FMC to open an integration request issue with the appropriate team (see step above where the Marketing Ops team will help determine). Integration will not begin until all approvals are final and the contract has been fully executed, but opening the integration issue early will give the appropriate team advance notice for planning.
+
 # Field Marketing and Legal
 
 ## Legal Approvals
@@ -1615,16 +1635,6 @@ It should be a rare occasion (and not a result of poor planning), that a contrac
 ## Sweepstakes
 
 Field Marketing follows the legal team's process [here](/handbook/legal/marketing-collaboration/#promotional-games) for contests and sweepstakes.
-
-## Working with vendors that are brand new
-New vendors are popping up frequently and in the spirit of iteration and testing, the Field Marketing team at time may want to engage with a vendor that is brand new to the space (remember, at one point in time way back in 2011, GitLab the company was brand new too!). You should work with your leader to assess these opportunties. To ensure we are protecting our own company, you should follow these steps when working with a brand new vendor:
-
-1.  If contacted via social media or other manner by an unknown individual and/or individual(s) related to an event, review all event/program materials, including a detailed review of the organizers website to confirm past events. In addition, review various social media materials.
-1. If an event is unknown, new or first time, the Team Member can engage with Alliance and Channel Team Members to gather feedback on the events organizer and ensure value, use your netowrk internally and ask around if folks know this vendor.
-- Where applicable, request details and documentation related to previous event(s) hosted by the organizer.
-- In situations where an organizer is hosting an inaugural event, Team Members can ask for other partners / sponsors who are participating, and receive direct confirmation from the event space host (e.g, hotel).
-- In situations with first events, the field marketing team can engage the GitLab Legal Team for additional review.
-- [Video walk through](https://youtu.be/Ao-HUl15c1A) with our legal team outlining this process can be found on GitLab Unfiltered.
 
 
 # Field Marketing Communications

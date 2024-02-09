@@ -11,7 +11,7 @@ title: "Customer Issues Prioritization Framework"
 
 ## Context 
 
-The Customer Prioritization Framework was developed by the [Issue Prioritization Framework Working Group](/handbook/company/team/structure/working-groups/issue-prioritization-framework/) as a way to improve the efficiency of the feedback loops among Sales, Customer Success, and Product. It provides a comprehensive system to categorize and measure customer, and prospective customer, demand for capabilities within GitLab. This page covers how the first iteration of the model works and how to interact with and interpret, the [not public, internal-only](/handbook/communication/confidentiality-levels/#not-public) dashboards that it powers.
+The Customer Prioritization Framework was developed by the [Issue Prioritization Framework Working Group](/handbook/company/working-groups/issue-prioritization-framework/) as a way to improve the efficiency of the feedback loops among Sales, Customer Success, and Product. It provides a comprehensive system to categorize and measure customer, and prospective customer, demand for capabilities within GitLab. This page covers how the first iteration of the model works and how to interact with and interpret, the [not public, internal-only](/handbook/communication/confidentiality-levels/#not-public) dashboards that it powers.
 
 The outcomes the framework is aimed at providing:
 
@@ -279,7 +279,7 @@ Filters:
 
 ## Resources 
 
-- [Issue Prioritization Framework Working Group](/handbook/company/team/structure/working-groups/issue-prioritization-framework/)
+- [Issue Prioritization Framework Working Group](/handbook/company/working-groups/issue-prioritization-framework/)
 - Slack channel: `#wg_issue_prioritization`
 - [Top-level epic](https://gitlab.com/groups/gitlab-com/-/epics/928)
 - [Unfiltered (private) playlist](https://www.youtube.com/playlist?list=PL05JrBw4t0KrKoeXjf5Bdtapu9Cl3T7gI)

@@ -14,7 +14,7 @@ title: Experimentation Design & Analysis
 
 At GitLab, we have a unique approach to experimentation that is built in-house by our incredible development team. The reason we use this approach is to uphold our commitment to our users and customers to protect their privacy. This custom approach leads to some challenges that are not experienced with more commonly used 3rd party experimentation tools. Due to this reality, experimentation at GitLab must be approached with a high level of intentionality and forethought. The purpose of this handbook page is to create some guidelines around experimentation to avoid common errors and to define best practices.
 
-In order to increase our [velocity](/handbook/engineering/development/growth/#experiment-cadence)
+In order to increase our [velocity](/handbook/marketing/growth/engineering/#experiment-cadence)
 while maintaining our ability to learn from experiments, the GitLab Growth stage (including the
 Product Analysis group) is adopting a new framework for designing and analyzing experiments. This
 framework is adapted from the work of data scientist [Danielle Nelson](https://www.linkedin.com/in/daniellevnelson/).
@@ -46,7 +46,7 @@ Context_keys are used in experiment analysis to determine the unique users/proje
 
 Examples:
 - Assigning context_key to be sticky to a user (1 context key = 1 user), if we’re identifying how many users adopted specific features as a result of an experiment regardless of their namespace or project.
-- Assigning context_key to be sticky to namespaces (1 context key = 1 namespace) , if we’re identifying how many stages were adopted as a result of an experiment regardless of how many users engaged in each stage.  
+- Assigning context_key to be sticky to namespaces (1 context key = 1 namespace) , if we’re identifying how many stages were adopted as a result of an experiment regardless of how many users engaged in each stage.
 - Assigning context_key to be sticky per user, per namespace (1 context key = 1 user per namespace) if we’re identifying how many specific users in a namespace adopted specific features as a result of an experiment. This will prevent users who are part of multiple namespaces to have their feature and/or stage adoption from being counted towards all the namespaces they are a part of.
 
 ### Variant
@@ -156,7 +156,7 @@ There are three different kinds of metrics that can be defined for an experiment
   Examples:
   - If your experiment specifically is looking at the number of trials, you could also place conversions as a secondary metric as the increase in trials would theoretically impact the number of conversions.
   - If your experiment is targeting adoption of a specific stage, you could place Stages per Organization as a secondary metric as the increase in adoption of a stage could lead to additional stages being adopted.
-  
+
 **3. Leading Indicators**
 
   Leading indicators are a directional determinant of the performance of an experiment based on the volume of front-end events between variants
@@ -326,7 +326,7 @@ You can find additional experimentation resources throughout the handbook and Gi
 Here are a few pages to check out:
 
 - [How Growth launches experiments](/handbook/product/growth/#how-growth-launches-experiments)
-- [Growth Engineering Guide to running experiments](/handbook/engineering/development/growth/experimentation/)
+- [Growth Engineering Guide to running experiments](/handbook/marketing/growth/engineering/experimentation/)
 - [GitLab Experiment Guide](https://docs.gitlab.com/ee/development/experiment_guide/)
 - [Experimentation Best Practices](/handbook/business-technology/data-team/experimentation-best-practices/)
 

@@ -39,7 +39,7 @@ The Director, Accounting Operations is a [grade 10](/handbook/total-rewards/comp
 - 3+ years in a finance operations role, leading various finance operations functions
 - Knowledge of Coupa and Workday preferred
 - You share our [values](/handbook/values/), and work in accordance with those values
-- [Leadership](/handbook/company/team/structure/#director-group) at GitLab
+- [Leadership](/handbook/company/structure/#director-group) at GitLab
 - Ability to use GitLab
 
 ## Performance Indicators

@@ -14,7 +14,7 @@ title: "Chief Financial Officer"
 - Oversee accounting and billing system that can scale with company growth
 - Accurate, timely, detailed, and easy-to-access metrics on sales, sales enablement, customer success and adoption, peopleops, marketing, engineering, product, and finance.
 
-- [Leadership at GitLab](/handbook/company/team/structure/#e-group)
+- [Leadership at GitLab](/handbook/company/structure/#e-group)
 
 ## Performance Indicators
 

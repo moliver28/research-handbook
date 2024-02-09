@@ -146,7 +146,7 @@ If you don’t have access to the items below and believe you should, open an [A
 - View internal data resources in our [internal handbook for Territory Planning here](https://internal.gitlab.com/handbook/sales/territory-planning/#data-sources).
 - Salesforce (View in Okta), including reports that contain [propensity model data](https://internal.gitlab.com/handbook/sales/propensity_models/).
 - [Clari](/handbook/sales/forecasting/) is used to view and document forecasting and pipeline data.
-- [Periscope](https://app.periscopedata.com/app/gitlab/403199/Welcome-Dashboard-%F0%9F%91%8B) is a data visualization tool. Your manager can send you specific dashboards relevant to your team to view.
+- [Tableau](https://10az.online.tableau.com/#/site/gitlab/home) is a data visualization tool. Your manager can send you specific dashboards relevant to your team to view.
 - [DemandBase](/handbook/marketing/account-based-marketing/demandbase/) is used by SDRs who can show you relevant data related to your target prospects. It has a wealth of intent and propensity to buy data that is married with account engagement indicators to create a holistic intent mapping for each account.
 - [Datafox](/handbook/business-technology/tech-stack/#datafox) is used to view relevant account information.
 - [LeanData](/handbook/marketing/marketing-operations/leandata/) is automatically pulled into Salesforce as data that you can use to better understand contacts and accounts. You don’t need to request access.

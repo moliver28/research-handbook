@@ -32,7 +32,7 @@ The Regional Sales Director is a [grade 10](/handbook/total-rewards/compensation
 - Experience utilizing CRM systems and marketing automation systems (such as salesforce, market, outreach etc.)
 - Prior employment in technology consulting, open source software or software development is highly desired
 - Demonstrate high levels of integrity, initiative, honesty and leadership
-- [Leadership at GitLab](/handbook/company/team/structure/#director-group)
+- [Leadership at GitLab](/handbook/company/structure/#director-group)
 - Ability to use GitLab
 - Ability to travel if needed and comply with the company’s [travel policy](/handbook/travel/)
 

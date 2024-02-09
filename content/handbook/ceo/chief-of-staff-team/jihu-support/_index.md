@@ -187,4 +187,4 @@ We differentiate proprietary features for JiHu distributions by including them i
 
 - [GitLab licensed its technology to new independent Chinese company](https://about.gitlab.com/blog/2021/03/18/gitlab-licensed-technology-to-new-independent-chinese-company/)
 - [GitLab licensing technology to independent Chinese company FAQ](/handbook/faq-gitlab-licensing-technology-to-independent-chinese-company/)
-- [China Service Working Group](/handbook/company/team/structure/working-groups/china-service/)
+- [China Service Working Group](/handbook/company/working-groups/china-service/)

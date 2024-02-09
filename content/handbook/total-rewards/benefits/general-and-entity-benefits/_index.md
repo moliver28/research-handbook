@@ -229,7 +229,7 @@ Team member commission payments with less than 6 months of past performance will
 
 Team members with 6 months or more of past performance are paid (parental leave only) based on the 12 prior months of performance with a cap at 100% of plan. For example, if a team member 8 months in role attained 85% of plan, they would be compensated at the same rate while on leave, but a team member 12 months in role will be compensated based on their prior 12 months of performance.
 
-On the day you return from leave and going forward, your commissions will be based on current performance only. The rate of commissions paid during your leave will be confirmed by the sales commissions team and communicated to the team member through the Absence Management team prior to your leave start date. If your country of employment has specific laws regarding the payout of commissions when on leave, those would supersede our policy.
+On the day you return from leave and going forward, your commissions will be based on current performance only. If your country of employment has specific laws regarding the payout of commissions when on leave, those would supersede our policy.
 
 In all cases, target variable pay used for LOA commission payments is 1/12 of annual on-target incentives (OTI) per month on leave.
 
@@ -241,21 +241,19 @@ In all cases, quota relief is calculated based on the per-month quotas set for a
 
 ### Commission Payments on Non-Parental Leave
 
-Effective FY24, team members on leave for 30 days or more will be eligible for Commissions to be paid for the first five weeks of non-parental leave at a 50% guarantee. After five weeks of non-parental leave, the team member would become ineligible for commissions. Any local requirements for commission payments on non-parental leave would supersede this policy.
+Effective Q1 FY25, team members on leave for 30 days or more will be eligible for Commissions to be paid for the first five weeks of non-parental leave. Commissions will be paid based on the 6 prior months of performance with a cap at 100% of plan. After five weeks of non-parental leave, the team member would become ineligible for commissions. Any local requirements for commission payments on non-parental leave would supersede this policy.
+
+For Solution Architects and Sales Management and Customer Success Management, payment will be calculated for individuals using actual team performance while on leave for the first five weeks of non-parental leave. These roles will not be eligible for quota relief during parental leave.
+
+For Sales roles with a utilization attainment, like the [Professional Services Engineer](/handbook/customer-success/professional-services-engineering/#team-metrics), since the utilization attainment is based on delivering above 70% of available billable hours, we apply the baseline attainment linked to utilization attainment. At the end of 90 continuous days of parental or medical leave, a one time payment of the 50% billable utilization attainment will be paid. Utilization payout during parental or medical leave is not based on prior individual performance, since projects identified for billable utilization are based on sales engagements and services attached, and not determined by individual performance.
+
+On the day you return from leave, the utilization payout returns to the established utilization attainment ranges.
 
 #### Quota Relief While On Non-Parental Leave
 
 Additionally, effective Q1 FY24, commissioned roles are eligible to receive quota relief if the team member has been with GitLab for six months or longer prior to the start of the leave. The team member will receive credit and commissions as specified in their existing Participant Schedule that occur ***prior*** to the start of the leave. After 60 continuous days of leave, quota relief will be applied to the team member on leave for the total duration of the leave up to a total of 3 months. The team member would receive an amended Participant Schedule upon return from leave. That amended participant schedule will include a prorated On Target Incentive based off the number of days that a team member is in seat for the fiscal year. For example, if coming back from leave at the beginning of a fiscal year the On Target Incentive will not be prorated. Please review this [reference slide](https://docs.google.com/presentation/d/1pWM8UhJGL7G8w_QzLKM1q2Rqql4OKm7vLD9HSCKfT9g/edit#slide=id.p) for an illustration of the quota relief and calculation process. For more information on quota relief and commissions on leave, please refer to the terms in the [Sales Compensation Plan](/handbook/finance/sales-comp-plan/#sales-compensation-plan).
 
 Sales management has discretion on how to cover a team member's territory while they are on leave. However, if another team member is assigned to cover business for someone on leave, they should be assigned the opportunity in SFDC but not the account. Team members covering opportunities will be compensated on the opportunities that they close in their name. Reassigning accounts may trigger quota changes.
-
-For Solution Architects and Management and Customer Success Managers and Management, payment will be calculated for individuals using actual team performance while on leave. These roles will not be eligible for quota relief during parental leave.
-
-For Sales roles with a utilization attainment, like the [Professional Services Engineer](/handbook/customer-success/professional-services-engineering/#team-metrics), since the utilization attainment is based on delivering above 70% of available billable hours, we apply the baseline attainment linked to utilization attainment, 50%.
-
-At the end of 90 continuous days of parental or medical leave, a one time payment of the 50% billable utilization attainment will be paid. Utilization payout during parental or medical leave is not based on prior individual performance, since projects identified for billable utilization are based on sales engagements and services attached, and not determined by individual performance.
-
-On the day you return from leave, the utilization payout returns to the established utilization attainment ranges.
 
 You are entitled to and need to comply with your local regulations. They override our policy.
 

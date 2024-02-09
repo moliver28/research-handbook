@@ -24,8 +24,7 @@ description: "The GitLab Enterprise Data Team is responsible for empowering ever
 * Our [Principles](/handbook/business-technology/data-team/principles/) inform how we accomplish our mission.
 * Watch our [Data Recruiting Video](https://youtu.be/4DlwsBIPxUw) to learn about the growing Data Program.
 
-**Would you like to contribute? [Become a Data Champion](/handbook/business-technology/data-team/direction/data-champion/), [recommend an improvement](https://gitlab.com/gitlab-data/analytics/-/issues), [visit Slack #data](https://gitlab.slack.com/messages/data/), [watch a Data Team video](https://www.youtube.com/playlist?list=PL05JrBw4t0KrRVTZY33WEHv8SjlA_-keI). We want to hear from you!**
-{: .alert .alert-success}
+**Would you like to contribute? [Recommend an improvement](https://gitlab.com/gitlab-data/analytics/-/issues), [visit Slack #data](https://gitlab.slack.com/messages/data/), [watch a Data Team video](https://www.youtube.com/playlist?list=PL05JrBw4t0KrRVTZY33WEHv8SjlA_-keI). We want to hear from you!**
 
 ## How Data Works at GitLab
 
@@ -49,10 +48,6 @@ The GitLab Data Program includes teams focused in the following areas:
 * [Product Analysis Group](/handbook/product/product-analysis/)
 * [Analytics Instrumentation Group](/handbook/engineering/development/analytics/analytics-instrumentation/)
 * [Sales Analytics](/handbook/sales/field-operations/sales-strategy/)
-
-### Data Program Collaboration Hub
-
-List of the Data Program Teams meeting series, subject DRIs, slack channels, and initiatives can be found in the [Data Program Collaboration Hub](/handbook/business-technology/data-team/data-program-collaboration-hub) page.
 
 ### How Data Teams Work Together
 
@@ -80,7 +75,7 @@ classDiagram
 ```
 ### The Data Platform & Architecture Team
 
-The **[Data Platform Team & Architecture Team](/handbook/business-technology/data-team/organization/engineering/)** is part of the Enterprise Data Team and focuses on building and maintaing secure, efficent, and reliable data systems [data infrastructure](/handbook/business-technology/data-team/platform/). The Data Platform & Architecture Team is both a development team and an operations/site reliability team. The team supports all Data Fusion Teams with **available, reliable, and scalable** data compute, processing, and storage. Platform components include the Data Warehouse, New Data Sources, Data Pumps, Data Security, and related new data technology. The Data Platform team also drives the [Data Management processes](/handbook/business-technology/data-team/data-management/). The Data Platform Team is composed of [Data Engineers](/job-families/finance/data-engineer/).
+The **[Data Platform Team & Architecture Team](/handbook/business-technology/data-team/organization/engineering/)** is part of the Enterprise Data Team and focuses on building and maintaing secure, efficent, and reliable data systems [data infrastructure](/handbook/business-technology/data-team/platform/). The Data Platform & Architecture Team is both a development team and an operations/site reliability team. The team supports all Data Pods with **available, reliable, and scalable** data compute, processing, and storage. Platform components include the Data Warehouse, New Data Sources, Data Pumps, Data Security, and related new data technology. The Data Platform team also drives the [Data Management processes](/handbook/business-technology/data-team/data-management/). The Data Platform Team is composed of [Data Engineers](/job-families/finance/data-engineer/).
 
 ### Analytics Engineering Team
 
@@ -159,8 +154,6 @@ Additionally we want to shift to a more aspirational measurement which is to mea
 - [#data-lounge](https://gitlab.slack.com/messages/data-lounge/) is for links to interesting articles, podcasts, blog posts, etc. A good space for casual data conversations that don't necessarily relate to GitLab. Also used for intrateam discussion for the Data Team.
 - [#data-engineering](https://gitlab.slack.com/messages/data-engineering/) is where the GitLab Data Platform team collaborates.
 - [#bt-data-science](https://gitlab.slack.com/messages/bt-data-science/) is where the GitLab Data Science team collaborates.
-- [#bt-data-collaboration](https://gitlab.slack.com/messages/bt-data-collaboration) is where the GitLab Data Collaboration team collaborates.
-- [#data-onboarding](https://gitlab.slack.com/archives/C01NMHHR9PB) is where the data team helps data people onboard into the program and system.
 - [#business-technology](https://gitlab.slack.com/messages/business-technology/) is where the Data Team coordinates with Business Technology in order to support scaling, and where all Business Technology-related conversations occur.
 - [#analytics-pipelines](https://gitlab.slack.com/messages/analytics-pipelines/) is where slack logs for dbt runs and monte carlo analysis are output and is for analytics engineers to maintain. The DRI for tracking and triaging issues from this channel is shown [here](/handbook/business-technology/data-team/how-we-work/triage/#enterprise-data-triager).
 - [#data-triage](https://gitlab.slack.com/messages/data-triage/) is an activity feed of opened and closed issues and MR in the data team project.
@@ -204,7 +197,6 @@ You can tag the Data Team in GitLab using:
 | [Experimentation Best Practices](/handbook/business-technology/data-team/experimentation-best-practices/) |
 | [Data Onboarding](/handbook/business-technology/data-team/programs/#data-onboarding) |
 | [Learning Library](/handbook/business-technology/data-team/learning-library/) |
-| [Sisense  Guide](/handbook/business-technology/data-team/platform/sisensecdt/) |
 | [Tableau Guide](/handbook/business-technology/data-team/platform/tableau/) |
 | [Tableau Style Guide](/handbook/business-technology/data-team/platform/tableau-style-guide/) |
 
@@ -227,7 +219,6 @@ You can tag the Data Team in GitLab using:
 - [How The Data Platform Works](/handbook/business-technology/data-team/platform/)
     - [Data CI Jobs](/handbook/business-technology/data-team/platform/ci-jobs/)
     - [Data Infrastructure](/handbook/business-technology/data-team/platform/infrastructure/)
-    - [Data Champion](/handbook/business-technology/data-team/direction/data-champion/)
     - [Data Onboarding](/handbook/business-technology/data-team/programs/#data-onboarding)
 
     - [Data for Product Managers](/handbook/business-technology/data-team/programs/data-for-product-managers/)
@@ -242,7 +233,6 @@ You can tag the Data Team in GitLab using:
     - [RStudio Guide](/handbook/business-technology/data-team/platform/rstudio/)
     - [SQL Style Guide](/handbook/business-technology/data-team/platform/sql-style-guide/)
     - [Snowplow](/handbook/business-technology/data-team/platform/snowplow/)
-    - [Sisense](/handbook/business-technology/data-team/platform/sisensecdt/)
     - [Tableau](/handbook/business-technology/data-team/platform/tableau/)
     - [Tableau Style Guide](/handbook/business-technology/data-team/platform/tableau-style-guide/)
     - [Trusted Data Framework](/handbook/business-technology/data-team/platform/dbt-guide/#trusted-data-framework)

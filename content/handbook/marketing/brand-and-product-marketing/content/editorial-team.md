@@ -109,7 +109,7 @@ We do not capitalize job titles, regardless of whether they appear before or aft
 
 ### GitLab functions/departments/teams
 
-These are elements that make up GitLab the company's [organizational structure](/handbook/company/team/structure/#organizational-chart). Capitalize the name of the element, but not the word after:
+These are elements that make up GitLab the company's [organizational structure](/handbook/company/structure/#organizational-chart). Capitalize the name of the element, but not the word after:
 
 > Example: Engineering function, Security department
 

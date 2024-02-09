@@ -161,6 +161,20 @@ We have [cross-functional prioritization](/handbook/product/product-processes/#c
 
 {{< cross-functional-dashboards filters="authentication" >}}
 
+### Roadmap planning and t-shirt sizing
+
+At the start of the fiscal year, product and engineering counterparts collaborate over areas we want to focus on. This allows us to prepare issues that will be added to priorities.yml ahead of each milestone, gauge whether we are overcommitting to the year, and transparently share what the delivery goals are for the upcoming year. As part of this exercise, engineering also performs a high level t-shirt sizing to assist with planning. It's important to highlight that the sizing is high level estimation, based on expected complexity and not the actual length of time taken to complete the work similar to how milestone estimation is done. An example of the scales used would be:
+
+Average story points completed per milestone: 48w. This includes bugs, features, maintenance, and any security vulnerability work.
+
+T-shirt sizing scale:
+- Small → < 5w
+- Medium → < 8w
+- Large → < 16 w
+- X-large → 32 w
+
+The roadmap items are then marked with the `Small`, `Medium` labels and a priority to ensure, higher priority work is scheduled and appropriately resourced.
+
 #### Monthly cross-functional dashboard review
 
 We create a monthly issue that is assigned to all counterparts. The issue has to be created manually by an Engineering Manager, but we have an issue template in the [Authentication discussion repo](https://gitlab.com/gitlab-org/govern/authentication/discussion).

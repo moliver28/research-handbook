@@ -1,5 +1,5 @@
 ---
-title: "GitLab with Git Essentials - Hands-On Lab"
+title: "GitLab with Git Essentials - Hands-On Lab Overview"
 description: "This Hands-On Guide walks you through the lab exercises used in the GitLab with Git Essentials course."
 ---
 

@@ -28,22 +28,27 @@ GitLab’s US Benefits Open Enrollment for Calendar Year 2024 took place from 20
 
 **Illinois Team Members:** In accordance to the Illinois Consumer Coverage Disclosure Act, please find the [2023 Coverage Summary](https://drive.google.com/file/d/1LUjsk4eWyQIktMR1li_Mp0KIKQ2ZKarF/view?usp=sharing) for the essential health benefits available to you.
 
-## 2023 Plan Year & Archived Plans
-
-Please see additional information on the 2023 US Benefit Plans:
-
-- Review the [2023 Benefits at Glance](https://drive.google.com/file/d/19r8Ai1AYft_1b-Pcvnw0cQTCq1O0M86k/view?usp=sharing) and [2023 US Benefits Guide](https://drive.google.com/file/d/1vwdEJIdqogqbfFpwcRVC1cHcjH4SsckR/view?usp=sharing) for full plan details and updated plan rates. - Candidates and New hires who are about to start with GitLab can view this document by clicking on the link and requesting access, access will be granted shortly after request.
-- Watch the [2023 US Benefits Video](https://www.brainshark.com/willis/vu?pi=zIgzfm1iozgaiCz0) for a full review of the benefit plans.
+## Archived Plans & Tax Details
 
 Team Members can find Archived benefit plans, details, and open enrollment for prior years listed below:
 - [**2023 Calendar Year**](https://gitlab.com/gitlab-com/content-sites/handbook/-/blob/5b8646cc905cb0aad9890c38ab4636f17ff3d5ef/content/handbook/total-rewards/benefits/general-and-entity-benefits/inc-benefits-us/_index.md)
 - [**2022 Calendar Year**](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/09e5a7b8e3be9a969199786fcee6cff72b40ad1f/sites/handbook/source/handbook/total-rewards/benefits/general-and-entity-benefits/inc-benefits-us/index.html.md)
 - [**2021 Calendar Year**](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/fd1efce5ea06c2a26dddeec9dea3f3c217adeeab/sites/handbook/source/handbook/total-rewards/benefits/general-and-entity-benefits/inc-benefits-us/index.html.md)
 
+Team Members can access their 1095-C Documents Via PlanSource
+You can log into PlanSource through your Workday profile. There is an integration built between Workday and Plansource that allows for single sign on.
+
+1. Login into the [Workday](https://www.myworkday.com/gitlab/d/home.htmld) Note: Plansource does not appear in Okta but in Workday directly.
+1. Once you have logged into Workday click `View All Apps` link. Click `Personal Information` app
+1. Scroll to the bottom of the page under `External Links`, select `US Benefits Enrollment - PlanSource`
+1. On the left Column on the PlanSource home page, select `Documents`, select `Tax Documents`
+1. Select `Prior Calendar Year` and Download the 1095-C form. You can also elect to go Paperless moving forward.  
+
 ## Who To Contact
 
 - For a full list of carrier contacts please see the [Benefit Mobile Wallet Card](https://mymobilewalletcard.com/gitlab/)
 - For benefit inquiries and assistance with any claims escalations: WTW Benefits Helpline `877-409-9288` or `GitLab@willistowerswatson.com`
+- For Cigna related questions please use the [Cigna One Guide Service](https://drive.google.com/file/d/1eIvtYtYPSt3Q0h-Byd16CFFfT0bxv8yF/view?usp=sharing)
 - For support with the PlanSource system: `total-rewards@ gitlab.com`
 - For questions regarding internal policies, etc. 401k, : `total-rewards@ gitlab.com`
 
@@ -72,7 +77,7 @@ For questions on benefits, please see the following [PlanSource Video Library](h
 
 You can log into PlanSource through your Workday profile. There is an integration built between Workday and Plansource that allows for single sign on.
 
-1. Login into the Workday site via Okta. Note: Plansource does not appear in Okta but in Workday directly.
+1. Login into the [Workday](https://www.myworkday.com/gitlab/d/home.htmld) site via Okta. Note: Plansource does not appear in Okta but in Workday directly.
 1. Once you have logged into Workday click `View All Apps` link. Click `Personal Information` app
 1. Scroll to the bottom of the page under `External Links`, select `US Benefits Enrollment - PlanSource`
 1. The benefits enrollment portal will then open in a separate screen for you to complete your enrollments or review your plans.

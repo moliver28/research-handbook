@@ -31,7 +31,6 @@ Teams in the Ops Sub-Department map to several Product Sections.  Product direct
 * [CI Section Direction](https://about.gitlab.com/direction/ci)
 * [CD Section Direction](https://about.gitlab.com/direction/cd)
 * [Observability Direction](direction/analytics/observability/)
-* [Service Management Direction](https://about.gitlab.com/direction/service_management/service_desk)
 
 ## Slack channels
 
@@ -39,7 +38,7 @@ Teams in the Ops Sub-Department map to several Product Sections.  Product direct
 - [#cd-section](https://gitlab.slack.com/archives/C05BTB4CBGQ) - CD Section discussions spanning Deploy Stage
 - [#ops_staff_plus](https://gitlab.slack.com/archives/C0305PJB9JR) - Foster collaboration and technical leadership within Ops section
 - [#doe-ops](https://gitlab.slack.com/archives/CT9CM1VDJ) - Channel for GitLab's Director of Engineering, Ops
-- [🔒ops-staff-confidential](#private) - Channel for reviewing Ops promotion docs or sharing other confidential information.  Please use #doe-ops or #ops-section for topics that don’t require confidentiality.
+- [🔒ops-staff-confidential](#private) - Channel for reviewing Ops promotion docs or sharing other confidential information.  Please use #doe-ops or other public channels for topics that don’t require confidentiality.
 
 ## Meetings
 
@@ -68,7 +67,8 @@ Team members are encouraged to use these videos to transparently showcase the cu
 
 | Year | Quarter | Links |
 | ------ | ------ | ------ |
-| 2023 | FY24-Q3  | [August](https://gitlab.com/gitlab-com/ops-sub-department/ops-engineering-management/-/issues/242), [September](https://gitlab.com/gitlab-com/ops-sub-department/ops-engineering-management/-/issues/246)|
+| 2023 | FY24-Q1  | [November](https://gitlab.com/gitlab-com/ops-sub-department/ops-engineering-management/-/issues/260), [December](https://gitlab.com/gitlab-com/ops-sub-department/ops-engineering-management/-/issues/263), [January](https://gitlab.com/gitlab-com/ops-sub-department/ops-engineering-management/-/issues/269)|
+| 2023 | FY24-Q3  | [August](https://gitlab.com/gitlab-com/ops-sub-department/ops-engineering-management/-/issues/242), [September](https://gitlab.com/gitlab-com/ops-sub-department/ops-engineering-management/-/issues/246), [October](https://gitlab.com/gitlab-com/ops-sub-department/ops-engineering-management/-/issues/250)|
 | 2023 | FY24-Q2 | [Videos](https://gitlab.com/groups/gitlab-com/-/epics/2151) |
 | 2023 | FY24-Q1 | [Videos](https://gitlab.com/groups/gitlab-com/-/epics/2099) |
 
@@ -300,7 +300,7 @@ The content of these updates varies by individual and role:
 
 #### Engineering Manager
 
-1. Cadence: Weekly
+1. Cadence: Weekly to Monthly (Optional)
 1. Topics:
     1. Highlights & Accomplishments
     1. Team Projects & Priorities (progress, blockers, key decisions, etc.)
@@ -308,7 +308,7 @@ The content of these updates varies by individual and role:
 
 #### Senior Engineering Manager
 
-1. Cadence: Monthly
+1. Cadence: Monthly (Optional)
 1. Topics:
     1. Milestone Review
         1. Allocation of focus in milestone plans (major features, maintenance, etc.)
@@ -318,16 +318,11 @@ The content of these updates varies by individual and role:
 
 #### Principal Engineer
 
-1. Cadence: Weekly
+1. Cadence: Weekly (Optional)
 1. Topics:
     1. Highlights & Accomplishments
     1. Projects & Priorities (progress, blockers, key decisions, etc.)
 
-#### Director
-
-1. Cadence: Monthly
-1. Topics:
-    1. Summary of Highlights & Accomplishments across the section
 
 ### To create a weekly async update:
 
@@ -335,7 +330,7 @@ The content of these updates varies by individual and role:
 2. Apply the label `~OpsSection::AsyncUpdate`.  (The label `~OpsSection::Weekly-Update` can also be used for backwards compatibility reasons.)
 3. Choose a descriptive title.  Include your update in the issue description.
 
-### To HIGHLIGHT an item for inclusion in the Director update
+### To HIGHLIGHT an item for broader sharing
 
 1. Begin any paragraph in your update with the text `HIGHLIGHT:`
 1. These paragraphs will automatically be copied into the Highlights & Accomplishments section of the monthly Director's update.

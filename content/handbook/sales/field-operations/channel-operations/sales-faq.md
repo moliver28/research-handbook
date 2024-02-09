@@ -395,3 +395,17 @@ The partner notified us that the customer is unable to use their GitLab Self-Man
 Request approval from your VP via SFDC chatter to provide an offline or legacy license key for a closed-won opportunity. If/when VP approval is granted, [submit an internal support ticket](https://support-super-form-gitlab-com-support-support-op-651f22e90ce6d7.gitlab.io/) to request an updated license be issued to the customer.
 
 </details>
+
+<details>
+<summary markdown="span">
+The customer received an error stating they are out of Compute Minutes so their instance has stopped working. How can I quickly resolve this?
+</summary>
+
+The customer must add Compute Minutes via the same procurement path as the original order (i.e., if they purchased the original subscription through a partner, they must purchase the additional minutes through the same partner). Please take the following steps:
+
+1. Initiate the procurement process. For channel deals, GitLab Sales to provide the partner a quote for additional Compute Minutes. For AWS/GCP deals, GitLab Sales to generate a private offer to the customer for additional Compute Minutes
+2. GitLab Sales to submit an internal support ticket to request that the support team add minutes to the customer's instance to get the customer back online while the GitLab procurement cycle is completed. To submit an internal support ticket, use the `Other> Other License & Renewals Related Issue request type`, and provide as much information as possible in the request to help drive quick review and approval (e.g., customer is locked out and required to wait on our procurement cycle since they purchase via partner, needs additional minutes to get back online)
+
+**Important to Note**, The Support Team will not keep track nor remove any compute minutes, therefore GitLab Sales should request a modest amount of minutes to cover the time period necessary while waiting for the sale to process.
+
+</details>

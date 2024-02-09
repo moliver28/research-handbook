@@ -178,7 +178,7 @@ We use the Vulnerability Report with filters to focus on items matching [our pol
 1. [License-db Vulnerability Report[License-db Vulnerability Report]
   - To configure the report manually, select all [license-db](#license-db) projects and apply the `Still detected` activity filter and apply the `Needs Triage` status.
 
-For each item, investigate and either [dismiss](#dismissing-a-vulnerability) or [confirm](#confirming-a-vulnerability) it. If it's not clear whether there's indeed a threat, escalate to our [Application Security team](/handbook/security/security-engineering/application-security/).
+For each item, investigate and either [dismiss](#dismissing-a-vulnerability) or [confirm](#confirming-a-vulnerability) it. If it's not clear whether there's indeed a threat, escalate to our [Application Security team](/handbook/security/product-security/application-security/).
 
 > Refer to [Vulnerability status definitions](https://docs.gitlab.com/ee/user/application_security/vulnerabilities/#vulnerability-status-values) in case you are unsure of what each of them mean.
 
@@ -257,11 +257,11 @@ You can leverage quick actions to add the necessary labels.
     /label ~"Category:Software Composition Analysis"
     /label ~"Category:Container Scanning"
 
-It's important to add the `~security` and `~"bug::vulnerability"` labels as described above, because the [`AppSec Escalation Engine`](https://gitlab.com/gitlab-com/gl-security/engineering-and-research/automation-team/appsec-escalator/-/blob/3a7e8a4baed7b7e54039558f4f76328046543a0c/README.md#L3) will automatically pick up any issues with these labels and add additional labels `~security-sp-label-missing` and `~security-triage-appsec` as well as mention the issue in the `#sec-appsec` Slack channel. At this point, the [Stable Counterpart](/handbook/engineering/development/sec/secure/#stable-counterparts) or [Application Security team](/handbook/security/security-engineering/application-security/) triage person will pick up the issue and assign a severity as part of the appsec triage rotation.
+It's important to add the `~security` and `~"bug::vulnerability"` labels as described above, because the [`AppSec Escalation Engine`](https://gitlab.com/gitlab-com/gl-security/engineering-and-research/automation-team/appsec-escalator/-/blob/3a7e8a4baed7b7e54039558f4f76328046543a0c/README.md#L3) will automatically pick up any issues with these labels and add additional labels `~security-sp-label-missing` and `~security-triage-appsec` as well as mention the issue in the `#sec-appsec` Slack channel. At this point, the [Stable Counterpart](/handbook/engineering/development/sec/secure/#stable-counterparts) or [Application Security team](/handbook/security/product-security/application-security/) triage person will pick up the issue and assign a severity as part of the appsec triage rotation.
 
 Once the issue is created, please add it to [the vulnerability's linked items](https://docs.gitlab.com/ee/user/application_security/vulnerabilities/#link-a-vulnerability-to-existing-issues) for ease of tracking.
 
-Developers reporting the security issue should help the [Application Security team](/handbook/security/security-engineering/application-security/) assess the impact of the vulnerability, and update the issue description with an `Impact` section.
+Developers reporting the security issue should help the [Application Security team](/handbook/security/product-security/application-security/) assess the impact of the vulnerability, and update the issue description with an `Impact` section.
 
 If immediate feedback is required, then add a comment to the vulnerability issue with an `@`-mention directed at one of the Security Engineers listed in the [Stable Counterpart](/handbook/engineering/development/sec/secure/#stable-counterparts) section, or ping them on slack.
 

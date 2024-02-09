@@ -137,7 +137,7 @@ We track:
 
 ## Layers of KPIs
 
-We have KPIs at many different [layers](/handbook/company/team/structure/#layers).
+We have KPIs at many different [layers](/handbook/company/structure/#layers).
 
 KPIs can only exist at the Company (e.g. GitLab) layer if it exists at the functional layer.
 In other words, GitLab KPIs are duplicates of KPIs of the executives.

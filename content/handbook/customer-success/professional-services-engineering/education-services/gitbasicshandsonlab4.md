@@ -1,9 +1,7 @@
 ---
-title: "GitLab with Git Essentials - Hands-on Lab 4"
+title: "GitLab with Git Essentials - Hands-on Lab: Build a .gitlab-ci.yml file"
 description: "This Hands-On Guide walks you through the lab exercises used in the GitLab with Git Essentials course."
 ---
-
-# Lab 4: Build a `.gitlab-ci.yml` File
 
 > Estimated time to complete: 30 minutes
 

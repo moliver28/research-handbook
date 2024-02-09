@@ -1,9 +1,7 @@
 ---
-title: "GitLab CI/CD - Hands-On Lab 9"
+title: "GitLab CI/CD - Hands-On Lab: Security Scanning"
 description: "This Hands-On Guide walks you through the lab exercises in the GitLab CI/CD course."
 ---
-
-# Lab 9: Security Scanning
 
 > Estimate time to complete: 15 - 20 minutes
 

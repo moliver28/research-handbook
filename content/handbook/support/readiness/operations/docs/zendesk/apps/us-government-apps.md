@@ -1,5 +1,5 @@
 ---
-title: US Government Apps
+title: US Gov Apps
 description: Support Operations documentation page for Zendesk US Government apps
 canonical_path: "/handbook/support/readiness/operations/docs/zendesk/apps/us-government-apps"
 ---

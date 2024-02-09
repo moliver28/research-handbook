@@ -100,25 +100,25 @@ The group regularly works on the following tasks, in the order of priority:
 
 ## Teams
 
-The Delivery Group is composed of two teams: `Delivery::Releases` and `Delivery::Deployments`.
+The Delivery Group is composed of two teams: `Delivery:Releases` and `Delivery:Deployments`.
 
-The Delivery::Releases and Delivery::Deployments OKRs, while contributing to the wider GitLab objectives, are tailored and structured to achieve the [Delivery Group Strategy](#strategy) as a single team.
+The Delivery:Releases and Delivery:Deployments OKRs, while contributing to the wider GitLab objectives, are tailored and structured to achieve the [Delivery Group Strategy](#strategy) as a single team.
 
-### Delivery::Releases
+### Delivery:Releases
 
 The primary goal of the Releases team is to provide everything to do with creating GitLab releases for customers and enabling internal customers to get their changes into releases. Major, minor and patch releases as well as a platform on which we can verify changes to various installation types (release environments) and create visibility for GitLab team members and customers into our release schedule (release dashboard)
 
-### Delivery::Deployments
+### Delivery:Deployments
 
 The primary goal of the Deployments team is to provide everything to do with rolling out changes to active platforms managed by GitLab, including but not limited to continuous deployment to GitLab.com (deployment safety), changing gitlab.com architecture to support continuous deployment (eliminate staging 🤞 ) and thinking about how to optimise the rollout experience (zero downtime work)
 
 ### Team Members
 
-The following people are members of the Delivery::Releases Team:
+The following people are members of the Delivery:Releases Team:
 
 {{< team-by-manager-slug "mbursi" >}}
 
-The following people are members of the Delivery::Deployments Team:
+The following people are members of the Delivery:Deployments Team:
 
 {{< team-by-manager-slug "dave-smith" >}}
 
@@ -156,7 +156,7 @@ Release Managers are members of the Delivery group but during their time as rele
 5. Deployment blockers: Release Managers are responsible for identifying, and reporting on deployment blockers in order to provide the teams with data needed to plan improvements.
 6. Release Manager dashboards: Release Managers own <https://dashboards.gitlab.net/d/delivery-release_management/delivery-release-management?orgId=1> plus have the freedom to create any additional dashboards that they think would be useful for release management. The data needed for dashboards will be made available from a centralized place, owned by Deployments.
 
-### Delivery::Releases ownership
+### Delivery:Releases ownership
 
 The primary customers of the Releases team are:
  - the internal GitLab users who want to deploy & release changes i.e., 
@@ -169,10 +169,10 @@ The primary customers of the Releases team are:
 10. Release/packaging execution log: Ensuring that an accurate log of releases is maintained.
 11. Deployment & release metadata: Tracking component versions and dependencies to allow for quality gates to be accurate, and to ensure predictable releases.
 12. QA test execution & results visibility: Ensuring that all deployments and releases pass the required testing. Releases will be particularly concerned with timing of test execution and making sure that the correct dependencies are in place for reliable results.
-13. Releases dashboards: Delivery::Releases will own a set of dashboards to guide the team's work on designing effective release processes. Dashboards, or templates, will also be needed to evaluate the effectiveness of individual release pipelines.
+13. Releases dashboards: Delivery:Releases will own a set of dashboards to guide the team's work on designing effective release processes. Dashboards, or templates, will also be needed to evaluate the effectiveness of individual release pipelines.
 14. Release Publishing: publishing packages to various distribution sites (e.g., packages.gitlab.com, Docker Hub, etc.), publishing tooling, and guaranteeing a reliable publishing process.
 
-### Delivery::Deployments ownership
+### Delivery:Deployments ownership
 
 The primary customers of the Deployments team are:
  - Release managers who rely on the deployment tooling
@@ -189,7 +189,7 @@ The primary customers of the Deployments team are:
 23. Canary environments: will own the rollout capability of the canary environments. They'll work closely with Reliability to ensure full environment management.
 24. Deployment and release test environments: Pre, Staging, Release: will own the rollout capability of the test environments. They'll work closely with Reliability to ensure full environment management.
 25. Deployment and release production environment: will own the rollout capability of the Production environment. They'll work closely with Reliability to ensure full environment management.
-26. Deployment dashboards: Delivery::Deployments will own a set of dashboards to guide the team's work on designing effective deployment processes. Dashboards, or templates, will also be needed to evaluate the effectiveness of individual deployment and release pipelines.
+26. Deployment dashboards: Delivery:Deployments will own a set of dashboards to guide the team's work on designing effective deployment processes. Dashboards, or templates, will also be needed to evaluate the effectiveness of individual deployment and release pipelines.
 
 ## How we work
 
@@ -260,7 +260,8 @@ By default, an issue needs to have a:
 
 1. Workflow Label - Default: `workflow-infra::Triage`
 1. Priority Label - Default: `Delivery::P4`
-1. Team Label - `group::delivery`
+1. Group Label - `group::delivery`
+1. Team Label - `team::Delivery-Deployments` or `team::Delivery-Releases`
 1. Other Label - project or team management related label.
 
 #### Workflow
@@ -324,9 +325,9 @@ Project labels are defined as needed, but they are required unless the issue des
 
 Incidents impacting Delivery may optionally include an [impact label](/handbook/engineering/releases/#delivery-impact-labels).
 
-#### Delivery:Deployment specific ways of working
+#### Delivery:Deployments specific ways of working
 
-In addition to the Epics, Issue Boards, Labels, and Workflow practices common to the entire team, the Delivery::Deployments team adopts a few extra approaches to improve its communication and better share knowledge and decisions within the team.
+In addition to the Epics, Issue Boards, Labels, and Workflow practices common to the entire team, the Delivery:Deployments team adopts a few extra approaches to improve its communication and better share knowledge and decisions within the team.
 
 - Each Epic should contain a `Decision Log`: this helps to keep a single, centralized SSOT where all decisions taken during project work are listed. For completeness, we should report the date of the decision,
 who was involved in the discussion and decision, and the outcome of the decision.

@@ -29,8 +29,9 @@ ux_showcase.yml "
 
 for file in $data_files; do
 	outfile=$(echo $file |rev| cut -d "/" -f 1|rev)
-	echo "fetching $outfile ..."
-	wget -qO "$PUBLIC_DATA_DIR/$outfile" "https://gitlab.com/gitlab-com/www-gitlab-com/-/raw/${PUBLIC_HANDBOOK_REF}/data/${file}"
+	url="https://gitlab.com/gitlab-com/www-gitlab-com/-/raw/${PUBLIC_HANDBOOK_REF}/data/${file}"
+	echo "fetching ${outfile} from ${url}..."
+	wget -qO "${PUBLIC_DATA_DIR}/${outfile}" "${url}"
 done
 
 # Download the team.yml file direct from the public handbook website.

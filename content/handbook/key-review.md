@@ -7,7 +7,7 @@ weight: -10
 
 At most companies, this would be a quarterly meeting for senior function leaders to present priorities, progress, and risk mitigations to the CEO. We allow some additional stakeholders to attend to invite a broader range of perspectives, give visibility to peers across functions, and create broader accountability.
 
-Members of [E-Group](/handbook/company/team/structure/#executives) and department leaders nominated by their E-Group leader are optional attendees.
+Members of [E-Group](/handbook/company/structure/#executives) and department leaders nominated by their E-Group leader are optional attendees.
 
 These meetings are designed to ensure that the CEO and function are aligned on:
 
@@ -39,7 +39,7 @@ A Key Review does not need to be scheduled if everything is on track and awarene
 ## Invitees
 
 Required invites are the CEO, the CFO, and the function head.
-Optional attendees are all other members of [the e-group](/handbook/company/team/structure/#e-group), [VP-Directs](/handbook/company/structure/#vp-directs-group), the Chief of Staff to the CEO, and other folks as designated by their E-Group member.
+Optional attendees are all other members of [the e-group](/handbook/company/structure/#e-group), [VP-Directs](/handbook/company/structure/#vp-directs-group), the Chief of Staff to the CEO, and other folks as designated by their E-Group member.
 
 Key Review Meetings may contain MNPI. As materials are limited access, participation is limited.
 

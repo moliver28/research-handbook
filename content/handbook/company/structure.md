@@ -415,7 +415,7 @@ To get started, feel free to make a copy of the [Team Health Survey Template](ht
 
 ##### Building High Performing Product Groups Learning Session
 
-The [Learning & Development](/handbook/people-group/learning-and-development/) team can facilitate a live learning session with product groups to [enable high performance](/handbook/leadership/build-high-performing-teams/). The [Drexler-Sibbet model](https://www.kaizenko.com/drexler-sibbet-team-performance-model/) is a framework to lead teams through stages towards high performance. During the live learning session, a L&D facilitator will collaborate with a product group to define activities to align team members on what needs to occur to achieve high performance. If interested in scheduling a session, contact `#learninganddevelopment` to learn more.
+The [Learning & Development](/handbook/people-group/learning-and-development/) team can facilitate a live learning session with product groups to [enable high performance](/handbook/leadership/#strategies-to-build-high-performing-teams). The [Drexler-Sibbet model](https://www.kaizenko.com/drexler-sibbet-team-performance-model/) is a framework to lead teams through stages towards high performance. During the live learning session, a L&D facilitator will collaborate with a product group to define activities to align team members on what needs to occur to achieve high performance. If interested in scheduling a session, contact `#learninganddevelopment` to learn more.
 
 #### Setting Product Group for Team Members
 
@@ -439,7 +439,7 @@ Our belief is that we can guarantee a higher rate of success by incubating ideas
 1. There is not enough code for multiple people to work on without running into merge conflicts.
 1. Starting work earlier allows for more time for other people to contribute. We need to have a head start many years ahead of commercialization.
 
-As a matter of process, we require that Single-engineer groups take part in our [Software Demo Process](/handbook/engineering/#engineering-demo-process) as a way to collaborate asyncronously with stakeholders, get iterative feedback, and maintain at least minimal alignment with the rest of GitLab while keeping their autonomy
+As a matter of process, we require that Single-engineer groups take part in our [Software Demo Process](/handbook/engineering/demos/#single-engineer-groups-demo) as a way to collaborate asyncronously with stakeholders, get iterative feedback, and maintain at least minimal alignment with the rest of GitLab while keeping their autonomy
 
 If the group finds great success, as measured by adoption, and needs to drive deeper category maturity then the next step is to consider forming a multi-person group. Sometimes the category is complete and the group can successfully dissolve. There are other times when the category does not yeild the adoption. We will gather the lessons learned and consider either dissolving the group or investing further based on the learnings.
 

@@ -24,7 +24,7 @@ Familiarize yourself with what it means to plan your career path, and how leader
 - Watch this [Engineering IC Leadership - Handbook Learning Session](https://www.youtube.com/watch?v=OXBwtaZ9edQ) to understand the difference between **IC leadership** and **Management**.
 - Schedule a coffee chat or AMA with someone in the position to better understand what they do, and ask for advice on how to work towards this role.
 - Speak with your manager about available openings, and review #spt_hiring for any opportunity announcements.
-- Review and use the templates and resources available in [this Google Drive folder](https://drive.google.com/drive/folders/1LZ6AkjVv4JW0CiHYTGzyMQdGadyOgDY_) to track your performance, career development, and path to promotion.
+- Review and use the templates and resources available in the [Career Development, Promotion, Performance, etc. Docs Templates folder](https://drive.google.com/drive/search?role=writer&q=type:folder%20title:%22Career%20Development,%20Promotion,%20Performance%20etc%20Docs%20and%20Templates%22%20in:0AEeARMMpt4eDUk9PVA) to track your performance, career development, and path to promotion.
 - As you begin to track and document your path to promotion document, use meaningful examples that highlight the relevant competencies and the type of work the promotion document asks for. See each section below for some specific conditions.
 
 ## Path to Promotion: Senior Support Engineering

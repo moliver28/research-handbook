@@ -1,6 +1,8 @@
 ---
 title: All Remote
 description: GitLab is one of the world's largest all-remote companies
+aliases:
+- /handbook/company/all-remote/
 ---
 
 <div class="row my-4" style="max-width: 80%; margin-left: auto; margin-right: auto;">

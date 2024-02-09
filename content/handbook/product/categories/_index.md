@@ -36,7 +36,7 @@ We then add the **value stages** that we talk about in marketing. These include 
 These stages have groups that rally around the same users, GitLab integrators, GitLab itself, and GitLab administrators, respectively.
 Stages are maintained in [`data/stages.yml`](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/data/stages.yml).
 Each stage has a corresponding [`devops::<stage>` label](https://docs.gitlab.com/ee/development/labels/index.html#stage-labels) under the `gitlab-org` group.
-1. **Group**: A stage has one or more [groups](/handbook/company/team/structure/#product-groups).
+1. **Group**: A stage has one or more [groups](/handbook/company/structure/#product-groups).
 Groups are maintained in [`data/stages.yml`](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/data/stages.yml).
 Each group has a corresponding [`group::<group>` label](https://docs.gitlab.com/ee/development/labels/index.html#group-labels) under the `gitlab-org` group.
 1. **Categories**: A group has one or more categories. Categories are high-level
@@ -125,7 +125,7 @@ As a result, it is considered an anti-pattern to how we've organized for categor
 of concern for available capacity.
 
 When designing the hierarchy, the number of sections should be kept small
-and only grow as the company needs to re-organize for [span-of-control](/handbook/company/team/structure/#management-group)
+and only grow as the company needs to re-organize for [span-of-control](/handbook/company/structure/#management-group)
 reasons. i.e. each section corresponds to a Director of Engineering and a
 Director of Product, so it's an expensive add. For stages, the DevOps loop
 stages should not be changed at all, as they're determined from an [external](https://en.wikipedia.org/wiki/DevOps_toolchain)
@@ -147,7 +147,7 @@ captured as different groups. Groups are also a non-marketing construct, so we
 expand the number of groups as needed for organizational purposes. Each group
 usually corresponds to a backend engineering manager and a product manager, so
 it's also an expensive add and we don't create groups just for a cleaner
-hierarchy; it has to be justified from a [span-of-control](/handbook/company/team/structure/#management-group)
+hierarchy; it has to be justified from a [span-of-control](/handbook/company/structure/#management-group)
 perspective or limits to what one product manager can handle.
 
 ### Category Statuses
@@ -163,7 +163,7 @@ Typically, product direction pages will transparently state the investment statu
 
 ## Changes
 
-The impact of changes to sections, stages and groups is felt [across the company](/handbook/company/team/structure/#product-groups).
+The impact of changes to sections, stages and groups is felt [across the company](/handbook/company/structure/#product-groups).
 
 All new category creation needs to be specifically approved via our Opportunity Canvas review process. This is to avoid scope creep and breadth at the expense of depth and user experience.
 
@@ -328,8 +328,8 @@ Maybe we should make our features easier to search to replace the section below.
 
 ### Other functionality in [Manage](/handbook/product/categories/#manage-stage) stage
 
-### Other functionality in [Engineering Productivity](/handbook/engineering/quality/engineering-productivity/)
-- [GDK](/handbook/engineering/quality/engineering-productivity/gdk/)
+### Other functionality in [Engineering Productivity](/handbook/engineering/infrastructure/engineering-productivity/)
+- [GDK](/handbook/engineering/infrastructure/engineering-productivity/gdk/)
 
 ### Other functionality in [Test Platform](/handbook/engineering/infrastructure/test-platform/)
 - [Reference Architectures](https://docs.gitlab.com/ee/administration/reference_architectures/)

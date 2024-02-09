@@ -282,7 +282,6 @@ Here are some options to get basic seat count information:
 1. *Plan* and *Seats Currently in Use*:
     - [chatops](https://docs.gitlab.com/ee/development/chatops_on_gitlabcom.html#chatops-on-gitlabcom) (requires dev.gitlab.org account) with the command: `/chatops run namespace find group-path`
 1. Info from 1 plus Subscription (or trial) *End Date*
-    - [Sisense dashboard](https://app.periscopedata.com/app/gitlab/576469/Namespace-Overview) (changing the namespace ID filter)
 1. Info from 2 plus *Seats in Subscription*, *Max Seats Used*, and *Start Date*
     - [Customers portal admin](https://customers.gitlab.com/admin/customer) (requires access via Okta)
 

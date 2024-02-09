@@ -166,7 +166,7 @@ This means the following events (not extensive) are likely to be incidents:
 - DBT model failed (and downstream models are skipped)
 - DBT test failure
 - DBT source freshness failure
-- Infrastructural incident (Snowflake not accessible, Sisense not accessible)
+- Infrastructural incident (Snowflake not accessible, Tableau not accessible)
 - Data source not available
 - Data pipeline not running
 
@@ -200,7 +200,7 @@ In order to get better and be more efficient in daily triage, we wrap-up the wor
 - Time Tracking: Listing down the time spent that day on triage and which activities are performed. The general idea is to gain an understanding on where the workload is, in order to optimize those activities. Please list down the work so it is useful for analysis purposes. I.e:
    - 2 hours solving data ingestion issue, for source x
    - 1 hours solving data transformation issue
-   - 1 hour on solving a broken Sisense Dashboard
+   - 1 hour on solving a broken Tableau Dashboard
    - 1 hour triaging and re-routing (new) issues
    - 0.5 hour on answering Slack questions
 - Groundhog Issues. Issues that occur on a regular basis are annoying and costing us unnecessary time. List down any issue that is popping up time after time. This is in order to find any spots in the current landscape to address.
@@ -233,7 +233,8 @@ The following actions are performed by Data Team Triager:
       - The Label will be changed to `Data Warehouse::Impacted`
       - A new issue is opened in the `GitLab Data Team project`, assigned to the correct DRI and linked to the original MR.
       - Impact will be determined in the issue.
-      - Any MRs will be created to overcome loading issues, downstream dbt processing and Sisense usage.
+      - Any MRs will be created to overcome loading issues, downstream dbt processing and Tableau usage.
+         - If impact is beyond data loading, this means the data is used downstream, an Analytics Engineer **must** be included to also determine the business impact of the upstream change. 
       - According to the Merge of the GitLab.com MR, merge will be planned.
    - If the `MR` does not contains the label `group::product intelligence` and it concerns changes to `SQL` structure:
       - Check if it will break the operation / data pipeline, following the Determination matrix below.
@@ -244,7 +245,8 @@ The following actions are performed by Data Team Triager:
       - The Label will be changed to `Data Warehouse::Impacted`
       - A new issue is opened in the `GitLab Data Team project`, assigned to the correct DRI and linked to the original MR.
       - Impact will be determined in the issue.
-      - Any MRs will be created to overcome loading issues, downstream dbt processing and Sisense usage.
+      - Any MRs will be created to overcome loading issues, downstream dbt processing and Tableau usage.
+         - If impact is beyond data loading, this means the data is used downstream, an Analytics Engineer **must** be included to also determine the business impact of the upstream change. 
       - According to the Merge of the GitLab.com MR, merge will be planned.
       - All stakeholders will be informed.
 
@@ -270,7 +272,7 @@ flowchart TD
     CHANGE_LABEL_I-->OI(Open an new issue is opened in the `GitLab Data Team project`)
     subgraph "Data team project" 
        OI-->IM(Impact will be determined in the issue)
-       IM-->CHECK(Check downstream dbt processing and Sisense usage)
+       IM-->CHECK(Check downstream dbt processing and Tableau usage)
        CHECK-->PL(Plan MR)
        PL-->INFORM(Inform stakeholders)
     end
@@ -492,7 +494,6 @@ We need to work in our normal working hour perform the list of task mentioned fo
 On the Triage day the data team member present will look for all the failures, questions or errors in:
 - The Slack-channels; #data-prom-alerts #analytics-pipelines and #data
 - Newly added [issues](https://gitlab.com/groups/gitlab-data/-/boards/1917859?&label_name[]=Priority%3A%3A1-Ops&label_name[]=Triage)
-- The TDF dashboard in [Sisense](https://app.periscopedata.com/app/gitlab/756199/Trusted-Data-Dashboard)
 
 It includes all the failures since the last person did sign off and will create an issue for all the failures since then till the person signs off.
 If any data pipeline has broken and there is expected to be a delay in getting data loaded or refreshed. The concerned team has to be notified using the [Triage Template (internal link)](https://gitlab.com/gitlab-data/analytics/-/issues/new)

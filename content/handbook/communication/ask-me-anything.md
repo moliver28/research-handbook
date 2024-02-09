@@ -5,7 +5,7 @@ description: "Learn and ask questions at GitLab's Ask Me Anything (AMA) meetings
 
 ## Purpose
 
-Ask Me Anything (AMA) meetings are arranged to allow team members the opportunity to learn from and ask questions of our [E-Group](/handbook/company/team/structure/#e-group), [Board of Directors](/handbook/board-meetings/#board-of-directors), and others groups who would like to host an AMA on a specific topic. AMAs can be arranged for many purposes, including the following:
+Ask Me Anything (AMA) meetings are arranged to allow team members the opportunity to learn from and ask questions of our [E-Group](/handbook/company/structure/#e-group), [Board of Directors](/handbook/board-meetings/#board-of-directors), and others groups who would like to host an AMA on a specific topic. AMAs can be arranged for many purposes, including the following:
 
 - Allow team members to meet new leaders joining the company
 - Clarify a company-wide initiative or change that requires more discussion

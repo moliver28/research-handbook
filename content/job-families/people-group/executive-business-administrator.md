@@ -63,7 +63,7 @@ The Senior Executive Business Administrator is a [grade 7](/handbook/total-rewar
 #### Senior Executive Business Administrator Responsibilities
 
 - Extends Executive Business Administrator (Intermediate) Responsibilities
-- Support members of our Executive Group [E-Group](/handbook/company/team/structure/#e-group) across various time zones. May support VPs if all responsibilities are consistently met.
+- Support members of our Executive Group [E-Group](/handbook/company/structure/#e-group) across various time zones. May support VPs if all responsibilities are consistently met.
 - Understand division wide KPIs and operating procedures and can prioritize projects, requests, and executive calendar accordingly. May make recommendations to leaders to help better prioritize incoming requests
 - Use independent judgment and discretion to prioritize demanding calendars, ensure the leader is prepared appropriately with all pre-read materials, in-meeting organization, and action item follow up
 - Serve as the executive’s central point of contact, driving task execution and project completion

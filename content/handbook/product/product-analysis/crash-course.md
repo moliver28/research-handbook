@@ -35,7 +35,7 @@ If this page serves it's purpose, Product Analysts should be able to visit this 
 
 - [Centralized SMAU/GMAU Dashboard](https://app.periscopedata.com/app/gitlab/758607/Centralized-SMAU-GMAU-Dashboard) contains CMAU, SMAU, and GMAU charts for each section, stage, and group.
 
-- The [Technical Marketing handbook page](/handbook/marketing/developer-relations/technical-marketing/) contains links to product demos, webinars and release videos.  
+- The [Technical Marketing handbook page](/handbook/marketing/developer-relations/technical-marketing/) contains links to product demos, webinars and release videos.
 
 - GitLab's Fiscal Year runs from February 1 to January 31. [Here](/handbook/finance/#fiscal-year) is a link to GitLab's Fiscal Quarter to Month map.
 
@@ -67,7 +67,7 @@ This Stage helps teams manage their software delivery lifecycle with metrics and
 
 ``` sql
 
-SELECT * 
+SELECT *
 FROM table
 WHERE field = stage_name
 ;
@@ -137,7 +137,7 @@ Enable teams to effectively plan and execute work in a single application. This 
 
 ``` sql
 
-SELECT * 
+SELECT *
 FROM table
 WHERE field = stage_name
 ;
@@ -200,7 +200,7 @@ Create provides tools that support the beginning of the DevOps Life Cycle. Sourc
 
 ``` sql
 
-SELECT * 
+SELECT *
 FROM table
 WHERE field = stage_name
 ;
@@ -267,7 +267,7 @@ Verify provides teams with tools that help facilitate continuous integration. Th
 **Important data documentation**
 
 ```sql
-SELECT * 
+SELECT *
 FROM table
 WHERE field = stage_name
 ;
@@ -352,7 +352,7 @@ Dashboard measuring user interaction with the GitLab.com user interface.
 
 ``` sql
 
-SELECT * 
+SELECT *
 FROM table
 ;
 ```
@@ -417,7 +417,7 @@ GitLab's integrated CD solution allows users to ship code with zero-touch, be it
 
 ``` sql
 
-SELECT * 
+SELECT *
 FROM table
 WHERE field = stage_name
 ;
@@ -471,7 +471,7 @@ Enabling users to configure applications and infrastructure. Auto DevOps, Kubern
 
 ``` sql
 
-SELECT * 
+SELECT *
 FROM table
 WHERE field = stage_name
 ;
@@ -525,7 +525,7 @@ Helps reduce the severity and frequency of incidents. Incident management and er
 
 ``` sql
 
-SELECT * 
+SELECT *
 FROM table
 WHERE field = stage_name
 ;
@@ -589,7 +589,7 @@ This dashboard shows various MAU metrics for Secure and Govern.
 
 ``` sql
 
-SELECT * 
+SELECT *
 FROM table
 WHERE field = stage_name
 ;
@@ -641,7 +641,7 @@ Manage security vulnerabilities, policies, and compliance across your organizati
 
 ``` sql
 
-SELECT * 
+SELECT *
 FROM table
 WHERE field = stage_name
 ;
@@ -870,7 +870,7 @@ Growth owns the free and trial registration and new user onboarding experiences.
 
 **Key handbook pages**
 
-[Overall Growth Section Handbook page for Engineering](/handbook/engineering/development/growth/)
+[Overall Growth Section Handbook page for Engineering](/handbook/marketing/growth/engineering/)
 
 [Growth Direction Page](/handbook/marketing/growth/)
 
@@ -881,6 +881,6 @@ Growth owns the free and trial registration and new user onboarding experiences.
 
 **Team members**
 
-[All team members section of engineering page](/handbook/engineering/development/growth/#all-team-members)
+[All team members section of engineering page](/handbook/marketing/growth/engineering/#all-team-members)
 
 </details>

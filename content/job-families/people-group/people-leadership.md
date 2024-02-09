@@ -36,7 +36,7 @@ The Senior Director, People Success is a [grade 11](/handbook/total-rewards/comp
 - Executive presence with excellent written and oral communication skills
 - Strong business insight and high EQ to successfully collaborate with executives and business partners at all levels
 - You share our [values](/handbook/values/), and work in accordance with those values.
-- [Leadership at GitLab](/handbook/company/team/structure/#director-group)
+- [Leadership at GitLab](/handbook/company/structure/#director-group)
 - Ability to use GitLab
 
 ## Performance Indicators

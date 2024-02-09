@@ -38,7 +38,7 @@ See the [marketing handbook](/handbook/marketing/) for details.
 ## Responsibilities
 
 - Develop a high performing team (network, hire, assess, mentor, grow, and offboard talent).
-- Contribute to all functions and make the rest of the [E-Group](/handbook/company/team/structure/#e-group) better.
+- Contribute to all functions and make the rest of the [E-Group](/handbook/company/structure/#e-group) better.
 - Set a great creative strategy, recruit, retain, inspire, and direct creatives.
 - Create a dynamic outbound channel mix allocation (double down and back off based on data).
 - Lead and encourage experimentation (try and deprecate or elevate quickly).
@@ -76,5 +76,5 @@ See the [marketing handbook](/handbook/marketing/) for details.
 - Experience with wider community engagement.
 - BA or BS degree in Marketing, Business or related field.
 - Excellent strategic and analytical skills combined with the creativity to produce innovative breakthrough value propositions and businesses for the company.
-- Ability to excel in [leadership at GitLab](/handbook/company/team/structure/#e-group).
+- Ability to excel in [leadership at GitLab](/handbook/company/structure/#e-group).
 - Ability to use GitLab.

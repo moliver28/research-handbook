@@ -33,7 +33,7 @@ The section is covered by groups from teams across two primary departments, Engi
 
 ## Investment Allocation
 
-The [product groups](/handbook/company/team/structure/#product-groups) within the Analytics Section are outlined in the [product categories page](/handbook/product/categories/#analytics-section).
+The [product groups](/handbook/company/structure/#product-groups) within the Analytics Section are outlined in the [product categories page](/handbook/product/categories/#analytics-section).
 
 The product department determines our [investment](https://internal.gitlab.com/handbook/product/investment/) within the section by allocating headcount for development team members to product groups. While doing so we adhere to the following principles:
 

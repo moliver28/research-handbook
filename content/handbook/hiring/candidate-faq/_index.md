@@ -146,7 +146,13 @@ Example of dual Interview process outline
 {{% /details %}}
 
 {{% details summary="I've been rejected, when can I reapply?" %}}
-If your application is rejected because you are insufficiently qualified for the role, you are welcome to reapply to the same position once 6 months have passed. If you gain the skills, experience, or knowledge we outlined in our [feedback to you]({{< ref "interviewing#rejecting-candidates" >}}), you are welcome to reapply at any time.
+If your application is rejected because you are insufficiently qualified for the role, you are welcome to reapply to the same position once 6 months have passed. If you gain the skills, experience, or knowledge we outlined in our [feedback to you](/handbook/hiring/interviewing/#rejecting-candidates), you are welcome to reapply at any time.
+{{% /details %}}
+
+{{% details summary="I already passed the technical interview, will I need to repeat that stage if I reapply?" %}}
+
+If you are reapplying to a role in R&D and have already completed interviews following a technical interview, your technical feedback also remains valid for up to 6 months as long as you are applying to the same job family. The recruitment team will aim to run a reduced interview process in this scenario, however, if you are reapplying outside of the 6 month window or applying to a different job family, you will be required to restart the interview process with us again.
+
 {{% /details %}}
 
 ### Inclusive interviewing

@@ -37,7 +37,7 @@ The Vice President of Ta} is a [grade #12](/handbook/total-rewards/compensation/
 - Experience with Software and/or SAAS in a high growth environment.
 - Must have demonstrated a hands-on approach and success in working in a team-based environment
 - International tax experience required
-- Leadership at [GitLab](/handbook/company/team/structure/#director-group)}
+- Leadership at [GitLab](/handbook/company/structure/#director-group)}
 
 ## Performance Indicators
 

@@ -20,6 +20,7 @@ Before scheduling with an E-Group member, please be sure to reach out to their p
 - All meeting requests should go through the CFO’s Sr. EBA, Darci Tadich.
 - Daily office hours are 9am-5pm ET, with meetings scheduled between 11a and 5p ET. Please do not book meetings outside of working hours unless arranged with the Sr. EBA.
 - All meeting requests should include an agenda and any relevant reference material. Ensure that all participants on the invite have access to the agenda and materials. If the Sr. EBA does not have access to the agenda to confirm access, it is the responsibility of the meeting/agenda owner to ensure proper access is shared in advance of the meeting.
+- It should be made a priority for agendas to be populated 24 hours in advance. If that is not possible, at a minimum they should be populated by EOD prior to meeting. The CFO reviews all materials for the day during the hours of 7-9a ET in order to prepare for the day.
 - Do not schedule over DNB (Do Not Book).
 - Prefers “appropriate length” conversations, so short meetings are okay on the calendar. If a topic only needs 10 mins, book 10 mins instead of 25, etc.
 - Schedule two 30 minute blocks a day for work time - title “DNB”. This is time for email/Slack follow-up and general work time. If the time has to move to accommodate another meeting, ensure another time is found and that daily workflow is still achieved.

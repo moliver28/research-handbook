@@ -25,6 +25,8 @@ As a member of the [Security Assurance]({{< ref "security-assurance" >}}) sub-de
    - Remediation recommendations
    - Tracking remediation plans to completion
 1. [Continuous Monitoring of GitLab's Security Controls]({{< ref "sec-controls" >}}) which are mapped to applicable regulatory requirements and security certifications/frameworks we have committed to.
+   - [Policy-as-code]({{< ref "../../security-assurance/dedicated-compliance/policy-as-code" >}}) for automated control testing
+   - Automated evidence collection
    - [User Access Reviews]({{< ref "access-reviews" >}})
    - [Business Continuity Plan (BCP)](/handbook/business-technology/gitlab-business-continuity-plan/) and [Information System Continuity (ISCP)]({{< ref "information-system-contingency-plan-iscp" >}}) testing
 1. Industry and Regulatory Monitoring and Insights
@@ -221,17 +223,10 @@ Currently, we use monthly milestones and a burnup/burndown chart to track recurr
 
 1. [Security Control Health](/handbook/security/performance-indicators/#security-control-health)
 1. [Security Observations](/handbook/security/performance-indicators/#security-observations-tier-3-risks)
-1. [FedRAMP Vulnerability Posture (limited access)](https://app.periscopedata.com/app/gitlab/1125380/FedRAMP-Vulnerability-Posture)
+1. [FedRAMP Vulnerability Posture (limited access)](https://10az.online.tableau.com/#/site/gitlab/views/Draft-FedRAMPVulnerabilityPosture/FedRAMPVulnerabilityPostureDashboard?:iid=1)
 1. [Vulnerability Deviation (Exception) Requests](https://gitlab.com/gitlab-com/gl-security/security-assurance/team-security-dedicated-compliance/poam-deviation-requests/insights/#/issues)
 
 ## <i class="fas fa-id-card" style="color:rgb(110,73,203)" aria-hidden="true"></i> Contact the Team
-
-|  Program | DRI | Responsibilities |
-| --- | --- | --- |
-| Security Compliance (Dedicated Markets) team manager | [@corey-oas](https://gitlab.com/corey-oas) | FedRAMP Authorization Program and compliance/certification roadmap for GitLab Dedicated and GitLab Dedicated for U.S. Government)
-| GitLab Dedicated security compliance | [@daniel-ch](https://gitlab.com/daniel-ch) | Continuous monitoring, gap assessments, and external audit coordination (e.g. SOC 2 Type 2). |
-| FedRAMP Information System Security Officer (ISSO) | [@niben01](https://gitlab.com/niben01) | FedRAMP vulnerability posture reporting, maintaining Plan of Action & Milestone reporting, and deviation requests |
-| FedRAMP Continuous Monitoring Program | [@kbray](https://gitlab.com/kbray) | Continuous monitoring improvements and automation, significant change identification, and compliance documentation maintenance |
 
 - Slack
    - Feel free to tag us with `@dedicated_compliance` or `@sec-compliance-team` to reach the entire Security Compliance team

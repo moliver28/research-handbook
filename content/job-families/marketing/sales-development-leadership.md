@@ -40,7 +40,7 @@ The Director, Sales Development is a [grade 10](/handbook/total-rewards/compensa
 - Awareness of industry trends in enterprise digital transformation, DevOps, and continuous integration.
 - Excellent written and spoken English.
 - Able to articulate the GitLab mission, values, and vision.
-- [GitLab Director](/handbook/company/team/structure/#director-group)
+- [GitLab Director](/handbook/company/structure/#director-group)
 - Ability to use GitLab
 
 ### Director, Global Business Development
@@ -78,7 +78,7 @@ The Director, Global Business Development is a [grade 10](/handbook/total-reward
 - Awareness of industry trends in enterprise digital transformation, DevOps, and continuous integration.
 - Excellent written and spoken English.
 - Able to articulate the GitLab mission, values, and vision.
-- [GitLab Director](/handbook/company/team/structure/#director-group)
+- [GitLab Director](/handbook/company/structure/#director-group)
 - Ability to use GitLab.
 
 ### Area Vice President, Sales Development

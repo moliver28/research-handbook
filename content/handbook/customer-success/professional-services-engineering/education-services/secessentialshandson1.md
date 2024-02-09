@@ -1,11 +1,10 @@
 ---
-title: "GitLab Security Essentials - Hands-On Lab 1"
+title: "GitLab Security Essentials - Hands-On Lab: Configure SAST, Secret Detection, and DAST"
 description: "This Hands-On Guide walks you through the lab exercises used in the GitLab Security Essentials course."
 ---
 
 > You are viewing the latest Version 16.x instructions. If your group URL starts with https://spt.gitlabtraining.cloud, please use the [Version 15.x instructions](https://gitlab.com/gitlab-com/content-sites/handbook/-/blob/d14ee71aeac2054c72ce96e8b35ba2511f86a7ca/content/handbook/customer-success/professional-services-engineering/education-services/secessentialshandson1.md)
 
-# Lab 1: Configure SAST, Secret Detection, and DAST
 
 > Estimated time to complete: 45 to 60 minutes
 

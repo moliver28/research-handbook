@@ -78,8 +78,8 @@ the red `Delete role` button to do so.
 
 #### Zendesk Global
 
-- [Support managed content project](https://gitlab.com/gitlab-com/support/zendesk-global/users/roles)
+- [Sync repo project](https://gitlab.com/gitlab-support-readiness/zendesk-global/users/roles)
 
 #### Zendesk US Government
 
-- [Support managed content project](https://gitlab.com/gitlab-com/support/zendesk-us-government/users/roles)
+- [Sync repo project](https://gitlab.com/gitlab-support-readiness/zendesk-us-government/users/roles)

@@ -1,9 +1,8 @@
 ---
-title: "GitLab CI/CD - Hands-On Lab 5"
+title: "GitLab CI/CD - Hands-On Lab: Defining CI/CD Variables"
 description: "This Hands-On Guide walks you through the lab exercises in the GitLab CI/CD course."
 ---
 
-# Lab 5: Defining CI/CD Variables
 
 > Estimate time to complete: 15 - 20 minutes
 

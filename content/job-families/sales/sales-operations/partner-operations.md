@@ -269,4 +269,4 @@ The Director, Partner Operations is a [grade 10](/handbook/total-rewards/compens
 - Interest in GitLab, and open source software
 - Unquestionable ethics, integrity and business judgment; you share our values, and work in accordance with those values
 - Shares GitLab’s [values](/handbook.gitlab.com/handbook/values/) and works in accordance with those values
-- [Leadership at GitLab](/handbook.gitlab.com/handbook/company/team/structure/#director-group)
+- [Leadership at GitLab](/handbook.gitlab.com/handbook/company/structure/#director-group)

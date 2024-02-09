@@ -44,14 +44,14 @@ This Working Group has the following goals:
 
 #### Exit Criteria
 
-| Criteria                                                                                                  | Start Date | Completion Date | Progress | DRI                                      |
-| --------------------------------------------------------------------------------------------------------- | ---------- | --------------- | -------- | ---------------------------------------- |
-| [Get Bootstrap Vue running with Vue Compat mode 2](https://gitlab.com/groups/gitlab-org/-/epics/12385)    | 2021-06-21 | 2022-10-25      | 100%     | [@xanf](https://gitlab.com/xanf)         |
-| [Get GitLab UI running with Vue Compat mode 2](https://gitlab.com/groups/gitlab-org/-/epics/12386)        | 2021-06-21 | 2024-04-30      | 70%      | [@markrian](https://gitlab.com/markrian) |
-| [Get main GitLab repo running with Vue Compat mode 2](https://gitlab.com/groups/gitlab-org/-/epics/12387) | 2023-05-18 | 2024-05-31      | 0%       | TBD                                      |
-| [Get CustomersDot running with Vue Compat mode 2](https://gitlab.com/groups/gitlab-org/-/epics/12388)     | 2024-02-01 | 2024-04-30      | 0%       | TBD                                      |
-| [Switch Vue Compat from mode 2 to mode 3](https://gitlab.com/groups/gitlab-org/-/epics/12389)             | 2024-05-31 | 2024-10-31      | 0%       | TBD                                      |
-| [Switch to using Vue 3 proper](https://gitlab.com/groups/gitlab-org/-/epics/12390)                        | 2024-10-31 | 2025-12-01      | 0%       | TBD                                      |
+| Criteria                                                                                                  | Start Date | Completion Date | Progress | DRI                                        |
+| --------------------------------------------------------------------------------------------------------- | ---------- | --------------- | -------- | ------------------------------------------ |
+| [Get Bootstrap Vue running with Vue Compat mode 2](https://gitlab.com/groups/gitlab-org/-/epics/12385)    | 2021-06-21 | 2022-10-25      | 100%     | [@xanf](https://gitlab.com/xanf)           |
+| [Get GitLab UI running with Vue Compat mode 2](https://gitlab.com/groups/gitlab-org/-/epics/12386)        | 2021-06-21 | 2024-04-30      | 70%      | [@markrian](https://gitlab.com/markrian)   |
+| [Get main GitLab repo running with Vue Compat mode 2](https://gitlab.com/groups/gitlab-org/-/epics/12387) | 2023-05-18 | 2024-05-31      | 0%       | TBD                                        |
+| [Get CustomersDot running with Vue Compat mode 2](https://gitlab.com/groups/gitlab-org/-/epics/12388)     | 2024-02-01 | 2024-04-30      | 0%       | [@vitallium](https://gitlab.com/vitallium) |                                    |
+| [Switch Vue Compat from mode 2 to mode 3](https://gitlab.com/groups/gitlab-org/-/epics/12389)             | 2024-05-31 | 2024-10-31      | 0%       | TBD                                        |
+| [Switch to using Vue 3 proper](https://gitlab.com/groups/gitlab-org/-/epics/12390)                        | 2024-10-31 | 2025-12-01      | 0%       | TBD                                        |
 
 ### Roles and Responsibilities
 
@@ -62,9 +62,9 @@ This Working Group has the following goals:
 | Functional Lead    | Illya Klymov        | Senior Frontend Engineer, Govern:Compliance         |
 | Functional Lead    | Natalia Tepluhina   | Principal Engineer, Plan                            |
 | Functional Lead    | Stanislav Lashmanov | Senior Frontend Engineer, Create: Code Review       |
-| Functional Lead    | Andrew Fontaine     | Senior Frontend Engineer, Release                   |
+| Functional Lead    | Andrew Fontaine     | Senior Frontend Engineer, Deploy:Environments       |
 | Member             | Mark Florian        | Staff Frontend Engineer, Manage:Foundations         |
-| Member             | Andrei Zubov        | Frontend Engineer, Release                          |
+| Member             | Andrei Zubov        | Frontend Engineer, Deploy:Environments              |
 | Member             | Artur Fedorov       | Senior Frontend Engineer, Govern:Security Policies  |
 | Member             | Frédéric Caplette   | Senior Frontend Engineer, Verify:Pipeline Authoring |
-| Member             | Ross Byrne          | Fullstack Engineer, Growth:Acquisition              |
+| Member             | Vitaly Slobodin     | Staff Frontend Engineer, Fulfillment                |

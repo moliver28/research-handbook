@@ -59,6 +59,7 @@ SA working with SAE and AE can define the POV scope with the customer, with alig
 - [DevSecOps](/handbook/customer-success/solutions-architects/tools-and-resources/pov/devsecops/)
 - [Software Compliance](/handbook/customer-success/solutions-architects/tools-and-resources/pov/compliance/)
 - [Automated Software Delivery](/handbook/customer-success/solutions-architects/tools-and-resources/pov/automation/)
+- [Artificial Intelligence](/handbook/customer-success/solutions-architects/tools-and-resources/pov/ai/)
 - and cumulatively, The DevOps [Platform](/handbook/customer-success/solutions-architects/tools-and-resources/pov/platform/)
 
 ### Tracking a POV in Salesforce

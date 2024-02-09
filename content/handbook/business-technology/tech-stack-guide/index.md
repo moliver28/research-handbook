@@ -132,11 +132,7 @@ For Zuora Billing, the team uses [Zuora Standard Reports](https://knowledgecente
  - Accounts with subscriptions to be canceled in the next 30 days
  - Credit memos over time
 
-We also have a collection of Sisense Dashboards that include Zuora Data. These dashboards include data from other data sources such as Salesforce:
-  * [TD: Zuora Revenue Waterfall](/handbook/business-technology/data-team/data-catalog/zuora_revenue_waterfall/)
-  * [TD: Customer Segmentation](https://app.periscopedata.com/app/gitlab:safe-dashboard/919364/TD:-Customer-Segmentation)
-  * [Zuora ATR (Available to Renew)](https://app.periscopedata.com/app/gitlab:safe-dashboard/919223/Zuora-ATR-%7C-MYB---Live---v1.1)
-  * [FY22 Zuora ATR](https://app.periscopedata.com/app/gitlab:safe-dashboard/919260/FY22:-Zuora-ATR---Based-on-FY21-Exit-ARR,-Snapshot-Date---2021-02-04)
+We also have a collection of Tableau dashboards that include Zuora Data. These dashboards include data from other data sources such as Salesforce.
 
 ### Data Model
 

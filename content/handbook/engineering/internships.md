@@ -22,7 +22,7 @@ As we head into 2023, we are evaluating our internship offerings in the Engineer
 
 ## Engineering Internship Program
 
-To validate and refine our approach to offering internships at an [all-remote company](/handbook/company/culture/all-remote/getting-started/), we launched a program between May 2020 and August 2020. In 2022 we [iterated on this process](/handbook/company/team/structure/working-groups/engineering-internship/), introducing an associate level for backend, frontend, and fullstack positions as an option for hiring and a pathway from internships. 
+To validate and refine our approach to offering internships at an [all-remote company](/handbook/company/culture/all-remote/getting-started/), we launched a program between May 2020 and August 2020. In 2022 we [iterated on this process](/handbook/company/working-groups/engineering-internship/), introducing an associate level for backend, frontend, and fullstack positions as an option for hiring and a pathway from internships. 
 
 
 # <i class="fas fa-users" id="biz-tech-icons"></i> Get involved

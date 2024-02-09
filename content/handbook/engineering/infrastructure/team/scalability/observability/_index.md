@@ -3,9 +3,12 @@ aliases: /handbook/engineering/infrastructure/team/scalability/observability.htm
 title: "Scalability:Observability Team"
 ---
 
-## Observability
+Observability encompasses the technical elements responsible for metrics, logging, and tracing, along with the tools and processes that leverage these components.
 
-This is subject of expansion as we work out direction and vision for the team.
+## Mission
+
+Our mission is to deliver and maintain a world-class observability offering and frictionless operational experience for team members at GitLab.
+
 
 ## Common Links
 |                                |                                                                                                                                                                                                                                                                                                                                                                                                                                |

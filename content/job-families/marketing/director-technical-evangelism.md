@@ -53,7 +53,7 @@ The Director, Technical Evangelism is a [grade 10](/handbook/total-rewards/compe
 - Be familiar with or ready to learn how to use GitLab and Git.
 - A deep understanding the GitLab product is a plus.
 - You share our [values](/handbook/values/), and work in accordance with those values.
-- [Leadership at GitLab](/handbook/company/team/structure/#director-group)
+- [Leadership at GitLab](/handbook/company/structure/#director-group)
 - Ability to use GitLab
 
 ## Career Ladder

@@ -6,6 +6,55 @@ description: The objective of this page is to provide a clear documentation of t
 ## What is a Tech Lead
 This role is outlined [here](https://handbook.gitlab.com/handbook/engineering/ic-leadership/tech-lead/#the-tech-lead-role).
 
+
+##  Create Tech Leads
+
+### Source Code Tech Leads
+
+| Start Date | End Date | Estimated End Date | Epic(s) / Issue(s)     | Tech Lead  |
+|------------|----------|--------------------|-------------------------|------------|
+| YYYY-MM-DD | YYYY-MM-DD | YYYY-MM-DD       | Epic/Issue Name 1      | Tech Lead 1 |
+| YYYY-MM-DD | YYYY-MM-DD | YYYY-MM-DD       | Epic/Issue Name 2      | Tech Lead 2 |
+| YYYY-MM-DD | YYYY-MM-DD | YYYY-MM-DD       | Epic/Issue Name 3      | Tech Lead 3 |
+| YYYY-MM-DD | YYYY-MM-DD | YYYY-MM-DD       | Epic/Issue Name 4      | Tech Lead 4 |
+
+### Code Review Tech Leads
+
+| Start Date | End Date | Estimated End Date | Epic(s) / Issue(s)     | Tech Lead  |
+|------------|----------|--------------------|-------------------------|------------|
+| YYYY-MM-DD | YYYY-MM-DD | YYYY-MM-DD       | Epic/Issue Name 1      | Tech Lead 1 |
+| YYYY-MM-DD | YYYY-MM-DD | YYYY-MM-DD       | Epic/Issue Name 2      | Tech Lead 2 |
+| YYYY-MM-DD | YYYY-MM-DD | YYYY-MM-DD       | Epic/Issue Name 3      | Tech Lead 3 |
+| YYYY-MM-DD | YYYY-MM-DD | YYYY-MM-DD       | Epic/Issue Name 4      | Tech Lead 4 |
+
+### IDE Tech Leads
+
+| Start Date | End Date | Estimated End Date | Epic(s) / Issue(s)     | Tech Lead  |
+|------------|----------|--------------------|-------------------------|------------|
+| YYYY-MM-DD | YYYY-MM-DD | YYYY-MM-DD       | Epic/Issue Name 1      | Tech Lead 1 |
+| YYYY-MM-DD | YYYY-MM-DD | YYYY-MM-DD       | Epic/Issue Name 2      | Tech Lead 2 |
+| YYYY-MM-DD | YYYY-MM-DD | YYYY-MM-DD       | Epic/Issue Name 3      | Tech Lead 3 |
+| YYYY-MM-DD | YYYY-MM-DD | YYYY-MM-DD       | Epic/Issue Name 4      | Tech Lead 4 |
+
+ 
+### Editor Extension Tech Leads
+
+| Start Date | End Date | Estimated End Date | Epic(s) / Issue(s)     | Tech Lead  |
+|------------|----------|--------------------|-------------------------|------------|
+| YYYY-MM-DD | YYYY-MM-DD | YYYY-MM-DD       | Epic/Issue Name 1      | Tech Lead 1 |
+| YYYY-MM-DD | YYYY-MM-DD | YYYY-MM-DD       | Epic/Issue Name 2      | Tech Lead 2 |
+| YYYY-MM-DD | YYYY-MM-DD | YYYY-MM-DD       | Epic/Issue Name 3      | Tech Lead 3 |
+| YYYY-MM-DD | YYYY-MM-DD | YYYY-MM-DD       | Epic/Issue Name 4      | Tech Lead 4 |
+
+### Code Creation Tech Leads
+
+| Start Date | End Date | Estimated End Date | Epic(s) / Issue(s)     | Tech Lead  |
+|------------|----------|--------------------|-------------------------|------------|
+| YYYY-MM-DD | YYYY-MM-DD | YYYY-MM-DD       | Epic/Issue Name 1      | Tech Lead 1 |
+| YYYY-MM-DD | YYYY-MM-DD | YYYY-MM-DD       | Epic/Issue Name 2      | Tech Lead 2 |
+| YYYY-MM-DD | YYYY-MM-DD | YYYY-MM-DD       | Epic/Issue Name 3      | Tech Lead 3 |
+| YYYY-MM-DD | YYYY-MM-DD | YYYY-MM-DD       | Epic/Issue Name 4      | Tech Lead 4 |
+
 ## How is a Tech Lead different from a Domain Expert
 
 Tech Leads and Domain Experts share similarities and differences. The tables below clarify distinctions between the two roles.
@@ -36,6 +85,7 @@ Tech Leads and Domain Experts share similarities and differences. The tables bel
 ## Responsibilities
 The Tech Lead responsibilites are outlined [here](https://handbook.gitlab.com/handbook/engineering/ic-leadership/tech-lead/#responsibilities-of-a-tech-lead).
 
+
 ## Process
 
 
@@ -61,46 +111,3 @@ In some projects, having a Tech Lead depends on the team's available capacity. E
 | 3    | Select a Tech Lead         |
 
 
-### Project Handbook Page 
-
-All Projects should use the same Project Template.  By adopting this template, the project team can benefit from streamlined processes, enhanced communication, and a proactive approach to project management, ultimately contributing to project success.
-
-## Template
-
-#### Project Overview
-* Description: Clearly articulates the project's purpose, goals, and importance.
-* Stakeholders: Identifies key stakeholders and their roles, fostering understanding and alignment.
-#### Project Objectives
-SMART Objectives: Defines Specific, Measurable, Achievable, Relevant, and Time-bound project objectives for focused and attainable goals.
-#### Project Team
-Roles and Responsibilities: Lists team members along with their specific roles and responsibilities, establishing accountability and coordination.
-#### Key Milestones
-Measurable Outcomes: Specifies measurable outcomes and success criteria, facilitating clear progress tracking.
-Epics with Issues: Utilizes Epics and Issue Boards for structured project organization.
-#### Timeline
-Phased Milestones: Includes start and end dates for each major phase milestone, ensuring timeline adherence.
-#### Risk Management
-Identification and Mitigation: Identifies potential risks and strategies for mitigation, preparing the team for unforeseen challenges.
-#### Communication Plan
-Effective Communication Channels: Outlines communication channels within the team and to stakeholders, enhancing collaboration.
-Metrics/Dashboards/Charts: Incorporates visual tools for better project insight.
-Labels: Establishes a labeling system for improved organization and tracking.
-#### Quality, Security, SRE, Documentation
-Epics: Creates separate Epics for Quality, Security, SRE, and Documentation, ensuring focused collaboration in each area.
-#### Feedback
-Feedback Gathering: Sets up an Epic for both internal and external feedback, promoting continuous improvement.
-#### Project Team Meetings
-Regular Meetings: Recommends scheduling regular project team meetings to maintain alignment and coordination.
-#### Status Report Issue
-* Continuous Reporting: Implements a  status report issue format for transparent reporting at a cadence that aligns with the project dynamics.
-* Achievements, Challenges, Goals, Lessons: Systematically captures  accomplishments, challenges, upcoming goals, and lessons learned, fostering accountability and continuous improvement.
-
-
-## Benefits of Using This Template:
-1. Clarity and Alignment: Clearly defines project goals, roles, and timelines, ensuring everyone is on the same page.
-1. Efficient Communication: Establishes effective communication channels and tools, reducing misunderstandings and improving collaboration.
-1. Risk Mitigation: Proactively identifies and addresses potential risks, minimizing project disruptions.
-1. Organized Project Structure: Utilizes Epics, Issues, and Labels for a structured and organized project workflow.
-1. Continuous Improvement: Encourages feedback gathering and lesson sharing for ongoing learning and enhancement.
-1. Transparent Reporting: Weekly status reports provide transparency on achievements, challenges, and upcoming goals.
-1. Focused Collaboration: Epics for different project aspects enable focused collaboration in quality, security, SRE, and documentation.

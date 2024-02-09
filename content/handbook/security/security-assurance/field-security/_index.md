@@ -37,7 +37,7 @@ The Field Security team is tasked with providing high levels of security assuran
 - Contract Reviews
 - Trust Center administration, maintenance and development (Knowledge Base, content, documents, integrations and metrics)
 
-[Jonathan Snow](/handbook/company/team/#jgsnow), @ayofan, Senior Security Assurance Engineer, Field Security
+[Jonathan Snow](/handbook/company/team/#jgsnow), @jgsnow, Senior Security Assurance Engineer, Field Security
 
 - [Customer Assurance Activities]({{< ref "customer-security-assessment-process" >}})
 - Trust Center maintenance and development (Knowledge Base, content, documents, integrations and metrics)

@@ -4,7 +4,7 @@ title: "AppSec Frequently Asked Questions"
 description: "A curated list of the most frequently asked AppSec related questions"
 ---
 
-This is a curated list of commonly asked questions related to Application Security. If you have a question that is not answered here or in the [handbook page](/handbook/security/security-engineering/application-security/) please reach out to the AppSec slack channel #sec-appsec.
+This is a curated list of commonly asked questions related to Application Security. If you have a question that is not answered here or in the [handbook page](/handbook/security/product-security/application-security/) please reach out to the AppSec slack channel #sec-appsec.
 
 ___
 

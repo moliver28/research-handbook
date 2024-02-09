@@ -93,7 +93,7 @@ Resources below are designed to guide mentor/mentee relationships in both synchr
 
 ### Mentor and Mentee training
 
-Take the LinkedIn Learning training called [How to be a Good Mentor and Mentee](https://levelup.gitlab.com/access/saml/login/internal-team-members?returnTo=https://levelup.gitlab.com/learn/course/how-to-be-a-good-mentee-and-mentor). It covers strategies for finding a mentor, setting clear expectations, and achieving goals through mentorship. Content from this training has been adapted in the following [Google Slides presentation](https://docs.google.com/presentation/d/1QPx9ZGa051Jhwwfb78cKW1LD0uVTUdKxRdElBk4Ku9I/edit?usp=sharing) for learners who prefer to read the material at their own pace.
+Enjoy the following [Google Slides presentation](https://docs.google.com/presentation/d/1QPx9ZGa051Jhwwfb78cKW1LD0uVTUdKxRdElBk4Ku9I/edit?usp=sharing) on finding a mentor, setting clear expectations, and achieving goals through mentorship.
 
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vS3cZJcCIv_s44OfN9QLjje2wRqS7EwnrK3HCS_ZeT-ZGwk58hPq17L-c_DvCdvu0jxjR3r6yY8xY79/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 

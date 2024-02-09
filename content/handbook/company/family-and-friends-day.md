@@ -78,7 +78,7 @@ Family and Friends Days have been held on these dates:
 
 ### Who determines upcoming Family and Friends Days?
 
-Any GitLab team member is able to propose a Family and Friends Day. If there are no proposals from a GitLab Team Member, the Total Rewards Team will propose a day for [E-group](/handbook/company/team/structure/#e-group) approval. To propose a Family and Friends Day please follow the steps outlined below:
+Any GitLab team member is able to propose a Family and Friends Day. If there are no proposals from a GitLab Team Member, the Total Rewards Team will propose a day for [E-group](/handbook/company/structure/#e-group) approval. To propose a Family and Friends Day please follow the steps outlined below:
 1. Review the [GitLab Team Meetings calendar](https://calendar.google.com/calendar/u/0?cid=Z2l0bGFiLmNvbV82ZWtiazhmZnFua3VzM3FwajlvMjZycWVqZ0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t) for major conflicts, review major holidays, and avoid the end of the quarter to ensure our Sales team can participate before determining a date proposal.
 1. Submit a merge request to modify the `Upcoming Family and Friends Days` section of this page with the date of your Family and Friends Day proposal.
 1. Post the MR in the `#e-group` Slack channel and `@mention` the `@exec-group` and `@exec-admins` for feedback.

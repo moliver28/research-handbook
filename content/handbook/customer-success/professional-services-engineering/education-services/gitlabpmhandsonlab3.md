@@ -1,9 +1,7 @@
 ---
-title: "GitLab Project Management - Hands-On Lab 3"
+title: "GitLab Project Management - Hands-On Lab: Use GitLab Planning Tools"
 description: "This Hands-On Guide walks you through the lab exercises used in the GitLab Project Management course."
 ---
-
-## Lab 3: Use GitLab Planning Tools
 
 > Estimated time to complete: 45-60 minutes
 

@@ -39,7 +39,7 @@ Leaders in the security department at GitLab are customer focused. While they ar
 - Ability to use GitLab
 - Exceptional communication skills, including verbal, written, and presentation skills, to a variety of stakeholders
 - You share our [values](/handbook/values/), and work in accordance with those values
-- [Leadership at GitLab](/handbook/company/team/structure/#director-group)
+- [Leadership at GitLab](/handbook/company/structure/#director-group)
 
 ## Levels
 

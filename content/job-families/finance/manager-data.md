@@ -30,7 +30,7 @@ The Manager, Data is a [grade 8](/handbook/total-rewards/compensation/compensati
 #### Requirements
 
 - Ability to use GitLab
-- [Leadership at GitLab](/handbook/company/team/structure/#management-group)
+- [Leadership at GitLab](/handbook/company/structure/#management-group)
 - Share [our values](/handbook/values/), and work in accordance with those values
 - 5+ years hands on experience in a data analytics/engineering/science role
 - 2+ years hands on experience performing quantitative analysis to tackle business problems with a focus on feature and usage metrics to increase conversion and retention OR reporting for key business metrics, including revenue, sales metrics, and customer metrics

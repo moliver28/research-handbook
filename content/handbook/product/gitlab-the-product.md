@@ -202,7 +202,7 @@ Naming new features or [renaming existing features](https://docs.gitlab.com/ee/d
 - It should not overlap with any other existing concepts in GitLab.
 - It should have as few words as possible (so people won't use a shortened name).
 - If you remove words from the name, it is still unique (helps to give it as few words as possible).
-- We should also give products descriptive, not distinctive, names, and use prepositions when referring to third-party products and services in names. See our [Product Principles] (https://about.gitlab.com/handbook/product/product-principles/#product-and-feature-naming-guidelines) for more information.
+- We should also give products descriptive, not distinctive, names, and use prepositions when referring to third-party products and services in names. See our [Product Principles](/handbook/product/product-principles/#product-and-feature-naming-guidelines) for more information.
 
 #### Process
 

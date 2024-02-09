@@ -25,21 +25,20 @@ And all the permissions, issues, MRs, and relevant stuff within GitLab are relat
 
 - Access the username you want to request via `https://gitlab.com/mary`.
 - Check its activity and projects to see if they are an inactive user [according to the name squatting policy]({{< ref "namesquatting_policy" >}}).
-- If you're a team member, Complete the [current process for requesting a dormant username]({{< ref "internal-support" >}}).
 - There's no guarantee that the username will be available for you.
 
 #### STEP 2: Create a new account with your new username{#change-username-step-2}
 
 - If support replies to you telling that the username is free to use, create a new GitLab.com account with it.
 Use a personal email to register your new account and choose one that has not been used with your old GitLab account.
-- Navigate to your [**Profile Settings** > **Emails**](https://gitlab.com/profile/emails), and add a new email.
+- Navigate to your [**Profile Settings** > **Emails**](https://gitlab.com/-/profile/emails), and add a new email.
 ⭐️ **Trick** ⭐️ If your email at GitLab is `mary@gitlab.com`, add the new email as `mary+something@gitlab.com`: this is a [Gmail trick](https://support.google.com/mail/answer/12096?hl=en)! All your emails sent to this alias will end up in your GitLab email account 😃
-- Navigate to [https://gitlab.com/profile/notifications](https://gitlab.com/profile/notifications) and choose the notifications email: `mary+something@gitlab.com`.
+- Navigate to [https://gitlab.com/-/profile/notifications](https://gitlab.com/-/profile/notifications) and choose the notifications email: `mary+something@gitlab.com`.
 - Open your old account in one browser and the new one in another browser (e.g., Chrome and Firefox, or Chrome and Safari) - log in to both accounts at the same time.
 
 #### STEP 3: Let's have some fun (kidding, this is critical!)
 
-- Navigate to [https://gitlab.com/profile/account](https://gitlab.com/profile/account) in both your accounts.
+- Navigate to [https://gitlab.com/-/profile/account](https://gitlab.com/-/profile/account) in both your accounts.
 - Look for your username.
 This operation has to be done quickly, otherwise you are risking to lose your awesome new username to someone else quicker than you.
 We need to **swap** the usernames between both accounts, so you'll keep all your history, your privileges, issues, and MRs assigned to you, etc.

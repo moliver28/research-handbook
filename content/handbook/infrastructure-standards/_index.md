@@ -55,7 +55,7 @@ For cloud infrastructure, we have created top-level AWS organizational units and
 | `it`       | Orange/Yellow/Green | [IT Engineering](/handbook/business-technology/engineering/#infrastructure-engineering) | [Realm Docs](/handbook/infrastructure-standards/realms/it) | `#it_help` (tag `@it-eng`) |
 | `saas`     | Red/Orange/Yellow/Green | [Reliability Engineering](/handbook/engineering/infrastructure/team/reliability/) | [Realm Docs](/handbook/infrastructure-standards/realms/saas) | `#infrastructure-lounge` |
 | `sandbox`  | Green | Self Service (Team Member) | [Sandbox Cloud](/handbook/infrastructure-standards/realms/sandbox) | `#sandbox-cloud-questions` |
-| `security` | Orange/Yellow/Green | [Infrastructure Security](/handbook/security/security-engineering/infrastructure-security/) | [Realm Docs](/handbook/infrastructure-standards/realms/security) | `#security-infrasec` |
+| `security` | Orange/Yellow/Green | [Infrastructure Security](/handbook/security/product-security/infrastructure-security/) | [Realm Docs](/handbook/infrastructure-standards/realms/security) | `#security-infrasec` |
 
 ### Managed by Infrastructure Teams
 

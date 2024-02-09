@@ -62,7 +62,11 @@ The UX Researcher (Intermediate) is a [grade 6](/handbook/total-rewards/compensa
 
 - Know GitLab users in your stage groups: develop a deep empathic understanding of your users, learn about their needs, and identify gaps.
 
+- Demonstrate knowledge of how your stakeholders operate, be aware of their goals, processes and challenges, and apply that knowledge when making decisions on how to approach research planning and prioritisation.
+
 - With the help of your manager and product leadership, effectively prioritize your research efforts across stage groups. Align with Product teams while considering impact, the goals of your stage groups, the broader product direction, and company objectives.
+
+- Demonstrate research impact across **your assigned stage group(s)** through your research efforts
 
 - Respond to solution validation user research inquiries that are escalated by Product Design.
 
@@ -104,6 +108,8 @@ The Intermediate responsibilities, plus the responsibilities below:
 
 - Make connections between disparate research initiatives. This can be done by: identifying existing research that supplements a new initiative, looking for commonalities in findings to surface larger "macro" insights, through data triangulation, and/or by combining similar research efforts.
 
+- **Consistently** demonstrate research impact across **your assigned stage group(s)** through your research efforts
+
 - Lead and mentor other Researchers on methods, communication, and successful collaboration/working models.
 
 ### Staff
@@ -126,9 +132,11 @@ The Senior responsibilities, plus the responsibilities below:
 
 - Know GitLab: understand the technology, experiences, and features of the GitLab product. Demonstrate that knowledge by being able to ramp up and conduct research on any portion of the product.
 
-- Know GitLab users: develop a deep empathic understanding of GitLab users in various contexts, learn about their needs, and identify gaps. Demonstrate that knowledge through your research insights and recommendations.
+- Know GitLab users: develop a deep empathic understanding of GitLab users in various contexts, learn about their needs, and identify gaps. Demonstrate that knowledge through your research insights and recommendations. **Emphasis on your assigned section(s)**.
 
 - Practice flexibility by leading and partnering with a variety of teams and disciplines with the goal of delivering research insights.
+
+- **Consistently** demonstrate research impact across **your assigned section(s)** through your research efforts
 
 - Conduct impactful research that informs decisions **across our product lifecycle**.
 
@@ -160,11 +168,15 @@ The Principal UX Researcher is a [grade 9](/handbook/total-rewards/compensation/
 
 The Staff responsibilities, plus the responsibilities below:
 
+- Influence stakeholders to act upon research insights and recommendations
+
 - Proactively and consistently make connections between disparate research initiatives. This can be done by: identifying existing research that supplements a new initiative, looking for commonalities in findings to surface larger "macro" insights, through data triangulation, and/or combining similar research efforts. **Set the standard on how this effectively accomplished for the UX Research team.**
 
 - Know GitLab users: develop a deep empathic understanding of GitLab users in various contexts, learn about their needs, and identify gaps. Demonstrate that knowledge through your research insights and recommendations. **Emphasis on GitLab users who use multiple sections.**
 
-- Effectively prioritize your overall research efforts. Align with **section Directors, VPs, and C-level executives** while considering impact, type of research, the goals of stage groups, the broader product direction, and company objectives.
+- **Consistently** demonstrate research impact across **multiple sections and teams** through your research efforts
+
+- Effectively prioritize your overall research efforts **by establishing an informed research strategy**. Align **and collaborate** with **section Directors, and VPs** while considering impact, type of research, the goals of stage groups, the broader product direction, and company objectives.
 
 ## Hiring Process
 

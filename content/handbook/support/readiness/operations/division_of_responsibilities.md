@@ -13,6 +13,7 @@ The current division of responsibilities is:
 | Access Requests     | [Internal License Requests](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/?state=opened&label_name%5B%5D=Internal-License) | Everyone         | Everyone         |
 |                     | [Zendesk Global Provisioning](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/)                                              | @jcolyer         | @lyle            |
 |                     | [Zendesk US Federal Provisioning](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/)                                          | @jcolyer         | @lyle            |
+|                     | [FrameAI Provisioning](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/)                                          | @lyle | @jcolyer          |
 | Account Deletions   | [Form](https://gitlab.com/gitlab-com/support/support-ops/forms/account-deletion)                                                                      | @jcolyer         | @dtragjasi       |
 |                     | [Issues](https://gitlab.com/gitlab-com/gdpr-request/-/issues)                                                                                         | @jcolyer         | @avilla4         |
 |                     | [Processor](https://gitlab.com/gitlab-com/support/support-ops/other-software/account-deletion-processor)                                              | @jcolyer         | @avilla4         |

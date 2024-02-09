@@ -156,6 +156,27 @@ If your Group Conversation is optional and you need to move the date, please wor
 | Wednesday 2024-01-24 | Infrastructure & Quality | Mek Stittri | January 16 |
 | Wednesday 2024-01-31 | IT | Nabitha Rao | January 23 |
 | Thursday 2024-02-01 | Development | Tim Zallmann | January 24 |
+| Thursday 2024-02-22 | IT | Nabitha Rao | February 14 |
+| Wednesday 2024-02-28 | Product | Product Leadership | - |
+| Monday 2024-03-18 | People | Wendy Barnes | - |
+| Monday 2024-03-18 | Finance | Brian Robins | - |
+| Wednesday 2024-04-24 | Data | Amie Bright | April 18 |
+| Wednesday 2024-05-22 | IT | Nabitha Rao | May 15 |
+| Tuesday 2024-05-28 | Product | Product Leadership | - |
+| Wednesday 2024-06-12 | Finance | Brian Robins | - |
+| Monday 2024-06-17 | People | Wendy Barnes | - |
+| Thursday 2024-07-25 | Data | Amie Bright | July 18 |
+| Thursday 2024-08-22 | IT | Nabitha Rao | August 14 |
+| Wednesday 2024-08-28 | Product | Product Leadership | - |
+| Thursday 2024-08-29 | Finance | Brian Robins | - |
+| Thursday 2024-09-12 | People | Wendy Barnes | - |
+| Thursday 2024-10-24 | Data | Amie Bright | October 17 |
+| Thursday 2024-11-21 | IT | Nabitha Rao | November 14 |
+| Tuesday 2024-11-26 | Finance | Brian Robins | - |
+| Thursday 2024-11-28 | Product | Product Leadership | - |
+| Wednesday 2024-12-11 | People | Wendy Barnes | - |
+| Thursday 2025-01-30 | Data | Amie Bright | January 23 |
+
 
 ## Examples of Past Group Conversations
 

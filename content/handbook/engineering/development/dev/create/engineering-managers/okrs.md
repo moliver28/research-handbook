@@ -23,7 +23,7 @@ Team OKRs
 
 * [Code Review](https://gitlab.com/gitlab-com/www-gitlab-com/-/issues?scope=all&utf8=✓&state=all&label_name[]=OKR&label_name[]=group%3A%3Acode%20review).
 * [Ecosystem](https://gitlab.com/gitlab-com/www-gitlab-com/-/issues?scope=all&utf8=✓&state=all&label_name[]=OKR&label_name[]=group%3A%3Aecosystem).
-* [Editor](https://gitlab.com/gitlab-com/www-gitlab-com/-/issues?scope=all&utf8=✓&state=all&label_name[]=OKR&label_name[]=group%3A%3Aeditor).
+* [IDE](https://gitlab.com/gitlab-com/www-gitlab-com/-/issues?scope=all&utf8=✓&state=all&label_name[]=OKR&label_name[]=group%3A%3Aide).
 * [Gitaly](https://gitlab.com/gitlab-com/www-gitlab-com/-/issues?scope=all&utf8=✓&state=all&label_name[]=OKR&label_name[]=group%3A%3Agitaly).
 * [Source Code](https://gitlab.com/gitlab-com/www-gitlab-com/-/issues?scope=all&utf8=✓&state=all&label_name[]=OKR&label_name[]=group%3A%3Asource%20code).
 

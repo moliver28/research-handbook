@@ -20,16 +20,23 @@ description: "Continuous education webcast series for GitLab sales team members"
 
 To see what training is coming soon, view the [Field Enablement Spotlight issue list](https://gitlab.com/groups/gitlab-com/sales-team/-/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=sales%20enablement%20sessions).
 
-**Winter 2023 Lineup**
+**Spring 2024 Lineup**
 
 | DATE   | TOPIC | SPEAKERS |
 |--------|--------|--------|
-| Dec 21 | **No Session** |  |
-| Dec 28 | **No Session** |  |
-| Jan 4 | TBD |  |
-| Jan 11 | ZoomInfo Overview | ZoomInfo Team |
-| Jan 18 | *No session during the last week of the quarter* | N/A |
-| Jan 25 | *No session during the last week of the quarter* | N/A |
+| Feb 1 | Tools to Help You Win: ZoomInfo Overview | ZoomInfo Team |
+| Feb 8 | Tools to Help You Win: SafeBase | Field Security |
+| Feb 15 | FY 25 Deal Approval Matrix Changes | Deal Desk  |
+| Feb 22 | FY25-Q1 - Product Marketing Update | Marketing  |
+| Feb 29 | FY25-Q1 - GitLab Channel Sales Update | Channel & Alliances Team |
+| Mar 7 | TBD |  |
+| Mar 14 | **No Session - Summit** |  |
+| Mar 21 | TBD |  |
+| Mar 28 | TBD |  |
+| Apr 4 | TBD |  |
+| Apr 11 | TBD |  |
+| Apr 18 | *No session during the last week of the quarter* | N/A |
+| Apr 25 | *No session during the last week of the quarter* | N/A |
 
 
 ## Past Sessions

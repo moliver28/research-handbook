@@ -15,7 +15,7 @@ These go directly to us. Currently, we have 6 problem types:
 - [Support portal issues](#support-portal-issues)
 - [Other](#other)
 
-#### Always check if the user is authenticated
+## Always check if the user is authenticated
 
 When you are the first one reviewing a ticket, you need to check if the user was
 authenticated when the ticket was created (i.e. logged into the support portal).
@@ -24,7 +24,7 @@ If they were not, use the macro
 will send a brief message about the current state of the ticket and ask the
 requester to reply back confirming the request and actions therein.
 
-#### First time setup
+## First time setup
 
 This is for user's who have not been setup in the support portal previously.
 Here they should detail what user's they'd like setup and any
@@ -37,7 +37,7 @@ Please see
 [User Association](/handbook/support/readiness/operations/docs/zendesk/user_association/)
 for more details on associating users to organizations.
 
-#### Manage my organization's contacts
+## Manage my organization's contacts
 
 This is for user's wishing to setup their organization within the support portal
 and are not using a contact management project.
@@ -77,7 +77,7 @@ have some macros you can use:
 These can be used in combination of one another, as they are not full response
 macros (but instead pieces of a full response).
 
-#### Maximum contacts limit issues
+## Maximum contacts limit issues
 
 When a organization not using a contact management project exceeds 30 support
 contacts (or a request to add more contacts would do so), we need to intervene
@@ -103,19 +103,19 @@ Remember, once the maximum contacts limit issue is fixed, you might need to
 review the ticket and go back to a previous issue that the ticket was raised
 about.
 
-#### Shared organization requests
+## Shared organization requests
 
 These are requests for shared organization setup/management. See the
 [Shared Organization management](/handbook/support/readiness/operations/docs/zendesk/organizations/#shared-organization-management)
 for more details.
 
-#### Setup a contact management project
+## Setup a contact management project
 
 These requests are a bit more complicated to do. Please see
 [Contact Management Projects](/handbook/support/readiness/operations/docs/gitlab/contact_management_projects/)
 for more information on doing these.
 
-#### Support portal issues
+## Support portal issues
 
 These are reports of issues within the support portal. While each issue can
 present unique challenges, the common troubleshooting guide for the users would
@@ -144,12 +144,12 @@ If they have not, point them to trying all that out first.
 If they have, you will need to analyze the details of what is sent to determine
 next steps.
 
-#### Other
+## Other
 
 This is a catchall field, meaning there is no specific workflow for requests
 using this problem type.
 
-#### Incorrect initial form tickets
+## Incorrect initial form tickets
 
 When a ticket is filed using the incorrect form, agents will use the
 `General::Forms::Incorrect form used` macro. This will change the form to our
@@ -172,34 +172,32 @@ graph TD;
   D-->|No| H;
   E-->F;
   F-->G;
-  A(Ticket comes to Ops due to<br>incorrect form)
+  A(Ticket comes to Ops due to incorrect form)
   B(Ops determines correct form)
-  C{Will the ticket breach FRT<br>SLA is moved over currently?}
-  D{Does the ticket have previous<br>agent replies?}
-  E(Leave an internal note detailing<br>what you have found and why it is not<br>being moved)
-  F(Post in the channel responsible<br>for the ticket based off the correct<br>form asking someone to reply to the ticket first)
-  G(Move the ticket to the correct<br>form with the stage being NRT after<br>someone has replied on the ticket)
+  C{Will the ticket breach<br>FRT SLA is moved<br>over currently?}
+  D{Does the ticket have previous<br>agent replies or would new<br>ticket creation result in<br>a poor customer experience?}
+  E(Add the tag transferred_breached<br>to the ticket)
+  F(Add an internal note detailing<br>the situation and why it is<br>being moved breached)
+  G(Move the ticket to the correct form)
   H(Create a new ticket and use the macro<br>Support::Support-Ops::Response<br>to original ticket using an incorrect form)
   I(Move the ticket to the correct form,<br>setting stage to FRT, removing<br>assignee, and ensuring the SGG is blank)
 ```
 
 **Notes**:
 
-1. If the ticket needs to undergo the Needs-Org process, please do that
-   in the original ticket first. We want the new ticket to be as ready to be
-   worked as possible, and starting a new ticket we created for an end-user with
-   the Needs-Org process is not a great customer experience.
+1. If the ticket needs to undergo the Needs-Org process, please do that in the
+   original ticket first. We want the new ticket to be as ready to be worked
+   as possible, and starting a new ticket we created for an end-user with the
+   Needs-Org process is not a great customer experience.
 1. If you determine the ticket is from a free or community user, there is no
    need to create a new ticket. Instead, simply change the form to the
-   appropriate support form and ensure the SaaS/Self-managed Subscription is set
-   to 'Free User'. This will ensure the ticket will have no SLA and will be
-   visible in the
-   [Free user tickets](https://gitlab.zendesk.com/agent/filters/360038103100)
-   view.
+   appropriate support form and ensure the gitlab.com/Self-managed Subscription
+   is set to 'Free User'. Make sure to set the SGG field on the ticket to a
+   blank value!
 1. When moving tickets to a new form, do your best to fill out the ticket
    metadata for the team that will work the ticket.
 
-##### If you are making a new ticket
+#### If you are making a new ticket
 
 Once you determine the correct form, you should review what ticket fields that
 form uses and what information is missing. In the original ticket, leave an

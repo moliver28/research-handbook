@@ -150,12 +150,19 @@ No, not at this time.
 
 | Week of | Shadow(s) | Role |
 | ------ | ------ | ----- |
-| January 22 | Not Available | |
-| January 29 | [Carla Drago](https://gitlab.com/carlad-gl) | Senior Backend Engineer |
 | Feb 5 | [Tyler DeCaire](https://gitlab.com/tdecaire) | Solutions Architect |
 | Feb 12 | Not Available | |
-| Feb 19 | Available | |
+| Feb 19 | [Kev](https://gitlab.com/kevslashnull) | Non-GitLab shadow - Software Engineer |
 | Feb 26 | Available | |
+| Mar 4 | Available | |
+| Mar 11 | Available though not a preferred week for shadows | |
+| Mar 18 | Available | |
+| Mar 25 | Available | |
+| Apr 1 | Available though not a preferred week for shadows | |
+| Apr 8 | Available |
+| Apr 15 | Available |
+| Apr 22 | Available |
+| Apr 29 | Available |
 
 ## Shadow Alumni
 
@@ -196,5 +203,6 @@ No, not at this time.
 | [Zivago Lee](https://www.linkedin.com/in/zivagolee/) | Non-GitLab shadow - Director of Engineering at [Spin](https://www.spin.app/) |
 | [Marc-Aurele Brothier](https://www.linkedin.com/in/marcaurele) | Non-GitLab shadow - Senior Engineering Manager at [Pix4D](https://www.pix4d.com/) |
 | [Sameera Perera](https://www.linkedin.com/in/perera-sameera) | Non-GitLab Shadow - Director of R&D @ Celigo |
+| [Carla Drago](https://gitlab.com/carlad-gl) | Senior Backend Engineer |
 
 

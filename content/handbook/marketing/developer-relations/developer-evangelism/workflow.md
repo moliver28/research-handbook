@@ -95,6 +95,11 @@ The following quick actions example updates a content epic from FY24Q3 to FY24Q4
 /parent_epic https://gitlab.com/groups/gitlab-com/marketing/developer-relations/-/epics/241 
 ```
 
+### Subscribing to epic updates
+
+To get notifications, you can [subscribe to epic labels](https://docs.gitlab.com/ee/user/project/labels.html#receive-notifications-when-a-label-is-used). 
+
+Please follow the [content library resources](/handbook/marketing/developer-relations/developer-evangelism/content/) for general content updates. 
 
 ### Epic Templates
 
@@ -164,7 +169,6 @@ and FY25 epic https://gitlab.com/groups/gitlab-com/marketing/developer-relations
 <!-- Link to Child epic where necessary -->
 /child_epic 
 
-/cc @gitlab-de 
 <!-- Mention team members that should be aware of the epic -->
 /cc 
 
@@ -231,7 +235,6 @@ On completion:
 <!-- Link to Child epic where necessary -->
 /child_epic 
 
-/cc @gitlab-de 
 <!-- Mention team members that should be aware of the epic -->
 /cc 
 
@@ -310,7 +313,6 @@ _Metrics, traces, analytics, value stream dashboards, etc._
 
 /label ~"dev-evangelism" ~"DE-Type::Evangelist" ~"DevRel-Content"  ~"Content-Releases" 
 
-/cc @gitlab-de
 
 ```
 

@@ -195,6 +195,6 @@ All feedback from the retrospective should ultimately end up in the issue for re
 
 ## Merge Request Report Widgets shared responsibility
 
-Even though the topic of Merge Request falls under Code Review, the code powering the Merge Request Report Widgets (see [Working Group](/handbook/company/team/structure/working-groups/merge-request-report-widgets/)) is written and maintained by a larger group.
+Even though the topic of Merge Request falls under Code Review, the code powering the Merge Request Report Widgets (see [Working Group](/handbook/company/working-groups/merge-request-report-widgets/)) is written and maintained by a larger group.
 
 Please refer to the [List of DRIs](/handbook/engineering/development/dev/create/code-review/report-widgets-dri-list.html) for communication and troubleshooting purposes relating to these Widgets.

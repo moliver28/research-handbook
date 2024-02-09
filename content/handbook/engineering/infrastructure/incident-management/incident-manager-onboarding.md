@@ -43,9 +43,14 @@ Shifts are 4 or 6 hours each at these times each day:
 
 Each Incident Manager On Call assignment is for 4 consecutive days. The Incident Manager On Call shifts are based on individual preferences specified in the [Incident Manager Onboarding issue](/handbook/engineering/infrastructure/incident-management/incident-manager-onboarding/#onboard-as-an-incident-manager). Shifts may include weekends based on this rotating assignment.
 
-We intend to have two scheduling layers implemented in PagerDuty, as a way to make weekend coverage more equitable, once we have fully understood which folks would be [eligable](https://gitlab.com/gitlab-com/gl-infra/mstaff/-/issues/184) (internal only) .
+We have two scheduling layers implemented in PagerDuty, as a way to make weekend coverage more equitable and with the updated guidance for public holidays and weekend coverage.
+
 1. Weekdays and Weekends - an Incident Manager's maximum 4-day shift can scheduled any day of the week. This is how the rotating assignments have been scheduled to date.
-1. Weekdays-only - an Incident Manager's  maximum 4-day shift will only be scheduled on weekdays, which applies to team members who cannot cover weekend shifts. This layer has precedence over the "Weekdays and Weekends" layer, so that Incident Managers scheduled _any day of the week_ will have their shifts scheduled less often.
+1. Weekdays-only - an Incident Manager's maximum 4-day shift will only be scheduled on weekdays, which applies to team members who cannot cover weekend shifts. This layer has precedence over the "Weekdays and Weekends" layer, so that Incident Managers scheduled _any day of the week_ will have their shifts scheduled less often.
+   1. Eligibility for weekday only shifts
+     1. Team members with United Kingdom, Germany and Ireland employment contracts dated before 2023-12-07, 2023-12-20 and 2023-06-06, respectively that do not wish to volunteer for weekend shifts and have not signed an amendment.
+      1. Team members with Austria, France or Italy employment contracts. Weekend shifts should not be taken due to local limitations.
+1. Public Holidays should not be covered by team members with Switzerland or New Zealand employment contracts due to local limitations. If you are inadvertently scheduled for a public holiday please [swap shifts](#can-i-shift-my-incident-manager-on-call-days-around)
 
 ### Special Coverage Days
 It is more efficient to staff Incident Manager roles with fewer, but frequently longer, shifts during days where overall Team Member availability is lower due to Holidays or other global company events. These days will be designated as "Special Coverage Days" and volunteers will be sought to cover the relevant shifts. Examples of these days include New Years as well as the monthly Family & Friends days. Not all holidays will be covered in this manner as many holidays are local in nature and easier to cover simply by normal shift switches.

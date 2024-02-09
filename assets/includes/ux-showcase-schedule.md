@@ -1,6 +1,5 @@
 | Date       | Host                 | Presenter 1            | Presenter 2            | Presenter 3            |
 |------------|----------------------|------------------------|------------------------|------------------------|
-| 2024-01-24 | Marcel van Remmerden | Veethika Mishra        | Mike Nichols           |                        |
 | 2024-02-07 | APAC                 | Michael Le             | Alex Fracazo           |                        |
 | 2024-02-21 | Taurie Davis         | Annabel Gray           | Sunjung Park           | Emily Bauman           |
 | 2024-03-06 | Emily Sybrant        | Michael Fangman        | Dan Mizzi-Harris       |                        |

@@ -20,7 +20,7 @@ For an overview of CSM segments by ARR, please see [internal handbook](https://i
 
 ## Pillars of Success
 
-There are 7 pillars that we have identified as crucial for success as CSMs. It is expected and normal for all CSMs to have higher proficiency in some areas and lower in others, especially when taking [job level](/handbook/company/team/structure/#layers) into consideration, but these are all areas we are continually striving to be better at, as there are always opportunities to learn and improve.
+There are 7 pillars that we have identified as crucial for success as CSMs. It is expected and normal for all CSMs to have higher proficiency in some areas and lower in others, especially when taking [job level](/handbook/company/structure/#layers) into consideration, but these are all areas we are continually striving to be better at, as there are always opportunities to learn and improve.
 - Communication
   - Frequent and honest communication with customers and internal stakeholders, so everyone knows what is happening and what to expect, in line with [GitLab communication guidelines](/handbook/communication/)
 - Follow-through

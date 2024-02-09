@@ -16,7 +16,7 @@ Not only are buddies helpful to someone that has just started with GitLab, but a
     - [The tools page]({{< ref "/handbook/tools-and-tips" >}})
     - [The team page](/handbook/company/team/) that feeds in to the un-audited [internal-only org chart](https://comp-calculator.gitlab.net/org_chart)
     - The Organization chart in Workday, which is our SSoT for organizational structure
-    - [The positioning FAQ](https://about.gitlab.com/handbook/positioning-faq)
+    - [The positioning FAQ](https://handbook.gitlab.com/handbook/positioning-faq/)
 1. **Remind them about introducing themselves.** Remind the new team member to introduce themselves in the Slack channel `#new_team_members` or relevant team channel. Encourage them to write a little personal note, and if they're comfortable, include a photo or two!
 1. **Encourage them to organize a group call with other new hires.** New GitLab team-members who are used to (or prefer) a more conventional new hire orientation — frequently hosted in group settings in colocated organizations — [may feel a lack of early bonding](/handbook/company/culture/all-remote/learning-and-development/). Encourage them to organize a group call with other new hires in order to walk through onboarding together, while learning about new personalities and [departments of the company]({{< ref "structure" >}}).
 1. **Introduce them to Slack.** Slack may seem like it's ubiquitous, but that doesn't necessarily mean the new GitLab team-member will have had experience using it before. Since it's a central part of how we communicate at GitLab, consider showing them around, and give them some pointers about [how we use it]({{< ref "communication" >}}).

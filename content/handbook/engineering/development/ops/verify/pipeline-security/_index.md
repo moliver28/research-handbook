@@ -5,43 +5,22 @@ description: "The GitLab Verify:Pipeline Security Group Handbook page"
 
 ## Vision
 
-We provide confidence in software by increasing visibility into code change impacts on software in GitLab.
+We provide security in the software supply chain process, ensuring the right level of visibility to pipelines and jobs. This enables organizations to operate their CI pipelines securely.
 
-## Mission
-
-The Verify:Pipeline Security Group provides visibility into the results of code changes on software applications. We aim to easily integrate layers testing and verification into their GitLab CI workflow including:
+Our team is responsible for devliering on the following categories: 
 
 - [Build Artifacts](https://about.gitlab.com/direction/verify/build_artifacts/)
 - [Secrets Management](https://about.gitlab.com/direction/verify/secrets_management/)
 
-See all current and planned category maturity in the [Maturity page](https://about.gitlab.com/direction/maturity/#verify).
+The current and planned category maturity can be found on the [Maturity page](https://about.gitlab.com/direction/maturity/#verify).
 
-We want software teams to feel confident that the changes they introduce into their code are safe and conformant.
+## Mission
+
+Our mission is to give organizations features which enable secure pipeline operations, in an operationally efficient and highly secure way at scale. 
 
 ## Performance Indicators
-We measure the value we contribute by using a [Product Performance Indicator](/handbook/product/performance-indicators/). Our current PI for the Pipeline Security group is the [GMAU (internal handbook)](https://internal.gitlab.com/handbook/company/performance-indicators/product/ops-section/#verifytesting---gmau---count-of-active-users-engaging-with-the-test-summary-mr-widget). This is a rolling count of unique users who have triggered a pipeline that uploads a test or coverage report. This is not currently instrumented and we are tracking progress of instrumentation in [gitlab&4528](https://gitlab.com/groups/gitlab-org/-/epics/4528).
-
-### Adoption Funnel
-This funnel represents the customer journey and the various means a product manager may apply a Performance Indicator metric to drive a desired behavior in the funnel. This framework can be applied to any of the categories being worked on by Verify:Pipeline Security. The current priority is to increase Activation within the [Code Testing and Coverage](https://about.gitlab.com/direction/verify/code_testing/) Category.
-
-```mermaid
-classDiagram
-  Acquistion --|> Activation
-  Activation --|> Retention
-  Retention --|> Revenue
-  Revenue --|> Referral
-  Referral --|> Acquistion
-    Acquistion : Awareness
-    Acquistion : Measurement (page views on code testing docs)
-    Activation : Use
-    Activation : Measurement (Uploads of a code testing artifact)
-    Retention : Continued Use
-    Retention : Measurement (Unique users that engaged with test summary widget)
-    Revenue : Payment
-    Revenue : Measurement (TBD)
-    Referral : Talk about
-    Referral : Measurement (TBD)
-```
+We measure the value we contribute by using a [Product Performance Indicator](/handbook/product/performance-indicators/). One of the PI process goals is to ensure that, as a product team, we are focused on strategic and operational improvements to improve leading indicators, precursors of future success. 
+<!-- Our current PI for the Pipeline Security group is the [GMAU (internal handbook)](https://internal.gitlab.com/handbook/company/performance-indicators/product/ops-section/#verifytesting---gmau---count-of-active-users-engaging-with-the-test-summary-mr-widget). This is a rolling count of unique users who have triggered a pipeline that uploads a test or coverage report. This is not currently instrumented and we are tracking progress of instrumentation in [gitlab&4528](https://gitlab.com/groups/gitlab-org/-/epics/4528). --> 
 
 ### Error Budgets
 
@@ -67,7 +46,8 @@ Like most GitLab backend teams we spend a lot of time working in Rails on the ma
 
 ## Common Links
 
-- [Issue Tracker](https://gitlab.com/groups/gitlab-org/-/boards/364216?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=group::pipeline+security)
+- [Issue Tracking Board](https://gitlab.com/groups/gitlab-org/-/boards/364216?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=group::pipeline+security)
+- [Issue Backlog](https://gitlab.com/gitlab-org/gitlab/-/issues/?sort=updated_desc&state=opened&label_name%5B%5D=group%3A%3Apipeline%20security)
 - [Slack Channel](https://gitlab.slack.com/archives/g_pipeline-security)
 - [Roadmap](https://about.gitlab.com/direction/ops/#verify)
 - [GitLab Unfiltered YouTube Playlist](https://www.youtube.com/playlist?list=PL05JrBw4t0Kq53VUOvTk3VdXN79PA0SXT)
@@ -322,13 +302,12 @@ We use [geekbot](https://geekbot.com/) integrated with Slack for our daily async
 We use a GitLab issue in [this project](https://gitlab.com/gl-retrospectives/verify-stage/pipeline-security/-/issues/) for our monthly retrospective. The issue is created automatically towards the end of the current milestone. The purpose of the monthly retrospective issue is to reflect on the milestone and talk about what went well, what didn't go so well, and what we can do better.
 Instead of waiting until the end of the milestone to add items to the retrospective issue, we encourage team members to add comments throughout the month. We have a slack reminder on our #g_pipeline-security channel to remind us to add items to the issue each Friday.
 
-#### Think BIG / Think small
-We have a monthly synchronous 30-minute [think big meeting](/handbook/product/ux/thinkbig/), followed the next week by a monthly 30-minute think small meeting on the same topic of the previous think big meeting. This pair of meetings is modeled after the GitLab Product Manager [deep dive interview](https://gitlab.com/gitlab-com/people-group/hiring-processes/blob/master/Product/DeepDive.md). The purpose of this meeting is to discuss the vision, product roadmap, user research, design, and delivery around the Pipeline Security features. The goal of this meeting will be to align the team on our medium to long-term goals and ensure that our short-term goals are leading us in that direction. This meeting is useful for aligning the team with its stable counterparts and ensuring that engineers have an understanding of the big picture and so they know how their work fits into the long-term goals of the team.
-
 ## How to work with us
 
 ### On issues
 Issues worked on by the Pipeline Security group have a group label of ~"group::pipeline security". Issues that contribute to the verify stage of the DevOps toolchain have the ~"devops::verify" label.
+
+You can tag a team member with `@mention` in the issue if you have someone specific to address. If you need to call the attention of the entire group, you can tag `@gitlab-com/pipeline-security-group` which notifies the entire team. 
 
 ## Developer Onboarding
 

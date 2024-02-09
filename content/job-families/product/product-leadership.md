@@ -44,7 +44,7 @@ The VP of UX is a [grade 12](/handbook/total-rewards/compensation/compensation-c
 - Passion for creating visually pleasing and intuitive user experiences.
 - Collaborative team spirit with great communication skills.
 - You share our [values](/handbook/values/), and work in accordance with those values.
-- [Leadership at GitLab](/handbook/company/team/structure/#director-group)
+- [Leadership at GitLab](/handbook/company/structure/#director-group)
 
 #### Interview Process
 
@@ -108,14 +108,7 @@ Candidates for this position can expect the hiring process to follow the order b
 
 #### VP of Product Management - Specialties
 
-##### Dev & Analytics
-
-The VP of Product Management - Dev & Analytics is the PM DRI for the Dev and Analytics Sections which include:
-
-- [Dev Section](/handbook/product/categories/#dev-section) - Create, Plan, and Manage Stages
-- [Analytics Section](/handbook/product/categories/#analytics-section) - Analyze Stage
-
-##### CI/CD, Enablement, & SaaS Platforms
+##### CI/CD, Core Platforms, & SaaS Deployments
 
 The VP of Product Management - CI/CD, Enablement, & SaaS Platforms is the PM DRI for the CI, CD, Enablement, & SaaS Platforms Sections which include:
 
@@ -151,13 +144,19 @@ The next step in the Product Management Leadership job family is to move to the 
 
 #### Senior Director of Product Management - Specialties
 
-##### Sec, Data Science, & Service Management
+##### Sec & Data Science
 
-The Senior Director of Product Management - Sec, Data Science, & Service Management is the PM DRI for the Sec, Data Science, Service Management Sections which include:
+The Senior Director of Product Management - Sec & Data Science is the PM DRI for the Sec and Data Science Sections which include:
 
 - [Sec Section](/handbook/product/categories/#sec-section) - Secure & Govern Stages
 - [Data Science Section](/handbook/product/categories/#data-science) - ModelOps & Anti-Abuse Stages
-- [Service Management Section](/handbook/product/categories/#monitor-stage) - Monitor Stage
+
+##### Dev & Analytics
+
+The VP of Product Management - Dev & Analytics is the PM DRI for the Dev and Analytics Sections which include:
+
+- [Dev Section](/handbook/product/categories/#dev-section) - Create, Plan, and Manage Stages
+- [Analytics Section](/handbook/product/categories/#analytics-section) - Analyze Stage
 
 ##### Monetization & Operations
 

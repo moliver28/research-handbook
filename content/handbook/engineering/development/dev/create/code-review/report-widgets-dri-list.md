@@ -7,7 +7,7 @@ description: Listing the DRIs for Merge Request Report Widgets which share owner
 
 # Merge Request Report Widgets - DRI list
 
-In the context of the [Working Group](/handbook/company/team/structure/working-groups/merge-request-report-widgets/), a list of DRIs have been identified to facilitate communication among all Widgets currently active and in development.
+In the context of the [Working Group](/handbook/company/working-groups/merge-request-report-widgets/), a list of DRIs have been identified to facilitate communication among all Widgets currently active and in development.
 
 Please refer to this list and keep it updated as Widgets evolve.
 
@@ -28,4 +28,4 @@ Please refer to this list and keep it updated as Widgets evolve.
 # Related links
 
 * [Merge Request Extensions technical documentation](https://docs.gitlab.com/ee/development/fe_guide/merge_request_widget_extensions.html)
-* [Merge Request Report Widget Working Group page](/handbook/company/team/structure/working-groups/merge-request-report-widgets/)
+* [Merge Request Report Widget Working Group page](/handbook/company/working-groups/merge-request-report-widgets/)

@@ -13,7 +13,7 @@ Some UX specific processes we follow. All groups in Plan don't have to work exac
 
 ### UX issue management, weights and capacity planning
 
-As a pilot starting in June 2023, Product Planning, Project Management and Optimize will consistently create issues for UX work and pre-pend the title with [UX]. Here is an example - https://gitlab.com/groups/gitlab-org/-/epics/10224#note_1337213171+
+Product Planning, Project Management and Optimize will create issues for UX work and pre-pend the title with [UX]. Here is an example - https://gitlab.com/groups/gitlab-org/-/epics/10224#note_1337213171+
 
 - UX issues are the SSOT for design goals, design drafts, design conversation and critique, and the chosen design direction that will be implemented.
 - Product requirement discussions should continue to happen in the main Issue or Epic as much as possible.

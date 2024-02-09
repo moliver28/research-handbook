@@ -89,12 +89,8 @@ To help get started as a developer with the Create:Code Creation team, we have c
 
 ## Code Suggestion Dashboards
 
-1. [Usage](https://app.periscopedata.com/app/gitlab/1143612/Code-Suggestions-Usage)
+1. [Usage](https://app.periscopedata.com/app/gitlab/1160135/Code-Suggestions-Event-Data-(official))
 1. [Trends in Errors / Failed suggestion requests or authentication attempts](https://log.gprd.gitlab.net/app/dashboards#/view/6c947f80-7c07-11ed-9f43-e3784d7fe3ca?_g=(refreshInterval:(pause:!t,value:0),time:(from:now-6h,to:now)))
 1. [Acceptance Rate](https://log.gprd.gitlab.net/app/dashboards#/view/6c947f80-7c07-11ed-9f43-e3784d7fe3ca?_g=h@2294574) (working on getting this into Sisense)
-1. Cost tracking
-1. [Language information](https://dashboards.gitlab.net/d/code_suggestions-language/code-suggestions-language?orgId=1)
-1. [SLIs](https://dashboards.gitlab.net/d/code_suggestions-main/code-suggestions-overview?orgId=1)
-1. [Triton requests](https://dashboards.gitlab.net/d/code_suggestions-triton/code-suggestions-triton?orgId=1)
 1. [Rails API Latency for Tokens](https://dashboards.gitlab.net/d/api-rails-controller/api-rails-controller?orgId=1&var-PROMETHEUS_DS=Global&var-environment=gprd&var-stage=main&var-controller=Grape&var-action=POST%20%2Fapi%2Fcode_suggestions%2Fcompletions&from=now-15m&to=now)
 1. [Rails API Latency for Completions](https://dashboards.gitlab.net/d/ai-assisted-main/ai-assisted-overview?orgId=1)

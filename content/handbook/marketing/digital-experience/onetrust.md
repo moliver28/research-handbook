@@ -299,15 +299,15 @@ Ensure any changes you make are approved by legal and saved within the OneTrust 
 
 The OneTrust banner is only visible to new website visitors based on a set of logic listed below. In regions where the banner does not display, the user can still consent to cookie categories from the Preference Center window by clicking on the "Cookie Settings" or "Do not sell..." link located in the footer section. 
 
-| Region   | Consent Model | Banner Visibility    | Buttons    |
-|-------|---------------|---------------|------------------|
-| California, Connecticut   | Opt out       | Not visible          |     |
-| Colorado   | Opt out       | Not visible          |     |
-| US     | Opt out       | Not visible          |       |
-| Europe, Colombia, Russia, Liechtenstein, Iceland, Norway, Peru, Quebec | Opt in        | Visible to new users | Cookie Settings, Accept All Cookies  |
-| Korea, Brazil, Canada, South Africa, Macao   | Opt out       | Visible to new users | Cookie Settings, Accept All Cookies  |
-| France, Spain, United Kingdom     | Opt in        | Visible to new users | Cookie Settings, Reject All, Accept All Cookies |
-| Global     | Opt out       | Not visible          |              |
+| Region   | Consent Model | Banner Visibility    | Buttons    | Template | Global Privacy Control |
+|-------|---------------|---------------|------------------|---|---|
+| California, Connecticut   | Opt out       | Not visible          |     | CCPA | Performance and Analytics, Allow Sell or Sharing of PI		|
+| Colorado   | Opt out       | Not visible          |     | GDPR | Performance and Analytics, Targeting and Advertising Cookies	
+| US     | Opt out       | Not visible          |       | GDPR |
+| Europe, Colombia, Russia, Liechtenstein, Iceland, Norway, Peru, Quebec, Korea | Opt in        | Visible to new users | Cookie Settings, Accept All Cookies  | GDPR |
+| Brazil, South Africa, Macao, Newfoundland and Labrador, Manitoba, British Columbia, New Brunswick, Ontario, Nunavut, Yukon, Alberta, Prince Edward Island, Nova Scotia, Saskatchewan, Northwest Territories   | Opt out       | Visible to new users | Cookie Settings, Accept All Cookies  | GDPR |
+| France, Spain, United Kingdom     | Opt in        | Visible to new users | Cookie Settings, Reject All, Accept All Cookies | Reject All |
+| Global     | Opt out       | Not visible          |              | GDPR |
 
 ### Accessing Scripts
 

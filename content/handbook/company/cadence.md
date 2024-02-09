@@ -19,6 +19,10 @@ Below are the cadences we have at GitLab:
 1. [Month](#month) (4.3x week)
 1. [Week](#week)
 
+Items on this page are grouped into a cadence based on the underlying period of time that the item pertains to, not based on when the item is updated. For example, our [strategy](/handbook/company/strategy/#three-year-strategy) looks three years out but is reviewed [annually by E-Group](/handbook/company/offsite/#offsite-topic-calendar) and may be updated more frequently if the need arises.
+
+A overview of key company dates for FY25 can be found [here](https://docs.google.com/spreadsheets/d/11n44QyIVLD2rZwOnjLHlN1CvfmsVfFdyDfCK8qCLGM4/edit?usp=sharing)
+
 ### Cadence Examples
 
 How elements of our cadence fit together over time:

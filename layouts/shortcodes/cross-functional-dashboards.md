@@ -33,7 +33,7 @@ MR Type labels help us report what we're working on to industry analysts in a wa
 
 #### Flaky Test Issues
 
-Flaky test are problematic [for many reasons](/handbook/engineering/quality/engineering-productivity/flaky-tests/).
+Flaky test are problematic [for many reasons](/handbook/engineering/infrastructure/engineering-productivity/flaky-tests/).
 
 {{- partial "sisense-with-filter" (dict "dashboard" "1095543" "height" 750 "filters" $filters "visible" (slice "team_group" "stage" "development_section")) }}
 

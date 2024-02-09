@@ -7,19 +7,32 @@ description: "The verify development group handbook page."
 
 We enable global software organizations and teams to make great decisions with [smart feedback loops](https://about.gitlab.com/direction/ops/#smart-feedback-loop) by delivering [speedy, reliable pipelines](https://about.gitlab.com/direction/ops/#speedy-reliable-pipelines) in a [comprehensive CI platform](https://about.gitlab.com/direction/ops/#verify) that embodies [Operations for All](https://about.gitlab.com/direction/ops/#operations-for-all).
 
-### Technical Roadmap
+## Technical Roadmap for the Pipeline teams
 
-In 2022, the Verify stage focused on reliability and scalability of GitLab CI, which was critical for the availability of gitlab.com.  This included addressing database performance, security vulnerabilities, performance improvements and relevant technical debt.
-This ensured GitLab remained secure, compliant and performant, with our SaaS offering that was able to maintain [SLAs of gitlab.com](/handbook/engineering/monitoring/#gitlabcom-service-level-availability).
+### FY25
 
-In 2023, the Verify Pipeline teams will be focused on the following Engineering-led initiatives, in addition to our deliverables for the [FY24 Yearlies](/handbook/company/yearlies/#fy24-yearlies):
+For this year's [technical roadmap](https://gitlab.com/gitlab-org/verify-stage/-/issues/515), we continue to focus on keeping GitLab CI reliable and performant. We're also looking at developing scalable solutions that would benefit both our .com and self-managed customers alike. The [product roadmap](https://gitlab.com/gitlab-com/Product/-/issues/12911) is also being planned by our Product Managers, with expected deliverables for this upcoming year.
+
+1. [Accelerating efforts](https://gitlab.com/gitlab-org/verify-stage/-/issues/508) to complete [CI Data Partitioning](https://gitlab.com/gitlab-org/gitlab/-/blob/master/doc/architecture/blueprints/ci_data_decay/pipeline_partitioning.md) - this does not only impacts CI, but addresses a critical availability need impacting all of gitlab.com.  This is a cross-stage effort with backend engineers across the pipeline teams who are able to parallelize the ongoing effort.
+1. Continued review of our [CI Data Retention policies](https://gitlab.com/gitlab-org/verify-stage/-/issues/440) - with the growth we are seeing with our CI database tables, we will be working with the Infrastructure teams to advise on managing CI data once partitioned. Upon further analysis and review, we will also be collaborating with Product to implement features that allows our self-managed users to configure CI data retention policies.
+1. [Pipeline speed improvements](https://gitlab.com/groups/gitlab-org/-/epics/7290) - benchmarking and instrumentation will be our focus as we investigate ways to [implement distributed tracing on our CI workers](https://gitlab.com/groups/gitlab-org/-/epics/11040#note_1568112854) or add more observability to better understand why pipeline creation/processing is slow, prior to determining the work involved to drive improvements. There is also a newly established [working group for CI/CD Build Speed](https://handbook.gitlab.com/handbook/company/working-groups/ci-build-speed/) to support this initiative. 
+1. [CI Events](https://docs.gitlab.com/ee/architecture/blueprints/gitlab_ci_events/) - while listed on the Product roadmap, we'll continue to iterate on the blueprint within Engineering to better understand the scope and requirements of this initiative. 
+
+### FY24
+
+The Verify Pipeline teams focused on the following Engineering-led initiatives, in addition to our deliverables for the [FY24 Yearlies](/handbook/company/yearlies/#fy24-yearlies):
 1. [CI Data Partitioning](https://gitlab.com/gitlab-org/gitlab/-/blob/master/doc/architecture/blueprints/ci_data_decay/pipeline_partitioning.md)
 1. Pipeline speed improvements - including analysis of pipeline performance
-1. Review the [data retention strategy of CI data on gitlab.com](https://gitlab.com/gitlab-org/verify-stage/-/issues/440)
+1. Review of the [data retention strategy of CI data on gitlab.com](https://gitlab.com/gitlab-org/verify-stage/-/issues/440)
 1. Security vulnerabilities and infradev issues related to SaaS availablity
 1. S1/S2 bug burndown of Categories that do not have planned feature development for FY24.
-    1. Note that this also includes the `Continuous Integration` category, which has the biggest backlog of bugs in Verify.  While it may be considered "Maintenance" (no new feature development planned), this work remains critical in ensuring we keep GitLab CI performant and reliable.
+    1. Note that this also includes the `Continuous Integration` category, which has the biggest backlog of bugs in Verify.  While it may be considered to be "Maintenance" (no new feature development planned), this work remains critical in ensuring we keep GitLab CI performant and reliable.
     1. [Pipeline Execution](/handbook/engineering/development/ops/verify/pipeline-execution/) owns the `Continuous Integration` category. The team is also the DRI for CI Data Partitioning and Pipeline speed improvement efforts.
+
+### FY23
+
+The Verify stage focused on reliability and scalability of GitLab CI, which was critical for the availability of gitlab.com.  This included addressing database performance, security vulnerabilities, performance improvements and relevant technical debt.
+This ensured GitLab remained secure, compliant and performant, with our SaaS offering that was able to maintain [SLAs of gitlab.com](/handbook/engineering/monitoring/#gitlabcom-service-level-availability).
 
 ## Mission
 
@@ -151,17 +164,9 @@ The following members of other functional teams are our stable counterparts:
 
 ### Async Work Week
 
-In FY24, we are instituting [quarterly async work weeks](https://gitlab.com/gitlab-org/verify-stage/-/issues/412) in Verify that start on the first Monday of the month for the quarter.
-Some of the benefits include reducing time spent in sync meetings, allowing for more focus, which aligns with our async-first communication and our Diversity and Inclusion value to bias towards more async communication.
-However, this doesn't preclude us from having any meetings, and it's up to meeting facilitators to decide accordingly. Exceptions might include: high priority issues and initiatives, social calls, coffee catch-ups.
-This also does not mean that you should not default to async-first at other times. Having regularly scheduled async weeks ensures that our processes do not become depending on synchronous meetings.
+We have [quarterly async work weeks](https://gitlab.com/gitlab-org/verify-stage/-/issues/412) in Verify that start on the first Monday of the quarter.
 
-| Quarter | Async Week               |
-| ------- | ------------------------ |
-| FY24-Q1 | 2023-03-20 to 2022-03-24 |
-| FY24-Q2 | 2023-05-01 to 2023-05-05 |
-| FY24-Q3 | 2023-08-07 to 2023-08-11 |
-| FY24-Q4 | 2023-11-06 to 2023-11-10 |
+Some of the noted benefits include reduced time spent in sync meetings, allowing for more focus that aligns with our async-first communication and our Diversity and Inclusion value to bias towards more async communication. However, this doesn't preclude us from having any meetings; it's up to the respective meeting attendees to decide accordingly. Exceptions might include: high priority issues and initiatives, social calls, coffee catch-ups. This also does not mean that you should not default to async-first at other times. Having regularly scheduled async weeks ensures that our processes do not become dependent on synchronous meetings.
 
 ## Verify Engineering - Async Updates
 

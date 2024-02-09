@@ -56,7 +56,7 @@ Updates are being tracked in [&11777](https://gitlab.com/groups/gitlab-org/-/epi
 #### Stage 2 - Epics data migration plan
 
 |Task|Progress|DRI (group or individual)|
-|---|---|
+|---|---|---|
 |Block widgets which will be unavailable for migrated Epics| | |
 |Setup synchronization between Epics table and Work Items table in database| | |
 |Setup synchronization of widgets data between Epics and Work Items along with handling change in Epic Work Item ID| | |
@@ -86,5 +86,6 @@ Updates are being tracked in [&11777](https://gitlab.com/groups/gitlab-org/-/epi
 |Member|[Coung Ngo](/handbook/company/team/#cngo)|Senior Frontend Engineer, Plan:Project Management|
 |Member|[Florie Guibert](/handbook/company/team/#fguibert)|Senior Frontend Engineer, Plan:Product Planning|
 |Member|[Mario Celi](/handbook/company/team/#mcelicalderonG)|Backend Engineer, Plan:Project Management|
+|Member|[Alexandru Croitor](/handbook/company/team/#acroitor)|Senior Backend Engineer, Plan:Project Management|
 |Member|[Rajan Mistry](/handbook/company/team/#ramistry)|Frontend Engineer, Plan:Product Planning|
 |Member|[Jacki Bauer](/handbook/company/team/#jackib)|Product Design Manager, Plan|

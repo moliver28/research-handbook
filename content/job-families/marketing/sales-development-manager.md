@@ -38,7 +38,7 @@ The Manager, Sales Development is a [grade 8](/handbook/total-rewards/compensati
 - Passionate about technology and learning more about GitLab
 ( Be ready to learn how to use GitLab and Git
 - You share our [values](/handbook/values/), and work in accordance with those values.
-- [Leadership at GitLab](/handbook/company/team/structure/#management-group)
+- [Leadership at GitLab](/handbook/company/structure/#management-group)
 
 ### Manager, Business Development (BDR)
 
@@ -68,7 +68,7 @@ The Manager, Business Development is a [grade 8](/handbook/total-rewards/compens
 - Passionate about technology and learning more about GitLab
 - Be ready to learn how to use GitLab and Git
 - You share our [values](/handbook/values/), and work in accordance with those values.
-- [Leadership at GitLab](/handbook/company/team/structure/#management-group)
+- [Leadership at GitLab](/handbook/company/structure/#management-group)
 
 ## Segment
 

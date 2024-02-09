@@ -91,9 +91,9 @@ Equity refresh budget will be held at the Dir+ level. Managers below the Directo
 
 **2024-02-12 - 2024-02-16:** Total Rewards prepares for Comp Group (CEO/CFO/CPO) approval of all recommendations
 
-**2024-02-21 - 2024-02-29:** Managers notify team members being promoted of promotion approval and new job titles
+**2024-02-21 - 2024-02-29:** Managers notify team members being promoted of promotion approval and new job titles. Only promotion should be communicated at this time, not compensation information. *Note: This additional comms step ahead of the 2024-03-04 compensation comms exists due to systems integrations. Once new job titles for promotions are entered in Workday, new titles will flow downstream and appear in other tools. We want to make sure team members are aware of their promotions before inadvertently seeing it in another tool. Simultaneously, we need Workday to be updated with new job titles in order to generate compensation statements. For this reason, the first touchpoint is communicating promotion without compensation adjustments.*
 
-**2024-03-04 - 2024-03-08:** Managers communicate compensation decisions to all impacted team members
+**2024-03-04 - 2024-03-08:** Managers communicate both promotion compensation and Annual Compensation Review decisions to all impacted team members
 
 **2024-03-13:** Workday visibility date (promotions and new comp visible to team members)
 

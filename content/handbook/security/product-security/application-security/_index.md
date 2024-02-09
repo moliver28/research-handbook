@@ -45,7 +45,6 @@ The list above is not exhaustive and is subject to be modified as our processes 
 
 ## Application Security KPIs & Other Metrics in Sisense
 
-- For KPIs and other metrics, please [see this page][7].
 - For Embedded KPIs which you filter by section, stage, or group, please [see this page][8].
 
 ## General Role Functions
@@ -102,8 +101,7 @@ Please see the [Application Security Automation and Monitoring page][12]
 [4]: {{< ref "stable-counterparts" >}}
 [5]: {{< ref "./runbooks" >}}
 [6]: {{< ref "/job-families/security/application-security" >}}
-[7]: https://app.periscopedata.com/app/gitlab/641782/Appsec-hackerone-vulnerability-metrics
-[8]: https://app.periscopedata.com/app/gitlab/758795/Appsec-Embedded-Dashboard
+[8]: https://10az.online.tableau.com/#/site/gitlab/views/appsectest2rawdata/AppSec-ApplicationandContainerVulnerabilityDashboard?:iid=4
 [9]: https://docs.google.com/document/d/1Mba9ZhuVr2qBkvR7AqzNTUFMUTapJqiXkPUqc9Gr8io/edit
 [10]: {{< ref "/handbook/security/root-cause-analysis" >}}
 [11]: {{< ref "reproducible-vulnerabilities" >}}

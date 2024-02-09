@@ -49,21 +49,18 @@ The goal of the Digital Experience Shadow Program is to give GitLab team members
     1. [Michael Preuss](/handbook/marketing/readmes/michael-preuss.html)
     2. Filza Qureshi
     3. [Lauren Barker](/handbook/marketing/readmes/lauren-barker.html)
-    4. Justin Vetter
 5. Read GitLab's values prior to your shadow rotation, and be mindful of the ways that [CREDIT](/handbook/values/#credit) is lived out during the meetings you attend
 6. Slack in `#digital-experience-team` to let us know a couple of days before your first day
 7. Schedule these chats a couple of days before your first day:
     1. Michael Preuss, especially if we have not met previously
     2. The DEX Management Team:
         1. Filza Qureshi
-        2. Justin Vetter
-        3. Lauren Barker
+        2. Lauren Barker
 8. Commit to confidentiality. Participating in the shadow program is a privilege where you may be exposed to confidential information. Participation in the shadow program and access to such information is underpinned by trust in the shadows to honor the confidentiality of topics being discussed and information shared. The continuation of this program is entirely dependent on shadows past, present, and future honoring this trust placed in them.
 9. Review our calendars and plan to attend all meetings that have been accepted:
     1. [Michael Preuss](https://calendar.google.com/calendar/u/0?cid=bXByZXVzc0BnaXRsYWIuY29t)
-    2. [Justin Vetter](https://calendar.google.com/calendar/u/1?cid=anZldHRlckBnaXRsYWIuY29t)
-    3. [Lauren Barker](https://calendar.google.com/calendar/u/0?cid=bGJhcmtlckBnaXRsYWIuY29t)
-    4. [Filza Qureshi](https://calendar.google.com/calendar/u/0?cid=ZnF1cmVzaGlAZ2l0bGFiLmNvbQ)
+    2. [Lauren Barker](https://calendar.google.com/calendar/u/0?cid=bGJhcmtlckBnaXRsYWIuY29t)
+    3. [Filza Qureshi](https://calendar.google.com/calendar/u/0?cid=ZnF1cmVzaGlAZ2l0bGFiLmNvbQ)
 10. Join the slack channel `#digital-experience-team`
 11. For the duration of the program, you will be added to the `#dex-leadership` Slack channel
 

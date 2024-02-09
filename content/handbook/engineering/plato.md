@@ -4,7 +4,7 @@ title: "GitLab Plato HQ Mentoring Program"
 ---
 
 ## Program Overview
-GitLab has partnered with [Plato HQ](https://www.platohq.com/) for an external Mentoring Program. In this program GitLab team members select Mentors external to GitLab.  Some of the other Mentoring programs we have here at GitLab are internal to GitLab.  [Minorities in Tech](/handbook/company/team/structure/working-groups/mit-mentoring/) and [Women in Sales](/handbook/people-group/women-in-sales-mentorship-pilot-program/) are both made up of GitLab Mentors and GitLab Mentees.  The external mentoring is what makes this approach to GitLab unique.
+GitLab has partnered with [Plato HQ](https://www.platohq.com/) for an external Mentoring Program. In this program GitLab team members select Mentors external to GitLab.  Some of the other Mentoring programs we have here at GitLab are internal to GitLab.  [Minorities in Tech](/handbook/company/working-groups/mit-mentoring/) and [Women in Sales](/handbook/people-group/women-in-sales-mentorship-pilot-program/) are both made up of GitLab Mentors and GitLab Mentees.  The external mentoring is what makes this approach to GitLab unique.
 
 For more information on mentoring best practice, visit [Mentoring](/handbook/engineering/career-development/mentoring/).
 

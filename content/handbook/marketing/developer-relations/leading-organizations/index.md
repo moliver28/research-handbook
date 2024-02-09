@@ -101,7 +101,7 @@ Contribution Help:
 
 ## Who
 
-The Leading Organizations program is a [top cross-functional initiative](/handbook/company/top-cross-functional-initiatives/#current-top-cross-functional-initiatives) and [working group](/handbook/company/team/structure/working-groups/leading-organizations/).
+The Leading Organizations program is a [top cross-functional initiative](/handbook/company/top-cross-functional-initiatives/#current-top-cross-functional-initiatives) and [working group](/handbook/company/working-groups/leading-organizations/).
 
 [^1]: RedHat, The State of Enterprise Open Source (February 22, 2022). Available at: [https://www.redhat.com/en/resources/state-of-enterprise-open-source-report-2022](https://www.redhat.com/en/resources/state-of-enterprise-open-source-report-2022)
 [^2]: Nagle, Frank, Learning by Contributing: Gaining Competitive Advantage Through Contribution to Crowdsourced Public Goods (December 21, 2017). Available at SSRN: [https://ssrn.com/abstract=3091831](https://ssrn.com/abstract=3091831)

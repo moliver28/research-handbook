@@ -34,7 +34,7 @@ The current headcount number will be updated each quarter following our quarterl
 ## Key messages about diversity, inclusion, and belonging (DIB) at GitLab
 
 - Diversity, inclusion, and belonging (DIB) are fundamental to the success of GitLab. We infuse DIB in every way possible in all that we do.
--At GitLab, everyone has a voice and is empowered to contribute. This means that team members have the opportunity to speak openly about their experiences and provide suggestions to leadership in order to create a more diverse and inclusive culture.
+- At GitLab, everyone has a voice and is empowered to contribute. This means that team members have the opportunity to speak openly about their experiences and provide suggestions to leadership in order to create a more diverse and inclusive culture.
 - Through Team Member Resource Groups, event sponsorships, mentorship opportunities, and partnerships with HBCU's, we strive to create a transparent environment where people can and feel comfortable to show up as their full selves each and every day.
 - More about [DIB at GitLab](/handbook/company/culture/inclusion/).
 
@@ -106,6 +106,7 @@ These awards and lists recognize GitLab's unique culture and help us spread the 
 
 | Articles/Blogs/Features | Category |
 | ------ | ------ |
+| [Innovating in Sync: The Story of GitLab Duo](https://builtin.com/articles/innovating-sync-story-gitlab-duo) | AI / Product |
 | [These Companies Are Taking an Intentional Approach to Artificial Intelligence](https://builtin.com/brand-studio/these-companies-are-taking-intentional-approach-artificial-intelligence?utm_source=bambu&utm_medium=social&utm_campaign=advocacy) | AI / Product |
 | [How Iteration drives innovation in our engineering org](https://about.gitlab.com/blog/2022/06/10/how-gitlab-iteration-value-drives-innovation-through-the-engineering-organization/) | Engineering |
 | [The Best Leadership Advice I Never Received](https://womeninsaleseverywhere.com/blog/author/meaghan-thatcher/) | Sales |

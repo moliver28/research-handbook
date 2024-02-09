@@ -9,7 +9,7 @@ This directive drives GitLab's product development: while GitLab is [*SaaS first
 
 There is no fundamental aversion to multiple data stores, but we want to avoid the pitfalls of having *too many* of them, especially when a variety of data engines are involved. Additonal data stores introduce complexity in terms of management and development. Using new or adopting existing databases will involve tradeoffs, which have to be meticulously managed at scale. We have placed some gatekeepers before a separate data store can be deployed, and the following guidelines are intended to help you determine what the best course of action is and how to proceed.
 
-These guidelines rely heavily on the Database Working Group [glossary](/handbook/company/team/structure/working-groups/database-scalability/#glossary).
+These guidelines rely heavily on the Database Working Group [glossary](/handbook/company/working-groups/database-scalability/#glossary).
 
 ## *We need a new database*
 

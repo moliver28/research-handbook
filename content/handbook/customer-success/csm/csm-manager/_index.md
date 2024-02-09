@@ -20,25 +20,25 @@ This page provides an overview on relevant CSM leadership processes.
 
 ## CSM Leadership
 
-| Name | [Sales Segment](/handbook/sales/field-operations/gtm-resources/#segmentation) | Region | Level | Account Segment |
-|---|---|---|---|---|
-| [Sherrod Patching](/handbook/company/team/#spatching) | Enterprise & Commercial | Global | VP | All Segments |
-| [Taylor Lund](/handbook/company/team/#taylorlund) | Enterprise, Commercial, & PubSec | Global | Manager | N/A |
-| [Christiaan Conover](/handbook/company/team/#christiaanconover) | Enterprise | AMER | Director | Strategic & Major |
-| [Chloe Whitestone](/handbook/company/team/#chloe) | Enterprise | AMER East | Manager | Strategic |
-| [Sophie Pouliquen](/handbook/company/team/#spouliquen1) | Enterprise | AMER East | Manager | Major |
-| [Tiffany McAtee](/handbook/company/team/#tiffanymcatee.gitlab) | Enterprise | AMER East | Manager | Major |
-| [Erica Sivak](/handbook/company/team/#esivak) | Enterprise | AMER West | Manager | Strategic |
-| [Jamie Reid](/handbook/company/team/#jrreid) | Enterprise | AMER West | Manager | Major |
-| [Dave Thompson](/handbook/company/team/#dthompson3) | Enterprise | APAC | Manager | N/A |
-| [Michael Leutz](/handbook/company/team/#mrleutz) | Enterprise | EMEA | Director | N/A |
-| [Chenje Katanda](/handbook/company/team/#ckatanda) | Enterprise | EMEA (NEUR) | Manager | N/A |
-| [Ally Frusciano](/handbook/company/team/#afrusciano) | Commercial | Global | Director | Territory & Key |
-| TBH | Commercial | AMER | Manager | Territory |
-| [Christina Souleles](/handbook/company/team/#csouleles) | Commercial | EMEA | Manager | N/A |
-| [Robert Clark](/handbook/company/team/#robclark14) | PubSec | PubSec | Manager | N/A |
-| [Steven Terhar](/handbook/company/team/#SteveTerhar) | PubSec | PubSec | Manager | N/A |
-| [Oliver Falk](/handbook/company/team/#ofalk) | Enterprise | DACH | Manager | N/A |
+| Name | Region | Level | Team |
+|---|---|---|---|
+| [Sherrod Patching](/handbook/company/team/#spatching) | Global | VP | CSM & CSE |
+| [Ally Frusciano](/handbook/company/team/#afrusciano) | Global | Director | CSE |
+| [Taylor Lund](/handbook/company/team/#taylorlund) | Global | Senior Manager | CSE |
+| [Erica Sivak](/handbook/company/team/#esivak) | AMER | Manager | CSE |
+| [Oliver Falk](/handbook/company/team/#ofalk) | EMEA | Manager | CSE |
+| [Christiaan Conover](/handbook/company/team/#christiaanconover) | AMER | Director | CSM |
+| [Sophie Pouliquen](/handbook/company/team/#spouliquen1) | AMER East | Senior Manager | CSM |
+| [Chloe Whitestone](/handbook/company/team/#chloe) | AMER East | Manager | CSM |
+| [Tiffany McAtee](/handbook/company/team/#tiffanymcatee.gitlab) | AMER East | Manager | CSM |
+| [Jamie Reid](/handbook/company/team/#jrreid) | AMER West | Manager | CSM |
+| [Cedric Stapleton](/company/team/#c.stapleton) | AMER West | Manager | CSM |
+| [Dave Thompson](/handbook/company/team/#dthompson3) | APAC | Manager | CSM |
+| [Michael Leutz](/handbook/company/team/#mrleutz) | EMEA | Director | CSM |
+| [Chenje Katanda](/handbook/company/team/#ckatanda) | EMEA | Manager | CSM |
+| [Christina Souleles](/handbook/company/team/#csouleles) | EMEA | Manager | CSM |
+| [Robert Clark](/handbook/company/team/#robclark14) | PubSec | Manager | CSM & CSE |
+| [Steven Terhar](/handbook/company/team/#SteveTerhar) | PubSec | Manager | CSM & CSE |
 
 ## CSM Manager Responsibilities & Requirements
 

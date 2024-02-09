@@ -293,27 +293,6 @@ Product Security Engineering Team Requirements
 - Excellent understanding of application security issues and how to fix application security vulnerabilities
 - Track record of delivering results through the entire software development lifecycle
 
-### Security Automation
-
-By leveraging diverse technologies and an automation first approach, the Security Automation team strives towards improving the efficiency, effectiveness, and accuracy within GitLab's Information Security program with a focus on cost savings. Examples include the creation of automated security issue triage and management solutions, automating handling of repetitive tasks, and defining re-usable security automation architectures. Additionally, the Security Automation team will assist other security specialty teams with automation efforts they are leading and developing through the assessment of automation tools, and integration tools and technologies to support automation efforts as needed.
-
-Security Automation Responsibilities
-
-- Design, engineer, deploy, and maintain custom automation products
-- Build security tooling and automation for internal use that enable the Security Department to operate at high speed and wide scale
-- Define and own metrics and key performance indicators to determine the effectiveness of the Security Automation program
-- Collaborate with product teams to ensure that the GitLab product meets security automation requirements for ourselves and our users.
-
-Security Automation Requirements
-
-- Previous experience on a Security Operations, Software Development, or Automation team
-- Scripting/coding experience with one or more languages - Python, Ruby, and/or Golang experience a plus
-- Extensive knowledge of Internet security issues, automation or software engineering technologies, cloud architectures, and threat landscape concepts
-- Solid understanding of the Software as a Service (SaaS) model
-- Solid understanding of the DevOps model
-- Experience with Cloud Computing Platforms - GCP experience a plus
-- Experience with Kubernetes a plus
-- Experience with infrastructure as code processes and tools a plus
 
 ### SIRT - Security Incident Response Team
 

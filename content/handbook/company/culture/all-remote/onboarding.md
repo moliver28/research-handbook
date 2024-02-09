@@ -76,7 +76,7 @@ One of the biggest challenges that new team members may encounter when onboardin
 
 Onboarding remotely can also bring technical issues: everything from delayed equipment delivery, to trouble with account creation, to the need to rapidly acquire new technical skills. It's very important to ensure that your IT team has adequate resources to be able to support new team members during their first days and weeks on the job.
 
-Crucially, when there are issues with onboarding, new team members may not feel comfortable raising them. Close the loop by asking for regular feedback on the onboarding experience, and be sure to act on that feedback. Here's some of GitLab's recent [onboarding feedback]({{< ref "onboarding-feedback" >}}).
+Crucially, when there are issues with onboarding, new team members may not feel comfortable raising them. Close the loop by asking for regular feedback on the onboarding experience, and be sure to act on that feedback.
 
 **Additional resources:**
 

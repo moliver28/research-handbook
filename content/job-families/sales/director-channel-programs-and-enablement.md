@@ -36,7 +36,7 @@ The Director, Channel Programs & Enablement is a [grade 10](/handbook/total-rewa
 - Innovation and the ability to gain consensus is necessary
 - Works extremely well as a member of a team, but also excels as an individual contributor
 - You share our values, and work in accordance with those values.
-- [Leadership at GitLab](/handbook/company/team/structure/#director-group)
+- [Leadership at GitLab](/handbook/company/structure/#director-group)
 - Ability to use GitLab
 - Ability to travel if needed and comply with the company’s [travel policy](/handbook/travel/)
 

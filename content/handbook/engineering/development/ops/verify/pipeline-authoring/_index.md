@@ -11,11 +11,13 @@ description: "The GitLab team page for the Pipeline Authoring Group"
 - [Pipeline Authoring Category direction](https://about.gitlab.com/direction/verify/pipeline_authoring/)
 - [number of unique users who trigger ci_pipelines (Performance indicator)](https://internal.gitlab.com/handbook/company/performance-indicators/product/ops-section/#verifypipeline-authoring---gmau---number-of-unique-users-interacting-with-gitlab-ciyml-file) - Internal link
 - [CI/CD Development Documentation](https://docs.gitlab.com/ee/development/cicd/index.html)
+- [CI/CD Components Documentation](https://docs.gitlab.com/ee/ci/components/)
+- [CI/CD Catalog Documentation](https://docs.gitlab.com/ee/ci/components/#cicd-catalog)
 
 ### Team
 
 - [Team Resources](/handbook/engineering/development/ops/verify/pipeline-authoring/team-resources/)
-- [Workflow board: `~group::pipeline authoring`](https://gitlab.com/groups/gitlab-org/-/boards/2019514?scope=all&utf8=%E2%9C%93&label_name[]=group%3A%3Apipeline%20authoring&milestone_title=%23started)
+- [Workflow board: `~group::pipeline authoring`](https://gitlab.com/gitlab-org/gitlab/-/boards/5726606?label_name[]=group%3A%3Apipeline%20authoring&milestone_title=Started)
 - [Slack Channel: `#g_pipeline-authoring`](https://gitlab.slack.com/archives/C019R5JD44E)
 
 ### Videos
@@ -23,10 +25,12 @@ description: "The GitLab team page for the Pipeline Authoring Group"
 - [GitLab Unfiltered: Pipeline Execution group (CI Related)](https://www.youtube.com/playlist?list=PL05JrBw4t0KpsVi6PG4PvDaVM8lKmB6lV)
 - [CI Backend Architectural Walkthrough - May 2020](https://www.youtube.com/watch?v=ew4BwohS5OY)
 - [Frontend CI product / codebase overview - June 2020](https://www.youtube.com/watch?v=7CUd7aAUiWo)
+- [CI/CD Catalog Demo](https://www.youtube.com/watch?v=oNcJCU-a-bM)
 
 ### Core domain
 
 - Pipeline configuration: YAML syntax, linter and configuration parser.
+- CI/CD Catalog: publishing and releasing process to Catalog.
 - Pipeline creation: process of building and persisting a pipeline including multi-project
   or child pipelines.
 
@@ -34,9 +38,9 @@ description: "The GitLab team page for the Pipeline Authoring Group"
 
 This section will list the top three most recent, exciting accomplishments from the team.
 
-- We completed the first MVC [phase](https://gitlab.com/groups/gitlab-org/-/epics/9897) for CI Catalog feature.
-- As part of our yearly Hackathon, we recently [released](https://gitlab.com/gitlab-org/gitlab/-/issues/414321) which creates a job failures widget in MR view that show any failed jobs.
-- We [completed](https://gitlab.com/gitlab-org/gitlab/-/issues/31581) a highly upvoted issue for allowing `needs` to be used with `rules`.
+- We welcomed [Rajendra Kadam](https://gitlab.com/rkadam3) as our newest backend engineer to the team!
+- Recently, we completed the next [phase](https://gitlab.com/groups/gitlab-org/-/epics/11674) of Beta release for CI Catalog.
+- 2023 team accomplishments can be found [here](https://gitlab.com/gitlab-org/ci-cd/pipeline-authoring/-/issues/122).
 
 ## Team Members
 
@@ -52,7 +56,11 @@ To find our stable counterparts, look at the Pipeline Authoring [product categor
 
 #### Cross-functional prioritisation
 
-The team uses the [`#g_pipeline_authoring_quad`](https://gitlab.slack.com/archives/C03KWUPMXLM) Slack channel to discuss cross-functional prioritisation in addition to any other topics that require the quad to collaborate on. Additionally, the quad also reviews the [dashboard](/handbook/engineering/development/ops/verify/pipeline-authoring/#merged-merge-request-types) which shows the % of MRs that are bugs vs maintenance vs features to ensure the team's efforts are properly aligned to the prioritisation.
+UX, Product Manager and Engineering Manager meet weekly to discuss cross-functional prioritisation in addition to any other topics that require the quad to collaborate on. Additionally, the quad also reviews the [dashboard](/handbook/engineering/development/ops/verify/pipeline-authoring/#merged-merge-request-types) which shows the % of MRs that are bugs vs maintenance vs features to ensure the team's efforts are properly aligned to the prioritisation. 
+
+#### Design Collaboration
+
+We hold a bi-weekly design sync meeting open to all team members where we discuss any design-related topic.
 
 ## How We Work
 
@@ -64,11 +72,11 @@ A template in the `gitlab-org/gitlab` project called `Pipeline Authoring Issue I
 
 Issues are refined and weighted prior to assigning them to a milestone. We use `candidate::` scoped labels to help with planning work in future milestones. This label allows us to filter on the issues we are planning, allowing Product, Engineering, and UX to refine issues async that have `workflow::design` and `workflow::ready for development` labels applied. Weighting also helps with capacity planning with respect to how issues are scheduled in future milestones.
 
-We create a [planning issue](https://gitlab.com/gitlab-org/ci-cd/pipeline-authoring/-/blob/master/.gitlab/issue_templates/Planning_issue_PA.md) as part of our milestone planning process and the [workflow board](https://gitlab.com/groups/gitlab-org/-/boards/2019514?scope=all&utf8=%E2%9C%93&label_name[]=group%3A%3Apipeline%20authoring&milestone_title=%23started) is the single source of truth ([SSOT](https://docs.gitlab.com/ee/development/documentation/styleguide/#documentation-is-the-single-source-of-truth-ssot)) for current and upcoming work. Product is the DRI in prioritizing work, with input from Engineering, UX, and Technical Writers. The planning issue is used to discuss questions and team capacity. Prior to the beginning of each milestone, issues identified in the planning issue will be assigned to that milestone and engineers can assign prioritized issues to themselves from the top of the `workflow::ready for development` column in the [workflow board](https://gitlab.com/groups/gitlab-org/-/boards/2019514?scope=all&utf8=%E2%9C%93&label_name[]=group%3A%3Apipeline%20authoring&milestone_title=%23started).
+We create a [planning issue](https://gitlab.com/gitlab-org/ci-cd/pipeline-authoring/-/blob/master/.gitlab/issue_templates/Planning_issue_PA.md) as part of our milestone planning process and the [workflow board](https://gitlab.com/gitlab-org/gitlab/-/boards/5726606?label_name[]=group%3A%3Apipeline%20authoring&milestone_title=Started) is the single source of truth ([SSOT](https://docs.gitlab.com/ee/development/documentation/styleguide/#documentation-is-the-single-source-of-truth-ssot)) for current and upcoming work. Product is the DRI in prioritizing work, with input from Engineering, UX, and Technical Writers. The planning issue is used to discuss questions and team capacity. Prior to the beginning of each milestone, issues identified in the planning issue will be assigned to that milestone and engineers can assign prioritized issues to themselves from the top of the `workflow::ready for development` column in the [workflow board](https://gitlab.com/gitlab-org/gitlab/-/boards/5726606?label_name[]=group%3A%3Apipeline%20authoring&milestone_title=Started).
 
 #### Finding issues that need refinement
 All issues that need refining will have the `~workflow::planning breakdown` label applied to them to show that the issues are ready to be weighted.
-You can access all these issues using this [issue filter](https://gitlab.com/groups/gitlab-org/-/boards/2019514?label_name%5B%5D=group%3A%3Apipeline%20authoring&label_name%5B%5D=workflow%3A%3Aplanning%20breakdown).
+You can access all these issues using this [issue filter](https://gitlab.com/gitlab-org/gitlab/-/boards/5726606?label_name[]=group%3A%3Apipeline%20authoring&milestone_title=Started).
 It's never too early to refine an issue, but we should prioritise the issues closest to starting.  We should also apply the `~workflow::refinement` label when there are still technical discussions that need to take place before weighting can occur during `~workflow::planning breakdown`.
 
 #### How Engineering Refines Issues
@@ -105,7 +113,7 @@ Engineers will:
 
 #### Weighting Issues
 
-The `needs weight` [board](https://gitlab.com/groups/gitlab-org/-/boards/2019514?label_name%5B%5D=group%3A%3Apipeline%20authoring&label_name%5B%5D=workflow%3A%3Aplanning%20breakdown) is used to show issues that need weight applied for the next milestone. That criteria will be denoted by having a `workflow::planning breakdown` label and the appropriate milestone candidate label applied to it (i.e. `candidate::15.0`). During the first 7 days of the month (i.e May 1-7), team members will review the `needs weight` [board](https://gitlab.com/groups/gitlab-org/-/boards/2019514?label_name%5B%5D=group%3A%3Apipeline%20authoring&label_name%5B%5D=workflow%3A%3Aplanning%20breakdown) and assign themselves to issues. Issues that aren't able to be weighted in one milestone will be evaluated for future milestones. If there is an issue with a higher urgency for weighting, a team member might be directly assigned to the issue for a prioritized review.
+The `needs weight` [board](https://gitlab.com/gitlab-org/gitlab/-/boards/5726606?label_name[]=group%3A%3Apipeline%20authoring&label_name[]=workflow%3A%3Aplanning%20breakdown) is used to show issues that need weight applied for the next milestone. That criteria will be denoted by having a `workflow::planning breakdown` label and the appropriate milestone candidate label applied to it (i.e. `candidate::15.0`). During the first 7 days of the month (i.e May 1-7), team members will review the `needs weight` [board](https://gitlab.com/gitlab-org/gitlab/-/boards/5726606?label_name[]=group%3A%3Apipeline%20authoring&label_name[]=workflow%3A%3Aplanning%20breakdown) and assign themselves to issues. Issues that aren't able to be weighted in one milestone will be evaluated for future milestones. If there is an issue with a higher urgency for weighting, a team member might be directly assigned to the issue for a prioritized review.
 
 We add a `Weight` to issues as a way to estimate the effort needed to complete an issue. We factor in complexity and any additional coordination needed to work on an issue.  We weight issues based on complexity:
 
@@ -157,11 +165,7 @@ The Product Manager will label relevant issues from the milestone planning issue
 
 ### Workflow
 
-Starting in October 2022, the team is currently trialing an enhanced workflow model. When there is new work to be reviewed by the team, an engineering pod is selected (1 backend and 1 frontend) to partner with UX to ensure alignment on the proposal of a solution to a feature that is being delivered. The goal of this trial is see if it can improve collaboration across Engineering, UX, and Product, as well as improve efficiency around our planning processes. The workflow is illustrated below:
-
-![Verify Groups](/images/handbook/engineering/verify/pa-workflow-model.png)
-
-We use the [Pipeline Authoring Workflow issue board](https://gitlab.com/groups/gitlab-org/-/boards/2019514?&milestone_title=%23started) to track what we work on in the current milestone.
+We use the [Pipeline Authoring Workflow issue board](https://gitlab.com/gitlab-org/gitlab/-/boards/5726606?label_name[]=group%3A%3Apipeline%20authoring&milestone_title=Started) to track what we work on in the current milestone.
 
 We follow the [product development flow](/handbook/product-development-flow/) to ensure that the problems we're solving are well understood and the solutions are well defined and validated before the implementation.
 
@@ -245,7 +249,7 @@ Additionally, if the team member is confident it will make the next milestone, t
 
 #### Using Verify::Cancel label when an issue is canceled.
 
-Sometimes, we have issues that were originally created to be worked on and after analysis or change in direction of the issue, we decide that the issue is no longer needed. In these cases, use the `Verify::Cancel` label to make it clear that the issue was closed due to no longer being desired or needed, not due to being completed.
+Sometimes, we have issues that were originally created to be worked on and after analysis or change in direction of the issue, we decide that the issue is no longer needed. Additionally, we may also encounter issues that were addressed previously in other MRs. In these cases, use the `Verify::Cancel` label to make it clear that the issue was closed due to no longer being desired or needed, not due to being completed.
 
 #### Monthly issue progress update
 
@@ -301,7 +305,7 @@ If an issue has several components (e.g. ~frontend, ~backend, or ~documentation)
 1. We can mark one implementation as a blocker for another.
 1. It's easier to see what work can be picked up by each functional group.
 1. We can schedule feature work across multiple milestones.
-1. When team members are selecting work from the [ready for development board](https://gitlab.com/groups/gitlab-org/-/boards/2019514?label_name[]=group::pipeline+authoring&label_name[]=workflow::ready+for+development), it simplifies what issue relates to which component.
+1. When team members are selecting work from the [ready for development board](https://gitlab.com/gitlab-org/gitlab/-/boards/5726606?label_name[]=group%3A%3Apipeline%20authoring&label_name[]=workflow%3A%3Aready%20for%20development), it simplifies what issue relates to which component.
 
 When new implementation issues are created, they should always be linked to the initial issue that contains the proposal and relevant discussions.
 
@@ -361,6 +365,8 @@ The Pipeline Authoring group supports the product marketing categories described
 | `onboarding` | [Issues](https://gitlab.com/groups/gitlab-org/-/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=group%3A%3Apipeline%20authoring&label_name[]=onboarding) | | Issues that are helpful for someone onboarding as a new team member. |
 | `Good for 1st time contributors` | [Issues](https://gitlab.com/groups/gitlab-org/-/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=group%3A%3Apipeline%20authoring&label_name[]=Good%20for%201st%20time%20contributors) | | Issues that are good for first time community contributors, and could similarly be labeled for `onboarding` |
 | `Seeking community contributions` | [Issues](https://gitlab.com/groups/gitlab-org/-/issues?sort=created_date&state=opened&label_name[]=group::pipeline+authoring&label_name[]=Seeking+community+contributions) | | Issues we would like the wider community to contrbute and may also be labeled `Seeking community contributions` |
+| `quick win` | [Issues](https://gitlab.com/groups/gitlab-org/-/issues/?sort=created_date&state=opened&label_name%5B%5D=group%3A%3Apipeline%20authoring&label_name%5B%5D=quick%20win&first_page_size=20) | | Issues we would like the wider community to contrbute and may also be labeled `quick win` |
+
 
 ### Collaboration with UX and Engineering
 

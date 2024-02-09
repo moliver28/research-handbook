@@ -109,6 +109,8 @@ For [video calls]({{< ref "communication#video-calls" >}}), and as a back-up to 
 
 The use of removable and external storage devices such as USB flash drives and external backup drives on company-managed devices is not officially sanctioned. If there is a business need for the use of an external storage device, such as a flash drive or an external hard drive on company devices, please contact the Security Team to determine the most suitable encryption-enabled device. All external and removable storage devices must be encrypted and protected by a passcode.
 
+As a reminder, Red Data may not be transmitted from an approved Red data source to any other systems or solutions without first obtaining approval from the Privacy and Security teams. Please refer to GitLab's [Data Classification Standard]({{< ref "data-classification-standard#red" >}}) for further details.
+
 ### Use of file sharing services other than Google Drive
 
 Creating an account with, or using, a file sharing service other than Google Drive for sharing GitLab-related files with other team members or those external to GitLab is not permitted unless an exception has been granted. To obtain an exception create an [access request](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/) outlining the business case, and do not proceed until the exception has been granted.

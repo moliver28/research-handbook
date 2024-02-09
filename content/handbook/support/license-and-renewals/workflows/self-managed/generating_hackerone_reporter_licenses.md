@@ -8,7 +8,7 @@ category: GitLab Self-Managed licenses
 
 ## Overview
 
-As part of GitLab's [HackerOne program policy](https://gitlab.com/gitlab-com/gl-security/hackerone/configuration/-/blob/master/program-policy.md#L31-33), a reporter who has submitted three or more valid findings to the program is eligible to receive a one-year self-hosted Ultimate license, supporting up to five users. The source of the request will originate from following [the applicable Application Security runbook](/handbook/security/security-engineering/application-security/runbooks/hackerone-process#awarding-ultimate-licenses).
+As part of GitLab's [HackerOne program policy](https://gitlab.com/gitlab-com/gl-security/hackerone/configuration/-/blob/master/program-policy.md#L31-33), a reporter who has submitted three or more valid findings to the program is eligible to receive a one-year self-hosted Ultimate license, supporting up to five users. The source of the request will originate from following [the applicable Application Security runbook](/handbook/security/product-security/application-security/runbooks/hackerone-process#awarding-ultimate-licenses).
 
 ### Actioning the Request
 

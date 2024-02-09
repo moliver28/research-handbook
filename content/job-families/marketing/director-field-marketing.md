@@ -44,7 +44,7 @@ The Director, Field Marketing is a [grade 10](/handbook/total-rewards/compensati
 - A passion and strong understanding of the developer tools, IT operations tools, and/or IT security markets.
 - Strong understanding of marketing to financial services / fintech, federal agencies, healthcare, automotive, tech, and energy industry verticals.
 - Experience with supporting both direct sales and channel sales teams.
-- [Leadership at GitLab](/handbook/company/team/structure/#director-group)
+- [Leadership at GitLab](/handbook/company/structure/#director-group)
 - Ability to use GitLab
 - Ability to travel if needed and comply with the company’s travel policy. If employed by GitLab Federal, LLC, team members need to also comply with the applicable vaccination policies.
 

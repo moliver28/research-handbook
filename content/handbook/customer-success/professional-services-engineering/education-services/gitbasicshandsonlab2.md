@@ -1,9 +1,7 @@
 ---
-title: "GitLab with Git Essentials - Hands-on Lab 2"
+title: "GitLab with Git Essentials - Hands-on Lab: Work With Git Locally"
 description: "This Hands-on Guide walks you through the lab exercises used in the GitLab with Git Essentials course."
 ---
-
-# Lab 2: Work With Git Locally
 
 > Estimated time to complete: 45 minutes
 

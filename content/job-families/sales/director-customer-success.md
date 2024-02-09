@@ -52,7 +52,7 @@ The Director of Customer Success  is a job grade [level 10](/handbook/total-rewa
 - Holds strong operational skills that will drive organizational efficiencies and customer satisfaction
 - Willing and able to address escalated client issues with speed and urgency
 - You share our [values](/handbook/values/), and work in accordance with those values.
-- [Leadership at GitLab](/handbook/company/team/structure/#director-group)
+- [Leadership at GitLab](/handbook/company/structure/#director-group)
 - Ability to use GitLab
 - Ability to travel if needed and comply with the company’s [travel policy](/handbook/travel/)
 

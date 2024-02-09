@@ -1,9 +1,7 @@
 ---
-title: "GitLab Project Management - Hands-On Lab 10"
+title: "GitLab Project Management - Hands-On Lab: Create And Manage A Waterfall Board"
 description: "This Hands-On Guide walks you through the lab exercises used in the GitLab Project Management course."
 ---
-
-# Lab 10: Create And Manage A Waterfall Board
 
 > Estimated time to complete: 30 minutes
 

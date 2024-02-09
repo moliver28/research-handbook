@@ -1,9 +1,7 @@
 ---
-title: "GitLab Project Management - Hands-On Lab 4"
+title: "GitLab Project Management - Hands-On Lab: Create Issues"
 description: "This Hands-On Guide walks you through the lab exercises used in the GitLab Project Management course."
 ---
-
-# Lab 4: Create Issues
 
 > Estimated time to complete: 45 minutes
 

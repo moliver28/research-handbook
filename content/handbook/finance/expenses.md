@@ -112,11 +112,11 @@ The airfare policy in Navan is set up as a “Dynamic Policy” which calculates
 
 #### Domestic Flights
 
-- **Flights over 5 hours of consecutive flight time** - For domestic flights,  team members are allowed to book economy plus class tickets if the duration of the flight is more than 5 hours of consecutive flight time. If economy plus is not available for that airline, then the next class up is acceptable.
+- **Flights over 5 hours of consecutive flight time** - For domestic flights with a duration greater than 5 hours of consecutive flight time, team members are authorized to book the next class up from standard economy as long as it is below business class.
 
 #### International Flights
 
-- **Flights greater than 5 hours of consecutive flight time** - For international flights with a duration greater than 5 hours of consecutive flight time, team members are authorized to book economy plus class tickets. If economy plus is not available for that airline, then the next class up is acceptable.
+- **Flights greater than 5 hours of consecutive flight time** - For international flights with a duration greater than 5 hours of consecutive flight time, team members are authorized to book the next class up from standard economy as long as it is below business class.
 - **Flights exceeding 8 hours of consecutive flight time** - For those who travel frequently, defined as 3 or more trips per quarter internationally on flights of 8 hrs+ continuous flight time (6 flight segments of 8+ hours continuous flight time), for a meeting with customers, a speaking engagement, or representing GitLab at a conference; business class is permitted.
 
 #### Frequent Flyer Programs
@@ -151,6 +151,7 @@ The airfare policy in Navan is set up as a “Dynamic Policy” which calculates
 - Please note that anything booked outside of Navan will flag as “Out of Policy”, and will need to be reviewed by your manager and the AP team.
 - Navan Confirmation should be attached to the claim along with the Car Rental Receipt.
 - Team Members can claim gas expenses but not mileage, when renting a car.
+- Fuel at $300 limit per day.
 
 #### Additional Car Rental Guidelines
 
@@ -254,12 +255,11 @@ In the event of an accident resulting in damage to the rental car, the Non-US re
 **Expense Type / Navan Policy Category:** Train travel
 {{% /panel %}}
 
-### Transportation/Parking/Fuel
+### Transportation/Parking
 
-- Parking, Tolls, Fuel, Taxi, Uber pertaining to travel to/from GitLab events, clients, or conferences is acceptable. Team Members are not permitted to expense both fuel/EV charging fees and mileage.
+- Parking, Tolls, Taxi, Uber pertaining to travel to/from GitLab events, clients, or conferences is acceptable. Team Members are not permitted to expense both fuel/EV charging fees and mileage.
 - Full Description of Trip should be stated in the Description box.
 - Ground Transportation (taxis, ubers) at $300 limit per round trip and $150 limit for single trip.
-- Fuel at $300 limit per day.
 - Parking and tolls  at $150 limit per day.
 - All items booked which are over the limits set will need to have manager approval attached to the claim.
 
@@ -357,15 +357,14 @@ The company will cover all work-related travel expenses. This includes lodging a
 - No conference expense, with the exception of travel, should be allowed outside of G&D, unless the Team Member is a speaker for an event or required to attend an event for job related responsibilities (i.e. staffing or sales).
 
 {{% panel header="**Coding**" header-bg="green" %}}
-**Expense Type / Navan Policy Category:** Conference attendance
+**Expense Type / Navan Policy Category:** G&D (Growth & Development)
 {{% /panel %}}
 
 #### Equipment
 
 - These amounts were set after a thorough analysis and review of Team Members’ expense data during the previous two years and benchmarked with other remote companies. Anything over this amount will be at the expense of the Team Member and no exceptions will be made.
-- As you onboard and start your GitLab journey, new hires after 2023-02-08 will receive a 1,500 USD (or equivalent local currency) stipend to help you towards setting up your home office in your first year. This will be issued to you as a Virtual Card, and you will be able to use that card to purchase items. The Virtual Card information will be sent to you by the Accounts Payable team via your Onboarding Issue. Please refer to the Navan Expense End Users Guide for instructions on using and accessing your Virtual Card.
-- In addition, as of 2023-02-08, Team Members will get a yearly refresh of 500 USD (or equivalent local currency) to purchase upgrades, replacements, or enhancements to your home office setup. This only applies to Team Members who have been employed the entire previous fiscal year. This excludes laptops - please connect with the IT team if you require a replacement laptop.
-- Team Members who have started during the year before this expense policy took effect, and have not yet expensed key parts of their home office equipment (such as office chair, desk and monitor) are also eligible for the New Hire 1,500 USD stipend (pro-rata). In order to claim this, please email expenses@gitlab.com and explain your situation. The team will assist you with provisioning the Virtual Card.
+- As you onboard and start your GitLab journey, new hires will receive a 1,500 USD (or equivalent local currency) stipend to help you towards setting up your home office in your first year. This will be issued to you as a Virtual Card, and you will be able to use that card to purchase items. The Virtual Card information will be sent to you by the Accounts Payable team via your Onboarding Issue. Please refer to the Navan Expense End Users Guide for instructions on using and accessing your Virtual Card.
+- Existing Team Members will get a yearly refresh of 500 USD (or equivalent local currency) to purchase upgrades, replacements, or enhancements to your home office setup. This only applies to Team Members who have been employed the entire previous fiscal year. This excludes laptops - please connect with the IT team if you require a replacement laptop.
 - We want you to set up your office the way you want it. Although we don't want to put any restrictions regarding which office equipment you may purchase, we would like to outline what is covered under the term Office Equipment.
 - What's included - Essential items which you will need to ensure you are able to perform your role in GitLab should include chair, desk, monitor, Laptop (provided), headset, external mic, external keyboard and external mouse.
 - Further to this, items like additional monitors, laptop stand, external webcam, supplementary lighting, laptop bag/case, can also be considered and expensed using the Stipend/Allowance.
@@ -379,9 +378,9 @@ The company will cover all work-related travel expenses. This includes lodging a
 - Any unused funds will not roll over to the next year.
 - The local currency FX rate will be calculated using the OANDA Currency Converter as of the date the virtual card is issued.
 
-##### All Team Members- 500 USD (or equivalent local currency) Refresh Guidelines
+##### Existing Team Members- 500 USD (or equivalent local currency) Refresh Guidelines
 
-- This is a yearly refresh amount. It will reset at the beginning of each fiscal year (February 1 to January 31).
+- This is a yearly refresh amount. It will reset at the beginning of each calendar year (January 1 to December 31).
 - The Navan Virtual Card cannot be used for the yearly refresh. Team Members should use their own method of payment and submit their expenses in Navan.
 - Any unused funds will not roll over to the next year.
 - Team Members hired within the previous fiscal year are not eligible. For example, a Team Member who started 2023-05-10 will get their first refresh amount on 2025-02-01.
@@ -422,6 +421,7 @@ The company will cover all work-related travel expenses. This includes lodging a
 - If an itemized bill is not available, costs will only be reimbursed for the element relating to Internet Access, i.e. if you pay for tv, internet and phone, the invoice should be divided by 3/# of services and we will pay this value only.
 - No hardware costs for internet service is reclaimable. This includes routers, extenders/boosters, etc.
 - If co-working space is used together with a combination of working from home, we will allow the reimbursement of the internet cost for where you spend most of your time. i.e. if you expense a co-working space for a full month then internet for home cannot be expensed. If you expense co-work for a few days in a month then home internet can be expensed in full.
+- Team members for GitLab GmbH (Germany) should refer to this [page](https://internal.gitlab.com/handbook/finance/payroll/#non-us) for their country's specific guidelines of this expense.
 
 {{% panel header="**Coding**" header-bg="green" %}}
 **Expense Type / Navan Policy Category:** Internet access
@@ -435,7 +435,7 @@ The company will cover all work-related travel expenses. This includes lodging a
 #### Repairs to company issued equipment
 
 - If you need to replace a battery or something small that does not affect the productivity or speed of the device, please go ahead and get that small item replaced and expensed.
-- The category to use in Navan is 'Tools and Materials'.
+- The category to use in Navan is 'Office Supplies'.
 - Please get approval from your Manager if your equipment appears to be damaged, defective, or in need of repair
 - Business Operations can advise on next steps to ensure you have the proper equipment to work.
 - For loaner laptops: Do not hesitate when expensing a loaner laptop while your primary laptop is being repaired.
@@ -444,7 +444,7 @@ The company will cover all work-related travel expenses. This includes lodging a
 - AP Admin needs to review expense for approved issue.
 
 {{% panel header="**Coding**" header-bg="green" %}}
-**Expense Type / Navan Policy Category:** Tools and Materials
+**Expense Type / Navan Policy Category:** Office Supplies
 {{% /panel %}}
 
 ### Marketing- related expenses
@@ -513,7 +513,7 @@ The company will cover all work-related travel expenses. This includes lodging a
 - AP Admin needs to review expenses for approved issue.
 
 {{% panel header="**Coding**" header-bg="green" %}}
-**Expense Type / Navan Policy Category:** Books, dues & subscriptions
+**Expense Type / Navan Policy Category:** G&D (Growth & Development)
 {{% /panel %}}
 
 ### Software
@@ -670,7 +670,7 @@ Below is some more information to help you get set up with your [Navan](https://
 
 This policy applies to all GitLab team members registering, or maintaining a registration for, GitLab-related Domain Names, including GitLab-related Domain Names registered or used for sandbox or testing purposes.
 
-Domain names are key assets in GitLab's intellectual property portfolio. Centralizing the registration and maintainance of domain names under the Infrastructure Shared Services group using GitLab's approved domain name registrar helps us track and protect these valuable assets. Please refer to the [Domain Names and DNS Records Handbook Page]({{< ref "/handbook/it/guides/domains-dns" >}}).
+Domain names are key assets in GitLab's intellectual property portfolio. Centralizing the registration and maintainance of domain names under the Infrastructure Shared Services group using GitLab's approved domain name registrar helps us track and protect these valuable assets. Please refer to the [Domain Names and DNS Records Handbook Page](https://internal.gitlab.com/handbook/it/it-self-service/it-guides/domains-dns/).
 
 **"GitLab-related Domain Names"** when used in this policy means any domain name:
 

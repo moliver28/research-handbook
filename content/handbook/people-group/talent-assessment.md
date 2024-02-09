@@ -713,7 +713,7 @@ The succession planning process might vary slightly for different areas of the b
 |-----------|---|
 | Emergency (ER) | Someone who could take over this role if the current person were affected by a [lottery factor](/handbook/total-rewards/compensation/#competitive-rate) or had to take emergency leave. *Note: If there is no one who could assume the role today in an emergency situation, part of the succession coverage plan should include an overview of recommendation steps (I.E. engaging a consultancy, splitting up the team, etc.)* |
 | Ready Now (RN) | Someone who has 90% of the competency & experience to take the role now |
-| Ready in 1-2 years) | With additional responsibility & exposure, could take the role soon  |
+| Ready in 1-2 years | With additional responsibility & exposure, could take the role soon  |
 | Ready in 2-3+ years | Longer term candidate who requires significant development |
 | Interim coverage | Has competency and experience to provide coverage on an interim basis (~6 months), but may not be suitable for the role long-term |
 

@@ -119,7 +119,6 @@ The People team is not involved in the process for hiring, onboarding, or offboa
 
 - [Developer onboarding](/handbook/developer-onboarding/)
 - [GitLab onboarding buddies]({{< ref "/handbook/people-group/general-onboarding/onboarding-buddies" >}})
-- [GitLab Onboarding Feedback]({{< ref "/handbook/people-group/general-onboarding/onboarding-feedback" >}})
 - [Merge Request buddies]({{< ref "/handbook/people-group/general-onboarding/mr-buddies" >}})
 - [Onboarding Processes](https://internal.gitlab.com/handbook/people-group/people-operations/people-connect/onboarding_process/)
 - [Quality team onboarding](/handbook/engineering/quality/onboarding/)

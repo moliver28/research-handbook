@@ -13,7 +13,7 @@ View the [CSM Handbook homepage](/handbook/customer-success/csm/) for additional
 ---
 **Overview**
 
-At GitLab, we take customer success seriously, and our Scale Customer Success Engineer (CSE) team plays a pivotal role in ensuring our global customer base receives unparalleled support and assistance throughout their journey with us. As a team, we oversee four key processes (listed below) that are designed to empower our customers, enable our sales counterparts, and drive overall customer satisfaction to align with our [company strategy around establishing and expanding our customer-centric approach and focus](/handbook/company/strategy/#3-customer-centricity).
+At GitLab, we take customer success seriously, and our Scale Customer Success Engineer (CSE) team plays a pivotal role in ensuring our global customer base receives unparalleled support and assistance throughout their journey with us. As a team, we oversee four key processes (listed below) that are designed to empower our customers, enable our sales counterparts, and drive overall customer satisfaction. This aligns perfectly with the common pattern of being customer centric across our [company strategy](/handbook/company/strategy/).
 
 [For the ARR thresholds for the Scale customer segment please reference this Wiki page](https://gitlab.com/gitlab-com/customer-success/csm/-/wikis/CSM-Segments) (GitLab Internal).
 

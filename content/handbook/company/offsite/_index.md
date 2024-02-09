@@ -17,11 +17,13 @@ The agenda should include discussions that are:
 
 ## Attendees
 
-1. [Executives](/handbook/company/team/structure/#executives)
+1. [Executives](/handbook/company/structure/#executives)
 1. [Chief of Staff to the CEO](/job-families/chief-executive-officer/chief-of-staff/); when not possible, the [Director, Strategy and Operations](/job-families/chief-executive-officer/strategy-and-operations/)
 1. [CEO Shadows](/handbook/ceo/shadow/)
 1. [Executive Business Admin](/handbook/eba/#executive-business-administrator-team) to the CEO (optional)
 1. Invited participants: folks invited to participate in one or more specific session
+
+While attendees will include this list of folks, there will be conversations that are most relevant to a sub-set of people. In these cases, calendars will specify who is "recommended" and who is "optional." In some instances, E-Group members may be among the list of optional attendees.
 
 #### Roles
 
@@ -63,7 +65,7 @@ The EBA to the CEO will coordinate with on-site contact of the house and collabo
 1. Meals and catering
 1. Schedule including arrival time and departure times
 1. Attendee count and details
-1. Share a summarized agenda detailing when meetings are taking place, which room will be used for each meeting, and the count of people in each room. If a room will be used by the [Directs-Group](/handbook/company/team/structure/#directs-group) while they are not in the E-Group Offsite meeting, note this as well.
+1. Share a summarized agenda detailing when meetings are taking place, which room will be used for each meeting, and the count of people in each room. If a room will be used by the [Directs-Group](/handbook/company/structure/#directs-group) while they are not in the E-Group Offsite meeting, note this as well.
 
 The maximum attendees that can fit in the main room is 16, however, if additional attendees are needed in the main room, coordinate with the on-site contact to secure additional accommodations such as an extra table, chairs, etc... and share which meetings this would be needed for.
 
@@ -163,6 +165,7 @@ While E-Group Offsites often happen about two months in advance of Board Meeting
 1. Review 3 to 5 year [Long Range Outlook (**LRO**)](/handbook/finance/financial-planning-and-analysis/#long-range-outlook-lro) including scenarios, capabilities and dependencies
 1. Finish the review of [**Three Year Strategy**](/handbook/company/strategy/) (1 day)
 1. [**Talent** assessment and succession planning](/handbook/people-group/talent-assessment/) (2x session per year, 1.5 hrs per session, ~10 mins per function). CEO Shadows and EBAs do not attend this session
+1. [Director + promotion nominations](/handbook/people-group/promotions-transfers/#bamboohr-or-greenhouse-process)
 
 **Q3 Offsite**
 1. E-Group Offsite Month: October
@@ -179,6 +182,7 @@ While E-Group Offsites often happen about two months in advance of Board Meeting
 1. Final [**Annual Plan**](/handbook/finance/financial-planning-and-analysis/#plan) that includes the budgets
 1. Product **Roadmap** including competitive differentiation
 1. [**Talent** assessment and succession planning](/handbook/people-group/talent-assessment/) (2x session per year, 1.5 hrs per session, ~10 mins per function). CEO Shadows and EBAs do not attend this session
+1. [Director + promotion nominations](/handbook/people-group/promotions-transfers/#bamboohr-or-greenhouse-process)
 
 ### Recurring discussion topics
 
@@ -306,7 +310,7 @@ Follow ups can take the form of an:
 
 ### Functional Leaders Meeting
 
-In the week following the Offsite, there is a 25-minute Zoom call before 12pm Pacific time for the [Functional Leaders Meeting](/handbook/company/team/structure/#functional-leaders). This is called the Functional Leaders Meeting.
+In the week following the Offsite, there is a 25-minute Zoom call before 12pm Pacific time for the [Functional Leaders Meeting](/handbook/company/structure/#functional-leaders). This is called the Functional Leaders Meeting.
 
 The goal of this call is to communicate:
 1. Strategic or visionary updates that are crucial to priorities

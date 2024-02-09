@@ -104,7 +104,7 @@ As with all roles in the Sales Department, the Business Value Services job famil
   - A Manager role within another job family
   - Roles within Sales or Cusomter Success
 - The next steps for a Manager, Business Value Services Team would be to move into a Senior Manager within this Job Family
-- [Leadership at GitLab](/handbook/company/team/structure/#director-group)
+- [Leadership at GitLab](/handbook/company/structure/#director-group)
 
 ## Hiring Process
 

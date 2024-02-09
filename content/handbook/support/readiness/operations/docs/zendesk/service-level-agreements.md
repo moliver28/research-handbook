@@ -1,5 +1,5 @@
 ---
-title: Service Level Agreements
+title: SLA policies
 description: Support Operations documentation page for Zendesk SLAs
 canonical_path: "/handbook/support/readiness/operations/docs/zendesk/service-level-agreements"
 ---

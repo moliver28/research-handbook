@@ -211,7 +211,9 @@ A link to survey results will be added at the conclusion of each survey.
 
 
 
-
+<details>
+  <summary markdown="span">Previous Years</summary>
+  
 ### FY'23 Pulse Engagement Survey
 
 #### FY'23 Pulse Engagement Survey Timeline
@@ -317,6 +319,7 @@ GitLab was rated up to 3% higher than the industry benchmark i.e. New Tech (1,00
 | I believe action will take place as a result of this survey| 64% |
 
 GitLab scored 4% higher than the industry benchmark i.e. New Tech +1,000 2022 for the lowest scoring question surrounding positive actions, 9% higher than the benchmark regarding compensation and 2% higher regarding actions taken from the survey.
+
 
 ### FY'22 Pulse Engagement Survey
 
@@ -480,7 +483,7 @@ All links should be added by 2022-01-21 aligned with our [timeline]({{< ref "eng
 **Resource Allocation**
 
 1. Increased headcount from 1267 team members in December 2020 to 1574 team members in December 2021.
-1. Our average [promotion rate]({{< ref "people-group-metrics#promotion-rate" >}}) in 2021 is 16.77%, which is higher than the average market promotion rate
+1. Our average promotion rate in 2021 is 16.77%, which is higher than the average market promotion rate
 
 #### Questions and Support
 
@@ -671,3 +674,5 @@ GitLab scored 12% below the industry benchmark i.e. 2018 New Tech Size - Large C
 1. Select Import Data
 
 You have now updated a demographic in CultureAmp!
+
+<details>

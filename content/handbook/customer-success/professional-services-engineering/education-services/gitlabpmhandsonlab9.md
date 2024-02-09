@@ -1,9 +1,7 @@
 ---
-title: "GitLab Project Management - Hands-On Lab 9"
+title: "GitLab Project Management - Hands-On Lab: Create And Manage A Scrum Board"
 description: "This Hands-On Guide walks you through the lab exercises used in the GitLab Project Management course."
 ---
-
-# Lab 9: Create And Manage A Scrum Board
 
 > Estimated time to complete: 30 minutes
 

@@ -1,11 +1,9 @@
 ---
-title: "GitLab Security Essentials - Hands-On Lab 2"
+title: "GitLab Security Essentials - Hands-On Lab: Enable and Configure Dependency Scanning"
 description: "This Hands-On Guide walks you through the lab exercises used in the GitLab Security Essentials course."
 ---
 
 > You are viewing the latest Version 16.x instructions. If your group URL starts with https://spt.gitlabtraining.cloud, please use the [Version 15.x instructions](https://gitlab.com/gitlab-com/content-sites/handbook/-/blob/d14ee71aeac2054c72ce96e8b35ba2511f86a7ca/content/handbook/customer-success/professional-services-engineering/education-services/secessentialshandson2.md)
-
-# Lab 2: Enable and Configure Dependency Scanning
 
 > Estimated time to complete: 15 to 30 minutes
 
@@ -66,7 +64,7 @@ Before beginning this lab and all later labs, you should disable any scanners th
 
 > Python-based projects often use pip for package management. With pip, developers will often provide a list of dependencies in a file called `requirements.txt`.
 
-> Although this example uses Python with the pip package manager, GitLab supports various other package managers. For a full list of supported languages and package managers, see the <a target="_blank" href="https://docs.gitlab.com/ee/user/application_security/dependency_scanning/#supported-languages-and-package-managers"></a>.
+> Although this example uses Python with the pip package manager, GitLab supports various other package managers. For a full list of supported languages and package managers, click [here](https://docs.gitlab.com/ee/user/application_security/dependency_scanning/#supported-languages-and-package-managers).
 
 1. In your `Security Labs` project, navigate to **Code > Repository**.
 

@@ -1,5 +1,5 @@
 ---
-title: Zendesk-Salesforce Sync
+title: ZD-SFDC sync
 description: Support Operations documentation page for our Zendesk<>Salesforce Sync
 canonical_path: "/handbook/support/readiness/operations/docs/zendesk/zendesk_salesforce_sync"
 ---
@@ -169,8 +169,15 @@ SELECT
    WHERE IsDeleted = false)
 FROM Account
 WHERE
-  Type IN ('Customer', 'Former Customer', 'Prospect') AND
-  Support_Instance__c = 'federal-support'
+  Type IN ('Customer', 'Former Customer')
+  AND (
+    (
+      Account_Demographics_Territory__c LIKE 'PUBSEC%'
+      AND Account_Demographics_Territory__c != 'PUBSEC_'
+      AND (NOT Account_Demographics_Territory__c LIKE '%SLED%')
+    )
+    OR Support_Instance__c = 'federal-support'
+  )
 ```
 
 </details>
@@ -224,9 +231,16 @@ SELECT
   Contact.Inactive_Contact__c
 FROM Contact
 WHERE
-  Contact.Inactive_Contact__c = false AND
-  Account.Type IN ('Customer', 'Former Customer', 'Prospect') AND
-  Account.Support_Instance__c = 'federal-support'
+  Contact.Inactive_Contact__c = false
+  AND Account.Type IN ('Customer', 'Former Customer')
+  AND (
+    (
+      Account.Account_Demographics_Territory__c LIKE 'PUBSEC%'
+      AND Account.Account_Demographics_Territory__c != 'PUBSEC_'
+      AND (NOT Account.Account_Demographics_Territory__c LIKE '%SLED%')
+    )
+    OR Account.Support_Instance__c = 'federal-support'
+  )
 ```
 
 </details>

@@ -27,7 +27,7 @@ GitLab is an [all-remote](/handbook/company/culture/all-remote/) company, so the
 
 {: #goal}
 
-The goal of the CMO Shadow Program is to give current and future [leaders](/handbook/company/team/structure/) in the Marketing Team an overview of all aspects of the [company](/handbook/company/).
+The goal of the CMO Shadow Program is to give current and future [leaders](/handbook/company/structure/) in the Marketing Team an overview of all aspects of the [company](/handbook/company/).
 This should enable marketing leadership to better perform [global optimizations](/handbook/values/#global-optimization).
 You'll gain this context through the [meetings you attend](#meetings) and discussions with the CMO regarding any questions that arise during the call, should time be available during the shadow timeframe.
 The program also creates opportunities for the CMO to build relationships with team members across the marketing department and to identify challenges and opportunities earlier.

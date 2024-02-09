@@ -1,9 +1,7 @@
 ---
-title: "GitLab with Git Essentials - Hands-On Lab 1"
+title: "GitLab with Git Essentials - Hands-On Lab: Create a project and issue"
 description: "This Hands-On Guide walks you through the lab exercises used in the GitLab with Git Essentials course."
 ---
-
-# Lab 1: Create a project and issue
 
 > Estimated time to complete: 30 minutes
 

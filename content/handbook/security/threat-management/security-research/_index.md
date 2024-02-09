@@ -314,6 +314,8 @@ For third party software listed in our [tech stack](/handbook/business-technolog
 
 Depending on the actual risk and exposure it might be needed to further limit the information around the disclosure. In such cases it is recommended to involve the [SIRT]({{< ref "sirt" >}}).
 
+In all cases the team will follow [GitLab's Disclosure Guidelines for Vulnerabilities in 3rd Party Software](https://about.gitlab.com/security/disclosure/#disclosure-guidelines-for-vulnerabilities-in-3rd-party-software).
+
 ## Bug bounties and speaker fees
 
 As a result of Security Research it might occur that a team member gets offered

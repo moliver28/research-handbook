@@ -29,7 +29,7 @@ For further detail on each type, see the definitions in the [DR types](#dr-types
 
 Only the assets and scan types listed [here (internal)](https://internal.gitlab.com/handbook/engineering/horse/pubsec/fedramp-boundary-vulnerability-scanning/) are in-scope. Do not submit a DR for a scan type (e.g. SAST) or asset not included within the FedRAMP production authorization boundary.
 
-Vulnerabilities in-scope for FedRAMP get the `FedRAMP::Vulnerability` label applied. See AppSec's [FedRAMP Vulnerability Scanning and Triage Process](/handbook/security/security-engineering/application-security/runbooks/fedramp-scanners-process.html#for-each-finding-from-dast-and-container-scanners) for more details, as well as the [standard vulnerability labels (internal)](https://gitlab.com/gitlab-com/gl-security/threatmanagement/vulnerability-management/vulnerability-management-internal/vulnerability-management-tracker/-/issues/34199373).
+Vulnerabilities in-scope for FedRAMP get the `FedRAMP::Vulnerability` label applied. See AppSec's [FedRAMP Vulnerability Scanning and Triage Process](/handbook/security/product-security/application-security/runbooks/fedramp-scanners-process.html#for-each-finding-from-dast-and-container-scanners) for more details, as well as the [standard vulnerability labels (internal)](https://gitlab.com/gitlab-com/gl-security/threatmanagement/vulnerability-management/vulnerability-management-internal/vulnerability-management-tracker/-/issues/34199373).
 
 ## Roles & Responsibilities
 

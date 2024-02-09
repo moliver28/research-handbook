@@ -32,7 +32,7 @@ extra_js:
 - Support the preparation of security releases.
 - Assist in development of security processes and automated tooling that prevent classes of security issues.
 
-Learn more about our role [on the Application Security Handbook page](/handbook/security/security-engineering/application-security/) including our work as [Stable Counterparts](/handbook/security/security-engineering/application-security/stable-counterparts.html) and our [HackerOne process](/handbook/security/security-engineering/application-security/runbooks/hackerone-process.html)
+Learn more about our role [on the Application Security Handbook page](/handbook/security/product-security/application-security/) including our work as [Stable Counterparts](/handbook/security/product-security/application-security/stable-counterparts.html) and our [HackerOne process](/handbook/security/product-security/application-security/runbooks/hackerone-process.html)
 
 ## Requirements
 

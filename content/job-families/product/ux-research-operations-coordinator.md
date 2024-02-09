@@ -41,16 +41,18 @@ The UX Research Operations Coordinator (Intermediate) is a [grade 6](/handbook/t
 
 - Manage all aspects of participant recruitment for user experience research studies, including but not limited to: recruiting from multiple sources, outreach, screening, scheduling, participation agreements, privacy, and incentives management.
 - Identify team needs and gaps. Continuously examine, experiment, and measure improvements to our research operations and processes.
-- Grow, foster, and administer new participant panels, along with our existing panel, [GitLab First Look](https://about.gitlab.com/community/gitlab-first-look/).
+- Grow, foster, and administer new participant panels.
 - Maintain UX research operations handbook documentation with accurate, standardized, and transparent processes and procedures.
-- Use our databases to filter and screen participants.
-- Create and manage libraries of screeners for team members to use.
+- Create, document and follow our recruitment best practices and use the most appropriate databases / tools to filter and screen participants.
+- Create and manage libraries of templates for team members to use, for example, but not limited to, recruitment screeners, issue templates, email templates.
+- Manage Research Operations budget / credits allocated by tracking and forecasting spending on incentives, credits spent on studies, and working with the UX Research Manager to adjust accordingly.
 - Collaborate with Product Designers, Product Managers, and UX Researchers to effectively understand their research recruitment needs and to drive their requests to successful completion.
-- Proactively and routinely use social media to showcase UX Research insights and solutions to the wider GitLab community.
 - Manage relationships with third-party providers, such as recruitment platforms, digital rewards solutions, etc.
 - Respond to inquiries from research participants.
 - Monitor progress of research operations by creating, maintaining, and communicating monthly reports on key data points such as: budget, number of participants by research study type, forecasting, and other metrics.
-- Administration of our research toolsets:  Qualtrics, UserTesting.com, Dovetail, Respondent, Rybbon, etc.
+- Keep training materials and handbook instructions for Study DRIs / UX Researchers up to date, so they adhere to best practices when conducting their own recruitment.
+- Administration of our research toolsets:  Qualtrics, UserTesting.com, Dovetail, Respondent, Rybbon, Rally, etc.
+- Work with Procurement, Legal and Security, on onboarding new tools, payments of POs, contract renewals etc.
 
 #### UX Research Operations Coordinator (Intermediate) Requirements
 
@@ -76,7 +78,7 @@ The UX Research Operations Coordinator is a [grade 7](/handbook/total-rewards/co
 - Proactively identify, build, and streamline processes that result in efficient research operations.
 - Proactively solicit requirements and feedback from Product Designers, Product Managers, and UX Researchers to further optimize research operations.
 - Act as the strategic owner of our research participant panels, advancing their overall health, growth, and usage within GitLab.
-- Establish, drive, and/or identify social events to grow our participant panel.
+- Working with the relevant teams to establish, drive, and/or identify social events to grow our participant panel.
 - Be the social media ambassador for UX Research at GitLab. Maintain social media accounts that promote our research efforts and aid participant recruitment.
 - Formalize the research operations coordination effort into a program of work with extensive processes and documentation to improve visibility and increase efficiency.
 - Define and deliver on a UX research operations roadmap that improves efficiency and addresses gaps.
@@ -86,11 +88,6 @@ The UX Research Operations Coordinator is a [grade 7](/handbook/total-rewards/co
 
 - Extends the UX Research Operations Coordinator (Intermediate) requirements.
 - Experience in UX Research Operations Coordination or a related role that involves administration and coordination.
-
-## Performance Indicators
-
-- [Perception of System Usability](/handbook/product/ux/performance-indicators/#perception-of-system-usability)
-- [Proactive vs Reactive UX Work](/handbook/product/ux/performance-indicators/#ratio-of-proactive-vs-reactive-ux-work)
 
 ## Hiring Process
 

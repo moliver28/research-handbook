@@ -3,12 +3,6 @@ aliases: /handbook/engineering/infrastructure/core-platform/data_stores/database
 title: PostgreSQL Upgrade Cadence
 ---
 
-
-
-
-
-
-
 ## PostgreSQL yearly upgrade cadence
 
 Starting with GitLab 16.0, we follow a yearly upgrade cadence for PostgreSQL:
@@ -34,10 +28,8 @@ Starting with GitLab 16.0, we follow a yearly upgrade cadence for PostgreSQL:
 At a glance:
 
 | GitLab Version | Minimum Supported Version | Optionally Supported Version | Omnibus Default (Fresh installs) | Release notes | GitLab.com |
-|----------------|---------------------------|------------------------------|-----------------|---------------|------------|
-|     **15.0**       |         **PG12**              |           **PG13**               |      **PG13**       | Support for PG12 will be removed in 16.0| |
-| | | | | | Upgrade to PG14 early Q2 2023 |
-|     **16.0**      |         **PG13**              |           **PG14**               |      PG13       | Support for PG14 will be added to omnibus and charts between 16.0 and 16.4<br />Support for PG13 will be removed in 17.0 | |
-|     16.6       |         PG13              |           PG14               |      **PG14**       | | |
-|     **17.0**      |         **PG14**              |           **PG15**               |      PG14       | Support for PG15 will be added to omnibus and charts between 17.0 and 17.4<br />Support for PG14 will be removed in 18.0 | |
-|     17.6       |         PG14              |           PG15               |      **PG15**       | | Upgrade to PG15 early Q4 2024 |
+|----------------|---------------------------|------------------------------|----------------------------------|---------------|------------|
+|     16.6       |         PG13              |           PG14               |    **PG14**                      |  | Gitlab.com will upgrade to PG15 in FY25-Q2 |
+|   **17.0**     |       **PG14**            |         **PG15**             |      PG14                        | Support for PG15 will be added to omnibus and charts between 17.0 and 17.4<br />Support for PG14 will be removed in 18.0 | |
+|     17.6       |         PG14              |           PG15               |    **PG15**                      |  | Gitlab.com will upgrade to PG16 in FY25-Q4 |
+|   **18.0**     |       **PG15**            |         **PG16**             |      PG15                        |  | |

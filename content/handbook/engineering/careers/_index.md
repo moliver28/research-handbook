@@ -434,7 +434,7 @@ If you wish to apprentice with an Engineering team, start by speaking with your 
 
 An internship is a position meant for someone who has decided on a career path and is looking to gain in-depth experience in a specific field. At GitLab this is the entry level of roles in Engineering.
 
-In May 2020 we launched an internship pilot program as part of a [Working Group](/handbook/company/team/structure/working-groups/internship-pilot/). [The pilot internship program](/handbook/engineering/internships/) has proven to be a great mechanism for hiring as well as offered great opportunities for our team members to gain mentoring experience. Due to the program's success currently we have decided to roll out internships on a continuous basis in Engineering.
+In May 2020 we launched an internship pilot program as part of a [Working Group](/handbook/company/working-groups/internship-pilot/). [The pilot internship program](/handbook/engineering/internships/) has proven to be a great mechanism for hiring as well as offered great opportunities for our team members to gain mentoring experience. Due to the program's success currently we have decided to roll out internships on a continuous basis in Engineering.
 
 With the roll out of the intern level in Engineering we have decided to deprecate what previously has been called the junior level (former entry level). Going forward all teams within Engineering can open an intern requisition when there's an organizational need. All information on Internships in Engineering can be found on [this page](/handbook/engineering/internships/).
 

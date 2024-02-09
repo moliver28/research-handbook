@@ -49,7 +49,7 @@ business intelligence around it. This will allow us to create some predictabilit
 with Engineering and Product Development.
 This accounts for 70 - 80% of the workload. The remaining 20 - 30% is ad-hoc work. The ad-hoc work is eclectic and
 ranges from supporting customers on contributions, supporting various open source initiatives and supporting the
-[Engineering Productivity team](/handbook/engineering/quality/engineering-productivity/).
+[Engineering Productivity team](/handbook/engineering/infrastructure/engineering-productivity/).
 
 #### Unique New Monthly Contributors
 
@@ -76,8 +76,8 @@ ranges from supporting customers on contributions, supporting various open sourc
 #### Open Community MR Age (OCMA)
 
 1. Minimize reliance on human factors that contribute to a large standard deviation
-1. Identify & drive tooling improvements to decrease OCMA, and collaborate with the [Engineering Productivity team](/handbook/engineering/quality/engineering-productivity/)
-through shared tooling for [automated triaging](/handbook/engineering/quality/engineering-productivity/#automated-triage-policies)
+1. Identify & drive tooling improvements to decrease OCMA, and collaborate with the [Engineering Productivity team](/handbook/engineering/infrastructure/engineering-productivity/)
+through shared tooling for [automated triaging](/handbook/engineering/infrastructure/engineering-productivity/#automated-triage-policies)
 
 #### Leading Organizations
 

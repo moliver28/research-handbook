@@ -185,7 +185,7 @@ The Senior Principal Product Manager is a [grade 10](/handbook/total-rewards/com
 
 ##### Expectations
 
-Senior Principal Product Managers are experts across multiple domains within GitLab. They are responsible for helping shape the future direction of the organization, assisting management to establish strategic roadmaps, and driving priorities to meet objectives. As a Director-level individual contributor position, Senior Principal Product Managers are expected to perform at a Grade 10 (Director) level according to our [GitLab Job Framework](/handbook/company/team/structure/#individual-contributor-job-framework) and exemplify GitLab's [leadership principles](/handbook/leadership/).  In addition, Senior Principal Product Managers are expected to:
+Senior Principal Product Managers are experts across multiple domains within GitLab. They are responsible for helping shape the future direction of the organization, assisting management to establish strategic roadmaps, and driving priorities to meet objectives. As a Director-level individual contributor position, Senior Principal Product Managers are expected to perform at a Grade 10 (Director) level according to our [GitLab Job Framework](/handbook/company/structure/#individual-contributor-job-framework) and exemplify GitLab's [leadership principles](/handbook/leadership/).  In addition, Senior Principal Product Managers are expected to:
 
 **Drive execution of results**
 
@@ -207,8 +207,8 @@ The Senior Principal Product Manager will report to a Director of Product Manage
 ##### Responsibilities
 
 - Represent GitLab and its values in public communication around specific projects and community contributions.
-- In addition to being an individual contributor product manager of one (or more) of the groups, the Senior Principal PM should be designated as the [product collaborator](/handbook/engineering/incubation/#incubation-engineering-department) for one (or more) [SEG](/handbook/company/team/structure/#single-engineer-groups)s.
-- Lead cross stage initiatives, for example: [Top Cross-Functional Initiatives](/handbook/company/team/structure/working-groups/#top-cross-functional-initiatives)
+- In addition to being an individual contributor product manager of one (or more) of the groups, the Senior Principal PM should be designated as the [product collaborator](/handbook/engineering/incubation/#incubation-engineering-department) for one (or more) [SEG](/handbook/company/structure/#single-engineer-groups)s.
+- Lead cross stage initiatives, for example: [Top Cross-Functional Initiatives](/handbook/company/working-groups/#top-cross-functional-initiatives)
 - Maintains and owns [cross-section directions](/handbook/product/product-processes/#navigating-cross-stage-or-cross-section-direction-pages).
 - Leads working groups to accomplish cross-section [BHAG](/handbook/company/mission/#big-hairy-audacious-goal-bhag)s and targets
 - Identifies and submits investment cases for SEGs, Product Groups, and Categories
@@ -416,24 +416,24 @@ We're looking for a PM to ensure an excellent purchase, trial, upgrade, seat add
 - Familiarity with commercial best practices for no touch, sales assisted, and partner assisted transactions
 - Excellent communication skills at all levels, including e-group
 
-### Platforms - Project Horse
+### Platforms - GitLab Dedicated
 
-We're looking for a product manager to define, launch, and mature a new service.
+We're looking for a product manager to mature GitLab Dedicated, GitLab's Enterprise DevSecOps Platform as a single-tenant SaaS deployment. This role will involve defining a compeling roadmap that focuses on delivering customer results and growing Dedicated as a platform. You will will work closely with several engineering teams and with teams across GitLab to drive adoption of Dedicated.
 
 #### Requirements
 
-- Experience defining and launching new services, "zero to one"
 - Practical understanding of what it takes to run a SaaS service
 - Strong ability to work cross functionally, and through ambiguity
+- Excellent communication skills and the ability to translate complex requirements into actionable iterations
+- Experience working with customers in highly-regulated industries
 
 #### Responsibilities
 
-- Define, launch, and drive initial adoption of a new service
-- Work with Engineering and other teams to build a strong foundation (automated, re-usable, extensible)
-- Work closely with Go-to-market teams to ensure a successful launch
-- Refine pricing and minimum requirements of the service in partnership with the Pricing team
+- Drive the adoption of GitLab Dedicated
+- Collaborate with Engineering and other teams to build a strong foundation (automated, re-usable, extensible)
+- Collaborate closely with sales, professional services, support and go-to market teams to scale Dedicated
+- Refine pricing and packaging of Dedicated features
 - Manage P&L statement for the service
-- Work through ambiguity and document the process for future launches
 
 ### Platforms - Delivery & Scalability
 

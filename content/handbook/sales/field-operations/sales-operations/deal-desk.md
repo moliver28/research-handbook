@@ -783,8 +783,13 @@ Contract Resets are used to perform an "Early Renewal" - i.e. start a new 12 mon
 - Click Next and update the products and fees per the steps above.
 - **IMPORTANT:** Next, tag `@Sales-Support` in Chatter on the Renewal Opportunity to create a credit opportunity and quote to cancel the existing subscription, which in this scenario is being replaced with the new subscription. Deal Desk will then manually generate a Contract Reset Opp and Order Form to add the credit line into the order form once the quote has been fully approved.
 
-### **Note: The customer's subscription is suddenly downgraded to free, greatly impacting their ability to use GitLab.com.**
-- To help mitigate the impact, the customer may [change the linked namespace](https://docs.gitlab.com/ee/subscriptions/gitlab_com/#change-the-linked-namespace) or contact support. For a demo see, [Linking GitLab Subscription to the Namespace](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/4770#note_1194437643)
+For GitLab.com subscriptions, Deal Desk will follow the below steps to ensure the customer is not downgraded to free when their initial subscription is cancelled. These are outlined in more detail in [this presentation](https://docs.google.com/presentation/d/1fv_QMzPJ4Al5AaPBNd-IW5dCwuac56ShrzcpjUO_S60/edit?usp=sharing).
+- From the Account, click on the relevant Subscription record for the existing subscription under "Subscription Products and Charges".
+- Copy the `GitLab Namespace Id` and `GitLab Namespace Name` data into these same fields on the New subscription quote.
+- Once ready, ensure the New subscription quote is submitted to Zuora _prior_ to the Cancellation quote.
+
+
+If any issues with this process occur, the customer may [change the linked namespace](https://docs.gitlab.com/ee/subscriptions/gitlab_com/#change-the-linked-namespace) or contact support. For a demo see, [Linking GitLab Subscription to the Namespace](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/4770#note_1194437643)
 - Deal Desk will attach a PDF of the consolidated quote to the opportunity
 - Sales team will send the order form to the customer for signature
 - Upload the signed order form to the renewal opp and to the credit opp as well and submit both opps for approval

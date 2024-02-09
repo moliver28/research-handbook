@@ -1,9 +1,7 @@
 ---
-title: "GitLab CI/CD - Hands-On Lab 7"
+title: "GitLab CI/CD - Hands-On Lab: Using Artifacts"
 description: "This Hands-On Guide walks you through the lab exercises in the GitLab CI/CD course."
 ---
-
-# Lab 7: Using Artifacts
 
 > Estimate time to complete: 20 - 25 minutes
 

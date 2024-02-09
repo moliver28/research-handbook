@@ -39,7 +39,7 @@ The Channel Sales Manager is a [grade 8](/handbook/total-rewards/compensation/co
 - Strong personal network within the industry.
 - Driven, highly motivated and results driven.
 - You share our [values](/handbook/values/), and work in accordance with those values.
-- [Leadership at GitLab](/handbook/company/team/structure/#management-group)
+- [Leadership at GitLab](/handbook/company/structure/#management-group)
 - Ability to use GitLab
 - Ability to travel if needed and comply with the company’s [travel policy](/handbook/travel/)
 
@@ -77,7 +77,7 @@ The Associate Channel Sales Manager is a [grade 8](/handbook/total-rewards/compe
 - Strong personal network within the industry.
 - Driven, highly motivated and results driven.
 - You share our [values](/handbook/values/), and work in accordance with those values.
-- [Leadership at GitLab](/handbook/company/team/structure/#management-group)
+- [Leadership at GitLab](/handbook/company/structure/#management-group)
 - Ability to use GitLab
 
 #### Performance Indicators
@@ -116,7 +116,7 @@ The Senior Channel Sales Manager is a [grade 8](/handbook/total-rewards/compensa
 - Strong personal network within the industry.
 - Driven, highly motivated and results driven.
 - You share our [values](/handbook/values/), and work in accordance with those values.
-- [Leadership at GitLab](/handbook/company/team/structure/#management-group)
+- [Leadership at GitLab](/handbook/company/structure/#management-group)
 - Ability to use GitLab
 
 #### Performance Indicators
@@ -204,7 +204,7 @@ The Senior Public Sector Channel Account Manager is a [grade 9](/handbook/total-
 - Strong personal network within the industry.
 - Driven, highly motivated and results driven.
 - You share our [values](/handbook/values/), and work in accordance with those values.
-- [Leadership at GitLab](/handbook/company/team/structure/#management-group)
+- [Leadership at GitLab](/handbook/company/structure/#management-group)
 - Ability to use GitLab
 - Passion for leadership and further advancement in responsibilities as a individual contributor or managing other
 
@@ -352,7 +352,7 @@ The Distribution Sales Manager is accountable for revenue generation in the terr
 - Strong personal network within the industry.
 - Driven, highly motivated and results driven.
 - You share our [values](/handbook/values/), and work in accordance with those values.
-- [Leadership at GitLab](/handbook/company/team/structure/#management-group)
+- [Leadership at GitLab](/handbook/company/structure/#management-group)
 - Ability to use GitLab
 
 ### Alliances
@@ -375,7 +375,7 @@ The Distribution Sales Manager is accountable for revenue generation in the terr
 1. Significant experience with executive presence and a proven ability to lead and facilitate executive meetings including architecture whiteboards
 1. Excellent time management and written/verbal communication skills
 1. Ability to quickly understand technical concepts and explain them to audiences of varying technical expertise
-1. [Leadership at GitLab](/handbook/company/team/structure/#management-group)
+1. [Leadership at GitLab](/handbook/company/structure/#management-group)
 1. Ability to use GitLab
 
 #### Performance Indicators

@@ -22,7 +22,7 @@ You are encouraged to work as closely as needed with our [stable counterparts](/
 Other teams that we might collaborate with include but are not limited to:
 
 - [Govern:Authentication and Authorization](/handbook/engineering/development/sec/govern/authentication-and-authorization/)
-- [Growth:Acquisition and Activation](/handbook/engineering/development/growth/)
+- [Growth:Acquisition and Activation](/handbook/marketing/growth/engineering/)
 - [Fulfillment:Fulfillment Platform](/handbook/engineering/development/fulfillment/fulfillment-platform/#team-members)
 
 Here are some examples of when to engage with your counterpart:

@@ -33,17 +33,6 @@ Each Product Designer is assigned to an area of our product, called Stage Groups
 
 Information about product categories and links to team members and direction pages can be found [here](/handbook/product/categories/).
 
-Some UX teams have documented detailed information about their ways of working and stage groups, and these can be found here:
-- [Dev](https://about.gitlab.com/direction/dev/)
-    - [Create](/handbook/product/ux/stage-group-ux-strategy/create/)
-- CI/CD and [Saas Platforms](https://about.gitlab.com/direction/saas-platforms/)
-    - [CI/CD](/handbook/product/ux/stage-group-ux-strategy/ci-cd/) (`@gitlab-com/gitlab-ux/cicd-ux`)
-- [Sec](https://about.gitlab.com/direction/security/)
-    - [Secure and Govern](/handbook/engineering/ux/stage-group-ux-strategy/sec/) (`@gitlab-com/gitlab-ux/secure-govern-ux`)
-- Fulfillment and Growth UX
-    - Growth UX team: [How we approach experiments](/handbook/product/ux/ux-resources/experimentation/)
-    - Fulfillment UX team: [How we work](/handbook/product/ux/stage-group-ux-strategy/fulfillment/)
-
 ### UX Paper Cuts Team
 
 The UX Paper Cuts team is a small team responsible for identifying and fixing small, but impactful, usability issues in the GitLab product. The term "paper cut" refers to a small, seemingly insignificant problem that can cause annoyance or frustration for users. When considered as a collective, these problems can reduce the overall impression users have of the product.

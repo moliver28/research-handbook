@@ -1,9 +1,7 @@
 ---
-title: "GitLab with Git Essentials - Hands-on Lab 5"
+title: "GitLab with Git Essentials - Hands-on Lab: Auto DevOps With a Predefined Project Template"
 description: "This Hands-on Guide walks you through the lab exercises used in the GitLab with Git Essentials course."
 ---
-
-# Lab 5: Auto DevOps With a Predefined Project Template
 
 > Estimated time to complete: 30 minutes
 

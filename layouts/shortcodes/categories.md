@@ -12,6 +12,8 @@
 
 {{ partial "categories/section-heading.html" $section_data }}
 
+{{ partial "categories/section-stages-graph.md" (dict "section_key" $section_key "section_name" $section_name )}}
+
 {{- range $key, $data := $stages }}
 {{- if eq $section_key $data.section }}
 

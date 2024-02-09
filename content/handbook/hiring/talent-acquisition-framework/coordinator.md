@@ -260,7 +260,7 @@ In the form, you will find that candidates are required to disclose whether or n
 1. Go back into the issue, click Edit and in the info box tag the recruiter, HM & Director, then click save
    - These team members will be notified by email when tagged.
 1. In the Comment section of the issue request participants review the disclosure(s) by using TE snippet “discreview”
-1. Approvers are asked to remove their relevant label once they approve. This will allow CES to keep track as to what approvals we have and still need.
+1. CES will remove the appropriate label once confirmed approvals are received in the comments.
 1. If Legal review and approval is required, TMR will invite the appropriate Legal member into the issue and request their review
 1. Once fully approved, please add the “Fully Approved” label and close the issue.
 1. Proceed to the candidate's GH profile and select “Email (Candidate’s Name). Select the “Disclosure Confirmation” template, copy/paste the disclosure the candidate made into the blank space, and Send. The email will CC you and the recruiter.

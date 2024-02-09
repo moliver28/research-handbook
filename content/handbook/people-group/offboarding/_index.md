@@ -330,7 +330,7 @@ Transparency is one of our values. In the case of offboarding, transparency coul
 
 ## Turnover Data
 
-GitLab's [turnover data](https://app.periscopedata.com/app/gitlab/482006/People-KPIs?widget=6251791&udv=904340) is only viewable internally.
+GitLab's [turnover data](https://10az.online.tableau.com/#/site/gitlab/workbooks/2024177?:origin=card_share_link) is only viewable internally.
 
 ## Managing the Offboarding Tasks
 

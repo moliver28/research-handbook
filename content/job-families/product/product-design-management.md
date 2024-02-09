@@ -44,7 +44,7 @@ You'll spend your time collaborating with a [cross-functional team](/handbook/pr
 - Passion for creating visually pleasing and intuitive user experiences.
 - Collaborative team spirit with great communication skills.
 - You share our [values](/handbook/values/), and work in accordance with those values.
-- [Leadership at GitLab](/handbook/company/team/structure/#management-group).
+- [Leadership at GitLab](/handbook/company/structure/#management-group).
 - Ability to use GitLab.
 
 #### UX Paper Cuts
@@ -106,7 +106,7 @@ The Senior Manager of Product Design is a [grade 9](/handbook/total-rewards/comp
 - Passion for creating visually pleasing and intuitive user experiences.
 - Collaborative team spirit with great communication skills.
 - You share our [values](/handbook/values/), and work in accordance with those values.
-- [Leadership at GitLab](/handbook/company/team/structure/#management-group).
+- [Leadership at GitLab](/handbook/company/structure/#management-group).
 - Ability to use GitLab.
 
 **NOTE** In the compensation calculator below, fill in "Manager" in the `Level` field for this role.
@@ -152,7 +152,7 @@ The Director of Product Design is a [grade 10](/handbook/total-rewards/compensat
 - Passion for creating visually pleasing and intuitive user experiences.
 - Collaborative team spirit with great communication skills.
 - You share our [values](/handbook/values/), and work in accordance with those values.
-- [Leadership at GitLab](/handbook/company/team/structure/#director-group).
+- [Leadership at GitLab](/handbook/company/structure/#director-group).
 
 ### Interview Process
 

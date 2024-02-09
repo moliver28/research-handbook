@@ -1,9 +1,9 @@
 ---
-title: "GitLab CI/CD - Hands-On Lab 6"
+title: "GitLab CI/CD - Hands-On Lab: Job Policy Patterns"
 description: "This Hands-On Guide walks you through the lab exercises in the GitLab CI/CD course."
 ---
 
-# Lab 6: Job Policy Pattern
+
 
 > Estimate time to complete: 25 - 30 minutes
 
@@ -203,7 +203,7 @@ Your `deploy review` job should be the only job that should be running.
 
 1. Click on the **Run Pipeline** button.
 
-1. Under **Run for branch name or tag**, make sure **Dev** is selected.
+1. Under **Run for branch name or tag**, make sure **main** is selected.
 
 1. Click on the **Run Pipeline** button.
 

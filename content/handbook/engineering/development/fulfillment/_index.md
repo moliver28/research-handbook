@@ -5,7 +5,7 @@ description: "The Fulfillment Sub-department is composed of the Billing and Subs
 
 ## Vision
 
-A [high performing team](/handbook/leadership/build-high-performing-teams/) who provides our customers with a world-class buyer experience through the products we build. Our team strives to build an experience that is delightful, performant, trustworthy, and reliable.
+A [high performing team](/handbook/leadership/#strategies-to-build-high-performing-teams) who provides our customers with a world-class buyer experience through the products we build. Our team strives to build an experience that is delightful, performant, trustworthy, and reliable.
 
 ## Mission
 
@@ -287,7 +287,7 @@ The MRs must meet the following criteria:
 In addition to the approval rules, MRs may require additional reviews as suggested by the [Danger bot](https://docs.gitlab.com/ee/development/dangerbot.html):
 
 1. Modifications to the DB require database reviewer and maintainer approval
-1. Security-related issues (such as changes to authentication) require a [Security review](/handbook/security/security-engineering/application-security/appsec-reviews.html#adding-features-to-the-queue)
+1. Security-related issues (such as changes to authentication) require a [Security review](/handbook/security/product-security/application-security/appsec-reviews.html#adding-features-to-the-queue)
 1. Changes to the SFDC APIs require review by the [Sales team](/handbook/sales/field-operations/sales-systems/)
 1. Changes to the Zuora APIs require review by the [EntApps team](/handbook/business-technology/enterprise-applications/)
 1. Changes to the user experience require a [UX Review](/handbook/product/ux/product-designer/mr-reviews/).
@@ -714,7 +714,7 @@ This table lists recurring activities that are part of our Project Management Pr
 
 ## Working Groups and Cross-Functional Initiatives
 
-This table lists recurring activities that are part of [working groups and cross-functional initiatives](/handbook/company/team/structure/working-groups/). Use [this spreadsheet](https://docs.google.com/spreadsheets/d/16mPUmFe7g8VWC-b137mWiCcy6s3e_JbD6i4nE1igSOM/edit#gid=463091797) to edit this markdown table.
+This table lists recurring activities that are part of [working groups and cross-functional initiatives](/handbook/company/working-groups/). Use [this spreadsheet](https://docs.google.com/spreadsheets/d/16mPUmFe7g8VWC-b137mWiCcy6s3e_JbD6i4nE1igSOM/edit#gid=463091797) to edit this markdown table.
 
 | Activity                                                                                                                           | Cadence       | Type | Teams Involved                                                              |
 |------------------------------------------------------------------------------------------------------------------------------------|---------------|------|-----------------------------------------------------------------------------|
@@ -764,7 +764,8 @@ Some considerations that differ from other maintainer ratios:
 - [CustomersDot Resource Video Library](https://gitlab.com/gitlab-org/customers-gitlab-com/-/blob/staging/doc/resource_videos.md)
 - [Zuora University Select Topics](https://university.zuora.com/series/courses-by-topic#filter-by-9-keys_integrations)
 - [Confidential Issue Git Pre-push Hook](https://gitlab.com/gitlab-org/gitlab/-/issues/332471) to prevent any accidental push to any non-GitLab Security remote whenever a developer works on a _confidential issue_. Reference: [How to customize Git Hooks](https://git-scm.com/book/en/v2/Customizing-Git-Git-Hooks).
-
+- [Pair programming in Fulfillment](https://gitlab.com/gitlab-org/fulfillment/meta/-/tree/master/docs/pair_programming.md)
+  - A great way to knowledge share between engineers in the section is by working together on a particular issue.  Learn more about the benefits and how to request a pairing session in the doc.
 
 ## Managers and direct reports
 
@@ -795,7 +796,7 @@ Google groups can be used for easily sending calendar invites to members of the 
 | -------------|---------|
 | [s_fulfillment](https://app.slack.com/client/T02592416/CMJ8JR0RH) | Used for asking questions regarding the product, engineering, and Fulfillment processes. |
 | [s_fulfillment_fyi](https://app.slack.com/client/T02592416/C042N0EET9N) | Used for announcements related to the Fulfillment sub-department. |
-| [s_fulfillment_engineering](https://app.slack.com/client/T02592416/C029YFPUA6M) | Used by the Fulfillment sub-department engineering team for internal communication and resolving internal engineering-related queries. |
+| [s_fulfillment_engineering](https://app.slack.com/client/T02592416/C029YFPUA6M) | Used by the Fulfillment sub-department engineering team for internal communication and resolving internal engineering-related queries. Requests for pair programming sessions from other Fulfillment engineers can be made here.  |
 | [s_fulfillment_daily](https://app.slack.com/client/T02592416/C01BNLX4085) | Used to share daily standup updates. |
 | [s_fulfillment_status](https://app.slack.com/client/T02592416/CL7SX4N86) | [CustomersDot](https://gitlab.com/gitlab-org/customers-gitlab-com/) health monitoring channel. |
 

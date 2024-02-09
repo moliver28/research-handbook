@@ -106,9 +106,9 @@ Our risk appetite is translated to a tolerance which defines a range in which a 
 
 |Risk Averse|Risk Neutral|Risk Receptive|Risk Seeking|
 |:---------:|:---------:|:---------:|:---------:|
-|1-5|1-10|1-18|1-26|
+|1-5|1-10|1-15|1-20|
 
-Risk scores above 26 are considered too risky to be considered within tolerance for any risk appetite.
+Risk scores above 20 (High or Very High risk rating) are considered too risky to be considered within tolerance for any risk appetite. In other words, risks that are rated High and Very High will never be monitored, but must be accepted.
 
 #### Historical and Current Record of GitLab's Security Risk Appetite
 
@@ -313,9 +313,11 @@ Once the Inherent and Residual risk score is determined, the following table can
 
 |Risk Rating|Risk Score Range|
 |:---------:|:--------------:|
-|Low|1-10|
-|Medium|11-20|
-|High|21-30|
+|Very Low|0-5|
+|Low|5-10|
+|Moderate|10-20|
+|High|20-25|
+|Very High|25-30|
 
 These ratings represent labels for communication purposes rather than what is or is not acceptable. To determine what is an acceptable risk, please refer to [risk tolerances](#translating-gitlabs-security-risk-appetite-to-risk-tolerance).
 
@@ -384,8 +386,8 @@ In the cases where a risk owner has opted to pursue a risk acceptance, the follo
 
 |Risk Level|Approval Level Required|
 |-----|-----|
-|HIGH|Risk Owner + VP Level Approval* + E-group Level Approval|
-|MODERATE|Risk Owner + VP Level Approval*|
+|VERY HIGH|Risk Owner + VP Level Approval* + E-group Level Approval|
+|HIGH/MODERATE|Risk Owner + VP Level Approval*|
 `*` If the Risk Owner is a VP, no additional VP level approval is required
 
 By accepting the risk, the Risk Owner and risk acceptance approvers (if separate from Risk Owner), agree to reassess the risk on an annual basis to determine whether risk acceptance is the best response option for the respective risk. If risk acceptance is appropriate based on the annual assessment, approvals will be re-obtained based on the risk and approval requirements noted in the table above. Additionally, the Risk Owner will be on point for remediation in the event the risk is realized or risk acceptance is no longer appropriate.

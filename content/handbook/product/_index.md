@@ -19,7 +19,6 @@ description: "Most of the content in the product handbook talks about _how_ we d
 ## Product Team Functions
 
 - [Product Management](/handbook/product/#product-management)
-- [Product Monetization](/handbook/product/product-monetization)
 - [Product Management Procedures](/handbook/product/product-processes/product-mgt-operations/pm-operating-procedures/)
 - [Product Management Operations](/handbook/product/product-processes/product-mgt-operations/)
 - [User Experience](/handbook/product/ux/)

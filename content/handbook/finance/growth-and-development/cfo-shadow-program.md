@@ -14,9 +14,9 @@ The CFO Shadow program consists of a 1 or 2 week rotation, depending on the CFO'
 
 ## Eligibility
 
-In the first iteration of the CFO shadow program, the program is open to Finance Division team members. We aim to open the program to the greater GitLab team in FY25 and to incorporate any learnings from our early Shadows.
+The CFO shadow program is now open to all team members.
 
-To benefit the most from the types of meetings that the CFO attends, it's recommended that the participants have a general understanding of Finance, Business, Economics, and/or Accounting principles.  CFO Shadows must be in good performance standing in their current role.
+To benefit the most from the types of meetings that the CFO attends, it's recommended that the participants have a general understanding of Finance, Business, Economics, and/or Accounting principles. CFO Shadows must be in good performance standing in their current role.
 
 ## How to Apply
 
@@ -121,7 +121,8 @@ Finance team members have a high workload and may not be able to complete a full
 | Start Date | End Date |Shadow Name |
 |----|---------|--------|
 | Tuesday 2024-02-06 | Thursday 2024-02-08 | |
-| Tuesday 2024-02-20 | Thursday 2024-02-22 | |
-| Tuesday 2024-04-02 | Thursday 2024-04-04 | |
-| Tuesday 2024-04-09 | Thursday 2024-04-11 | |
+| Tuesday 2024-02-20 | Thursday 2024-02-22 | Jerome Ng |
+| Tuesday 2024-04-02 | Thursday 2024-04-04 | Jerome Ng |
+| Tuesday 2024-04-09 | Thursday 2024-04-11 | Rakhi Reddy |
+| Monday 2024-04-15 | Wednesday 2024-04-17 | |
 

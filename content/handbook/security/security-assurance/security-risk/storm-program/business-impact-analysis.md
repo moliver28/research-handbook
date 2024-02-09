@@ -8,13 +8,12 @@ controlled_document: true
 
 The Business Impact Analysis (BIA) helps determine the systems critical to serving GitLab's Customers. It also helps determine the prioritization of system restoration efforts in the event of a disruption.
 
-A BIA is performed for a system by completing a questionnaire. Each question in the BIA Questionnaire belongs to one of three data collection categories:
+A BIA is performed for a system by completing a questionnaire. Each question in the BIA Questionnaire belongs to one of two data collection categories:
 
 1. [Critical System Tier]({{< ref "critical-systems" >}}) (questions that guide how a system is tiered)
 1. Supplemental Information (questions that prompt important system details)
-1. [Security Best Practices]({{< ref "business-impact-analysis#responses-that-may-result-in-tier-3-observationsrisks" >}}) (questions that reveal potential Information System risks)
 
-System data obtained through the BIA may be referenced for [Business Continuity](/handbook/business-technology/gitlab-business-continuity-plan/) planning and testing.
+System details obtained through the BIA may be referenced for [Business Continuity](/handbook/business-technology/gitlab-business-continuity-plan/) planning and testing.
 
 **Note:** Additionally, a subset of questions may be included in the BIA Questionnaire to satisfy [global privacy legislation requirements](/handbook/legal/privacy/privacy-laws.html#gdpr) pertaining to a system's [Personal Data]({{< ref "data-classification-standard#data-classification-definitions" >}}) processing.
 
@@ -49,7 +48,7 @@ A formal BIA questionnaire is distributed to the Business/Technical Owner for ea
 
 ##### Escalation Path
 
-Security Risk should use discretion when actioning these steps (e.g. consider progress made in completing Tech Stack MR/BIA Questionnaire). Most tech stack / BIA issues are due two weeks from creation.
+Security Risk should use discretion when actioning these steps (e.g. consider progress made in completing Tech Stack MR/BIA Questionnaire). Most Tech Stack / BIA Issues are due two weeks from creation.
 
 1. Due Date +1 Business Day: Notify Business/Technical Owner or Delegate in a public Slack channel (e.g. #sec-assurance).
 1. Due Date +5 Business Days: Notify Manager of Business/Technical Owner or Delegate in a public Slack channel (e.g. #sec-assurance).
@@ -63,18 +62,7 @@ A BIA is performed or existing BIA data are validated once per fiscal year for e
 
 The Security Risk team will review the responses to the BIA questionnaires to support completeness and accuracy of the information based on the TPRM assessment performed for the system.
 
-For blank/unknown/obscure responses, engage the Business/Technical Owner via comment functionality within the GRC system, Slack, or a GitLab issue.
-
-### Responses that may result in Tier 3 Observations/Risks
-
-We include some questions in our questionnaire that may lead to the creation of [Tier 3 Observations]({{< ref "observation-management-procedure#scope" >}}). The Security Risk team will review BIA questionnaire responses to identify potential risks to GitLab. Responses that may result in Tier 3 Observations are listed below:
-
-- `Shared Administrative Accounts` = Yes
-- `System Specific Recovery Plans` = Insufficient detail in response
-- `Authentication Mechanism` ≠ Okta
-- `Number of Administrators of the system` < 2
-
-The Security Risk team will follow the observation intake and management process described [here](https://gitlab.com/gitlab-com/gl-security/security-assurance/observation-management/-/blob/master/runbooks/1_Observation%20Intake%20and%20Management.md) for ad-hoc observations.
+For blank/unknown/obscure responses, engage the Business/Technical Owner via comment functionality within the GRC system, Slack, or a GitLab Issue.
 
 ## Reporting
 

@@ -3,13 +3,13 @@ title: "Scalability Group"
 ---
 
 ## Common Links
-| |                                                                                                                                                                                                                                                                                                                                                                                                                                    |
-| --- |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Workflow** | [Team workflow](/handbook/engineering/infrastructure/team/scalability/#how-we-work)                                                                                                                                                                                                                                                                                                                                                |
-| **GitLab.com** | `@gitlab-org/scalability`                                                                                                                                                                                                                                                                                                                                                                                                          |
-| **Issue Trackers** | [Scalability](https://gitlab.com/gitlab-com/gl-infra/scalability)                                                                                                                                                                                                                                                                                          |
-| **Team Slack Channels** | [#g_scalability](https://gitlab.slack.com/archives/g_scalability) - Company facing channel <br/> [#g_scalability_observability](https://gitlab.slack.com/archives/g_scalability_observability) - Team channel <br/> [#g_scalability_practices](https://gitlab.slack.com/archives/g_scalability_practices) - Team channel<br/> [#scalability_social](https://gitlab.slack.com/archives/g_scalability_social) - Group social channel |
-| **Information Slack Channels** | [#infrastructure-lounge](https://gitlab.slack.com/archives/infrastructure-lounge) (Infrastructure Group Channel), <br/>[#incident-management](https://gitlab.slack.com/archives/incident-management) (Incident Management),  <br/>[#alerts-general](https://gitlab.slack.com/archives/alerts-general) (SLO alerting), <br/>[#mech_symp_alerts](https://gitlab.slack.com/archives/mech_symp_alerts) (Mechanical Sympathy Alerts)    |
+| | |
+| --- | --- |
+| **Workflow** | [Team workflow](/handbook/engineering/infrastructure/team/scalability/#how-we-work) |
+| **GitLab.com** | `@gitlab-org/scalability` |
+| **Issue Trackers** | [Scalability](https://gitlab.com/gitlab-com/gl-infra/scalability) |
+| **Team Slack Channels** | [#g_scalability](https://gitlab.slack.com/archives/g_scalability) - Company facing channel <br/> [#g_scalability-observability](https://gitlab.slack.com/archives/g_scalability-observability) - Team channel <br/> [#g_scalability-practices](https://gitlab.slack.com/archives/g_scalability-practices) - Team channel<br/> [#scalability_social](https://gitlab.slack.com/archives/scalability-social) - Group social channel |
+| **Information Slack Channels** | [#infrastructure-lounge](https://gitlab.slack.com/archives/infrastructure-lounge) (Infrastructure Group Channel), <br/>[#incident-management](https://gitlab.slack.com/archives/incident-management) (Incident Management),  <br/>[#alerts-general](https://gitlab.slack.com/archives/alerts-general) (SLO alerting), <br/>[#mech_symp_alerts](https://gitlab.slack.com/archives/mech_symp_alerts) (Mechanical Sympathy Alerts) |
 
 ### Project Management Links
 
@@ -194,9 +194,9 @@ Decisions or important information in Slack must be copied into a relevant locat
 We communicate in public using the following channels:
 
 1. [#g_scalability](https://gitlab.slack.com/archives/g_scalability) - Company facing channel where other team members can reach out to us. We also use this channel for highlighting work we have done.
-1. [#g_scalability_observability](https://gitlab.slack.com/archives/g_scalability_observability) - Team channel where daily work information is shared and team coordination takes place.
-1. [#g_scalability_practices](https://gitlab.slack.com/archives/g_scalability_practices) - Team channel where daily work information is shared and team coordination takes place.
-1. [#scalability_social](https://gitlab.slack.com/archives/g_scalability_social) - Group social channel.
+1. [#g_scalability-observability](https://gitlab.slack.com/archives/g_scalability-observability) - Team channel where daily work information is shared and team coordination takes place.
+1. [#g_scalability-practices](https://gitlab.slack.com/archives/g_scalability-practices) - Team channel where daily work information is shared and team coordination takes place.
+1. [#scalability-social](https://gitlab.slack.com/archives/scalability-social) - Group social channel.
 
 In the team channels, team members are encouraged to share what they are working and any blockers they may have.
 The format is not fixed so that people share in a way that feels natural to them.
@@ -348,7 +348,7 @@ Please see the [triage rotation section](#triage-rotation) for when to move issu
 The Scalability teams routinely uses the following set of labels:
 
 1. The group label, `group::Scalability`.
-2. The team labels, `team::Frameworks` and `team::Projections`
+2. The team labels, `team::Scalability-Observability` and `team::Scalability-Practices`
 3. Scoped `workflow-infra` labels.
 5. Scoped `Service` labels.
 
@@ -444,7 +444,7 @@ If you are not EOC or an Incident Manager when an incident occurs:
    - if you are called into an incident, the priority is to enable others to resolve the problem
    - the expectation is to be hands-off, giving guidance where necessary, and returning to project work as soon as possible
 
-The reason for this position is that our project work prevents future large S1 incidents from occuring.
+The reason for this position is that our project work prevents future large S1 incidents from occurring.
 If we try to participate in and resolve many incidents, our project work is delayed and the risk of future S1 incidents increases.
 
 ### Engagement with the Infradev Process
@@ -522,7 +522,7 @@ You can find more detailed information in the links below. If this is not enough
 
 The Scalability team became a reality during [the fourth organizational iteration in the Infrastructure department](https://gitlab.com/gitlab-com/www-gitlab-com/-/merge_requests/28542) on 2019-08-22, although it only became a reality once [the first team member joined the team](https://gitlab.com/gitlab-com/www-gitlab-com/-/merge_requests/35882) on 2019-11-29.
 
-Even though it might not look like it at first glance, the Scalability team has its origin connected to [the Delivery team](/handbook/engineering/infrastructure/team/delivery). Namely, the first two [backend engineers with Infrastructure specialisation](https://gitlab.com/gitlab-com/www-gitlab-com/-/merge_requests/18617) were a part of the Delivery team, a specialisation that previously did not fit into the organizational structure. They had a focus on reliability improvements for GitLab.com, often working [on features that had many scaling considerations](https://gitlab.com/gitlab-org/gitlab-foss/-/issues/62214). A milestone, that will prove to be a case for the Scalability team, was [Continous Delivery on GitLab.com](https://gitlab.com/gitlab-com/gl-infra/delivery/-/issues/345).
+Even though it might not look like it at first glance, the Scalability team has its origin connected to [the Delivery team](/handbook/engineering/infrastructure/team/delivery). Namely, the first two [backend engineers with Infrastructure specialisation](https://gitlab.com/gitlab-com/www-gitlab-com/-/merge_requests/18617) were a part of the Delivery team, a specialisation that previously did not fit into the organizational structure. They had a focus on reliability improvements for GitLab.com, often working [on features that had many scaling considerations](https://gitlab.com/gitlab-org/gitlab-foss/-/issues/62214). A milestone, that will prove to be a case for the Scalability team, was [Continuous Delivery on GitLab.com](https://gitlab.com/gitlab-com/gl-infra/delivery/-/issues/345).
 
 Throughout July, August and September 2019, GitLab.com experienced a higher than normal amount of customer facing events. [Mirroring delays](https://gitlab.com/gitlab-com/gl-infra/production/-/issues/937), [slowdowns](https://gitlab.com/gitlab-com/gl-infra/production/-/issues/936), [vertical node scaling issues](https://gitlab.com/gitlab-com/gl-infra/production/-/issues/939) (to name a few) all contributed to general need to improve stability. This placed higher expectations on the Infrastructure department and with the organization at the time, this was harder to meet. To accelerate the timelines, ["infradev" and "rapid action"](https://gitlab.com/gitlab-com/www-gitlab-com/-/merge_requests/25458/) processes were created, as a connection point between Infrastructure and Development departments to help Product prioritise higher impact issues. This approach was starting to yield results, but the process was there as a reaction to an (ongoing) event with the focus on resolving that specific need.
 

@@ -1,5 +1,5 @@
 ---
-title: Searching in Zendesk
+title: Searching
 description: Support Operations documentation page for searching in Zendesk
 canonical_path: "/handbook/support/readiness/operations/docs/zendesk/searching"
 ---

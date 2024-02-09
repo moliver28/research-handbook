@@ -44,7 +44,7 @@ The Recovery Time Objective (RTO) is the duration of time a service level or bus
 
 For a business continuity plan to be effective, it needs to be triggered as soon as possible; too early or late can reduce its efficacy. Key decision points to consider when a BCP has to be triggered or invoked are given below:
 
-- When an incident turns into an event like a disaster, breach, or something which classifies as a [Severity 1](/handbook/security/#severity-and-priority-labels-on-security-issues)
+- When an incident turns into an event like a disaster, breach, or something which classifies as a [Severity 1](/handbook/security/engaging-with-security/#severity-and-priority-labels-on-security-issues)
 - When the estimated time of resolution for a potential breach is greater than the normal estimated time for regular [security incidents](/handbook/security/security-operations/sirt/sec-incident-response.html)
 - When the recovery of an incident is uncertain, a decision must be made to invoke the business continuity plan if the disruption cannot be resolved within the specified [incident recovery timelines](/handbook/security/security-operations/sirt/sec-incident-response.html)
 - When resolution of an incident with critical customers, depending on their service-level agreements is delayed, then the BC plan must be triggered

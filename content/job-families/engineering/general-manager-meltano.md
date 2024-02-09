@@ -35,5 +35,5 @@ Meltano is a separate company to GitLab, but for the purposes of Total Rewards, 
 - Masters degree or PhD in a technical field is a plus.
 - Knowledge of GitLab, CI/CD, and Kubernetes is a plus.
 - Knowledge of Python and SQL is a plus.
-- [Leadership at GitLab](/handbook/company/team/structure/#management-group)
+- [Leadership at GitLab](/handbook/company/structure/#management-group)
 - Ability to use GitLab

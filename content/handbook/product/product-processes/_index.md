@@ -472,7 +472,7 @@ Development Kit (GDK).
 
 ### Dealing with security issues
 
-Quality Engineering Managers (QEM) are the [DRIs for prioritizing bugs](#prioritization-for-feature-maintenance-and-bugs). These include include security issues which are prioritized in conjunction with the security team. Product Managers must work with their QEM to set Milestones for issues marked with the `bug::vulnerability` [type label](/handbook/engineering/metrics/#work-type-classification) to guarantee they are shipped by their due date, as defined in the [Security Team process](/handbook/security/#severity-and-priority-labels-on-security-issues).
+Quality Engineering Managers (QEM) are the [DRIs for prioritizing bugs](#prioritization-for-feature-maintenance-and-bugs). These include include security issues which are prioritized in conjunction with the security team. Product Managers must work with their QEM to set Milestones for issues marked with the `bug::vulnerability` [type label](/handbook/engineering/metrics/#work-type-classification) to guarantee they are shipped by their due date, as defined in the [Security Team process](/handbook/security/engaging-with-security/#severity-and-priority-labels-on-security-issues).
 
 While Product Managers are the DRIs for [milestone planning](/handbook/product/cross-functional-prioritization/#planning-for-the-milestone), they must respect the prioritization order for bugs and maintenance issues as determined by their QEM and EM, respectively. As such they should deeply understand the implications and risks of security-related issues and balance those when prioritizing a milestone work. Addressing a serious security issue by its due date may require temporarily adjusting the [desired work type ratio](#overview--philosophy) for one or more milestones. Priority labels and Due Date designations for security issues should never be modified by Product Managers as they are directly managed by the Security Team and used to track metrics and progress.
 
@@ -810,7 +810,7 @@ There are a few special considerations when it comes to delivering features for 
 
 ### Working with Your Group
 
-As a product manager, you will be assigned as the [stable counterpart](/handbook/company/team/structure/#specialists-experts-and-mentors) to a single [group](/handbook/company/team/structure/#groups). At GitLab we abide by
+As a product manager, you will be assigned as the [stable counterpart](/handbook/company/structure/#specialists-experts-and-mentors) to a single [group](/handbook/company/structure/#groups). At GitLab we abide by
 unique, and extremely beneficial guidelines when interacting with our groups. These include:
 
 1. Product managers are the [DRIs](/handbook/people-group/directly-responsible-individuals/) for overall work prioritization but work collaboratively with their EM, UX, and QEM stable counterparts to ensure the right priorities from each [work type](/handbook/engineering/metrics/#work-type-classification) are considered as [each has a different DRI](#prioritization-for-feature-maintenance-and-bugs). Product Managers are responsible for communicating overall priority.
@@ -894,8 +894,8 @@ Execution of a Global prioritization can take many forms.  This is worked with b
 * [Realignment](/handbook/people-group/promotions-transfers/#realignment-of-team-members-impacting-multiple-teams) - use when a permanent assignment to a team is required to resolve ongoing challenges. This has the highest impact to team members and should be considered if other options cannot achieve the desired goal. We strive to hire team members in the groups that will need them most.
 
 We have found the following methods less successful in ensuring completion of work that warrants global prioritization:
-- [Working Groups](/handbook/company/team/structure/working-groups/) - This method involves convening a group of individuals who maintain full-time responsibility to other [Product Groups](/handbook/company/team/structure/#product-groups) and completing work as part of the working group structure. This method isn't prefered for completing product improvements, instead it can be utilized to scope work, or determine plans for future product delivery.
-- Fan Out Prioritization - This method of prioritization involves communicating a global prioritization to a number of [Product Groups](/handbook/company/team/structure/#product-groups) in an effort to ensure each individual product group's PM prioritizes the work in the timeframe you'd prefer.  This method requires significant coordination costs and puts delivery at risk due to the lack of central prioritization responsibility. In most cases it is preferred to execute a scope reassignment, borrow or realignment to complete the improvements.
+- [Working Groups](/handbook/company/working-groups/) - This method involves convening a group of individuals who maintain full-time responsibility to other [Product Groups](/handbook/company/structure/#product-groups) and completing work as part of the working group structure. This method isn't prefered for completing product improvements, instead it can be utilized to scope work, or determine plans for future product delivery.
+- Fan Out Prioritization - This method of prioritization involves communicating a global prioritization to a number of [Product Groups](/handbook/company/structure/#product-groups) in an effort to ensure each individual product group's PM prioritizes the work in the timeframe you'd prefer.  This method requires significant coordination costs and puts delivery at risk due to the lack of central prioritization responsibility. In most cases it is preferred to execute a scope reassignment, borrow or realignment to complete the improvements.
 
 ### Rapid Action
 
@@ -2169,7 +2169,7 @@ provides a breakdown of the label types and how to choose the right label.
     defined by our developers
 1. Mention the different stakeholders in the body of your issue. In most product
 related issues, we usually mention the product manager, the design, frontend, and backend managers as appropriate.
-Some teams have [experts](/handbook/company/team/structure/#expert) or liaisons that can be mentioned instead of the managers.
+Some teams have [experts](/handbook/company/structure/#expert) or liaisons that can be mentioned instead of the managers.
 Mentioning the people in the body of the issue will trigger the notification mechanisms
 chosen by the people who are mentioned - therefore there is no need to notify
 people in another channel after the issue has been created (Slack, email).
@@ -2209,7 +2209,7 @@ Bug issues report undesirable or incorrect behavior, such as:
 - Inaccurate presentation or data.
 - Part of GitLab not working according to the documentation or a universal expectation.
 - Functionality inadvertently being broken, or changed from how it is supposed to work. This is also a [regression](https://gitlab.com/gitlab-org/gitlab/-/blob/master/doc/development/contributing/issue_workflow.md#regression-issues).
-- A [security issue that is determined to be a vulnerability](/handbook/security/#severity-and-priority-labels-on-security-issues) should be labelled as `~"type::bug"` and `~"bug::vulnerability"`.
+- A [security issue that is determined to be a vulnerability](/handbook/security/engaging-with-security/#severity-and-priority-labels-on-security-issues) should be labelled as `~"type::bug"` and `~"bug::vulnerability"`.
 - Loss of data while using the product as intended or as documented. [Data corruption/loss is one basis](https://gitlab.com/gitlab-org/gitlab/-/blob/master/doc/development/contributing/issue_workflow.md#severity-labels) for classifying a bug as `severity::1`.
 
 #### Issue state
@@ -2263,8 +2263,7 @@ Consider using the following template to close an issue:
 When relevant, you can include a wireframe in your issue to illustrate
 what you're thinking about. But you don't need to create wireframes on your own; our UX team has a designer embedded in every stage group who will help you figure out how to solve the problem you're addressing. They should actively participate in your planning processes, so your request won't be a surprise.
 
-If you do want to create a wireframe, we like
-[Balsamiq](https://balsamiq.com/) for its simplicity and low fidelity.
+If you do want to create a wireframe,you can get access to Figma by submitting an [access request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new).
 If you are struggling for inspiration, you can also paste screenshots of similar
 features in other products.
 

@@ -8,13 +8,17 @@ How we conduct JTBD research at GitLab follows a process closely mirroring the [
 
 Use this playbook to complete your JTBD canvases. For more information on each part of the canvas, refer to [anatomy of a JTBD canvas](/handbook/product/ux/jobs-to-be-done/#anatomy-of-a-jtbd-canvas).  
 
-The time it takes to run through the entire playbook process can vary a lot, depending on factors such as how many jobs you’re examining, the complexity and variance within those jobs, and your team’s familiarity with JTBD. We recommend budgeting at least one full quarter to devote to this effort. 
-
 This page covers the _how_ of Jobs to be Done. For more on _what_ Jobs to be Done _is_, head over to the [main page](/handbook/product/ux/jobs-to-be-done/).
+
+#### A Note on Time, Confidence, and Validation
+
+The time it takes to run through the entire playbook process can vary a lot, depending on factors such as how many jobs you’re examining, the complexity and variance within those jobs, and your team’s familiarity with JTBD. If you're planning to go through the whole playbook, we recommend budgeting at least one full quarter to get through it. 
+
+There are some variables at play here. For instance, in cases where you simply want to identify main jobs and sketch out an [assumptive JTBD canvas](https://www.figma.com/file/Z4lsAOLH1ANN3pstQFYgSk/Jobs-to-be-done----Playbook-Template?type=whiteboard&node-id=0%3A1&t=oMR9VPNke7aIfCoU-1), **no validation is required**, and thus the time needed is much shorter. Creating an assumptive canvas can be greatly beneficial as a way to visualize what you know (or think you know) about a particular job, and to get alignment from your team on all the aspects of the job. This can be especially useful where, due to previous research, you have a _high level of confidence_ in your knowledge of the JTBD. Having said that, high confidence doesn't exempt the validation requirements for the latter stages of the JTBD playbook -- you need to do interviews to ensure your canvas is correct, and to understand a job performers motivations enough to write accurate outcome statements. 
 
 ## Step 0: Open a JTBD issue
 
-If your team want to conduct Jobs to be Done research, create an issue in the [UX Research Project](https://gitlab.com/gitlab-org/ux-research/-/issues) and use the **discover-jtbd** issue template. Fill out the issue as best you can, then tag the UX Researcher for your stage (or whomever will be driving the research). If you need a DRI to drive JTBD research for your team, head over to the `#ux_research` Slack channel to see if there is anyone available to help. Once you have an issue and a DRI, you're ready to roll!
+If your team wants to conduct in-depth Jobs to be Done research (going through the whole playbook), create an issue in the [UX Research Project](https://gitlab.com/gitlab-org/ux-research/-/issues) and use the **discover-jtbd** issue template. Fill out the issue as best you can, then tag the UX Researcher for your stage (or whomever will be driving the research). If you need a DRI to drive JTBD research for your team, head over to the `#ux_research` Slack channel to see if there is anyone available to help. Once you have an issue and a DRI, you're ready to roll!
 
 ## Step 1: Pick your job performer and main job
 

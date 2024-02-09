@@ -8,7 +8,7 @@ canonical_path: "/company/strategy/"
 
 **[Current strategy is in the internal handbook](https://internal.gitlab.com/handbook/company/three-year-strategy/).** The rest of this page desribes the strategy process.
 
-## Three Year Strategy
+## Three Year Outlook
 
 Our strategy is looking 3 years out and [fits into our cadences](/handbook/company/cadence/#strategy). It also maps to and reflects GitLab's [mission](/handbook/company/mission/), [vision](/handbook/company/vision/) and [values](/handbook/values/). It is a living strategy, so we will revisit on a regular basis and [iterate](/handbook/values/#iteration) when there is reason to do so.
 
@@ -149,7 +149,7 @@ Our yearly plans are linked from the [relevant cadence section](/handbook/compan
    1. Market Vision is our shared view of the market over the next ~3 years. Where is the market headed? What factors are influencing the market direction? Where are the points of change, as these will be the points of control?
    1. SWOT stands for Strengths, Weaknesses, Opportunities and Threats.
    1. Positioning strategy will highlight the way we want to position the company over the next three years. This will drive key decisions and tradeoffs we need to make in the strategy.
-1. The second phase of the strategy process is taking the SWOT, positioning strategy and define the GTM, Product and Operations strategy. The output of these three strategies will be the strategic priorities for each, capabilities needed that we have and that we need to develop and the things we will explicitly not do.  In addition we will define 3-5 big bets the company will take - this will fold in under the strategic themes. Once we have these 3 to 5 themes we will synthesize them into a corporate strategy that ensures alignment among GTM, Product and Operations strategy.
+1. The second phase of the strategy process is taking the SWOT, positioning strategy and define the go-to-market (GTM), Product and Operations strategy. The output of these three strategies will be the strategic priorities for each, capabilities needed that we have and that we need to develop and the things we will explicitly not do.  In addition we will define 3-5 big bets the company will take - this will fold in under the strategic themes. Once we have these 3 to 5 themes we will synthesize them into a corporate strategy that ensures alignment among GTM, Product and Operations strategy.
 1. Third phase will be the [Long Range Plan](/handbook/finance/financial-planning-and-analysis/#long-range-outlook-lro) process.
 1. Fourth phase will be defining yearlies and the [annual operating plan](/handbook/finance/financial-planning-and-analysis/#plan).
 

@@ -111,7 +111,7 @@ the product is developed with [directly responsible individuals](/handbook/peopl
 
 At GitLab, we develop our product for self-managed as well as SaaS-hosted customers. We realize that while we have DRIs there are many stakeholders who who must have input, including Engineering, Quality, UX, Product, Security, and Infrastructure. For example, the Security team often has the deeper context of what it takes to run a secure SaaS system. Similarly, the Infrastructure team has insights into what we should build into the product to reduce toil and enable efficient, reliable, performant, and scalable systems.
 
-We call this the [Product Group](/handbook/company/team/structure/#product-groups) model. It is an extension of the classic quad concept at the leadership level and is currently comprised of Development, Quality, User Experience, Infrastructure, Product, and Security.
+We call this the [Product Group](/handbook/company/structure/#product-groups) model. It is an extension of the classic quad concept at the leadership level and is currently comprised of Development, Quality, User Experience, Infrastructure, Product, and Security.
 
 The Product Group can be used to facilitate a [global optimization](/handbook/values/#global-optimization), including product-wide [technical debt](/handbook/engineering/workflow/#technical-debt).
 

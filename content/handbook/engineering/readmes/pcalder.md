@@ -1,6 +1,6 @@
 ---
 Title: Phil Calder's README
-Description: Senior Manager, Govern and Growth
+Description: Senior Manager, Govern
 ---
 
 {{% include-readme username="pcalder" trim=2 %}}

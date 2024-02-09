@@ -191,7 +191,7 @@ As part of my role, I participate in a variety of meetings both internal and ext
 ### Weekly Meetings
 
 1. [1-1s](/handbook/leadership/1-1/) with my direct reports and [EBA]({{< ref eba >}}). 25-50 minutes.
-1. [E-Group](/handbook/company/team/structure/#e-group) Call. 120 minutes.
+1. [E-Group](/handbook/company/structure/#e-group) Call. 120 minutes.
 1. If there are open positions Talent Acquisition Syncs on key Executive hires. 25 minutes.
 1. Topical conversations on top cross-functional initiatives or other areas of importance to the CEO. 25 minutes.
 1. Candidate Interviews. 50 minutes.
@@ -308,7 +308,7 @@ Please ensure:
 1. We let the sales team know we would love to set up meetings and schedule these with my EBA at least a week before the conference.
 1. There is same timezone EBA coverage during the conference.
 
-If I am asked to keynote a conference, it is up to the [executive](/handbook/company/team/structure/#executives) of the function asking me to attend to decide.
+If I am asked to keynote a conference, it is up to the [executive](/handbook/company/structure/#executives) of the function asking me to attend to decide.
 For example, if the request is coming from marketing, the CMO decides; if the request is coming from Finance, the CFO decides.
 Please follow the process outlined under [meeting request requirements]({{ ref "eba#meeting-request-requirements" >}}) and work with my EBA who will shepherd the decision about whether or not I will attend.
 

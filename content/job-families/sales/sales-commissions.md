@@ -33,7 +33,7 @@ The Junior Sales Commissions Analyst is a [grade 5](/handbook/total-rewards/comp
 - SaaS and B2B experience preferred
 - Interest in GitLab, and open source software
 - You share our values, and work in accordance with those values
-- [Leadership at GitLab](/handbook/company/team/structure/#management-group)
+- [Leadership at GitLab](/handbook/company/structure/#management-group)
 - Ability to use GitLab
 
 ### Intermediate Sales Commissions Analyst
@@ -63,7 +63,7 @@ The Intermediate Sales Commissions Analyst is a [grade 6](/handbook/total-reward
 - SaaS and B2B experience preferred
 - Interest in GitLab, and open source software
 - You share our values, and work in accordance with those values
-- [Leadership at GitLab](/handbook/company/team/structure/#management-group)
+- [Leadership at GitLab](/handbook/company/structure/#management-group)
 - Ability to use GitLab
 
 ### Senior Sales Commissions Analyst
@@ -93,7 +93,7 @@ The Senior Sales Commissions Analyst is a [grade 7](/handbook/total-rewards/comp
 - SaaS and B2B experience preferred
 - Interest in GitLab, and open source software
 - You share our values, and work in accordance with those values
-- [Leadership at GitLab](/handbook/company/team/structure/#management-group)
+- [Leadership at GitLab](/handbook/company/structure/#management-group)
 - Ability to use GitLab
 
 ### Senior Manager, Sales Commissions
@@ -127,7 +127,7 @@ The Senior Manager, Sales Commissions is a [grade 9](/handbook/total-rewards/com
 - SaaS and B2B experience preferred
 - Interest in GitLab, and open source software
 - You share our values, and work in accordance with those values.
-- [Leadership at GitLab](/handbook/company/team/structure/#management-group)
+- [Leadership at GitLab](/handbook/company/structure/#management-group)
 - Ability to use GitLab
 
 ### Director, Sales Commissions

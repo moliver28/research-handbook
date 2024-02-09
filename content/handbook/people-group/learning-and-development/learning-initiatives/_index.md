@@ -58,7 +58,7 @@ Live Learning sessions are conducted on an ad hoc. There will be a Zoom video co
 
 Social Learning is the cornerstone for how L&D designs, develops, and delivers live learning sessions. Social learning focuses on how team members interact with peers for just-in-time learning and skill acquisition through knowledge retention. Live learnings serve as an opportunity for team members to build relationships and a sense of community with team members. Social Learning occurs when team members come together in a virtual forum synchronously to learn from others through networking, breakout groups, storytelling, lessons learned reflection, and collaboration on solving scenarios with role playing. The live learnings enables learners to pull knowledge fro experts and peers within the organization instead of having knowledge pushed to them.
 
-Example of a Social Learning Live Learning Session on [Building High Performing Teams](/handbook/leadership/build-high-performing-teams/)
+Example of a Social Learning Live Learning Session on [Building High Performing Teams](/handbook/leadership/#strategies-to-build-high-performing-teams)
 
 {{< youtube "aezVF1nOBWc" >}}
 
@@ -142,7 +142,7 @@ After the Call:
 1. [Managing Underperformance](https://www.youtube.com/watch?v=-mLpytnQtlY&t=637s)
 1. [Transitioning from IC to Manager - Engineering](https://www.youtube.com/watch?v=Zeull-tdy6o)
 1. [Manager Mention Merge Requests](https://www.youtube.com/watch?v=e1sTOtveNOk)
-1. [Working Groups](/handbook/company/team/structure/working-groups/#ceo-handbook-learning-discussion-on-working-groups)
+1. [Working Groups](/handbook/company/working-groups/#ceo-handbook-learning-discussion-on-working-groups)
 1. [Skip Level Meetings](https://www.youtube.com/watch?v=kAxp0Mam-Rw)
 1. [Product Strategy](https://www.youtube.com/watch?v=yI29xFAgKoA)
 1. [Mental Wellness Discussion](https://www.youtube.com/watch?v=od_KdZqc69k)

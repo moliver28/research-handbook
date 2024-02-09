@@ -46,7 +46,7 @@ The Manager, Quality Engineering is a [grade 8](/handbook/total-rewards/compensa
 - Ability to be successful managing at a remote-only company.
 - Humble, servant leader.
 - You share our [values](/handbook/values/), and work in accordance with those values.
-- [Leadership at GitLab](/handbook/company/team/structure/#management-group)
+- [Leadership at GitLab](/handbook/company/structure/#management-group)
 - Ability to use GitLab.
 
 ### Nice-to-have Requirements

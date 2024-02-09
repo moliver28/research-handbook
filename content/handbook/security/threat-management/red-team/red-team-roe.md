@@ -8,11 +8,31 @@ Please refer to [our general handbook page]({{< ref "_index.md" >}}) to learn mo
 
 ## Systems in Scope
 
+### General Systems
+
 All systems managed by GitLab are in scope for all types of Red Team operations. No prior approval is required to conduct any activity that meets the rules documented on this page.
 
 Third-party systems that are used by GitLab for official business purposes are also considered in scope, but these often require permission from the system owners. This permission will be obtained when necessary.
 
 Team members can request that a system be excluded from our scope by [opening an issue here](https://gitlab.com/gitlab-com/gl-security/threatmanagement/redteam/redteam-internal/red-team-operations/-/issues/new).
+
+### Company-Issued Laptops
+
+By default, company-issued laptops are not in scope unless authorized by the team member who uses the laptop.
+
+GitLab team members can opt-in to having their laptops included in the scope of future operations. We encourage participation in this program, as it allows us to emulate the most realistic threats and to propose improvements to prevent actual attacks from succeeding.
+
+If an in-scope laptop is compromised, the Red Team may run additional commands on the laptop to establish persistence, extract company-related credentials, and move laterally through GitLab's environment. We respect the privacy of our team members and will not attempt to access webcams/microphones, monitor home networks, or attempt to access personal information.
+
+Everything the Red Team does on a compromised laptop will be [logged and auditable](#auditing-red-team-attack-techniques).
+
+We appreciate our opt-in participants and we know that breaches can happen to anyone. Our goal is to continuously improve our ability to prevent and detect security incidents, not to place any blame on individuals. A compromised opt-in laptop will not lead to any disciplinary measures or negatively impact a talent assessment.
+
+If a laptop is compromised during an operation, the team member will be notified when the operation is complete. Their name will not appear in the operation's final report, but they may be tagged in issues related to investigation and remediation of the compromise.
+
+Team members can opt in to this program using [this Google form](https://forms.gle/kMTJEjzktcjAbTVn9). Those who change their minds can use the same form to opt back out. If a team member decides to opt out after their laptop has already been involved in an emulated compromise, the Red Team will delete any data that may have been extracted from their laptop. This is an unlikely scenario, but we want to take extra steps to ensure everyone's privacy.
+
+Please check with your manager to ensure they have no concerns with your participation prior to opting in.
 
 ## Stealth Operations
 
@@ -113,6 +133,8 @@ During a [stealth operation](#stealth-operations), the Red Team may:
 
 - Begin an operation assuming a breach has occurred, meaning the team will have some level of access to resources that are not exposed publicly.
 - Attempt to gain access to team member accounts on any GitLab-managed platform (GitLab.com, Google, Slack, Zoom, etc).
+- Attempt to gain access to [in-scope laptops](#company-issued-laptops) using techniques like [drive-by attacks](https://attack.mitre.org/techniques/T1189/), [spearphishing with attachments](https://attack.mitre.org/techniques/T1566/001/), and [supply chain compromises](https://attack.mitre.org/techniques/T1195/).
+- Search for credential data on any compromised system. This includes environment variables, configuration files, shell history, etc.
 - Authenticate as any team member using credential data discovered on any GitLab-managed resource (passwords, access tokens, SSH keys, etc).
 - Attempt to gain access to any resource in GitLab's cloud environments, and use those resources to escalate privileges and move laterally in the cloud.
 - Exploit vulnerabilities and abuse insecure configurations in any system owned and managed by GitLab.
@@ -122,8 +144,17 @@ If you are a team member at GitLab and suspect you have uncovered a stealth red 
 
 At this time, the Red Team **will not**:
 
-- Attempt to gain access to team member laptops without prior consent.
 - Attempt to access resources inside a GitLab team member's home (wireless networks, non-GitLab machines, etc).
+- Attempt to access the camera or microphone on any device without explicit permission from its owner.
 - Attempt to socially engineer team members via phone calls.
 - Attempt to socially engineer team members via channels not managed by GitLab (such as social networks, personal email addresses, etc).
+- Attempt to access the web browsing history of any team member.
 - Attempt to gain access to anything that is not strictly work-related and managed/owned by GitLab.
+
+### Auditing Red Team Attack Techniques
+
+The Red Team maintains operator logs which include specific details on attack techniques we've conducted, timestamps, source IP addresses, etc. These are included in an operation's final report, but will be redacted to not show specific names of accounts and laptops that may have been compromised.
+
+If a team member's account or laptop is compromised during an operation, the Red Team will share specific details of all related activity with that team member. This will include the operator logs. Red Team will offer to meet with them synchronously to explain these logs, if the team member would like that.
+
+Besides these manual logs, our activities can be audited using the same capabilities GitLab has to investigate actual malicious activity. For example, any commands we may execute on a "compromised" laptop should be captured and archived by our endpoint detection and response (EDR) software.

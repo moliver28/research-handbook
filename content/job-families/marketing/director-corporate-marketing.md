@@ -35,7 +35,7 @@ The Senior Director, Corporate Marketing is a [grade 11](/handbook/total-rewards
 - Outstanding written and verbal communications skills with the ability to explain and translate complex technology concepts into simple and intuitive communications.
 - Uses data to measure results and inform decision making and strategy development.
 - You share our [values](/handbook/values/), and work in accordance with those values.
-- [Leadership at GitLab](/handbook/company/team/structure/#director-group)
+- [Leadership at GitLab](/handbook/company/structure/#director-group)
 - Ability to use GitLab
 
 ## Career Ladder

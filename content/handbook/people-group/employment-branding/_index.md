@@ -386,13 +386,10 @@ Here are samples of the statements team members were asked to consider:
 
 ### Team member turnover
 
-[Defined]({{< ref "people-group-metrics#team-member-turnover" >}}) on the People Group Metrics page.
+[Defined](https://handbook.gitlab.com/handbook/people-group/people-success-performance-indicators/) on the People Success Performance Indicators page.
 
 ### Team member referrals
 
 Overall number of job candidate referrals from GitLab team members.
 
-### Hires vs. plan
-
-[Defined]({{< ref "people-group-metrics#team-member-turnover" >}}) Hires vs plan on the People Group Metrics page.
 

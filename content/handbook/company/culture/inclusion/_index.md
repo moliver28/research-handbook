@@ -14,8 +14,8 @@ And diversity in our leadership [supports innovation](https://www.bcg.com/en-us/
 
 ## GitLab's Diversity Inclusion and Belonging Mission
 
-- **Mission**: At GitLab, we believe everyone can contribute.  This informs our approach to DIB.  We are building a scalable strategy based on **A**ction, **D**oing Good in the communities we serve, holding ourselves **A**ccountable and creating equitable **P**olicies in a **T**ransparent environment.  Just as DIB is a journey, our acronym, **A.D.A.P.T.** mirrors the agility required throughout that journey.
-- **Action** - There is intentionality in how we hire and retain our team members as well as engage with our customers and the open source community.
+- **Mission**: At GitLab, we believe everyone can contribute and the Diversity Inclusion and Belonging Team are building scalable strategies based on our acronym, A.D.A.P.T. which stands for **A**ction, **D**oing Good in the communities we serve, holding ourselves **A**ccountable and creating equitable **P**olicies in a **T**ransparent environment.  We are focused on helping to build high performing, customer centric teams by expanding, establishing, embedding our DIB  (https://handbook.gitlab.com/handbook/values/#diversity-inclusion). Just as DIB is a journey, our acronym, **A.D.A.P.T.** mirrors the agility required throughout that journey.
+- **Action** - There is intentionality in how we hire, progress and retain our team members as well as engage with our customers and the open source community.
 - **Do Good** - By providing avenues and opportunities for GitLab & team members to meaningfully contribute to our community and society.
 - **Accountable** - We have a Responsibility to commit and Answerable for the outcome.
 - **Policies**  - By building scalable ways to govern our work, actionable processes which inform our program development/execution.
@@ -183,7 +183,7 @@ The workshops are kept to a max of 15 team members to generate more comfort and 
 
 #### Facilitators
 
-Currently, we have four GitLab team members who are certified to facilitate the #IamRemarkable workshop:
+Currently, we have three GitLab team members who are certified to facilitate the #IamRemarkable workshop:
 
 1. Giuliana Lucchesi
 1. Terri Chu
@@ -371,7 +371,7 @@ We encourage organizers of events that are supported through our [GitLab Diversi
 ## Definitions
 
 - [Gender and Sexual Orientation Identity Definitions and FAQ](/handbook/people-group/orientation-identity/)
-- [Leadership](/handbook/company/team/structure/#organizational-chart) is defined as director and above.
+- [Leadership](/handbook/company/structure/#organizational-chart) is defined as director and above.
 - [Geographically](/handbook/company/culture/inclusion/identity-data/) is defined as those countries we use in our identity data.
 - Women is the term GitLab uses instead of "Female". "Female/Male" are gender terms often designated at birth. "Woman/Man" are gender terms based on self-identification. At GitLab, we define women based on how team members self-identify their gender in Workday.
 - **Privilege** is an unearned advantage given by society to some people but not all. In the USA figures were released in 2009 that on average women were paid $0.78 for every $1 a man makes. These figures have improved but there is still a gender imbalance.

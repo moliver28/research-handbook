@@ -113,7 +113,7 @@ View the complete [Fulfillment UX Scorecard Playlist](https://youtube.com/playli
 
 ## How We Work
 
-We follow the [Product Designer workflows](/handbook/product/ux/product-designer/) and [UX Researcher workflows](/handbook/product/ux/ux-research/) described in the [Product Design section](/handbook/product/ux/) of the handbook. As Growth designers, we relentlessly measure the impact of our design changes following the [experimentation workflow](/handbook/engineering/development/growth/experimentation/). In addition:
+We follow the [Product Designer workflows](/handbook/product/ux/product-designer/) and [UX Researcher workflows](/handbook/product/ux/ux-research/) described in the [Product Design section](/handbook/product/ux/) of the handbook. As Growth designers, we relentlessly measure the impact of our design changes following the [experimentation workflow](/handbook/marketing/growth/engineering/experimentation/). In addition:
 
 - we have issue boards so we can see what everyone is up to.
 - we **label** our issues with UX, devops::fulfillment, section::fulfillment and group::.

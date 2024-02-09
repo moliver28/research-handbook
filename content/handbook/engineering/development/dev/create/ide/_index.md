@@ -269,7 +269,9 @@ See the [following discussion thread](https://gitlab.com/gitlab-org/create-stage
 
 **TL;DR:**
 
-- **Async phase - Refinement: Divide up the work to refine each `rd-workflow::unprioritized` issue which has the `%"Next 1-3 releases"` milestone using the [Remote Development issue template](https://gitlab.com/gitlab-org/gitlab/-/blob/master/.gitlab/issue_templates/Remote%20Development%20Group%20-%20issue.md), then apply the `refined` label.**
+- **Async phase - Refinement:**
+  - **Engineering Manager: Assign someone to refine each unrefined `rd-workflow::unprioritized` issue which has the `%"Next 1-3 releases"` milestone using the [Remote Development issue template](https://gitlab.com/gitlab-org/gitlab/-/blob/master/.gitlab/issue_templates/Remote%20Development%20Group%20-%20issue.md)**
+  - **Refinement Assignees: Adequately refine the issue using the [Remote Development issue template](https://gitlab.com/gitlab-org/gitlab/-/blob/master/.gitlab/issue_templates/Remote%20Development%20Group%20-%20issue.md), then apply the `refined` label**
 - **Sync phase - Prioritization: Product and Engineering leaders meet to appropriately prioritize each `refined` issue into the `rd-workflow::prioritized` lane on the Iteration Planning board.**
 
 ##### Async Phase of Pre-IPM Process - Refinement
@@ -329,7 +331,7 @@ For a few reasons:
 
 **Process:**
 
-**TL;DR: Discuss and estimate each prioritized issue.**
+**TL;DR: _As a team_, briefly discuss then estimate each prioritized issue.**
 
 1. In each the IPM meeting, all newly prioritized issues in the `~"rd-workflow::prioritized"` lane of the [Iteration Planning](https://gitlab.com/groups/gitlab-org/-/boards/5283620?label_name[]=Category%3ARemote%20Development) board are reviewed by the team. The board should be unfiltered other than the standard `~"Category:Remote Development"` label.
 1. For each newly-prioritized issue, the facilitator reads the description, and the team **_briefly_** discusses the issue. If there are no blocking concerns/risks raised, the team collectively estimates the issue with rock-paper-scissors fibonacci scale, and the collectively agreed weight is assigned.

@@ -1,9 +1,7 @@
 ---
-title: "GitLab Project Management - Hands-On Lab 5"
+title: "GitLab Project Management - Hands-On Lab: Organize and Manage Issues"
 description: "This Hands-On Guide walks you through the lab exercises used in the GitLab Project Management course."
 ---
-
-# Lab 5: Organize and Manage Issues
 
 > Estimated time to complete: 45-60 minutes
 

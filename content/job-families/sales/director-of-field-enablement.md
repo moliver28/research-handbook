@@ -32,7 +32,7 @@ The Director, Field Enablement is a [grade 10](/handbook/total-rewards/compensat
 - Team player with strong interpersonal skills, skilled at project management and cross-functional collaboration.
 - Ability to thrive in a fast-paced, unpredictable environment.
 - You share our values, and work in accordance with those values.
-- [Leadership at GitLab](/handbook/company/team/structure/#director-group)
+- [Leadership at GitLab](/handbook/company/structure/#director-group)
 - Ability to use GitLab
 
 ## Senior Director, Field Enablement
@@ -65,7 +65,7 @@ The Senior Director, Field Enablement is a [grade 11](/handbook/total-rewards/co
 - Experience planning and executing large global Sales Kickoff and related events
 - Shares our values, and works in accordance with those values.
 - Holds their peers and team accountable for working in accordance with our values.
-- [Senior Leadership at GitLab](/handbook/company/team/structure/#s-group)
+- [Senior Leadership at GitLab](/handbook/company/structure/#s-group)
 - Ability to use GitLab
 
 ### Performance Indicators
@@ -106,7 +106,7 @@ The Senior Manager, Field Enablement Programs is a [grade 9](/handbook/total-rew
 - Team player with strong interpersonal skills, skilled at project management and cross-functional collaboration.
 - Ability to thrive in a fast-paced, unpredictable environment.
 - You share our values, and work in accordance with those values.
-- [Leadership at GitLab](/handbook/company/team/structure/#director-group)
+- [Leadership at GitLab](/handbook/company/structure/#director-group)
 - Ability to use GitLab
 
 ### Performance Indicators
@@ -146,7 +146,7 @@ The Manager, Field Enablement Programs is a [grade 8](/handbook/total-rewards/co
 - Team player with strong interpersonal skills, skilled at project management and cross-functional collaboration.
 - Ability to thrive in a fast-paced, unpredictable environment.
 - You share our values, and work in accordance with those values.
-- [Leadership at GitLab](/handbook/company/team/structure/#director-group)
+- [Leadership at GitLab](/handbook/company/structure/#director-group)
 - Ability to use GitLab
 
 ### Performance Indicators

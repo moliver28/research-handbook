@@ -4,13 +4,17 @@ title: Cloud Connector Group
 
 ## Vision
 
-Make GitLab the most responsive and performant DevOps Platform.
+Make it easy to build a feature into GitLab across multiple types of deployment
 
 ## Mission
 
-The Application Performance group's mission is to ensure that GitLab users, both self-managed and SaaS, have a great user experience. Performance is a critical part of that experience.
+GitLab Cloud Connector is a way to access services common to multiple GitLab deployments, instances, and cells. GitLab customers can choose between the following deployment options:
 
-Our team works to improve availability, reliability, and performance of the application. We analyze the behavior, recognize bottlenecks, and propose changes. We work to make GitLab a responsive and performant DevOps platform, which offers a great user experience at any scale.
+ * GitLab.com’s multi-tenant SaaS offering.
+ * Deploying their own self-managed GitLab instance.
+ * Signing up for GitLab Dedicated, our managed single-tenant solution.
+
+The goal of GitLab Cloud Connector is to ensure that GitLab features can work equally across all three. This aligns with Enablement’s mission of accelerating other product groups by reducing the friction of developing for multiple deployments.
 
 You can check our [direction page](https://about.gitlab.com/direction/cloud-connector/) for more information on our mission, and our short term and long term roadmap.
 
@@ -67,7 +71,7 @@ The Cloud Connector group's [Roadmap](https://gitlab.com/groups/gitlab-org/-/roa
  * [Cloud Connector group's Approach](./approach.html)
  * [Cloud Connector group's Knowledge Sharing](./knowledge.html)
 
-#### Blog posts
+#### Blog posts (when team was working as Application Performance) 
  
  * [Scaling down: How we shrank image transfers by 93%](https://about.gitlab.com/blog/2020/11/02/scaling-down-how-we-prototyped-an-image-scaler-at-gitlab/)
  * [Ruby 2.7: Understand and debug problems with heap compaction](https://about.gitlab.com/blog/2021/04/28/puma-nakayoshi-fork-and-compaction/)

@@ -292,58 +292,29 @@ Adjust list as applicable for each report activation. [Use the workback timeline
 ## Adding new content to the Resources page
 {: #add-to-resources-page .gitlab-purple}
 <!-- DO NOT CHANGE THIS ANCHOR -->
-*Note from `@aoetama`: [open issue](https://gitlab.com/gitlab-com/marketing/demand-generation/campaigns/-/issues/1030) to investigate how to leverage Pathfactory to automatically tap into all content for a better user experience and more efficient process on the GitLab side.*
-1. The process for **Changes to the Marketing Site** is owned by the Digital Experience (DEX) Team. Refer to their Handbook process for [Approving Changes to the Marketing Site](/handbook/marketing/digital-experience/#approving-changes-to-the-marketing-site) and [Marketing Site Approval Process](/handbook/marketing/digital-experience/marketing-site-approval-process/).
-1. Begin a new MR from [the resources-list yml](https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/-/blob/main/content/resources/resources-list.yml). Use the `marketing-site-change` [MR template](https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/-/blob/main/.gitlab/merge_request_templates/marketing-site-change.md)
-1. Use the code below to add a new entry with the relevant variables
-1. Add commit message `Add [resource name] to Resources page`, rename your target branch, leave "start a new merge request with these changes" and click "Commit Changes"
-1. Assign the merge request to yourself
-1. Tag any member of the [Digital Experience Team](/handbook/marketing/digital-experience/#groups-metrics--team-members) as `Reviewer`
-1. Comment to the `Reviewer` that the MR is ready to merge
+
+**[Video walkthrough](https://www.youtube.com/watch?v=G8NZV75H7lw) of adding a resource to https://about.gitlab.com/resources/ by using the CMS (Contentful).
+
+<iframe width="560" height="315" src="https://www.youtube.com/watch?v=G8NZV75H7lw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+**Step by step instructions below**
+1. Go to the [Resources page](https://app.contentful.com/spaces/xz1dnu24egyd/entries/5sF9ZMv4xAffzAKEnQGozh?focusedField=title) entry in Contentful
+2. Click on the "Browse all resources" section of page content
+3. Scroll waaaaay to the bottom and select + Add Content -> Card
+4. From here, it might be helpful to open an existing card and make sure the same fields are filled out, but the gist is:
+- the Title goes in both `Internal Name` and `Title`
+- the Language goes in `Subtitle`
+- the Teaser goes in `Description`
+- the Topics go in `List` (hit enter after each topic)
+- the Solutions go in `Pills` (hit enter after each topic)
+- the Type of resource goes in `Icon Name`
+- the URL goes in `Card Link`
+
+Publish that card, drag it to the top of the list if you want it to appear first, and publish that section too!
+
+If you want to edit other parts of the page the process is similar, just follow the existing pattern of the other cards! The only section to watch out for is the Featured resource - the one you want to feature has to be first in that list, and has to have an image.
 
 *Note: For ungated journeys, the URL drives to the PF asset/track, instead of a landing page.*
-
-**Code:**
-```
-- title: "Add name of resource - shorten if necessary"
-  url: `Marketo or PathFactory link`
-  image: /images/resources/`choose below`.png
-  type: "choose below"
-  language: "choose below"
-  topics:
-    -
-    -
-  solutions:
-    -
-    -
-  teaser: "Add a teaser that relates to the contents of the resource. This can be found in the epic or landing page copy."
-```
-**Example:**
-```
-- title: "Emerging Tech: A Software Bill of Materials Is Critical to Software Supply Chain Management"
-  url: https://page.gitlab.com/resources-report-gartner-emergingtech-sboms.html
-  image: /images/resources/security.png
-  type: "Report"
-  language: "English"
-  topics:
-    - Security
-    - Software Development
-  solutions:
-    - Security and quality
-  teaser: "Learn what Gartner® sees as key trends for using a Software Bill of Materials, and read insights on how to maximize security for you and your customers."
-```
-
-**IMAGES to choose from (select one):**
-*[Shortcuts to Images Folder](https://gitlab.com/gitlab-com/www-gitlab-com/tree/master/source/images/resources)
-* `/images/resources/cloud-native.png`
-* `/images/resources/code-review.png`
-* `/images/resources/continuous-integration.png`
-* `/images/resources/devops.png`
-* `/images/resources/git.png`
-* `/images/resources/gitlab.png`
-* `/images/resources/security.png`
-* `/images/resources/software-development.png`
-* `/images/resources/resources-gitops.png`
 
 **TYPES to choose from (select one)**
 * eBook

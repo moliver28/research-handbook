@@ -4,4 +4,4 @@ cascade:
   type: job-families
 ---
 
-[Leadership at GitLab](/handbook/company/team/structure/#s-group)
+[Leadership at GitLab](/handbook/company/structure/#s-group)

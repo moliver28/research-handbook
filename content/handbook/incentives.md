@@ -304,8 +304,6 @@ Please note if the team member has a hire date effective **before 2023-11-20**, 
 
 For information regarding the program details and team member eligibility and understanding, please visit our [guide in the Hiring section of GitLab's handbook](/handbook/hiring/referral-process/).
 
-If a team member has been referred, the People Connect team will review team members' self-identification data in Workday including Gender, Ethnicity and Veteran status to determine if the team member qualifies as belonging to a select underrepresented group.
-
 ### Exceptions
 
 - no bonus for hiring people who report to you directly or are in your direct reporting chain,
@@ -313,7 +311,7 @@ If a team member has been referred, the People Connect team will review team mem
 - no bonus for referring a Boomerang Team Member (returning team member),
 - no bonus if the referring Team Member is a part of the Talent Acquisition team - they are not eligible given the nature of their position is to engage candidates.
 - no bonus if there's a perceived conflict of interest.
-- no bonus for VP level [grade 12](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) or the [Executive Group](/handbook/company/team/structure/#executives).
+- no bonus for VP level [grade 12](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) or the [Executive Group](/handbook/company/structure/#executives).
 - no bonus if the referral is an intern. You will be paid a referral bonus if the referral(intern) is converted to a full-time, intermediate-level team member.
 - no bonus for a referring team member will be applicable if the team members employment is terminated prior to the referral bonus payout date. You need to be an active team member.
 - In the event that more than one GitLab employee refers the same team member for the same role the People Ops team will ask the new team member to confirm who they were referred by (who should get the credit). If they mention two or more people then the bonus will be split between them.

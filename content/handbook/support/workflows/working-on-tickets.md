@@ -125,19 +125,17 @@ seek help as soon as you need it.
 
 #### Pathway for handling high priority tickets from a different region
 
-1. If a ticket is marked as "High Priority" and you have the answer, take assignment of the ticket and offer a solution. If the solution does not resolve the issue, proceed with the steps in [Cross Region handover of tickets and customer calls](/handbook/support/workflows/working-on-tickets/#cross-region-handover-of-tickets-and-customer-calls).
-1. If a ticket is marked as "High Priority" and will not breach the FRT (First Response Time) SLA before an hour after the preferred region's support comes online, consider conducting initial research, and recording your findings as an internal note. Do not assign the ticket to yourself.
-1. If a ticket is marked as "High Priority" and there's a risk it might breach the FRT SLA time before the preferred region's support is online, take the assignment, send a substantive response to the requester, and then proceed with the steps in [Cross Region handover of tickets and customer calls](/handbook/support/workflows/working-on-tickets/#cross-region-handover-of-tickets-and-customer-calls).
+If a ticket is marked as `High Priority` and there's a risk it might breach the FRT SLA time before the preferred region's support is online, take the assignment, send a substantive response to the requester, and then proceed with the steps in [Cross Region handover of tickets and customer calls](/handbook/support/workflows/working-on-tickets/#cross-region-handover-of-tickets-and-customer-calls).
 
 #### Pathway for handling normal and low priority tickets from a different region
 
-1. If a ticket is not marked as "High Priority," and you're confident in your ability to resolve it, follow these steps:
+1. If a ticket is not marked as `High Priority`,` and you're confident in your ability to resolve it, follow these steps:
       - Take assignment of the ticket and prepare the first technical response.
-      - Use the ZD macro "clarify preferred region assignment" as part of the first response.
+      - Use the ZD macro `clarify preferred region assignment`` as part of the first response.
       - If the customer responds and confirms the preferred region, proceed with the steps in [Cross Region handover of tickets and customer calls](/handbook/support/workflows/working-on-tickets/#cross-region-handover-of-tickets-and-customer-calls).
       - If the customer is okay with out-of-region support, continue to offer assistance and regularly assess customer satisfaction and technical progress. Consider a handover if the ticket's priority changes or if the customer becomes frustrated.
       - If neither of the above scenarios applies, continue to work on the ticket to find a solution.
-1. If a ticket is not marked as "High Priority," and it's at risk of breaching the FRT SLA, and you are not confident in resolving the issue, follow these steps:
+1. If a ticket is not marked as `High Priority`,` and it's at risk of breaching the FRT SLA, and you are not confident in resolving the issue, follow these steps:
       - Take assignment of the ticket.
       - Provide a first technical response to the customer.
       - Proceed with the steps in [Cross Region handover of tickets and customer calls](/handbook/support/workflows/working-on-tickets#cross-region-handover-of-tickets-and-customer-calls).

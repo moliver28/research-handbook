@@ -279,7 +279,7 @@ Please tag `@jeffersonmartin` for any architecture, decisions, discussions, guid
     - ugovindia
   gitlab_saas_tag: '@gitlab-com/gl-security/security-operations/infrastructure-security'
   slack_channel: '#security-infrasec'
-  handbook_page: 'https://handbook.gitlab.com/handbook/security/security-engineering/infrastructure-security/'
+  handbook_page: 'https://handbook.gitlab.com/handbook/security/product-security/infrastructure-security/'
   issue_tracker: 'https://gitlab.com/gitlab-com/gl-security/security-operations/infrastructure-security/bau/-/issues'
 - sec_sirt:
   team_name: 'Security Incident Response Team (SIRT)'

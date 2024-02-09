@@ -273,7 +273,7 @@ Under no circumstance should you perform your own disk wipe unless you are doing
 
 ### Laptop Donations
 
-Donating hardware/laptops will help people in disadvantaged areas and/or from underrepresented groups with their ability to learn about technology. Therefore GitLab offers the possibility to donate hardware devices to [vendors on a curated list](https://docs.google.com/spreadsheets/d/15g4v5coC_yLlVNTKUZMwATllZhxzqbxrtvwJsi8bjXE/edit#gid=0) after 3 years of use. This curated list has been a result of the [Upstream Diversity Working Group](/handbook/company/team/structure/working-groups/upstream-diversity/).
+Donating hardware/laptops will help people in disadvantaged areas and/or from underrepresented groups with their ability to learn about technology. Therefore GitLab offers the possibility to donate hardware devices to [vendors on a curated list](https://docs.google.com/spreadsheets/d/15g4v5coC_yLlVNTKUZMwATllZhxzqbxrtvwJsi8bjXE/edit#gid=0) after 3 years of use. This curated list has been a result of the [Upstream Diversity Working Group](/handbook/company/working-groups/upstream-diversity/).
 
 The vendors on the list have been meeting the following criteria:
 

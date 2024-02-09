@@ -1,9 +1,7 @@
 ---
-title: "GitLab CI/CD - Hands-On Lab 4"
+title: "GitLab CI/CD - Hands-On Lab: Display Pipeline Info"
 description: "This Hands-On Guide walks you through the lab exercises in the GitLab CI/CD course."
 ---
-
-# Lab 4: Display Pipeline Info
 
 > Estimate time to complete: 15 - 20 minutes
 

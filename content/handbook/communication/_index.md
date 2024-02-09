@@ -23,7 +23,7 @@ We communicate respectfully and professionally at all times.
 1. **Do not underestimate a 1:1.** Asynchronous communication (e.g., via text) is helpful and necessary. In some cases (e.g., to clarify misunderstandings) it can be much more effective to jump on a Zoom video call.
 1. **Always Adhere to our [Anti-Harassment Policy](/handbook/anti-harassment/) and [GitLab Code of Business Conduct and Ethics](https://ir.gitlab.com/static-files/7d8c7eb3-cb17-4d68-a607-1b7a1fa1c95d).** Everyone should be comfortable in their work environment.
 1. **Focus on what we can directly influence.** There are many factors we can't directly influence and we should avoid spending time discussing those things. For example, we don't talk about our [market capitalization](/handbook/being-a-public-company/#market-capitalization) because aspects of this are out of our control. Instead, we should focus on our KPIs and growing [annual recurring revenue](/handbook/sales/sales-term-glossary/arr-in-practice/).
-1. **Commit to [active and effective listening](/handbook/people-group/learning-and-development/manager-coaching-and-leadership-resources/#demonstrating-active-listening)**.
+1. **Commit to [active and effective listening](/handbook/leadership/coaching/#essential-coaching-skills)**.
 
 Embracing asynchronous communication and learning to use it effectively requires a mental shift. This can feel unusual or even uncomfortable for those who come from a colocated environment, where in-person meetings and communiques are the norm. Learn more about [mastering the use of the written word in an all-remote setting](/handbook/company/culture/all-remote/effective-communication/).
 
@@ -981,7 +981,7 @@ This is defined in [Domain-driven design](https://en.wikipedia.org/wiki/Domain-d
 
 We use it for activities in GitLab, even ones not implemented in software.
 
-By having ubiquitous words to identify concepts we prevent confusion over what is meant, for example we refer to [parts of our organization](/handbook/company/team/structure/) as a function, department, or group depending on exactly what is meant.
+By having ubiquitous words to identify concepts we prevent confusion over what is meant, for example we refer to [parts of our organization](/handbook/company/structure/) as a function, department, or group depending on exactly what is meant.
 
 Make sure that domains don't overlap, for example [organization size](/handbook/sales/#organization-size) and [deal size](/handbook/sales/sales-term-glossary/) don't reuse words to prevent overlap.
 
@@ -1073,7 +1073,7 @@ Corporate marketing maintains guidelines on [GitLab's tone of voice](https://des
 
 For example, do not suggest that you're "working in real-time" when a matter is in disarray. Convey that a lack of organization is hampering a result, and provide feedback and clear steps on resolving.
 
-Do not use a cool term such as "tiger team" when the [existing term of "working group"](/handbook/company/team/structure/working-groups/) is more exact. While cool terms such as these may be useful for persuading colleagues to join you in working towards a solution, the right way isn't to use flowery language.
+Do not use a cool term such as "tiger team" when the [existing term of "working group"](/handbook/company/working-groups/) is more exact. While cool terms such as these may be useful for persuading colleagues to join you in working towards a solution, the right way isn't to use flowery language.
 
 The last example is when we used 'Prioritizing for Global Optimization' for what we now call a [headcount reset](/handbook/product/product-processes/#headcount-resets). When we [renamed it](https://gitlab.com/gitlab-com/www-gitlab-com/-/merge_requests/31101/diffs) we saw a good reduction in the use of this disruptive practice of moving people around.
 
@@ -1472,7 +1472,7 @@ See the [YouTube page](/handbook/marketing/marketing-operations/youtube/) for op
 
 <a id="phone-number">
 
-If you need to provide the details of GitLab's contact information you can take the [address from the visiting page](/handbook/company/visiting/) for reference; or the [mailing address](/handbook/people-group/#addresses) of the office in the Netherlands if that is more applicable.
+If you need to provide the details of GitLab's contact information you can take the [address from the visiting page](https://about.gitlab.com/company/visiting/) for reference; or the [mailing address](/handbook/people-group/#addresses) of the office in the Netherlands if that is more applicable.
 
 If a phone number is required, leave this field empty by default. If that is not possible, then use
 the general number (+1-415-761-1791), but be aware that this number simply guides to a voice message that refers the caller back to contacting us via email.

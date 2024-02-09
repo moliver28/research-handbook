@@ -135,7 +135,7 @@ Outreach is able to sync some custom information about these meetings into event
 
 #### Outreach Call Disposition
 
-XDRs need to choose a call disposition after calling a prospect to note the outcome of the call. This outcome will be synced over to SFDC. "CC" is an abreviation for Correct Contact.
+XDRs need to choose a call disposition after calling a prospect to note the outcome of the call. This outcome will be synced over to SFDC. "CC" is an abreviation for Correct Contact. Make sure to always add information gathered into the `Call Notes` box as this will also sync over to SFDC.
 
 | Outreach.io Call Disposition | Notes|
 |---|---|
