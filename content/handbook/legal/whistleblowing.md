@@ -19,15 +19,15 @@ In addition to our [GitLab Inc. policy](https://drive.google.com/drive/folders/1
 - [Ireland Protected Disclosure Policy](https://drive.google.com/drive/folders/1e3EisOUPDKGh4XgjpwOOkrnvW2X8WdAK?usp=drive_link)
 - [Netherlands Whistleblower Policy](https://drive.google.com/drive/folders/15rhFpbxK2nxvgSpv99E4jhfEMCF7J8EQ?usp=drive_link)
 
-_*GitLab’s whistleblower reporting channels and policies should not be used for complaints relating to a team member’s own personal circumstances, or arising out of their employment contract. In those cases you should use the applicable grievance procedure in the Anti-harassment Policy, or contact Team Member Relations as appropriate. As a reminder, GitLab has engaged a separate hotline vendor, known as Lighthouse Services, to provide an anonymous reporting hotline for all team members to submit reports regarding team member relations. Reports may cover but are not limited to the following topics: wrongful discharge or disciplinary action, sexual harassment, discrimination, conduct violations, alcohol and substance abuse, threats, improper conduct, violation of company policy. This separate hotline is available for these calls in order to reserve EthicsPoint for specific complaints that would fall under the GitLab Inc. Whistleblower Policy or applicable country policy, as defined in the applicable policy.
+**GitLab’s whistleblower reporting channels and policies should not be used for complaints relating to a team member’s own personal circumstances, or arising out of their employment contract. In those cases you should use the applicable grievance procedure in the Anti-harassment Policy, or contact Team Member Relations as appropriate. As a reminder, GitLab has engaged a separate hotline vendor, known as Lighthouse Services, to provide an anonymous reporting hotline for all team members to submit reports regarding team member relations. Reports may cover but are not limited to the following topics: wrongful discharge or disciplinary action, sexual harassment, discrimination, conduct violations, alcohol and substance abuse, threats, improper conduct, violation of company policy. This separate hotline is available for these calls in order to reserve EthicsPoint for specific complaints that would fall under the GitLab Inc. Whistleblower Policy or applicable country policy, as defined in the applicable policy.*
 
-Lighthouse has a toll free number and other methods of reporting are available 24 hours a day, 7 days a week for use by team members.
-Website: https://www.lighthouse-services.com/gitlab
-USA Telephone:
-English speaking USA and Canada: 833-480-0010
-Spanish speaking USA and Canada: 800-216-1288
-French speaking Canada: 855-725-0002
-Spanish speaking Mexico: 01-800-681-5340
-All other countries telephone: +1-800-603-2869
-E-mail: reports@lighthouse-services.com (must include company name with report)
-Fax: (215) 689-3885 (must include company name with report)_
+**Lighthouse has a toll free number and other methods of reporting are available 24 hours a day, 7 days a week for use by team members.*
+*Website: https://www.lighthouse-services.com/gitlab*
+*USA Telephone:*
+*English speaking USA and Canada: 833-480-0010*
+*Spanish speaking USA and Canada: 800-216-1288*
+*French speaking Canada: 855-725-0002*
+*Spanish speaking Mexico: 01-800-681-5340*
+*All other countries telephone: +1-800-603-2869*
+*E-mail: reports@lighthouse-services.com (must include company name with report)*
+*Fax: (215) 689-3885 (must include company name with report)*
