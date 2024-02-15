@@ -7,7 +7,7 @@ layout: single
 
 GitLab Inc. (collectively with its subsidiaries,***“GitLab”***, ***“we”***, ***“our”***) is committed to lawful and ethical behavior in all we do and expects members of GitLab’s Board of Directors (***“Board”***) and officers, employees, and contractors (collectively, ***“Team Members”***) to conduct business ethically, with integrity, and in accordance with all applicable laws and regulations.
 
-GitLab’s culture is based on our [VALUES](https://handbook.gitlab.com/handbook/values/), which are reflected in and reinforced by our Code of Business Conduct and Ethics and various supporting policies, such as our Anti-Fraud Policy and Anti-Retaliation Policy (collectively, ***“Compliance Standards”***). Because GitLab is made up of individuals who are aligned with our VALUES and who are accountable to our customers, shareholders, and each other, we have designed this Ethics and Compliance Program (the ***“Program”***) as an operational framework for our team members. This Program is dedicated to (among other things) making sure GitLab’s  Compliance Standards are current, complete, and readily accessible. Team Members are educated on these Compliance Standards, through continuous training, awareness campaigns, required annual reviews and acknowledgments, and additional resources, including #compliance-legal.
+GitLab’s culture is based on our [VALUES](https://handbook.gitlab.com/handbook/values/), which are reflected in and reinforced by our Code of Business Conduct and Ethics and various supporting policies, such as our Anti-Fraud Policy and Anti-Retaliation Policy (collectively, ***“Compliance Standards”***). Because GitLab is made up of individuals who are aligned with our VALUES and who are accountable to our customers, shareholders, and each other, we have designed this Ethics and Compliance Program (the ***“Program”***) as an operational framework for our team members. This Program is dedicated to (among other things) making sure GitLab’s Compliance Standards are current, complete, and readily accessible. Team Members are educated on these Compliance Standards, through continuous training, awareness campaigns, required annual reviews and acknowledgments, and additional resources, including #compliance-legal.
 
 While compliance is certainly a company-wide effort, it is as importantly the individual responsibility of each and every GitLab team member. By embracing our Compliance Standards, together we will maintain our good standing and instill our customers and the wider community with confidence when they place their trust in GitLab.
 
@@ -44,7 +44,7 @@ Listed below are GitLab's policies and procedures, as well as guidance and other
 - [Social Media Policy](https://about.gitlab.com/handbook/marketing/team-member-social-media-policy/)
 - [Third-Party Risk Management Process](https://about.gitlab.com/handbook/finance/procurement/#-third-party-risk-management)
 - [UK Modern Slavery Act Transparency Statement](https://drive.google.com/file/d/11Yne51yOV5_9EBnGbfvMIrq06Z_OxUEM/view?usp=sharing)
-- [Whistleblower Policy](https://drive.google.com/drive/folders/1kB3k5FRnR3OUBP0Eyo3SxxyPKeiRFfUk)
+- [Whistleblower Policies](https://handbook.gitlab.com/handbook/legal/whistleblowing/#whistleblowing-at-gitlab)
 
 ### Guidelines and Other Resources
 
@@ -68,11 +68,11 @@ We recognize that some team members are subject to additional or heightened comp
 
 ## Reporting
 
-We recognize that unlawful and unethical behavior could happen despite our best efforts. We encourage and require team members to promptly report unlawful and unethical behavior, potential or suspected violations of GitLab’s Code of Business Conduct and Ethics or supporting policies, and any other violations described in GitLab’s [Whistleblower Policy](https://drive.google.com/drive/folders/1kB3k5FRnR3OUBP0Eyo3SxxyPKeiRFfUk), and any concerns involving team member relations. GitLab offers several different ways for team members to report these concerns:
+We recognize that unlawful and unethical behavior could happen despite our best efforts. We encourage and require team members to promptly report unlawful and unethical behavior, potential or suspected violations of GitLab’s Code of Business Conduct and Ethics or supporting policies, and any other violations described in GitLab's [Whistleblower Policy](https://drive.google.com/drive/folders/1kB3k5FRnR3OUBP0Eyo3SxxyPKeiRFfUk) or any applicable [country-specific whistleblower policy](https://handbook.gitlab.com/handbook/legal/whistleblowing/#country-specific-whistleblower-policies), and any concerns involving team member relations. GitLab offers several different ways for team members to report these concerns:
 
 ### Reporting Misconduct (Anonymously OR Non-Anonymously)
 
-Team members should use [EthicsPoint](https://secure.ethicspoint.com/domain/media/en/gui/74686/index.html) to report unethical and unlawful behavior, and violations of the Business Code of Conduct and Ethics and policies in support of the Code. Reports can be **anonymous** or **non-anonymous**. Reports can be made using the platform [online](http://gitlab.ethicspoint.com/.) or by using EthicsPoint’s hotline, which is available 24 hours a day, 365 days a year. The toll-free hotline number for the USA is 1-833-756-0853. Direct access phone numbers for other locations can be viewed on the EthicsPoint website by using the country location drop-down menu.  In the alternative, Misconduct may be reported in any manner described in GitLab’s [Whistleblower Policy](https://drive.google.com/drive/folders/1kB3k5).
+Team members should use [EthicsPoint](https://secure.ethicspoint.com/domain/media/en/gui/74686/index.html) to report unethical and unlawful behavior, and violations of the Business Code of Conduct and Ethics and policies in support of the Code. Reports can be **anonymous** or **non-anonymous**. Reports can be made using the platform [online](http://gitlab.ethicspoint.com/.) or by using EthicsPoint’s hotline, which is available 24 hours a day, 365 days a year. The toll-free hotline number for the USA is 1-833-756-0853. Direct access phone numbers for other locations can be viewed on the EthicsPoint website by using the country location drop-down menu.  In the alternative, misconduct may be reported in any manner described in GitLab’s [Whistleblower Policy](https://drive.google.com/drive/folders/1kB3k5) or applicable [country-specific whistleblower policies](https://handbook.gitlab.com/handbook/legal/whistleblowing/#country-specific-whistleblower-policies).
 
 ### Reporting Workplace Harassment (Non-Anonymous Only)
 
@@ -93,11 +93,11 @@ Team members may, in the alternative, report concerns about team member relation
 
 ### Manager Roles and Responsibilities
 
-Team members should report Misconduct, workplace harassment, and other concerns about team member relations to their manager if they are comfortable doing so. Managers who receive a report (verbal or written) or otherwise become aware of Misconduct, workplace harassment, or other concerns, must ensure that the Misconduct is immediately reported to the relevant People Business Partner or through one of the reporting avenues described above.
+Team members should report misconduct, workplace harassment, and other concerns about team member relations to their manager if they are comfortable doing so. Managers who receive a report (verbal or written) or otherwise become aware of misconduct, workplace harassment, or other concerns, must ensure that the misconduct is immediately reported to the relevant People Business Partner or through one of the reporting avenues described above.
 
 ### Investigations
 
-GitLab takes allegations of Misconduct very seriously and want an opportunity to resolve them. Reports submitted through any avenue described above will be reviewed promptly and addressed in accordance with GitLab’s [Whistleblower Policy](https://drive.google.com/drive/folders/1kB3k5FRnR3OUBP0Eyo3SxxyPKeiRFfUk) and [Anti-Retaliation Policy](https://about.gitlab.com/handbook/legal/anti-retaliation-policy/#reporting-procedure). Potential instances of non-compliance are taken seriously, and unethical behavior and/or violations of GitLab policies may lead to termination of employment.
+GitLab takes allegations of misconduct very seriously and want an opportunity to resolve them. Reports submitted through any avenue described above will be reviewed promptly and addressed in accordance with GitLab’s [Whistleblower Policy](https://drive.google.com/drive/folders/1kB3k5FRnR3OUBP0Eyo3SxxyPKeiRFfUk) and [Anti-Retaliation Policy](https://about.gitlab.com/handbook/legal/anti-retaliation-policy/#reporting-procedure). Potential instances of non-compliance are taken seriously, and unethical behavior and/or violations of GitLab policies may lead to termination of employment.
 
 ## Ethics and Compliance Program Charter
 
@@ -121,7 +121,7 @@ The Audit Committee has delegated day-to-day responsibility for administering an
 
 - Allocate resources to the Program and delegate authority to its key stakeholders as needed to implement, maintain, and strengthen the Program;
 - Ensure that reasonable steps are taken to respond to potentially unlawful behavior and criminal misconduct;
-- Ensure that GitLab’s Compliance Standards are reasonably designed to prevent and detect Misconduct, are widely available and accessible to team members, and are regularly assessed for potential updates and improvements;
+- Ensure that GitLab’s Compliance Standards are reasonably designed to prevent and detect misconduct, are widely available and accessible to team members, and are regularly assessed for potential updates and improvements;
 - Maintain awareness and encourage the use of mechanisms for reporting potential instances of non-compliance;
 - Collaborate with GitLab’s Internal Audit team and key stakeholders to ensure that the Program is implemented across GitLab, is monitored and assessed periodically for effectiveness, and that findings and observations are used to promote continuous improvement; and,
 - Consider recommendations to the Program itself or which are proposed in response to significant risk assessment or audit findings, instances of non-compliance with laws and regulations, or weaknesses in the Program, and shall advise the Audit Committee as needed.
