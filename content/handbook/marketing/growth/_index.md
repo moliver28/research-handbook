@@ -58,7 +58,6 @@ The growth division is currently grouped under the Acquisition team that contain
 The Growth section owns the following areas of the product experience.
 * The [free user](https://gitlab.com/users/sign_up/) and [trial registration](https://about.gitlab.com/free-trial/) experience
 * The new user [onboarding experience](/handbook/product/growth/#contributing-to-the-learn-gitlab-project)
-* [Broadcast messages](https://docs.gitlab.com/ee/administration/broadcast_messages.html)
 * [GitLab Experiment Gem (also refered to as GLEX)](https://docs.gitlab.com/ee/development/experiment_guide/)
 * [Instance review](https://docs.gitlab.com/ee/administration/instance_review.html)
 * [Product Qualified Leads](https://docs.gitlab.com/ee/development/product_qualified_lead_guide/)
