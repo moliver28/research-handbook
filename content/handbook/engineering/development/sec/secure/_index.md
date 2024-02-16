@@ -27,7 +27,7 @@ The Secure team works on GitLab's [Secure stage].
 
 ## Sub-department development people leaders
 
-{{< stable-counterparts role="Director(.*)Secure|Manager(.*)Secure$|Staff(.*)Secure" >}}
+{{< team-by-manager-slug manager="thomaswoodham" team="Manager(.*)Secure" >}}
 
 To contact Secure stage development people leaders leaders use the following aliases:
 
