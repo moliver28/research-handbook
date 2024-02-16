@@ -86,6 +86,7 @@ We currently measure with an empty cache, the connection limited to `Cable` and 
 The URLs from GitLab.com listed in the table below form the basis for measuring performance improvements - these are heavy use cases. The times indicate time passed from web request to "the average time at which visible parts of the page are displayed" (per the definition of Speed Index). Since the "user" of these URLs is a controlled entity in this case, it represents an _external_  measure of our previous performance metric "Speed Index".
 
 | Type |  [2018-04] | [2019-09] | [2020-02] | Now* |
+| ---- | ---------- | --------- | --------- | ---- |
 | Issue List: [GitLab FOSS Issue List] | 2872 | <span class="text-success">1197</span> | - | N/A |
 | Issue List: [GitLab Issue List] |  |  | <span class="text-danger">1581</span> | [<i class="fas fa-tachometer-alt fa-fw" aria-hidden="true"></i>][grafana gitlab issue list] |
 | Issue: [GitLab FOSS #4058] | 2414 | <span class="text-success">1332</span> | <span class="text-danger">1954</span> | [<i class="fas fa-tachometer-alt fa-fw" aria-hidden="true"></i>][grafana 4058] |
