@@ -43,8 +43,6 @@ The digital experience team has opted for [Navattic](https://www.navattic.com/) 
 - Open GitLab UI in full screen and capture only the GitLab UI (avoid including the Chrome toolbar or the MAC menu).
 - Use the keyboard shortcut Shift+Command+4 to Capture selected portion of the screen.  
 
-
-
 ### Projects
 
 Source code, demo projects, workshops, etc. are documented in the [Projects handbook](/handbook/marketing/developer-relations/developer-evangelism/projects/).
