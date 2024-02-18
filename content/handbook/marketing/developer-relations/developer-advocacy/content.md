@@ -31,13 +31,13 @@ Product tours are a self-guided journey emphasizing the 'What' of a feature, ski
 * [Integrating security to the pipeline](https://gitlab.navattic.com/gitlab-scans)
 * [Code Suggestions](https://gitlab.navattic.com/code-suggestions)
 
-### Creating GitLab tours with Navattic
+### Guidelines for creating GitLab tours with Navattic
 
-Navattic supports two types of screen captures: Web and Screenshots. It's recommended to use web captures for an 'in-product' feel, but in some cases, due to Navattic product limitations, you may find that web capture doesn't work well in some pages. In such cases, use screenshots instead. Here are some guidelines for screen capturing:
+Navattic supports two types of screen captures: Web and Screenshots. It's recommended to use web captures for an 'in-product' feel, but in some cases, due to Navattic product limitations, you may find that web capture doesn't work well for some pages. In such cases, use screenshots instead. Here are some guidelines for screenhots capturing:
 
 - Open your browser at 1920x1080 resolution (Full HD). You can use [Window Resizer](https://chromewebstore.google.com/detail/window-resizer/kkelicaakdanhinjdeammmilcgefonfh) to set the resolution.
 - Open GitLab UI in full screen and capture only the GitLab UI (avoid including the Chrome toolbar or the MAC menu).
-
+- Use the keyboard shortcut Shift+Command+4 to Capture selected portion of the screen.  
 
 
 
