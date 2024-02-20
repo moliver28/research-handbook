@@ -6,7 +6,7 @@ title: "Coaching"
 
 At GitLab, we use coaching to:
 
-1. Building meaningful, inclusive connections
+1. Provide opportunity for self reflection, communication and feedback 
 1. Equip team members with skills they need to [deliver results for customers]({{< ref "https://handbook.gitlab.com/handbook/values/#results" >}})
 1. Create space to practice strategies for achieving [high performance](https://internal.gitlab.com/handbook/company/high-performing-teams/)
 
