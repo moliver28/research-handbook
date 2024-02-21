@@ -130,8 +130,8 @@ If your Group Conversation is optional and you need to move the date, please wor
 | [Finance](/handbook/finance/) | Brian Robins | Yes | Twice per quarter | | EBAs in Finance|
 | [People](/handbook/people-group/) | Wendy Barnes | Yes | Twice per quarter | | EBA to CPO |
 | [Product](/handbook/product/) | [Month PLT Leader Rotation](/handbook/product/product-leadership/#product-group-conversation-leader-rotation) | Yes | Quarterly | | EBAs in Product |
-| [Support](/handbook/support/) | Lyle Kozloff, Lee Matos | Yes | Twice per quarter | @lbot @lyle @vparsons| EBA to Engineering |
-| [Security](/handbook/security/) | Josh Lemos | Yes | Every other month| | EBA to Security |
+| [Support](/handbook/support/) | Johnny Scarborough | Yes | Twice per quarter | @lbot @lyle @vparsons| EBA to Engineering |
+| [Security](/handbook/security/) | Josh Lemos | Yes | Quarterly| | EBA to Security |
 | [UX](/handbook/product/ux/) | Christie Lenneville | Yes | Every other month | | EBA to Product |
 | [Development](/handbook/engineering/development/) | Christopher Lefelhocz | Yes | Every other month | | EBA to Engineering |
 | [Infrastructure & Quality](/handbook/engineering/infrastructure-quality/) | Mek Stittri | Yes | Quarterly | | EBA to Engineering |
@@ -145,12 +145,6 @@ If your Group Conversation is optional and you need to move the date, please wor
 
 | Expected Posting Date | GC | DRI | Key Review Date? |
 |----|---------|---|--------|
-| Wednesday 2023-10-25 | CRO - RSOE | Jake Bielecki |  |
-| Thursday 2023-10-26 | Data | Amie Bright | October 17 |
-| Tuesday 2023-10-31 | Product| Product Leadership | October 19 |
-| Thursday 2023-11-09 | Infrastructure & Quality | Mek Stittri | October 24 |
-| Tuesday 2023-11-28 | People | Wendy Barnes | November 14 |
-| Tuesday 2023-12-12 | Finance | Brian Robins | November 28th |
 | Wednesday 2024-01-03 | Support | Lyle Kozloff, Lee Matos | December 20 |
 | Thursday 2024-01-11 | Security | Josh Lemos | December 20 |
 | Wednesday 2024-01-24 | Infrastructure & Quality | Mek Stittri | January 16 |
@@ -161,20 +155,24 @@ If your Group Conversation is optional and you need to move the date, please wor
 | Monday 2024-03-18 | People | Wendy Barnes | - |
 | Monday 2024-03-18 | Finance | Brian Robins | - |
 | Wednesday 2024-04-24 | Data | Amie Bright | April 18 |
+| Wednesday 2024-04-24 | Security | Josh Lemos | April 1 |
 | Wednesday 2024-05-22 | IT | Nabitha Rao | May 15 |
 | Tuesday 2024-05-28 | Product | Product Leadership | - |
 | Wednesday 2024-06-12 | Finance | Brian Robins | - |
 | Monday 2024-06-17 | People | Wendy Barnes | - |
+| Monday 2024-07-01 | Security | Josh Lemos | June 17 |
 | Thursday 2024-07-25 | Data | Amie Bright | July 18 |
 | Thursday 2024-08-22 | IT | Nabitha Rao | August 14 |
 | Wednesday 2024-08-28 | Product | Product Leadership | - |
 | Thursday 2024-08-29 | Finance | Brian Robins | - |
 | Thursday 2024-09-12 | People | Wendy Barnes | - |
+| Monday 2024-09-30 | Security | Josh Lemos | September 19 |
 | Thursday 2024-10-24 | Data | Amie Bright | October 17 |
 | Thursday 2024-11-21 | IT | Nabitha Rao | November 14 |
 | Tuesday 2024-11-26 | Finance | Brian Robins | - |
 | Thursday 2024-11-28 | Product | Product Leadership | - |
 | Wednesday 2024-12-11 | People | Wendy Barnes | - |
+| Monday 2025-01-06 | Security | Josh Lemos | December 18 |
 | Thursday 2025-01-30 | Data | Amie Bright | January 23 |
 
 
