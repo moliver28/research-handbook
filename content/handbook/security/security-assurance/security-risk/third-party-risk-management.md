@@ -356,7 +356,7 @@ In the performance of these reviews, deficiencies may be identified that could p
 1. Lack of third-party Security attestation (ISO 270001, SOC2 Type 2)
 1. Lack of background checks for employees and contractors
 1. Inability to integrate with [Okta](/handbook/business-technology/okta/#what-is-okta)* (in alignment with [GitLab's Password Standard](/handbook/security/password-standard/#application-authentication-requirements))
-1. Systems lacking multi-factor authentication (MFA) capabilities (in alignment with [GitLab's Password Standard](/handbook/security/password-standard/#application-authentication-requirements))
+   - If the Okta integration is not in place or not possible, native multi-factor authentication (MFA) capabilities can be a mitigating control.
 1. Systems lacking evidence of a recent penetration test
 1. Unresolved deficiencies documented within the penetration test with no apparent remediation plan or expected remediation date
 
