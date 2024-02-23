@@ -6,7 +6,7 @@ description: "Support Engineering workflow detailing how to work on US Governmen
 
 US Government Support generally follows the [working on tickets](/handbook/support/workflows/working-on-tickets#what-is-the-working-on-tickets-workflow) flow for global with a few exceptions.
 
-US Government Support has a number of engineers with [verified US Citizenship](#access-limited-to-us-citizens) that have a 100% focus on addressing new and existing cases in the US Government Support Portal. The agents focused on this instance should distribute effort and work new cases from the [Support view](https://gitlab-federal-support.zendesk.com/agent/filters/360196736831). When replying to a new case the agent making the public comment should also assign the case to themselves. Those without a 50% or higher focus on US Government but do have access to the instance are still encouraged to participate through pairing sessions, joining customer calls, and assisting with gaps in knowledge where possible. Non-fully focused global engineers are not encouraged to assign new cases to themselves.
+US Government Support has a number of engineers with [verified US Citizenship](#access-limited-to-us-citizens) that have a 100% focus on addressing new and existing cases in the US Government Support Portal. The agents focused on this instance should distribute effort and work new cases from the [Support view](https://gitlab-federal-support.zendesk.com/agent/filters/360196736831). Those without a 50% or higher focus on US Government but do have access to the instance are still encouraged to participate through pairing sessions, joining customer calls, and assisting with gaps in knowledge where possible. Non-fully focused global engineers are not encouraged to assign new cases to themselves.
 
 After 7 days of a case being in the `pending` state an automation will run that puts the case back into an `open` state. This allows for the agent to either [follow up with the user](#following-up) on the requested actions or move the case to a `solved` state if they believe the issue in the case is resolved.
 
@@ -63,22 +63,9 @@ Examples:
 
 The use of an acronym to discuss an organization is **not permitted** in either `#spt_us-government` or `#feed_zd-federal` channels to prevent disclosure of sensitive information.
 
-## Ticket assignment via round-robin
+## Daytime shift Ticket assignment via round-robin
 
-Tickets are assigned as they come in based on [a round-robin tool built by Support Ops](https://gitlab.com/gitlab-com/support/support-ops/zendesk-us-federal/ticket-round-robin). This tool creates a list of available support engineers by taking the total US Government dedicated support engineer list and then removing from that list anyone who has their [gitlab.com status](https://docs.gitlab.com/ee/user/profile/#set-your-current-status) set to one of the below options:
-
-**For out of office:** `OOO`, `PTO`, `Parental Leave`, `Family and Friends`
-
-**For in office, but occupied:** `Training`, `Overburdened`, `Project Deliverable`, `IT Problems`
-
-**Emoji also work** palm_tree, beach, beach_umbrella, beach_with_umbrella, ferris_wheel, thermometer, face_with_thermometer, red_circle, bulb, sun_with_face
-
-### Setting gitlab.com status to avoid ticket assignment when needed
-
-When you are out of the "office" or otherwise unable to handle more tickets, it is important to set your gitlab.com status to one of the above options. Please use the "Clear status after" option to ensure your status does not accidently remain in an unavailable state.
-
-- You can set your status manually from the user interface: <https://docs.gitlab.com/ee/user/profile/#set-your-current-status>.
-- Or you can set it through a script using the API: <https://docs.gitlab.com/ee/api/users.html#set-user-status>.
+Tickets are assigned as they come in based on [a round-robin tool built by Support Ops based on weights](https://gitlab.com/gitlab-com/support/support-ops/zendesk-us-federal/ticket-round-robin). This tool distributes cases based on the weights chosen by the SE. Default ticket weight is 1.
 
 ### Consolidating assignment for org tickets at the same time
 
@@ -97,6 +84,12 @@ In some cases, a single requester or org may create multiple tickets within a sh
 Getting help with a US Government ticket can be tricky since some information must be kept confidential. However, there are many times when a non-US Government engineer may be the subject matter expert needed to help efficiently resolve a US Government Support case. It is encouraged to ask questions in `#support_self-managed` and other Slack channels provided the [Communication Guidelines](#communication-guidelines) are followed.
 
 If you need a manager's help with a ticket, please keep in mind that only US Citizens have access to our US Government Instance, which means that some of our managers cannot help you with tickets. If you are a US Citizen working in US Government and your manager isn't, please feel free to reach out to a different manager if you are unable to address an issue without sharing confidential information.
+
+## Daily Crush Sessions
+
+The team schedules 3 crush sessions each day, 2 in the daytime, 1 in the evening. There is a zoom link in the calendar invite on the USGovernment shared calendar.
+
+If a crush thread does not exist, create one to notify others you have joined the crush.
 
 ### Discussion issues from tickets
 
