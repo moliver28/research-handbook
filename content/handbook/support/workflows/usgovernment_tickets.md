@@ -65,7 +65,12 @@ The use of an acronym to discuss an organization is **not permitted** in either 
 
 ## Daytime shift Ticket assignment via round-robin
 
-Tickets are assigned as they come in based on [a round-robin tool built by Support Ops based on weights](https://gitlab.com/gitlab-com/support/support-ops/zendesk-us-federal/ticket-round-robin). This tool distributes cases based on the weights chosen by the SE. Default ticket weight is 1.
+Tickets are assigned as they come in based on [a round-robin tool built by Support Ops based on weights](https://gitlab.com/gitlab-com/support/support-ops/zendesk-us-federal/ticket-round-robin). This tool considers the overall weight of all non-solved cases assigned to an engineer and distributes the next new case to the engineer with the lowest overall queue weight.
+
+When a case is assigned the recipient should consider the difficulty of the case matter and determine if increasing the weight is merrited. A weight of 3 indicates the most difficult case, typically these require replication or deep-dive efforts. A weight of 2 indicates a moderate effort is required to address the customer issue. A weight of 1 is the default and lowest avialable weight. Weight 5 should be reserved for emergency cases only.
+
+An engineer can also re-assess the weight of a case throughout the duration of the case if the subject matter has increased or decreased in difficulty.
+
 
 ### Consolidating assignment for org tickets at the same time
 
