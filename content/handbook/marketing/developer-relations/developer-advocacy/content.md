@@ -35,7 +35,7 @@ Product tours are a self-guided journey emphasizing the 'What' of a feature, ski
 
 1. Keep the product tours concise, ideally consisting of 8 to 12 steps, each highly focused on delivering clear value. In contrast, demos in documentation may adopt a more instructional "how-to" approach with longer steps.
 1. Consider adding links to relevant blog posts or documentation within tooltips or modals to provide users with further context or resources.
-1. In the demo settings, undere 'theme' select 'Gitlab Branding [Navattic Team]'. 
+1. In the demo settings, under 'theme' select 'GitLab Branding [Navattic Team]'. 
 1. Navattic supports two types of screen captures: Web and Screenshots. It's recommended to use web captures for an 'in-product' feel, but in some cases, due to Navattic product limitations, you may find that web capture doesn't work well for some pages. In such cases, use screenshots instead. Here are some guidelines for screenhots capturing:
 - Open your browser at 1920x1080 resolution (Full HD). You can use [Window Resizer](https://chromewebstore.google.com/detail/window-resizer/kkelicaakdanhinjdeammmilcgefonfh) to set the resolution.
 - Open GitLab UI in full screen and capture only the GitLab UI (avoid including the Chrome toolbar or the MAC menu).
