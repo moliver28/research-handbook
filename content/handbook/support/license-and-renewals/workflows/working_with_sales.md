@@ -45,7 +45,16 @@ description: This page is about working with sales.
 
 ##### If the Salesforce `Account Owner` is `AMER|EMEA|APAC SMB Sales User`
 
+Customers with an Account Owner of `AMER|EMEA|APAC SMB Sales User` are managed by the SMB Advocate Team. They primarily work out of SFDC cases, in alignment with the [Global Digital SMB Sales Model](https://handbook.gitlab.com/handbook/sales/commercial/global_digital_smb/#global-digital-smb-sales-model).
+
 - Follow this [process](https://handbook.gitlab.com/handbook/sales/commercial/global_digital_smb/#working-with-the-global-digital-smb-account-team) to create a case.
+
+{{% alert title="IMPORTANT" color="warning" %}}
+
+Case creation can only be performed by the nominated Support Engineers listed [here](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/5875#sfdc-case-creators). Case Creators will be responsible for manually creating cases using this [process](https://handbook.gitlab.com/handbook/sales/commercial/global_digital_smb/#working-with-the-global-digital-smb-account-team) for an interim period, whilst tooling enhancement is being developed to automate case creation in future.
+
+{{% /alert %}}
+
   - Once a case is created, it will be picked up by an SMB Advocate.  Once picked up, the SMB Adovate will drop a note in the Zendesk ticket advising that the request is being actioned.
   - The case can then be tracked by viewing the `Case Status` field, and `Case Next Steps` field.
   - Support Cases, and their current status, can be viewed on the SFDC account, or via this [SFDC Report](https://gitlab.my.salesforce.com/00OPL000000toc5).
