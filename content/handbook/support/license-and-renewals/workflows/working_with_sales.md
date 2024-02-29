@@ -61,8 +61,8 @@ Case creation can only be performed by the nominated Support Engineers listed [h
 
 - If the Support Engineer does not have Salesforce access, post a message in the [**#smb-pooled-ae**](https://gitlab.slack.com/archives/C036C3W83U1) slack channel.
 - In your post, include:
-  - details of the request
-  - the Zendesk ticket link
+    - details of the request
+    - the Zendesk ticket link
 - Note: Chattering the group or creating a slack post, instead of creating a Salesforce case, will result in a delayed response.  Chatters and slack messages can also not be tracked.
 
 ##### If the Salesforce `Account Owner` is not a person and is not `<@AMER|@EMEA|@APAC> SMB Sales` User
