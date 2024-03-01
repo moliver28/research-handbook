@@ -49,11 +49,7 @@ Customers with an Account Owner of `<@AMER|@EMEA|@APAC> SMB Sales User` are mana
 
 {{% alert title="IMPORTANT" color="warning" %}}
 
-`Interim Process 2024-02-29`: Case creation can only be performed by the nominated Support Engineers listed [here](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/5875#sfdc-case-creators). If you 
-are are not listed as a Case Creator, please handover the ticket to one of the case creators listed, 
-as they will be responsible for manually creating cases using this 
-[process](https://handbook.gitlab.com/handbook/sales/commercial/global_digital_smb/#working-with-the-global-digital-smb-account-team). Tooling enhancement is being developed to 
-automate case creation - follow [issue](https://gitlab.com/gitlab-com/sales-team/field-operations/systems/-/issues/5039) for updates. {{% /alert %}}
+`Interim Process 2024-02-29`: Case creation can only be performed by the nominated Support Engineers listed [here](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/5875#sfdc-case-creators). If you are are not listed as a Case Creator, please handover the ticket to one of the case creators listed, as they will be responsible for manually creating cases using this [process](https://handbook.gitlab.com/handbook/sales/commercial/global_digital_smb/#working-with-the-global-digital-smb-account-team). Tooling enhancement is being developed to automate case creation - follow [issue](https://gitlab.com/gitlab-com/sales-team/field-operations/systems/-/issues/5039) for updates. {{% /alert %}}
 
 - Follow this [process](https://handbook.gitlab.com/handbook/sales/commercial/global_digital_smb/#working-with-the-global-digital-smb-account-team) to create a case.
   - Once a case is created, it will be picked up by an SMB Advocate.  Once picked up, the SMB Adovate will drop a note in the Zendesk ticket advising that the request is being actioned.
