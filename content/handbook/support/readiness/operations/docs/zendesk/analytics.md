@@ -14,13 +14,13 @@ making and increasing customer satisfaction and experience.
 
 We use two basic tools for Support Team Analytics:
 
-1. Explore 
+1. Explore
 1. Tableau
 
 ### Explore
 
-As per Zendesk, Zendesk Explore is designed to help you analyze, understand, and share
-your business information. Explore provides powerful, prebuilt reports that help you 
+As per Zendesk, Zendesk Explore is designed to help you analyze, understand, and share 
+your business information. Explore provides powerful, prebuilt reports that help you
 view and analyze key information about your customers, support resources, and more.
 
 In GitLab, Explore is SSOT for all reporting and analysis required for support team.
@@ -35,8 +35,8 @@ Following are the pages for in-depth knowledge of Zendesk Explore:
 
 ### Tableau
 
-Tableau is our new Enterprise Business Intelligence tool. Our Support Performance 
-Indicators, Key Reviews, SWIR are transitioning to Tableau as part of overall GitLab 
+Tableau is our new Enterprise Business Intelligence tool. Our Support Performance
+Indicators, Key Reviews, SWIR are transitioning to Tableau as part of overall GitLab
 deployment.
 
 Zendesk Data is uploaded [daily](https://gitlab.com/gitlab-data/gitlab-data-meltano/-/blob/main/meltano.yml#L326)
