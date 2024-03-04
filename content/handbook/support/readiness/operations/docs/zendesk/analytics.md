@@ -19,7 +19,7 @@ We use two basic tools for Support Team Analytics:
 
 ### Explore
 
-As per Zendesk, Zendesk Explore is designed to help you analyze, understand, and share 
+As per Zendesk, Zendesk Explore is designed to help you analyze, understand, and share
 your business information. Explore provides powerful, prebuilt reports that help you
 view and analyze key information about your customers, support resources, and more.
 
