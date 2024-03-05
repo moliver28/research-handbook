@@ -11,7 +11,7 @@ The Accounting Operations function is responsible for the strategy and leadershi
 
 ### Director, Accounting Operations
 
-The Director, Accounting Operations job family leads our Accounting Shared Services teams including Payroll and Accounts Payable. The Director, Accounting Operations is responsible for the leadership, strategy, and execution of Accounting Operations, including developing policies and procedures to enable the attainment of key corporate and business objectives.
+The Director, Accounting Operations leads our Accounting Shared Services teams including Payroll and Accounts Payable.
 
 #### Director, Accounting Operations Job Grade
 
@@ -46,7 +46,7 @@ The Director, Accounting Operations is a [grade 10](/handbook/total-rewards/comp
 
 ### VP, Accounting Operations
 
-The VP, Accounting Operations job family leads our Accounting Shared Services teams including Payroll, Accounts Payable, Commissions, and Billing Operations and Accounts Receivable. The VP, Accounting Operations is responsible for the leadership, strategy, and execution of Accounting Operations, including developing policies and procedures to enable the attainment of key corporate and business objectives.
+The VP, Accounting Operations is responsible for the leadership, strategy, and execution of Accounting Operations, including developing policies and procedures to enable the attainment of key corporate and business objectives.
 
 This role reports to the VP, Chief Accounting Officer.
 
@@ -56,7 +56,7 @@ The VP, Accounting Operations is a grade 12.
 
 #### VP, Accounting Operations Responsibilities
 
-- Serve as a key contributor to the development of the operational and system road map for finance
+- Serve as the key leader in the development of the operational and system road map for finance
 - Responsible for leading system and process improvement across the organization, especially in the areas of Payroll, Accounts Payable, Billing Operations and Commissions
 - Ensure efficient day-to-day operations across the finance organization through the management and execution of best practices in all internal processes and systems
 - Develop unified desktop procedures across the organization to enable better training across the organization
@@ -73,7 +73,7 @@ The VP, Accounting Operations is a grade 12.
 #### VP, Accounting Operations Requirements
 
 - 15+ years of progressive growth in financial management roles in high growth companies, Software/SaaS industry experience is preferred
-- 3+ years in a finance operations role, leading various finance operations functions
+- 10+ years in a finance operations role, leading various finance operations functions
 - Knowledge of Coupa and Workday preferred
 - You share our values, and work in accordance with those values
 - Leadership at GitLab
