@@ -55,7 +55,7 @@ Customers with an Account Owner of `<@AMER|@EMEA|@APAC> SMB Sales User` are mana
   - Once a case is created, it will be picked up by an SMB Advocate.  Once picked up, the SMB Adovate will drop a note in the Zendesk ticket advising that the request is being actioned.
   - The case can then be tracked by viewing the `Case Status` field, and `Case Next Steps` field.
       - Support Cases, and their current status, can be viewed on the SFDC account, or via this [SFDC Report](https://gitlab.my.salesforce.com/00OPL000000toc5).
-  - If the customer mentions in ZD that they have not yet heard from anyone in the Sales team, tag `@smb-advocate` in a Slack message in `#support_to_sales_escalation`. 
+  - If the customer mentions in ZD that they have not yet heard from anyone in the Sales team, tag `@smb-advocate` in a Slack message in `#support_to_sales_escalation`.
     - Suggested message text in Slack:
       > Following the "Working with Sales workflow" I'm escalating support ticket <https://gitlab.zendesk.com/agent/tickets/><ticket number\> as we haven't heard from the SMB Advocate Team within the agreed upon time.
 
