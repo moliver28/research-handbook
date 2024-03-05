@@ -1,14 +1,6 @@
 ---
-
 title: "Feature flags in development of GitLab"
 ---
-
-
-
-
-
-
-
 
 **NOTE**:
 The content below covers feature flags used by GitLab to deploy its own features, which **is not** the same
