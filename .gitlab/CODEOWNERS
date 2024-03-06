@@ -449,6 +449,9 @@
 /content/job-families/product/ @david @vkarnes @mflouton @justinfarris @hbenson
 /content/handbook/product/fulfillment-guide.md @ofernandez2
 
+^[professional-services]
+/content/handbook/customer-success/professional-services-engineering/ @bryan-may @klake
+
 ^[sales]
 /content/handbook/resellers/ @ecepulis
 /content/handbook/resellers/training.md @chrisweber44  @ecepulis
