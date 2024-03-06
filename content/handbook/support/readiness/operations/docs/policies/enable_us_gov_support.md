@@ -1,10 +1,10 @@
 ---
 title: Enabling US Government Support
-description: Support Operations policies page for enabling US Government Support for non-eligible accounts
+description: Support Operations policies page for enabling US Government Support for organizations that don't sync automatically
 canonical_path: "/handbook/support/readiness/operations/docs/policies/enable_us_gov_support"
 ---
 
-## Who is entitled to US Government Support by default?
+## Which organizations sync to the US Government instance by default?
 
 As the exact conditions of this can change at any time, it is best to refer to
 our documentation page on the ZD-SFDC sync, specially the section concerning the
@@ -43,7 +43,7 @@ Should any of those checks fail, an email will be sent to the requester via
 Mailgun indicating the request was not able to be processed (indicating the
 checks it did not pass).
 
-Should It not fail any of those checks, an issue is then created within our
+If all checks pass, an issue is then created within our
 [issue tracker](https://gitlab.com/gitlab-com/support/support-ops/support-ops-project)
 for us to work.
 
