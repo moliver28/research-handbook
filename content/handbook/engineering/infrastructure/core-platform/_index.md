@@ -116,24 +116,18 @@ Engineering managers are encouraged to make as many updates as needed throughout
 
 The nature of the work primarily done by most Core Platform groups calls for backend heavy roadmaps and backlogs. This means that frontend (FE) development work can be "stop-and-go" and typically does not warrant the need for a full-time FE developer assigned to those groups. However, when work does come up it can be overwhelming for the group in question, or they may not have the necessary FE development skills to complete the task.
 
-To address this need, the enablement sub-department has established a cross-group frontend development process. The objective is to have **extra** frontend engineering capacity readily available to help all enablement groups with frontend development work overload while avoiding going through formal [borrow requests](/handbook/product/product-processes/#borrow) and their process overhead. This also has the added benefit of having some level of technical oversight that supports a consistent frontend architecture across groups.
+To address this need, the Core Platform sub-department has established a cross-group frontend development process. The objective is to have **extra** frontend engineering capacity readily available to help all enablement groups with frontend development work overload while avoiding going through formal [borrow requests](/handbook/product/product-processes/#borrow) and their process overhead. This also has the added benefit of having some level of technical oversight that supports a consistent frontend architecture across groups.
 
-The process itself consists of managing a unified enablement frontend roadmap and backlog. The DRI of this process is the Engineering Manager of Geo (@juan-silva). While the frontend engineers' primary focus is still their own groups' roadmap, they can be made available for this backlog based on demand, availability, and overall priority assessment upon agreements between respective groups' PMs and EMs coordinated by the DRI.
+List of frontend collaborations:
 
-The roadmap is depicted in the table below. This roadmap is reviewed regularly on a monthly cadence during one of the Core Platform staff meetings. Additionally, ad-hoc planning sessions can be scheduled on request by other Core Platform EMs, when more prioritization is needed to balance the needs of different group stakeholders.
-
-| Group | Roadmap Item | Milestones | Links | Notes
+| Engineer | Group | Roadmap Item | Links | Notes
 | ------ | ------ | ------ | ------ | ------ |
-| Global Search | GitLab Chat | 16.0 | [MVC Epic](https://gitlab.com/groups/gitlab-org/-/epics/10220)
-| Tenant Scale | Migrate user tabs to Vue | 16.1 | [Epic](https://gitlab.com/groups/gitlab-org/-/epics/9056)
+| Zack Cuddy | Global Search | [GitLab Chat](https://gitlab.com/groups/gitlab-org/-/epics/10220) | 16.0 | |
+| Zack Cuddy | Tenant Scale | [Migrate user tabs to Vue](https://gitlab.com/groups/gitlab-org/-/epics/9056) | 16.1 | |
+| Zack Cuddy | Tenant Scale | [Organization MVC](https://gitlab.com/groups/gitlab-org/-/epics/10649) | 16.2 - 16.10 | Part-time |
+| Zack Cuddy | Tenant Scale | [Organization MVC](https://gitlab.com/groups/gitlab-org/-/epics/10649) | 16.11 - Present | Full-time |
 
-
-Effort is based on T-shirt sizes as follows:
-Small = Up to 1 week, Medium = 2-6 weeks, Large = 2-3 months, XL = more than 3 months
-
-As the frontend roadmap items above are broken down into specific Epics and Issues, they are added to each individual group's backlog using that group’s own labels. Additionally, those issues must be labelled with `Core Platform-FE`.
-
-New issues must initially be labeled `workflow::planning breakdown` where they can be assessed from a technical perspective and estimated accordingly. From there, issues are expected to follow the workflow steps outlined in the [Core Platform Frontend Backlog](https://gitlab.com/groups/gitlab-org/-/boards/5604213) board. Geo's FE Engineer is the DRI for updating the board regularly as development progresses.
+The frontend roadmap items above are broken down into specific epics and issues, and they can also be labelled with `Core Platform-FE` tracked in the [Core Platform Frontend Backlog](https://gitlab.com/groups/gitlab-org/-/boards/5604213) board.
 
 ### Increasing Efficiency through Documenting Decisions
 Documenting development decisions is another way to increase efficiency.  These decisions can be either in an issue explicitly stating that we will not work on this issue, the product category page for your group or a more formal decision log in your group's section of the handbook.  Whatever your chosen desitination, each group should try to maintain a [single source of truth](/handbook/values/#single-source-of-truth) for the decisions.  A recent example (without mentioning specific product name) had a development team researching an open source product to accelerate development time only to find out later that this research had been previously completed and the product was eliminated from consideration.  If this decision had been discoverable via documentation or issue it would have saved precious development time.
