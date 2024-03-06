@@ -365,7 +365,7 @@ JCLs should be treated like contracts, where RSUs are only features in US ones a
     - Body of the email : Expand the Text expander snippet “GCtogermancounsel”
     - Attachment : CES to attach the unsigned PDF JCL
 1. In order to inform the candidate regarding the physical copies sent out via post, go to the Greenhouse profile of the ​​candidate, using the “email the “candidate name” function, select the template “German Job Change Letter already sent to counsel”.
-1. Once the candidate has confirmed that they have received the physical JCL in mail, CES will send the email template “German Job Change Letter step 2” to the candidate and close out the issue. 
+1. Once the candidate has confirmed that they have received the physical JCL in mail, CES will send the email template “German Job Change Letter step 2” to the candidate and close out the issue.
 
 ## Rehires
 
