@@ -42,12 +42,11 @@ If there is some concern that the time commitment required for a G&D application
 
 When a manager approves a G&D request, they are communicating that the growth experience is in line with the skills development for the team member (requestor) and this experience helps them in their contributions to overall team performance. Managers are approving the time and financial investment. If requests do not align with role/team performance and GitLab's focus on results for customers. Managers should be able to speak to the WHAT and HOW behind the request. This should drive ongoing performance and application conversations. In addition, these growth experiences should inform inputs into the Talent Assessment.
 
-**Updated Cost Tiers Approval:**
+**Approval Requirements**
 
 1. Manager Approval: $0-$1000
-    1. Direct manager approval
-1. VP Approval: $1000.01 - $5000
-1. eGroup Approval for any spend beyond $5000
+1. Manager AND VP Approval: $1000.01 - $5000
+1. Manager AND eGroup Approval for any spend beyond $5000
     1. Sales: $5000+ approval by VP
 
 
