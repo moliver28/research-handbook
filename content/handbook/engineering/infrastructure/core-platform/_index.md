@@ -94,13 +94,13 @@ We use issues to communicate status asynchronously. The reporting issues reside 
 
 Engineering managers are encouraged to make as many updates as needed throughout the week.
 
-1. Open the weekly issue for your team, for example [Database](https://gitlab.com/gitlab-org/enablement-section/enablement-status-update/-/issues/50).
-2. Edit the issue description and apply the issue template [group-weekly-status](https://gitlab.com/gitlab-org/enablement-section/enablement-status-update/-/blob/main/.gitlab/issue_templates/group-weekly-status.md).
+1. Open the weekly issue for your team, for example [Database](https://gitlab.com/gitlab-org/core-platform-section/status-update/-/issues/50).
+2. Edit the issue description and apply the issue template [group-weekly-status](https://gitlab.com/gitlab-org/core-platform-section/status-update/-/blob/main/.gitlab/issue_templates/group-weekly-status.md).
 3. Fill in the content in the issue description.
 
 #### To review Core Platform weekly async updates
 
-1. All issues with the `~Core Platform::Weekly-Update` label are summarized in weekly and monthly issues, for example [W23 Core Platform Sub-Dept Status Summary (2022-06-12 - 2022-06-18)](https://gitlab.com/gitlab-org/enablement-section/enablement-status-update/-/issues/13), [M6 Enablement Sub-Dept Status Summary (Jun 2022)](https://gitlab.com/gitlab-org/enablement-section/enablement-status-update/-/issues/6).
+1. All issues with the `~Core Platform::Weekly-Update` label are summarized in weekly and monthly issues, for example [W23 Core Platform Sub-Dept Status Summary (2022-06-12 - 2022-06-18)](https://gitlab.com/gitlab-org/core-platform-section/status-update/-/issues/13), [M6 Enablement Sub-Dept Status Summary (Jun 2022)](https://gitlab.com/gitlab-org/core-platform-section/status-update/-/issues/6).
 2. You are encouraged to comment and ask questions in weekly async update issues.  This provides useful feedback to the author and opportunities to collaborate.
 
 #### Benefits of reporting and reviewing status async vs. synchronously in meetings
