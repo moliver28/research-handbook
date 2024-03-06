@@ -43,7 +43,7 @@ If you determine that a meeting is needed to move a project forward, address a b
 1. Follow GitLab's [smart notetaking guidance]({{< ref "communication#smart-note-taking-in-meetings" >}}) by taking notes inline with the agenda rather than using a separate "notes" section. Real-time note-taking by multiple participants is encouraged.
 1. If you're not talking in the meeting, at any given time, help take notes. If there isn’t a note taker listed in the document at the start of the meeting, people should self-note-take. Consider asking other people to write down the answers in real-time to allow the person who asked the question to focus on the answer. The person asking the question can touch up the answer when the conversation has moved on to something less relevant to them.
 1. Notes should be properly indented and structured to follow the conversation's flow.
-1. Notes do not have to be verbatim, but they should capture key points made and be clear on any decisions or next steps. 
+1. Notes do not have to be verbatim, but they should capture key points made and be clear on any decisions or next steps.
 1. Preface questions and answers with the participant's name, giving context to the origin.
 
 ### Inclusion and transparency in meetings
