@@ -50,7 +50,7 @@ directly with the customer by default. If you think sharing the log entry would
 benefit the customer, please read
 [Sharing internal logs, data & graphs]({{< ref "dedicated#sharing-internal-logs-data--graphs" >}}).
 
-GitLab Dedicated customers can request [access to application logs](https://docs.gitlab.com/ee/administration/dedicated/#access-to-application-logs).
+GitLab Dedicated customers can request [access to application logs](https://docs.gitlab.com/ee/administration/dedicated/configure_instance.html#access-to-application-logs).
 
 #### Sharing log links within GitLab
 
@@ -204,7 +204,7 @@ You can now read through the Sidekiq logs related to that specific pipeline.
 
 #### Identify who viewed CI/CD Variables
 
-While we do not specifically log *changes* made to CI/CD variables in our [audit logs for group events](https://docs.gitlab.com/ee/administration/audit_events.html#group-events), there is a way to use Kibana to see who may have viewed the variables page. Viewing the variables page is required to change the variables in question. While this does *not* necessarily indicate someone who has viewed the page in question has made changes to the variables, it should help to narrow down the list of potential users who could have done so. (If you'd like us to log these changes, we have [an issue open here to collect your comments](https://gitlab.com/gitlab-org/gitlab/-/issues/8070).)
+While we do not specifically log *changes* made to CI/CD variables in our [audit logs for group events](https://docs.gitlab.com/ee/administration/audit_event_reports.html#group-audit-events), there is a way to use Kibana to see who may have viewed the variables page. Viewing the variables page is required to change the variables in question. While this does *not* necessarily indicate someone who has viewed the page in question has made changes to the variables, it should help to narrow down the list of potential users who could have done so. (If you'd like us to log these changes, we have [an issue open here to collect your comments](https://gitlab.com/gitlab-org/gitlab/-/issues/8070).)
 
 1. Select **Add filter**
 1. Click **Select a field first**
@@ -217,7 +217,7 @@ You now have a list of logs to sort through. You can get a bit more information 
 
 #### Retrieve and inspect SAML Responses
 
-When [troubleshooting](https://docs.gitlab.com/ee/user/group/saml_sso/troubleshooting.html) unexpected behavior in [instance-wide SAML single sign on (SSO)](https://docs.gitlab.com/16.4/ee/integration/saml.html) for GitLab Dedicated customers, you can use Opensearch to retrieve the SAML response.
+When [troubleshooting](https://docs.gitlab.com/ee/user/group/saml_sso/troubleshooting.html) unexpected behavior in [instance-wide SAML single sign on (SSO)](https://docs.gitlab.com/ee/integration/saml.html) for GitLab Dedicated customers, you can use Opensearch to retrieve the SAML response.
 
 1. Select **Add filter**
 1. Click **Select a field first**
