@@ -36,6 +36,7 @@ CI Catalog GA Epic: [https://gitlab.com/groups/gitlab-org/-/epics/12153](https:/
   - [Table creation for component tracking usage](https://gitlab.com/gitlab-org/gitlab/-/issues/440382) (In-Dev)
 - CI/CD [Components](https://gitlab.com/groups/gitlab-org/-/epics/12336) to GA
   - [`~latest` returns latest semantic version](https://gitlab.com/gitlab-org/gitlab/-/issues/442238) (Complete)
+  - [Migrate Versions to follow SemVer convention](https://gitlab.com/gitlab-org/gitlab/-/issues/444303) (In-Review)
 
 #### Additional Important Notes:
 
@@ -50,7 +51,7 @@ CI Catalog GA Epic: [https://gitlab.com/groups/gitlab-org/-/epics/12153](https:/
 - CI/CD Catalog UX improvements
   - [Reorganize information on component detail page](https://gitlab.com/gitlab-org/gitlab/-/issues/438262)
   - [Add badges for components](https://gitlab.com/gitlab-org/gitlab/-/issues/433443)
-- `release-cli` pre-GA [tasks](https://gitlab.com/gitlab-org/gitlab/-/issues/442066) (Remaining roll over)
+- `release-cli` pre-GA [tasks](https://gitlab.com/gitlab-org/gitlab/-/issues/442066) (Remaining rollover)
 - [Inputs](https://gitlab.com/groups/gitlab-org/-/epics/12464) to GA 
   - [Backend: CI interpolation with arrays](https://gitlab.com/gitlab-org/gitlab/-/issues/407176) (Remaining rollover)
 
