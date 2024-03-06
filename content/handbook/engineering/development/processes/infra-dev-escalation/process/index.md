@@ -149,13 +149,13 @@ One engineer must be on-call at all times on weekends and company holidays. This
 must allocate 756 4-hour shifts.
 
 The total number of shifts is divided among the eligible engineers. This is
-the minimum number of shifts any one engineer is expected to do. As of January
-2021 we have around 157 eligible engineers, this means each engineer is
-expected to do 8 shifts per year, or 2 shifts per quarter.
+the minimum number of shifts any one engineer is expected to do. As of February
+2024 we have around 206 eligible engineers, this means each engineer is
+expected to do 4 shifts per year, or 1 shift per quarter.
 
 In general, engineers are free to choose which shifts they take across the
 year. They are free to choose shifts that are convenient for them, and to
-arange shifts in blocks if they prefer. A few conditions apply:
+arrange shifts in blocks if they prefer. A few conditions apply:
 
 - No engineer should be on call for more than 3 shifts in a row (12 hours),
  with 1-2 being the norm
@@ -233,10 +233,10 @@ There is additional information regarding weekend shifts, which can be found in 
     - Anything that helps bring the next on-call engineer up to speed quickly
 
       These summary items should be in written format in the following locations:
-      
+
         - _Existing_ threads in [#dev-escalation](https://gitlab.slack.com/messages/CLKLMSUR4)
         - Incident tracking issues
-    
+
       This shall be completed at the end of shifts to hand over smoothly.
 - For current Infrastructure issues and status, refer to [Infra/Dev Triage](https://gitlab.com/groups/gitlab-org/-/boards/1193197?&label_name[]=gitlab.com&label_name[]=infradev) board.
 - For current Production incident issues and status, refer to [Production Incidents](https://gitlab.com/gitlab-com/gl-infra/production/-/boards/1717012?label_name[]=incident) board.
