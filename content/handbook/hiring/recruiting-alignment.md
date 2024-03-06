@@ -23,7 +23,7 @@ description: "This page is an overview of the search team alignment and the tale
 | G&A | Jenna VanZutphen  | Fernando Khubeir |
 | G&A | Aiste Juozaponyte  | Fernando Khubeir |
 | Engineering, Development | Matt Angell, Chux Ugorji | Alice Crosbie |
- Engineering, Development | Sara Currie | Jazmin Armstrong |
+| Engineering, Development | Sara Currie | Jazmin Armstrong |
 | Engineering, Development | Heather Tarver | Sarah Lynch |
 | Engineering, Development | Joe Guiler, Seema Anand, Anna Kioukis | Teranay Dixon |
 | Engineering, Infrastucture   | Maxx Snow | Teranay Dixon  |
