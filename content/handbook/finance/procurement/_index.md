@@ -149,7 +149,7 @@ Requests can take 5 days to 3+ weeks for processing depending on a number of fac
 
 Each review’s targeted approval time is outlined below, but as mentioned above, this is dependent on many factors and the accuracy and completeness of information provided by the requester. If your request meets any of the additional approval criterias outlined below, please plan accordingly and submit your Zip request allowing each cross-functional team enough time to complete their review. Please follow the [steps outlined for urgent requests](#what-if-i-have-an-urgent-request) that cannot meet the below timeline and have specific and quantifiable impact to the business.
 
-#### 1.A. Buyer Review (Procurement): 2 days
+#### 1.A. Buyer Review (Procurement): 1 days
 
 - Ensure you have the approprate contract documents uploaded when you submit your request
 - The $ amount of the req matches the contract value and the correct billing codes are selected
