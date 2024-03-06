@@ -21,13 +21,6 @@ If you know someone who might be interested in attending, feel free to share the
 
 ### AMER Time Zone Webinars & Labs
 
-#### Intro to CI/CD
-##### March 5th, 2024 at 9:00-10:00AM Pacific Time / 12:00-1:00PM Eastern Time
-
-Come learn about what CI/CD is and how it can benefit your team. We will cover an overview of CI/CD and what it looks like in GitLab. We will also cover how to get started with your first CI/CD pipeline in GitLab and the basics of GitLab Runners.
-
-[<button class="btn btn-primary" type="button">Register</button>](https://gitlab.zoom.us/webinar/register/WN_fNvd2e2ERuO5eAzg5y2-cw#/registration)
-
 #### Hands-On GitLab CI Lab 
 ##### March 6th, 2024 at 9:00-11:00AM Pacific Time / 12:00-2:00PM Eastern Time
 
@@ -84,13 +77,6 @@ We will cover:
 
 ### EMEA Time Zone Webinars & Labs
 
-#### Intro to CI/CD
-##### March 5th, 2024 at 10:00-11:00AM UTC / 11:00AM-12:00PM CET
-
-Come learn about what CI/CD is and how it can benefit your team. We will cover an overview of CI/CD and what it looks like in GitLab. We will also cover how to get started with your first CI/CD pipeline in GitLab and the basics of GitLab Runners.
-
-[<button class="btn btn-primary" type="button">Register</button>](https://gitlab.zoom.us/webinar/register/WN_aiNx19WlQUODl8UmS5cmhA#/registration)
-
 #### Hands-On GitLab CI Lab 
 ##### March 6th, 2024 at 10:0AM-12:00PM UTC / 11:00AM-1:00PM CET
 
@@ -144,24 +130,6 @@ We will cover:
 - Triggering downstream pipelines
 
 [<button class="btn btn-primary" type="button">Register</button>](https://gitlab.zoom.us/webinar/register/WN_e_bF-NCjRHOJBXGREyWcbA#/registration)
-
-
-### APJ Time Zone Webinars & Labs
-
-#### Advanced CI/CD
-##### March 5th, 2024 at 11:30AM-12:30PM India / 1:00-2:00PM Indonesia / 2:00-3:00PM Singapore / 5:00-6:00PM Sydney
-
-Expand your CI/CD knowledge while we cover advanced topics that will accelerate your efficiency using GitLab, such as pipelines, variables, rules, artifacts, and more. This session is intended for those who have used CI/CD in the past.
-
-[<button class="btn btn-primary" type="button">Register</button>](https://gitlab.zoom.us/webinar/register/WN_O075aLVnRiOwhJA3rC0EyA#/registration)
-
-#### Security and Compliance
-##### March 6th, 2024 at 7:30-8:30AM India / 9:00-10:00AM Indonesia / 10:00-11:00AM Singapore / 1:00-2:00PM Sydney
-
-GitLab enables developers and security to work together in a single tool, allowing for proactive security or “shifting left”. This session will cover what GitLab offers, how scan results integrate seamlessly with merge requests, and how to use the Security Dashboard to manage vulnerabilities.
-
-[<button class="btn btn-primary" type="button">Register</button>](https://gitlab.zoom.us/webinar/register/WN_QDruIUyuSZOMx59qkHX9rA#/registration)
-
 
 Check back later for more webinars & labs! 
 
