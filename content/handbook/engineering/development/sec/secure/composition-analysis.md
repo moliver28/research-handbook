@@ -374,6 +374,9 @@ needed for [Operational Container Scanning](https://docs.gitlab.com/ee/user/clus
 
 The OCS module is part of the [`gitlab-agent`](https://gitlab.com/gitlab-org/cluster-integration/gitlab-agent) project which is maintained by the `Environments` group. The `Composition Analysis` group is responsible for maintaining only the OCS module.
 
+### Semver dialects gem
+
+- [semver_dialects](https://gitlab.com/gitlab-org/ruby/gems/semver_dialects)
 
 ### Upstream scanner mirrors
 
