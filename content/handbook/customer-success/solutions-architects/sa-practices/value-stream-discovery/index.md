@@ -20,7 +20,28 @@ This spectrum of approaches, from simple dialogues to intensive workshops, ensur
 
 ## Value Stream Discovery Sessions
 
-TBD.
+Value Stream Discovery (VSD) aims to gain a clear understanding of how an organization or a set of teams delivers value to its customers. VSD can be conducted using a variety of techniques, depending on objectives, time commitment, and the available level of customer/team engagement.
+
+Here are some common Value Stream Discovery techniques:
+
+* **Discovery Session (with Value Stream Concepts):** Integrate value stream mapping concepts into standard discovery sessions. This aligns well with GitLab's [Command of the Message](https://handbook.gitlab.com/handbook/sales/command-of-the-message/) approach, focusing on understanding the customer's current state, future desired state, and the metrics they'll use to measure success.  It's vital to grasp how the customer's value stream ties into achieving their larger business goals.
+
+* **"Day in the Life":** Leverage the established ["Day in the Life" SA practice](https://handbook.gitlab.com/handbook/customer-success/solutions-architects/sa-practices/day-in-the-life/) to extract valuable value stream information. While initial observations might be limited to a single team, the resulting metrics and insights provide a valid foundation. Ideally, expand this exercise to involve multiple teams within the value stream for greater cross-functional visibility.
+
+* **Value Stream Discovery Session (Informal):** A focused session involving representatives from across the value stream. Less structured than a full workshop, it still prioritizes understanding the customer's value stream with the potential to identify immediate improvement areas if time allows.
+
+* **Value Stream Workshop:** A comprehensive approach detailed elsewhere in this handbook page ([link to relevant section]).
+
+### Choosing a Technique
+
+Factors to consider when selecting the most suitable approach include:
+
+* **Time constraints:** Simpler techniques are easier to fit into busy schedules.
+* **Level of Engagement:** Does the customer/team have the bandwidth for in-depth workshops, or would a less intensive approach be more suitable?
+* **Urgency:** Are there immediate pain points the value stream could address? Simpler techniques could offer faster insights.
+* **Desired Outcome:** Is the goal a high-level understanding, or a detailed action plan necessitating a full workshop?
+
+**Important Note:** Regardless of the technique selected, the core aim of Value Stream Discovery is to collaboratively understand the customer's process of delivering value, identify inefficiencies, and pinpoint opportunities for optimization.
 
 ## Value Stream Workshop
 
