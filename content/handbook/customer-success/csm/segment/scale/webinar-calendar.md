@@ -131,17 +131,6 @@ We will cover:
 
 [<button class="btn btn-primary" type="button">Register</button>](https://gitlab.zoom.us/webinar/register/WN_e_bF-NCjRHOJBXGREyWcbA#/registration)
 
-
-### APJ Time Zone Webinars & Labs
-
-#### Security and Compliance
-##### March 6th, 2024 at 7:30-8:30AM India / 9:00-10:00AM Indonesia / 10:00-11:00AM Singapore / 1:00-2:00PM Sydney
-
-GitLab enables developers and security to work together in a single tool, allowing for proactive security or “shifting left”. This session will cover what GitLab offers, how scan results integrate seamlessly with merge requests, and how to use the Security Dashboard to manage vulnerabilities.
-
-[<button class="btn btn-primary" type="button">Register</button>](https://gitlab.zoom.us/webinar/register/WN_QDruIUyuSZOMx59qkHX9rA#/registration)
-
-
 Check back later for more webinars & labs! 
 
 
