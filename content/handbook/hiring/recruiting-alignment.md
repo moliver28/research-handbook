@@ -13,17 +13,18 @@ description: "This page is an overview of the search team alignment and the tale
 | Enterprise Sales, EMEA | Joanna Tourne | Lerato Thipe |
 | Customer Success & Solutions Architect | Ornella Miles | Lerato Thipe |
 | Commercial Sales/R&D, EMEA | Ben Cowdry | Lerato Thipe |
-| Sales, AMER | Marcus Carter | Michelle Jubrey |
+| Sales, AMER | Marcus Carter | Jazmin Armstrong |
 | Sales | Kelsey Hart  | Fernando Khubeir |
 | Customer Success, AMER | Barbara Dinoff |  Sarah Lynch |
 | All Business, APAC | Yas Priatna  | Lerato Thipe |
 | Marketing/ G&A, Global | Steph Sarff | Michelle Jubrey |
 | Marketing, BDR/SDR/G&A (Global)| Caroline Rebello |  Michelle Jubrey |
-| G&A | Hannah Stewart  | Sarah Lynch |
+| G&A | Hannah Stewart  | Jazmin Armstrong |
 | G&A | Jenna VanZutphen  | Fernando Khubeir |
-| G&A | Aiste Juozaponyte  | TBD |
-| Engineering, Development | Sara Currie, Matt Angell, Chux Ugorji | Alice Crosbie |
-| Engineering, Development | Heather Tarver | Fernando Khubeir |
+| G&A | Aiste Juozaponyte  | Fernando Khubeir |
+| Engineering, Development | Matt Angell, Chux Ugorji | Alice Crosbie |
+| Engineering, Development | Sara Currie | Jazmin Armstrong |
+| Engineering, Development | Heather Tarver | Sarah Lynch |
 | Engineering, Development | Joe Guiler, Seema Anand, Anna Kioukis | Teranay Dixon |
 | Engineering, Infrastucture   | Maxx Snow | Teranay Dixon  |
 | Engineering, Infrastucture   | Michelle A. Kemp | Sarah Lynch  |
