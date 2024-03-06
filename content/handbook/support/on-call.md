@@ -30,9 +30,9 @@ You should not be chained to your desk, but you should be equipped to acknowledg
 
 Be proactive in communicating your availability. Sometimes you can't be *immediately* available for every minute of your on-call shift. If you expect to be unavailable for a short period of time, send an FYI in Slack.
 
-### Prepare ahead of your week
+### Prepare ahead of your shift
 
-Before your week begins, check [the Customer Events calendar](https://calendar.google.com/calendar/u/0/embed?src=c_8d5a8e9b8c3fc74901bad1799b18e8eafc9e499f7805f9c82f79f9d1e1f9ac4b@group.calendar.google.com) for any customer activities to be aware of. Familiarize yourself with the details of those events in case the customer ends up paging out for help.
+Before your scheduled on-call shift begins, check [the Customer Events calendar](https://calendar.google.com/calendar/u/0/embed?src=c_8d5a8e9b8c3fc74901bad1799b18e8eafc9e499f7805f9c82f79f9d1e1f9ac4b@group.calendar.google.com) for any customer activities to be aware of that may coincide with your shift. Familiarize yourself with the details of those events in case the customer ends up paging out for help.
 
 **Note:** the Customer Events calendar is also linked at the top of the [#support_self-managed](https://gitlab.enterprise.slack.com/archives/C4Y5DRKLK) Slack channel for quick reference.
 
