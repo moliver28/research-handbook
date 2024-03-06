@@ -22,7 +22,7 @@ This spectrum of approaches, from simple dialogues to intensive workshops, ensur
 
 Value Stream Discovery (VSD) aims to gain a clear understanding of how an organization or a set of teams delivers value to its customers. VSD can be conducted using a variety of techniques, depending on objectives, time commitment, and the available level of customer/team engagement.
 
-Here are some common Value Stream Discovery techniques:
+### Common Value Stream Discovery Techniques
 
 * **Discovery Session (with Value Stream Concepts):** Integrate value stream mapping concepts into standard discovery sessions. This aligns well with GitLab's [Command of the Message](https://handbook.gitlab.com/handbook/sales/command-of-the-message/) approach, focusing on understanding the customer's current state, future desired state, and the metrics they'll use to measure success.  It's vital to grasp how the customer's value stream ties into achieving their larger business goals.
 
@@ -30,7 +30,16 @@ Here are some common Value Stream Discovery techniques:
 
 * **Value Stream Discovery Session (Informal):** A focused session involving representatives from across the value stream. Less structured than a full workshop, it still prioritizes understanding the customer's value stream with the potential to identify immediate improvement areas if time allows.
 
-* **Value Stream Workshop:** A comprehensive approach detailed elsewhere in this handbook page ([link to relevant section]).
+* **Value Stream Workshop:** A comprehensive approach detailed [below in this handbook page](#value-stream-workshop).
+
+### Customer-Focused Techniques
+
+Since Value Stream Discovery aims to uncover challenges in delivering value to the end-user, techniques focusing on them can be valuable:
+
+* **Customer Journey Mapping:** Visualize the customer's experience as they interact with the value stream. Map touchpoints, identify pain points, and uncover opportunities to improve their journey, enhancing overall delivered value ([Lucidchart Overview](https://www.lucidchart.com/blog/how-to-build-customer-journey-maps)).
+
+* **Voice of the Customer (VOC):** Employ surveys, interviews, or user testing to collect direct feedback from end-users on their experience with the value stream. This qualitative data provides insights into their needs, frustrations, and areas for improvement ([Gainsight Overview](https://www.gainsight.com/essential-guides/voice-of-the-customer/)).
+
 
 ### Choosing a Technique
 
