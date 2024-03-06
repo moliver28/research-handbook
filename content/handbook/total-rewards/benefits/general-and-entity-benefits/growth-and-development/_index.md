@@ -248,34 +248,6 @@ Examples of where to connect with mentors:
 1. [MentorCruise](https://mentorcruise.com/)
 1. [Locelle](https://locelle.com/)
 
-## Example programs by department
-
-The following programs have been contributed by leaders across the organization. These programs may be approved under the Growth and Development policy. If you know of a specific course or program that you or a team member has benefited from, please open an MR and add to this page.
-
-| Department | Program | Notes |
-| ----- | ----- | ----- |
-| Any | [Crucial Conversations](/handbook/people-group/learning-and-development/learning-initiatives/crucial-conversations/) | `Crucial Conversations skills represent the standard in effective communication and the marker of high-performance individuals and organizations everywhere.` |
-| Any | [MIT Cultural Awareness for Global Business](https://professionalprograms.mit.edu/online-program-in-cultural-awareness-for-global-business/) | `help professionals improve their intercultural and global leadership skills so that they can succeed in today’s multicultural business environments.` |
-| Any | [MIT Leadership and Innovation](https://professionalprograms.mit.edu/online-program-leadership-and-innovation/) | `MIT Professional Education has created the online Leadership & Innovation program, which merges the development of leadership skills with the vision needed to address innovation processes in organizations.` |
-| Any | [MIT Professional Certification Program in Digital Transformation](https://professionalprograms.mit.edu/professional-certificate-in-digital-transformation/) | `designed reskilling and upskilling solutions, to help organizations build a culture of continuous education providing their employees with the knowledge and skills needed for the 4th Industrial Revolution.` |
-| Any | [Codecademy](https://www.codecademy.com/) | Review their [course catalog](https://www.codecademy.com/catalog) for all programs offered |
-| Any | [O'Reilly Technical Training](https://www.oreilly.com/online-learning/) | O’Reilly learning provides individuals, teams, and businesses with expert-created and curated information covering all the areas that will shape our future—including artificial intelligence, operations, data, UX design, finance, leadership, and more. Currently, O'Reilly licenses are available for Customer Success Team Members (Professional Services, Solutions Architects, and Customer Success Managers.) Access will be given automatically to these team members through a role-based entitlement. Team members in other groups can leverage the G&D fund to purchase a subscription at our discounted rate by contacting our sales rep, Jason Baca (jbaca@oreilly.com). |
-| Any | [Udemy](https://www.udemy.com/) | Online courses in a variety of content areas |
-| Any | [Coursera](https://www.coursera.org/) | Online courses in a variety of content areas |
-| Any | [LinkedIn Learning Certification Prep and Continuing Education](https://learning.linkedin.com/certification-and-continuing-education-programs) | `LinkedIn Learning offers on-demand courses to help individuals prepare for professional certification exams and earn continuing education units (CEU's)` |
-| Any | [Toastmasters Membership](https://www.toastmasters.org/) | For those looking to practice public speaking, improve communication and build leadership skills, joining a local Toastmasters group is a great opportunity to develop these skills in a supportive environment away from work. Recommended for those interested in [Becoming a Speaker](/handbook/marketing/corporate-communications/speaking-resources/)
-| Sales/Technical Sales/Marketing | [MIT Cloud and DevOps Online Program](https://professionalprograms.mit.edu/online-program-cloud-devops-continuous-transformation/) | `MIT Professional Education is proud to announce this new, practical program that will explain the vast technological transformation that has occurred in recent years. Content and activities are designed to allow participants to become part of this transformation through technologies such as DevOps and Cloud Computing.` |
-| Engineering Managers/Directors | [7CTOs](https://7ctos.com/) | Executive coaching for CTOs |
-| Engineering Managers/Directors | [PlatoHQ](https://www.platohq.com/) | Leadership mentorship for engineering teams |
-| Finance/Accounting | Licenses and CPE Credits | Program Examples: Certified public accountant, Certified financial analyst, Certified management accountant, Enrolled agent, Certified internal auditor, Certified fraud examiner, Chartered global management accountant, Certified Payroll Professional, Fundamental Payroll Certification |
-| Development and Product | [Certified Agile Leadership](https://www.scrumalliance.org/get-certified/agile-leadership/certified-agile-leadership) | `Scrum Alliance certified agilists who teach Certified Agile Leadership demonstrate years of real-world experience and success coaching agile teams and supporting agile transformations.` |
-| Security | [Defcon Conference](https://defcon.org/) | Our security department has a history of meeting yearly at this conference. Attendence is optional. Lodging, food, and ticket costs will be covered under the growth & development benefit.  Airfare may be covered by our travel budget - check with your manager. |
-| Security | [Defcon Trainings](https://defcon.org/) | Two-day courses that are held immediately following the normal Defcon conference. |
-| Security | [Black Hat Trainings](https://www.blackhat.com/trainings/) | Two to four-day courses held on a schedule not connected to the yearly conference. |
-| Security | [SANS Trainings](https://www.sans.org/) | Remote and in-person trainings and certifications. |
-| Security | [Offensive Security](https://www.offensive-security.com/) | Rigorous and specialized infosec training. |
-| Any | [The Power of Habit](https://cruciallearning.com/the-power-of-habit/) | 3-5 hours of self-paced learning. Read a review from GitLab team member [here](https://gitlab.com/gitlab-com/people-group/total-rewards/-/issues/597#note_1083831440) |
-
 ## Processing documentation for the Learning & Development team
 
 ### Administration of Your 4th Trimester
