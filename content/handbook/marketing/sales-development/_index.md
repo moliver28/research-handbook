@@ -922,7 +922,6 @@ The dashboard will now display the top actively working accounts in your name. D
 
 **(In each folder you will find a saved template that can be cloned and edited for your individual territories.)**
 
-
 | Folder | Usage |
 | ---- | ----- |
 | 1. AWA'd Accounts | These segments will display the top accounts in your current actively working list according to 6Sense intent data. By manually investigating each of those accounts you will be able to uncovered further prospect engagement data, and adjust your strategy in converting this account. This report has the same functionality as the SFDC dashboard outlined in step 2A. |
@@ -1312,9 +1311,6 @@ The corporate process is the same as the field process detailed above with the e
 - The first step is to put the prospect in [the Sequence](https://app1a.outreach.io/sequences/12883). From there customize the first email step to include the people mentioned in the Last Event Notes. You can also delay the time that the first email goes out so you have more time to get feedback from the SAE/AE if needed.
 - Next send a screenshot of the first email step to the SAE/AE's that will be CC'd. Explain to them that this strategy creates space for them to engage with more specific messaging if the prospect is unresponsive. NOTE: There is a generic task on Day 12 to reach out to the SAE/SA if there has not been any engagement. The goal is to keep them in the loop and for you to work together to engage the prospect.
 
-
-
-
 ## PubSec AMER BDRs
 
 The US PubSec team covers all US Agencies, US Government Contractors (Federal Systems Integrators), and US-based Universities. For interal questions about PubSec Lead routing, please contact Josh Downey.
@@ -1376,7 +1372,6 @@ Recurring SAE<>BDR/SDR meetings can be scheduled or take place on an as-needed b
 
 Slack is encouraged for informal communication, but anything related to strategy, approach, or outreach should be documented.
 
-
 ### Geo BDR Account Prioritization Model
 
 #### ICP - Ideal Customer Profile
@@ -1436,9 +1431,6 @@ Examples of the Outbound Prospecting Framework [Can be found here](https://docs.
 
 
 ## Expand and Territory Alignments
-
-
-
 
 ## Working with Sales
 BDRs should prioritize communication with the SAEs within territories they are aligned to. BDRs will organize and schedule a kickoff call to:
