@@ -76,7 +76,8 @@ The VP, Accounting Operations is a grade 12.
 - 10+ years in a finance operations role, leading various finance operations functions
 - Knowledge of Coupa and Workday preferred
 - You share our values, and work in accordance with those values
-- Leadership at GitLab
+- Have built and led a world class Accounting Operations function for scale
+- You have built and executed against a vision for a newer function
 - Ability to use GitLab
 
 
