@@ -26,8 +26,8 @@ Product Security Engineering will take potential work from several areas:
 To reach the Product Security Engineering team, team members can:
 
 - Ask in `#sec-product-security-engineering` on Slack
-- Mention `@gitlab-com/gl-security/product-security-engineering` on GitLab
-- Submit an issue in the [Product Security Engineering Team repository](https://gitlab.com/gitlab-com/gl-security/product-security-engineering/product-security-engineering-team/-/issues)
+- Mention `@gitlab-com/gl-security/product-security/product-security-engineering` on GitLab
+- Submit an issue in the [Product Security Engineering Team repository](https://gitlab.com/gitlab-com/gl-security/product-security/product-security-engineering/product-security-engineering-team/-/issues)
 
 ## Workflow
 
@@ -43,7 +43,7 @@ Depending on the nature of the work it is added either to:
 When we take on work:
 
 1. Add the `~"team::Product Security Engineering"` label
-1. For internal issues: ensure it meets the criteria defined in [Automation Request template](https://gitlab.com/gitlab-com/gl-security/product-security-engineering/product-security-engineering-team/-/blob/main/.gitlab/issue_templates/automation_request.md) for automation work, or
+1. For internal issues: ensure it meets the criteria defined in [Automation Request template](https://gitlab.com/gitlab-com/gl-security/product-security/product-security-engineering/product-security-engineering-team/-/blob/main/.gitlab/issue_templates/automation_request.md) for automation work, or
 1. For product issues:
     1. Identify the relevant PM/EM are based on `group::` labels. If there are no `group::` labels, make a best effort to figure out what group it would be relevant to.
     1. Ping the group's PM/EMs. Say that we're working on this issue, do your best to align with any existing efforts, and highlight that after release it will belong to their team (similar to a community contribution).
@@ -131,11 +131,11 @@ The Product Security Engineering team defaults to using the namespaces of the st
 
 - For contributions to GitLab assets, we contribute to the relevant repositories where other work is performed
 - For AppSec related work, we use the [AppSec tooling namespace](https://gitlab.com/gitlab-com/gl-security/appsec/tooling) unless there is a compelling reason not to
-- For our team's repositories, we use the [Product Security Engineering tooling namespace](https://gitlab.com/gitlab-com/gl-security/product-security-engineering/tooling)
+- For our team's repositories, we use the [Product Security Engineering tooling namespace](https://gitlab.com/gitlab-com/gl-security/product-security/product-security-engineering/tooling)
 
 ## References
 
 This new team is still in the formation process. For more context, team members can refer to these internal links:
 
-- [Our transition issues in `gitlab-com/gl-security/product-security-engineering/product-security-engineering-team/`](https://gitlab.com/groups/gitlab-com/gl-security/-/issues/?sort=created_date&state=opened&label_name%5B%5D=AppSec%3A%3ATransition&first_page_size=20)
+- [Our transition issues in `gitlab-com/gl-security/product-security/product-security-engineering/product-security-engineering-team/`](https://gitlab.com/groups/gitlab-com/gl-security/-/issues/?sort=created_date&state=opened&label_name%5B%5D=AppSec%3A%3ATransition&first_page_size=20)
 - [The announcement Google Doc](https://docs.google.com/document/d/19NO6S02fMF3FZWkrptpXEFp6x2g6L9fro4qYUuITOsw/edit)
