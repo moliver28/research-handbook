@@ -2,9 +2,6 @@
 title: "Accounting Operations"
 description: "The Accounting Operations function is responsible for the strategy and leadership of our Accounting shared services teams"
 ---
-# Accounting Operations
-
-The Accounting Operations function is responsible for the strategy and leadership of our Accounting shared services teams
 
 ## Levels
 
