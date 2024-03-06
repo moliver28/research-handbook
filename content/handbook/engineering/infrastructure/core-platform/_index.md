@@ -88,7 +88,7 @@ In order to embody GitLab [CREDIT values](/handbook/values/#credit), we take tea
 3. Highlights & Accomplishments
 4. Announcements & topics of interest to those reading the report
 
-We use issues to communicate status asynchronously. The reporting issues reside in [Core Platform Status Update](https://gitlab.com/gitlab-org/enablement-section/enablement-status-update) project. There are two types of report issues - issues for each group, stage, and Director; summary issues for each week and month for quick access. The creation of these issues is automated by scripts and a cron job in the same project. The summary issues are also updated regularly by the same cron job to pull the latest together.
+We use issues to communicate status asynchronously. The reporting issues reside in [Core Platform Status Update](https://gitlab.com/gitlab-org/core-platform-section/status-update) project. There are two types of report issues - issues for each group, stage, and Director; summary issues for each week and month for quick access. The creation of these issues is automated by scripts and a cron job in the same project. The summary issues are also updated regularly by the same cron job to pull the latest together.
 
 #### To make a weekly async update
 
