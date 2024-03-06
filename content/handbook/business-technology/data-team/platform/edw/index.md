@@ -21,7 +21,7 @@ The Production Database in the EDW is used for reporting and analysis by Data Co
 
 1. `WORKSPACE_`: This schema follows the [Ad-Hoc Data Development](/handbook/business-technology/data-team/data-development/#ad-hoc-data-development) process. This schema is where data modelers can experiment and prototype data solutions. The `WORKSPACE_` schema can also be used as a waypoint for models that need an EDM solution in the `COMMON_` schema. The `WORKSPACE_` should be selected for this and not the `SPECIFIC_` schema.
 
-1. `LEGACY_`: This schema is where data from our old modeling paradigm lives and is in the process of being deprecated by `2024-03-31`. The [Legacy Structure](/handbook/business-technology/data-team/platform/dbt-guide/#model-structure) is defined in the dbt guide.
+1. `LEGACY_`: This schema is where data from our old modeling paradigm lives and is in the process of being deprecated by `2025-01-31`. The [Legacy Structure](/handbook/business-technology/data-team/platform/dbt-guide/#model-structure) is defined in the dbt guide.
 
 ## Enterprise Dimensional Model (COMMON Schema)
 
