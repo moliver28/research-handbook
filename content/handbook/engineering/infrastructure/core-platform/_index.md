@@ -116,7 +116,7 @@ Engineering managers are encouraged to make as many updates as needed throughout
 
 The nature of the work primarily done by most Core Platform groups calls for backend heavy roadmaps and backlogs. This means that frontend (FE) development work can be "stop-and-go" and typically does not warrant the need for a full-time FE developer assigned to those groups. However, when work does come up it can be overwhelming for the group in question, or they may not have the necessary FE development skills to complete the task.
 
-To address this need, the Core Platform sub-department has established a cross-group frontend development process. The objective is to have **extra** frontend engineering capacity readily available to help all enablement groups with frontend development work overload while avoiding going through formal [borrow requests](/handbook/product/product-processes/#borrow) and their process overhead. This also has the added benefit of having some level of technical oversight that supports a consistent frontend architecture across groups.
+To address this need, the Core Platform sub-department has established a cross-group frontend development process. The objective is to have **extra** frontend engineering capacity readily available to help all Core Platform groups with frontend development work overload while avoiding going through formal [borrow requests](/handbook/product/product-processes/#borrow) and their process overhead. This also has the added benefit of having some level of technical oversight that supports a consistent frontend architecture across groups.
 
 List of frontend collaborations:
 
