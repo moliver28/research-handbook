@@ -34,6 +34,23 @@ Our teams are data-driven, support [dogfooding](https://about.gitlab.com/directi
 | [Value stream forecasting](https://docs.gitlab.com/ee/user/ai_features.html#forecast-deployment-frequency-with-value-stream-forecasting) | [Optimize Group](https://handbook.gitlab.com/handbook/engineering/development/dev/plan/optimize/) | [GitLab](https://gitlab.com/gitlab-org/gitlab) | Standalone |
 | [Product Analytics](https://docs.gitlab.com/ee/user/product_analytics/index.html) | [Product Analytics Group](https://handbook.gitlab.com/handbook/engineering/development/analytics/product-analytics/) | [GitLab](https://gitlab.com/gitlab-org/gitlab) | Standalone |
 
+### AI Powered Operational Agreements
+
+- **Sustainable way of working**: Getting all of our teams back to a sustainable way of working as a first priority. The ambiguity in work schedules, uncertainty around who has license to make decisions, and changes in priority lead to a lack of predictability for people's work, which creates stress and a reduced sense of psychological safety.
+- **Collaboration**: Addressing collaboration problems thoroughly and in real time as they arise so we can reduce the their negative impact on business outcomes and encourage more psychological safety.
+- **Roadmap review and revision**: Reducing the frequency of changes to near-term roadmap. Review our major roadmap items monthly, driven by a focus on accounting for market externalities, customer feedback, and rollout/scale pains.  We will approach major product milestone completions in a measured fashion so we can help teams be more efficient, plan implementations, and set expectations without being given a delivery timeline.
+- **Communication cascade**: Improve our communication cascade to avoid reliance, build trust, provide additional context, align everyone on priorities, and prevent communication surprises.
+- **Blocking work**: Address blocked work or critical responses being needed within a reasonable time to empower team members to drive progress and move forward.
+- **Strategy for GitHub**: Communicate clearly our strategy for winning against GitHub so we can share a sense of urgency to compete and be a leader in the market.
+- **Quad connection**: Ensure that all key team members of the quad are connected and informed (Infra, Quality, Dev, PM, UX) to expand transparency and collaboration as groups.
+- **Communication cascade**: We have created 2 new Slack channels:
+  - `ai-leads`: For senior leaders, EMs and PMs across the primary AI teams to make sure they have a place to align with each other.
+  - `#ai-portfolio` to include the quads, engineers, designers, testers, infra, our key Marketing stakeholders, etc that are working on AI. This will help us provide a SSoT avenue for communication so we don’t confuse groups or disseminate information separately.
+
+Other temporary channels and recurring meetings will be spun up as needed for individual AI projects.
+
+- **Quad connection**: The AI leads have started making weekly team announcements for developments across the groups. These are found [here](https://gitlab.com/gitlab-org/ai-powered/ai-weekly/-/issues/?sort=created_date&state=all&label_name%5B%5D=AI%20Powered%20Weekly%20Updates&first_page_size=20).
+
 ### Business Continuity - Coverage and Escalation
 
 The following table shows who will provide cover if one or more of the Data-Science Engineering management team are unable to work for any reason.
