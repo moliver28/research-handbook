@@ -3,8 +3,8 @@ title: Individual Use Software
 ---
 
 ## Individual Use Software Overview
-
-- Here we are defining individual use software as specific software that you need to perform your job function, outside of the existing software and platforms your team already owns/has access to. This spend should not exceed $5,000 annually. Should the cost of your software exceed this threshold, or if multiple people on your team need access, please follow the process outlined in the [New Software Procurement](/handbook/finance/procurement/new-software/) handbook page.
+- In this context, individual use software is characterized as the purchase of particular software essential for executing job responsibilities. This involves obtaining software distinct from the existing tools and platforms already owned or accessible to your team. The annual expenditure on such software should not surpass $5,000. Should the cost of your software exceed this threshold, or if multiple people on your team need access, please follow the process outlined in the [New Software Procurement](/handbook/finance/procurement/new-software/) handbook page.
+- If you have questions regarding freeware please refer to our [Internal Acceptable Use Policy](https://handbook.gitlab.com/handbook/people-group/acceptable-use-policy/). If you have questions about accessing GitLab resources via Okta on your Mobile Device please refer to our [Mobile Device Policy](https://internal.gitlab.com/handbook/it/okta-device-trust/#mobile-devices). 
 - Please note that **all software purchases charged to either personal or corporate credit cards will be DENIED for reimbursement.** You must follow the process below to cover your software purchases, which will be paid via Coupa virtual card once all necessary approvals are obtained and documented.
 
 ## I Need Individual Use Software- Where Do I Start?
