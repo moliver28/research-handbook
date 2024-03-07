@@ -120,7 +120,7 @@ To address this need, the Core Platform sub-department has established a cross-g
 
 List of frontend collaborations:
 
-| Engineer | Group | Roadmap Item | Links | Notes
+| Engineer | Group | Roadmap Item | Milestones | Notes
 | ------ | ------ | ------ | ------ | ------ |
 | Zack Cuddy | Global Search | [GitLab Chat](https://gitlab.com/groups/gitlab-org/-/epics/10220) | 16.0 | |
 | Zack Cuddy | Tenant Scale | [Migrate user tabs to Vue](https://gitlab.com/groups/gitlab-org/-/epics/9056) | 16.1 | |
