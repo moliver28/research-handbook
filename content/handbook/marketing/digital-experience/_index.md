@@ -376,10 +376,10 @@ For any Digital Experience analytics request, please create an issue within the 
 
 #### SMB
 
-1. Contact a Sales Development Manager ([Allison Graban](https://gitlab.com/agraban)) or Director, Global Commercial Sales Development ([Brian Tabbert](https://gitlab.com/btabbert)).
+1. Contact a Sales Development Manager ([Josh Downey](https://gitlab.com/joshdowney)) or Director, Sales Development ([Brian Tabbert](https://gitlab.com/btabbert)).
 2. Let them know what team you’re from and that you’d like to shadow a few sales calls to observe real GitLab prospects talking to our Sales team to learn [insert what you’re trying to learn here. Example: what the common topics potential customers want to discuss with our Sales team are.]
-3. Inform the Sales Development Manager or Director, Global Commercial Sales Development how many shadows you’d like to do and a rough timeline for when you’d like to do them.
-4. The Sales Development Manager or Director, Global Commercial Sales Development will inform their Sales Development Reps (SDRs), and they will add you to relevant, upcoming Discovery calls with an Account Executive (AE).
+3. Inform the Sales Development Manager or Director, Sales Development how many shadows you’d like to do and a rough timeline for when you’d like to do them.
+4. The Sales Development Manager or Director, Sales Development will inform their Sales Development Reps (SDRs), and they will add you to relevant, upcoming Discovery calls with an Account Executive (AE).
 5. Accept the invite and review any supplied material when you add it to your calendar.
 6. When joining the call, remember:
     1. You’re there to observe. If asked to introduce yourself, come off mute and do so, then go back on mute and let the Sales team do what they do.
