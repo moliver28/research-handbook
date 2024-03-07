@@ -356,6 +356,8 @@ It's important that everyone encourages others to follow the [communication guid
 1. Stop sharing their screens to encourage conversations
 1. Provide full context for the benefit of new team members
 
+In situations when someone asks others to vocalize their question, shadows are invited to take the action. It's recommended to always add your name to the notes following the request, so others know that you will take care of reading the topic.
+
 #### If you see something, say something
 
 Shadows should notify GitLab meeting participants if their [name and job title]({{< ref "/handbook/tools-and-tips/zoom.md#adding-your-title-to-your-name" >}}) are not mentioned on Zoom.
