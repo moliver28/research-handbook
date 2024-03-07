@@ -25,7 +25,7 @@ Team members have multiple options to participate in mentorship at GitLab.
 
 ### Results
 
-In FY23 Q1, mentees in current organized mentorship programs reported the effect their mentorship had business and personal results. 17% of mentees completed the survey.
+In FY23 Q1, 17% of mentees in current organized mentorship programs completed a survey and reported the effects of the mentorship on business and personal results.
 
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSQo5yL0DOCgaAQWwXaIYHfb20pGIxlkzkxBB_xgU-rEsNkNa4U1NxevaCIQRZrgExrSQecEng50Kmy/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
