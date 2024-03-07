@@ -169,6 +169,11 @@ Let's take a detailed look at the repository (**Code -> Repository**):
 
 
 ## Slack Notifications (optional)
+- In Slack, add the GitLab for Slack app
+- Follow the instructions in the [Gitlab For Slack app documentation](https://docs.gitlab.com/ee/user/project/integrations/gitlab_slack_application.html)
+- We’ve setup our slack notifications so that notifications are sent to the #data-science-pipelines channel only when a pipeline fails. If a pipeline succeeds, a notification is not sent.
+![Slack Notifications Config](slack_notifications.png)
+
 
 **And that's it! Feel free to modify these pipelines and notebooks to fit your data science modeling needs. And be sure to check out all the other great data science resources on our [Data Science Handbook Page](/handbook/business-technology/data-team/organization/data-science/). Happy pipelining!**
 
