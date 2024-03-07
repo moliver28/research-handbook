@@ -144,6 +144,7 @@ flowchart LR
 #### Campaigns
 
 - Use the Campaign Manager to generate shortlinks or full campaign links and use them in your campaigns.
+- Add the `DevRel-InfluencedCampaign` label to the issue or epic of the campaign you are working on.
 - If the campaign belongs to a different team, confirm the UTM or Salesforce Campaign name and update the `devrel_influenced_campaigns` sheet in the Content Inventory accordingly.
 - It is recommended to use campaign links as much as you can on non-GitLab mediums.
 
