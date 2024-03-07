@@ -197,7 +197,11 @@ If you delete, rename, or move a page, you can:
 ## Editing content from shortcodes
 
 When trying to edit content, you may encounter content that is "built" using shortcodes and data files.
-Shortcodes look similar to `{{% performance-indicators "ux_department" %}}`.
+Shortcodes look similar to:
+
+```
+{{% performance-indicators "ux_department" %}}
+```
 
 When you encounter content in a shortcode and want to edit it:
 
