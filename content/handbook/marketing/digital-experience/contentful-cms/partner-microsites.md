@@ -287,3 +287,10 @@ At this time, these call-out sections take in a **list** of information. The che
 3. Some resources, like videos, may already be added to Contentful. Before adding new content, search around and see if you can reuse something already available.
 
 4. It is better practice for a track to start off with the **Header, Subheader, and Text** or **External Video** content block, as they can contain an Anchor ID. A **Card Group** or standalone **Card** will visually fit better between text blocks or directly below a text block.
+
+## Video demo and overview
+
+<figure class="video_container">
+  <iframe src="https://www.youtube.com/embed/kALB1thn6ac?si=3GV9LK4v2-L5y9XP" frameborder="0" allowfullscreen="true"> </iframe>
+</figure>
+
