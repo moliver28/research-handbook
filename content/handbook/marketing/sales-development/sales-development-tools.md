@@ -235,6 +235,10 @@ Specifically:
      - Automatically add MM/ENTG accounts to the SFDC dashboard here. 
      - Automatically add a sample size of prospects from each 6QA'd account to the SFDC view here. 
          
+## Qualified 
+
+[Qualified](https://www.qualified.com/) is the Sales Dev Org's tool we use to chat with visitors on the GitLab website. Currently the SDR teams primarily respond to inbound chats and visitors using Qualified. The BDRs also have the ability to initiate chats with known leads from their actively working accounts. 
+
 ## Chorus
 
 Call and demo recording software. [Chorus](https://www.chorus.ai/) tracks keywords, provides analytics, and transcribes calls into both Salesforce and Outreach. Chorus will be used to onboard new team members, provide ongoing training and development for existing team members, provide non-sales employees with access to sales calls, and allow sales reps to recall certain points of a call or demo. At this time, US Sales, US Customer Success, US SDRs will be considered recorders. Non-US Commercial and Non-US SDRs can request recorder access once they have completed the GDPR training course. Non-US recorders will also need access to the EMEZ Zoom Group. Everyone else can access the tool as a listener if they wish.
@@ -244,6 +248,10 @@ Call and demo recording software. [Chorus](https://www.chorus.ai/) tracks keywor
 * Chorus: [Tips for Getting Start](https://docs.chorus.ai/hc/en-us/articles/115009183547-Tips-on-Getting-Started-with-Chorus)
 * GitLab Edcast: [Chorus Overview](https://gitlab.edcast.com/journey/week)
 * GitLab Edcast: [Sample Chorus IQM Calls](https://gitlab.edcast.com/insights/sample-chorus)
+
+## Crayon Competitive Messaging Resources
+
+[Crayon](https://app.crayon.co/intel/gitlab/battlecards/) hosts competitive messaging resources that are maintained by GitLab's product marketing team. 
 
 # Sales Dev Manager Resources
 
