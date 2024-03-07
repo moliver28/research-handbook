@@ -23,7 +23,7 @@ Once in the tenant's OpenSearch site:
 1. Choose "Discover" at the sidebar under OpenSearch Dashboards
 1. On the next screen, you should see logs. Make sure that index `gitlab-*` is selected.
 
-It is recommended to start with the `gitlab-*` index because it has a timestamp field. It shows a useful skyline graph and allows for time-filtering. The `git*` index is less useful as it does not have a timestamp field defined/used.
+It is recommended to start with the `gitlab-*` index because it has a timestamp field. It shows a useful skyline graph and allows for time-filtering. The `git*` index is less useful as it does not have a timestamp field defined/used. If you are unable to see the logs, try clearing cookies, local storage, and all session data for the site and repeat the steps above.
 
 Logs are retained for 7 days in OpenSearch; retention is longer in S3, but these are not accessible to Support.  Copy and paste relevant log entries or screenshots of frequently occurring errors into an internal note in the ticket or a [field note]({{< ref "fieldnote_issues" >}}) in order to preserve them beyond the retention period.
 
