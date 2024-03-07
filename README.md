@@ -104,9 +104,12 @@ The following options for the `hugo` command can be helpful for debugging or oth
 
 ### Build static files
 
-To render the entire site to disk (and inspect the output in `${PWD}/public`):
+To render the entire site to disk (and inspect the output in `${PWD}/public`),
+purge the generated files first, and then run Hugo.
 
 ```sh
+rm -rf public/*
+
 docker run --rm -v ${PWD}:/src hugomods/hugo:exts hugo
 ```
 
