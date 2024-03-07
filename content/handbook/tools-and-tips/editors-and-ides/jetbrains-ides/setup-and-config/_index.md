@@ -79,6 +79,16 @@ and search for `excludeFolder`.
 Alternately, these would be included in the config if you use one of the "copy someone else's config"
 Configuration approaches under [Configuration](#configuration).
 
+## Set up test roots
+
+You should [properly set up the test sources root directories](https://www.jetbrains.com/help/ruby/create-tests.html#mark_test_sources_root).
+
+Ensure that you add both `spec` and `ee/spec` as test roots.
+
+This has several effects, including making that `Cmd-Shift-T` "Go to Test Subject" action work to easily toggle back and forth between the subject file and test file.
+
+You can review existing test roots under `Settings -> Project Structure`.
+
 ## Increase maximum heap size in memory settings
 
 When working with the GitLab project, which is BIG, RubyMine can use a lot of memory when indexing/searching/etc. It's not unusual for memory usage to peak out at **up to 10 gigabytes or more of memory during indexing**, if it is allocated.
