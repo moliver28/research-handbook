@@ -27,9 +27,9 @@ In the interim the following steps are required in order to generate the license
 1. For renewing or multi-year licensed customers a new GitLab Dedicated license will need to be manually generated at the end date of the customer's subscription.
 1. A request to renew a 1 year license subscription may be submitted by the GitLab Dedicated team or another stakeholder such as a customer, Sales or a CSM.
 1. Requests should be submitted via the [internal request form](https://support-super-form-gitlab-com-support-support-op-651f22e90ce6d7.gitlab.io/) and should include the corresponding SFDC opportunity link. Use the **GitLab Support Internal Requests for Global customers** request option, and **Other Licenses and Renewals related issue** for the internal request type.
-1. L&R Support should then implement steps 4 and 5 as detailed in the workflow [License requests for new GitLab Dedicated customers](#license-requests-for-existing-or-multi-year-licensed-gitlab-dedicated-customers). If the request did not orginate from a GitLab Dedicatad team member then please cc `athomas@gitlab.com` on the ticket to inform him that a new license has been issued.
+1. L&R Support should then implement steps 4 and 5 as detailed in the workflow [License requests for new GitLab Dedicated customers](#license-requests-for-existing-or-multi-year-licensed-gitlab-dedicated-customers). If the request did not orginate from a GitLab Dedicatad team member then please cc `cbalane@gitlab.com` on the ticket to inform him that a new license has been issued.
 
 If you have any questions then please reach out to:
 
-GitLab Dedicated Team Product Manager: Andrew Thomas | <athomas@gitlab.com>
+GitLab Dedicated Team Product Manager: Chris Balane | <cbalane@gitlab.com>
 Support Engineering Manager: John Lyttle | <jlyttle@gitlab.com>
