@@ -41,7 +41,7 @@ Our teams are data-driven, support [dogfooding](https://about.gitlab.com/directi
 - **Roadmap review and revision**: Reducing the frequency of changes to near-term roadmap. Review our major roadmap items monthly, driven by a focus on accounting for market externalities, customer feedback, and rollout/scale pains.  We will approach major product milestone completions in a measured fashion so we can help teams be more efficient, plan implementations, and set expectations without being given a delivery timeline.
 - **Communication cascade**: Improve our communication cascade to avoid reliance, build trust, provide additional context, align everyone on priorities, and prevent communication surprises.
 - **Blocking work**: Address blocked work or critical responses being needed within a reasonable time to empower team members to drive progress and move forward.
-- **Strategy for GitHub**: Communicate clearly our strategy for winning against GitHub so we can share a sense of urgency to compete and be a leader in the market.
+- **Strategy for GitHub**: Communicate clearly our strategy for AI in the DevSecOps space so we can share a sense of urgency to compete and be a leader in the market.
 - **Quad connection**: Ensure that all key team members of the quad are connected and informed (Infra, Quality, Dev, PM, UX) to expand transparency and collaboration as groups.
 - **Communication cascade**: We have created 2 new Slack channels:
   - `ai-leads`: For senior leaders, EMs and PMs across the primary AI teams to make sure they have a place to align with each other.
