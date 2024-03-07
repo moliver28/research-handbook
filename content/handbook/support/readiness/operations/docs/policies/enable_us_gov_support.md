@@ -49,7 +49,9 @@ for us to work.
 
 Your task at this point will be to review the issue to ensure the data looks
 accurate. This is done just to be sure we are not making improper changes to any
-SFDC accounts.
+SFDC accounts. The biggest thing to check for is the approval of a Vice
+President at Enterprise Sales, Public Sector on the opportunity provided. If we
+do not see that, we cannot proceed (reply on the issue stating as much).
 
 If everything looks good, you will then navigate to the
 [Enable US Gov Support project](https://gitlab.com/gitlab-support-readiness/zendesk-us-government/enable-us-gov-support)
