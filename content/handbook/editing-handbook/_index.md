@@ -199,7 +199,7 @@ If you delete, rename, or move a page, you can:
 When trying to edit content, you may encounter content that is "built" using shortcodes and data files.
 Shortcodes look similar to:
 
-```
+```plain
 {{% performance-indicators "ux_department" %}}
 ```
 
