@@ -16,9 +16,7 @@ CI Catalog GA Epic: [https://gitlab.com/groups/gitlab-org/-/epics/12153](https:/
 
 | Milestone | Dates | Deliverable |
 |---------- | ----- | ----------- |
-|  ~16.10    | 2024-02-10 to 2024-03-15 | Components GA |
-|  ~16.11    | 2024-03-16 to 2024-04-12 | Inputs GA |
-|  ~17.0     | 2024-04-13 to 2024-05-10 | CI Catalog GA |
+|  ~17.0     | 2024-04-13 to 2024-05-10 | CI Catalog, Inputs, Components GA |
 
 ### Milestone 16.10 (February 10, 2024 - March 15, 2024)
 
@@ -34,7 +32,7 @@ CI Catalog GA Epic: [https://gitlab.com/groups/gitlab-org/-/epics/12153](https:/
 - Telemetry instrumentation for GA
   - [Implement Tracking for release execution time](https://gitlab.com/gitlab-org/gitlab/-/issues/440474) (Complete)
   - [Table creation for component tracking usage](https://gitlab.com/gitlab-org/gitlab/-/issues/440382) (In-Dev)
-- CI/CD [Components](https://gitlab.com/groups/gitlab-org/-/epics/12336) to GA
+- CI/CD [Components](https://gitlab.com/groups/gitlab-org/-/epics/12336) to GA work
   - [`~latest` returns latest semantic version](https://gitlab.com/gitlab-org/gitlab/-/issues/442238) (Complete)
   - [Migrate Versions to follow SemVer convention](https://gitlab.com/gitlab-org/gitlab/-/issues/444303) (In-Review)
 
@@ -52,12 +50,12 @@ CI Catalog GA Epic: [https://gitlab.com/groups/gitlab-org/-/epics/12153](https:/
   - [Reorganize information on component detail page](https://gitlab.com/gitlab-org/gitlab/-/issues/438262)
   - [Add badges for components](https://gitlab.com/gitlab-org/gitlab/-/issues/433443)
 - `release-cli` pre-GA [tasks](https://gitlab.com/gitlab-org/gitlab/-/issues/442066) (Remaining rollover)
-- [Inputs](https://gitlab.com/groups/gitlab-org/-/epics/12464) to GA 
+- [Inputs](https://gitlab.com/groups/gitlab-org/-/epics/12464) to GA work
   - [Backend: CI interpolation with arrays](https://gitlab.com/gitlab-org/gitlab/-/issues/407176) (Remaining rollover)
 
 ### Milestone 17.0 (April 13, 2024 - May 10, 2024)
 
-- [CI/CD Catalog](https://gitlab.com/groups/gitlab-org/-/epics/12153) GA
+- [CI/CD Catalog](https://gitlab.com/groups/gitlab-org/-/epics/12153) GA (along with inputs and components)
 
 ### Milestone 17.1 (May 11, 2024 - June 14, 2024)
 
