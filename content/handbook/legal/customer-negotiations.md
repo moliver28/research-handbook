@@ -79,8 +79,7 @@ a valid and authorized partner. Once confirmed by Partner Operations, Legal will
 
 ### Export Review in SFDC
 
-1. If an export notice is presented please tag "@legal" in SFDC Chatter for the account and write "Please review for export compliance."
-1. Once cleared in the export compliance tool, updates will reach SFDC in approximately 10-15 minutes.
+1. Please see the instructions under Trade Compliance in the [Internal Handbook page](https://internal.gitlab.com/handbook/sales/sales-operations/#trade-compliance-navex-risk-rate)
 1. Only Legal can clear the accounts that are flagged by the export compliance tool, please do not tag any other groups for assistance with these requests.
 
 #### RFP Process
