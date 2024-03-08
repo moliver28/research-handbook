@@ -603,7 +603,33 @@ I collect and gather data and process the data to make it suitable for analysis.
 - It's a lot of work to keep models fresh and relevant. 
 - I don't want to use tools that are not relevant to data science. So please don't ask me to learn devOps, how to code and run a pipeline, etc.
 - It can be really expensive to train, retrain models and to run experiments. I want to make sure I don't get in trouble if I incur a large cost.
+#### Dana (Data Scientist)
 
+- **Alternative Job Titles:** Data Analyst, Machine Learning Engineer, Data Engineer, Quantitative Analyst, Predictive Modeler
+
+##### Job Summary
+
+I collect, preprocess, and analyze data to derive insights and build predictive models. I collaborate with cross-functional teams to operationalize these models and provide data-driven solutions.
+
+##### Jobs to be done
+
+- Collect and gather data from multiple sources.
+- Clean, transform, and preprocess data for analysis.
+- Explore and analyze data to derive insights.
+- Build predictive models to solve business problems or make data-driven predictions.
+- Update models with new training data to maintain their relevance.
+- Collaborate with engineering teams to deploy models and maintain data pipelines.
+
+##### Motivations
+
+- As a data scientist, my focus is on analyzing data and building effective models, rather than software development.
+- I aim to create models that provide practical solutions and drive business value.
+
+##### Frustrations
+
+- Maintaining model relevance by continuously updating and retraining with new data.
+- Avoid unnecessary complexity in tools and processes unrelated to core data science tasks.
+- Managing computational resources and costs associated with model training and experimentation.
 ### Internal personas
 
 Internal personas reflect the workflow, needs, and challenges faced by GitLab team members. These personas support and influence the work of GitLab groups that serve internal use cases.
