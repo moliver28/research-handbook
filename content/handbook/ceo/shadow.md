@@ -397,6 +397,11 @@ Score definitions:
 - `4`: reactions were mostly positive
 - `5`: reactions were authentically positive
 
+
+#### When and how to speak up
+
+The CEO shadow program is not about you being an active member of the discussion. Still, our [Results for Customers value](https://handbook.gitlab.com/handbook/values/#operate-with-a-bias-for-action) mentions to operate with a bias for action. If a question is raised during the discussion that you know the definitive answer or can look up it up in very few seconds, you are welcome to share your insights in the chat during GitLab internal meetings only. You might be asked to vocalize your answer. Note that sharing a single bit of information when discussing a larger topic might be more disturbing than helpful.
+
 ### Tasks
 
 The value of the CEO Shadow Program comes from the [broader context](#goal) you'll gain, and the interesting conversations you'll witness.
