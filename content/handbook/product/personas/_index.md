@@ -573,6 +573,34 @@ I’m in charge of ensuring that our organization’s use of third-party softwar
 - It’s challenging to compile data in a format that’s efficient and valuable to my internal audit or compliance team.
 - It’s challenging to build custom tooling and services every time we identify a gap in the compliance posture of our tools.
 
+#### Dylan (Data Scientist)
+
+- **Alternative Job Titles:** Data Analyst, Machine Learning Engineer, Data Engineer
+
+##### Job Summary
+
+I collect, preprocess, and analyze data to derive insights and build predictive models. I collaborate with cross-functional teams to operationalize these models and provide data-driven solutions.
+
+##### Jobs to be done
+
+- Collect and gather data from multiple sources.
+- Clean, transform, and preprocess data for analysis.
+- Explore and analyze data to derive insights.
+- Build predictive models to solve business problems or make data-driven predictions.
+- Update models with new training data to maintain their relevance.
+- Collaborate with engineering teams to deploy models and maintain data pipelines.
+
+##### Motivations
+
+- As a data scientist, my focus is on analyzing data and building effective models, rather than software development.
+- I aim to create models that provide practical solutions and drive business value.
+
+##### Frustrations
+
+- Maintaining model relevance by continuously updating and retraining with new data.
+- Avoid unnecessary complexity in tools and processes unrelated to core data science tasks.
+- Managing computational resources and costs associated with model training and experimentation.
+
 ### Internal personas
 
 Internal personas reflect the workflow, needs, and challenges faced by GitLab team members. These personas support and influence the work of GitLab groups that serve internal use cases.
@@ -623,3 +651,4 @@ My goal is to deeply understand the lifecycle of data from various sources and m
 - It can be difficult to know exactly how to approach analysis, when my colleagues are not clear about the questions they have and why they want to explore certain aspects of the data.
 - It’s hard to trust the integrity of data, when inconsistent tracking results in missing context for key events.
 - It’s difficult to answer big picture questions about feature usage and user retention, when feature parameters and usage criteria aren’t completely defined.
+
