@@ -15,10 +15,10 @@ The purpose of the Security Operational Risk Management (“StORM”) program at
 
 The scope of the StORM program is limited to operational, technology-agnostic security risks. These risks can be identified in many ways including Risk Assessments, reports from team members, or as a result of compliance activities. There may be instances where an application's role is so significant to internal security controls that we may create risks specifically for that system. This will primarily be limited to GitLab.com as its use is pervasive in all that we do.
 
-**Out of Scope** Unless they are related to a StORM risk (e.g., security compliance observations that span multiple systems), the following risk-types are not in scope for StORM:
+**Out of Scope** Unless they are related to a StORM risk (for example security compliance observations that span multiple systems), the following risk-types are not in scope for StORM:
 
-1. Operational risks that are not security-related are out of scope (e.g., accounting-related risks)
-1. [Individual, system-specific security compliance observations]({{< ref "observation-management-procedure" >}}) (e.g., inadequate password settings for a specific system)
+1. Operational risks that are not security-related are out of scope (ex. accounting-specific risks)
+1. [Individual, system-specific security compliance observations]({{< ref "observation-management-procedure" >}}) (ex. inadequate password settings for a specific system)
 1. [Enterprise Risk Management (ERM)](https://internal.gitlab.com/handbook/internal-audit/erm/) - internal only. Examples of ERM risks can be found on our [Mitigating Concerns](https://internal.gitlab.com/handbook/leadership/mitigating-concerns/) (internal only) handbook page.
 
 ## Roles and Responsibilities
@@ -165,7 +165,7 @@ In order to effectively identify, manage, and treat operational risks, GitLab ha
 
 StORM Program considerations include both risks (what might happen) and observations (what has happened/non-compliance). For guidance on writing observations, please refer to the[Observation Management Procedure Handbook page]({{< ref "observation-management-procedure" >}}).
 
-When drafting a risk, start with a risk statement. This will represent the title of the Risk in our GRC system and is an attempt to condense the risk into a single sentence. In the spirit of [low-context communication]({{< ref "shared-reality#low-context-communication" >}}), avoid using single words or short phrases for the risk statement (e.g., Supply Chain). As we largely deal with negative risks (vs. positive risks/opportunities), starting the statement with negative language like "Failure to", "Inadequate", "Incomplete", "Lack of", etc. is appropriate, but not required. As risks represent what might happen, use "may" before describing the negative effect it *may* have on the confidentiality, integrity, availability, security, and privacy of GitLab data. Example: *Inadequate physical security controls may result in the loss of GitLab/Customer data and physical assets.* The risk description should contain details related to the assets/resources at risk, the event that may occur, the source that would trigger the event (root cause), and the consequence (impact/loss) [source](https://www.srmam.com/post/how-to-write-a-risk-statement).
+When drafting a risk, start with a risk statement. This will represent the title of the Risk in our GRC system and is an attempt to condense the risk into a single sentence. In the spirit of [low-context communication]({{< ref "shared-reality#low-context-communication" >}}), avoid using single words or short phrases for the risk statement (ex. Supply Chain). As we largely deal with negative risks (vs. positive risks/opportunities), starting the statement with negative language like "Failure to", "Inadequate", "Incomplete", "Lack of", etc. is appropriate, but not required. As risks represent what might happen, use "may" before describing the negative effect it *may* have on the confidentiality, integrity, availability, security, and privacy of GitLab data. Example: *Inadequate physical security controls may result in the loss of GitLab/Customer data and physical assets.* The risk description should contain details related to the assets/resources at risk, the event that may occur, the source that would trigger the event (root cause), and the consequence (impact/loss) [source](https://www.srmam.com/post/how-to-write-a-risk-statement).
 
 #### Risk Factors and Risk Scoring
 
@@ -378,7 +378,7 @@ When choosing to remediate the risk, a specific path must be selected:
 
 Once a path is selected, the Risk Owner is required to provide a [SMART](https://en.wikipedia.org/wiki/SMART_criteria), detailed plan that includes milestones and due dates for working towards risk remediation. The treatment plan must be achievable and address the root cause of the risk event. Additionally and in alignment with our value of [Transparency]({{< ref "values#transparency" >}}), each treatment plan will include a step for documenting the results/outcome of the remediation within the Handbook. If the result of the remediation is considered [not public]({{< ref "values#not-public" >}}) and cannot be documented within the Handbook, it should be documented within our Internal Handbook or an internal runbook. The Security Risk Team will leverage these risk treatment plans to track the status of risk remediation.
 
-If the risk treatment plan is executed and results in a downgrading of the residual risk level for the risk (e.g., the residual risk level goes from High to Moderate), validation of the remediation will be performed and captured within the associated risk object in ZenGRC. Quality review of the downgrade support documentation will be completed by the Security Risk Manager and captured via comment in the GRC application.
+If the risk treatment plan is executed and results in a downgrading of the residual risk level for the risk (ex. the residual risk level goes from High to Moderate), validation of the remediation will be performed and captured within the associated risk object in ZenGRC. Quality review of the downgrade support documentation will be completed by the Security Risk Manager and captured via comment in the GRC application.
 
 #### Accept the Risk
 
