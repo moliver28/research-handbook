@@ -27,15 +27,13 @@ GitLab maintains an industry-leading Third Party Risk Management (TPRM) Program 
 
 The integration of GitLab's TPRM program within the vendor Procurement flow enables cross-functional [collaboration](/handbook/values/#collaboration) between Privacy, Legal, IT, and People Operations to facilitate [transparent](/handbook/values/#transparency), risk-based decision making, Business and Stakeholder-focused [Results](/handbook/values/#results), and adherence to GitLab's Regulatory and [Compliance Obligations](/handbook/security/security-assurance/security-compliance/certifications.html). The vendor relationships maintained through this program are leveraged to create efficiencies across the organization.
 
-### <i class="fas fa-exclamation-triangle" style="color:rgb(253,109,38)" aria-hidden="true"></i> Business Impact Analysis (BIA) and Critical System Tiering (CST){#bia}
+### <i class="fas fa-exclamation-triangle" style="color:rgb(253,109,38)" aria-hidden="true"></i> Critical System Tiering (CST){#CST}
 
-The [Business Impact Analysis]({{< ref "business-impact-analysis" >}}) (BIA) helps determine the systems critical to serving GitLab's Customers. It also helps determine the prioritization of system restoration efforts in the event of a disruption.
-
-The Security Risk Team facilitates a BIA for all new systems. A BIA is performed or previously collected BIA data is validated for existing systems based on [Critical System Tiering (CST)]({{< ref "critical-systems#critical-systems-tiering-methodology" >}}).
+[Critical System Tiering]({{< ref "critical-systems" >}}) helps identify the systems essential to serving GitLab's Customers. It also helps determine the prioritization of system restoration efforts in the event of a disruption.  The Security Risk Team assigns a Critical System Tier (CST) to all systems before implementation.  CSTs for existing systems are validated on a periodic basis.
 
 ### <i class="fas fa-warehouse" style="color:rgb(253,109,38)" aria-hidden="true"></i> Asset Inventory Maintenance{#asset-inventory}
 
-Establishing a complete and accurate inventory of assets is key to the success of GitLab's Risk Program. As such, the Security Risk Team collaborates closely with IT and Business Owners to ensure new systems are added to the [Tech Stack](/handbook/business-technology/tech-stack-applications/#roles-and-responsibilities) and that associated data is maintained via our BIA processes.
+Establishing a complete and accurate inventory of assets is key to the success of GitLab's Risk Program. As such, the Security Risk Team collaborates closely with IT and Business Owners to ensure new systems are added to the [Tech Stack](/handbook/business-technology/tech-stack-applications/#roles-and-responsibilities).
 
 ----
 
@@ -58,9 +56,7 @@ DRIs are responsible for ensuring a [handbook-first approach](/handbook/company/
 |Function     |DRI|
 |:----------:|:----------:|
 |[Annual Risk Assessment]({{< ref "storm-program#storm-procedures" >}})     |Kyle Smith|
-|[Business Impact Analysis - Design And Requirements]({{< ref "business-impact-analysis" >}})     |Nirmal Devarajan|
-|[Business Impact Analysis - Reporting and Periodic BIA Execution]({{< ref "business-impact-analysis" >}})     |Nirmal Devarajan|
-|[Critical System Tiering]({{< ref "critical-systems#determining-critical-system-tiers" >}})     |Kyle Smith|
+|[Critical System Tiering and Validation]({{< ref "critical-systems" >}})     |Nirmal Devarajan|
 |[Ongoing SecRisk-Related Observations Management]({{< ref "observation-management-procedure#introduction-to-observation-management-at-gitlab" >}})     |Nirmal Devarajan|
 |[Ongoing Risk Treatment](storm-program#storm-procedures)     |Kyle Smith|
 |[Ongoing TPRM Assessments]({{< ref "third-party-risk-management" >}})     |Ryan Lawson|
