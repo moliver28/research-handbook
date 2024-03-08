@@ -912,7 +912,7 @@ Watch the replay below:
 
 As you're creating external or business content for GitLab, please refer to the [GitLab Content Style Guide](https://handbook.gitlab.com/handbook/marketing/brand-and-product-marketing/brand/content-style-guide/). For technical content, you can reference [this word list](https://docs.gitlab.com/ee/development/documentation/styleguide/word_list.html).
 
-This list offers additional guidance for written communication at GitLab: 
+This list offers additional guidance for written communication at GitLab:
 
 1. Do not use rich text, it makes it hard to copy/paste. Use [Markdown](/docs/markdown-guide/) to format text that is stored in a Git repository. In Google Docs, use "Normal text" using the style/heading/formatting dropdown and paste without formatting.
 1. Read our [Markdown Style Guide](/docs/markdown-guide/) for more information when using Markdown.
@@ -937,16 +937,16 @@ This list offers additional guidance for written communication at GitLab:
 1. Our homepage is https://about.gitlab.com/ (with the `about.` and with `https`).
 1. If you use headers, properly format them (`##` in Markdown, "Heading 2" in Google Docs); start at the second header level because header level 1 is for titles. Do not end headers with a colon. Do not use emoji in headers as these cause links to have strange characters.
 1. Do not use acronyms when you can avoid them. Acronyms have the effect of excluding people from the conversation if they are not familiar with a particular term. Example: instead of `MR`, write `merge request (MR)`.
-   1. If acronyms are used, expand them at least once in the conversation or document and define them in the document using [Kramdown abbreviation syntax](https://kramdown.gettalong.org/syntax.html#abbreviations). Alternatively, link to the definition.
-   1. If you don't know the meaning of an acronym, ask. It's always ok to [speak up](/handbook/values/#share).
+1. If acronyms are used, expand them at least once in the conversation or document and define them in the document using [Kramdown abbreviation syntax](https://kramdown.gettalong.org/syntax.html#abbreviations). Alternatively, link to the definition.
+1. If you don't know the meaning of an acronym, ask. It's always ok to [speak up](/handbook/values/#share).
 
 
 ### Communicating dates and time
 
-   1. For external content, refer to the guidance in the [GitLab Content Style Guide](https://handbook.gitlab.com/handbook/marketing/brand-and-product-marketing/brand/content-style-guide/#dates-and-times). 
-   1. {: #iso-dates} For internal content, use ISO dates: `yyyy-mm-dd`
-   1. For months, use `yyyy-mm`, so 2018-01 for January.
-   1. Refer to a year with CY18 (never with 2018) and a quarter with CY18-Q1 to prevent confusion with fiscal years and quarters. If the year is obvious from the context it is OK to use Dec 4, but not 12/4.
+1. For external content, refer to the guidance in the [GitLab Content Style Guide](https://handbook.gitlab.com/handbook/marketing/brand-and-product-marketing/brand/content-style-guide/#dates-and-times).
+1. {: #iso-dates} For internal content, use ISO dates: `yyyy-mm-dd`
+1. For months, use `yyyy-mm`, so 2018-01 for January.
+1. Refer to a year with CY18 (never with 2018) and a quarter with CY18-Q1 to prevent confusion with fiscal years and quarters. If the year is obvious from the context it is OK to use Dec 4, but not 12/4.
 1. GitLab operates on a [Fiscal Year](/handbook/finance/#fiscal-year) offset from the calendar year. When referring to a fiscal year or quarter, please use the following abbreviations:
    1. "FY20" is the preferred format and means: Fiscal Year 2020, the period running from February 1, 2019 through January 31, 2020
    1. "Q1" = the first quarter of the current Fiscal Year, so on Feb 1, 2020, "Q1" is the period from Feb. 1, 2020 through April 30, 2020. Note that Epics in GitLab follow Calendar Years and Quarters.
