@@ -308,3 +308,16 @@ terms of customer experience.
 If this happens repeatedly to the same customer, consider reaching out to their
 Account Manager regarding it.
 
+## CSM Guidance (FAQ)
+
+Who has access to a Contacts Management Project?
+
+A: Due to their sensitive nature for our customers, only Support Readiness and the customers' chosen users have access to a contact management project.
+
+How do I know if my customer has a contacts management project?
+
+A: The best source is to check the organization within Zendesk. It will have a field on the left sidebar toward the bottom called `Contact Management Project ID` that points to the project being used. If that field has a value, the customer has a contact management project.
+
+How do I know which customer users can access the contacts management project?
+
+A: Within the customer's organization in Zendesk, there is a `Users` tab that syncs with the contacts management project and will show who has support entitlement.
