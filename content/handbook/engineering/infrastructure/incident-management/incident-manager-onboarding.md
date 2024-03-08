@@ -3,8 +3,6 @@
 title: "Incident Manager On Call onboarding"
 ---
 
-
-
 ## Introduction
 This page is meant to be the starting point for onboarding as an Incident Managers.
 
@@ -65,7 +63,7 @@ Before your shift ends, consider what tasks need to be handed over and make sure
 ### Special Coverage Days
 It is more efficient to staff Incident Manager roles with fewer, but frequently longer, shifts during days where overall Team Member availability is lower due to Holidays or other global company events. These days will be designated as "Special Coverage Days" and volunteers will be sought to cover the relevant shifts. Examples of these days include New Years as well as the monthly Family & Friends days. Not all holidays will be covered in this manner as many holidays are local in nature and easier to cover simply by normal shift switches.
 
-Special Coverage Days will be designated by creation of an Issue. The Issue will indicate the approach to scheduling for the specific event and will provide a table for volunteers to add their name. A DRI will be clearly noted and will be responsible for transferring the resulting coverage to PagerDuty. 
+Special Coverage Days will be designated by creation of an Issue. The Issue will indicate the approach to scheduling for the specific event and will provide a table for volunteers to add their name. A DRI will be clearly noted and will be responsible for transferring the resulting coverage to PagerDuty.
 
 During period with Special Coverage, indicated in the issue, Pager Duty schedule is void - incident managers are not expected to follow the PD schedule, however they are expected to collaborate DRI to provide full coverage for the given period.
 
@@ -117,7 +115,7 @@ Four day shifts mean that, at the most, a Team Member participating in an Incide
 Because new incident managers are being added to the rotation on an ongoing basis, schedules for upcoming months are not final and will shift as folks are added or removed from the rotation.
 
 1. Around the 1st Tuesday of each month:
-  - The coordinator will review any **closed** [~IM-Onboarding::Ready issues](https://gitlab.com/gitlab-com/gl-infra/reliability/-/issues/?sort=closed_at_desc&state=all&label_name%5B%5D=IM-Onboarding%3A%3AReady&first_page_size=50) since the previous scheduling cycle and add these team members to the schedule. Changes will be made to take effect at the beginning of the second full month after the current day. For example, if the current day is Jan 5, the shift changes will be make to go into effect during the first week of March.
+  - The coordinator will review any open [~IM-Onboarding::Ready issues](https://gitlab.com/gitlab-com/gl-infra/production-engineering/-/issues/?sort=closed_at_desc&state=opened&label_name%5B%5D=IM-Onboarding%3A%3AReady&first_page_size=20) since the previous scheduling cycle and add these team members to the schedule. Changes will be made to take effect at the beginning of the second full month after the current day. For example, if the current day is Jan 5, the shift changes will be make to go into effect during the first week of March.
   - The coordinator will review any **open** Incident Manager offboarding issues and remove these team members from the schedule moving forward. They will be notified in their offboarding issues confirming their removal from PagerDuty and the offboarding issue will be closed by the coordinator.
 1. An announcement will be posted in [`#imoc_general`](https://gitlab.slack.com/archives/C01NY82EJF6) indicating that the schedule has been modified. Team members who have pre-existing overrides after the modified date (March in the example above) will be notified.
 
