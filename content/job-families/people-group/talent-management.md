@@ -1,5 +1,5 @@
 
-## "Talent Management Roles"
+# "Talent Management Roles"
 description: "The Talent Management job family creates and facilitates programs designed to accelerate performance and talent at GitLab."
 ---
 
@@ -8,7 +8,7 @@ The Talent Management job family creates and facilitates programs designed to ac
 
 ### Senior Talent Management Partner
 
-The Senior Talent Mangement Partner reports to the Director, Talent Management.
+The Senior Talent Management Partner reports to the Director, Talent Management.
 
 ### Job Grade
 
@@ -39,7 +39,7 @@ The Senior Talent Management Partner is a [grade 7](/handbook/total-rewards/comp
 - Proven progressive experience with a background in people business partnering, learning and development, or analytics preferred
 - Experience with the strategy design, implementation and governance of global talent processes
 - Experience with developing and managing change programs for diverse populations such as rotation programs
-- Project Management experience
+- Demonstrated Project Management experience
 - Demonstrated skill in rolling out processes to People Business partners and leaders
 - Excellent communication & interpersonal skills - ability to effectively interact and influence at all levels and with a geographically diverse team
 - Highly analytical with the ability to analyze data and leverage insights from multiple sources to develop recommendations and make decisions
