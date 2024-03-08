@@ -657,6 +657,15 @@ If an opportunity meets the criteria listed above, but does not meet the Minimum
 3. Approval is required per the [Deal Approval Matrix](https://docs.google.com/document/d/1-CH-uH_zr0qaVaV1QbmVZ1rF669DsaUeq9w-q1QiKPE/edit#heading=h.dccvx02huo2y).
 4. If the approvals noted above are obtained, and no other approvals are required, the quote will be approved. If the approvals noted above are obtained, and other approvals are required (discount approvals, payment term approvals, etc.), the quote approval module will automatically enter the existing approval process.
 
+### Invetsment Services Approval Requirements:
+
+1. Investment Services (IS) must be requested in opportunity chatter and justified based on IS program guidelines found [here](https://docs.google.com/spreadsheets/d/1ulMA3fdZRHYWks0dFwSgEQAvsKwxlXV08m5ZKHJ4VHA/edit#gid=347765709)
+2. Required approvers are Dir (or higher) of PS Finance, VP of Global Services, and CRO. 
+3. VP and Sr. Dir Accounting Revenue shold be kept informed as copy on chatter messages, but do not need to approve. 
+
+Investment services budget and approvals are centrally tracked in [this spreadsheet](https://docs.google.com/spreadsheets/d/1ulMA3fdZRHYWks0dFwSgEQAvsKwxlXV08m5ZKHJ4VHA/edit#gid=347765709).   
+
+
 ### Waived True-Ups: Policy and Approval Requirements
 
 **Summary: Waived True-Ups require executive approvals and may negatively impact Net ARR.**
