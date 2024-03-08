@@ -10,6 +10,14 @@ Aligned with GitLab's overarching information security strategy and its three-ye
 
 At GitLab, product security encompasses a broad range of cybersecurity disciplines that enable product and engineering teams to design, develop, deploy, maintain, and refine GitLab's technologies securely. This goes beyond the conventional confines of security, covering everything from protecting developer workstations to ensuring the integrity of our production environments.
 
+### The Product Security Mission
+
+Our mission is to set the standard for product security by fostering a culture of rapid innovation and secure product delivery. We are committed to leveraging the GitLab platform, embodying the pinnacle of internal usage (‘dogfooding’) practices. By maintaining close collaboration with product teams and contributing significant security features and capabilities to the GitLab codebase, we aim to enhance our operations and be a vital driver of the broader GitLab vision.
+
+### Multi-Year Product Security Mission
+
+Our comprehensive, [multi-year product security mission](https://internal.gitlab.com/handbook/security/product_security/product_security_strategy/) can be found in our internal handbook.
+
 ## Collaboration is Key
 
 Success in product security is not confined to PSD or even the Security Division. It requires a concerted effort across the entire GitLab ecosystem. Collaboration is crucial, involving not just our security counterparts but the broader organization. Key disciplines and capabilities, from Security Operations to Site Reliability Engineering, while not directly under PSD's purview, are vital to our strategy's success.
