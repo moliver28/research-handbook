@@ -579,7 +579,7 @@ I’m in charge of ensuring that our organization’s use of third-party softwar
 
 ##### Job Summary
 
-I collect, preprocess, and analyze data to derive insights and build predictive models. I collaborate with cross-functional teams to operationalize these models and provide data-driven solutions.
+I collect, preprocess, and analyze data to derive insights and build predictive models. 
 
 ##### Jobs to be done
 
@@ -588,7 +588,7 @@ I collect, preprocess, and analyze data to derive insights and build predictive 
 - Explore and analyze data to derive insights.
 - Build predictive models to solve business problems or make data-driven predictions.
 - Update models with new training data to maintain their relevance.
-- Collaborate with engineering teams to deploy models and maintain data pipelines.
+- Collaborate with ML Engineers to deploy models and maintain data pipelines.
 
 ##### Motivations
 
@@ -597,9 +597,40 @@ I collect, preprocess, and analyze data to derive insights and build predictive 
 
 ##### Frustrations
 
-- Maintaining model relevance by continuously updating and retraining with new data.
-- Avoid unnecessary complexity in tools and processes unrelated to core data science tasks.
-- Managing computational resources and costs associated with model training and experimentation.
+- Data access
+- Lack of computational resources
+- Lack of data and/or ML/AI literacy in the organization
+- Lack of streamlined processes and automations 
+- Lack of data governance and ambiguity around policies, data ownership and data stewardship.
+
+#### Mia (ML Engineer)
+
+- **Alternative Job Titles:** MLOps Engineer, ModelOps Engineer
+
+##### Job Summary
+
+I am responsible for building, optimizing, and deploying machine learning models into production environments. 
+
+##### Jobs to be done
+
+- Build, optimize and experiment with machine learning models.
+- Deploy models into production environments and integrate with other software systems.
+- Monitor deployed models, detect performance issues and drift. Retrain and update models as needed.
+- Optimize ML systems for scalability, performance, and efficiency.
+- Develop and maintain data pipelines and infrastructure to support end-to-end model and machine learning lifecycles.
+- Work closely with data scientist, software engineers and other stakeholders to deliver ML solutions.
+
+##### Motivations
+
+- Build scalable, operatable ML systems.
+- Turn data insights into products.
+
+##### Frustrations
+
+- Lack of automation and reproducibility
+- Limited compute resources
+- Lack of Expertise and Knowledge Sharing
+- Lack of organizational buy-in to adopt MLOps and ModelOps
 
 ### Internal personas
 
