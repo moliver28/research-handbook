@@ -51,7 +51,7 @@ This is a personal preference and you can use your own judgement.
 
 If it’s your first time using a YubiKey and you’re used to Touch ID, we suggest using the Nano key and leaving it plugged in. If you’re working from home, you can leave it plugged in. If you travel to a coffee shop (low risk area), it’s still fine.
 
-If you are going to do a long trip, vacation, or anytime you head to the airport, you should unplug your YubiKey and keep it in a separate place from your laptop. Since YubiKeys are small and easy to lose, be sure that it’s not a place that will get lost.
+If you are going to do a long trip, vacation, or anytime you head to the airport, you should unplug your YubiKey and keep it in a separate place from your laptop.
 
 A Nano key is small and easy to lose. If you have a nano key, we recommend leaving it plugged in or stored in a safe place. Do not put it in your pocket or laptop bag without having a specific place to keep it. A life hack is that if you have wireless headphones with a USB-C port, you can plug it into the bottom of those for travel storage.
 
