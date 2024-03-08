@@ -12,6 +12,7 @@ description: "How the Developer Relations team measures effectiveness of content
 - [Content Asset Inventory](https://docs.google.com/spreadsheets/d/1WzdX8o9wzuswIPMAYVUURswm2AtwFcVE6XhmHy1lhr8/edit#gid=0)
 - [Youtube2Sheets](https://gitlab.com/gitlab-com/marketing/developer-relations/developer-advocacy/code/youtube2sheets) Script
 - [CommunityApps](https://campaign-manager.gitlab.com/) (Campaign Manager)
+- [DevRel-Infuenced Epic Board](https://gitlab.com/groups/gitlab-com/marketing/developer-relations/-/epic_boards/1056370?label_name[]=DevRel-Influenced)
 
 ## Content Effectiveness
 
