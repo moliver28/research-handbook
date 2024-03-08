@@ -308,7 +308,7 @@ terms of customer experience.
 If this happens repeatedly to the same customer, consider reaching out to their
 Account Manager regarding it.
 
-## CSM Guidance (FAQ)
+## CSM Guidance
 
 Who has access to a Contacts Management Project?
 
