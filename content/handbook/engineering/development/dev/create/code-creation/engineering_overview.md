@@ -51,7 +51,7 @@ Code Suggestions includes two types of interactions:
    - **[Code Completion](#code-completion)**: A short AI-generated suggestion intended to complete an existing line or block of code
    - **[Code Generation](#code-generation)**: A longer AI-generated suggestion intended to create entire functions, classes, code blocks, etc.
 
-Each code suggestion request is catogrised into a single category. Request categorisation is performed by the Language Server before request is sent to GitLab Workhorse. 
+Each code suggestion request is catogrised into a single category. Request categorization is performed by the Language Server before request is sent to GitLab Workhorse. If categorization is not done by Language Server then this categorization is performed by GitLab Rails.
 
 ## Code Completion
 
@@ -75,7 +75,7 @@ sequenceDiagram
     participant GLR as GitLab Rails
     participant AIGW as AI Gateway
 
-    USR->>+IDE: types: "#35; generat a function that transposes a matrix"
+    USR->>+IDE: types: "#35; generate a function that transposes a matrix"
     IDE->>+GLR: trigger code generation for line ` "#35; generate function ` 
     GLR->>PG: fetch X Ray report for project and language
     PG->>GLR:  xray_reports record
