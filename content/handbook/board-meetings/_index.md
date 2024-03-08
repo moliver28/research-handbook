@@ -128,7 +128,7 @@ Board meetings can happen remotely or in-person. We establish the meeting calend
 
 ## Board Meeting Schedule
 
-1. Board of Directors meetings are held quarterly. They can be remote (over zoom) or in-person. 
+1. Board of Directors meetings are held quarterly. They can be remote (over zoom) or in-person.
 1. Meetings are scheduled on/around the Thursday 6 weeks after the end of the quarter, assuming availability of the Directors.
 1. The 2024 schedule of Board meetings is as follows:
     - 2024-03-28
