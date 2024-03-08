@@ -73,7 +73,7 @@ You can use the Hugo container to start a locally running instance of the handbo
 The following command starts the Hugo server, using the [`hugomods/hugo` container image](https://hugomods.com/docs/docker/#image-tags). The `exts` container image tag is important, as it provides the required SASS/CSS conversion tools.
 
 ```sh
-docker run --rm -v ${PWD}:/src -p 1313 --name gl-hugo-exts hugomods/hugo:exts hugo server
+docker compose up -d
 ```
 
 This will start the Hugo server listening on <http://localhost:1313>.
@@ -81,9 +81,9 @@ This will start the Hugo server listening on <http://localhost:1313>.
 You can also start a new container, and run the commands with Hugo manually.
 
 ```sh
-docker run -ti --rm -v ${PWD}:/src -p 1313 --name gl-hugo-exts hugomods/hugo:exts sh
+docker compose --profile console run --rm console
 
-/src # hugo server
+hugo server
 
 ctrl+d # to quit
 ```
@@ -110,7 +110,7 @@ purge the generated files first, and then run Hugo.
 ```sh
 rm -rf public/*
 
-docker run --rm -v ${PWD}:/src hugomods/hugo:exts hugo
+docker compose run --rm hugo hugo
 ```
 
 ### Running Markdown Lint
@@ -122,7 +122,7 @@ suggested changes to avoid pipeline failures.
 To run Markdownlint using Docker use the following command:
 
 ```sh
-docker run -v $(pwd):/workdir davidanson/markdownlint-cli2:next -f content/\*\*/\*.md
+docker compose --profile linter run --rm linter
 ```
 
 ## Support
