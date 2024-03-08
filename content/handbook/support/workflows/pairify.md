@@ -23,7 +23,7 @@ participants (converted to GitLab.com usernames) and closes out the issue.
 
 To incorporate Pairify into your pairing session workflow:
 
-1. Create a thread in the [`#spt_pairing`](https://gitlab.enterprise.slack.com/archives/C03UW0HPBGD) channel and pair with your colleagues! 
+1. Create a thread in the [`#spt_pairing`](https://gitlab.enterprise.slack.com/archives/C03UW0HPBGD) channel and pair with your colleagues!
 
 1. Ensure that the thread conversation contains the following information:
 
@@ -39,7 +39,7 @@ You then need to wait for the next scheduled execution of Pairify, as explained 
 
 ## How Pairify works
 
-Pairify executes every 30 minutes via a [scheduled pipeline](#production). When the pipeline begins, Pairify will search the [`#spt_pairing`](https://gitlab.enterprise.slack.com/archives/C03UW0HPBGD) channel
+Pairify executes every 30 minutes via a [scheduled pipeline](https://gitlab.com/gitlab-com/support/toolbox/pairify#production). When the pipeline begins, Pairify will search the [`#spt_pairing`](https://gitlab.enterprise.slack.com/archives/C03UW0HPBGD) channel
 for any conversation reacted with the ![Pairify emoji](assets/pairify.png "Pairify emoji"){width=20px height=20px} (`:pairify:`) emoji that was created within the last 6 hours.
 
 Pairify will then:
