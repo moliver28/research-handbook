@@ -1,5 +1,5 @@
 ---
-title: "YubiKey User Guide for GitLab SaaS and Self Managed User Accounts"
+title: "YubiKey User Guide for GitLab.com User Accounts"
 description: "This guide shows you how to add your YubiKey as a 2FA authenticator on your GitLab.com SaaS or self-managed instance account."
 ---
 

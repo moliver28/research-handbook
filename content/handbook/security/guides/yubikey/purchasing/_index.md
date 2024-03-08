@@ -3,10 +3,6 @@ title: "Yubikey Self-Service Purchasing Guide"
 description: "You can self-service purchase a YubiKey through our centralized ordering portal. YubiKeys cannot be purchased and expensed separately unless pre-approved by IT for countries that we do not support shipping to."
 ---
 
-{{% alert title="Not Live Yet" color="warning" %}}
-You are viewing a work-in-progress page.
-{{% /alert %}}
-
 ## Order Process
 
 ### New Team Members
