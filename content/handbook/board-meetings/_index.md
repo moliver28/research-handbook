@@ -243,7 +243,7 @@ The CEO and each E-Group member is responsible for submitting a memo to the BoD 
 1. Items keeping me up at night
 1. Input sought from Board
 
-Functions do not have slides in the deck, but they can choose to put screenshots of slides into the appendix of these memos. 
+Functions do not have slides in the deck, but they can choose to put screenshots of slides into the appendix of these memos.
 
 ### Board Dinner
 
