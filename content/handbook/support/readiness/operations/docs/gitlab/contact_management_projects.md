@@ -320,5 +320,9 @@ A: The best source is to check the organization within Zendesk. It will have a f
 
 How do I know which customer users can access the contacts management project?
 
+A: The people who can access the contact management project are stored in the `CMP Developers` field on the organization page (right below `Contact Management Project ID`)
+
+How do I know which users can open support tickets?
+
 A: Within the customer's organization in Zendesk, there is a `Users` tab that syncs with the contacts management project and will show who has support entitlement.
 
