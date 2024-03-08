@@ -5,7 +5,9 @@ description: "Your YubiKey is used for two factor authentication (2FA) using the
 
 ## Onboarding Guide
 
-Congratulations on receiving your YubiKey(s) that you will use for two factor authentication (2FA). If you're familiar with using Touch ID, a YubiKey works almost the same way, however you do not need to register your fingerprint. See [How It Works](#how-it-works) to learn more.
+Congratulations on receiving your YubiKey(s) that you will use for two factor authentication (2FA). If you're familiar with using Touch ID, a YubiKey works almost the same way, however you do not need to register your fingerprint.
+
+See [How It Works](#how-it-works) to learn more.
 
 > Please repeat the steps below for each of the keys. You can perform the steps in parallel with both keys plugged in when configuring 2FA in each application.
 
@@ -29,13 +31,21 @@ Congratulations on receiving your YubiKey(s) that you will use for two factor au
 
 ### Using YubiKey for 2FA
 
-When prompted to sign into a configuration application in the future, you may see a QR code or ask to use your passkey. You simply need to touch your key, or click on the USB thumb drive icon in the prompt and then touch your key.
+When prompted to sign into a configuration application in the future, you may see a QR code or ask to use your passkey or Touch ID. Even if it says Passkey or Touch ID, touching your YubiKey still works. You simply need to touch your key, or click on the USB thumb drive icon in the prompt and then touch your key.
+
+<img src="/handbook/security/guides/yubikey/images/yubikey-passkey-touchid.png" alt="YubiKey Models" style="border: 1px #888 solid; padding: 3px;" /><br />
 
 ### Adding New Applications
 
 When prompted to enable 2FA in the future, simply tap your key when prompted with a QR code, to enable Touch ID, or to add a Passkey.
 
 If the YubiKey is not working for that application, try using Touch ID, and then fall back to using 1Password to scan the QR code to save the one time password (OTP) to the appropriate record in your 1Password vault.
+
+<img src="/handbook/security/guides/yubikey/images/yubikey-passkey-1password.png" alt="YubiKey Models" style="border: 1px #888 solid; padding: 3px;" /><br />
+
+<img src="/handbook/security/guides/yubikey/images/yubikey-passkey-step1.png" alt="YubiKey Models" style="border: 1px #888 solid; padding: 3px;" /><br />
+
+<img src="/handbook/security/guides/yubikey/images/yubikey-passkey-step2.png" alt="YubiKey Models" style="border: 1px #888 solid; padding: 3px;" /><br />
 
 ### Using YubiKey on Mobile Devices
 
