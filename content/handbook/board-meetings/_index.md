@@ -247,7 +247,7 @@ Functions do not have slides in the deck, but they can choose to put screenshots
 
 ### Board Dinner
 
-We usually have a Board Dinner on the evening before a Board Meeting. The EBA to the CEO is responsible for coordinating this dinner. Board Members, local E-Group members, and the CoS to the CEO are all optional attendees. 
+We usually have a Board Dinner on the evening before a Board Meeting. The EBA to the CEO is responsible for coordinating this dinner. Board Members, local E-Group members, and the CoS to the CEO are all optional attendees.
 
 Each quarter, [E-Group]({{< ref "structure#e-group" >}}) can choose to invite an additional team member as a Key Talent Guest. If this is desired in a specific quarter, at least a month before the dinner, the CoS to the CEO will gather nominations and ensure that E-Group has identified an invitee. Criteria for consideration includes:
 
