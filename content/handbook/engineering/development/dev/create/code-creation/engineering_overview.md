@@ -26,6 +26,8 @@ sequenceDiagram
     GLW->>GLR: proxies code suggestion request
     GLR->>GLW: enriches code suggestion request 
     GLW->>AIGW: enriched code suggestion request
+    AIGW->>LLM:  enriched code suggestion request
+    LLM->>AIGW: "a + b"
     AIGW->>GLW: suggestion: "a + b"
     GLW->>LS:  suggestion: "a + b"
     LS->>EXT: triggers IDE code suggestion UI: "a + b" 
@@ -67,7 +69,12 @@ takes extended context into account when resolving user task. This context comes
 
 ```mermaid
 sequenceDiagram
-    actor USR as  User
+    actor USR as User
+    participant IDE
+    participant PG as GitLab PostgreSQL DB
+    participant GLR as GitLab Rails
+    participant AIGW as AI Gateway
+
     USR->>+IDE: types: "#35; generat a function that transposes a matrix"
     IDE->>+GLR: trigger code generation for line ` "#35; generate function ` 
     GLR->>PG: fetch X Ray report for project and language
@@ -93,7 +100,7 @@ sequenceDiagram
     participant GLR as GitLab Rails
     participant RN as GitLab Runner
     participant PG as GitLab PostgreSQL DB
-    participant AIGW as AI Gateway
+
     USR->>+GLR: commits changes to Gemfile.lock
     GLR->>RN: triggers Repository X Ray CI scanner job
     RN->>GLR: Repository X Ray report
