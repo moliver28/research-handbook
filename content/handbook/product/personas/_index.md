@@ -573,6 +573,37 @@ I’m in charge of ensuring that our organization’s use of third-party softwar
 - It’s challenging to compile data in a format that’s efficient and valuable to my internal audit or compliance team.
 - It’s challenging to build custom tooling and services every time we identify a gap in the compliance posture of our tools.
 
+#### Dylan (Data Scientist)
+
+- **Alternative Job Titles:** Data Analyst, Machine Learning Engineer, Data Engineer
+
+##### Job Summary
+
+I collect and gather data and process the data to make it suitable for analysis. I analyze the dta to derive insights. I operationalize these dta insights by turning them into models so that they can be leveraged by products. I also keep an eye
+
+- Data collection and preprocessing: I collect and gather data from various sources, such as databases,web scraping, APIs, or data lakes. I than clean, transform, and otherwise process the data to make it suitable for analysis.
+- Data exploration and anlysis: I use statistical and machine learning techniques to explore and analyze data. This involves identifying patterns, trends, and relationships within the data to derive insights and uncover valuable information.
+
+##### Jobs to be done
+
+- I collect and gather data from various sources, such as databases,web scraping, APIs, or data lakes.
+- I clean, transform, and otherwise process the data to make it suitable for analysis.
+- I explore the and analyze the data for insights.
+- I build models to solve business problems or to make data-driven predictions.
+- I update the models with new training data to help keep the models relevant.
+- I collaborate with ML engineers to deploy models and keep data pipelines and related infrastructure working as they should.
+
+##### Motivations
+
+- I am a data scientist, not a developer. Even though I know how to code, my coding is largely around helping me to analyze and manipulate data. 
+- I want to build models that are useful and solves real problms.
+
+##### Frustrations
+
+- It's a lot of work to keep models fresh and relevant. 
+- I don't want to use tools that are not relevant to data science. So please don't ask me to learn devOps, how to code and run a pipeline, etc.
+- It can be really expensive to train, retrain models and to run experiments. I want to make sure I don't get in trouble if I incur a large cost.
+
 ### Internal personas
 
 Internal personas reflect the workflow, needs, and challenges faced by GitLab team members. These personas support and influence the work of GitLab groups that serve internal use cases.
@@ -623,3 +654,4 @@ My goal is to deeply understand the lifecycle of data from various sources and m
 - It can be difficult to know exactly how to approach analysis, when my colleagues are not clear about the questions they have and why they want to explore certain aspects of the data.
 - It’s hard to trust the integrity of data, when inconsistent tracking results in missing context for key events.
 - It’s difficult to answer big picture questions about feature usage and user retention, when feature parameters and usage criteria aren’t completely defined.
+
