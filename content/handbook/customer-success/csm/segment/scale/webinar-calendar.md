@@ -21,15 +21,6 @@ If you know someone who might be interested in attending, feel free to share the
 
 ### AMER Time Zone Webinars & Labs
 
-#### Hands-On GitLab CI Lab 
-##### March 6th, 2024 at 9:00-11:00AM Pacific Time / 12:00-2:00PM Eastern Time
-
-Join us for a hands-on GitLab CI lab and learn how it can fit in your organization!
-
-Learn how to build simple GitLab pipelines and work up to more advanced pipeline structures and workflows, including security scanning and compliance enforcement.
-
-[<button class="btn btn-primary" type="button">Register</button>](https://gitlab.zoom.us/webinar/register/WN_14x0CD6_Q5yjNZahYrcZeA#/registration)
-
 #### GitLab Runner Fundamentals and What You Need to Know
 ##### March 8th, 2024 at 9:00-10:00AM Pacific Time / 12:00-1:00PM Eastern Time
 
@@ -76,15 +67,6 @@ We will cover:
 [<button class="btn btn-primary" type="button">Register</button>](https://gitlab.zoom.us/webinar/register/WN_JER8cqk9T9uLPObVrb_-gA#/registration)
 
 ### EMEA Time Zone Webinars & Labs
-
-#### Hands-On GitLab CI Lab 
-##### March 6th, 2024 at 10:0AM-12:00PM UTC / 11:00AM-1:00PM CET
-
-Join us for a hands-on GitLab CI lab and learn how it can fit in your organization!
-
-Learn how to build simple GitLab pipelines and work up to more advanced pipeline structures and workflows, including security scanning and compliance enforcement.
-
-[<button class="btn btn-primary" type="button">Register</button>](https://gitlab.zoom.us/webinar/register/WN_baO435x6SjGx5gqWK8wMug#/registration)
 
 #### GitLab Runner Fundamentals and What You Need to Know
 ##### March 8th, 2024 at 10:00-11:00AM UTC / 11:00AM-12:00PM CET
