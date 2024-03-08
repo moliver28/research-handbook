@@ -13,10 +13,11 @@ Develop cutting-edge AI-powered tools that enhance the efficiency and creativity
 
 ## Team Handles
 
-| Category           | Handle              |
-|--------------------|---------------------|
-| GitLab Team Handle | @code-creation-team |
-| Slack Channel      | #g_code_creation    |
+| Category                 | Handle              |
+|--------------------------|---------------------|
+| GitLab Team Handle       | @code-creation-team |
+| Slack Channel            | #g_code_creation    |
+| Slack Handle (Engineers) | @code-creation-engs |
 
 ## Commonly Monitored Issue Lists
 
