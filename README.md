@@ -76,7 +76,7 @@ The following command starts the Hugo server, using the [`hugomods/hugo` contain
 docker compose up -d
 ```
 
-This will start the Hugo server listening on <http://localhost:1313>.
+This will start the Hugo server listening on `http://localhost:1313`. If that doesn't work, try `http://127.0.0.1:1313`. It may take a couple of minutes to load the first time.
 
 You can also start a new container, and run the commands with Hugo manually.
 
