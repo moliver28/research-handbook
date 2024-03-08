@@ -91,7 +91,7 @@ Simpler explanation? The oversimplified analogy is that it’s similar in concep
 
 A YubiKey supports a wide range of authntication methods including FIDO2/WebAuthn (hardware bound passkey), FIDO U2F, Yubico OTP, OATH-TOTP, OATH-HOTP, Smart card (PIV) and OpenPGP.
 
-**At GitLab, we only use FIDO2/WebAuthn.** This works natively on your laptop _without_ installing any of the YubiKey software. Simply insert your key into a USB port and touch the gold contacts when prompted to set up 2FA or a Passkey on any website.
+**At GitLab, we only use FIDO2/WebAuthn.** This works natively on your laptop **without installing any of the YubiKey software**. Simply insert your key into a USB port and touch the gold contacts when prompted to set up 2FA or a Passkey on any website.
 
 From an IT perspective, we simply want users to insert their YubiKey (out of the box) and touch their key (to use FIDO2/WebAuthn) instead of using Touch ID when authenticating with web applications. All additional usage is at each engineer's discretion, unless it is included in your team's (ex. Site Reliability Engineer) onboarding instructions.
 
