@@ -912,7 +912,7 @@ Watch the replay below:
 
 As you're creating external or business content for GitLab, please refer to the [GitLab Content Style Guide](https://handbook.gitlab.com/handbook/marketing/brand-and-product-marketing/brand/content-style-guide/). For technical content, you can reference [this word list](https://docs.gitlab.com/ee/development/documentation/styleguide/word_list.html).
 
-This list offers additional guidance for communicating within GitLab: 
+This list offers additional guidance for written communication at GitLab: 
 
 1. Do not use rich text, it makes it hard to copy/paste. Use [Markdown](/docs/markdown-guide/) to format text that is stored in a Git repository. In Google Docs use "Normal text" using the style/heading/formatting dropdown and paste without formatting.
 1. Read our [Markdown Style Guide](/docs/markdown-guide/) for more information when using Markdown.
@@ -947,24 +947,18 @@ This list offers additional guidance for communicating within GitLab:
 
 ### Communicating dates and time
 
-1. {: #iso-dates} Always use [ISO dates](https://en.wikipedia.org/wiki/ISO_8601#Calendar_dates) in all writing and legal documents since other formats [lead to online confusion](http://xkcd.com/1179/).
-   1. Use `yyyy-mm-dd`, for example 2015-04-13, and never 04-13-2015, 13-04-2015, 2015/04/13, 20150413, 2015.04.13, nor April 13, 2015. Even if you use an unambiguous alternative format it is still harder to search for a date, sort on a date, and for other team members to know we use the ISO standard.
-   1. For months use `yyyy-mm`, so 2018-01 for January.
-   1. Refer to a year with CY18 (never with 2018) and a quarter with CY18-Q1 to prevent confusion with fiscal years and quarters. If the year is obvious from the context it is OK to use Dec 4, but not 12/4, since the ordering isn't obvious when using two numbers but when naming the month it is clear that the number is the day of the month.
-   1. **Note:** The blog uses Associated Press Style for dates as its guide because it's a publication. See the [editorial guidance](/handbook/marketing/brand-and-product-marketing/content/editorial-team/#dates) for how to format dates in the blog.
+   1. For external content, refer to the guidance in the [GitLab Content Style Guide](https://handbook.gitlab.com/handbook/marketing/brand-and-product-marketing/brand/content-style-guide/#dates-and-times). 
+   1. {: #iso-dates} For internal content, use ISO dates: `yyyy-mm-dd`
+   1. For months, use `yyyy-mm`, so 2018-01 for January.
+   1. Refer to a year with CY18 (never with 2018) and a quarter with CY18-Q1 to prevent confusion with fiscal years and quarters. If the year is obvious from the context it is OK to use Dec 4, but not 12/4.
 1. GitLab operates on a [Fiscal Year](/handbook/finance/#fiscal-year) offset from the calendar year. When referring to a fiscal year or quarter, please use the following abbreviations:
    1. "FY20" is the preferred format and means: Fiscal Year 2020, the period running from February 1, 2019 through January 31, 2020
    1. "Q1" = the first quarter of the current Fiscal Year, so on Feb 1, 2020, "Q1" is the period from Feb. 1, 2020 through April 30, 2020. Note that Epics in GitLab follow Calendar Years and Quarters.
    1. When referring to a quarter in a future or past year, combine the two above: "FY21-Q1"
-   1. When financial data is presented include a note to indicate fiscal year (e.g. "Fiscal Year ending January, 31 'yy")
-1. We recommend considering documenting times in UTC in addition to Pacific in engineering and product management.  We recommend this because these teams often span more than three time zones, the standard is for systems to log information in UTC (which is used when documenting production root cause analysis), and it is useful to do so when coordinating cross-functional activities related to the monthly release.
-   1. Tip: It can be helpful to add UTC as a [secondary timezone in your Google calendar](/handbook/tools-and-tips/#time-zone).
-1. We use Pacific Time (PT) for all other uses since we are a San Francisco-based company.
-   1. Tip: You can [add multiple local times](/handbook/tools-and-tips/#world-clock) from other team members' time zone to your calendar sidebar. For macOS, additional [utilities](/handbook/tools-and-tips/mac/#macos-utilities) can help with timezone visualization and conversion.
-1. We communicate time using the [12-hour clock format](https://en.wikipedia.org/wiki/12-hour_clock). As such, make sure to include `AM` or `PM`.
-   1. Please refer to time as `9:00 AM Pacific` or `9:00 PM PT` as well as `9:00 AM UTC` (for engineering and product related items). It isn't often necessary to specify whether a timezone is currently observing Daylight Saving Time, and such references are often incorrect, so prefer "PT" to "PDT" or "PST" unless you have a specific need to differentiate between PDT and PST.
+   1. When financial data is presented, include a note to indicate fiscal year (e.g. "Fiscal Year ending January, 31 'yy")
+1. For time formatting guidelines, refer to the [GitLab Content Style Guide](https://handbook.gitlab.com/handbook/marketing/brand-and-product-marketing/brand/content-style-guide/#time-formatting).
 1. Please remember that not everyone is working in the same timezone; what may be morning for you is evening for someone else. Try to say 3 hours ago or 4 hours from now, or use a timestamp, including a timezone reference.
-1. Don't use "EOD" or "end of day" unless you are okay with a deliverable being due at the end of [anywhere on earth](https://en.wikipedia.org/wiki/Anywhere_on_Earth#:~:text=World%20map%20of%20time%20zones,it%20ends%20on%20Howland%20Island). Team members communicate across timezones, where "end of day" does not specify the exact date and time. When you want something due at a specific time, [communicate the date and time](/handbook/communication/#communicating-dates-and-time) by when the request should be done, for example: `Please review before 2023-06-10 5PM PT`.
+1. Don't use "EOD" or "end of day", as team members communicate across timezones, where "end of day" does not specify the exact date and time. When you want something due at a specific time, [communicate the date and time](/handbook/communication/#communicating-dates-and-time) by when the request should be done, for example: `Please review before 2023-06-10 5 p.m. PT`.
 
 ### Visuals
 
