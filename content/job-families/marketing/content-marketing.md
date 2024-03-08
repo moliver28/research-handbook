@@ -106,7 +106,7 @@ The Senior Content Writer &amp; Strategist is a [grade 7](/handbook/total-reward
 - In-depth industry experience and knowledge in a specialty
 - Proven ability to identify new audiences and opportunities, create a strategy, and execute the strategy
 
-### Staff Content Strategist 
+### Staff Content Strategist
 
 The Staff Content Strategist reports to Director, Global Content
 
@@ -143,7 +143,7 @@ The Staff Content Strategist is a [grade 8](/handbook/total-rewards/compensation
 - Experience with GitLab and familiarity with developer products is highly desirable
 - Technical background or understanding of developer tools, continuous integration, containers, and Kubernetes is a plus
 
-### Principal Content Strategist 
+### Principal Content Strategist
 
 The Principal Content Strategist reports to Director, Global Content
 
