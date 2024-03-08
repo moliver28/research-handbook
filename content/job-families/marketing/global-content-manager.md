@@ -5,22 +5,23 @@ summary: " "
 
 ## Levels
 
-### Senior Manager, Content Marketing
+### Senior Manager, Content Strategy
 
-The Senior Manager, Content Marketing reports to the Director, Global Content.
+The Senior Manager, Content Strategy reports to the Director, Global Content.
 
 #### Senior Manager, Content Marketing Job Grade
 
-The Senior Manager, Content Marketing is a [grade 9](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades)
+The Senior Manager, Content Strategy is a [grade 9](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades)
 
 #### Senior Manager, Content Marketing Responsibilities
 
-- Define GitLab's global content strategy
+- Extends that of the Manager, Content Strategy
+- Define GitLab’s global content strategy
 - Act as a steward of the GitLab brand, ensuring quality and cohesiveness across all content development
 - Oversee global content creation, governance, and operations
 - Oversee and launch content marketing programs
 - Effectively and efficiently partner with brand & digital, events, and product marketing to deliver on content needs across the customer lifecycle
-- Manage and mentor the content marketing, digital production, and editorial teams
+- Manage and mentor content teams
 - Generate and implement process improvements to the content pillar model
 - Draft quarterly OKRs and content KPIs
 - Report on content performance and audience growth
@@ -29,8 +30,9 @@ The Senior Manager, Content Marketing is a [grade 9](/handbook/total-rewards/com
 - Define agile content process definition and application
 - Content strategy and inbound content marketing program for about.gitlab.com
 
-#### Senior Manager, Content Marketing Requirements
+#### Senior Manager, Content Strategy Requirements
 
+- Extends that of Manager, Content Strategy
 - 5+ years experience in content marketing and creation, preferably in the software industry
 - Excellent writer and editor
 - Excellent verbal communication skills
@@ -60,9 +62,9 @@ The Director, Global Content is a [grade 10](/handbook/total-rewards/compensatio
 
 #### Director, Global Content Responsibilities
 
-- Extends that of the Senior Manager, Content Marketing
+- Extends that of the Senior Manager, Content Strategy
 - Lead the global content team to achieve production and website traffic growth results
-- Define strategy and execution plans for Content Marketing in support of overall Marketing OKRs
+- Define strategy and execution plans for Content Strategy &amp; Ops in support of overall Marketing OKRs
 - Develop overall content narrative to become a top destination for DevOps practioners
 - Measure and report on content marketing strategy
 - Develop strong, competitive and measurable SEO plans that fall in line with overall content marketing objectives
@@ -73,7 +75,7 @@ The Director, Global Content is a [grade 10](/handbook/total-rewards/compensatio
 
 #### Director, Global Content Requirements
 
-- Extends that of the Senior Manager, Content Marketing
+- Extends that of the Senior Manager, Content Strategy
 - Past experience leading a content marketing team
 - Experience leading content marketing at an enterprise software company
 - Experience leading teams of writers
