@@ -14,6 +14,6 @@ Refer to [this internal handbook](https://internal.gitlab.com/handbook/engineeri
 
 ### Requests to forward or send GitLab Dedicated activation codes
 
-Any requests to forward or send GitLab Dedicated licenses or activation codes should follow the same policies and workflow when 
-[sending licenses to a different email address](/handbook/support/license-and-renewals/workflows/self-managed/sending_license_to_different_email) 
+Any requests to forward or send GitLab Dedicated licenses or activation codes should follow the same policies and workflow when
+[sending licenses to a different email address](/handbook/support/license-and-renewals/workflows/self-managed/sending_license_to_different_email)
 for Self Managed subscriptions.
