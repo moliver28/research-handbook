@@ -603,7 +603,6 @@ I collect and gather data and process the data to make it suitable for analysis.
 - It's a lot of work to keep models fresh and relevant. 
 - I don't want to use tools that are not relevant to data science. So please don't ask me to learn devOps, how to code and run a pipeline, etc.
 - It can be really expensive to train, retrain models and to run experiments. I want to make sure I don't get in trouble if I incur a large cost.
-#### Dana (Data Scientist)
 
 - **Alternative Job Titles:** Data Analyst, Machine Learning Engineer, Data Engineer, Quantitative Analyst, Predictive Modeler
 
