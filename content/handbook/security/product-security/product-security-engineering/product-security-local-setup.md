@@ -2,7 +2,7 @@
 title: "Product Security Engineer Local Setup recommendations"
 ---
 
-Product security engineers sometime contribute code to the product. The following list of tools will come handy in doing so.
+Product security engineers often contribute code to the product. The following list of tools will come handy in doing so.
 
 ## GitLab Development Kit (GDK) Installation
 
@@ -19,4 +19,5 @@ The following guide is practical to enable debugging GDK: https://handbook.gitla
 
 ## JetBrains license
 
-To help in developing various tools or contributing to the product, various JetBrains product may be required. The following guide explains how to obtain a JetBrains license: https://handbook.gitlab.com/handbook/tools-and-tips/editors-and-ides/jetbrains-ides/licenses/
+To help in developing various tools or contributing to the product, various JetBrains products may be required. The following guide explains how to obtain a JetBrains license: https://handbook.gitlab.com/handbook/tools-and-tips/editors-and-ides/jetbrains-ides/licenses/
+
