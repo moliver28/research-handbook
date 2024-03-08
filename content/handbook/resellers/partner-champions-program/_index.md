@@ -1,6 +1,8 @@
----
+3---
 title: "GitLab Partner Champions Program"
 ---
+
+![GitLab Partner Champion](images/partner-champion-lockup.png)
 
 <link rel="stylesheet" type="text/css" href="/stylesheets/biztech.css" />
 
@@ -57,7 +59,7 @@ GitLab Champions enlists, supports, rewards, and recognizes members of the GitLa
 
 ## How to Join the GitLab Partner Champions Program?
 
-![The Process to become a GitLab Partner Champion](images/BecomeChampion.png)
+![The Process to become a GitLab Partner Champion](images/BecomaAChampion.png)
 
 ## Expected GitLab Partner Champions Outputs
 
