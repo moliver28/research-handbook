@@ -355,6 +355,7 @@ The shared services and components below are extracted from the GitLab [product 
 | Container Registry |  | Centralized with Specific Team | @dcroft | Package |  |
 | Email - Inbound |  |  |  |  |  |
 | Email - Outbound |  |  |  |  |  |
+| Elasticsearch | | Centralized with Specific Team | @changzhengliu | Global Search | |
 | GitLab K8S Agent |  | Centralized with Specific Team | @nicholasklick | Configure |  |
 | GitLab Pages |  | Centralized with Specific Team | @johnhope | [Knowledge](/handbook/engineering/development/dev/plan/knowledge/) |  |
 | GitLab Rails |  | Decentralized |  |  | DRI for each controller is determined by the feature category specified in the class. [app/controllers](https://gitlab.com/gitlab-org/gitlab/-/tree/master/app/controllers) and [ee/app/controllers](https://gitlab.com/gitlab-org/gitlab/-/tree/master/ee/app/controllers) |
