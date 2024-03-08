@@ -13,11 +13,7 @@ See [How It Works](#how-it-works) to learn more.
 
 1. Insert your YubiKey(s) into an available USB port on your laptop, monitor, or docking station.
 
-2. Open a text editor a empty browser window and tap on the YubiKey's gold contact. You should see a [string get populated](#webauthn-authentication). Your YubiKey is working!
-
-    ```plain
-    cccccbchbneclfhiefkkdgfkiuvukginvnhlefdcbuuc
-    ```
+2. Open a text editor a empty browser window and tap on the YubiKey's gold contact. You should see a [string get populated](#webauthn-authentication). `cccccbchbneclfhiefkkdgfkiuvukginvnhlefdcbuuc`. Your YubiKey is working!
 
 3. Follow the instructions in the guides for each of our applications to configure your YubiKey as a 2FA authenticator. If you have multiple accounts, repeat the steps for each account.
 
@@ -33,7 +29,7 @@ See [How It Works](#how-it-works) to learn more.
 
 When prompted to sign into a configuration application in the future, you may see a QR code or ask to use your passkey or Touch ID. Even if it says Passkey or Touch ID, touching your YubiKey still works. You simply need to touch your key, or click on the USB thumb drive icon in the prompt and then touch your key.
 
-<img src="/handbook/security/guides/yubikey/images/yubikey-passkey-touchid.png" alt="YubiKey Models" style="border: 1px #888 solid; padding: 3px;" /><br />
+<img src="/handbook/security/guides/yubikey/images/yubikey-touchid.png" alt="YubiKey Models" style="border: 1px #888 solid; padding: 3px;" /><br />
 
 ### Adding New Applications
 
