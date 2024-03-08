@@ -18,7 +18,7 @@ The group is responsible for improving and expanding upon our current global sea
 
 Additionally, we will support AI features via Retrieval Augmented Generation work which includes:
 - Identifying and preparing new useful data for our AI-powered features in collaboration with feature teams and the AI Framework team
-- Storing vector embeddings of issues, MRs, and more
+- Storing vector embeddings of epics, issues, MRs, source code, and more
 - Providing retrieval APIs for those vector embeddings, metadata filtering, and ensuring permissions are enforced
 
 This team doesn't own custom searches for specific features, such as the "filter bar" on issues which is part of the [Issue Tracking](https://about.gitlab.com/direction/plan/project_management/team_planning/) category owned by the [Project Management group](/handbook/product/categories/#project-management-group).
