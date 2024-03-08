@@ -33,6 +33,7 @@ description: "A comprehensive list of all of Field Marketing's epic codes."
 * **Campaign UTM:** (Format: Copy campaign name above and change to all lowercase, no spaces, hyphens, underscores, or special characters and at the end of the UTM, add **fmm** in all lowercase letters - Example UTM - 20210915besteventeverfmm)
 * [ ] [**Salesforce Campaign**]()
 * [ ] [**Marketo Program**]()
+* [ ] [Developer Relations Influenced](https://handbook.gitlab.com/handbook/marketing/developer-relations/content-effectiveness/#developer-relations-influenced-campaigns), Add the `DevRel-Influenced` label.
 
 ## Key Details for Speaking Session 
 *If your speaking session will be tracked separately and requires a child SFDC campaign and separate Marketo program from your parent campaign for the event, FMC to specify details below. Also remember to create separate speaking session sub-issues as needed (example - if tracking separately, there should be a lead list issue for the conference and a spearate lead list issue for the speaking session, both referencing their respective Marketo programs).*
@@ -76,6 +77,7 @@ description: "A comprehensive list of all of Field Marketing's epic codes."
 * **Campaign UTM:** (Format: Copy campaign name above and change to all lowercase, no spaces, hyphens, underscores, or special characters and at the end of the UTM, add **fmm** in all lowercase letters - Example UTM - 20210915besteventeverfmm)
 * [ ] [**Salesforce Campaign**]()
 * [ ] [**Marketo Program**]()
+* [ ] [Developer Relations Influenced](https://handbook.gitlab.com/handbook/marketing/developer-relations/content-effectiveness/#developer-relations-influenced-campaigns), Add the `DevRel-Influenced` label.
 
 ## Key Details for Speaking Session 
 *If your speaking session will be tracked separately and requires a child SFDC campaign and separate Marketo program from your parent campaign for the event, FMC to specify details below. Also remember to create separate speaking session sub-issues as needed (example - if tracking separately, there should be a lead list issue for the conference and a spearate lead list issue for the speaking session, both referencing their respective Marketo programs).*
@@ -118,6 +120,7 @@ description: "A comprehensive list of all of Field Marketing's epic codes."
 * **Campaign UTM:** (Format: Copy campaign name above and change to all lowercase, no spaces, hyphens, underscores, or special characters and at the end of the UTM, add **fmm** in all lowercase letters - Example UTM - 20210915besteventeverfmm)
 * [ ] [**Salesforce Campaign**]()
 * [ ] [**Marketo Program**]()
+* [ ] [Developer Relations Influenced](https://handbook.gitlab.com/handbook/marketing/developer-relations/content-effectiveness/#developer-relations-influenced-campaigns), Add the `DevRel-Influenced` label.
 
 ## Key Details for Speaking Session 
 *If your speaking session will be tracked separately and requires a child SFDC campaign and separate Marketo program from your parent campaign for the event, FMC to specify details below. Also remember to create separate speaking session sub-issues as needed (example - if tracking separately, there should be a lead list issue for the conference and a spearate lead list issue for the speaking session, both referencing their respective Marketo programs).*
@@ -162,6 +165,7 @@ description: "A comprehensive list of all of Field Marketing's epic codes."
 * **Campaign UTM:** (Format: Copy campaign name above and change to all lowercase, no spaces, hyphens, underscores, or special characters and at the end of the UTM, add **fmm** in all lowercase letters - Example UTM - 20210915besteventeverfmm)
 * [ ] [**Salesforce Campaign**]()
 * [ ] [**Marketo Program**]()
+* [ ] [Developer Relations Influenced](https://handbook.gitlab.com/handbook/marketing/developer-relations/content-effectiveness/#developer-relations-influenced-campaigns), Add the `DevRel-Influenced` label.
 
 ## Sub-Issue Creation
 * [ ] [Program Tracking](https://gitlab.com/gitlab-com/marketing/field-marketing/-/issues/new?issuable_template=program-tracking) - FMC creates, assigns to FMC
@@ -232,6 +236,7 @@ description: "A comprehensive list of all of Field Marketing's epic codes."
 * **Campaign UTM:** (Format: Copy campaign name above and change to all lowercase, no spaces, hyphens, underscores, or special characters and at the end of the UTM, add **fmm** in all lowercase letters - Example UTM - 20210915besteventeverfmm)
 * [ ] [**Salesforce Campaign**]()
 * [ ] [**Marketo Program**]()
+* [ ] [Developer Relations Influenced](https://handbook.gitlab.com/handbook/marketing/developer-relations/content-effectiveness/#developer-relations-influenced-campaigns), Add the `DevRel-Influenced` label.
 
 ## Sub-Issue Creation
 * [ ] [Program Tracking](https://gitlab.com/gitlab-com/marketing/field-marketing/-/issues/new?issuable_template=program-tracking) - FMC creates, assigns to FMC
@@ -269,6 +274,7 @@ description: "A comprehensive list of all of Field Marketing's epic codes."
 * **Campaign UTM:** (Format: Copy campaign name above and change to all lowercase, no spaces, hyphens, underscores, or special characters and at the end of the UTM, add **fmm** in all lowercase letters - Example UTM - 20210915besteventeverfmm)
 * [ ] [**Salesforce Campaign**]()
 * [ ] [**Marketo Program**]()
+* [ ] [Developer Relations Influenced](https://handbook.gitlab.com/handbook/marketing/developer-relations/content-effectiveness/#developer-relations-influenced-campaigns), Add the `DevRel-Influenced` label.
 
 ## Sub-Issue Creation
 * [ ] [Program Tracking](https://gitlab.com/gitlab-com/marketing/field-marketing/-/issues/new?issuable_template=program-tracking) - FMC creates, assigns to FMC
@@ -305,6 +311,7 @@ description: "A comprehensive list of all of Field Marketing's epic codes."
 * **Campaign UTM:** (Format: Copy campaign name above and change to all lowercase, no spaces, hyphens, underscores, or special characters and at the end of the UTM, add **fmm** in all lowercase letters - Example UTM - 20210915besteventeverfmm)
 * [ ] [**Salesforce Campaign**]()
 * [ ] [**Marketo Program**]()
+* [ ] [Developer Relations Influenced](https://handbook.gitlab.com/handbook/marketing/developer-relations/content-effectiveness/#developer-relations-influenced-campaigns), Add the `DevRel-Influenced` label.
 
 ## Sub-Issue Creation
 * [ ] [Program Tracking](https://gitlab.com/gitlab-com/marketing/field-marketing/-/issues/new?issuable_template=program-tracking) - FMC creates, assigns to FMC
@@ -341,6 +348,7 @@ description: "A comprehensive list of all of Field Marketing's epic codes."
 * **Campaign UTM:** (Format: Copy campaign name above and change to all lowercase, no spaces, hyphens, underscores, or special characters and at the end of the UTM, add **fmm** in all lowercase letters - Example UTM - 20210915besteventeverfmm)
 * [ ] [**Salesforce Campaign**]()
 * [ ] [**Marketo Program**]()
+* [ ] [Developer Relations Influenced](https://handbook.gitlab.com/handbook/marketing/developer-relations/content-effectiveness/#developer-relations-influenced-campaigns), Add the `DevRel-Influenced` label.
 
 ## Sub-Issue Creation
 * [ ] [Program Tracking](https://gitlab.com/gitlab-com/marketing/field-marketing/-/issues/new?issuable_template=program-tracking) - FMC creates, assigns to FMC
@@ -376,6 +384,7 @@ description: "A comprehensive list of all of Field Marketing's epic codes."
 * **Campaign UTM:** (Format: Copy campaign name above and change to all lowercase, no spaces, hyphens, underscores, or special characters and at the end of the UTM, add **fmm** in all lowercase letters - Example UTM - 20210915besteventeverfmm)
 * [ ] [**Salesforce Campaign**]()
 * [ ] [**Marketo Program**]()
+* [ ] [Developer Relations Influenced](https://handbook.gitlab.com/handbook/marketing/developer-relations/content-effectiveness/#developer-relations-influenced-campaigns), Add the `DevRel-Influenced` label.
 
 ## Sub-Issue Creation
 * [ ] [Program Tracking](https://gitlab.com/gitlab-com/marketing/field-marketing/-/issues/new?issuable_template=program-tracking) - FMC creates, assigns to FMC
@@ -422,6 +431,7 @@ description: "A comprehensive list of all of Field Marketing's epic codes."
 * **Campaign UTM:** (Format: Copy campaign name above and change to all lowercase, no spaces, hyphens, underscores, or special characters and at the end of the UTM, add **fmm** in all lowercase letters - Example UTM - 20210915besteventeverfmm)
 * [ ] [**Salesforce Campaign**]()
 * [ ] [**Marketo Program**]()
+* [ ] [Developer Relations Influenced](https://handbook.gitlab.com/handbook/marketing/developer-relations/content-effectiveness/#developer-relations-influenced-campaigns), Add the `DevRel-Influenced` label.
 
 ## Sub-Issue Creation
 Utilize the [Workshop/Webcast SLA Workback Schedule](https://docs.google.com/spreadsheets/d/1YXriQ1clvYyBn-TDbbCVvNP6NEbrAF-0w6tIHKhDeZM/edit?usp=sharing) to calculate the due dates.
@@ -472,6 +482,7 @@ Utilize the [Workshop/Webcast SLA Workback Schedule](https://docs.google.com/spr
 * **Campaign UTM:** (Format: Copy campaign name above and change to all lowercase, no spaces, hyphens, underscores, or special characters and at the end of the UTM, add **fmm** in all lowercase letters - Example UTM - 20210915besteventeverfmm)
 * [ ] [**Salesforce Campaign**]()
 * [ ] [**Marketo Program**]()
+* [ ] [Developer Relations Influenced](https://handbook.gitlab.com/handbook/marketing/developer-relations/content-effectiveness/#developer-relations-influenced-campaigns), Add the `DevRel-Influenced` label.
 
 ## Sub-Issue Creation
 Utilize the [Workshop/Webcast SLA Workback Schedule](https://docs.google.com/spreadsheets/d/1YXriQ1clvYyBn-TDbbCVvNP6NEbrAF-0w6tIHKhDeZM/edit?usp=sharing) to calculate the due dates. `All Webcasts will be -45 day SLA webcasts since they require all new content.`
