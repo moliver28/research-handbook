@@ -59,9 +59,16 @@ You should feel in all instances that you are able to explain the reasoning and 
 
 ### Approving travel for live, in person experiences
 
-The Growth and Development Fund **cannot be used to pay for travel** to and from live learning experiences (e.g. conferences or workshops.) This expense comes from your departments Travel & Expense budget (the cost of travel for G&D experiences has been accounted for in the planning of team budgets by Finance). If you are unsure whether the cost of travel for one of your team members G&D applications is justifiable, please speak to your manager / VP **before** approving the request. VP approval is required on all applications over $1000 involving travel, so in most cases they will be made aware as a matter of course.
+Our intent at GitLab is to pay for everything a team member needs when travelling to a conference, but there are a couple of things to be mindful of when approving these requests.
 
-Remind your team members that although travel costs should be detailed in the G&D issue, it must be expensed separately in Navan from the G&D claim. The costs also won't be subtracted from their G&D budget.
+- The G&D Fund should be used to pay for conference registration, tickets, etc.
+- The costs for travelling to and from a conference, including hotel stays and meals, comes from the Travel & Expenses budget.
+
+These two costs should still be detailed in the Growth and Development request issue. They just need to be expensed separately. The travel costs won't be subtracted from the team members' personal G&D budget.
+
+There may be budgetary concerns if a team member is applying for a conference that would incur significant travel and accomodation costs. When approving a team members' G&D request, managers should feel confident that they can justify the total cost.
+
+If you are unsure whether the cost of travel for one of your team members G&D applications is justifiable, please speak to your manager / VP **before** approving the request. VP approval is required on all applications over $1000 involving travel, so in most cases they will be made aware as a matter of course.
 
 If you have any questions, please reach out to the [Learning & Development](https://gitlab.enterprise.slack.com/archives/CMRAWQ97W) team for support.
 
