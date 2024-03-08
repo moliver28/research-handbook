@@ -33,6 +33,7 @@ If you're interested in the team's Objectives and Key Results (OKRs), you can fi
 * Providing essential support for our AI chat system framework.
 * Incorporating support for new AI providers when required.
 * Assisting with the production support and ensuring the readiness of the AI Gateway.
+* LLM inference support, including prompt enginering, response evaluation, fine tuning, evaluation, and more.
 
 ### ☎️ How to reach us
 
