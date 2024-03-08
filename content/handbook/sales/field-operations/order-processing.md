@@ -661,7 +661,7 @@ If an opportunity meets the criteria listed above, but does not meet the Minimum
 
 1. Investment Services (IS) must be requested in opportunity chatter and justified based on IS program guidelines found [here](https://docs.google.com/spreadsheets/d/1ulMA3fdZRHYWks0dFwSgEQAvsKwxlXV08m5ZKHJ4VHA/edit#gid=347765709)
 2. Required approvers are Dir (or higher) of PS Finance, VP of Global Services, and CRO. 
-3. VP and Sr. Dir Accounting Revenue shold be kept informed as copy on chatter messages, but do not need to approve. 
+3. All other requirements for deal approval still apply, including Revenue Management appoval ([deal approval matrix](https://docs.google.com/document/d/1-CH-uH_zr0qaVaV1QbmVZ1rF669DsaUeq9w-q1QiKPE/edit#heading=h.tkatf8oekrwh)).
 
 Investment services budget and approvals are centrally tracked in [this spreadsheet](https://docs.google.com/spreadsheets/d/1ulMA3fdZRHYWks0dFwSgEQAvsKwxlXV08m5ZKHJ4VHA/edit#gid=347765709).   
 
