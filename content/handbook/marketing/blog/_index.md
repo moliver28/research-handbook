@@ -273,8 +273,8 @@ document.querySelectorAll('a[href^="#"]').forEach(elem => {
 
 #### Preparing images
 
-- If creating an original cover image, the dimensions should be 900px x 400px at least, but ideally 1800px x 800px for optimal quality on all displays.
-- All images should be less than 1MB. JPEGs tend to be smaller than PNGs so use JPEGs when possible.
+- If creating an original cover image, the dimensions should be 1800px x 945px for optimal quality on all displays.
+- All images should aim to be less than 1MB. JPEGs tend to be smaller than PNGs so use JPEGs when possible.
 - To resize in Preview go to `Tools`, `Adjust size` and adjust the entry in the `Resolution` field. Preview will estimate what the resulting image size will be before you click `OK` to confirm.
 - Keep all the images the same width.
 
