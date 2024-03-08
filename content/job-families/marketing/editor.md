@@ -37,7 +37,8 @@ The Blog Editor reports to the Manager, Blog Strategy (in absence, Director, Glo
 
 ## Levels
 
-### Senior Blog Editor 
+### Senior Blog Editor
+
 The Senior Blog Editor reports to the Manager, Blog Strategy (in absence, Director, Global Content)
 
 #### Job Grade
@@ -59,6 +60,7 @@ The Senior Blog Editor is a [grade 7](/handbook/total-rewards/compensation/compe
 - Experience covering technical topics like DevOps, digital transformation, CI/CD, and software development methods
 
 ### Staff Managing Editor
+
 The Staff Managing Editor reports to the Manager, Blog Strategy (in absence, Director, Global Content)
 
 #### Job Grade
@@ -89,6 +91,7 @@ The Staff Managing Editor is a [grade 8](/handbook/total-rewards/compensation/co
 - BONUS: A passion for and strong understanding of the industry and our mission.
 
 ### Manager, Blog Strategy
+
 The Manager, Blog Strategy reports to the Director, Global Content
 
 #### Job Grade
