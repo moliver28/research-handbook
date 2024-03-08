@@ -2,6 +2,8 @@
 title: "GitLab Partner Champions Program"
 ---
 
+![GitLab Partner Champion](images/partner-champion-lockup.png)
+
 <link rel="stylesheet" type="text/css" href="/stylesheets/biztech.css" />
 
 The GitLab Partner Champions Program will empower, support, reward, and recognize members of the GitLab Partner community who champion great customer outcomes based on the GitLab DevSecOps platform.
