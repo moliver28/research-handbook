@@ -263,7 +263,7 @@ When you pick something to work on, please:
 [iteration]: /handbook/values/#iteration
 
 [request for it to be scheduled]: /handbook/engineering/workflow/#requesting-something-to-be-scheduled
-[issue bash]: /community/issue-bash/
+[issue bash]: https://about.gitlab.com/community/issue-bash/
 
 ## Useful links
 
