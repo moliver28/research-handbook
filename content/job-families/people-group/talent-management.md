@@ -1,12 +1,12 @@
 
-title: "Talent Management Roles"
-description: "The Talent Management job family creates and facilitates programs designed to accelerate performance and talent at GitLab." 
+## "Talent Management Roles"
+description: "The Talent Management job family creates and facilitates programs designed to accelerate performance and talent at GitLab."
 ---
 
 The Talent Management job family creates and facilitates programs designed to accelerate performance and talent at GitLab. Specifically, Talent Management consults with GitLabs People Business Partners and Business leaders to drive organizational effectiveness, high performing teams and talent strategies across GitLab.
 
 
-## Senior Talent Management Partner
+### Senior Talent Management Partner
 
 The Senior Talent Mangement Partner reports to the Director, Talent Management.
 
@@ -30,20 +30,20 @@ The Senior Talent Management Partner is a [grade 7](/handbook/total-rewards/comp
 - Identifies data needs and metrics on overall talent health. Assesses those metrics to glean insights from data. Addresses questions from PBPs and BU leaders regarding talent data
 - Partners with the People Data & Analytics team to inform reporting and dashboard needs.
 - Creates presentations and other materials to tell a data-based story that explains impact and value with senior leadership, executives, and board of directors
-- Ensures talent processes align with the GitLab Values 
+- Ensures talent processes align with the GitLab Values
 - Establishes talent identification and succession strategies
 - Assist with and complete other Talent Management projects and duties as assigned
 
 ### Requirements
 
-- Proven progressive experience with a background in people business partnering, learning and development, or analytics preferred 
+- Proven progressive experience with a background in people business partnering, learning and development, or analytics preferred
 - Experience with the strategy design, implementation and governance of global talent processes
 - Experience with developing and managing change programs for diverse populations such as rotation programs
 - Project Management experience
 - Demonstrated skill in rolling out processes to People Business partners and leaders
 - Excellent communication & interpersonal skills - ability to effectively interact and influence at all levels and with a geographically diverse team
 - Highly analytical with the ability to analyze data and leverage insights from multiple sources to develop recommendations and make decisions
-- Demonstrated ability to use data to tell stories in written form 
+- Demonstrated ability to use data to tell stories in written form
 - Practical mindset to developing and rolling out processes that the business can easily adapt to
 - Experience defining and measuring project and performance metrics
 - Strong knowledge of talent management best practices
@@ -83,3 +83,4 @@ The Director, Talent Management is a [grade 10](/handbook/total-rewards/compensa
 - Understanding of technology architecture and have partnered with people technology in previous roles to help effectuate change
 - Comfortable setting a multi-year plan and delivering against it
 - Used to influencing and driving change at the Executive level
+
