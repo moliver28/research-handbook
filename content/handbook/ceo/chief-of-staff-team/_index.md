@@ -313,7 +313,7 @@ Once a project or initiative to Shadow has been identified and the team member d
 
 ## Contact Us
 
-- [`#ceo-chief-of-staff-team`][CoST-Slack] on Slack (GitLab Team Members only)
+- ceo-chief-of-staff-team on Slack (GitLab Team Members only)
 
 ### GitLab / Google Groups
 
