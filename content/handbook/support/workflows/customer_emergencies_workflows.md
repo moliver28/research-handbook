@@ -360,7 +360,7 @@ A customer may be blocked because of a license expiring or neglecting to apply a
 
 ##### Multi-year subscription annual rollover
 
-When a customer has a multi-year deal, each anniversary that the subscription rolls over, the customer's namespace can fall back to `Free`. If this occurs, send the customer the following steps.
+When a customer has a multi-year deal, each anniversary that the subscription rolls over, the customer's namespace can fall back to `Free`. If this occurs, send the customer the following steps. Refer to [Handling multi-year subscriptions](/handbook/support/license-and-renewals/workflows/self-managed/handling_multi-years_subscription/) for further context. 
 
 1. Ask the customer to login to the [Customers Portal](https://docs.gitlab.com/ee/subscriptions/customers_portal.html) located at https://customers.gitlab.com/customers/sign_in for subscription management.
 1. Follow these [steps to ensure their GitLab.com account is linked](https://docs.gitlab.com/ee/subscriptions/customers_portal.html#change-the-linked-account).
