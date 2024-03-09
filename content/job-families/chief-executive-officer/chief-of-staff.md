@@ -17,7 +17,7 @@ The Chief of Staff to the CEO is a [grade 12](/handbook/total-rewards/compensati
 
 ## Responsibilities
 
-The responsibilities include both directed work that will mostly be triggered by a direction from the CEO as well as leadership work that is self-directed. The mix will shift from majority directed work to majority leadership work. As the Head of the Office of the CEO, the Chief of Staff to the CEO is responsible for managing team members within the Office of the CEO and supporting their success in their roles. 
+The responsibilities include both directed work that will mostly be triggered by a direction from the CEO as well as leadership work that is self-directed. The mix will shift from majority directed work to majority leadership work. As the Head of the Office of the CEO, the Chief of Staff to the CEO is responsible for managing team members within the Office of the CEO and supporting their success in their roles.
 
 ### Directed Work
 
