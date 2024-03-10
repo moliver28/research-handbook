@@ -21,13 +21,6 @@ If you know someone who might be interested in attending, feel free to share the
 
 ### AMER Time Zone Webinars & Labs
 
-#### GitLab Runner Fundamentals and What You Need to Know
-##### March 8th, 2024 at 9:00-10:00AM Pacific Time / 12:00-1:00PM Eastern Time
-
-Runners are a requirement for operating GitLab CI/CD. Learn about Runner architecture, options for deployments, supported operating systems, and optimizing them for most efficient usage. We will be discussing best practices, decisions that you need to make before deploying at scale, and options you have for monitoring fleets of runners.
-
-[<button class="btn btn-primary" type="button">Register</button>](https://gitlab.zoom.us/webinar/register/WN_TznzIlIgRkaQ_T7kojogNQ#/registration)
-
 #### Hands-On GitLab CI Lab for Jenkins Users
 ##### March 20th, 2024 at 9:00-11:00AM Pacific Time / 12:00-2:00PM Eastern Time
 
@@ -67,13 +60,6 @@ We will cover:
 [<button class="btn btn-primary" type="button">Register</button>](https://gitlab.zoom.us/webinar/register/WN_JER8cqk9T9uLPObVrb_-gA#/registration)
 
 ### EMEA Time Zone Webinars & Labs
-
-#### GitLab Runner Fundamentals and What You Need to Know
-##### March 8th, 2024 at 10:00-11:00AM UTC / 11:00AM-12:00PM CET
-
-Runners are a requirement for operating GitLab CI/CD. Learn about Runner architecture, options for deployments, supported operating systems, and optimizing them for most efficient usage. We will be discussing best practices, decisions that you need to make before deploying at scale, and options you have for monitoring fleets of runners.
-
-[<button class="btn btn-primary" type="button">Register</button>](https://gitlab.zoom.us/webinar/register/WN_rWRDk6GuSYinyjm8kLYung#/registration)
 
 #### Hands-On GitLab CI Lab for Jenkins Users
 ##### March 20th, 2024 at 10:00AM-12:00PM UTC / 11:00AM-1:00PM CET
