@@ -9,12 +9,6 @@ The Govern sub-department teams are the engineering teams in the [Govern Stage](
 
 To support GitLab's product vision through alignment with the [Govern stage](https://about.gitlab.com/direction/govern/) product direction.
 
-Help users manage security vulnerabilities, policies, and compliance across their organization.
-
-## Mission
-
-<!-- Business goals and the values aligned with them -->
-
 ## Groups
 
 - [Anti-abuse](anti-abuse/)
@@ -111,7 +105,7 @@ Because we have a wide range of domains to cover, it requires a lot of different
 ## Engineering Managers
 
 We meet bi-weekly synchronously to discuss stage and group wide topics. We primarily try to use Epics/Issues to initiate discussions and maintain transparency. We use the
-[Govern Compartment Board](https://gitlab.com/gitlab-com/govern-sub-department/-/boards/4833026) to better organize our discussions.
+[Govern Sub-department Board](https://gitlab.com/gitlab-com/govern-sub-department/-/boards/4833026) to better organize our discussions.
 
 ### Engineering Leadership - Backup Plans and Escalation
 
@@ -164,9 +158,9 @@ Weekly update template can be found [here](https://gitlab.com/gitlab-com/govern-
 
 ## Quarterly review updates
 
-Every quarter, an engineering manager for each group in the Govern Compartment prepares the quarterly review update using the issue template and records approximately 5 minutes to summarize the last quarter from the engineering perspective and present a high-level plan for the group for the next one to respond to quarterly Product strategy and explain our goals for next quarter.
+Every quarter, an engineering manager for each group in the Govern Sub-department prepares the quarterly review update using the issue template and records approximately 5 minutes to summarize the last quarter from the engineering perspective and present a high-level plan for the group for the next one to respond to quarterly Product strategy and explain our goals for next quarter.
 
-We aim to foster collaboration and communication between engineering managers in the Govern Compartment, align groups on product priorities for the next quarter, and celebrate our successes together.
+We aim to foster collaboration and communication between engineering managers in the Govern Sub-department, align groups on product priorities for the next quarter, and celebrate our successes together.
 
 Quarterly review update template can be found [here](https://gitlab.com/gitlab-com/govern-sub-department/-/blob/main/.gitlab/issue_templates/govern_stage_quarterly_review.md)).
 
