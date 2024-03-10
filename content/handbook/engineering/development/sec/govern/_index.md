@@ -1,15 +1,13 @@
 ---
-title: Govern Stage
+title: Govern Sub-department
 layout: single
 ---
 
-The Govern engineering groups are responsible for the [Govern Stage](/handbook/product/categories/#govern-stage) of the product.
+The Govern sub-department teams are the engineering teams in the [Govern Stage](/handbook/product/categories/#govern-stage) of the product.
 
 ## Vision
 
-Help users manage security vulnerabilities, policies, and compliance across their organization.
-
-The stage vision is captured on the [Govern product direction](https://about.gitlab.com/direction/govern/) pages.
+To support GitLab's product vision through alignment with the [Govern stage](https://about.gitlab.com/direction/govern/) product direction.
 
 ## Groups
 
@@ -107,7 +105,7 @@ Because we have a wide range of domains to cover, it requires a lot of different
 ## Engineering Managers
 
 We meet bi-weekly synchronously to discuss stage and group wide topics. We primarily try to use Epics/Issues to initiate discussions and maintain transparency. We use the
-[Govern Compartment Board](https://gitlab.com/gitlab-com/govern-compartment/-/boards/4833026) to better organize our discussions.
+[Govern Sub-department Board](https://gitlab.com/gitlab-com/govern-sub-department/-/boards/4833026) to better organize our discussions.
 
 ### Engineering Leadership - Backup Plans and Escalation
 
@@ -139,8 +137,8 @@ To support our teams, and commitments made to internal and external customers, t
 The issue provides a place to discuss and document coverage for any work in progress, or projects where the team member is the directly responsible individual (DRI), and support the [Paid Time Off at GitLab](https://handbook.gitlab.com/handbook/paid-time-off/) policy.
 
 We use an internal issue tracker as team member PTO is not public information, and a PTO template
-- [PTO issue list](https://gitlab.com/gitlab-com/govern-compartment/-/issues/?sort=weight_desc&state=opened&label_name%5B%5D=PTO&first_page_size=20)
-- [New PTO issue template](https://gitlab.com/gitlab-com/govern-compartment/-/issues/new?issuable_template=ooo_template)
+- [PTO issue list](https://gitlab.com/gitlab-com/govern-sub-department/-/issues/?sort=weight_desc&state=opened&label_name%5B%5D=PTO&first_page_size=20)
+- [New PTO issue template](https://gitlab.com/gitlab-com/govern-sub-department/-/issues/new?issuable_template=ooo_template)
 
 When a team-member takes some time off, it is important that their work is still being followed up on if needed. We want to make sure that any MR that lands in staging and production environments while we are out gets proper attention and is verified by a counterpart. Therefore, when getting close to our time-off period, we should do the following:
 
@@ -156,15 +154,15 @@ As priorities change, engineering managers update the template to include areas 
 
 An example template highlighting priorities, opportunities, risks, and security and availability concerns is:
 
-Weekly update template can be found [here](https://gitlab.com/gitlab-com/govern-compartment/-/blob/main/.gitlab/issue_templates/govern_stage_weekly_update.md).
+Weekly update template can be found [here](https://gitlab.com/gitlab-com/govern-sub-department/-/blob/main/.gitlab/issue_templates/govern_stage_weekly_update.md).
 
 ## Quarterly review updates
 
-Every quarter, an engineering manager for each group in the Govern Compartment prepares the quarterly review update using the issue template and records approximately 5 minutes to summarize the last quarter from the engineering perspective and present a high-level plan for the group for the next one to respond to quarterly Product strategy and explain our goals for next quarter.
+Every quarter, an engineering manager for each group in the Govern Sub-department prepares the quarterly review update using the issue template and records approximately 5 minutes to summarize the last quarter from the engineering perspective and present a high-level plan for the group for the next one to respond to quarterly Product strategy and explain our goals for next quarter.
 
-We aim to foster collaboration and communication between engineering managers in the Govern Compartment, align groups on product priorities for the next quarter, and celebrate our successes together.
+We aim to foster collaboration and communication between engineering managers in the Govern Sub-department, align groups on product priorities for the next quarter, and celebrate our successes together.
 
-Quarterly review update template can be found [here](https://gitlab.com/gitlab-com/govern-compartment/-/blob/main/.gitlab/issue_templates/govern_stage_quarterly_review.md)).
+Quarterly review update template can be found [here](https://gitlab.com/gitlab-com/govern-sub-department/-/blob/main/.gitlab/issue_templates/govern_stage_quarterly_review.md)).
 
 ## Govern staff meeting
 
