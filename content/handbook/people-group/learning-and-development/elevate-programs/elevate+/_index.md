@@ -128,7 +128,7 @@ Yes! Upon successful completion of the program, including attendance to all requ
 
 ### How often will this program run?
 
-Our goal is to enroll all elidigible managers into Elevate+ during FY25.
+Our goal is to enroll all eligible managers into Elevate+ during FY25.
 
 ### Is there opportunity to participate in the program if I am an aspiring manager?
 
