@@ -83,6 +83,6 @@ The specific Scalability::Practices boards are:
 
 ### Counterpart Arrangements
 
-The [specific counterparts arrangements](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/1203) can request for SRE support through the follwoing steps:
+The [specific counterparts arrangements](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/1203) can request for SRE support through the following steps:
   -  Create an issue using the [counterpart issue template](https://gitlab.com/gitlab-com/gl-infra/scalability/-/blob/master/.gitlab/issue_templates/Counterpart%20Arrangement.md) in the [Scalability tracker](https://gitlab.com/gitlab-com/gl-infra/scalability/-/issues). The title of the issue should be a descriptive goal of the engagement.
   - Follow the checklist in the template. 
