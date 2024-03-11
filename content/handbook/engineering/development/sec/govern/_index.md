@@ -30,11 +30,11 @@ Group priorities are reviewed collaboratively with product counterparts and publ
 - [Threat Insights](https://about.gitlab.com/direction/govern/threat_insights/16_threat_insights_priorities.html#priorities)
 
 
-## Stage development people leaders
+## Sub-department development people leaders
 
 {{< team-by-manager-slug manager="pcalder" role="Govern" >}}
 
-To contact Govern stage development people leaders leaders use the following aliases:
+To contact Govern sub-department development people leaders leaders use the following aliases:
 
 - GitLab: `@gitlab-org/govern/managers`
 - Slack: `@s_govern_managers`
