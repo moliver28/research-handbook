@@ -57,7 +57,7 @@ There are several differences between how we operate and the shared processes do
 ### Evolving the process
 
 We take an [iterative](/handbook/values/#iteration) approach to our processes.
-Instead of defining it all at once, we add process when we see a gap or identify a problem.
+Instead of defining it all at once, we add a process when we see a gap or identify a problem.
 For [efficiency](/handbook/values/#freedom-and-responsibility-over-rigidity), we also don't shy away from removing a process that has outlived its usefulness.
 
 To evolve the process, please [start with an MR](/handbook/communication/#start-with-a-merge-request) to this page which contains your specific proposal, and ask for feedback.
