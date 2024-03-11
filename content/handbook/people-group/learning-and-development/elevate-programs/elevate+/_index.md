@@ -147,6 +147,7 @@ Important things to note:
 1. [ADD NOTE ABOUT CONFIDENTIALITY]
 1. It's likley you were nominated by mulitiple individuals to take the assessment. Please consider taking it for each person that's nominated you.
 1. Participants of current Elevate+ rounds might have also been nominated to take the assessment for their colleagues. This is expected - thanks for taking time to assess your fellow Elevate+ members!
+1. If, after reading the assessment questions, you feel like you cannot accurately give feedback to this participant for whatever reason, please simply do not complete the assessment and ignore reminders.
 
 
 
