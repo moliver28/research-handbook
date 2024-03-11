@@ -80,3 +80,9 @@ The specific Scalability::Practices boards are:
 1. [Scalability:Practices Planning Board](https://gitlab.com/gitlab-com/gl-infra/scalability/-/boards/7363861)
 1. [Runway Build Board](https://gitlab.com/gitlab-com/gl-infra/platform/runway/team/-/boards/5666826)
 1. [Runway Planning Board](https://gitlab.com/gitlab-com/gl-infra/platform/runway/team/-/boards/7292844)
+
+### Counterpart Arrangements
+
+The [specific counterparts arrangements](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/1203) can request for SRE support through the follwoing steps:
+  -  Create an issue using the [counterpart issue template](https://gitlab.com/gitlab-com/gl-infra/scalability/-/blob/master/.gitlab/issue_templates/Counterpart%20Arrangement.md) in the [Scalability tracker](https://gitlab.com/gitlab-com/gl-infra/scalability/-/issues). The title of the issue should be a descriptive goal of the engagement.
+  - Follow the checklist in the template. 
