@@ -53,60 +53,8 @@ The Platforms section builds and maintains various tools to help deploy, operate
 
 ### OKR
 
-[OKRs](/handbook/company/okrs/) (or other items outside of projects) that require progress tracking should be updated **every Wednesday**.
-
-
-When writing OKRs, the guidance is that:
-
-* Objective is defined as “**What** do you want to achieve?”
-* Key Results is defined as “How will you know **when** you’ve achieved the objective?”
-* As part of a KR, you can also have a sub point - which will likely tie to an epic. This would be an “Initiative”, defined as “**How** are you going to achieve your key result?”
-
-The OKR Description should have the following format:
-
-```
-### Context
-
-<context about the Objective and the problem it is trying to solve>
-
-### Linked Epics
-
-| Epic Title | Epic Link |
-| ---------- | --------- |
-| <title>    | <link>    |
-
-### Scoring Criteria
-
-<This section should list the Scoring Criteria of each Key Results part of the Objective. Different KRs could contribute with different weights to the Objective completion>
-```
-
-If an Objective description also needs other sections, these can be added after the block above.
-
-All the statuses of the Epics linked to the OKR (`Linked Epics` table) should be updated each Wednesday, to prevent drift between OKR's and linked epics.
-
-#### OKR Retrospective
-
-At the end of the quarter, each OKR should have a retrospective section at the top of the Description field,
-with the format below:
-
-```
-### Retro
-
-#### Good
-
-<2-3 bullet points summarising what went well during this OKR>
-
-#### Bad
-
-<2-3 bullet points summarising what didn't go well during this OKR>
-
-#### Try
-
-<2-3 bullet points summarising what we should try to do differently next time>
-
-```
-
-After the Retro section is finalized, the OKR can be closed.
+We use objective and key results to set goals in alignment with [OKRs at GitLab](handbook/company/okrs/).
+[Our OKR process](handbook/engineering/infrastructure/platforms/okrs/) is shared between all teams in Saas Platforms.
 
 ### Hiring
 
