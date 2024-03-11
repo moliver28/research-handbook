@@ -44,7 +44,7 @@ flowchart LR
 
 ### Improve Contributor Journey
 
-Provide an outstanding and efficient contributor experience, from onboarding materials to final merge. Reduce contribution stumbling blocks and improve contribution velocity to make the contributor journey more efficient. Gather feedback from wider community contributors and product teams on contribution friction.
+Provide an outstanding, highly efficient and fast contributor experience, from onboarding to getting a change merged. One of the tactics is to reduce contribution stumbling blocks to make the contributor journey more efficient. These stumbling blocks will be identified through gathering feedback from wider community contributors, product teams and GitLab Team Members on contribution friction.
 
 #### Reduce Open Community MR Age
 
