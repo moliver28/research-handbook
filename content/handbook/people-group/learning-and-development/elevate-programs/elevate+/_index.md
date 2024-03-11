@@ -134,6 +134,18 @@ Our goal is to enroll all elidigible managers into Elevate+ during FY25.
 
 Due to our priority to certify people leaders, participation by aspiring managers is not currently an option. We’ve put together a Level Up course available to all GitLab Team Members, to share the self-paced training content for each Elevate (please note, there is not yet an async option for Elevate+). You can check it out here: [Elevate Learning Materials](https://levelup.gitlab.com/access/saml/login/internal-team-members?returnTo=https://levelup.gitlab.com/learn/learning-path/elevate-learning-materials)
 
+### I was asked to fill out the Stakeholder Assessment - what does this mean?
+
+The Elevate+ [stakeholder assessment](https://handbook.gitlab.com/handbook/people-group/learning-and-development/elevate-programs/elevate+/#measuring-success) is delivered via Culture Amp and helpd Elevate+ participants tailor their development goals and measure their success. 
+
+Stakeholder assessments are sent to participants direct reports, manager, and co-workers they have nominated. If you recieved a stakeholder assessment, we ask that you please take ~15 minutes to complete. 
+
+Important things to note:
+
+1. [ADD NOTE ABOUT CONFIDENTIALITY]
+1. It's likley you were nominated by mulitiple individuals to take the assessment. Please consider taking it for each person that's nominated you.
+1. Participants of current Elevate+ rounds might have also been nominated to take the assessment for their colleagues. This is expected - thanks for taking time to assess your fellow Elevate+ members!
+
 
 
 
