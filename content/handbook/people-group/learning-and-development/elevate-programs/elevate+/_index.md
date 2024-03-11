@@ -138,6 +138,8 @@ Due to our priority to certify people leaders, participation by aspiring manager
 
 The Elevate+ [stakeholder assessment](https://handbook.gitlab.com/handbook/people-group/learning-and-development/elevate-programs/elevate+/#measuring-success) is delivered via Culture Amp and helpd Elevate+ participants tailor their development goals and measure their success. 
 
+Being nominated to take this assessment means that an Elevate+ participant greatly values your feedback and is interested to learn your perspective about their leadership style.
+
 Stakeholder assessments are sent to participants direct reports, manager, and co-workers they have nominated. If you recieved a stakeholder assessment, we ask that you please take ~15 minutes to complete. 
 
 Important things to note:
