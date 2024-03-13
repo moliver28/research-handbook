@@ -28,9 +28,11 @@ If you're interested in the team's Objectives and Key Results (OKRs), you can fi
 
 Engineering Manager: [@sean_carroll](https://gitlab.com/sean_carroll)
 
-{{</* team-by-manager-slug "sean-carroll" */>}}
+{{< team-by-manager-slug "sean-carroll" >}}
 
 **Product, Design & Quality**
+
+Product Manager: [@susie.bee](https://gitlab.com/susie.bee)
 
 {{% stable-counterparts manager-role="Engineering Manager(.*)Custom Models" role="Custom Models" %}}
 
