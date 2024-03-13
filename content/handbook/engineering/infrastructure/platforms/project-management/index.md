@@ -23,7 +23,7 @@ Update the status block in the epic description to summarize the project and sha
 
 #### When a project is finished
 
-The epic should retain the ~"workflow-infra::In Progress" label so that the project will still be listed for the next Platforms Grand Review. 
+The epic should be left "Open" and retain the ~"workflow-infra::In Progress" label so that the project will still be listed for the next Platforms Grand Review. 
 The DRI should update the status to be a description of the entire project.
 The closing status should highlight the original problem, a brief description of the changes made, and information about the impact of the project now that it is completed. 
 Closing statuses are helpful when producing the end-of-year team summaries. 
