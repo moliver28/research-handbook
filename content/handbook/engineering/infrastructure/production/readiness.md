@@ -11,8 +11,7 @@ It loosely follows the [production readiness review][google sre engagement] from
 The goal of the readiness review is to make sure we have enough documentation, observability, and reliability for the feature, change, or service to run at GitLab.com production scale.
 The readiness review process should be started as early as possible as features progress through our [product maturity levels][maturity levels].
 
-**Completing a readiness review doesn't necessarily mean that the Infrastructure teams will take over on-call responsibilities or ownership from the service team.**
-**For situations where the Infrastructure teams are taking over ownership and/or on-call responsibilities for a service, a review must be completed.**
+**Completing a readiness review doesn't necessarily mean that the Infrastructure teams will take over on-call responsibilities or ownership from the service team. If required, this should be discussed in the merge request.**
 
 This review is meant to facilitate collaboration between Service Owners, Security and Infrastructure teams to help bridge any gaps identified for a new service.
 The review document will serve as a snapshot of what is being deployed and the discussions that surround it.
