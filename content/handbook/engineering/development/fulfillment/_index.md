@@ -12,7 +12,7 @@ A [high performing team](/handbook/leadership/#strategies-to-build-high-performi
 Fulfillment focuses on improving our capabilities and metrics in the following areas:
 
 - Fulfillment: [Direction](https://about.gitlab.com/direction/fulfillment), [Group Responsibilities](https://about.gitlab.com/direction/fulfillment/#group-responsibilities), [Fulfillment Development Team](/handbook/engineering/development/fulfillment/)
-- Fulfillment Platform: [Team](/handbook/engineering/development/fulfillment/fulfillment-platform/)
+- Fulfillment Platform: [Direction](https://about.gitlab.com/direction/fulfillment/platform/), [Team](/handbook/engineering/development/fulfillment/fulfillment-platform/)
 - Provision: [Direction](https://about.gitlab.com/direction/fulfillment#provision), [Team](/handbook/engineering/development/fulfillment/provision/)
 - Purchase: [Direction](https://about.gitlab.com/direction/fulfillment/purchase/), [Team](/handbook/engineering/development/fulfillment/purchase/)
 - Utilization: [Team](/handbook/engineering/development/fulfillment/utilization/)
