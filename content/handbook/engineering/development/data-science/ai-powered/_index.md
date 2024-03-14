@@ -51,24 +51,4 @@ Other temporary channels and recurring meetings will be spun up as needed for in
 
 - **Quad connection**: The AI leads have started making weekly team announcements for developments across the groups. These are found [here](https://gitlab.com/gitlab-org/ai-powered/ai-weekly/-/issues/?sort=created_date&state=all&label_name%5B%5D=AI%20Powered%20Weekly%20Updates&first_page_size=20).
 
-### Business Continuity - Coverage and Escalation
-
-The following table shows who will provide cover if one or more of the Data-Science Engineering management team are unable to work for any reason.
-
-| Team Member        | Covered by            | Escalation     |
-| -----              |-----------------------| -----          |
-| Wayne Haber        | Bartek Marnane           | Jörg Heilig   |
-| Phil Calder        | Jay Swain             | Wayne Haber    |
-| Jay Swain          | Phil Calder           | Wayne Haber    |
-| Monmayuri          | Bartek Marnane        | Jörg Heilig   |
-
-If an issue arises  - such as a production incident or feature change lock - that a team member needs management support with when their direct manager is not online, the team member should reach out to any Data-Science Engineering Manager by mentioning in `#data-science-section`. The manager can help the team member follow the process and co-ordinate to ensure the team member has the necessary support.
-
-If an Engineer is unavailable the Engineering Manager will reassign open issues and merge requests to another engineer, preferably in the same [group](#all-team-members).
-
-Some people management functions may require escalation or delegation, such as [Workday](/handbook/people-group/workday/workday-guide/) and [Navan Expense](/handbook/business-technology/enterprise-applications/guides/navan-expense-guide/).
-
-This can be used as the basis for a business continuity plan (BCP),
-as well as a general guide to Data Science Engineering continuity in the event of one or more team members being unavailable for any reason.
-
 ## Stage Groups
