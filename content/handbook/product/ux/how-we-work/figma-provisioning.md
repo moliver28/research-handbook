@@ -52,7 +52,7 @@ To audit seats:
 1. If any member was added without a `@gitlab.com` email address, remove them from the organization.
 1. Review all new seats and ensure each team member has an approved access request issue.
 1. Downgrade anyone who shouldn’t have a paid seat.
-1. Mark your billing group as `Reviewed`
+1. Mark your billing group as `Reviewed`.
 
 Once confirmed, the Figma business owner will:
 
