@@ -32,7 +32,7 @@ Figma has three different products that seat types can apply to:
 
 ### Access request issues
 
-Every approved Figma seat must have a corresponding access request issue with budget approval. Seat upgrades should not occur outside of access requests using the Figma interface.
+Every approved Figma seat must have a corresponding access request issue with budget approval. Seat upgrades should not occur outside of access requests by using the Figma admin or sharing tools.
 
 Provisioners will be pinged in the access request issue to grant access. As a provisioner, ensure:
 
