@@ -14,7 +14,7 @@ Two things must happen for your stock options or RSUs to be meaningful,  for exa
 1. You must meet the vesting schedule of the stock options (i.e. we have a 1 year cliff and 3 years of monthly vesting).
 1. RSUs are granted quarterly, with a six month cliff vest for new team members and quarterly thereafter up to 4 years.  Refresh grants vest quarterly over 4 years.
 
-If a team member leaves GitLab, they have 90 days post termination to exercise their vested options.  RSUs are forfeited upon termination.
+If a team member leaves GitLab, they have 90 days post termination to exercise their vested options. Unvested RSUs and options are forfeited upon the date of the team member's exit from the company.
 
 ## Equity Incentive Plans
 
