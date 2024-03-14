@@ -22,13 +22,13 @@ The Create:Code Review BE team is responsible for all backend aspects of the pro
 
 The following people are permanent members of the Create:Code Review Group:
 
-{{< team-by-manager-role role="Backend Engineering Manager(.*)Create:Code Review" team="Code Review" >}}
+{{< team-by-manager-role role="Engineering Manager, Create:Code Review" team="Code Review" >}}
 
 ## Stable Counterparts
 
 The following members of other functional teams are our stable counterparts:
 
-{{< stable-counterparts role="Code Review" manager-role="Backend Engineering Manager(.*)Create:Code Review" >}}
+{{< stable-counterparts role="Code Review" manager-role="Engineering Manager, Create:Code Review" >}}
 
 ## Common Links
 
