@@ -38,8 +38,9 @@ Provisioners will be pinged in the access request issue to grant access. As a pr
 
 - The team member's manager has approved access.
 - The team member understands what seat option they need.
-  - A `Viewer-restricted` role is often enough when a team member only needs to view and comment on files to collaborate.
-  - The difference between `Design` and `Figjam` seats can be confusing at first. Ensure the team member knows which seat they need in order to perform their role.
+  - A **Viewer-restricted** role is often enough when a team member only needs to view and comment on files to collaborate.
+  - The difference between a **Design** and **FigJam** seat can be confusing at first. Ensure the team member knows which seat they need in order to perform their role.
+  - A team member may have the same, or a different seat type for **Design** and **FigJam**.
 - There is budget approval. Billing group admins should work with their Finance partners to ensure seat counts are not going over the maximum spend allocated for the fiscal year.
 
 ### Quarterly audits
