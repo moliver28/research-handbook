@@ -16,7 +16,7 @@ At GitLab, we use two of three available [Figma seat types](https://help.figma.c
 * **Viewer-restricted:** Free seat. People with a **Viewer-restricted** seat can view and comment on files to collaborate.
 * **Full:** Paid seat. People with a **Full** seat can create and edit files.
 
-**Note:** We do not use the `Viewer` role as this can result in unexpected seat upgrades. All viewer roles should be marked as `Viewer-restricted`.
+**Note:** We do not use the **Viewer** role as this can result in unexpected seat upgrades. All viewer roles should be marked as **Viewer-restricted**, which is also the default seat type when a user is added.
 
 [Learn more about roles in Figma](https://help.figma.com/hc/en-us/articles/360039960434).
 
