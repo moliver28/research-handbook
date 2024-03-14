@@ -58,7 +58,7 @@ Readiness issues must leverage the relevant scoped workflow labels to ensure vis
 | ![Done](../team/scalability/img/label-done.png) | The Readiness review is complete, Readiness MR is accepted and merged |
 | ![Cancelled](../team/scalability/img/label-cancelled.png) | Readiness review is no longer required due to other external reasons. After applying this label, issue will be closed. |
 | ![Stalled](../team/scalability/img/label-stalled.png) | Review is paused due to a change in priority.|
-| ![Blocked](../team/scalability/img/label-blocked.png) | Review is blocked due to external dependencies or other factors. Where possible, a [blocking issue](https://docs.gitlab.com/ee/user/project/issues/related_issues.html) should also be set. After applying this label, issue will be regularly triaged by the [Scalability:Practices](team/scalability/practices) team until the label can be removed. |
+| ![Blocked](../team/scalability/img/label-blocked.png) | Review is blocked due to external dependencies or other factors. Where possible, a [blocking issue](https://docs.gitlab.com/ee/user/project/issues/related_issues.html) should also be set. After applying this label, issue will be regularly triaged by the [Scalability:Practices](../team/scalability/practices) team until the label can be removed. |
 
 ## Guidelines for the author
 
