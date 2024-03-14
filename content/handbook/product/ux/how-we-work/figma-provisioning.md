@@ -20,13 +20,13 @@ At GitLab, we use two of three available [Figma seat types](https://help.figma.c
 
 [Learn more about roles in Figma](https://help.figma.com/hc/en-us/articles/360039960434).
 
-### Seats options
+### Seat options
 
-Figma has three different seat options to choose from:
+Figma has three different products that seat types can apply to:
 
-* Design: `Full` seats allow team members to edit Design files. When you upgrade someone to a `Full` Design seat, they'll automatically get upgraded to a `Full` Dev Mode seat at no additional cost.
-* Dev Mode: Dev Mode is included with `Full` Design seats and is also available as a standalone paid seat.
-* Figjam: `Full` seats allow team members to edit FigJam files.
+* **[Design](https://www.figma.com/design-overview/):** A **Full** seat allows a team member to edit Design files. When you upgrade someone to a **Full** Design seat, they'll automatically get upgraded to a **Full** Dev Mode seat at no additional cost.
+* **[Dev Mode](https://www.figma.com/dev-mode/):** Dev Mode is included with a **Full** Design seat and is also available as a standalone paid seat.
+* **[FigJam](https://www.figma.com/figjam/):** A **Full** seat allows a team member to edit FigJam files.
 
 ## Provisioning
 
