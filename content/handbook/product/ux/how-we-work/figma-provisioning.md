@@ -11,7 +11,7 @@ While multiple departments have team members with [Editor](https://help.figma.co
 
 ### Seat types
 
-At GitLab, we use two of three available Figma seat types: `Viewer-restricted` and `Full`.
+At GitLab, we use two of three available [Figma seat types](https://help.figma.com/hc/en-us/articles/360039960434-Free-and-paid-seats-in-Figma): **Viewer-restricted** and **Full**.
 
 * **Viewer-restricted:** Free seat. People with a **Viewer-restricted** seat can view and comment on files to collaborate.
 * **Full:** Paid seat. People with a **Full** seat can create and edit files.
