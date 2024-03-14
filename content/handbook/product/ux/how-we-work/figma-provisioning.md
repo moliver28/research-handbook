@@ -56,7 +56,7 @@ To audit seats:
 
 Once confirmed, the Figma business owner will:
 
-1. Lock in the final invoice amount
+1. Lock in the final invoice amount.
 1. Reach out to our Figma rep to share total seat counts for `R&D`, `Marketing`, and `Sales`. These will be added to line items on the invoice.
 1. Ensure the invoice is uploaded to Coupa and goes through our full Procurement process.
 
