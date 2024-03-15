@@ -140,7 +140,7 @@ The Elevate+ [stakeholder assessment](https://handbook.gitlab.com/handbook/peopl
 
 Being nominated to take this assessment means that an Elevate+ participant greatly values your feedback and is interested to learn your perspective about their leadership style. Participants will view their self assessment results alongside feedback from stakehodlers, then use this data to guide goals they set during Elevate+.
 
- The stakeholder assessment is sent to participants direct reports, manager, and co-workers they have nominated. If you recieve a stakeholder assessment, we ask that you please take ~15 minutes to complete. 
+The stakeholder assessment is sent to participants direct reports, manager, and co-workers they have nominated. If you recieve a stakeholder assessment, we ask that you please take ~15 minutes to complete.
 
 Important things to note:
 
