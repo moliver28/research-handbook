@@ -46,7 +46,7 @@ An issue is considered completely triaged when all of the following criteria are
 
 - It is partially triaged.
 - It has a milestone set.
-- It has a [priority label](https://docs.gitlab.com/ee/development/labels/index.html#priority-labels) applied for `~"type::bug"` and `~"UX Debt"`.
+- It has a [priority label](https://docs.gitlab.com/ee/development/labels/index.html#priority-labels) applied for `~"type::bug"` and `~"Deferred UX"`.
 
 ## Type Labels
 
@@ -249,9 +249,9 @@ Note: SUS-impacting issues are intended to have an impact on the current product
 
 In these cases, you should replace the `SUS::Impacting` label with the [`SUS::Non-impacting`](https://gitlab.com/groups/gitlab-org/-/labels?subscribed=&search=sus) label and a severity label is not needed.
 
-#### UX debt
+#### Deferred UX
 
-As noted above, issues labeled as `~UX Debt` also have a severity (and additionally [priority](#priority)) label applied *without* an accompanying `~"type::bug"` label. [UX Debt](/handbook/engineering/workflow/#ux-debt) results from the decision to release a user-facing feature that needs refinement, with the intention to improve it in subsequent iterations. Because it is an intentional decision, `~UX Debt` should not have a severity higher than `~"severity::3"`, because [MVCs](/handbook/values/#minimal-viable-change-mvc) should not intentionally have obvious bugs or significant usability problems. If you find yourself creating a UX debt issue that is higher than `~"severity::3"`, please talk to your stage group team about reincorporating that issue into the MVC.
+As noted above, issues labeled as `~Deferred UX` also have a severity (and additionally [priority](#priority)) label applied *without* an accompanying `~"type::bug"` label. [Deferred UX](/handbook/engineering/workflow/#deferred-ux) results from the decision to release a user-facing feature that needs refinement, with the intention to improve it in subsequent iterations. Because it is an intentional decision, `~Deferred UX` should not have a severity higher than `~"severity::3"`, because [MVCs](/handbook/values/#minimal-viable-change-mvc) should not intentionally have obvious bugs or significant usability problems. If you find yourself creating a Deferred UX issue that is higher than `~"severity::3"`, please talk to your stage group team about reincorporating that issue into the MVC.
 
 ### Transient bugs
 
