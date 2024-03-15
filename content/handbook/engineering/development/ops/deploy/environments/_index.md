@@ -307,28 +307,28 @@ Team members should use their best judgment to determine whether to assign the f
 - Does the MR require a lot of dev environments setup that team members outside the Environments group are likely to not have?
 - Is the MR part of a larger effort for which a specific team member already has all the context?
 
-### Handling UX Debt
+### Handling Deferred UX
 
 Team members should make their best effort to resolve UX issues as they come up
 during MR reviews. However, there are times where the changes requested or
 feedback given would significantly slow down velocity. For the sake of
-efficiency and iteration, a UX debt issue must be opened to follow up on the
+efficiency and iteration, a Deferred UX issue must be opened to follow up on the
 feedback.
 
 In these instances, the engineer who authored the original MR should assign
 themselves the issue and become the DRI to evaluate the UX feedback. This may
 mean reaching out to the team's Product Designer to ensure the feedback is
 actionable and resolving the debt is prioritized appropriately during the
-following milestone planning. For example, for UX debt issues opened in the 16.3
+following milestone planning. For example, for Deferred UX issues opened in the 16.3
 milestone, engineers should evaluate and ensure appropriate prioritization of
 the issue during the planning of the 16.4 milestone. This does not mean that the
 issue must be resolved during the 16.4 milestone, but that the issue is placed
 into the appropriate step of our [product development
 flow](/handbook/product-development-flow), or closed if appropriate.
 
-This helps to ensure that UX debt issues are resolved in a timely manner,
+This helps to ensure that Deferred UX issues are resolved in a timely manner,
 keeping with the overall goals of the group and adherence to broader
-[engineering workflows](/handbook/engineering/workflow#ux-debt).
+[engineering workflows](/handbook/engineering/workflow#deferred-ux).
 
 ### Epic Ownership
 
