@@ -136,18 +136,17 @@ Due to our priority to certify people leaders, participation by aspiring manager
 
 ### I was asked to fill out the Stakeholder Assessment - what does this mean?
 
-The Elevate+ [stakeholder assessment](https://handbook.gitlab.com/handbook/people-group/learning-and-development/elevate-programs/elevate+/#measuring-success) is delivered via Culture Amp and helpd Elevate+ participants tailor their development goals and measure their success. 
+The Elevate+ [stakeholder assessment](https://handbook.gitlab.com/handbook/people-group/learning-and-development/elevate-programs/elevate+/#measuring-success) is delivered via Culture Amp and helps Elevate+ participants integrate real time feedback into their leadership growth.
 
-Being nominated to take this assessment means that an Elevate+ participant greatly values your feedback and is interested to learn your perspective about their leadership style. Participants will be able to view their self assessment results alongside feedback from stakehodlers and use this data to guide development objectives they set during Elevate+.
+Being nominated to take this assessment means that an Elevate+ participant greatly values your feedback and is interested to learn your perspective about their leadership style. Participants will view their self assessment results alongside feedback from stakehodlers, then use this data to guide goals they set during Elevate+.
 
-Stakeholder assessments are sent to participants direct reports, manager, and co-workers they have nominated. If you recieved a stakeholder assessment, we ask that you please take ~15 minutes to complete. 
+ The stakeholder assessment is sent to participants direct reports, manager, and co-workers they have nominated. If you recieve a stakeholder assessment, we ask that you please take ~15 minutes to complete. 
 
 Important things to note:
 
-1. Participants will not see the names of any stakehodlers in Culture Amp. Feedback will be sorted into 3 categories: `Manager`, `Direct Reports`, and `Co-Workers`.
-1. You might have been nominated by mulitiple individuals to take the assessment. Please consider taking it for each person that's nominated you. You'll recieve a separate Culture Amp message and assessment link for each person who nominated you.
+1. Participants will not see names associated with feedback shared in Culture Amp. Feedback will be categorized based on who shares it: `Manager`, `Direct Reports`, and `Co-Workers`.
+1. You might be nominated by mulitiple Elevate+ participants to take the assessment. Please consider taking it for each person that's nominated you. You'll recieve a separate Culture Amp message and assessment link for each assessment.
 1. Participants of current Elevate+ rounds might have also been nominated to take the assessment for their colleagues. This is expected - thanks for taking time to assess your fellow Elevate+ members!
-1. If, after reading the assessment questions, you feel like you cannot accurately give feedback to this participant for whatever reason, please simply do not complete the assessment and ignore reminders.
 1. The People Analytics team will have access the the entire survey data set, including names, and will use this to pull aggregate themes from across all Elevate+ participants.
 
 
