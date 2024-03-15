@@ -16,7 +16,7 @@ When writing OKRs, the guidance is that:
 * Key Results is defined as “How will you know **when** you’ve achieved the objective?”
 * As part of a KR, you can also have a sub point - which will likely tie to an epic. This would be an “Initiative”, defined as “**How** are you going to achieve your key result?”
 
-The OKR Description should have the following format:
+The Objective Description should have the following format:
 
 ```
 ### Context
