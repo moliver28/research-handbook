@@ -1,4 +1,4 @@
-3---
+---
 title: "GitLab Partner Champions Program"
 ---
 
