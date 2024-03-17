@@ -2,6 +2,8 @@
 title: "GitLab Partner Champions Program"
 ---
 
+![GitLab Partner Champion](content/handbook/resellers/partner-champions-program/images/partner-champion-lockup.png)
+
 <link rel="stylesheet" type="text/css" href="/stylesheets/biztech.css" />
 
 The GitLab Partner Champions Program will empower, support, reward, and recognize members of the GitLab Partner community who champion great customer outcomes based on the GitLab DevSecOps platform.
@@ -57,7 +59,7 @@ GitLab Champions enlists, supports, rewards, and recognizes members of the GitLa
 
 ## How to Join the GitLab Partner Champions Program?
 
-![The Process to become a GitLab Partner Champion](images/BecomeChampion.png)
+![The Process to become a GitLab Partner Champion](content/handbook/resellers/partner-champions-program/images/BecomeAChampion.png)
 
 ## Expected GitLab Partner Champions Outputs
 
