@@ -407,7 +407,7 @@ mentor and lead engineering teams.
 Product Marketing roles are an excellent way to further that expertise.
 - **Customer Success**: Few people know our products as well as Product Managers, and product managers who enjoy directly
 solving customers problems on a daily basis make great fits for Customer Success roles.
-= **General Management**: As a result of their exposure to a wide variety of functions, Product Managers often make a
+- **General Management**: As a result of their exposure to a wide variety of functions, Product Managers often make a
 transition from Product Management to General Management.
 
 ----
