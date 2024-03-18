@@ -17,11 +17,18 @@ description: "The page outlines the current and planned utilization of operation
 
 ## Vision
 
-Leverage operational data (for example, license, active users, use cases, and features) from the product to:
+Our aim is to utilize operational data, encompassing license utilization, active user metrics, use cases, and feature utilization, to achieve the following objectives:
 
-1. Accelerate customers' realization of value from the GitLab platform and delivery to desired business outcomes with a world-class customer experience
-2. Improve value, quality, and usability through data related to how customers interact with GitLab
-3. Improve net dollar retention by efficiently retaining customers and assisting in account expansion
+1. Facilitate Customers' Value Realization:
+Enhance customers' ability to realize value from the GitLab platform swiftly, ensuring a seamless journey towards their desired business outcomes. We are committed to providing a world-class customer experience by leveraging insights derived from product usage data.
+
+2. Enhance Value, Quality, and Usability:
+Utilize data-driven insights into customer interactions with GitLab to continually improve the value proposition, quality standards, and usability of our platform. By closely analyzing how customers engage with GitLab features, we strive to enhance their experience and satisfaction.
+
+3. Drive Net Dollar Retention and Account Expansion:
+Strengthen customer relationships by efficiently retaining existing customers and supporting account expansion initiatives. Through proactive analysis of usage patterns and identifying opportunities for value addition, we aim to increase net dollar retention while facilitating organic growth within customer accounts.
+
+By aligning our efforts with these objectives, we endeavor to optimize customer adoption, satisfaction, and overall success with the GitLab platform.
 
 ## Benefits
 
