@@ -1,16 +1,8 @@
 ---
-
 title: Manage Stage
 ---
 
-
-
-
-
-
-
 ## Manage
-{: #welcome}
 
 The responsibilities of this stage are described by the [Manage product
 category](/handbook/product/categories/#manage-stage). Manage is made up of multiple groups, each with their own categories and areas of
@@ -162,7 +154,7 @@ For an explanation on what to expect as a Staff engineer and a list of ideas for
 
 ## Holiday Gift Exchange (2023)
 
-We will kick off the holiday season on December 8 by _optionally_ participating in a Secret Santa exchange - an exchange where a group of colleagues will exchange holiday presents anonymously with each member of the group being assigned to another member to provide a small gift. 
+We will kick off the holiday season on December 8 by _optionally_ participating in a Secret Santa exchange - an exchange where a group of colleagues will exchange holiday presents anonymously with each member of the group being assigned to another member to provide a small gift.
 1. The exchange amount will be $30 USD, including shipping and tax fees. This amount cannot be expensed and would need to be paid for out of pocket. Team members are not required to participate.
 1. [A form has been provided](https://forms.gle/NXCXbWWWbF2HeSk4A) to sign up. This form will include ideal gift ideas for yourself, as well as your formatted mailing address, and local / online stores to choose your gift from.
 1. The form will close on December 13. At this time, your Secret Santa will be randomly selected and you will be given the name of a team member to buy a gift for, their ideal gift idea and local buying options if available.
@@ -201,7 +193,6 @@ All meetings should have an agenda prepared at least 12 hours in advance. If thi
 - [Performance indicator overview](/handbook/engineering/metrics/dev/manage/)
 
 ## Links and resources
-{: #links}
 
 {{% include "includes/engineering/manage/shared-links.md" %}}
 * Our handbook pages
