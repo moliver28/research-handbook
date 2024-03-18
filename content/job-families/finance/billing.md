@@ -23,7 +23,7 @@ The Billing Operations Associate is a [grade 4](/handbook/total-rewards/compensa
 
 #### Billing Operations Intern Requirements
 
-- Currently enrolled in or recently graduated from a degree program in Finance, Accounting, Business Administration, or a related field
+- Currently enrolled in or recently graduated from a degree program in Finance, Accounting, Business Administration, or relevant experience in related field
 - Excellent verbal and written communication skills. Ability to communicate effectively with team members and customers
 - Strong attention to detail and accuracy in handling financial information and customer accounts
 - Ability to work collaboratively in a team, contributing positively to team operations and culture
