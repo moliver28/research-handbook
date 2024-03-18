@@ -11,17 +11,7 @@ GitLab team-members are eligible for a reimbursement of up to $10,000 USD per ca
 
 Budget estimations for the Growth & Development Fund are based on utilization rates from past years, adjusted for the size of the company. The budget is managed on a company-wide scale, not division-specific. For example, approving reimbursement for a team member in Engineering does not “take away” budget from other engineers. Eligibility is managed on an individual basis. Eligibility for the fund is part of each GitLab team member’s Total Rewards package.
 
-The Growth and Development fund is managed by the Learning and Development team.
-
-### Questions?
-
-| Question Type | Contact |
-| ----- | ----- |
-| Administration of the fund, reimbursements, approvals, and questions realted to the application issue templates | Learning & Development team via the #people-connect Slack channel |
-| Qualified programs, suggested courses, conferences, etc, and feedback from your learning | Learning and Development team via #learninganddevelopment Slack channel |
-| Other | #people-connect Slack channel for support in determining the best team |
-
-If you're a manager with questions about one of your team members' G&D applications, please refer to the [Manager's Guide](/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development/#how-to-apply-for-growth-and-development-benefits)
+The Growth and Development fund is managed by the [Learning and Development team](https://handbook.gitlab.com/handbook/people-group/learning-and-development/#learning--development-team). For any questions, please contact a team member directly, or reach out in the #learninganddevelopment slack channel.
 
 ## Growth and Development Fund Eligibility
 
