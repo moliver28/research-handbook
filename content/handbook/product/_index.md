@@ -132,7 +132,7 @@ Below are team emails and handles that can be used for different departments and
 - `@gitlab-com/gitlab-ux/managers` tags all people managers within UX (UX Research, Technical Writing, and Product Design)
 - `@gitlab-com/gitlab-ux/designers` tags all Product Designers and Design Managers in UX
 - `@gl-docsteam` for all Technical Writers in UX
-- '@technical-program-management' a place to reach the entire TPgM team across organizations
+- '#technical-program-management' a place to reach the entire TPgM team across organizations
 
 When you are tagging `@mention`:
 
