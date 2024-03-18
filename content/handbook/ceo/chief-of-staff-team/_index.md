@@ -290,7 +290,7 @@ Once a project or initiative to Shadow has been identified and the team member d
 |2020-05-23|2020-08-21  | Mike Miranda | @mmiranda |
 |2020-08-31|2021-07-18  | Jerome Ng | @jeromezng |
 |2021-06-02 | 2021-09-01 | Samantha Lee  | @slee24  |
-|2023-07-15  | 2023-11-25 | Cnythia Ng | @cynthia |
+| 2023-03-06 | 2023-11-01 | Cynthia "Arty" Ng | @cynthia |
 |   |  |  |  |
 |   |  |  |  |
 
