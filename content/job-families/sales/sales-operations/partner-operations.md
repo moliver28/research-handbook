@@ -134,15 +134,15 @@ Be the point of escalation for sales and partner leadership on partner related i
 - Interest in GitLab, and open source software
 - Shares GitLab’s [values](/handbook.gitlab.com/handbook/values/) and works in accordance with those values
 
-### Partner Operations Manager, Special Projects
+### Partner Operations Manager
 
-The Partner Operations Manager, Special Projects reports to the Director, Partner Operations
+The Partner Operations Manager reports to the Director, Partner Operations
 
-#### Partner Operations Manager, Special Projects Job Grade
+#### Partner Operations Manager Job Grade
 
-The Partner Operations Manager, Special Projects is a [grade 8](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+The Partner Operations Manager is a [grade 8](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
-#### Partner Operations Manager, Special Projects Responsibilities
+#### Partner Operations Manager Responsibilities
 
 - Own and drive long-term and high impact strategic projects across the global partner business including project identification and scoping, stakeholder alignment and management, build, rollout, and execution
 - Contribute to cross-functional company projects as the voice of our partners and partner teams
@@ -153,7 +153,7 @@ The Partner Operations Manager, Special Projects is a [grade 8](/handbook/total-
 - Assist in designing, maintaining, and delivering on the roadmap for partner operations initiatives
 - Build and deliver ad hoc reporting to support projects and company OKRs
 
-#### Partner Operations Manager, Special Projects Requirements
+#### Partner Operations Manager Requirements
 
 - Demonstrated progressive experience and understanding of partner operations and programs
 - Excellent problem solving, project management, interpersonal, and organizational skills
