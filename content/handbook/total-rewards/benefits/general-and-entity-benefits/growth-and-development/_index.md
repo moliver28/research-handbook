@@ -11,17 +11,7 @@ GitLab team-members are eligible for a reimbursement of up to $10,000 USD per ca
 
 Budget estimations for the Growth & Development Fund are based on utilization rates from past years, adjusted for the size of the company. The budget is managed on a company-wide scale, not division-specific. For example, approving reimbursement for a team member in Engineering does not “take away” budget from other engineers. Eligibility is managed on an individual basis. Eligibility for the fund is part of each GitLab team member’s Total Rewards package.
 
-The Growth and Development fund is managed by the Learning and Development team.
-
-### Questions?
-
-| Question Type | Contact |
-| ----- | ----- |
-| Administration of the fund, reimbursements, approvals, and questions realted to the application issue templates | Learning & Development team via the #people-connect Slack channel |
-| Qualified programs, suggested courses, conferences, etc, and feedback from your learning | Learning and Development team via #learninganddevelopment Slack channel |
-| Other | #people-connect Slack channel for support in determining the best team |
-
-If you're a manager with questions about one of your team members' G&D applications, please refer to the [Manager's Guide](/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development/#how-to-apply-for-growth-and-development-benefits)
+The Growth and Development fund is managed by the [Learning and Development team](https://handbook.gitlab.com/handbook/people-group/learning-and-development/#learning--development-team). For any questions, please contact a team member directly, or reach out in the #learninganddevelopment slack channel.
 
 ## Growth and Development Fund Eligibility
 
@@ -161,7 +151,7 @@ Apply for a coach via Coaching Right Now by opening an issue using the [coaching
 
 *The specifics of your coaching sessions will not be communicated to GitLab.* While not required, we encourage you to share your experience, learnings, reflections, and discoveries with your manager for further support.
 
-**Eligibility for Reimbursement:** Managers or Individual Contributors job grade 8+. Coaching Right Now will invoice GitLab directly. If team member is involved in a different, approved coaching engagement outside of CRN, then the standard G&D reimbursement workflow applies. If the option is $1000 USD or higher, team members can request the split disbursement (50% reimbursed upfront after payment then the remaining 50% upon completion). Reach out to the Learning & Development team for any questions.
+**Eligibility for Reimbursement:** Managers or Individual Contributors job grade 8+. Coaching Right Now will invoice GitLab directly. If team member is involved in a different, approved coaching engagement outside of CRN, then the standard G&D reimbursement workflow applies. If the option is $1000 USD or higher, team members can request the split disbursement (50% reimbursed upfront after payment then the remaining 50% upon completion).
 
 Coaching Right Now is our preferred and vetted coaching partner. If for some reason the coaches offered via Coaching Right Now do not fit your needs, please open an issue using the [Other G&D Types (Under $300 USD) template](https://gitlab.com/gitlab-com/people-group/total-rewards/-/issues/new?issuable_template=other-GD-under). After approvals, team members will provide a paid invoice to GitLab as proof for reimbursement.
 
@@ -175,13 +165,6 @@ Examples of English Language Courses:
 
 - [Coursera](https://www.coursera.org/browse/language-learning/learning-english) offers a wide variety of online English courses in partnership with various reputable colleges and universities, like the [Business English for Non-Native Speakers course](https://www.coursera.org/specializations/business-english-speakers) and the [Improve your English Communication Skills Specialization](https://www.coursera.org/specializations/improve-english) . Their courses range from improving your English language skills to more specialized courses that focus on English for STEM or career development.
 - [Cambridge C2 Exam Prep Course](https://www.kaplaninternational.com/exam-preparation-courses/cambridge-c2-exam-preparation-course) is a program to consider if preparring to take the Cambridge English Qualification. This is an internationally recognized test and qualification of English language ability. More prep course materials can be found [here](https://www.cambridgeenglish.org/exams-and-tests/proficiency/preparation/) or via [International House London](https://www.ihlondon.com/course/cambridge-c2-proficiency-online)
-- The [University of Texas Austin](https://global.utexas.edu/english-language-center/programs/self-paced) has multiple self-paced writing and pronunciation courses available.
-- [LinkedIn Learning](https://www.linkedin.com/learning/search?keywords=english) has many courses for English.
-- [Writing in Plain English](https://www.linkedin.com/learning/writing-in-plain-english) seems particularly well suited for improving async communication. Language learning Apps and sites can be effective tools.
-- [Duolingo](https://www.duolingo.com/) offers gamified way to learn English, plus other languages.
-- [Memrise](https://www.memrise.com/) is helpful for vocabulary building.
-- [italki](https://www.italki.com/teachers/english) to find a English tutor. 1:1 instruction is often necessary for continued improvement, especially once a person has reached basic proficiency.
-- English Language Courses offered in-person or online by a local college or university or English language courses offered online by a non-local college or university.
 
 **Eligibility for Reimbursement:** Courses offered in-person or online by a credential college or university or an English language school are eligible for reimbursement. Invoice/receipt when submitting through Navan Expense. If the opportunity costs more than $1000, you can expense 50% of the cost up front, and 50% upon completion.
 
