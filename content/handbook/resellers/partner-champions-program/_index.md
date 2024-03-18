@@ -2,8 +2,11 @@
 title: "GitLab Partner Champions Program"
 ---
 
-![Start Training from the Partner Portal](images/partner-champion-lockup.png)*Start Training from the Partner Portal*
-![GitLab Partner Champion](images/partner-champion-lockup.png)
+
+
+<div style="background-color: black; display: inline-block; padding: 5px;">
+    ![GitLab Partner Champion](images/partner-champion-lockup.png)
+</div>
 
 <link rel="stylesheet" type="text/css" href="/stylesheets/biztech.css" />
 
