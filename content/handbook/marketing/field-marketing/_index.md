@@ -141,6 +141,10 @@ Field Marketing utilizes the below issue templates and epic codes for virtual ev
 * [Issue Template](https://gitlab.com/gitlab-com/marketing/field-marketing/-/issues/new?issuable_template=Hybrid_Conference)
 * [Epic Code](/handbook/marketing/field-marketing/field-marketing-epics/#conference-hybrid)
 
+## Conference (FM Meeting Setting for a Corporate Events Conference)
+* [Progression Status](/handbook/marketing/marketing-operations/campaigns-and-programs/#conference)
+* [Issue Template](https://gitlab.com/gitlab-com/marketing/field-marketing/-/issues/new?issuable_template=Meeting_Setting_Template)
+
 ## Content Syndication
 * [Tactic Details](/handbook/marketing/demand-generation/campaigns/content-in-campaigns/)
 * [Progression Status](/handbook/marketing/marketing-operations/campaigns-and-programs/#content-syndication)
