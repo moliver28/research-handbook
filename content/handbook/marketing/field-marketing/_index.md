@@ -51,18 +51,9 @@ GitLab Connect is a full or half day event with both customers and prospects in 
 
 For information regarding process, epic codes, templates and more, please visit our [**Field Marketing Owned Virtual Events**](/handbook/marketing/field-marketing/field-marketing-owned-virtual-events/) page.
 
-## 3rd Party Events
+### Executive Roundtables
 
-We will sponsor regional 3rd party events in an effort to build the GitLab brand and also to gather leads. Different types of 3rd party events include, but are not limited to:
-
-- Agile Events
-- City run technology meetings
-- Customer/prospect run DevOps events on invite
-- Executive relationship building events via companies like Apex Assembly & Argyle Executive Forum
-
-#### Executive Roundtables
-
-Executive Roundtables can be run virtual or in-person and differ from webcasts/events mainly due to the size of the audience and the interactivity level. A roundtable is run as an open discussion between the host (usually 3rd party vendor), GitLab presenter and the audience. The host would open with an introduction of themselves and the topic for the session, then introduce the GitLab presenter and have them give an overview of GitLab followed by the host asking questions directly to specific people in the audience for them to openly answer and discuss. The advantage of a roundtable is that you can document the meeting more closely and understand more about an organization’s pains and problems.
+Executive Roundtables can be run virtually or in-person, and be organized through a 3rd party vendor or GitLab. These events differ from webcasts/events mainly due to the size of the audience and the interactivity level. A roundtable is run as an open discussion between the host (usually 3rd party vendor), GitLab presenter and the audience. The host would open with an introduction of themselves and the topic for the session, then introduce the GitLab presenter and have them give an overview of GitLab followed by the host asking questions directly to specific people in the audience for them to openly answer and discuss. The advantage of a roundtable is that you can document the meeting more closely and understand more about an organization’s pains and problems.
 
 Below are best practices when running a roundtable:
 
@@ -75,7 +66,16 @@ Below are best practices when running a roundtable:
 - Pre-analysis of delegates - check to see if their organization is currently a user of GitLab, whether they’re CE or EE customers. This could be a great way to start or dig into deeper conversations with the delegate.
 - Ensure you have familiarised yourself with the [White Glove Event Follow Up process](/handbook/marketing/sales-development/#white-glove-event-follow-up-sequence-saes-included) for this type of event.
 
-#### Meeting Setting
+## 3rd Party Events
+
+We will sponsor regional 3rd party events in an effort to build the GitLab brand and also to gather leads. Different types of 3rd party events include, but are not limited to:
+
+- Agile Events
+- City run technology meetings
+- Customer/prospect run DevOps events on invite
+- Executive relationship building events via companies like Apex Assembly & Argyle Executive Forum
+
+### Meeting Setting
 
 Meeting Setting occurs when the Corporate Events team sponsors a large conference and requests the Field Meeting team manage setting up on-site meetings during the event. The Corporate Events team will set up the overall Conference Marketo program and SFDC campaign, and also request the Marketing Ops team set up the Meeting Setting Marketo program and SFDC campaign for Field Marketing. Meeting Setting is not its own campaign type and is categorized as a [Conference](/handbook/marketing/marketing-operations/campaigns-and-programs/#conference), so the Conference progression statuses should be utilized. The overall Conference is owned by the Corporate Events team, but Marketing Ops will set up the Meeting Setting SFDC campaign as FM-owned.
 
