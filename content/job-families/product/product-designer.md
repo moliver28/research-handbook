@@ -102,7 +102,7 @@ Everything in the Senior Product Designer role, plus:
 - **Communication:** Set an example for how to effectively communicate across groups and stages by frequently participating in asynchronous collaboration in issues and merge requests.
 - **Iteration:** Understand long-term goals in your group and help other product designers break down designs into actionable steps.
 - **Design reviews:** Participate in [Design Reviews](http://about.gitlab.com/handbook/product/ux/product-designer/#design-reviews) across the subdepartment, and model best practices for giving and receiving feedback.
-- **Deferred UX:** Help the product teams of the group you support to prioritize and [close deferred UX](http://about.gitlab.com/handbook/product/ux/performance-indicators/#deferred-ux).
+- **Deferred UX:** Help the product teams of the group you support to prioritize and [close Deferred UX](http://about.gitlab.com/handbook/product/ux/performance-indicators/#deferred-ux).
 - **Thought leadership:** Teach and socialize decision-making frameworks to the GitLab community, so that designers can solve problems more efficiently on their own.
 - **Recruiting:** Conduct independent portfolio reviews of qualified design candidates to help identify top talent in the candidate pool.
 - **Cross-stage collaboration:** Drive cross-stage collaboration by helping designers to identify dependencies and areas for cross-department work.
@@ -132,7 +132,7 @@ Everything in the Staff Product Designer role, plus:
 - **Communication:** Guide conversations to remove blockers and encourage collaboration across teams.
 - **Iteration:** Create 6-month visions and plans for your stage to deliver value to customers and the organization.
 - **Design reviews:** Participate in [Design Reviews](http://about.gitlab.com/handbook/product/ux/product-designer/#design-reviews) across the subdepartment to ensure high-quality output, and model best practices for giving and receiving feedback.
-- **Deferred UX:** Help the stage you support to prioritize and close deferred UX.
+- **Deferred UX:** Help the stage you support to prioritize and close Deferred UX.
 - **Thought leadership:** Interface with product design managers and senior management, and enable staff designers to engage on UX department-level aspects of larger (stage or section-wide) initiatives.
 - **Recruiting:** Conduct portfolio reviews with staff product designers of qualified design candidates, and help retain a world-class team of product designers and product design managers.
 - **Cross-stage collaboration:** Collaborate and make proposals across several teams, and help team members make informed decisions in alignment with your stages’ strategic plans.
