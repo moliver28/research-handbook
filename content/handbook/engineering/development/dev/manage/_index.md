@@ -4,13 +4,14 @@ title: Manage Stage
 
 ## Manage
 
-The responsibilities of this stage are described by the [Manage product
-category](/handbook/product/categories/#manage-stage). Manage is made up of multiple groups, each with their own categories and areas of
-responsibility.
+The responsibilities of this stage are described by the [Manage product category](/handbook/product/categories/#manage-stage).
+Manage is made up of multiple groups, each with their own features and areas of responsibility.
 
 * I have a question. Who do I ask?
 
-In GitLab issues, questions should start by @ mentioning the relevant Product Manager for the [category](/handbook/product/categories/#dev). GitLab employees can also use [#s_manage](https://gitlab.slack.com/messages/CBFCUM0RX).
+In GitLab issues, questions should start by @ mentioning the relevant Product Manager for the [product category](/handbook/product/categories/#manage-stage). 
+
+GitLab employees can also use [#s_manage](https://gitlab.slack.com/messages/CBFCUM0RX).
 
 ## How we work
 
@@ -94,7 +95,6 @@ This section lists relevant experience areas for individual contributors interes
 - Leading an incident in your area
 - Proposing and driving a borrow request (reactive)
 - Shared OKRs and delivery
-- Monthly Performance Indicator [updates](https://gitlab.com/gitlab-com/Product/-/issues/?search=%22Monthly%20Dev%20Section%20PI%22&sort=weight_desc&state=all&first_page_size=50)
 
 </details>
 
@@ -196,15 +196,11 @@ All meetings should have an agenda prepared at least 12 hours in advance. If thi
 
 {{% include "includes/engineering/manage/shared-links.md" %}}
 * Our handbook pages
-  * [Authentication and Authorization](/handbook/engineering/development/dev/manage/authentication-and-authorization/)
   * [Foundations](/handbook/engineering/development/dev/manage/foundations/)
   * [Import and Integrate](/handbook/engineering/development/dev/manage/import-and-integrate/)
 * Our Slack channels
-  * Manage:Authentication and Authorization [#g_manage_auth](https://gitlab.slack.com/archives/CLM1D8QR0)
   * Manage:Foundations [#g_manage_foundations](https://gitlab.slack.com/messages/C010NAWPRV4)
   * Manage:Import and Integrate [#g_manage_import_and_integrate](https://gitlab.slack.com/archives/C04RDL3MEH5)
-  * Manage:Organization [#g_manage_organization](https://gitlab.slack.com/archives/C02AZ7C32N5)
 * Issue boards
-  * Authentication and Authorization [build board](https://gitlab.com/groups/gitlab-org/-/boards/1305005) and [refinement board](https://gitlab.com/groups/gitlab-org/-/boards/1747837)
-  * Foundations board placeholder
-  * Import and Integrate [build board](https://gitlab.com/groups/gitlab-org/-/boards/1459244?milestone_title=Upcoming&label_name[]=group%3A%3Aimport%20and%20integrate)
+  * Foundations [current milestone work board](https://gitlab.com/groups/gitlab-org/-/boards/3871464?label_name%5B%5D=group%3A%3Afoundations&milestone_title=Started)
+  * Import and Integrate [current milestone work board](https://gitlab.com/groups/gitlab-org/-/boards/1459244?milestone_title=Upcoming&label_name[]=group%3A%3Aimport%20and%20integrate)
