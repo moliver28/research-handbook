@@ -573,7 +573,7 @@ I’m in charge of ensuring that our organization’s use of third-party softwar
 - It’s challenging to compile data in a format that’s efficient and valuable to my internal audit or compliance team.
 - It’s challenging to build custom tooling and services every time we identify a gap in the compliance posture of our tools.
 
-#### Dylan (Data Scientist)
+#### Daphne (Data Scientist)
 
 - **Alternative Job Titles:** Data Analyst, Machine Learning Engineer
 
