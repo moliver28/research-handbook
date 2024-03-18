@@ -1,4 +1,4 @@
-Link sharing---
+---
 title: GitLab Communication
 description: "We're an all-remote company that allows people to work from almost anywhere in the world. It's important for us to practice clear communication in ways that help us stay connected and work more efficiently."
 ---
