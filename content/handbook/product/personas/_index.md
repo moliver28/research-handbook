@@ -575,7 +575,7 @@ I’m in charge of ensuring that our organization’s use of third-party softwar
 
 #### Dylan (Data Scientist)
 
-- **Alternative Job Titles:** Data Analyst, Machine Learning Engineer, Data Engineer
+- **Alternative Job Titles:** Data Analyst, Machine Learning Engineer
 
 ##### Job Summary
 
