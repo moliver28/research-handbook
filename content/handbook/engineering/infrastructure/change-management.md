@@ -273,7 +273,7 @@ While changes we make are rigorously tested and carefully deployed, it is a good
 
 Risks of making a production environment change during these periods includes immediate customer impact and/or reduced engineering team availability in case an incident occurs. Therefore, we have introduced a mechanism called **Production Change Lock (PCL)**. During a PCL, automated deployments are paused. A deployment may be manually executed at the discretion of the EOC. For example, the EOC may choose to deploy changes because they are necessary to ensure the stability of GitLab.com, or in order to ensure that deployments continue running smoothly when the PCL is lifted. A PCL is enforced via [C1 Change issues](https://gitlab.com/gitlab-com/gl-infra/production/-/issues/17700) and [gl-infra/change-lock](https://gitlab.com/gitlab-com/gl-infra/change-lock) as an automated process which, provided a time range, locks production deployments, prevents Feature Flags as well infrastructure config changes, then releases the lock once the time expires. However, we are continuing to list the events here so that teams are aware of the PCL periods.
 
-NOTE: Please ensure the Change issue is assigned to the person whose [Production EOC](https://gitlab.pagerduty.com/escalation_policies#P7IG7DS) at the time the PCL ends. 
+NOTE: Please ensure the Change issue is assigned to the person who is [Production EOC](https://gitlab.pagerduty.com/escalation_policies#P7IG7DS) at the time the PCL ends. 
 
 The following dates are currently scheduled PCLs. Times for the dates below begin at 09:00 UTC and end the next day at 09:00 UTC.
 
