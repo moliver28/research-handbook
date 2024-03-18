@@ -354,6 +354,34 @@ Runs the `spec-test` cli of [Permifrost](https://gitlab.com/gitlab-data/permifro
 
 Triggered when there is a change to `permissions/snowflake/roles.yml`. Validates that the YAML is correctly formatted.
 
+#### `add_users_to_snowflake`
+
+Used for Snowflake user provisioning, specifically, this job adds/removes specified users and roles directly in Snowflake.
+
+##### tl;dr,:
+
+- To create new users/roles in Snowflake, add the new username(s) to [`snowflake_usernames.yml`](https://gitlab.com/gitlab-data/analytics/-/blob/master/permissions/snowflake/snowflake_usernames.yml?ref_type=heads).
+- Likewise, to remove a user from Snowflake, delete the username(s) from above file.
+- To create a development database for new users, add the CI variable `IS_DEV_DB: True`.
+
+##### Further Explanation
+
+Under the hood, this CI job is calling the python script `orchestration/snowflake_provisioning_automation/provision_users/sql_templates/provision_user.sql`.
+
+These are the full list of CI job arguments, all are **OPTIONAL**:
+1. `IS_TEST_RUN`:
+    - Defaults to `False`, but accepts `True`.
+    - If True, will only **print** the `GRANT` sql statements, but will not run them.
+3. `USERNAMES_TO_ADD`:
+    - Defaults to the usernames **added** to [`snowflake_usernames.yml`](https://gitlab.com/gitlab-data/analytics/-/blob/master/permissions/snowflake/snowflake_usernames.yml?ref_type=heads) within the MR.
+    - To override, pass in a string value like so `USERNAMES_TO_ADD: username_to_add1 username_to_add2`
+4. `USERNAMES_TO_REMOVE`:
+    - Defaults to the usernames **removed** from [`snowflake_usernames.yml`](https://gitlab.com/gitlab-data/analytics/-/blob/master/permissions/snowflake/snowflake_usernames.yml?ref_type=heads) within the MR.
+    - To override, pass in a string value like so `USERNAMES_TO_REMOVE: username_to_remove1 username_to_remove2`
+5. `IS_DEV_DB`:
+    - Defaults to `False`, but accepts `True`.
+    -  If True, will create the development database for each username in `usernames_to_add`.
+
 ### 🛑 Snowflake Stop
 
 These jobs are defined in [`.gitlab-ci.yml`](https://gitlab.com/gitlab-data/analytics/-/blob/master/.gitlab-ci.yml).
