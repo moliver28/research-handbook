@@ -45,7 +45,6 @@ We are a small team, but we've got a big role to play at GitLab!
 - [Learning and Development Director]({{< ref "/job-families/people-group/learning-development#learning--development-manager" >}}): [Tre Ely]({{/handbook.gitlab.com/handbook/company/team/#tely2}})
 - [Senior Learning and Development Program Manager]({{< ref "/job-families/people-group/learning-development#intermediate-learning--development-program-manager" >}}): [Samantha Lee](/handbook/company/team/#slee24)
 - [Learning and Development Program Manager]({{< ref "/job-families/people-group/learning-development#intermediate-learning--development-program-manager" >}}): [Jamie Allen](/handbook/company/team/#jallen16)
-- [Learning and Development Program Manager]({{< ref "/job-families/people-group/learning-development#intermediate-learning--development-program-manager" >}}): [Kalyani Yerraguntla](/handbook/company/team/#kyerraguntla)
 
 ## Team Member Resources
 
