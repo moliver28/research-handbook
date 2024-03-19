@@ -930,6 +930,14 @@ It is important to note that Pizzatime will be utilized for _pre-event meal cred
 
 It is important to note that there is no limit on link sharing when utilizing the Pizzatime platform. Meaning, once registrants receive the link to place their order, **they can share it with non-registrants** who can then redeem it for a meal.
 
+##### Limiting Meal Redemptions
+ If attempting to limit the number of meal redemptions for an event, the below steps are recommended:
+- Enable a [`Waitlist`](/handbook/marketing/marketing-operations/campaigns-and-programs/#waitlist-processing---owned-event-workshop-webcasts) for the Marketo Landing Page and establish a redemption limit. 
+- Include the Pizzatime order link in your `Confirmation Email` copy.  
+- Individually [register](/handbook/marketing/marketing-operations/campaigns-and-programs/#moving-from-waitlist-to-registered---owned-event-workshop-webcasts) registrants until the established redemption limit is reached. 
+  - Note: When a registrant is moved from `Waitlisted` to `Registered`, they will receive the `Confirmation Email`.  
+- Once the established redemption limit is reached, re-open the Marketo LP issue and request Marketing Ops remove the Pizzatime order link from the `Confirmation Email` copy.
+
 #### Details Regarding Pizzatime Financials and Budgeting
 
 - It is important to note that in order to place an order with Pizzatime, you will be required to request a [Coupa Virtual Card](/handbook/business-technology/enterprise-applications/guides/coupa-virtual-cards/) for payment.
