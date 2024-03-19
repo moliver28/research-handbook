@@ -16,6 +16,10 @@ To learn more about Field Ops releases, see the [RSOE Release Schedule handbook 
 
 ## Q1-FY25
 
+### 2024-04-01 Release ([epic](https://gitlab.com/groups/gitlab-com/sales-team/field-operations/-/epics/489))
+
+
+
 ### 2024-03-18 Release ([epic](https://gitlab.com/groups/gitlab-com/sales-team/field-operations/-/epics/53))
 
 **[Clari Pipeline Gen Tab Updates](https://internal.gitlab.com/handbook/sales/sales-tools/sales-forecasting/#sales-forecasting)**
