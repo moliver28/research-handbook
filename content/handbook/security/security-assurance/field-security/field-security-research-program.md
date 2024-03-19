@@ -2,7 +2,7 @@
 title: "Field Security Research Program"
 ---
 
-## Why an Outreach program?
+## Why a Research program?
 
 One of Field Security's critical missions is to impact the broader security industry through thought leadership. As the leader in DevSecOps and a key player in the security industry, GitLab is working on ensuring its internal security expertise is leveraged to improve security standards.
 
