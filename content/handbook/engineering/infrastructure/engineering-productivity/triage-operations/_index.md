@@ -98,9 +98,7 @@ Usually, each task corresponds to an issue or a merge request that needs labels,
 Some reports also include heatmaps or other various information.
 
 Triage report are automatically assigned to specific team members, listed in
-[the group definition file](https://gitlab.com/gitlab-org/quality/triage-ops/-/blob/master/group-definition.yml),
-or directly in the triage report policy files
-[policy YAML files](https://gitlab.com/gitlab-org/quality/triage-ops/tree/master/policies).
+[the stages definition file](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/stages.yml).
 
 To change who an issue gets assigned to, open a merge request for the above
 files. If the group definition file is changed, we'll need to
@@ -142,14 +140,14 @@ This report contains community merge requests that may require some attention fr
 
 ### Team reports
 
-#### Group level bugs, features, and UX debt
+#### Group level bugs, features, and Deferred UX
 
-This report contains the relevant bugs, feature requests, and UX debt issues that belong to a group in our [DevOps stages](/handbook/product/categories/#devops-stages).
+This report contains the relevant bugs, feature requests, and Deferred UX issues that belong to a group in our [DevOps stages](/handbook/product/categories/#devops-stages).
 The goal is to achieve [complete-triage](/handbook/engineering/infrastructure/engineering-productivity/issue-triage#complete-triage) by the Product Manager, Engineering Manager, UX team member in that area.
 
 The report itself is divided into 4 main parts.
 * Feature proposals
-* UX debt issues
+* Deferred UX issues
 * Frontend bugs
 * Bugs (likely backend)
 * `~priority::1` and `~priority::2` bugs past the target SLO.
@@ -793,7 +791,7 @@ The possible tier labels to be applied are:
 
 [Type labels](https://docs.gitlab.com/ee/development/labels/index.html#type-labels) are applied to issues to increase the visibility and discoverability during team issue refinement. This policy applies to `gitlab-org` team member created issues and prompts the author to apply a type label to the issue within the first week.
 
-Type labels ensure that issues are present in the [group triage report](#group-level-bugs-features-and-ux-debt) and added to the correct section.
+Type labels ensure that issues are present in the [group triage report](#group-level-bugs-features-and-deferred-ux) and added to the correct section.
 
 * Automation conditions:
   - Open issue with no type label applied, opened in the past 7 days, authored by `gitlab-org` member

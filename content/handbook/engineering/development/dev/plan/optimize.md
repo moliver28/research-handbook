@@ -262,7 +262,7 @@ Expectations by role:
 
 - PM is the DRI for `type::feature`
 - EM is the DRI for `type::bug`
-- UX supports the decision around severity labels for issues with `UX`, `UX debt`, and `SUS`
+- UX supports the decision around severity labels for issues with `UX`, `Deferred UX`, and `SUS`
   - Where the UX severity and PM/EM severity is different, we take the [higher severity of the two](/handbook/engineering/quality/issue-triage/#examples-of-severity-levels).
 - Engineers are encouraged to participate
 

@@ -5,135 +5,100 @@ description: "This page describes the process and technical documentation around
 Reliable tests are executed as a blocking step in the release pipelines. Blocking tests are executed as a blocking step in MRs but not the release."
 ---
 
-### Overview
+## Overview
 
-This page describes the process and technical documentation around reliable and blocking tests
-at [GitLab](http://gitlab.com/gitlab-org/gitlab), for both API and UI end-to-end tests located inside
-the `qa/qa/specs/features/` directory.
+GitLab's end-to-end tests for API and UI, located in `qa/qa/specs/features/`, can be promoted to:
 
-Reliable tests are executed as a blocking step in the release process and the blocking tests block MRs.
-It is vital that these tests are optimized to run quickly and do not have transient failures.
-Transient failures of `reliable` tests will lead to blocking the release team.
+- **Reliable Tests**: Essential for the release process, they are executed as a blocking step.
+- **Blocking Tests**: Key to maintaining code quality in MRs, not used in the release process but mandatory for MR
+  approval.
 
-### Defining a reliable test
+Both `:reliable` and `:blocking` suites are temporary buckets used for gradual promotion of tests for use as critical
+checkpoints in MRs and the release process.
+In the longer term, the both the buckets will be sunset. All the tests will be run as a blocking step in the MRs and
+only smoke tests will be run during the release process.
 
-A reliable test is an end-to-end test that passes consistently
-in [all pipelines](/handbook/engineering/infrastructure/test-platform/debugging-qa-test-failures/#qa-test-pipelines),
-for at least 14 days.
-Such a test can be given the `:reliable` tag.
+### Defining a Reliable Test
 
-Please note that in the spirit of shifting left, we are not actively adding more tests to the reliable suite. We are
-expanding the blocking suite instead.
+- A test is `:reliable` if it consistently passes
+  across [all pipelines](https://handbook.gitlab.com/handbook/engineering/infrastructure/test-platform/debugging-qa-test-failures/#qa-test-pipelines)
+  for 14 days.
+- The current focus of the team is shifting the tests left by expanding the blocking suite and not the reliable suite.
 
-### Defining a blocking test
+### Defining a Blocking Test
 
-A blocking test is an end-to-end test that passes consistently in master pipeline for at least 14 days. Such a
-test can be given the `:blocking` tag.
-A blocking test is not executed in the release pipelines. It is executed as a blocking step only in MRs.
+- A `:blocking` test consistently succeeds in the master or nightly pipeline for at least 14 days.
+- A blocking test is for MR quality control and not included in release pipelines.
 
-### Promoting a test to blocking
+## Promotion Processes
 
-End-to-end tests that pass consistently for 14 consecutive days on master pipeline are selected for promotion to the
-blocking suite by an automated script that runs every week using the data produced by the reliable test report.
-Only top 10 tests sorted by number of runs are selected by the script for promotion to the reliable bucket.
-The script create multiple MRs and assigns them to counterpart SET for the DevOps stage of the test as a DRI. It is the
-responsibility of the assigned DRI to either close the MR or get it merged.
-The MR has links to the testcase and grafana single spec metrics to help the DRI in deciding to approve or close the MR.
+### To Blocking Suite
 
-A test should ideally not be promoted to blocking manually without it being identified in the reliable test report.
-However, if a test has been identified in the reliable test report as passing consistently for 14 consecutive days but
-didn't make it to the top 10 number of runs, it can be promoted to the blocking bucket by manually creating an MR.
+Tests are selected for promotion by a weekly automated script that uses the data produced by reliable test report.
 
-#### Reliable spec report
+- Criteria: 14 consecutive days of success and top 10 in run frequency.
+- The process involves generating MRs for the top-performing tests and assigning them for review by counterpart SET for
+  the DevOps stage of the test as a DRI.
+- A test should ideally not be promoted manually without it being identified in the reliable test report. However, if a
+  test has been identified in the reliable test report did not make it to the top 10 number of runs, it can be promoted
+  by manually creating an MR.
 
-Every week a reliable spec report is generated and report issue with the report summary is posted to slack
-channel `#quality-reports`.
+### Weekly Reliable Spec Report
 
-Test report contains all specs that have consistently passed for 14 consecutive days in following pipelines:
+This report plays a crucial role in managing the health of the test suite, highlighting:
 
-- `Production full`
-- `Production sanity`
-- `Staging full`
-- `Staging sanity`
-- `GitLab master` (In `e2e-test-on-gdk` and `e2e-package-and-test` jobs)
-- `Nightly`
+- Specs passing consistently for 14 days in different pipelines. These tests are promoted to blocking.
+- Reliable and blocking specs that failed in last 14 days. These tests are quarantined.
 
-Additionally, report contains information on `blocking` or `reliable` specs that have failed in the past 14 days in any
-of the following pipelines:
-
-- `GitLab master` (In `e2e-test-on-gdk` and `e2e-package-and-test` jobs)
-- `Nightly` (except `nplus1-instance-image` and `airgapped` jobs)
-
-The data produced by the reliable test report is used to create MRs for promoting tests to reliable or quarantining
-them.
+## Managing Test Failures
 
 ### What to do when a reliable test fails?
 
-A test is no longer considered reliable if it fails in any pipeline, including in merge requests, and the cause of the
-failure is found to be
+| Reason for Failure                    | Action                         |
+|---------------------------------------|--------------------------------|
+| Test itself or test framework issues  | Remove `:reliable` tag and fix |
+| Minor transient infrastructure issues | Remove `:reliable` tag and fix |
+| Bug in application code               | Test remains `:reliable`       |
+| Significant infrastructure issues     | Test remains `:reliable`       |
 
-- the test itself, or
-- relevant unreliable parts of the test framework, or
-- minor transient test infrastructure issues, or
-- any other similar cause that the test should be able to cope with.
+The reliable test suite is not actively expanded. Therefore, once a demoted reliable test passes consistently, it will
+identified and
+an MR will be created to promote it to the blocking suite and not the reliable suite.
 
-In this case, the following process should be followed.
-
-1. Remove the `:reliable` tag
-2. Fix the test so that it passes consistently and then go through the process to ensure it's reliable again as if it
-   was a new test.
-3. Since we are not adding any more test to the reliable suite, once the test passes consistently, it will identified in
-   the reliable test report and an MR will be created to promote it to the blocking suite and not the reliable suite.
-
-**Note:** A test is still reliable if it fails due to a bug in the application code, or due to issues with the
-application infrastructure that the test is not expected to handle.
-
-**Note 2:** there's a detailed list of possible failures available in the debugging failing tests guideline, in
-the [Classify and triage the test failure section](/handbook/engineering/infrastructure/test-platform/debugging-qa-test-failures/#classify-and-triage-the-test-failure)
+The `:reliable` tag will be sunset at a later stage. Refer to the [Future Iterations](#future-iterations) section below
+for issue link.
 
 ### What happens when a blocking test fails?
 
-A blocking test may fail in an MR when when it catches a legitimate bug or due to a feature update.
-In this case it is the responsibility of the MR author to either fix the bug or update the test.
-If a blocking test fails consistently on master or nightly, it will be identified in the next reliable test report and an MR will be created
-automatically to quarantine
-it. A link to the MR will be posted on the `#test-platform-maintainers` Slack channel for a maintainer to review and
-merge.
+Blocking test failures require immediate attention:
 
-An issue for de-quarantining the test will also be created and the counterpart SET for the test's DevOps stage will be
-assigned to it.
-It is the responsibility of the assigned SET to fix the root cause of the failure and de-quarantine the test.
+- **In MRs**: The author is responsible for addressing any bugs or updating the test.
+- **In master or nightly pipeline**: Consistent failures trigger automatic quarantine.
 
-If the test needs to be quarantined sooner than the next reliable test report run, the
-fast [quarantine](/handbook/engineering/infrastructure/test-platform/debugging-qa-test-failures/#fast-quarantine)
-process should be followed.
+An issue for de-quarantining the test will be created and assigned to counterpart SET for the test’s DevOps stage.
+It is the responsibility of the assigned SET to either delegate the issue or fix and de-quarantine the test themselves.
 
-Please note that once a test has been tagged as `:blocking`, the tag cannot be removed. It can
-only be quarantined and de-quarantined.
-A failing blocking test will continue to have the `:blocking` tag until the tag is sunset.
-Please refer to the [Future Iterations](#future-iterations) section below for links to sunset issues.
+If a test needs to be quarantined sooner than the next reliable test report run,
+the [fast quarantine](/handbook/engineering/infrastructure/test-platform/debugging-qa-test-failures/#fast-quarantine)
+process must be followed.
 
-### How to run the reliable or blocking tests
+The `:blocking` tag cannot be removed from a test. Such a test can only be quarantined and de-quarantined.
+The `:blocking` tag will be sunset at a later stage. Refer to the [Future Iterations](#future-iterations) section below
+for issue link.
 
-The following command is used to run the reliable tests:
-`bin/qa Test::Instance::All http://localhost:3000 -- --tag reliable`
+## Execution Commands
 
-The following command is used to run the blocking tests:
-`bin/qa Test::Instance::All http://localhost:3000 -- --tag blocking`
+- **Reliable Tests**: `bin/qa Test::Instance::All http://localhost:3000 -- --tag reliable`
+- **Blocking Tests**: `bin/qa Test::Instance::All http://localhost:3000 -- --tag blocking`
 
-**Note:** in the above examples, `http://localhost:3000` exemplifies how to run the tests against a local GDK
-environment. This means that this argument can be changed to run the same tests against different environments.
+## Execution Schedule and Environments
 
-### When and where the tests are run
+- **Reliable Tests**: Run as part of
+  the [release process across staging, canary, and production](/handbook/engineering/infrastructure/test-platform/debugging-qa-test-failures/#qa-test-pipelines)
+  in the `qa-reliable` jobs.
+- **Blocking Tests**: Executed in MRs and master in `gdk-qa-blocking` jobs for ongoing quality assurance.
 
-Reliable tests are run part of the release
-process, [during every deployment in staging, canary, and production](/handbook/engineering/infrastructure/test-platform/debugging-qa-test-failures/#qa-test-pipelines)
-environments.
-This is in addition to the `smoke tests` that is already run as part of the release process
-
-Blocking tests are run in MRs and master pipelines in the `gdk-qa-blocking` job.
-
-### Future Iterations
+## Future Iterations
 
 - Automate the process of de-quarantining the tests that have been consistently
   passing. ([Issue link](https://gitlab.com/gitlab-org/quality/quality-engineering/team-tasks/-/issues/1918#phase-3-automate-de-quarantining-update-process-and-docs-okr))
@@ -145,5 +110,3 @@ Blocking tests are run in MRs and master pipelines in the `gdk-qa-blocking` job.
 - Once we have most of the tests blocking the MRs, remove the `:reliable` tag so that we no longer block deployment
   process using live
   environments. ([Issue link](https://gitlab.com/gitlab-org/quality/quality-engineering/team-tasks/-/issues/2499))
-
-> If there are more suggestions/ open questions they can be added here too.
