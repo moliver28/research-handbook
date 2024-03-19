@@ -390,7 +390,7 @@ This job updates `roles.yml` automatically based on changes to `snowflake_userna
 
 - To add new user entries to `roles.yml`, add the new username(s) to [`snowflake_usernames.yml`](https://gitlab.com/gitlab-data/analytics/-/blob/master/permissions/snowflake/snowflake_usernames.yml?ref_type=heads).
 - Likewise, to remove user entries from `roles.yml`, delete the username(s) from above file.
-- If no arguments are passed into the CI job, it will run with the default arguments described in [Automating roles.yml: Default vs non-default values](https://handbook.gitlab.com/handbook/business-technology/data-team/platform/#automating-rolesyml-default-vs-non-default-values) section of the handbook.
+- If no arguments are passed into the CI job, it will run with the default arguments described in [Automating roles.yml: Default vs non-default values](https://handbook.gitlab.com/handbook/business-technology/data-team/platform/#automating-rolesyml-common-templates) section of the handbook.
 
 ##### Further explanation
 
@@ -411,7 +411,7 @@ These are the full list of CI job arguments, all are **OPTIONAL**:
 1. `ROLES_TEMPLATE`:
     - Defaults to 'SNOWFLAKE_ANALYST' role and 'DEV_XS' warehouse, but accepts any JSON string, see this ['Roles' handbook section](https://handbook.gitlab.com/handbook/business-technology/data-team/platform/#roles) for more details/examples.
 1. `USERS_TEMPLATE`:
-    - Defaults to the standard user entry, see ['Users' handbook section](https://handbook.gitlab.com/handbook/business-technology/data-team/platform/#users) for more details/examples.
+    - Defaults to the standard user entry, see ['Users' handbook section](https://handbook.gitlab.com/handbook/business-technology/data-team/platform/#users) for more details/examples. This value can be overriden with any JSON string, but should not be necessary.
 
 
 ### 🛑 Snowflake Stop
