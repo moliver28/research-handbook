@@ -45,6 +45,10 @@ The Production Readiness process is authored by the DRI of the work that is bein
 1. [Create an issue][new issue] using the issue template in the [readiness project](https://gitlab.com/gitlab-com/gl-infra/readiness). The title of the issue should be a descriptive name of change.
 2. Follow the Readiness Checklist in the template.
 
+[The issue template](https://gitlab.com/gitlab-com/gl-infra/readiness/-/blob/master/.gitlab/issue_templates/production_readiness.md?ref_type=heads) will guide you though preparing your merge request and how to use the approriate labels to keep your review moving through the process. 
+
+The template also contains information about what is expected for Experimental, Beta, and Generally Available features and services. 
+
 ### Workflow labels
 
 Readiness issues must leverage the relevant scoped workflow labels to ensure visibility of the review progression. 
