@@ -165,3 +165,5 @@ Review the Hugo development documentation to learn more.
 ### CI/CD pipeline
 
 The CI/CD pipeline uses GitLab Pages for Review Apps to preview the changes in the same environment.
+
+A plain change.
