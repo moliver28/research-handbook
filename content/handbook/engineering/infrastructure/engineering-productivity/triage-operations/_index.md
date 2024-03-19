@@ -98,9 +98,7 @@ Usually, each task corresponds to an issue or a merge request that needs labels,
 Some reports also include heatmaps or other various information.
 
 Triage report are automatically assigned to specific team members, listed in
-[the group definition file](https://gitlab.com/gitlab-org/quality/triage-ops/-/blob/master/group-definition.yml),
-or directly in the triage report policy files
-[policy YAML files](https://gitlab.com/gitlab-org/quality/triage-ops/tree/master/policies).
+[the stages definition file](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/stages.yml).
 
 To change who an issue gets assigned to, open a merge request for the above
 files. If the group definition file is changed, we'll need to
