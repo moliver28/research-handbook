@@ -234,8 +234,8 @@ The requirements of the Staff Data Analyst extend the Senior Data Analyst role a
 
 ## Performance Indicators (PI)
 
-- [Adoption of Data Team BI charts throughout company](/handbook/business-technology/metrics/#adoption-of-data-team-bi-charts-throughout-company)
-- [% of issues requested triaged with first response within 36 hours (per business unit)](/handbook/business-technology/metrics/#percent--of-issues-requested-triaged-with-first-response-within-36-hours-per-business-unit)
+- [Adoption of Data Team BI charts throughout company](https://internal.gitlab.com/handbook/it/it-performance-indicators/#adoption-of-data-team-bi-charts-throughout-company)
+- [% of issues requested triaged with first response within 36 hours (per business unit)](https://internal.gitlab.com/handbook/it/it-performance-indicators/#percent--of-issues-requested-triaged-with-first-response-within-36-hours-per-business-unit)
 
 ### Career Ladder
 
