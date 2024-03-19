@@ -33,7 +33,7 @@ SheerID therefore hosts and sends all communications (email and browser notifica
 SheerID also provides [customer service](https://drive.google.com/file/d/13AW0BYt4HNFzGfM6iRuMtpjZ1J8tAXyI/view?usp=sharing) specific to GitLab.
 [MySheerID](https://my.sheerid.com/) is the customer portal for the verification system.
 The portal contains details on each application form, a reporting system, and account settings.
-GitLab team members requiring access to the MySheerID portal can request an account through an [access request](/handbook/business-technology/team-member-enablement/onboarding-access-requests/access-requests/).
+GitLab team members requiring access to the MySheerID portal can request an account through an [access request](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/).
 
 We review GitLab's contract with SheerID on an annual basis.
 Costs are based on the total number of verifications across all programs.

@@ -7,7 +7,7 @@ description: "How to complete an NDA Request"
 - **Only GitLab Team Members with signature authority can execute agreements on behalf of GitLab, including Non-Disclosure Agreements (NDAs).**
 - Please visit the [Signatory Matrix](https://internal.gitlab.com/handbook/company/authorization-matrix/expenses-and-signatures/#signature-authority---sales-and-vendor-contracts) to identify individuals that may sign. If you have any questions, contact `#legal` in Slack.
     - Note that the NDA in the standard processes below is pre-signed. For NDAs that require negotiation or third-party templates, follow the [non-standard process](#non-standard-nda-requests).
-- For Team Members who will regularly require agreements to be signed, please open an [Access Request](/handbook/business-technology/team-member-enablement/onboarding-access-requests/access-requests/) for DocuSign. Manager approval will be required.
+- For Team Members who will regularly require agreements to be signed, please open an [Access Request](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/) for DocuSign. Manager approval will be required.
 
 ## Team Members With DocuSign Access
 

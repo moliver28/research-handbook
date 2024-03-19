@@ -88,7 +88,7 @@ Managers can submit an issue in the [Sales Operations project](https://gitlab.co
 - All SDR/BDR team members
 - All Public Sector team members
 - All GitLab team members in non-customer facing roles including, but not limited to, those in Operations roles and all Managers regardless of their org
-- GitLab team members may request Listener access through an [Access Request](/handbook/business-technology/team-member-enablement/onboarding-access-requests/access-requests/#how-do-i-choose-which-template-to-use) which may be granted on a case by case basis
+- GitLab team members may request Listener access through an [Access Request](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/#how-do-i-choose-which-template-to-use) which may be granted on a case by case basis
 
 ## Why is My Meeting "Livestreamed"?
 

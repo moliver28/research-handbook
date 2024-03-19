@@ -92,7 +92,7 @@ Cognism management is exclusively done by the Marketing Operations team. We curr
 
 ### Access & Help
 
-BDRs receive acces to Cognism as part of the onboarding process. If the team member did not receive access or if access has been removed and you would like it back, you will need to open an [individual access request](/handbook/business-technology/team-member-enablement/onboarding-access-requests/access-requests/).
+BDRs receive acces to Cognism as part of the onboarding process. If the team member did not receive access or if access has been removed and you would like it back, you will need to open an [individual access request](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/).
 
 If you are experiencing issues with Cognism, feel free to chime in #mktgops slack channel and ask for help. You can also reach out to Cognism directly at help@cognism.com
 
@@ -117,5 +117,5 @@ If a temporary license is assigned to a non-BDR role it can be revoked at any ti
 
 ### Pending Invites
 
-Pending Cognim Invites have to be accepted in the time-span of a week because they block licenses from being assigned. If, after a week, the invite is still not accepted, it will be cancelled. Another invite can be sent out if requested through an [individual access request](/handbook/business-technology/team-member-enablement/onboarding-access-requests/access-requests/)
+Pending Cognim Invites have to be accepted in the time-span of a week because they block licenses from being assigned. If, after a week, the invite is still not accepted, it will be cancelled. Another invite can be sent out if requested through an [individual access request](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/)
 

@@ -29,7 +29,7 @@ to the hosted page.
 
 ### Engineer Access Requests
 
-People Group Engineers will need a couple of [Access Requests](/handbook/business-technology/team-member-enablement/onboarding-access-requests/access-requests/) in order to maintain, test, and deploy our current integrations and applications.
+People Group Engineers will need a couple of [Access Requests](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/) in order to maintain, test, and deploy our current integrations and applications.
 
 | **Name** | **Description** |
 |---|---|
