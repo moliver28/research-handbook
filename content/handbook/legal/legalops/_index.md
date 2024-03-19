@@ -40,7 +40,7 @@ The purpose of this process is to streamline receiving and tracking invoices and
     - DRIs can review for accuracy as needed/desired.
 
 ### Legal & Corporate Affairs Expenditure Request Process
-This process is designed to enable LACA team members to submit requests related to attending events/conferences, furthering development, or purchasing tools/software funded by the LACA budget. This process does not apply to [equipment](https://handbook.gitlab.com/handbook/finance/expenses/#equipment), [Individual Use Software](https://handbook.gitlab.com/handbook/finance/procurement/personal-use-software/) or other personal reimbursement requests. 
+This process is designed to enable LACA team members to submit requests related to attending events/conferences, furthering development, or purchasing tools/software funded by LACA. This process does not apply to [equipment](https://handbook.gitlab.com/handbook/finance/expenses/#equipment), [Individual Use Software](https://handbook.gitlab.com/handbook/finance/procurement/personal-use-software/) or other personal reimbursement requests. 
 - All expenses / reimbursements must be in accordance with [GitLab's Travel & Expense Policy](https://handbook.gitlab.com/handbook/finance/expenses/).
 - Regardless of the type of expenditure, all requests for use of LACA funds requires approval from applicable stakeholders within the LACA Expenditure Request Issue Template.
 
@@ -55,4 +55,4 @@ This process is designed to enable LACA team members to submit requests related 
 - Included within the LACA Expenditure Request Issue Template are details that the team member must complete. 
 - Upon being submitted, the request will be reviewed internally by LACA leadership. 
 - If approved, the request will then be assigned to Finance to ensure applicable funds are available.
-- Requests are considered fully approved when all stakeholder checkboxes have been completed. Please note, all expenses tied to the request must be submitted in accordance with [GitLab's Travel & Expense Policy](https://handbook.gitlab.com/handbook/finance/expenses/)
+- Requests are considered fully approved only when all stakeholder checkboxes have been completed. Please note, all expenses tied to the request must be submitted in accordance with [GitLab's Travel & Expense Policy](https://handbook.gitlab.com/handbook/finance/expenses/)
