@@ -63,20 +63,20 @@ The Director, Talent Management is a [grade 10](/handbook/total-rewards/compensa
 
 ### Responsibilities
 
-- Partner with our People Business Partner team to evolve our evaluation and promotion processes
-- At an enterprise-view, build a process to continuously evaluate and report on organizational design themes to ensure that we grow in the most effective way possible (E.g. org shape)
+- Partner with our People Business Partner team to evolve our talent assessment and promotion processes
+- At an enterprise-view, build a process to continuously evaluate and report on organizational design themes to ensure that we grow in the most effective way possible (e.g. org shape)
 - Build out our “Talent Preparedness” vision, to ensure that we are ready to build the right skills for the future and the ever evolving technology landscape
 - Partnering with our Diversity, Inclusion & Belonging team to ensure that we build all talent programs with DIB involvement from the start.
 - Partnering with our People Connect and Ops teams to ensure that they have the appropriate information to help guide our team member population as appropriate
 - Partnering with Total Rewards to ensure our talent strategy aligns to Pay for Performance philosophy
-- In conjunction with Talent Development, Develop and own a company-wide coaching strategy for our leadership teams
+- In conjunction with Talent Development, develop and own a company-wide coaching strategy for our leadership teams
 - Design and drive our Succession planning program
 
 ### Requirements
 
 - Strong track record delivering talent management programs at a fast-growth company
 - Previous experience working in a strategic capacity, helping drive initiatives and influencing change through different stakeholder groups
-- Used to working closely with other people group stakeholders, notably the HRBP teams
+- Used to working closely with other people group stakeholders, notably the PBP teams
 - Previous experience building out a talent management strategy, or parts thereof
 - Experience leading a Talent Management team, or been a key part in driving talent management initiatives for segments of the employee population
 - Proven understanding of how to build a successful evaluation and promotion process at scale
