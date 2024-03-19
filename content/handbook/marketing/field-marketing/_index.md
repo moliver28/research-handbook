@@ -77,7 +77,7 @@ We will sponsor regional 3rd party events in an effort to build the GitLab brand
 
 ### Meeting Setting
 
-Meeting Setting occurs when the Corporate Events team sponsors a large conference and requests the Field Meeting team manage setting up on-site meetings during the event. The Corporate Events team will set up the overall Conference Marketo program and SFDC campaign, and also request the Marketing Ops team set up the Meeting Setting Marketo program and SFDC campaign for Field Marketing. Meeting Setting is not its own campaign type and is categorized as a [Conference](/handbook/marketing/marketing-operations/campaigns-and-programs/#conference), so the Conference progression statuses should be utilized. The overall Conference is owned by the Corporate Events team, but Marketing Ops will set up the Meeting Setting SFDC campaign as FM-owned.
+Meeting Setting occurs when the Corporate Events team sponsors a large conference and requests the Field Meeting team manage setting up on-site meetings during the event. As for all Corp Events, the Marketing Operations team will set up the overall Conference Marketo program and SFDC campaign. Corporate Events will need to request the Marketing Ops team set up the Meeting Setting Marketo program and SFDC campaign for Field Marketing. Meeting Setting is not its own campaign type and is categorized as a [Conference](/handbook/marketing/marketing-operations/campaigns-and-programs/#conference), so the Conference progression statuses should be utilized. The overall Conference is owned by the Corporate Events team, but Marketing Ops will set up the Meeting Setting SFDC campaign as FM-owned.
 
 ## Other Tactics
 
