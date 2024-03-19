@@ -75,7 +75,7 @@ Currently, GitLab, uses Ringlead's Cleanse capabilities, specifically Deduplicat
 
 ### Set Up & Access
 
-Currently, Sales & Marketing Operations have access to Ringlead. To request access [please follow the access request process](/handbook/business-technology/team-member-enablement/onboarding-access-requests/access-requests/) as outlined in the business operations handbook.
+Currently, Sales & Marketing Operations have access to Ringlead. To request access [please follow the access request process](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/) as outlined in the business operations handbook.
 
 ### Ways to access Ringlead & Help
 
