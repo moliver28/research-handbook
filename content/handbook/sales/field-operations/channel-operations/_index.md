@@ -965,7 +965,7 @@ The GitLab Partner Operations team is responsible for compiling the reports outl
 
 ## Partner Forecast Salesforce Dashboards
 
-The following partner forecast dashboards have been published for FY24. Please use the dashboard relevant to your partner type and region or segment. You will only have access to view data from your region based on salesforce permissions.
+The following partner forecast dashboards have been published for FY25. Please use the dashboard relevant to your partner type and region or segment. You will only have access to view data from your region based on salesforce permissions.
 
 - Channel Dashboards
   - [Global](https://gitlab.lightning.force.com/lightning/r/Dashboard/01ZPL000000gIzp2AE/view?queryScope=userFolders)
