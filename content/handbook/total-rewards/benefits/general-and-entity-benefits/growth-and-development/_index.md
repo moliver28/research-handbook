@@ -188,18 +188,6 @@ Examples of English Language Courses:
 
 **Approver (above $1,000 USD):** Manager, E-Group Member
 
-### Crucial Conversations training
-
-The Learning and Development team delivers the [Crucial Conversations]({{< ref "/handbook/leadership/crucial-conversations" >}}) training internally to team members. The training is a hybrid format, including self-paced learning and live learning practice sessions. Read more program details in the [Learning and Development handbook](/handbook/people-group/learning-and-development/learning-initiatives/crucial-conversations/).
-
-Crucial Conversations charges per-learner to deliver this content. Each license costs $273 per license. The following section outlines how the team member G&D fund can be used to participate in this training.
-
-1. Fill out [this Google form](https://docs.google.com/forms/u/1/d/e/1FAIpQLSdqwibbQZs-zL-IX9aq9Yzgozm-y3i0Vwh59T8T1nR74mxmFQ/viewform) to express interest in taking the training. You are **not** committing to the training by filling out this form.
-1. The L&D team will assess interest/team need and organize cohorts based on this Google form. The team will contact you to confirm your availability before signing you up for a cohort.
-1. The L&D team will open a G&D issue and tag you in the issue. Please follow instructions in the issue to obtain manager approval.
-
-The L&D team will collaborate to purchase the course license on your behalf and the cost will count towwards your Growth and Development budget. Please plan to complete the Crucial Conversations self-paced training and attend at least 4 live training sessions within 3 months of starting the training.
-
 ### Mentorship
 
 In some instances, [mentorship resources provided by GitLab](/handbook/people-group/learning-and-development/mentor/) might not fit team member's needs. For example, a team member might be unable to find a mentor at GitLab with the specific experience, identity, or role they are looking for. In these cases, the Growth and Development fund can be used to cover the cost of meeting with a **paid, external mentor.**
