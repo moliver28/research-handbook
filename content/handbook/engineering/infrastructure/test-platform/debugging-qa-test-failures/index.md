@@ -148,7 +148,7 @@ The test pipelines run on a scheduled basis, and their results are posted to Sla
 | [GitLab `master`'s `e2e:package-and-test-ce`](https://gitlab.com/gitlab-org/gitlab/-/pipeline_schedules)     | Full                          | [Daily at 4:00 am UTC](https://gitlab.com/gitlab-org/gitlab/-/pipeline_schedules) | [`#qa-master`](https://gitlab.slack.com/archives/CNV2N29DM) | [Master CE](https://gitlab-qa-allure-reports.s3.amazonaws.com/e2e-package-and-test-ce/master/index.html) |
 | [GitLab `master`'s `e2e:package-and-test-nightly`](https://gitlab.com/gitlab-org/gitlab/-/pipeline_schedules)           | Full                          | [Daily at 4:00 am UTC](https://gitlab.com/gitlab-org/gitlab/-/pipeline_schedules) | [`#qa-master`](https://gitlab.slack.com/archives/CNV2N29DM) | [Master Nightly](https://gitlab-qa-allure-reports.s3.amazonaws.com/nightly/master/index.html) |
 | [GitLab `master`'s `e2e:test-on-gdk`](https://gitlab.com/gitlab-org/gitlab/-/pipelines?ref=master&source=schedule)     | Smoke, Reliable      | When the `e2e:test-on-gdk` job executes from a [scheduled pipeline every 2 hours](https://gitlab.com/gitlab-org/gitlab/pipeline_schedules) | [`#qa-master`](https://gitlab.slack.com/archives/CNV2N29DM) | [Master GDK](https://gitlab-qa-allure-reports.s3.amazonaws.com/e2e-test-on-gdk/master/index.html) |
-| [GitLab `master` review app](https://gitlab.com/gitlab-org/gitlab/pipelines)                      | Smoke, Reliable                | When the `review-app` job executes from a [scheduled pipeline every 2 hours](https://gitlab.com/gitlab-org/gitlab/pipeline_schedules) | [`#qa-master`](https://gitlab.slack.com/archives/CNV2N29DM) | [Master](https://gitlab-qa-allure-reports.s3.amazonaws.com/e2e-review-qa/master/index.html) |
+| [GitLab `master`'s `e2e:test-on-cng`](https://gitlab.com/gitlab-org/gitlab/-/pipeline_schedules) | Smoke, Reliable | [Daily at 4:00 am UTC](https://gitlab.com/gitlab-org/gitlab/pipeline_schedules) | [`#qa-master`](https://gitlab.slack.com/archives/CNV2N29DM) | [Master CNG](https://gitlab-qa-allure-reports.s3.amazonaws.com/e2e-test-on-cng/master/index.html) |
 
 #### Emoji used
 For each pipeline there is a notification of success or failure (except for `master` pipelines, which only report failures).
@@ -273,10 +273,7 @@ If you have any questions on the status, you can also reach out to the `@release
 GitLab `master` has three QA pipelines generated from scheduled pipeline against the default branch:
 
 - [`package-and-test`](https://docs.gitlab.com/ee/development/testing_guide/end_to_end/#using-the-package-and-test-job) runs the `full` suite of end-to-end tests against an omnibus Docker image built from `master`
-- [`review app`](https://docs.gitlab.com/ee/development/testing_guide/end_to_end/#using-the-review-qa-all-jobs) runs `reliable` and `smoke` suites of end-to-end tests against a Review App based on the official GitLab Helm chart, itself deployed with custom Cloud Native components built from `master`
 - [`test-on-gdk`](https://docs.gitlab.com/ee/development/testing_guide/end_to_end/#using-the-test-on-gdk-job) runs `reliable` and `smoke` suites of end-to-end tests against a GDK instance from a Docker image built from `master`
-
-If `review app` failed to deploy and all specs didn't run or did run and failed, check the `#review-apps-broken` channel to see if it's a known issue, or reach out to the [Engineering Productivity team](/handbook/engineering/quality/#engineering-productivity-structure). To debug further you can [dig into Kubernetes deployment logs](https://docs.gitlab.com/ee/development/testing_guide/review_apps.html#dig-into-a-pods-logs).
 
 If jobs in `package-and-test` failed due to a GitLab Docker image issue, reach out to the [Distribution team](/handbook/engineering/infrastructure/core-platform/systems/distribution/) to see if it's a known problem with the build.
 
