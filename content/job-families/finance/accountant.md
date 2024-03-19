@@ -2,6 +2,27 @@
 title: "Accounting"
 ---
 
+## Intern Accountant
+
+### Job Grade
+
+The Intern Accountant is a [grade 4](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades)
+
+### Responsibilities
+
+- With appropriate guidance, prepare financial statement account reconciliations with clear explanations of procedures and results
+- Shadow team members of the Accounting as they perform their daily duties
+- Assist with research, tie-out, data entry, and recording and maintaining accurate and complete financial records
+- Learn how to work as part of the Accounting team to analyze data, support the accuracy and completeness of financial records
+
+
+### Requirements
+
+- Knowledge of generally accepted accounting principles
+- Ability to navigate various computer applications, including advanced Excel/ G sheets
+- Strong communication, time management and relationship-building skills; professional judgment and skepticism
+
+
 ## Accountant
 
 ### Job Grade
