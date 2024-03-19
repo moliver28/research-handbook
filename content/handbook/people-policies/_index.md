@@ -20,6 +20,10 @@ These policies apply to all GitLab team members, contractors, advisors, and cont
 | PeopleOps | Responsible for implementing and executing these policies |
 | Legal & PeopleOps Management (Code Owners) | Responsible for approving significant changes and exceptions to these policies |
 
+## Translations
+
+There are translations available of many of our policies, for reference purposes, currently in Dutch, French and German, with further additions planned during FY25. They can be accessed [here](https://drive.google.com/drive/folders/1ZYIAuqGcIpaYVg8hMVDneK1FJg1b8zkN?usp=drive_link).  
+
 ## General Employment Practices
 
 ### Open Door Policy
