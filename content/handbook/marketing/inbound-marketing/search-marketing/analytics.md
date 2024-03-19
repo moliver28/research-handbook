@@ -15,7 +15,7 @@ description: "Our marketing team uses analtyics tools to understand how people d
 
 Our marketing team uses analtyics tools to understand how people discover and use our marketing website. The Inbound Marketing team manages the analytics implementation for our public websites, including about.gitlab.com and docs.gitlab.com. Our tools include Google Tag Manager, Google Analytics, and Google dataStudio. 
 
-If you would like direct access to these sources, please make an [Access Request](/handbook/business-technology/team-member-enablement/onboarding-access-requests/access-requests/)
+If you would like direct access to these sources, please make an [Access Request](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/)
 
 We use this page to document and share our process.
 

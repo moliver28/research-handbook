@@ -39,7 +39,7 @@ GitLab has two distinct security zones:
 
 ### Physical Devices and Location
 
-- Laptops are protected through [Endpoint Management Procedures](/handbook/business-technology/end-user-services/onboarding-access-requests/endpoint-management/) and secured through system configurations defined in the [IT Security - System Configurations handbook page](/handbook/business-technology/it/security/system-configuration/#clean-deskclear-screen) which include, but are not limited to:
+- Laptops are protected through [Endpoint Management Procedures](https://internal.gitlab.com/handbook/it/endpoint-tools/) and secured through system configurations defined in the [IT Security - System Configurations handbook page](/handbook/business-technology/it/security/system-configuration/#clean-deskclear-screen) which include, but are not limited to:
 
    - Passwords
    - Screen timeout

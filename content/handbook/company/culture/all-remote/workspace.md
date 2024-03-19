@@ -46,7 +46,7 @@ Assuming you're lucky enough to have excellent access, you may also want to set 
 
 ### PC
 
-Refer to your company's policy for specifics on [purchasing a computer or laptop](/handbook/business-technology/team-member-enablement/onboarding-access-requests#laptops). Since this will your main mode of working and communicating, be sure the specs and speed fit your optimal way of working.
+Refer to your company's policy for specifics on [purchasing a computer or laptop](/handbook/business-technology/end-user-services/onboarding-access-requests#laptops). Since this will your main mode of working and communicating, be sure the specs and speed fit your optimal way of working.
 
 ### Camera with video capability
 

@@ -50,7 +50,7 @@ Please don't hesitate to schedule one with me!
 
 ## My Remote Work Setup
 
-- [MacBook Pro](/handbook/business-technology/team-member-enablement/onboarding-access-requests/#apple-hardware)
+- [MacBook Pro](/handbook/business-technology/end-user-services/onboarding-access-requests/#apple-hardware)
 - Paper notebook, I like [Moleskins](https://www.amazon.com/Moleskine-Classic-Cover-Notebook-Ruled/dp/8883701127)
 - [Fully Standing Desk](https://www.fully.com/en-eu/standing-desks/jarvis/jarvis-hardwood-standing-desk.html)
 - Office chair

@@ -26,7 +26,7 @@ After you sign your offer and complete your background check and references, you
 ### Before you start
 
 1. Sign your offer, and be on the lookout for your :email: Welcome Email from the Candidate Experience Specialist team. You can read about the team on [this handbook page](/handbook/hiring/talent-acquisition-framework/coordinator/).
-    - This email will contain all pertainent information such as how to order your office equipment and most importantly your laptop. The IT team also has a very handy, handbook page [you can review](/handbook/business-technology/team-member-enablement/onboarding-access-requests/#gitlab-laptops).
+    - This email will contain all pertainent information such as how to order your office equipment and most importantly your laptop. The IT team also has a very handy, handbook page [you can review](/handbook/business-technology/end-user-services/onboarding-access-requests/#gitlab-laptops).
     - Please note,when you receive your laptop, make sure to **not** sign into the laptop with your personal Apple ID. You will be asked to create an Apple ID on day one with your GitLab email address.
 1. If you are being employed by one of GitLab's US entities, either GitLab Inc or GitLab Federal LLC, you will need to complete your I9 via LawLogix. You will receive an email from LawLogix. This email will walk you through the process of completing the I9.
 1. If you live in Germany, Belgium, or Japan you will need to be on a lookout from an email from the People Connect team to complete some payroll documents.
@@ -65,7 +65,7 @@ As point 36 on our [communication handbook page](/handbook/communication/#writin
 | Acronym| Word/Saying/Title |
 |:---------------|:---------------|
 | AMA | [Ask Me Anything](/handbook/communication/ask-me-anything/) |
-| AR | [Access Request](/handbook/business-technology/team-member-enablement/onboarding-access-requests/access-requests/) |
+| AR | [Access Request](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/) |
 | DRI | Directly Responsible Individual |
 | E-Group | Executive Group |
 | EBA | Executive Business Administrator |
