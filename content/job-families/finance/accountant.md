@@ -21,7 +21,6 @@ title: "Accounting"
 ### Requirements
 
 
-
 ## Accountant
 
 ### Job Grade
