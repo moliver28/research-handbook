@@ -54,4 +54,5 @@ This process is designed to enable LACA team members to submit requests related 
 - If supported by the manager, the team member will complete the LACA Expenditure Request Issue Template. 
 - Included within the LACA Expenditure Request Issue Template are details that the team member must complete. 
 - Upon being submitted, the request will be reviewed internally by LACA leadership. 
-- If approved, the request will then be assigned to Finance to ensure applicable funds are available. 
+- If approved, the request will then be assigned to Finance to ensure applicable funds are available.
+- Requests are considered fully approved when all stakeholder checkboxes have been completed. Please note, all expenses tied to the request must be submitted in accordance with [GitLab's Travel & Expense Policy](https://handbook.gitlab.com/handbook/finance/expenses/)
