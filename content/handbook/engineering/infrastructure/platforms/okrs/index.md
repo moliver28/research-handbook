@@ -16,7 +16,9 @@ When writing OKRs, the guidance is that:
 * Key Results is defined as “How will you know **when** you’ve achieved the objective?”
 * As part of a KR, you can also have a sub point - which will likely tie to an epic. This would be an “Initiative”, defined as “**How** are you going to achieve your key result?”
 
-The Objective Description should have the following format:
+#### Objectives
+
+The description for an Objective should have the following format:
 
 ```
 ### Context
@@ -28,7 +30,13 @@ The Objective Description should have the following format:
 <numbered list of relevant epics or issues>
 ```
 
-If an Objective description also needs other sections, these can be added after the block above.
+If the description also needs other sections, these can be added after the block above.
+
+#### Key Results
+
+The description for a key result should include information about how they key result contributes to it's parent objective.
+
+If there is more than one issue that makes up a key result, please include scoring criteria in the description of the key result. 
 
 ### Keeping OKRs up to date
 
