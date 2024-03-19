@@ -46,7 +46,7 @@ This process is designed to enable LACA team members to submit requests related 
 
 #### Types of Expenditures
 - Growth & Development: Team members can review the [Growth & Development Program](https://handbook.gitlab.com/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development/#growth-and-development-fund-eligibility) and review various options available to GitLab team members._Note: The program would not cover costs associated with travel & expenses, which would be allocated to the LACA budget._ 
-- Event / Conferences: Team members may wish to attend applicable events / conferences where they can learn more about a specific subject. Team members must complete the LACA Expenditure Request Issue Template and supply the necessary information. 
+- Event / Conferences: Team members may wish to attend applicable events / conferences where they can learn more about a specific subject. Team members must complete the LACA Expenditure Request Issue Template and supply the necessary information. (_Note: Team members attending events / conferences are expected to share materials and insight with others within LACA (and GitLab)._)  
 - Tools / Software: For requests related to new tools / software, a LACA Expenditure Request Issue Template is required.
 
 #### Expenditure Process Overview
