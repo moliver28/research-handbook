@@ -51,18 +51,9 @@ GitLab Connect is a full or half day event with both customers and prospects in 
 
 For information regarding process, epic codes, templates and more, please visit our [**Field Marketing Owned Virtual Events**](/handbook/marketing/field-marketing/field-marketing-owned-virtual-events/) page.
 
-## 3rd Party Events
+### Executive Roundtables
 
-We will sponsor regional 3rd party events in an effort to build the GitLab brand and also to gather leads. Different types of 3rd party events include, but are not limited to:
-
-- Agile Events
-- City run technology meetings
-- Customer/prospect run DevOps events on invite
-- Executive relationship building events via companies like Apex Assembly & Argyle Executive Forum
-
-#### Executive Roundtables
-
-Executive Roundtables can be run virtual or in-person and differ from webcasts/events mainly due to the size of the audience and the interactivity level. A roundtable is run as an open discussion between the host (usually 3rd party vendor), GitLab presenter and the audience. The host would open with an introduction of themselves and the topic for the session, then introduce the GitLab presenter and have them give an overview of GitLab followed by the host asking questions directly to specific people in the audience for them to openly answer and discuss. The advantage of a roundtable is that you can document the meeting more closely and understand more about an organization’s pains and problems.
+Executive Roundtables can be run virtually or in-person, and be organized through a 3rd party vendor or GitLab. These events differ from webcasts/events mainly due to the size of the audience and the interactivity level. A roundtable is run as an open discussion between the host (usually 3rd party vendor), GitLab presenter and the audience. The host would open with an introduction of themselves and the topic for the session, then introduce the GitLab presenter and have them give an overview of GitLab followed by the host asking questions directly to specific people in the audience for them to openly answer and discuss. The advantage of a roundtable is that you can document the meeting more closely and understand more about an organization’s pains and problems.
 
 Below are best practices when running a roundtable:
 
@@ -75,9 +66,18 @@ Below are best practices when running a roundtable:
 - Pre-analysis of delegates - check to see if their organization is currently a user of GitLab, whether they’re CE or EE customers. This could be a great way to start or dig into deeper conversations with the delegate.
 - Ensure you have familiarised yourself with the [White Glove Event Follow Up process](/handbook/marketing/sales-development/#white-glove-event-follow-up-sequence-saes-included) for this type of event.
 
-### How to operationally set up an in-person event
+## 3rd Party Events
 
-Field Marketing works closely with our Marketing Program Managers to functionally set up and execute our in person events. For complete details on our shared process, including the epic/issue creation process, please review our [event execution page](/handbook/marketing/events/#event-execution).
+We will sponsor regional 3rd party events in an effort to build the GitLab brand and also to gather leads. Different types of 3rd party events include, but are not limited to:
+
+- Agile Events
+- City run technology meetings
+- Customer/prospect run DevOps events on invite
+- Executive relationship building events via companies like Apex Assembly & Argyle Executive Forum
+
+### Meeting Setting
+
+Meeting Setting occurs when the Corporate Events team sponsors a large conference and requests the Field Meeting team manage setting up on-site meetings during the event. As for all Corp Events, the Marketing Operations team will set up the overall Conference Marketo program and SFDC campaign as well as the  Meeting Setting Marketo program and SFDC campaign for Field Marketing. Meeting Setting is not its own campaign type and is categorized as a [Conference](/handbook/marketing/marketing-operations/campaigns-and-programs/#conference), so the Conference progression statuses should be utilized. The overall Conference is owned by the Corporate Events team, but Marketing Ops will set up the Meeting Setting SFDC campaign as FM-owned.
 
 ## Other Tactics
 
@@ -94,22 +94,6 @@ Go to the [Reachdesk page](/handbook/marketing/marketing-operations/reachdesk) f
 
 ### Tracking success of digital tactics
 Please ensure you are using our UTM tracker (look up `Google Analytics Campaign Tagging Tool - UTM generator for tracking` in the Gdrive to find doc). In order to identify which campaigns are from the Field Marketing team, you must add the letters fmm at the end of your campaign name in column E. All lowercase with no spaces or special characters. This allows us to pull ROI reporting, so please don't leave these letters out or else you will lose reporting from a dashboard standpoint.
-
-## Individual Tactics
-
-Remember, an account-centric micro-campaign consists of at least 2 different account-centric tactics. If you are planning an individual tactic, follow the [plan to WIP process](/handbook/marketing/field-marketing/#process-for-issues-moving-from-plan-to-wip). Refer to the information provided in [Steps for the Creation and Organization of Micro-Campaign Epics & Issues](/handbook/marketing/field-marketing/#steps-for-the-creation-and-organization-of-micro-campaign-epics--issues), for _how_ to create the issues & epics if needed.
-
-### Examples of Individual Tactics
-
-#### Content Syndication
-
-1. FMM opens a [Content Syndication Issue](https://gitlab.com/gitlab-com/marketing/field-marketing/-/issues/new?issuable_template=Content_Syndication_Template)
-1. FMM and FMC to follow Plan to WIP process [here](/handbook/marketing/field-marketing/#process-for-issues-moving-from-plan-to-wip)
-
-#### Self-Service Virtual Event With or Without Promotion
-
-1. FMM opens a [Self-Service Issue](https://gitlab.com/gitlab-com/marketing/field-marketing/-/issues/new?issuable_template=Self_Service_Event)
-1. FMM and FMC to follow Plan to WIP process [here](/handbook/marketing/field-marketing/#process-for-issues-moving-from-plan-to-wip)
 
 # Confidentiality in GitLab Issues and Epics
 
@@ -140,6 +124,11 @@ Field Marketing utilizes the below issue templates and epic codes for virtual ev
 * [Progression Status](/handbook/marketing/marketing-operations/campaigns-and-programs/#conference)
 * [Issue Template](https://gitlab.com/gitlab-com/marketing/field-marketing/-/issues/new?issuable_template=Hybrid_Conference)
 * [Epic Code](/handbook/marketing/field-marketing/field-marketing-epics/#conference-hybrid)
+
+## Conference (FM Meeting Setting for a Corporate Events Conference)
+* [Tactic Details](/handbook/marketing/field-marketing/#meeting-setting)
+* [Progression Status](/handbook/marketing/marketing-operations/campaigns-and-programs/#conference)
+* [Issue Template](https://gitlab.com/gitlab-com/marketing/field-marketing/-/issues/new?issuable_template=Meeting_Setting_Template)
 
 ## Content Syndication
 * [Tactic Details](/handbook/marketing/demand-generation/campaigns/content-in-campaigns/)
