@@ -34,9 +34,17 @@ If the description also needs other sections, these can be added after the block
 
 #### Key Results
 
-The description for a key result should include information about how they key result contributes to it's parent objective.
+The description for an Key Result should have the following format:
 
-If there is more than one issue that makes up a key result, please include scoring criteria in the description of the key result. 
+```
+### Context
+
+<context about how this Key Result contributes to meeting the goal of the Objective>
+
+### Scoring Criteria
+
+<numbered list of epics or issues with the percentage contribution>
+```
 
 ### Keeping OKRs up to date
 
