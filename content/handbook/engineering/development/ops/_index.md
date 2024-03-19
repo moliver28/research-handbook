@@ -104,7 +104,7 @@ Planning processes followed by teams in the Sub-department:
 
 ### Forced Priority planning/scheduling
 
-Our [prioritization framework](/handbook/product/product-processes/#prioritization-framework) describes a number of [Forced Priority](/handbook/product/product-processes/#forced-prioritization) labels that present a high risk to our customers and our business. As such, it's critical that we complete this work within the appropriate SLO/SLAs where possible. An example of this are security issues, here's a dashboard for past due and soon to be due security issues: https://10az.online.tableau.com/t/gitlab/views/DRAFTIssueTypesDetail/PastDueIssueList/d1401498-2050-4321-b0f4-ab51047fbeb1/1909fa14-fdf0-4682-8a07-f02d8c8d4803
+Our [prioritization framework](/handbook/product/product-processes/#prioritization-framework) describes a number of [Forced Priority](/handbook/product/product-processes/#forced-prioritization) labels that present a high risk to our customers and our business. As such, it's critical that we complete this work [within the appropriate SLO/SLAs](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity) where possible. An example of this are security issues, here's a dashboard for past due and soon to be due security issues: https://10az.online.tableau.com/t/gitlab/views/DRAFTIssueTypesDetail/PastDueIssueList/d1401498-2050-4321-b0f4-ab51047fbeb1/1909fa14-fdf0-4682-8a07-f02d8c8d4803
 
 With this in mind, here's a process that groups are encouraged to use and iterate on in the event that they don't have an existing approach or are falling behind on SLA/SLOs.
 
@@ -115,6 +115,32 @@ To be clear, this is not a required process, if your group's approach is working
 1. Have someone in the group assign themselves to work on the issue
 1. Update the issue regularly with progress
 1. Treat blockers with the same *or higher* priority than the original issue
+
+## Sustaining / Non-Sustaining planning exercise
+
+In FY23, each EM in Ops was asked to participate in a [capacity planning exercise that involved evaluating the sustaining vs non-sustaining work](https://gitlab.com/gitlab-com/ops-sub-department/ops-engineering-management/-/issues/125) in their team's backlog. This exercise was also repeated by the [Verify Pipeline teams in FY24](https://gitlab.com/groups/gitlab-org/-/epics/11284) to better understand Engineering capacity needs for each of the Pipeline teams.
+
+Each team created a staffing justification based on the breakdown of sustaining vs non-sustaining issues in their backlog. EMs estimated the number of backend engineers and frontend engineers that would be needed, per quarter, of the given fiscal year to burndown these issues, as ordered by the [prioritization framework](/handbook/product/product-processes/#prioritization-framework) and relevant priority/severity labels.
+
+### Sustaining work
+
+Sustaining work refers to the most important security, availability, scalability and performance, essential for _keeping the lights on_ for the feature categories the team supports. Capacity planning for sustaining work was based on meeting the SLO/SLAs of these types of issues.  The labels for sustaining work include:
+- `bug::vulnerability` (specifically this label, as a `security` labeled issue may be a feature request)
+- `bug::availability`
+- `bug::performance`
+- `infradev`
+- `Scaling`
+
+Specific initiatives in the team's backlog may have their own labels that qualify as _sustaining work_, such as `ci::scaling` in Verify.
+
+### Non-Sustaining work
+
+Non-sustaining effort refers to all other work the teams would work on, including:
+- `type::feature`
+- `type::maintenance` (e.g. technical debt that does not impact availability, scalability, performance, etc)
+- all other `type::bug` issues not covered as sustaining work
+- reviewing community contributions
+- responding to customer inquiries / support requests
 
 ## Ops Promotion Process
 
