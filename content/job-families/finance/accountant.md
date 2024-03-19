@@ -19,7 +19,6 @@ The Intern Accountant is a [grade 4](/handbook/total-rewards/compensation/compen
 ### Requirements
 
 - Knowledge of generally accepted accounting principles
-- Must be enrolled in or recently graduated with a degree in Finance or Accounting
 - Ability to navigate various computer applications, including advanced Excel/ G sheets
 - Strong communication, time management and relationship-building skills; professional judgment and skepticism
 
