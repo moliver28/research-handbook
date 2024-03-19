@@ -11,7 +11,7 @@ Manage is made up of multiple groups, each with their own features and areas of 
 
 In GitLab issues, questions should start by @ mentioning the relevant Product Manager for the [product category](/handbook/product/categories/#manage-stage). 
 
-GitLab employees can also use [#s_manage](https://gitlab.slack.com/messages/CBFCUM0RX).
+GitLab team members can also use [#s_manage](https://gitlab.slack.com/messages/CBFCUM0RX).
 
 ## How we work
 
