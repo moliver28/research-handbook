@@ -273,10 +273,7 @@ If you have any questions on the status, you can also reach out to the `@release
 GitLab `master` has three QA pipelines generated from scheduled pipeline against the default branch:
 
 - [`package-and-test`](https://docs.gitlab.com/ee/development/testing_guide/end_to_end/#using-the-package-and-test-job) runs the `full` suite of end-to-end tests against an omnibus Docker image built from `master`
-- [`review app`](https://docs.gitlab.com/ee/development/testing_guide/end_to_end/#using-the-review-qa-all-jobs) runs `reliable` and `smoke` suites of end-to-end tests against a Review App based on the official GitLab Helm chart, itself deployed with custom Cloud Native components built from `master`
 - [`test-on-gdk`](https://docs.gitlab.com/ee/development/testing_guide/end_to_end/#using-the-test-on-gdk-job) runs `reliable` and `smoke` suites of end-to-end tests against a GDK instance from a Docker image built from `master`
-
-If `review app` failed to deploy and all specs didn't run or did run and failed, check the `#review-apps-broken` channel to see if it's a known issue, or reach out to the [Engineering Productivity team](/handbook/engineering/quality/#engineering-productivity-structure). To debug further you can [dig into Kubernetes deployment logs](https://docs.gitlab.com/ee/development/testing_guide/review_apps.html#dig-into-a-pods-logs).
 
 If jobs in `package-and-test` failed due to a GitLab Docker image issue, reach out to the [Distribution team](/handbook/engineering/infrastructure/core-platform/systems/distribution/) to see if it's a known problem with the build.
 
