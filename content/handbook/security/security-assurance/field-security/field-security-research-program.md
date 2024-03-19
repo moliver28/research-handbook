@@ -1,5 +1,5 @@
 ---
-title: "Field Security Outreach Program"
+title: "Field Security Research Program"
 ---
 
 ## Why an Outreach program?
