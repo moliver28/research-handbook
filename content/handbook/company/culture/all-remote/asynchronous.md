@@ -118,7 +118,7 @@ Synchronous organizations often make decisions in a series of meetings, document
 
 As companies scale, people will come and go. By utilizing asynchronous communication, an organization is able to retain knowledge throughout these natural cycles.
 
-For example, the [Git blame history](https://gitlab.com/gitlab-com/www-gitlab-com/blame/master/source/handbook/values/index.html.md) of GitLab's [Values]({{< ref "values" >}}) page shows a complete list of who made what change, and what the context was for each of them. This insight is invaluable, as some contributors no longer work at GitLab. Those seeking information can [find it asynchronously]({{< ref "./self-service" >}}) without bothering anyone else, nor do they have to wait for anyone else to wake up or come online.
+For example, the [Git blame history](https://gitlab.com/gitlab-com/content-sites/handbook/blob/main/content/handbook/values/_index.md?blame=1) of GitLab's [Values]({{< ref "values" >}}) page shows a complete list of who made what change, and what the context was for each of them. This insight is invaluable, as some contributors no longer work at GitLab. Those seeking information can [find it asynchronously]({{< ref "./self-service" >}}) without bothering anyone else, nor do they have to wait for anyone else to wake up or come online.
 
 ## Guide to asynchronous communication
 
