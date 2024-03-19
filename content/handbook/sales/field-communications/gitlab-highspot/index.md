@@ -93,7 +93,7 @@ Teams with access to Highspot include:
 
 Non-active users, such as team members who have left the company, will be removed from Highspot on a regular basis in order to open seats within the tool.
 
-Access to the tool is provisioned via SSO in Okta. To access Highspot, please navigate through the Highspot tile in your Okta dashboard. If you do not have access via your Okta dashboard, please submit an [Access Request](/handbook/business-technology/team-member-enablement/onboarding-access-requests/access-requests/#individual-or-bulk-access-request).
+Access to the tool is provisioned via SSO in Okta. To access Highspot, please navigate through the Highspot tile in your Okta dashboard. If you do not have access via your Okta dashboard, please submit an [Access Request](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/#individual-or-bulk-access-request).
 
 
 # Guidance for Field Team
@@ -385,7 +385,7 @@ At this time, the entire GitLab GTM organization, which includes the global Fiel
 
 **How do I get access to Highspot?**
 
-All members of GitLab's GTM organization have access to the tool via their Okta dashboard. For a full list of teams with Highspot access, see the [Availability section](/handbook/sales/field-communications/gitlab-highspot/#availability) above. If you are on one of these teams and still do not have Highspot access via Okta, please open an [access request](/handbook/business-technology/team-member-enablement/onboarding-access-requests/access-requests/#how-do-i-choose-which-template-to-use).
+All members of GitLab's GTM organization have access to the tool via their Okta dashboard. For a full list of teams with Highspot access, see the [Availability section](/handbook/sales/field-communications/gitlab-highspot/#availability) above. If you are on one of these teams and still do not have Highspot access via Okta, please open an [access request](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/#how-do-i-choose-which-template-to-use).
 
 **If I have a recommendation for a piece of content that should be in Highspot for all to access, how do I contribute?**
 

@@ -13,7 +13,7 @@ The purpose of this document is to outline the procedural change management step
 This document applies to systems and applications owned by Security and processes owned by Security Departments.
 
 {{% note %}}
-Changes related to user access and authorization should continue to be handled via the [access request](/handbook/business-technology/team-member-enablement/onboarding-access-requests/access-requests/) process.
+Changes related to user access and authorization should continue to be handled via the [access request](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/) process.
 {{% /note %}}
 
 Security has defined the following types of changes:

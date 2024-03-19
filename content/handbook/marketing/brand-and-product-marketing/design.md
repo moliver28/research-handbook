@@ -229,7 +229,7 @@ Canva enables team members to self-service their design needs and create on-bran
 
 ### GitLab Enterprise access
 
-If you regularly create designs in Canva, we ask that you work in the `GitLab Enterprise` Canva Pro account instead of using a free or personal account. To gain access, please submit an [access request](/handbook/business-technology/team-member-enablement/onboarding-access-requests/access-requests/) issue. Once this is completed, someone from the Brand Design team will grant you access.
+If you regularly create designs in Canva, we ask that you work in the `GitLab Enterprise` Canva Pro account instead of using a free or personal account. To gain access, please submit an [access request](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/) issue. Once this is completed, someone from the Brand Design team will grant you access.
 
 We have a limited number of seats available, so we encourage teams to consolidate the number of people on their team who need access. *Note: Shared logins are prohibited*.
 

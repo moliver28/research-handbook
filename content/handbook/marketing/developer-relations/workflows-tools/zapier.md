@@ -18,7 +18,7 @@ The Zapier subscription runs on the [Team plan](https://zapier.com/app/billing/p
 ### Zapier access
 
 - URL: [https://zapier.com](https://zapier.com)
-- Account: search for the shared Zapier account in 1Password's `Zapier` vault. Please file an [access request](/handbook/business-technology/team-member-enablement/onboarding-access-requests/access-requests/) if you cannot access that vault.
+- Account: search for the shared Zapier account in 1Password's `Zapier` vault. Please file an [access request](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/) if you cannot access that vault.
 
 Once logged in, you can access, edit and create Zaps in the [Developer Relations](https://zapier.com/app/zaps/folder/275996) folder
 
