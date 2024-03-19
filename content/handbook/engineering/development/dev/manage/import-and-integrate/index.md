@@ -387,9 +387,8 @@ Below is an overview of topics that are overseen by a tech lead:
 
 | Topic | Tech Lead | Topic Link | Notes |
 | ------ | ------ | ------ | ------ |
-| FLC for #17057 | Carla Drago| [FCL issue](https://gitlab.com/gitlab-com/feature-change-locks/-/issues/43) | - |
-| Direct Transfer Q4 OKR | George Koltsov | [Key Result 1](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/5027), [Key Result 2](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/5029) | |
-| GitHub Q4 OKR | Luke Duncalfe | [Key Result](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/5028) | |
+| Direct Transfer - User contribution mapping | Rodrigo Tomonari | [Epic](https://gitlab.com/groups/gitlab-org/-/epics/12378) | - |
+| Improve the efficiency of developer contributions to the importers | James Nutt | [OKR](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/6658) | - |
 | Congregate | tbd | https://gitlab.com/gitlab-org/gitlab/-/issues/428657 | |
 | GitHub Actions | tbd | https://gitlab.com/gitlab-org/manage/general-discussion/-/issues/17652 | |
 |  | | |  |
