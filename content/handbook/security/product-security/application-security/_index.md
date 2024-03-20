@@ -8,7 +8,7 @@ aliases:
 
 ## Application Security Mission
 
-As part of the Product Security sub-department, the application security team's mission is to support the business and ensure that all GitLab products securely manage customer data. We do this by working closely with both engineering and product teams.
+As part of the Product Security department, the application security team's mission is to support the business and ensure that all GitLab products securely manage customer data. We do this by working closely with both engineering and product teams.
 
 ## Contacting us
 
