@@ -253,6 +253,27 @@ Current caveats with the job are:
 - It is not able to validate tables that are queried with any string interpolation syntax (i.e. `retention_[some_variable]`)
 - It is not able to validate if a table is aliased via dbt
 
+##### Explanation
+
+This section explains how the periscope query works.
+
+`git clone -b periscope/master --single-branch https://gitlab.com/gitlab-data/periscope.git --depth 1`
+
+This clones the periscope project.
+
+`git diff origin/$CI_MERGE_REQUEST_TARGET_BRANCH_NAME...HEAD --name-only | grep -iEo "(.*)\.sql" | sed -E 's/\.sql//' | awk -F '/' '{print tolower($NF)}' | sort | uniq > diff.txt`
+
+This gets the list of files that have changed from the master branch (i.e. target branch) to the current commit (HEAD). It then finds (grep) only the sql files and substitutes (sed) the `.sql` with an empty string. Using `awk`, it then prints the lower-case of the last column of each line in a file (represented by $NF - which is the number of fields), using a slash (/) as a field separator. Since the output is directory/directory/filename and we make the assumption that most dbt models will write to a table named after its file name, this works as expected. It then sorts the results, gets the unique set, and writes it to a file called diff.txt.
+
+`periscope_check.py`
+
+This recursively searches the entire periscope repo for a string that matches a `from|join` statement from any of the 3 currently queryable schemas. It does some cleaning on files that match and creates a dictionary of table name mapping to all of the files it is referenced in. It then reads in `diff.txt` to do a lookup and write to comparison.txt and matches based on the model name.
+
+`if (( $(cat comparison.txt | wc -l | tr -d ' ') > 0 )); then echo "Check these!" && cat comparison.txt && exit 1; else echo "All good" && exit 0; fi;`
+
+This uses word count (wc) to see how many lines are in the comparison file. If there is more than zero it will print the lines and exit with a failure. If there are no lines it exits with a success.
+
+
 #### `🔍tableau_direct_dependencies_query`
 
 This job runs automatically and only appears when `.sql` files are changed. In its simplest form, the job will check to see if any of the currently changed models are **directly** queried in Tableau views, tableau data-extracts, or tableau flows. If they are, the job will fail with a notification to check the relevant dependency. If it is not queried, the job will succeed.
@@ -272,16 +293,15 @@ This gets the list of files that have changed from the master branch (i.e. targe
 
 `orchestration/tableau_dependency_query/src/tableau_query.py`
 
-We leverage Monte Carlo to detect downstream dependencies which is also our data obeservability tool. Using Monte carlo API we detect directly connected downstream nodes of type `tableau-view`, `tableau-published-datasource-live`, `tableau-published-datasource-extract` using the `GetTableLineage` GraphQL endpoint.
+We leverage [Monte Carlo](https://handbook.gitlab.com/handbook/business-technology/data-team/platform/monte-carlo/) to detect downstream dependencies which is also our data obeservability tool. Using [Monte carlo API](https://apidocs.getmontecarlo.com/) we detect directly connected downstream nodes of type `tableau-view`, `tableau-published-datasource-live`, `tableau-published-datasource-extract` using the [`GetTableLineage` GraphQL endpoint](https://apidocs.getmontecarlo.com/#query-getTableLineage).
 
-If no dependencies are found for the model then you would get an output in the CI jobs logs like - `INFO:root:No dependencies returned for model aws_billing_source`
+If no dependencies are found for the model then you would get an output in the CI jobs logs - `INFO:root:No dependencies returned for model <model_name>` and the job will be marked as successful.
 
-And if dependencies were found for the model, then the job would fail with the value error `ValueError: Check these models before proceeding!`. The job logs will contain Number of direct dependencies found for a given model, type of tableau object, tableau view name and monte carlo asset link in the below example format:
+And if dependencies were found for the model, then the job would fail with the value error `ValueError: Check these models before proceeding!`. The job logs will contain number of direct dependencies found for a given model, type of tableau object, tableau resource name and monte carlo asset link, in the below format:
 
 ```bash
-Found 11 downstream dependencies in Tableau for the model aws_focus
-INFO:root:
-tableau-view : Histo costs per month - subAcc breakdown - : https://getmontecarlo.com/assets/MCON++07a010bd-4365-442a-9bec-c06ac57c28dc++9e7dad7a-fa9c-4a25-91b0-e1df1b50e536++tableau-view++6cc58d25-827b-e285-b2a0-14543fd86d1f
+Found <number of tableau dependencies> downstream dependencies in Tableau for the model <model name>
+INFO:root: <tableau resource type> : <name of tableau resource> - : <monte_carlo_connection_asset_url>
 ValueError: Check these models before proceeding!
 ERROR: Job failed: command terminated with exit code 1
 ```
