@@ -11,8 +11,7 @@ It loosely follows the [production readiness review][google sre engagement] from
 The goal of the readiness review is to make sure we have enough documentation, observability, and reliability for the feature, change, or service to run at GitLab.com production scale.
 The readiness review process should be started as early as possible as features progress through our [product maturity levels][maturity levels].
 
-**Completing a readiness review doesn't necessarily mean that the Infrastructure teams will take over on-call responsibilities or ownership from the service team.**
-**For situations where the Infrastructure teams are taking over ownership and/or on-call responsibilities for a service, a review must be completed.**
+**Completing a readiness review doesn't necessarily mean that the Infrastructure teams will take over on-call responsibilities or ownership from the service team. If required, this should be discussed in the merge request.**
 
 This review is meant to facilitate collaboration between Service Owners, Security and Infrastructure teams to help bridge any gaps identified for a new service.
 The review document will serve as a snapshot of what is being deployed and the discussions that surround it.
@@ -46,6 +45,24 @@ The Production Readiness process is authored by the DRI of the work that is bein
 1. [Create an issue][new issue] using the issue template in the [readiness project](https://gitlab.com/gitlab-com/gl-infra/readiness). The title of the issue should be a descriptive name of change.
 2. Follow the Readiness Checklist in the template.
 
+[The issue template](https://gitlab.com/gitlab-com/gl-infra/readiness/-/blob/master/.gitlab/issue_templates/production_readiness.md?ref_type=heads) will guide you though preparing your merge request and how to use the approriate labels to keep your review moving through the process. 
+
+The template also contains information about what is expected for Experimental, Beta, and Generally Available features and services. 
+
+### Workflow labels
+
+Readiness issues must leverage the relevant scoped workflow labels to ensure visibility of the review progression. 
+
+| Status Label | Description |
+| ----------- | ----------- |
+| ![Triage](../team/scalability/img/label-triage.png) | The author has an idea of the feature or change but is pending a decision to proceed with it. |
+| ![Proposal](../team/scalability/img/label-proposal.png) | A decision to proceed with an idea or change has been made and Readiness MR is being prepared  |
+| ![Ready](../team/scalability/img/label-ready.png) | The Readiness MR is ready and awaiting review. <br/>Issue assigned to the DRI/Author |
+| ![In Progress](../team/scalability/img/label-in_progress.png) | Review discussions are ongoing between the DRI and SRE Reviewer. <br/>While in progress, the issue is assigned to the DRI and SRE Reviewer|
+| ![Done](../team/scalability/img/label-done.png) | The Readiness review is complete, Readiness MR is accepted and merged |
+| ![Cancelled](../team/scalability/img/label-cancelled.png) | Readiness review is no longer required due to other external reasons. After applying this label, issue will be closed. |
+| ![Stalled](../team/scalability/img/label-stalled.png) | Review is paused due to a change in priority.|
+| ![Blocked](../team/scalability/img/label-blocked.png) | Review is blocked due to external dependencies or other factors. Where possible, a [blocking issue](https://docs.gitlab.com/ee/user/project/issues/related_issues.html) should also be set. After applying this label, issue will be regularly triaged by the [Scalability:Practices](../team/scalability/practices) team until the label can be removed. |
 ## Guidelines for the author
 
 - If this is a review for the next maturity level for an existing feature, create an MR that modifies the existing review document.
