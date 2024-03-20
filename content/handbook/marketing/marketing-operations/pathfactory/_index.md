@@ -53,7 +53,7 @@ PathFactory is not a single source of truth (SSoT) for all GitLab content, but r
 
 ## Access
 
-The Marketing Operations team is responsible for managing access requests & provisioning the appropriate level of access for each role/function. PathFactory is not provisioned as a baseline entitlement. If you or your team require access, please open a [`Single Person Access Request` issue](/handbook/business-technology/team-member-enablement/onboarding-access-requests/access-requests/) and provide business reason why access is needed. For certain permissions or roles, you may be required to go through training before access is provisioned.
+The Marketing Operations team is responsible for managing access requests & provisioning the appropriate level of access for each role/function. PathFactory is not provisioned as a baseline entitlement. If you or your team require access, please open a [`Single Person Access Request` issue](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/) and provide business reason why access is needed. For certain permissions or roles, you may be required to go through training before access is provisioned.
 
 ### User Roles
 
