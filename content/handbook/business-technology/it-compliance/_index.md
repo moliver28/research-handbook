@@ -15,11 +15,11 @@ The IT Compliance function at GitLab is here to ensure as a company we are ready
   <div>
     <h5>Issue Trackers</h5>
 
-    <a href="https://gitlab.com/gitlab-com/business-technology/it-compliance/it-compliance-issue-tracker/-/issues/new" class="btn btn-purple" style="width:180px;margin:5px;">IT Compliance Issue Tracker</a>
+  <a href="https://gitlab.com/gitlab-com/business-technology/it-compliance/it-compliance-issue-tracker/-/issues/new" class="btn btn-purple" style="width:180px;margin:5px;">IT Compliance Issue Tracker</a>
   </div>
  </div>
 
-IT Compliance works collaboratively with multiple functional teams throughout the GitLab organization. We partner with Management, Business Teams, and our Data Team to implement solutions. Our primary focus today is related to identifying and ensuring audit readiness for in scope SOX applications, however, there is a need to continue to expand the body of work into BCP planning, IAM advisory, and assist on other security initiatives.
+IT Compliance works collaboratively with multiple functional teams throughout the GitLab organization. We partner with Management and our Business Teams to implement solutions. Our primary focus today is related to identifying and ensuring audit readiness for in scope SOX applications, however, there is a need to continue to expand the body of work into BCP planning, IAM advisory, and assist on other security initiatives.
 
 
 Our work can be tracked in the [IT Compliance GitLab Group](https://gitlab.com/gitlab-com/business-technology/it-compliance).
@@ -28,7 +28,6 @@ Our work can be tracked in the [IT Compliance GitLab Group](https://gitlab.com/g
 1. Ensure that only current employees have access to the applications and the appropriate actions.
 1. Manage all changes to SOX compliant systems to ensure their auditability and compliance with SOX level change management.
 1. Constantly iterate to simplify and ensure processes are efficient and automated as much as possible.  Goal is to weave these processes into the fabric of work so they are not noticed.
-1. IT Compliance - Ensuring that all customer/business data is secure and can pass key audits for attestations and compliance with SOX, SOC, etc.
 1. Work to reduce audit scope by enhancing general controls.
 
 ## How we work
