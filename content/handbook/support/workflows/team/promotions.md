@@ -45,15 +45,10 @@ motivate and inspire others to build and strengthen their promotion documents. I
 public promotion documents are part of GitLab's
 [Promotion Philosophy](/handbook/people-group/promotions-transfers/#promotion-philosophy).
 GitLab Support team members can link their internally
-public promotion documents in this section. Having a public in-progress promotion document is **optional**. If you are open to share your in-progress promotion document with the Support team you can use the Slack channel: #support_team-chat.
+public promotion documents in the [In-Progress Promotion Documents](https://docs.google.com/document/d/1ECTvNgZD1j9BstQI08ei8B5KxzdO3fCOBMAFQrnDmQc/edit?usp=sharing) Google Doc available only to GitLab team members. Having an internally public in-progress promotion document is **optional**. If you are open to share your in-progress promotion document with the Support team you can also use the Slack channel: #support_team-chat.
 
-If you want to list your document here, decide what level of publicity you are comfortable with. Set the appropriate access for the GitLab group in the document's *Share* settings: You can keep it read-only (`Viewer`), allow others to comment and suggest edits (`Commenter`) – or fully open it to collaboration (`Editor`).
+If you want to list your document, decide what level of publicity you are comfortable with. Set the appropriate access for the GitLab group in the document's *Share* settings: You can keep it read-only (`Viewer`), allow others to comment and suggest edits (`Commenter`) – or fully open it to collaboration (`Editor`).
 
-### Promotion to Senior Support Engineer
+## Completed Promotion Documents
 
- - [Sam Bernal-Damasco](https://docs.google.com/document/d/1-due7KKIyyWzGzRDks1esOWDFGdSU8Rroby1RTCZMAE/edit)
-
-### Promotion to Staff Support Engineer
-
-- [Brie Carranza](https://docs.google.com/document/d/14DbQH4VjbE47r9zefK0HPBKW_ZAfI8Sm_Kqdo_6Svbo/edit)
-- [Manuel Grabowski](https://docs.google.com/document/d/1hGH6ScWyJwVnR5tU-7xG7_WY_ykyyLuzHD-5TJzGme0/edit)
+GitLab team members with the appropriate level of access can browse through the list of [Completed Promotions](https://docs.google.com/document/d/1A9hP1smFa0Z6upoljweg9KnxhwYPha1BZApIwRXICZY/edit?usp=sharing) documents.
