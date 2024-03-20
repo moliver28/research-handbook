@@ -137,10 +137,6 @@ Job Policy patterns allow the pipeline to control when and if jobs run using the
 
 1. In the left-hand navigation pane, click **Build > Pipelines** and click the status icon next to the most recent pipeline run.
 
-1. Click the widgets to see what environment the pipeline is deploying the code to. In the left sidebar, click **Operate > Environments** to see the environments that have been created. 
-
-    > Note: You will see that `deploy staging` is the only one of the three jobs that executed, based on the rules that were defined for each job.
-
 1. **Optional:** Experiment with triggering pipelines using different branches and tags. Can you get different pipeline runs to execute the **deploy release**, **deploy review**, and **deploy staging** jobs?
 
     > Hint: Look at the `rules` keyword in the relevant `.gitlab-ci.yml` job definitions.
