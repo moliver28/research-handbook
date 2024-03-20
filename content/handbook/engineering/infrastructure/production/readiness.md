@@ -11,8 +11,7 @@ It loosely follows the [production readiness review][google sre engagement] from
 The goal of the readiness review is to make sure we have enough documentation, observability, and reliability for the feature, change, or service to run at GitLab.com production scale.
 The readiness review process should be started as early as possible as features progress through our [product maturity levels][maturity levels].
 
-**Completing a readiness review doesn't necessarily mean that the Reliability team will take over on-call responsibilities or ownership from the service team.**
-**For situations where the Reliability team _is_ taking over ownership and/or on-call responsibilities for a service, a review must be completed.**
+**Completing a readiness review doesn't necessarily mean that the Infrastructure teams will take over on-call responsibilities or ownership from the service team. If required, this should be discussed in the merge request.**
 
 This review is meant to facilitate collaboration between Service Owners, Security and Infrastructure teams to help bridge any gaps identified for a new service.
 The review document will serve as a snapshot of what is being deployed and the discussions that surround it.
@@ -22,7 +21,13 @@ The **readiness review MR** will go through a single review for every [maturity 
 We require an MR because it allows for inline comments, threaded discussions and explicit approval.
 Once an MR has been approved by the stakeholders and merged it is considered approved for corresponding level.
 
-The **readiness review issue** is used to coordinate among stakeholders who will be assigned as reviewers and to track progress using the [Readiness Status Issue Board][issue board].
+The **readiness review issue** is used to coordinate among stakeholders who will be assigned as reviewers and to track progress using the issue boards below:
+
+| **Planning** | **Status**|
+|--------------|-------------|
+| [Readiness Planning Board](https://gitlab.com/gitlab-com/gl-infra/readiness/-/boards/7418781) | [Readiness Status Board](https://gitlab.com/gitlab-com/gl-infra/readiness/-/boards/5177836) |
+| Readiness currently being prepared. | Readiness actively in review. |
+| ![Triage](../team/scalability/img/label-triage.png)	<br/>![Proposal](../team/scalability/img/label-proposal.png) <br/>![Ready](../team/scalability/img/label-ready.png) | ![Ready](../team/scalability/img/label-ready.png) <br/>![In Progress](../team/scalability/img/label-in_progress.png) <br/>![Stalled](../team/scalability/img/label-stalled.png) <br/>![Blocked](../team/scalability/img/label-blocked.png) <br/>![Cancelled](../team/scalability/img/label-cancelled.png) <br/>![Done](../team/scalability/img/label-done.png)|
 
 ## Criteria for starting a Production Readiness Review
 
@@ -40,6 +45,9 @@ The Production Readiness process is authored by the DRI of the work that is bein
 1. [Create an issue][new issue] using the issue template in the [readiness project](https://gitlab.com/gitlab-com/gl-infra/readiness). The title of the issue should be a descriptive name of change.
 2. Follow the Readiness Checklist in the template.
 
+[The issue template](https://gitlab.com/gitlab-com/gl-infra/readiness/-/blob/master/.gitlab/issue_templates/production_readiness.md?ref_type=heads) will guide you though preparing your merge request and how to use the approriate labels to keep your review moving through the process. 
+
+The template also contains information about what is expected for Experimental, Beta, and Generally Available features and services. 
 ## Guidelines for the author
 
 - If this is a review for the next maturity level for an existing feature, create an MR that modifies the existing review document.
