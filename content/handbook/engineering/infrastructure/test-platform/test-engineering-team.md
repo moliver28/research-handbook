@@ -44,6 +44,31 @@ Every quarter, the team commits to [Objectives and Key Results (OKRs)](/handbook
 
 Here is an [overview](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/5388) of our current Test Engineering OKR.
 
+## How we work 
+
+### Project management
+
+#### Iterations
+
+- We plan our work in 2 weeks long iterations
+- We maintain and regularly update [Test Engineering team board](https://gitlab.com/groups/gitlab-org/-/boards/7364900?not[label_name][]=failure%3A%3A*&label_name[]=team%3A%3ATest%20Engineering). This board reflect the actual status of the ongoing work 
+
+#### Issue weights 
+
+We estimate every task during iteration planning.
+
+| Weight | Description | Approximate time | Example issues | 
+|--------|-------------|------------------|----------------|
+| 1    	 | Small       | ~1 day    	      | TBD | 
+| 3      | Medium      | ~3 days      	  | TBD |
+| 8    	 | Large       | ~1-2 weeks    	  | TBD |
+
+- Approximate  time estimate - is time spent actively working on the issue, not calendar time.  That means it is excluding time waiting for the review, time spent on pipeline DRI and other tasks in between 
+- Tasks that take less than 4 hours don't have to be tracked as an issue and estimated
+- Large tasks have to be broken down into smaller items 
+- Work that is larger than Large has to be broken down into smaller tasks and might requre creating Spike issue first
+
+
 [Core Development]: /handbook/engineering/core-development/
 [Expansion Development]: /handbook/engineering/expansion-development/
 [Dev section]: /handbook/product/categories/#dev-section
