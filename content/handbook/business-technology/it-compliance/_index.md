@@ -23,8 +23,9 @@ IT Compliance works collaboratively with multiple functional teams throughout th
 
 
 Our work can be tracked in the [IT Compliance GitLab Group](https://gitlab.com/gitlab-com/business-technology/it-compliance).
-**Vision**
-1. To identify and secure applications that are deemed to fall under SOX Audit.
+
+## Our Vision
+1. Identify and secure applications that are deemed to fall under SOX Audit.
 1. Ensure that only current employees have access to the applications and the appropriate actions.
 1. Monitor all changes to SOX compliant systems to ensure their auditability and compliance with SOX level change management.
 1. Constantly iterate to simplify and ensure processes are efficient and automated as much as possible.  Goal is to weave these processes into the fabric of work so they are not noticed.
@@ -32,11 +33,11 @@ Our work can be tracked in the [IT Compliance GitLab Group](https://gitlab.com/g
 
 ## How we work
 
-Our [IT Compliance](https://gitlab.com/groups/gitlab-com/-/boards/1802558?label_name[]=IT%20Compliance) board are where some of our work can be tracked. If you need help with anything or have any questions, you can add our label `IT Compliance` to the issue. If you are unsure of who you need to engage, IT Compliance, please tag `@gitlab-com/business-technology/it-compliance` and someone will assist. 
+Our [IT Compliance](https://gitlab.com/groups/gitlab-com/-/boards/1802558?label_name[]=IT%20Compliance) board are where some of our work can be tracked. If you need help with anything or have any questions, you can add our label `IT Compliance` to the issue. If you are unsure of who you need to engage, IT Compliance, please tag `@gitlab-com/business-technology/it-compliance` and someone from IT Compliance will assist. 
 
 ## What we do
 
-## IT Compliance SOX program responcibilties
+### IT Compliance SOX program responsibilties
 
 - Single point of contact for IT owned applications for ITGCs
 - Participate in walkthroughs
