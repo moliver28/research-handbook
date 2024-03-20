@@ -95,6 +95,41 @@ With using the `/` separator, it is necessary to escape all `/` characters in th
 gsed -i 's,<searchtext>,<replacementtext>,g' file.md
 ```
 
+## How to Find and Replace Content
+
+{{% youtube id="lWBkNqxPxw8" title="How to Find and Replace Content in the Handbook using Terminal and a Code Editor" %}}
+
+There are times when you need to find every instance of a word, phrase or link and searching in the handbook online search field is too cumbersome or does not return accurate results. With an code editor and your terminal, you can find and replace content easily and quickly.
+
+**Terminal**
+
+1. Navigate to the appropriate project. If you've cloned the project to your root directory, try `cd www-gitlab-com`
+1. `git checkout master`
+1. `git pull` or `git pull origin master` (This brings in the most recent changes from master to your local machine.)
+1. `git checkout -b MYBRANCH` (Replace `MYBRANCH` with the name of the branch you will be using for your merge request.)
+1. Keep your Terminal window open, and now open your code editor (in this example, Visual Studio Code).
+
+**Visual Studio Code**
+
+1. Go to the Search section (View -> Search).
+1. Type in the word, phrase or link you are searching for.
+1. Type in the word, phrase or link you wish to replace it with in the Replace field, under the Search field.
+1. Press the Replace All symbol at the end of the Replace field (or Option-Command-Enter).
+1. You will get a pop-up asking you to confirm that you indeed with to `Replace X occurence(s) accross X files with X ?`. If correct, press `Replace`.
+*Please note that it is possible to click on a search result to see individual changes and replace only a subset of all occurrences by clicking the replace button next to a given search result only.*
+
+    ![picture-of-vscode-replace](/handbook/about/images/vscode_employee.png)
+1. Return to your Terminal.
+
+**Terminal**
+
+1. `git add .` (This will add all your current changes from VS Code.)
+1. `git commit -m "Title of your MR"` (Ex. `"Update #peopleops Slack Channel to #people-connect"` and be sure to enter your Title within quotation marks.)
+1. `git push`
+1. You will get a message in terminal saying `To push the current branch and set the remote as upstream, use` and then there will be a sentence starting with `git push`. Copy and paste this sentence to your most current, active Terminal line, which ends in %.
+1. You will see a line in Terminal containing `remote: https://gitlab.com/ ....`. Cut and paste the link starting with https:// to your browser. This will take you to your Create Merge Request page. Now you can continue in your browser as you would when creating a MR in Web IDE.
+1. `git checkout master` (This will put you back on master in your Terminal.)
+
 ## Find and Replace a String in all (Matching) Files
 
 Please see the following suggestions for doing a bulk find and replace.
