@@ -100,7 +100,7 @@ At GitLab, we promote on a twice per year basis. This means that there is **one 
 
 ### FY25-Q3 (2nd Half)
 
-- Planning: 2023-06-12 to 2023-06-23 
+- Planning: 2023-06-12 to 2023-06-23
 - Calibrations: 2023-06-26 to 2023-07-14
 - Processing: 2023-07-17 to 2023-08-01 (promotions must be added to HRIS by 2023-07-20)
     - Effective date for promotions: 2023-08-01.
