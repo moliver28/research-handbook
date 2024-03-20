@@ -21,17 +21,6 @@ If you know someone who might be interested in attending, feel free to share the
 
 ### AMER Time Zone Webinars & Labs
 
-#### Hands-On GitLab CI Lab for Jenkins Users
-##### March 20th, 2024 at 9:00-11:00AM Pacific Time / 12:00-2:00PM Eastern Time
-
-Join us for a hands-on GitLab CI lab and learn how it can fit in your organization!
-
-We will kick things off by going over the differences between CI/CD in Jenkins and GitLab, syntax requirements, advantages to using GitLab, and how you can achieve the same outcomes in GitLab. Getting started with CI/CD in GitLab will take a lot less time than tends to be required for Jenkins, and your users can stay in a single platform. 
-
-We will then dive into how to build simple GitLab pipelines and work up to more advanced pipeline structures and workflows, including security scanning and compliance enforcement.
-
-[<button class="btn btn-primary" type="button">Register</button>](https://gitlab.zoom.us/webinar/register/WN_VP-OJbegQ52ykCyFXOYAHQ#/registration)
-
 #### Advanced CI/CD
 ##### March 22nd, 2024 at 9:00-10:00AM Pacific Time / 12:00-1:00PM Eastern Time
 
@@ -60,17 +49,6 @@ We will cover:
 [<button class="btn btn-primary" type="button">Register</button>](https://gitlab.zoom.us/webinar/register/WN_JER8cqk9T9uLPObVrb_-gA#/registration)
 
 ### EMEA Time Zone Webinars & Labs
-
-#### Hands-On GitLab CI Lab for Jenkins Users
-##### March 20th, 2024 at 10:00AM-12:00PM UTC / 11:00AM-1:00PM CET
-
-Join us for a hands-on GitLab CI lab and learn how it can fit in your organization!
-
-We will kick things off by going over the differences between CI/CD in Jenkins and GitLab, syntax requirements, advantages to using GitLab, and how you can achieve the same outcomes in GitLab. Getting started with CI/CD in GitLab will take a lot less time than tends to be required for Jenkins, and your users can stay in a single platform. 
-
-We will then dive into how to build simple GitLab pipelines and work up to more advanced pipeline structures and workflows, including security scanning and compliance enforcement.
-
-[<button class="btn btn-primary" type="button">Register</button>](https://gitlab.zoom.us/webinar/register/WN_CCc05CflTRW07CJl03LKyw#/registration)
 
 #### Advanced CI/CD
 ##### March 22nd, 2024 at 10:00-11:00AM UTC / 11:00AM-12:00PM CET
