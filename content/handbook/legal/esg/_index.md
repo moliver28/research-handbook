@@ -100,8 +100,8 @@ Interested organizations need to visit the [GitLab for Nonprofits](https://about
 4. GitLab will then undergo its own vetting and approval process.
 5. Once all parties have verified and approved the Nonprofit, GitLab will send the instructions directly to the Nonprofit to redeem their license.
 6. If a Nonprofit is not verified through TechSoup, TechSoup will provide details on how the Nonprofit can become verified.
-7. If a Nonprofit is declined from GitLab, GitLab will notify the Nonprofit via nonprofits@GitLab.com. 
-8. Please allow up to 15 business days for the application and verification process. 
+7. If a Nonprofit is declined from GitLab, GitLab will notify the Nonprofit via nonprofits@GitLab.com.
+8. Please allow up to 15 business days for the application and verification process.
 
 
 **Must Nonprofits renew their memberships?**
@@ -117,9 +117,9 @@ While GitLab for Nonprofits Program benefits do not include product [support](ht
 - File bug reports and breaking behaviors [as issues](https://gitlab.com/gitlab-org/gitlab/-/issues) for product teams to review and address.
 
 **I’m a GitLab Team Member and I have a customer applying for the program. What do I do?**
-- Please point the Nonprofit to the GitLab for Nonprofits page to learn about the program, eligibility and application. 
-- If the Nonprofit has questions on the eligibility or status of an application, please advise them to reach out to nonprofits@gitlab.com. Or team members can inquire about the status of an application in #esg. 
-- If you have a question or concern about the customer churn, please raise this in #esg and an ESG team member will contact you. 
+- Please point the Nonprofit to the GitLab for Nonprofits page to learn about the program, eligibility and application.
+- If the Nonprofit has questions on the eligibility or status of an application, please advise them to reach out to nonprofits@gitlab.com. Or team members can inquire about the status of an application in #esg.
+- If you have a question or concern about the customer churn, please raise this in #esg and an ESG team member will contact you.
 
 #### Matching Gifts Program
 
