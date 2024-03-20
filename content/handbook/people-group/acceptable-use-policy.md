@@ -48,10 +48,9 @@ Open Source libraries are allowed under this policy if its use complies with the
 
 Individual Use Software (freeware, add-ons and plugins) is permitted, with the exception of unauthorized Google Workspace Integrations. Individual Use Software is subject to retroactive removal at any time by IT, Legal and Security when it is deemed unsafe or insecure.
 
-#### Permitted Individual Use Software
+Authorized Google Workspace Integrations and other approved Individual Use Software can be found on the [Pre-Approved Individual-Use Software](https://internal.gitlab.com/handbook/finance/procurement/individual-use-software/) list and are permitted for use subject to any "Notes and Restrictions" for each respective Pre-Approved software offering.
 
-- Third Party Software found on the [Pre-Approved Individual-Use Software](https://internal.gitlab.com/handbook/finance/procurement/individual-use-software/) list is permitted for use subject to any "Notes and Restrictions" for each respective Pre-Approved software offering.
-- Third Party Software is permitted for use if it receives prior approval from Legal, Privacy and Security (as applicable).  To obtain approval, please begin the [Individual Use Software](https://about.gitlab.com/handbook/finance/procurement/personal-use-software/#how-do-i-submit-a-request-for-new-individual-use-software) request process.
+To request approval for new Individual Use Software, please follow the [Individual Use Software](https://about.gitlab.com/handbook/finance/procurement/personal-use-software/#how-do-i-submit-a-request-for-new-individual-use-software) request process.
 
 
 {{% alert title="Note" %}}
