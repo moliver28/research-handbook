@@ -20,7 +20,7 @@ Any issues should be reported in the [#handbook-escalation](https://gitlab.slack
 
 Issues should only be escalated if it relates to:
 
-1. Main being broken
+1. Default branch being broken
 1. Broken infrastructure
 1. Time sensitive updates to the handbook where there are any issue in making the update
 
