@@ -51,7 +51,7 @@ Nice to do:
 - [Other issues labeled `UX`](https://gitlab.com/groups/gitlab-org/-/issues?state=opened&label_name%5B%5D=UX)
 - [Socializing design work](/handbook/product/ux/product-designer/#socialize-your-work) outside GitLab by either writing a blog post, a social media post or by speaking at a conference or event.
 
-See also [How we use labels](/handbook/product/ux/ux-department-workflow/#how-we-use-labels).
+See also [How we use labels](/handbook/product/ux/#ux-labels).
 
 #### Engagement with Single Engineer Groups (SEGs)
 
