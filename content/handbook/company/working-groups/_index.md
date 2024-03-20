@@ -200,6 +200,7 @@ If you are unable to attend the existing working group meeting due to time diffe
 
 ## Active Working Groups (alphabetic order)
 
+1. [17.0 Major Release]({{< ref "17-0-major-release" >}})
 1. [Account Escalation Process]({{< ref "account-escalation-process" >}})
 1. [Automotive Development]({{< ref "automotive-development" >}})
 1. [AWS/GCP Partnerships](https://gitlab.com/groups/gitlab-com-top-initiatives/-/epics/11)
@@ -220,12 +221,13 @@ If you are unable to attend the existing working group meeting due to time diffe
 1. [GitLab.com Disaster Recovery]({{< ref "disaster-recovery" >}})
 1. [GitLab.com SAAS Data Pipeline]({{< ref "gitlab-com-saas-data-pipeline" >}})
 1. [Government Support Offerings (Internal only)](https://internal.gitlab.com/handbook/company/internal-working-groups/govt-support-offerings/)
-1. [Revenue Globalization]({{< ref "globalization" >}})
+1. [Inclusive Practices]({{<ref "inclusive-practices" >}})
 1. [Issue Prioritization Framework]({{< ref "issue-prioritization-framework" >}})
 1. [Learning Experience]({{< ref "learning-experience" >}})
 1. [Lighthouse Metric Definitions]({{< ref "lighthouse-metric-definitions" >}})
 1. [Modern Applications Go-To-Market]({{< ref "modern-applications-gtm" >}})
 1. [Product Accessibility]({{< ref "product-accessibility" >}})
+1. [Revenue Globalization]({{< ref "globalization" >}})
 1. [Runtime Update Process]({{< ref "runtime-update-process" >}})
 1. [Software Supply Chain Security]({{< ref "software-supply-chain-security" >}})
 1. [Talent Acquisition SSOT]({{< ref "recruiting-ssot" >}})

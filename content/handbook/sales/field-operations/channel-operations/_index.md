@@ -719,7 +719,7 @@ Partner Influence Registration should only be submitted and approved for:
 1. a partner that did not source and/or transact the opportunity
 2. one partner (i.e., one approved Influence Registration/Partner per opportunity). Only the first approved record will qualify if multiple influence registrations are submitted and/or approved for one opportunity.
 
-The GitLab ASM has one business day to either approve or reject the Influence Registration, which begins when the Registration hits their queue for approval. The ASM must communicate with the GitLab Partner Manager if their approval is anticipated to push beyond the one business day SLA.
+The GitLab ASM has one business day to either approve or reject the Influence Registration, which begins when the Registration hits their queue for approval. The ASM must communicate with the GitLab Partner Manager if their approval is anticipated to push beyond the one business day SLA. Approval by the ASM will update the Influence Registration's `Status` to Approved and stamp `Influence Partner` on the opportunity with the partner account.
 
 Follow the steps below to register partner influence on an opportunity:
 
@@ -965,20 +965,14 @@ The GitLab Partner Operations team is responsible for compiling the reports outl
 
 ## Partner Forecast Salesforce Dashboards
 
-The following partner forecast dashboards have been published for FY24. Please use the dashboard relevant to your partner type and region or segment. You will only have access to view data from your region based on salesforce permissions.
-- Alliance Dashboards
-  - [Global](https://gitlab.my.salesforce.com/01Z8X000000u6oG)
-  - [AMER](https://gitlab.my.salesforce.com/01Z8X000000u6lM)
-  - [APAC](https://gitlab.my.salesforce.com/01Z8X000000u6lR)
-  - [EMEA](https://gitlab.my.salesforce.com/01Z8X000000u6lW)
-- Channel Dashboards
-  - [Global](https://gitlab.my.salesforce.com/01Z4M000000xdrC)
-  - [AMER](https://gitlab.my.salesforce.com/01Z4M000000xfGm)
-  - [APAC](https://gitlab.my.salesforce.com/01Z4M000000xfGr)
-  - [EMEA](https://gitlab.my.salesforce.com/01Z4M000000xfGw)
-  - [Japan](https://gitlab.my.salesforce.com/01ZPL000000BPXm)
-  - [Partner Managed](https://gitlab.my.salesforce.com/01Z8X000000u6ks)
-  - [PubSec](https://gitlab.my.salesforce.com/01Z8X000000u6kE)
+The following partner forecast dashboards have been published for FY25. Please use the dashboard relevant to your region or segment. You will only have access to view data from your region based on salesforce permissions.
+
+- [Global](https://gitlab.lightning.force.com/lightning/r/Dashboard/01ZPL000000gIzp2AE/view?queryScope=userFolders)
+- [AMER](https://gitlab.lightning.force.com/lightning/r/Dashboard/01ZPL000000ZuQj2AK/view?queryScope=userFolders)
+- [APAC](https://gitlab.lightning.force.com/lightning/r/Dashboard/01ZPL000000glNV2AY/view?queryScope=userFolders)
+- [EMEA](https://gitlab.lightning.force.com/lightning/r/Dashboard/01ZPL000000eZ2H2AU/view?queryScope=userFolders)
+- [Japan](https://gitlab.lightning.force.com/lightning/r/Dashboard/01ZPL000000hFmz2AE/view?queryScope=userFolders)
+- [PubSec](https://gitlab.lightning.force.com/lightning/r/Dashboard/01ZPL000000hF3p2AE/view?queryScope=userFolders)
 
 
 ## Clari Forecasting for Partner Managers and Leaders

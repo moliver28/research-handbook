@@ -16,7 +16,7 @@ If you're a GitLab team member looking for help with a security problem, please 
 
 ## Expectations for On-Call
 
-- If you are on call, then you are expected to be available and ready to respond to PagerDuty pages as soon as possible, and within any response times set by our [Service Level Agreements](/support/#priority-support) in the case of Customer Emergencies. If you have plans outside of your workspace during your on-call shift, this may require that you bring a laptop and reliable internet connection with you.
+- If you are on call, then you are expected to be available and ready to respond to PagerDuty pages as soon as possible, and within any response times set by our [Service Level Agreements](https://about.gitlab.com/support/#priority-support) in the case of Customer Emergencies. If you have plans outside of your workspace during your on-call shift, this may require that you bring a laptop and reliable internet connection with you.
 - We take on-call seriously. There are escalation policies in place so that if a first responder does not respond in time, another team member is alerted. Such policies are not expected to be triggered under normal operations, and are intended to cover extreme and unforeseeable circumstances.
 - Because GitLab is an asynchronous workflow company, @mentions of On-Call individuals in Slack will be treated like normal messages, and no SLA for response will be associated with them.
 - Provide support to the release managers in the release process.

@@ -70,8 +70,8 @@ You can also do one or more of the following:
 
 Especially if you feel you're stalled on a ticket and need assistance identifying next steps:
 
-1. Always feel free to reach out to any available manager (such as your manager, or the [Support Manager On-call](/handbook/support/workflows/support_manager-on-call) in the `#spt_managers` channel. They will help you to determine next steps.
-   - Avoid messages with no identified DRI for responding in `#spt_managers` as they can be missed or be a victim to the bystander effect.
+1. Always feel free to reach out to any available manager (such as your manager, or the [Support Manager On-call](/handbook/support/workflows/support_manager-on-call) in the `#support_leadership` channel. They will help you to determine next steps.
+   - Avoid messages with no identified DRI for responding in `#support_leadership` as they can be missed or be a victim to the bystander effect.
 1. [Open a STAR](/handbook/support/internal-support/support-ticket-attention-requests#submitting-a-support-ticket-attention-request-star--starring-a-ticket) in situations where getting help is urgent and important because:
    - the customer has expressed unhappiness with the service we're delivering via the ticket
    - the support engineer has noticed a correlation between several of a customers tickets that could use a more cohesive response
@@ -149,7 +149,7 @@ If you encounter any problems, such as obtaining a timely response from Developm
 1. Check if the engineer(s) assisting with the request is on PTO through Slack or their GitLab status. If they are on PTO, mention the contacts (listed in the issue template) in the issue, or their backups if they are also on PTO, requesting an update via the issue. Backups are listed in a coverage issue, or in Slack.
 1. Make the corresponding Development group Engineering Manager aware by mentioning them in the issue. You can identify the relevant Engineering Manager by checking the Development Group Handbook Page from each Projects Readme Section which provides a section named `Development Groups with their corresponding templates and labels`.
 1. Feel empowered to ping the contacts and/or Engineering Manager in the corresponding product/development group Slack channel along with a link to the issue, requesting an update.
-1. Reach out to a Support Engineering Manager for further guidance directly or in the `#spt_managers` Slack channel.
+1. Reach out to a Support Engineering Manager for further guidance directly or in the `#support_leadership` Slack channel.
 
 #### Closing: Document and knowledge share
 

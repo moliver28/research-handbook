@@ -151,20 +151,19 @@ team.
 
 ## Current Zendesk Global forms
 
-| Name                 | ID            | Visibility | Category    |
-|----------------------|:-------------:|------------|-------------|
-| SaaS                 | 334447        | Public     | Support     |
-| SaaS Account         | 360000803379  | Public     | Support     |
-| Self-Managed         | 426148        | Public     | Support     |
-| GitLab Dedicated     | 4414917877650 | Public     | Support     |
-| L&R                  | 360000071293  | Public     | Support     |
-| Billing              | 360000258393  | Public     | Billing     |
-| Alliance Partners    | 360001172559  | Public     | Support     |
-| Support Ops          | 360001801419  | Public     | Support Ops |
-| JiHu                 | 360001477519  | Public     | Support     |
-| China Comms Response | 360001535259  | Public     | Support     |
-| Emergencies          | 360001264259  | Internal   | Support     |
-| GitLab Incidents     | 360001629679  | Internal   | Support     |
+| Name                     | ID             | Visibility | Category    |
+|--------------------------|:--------------:|------------|-------------|
+| SaaS                     | 334447         | Public     | Support     |
+| SaaS Account             | 360000803379   | Public     | Support     |
+| Self-Managed             | 426148         | Public     | Support     |
+| GitLab Dedicated         | 4414917877650  | Public     | Support     |
+| L&R                      | 360000071293   | Public     | Support     |
+| Billing                  | 360000258393   | Public     | Billing     |
+| Alliance Partners        | 360001172559   | Public     | Support     |
+| Support Ops              | 360001801419   | Public     | Support Ops |
+| Emergencies              | 360001264259   | Public     | Support     |
+| GitLab Incidents         | 360001629679   | Internal   | Support     |
+| Support Internal Request | 12829030177948 | Internal   | Support     |
 
 ## Current Zendesk US Federal forms
 

@@ -20,7 +20,7 @@ GitLab affiliates may act as processors on behalf of other GitLab affiliates and
 
 *Applicability of Other GitLab Privacy Policies*
 
-The websites of GitLab (e.g., [about.gitlab.com](/)) have separate privacy policies and terms of use that apply to their use. Additionally, some of our third party products and services may have separate privacy policies and terms of use that apply to their use. Any personal data collected in connection with your use of those websites or products and services are not subject to this Privacy Policy.  If you are unsure how or if this Privacy Policy applies to you, please contact our Data Privacy Officer.
+The websites of GitLab (e.g., [about.gitlab.com](https://about.gitlab.com/)) have separate privacy policies and terms of use that apply to their use. Additionally, some of our third party products and services may have separate privacy policies and terms of use that apply to their use. Any personal data collected in connection with your use of those websites or products and services are not subject to this Privacy Policy.  If you are unsure how or if this Privacy Policy applies to you, please contact our Data Privacy Officer.
 
 *Third Party Services*
 

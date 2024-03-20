@@ -19,6 +19,7 @@ For **any** reported vulnerability:
 is verified. If the vulnerability was reported via a public issue, make the issue confidential.
 If triage is delayed due to team availability, the delay should be communicated.
 - Add `~security` and `~bug::vulnerability` labels to the issue.  Add the appropriate group label if known.
+- Add the `~Weakness::CWE-XXX` label, where the `XXX` is the weakness related [CWE](https://cwe.mitre.org/data/index.html) ID.
 - An initial determination should be made as to severity and impact. Never **dismiss** a security report outright. Instead, follow up with the reporter, asking clarifying questions.
 - For next steps, see the process as it is detailed below for HackerOne reports, and adhere to the guidelines there for vulnerabilities reported in other ways as well in terms of frequency of communication and so forth.
 - Remember to prepare patches, blog posts, email templates, etc. [following the security release process](https://gitlab.com/gitlab-org/release/docs/-/blob/master/general/security/developer.md) or in other non-public ways even if there is a reason to believe that the vulnerability is already out in the public domain (e.g. the original report was made in a public issue that was later made confidential).
@@ -163,7 +164,7 @@ a external
 metric that may be evaluated by users as an indication of GitLab's commitment
 to protecting our users and customers. It is also an important measurement that
 security researchers use when choosing to engage with the security team, either
-directly or through our [HackerOne Bug Bounty Program]({{< ref "./product-security/application-security/runbooks/hackerone-process." >}}").
+directly or through our [HackerOne Bug Bounty Program]({{< ref "./product-security/application-security/runbooks/hackerone-process.md" >}}").
 
 Vulnerabilities must be mitigated and remediated according to specific timelines.
 The timelines are specified in the [Vulnerability Management handbook]({{< ref "./threat-management/vulnerability-management/#remediation-slas" >}}) (a [controlled document]({{< ref "./controlled-document-procedure" >}})).

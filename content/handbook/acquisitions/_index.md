@@ -37,7 +37,7 @@ according to our [category maturity](https://about.gitlab.com/direction/maturity
 {{< sdlc >}}
 
 - Willing to [reimplement products into GitLab](/handbook/product/single-application/) in Ruby and Go
-- Willing to sunset old customers within 90 days or less, with an option to transition to GitLab. GitLab follows an [open-core model](/install/ce-or-ee/)
+- Willing to sunset old customers within 90 days or less, with an option to transition to GitLab. GitLab follows an [open-core model](https://about.gitlab.com/install/ce-or-ee/)
 - Aligned to ship on the first month and iterate quickly
 - Strong founders looking to join GitLab
 

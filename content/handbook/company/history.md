@@ -63,7 +63,7 @@ In the end of that year we submitted [our application to Y Combinator](https://a
 
 Large organizations running GitLab asked Sid to add features that they needed.
 At the same time Dmitriy tweeted out to the world that he wanted to work on GitLab full time.
-Sid and Dmitriy teamed up and introduced [GitLab Enterprise Edition](/releases/2013/07/22/announcing-gitlab-enterprise-edition) with the features asked for by larger organizations. Sid authored the [initial commit](https://gitlab.com/gitlab-com/www-gitlab-com/-/commit/d69bc4c1acb61666e20ec62a2a0907d535176753) on GitLab's website repository.
+Sid and Dmitriy teamed up and introduced [GitLab Enterprise Edition](https://about.gitlab.com/releases/2013/07/22/announcing-gitlab-enterprise-edition) with the features asked for by larger organizations. Sid authored the [initial commit](https://gitlab.com/gitlab-com/www-gitlab-com/-/commit/d69bc4c1acb61666e20ec62a2a0907d535176753) on GitLab's website repository.
 
 ### *2012: GitLab.com*
 

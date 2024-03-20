@@ -84,6 +84,16 @@ https://gitlab.com/gitlab-org/gitlab/-/commits/13-1-stable-ee
 
 Merge Requests that have been included in the monthly release will receive [a label indicating inclusion](/handbook/engineering/releases/#labels-indicating-inclusion-in-upcoming-self-managed-release).
 
+### Monthly release information dashboard
+
+GitLab team members can view the [internal Grafana dashboard "Release Information"](https://dashboards.gitlab.net/d/delivery-release_info/delivery3a-release-information?orgId=1) for the following information:
+
+* Active monthly release version
+* Active monthly release date
+* Current status of the active monthly release
+
+The metrics used to display this information are updated automatically throughout the [self-managed releases process](#self-managed-releases-process).
+
 ## Patch releases overview
 
 The [patch release policy] allows bug fixes to be backported to the current stable released version of GitLab. Patches are created on demand according to our
@@ -217,7 +227,10 @@ In other words:
 
 **The quality and stability of what is delivered by everyone defines the final MR that will be included in the monthly release.**
 
-For more detailed answer, see [self-managed release timelines](/handbook/engineering/releases/#self-managed-overview).
+For more detailed information:
+* Use the [internal dashboard](#monthly-release-information-dashboard) to verify the status of a merge request with respect to the monthly release.
+* See [self-managed release timelines](/handbook/engineering/releases/#self-managed-overview).
+* Refer to [status of a merge request with respect to the monthly release](https://gitlab.com/gitlab-org/release/docs/-/blob/master/general/deploy/auto-deploy.md#status-of-a-merged-mr-with-respect-to-monthly-releases) documentation.
 
 ### What's the process for a release of type X?
 

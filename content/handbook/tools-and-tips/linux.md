@@ -255,7 +255,7 @@ auth    [success=1 default=ignore]      pam_unix.so nullok_secure
 
   Note that `max-tries` is the number of fingerprint scans you can attempt until prompted for a password instead, and `timeout` is how long you have to scan your fingerprint before the authorization times out. You can configure these to your requirements.
 
-- Enable fingerprint authorization on the login screen (`sddm`) by editing the `etc/pan.d/addm` file and adding the following lines **at the top of the file**.
+- Enable fingerprint authorization on the login screen (`sddm`) by editing the `/etc/pam.d/sddm` file and adding the following lines **at the top of the file**.
 
 ``` shell
 auth        sufficient        pam_unix.so try_first_pass likeauth nullok

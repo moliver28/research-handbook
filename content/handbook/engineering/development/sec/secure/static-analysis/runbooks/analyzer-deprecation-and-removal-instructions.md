@@ -3,19 +3,13 @@ layout: handbook-page-toc
 title: "SAST analyzer deprecation and removal instructions"
 ---
 
-## On this page
-{:.no_toc .hidden-md .hidden-lg}
-
-- TOC
-{:toc .hidden-md .hidden-lg}
-
 ### Analyzer Conversion Lifecycle
 
 Many of the SAST analyzers are in the process of being replaced by semgrep. This involves having semgrep takeover the functionality of the legacy analyzer.
 
 The steps to achieve this are:
 
-1. [Migrate Rules to sast-rules](https://gitlab.com/gitlab-org/security-products/sast-rules/-/blob/main/docs/update-rule-process.md.)
+1. [Migrate Rules to sast-rules](https://gitlab.com/gitlab-org/security-products/sast-rules/-/blob/main/docs/update-rule-process.md)
 1. Audit Rules and review licensing
 1. Deprecate and remove analyzers
 

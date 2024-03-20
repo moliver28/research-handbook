@@ -6,9 +6,7 @@ job: "Engineering Director"
 
 # Priorities
 
-I’m the director of development for these stages:
-* [Secure](/handbook/engineering/development/sec/secure/)
-* [Govern](/handbook/engineering/development/sec/govern/)
+I’m the director of development for the [Secure](/handbook/engineering/development/sec/secure/) stage and also am the leader of the [Vulnerability reseach team in secure](/handbook/engineering/development/sec/secure/vulnerability-research/).
 
 In addition to leading development for these development sub-departments, I also focus on:
 
@@ -57,26 +55,22 @@ In addition to leading development for these development sub-departments, I also
 
 # Meetings
 
-I have a secure, govern, growth senior leaders development staff meeting at 1 pm Pacific on Wednesdays.
+I have a secure leaders development staff meeting once a week at alternating times so those from both APAC and EMEA can attend sync if they choose. It is open to everyone at GitLab with the recording streamed on Gitlab Unfiltered. It alternates every week between a time that works for those in EMEA and those in APAC (though async communication is always the norm so everyone can participate how/when they choose). This meeting can be found on the Secure Stage calendar and has this GitLab internal [agenda](https://docs.google.com/document/d/1HE1YbJIRTbVRMzoq6EWeWrjphLN7Zxm0Hyo6EkAKwBU/edit#heading=h.44wnaho3m0id).  
 
-This meeting is for my people leader direct reports to discuss development items of interest to secure, govern, and growth. The meeting is open to everyone at GitLab, with recordings made public on GitLab Unfiltered. After public topics are discussed, everyone but the SEM+ team members will drop off the meeting, and the agenda will move to confidential topics.
 
-The discussion notes can be found in this [GitLab team member accessible document](https://docs.google.com/document/d/1EE8t1IzDAUUwNLt-2qIt1k3nYUss-OzYOxFrfp-r45w/edit).
-
-After each meeting the link to the notes and recording will be put in `#sec-growth-development-people-leaders`
+After each meeting the link to the notes and recording will be put in `#secure_development_people_leaders`
 
 # Slack
 
-Announcements and discussions that are public inside the company and are of interest to people leaders in secure, govern, and growth are in `#sec-growth-development-people-leaders`
+Announcements and discussions that are public inside the company and are of interest to people leaders in secure are in `#secure_development_people_leaders`
 
-Confidential topics amongst the same group are discussed in `#sec-growth-development-confidential`
+Confidential topics amongst the same group are discussed in `#secure_development_people_leaders-confidential`
 
 Other public Slack channels of interest to me are often:
 * `#wayne_shadow_program`
 * `#g_secure-vulnerability-research`
 * `#sec-section`
 * `#sec-section_social`
-* `#s_growth_social`
 
 # Engineering Director shadow program
 
@@ -88,12 +82,7 @@ I use these dashboards to inform me on metrics for my teams:
 
 * [Cross functional prioritization](https://10az.online.tableau.com/t/gitlab/views/DRAFTIssueTypesDetail/MilestoneIssuesDashboard)
 * [Merge request trends](https://10az.online.tableau.com/t/gitlab/views/DRAFTMergeRequestTypes/MergeRequestTypes)
-
-Corresponding handbook pages:
 * [Secure](/handbook/engineering/development/sec/secure/#cross-functional-backlog)
-* [Govern](/handbook/engineering/development/sec/govern/#cross-functional-backlog)
-* [Data Science](/handbook/engineering/development/data-science/#dashboards)
-* [Growth](/handbook/marketing/growth/engineering/#cross-functional-backlog)
 
 # What I am working on improving
 

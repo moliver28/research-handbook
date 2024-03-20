@@ -65,6 +65,17 @@ apply this operating principle:
 As we learn more about this operating principle, please leave any thoughts or
 feedback in the [discussion issue](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/4921).
 
+### Make it easy, remove obstacles
+
+We strive to make all of our interactions easy, and to remove obstacles that increase the amount of effort needed to get results. This applies to interactions with our customers, with each other, with the wider team, and anywhere we can live this out. We can ask ourselves: "How can I make this easier? What obstacles can I remove?". Making it easy helps create [loyal customers](https://hbr.org/2010/07/stop-trying-to-delight-your-customers).
+
+Some examples of how we do that:
+
+- Noticing that a docs page is ambiguous or has poor flow, and raising an MR to make it easier to apply. This makes it easier for customers and team members alike, along with potentially preventing further tickets.
+- Helping a customer with a configuration problem and bringing their attention to something else that is likely to come up once they get past their current blocker. If we alert them to it ahead of them encountering it, we remove the need for them to raise another support ticket.
+- Giving a customer a clear and succinct summary of what we've understood of their problem and how we're going to proceed to troubleshoot it with them. This makes it easy for them to rapidly identify if we've grasped their situation accurately and can course correct us if we haven't. It also enables the customer to understand where we're going with the actions we're asking them to take, making it easier for them to understand the value of putting in the time they'll need to spend on it.
+- Noticing when our own policies are causing us to say "no" and considering if the policy needs to be reviewed. In some cases, that won't be an option -- for example in matters of compliance -- but where it is, taking the time to consider what we can change is worthwhile.
+
 ## Operating metrics and measurements
 
 ### Cliff of definite underperformance

@@ -37,8 +37,8 @@ We are allowed to issue trial licenses because they:
 1. Open the expired or soon to expire license.
 1. Confirm that:
     1. The license is a non-trial license and:
-        - If the license expires **within the next 14 days**, redirect the salesperson to use the SFDC feature by using the `Deviation from SM License Extension Workflow` macro and close the ticket.
-        - If it expires **more than 14 days later**, the salesperson should wait until the expiry is within 14 days and then use the SFDC feature. Redirect the salesperson to use the SFDC feature by using the `Deviation from SM License Extension Workflow` macro and close the ticket.
+        - If the license expires **within the next 15 days**, redirect the salesperson to use the SFDC feature by using the `Deviation from SM License Extension Workflow` macro and close the ticket.
+        - If it expires **more than 15 days later**, the salesperson should wait until the expiry is within 15 days and then use the SFDC feature. Redirect the salesperson to use the SFDC feature by using the `Deviation from SM License Extension Workflow` macro and close the ticket.
         - If the license expiry has passed, then proceed with step 2 (2).
     1. The customer does not have a valid temporary extension:
         1. Go to https://customers.gitlab.com/admin/temporary_extension_history

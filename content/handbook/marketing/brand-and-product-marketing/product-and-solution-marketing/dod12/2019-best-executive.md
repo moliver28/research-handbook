@@ -56,7 +56,7 @@ In the [Bloomberg interview](https://youtu.be/AtfE4rB0kis) below, Sid describes 
 
 ### The proof of the pudding
 
-With Sid’s leadership, GitLab is emboldened to capitalize on and share our own DevOps journey in [pieces like this blog post](https://about.gitlab.com/blog/2019/10/03/gitlab-journey-to-cicd/). As converts we are zealots, all the better able to build software that helps our customers in their DevOps journeys. [Thousands of GitLab community members](/community/contribute/) and employees have contributed to making this work, but as our co-founder and CEO, we have Sid most of all to thank for enabling us to forge a better future for work.
+With Sid’s leadership, GitLab is emboldened to capitalize on and share our own DevOps journey in [pieces like this blog post](https://about.gitlab.com/blog/2019/10/03/gitlab-journey-to-cicd/). As converts we are zealots, all the better able to build software that helps our customers in their DevOps journeys. [Thousands of GitLab community members](https://about.gitlab.com/community/contribute/) and employees have contributed to making this work, but as our co-founder and CEO, we have Sid most of all to thank for enabling us to forge a better future for work.
 
 The proof of the pudding is in the eating, and Sid’s way of working is not only generous, it’s also generative. Highlights of our growth in 2019 include:
 - [$268M in series E funding with a $2.75B valuation](https://about.gitlab.com/blog/2019/09/17/gitlab-series-e-funding/), doubling in less than a year

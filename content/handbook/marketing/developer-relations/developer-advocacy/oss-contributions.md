@@ -13,7 +13,7 @@ aliases:
 
 ## Contributions to OSS
 
-The Developer Advocacy team believes in Open Source and wants to lead by example, contributing to GitLab and the OSS ecosystem. Our workshops, community activities and projects are documented in the [projects overview](/handbook/marketing/developer-relations/developer-evangelism/projects/).
+The Developer Advocacy team believes in Open Source and wants to lead by example, contributing to GitLab and the OSS ecosystem. Our workshops, community activities and projects are documented in the [projects overview](/handbook/marketing/developer-relations/developer-advocacy/projects/).
 
 ### Projects maintained by Developer Advocates
 

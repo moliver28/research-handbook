@@ -8,7 +8,7 @@ description: "Details on program-specific workflows related to the GitLab for Ed
 
 This page contains details regarding workflows specific to the [GitLab for Education Program](https://about.gitlab.com/solutions/education/).
 GitLab uses a third party, [SheerID](https://www.sheerid.com/), for verification services.
-The GitLab for Education Program provides SheerID with the [program requirements](/solutions/education/join/#requirements) and the SheerID platform is able to verify if an individual meets our requirements by matching applicant-provided data against authoritative data sources automatically.
+The GitLab for Education Program provides SheerID with the [program requirements](https://about.gitlab.com/solutions/education/join/#requirements) and the SheerID platform is able to verify if an individual meets our requirements by matching applicant-provided data against authoritative data sources automatically.
 SheerID instantly confirms whether or not there is a match and either successfully verifies the applicant or rejects the applicant.
 
 ## Managing application forms
@@ -57,7 +57,7 @@ Acceptable examples include Teacher ID card with valid date and pay stub from wi
 Applicants will have 3 attempts to upload a document providing verification of eligibility.
 SheerID will manually review these documents.  Upon the third unsuccessful attempt, applicant will be rejected.
 
-If SheerID is unable to determine the eligibility based on the document review, SheerID will forward the applicant's record to education@gitlab.com. 
+If SheerID is unable to determine the eligibility based on the document review, SheerID will forward the applicant's record to education@gitlab.com.
 The GitLab for Education team will review the documentation and determine eligibility.
 
 ### Verification limit
@@ -152,7 +152,7 @@ Once you've finished a stream, make sure to download the video so you can upload
 
 `Name of Show season.episode: Name of Guest`
 
-In the description, make sure to include any relevant links, especially ones you shared onstream. Be sure to include the [GitLab for Education](/solutions/education/) link every time as well. While uploading, make sure to add it to the correct playlist: `Meet the Tanukis`.
+In the description, make sure to include any relevant links, especially ones you shared onstream. Be sure to include the [GitLab for Education](https://about.gitlab.com/solutions/education/) link every time as well. While uploading, make sure to add it to the correct playlist: `Meet the Tanukis`.
 
 There is a Dev.to series page for the shows. Add a new article to Dev.to and give each episode its own article with the YouTube video in the article as well as all the links discussed or important to the show. The text for each individual article should read:
 

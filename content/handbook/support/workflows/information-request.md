@@ -58,4 +58,4 @@ A request may come in that you believe needs legal input but does not fit into o
 
 Support should be handling responses to any inquiries for clarifications. In most cases, an existing customer will be referred to their account manager.
 
-If you're unsure on how to respond, post in the `#spt_managers` Slack channel for guidance.
+If you're unsure on how to respond, post in the `#support_leadership` Slack channel for guidance.

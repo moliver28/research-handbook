@@ -12,8 +12,6 @@ This page is to act as your guide to the many tools and best practices that the 
 
 ### Salesforce Training Resources
 
-
-
 ### Lead and Contact Views
 
 #### SDR Lead Views
@@ -149,7 +147,7 @@ As you begin building your new sequence, make sure you are following the proper 
 * **Email Messaging**:
     - For each email step in your sequence, send yourself a test email to ensure formatting is appropriate and all variables are set correctly.
 
-Once you have set your sequence up with the proper name, structure, settings and email messaging, return to the issue and tag your manager for approval. **If your manager rejects your sequence, you will need to make the necessary changes to gain their approval. If they have responded with their approval, you are cleared to move forward with setting your sequence live.**
+Once you have set your sequence up with the proper name, structure, settings and email messaging, return to the issue and tag your manager and sales development operations manager for approval. **If your sequence is rejected, you will need to make the necessary changes to gain approval. If your sequence is approved, you are cleared to move forward with setting your sequence live. A decision on approval will be made within 48 hours of the request.**
 
 #### Setting a Sequence Live
 Go into the sequence settings and toggle the bar in the upper left from gray (paused) to green (active). You are now ready to use your sequence.
@@ -217,6 +215,30 @@ Managers then need to add a tag of “manager approved” on the sequence in Out
 * [6Sense Account Identification Guide](https://6sense.com/platform/account-matching/the-guide-to-account-identification/)
 * [6Sense Persona Identification Guide](https://6sense.com/guides/how-to-identify-and-influence-the-entire-buying-team/)
 
+### 6Sense 6QA Automations
+
+We currently have in place an automation that will automatically move accounts that reach 6QA status from 6Sense to SFDC. 
+
+Specifically:
+
+- We have three segments (SMB, MM, ENTG) saved on folder 9a of 6Sense. Each of these segments tries to identify the top accounts we currently have on SFDC that are not being worked by our team.
+- Through 6Sense Orchestrations, we will automatically update these accounts weekly.
+     - We aim for 200 records to be enriched every week.
+     - We aim for a 90 day buffer period between records being enriched.
+     - The SFDC field `Sales Dev Automation` will be enriched with the value of the respective segment (SMB, MM, ENTG)
+- From the moment these accounts get enriched by 6Sense, they will automatically show up on our pre-saved searches on ZoomInfo, one for each segment. 
+     - [SMB Saved Search](https://app.zoominfo.com/#/apps/searchV2/v2/results/person?query=eyJmaWx0ZXJzIjp7InBhZ2UiOjEsImNvbXBhbnlQYXN0T3JQcmVzZW50IjoiMSIsImlzQ2VydGlmaWVkIjoiaW5jbHVkZSIsInNvcnRCeSI6IlJlbGV2YW5jZSIsInNvcnRPcmRlciI6ImRlc2MiLCJleGNsdWRlRGVmdW5jdENvbXBhbmllcyI6dHJ1ZSwiY29uZmlkZW5jZVNjb3JlTWluIjo4NSwiY29uZmlkZW5jZVNjb3JlTWF4Ijo5OSwib3V0cHV0Q3VycmVuY3lDb2RlIjoiVVNEIiwiaW5wdXRDdXJyZW5jeUNvZGUiOiJVU0QiLCJleGNsdWRlTm9Db21wYW55IjoidHJ1ZSIsInJldHVybk9ubHlCb2FyZE1lbWJlcnMiOmZhbHNlLCJleGNsdWRlQm9hcmRNZW1iZXJzIjp0cnVlLCJzY29yaW5nT3B0aW9ucyI6IntcImlkXCI6XCJaUmhSeWJtUHIxMGU2cEVQVDVBcVwiLFwib25seUNvbnRhY3RGaWx0ZXJzXCI6ZmFsc2V9Iiwic291cmNlSWQiOiJBTlVSQSIsInRpdGxlU2VuaW9yaXR5IjoiQ19FWEVDVVRJVkVTLFZQX0VYRUNVVElWRVMsRElSRUNUT1IsTUFOQUdFUiIsImhhc0VtYWlsIjoib25seSIsInJwcCI6MjUsImRlcGFydG1lbnRzIjoiQy1TdWl0ZSxFbmdpbmVlcmluZyAmIFRlY2huaWNhbCxJbmZvcm1hdGlvbiBUZWNobm9sb2d5IiwiaGFzTW9iaWxlUGhvbmUiOiJvbmx5IiwiaW5jbHVkZU9yZ0ltcG9ydEFjY291bnRDdXN0b21GaWVsZHMiOlt7InBsYXRmb3JtIjoic2FsZXNmb3JjZSIsImVudGl0eSI6ImFjY291bnQiLCJmaWVsZE5hbWUiOiIxMDIiLCJpZExpc3QiOlsiNDA1OTl4M3psbzJzZTB3eCJdfSx7InBsYXRmb3JtIjoic2FsZXNmb3JjZSIsImVudGl0eSI6ImFjY291bnQiLCJmaWVsZE5hbWUiOiIxMDMiLCJpZExpc3QiOlsiNDA1OTl4M3pscTVnbXI4OCJdfV0sIkNGLXNhbGVzZm9yY2UtYWNjb3VudC0xMDEiOnsiaW5jbHVkZSI6eyJwbGF0Zm9ybSI6InNhbGVzZm9yY2UiLCJlbnRpdHkiOiJhY2NvdW50IiwiZmllbGROYW1lIjoiMTAxIiwiaWRMaXN0IjpbIjQwNTk5eDN6bHRmeDliNWoiXSwiaXNJbmNsdWRlIjp0cnVlfX19LCJzZWFyY2hUeXBlIjowfQ%3D%3D)
+     - [MM Saved Search](https://app.zoominfo.com/#/apps/searchV2/v2/results/person?query=eyJmaWx0ZXJzIjp7InBhZ2UiOjEsImNvbXBhbnlQYXN0T3JQcmVzZW50IjoiMSIsImlzQ2VydGlmaWVkIjoiaW5jbHVkZSIsInNvcnRCeSI6IlJlbGV2YW5jZSIsInNvcnRPcmRlciI6ImRlc2MiLCJleGNsdWRlRGVmdW5jdENvbXBhbmllcyI6dHJ1ZSwiY29uZmlkZW5jZVNjb3JlTWluIjo4NSwiY29uZmlkZW5jZVNjb3JlTWF4Ijo5OSwib3V0cHV0Q3VycmVuY3lDb2RlIjoiVVNEIiwiaW5wdXRDdXJyZW5jeUNvZGUiOiJVU0QiLCJleGNsdWRlTm9Db21wYW55IjoidHJ1ZSIsInJldHVybk9ubHlCb2FyZE1lbWJlcnMiOmZhbHNlLCJleGNsdWRlQm9hcmRNZW1iZXJzIjp0cnVlLCJzY29yaW5nT3B0aW9ucyI6IntcImlkXCI6XCJaUmhSeWJtUHIxMGU2cEVQVDVBcVwiLFwib25seUNvbnRhY3RGaWx0ZXJzXCI6ZmFsc2V9Iiwic291cmNlSWQiOiJBTlVSQSIsInRpdGxlU2VuaW9yaXR5IjoiQ19FWEVDVVRJVkVTLFZQX0VYRUNVVElWRVMsRElSRUNUT1IsTUFOQUdFUiIsImhhc0VtYWlsIjoib25seSIsInJwcCI6MjUsImRlcGFydG1lbnRzIjoiSW5mb3JtYXRpb24gVGVjaG5vbG9neSxFbmdpbmVlcmluZyAmIFRlY2huaWNhbCxDLVN1aXRlIiwiaGFzTW9iaWxlUGhvbmUiOiJvbmx5IiwiaW5jbHVkZU9yZ0ltcG9ydEFjY291bnRDdXN0b21GaWVsZHMiOlt7InBsYXRmb3JtIjoic2FsZXNmb3JjZSIsImVudGl0eSI6ImFjY291bnQiLCJmaWVsZE5hbWUiOiIxMDIiLCJpZExpc3QiOlsiNDA1OTl4M3psbzJzZTB3eCJdfSx7InBsYXRmb3JtIjoic2FsZXNmb3JjZSIsImVudGl0eSI6ImFjY291bnQiLCJmaWVsZE5hbWUiOiIxMDMiLCJpZExpc3QiOlsiNDA1OTl4M3pscTVnbXI4OCJdfV0sIkNGLXNhbGVzZm9yY2UtYWNjb3VudC0xMDEiOnsiaW5jbHVkZSI6eyJwbGF0Zm9ybSI6InNhbGVzZm9yY2UiLCJlbnRpdHkiOiJhY2NvdW50IiwiZmllbGROYW1lIjoiMTAxIiwiaWRMaXN0IjpbIjQwNTk5eDN6bHRmeDliNWkiXSwiaXNJbmNsdWRlIjp0cnVlfX19LCJzZWFyY2hUeXBlIjowfQ%3D%3D)
+     - [ENTG](https://app.zoominfo.com/#/apps/searchV2/v2/results/person?query=eyJmaWx0ZXJzIjp7InBhZ2UiOjEsImNvbXBhbnlQYXN0T3JQcmVzZW50IjoiMSIsImlzQ2VydGlmaWVkIjoiaW5jbHVkZSIsInNvcnRCeSI6IlJlbGV2YW5jZSIsInNvcnRPcmRlciI6ImRlc2MiLCJleGNsdWRlRGVmdW5jdENvbXBhbmllcyI6dHJ1ZSwiY29uZmlkZW5jZVNjb3JlTWluIjo4NSwiY29uZmlkZW5jZVNjb3JlTWF4Ijo5OSwib3V0cHV0Q3VycmVuY3lDb2RlIjoiVVNEIiwiaW5wdXRDdXJyZW5jeUNvZGUiOiJVU0QiLCJleGNsdWRlTm9Db21wYW55IjoidHJ1ZSIsInJldHVybk9ubHlCb2FyZE1lbWJlcnMiOmZhbHNlLCJleGNsdWRlQm9hcmRNZW1iZXJzIjp0cnVlLCJzY29yaW5nT3B0aW9ucyI6IntcImlkXCI6XCJaUmhSeWJtUHIxMGU2cEVQVDVBcVwiLFwib25seUNvbnRhY3RGaWx0ZXJzXCI6ZmFsc2V9Iiwic291cmNlSWQiOiJBTlVSQSIsInRpdGxlU2VuaW9yaXR5IjoiQ19FWEVDVVRJVkVTLFZQX0VYRUNVVElWRVMsRElSRUNUT1IiLCJoYXNFbWFpbCI6Im9ubHkiLCJycHAiOjI1LCJkZXBhcnRtZW50cyI6IkluZm9ybWF0aW9uIFRlY2hub2xvZ3ksRW5naW5lZXJpbmcgJiBUZWNobmljYWwsQy1TdWl0ZSIsImhhc01vYmlsZVBob25lIjoib25seSIsImluY2x1ZGVPcmdJbXBvcnRBY2NvdW50Q3VzdG9tRmllbGRzIjpbeyJwbGF0Zm9ybSI6InNhbGVzZm9yY2UiLCJlbnRpdHkiOiJhY2NvdW50IiwiZmllbGROYW1lIjoiMTAyIiwiaWRMaXN0IjpbIjQwNTk5eDN6bG8yc2Uwd3giXX0seyJwbGF0Zm9ybSI6InNhbGVzZm9yY2UiLCJlbnRpdHkiOiJhY2NvdW50IiwiZmllbGROYW1lIjoiMTAzIiwiaWRMaXN0IjpbIjQwNTk5eDN6bHE1Z21yODgiXX1dLCJDRi1zYWxlc2ZvcmNlLWFjY291bnQtMTAxIjp7ImluY2x1ZGUiOnsicGxhdGZvcm0iOiJzYWxlc2ZvcmNlIiwiZW50aXR5IjoiYWNjb3VudCIsImZpZWxkTmFtZSI6IjEwMSIsImlkTGlzdCI6WyI0MDU5OXgzemx0Zng5YjVjIl0sImlzSW5jbHVkZSI6dHJ1ZX19fSwic2VhcmNoVHlwZSI6MH0%3D)
+- These saved searches will pull the relevant decision-makers per segment, and through ZoomInfo workflows do the following:
+     - Automatically enroll SMB leads to the fully automated sequence [here](https://web.outreach.io/sequences/13896/overview)
+     - Automatically add MM/ENTG accounts to the SFDC dashboard here. 
+     - Automatically add a sample size of prospects from each 6QA'd account to the SFDC view here. 
+         
+## Qualified 
+
+[Qualified](https://www.qualified.com/) is the Sales Dev Org's tool we use to chat with visitors on the GitLab website. Currently the SDR teams primarily respond to inbound chats and visitors using Qualified. The BDRs also have the ability to initiate chats with known leads from their actively working accounts. 
+
 ## Chorus
 
 Call and demo recording software. [Chorus](https://www.chorus.ai/) tracks keywords, provides analytics, and transcribes calls into both Salesforce and Outreach. Chorus will be used to onboard new team members, provide ongoing training and development for existing team members, provide non-sales employees with access to sales calls, and allow sales reps to recall certain points of a call or demo. At this time, US Sales, US Customer Success, US SDRs will be considered recorders. Non-US Commercial and Non-US SDRs can request recorder access once they have completed the GDPR training course. Non-US recorders will also need access to the EMEZ Zoom Group. Everyone else can access the tool as a listener if they wish.
@@ -226,6 +248,10 @@ Call and demo recording software. [Chorus](https://www.chorus.ai/) tracks keywor
 * Chorus: [Tips for Getting Start](https://docs.chorus.ai/hc/en-us/articles/115009183547-Tips-on-Getting-Started-with-Chorus)
 * GitLab Edcast: [Chorus Overview](https://gitlab.edcast.com/journey/week)
 * GitLab Edcast: [Sample Chorus IQM Calls](https://gitlab.edcast.com/insights/sample-chorus)
+
+## Crayon Competitive Messaging Resources
+
+[Crayon](https://app.crayon.co/intel/gitlab/battlecards/) hosts competitive messaging resources that are maintained by GitLab's product marketing team. 
 
 # Sales Dev Manager Resources
 
@@ -260,7 +286,6 @@ To help structure your usage of the above, you can follow the steps below during
 | Review the dashboard with your team, and discuss how the data on it connect to the [BDR KPIs](/handbook/marketing/revenue-marketing/sdr/#sdrbdr-roe-and-inbound-lead-management) | Allows you to understand your team's level of maturity and each team member's current level of alignment to existing processes |
 | Take note of any discrepancies or points of feedback from the team, either transcribe them to 1:1s for individual conversations or to the SDR Issue board for org-wide improvements | Enables you to filter between discrepancies that are caused because of a team member's lack of diligence that should be improved upon by the individual OR for discrepancies that were caused by an org-wide operational shortcoming that should be improved upon on a global scale. |
 | Set realistic expectations with the team about adherance to org KPIs and set a review mechanism to go over them on a reccuring basis | Helps maintain a repeatable structure of accountability for your entire team |
-
 
 ## General Sales Development Leadership Resources
 
@@ -303,8 +328,7 @@ To help structure your usage of the above, you can follow the steps below during
 | :----: | :-----: |
 |  [SDR Issue Board](https://gitlab.com/gitlab-com/marketing/sales-development/-/boards/5569691)  | Used to track GitLab issues involving the SDR team. This is a global issue board. |
 |  [SDR Event Tracker Issue Board](https://gitlab.com/groups/gitlab-com/-/boards/1718115) | Used to follow upcoming events globally |
-|  [SDR Sisense Dashboard](https://app.periscopedata.com/app/gitlab/641469/WIP:-SDR-Metrics-Update) | Dashboard to monitor SDR leads and meetings  |
-|  [MQL & SAO Performance vs. Target Sisense Dashboard](https://app.periscopedata.com/app/gitlab/628196/Revised-Marketing-Metrics) | Monitoring MQL and SAO performance in comparison to our goals  |
+|  [SDR Sisense Dashboard](https://10az.online.tableau.com/#/site/gitlab/views/DraftSalesDevAnalyticsHub/Overview?:iid=1) | SalesDev Analytics Hub Dashboard  |
 
 |  [Lead View Descriptions](/handbook/marketing/sales-development/#lead-and-contact-views) | There are Manager Lead views in SFDC mirroring the SDR and BDR views which are described on the linked Handbook page on the left. These views need to be checked regularly by managers to ensure all necessary leads are being worked.
 
@@ -449,6 +473,21 @@ The full process for offboarding at GitLab differs based on whether it is volunt
 ### Manager Offboarding Checklist
 
 * The people team will create an [offboarding issue](/handbook/people-group/offboarding/#offboarding), complete all ‘Manager’ tasks on the issue. If you have any questions use the #managers #people-connect slack channels. You can also reach out to the assigned people ops team member on the issue.
+
+## Sequence Creation
+
+* We follow the process outlined [here](https://handbook.gitlab.com/handbook/marketing/sales-development/#new-outreach-sequenceworkflow-creation) for creating new content, when it comes to reviewing this content, the Sales Dev Ops team will follow a quarterly cadence of reviewing the sequences/campaigns that are on the In-flight column on the board [here](https://gitlab.com/gitlab-com/marketing/sales-development/-/boards/5540104). We use the criteria below:
+
+### Sequence needs to be a globally applicable
+
+- Only sequences that could be used by any team member globally can be added to the Good Collection. 
+- If a regionalized sequence can be translated to English, then the English copy of it will be added to the GC while the local variant will be added to the Team Collection.
+- Field Marketing event sequences and any other similar type will not be considered for the Good Collection.
+
+### Sequence needs to have completed the requirements set out on the issue descrption.
+
+- At least 200 people enrolled and/or having completed the sequence on a timely manner. 
+- ( Sequence has over 5% reply rate AND No less than 50% negative sentiment rate. ) OR Sequence has over 5% meeting set rate.
 
 ## Monthly Audit Process
 

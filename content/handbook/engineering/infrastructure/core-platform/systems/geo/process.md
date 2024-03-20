@@ -5,12 +5,6 @@ title: "Geo and Disaster Recovery - Planning"
 description: "How the Geo Team Operates"
 ---
 
-
-
-
-
-
-
 ## Discussions
 
 Discussions are documented in this [GitLab project](https://gitlab.com/gitlab-org/geo-team/discussions/-/issues/?sort=created_date&state=opened&first_page_size=100).
@@ -97,6 +91,7 @@ for discussion and feedback. Planning is transparent anyway, but this serves to 
 for development.
 
 #### Schedule
+
 On an ongoing basis, the PM and EM will meet to discuss the work that is currently active, and queue prepared items for development.
 
 In this process, prepared items will be given the label "geo::active", which will pull items into the Build board.
@@ -207,7 +202,10 @@ If any issue is weighted above a 3, we should ask ourselves if it can be further
 
 ### Bugs Process
 
+Issues in the [GitLab.org group](https://gitlab.com/groups/gitlab-org/-/issues) labeled `~"group::geo` and `~"type::bug"` will be triaged. These issues are represented at a high-level in the [Geo Bug Triage issue board](https://gitlab.com/groups/gitlab-org/-/boards/1077712). The current high-level state of each issue is indicated by its [`workflow` label](https://handbook.gitlab.com/handbook/product-development-flow/).
+
 #### Bug Triage
+
 Triaging bugs is a team effort. Ultimately the process of triage is necessary to avoid the following problems:
 
 * Bugs that are actually quite complex to address and the "bug" might be a symptom of a bigger architectural problem rather than a simple deficiency in existing functionality.
@@ -222,6 +220,7 @@ The following process attempts to mitigate these issues and increase the efficie
 The entire process is broken down into phases, where issues classified as bugs are reviewed by different stakeholders, labelled in specific ways to be classified, and moved through a workflow through their resolution. 
 
 ##### Phase 1: Screening
+
 This phase involves the initial review of newly created bugs to screen them for consistent formatting, labelling and prioritization.
 
 The initial screening should ensure all the necessary information about the nature of the problem, its severity, priority, how it can be reproduced and the expected result (i.e. success criteria) is defined before an engineer starts to look at it.
@@ -239,7 +238,7 @@ The group Product Manager (PM) is the DRI to do the initial screening soliciting
 
 The PM should also make a determination if certain bugs should be immediately closed as "won't fix" for any reason. The PM should also stop "Bugs" that may actually be customer support requests and should be channelled to follow that process.
 
-The PM should use the Triage Report generated and sent through email as one of the sources of untriaged bugs that need screening. Another source is any bug with the `group::geo` tag that does not have a workflow label. 
+The PM should use the [Triage Report](https://gitlab.com/gitlab-org/quality/triage-reports/-/issues/?sort=updated_desc&state=opened&label_name%5B%5D=group%3A%3Ageo&label_name%5B%5D=triage%20report&first_page_size=20) generated and sent through email as one of the sources of untriaged bugs that need screening. Another source is any bug with the `group::geo` tag that does not have a workflow label. 
 
 Once a Bug is under screening, it can be labelled with `geo::planning` and `workflow::problem validation`. If during screening the DRI needs to ask for more information, the bug can be labelled with `awaiting feedback`
 
@@ -252,8 +251,10 @@ Bugs that have been screened should meet the following criteria:
 - The body of the issue is fully completed with the template information cited above
 - Should no longer have an `awaiting feedback` label
 
+Refer to the [Geo Bug Triage issue board](https://gitlab.com/groups/gitlab-org/-/boards/1077712).
 
 ##### Phase 2: Technical Assessment
+
 Bugs that have gone through screening can then be assessed by the engineer that has the bug-triage rotation for the month (see below for the rotation schedule). The goal of the assessment is to:
 
 * Go through the steps to reproduce the bug, and confirm that it is reproducible
@@ -283,7 +284,10 @@ If after investing some time and reasonable effort the engineer is unable to rep
 
 If the bug was triggered by a customer, the PM can then work with the customer to open a customer support request to investigate the problem in the context of the customer's own data and infrastructure. This investigation may lead to a new bug being opened with more specific and reliable reproduction steps. 
 
+Refer to the [Geo Bug Triage issue board](https://gitlab.com/groups/gitlab-org/-/boards/1077712).
+
 ##### Phase 3: Scheduling
+
 The PM is the DRI for scheduling bugs that have already been technically assessed. There are two scheduling scenarios to be considered:
 
 1. Bug issues estimated at weight = 1 or 2. These may be added to the active Geo build board for asap execution. For this purpose, the bug can be labelled with `geo::active` and `workflow::ready for development`. Engineers are then responsible to pick these up at their own discretion "in parallel" to their regular work during any given iteration. Engineers are expected to take at least one of these "small" bugs per iteration. 
@@ -304,7 +308,10 @@ For a bug to be ready for execution it must meet the following criteria:
 - Labelled with: `group::geo`, `geo::active` and `workflow::ready for development`
 - Labels for `severity` and `priority` have been set
 
+Refer to the [Geo Bug Triage issue board](https://gitlab.com/groups/gitlab-org/-/boards/1077712).
+
 #### Engineering Triage Rotation Process
+
 Every month, a Geo engineer is assigned to be the DRI for doing the technical assessment of bugs (see section above on Phase 2 of the triage process). 
 
 A different backend engineer is assigned to triage rotation each month and we schedule monthly shifts 3 to 6 months in advance.
@@ -321,33 +328,34 @@ Process summary:
 
 ##### Schedule
 
-| Month     | Name |
-| -------   | ---- |
-| **2023**  |      |
-| November  | [`@jtapiab`](https://gitlab.com/jtapiab) |
-| October   | [`@aakriti.gupta`](https://gitlab.com/aakriti.gupta) |
-| September | [`@brodock`](https://gitlab.com/brodock) |
-| August     | [`@dbalexandre`](https://gitlab.com/dbalexandre) |
-| July     | [`@vsizov`](https://gitlab.com/vsizov) |
-| June     | [`@mkozono`](https://gitlab.com/mkozono) |
-| May     | [`@ibaum`](https://gitlab.com/ibaum) |
-| April  | [`@jtapiab`](https://gitlab.com/jtapiab) |
-| March     | [`@aakriti.gupta`](https://gitlab.com/aakriti.gupta) |
-| February  | [`@brodock`](https://gitlab.com/brodock) |
-| January   | [`@brodock`](https://gitlab.com/brodock) (missed) |
-| **2022**  |      |
-| December  | [`@vsizov`](https://gitlab.com/vsizov) |
-| November  | -- |
-| October   | [`@dbalexandre`](https://gitlab.com/dbalexandre) |
-| September | [`@brodock`](https://gitlab.com/brodock) |
-| August    | [`@jbobadilla-ext`](https://gitlab.com/jbobadilla-ext) |
-| July      | [`@cat`](https://gitlab.com/cat) |
-| June      | [`@dbalexandre`](https://gitlab.com/dbalexandre) |
-| May       | [`@mkozono`](https://gitlab.com/mkozono) |
-| April     | @ibaum |
-| March     | @cat |
-| February  | @dbalexandre |
-| January   | @mkozono |
+| Month     | Name                                                   |
+| --------- | ------------------------------------------------------ |
+| **2024**  |                                                        |
+| December  |  [`@aakriti.gupta`](https://gitlab.com/aakriti.gupta)  |             
+| November  | [`@kyetter`](https://gitlab.com/kyetter)               |
+| October   | [`@dbalexandre`](https://gitlab.com/dbalexandre)       |
+| September | [`@ibaum`](https://gitlab.com/ibaum)                   |
+| August    | [`@mkozono`](https://gitlab.com/mkozono)               |
+| July      | [`@kyetter`](https://gitlab.com/kyetter)               |
+| June      |  [`@aakriti.gupta`](https://gitlab.com/aakriti.gupta)  |           
+| May       | [`@dbalexandre`](https://gitlab.com/dbalexandre)       |
+| April     | [`@ibaum`](https://gitlab.com/ibaum)                   |
+| March     | [`@brodock`](https://gitlab.com/brodock)               |
+| February  | N/A                                                    |
+| January   | [`@mkozono`](https://gitlab.com/mkozono)               |
+| **2023**  |                                                        |
+| December  | [`@ibaum`](https://gitlab.com/ibaum)                   |
+| November  | [`@jtapiab`](https://gitlab.com/jtapiab)               |
+| October   | [`@aakriti.gupta`](https://gitlab.com/aakriti.gupta)   |
+| September | [`@brodock`](https://gitlab.com/brodock)               |
+| August    | [`@dbalexandre`](https://gitlab.com/dbalexandre)       |
+| July      | [`@vsizov`](https://gitlab.com/vsizov)                 |
+| June      | [`@mkozono`](https://gitlab.com/mkozono)               |
+| May       | [`@ibaum`](https://gitlab.com/ibaum)                   |
+| April     | [`@jtapiab`](https://gitlab.com/jtapiab)               |
+| March     | [`@aakriti.gupta`](https://gitlab.com/aakriti.gupta)   |
+| February  | [`@brodock`](https://gitlab.com/brodock)               |
+| January   | [`@brodock`](https://gitlab.com/brodock) (missed)      |
 
 ## Retrospectives
 

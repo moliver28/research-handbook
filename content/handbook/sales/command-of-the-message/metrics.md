@@ -52,7 +52,7 @@ Another critical way to embrace your role as a trusted advisor is to become and 
 
 ## Be a Good Storyteller
 
-The best Metrics conversations are **STORIES** that articulate quantifiable measurements and proof of the business benefits of the solution to the customer’s problem(s). John May (Strategic Account Executive, US East) leverages this [DORA State of DevOps 2019 slide](https://docs.google.com/presentation/d/1cNcqXbcYR5pEfz-t8_VBE86fqdma_Jc7ws5Icm9FDKY/edit?usp=sharing) to emotionally appeal to individuals' desire to become elite performers and highlight relevant success stories of organizations ([Ticketmaster](https://about.gitlab.com/blog/2017/06/07/continuous-integration-ticketmaster/), [Verizon Connect](https://www.youtube.com/watch?v=zxMFaw5j6Zs), [Paessler AG](/customers/paessler/), and more) that have become Elite Performers by adopting and expanding their GitLab footprint. Learn more from John in this [Art Behind Command of the Message](https://youtu.be/-iIK7SlplEo) sales enablement videocast (GitLab internal only, Oct 2019, 26 minutes).
+The best Metrics conversations are **STORIES** that articulate quantifiable measurements and proof of the business benefits of the solution to the customer’s problem(s). John May (Strategic Account Executive, US East) leverages this [DORA State of DevOps 2019 slide](https://docs.google.com/presentation/d/1cNcqXbcYR5pEfz-t8_VBE86fqdma_Jc7ws5Icm9FDKY/edit?usp=sharing) to emotionally appeal to individuals' desire to become elite performers and highlight relevant success stories of organizations ([Ticketmaster](https://about.gitlab.com/blog/2017/06/07/continuous-integration-ticketmaster/), [Verizon Connect](https://www.youtube.com/watch?v=zxMFaw5j6Zs), [Paessler AG](https://about.gitlab.com/customers/paessler/), and more) that have become Elite Performers by adopting and expanding their GitLab footprint. Learn more from John in this [Art Behind Command of the Message](https://youtu.be/-iIK7SlplEo) sales enablement videocast (GitLab internal only, Oct 2019, 26 minutes).
 
 Listen to how Nico Ochoa (Strategic Account Executive, US West) explains the value of GitLab by talking in terms of a software factory and applying lean manufacturing principles. More specifically, GitLab applies these principles to take waste out of the process of developing and deploying applications to increase operational efficiencies, deliver better products faster, and reduce security and compliance risk.
 
@@ -60,11 +60,11 @@ Listen to how Nico Ochoa (Strategic Account Executive, US West) explains the val
   <iframe src="https://www.youtube.com/embed/vtlAs68YY8M" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
 
-As a follow on to the above, be sure to familiarize yourself with GitLab's [Value Stream Management (VSM)](/solutions/value-stream-management/) & Value Stream Analytics capabilities. Effectively articulating these capabilities plays to two of GitLab's key differentiators:
+As a follow on to the above, be sure to familiarize yourself with GitLab's [Value Stream Management (VSM)](https://about.gitlab.com/solutions/value-stream-management/) & Value Stream Analytics capabilities. Effectively articulating these capabilities plays to two of GitLab's key differentiators:
 1. Single Application for Entire DevOps Lifecycle, and
 1. End-to-End Insight and Visibility
 
-Watch the below video and check out GitLab's [Value Stream Management](/solutions/value-stream-management/) solutions page to learn more. In addition, access short customer-facing VSM videos in the [Agile Management](/learn/#agile_management) section of the Learn@GitLab page.
+Watch the below video and check out GitLab's [Value Stream Management](https://about.gitlab.com/solutions/value-stream-management/) solutions page to learn more. In addition, access short customer-facing VSM videos in the [Agile Management](https://about.gitlab.com/learn/#agile_management) section of the Learn@GitLab page.
 
 <figure class="video_container">
   <iframe src="https://www.youtube.com/embed/e2XQB5HFJmc" frameborder="0" allowfullscreen="true"> </iframe>
@@ -148,7 +148,7 @@ And once you have identified compelling answers to these questions, continue to 
 
 ## Assess the Health of Your Metrics
 
-Periodically, conduct a critical review of the below questions. This can be done via a self-assessment and/or with your account team, peers, mentors, or your manager. In some instances, you may even consider reviewing this with your Champion.  
+Periodically, conduct a critical review of the below questions. This can be done via a self-assessment and/or with your account team, peers, mentors, or your manager. In some instances, you may even consider reviewing this with your Champion.
 1. Has the customer bought into the identified metrics?
 1. Are the metrics aligned with the desired business outcomes?
 1. Are your Champions leveraging the identified metrics?

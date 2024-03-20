@@ -214,7 +214,7 @@ Please review the [frequently requested section]({{< ref "frequent-requests" >}}
 
 ## Addresses
 
-- For the our mailing addresses, see our [visiting](/handbook/company/visiting/) page.
+- For the mailing addresses, see our [visiting](/handbook/company/visiting/) page.
 - For the NL office, we use [addpost](https://www.addpost.nl) to scan our mail and send it to a physical address upon request.
 
 ## Reporting potential inaccurate LinkedIn Profiles

@@ -29,11 +29,19 @@ The following people are permanent members of the group:
 
 ## Metrics
 
-You can find our group metrics in the [Manage:Import and Integrate Sisense Dashboard](https://app.periscopedata.com/app/gitlab/1129535/Manage:Import-and-Integrate-Dashboard) and [Import and Integrate Group Engineering Metrics handbook page](/handbook/engineering/metrics/dev/manage/import-and-integrate/).
+Here is our group page: [Import and Integrate Group Engineering Metrics handbook page](/handbook/engineering/metrics/dev/manage/import-and-integrate/).
 
-{{< sisense dashboard="926758" chart="12808907" >}}
+{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/MergeRequestMetrics/OverallMRsbyType_1" >}}
+  {{< tableau/filters "GROUP_LABEL"="import and integrate" >}}
+{{< /tableau >}}
 
-{{% cross-functional-dashboards filters="import and integrate" %}}
+{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/Flakytestissues/FlakyTestIssues" >}}
+  {{< tableau/filters "GROUP_NAME"="import and integrate" >}}
+{{< /tableau >}}
+
+{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/SlowRSpecTestsIssues/SlowRSpecTestsIssuesDashboard" >}}
+  {{< tableau/filters "GROUP_LABEL"="import and integrate" >}}
+{{< /tableau >}}
 
 ## Work
 
@@ -379,9 +387,8 @@ Below is an overview of topics that are overseen by a tech lead:
 
 | Topic | Tech Lead | Topic Link | Notes |
 | ------ | ------ | ------ | ------ |
-| FLC for #17057 | Carla Drago| [FCL issue](https://gitlab.com/gitlab-com/feature-change-locks/-/issues/43) | - |
-| Direct Transfer Q4 OKR | George Koltsov | [Key Result 1](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/5027), [Key Result 2](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/5029) | |
-| GitHub Q4 OKR | Luke Duncalfe | [Key Result](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/5028) | |
+| Direct Transfer - User contribution mapping | Rodrigo Tomonari | [Epic](https://gitlab.com/groups/gitlab-org/-/epics/12378) | - |
+| Improve the efficiency of developer contributions to the importers | James Nutt | [OKR](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/6658) | - |
 | Congregate | tbd | https://gitlab.com/gitlab-org/gitlab/-/issues/428657 | |
 | GitHub Actions | tbd | https://gitlab.com/gitlab-org/manage/general-discussion/-/issues/17652 | |
 |  | | |  |
@@ -452,9 +459,6 @@ This is a collection of links for monitoring our features.
     - Links to various Kibana logs, filtered to our feature categories
     - Our [error budget](#error-budget) spend attribution
 - [Worker queues](https://dashboards.gitlab.net/d/sidekiq-queue-detail/sidekiq-queue-detail?orgId=1&var-PROMETHEUS_DS=Global&var-environment=gprd&var-stage=main&var-queue=jira_connect:jira_connect_sync_branch) where you can switch queues with the `queue` dropdown
-
-### Periscope dashboards
-- [Importer - North star metrics](https://app.periscopedata.com/app/gitlab/661967/Manage:Import-Dashboard)
 
 ### Sentry errors
 

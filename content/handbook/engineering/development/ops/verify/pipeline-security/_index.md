@@ -144,8 +144,8 @@ The [Pipeline Security group Error Budget dashboard](https://dashboards.gitlab.n
 
 The engineering manager will review the error budget dashboard weekly to determine whether we're exceeding our budget, determine what (if anything) is contributing to our error budget spend, and create issues addressing root cause for product manager prioritization. Issues created to address error budget spend should be created using appropriate labels and prioritized according to our [technical debt process](#prioritizing-technical-debt). Other issues may be created as a result of the [Ops Section SaaS Reviews](/handbook/product/performance-indicators/#verify-verifytesting---error-budget-for-gitlabcom) and also prioritized using the technical debt process.
 
-#### Prioritizing technical and UX debt
-We follow the [company guidance](/handbook/engineering/development/principles/#prioritizing-technical-decisions) in how we prioritize technical debt and [UX debt](/handbook/product/ux/performance-indicators/#ux-debt). In order to manage this effectively we have decided to keep track of technical and UX debt and feature maintenance issues that are ready to be worked on in the "~workflow::scheduling" column, prioritized by Product, but informed by the impact these issues will have on our future velocity. We will try to dedicate a certain percentage (~30%) of our capacity by weight in each milestone to paying down technical and UX debt. We do not consider bugs to be debt, and they are prioritized as part of the remaining capacity by weight.
+#### Prioritizing technical debt and deferred UX
+We follow the [company guidance](/handbook/engineering/development/principles/#prioritizing-technical-decisions) in how we prioritize technical debt and [Deferred UX](/handbook/product/ux/performance-indicators/#deferred-ux). In order to manage this effectively we have decided to keep track of technical debt, Deferred UX, and feature maintenance issues that are ready to be worked on in the "~workflow::scheduling" column, prioritized by Product, but informed by the impact these issues will have on our future velocity. We will try to dedicate a certain percentage (~30%) of our capacity by weight in each milestone to paying down technical debt and deferred UX. We do not consider bugs to be debt, and they are prioritized as part of the remaining capacity by weight.
 
 #### Deliverables in a Milestone
 Engineering managers apply the `Deliverable` label on issues that meet the following criteria:
@@ -180,26 +180,30 @@ During each milestone, we create a [Release Post Checklist](https://gitlab.com/g
 Unless specifically mentioned below, the Verify:Pipeline Security group follows the standard [engineering](/handbook/engineering/workflow/), [product](/handbook/product-development-flow/), and [UX](/handbook/product/ux/ux-department-workflow/) workflows.
 
 #### Starting New Work
-Verify:Pipeline Security team members are encouraged to start looking for work starting **_Right to left_** on [our workflow board](https://gitlab.com/groups/gitlab-org/-/boards/4876910?label_name[]=group%3A%3Apipeline%20security). This is also known as _"Pulling from the right"_. If there is an issue that a team member can help along on the board, they should do so instead of starting new work. This includes conducting code review on issues that the team member may not be assigned to if they feel that they can add value and help move the issue along the board.
+Verify:Pipeline Security team members are encouraged to start looking for work starting **_Right to left_** on [our milestone board](https://gitlab.com/groups/gitlab-org/-/boards/364216?label_name[]=group%3A%3Apipeline%20security&milestone_title=Started). This is also known as _"Pulling from the right"_. If there is an issue that a team member can help along on the board, they should do so instead of starting new work. This includes conducting code review on issues that the team member may not be assigned to if they feel that they can add value and help move the issue along the board.
 
 Specifically this means, in order:
 * Doing verification that code has made it to staging, canary, or production
 * Conducting code reviews on issues that are `workflow::in review`
 * Unblocking anyone in the `workflow::in development` column
-* Then, finally, picking from the top of the `workflow::ready for development` column OR an item the team member investigated to apply the estimated weight if unfamiliar with the top item.
-* Team members are also encouraged to refine and weight issues in the `workflow::planning breakdown` column so that we can move them to the `workflow::scheduling` column
+* Then, finally, picking a `Deliverable` from the `workflow::ready for development` column.
 
 The goal with this process is to reduce WIP. Reducing WIP forces us to "Start less, finish more", and it also reduces cycle time. Engineers should keep in mind that the DRI for a merge request is the **author(s)**, just because we are putting emphasis on the importance of teamwork does not mean we should dilute the fact that having a [DRI is encouraged by our values](/handbook/people-group/directly-responsible-individuals/#dris-and-our-values).
+
+##### What do I do when there are no more Deliverable issues to take?
+
+If there are no more `Deliverable` issues that a team member can "pull from the right", the team member can do one of the following:
+
+* Take on an issue with the `workflow::ready for development` and `Verify::P2` labels.
+* Refine issues with the `workflow::planning breakdown` and `needs weight` labels to help us prepare for upcoming milestones.
+* Take the opportunity to work on a technical debt or low-hanging fruit issue that you are interested in. These issues often are not a high enough priority to be planned as deliverables, so engineers are encouraged to proactively tackle these issues when they have capacity.
 
 ##### Priority
 We use a series of labels to indicate the highest priority issues in the milestone.
 
-1. The highest priorities for a given milestone would be issues labeled as `Deliverable` issues. The issues will be stack ranked on the `workflow::ready for development` column in top-to-bottom priority order.
-1. If there is no `Deliverable` issue that a team member can "pull from the right", the team member can take the next stack ranked item in the `workflow::ready for development` column.
-
-Issues in "Planning Breakdown" and "Ready for Development" are in top-to-bottom priority order on the [planning board](https://gitlab.com/groups/gitlab-org/-/boards/364216?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=group::pipeline+security&milestone_title=%23started). Issues further to the right on the issue board are not in vertical priority order. Rather, the further to the right an issue is on the board, the higher the priority which follows our [_"Pull from the right"_](#starting-new-work) philosophy of working.
-
-After issues are refined and weighted in the `workflow::planning breakdown` the issue is then moved to the `workflow::scheduling` column. The issues in the `workflow::scheduling` column are assessed at least weekly in the PM/EM sync meeting and moved to their stack ranked positions in the `workflow::ready for development` column.
+* The highest priorities for a given milestone would be issues labeled as `Deliverable` and `Verify::P1` issues. 
+* If there are `Deliverable` issues with the `bug::vulnerability` label as well, those should take top priority over other deliverables.
+* We use the `Verify::P2` and `Verify::P3` labels to prioritize issues planned for future milestone deliverables.
 
 If a team member believes a specific issue should be considered a `Deliverable` or a higher priority, they are encouraged to ping the product and engineering managers on the issues where we can discuss and decide. Note that issues need to be refined with a weight for them to be considered for the `Deliverable` label.
 
@@ -221,7 +225,7 @@ For iterations on features behind feature flags, even when the changes won't be 
 - **Needs Attention** - There are concerns, new complexity, or unanswered questions that if left unattended will result in the issue missing its targeted release. Collaboration needed to get back `On Track` within the week.
    - If you are moving an item into this status please mention individuals in the issue you believe can help out in order to unstick the item so that it can get back to an `On Track` status.
 - **At Risk** - The issue in its current state will not make the planned release and immediate action is needed to get it back to `On Track` today.
-  - If you are moving an item into this status please consider posting in the [https://gitlab.slack.com/archives/CPANF553J](#g_pipeline-security) channel in slack. Try to include anything that can be done to unstick the item so that it can get back to an `On Track` status in your message.
+  - If you are moving an item into this status please consider posting in the [#g_pipeline-security](https://gitlab.slack.com/archives/CPANF553J) channel in slack. Try to include anything that can be done to unstick the item so that it can get back to an `On Track` status in your message.
   - Note: It is possible that there is nothing to be done that can get the item back on track in the current milestone. If that is the case please let your manager know as soon as you are aware of this.
 
 #### Issue progress updates

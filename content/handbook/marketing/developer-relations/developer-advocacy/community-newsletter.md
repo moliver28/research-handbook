@@ -13,7 +13,7 @@ aliases:
 
 ## Overview of the Community Newsletter
 
-We run a monthly [Community Newsletter](/community/newsletter/) to share developer-focused content, keep community members informed about upcoming events, and promote contributions within the community. The target audience for this newsletter is aspiring and existing GitLab contributors in our community. This newsletter will not be used to drive or generate leads.
+We run a monthly [Community Newsletter](https://about.gitlab.com/community/newsletter/) to share developer-focused content, keep community members informed about upcoming events, and promote contributions within the community. The target audience for this newsletter is aspiring and existing GitLab contributors in our community. This newsletter will not be used to drive or generate leads.
 
 ### Process
 

@@ -298,7 +298,7 @@ Initial response to form submission is the responsibility of the Account Owner (
 
 #### Trial Requests
 
-Trials can be requested through [web form](/free-trial/) or within product UI for both self-managed or SaaS.
+Trials can be requested through [web form](https://about.gitlab.com/free-trial/) or within product UI for both self-managed or SaaS.
 Default trial length is thirty (30) days, but can be manually extended by the GitLab team for both the SaaS and self-managed products. Trial extensions for the SaaS product use the [`plan_change_request` issue](https://gitlab.com/gitlab-com/support/internal-requests/issues/new?issuable_template=plan_change_request) template found in the `dotcom` Group, `internal-requests` project.
 Extending self-managed trials requires access to the internal `Licensing App`.
 
@@ -555,6 +555,9 @@ The following fields have been obtained:
 - Current DevOps or software development lifecycle tools (from conversation or credible data source)
 - Expected entry point use case (e.g. SCM or CI)
 - Potential seats of the first opportunity (if this is a new account or buying group)
+
+**Timing**
+After the initial qualifying meeting with the account leader/executive, there must be a tangible next step agreed upon with the prospect.
 
 ***Before the IQM with the account leader/executive, the BDR will also aim to gather:***
 
@@ -899,7 +902,7 @@ To help move sales through the sales process, [here](https://docs.google.com/doc
     - Complete a Demo (Optional)
     - Schedule a Technical Evaluation Call
     - Confirm and collect new [MEDDPPICC](/handbook/sales/meddppicc/) information.
-    - Make adjustments to expected opp amount as this will impact the field Stage 3 Net ARR which popluates the Net ARR value of this opportunity as it crosses into Stage 3. 
+    - Make adjustments to expected opp amount as this will impact the field Stage 3 Net ARR which popluates the Net ARR value of this opportunity as it crosses into Stage 3.
 
 **3-Technical Evaluation**: Confirming technical requirements. A proof-of-concept (POC) might occur at this stage. This is also the stage to confirm information before a proposal is delivered.
 
@@ -921,7 +924,7 @@ To help move sales through the sales process, [here](https://docs.google.com/doc
 
 - What to Complete in This Stage:
     - Agreement on business terms
-    - All proposals should include the standard GitLab [Terms](/terms/#subscription/)
+    - All proposals should include the standard GitLab [Terms](https://about.gitlab.com/terms/#subscription/)
     - Determine if customer will be referenceable when the opportunity closes. If the answer is:
         - "Yes" update the `Referenceable Customer` section on the Account object with appropriate reference information
         - "No" the discussion of being a reference can be revisited at a later date

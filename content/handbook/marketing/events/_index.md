@@ -34,7 +34,7 @@ There are 3 groups within marketing who handle external events. Each group has a
 
 - Internal tracking of in person events, please add our [Events and Sponsorship Calendar](https://calendar.google.com/calendar?cid=Z2l0bGFiLmNvbV9laWN2b3VkcHBjdTQ3bG5xdTFwOTlvNjU2Z0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t) to your calendar.
 - Internal tracking of virtual events [can be found here](/handbook/marketing/#calendar).
-- External facing event tracker can be found at [https://about.gitlab.com/events/](/events/)
+- External facing event tracker can be found at [https://about.gitlab.com/events/](https://about.gitlab.com/events/)
 
 ## Interested in attending an event we are already sponsoring?
 
@@ -126,16 +126,16 @@ NOTE: The Epic is the main hub for all event information. **All issues** associa
 * Event DRI:
 * Campaign Type: `Usually Owned Event or Conference'
 * Type: In-Person
-* Official Event Name:   
-* Date(s):  
+* Official Event Name:
+* Date(s):
 * Campaign utm `enter utm here` (Format: Campaign Tag, must be all lowercase, with no spaces, underscores, or special characters)
 * [Add the planning sheet]()
 * Related GTM motions (select all that apply)
       * [ ]  Security and Compliance
       * [ ]  DevSecOps Platform
       * [ ]  Automated Software Delivery
-* [SFDC Campaign]() 
-* [MKTO Program]() 
+* [SFDC Campaign]()
+* [MKTO Program]()
 * Event Budget:
 * Allocadia ID: `enter ID`
 
@@ -169,7 +169,7 @@ NOTE: The Epic is the main hub for all event information. **All issues** associa
 
 ### Step 4- DRI Event Admin Tasks
 
-1. Add the event to Events Cal and [Events Page](/events/).
+1. Add the event to Events Cal and [Events Page](https://about.gitlab.com/events/).
    - How to [add an event to the events page](#how-to-add-events-to-aboutgitlabcomevents).
 1. Start an [event DRI issue](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/issues/new?issuable_template=Event_DRI_Template) and start checking off the necessary tasks. Some things to note as you go through process in template:
    - Start an event specific slack channel.
@@ -408,7 +408,7 @@ The above planning list is not exhaustive - see planning issue template in field
 
 ### Requesting Technical Staffing
 
-Some events require technical staffing (Solutions Architects and/or others from the Customer Success team). To request technical staffing, please [follow this process](/handbook/customer-success/solutions-architects/processes/#requesting-an-sa-to-support-events). 
+Some events require technical staffing (Solutions Architects and/or others from the Customer Success team). To request technical staffing, please [follow this process](/handbook/customer-success/solutions-architects/processes/#requesting-an-sa-to-support-events).
 
 ### COVID-19 Event Outreach
 
@@ -617,11 +617,11 @@ The sales nominated process allows for records to be added to the campaign in or
 
 1. List received by event DRI from event organizers
 1. Event DRI reviews and cleans up list following the guidelines for [list imports](/handbook/marketing/marketing-operations/list-import/)
-1. We now use an automated list import process, described on the link above and in the list clean and upload issue. 
+1. We now use an automated list import process, described on the link above and in the list clean and upload issue.
    - Marketo will match based on `Email Address` to existing records regardless if LEAD or CONTACT object.
 1. Marketo will sync to SFDC automatically. Traction assigns records based on Territory ownership.
 1. Event DRI will notify Marketing Ops in the email follow-up issue that the list has been loaded.
-1. The import bot will update the `#event_list_upload` channel upon list upload.  
+1. The import bot will update the `#event_list_upload` channel upon list upload.
 1. Event DRI follow up on leads to make sure expected followup completed and lead status changed.
 
 Common lead questions:
@@ -728,7 +728,7 @@ Corporate Events utilizes [QR Code Generator](https://www.qr-code-generator.com/
 
 #### Login for the [QR Code Generator](https://www.qr-code-generator.com/)
 
-Both Field Marketing and Corporate Events utilize the same login found in the Marketing 1pass vault under `QR Code Generator - Field Marketing and Corporate Events`. 
+Both Field Marketing and Corporate Events utilize the same login found in the Marketing 1pass vault under `QR Code Generator - Field Marketing and Corporate Events`.
 
 #### Pausing or Deleting QR Codes After an Event
 
@@ -832,7 +832,7 @@ For video instructions, [please see here](https://youtu.be/e4X9Dg_1rmA).
 - Go to avery.com and log in with the events login found in the Marketing 1pass
 - Under `Templates` select `Avery Design & Print`
 - Click `Start Designing`
-- Under `Quick Search`, type in the badge number found on the box of your previously purchased Avery paper (links provided in `Items to Purchase` above) 
+- Under `Quick Search`, type in the badge number found on the box of your previously purchased Avery paper (links provided in `Items to Purchase` above)
 - Select either one-sided or two-sided (if you intend to print on the back of the badge) and click `Select this Template`
 - At the top of the page select `Apply from a Saved Project`
 - Click `Select and Customize` on the horizontal orientation option
@@ -896,9 +896,9 @@ At GitLab owned events we will sometimes host 10 minute lightning meetings with 
 - There is no agenda for the 10 min meeting. The DRI for the meetings should quickly research the company via SFDC (if you don’t have the SFDC app on your phone, this is a great use case for why it’s useful!) gather as much info as quickly possible and relay this info to the CXO. As an example, if there is an enterprise customer next in-line to meet with CXO, let the CXO know. Short brief info, as you won’t have much time to relay this info.
 - Notes should be taken by the DRI or a designated delegate in the room so the CXO can focus on the meeting. These notes should be added within 48 hours to the person record in SFDC by the DRI note taker. If any next steps were discussed and an action was assigned to someone not in the room, be sure to tag the person who was assigned!
 
-## How to add events to [about.gitlab.com/events](/events/)
+## How to add events to [about.gitlab.com/events](https://about.gitlab.com/events/)
 
-In an effort to publicly share where people can find GitLab for virtual events and events in-person throughout the world, we have created [about.gitlab.com/events](/events). This page is to be updated by the person responsible for the event. This page is now managed through [Contentful](/handbook/marketing/digital-experience/contentful-cms/). To add your event to the page or make any changes to existing events, please see the instructions [here](/handbook/marketing/digital-experience/contentful-cms/editing-content/#adding-an-event-to-the-events-page).
+In an effort to publicly share where people can find GitLab for virtual events and events in-person throughout the world, we have created [about.gitlab.com/events](https://about.gitlab.com/events). This page is to be updated by the person responsible for the event. This page is now managed through [Contentful](/handbook/marketing/digital-experience/contentful-cms/). To add your event to the page or make any changes to existing events, please see the instructions [here](/handbook/marketing/digital-experience/contentful-cms/editing-content/#adding-an-event-to-the-events-page).
 
 ## Creating a Marketo Landing Page
 

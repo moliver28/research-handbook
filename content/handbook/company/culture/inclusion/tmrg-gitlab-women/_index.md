@@ -27,6 +27,7 @@ This TMRG is focused on 4 key areas of impact. We call them our pillars. Review 
 - [Kyla Gradin Dahl](/handbook/company/team/#kyla) Lead
 - [Samantha Lee](/handbook/company/team/#slee24) Co-Lead
 - [Winnie Chan](/handbook/company/team/#wyychan) Co-Lead
+- [Gosia Ksionek](/handbook/company/team/#mksionek) Co-Lead
 
 ## Executive Sponsors
 

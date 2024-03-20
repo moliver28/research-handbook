@@ -68,13 +68,13 @@ Chat channels:
 - Use `#content` for questions (also tag @sgittlen)
 - Use `#content-updates` to see updates on recently published articles
 - Slack @sgittlen directly
+- Add newsletter content requests to [this issue](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/content-strategy-and-ops/content-ops/-/issues/902)
 
 ## Other related pages
 
 - [Editorial style guide](/handbook/marketing/brand-and-product-marketing/content/editorial-team/)
 - [Brand guidelines](https://design.gitlab.com/)
 - [Monthly release post](/handbook/marketing/blog/release-posts/)
-
 
 ## Considerations when drafting a blog
 
@@ -273,25 +273,10 @@ document.querySelectorAll('a[href^="#"]').forEach(elem => {
 
 #### Preparing images
 
-- If creating an original cover image, the dimensions should be 900px x 400px at least, but ideally 1800px x 800px for optimal quality on all displays.
-- All images should be less than 1MB. JPEGs tend to be smaller than PNGs so use JPEGs when possible.
+- If creating an original cover image, the dimensions should be 1800px x 945px for optimal quality on all displays.
+- All images should aim to be less than 1MB. JPEGs tend to be smaller than PNGs so use JPEGs when possible.
 - To resize in Preview go to `Tools`, `Adjust size` and adjust the entry in the `Resolution` field. Preview will estimate what the resulting image size will be before you click `OK` to confirm.
 - Keep all the images the same width.
-
-
-#### Image captions
-
-Insert the following beneath an inline image to include a caption:
-
-```
-This is my image caption
-{: .note.text-center}
-```
-
-This will look as below:
-
-This is my image caption
-{: .note.text-center}
 
 #### Screenshots
 
@@ -308,13 +293,6 @@ to exemplify your steps `domain.com`, be consistent and keep it `domain.com`, th
 #### Embedding videos
 
 Please see the [Markdown Guide](/handbook/markdown-guide/#display-videos-from-youtube) for instructions for embedding videos from YouTube and other sources.
-
-If appropriate, please add a video credit, for example:
-
-```
-Video directed and produced by [Aricka Flowers](/handbook/company/team/#arickaflowers)
-{: .note}
-```
 
 #### Embedding tweets or Instagram posts
 

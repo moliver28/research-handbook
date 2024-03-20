@@ -305,7 +305,7 @@ Many great opportunities will not entirely fit this ideal profile. An ideal cust
 
 ### Customer Case Studies
 
-**[Glympse](/customers/glympse/)**
+**[Glympse](https://about.gitlab.com/customers/glympse/)**
 - **Problem** A complex developer tech stack with over 20 distinct tools that was hard to maintain and manage. Teams spent several hours a week keeping tools running rather than shipping innovation to their app.
 - **Solution:** GitLab Ultimate (SCM, CI, DevSecOps)
 - **Results: ~20 tools consolidated into GitLab and remediated security issues faster than any other company in their Security Auditor's experience.

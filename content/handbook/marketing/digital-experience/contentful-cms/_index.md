@@ -30,6 +30,7 @@ Contentful is a Content Management System. It replaces all of the text files in 
 
 1. [Training Resources for Contentful](/handbook/marketing/digital-experience/contentful-cms/editing-content)
 2. [Custom Pages](/handbook/marketing/digital-experience/contentful-cms/custom-pages)
+2. [Solutions Pages](/handbook/marketing/digital-experience/contentful-cms/solutions-pages)
 4. [Known knowns & feature wishlist](/handbook/marketing/digital-experience/contentful-cms/wishlist)
 
 

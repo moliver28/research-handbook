@@ -1,9 +1,7 @@
 ---
 title: "Product Design Management"
-description: "Managers in the UX department at GitLab see the team as their product. While they are credible as designers and know the details of what product designers work on, their time is spent hiring a world-class team and putting them in the best position to succeed."
+description: "Managers in the UX department at GitLab see the team as their product. While they are credible as designers and know the details of what product designers work on, their time is spent hiring a world-class team and putting them in the best position to succeed. They own the delivery of UX commitments, are always looking to improve productivity, and are responsible for the user experience in the product."
 ---
-
-Managers in the UX department at GitLab see the team as their product. While they are credible as designers and know the details of what product designers work on, their time is spent hiring a world-class team and putting them in the best position to succeed. They own the delivery of UX commitments and are always looking to improve productivity. They must also coordinate across departments to accomplish collaborative goals.
 
 ## Product Design Manager
 
@@ -18,9 +16,9 @@ The Product Design Manager is a [grade 8](/handbook/total-rewards/compensation/c
 - **Product knowledge:** Understand the technology and features of the areas you are assigned and have working knowledge of the end-to-end GitLab product.
 - **Cross-product collaboration:** Proactively identify large, strategic UX opportunities that span both inside your areas and across the product. Work with other product design managers, staff, and principal product designers to drive cross-product initiatives through awareness and prioritization.
 - **Design quality:** Be a frequent and active participant in milestones by reviewing UX deliverables (such as research and designs) that your team creates, and provide feedback to ensure high-quality output.
-- **Research:** Identify strategic user research initiatives that span multiple stage groups (and possibly the entire product), and work with other product design/research managers to organize research efforts.
+- **Research:** Identify strategic user research initiatives that span multiple stage groups (and possibly the entire product), and work with other product design/research managers to organize research efforts. Help product designers identify when research is needed for their stage group.  
 - **UX evangelism:** Communicate the value of UX to cross-functional GitLab team members and work with them to leverage the [product development flow](/handbook/product-development-flow/). Work closely with PMs to provide visibility and awareness into UX initiaties (including OKRs) and advocate for their prioritization.
-- **Usability:** Help the product teams of areas you support to prioritize UX initiatives including [UX debt](/handbook/product/ux/performance-indicators/#ux-debt), triage and resolution of UX bugs, and overall usability improvements to the product. Lead [UX Scorecard](https://handbook.gitlab.com/handbook/product/ux/ux-scorecards) initiatives in order to consistently measure the experience of your product areas and show improvements over time.
+- **Usability:** Help the product teams of areas you support to prioritize UX initiatives including [Deferred UX](/handbook/product/ux/performance-indicators/#deferred-ux), triage and resolution of UX bugs, and overall usability improvements to the product. Lead [UX Scorecard](https://handbook.gitlab.com/handbook/product/ux/ux-scorecards) initiatives in order to consistently measure the experience of your product areas and show improvements over time.
 - **UX process**: Set up and manage collaborative processes within your team to ensure product designers, technical writers, and researchers are actively working together. Make sure they have exposure to the work that is happening within the broader team. Collaborate with your peers to make improvements to how we work across the design organization.
 - **Hiring:** Help source talent, interview, and conduct portfolio reviews of product design candidates to hire a world-class team. Review and provide feedback on interview scorecards to maintain a high-quality interview process.
 - **Vision and direction:** Contribute to product direction conversations, with emphasis on leading the experience vision for your product areas.

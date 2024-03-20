@@ -10,7 +10,7 @@ Create issue for new hire in marketing with following checklist.
 ### Week 1
 
 1. [ ] Watch [Intro to Git](https://www.codeschool.com/users/sign_in) video
-1. [ ] Watch the [Vision Demo](/learn/): Idea to Production
+1. [ ] Watch the [Vision Demo](https://about.gitlab.com/learn/): Idea to Production
 1. [ ] Read [GitLab Direction](https://about.gitlab.com/direction/)
 1. [ ] Read the [Handbook](/handbook/)
 1. [ ] Study GLU: [GitLab University](https://docs.gitlab.com/ee/university/)

@@ -78,7 +78,7 @@ which runs via a scheduled pipeline to injest data.
 * Prompt discussions or strategies around low activity or engagement.
 
 ### Identifying and Monitoring Keyword Trends for Thought Leadership
-**DRI**: [Developer Advocacy](/handbook/marketing/developer-relations/developer-evangelism/)
+**DRI**: [Developer Advocacy](/handbook/marketing/developer-relations/developer-advocacy/)
 **Description**:
 * Track trending keywords and conversations via team alerts.
 * Evaluate the relevance of these keywords to our community and goals.

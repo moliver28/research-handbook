@@ -15,10 +15,26 @@ Solutions Architecture team members you should review the [GitLab People Group C
 
 #### Career Paths
 
-- Solution Architects can progress through the [Solution Architect Individual Contributor Levels](/job-families/sales/solutions-architect/#solutions-architect).
-- Solutions Architects can also pursue a leadership role and progress through the [Solution Architect Manager Levels](/job-families/sales/solutions-architect/#manager-solutions-architects).
-- Solutions Architects have also moved laterally throughout the GitLab organization (e.g., Marketing, Product, Professional Services, etc.).
-- Solutions Architects can move to similar roles outside of GitLab. Because of the valuable experience and skills gained while helping to drive customer outcomes, Solutions Architects can move to a variety of technical leadership roles across industries.
+Because of the valuable experience and skills gained while helping to drive customer outcomes, Solutions Architects can move to a variety of technical, sales and leadership roles in GitLab and across industries.
+The diagram below illustrates as shown in the ![below diagram](<SA Career Path - 29th Feb.png>)
+As you draft where you want to steer your career, consider following steps that can support you in your decisions and assessment:
+
+1. Have a [career development conversation](/handbook/people-group/learning-and-development/career-development/#what-is-career-development) with your manager to discuss the learning opportunity. It’s important to:
+
+  - Discuss the Career Path you want to explore and your motivation
+  - Learn about what involves to be in these roles (for instance, you can read the job description for the roles you are interested in or speak directly with people who are in these roles)
+  - Draft an [Individual Growth Plan](/handbook/people-group/learning-and-development/career-development/#individual-growth-plan) where you highlight:
+
+   - Options you are looking to explore
+   - Gaps you might see with where you are now in your development compared you want to be
+   - Timing
+   - Explore existing and future job openings in GitLab
+
+2. If the career move you are looking to do is in GitLab but outside of your current team, discuss with your manager to speak to the DRI for the job opening you are looking to potentially apply for
+3. Before speaking to the DRI, draft a clear set of questions you want to ask, based on job description and any doubts/questions you have from chatting with others already in the role
+4. Schedule a coffee chat or start a slack DM with the DRI of the job opening
+5. Discuss with your manager the outcome of these conversations and your decision
+6. If you are ready to apply, go ahead and apply for the role. Good Luck with your application!
 
 #### Promotion Process
 

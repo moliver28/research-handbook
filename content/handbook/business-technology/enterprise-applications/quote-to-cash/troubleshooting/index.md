@@ -214,7 +214,7 @@ The Terms are accepted upon installing the license into the Self-managed instanc
 ##### What is the difference between Terms (EULA/T&Cs/TOS) and a License?
 
 - A *EULA (End User License Agreement)* or *T&Cs (Terms and Conditions)* are the legal agreements for the terms of use and privacy policy that customers and users must agree to before using our software.
-    You can read through them on our [company website.](/terms/)
+    You can read through them on our [company website.](https://about.gitlab.com/terms/)
 
 - A *license* is a string of characters that is tied to the customer's subscription or trial that has a start and end date.
     Without applying the license, the self managed software won't work as expected.

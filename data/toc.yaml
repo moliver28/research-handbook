@@ -158,7 +158,7 @@
   url: /handbook/engineering/
   links:
   - name: Customer Support Department
-    url: /content/handbook/support/_index.md
+    url: /handbook/support/_index.md
   - name: Development Department
     url: /handbook/engineering/development/
     links:

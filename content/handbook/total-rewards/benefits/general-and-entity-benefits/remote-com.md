@@ -217,10 +217,17 @@ This plan has required enrollment for all employees. There is no opt-out option.
 
 *Contribution rates are:*
 
-- On Pensionable Salary between 0 and 7.5 x the Income Base Amount (IBA*) = 4.5% On Pensionable Salary between 7.5 and 30 x the IBA = 30% No contributions are payable on Pensionable Salary above 30 x the IBA.
+- Pensionable Salary between 0 and 7.5 x the [Income Base Amount (IBA*)](https://ec.europa.eu/social/main.jsp?catId=1130&langId=en&intPageId=4814#:~:text=The%20income%20base%20amount%20is,is%20also%20a%20lower%20limit.) = 4.5% On Pensionable Salary between 7.5 and 30 x the IBA = 30% No contributions are payable on Pensionable Salary above 30 x the IBA.
 - The company pays all the contributions and no contributions are required from employees.
 - Pensionable salary is defined as Basic Salary only.
 - Membership of the pension scheme is open to employees aged 18 to 65.
+
+Example for 2024 Income Base Amount:
+
+An employee with an annual salary of 800 000 SEK.
+- the 2024 IBA (income base amount) is 76 200 SEK. This means that 7,5 IBA x 76 200 is= 571 500
+- Up to a salary of 571 500 the employee has 4,5% contribution (coming from the employer), and above 571 500 (up to 800 000) they have a 30% contribution. There is also a roof of 30% IBA, so if an employee has an annual salary over 30 IBA (2 286 000 SEK), there would be no contribution beyond that level.
+To the top of that amount, 24,26% taxes should be added.
 
 ### Life Insurance
 

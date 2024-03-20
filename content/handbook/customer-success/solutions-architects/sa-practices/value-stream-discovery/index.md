@@ -20,7 +20,37 @@ This spectrum of approaches, from simple dialogues to intensive workshops, ensur
 
 ## Value Stream Discovery Sessions
 
-TBD.
+Value Stream Discovery (VSD) aims to gain a clear understanding of how an organization or a set of teams delivers value to its customers. VSD can be conducted using a variety of techniques, depending on objectives, time commitment, and the available level of customer/team engagement.
+
+### Common Value Stream Discovery Techniques
+
+* **Discovery Session (with Value Stream Concepts):** Integrate value stream mapping concepts into standard discovery sessions. This aligns well with GitLab's [Command of the Message](https://handbook.gitlab.com/handbook/sales/command-of-the-message/) approach, focusing on understanding the customer's current state, future desired state, and the metrics they'll use to measure success.  It's vital to grasp how the customer's value stream ties into achieving their larger business goals.
+
+* **"Day in the Life":** Leverage the established ["Day in the Life" SA practice](https://handbook.gitlab.com/handbook/customer-success/solutions-architects/sa-practices/day-in-the-life/) to extract valuable value stream information. While initial observations might be limited to a single team, the resulting metrics and insights provide a valid foundation. Ideally, expand this exercise to involve multiple teams within the value stream for greater cross-functional visibility.
+
+* **Value Stream Discovery Session (Informal):** A focused session involving representatives from across the value stream. Less structured than a full workshop, it still prioritizes understanding the customer's value stream with the potential to identify immediate improvement areas if time allows.
+
+* **Value Stream Workshop:** A comprehensive approach detailed [below in this handbook page](#value-stream-workshop).
+
+### Customer-Focused Techniques
+
+Since Value Stream Discovery aims to uncover challenges in delivering value to the end-user, techniques focusing on them can be valuable:
+
+* **Customer Journey Mapping:** Visualize the customer's experience as they interact with the value stream. Map touchpoints, identify pain points, and uncover opportunities to improve their journey, enhancing overall delivered value ([Lucidchart Overview](https://www.lucidchart.com/blog/how-to-build-customer-journey-maps)).
+
+* **Voice of the Customer (VOC):** Employ surveys, interviews, or user testing to collect direct feedback from end-users on their experience with the value stream. This qualitative data provides insights into their needs, frustrations, and areas for improvement ([Gainsight Overview](https://www.gainsight.com/essential-guides/voice-of-the-customer/)).
+
+
+### Choosing a Technique
+
+Factors to consider when selecting the most suitable approach include:
+
+* **Time constraints:** Simpler techniques are easier to fit into busy schedules.
+* **Level of Engagement:** Does the customer/team have the bandwidth for in-depth workshops, or would a less intensive approach be more suitable?
+* **Urgency:** Are there immediate pain points the value stream could address? Simpler techniques could offer faster insights.
+* **Desired Outcome:** Is the goal a high-level understanding, or a detailed action plan necessitating a full workshop?
+
+**Important Note:** Regardless of the technique selected, the core aim of Value Stream Discovery is to collaboratively understand the customer's process of delivering value, identify inefficiencies, and pinpoint opportunities for optimization.
 
 ## Value Stream Workshop
 
@@ -159,7 +189,7 @@ Without the answers to these questions we risk spending significant time and ene
 | -------- | ------- |------- |
 | Scribe(s)  |A team member who's primary purpose is to document the session, capture key metrics as they emerge which will later be used to create a executive briefing template. |  AE, Shadow SA, CSM |
 | Facilitator |A team member fully versed in the Value Stream Mapping process who is responsible for leading the session; ensuring that discussion is staying on-topic, at the right level and at the required pace.    |  SA |
-| Account Leader |Ensure that the long term strategic vision for the prospect is considered when discussing desired future state and they can also provide additional context to the current state.  Schedule meetings with the Value Stream Workshop participants.  Send summary followup emails after each session ([template](https://docs.google.com/document/d/1Aq9J8akzXOngW2vP4GmObviZDP1lo9uRvbEl4ytxgQM/edit))Update VSA Tracking fields in Salesforce.| AE |
+| Account Leader |Ensure that the long term strategic vision for the prospect is considered when discussing desired future state and they can also provide additional context to the current state.  Schedule meetings with the Value Stream Workshop participants.  Send summary followup emails after each session ([template](https://docs.google.com/document/d/1Aq9J8akzXOngW2vP4GmObviZDP1lo9uRvbEl4ytxgQM/edit))Update VSW Tracking fields in Salesforce.| AE |
 
 #### Process
 
@@ -274,32 +304,32 @@ It is recommended to review the executive briefing with your champion, key stake
 
 [Three minute video overview](https://youtu.be/k_pJJuk-qTE) covering the fields and process described below.
 
-The Account Leader (AE) is responsible for maintaining the Salesforce opportunity level VSA Tracking Fields outline below:
+The Account Leader (AE) is responsible for maintaining the Salesforce opportunity level VSW Tracking Fields outline below:
 
-- **VSA Start Date** - Date of the VSA kickoff call with the prospect/customer.(This is the first meeting with the prospect/customer, after they've committed to do a VSA, to discuss [planning of the VSA workshop](#planning-meeting-with-customer).)
-- **VSA End Date** - The date the VSA readout is presented to the prospect/customer or the date of the last meeting with the prospect if the VSA status is set to "Stalled."
-- **VSA Status** - The status of the VSA where
-  - **Planning** - Internal qualification and planning is occuring.  Please remove the status if it becomes unqualified during this step. VSA start date should not be set when this status is set.
-  - **Pitched** - We've positioned a VSA with the prospect/customer.  VSA start date should not be set when this status is set.
-  - **Accepted** - When the customer has agreed to do a VSA and has scheduled a kickoff call.  VSA start date should not be set when this status is set.
-  - **In-process** - We've had a kickoff call, are actively facilitating the VSA, or are compiling the result for the readout.
-  - **Completed** - We have presented the VSA executive readout to the prospect/customer.  VSA End Date should be set.
-  - **Stalled** - We were in-process but the prospect/customer is non-responsive and we can't schedule additional interviews.  VSA End Date should be set.
-- **VSA Readout** - The sentiment from the VSA Readout meeting.
+- **VSW Start Date** - Date of the VSW kickoff call with the prospect/customer.(This is the first meeting with the prospect/customer, after they've committed to do a VSW, to discuss [planning of the VSW workshop](#planning-meeting-with-customer).)
+- **VSW End Date** - The date the VSW readout is presented to the prospect/customer or the date of the last meeting with the prospect if the VSW status is set to "Stalled."
+- **VSW Status** - The status of the VSW where
+  - **Planning** - Internal qualification and planning is occuring.  Please remove the status if it becomes unqualified during this step. VSW start date should not be set when this status is set.
+  - **Pitched** - We've positioned a VSW with the prospect/customer.  VSW start date should not be set when this status is set.
+  - **Accepted** - When the customer has agreed to do a VSW and has scheduled a kickoff call.  VSW start date should not be set when this status is set.
+  - **In-process** - We've had a kickoff call, are actively facilitating the VSW, or are compiling the result for the readout.
+  - **Completed** - We have presented the VSW executive readout to the prospect/customer.  VSW End Date should be set.
+  - **Stalled** - We were in-process but the prospect/customer is non-responsive and we can't schedule additional interviews.  VSW End Date should be set.
+- **VSW Readout** - The sentiment from the VSW Readout meeting.
   - **Positive** - The prospect/customer was highly receptive to our recommendations and we have progressive next steps.
   - **Neutral** - The prospect/customer was receptive but we do not have clear next steps.
   - **Negative** - The prospect/customer was not receptive to our recommendation.
-- **VSA URL** - The URL to the the google drive folder containing the readout presentation and any other VSA artifacts.
-- **VSA Start Date Net ARR** - (Auto populated field) The opportunity Net ARR when the VSA start date is populated.
+- **VSW URL** - The URL to the the google drive folder containing the readout presentation and any other VSW artifacts.
+- **VSW Start Date Net ARR** - (Auto populated field) The opportunity Net ARR when the VSW start date is populated.
 
 Solutions Architects should leverage the following [SA Actiity Types](/handbook/customer-success/solutions-architects/processes/activity-capture/activity-desc/#description-for-value-stream-workshop) when [loggin activity](/handbook/customer-success/solutions-architects/processes/activity-capture/activity-desc/#description-for-value-stream-workshop)
 
-- VSA Pitch
-- VSA Execution
+- VSW Pitch
+- VSW Execution
 
 ### Training and Enablement
 
-The single source of truth for training and VSA artifacts can be found on the associated [HighSpot page](https://gitlab.highspot.com/items/6418507b8913729120197bbf).
+The single source of truth for training and VSW artifacts can be found on the associated [HighSpot page](https://gitlab.highspot.com/items/6418507b8913729120197bbf).
 
 #### Value Stream Workshop Overview
 

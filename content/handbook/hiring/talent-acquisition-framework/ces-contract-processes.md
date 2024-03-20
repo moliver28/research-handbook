@@ -337,7 +337,7 @@ CES: Follow the instructions below on how to create and send a job change letter
     - Job Change Letter, No OTE, No RSU's
     - **Special Note: Please ensure you are using the bottom two templates ONLY for NON US JCLs!**
 
-LOAs should be treated like contracts, where RSUs are only features in US ones and all other countries should have text within the DocuSign email instead.
+JCLs should be treated like contracts, where RSUs are only features in US ones and all other countries should have text within the DocuSign email instead.
 
 1. Click on Send through DocuSign
 1. You will be redirected to DocuSign.
@@ -351,6 +351,32 @@ LOAs should be treated like contracts, where RSUs are only features in US ones a
     - This ensures that the contract goes to the GitLab signatory to sign first, as well as the recruiter for a Cc and once signed by them it will go to the People Experience for an update of records.
 1. Then click "Done".
 1. When the JCL is signed, ensure that you merge profiles before Hiring to avoid creating duplicate profile
+
+## Germany Job Change Letters
+
+1. Confirm that the start date is either on the 1st or 16th of the month. For Sales or Sales Development, the start date should be the 1st. This is for payroll purposes and does not need to be on a business day.
+1. CES will send the “German Job Change Letter step 1” template email via Greenhouse.
+1. Follow the Job Change Letter process above to send via Docusign.
+1. Download a copy of the unsigned JCL on your desktop.
+1. Open the saved unsigned contract in Google Drive and replace Signatory’s name with “GitLab Signatory”. Save the contract as a PDF format.
+1. To send the contract out to the German Counsel, CES can follow the below email structure through Gmail:
+    - To (recipients) : Thomas.Leister@osborneclarke.com & julia.bauer@osborneclarke.com
+    - Subject line : Please Send Physical Job Change Letter for “Name of the team member”
+    - Body of the email : Expand the Text expander snippet “GCtogermancounsel”
+    - Attachment : CES to attach the unsigned PDF JCL
+1. In order to inform the candidate regarding the physical copies sent out via post, go to the Greenhouse profile of the ​​candidate, using the “email the “candidate name” function, select the template “German Job Change Letter already sent to counsel”.
+1. Once the candidate has confirmed that they have received the physical JCL in mail, CES will send the email template “German Job Change Letter step 2” to the candidate and close out the issue.
+
+## Contractor Conversions
+
+A contractor conversion is when a GitLab contractor is moving into a permanent position. Recruiters should communicate to their CES partner that a candidate is going through a contractor conversion process. You can confirm this by checking that the “source” says Contractor Conversion, which will show up on the requisition. CES team members will follow the same steps as a regular contract, however there are a few nuances to note:
+
+1. **Reference Check Forms:** You will need to ensure the candidate has completed the reference check form. You may need to remind recruiters that this is required when contractors transition to a permanent position. The candidate does not need to provide references again however, they will need to disclose outside work and PIAA.
+1. **Start Dates:** You may find that start dates with contractor conversions have quicker turnaround times so there are no gaps between a contract end date and a new hires’ start date (i.e. a request to start in less than 10 business days, or to start on a non-start date). Please continue to follow the [Hiring SLA Exception](https://handbook.gitlab.com/handbook/hiring/talent-acquisition-framework/coordinator/#send-contract) workflow to gain People Connect’s approval in these instances and indicate that this is a contractor conversion.
+1. **Background Checks:** Please check with the Senior Background Check Specialist in the [backgroundchecks-ces](https://gitlab.enterprise.slack.com/archives/C05ATK8B4V9) Slack channel to confirm if you need to initiate a new background check. If there is no gap between the contract and the permanent position, you may not need to initiate a new background check.
+1. **Mark as Hired:** After you mark a candidate as hired in Greenhouse, you will need to leave a comment notifying People Connect in the [peopleops-alerts](https://gitlab.enterprise.slack.com/archives/CLTBQ9XC7) Slack channel that it is a contractor conversion.
+1. **Laptop/IT:** For all contractor conversions, CES will need to confirm with IT Ops via the [people-connect_CES](https://gitlab.enterprise.slack.com/archives/GJT1K944Q) Slack channel whether the candidate will need a new laptop or not.
+    - If they do not need a new laptop, CES will remove the “Ordering your laptop” section from the Welcome email to the candidate.
 
 ## Rehires
 
@@ -519,10 +545,11 @@ To create the contract:
     - Select “PEO New Hire Template” from the dropdown
     - Click “Generate”
 1. The Candidate Experience Specialist will choose template *Offer through DocuSign -Remote.com* and will copy gitlab@remote.com on the email.
-1. In DocuSign, the CES will update the signing order to CES/Signatory as number 1 and all other copied individuals as number 2.
-1. The Candidate Experience Specialist should add the candidate to the [PEO Tracking Sheet](https://docs.google.com/spreadsheets/d/1gSOVTJ1Yv-YsSaliJwKVf-1H0vBZXxb5NWFiqCwT-uo/edit#gid=0) and keep track of communication between GitLab.
+1. In DocuSign, the CES will update the signing order to CES/Signatory as number 1 to sign and all other copied individuals as number 2, to receive a copy.
+1. CES will send PEO template and sign once it is received in their inbox.
+1. Once PEO template is signed, CES can upload candidate into the Remote.com platform (see more details instructions on how to do so, below).
 1. Remote will prepare the New Employee Contract and will inform the Candidate Experience Specialist when the contract is sgined.
-1. The Candidate Experience Specialist will [mark the candidate as hired]({{< ref "./coordinator#send-contract" >}}). See steps 10-12.
+1. Once  CES receives confirmation that the candidate has signed the Remote.com contract (can be viewed in portal), they will continue steps as normal - send Welcome Email and [mark the candidate as hired]({{< ref "./coordinator#send-contract" >}}). See steps 10-12.
 1. The CES will adjust the 'Accepted' date to match the 'Sent' date.
 
 ## How to add the New Hire to the Remote platform

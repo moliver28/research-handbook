@@ -62,7 +62,7 @@ Copy and paste this information into a text file, encrypt and send to GitLab or 
 
 ## 4. Can customers visualize the data?
 
-At this time, it will be a manual process to save each ping and analyze the metrics over time. We are starting to explore the possibilities to enable customer visualization and/or analysis.
+At this time, you can access the data through [a REST API connection](https://docs.gitlab.com/ee/api/usage_data.html#export-service-ping-data). We are starting to explore the possibilities to enable customer visualization and/or analysis.
 
 ## 5. How do we ensure that you don't change what's in the payload to include things we don't want to share? How do we re-verify this with each new release in a way that doesn't take a lot of time or effort?
 
@@ -91,3 +91,4 @@ Product Documentation: Deactivate the Service Ping
 1. [Admin Settings for Service Ping](https://docs.gitlab.com/ee/administration/settings/usage_statistics.html#service-ping)
 1. [Usage Statistics Collected](https://docs.gitlab.com/ee/administration/settings/usage_statistics.html#usage-statistics-collected)
 1. [Network Configuration](https://docs.gitlab.com/ee/administration/settings/usage_statistics.html#network-configuration)
+1. [Accessing Service Ping through REST API](https://docs.gitlab.com/ee/api/usage_data.html#export-service-ping-data)

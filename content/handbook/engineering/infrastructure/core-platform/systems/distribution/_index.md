@@ -32,7 +32,7 @@ Responsibilities:
 - Dependency updates
 - License management
 - Submissions to Partners for validations/certifications
-- The [install](/install/), [update](/update/), and [upgrade](/upgrade/) pages
+- The [install](https://about.gitlab.com/install/), [update](https://about.gitlab.com/update/), and [upgrade](https://about.gitlab.com/upgrade/) pages
 - Build and own the infrastructure used for creating the various installation methods
 - [Maintaining infrastructure](#infrastructure-and-maintenance) used in Distribution
 
@@ -240,7 +240,7 @@ us forward and helping create a better experience.
 
 In Distribution we strive for the following in our public projects:
 
-1. Uphold our [Community Code of Conduct](/community/contribute/code-of-conduct/).
+1. Uphold our [Community Code of Conduct](https://about.gitlab.com/community/contribute/code-of-conduct/).
 1. Enable [GitLab's mission that everyone can contribute.](/handbook/company/mission/#mission).
 1. Show our work in [public](#public-by-default).
 1. [Recognize and thank](/handbook/marketing/developer-relations/contributor-success/community-contributors-workflows.html#recognition-for-contributors) contributors for their work.

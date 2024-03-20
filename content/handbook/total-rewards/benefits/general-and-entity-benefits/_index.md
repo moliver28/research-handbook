@@ -77,13 +77,13 @@ GitLab offers resources related to [Financial Wellness]({{< ref "financial-welln
 
 GitLab has a "Flexible PTO policy" [time off policy]({{< ref "paid-time-off" >}}) per 25 consecutive calendar days off.
 
-## Growth and Development Benefit
+## Growth and Development Fund
 
 GitLab supports team members who wish to continue their education and growth within their professional career. GitLab team-members are eligible for a reimbursement of up to $10,000 USD per calendar year (January 1st - December 31st) depending on tenure, performance, company need for the learned skill, and available budget. A course/program is considered to be included in the calendar year in which the course/program is paid/reimbursed (which should also be the same calendar year in which it ends). If a course/program ends in December, team members have a grace period until the end of January to claim for Growth & Development reimbursements from the previous calendar year.
 
-Budget estimations for the Growth & Development benefit are based on utilization rates from past years, adjusted for the size of the company. The budget is managed on a company-wide scale, not division-specific. For example, approving reimbursement for a team member in Engineering does not "take away" budget from other engineers. Eligibility is managed on an individual basis. Eligibility for this benefit is part of each GitLab team member's Total Rewards package.
+Budget estimations for the Growth & Development Fund are based on utilization rates from past years, adjusted for the size of the company. The budget is managed on a company-wide scale, not division-specific. For example, approving reimbursement for a team member in Engineering does not "take away" budget from other engineers. Eligibility is managed on an individual basis. Eligibility for this benefit is part of each GitLab team member's Total Rewards package.
 
-The [Growth and Development page]({{< ref "growth-and-development" >}}) covers information on the application process and the different types of expenses you can get reimbursed under this benefit.
+The [Growth and Development page]({{< ref "growth-and-development" >}}) covers information on the application process and the different types of expenses that are eligible for reimbursement.
 
 ## GitLab Summit
 
@@ -132,13 +132,6 @@ GitLab offers benefits in relation to [obtaining visas and work permits](/handbo
 
 GitLab offers an Employee Assistance Program to all team members via [Modern Health]({{< ref "modern-health" >}}).
 
-## Care Concierge Pilot Program
-
-In light of our [“Family First, Work Second”]({{< ref "values#family-and-friends-first-work-second" >}}) value, we’re looking to launch a new benefit in FY23 to assist team members with family care needs (child, adult and complex care). As part of this implementation, Total Rewards will run a Pilot Program starting in October 2022 and ending in December 2022 to test our platform of choice, [Helpr](https://www.helpr-app.com/parents).
-
-Total Rewards will collaborate with the People Business Partners to select 10 team members to ensure that there is a diversity of participants from different locations, with different care needs, so that we can adequately evaluate the success of the pilot program. Participants will be required to take a survey on their experience with the service.
-
-If you are interested in participating in the Pilot Program or have any questions, please reach out to total-rewards@gitlab.com. Unfortunately, not all team members who request to particpate may be selected due to the limited space in the Pilot Program.
 
 ## Incentives
 

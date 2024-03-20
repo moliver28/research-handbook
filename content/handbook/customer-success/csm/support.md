@@ -15,7 +15,7 @@ View the [CSM Handbook homepage](/handbook/customer-success/csm/) for additional
 
 ## Objective
 
-Define the process for how the CSM interacts with the systems and processes designed to provide customers with technical support.  
+Define the process for how the CSM interacts with the systems and processes designed to provide customers with technical support.
 
 ## Establishing Customers in Support Systems
 
@@ -34,7 +34,7 @@ Users who aren't associated with their organization will not be able to access G
 
 ## Support Ticket Best Practice
 
-GitLab offers [a variety of support options](/support/) for all customers and users on both paid and free tiers. The CSM should continually review customer tickets and then educate customers on support best practices. In particular, the CSM should ensure that customers are submitting tickets that meet best practices. Please address the below items with customers for when they [open a support ticket](https://support.gitlab.com/hc/en-us):
+GitLab offers [a variety of support options](https://about.gitlab.com/support/) for all customers and users on both paid and free tiers. The CSM should continually review customer tickets and then educate customers on support best practices. In particular, the CSM should ensure that customers are submitting tickets that meet best practices. Please address the below items with customers for when they [open a support ticket](https://support.gitlab.com/hc/en-us):
 
 1. Provide as much detail as possible during the first submission of the ticket
 1. Summary of issue (when did it start, how frequently, impact on organization, etc.)

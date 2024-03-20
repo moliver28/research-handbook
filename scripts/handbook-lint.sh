@@ -205,7 +205,7 @@ fi
 rm /tmp/CODEOWNERS
 
 if [[ $ERROR_FOUND == "true" ]]; then
-  printf "%b" "\n${bold}${red}Linting Failed!${normal}${bold} - There are a number of isses with CODEOWNERS and/on Controlled Documents.${normal}\n\n"
+  printf "%b" "\n${bold}${red}Linting Failed!${normal}${bold} - There are a number of issues with CODEOWNERS and/on Controlled Documents.${normal}\n\n"
   if [[ $MISSING_FILE_ENTRY != "" ]]; then
     printf "%b" "The following files are listed in CODEOWNERS but don't exist in the repo:\n\n"
     printf "%b" "$MISSING_FILE_ENTRY\n"

@@ -12,7 +12,7 @@ The Observability group is part of the GitLab [Monitor stage](/handbook/engineer
 
 ### Stable counterparts
 
-{{< stable-counterparts manager-role="Engineering Manager(.*)Monitor:Observability" role="Principal(.*)Monitor|Security(.*)Monitor" >}}
+{{< stable-counterparts manager-role="Engineering Manager(.*)Monitor:Observability" role="Product(.*)Observability|Principal(.*)Monitor|Security(.*)Monitor" >}}
 
 ## Technical Architecture
 

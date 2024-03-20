@@ -147,8 +147,8 @@ Suggested events will be subject to a valuation calculation - will it meet or ex
 * [Corporate Events FY 24 Sponsored Events Speaking Session + CFP Tracker](https://docs.google.com/spreadsheets/d/1zX5gP_YI0wbn6791Ho6Qmvensy_dZEGaN7l1KpgIy4k/edit?usp=sharing)
 * [FY24 Sponsored Events & Epics](https://gitlab.com/groups/gitlab-com/marketing/-/epics/3526)
 * [FY24 Dev Evangelism Event Strategy](https://gitlab.com/groups/gitlab-com/marketing/-/epics/3538?_gl=1*1jqjp5x*_ga*MTM3Mzg1MjIwNS4xNjU1MjE1MTQy*_ga_ENFH3X7M5Y*MTY3NTcxNDEzNC4xNzkuMC4xNjc1NzE0MTM0LjAuMC4w)
-* [Developer Advocate CFPs](/handbook/marketing/developer-relations/developer-evangelism/cfps/)
-* [Developer Advocate CFP Workflow](/handbook/marketing/developer-relations/developer-evangelism/workflow/#cfp-workflow)
+* [Developer Advocate CFPs](/handbook/marketing/developer-relations/developer-advocacy/cfps/)
+* [Developer Advocate CFP Workflow](/handbook/marketing/developer-relations/developer-advocacy/workflow/#cfp-workflow)
 
 ### Process
 

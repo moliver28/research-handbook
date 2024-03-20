@@ -6,9 +6,9 @@ description: "Provides a general overview of how the GitLab.com (SaaS) context i
 
 ## Overview
 
-This page is meant to provide a general overview of how GitLab SaaS (GitLab.com) is different from self-managed instances of GitLab.
+This page is meant to provide a general overview of how GitLab.com is different from self-managed instances of GitLab.
 
-Please note that context for the following sections on this page should be covered by the various [workflows](/handbook/support/workflows) that Support utilizes when working with GitLab SaaS along with the [GitLab.com Basics](https://gitlab.com/gitlab-com/support/support-training/-/blob/main/.gitlab/issue_templates/GitLab-com-Basics.md) training module.
+Please note that context for the following sections on this page should be covered by the various [workflows](/handbook/support/workflows) that Support utilizes when working with GitLab.com along with the [GitLab.com Basics](https://gitlab.com/gitlab-com/support/support-training/-/blob/main/.gitlab/issue_templates/GitLab-com-Basics.md) training module.
 
 ## GitLab.com Architecture
 
@@ -28,7 +28,7 @@ Violation of terms, including DMCA and code of conduct, are taken care of by [Se
 
 ## Administration
 
-With GitLab SaaS, GitLab (the company) is the administrator of the instance. This has a number of consequences, outlined below.
+With GitLab.com, GitLab (the company) is the administrator of the instance. This has a number of consequences, outlined below.
 
 ### Users Are Not Admins
 

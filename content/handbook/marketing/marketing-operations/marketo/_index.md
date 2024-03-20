@@ -214,7 +214,7 @@ WIP
 | Auto-MQL Behavior | Campaign Description | Points Assigned | Schedule/Flow Limit |
 | ------ | ------ | ------ | ------|
 |   Follow Up Requested  | Follow Up Requested, <br> Conference > Meeting Attended   | +100 | Everytime | 
-|  Inbound  | Contact Request, <br> Renewals, <br> [Hand Raise PQL](https://handbook.gitlab.com/handbook/product/product-principles/#a-pql-can-be-further-broken-down-into-two-types-usage-and-hand-raise), <br> In-app Health Check, <br> Duo Requests | +100 | 1/day | 
+|  Inbound  | Contact Request, <br> Renewals, <br> [Hand Raise PQL](https://handbook.gitlab.com/handbook/product/product-principles/#a-pql-can-be-further-broken-down-into-two-types-usage-and-hand-raise), <br> In-app Health Check, <br> Duo Requests <br> | +100 | 1/day | 
 | PTP Score  |Assigned a 4 or 5 score via the Propensity Model<br>- [Educational deck](https://docs.google.com/presentation/d/1dxSXekzw-SIF1g4pjNf6QGNBUY1L6euggsqqr9BTHUY/edit#slide=id.g1d24c3e4ddd_5_252)<br> -[Internal Handbook](https://internal.gitlab.com/handbook/sales/propensity_models/) | +100 | 1/90 days |
 | Web Chat - <br>Qualified  |Web chat interaction or meeting scheduled | +100 | 1/day | 
 |* Inbound - Med|Inbound form, not above |    +100|1/day|
@@ -248,11 +248,8 @@ Boosts to scores occur when a special action takes place above the traditional a
 |**Interaction Boosters**|Campaign Description|**Points Assigned**|**Schedule/Flow Limit**|
 |:-------------:|:-------:|:-----:|:--------:|
 |Re-MQL Score|    Status is Nurture,user takes an activity that increases behaviour score<br>MQL Counter >0    |+20    |    1/month|
-|On24 Engagement Booster | Earned a high "engagement score" on On24 platform |+10 | Once/3 month |
-|On24 Questions Asked Booster | Engaged with team via questions on On24 platform | +5 | Once/week  |
-|On24 Resources Booster | Viewed available research assets via On24 platform| +5| Once |
 |LinkedIn Form Fill Booster| Fills out LinkedIn Lead Gen Form | +30|Everytime|
-|PF Demo Booster|Consumes PF content that is a demo|+35|1/day|
+|PF Demo Booster|Consumes PF content that is a demo|+20|1/day|
 
 <!--|PF Engagement Booster 2|Engagement Time > 4 minutes|+15|Everytime|
 |PF Engagement Booster 1|Engagement Time >  2 minutes < 4 minutes|+10|Everytime|
@@ -274,7 +271,6 @@ For Job role/function and seniority descriptions can be found [here](https://doc
 |Function - Med|[Find descriptions here](https://docs.google.com/spreadsheets/d/1EztHU53vE9Y_mmxlb4taQJ5_oo7CatdFvZNxbMklJf4/edit?usp=sharing)|+15|   Once|
 |Function - Low|[Find descriptions here](https://docs.google.com/spreadsheets/d/1EztHU53vE9Y_mmxlb4taQJ5_oo7CatdFvZNxbMklJf4/edit?usp=sharing)|    +10 |    Once|
 |Country - Tier 1, Tier 2 |[Country = Tier 1, Tier 2](/handbook/marketing/localization/#priority-countries)|    +5   |Once|
-| Key Account | Key Account = True |    TBD  |Once|
 
 #### Score Decay
 

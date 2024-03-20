@@ -159,8 +159,11 @@ You can now return to this report at any time to check;
 - Information pertaining to the case will be displayed in the Case Reason, Context, CTA & Description box.
 - An Advocate must then update the Status to In Progress.(This shows the case is being worked, and takes it out of the queue). 
 - To work the case, the SMB Advocate should contact the customer, with all activities logged on the contact/ account, via Outreach. The Next Steps fields on the case should also be updated to include the case next steps/ date. 
+- Note: when picking up a case created by a GitLab stakeholder e.g the Support Team, it is crucial that the Advocate updates **Next Steps** as soon as the case has been actioned. 
+ This allows the stakeholder to view case updates, and negates the need for them to chatter the Case Owner requesting an update.  Any updates that *are* requested via chatter, should be answered by the Advocate/ Case Owner within one business day.
 - (If the Advocate is working on an Expansion Opportunity case, any Add On or Growth opp they uncover should be manually created, and linked to the case in question, via the Opportunity lookup field).
 - Once a Case is considered resolved, the Status should be set to one of the four Closed options, and the Resolution Action updated. This will automatically update the Date/ Time Closed field.
+- Note:  Inbound customer requests must only be marked as closed once the customers needs have been addressed. 
 - If applicable, the linked opportunity should also be closed.
 - At any time, a SMB Advocate can view their cases by navigating to the My Cases list view in Salesforce.
 - When working cases, the following Outreach cadence should be followed.
@@ -249,6 +252,8 @@ Before picking up the case, the Advocate checks that they can attend the meeting
 The Advocate should also advise the SDR, by chattering them on the opp, that they have picked up the case.
 The below SDR Handover Process steps, and Handover Criteria, detailed below should also be followed by both the SDR and Advocate.
 
+*Note*: If Prospect is ready to buy (i.e no IQM is required), does not qualify for Advocate support, and is unable to purchase their license via Web (Ex: Multi-Year, Needs PO, Duo Pro, etc), please proceed with the [Blocked Purchase Workflow](https://docs.google.com/spreadsheets/d/18tGE_dpbx7nLu2S6bzD3WkLrHM3IrDv72WWJMgDDi64/edit#gid=920984489). Criteria [here](https://docs.google.com/spreadsheets/d/18tGE_dpbx7nLu2S6bzD3WkLrHM3IrDv72WWJMgDDi64/edit#gid=1849175247). 
+
 ### SDR Created (an SDR engages with a lead that is related to a customer account)
 Before creating a case, the SDR should convert the lead to a contact, under the customer account. 
 When creating the case, this newly created Contact should be added to the Case. 
@@ -288,7 +293,9 @@ The email templates, and which Case Trigger they are relevant to, are listed in 
 
 All High Priority cases should be picked up and responded to within 24 hours of entering the queue.
 
-All Medium/ Low Priority cases should be picked up and responded to within 48 hours of entering the queue.
+All Medium Priority cases should be picked up and responded to within 48 hours of entering the queue.
+
+All Low Priority cases should be picked up and responded to within 7 days of entering the queue.
 
 ### Open Case Guidelines
 

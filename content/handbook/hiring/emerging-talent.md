@@ -1,6 +1,7 @@
 ---
 title: "Emerging Talent @ GitLab"
 description: "Overview of Emerging Talent @ GitLab"
+aliases: /handbook/engineering/internships/
 ---
 
 Our Emerging Talent strategy ignites GitLab to build toward creating globally inclusive access to opportunities so that everyone can contribute. Emerging Talent, defined as talent with 2 years or less experience in a given domain, will be a value add as GitLab scales. We believe emerging talent adds value to GitLab by [increasing representation](https://joinhandshake.com/blog/employers/diversity-and-inclusion-7-essential-early-talent-recruiting-strategies/) from historically underrepresented and excluded groups and promotes a [healthy organizational structure](https://journals.sagepub.com/doi/10.1177/0146167219842867) for GitLab and its partners

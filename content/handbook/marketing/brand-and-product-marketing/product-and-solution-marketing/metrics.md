@@ -97,7 +97,7 @@ Product and Solution Marketing tracks an inventory about what it creates and pub
 
 ## Marketing Attribution Model
 
-- [Marketing attribution](https://app.periscopedata.com/app/gitlab/556414/Marketing-Linear-Attribution)
+- [Marketing attribution](https://10az.online.tableau.com/#/site/gitlab/views/DraftTDCampaigns-L2RInteractions/CampaignDrillDown?:iid=1)
 - Learning: [Marketing attribution - quick overview](https://www.bizible.com/blog/marketing-attribution-models-complete-list)
 
 ## Customer Reference Analytics

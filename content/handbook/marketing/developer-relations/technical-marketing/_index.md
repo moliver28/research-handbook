@@ -108,7 +108,7 @@ To request content from our team, please follow the [content request](/handbook/
 
 ### Content distribution
 
-Content we create is distributed internally and externally to our stakeholders, customers, and community. We follow the [content distribution](/handbook/marketing/developer-relations/developer-evangelism/#content-distribution) process from the Developer Advocacy handbook page.
+Content we create is distributed internally and externally to our stakeholders, customers, and community. We follow the [content distribution](/handbook/marketing/developer-relations/developer-advocacy/#content-distribution) process from the Developer Advocacy handbook page.
 
 ## Which Technical Marketing Manager?
 

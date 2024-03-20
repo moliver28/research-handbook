@@ -80,7 +80,7 @@ As we continue to scale, so does the volume of referrals we receive. Referrals a
   
 
 
-If the person you wish to refer has already submitted an application, please email referrals@gitlab with the Detailed Referral Description required. You must provide details on how you know the candidate and why they're aligned with the role at GitLab to determine whether or not they are qualified as a referral. It's important to note that, despite our best efforts, individuals who apply without following the proper referral procedure may not receive the same experience as those referred through our formal channels in Greenhouse.
+If the person you wish to refer has already submitted an application, please still submit your referral through Greenhouse with the details required. The Recruiting team will then merge the profiles. Referrer input is most valuable at the start of the process, so we will only consider referrals before the candidate's application has been reviewed. You'll be notified directly by the relevant recruiter if their profile as already been reviewed. It's important to note that, despite our best efforts, individuals who apply without following the proper referral procedure may not receive the same experience as those referred through our formal channels in Greenhouse.
 
 
 ##### Submitting a Referral in Greenhouse
@@ -136,7 +136,7 @@ As a way of ensuring a consistent and positive experience with both the candidat
         1. The referral aligns to the role however there are late stage candidates in process already, inform the referral via email and referrer via DM.
             - If we don't prceed with current candidates in final stages, revisit the referral and progress if appropriate.
             - If the role is filled, ensure the referral is rejected and sent the "Position Filled" email template.
-            - If the referred candidate is aligned to a role but we proceed with another candidate, an option is for the Recruiter to setup a networking call to keep hte candidate in mind for future roles.
+            - If the referred candidate is aligned to a role but we proceed with another candidate, an option is for the Recruiter to setup a networking call to keep the candidate in mind for future roles.
     1. **Progress** - candidate is aligned to the role
         1. Move them to *Qualified*
         1. Send application questions to confirm sponsorship requirements, location, EEOC, etc.

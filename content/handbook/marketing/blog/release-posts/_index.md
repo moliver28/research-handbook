@@ -13,7 +13,7 @@ description: "Guidelines to create and update release posts"
 ## Introduction
 
 
-Release posts are [blog posts](/releases/categories/releases/) that announce changes to the GitLab application. This includes our regular cadence of monthly releases which happen [every month](/handbook/engineering/releases/), and patch/security releases whenever necessary.
+Release posts are [blog posts](https://about.gitlab.com/releases/categories/releases/) that announce changes to the GitLab application. This includes our regular cadence of monthly releases which happen [every month](/handbook/engineering/releases/), and patch/security releases whenever necessary.
 
 Release posts follow a process outlined here, and the templates that are used to create them also highlight what needs to be done, by whom, and when those items are due.
 
@@ -190,7 +190,7 @@ The responsibilities of a technical advisor can be seen in more detail in [Techn
 - Pinging the PMs and others as needed in Slack or MRs to help resolve feedback
 - Making sure the release post is **ready to merge two days before the [release date](/handbook/engineering/releases/)**
 - [Communicate](#communication) directly with product managers using [#product](https://gitlab.slack.com/archives/C0NFPSFA8) on Slack as needed to field questions that come up from viewers of the release post blog once it is live on the [release date](/handbook/engineering/releases/)
-- If you need additional support in engaging with the community, the Developer Advocacy team ([#dev-advocacy-team](https://gitlab.slack.com/archives/CMELFQS4B) on Slack) is available to support on [release days](/handbook/marketing/developer-relations/developer-evangelism/hacker-news/#release-days)
+- If you need additional support in engaging with the community, the Developer Advocacy team ([#dev-advocacy-team](https://gitlab.slack.com/archives/CMELFQS4B) on Slack) is available to support on [release days](/handbook/marketing/developer-relations/developer-advocacy/hacker-news/#release-days)
 - Making sure the auto sorting of secondary features by title (alpha) and stage generally looks good or is revised if need be [Content Reviews](#content-reviews)
 - Working with PMs and others as needed to make sure any external blogs they reference in their content blogs go live before the release post blog gets published on the [release date](/handbook/engineering/releases/)
 - Making sure the TW Lead is aware if release post items are added or removed after the Monday of release week
@@ -250,7 +250,7 @@ Hey team, reminder that there are currently XX Open and Ready MRs targeting XX.X
 Hi all, I will be completing the final merge for the release post in the next 45 minutes-1 hour! I will be coordinating any activities with team members to resolve any problems that come up. cc @Tech Advisor @TW Lead
 ```
 
-The Developer Advocacy Team will reach out to the Release Post Manager in Slack #release-post following their [Release days process](/handbook/marketing/developer-relations/developer-evangelism/hacker-news/#release-days) when they need help responding to inquiries about content in the release post blog. These needs will primarily arise within the first week of going live with the blog. However, as the Author for a specific release post, you may get pinged to help coordinate a response some weeks later as issues arise. You will usually just need to find the best DRI to handle the issue, often the PM of the release post item in question.
+The Developer Advocacy Team will reach out to the Release Post Manager in Slack #release-post following their [Release days process](/handbook/marketing/developer-relations/developer-advocacy/hacker-news/#release-days) when they need help responding to inquiries about content in the release post blog. These needs will primarily arise within the first week of going live with the blog. However, as the Author for a specific release post, you may get pinged to help coordinate a response some weeks later as issues arise. You will usually just need to find the best DRI to handle the issue, often the PM of the release post item in question.
 
 Sometimes, external PR and Marketing firms reporting on the release or managing media relations may ping the RPM directly with questions, since the RPM is the "author" of the release post. If this happens, the Release Post Manager should figure out who in Marketing can take over this communication.
 
@@ -1002,18 +1002,18 @@ It is a required field.
 
 #### Stage
 
-- `stage`: the [stage](/stages-devops-lifecycle/) the feature belongs to (lowercase):
+- `stage`: the [stage](https://about.gitlab.com/stages-devops-lifecycle/) the feature belongs to (lowercase):
 
-  - [`manage`](/stages-devops-lifecycle/)
-  - [`plan`](/stages-devops-lifecycle/plan/)
-  - [`create`](/stages-devops-lifecycle/create/)
-  - [`verify`](/stages-devops-lifecycle/verify/)
-  - [`package`](/stages-devops-lifecycle/package/)
-  - [`release`](/stages-devops-lifecycle/release/)
-  - [`configure`](/stages-devops-lifecycle/configure/)
-  - [`monitor`](/stages-devops-lifecycle/monitor/)
-  - [`secure`](/stages-devops-lifecycle/secure/)
-  - [`govern`](/stages-devops-lifecycle/govern/)
+  - [`manage`](https://about.gitlab.com/stages-devops-lifecycle/)
+  - [`plan`](https://about.gitlab.com/stages-devops-lifecycle/plan/)
+  - [`create`](https://about.gitlab.com/stages-devops-lifecycle/create/)
+  - [`verify`](https://about.gitlab.com/stages-devops-lifecycle/verify/)
+  - [`package`](https://about.gitlab.com/stages-devops-lifecycle/package/)
+  - [`release`](https://about.gitlab.com/stages-devops-lifecycle/release/)
+  - [`configure`](https://about.gitlab.com/stages-devops-lifecycle/configure/)
+  - [`monitor`](https://about.gitlab.com/stages-devops-lifecycle/monitor/)
+  - [`secure`](https://about.gitlab.com/stages-devops-lifecycle/secure/)
+  - [`govern`](https://about.gitlab.com/stages-devops-lifecycle/govern/)
   - [`systems`](/handbook/product/categories/#systems-stage)
   - [`data_stores`](/handbook/product/categories/#data-stores-stage)
 
@@ -1243,7 +1243,7 @@ If an End of Support milestone is announced, it will be displayed under the titl
 If you decide to declare an End of Support period:
 
 - Check for any [Support Stable Counterpart](/handbook/support/support-stable-counterparts.html) (also listed on the [product categories page](/handbook/product/categories/)) for your development group and tag them in the MR that adds a value to the `end_of_support_milestone`.
-- If your group does not have a Support Stable Counterpart, look for a stage or section Support Counterpart. If none, please post in the `#spt_managers` Slack channel with a link to the readiness issue (next line).
+- If your group does not have a Support Stable Counterpart, look for a stage or section Support Counterpart. If none, please post in the `#support_leadership` Slack channel with a link to the readiness issue (next line).
 - Please also open a Support Readiness issue [following the Support communications guidance](/handbook/support/internal-support/#contacting-users-about-gitlab-incidents-or-changes).
 
 #### Editing an announcement entry
@@ -1678,10 +1678,10 @@ The What's New MR will be initiated by the Release Post Manager on the Tuesday o
 - [GitLab the product](/handbook/product/gitlab-the-product/#gitlab-the-product)
 - [General guidance on deprecations, remvoals and breaking changes](/handbook/product/gitlab-the-product/#breaking-changes-deprecations-and-removing-features)
 - [Release Post volunteer schedule](managers/)
-- [Security and monthly releases](/releases/categories/releases/)
-- [Features per release](/releases/)
+- [Security and monthly releases](https://about.gitlab.com/releases/categories/releases/)
+- [Features per release](https://about.gitlab.com/releases/)
 - [GitLab CE and GitLab EE changelog](https://gitlab.com/gitlab-org/gitlab/-/blob/master/CHANGELOG.md)
-- [Release managers](/community/release-managers/)
+- [Release managers](https://about.gitlab.com/community/release-managers/)
 
 ### Templates
 

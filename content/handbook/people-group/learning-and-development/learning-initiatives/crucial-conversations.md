@@ -29,11 +29,7 @@ Upon completion of the self paced material you will earn an official Crucical Co
 
 ## Upcoming Sessions
 
-If you are a GitLab Team Member and interested in participating in the course, you can fill out our [Crucial Conversations interest form](https://docs.google.com/forms/d/e/1FAIpQLSdqwibbQZs-zL-IX9aq9Yzgozm-y3i0Vwh59T8T1nR74mxmFQ/viewform).
-
-**FY24**
-
-- FY24-Q1: 1 cohort, dates TBD
+There are no upcoming sessions planned. If you'd like to earn your Crucial Conversations certificaiton, please see options offered directly by [Crucial Learning.](https://cruciallearning.com/)
 
 ## Results
 

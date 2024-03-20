@@ -118,12 +118,12 @@ Please keep in mind:
 
 ## Temporary renewal extensions
 
-*Last updated on 2024-01-17.*
+*Last updated on 2024-02-23.*
 
 | Use Case | Status |
 |---|---|
-| Temporary extensions for **Self-Managed** renewals | Development of this feature is complete, [BETA](#beta-rollout) is in progress. |
-| Temporary extensions for **SaaS** renewals | Development of this feature is complete, and is included in [BETA](#beta-rollout) as of 2024-01-17. |
+| Temporary extensions for **Self-Managed** renewals | Available for eligible renewal opportunities |
+| Temporary extensions for **SaaS** renewals | Available for eligible renewal opportunities  |
 
 In the event that a renewal process takes longer then intended (e.g. customer takes longer than average to sign renewal deal), customers run into a problem when their license expires at the subscription term end and they lose complete access to their GitLab instance (Self-managed or SaaS).
 
@@ -131,19 +131,16 @@ Temporary Renewal Extension is an internal feature built in SFDC, and is accessi
 
 Additional context about this feature can be found [here](https://gitlab.com/groups/gitlab-org/-/epics/10173), including a [visual timeline](https://gitlab.com/groups/gitlab-org/-/epics/10173#timeline-of-events) of subscription events related to the temporary renewal extensions.
 
-Please share your feedback about this feature in [this issue](https://gitlab.com/gitlab-org/fulfillment/meta/-/issues/1514).
+Please share your feedback about this feature in [this issue](https://gitlab.com/gitlab-org/fulfillment/meta/-/issues/1728).
 
-### Beta rollout
-
-BETA access to **temporary extensions for Self-Managed renewals** is being rolled via [this issue](https://gitlab.com/gitlab-com/sales-team/field-operations/systems/-/issues/4544) (confidential).
 
 ### Creating an extension
 
 Please watch [this video](https://www.youtube.com/watch?v=ENRtOQ0DbkM) for an overview of creating an extension. The process is also described below.
 
 1. Go to the SFDC Renewal Opportunity that needs additional processing time.
-1. Click on `Request Temporary License` button. *If you are not part of the beta group, you will see an error message.*
-1. Temporary License form will load, and display the related OpportunityID and ZuoraSubscriptionID.
+1. Click on `Request Temporary Extension` button.
+1. Temporary Renewal Extension form will load, and display the related OpportunityID and ZuoraSubscriptionID.
 1. Select `Reason` from the drop down, specify number of `Users` for the license, add optional `Notes`, then click `Next`.
    1. If creating a temporary renewal extension for SaaS subscription, the number of `Users` is irrelevant - extension will be created for the same number of users as the current subscription.
 1. Once the extension is created, you will see a success message. Otherwise, you will see an [error message](add-link).

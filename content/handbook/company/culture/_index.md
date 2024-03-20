@@ -79,7 +79,7 @@ Learn more about [all-remote work]({{< ref "all-remote" >}}) at GitLab and decid
 Culture at GitLab is composed of three things.
 
 1. [GitLab Values]({{< ref "values" >}})
-1. Camaraderie (mutual trust and friendship). This is created and maintained by [informal communication](.{{< ref "./all-remote/informal-communication" >}}/. We also build trust by [effectively collaborating]({{< ref "values#dont-let-each-other-fail" >}}) with others.
+1. Camaraderie (mutual trust and friendship). This is created and maintained by [informal communication]({{< ref "./all-remote/informal-communication" >}}). We also build trust by [effectively collaborating]({{< ref "values#dont-let-each-other-fail" >}}) with others.
 1. Work style (how we work). This is defined and articulated in our [communication guide]({{< ref "communication" >}}) and [handbook usage guide]({{< ref "handbook-usage" >}}).
 
 In other organizations, culture may be defined through the *personality of the group*. This includes people who have traits in common and people who you enjoy spending time with. Note that this is not something that should matter when [evaluating people for work]({{< ref "#culture-fit-is-a-bad-excuse" >}}), and this is not what we mean with Culture at GitLab.

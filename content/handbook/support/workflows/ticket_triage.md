@@ -87,7 +87,7 @@ If a ticket is created through the Global Support Portal and a request is made t
 
 ## Other Requests
 
-We also receive non Support requests in our queue - if you see something not listed below or something you are unsure about, ask in the `#spt_managers` slack channel and make a MR to update the list below when you find out the answer.
+We also receive non Support requests in our queue - if you see something not listed below or something you are unsure about, ask in the `#support_leadership` slack channel and make a MR to update the list below when you find out the answer.
 
 |Request|Workflow|
 |--|--|

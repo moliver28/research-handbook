@@ -29,7 +29,6 @@ At the highest level, TD Marketing Key Dashboards are intended to provide insigh
 
 | **Dashboard** | **Platform** | **Access Type** | **Description** |
 |:--------------|:-------------|:----------------|:----------------|
-| [Marquee Marketing Metrics Dashboard](https://app.periscopedata.com/app/gitlab:safe-intermediate-dashboard/1070254/Marquee-Marketing-Metrics-Dashboard)  | Sisense      | SAFE            | Tracks high-level KPIs across Awareness, Consideration, Conversion, Expansion & Evangelism. |
 | [Unified Marketing Funnel Dashboard](https://10az.online.tableau.com/#/site/gitlab/views/MarketingUnifiedFunnel_16934325416300/MarketingUnifiedFunnel?:iid=2)   | Tableau      | General         | Visualizes the user journey across marketing channels, website engagement, SaaS trials, to a paid conversion. This dashboard helps identify trends and assess the impact of strategic changes implemented by the Digital Marketing, Digital Experience, and Growth teams. |
 
 #### TD General Marketing Dashboards

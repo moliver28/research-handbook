@@ -282,11 +282,11 @@ More case studies here -> Filter by Usecase *CI* or *CD* or *SCM* or *GitOps* to
 - [GitOps](https://docs.google.com/presentation/d/1o728pUdk1rrNqWAZpzZVdfZ3gzADvTXSssVzqL-6WB4/edit#slide=id.g8d846209b0_25_172)
 
 ### WebPage, Whitepapers, infographics, blogs
-- [What is GitOps?](/topics/gitops/)
+- [What is GitOps?](https://about.gitlab.com/topics/gitops/)
 - [Infrastructure as Code using GitLab & Ansible](https://about.gitlab.com/blog/2019/07/01/using-ansible-and-gitlab-as-infrastructure-for-code/)
-- [Part 1 of 3: Why collaboration technology is critical for GitOps](/topics/gitops/gitops-gitlab-collaboration/)
-- [Part 2 of 3: How infrastructure teams use GitLab and Terraform for GitOps](/topics/gitops/gitlab-enables-infrastructure-as-code/)
-- [Part 3 of 3: How to deploy to any cloud using GitLab for GitOps](/topics/gitops/gitops-multicloud-deployments-gitlab/)
+- [Part 1 of 3: Why collaboration technology is critical for GitOps](https://about.gitlab.com/topics/gitops/gitops-gitlab-collaboration/)
+- [Part 2 of 3: How infrastructure teams use GitLab and Terraform for GitOps](https://about.gitlab.com/topics/gitops/gitlab-enables-infrastructure-as-code/)
+- [Part 3 of 3: How to deploy to any cloud using GitLab for GitOps](https://about.gitlab.com/topics/gitops/gitops-multicloud-deployments-gitlab/)
 - [GitOps with GitLab: The CI/CD Tunnel](https://about.gitlab.com/blog/2022/01/07/gitops-with-gitlab-using-ci-cd/)
 - [Auto DevOps 101: How we’re making CI/CD easier](https://about.gitlab.com/blog/2019/10/07/auto-devops-explained/)
 - [Progressive Delivery](https://about.gitlab.com/blog/2019/04/19/progressive-delivery-using-review-apps/)

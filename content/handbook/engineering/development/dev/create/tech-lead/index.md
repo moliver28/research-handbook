@@ -20,10 +20,9 @@ This role is outlined [here](https://handbook.gitlab.com/handbook/engineering/ic
 
 | Start Date | End Date | Estimated End Date | Epic(s) / Issue(s)     | Tech Lead  |
 |------------|----------|--------------------|-------------------------|------------|
-| YYYY-MM-DD | YYYY-MM-DD | YYYY-MM-DD       | Epic/Issue Name 1      | Tech Lead 1 |
-| YYYY-MM-DD | YYYY-MM-DD | YYYY-MM-DD       | Epic/Issue Name 2      | Tech Lead 2 |
-| YYYY-MM-DD | YYYY-MM-DD | YYYY-MM-DD       | Epic/Issue Name 3      | Tech Lead 3 |
-| YYYY-MM-DD | YYYY-MM-DD | YYYY-MM-DD       | Epic/Issue Name 4      | Tech Lead 4 |
+| 2024-01-30 | TBD      | TBD                | [Cells 1.0](https://gitlab.com/groups/gitlab-org/-/epics/12795) | [Kerri Miller](https://gitlab.com/kerrizor) |
+| 2024-02-13 | TBD      | TBD                | [New Diffs](https://gitlab.com/groups/gitlab-org/-/epics/11559) | [Stanislav Lashmanov](https://gitlab.com/slashmanov) |
+| 2024-02-19 | TBD      | TBD                | [Review Rounds](https://gitlab.com/groups/gitlab-org/-/epics/9577) | [Phil Hughes](https://gitlab.com/iamphill) |
 
 ### IDE Tech Leads
 
@@ -39,10 +38,8 @@ This role is outlined [here](https://handbook.gitlab.com/handbook/engineering/ic
 
 | Start Date | End Date | Estimated End Date | Epic(s) / Issue(s)     | Tech Lead  |
 |------------|----------|--------------------|-------------------------|------------|
-| YYYY-MM-DD | YYYY-MM-DD | YYYY-MM-DD       | Epic/Issue Name 1      | Tech Lead 1 |
-| YYYY-MM-DD | YYYY-MM-DD | YYYY-MM-DD       | Epic/Issue Name 2      | Tech Lead 2 |
-| YYYY-MM-DD | YYYY-MM-DD | YYYY-MM-DD       | Epic/Issue Name 3      | Tech Lead 3 |
-| YYYY-MM-DD | YYYY-MM-DD | YYYY-MM-DD       | Epic/Issue Name 4      | Tech Lead 4 |
+| 2024-02-01 | TBD      | TBD      | [Cell 1.0](https://gitlab.com/gitlab-org/gitlab/-/issues/434977) | [Tomas Vik](https://gitlab.com/viktomas) |
+
 
 ### Code Creation Tech Leads
 

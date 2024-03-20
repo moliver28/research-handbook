@@ -62,11 +62,8 @@ In the spirit of [Iteration](/handbook/values/#iteration)and [Collaboration](/ha
 ### Historical capacity
 
 Points of weight delivered by the team on the last milestones. This allows for more accurate estimation of what we can deliver
-in future milestones. Full chart [here](https://app.periscopedata.com/app/gitlab/565798/WIP:-Fulfillment:License-milestone-weights).
+in future milestones. Full chart [to be migrated](https://gitlab.com/gitlab-data/tableau/-/issues/685).
 
-{{< sisense dashboard="565798" chart="7362278" >}}
-
-{{< sisense dashboard="565798" chart="7362279" >}}
 
 ## Performance Indicators
 

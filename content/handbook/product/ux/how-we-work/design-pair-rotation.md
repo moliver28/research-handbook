@@ -33,7 +33,7 @@ This is the rotation schedule for FY25-Q1 and Q2 (2024-02-01 until 2024-07-31).
 | Emily Bauman           | Austin Regnery             |
 | Ilonah Pelaez          | Gina Doyle                 |
 | Michael Fangman        | Jeremy Elder               |
-| Nick Leonard           | Matthew Nearents           |
+| Nick Leonard           | Divya Alagarsamy           |
 | Nick Brandt            | Ian Gloude                 |
 
 ### Temporary pairing

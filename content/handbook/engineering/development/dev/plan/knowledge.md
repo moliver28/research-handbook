@@ -23,7 +23,7 @@ For more details about the vision for this area of the product, see the
 
 ### Hiring chart
 
-Check out our [jobs page](/jobs/) for current openings.
+Check out our [jobs page](https://about.gitlab.com/jobs/) for current openings.
 
 ## Planning
 
@@ -143,9 +143,26 @@ It's encouraged to engage with this team when spiking and planning new work for 
 
 ### Dashboards
 
-{{% cross-functional-dashboards filters="Knowledge" %}}
+{{< tableau height="600px" toolbar="hidden" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/TopEngineeringMetrics/TopEngineeringMetricsDashboard" >}}
+  {{< tableau/filters "GROUP_LABEL"="knowledge" >}}
+{{< /tableau >}}
 
-More detail is available on our [metrics page].
+{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/MergeRequestMetrics/OverallMRsbyType_1" >}}
+  {{< tableau/filters "GROUP_LABEL"="knowledge" >}}
+{{< /tableau >}}
+
+{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/Flakytestissues/FlakyTestIssues" >}}
+  {{< tableau/filters "GROUP_NAME"="knowledge" >}}
+{{< /tableau >}}
+
+{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/SlowRSpecTestsIssues/SlowRSpecTestsIssuesDashboard" >}}
+  {{< tableau/filters "GROUP_LABEL"="knowledge" >}}
+{{< /tableau >}}
+
+
+Detailed metrics are available on the [Engineering Metrics page].
+
+[Engineering Metrics page]: https://handbook.gitlab.com/handbook/engineering/metrics/dashboards/
 
 #### Application Performance
 
@@ -154,7 +171,6 @@ Additional dashboards are available in Grafana that show application performance
 - [Stage-Group Dashboard] (including 28-day Error Budget)
 - [Error Budget Detail]
 
-[metrics page]: https://about.gitlab.com/handbook/engineering/metrics/dev/plan/knowledge/#mr-types-dashboard
 [Work Type Classification]: https://about.gitlab.com/handbook/engineering/metrics/#work-type-classification
 [Stage-Group Dashboard]: https://dashboards.gitlab.net/d/stage-groups-knowledge/stage-groups-knowledge-group-dashboard?orgId=1
 [Error Budget Detail]: https://dashboards.gitlab.net/d/stage-groups-detail-knowledge/stage-groups-knowledge-group-error-budget-detail?orgId=1

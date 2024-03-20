@@ -24,9 +24,9 @@ The Developer Relations team regularly attends the following event types:
 
 ### Community events
 
-GitLab's Developer Relations team regularly organizes virtual events including [GitLab Hackathons](/community/hackathon/)
+GitLab's Developer Relations team regularly organizes virtual events including [GitLab Hackathons](https://about.gitlab.com/community/hackathon/)
 and [community office hours](/handbook/marketing/developer-relations/contributor-success/community-contributors-workflows.html#community-office-hours).
-We also support in-person contributor days and [community-organized meetups](/community/meetups/). Many of these activities
+We also support in-person contributor days and [community-organized meetups](https://about.gitlab.com/community/meetups/). Many of these activities
 are organized through the [GitLab network](https://www.meetup.com/pro/gitlab/) page on Meetup.
 
 ### Corporate Marketing Events
@@ -282,7 +282,7 @@ and GitLab teams should keep in mind as they plan events and activities.
 
  * **Tools:** We purposefully think about the tools we are using to engage our audience. For example, some people in the open-source world may not be able to use tools that are proprietary software. Also, some people in certain countries may not be able to use certain tools because of country restrictions. Sending a survey beforehand with different tool options could help identify good tools to use for a specific event.
  * **Time zones:** We try to be as inclusive of as many different time zones as possible. It is recommended to have 4-hour segments to spread out participation. Possible times: 16:00 UTC‒20:00 UTC for EMEA and NORAM, and 02:00 UTC‒06:00 UTC for APAC and India.
- * **Code of Conduct:** We make our [Code of Conduct](/community/contribute/code-of-conduct/) a requirement at all GitLab events and actively help our community with friction and conflict.
+ * **Code of Conduct:** We make our [Code of Conduct](https://about.gitlab.com/community/contribute/code-of-conduct/) a requirement at all GitLab events and actively help our community with friction and conflict.
  * **Accessibility:** We advocate for accessibility in all of our events and materials.
  * **Captioning and Interpretation:** Having both captioners and interpreters for online events is important. There are differences between American English and American Sign Language, for example, so captioning alone is not enough. Having a dial-in relay service would work as a "hack" to captions/interpreters, in the worst-case scenario. This depends on whether the blind person has a video phone/captioned phone to access these services.
  * **Share slides beforehand:** One week before your online event, share the slides with attendees so that people who use screen readers can follow along.
@@ -296,4 +296,4 @@ and GitLab teams should keep in mind as they plan events and activities.
  ## Additional Resources
 
  Additional information about events can be found on the [Events](/handbook/marketing/events) page of the
- GitLab Handbook. For a list of upcoming GitLab events see the [Events](/events) page of our website.
+ GitLab Handbook. For a list of upcoming GitLab events see the [Events](https://about.gitlab.com/events) page of our website.

@@ -69,7 +69,7 @@ The previously pre-approved case on user mapping is now covered by [direct trans
 
 #### Other Cases
 
-If you're unsure of whether we should perform an import for a specific requester, get input via the #spt_managers Slack channel or an [internal issue](https://gitlab.com/gitlab-com/support/internal-requests/-/issues/new). If a manager approves, proceed with the import.
+If you're unsure of whether we should perform an import for a specific requester, get input via the #support_leadership Slack channel or an [internal issue](https://gitlab.com/gitlab-com/support/internal-requests/-/issues/new). If a manager approves, proceed with the import.
 
 ## Stage 2: Offering Import & Preparation
 

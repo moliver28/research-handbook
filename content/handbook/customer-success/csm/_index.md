@@ -47,7 +47,7 @@ CSMs are accountable for customer adoption, measurable outcomes, customer satisf
 </thead><tbody>
   <tr>
     <td><a href="/handbook/customer-success/csm/success-plans/">Success Plans</a></td>
-    <td>Mutually agreed (Customer | GitLab) adoption plans that outline desired outcomes (e.g., improve cycle time),technical milestones required (e.g., migrate to GitLab, overcome constraints), timelines and DRIs.
+    <td>Mutually agreed (Customer | GitLab) adoption plans that outline desired outcomes (e.g., improve cycle time), technical milestones required (e.g., migrate to GitLab, overcome constraints), timelines and DRIs.
     <br><br>
      These plans enable us to be proactive and ensure progress towards the customer's goals. As trusted advisors, we understand what drives value for our customers and help them achieve it.</td>
     <td>Every customer must have an active success plan</td>

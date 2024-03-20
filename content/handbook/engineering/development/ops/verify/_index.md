@@ -15,8 +15,8 @@ For this year's [technical roadmap](https://gitlab.com/gitlab-org/verify-stage/-
 
 1. [Accelerating efforts](https://gitlab.com/gitlab-org/verify-stage/-/issues/508) to complete [CI Data Partitioning](https://gitlab.com/gitlab-org/gitlab/-/blob/master/doc/architecture/blueprints/ci_data_decay/pipeline_partitioning.md) - this does not only impacts CI, but addresses a critical availability need impacting all of gitlab.com.  This is a cross-stage effort with backend engineers across the pipeline teams who are able to parallelize the ongoing effort.
 1. Continued review of our [CI Data Retention policies](https://gitlab.com/gitlab-org/verify-stage/-/issues/440) - with the growth we are seeing with our CI database tables, we will be working with the Infrastructure teams to advise on managing CI data once partitioned. Upon further analysis and review, we will also be collaborating with Product to implement features that allows our self-managed users to configure CI data retention policies.
-1. [Pipeline speed improvements](https://gitlab.com/groups/gitlab-org/-/epics/7290) - benchmarking and instrumentation will be our focus as we investigate ways to [implement distributed tracing on our CI workers](https://gitlab.com/groups/gitlab-org/-/epics/11040#note_1568112854) or add more observability to better understand why pipeline creation/processing is slow, prior to determining the work involved to drive improvements. There is also a newly established [working group for CI/CD Build Speed](https://handbook.gitlab.com/handbook/company/working-groups/ci-build-speed/) to support this initiative. 
-1. [CI Events](https://docs.gitlab.com/ee/architecture/blueprints/gitlab_ci_events/) - while listed on the Product roadmap, we'll continue to iterate on the blueprint within Engineering to better understand the scope and requirements of this initiative. 
+1. [Pipeline speed improvements](https://gitlab.com/groups/gitlab-org/-/epics/7290) - benchmarking and instrumentation will be our focus as we investigate ways to [implement distributed tracing on our CI workers](https://gitlab.com/groups/gitlab-org/-/epics/11040#note_1568112854) or add more observability to better understand why pipeline creation/processing is slow, prior to determining the work involved to drive improvements. There is also a newly established [working group for CI/CD Build Speed](https://handbook.gitlab.com/handbook/company/working-groups/ci-build-speed/) to support this initiative.
+1. [CI Events](https://docs.gitlab.com/ee/architecture/blueprints/gitlab_ci_events/) - while listed on the Product roadmap, we'll continue to iterate on the blueprint within Engineering to better understand the scope and requirements of this initiative.
 
 ### FY24
 
@@ -236,7 +236,7 @@ Code contributions to Verify typically occur in three flavors:
 1. Paid users, open source contributions not from scoped issues
 1. Paid users, proprietary contributions not from scoped issues
 
-Contributions from both free and paid users are equally important and will follow our [GitLab Contribution Guidelines](/community/contribute/). We strive to make this process as frictionless as possible between our users and the Engineering teams in Verify, especially during the reviewing of contributions.
+Contributions from both free and paid users are equally important and will follow our [GitLab Contribution Guidelines](https://about.gitlab.com/community/contribute/). We strive to make this process as frictionless as possible between our users and the Engineering teams in Verify, especially during the reviewing of contributions.
 
 ### Reviewing contributions
 
@@ -244,7 +244,7 @@ Once a contribution has been created, the Engineering Manager assigns an enginee
 
 #### Contributions from Partners
 
-Our partners are an important part of our ecosystem at GitLab. These contributions should be reviewed with the same [GitLab Contribution Guidelines](/community/contribute/) as community MR contributions, and aligns with the [Verify contribution guidelines](https://docs.gitlab.com/ee/development/contributing/verify/) for working in the Verify areas of the codebase.
+Our partners are an important part of our ecosystem at GitLab. These contributions should be reviewed with the same [GitLab Contribution Guidelines](https://about.gitlab.com/community/contribute/) as community MR contributions, and aligns with the [Verify contribution guidelines](https://docs.gitlab.com/ee/development/contributing/verify/) for working in the Verify areas of the codebase.
 
 ### Merging the Contribution
 

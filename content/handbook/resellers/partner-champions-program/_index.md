@@ -1,10 +1,12 @@
 ---
-title: "GitLab Partners Champions Program"
+title: "GitLab Partner Champions Program"
 ---
+
+![GitLab Partner Champion](images/partner-champion-lockup.png)
 
 <link rel="stylesheet" type="text/css" href="/stylesheets/biztech.css" />
 
-The GitLab Partners Champions Program will empower, support, reward, and recognize members of the GitLab Partner community who champion great customer outcomes based on the GitLab DevSecOps platform.
+The GitLab Partner Champions Program will empower, support, reward, and recognize members of the GitLab Partner community who champion great customer outcomes based on the GitLab DevSecOps platform.
 
 # GitLab Champions: Advocating for Shared Success
 
@@ -27,7 +29,7 @@ GitLab Champions enlists, supports, rewards, and recognizes members of the GitLa
 
 **- Continuous Engagement:** Regular engagement activities, such as meetings, workshops, and collaborative initiatives, ensure the continuous involvement of GitLab Champions and strengthen the overall program.
 
-## Why to become a GitLab Partners Champion?
+## Why to become a GitLab Partner Champion?
 
 **- Sales Opportunities:** Get promoted within the GitLab Field Sales organization as a GitLab SME for your organization possibly generating sales leads and new oppty’s.
 **- Exclusive Access:** Gain exclusive access via GitLab Beta Program when launched, Partner SA exclusive roadmap updates, and access to GitLab’s internal Stack Overflow instance.
@@ -55,11 +57,11 @@ GitLab Champions enlists, supports, rewards, and recognizes members of the GitLa
 
 **- Community Contribution:** Consider candidates who have already made contributions to the GitLab community, whether through forums, events, or collaborative projects.
 
-## How to Join the GitLab Partners Champions Program?
+## How to Join the GitLab Partner Champions Program?
 
-![The Process to become a GitLab Partners Champion](images/BecomeChampion.png)
+![The Process to become a GitLab Partner Champion](images/BecomeAChampion.png)
 
-## Expected GitLab Partners Champions Outputs
+## Expected GitLab Partner Champions Outputs
 
 **- Maintain active participation:** Engage in and attend regular regional meetings (webinars) offered to GitLab Champions
 

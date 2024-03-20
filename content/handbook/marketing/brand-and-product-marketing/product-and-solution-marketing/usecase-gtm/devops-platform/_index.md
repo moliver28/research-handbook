@@ -154,7 +154,7 @@ The greater cost of operational inefficiencies is business agility.
 |-----------------|-------------|---------------|
 | **A Complete DevOps Platform delivered as a single Application** | A single application eliminates complex integrations, data chokepoints, and toolchain maintenance, resulting in greater productivity. | [DevOps Platform with GitLab](https://www.youtube.com/watch?v=2aJnWkzAwks) |
 | **End-to-End Visibility** | GitLab's common data model enables enables end-to-end visibility and traceability throughout the DevOps lifecycle, correlating and aggregating data automatically. | [Deliver More Value and Fewer Headaches with an End-to-End DevOps Platform](https://youtu.be/wChaqniv3HI) |
-| **Your software, deployed your way** | GitLab is infrastructure agnostic (supporting GCP, AWS, Azure, OpenShift, VMware, On Prem, Bare Metal, and more), offering a consistent workflow experience - irrespective of the environment. | [Install GitLab: Supported Platforms](/install/) |
+| **Your software, deployed your way** | GitLab is infrastructure agnostic (supporting GCP, AWS, Azure, OpenShift, VMware, On Prem, Bare Metal, and more), offering a consistent workflow experience - irrespective of the environment. | [Install GitLab: Supported Platforms](https://about.gitlab.com/install/) |
 
 ## Required capabilities
 
@@ -205,17 +205,17 @@ In their [Market Guide for DevOps Value Stream Delivery Platforms](https://page.
 GitLab believes this indicates that the market for a DevOps platform delivered as a single application will grow much faster than the DevOps market as a whole.
 
 ### Case Studies
-- [BI Worldwide](/customers/bi_worldwide/) removed technology barriers to focus on building microservices.
+- [BI Worldwide](https://about.gitlab.com/customers/bi_worldwide/) removed technology barriers to focus on building microservices.
 > One tool for SCM+CI/CD was a big initial win. Now wrapping security scans into that tool as well has already increased our visibility into security vulnerabilities. The integrated Docker registry has also been very helpful for us. Issue/Product management features let everyone operate in the same space regardless of role.
 >
 > Adam Dehnel, Product Architect, BI Worldwide
 
-- [Glympse](/customers/glympse/) consolidated ~20 tools consolidated into GitLab and remediated security issues faster than any other company in their Security Auditor's experience
+- [Glympse](https://about.gitlab.com/customers/glympse/) consolidated ~20 tools consolidated into GitLab and remediated security issues faster than any other company in their Security Auditor's experience
 >Development can move much faster when engineers can stay on one page and click buttons to release auditable changes to production and have easy rollbacks; everything is much more streamlined. Within one sprint, just 2 weeks, Glympse was able to implement security jobs across all of their repositories using GitLab’s CI templates and their pre-existing Docker-based deployment scripts.
 >
 >Zaq Wiedmann, Lead Software Engineer, Glympse
 
-- [Goldman Sachs](/customers/goldman-sachs/) improves from bi-monthly builds to over a thousand per day
+- [Goldman Sachs](https://about.gitlab.com/customers/goldman-sachs/) improves from bi-monthly builds to over a thousand per day
 > GitLab has allowed us to dramatically increase the velocity of development in our Engineering Division. We believe GitLab’s dedication to helping enterprises rapidly and effectively bring software to market will help other companies achieve the same sort of efficiencies we have seen inside Goldman Sachs. We now see some teams running and merging 1000+ CI feature branch builds a day!
 >
 > Andrew Knight, Managing Director, Goldman Sachs

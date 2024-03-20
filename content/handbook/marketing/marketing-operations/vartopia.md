@@ -1,4 +1,3 @@
-
 # Vartopia Overview
 
 Vartopia is a partner lead sharing and deal registration system designed to maximize the value of [GitLab partner program](/handbook/resellers/) for channel partners. Vartopia offers multiple module including Prospects, Deal Registration, Account Mapping and Campaign. Partner lead sharing is part of the Prospects module, while deal registration is part of the New Registration and Registrations module. Watch [this video](https://youtu.be/BmmiH_ctALk) for step-by-step instructions on where partners can view, accept, reject, assign and convert leads to deal registration.
@@ -314,6 +313,13 @@ These are some guidelines to become familiar with when working on a module with 
 - Vartopia should not push change sets to production.
 - Vartopia uses managed flows in their change sets. Thus, we should always ask how it functions or request a demo in Classic, and have a Salesforce App Builder be on the call to inspect the flow to ensure that capabilities won’t break any existing processes before they are deployed.
 - Preempt any change set updates with a managed package upgrade to reduce the chances of any problems or errors.
+- Vartopia uses flows/alerts as part of their managed package intended to notify the partners of every update related to partner leads for the Prospect module ie when the leads are shared, accepted, assigned, rejected, etc. Our partners do not see the value in needing to be updated for every lead and every status change. Ensure the following flows/alerts are turned off before every managed package upgrade: 
+   - Vartopia Prospect Lead Flow
+   - Vartopia Prospect Contact Flow
+   - Prospect Assigned to Sales Rep Workflow on Contact
+   - Prospect Assigned to Sales Rep on Lead
+   - The Salesperson when the Prospect admin has Assigned to the Contact
+   - The Salesperson when the Prospect Admin has Assigned the Lead
 
 # FAQ
 
@@ -348,9 +354,9 @@ When you've selected a number of leads, a button will be unlocked called "Bulk U
 </details>
 
 <details><summary>Do I, as the CAM, have access to Vartopia?</summary>
-Vartopia is not available to administrator nor manufacturer, that being said, only Channel Partners will have access, and CAMs can not get access to Vartopia. You will be able to find the leads share to Partners via these Sisense reports:
+Vartopia is not available to administrator nor manufacturer, that being said, only Channel Partners will have access, and CAMs can not get access to Vartopia. You will be able to find the leads share to Partners via these Tableau reports:
 
-- [Partner Lead Status](https://app.periscopedata.com/app/gitlab:safe-intermediate-dashboard/992265/TD-Partner-Lead-Status)
+- [Partner Lead Status](https://10az.online.tableau.com/#/site/gitlab/views/DraftPartnerMarketingv2/PartnerLeadsContacts?:iid=2)
 </details>
 
 <details><summary>Can Distributors create deal registrations?</summary>

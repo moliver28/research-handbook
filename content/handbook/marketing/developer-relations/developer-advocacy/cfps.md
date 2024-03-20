@@ -35,8 +35,8 @@ Past submissions for CFPs are stored in the [CFP Library](https://docs.google.co
 
 To request that a Developer Advocate submits a CFP to your event, please:
 
-1. [Open a new issue](https://gitlab.com/gitlab-com/marketing/developer-relations/developer-advocacy/developer-advocacy-meta/-/issues/new?issuable_template=developer-evangelist-request)
-1. Ensure you use the `developer-evangelist-request` template, and fill out the `External Request` section.
+1. [Open a new issue](https://gitlab.com/gitlab-com/marketing/developer-relations/developer-advocacy/developer-advocacy-meta/-/issues/new?issuable_template=developer-advocate-request)
+1. Ensure you use the `developer-advocate-request` template, and fill out the `External Request` section.
 1. Label the issue with the `CFP` label.
 
 ### CFP Management
@@ -47,6 +47,6 @@ Once a submission has been submitted, the author should add it to the [CFP Libra
 
 #### Issue Workflow
 
-All submissions, accepted talks, feedback and other result tracking happens in the CFP issue. The CFP workflow uses [scoped labels](/handbook/marketing/developer-relations/developer-evangelism/workflow/#cfp-labels) to transition the issues through different stages. Please follow the [CFP workflow handbook](/handbook/marketing/developer-relations/developer-evangelism/workflow/#cfp-workflow) to apply required labels accordingly.
+All submissions, accepted talks, feedback and other result tracking happens in the CFP issue. The CFP workflow uses [scoped labels](/handbook/marketing/developer-relations/developer-advocacy/workflow/#cfp-labels) to transition the issues through different stages. Please follow the [CFP workflow handbook](/handbook/marketing/developer-relations/developer-advocacy/workflow/#cfp-workflow) to apply required labels accordingly.
 
 All issues with the `CFP` label appear on the dedicated [CFP Issue board](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/boards/2415569?&label_name[]=CFP).

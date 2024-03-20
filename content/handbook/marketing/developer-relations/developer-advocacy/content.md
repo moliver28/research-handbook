@@ -7,46 +7,46 @@ aliases:
 
 ## Content Library
 
-The Developer Advocacy team creates content that can be reused for campaigns. All contents and activities the team participates in are added to the team's technical content plan sheet (search for `Technical Content Plan` in Google Drive) and [epics roadmap](/handbook/marketing/developer-relations/developer-evangelism/workflow/#roadmap-view).
+The Developer Advocacy team creates content that can be reused for campaigns. All contents and activities the team participates in are added to the team's technical content plan sheet (search for `Technical Content Plan` in Google Drive) and [epics roadmap](/handbook/marketing/developer-relations/developer-advocacy/workflow/#roadmap-view).
 
-You can search for relevant content and contact the team in the linked content epics or in the [#dev-advocacy-team](https://app.slack.com/client/T02592416/CMELFQS4B) Slack channel. 
+You can search for relevant content and contact the team in the linked content epics or in the [#dev-advocacy-team](https://app.slack.com/client/T02592416/CMELFQS4B) Slack channel.
 
 ### Click-through Demos
 
 Click-through demos are product simulation demonstrations that can be used for self-guided training. They are invaluable for delivering demos to customers in areas with limited internet connectivity or complex environments, where preparation is necessary to showcase the flow. Toggle off the click boxes and speaker notes using fn+F2 to experience the real look and feel of the product.
 
-* [GitLab Duo (AI)](https://tech-marketing.gitlab.io/static-demos/ai-demos.html)
-* [Remote Development](https://tech-marketing.gitlab.io/static-demos/workspaces/ws_html.html)
-* [Feature Flags](https://tech-marketing.gitlab.io/static-demos/feature-flags/feature-flags-html.html)
-* [CI Overview](https://tech-marketing.gitlab.io/static-demos/ci_overview_v1.html)
+* [GitLab Duo (AI) - July 23](https://tech-marketing.gitlab.io/static-demos/ai-demos.html)
+* [Remote Development - May 23](https://tech-marketing.gitlab.io/static-demos/workspaces/ws_html.html)
+* [Feature Flags - June 23](https://tech-marketing.gitlab.io/static-demos/feature-flags/feature-flags-html.html)
+* [CI Overview - Oct 20](https://tech-marketing.gitlab.io/static-demos/ci_overview_v1.html)
 
 Note: The demos can be run offline in the absence of internet connectivity. To do so, you can directly obtain the necessary HTML files from [here](https://gitlab.com/tech-marketing/static-demos/-/tree/master/public).
 
-### Product tours 
+### Product tours
 
-Product tours are a self-guided journey emphasizing the 'What' of a feature, skipping the 'How-to' steps to directly showcase the value aspects. 
+Product tours are a self-guided journey emphasizing the 'What' of a feature, skipping the 'How-to' steps to directly showcase the value aspects.
 
-* [Resolving vulnerabilities with GitLab Duo (AI)](https://tech-marketing.gitlab.io/static-demos/pt-explain-vulnerability.html)
-* [CI/CD Catalog beta](https://gitlab.navattic.com/cicd-catalog)
-* [Integrating security to the pipeline](https://gitlab.navattic.com/gitlab-scans)
-* [Code Suggestions](https://gitlab.navattic.com/code-suggestions)
+* [Resolving vulnerabilities with GitLab Duo (AI) - Feb 24](https://tech-marketing.gitlab.io/static-demos/pt-explain-vulnerability.html)
+* [CI/CD Catalog beta - Jan 24](https://gitlab.navattic.com/cicd-catalog)
+* [Integrating security to the pipeline - Jan 24](https://gitlab.navattic.com/gitlab-scans)
+* [Code Suggestions - Jan 24](https://gitlab.navattic.com/code-suggestions)
 
 
 ### Projects
 
-Source code, demo projects, workshops, etc. are documented in the [Projects handbook](/handbook/marketing/developer-relations/developer-evangelism/projects/).
+Source code, demo projects, workshops, etc. are documented in the [Projects handbook](/handbook/marketing/developer-relations/developer-advocacy/projects/).
 
 ### YouTube playlists
 
 - [Developer Evangelism](https://www.youtube.com/playlist?list=PL05JrBw4t0Kq-bYO9jCJaN45BBpzWSLAQ) with talks, workshops and community engagements.
-- [GitLab Duo Coffee Chat](/handbook/marketing/developer-relations/developer-evangelism/projects/#gitlab-duo-coffee-chat)
+- [GitLab Duo Coffee Chat](/handbook/marketing/developer-relations/developer-advocacy/projects/#gitlab-duo-coffee-chat)
 
 
 ## Content Distribution
 
 ### Highspot
 
-The team's content is distributed in [Highspot](https://gitlab.highspot.com/) in topic and type-specific spots, for example, [GitLab Duo (AI)](https://gitlab.highspot.com/spots/64b14e7cc4b08381c0408bb4) and [Customer Outreach](https://gitlab.highspot.com/spots/615dd7c2506d3fc490ad78cd). 
+The team's content is distributed in [Highspot](https://gitlab.highspot.com/) in topic and type-specific spots, for example, [GitLab Duo (AI)](https://gitlab.highspot.com/spots/64b14e7cc4b08381c0408bb4) and [Customer Outreach](https://gitlab.highspot.com/spots/615dd7c2506d3fc490ad78cd).
 
 ### UTMs for URL tagging and tracking
 
@@ -61,13 +61,13 @@ We use the following campaigns:
 1. [Talk resources (general)](https://campaign-manager.gitlab.com/campaigns/view/13) - QR codes and short URLs for talk slides.
 1. [Community newsletter](https://campaign-manager.gitlab.com/campaigns/view/27) - community newsletter short URLs.
 1. [Demos (TMM, DE)](https://campaign-manager.gitlab.com/campaigns/view/50) - technical demos with standalone URLs.
-1. [Release Evangelism](https://campaign-manager.gitlab.com/campaigns/view/3) - [Release evangelism activities](/handbook/marketing/developer-relations/developer-evangelism/social-media/#release-evangelism).
+1. [Release Evangelism](https://campaign-manager.gitlab.com/campaigns/view/3) - [Release evangelism activities](/handbook/marketing/developer-relations/developer-advocacy/social-media/#release-evangelism).
 1. [Podcast resources](https://campaign-manager.gitlab.com/campaigns/view/38) - URLs shared with podcast hosts.
 1. [Contributed articles](https://campaign-manager.gitlab.com/campaigns/view/47) - external articles shared on social media.
 
 Event and content specific tracking examples are [KubeCon EU 2023](https://campaign-manager.gitlab.com/campaigns/view/36).
 
-### Content Distribution Workflow 
+### Content Distribution Workflow
 
 After content has been crafted and published, the next step is distribution. Here are some steps to assist in the process:
 
@@ -80,7 +80,7 @@ For documentation and community:
 
 For social media:
 
-1. Draft some copy for sharing your content on social media. See [Content Sharing](/handbook/marketing/developer-relations/developer-evangelism/social-media/#content) for tips and an overview of different platforms. Review the [message tips](/handbook/marketing/developer-relations/developer-evangelism/social-media/#message-tips) for additional engagement ideas, e.g. emojis.
+1. Draft some copy for sharing your content on social media. See [Content Sharing](/handbook/marketing/developer-relations/developer-advocacy/social-media/#content) for tips and an overview of different platforms. Review the [message tips](/handbook/marketing/developer-relations/developer-advocacy/social-media/#message-tips) for additional engagement ideas, e.g. emojis.
 1. Suggest your content as a story on Bambu so other GitLab team members can also share it. [Details on how to suggest content on Bambu](/handbook/marketing/integrated-marketing/digital-strategy/social-marketing/team-member-social-advocacy/#suggesting-content-for-team-members-to-share-on-bambu).
 1. After posting your content on social media, share a link in the [`#social-media-action`](https://gitlab.slack.com/archives/C01AZ9C8Z4G) Slack channel to request promotion from the social media team.
 

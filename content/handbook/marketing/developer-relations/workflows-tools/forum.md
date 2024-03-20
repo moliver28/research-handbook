@@ -19,7 +19,7 @@ For GitLab team members it is recommended to use the `with GitLab` oauth method.
 
 ### Code of Conduct and FAQ
 
-Our [Community Code of Conduct](/community/contribute/code-of-conduct/) applies to the forum platform. When in doubt, [flag posts](https://meta.discourse.org/t/what-are-flags-and-how-do-they-work/32783) which violate the Code of Conduct or are inappropriate in other ways (spam, advertising, etc.). Moderators can review the posts and take action while the posts are hidden from public viewing.
+Our [Community Code of Conduct](https://about.gitlab.com/community/contribute/code-of-conduct/) applies to the forum platform. When in doubt, [flag posts](https://meta.discourse.org/t/what-are-flags-and-how-do-they-work/32783) which violate the Code of Conduct or are inappropriate in other ways (spam, advertising, etc.). Moderators can review the posts and take action while the posts are hidden from public viewing.
 
 Discourse provides a general [FAQ](https://forum.gitlab.com/faq) for users.
 
@@ -332,6 +332,21 @@ For requesting a new category, please review the following steps:
 1. Do you want to filter specific topics, or subscribe to notifications? If yes, please consider using [tags](#tags) instead.
 1. New categories should fit as subcategory into the existing top-level categories. We try to avoid bigger layout changes to avoid breaking contributor workflows.
 1. Create a [new issue in the Developer Advocate Meta Project](https://gitlab.com/gitlab-com/marketing/developer-relations/developer-advocacy/developer-advocacy-meta/-/issues) to discuss, and add details about forum DRIs, expected topic count, and impact. Assign the issue to technical owners using this quick action: `/assign @dnsmichi @sugaroverflow`.
+
+##### Category Topic Templates
+
+Discourse supports [category topic templates](https://meta.discourse.org/t/topic-templates-for-categories-and-other-alternatives/38295), similar to GitLab description templates in issues/epics/MRs. Templates are used to guide users in providing all details for  questions (configuration, steps to reproduce, versions, etc.) which enables forum contributors to help more efficiently. The categories focus on support ("How to use GitLab", etc.), community engagement and programs, GitLab University. A general catch-all category guides users to select specific categories as default template.
+
+Administrators can edit each category, and navigate into `Templates` to modify the templates. Sub categories require a copy of the top-level templates, ensuring that all categories use templates by default. In the past, we had users specifically selecting categories without templates, creating new topics in the wrong place.
+
+All templates are persisted in the [discourse-assets Git repository](https://gitlab.com/gitlab-da/projects/discourse-assets/-/tree/main/category_templates?ref_type=heads), and provide templates for the top level categories.
+
+Steps to update a category topic template:
+
+1. Navigate into the category settings, and choose `Templates`.
+1. Edit the template and preview the changes.
+1. Save the template and test to create a new topic in the category.
+1. Persist the changes in the [discourse-assets Git repository](https://gitlab.com/gitlab-da/projects/discourse-assets/-/tree/main/category_templates?ref_type=heads).
 
 #### Tags
 

@@ -31,11 +31,23 @@ to get started.
 
 As a product manager at GitLab, you are primarily responsible for:
 
-1. Understanding and communicating the problem of our users and customers
-1. Defining requirements for a solution that is loved by our users and customers
-1. Ensuring our product is viable for GitLab
+1. Understanding the problem of our users and customers (Sensing Mechanisms)
+1. Defining requirements for a solution that is loved by our users and customers (Product Roadmap & PLG)
+1. Establish plans for your team to realize commericial viability from the product (Aligning Teams with Values)
+1. Communicating and enabling adoption of your product area and the entire platform (Thought Leadership)
 
-In addition, as a PM, you also play a critical role in the regular development and operating cadence of GitLab. There are a few specific required tasks that the PMs are directly responsible for in [Core PM Tasks](/handbook/product/product-manager-responsibilities/#core-pm-tasks).
+In addition, as a PM, you also play a critical role in the regular development and operating cadence of GitLab. There are a few specific required tasks that the PMs are directly responsible:
+
+| Task | Description |
+| --- | --- |
+| Maintain and update [Direction pages](https://about.gitlab.com/direction/#devops-stages) | Direction pages communicate our [vision](https://about.gitlab.com/direction/) and plan externally and internally. |
+| Review PIs and update [PI pages](/handbook/product/performance-indicators/) | Product Indicators are how we know whether or not we are making the right investments or measuring the right thing. PMs should be intimately knowledgeable with the PIs in their domain. |
+| Release planning for every milestone | PMs are the DRIs for planning and [prioritizing](/handbook/product/product-processes/#prioritization-ahead-of-kickoff) the work for their respective development group. Some of the output for release planning can be planning issues and [kick-off](/handbook/product/product-processes/#kickoff-meetings) videos. |
+| Create [release post content](/handbook/product/product-processes/#release-posts) | The release post is the way to broadcast what features have been released. PMs are responsible to ensure release post item MRs are created, reviews are complete and posted.
+| Drive alignment with stable counterparts via [OKRs](/handbook/product/product-processes/#objectives-and-key-results-okrs) | PMs play a role in facilitating alignment by ensuring individual functional groups' objectives are appropriately prioritized within their development group. |
+| Connect user and customer insights with [product prioritization](/handbook/product/product-processes/#issues-important-to-customers) | Customer interviewing, collecting insights about customer adoption, pain points, and reprioritizing "What's Next". PMs are responsible for continuously refining the most important feature, bugs, and tech debt to ensure relevance to the market, install base, and expansion. |
+| [Triage new issues](/handbook/product/product-processes/#prioritization) (features, bugs, security vulnerabilities, etc) | PMs [share responsibility](/handbook/product/product-processes#prioritization-for-feature-maintenance-and-bugs) for prioritizing the most important issues based on [work type](/handbook/engineering/metrics/#work-type-classification). |
+| Determine [pricing tier for features](/handbook/company/pricing/) | [The CEO is responsible for pricing, but PMs are responsible for determining which plan features belong to.](/handbook/company/pricing/#departments) |
 
 ### How does a PM ensure they are solving a problem for our users?
 
@@ -45,6 +57,8 @@ In order for a PM to deeply understand the problems our users are facing and det
 
 - Have a deep knowledge of each category's problem space
 - Regularly talk with users and customers
+- Enagage with analysts in the market
+- Regularly complete competitive analysis
 - Communicate with users on issues and epics
 - Work with Pre-Sales and Post-Sales to connect with customers and prospects
 - Uncover insights through UX Research
@@ -102,126 +116,255 @@ It is not sufficient to just know the problems. It is also insufficient to have 
 
 ## Career paths
 
-## Job Grades
+The job families are the single-source-of-truth (SSoT) for our job responsibilities related to career paths. For more information on how GitLab Product Management thinks about the growth and development through these different roles, see the [Career Development Framework](https://handbook.gitlab.com/handbook/product/product-manager-role/product-cdf-competencies/).
 
-Read more about GitLab [Job Grades](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades). Within the Product Management Career Track we use the [Product Management Career Development Framework](/handbook/product/product-manager-role/product-CDF-competencies/) to determine requirements for PM roles.
+### Intermediate Product Manager
 
-#### Intermediate Product Manager
+Product managers are expected to know their product domain and support the processes or ceremonies of planning of product development at GitLab. They are expected to prioritize and manage their products with some guidance from leadership or other product team members and may even have a mentor or Senior Product Manager assigned as a counterpart to support.
 
-Beyond the [base requirements](#base-pm-requirements), Product Manager requirements are outlined in the [Product Management Career Development Framework](/handbook/product/product-manager-role/product-CDF-competencies/).
-
-##### Job Grade
+#### Job Grade
 
 The Product Manager is a [grade 7](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
-#### Senior Product Manager
+#### Requirements
+
+Beyond the [base requirements](#base-pm-requirements), Product Manager requirements are:
+
+- Make regular updates and manage the direction of assigned product areas
+- Prioritize the most impactful scope and work with counterparts using the right sensing mechanisms to deliver value for users, customers, and the community
+- Independently monitor usage and other metrics in your product areas for signals of investment or priority
+- Collaborate and partner closely with Product Design, User Research, Product Marketing, Data Analyst team, and Engineering Counterparts to build a plan that is ambitious and attainable for the product group
+- Communicate the user problems and storytell the needs for the team the under the value GitLab should deliver
+
+#### Example Behaviors
+
+The unique needs and circumstances of individual roles may vary; however, the list below outlines some examples of behaviors that may be expected at this level:
+
+##### Product Roadmap & Product Led Growth (PM)
+
+- Maintain a one year direction for your group in partnership with your manager.
+- Champion feature development in your group and advocate for what you need to contribute to GitLab’s success.
+- Maintain a roadmap that helps to progress your categories toward the next level of maturity.
+- Be adept at socializing your strategy with others. Share your strategy on direction pages, with your counterparts, and in quarterly strategy reviews.
+   - Counterparts, executives, customers, key sales, support, and internal team members can find and understand your strategy when they go to look for it.
+- Evaluate and reevaluate the 12 month roadmap priorities on a regular basis to prioritize higher demand items over lower demand items. Remove or deprioritize items that don’t have enough demand.
+- Collaborate with your manager as needed to push back appropriately on requests to prioritize items that provide comparatively lower value.
+- Ensure that milestone priorities are ready to go into development and that requirements are clear for engineering.
+- Make a significant business impact (revenue, usage) within the Group.
+
+##### Sensing Mechanisms (PM)
+
+- Reactively meet with customers, internal field (Sales/SAs/CSMs) team members, and internal team members matching personas that are relevant to the group as requested.
+- Have a high level understanding of competitors in the space, how GitLab compares, and what opportunities exist to close gaps or get ahead.
+- As needed, adapt and change your priorities based on changes in customer demand and based on guidance from your manager as needed.
+- Validate roadmap items prior to starting development work with guidance from your manager as needed.
+
+##### Thought Leadership (PM)
+
+- Be knowledgeable about the features and functionality in your group. Be capable of describing your existing feature set as well as your roadmap plans to customers.
+- Have a good level of understanding of your group-specific domain.
+- Collaborate with marketing and technical writing teams to update docs, publish blog posts, revise our marketing materials, or make other changes as necessary to disseminate information about your group’s features and functionality.
+- Actively work to improve on the features that your group owns to improve your portion of our scores in key analyst reviews (Gartner MQs for example).
+
+##### Aligning Teams with Values (PM)
+
+- Apply GitLab’s values (Results, Iteration, Transparency, Collaboration, Diversity & Inclusion, Efficiency) in the way you do your work.
+- Collaborate effectively with your stable counterparts (EM, UX, SET).
+- Work with your manager as necessary to resolve any conflicts that arise.
+- Work with your manager as necessary to respond appropriately to requests (from sales, customers, developers, executives, others) that are not inline with your vision.
+- Communicate your vision to others (sales, customers, developers, executives, others) and gain their support with the help of your manager as needed.
+- Balance gathering input and feedback with taking action and making decisions for your area. As the DRI for your area, take ownership for the success of your group.
+- Make prioritization changes to your strategy in response to changes in company strategy or overall market conditions as requested by your manager.
+
+### Senior Product Manager
 
 Senior Product Managers are expected to be experts in their product domain and viewed as such to the community and internally at GitLab. They are expected to prioritize and manage their products with minimal guidance from leadership or other product team members.
 
-##### Job Grade
+#### Job Grade
 
 The Senior Product Manager is a [grade 8](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
-##### Expectations
+#### Requirements
 
-Senior Product Managers are leaders at GitLab. In addition to doing the [core of the PM](/handbook/product/product-manager-responsibilities/) job well, we expect them to do the following:
+Beyond the [base requirements](#base-pm-requirements), Senior Product Manager requirements are:
 
-**Drive the product in the right direction**
+- Indepedently manages and proactively identifies direction updates related to product areas
+- Create annual and quarterly plans to align product group to roadmap deliverables
+- Uses multiple sources of data (qualitatative, quantiative) and proactibvely monitors usage data and metrics to inform product direction
+- Appropriately influence, persuade, and collaborate closely with Product Design, User Research, Product Marketing, Data Analyst team, and Engineering Counterparts to build an ambitious but realistic plan across the stage
 
-- Consistently deliver outsized impact to their stage and category KPIs or other [GitLab KPIs](/handbook/company/kpis/#gitlab-kpis)
 
-**Take an active role in defining the future**
+#### Example Behaviors
 
-- Mastery of the competitive and market landscape of their product domain and understanding how this landscape impacts the product roadmap
-- Innovate within your product area by proposing ambitious features
+The unique needs and circumstances of individual roles may vary; however, the list below outlines some examples of behaviors that may be expected at this level:
 
-**Manage the product lifecycle end-to-end**
+##### Product Roadmap & Product Led Growth (SPM)
 
-- Document ROI or impact for a given action, feature, or prioritization decision
-- Execute to deliver outsized results on the aforementioned ROI/impact analysis
+- Create and maintain a one year direction for your group. Have a thesis for how and why your group will create and capture value for customers in your market space.
+- Surface investment needs that are truly required for the success of your group.
+- Curate and maintain a list of what epics are specifically required to advance your categories to the next level of maturity.
+- Be skilled at socializing your strategy with others. Share your strategy on direction pages, with your counterparts, and in regular strategy reviews.
+   - Counterparts are familiar with your strategy at a high level.
+   - Executives, customers, key sales, support, and internal team members can find and understand your strategy when they go to look for it.
+- Evaluate and reevaluate the 12 month roadmap priorities on a regular basis to ensure that the effort required by the top priorities is justified by the expected impact on GitLab’s profits. Remove or de-prioritize items from the roadmap that are unlikely to impact profits.
+- Push back appropriately on requests to prioritize items that provide comparatively lower value.
+- Ensure that 12-month roadmap priorities are clear for engineering.
+- Make a significant business impact (drive revenue, reduce costs, increase expansion, reduce churn, etc.) within the Stage.
 
-**Engage with stakeholders in two-way communication**
+##### Sensing Mechanisms (SPM)
 
-- Represent GitLab as a product and domain expert in front of industry analysts, strategic customers, industry events/conferences, and other events
-- Ability to present to C-level executives both internally at GitLab and externally to customers and prospects
+- Regularly and proactively meet with customers, internal field (Sales/SAs/CSMs) team members, and internal team members matching personas that are relevant to the group to explore and validate their needs.
+- Have a working understanding of competitors in the space, how GitLab compares, and what opportunities exist to close gaps or get ahead. Regularly revisit and review competitive products to keep your understanding up-to-date.
+- As needed, adapt and change your strategy based on shifts in competitor offerings or market trends.
+- As needed, adapt and change your priorities based on new learnings from customers, research findings, and changes to your strategy.
+- Ensure all roadmap items are appropriately validated prior to starting development work.
 
-**Lead by example**
+##### Thought Leadership (SPM)
 
-- Mentor less experienced Product Managers to enable them add more value sooner
+- Be knowledgeable about the features and functionality in your group. Be capable of effectively and convincingly pitching your existing feature set as well as your roadmap plans to customers. Demonstrate an ability to effectively handle objections and dissatisfied customers.
+- Have a good level of understanding of your group-specific domain and at least a basic understanding of most aspects of your stage-specific domain.
+- Collaborate with marketing and technical writing teams to update docs, publish blog posts, revise our marketing materials, or make other changes as necessary to disseminate information about your stage’s features and functionality.
+- Actively work to improve on the features that your group owns to improve your portion of our scores in key analyst reviews (Gartner MQs for example). Engage regularly with domain-specific analysts as appropriate and work to influence the analyst’s perception and understanding of your area’s features and roadmap.
 
-##### Requirements
+##### Aligning Teams with Values (SPM)
 
-Beyond the [base requirements](#base-pm-requirements), Senior Product Manager requirements are outlined in the [Product Management Career Development Framework](/handbook/product/product-manager-role/product-CDF-competencies/).
+- Apply GitLab’s values (Results, Iteration, Transparency, Collaboration, Diversity & Inclusion, Efficiency) in the way you do your work. Coach others within your stage on living values as needed.
+- As applicable, collaborate well with PMs across groups and within your stage in planning, prioritizing, and releasing cross-group features.
+- Collaborate effectively with your stable counterparts (EM, UX, SET).
+- Resolve conflicts as they arise.
+- Respond appropriately to requests (from sales, customers, developers, executives, others) that are not inline with your vision.
+- Demonstrate an ability to inspire others (sales, customers, developers, executives, others) with your product vision and gain their willing support.
+- Balance gathering input and feedback with taking action and making decisions for your area. As the DRI for your area, take ownership for the success of your group.
+- As needed, proactively realign and reorient your team in response to changes in company strategy or overall market conditions.
 
-#### Principal Product Manager
+### Principal Product Manager
 
-The Principal Product Manager role extends the Senior Product Manager role expectations.
+The Principal Product Manager role extends the Senior Product Manager role expectations by bringing special expertise in a specific domain or product management skill. This includes providing guidance on improvements within this specific domain with a focus on usability and user experience.
 
-##### Job Grade
+#### Job Grade
 
 The Principal Product Manager is a [grade 9](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
-##### Expectations
+#### Requirements
 
-**Bring special expertise in a specific domain or Product Management skill**
+Beyond the [base requirements](#base-pm-requirements) and Senior Product Manager Requirements, Prinicipal Product Manager requirements are:
 
-- Principal Product Managers should possess a unique level of expertise as well as own specific domains within the product that extends cross-stage. This includes providing guidance on improvements within this specific domain with a focus on usability and user experience.
+- Operational affluence in annual, quarterly, and monthly planning
+- Adept at user journey mapping
+- Deep understanding of PLG or experimentation frameworks
+- Proven ability to deliver value and generate viable products in market
+- Strong storytelling skillset and ability to translate technical requirements into user needs
+- Coach and mentor to other Product Managers or active in career development for others
+- Recognized as thought leader in the industry (e.g. published author or regular speaker at conferences)
 
-**Ability to coach others**
 
-- Principal Product Managers are expected to coach and mentor other Product Managers as well as assist with their career development. This includes being a “PM buddy” with regular check-ins on larger initiatives with a focus on elevating the Product Manager's [Career Development Framework](/handbook/product/product-manager-role/product-CDF-competencies/) track skills.
+#### Example Behaviors
 
-##### Requirements
+The unique needs and circumstances of individual roles may vary; however, the list below outlines some examples of behaviors that may be expected at this level:
 
-Beyond the [base requirements](#base-pm-requirements), Principal Product Manager requirements are outlined in the [Product Management Career Development Framework](/handbook/product/product-manager-role/product-CDF-competencies/).
+##### Product Roadmap & Product Led Growth (PPM)
 
-#### Senior Principal Product Manager
+- Have a clear understanding and well articulated message showing how your 3+ year strategy relates to the overall stage strategy and the overall company strategy.
+- Advocate for investment decisions that are in the best interest of the company. Present clear business reasons to support your proposed investment decisions.
+- Be an expert at socializing your strategy with others. Share your strategy on direction pages, with your counterparts, and in quarterly strategy reviews.
+   - Counterparts are able to clearly articulate your strategy themselves and have a personal understanding of how your roadmap priorities relate to your strategy.
+   - Key sales, support, and internal team members are familiar with your strategy at a high level.
+   - Executives and customers can find and understand your strategy when they go to look for it.
+- Use your strategy to guide and drive your roadmap priorities. Artfully balance near-term and long-term impact to profit against the need to also make progress on key strategic initiatives.
+- Demonstrate that you place the needs of the stage and company ahead of the needs of your own group. Advocate for your group when that is in the company’s best interest and willingly help others when success is best achieved by working outside your group.
+- Actively explore partnership and acquisition opportunities for your group. Cultivate and recommend next steps for opportunities that make sense and also avoid investing time in those that don’t.
+- Make a significant business impact (revenue, usage) across Stages within the Section.
 
-The Senior Principal Product Manager role extends the Principal role expectations.
+##### Sensing Mechanisms (PPM)
 
-##### Job Grade
+- Cultivate high quality key relationships with a variety of trusted stakeholders who can provide quick feedback on ideas. These stakeholders ideally would include a mix of customers, internal field (Sales/SAs/CSMs) team members, and internal team members matching personas that are relevant to the stage.
+- Develop a deep understanding of the closest competitors to the extent possible (reading technical docs, evaluating a free or trial version of the product, discussing with other users).
+- Monitor market trends and proactively predict where the market is headed. Engage in collaboration with others as needed when market trends impact other groups or necessitate cooperative efforts across groups.
+- Excel at extracting valuable insights from customer discussions even when they don’t apply to your area. Ensure that those insights are passed on appropriately to the relevant PM.
+- Adapt the level of time and effort spent validating based on your level of confidence in the problem/solution and based on the urgency of starting development.
+- Lead cross-stage initiatives, feature development, and/or joint projects.
+- Perform build vs buy analysis as needed to evaluate the best strategic approach for adding to product capabilities.
+- Build acquisition business cases with the best interests of the company in mind and make thoughtful, data-supported recommendations on which companies to acquire (or to not acquire).
 
-The Senior Principal Product Manager is a [grade 10](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+##### Thought Leadership (PPM)
 
-##### Expectations
+- Be capable of reliably pitching any of the functionality in the section. Be able to expertly describe the value-add that comes from purchasing GitLab. Be informed (at a high level) about roadmap plans across the entire section and be able to field general questions about any part of the section roadmap.
+- Be well informed about nearly all key aspects of your stage-specific domain and deeply informed at an expert level about the domain area related to your group. Capable of speaking at both internal and external events such as domain-specific conferences or running webinars as the need arises.
+- Collaborate with marketing and technical writing teams to help sell and explain GitLab’s features in terms of more holistic use cases which may span across multiple stages and feature sets.
+- Collaborate with analysts to identify ways that GitLab can advance its position in the market or to sell analysts on the potential of your vision and roadmap. Be able to speak to the broader value that GitLab provides beyond just your area.
+- As appropriate, identify opportunities for your group to work together with other groups in delivering solutions that have a significant impact on GitLab’s value proposition. Appropriately inspire others with your vision.
+- Drive alignment on cross-stage roadmap internally based on a shared vision across the product.
+- Build alignment across sections and with senior leadership.
+- Lead out and drive partnership conversations as needed.
 
-Senior Principal Product Managers are experts across multiple domains within GitLab. They are responsible for helping shape the future direction of the organization, assisting management to establish strategic roadmaps, and driving priorities to meet objectives. As a Director-level individual contributor position, Senior Principal Product Managers are expected to perform at a Grade 10 (Director) level according to our [GitLab Job Framework](/handbook/company/structure/#individual-contributor-job-framework) and exemplify GitLab's [leadership principles](/handbook/leadership/).  In addition, Senior Principal Product Managers are expected to:
+##### Aligning Teams with Values (PPM)
 
-**Drive execution of results**
+- Be an example for others in the way you apply GitLab’s values (Results, Iteration, Transparency, Collaboration, Diversity & Inclusion, Efficiency) as you do your work. Help to foster GitLab’s values across the section.
+- As applicable, collaborate well with PMs across stages and within your section in planning, prioritizing, and releasing cross-group and cross-stage features.
+- As required, demonstrate an ability to have difficult conversations or to make potentially unpopular but necessary changes in a way that maintains the support and trust of those you work with.
+- Provide a sense of stability, calm, and direction to others around you, even when there are significant changes.
+- Recognize and appropriately surface inefficiencies and make appropriate and constructive recommendations on ways those can be improved.
+- Regularly uplift, coach, mentor, or motivate other PMs.
+
+### Senior Principal Product Manager
+
+The Senior Principal Product Manager role extends the Principal role expectations. Senior Principal Product Managers are experts across multiple domains within GitLab. They are responsible for helping shape the future direction of the organization, assisting management to establish strategic roadmaps, and driving priorities to meet objectives. As a Director-level individual contributor position, Senior Principal Product Managers are expected to perform at a Grade 10 (Director) level according to our [GitLab Job Framework](/handbook/company/structure/#individual-contributor-job-framework) and exemplify GitLab's [leadership principles](/handbook/leadership/). In addition, Senior Principal Product Managers are expected to:
 
 - Senior Principal Product Managers are expected to drive outsized business results via their direct contributions. This can include shaping product prioritization, representing Product in GTM motions, unblocking R&D via a heavy focus on iteration or the generation and utilization of data to inform where we direct our R&D investment.
 
-**Contribute cross-domain expertise**
-
 - Senior Principal Product Managers should possess a unique level of expertise as well as own specific product domains that extend across sections. This includes providing guidance on improvements within this specific domain with a focus on usability and user experience.
 
-**Elevate organizations**
-
 - Senior Principal Product Managers are expected to improve entire sections via their outputs. These will include user, market, competitive and technology insights as well as instituting best practices for other Product Managers.
-- Senior Principal Product Managers will use their business skills by directly championing M&A (including researching and finding prospects). They will also collaborate directly with the GTM teams to enable sales on our capabilities that cross the entire product.
 
-##### Reporting structure
+- Senior Principal Product Managers will use their business skills by directly championing M&A (including researching and finding prospects). They will also collaborate directly with the GTM teams to enable sales on our capabilities that cross the entire product.
 
 The Senior Principal Product Manager will report to a Director of Product Management (or above).
 
-##### Responsibilities
+#### Job Grade
+
+The Senior Principal Product Manager is a [grade 10](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+
+##### Requirements
+
+Beyond the [base requirements](#base-pm-requirements), Senior Principal Product Manager requirements are:
 
 - Represent GitLab and its values in public communication around specific projects and community contributions.
 - In addition to being an individual contributor product manager of one (or more) of the groups, the Senior Principal PM should be designated as the [product collaborator](/handbook/engineering/incubation/#incubation-engineering-department) for one (or more) [SEG](/handbook/company/structure/#single-engineer-groups)s.
 - Lead cross stage initiatives, for example: [Top Cross-Functional Initiatives](/handbook/company/working-groups/#top-cross-functional-initiatives)
 - Maintains and owns [cross-section directions](/handbook/product/product-processes/#navigating-cross-stage-or-cross-section-direction-pages).
-- Leads working groups to accomplish cross-section [BHAG](/handbook/company/mission/#big-hairy-audacious-goal-bhag)s and targets
+-Leads working groups to accomplish cross-section [BHAG](/handbook/company/mission/#big-hairy-audacious-goal-bhag)s and targets
 - Identifies and submits investment cases for SEGs, Product Groups, and Categories
 
-##### Requirements
+#### Requirements
 
 Beyond the [base requirements](#base-pm-requirements), Senior Principal Product Manager requirements are outlined in the [Product Management Career Development Framework](/handbook/product/product-manager-role/product-CDF-competencies/).
+
+#### Example Behaviors
+
+The unique needs and circumstances of individual roles may vary; however, the list below outlines some examples of behaviors that may be expected at this level:
+
+##### Product Roadmap & Product Led Growth (SPPM)
+
+- Make a significant business impact (revenue, usage) within the Group.
+- Additional example behaviors are to be added in a future iteration.
+
+##### Sensing Mechanisms (SPPM)
+
+- Additional example behaviors are to be added in a future iteration.
+
+##### Thought Leadership (SPPM)
+
+- Additional example behaviors are to be added in a future iteration.
+
+##### Aligning Teams with Values (SPPM)
+
+- Additional example behaviors are to be added in a future iteration.
 
 ### Moving to and moving from
 
 The career paths to and from product management positions are varied, but there are some common patterns.
 
-#### Moving to Product Management
+### Moving to Product Management
 
 Successful product managers have a passion for solving problems. As a result they've
 been found to start their journey to product management from the following disciplines:
@@ -242,7 +385,7 @@ migrate to the Product Management function.
 lead Support techs who've developed a strong understanding of customers' needs in the product often transition
 to Product Management out of a desire to shape the direction of the product.
 
-#### Moving from Product Management
+### Moving from Product Management
 
 Within their role, Product Managers are empowered to interact and learn more about functions they are interested in.
 Whether that be Marketing, Customer Success, Support, Finance or Engineering - Product Managers are encouraged (and often
@@ -255,7 +398,7 @@ mentor and lead engineering teams.
 Product Marketing roles are an excellent way to further that expertise.
 - **Customer Success**: Few people know our products as well as Product Managers, and product managers who enjoy directly
 solving customers problems on a daily basis make great fits for Customer Success roles.
-= **General Management**: As a result of their exposure to a wide variety of functions, Product Managers often make a
+- **General Management**: As a result of their exposure to a wide variety of functions, Product Managers often make a
 transition from Product Management to General Management.
 
 ----
@@ -407,7 +550,7 @@ We’re looking for a Product Manager to chart GitLab’s course in this new sta
 
 ### Fulfillment
 
-We're looking for a PM to ensure an excellent purchase, trial, upgrade, seat addition, and renewal experience for GitLab customers.  This role will involve creating a flexible and powerful billing and licensing system upon which we can build world class customer experiences.  The role will also involve important system level integrations with key 3rd party systems such as Zuora and Stripe.
+We're looking for a PM to ensure an excellent purchase, trial, upgrade, seat addition, and renewal experience for GitLab customers. This role will involve creating a flexible and powerful billing and licensing system upon which we can build world class customer experiences. The role will also involve important system level integrations with key 3rd party systems such as Zuora and Stripe.
 
 #### Requirements
 

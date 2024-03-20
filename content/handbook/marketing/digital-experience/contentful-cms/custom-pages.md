@@ -134,6 +134,26 @@ If the landing page needs to render specific cards that are not children to the 
 
 ![Custom Pages Landing Grid](/images/handbook/contentful/custom-page-landing-grid.png)
 
+#### 🛠️ Marketo Form
+
+The [🛠️ Marketo Form](https://app.contentful.com/spaces/xz1dnu24egyd/content_types/marketoForm/fields) allows users to place a form on the page.
+
+
+| Marketo Form Fields | Description | Example Value |
+|------------|-------------|---------------|
+| Internal Name | Name to find the entry within Contentful | N/A |
+| Form Id | Marketo Form ID - the meats and potatoes of this component | 4011 |
+| Form Data Layer |  | ? |
+| Form Header | H2 Form Header | Community Newsletter |
+| Confirmation Message Title | Title of the form subitted message | Submission received! |
+| Confirmation Message| Displays once the form is submited  | We will be in contact shortly. |
+| Error Message | Message the displays when there is a error with the form | Sorry! Something went wrong. |
+| Required Fields Message | Message the displays in small italic text communicating requried fields | All fields required |
+
+##### Visual Representation 
+
+![Marketo Form](/images/handbook/contentful/custom-page-marketo-form.png)
+
 ### Video Walkthrough of building a page
 
 As an example, we built a community page from scratch in the following video. 

@@ -12,7 +12,7 @@ The Application Security team uses a number of automation initiatives to help se
 - Custom SAST rules detecting known-vulnerable code patterns that alert the AppSec team in the MR (related [MR](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/109872))
 - [untamper-my-lockfile](https://gitlab.com/gitlab-org/frontend/untamper-my-lockfile/) included in CI to prevent lockfile tampering
 - [Package Hunter](https://gitlab.com/gitlab-org/security-products/package-hunter) detects suspicious activity in dependencies at runtime ([related runbook]({{< ref "investigating-package-hunter-findings" >}}))
-- [GitLab Inventory](https://gitlab.com/gitlab-com/gl-security/engineering-and-research/inventory) monitors our projects and violations of security best practices and standards
+- [GitLab Inventory](https://gitlab.com/gitlab-com/gl-security/product-security/inventory) monitors our projects and violations of security best practices and standards
 - GitLab's own [application security features](https://docs.gitlab.com/ee/user/application_security/) are running in CI
 - [Tokinator](https://gitlab.com/gitlab-com/gl-security/appsec/tokinator) monitors for leaked credentials
 - [AppSec Escalator](https://gitlab.com/gitlab-private/gl-security/engineering-and-research/automation-team/escalator/appsec-escalator/) which is a tool that...

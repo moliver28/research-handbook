@@ -37,7 +37,7 @@ If you plan to travel through [various countries and continents](https://about.g
 ### Buy local data with an eSIM, without changing your SIM card
 
 If your phone supports [eSIMs](https://www.digitaltrends.com/mobile/esim-explainer) you may also be able to use services like
-[GigSky](https://www.gigsky.com) or [Airalo](http://airalo.refr.cc/rebeccadodd) which allow you to purchase affordable local data plans
+[GigSky](https://www.gigsky.com) or [Airalo](https://www.airalo.com/) which allow you to purchase affordable local data plans
 on demand without needing to change SIM cards. Even if you don't purchase the plan
 you can use such a service as a redundant option if your local or roaming SIM
 is not getting reliable service.

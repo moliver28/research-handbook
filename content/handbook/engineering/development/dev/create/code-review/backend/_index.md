@@ -22,13 +22,13 @@ The Create:Code Review BE team is responsible for all backend aspects of the pro
 
 The following people are permanent members of the Create:Code Review Group:
 
-{{< team-by-manager-role role="Backend Engineering Manager(.*)Create:Code Review" team="Code Review" >}}
+{{< team-by-manager-role role="Engineering Manager, Create:Code Review" team="Code Review" >}}
 
 ## Stable Counterparts
 
 The following members of other functional teams are our stable counterparts:
 
-{{< stable-counterparts role="Code Review" manager-role="Backend Engineering Manager(.*)Create:Code Review" >}}
+{{< stable-counterparts role="Code Review" manager-role="Engineering Manager, Create:Code Review" >}}
 
 ## Common Links
 
@@ -49,13 +49,11 @@ The following members of other functional teams are our stable counterparts:
 
 ## Metrics and KPIs
 
-These KPIs are a subset of the [Development Department Performance Indicators](/handbook/engineering/development/performance-indicators/) and configured for just the Create:Code Review Backend Team.
-
-{{< sisense dashboard="922124" chart="13660165" >}}
+These KPIs are a subset of the [Development Department Performance Indicators](/handbook/engineering/development/performance-indicators/).
 
 You can find our dashboards here:
 
-- [Code Review BE KPIs](https://app.periscopedata.com/app/gitlab/922124/Code-Review-BE-KPIs)
+- [Centralized Engineering Metrics](https://10az.online.tableau.com/#/site/gitlab/views/TopEngineeringMetrics_16989570521080/TopEngineeringMetricsDashboard)
 - [Development Department Performance Indicators](/handbook/engineering/development/performance-indicators/)
 
 

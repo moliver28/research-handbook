@@ -83,7 +83,7 @@ As part of our [dogfooding effort](/handbook/product/product-processes/#dogfood-
 the [Secure Tools](https://docs.gitlab.com/ee/user/application_security/) are set up on many different GitLab projects (see our [policies]({{< ref "inventory#policies" >}})).
 This list is too dynamic to be included in this page, and is now maintained in the [GitLab AppSec Inventory]({{< ref "inventory" >}}).
 
-Projects without the expected configurations can be found in the [inventory violations list](https://gitlab.com/gitlab-com/gl-security/engineering-and-research/inventory/-/issues) (internal link).
+Projects without the expected configurations can be found in the [inventory violations list](https://gitlab.com/gitlab-com/gl-security/product-security/inventory/-/issues) (internal link).
 
 ## GitLab Inventory
 
