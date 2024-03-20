@@ -385,7 +385,7 @@ At this time, the entire GitLab GTM organization, which includes the global Fiel
 
 **How do I get access to Highspot?**
 
-All members of GitLab's GTM organization have access to the tool via their Okta dashboard. For a full list of teams with Highspot access, see the [Availability section](/handbook/sales/field-communications/gitlab-highspot/#availability) above. If you are on one of these teams and still do not have Highspot access via Okta, please open an [access request](/handbook/business-technology/team-member-enablement/onboarding-access-requests/access-requests/#how-do-i-choose-which-template-to-use).
+All members of GitLab's GTM organization have access to the tool via their Okta dashboard. For a full list of teams with Highspot access, see the [Availability section](/handbook/sales/field-communications/gitlab-highspot/#availability) above. If you are on one of these teams and still do not have Highspot access via Okta, please open an [access request](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/#how-do-i-choose-which-template-to-use).
 
 **If I have a recommendation for a piece of content that should be in Highspot for all to access, how do I contribute?**
 
