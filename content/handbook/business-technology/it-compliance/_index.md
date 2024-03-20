@@ -24,11 +24,11 @@ IT Compliance works collaboratively with multiple functional teams throughout th
 
 Our work can be tracked in the [IT Compliance GitLab Group](https://gitlab.com/gitlab-com/business-technology/it-compliance).
 
-## Our Vision
-1. Identify and secure applications that are deemed to fall under SOX Audit.
+## Our Mission
+1. Identify and secure applications that are deemed to fall under SOX compliance.
 1. Ensure that only current employees have access to the applications and the appropriate actions.
-1. Monitor all changes to SOX compliant systems to ensure their auditability and compliance with SOX level change management.
-1. Constantly iterate to simplify and ensure processes are efficient and automated as much as possible.  Goal is to weave these processes into the fabric of work so they are not noticed.
+1. Monitor all changes to SOX systems to ensure auditability and compliance with SOX level change management.
+1. Constantly iterate to simplify processes and drive automation for efficiency.  Goal is to weave these processes into the fabric of work so they are not noticed.
 1. Work to reduce audit scope by enhancing general controls.
 
 ## How we work
@@ -55,17 +55,17 @@ Our [IT Compliance](https://gitlab.com/groups/gitlab-com/-/boards/1802558?label_
 
 The most common ITGCs:
 
-- Logical access controls over infrastructure, applications, and data.
-- System development life cycle controls.
-- Program change management controls.
-- System and data backup and recovery controls.
-- Computer operation controls.
+- Logical access controls over infrastructure, applications, and data
+- System development life cycle controls
+- Program change management controls
+- System and data backup and recovery controls
+- Computer operation controls
 
 **GitLab’s IT Complaince Function will focus on the following for the next 3 months:**
 - Continuing to mature our access and change management programs
-- System development life cycle controls.
-- Program change management controls.
-- System data backup and recovery controls.
+- System development life cycle controls
+- Program change management controls
+- System data backup and recovery controls
 
 #### [Business Continuity Plan](/handbook/business-technology/gitlab-business-continuity-plan/)
 
