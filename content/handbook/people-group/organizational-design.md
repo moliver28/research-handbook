@@ -47,12 +47,24 @@ We review data for a Peer Group and against the Industry. "Peer Group" is a grou
 
 At times, the business needs require us to make changes to our organizational design or structure. PBPs support senior leaders in making these changes by providing data driven insight, talent expertise, and business partnership during the org change decision making process, supporting the execution and communications associated with the change, and ensuring key goals of the change are clear and accomplished.
 
-In the spirit of results and ongoing improvement, we seek to put measures on the success of an organizational change. Together the e-group leader or exec sponsor of the org change and the PBP partner to score the following metrics (Likert scale):
+In the spirit of results and ongoing improvement, we seek to put measures on the success of an organizational change. Together the e-group leader or exec sponsor of the org change and the PBP partner to score the following metrics (Likert scale) in two phases: phase 1 is immediately after the organizational change becomes effective to measure the process, alignment, collaboration, and transparency fo the process, and phase 2 is two quarters **after** the change effective date to measure whether the desired business results where achieved.
 
-1. Results: Did we meet the goal of the organizational change? Did the change produce the expected value?
+### Phase 1
+
+These questions should be discussed immediately after the effective date of the organizational changes.
+
+1. Collaboration: Were our systems (I.E. HRIS, Greenhouse) updated in a timely fashion?
 1. Collaboration: Were the stakeholders informed and aligned appropriately? Did we have the engagement and action required from stakeholders to effectively execute?
 1. Efficiency: Was the comms cascade clear and executed on time?
 1. Transparency: Was the business reason for the change understood by all impacted team members, both leaders and IC’s?
+
+### Phase 2
+
+These questions should be discussed two quarters after the effective date of the organizational changes.
+
+1. Results: Did we meet the goal of the organizational change? Did the change produce the expected value?
+1. Iteration: In retrospect, is there anything we would have done differently or should have considered before making this change?
+1. Iteration: In retrospect, would we have made the same change now?
 
 Note, this measurement system is new in FY'25 and may evolve as we determine usefulness.
 
