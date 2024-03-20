@@ -10,7 +10,7 @@ description: "Test Engineering team in Test Platform sub-department"
 |-------------------------|------------|
 | **GitLab Team Handle** | [`@gl-quality/tp-test-engineering`](https://gitlab.com/gl-quality/tp-test-engineering) |
 | **Slack Channel** | [#test-engineering-team](https://gitlab.slack.com/archives/C064M4S0FU5) |
-| **Team Boards** | [Team Board](https://gitlab.com/groups/gitlab-org/-/boards/1512645?label_name[]=Quality) |
+| **Team Boards** | [Team Board](https://gitlab.com/groups/gitlab-org/-/boards/7364900?not[label_name][]=failure%3A%3A*&label_name[]=team%3A%3ATest%20Engineering) |
 | **Issue Tracker** | [quality/team-tasks](https://gitlab.com/gitlab-org/quality/team-tasks/issues/) |
 
 Engineers in this team support the product sections supported by the [Core Development] and [Expansion Development] Department.
@@ -34,15 +34,14 @@ Engineering Manager: Ksenia Kolpakova
 | 11    | [Expansion Development] | [Fulfillment section]   | [Fulfillment] | Richard Chong      |
 | 12    | [Expansion Development] | [Data Science section]  | [ModelOps]    | -                  |
 | 13    | [Expansion Development] | [Data Science section]  | [AI-powered]  | Ramya Authappan    |
-| 14    | Infrastructure          | [Core Platform section] | [Manage]      | Nivetha Prabakaran |
 
-* FYI - There are no hiring plans for SETs in FY24.
+* FYI - There are no hiring plans for SETs in FY25.
 
 ## OKRs 
 
 Every quarter, the team commits to [Objectives and Key Results (OKRs)](/handbook/company/okrs/). The below shows current quarter OKRs and is updated regularly as the quarter progresses.
 
-Here is an [overview](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/5388) of our current Test Engineering OKR.
+Here is an [overview](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/6583) of our current Test Engineering OKRs.
 
 [Core Development]: /handbook/engineering/core-development/
 [Expansion Development]: /handbook/engineering/expansion-development/
