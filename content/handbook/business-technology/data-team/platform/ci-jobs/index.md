@@ -273,6 +273,40 @@ This recursively searches the entire periscope repo for a string that matches a 
 
 This uses word count (wc) to see how many lines are in the comparison file. If there is more than zero it will print the lines and exit with a failure. If there are no lines it exits with a success.
 
+
+#### `🔍tableau_direct_dependencies_query`
+
+This job runs automatically and only appears when `.sql` files are changed. In its simplest form, the job will check to see if any of the currently changed models are **directly** queried in Tableau views, tableau data-extracts, or tableau flows. If they are, the job will fail with a notification to check the relevant dependency. If it is not queried, the job will succeed.
+
+Current caveats with the job are:
+
+- It will not tell you which tableau workbook to check
+- It will not tell indirectly connected downstream dependencies. This feature will be a part of upcoming iteration to this job.
+
+##### Explanation
+
+This section explains how the `tableau_direct_dependencies_query`` works.
+
+`git diff origin/$CI_MERGE_REQUEST_TARGET_BRANCH_NAME...HEAD --name-only | grep -iEo "(.*)\.sql" | sed -E 's/\.sql//' | awk -F '/' '{print tolower($NF)}' | sort | uniq`
+
+This gets the list of files that have changed from the master branch (i.e. target branch) to the current commit (HEAD). It then finds (grep) only the sql files and substitutes (sed) the `.sql` with an empty string. Using `awk`, it then prints the lower-case of the last column of each line in a file (represented by $NF - which is the number of fields), using a slash (/) as a field separator. Since the output is directory/directory/filename and we make the assumption that most dbt models will write to a table named after its file name, this works as expected. It then sorts the results, gets the unique set and is then used by our script to check the downstream dependencies.
+
+`orchestration/tableau_dependency_query/src/tableau_query.py`
+
+We leverage [Monte Carlo](https://handbook.gitlab.com/handbook/business-technology/data-team/platform/monte-carlo/) to detect downstream dependencies which is also our data obeservability tool. Using [Monte carlo API](https://apidocs.getmontecarlo.com/) we detect directly connected downstream nodes of type `tableau-view`, `tableau-published-datasource-live`, `tableau-published-datasource-extract` using the [`GetTableLineage` GraphQL endpoint](https://apidocs.getmontecarlo.com/#query-getTableLineage).
+
+If no dependencies are found for the model, then you would get an output in the CI jobs logs - `INFO:root:No dependencies returned for model <model_name>` and the job will be marked as successful.
+
+And if dependencies were found for the model, then the job would fail with the value error `ValueError: Check these models before proceeding!`. The job logs will contain number of direct dependencies found for a given model, type of tableau object, tableau resource name and monte carlo asset link, in the below format:
+
+```bash
+Found <number of tableau dependencies> downstream dependencies in Tableau for the model <model name>
+INFO:root: <tableau resource type> : <name of tableau resource> - : <monte_carlo_connection_asset_url>
+ValueError: Check these models before proceeding!
+ERROR: Job failed: command terminated with exit code 1
+```
+More implementation details can be found in the issue [here](https://gitlab.com/gitlab-data/analytics/-/issues/19885).
+
 #### `🛃dbt_sqlfluff`
 
 Runs the SQLFluff linter on all changed `sql` files within the `transform/snowflake-dbt/models` directory.  This is currently executed manually and is allowed to fail, but we encourage anyone developing dbt models to view the output and format according to the linters specifications as this format will become the standard.
