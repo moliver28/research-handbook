@@ -36,7 +36,7 @@ Our [IT Compliance](https://gitlab.com/groups/gitlab-com/-/boards/1802558?label_
 
 ## What we do
 
-##IT Compliance SOX program responcibilties
+## IT Compliance SOX program responcibilties
 
 - Single point of contact for IT owned applications for ITGCs
 - Participate in walkthroughs
