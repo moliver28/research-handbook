@@ -26,7 +26,7 @@ Our work can be tracked in the [IT Compliance GitLab Group](https://gitlab.com/g
 **Vision**
 1. To identify and secure applications that are deemed to fall under SOX Audit.
 1. Ensure that only current employees have access to the applications and the appropriate actions.
-1. Manage all changes to SOX compliant systems to ensure their auditability and compliance with SOX level change management.
+1. Monitor all changes to SOX compliant systems to ensure their auditability and compliance with SOX level change management.
 1. Constantly iterate to simplify and ensure processes are efficient and automated as much as possible.  Goal is to weave these processes into the fabric of work so they are not noticed.
 1. Work to reduce audit scope by enhancing general controls.
 
@@ -35,6 +35,18 @@ Our work can be tracked in the [IT Compliance GitLab Group](https://gitlab.com/g
 Our [IT Compliance](https://gitlab.com/groups/gitlab-com/-/boards/1802558?label_name[]=IT%20Compliance) board are where some of our work can be tracked. If you need help with anything or have any questions, you can add our label `IT Compliance` to the issue. If you are unsure of who you need to engage, IT Compliance, please tag `@gitlab-com/business-technology/it-compliance` and someone will assist. 
 
 ## What we do
+
+##IT Compliance SOX program responcibilties
+
+- Single point of contact for IT owned applications for ITGCs
+- Participate in walkthroughs
+- Support operating effectiveness testing by KPMG and IA
+- Facilitate ITGC remediations
+- Onboarding new application for ITGCs owned by IT
+- Facilitate SOX UARs for systems and key reports
+- Facilitate SOD reviews for key SOX financial applications
+
+
 
 #### [IT General Controls](/handbook/business-technology/it-compliance/ITGC.html)
 
@@ -45,15 +57,14 @@ The most common ITGCs:
 - Logical access controls over infrastructure, applications, and data.
 - System development life cycle controls.
 - Program change management controls.
-- Data center physical security controls.
 - System and data backup and recovery controls.
 - Computer operation controls.
 
 **GitLab’s IT Complaince Function will focus on the following for the next 3 months:**
-- Logical access controls over infrastructure, applications, and data.
+- Continuing to mature our access and change management programs
 - System development life cycle controls.
 - Program change management controls.
-- System and data backup and recovery controls.
+- System data backup and recovery controls.
 
 #### [Business Continuity Plan](/handbook/business-technology/gitlab-business-continuity-plan/)
 
