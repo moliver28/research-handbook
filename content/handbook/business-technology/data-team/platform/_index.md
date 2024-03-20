@@ -399,7 +399,7 @@ In FY25-Q1, we are moving towards semi-automating the above `Managing Roles for 
 
 The rest of the section is meant to describe the automated process in more detail.
 
-Please see the runbook link if you're looking for specific step-by-step instructions to run this process: **WIP**.
+Please see the [runbook link](https://gitlab.com/gitlab-data/runbooks/-/blob/main/snowflake_provisioning_automation/snowflake_provisioning_automation.md) if you're looking for specific step-by-step instructions to run this process.
 
 The main processes that have been automated are:
 1. create/remove users from Snowflake platform
