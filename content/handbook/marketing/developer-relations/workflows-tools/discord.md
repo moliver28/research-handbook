@@ -25,11 +25,29 @@ Our server has several channels dedicated to different topics of discussion. Her
 | Channel | Purpose |
 | ------ | ------ |
 | `#announcements` | Staff will use this channel to share news and announcements. |
+| `#rules` | Server rules for all users on the server. |
 | `#general` | Main channel for general discussions. |
 | `#community-help` | Forum format channel for support questions - community helping the community. |
 | `#contribute` | Contribution discussions focused on the making & enhancing of GitLab. |
 
 There are also more specific channels for the hackathon, events, and community-based support.
+
+## Unsolicited messages and friend requests
+
+To keep our community and team members safe, server rule #5 covers keeping questions in public channels
+and not allowing unsolicited friend requests or direct messages without consent.
+If you receive a private message you can refer the user to this rule or use the following response:
+
+```
+Please refer to the GitLab Community #rules (https://discord.com/channels/778180511088640070/778194316191465474) 
+and remember to use public channels instead of direct messages, thanks!
+
+> 5. All questions should be asked in public so that anyone can answer and everyone can learn from the discussion.
+> This is a community server with volunteers helping one another.
+> Please do not ping specific people to answer your question or send unsolicited friend requests or direct messages without consent.
+> See GitLab’s communication values to Use Public Channels (https://handbook.gitlab.com/handbook/communication/#use-public-channels) 
+> and Be Respectful of Others Time (https://handbook.gitlab.com/handbook/communication/#be-respectful-of-others-time).
+```
 
 ### Tools
 
