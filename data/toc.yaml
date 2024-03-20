@@ -77,7 +77,7 @@
   - name: Handbook Roadmap
     url: /handbook/about/roadmap
   - name: Handbook Escalation
-    url: /content/handbook/about/on-call.md
+    url: /handbook/about/on-call.md
   - name: Handbook Usage
     url: handbook-usage
   - name: Contribution Guide
