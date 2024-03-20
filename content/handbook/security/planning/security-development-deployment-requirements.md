@@ -68,7 +68,7 @@ The following requirements are driven by 3 high level guidelines:
 #### Service Account usage
 
 1. Service accounts names SHOULD be meaningful.
-1. Service accounts with access to RED data MUST follow the [Access Request](/handbook/business-technology/team-member-enablement/onboarding-access-requests/access-requests/#shared-account-access-request)
+1. Service accounts with access to RED data MUST follow the [Access Request](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/#shared-account-access-request)
    process.
 1. Service accounts with access to RED data MUST be limited to single logical scope; for example, a single GCP project.
 

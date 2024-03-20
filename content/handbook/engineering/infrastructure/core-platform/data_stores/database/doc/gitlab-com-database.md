@@ -27,7 +27,7 @@ There are a couple ways to directly access the database for developers:
 
 This is the most straight forward type of access: You'll have access to a psql console to an actual replica of the database (which typically serves live traffic). The console will be read-only and a 15s statement timeout must be adhered to.
 
-How to get access: File an [access-request](/handbook/business-technology/team-member-enablement/onboarding-access-requests/access-requests/#individual-or-bulk-access-request) and ask for *production database console access* (role: `db-console`)
+How to get access: File an [access-request](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/#individual-or-bulk-access-request) and ask for *production database console access* (role: `db-console`)
 to receive permanent SSH access, or [use Teleport to request temporary access](https://gitlab.com/gitlab-com/runbooks/-/blob/master/docs/teleport/Connect_to_Database_Console_via_Teleport.md) (Recommended).
 See below for setting up SSH access.
 
@@ -35,13 +35,13 @@ See below for setting up SSH access.
 
 In this case, you'll have access to a psql console to the "archive" replica. This is a replica of the database which does not serve live traffic and is prepared to be used in a rather "exploratory" fashion (suitable for rather analytical queries, too). The console access is read-only and a 15 minute statement timeout applies. You can verify this by going db console and issuing `show statement_timeout`  command.
 
-How to get access: File an [access-request](/handbook/business-technology/team-member-enablement/onboarding-access-requests/access-requests/#individual-or-bulk-access-request) and ask for *console access to the archive database in production* (role: `db-console-archive`). See below for setting up SSH access.
+How to get access: File an [access-request](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/#individual-or-bulk-access-request) and ask for *console access to the archive database in production* (role: `db-console-archive`). See below for setting up SSH access.
 
 ##### Rails console access
 
 A Rails console can be used to access the database, too. Use with extreme care as this is typically a read-write console.
 
-How to get access: File an [access-request](/handbook/business-technology/team-member-enablement/onboarding-access-requests/access-requests/#individual-or-bulk-access-request) and ask for *Rails console access in production* (role: `rails-console`)
+How to get access: File an [access-request](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/#individual-or-bulk-access-request) and ask for *Rails console access in production* (role: `rails-console`)
 to receive permanent SSH access, or [use Teleport to request temporary access](https://gitlab.com/gitlab-com/runbooks/-/blob/master/docs/teleport/Connect_to_Rails_Console_via_Teleport.md) (Recommended).
 See below for setting up SSH access.
 

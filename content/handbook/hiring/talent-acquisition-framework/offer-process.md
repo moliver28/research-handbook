@@ -153,7 +153,7 @@ Offer details usually include:
 - [Unlimited paid-time-off]({{< ref "paid-time-off" >}})
 - [Incentives]({{< ref "incentives" >}})
 - [Office equipment/reimbursements](/handbook/spending-company-money/)
-- [Configuring your new laptop](/handbook/business-technology/team-member-enablement/onboarding-access-requests/#configuring-new-laptops--apple-ids)
+- [Configuring your new laptop](/handbook/business-technology/end-user-services/onboarding-access-requests/#configuring-new-laptops--apple-ids)
 - [Employment Assistance Program]({{< ref "benefits" >}})
 
 *A verbal offer can **only** be communicated once the offer has been fully approved in Greenhouse. Ahead of the official approval assuming no exception is being requested, the Recruiter may choose to have a conversation regarding what a potential compensation package may look like, however, the Recruiter must be clear that they are not extending a formal verbal offer as the offer has yet to be approved.*
