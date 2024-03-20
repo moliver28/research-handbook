@@ -285,6 +285,7 @@ tableau-view : Histo costs per month - subAcc breakdown - : https://getmontecarl
 ValueError: Check these models before proceeding!
 ERROR: Job failed: command terminated with exit code 1
 ```
+More implementation details can be found in the issue [here](https://gitlab.com/gitlab-data/analytics/-/issues/19885).
 
 #### `🛃dbt_sqlfluff`
 
