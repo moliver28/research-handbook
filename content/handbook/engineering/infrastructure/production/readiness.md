@@ -46,21 +46,6 @@ The Production Readiness process is authored by the DRI of the work that is bein
 1. [Create an issue][new issue] using the issue template in the [readiness project](https://gitlab.com/gitlab-com/gl-infra/readiness). The title of the issue should be a descriptive name of change.
 2. Follow the Readiness Checklist in the template.
 
-### Workflow labels
-
-Readiness issues must leverage the relevant scoped workflow labels to ensure visibility of the review progression. 
-
-| Status Label | Description |
-| ----------- | ----------- |
-| ![Triage](../team/scalability/img/label-triage.png) | The author has an idea of the feature or change but is pending a decision to proceed with it. |
-| ![Proposal](../team/scalability/img/label-proposal.png) | A decision to proceed with an idea or change has been made and Readiness MR is being prepared  |
-| ![Ready](../team/scalability/img/label-ready.png) | The Readiness MR is ready and awaiting review. <br/>Issue assigned to the DRI/Author |
-| ![In Progress](../team/scalability/img/label-in_progress.png) | Review discussions are ongoing between the DRI and SRE Reviewer. <br/>While in progress, the issue is assigned to the DRI and SRE Reviewer|
-| ![Done](../team/scalability/img/label-done.png) | The Readiness review is complete, Readiness MR is accepted and merged |
-| ![Cancelled](../team/scalability/img/label-cancelled.png) | Readiness review is no longer required due to other external reasons. After applying this label, issue will be closed. |
-| ![Stalled](../team/scalability/img/label-stalled.png) | Review is paused due to a change in priority.|
-| ![Blocked](../team/scalability/img/label-blocked.png) | Review is blocked due to external dependencies or other factors. Where possible, a [blocking issue](https://docs.gitlab.com/ee/user/project/issues/related_issues.html) should also be set. After applying this label, issue will be regularly triaged by the [Scalability:Practices](team/scalability/practices) team until the label can be removed. |
-
 ## Guidelines for the author
 
 - If this is a review for the next maturity level for an existing feature, create an MR that modifies the existing review document.
