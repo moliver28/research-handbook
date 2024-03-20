@@ -13,4 +13,3 @@ title: "Data Infrastructure"
 - [Monte Carlo](/handbook/business-technology/data-team/platform/monte-carlo)
 - [Python Guide](/handbook/business-technology/data-team/platform/python-guide)
 - [Snowflake Guide](/handbook/business-technology/data-team/platform/snowflake)
-
