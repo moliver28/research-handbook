@@ -142,8 +142,8 @@ For those with regular commitments, look for shorter weeks or timezone variation
 | 2024-05-20 | 2024-05-24 | NO SHADOW | NO SHADOW | PRESIDENT'S CLUB |
 | 2024-05-27 | 2024-05-31 | OPEN | [Djordje Micovic](https://gitlab.com/dmicovic) - Staff Data Analyst, Marketing Analytics | REMOTE - PT |
 | 2024-06-03 | 2024-06-07 | [Christopher Wang](https://gitlab.com/cs.wang) - Sr. Manager - Enablement and Strategy (Sales Development) | OPEN | REMOTE - PT |
-| 2024-06-10 | 2024-06-14 | [Moriah Akers](https://gitlab.com/makers8574532) - Customer Success Manager | [Christopher Wang](https://gitlab.com/cs.wang) - Sr. Manager - Enablement and Strategy (Sales Development) | REMOTE - PT |
-| 2024-06-17 | 2024-06-21 | [Camilo Villanueva Santiago](https://gitlab.com/cvillanueva1) - Sr. Enterprise Renewals Manager | [Moriah Akers](https://gitlab.com/makers8574532) - Customer Success Manager | REMOTE - PT |
+| 2024-06-10 | 2024-06-14 | OPEN | [Christopher Wang](https://gitlab.com/cs.wang) - Sr. Manager - Enablement and Strategy (Sales Development) | REMOTE - PT |
+| 2024-06-17 | 2024-06-21 | [Camilo Villanueva Santiago](https://gitlab.com/cvillanueva1) - Sr. Enterprise Renewals Manager | OPEN | REMOTE - PT |
 | 2024-06-24 | 2024-06-27 | OPEN - VP DIRECTS ONLY | OPEN - VP DIRECTS ONLY | In Person - East Coast |
 | 2024-07-01 | 2024-07-05 | NO SHADOW | NO SHADOW | CEO OOO |
 | 2024-07-08 | 2024-07-12 |  OPEN | [Camilo Villanueva Santiago](https://gitlab.com/cvillanueva1) - Sr. Enterprise Renewals Manager | TBD - Possible limited week/travel in EMEA |
