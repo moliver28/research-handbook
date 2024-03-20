@@ -49,3 +49,6 @@ public promotion documents in the [In-Progress Promotion Documents](https://docs
 
 If you want to list your document, decide what level of publicity you are comfortable with. Set the appropriate access for the GitLab group in the document's *Share* settings: You can keep it read-only (`Viewer`), allow others to comment and suggest edits (`Commenter`) – or fully open it to collaboration (`Editor`).
 
+## Completed Promotion Documents
+
+GitLab team members with the appropriate level of access can browse through the list of [Completed Promotions](https://docs.google.com/document/d/1A9hP1smFa0Z6upoljweg9KnxhwYPha1BZApIwRXICZY/edit?usp=sharing) documents.
