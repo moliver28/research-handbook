@@ -401,7 +401,7 @@ Exceptions to this procedure will be tracked as per the [Information Security Po
 - [GCF Compliance Controls](/handbook/security/security-assurance/security-compliance/sec-controls/)
 - [Data Classification Standard]({{< ref "data-classification-standard" >}})
 - [Current listing of controlled documents](https://gitlab.com/gitlab-com/gl-security/security-assurance/governance/security-governance/-/issues/42)
-- [App Integrations (Team Member Enablement)](/handbook/business-technology/team-member-enablement/app-integrations/)
+- [App Integrations (Team Member Enablement)](/handbook/business-technology/end-user-services/app-integrations/)
 - [Observation Management Procedure]({{< ref "observation-remediation-procedure" >}})
 - [STORM]({{< ref "storm-program" >}})
 - [Professional Services](/handbook/finance/procurement/#-how-do-i-create-a-purchase-request-in-zip)

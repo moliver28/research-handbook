@@ -42,7 +42,7 @@ We hope that managers can find a day or time at least 1x per quarter to attend!
 
 ## Attendance
 
-Leadership Chats are on the GitLab Team calendar. If you don't see the event on your calendar, submit an [access request](/handbook/business-technology/team-member-enablement/onboarding-access-requests/access-requests/#slack-google-groups-1password-vaults-or-groups-access-requests) to be added to the `managers@gitlab.com` email group so you can attend the Leadership Chats. Review the [meeting agenda](https://docs.google.com/document/d/1Hq9CykJn3EvYI5XblntORSIaheCdmyqYsqiHdrlHbHE/edit) to catch up on missed conversations.
+Leadership Chats are on the GitLab Team calendar. If you don't see the event on your calendar, submit an [access request](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/#slack-google-groups-1password-vaults-or-groups-access-requests) to be added to the `managers@gitlab.com` email group so you can attend the Leadership Chats. Review the [meeting agenda](https://docs.google.com/document/d/1Hq9CykJn3EvYI5XblntORSIaheCdmyqYsqiHdrlHbHE/edit) to catch up on missed conversations.
 
 ### How to propose a conversation idea
 

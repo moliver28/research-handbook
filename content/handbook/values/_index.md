@@ -1212,7 +1212,7 @@ Most companies have a list of values. In companies without strong values, folks 
 
 ## How to scale the business while preserving GitLab values?
 
-*For certain business decisions or projects (such as [compensation](/handbook/total-rewards/compensation/) and [end-point management](/handbook/business-technology/team-member-enablement/onboarding-access-requests/endpoint-management/) ), GitLab team members may have a lot of opinions and interest,
+*For certain business decisions or projects (such as [compensation](/handbook/total-rewards/compensation/) and [end-point management](https://internal.gitlab.com/handbook/it/endpoint-tools/) ), GitLab team members may have a lot of opinions and interest,
 and they want to provide their feedback and comments.
 On the other hand,  it might be challenging for the project DRI to digest and respond to all these inputs.
 What should you do in this scenario?*
