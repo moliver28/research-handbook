@@ -435,7 +435,7 @@ Each milestone we focus on a specific area of the product (previous milestone th
 - Look at list in description; if you see one you'd like to work on, assign yourself
 - In your merge request:
   - Link MR back to the issue
-  - Add labels `~"group::ux paper cuts"` `~"UX Paper Cuts"` `~frontend ~UX` `~"type::maintenance"` `~"maintenance::usability"` `~"section::dev"` `~"SUS::Impacting"` `~"severity::4"` _(adjust to use correct severity number)_
+  - Add labels `~"group::ux paper cuts"` `~"UX Paper Cuts"` `~frontend ~UX` `~"type::maintenance"` `~"maintenance::usability"` `~"severity::4"` _(adjust to use correct severity number)_
 - Assign a paper cuts designer to review ~"UX"
 - Use reviewer roulette for developer reviews
 
