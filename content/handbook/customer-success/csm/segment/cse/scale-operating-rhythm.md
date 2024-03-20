@@ -139,7 +139,7 @@ When a CSE has accepted an engagement request, the CSE must then create a [CTA](
    - Priority: (select the most appropriate type based on the request)
    - Playbook: One-Off CSE Outreach
 
-Once the call is complete, the call must be [logged as an activity](/handbook/customer-success/csm/cadence-calls/#review-and-update-account-details) against the customer’s timeline in Gainsight using the `CSE Engagement` meeting type in Gainsight, and filling in the relevant details regarding the customer meeting details.
+Note that the trailing " - Ad-Hoc CSE Engagement Request" MUST be there in order for us to generate proper metrics. The customer name can be truncated in order to satisfy the "Name" length requirements. Once the call is complete, the call must be [logged as an activity](/handbook/customer-success/csm/cadence-calls/#review-and-update-account-details) against the customer’s timeline in Gainsight using the `CSE Engagement` meeting type in Gainsight, and filling in the relevant details regarding the customer meeting details.
 
 The CSE should then prepare a follow-up email to be sent to the customer through the email-assist in the task: `Follow Up Email Post One-off CSE Outreach Call Completion`
 
