@@ -39,7 +39,7 @@ Trusted subject matter experts for GitLab’s internal and partner teams, provid
 ### How to Contact Us
 
 The **#partner-programs-ops** Slack channel can be leveraged for inquiries. Both the Partner Operations Team and the Channel Programs Team monitor this slack channel.
-If you are reporting a problem or have suggestions, changes, or similar, please open an issue on the [Partner Operations Issue Board](https://gitlab.com/groups/gitlab-com/-/boards/2552402?&label_name[]=Channel%20Ops) for operational issues, or the [Channel Team’s Issue Board](https://gitlab.com/groups/gitlab-com/-/boards/1508300?label_name[]=Channel) for program issues.
+If you are reporting a problem or have suggestions, changes, or similar, please open an issue on the [Partner Operations Issue Board](https://gitlab.com/groups/gitlab-com/-/boards/2552402?label_name[]=Partner%20Ops) for operational issues, or the [Channel Team’s Issue Board](https://gitlab.com/groups/gitlab-com/-/boards/1508300?label_name[]=Channel) for program issues.
 
 ### The Partner Operations Issue Board
 
