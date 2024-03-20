@@ -15,37 +15,16 @@ The Growth and Development fund is managed by the [Learning and Development team
 
 ## Growth and Development Fund Eligibility
 
+To be eligible for the Growth and Development Fund, you must meet the following criteria:
+
 - Team members who are full-time and have been employed for three months can participate in this fund.
 - If you are a part-time GitLab team member, you may still be eligible to participate in this fund but your reimbursement might be reduced.
 - Team members who are currently on "leave" status will not be eligible to use the growth and development fund.
+- Team members who are meeting performance expectations in their current role. (Should not be on a Performance Improvement Plan, or receiving remedial coaching regarding underperformance)
 
-These situations will be discussed on a case-by-case basis.
-- Team members who are meeting performance expectations in their current role:
-    - Currently in good standing with GitLab in terms of performance and behaviours
-    - Not currently on a [PIP]({{< ref "underperformance#performance-improvement-plan-pip" >}})
-    - Not on any type of remedial, formal coaching as outlined in the [Underperformance page]({{< ref "underperformance" >}})
+## How to Apply for the Growth and Development Fund
 
-**Examples of requests that may be approved:**
-
-- A [LinkedIn Learning](/handbook/people-group/learning-and-development/linkedin-learning/) license
-- A Backend Engineer who is not on a performance improvement plan seeking a bachelor's degree in Computer Science.
-- A People Operations Team member seeking a master's in Human Resources with a concentration in International Employee Relations.
-- A Security Analyst seeking to take courses to gain a Cybersecurity certificate through an accredited college or university.
-- A Product Marketing Manager seeking to take courses to become a Certified Brand Manager from The Association of International Product Marketing and Management.
-- A Customer Success Manager seeking to obtain a Cloud Certification such as CompTIA Cloud, AWS Certified Solutions Architect, MicroSoft MCSA/MCSE, Cisco CCNA/CCNP.
-- Learning how to code for all team members (for example [Learning Rails on Codecademy](https://www.codecademy.com/learn/learn-rails)).
-
-**Examples of requests that may be denied:**
-
-- A Marketing Manager seeking a master's in Human Resources, but has no intention of applying to a role in the People team.
-- A Frontend Engineer seeking a master's in computer science who is on a performance improvement plan or having discussions around underperformance.
-- If the tuition reimbursement budget has been reached, then your request may be denied, even if you meet eligibility requirements.
-
-## Company-directed Learning Opportunities
-
-The Growth and Development policy is meant to further team members' learning and growth. Company-directed learning opportunities, such as mandatory conferences or training that are required to fulfill their job duties, are not within the scope of the Growth and Development policy and should be budgeted for outside the policy. Such expenses will not be deducted from the team member's annual Growth and Development limit and should be paid for by GitLab rather than reimbursed to the team member.
-
-## How to Apply For Growth and Development Fund
+Here is a step by step guide on G&D applications:
 
 **Step 1:** Have a [career development conversation](/handbook/people-group/learning-and-development/career-development/#what-is-career-development) with your manager to discuss the learning opportunity. It's important to discuss timing, team member capacity, and application timeline for both the program and fund processing. This conversation should allow time for you to apply for the program and your manager to ensure team capacity.
 
@@ -59,7 +38,7 @@ The Growth and Development policy is meant to further team members' learning and
 |[Coaching Right Now (GitLab's coaching vendor of choice)](https://gitlab.com/gitlab-com/people-group/learning-development/growth-and-development-requests/-/issues/new?issuable_template=g-and-d-coaching) Learn more about Coaching Right Now below. | 30 days before the commencement date|
 | Your 4th Trimester | For Your 4th Trimester applications, please notify Talent Development that you would like to participate in the program by sending an email to `growth-development@gitlab.com`. |
 
-- Note: This application process is visible internally. It is preferred and more efficient to create an issue for your application, however, if there is any reason that you would like to keep your application confidential, please send `growth-development@gitlab.com` an email with the details of your application (refer to the issue templates for the information required).
+The application process is visible internally. If there is any reason that you would like to keep your application confidential, please send `growth-development@gitlab.com` an email with the details of your application (refer to the issue templates for the information required).
 
 **Step 3:** Request approval on the issue. Depending on the cost of the application, different approval levels are required. In all instances, your direct manager should be the first approver in the issue.
 
@@ -68,16 +47,13 @@ Cost Tiers Approval:
 - Manager + VP Approval: $1000.01 - $5000
 - Manager + eGroup Approval for any spend $5000.01 - $10,000 (Apart from Sales, where VPs can approve $5000.01 - $10,000 spend)
 
-
-- Once the manager has approved, there is no further action to be taken by the manager. They can unassign themselves to the issue if they wish.
-
+Once the manager has approved, there is no further action to be taken by the manager. They can unassign themselves to the issue if they wish.
 
 **Step 4:** Claim for reimbursement:
 
 Once the appropriate approvals are provided on the Growth and Development issue, proceed with processing your G&D application. **You do not have to wait for approval or further action from the Learning and Development team.**
 
-Before attempting to claim reimbursement, please ensure you've read through and understand the Notes on Reimbursement section below.
-
+Before attempting to claim reimbursement, please ensure you've read through and understand the [Notes on Reimbursement](/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development/#notes-on-reimbursement) section below.
 
 - Claim your expenses via [Navan Expense](/handbook/finance/expenses/#-introduction):
   - In your Navan Expense report, choose the Expense type `G&D (Growth and Development)`.
@@ -96,16 +72,18 @@ As an option, requests over $1000 USD can take advantage of the split disburseme
 
 Here’s how this workflow works: 1). After all necessary approvals, the requesting team member pays for approved G&D experience. 2). If costs for this G&D experience exceed $1000USD, the team member can submit the proof of payment (via Navan), and the approved GitLab issue to receive a reimbursement of 50% of the total costs. 3). Upon completion, the team member will submit the proof of completion (certificate, completion email, etc.) along with that same approved issue to receive the remaining 50% of total costs.
 
+### Recoupment of Growth and Development Reimbursements
+
+If you voluntarily terminate employment with GitLab prior to completing twelve consecutive months of active employment, academic study or tuition expenses of $1,000 USD and over will need to be refunded to GitLab.
 
 ## Bulk Applications
 
 - If multiple team members are doing the same training or attending the same conference, please open one issue.
-- Each team member should pay for their own expenses and process their own reimbursement through Navan. Team Members or Managers should not cover the expenses of other team members, as any reimbursements will count against their Growth and Development allotment.
+- Each team member should pay for their own expenses and process their own reimbursement through Navan. Team Members or Managers should not cover the expenses of other team members, as any reimbursements will count against their Growth and Development allowance.
 
+## Company-directed Learning Opportunities
 
-### Recoupment of Growth and Development Reimbursements
-
-If you voluntarily terminate employment with GitLab prior to completing twelve consecutive months of active employment, academic study or tuition expenses of $1,000 USD and over will need to be refunded to GitLab.
+The Growth and Development policy is meant to further team members' learning and growth. Company-directed learning opportunities, such as mandatory conferences or training that are required to fulfill their job duties, are not within the scope of the Growth and Development policy and should be budgeted for outside the policy. Such expenses will not be deducted from the team member's annual Growth and Development limit and should be paid for by GitLab rather than reimbursed to the team member.
 
 ### Tax Implications
 
@@ -209,18 +187,6 @@ Examples of English Language Courses:
 **Eligibility for Reimbursement:** The course must be related code based learning. A final grade report or satisfactory certificate of completion are required to receive reimbursements over $1,000 USD. For reimbursements above $1000, you can expense 50% of the cost up front, and 50% upon completion.
 
 **Approver (above $1,000 USD):** Manager, E-Group Member
-
-### Crucial Conversations training
-
-The Learning and Development team delivers the [Crucial Conversations]({{< ref "/handbook/leadership/crucial-conversations" >}}) training internally to team members. The training is a hybrid format, including self-paced learning and live learning practice sessions. Read more program details in the [Learning and Development handbook](/handbook/people-group/learning-and-development/learning-initiatives/crucial-conversations/).
-
-Crucial Conversations charges per-learner to deliver this content. Each license costs $273 per license. The following section outlines how the team member G&D fund can be used to participate in this training.
-
-1. Fill out [this Google form](https://docs.google.com/forms/u/1/d/e/1FAIpQLSdqwibbQZs-zL-IX9aq9Yzgozm-y3i0Vwh59T8T1nR74mxmFQ/viewform) to express interest in taking the training. You are **not** committing to the training by filling out this form.
-1. The L&D team will assess interest/team need and organize cohorts based on this Google form. The team will contact you to confirm your availability before signing you up for a cohort.
-1. The L&D team will open a G&D issue and tag you in the issue. Please follow instructions in the issue to obtain manager approval.
-
-The L&D team will collaborate to purchase the course license on your behalf and the cost will count towwards your Growth and Development budget. Please plan to complete the Crucial Conversations self-paced training and attend at least 4 live training sessions within 3 months of starting the training.
 
 ### Mentorship
 
