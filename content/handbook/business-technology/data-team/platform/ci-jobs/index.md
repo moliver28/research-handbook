@@ -276,7 +276,7 @@ This uses word count (wc) to see how many lines are in the comparison file. If t
 
 #### `🔍tableau_direct_dependencies_query`
 
-This job runs automatically and only appears when `.sql` files are changed. In its simplest form, the job will check to see if any of the currently changed models are **directly** queried in Tableau views, tableau data-extracts, or tableau flows. If they are, the job will fail with a notification to check the relevant dependency. If it is not queried, the job will succeed.
+This job runs automatically and only appears when `.sql` files are changed. In its simplest form, the job will check to see if any of the currently changed models are **directly** queried in Tableau views, tableau data-extracts and/or tableau flows. If they are, the job will fail with a notification to check the relevant dependency. If it is not queried, the job will succeed.
 
 Current caveats with the job are:
 
@@ -285,7 +285,7 @@ Current caveats with the job are:
 
 ##### Explanation
 
-This section explains how the `tableau_direct_dependencies_query`` works.
+This section explains how the `tableau_direct_dependencies_query` works.
 
 `git diff origin/$CI_MERGE_REQUEST_TARGET_BRANCH_NAME...HEAD --name-only | grep -iEo "(.*)\.sql" | sed -E 's/\.sql//' | awk -F '/' '{print tolower($NF)}' | sort | uniq`
 
