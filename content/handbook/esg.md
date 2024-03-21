@@ -121,7 +121,7 @@ Successful talent management at GitLab is the direct result of the successful ma
 
 **Developing Our Leaders**
 
-To continue to meet the needs of GitLab as we scale, we focused on developing our team members in FY23. Special attention has been given to developing our managers through targeted programs like [Elevate](/handbook/people-group/learning-and-development/elevate/), our Leadership Development course, which enrolled its first cohort of managers in FY23. We are aiming to have 85% of our leadership community (manager level) graduate from Elevate by the end of FY24.
+To continue to meet the needs of GitLab as we scale, we focused on developing our team members in FY23. Special attention has been given to developing our managers through targeted programs like [Elevate](/handbook/people-group/learning-and-development/elevate/), our Leadership Development course, which enrolled its first cohort of managers in FY23. We are aiming to have 85% of our leadership community (manager level) graduate from "Elevate" by the end of FY24.
 
 ##### Talent Engagement
 
@@ -375,7 +375,7 @@ Disclosing our progress through data aligns with our [transparency](https://hand
 
 ### Contact
 
-For questions regarding GitLab’s ESG report and data, please contact ESG@GitLab.com
+For questions regarding GitLab’s ESG report and data, please contact esg@gitlab.com
 
 ### Forward looking statement
 
