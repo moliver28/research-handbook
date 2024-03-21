@@ -32,7 +32,7 @@ Group priorities are reviewed collaboratively with product counterparts and publ
 
 ## Sub-department development people leaders
 
-{{< team-by-manager-slug manager="pcalder" role="Govern" >}}
+{{< team-by-manager-slug manager="pcalder" role="Govern" team="Engineering Manager(.*)Govern" >}}
 
 To contact Govern sub-department development people leaders leaders use the following aliases:
 
