@@ -22,13 +22,15 @@ There are 3 groups within marketing who handle external events. Each group has a
 
 
 
-### Legal verbiage that should be included in all event contracts thoughout FY22
+### Event / Sponsorship Related Contractual Conceps
 
-- This language is what we should be adding to supplier agreements (when agreeing on their template):
-  - "Termination for Convenience. GitLab may terminate this Agreement, any SOW or Order, or all at any time, for no reason or for any reason, upon notice to Vendor. Upon receipt of notice of such termination, Vendor shall inform GitLab of the extent to which it has completed performance as of the date of the notice, and Vendor will collect and deliver to GitLab whatever Work Product then exists, if applicable. GitLab will pay Vendor for all Work acceptably performed through the date of notice of termination, provided that GitLab will not be obligated to pay any more than the payment that would have become due had Vendor completed and GitLab had accepted the Work. GitLab will have no further payment obligation in connection with any termination. Upon termination or expiration of this Agreement, Vendor shall return or destroy any GitLab Confidential Information and provide certification thereof."
-- In the event that any supplier does not accept the termination for convenience language here, then, we can following up with this option
-  - "Neither party shall be liable to the other for delays or failures in performance resulting from causes beyond the reasonable control of that party, including, but not limited to, acts of God, labor disputes or disturbances, material shortages or rationing, pandemics, riots, acts of war, governmental regulations, communication or utility failures, or casualties (“Force Majeure”).
-- In the event of a Force Majeure impact on the performance of either party, then the parties are immediately relieved of obligation to perform. From notice to supplier, GitLab is relieved of the payment obligation. As soon as is practical, but not more than sixty (60) days from GitLab’s notice to supplier, GitLab shall receive from supplier a pro-rata refund of, any fees previously paid, from the date of notice to supplier to the end of the term."
+- With respect to GitLab attending events as a Sponsor, Field Marketing is encouraged to ensure the following provisions are present. Please note, all contracts will be reviewed by GitLab Legal and elements will be added into the applicable terms and conditions. If an event organizer refuses to add these elements into the terms and conditions, Marketing will need to acknowlege subsequent risk(s). 
+
+  - Cancellation / Postponement: If an event is cancelled or postponed, GitLab would like to have the ability to receive a refund.
+
+  - Force Majeure / Impossibility: GitLab would like to have the right to be relieved of all costs & obligations in the event there are external circumstances which prohibit our attendance. Ideally, if this is envoked by the organizer, we would like the ability to receive a refund. 
+
+  - GitLab cancellation: If given a long enough notice period, as negotiated, GitLab would like to receive a refund (or at the least a credit). 
 
 ## Which events is GitLab already sponsoring?
 
