@@ -81,7 +81,7 @@ The DAST team also monitors #s_secure and #sec-section. Both these channels are 
 
 ## How We Work
 
-The Dynamic Analysis group works according to kanban principles, with the addition of ceremonies quarterly for OKR development, monthly for release planning, and weekly for syncing on epic and issue reacting, triaging, refinement, impediment resolution. By having the team operate and think at each of these cadences, it can effectively set high-level goals, ensure product priorities are planned, and prevent epics and issue work from stalling or falling through the cracks.
+The Dynamic Analysis group works according to kanban principles, with the addition of ceremonies quarterly for OKR development, monthly for release planning, and weekly for syncing on epic and issue reacting, triaging, refinement, impediment resolution. By having the team operate and think at each of these cadences, it can effectively set high-level hierarchical goals, ensure product priorities are planned, and prevent epics and issue work from stalling or falling through the cracks.
 
 ### Quarterly OKR Development
 
