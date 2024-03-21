@@ -82,14 +82,16 @@ The Highspot team creates GitLab Issue Templates within the Enablement Project f
 
 Teams with access to Highspot include:
 1. Sales
-1. Customer Success
-1. Channel
-1. Alliances
-1. Field Operations
+1. Customer Success Management 
+1. Renewals 
+1. Professional Services
+1. Partner 
+1. Revenue Strategy, Operations & Enablement (RSOE)
 1. Sales Development
 1. Strategic Marketing (Product Marketing, Customer Reference, Analyst Relations, Competitive Intelligence)
 1. Field Marketing
-1. Developer Advocacy
+1. Developer Relations
+1. Corporate Communications
 
 Non-active users, such as team members who have left the company, will be removed from Highspot on a regular basis in order to open seats within the tool.
 
