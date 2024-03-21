@@ -81,11 +81,199 @@ The DAST team also monitors #s_secure and #sec-section. Both these channels are 
 
 ## How We Work
 
-The Dynamic Analysis group works according to kanban principles. While the group still follows the workflow states and activities articulated in GitLab's [Product Development Flow](/handbook/product-development-flow/), it operates on a
-pull-based methodology once work is handed off to the development team for delivery. An issue is considered handed off into the development team when it is given the `~workflow::planning breakdown` label, and the team utilizes the following
-labels as part of its work.
+```mermaid
+timeline
+  title Annual Kanban Ceremonies
+  section Q1 <br> OKR Development Sync
+    M1 <br> Milestone Planning Sync
+          : W1 <br> Weekly Team Sync
+          : W2 <br> Weekly Team Sync
+          : W3 <br> Weekly Team Sync
+          : W4 <br> Weekly Team Sync
+    M2 <br> Milestone Planning Sync
+          : W1 <br> Weekly Team Sync
+          : W2 <br> Weekly Team Sync
+          : W3 <br> Weekly Team Sync
+          : W4 <br> Weekly Team Sync
+    M3 <br> Milestone Planning Sync
+          : W1 <br> Weekly Team Sync
+          : W2 <br> Weekly Team Sync
+          : W3 <br> Weekly Team Sync
+          : W4 <br> Weekly Team Sync
+  section Q2 <br> OKR Development Sync
+    M4 <br> Milestone Planning Sync
+          : W1 <br> Weekly Team Sync
+          : W2 <br> Weekly Team Sync
+          : W3 <br> Weekly Team Sync
+          : W4 <br> Weekly Team Sync
+    M5 <br> Milestone Planning Sync
+          : W1 <br> Weekly Team Sync
+          : W2 <br> Weekly Team Sync
+          : W3 <br> Weekly Team Sync
+          : W4 <br> Weekly Team Sync
+    M6 <br> Milestone Planning Sync
+          : W1 <br> Weekly Team Sync
+          : W2 <br> Weekly Team Sync
+          : W3 <br> Weekly Team Sync
+          : W4 <br> Weekly Team Sync
+  section Q3 <br> OKR Development Sync
+    M7 <br> Milestone Planning Sync
+          : W1 <br> Weekly Team Sync
+          : W2 <br> Weekly Team Sync
+          : W3 <br> Weekly Team Sync
+          : W4 <br> Weekly Team Sync
+    M8 <br> Milestone Planning Sync
+          : W1 <br> Weekly Team Sync
+          : W2 <br> Weekly Team Sync
+          : W3 <br> Weekly Team Sync
+          : W4 <br> Weekly Team Sync
+    M9 <br> Milestone Planning Sync
+          : W1 <br> Weekly Team Sync
+          : W2 <br> Weekly Team Sync
+          : W3 <br> Weekly Team Sync
+          : W4 <br> Weekly Team Sync
+  section Q4 <br> OKR Development Sync
+    M10 <br> Milestone Planning Sync
+          : W1 <br> Weekly Team Sync
+          : W2 <br> Weekly Team Sync
+          : W3 <br> Weekly Team Sync
+          : W4 <br> Weekly Team Sync
+    M11 <br> Milestone Planning Sync
+          : W1 <br> Weekly Team Sync
+          : W2 <br> Weekly Team Sync
+          : W3 <br> Weekly Team Sync
+          : W4 <br> Weekly Team Sync
+    M12 <br> Milestone Planning Sync
+          : W1 <br> Weekly Team Sync
+          : W2 <br> Weekly Team Sync
+          : W3 <br> Weekly Team Sync
+          : W4 <br> Weekly Team Sync
+```
 
-- [Official Dynamic Analysis Delivery board](https://gitlab.com/groups/gitlab-org/-/boards/5719921?label_name%5B%5D=group%3A%3Adynamic%20analysis)
+The Dynamic Analysis group works according to kanban principles, with the addition of ceremonies quarterly for OKR development, monthly for release planning, and weekly for syncing on epic and issue reacting, triaging, refinement, impediment resolution. By having the team operate and think at each of these cadences, it can effectively set high-level hierarchical goals, ensure product priorities are planned, and prevent epics and issue work from stalling or falling through the cracks.
+
+### Quarterly OKR Development
+
+```mermaid
+timeline
+  section Q1 <br> OKR Development Sync
+  section Q2 <br> OKR Development Sync
+  section Q3 <br> OKR Development Sync
+  section Q4 <br> OKR Development Sync
+```
+
+Four weeks before the end of a fiscal quarter, our bot will automatically create an OKR planning issue for the group and schedule a calendar event.
+
+The group will get together two weeks before the next quarter begins to create and review [all OKRs for which the team will ultimately be responsible]((https://gitlab.com/gitlab-com/gitlab-OKRs/-/issues/?sort=created_date&state=opened&label_name%5B%5D=group%3A%3Adynamic%20analysis&first_page_size=20)). This includes reviewing all ancestor OKRs for the stage and up, creating or updating and new or existing OKRs with additional details, and assigning DRIs team each OKR to assist with health updates.
+
+#### Important Links
+
+- [List of Team Objectives & Key Results](https://gitlab.com/gitlab-com/gitlab-OKRs/-/issues/?sort=created_date&state=opened&label_name%5B%5D=group%3A%3Adynamic%20analysis&first_page_size=20)
+- List of Stage Objectives & Key Results (Coming Soon)
+- List of CEO Objectives & Key Results (Coming Soon)
+
+#### Quarterly Outputs
+
+- Polished OKRs for the group with assigned DRIs
+  - Links to any associated epics or issues
+
+### Monthly Release Planning
+
+```mermaid
+timeline
+  section M1 <br> Milestone Planning Sync
+  section M2 <br> Milestone Planning Sync
+  section M3 <br> Milestone Planning Sync
+  section M4 <br> Milestone Planning Sync
+  section M5 <br> Milestone Planning Sync
+  section M6 <br> Milestone Planning Sync
+  section M7 <br> Milestone Planning Sync
+  section M8 <br> Milestone Planning Sync
+  section M9 <br> Milestone Planning Sync
+  section M10 <br> Milestone Planning Sync
+  section M11 <br> Milestone Planning Sync
+  section M12 <br> Milestone Planning Sync
+```
+
+Two weeks before a release milestone is kicked off, our bot will automatically create an monthly release planning issue for the group and schedule a calendar event.
+
+On the date of a relase milestone kick-off, we will review the list of [Dynamic Analysis Group direction priorities](https://about.gitlab.com/direction/secure/dynamic-analysis/#priorities) with product.
+
+Product sets all of our high-level priorities and the output from this meeting will be an MR update to this page with a direct mapping of each priority to a group epic and any updates to the targeted milestone to ensure accuracy. These product priority-based epics will exist alongside our comprehensive [list of all Dynamic Analysis Group epics](https://gitlab.com/groups/gitlab-org/-/epics?state=opened&page=1&sort=start_date_desc&label_name%5B%5D=group::dynamic+analysis&label_name%5B%5D=Category:DAST).
+
+To complete this mapping, product priority-based epics should be created in [gitlab-org/-/epics](https://gitlab.com/groups/gitlab-org/-/epics?label_name[]=Category:DAST&label_name[]=group::dynamic+analysis&page=1&sort=start_date_desc&state=opened) with the same title of the priority and the following labels. The `type::feature` label is what distinguishes a product priority from other group epic work.
+
+```
+/label ~"section::sec"
+/label ~"devops::secure"
+/label ~"group::dynamic analysis"
+/label ~"type::feature"
+```
+
+Timeboxed by the duration of this meeting, the team will attempt to create as many child epics and issues for each of these current release milestone product epics as placeholders for eventual refinement. This is a great time for the team to discuss high-level archtectural directions, high-level implementation plans, and high-level needs for accomplishing this priorities throughout the next month. All issues created should receive the following milestone and labels:
+
+```
+/milestone {from mapping}
+/label ~"section::sec"
+/label ~"devops::secure"
+/label ~"group::dynamic analysis"
+/label `~workflow::planning breakdown`
+```
+
+#### Important Links
+
+- [Dynamic Analysis Group Direction Priorities](https://about.gitlab.com/direction/secure/dynamic-analysis/#priorities)
+- [List of all Dynamic Analysis Group Epics](https://gitlab.com/groups/gitlab-org/-/epics?state=opened&page=1&sort=start_date_desc&label_name%5B%5D=group::dynamic+analysis&label_name%5B%5D=Category:DAST)
+
+#### Monthly Outputs
+
+- MR to update the group direction with all priorities and targeted releases
+  - Links to polished epics for each product priority
+    - Flush out as many child epics and issues tagged to milestones as possible
+
+### Weekly Sync
+
+Every Tuesday, a calendar event with an attached agenda exists for a synchronous group meeting.
+
+Each Tuesday, the group will assign a new Reaction Coordinator, discuss any unresolved and significant impediments blocking the team, and host general discussions valuable to a synchronous team meetup.
+
+#### Reaction Coordinator
+
+DAST uses a reaction coordinator rotation to give each team member in the group the opportunity to ensure all internally and externally generated epics and issues are triaged or resolved as efficienctly as possible. The reaction coordinator of the week is responsible for triaging:
+
+- Issues that need to be refined
+- Issues that need to be broken down
+- Board columns near their WIP limits
+- Blocked epics or issues in the workflow
+- External issues (support and quality)
+- Community contributions
+
+Engineers rotate through the position to give everyone equal opportunity both in the role and away from the role. The weekly sync agenda document will contain the currently assigned reaction coordinator. The reaction rotation aims to produce better group workflow, support and quality, and community outcomes by encouraging knowledge sharing, reducing dependencies on individuals in knowledge silos, and clarifying who is responsible for responding to any external requests.
+
+Due to the unpredictable nature of all of these triage items, it is hard to determine the impact of reaction coordinator rotation on an engineer's typical throughput, but a significant decrease is to be expected for the betterment of all of these stakeholders.
+
+The reaction rotation engineer should:
+
+- Triage and respond to customer support requests via support [request for help issues](https://gitlab.com/gitlab-com/sec-sub-department/section-sec-request-for-help/-/issues/?sort=created_date&state=opened&label_name%5B%5D=Help%20group%3A%3Adynamic%20analysis&first_page_size=20). As an outcome of triage, create new issues and communicate with the product team to help assign priority.
+- Triage and respond to customer support requests via Slack. Encourage customers/support teams to create support tickets because of Slack's short retention history.
+- Ensure high-quality support request responses. Reach out to other engineers, teams, or people with knowledge to ensure customers get the best possible answers.
+- Ensure security issues (for FedRAMP compliance or platform security) are created or updated, either manually or through automation. Follow up with creation of [Deviation Requests](/handbook/security/security-assurance/dedicated-compliance/poam-deviation-request-procedure/) if necessary.
+- Act as an MR Coach for newly created community contributions.
+- Continue normal DAST engineering activities.
+
+#### Weekly Outputs
+
+- Assign a new Reaction Coordinator
+- Discuss any unresolved and significant impediments
+- General team discussions
+
+### Daily Epic and Issue Work
+
+The team follows the workflow states and activities articulated in GitLab's [Product Development Flow](/handbook/product-development-flow/). It operates on a pull-based methodology souring from the [list of all Dynamic Analysis Group epics](https://gitlab.com/groups/gitlab-org/-/epics?state=opened&page=1&sort=start_date_desc&label_name%5B%5D=group::dynamic+analysis&label_name%5B%5D=Category:DAST) as the backlog of all work for the current and future releases.
+
+As epics cannot be associated with milestones in the product, the [list of all Dynamic Analysis Group epics](https://gitlab.com/groups/gitlab-org/-/epics?state=opened&page=1&sort=start_date_desc&label_name%5B%5D=group::dynamic+analysis&label_name%5B%5D=Category:DAST) functions as the source of truth for the milestone for any issues not yeat created for each epic. Although, at least some issues should exist for each epic associated with a product priority from monthly release planning.
+
+An issue is considered handed off into the development team when it is given the `~workflow::planning breakdown` label, and the team utilizes the following labels as part of its work.
 
 | State | Expected Outcomes |
 | ----- | ----------------- |
@@ -96,6 +284,10 @@ labels as part of its work.
 | `~workflow::in review` | Last MR is merged. |
 | `~workflow::verification` | Functionally working changes are available in a production environment. Record demo where possible. |
 | `~workflow::complete` | Code is verified, the work is complete, and the issue is closed. |
+
+#### Important Links
+
+- [Dynamic Analysis Delivery Board](https://gitlab.com/groups/gitlab-org/-/boards/5719921?label_name%5B%5D=group%3A%3Adynamic%20analysis)
 
 ### Additional notes
 
@@ -134,25 +326,6 @@ There are several maintenance tasks that need to be completed each milestone. Ea
 - Review upstream changes, and open an issue to upgrade DAST if the upstream changes provide important improvements
 - Review the [security dashboard](https://gitlab.com/gitlab-org/security-products/dast/-/security/vulnerability_report) for DAST and address all critical and high issues. Review the dashboards for upstream projects, [ZAP](https://gitlab.com/gitlab-org/security-products/dependencies/zaproxy) and [ZAP Extensions](https://gitlab.com/gitlab-org/security-products/dependencies/zap-extensions)
 
-### Reaction rotation
-
-DAST uses a reaction rotation to address support concerns. At each milestone planning meeting, an engineer is assigned as the person on reaction rotation.
-Engineers rotate through the position to give everyone equal opportunity both in the role and away from the role. The milestone planning issue maintained by Product Management will include which engineer is on reaction rotation.
-
-The reaction rotation aims to produce better support outcomes by encouraging knowledge sharing, reducing dependencies on individuals in knowledge silos, and clarifying who is responsible for responding to a support request.
-
-Due to the unpredictable nature of support requests, it is hard to determine the impact of reaction rotation on an engineer's typical throughput. We minimize impact to predictability of DAST goals by reducing responsibilities of the person on reaction rotation.
-
-#### In scope of role
-
-The reaction rotation engineer should:
-
-- Triage and respond to customer support requests via support [request for help issues](https://gitlab.com/gitlab-com/sec-sub-department/section-sec-request-for-help/-/issues/?sort=created_date&state=opened&label_name%5B%5D=Help%20group%3A%3Adynamic%20analysis&first_page_size=20). As an outcome of triage, create new issues and communicate with the product team to help assign priority.
-- Triage and respond to customer support requests via Slack. Encourage customers/support teams to create support tickets because of Slack's short retention history.
-- Ensure high-quality support request responses. Reach out to other engineers, teams, or people with knowledge to ensure customers get the best possible answers.
-- Ensure security issues (for FedRAMP compliance or platform security) are created or updated, either manually or through automation. Follow up with creation of [Deviation Requests](/handbook/security/security-assurance/dedicated-compliance/poam-deviation-request-procedure/) if necessary.
-- Act as an MR Coach for newly created community contributions.
-- Continue normal DAST engineering activities.
 
 #### Out of scope of role
 
