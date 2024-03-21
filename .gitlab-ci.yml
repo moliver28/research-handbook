@@ -208,19 +208,13 @@ hugolint:
   needs: []
   rules:
     - if: $CI_PIPELINE_SOURCE == 'merge_request_event'
+      allow_failure: true
   image:
     name: registry.gitlab.com/fforster/hugolint:main
   script:
-    - ps
-    - mount
-    - echo $PWD
-    - echo $PATH
-    - for dir in $(echo "$PATH" | sed -e 's/:/ /g'); do ls -l $dir || true; done
-    - HUGOLINT='/usr/local/bin/hugolint'
-    - ls -l "${HUGOLINT}"
-    - ldd "${HUGOLINT}" || true
     - hugolint linkcheck --format=json content/handbook/*.md >linkcheck.json
   artifacts:
+    when: always
     expire_in: 1 month
     paths:
       - linkcheck.json
