@@ -816,4 +816,4 @@ CEO Shadow Program alumni are welcome to join the `#ceo-shadow-alumni` Slack cha
 | 2024-02-05 | 2024-02-14 | [Deepika Guliani](https://gitlab.com/deepika.guliani) | Frontend Engineer, Plan:Project Management | |
 | 2024-02-12 | 2024-02-23 | [Taimur Khan](https://gitlab.com/tkhan.gitlab) | Staff CSM, Industry Lead | |
 | 2024-02-20 | 2024-03-01 | [Emma Neuberger](https://gitlab.com/eneuberger) | Sr Product Analyst | |
-| 2024-02-26 | 2024-03-08 | [Viktor Nagy](https://gitlab.com/nagyv-gitlab) | Senior Product Manager, Deploy:Environments | |
+| 2024-02-26 | 2024-03-08 | [Viktor Nagy](https://gitlab.com/nagyv-gitlab) | Senior Product Manager, Deploy:Environments | https://www.linkedin.com/pulse/from-shadow-viktor-nagy-ngvwf/ |
