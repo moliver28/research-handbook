@@ -4,13 +4,6 @@ title: "Customer Success Management Handbook"
 description: "The Customer Success Management team at GitLab is a part of the Customer Success department, acting as trusted advisors to our customers and helping them realize value faster."
 ---
 
-
-
-
-
-
-
-
 [<button class="btn btn-primary" type="button" style="padding: 15px 30px; font-size: 24px;">Digital</button>](/handbook/sales/field-operations/customer-success-operations/cs-ops-programs/)
 [<button class="btn btn-primary" type="button"  style="padding: 15px 30px; font-size: 24px;">CSE</button>](/handbook/customer-success/csm/segment/scale/)
 [<button class="btn btn-primary" type="button"  style="padding: 15px 30px; font-size: 24px;">CSM AMER</button>](/handbook/customer-success/csm/segment/amer/)
@@ -147,7 +140,7 @@ Please reference this page for an overview of the areas your CSM will engage wit
 ### Big Rock (Annual Strategy) Archive
 
 - [FY23](/handbook/customer-success/csm/fy23)
-- [FY24](/handbook.gitlab.com/handbook/customer-success/csm/annual-strategy/fy24/)
+- [FY24](/handbook/customer-success/csm/fy24)
 
 
 ## Handbook Directory
