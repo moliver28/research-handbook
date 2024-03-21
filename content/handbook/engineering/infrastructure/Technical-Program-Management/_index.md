@@ -1,6 +1,6 @@
 ---
-title: "Technical Program Management Team"
-description: "Technical Program Management Team drives the planning, execution, and delivery of complex infrastructure projects across Engineering and Product."
+title: "Infrastructure Technical Program Management Team"
+description: "Infrastructure Technical Program Management Team drives the planning, execution, and delivery of complex infrastructure projects across Engineering and Product."
 ---
 
 ## Vision
@@ -16,9 +16,9 @@ Enable the delivery of quality products and Programs on time by driving team ali
 
 ## Roles and Responsibilities
 
-- Technical Program Managers are end-to-end problem solvers.
-- Technical Program Managers are product managers for Infra internal products/platforms, in the absence of dedicated product managers. For example, GDK, Triage Ops, Dependency Management.
-- Technical Program Managers are enablers for engineers.
+- Infrastructure Technical Program Managers are end-to-end problem solvers.
+- Infrastructure Technical Program Managers are product managers for Infrastructure internal products/platforms, in the absence of dedicated product managers. For example, GDK, Triage Ops, Dependency Management.
+- Infrastructure Technical Program Managers are enablers for engineers.
 
 ### What do we do?
 
@@ -27,8 +27,8 @@ Enable the delivery of quality products and Programs on time by driving team ali
 - Plan and implement communication plans to provide unbiased regular program updates to all stakeholders, surface risks and drive course correction
 - Align priorities and timelines for ownership areas with Company/Department goals
 - Create self-serve tools and processes to scale program planning, execution and reporting
-- Manage x-functional partnerships (e.g. PM, Eng, SRE) cross Infra and GitLab
-- Manage the internal infra roadmap and interaction with internal customers  
+- Manage x-functional partnerships (e.g. PM, Eng, SRE) cross Infrastructure and GitLab
+- Manage the internal infrastructure roadmap and interaction with internal customers  
 - Provide temporary leadership for Engineering teams - in times of transition   
 - Drive operations: process improvements, OKR planning, program reviews, compliance, bug SLO, etc
 - Hold regular retrospectives on what processes work well across the org and look to normalize and support adoption across groups to increase productivity and decrease cognitive overhead
@@ -54,7 +54,7 @@ Enable the delivery of quality products and Programs on time by driving team ali
 
 ## Projects
 
-The TPM team drives complex cross functional programs at GitLab. The list below contains programs run by Infra TPM team, ordered based on aligned priorities.
+The TPM team drives complex cross functional programs at GitLab. The list below contains programs run by Infrastructure TPM team, ordered based on aligned priorities.
  
  | Program  | TPM |
 | -------  | ----- |
