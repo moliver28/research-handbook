@@ -46,7 +46,7 @@ The Multiple Cell level focuses on scenarios that span Cells that do not elevate
 - Organizations/Groups/Repos that exist on one Cell do not exist on other Cells
 - ...
 
-The SET can help with developing these scenarios, writing E2E tests, enhancing our test frameworks to be able to test [Multiple Cells under CI](https://gitlab.com/gitlab-org/quality/quality-engineering/team-tasks/-/issues/2016).
+The SET can help with developing these scenarios, writing E2E tests, enhancing our test frameworks to be able to test.
 
 ### Organizations
 
