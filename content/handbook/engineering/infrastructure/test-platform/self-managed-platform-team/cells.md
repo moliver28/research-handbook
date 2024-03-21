@@ -56,6 +56,10 @@ TBD
 
 The router is currently being defined, will add details once specifications are defined.
 
+### QA Cell
+
+As part of migrating to Cells architecture, we will stand up a QA Cell to enable testing. We are [discussing how to use it](https://gitlab.com/gitlab-org/quality/quality-engineering/team-tasks/-/issues/2363). As we are rolling out Cells 1.0, the QA Cell will probably be used to test out and support implementing the features needed to support the Cells. Long term it will be an environment we can run Cells specific tests against as part of the deployment process.
+
 ## Performance Testing
 
 Just like our feature testing, performance testing can be done on the [testing levels](https://docs.gitlab.com/ee/development/testing_guide/testing_levels.html). An important thing to note is that performance results from one level are not directly mappable to another level, i.e. a code change that improved a unit or integration test to run 1 second faster will not map to a 1 second improvement in production, there are too many other variables that affect performance to directly map results across levels. How we can use them is as an indicator that we can use in a fast feedback loop, i.e. if we see a test run 2x faster, it should help the performance problem; if it runs 2x slower, it will probably hurt...
