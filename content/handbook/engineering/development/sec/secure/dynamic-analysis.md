@@ -81,8 +81,15 @@ The DAST team also monitors #s_secure and #sec-section. Both these channels are 
 
 ## How We Work
 
-The Dynamic Analysis group works according to kanban principles. While the group still follows the workflow states and activities articulated in GitLab's [Product Development Flow](/handbook/product-development-flow/), it operates on a
-pull-based methodology once work is handed off to the development team for delivery. An issue is considered handed off into the development team when it is given the `~workflow::planning breakdown` label, and the team utilizes the following
+The Dynamic Analysis group works according to kanban principles, with the addition of ceremonies quarterly for OKR development, monthly for release planning, and weekly for syncing on epic and issue reacting, triaging, refinement, impediment resolution. By having the team operate and think at each of these cadences, it can effectively set high-level hierarchical goals, ensure product priorities are planned, and prevent epics and issue work from stalling or falling through the cracks.
+
+### Quarterly OKR Development
+
+### Monthly Release Planning
+
+### Weekly Epic and Issue Work
+
+The team follows the workflow states and activities articulated in GitLab's [Product Development Flow](/handbook/product-development-flow/). It operates on a pull-based methodology once work is handed off to the development team for delivery. An issue is considered handed off into the development team when it is given the `~workflow::planning breakdown` label, and the team utilizes the following
 labels as part of its work.
 
 - [Official Dynamic Analysis Delivery board](https://gitlab.com/groups/gitlab-org/-/boards/5719921?label_name%5B%5D=group%3A%3Adynamic%20analysis)
