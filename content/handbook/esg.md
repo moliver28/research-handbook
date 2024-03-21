@@ -375,7 +375,7 @@ Disclosing our progress through data aligns with our [transparency](https://hand
 
 ### Contact
 
-For questions regarding GitLab’s ESG report and data, please contact ESG@GitLab.com
+For questions regarding GitLab’s ESG report and data, please contact esg@gitlab.com
 
 ### Forward looking statement
 
