@@ -7,14 +7,19 @@ title: Test Platform in Cells
 
 Testing for Cells is complicated by the fact that it is a project that spans the entirity of GitLab. Instead of recreating testing done by the other teams, we will reuse and leverage what exists currently and supplement to fill in gaps.
 
+This approach had the following requirements:
+- It must feed back useful information to the dev teams in an efficient, non burdensome way
+- It must provide good coverage so we have confidence to release
+- It must be easy to add/enhance/change tests
+- It works with our current process
+
 ## Strategy
 The testing strategy for Cells follows our practice of testing at the correct level. The testing will be focused on a couple of efforts:
 - Ensuring we have good functional coverage at the appropriate level
+    - Reusing existing testing as much as possible to reduce burden on the teams.
 - Creating system level E2E tests incrementally to cover boundary conditions
-    - The [Critical Paths](https://gitlab.com/gitlab-org/gitlab/-/issues/419372) is the first focus
     - These will be built incrementally as features are built, they will be automated and added to the E2E test suite
     - These tests will be included in our existing pipelines and run per their cadence (unless a need is raised to run on a separate pipeline)
-    - [Issue tracking new E2E test definition](https://gitlab.com/gitlab-org/gitlab/-/issues/422747)
 - Non functional testing will also be included
     - Ensuring we're building with Observability in mind and include the hooks to integrate to our Observability tools
     - [Migration testing](https://docs.gitlab.com/ee/development/testing_guide/testing_migrations_guide.html), ensuring that the migrations are performant and handle .com scale
