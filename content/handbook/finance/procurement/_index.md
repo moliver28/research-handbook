@@ -10,7 +10,7 @@ The Procurement team manages GitLab’s [Supplier Lifecycle](#vendor-lifecycle-m
 
 ### Procurement Team Alignment
 
-Division alignment for spend over >$25k USD:
+Division alignment for spend over >$25k USD / year:
 
 - Marketing - Ashley Abbate
 - Sales - Ashley Abbate
