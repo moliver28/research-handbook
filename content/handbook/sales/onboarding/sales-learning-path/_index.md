@@ -222,7 +222,9 @@ Please take a moment to answer the questions in this short [quiz.](https://docs.
    - Check out the [slide deck](https://drive.google.com/open?id=1UCRF6PC6al8XxT8E_4rDKkQjkW6WGPA6gybWeuRIg7A&authuser=0) on creating a great profile that will look good to your prospects and clients!
 - **Salesforce - Booking Orders (Material - Handbook - 10 Minutes)**
    - [Learn how to create](/handbook/sales/field-operations/order-processing/) Accounts, Contacts, Opportunities, and [Quotes](/handbook/sales/field-operations/sales-operations/deal-desk/#zuora-quote-configuration-guide---standard-quotes) in Salesforce.
-- **Reference Edge (Material - Video - 10 Minutes)**
+- **Lead Scoring - Filtering Prospects in Salesforce (FOR SALES ONLY - Material - Level Up Video Course - 20 minutes)**
+   - [Lead Scoring - How Does It Work?](https://university.gitlab.com/access/saml/login/internal-team-members?returnTo=https://university.gitlab.com/learn/course/lead-scoring-training) Learn the fundamentals of lead scoring and how to use lead score classifications
+**Reference Edge (Material - Video - 10 Minutes)**
    - Reference Edge Software will help reps to easily see what available references are the best fit for their current opportunity. Check out the [video](/handbook/sales/training/#functional-and-technical-skills--processes), and [Powerpoint](https://docs.google.com/presentation/d/18odHX0PTzifRJaeAr-yxa9jdg1_nw4RYDiBqAkYFAyM/edit?usp=sharing) on this new tool.
 
 </details>
