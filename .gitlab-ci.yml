@@ -203,6 +203,26 @@ handbooklint:
     reports:
       codequality: handbook-codequality.json
 
+hugolint:
+  stage: test
+  needs: []
+  rules:
+    - if: $CI_PIPELINE_SOURCE == 'merge_request_event'
+  image:
+    name: registry.gitlab.com/fforster/hugolint:main
+  script:
+    - echo $PWD
+    - ls -l .
+    - echo $PATH
+    - ls -l /usr/local/bin/hugolint || ls -la /usr/local/bin
+    - /usr/local/bin/hugolint linkcheck --format=json content/handbook/*.md >linkcheck.json
+  artifacts:
+    expire_in: 1 month
+    paths:
+      - linkcheck.json
+    reports:
+      codequality: linkcheck.json
+
 ####################################
 ##
 ## NOTIFY STAGE
