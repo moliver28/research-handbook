@@ -103,7 +103,7 @@ NO! To drive this point home, here's what our Devs have to say about this:
 _Devs love a puzzle, so I'm always keen.[...]_"
   -- **Charlie Ablett**
 
-> "_If both Support and the Customer are confused about what the next steps are, at a minimum it’s an indicator that something is lacking, either in our docs, support processes/playbooks (not sure of your process but whatever it is), and is an opportunity to improve those areas._"
+> "_If both Support and the Customer are confused about what the next steps are, at a minimum it’s an indicator that something is lacking, either in our docs or support processes, and this is an opportunity to improve those areas._"
   -- **Chad Woolley**
 
 #### How to find the correct Development Section and Group to reach out for help
