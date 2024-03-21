@@ -12,14 +12,9 @@ description: >-
 
 [We're the Create Stage](/handbook/engineering/development/dev/create/engineering-managers/) and we are a group of teams within the Dev Sub Department. We're comprised of five areas [within the GitLab product](/handbook/product/categories/#create-stage).
 
-| Team | Engineering Managers |
-| ---- | -------------------- |
-| [Create Stage](/handbook/engineering/development/dev/create/) | [Darva Satcher](/handbook/company/team/#dsatcher) (Director, Engineering) |
-| [Create:Code Creation](/handbook/engineering/development/dev/create/code-creation/) | [Matt Nohr](/handbook/company/team/#mnohr) (Fullstack) |
-| [Create:Code Review](/handbook/engineering/development/dev/create/code-review/) | [François Rosé](/handbook/company/team/#francoisrose) (Backend) [André Luís](/handbook/company/team/#andr3) (Frontend) |
-| [Create:Editor Extensions](/handbook/engineering/development/dev/create/editor-extensions/) | [Mavryck Richardson](/handbook/company/team/#kishamavryck) (Fullstack) |
-| [Create:IDE](/handbook/engineering/development/dev/create/ide/) | [Adebayo Adesanya](/handbook/company/team/#adebayo_a) (Fullstack) |
-| [Create:Source Code](/handbook/engineering/development/dev/create/source-code-be/) | [Sean Carroll](/handbook/company/team/#sean_carroll) (Backend) [André Luís](/handbook/company/team/#andr3) (Frontend) |
+The Director of Engineering is [Darva Satcher](/handbook/company/team/#dsatcher), and the engineering managers of the groups are:
+
+{{< team-by-manager-slug "dsatcher" >}}
 
 ## Mission
 
