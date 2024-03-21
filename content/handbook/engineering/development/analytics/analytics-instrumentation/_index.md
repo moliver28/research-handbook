@@ -26,7 +26,11 @@ The historical and upcoming meeting agendas can be accessed in [our agenda docum
 
 ## Incidents
 
-We define incidents as a deviation from the intended process that significantly disrupts the reporting of metrics to the point that immediate action is required. The process below outlines the different stages of the incident resolution process and the steps to be taken by the corresponding Directly Responsible Individuals (DRIs). Please reach out to the [Analytics Instrumentation Group EM/PM](/handbook/engineering/development/analytics/analytics-instrumentation/#team-members) for any recommendations to changes in the process.
+We define incidents as a deviation from the intended process that significantly disrupts the reporting of metrics to the point that immediate action is required. Examples: 
+1. High severity incidents: Significant loss of data for metrics with a peformance_indicator_type. [Sample issue](https://gitlab.com/gitlab-org/gitlab/-/issues/442875)
+2. Medium severity incidents: Delay or significant loss of data, but with minimal impact on performance_indicator_type. [Sample issue](https://gitlab.com/gitlab-org/gitlab/-/issues/443639)
+
+The process below outlines the different stages of the incident resolution process and the steps to be taken by the corresponding Directly Responsible Individuals (DRIs). Please reach out to the [Analytics Instrumentation Group EM/PM](/handbook/engineering/development/analytics/analytics-instrumentation/#team-members) for any recommendations to changes in the process.
 
 ### Incident Detection
 _(DRI: The team/individual detecting the issue)_
