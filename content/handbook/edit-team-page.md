@@ -126,7 +126,7 @@ Choose the method below that feels most comfortable and have the following infor
 1. Create and checkout a new branch for the changes you will be making.
 1. Add your picture to the `sites/uncategorized/source/images/team/` directory in the repository and `git add` it. Be sure to follow the [picture requirements](#picture-requirements).
 1. Open `data/team_members/person/FIRST_LETTER_OF_YOUR_FIRST_NAME/SLUG_REPLACE.yml` in your favorite editor, specifically looking for the file with your name or slug.
-1. <%= partial "team-page-fields" %>
+1. See point 5 in the above [Method 1: Add your info on GitLab.com using Web IDE](#method-1-add-your-info-on-gitlabcom-using-web-ide) for the list of fields and how to fill them in.
 1. Save the changes to the file in `data/team_members/person/FIRST_LETTER_OF_YOUR_FIRST_NAME/` that you just edited, and `git add` it.
 1. To see your changes locally:
     1. Manually run a command to compile the changes you just made into a file that actually populates the team page:
