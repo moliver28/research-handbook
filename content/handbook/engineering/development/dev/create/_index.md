@@ -14,7 +14,7 @@ description: >-
 
 The Director of Engineering is [Darva Satcher](/handbook/company/team/#dsatcher), and the engineering managers of the groups are:
 
-{{< team-by-manager-slug "dsatcher" >}}
+{{< team-by-manager-slug "dsatcher" team="Manager">}}
 
 ## Mission
 
