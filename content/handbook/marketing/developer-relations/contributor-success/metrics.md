@@ -1,6 +1,6 @@
 ---
-title: "Metrics & SiSense Dashboards"
-description: Learn about the Sisense SQL snippets that are used in community-related dashboards!
+title: "Metrics & Tableau Dashboards"
+description: Learn about the dashboard that are used in community-related dashboards!
 ---
 
 ### Dashboards we use
@@ -21,7 +21,7 @@ The third party cookie must be turn on to view the dashboard.
    - Identifies projects with contributions that are not being tracked yet
    - See [Contributing Orgs tracker](/handbook/marketing/developer-relations/contributor-success/contributing-org-tracker.html) for details
 
-## Sisense SQL snippets
+## tableau dashboard
 
 ### `product_community_contribution_mrs`
 
