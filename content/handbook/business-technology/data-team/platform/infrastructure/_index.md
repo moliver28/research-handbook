@@ -6,12 +6,10 @@ title: "Data Infrastructure"
 **Data Infrastructure** pages are available in our [Internal GitLab Handbook](https://internal.gitlab.com/handbook/enterprise-data/platform/infrastructure).
 
 
-## Quick Links
+## <i class="fas fa-map-marked-alt fa-fw" style="color:rgb(107,79,187); font-size:.85em" aria-hidden="true"></i> Quick Links
 
-[Airflow](https://airflow.gitlabdata.com){:.btn .btn-purple-inv}
-[Data Image Project](https://gitlab.com/gitlab-data/data-image){:.btn .btn-purple-inv}
-[GitLab Data Utils Project](https://gitlab.com/gitlab-data/gitlab-data-utils/){:.btn .btn-purple-inv}
-[Monte Carlo](/handbook/business-technology/data-team/platform/monte-carlo){:.btn .btn-purple-inv}
-[Python Guide](/handbook/business-technology/data-team/platform/python-guide){:.btn .btn-purple-inv}
-[Snowflake Guide](/handbook/business-technology/data-team/platform/snowflake){:.btn .btn-purple-inv}
-
+- [Airflow](https://airflow.gitlabdata.com)
+- [Data Image Project](https://gitlab.com/gitlab-data/data-image)
+- [Monte Carlo](/handbook/business-technology/data-team/platform/monte-carlo)
+- [Python Guide](/handbook/business-technology/data-team/platform/python-guide)
+- [Snowflake Guide](/handbook/business-technology/data-team/platform/snowflake)
