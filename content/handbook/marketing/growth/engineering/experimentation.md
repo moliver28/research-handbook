@@ -138,7 +138,7 @@ The [Experiment Successful Cleanup](https://gitlab.com/gitlab-org/gitlab/-/issue
 Experimentation, like everything at GitLab, should be approached with [the GitLab CREDIT values](/handbook/values/) in mind, specifically the values of [Iteration](/handbook/values/#iteration), [Efficiency](/handbook/values/#efficiency), and [Results](/handbook/values/#results).
 
 The larger an experiment is, the longer it takes to craft a design, implement code changes, review code changes, define and collect necessary data, organize data into meaningful tables, graphs, and dashboards, and so on.
-As we build and improve our experimentation platform and increase our ability to quickly create and run experiments, we should [expect a large percentage of all experiments to fail at proving their hypotheses](https://hbr.org/2017/09/the-surprising-power-of-online-experiments#:~:text=At%20Google%20and%20Bing,%20only%20about%2010%%20to%2020%%20of%20experiments%20generate%20positive%20results.).
+As we build and improve our experimentation platform and increase our ability to quickly create and run experiments, we should [expect a large percentage of all experiments to fail at proving their hypotheses](https://hbr.org/2017/09/the-surprising-power-of-online-experiments#:~:text=At%20Google%20and%20Bing,%20only%20about%2010%25%20to%2020%25%20of%20experiments%20generate%20positive%20results.).
 Given these invalidated or inconclusive experiments will be rolled back there is an advantage in ensuring experiments are as small and iterative as possible.
 
 With this in mind, there are advantages to considering developing a Minimum Viable Experiment (MVE).
