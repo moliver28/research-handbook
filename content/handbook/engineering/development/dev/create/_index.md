@@ -10,11 +10,9 @@ description: >-
 
 ## Hello!
 
-[We're the Create Stage](/handbook/engineering/development/dev/create/engineering-managers/) and we are a group of teams within the Dev Sub Department. We're comprised of five areas [within the GitLab product](/handbook/product/categories/#create-stage).
+[We're the Create Stage](/handbook/engineering/development/dev/create/engineering-managers/) and we are a group of teams within the Dev Sub Department. We're comprised of five areas [within the GitLab product](/handbook/product/categories/#create-stage):
 
-The Director of Engineering is [Darva Satcher](/handbook/company/team/#dsatcher), and the engineering managers of the groups are:
-
-{{< team-by-manager-slug role="(.*)Manager(.*)" "dsatcher" >}}
+{{< team-by-manager-slug "dsatcher" >}}
 
 ## Mission
 
