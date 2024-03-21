@@ -81,6 +81,76 @@ The DAST team also monitors #s_secure and #sec-section. Both these channels are 
 
 ## How We Work
 
+```mermaid
+timeline
+  title Annual Kanban Ceremonies
+  section Q1 <br> OKR Development Sync
+    M1 <br> Milestone Planning Sync
+          : W1 <br> Weekly Team Sync
+          : W2 <br> Weekly Team Sync
+          : W3 <br> Weekly Team Sync
+          : W4 <br> Weekly Team Sync
+    M2 <br> Milestone Planning Sync
+          : W1 <br> Weekly Team Sync
+          : W2 <br> Weekly Team Sync
+          : W3 <br> Weekly Team Sync
+          : W4 <br> Weekly Team Sync
+    M3 <br> Milestone Planning Sync
+          : W1 <br> Weekly Team Sync
+          : W2 <br> Weekly Team Sync
+          : W3 <br> Weekly Team Sync
+          : W4 <br> Weekly Team Sync
+  section Q2 <br> OKR Development Sync
+    M4 <br> Milestone Planning Sync
+          : W1 <br> Weekly Team Sync
+          : W2 <br> Weekly Team Sync
+          : W3 <br> Weekly Team Sync
+          : W4 <br> Weekly Team Sync
+    M5 <br> Milestone Planning Sync
+          : W1 <br> Weekly Team Sync
+          : W2 <br> Weekly Team Sync
+          : W3 <br> Weekly Team Sync
+          : W4 <br> Weekly Team Sync
+    M6 <br> Milestone Planning Sync
+          : W1 <br> Weekly Team Sync
+          : W2 <br> Weekly Team Sync
+          : W3 <br> Weekly Team Sync
+          : W4 <br> Weekly Team Sync
+  section Q3 <br> OKR Development Sync
+    M7 <br> Milestone Planning Sync
+          : W1 <br> Weekly Team Sync
+          : W2 <br> Weekly Team Sync
+          : W3 <br> Weekly Team Sync
+          : W4 <br> Weekly Team Sync
+    M8 <br> Milestone Planning Sync
+          : W1 <br> Weekly Team Sync
+          : W2 <br> Weekly Team Sync
+          : W3 <br> Weekly Team Sync
+          : W4 <br> Weekly Team Sync
+    M9 <br> Milestone Planning Sync
+          : W1 <br> Weekly Team Sync
+          : W2 <br> Weekly Team Sync
+          : W3 <br> Weekly Team Sync
+          : W4 <br> Weekly Team Sync
+  section Q4 <br> OKR Development Sync
+    M10 <br> Milestone Planning Sync
+          : W1 <br> Weekly Team Sync
+          : W2 <br> Weekly Team Sync
+          : W3 <br> Weekly Team Sync
+          : W4 <br> Weekly Team Sync
+    M11 <br> Milestone Planning Sync
+          : W1 <br> Weekly Team Sync
+          : W2 <br> Weekly Team Sync
+          : W3 <br> Weekly Team Sync
+          : W4 <br> Weekly Team Sync
+    M12 <br> Milestone Planning Sync
+          : W1 <br> Weekly Team Sync
+          : W2 <br> Weekly Team Sync
+          : W3 <br> Weekly Team Sync
+          : W4 <br> Weekly Team Sync
+```
+
+
 The Dynamic Analysis group works according to kanban principles, with the addition of ceremonies quarterly for OKR development, monthly for release planning, and weekly for syncing on epic and issue reacting, triaging, refinement, impediment resolution. By having the team operate and think at each of these cadences, it can effectively set high-level hierarchical goals, ensure product priorities are planned, and prevent epics and issue work from stalling or falling through the cracks.
 
 ### Quarterly OKR Development
