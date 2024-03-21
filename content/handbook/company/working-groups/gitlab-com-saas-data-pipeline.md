@@ -26,12 +26,14 @@ Implement a data pipeline that captures `create`, `update` and `delete` operatio
 
 ## Exit Criteria
 
-- Reliable: All 'metadata' and relevant descriptive data (`create`, `update` and `delete`) operations in the PostgreSQL database are captured, transfered and loaded into the data platform within 6 hours of the original event.
-- Stable: End to end solution runs for 30 days without interruption or human intervention.
-- Scalable: Solution scales with GitLab.com and does not require undue burden to expand as new GitLab.com databases, shards, zones, tenants, or cloud locations are deployed
-- Secure: Red data is not loaded or it is hashed if stored on a system that is not a data sub-processor.
-- Defined and agreed SLO with all business partners.
-- Full end to end monitoring.
+- Reliable: All 'metadata' and relevant descriptive data (`create`, `update` and `delete`) operations in the PostgreSQL database are captured, transfered and loaded into the data platform within 6 hours of the original event. `Partially achieved`.
+   - Background migrations are not captured due to the fact that `updated_at` column not gets updated.
+- Stable: End to end solution runs for 30 days without interruption or human intervention. `Achieved`
+- Scalable: Solution scales with GitLab.com and does not require undue burden to expand as new GitLab.com databases, shards, zones, tenants, or cloud locations are deployed `Partially achieved`
+   - Partially achieved as this is not possible with the existing architecture. With changing architecture this is included as requirements.
+- Secure: Red data is not loaded or it is hashed if stored on a system that is not a data sub-processor.  `Achieved`
+- Defined and agreed SLO with all business partners. `Achieved`
+- Full end to end monitoring. `Achieved`
 
 ## Roles and Responsibilities
 
