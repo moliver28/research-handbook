@@ -68,6 +68,10 @@ To report an incident follow the instructions on the Incident Management page: [
 
 ## Common Incidents and Tips
 
+### Failing pipeline
+
+Please see the [handbook editing page](../editing-handbook/_index.md#failing-pipelines) for guidance and examples.
+
 ### Runbook for about.gitlab.com
 
 There is also a [runbook for about.gitlab.com incident handling](https://gitlab.com/gitlab-com/runbooks/-/blob/master/docs/uncategorized/about-gitlab-com.md).
@@ -79,11 +83,7 @@ These reports should be investigated and addressed where needed.
 
 Once a report has been looked at, please leave a comment stating the nature of the problem, action taken and add a ✅ reaction to the message to show that it has been handled.
 
-If for some reason there is a large amount of failures resulting in spamming the channel, the error reporting can be turned off in the repo settings: [https://gitlab.com/gitlab-com/www-gitlab-com/-/services/slack/edit](https://gitlab.com/gitlab-com/www-gitlab-com/-/services/slack/edit)
-
-### Merging Urgent MRs
-
-See [the description of this issue](https://gitlab.com/gitlab-com/www-gitlab-com/-/issues/6356) for details on the current workarounds required for [this bug related to the Merge Train](https://gitlab.com/gitlab-org/gitlab/-/issues/214742#note_338664758)
+If for some reason there is a large amount of failures resulting in spamming the channel, the error reporting can be turned off in the repo settings: [https://gitlab.com/gitlab-com/content-sites/handbook/-/settings/integrations](https://gitlab.com/gitlab-com/content-sites/handbook/-/settings/integrations)
 
 ### Stuck Merge Train
 
