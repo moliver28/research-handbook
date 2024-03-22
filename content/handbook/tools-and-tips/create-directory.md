@@ -1,6 +1,8 @@
 ---
 title: "How to create a directory"
 comment: Should be moved into the docs section and updated
+aliases:
+- /handbook/create-directory/
 ---
 
 To create a directory in your project, you need to use your [shell](https://docs.gitlab.com/ee/gitlab-basics/basic-git-commands.html). You can learn how to [start using Git on the command line](https://docs.gitlab.com/ee/gitlab-basics/start-using-git.html) and the [command line basic commands](https://docs.gitlab.com/ee/gitlab-basics/command-line-commands.html) before reading this documentation.
