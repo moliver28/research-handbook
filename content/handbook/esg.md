@@ -192,7 +192,7 @@ From the beginning, GitLab has been an [open source project](/handbook/company/s
 
 Contributors to GitLab, the platform and the company, make up the GitLab community and are a critical part of GitLab’s strategy and mission to make it so that everyone can contribute.
 
-Our work with the wider community goes beyond code and can include blog posts, documentation, discussions on forums/social media, meetups, presentations, translations, collaboration on UX design, and more. The [Community Relations Team](/handbook/marketing/community-relations/) works with our GitLab community to ensure that all receive support and recognition for contributing to GitLab.
+Our work with the wider community goes beyond code and can include blog posts, documentation, discussions on forums/social media, meetups, presentations, translations, collaboration on UX design, and more. The [Community Relations Team](https://handbook.gitlab.com/handbook/marketing/developer-relations/) works with our GitLab community to ensure that all receive support and recognition for contributing to GitLab.
 
 We also support community programs aimed at organizations that align with our [values]({{< ref values >}}). We strive to help these organizations grow and thrive by putting GitLab’s most powerful features in the hands of communities that may not otherwise have the means to access them. Each program is unique in its organization and execution; however, in general, community programs offer GitLab customers benefits such as:
 
@@ -202,9 +202,9 @@ We also support community programs aimed at organizations that align with our [v
 
 GitLab community programs
 
-- The [GitLab for Education](/handbook/marketing/community-relations/community-programs/education-program/) program's mission is to facilitate and drive the adoption of GitLab at educational institutions around the globe and to build an engaged community of GitLab evangelists and contributors in the next generation of the workforce. As of January 2023, the GitLab for Education program has over 3 million seats of GitLab’s top-tier subscription plan at over 1,000 educational institutions in more than 65 countries.
+- The [GitLab for Education](https://handbook.gitlab.com/handbook/marketing/developer-relations/community-programs/education-program/) program's mission is to facilitate and drive the adoption of GitLab at educational institutions around the globe and to build an engaged community of GitLab evangelists and contributors in the next generation of the workforce. As of January 2023, the GitLab for Education program has over 3 million seats of GitLab’s top-tier subscription plan at over 1,000 educational institutions in more than 65 countries.
 - The [GitLab for Open Source](https://about.gitlab.com/solutions/open-source/) program supports GitLab's mission to make the world a place where anyone can contribute. We help make GitLab the best place for open source projects to grow and thrive.
-- The [GitLab for Startups](/handbook/marketing/community-relations/community-programs/startups-program/) program launched early in 2023 and helps qualifying startups get access to our top tiers for free or at a deep discount for up to two years.
+- The [GitLab for Startups](https://handbook.gitlab.com/handbook/marketing/developer-relations/community-programs/startups-program/) program launched early in 2023 and helps qualifying startups get access to our top tiers for free or at a deep discount for up to two years.
 
 
 *“Community is core to who we are and what we do. Our mission is to help these communities experience GitLab’s vision of a world where everyone can contribute.”*
