@@ -22,16 +22,16 @@ Enable the delivery of quality products and Programs on time by driving team ali
 
 ### What do we do?
 
-- Develop viable plans for complex programs and align stakeholders
-- Orchestrate the execution of projects across cross functional teams by managing dependencies and collaboration across projects/teams and creating a framework for teams to work together
-- Plan and implement communication plans to provide unbiased regular program updates to all stakeholders, surface risks and drive course correction
-- Align priorities and timelines for ownership areas with Company/Department goals
-- Create self-serve tools and processes to scale program planning, execution and reporting
-- Manage x-functional partnerships (e.g. PM, Eng, SRE) cross Infrastructure and GitLab
-- Manage the internal infrastructure roadmap and interaction with internal customers  
-- Provide temporary leadership for Engineering teams - in times of transition   
-- Drive operations: process improvements, OKR planning, program reviews, compliance, bug SLO, etc
-- Hold regular retrospectives on what processes work well across the org and look to normalize and support adoption across groups to increase productivity and decrease cognitive overhead
+- Develop viable plans for complex programs and align stakeholders.
+- Orchestrate the execution of projects across cross-functional teams by managing dependencies and collaboration across projects/teams and creating a framework for teams to work together.
+- Plan and implement communication plans to provide unbiased regular program updates to all stakeholders, surface risks, and drive course correction.
+- Align priorities and timelines for ownership areas with Company/Department goals.
+- Create self-serve tools and processes to scale program planning, execution, and reporting.
+- Manage cross-functional partnerships (e.g., PM, Eng, SRE) cross Infrastructure and GitLab.
+- Manage the internal infrastructure roadmap and interaction with internal customers.  
+- Provide temporary leadership for Engineering teams - in times of transition.   
+- Drive operations: process improvements, OKR planning, program reviews, compliance, bug SLO, etc.
+- Hold regular retrospectives on what processes work well across the organization and look to normalize and support adoption across groups to increase productivity and decrease cognitive overhead.
 
 ### What do we NOT do?
 
