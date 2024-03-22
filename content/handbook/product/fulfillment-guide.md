@@ -118,12 +118,9 @@ Please keep in mind:
 
 ## Temporary renewal extensions
 
-*Last updated on 2024-02-23.*
+*Last updated on 2024-03-22.*
 
-| Use Case | Status |
-|---|---|
-| Temporary extensions for **Self-Managed** renewals | Available for eligible renewal opportunities |
-| Temporary extensions for **SaaS** renewals | Available for eligible renewal opportunities  |
+Temporary extensions for **Self-Managed** & **SaaS** renewals are now generally available for eligible renewal opportunities 
 
 In the event that a renewal process takes longer then intended (e.g. customer takes longer than average to sign renewal deal), customers run into a problem when their license expires at the subscription term end and they lose complete access to their GitLab instance (Self-managed or SaaS).
 
@@ -134,9 +131,11 @@ Additional context about this feature can be found [here](https://gitlab.com/gro
 Please share your feedback about this feature in [this issue](https://gitlab.com/gitlab-org/fulfillment/meta/-/issues/1728).
 
 
-### Creating an extension
+### Creating an extension (from SDFC)
 
-Please watch [this video](https://www.youtube.com/watch?v=ENRtOQ0DbkM) for an overview of creating an extension. The process is also described below.
+Please watch SM demo [SM demo video](https://www.youtube.com/watch?v=ENRtOQ0DbkM) or [Gitlab.com/Saas video](https://drive.google.com/file/d/1HGGf8IH5fRt4ftB0pKZfHpb7owECItjX/view) for an overview of creating an extension. 
+
+The process of creating the temporary renewal extension from SDFC is also described below
 
 1. Go to the SFDC Renewal Opportunity that needs additional processing time.
 1. Click on `Request Temporary Extension` button.
