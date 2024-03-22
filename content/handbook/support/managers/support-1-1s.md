@@ -27,7 +27,7 @@ This page **does not**:
 
 ## 1:1 Issue Generator Project
 
-You may choose to use the 1:1 Issue Generator for your 1:1s.  See the project [Readme](https://gitlab.com/gitlab-com/support/1-1s/1-1-issue-generator/-/blob/master/README.md) for more details.
+You may choose to use the 1:1 Issue Generator for your 1:1s.  See the project [Readme](https://gitlab.com/gitlab-com/support/toolbox/1-1-issue-generator/-/blob/master/README.md) for more details.
 
 ## Call structure
 
