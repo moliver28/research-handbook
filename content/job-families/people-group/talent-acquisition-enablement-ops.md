@@ -78,46 +78,41 @@ The Senior Progam Manager, Global TA Enablement is a [grade 7](/handbook/total-r
 - Aligns with GitLab values
 
 
+### Manager, Talent Acquisition Operations
 
-### Manager, Global TA Enablement
+The Manager, Talent Acquisition Operations reports to the Senior Manager, Global Enablement.
 
-The Manager, Global TA Enablement reports to the Senior Director of Talent Brand & Talent Acquisition Enablement.
+#### Manager, Talent Acquisition Operations Job Grade
 
-#### Manager, Global TA Enablement Job Grade
+The Manager, Talent Acquisition Operations is a [grade 8](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
-The Manager, Global TA Enablement is a [grade 8](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+#### Manager, Talent Acquisition Operations Responsibilities
 
-#### Manager, Global TA Enablement Responsibilities
-
-- Design and drive rigour in processes and policies for our Global Talent Acquisition team
-- Provide coaching to improve performance of team members and drive accountability
-- Onboard, mentor, and grow the careers of all team members in the TA Enablement and Candidate Experience teams
-- Partner with our tools team to optimize our systems, tools and processes to create consistent, efficient and equitable hiring outcomes
-- Partner with finance and our PBP team to ensure that the necessary process flows are built for scale
-- Partner with our Data and Analytics team to build a solid reporting suite for the Head of TA, their leadership team and the hiring manager community
-- Provide coaching to improve performance of team members and drive accountability
-- Develop, own and run the GitLab hiring planning process in collaboration with the various operations teams, finance and the PBP’s
-- Build trusted partnerships within GitLab and externally to collaborate, drive alignment and stay on top of trends
-- Leverage our candidate facing teams to advocate for our employer brand and deliver a world-class experience
+- Design and drive rigor in processes and policies for our Global Talent Acquisition team
+- Optimize our systems, tools and processes to create consistent, efficient and equitable hiring outcomes
+- Partner with Finance, People Operations, and other teams to ensure that the necessary process flows are built for scale
+- Partner with Senior Program Manager, Global TA Enablement to ensure all process changes are communicated and rolled out effectively
+- Collaborate on the GitLab hiring planning process in collaboration with the various operations teams, finance and the PBP’s
 - Help define and leverage data-focused metrics in order to develop and deliver on the goals
+- Manage our offer and contract process with partnership from the Legal and Candidate Experience teams
+- Act as a site administrator in Greenhouse and advise on best practices
+- Manage our technical tools and the vendor relationships behind them
+- Ensures data is properly maintained within our technical systems to lead to better decision making
+- Act as project manager on operations projects
+- Build and manage an Operations team as we scale
 
 
-#### Manager, Global TA Enablement Requirements
+#### Manager, Talent Acquisition Operations Requirements
 
+- Prior experience as a site administrator an expert in an ATS, such as Lever or Greenhouse
+- Experience in TA Operations with a focus on process improvement, systems, tools, and project management
 - Exceptional cross-functional communication and organization skills, and demonstrated experience in time-management and ability to influence
-- Previous experience managing and leading others
-- A creative mindset to get things done effectively and efficiently
-- Familiarity with an ATS and other tools
-- History of influence over a team
-- Robust time management, communication and organizational skills
-- A team player with excellent client management skills
-- Ability to use GitLab
+- A creative mindset to get things done accurately, effectively and efficiently
+- Ability to influence others by leading with recommendations and taking feedback to adjust as needed
+- Strategic thinking skills and operational mindset
+- Ability to learn and use GitLab
 
 
-#### Manager, Global TA Enablement Performance Indicators
-
-- [Average candidate ISAT](/#interviewee-satisfaction-isat)
-- [Hires vs. Plan](/#hires-vs-plan)
 
 ### Senior Manager, Global TA Enablement
 
