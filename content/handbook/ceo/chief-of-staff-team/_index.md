@@ -31,7 +31,7 @@ The CoS to the CEO and their team may work on projects that fit *any combination
 
 1. projects which build or improve organizational design, infrastructure, and operations
 1. cross-functional projects that need ownership until a maintainer or exit criteria is identified
-1. projects that are so broad that they can't live within a function but are too much work for the CEO
+1. projects that are so broad that they can't live within a function but are too much work for the CEO or Chief of Staff to the CEO
 1. projects that are important to the CEO
 
 
