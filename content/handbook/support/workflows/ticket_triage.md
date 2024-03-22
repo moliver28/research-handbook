@@ -53,9 +53,9 @@ Below is a list of some commonly used Zendesk forms with a brief explanation reg
 
 Apply the macro `Security::All Security Questions`. This will reply and mark the ticket `solved`.
 
-### Moving to non-support forms
+### Moving to another forms
 
-For cases that need to go to non-support forms, apply the `General::Forms::Incorrect form used` macro. Support Operations will do the rest from there.
+For cases that need to go to another forms, apply the `General::Forms::Incorrect form used` macro. Support Operations will do the rest from there.
 
 ### Handling Free User tickets
 
