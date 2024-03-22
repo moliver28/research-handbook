@@ -4,7 +4,7 @@ title: "Compliance Group"
 
 ## Mission
 
-The Compliance group's mission it to provide visibility into an organizations compliance posture within GitLab and provide tools for organizations to identify non-compliant activities and scope enforcement of compliance requirements.
+The Compliance group's mission is to provide visibility into an organizations compliance posture within GitLab and provide tools for organization's to identify non-compliant activities and scope enforcement of compliance requirements.
 
 ## What we work on
 
