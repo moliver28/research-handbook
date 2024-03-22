@@ -588,6 +588,41 @@
 /content/handbook/company/working-groups/multi-large.md @cdu1 @mbursi
 /content/handbook/company/working-groups/software-supply-chain-security.md @sam.white @pcalder
 
+# Please keep all handbook sections near the end
+^[handbook]
+/content/ @sytses @streas @gitlab-com/egroup
+/content/handbook/handbook-usage.md @sytses @streas @gitlab-com/content-sites
+/content/handbook/style-guide.md @gitlab-com/content-sites
+/content/handbook/about/ @gitlab-com/content-sites
+/content/handbook/content-websites/ @gitlab-com/content-sites
+/content/handbook/editing-handbook/ @gitlab-com/content-sites
+/content/handbook/markdown-guide/ @gitlab-com/content-sites
+
+[CODEOWNERS]
+/.gitlab/ @gitlab-com/ceo-chief-of-staff-team @gitlab-com/content-sites @gitlab-com/egroup
+
+[handbook-operations]
+/.editorconfig @gitlab-com/content-sites @gitlab-com/egroup
+/.gitignore @gitlab-com/content-sites @gitlab-com/egroup
+/.gitlab-ci.yml @gitlab-com/content-sites @gitlab-com/egroup
+/.idea/ @gitlab-com/content-sites @gitlab-com/egroup
+/.markdownlint-cli2.jsonc @gitlab-com/content-sites @gitlab-com/egroup
+/.nova/ @gitlab-com/content-sites @gitlab-com/egroup
+/.vscode/ @gitlab-com/content-sites @gitlab-com/egroup
+/config/ @gitlab-com/content-sites @gitlab-com/egroup
+/content/_index.html @gitlab-com/content-sites @gitlab-com/egroup
+/content/featured-background.png @gitlab-com/content-sites @gitlab-com/egroup
+/CONTRIBUTING.md @gitlab-com/content-sites @gitlab-com/egroup
+/go.mod @gitlab-com/content-sites @gitlab-com/egroup
+/go.sum @gitlab-com/content-sites @gitlab-com/egroup
+/layouts/ @gitlab-com/content-sites @gitlab-com/egroup
+/LICENCE @gitlab-com/content-sites @gitlab-com/egroup
+/package-lock.json @gitlab-com/content-sites @gitlab-com/egroup
+/package.json @gitlab-com/content-sites @gitlab-com/egroup
+/README.md @gitlab-com/content-sites @gitlab-com/egroup
+/scripts/ @gitlab-com/content-sites @gitlab-com/egroup
+
+## Controlled Documents must be the last section
 [Controlled-Documents]
 /content/handbook/business-technology/data-team/data-management.md @amiebright @dvanrooijen2 @iweeks @nmcavinue @emccrann @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/business-technology/data-team/platform/_index.md @amiebright @dvanrooijen2 @iweeks @gitlab-com/egroup @gitlab-com/content-sites
@@ -640,37 +675,3 @@
 /content/handbook/security/threat-management/vulnerability-management/encryption-policy.md @smanzuik @estrike @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/security/token-management-standard.md @joshlemos @jlongo_gitlab @juliedavila @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/security/security-assurance/security-and-technology-policies-management.md @tdilbeck @corey-oas @lcoleman @jlongo_gitlab @cynthiamiller @gitlab-com/egroup @gitlab-com/content-sites
-
-# Please keep all handbook sections at the end
-^[handbook]
-/content/ @sytses @streas @gitlab-com/egroup
-/content/handbook/handbook-usage.md @sytses @streas @gitlab-com/content-sites
-/content/handbook/style-guide.md @gitlab-com/content-sites
-/content/handbook/about/ @gitlab-com/content-sites
-/content/handbook/content-websites/ @gitlab-com/content-sites
-/content/handbook/editing-handbook/ @gitlab-com/content-sites
-/content/handbook/markdown-guide/ @gitlab-com/content-sites
-
-[CODEOWNERS]
-/.gitlab/ @gitlab-com/ceo-chief-of-staff-team @gitlab-com/content-sites @gitlab-com/egroup
-
-[handbook-operations]
-/.editorconfig @gitlab-com/content-sites @gitlab-com/egroup
-/.gitignore @gitlab-com/content-sites @gitlab-com/egroup
-/.gitlab-ci.yml @gitlab-com/content-sites @gitlab-com/egroup
-/.idea/ @gitlab-com/content-sites @gitlab-com/egroup
-/.markdownlint-cli2.jsonc @gitlab-com/content-sites @gitlab-com/egroup
-/.nova/ @gitlab-com/content-sites @gitlab-com/egroup
-/.vscode/ @gitlab-com/content-sites @gitlab-com/egroup
-/config/ @gitlab-com/content-sites @gitlab-com/egroup
-/content/_index.html @gitlab-com/content-sites @gitlab-com/egroup
-/content/featured-background.png @gitlab-com/content-sites @gitlab-com/egroup
-/CONTRIBUTING.md @gitlab-com/content-sites @gitlab-com/egroup
-/go.mod @gitlab-com/content-sites @gitlab-com/egroup
-/go.sum @gitlab-com/content-sites @gitlab-com/egroup
-/layouts/ @gitlab-com/content-sites @gitlab-com/egroup
-/LICENCE @gitlab-com/content-sites @gitlab-com/egroup
-/package-lock.json @gitlab-com/content-sites @gitlab-com/egroup
-/package.json @gitlab-com/content-sites @gitlab-com/egroup
-/README.md @gitlab-com/content-sites @gitlab-com/egroup
-/scripts/ @gitlab-com/content-sites @gitlab-com/egroup
