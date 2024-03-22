@@ -4,7 +4,7 @@ aliases:
 - /about/support/
 ---
 
-For information on team members' roles and responsibilities, see [Content Websites page](_index.md).
+For information on team members' roles and responsibilities, see [Content Websites page](../).
 
 ## Introduction
 
@@ -12,7 +12,7 @@ The Handbook is a critical part of empowering team members to do their jobs effe
 
 ## Reporting an issue
 
-If you're looking for general help, please see the [editing handbook page](../editing-handbook/_index.md#need-help).
+If you're looking for general help, please see the [editing handbook page](../editing-handbook/#need-help).
 
 Any issues should be reported in the [#handbook-escalation](https://gitlab.slack.com/archives/CVDP3HG5V) channel in Slack.
 
@@ -26,7 +26,7 @@ Issues should only be escalated if it relates to:
 
 ## "Keep main green" group
 
-If after posting in `#handbook-escalation`, you are not receiving a response, please ping the [issue triager](_index.md#team-structure) if it's within their working hours.
+If after posting in `#handbook-escalation`, you are not receiving a response, please ping the [issue triager](../#team-structure) if it's within their working hours.
 
 If they are not available, the following team members (in the table below) have volunteered to assist when available. Please take into consideration the listed timezone where they are generally located and their Slack status on whether they're out of office.
 
@@ -57,20 +57,20 @@ Additionally, any GitLab team member can volunteer to join the [#handbook-escala
     1. Resolve the problem, or provide feedback to the team member on how they can resolve it.
     1. If you do not believe you can resolve it and need further assistance, consider any or all of the following:
        1. Ping another member of the [Keep main green group](#keep-main-green-group).
-       1. Ping the [technical DRI](_index.md#team-structure), or a member of the code maintainer group.
+       1. Ping the [technical DRI](../#team-structure), or a member of the code maintainer group.
        1. [Create a bug issue](https://gitlab.com/gitlab-com/content-sites/handbook/-/issues/new) with details.
 
 ### When to hand over to Reliability Engineering
 
-The Handbook On-Call deals specifically with matters relating to the `www-gitlab-com` repo source code and configuration.
-If a reported issue relates to the GitLab product or the infrastructure running the [https://about.gitlab.com](https://about.gitlab.com) website then it should be escalated to the Reliability Engineering team.
-To report an incident follow the instructions on the Incident Management page: [https://about.gitlab.com/handbook/engineering/infrastructure/incident-management/#reporting-an-incident](/handbook/engineering/infrastructure/incident-management/#reporting-an-incident)
+The Handbook On-Call deals specifically with matters relating to the `content-sites` projects.
+If a reported issue relates to the GitLab product or the infrastructure running the handbook then it should be escalated to the Reliability Engineering team.
+To report an incident follow the instructions on the Incident Management page: [https://handbook.gitlab.com/handbook/engineering/infrastructure/incident-management/#reporting-an-incident](/handbook/engineering/infrastructure/incident-management/#reporting-an-incident)
 
 ## Common Incidents and Tips
 
 ### Failing pipeline
 
-Please see the [handbook editing page](../editing-handbook/_index.md#failing-pipelines) for guidance and examples.
+Please see the [handbook editing page](../editing-handbook/#failing-pipelines) for guidance and examples.
 
 ### Managing broken main alerts in #handbook-escalation
 
