@@ -17,11 +17,18 @@ description: "The page outlines the current and planned utilization of operation
 
 ## Vision
 
-Leverage operational data (for example, license, active users, use cases, and features) from the product to:
+Our aim is to utilize operational data, encompassing license utilization, active user metrics, use cases, and feature utilization, to achieve the following objectives:
 
-1. Accelerate customers' realization of value from the GitLab platform and delivery to desired business outcomes with a world-class customer experience
-2. Improve value, quality, and usability through data related to how customers interact with GitLab
-3. Improve net dollar retention by efficiently retaining customers and assisting in account expansion
+1. Facilitate Customers' Value Realization:
+Enhance customers' ability to realize value from the GitLab platform swiftly, ensuring a seamless journey towards their desired business outcomes. We are committed to providing a world-class customer experience by leveraging insights derived from product usage data.
+
+2. Enhance Value, Quality, and Usability:
+Utilize data-driven insights into customer interactions with GitLab to continually improve the value proposition, quality standards, and usability of our platform. By closely analyzing how customers engage with GitLab features, we strive to enhance their experience and satisfaction.
+
+3. Drive Net Dollar Retention and Account Expansion:
+Strengthen customer relationships by efficiently retaining existing customers and supporting account expansion initiatives. Through proactive analysis of usage patterns and identifying opportunities for value addition, we aim to increase net dollar retention while facilitating organic growth within customer accounts.
+
+By aligning our efforts with these objectives, we endeavor to optimize customer adoption, satisfaction, and overall success with the GitLab platform.
 
 ## Benefits
 
@@ -66,15 +73,6 @@ The benefit to GitLab is based on the premise that customers will renew and expa
 1. Reporting and alerts when adoption across a use case goes from 'Green' to 'Yellow' or 'Red', indicating potential movement from a team off of the platform
 
 
-
-
-
-
-### Lifecycle Management
-
-![Lifecycle Management Approach Leverages Operational Data](./images/lifecycle-product-usage.jpeg)
-[Link to pdf for improved viewing](./images/customer-lifecycle-journey.pdf)
-
 #### Success Planning and Outcome Delivery
 
 - When a CSM is engaged, the usage data will be a key measure for the [customer success plan](/handbook/customer-success/csm/success-plans/) to ensure the customer is successfully adopting the use cases and features to deliver to their goals and objectives. Data and metrics will be leveraged and shared throughout the engagement and in customer [Executive Business Reviews](/handbook/customer-success/csm/ebr/).
@@ -114,7 +112,7 @@ The benefit to GitLab is based on the premise that customers will renew and expa
 
 ### Metrics
 
-- [Time-to-First Value](/handbook/customer-success/vision/#time-to-value-kpis) uses license data and potentially use case stats in the future
+- [Operationalized Usage Metrics in Gainsight/Tableau](https://docs.google.com/spreadsheets/d/1EhSXqx6YXcpqHg2TpS0ZN5Rk_d2hhrTPrW5FTbmuZjw/edit#gid=0)
 - [License Utilization](/handbook/customer-success/product-usage-data/use-case-adoption/): Assist the customer in determining how well utilized licenses are, how they could be used, and assess their future needs
 - [xMAU](/handbook/product/performance-indicators/#three-versions-of-xmau) leverages usage stats and is a key performance indicator (KPI) for the Product Team
 - Use case expansion playbook success will be measured by customer use case adoption
