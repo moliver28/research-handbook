@@ -73,15 +73,6 @@ The benefit to GitLab is based on the premise that customers will renew and expa
 1. Reporting and alerts when adoption across a use case goes from 'Green' to 'Yellow' or 'Red', indicating potential movement from a team off of the platform
 
 
-
-
-
-
-### Lifecycle Management
-
-![Lifecycle Management Approach Leverages Operational Data](./images/lifecycle-product-usage.jpeg)
-[Link to pdf for improved viewing](./images/customer-lifecycle-journey.pdf)
-
 #### Success Planning and Outcome Delivery
 
 - When a CSM is engaged, the usage data will be a key measure for the [customer success plan](/handbook/customer-success/csm/success-plans/) to ensure the customer is successfully adopting the use cases and features to deliver to their goals and objectives. Data and metrics will be leveraged and shared throughout the engagement and in customer [Executive Business Reviews](/handbook/customer-success/csm/ebr/).
@@ -121,7 +112,7 @@ The benefit to GitLab is based on the premise that customers will renew and expa
 
 ### Metrics
 
-- [Time-to-First Value](/handbook/customer-success/vision/#time-to-value-kpis) uses license data and potentially use case stats in the future
+- [Operationalized Usage Metrics in Gainsight/Tableau](https://docs.google.com/spreadsheets/d/1EhSXqx6YXcpqHg2TpS0ZN5Rk_d2hhrTPrW5FTbmuZjw/edit#gid=0)
 - [License Utilization](/handbook/customer-success/product-usage-data/use-case-adoption/): Assist the customer in determining how well utilized licenses are, how they could be used, and assess their future needs
 - [xMAU](/handbook/product/performance-indicators/#three-versions-of-xmau) leverages usage stats and is a key performance indicator (KPI) for the Product Team
 - Use case expansion playbook success will be measured by customer use case adoption
