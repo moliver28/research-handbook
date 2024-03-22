@@ -91,8 +91,8 @@ The Manager, Talent Acquisition Operations is a [grade 8](/handbook/total-reward
 - Design and drive rigor in processes and policies for our Global Talent Acquisition team
 - Optimize our systems, tools and processes to create consistent, efficient and equitable hiring outcomes
 - Partner with Finance, People Operations, and other teams to ensure that the necessary process flows are built for scale
-- Partner with Senior Program Manager, Enablement and Programs to ensure all process changes are communicated and rolled out effectively
-- Develop, own and run the GitLab hiring planning process in collaboration with the various operations teams, finance and the PBP’s
+- Partner with Senior Program Manager, Global TA Enablement to ensure all process changes are communicated and rolled out effectively
+- Collaborate on the GitLab hiring planning process in collaboration with the various operations teams, finance and the PBP’s
 - Help define and leverage data-focused metrics in order to develop and deliver on the goals
 - Manage our offer and contract process with partnership from the Legal and Candidate Experience teams
 - Act as a site administrator in Greenhouse and advise on best practices
