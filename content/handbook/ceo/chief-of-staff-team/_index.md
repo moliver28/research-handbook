@@ -19,7 +19,7 @@ The [Office to the CEO](/handbook/ceo/office-of-the-ceo/) consists of:
 1. [Strategy and Operations team members](job-families/chief-executive-officer/strategy-and-operations/): internal consultants and doers who support priority cross-functional projects within GitLab. Roles vary based on business needs, but these folks can be specialists (for example, focused on China or technology) or generalists.
 1. [EBAs](/handbook/eba/) to the CEO: EBAs who support the CEO and the Chief of Staff to the CEO.
 
-When there are gaps, the Office may expand to include additional roles and responsibilities. For example, at times this Office has included our [TeamOps](https://handbook.gitlab.com/teamops/) initiative, [internal communications](/handbook/communication/#internal-communication), and [handbook maintenance](https://handbook.gitlab.com/). As GitLab is a functionally organized company, the goal in most cases is to own an area until a function is prepared to own and support it.
+When there are gaps, the Office may expand to include additional roles and responsibilities. For example, at times this Office has included our [TeamOps](https://handbook.gitlab.com/teamops/) initiative, [internal communications](/handbook/communication/#internal-communication), and [handbook maintenance](https://handbook.gitlab.com/). As GitLab is a functionally organized company, the goal in most cases is to own an area until another function is prepared to own and support it.
 
 ## Kinds of projects Strategy and Operations team members work on
 
