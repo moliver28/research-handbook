@@ -26,7 +26,7 @@ Issues should only be escalated if it relates to:
 
 ## "Keep main green" group
 
-If after posting in `#handbook-escalation`, you are not receiving a response, please ping the [issue triager](../#team-structure) if it's within their working hours.
+If after posting in `#handbook-escalation`, you are not receiving a response, please ping the [issue triager](../content-websites/#team-structure) if it's within their working hours.
 
 If they are not available, the following team members (in the table below) have volunteered to assist when available. Please take into consideration the listed timezone where they are generally located and their Slack status on whether they're out of office.
 
@@ -57,7 +57,7 @@ Additionally, any GitLab team member can volunteer to join the [#handbook-escala
     1. Resolve the problem, or provide feedback to the team member on how they can resolve it.
     1. If you do not believe you can resolve it and need further assistance, consider any or all of the following:
        1. Ping another member of the [Keep main green group](#keep-main-green-group).
-       1. Ping the [technical DRI](../#team-structure), or a member of the code maintainer group.
+       1. Ping the [technical DRI](../content-websites/#team-structure), or a member of the code maintainer group.
        1. [Create a bug issue](https://gitlab.com/gitlab-com/content-sites/handbook/-/issues/new) with details.
 
 ### When to hand over to Reliability Engineering
