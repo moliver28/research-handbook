@@ -128,7 +128,7 @@ Depending on a few factors of your purchase, there are different ways to engage 
    1. [Change Requests to existing POs](/handbook/business-technology/enterprise-applications/guides/zip-guide/#how-to-do-a-request-change)
    1. [$0 contract reviews including demos and trials](/handbook/business-technology/enterprise-applications/guides/zip-guide/#how-to-request-a-signature-on-a-poc-agreement)
    1. Partner Revenue Payments
-   1. [Individual Use Software](/handbook/finance/procurement/personal-use-software/)
+   1. [Individual Use Software](https://handbook.gitlab.com/handbook/finance/procurement/individual-use-software/)
    1. [Providing Termination or Non-Renewal Notice](/handbook/finance/procurement/#6-cancellation)
 1. For new spend, changing vendors for existing services, or after 3 years of renewing a service, follow the [RFP Process](https://internal.gitlab.com/handbook/finance/procurement/)
    1. Over $250K: Procurement led RFP, typically 5+ vendor bids
