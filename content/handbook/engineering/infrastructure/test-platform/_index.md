@@ -180,7 +180,7 @@ Feel free to reach out to us by opening an issue on the [Quality Team Tasks proj
 
 ### Management team
 
-{{< team-by-manager-role role="Interim Director, Test Platform" team="Manager" >}}
+{{< team-by-manager-role role="Director, Test Platform" >}}
 
 ### Individual contributors
 
