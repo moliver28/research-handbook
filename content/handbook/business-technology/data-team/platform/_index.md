@@ -395,11 +395,18 @@ For more information, watch this [recorded pairing session](https://youtu.be/-vp
 
 ## Snowflake Provisioning Automation
 
-In FY25-Q1, we are moving towards semi-automating the above `Managing Roles for Snowflake` process, [OKR epic](https://gitlab.com/groups/gitlab-data/-/epics/1128).
+In FY25-Q1, we are moving towards semi-automating the above `Managing Roles for Snowflake` process, [OKR epic](https://gitlab.com/groups/gitlab-data/-/epics/1128). This will enable **all GitLab Team Members** to create a Snowflake user themselves with minimal support by the Data Platform Team. This will speed up the provisioning process and shorten the time a GitLab Team member can get access to Snowflake. 
+
+All GitLab Team Members are encouraged to open a MR following this [runbook](https://gitlab.com/gitlab-data/runbooks/-/blob/main/snowflake_provisioning_automation/snowflake_provisioning_automation.md) if they need access to Snowflake.
+
+High-level description of the process: 
+1. Open an Access Request and get the approvals in place
+1. Open an MR
+1. Run CI pipeline
+1. Review from Data Platform Team codeowner. 
 
 The rest of the section is meant to describe the automated process in more detail.
 
-Please see the [runbook link](https://gitlab.com/gitlab-data/runbooks/-/blob/main/snowflake_provisioning_automation/snowflake_provisioning_automation.md) if you're looking for specific step-by-step instructions to run this process.
 
 The main processes that have been automated are:
 1. create/remove users from Snowflake platform
