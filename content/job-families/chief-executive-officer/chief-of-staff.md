@@ -37,7 +37,7 @@ The responsibilities include both directed work that will mostly be triggered by
 1. Review OKR suggestions during the [scheduled OKR meetings](/handbook/company/okrs/#schedule) and outside of the meetings.
 1. Own agenda for the [E-Group offsite](/handbook/company/offsite/).
 1. Serve as a proxy for the CEO by attending meetings in place of the CEO and making decisions on the CEO's behalf.
-1. Participate in every E-group meeting. The person will not be an executive or part of the e-group, but they will take part in e-group activities.
+1. Participate in every E-Group meeting. The person will not be an executive or part of the E-Group, but they will take part in E-Group activities.
 1. Act as a communication arm for the CEO with team members and other stakeholders.
 1. Act as a sounding board to the CEO for new ideas and initiatives.
 1. Prepare ahead of formal and informal Board meetings. Ensure CEO has up to date information from every function in advance of questions from the board.
