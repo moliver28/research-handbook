@@ -1318,25 +1318,28 @@ Google Docs [Pageless format](https://support.google.com/docs/answer/11528737?hl
 #### Link sharing
 
 If you *do* need a Google Doc, create one with your company Google Workspace (formerly G Suite)
-account and set the visibility and access controls according to the following guidelines.
+account and set the visibility, access controls and searchable flag according to the following guidelines.
 
-The recommended defaults when sharing a document for GitLab internal purposes is setting visibility to **On - GitLab** and access to **Can Edit** to ensure everyone can contribute!
+The recommended defaults when sharing a document for GitLab internal purposes is setting visibility to **GitLab**, access to **Editor** and searchable
+**Can find in search results** to ensure everyone can contribute!
 
 **Note:**
 To our knowledge, it is not possible to set the default to **Can Edit** and you have to change the permissions from **View** manually. We hope that Google adds this capability in the future.
 
 | **Visibility Setting**                | **Use Cases**                                                                                                                                                                                             |
 | ------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| On - Public on the web                | If you want the document to be discoverable by anyone on the internet.                                                                                                                                    |
-| On - Anyone with the link             | Avoid this setting. Instead, choose **On - GitLab**, then explicitly share the document with desired external individuals. Only use this if you want the document to be public but not indexed by Google. |
-| **On - GitLab (Recommended Default)** | This is the recommended default as it allows anyone within GitLab to easily discover documents via searching for their name within Drive.                                                                 |
-| On - Anyone at GitLab with the link   | Avoid this option as it limits discoverability by others at GitLab.                                                                                                                                       |
-| Off - Specific people                 | When the document contains highly sensitive or private information such as 1:1s with direct reports                                                                                                       |
+| Anyone with the link             | Avoid this setting. Instead, choose **GitLab**, then explicitly share the document with desired external individuals. Only use this if you want the document to be public but not indexed by Google. |
+| **GitLab (Recommended Default)** | This is the recommended default as it allows anyone within GitLab to easily discover documents via searching for their name within Drive.                                                                 |
+| Restricted                | When the document contains highly sensitive or private information such as 1:1s with direct reports                                                                                                                                    |
+| **Searchable Setting**                    | **Effect**                                                                                                                                                                                             |
+| --------------                        |
+| Can find in search results. | makes the file available to anyone with a PeppGitLaberdine Google account and discoverable within GitLab Google Drive's search feature. |
+| Must have link to access | makes the file available to anyone with a GitLab Google account who has the link. |
 | **Access Setting**                    | **Use Cases**                                                                                                                                                                                             |
 | --------------                        | ---------                                                                                                                                                                                                 |
-| Can Edit                              | Anyone that can view the document can edit it. This is the recommended setting when **On - GitLab** is enabled for the document                                                                           |
-| Can Comment                           | Anyone that can view the document can add a comment but cannot edit the document. This is ideal if you want to provide visibility but retain more fine-grained control of document editing.               |
-| View                                  | Individuals with access to the document will only be able to view it.                                                                                                                                     |
+| Editor                              | Anyone that can view the document can edit it. This is the recommended setting when **On - GitLab** is enabled for the document                                                                           |
+| Commenter                           | Anyone that can view the document can add a comment but cannot edit the document. This is ideal if you want to provide visibility but retain more fine-grained control of document editing.               |
+| Viewer                                  | Individuals with access to the document will only be able to view it.                                                                                                                                     |
 
 Reference Google's [documentation](https://support.google.com/drive/answer/2494822?visit_id=637102981721473693-3129607436&p=link_sharing_options&hl=en&rd=1#link_sharing) on Link Sharing to learn more.
 
