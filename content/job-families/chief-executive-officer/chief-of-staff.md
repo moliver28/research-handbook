@@ -42,7 +42,7 @@ The responsibilities include both directed work that will mostly be triggered by
 1. Act as a sounding board to the CEO for new ideas and initiatives.
 1. Prepare ahead of formal and informal Board meetings. Ensure CEO has up to date information from every function in advance of questions from the board.
 1. Run special projects that are urgent and important, for example building a company wide [compensation model](/handbook/total-rewards/compensation/compensation-calculator/).
-1. Lead key [many-function efforts](/handbook/ceo/chief-of-staff-team/#many-functional).
+1. Lead key [many-functional efforts](/handbook/ceo/chief-of-staff-team/#many-functional).
 
 ## Requirements
 
