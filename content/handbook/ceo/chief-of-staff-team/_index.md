@@ -91,7 +91,7 @@ Examples of broad projects:
 
 #### Important to the CEO
 
-The CEO will have other projects that come up that he will task the Office of the CEO with, such as following up on something or carrying on a conversation on his behalf.
+The CEO will have other projects that come up that they will task the Office of the CEO with, such as following up on something or carrying on a conversation on their behalf.
 
 Examples of tasks or initiatives that are important to the CEO:
 
