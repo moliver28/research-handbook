@@ -31,12 +31,7 @@ This page serves as a resource for team members looking for information about wo
 ## Questions while developing AI features
 * (Coming soon) Office hours
 
-## Current AI features
+## Current AI features and teams
 * [List of AI features](https://handbook.gitlab.com/handbook/engineering/development/data-science/ai-powered/#features): Current AI features in developement, the team that owns them and whether they are integrated into Duo Chat.
-* [GitLab Duo Features by Tier](https://docs.gitlab.com/ee/user/ai_features.html): All features that are available to use, and how to access them.
-
-## AI teams
-* [AI Framework](https://about.gitlab.com/direction/ai-powered/ai_framework/)
-* [Model Validation](https://about.gitlab.com/direction/ai-powered/ai_model_validation/)
-* [Duo Chat](https://about.gitlab.com/direction/ai-powered/duo_chat/)
-* [Custom Models](https://handbook.gitlab.com/handbook/engineering/development/data-science/ai-powered/custom-models/)
+* [AI features by tier](https://docs.gitlab.com/ee/user/ai_features.html): All features that are available to use, and how to access them.
+* [AI teams](https://handbook.gitlab.com/handbook/engineering/development/data-science/ai-powered/#stage-groups)
