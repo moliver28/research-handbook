@@ -541,9 +541,9 @@
 
 ^[support]
 /content/handbook/support/ @gitlab-com/support
+/content/handbook/support/readiness/ @lyle @jcolyer @dtragjasi
 
-[support-controlled-docs]
-/content/handbook/support/readiness/ @lyle @jcolyer @dtragjasi @gitlab-com/egroup @gitlab-com/content-sites
+[support-require-approvals]
 /content/handbook/support/workflows/account_deletion_access_request_workflows.md @jcolyer @izzyfee @lyle @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/support/workflows/data_processing_addendums.md @lyle @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/support/workflows/dmca.md @gitlab-com/support/managers @gitlab-com/gl-security/security-operations/trust-and-safety @gitlab-com/egroup @gitlab-com/content-sites
