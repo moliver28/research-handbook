@@ -95,13 +95,13 @@
 /content/handbook/customer-success/professional-services-engineering/education-services/ @scottcosentinogitlab @nshah19
 
 ^[engineering]
-/content/handbook/engineering/ @joergheilig
-/content/job-families/engineering/ @joergheilig
+/content/handbook/engineering/ @sabrinafarmer
+/content/job-families/engineering/ @sabrinafarmer
 /content/job-families/engineering/incubation/ @bmarnane
-/content/handbook/engineering/cross-functional-prioritization.md @joergheilig @david
+/content/handbook/engineering/cross-functional-prioritization.md @sabrinafarmer @david
 /content/handbook/engineering/metrics/ @meks @lmai1 @rymai
 /content/handbook/engineering/open-source/ @rymai @meks @nick_vh
-/content/handbook/developer-onboarding.md @joergheilig
+/content/handbook/developer-onboarding.md @sabrinafarmer
 /content/handbook/engineering/performance.md @timzallmann
 
 ^[Development-department]
@@ -549,7 +549,7 @@
 /content/handbook/support/workflows/unbabel_translation_in_zendesk.md @gitlab-com/support/managers @gitlab-com/support/support-ops @gitlab-com/egroup @gitlab-com/handbook
 /content/handbook/support/workflows/setting_ticket_priority.md @gitlab-com/support/managers @gitlab-com/support/support-ops @gitlab-com/egroup @gitlab-com/handbook
 /content/handbook/support/workflows/zendesk-instances.md @gitlab-com/support/managers @gitlab-com/support/support-ops @gitlab-com/egroup @gitlab-com/handbook
-/content/handbook/support/workflows/team/performance_review.md @joergheilig @lbot @lyle @shaunmccann @vparsons @gitlab-com/egroup @gitlab-com/handbook
+/content/handbook/support/workflows/team/performance_review.md @sabrinafarmer @lbot @lyle @shaunmccann @vparsons @gitlab-com/egroup @gitlab-com/handbook
 
 [support-readiness]
 /content/handbook/support/readiness/ @lyle @jcolyer @dtragjasi @gitlab-com/egroup @gitlab-com/handbook
@@ -636,7 +636,7 @@
 /content/handbook/business-technology/end-user-services/self-help-troubleshooting/ @NabithaRao @ericrubin @mbeee @gitlab-com/egroup @gitlab-com/handbook
 /content/handbook/business-technology/gitlab-business-continuity-plan.md @brobins @cmestel @NabithaRao @gitlab-com/egroup @gitlab-com/handbook
 /content/handbook/editing-handbook/frontmatter.md @gitlab-com/ceo-chief-of-staff-team @gitlab-com/egroup @gitlab-com/handbook
-/content/handbook/engineering/infrastructure/change-management.md @marin @meks @joergheilig @gitlab-com/egroup @gitlab-com/handbook
+/content/handbook/engineering/infrastructure/change-management.md @marin @meks @sabrinafarmer @gitlab-com/egroup @gitlab-com/handbook
 /content/handbook/engineering/infrastructure/database/disaster-recovery.md @marin @meks @gitlab-com/egroup @gitlab-com/handbook
 /content/handbook/engineering/infrastructure/network-security.md @marin @meks @gitlab-com/egroup @gitlab-com/handbook
 /content/handbook/engineering/infrastructure/production/_index.md @marin @meks @gitlab-com/egroup @gitlab-com/handbook
