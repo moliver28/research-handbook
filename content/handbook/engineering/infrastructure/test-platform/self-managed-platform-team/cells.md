@@ -58,7 +58,7 @@ The router is currently being defined, will add details once specifications are 
 
 ### QA Cell
 
-As part of migrating to Cells architecture, we will stand up a QA Cell to enable testing. We are [discussing how to use it](https://gitlab.com/gitlab-org/quality/quality-engineering/team-tasks/-/issues/2363). As we are rolling out Cells 1.0, the QA Cell will probably be used to test out and support implementing the features needed to support the Cells. Long term it will be an environment we can run Cells specific tests against as part of the deployment process.
+As part of migrating to Cells architecture, we will stand up a QA Cell to enable testing. We are [discussing how to use it](https://gitlab.com/gitlab-org/quality/quality-engineering/team-tasks/-/issues/2363). As we are rolling out Cells 1.0, the QA Cell will probably be used to test out and support implementing the features needed to support the Cells. Long term it will be an environment we can run Cells specific tests against as part of the deployment process. It will be deployed to as part of Ring 0.
 
 ## Performance Testing
 
