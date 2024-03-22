@@ -72,10 +72,6 @@ To report an incident follow the instructions on the Incident Management page: [
 
 Please see the [handbook editing page](../editing-handbook/_index.md#failing-pipelines) for guidance and examples.
 
-### Runbook for about.gitlab.com
-
-There is also a [runbook for about.gitlab.com incident handling](https://gitlab.com/gitlab-com/runbooks/-/blob/master/docs/uncategorized/about-gitlab-com.md).
-
 ### Managing broken main alerts in #handbook-escalation
 
 All broken CI pipelines for the `main` branch of the `handbook` repo are automatically posted in the Slack channel.
@@ -90,3 +86,7 @@ If for some reason there is a large amount of failures resulting in spamming the
 To see the status of the merge train (useful when team members are reporting that their MRs seem 'stuck' on the train), see [this issue to check the status and perform a workaround, if necessary](https://gitlab.com/gitlab-org/gitlab/-/issues/217908#when-the-merge-train-in-the-www-gitlab-com-project-might-be-stuck).
 
 TL;DR for workaround: If the first/oldest MR `iid` in [the FIFO list](https://gitlab.com/api/v4/projects/7764/merge_trains?scope=active&per_page=100&sort=asc) (`sort=asc` by ID) is actively running a pipeline and eventually gets merged, then things are moving along, just slowly.  If the first one in the list isn't currently running any pipeline, remove it from the train and re-add it (it should go to the end).
+
+### Runbook for about.gitlab.com
+
+While the handbook is no longer on `about.gitlab.com`, some of the information in the [runbook for about.gitlab.com incident handling](https://gitlab.com/gitlab-com/runbooks/-/blob/master/docs/uncategorized/about-gitlab-com.md) may be helpful.
