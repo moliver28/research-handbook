@@ -39,6 +39,12 @@ Here are the steps to resolve the sync fail.
 
 If all these are submitted correctly, then submit a Vartopia support ticket with a list of the failed sync and its `Vartopia Prospect Id`. The `Vartopia Prospect Id` (ex. L-555555) is a unique lead number identified populated by SFDC that shows in Vartopia and SFDC. We can use this as a non-PII identifier in both systems.
 
+### Prospects to Deal Registration
+
+We can link the Prospect to the DR so long as it’s in Prospect Share Status = `Accepted`, and there is either a matching domain and/or an exact match on the email address. Partners will be prompted with a pop-up to link the Prospect upon DR creation. When the DR is created, Partner Prospect Status will automatically be updated to `Converted to DR`.
+
+[See](https://youtu.be/ktZikNBMOpk) how this works.
+
 ## Notifications
 
 The `Partner Prospect Admin` will receive an email notification when leads are shared them via Vartopia. Vartopia does not offer the functionality to send alerts, thus the main workflows are built and sent from Marketo:
