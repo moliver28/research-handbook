@@ -275,6 +275,7 @@ Due to its cross-functional scope and access to information, the Office of the C
 ## Measuring results
 
 We are evaluating different ways to measure our success as a team. These include:
+
 1. A company-wide team satisfaction score
 1. A pulse survey sent to a few targeted folks who have worked closely with the Office of the CEO team members in the past quarter
 1. Score against team quarterly goals
