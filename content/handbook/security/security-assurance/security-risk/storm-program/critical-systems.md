@@ -22,14 +22,14 @@ The Critical System Tiering methodology is applicable to all systems utilized ac
 
 ## Critical System Tiering Procedure
 
-Defining what a critical system means at GitLab can be complex given the nature of our environment and the number of integrations that exist across the many systems that are used to carry out business activities. GitLab's [Business Impact Analysis (BIA)]({{< ref "business-impact-analysis" >}}) procedure enables the designation of a Critical System Tier for a new system by the Security Risk Team. The BIA questions used to determine Critical System Tier are:
+Defining what a critical system means at GitLab can be complex given the nature of our environment and the number of integrations that exist across the many systems that are used to carry out business activities. GitLab's [Business Impact Analysis (BIA)]({{< ref "business-impact-analysis" >}}) procedure enables the designation of a Critical System Tier for a new system by the Security Risk Team. The BIA questions used to designate Critical System Tier are:
 
 1. What is the impact of System disruption (System is unavailable)?
 2. Please describe the potential impact of System disruption. Specify any GitLab team(s) affected.
 
-Answers are reviewed by the Security Risk and/or IT Compliance Team to determine which Critical System Tier should be designated to the system. The guidelines used to distinguish each tier are described in the [Determining Critical System Tiers](#determining-critical-system-tiers) section below.
+Answers are reviewed by the Security Risk and/or IT Compliance Team to designate a Critical System Tier for the new system. The guidelines used to distinguish each tier are described in the next section.
 
-### Determining Critical System Tiers
+### Designating Critical System Tiers
 
 Systems are designated a Critical System Tier based on the following matrix:
 
