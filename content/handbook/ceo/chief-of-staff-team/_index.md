@@ -224,7 +224,7 @@ There is an issue to also [add DRIs and review the mitigations](https://gitlab.c
 
 ## Supporting Summit Challenge
 
-The CEO chooses to run a Summit Challenge as part of some [Summits](https://about.gitlab.com/events/). The Challenge is shared on the first day of Summit. As an example, the 2020 Challenge encouraged team members to [beautify docs](https://gitlab.com/groups/gitlab-org/-/epics/3063). The Office of the CEO is responsible for collaborating with the CEO to create and introduce the challenge. The CEO is responsible for identifying a prize for team members, but the Office of the CEO should ensure that a prize is identified and support the CEO in this if needed.
+The CEO chooses to run a Summit Challenge as part of some [Summits](https://about.gitlab.com/events/). The Challenge is shared in advance of Summit or on the first day of Summit. As an example, the 2020 Challenge encouraged team members to [beautify docs](https://gitlab.com/groups/gitlab-org/-/epics/3063). The Office of the CEO is responsible for collaborating with the CEO to create and introduce the challenge. The CEO is responsible for identifying a prize for team members, but the Office of the CEO should ensure that a prize is identified and support the CEO in this if needed.
 
 ### Meeting Cleanup Day
 
