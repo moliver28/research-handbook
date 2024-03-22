@@ -83,6 +83,7 @@ The current enrichment criteria is the following:
 2. `Last Interesting Moment Date` equals `Last 30 Days` *AND* `[PQL] Product Qualified Lead` equals `True` *AND* `[PTPT] Score Group` equals `4,5`;
 3. `Initial Source` equals `Zoominfo` *AND* (`Phone` equals `blank` *OR* `Email` equals `blank`) *AND* `Demographic Score` greater than `59`;
 4. `Initial Source` equals `Request - Contact` *AND* (`Phone` equals `blank` *OR* `Email` equals `blank`) *AND* `Lead Owner` does not contain `disq,inel,jihu`.
+5. `Lead Status` equals `MQL, Accepted, Qualifying` *AND* `Vartopia Partner Account` equals `blank` *AND* Campaign Field - `Member First Responded Date` equals `Current FY` *AND* Campaign Field - `Campaign Type` equals `Trial` *AND* `[Cognism] Automatically Enriched` equals `False` *AND* `Account Demographics: Region` equals `EMEA`.
 
 ## Cognism Licensing Policy & Procedures
 
