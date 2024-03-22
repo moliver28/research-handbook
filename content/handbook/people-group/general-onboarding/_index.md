@@ -64,7 +64,7 @@ By default, all new team members are added to the below Slack channels from day 
 - `#payroll` (have any questions on your salary payments, payslips, etc)
 - `#questions` (anything that the Handbook can't help with)
 - `#donut-be-strangers` (need some help setting up a coffee chat)
-- `#team-member-updates` (new team member, anniversaries, goodbyes, bonuses)
+- `#team-member-updates` (new team member, anniversaries, goodbyes)
 - `#thanks` (want to acknowledge and thank someone at GitLab, this is the channel)
 - `#whats-happening-at-gitlab` (all important updates/reminders/notifications related to GitLab)
 
