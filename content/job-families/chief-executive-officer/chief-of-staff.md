@@ -35,7 +35,7 @@ The responsibilities include both directed work that will mostly be triggered by
 1. Initiate and guide the OKR process according to the [OKR schedule](/handbook/company/okrs/#schedule).
 1. Identify opportunities to acknowledge success and ensure that they are appropriately recognized by the CEO.
 1. Review OKR suggestions during the [scheduled OKR meetings](/handbook/company/okrs/#schedule) and outside of the meetings.
-1. Own agenda for the [E-group offsite](/handbook/company/offsite/).
+1. Own agenda for the [E-Group offsite](/handbook/company/offsite/).
 1. Serve as a proxy for the CEO by attending meetings in place of the CEO and making decisions on the CEO's behalf.
 1. Participate in every E-group meeting. The person will not be an executive or part of the e-group, but they will take part in e-group activities.
 1. Act as a communication arm for the CEO with team members and other stakeholders.
