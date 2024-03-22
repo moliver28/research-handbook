@@ -128,7 +128,7 @@ When newly initiated, self-directed, leadership work entails a significant time 
 
 More senior roles within the Office of the CEO can expect to have more leadership than directed work, but all roles should have a mix within a fiscal year.
 
-Office of the CEO members should monitor the mix of directed and leadership work that they are doing and provide a status once a quarter in Office of the CEO Meetings, so the CoS to the CEO and CEO are aware of the current balance and can make adjustments, if needed.
+Office of the CEO members should monitor the mix of directed and leadership work that they are doing and provide as appropriate in Office of the CEO Meetings, so the CoS to the CEO and CEO are aware of the current balance and can make adjustments, if needed.
 
 ## Board Meetings
 
