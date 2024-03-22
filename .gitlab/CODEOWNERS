@@ -622,7 +622,7 @@
 /README.md @gitlab-com/content-sites @gitlab-com/egroup
 /scripts/ @gitlab-com/content-sites @gitlab-com/egroup
 
-## Controlled Documents must be the last section
+## Controlled Documents must be in this section, and it must be the last section
 [Controlled-Documents]
 /content/handbook/business-technology/data-team/data-management.md @amiebright @dvanrooijen2 @iweeks @nmcavinue @emccrann @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/business-technology/data-team/platform/_index.md @amiebright @dvanrooijen2 @iweeks @gitlab-com/egroup @gitlab-com/content-sites
