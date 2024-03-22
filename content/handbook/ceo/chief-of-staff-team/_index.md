@@ -28,6 +28,7 @@ Given the cross-functional nature of the [company OKRs](/handbook/company/okrs/#
 ### Project Criteria
 
 The CoS to the CEO and their team may work on projects that fit *any combination* of the following:
+
 1. projects which build or improve organizational design, infrastructure, and operations
 1. cross-functional projects that need ownership until a maintainer or exit criteria is identified
 1. projects that are so broad that they can't live within a function but are too much work for the CEO
