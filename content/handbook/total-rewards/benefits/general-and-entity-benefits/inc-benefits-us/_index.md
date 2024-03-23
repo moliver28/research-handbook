@@ -431,24 +431,32 @@ For out-of-network services: 365 days from Date of Service.
 
 ### Basic Life Insurance and AD&D
 
-GitLab offers company paid basic life and accidental death and dismemberment (AD&D) plans through Cigna which is a subsidiary of New York Life. The Company pays for basic life insurance coverage valued at two times annual base salary with a maximum benefit of $500,000, which includes an equal amount of AD&D coverage. Please find additional details, limitations, and exclusions on the [summary of benefits](https://drive.google.com/file/d/1rkA8n3zgZvnoiqzu3ZJuLwZ_9zMaNbZW/view?usp=sharing).
+GitLab offers company paid basic life and accidental death and dismemberment (AD&D) plans through Cigna which is a subsidiary of New York Life. The Company pays for basic life insurance coverage valued at two times annual base salary with a maximum benefit of $500,000, which includes an equal amount of AD&D coverage. Please find additional details, limitations, and exclusions on the [summary of benefits](https://drive.google.com/file/d/1rkA8n3zgZvnoiqzu3ZJuLwZ_9zMaNbZW/view?usp=sharing) and the [Life Insurance Flyer](https://drive.google.com/file/d/1i7JmrI5paxfRnIIp8fi1jvJwAGjCa2By/view?usp=sharing)
+
+Inclusive of the life insuranc policy is [survivor assurance and support](https://drive.google.com/file/d/1Uhh7S9uotOtHxogCh7Z7AmLfgdufLsig/view?usp=sharing)
 
 #### Employee Assistance Program
 
 Under the New York Life Group Benefit, US Team Members also have access to the New York Life Employee Assistance Program. The Program includes:
 
 - Visits with a specialist: 3 face to face sessions with a behavioral counselor
-- Legal Consultations and referrals: a free 30 minute consultation with a network attorney and up to 25% discount on select fees
-- Financial Consultations: a free 30 minute consultation and a 25% discount on tax planning and preparation
+- [Legal Consultations and referrals](https://drive.google.com/file/d/1B8Uh9OZq7BqoZ0PbeuDbwTRVCzrWunhR/view?usp=sharing): a free 30 minute consultation with a network attorney and up to 25% discount on select fees
+- [Financial Consultations}(https://drive.google.com/file/d/1B8Uh9OZq7BqoZ0PbeuDbwTRVCzrWunhR/view?usp=sharing): a free 30 minute consultation and a 25% discount on tax planning and preparation
 - An advocate that can help assess your needs, develop solutions, direct you to resources and more!
+- [Health Advocacy] (https://drive.google.com/file/d/1ycM4zFn3Cj41SnwtPGJCEQ9ndBkwgEBl/view?usp=sharing)
+- [Additional travel protection](https://drive.google.com/file/d/1h15_UmnrwGccxCddWQOe8FH54VpARwEL/view?usp=sharing) (separate from the company business travel policy)
 
-For more information and how to access these benefits, please see the [EAP flyer](https://drive.google.com/file/d/1zidnI4vsFjHuul79zyJqGDEmHirgSAA8/view?usp=sharing)
+For more information and how to access these benefits, please see the [EAP flyer](https://drive.google.com/file/d/1RRAOZKmhNzXLuXrSxt1mJJRs6Pr3ni-q/view?usp=sharing)
+
+
 
 ### Group Long-Term and Short-Term Disability Insurance
 
 GitLab provides, at no cost to our Inc and Federal team members, a disability policy through NY Life that may replace up to 66.7% of your base salary, for qualifying disabilities. For [short-term disability](https://drive.google.com/drive/folders/1CkZ9rlAw8cql0AwiTVrd2m7yZo_A3Yko?usp=sharing) there is a weekly maximum benefit of $2,500; for [long-term disability](https://drive.google.com/drive/folders/178xRCnUwXuWLvw4OvZGyC1-YYG_O1Y2-?usp=sharing), there is a monthly benefit maximum of $12,500.
 
 Short-term disability insurance has a 7-calendar day waiting period before payments begin. Benefits coverage (medical, dental, vision, etc.) and vesting will continue for the time the team member is receiving short-term disability pay.
+
+See the [disability insurance flyer](https://drive.google.com/file/d/1sN3LR0mz7mQnHf8-HrerZ55AhXme3qou/view?usp=sharing) for a summary of the plans.
 
 **GitLab Process for Disability Claim**
 
@@ -733,11 +741,13 @@ If you are a newly hired GitLab Team Member, please allow 1 month following your
 
 ### Cigna Supplemental Life Insurance/AD&D
 
-Team members who wish to elect additional life insurance above what is provided by GitLab through the Basic Life Insurance or elect life insurance for their dependents, can elect [Voluntary Life Insurance](https://drive.google.com/file/d/1yY1tFJTuj1wCMlorUvnfcgWwZUuP279r/view?usp=sharing) through Cigna.
+Team members who wish to elect additional life insurance above what is provided by GitLab through the Basic Life Insurance or elect life insurance for their dependents, can elect [Voluntary Life Insurance](https://drive.google.com/file/d/1tybaRkRL5SGpDObdRVlSt-VG5GQMoHeX/view?usp=sharing) through Cigna.
 
 - $10,000 Increments up to the lesser of 6x annual salary or $750,000 for team members
 - $5,000 Increments up to the lesser of $250,000 or 100% of team member election for spouses and domestic partners
 - $10,000 of coverage available for children
+
+See the [2024 Cost Sheet](https://drive.google.com/file/d/1B_fNqboB3Nkkiq0mvd_yLs_-HceoY2ad/view?usp=sharing) for more details on the Cost and Employe Coverage amounts
 
 ##### Evidence of Insurability
 

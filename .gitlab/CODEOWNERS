@@ -215,7 +215,6 @@
 /content/handbook/engineering/readmes/ben-king.md @benjaminking
 /content/handbook/engineering/readmes/craig-miskell.md @cmiskell
 /content/handbook/engineering/readmes/emily-chang.md @emchang
-/content/handbook/engineering/readmes/izzy-fee.md @izzyfee
 /content/handbook/engineering/readmes/james-lopes.md @JamesRLopes
 /content/handbook/engineering/readmes/jane-gianoutsos.md @jgianoutsos
 /content/handbook/engineering/readmes/juan-silva.md @juan-silva
@@ -544,13 +543,13 @@
 /content/handbook/support/readiness/ @lyle @jcolyer @dtragjasi
 
 [support-require-approvals]
-/content/handbook/support/workflows/account_deletion_access_request_workflows.md @jcolyer @izzyfee @lyle @gitlab-com/egroup @gitlab-com/content-sites
+/content/handbook/support/workflows/account_deletion_access_request_workflows.md @jcolyer @lyle @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/support/workflows/data_processing_addendums.md @lyle @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/support/workflows/dmca.md @gitlab-com/support/managers @gitlab-com/gl-security/security-operations/trust-and-safety @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/support/workflows/how-to-set-up-shift-coverage-for-an-event.md @gitlab-com/support/managers @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/support/workflows/information-request.md @lasayers @dfrhodes @emccrann @smccreesh @rachelpack @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/support/workflows/log_requests.md @gitlab-com/support/managers @gitlab-com/egroup @gitlab-com/content-sites
-/content/handbook/support/workflows/personal_data_access_account_deletion.md @jcolyer @izzyfee @lyle @gitlab-com/egroup @gitlab-com/content-sites
+/content/handbook/support/workflows/personal_data_access_account_deletion.md @jcolyer @lyle @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/support/workflows/pii_removal_requests.md @gitlab-com/support/managers @gitlab-com/gl-security/security-operations/trust-and-safety @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/support/workflows/reinstating-blocked-accounts.md @gitlab-com/support/managers @gitlab-com/gl-security/security-operations/trust-and-safety @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/support/workflows/setting_ticket_priority.md @gitlab-com/support/managers @gitlab-com/support/support-ops @gitlab-com/egroup @gitlab-com/content-sites
