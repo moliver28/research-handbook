@@ -42,17 +42,14 @@ To contact Govern sub-department development people leaders leaders use the foll
 
 ## All Team Members
 
-### Anti-abuse
-
-{{% team-by-manager-slug manager="jayswain" team="Engineer(.*)Govern:Anti-Abuse" %}}
 
 ### Authentication
 
 {{% team-by-manager-slug manager="adil.farrukh" team="Engineer(.*)Govern:Authentication" %}}
 
-### Authorization
+### Authorization and Anti-abuse
 
-{{% team-by-manager-slug manager="jayswain" team="Engineer(.*)Govern:Authorization" %}}
+{{% team-by-manager-slug manager="jayswain" team="Engineer(.*)Govern:Authorization|Govern:Anti-Abuse" %}}
 
 ### Compliance
 
@@ -72,7 +69,7 @@ To contact Govern sub-department development people leaders leaders use the foll
 
 The following members of other functional teams are our stable counterparts:
 
-{{% stable-counterparts role="Govern" other-manager-roles="Engineering Manager(.*)Govern:Authorization and Anti-abuse|Engineering Manager(.*)Govern:Authentication|Engineering Manager(.*)Govern:Compliance|Engineering Manager(.*)Govern:Security Policies|Engineering Manager(.*)Govern:Threat Insights|Engineering Manager(.*)Growth and Govern:Threat Insights|Director of Engineering(.*)Govern" %}}
+{{% stable-counterparts role="Govern" other-manager-roles="Engineering Manager(.*)Govern:(.*)|Director of Engineering(.*)Govern" %}}
 
 ## Skills
 
