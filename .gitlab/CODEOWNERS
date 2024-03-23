@@ -105,10 +105,10 @@
 /content/handbook/engineering/performance.md @timzallmann
 
 ^[Development-department]
-/content/handbook/engineering/workflow/ @timzallmann @bmarnane @cdu1 @wayne @sgoldstein @dsatcher @m_gill @jeromezng @pcalder
-/content/handbook/engineering/development/ @timzallmann @bmarnane @cdu1 @wayne @sgoldstein @dsatcher @m_gill @jeromezng @pcalder
+/content/handbook/engineering/workflow/ @timzallmann @bmarnane @cdu1 @sgoldstein @dsatcher @m_gill @jeromezng @pcalder
+/content/handbook/engineering/development/ @timzallmann @bmarnane @cdu1 @sgoldstein @dsatcher @m_gill @jeromezng @pcalder
 /content/handbook/engineering/core-development.md @timzallmann @sgoldstein @m_gill @dsatcher
-/content/handbook/engineering/expansion-development.md @bmarnane @wayne @jeromezng @pcalder
+/content/handbook/engineering/expansion-development.md @bmarnane @jeromezng @pcalder
 /content/handbook/engineering/development/ops/ @sgoldstein @cheryl.li @nicolewilliams @crystalpoole
 /content/handbook/engineering/development/ops/monitor/respond/ @kbychu @francoisrose
 /content/handbook/engineering/development/ops/monitor/observability.md @nicholasklick @mappelman
@@ -146,7 +146,7 @@
 /content/handbook/engineering/development/data-science/ai-powered/custom-models @oregand @m_gill @timzallmann @sean_carroll
 /content/handbook/engineering/development/data-science/ai-powered/duo-chat @juan-silva @m_gill @timzallmann
 /content/handbook/engineering/development/data-science/ai-powered/model-validation @mray2020 @pcalder
-/content/handbook/engineering/development/sec/ @wayne @twoodham @pcalder
+/content/handbook/engineering/development/sec/ @twoodham @pcalder
 /content/handbook/engineering/development/sec/govern/ @adil.farrukh @alan @jayswain @nmccorrison @nrosandich @pcalder
 /content/handbook/engineering/development/sec/govern/anti-abuse.md @jayswain
 /content/handbook/engineering/development/sec/govern/authorization.md @jayswain
@@ -154,11 +154,10 @@
 /content/handbook/engineering/development/sec/govern/compliance.md @nrosandich
 /content/handbook/engineering/development/sec/govern/security-policies/ @alan
 /content/handbook/engineering/development/sec/govern/threat-insights.md @nmccorrison @pcalder
-/content/handbook/engineering/development/sec/secure/ @wayne @twoodham
+/content/handbook/engineering/development/sec/secure/ @twoodham
 /content/handbook/engineering/development/sec/secure/composition-analysis.md @thiagocsf @gonzoyumo @fcatteau
-/content/handbook/engineering/development/sec/secure/vulnerability-research/ @wayne @idawson
+/content/handbook/engineering/development/sec/secure/vulnerability-research/ @bmarnane @idawson
 /content/handbook/engineering/frontend/ @timzallmann
-/content/handbook/engineering/development/director-shadow-program.md @wayne
 
 ^[Infrastructure-Quality-department]
 /content/handbook/engineering/infrastructure-quality.md @marin @meks @cdeleon_gitlab @dcroft @vincywilson
