@@ -27,7 +27,7 @@ Given the cross-functional nature of the [company OKRs](/handbook/company/okrs/#
 
 ### Project Criteria
 
-The CoS to the CEO and their team may work on projects that fit *any combination* of the following:
+The Chief of Staff (CoS) to the CEO and their team may work on projects that fit *any combination* of the following:
 
 1. projects which build or improve organizational design, infrastructure, and operations
 1. cross-functional projects that need ownership until a maintainer or exit criteria is identified
@@ -309,7 +309,6 @@ Once a project or initiative to Shadow has been identified and the team member d
 - [Strategy & Operations Job Family]({{< ref strategy-and-operations >}})
 - [GitLab Strategy and Operations (Workplace) Team Handbook]({{< ref workplace >}})
 - [Performance Indicators]({{< ref performance-indicators >}})
-- CoS to the CEO = Chief of Staff to the CEO
 - [GitLab Team Project](https://gitlab.com/gitlab-com/ceo-chief-of-staff-team/cos-team)
 - [Team READMEs]({{< ref readmes >}})
 
