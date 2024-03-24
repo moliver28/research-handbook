@@ -67,13 +67,13 @@ flowchart TD
     failure_issue_created[Failure issue created]
     test_session_report[Failure issue surfaces on\ntest session report and Slack]
     manual_triage_flow[Manual Triage Flow]
-    blocking_check{Failed test\nwas blocking\nor reliable?}
-    nightly_or_master_check{Failure was\non master\nor nightly\npipeline?}
+    blocking_check{Failed test\nis blocking\nor reliable?}
+    nightly_or_master_check{Failure is\non master\nor nightly\npipeline?}
     surface_on_relaible_report[Failure issue surfaces\non reliable test report]
     one_percent_failure_check{Test failed\nin more than\n1% of runs?}
     failure_issue_open_check{Failure\nissue\nis open?}
     test_environment_related_check{Failure is\nenvoronment\nrelated?}
-    create_mr_for_quarantine[Create MR for quarantine]
+    create_mr_for_quarantine[MR auto created for quarantine]
     no_action[No action needed]
 
     test_fails --> failure_in_mr_check
