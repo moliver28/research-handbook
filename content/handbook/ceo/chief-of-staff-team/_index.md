@@ -40,7 +40,7 @@ This is not an exhaustive list of the types of work the Office of the CEO might 
 #### Many Functional
 
 GitLab is a [functional organization](/handbook/leadership/#no-matrix-organization), which means the [people are organized by function](https://comp-calculator.gitlab.net/org_chart).
-When a project arises between three or more Departments, Office of the CEO team members can help with planning and execution.
+When a cross-functional project arises between multiple different Departments, Office of the CEO team members may be included to help with the planning and execution.
 In many cases, a member of the Office of the CEO will be the [directly responsible individual (DRI)](/handbook/people-group/directly-responsible-individuals/) for the project.
 Whether it's a product feature proposal, a new initiative roll-out, or questions from the board, the Office of the CEO is the group that can be trusted to get things done, get them done quickly, and get them done right.
 
