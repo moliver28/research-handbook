@@ -71,6 +71,8 @@ We describe the following personas in terms of the jobs they do, their motivatio
   1. [Isaac, Infrastructure Security Engineer](/handbook/product/personas/#isaac-infrastructure-security-engineer)
   1. [Alex, Security Operations Engineer](/handbook/product/personas/#alex-security-operations-engineer)
   1. [Cameron, Compliance Manager](/handbook/product/personas/#cameron-compliance-manager)
+  1. [Daphne, Data Scientist](/handbook/product/personas/#daphne-data-scientist)
+  1. [Mia, ML Engineer](/handbook/product/personas/#mia-ml-engineer)
 
 #### Personas across stages
 
