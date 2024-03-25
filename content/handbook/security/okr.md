@@ -9,7 +9,7 @@ The Security organization executes quarterly [Objectives and Key Results or OKRs
 ### How We Plan, Assign, and Execute Work
 
 Four Mondays before the start of the fiscal quarter, in the days after the CEO shares OKRs with all of GitLab in the #okr channel, the CISO proposes OKRs for the Security Division in the OKR draft review meeting agenda for a maximum of 5 objectives. Security leaders are to propose draft OKRs to the CISO prior to the meeting for inclusion.
-From FY24 Q1 forward all Security OKRs are documented in the [GitLab OKR project](https://gitlab.com/gitlab-com/gitlab-OKRs). For easy filtering, all Security Objective and KR issues have [Label = Division: Security](https://gitlab.com/gitlab-com/gitlab-OKRs/-/issues/?sort=created_date&state=opened&label_name%5B%5D=Division%3A%20Security&first_page_size=100) applied.
+From FY24 Q1 forward all Security OKRs are documented in the [GitLab OKR project](https://gitlab.com/gitlab-com/gitlab-OKRs). For easy filtering, all Security Objective and KR issues have the [division::Security](https://gitlab.com/gitlab-com/gitlab-OKRs/-/issues/?label_name%5B%5D=division%3A%3ASecurity) label applied.
 
 Larger initiatives that span the scope of multiple teams or projects may require a [Working Group]({{< ref "/handbook/company/working-groups" >}}).
 
