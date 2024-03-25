@@ -1114,7 +1114,7 @@ The complete list of Marketing Channel Partners are identified in SFDC [here](ht
 
 ## FMM/CAM alignment
 
-| Region | FMM | CAM |
+| Region | FMM | PTM |
 | ------ | ------ | -------------- |
 | AMER East & Canada | Beth Parker | Maria Henry |
 | AMER South Central & LATAM | Jonathan Santiago | Rodrigo Rios - LATAM and Joe McAninch - Central |
@@ -1123,8 +1123,8 @@ The complete list of Marketing Channel Partners are identified in SFDC [here](ht
 | AMER Public Sector | Kira Aubrey | Chris Novello|
 | APAC | Kate Baker | Dirk de Vos |
 | APAC - Japan | Shu Kawaguchi |  |
-| EMEA Southern Europe | Marcus Hall (Juliette Francon on Mat Leave) | Tristan Ouin |
-| EMEA MEA | Marcus Hall (Juliette Francon on Mat Leave) | TBD |
+| EMEA Southern Europe | Marcus Hall & Juliette Francon | Tristan Ouin |
+| EMEA MEA | Marcus Hall & Juliette Francon | TBD |
 | EMEA Northern Europe | Neha Pujari| Michal Kulakowski |
 | EMEA UK/I | Neha Pujari | TBD |
 | EMEA Central Europe | Sarina Kraft | Ilaria Pazienza |
