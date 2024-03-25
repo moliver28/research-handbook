@@ -15,7 +15,7 @@ The People Group works together to establish a high performance and results driv
 
 We support a culture that enables people to do their best work and advance their careers while fully contributing to advancing GitLab’s business results. We hire, promote, and recognize team members who best live our values.
 
-The People Group strategy is to set the foundation for GitLab’s 3 year strategy through a focus on attracting and retaining diverse talent, creating a high performance culture with a focus on efficiency and quality results, driving divisional success through talent programs, and cultivating an equitable and inclusive culture.
+The People Group strategy is to set the [foundation for GitLab’s 3 year strategy](https://internal.gitlab.com/handbook/company/three-year-strategy/) through a focus on attracting and retaining diverse talent, creating a high performance culture with a focus on efficiency and quality results, driving divisional success through talent programs, and cultivating an equitable and inclusive culture.
 
 We’ve published more information about how this vision translates to strategy and OKRs for GitLab team members in this [internal-only presentation](https://docs.google.com/presentation/d/1CIRrqh0aum40L7g4MCMFaTR_mu0jG4gJot8ds6rxUrc/edit#slide=id.g2bff70f3fe6_1_691).
 
