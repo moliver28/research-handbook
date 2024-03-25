@@ -13,9 +13,7 @@ Be sure to read GitLab's [guidelines to effective and responsible communication]
 
 ## Tips for better writing
 
-Writing is a skill which can be learned. *Great* writing involves mastering proven principles and understanding how narratives influence thoughts and actions. Below, we've documented a series of principles which are commonly linked to writing procedures at Amazon, but are useful approaches for anyone communicating in a professional setting.
-
-{{% tweet user="alexgarcia_atx" id="1439597358698807312" %}}
+Writing is a skill which can be learned. *Great* writing involves mastering proven principles and understanding how narratives influence thoughts and actions. Below, we've documented a series of principles which are commonly linked to writing procedures at Amazon (source: [Alex Garcia's twitter thread](https://twitter.com/alexgarcia_atx/status/1439597358698807312)), but are useful approaches for anyone communicating in a professional setting.
 
 1. **Use short sentences**. Ideally, sentences should have fewer than 15 words. This improves clarity. The [Hemingway Editor](https://hemingwayapp.com/) helps achieve this.
 1. **Cut common phrases**. Example: replace "due to the fact" with "because."

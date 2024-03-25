@@ -60,8 +60,6 @@ There are generally three tiers of camera quality for at-home workspaces (profes
 
 #### Mirrorless or DSLR camera
 
-{{% tweet user="chrisgetsbetter" id="1243620518281928705" %}}
-
 For optimal image quality in video calls, a dedicated mirrorless camera or DSLR is the ideal. *The Verge* maintains a [basic setup guide](https://www.theverge.com/21244380/webcam-camera-how-to-dslr-mirrorless-capture-card-usb-hdmi) if you're new to the concept. Sony's Alpha line of mirrorless cameras are excellent for webcam use. However, these types of cameras and their accessories can be very expensive, and may not be right for everyone's needs. Before committing, read the following considerations.
 
 1. Make sure your camera supports constant AC power (typically via micro-USB). If not, order a dummy adapter which slots in your battery compartment.
@@ -188,8 +186,6 @@ While some remote workers prefer to [bounce around](https://about.gitlab.com/blo
 Generally, a larger desk is preferred, as it reduces crowding. A clean, uncrowded desk is a happier place to work from.
 
 #### Standing desks
-
-{{% tweet user="jake_burden_" id="1333471036474597377" %}}
 
 An adjustable standing desk is a great, ergonomic option. You can find standing desks at a variety of price points, heights, adjustability levels, and more. An adjustable desk allows you to easily move your desk higher in order to stand while working, and then adjust it back down to sit for a time. This is a good article on [The Best Standing Desks](https://thewirecutter.com/reviews/best-standing-desk) in higher price ranges.
 
