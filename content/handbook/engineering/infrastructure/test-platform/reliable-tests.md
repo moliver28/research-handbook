@@ -36,7 +36,7 @@ only smoke tests will be run during the release process.
 
 Tests are selected for promotion by a weekly automated script that uses the data produced by reliable test report.
 
-- Criteria: 14 consecutive days of success and top 10 in run frequency.
+- Criteria: 14 consecutive days of success and top 10 in run frequency in master or nightly pipelines
 - The process involves generating MRs for the top-performing tests and assigning them for review by counterpart SET for
   the DevOps stage of the test as a DRI.
 - A test should ideally not be promoted manually without it being identified in the reliable test report. However, if a
