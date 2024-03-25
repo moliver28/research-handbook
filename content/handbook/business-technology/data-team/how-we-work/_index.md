@@ -117,8 +117,8 @@ Beginning in FY25-Q1, the Data Team is using the [GitLab Objectives and Key Resu
 Process:
 1. Create KRs in the project for each of the committed Key Results.
 2. In the KR description, add a link to the corresponding Epic from the GitLab Data Team project where the development work is being tracked. 
-At the end of each month in the quarter or if/when applicable, the DRI for the workstream should make the following updates: 
-    - Add a comment outlining what work has been completed, and what work is remaining, to complete the KR.
+3. Throughout the quarter, the DRI for the workstream should make the following updates (at a minimum, these updates should be added at the end of each month in the quarter for the KRs that have the `Division::` scoped label applied to them; some teams may choose to make updates more frequently): 
+    - Add a comment outlining what work has been completed, and what work is remaining to complete the KR.
     - Update the % complete field on the KR.
     - Update the Health Status field to indicate whether the KR is `On Track`, `Needs Attention`, or `At Risk`.
 
