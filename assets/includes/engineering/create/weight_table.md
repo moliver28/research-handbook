@@ -6,4 +6,3 @@
 | 4: Large | Features that are well understood, but known to be hard. A solution will be outlined, and major edge cases will be considered, but extra investigation will definitely be required to realize the solution. Many surprises are expected, and coordination with other teams or people is likely required.<br><br>Bugs that are very poorly understood, and will not have a suggested solution. Significant investigation will be required, and once the problem is found, a solution may not be straightforward.<br><br>Examples are large features with a backend and frontend component, or bugs or performance issues that have seen some initial investigation but have not yet been reproduced or otherwise "figured out". |
 | 5: Unknown | A feature that is weight 5 will not be scheduled and instead should be broken down or a spike scheduled |
 
-A weight of 5 generally indicates the problem is not clear or a solution should be instead converted to an Epic with sub-issues.
