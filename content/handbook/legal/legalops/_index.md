@@ -43,9 +43,9 @@ The purpose of this process is to streamline receiving and tracking invoices and
 
 This process is designed to enable LACA team members to submit requests related to attending events/conferences, furthering development, or purchasing tools/software funded by LACA. This process does not apply to [equipment](https://handbook.gitlab.com/handbook/finance/expenses/#equipment), [Individual Use Software](https://handbook.gitlab.com/handbook/finance/procurement/personal-use-software/) or other personal reimbursement requests.
 - All expenses / reimbursements must be in accordance with [GitLab's Travel & Expense Policy](https://handbook.gitlab.com/handbook/finance/expenses/).
-- Regardless of the type of expenditure, all requests for use of LACA funds requires approval from applicable stakeholders within the LACA Expenditure Request Issue Template.
+- Regardless of the type of expenditure, all requests for use of LACA funds require approval from applicable stakeholders within the LACA Expenditure Request Issue Template.
 - Requests must be submitted, (i) no less than ninety (90) days prior to the event/purchase request date, and (ii) no more than once per year.
-- For conferences or development reqeusts, team members are expected to share materials and insight with others within LACA (and GitLab).
+- For conferences or development requests, team members are expected to share materials and insight with others within LACA (and GitLab).
 
 #### Types of Expenditures
 
