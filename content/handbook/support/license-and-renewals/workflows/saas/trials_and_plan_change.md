@@ -71,8 +71,6 @@ If a customer is requesting a trial extension, please follow [Working with Sales
 
 ### SFDC generated temporary renewal extensions
 
-**Note:** The [Temporary renewal extensions functionality](/handbook/product/fulfillment-guide/#temporary-renewal-extensions), intended to be used by the Sales Team, is currently in **BETA status**, and only a few individuals have access to try it.  Please do not use the `Deviation from GitLab.com Subscription Extension Workflow` macro until the beta period has ended.  The functionality is tentatively scheduled for general availability in the first half of March 2024.
-
 Account Executives (AEs) can use SalesForce.com (SFDC) to issue a SaaS 21-day Subscription extension to a customer when the renewal opportunity is taking longer than expected to close. When an AE uses this functionality, the subscription is automatically extended without any L&R Support involvement. The [Temporary renewal extensions](/handbook/product/fulfillment-guide/#temporary-renewal-extensions) handbook entry documents this approach.
 
 Please note that the above approach has the following caveats:
