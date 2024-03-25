@@ -620,6 +620,10 @@ Once the report is downloaded (or the event/tactic has ended and all swag has be
 
 # Field Marketing Swag
 
+## Brand Details for Swag and Event Assets
+
+For information regarding Brand support, please visit the [Brand Creative Handbook Page](/handbook/marketing/brand-and-product-marketing/design/). Templates for requesting design/brand support are located [here](/handbook/marketing/brand-and-product-marketing/design/#brand--marketing-design-issue-templates). You can also watch [this video](https://www.youtube.com/watch?v=bBzasucNkh0) (must be logged into GitLab Unfiltered) regarding Brand templates and repos for previous and current brand designs.
+
 ## AMER Field Marketing Swag
 
 The AMER Field Marketing team utilizes GitLab's swag and fulfillment vendor [Boundless](https://www.boundlessnetwork.com/), and their contracted warehouse, [A51 Logistics](https://a51logistics.weebly.com/) for all of our swag and event asset requirements. Boundless is available to produce, ship and store swag and event assets.
@@ -658,7 +662,7 @@ It is the FMM’s responsibility to not only ship assets to events, but to also 
 
 **PLEASE NOTE:** Trash should not be put into the return shipping boxes. All event assets are to be packed up cleanly and securely in their original boxes. All tool kit items should be returned to the tool kits for future event use. Do not send small numbers of swag back to the warehouse if the items were bundled. Only send full bundles back to the warehouse for restock. Example: If pens come in bundles of ten, please do not send back 2 pens as these cannot be rebundled. Feel free to keep small quantities of extra swag to give out to customers, if appropriate. Also, only open swag bundles as they are needed so items can be returned if not used. If you have any questions, please contact `@krogel`.
 
-### A51 Logistics Warehouse Address
+#### A51 Logistics Warehouse Address
 
 A51 Logistics
 Account: GitLab
