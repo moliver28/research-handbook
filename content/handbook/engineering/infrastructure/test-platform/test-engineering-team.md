@@ -88,5 +88,3 @@ We estimate every task during iteration planning.
 [Data Science section]: /handbook/product/categories/#data-science-section
 [ModelOps]: /handbook/product/categories/#modelops-stage
 [AI-powered]: /handbook/product/categories/#ai-powered-stage
-[Core Platform section]: /handbook/product/categories/#core-platform-section
-[Manage]: /handbook/product/categories/#manage-stage
