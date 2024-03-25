@@ -34,7 +34,7 @@ Tip: After setup, if you don’t see the Wi-Fi status icon in the menu bar, you 
 
 #### Apple ID
 
-- We recommend creating a new Apple ID for GitLab to keep your personal and work data separate. You can also reimburse apps using an Apple ID created with your GitLab account. Your Apple ID consists of an email address and a password. It’s the account you use for everything you do with Apple—including using the App Store, Apple TV app, Apple Book Store, iCloud, Messages, and more.
+- Please create a new Apple ID for GitLab using your @gitLab.com email address to keep your personal and work data separate. You can also reimburse apps using an Apple ID created with your GitLab account. Your Apple ID consists of an email address and a password. It’s the account you use for everything you do with Apple—including using the App Store, Apple TV app, Apple Book Store, iCloud, Messages, and more.
 
 #### Initial Setup Part 2
 
