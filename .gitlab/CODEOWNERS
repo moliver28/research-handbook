@@ -601,25 +601,25 @@
 /.gitlab/ @gitlab-com/ceo-chief-of-staff-team @gitlab-com/content-sites @gitlab-com/egroup
 
 [handbook-operations]
-/.editorconfig @gitlab-com/content-sites @gitlab-com/egroup @gitlab-com/content-sites/handbook-backend
-/.gitignore @gitlab-com/content-sites @gitlab-com/egroup @gitlab-com/content-sites/handbook-backend
-/.gitlab-ci.yml @gitlab-com/content-sites @gitlab-com/egroup @gitlab-com/content-sites/handbook-backend
-/.idea/ @gitlab-com/content-sites @gitlab-com/egroup @gitlab-com/content-sites/handbook-backend
-/.markdownlint-cli2.jsonc @gitlab-com/content-sites @gitlab-com/egroup @gitlab-com/content-sites/handbook-backend
-/.nova/ @gitlab-com/content-sites @gitlab-com/egroup @gitlab-com/content-sites/handbook-backend
-/.vscode/ @gitlab-com/content-sites @gitlab-com/egroup @gitlab-com/content-sites/handbook-backend
-/config/ @gitlab-com/content-sites @gitlab-com/egroup @gitlab-com/content-sites/handbook-backend
-/content/_index.html @gitlab-com/content-sites @gitlab-com/egroup @gitlab-com/content-sites/handbook-backend
-/content/featured-background.png @gitlab-com/content-sites @gitlab-com/egroup @gitlab-com/content-sites/handbook-backend
-/CONTRIBUTING.md @gitlab-com/content-sites @gitlab-com/egroup @gitlab-com/content-sites/handbook-backend
-/go.mod @gitlab-com/content-sites @gitlab-com/egroup @gitlab-com/content-sites/handbook-backend
-/go.sum @gitlab-com/content-sites @gitlab-com/egroup @gitlab-com/content-sites/handbook-backend
-/layouts/ @gitlab-com/content-sites @gitlab-com/egroup @gitlab-com/content-sites/handbook-backend
-/LICENCE @gitlab-com/content-sites @gitlab-com/egroup @gitlab-com/content-sites/handbook-backend
-/package-lock.json @gitlab-com/content-sites @gitlab-com/egroup @gitlab-com/content-sites/handbook-backend
-/package.json @gitlab-com/content-sites @gitlab-com/egroup @gitlab-com/content-sites/handbook-backend
-/README.md @gitlab-com/content-sites @gitlab-com/egroup @gitlab-com/content-sites/handbook-backend
-/scripts/ @gitlab-com/content-sites @gitlab-com/egroup @gitlab-com/content-sites/handbook-backend
+/.editorconfig @gitlab-com/content-sites @gitlab-com/content-sites/handbook-backend
+/.gitignore @gitlab-com/content-sites @gitlab-com/content-sites/handbook-backend
+/.gitlab-ci.yml @gitlab-com/content-sites @gitlab-com/content-sites/handbook-backend
+/.idea/ @gitlab-com/content-sites @gitlab-com/content-sites/handbook-backend
+/.markdownlint-cli2.jsonc @gitlab-com/content-sites @gitlab-com/content-sites/handbook-backend
+/.nova/ @gitlab-com/content-sites @gitlab-com/content-sites/handbook-backend
+/.vscode/ @gitlab-com/content-sites @gitlab-com/content-sites/handbook-backend
+/config/ @gitlab-com/content-sites @gitlab-com/content-sites/handbook-backend
+/content/_index.html @gitlab-com/content-sites @gitlab-com/content-sites/handbook-backend
+/content/featured-background.png @gitlab-com/content-sites @gitlab-com/content-sites/handbook-backend
+/CONTRIBUTING.md @gitlab-com/content-sites @gitlab-com/content-sites/handbook-backend
+/go.mod @gitlab-com/content-sites @gitlab-com/content-sites/handbook-backend
+/go.sum @gitlab-com/content-sites @gitlab-com/content-sites/handbook-backend
+/layouts/ @gitlab-com/content-sites @gitlab-com/content-sites/handbook-backend
+/LICENCE @gitlab-com/content-sites @gitlab-com/content-sites/handbook-backend
+/package-lock.json @gitlab-com/content-sites @gitlab-com/content-sites/handbook-backend
+/package.json @gitlab-com/content-sites @gitlab-com/content-sites/handbook-backend
+/README.md @gitlab-com/content-sites @gitlab-com/content-sites/handbook-backend
+/scripts/ @gitlab-com/content-sites @gitlab-com/content-sites/handbook-backend
 
 ## Controlled Documents must be in this section, and it must be the last section
 [Controlled-Documents]
@@ -629,7 +629,6 @@
 /content/handbook/business-technology/end-user-services/onboarding-access-requests/endpoint-management/ @NabithaRao @ericrubin @mbeee @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/business-technology/end-user-services/self-help-troubleshooting/ @NabithaRao @ericrubin @mbeee @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/business-technology/gitlab-business-continuity-plan.md @brobins @cmestel @NabithaRao @gitlab-com/egroup @gitlab-com/content-sites
-/content/handbook/editing-handbook/frontmatter.md @gitlab-com/ceo-chief-of-staff-team @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/engineering/infrastructure/change-management.md @marin @meks @joergheilig @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/engineering/infrastructure/database/disaster-recovery.md @marin @meks @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/engineering/infrastructure/network-security.md @marin @meks @gitlab-com/egroup @gitlab-com/content-sites
@@ -674,3 +673,5 @@
 /content/handbook/security/threat-management/vulnerability-management/encryption-policy.md @smanzuik @estrike @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/security/token-management-standard.md @joshlemos @jlongo_gitlab @juliedavila @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/security/security-assurance/security-and-technology-policies-management.md @tdilbeck @corey-oas @lcoleman @jlongo_gitlab @cynthiamiller @gitlab-com/egroup @gitlab-com/content-sites
+### This is not a controlled doc however it mentions how to make a page a controlled doc, so this line is required for validation. See issue#213 for excluding this.
+/content/handbook/editing-handbook/frontmatter.md @gitlab-com/ceo-chief-of-staff-team @gitlab-com/egroup @gitlab-com/content-sites
