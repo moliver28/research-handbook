@@ -1168,7 +1168,7 @@ mypy extract/ --ignore-missing-imports
 ##### flake8
 
 Your tool for style guide enforcement:
-[**Flake8**]((https://flake8.pycqa.org/en/latest/)) is a popular lint wrapper for python. Under the hood, it runs three other tools and combines their results: pep8 for checking style. pyflakes for checking syntax. mccabe for checking complexity.
+[**Flake8**](https://flake8.pycqa.org/en/latest/) is a popular lint wrapper for python. Under the hood, it runs three other tools and combines their results: pep8 for checking style. pyflakes for checking syntax. mccabe for checking complexity.
 
 ```bash
 flake8 . --ignore=E203,E501,W503,W605
