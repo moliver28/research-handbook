@@ -7,7 +7,7 @@ description: >-
 
 ## Welcome
 
-Welcome to the People Group handbook! You should be able to find answers to most of your questions here. 
+Welcome to the People Group handbook! You should be able to find answers to most of your questions here.
 
 ## People Group Vision
 
