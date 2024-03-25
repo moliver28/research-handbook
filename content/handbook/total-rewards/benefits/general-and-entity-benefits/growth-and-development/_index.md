@@ -7,7 +7,7 @@ description: A description of programs and resources for team members to access 
 
 At GitLab, team members have access to the [Growth and Development Fund](https://handbook.gitlab.com/handbook/total-rewards/benefits/general-and-entity-benefits/#growth-and-development-benefit) to access external resources to develop their career.
 
-GitLab team-members are eligible for a reimbursement of up to $10,000 USD per calendar year (January 1st - December 31st) depending on tenure, performance, company need for the learned skill, and available budget. A course/program is considered to be included in the calendar year in which the course/program is paid/reimbursed (which should also be the same calendar year in which it ends). If a course/program ends in December, team members have a grace period until the end of January to claim for Growth & Development reimbursements from the previous calendar year.
+GitLab team-members can reimburse the cost of any eligible Growth and Development opportunities per calendar year. The eligibility of an opportunity and the team member depend on tenure, performance, company need for the learned skill, and available budget. Spend per team member is tracking against the calendar year. A course/program is considered to be included in the calendar year in which it is paid/reimbursed (which should also be the same calendar year in which it ends). If a course/program ends in December, team members have a grace period until the end of January to claim for Growth & Development reimbursements from the previous year.
 
 Budget estimations for the Growth & Development Fund are based on utilization rates from past years, adjusted for the size of the company. The budget is managed on a company-wide scale, not division-specific. For example, approving reimbursement for a team member in Engineering does not “take away” budget from other engineers. Eligibility is managed on an individual basis. Eligibility for the fund is part of each GitLab team member’s Total Rewards package.
 
@@ -45,7 +45,7 @@ The application process is visible internally. If there is any reason that you w
 Cost Tiers Approval:
 - Manager Approval (with VP's made aware on the issue): $0-$1000
 - Manager + VP Approval: $1000.01 - $5000
-- Manager + eGroup Approval for any spend $5000.01 - $10,000 (Apart from Sales, where VPs can approve $5000.01 - $10,000 spend)
+- Manager + eGroup Approval for any spend $5000+ (Apart from Sales, where VPs can approve $5000+)
 
 Once the manager has approved, there is no further action to be taken by the manager. They can unassign themselves to the issue if they wish.
 
