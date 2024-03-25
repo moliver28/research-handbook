@@ -413,7 +413,7 @@ The company will cover all work-related travel expenses. This includes lodging a
 - Monthly service charges for the internet are reimbursable, but GitLab will not reimburse for any initial setup, equipment, change fees, or monthly insurance charges.
 - Please expense internet costs monthly, reflecting current charges only (even if you pay by a different cadence).
 - For Team Members in the Netherlands:
-   - If you have not already completed the form as part of onboarding with our Netherlands payroll provider, fill in and sign the Regeling Internet Thuis form and send it to the HRSavvy team at payroll@savvy-group.eu. Please do not expense your Internet costs via Navan - these will be rejected.
+   - If you have not already completed the form as part of onboarding with our Netherlands payroll provider, fill in and sign [the Regeling Internet Thuis form](https://docs.google.com/document/d/1J70geARMCjRt_SfxIY6spdfpTbv_1v_KDeJtGRQ6JmM) and send it to the HRSavvy team at payroll@savvy-group.eu. Please do not expense your Internet costs via Navan - these will be rejected.
    - If your address changes or the amount changes, please send a new form to the HRSavvy team, along with the invoice/letter for processing.
 - This is a taxable expense for GitLab Ltd. United Kingdom Team Members assuming that the internet connection is used partially for personal use as well as business use.
 - Policy is set at $80, anything over that amount will still be considered for approval as we know there are exceptions, and will be checked and approved on an individual basis depending on the user's circumstances, i.e. location etc.
