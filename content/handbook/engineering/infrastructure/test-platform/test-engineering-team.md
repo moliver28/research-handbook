@@ -28,7 +28,7 @@ Engineering Manager: Ksenia Kolpakova
 | 5    	| [Core Development]      | [CD section]     	      | [Deploy]      | -                  | 
 | 6     | [Expansion Development] | [Sec section]    	      | [Secure]      | Will Meek          |
 | 7     | [Expansion Development] | [Sec section]           | [Govern]      | Harsha Muralidhar  |
-| 10    | [Expansion Development] | [Fulfillment section]   | [Fulfillment] | Valerie Burton     |
+| 8    | [Expansion Development] | [Fulfillment section]   | [Fulfillment] | Valerie Burton     |
 | 8    | [Expansion Development] | [Fulfillment section]   | [Fulfillment] | Richard Chong      |
 | 9    | [Expansion Development] | [Data Science section]  | [ModelOps]    | -                  |
 | 10    | [Expansion Development] | [Data Science section]  | [AI-powered]  | Ramya Authappan    |
