@@ -112,7 +112,7 @@ Our customers choose SaaS because it reduces their operating costs, helps them a
 - Design features so that they can be implemented in SaaS without downtime. If each team does a rearchitecture once every 2 years that requires downtime, then, as of this writing, it would imply 20 downtimes a year.
 - Involve infrastructure team early in your design process to ensure that not only is there no downtime, but that the deployment to SaaS can be low toil.
 
-SaaS First does not mean SaaS only. For more information on parity between SaaS and self-managed, see our parity principle: #parity-between-saas-and-self-managed-deployments
+SaaS First does not mean SaaS only. For more information on parity between SaaS and self-managed, see our ["Parity between SaaS and Self-managed deployments"](#parity-between-saas-and-self-managed-deployments) principle.
 
 #### Feedback issues
 
