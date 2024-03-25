@@ -86,7 +86,7 @@ A core problem with synchronous communication is the perception of deadlines. Wh
 
 [Sahil Lavingia](https://twitter.com/shl), founder/CEO at [Gumroad](https://gumroad.com/), shares powerful benefits his company realized in going fully asynchronous.
 
-From [their tweet thread](https://twitter.com/shl/status/1222545212477599751):
+From [their X (Twitter) thread](https://twitter.com/shl/status/1222545212477599751):
 
 > All communication is thoughtful. Because nothing is urgent (unless the site is down), comments are made after mindful processing and never in real-time. There's no drama.
 >

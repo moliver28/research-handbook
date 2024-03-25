@@ -19,7 +19,7 @@ On this page, we're curating important historical moments and milestones that ha
 >
 > The instrument? A man will be able to carry one in his vest pocket."
 
-Source: [Garry Tan on Twitter](https://twitter.com/garrytan/status/1161083440130691072)
+Source: [Garry Tan on X (Twitter)](https://twitter.com/garrytan/status/1161083440130691072)
 
 In a 1926 issue of [Collier's](http://www.tfcbooks.com/tesla/1926-01-30.htm) magazine, Tesla shared a number of predictions for the future. In forecasting a telephone which could be carried in one's vest pocket, he also alluded to wireless communications that would become the foundation for enabling conditions suitable for an all-remote company to thrive. A portion of the interview is below.
 
