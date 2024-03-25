@@ -1,6 +1,6 @@
 ---
 title: "Test Platform Sub-Department"
-description: "Test Platform Sub-Department enables successful development and deployment of high quality GitLab software applications by providing innovative build automated solutions, reliable tooling, refined test efficiency, adequate test coverage and fostering an environment where Quality is Everyone's responsibility."
+description: "Test Platform Sub-Department enables successful development and deployment of high quality GitLab software applications by providing innovative build automated solutions, reliable tooling, refined test efficiency, and fostering an environment where Quality is Everyone's responsibility."
 ---
 
 ## Child Pages
