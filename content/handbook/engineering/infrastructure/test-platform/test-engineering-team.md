@@ -52,18 +52,21 @@ Here is an [overview](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/658
 
 #### Issue weights 
 
-We estimate every task during iteration planning.
+We estimate every task during iteration planning. Our weighting strategy is based on [Test Platform Weighting](https://handbook.gitlab.com/handbook/engineering/infrastructure/test-platform/#weights) 
 
 | Weight | Description | Approximate time | Example issues | 
 |--------|-------------|------------------|----------------|
-| 1    	 | Small       | ~1 day    	      | TBD | 
-| 3      | Medium      | ~3 days      	  | TBD |
-| 8    	 | Large       | ~1-2 weeks    	  | TBD |
+| 1    	 | Trivial     | ~1 hour    	  | TBD | 
+| 2      | Small       | ~0.5-1 day       | TBD |
+| 3    	 | Medium      | ~3 days    	  | TBD |
+| 5    	 | Large       | ~1 week    	  | TBD |
+| 8    	 | X-Large     | ~2 weeks    	  | TBD |
+| 13+    | XXL         | >>2 weeks    	  | TBD |
 
 - Approximate  time estimate - is time spent actively working on the issue: from design to requesting the review   
-- Tasks that take less than 4 hours might also have corresponding issues, but it is not mandatory 
-- Large tasks have to be broken down into smaller items 
-- Work that is larger than Large has to be broken down into smaller tasks and might require creating Spike issue first
+- It is not manadatory to create Trivial tasks 
+- Consider breaking down Large tasks into smaller items 
+- XL and XXL tasks has to be broken down into smaller tasks and might require creating Spike issue first
 
 
 [Core Development]: /handbook/engineering/core-development/
