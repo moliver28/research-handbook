@@ -6,7 +6,7 @@ controlled_document: true
 
 ## Purpose
 
-The Business Impact Analysis (BIA) helps determine the systems critical to serving GitLab's Customers. It also helps determine the prioritization of system restoration efforts in the event of a disruption.  The output of the BIA is the designation of a [Critical System Tier](/handbook/security/security-assurance/security-risk/storm-program/critical-systems/) (CST) for a new system.
+The Business Impact Analysis (BIA) helps determine the systems critical to serving GitLab's Customers.   The output of the BIA is the designation of a [Critical System Tier](/handbook/security/security-assurance/security-risk/storm-program/critical-systems/) (CST) for a new system. The CST aids Security Compliance in Scoping and is also available to help business owners determine the prioritization of system restoration efforts in the event of a disruption.
 
 **Note:** In adjacent to the BIA, questions may be asked to satisfy [global privacy regulation requirements](/handbook/legal/privacy/privacy-laws.html#gdpr) pertaining to a system's [Personal Data]({{< ref "data-classification-standard#data-classification-definitions" >}}) processing.
 
@@ -28,11 +28,11 @@ The BIA procedure covers all new systems to be added to GitLab's [Tech Stack](/h
 
 All requisitions in [Zip](https://handbook.gitlab.com/handbook/finance/procurement/#how-to-start-the-procurement-process) that involve the use of a new system to collect, store, or transmit GitLab data require a BIA.  
 
-When creating this type of requisition, the Business/Technical Owner is prompted to answer two BIA questions:
+When creating this type of requisition, the Business/Technical Owner is prompted to answer two BIA questions at minimum:
 1. What is the impact of System disruption (System is unavailable)?
 2. Please describe the potential impact of System disruption. Specify any GitLab team(s) affected.
 
-The answers to these questions help the Security Risk Team designate a Critical System Tier for the new system during the [TPRM Assessment](/handbook/security/security-assurance/security-risk/third-party-risk-management/#tprm-assessment-requirements) process.
+The answers to these questions help the Security Risk Team designate a Critical System Tier for the new system during the [TPRM Assessment](/handbook/security/security-assurance/security-risk/third-party-risk-management/#tprm-assessment-requirements) process. Additional questions may be asked by Security Risk to validate the assignment of an appropriate CST.
 
 
 ### Quality Reviews
