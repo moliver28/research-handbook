@@ -192,9 +192,10 @@ Working in a truly global team means it's quite possible that nobody else works 
 
 It can be a great way to learn about a new place that you may not know about and is a great source of conversation topics for coffee chats.
 
-{{% tweet user="TheRealArty" id="1420903891764342786" %}}
+Examples:
 
-{{% tweet user="manoj_g33k" id="1379339796447784961" %}}
+1. [Arty's postcards board](https://twitter.com/TheRealArty/status/1420903891764342786)
+1. [Manoj sending 30+ postcards to 12 different countries](https://twitter.com/manoj_g33k/status/1379339796447784961)
 
 ## Coffee chats
 
