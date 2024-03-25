@@ -3,6 +3,9 @@ title: People Group
 description: >-
   The People Group at GitLab supports all GitLab team members through the complete
   team member lifecycle.
+ aliases:
+- /handbook/people-group/
+- /handbook/people-group/people-group-vision.md 
 ---
 
 ## Welcome
