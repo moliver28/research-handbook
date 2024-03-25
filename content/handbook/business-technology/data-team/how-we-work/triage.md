@@ -319,9 +319,16 @@ In a situation when gitlab_dotcom postgres replica snapshot is not built correct
 
 Follow the [runbook](https://gitlab.com/gitlab-data/runbooks/-/blob/main/Gitlab_dotcom/Gitlab_DB_recreation_failure.md) for the steps to perform, including communication.
 
+
+
 ### Automated service ping issue
 
 In a situation when [Service ping](/handbook/business-technology/data-team/data-catalog/saas-service-ping-automation/#service-ping-overview) fail while it generates metrics, we should be informed either via `Trusted data dashboard` or `Airflow` log - generally, the error log is stored in `RAW.SAAS_USAGE_PING.INSTANCE_SQL_ERRORS` table. Follow the instructions from the link [error-handling-for-sql-based-service-ping](/handbook/business-technology/data-team/data-catalog/saas-service-ping-automation/#error-handling-for-sql-based-service-ping) in order to fix the issue.
+
+
+### New metrics impact Automated Service Ping
+
+TODO
 
 ### Zuora Stitch Integration single or set of table-level reset
 
