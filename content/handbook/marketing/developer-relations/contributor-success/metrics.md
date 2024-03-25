@@ -22,7 +22,7 @@ To view the dashboard your browser must allow third-party cookies.
    - Identifies projects with contributions that are not being tracked yet
    - See [Contributing Orgs tracker](/handbook/marketing/developer-relations/contributor-success/contributing-org-tracker.html) for details
 
-## tableau dashboard
+## Tableau dashboard
 
 ### `product_community_contribution_mrs`
 
