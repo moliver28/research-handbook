@@ -668,7 +668,11 @@ Las Vegas, NV 89118
 
 ### Stickers
 
-For sticker orders, please utilize our [Stickermule](https://www.stickermule.com/) account. The login for Stickermule can be found in the Marketing 1pass. Delivery options and timelines are provided during the ordering process. Any new sticker designs must be approved by the Brand team for brand consistency. For new sticker design requests, please open a design issue using the design issue template [here](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/issues/new?issuable_template=request-design-general). Please note that we are currently not producing specialty Tanuki designs at this time.
+For sticker orders, please utilize our [Stickermule](https://www.stickermule.com/) account. The login for Stickermule can be found in the Marketing 1pass. Delivery options and timelines are provided during the ordering process. Any new sticker designs must be approved by the Brand team for brand consistency. For new sticker design requests, please open a design issue using the design issue template [here](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-design/-/issues/new?issuable_template=event-asset-request). Please note that we are currently not producing specialty Tanuki designs at this time.
+
+#### Sticker Budgeting and Tracking
+
+The AMER Field Marketing Team has a blanket PO for all Stickermules orders. The FMM placing the order will log into Stickermule (utilizing the Marketing 1pass), add the stickers needed to the cart, then contact their FMC to provide the total cost of the order. The FMC will then provide the Coupa Card information to use for payment (receipt is not required). The FMC will then add the total cost of the order to the appropriate month's forecast in the Stickermule Blanket PO line item in the ALL AMER plan in Allocadia (2505376).
 
 ### Print Collateral
 
@@ -1551,11 +1555,43 @@ Please note that there is a limit of $75 USD annually per person on customer spe
 
 ## Field Marketing Contract Requests
 
-In Field Marketing, the FMCs manage all [Zip requisitions](/handbook/business-technology/enterprise-applications/guides/zip-guide) for their regions. For contracts or invoices ready to submit for approval, the FMM will open an issue utilizing the [`Contract_Request`](https://gitlab.com/gitlab-com/marketing/field-marketing/issues/new?issuable_template=Contract_Request) template and follow the instructions to provide important details required before assigning to the regional FMC. SLA for FMC to complete the Contract Request issue is 3 business days from the date all needed info is filled out by the FMM in the Contract Request issue. FMM to leave a note if turnaround is urgent (FMCs have been averaging 1-2 business days currently).
+In Field Marketing, the FMCs manage all [Zip requisitions](/handbook/business-technology/enterprise-applications/guides/zip-guide) for their regions. For contracts or invoices ready to submit for approval, the FMM will open an issue utilizing the [`Contract_Request`](https://gitlab.com/gitlab-com/marketing/field-marketing/issues/new?issuable_template=Contract_Request) template and follow the instructions to provide important details required before assigning to the regional FMC. 
 
-## Field Marketing Procurement Details
+### SLAs
+The SLA for your FMC to submit your request to Zip/Coupa is **3 business days** from when they are assigned the contract request issue. Please keep in mind it generally takes a week+ to obtain all approvals and/or signatures during the procurement process (longer for more complicated contracts that may require redlines from legal), so please plan accordingly.
 
-[The Field Marketing Contract Request Template](https://gitlab.com/gitlab-com/marketing/field-marketing/issues/new?issuable_template=Contract_Request) noted above has detailed information regarding numerous aspects of the procurement process. Please make sure to reference this template with any questions. If you have any additional concerns or special cases not covered in the template's details, please reach out to your FMC to discuss in advance of submitting your contract request.
+### Contract Request Issue Re-use
+If you have an event that requires multiple contract requests, feel free to re-use your original contract request issue! Simply re-open the original request, copy the appropriate section that is needed for your new request, and add those fields with new details in a comment to your FMC. Please do not erase the original details from the request, though, as those details are often referenced.
+
+### Month Close
+Please Note: AP typically closes out the month by the third business day **before** the last day of the month (Day -3). Once AP closes the month, any charges under $5k (under $50k for swag/shipping) occuring via a credit card or invoice approvals will be reconciled the following month. The month close date will be announced each month in the `#allocadia_mktg-budget-holders` Slack channel and will also be added to the [Marketing Finance Dates Calendar](https://calendar.google.com/calendar/embed?src=c_j581mpq4tcn6bjojs1bqnl4eg0%40group.calendar.google.com&ctz=America%2FDenver).
+
+### Prepaid Policy
+Please make sure you have reviewed our company's [prepaid policy](/handbook/finance/accounting/#prepaid-expense-policy) and have forecasted your cost(s) correctly in Allocadia. 
+
+### Document Review
+Please make sure you have reviewed your document carefully (terms, sponsorship level, order details, cost, date, etc.) and have pre-filled the contract details required in the agreement *before* assigning the issue to your FMC.
+
+### Signature Authority
+GitLab team members DO NOT have [signature authority](/handbook/company/authorization-matrix/expenses-and-signatures/#signature-authority---sales-and-vendor-contracts). This means that FMMs are not allowed to sign any legal documents pertaining to quotes, orders, contracts, BEOs, etc. If you have a document that requires a signature, please submit it in a contract request to your FMC to process through procurement.
+
+### Coupa Card Versus Navan Card
+This template is to be utilized for all contracts/orders/invoices that either require a signature/acceptance of terms and conditions and/or are over $5,000 in cost. If your order does not require a contract/signature and is under $5,000, you may utilize your [Navan credit card](/handbook/finance/accounts-payable/corp-credit-cards/) for payment. 
+
+### Coupa Card Limits
+Please be aware that your Coupa card limit is directly associated to the approved PO amount. We have a 10% overage on the card and if you try to charge more than 10% over the PO amount, the card will decline. If you require additional funds be added to the card limit, you will need to request your FMC submit a [PO Change Request](/handbook/business-technology/enterprise-applications/guides/zip-guide/#how-to-do-a-request-change) to increase the PO total and the card limit.  
+
+#### Coupa Card Max (Onboarding New Vendors)
+Please also note, we can only use Coupa cards for POs up to $25,000. Anything over $25,000 requires ACH payment and onboarding the vendor through Zip/Coupa. If you know you have an upcoming contract/payment over $25,000, please contact your FMC in advance so they can check to see if the vendor is currently in Zip/Coupa and if not, they can request the vendor be onboarded in advance by submitting a [Zip request](/handbook/business-technology/enterprise-applications/guides/zip-guide/#how-to-request-a-new-vendor). No contract is required to submit this request and an estimated cost can be provided. Please note in the title of the submission that the request is for new vendor onboarding only. For any questions, please reach out to your FMC. 
+
+### Invoices Under $5k
+If you have an [invoice under $5k](/handbook/finance/procurement/#-what-are-the-exceptions-to-the-po-policy) that does NOT require a signature or [procurement review](/handbook/legal/procurement-guide-collaborating-with-gitlab-legal/#when-is-legal-involved), we do not need to process through Zip/Coupa. In these cases, your FMC can simply submit the invoice directly via email to `ap@gitlab.com` for ACH payment (please note, the vendor must be in the system to process payment). Items that must be included in the email to AP: Approver name (FMC), Allocadia ID, and Department (Field Marketing). An example of this would be Boundless invoices under $5k. Boundless has been onboarded in our finance system, they do not require a signature on their invoices, and these invoices do not require a procurement review as they are under $5k. If you are unsure if your invoice falls under this category, please ask your FMC.
+
+### Various Charges on Coupa Card
+If you are submitting various charges for approval on a Coupa virtual card, please make sure you either provide the PDF contract/order/quote or, if ordering through an online portal, please include a screenshot of the items you need to order. Each separate order requires a supporting PDF or screenshot that shows the vendor name, items being ordered, and total cost. These requests will be reviewed during the procurement process and if approved, the Coupa card issued will cover all costs submitted. Only one Allocadia line item is required per Coupa card approved. For example, if you submit a contract request for booth, AV, and IT charges for a show that equal $3,000, you only need one Allocadia line item ID for all three charges and your plan/forecast number would equal $3,000.
+
+### F&B/AV/Additional Event Charges
+Since we often don't have the exact headcount for an event in advance, additional costs (such as AV, F&B, etc.) can be estimated for initial procurement approval. If your additional costs are included in the initial venue contract, please ask the venue to provide pricing for your estimated headcount in the contract (especially for F&B costs, so that you are not only submitting your F&B minimum). This will give us a baseline cost estimate for approval and your FMC will adjust the PO amount as needed, based on final cost (a PO change request will be issued for charges above 10% over the original PO amount). If your additional costs (catering, AV, etc.) are being provided by different vendors from the venue, please make sure you have separate Allocadia line items for those charges and also submit separate contract requests (if a contract is required by the vendors). If the vendor does not require a contract and charges are under $5,000, you can pay with your Navan card.
 
 ## Sourcing New Field Marketing Vendors
 
