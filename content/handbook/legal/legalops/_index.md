@@ -49,14 +49,14 @@ This process is designed to enable LACA team members to submit requests related 
 
 #### Types of Expenditures
 
-- Growth & Development: Team members can review the [Growth & Development Program](https://handbook.gitlab.com/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development/#growth-and-development-fund-eligibility) and review various options available to GitLab team members._Note: The program would not cover costs associated with travel & expenses, which would be allocated to the LACA budget._
+- Growth & Development: Team members can review the [Growth & Development Program](https://handbook.gitlab.com/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development/#growth-and-development-fund-eligibility) and  various options available to GitLab team members._Note: The program would not cover costs associated with travel & expenses, which would be allocated to the LACA budget._
 - Event / Conferences: Team members may wish to attend applicable events / conferences where they can learn more about a specific subject. Team members must complete the LACA Expenditure Request Issue Template and supply the necessary information.
 - Tools / Software: For requests related to new tools / software, a LACA Expenditure Request Issue Template is required.
 
 #### Expenditure Process Overview
 
 - LACA team members must first communicate their intended request with their manager.
-- If supported by the manager, the team member will complete the [LACA Expenditure Request Issue Template](https://gitlab.com/gitlab-com/legal-and-compliance/-/issues/new); _NOTE in "Description" select the "laca-travel-and-expense-request" template._
+- If supported by the manager, the team member will complete the [LACA Expenditure Request Issue Template](https://gitlab.com/gitlab-com/legal-and-compliance/-/issues/new) (under _Description_, select the "laca-travel-and-expense-request" template).
 - Included within the LACA Expenditure Request Issue Template are details that the team member must complete.
 - Upon being submitted, the request will be reviewed internally by LACA leadership.
 - If approved, the request will then be assigned to Finance to ensure applicable funds are available.
