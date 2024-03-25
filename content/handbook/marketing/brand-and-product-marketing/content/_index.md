@@ -95,13 +95,11 @@ Quick links
 
 *   [GitLab blog handbook](https://handbook.gitlab.com/handbook/marketing/blog/)
     
-*   Gated content process
+*   [Gated content process](https://handbook.gitlab.com/handbook/marketing/demand-generation/campaigns/content-in-campaigns/)
     
 *   [GitLab Content Style Guide](https://handbook.gitlab.com/handbook/marketing/brand-and-product-marketing/brand/content-style-guide/#brand-voice) 
-    
-*   Content library (on-page link)
-    
-*   How to work with us (on-page link) 
+        
+*   [How to work with us](https://handbook.gitlab.com/handbook/marketing/brand-and-product-marketing/content/#requesting-support)
     
 
 What is Content Strategy & Ops?
@@ -155,7 +153,7 @@ To create this content, **our team operates as both an editorial newsroom and in
 *   Reviewing customer-facing emails and other communications
     
 
-Learn more about the content types we work on on-page LINK >>>Learn more about requesting support on-page LINK >>>>>
+[Learn more about requesting support](https://handbook.gitlab.com/handbook/marketing/brand-and-product-marketing/content/#requesting-support)
 
 While the Content Strategy & Ops team produces a large amount of content, we are by no means the only content creators at GitLab. If you would like to collaborate with us on a content project, read more below! 
 
@@ -176,7 +174,7 @@ While the Content Strategy & Ops team produces a large amount of content, we are
     
     *   Examples: Quick-turn requests with minimal effort and few to no additional reviewers—updated wording on a landing page, email copy, small tweaks or repackaging of existing content 
         
-    *   If you have an immediate request that requires review by multiple stakeholders, follow this workflow. (On-page link to VP-level request>>) 
+    *   If you have an immediate request that requires review by multiple stakeholders, [follow the VP-level request workflow](https://handbook.gitlab.com/handbook/marketing/brand-and-product-marketing/content/#what-is-content-strategy--ops).
         
 *   Always-on Programs
     
