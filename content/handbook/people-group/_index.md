@@ -303,7 +303,6 @@ If you need support with a specific CultureAmp Survey, please complete this [iss
 ### Other People Group Links
 
 - [People Policy Directory]({{< ref "people-policies" >}})
-- [People Group Vision]({{< ref "people-group-vision" >}})
 - [Underperformance]({{< ref "underperformance" >}})
 - [Visas]({{< ref "visas" >}})
 - [Leadership handbook]({{< ref "leadership" >}})
