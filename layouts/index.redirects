@@ -183,3 +183,7 @@
 /handbook/support/workflows/troubleshooting_kubernetes.html /handbook/support/workflows/troubleshooting_kubernetes/
 /handbook/support/workflows/admin_note.html /handbook/support/workflows/admin_note/
 /handbook/legal/privacy/us-state-privacy-disclosure/ https://about.gitlab.com/privacy/us-state-privacy-rights-and-disclosures/
+
+# Customer Success
+/handbook/customer-success/csm/segment/scale/ /handbook/customer-success/csm/segment/cse/
+
