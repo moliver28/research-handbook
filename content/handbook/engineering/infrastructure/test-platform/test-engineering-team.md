@@ -65,7 +65,7 @@ We estimate every task during iteration planning.
 - Approximate  time estimate - is time spent actively working on the issue: from design to requesting the review   
 - Tasks that take less than 4 hours might also have corresponding issues, but it is not mandatory 
 - Large tasks have to be broken down into smaller items 
-- Work that is larger than Large has to be broken down into smaller tasks and might requre creating Spike issue first
+- Work that is larger than Large has to be broken down into smaller tasks and might require creating Spike issue first
 
 
 [Core Development]: /handbook/engineering/core-development/
