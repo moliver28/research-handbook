@@ -79,8 +79,6 @@ We estimate every task during iteration planning.
 [Sec section]: /handbook/product/categories/#sec-section
 [Secure]: /handbook/product/categories/#secure-stage
 [Govern]: /handbook/product/categories/#govern-stage
-[Growth section]: /handbook/product/categories/#growth-section
-[Growth]: /handbook/product/categories/#growth-stage
 [Fulfillment section]: /handbook/product/categories/#fulfillment-section
 [Fulfillment]: /handbook/product/categories/#fulfillment-stage
 [Data Science section]: /handbook/product/categories/#data-science-section
