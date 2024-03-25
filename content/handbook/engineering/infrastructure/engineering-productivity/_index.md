@@ -27,16 +27,16 @@ description: "The Engineering Productivity team increases productivity of GitLab
 
 ### Members
 
-| Team Members                                     |
-|------------------------------------------------- |
-| {{< member-by-name "Ethan Guo" >}} Acting Manager|
-| {{< member-by-name "Alina Mihaila" >}}           |
-| {{< member-by-name "David Dieulivol" >}}         |
-| {{< member-by-name "Jennifer Li" >}}             |
-| {{< member-by-name "Jen-Shin Lin" >}}            |
-| {{< member-by-name "Nao Hashizume" >}}           |
-| {{< member-by-name "Peter Leitzen" >}}           |
-| {{< member-by-name "Rémy Coutable" >}}           |
+| Team Members                                     | Role                                                |
+|------------------------------------------------- | --------------------------------------------------  |
+| {{< member-by-name "Ethan Guo" >}}               | Acting Engineering Manager                          |
+| {{< member-by-name "Alina Mihaila" >}}           | Senior Backend Engineer, Engineering Productivity   |
+| {{< member-by-name "David Dieulivol" >}}         | Senior Backend Engineer, Engineering Productivity   |
+| {{< member-by-name "Jennifer Li" >}}             | Senior Backend Engineer, Engineering Productivity   |
+| {{< member-by-name "Jen-Shin Lin" >}}            | Senior Backend Engineer, Engineering Productivity   |
+| {{< member-by-name "Nao Hashizume" >}}           | Senior Backend Engineer, Engineering Productivity   |
+| {{< member-by-name "Peter Leitzen" >}}           | Senior Backend Engineer, Engineering Productivity   |
+| {{< member-by-name "Rémy Coutable" >}}           | Principal Engineer, Infrastructure                  |
 
 
 ### Stable Counterpart
