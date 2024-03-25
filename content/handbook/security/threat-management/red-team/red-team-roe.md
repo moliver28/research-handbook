@@ -138,7 +138,8 @@ During a [stealth operation](#stealth-operations), the Red Team may:
 - Authenticate as any team member using credential data discovered on any GitLab-managed resource (passwords, access tokens, SSH keys, etc).
 - Attempt to gain access to any resource in GitLab's cloud environments, and use those resources to escalate privileges and move laterally in the cloud.
 - Exploit vulnerabilities and abuse insecure configurations in any system owned and managed by GitLab.
-- Attempt social engineering via email, Slack, GitLab issues, Zoom, phone calls, etc.
+- Attempt to gather information (phone number, email address, etc.) about team members from public data sources.
+- Attempt social engineering via email, Slack, GitLab issues, Zoom, phone calls, SMS, etc using contact data obtained from those public sources.
 - Execute supply-chain related attack techniques like dependency confusion, pipeline injections, and malicious code commits.
 
 If you are a team member at GitLab and suspect you have uncovered a stealth red team operation in the course of your daily work, please refer to our deconfliction process mentioned in the "[Is This Red Team?]({{< ref "_index.md/#is-this-the-red-team" >}})" section.
@@ -150,6 +151,7 @@ At this time, the Red Team **will not**:
 - Attempt to socially engineer team members via channels not managed by GitLab (such as social networks, personal email addresses, etc).
 - Attempt to access the web browsing history of any team member.
 - Attempt to gain access to anything that is not strictly work-related and managed/owned by GitLab.
+- Use our legitimate internal access to GitLab systems to collect private information (like personal phone numbers) for the purpose of social engineering.
 
 ### Auditing Red Team Attack Techniques
 
