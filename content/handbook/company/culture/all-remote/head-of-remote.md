@@ -259,7 +259,7 @@ Capgemini Research Institute surveyed 500 organizations and 5,000 employees from
 
 The below is an inexhaustive list of news articles covering the growing movement of firms hiring a dedicated leader for remote work. *Some of the articles may require a paid subscription to access*.
 
-1. Australian: [Why hybrid workplaces bring a whole new set of challenges (reproduction)](https://twitter.com/darrenmurph/status/1358117706323656707)
+1. The Australian: [Why hybrid workplaces bring a whole new set of challenges (reproduction)](https://twitter.com/darrenmurph/status/1358117706323656707)
 1. Forbes: [The Next In-Demand Job Title: Head Of The Future Of Work](https://www.forbes.com/sites/jenamcgregor/2022/01/18/the-next-in-demand-job-title-head-of-the-future-of-work/?sh=776b6d5160b8)
 1. Protocol: [Do you need to hire a 'head of remote?'](https://www.protocol.com/workplace/head-of-remote-darren-murph)
 1. NPR Marketplace: [Why more companies are hiring heads of remote work](https://www.marketplace.org/2021/10/26/why-more-companies-are-hiring-heads-of-remote-work)
