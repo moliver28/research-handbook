@@ -43,6 +43,32 @@ Tests are selected for promotion by a weekly automated script that uses the data
   test has been identified in the reliable test report did not make it to the top 10 number of runs, it can be promoted
   by manually creating an MR.
 
+The flow of promotion to blocking as a decision tree:
+
+```mermaid
+flowchart TD
+    %% nodes
+    reliable_test_report[Reliable test report\nruns once a week]
+    end_to_end_test[End to end test]
+    passed_consistently_for_14_days_check{Passed\nconsistently\nfor 14 days}
+    master_and_nightly_piplines_check{Ran in master or\nnightly pipline}
+    surfaces_in_reliable_test_report[Surface in reliable test report]
+    top_10_run_frequency_check{In top 10 list\nby no of runs}
+    create_merge_request_for_promotion[Merge request created for promotion]
+    no_action_performed[No action performed]
+
+    %% diagram
+    reliable_test_report --> |Evaluates| end_to_end_test
+    end_to_end_test --> master_and_nightly_piplines_check
+    master_and_nightly_piplines_check --> |Yes |passed_consistently_for_14_days_check
+    master_and_nightly_piplines_check --> |No |no_action_performed
+    passed_consistently_for_14_days_check --> |Yes| surfaces_in_reliable_test_report
+    passed_consistently_for_14_days_check --> |No |no_action_performed
+    surfaces_in_reliable_test_report --> top_10_run_frequency_check
+    top_10_run_frequency_check --> |Yes| create_merge_request_for_promotion
+    top_10_run_frequency_check --> |No |no_action_performed
+```
+
 ### Weekly Reliable Spec Report
 
 This report plays a crucial role in managing the health of the test suite, highlighting:
