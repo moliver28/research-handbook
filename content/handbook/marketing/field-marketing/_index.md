@@ -668,7 +668,11 @@ Las Vegas, NV 89118
 
 ### Stickers
 
-For sticker orders, please utilize our [Stickermule](https://www.stickermule.com/) account. The login for Stickermule can be found in the Marketing 1pass. Delivery options and timelines are provided during the ordering process. Any new sticker designs must be approved by the Brand team for brand consistency. For new sticker design requests, please open a design issue using the design issue template [here](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/issues/new?issuable_template=request-design-general). Please note that we are currently not producing specialty Tanuki designs at this time.
+For sticker orders, please utilize our [Stickermule](https://www.stickermule.com/) account. The login for Stickermule can be found in the Marketing 1pass. Delivery options and timelines are provided during the ordering process. Any new sticker designs must be approved by the Brand team for brand consistency. For new sticker design requests, please open a design issue using the design issue template [here](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-design/-/issues/new?issuable_template=event-asset-request). Please note that we are currently not producing specialty Tanuki designs at this time.
+
+#### Sticker Budgeting and Tracking
+
+The AMER Field Marketing Team has a blanket PO for all Stickermules orders. The FMM placing the order will log into Stickermule (utilizing the Marketing 1pass), add the stickers needed to the cart, then contact their FMC to provide the total cost of the order. The FMC will then provide the Coupa Card information to use for payment (receipt is not required). The FMC will then add the total cost of the order to the appropriate month's forecast in the Stickermule Blanket PO line item in the ALL AMER plan in Allocadia (2505376).
 
 ### Print Collateral
 
@@ -1588,11 +1592,6 @@ If you are submitting various charges for approval on a Coupa virtual card, plea
 
 ### F&B/AV/Additional Event Charges
 Since we often don't have the exact headcount for an event in advance, additional costs (such as AV, F&B, etc.) can be estimated for initial procurement approval. If your additional costs are included in the initial venue contract, please ask the venue to provide pricing for your estimated headcount in the contract (especially for F&B costs, so that you are not only submitting your F&B minimum). This will give us a baseline cost estimate for approval and your FMC will adjust the PO amount as needed, based on final cost (a PO change request will be issued for charges above 10% over the original PO amount). If your additional costs (catering, AV, etc.) are being provided by different vendors from the venue, please make sure you have separate Allocadia line items for those charges and also submit separate contract requests (if a contract is required by the vendors). If the vendor does not require a contract and charges are under $5,000, you can pay with your Navan card.
-
-
-## Field Marketing Procurement Details
-
-[The Field Marketing Contract Request Template](https://gitlab.com/gitlab-com/marketing/field-marketing/issues/new?issuable_template=Contract_Request) noted above has detailed information regarding numerous aspects of the procurement process. Please make sure to reference this template with any questions. If you have any additional concerns or special cases not covered in the template's details, please reach out to your FMC to discuss in advance of submitting your contract request.
 
 ## Sourcing New Field Marketing Vendors
 
