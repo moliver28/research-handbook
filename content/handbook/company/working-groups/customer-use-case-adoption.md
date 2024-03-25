@@ -61,10 +61,10 @@ CI Adoption Initiatives
 | Facilitator                                       | David Tuan                    | Director, Strategy and Operations                          |
 | Functional Lead - CSM                             | Michael Leutz                 | Director, Customer Success Management, EMEA                |
 | Functional Lead - Sales                           | Open - TBD                    |                                                            |
-| Functional Lead - Marketing                       | Dan Hom                       | Product Marketing Manager                                  |
+| Functional Lead - Marketing (CI)                  | Dan Hom                       | Product Marketing Manager                                  |
 | Functional Lead - Product (CI)                    | Jackie Porter                 | Director, Product Management                               |
-| Functional Lead - Product (Security & Compliance) | Open - TBD                    |                                                            |
-| Functional Lead - Professional Services           | Kevin Lake                    | VP of Professional Services                                |
+| Functional Lead - Product (Security & Compliance) | Sam White                     | Group Manager, Product Management                          |
+| Functional Lead - Professional Services           | Brian Will                    | Senior Manager, Professional Services                      |
 | Functional Lead - Developer Relations             | Michael Friedrich             | Senior Developer Advocate                                  |
 | Functional Lead - Customer Adoption Data          | Michael Arntz                 | Sales Strategy Manager                                     |
 | Functional Lead - Enterprise Data                 | Israel Weeks                  | Director, Data and Analytics                               |

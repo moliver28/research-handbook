@@ -78,6 +78,16 @@ If you have any questions on this process, please contact `@aoetama` in the [#ma
 
 ## Landing Page: (add when live)
 
+## UTMs for [insert epic title here]:
+**Example utm structure:**
+* `utm_campaign=autosd`
+* `utm_content=awssecurityvideo`
+* `utm_asset_type=video`
+* `utm_budget=cmp`
+
+- :nerd: Read about our UTM strategy in [this handbook page](https://about.gitlab.com/handbook/marketing/utm-strategy/).
+- :link: Build a link with UTMs through this [UTM builder googlesheet](https://docs.google.com/spreadsheets/d/12jm8q13e3-JNDbJ5-DBJbSAGprLamrilWIBka875gDI/edit#gid=2043976569).
+
 ## Pathfactory link: (add when live)
 
 #### :key: Key Details
@@ -87,16 +97,16 @@ If you have any questions on this process, please contact `@aoetama` in the [#ma
 * **Official Content Type:**
 * **Primary Campaign:**
 * **Primary Sales Segment:**
-   - [ ] Enterprise
-   - [ ] Mid-Market
-   - [ ] SMB
+   - [x] Enterprise
+   - [x] Mid-Market
+   - [x] SMB
    - [ ] PubSec
-         * [ ] Civilian (CIV)
-         * [ ] Department of Defense (DOD)
-         * [ ] Federal Systems Integrators (FSI)
-         * [ ] National Security Group (NSG)
-         * [ ] PUBSEC General Nurture
-         * [ ] State, Local and Education (SLED)
+     - [ ] Civilian (CIV)
+     - [ ] Department of Defense (DOD)
+     - [ ] Federal Systems Integrators (FSI)
+     - [ ] National Security Group (NSG)
+     - [ ] PUBSEC General Nurture
+     - [ ] State, Local and Education (SLED)
 * **Primary Buying Stage:**
    - [ ] Awareness
    - [ ] Consideration

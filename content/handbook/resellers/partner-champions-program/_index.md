@@ -2,7 +2,7 @@
 title: "GitLab Partner Champions Program"
 ---
 
-![GitLab Partner Champion](images/partner-champion-lockup.png)
+![GitLab Partner Champion](images/champions-dark-bg.png)
 
 <link rel="stylesheet" type="text/css" href="/stylesheets/biztech.css" />
 
