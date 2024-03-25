@@ -1,10 +1,11 @@
 ---
 title: "Metrics & Tableau Dashboards"
-description: Learn about the dashboard that are used in community-related dashboards!
+description: Learn about the dashboards that are used in community-related dashboards!
 ---
 
 ### Dashboards we use
-The third party cookie must be turn on to view the dashboard.
+
+To view the dashboard your browser must allow third-party cookies.
 - [Wider Community PIs](https://us-west-2b.online.tableau.com/t/gitlabpublic/views/WiderCommunityPIsPart1/WiderCommunityPIsDashboardPart1)
    - Unique Wider Community Contributors per Month
    - Amount of MRs created, merged & closed
