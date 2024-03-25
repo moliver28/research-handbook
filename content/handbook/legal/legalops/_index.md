@@ -56,7 +56,7 @@ This process is designed to enable LACA team members to submit requests related 
 #### Expenditure Process Overview
 
 - LACA team members must first communicate their intended request with their manager.
-- If supported by the manager, the team member will complete the LACA Expenditure Request Issue Template.
+- If supported by the manager, the team member will complete the [LACA Expenditure Request Issue Template](https://gitlab.com/gitlab-com/legal-and-compliance/-/issues/new); _NOTE in "Description" select the "laca-travel-and-expense-request" template._
 - Included within the LACA Expenditure Request Issue Template are details that the team member must complete.
 - Upon being submitted, the request will be reviewed internally by LACA leadership.
 - If approved, the request will then be assigned to Finance to ensure applicable funds are available.
