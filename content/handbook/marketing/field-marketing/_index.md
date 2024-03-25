@@ -1564,17 +1564,20 @@ In Field Marketing, the FMCs manage all [Zip requisitions](/handbook/business-te
 ### SLAs
 The SLA for your FMC to submit your request to Zip/Coupa is **3 business days** from when they are assigned the contract request issue. Please keep in mind it generally takes a week+ to obtain all approvals and/or signatures during the procurement process (longer for more complicated contracts that may require redlines from legal), so please plan accordingly.
 
-### Contract Request Issue Re-use
-If you have an event that requires multiple contract requests, feel free to re-use your original contract request issue! Simply re-open the original request, copy the appropriate section that is needed for your new request, and add those fields with new details in a comment to your FMC. Please do not erase the original details from the request, though, as those details are often referenced.
+### Document Review
+Please make sure you have reviewed your document carefully and have pre-filled the contract details required in the agreement *before* assigning the issue to your FMC. Below are some items to keep in mind when both the FMMs and FMCs are reviewing contracts...
+- Correct [GitLab entity](https://gitlab.com/gitlab-com/Finance-Division/finance/-/wikis/company-information) that needs to be utilized, along with the correct address associated with that entity
+- GitLab company name spelled correctly (capital L!)
+- Lead specifics - What contact information will be provided and when?
+- Correct event dates, cost, and sponsorship level
+- Clear vendor goals and if the vendor fails to deliver against T&Cs/goals, a detailed make-good clause
+- If a room block is involved, accurate attrition requirements have been included
 
 ### Month Close
 Please Note: AP typically closes out the month by the third business day **before** the last day of the month (Day -3). Once AP closes the month, any charges under $5k (under $50k for swag/shipping) occuring via a credit card or invoice approvals will be reconciled the following month. The month close date will be announced each month in the `#allocadia_mktg-budget-holders` Slack channel and will also be added to the [Marketing Finance Dates Calendar](https://calendar.google.com/calendar/embed?src=c_j581mpq4tcn6bjojs1bqnl4eg0%40group.calendar.google.com&ctz=America%2FDenver).
 
 ### Prepaid Policy
 Please make sure you have reviewed our company's [prepaid policy](/handbook/finance/accounting/#prepaid-expense-policy) and have forecasted your cost(s) correctly in Allocadia. 
-
-### Document Review
-Please make sure you have reviewed your document carefully (terms, sponsorship level, order details, cost, date, etc.) and have pre-filled the contract details required in the agreement *before* assigning the issue to your FMC.
 
 ### Signature Authority
 GitLab team members DO NOT have [signature authority](/handbook/company/authorization-matrix/expenses-and-signatures/#signature-authority---sales-and-vendor-contracts). This means that FMMs are not allowed to sign any legal documents pertaining to quotes, orders, contracts, BEOs, etc. If you have a document that requires a signature, please submit it in a contract request to your FMC to process through procurement.
@@ -1596,6 +1599,9 @@ If you are submitting various charges for approval on a Coupa virtual card, plea
 
 ### F&B/AV/Additional Event Charges
 Since we often don't have the exact headcount for an event in advance, additional costs (such as AV, F&B, etc.) can be estimated for initial procurement approval. If your additional costs are included in the initial venue contract, please ask the venue to provide pricing for your estimated headcount in the contract (especially for F&B costs, so that you are not only submitting your F&B minimum). This will give us a baseline cost estimate for approval and your FMC will adjust the PO amount as needed, based on final cost (a PO change request will be issued for charges above 10% over the original PO amount). If your additional costs (catering, AV, etc.) are being provided by different vendors from the venue, please make sure you have separate Allocadia line items for those charges and also submit separate contract requests (if a contract is required by the vendors). If the vendor does not require a contract and charges are under $5,000, you can pay with your Navan card.
+
+### Contract Request Issue Re-use
+If you have an event that requires multiple contract requests, feel free to re-use your original contract request issue! Simply re-open the original request, copy the appropriate section that is needed for your new request, and add those fields with new details in a comment to your FMC. Please do not erase the original details from the request, though, as those details are often referenced.
 
 ## Sourcing New Field Marketing Vendors
 
