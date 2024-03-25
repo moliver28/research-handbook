@@ -58,7 +58,7 @@ The flow of test failures as a decision tree:
 
 flowchart TD
     %% external links
-    click dri_triage_failure "https://handbook.gitlab.com/handbook/engineering/infrastructure/test-platform/debugging-qa-test-failures/#triage-flow"
+    click manual_triage_flow "https://handbook.gitlab.com/handbook/engineering/infrastructure/test-platform/debugging-qa-test-failures/#triage-flow"
 
     %% nodes
     test_fails[An E2E test fails]
@@ -76,6 +76,7 @@ flowchart TD
     create_mr_for_quarantine[MR auto created for quarantine]
     no_action[No action needed]
 
+    %% diagram
     test_fails --> failure_in_mr_check
     failure_in_mr_check -->|Yes| author_fixes
     failure_in_mr_check -->|NO| failure_issue_created
