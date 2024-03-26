@@ -165,7 +165,7 @@ For details see the runbooks, particularly for [GCP snapshots](https://gitlab.co
 
 ### Exceptions
 
-Exceptions to this backup policy will be tracked in the [compliance issue tracker](https://gitlab.com/gitlab-com/gl-security/security-assurance/sec-compliance/compliance/-/issues/).
+Exceptions to this backup policy will be tracked in the [compliance issue tracker](https://gitlab.com/gitlab-com/gl-security/security-assurance/team-commercial-compliance/compliance/-/issues/).
 
 ### References
 
