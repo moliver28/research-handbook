@@ -326,7 +326,7 @@ Our FY23 priorities in this area included:
 
 - **Supply Chain Levels for Software Artifacts (“SLSA”) security framework feature (all tiers)**
 
-    SLSA is a security framework that helps security and integrity of software supply chains. By default, [GitLab Runner](https://docs.gitlab.com/runner/) is now capable of generating and producing SLSA-2 compliant attestation metadata for building artifacts.
+    SLSA is a security framework that helps security and integrity of software supply chains. By default, [GitLab Runner](https://docs.gitlab.com/runner/) is now capable of generating and producing SLSA-L1 compliant attestation metadata for building artifacts.
 
 - **Group and subgroup-level scan result capabilities for security policies (Ultimate tier only)**
 
