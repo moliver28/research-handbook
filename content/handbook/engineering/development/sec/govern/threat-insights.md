@@ -36,17 +36,21 @@ E**nable users to track vulnerabilities across multiple branches** - Allow users
 * Google groups: eng-dev-secure-threat-insights-members@gitlab.com
 * [Threat Insights calendar](https://calendar.google.com/calendar/u/0?cid=Y19iNGQxYmYzYzY4ZTBjODZkYTE0ZDc4N2M0MjZhMDUxYWEzYzljYWRlZjIwZTcwMmNmOWRjZmEwNzQzMmRmMDNkQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20) (internal link)
 
+### Prioritization
+
+We use our Threat Insights Priorities pages [16.x](https://about.gitlab.com/direction/govern/threat_insights/16_threat_insights_priorities.html) [17.x](https://about.gitlab.com/direction/govern/threat_insights/17_threat_insights_priorities.html) page to track what we are doing, and what order to do it in.
+
 ## How we work
 
 Threat Insights is a large group, and to reduce planning overhead, engineering is organized into two teams, Navy and Tangerine, that each approach work in [vertical slices](https://www.visual-paradigm.com/scrum/user-story-splitting-vertical-slice-vs-horizontal-slice/). This is more efficient because it virtually eliminates the cross-team dependency that comes from organizing a large group by technical expertise.
 
 Both teams have Backend and Frontend engineers, and as such work on any part of our codebase. However, Team Navy primarily focuses on features that affect the user interface, while Team Tangerine concentrates on data management.
 
-We use the scoped labels `~"Threat Insights::Navy"` `~"Threat Insights::Tangerine"` to designate work for each team. Navy engineers report to {{< member-by-gitlab "nmccorrison" >}} and Tangerine engineers report to {{< member-by-gitlab "kniechajewicz" >}}.
+We use the scoped labels `~"Threat Insights::Navy"` `~"Threat Insights::Tangerine"` to designate work for each team. Navy engineers report to {{< member-by-gitlab "nmccorrison" >}} and Tangerine engineers report to {{< member-by-gitlab "sming-gitlab" >}}.
 
-### Prioritization
 
-We use our [Threat Insights Priorities](https://about.gitlab.com/direction/govern/threat_insights/16_threat_insights_priorities.html) page to track what we are doing, and what order to do it in.
+### Metrics
+
 
 {{< tableau height="600px" toolbar="hidden" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/TopEngineeringMetrics/TopEngineeringMetricsDashboard" >}}
   {{< tableau/filters "GROUP_LABEL"="threat insights" >}}
