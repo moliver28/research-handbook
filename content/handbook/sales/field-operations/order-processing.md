@@ -615,7 +615,7 @@ IF:
 1. Opportunity Type = New Business or Add-On Business
 2. Net ARR >= $100,000
 3. Stamped Sales Segment = Large
-4. Stamped Opp Owner User Region = AMER
+4. Stamped Opp Owner User Region = `AMER`, `EMEA`, `PubSec`
 5. Product Sold = SaaS - Ultimate, Self-Managed - Ultimate, or Dedicated - Ultimate
 
 THEN:
