@@ -125,5 +125,5 @@ Finance team members have a high workload and may not be able to complete a full
 | Monday 2024-04-15 | Wednesday 2024-04-17 | |
 | Tuesday 2024-04-23 | Thursday 2024-04-25 | |
 | Monday 2024-04-29 | Wednesday 2024-05-01 | |
-| Tuesday 2024-05-14 | Thursday 2024-05-16 | |
+| Tuesday 2024-05-14 | Thursday 2024-05-16 | Afroditi Milidou|
 
