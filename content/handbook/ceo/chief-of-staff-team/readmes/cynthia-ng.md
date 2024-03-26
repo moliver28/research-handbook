@@ -1,7 +1,7 @@
 ---
 
 title: "Cynthia 'Arty' Ng README"
-description: "Personal readme page for Cynthia 'Arty' Ng, Staff, Strategy & Operations, Chief of Staff to CEO Team, GitLab"
+description: "Personal readme page for Cynthia 'Arty' Ng, Staff, Strategy & Operations, Office of the CEO, GitLab"
 job: "Staff, Strategy and Operations"
 ---
 
