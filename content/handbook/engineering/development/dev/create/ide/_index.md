@@ -10,10 +10,12 @@ description: >-
 The group is part of [Create Stage][hb-create] in the [Dev Sub-department][hb-dev]. We focus on multiple [categories][hb-categories]: `Remote Development` and the `Web IDE`.
 
 ### 👌 Group OKRs
+<span id="-team-okrs" data-message="alias anchor for old links"></span>
 
 If you're interested in the group's Objectives and Key Results (OKRs), you can find them on [GitLab](https://gitlab.com/gitlab-com/gitlab-OKRs/-/issues/?sort=title_asc&state=opened&label_name%5B%5D=group%3A%3Aide&first_page_size=20).
 
 ### 🤴 Group Principles
+<span id="-team-principles" data-message="alias anchor for old links"></span>
 
 [Create:IDE Principles][principles]: What Are the Create:IDE Group Principles?
 
@@ -30,6 +32,7 @@ The following people are permanent members of the IDE Engineering Group:
 {{< stable-counterparts role="Create:IDE" manager-role="Engineering Manager(.*)Create:IDE" >}}
 
 ### ☕ Category DRIs
+<span id="-team-category-dris" data-message="alias anchor for old links"></span>
 
 | Category                 | DRI                                     |
 |--------------------------|-----------------------------------------|
@@ -44,6 +47,7 @@ Depending on the context here are the most appropriate ways to reach out to the 
 - Slack Groups: `@create-ide-team` (entire team) and `@create-ide-engs` (just engineers)
 
 ### 📆 Group Meetings
+<span id="-team-meetings" data-message="alias anchor for old links"></span>
 
 **❗️Important**: For every meeting, the [IDE group's meeting document][gdoc] should be used, and filled with the meeting notes, as well as references to any other sync meeting agendas/notes/recordings which have recently occurred. This will make it easier for people to find any meeting notes.
 
@@ -71,19 +75,16 @@ These are regular meetings in which most team members will participate. Below is
 
 #### Pre-Iteration Planning Meeting
 
-**NOTE: This meeting is specific to the Remote Development category planning - see [Remote Development Planning Process](#-remote-development-planning-process)**
-
 - **When:** Every Wednesday, alternating between APAC and EMEA time zones.
 - **What:** The goal of the Pre-IPM meeting is for the team leaders to collaborate on preparing all issues which are to be prioritized for the upcoming iteration(s), so they are ready for the wider team to discuss and estimate in the next IPM. For more information, see ["Pre-Iteration Planning Meeting"](#-pre-iteration-planning-meeting).
 
 #### Iteration Planning Meeting (IPM)
 
-**NOTE: This meeting is specific to the Remote Development category planning - see [Remote Development Planning Process](#-remote-development-planning-process)**
-
 - **When:** Every Wednesday, alternating between APAC and EMEA time zones.
 - **What:** In this weekly meeting, we will review the team's backlog and the current iteration status. We'll estimate and prioritize work for the next one or two iterations. The meeting will alternate between APAC and EMEA time zones to accommodate different regions. For more information, see ["Iteration Planning Meeting"](#-iteration-planning-meeting).
 
 ## 📦 Group Processes
+<span id="-team-processes" data-message="alias anchor for old links"></span>
 
 ### 🖖 Weekly EM Updates
 
@@ -118,6 +119,7 @@ These guidelines apply to all issues we use for planning and scheduling work wit
 It's okay to create specific engineering-driven implementation issues for more complex features. These would be called **Child Issues** and they should always link back to their parent. If one issue would spawn many child issues, consider creating an Epic.
 
 ## 🤖 Planning Process
+<span id="-category-specific-planning-processes" data-message="alias anchor for old links"></span>
 
 The IDE group has decided to use an alternate planning process for the following reasons:
 
@@ -127,9 +129,11 @@ The IDE group has decided to use an alternate planning process for the following
 1. To better support the use of these methodologies, the IDE group has committed to dogfooding the [Iterations feature](https://docs.gitlab.com/ee/user/group/iterations/index.html), and following the [documented process for running agile iterations](https://docs.gitlab.com/ee/tutorials/agile_sprint.html) where possible.
 1. However, due to existing limitations of the Iterations and Boards features in fully supporting these methodologies, we will also experiment with new and alternate tools and processes, with the goal of informing and potentially contributing back to improve GitLab's support for them. More details will be shared as this effort evolves.
 
-To reduce the cognitive overhead of the entire group, the Web IDE and Remote Development categories will follow a similar process.
+Even though the Web IDE category does not have all these constraints (e.g. it is based on VS Code and is not greenfield code, and has fewer unknowns), the Web IDE category will follow a similar process in order reduce the cognitive overhead of the entire group.
 
 ### Planning Process Overview
+<span id="-remote-development-planning-process" data-message="alias anchor for old links"></span>
+<span id="remote-development-planning-process-overview" data-message="alias anchor for old links"></span>
 
 The IDE group has modified parts of the [Plan](/handbook/product-development-flow/#build-phase-1-plan) and [Build & Test](/handbook/product-development-flow/#build-phase-2-develop--test) phases of the GitLab Product Development Flow to a more lightweight velocity-based estimation and planning process inspired by the widely-used and popular [XP](https://www.amazon.com/Extreme-Programming-Explained-Embrace-Change/dp/0321278658) and [Scrum](https://www.scrum.org/resources/blog/agile-metrics-velocity) methodologies.
 
@@ -143,13 +147,14 @@ These components allow us to provide realistic velocity-based estimates based on
 
 **IMPORTANT: note that these process changes do not represent a full adoption of XP or Scrum methodologies. Instead, they are a minimal and lightweight process "inspired" by XP and Scrum. The primary goal is to allow the team to provide realistic planning and delivery estimates to leadership based on accurate velocity measurements. The Pre-IPM and IPM processes are the minimal components which allow us to meet that goal.**
 
-### `~rd-workflow::` Labels
+### Custom workflow labels
 
-To facilitate the IDE group's specific planning process, we make use of `~rd-workflow::` labels. The
-Web IDE category also uses the `~rd-workflow::` labels, despite the Remote Development specific prefix.
-These workflow labels are prefixed with `rd-` for legacy reasons, but now our entire IDE group is using this process.
+To facilitate the IDE group's specific planning process, we make use of custom workflow scoped labels under `~rd-workflow::`.
+These custom workflow labels are necessary to work around [current limitations of GitLab iterations and boards in implementing this process](https://gitlab.com/cwoolley-gitlab/gl-velocity-board-extension#why-doesnt-standard-gitlab-support-this).
 
-In a future iteration, we will likely look at renaming them and updating our relevant automation tools.
+The Web IDE category also uses the `~rd-workflow::` labels, despite the Remote Development specific prefix.
+These workflow labels were originally created just for the Remote Development tea, but now our entire IDE group is
+using this process. In a future iteration, we will likely look at renaming them and updating our relevant automation tools.
 
 ### GitLab Velocity Board Chrome Extension
 
@@ -178,7 +183,7 @@ NOTE: All issues in this process _must_ be assigned the `~Category:Remote Develo
 graph TD;
   S[issue created] -->|New issue is added to an epic, and 'rd-workflow::unprioritized' label is applied| V[High Level Validation and Planning]
   V -->|'Next 1-3 Releases' milestone is applied to higher-priority issues| R[Pre-IPM - Async Refinement]
-  R -->|Unprioritized issues with 'Next 1-3 Releases' milestone are refined| P[Pre-IPM - Sync prioritization]
+  R -->|Unprioritized issues with 'Next 1-3 Releases' milestone are assigned for refinement| P[Pre-IPM - Sync prioritization]
   P -->|Refined issues are prioritized into 'rd-workflow::prioritized'| I[IPM]
   I -->|'rd-workflow::prioritized' issues are discussed and estimated by the entire team| N[Next]
   N -->|Issue is assigned to a specific release based on its calculated iteration| E[Development proceeds for issue]
@@ -278,7 +283,7 @@ For a few reasons:
 
 **TL;DR: _As a team_, briefly discuss then estimate each prioritized issue.**
 
-1. In each the IPM meeting, all newly prioritized issues in the `~"rd-workflow::prioritized"` lane of the [Iteration Planning](https://gitlab.com/groups/gitlab-org/-/boards/5283620?label_name[]=Category%3ARemote%20Development) board are reviewed by the team. The board should be unfiltered other than the standard `~"Category:Remote Development"` or `~"Category:Web IDE"` label.
+1. In each the IPM meeting, all newly prioritized issues in the `~"rd-workflow::prioritized"` lane of the [Remote Development Iteration Planning board](https://gitlab.com/groups/gitlab-org/-/boards/5283620) or [Web IDE Iteration Planning board](https://gitlab.com/groups/gitlab-org/-/boards/7440987) are reviewed by the team. The board should be unfiltered other than the standard `~"Category:Remote Development"` or `~"Category:Web IDE"` label.
 1. For each newly-prioritized issue, the facilitator reads the description, and the team **_briefly_** discusses the issue. If there are no blocking concerns/risks raised, the team collectively estimates the issue with rock-paper-scissors fibonacci scale, and the collectively agreed weight is assigned.
     1. If the discussion for a single issue goes on longer than 5-10 minutes or turns into an extended debate/discussion, this is an indicator that the issue has not been adequately refined, and should go back to the ~"rd-workflow::unprioritized" list, and potentially have another issue immediately created and prioritized to do further investigation/refinement, if the refinement scope may be significant.
 1. Issues which are prioritized in the upcoming 1-2 iterations should be assigned to individual(s) at this point, to ensure it gets worked on and not lost.
@@ -289,7 +294,7 @@ The "Iteration Planning Meeting", or "IPM" meeting is a weekly process where a t
 
 The goal of the IPM is to ensure all issues for the upcoming iteration have been discussed, and [estimated with weights as a team](#-what-weights-to-use). Then, each issue will be worked on, and if there are commits to be made as part of the work, there should be a 1-to-1 relationship between the issue and MR.
 
-The iteration cycle is one week long, and each category team maintains one board for tracking their progress - [the Iteration Planning board](https://gitlab.com/groups/gitlab-org/-/boards/5283620?label_name[]=Deliverable&label_name[]=Category%3ARemote%20Development).
+The iteration cycle is one week long, and each category team maintains a separate dedicated board for tracking their progress - [the Remote Development Iteration Planning board](https://gitlab.com/groups/gitlab-org/-/boards/5283620) and [the Web IDE Iteration Planning board](https://gitlab.com/groups/gitlab-org/-/boards/7440987).
 
 #### 4. Assigning prioritized issues to specific releases based on calculated iterations
 
@@ -320,6 +325,7 @@ Then, based on the dates of calculated iterations, we can reassign the issues fr
    then the issue is closed, and moved to the `~rd-workflow::done` list.
 
 ### Relationship of Issues to MRs
+<span id="1-to-1-relationship-of-issues-to-mrs" data-message="alias anchor for old links"></span>
 
 We want to enforce that:
 
@@ -344,11 +350,19 @@ the first line of the issue should have the format: `MR: <...>`:
    ```
    Each description line of the MR's in this list should be `Issue: <Issue link with trailing +>`. **Please note:** If breaking out an issue's implementation
    into multiple MR's unexpectedly increases the scope of the work, please consider creating a new weighted and prioritized issue to
-   capture the extra scope. We want to record our velocity accurately.
+   capture the extra scope. This is important in order to accurately reflect scope increases, and their impact on reporting and velocity.
 1. If there is _NO MR_ associated with this issue, the first line should be: `MR: No MR`.
    However, this should be rare, because most issues should have some sort of committed deliverable, even if it is only
    a documentation addition or update. If it is an issue which represents a larger piece of work split across smaller issues,
    then it should be promoted to an epic.
+
+**QUESTION: Why does every MR need a backing issue?**
+
+- If boards and epics allowed MRs to be added and estimated as well as issues, this would not be necessary - for feature/maintenance
+involving an MR, we could have the MR directly represent the full lifecycle of the discussion and implementation, and not
+have an issue at all.
+- We also cannot rely on the Crosslinking Issues feature (https://docs.gitlab.com/ee/user/project/issues/crosslinking_issues.html),
+because this shows ALL linked MRs that have mentioned the issue anywhere, and cannot enforce this 1-1 relationship.
 
 ### 📝 Ad-Hoc Work
 
@@ -383,6 +397,7 @@ Some issues are large in scope to start implementing, and/or still has too many 
 1. Once the investigation and breakdown into smaller issues is complete, then the weight can be removed and the issue closed.
 
 ### 🍨 Handling Issues Outside the Process
+<span id="-handling-remote-development-issues-outside-the-process" data-message="alias anchor for old links"></span>
 
 Certain `group::ide` issues may be categorized under the `rd-workflow::ignored` label. These categories include:
 
@@ -461,7 +476,7 @@ Other more complex automations may be set up in the
 
 Ideally we should automate as much of the [Remote Development Planning Process](#-remote-development-planning-process) workflow as possible.
 
-We have the following automation goals for the Remote Development Workflow. Unless otherwise noted, these rules are all defined in the [triage-ops `policies/groups/gitlab-org/ide/remote-development-workflow.yml` config files](https://gitlab.com/gitlab-org/quality/triage-ops/-/blob/master/policies/groups/gitlab-org/ide/remote-development))
+We have the following automation goals for this Workflow. Unless otherwise noted, these rules are all defined in the [triage-ops `policies/groups/gitlab-org/ide/remote-development-workflow.yml` config files](https://gitlab.com/gitlab-org/quality/triage-ops/-/blob/master/policies/groups/gitlab-org/ide/remote-development).
 
 | ID | Goal | Automation | Link(s) to implementation |
 | --- | --- | --- | --- |
