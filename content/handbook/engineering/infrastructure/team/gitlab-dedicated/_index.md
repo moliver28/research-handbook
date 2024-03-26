@@ -142,6 +142,13 @@ To gain access, please create:
 
 ## Working across GitLab
 
+### Communicating with GitLab Dedicated customers
+
+If you need to urgently contact one or more GitLab Dedicated customers, engage the
+[GitLab Dedicated Communications Manager On-Call (CMOC)](/handbook/support/workflows/dedicated_cmoc/).
+
+Non-urgent communication should be handled through the customer's Customer Success Manager (CSM).
+
 ### Getting product fixes into GitLab Dedicated quicker
 
 {{% alert title="Note" color="info" %}}
