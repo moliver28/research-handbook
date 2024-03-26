@@ -46,6 +46,17 @@ Follow these steps to create a new ticket to start communications with a custome
 - Work with the customer to set expectations about the frequency of updates, especially if you are the GDCMOC within the same region as the customer. They will likely expect more updates during their regional business hours.
   - If we proceed with lower frequency updates, the important thing is that we communicate our expected update frequency to them. For example, we can let the customer know that during their regional business hours, we will provide an update every 1-2 hours, and during their non-regional hours we will update them if there is anything substantial to share.
 - Keep in mind the [information that we **should not** share with the customer](/handbook/support/workflows/dedicated/#sharing-internal-logs-data--graphs)
+- If you'd like a second pair of eyes to review messages before sending them out to customers,
+  refer to the table below to find an appropriate DRI.
+    - Approval of message content is required for security-related communications.
+    - Approval is optional for all other communication.
+
+| Communication type                       | Who reviews content?   | Who approves content? |
+|------------------------------------------|------------------------|-----------------------|
+| Non-security out-of-band maintenance     | SRE                    | Optional              |
+| Security-related out-of-band maintenance | SIRT                   | SIRT                  |
+| Incident communication                   | SRE / Incident manager | Optional              |
+| Other urgent communication               | It depends             | Optional              |
 
 ## Guidelines
 
