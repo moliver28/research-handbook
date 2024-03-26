@@ -25,7 +25,7 @@ By sharing these stories, we're able to highlight the diversity of our team in a
 One of the ways we raise awareness about life at GitLab is by applying for employer awards. These award programs are typically run by third-party organizations or media outlets.
 A number of the awards we've applied for (or will apply for in the future) are specifically focused on recognizing companies that are diverse and inclusive employers.
 
-- [Awards we’ve won]({{< ref "/handbook/people-group/employment-branding#employer-awards-and-recognition" >}})
+- [Awards we’ve won](/handbook/people-group/employment-branding#employer-awards-and-recognition)
 
 ### Initiatives we’re exploring
 
@@ -38,9 +38,9 @@ A number of the awards we've applied for (or will apply for in the future) are s
 
 ### Inclusive interviewing
 
-We are building an inclusive workforce to support every demographic. One major component is ensuring our hiring team is fully equipped with the skills necessary to connect with candidates from every background. We strive to have a hiring team that is well-versed in every aspect of diversity, inclusion and cultural competence. We are helping the unconscious become conscious. Our number one priority is a comfortable and positive candidate experience. Our interviewing guide describes [how you can request an adjustment to your interview process]({{< ref "/handbook/hiring/interviewing#adjustments-to-our-interview-process" >}}).
+We are building an inclusive workforce to support every demographic. One major component is ensuring our hiring team is fully equipped with the skills necessary to connect with candidates from every background. We strive to have a hiring team that is well-versed in every aspect of diversity, inclusion and cultural competence. We are helping the unconscious become conscious. Our number one priority is a comfortable and positive candidate experience. Our interviewing guide describes [how you can request an adjustment to your interview process](/handbook/hiring/interviewing#adjustments-to-our-interview-process).
 
-- To aid in our inclusive hiring practices, we've implemented [Greenhouse Inclusion]({{< ref "/handbook/hiring/greenhouse#greenhouse-inclusion" >}}).
+- To aid in our inclusive hiring practices, we've implemented [Greenhouse Inclusion](/handbook/hiring/greenhouse#greenhouse-inclusion).
 
 ### Inclusive language in Recruitment
 

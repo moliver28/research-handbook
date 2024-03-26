@@ -22,7 +22,7 @@ The Field Security team is tasked with providing high levels of security assuran
 
 ## <i id="biz-tech-icons" class="fas fa-tasks"></i>Metrics and Measures of Success
 
-[Security Impact on Net ARR]({{< ref "/handbook/security/performance-indicators#security-impact-on-net-arr" >}})
+[Security Impact on Net ARR](/handbook/security/performance-indicators#security-impact-on-net-arr)
 
 ## <i class="fas fa-id-card" style="color:rgb(110,73,203)" aria-hidden="true"></i> Contact the Team
 

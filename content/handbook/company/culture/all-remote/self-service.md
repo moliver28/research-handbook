@@ -20,7 +20,7 @@ From the [very first day at GitLab]({{< ref "./getting-started" >}}), it is impe
 
 For many — particularly team members joining from a colocated environment —  this requires a retraining of sorts. You must force yourself to *not* default to tapping on the virtual shoulder of someone as soon as an inquiry comes to mind. Rather, team members should redirect that effort to **searching**.
 
-- GitLab has [assembled a guide to searching the website like a pro]({{< ref "/handbook/tools-and-tips/searching" >}}) — an essential tool for those who are establishing this habit.
+- GitLab has [assembled a guide to searching the website like a pro](/handbook/tools-and-tips/searching) — an essential tool for those who are establishing this habit.
 - The above pairs well with [GitLab's guide to starting a remote job]({{< ref "./getting-started" >}}).
 
 ## Self-service and self-learning in onboarding
@@ -38,7 +38,7 @@ Through continual [iteration]({{< ref "values#iteration" >}}), the onboarding is
 
 ### Proactive approach to answering questions
 
-The [People Group]({{< ref "/handbook/people-group" >}}) maintains onboarding issues. This group attempts to proactively answer any question you may have before you have to ask it. If, after completing the onboarding issue, a new hire still has a question about process that wasn't answered, the natural next step is to work with a subject matter expert at GitLab to **answer, then document**.
+The [People Group](/handbook/people-group) maintains onboarding issues. This group attempts to proactively answer any question you may have before you have to ask it. If, after completing the onboarding issue, a new hire still has a question about process that wasn't answered, the natural next step is to work with a subject matter expert at GitLab to **answer, then document**.
 
 Whenever a new hire brings up a valid process point that leads to a previously undocumented answer, the default mindset should be to answer and document right away. This requires **a mindset of self-service, self-searching, and self-learning**. It also requires diligence and empathy.
 
@@ -71,9 +71,9 @@ The ideal response to learning a new answer at GitLab is to document said answer
 
 For many companies, the frenetic pace of business creates a false sense of justification for bypassing documentation. Once this happens, the only way to consistently learn is to ask another person, over and over. At scale, this is an extraordinarily wasteful process that leads to exhaustion, watered-down instructions, and huge knowledge gaps as team members cycle in and out.
 
-However, most employees are not empowered to shift an entire company culture to one that favors documentation. Thus, one typically builds a skillset of how and when to ask other humans in order to extract information vital to achieving their goals. They know it's a suboptimal approach, but may feel that they have no reasonable alternative. When you aren't given a [handbook]({{< ref "/handbook" >}}) that is regularly updated and reliably actionable, it feels odd to seek answers first in documentation.
+However, most employees are not empowered to shift an entire company culture to one that favors documentation. Thus, one typically builds a skillset of how and when to ask other humans in order to extract information vital to achieving their goals. They know it's a suboptimal approach, but may feel that they have no reasonable alternative. When you aren't given a [handbook](/handbook) that is regularly updated and reliably actionable, it feels odd to seek answers first in documentation.
 
-Humans tend to trust other humans more than words written in an online repository, which is why it's so vital to humanize a handbook by empowering [all members of a company to contribute]({{< ref "/handbook/company/strategy#why" >}}).
+Humans tend to trust other humans more than words written in an online repository, which is why it's so vital to humanize a handbook by empowering [all members of a company to contribute](/handbook/company/strategy#why).
 
 ## Public over private
 
@@ -122,7 +122,7 @@ Said another way, success is less about specific outcomes and more about the way
 
 ## GitLab Knowledge Assessment: Adopting a Self-Service and Self-Learning Mentality
 
-Complete all knowledge assessments in the [Remote Work Foundation]({{< ref "./remote-certification" >}}), to receive the [Remote Foundations Badge in GitLab Learn](https://gitlab.edcast.com/pathways/copy-of-remote-foundations-badge) If you have questions, please reach out to our [Learning & Development team]({{< ref "/handbook/people-group/learning-and-development" >}}) at `learning@gitlab.com`.
+Complete all knowledge assessments in the [Remote Work Foundation]({{< ref "./remote-certification" >}}), to receive the [Remote Foundations Badge in GitLab Learn](https://gitlab.edcast.com/pathways/copy-of-remote-foundations-badge) If you have questions, please reach out to our [Learning & Development team](/handbook/people-group/learning-and-development) at `learning@gitlab.com`.
 
 
 {{% include "includes/is_this_advice_any_good_remote.md" %}}

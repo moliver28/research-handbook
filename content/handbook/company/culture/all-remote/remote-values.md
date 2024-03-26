@@ -14,7 +14,7 @@ On this page, we're detailing how a [collection of values at GitLab]({{< ref "va
 
 ## The importance of living your values
 
-GitLab's six values — **[Collaboration]({{< ref "values#collaboration" >}})**, **[Results]({{< ref "values#results" >}})**, **[Efficiency]({{< ref "values#efficiency" >}})**, **[Diversity, Inclusion & Belonging]({{< ref "values#diversity-inclusion" >}})**, **[Iteration]({{< ref "values#iteration" >}})**, and **[Transparency]({{< ref "values#transparency" >}})** — are detailed in the company [Handbook]({{< ref "/handbook" >}}).
+GitLab's six values — **[Collaboration]({{< ref "values#collaboration" >}})**, **[Results]({{< ref "values#results" >}})**, **[Efficiency]({{< ref "values#efficiency" >}})**, **[Diversity, Inclusion & Belonging]({{< ref "values#diversity-inclusion" >}})**, **[Iteration]({{< ref "values#iteration" >}})**, and **[Transparency]({{< ref "values#transparency" >}})** — are detailed in the company [Handbook](/handbook).
 
 While all-remote [isn't a value itself]({{< ref "values#what-is-not-a-value" >}}), it's something we do in order to practice the aforementioned values.
 
@@ -24,7 +24,7 @@ It also means lending a hand and speaking up when you believe certain values are
 
 This is particularly meaningful in an all-remote setting. With [less physical interaction]({{< ref "./informal-communication" >}}), there's less buffer to compensate for indifference towards company values. Team morale is closely linked to the overall respect given to values.
 
-Two, an overarching belief in a company's values contributes to less ambiguity in [decision making]({{< ref "leadership#making-decisions" >}}). Respected values serve as a universal north star, aligning team members on how to address any challenge or disagreement, even when there's [debate]({{< ref "/handbook" >}}) related to approach or outcome.
+Two, an overarching belief in a company's values contributes to less ambiguity in [decision making]({{< ref "leadership#making-decisions" >}}). Respected values serve as a universal north star, aligning team members on how to address any challenge or disagreement, even when there's [debate](/handbook) related to approach or outcome.
 
 ## There's as much to unlearn as there is to learn
 
@@ -58,7 +58,7 @@ In a colocated company, collaboration can occur spontaneously by being in a shar
 
 Given that it is [impossible to know everything]({{< ref "values#its-impossible-to-know-everything" >}}), all-remote offers a level playing field where any team member can approach any other team member to learn, seek input, or ask for advice.
 
-We also want [everyone to contribute](/teamops/equal-contributions/) — a notion with collaboration at its very core. All-remote ensures that decisions are made out in the open, and outcomes are [documented]({{< ref "/handbook/people-group/employment-branding#all-remote-work" >}}).
+We also want [everyone to contribute](/teamops/equal-contributions/) — a notion with collaboration at its very core. All-remote ensures that decisions are made out in the open, and outcomes are [documented](/handbook/people-group/employment-branding#all-remote-work).
 
 [GitLab Issues](https://docs.gitlab.com/ee/user/project/issues) and [Merge Requests](https://about.gitlab.com/blog/2019/02/07/start-using-git) enable all team members to chime in, with an understanding that the DRI ([directly responsible individual]({{< ref "directly-responsible-individuals" >}})) will make a decision.
 
@@ -72,7 +72,7 @@ Valuing [results]({{< ref "values#results" >}}) enables a healthier all-remote a
 
 Colocation can make this more difficult to get right. As people congregate in a shared space, humans naturally form opinions on those who they are in contact with more often. It becomes more difficult to separate actual business results with vanity metrics (e.g. being seen in the office late, or appearing in every meeting regardless of need).
 
-All-remote teams are more inclined to remain focused on what actually matters at work, given that they have a constant reminder of [what awaits them outside of work](https://about.gitlab.com/blog/2019/07/09/tips-for-working-from-home-remote-work). There is no clock to watch or inescapable cubicle. When you're empowered to live and work in locations that are fulfilling, all-remote teams will strive for results as a means to spend additional time [embracing]({{< ref "/handbook/people-group/employment-branding#all-remote-work" >}}) their [surroundings]({{< ref "./people#travelers" >}}), [family]({{< ref "./people#caretakers" >}}), [community]({{< ref "./people#community-advocates" >}}), [hobbies]({{< ref "./people#hobbyists" >}}), etc.
+All-remote teams are more inclined to remain focused on what actually matters at work, given that they have a constant reminder of [what awaits them outside of work](https://about.gitlab.com/blog/2019/07/09/tips-for-working-from-home-remote-work). There is no clock to watch or inescapable cubicle. When you're empowered to live and work in locations that are fulfilling, all-remote teams will strive for results as a means to spend additional time [embracing](/handbook/people-group/employment-branding#all-remote-work) their [surroundings]({{< ref "./people#travelers" >}}), [family]({{< ref "./people#caretakers" >}}), [community]({{< ref "./people#community-advocates" >}}), [hobbies]({{< ref "./people#hobbyists" >}}), etc.
 
 ## Efficiency
 
@@ -80,7 +80,7 @@ All-remote teams are more inclined to remain focused on what actually matters at
 
 Because time truly is your own in an all-remote setting (core to being a "[manager of one]({{< ref "values#managers-of-one" >}})"), you're incentivized to be respectful of others' time. It's easier to not mind wasting time in a colocated environment, where you're forced to be in the same building for a set number of hours regardless of whether that is a wise use of your time.
 
-Perhaps the most notable element of efficiency that contributes to a thriving all-remote team is documentation. All companies should strive to [write things down]({{< ref "values#write-things-down" >}}) — to document everything from [meeting notes]({{< ref "./meetings" >}}) to [quarterly objectives]({{< ref "/handbook/company/strategy" >}}) — but this is of particular importance for all-remote organizations. Documenting everything enables an ever stronger, more informed, more trusting, and more connected team, as there's no physical space to debrief in.
+Perhaps the most notable element of efficiency that contributes to a thriving all-remote team is documentation. All companies should strive to [write things down]({{< ref "values#write-things-down" >}}) — to document everything from [meeting notes]({{< ref "./meetings" >}}) to [quarterly objectives](/handbook/company/strategy) — but this is of particular importance for all-remote organizations. Documenting everything enables an ever stronger, more informed, more trusting, and more connected team, as there's no physical space to debrief in.
 
 Valuing efficiency enables an all-remote team to work well asynchronously. In colocated settings, it's easier to delay an iteration until a future time "when everyone will be in the same room." All-remote teams realize that it's better to document and ask for feedback now, enabling team members to comment and contribute when it's convenient for them.
 
@@ -88,7 +88,7 @@ Valuing efficiency enables an all-remote team to work well asynchronously. In co
 
 Valuing [diversity, inclusion and belonging]({{< ref "values#diversity-inclusion" >}}) helps support an all-remote structure. By hiring globally, rather than asking people to relocate to a specific city, all-remote companies will naturally boast a more geographically diverse team. This enables a broader range of perspectives, ensuring that a business is evaluating its own efforts through more lenses.
 
-All-remote means that you [will not sacrifice career advancement]({{< ref "/handbook/people-group/learning-and-development" >}}) by working outside of the office, and it creates a workplace where caregivers, individuals with physical disabilities, etc. are not disadvantaged for being unable to regularly commute into an office.
+All-remote means that you [will not sacrifice career advancement](/handbook/people-group/learning-and-development) by working outside of the office, and it creates a workplace where caregivers, individuals with physical disabilities, etc. are not disadvantaged for being unable to regularly commute into an office.
 
 It also enables those who must relocate frequently for family and personal reasons (e.g. [military spouses]({{< ref "./people#military-spouses-and-families" >}})) to take their career with them, and allows movement and relocation to physical settings that contribute to an individual's health (e.g. moving to a location with an improved air quality index).
 
@@ -130,7 +130,7 @@ In the [GitLab Unfiltered](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRT
 
 [Transparency]({{< ref "values#transparency" >}}) is simplest to implement when there is nowhere to hide. In all-remote companies, there's no hallway chatter, no secret elevator talks, and no locked boardrooms. All-remote companies require transparency to thrive. Every company should aspire to transparency, but an all-remote culture receives outsized benefit by achieving it.
 
-At GitLab, we have regular, recorded meetings to discuss progress on each department's metrics and [OKRs]({{< ref "/handbook/company/okrs" >}}). This is an excellent example of transparency providing benefit to an all-remote culture. Team members are able to listen and learn when it best suits their schedule, and even those who work in functions outside of that team are able to gain a broader understanding of what matters to the company.
+At GitLab, we have regular, recorded meetings to discuss progress on each department's metrics and [OKRs](/handbook/company/okrs). This is an excellent example of transparency providing benefit to an all-remote culture. Team members are able to listen and learn when it best suits their schedule, and even those who work in functions outside of that team are able to gain a broader understanding of what matters to the company.
 
 ---
 

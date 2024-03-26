@@ -57,4 +57,4 @@ Hack for She, a completely virtual hackathon aimed to find solutions to Women’
 
 ----
 
-Return to the [People Group Handbook]({{< ref "/handbook/people-group" >}}).
+Return to the [People Group Handbook](/handbook/people-group).

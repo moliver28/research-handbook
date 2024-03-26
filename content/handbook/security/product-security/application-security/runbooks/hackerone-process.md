@@ -87,7 +87,7 @@ the responsible engineering team:
     - Import the report into a GitLab issue using `/h1 import <report> [project] [options]` in Slack
         - Note: by default a placeholder [CVE issue](https://gitlab.com/gitlab-org/cves/-/issues) is created and a brief note is added to the latest [bug bounty council issue](https://gitlab.com/gitlab-com/gl-security/security-department-meta/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=Bug%20Bounty%20Council). Pass `~no-cve` or `~no-bounty` respectively to the `/h1 import` command to prevent their creation.
     - On the imported GitLab issue:
-        - Verify the Severity/Priority assigned by `h1import` ([Severity and Priority]({{< ref "/handbook/security/engaging-with-security#severity-and-priority-labels-on-security-issues" >}}) and [Remediation SLAS]({{< ref "/handbook/security/threat-management/vulnerability-management#remediation-slas" >}}))
+        - Verify the Severity/Priority assigned by `h1import` ([Severity and Priority](/handbook/security/engaging-with-security#severity-and-priority-labels-on-security-issues) and [Remediation SLAS](/handbook/security/threat-management/vulnerability-management#remediation-slas))
         - Assign the appropriate [Due Date]({{< ref "engaging-with-security#due-date-on-security-issues" >}})
         - Have a proper [`How to reproduce`]({{< ref "engaging-with-security#reproducibility-on-security-issues" >}}) section, by for instance copying the final reproduction steps written by our HackerOne triager into the issue.
         - If the report is a security-related documentation change, add the `~documentation` label
@@ -232,7 +232,7 @@ The HackerOne bot will automatically assign the correct due date based on severi
 
 When a patch is released and the award process complete, it is time to close the HackerOne issue.
 
-After 30 days, follow the [process for disclosing security issues]({{< ref "/handbook/security#process-for-disclosing-security-issues" >}}).
+After 30 days, follow the [process for disclosing security issues](/handbook/security#process-for-disclosing-security-issues).
 Once this has occurred, the HackerOne issue can also be publicly disclosed on
 a case-by-case basis, following the same process to remove sensitive information.
 We should not disclose, or request to disclose, a HackerOne issue while the GitLab issue

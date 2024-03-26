@@ -65,7 +65,7 @@ The logistics phase will define detailed rules for each specific operation. The 
 
 At GitLab, our Red Team and Blue Team have a long history of working collaboratively towards a common goal. Despite playing roles that are adversarial in nature, we want to maintain a very high level of trust and respect between the teams.
 
-We define some specific rules below, but in general we want to remember to always be kind and compassionate in our work. If something feels like it conflicts with [GitLab's values]({{< ref "/handbook/values" >}}), we need to re-evaluate exactly what we are doing and why we are doing it.
+We define some specific rules below, but in general we want to remember to always be kind and compassionate in our work. If something feels like it conflicts with [GitLab's values](/handbook/values), we need to re-evaluate exactly what we are doing and why we are doing it.
 
 - The Red Team will not intentionally distract or mislead SIRT using official company communication channels under the team's legitimate user accounts.
 - The Red Team will make an effort to avoid triggering on-call incidents outside of normal business hours. In general, this means not conducting attack techniques during hours when it is a weekend or holiday globally.

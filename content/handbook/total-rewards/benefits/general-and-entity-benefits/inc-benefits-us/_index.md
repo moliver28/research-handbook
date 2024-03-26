@@ -42,7 +42,7 @@ You can log into PlanSource through your Workday profile. There is an integratio
 1. Once you have logged into Workday click `View All Apps` link. Click `Personal Information` app
 1. Scroll to the bottom of the page under `External Links`, select `US Benefits Enrollment - PlanSource`
 1. On the left Column on the PlanSource home page, select `Documents`, select `Tax Documents`
-1. Select `Prior Calendar Year` and Download the 1095-C form. You can also elect to go Paperless moving forward.  
+1. Select `Prior Calendar Year` and Download the 1095-C form. You can also elect to go Paperless moving forward.
 
 ## Who To Contact
 
@@ -194,7 +194,7 @@ Accredo is Cigna's specialty pharmacy. For more information on managing your spe
 | Team Member + Child(ren) | $28  | $294 | $282 |
 | Family                   | $62  | $548 | $528 |
 
-Note: For the **HSA**, GitLab will contribute $100 per month for individuals and $125 per month for team members + dependent(s) cover. For residents of California, Alabama, and New Jersey this additional contribution is taxable on the state level.  
+Note: For the **HSA**, GitLab will contribute $100 per month for individuals and $125 per month for team members + dependent(s) cover. For residents of California, Alabama, and New Jersey this additional contribution is taxable on the state level.
 
 Watch the [2024 High Deductible (HDHP) & HSA Deep dive Webinar](https://drive.google.com/file/d/1DEvMLEdiR793GXKGcUzt8F6lweJVMYVb/view?usp=sharing) to learn more about this health plan and the tax advantages of enrolling in the HDHP plan with an HSA.
 
@@ -545,7 +545,7 @@ Effective 2024, GitLab offers access to 529 plan investments to US team members 
 To learn more visit ScholarShare529.com/employer or email: workplace529@scholarshare.com
 
 Enroll anytime at [ScholarShare529](https://www.ScholarShare529.com) or call 800-544-5248.
-[ScholarShare Flyer Guide](https://drive.google.com/file/d/1D3k31fDxkeks7XigTa_Cn0_itIYoQW1A/view?usp=sharing) & [529 Overview](https://drive.google.com/file/d/1GXAdVLVJLsruj-2s9twpQ3p1c6CzOAFn/view?usp=sharing).  
+[ScholarShare Flyer Guide](https://drive.google.com/file/d/1D3k31fDxkeks7XigTa_Cn0_itIYoQW1A/view?usp=sharing) & [529 Overview](https://drive.google.com/file/d/1GXAdVLVJLsruj-2s9twpQ3p1c6CzOAFn/view?usp=sharing).
 
 Want more information?
 • Register for one of our live and interactive [webinars](https://www.scholarshare529.com/events) that fits your schedule, hosted monthly.
@@ -621,13 +621,13 @@ You may now take a loan from your GitLab 401(k) Plan.
 ### 401(k) In-Plan Roth Conversion
 
 You may now convert money from your pre-tax source, to the Roth source, all within the 401(k) Plan.
-- Please consult with your tax advisor as any amount converted will be taxable in the year it is moved to the Roth source.  
+- Please consult with your tax advisor as any amount converted will be taxable in the year it is moved to the Roth source.
 - Fidelity is available at 800-835-5097 to assist you with processing changes or answer any questions you may have.
 
 *Questions on the 401(k) Loan or In-Plan Roth Conversion?*
 - To process changes or to discuss taking a 401(k) Loan or making an In-Plan Roth Conversion, please directly contact Fidelity's team at 800-835-5097.
 - *If you’d like to speak with an advisor* about the investments in the plan, or about your larger financial picture including tax strategies and retirement planning – please reach out to SageView Advisory Group. [Click here](https://calendly.com/elamb-financial/30min?month=2023-10) to schedule a complimentary financial consultation at your convenience.
-- If you have general questions, please reach out to the Total Rewards Team (total-rewards@gitlab.com).  
+- If you have general questions, please reach out to the Total Rewards Team (total-rewards@gitlab.com).
 
 ### 401(k) Committee
 
@@ -807,7 +807,7 @@ If you are currently employed and have any general COBRA questions, feel free to
 
 ## GitLab Inc. United States Leave Policy
 
- All information regarding leave policies in the United States (including FMLA, CFRA) can be found on the [Leave of Absence - US]({{< ref "/handbook/people-policies/leave-of-absence/us" >}}) handbook page.
+ All information regarding leave policies in the United States (including FMLA, CFRA) can be found on the [Leave of Absence - US](/handbook/people-policies/leave-of-absence/us) handbook page.
 
 ## Parental Leave
 
@@ -817,7 +817,7 @@ Information regarding GitLab's Parental Leave policy and how to apply, can be fo
 
 ## State-Specific Allowed Leaves
 
-To learn more about State-specific leave laws, please visit the [Leave of Absence - US]({{< ref "/handbook/people-policies/leave-of-absence/us" >}}) handbook page.
+To learn more about State-specific leave laws, please visit the [Leave of Absence - US](/handbook/people-policies/leave-of-absence/us) handbook page.
 
 
 #### 2024
