@@ -8,7 +8,7 @@ title: "Board of Directors and Corporate Governance"
 ### Board of Directors
 
 1. [Current members of the Board of Directors](https://ir.gitlab.com/corporate-governance/board-of-directors-grid)
-1. [Board of Directors Job Description]({{< ref "/job-families/board-of-directors/board_member" >}})
+1. [Board of Directors Job Description](/job-families/board-of-directors/board_member)
 
 ### Audit Committee
 
@@ -219,7 +219,7 @@ For a more detailed overview of navigating the NBV portal, please click here to 
 1. The deck includes a People Group section composed of: Attrition and General Update.
 1. The deck should strive to not exceed 7 slides per group.
 1. Slides should convey a high-level overview as opposed to operational updates and will not include embedded links.
-1. Put information on public webpages such as [/strategy]({{< ref "/handbook/company/strategy" >}}) as much as possible.
+1. Put information on public webpages such as [/strategy](/handbook/company/strategy) as much as possible.
 1. Sensitive information goes into the Administration deck managed by the CFO.
 1. Font size should be minimum 16pt, footnotes excluded. We want to make sure everything can be read.
 1. Every slide should have a title which provides the key takeaway from that slide.
@@ -255,7 +255,7 @@ We usually have a Board Dinner on the evening before a Board Meeting. The EBA to
 
 Each quarter, [E-Group]({{< ref "structure#e-group" >}}) can choose to invite an additional team member as a Key Talent Guest. If this is desired in a specific quarter, at least a month before the dinner, the CoS to the CEO will gather nominations and ensure that E-Group has identified an invitee. Criteria for consideration includes:
 
-1. [Key Talent]({{< ref "/handbook/people-group/talent-assessment#key-talent" >}})
+1. [Key Talent](/handbook/people-group/talent-assessment#key-talent)
 1. High performance
 1. Clear results
 1. Function (should have representation across functions throughout the year)
@@ -314,9 +314,9 @@ We will have one Board member per quarter conduct an AMA (Ask Me Anything) sessi
 
 - [Nominating and Corporate Governance Committee](#nominating-and-corporate-governance-committee) - Collaborate on Board evolution. Provide recommendations for potential new GitLab BoD members; meet and vet potential new board members; provide feedback on candidates.
 - CEO and Selected Members of [E-Group]({{< ref "structure#e-group" >}}) - Meet and vet potential new board members; provide feedback on candidates.
-- [CLO]({{< ref "/job-families/legal-and-corporate-affairs/chief-legal-officer" >}}) - Nominating and Corporate Governance Committee DRI.
-- [CEO's Staff Executive Business Administrator]({{< ref "/job-families/people-group/executive-business-administrator" >}}) - DRI for Board and Committee scheduling.
-- [Executive Recruiter]({{< ref "/job-families/people-group/executive-recruiter" >}}) - Responsible for drafting communication to potential Board members as well as drafting email communication with Nominating and Corporate Governance Committee when questions arise.
+- [CLO](/job-families/legal-and-corporate-affairs/chief-legal-officer) - Nominating and Corporate Governance Committee DRI.
+- [CEO's Staff Executive Business Administrator](/job-families/people-group/executive-business-administrator) - DRI for Board and Committee scheduling.
+- [Executive Recruiter](/job-families/people-group/executive-recruiter) - Responsible for drafting communication to potential Board members as well as drafting email communication with Nominating and Corporate Governance Committee when questions arise.
 
 ### Interview Process
 

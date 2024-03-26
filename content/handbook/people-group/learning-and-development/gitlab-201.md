@@ -183,5 +183,5 @@ description: "[insert a short sentence to appear as part of search results]"
 ### Helpful tips for updating the handbook
 
 1. To locate the handbook on gitlab.com, navigate to `www-gitlab-com` project, click sites - handbook - source - handbook. Click the section of the handbook you want to navigate to (eg people group, marketing), the folders are arranged alphabetically.
-1. The [markdown guide]({{< ref "/docs/markdown-guide#markdown-style-guide-for-aboutgitlabcom" >}}) page contains useful tips for updating the handbook, such as adding images, embedding documents and much more.
-1. If you don’t know how to do something - find another instance of it in the handbook. For example, if you want to add a table to the handbook. Navigate to a section of the handbook that contains a table, the [People Group]({{< ref "/handbook/people-group" >}}) page is a good example. Click `view source` to see how the table looks. You may copy/paste, then edit to suit your needs.
+1. The [markdown guide](/docs/markdown-guide#markdown-style-guide-for-aboutgitlabcom) page contains useful tips for updating the handbook, such as adding images, embedding documents and much more.
+1. If you don’t know how to do something - find another instance of it in the handbook. For example, if you want to add a table to the handbook. Navigate to a section of the handbook that contains a table, the [People Group](/handbook/people-group) page is a good example. Click `view source` to see how the table looks. You may copy/paste, then edit to suit your needs.

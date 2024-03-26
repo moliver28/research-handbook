@@ -213,7 +213,7 @@ Members of the management group are expected to demonstrate leadership in the wa
 
 #### Board Members
 
-[Board Members]({{< ref "/job-families/board-of-directors/board_member" >}}) serve on the GitLab board and participate in board meetings and board committees, as well as other responsibilities.
+[Board Members](/job-families/board-of-directors/board_member) serve on the GitLab board and participate in board meetings and board committees, as well as other responsibilities.
 
 ## CEO Skips
 
@@ -485,7 +485,7 @@ The [MR](https://gitlab.com/gitlab-com/www-gitlab-com/-/merge_requests/66180) de
 
 ### Working Groups
 
-A [working group]({{< ref "/handbook/company/working-groups" >}}) is a specific type of group that assembles for a period of time to accomplish a business goal. Working groups have defined responsibilities and meet regularly. Ideally a working group can disband when the goal is complete to avoid accrued bureaucracy.
+A [working group](/handbook/company/working-groups) is a specific type of group that assembles for a period of time to accomplish a business goal. Working groups have defined responsibilities and meet regularly. Ideally a working group can disband when the goal is complete to avoid accrued bureaucracy.
 
 ### Middle Management
 

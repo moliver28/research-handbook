@@ -245,11 +245,11 @@ Especially after the global pandemic, people are concerned about decreasing thei
 
 ### Save on real estate expenses
 
-Some hybrid-remote options allow employees to choose where they live. At any given time, they are free to [relocate]({{< ref "/handbook/people-group/relocation" >}}), be [location independent](https://about.gitlab.com/blog/2019/06/25/how-remote-work-at-gitlab-enables-location-independence), or even [travel with other remote professionals]({{< ref "./resources#organizations-for-traveling-remote-work" >}}).
+Some hybrid-remote options allow employees to choose where they live. At any given time, they are free to [relocate](/handbook/people-group/relocation), be [location independent](https://about.gitlab.com/blog/2019/06/25/how-remote-work-at-gitlab-enables-location-independence), or even [travel with other remote professionals]({{< ref "./resources#organizations-for-traveling-remote-work" >}}).
 
 ### Hire talent across the globe
 
-Not only does hybrid remote allow organizations to hire the best talent on the planet, it also gives your employees the opportunity to network as they [meet and work with people from many locations around the world]({{< ref "/handbook/incentives#visiting-grant" >}}), widening one's view of the world and creating opportunities to learn about new cultures.
+Not only does hybrid remote allow organizations to hire the best talent on the planet, it also gives your employees the opportunity to network as they [meet and work with people from many locations around the world](/handbook/incentives#visiting-grant), widening one's view of the world and creating opportunities to learn about new cultures.
 
 ## Disadvantages to hybrid-remote
 
@@ -272,13 +272,13 @@ There are considerations when accepting a role in a hybrid-remote company, and i
 
 ## Overcoming the hybrid-remote model’s problems
 
-Clear communication is one of the best ways to overcome hybrid-remote challenges.[GitLab's handbook]({{< ref "/handbook" >}}) captures everything an employee needs to know promoting autonomy and [efficiency]({{< ref "values#efficiency" >}}) for communication, processes, and procedures.
+Clear communication is one of the best ways to overcome hybrid-remote challenges.[GitLab's handbook](/handbook) captures everything an employee needs to know promoting autonomy and [efficiency]({{< ref "values#efficiency" >}}) for communication, processes, and procedures.
 
-Each department and team should set, share, and track both monthly and quarterly goals, or ["objectives and key results" (OKRs)]({{< ref "/handbook/company/okrs" >}}). GitLab's OKRs are also clearly documented in our handbook for visibility across the company.
+Each department and team should set, share, and track both monthly and quarterly goals, or ["objectives and key results" (OKRs)](/handbook/company/okrs). GitLab's OKRs are also clearly documented in our handbook for visibility across the company.
 
-Our unique approach to [documentation]({{< ref "/handbook/documentation" >}}) also helps with [onboarding new team members]({{< ref "./learning-and-development" >}}) by putting everything they need to know in one place.
+Our unique approach to [documentation](/handbook/documentation) also helps with [onboarding new team members]({{< ref "./learning-and-development" >}}) by putting everything they need to know in one place.
 
-Finally, we recommend developing an extensive [onboarding template](https://gitlab.com/gitlab-com/people-group/employment-templates/-/blob/main/.gitlab/issue_templates/onboarding.md). Hosting a panel, like our [GitLab 101]({{< ref "/handbook/company/culture/gitlab-101" >}}), allows new hires to ask questions.
+Finally, we recommend developing an extensive [onboarding template](https://gitlab.com/gitlab-com/people-group/employment-templates/-/blob/main/.gitlab/issue_templates/onboarding.md). Hosting a panel, like our [GitLab 101](/handbook/company/culture/gitlab-101), allows new hires to ask questions.
 
 ## What does a hybrid-remote work schedule look like?
 
@@ -303,7 +303,7 @@ I often find the midday slump to be so real, so if I'm feeling this way I step a
 ![GitLab values illustration](/images/all-remote/gitlab-values-tanukis.jpg)
 {style="max-width: 50%"}
 
-The [movement]({{< ref "./stages" >}}) from hybrid-remote to all-remote is defined at GitLab as an `All-Remote Upgrade`. For reference, in January 2020, 17% of new hires attending the [CEO 101 call]({{< ref "/handbook/company/culture/gitlab-101" >}}) moved from a hybrid-remote model to all-remote at GitLab.
+The [movement]({{< ref "./stages" >}}) from hybrid-remote to all-remote is defined at GitLab as an `All-Remote Upgrade`. For reference, in January 2020, 17% of new hires attending the [CEO 101 call](/handbook/company/culture/gitlab-101) moved from a hybrid-remote model to all-remote at GitLab.
 
 This highlights another reality: [not all remote models are equal](https://about.gitlab.com/blog/2019/09/04/not-all-remote-is-created-equal), nor do they create [equality](https://about.gitlab.com/blog/2019/12/06/how-all-remote-supports-inclusion-and-bolsters-communities). All-remote is the [purest](https://about.gitlab.com/blog/2018/10/18/the-case-for-all-remote-companies) form of remote work, where every individual is treated as a [first-class team member]({{< ref "./people" >}}).
 
@@ -328,7 +328,7 @@ It is possible to find remote-first companies with a healthy, understanding cult
 
 ## GitLab Knowledge Assessment: Understanding a Hybrid-Remote Environment
 
-Anyone can test their knowledge on Understanding a Hybrid-Remote Environment by completing the [knowledge assessment](https://docs.google.com/forms/d/e/1FAIpQLSc-aKsS7Yu1-wwlpHsfEtHt8CkKK5n5UhnnU6ixTlM00Dz9cw/viewform). Earn at least an 80% or higher on the assessment to receive a passing score. Once the quiz has been passed, you will receive an email acknowledging the completion from GitLab. We are in the process of designing a GitLab Remote Certification and completion of the assessment will be one requirement in obtaining the [certification](https://about.gitlab.com/learn/certifications/public). If you have questions, please reach out to our [Learning & Development]({{< ref "/handbook/people-group/learning-and-development" >}}) team at `learning@gitlab.com`.
+Anyone can test their knowledge on Understanding a Hybrid-Remote Environment by completing the [knowledge assessment](https://docs.google.com/forms/d/e/1FAIpQLSc-aKsS7Yu1-wwlpHsfEtHt8CkKK5n5UhnnU6ixTlM00Dz9cw/viewform). Earn at least an 80% or higher on the assessment to receive a passing score. Once the quiz has been passed, you will receive an email acknowledging the completion from GitLab. We are in the process of designing a GitLab Remote Certification and completion of the assessment will be one requirement in obtaining the [certification](https://about.gitlab.com/learn/certifications/public). If you have questions, please reach out to our [Learning & Development](/handbook/people-group/learning-and-development) team at `learning@gitlab.com`.
 
 {{% include "includes/is_this_advice_any_good_remote.md" %}}
 

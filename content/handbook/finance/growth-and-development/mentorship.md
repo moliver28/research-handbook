@@ -2,13 +2,13 @@
 title: Finance Mentorship Program
 ---
 
-Update: The Finance Mentorship Program is not currently active. We will update this page in the future if that changes. For information on GitLab Mentorship programs, see this [page]({{< ref "/handbook/people-group/learning-and-development/mentor" >}})
+Update: The Finance Mentorship Program is not currently active. We will update this page in the future if that changes. For information on GitLab Mentorship programs, see this [page](/handbook/people-group/learning-and-development/mentor)
 
 As discussed in [GitLab’s Remote Playbook]({{< ref "all-remote" >}}), the intentionality behind communication, especially in remote settings, is a critical element of success. This pilot program aims to support GitLab’s communications plan by purposefully creating and cultivating opportunities for mentors, mentees, and connection.
 
 In the finance team, there's a great untapped opportunity for cross-training and relationship building. We are launching our first mentorship pilot program to establish whether mentorship is a good way for the finance team to facilitate learning and development and normalize knowledge sharing in our department.
 
-For reference and guidance, you can refer to the [L&D Mentorship Documentation]({{< ref "/handbook/people-group/learning-and-development/mentor" >}}).
+For reference and guidance, you can refer to the [L&D Mentorship Documentation](/handbook/people-group/learning-and-development/mentor).
 
 ## Program Structure
 
