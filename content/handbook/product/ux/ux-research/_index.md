@@ -96,7 +96,7 @@ Below is a full list of our UX Research team handbook content:
 ### UX Research training
 
 - [Interview Carousel - Becoming a better interviewer 15 minutes at a time](/handbook/product/ux/ux-research/interview-carousel/)
-- [Qualtrics tips and tricks](/handbook/product/ux/ux-research/qualtrics/)
+- [Qualtrics tips and tricks](/handbook/product/ux/ux-research/surveys/qualtrics/)
 - [UX Research shadowing](/handbook/product/ux/ux-research/research-shadowing/)
 - [When to conduct UX Research training (internal LevelUp course)](https://levelup.gitlab.com/learn/course/when-to-conduct-ux-research)
 
