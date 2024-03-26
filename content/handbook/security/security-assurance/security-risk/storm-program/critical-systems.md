@@ -92,7 +92,7 @@ Systems are designated a Critical System Tier based on the following matrix:
 {{% /panel %}}
 
 {{% panel header="**Why do we differentiate between impact on SaaS subscriptions vs. major business functions or capabilities?**" header-bg="warning" %}}
-Critical System Tiers help prioritize risk mitigation activities for systems critical to serving GitLab’s Customers. GitLab's core service offering is GitLab SaaS.  Thus, the systems that have an immediate and significant impact on the availability/security of GitLab SaaS subscriptions and Customer data in the event of a disruption are highest-priority for the company to be a going concern.  These are *Tier 1 Mission Critical* systems.
+Critical System Tiers help prioritize risk mitigation activities for systems critical to serving GitLab’s Customers. GitLab's core service offerings are  SaaS.  Thus, the systems that have an immediate and significant impact on the availability/security of GitLab SaaS subscriptions and Customer data in the event of a disruption are priority.  These are *Tier 1 Mission Critical* systems.
 {{% /panel %}}
 
 ### Why does GitLab need this methodology?
