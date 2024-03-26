@@ -59,7 +59,7 @@ The metrics by which we measure the success of the Code Review category are alig
 
 Our _primary_ metric is: **reducing the duration of the Code Review**. This is measured as the duration from the first merge request version to merged.
 
-{{< sisense chart="10409104" dashboard="785600" >}}
+The MTTM can be found on this [dashboard](https://10az.online.tableau.com/#/site/gitlab/workbooks/2372920/views).
 
 ### Secondary metrics
 
@@ -82,13 +82,21 @@ experience = f(perceived performance, task completion)
 
 ### Development Metrics
 
-{{% cross-functional-dashboards filters="Code Review" %}}
+{{< tableau height="600px" toolbar="hidden" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/TopEngineeringMetrics/TopEngineeringMetricsDashboard" >}}
+  {{< tableau/filters "GROUP_LABEL"="code review" >}}
+{{< /tableau >}}
 
-#### MRs and Issues Without Types
+{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/MergeRequestMetrics/OverallMRsbyType_1" >}}
+  {{< tableau/filters "GROUP_LABEL"="code review" >}}
+{{< /tableau >}}
 
-In addition to the above dashboard, here are search links to ensure our MRs and Issues have the correct types:
+{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/Flakytestissues/FlakyTestIssues" >}}
+  {{< tableau/filters "GROUP_NAME"="code review" >}}
+{{< /tableau >}}
 
-{{< sisense chart="15814629" dashboard="786869" >}}
+{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/SlowRSpecTestsIssues/SlowRSpecTestsIssuesDashboard" >}}
+  {{< tableau/filters "GROUP_LABEL"="code review" >}}
+{{< /tableau >}}
 
 ### Exploration and experimentation
 
@@ -162,8 +170,6 @@ For tips, tricks, or quick shell scripts that aren't "ready" or sufficient enoug
 ### Middle of milestone check-in
 
 {{% include "includes/engineering/midmilestone.md" %}}
-
-The data and calcuations are available in Sisense on the [Code Review Milestone Check-in dashboard](https://app.periscopedata.com/app/gitlab/919979/Code-Review-Milestone-Check-in).
 
 ### Workflow labels
 

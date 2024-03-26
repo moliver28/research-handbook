@@ -54,12 +54,7 @@ We will assist in managing and providing guidance to carry out day to day activi
 
 ## <i class="fas fa-id-card" style="color:rgb(110,73,203)" aria-hidden="true"></i> Contact the Team
 
-[Donovan Felton](/handbook/company/team/#dfelton), @dfelton, Security Assurance Engineer, Automation
-
-- [Automation design, development, and implementation]({{< ref "security-assurance-automation" >}})
-- [GRC application administration]({{< ref "security-assurance#core-tools-and-systems-1" >}})
-
-[Joe Longo](/handbook/company/team/#jlongo_gitlab), @jlongo_gitlab, Manager, Governance and Field Security
+[Joe Longo](/handbook/company/team/#jlongo_gitlab), @jlongo_gitlab, Senior Manager, Governance and Field Security
 
 - [Controlled Documents]({{< ref "controlled-document-procedure" >}})
 - [Security compliance training]({{< ref "sec-training" >}})
@@ -72,4 +67,4 @@ We will assist in managing and providing guidance to carry out day to day activi
 - [Security Compliance Controls]({{< ref "sec-controls" >}})
 - [Controlled Document Procedure]({{< ref "controlled-document-procedure" >}})
 
-<a href="https://about.gitlab.com/handbook/security/security-assurance/field-security/" class="btn bg-primary text-white btn-lg">Return to the Field Security Homepage</a>
+<a href="{{< ref "security-assurance" >}}" class="btn bg-primary text-white btn-lg">Return to the Security Assurance Homepage</a>

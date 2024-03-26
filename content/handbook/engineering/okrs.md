@@ -19,7 +19,7 @@ All of our past OKRs are available to the public [HERE](https://drive.google.com
 
 ## Active OKRs FY24-Q2
 
-The source of truth for GitLab OKRs and KRs is [GitLab](https://gitlab.com/gitlab-com/gitlab-OKRs/-/issues/?sort=due_date&state=opened&assignee_username%5B%5D=joergheilig&label_name%5B%5D=OKR&milestone_title=FY24-Q2&first_page_size=50). CTO objectives and KRs are aligned to CEO OKRs on [this page](/handbook/company/okrs/fy24-q2/).
+The source of truth for GitLab OKRs and KRs is [GitLab](https://gitlab.com/gitlab-com/gitlab-OKRs/-/issues/?sort=due_date&state=opened&assignee_username%5B%5D=joergheilig&label_name%5B%5D=OKR&milestone_title=FY24-Q2&first_page_size=50). CTO objectives and KRs are aligned to company OKRs on [this page](/handbook/company/okrs/fy24-q2/).
 
 
 ### 1. CTO: [Continue to win against GitHub with AI in all we do](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/2231)
@@ -69,7 +69,7 @@ We sometimes have Engineering OKRs that require assistance from Product to ensur
 
 As a result, Engineering will begin communicating with Product **6 weeks before the start of the quarter** regarding any possible upcoming OKRs that need scheduling assistance from PMs. The goal is at **4 weeks before the start of the quarter** Engineering will confirm alignment with Product on shared OKRs. See the [Product OKR timeline](/handbook/product/product-okrs/) for more details. There is no set number for joint OKRs, and should not be a large proportion of Engineering OKRs in any quarter.
 
-As this is earlier than the typical company timeline for OKRs, the exact timeline may shift depending on the [CEO OKR timeline](/handbook/company/okrs/#okr-process-at-gitlab), and drafting should begin based on top business need including [top initiatives](/handbook/company/top-cross-functional-initiatives/), [3 year strategy](/handbook/company/strategy/#three-year-strategy), and especially [FY direction](https://about.gitlab.com/direction/).
+As this is earlier than the typical company timeline for OKRs, the exact timeline may shift depending on the [company OKR timeline](/handbook/company/okrs/#okr-process-at-gitlab), and drafting should begin based on top business need including [top initiatives](/handbook/company/top-cross-functional-initiatives/), [3 year strategy](/handbook/company/strategy/#three-year-strategy), and especially [FY direction](https://about.gitlab.com/direction/).
 
 ## OKR Kickoff
 
@@ -129,7 +129,7 @@ If an objective or key result needs to be changed to the other type, you will ne
 To ensure scoring is updated correctly, all OKRs that are CTO aligned should be children of the CTO-level OKRs.
 The Department OKRs directly aligned to the CTO-level OKRs must be updated manually or automatically from its children.
 
-If your department has OKRs that are aligned to *CEO OKRs* that are not CTO aligned, follow the guidelines in this section, then [CEO alignment](/handbook/company/okrs/#how-to-align-division-okrs-to-the-ceo-okrs).
+If your department has OKRs that are aligned to *company OKRs* that are not CTO aligned, follow the guidelines in this section, then [CEO alignment](/handbook/company/okrs/#how-to-align-division-okrs-to-the-ceo-okrs).
 
 Using a hypothetical example:
 

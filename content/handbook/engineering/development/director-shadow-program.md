@@ -21,6 +21,7 @@ Some blogs from previous shadows:
 1. [Exciting Experience at GitLab Shadow Program](https://www.linkedin.com/posts/palwasha-malik_pakistani-gitlab-gitlabshadowprogram-activity-7075930932083310592-RZLr/) - [Palwasha Malik](https://www.linkedin.com/in/palwasha-malik/)
 1. [Reflections from shadowing GitLab's Development Director](https://singhanshuman.hashnode.dev/reflections-from-shadowing-gitlabs-development-director) - [Anshuman Singh](https://www.linkedin.com/in/anshuman-singh-4537731a5/)
 1. [One week shadowing Wayne Haber, Director of Engineering at GitLab](https://marcaurele.brothier.org/articles/2024-shadow-gitlab-eng-director-wayne-haber/) - [Marc-Aurele Brothier](https://www.linkedin.com/in/marcaurele) 
+1. [Engineering Leadership at GitLab](https://www.linkedin.com/posts/perera-sameera_leadership-lessons-from-gitlab-activity-7165714252924702720-zvEq) from [Sameera Perera](https://www.linkedin.com/in/perera-sameera)
 
 
 ## Benefits
@@ -150,19 +151,17 @@ No, not at this time.
 
 | Week of | Shadow(s) | Role |
 | ------ | ------ | ----- |
-| Feb 5 | [Tyler DeCaire](https://gitlab.com/tdecaire) | Solutions Architect |
-| Feb 12 | Not Available | |
-| Feb 19 | [Kev](https://gitlab.com/kevslashnull) | Non-GitLab shadow - Software Engineer |
-| Feb 26 | Available | |
-| Mar 4 | Available | |
-| Mar 11 | Available though not a preferred week for shadows | |
-| Mar 18 | Available | |
 | Mar 25 | Available | |
-| Apr 1 | Available though not a preferred week for shadows | |
-| Apr 8 | Available |
+| Apr 1 | Available | |
+| Apr 8 | Available for GitLab team members shadows in EMEA |
 | Apr 15 | Available |
 | Apr 22 | Available |
 | Apr 29 | Available |
+| May 6 | Available |
+| May 13 | Available |
+| May 20 | Available |
+| May 27 | Available |
+
 
 ## Shadow Alumni
 
@@ -204,5 +203,7 @@ No, not at this time.
 | [Marc-Aurele Brothier](https://www.linkedin.com/in/marcaurele) | Non-GitLab shadow - Senior Engineering Manager at [Pix4D](https://www.pix4d.com/) |
 | [Sameera Perera](https://www.linkedin.com/in/perera-sameera) | Non-GitLab Shadow - Director of R&D @ Celigo |
 | [Carla Drago](https://gitlab.com/carlad-gl) | Senior Backend Engineer |
+| [Tyler DeCaire](https://gitlab.com/tdecaire) | Solutions Architect |
+| [Kev](https://gitlab.com/kevslashnull) | Non-GitLab shadow - Software Engineer |
 
 

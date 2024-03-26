@@ -39,7 +39,7 @@ Trusted subject matter experts for GitLab’s internal and partner teams, provid
 ### How to Contact Us
 
 The **#partner-programs-ops** Slack channel can be leveraged for inquiries. Both the Partner Operations Team and the Channel Programs Team monitor this slack channel.
-If you are reporting a problem or have suggestions, changes, or similar, please open an issue on the [Partner Operations Issue Board](https://gitlab.com/groups/gitlab-com/-/boards/2552402?&label_name[]=Channel%20Ops) for operational issues, or the [Channel Team’s Issue Board](https://gitlab.com/groups/gitlab-com/-/boards/1508300?label_name[]=Channel) for program issues.
+If you are reporting a problem or have suggestions, changes, or similar, please open an issue on the [Partner Operations Issue Board](https://gitlab.com/groups/gitlab-com/-/boards/2552402?label_name[]=Partner%20Ops) for operational issues, or the [Channel Team’s Issue Board](https://gitlab.com/groups/gitlab-com/-/boards/1508300?label_name[]=Channel) for program issues.
 
 ### The Partner Operations Issue Board
 
@@ -196,10 +196,11 @@ GitLab is building out a global Authorized Distributor network similar to many o
 - Select Partners may choose to transact directly with GitLab (excluding certain regions) or via the region's authorized distributor(s)
 - In NORTH AMERICA, Partners transact with [Climb Solutions](https://www.climbcs.com/) via `sales@climbcs.com` and `sales@climbcs.ca` in the US and Canada, respectively
 - In EMEA: Partners transact with Amazic via `gitlab@amazic.com`
+  - In META (Middle East, Turkey, and Africa): Partners may also choose to transact with [Mindware](https://www.mindware.net/contact-us) via `sales@mindware.net`
 - In APAC (several countries):  Partners transact with [Tech Data/TD Synnex](https://www.techdata.com/apac/en/partner-with-us/become-a-partner.html) via `GitLab.APJ@techdata.com`
-    - In India: Partners may also choose to transact with Redington via `gitlab@redington.co.in`
-    - In Japan: Partners may also choose to transact with [Networld](https://www.networld.co.jp/product/gitlab/) via `gitlab-info@networld.co.jp`
-    - In Thailand: Partners may also choose to transact with [Get On Technology](https://www.got.co.th/contact) via `gitlab@got.co.th`
+  - In India: Partners may also choose to transact with Redington via `gitlab@redington.co.in`
+  - In Japan: Partners may also choose to transact with [Networld](https://www.networld.co.jp/product/gitlab/) via `gitlab-info@networld.co.jp`
+  - In Thailand: Partners may also choose to transact with [Get On Technology](https://www.got.co.th/contact) via `gitlab@got.co.th`
 
 GitLab sellers can also refer to the [partner billing section](/handbook/sales/field-operations/channel-operations/#how-to-find-partner-billing-records-in-sfdc-and-use-for-quoting) of this handbook for a link to our distributor billing records and guidance on how these records are used in the quoting process.
 
@@ -457,7 +458,6 @@ The steps below outline how a Partner Sourced Deal Registration is submitted on 
   - Partner Sourced Deal Registration approval is based on who sourced that particular opportunity. If the partner brought us the deal, then the registration should be approved. For clarity, it is not about first touch with the customer, but the actual creation/conversion of an opportunity.
   - The GitLab Partner Manager should communicate and align with the GitLab Sales Rep and ASM prior to approving or rejecting the Deal Registration.
   - The GitLab ASM should communicate and align with the GitLab Partner Manager and Sales Rep prior to approving or rejecting the Deal Registration.
-  - *Friendly reminder*, a partner and a GitLab SDR cannot both source an opportunity, it has to be one or the other. As noted above, it is not about first touch with the customer, but the actual creation/conversion of an opportunity.
 - **GitLab SLAs**
   - The SLA for GitLab to communicate with partners on a Partner Sourced Deal Registration is two business days. There must be contact with the registering partner within two business days, whether it be initial outreach to discuss the registration, a request for more information, approval, or rejection.
   - The GitLab ASM has one business day to either approve or reject the Registration, which begins when the Registration hits their queue for approval. The ASM *must* communicate with the GitLab Partner Manager if their approval is anticipated to push beyond the one business day SLA.
@@ -719,7 +719,7 @@ Partner Influence Registration should only be submitted and approved for:
 1. a partner that did not source and/or transact the opportunity
 2. one partner (i.e., one approved Influence Registration/Partner per opportunity). Only the first approved record will qualify if multiple influence registrations are submitted and/or approved for one opportunity.
 
-The GitLab ASM has two business days to either approve or reject the Influence Registration, which begins when the Registration hits their queue for approval. The ASM must communicate with the GitLab Partner Manager if their approval is anticipated to push beyond the two business day SLA.
+The GitLab ASM has one business day to either approve or reject the Influence Registration, which begins when the Registration hits their queue for approval. The ASM must communicate with the GitLab Partner Manager if their approval is anticipated to push beyond the one business day SLA. Approval by the ASM will update the Influence Registration's `Status` to Approved and stamp `Influence Partner` on the opportunity with the partner account.
 
 Follow the steps below to register partner influence on an opportunity:
 
@@ -965,20 +965,14 @@ The GitLab Partner Operations team is responsible for compiling the reports outl
 
 ## Partner Forecast Salesforce Dashboards
 
-The following partner forecast dashboards have been published for FY24. Please use the dashboard relevant to your partner type and region or segment. You will only have access to view data from your region based on salesforce permissions.
-- Alliance Dashboards
-  - [Global](https://gitlab.my.salesforce.com/01Z8X000000u6oG)
-  - [AMER](https://gitlab.my.salesforce.com/01Z8X000000u6lM)
-  - [APAC](https://gitlab.my.salesforce.com/01Z8X000000u6lR)
-  - [EMEA](https://gitlab.my.salesforce.com/01Z8X000000u6lW)
-- Channel Dashboards
-  - [Global](https://gitlab.my.salesforce.com/01Z4M000000xdrC)
-  - [AMER](https://gitlab.my.salesforce.com/01Z4M000000xfGm)
-  - [APAC](https://gitlab.my.salesforce.com/01Z4M000000xfGr)
-  - [EMEA](https://gitlab.my.salesforce.com/01Z4M000000xfGw)
-  - [Japan](https://gitlab.my.salesforce.com/01ZPL000000BPXm)
-  - [Partner Managed](https://gitlab.my.salesforce.com/01Z8X000000u6ks)
-  - [PubSec](https://gitlab.my.salesforce.com/01Z8X000000u6kE)
+The following partner forecast dashboards have been published for FY25. Please use the dashboard relevant to your region or segment. You will only have access to view data from your region based on salesforce permissions.
+
+- [Global](https://gitlab.lightning.force.com/lightning/r/Dashboard/01ZPL000000gIzp2AE/view?queryScope=userFolders)
+- [AMER](https://gitlab.lightning.force.com/lightning/r/Dashboard/01ZPL000000ZuQj2AK/view?queryScope=userFolders)
+- [APAC](https://gitlab.lightning.force.com/lightning/r/Dashboard/01ZPL000000glNV2AY/view?queryScope=userFolders)
+- [EMEA](https://gitlab.lightning.force.com/lightning/r/Dashboard/01ZPL000000eZ2H2AU/view?queryScope=userFolders)
+- [Japan](https://gitlab.lightning.force.com/lightning/r/Dashboard/01ZPL000000hFmz2AE/view?queryScope=userFolders)
+- [PubSec](https://gitlab.lightning.force.com/lightning/r/Dashboard/01ZPL000000hF3p2AE/view?queryScope=userFolders)
 
 
 ## Clari Forecasting for Partner Managers and Leaders
@@ -1063,38 +1057,6 @@ GCP registrations can be submitted by accessing Google's [Partner Advantage port
 
 The executed compensation letter should be the approved and legal source of truth for compensation. However please use the following resources to assist in clarification or exceptions.
 
-[FY24 Partner Comp & Splits Matrix](https://docs.google.com/spreadsheets/d/1LpNM636JnqQxLtMphxzcyZbdF5MDTgnIXkJEARCV_-4/edit#gid=1399522836)
+[Sales Commissions Internal Handbook](https://internal.gitlab.com/handbook/sales/sales-commission/?redirected-from=internal-handbook.gitlab.io)
 
 [FY24 Partner Comp Exception Process](https://docs.google.com/document/d/1sUVZDDua5JB1omVUbqBkxA1NAhSed66sjzfIBaVIkGg/edit?usp=sharing)
-
-
-### Channel Neutral
-
-Comp Neutrality applies to all GitLab Opportunities where a Partner is involved in the physical transaction (takes paper) ***and*** a Partner Program discount is applied on the executed Partner Order Form.
-The maximum Comp Neutral payout is based on the applicable GitLab Partner Program discount matrix. If additional discount is needed in order to close the deal, that portion is not eligible for Comp Neutrality.
-In the event a lesser discount is applied on the deal then what the Partner Program allocates, then the lesser discount will also be what is calculated for Comp Neutrality.
-Other factors:
-- Starter/Bronze is not applicable even if a discount is approved
-- US PubSec Sales, Channel, and Alliances teams do not qualify
-- For Alliances transactions, the contractual discount is used to calculate comp neutral
-- IBM OEM deals do not qualify
-- For H1 FY22 comp neutral did not apply for Distribution discounts. Starting H2 FY22 the contractual Distribution discounts will apply however no retroactive payments/re-calculations will be made.
-
-As a reminder, comp neutrality only applies to comp and does not retire quota.
-
-For additional information, please review [Channel Neutral Compensation](https://internal.gitlab.com/handbook/sales/sales-commission/#channel-neutral-commissions) within the internal Sales Ops commission section of the Handbook.
-
-Internal: [Partner Program Discount Matrix](/handbook/sales/field-operations/channel-operations/#program-and-incentive-definitions)
-For Partner Program discounts specific to US PubSec, please reach out to #partner-program-ops on Slack.
-
-### 2-Tier Opportunities
-
-If the Opportunity is going through a 2-Tier Channel (Distributor + Reseller), both Partner Accounts must be included on the Opportunity in the Partner Information section in order for both Program discounts to apply AND for Comp Neutral to calculate on both. Reseller should be in the Partner  field and the applicable Distributor in the Distributor field on the Opportunity.
-
-### Opportunities with GCP and AWS
-
-For deals going through GCP and AWS, the Partner fields should still be filled out on the Opportunity but comp neutral will not calculate until the deal closes as partner discounts are done after the quote/order form is generated. Deal Desk will assist with this process.
-
-
-
-

@@ -6,6 +6,8 @@ type: docs
 
 This is our Tableau embed demo page.  It is used to demonstrate how we can embed Tableau visualizations into the handbook and provide the URL for views that are available to be embedded publicly.  To facilitate uniform experience and presentation we use a [shortcode](https://handbook.gitlab.com/docs/shortcodes/#tableau-embeds) to embed Tableau charts and dashboards.
 
+To view charts embedded in the handbook the browser will need to have third party cookies enabled. This is because the handbook site needs to connect to our public Tableau site, and uses cookies to do this. 
+
 ## Embedding Straight Into the Handbook (No YML File)
 
 ### Viz from Public Tableau site
@@ -32,7 +34,7 @@ The source url for a view from the internal Tableau site can be found by navigat
 
 ![](images/tableau_view_link.png)
 
-This chart should only require a log in to the Tableau site and only be visible to those that have a Tableau license. 
+This chart should only require a log in to the Tableau site and only be visible to those that have a Tableau license. GitLab team members should login via OKTA SSO.
 
 {{< tableau height="600px" src="https://10az.online.tableau.com/t/gitlab/views/OKR4_7EngKPITest/PastDueInfraDevIssues" >}}
 {{< /tableau >}}

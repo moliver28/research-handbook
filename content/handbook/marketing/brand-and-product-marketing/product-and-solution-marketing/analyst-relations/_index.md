@@ -114,7 +114,7 @@ Examples of how we engage with analysts include:
     - drive the briefing to the analysts
     - coordinate with Product leadership/CEO/others on final version of the questionnaire
 
-- Technical Marketing Manager (TMM) responsibilities:
+- Developer Advocate responsibilities:
     - read all information provided by AR in the issue
     - attend all meetings with the analysts related to this report
     - work with PMM and PM in creation of demo and briefing

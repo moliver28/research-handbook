@@ -148,7 +148,7 @@ The test pipelines run on a scheduled basis, and their results are posted to Sla
 | [GitLab `master`'s `e2e:package-and-test-ce`](https://gitlab.com/gitlab-org/gitlab/-/pipeline_schedules)     | Full                          | [Daily at 4:00 am UTC](https://gitlab.com/gitlab-org/gitlab/-/pipeline_schedules) | [`#qa-master`](https://gitlab.slack.com/archives/CNV2N29DM) | [Master CE](https://gitlab-qa-allure-reports.s3.amazonaws.com/e2e-package-and-test-ce/master/index.html) |
 | [GitLab `master`'s `e2e:package-and-test-nightly`](https://gitlab.com/gitlab-org/gitlab/-/pipeline_schedules)           | Full                          | [Daily at 4:00 am UTC](https://gitlab.com/gitlab-org/gitlab/-/pipeline_schedules) | [`#qa-master`](https://gitlab.slack.com/archives/CNV2N29DM) | [Master Nightly](https://gitlab-qa-allure-reports.s3.amazonaws.com/nightly/master/index.html) |
 | [GitLab `master`'s `e2e:test-on-gdk`](https://gitlab.com/gitlab-org/gitlab/-/pipelines?ref=master&source=schedule)     | Smoke, Reliable      | When the `e2e:test-on-gdk` job executes from a [scheduled pipeline every 2 hours](https://gitlab.com/gitlab-org/gitlab/pipeline_schedules) | [`#qa-master`](https://gitlab.slack.com/archives/CNV2N29DM) | [Master GDK](https://gitlab-qa-allure-reports.s3.amazonaws.com/e2e-test-on-gdk/master/index.html) |
-| [GitLab `master` review app](https://gitlab.com/gitlab-org/gitlab/pipelines)                      | Smoke, Reliable                | When the `review-app` job executes from a [scheduled pipeline every 2 hours](https://gitlab.com/gitlab-org/gitlab/pipeline_schedules) | [`#qa-master`](https://gitlab.slack.com/archives/CNV2N29DM) | [Master](https://gitlab-qa-allure-reports.s3.amazonaws.com/e2e-review-qa/master/index.html) |
+| [GitLab `master`'s `e2e:test-on-cng`](https://gitlab.com/gitlab-org/gitlab/-/pipeline_schedules) | Smoke, Reliable | [Daily at 4:00 am UTC](https://gitlab.com/gitlab-org/gitlab/pipeline_schedules) | [`#qa-master`](https://gitlab.slack.com/archives/CNV2N29DM) | [Master CNG](https://gitlab-qa-allure-reports.s3.amazonaws.com/e2e-test-on-cng/master/index.html) |
 
 #### Emoji used
 For each pipeline there is a notification of success or failure (except for `master` pipelines, which only report failures).
@@ -273,10 +273,7 @@ If you have any questions on the status, you can also reach out to the `@release
 GitLab `master` has three QA pipelines generated from scheduled pipeline against the default branch:
 
 - [`package-and-test`](https://docs.gitlab.com/ee/development/testing_guide/end_to_end/#using-the-package-and-test-job) runs the `full` suite of end-to-end tests against an omnibus Docker image built from `master`
-- [`review app`](https://docs.gitlab.com/ee/development/testing_guide/end_to_end/#using-the-review-qa-all-jobs) runs `reliable` and `smoke` suites of end-to-end tests against a Review App based on the official GitLab Helm chart, itself deployed with custom Cloud Native components built from `master`
 - [`test-on-gdk`](https://docs.gitlab.com/ee/development/testing_guide/end_to_end/#using-the-test-on-gdk-job) runs `reliable` and `smoke` suites of end-to-end tests against a GDK instance from a Docker image built from `master`
-
-If `review app` failed to deploy and all specs didn't run or did run and failed, check the `#review-apps-broken` channel to see if it's a known issue, or reach out to the [Engineering Productivity team](/handbook/engineering/quality/#engineering-productivity-structure). To debug further you can [dig into Kubernetes deployment logs](https://docs.gitlab.com/ee/development/testing_guide/review_apps.html#dig-into-a-pods-logs).
 
 If jobs in `package-and-test` failed due to a GitLab Docker image issue, reach out to the [Distribution team](/handbook/engineering/infrastructure/core-platform/systems/distribution/) to see if it's a known problem with the build.
 
@@ -303,7 +300,7 @@ The pipeline can be manually retried by:
 
 Note that as the retry is not triggered, there will not be a slack notification unless you pass `CI_PIPELINE_SOURCE = trigger` when triggering the pipeline.
 
-If you need to run tests against the environment locally, use credentials specified in `QA FIPS pipelines` in 1Password `Engineering` vault. It also has information about GCP project where RAT environments are being built. If you need access to machines, create [access request](/handbook/business-technology/team-member-enablement/onboarding-access-requests/access-requests/) to this GCP project. Once finished with debugging, **ensure** that`terraform-destroy` job was run to save costs.
+If you need to run tests against the environment locally, use credentials specified in `QA FIPS pipelines` in 1Password `Engineering` vault. It also has information about GCP project where RAT environments are being built. If you need access to machines, create [access request](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/) to this GCP project. Once finished with debugging, **ensure** that`terraform-destroy` job was run to save costs.
 
 ##### Running tests against GDK running in FIPS mode
 
@@ -394,38 +391,7 @@ WEBDRIVER_HEADLESS=false bundle exec bin/qa Test::Instance::All http://localhost
 You can also use the same Docker image as the one used in the failing job to run GitLab in a container on your local.
 In the logs of the failing job, search for `gitlab-ee` or `gitlab-ce` and use its tag to start the container locally.
 
-To run [GitLab in a container](https://docs.gitlab.com/ee/install/docker.html#install-gitlab-using-docker-engine) on your local, follow the steps below that correspond to your host machine and setup:
-
-**MacOS with Rancher Desktop**
-
-First, make sure to [disable Traefik on Rancher Desktop](https://docs.rancherdesktop.io/faq/#q-can-i-disable-traefik-and-will-doing-so-remove-traefik-resources) to open ports 80 and 443 on your host machine.
-
-Rancher Desktop also uses port 22 to allow SSH communication with the VM. Therefore, you will need to forward a different port on your host machine to port 22 in the container,
-and configure `gitlab_shell_ssh_port` to use this new port.
-
-```shell
-docker run \
-  --hostname localhost \
-  --publish 443:443 --publish 80:80 --publish 2222:22 \
-  --name gitlab \
-  --env GITLAB_OMNIBUS_CONFIG='gitlab_rails["initial_root_password"] = "CHOSEN_PASSWORD"; gitlab_rails["gitlab_shell_ssh_port"] = 2222' \
-  --shm-size 256m \
-  registry.gitlab.com/gitlab-org/build/omnibus-gitlab-mirror/gitlab-ee:<tag>
-```
-
-**Machines Running Docker Natively (Linux)**
-
-If you are not running Docker within a VM such as Rancher Desktop, you can use the following command:
-
-```shell
-docker run \
-  --hostname localhost \
-  --publish 443:443 --publish 80:80 --publish 22:22 \
-  --name gitlab \
-  --env GITLAB_OMNIBUS_CONFIG='gitlab_rails["initial_root_password"] = "CHOSEN_PASSWORD"' \
-  --shm-size 256m \
-  registry.gitlab.com/gitlab-org/build/omnibus-gitlab-mirror/gitlab-ee:<tag>
-```
+Once you have the image tag, [spin up GitLab instance locally](https://gitlab.com/gitlab-org/quality/runbooks/-/blob/main/running_gitlab_locally/index.md)
 
 **Special Considerations**
 
@@ -494,6 +460,23 @@ If you suspect that certain test is failing due to the `gitlab/gitlab-{ce|ee}-qa
     - Search the commits from Step 2 by the branch name.
         - If the commit is found, the MR is in this version. For [example](https://gitlab.com/gitlab-org/gitlab/-/commits/v13.10.0-rc20210223090520-ee?utf8=%E2%9C%93&search=add-share-with-group-to-modal).
         - If no results, the MR is not in this version. For [example](https://gitlab.com/gitlab-org/gitlab/-/commits/v13.10.0-rc20210223090520-ee?utf8=%E2%9C%93&search=qa-shl-add-requries-admin).
+
+#### Investigating orchestrated test failure
+
+##### Verify the reconfigure logs for the GitLab container in the pipeline artefacts.
+
+Each orchestrated job has a log file attached as artifacts called
+- `<container_name>-reconfigure-logs.txt` - if the container runs successfully on 1st attempt, or
+- `<container_name>-retry-<retry_attempt>-reconfigure-logs.txt` - if the test has tried multiple times to spin up the GitLab container due to failure.
+
+If you see any errors in this log file, the issue would be related to `gitlab-ctl reconfigure` command.
+Get in touch with the distribution team on `#g_distribution` channel.
+
+##### Investigating update-major or update-minor tests locally and common failures
+
+Failures in `update-major` or `update-minor` might indicate that GitLab upgrade fails. Such failures could be caused by migration issues or other changes. To ensure customers won't face such issue during upgrade,  investigate the error as priority, especially near the release date.
+
+Follow the document  [Investigating update-major or update-minor tests locally and common failures](https://gitlab.com/gitlab-org/quality/runbooks/-/blob/main/debug_orchestrated_test_locally/running_update-major_and_update-minor_locally.md).
 
 ### Identifying commit that introduced a failure
 

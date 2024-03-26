@@ -55,7 +55,7 @@ All meetings on Sid's calendar should be scheduled and vetted by the EBA to the 
     1. If Sid is invited to a meeting on WebEx add a reminder to his calendar 5 minutes before the meeting to `disable shush` in advance of the next meeting.
 1. The default Zoom meeting should have no waiting room.
 1. Zoom links are to be tested for validity daily for the following day's meetings.
-1. Office hours hosted by the CEO like Iteration Office Hours should be live streamed publicly by default and the live stream should be hosted by a member of the EBA team or a CEO Shadow.
+1. Office hours hosted by the CEO ([example](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A/search?query=%22Iteration+Office+Hours%22)) should be live streamed publicly by default and the live stream should be hosted by a member of the EBA team or a CEO Shadow.
 1. Sid will attend one of the Monthly Diversity, Inclusion and Belonging calls (typically scheduled at 8am or 4pm PT). Please accept one and decline the other.
 1. After an E-Group offsite, block at least 50 minutes to handle slack, emails, etc
 1. Last minute changes or cancellations should be communicated to Sid via DM rather than public Slack messages or messages in a thread. If there is additional context to share, you can cross-post another Slack message as part of your DM.
@@ -110,7 +110,7 @@ Guest cell:
 
 ### Content Review
 
-- The EBA to the Exec is responsible for scheduling an initial set of practice sessions with the content DRI, the Exec, and a developer evangelism team member. It is the EBA's discretion based on experience with the Exec and their speaking engagements in the past to decide how many times to set up.
+- The EBA to the Exec is responsible for scheduling an initial set of practice sessions with the content DRI, the Exec, and a Developer Advocate. It is the EBA's discretion based on experience with the Exec and their speaking engagements in the past to decide how many times to set up.
 - The call attendees are responsible to communicate with the EBA if they need more or less sessions ASAP
 
 As a rule of thumb, there should be 1 slide per minute of expected speech delivery.

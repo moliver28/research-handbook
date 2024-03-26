@@ -104,19 +104,6 @@ for them based off the information of the subscriptions (gathered earlier).
 Once that is done, the scripts then remove all "greatly expired" organizations
 from Zendesk Global in accordance with our data retention policy.
 
-## Zendesk Global Salesforce cases sync
-
-This is runs at two periods of time:
-
-- whenever a ticket with an organization associated is created
-- whenever a ticket with a matching Salesforce case is closed
-
-For when a ticket is created, it will create a Salesforce case based off the
-Zendesk Global ticket data.
-
-For when a ticket is closed, it will update the corresponding case to indicate
-it has been closed.
-
 ## Zendesk US Federal organizations sync
 
 **Note** This set of scripts also handles the
@@ -197,19 +184,6 @@ The scripts will then begin syncing this information to Zendesk US Federal,
 updating organizations that need updating and creating the ones that need
 creation.
 
-## Zendesk US Federal Salesforce cases sync
-
-This is runs at two periods of time:
-
-- whenever a ticket with an organization associated is created
-- whenever a ticket with a matching Salesforce case is closed
-
-For when a ticket is created, it will create a Salesforce case based off the
-Zendesk US Federal ticket data.
-
-For when a ticket is closed, it will update the corresponding case to indicate
-it has been closed.
-
 ## Zendesk US Federal users sync
 
 **Note** This set of scripts also handles the
@@ -262,17 +236,111 @@ to determine the organization ID.
 The scripts will then begin syncing this information to Zendesk US Federal,
 updating users that need updating and creating the ones that need creation.
 
+## Zendesk Salesforce cases sync
+
+This is runs at two periods of time:
+
+- whenever a ticket with an organization associated is created
+- whenever a ticket with a matching Salesforce case is closed
+
+For when a ticket is created, it will create a Salesforce case based off the
+Zendesk Global ticket data.
+
+For when a ticket is closed, it will update the corresponding case to indicate
+it has been closed.
+
+#### Pipeline error '1: No case ID to update'
+
+This is a silent error, meaning that while it did occur, the code exits with a
+code of 0 (and thus, the pipeline does not actually fail).
+
+This error occurs when there was not a SFDC case to update, as the corresponding
+field on the Zendesk ticket was blank.
+
+As there was no actual case to update, no action is needed here and this can be
+safely ignored.
+
+#### Pipeline error '2: Restforce::ErrorCode::InsufficientAccessOnCrossReferenceEntity'
+
+This is a silent error, meaning that while it did occur, the code exits with a
+code of 0 (and thus, the pipeline does not actually fail).
+
+This error indicates that when the script tried to create/update a case, SFDC
+stated that there was not sufficient permission on the object (reference) to do
+it. While this could be permission base, the error is a bit of a misnomer and in
+the sync's case actually means that the parent reference (i.e. the SFDC account)
+did not exist.
+
+As the actual SFDC account does not exist, no action is needed here and this can
+be safely ignored.
+
+#### Pipeline error '3: Restforce::ErrorCode::UnableToLockRow'
+
+This will cause an actual pipeline failure.
+
+This error indicates that when trying to do a create/update, which requires
+locking a row in SFDC, it was was unable to do so. This usually means something
+in either the specific reference (i.e. the case) or the parent reference (i.e
+the SFDC account) already had a lock in place that conflicts with the newly
+needed lock.
+
+When this error occurs, the sync is set to retry the attempt 3 times (with 5
+second back-off timers in-between attempts). If it continues to hit the same
+error after those attempts, the script ultimately reports the error and exits
+with a status code of 1.
+
+To rectify this, you should wait about 10 minutes or so and retry the pipeline
+itself. If the results are the same after your manual retrying of the pipeline,
+it is best to create an issue in our
+[issue tracker](https://gitlab.com/gitlab-com/support/support-ops/support-ops-project/-/issues/new)
+to have this investigated further by the team. Make sure to link to the failed
+pipeline!
+
+#### Pipeline error '4: Faraday::ConnectionFailed'
+
+This will cause an actual pipeline failure.
+
+This means the Faraday connection attempt failed to fully connect. There can be
+a plethora of reasons for this to occur.
+
+When this error occurs, the sync is set to retry the attempt 3 times (with 5
+second back-off timers in-between attempts). If it continues to hit the same
+error after those attempts, the script ultimately reports the error and exits
+with a status code of 1.
+
+To rectify this, you should wait about 10 minutes or so and retry the pipeline
+itself. If the results are the same after your manual retrying of the pipeline,
+it is best to create an issue in our
+[issue tracker](https://gitlab.com/gitlab-com/support/support-ops/support-ops-project/-/issues/new)
+to have this investigated further by the team. Make sure to link to the failed
+pipeline!
+
+#### Pipeline error '5: Net::OpenTimeout'
+
+This will cause an actual pipeline failure.
+
+This means the Faraday connection never got a response back from the host (SFDC)
+in an acceptable time frame. There can be a plethora of reasons for this to
+occur.
+
+When this error occurs, the sync is set to retry the attempt 3 times (with 5
+second back-off timers in-between attempts). If it continues to hit the same
+error after those attempts, the script ultimately reports the error and exits
+with a status code of 1.
+
+To rectify this, you should wait about 10 minutes or so and retry the pipeline
+itself. If the results are the same after your manual retrying of the pipeline,
+it is best to create an issue in our
+[issue tracker](https://gitlab.com/gitlab-com/support/support-ops/support-ops-project/-/issues/new)
+to have this investigated further by the team. Make sure to link to the failed
+pipeline!
+
 ## Change management
 
 As these are maintained via sync repositories, our standard change management
 process applies to all Zendesk-Salesforce Sync. See
 [standard change management](/handbook/support/readiness/operations/docs/change_management#standard-change-management)
 for more information.
-
-#### Labels to use
-
-For all issues and MRs involving the Zendesk-Salesforce Sync, the label
-`Support-Ops-Category::Sync` should be used.
 
 #### Change criticality
 

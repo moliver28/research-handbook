@@ -44,7 +44,7 @@ After the initial contact and agreeing to the subscription plan update:
 
 ### Zendesk access
 
-Zendesk access is provided during onboarding for members of the Developer Relations team when needed. Access as an Agent (read/write access to tickets) or a Light Agent (read-only access to tickets) can also be provided for other team members using the [access request](/handbook/business-technology/team-member-enablement/onboarding-access-requests/access-requests/#individual-or-bulk-access-request) process if needed.
+Zendesk access is provided during onboarding for members of the Developer Relations team when needed. Access as an Agent (read/write access to tickets) or a Light Agent (read-only access to tickets) can also be provided for other team members using the [access request](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/#individual-or-bulk-access-request) process if needed.
 
 Once access is set up:
 

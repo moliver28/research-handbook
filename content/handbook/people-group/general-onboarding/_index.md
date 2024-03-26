@@ -64,7 +64,7 @@ By default, all new team members are added to the below Slack channels from day 
 - `#payroll` (have any questions on your salary payments, payslips, etc)
 - `#questions` (anything that the Handbook can't help with)
 - `#donut-be-strangers` (need some help setting up a coffee chat)
-- `#team-member-updates` (new team member, anniversaries, goodbyes, bonuses)
+- `#team-member-updates` (new team member, anniversaries, goodbyes)
 - `#thanks` (want to acknowledge and thank someone at GitLab, this is the channel)
 - `#whats-happening-at-gitlab` (all important updates/reminders/notifications related to GitLab)
 
@@ -113,7 +113,7 @@ All onboarding related employment templates (country and role based) can be foun
 
 ### Temporary Service Provider (Contractor/Consultant) Onboarding
 
-The People team is not involved in the process for hiring, onboarding, or offboarding temporary service providers. You can work with the Procurement team on these onboardings and review the [temporary service provider handbook page](/handbook/business-technology/end-user-services/onboarding-access-requests/temporary-service-providers/) for templates and other helpful information.
+The People team is not involved in the process for hiring, onboarding, or offboarding temporary service providers. You can work with the Procurement team on these onboardings and review the [temporary service provider internal handbook page](https://internal.gitlab.com/handbook/it/end-user-services/access-request/temporary-service-providers/?search=temporary+service) for templates and other helpful information.
 
 ### Additional onboarding pages
 

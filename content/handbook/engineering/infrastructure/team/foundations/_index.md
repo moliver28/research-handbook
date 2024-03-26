@@ -19,17 +19,22 @@ The Foundations Team supports the rest of Infrastructure and Development by prov
 
 We envision providing services that are delightfully simple for other teams to understand and use, through opinionated and clear interfaces, automation and excellent documentation.
 
-Several areas make up this vision and are captured in our [technical roadmap](technical-roadmap).
-
 ## Responsibilities
+
+### Ownership
+
+There are two primary areas can be considered our flagship services that we actively work to improve and expand:
+
+- Networking (From edge, to ingress. Including, but not limited to: load balancing, WAF, DNS, VPC)
+- Rate limiting
 
 ### Services
 
-The Services that the Foundations team is responsible for fall into two general categories: Core and Edge.
+Foundations is responsible for several services related to GitLab SaaS Platforms. The Services that the Foundations team is responsible for fall into two general categories: Core and Edge.
 
 #### Core
 
-Core services are services that are within GitLab's ecosystem, generally not talking directly to incoming traffic.
+Core services are services that are within GitLab.com's ecosystem, generally not talking directly to incoming traffic.
 
 | Service | Description | Co-Ownership? |
 | ------- | ----------- | --------- |
@@ -164,10 +169,11 @@ The Foundations Team must maintain a broad and diverse set of technical skills w
 
 ### Standup
 
-- We have Geekbot automated checkins on Mondays and Fridays in the [#g_infra_foundations_social](https://gitlab.slack.com/archives/C04QVEXBVL3) channel. 
+We have Geekbot automated checkins on Mondays and Fridays in the [#g_infra_foundations](https://gitlab.enterprise.slack.com/archives/C0313V3L5T6) channel. 
   - Monday questions include: 
     - What are your top priorities this week?
     - What did you accomplish last week?
+    - What else is on your todo list for the week?
     - Any blockers or requests for pairing?
   - Friday questions include:
     - How did your week go?

@@ -180,7 +180,7 @@ This gives us the percentage of operations that completed successfully and is co
 
 Apdex and Error Rates are explained in more detail on [the handbook page](/handbook/engineering/monitoring/#gitlabcom-service-level-availability).
 
-Error Budget Spend information is available on the [Error Budgets Overview Dashboard](https://app.periscopedata.com/app/gitlab/891029/Error-Budgets-Overview) in Sisense.
+Error Budget Spend information is available on the [Error Budgets Overview Dashboard](https://10az.online.tableau.com/#/site/gitlab/views/Draft-ErrorBudgetDashboard/ErrorBudgetOverviewDashboard) in Tableau.
 
 ### System-wide incidents
 
@@ -290,7 +290,7 @@ Improvement` and the `group::` label so they can be tracked in reports.
 
 | Role | K/PI | Target | Current Tracking Status |
 | --- | --- | --- | --- |
-| Product Management | [Maintaining the Spend of the Error Budget](https://app.periscopedata.com/app/gitlab/891029/Error-Budgets-Overview) | 20 minutes over 28 days (equivalent to 99.95% availability) | Complete - In Sisense |
+| Product Management | [Maintaining the Spend of the Error Budget](https://10az.online.tableau.com/#/site/gitlab/views/Draft-ErrorBudgetDashboard/ErrorBudgetOverviewDashboard) | 20 minutes over 28 days (equivalent to 99.95% availability) | Complete - In Sisense |
 | Infrastructure | [Setting the Error Budget Minutes and Availability Target](/handbook/engineering/infrastructure/performance-indicators/#gitlabcom-availability) | 99.95% (20 minutes over 28 days Error Budget) | Complete - In Grafana |
 
 - For groups with [engineering allocations](/handbook/engineering/#engineering-allocation), the responsibility to maintain the spend of error budget is with the development team instead of the product management team.

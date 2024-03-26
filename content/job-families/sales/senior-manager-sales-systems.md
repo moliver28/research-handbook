@@ -73,7 +73,7 @@ The Senior Manager, Sales Systems is a [grade 9](/handbook/total-rewards/compens
 
 ## Director, Sales Systems
 
-The Director of Sales Systems reports to the Senior Director of Sales Systems  and leads a team of business system architects, engineers and administrators to deliver scalable and low friction solutions to the Go-To-Market teams. The Director has the ability to unpack complicated strategic problems and add iterative solutions to the Sales Systems roadmap, executing on delivery. The Director is a leader and mentor, capable of building and sustaining a high performance team as well as aligning with executives and project stakeholders.
+The Director of Sales Systems reports to the Senior Director of Sales Systems  and leads a team of business system architects, engineers and administrators to deliver scalable and low friction solutions to the Go-To-Market teams. The Director has the ability to unpack complicated strategic problems and add iterative solutions to the Sales Systems roadmap, executing on delivery. The Director is a leader and mentor, capable of building and sustaining a high performing team as well as aligning with executives and project stakeholders.
 
 ### Job Grade
 

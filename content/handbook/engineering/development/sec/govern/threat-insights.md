@@ -31,7 +31,21 @@ We use the scoped labels `~"Threat Insights::Navy"` `~"Threat Insights::Tangerin
 
 We use our [Threat Insights Priorities](https://about.gitlab.com/direction/govern/threat_insights/16_threat_insights_priorities.html) page to track what we are doing, and what order to do it in.
 
-{{% cross-functional-dashboards filters="Threat Insights" %}}
+{{< tableau height="600px" toolbar="hidden" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/TopEngineeringMetrics/TopEngineeringMetricsDashboard" >}}
+  {{< tableau/filters "GROUP_LABEL"="threat insights" >}}
+{{< /tableau >}}
+
+{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/MergeRequestMetrics/OverallMRsbyType_1" >}}
+  {{< tableau/filters "GROUP_LABEL"="threat insights" >}}
+{{< /tableau >}}
+
+{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/Flakytestissues/FlakyTestIssues" >}}
+  {{< tableau/filters "GROUP_NAME"="threat insights" >}}
+{{< /tableau >}}
+
+{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/SlowRSpecTestsIssues/SlowRSpecTestsIssuesDashboard" >}}
+  {{< tableau/filters "GROUP_LABEL"="threat insights" >}}
+{{< /tableau >}}
 
 ### Workflow
 

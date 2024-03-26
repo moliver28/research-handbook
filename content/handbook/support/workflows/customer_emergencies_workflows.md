@@ -67,7 +67,7 @@ We [assume positive intent](/handbook/values/#assume-positive-intent) and use ou
 | ...meets the [definition of Severity 1](https://about.gitlab.com/support/definitions/#severity-1), | `General::Emergency::Strict Definition` | ...your plan to work the emergency. |
 | ...qualifies under one of our [exception criteria](/handbook/support/workflows/emergency_exception_workflow#exception-criteria), | `General::Emergency::Exception` | ...that the situation is being treated as an emergency as a courtesy. |
 | ...needs more information to allow us to determine whether it qualifies as an emergency, | `General::Emergency::Needs more info` | ...that you [will proceed asynchronously](#communicating-that-you-need-more-info) until that determination can be made. |
-| ...does not meet the criteria for an [emergency](https://about.gitlab.com/support/definitions/#severity-1) or an [exception](/handbook/support/workflows/emergency_exception_workflow#exception-criteria), | `General::Emergency::Not an Emergency` | ...that their situation [does not qualify for emergency service](#communicate-the-priority-downgrade). |
+| ...does not meet the criteria for an [emergency](https://about.gitlab.com/support/definitions/#severity-1) or an [exception](/handbook/support/workflows/emergency_exception_workflow#exception-criteria), | `General::Emergency::Not an Emergency` and `Downgrade emergency ticket` | ...that their situation does not qualify for emergency service. Follow the section [Handling an emergency downgrade](#handling-an-emergency-downgrade). |
 
 #### Communicating that you need more info
 
@@ -85,15 +85,20 @@ Once you have enough information to make a determination, use one of the other m
 
 #### Handling an emergency downgrade
 
-##### Change the ticket priority
+##### Apply "Downgrade emergency ticket" macro
 
-Using our [Definitions of support impact](https://about.gitlab.com/support/definitions/#definitions-of-support-impact),
-select the most appropriate actual priority for the ticket, and make the change
-to the ticket. If the customer submitted the emergency request related to an
-existing ticket, close the emergency ticket when you deliver the downgrade
-message, and be sure the existing ticket has the priority you selected.
+Applying the macro will lead to the following changes:
+- Form will be set to Self-Managed.
+- Priority will be set to High.
+- Ticket stage will be set to NRT.
 
-##### Communicate the priority downgrade
+Adjust the form depending on the ticket type and set the priority based on our
+[Definitions of support impact](https://about.gitlab.com/support/definitions/#definitions-of-support-impact).
+If the customer submitted the emergency request related to an existing ticket,
+close the emergency ticket when you deliver the downgrade message,
+and be sure the existing ticket has the priority you selected.
+
+##### Communicate the emergency downgrade
 
 It's important that we deliver the downgrade message as carefully and
 thoughtfully as possible. Customers who submit an emergency request are often
@@ -331,6 +336,8 @@ Otherwise, follow the [Self-Managed Weekend Emergencies - License Request](/hand
 
 #### SaaS Subscription Emergencies
 
+##### Subscription expired and downgraded to Free
+
 A customer may be blocked because of a license expiring or neglecting to apply a renewal. If this happens over the weekend:
 
 1. Look up the namespace details using [chatops](/handbook/support/workflows/chatops#namespace) or a GitLab.com Admin account via the namespaces API (https://gitlab.com/api/v4/namespaces/<NAMESPACE>)
@@ -350,6 +357,20 @@ A customer may be blocked because of a license expiring or neglecting to apply a
     - If there are any failures, please see [Problems extending trials](/handbook/support/license-and-renewals/workflows/saas/trials_and_plan_change#problems-extending-trials) for some troubleshooting steps.
 1. When the customer confirms, close the emergency ticket.
 1. Alert [`#support_licensing-subscription`](https://gitlab.slack.com/archives/C018C623KBJ) by linking to the ticket for follow-up.
+
+##### Multi-year subscriptions
+
+- **Note:** Refer to [Handling multi-year subscriptions](/handbook/support/license-and-renewals/workflows/self-managed/handling_multi-years_subscription/) for Self Managed licensing.
+
+Some legacy-type subscriptions are called "multi-year" but are actually multiple, separate subscriptions sold up front to cover a multi-year period.  When a customer has a deal like this, each anniversary of the renewal requires that the next subscription be associated, or else the customer's namespace can fall back to `Free`. If this occurs, send the customer the following steps.
+
+1. Ask the customer to login to the [Customers Portal](https://docs.gitlab.com/ee/subscriptions/customers_portal.html) located at https://customers.gitlab.com/customers/sign_in for subscription management.
+1. Follow these [steps to ensure their GitLab.com account is linked](https://docs.gitlab.com/ee/subscriptions/customers_portal.html#change-the-linked-account).
+1. Follow these [steps to update the linked namespace](https://docs.gitlab.com/ee/subscriptions/gitlab_com/index.html#change-the-linked-namespace).
+
+If a customer is an [Unlinked CustomersDot account](https://handbook.gitlab.com/handbook/support/license-and-renewals/workflows/troubleshoot_purchases_on_gitlab/#unlinked-customersdot-account-for-purchases-via-sales) and you need to act on their behalf, you can try [Force Association of the subscription](https://handbook.gitlab.com/handbook/support/license-and-renewals/workflows/customersdot/mechanizer#force-associate) as a workaround.
+
+If neither of the above resolves the issue for the customer, [contact the on-call Support Manager](#optional-contact-the-on-call-support-manager) requesting further guidance.
 
 ## SaaS Emergencies
 
@@ -411,7 +432,7 @@ If a customer is reporting that behaviour has recently changed, first check [Git
 
 #### Broken functionality due to an incident
 
-If there is a known incident, it's acceptable to link to the public status page and related incident issue. Consider using [`Support::SaaS::Incident First Response`](https://gitlab.com/gitlab-com/support/support-ops/zendesk-global/macros/-/blob/master/macros/active/Support/SaaS/Incident%20First%20Response.yaml).
+If there is a known incident, it's acceptable to link to the public status page and related incident issue. Consider using [`Support::SaaS::Gitlab.com::Incident First Response`](https://gitlab.com/gitlab-com/support/zendesk-global/macros/-/blob/master/active/Support/SaaS/GitLab.com/Incident%20First%20Response.md?ref_type=heads).
 
 #### Example tickets
 

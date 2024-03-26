@@ -199,12 +199,18 @@ issues:
 
 ## Performance Indicators
 
-- [Sec Sub-department Performance Indicators](/handbook/engineering/metrics/sec/)
+- [Sec Sub-department Performance Indicators](/handbook/engineering/metrics/dashboards/)
 - [Error Budgets](/handbook/engineering/error-budgets/) as Performance Indicators for stage groups
 
 ### Dashboards
 
-{{% cross-functional-dashboards filters="sec" section=true %}}
+{{< tableau height="600px" toolbar="hidden" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/TopEngineeringMetrics/TopEngineeringMetricsDashboard" >}}
+  {{< tableau/filters "SECTION_LABEL"="sec" >}}
+{{< /tableau >}}
+
+{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/MergeRequestMetrics/OverallMRsbyType_1" >}}
+  {{< tableau/filters "SECTION_LABEL"="sec" >}}
+{{< /tableau >}}
 
 ## Slack channels
 

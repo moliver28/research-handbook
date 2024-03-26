@@ -52,7 +52,7 @@ The chart below depicts the CWEs that map to the [OWASP Top 10 2021](https://owa
  All of these CWEs are detected by GitLab's [SAST](https://docs.gitlab.com/ee/user/application_security/sast/)/[DAST](https://docs.gitlab.com/ee/user/application_security/dast/)
 and [Dependency Scanning](https://docs.gitlab.com/ee/user/application_security/dependency_scanning/) capabilities.
 
-{{% sisense dashboard="915236" chart="12844678" height="400" %}}
+[_Data unavailable in Tableau_](https://gitlab.com/gitlab-data/tableau/-/issues/330)
 
 ### CWE Coverage
 
@@ -63,32 +63,32 @@ The table below shows the combined
 [our SAST analyzers](https://docs.gitlab.com/ee/user/application_security/sast/) on
 projects hosted on [gitlab.com](https://gitlab.com/)
 
-{{% sisense dashboard="915236" chart="12591658" height="400" %}}
+[_Data unavailable in Tableau_](https://gitlab.com/gitlab-data/tableau/-/issues/330)
 
 Below you can find a list of which CWEs are detected by each analyzer:
 
 {{% details summary="eslint" %}}
-{{% sisense dashboard="915236" chart="12591659" height="400" %}}
+
 {{% /details %}}
 
 {{% details summary="flawfinder" %}}
-{{% sisense dashboard="915236" chart="12591660" %}}
+
 {{% /details %}}
 
 {{% details summary="gosec" %}}
-{{% sisense dashboard="915236" chart="12591661" height="400" %}}
+
 {{% /details %}}
 
 {{% details summary="nodejs-scan" %}}
-{{% sisense dashboard="915236" chart="12591662" height="400" %}}
+
 {{% /details %}}
 
 {{% details summary="semgrep" %}}
-{{% sisense dashboard="915236" chart="12591663" height="400" %}}
+
 {{% /details %}}
 
 {{% details summary="spotbugs" %}}
-{{% sisense dashboard="915236" chart="12591664" height="400" %}}
+
 {{% /details %}}
 
 
@@ -99,7 +99,7 @@ The table below shows the combined
 [our DAST analyzers](https://docs.gitlab.com/ee/user/application_security/dast/) on
 projects hosted on [gitlab.com](https://gitlab.com/)
 
-{{% sisense dashboard="915236" chart="12591657" height="400" %}}
+[_Data unavailable in Tableau_](https://gitlab.com/gitlab-data/tableau/-/issues/330)
 
 ### GitLab Advisory Database for Dependency Scanning
 

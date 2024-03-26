@@ -1,13 +1,29 @@
 ---
 title: People Group
-description: >-
-  The People Group at GitLab supports all GitLab team members through the complete
-  team member lifecycle.
+description: "The People Group at GitLab supports all GitLab team members through the complete team member lifecycle."
+aliases:
+- /handbook/people-group/
+- /handbook/people-group/people-group-vision/
 ---
 
 ## Welcome
 
-Welcome to the People Group handbook! You should be able to find answers to most of your questions here. You can also check out pages related to People Group in the section below. If you can not find what you are looking for please do the following:
+Welcome to the People Group handbook! You should be able to find answers to most of your questions here.
+
+## People Group Vision
+
+The People Group works together to establish a high performance and results driven culture where a diverse and inclusive team can experience a meaningful career.
+
+We support a culture that enables people to do their best work and advance their careers while fully contributing to advancing GitLab’s business results. We hire, promote, and recognize team members who best live our values.
+
+The People Group strategy is to set the [foundation for GitLab’s 3 year strategy](https://internal.gitlab.com/handbook/company/three-year-strategy/) through a focus on attracting and retaining diverse talent, creating a high performance culture with a focus on efficiency and quality results, driving divisional success through talent programs, and cultivating an equitable and inclusive culture.
+
+We’ve published more information about how this vision translates to strategy and OKRs for GitLab team members in this [internal-only presentation](https://docs.google.com/presentation/d/1CIRrqh0aum40L7g4MCMFaTR_mu0jG4gJot8ds6rxUrc/edit#slide=id.g2bff70f3fe6_1_691).
+
+
+## Connect with us
+
+You can also check out pages related to People Group in the section below. If you can not find what you are looking for please do the following:
 
 - [**The People Group**](https://gitlab.com/gitlab-com/people-ops) holds several subprojects to organize the people group; please create an issue in the appropriate subproject or `general` if you're not sure. Please use confidential issues for topics that should only be visible to GitLab team-members. Similarly, if your question can be shared please use a public issue. Tag `@gl-people-connect-team` or `@gl-hiring` so the appropriate team members can follow up.
     - Please note that not all People Group projects can be shared in an issue due to confidentiality. When we cannot be completely transparent, we will share what we can in the issue description, and explain why.
@@ -214,7 +230,7 @@ Please review the [frequently requested section]({{< ref "frequent-requests" >}}
 
 ## Addresses
 
-- For the our mailing addresses, see our [visiting](/handbook/company/visiting/) page.
+- For the mailing addresses, see our [visiting](/handbook/company/visiting/) page.
 - For the NL office, we use [addpost](https://www.addpost.nl) to scan our mail and send it to a physical address upon request.
 
 ## Reporting potential inaccurate LinkedIn Profiles
@@ -245,7 +261,7 @@ Administrative access to CultureAmp will be limited based on role and responsibi
 - Survey Creator administrator access can create, manage and design surveys, select participants and share results.
 - Survey data analyst administrator can export raw data from all surveys enabled for raw data extract.
 
-To request access please open an access request with the type of account [access requested](/handbook/business-technology/team-member-enablement/onboarding-access-requests/access-requests/#how-do-i-choose-which-template-to-use) and the business need. You can assign the access request to Anesia Chan `@anechan` and Laura Janssen `@Laura-Janssen` (as backup) for review and approval. The default admin access will be the Survey Creator administration rights unless other access is specified. Please note that Survey Data Analyst admin rights will not be granted to team members outside of the People group with out permission from the Chief People Officer.
+To request access please open an access request with the type of account [access requested](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/#how-do-i-choose-which-template-to-use) and the business need. You can assign the access request to Anesia Chan `@anechan` and Laura Janssen `@Laura-Janssen` (as backup) for review and approval. The default admin access will be the Survey Creator administration rights unless other access is specified. Please note that Survey Data Analyst admin rights will not be granted to team members outside of the People group with out permission from the Chief People Officer.
 
 If you need support with a specific CultureAmp Survey, please complete this [issue template](https://gitlab.com/gitlab-com/people-group/people-analytics/general/-/blob/main/.gitlab/issue_templates/survey_request.md) to alert the People Analytics Team.
 
@@ -288,7 +304,6 @@ If you need support with a specific CultureAmp Survey, please complete this [iss
 ### Other People Group Links
 
 - [People Policy Directory]({{< ref "people-policies" >}})
-- [People Group Vision]({{< ref "people-group-vision" >}})
 - [Underperformance]({{< ref "underperformance" >}})
 - [Visas]({{< ref "visas" >}})
 - [Leadership handbook]({{< ref "leadership" >}})

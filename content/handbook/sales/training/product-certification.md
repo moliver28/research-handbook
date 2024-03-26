@@ -17,7 +17,7 @@ description: "Training and certification program to ensure field team members ha
 As part of the [Field Certification Program](/handbook/sales/training/field-certification/), the objective of this program is to ensure field team members have the requisite knowledge to serve as trusted advisors to customers, prospects, and partners by properly positioning the right GitLab solution(s) based on customers’ or prospects’ expressed needs and/or challenges.
 
 Note: This GitLab product training and certification program is different from resources like the ones below that focus on how to *use GitLab* (though we encourage field team members to take these as well)!
-- [GitLab Certifications](/learn/certifications/public/)
+- [GitLab Certifications](https://about.gitlab.com/learn/certifications/public/)
 - [GitLab Technical Certifications](/handbook/customer-success/professional-services-engineering/gitlab-technical-certifications/)
 
 ## Architecture and Approach

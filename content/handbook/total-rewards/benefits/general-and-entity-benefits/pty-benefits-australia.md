@@ -299,9 +299,9 @@ This leave runs concurrently with GitLab PTO. Team members should select `Bereav
 
 <details markdown="1">
 
-<summary>[Public Holidays](https://www.fairwork.gov.au/leave/public-holidays)</summary>
+<summary>Public Holidays</summary>
 
-- All team members are entitled to at least their base pay rate for all hours worked on public holidays.
+- All team members are entitled to at least their base pay rate for all hours worked on [public holidays](https://www.fairwork.gov.au/leave/public-holidays).
 - Team members who take time off for public holidays are entitled to their base pay rate for the ordinary hours they would have worked. GitLab encourages all team members to take time off for the holidays they observe.
 - Team members must select `Public Holiday` in Time Off by Deel to ensure that statutory entitlements are properly tracked.
 

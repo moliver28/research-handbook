@@ -25,7 +25,7 @@ title: "Scalability Group"
 
 The Scalability group is currently formed of two teams:
 * [Scalability:Observability](./observability) and
-* `Scalability:Practices`.
+* [Scalability:Practices](./practices).
 
 {{< team-by-manager-slug "rachel-nienaber" >}}
 
@@ -41,38 +41,11 @@ The following people are members of the [Scalability:Observability team](./obser
 
 ### Scalability:Practices
 
-The Practices team focuses on tools and frameworks that enable the stage groups to support their features on our production systems.
+The [Practices team](./practices) focuses on tools and frameworks that enable the stage groups to support their features on our production systems.
 
-The Practises team is a new addition to the Scalability group and we will refine the responsibilities for this team.
-
-Current team responsibilities:
-
-- [Runway](https://about.gitlab.com/direction/saas-platforms/scalability/runway/): Internal Platform as a Service for GitLab, enabling teams to deploy and run their services quickly and safely.
-- [Production Readiness Review](/handbook/engineering/infrastructure/production/readiness/): A process that helps identify the reliability needs of a service, feature, or significant change to infrastructure for GitLab.com
-
-The following people are members of the Scalability:Practices team:
+The following people are members of the [Scalability:Practices team](./practices):
 
 {{< team-by-manager-slug "kwanyangu" >}}
-
-### Transition
-
-The group was restructured in November 2023 and was previously formed of the following teams:
-
-#### Scalability:Frameworks
-
-The Frameworks team creates standard ways to use and scale the various services and technologies used at GitLab, with a particular focus on enabling other development teams to support their own growth. This is akin to Platform Engineering.
-
-For example, with Redis, we are creating more and more instances now and it’s at the point where teams should have the ability to know when they need a custom instance, and how to put one in place. Similarly, with Object Storage, this is a component that is widely used but the usage is not consistent. We can help the development teams become more efficient by providing a structure over this storage.
-
-More information on Frameworks is available on the [team page](/handbook/engineering/infrastructure/team/scalability/frameworks.html).
-
-#### Scalability:Projections
-
-This team focuses on observability, forecasting & projection systems that enable development engineering to predict
-system growth for their areas of responsibility. Error Budgets and Stage Group Dashboards are examples of successful
-projects that have provided development teams information about how their code runs on our SaaS platforms.
-
-More information on Projections is available on the [team page](./projections.html).
 
 ## Mission
 
@@ -183,6 +156,10 @@ forward. If work is required from that group, we will create a new issue in the 
 and Performance Refinement process](/handbook/engineering/workflow/#process-1) to highlight this issue.
 
 ## How we work
+
+### Handbook First
+
+In line with the broader GitLab culture, we adopt a [Handbook First](https://handbook.gitlab.com/handbook/handbook-usage/#why-handbook-first) approach to documenting our team's workflow. Should you have any proposals aimed at enhancing our processes, please initiate a Merge Request (MR) to update the handbook. Assign the MR to `@rnienaber` for the Group level change and Scalability EMs for the respective team changes and tag the team in a comment to solicit feedback. If there are no objections within three working days of tagging the team, the MR will be deemed ready for merging. We adhere to the principle of making [two-way door decisions](https://handbook.gitlab.com/handbook/values/#make-two-way-door-decisions) meaning additional MRs can be created to suggest changes or removals of processes that are deemed inefficient.
 
 ### Communication
 

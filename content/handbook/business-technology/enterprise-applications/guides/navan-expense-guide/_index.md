@@ -638,7 +638,7 @@ If you do not link your personal card to Navan Expense and you owe GitLab a repa
 
 #### In what countries are direct reimbursements available?
 
-Please check [this section](/handbook/finance/expenses/#reimbursement-payout-timelines) of the Expense handbook page for information on reimbursements and payout timelines.
+Please check [this section](/handbook/finance/expenses/#44-reimbursement-payout-timelines) of the Expense handbook page for information on reimbursements and payout timelines.
 
 #### How can I receive my funds if my reimbursement fails?
 

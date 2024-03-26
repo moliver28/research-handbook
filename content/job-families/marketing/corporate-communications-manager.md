@@ -180,7 +180,7 @@ The executive communications manager will work closely with the executive leader
 
 - Own the executive visibility program, driving its strategy and executing on the strategy.
 - Work closely with the executive leadership team to develop strong narrative presentations and content for external speaking opportunities.
-- Work with the brand, design, technical marketing team and others needed to develop state of the art slide decks for external events.
+- Work with the brand, design, Developer Advocate team and others needed to develop state of the art slide decks for external events.
 - Lead speaking coaching sessions with the leadership team to ensure they comfortably deliver the content in a natural and charismatic way; incorporate edits as needed.
 - Think strategically about other executive leadership platforms (aspirational and industry peers) and how we should be promoting them externally, whether that is via our blog, contributed articles, podcasts, YouTube, social media or other external platforms.
 - Work closely with others in the Corporate Communications department and with PR agencies to share presentation narratives for media consumption and obtain media messages/interview feedback to incorporate in external speaking presentations.
@@ -208,7 +208,7 @@ The executive communications to CEO specialty manager for the corporate communic
 
 - Own the CEO executive communications visibility program, driving its strategy and executing on said strategy with agency support.
 - Work closely with the CEO’s Chief of Staff team to develop strong narrative presentations and content for internal and external speaking opportunities.
-- Work with the brand, design, technical marketing team and others needed to develop state of the art slide decks for internal and external events.
+- Work with the brand, design, Developer Advocate team and others needed to develop state of the art slide decks for internal and external events.
 - Lead speaking coaching sessions to ensure the CEO is comfortably delivering the content in a natural and charismatic way; incorporate edits as needed.
 - Think strategically about other CEO (aspirational and peer) platforms and how we can incorporate key takeaways into the CEO executive communications visibility program, whether that is via our blog, bylined articles, podcasts, YouTube, social media or other external platforms.
 - Work closely with others in the Corporate Communications department and with PR agencies to share presentation narratives for media consumption and obtain media messages/interview feedback to incorporate in external speaking presentations.

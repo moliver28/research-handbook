@@ -581,6 +581,16 @@ important to those working within Zendesk:
 
 </details>
 <details>
+<summary>Support Internal Request Tags</summary>
+
+| Tag                                 | What it means |
+|-------------------------------------|---------------|
+| `support_internal_request`          | Indicates the ticket is a Support internal request |
+| `support_valid_request`             | Indicates the Support internal request was valid for submission |
+| `support_ir_sa_request_for_support` | Indicates the Support internal request is about a SA requesting assistance from Support |
+
+</details>
+<details>
 <summary>License and Renewals Internal Request Tags</summary>
 
 | Tag                                | What it means |
@@ -644,6 +654,7 @@ important to those working within Zendesk:
 | `hb_link`                        | SE has sent a link to handbook.gitlab.com in a public comment |
 | `partner_customer`               | Indicates the account is a customer of an Alliance partner and not eligible for support |
 | `star_submitted`                 | Indicates a STAR has been submitted on the ticket |
+| `within_grace_period`            | Indicates a ticket was submitted while the account is within the subscription's grace period |
 | `CUSTOM_PATH_issues_IID`         | See below for more information |
 | `CUSTOM_PATH_merge_requests_IID` | See below for more information |
 

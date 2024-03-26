@@ -64,40 +64,6 @@ them, as that introduces other issues).
 
 For more guidance on feature tiers and pricing, visit [tiering guidance for features](/handbook/product/tiering-guidance-for-features/)
 
-
-### Experiment, Beta, GA
-
-<!-- any changes made to this section should be reflected in https://about.gitlab.com/support/statement-of-support/#alpha--beta-features and https://docs.gitlab.com/ee/policy/experiment-beta-support.html -->
-
-There are cases where we need to test features before we are confident that we'll be able to scale, support, and maintain the features in their current form for every designed use case. There are also scenarios where a feature is not complete enough to be considered an [MVC](/handbook/product/product-principles/#the-minimal-viable-change-mvc). In these cases, we have the option to release features as Experiment, Beta, or Limited Availability, and users can opt-in and test the new experience. Features might not be fully documented or supported in the Experiment or Beta phases.
-
-Please note that some features may not be aligned to these recommendations if they were developed before the recommendations were in place or if the group determined an alternative implementation approach was needed.
-
-It's never acceptable to make changes that:
-  - risk damage or exfiltration of existing production data accessed by our users
-  - destabilize other parts of the application
-  - introduces friction into high MAU areas.
-
-- Experiment: This phase is used to gather feedback from a small group of users, typically internal teams or a select group of customers, on a feature or concept that is in the early stages of development. An Experiment phase can be a useful way to gather feedback on early concepts and have the flexibility to make breaking changes based on feedback. This designation also helps set customer expectations that this feature is not ready for production use. See [this page](https://docs.gitlab.com/ee/policy/experiment-beta-support.html#experiment) for additional details.
-- Beta: This phase allows for a larger group of users to test the feature in more realistic environments, and provides the opportunity to identify any remaining issues before the feature is fully released. This designation also helps set customer expectations that this feature is not ready for production use. It is possible to use progressive deployment strategies to manage the volume of customers who have access to the feature in this phase. See [this page](https://docs.gitlab.com/ee/policy/experiment-beta-support.html#beta) for additional details.
-- Limited Availability: This phase can be used when a feature is production-ready for a select group of customers, but not for the general user base as is the case in General Availability. This is used specifically for GitLab Dedicated, and should not be used for standard user facing features.
-
-Please refer to [Support for Experiment, Beta, and Generally Available Features](https://docs.gitlab.com/ee/policy/experiment-beta-support.html) for a detailed list of the characteristics of Experiment, Beta, and GA features, including when feature flags should be used.
-
-#### Experiment, Beta and Limited Availability Exit Criteria
-
-To ensure the phases before General Availability are as short as possible each phase of Experiment, Beta and LA should include exit criteria. This encourages rapid iteration and reduces [cycle time](/handbook/values/#reduce-cycle-time). Exit criteria may include but are not be limited to:
-
-* Time - Define an end date at which point the feature will be General Availability.
-* Feedback - Define the minimum number of customers that have been onboarded and interviewed.
-    * Consider also setting a time bound when using user feedback as an exit criteria for leaving a phases. If a given time period elapses and we can not solicit feedback from enough users, it is better to ship what we have and iterate on it as a GA at that point rather than maintain a pre-GA state.
-* Limited Feature Completion - Determine if there is functionality that should be completed before moving to General Availability.
-    * Be wary of including "just one more" feature. Iteration will be easier and more effective with more feedback from more users so getting to General Availability is preferred.
-* System Performance metrics - Determine the criteria that the platform has shown before being ready for General Availability. Examples include response times and successfully handling a number of requests per second.
-* Success criteria - Not all features may reach GA. It is OK to pivot if early feedback indicates that a different direction would provide more value or a better user experience. If open questions must be answered to decide if the feature is worth putting in the product, list and answer those.
-
-For the exit criteria of **AI features**, in addition to the above, see the [UX maturity requirements](/handbook/product/ai/ux-maturity/).
-
 ### Deprecations, removals, and breaking changes
 
 #### Breaking changes

@@ -44,7 +44,8 @@ When you STAR a ticket, a thread is created in the [#support_ticket-attention-re
 
 Check that the ticket meets basic eligibility for STAR treatment:
 
-1. **Is the ticket about L&R (subscription, plan, renewal, licensing, trials)?** Please see our [Workflow for handling Plan/License Ticket Attention Requests](/handbook/support/license-and-renewals/workflows/managers_working_with_extensions) and its decision flowchart. Requests for customer convenience (that is, when a loss of functionality is not imminent) may not be prioritized.
+1. A relevant Support Engineer (who replied previously, left a substantial note, etc.) was contacted via Slack but did not reply.
+1. **Is the ticket about L&R (subscription, plan, renewal, licensing, trials)?** Please see our [Workflow for handling Plan/License Ticket Attention Requests](/handbook/support/license-and-renewals/workflows/managers_working_with_extensions.html) and its decision flowchart. Requests for customer convenience (that is, when a loss of functionality is not imminent) may not be prioritized.
    - L&R STAR requests must include all relevant information, like group name, subscription name, license holder.
 1. **Are we waiting for information from the customer, or from you?** Ensure the latest response is *from the customer* (or from a GitLab team member, in the case of Internal Requests). If the latest response is from GitLab Support, we are waiting for necessary information.
 1. **Is the ticket within SLA?** Review the SLA associated with the ticket, and the amount of time left until breach, by logging into [Zendesk](https://gitlab.zendesk.com) using Okta.
@@ -54,11 +55,11 @@ Check that the ticket meets basic eligibility for STAR treatment:
    - If the ticket has already had the first reply, then you are looking at a possible "internal (next reply) breach", for which there are no contractual SLAs.
    - If you make a STAR request when a ticket is still within SLA, the Support Manager will discuss with you the best approach.
 1. **Is the ticket missing information?**
-   - If a ticket doesn't have all the necesary information it won't qualify for STAR, for example:
+   - If a ticket doesn't have all the necessary information it won't qualify for STAR, for example:
       - A log was requested but not provided by the customer.
       - 2FA requests without all the necessary challenges completed.
       - Unanswered questions asked by Support Engineer in the ticket.
-      - [Proof of support entitlment](https://about.gitlab.com/support/managing-support-contacts/#proving-your-support-entitlement)
+      - [Proof of support entitlement](https://about.gitlab.com/support/managing-support-contacts/#proving-your-support-entitlement)
 
 **Note:** You cannot use the Internal Request Form without a Zendesk account. If you do not have Zendesk access, please [request a Light Agent account](/handbook/support/internal-support/#requesting-a-zendesk-light-agent-account) to obtain it.
 
@@ -91,13 +92,13 @@ You will only need to provide:
 - Reason this ticket needs additional attention
 - Desired result
 
-Here is how the form will appar in the Zendesk App:
+Here is how the form will appear in the Zendesk App:
 
 ![Zendesk STAR App Form.png](../images/Zendesk_STAR_App_Form.png)
 
 #### Validation
 
-The Zendesk `STAR` App will automatically validate the following before submiting the request:
+The Zendesk `STAR` App will automatically validate the following before submitting the request:
 
 - The submission time is within [Support hours](https://about.gitlab.com/support/#hours-of-operation)
 - A valid namespace is entered (SaaS and SaaS Account forms only)

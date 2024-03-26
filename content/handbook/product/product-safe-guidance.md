@@ -30,8 +30,9 @@ Please reach out to Slack #SAFE with any questions that are still unclear after 
 
 The following applies to GitLab artifacts that have product and specific feature information. Please remember these artifacts should only contain information that is [SAFE](/handbook/legal/safe-framework/). Links to various disclaimers are available in the ["helpful legal references"](#helpful-legal-references) section on this page. 
 
-|Topic | Disclaimer | Legal Review Required (Y/N) | Other Considerations| 
-|[3 year direction videos](https://www.youtube.com/watch?v=2By7ipuQk1o) | Y | Y | | 
+| Topic | Disclaimer | Legal Review Required (Y/N) | Other Considerations | 
+| ----- | ----------- | --- | --- |
+| [3 year direction videos](https://www.youtube.com/watch?v=2By7ipuQk1o) | Y | Y |  
 |[Company wide kickoff video](/handbook/product/product-processes/#kickoff-meetings) | Y | N | | 
 |[Group Kickoff videos](/handbook/product/product-processes/#kickoff-meetings) | N | N | | 
 | [Product demos, walk-through videos](/handbook/product/product-processes/#recording-videos-to-showcase-features) | N | N | | 

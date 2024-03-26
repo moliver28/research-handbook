@@ -124,7 +124,7 @@ Mergers and Acquisitions Committee meetings are attended by:
 
 ## Location
 
-The board meeting is [all remote]({{< ref "all-remote" >}}/) because hybrid is a bad experience for remote participants, see [video calls]({{< ref "communication#video-calls" >}}) point 10.
+Board meetings can happen remotely or in-person. We establish the meeting calendar in advance of the coming fiscal year. During this time, we agree on meeting locations.
 
 ## Board Meeting Schedule
 
@@ -247,7 +247,7 @@ The Finance slides are as follows:
 
 ### CEO Memo
 
-The CEO is responsible for submitting a memo to the BoD in advance of the Board meeting. The memo captures GitLab highlights from the previous quarter, CEO OKRs for the coming quarter, and other topics that are top of mind for the CEO. The CoS to the CEO supports the CEO by creating an initial draft and sharing it with the CEO a week before the final draft is shared with E-Group. The memo should have online tests for readability before they are finalized or shared with the CEO. A tool, such as https://readable.com/, can be used.
+The CEO is responsible for submitting a memo to the BoD in advance of the Board meeting. The memo captures GitLab highlights from the previous quarter, company OKRs for the coming quarter, and other topics that are top of mind for the CEO. The CoS to the CEO supports the CEO by creating an initial draft and sharing it with the CEO a week before the final draft is shared with E-Group. The memo should have online tests for readability before they are finalized or shared with the CEO. A tool, such as https://readable.com/, can be used.
 
 ### Board Dinner
 

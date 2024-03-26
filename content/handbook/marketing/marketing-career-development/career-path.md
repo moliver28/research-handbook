@@ -71,8 +71,7 @@ Note: `Manager` denotes a management of a certain specialty, whereas `Manager,` 
 | Manager, Online Marketing            | Senior Manager, Online Marketing          |                                   |
 | Senior Manager, Online Marketing    | Director, Online Marketing                |                                   |
 | Associate Designer                   | Designer                                  |                                   |
-| Designer                            | Senior Designer                           |                                   |
-| Associate Developer Evangelist       | Developer Evangelist                      |                                   |
+| Designer                            | Senior Designer                           |                                   |                                  |
 | Developer Evangelist                | Senior Technical Evangelist               | Developer Evangelism Program Manager                                 |
 | Senior Developer Evangelist        | Manager, Developer Evangelism            | Senior Developer Evangelism Program Manager            |
 | Senior Developer Evangelism Program Manager                | Manager, Developer Evangelism              |                                   |

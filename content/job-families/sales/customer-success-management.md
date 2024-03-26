@@ -421,8 +421,7 @@ The Senior CSE is a job grade [level 7](/handbook/total-rewards/compensation/com
 
 ### Staff Customer Success Engineer
 
-Market Justification: The business need for an individual contributor Staff CSE role is to have a team member who is a subject matter expert (SME) with deep subject matter expertise positioned to train on and refine the practice of the CSE function. The Staff CSE collaborates closely with the CSE and ibrvgtdlklullngcidbk
-CSM leadership in further refining the direction and enablement of the CSE specialty within Customer Success Management. In the market, there are over 20 organizations that typically have 2-3 Staff CSEs.
+Market Justification: The business need for an individual contributor Staff CSE role is to have a team member who is a subject matter expert (SME) with deep subject matter expertise positioned to train on and refine the practice of the CSE function. The Staff CSE collaborates closely with the CSE and CSM leadership in further refining the direction and enablement of the CSE specialty within Customer Success Management. In the market, there are over 20 organizations that typically have 2-3 Staff CSEs.
 
 The Staff CSE reports to the Manager/Senior Manager, CSE.
 

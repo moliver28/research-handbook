@@ -43,6 +43,10 @@ Tickets are created by the Support team at the partner, but the tickets come fro
 
 Customers in the tickets are customers both at GitLab and Alliance Partner.
 
+### Ticket naming
+
+Tickets will be named in this format: `[Customer name] - [Alliance partner internal ticket id] - [Ticket Subject]`
+
 ### Adding customer to ticket
 
 Alliance Partner support team needs to add customer as cc when they create the ticket. Just as with any other customer, GitLab should not add any contacts to the ticket.

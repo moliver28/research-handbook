@@ -8,7 +8,7 @@ title: Learning & Development
 
 ### Purpose
 
-*Why we exist:* L&D is here to guide team members on their career journey. We strive to foster a culture of learning and development so that GitLab remains a great place to work. When our team members can do their jobs, our customers are happy as a result. This makes everyone at GitLab happy!
+*Why we exist:* GitLab Talent Development (commonly referred to as "Learning & Development") exists to enhance team member performance, expand capabilities, and further develop skills that make GitLab team members the top talent in the industry. We strive to foster a culture of continous growth so that GitLab remains a great place to work. Positive impact on team member experience leads to a positive impact on results, which leads to a positive impact on GitLab customers.
 
 ### Vision
 
@@ -45,7 +45,6 @@ We are a small team, but we've got a big role to play at GitLab!
 - [Learning and Development Director]({{< ref "/job-families/people-group/learning-development#learning--development-manager" >}}): [Tre Ely]({{/handbook.gitlab.com/handbook/company/team/#tely2}})
 - [Senior Learning and Development Program Manager]({{< ref "/job-families/people-group/learning-development#intermediate-learning--development-program-manager" >}}): [Samantha Lee](/handbook/company/team/#slee24)
 - [Learning and Development Program Manager]({{< ref "/job-families/people-group/learning-development#intermediate-learning--development-program-manager" >}}): [Jamie Allen](/handbook/company/team/#jallen16)
-- [Learning and Development Program Manager]({{< ref "/job-families/people-group/learning-development#intermediate-learning--development-program-manager" >}}): [Kalyani Yerraguntla](/handbook/company/team/#kyerraguntla)
 
 ## Team Member Resources
 

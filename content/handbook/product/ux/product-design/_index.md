@@ -119,7 +119,7 @@ Going forward, every milestone, we will ask Product Designers and Engineers to v
 | 16.10              |                   |                   |
 | 16.11              |                   |                   |
 | 17.0               |                   |                   |
-| 17.1               |                   |                   |
+| 17.1               |  Veethika Mishra  |     Miguel Rincon |
 
 
 {{% details summary="Previous Volunteers" %}}

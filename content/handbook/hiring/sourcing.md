@@ -194,6 +194,10 @@ Simply add all your filters as described above in the LinkedIn Recruiter sourcin
 
 You can download several profiles in bulk in an XLS file and you can run your searches in the spreadsheet. For this, click on the blue “Export” button on the top of your search results in the “All candidates” section of a search result tab.
 
+#### Greenhouse CRM
+
+In today’s talent market, a CRM enables us to efficiently and quickly engage with talent that opted into learning and potentially growing at GitLab. Learn more about how to use our Greenhouse CRM [here](https://docs.google.com/document/d/16DzE9bsgeflGiRMntncdhMTc6CpHjE5hlQqOnLBQpwo/edit).
+
 #### DIB Enablement
 
 Examples of searches:

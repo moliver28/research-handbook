@@ -72,7 +72,7 @@ To enable, you must [create an issue](https://gitlab.com/gitlab-com/marketing/ma
 
 We do have a sandbox to work in for Marketo. The sandbox is used for training, creation of API links and overall testing before we move to production. There is not a way to `promote` a program from the sandbox to Prod, so building programs in the sandbox first is not always required. Guidelines for when to build in the sandbox is TBD, but for custom API and webhook integrations, it is highly recommended.
 
-If you'd like access to the sandbox, please fill out an [AR](/handbook/business-technology/team-member-enablement/onboarding-access-requests/access-requests/frequently-asked-questions/).
+If you'd like access to the sandbox, please fill out an [AR](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/frequently-asked-questions/).
 
 To limit the number of leads that pass from SFDC staging to Marketo Sandbox, we have instituted a custom rule that will only allow leads to sync from SFDC Staging to Marketo Sandbox IF `Marketo Sync` = TRUE. This is opposite logic than what we have for production.
 
@@ -82,7 +82,7 @@ Sales Systems refreshes the [SFDC staging environment](/handbook/sales/field-ope
 
 ## Forms
 
-Nearly all the forms on our website (`about.gitlab.com`) are Marketo embedded forms. Marketing Operations is responsible for maintaining existing forms and creating any new forms. If you need a new form created, please open a [form creation issue](https://gitlab.com/gitlab-com/marketing/marketing-operations/-/issues/new?issuable_template=form_request). If you are using an existing form on a NEW page, please enter a request so that we can build the automation behind the form. If there is no automation created for the form, the person filling out the form will enter Marketo, but will not be processed into a campaign or sent into follow up.
+Nearly all the forms on our website (`about.gitlab.com`) are Marketo embedded forms. Marketing Operations is responsible for maintaining existing forms and creating any new forms. If you need a new form created, please open a [form creation issue](https://gitlab.com/gitlab-com/marketing/marketing-operations/-/issues/new?issuable_template=form_request). If you are using an existing form on a NEW page, please [enter a request](https://gitlab.com/gitlab-com/marketing/marketing-operations/-/issues/new?issuable_template=form_processing) so that we can build the automation behind the form. If there is no automation created for the form, the person filling out the form will enter Marketo, but will not be processed into a campaign or sent for follow up.
 
 Form documentation can be found [here](https://docs.google.com/spreadsheets/d/1cV_hI2wAzLxYYDI-NQYF5-FDDPXPXH0VV5qRBUJAQQk). It contains all of our current forms, as well as standardized country and state picklists.
 
@@ -197,6 +197,14 @@ Some leads are exluded from scoring if they:
 - Company name of `student`, `personal`, `test` and similar
 - Actively worked by a partner (`Prospect Share Status` = `Sending to Partner`, `Accepted`, or `Pending`)
 
+#### Why Do We Use A Scoring Model?
+
+A slide deck of the "why" we use a scoring model, along with a few pointers, can be found [here](https://docs.google.com/presentation/d/1Xl1xcrOeFsDar2B9kTmMH1Hrw5WKsNx7mDL9xtVeBMs/edit#slide=id.g1d24c3e4ddd_5_252). Note, this is the slide deck used in the LevelUp course. 
+
+#### Scoring Revamp FY25Q1
+
+For details on the data driven changes made to lead scoring at the beginning of FY25, refer to [this slide deck](https://docs.google.com/presentation/d/14bTq_KOyG7jHJR7vghcUVAZ_tMSOgbAN7hI8auI49eU/edit#slide=id.g1d24c3e4ddd_5_252) and [this slide deck](https://docs.google.com/presentation/d/1B8Q3Rq6O7-641rFoGOJOG6TxKHM_uAU29Ejbzqr2KMI/edit#slide=id.g1d24c3e4ddd_5_252) to review the data set findings.
+
 #### Auto-MQL
 
 Based on certain criteria, a lead may auto-MQL. Note that any auto-MQL is considered to be part of the `Behavior` score category. The scenarios are listed below:
@@ -210,10 +218,10 @@ WIP
 | Auto-MQL Behavior | Campaign Description | Points Assigned | Schedule/Flow Limit |
 | ------ | ------ | ------ | ------|
 |   Follow Up Requested  | Follow Up Requested, <br> Conference > Meeting Attended   | +100 | Everytime | 
-|  Inbound  | Contact Request, <br> Renewals, <br> [Hand Raise PQL](https://handbook.gitlab.com/handbook/product/product-principles/#a-pql-can-be-further-broken-down-into-two-types-usage-and-hand-raise), <br> In-app Health Check, <br> Duo Requests | +100 | 1/day | 
-| PTP Score  |Assigned a 4 or 5 score via the [Propensity Model](https://handbook.gitlab.com/handbook/customer-success/csm/segment/commercial/#propensity-models) | +100 | TBD |
-| Web Chat  |Web chat interaction with meeting scheduled | +100 | 1/day | 
-
+|  Inbound  | Contact Request, <br> Renewals, <br> [Hand Raise PQL](https://handbook.gitlab.com/handbook/product/product-principles/#a-pql-can-be-further-broken-down-into-two-types-usage-and-hand-raise), <br> In-app Health Check, <br> Duo Requests <br> | +100 | 1/day | 
+| [PTP Score]((https://internal.gitlab.com/handbook/sales/propensity_models/))  |Assigned a 4 or 5 score via the Propensity Model.<br> See [Educational deck](https://docs.google.com/presentation/d/1dxSXekzw-SIF1g4pjNf6QGNBUY1L6euggsqqr9BTHUY/edit#slide=id.g1d24c3e4ddd_5_252) or handbook for details <br>  | +100 | 1/90 days |
+| Web Chat - <br>Qualified  |Web chat interaction or meeting scheduled | +100 | 1/day | 
+|* Inbound - Med|Inbound form, not above |    +100|1/day|
 
 #### Behavior Scoring
 
@@ -221,59 +229,50 @@ Behavior scoring is based on the actions that person has taken. The cadence of h
 
 |**Behavior**|Campaign Description|**Points Assigned**|**Schedule/Flow Limit**|
 |:--------:|:-------:|:-----:|:--------:|
-|Registered |Registered, <br> Conference > Meeting Requested|    +10    |Everytime|
-|* Program High|Workshop, <br> Self-Service Virtual Event, <br> Webcast, <br> Executive Roundtables |    +30    |Everytime|
-|* Program Med|Sponsored Webcast, <br>Speaking Session,<br> Owned Event,<br> Conference > Visited Booth    |+20    |Everytime|
-|* Program Low |Vendor Arranged Meetings,<br> Conference > Attended    |+10| Everytime|
-|* Content - High|Analyst Reports| +45|Everytime|
+|Registered |Registered, <br> Conference > Meeting Requested|    +20    |Everytime|
+|* Program High| Executive Roundtables, <br> Owned Event, <br> Speaking Session,<br> Vendor Arranged Meetings,<br> Webcast <br>  |    +40    |Everytime|
+|* Program Med|Conference > Visited Booth, <br> Sponsored Webcast <br> Visited Booth, <br> Workshop / Demo   |+20    |Everytime|
+|* Program Low | Conference > Attended, <br> Paid Social  |+10| Everytime|
+|* Content - High|Analyst Reports| +35|Everytime|
 |* Content - Med|Gated Content|+15|  Everytime|
-|* Content -  Low|Content Syndication|+5| Everytime|
+|* Content -  Low|Content Syndication|+10| Everytime|
 |* Survey - Med|(None Defined)    |+30| Everytime|
 |* Survey - Low|Googleforms, <br> Default    |+15|  Everytime|
 |* PathFactory |Consumes PF content|+10| Everytime|
-|* Inbound - Med|Inbound form, not above |    +60|1/day|
-|Web Chat - Low|All other Drift Interactions|+10|1/day|
+|Subscription|Fills out Subscription Form    |+5|1/week    |
+|Visits Key Webpage|`/pricing/`,<br> `/sales`,<br> `/install`,<br> `/features`,<br> `/direction`,<br> `/solutions/startups/`,<br> `/releases/gitlab-com/`    |+25    |1/week    |
 |* Trial - Default | SaaS,<br>Subscription Portal   |    +40| 1/day    |
 |* Trial - Personal | SaaS,<br>Self-Managed,<br>Subscription Portal   |    +65|1/day    |
 |* Trial | SaaS,<br>Self-Managed,<br>Subscription Portal   |    +100| 1/day    |
-|Subscription|Fills out Subscription Form    |+5|1/week    |
-|Visits Key Webpage|`/pricing/`,<br> `/sales`,<br> `/install`,<br> `/features`,<br> `/direction`,<br> `/solutions/startups/`,<br> `/releases/gitlab-com/`    |+25    |1/week    |
 
-##### Score Boosters and Combination Boosters
+##### Interaction Boosters
 
-Boosts to scores occur when a special action takes place above the traditional action above. There are also boosters activated when specific high conversion combinations are tracked. 
+Boosts to scores occur when a special action takes place above the traditional action above.  
 
-|**Behavior/Combo**|Campaign Description|**Points Assigned**|**Schedule/Flow Limit**|
+|**Interaction Boosters**|Campaign Description|**Points Assigned**|**Schedule/Flow Limit**|
 |:-------------:|:-------:|:-----:|:--------:|
-|PF Demo Booster|Consumes PF content that is a demo|+35|1/day|
-|PF Engagement Booster 1|Engagement Time >  2 minutes < 4 minutes|+10|Everytime|
-|PF Engagement Booster 2|Engagement Time > 4 minutes|+15|Everytime|
-|PF Fast Moving Buyer|Becomes fast moving buyer|+10|1/month|
-|LinkedIn Form Fill Booster| Fills out LinkedIn Lead Gen Form | +30|Everytime|
 |Re-MQL Score|    Status is Nurture,user takes an activity that increases behaviour score<br>MQL Counter >0    |+20    |    1/month|
-|On24 Engagement Booster | Earned a high "engagement score" on On24 platform |+10 | Once/3 month |
-|On24 Questions Asked Booster | Engaged with team via questions on On24 platform | +5 | Once/week  |
-|On24 Resources Booster | Viewed available research assets via On24 platform| +5| Once |
-|Trial + Action|Success in program within 40 days of starting a trial |+20|1/month|
+
+<!--|PF Engagement Booster 2|Engagement Time > 4 minutes|+15|Everytime|
+|PF Engagement Booster 1|Engagement Time >  2 minutes < 4 minutes|+10|Everytime|
+
+-->
 
 #### Demographic Scoring
 
-For Job role/function and seniority descriptions can be found [here](https://docs.google.com/spreadsheets/d/1EztHU53vE9Y_mmxlb4taQJ5_oo7CatdFvZNxbMklJf4/edit?usp=sharing). There is a 70 pt soft limit on demographic scoring that applies to both demographic and person score.
+For Job role/function and seniority descriptions can be found [here](https://docs.google.com/spreadsheets/d/1EztHU53vE9Y_mmxlb4taQJ5_oo7CatdFvZNxbMklJf4/edit?usp=sharing). There is a 60 pt hard limit on demographic scoring that applies to both demographic and person score.
 
 |**Demographic Characteristic**|Campaign Type|**Points**|**Schedule/Flow Limit**|
 |:-------------:|:-------:|:-----:|:--------:|
-|Setup for Company/Team Use|Self-Identified as using for company or team in the product|    +30    |Once|
-|Business Email Domain|Has a valid business email address|    +30    |Once|
-|Technology - High (Not Live)|[See tech here](https://docs.google.com/spreadsheets/d/1EztHU53vE9Y_mmxlb4taQJ5_oo7CatdFvZNxbMklJf4/edit?usp=sharing)    |+20|    Once|
-|Technology - Low (Not Live)|[See tech here](https://docs.google.com/spreadsheets/d/1EztHU53vE9Y_mmxlb4taQJ5_oo7CatdFvZNxbMklJf4/edit?usp=sharing)    |+10| Once|
-|Seniority - High|[Find descriptions here](https://docs.google.com/spreadsheets/d/1EztHU53vE9Y_mmxlb4taQJ5_oo7CatdFvZNxbMklJf4/edit?usp=sharing)|    +20    |   Once|
+|Setup for Company/Team Use|Self-Identified as using for company or team in the product|    +25    |Once|
+|Business Email Domain|Has a valid business email address|    +35    |Once|
+|Seniority - High|[Find descriptions here](https://docs.google.com/spreadsheets/d/1EztHU53vE9Y_mmxlb4taQJ5_oo7CatdFvZNxbMklJf4/edit?usp=sharing)|    +15    |   Once|
 |Seniority - Med|[Find descriptions here](https://docs.google.com/spreadsheets/d/1EztHU53vE9Y_mmxlb4taQJ5_oo7CatdFvZNxbMklJf4/edit?usp=sharing)|    +15    |   Once|
-|Seniority - Low|[Find descriptions here](https://docs.google.com/spreadsheets/d/1EztHU53vE9Y_mmxlb4taQJ5_oo7CatdFvZNxbMklJf4/edit?usp=sharing)|    +15    |    Once|
+|Seniority - Low|[Find descriptions here](https://docs.google.com/spreadsheets/d/1EztHU53vE9Y_mmxlb4taQJ5_oo7CatdFvZNxbMklJf4/edit?usp=sharing)|    +5    |    Once|
 |Function - High|[Find descriptions here](https://docs.google.com/spreadsheets/d/1EztHU53vE9Y_mmxlb4taQJ5_oo7CatdFvZNxbMklJf4/edit?usp=sharing)|    +20    |   Once|
 |Function - Med|[Find descriptions here](https://docs.google.com/spreadsheets/d/1EztHU53vE9Y_mmxlb4taQJ5_oo7CatdFvZNxbMklJf4/edit?usp=sharing)|+15|   Once|
 |Function - Low|[Find descriptions here](https://docs.google.com/spreadsheets/d/1EztHU53vE9Y_mmxlb4taQJ5_oo7CatdFvZNxbMklJf4/edit?usp=sharing)|    +10 |    Once|
 |Country - Tier 1, Tier 2 |[Country = Tier 1, Tier 2](/handbook/marketing/localization/#priority-countries)|    +5   |Once|
-| Key Account | Key Account = True |    +20  |Once|
 
 #### Score Decay
 
@@ -283,9 +282,7 @@ For Job role/function and seniority descriptions can be found [here](https://doc
 |Web: Visits Low Value|`/jobs`, `/careers`, `/unsubscribe`|    -10    |1/day|
 |Email:  Bounce    |Email Hard Bounces|    -20|1/month|
 |Email: Unsubscribed|Unsubscribed from Email|    Score Reset based on Demographic score    |1/month|
-
-| **Demographic Decay** |**Campaign Description**|**Points Removed**|**Schedule/Flow Limit**|
-|:-------------:|:-------:|:-----:|:--------:|
+| **Demographic Decay** |**-**|**-**|**-**|
 |Generic Domain|[Contains generic email domain](https://docs.google.com/spreadsheets/d/1IO7DAIvhAhvIydkvLjwP-X_g97Zharf8JpkSVIsmiSs/edit?usp=sharing)|    -10    |Once|
 |Seniority - Negative|[Find descriptions here](https://docs.google.com/spreadsheets/d/1EztHU53vE9Y_mmxlb4taQJ5_oo7CatdFvZNxbMklJf4/edit?usp=sharing)|    -10    |    Once|
 |Function - Negative|[Find descriptions here](https://docs.google.com/spreadsheets/d/1EztHU53vE9Y_mmxlb4taQJ5_oo7CatdFvZNxbMklJf4/edit?usp=sharing)|    -20    |  Once|
@@ -297,7 +294,7 @@ The Lead Classification Matrix and the Lead Classification Definitions Table [ex
 
 To streamline prospecting with lead scoring, as of January 2024 Salesforce now displays a `lead score classification` on all `new` leads moving forward and all leads Marketing has tracked as `active` since Jan 2023. Leads that do not meet this criteria may not feature a classification, but eventually more leads _may_ have the field populated. The field can be found in the `Person Status` section of leads and and `Contact Detail` section of contacts. 
 
-A `lead score classification` is a 2-character score/designation meant to classify the likelihood of a prospect leading into a closed-won opportunity - with the score being modeled after the lead's current `demographic` and `behavior` scores. A Marketo automation sets or changes the lead score classification a few minutes after two types of events: 1) when a lead is created 2) when a lead experiences a change in either their `demographic` or `behavior` scores. A visual representation of the scores and their definitions are pictured below in the `Lead Classification Matrix`. 
+A `lead score classification` is a 2-character score/designation meant to classify the likelihood of a prospect leading into a closed-won opportunity - with the score being modeled after the lead's current `demographic` and `behavior` scores. A Marketo automation sets or changes the lead score classification a few minutes after two types of events: 1) when a lead is created 2) when a lead experiences a change in either their `demographic` or `behavior` scores. A visual representation of the scores and their definitions are pictured below in the `Lead Classification Matrix`. Lead that have their lead status set into `Ineligible` or `Disqualified` will have their `lead score classification` set to `Disqualified` or `Ineligible`. 
 
 ![Lead Classification Matrix](/handbook/marketing/marketing-operations/marketo/lead_classification_matrix.png)
 
@@ -432,6 +429,7 @@ Complete list of priority countries as found [here](https://gitlab.com/gitlab-co
 - Purchasing / Buyer
 - Accounting / Finance
 - C-Level (President / CEO/ COO)
+- Retired
 - Default
 </details>
 

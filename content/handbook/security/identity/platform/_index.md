@@ -73,7 +73,7 @@ We have different categories of users (ex. employees, contractors, service accou
 
 An **Identity Role** is a standardized snake case format for the functional team that the user is on or job title, as it relates to access control and permissions.
 
-This is a next generation iteration of a GitLab Identity v2 [job family](https://handbook.gitlab.com/job-families/) and [role-based baseline entitlements](https://handbook.gitlab.com/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/baseline-entitlements/).
+This is a next generation iteration of a GitLab Identity v2 [job family](https://handbook.gitlab.com/job-families/) and [role-based baseline entitlements](https://internal.gitlab.com/handbook/it/end-user-services/access-request/baseline-entitlements/).
 
 Each role uses a syntax of `{department_slug}_{functional_team_slug}_{specific_role_if_applicable}`. For example, if your department is `Infrastructure`, the RBAC slug is `infra`.
 

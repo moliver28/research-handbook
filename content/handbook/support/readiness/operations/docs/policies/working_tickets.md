@@ -57,7 +57,7 @@ For removing the association from a user:
    - If the user in question was one mentioned in an organization note
      specifying users approved to request changes, make a mental note to
      adjust the organization note via the
-     [organizations project](https://gitlab.com/gitlab-com/support/support-ops/zendesk-global/organizations).
+     [organizations project](https://gitlab.com/gitlab-com/support/zendesk-global/organizations).
 1. Remove the association to the organization on the user (done by setting the
    organization to `-`).
 1. Add a note on the user with the following:

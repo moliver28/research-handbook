@@ -58,3 +58,47 @@ controlled_document: true
 ---
 
 ```
+
+Some pages might not need the warning banner which can optionally be disabled using the `controlled_document_banner_disabled` attribute.
+
+```markdown
+---
+title: "Public document without banner"
+description: "..."
+controlled_document: true
+controlled_document_banner_disabled: true
+---
+
+```
+
+## Page Types (Layouts)
+
+**Note:** To keep the handbook consistent, we discourage overriding the page `type` (aka layout).
+
+You may notice that some pages have `layout` in the frontmatter, such as:
+
+```plain
+---
+title: "Some page"
+layout: default
+---
+```
+
+The `layout` keyword was used in the old `www-gitlab-com` project and is no longer relevant. Please remove it if you see it.
+
+We now use the docsy theme, which includes some [provided layouts](https://www.docsy.dev/docs/adding-content/content/#content-sections-and-templates). By default, all handbook pages inherit the `docs` type specified [in `content/handbook/_index.md`](https://gitlab.com/gitlab-com/content-sites/handbook/-/blob/main/content/handbook/_index.md?ref_type=heads&plain=1#L8-9).
+
+If you are adding a new top-level section to the site, we encourage you to do the same:
+
+```md
+<!-- content/<new_section>/_index.md -->
+---
+title: New Section
+cascade:
+- type: docs
+---
+
+Welcome to this new section of the handbook site!
+```
+
+One exception to this is the "news" section of the internal-handbook which [inherits the `blog` page type.](https://gitlab.com/gitlab-com/content-sites/internal-handbook/-/blob/main/content/news/_index.md?ref_type=heads&plain=1#L4)

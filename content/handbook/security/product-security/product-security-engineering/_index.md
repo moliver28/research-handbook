@@ -5,11 +5,11 @@ description: "The Product Security Engineering team's mission is to create proac
 
 ## Product Security Engineering Mission
 
-As part of the Product Security sub-department, and sibling to the Application Security Team, our mission is to:
+As part of the Product Security department, and sibling to the Application Security sub-department, our mission is to:
 
 - Enhance security along the software development lifecycle by creating ["paved roads"](https://netflixtechblog.com/scaling-appsec-at-netflix-part-2-c9e0f1488bc5)
 - Contribute product-first code that enhances the security of GitLab's software assets
-- Reduces the manual burden of the Application Security team by building automation and product improvements
+- Reduce the manual burden of the Application Security team by building automation and product improvements
 
 ### What we do
 
@@ -69,6 +69,24 @@ Like [Single Engineer groups](/handbook/engineering/incubation/), each Product S
 - New projects should follow the ["Creating a new project"](/handbook/engineering/gitlab-repositories/#creating-a-new-project) engineering guidance
 - Unless the effort is AppSec automation, the workflow ends by handing over the feature to a Product team
 
+#### Step-by-step refinement process
+
+Below is a step-by-step process for team members to walk through when refining backlog issues. We try our best to adhere to [existing GitLab development team standards](https://handbook.gitlab.com/handbook/product-development-flow/), so that the work can be picked up by anyone.
+
+1. Choose an issue to refine
+    1. Unrefined issues are labeled `~workflow::validation backlog` (or perhaps have no `~workflow::` label)
+    1. You may also consider refining an issue labeled `~ProdSecEng Candidate`
+1. Get an understanding of what the issue is trying to accomplish
+    1. You may need to ask questions of the person who created the issue or the relevant teams
+    1. Ensure there is a clear definition of done for this particular set of work
+    1. Consider breaking the issue down into separate pieces or, if needed, making an epic
+1. Add additional details to the appropriate sections such that someone can easily understand the goals and requirements
+1. Investigate what an ideal solution might look like and add potential solution information to that issue
+    1. Consider timeboxing this effort
+    1. If needed, consider applying the `~workflow::solution validation` label and engaging with the relevant product, engineering, or security teams to determine if the proposed solution addresses the requirements
+1. Add a [weight](https://handbook.gitlab.com/handbook/security/product-security/product-security-engineering/#weights) based on how much effort this will take to accomplish
+1. Add the `~workflow::ready for development` label to indicate that the issue has been refined
+
 ### Weights
 
 We use a lightweight system of issue weighting with the knowledge that [things take longer than you think].
@@ -106,6 +124,14 @@ When contributing to a project owned and primarily maintained by Product Securit
   - We evaluate the tradeoff between knowledge sharing and velocity on a case-by-case basis, with each team member empowered to make decisions on foregoing a review
 - We can skip a formal review if something is blocking, time-sensitive, and/or resolving an urgent high-impact need
 - We try to pick up issues in tooling other team members have written
+
+### Project namespaces
+
+The Product Security Engineering team defaults to using the namespaces of the stakeholder that we're performing the work for:
+
+- For contributions to GitLab assets, we contribute to the relevant repositories where other work is performed
+- For AppSec related work, we use the [AppSec tooling namespace](https://gitlab.com/gitlab-com/gl-security/appsec/tooling) unless there is a compelling reason not to
+- For our team's repositories, we use the [Product Security Engineering tooling namespace](https://gitlab.com/gitlab-com/gl-security/product-security-engineering/tooling)
 
 ## References
 

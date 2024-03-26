@@ -65,7 +65,7 @@ Steps to uplevel triaging process:
 |                   | G&A Data Fusion | | `@Peter Empey` | `@lisvinueza`  | | | |  
 | `@EngineeringAnalyticsTriage` | Engineering Analytics |  |  | `@Raul Rendon` | |  `@lily` | 
 |                   | Engineering Data Fusion |  | `@Peter Empey`  | `@lisvinueza` |  |     |     |
-| `@DataPlatformTriage` | Data Platform | | [Weekly rotation](https://gitlab.com/gitlab-data/analytics/-/issues/14815#note_1159130336) | [Weekly rotation](https://gitlab.com/gitlab-data/analytics/-/issues/14815#note_1159130336) | [Weekly rotation](https://gitlab.com/gitlab-data/analytics/-/issues/14815#note_1159130336) | [Weekly rotation](https://gitlab.com/gitlab-data/analytics/-/issues/14815#note_1159130336) | [Weekly rotation](https://gitlab.com/gitlab-data/analytics/-/issues/14815#note_1159130336) |
+| `@DataPlatformTriage` | Data Platform | | Weekly rotation | Weekly rotation | Weekly rotation | Weekly rotation | Weekly rotation |
 | `@DataCollaborationTriage` | Data Collaboration |  |  |  |   | | | 
 
 #### Data Platform weekly rotation schedule
@@ -77,13 +77,9 @@ In FY23-Q4 the Data Platform Team ran an experiment to move from a daily triage 
 Also a pulse check amongst Data Platform Team members learned that triage was more efficient because Team members were able to focus better.
 The Data Platform Team will run on a weekly rotation schedule moving forward. This means that a Data Platform Team member is performing triage responsibilities from Monday - Friday. With running a weekly schedule Team members could focus more and better on outstanding issues and incidents and prevent doing handovers each and every day.
 
-Before the start of the quarter the Data Platform Team aligns on the weekly rotation schedule via an issue.
+Before the start of the quarter the Data Platform Team aligns on the weekly rotation schedule via an issue follewed by updating the Data Team calendar.
 
-- FY24-Q2: https://gitlab.com/gitlab-data/analytics/-/issues/16229
-- FY24-Q1: https://gitlab.com/gitlab-data/analytics/-/issues/15407
-- FY23-Q4: https://gitlab.com/gitlab-data/analytics/-/issues/14815
-
-Because of public holidays or unforeseen circumstances (Family and Friends day excluded, on these days we do not perform triage), the schedule can change throughout the quarter where there is still a possibility to handover a single day amongst Data Platform Team members. These changes are arranged between team members and are reflected in the Data Team calendar.
+Because of public holidays or unforeseen circumstances (Family and Friends day excluded, on these days we do not perform triage), the schedule can change throughout the quarter where there is still a possibility to handover a single day amongst Data Platform Team members. These changes are arranged between team members and are reflected in the Data Team calendar. This means that the Data Team calendar is the single source of truth.
 
 ### Enterprise Data Program Triage Instructions
 

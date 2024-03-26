@@ -11,7 +11,7 @@ See also [opstrace#1949](https://gitlab.com/gitlab-org/opstrace/opstrace/-/issue
 
 ## Responding
 
-A standard response is available as a macro: [`Support::SaaS::Temp IP Ban`](https://gitlab.com/search?utf8=%E2%9C%93&group_id=2573624&project_id=17008590&scope=&search_code=true&snippets=false&repository_ref=master&nav_source=navbar&search=id%3A+360045599533))
+A standard response is available as a macro: [`Support::SaaS::Gitlab.com::Temp IP Ban`](https://gitlab.com/gitlab-com/support/zendesk-global/macros/-/blob/master/active/Support/SaaS/GitLab.com/Temp%20IP%20Ban.md?ref_type=heads)
 
 Please also see [the log requests workflow](/handbook/support/workflows/log_requests) for what information we can provide when responding.
 
@@ -157,6 +157,17 @@ An IP can become rate-limited if a customer attempts to export or download proje
 - `json.action`: `download_export`
 
 - `json.path`: `/namespace/project/download_export`
+
+### Email verification process
+
+In certain cases, when the customer is using a shared user account to run pipelines, a signing sign in from a new IP address will trigger [Account email verifiation](https://docs.gitlab.com/ee/security/email_verification.html). this will block the account, and all tokens, until the signing is verify. This could cause enough `401` errors to trigger an [IP block](https://docs.gitlab.com/ee/user/gitlab_com/index.html#ip-blocks).
+
+#### Useful Fields
+
+- `json.details.custom_message` : `User access locked - sign in from untrusted IP address`
+- `json.custom_message`: `User access locked - sign in from untrusted IP address`
+- `json.entity_path` - The user name of the account
+
 
 ### Handling GitLab.com "Access Denied" errors (CloudFlare Block)
 

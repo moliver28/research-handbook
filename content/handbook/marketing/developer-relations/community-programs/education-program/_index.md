@@ -269,7 +269,7 @@ In the case of Education Evangelism, both tech and education events are importan
 An Education Evangelist seeks out relevant organizations and events to participate in as part of their role.
 As events and organizations to consider are found we will add them to an issue in the [Outreach project](https://gitlab.com/gitlab-com/marketing/community-relations/community-programs/education-program/outreach/).
 
-When preparing for presentations and talks, post your slides to the [Developer Evangelism](https://gitlab.slack.com/archives/CMELFQS4B) or [Developer Relations](https://gitlab.slack.com/archives/C0R04UMT9) Slack channel for feedback on slides.
+When preparing for presentations and talks, post your slides to the [Developer Advocacy](https://gitlab.slack.com/archives/CMELFQS4B) Slack channel for feedback on slides.
 This ensures that the most current messaging is being used.
 It's also good for a sanity check and quick edit on the content.
 Another good way to review for a speaking engagement is to post a zoom room to the [speaking channel](https://gitlab.slack.com/archives/CCGD905AR) and ask for people to join a practice session.

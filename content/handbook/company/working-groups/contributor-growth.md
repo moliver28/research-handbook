@@ -42,7 +42,7 @@ Following exit criteria will be owned by the [Contributor Success team](/handboo
 |-----------------------|------------------------------------------------------|------------------------------------------------------------|
 | Executive Sponsor     | [Mek Stittri](https://gitlab.com/meks)               | VP of Quality                                              |
 | Functional Lead       | [Nick Veenhof](https://gitlab.com/nick_vh)          | Director of Contributor Success                            |
-| Functional Lead       | [John Coghlan](https://gitlab.com/johncoghlan)       | Manager, Developer Relations                               |
+| Functional Lead       | [John Coghlan](https://gitlab.com/johncoghlan)       | Director, Developer Advocacy                               |
 | Functional Lead       | [Christos Bacharakis](https://gitlab.com/cbacharakis)| Senior Code Contributor Program Manager                    |
 | Member                | [Rémy Coutable](https://gitlab.com/rymai)            | Staff Backend Engineer, Engineering Productivity           |
 | Member                | [Tanya Pazitny](https://gitlab.com/tpazitny)         | Director of Quality Engineering                            |

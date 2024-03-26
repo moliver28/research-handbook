@@ -1,9 +1,7 @@
 ---
 title: "Product Design Management"
-description: "Managers in the UX department at GitLab see the team as their product. While they are credible as designers and know the details of what product designers work on, their time is spent hiring a world-class team and putting them in the best position to succeed."
+description: "Managers in the UX department at GitLab see the team as their product. While they are credible as designers and know the details of what product designers work on, their time is spent hiring a world-class team and putting them in the best position to succeed. They own the delivery of UX commitments, are always looking to improve productivity, and are responsible for the user experience in the product."
 ---
-
-Managers in the UX department at GitLab see the team as their product. While they are credible as designers and know the details of what product designers work on, their time is spent hiring a world-class team and putting them in the best position to succeed. They own the delivery of UX commitments and are always looking to improve productivity. They must also coordinate across departments to accomplish collaborative goals.
 
 ## Product Design Manager
 
@@ -17,13 +15,13 @@ The Product Design Manager is a [grade 8](/handbook/total-rewards/compensation/c
 
 - **Product knowledge:** Understand the technology and features of the areas you are assigned and have working knowledge of the end-to-end GitLab product.
 - **Cross-product collaboration:** Proactively identify large, strategic UX opportunities that span both inside your areas and across the product. Work with other product design managers, staff, and principal product designers to drive cross-product initiatives through awareness and prioritization.
-- **Design quality:** Be an active participant in monthly milestones by reviewing UX deliverables (such as research and designs) that your team creates, and provide feedback to ensure high-quality output.
-- **Research:** Identify strategic user research initiatives that span multiple stage groups (and possibly the entire product), and work with other product design/research managers to organize research efforts.
+- **Design quality:** Be a frequent and active participant in milestones by reviewing UX deliverables (such as research and designs) that your team creates, and provide feedback to ensure high-quality output.
+- **Research:** Identify strategic user research initiatives that span multiple stage groups (and possibly the entire product), and work with other product design/research managers to organize research efforts. Help product designers identify when research is needed for their stage group.  
 - **UX evangelism:** Communicate the value of UX to cross-functional GitLab team members and work with them to leverage the [product development flow](/handbook/product-development-flow/). Work closely with PMs to provide visibility and awareness into UX initiaties (including OKRs) and advocate for their prioritization.
-- **Usability:** Help the product teams of areas you support to prioritize UX initiatives including [UX debt](/handbook/product/ux/performance-indicators/#ux-debt), [SUS-impacting issues](/handbook/product/ux/performance-indicators/#sus-impacting-issues-openedclosed-each-month), and overall usability improvements to the product.
+- **Usability:** Help the product teams of areas you support to prioritize UX initiatives including [Deferred UX](/handbook/product/ux/performance-indicators/#deferred-ux), triage and resolution of UX bugs, and overall usability improvements to the product. Lead [UX Scorecard](https://handbook.gitlab.com/handbook/product/ux/ux-scorecards) initiatives in order to consistently measure the experience of your product areas and show improvements over time.
 - **UX process**: Set up and manage collaborative processes within your team to ensure product designers, technical writers, and researchers are actively working together. Make sure they have exposure to the work that is happening within the broader team. Collaborate with your peers to make improvements to how we work across the design organization.
 - **Hiring:** Help source talent, interview, and conduct portfolio reviews of product design candidates to hire a world-class team. Review and provide feedback on interview scorecards to maintain a high-quality interview process.
-- **Vision and direction:** Contribute to product direction conversations, and stay involved in the strategy and vision of the areas you're assigned.
+- **Vision and direction:** Contribute to product direction conversations, with emphasis on leading the experience vision for your product areas.
 - **Career development:** Provide coaching for those on your team to grow technical/soft skills and develop career paths using methods such as weekly [1:1s](/handbook/leadership/1-1/), individual growth plans, and routine career development check-ins.
 - **People management:** Improve the happiness and productivity of your team. Recognize and help prevent [burnout](/handbook/company/culture/all-remote/mental-health/) while managing performance.
 
@@ -33,7 +31,7 @@ The Foundations team works on building a cohesive and consistent user experience
 
 You'll spend your time collaborating with a [cross-functional team](/handbook/product/categories/#ecosystem-group), helping to implement our [design system](https://design.gitlab.com/), building comprehensive accessibility standards into our workflows, and defining guidelines and best practices that will inform how teams design and build products. A breakdown of the vision you’ll help to deliver within the Foundations group can be found on our [product direction page](https://about.gitlab.com/direction/manage/foundations/).
 
-### Foundations Requirements
+### Requirements
 
 - Experience managing a group of designers who work on complex products.
 - A clear philosophy about how to successfully manage remote design teams.
@@ -44,12 +42,12 @@ You'll spend your time collaborating with a [cross-functional team](/handbook/pr
 - Passion for creating visually pleasing and intuitive user experiences.
 - Collaborative team spirit with great communication skills.
 - You share our [values](/handbook/values/), and work in accordance with those values.
-- [Leadership at GitLab](/handbook/company/structure/#management-group).
+- [Leadership at GitLab](/handbook/leadership).
 - Ability to use GitLab.
 
 #### UX Paper Cuts
 
-The UX Paper Cuts team is responsible for identifying and fixing small, impactful usability issues in the GitLab product. Like the Foundations team, UX Paper Cuts does not work within a specific product area, but across the product as a whole, identifying issues and creating merge requests to continually [improve the user experience](https://nicolasdular.gitlab.io/gitlab-polish-gallery/?&label=UX%20Paper%20Cuts).
+The UX Paper Cuts team is responsible for identifying and fixing small but impactful usability issues in the GitLab product. The team occasionally takes on larger efforts that target known challenges users face within the DevSecOps lifecycle. Like the Foundations team, UX Paper Cuts does not work within a specific product area, but across the product as a whole, identifying issues and creating merge requests to continually [improve the user experience](https://nicolasdular.gitlab.io/gitlab-polish-gallery/?&label=UX%20Paper%20Cuts).
 
 ### UX Paper Cuts Requirements
 

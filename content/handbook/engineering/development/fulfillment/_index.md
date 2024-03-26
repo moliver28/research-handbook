@@ -12,7 +12,7 @@ A [high performing team](/handbook/leadership/#strategies-to-build-high-performi
 Fulfillment focuses on improving our capabilities and metrics in the following areas:
 
 - Fulfillment: [Direction](https://about.gitlab.com/direction/fulfillment), [Group Responsibilities](https://about.gitlab.com/direction/fulfillment/#group-responsibilities), [Fulfillment Development Team](/handbook/engineering/development/fulfillment/)
-- Fulfillment Platform: [Team](/handbook/engineering/development/fulfillment/fulfillment-platform/)
+- Fulfillment Platform: [Direction](https://about.gitlab.com/direction/fulfillment/platform/), [Team](/handbook/engineering/development/fulfillment/fulfillment-platform/)
 - Provision: [Direction](https://about.gitlab.com/direction/fulfillment#provision), [Team](/handbook/engineering/development/fulfillment/provision/)
 - Purchase: [Direction](https://about.gitlab.com/direction/fulfillment/purchase/), [Team](/handbook/engineering/development/fulfillment/purchase/)
 - Utilization: [Team](/handbook/engineering/development/fulfillment/utilization/)
@@ -149,27 +149,103 @@ Every team uses the [monthly prioritization template](https://gitlab.com/gitlab-
 
 ### Fulfillment stage dashboards
 
-{{% cross-functional-dashboards filters="fulfillment" section=true %}}
+{{< tableau height="600px" toolbar="hidden" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/TopEngineeringMetrics/TopEngineeringMetricsDashboard" >}}
+  {{< tableau/filters "SECTION_LABEL"="fulfillment" >}}
+{{< /tableau >}}
+
+{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/MergeRequestMetrics/OverallMRsbyType_1" >}}
+  {{< tableau/filters "SECTION_LABEL"="fulfillment" >}}
+{{< /tableau >}}
 
 ### Purchase team dashboards
 
-{{% cross-functional-dashboards filters="purchase" %}}
+{{< tableau height="600px" toolbar="hidden" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/TopEngineeringMetrics/TopEngineeringMetricsDashboard" >}}
+  {{< tableau/filters "GROUP_LABEL"="purchase" >}}
+{{< /tableau >}}
 
-### Billing and Subscription Management team dashboards
+{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/MergeRequestMetrics/OverallMRsbyType_1" >}}
+  {{< tableau/filters "GROUP_LABEL"="purchase" >}}
+{{< /tableau >}}
 
-{{% cross-functional-dashboards filters="Billing and Subscription Management" %}}
+{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/Flakytestissues/FlakyTestIssues" >}}
+  {{< tableau/filters "GROUP_NAME"="purchase" >}}
+{{< /tableau >}}
+
+{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/SlowRSpecTestsIssues/SlowRSpecTestsIssuesDashboard" >}}
+  {{< tableau/filters "GROUP_LABEL"="purchase" >}}
+{{< /tableau >}}
+
+### Subscription Management team dashboards
+
+{{< tableau height="600px" toolbar="hidden" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/TopEngineeringMetrics/TopEngineeringMetricsDashboard" >}}
+  {{< tableau/filters "GROUP_LABEL"="subscription management" >}}
+{{< /tableau >}}
+
+{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/MergeRequestMetrics/OverallMRsbyType_1" >}}
+  {{< tableau/filters "GROUP_LABEL"="subscription management" >}}
+{{< /tableau >}}
+
+{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/Flakytestissues/FlakyTestIssues" >}}
+  {{< tableau/filters "GROUP_NAME"="subscription management" >}}
+{{< /tableau >}}
+
+{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/SlowRSpecTestsIssues/SlowRSpecTestsIssuesDashboard" >}}
+  {{< tableau/filters "GROUP_LABEL"="subscription management" >}}
+{{< /tableau >}}
 
 ### Provision team dashboards
 
-{{% cross-functional-dashboards filters="Provision" %}}
+{{< tableau height="600px" toolbar="hidden" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/TopEngineeringMetrics/TopEngineeringMetricsDashboard" >}}
+  {{< tableau/filters "GROUP_LABEL"="provision" >}}
+{{< /tableau >}}
+
+{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/MergeRequestMetrics/OverallMRsbyType_1" >}}
+  {{< tableau/filters "GROUP_LABEL"="provision" >}}
+{{< /tableau >}}
+
+{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/Flakytestissues/FlakyTestIssues" >}}
+  {{< tableau/filters "GROUP_NAME"="provision" >}}
+{{< /tableau >}}
+
+{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/SlowRSpecTestsIssues/SlowRSpecTestsIssuesDashboard" >}}
+  {{< tableau/filters "GROUP_LABEL"="provision" >}}
+{{< /tableau >}}
 
 ### Utilization team dashboards
 
-{{% cross-functional-dashboards filters="Utilization" %}}
+{{< tableau height="600px" toolbar="hidden" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/TopEngineeringMetrics/TopEngineeringMetricsDashboard" >}}
+  {{< tableau/filters "GROUP_LABEL"="utilization" >}}
+{{< /tableau >}}
+
+{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/MergeRequestMetrics/OverallMRsbyType_1" >}}
+  {{< tableau/filters "GROUP_LABEL"="utilization" >}}
+{{< /tableau >}}
+
+{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/Flakytestissues/FlakyTestIssues" >}}
+  {{< tableau/filters "GROUP_NAME"="utilization" >}}
+{{< /tableau >}}
+
+{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/SlowRSpecTestsIssues/SlowRSpecTestsIssuesDashboard" >}}
+  {{< tableau/filters "GROUP_LABEL"="utilization" >}}
+{{< /tableau >}}
 
 ### Fulfillment Platform team dashboards
 
-{{% cross-functional-dashboards filters="Fulfillment Platform" %}}
+{{< tableau height="600px" toolbar="hidden" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/TopEngineeringMetrics/TopEngineeringMetricsDashboard" >}}
+  {{< tableau/filters "GROUP_LABEL"="fulfillment platform" >}}
+{{< /tableau >}}
+
+{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/MergeRequestMetrics/OverallMRsbyType_1" >}}
+  {{< tableau/filters "GROUP_LABEL"="fulfillment platform" >}}
+{{< /tableau >}}
+
+{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/Flakytestissues/FlakyTestIssues" >}}
+  {{< tableau/filters "GROUP_NAME"="fulfillment platform" >}}
+{{< /tableau >}}
+
+{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/SlowRSpecTestsIssues/SlowRSpecTestsIssuesDashboard" >}}
+  {{< tableau/filters "GROUP_LABEL"="fulfillment platform" >}}
+{{< /tableau >}}
 
 ### Estimation
 
@@ -260,7 +336,6 @@ The SETs helps facilitate the quad-planning process. This is the participation o
 
 We follow the Quad Planning process defined [here](/handbook/engineering/infrastructure/test-platform/quad-planning/#process).
 
-[Quad Planning Dashboard](https://app.periscopedata.com/app/gitlab/634305/Quad-Planning-Dashboard?widget=8844548&udv=1040834) showcases the total Planned issues for Quad Planning vs the actual ones for each milestone.
 
 ### User Experience
 
@@ -326,6 +401,70 @@ Please be sure to update the workflow labels of your issue to one of the followi
 ```
 
 We do this to encourage our team to be more async in collaboration and to allow the community and other team members to know the progress of issues that we are actively working on.
+
+### Async projects update
+
+This template is to be used for larger project progress status updates to be shared with leadership & cross-functional partners. 
+
+Leadership is interested in the following
+
+1. Is the project progressing? --> Look at % completion week to week
+2. Are there blockers that need to be cleared? --> Look at Risks & Blockers
+3. When can we expect the next event? --> Look at Key dates
+
+This template is a guideline and feel free to alter it to specific project needs. Before deviating from the template keep in mind that leadership looks at status updates across multiple projects. The more conformity there is between projects the easier it is for leadership to accurately understand status.
+
+```markdown
+## Status update as of XXXX-XX-XX
+
+### Summary
+
+1. **Key Resources**
+  * **_TBD_ this section is optional**
+
+2. **% Complete**: `X%`
+
+The following calculations can help inform this %.
+
+// Numerator: Calculate total weight of closed issues (use `defaultWeight` for issues without weight)
+const defaultWeight = 1;
+[...document.querySelectorAll('.issue.closed')].reduce((memo, el) => {
+    const weightText = el.querySelector('.issuable-weight')?.innerText;
+    return memo + Number(weightText) || defaultWeight;
+}, 0);
+
+// Denominator: Calculate total weight of open and closed issues (use `defaultWeight` for issues without weight)
+const defaultWeight = 1;
+[...document.querySelectorAll('.issue')].reduce((memo, el) => {
+    const weightText = el.querySelector('.issuable-weight')?.innerText;
+    return memo + Number(weightText) || defaultWeight;
+}, 0);
+
+3. **Status**: `On Track or Behind` (this is determined based on your how your % complete is trending to your key dates -- are you far enough along to hit your key dates?)
+
+4. **Key Dates**:
+    | Event | Estimated Timing | Additional Details | % Complete |
+    |---|---|---|---|
+    | Design complete |  |  |  |
+    | Development complete |  |  |  |
+    | Rolled out in production |  |  |  |
+
+### Risks & Blockers
+
+| Risks & Blockers | Mitigation Approach |
+|------------------|---------------------|
+| **_New!_** |  |
+
+### Results/Challenges/Learnings
+
+_List any type of deliverable, e.g. merged MRs, alignment on solution, copy/designs were completed._
+
+
+1. 
+
+**FYI** TAG FOLKS
+
+```
 
 ### Demos
 
@@ -411,7 +550,7 @@ The following list contains some of the standard departments and teams who shoul
 - IT Helpdesk
 - Support Team
 
-When in doubt, err on the side of rejecting access as it can be easily restored through another [access request](/handbook/business-technology/team-member-enablement/onboarding-access-requests/access-requests/).
+When in doubt, err on the side of rejecting access as it can be easily restored through another [access request](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/).
 
 ### Deployment
 
@@ -740,7 +879,7 @@ See the [Fulfillment Section Performance Indicators](/handbook/engineering/devel
 
 ### CustomersDot
 
-{{< sisense dashboard="825250" chart="11035807" >}}
+[Maintainer Ratio Dashboard](https://10az.online.tableau.com/t/gitlab/views/DraftEngineerMaintainerRatio/EngineerMaintainerRatio_1)
 
 We attempt to have an ideal Engineer to Maintainer Ratio of 1:1 for both backend and frontend effort for our primary application, [CustomersDot](https://gitlab.com/gitlab-org/customers-gitlab-com). The active list of maintainers can be found on the [Engineering Projects page](/handbook/engineering/projects/#customers-app).
 
@@ -818,4 +957,4 @@ Google groups can be used for easily sending calendar invites to members of the 
 - [Daily standup Slack channel #s_fulfillment_daily](https://gitlab.slack.com/app_redirect?channel=s_fulfillment_daily)
 - [Fulfillment announcements Slack channel #s_fulfillment_fyi](https://gitlab.slack.com/app_redirect?channel=s_fulfillment_fyi)
 - [Team calendar](https://calendar.google.com/calendar/embed?src=gitlab.com_7199q584haas4tgeuk9qnd48nc%40group.calendar.google.com)
-- [Fulfillment technical debt status](https://app.periscopedata.com/app/gitlab/1054550/Fulfillment:Platform-Team---Milestone-Reporting?widget=15057739&udv=0)
+- [Fulfillment technical debt status (to be migrated to Tableau)](https://gitlab.com/gitlab-data/tableau/-/issues/685)

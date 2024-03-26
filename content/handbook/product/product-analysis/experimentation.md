@@ -248,7 +248,7 @@ We will continue to build out a guide on how to select which type of experiment 
 2. Create an issue for the Product Analysis team using the [“Experiment Analysis Request” template](https://gitlab.com/gitlab-data/product-analytics/-/issues/new?issuable_template=Experiment%20Analysis%20Request).
 
 3. Once the experiment has data in staging (before being launched into production) be sure to let the Product Analysis team know so they can check if the data is coming through.
-    You can also use the [Experiment Data Validation](https://app.periscopedata.com/app/gitlab/860363/Experiment-Data-Validation?) dashboard to check your data.
+    You can also use the [Experiment Data Validation](https://10az.online.tableau.com/#/site/gitlab/views/DRAFTPDExperimentEventValidation/GrowthExperimentEventValidationDashboard) dashboard to check your data.
 
 4. Once the experiment results have been analyzed and a variant has been launched, please inform Engineering so that any experiments that are concluded can be paused to maximize data warehouse storage.
 
@@ -282,8 +282,8 @@ We will continue to build out a guide on how to select which type of experiment 
     - In the dashboard, be sure to include a link to the experimentation ticket as well as a short definition of the events so that it is easily understandable by people unfamiliar with the details of the experiment.
     - Be sure to check which events are flowing in, if they are collecting the right context, and call out any anomalies to the data collection.
     - Examples of past experiment analysis:
-        - [Jobs To Be Done Experiment](https://app.periscopedata.com/app/gitlab/867903/WIP-Growth:Adoption-Jobs-To-Be-Done)
-        - [SaaS Trial Onboarding Experiment](https://app.periscopedata.com/app/gitlab/882318/Growth:Conversion-SaaS-Trial-Onboarding)
+        - Jobs To Be Done Experiment
+        - SaaS Trial Onboarding Experiment
 
 Once production data has begun to flow in, be sure to swap your data source to reference production data and NOT staging data. Keep an eye on your metrics as they bake to their full sample size, and call out any discrepancies or unexpected behavior to your Product Manager.
 

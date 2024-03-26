@@ -27,7 +27,17 @@ description: "The Engineering Productivity team increases productivity of GitLab
 
 ### Members
 
-{{< team-by-manager-role "Director of Engineering Productivity" >}}
+| Team Members                                     | Role                                                |
+|------------------------------------------------- | --------------------------------------------------  |
+| {{< member-by-name "Ethan Guo" >}}               | Acting Engineering Manager                          |
+| {{< member-by-name "Alina Mihaila" >}}           | Senior Backend Engineer, Engineering Productivity   |
+| {{< member-by-name "David Dieulivol" >}}         | Senior Backend Engineer, Engineering Productivity   |
+| {{< member-by-name "Jennifer Li" >}}             | Senior Backend Engineer, Engineering Productivity   |
+| {{< member-by-name "Jen-Shin Lin" >}}            | Senior Backend Engineer, Engineering Productivity   |
+| {{< member-by-name "Nao Hashizume" >}}           | Backend Engineer, Engineering Productivity          |
+| {{< member-by-name "Peter Leitzen" >}}           | Staff Backend Engineer, Engineering Productivity    |
+| {{< member-by-name "Rémy Coutable" >}}           | Principal Engineer, Infrastructure                  |
+
 
 ### Stable Counterpart
 
@@ -40,7 +50,7 @@ description: "The Engineering Productivity team increases productivity of GitLab
 ```mermaid
 graph LR
     A[Engineering Productivity Team]
-    
+
     A --> B[Planning & Reporting]
     B --> B1[Weekly team reports<br>Providing teams with an overview of their current, planned & unplanned work]
     click B1 "https://gitlab.com/groups/gitlab-org/quality/engineering-productivity/-/epics/32"
@@ -60,7 +70,7 @@ graph LR
     click F3 "https://gitlab.com/groups/gitlab-org/quality/engineering-productivity/-/epics/28"
     F --> F4[Review apps<br>Providing review apps to explore a merge request changes]
     click F4 "https://gitlab.com/groups/gitlab-org/quality/engineering-productivity/-/epics/33"
-    
+
     A --> D[Maintenance & Security]
     D --> D1[Automated dependency updates<br>Ensuring dependencies are up-to-date]
     click D1 "https://gitlab.com/groups/gitlab-org/quality/engineering-productivity/-/epics/40"
@@ -72,7 +82,7 @@ graph LR
     click D4 "https://gitlab.com/groups/gitlab-org/quality/engineering-productivity/-/epics/38"
     D --> D5[Shared CI/CD components<br>Providing CI/CD components to ensure consistency in all GitLab projects]
     click D5 "https://gitlab.com/groups/gitlab-org/quality/engineering-productivity/-/epics/41"
-    
+
     A --> G[JiHu Support]
     click G "https://gitlab.com/groups/gitlab-org/quality/engineering-productivity/-/epics/35"
 ```
@@ -208,10 +218,10 @@ The Engineering Productivity team creates metrics in the following sources to ai
 - [Broken Master Pipeline Root Cause Analysis](https://10az.online.tableau.com/#/site/gitlab/workbooks/2296993/views)
 - [Time to First Failure](https://10az.online.tableau.com/#/site/gitlab/workbooks/2300061/views)
 - [Flaky test issues](https://10az.online.tableau.com/#/site/gitlab/workbooks/2283052/views)
-- [Test Intelligence Accuracy](https://app.periscopedata.com/app/gitlab/1116767/Test-Intelligence-Accuracy) ([to be replaced in Tableau](https://gitlab.com/gitlab-data/tableau/-/issues/337#note_1730309432))
+- [Test Intelligence Accuracy](https://10az.online.tableau.com/#/site/gitlab/views/DRAFTTestIntelligenceAccuracy/TestIntelligenceAccuracy)
 - [Engineering Productivity Pipeline Durations](https://10az.online.tableau.com/#/site/gitlab/workbooks/2312755/views)
-- [Engineering Productivity Jobs Durations](https://app.periscopedata.com/app/gitlab/652085/Engineering-Productivity---Pipeline-Build-Durations) ([to be replaced in Tableau](https://gitlab.com/gitlab-data/tableau/-/issues/305#note_1730230898))
-- [Engineering Productivity Package And QA Durations](https://app.periscopedata.com/app/gitlab/869271/Engineering-Productivity---Package-And-QA-Durations) (to be replaced in Tableau)
+- [Engineering Productivity Jobs Durations](https://10az.online.tableau.com/#/site/gitlab/views/DRAFTEP-JobsDurations/EP-JobsDurations)
+- Engineering Productivity Package And QA Durations (to be replaced in Tableau)
 - GDK - Jobs Durations ([to be replaced in Tableau](https://gitlab.com/gitlab-data/tableau/-/issues/253#note_1730258820))
 - [Issue Types Detail](https://10az.online.tableau.com/#/site/gitlab/workbooks/2203014/views)
 - [GitLab-Org Native Insights](https://gitlab.com/groups/gitlab-org/-/insights)

@@ -4,7 +4,7 @@ title: Incubation Engineering Department
 
 ## Incubation Engineering Department
 
-The Incubation Engineering Department within the Engineering Division focuses on projects that are pre-Product/Market fit. The projects they work on align with the term "new markets" from one of our [product investment types](https://internal.gitlab.com/handbook/product/investment/). They are ideas that may contribute to our revenue in 3-5 years time. Their focus should be to move fast, ship, get feedback, and [iterate](/handbook/values/#iteration). But first they've got to get from 0 to 1 and get something shipped.
+The Incubation Engineering Department focuses on projects that are pre-Product/Market fit. The projects they work on align with the term "new markets" from one of our [product investment types](https://internal.gitlab.com/handbook/product/investment/). They are ideas that may contribute to our revenue in 3-5 years time. Their focus should be to move fast, ship, get feedback, and [iterate](/handbook/values/#iteration). But first they've got to get from 0 to 1 and get something shipped.
 
 We utilize [Single-engineer Groups](/handbook/company/structure/#single-engineer-groups) to draw benefits, but not distractions, from within the larger company and [GitLab project](https://gitlab.com/gitlab-org/gitlab) to maintain that focus. The Single-engineer group encompasses all of product development (product management, engineering, design, and quality) at the smallest scale. They are free to learn from, and collaborate with, those larger departments at GitLab but not at the expense of slowing down unnecessarily.
 
@@ -12,7 +12,7 @@ The Department Head is the [VP of Incubation Engineering](/job-families/engineer
 
 ### FY25 Direction
 
-Our focus for FY25 in the Incubation Engineering Department is to contine to mature some of our key projects, and to contribute to new opportunities within the AI sphere to build upon the capabilities that GitLab offers.  Our current batch of projects are building  customer value and interest and achieving significant monthly growth milestones.  Our aim is to reach a level of maturity with these projects that allows us to graduate or reassign these groups to new opportunities. 
+In FY25 we will continue to mature some of our key projects and to contribute to new opportunities within the AI sphere to build upon the capabilities that GitLab offers.  Our current batch of projects are building  customer value and interest and achieving significant monthly growth milestones.  Our aim is to reach a level of maturity with these projects that allows us to graduate or reassign these groups to new opportunities. 
 
 Our success is tied to the community of developers and users that can benefit from our features, and strong collaboration and engagement with those groups is a key focus for this year. As our team matures, we need to be mindful of setting a culture of innovation and results. We do this through encouraging experimentation and autonomy, whilst being collaborative and transparent to internal teams and external stakeholders. The Incubation Engineering team is unique within GitLab in that the team members are not working on shared problems, but have the same challenges and shared experiences. We should ensure that successes and failures are documented and shared amongst team members to help each other grow and to minimise the inherent isolation and stress that can be part of this role.
 

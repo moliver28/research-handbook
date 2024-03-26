@@ -12,8 +12,6 @@ This page is to act as your guide to the many tools and best practices that the 
 
 ### Salesforce Training Resources
 
-
-
 ### Lead and Contact Views
 
 #### SDR Lead Views
@@ -149,7 +147,7 @@ As you begin building your new sequence, make sure you are following the proper 
 * **Email Messaging**:
     - For each email step in your sequence, send yourself a test email to ensure formatting is appropriate and all variables are set correctly.
 
-Once you have set your sequence up with the proper name, structure, settings and email messaging, return to the issue and tag your manager for approval. **If your manager rejects your sequence, you will need to make the necessary changes to gain their approval. If they have responded with their approval, you are cleared to move forward with setting your sequence live.**
+Once you have set your sequence up with the proper name, structure, settings and email messaging, return to the issue and tag your manager and sales development operations manager for approval. **If your sequence is rejected, you will need to make the necessary changes to gain approval. If your sequence is approved, you are cleared to move forward with setting your sequence live. A decision on approval will be made within 48 hours of the request.**
 
 #### Setting a Sequence Live
 Go into the sequence settings and toggle the bar in the upper left from gray (paused) to green (active). You are now ready to use your sequence.
@@ -217,6 +215,33 @@ Managers then need to add a tag of “manager approved” on the sequence in Out
 * [6Sense Account Identification Guide](https://6sense.com/platform/account-matching/the-guide-to-account-identification/)
 * [6Sense Persona Identification Guide](https://6sense.com/guides/how-to-identify-and-influence-the-entire-buying-team/)
 
+### 6Sense 6QA Automations
+
+We currently have in place an automation that will automatically move accounts that reach 6QA status from 6Sense to SFDC. 
+
+Specifically:
+
+- We have three segments (SMB, MM, ENTG) saved on folder 9a of 6Sense. Each of these segments tries to identify the top accounts we currently have on SFDC that are not being worked by our team.
+- Through 6Sense Orchestrations, we will automatically update these accounts weekly.
+     - We aim for 200 records to be enriched every week.
+     - We aim for a 90 day buffer period between records being enriched.
+     - The SFDC field `Sales Dev Automation` will be enriched with the value of the respective segment (SMB, MM, ENTG)
+- From the moment these accounts get enriched by 6Sense, they will automatically show up on our pre-saved searches on ZoomInfo, one for each segment. 
+
+     - [SMB Saved Search](https://app.zoominfo.com/#/apps/searchV2/v2/results/person?query=eyJmaWx0ZXJzIjp7InBhZ2UiOjEsImNvbXBhbnlQYXN0T3JQcmVzZW50IjoiMSIsImlzQ2VydGlmaWVkIjoiaW5jbHVkZSIsInNvcnRCeSI6IlJlbGV2YW5jZSIsInNvcnRPcmRlciI6ImRlc2MiLCJleGNsdWRlRGVmdW5jdENvbXBhbmllcyI6dHJ1ZSwiY29uZmlkZW5jZVNjb3JlTWluIjo4NSwiY29uZmlkZW5jZVNjb3JlTWF4Ijo5OSwib3V0cHV0Q3VycmVuY3lDb2RlIjoiVVNEIiwiaW5wdXRDdXJyZW5jeUNvZGUiOiJVU0QiLCJleGNsdWRlTm9Db21wYW55IjoidHJ1ZSIsInJldHVybk9ubHlCb2FyZE1lbWJlcnMiOmZhbHNlLCJleGNsdWRlQm9hcmRNZW1iZXJzIjp0cnVlLCJzY29yaW5nT3B0aW9ucyI6IntcImlkXCI6XCJaUmhSeWJtUHIxMGU2cEVQVDVBcVwiLFwib25seUNvbnRhY3RGaWx0ZXJzXCI6ZmFsc2V9Iiwic291cmNlSWQiOiJBTlVSQSIsInRpdGxlU2VuaW9yaXR5IjoiQ19FWEVDVVRJVkVTLFZQX0VYRUNVVElWRVMsRElSRUNUT1IiLCJycHAiOjI1LCJkZXBhcnRtZW50cyI6IkluZm9ybWF0aW9uIFRlY2hub2xvZ3ksRW5naW5lZXJpbmcgJiBUZWNobmljYWwsQy1TdWl0ZSIsImhhc01vYmlsZVBob25lIjoiaW5jbHVkZSIsIkNGLXNhbGVzZm9yY2UtYWNjb3VudC0xMDEiOnsiaW5jbHVkZSI6eyJwbGF0Zm9ybSI6InNhbGVzZm9yY2UiLCJlbnRpdHkiOiJhY2NvdW50IiwiZmllbGROYW1lIjoiMTAxIiwiaWRMaXN0IjpbIjQwNTk5eDN6bHRmeDliNWoiXSwiaXNJbmNsdWRlIjp0cnVlfX19LCJzZWFyY2hUeXBlIjowfQ%3D%3D)
+     - [MM Saved Search](https://app.zoominfo.com/#/apps/searchV2/v2/results/person?query=eyJmaWx0ZXJzIjp7InBhZ2UiOjEsImNvbXBhbnlQYXN0T3JQcmVzZW50IjoiMSIsImlzQ2VydGlmaWVkIjoiaW5jbHVkZSIsInNvcnRCeSI6IlJlbGV2YW5jZSIsInNvcnRPcmRlciI6ImRlc2MiLCJleGNsdWRlRGVmdW5jdENvbXBhbmllcyI6dHJ1ZSwiY29uZmlkZW5jZVNjb3JlTWluIjo4NSwiY29uZmlkZW5jZVNjb3JlTWF4Ijo5OSwib3V0cHV0Q3VycmVuY3lDb2RlIjoiVVNEIiwiaW5wdXRDdXJyZW5jeUNvZGUiOiJVU0QiLCJleGNsdWRlTm9Db21wYW55IjoidHJ1ZSIsInJldHVybk9ubHlCb2FyZE1lbWJlcnMiOmZhbHNlLCJleGNsdWRlQm9hcmRNZW1iZXJzIjp0cnVlLCJzY29yaW5nT3B0aW9ucyI6IntcImlkXCI6XCJaUmhSeWJtUHIxMGU2cEVQVDVBcVwiLFwib25seUNvbnRhY3RGaWx0ZXJzXCI6ZmFsc2V9Iiwic291cmNlSWQiOiJBTlVSQSIsInRpdGxlU2VuaW9yaXR5IjoiQ19FWEVDVVRJVkVTLFZQX0VYRUNVVElWRVMsRElSRUNUT1IiLCJycHAiOjI1LCJkZXBhcnRtZW50cyI6IkluZm9ybWF0aW9uIFRlY2hub2xvZ3ksRW5naW5lZXJpbmcgJiBUZWNobmljYWwsQy1TdWl0ZSIsImhhc01vYmlsZVBob25lIjoiaW5jbHVkZSIsIkNGLXNhbGVzZm9yY2UtYWNjb3VudC0xMDEiOnsiaW5jbHVkZSI6eyJwbGF0Zm9ybSI6InNhbGVzZm9yY2UiLCJlbnRpdHkiOiJhY2NvdW50IiwiZmllbGROYW1lIjoiMTAxIiwiaWRMaXN0IjpbIjQwNTk5eDN6bHRmeDliNWkiXSwiaXNJbmNsdWRlIjp0cnVlfX19LCJzZWFyY2hUeXBlIjowfQ%3D%3D)
+     - [ENTG](https://app.zoominfo.com/#/apps/searchV2/v2/results/person?query=eyJmaWx0ZXJzIjp7InBhZ2UiOjEsImNvbXBhbnlQYXN0T3JQcmVzZW50IjoiMSIsImlzQ2VydGlmaWVkIjoiaW5jbHVkZSIsInNvcnRCeSI6IlJlbGV2YW5jZSIsInNvcnRPcmRlciI6ImRlc2MiLCJleGNsdWRlRGVmdW5jdENvbXBhbmllcyI6dHJ1ZSwiY29uZmlkZW5jZVNjb3JlTWluIjo4NSwiY29uZmlkZW5jZVNjb3JlTWF4Ijo5OSwib3V0cHV0Q3VycmVuY3lDb2RlIjoiVVNEIiwiaW5wdXRDdXJyZW5jeUNvZGUiOiJVU0QiLCJleGNsdWRlTm9Db21wYW55IjoidHJ1ZSIsInJldHVybk9ubHlCb2FyZE1lbWJlcnMiOmZhbHNlLCJleGNsdWRlQm9hcmRNZW1iZXJzIjp0cnVlLCJzY29yaW5nT3B0aW9ucyI6IntcImlkXCI6XCJaUmhSeWJtUHIxMGU2cEVQVDVBcVwiLFwib25seUNvbnRhY3RGaWx0ZXJzXCI6ZmFsc2V9Iiwic291cmNlSWQiOiJBTlVSQSIsInRpdGxlU2VuaW9yaXR5IjoiVlBfRVhFQ1VUSVZFUyxESVJFQ1RPUiIsInJwcCI6MjUsImRlcGFydG1lbnRzIjoiSW5mb3JtYXRpb24gVGVjaG5vbG9neSxFbmdpbmVlcmluZyAmIFRlY2huaWNhbCIsImhhc01vYmlsZVBob25lIjoiaW5jbHVkZSIsIkNGLXNhbGVzZm9yY2UtYWNjb3VudC0xMDEiOnsiaW5jbHVkZSI6eyJwbGF0Zm9ybSI6InNhbGVzZm9yY2UiLCJlbnRpdHkiOiJhY2NvdW50IiwiZmllbGROYW1lIjoiMTAxIiwiaWRMaXN0IjpbIjQwNTk5eDN6bHRmeDliNWMiXSwiaXNJbmNsdWRlIjp0cnVlfX19LCJzZWFyY2hUeXBlIjowfQ%3D%3D)
+
+- These saved searches will pull the relevant decision-makers per segment, and through ZoomInfo workflows do the following:
+
+     - Automatically enroll SMB leads to the fully automated sequence [here](https://web.outreach.io/sequences/13896/overview)
+     - Automatically add MM/ENTG accounts to the [SFDC dashboard here.] (https://gitlab.my.salesforce.com/01ZPL000000kAPN)
+     - Automatically add a sample size of prospects from each 6QA'd account to the SFDC view titled `B6 - My 6QA Leads.`
+         
+## Qualified 
+
+[Qualified](https://www.qualified.com/) is the Sales Dev Org's tool we use to chat with visitors on the GitLab website. Currently the SDR teams primarily respond to inbound chats and visitors using Qualified. The BDRs also have the ability to initiate chats with known leads from their actively working accounts. 
+
 ## Chorus
 
 Call and demo recording software. [Chorus](https://www.chorus.ai/) tracks keywords, provides analytics, and transcribes calls into both Salesforce and Outreach. Chorus will be used to onboard new team members, provide ongoing training and development for existing team members, provide non-sales employees with access to sales calls, and allow sales reps to recall certain points of a call or demo. At this time, US Sales, US Customer Success, US SDRs will be considered recorders. Non-US Commercial and Non-US SDRs can request recorder access once they have completed the GDPR training course. Non-US recorders will also need access to the EMEZ Zoom Group. Everyone else can access the tool as a listener if they wish.
@@ -226,6 +251,10 @@ Call and demo recording software. [Chorus](https://www.chorus.ai/) tracks keywor
 * Chorus: [Tips for Getting Start](https://docs.chorus.ai/hc/en-us/articles/115009183547-Tips-on-Getting-Started-with-Chorus)
 * GitLab Edcast: [Chorus Overview](https://gitlab.edcast.com/journey/week)
 * GitLab Edcast: [Sample Chorus IQM Calls](https://gitlab.edcast.com/insights/sample-chorus)
+
+## Crayon Competitive Messaging Resources
+
+[Crayon](https://app.crayon.co/intel/gitlab/battlecards/) hosts competitive messaging resources that are maintained by GitLab's product marketing team. 
 
 # Sales Dev Manager Resources
 
@@ -250,7 +279,7 @@ The BDR process that we have defined here in GitLab is meant to provide a repeat
 
 The BDR Process is explained step-by-step in the [main SDR handbook page here](/handbook/marketing/revenue-marketing/sdr/#bdr-outbound-process)
 
-For a newcoming manager, we provide the [Watch and Help Dashboards](/handbook/marketing/sales-development/sales-development-tools/#tracking--monitoring-resources) that will be your main tool in understanding where your team is aligned to our BDR process, and where they need assistance.
+For a newcoming manager, we provide the [Manager attention needed baords](/handbook/marketing/sales-development/sales-development-tools/#tracking--monitoring-resources) that will be your main tool in understanding where your team is aligned to our BDR process, and where they need assistance.
 
 To help structure your usage of the above, you can follow the steps below during your first month at GitLab while [the document here will be your main go-to resource](https://docs.google.com/document/d/18k1_jDHVgNzy2SzcPZ7GAOdJ6zb9i37Z4-V1-dEFKiU/edit#)
 
@@ -260,7 +289,6 @@ To help structure your usage of the above, you can follow the steps below during
 | Review the dashboard with your team, and discuss how the data on it connect to the [BDR KPIs](/handbook/marketing/revenue-marketing/sdr/#sdrbdr-roe-and-inbound-lead-management) | Allows you to understand your team's level of maturity and each team member's current level of alignment to existing processes |
 | Take note of any discrepancies or points of feedback from the team, either transcribe them to 1:1s for individual conversations or to the SDR Issue board for org-wide improvements | Enables you to filter between discrepancies that are caused because of a team member's lack of diligence that should be improved upon by the individual OR for discrepancies that were caused by an org-wide operational shortcoming that should be improved upon on a global scale. |
 | Set realistic expectations with the team about adherance to org KPIs and set a review mechanism to go over them on a reccuring basis | Helps maintain a repeatable structure of accountability for your entire team |
-
 
 ## General Sales Development Leadership Resources
 
@@ -303,20 +331,18 @@ To help structure your usage of the above, you can follow the steps below during
 | :----: | :-----: |
 |  [SDR Issue Board](https://gitlab.com/gitlab-com/marketing/sales-development/-/boards/5569691)  | Used to track GitLab issues involving the SDR team. This is a global issue board. |
 |  [SDR Event Tracker Issue Board](https://gitlab.com/groups/gitlab-com/-/boards/1718115) | Used to follow upcoming events globally |
-|  [SDR Sisense Dashboard](https://app.periscopedata.com/app/gitlab/641469/WIP:-SDR-Metrics-Update) | Dashboard to monitor SDR leads and meetings  |
-|  [MQL & SAO Performance vs. Target Sisense Dashboard](https://app.periscopedata.com/app/gitlab/628196/Revised-Marketing-Metrics) | Monitoring MQL and SAO performance in comparison to our goals  |
+|  [SDR Sisense Dashboard](https://10az.online.tableau.com/#/site/gitlab/views/DraftSalesDevAnalyticsHub/Overview?:iid=1) | SalesDev Analytics Hub Dashboard  |
 
 |  [Lead View Descriptions](/handbook/marketing/sales-development/#lead-and-contact-views) | There are Manager Lead views in SFDC mirroring the SDR and BDR views which are described on the linked Handbook page on the left. These views need to be checked regularly by managers to ensure all necessary leads are being worked.
 
-##  Watch and Help Boards
+## Action Needed Boards
 
 | Teams | Boards |
 | :----: | :-----: |
-|  **AMER ENTERPRISE TEAMS**  | [AMER ENTERPRISE DAILY BOARD](https://gitlab.my.salesforce.com/01ZPL00000069v3) -  [AMER ENTERPRISE MONTHLY BOARD](https://gitlab.my.salesforce.com/01ZPL00000069VF) |
-|  **EMEA and APAC ENTERPRISE TEAMS**  | [EMEA/APAC ENTERPRISE DAILY BOARD](https://gitlab.my.salesforce.com/01Z4M000000soBO) -  [EMEA/APAC ENTERPRISE MONTHLY BOARD](https://gitlab.my.salesforce.com/01ZPL0000006ABB) |
-|  **MM TEAMS**  | [MM TEAMS DAILY BOARD](https://gitlab.my.salesforce.com/01Z4M000000snjZ) -  [MM TEAMS MONTHLY BOARD](https://gitlab.my.salesforce.com/01ZPL0000006AW9) |
-|  **PubSec Team**  | [PubSec Team BOARD](https://gitlab.my.salesforce.com/01Z4M000000sney) |
-|  **SDR Inbound Teams**  | [SDR Inbound Teams BOARD](https://gitlab.my.salesforce.com/01Z4M000000soBT) |
+|  **AMER BDR TEAMS**  | [AMER BDR Action Needed](https://gitlab.my.salesforce.com/01ZPL00000069v3) -  [AMER BDR Manager Attention Needed](https://gitlab.my.salesforce.com/01ZPL00000069VF) |
+|  **EMEA BDR TEAMS**  | [EMEA BDR Action Needed](https://gitlab.my.salesforce.com/01Z4M000000soBO) -  [EMEA BDR Manager Attention Needed](https://gitlab.my.salesforce.com/01ZPL0000006ABB) |
+|  **APAC BDR TEAMS**  | [APAC BDR Action Needed](https://gitlab.my.salesforce.com/01ZPL000000bkbl) -  [APAC BDR Manager Attention Needed](https://gitlab.my.salesforce.com/01ZPL000000cUJd) |
+|  **Global SDR Inbound Teams**  | [SDR Global Action Needed](https://gitlab.my.salesforce.com/01Z4M000000soBT) |
 
 ## Sales_Dev_fyi Channel Information
 
@@ -451,3 +477,93 @@ The full process for offboarding at GitLab differs based on whether it is volunt
 
 * The people team will create an [offboarding issue](/handbook/people-group/offboarding/#offboarding), complete all ‘Manager’ tasks on the issue. If you have any questions use the #managers #people-connect slack channels. You can also reach out to the assigned people ops team member on the issue.
 
+## Sequence Creation
+
+* We follow the process outlined [here](https://handbook.gitlab.com/handbook/marketing/sales-development/#new-outreach-sequenceworkflow-creation) for creating new content, when it comes to reviewing this content, the Sales Dev Ops team will follow a quarterly cadence of reviewing the sequences/campaigns that are on the In-flight column on the board [here](https://gitlab.com/gitlab-com/marketing/sales-development/-/boards/5540104). We use the criteria below:
+
+### Sequence needs to be a globally applicable
+
+- Only sequences that could be used by any team member globally can be added to the Good Collection. 
+- If a regionalized sequence can be translated to English, then the English copy of it will be added to the GC while the local variant will be added to the Team Collection.
+- Field Marketing event sequences and any other similar type will not be considered for the Good Collection.
+
+### Sequence needs to have completed the requirements set out on the issue descrption.
+
+- At least 200 people enrolled and/or having completed the sequence on a timely manner. 
+- ( Sequence has over 5% reply rate AND No less than 50% negative sentiment rate. ) OR Sequence has over 5% meeting set rate.
+
+## Monthly Audit Process
+
+In an effort to increase transparency as well as consistency in terms of credit attribution for opportunities sourced by the Sales Development organization, we will conduct on a monthly basis a full audit of all opportunities giving credit to either a Sales Development or a Business Development Representative. Please do note that SDRs/BDRs that are on their ramping quarter are exempt from being auditors.
+
+Participating and completing the audit on time is mandatory.
+
+Guiding principles: 
+
+1. All activities must be logged and documented in Salesforce. <br>
+2. Timestamps for such activities will be audited and cannot be modified after the fact
+Sourcing cases must be clearly documented. <br>
+3. All opportunities associated with a Sales Development team member must have meaningful engagement for Web Directs and full qualifications criteria for Direct Deals.
+
+**Mandatory SLA:** Audit and XDR response must be completed by the first day of the following month. Rulings will be completed by the management team by the end of the second day.  Invitations and pairing will be sent to the entire Sales Dev team the first week of the month. It is the responsibility of the team member to find a backfill to do their audit if they are unable to complete the audit within set timelines.
+
+### XDR'S RESPONSIBILITY:
+
+1. All activities must be logged in Salesforce. 
+Pro-actively flag opportunities with questions or created outside the standard process in the monthly [Audit Doc.](https://docs.google.com/spreadsheets/d/1IBSfKuK6QcvsAIPvW7uYYCjeMtqPmpeDv2swsPAZShc/edit#gid=0). Please note that there's a separate audit worksheet specific to the PubSec team that is shared separately for compliance reasons.
+
+Examples: web directs. AE-created. Partner generated (for now), Opp w/no value, duplicate opp
+
+### AUDITOR'S RESPONSIBILITY:
+
+1. Auditor needs to review all notes and time stamps related to the opportunity
+2. Auditor needs to log an activity #Audited on the activity record of the opportunity as mentioned below, this way we can track completion of monthly audit.
+3. Ensure that relevant activity & products are attached.
+4. Ensure that Products match up to Qualification info in Call Connect and/or Meeting
+5. For BDRs, ensure account was in AWA status
+ensuring that the [RoE](https://handbook.gitlab.com/handbook/marketing/sales-development/#rules-of-engagement-quick-guide) was followed
+6. Flag in the monthly [Audit Doc](https://docs.google.com/spreadsheets/d/1IBSfKuK6QcvsAIPvW7uYYCjeMtqPmpeDv2swsPAZShc/edit#gid=0), any questions related to the audited opportunities.
+
+### AUDIT PROCESS:
+
+Each month you will be assigned one of your peers to Audit. We will share a report with all the S1 opportunities created that month. SDRs will audit SDRs and BDRs will audit BDRs. We will do our best to pair people from the same segment however it is possible that you end up auditing someone from another segment. 
+
+Once you’ve audited an opp, you will create a task by logging a call, choose “other” as type, and write “#Audited” in the subject line. If an opp needs more research, write “#Audited - Pending Review” and add this opp into the Audit Review spreadsheet. 
+
+### AUDIT REVIEW (what to look for): 
+
+| Action | Rationale | Coaching Opportunity | 
+| ------ | ------ | ------ |
+| Opp creator    |    Our standard is to get to credited for creating opportunities that meet the qualification criteria.    |   When you set up a conversation with an AE, you should create the opportunity. If we see that an opp was created by an AE but has the SQS = Sales Dev Generated, there will need to be evidence of meaningful engagement by the Sales Dev rep prior to the opp being created.   |
+| For Web Direct opportunities, check timestamp and for two way meaningful engagement prior to the purchase       | Web Direct opportunities are people that bought directly from the store themselves without necessarily having being influenced by us.       |  Explain that our role in this company is to directly influence purchasing decisions through positive and purposeful interactions with prospects. Requesting credit when we have not added specific value to a prospect's journey diminishes the credibility of our team. | 
+| Check to see whether opportunity qualification fields are populated. | Marketing and Sales are expected to collaborate to move prospects down the funnel based on specific qualifiers. When it comes to Stage-0 opportunities these are the opportunity qualification fields. | It's common that individuals do not fill these fields in the name of agility. This however does not create accountability in progressing these prospects down the funnel in a predictable manner. |
+| Check the date of opportunity creation. | Creation of the opportunity should occur when you're engaged with the prospect and have begun the qualification process | Explain that creating opps as soon as engagement occurs will lead to better management of a BDRs/SDRs pipeline. | 
+| Check to see if there is a contact associated to the opp and that there's meaningful engagement prior to the opp being created. | Our standard process requires that we work specific leads and that we convert the main contact person to a contact/opportunity upon qualification. | Explain that this best practice will help with measuring and moving an opportunity further down the pipeline because of accurately being able to communicate the decision-making team from the prospect's side. |
+| If activity shows up on the record, and the activity is a connected call with notes, verify that the activity matches in Outreach. | Activities on SFDC can be edited freely and therefore questioned by our audit team. | Explain that Outreach is a SSoT that can be used as irrefutable proof of outreach. Even if other systems fail, Outreach is always used as the last back-up. |
+| If activity matches, check that activity happened in accordance with our Actively Working Rules Of Engagement (RoE). | Team members from both Sales and Marketing are expected to contribute pipeline only within their assigned territory. | Explain that making sure that being aligned to the RoE will not create any contigencies when measuring pipeline. |
+
+#### Typical Red Flags:
+
+1. Opportunity Source: Sales Qualified Source should be SDR generated if not validate that there is a sourcing case documented. 
+2. Created by: The XDR should create the opportunity, if not, there should be a written explanation 
+3. Did the XDR set and complete a meeting on the same day without previous activity?
+4. Are there duplicate opportunities?
+5. Is NetARR missing?
+
+_Directors, Ops and JB will select random opps each month to audit and ensure audit process is being followed_
+
+#### Best practices to ensure credit for SAO:
+
+1. Sequence all leads if you’re reaching out
+2. Make sure your activity is logged that shows how you drove the meaningful engagement that led to the opportunity.
+3. Populate all qualification fields
+4. If activity was a phone call or a zoom call, log notes at the time of call
+5. If a meeting was set, make sure you create a stage 0 opportunity prior to the meeting, populate fields during/afterwards. If person will likely web direct, keep opp in your name and update next steps
+6. If engagement is in LinkedIn or Whatsapp, take a picture and attach to chatter/opp
+7. If activity happened at an event, make sure that immediately following the event, you create a stage 0 opportunity and  send follow up email that recaps the conversation that took place
+
+### Reports
+
+[1. SAO Report for SDRs](https://gitlab.my.salesforce.com/00O8X000008QeFh?sdtd=1)
+
+[2. SAO Report BDRs](https://gitlab.my.salesforce.com/00O8X000008QdwB)

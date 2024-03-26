@@ -11,12 +11,12 @@ community. This makes it more efficient for everyone to contribute or to get
 a question answered. Therefore, the following interfaces are based on the
 product categories defined on this page:
 
-- [Home page](/)
-- [Product page](/stages-devops-lifecycle/)
-- [Product Features](/features/)
-- [Pricing page](/pricing/)
-- [DevOps Lifecycle](/stages-devops-lifecycle/)
-- [DevOps Tools](/competition/)
+- [Home page](https://about.gitlab.com/)
+- [Product page](https://about.gitlab.com/stages-devops-lifecycle/)
+- [Product Features](https://about.gitlab.com/features/)
+- [Pricing page](https://about.gitlab.com/pricing/)
+- [DevOps Lifecycle](https://about.gitlab.com/stages-devops-lifecycle/)
+- [DevOps Tools](https://about.gitlab.com/why-gitlab/)
 - [Product Direction](https://about.gitlab.com/direction/)
 - [Stage visions](https://about.gitlab.com/direction/#devops-stages)
 - [Documentation](https://docs.gitlab.com/)
@@ -379,5 +379,7 @@ Whatever the source of the functionality, rather than thinking of these componen
 It does not mean, however, that a single group should necessarily be solely responsible for all of these activities. Multiple groups could end up collaborating in execution. This coordination however requires a careful triage of the shared responsibility issues in the issue tracker where a single [DRI](/handbook/people-group/directly-responsible-individuals/) coordinates these activities.
 
 For more information please review [this section in the quality department handbook](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#shared-responsibility-issues) to learn more about a decentralized approach to triaging these types of issues.
+
+### Categories A-Z
 
 {{< categories-index >}}

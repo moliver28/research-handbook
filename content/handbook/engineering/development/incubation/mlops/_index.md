@@ -36,7 +36,7 @@ packaging a new model version.
 
 ## Usage
 
-* [Model Experiments Usage](https://app.periscopedata.com/app/gitlab/1138619/Model-experiments) (internal)
+* [Model Experiments Usage](https://gitlab.com/gitlab-data/tableau/-/issues/323) (internal)
 
 ## Jobs to Be Done
 

@@ -91,7 +91,7 @@ We utilize GitLab Epics and Issue to track projects, deliverables and milestones
 - Email
    - `security-compliance@gitlab.com`
 - [Commercial Compliance team project](https://gitlab.com/gitlab-com/gl-security/security-assurance/team-commercial-compliance/compliance)
-- Interested in joining our team? Check out more [here]({{< ref "/job-families/security/security-compliance" >}})!
+- Interested in joining our team? Check out more [here]({{< ref "/job-families/security/security-assurance-job-family" >}})!
 
 ## <i class="fas fa-book" style="color:rgb(110,73,203)" aria-hidden="true"></i> References
 

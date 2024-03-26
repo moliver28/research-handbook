@@ -177,17 +177,15 @@ Please take time to understand any code that you are asked to copy and paste in 
 
     > You may need to refresh the page to see the new security scan section.
 
-1. In this example, the security scan will show 2 new critical vulnerabilities. To view the details of the vulnerability report, click the **Full report** button.
+1. In this example, the security scan will show 1 new medium vulnerability. To view the details of the vulnerability report, click the **Full report** button.
 
 ## Task E. Merge Request Vulnerability Report
 
 > One of the main goals of security scanning is to prevent insecure code from making it into a repository. You can use the merge request vulnerability report to see all of the vulnerabilities that were detected in a single merge request. Note that this report will only show vulnerabilities that are newly introduced in the current merge request. If a vulnerability already exists in the repository, it will not show here, but will show in the project level vulnerability report.
 
-1. In the vulnerability column, click the first **OS Command Injection** vulnerability.
+1. In the vulnerability column, click the **Improper neutralization of special elements used in an OS Command ('OS Command Injection')** vulnerability.
 
-1. In the resulting window, you will see details about the **OS Command Injection** vulnerability. Note that the detection shows the location of the vulnerability, which is line 1 of `main.py`. Click the X in the top right to close the modal window, or the `Cancel` button at the bottom.
-
-1. In the vulnerability column, click the second **OS Command Injection** vulnerability. Note that the detection shows the location of the vulnerability, which is line 4 of `main.py`.
+1. In the resulting window, you will see details about the **OS Command Injection** vulnerability. Note that the detection shows the location of the vulnerability, which is line 4 of `main.py`. Click the X in the top right to close the modal window, or the `Cancel` button at the bottom.
 
 1. In the sidebar, navigate to **Code > Merge requests**.
 
@@ -195,21 +193,16 @@ Please take time to understand any code that you are asked to copy and paste in 
 
 1. Click the Changes tab below the merge request title. On the `main.py` file, click **vertical ellipses -> Edit in single-file editor**.
 
-1. The scan showed that lines 1 and 4 contained a vulnerability.
-
-    ```python
-    # main.py Line 1
-    import subprocess
-    ```
+1. The scan showed that line 4 contained a vulnerability.
 
     ```python
     # main.py Line 4
     subprocess.run(["ping", in])
     ```
 
-    > The problem is that these lines use user input to run a system command. In this situation, a user could craft an input that causes the application to execute an unintended command. To resolve this, you can either remove the command, or remove the user input from the command.
+    > The problem is that this line uses user input to run a system command. In this situation, a user could craft an input that causes the application to execute an unintended command. To resolve this, you can either remove the command, or remove the user input from the command.
 
-1. Remove the two lines from the code. This is what the file should look like now.
+1. Remove lines 1 through 4 from the code. This is what the file should look like now.
 
     ```python
     gitlab_token = 'glpat-hC5G3PrMaZ7UkVZhxhnx'

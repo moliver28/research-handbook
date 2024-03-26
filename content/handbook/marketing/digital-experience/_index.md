@@ -79,16 +79,14 @@ To be defined by each group on a quarterly basis.
 
 ## Groups, Metrics & Team Members
 
-| Search, Nav, Support Group | Product Marketing Group | Conversion Group | Corporate Marketing Group|
-| ------- |  -------  |  -------  | -------  |
-| **Focus**<br>Awareness & Consideration<br><br>- Navigation<br>- Footer<br>- Search Bar & Results<br>- No Search Results<br>- 404 page<br>- Support<br>- Get Help<br>- Sales<br>- Analysts<br>- Update<br>- AB Testing       | **Focus**<br>Consideration & Evaluation<br><br>- Features<br>- Solutions<br>- Use Cases<br>- Get Started<br>- DevOps Lifecycle<br>- Customer Case Studies<br>- Blog<br>- Lightning Strikes<br>- AB Testing                                                                                                                                                   | **Focus**<br>Conversion & Purchase<br><br>- Homepage<br>- Pricing<br>- Why GitLab<br>- Install<br>- Demo<br>- Ecommerce / No Touch<br>- Path to purchase<br>- User/Buyer Journeys<br>- 3rd Party Marketplace<br>- AB Testing                                                                                                                                                                     | **Focus**<br>Loyalty & Advocacy<br><br>- Partners<br>- Events<br>- Jobs<br>- Learn<br>- Community<br>- All Remote<br>- Company                                                                             |
-| **Metrics**<br>Increased engagement<br><br>- Lower bounce rate<br>- Increased pages/session<br>- Increased time on site                                                                                                                                                                                                                                        | **Metrics**<br>Click through from focus pages to:<br><br>- Pricing Page<br>- Free Trial                                                                                                                                                                                                                                           | **Metrics**<br>Conversion rate past key pages:<br><br>- Pricing Page<br>- Free Trial                                                                                                                                                                                                                                                                                                             | **Metrics**<br>Increased engagement<br><br>- Lower bounce rate<br>- Increased pages/session<br>- Increased time on site                                                                                    |
-| **Product Manager**<br>- [Filza Qureshi](https://gitlab.com/fqureshi)                                                                                                                                                                                                                                                                                      | **Product Manager**<br>- [Filza Qureshi](https://gitlab.com/fqureshi)                                                                                                                                                                                                                                                                                    | **Product Manager**<br>- [Filza Qureshi](https://gitlab.com/fqureshi) | **Product Manager**<br>- [Filza Qureshi](https://gitlab.com/fqureshi)                                                                       |
-| **Engineering Manager**<br>- [Lauren Barker](https://gitlab.com/laurenbarker), [ReadMe](/handbook/marketing/readmes/lauren-barker.html)|**Engineering Manager**<br>- [Lauren Barker](https://gitlab.com/laurenbarker), [ReadMe](/handbook/marketing/readmes/lauren-barker.html) |**Engineering Manager**<br>- [Lauren Barker](https://gitlab.com/laurenbarker), [ReadMe](/handbook/marketing/readmes/lauren-barker.html) | **Engineering Manager**<br>- [Lauren Barker](https://gitlab.com/laurenbarker), [ReadMe](/handbook/marketing/readmes/lauren-barker.html)|
-| **Product Design**<br>- [Carrie Tsang](https://gitlab.com/ctsang-ext)<br>- [Trevor Storey](https://gitlab.com/trevor-storey)                               | **Product Design**<br>- [Jess Halloran](https://gitlab.com/jhalloran)                                                                                                                                                                                                                                                                                    | **Product Design**<br>- [Tina Lise Ng](https://gitlab.com/Tinaliseng)                                                                                                                                                                                                                                                                                                                        | **Product Design**<br>- [Jess Halloran](https://gitlab.com/jhalloran)<br>- [Tina Lise Ng](https://gitlab.com/Tinaliseng)                                                                                                                 |
-| **Engineering**<br>- [Megan Filo](https://gitlab.com/meganfilo) (Lead), [ReadMe](https://gitlab.com/meganfilo/meganfilo/-/blob/main/README.md)<br>- [Javi Garcia](https://gitlab.com/jgarc)<br>- [John Arias](https://gitlab.com/jariasc-ext)<br>- [Tieme Akamine](https://gitlab.com/takamine-ext) | **Engineering**<br>- [Laura Duggan](https://gitlab.com/lduggan) (Lead), [ReadMe](/handbook/marketing/readmes/laura-duggan.html)<br>- [Miguel Duque](https://gitlab.com/mduque-ext) <br>- [Mateo Penagos](https://gitlab.com/mpenagos-ext) | **Engineering**<br>- [Nathan Dubord](https://gitlab.com/ndubord) (Lead), [ReadMe](/handbook/marketing/readmes/nathan-dubord.html)<br>- [Miracle Banks](https://gitlab.com/miraclebanks)<br>- [Marg Mañunga](https://gitlab.com/mmanunga-ext) | **Engineering**<br>- TBH<br>- TBH<br>- TBH<br>- TBH                                                                                                                                                    |
-| **Director**<br>- [Michael Preuss](https://gitlab.com/mpreuss22), [ReadMe](/handbook/marketing/readmes/michael-preuss.html)                                                                                                                                                                 | **Director**<br>- [Michael Preuss](https://gitlab.com/mpreuss22), [ReadMe](/handbook/marketing/readmes/michael-preuss.html)                                                                                                                                                               | **Director**<br>- [Michael Preuss](https://gitlab.com/mpreuss22), [ReadMe](/handbook/marketing/readmes/michael-preuss.html)                                                                                                                                                                                                   | **Director**<br>- [Michael Preuss](https://gitlab.com/mpreuss22), [ReadMe](/handbook/marketing/readmes/michael-preuss.html)             |
-
+| Conversion Group | Optimization Group |
+| ------- |  -------  |
+| **Focus**<br>Awareness,  Consideration, Conversion, & Purchase | **Focus**<br>Technical architecture &performance  |                                                                   |
+|  **Product Design**<br> [Tina Lise Ng](https://gitlab.com/Tinaliseng) <sub><sup> Lead</sub></sup><br> [Carrie Tsang](https://gitlab.com/ctsang-ext) | **Product Design**<br> [Trevor Storey](https://gitlab.comtrevor-storey) <sub><sup> Lead</sub></sup>|  
+| **Engineering**<br>[Megan Filo](https://gitlab.com/meganfilo) <sub><sup> Lead</sub></sup> <br> [Javi Garcia](https://gitlab.com/jgarc)<br>[Laura Duggan](https://gitlab.com/lduggan)  <br> [Marg Mañunga](https://gitlab.com/mmanunga-ext)<br> [Miguel Duque](https://gitlab.com/mduque-ext) | **Engineering**<br>[Nathan Dubord](https://gitlab.com/ndubord)  <sub><sup> Lead</sub></sup><br> [Miracle Banks](https://gitlab.com/miraclebanks)<br>[John Arias](https://gitlab.com/jariasc-ext)<br>[Tieme Akamine](https://gitlab.com/takamine-ext)<br> [Mateo Penagos](https://gitlab.com/mpenagos-ext) | 
+| **Product Manager**<br>[Filza Qureshi](https://gitlab.com/fqureshi)|    **Product Manager**<br>[Filza Qureshi](https://gitlab.com/fqureshi)|   
+| **Engineering Manager**<br>[Lauren Barker](https://gitlab.com/laurenbarker)  |  **Engineering Manager**<br> [Lauren Barker](https://gitlab.com/laurenbarker)   | 
+| **Director**<br>[Michael Preuss](https://gitlab.com/mpreuss22)|  **Director**<br>[Michael Preuss](https://gitlab.com/mpreuss22)| 
 
 ## Scope
 
@@ -100,18 +98,13 @@ We collaboratively define OKRs as a team with cross functional partners in advan
 
 ### Current Quarterly Plan
 
-[FY24Q3 Digital Experience Quarterly Plan & OKRs](https://gitlab.com/groups/gitlab-com/marketing/digital-experience/-/epics/309)
+[FY25Q1 Digital Experience Quarterly Plan & OKRs](https://gitlab.com/groups/gitlab-com/marketing/digital-experience/-/epics/367)
 
 # Iteration Process
 
 We release every 2 weeks, always on a Wednesday. We can push MRs at any time but for collaborative work initiatives, we plan a package for delivery to ensure we’re consistently improving our prospective customer’s experience.
 
-**Iteration Cycle**
-
-| Monday | Tuesday | Wednesday | Thursday | Friday |
-| ------ | ------- | --------- | -------- | ------ |
-| Iteration Begins |  |  |  |  |
-|  |  | Sprint Release Async | Iteration Ends |  |
+We start iteration a Monday. The following Wednesday is async release day, although we are releasing throughout the iteration. On the thursday a week after our Monday iteration planning, we come together for a syncrornous meeting to share what we've released. This meetings are recorded and can be viewed in our [#digita-experience YouTube playlist](https://www.youtube.com/playlist?list=PL05JrBw4t0KrakNGW0ruM5UL7DDlrMBba). 
 
 <figure class="video_container">
 <iframe src="https://calendar.google.com/calendar/embed?src=c_g97ibfb3lq183mphm8mnbjfk34%40group.calendar.google.com&ctz=America%2FDenver" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
@@ -120,21 +113,20 @@ We release every 2 weeks, always on a Wednesday. We can push MRs at any time but
 ## Issue Board
 - [Digital Experience Board](https://gitlab.com/groups/gitlab-com/marketing/digital-experience/-/boards/3288685)
 
-- [Current Search, Nav, & Support Sprint Board](https://gitlab.com/groups/gitlab-com/marketing/digital-experience/-/boards/4305230?label_name[]=dex-group%3A%3Asearch-nav-support&iteration_id=Current)
-- [Current Conversion Sprint Board](https://gitlab.com/groups/gitlab-com/marketing/digital-experience/-/boards/4291568?label_name[]=dex-group%3A%3Aconversion&iteration_id=Current)
-- [Current Product Marketing Support Sprint Board](https://gitlab.com/groups/gitlab-com/marketing/digital-experience/-/boards/4291559?label_name[]=dex-group%3A%3Aproduct-marketing&iteration_id=Current)
-
+- [Current DEX Group Conversion Iteration Board](https://gitlab.com/groups/gitlab-com/marketing/digital-experience/-/boards/7320189?iteration_id=Current&label_name[]=dex-group%3A%3Aconversion)
+- [Current DEX Group Optimization Iteration Board](https://gitlab.com/groups/gitlab-com/marketing/digital-experience/-/boards/5955968?iteration_id=Current&label_name[]=dex-group%3A%3Aoptimization)
+- [Current DEX Group Leaderhip Iteration Board](https://gitlab.com/groups/gitlab-com/marketing/digital-experience/-/boards/7320197)
 ### Labels and Workflow Boards
 
 We use issue boards to track issue progress throughout a iteration. Issue boards should be viewed at the highest group level for visibility into all nested projects in a group.
 
 
-The Digital Experience team uses the following issue titles for distinguishing ownership of issues between specialities:
+The Digital Experience team uses the following issue labels for distinguishing ownership of issues between specialities:
 
 | Who          | Title       |
 | ----------    | -----------|
-| User Experience| `UX:`     |
-| Engineering| `ENG:`     |
+| User Experience| ~dex::ux     |
+| Engineering| ~dex::engineering     |
 
 The Digital Experience team uses the following labels for tracking merge request rate and ownership of issues and merge requests.
 
@@ -147,9 +139,8 @@ The Digital Experience team uses the following labels for tracking merge request
 | [Currently being actioned](https://gitlab.com/groups/gitlab-com/marketing/digital-experience/-/issues/?sort=created_date&state=opened&label_name%5B%5D=dex-status%3A%3Adoing&first_page_size=100)| `~"dex-status::doing"`
 | [Work in review](https://gitlab.com/groups/gitlab-com/marketing/digital-experience/-/issues/?sort=created_date&state=opened&label_name%5B%5D=dex-status%3A%3Areview&first_page_size=100)| `~"dex-status::review"`  |
 | [Unplanned work](https://gitlab.com/groups/gitlab-com/marketing/digital-experience/-/issues/?sort=created_date&state=opened&label_name%5B%5D=dex-unplanned&first_page_size=100)| `~"dex-unplanned"`  |
-| [Issue for Search, Nav, & Support team to complete](https://gitlab.com/groups/gitlab-com/marketing/digital-experience/-/issues/?sort=created_date&state=opened&label_name%5B%5D=dex-group%3A%3Asearch-nav-support&first_page_size=100) |  `~"dex-group::search-nav-support"` |
 | [Issue for Conversion team to complete](https://gitlab.com/groups/gitlab-com/marketing/digital-experience/-/issues/?sort=created_date&state=opened&label_name%5B%5D=dex-group%3A%3Aconversion&first_page_size=100) |  `~"dex-group::conversion"` |
-| [Issue for Product Marketing team to complete](https://gitlab.com/groups/gitlab-com/marketing/digital-experience/-/issues/?sort=created_date&state=opened&label_name%5B%5D=dex-group%3A%3Aproduct-marketing&first_page_size=100) |  `~"dex-group::product-marketing"` |
+| [Issue for Optmization team to complete](https://gitlab.com/groups/gitlab-com/marketing/digital-experience/-/issues/?sort=created_date&state=opened&label_name%5B%5D=dex-group%3A%3Aoptimization&first_page_size=100) |  `~"dex-group::optimization"` |
 | [Issue for product designer to complete](https://gitlab.com/groups/gitlab-com/marketing/digital-experience/-/issues/?sort=created_date&state=opened&label_name%5B%5D=dex%3A%3Aux&first_page_size=100) |  `~"dex::ux"` |
 | [Issue for engineer to complete](https://gitlab.com/groups/gitlab-com/marketing/digital-experience/-/issues/?sort=created_date&state=opened&label_name%5B%5D=dex%3A%3Aengineering&first_page_size=100) |  `~"dex::engineering"` |
 
@@ -162,6 +153,7 @@ Digital Experience teams work across the GitLab codebase on multiple groups and 
 - The [gitlab.com/gitlab-com](https://gitlab.com/gitlab-com/) group
 - [www-gitlab-com](https://gitlab.com/gitlab-com/www-gitlab-com)
 - [Buyer Experience](https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience)
+- [GitLab Blog](https://gitlab.com/gitlab-com/marketing/digital-experience/gitlab-blog)
 - [Slippers Design System](https://gitlab.com/gitlab-com/marketing/digital-experience/slippers-ui)
 - [Marketing Site Navigation Package](https://gitlab.com/gitlab-com/marketing/digital-experience/navigation)
 
@@ -384,10 +376,10 @@ For any Digital Experience analytics request, please create an issue within the 
 
 #### SMB
 
-1. Contact a Sales Development Manager ([Allison Graban](https://gitlab.com/agraban)) or Director, Global Commercial Sales Development ([Brian Tabbert](https://gitlab.com/btabbert)).
+1. Contact a Sales Development Manager ([Josh Downey](https://gitlab.com/joshdowney)) or Director, Sales Development ([Brian Tabbert](https://gitlab.com/btabbert)).
 2. Let them know what team you’re from and that you’d like to shadow a few sales calls to observe real GitLab prospects talking to our Sales team to learn [insert what you’re trying to learn here. Example: what the common topics potential customers want to discuss with our Sales team are.]
-3. Inform the Sales Development Manager or Director, Global Commercial Sales Development how many shadows you’d like to do and a rough timeline for when you’d like to do them.
-4. The Sales Development Manager or Director, Global Commercial Sales Development will inform their Sales Development Reps (SDRs), and they will add you to relevant, upcoming Discovery calls with an Account Executive (AE).
+3. Inform the Sales Development Manager or Director, Sales Development how many shadows you’d like to do and a rough timeline for when you’d like to do them.
+4. The Sales Development Manager or Director, Sales Development will inform their Sales Development Reps (SDRs), and they will add you to relevant, upcoming Discovery calls with an Account Executive (AE).
 5. Accept the invite and review any supplied material when you add it to your calendar.
 6. When joining the call, remember:
     1. You’re there to observe. If asked to introduce yourself, come off mute and do so, then go back on mute and let the Sales team do what they do.
@@ -426,6 +418,10 @@ Whoever gets closest to the customer wins. With this in mind, the Digital Experi
 [#marketing](https://gitlab.slack.com/archives/C0AKZRSQ5)
 
 [#website](https://gitlab.slack.com/archives/C62ERFCFM)
+
+### Slack Application
+
+We have created a Slack application called Dex Bot to notify our team about important CMS changes, read more about it [here](/handbook/marketing/digital-experience/dexbot/)
 
 ## GitLab Unfiltered Playlist
 

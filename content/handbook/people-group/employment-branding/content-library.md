@@ -133,6 +133,7 @@ These awards and lists recognize GitLab's unique culture and help us spread the 
 
 | Videos | Category |
 | ------ | ------ |
+| [Harnessing AI in DevSecOps: Streamlining Efficiency](https://vimeo.com/gitlab/harnessingai?share=copy) | AI / Product |
 | [Life at GitLab](https://vimeo.com/gitlab/lifeatgitlab) | General |
 | [Sales at GitLab](https://vimeo.com/675024697) | Sales |
 | [Diverse Minds, Unified AI Solutions](https://vimeo.com/gitlab/diversemindsunifiedaisolutions?share=copy) | AI / Product |

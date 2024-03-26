@@ -45,7 +45,21 @@ categtory](/handbook/product/categories/#runner-group)
 
 ## Dashboards
 
-{{% cross-functional-dashboards filters="Runner" %}}
+{{< tableau height="600px" toolbar="hidden" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/TopEngineeringMetrics/TopEngineeringMetricsDashboard" >}}
+  {{< tableau/filters "GROUP_LABEL"="runner" >}}
+{{< /tableau >}}
+
+{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/MergeRequestMetrics/OverallMRsbyType_1" >}}
+  {{< tableau/filters "GROUP_LABEL"="runner" >}}
+{{< /tableau >}}
+
+{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/Flakytestissues/FlakyTestIssues" >}}
+  {{< tableau/filters "GROUP_NAME"="runner" >}}
+{{< /tableau >}}
+
+{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/SlowRSpecTestsIssues/SlowRSpecTestsIssuesDashboard" >}}
+  {{< tableau/filters "GROUP_LABEL"="runner" >}}
+{{< /tableau >}}
 
 ## Projects we maintain
 
@@ -63,10 +77,10 @@ is added to each project with maintainer permission. We also try to align tools 
 
 - [Taskscaler](https://gitlab.com/gitlab-org/fleeting/taskscaler)
 - [Fleeting](https://gitlab.com/gitlab-org/fleeting/fleeting)
-- [Fleeting Plugin AWS](https://gitlab.com/gitlab-org/fleeting-plugin-aws)
-- [Fleeting Plugin Google Compute](https://gitlab.com/gitlab-org/fleeting-plugin-googlecompute)
-- [Fleeting Plugin Azure](https://gitlab.com/gitlab-org/fleeting-plugin-azure)
-- [Fleeting Plugin Static](https://gitlab.com/gitlab-org/fleeting-plugin-static)
+- [Fleeting Plugin AWS](https://gitlab.com/gitlab-org/fleeting/fleeting-plugin-aws)
+- [Fleeting Plugin Google Compute](https://gitlab.com/gitlab-org/fleeting/fleeting-plugin-googlecompute)
+- [Fleeting Plugin Azure](https://gitlab.com/gitlab-org/fleeting/fleeting-plugin-azure)
+- [Fleeting Plugin Static](https://gitlab.com/gitlab-org/fleeting/fleeting-plugin-static)
 - [Nesting](https://gitlab.com/gitlab-org/fleeting/nesting)
 - [Docker Machine (fork)](https://gitlab.com/gitlab-org/ci-cd/docker-machine)
 - [Custom Executor Autoscaler](https://gitlab.com/gitlab-org/ci-cd/custom-executor-drivers/autoscaler)
@@ -84,6 +98,8 @@ is added to each project with maintainer permission. We also try to align tools 
   - [Release tool](https://gitlab.com/gitlab-org/ci-cd/runner-tools/releaser)
   - [GitLab Changelog](https://gitlab.com/gitlab-org/ci-cd/runner-tools/gitlab-changelog)
   - [Release index generator](https://gitlab.com/gitlab-org/ci-cd/runner-tools/release-index-generator)
+- Maintenance
+  - [Runner Pod Cleanup](https://gitlab.com/gitlab-org/ci-cd/gitlab-runner-pod-cleanup)
 
 ### Runner SaaS projects
 

@@ -467,30 +467,6 @@ GitLab’s Director, Alliances & Channels Solution Architects provides strategic
 - Successful completion of a background check
 - Ability to use GitLab, including learning GitLab as part of the role
 
-### Demo Engineer
-
-#### Demo Engineer Responsibilities
-
-- Work collaboratively with Solutions Architecture, Marketing, Field Enablement, and Product Management to curate, create, and maintain Solutions Architecture lead workshops, demonstrations, and other artifacts leveraged during pre-sales activities
-- Continuously test and update collateral to reflect GitLab product changes per release
-- Deliver prospect and customer-facing workshops and demonstrations using frequently leveraged artifacts
-- Collaborate with the Demo Systems Engineering team to ensure GitLab instances are configured and available for demonstrations and workshops
-- Ensure demo data and stories align to key business and marketing messaging
-- Design creative new ways to highlight GitLab functionality
-- Ensure systems contain reliable, current data for repeatability in storytelling
-- Document and communicate demo and workshop artifact availability and usage guidance
-
-#### Demo Engineer Requirements
-
-- Ideal candidates will have IT industry, software development,  and technical sales experience
-- Deep knowledge of software development lifecycle
-- Software development experience
-- Understanding of continuous integration, continuous deployment, and cloud-native technology
-- Experience with waterfall, Agile (SCRUM, Kanban, etc.) and able to discuss workflows for different software development processes
-- Experience with modern development practices strongly preferred, including Kubernetes, Docker, Package Management, Application Security (SAST, DAST), Cloud infrastructure, and serverless
-- Excellent time management and self-organization skills while performing a wide range of tasks and quickly pivoting to respond to higher priorities
-- Ability to use GitLab
-
 ## Performance Indicators
 
 As with all roles in the Sales Department, the Solutions Archtiect job family participates in a subset the [Sales KPIs](https://internal-handbook.gitlab.io/handbook/company/performance-indicators/sales/#kpi-summary).
@@ -499,7 +475,7 @@ As with all roles in the Sales Department, the Solutions Archtiect job family pa
 
 ## Career Ladder
 
-A Solution Architect can progress through the various individual contributor levels or leadership roles and associated levels.
+A Solution Architect can progress through the various individual contributor levels or leadership roles and associated levels. More on this in the SA [Career Development page](https://handbook.gitlab.com/handbook/customer-success/solutions-architects/sa-career-development/#career-paths)
 
 ---
 

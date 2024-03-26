@@ -189,7 +189,10 @@ The critical change process is described in the [emergency change process](/hand
 
 ### Patching Validation
 
-Currently validation can be done manually by cross examining the logs of the host with the scans done by tenable.
+Patch validation can be performed in 3 ways.
+- Manually by cross examining the logs of the host with the vulnerability finding in [wiz.io](https://wiz.io).
+- Reviewing vulnerability & tracking issue raised into Gitlab by [Vulnerability Management teams automation] (https://handbook.gitlab.com/handbook/security/threat-management/vulnerability-management/#automation)
+- Reach out to Vulnerability Management in slack `#g_vulnerability_management`
 
 ### General OS (Ubuntu or other Linux) Version updates
 

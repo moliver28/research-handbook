@@ -1,7 +1,7 @@
 ---
 
-title: "Brand Design Handbook"
-description: "GitLab Brand Design Handbook: "
+title: "Brand Creative Handbook"
+description: "GitLab Brand Creative Handbook: "
 twitter_image: '/images/tweets/handbook-marketing.png'
 ---
 
@@ -13,9 +13,8 @@ twitter_image: '/images/tweets/handbook-marketing.png'
 
 
 
-# <i class="fas fa-bullhorn fa-fw color-orange font-awesome"></i> Welcome to the GitLab Brand Design Handbook
+# <i class="fas fa-bullhorn fa-fw color-orange font-awesome"></i> Welcome to the GitLab Brand Creative Handbook
 
-{: .no_toc}
 
 We develop our brand visual identity design to ensure it stays relevant in the market and reflects the benefits and quality of our product. We are the creative partners for GitLab marketing. We create, conceptualize, and design high quality brand experiences.
 
@@ -41,7 +40,7 @@ Create simple, effective, and intentional brand experiences by solving complex p
 
 ## Requesting Support
 
-Please fill out one of these Issue Templates to request support. Please note, if these are not filled out we won't have the proper information for us to support your request.
+Please fill out one of these issue templates to request support. Please note, if these are not filled out we won't have the proper information for us to support your request.
 
 ### Brand & Marketing Design Issue Templates
 
@@ -110,16 +109,27 @@ Please fill out one of these Issue Templates to request support. Please note, if
    - Please complete the issue form to the best of your ability. The more information our team can receive upfront, the quicker we can get started on your request.
    - **Please note, all requests need a minimum of a two-week turnaround.**
    - **If the deadline for your request is under a two-week window,** please ping our Senior Creative Operations Manager via Slack and include a link to your request, the deadline date, and why this is a quick-turn ask.  
+   - When inputting your project deadline, **please be mindful of time zone differences**. For example, if you're operating a day ahead of our Brand Design Team (PT / GMT-8 time zone) and need deliverables completed by Tuesday, Feb 20, please select Monday, Feb 19 as your deadline to accommodate for the time difference.
    - If you have any questions, comments, or concerns regarding your creative request, please reach out to our Senior Creative Operations Manager.
 
+### Brand Video Issue Templates
 
+   1. ##### [New Brand Video Request](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-video/-/issues/new?issuable_template=new-video-request)
+      Please use this issue when requesting a net new video.
+
+   2. ##### [Upload Video Request](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-video/-/issues/new?issuable_template=upload-request)
+      Please us this issue template when requesting to have a video uploaded to Vimeo, YouTube, or another similar platform. 
+
+   3. ##### [Video Edit Request](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-video/-/issues/new?issuable_template=video-editing-request)
+      Please use this issue when requesting an update to an existing video or edits to video footage such as adding lower thirds, bumpers or slides to a zoom recording. 
 
 #### Contacting the team
 
 The best way to get in contact with the Brand design team is to fill out one of the above issue templates with your request, or to:
-- Use the @gl-design tag in GitLab issues and epics for visibility
-- @-mention individuals from the team in GitLab issues and epics
-- Ask your question in the #marketing-design Slack channel
+- Use the @gl-design tag in GitLab issues and epics for visibility.
+- @-mention individuals from the team in GitLab issues and epics.
+- Ask your question in the #marketing-design Slack channel.
+- For video specific questions or assistance, please reach out in the #brand_video Slack channel.
 
 #### Team logo requests
 
@@ -219,7 +229,7 @@ Canva enables team members to self-service their design needs and create on-bran
 
 ### GitLab Enterprise access
 
-If you regularly create designs in Canva, we ask that you work in the `GitLab Enterprise` Canva Pro account instead of using a free or personal account. To gain access, please submit an [access request](/handbook/business-technology/team-member-enablement/onboarding-access-requests/access-requests/) issue. Once this is completed, someone from the Brand Design team will grant you access.
+If you regularly create designs in Canva, we ask that you work in the `GitLab Enterprise` Canva Pro account instead of using a free or personal account. To gain access, please submit an [access request](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/) issue. Once this is completed, someone from the Brand Design team will grant you access.
 
 We have a limited number of seats available, so we encourage teams to consolidate the number of people on their team who need access. *Note: Shared logins are prohibited*.
 

@@ -51,8 +51,8 @@ SIRT's goal is detection and response of anomalies and security events - on the 
 </thead>
 <tbody>
 <tr>
-<td>Joe Dubail</td>
-<td><a href="{{< ref "/job-families/security/infrastructure-security#manager-infrastructure-security" >}}">Manager, Infrastructure Security</a></td>
+<td>Julie Davila</td>
+<td><a href="{{< ref "/job-families/security/security-leadership#vice-president-vp-security" >}}">VP, Product Security (interim InfraSec manager)</a></td>
 </tr>
 <tr>
 <td>Paulo Pontes Martins</td>

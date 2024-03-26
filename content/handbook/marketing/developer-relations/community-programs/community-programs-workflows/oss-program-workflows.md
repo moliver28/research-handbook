@@ -30,9 +30,9 @@ This SheerID form contains the following fields:
 The SheerID form also includes the following statement, added with help from GitLab's legal team:
 
 > By submitting this form, you understand that your information will be shared with GitLab by SheerID and used for verification purposes.
-> 
-> For more information please see the [GitLab's Privacy Policy](/privacy/).
-> 
+>
+> For more information please see the [GitLab's Privacy Policy](https://about.gitlab.com/privacy/).
+>
 > If you are accepted into the GitLab for Open Source Program, you will be subject to [GitLab's terms and conditions](/handbook/legal/opensource-agreement/). All use of GitLab products must comply with United States export control and economic sanction laws.
 
 For reasons relating to trade controls, we are unable to accept applicants from Cuba, Iran, Syria, North Korea, Russia, Belarus, or Ukraine.

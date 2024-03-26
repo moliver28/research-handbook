@@ -1,7 +1,6 @@
 ---
 title: Growth Stage
-description: "The Growth engineering capability consists of engineering teams working in the product delivering enhancements and running experiments"
-aliases: /handbook/engineering/development/growth/
+description: "The Growth Stage consists of development teams working in the product delivering enhancements and running experiments"
 ---
 
 ## Vision
@@ -17,7 +16,7 @@ as well our own [areas of responsibility](/handbook/marketing/growth/#product-ow
 
 ## Direction
 
-We work on the issues prioritized by our product teams including running [experiments](/handbook/marketing/growth/engineering/experimentation/) on GitLab.com.
+We work on the issues prioritized by our product teams including running [experiments](/handbook/engineering/development/growth/experimentation/) on GitLab.com.
 More information on priorities can be found on the [Growth direction](/handbook/marketing/growth/) page.
 
 Growth stage teams have Fullstack Engineers.
@@ -34,22 +33,62 @@ Some useful links to see how and what we are working on include:
 - [acquisition](acquisition/) group
 - [activation](activation/) group
 
-Growth teams contribute to a GitLab [experimentation](experimentation/) gem to make it easier to run experiments and make data driven product decisions on GitLab.com.
+Growth teams contribute to a GitLab [experimentation](/handbook/engineering/development/growth/experimentation/) gem to make it easier to run experiments and make data driven product decisions on GitLab.com.
 
 ## Roadmap
 
 Our current roadmap can be accessed through our quarterly OKR planning issues:
-
-* [Open OKRs](https://gitlab.com/gitlab-com/gitlab-OKRs/-/issues/?sort=weight_desc&state=opened&label_name%5B%5D=division%3A%3AMarketing&label_name%5B%5D=section%3A%3Agrowth&first_page_size=100)
-
-Previous:
 
 * [FY24 Q3](https://gitlab.com/gitlab-org/gitlab/-/issues/420650)
 * [FY24 Q4](https://gitlab.com/gitlab-org/gitlab/-/issues/428640)
 
 ## Who Are We?
 
-{{% team-by-manager-slug manager="kniechajewicz" team="Engineer(.*)Growth" %}}
+### People Leaders in Development
+
+{{< members-by-role role="Growth and Govern" >}}
+
+### All Team Members
+
+The following people are permanent members of groups that belong to the Growth stage:
+
+#### Acquisition
+
+{{< team-by-departments department="Acquisition Team" >}}
+
+#### Activation
+
+{{< team-by-departments department="Activation Team" >}}
+
+### Business Continuity - Coverage and Escalation
+
+The following table shows who will provide cover if one or more of the Growth Stage management team are unable to work for any reason.
+
+| Team Member                                 | Covered by                                     | Escalation                              |
+|---------------------------------------------|------------------------------------------------|-----------------------------------------|
+| {{< member-by-name "Wayne Haber" >}}        | {{< member-by-name "Phil Calder" >}}           | {{< member-by-name "Bartek Marnane" >}} |
+| {{< member-by-name "Phil Calder" >}}        | {{< member-by-name "Kamil Niechajewicz" >}}    | {{< member-by-name "Wayne Haber" >}}    |
+| {{< member-by-name "Kamil Niechajewicz" >}} | {{< member-by-name "Phil Calder" >}}           | {{< member-by-name "Wayne Haber" >}}    |
+
+If an issue arises - such as a production incident or feature change lock - that a team member needs management support with when their direct manager is not online, the team member should reach out to any Growth Engineering Manager by mentioning in `#sd_growth_engineering`. The Growth manager can help the team member follow the process and co-ordinate to ensure the team member has the necessary support.
+
+If an Engineer is unavailable the Engineering Manager will reassign open issues and merge requests to another engineer, preferably in the same [group](#all-team-members).
+
+Some people management functions may require escalation or delegation, such as [Workday](/handbook/people-group/workday/workday-guide/) and [Navan Expense](/handbook/business-technology/enterprise-applications/guides/navan-expense-guide/).
+
+This can be used as the basis for a business continuity plan (BCP),
+as well as a general guide to Growth Engineering continuity in the event of one or more team members being unavailable for any reason.
+
+## Counterparts
+
+We work closely with our [Product Team](/handbook/product/categories/#growth-stage) counterparts to design and implement
+features and experiments that measure the impact of changes to our messaging, UX, and overall experience of using GitLab.
+
+### Stable Counterparts
+
+The following members of other functional teams are our stable counterparts:
+
+{{< stable-counterparts role="Growth" manager-role="Director of Engineering for Secure, Govern, and Growth" other-manager-roles="Govern and Growth|Growth and Govern:Threat Insights|VP, Online Sales and Self Service" >}}
 
 ## How We Work
 
@@ -89,7 +128,7 @@ The refinement process is driven by [triage bot automations and policies](https:
 
 1. Issues are moved from `~"workflow::planning breakdown"` to `~"workflow::refinement"` automatically by the triage bot in order of priority (from top to bottom). The bot will only move issues to refinement if there is room in refinement column, meaning there is less issues than maximum limit for this column. This is first chance for PMs to prioritize issues by moving them higher in the `planning breakdown` column. After the issue is moved to refinement, a dedicated `refinement thread` is created, which acts as a place for discussion and weight estimation.
      * 💡 Hint: In rare case when an issue has to be expedited, it's possible to move it to refinement manually. This will invoke a reaction from triage bot, which will add `refinement thread` for such issue instantly so the refinement can proceed the same way as with automated path.
-2. During refinement the team ensures that the issue is well described and requirements are clear. They can use the `refinement thread` to discuss but they should make sure that any changes and decisions made there are also reflected in issue's description. Once each engineer is comfortable with the way the issue is described, they can vote their estimation of weight based on our [guidelines](/handbook/marketing/growth/engineering/index.html#estimation-guidelines). The voting happens by reacting to the thread with one of few possible weight estimates: 1️⃣ 2️⃣ 3️⃣ 5️⃣ or 🚀.
+2. During refinement the team ensures that the issue is well described and requirements are clear. They can use the `refinement thread` to discuss but they should make sure that any changes and decisions made there are also reflected in issue's description. Once each engineer is comfortable with the way the issue is described, they can vote their estimation of weight based on our [guidelines](/handbook/engineering/development/growth/index.html#estimation-guidelines). The voting happens by reacting to the thread with one of few possible weight estimates: 1️⃣ 2️⃣ 3️⃣ 5️⃣ or 🚀.
 3. Each day the triage bot checks all issues in `~"workflow::refinement"` column and if an issue has required minimum number of estimation votes (see `MIN_REACTIONS` constant [here](https://gitlab.com/gitlab-org/quality/triage-ops/-/blob/master/lib/growth_refine_automation_helper.rb?ref_type=heads#L16) for the current setting) it will be moved to `~"workflow::scheduling"`.
     * 💡 Hint: If there is some problem with the issue and it shouldn't be moved forward even if enough engineers estimate it, ❌ reaction can be added to the thread which will stop the bot from transitioning the issue to `~"workflow::scheduling"` as long as this reaction sticks to the thread. This means that whoever put it is also responsible for removing it once the problem is gone.
 4. Once the issue is in `~"workflow::scheduling"`, it is awaiting final prioritization by PMs - it has to be manually moved to `~"workflow::ready for dev"` depending on the current priorities. This part of the process is PMs responsibility. This allows for additional fine-tuning of priorities and acts as a buffer for our ready for development column.
@@ -161,7 +200,7 @@ Async issue update
 
 The Growth groups regularly run experiments to test product hypothesis.
 
-- Read about the [experimentation process](experimentation.md).
+- Read about the [experimentation process](./experimentation).
 - View the [developer documentation](https://docs.gitlab.com/ee/development/experiment_guide/)
 - View slides for the [Experimentation Workshop](https://docs.google.com/presentation/d/1nmStWChWkYad9K-dced9wS4jS7XLIrHB-WKafc7jrMU/)
 
@@ -175,13 +214,21 @@ The Growth stage tracks number of experiments deployed as a development metric. 
 New experiments added to the codebase using [experiment feature flags](https://docs.gitlab.com/ee/development/feature_flags/#experiment-type) are tracked until removal.
 Current experiments shows the total number of experiments in the codebase (pending, active, or concluded and ready to be removed).
 
-{{< sisense chart="10621867" dashboard="799224" height="450" >}}
+
+{{< tableau height="600px" toolbar="hidden" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/Experimentscadenceandcurrentexperimentsdeployed/Experimentscadenceandcurrentexperimentsdeployed" >}}
+{{< /tableau >}}
 
 #### Growth Section Metrics
 
 Complete list of [Growth Section engineering metrics].
 
-{{% cross-functional-dashboards filters="growth" section=true %}}
+{{< tableau height="600px" toolbar="hidden" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/TopEngineeringMetrics/TopEngineeringMetricsDashboard" >}}
+  {{< tableau/filters "SECTION_LABEL"="growth" >}}
+{{< /tableau >}}
+
+{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/MergeRequestMetrics/OverallMRsbyType_1" >}}
+  {{< tableau/filters "SECTION_LABEL"="growth" >}}
+{{< /tableau >}}
 
 ## Team Days
 
@@ -195,11 +242,9 @@ On occasion we hold virtual team days or meetings to take a break and participat
 
 ## Common Links
 
-* [How to create a Sisense SQL alert](/handbook/marketing/growth/engineering/sisense_alert.html)
 * [Growth stage]
 * [Growth workflow board]
 * `#s_growth` in [Slack](https://gitlab.slack.com/archives/s_growth) (GitLab internal)
-* [Growth technical debt status](https://app.periscopedata.com/app/gitlab/618368/Growth-technical-debt-status) (GitLab internal)
 * [Growth opportunities]
 * [Growth meetings and agendas] (GitLab internal)
 * [GitLab values]
@@ -207,8 +252,9 @@ On occasion we hold virtual team days or meetings to take a break and participat
 [Experiment idea]: https://gitlab.com/gitlab-org/gitlab/-/issues/new?issuable_template=Experiment%20Idea
 
 [GitLab values]: /handbook/values/
-[Growth engineering]: /handbook/marketing/growth/engineering/
+[Growth stage]: /handbook/engineering/development/growth/
 [Growth workflow board]: https://gitlab.com/groups/gitlab-org/-/boards/4152639
 [Growth opportunities]: https://gitlab.com/gitlab-org/growth/product/-/issues
 [Growth meetings and agendas]: https://drive.google.com/drive/search?q=type:document%20title:%22Growth%20Weekly%22
 [Growth section engineering metrics]: /handbook/engineering/metrics/growth/
+[Growth OKRs]: https://gitlab.com/gitlab-com/www-gitlab-com/-/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=Growth%20Sub-Department&label_name[]=OKR

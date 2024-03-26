@@ -4,7 +4,7 @@ title: "Security Risk Team"
 
 ## <i class="fas fa-bullseye" style="color:rgb(110,73,203)" aria-hidden="true"></i> Security Risk Mission{#security-risk-mission}
 
-To improve security at GitLab by enabling informed and intelligent [decision making](/handbook/leadership/making-decisions/#making-decisions) through proactive identification, monitoring, and reporting of security risks.
+To drive security risk treatment at GitLab by empowering teams to make informed and intelligent [decisions](/handbook/leadership/making-decisions/#making-decisions) through proactive identification, monitoring, prioritization, and reporting of security risks.
 
 ## <i class="far fa-lightbulb" style="color:rgb(110,73,203)" aria-hidden="true"></i> Core Competencies{#core-competencies}
 

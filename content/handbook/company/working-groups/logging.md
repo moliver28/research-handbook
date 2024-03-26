@@ -36,8 +36,7 @@ description: "The GitLab Logging Working Group will have multiple business purpo
 
 | Working Group Role  | Person           | Title                                  |
 |---------------------|------------------|----------------------------------------|
-| Facilitator         | Joe Dubail     | Manager, Infrastructure Security         |
-| Co-Facilitator     | Harjeet Sharma | Security Engineer, SIRT |
+| Facilitator     | Harjeet Sharma | Security Engineer, SIRT |
 | Member              | Jeff Martin      | Senior IT Systems Engineer |
 | Member              | Steve Manzuik | Senior Manager, Threat Management |
 | Member              |Byron Boots |Senior Security Compliance Engineer  |

@@ -271,14 +271,14 @@ Steps:
 
 While changes we make are rigorously tested and carefully deployed, it is a good practice to temporarily halt production changes during certain events such as GitLab Summit, major global holidays, and other times where GitLab Team Member availability is substantially reduced.
 
-Risks of making a production environment change during these periods includes immediate customer impact and/or reduced engineering team availability in case an incident occurs. Therefore, we have introduced a mechanism called **Production Change Lock (PCL)**. During a PCL, automated deployments are paused. A deployment may be manually executed at the discretion of the EOC. For example, the EOC may choose to deploy changes because they are necessary to ensure the stability of GitLab.com, or in order to ensure that deployments continue running smoothly when the PCL is lifted. A PCL is enforced via [C1 Change issues](https://gitlab.com/gitlab-com/gl-infra/production/-/issues/8676) and [gl-infra/change-lock](https://gitlab.com/gitlab-com/gl-infra/change-lock) as an automated process which, provided a time range, locks production deployments, prevents Feature Flags as well infrastructure config changes, then releases the lock once the time expires. However, we are continuing to list the events here so that teams are aware of the PCL periods.
+Risks of making a production environment change during these periods includes immediate customer impact and/or reduced engineering team availability in case an incident occurs. Therefore, we have introduced a mechanism called **Production Change Lock (PCL)**. During a PCL, automated deployments are paused. A deployment may be manually executed at the discretion of the EOC. For example, the EOC may choose to deploy changes because they are necessary to ensure the stability of GitLab.com, or in order to ensure that deployments continue running smoothly when the PCL is lifted. A PCL is enforced via [C1 Change issues](https://gitlab.com/gitlab-com/gl-infra/production/-/issues/new?issuable_template=change_pcl&issue[title]=Production+Change+Lock) and [gl-infra/change-lock](https://gitlab.com/gitlab-com/gl-infra/change-lock) as an automated process which, provided a time range, locks production deployments, prevents Feature Flags as well infrastructure config changes, then releases the lock once the time expires. However, we are continuing to list the events here so that teams are aware of the PCL periods.
 
 The following dates are currently scheduled PCLs. Times for the dates below begin at 09:00 UTC and end the next day at 09:00 UTC.
 
 | Dates                       | Type       | Reason                        |
 |-----------------------------|------------|-------------------------------|
 | 2024-03-08 23:00 UTC -> 2024-03-18 09:00 UTC | Hard | GitLab Summit |
-| Recurring: [Monthly release date](/releases/)      | Soft       | Release day                   |
+| Recurring: [Monthly release date](https://about.gitlab.com/releases/)      | Soft       | Release day                   |
 | Recurring: [Scheduled Family and Friends Days](/handbook/company/family-and-friends-day/#upcoming-family-and-friends-days)         | Soft       | Family and Friends Days                   |
 | Recurring: Saturday 01:00 UTC -> Sunday 21:00 UTC | Soft       | Weekend                   |
 

@@ -145,9 +145,24 @@ If you want to edit other parts of the page the process is similar, just follow 
 
 #### Adding an event to the Events page
 
-[Video Walkthrough](https://youtu.be/7aEvFjMRga8?si=itn0ph9GWeBJms_g)
+[Video Walkthrough](https://youtu.be/A0PdsjoaPzU)
 
-New instructions coming soon!
+1. Click on the `Content` tab
+1. Go to the top bar and next to `Content Type` and change it from `Any` to `⚛️ Event Card`. This shows a list of existing events. 
+1. Click on `Add Entry` at the top right of the screen and select `⚛️ Event Card`
+1. Fill out the following fields:
+   - Internal Name - Name of event (This isn't visible on the page, but Contentful uses these names internally)
+   - Name - Name of event
+   - Event Type - Select the event type from the dropdown.
+   - Description - Add event description. Can use markdown.
+   - Date - Select start and end date of event. If the event is one day, select the same start and end date. Both are required.
+   - Location - Add city and state of event, if in-person. If virtual, type in `Virtual`. 
+   - Region - Select the appropriate region for event
+   - Event URL - Add registration URL
+   - Social Tags: Optional - Add any hashtags that may be relevant. For example, you can type “DevSecOps” and hit enter, then enter your next tag. Each tag will automatically have the # symbol applied.
+1. Once fields have been reviewed and are final, click `Publish`
+
+To remove an event from the events page, go to the event and click Change Status -> `Unpublish`. Once the event is unpublished, you can also click the three dots `...` in the upper right corner, and `delete` the event to remove it from Contentful entirely (otherwise the event will remain as a draft).
 
 
 #### Updating the Services page

@@ -6,6 +6,10 @@ title: Switchboard team
 
 Switchboard is a team within the [Dedicated Group](/handbook/engineering/infrastructure/team/gitlab-dedicated/). Our mission is to empower external GitLab Dedicated customers to manage their tenant environments and reduce the operational overhead on the Environment Automation team so we can scale up the GitLab Dedicated offering. We follow the same processes as listed on the [the Dedicated Group](/handbook/engineering/infrastructure/team/gitlab-dedicated/), unless a difference exists which is explicitly noted on this page.
 
+### Resources
+
+- [Switchboard Direction Page](https://about.gitlab.com/direction/saas-platforms/switchboard/)
+- [Switchboard Demo Library](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/switchboard/-/blob/main/docs/walkthrough-library.md)
 
 ## Team Members
 
@@ -97,6 +101,8 @@ Switchboard team process to refine epics:
    - DRI, EM & PM work together to assign due date based on team capacity, external deadlines and amount of work involved
 1. DRI identifies at least one demo that will be delivered with the epic and adds a brief outline to the epic description (see [Switchboard Demos](#switchboard_demos)).
 1. EM or DRI labels individual issues as ~"workflow-infra::Triage"
+1. DRI enables issues to be worked on in parallel where possible so that multiple engineers can contribute to a single epic
+1. If the epic involves both Frontend and Backend implementation the issues should be labelled accordingly
 1. Team members pick up issues and start working on them
 1. Team members use Progress Threads to track progress in individual issues
 1. Team checks in on progress during Switchboard Sync
@@ -114,6 +120,11 @@ Switchboard team process to refine issues:
 1. Team members look at issues in the `Open` column of the [issue board](https://gitlab.com/groups/gitlab-com/gl-infra/gitlab-dedicated/-/boards/4498935?label_name[]=team%3A%3ASwitchboard) and ask questions on the issue to drive clarity
 1. When there are no outstanding questions on the issue it can be labelled ~"workflow-infra::Ready" and it will automatically move into the `Ready` column
 1. If the issue exposes text to users in any way the `technical writing` label should be added. For example if the issue changes UI text, shows an error message, adds a field etc
+1. If the issue requires Frontend implementation the `frontend` label should be used
+1. DRI enables issues to be worked on in parallel where possible so that multiple engineers can contribute to a single epic
+1. The default is to keep both frontend and backend implementation for a single piece of functionality on the same issue so that discussions are centralised, implementation is carried out in parallel and frontend and backend engineers are in sync
+1. Frontend and backend implementation should be delivered in separate MRs
+1. If the implementation cannot be done in parallel, or there is a likely to be a meaningful delay between backend and frontend implementations, or if the backend can deliver value independently the issue should be split and the relationship clearly identified by linking the issues
 
 #### Issue & Epic tracking
 1. Engineers use Progress Threads to share progress in an async fashion
@@ -204,7 +215,5 @@ There are two groups for Switchboard, [Reviewers and Maintainers](https://gitlab
 * All Switchboard team members are included in the `Reviewer` group.
 * When a team member is fully onboarded and feel confident in their knowledge of the codebase they are invited to the Maintainer group.
 
-### Resources
 
-[Switchboard Direction Page](https://about.gitlab.com/direction/saas-platforms/switchboard/)
 

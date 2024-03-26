@@ -141,10 +141,10 @@ Manual upkeep of the maintainer training issue can be time consuming. There are 
 
 ## handbook Tips
 
-The [https://handbook.gitlab.com]({{< ref "/content/_index.html" >}}) site lives in the [content-sites/handbook](https://gitlab.com/gitlab-com/content-sites/handbook/)
+The [https://handbook.gitlab.com]({{< ref "/_index.html" >}}) site lives in the [content-sites/handbook](https://gitlab.com/gitlab-com/content-sites/handbook/)
 repo on GitLab.  The site is mostly a collection of Markdown documents and converted in to HTML by [Hugo](https://gohugo.io/).
 In addition to the handbooks content there is a [theme repo](https://gitlab.com/gitlab-com/content-sites/docsy-gitlab])
-which is shared between the [Handbook]({{< ref "/content/_index.html" >}}) and the [Internal Handbook](https://internal.gitlab.com).
+which is shared between the [Handbook]({{< ref "/_index.html" >}}) and the [Internal Handbook](https://internal.gitlab.com).
 This holds the [docs]({{< ref "/docs" >}}) and shared content for both sites as well shortcodes and other functional [Hugo](https://gohugo.io/)
 for producing the site.
 
@@ -691,6 +691,15 @@ When you have accidentally deleted something from the Team Meetings calendar, yo
 - Choose the [Trash](https://calendar.google.com/calendar/r/trash).
 - Make sure you are on the correct calendar, by clicking on the name of the calendar in the left sidebar.
 - Hover over the item you'd like to restore and click the arrow to "Restore".
+
+#### Show declined events
+
+We recommend enabling the 'Show declined events' setting if you are unable to attend a meeting but will still contribute to the agenda or attendance list asynchronously. Use this setting if it's helpful for you to see declined meetings in your calendar view for any other reason.
+
+- Navigate to [Event settings](https://calendar.google.com/calendar/u/0/r/settings)
+- Check the box for 'Show declined events' under 'View options'
+
+![Google Calendar - Show declined events](/handbook/tools-and-tips/images/showdeclinedevents.png)
 
 #### Sharing
 

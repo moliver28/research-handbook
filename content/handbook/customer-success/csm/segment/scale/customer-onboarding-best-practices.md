@@ -20,7 +20,7 @@ During onboarding it’s critical to ensure customers have confidence in foundat
 - User authentication and authorization
 - Early DevSecOps adoption
 
-This should be covered in the initial technical onboarding call with the customer, for instance the 21 day check-in call for Scale CSEs. The [deck](https://docs.google.com/presentation/d/1zb-0RdsnvyLhZW0ECppWJSUf0EaWNm20T78PDTCaWzM/edit#slide=id.g1287bf62b57_0_209) (internal link) provides open ended discovery questions to learn more about customers’ plans, progress and most importantly confidence in these areas. By learning about their goals and how confident they are in their progress we can provide them with the best enablement resources (webinars, documentation, videos) to create a solid foundation they can build upon.
+This should be covered in the initial technical onboarding call with the customer, for instance the 21 day check-in call for CSEs. The [deck](https://docs.google.com/presentation/d/1zb-0RdsnvyLhZW0ECppWJSUf0EaWNm20T78PDTCaWzM/edit#slide=id.g1287bf62b57_0_209) (internal link) provides open ended discovery questions to learn more about customers’ plans, progress and most importantly confidence in these areas. By learning about their goals and how confident they are in their progress we can provide them with the best enablement resources (webinars, documentation, videos) to create a solid foundation they can build upon.
 
 The deck covers both self-managed and SaaS.
 

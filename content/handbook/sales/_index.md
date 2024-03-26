@@ -75,7 +75,7 @@ description: "The GitLab Field team includes multiple functions: Enterprise Sale
 | [Deal Desk: Assistance with Quotes](/handbook/sales/field-operations/order-processing/#assistance-with-quotes) | [Business Operations Handbook](/handbook/business-technology/) | [Collaborating with Legal - Sales](/handbook/legal/customer-negotiations/) |  |
 | [Deal Desk: Approval Process](/handbook/sales/field-operations/order-processing/#deal-desk-approval-process) | [Data Team Handbook](/handbook/business-technology/data-team/) | [Legal Page](/handbook/legal/) |  |
 | [Sending a Quote to Zuora](/handbook/sales/field-operations/order-processing/#step-8--sending-the-quote-to-zuora) | [Data Quality Process](/handbook/business-technology/data-team/data-quality/) | [Engaging Legal in Deals](/handbook/sales/field-operations/order-processing/#process-for-agreement-terms-negotiations-when-applicable) |  |
-| [How to Initiate a Refund](/handbook/finance/accounting/#7-invoice-cancellations-and-refunds) | [IT Ops Handbook](/handbook/business-technology/team-member-enablement/onboarding-access-requests/) |  |  |
+| [How to Initiate a Refund](/handbook/finance/accounting/#7-invoice-cancellations-and-refunds) | [IT Ops Handbook](/handbook/business-technology/end-user-services/onboarding-access-requests/) |  |  |
 |  | [Access Requests](https://gitlab.com/gitlab-com/team-member-epics/access-requests) |  |  |
 
 ## Who We Are
@@ -157,7 +157,7 @@ See the [Sales Development page](/handbook/marketing/sales-development/#sdr-expe
 
 #### Support
 
-This team provides technical support to GitLab.com and Self-Managed GitLab customers. For an overview of support levels based on plan tier, see the [Support Page](/support/). The Support → Customer Success Manager (CSM) escalation process can be found [here](/handbook/customer-success/csm/escalations/).
+This team provides technical support to GitLab.com and Self-Managed GitLab customers. For an overview of support levels based on plan tier, see the [Support Page](https://about.gitlab.com/support/). The Support → Customer Success Manager (CSM) escalation process can be found [here](/handbook/customer-success/csm/escalations/).
 
 During the sales cycle, potential customers who have questions that are not within the scope of Sales can have their queries escalated in different ways depending on the account size:
    1. For Strategic/Large accounts that will have a dedicated Solutions Architect, [engage the SA](/handbook/customer-success/solutions-architects/#when-and-how-to-engage-a-solutions-architect) so that they can triage and develop the request.

@@ -39,7 +39,7 @@ The primary project used by the CoST to track work specific to our team is [CoS 
 
 ## Kinds of projects CoST to the CEO works on{#what-projects-does-the-cost-work-on}
 
-Given the cross-functional nature of the [CEO OKRs](/handbook/company/okrs/#okr-process-at-gitlab) and given these projects are important to the CEO, the CoST is often involved in these initiatives as needed and as team member workload permits.
+Given the cross-functional nature of the [company OKRs](/handbook/company/okrs/#okr-process-at-gitlab) and given these projects are important to the CEO, the CoST is often involved in these initiatives as needed and as team member workload permits.
 
 ### Project Criteria
 
@@ -182,7 +182,6 @@ The CEO's GC slides usually cover:
 - A reminder on handbook first
 - Openings on the CEO Shadow Rotation
 - Timely announcements
-- Iteration Office Hours
 - Three things that are on the CEO's mind, usually from the CoS to the CEO agenda
 
 The GCs are stored in the "CEO Evangelism" folder on Google Drive.
@@ -266,7 +265,7 @@ There is an issue to also [add DRIs and review the mitigations](https://gitlab.c
 
 ## Supporting Summit Challenge
 
-The CEO chooses to run a Summit Challenge in advance of some [Summits](https://about.gitlab.com/events/gitlab-contribute/). The Challenge is shared at least two weeks in advance of Summit. As an example, the 2020 Challenge encouraged team members to [beautify docs](https://gitlab.com/groups/gitlab-org/-/epics/3063). The CoST to the CEO is responsible for collaborating with the CEO to create and introduce the challenge. The CEO is responsible for identifying a prize for team members, but the CoST should ensure that a prize is identified and support the CEO in this if needed.
+The CEO chooses to run a Summit Challenge as part of some [Summits](https://about.gitlab.com/events/). The Challenge is shared on the first day of Summit. As an example, the 2020 Challenge encouraged team members to [beautify docs](https://gitlab.com/groups/gitlab-org/-/epics/3063). The CoST to the CEO is responsible for collaborating with the CEO to create and introduce the challenge. The CEO is responsible for identifying a prize for team members, but the CoST should ensure that a prize is identified and support the CEO in this if needed.
 
 ### Meeting Cleanup Day
 
@@ -316,7 +315,7 @@ As of FY23, the Chief of Staff Team to the CEO is [responsible for the GitLab ha
 This includes maintaining infrastructure and ensuring usability of both the internal and public handbooks.
 
 During FY24, we have started the migration of handbook content from [about.gitlab.com](https://about.gitlab.com/handbook)
-to our [new handbook site]({{< ref "/content/_index.html" >}}).
+to our [new handbook site]({{< ref "/_index.html" >}}).
 
 We are excited by this move which we hope will improve the usability of the handbook and demonstrate our commitment to
 our values of iteration, collaboration, and transparency.  During the coming months we will be iterating over the handbook

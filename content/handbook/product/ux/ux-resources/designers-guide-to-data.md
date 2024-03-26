@@ -33,9 +33,9 @@ By observing and measuring, it should spark further questions to help generate m
 
 ## How is data being captured
 
-To generate reports and dashboards, we use a third party tool called [Sisense](https://app.periscopedata.com/app/gitlab/403199/Welcome-Dashboard-%F0%9F%91%8B) to visualize the data captured.
+To generate reports and dashboards, we use a third party tool called Tableau to visualize the data captured.
 
-The data source determines the table names used in Sisense queries. We have three primary data sources that are useful from a product perspective: service ping, product database, and internal events.
+The data source determines the table names used in Tableau queries. We have three primary data sources that are useful from a product perspective: service ping, product database, and internal events.
 
 **Our goal is to analyze product usage. NOT to track individual users**. This means on the frontend we respect browser settings of "do not track" and allow opting out of usage ping. In addition to that, the Analytics Instrumentation team is responsible for data pseudonymization so that there no personally identifiable information saved. This [video highlights how Snowplow, usage ping, and pseudonymization work together](https://www.youtube.com/watch?v=awWhNtwuVNs).
 
@@ -81,7 +81,7 @@ The issues and merge requests below are examples of how we have used data for de
 
 ## Frequently asked questions
 
-- **Who can I ask for data help?** If you have any specific questions around Data or Sisense, you can connect with them on Slack in `#data`.
+- **Who can I ask for data help?** If you have any specific questions around Data or Tableau, you can connect with them on Slack in `#data`.
 - **What happens when there is no baseline metric to measure from?** When there is no baseline, use the data that is to be tracked as the baseline after a month of data.
 
 ## Resources

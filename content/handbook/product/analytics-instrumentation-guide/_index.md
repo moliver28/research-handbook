@@ -133,7 +133,7 @@ For a [variety of reasons](https://www.youtube.com/watch?v=qgnWYIynDF4), we [rec
 | [Service Ping Guide](https://docs.gitlab.com/ee/development/service_ping/) | An implementation guide for Service Ping |
 | [Snowplow Guide](https://docs.gitlab.com/ee/development/snowplow/index.html) | An implementation guide for Snowplow |
 | [Metrics Dictionary](/handbook/product/analytics-instrumentation-guide#metrics-dictionary) | A SSoT for all collected metrics and events |
-| [Privacy Policy](/privacy/) | Our privacy policy outlining what data we collect and how we handle it |
+| [Privacy Policy](https://about.gitlab.com/privacy/) | Our privacy policy outlining what data we collect and how we handle it |
 | [Analytics Instrumentation Direction](https://about.gitlab.com/direction/analytics/analytics-instrumentation/) | The roadmap for Analytics Instrumentation at GitLab |
 | [Analytics Instrumentation Development Process](/handbook/engineering/development/analytics/analytics-instrumentation/) | The development process for the Analytics Instrumentation groups |
 

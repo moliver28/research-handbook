@@ -79,6 +79,43 @@ While in the long term, customer admins will be able to self-serve configuration
   - To request a configuration change after the initial onboarding, customers must create a support ticket. The assigned support engineer will then open a new issue in the Dedicated issue tracker with the request. The requester must ensure there is link to the ZD ticket in the internal issue for change control purposes. The SRE tasked with performing the next round of maintenance for this customer will reply on the issue with a rough ETA and again once the change has been deployed. If this is a change that requires development work, the SRE will raise to PM/EM.
   - Post-onboarding, escalating a config change requests is only possible for configuration that ensures that the tenant instance is online. "Business as usual" changes can only be scheduled well in advance using the customer Project Plan provided during onboarding. See more details about our escalation policy below.
 
+#### Production Change Lock (PCL)
+
+While changes we make are rigorously tested and carefully deployed,
+it is a good practice to temporarily halt production changes during certain events such as GitLab Summit,
+major global holidays,
+and other times where GitLab Team Member availability is substantially reduced.
+
+Risks of making a production environment change during these periods includes immediate customer impact and/or reduced engineering team availability in case an incident occurs.
+Therefore, we have introduced a mechanism called Production Change Lock (PCL) to GitLab Dedicated.
+
+The GitLab Dedicated Production Change Lock is greatly inspired by the [PCL](https://about.gitlab.com/handbook/engineering/infrastructure/change-management/#production-change-lock-pcl) for GitLab.com,
+but there are some differences worth noting.
+
+A PCL is manually enforced once the following requirements are met:
+1. A PCL [issue](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/issues/3946) describing the PCL period is created. 
+2. An MR updating the scheduled PCLs table is approved by the SaaS Platforms Engineering Director
+3. Customer changes via Switchboard are prevented for the duration of the PCL.
+
+The following dates are currently scheduled PCLs. 
+
+| Dates                       | Type       | Reason                        |
+|-----------------------------|------------|-------------------------------|
+| 2024-03-08 23:00 UTC -> 2024-03-17 20:00 UTC | Hard | GitLab Summit (Low team members availability) |
+
+Times for the dates without a time specified begin at 09:00 UTC and end the next day at 09:00 UTC.
+
+As opposed to GitLab.com [PCL](https://about.gitlab.com/handbook/engineering/infrastructure/change-management/#production-change-lock-pcl), for GitLab Dedicated we only consider a Hard PCL type.
+
+##### Hard PCL
+
+Hard PCLs include all code deploys and infrastructure changes, including automated maintenance in UAT, Preprod and Production environments, and customer changes via Switchboard. New customers will not be onboarded during Hard PCLs. 
+
+In case of an active S1/S2 incident, it is at the EOC (Engineer on Call) discretion to make the decision to apply the changes necessary to mitigate or resolve the incident in order to keep service availability. 
+Any action during an incident while in a PCL must be associated to an issue and the EOC should inform the GitLab Dedicated engineering Leadership about the action taken. 
+
+Changes not associated to any incident must have an exemption approval by the GitLab Dedicated engineering Leadership.
+
 ### Escalation Policy
 
 When it comes to escalating customer support issues, we follow the same definitions of severity as [provided by support](https://about.gitlab.com/support/definitions/#definitions-of-support-impact) since Dedicated customers receive priority support. Only in cases where there is an [availability or security sev-1](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity) event it can be escalated to Sev-1 at the Support level. 'Business as usual' configuration changes cannot be escalated to sev-1. In sev-1 cases we will involve our on-call, as these incidents may affect our Availability SLA commitments to the customer. Sev-2 and below will be handled by the team during normal business hours. Any fixes identified as part of a support ticket that must go out immediately will be considered "emergency maintenance" and can be done outside the normal maintenance window. All other fixes will be done during the next available maintenance window.
@@ -102,6 +139,33 @@ Access will only be provided to:
 To gain access, please create:
 1. [access request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=Individual_Bulk_Access_Request). Use `GitLab Dedicated Logs (Production)` as the system.
 1. An issue in the [GitLab Dedicated tracker](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/issues/new?issuable_template=log_access_rotation) using the `Log rotation access` template.
+
+## Working across GitLab
+
+### Communicating with GitLab Dedicated customers
+
+If you need to urgently contact one or more GitLab Dedicated customers, engage the
+[GitLab Dedicated Communications Manager On-Call (CMOC)](/handbook/support/workflows/dedicated_cmoc/).
+
+Non-urgent communication should be handled through the customer's Customer Success Manager (CSM).
+
+### Getting product fixes into GitLab Dedicated quicker
+
+{{% alert title="Note" color="info" %}}
+
+This section should be moved into the GitLab Dedicated incident management process page when it
+becomes available.
+{{% /alert %}}
+
+Sometimes, a product fix is introduced to resolve a GitLab Dedicated incident or
+[customer escalation](#escalation-policy). There can be a significant delay between when the
+product fix is merged and when it is deployed to GitLab Dedicated environments due to our
+[upgrade policy](https://docs.gitlab.com/ee/subscriptions/gitlab_dedicated/#upgrades).
+
+In such cases, we should evaluate the impact of the delay and, if justified, use the
+[backport request process](/handbook/engineering/releases/backports/) to request that the product
+fix be backported to a GitLab version that can be deployed to GitLab Dedicated environments in an
+acceptable timeframe.
 
 ## How we work
 
@@ -261,26 +325,23 @@ The status for all work relating to GitLab Dedicated is maintained in the descri
 
 #### Status Update Process
 
-Both Engineering Cross-Functional DRIs should provide weekly updates for the DRI's epics according to following process:
+Both Engineering Cross-Functional DRIs should provide weekly updates for the DRI's epics according to following process, which allows alignment with [Project Management in SaaS Platforms](https://handbook.gitlab.com/handbook/engineering/infrastructure/platforms/project-management/#project-management-in-saas-platforms):
 
-1. **By 17:00 UTC / 12:00 PM ET on Fridays** DRIs of *active* epics (or the person covering if DRI OOO) provide an update in the [status section of the description](/handbook/engineering/infrastructure/team/gitlab-dedicated/#epic-structure) of the epic regarding status of the epic including any relevant details of active sub-epics.
-    - If the DRI for a sub-epic is different than the epic DRI, the epic DRI is responsible for getting updates from the sub-epic DRI.
-    - Format for weekly update:
-      - **Date of Update** (YYYY-MM-DD)
-      - Brief update (~sentence or couple bullets) for each of these three bullets:
-         - **Progress since last update** - Changes deployed to production, unblocked blockers, any other progress achieved.
-         - **Risk and Confidence** - Any new blockers identified or existing blockers that persist? Any other challenges now or in the near future? How do these blockers and/or challenges affect our confidence of completing by scheduled due date from [Phase timeline](https://internal.gitlab.com/handbook/engineering/horse/)?
-         - **Mitigations** -  What is required to overcome challenges or blockers identified?  Should this be escalated to other team members, teams, executives, or domain experts?
-       - **Update Workflow and Health label** - After each status update, the Workflow label and Health label should be updated. See [Epic labels criteria](/handbook/engineering/infrastructure/team/gitlab-dedicated/#workflow-labels)
+1. **By Wednesday at 21:00 UTC** the DRI for a project is expected to update the status block in the epic description to:
+    1. Format for weekly update: **Date of Update** (YYYY-MM-DD)
+    1. Brief update for each of these three areas:
+        1. Indicate any project blockers.
+        1. Briefly highlight progress since the last update.
+        1. Indicate planned next steps, or mitigations required to progress. This enables other engineers and other managers to have good information about projects in an asynchronous fashion.
+    1. If the DRI for a sub-epic is different than the epic DRI, the epic DRI is responsible for getting updates from the sub-epic DRI.
+    1. **Update Workflow and Health label** - After each status update, the Workflow label and Health label should be updated. See [Epic labels criteria](/handbook/engineering/infrastructure/team/gitlab-dedicated/#workflow-labels)
 
 1. **Top-Level Epic Status Update** [automation synthesizes updates from status section](/handbook/engineering/infrastructure/team/gitlab-dedicated/#status-update-automation) from description of active epics to provide initiative status in the status section in the description of the top-level initiative Epic.
 
-1. **Weekly engineering/product sync at 16:30 UTC / 11:30 AM ET on Mondays** Dedicated engineering/product meeting is used to discuss status updates and potential mitigations as necessary.
+1. **Weekly engineering/product sync at 16:30 UTC on Mondays** Dedicated engineering/product meeting is used to discuss status updates and potential mitigations as necessary.
     - [After the release day of each month](#epic-roadmap), a summary of the most recently completed phase and any roadmap changes is shared.
 
 1. Status updates will be incorporated into initiative status updates and any initiative reporting in the following week.
-
-1. **By 23:00 UTC / 5:00 PM ET on Wednesdays** Initiative DRI will share a summary of major items from the weekly initiative update in #ceo Slack Channel and link to the full update in the Initiative epic.
 
 #### Status Update Automation
 
@@ -311,8 +372,7 @@ GitLab Dedicated team respects the Company principle of [everything starting wit
 
 1. All Merge Requests (MRs) must go through the review process.
 1. It is expected that MR author assigns reviewers once the MR is ready to go.
-1. Unless otherwise explicitly noted in the MR description itself, it is expected from a first approver to also merge the MR they just approved for efficiency. Add `**This MR should be approved by all approvers, last approver should merge.**` as the first line in MR description to state the intention clearly.
-1. Resolution of an open thread may be done by the author or any reviewer, based on their good-faith understanding that the comment has been adequately addressed; an approval while leaving open threads unresolved means the author or other reviewers are expected to manage those threads to completion.
+1. Reviewers should review the change and leave comments with questions or suggestions. Please follow the [merge request reviewer guidelines](/handbook/engineering/infrastructure/team/gitlab-dedicated/#merge-request-reviewers) and the [resolving threads guidelines](/handbook/engineering/infrastructure/team/gitlab-dedicated/#resolving-threads-on-a-merge-request) documented below. 
 
 The MR approval rule settings for all projects should be:
 
@@ -339,22 +399,30 @@ When a red build in the default branch is detected, the first course of action i
 
 #### Merge request reviewers
 
-Assign all developers of the [relevant Dedicated team](#gitlab-group-hierarchy) to all of the MRs that are due for review. Typically it is not necessary to assign the whole `@gitlab-dedicated` group, so choose the appropriate group such as `@gitlab-dedicated/environment-automation` or `@gitlab-dedicated/switchboard` depending on the project. As the team grows this helps with determining signal vs noise. While it is OK for only two people to get the MR to the merged state (author + 1 reviewer), assigning everybody gives more exposure to the work in progress and gives a chance for more parties to provide feedback, leading to better quality overall. If the MR sits more than 1 day without receiving meaningful comments for review, MR author is encouraged to assign a particular reviewer to the MR with the aim to speed up the review process.
+GitLab Dedicated follows the same pattern for author/reviewer assignment as the standard GitLab practice, documented in the [Code Review Guidelines documentation](https://docs.gitlab.com/ee/development/code_review.html#dogfooding-the-reviewers-feature).
+
+The process can be summarized as:
+
+1. The MR author will assign a reviewer and a maintainer to an MR that is ready for review. 
+     - Check that pipelines are passing before requesting reviews. 
+     - The MR author can choose who to assign for review. To spread workload and knowledge it is recommended to use the [Environment Automation Reviewer Roulette](https://gitlab-org.gitlab.io/gitlab-roulette/?currentProject=environment-automation). 
+     - Unless otherwise explicitly noted in the MR description itself, Maintainers are expected to also merge the MR they just approved for efficiency. Add **This MR should be approved by all approvers, last approver should merge.** as the first line in MR description to state the intention clearly. 
+     - If the change is a significant one, considering mentioning the appropriate group such as `@gitlab-dedicated/environment-automation` or `@gitlab-dedicated/switchboard` in the MR description to help with knowledge sharing.
+2. Reviewers will review the MR and leave comments with questions or comments. 
+    - To help us keep projects moving, please respond to review requests within one working day, and aim to complete the review within two working days.   
+    - If a reviewer is unable to meet the timelines, or has too many other review requests it's ok to ask someone else to take on the review. 
 
 #### Resolving threads on a merge-request
 
 As the merge request author, please don’t mark discussions resolved until the reviewer has had a chance to respond. In general, if the reviewer has not yet approved the MR, and the thread is non-trivial, don’t mark their comments as resolved, let the reviewer review your response and resolve accordingly during the next round of view. If they have approved the MR, but comments remain unresolved, it's generally fine to resolve comments before merging.
 
-#### Merge Request Review Assignees
+#### Maintainer training 
 
-GitLab Dedicated follows the same pattern for author/reviewer assignment as the standard GitLab practice, documented in the [Code Review Guidelines documentation](https://docs.gitlab.com/ee/development/code_review.html#dogfooding-the-reviewers-feature).
+New Dedicated team members work with their manager to decide when to begin Maintainer training. Usually this will be around the third month in the team. 
 
-This can be summarized as follows:
+A [Maintainer training issue](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/issues/new?issuable_template=maintainer_training) will be created using the `maintainer_training` template and a training buddy will assigned to support the training. 
 
-> - Merge request authors and DRIs stay as Assignees
-> - Authors request a review from Reviewers when they are expected to review
-> - Reviewers remove themselves after they’re done reviewing/approving
-> - The last approver stays as Reviewer upon merging
+After training is complete, the new Maintainer will be added to the Environment Automation Maintainers pool. 
 
 ### Temporary workarounds
 
@@ -469,3 +537,5 @@ Resources used by the team to conduct work are described on the [Development Res
 
 - Name for [`Switchboard` customer portal](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/issues/7#note_591358260) was suggested by @marin after he spent a day trying to figure out which mixing console (Also known as a switchboard/soundboard) to get for amateur music making. He didn't buy anything, but the suggestion was accepted.
 - Name for [`Amp` management cluster](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/issues/31#note_609710775) was suggested by @ccasella, as it is the instance that is "powering" supply of other instances.
+- [Dedicated Group - Year in Review 2023](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/issues/3681)
+

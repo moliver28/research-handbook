@@ -200,7 +200,7 @@ The fields in this section enable contractual opt-outs for each SuperSonics feat
 | [Cloud Lic] Add Reconciliation Opt Out | (Checkbox) Opts customer out of Quarterly Subscription Reconciliation  |
 | [Cloud Lic] Add Auto-Renewal Opt-Out | (Checkbox) Opts customer out of Auto-Renewal |
 | [Cloud Lic] Add Operational Data Opt Out | (Checkbox) Opts customer out of Operational Data |
-| [Cloud Lic] Add Cloud Licensing Opt Out | (Picklist) Opts customer out of Cloud Licensing to an `Offline` or `Legacy` license |
+| License Type | (Picklist) SaaS: Default = Cloud License; Self-Managed: A selection is required. Selecting `Offline Cloud License` or `Legacy License` will trigger approvals per the [Deal Approval Matrix](https://docs.google.com/document/d/1-CH-uH_zr0qaVaV1QbmVZ1rF669DsaUeq9w-q1QiKPE/edit#bookmark=kix.iqw46t1jxax1). |
 
 #### Quarterly Subscription Reconciliation (QSR): How It Works
 
@@ -535,7 +535,7 @@ For assistance with a Subscription Transfer Agreement please open a Legal Reques
 
 ### Open Source, Education, and Startup Application Opportunities
 
-GitLab provides free licenses to qualifying entities through the [Community Programs](/handbook/marketing/developer-relations/community-programs/): [GitLab for Education Program](/solutions/education/), [GitLab for Open Source Program](/solutions/open-source/) and [GitLab for Startups Program](/solutions/startups/). All applications to these programs are routed through the [Community Programs applications automated workflows](/handbook/marketing/developer-relations/community-programs/automated-community-programs). **Only Developer Relations team members** should handle these applications and opportunities because the team verifies program requirements before issuing/renewing licenses and these opportunities are handled differently since the opportunities are free.
+GitLab provides free licenses to qualifying entities through the [Community Programs](/handbook/marketing/developer-relations/community-programs/): [GitLab for Education Program](https://about.gitlab.com/solutions/education/), [GitLab for Open Source Program](https://about.gitlab.com/solutions/open-source/) and [GitLab for Startups Program](https://about.gitlab.com/solutions/startups/). All applications to these programs are routed through the [Community Programs applications automated workflows](/handbook/marketing/developer-relations/community-programs/automated-community-programs). **Only Developer Relations team members** should handle these applications and opportunities because the team verifies program requirements before issuing/renewing licenses and these opportunities are handled differently since the opportunities are free.
 
 #### Inquiry and Application Process (Leads or Contacts)
 
@@ -1141,11 +1141,17 @@ Review the [Professional Services handbook page](/handbook/customer-success/prof
     - Ensure that you have reviewed the standard SOW with your customer **PRIOR** to booking the opportunity. Everything listed in the SOW is what will be provided, no more, no less, no customizations.
 
 
-1. If a Professional Services Opportunity will include a custom SOW with unique deliverables
+1. If a Professional Services Opportunity will include a custom Statement of Work (SOW) or Change Order (CO) with unique deliverables
     - Note: Professional Services must be sold on standalone opportunity with the ***Opportunity Record Type*** set to ***Professional Services Only***. They must not be sold on the same opportunity as subscription products. The opportunity should be created by going to the Open or Closed Won license opportunity and clicking on the New PS Opportunity button. This will generate a related PS opp.
-    - A fully signed copy of the SOW is **required**. Please review the process on obtaining signatures, as the SOW will also need to be counter-signed by an authorized signer at GitLab.
+    - A fully signed copy of the SOW or CO is **required**. Please review the process on obtaining signatures, as the SOW will also need to be counter-signed by an authorized signer at GitLab.
     - Account owners are not approved signers! **ALL** signatures must go through Legal and/or Finance.
-    - A Custom SOW **does not** require a signed order form
+    - A quote needs to be generated, but only for backend billing automation purpsoes. **Do not share quote with customer or reselling partner!**
+        - For Time and Material (T&M) services, the **GitLab Service Package** must be added with the T&M Value from the SOW match the value in the quote line item.
+        - For Fixed Price (FP) services in the SOW, there must be matching SKUs (usually training or certification) in the quote. Review prices to ensure they match between quote and SOW.
+        - If the SOW contains T&M and FP services, two quotes need to be created. T&M should use the **GitLab Service Package** SKU and match the T&M value in the SOW. The FP Quote should use the matching SKUs in the catalog.
+        - DISREGARD ANY DISCOUT APPROVAL REQUIREMENTS. ALL DISCOUNT REQUESTS FOR PROFESSIONAL SERVICES HAPPEN IN SFDC CHATTER.
+    - The order form generated **does not** require a customer signature. The customer will only sign CO/SOW.
+    - Cost of Goods Sold (COGS) spreadsheet must be attached to the opportunity to book. This outlines project costs and expected margins.
 
 **Professional Services Opportunities Only** - If the SOW outlines a split payment schedle, **only one opp is needed to book the order**. We do not use multiple opps with PS opps requiring separate payments.
 
@@ -1182,15 +1188,25 @@ This policy dictates the timing of opportunity closure for all sales-assisted de
   - The transaction should be recorded as a New Business opportunity, using a [New Subscription quote](/handbook/sales/field-operations/sales-operations/deal-desk/#new-subscription-quote). The original Closed Lost opportunity will not be reversed.
 
 **Exceptions:**
-- Any exceptions to the Late Renewal Policy or to the 15-day booking policy must be **documented in SFDC Chatter and include the following details**:
+- Any exceptions to the **Late Renewal Policy** must be **documented in SFDC Chatter and include the following details**:
   - Relevant details about the account/opp seeking a late renewal extension / early booking
   - Why an exception is needed (justification)
   - Impact to the business (Net ARR or Renewal ARR loss)
-  - **Approval from both** GitLab CRO and CFO (or Principal Accounting Officer)
+  - **Approval from both** Sales VP and Revenue Manager (Please tag Revenue in chatter)
   - Anticipated (revised) Renewal Close Date
 
-- Once all of the above have been documented in Chatter, please tag @sales-support on the associated opportunity so that [Sales Operations can take the appropriate actions](https://internal.gitlab.com/handbook/sales/sales-operations/#late-renewal-exception-process) to exclude the opportunity from auto closure / forward the opportunity to Billing Ops for early booking.
+- Once all of the above have been documented in Chatter, please tag @sales-support on the associated opportunity so that [Sales Operations can take the appropriate actions](https://internal.gitlab.com/handbook/sales/sales-operations/#late-renewal-exception-process) to exclude the opportunity from auto closure.
      - - See the [Late Renewal Notification & Auto Close Processes](https://internal.gitlab.com/handbook/sales/go-to-market/renewals/#steps-to-request-an-exception) section of the handbook for details on how the system automatidally supports late renewal exceptions.
+
+- Any exceptions to the **15-day booking policy** must be **documented in SFDC Chatter and include the following details**:
+  - Relevant details about the account/opp seeking early booking
+  - Why an exception is needed (justification)
+  - Impact to the business (Net ARR or Renewal ARR loss)
+  - **Approval from both** CRO and CFO (or Principal Accounting Officer)
+  - Anticipated (revised) Renewal Close Date
+  - Tag @Sales-Support and the Sr. Dir., Deal Desk for visibility
+
+- Note: Opportunities approved for invoicing outside of the 15-day booking policy will be booked and invoiced as approved, but the booking will then be moved so that the close date falls within the 15-day bookings policy. For clarity, quota credit and commission will align to the 15 day booking policy even if approvals are obtained to invoice the transaction earlier than 15 days prior to the Quote Start Date.
 
 
 **Do I have to wait to submit my opportunity for approval?**

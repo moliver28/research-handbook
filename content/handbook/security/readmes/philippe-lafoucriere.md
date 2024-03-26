@@ -92,8 +92,8 @@ mode”, but it’s usually family time.
 ### Projects
 
 I maintain the [GitLab Inventory
-Builder](https://gitlab.com/gitlab-com/gl-security/engineering-and-research/gib) as well as our
-[internal inventory](https://gitlab.com/gitlab-com/gl-security/engineering-and-research/inventory)
+Builder](https://gitlab.com/gitlab-com/gl-security/product-security/gib) as well as our
+[internal inventory](https://gitlab.com/gitlab-com/gl-security/product-security/inventory)
 (private project).
 
 ### Office Hours

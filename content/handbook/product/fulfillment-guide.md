@@ -18,24 +18,18 @@ description: "The Fulfillment Sub-department is responsible for the infrastructu
 | Fulfillment Guide (this page) | Documentation around CustomersDot Admin tools and process documentation that is not part of the docs.gitlab.com Subscription documentation above. |
 | [Fulfillment Development Sub-Department](/handbook/engineering/development/fulfillment/) | Team members, stable counterparts (PM, UX, Quality, Security, EntApps, Field Ops, Sales, Billing, Customer Success, Support Engineering), project management processes, and more. |
 | [Internal Handbook - Fulfillment](https://internal.gitlab.com/handbook/product/fulfillment/) | Documentation that can't be in the public handbook. Minimize this to only [Not Public](/handbook/communication/confidentiality-levels/#not-public) information. |
-| [Cloud Licesing Overview (External)](/pricing/licensing-faq/cloud-licensing/) | Why Cloud Licensing, data collected, customer pre-requisites |
+| [Cloud Licesing Overview (External)](https://about.gitlab.com/pricing/licensing-faq/cloud-licensing/) | Why Cloud Licensing, data collected, customer pre-requisites |
 | [Cloud Licensing (Internal)](https://internal.gitlab.com/handbook/product/fulfillment/cloudlicensing/cloud-licensing/) | Internal handbook information about Cloud Licensing |
 | [Deal Desk Handbook](/handbook/sales/field-operations/sales-operations/deal-desk/) | Standard Quote Configuration (new subscription, amend subscription, add-on quote creation, upgrade or product switch during subscription term, renewal, channel deals, true-ups, co-terms, Starter/Bronze End of Availability, SuperSonics, Professional Services), Non-Standard Quotes (Contract Resets, Concurrent Subscriptions, Multi-year Deals, Ramp deals), Alliance Marketplace Private Offers, and more.  |
 | [Sales Order Processing](/handbook/sales/field-operations/order-processing/) | Account and opportunity creation, quote configuration, approvals process, opportunity booking requirements, closing an opportunity. |
 | [Internal Support](/handbook/support/internal-support/) | Submitting all requests around licensing, subscription, trials, and grace periods. |
-| [Licensing FAQ](/pricing/licensing-faq/) | Common questions around purchasing, licensing, billing, contacting sales, and more |
+| [Licensing FAQ](https://about.gitlab.com/pricing/licensing-faq/) | Common questions around purchasing, licensing, billing, contacting sales, and more |
 | [Finance and Legal Authorization Matrix](/handbook/finance/authorization-matrix/) | |
 | [Trade Compliance](/handbook/legal/trade-compliance/) | |
 | [Billing, invoice and payment requests](/handbook/support/license-and-renewals/workflows/billing_contact_change_payments.html) | Zuora contact change, Zuora entity change and effects on SM/SaaS subscriptions, cancellations, downgrades, refunds, invoices, payments, credit card removals, renewal reversals, split payment requests |
 | [Troubleshooting: True Ups, licenses + EULAs](/handbook/business-technology/enterprise-applications/quote-to-cash/troubleshooting/) | |
 | [Quote-to-Cash systems documentation (EntApps)](/handbook/business-technology/enterprise-applications/quote-to-cash/) | Overview of systems, EntApps Architecture, Process Flow Diagrams, Entity Relationship Diagrams |
 | [Quote-to-Cash process](/handbook/business-technology/enterprise-applications/quote-to-cash/#quote-to-cash-introduction) | EntApps documentation including systems and process diagrams. |
-
-## Helpful data links
-
-1. [Supersonics dashboard (Cloud Licensing, QSRs, Auto-renewal, operational data sync)](https://app.periscopedata.com/app/gitlab:safe-dashboard/919356/Supersonics-Executive-Dashboard) - **Limited Access**
-1. [L&R Ticket Ratio](https://app.periscopedata.com/app/gitlab:safe-dashboard/919342/SM-SaaS-Subscription-to-L&R-Ticket-Ratio) **Limited Access**
-1. [Version Upgrade Rate](https://app.periscopedata.com/app/gitlab/406972/Version-Upgrade-Rate) **Not Public**
 
 ## How to connect with us
 
@@ -124,32 +118,28 @@ Please keep in mind:
 
 ## Temporary renewal extensions
 
-*Last updated on 2024-01-17.*
+*Last updated on 2024-03-22.*
 
-| Use Case | Status |
-|---|---|
-| Temporary extensions for **Self-Managed** renewals | Development of this feature is complete, [BETA](#beta-rollout) is in progress. |
-| Temporary extensions for **SaaS** renewals | Development of this feature is complete, and is included in [BETA](#beta-rollout) as of 2024-01-17. |
+Temporary extensions for **Self-Managed** & **SaaS** renewals are now generally available for eligible renewal opportunities 
 
 In the event that a renewal process takes longer then intended (e.g. customer takes longer than average to sign renewal deal), customers run into a problem when their license expires at the subscription term end and they lose complete access to their GitLab instance (Self-managed or SaaS).
 
-Temporary Renewal Extension is an internal feature built in SFDC, and is accessible from a Renewal Opportunity. It enables any Sales Rep to generate the extension on their own, without contacting Support. Extension can be generated 1-15 days before subscription end date, with a default expiration date of 21 days after subscription end date (followed by the [grace period of 14 days](https://docs.gitlab.com/ee/subscriptions/self_managed/#subscription-expiry)).
+Temporary Renewal Extension is an internal feature built in SFDC, and is accessible from a Renewal Opportunity. It enables any Sales Rep to generate the extension on their own, without contacting Support. Extension can be generated 1-15 days before subscription end date or 1-13 days after subscription end date, with a default expiration date of 21 days after subscription end date (followed by the [grace period of 14 days](https://docs.gitlab.com/ee/subscriptions/self_managed/#subscription-expiry)).
 
 Additional context about this feature can be found [here](https://gitlab.com/groups/gitlab-org/-/epics/10173), including a [visual timeline](https://gitlab.com/groups/gitlab-org/-/epics/10173#timeline-of-events) of subscription events related to the temporary renewal extensions.
 
-Please share your feedback about this feature in [this issue](https://gitlab.com/gitlab-org/fulfillment/meta/-/issues/1514).
+Please share your feedback about this feature in [this issue](https://gitlab.com/gitlab-org/fulfillment/meta/-/issues/1728).
 
-### Beta rollout
 
-BETA access to **temporary extensions for Self-Managed renewals** is being rolled via [this issue](https://gitlab.com/gitlab-com/sales-team/field-operations/systems/-/issues/4544) (confidential).
+### Creating an extension (from SDFC)
 
-### Creating an extension
+Please watch SM demo [SM demo video](https://www.youtube.com/watch?v=ENRtOQ0DbkM) or [Gitlab.com/Saas video](https://drive.google.com/file/d/1HGGf8IH5fRt4ftB0pKZfHpb7owECItjX/view) for an overview of creating an extension. 
 
-Please watch [this video](https://www.youtube.com/watch?v=ENRtOQ0DbkM) for an overview of creating an extension. The process is also described below.
+The process of creating the temporary renewal extension from SDFC is also described below
 
 1. Go to the SFDC Renewal Opportunity that needs additional processing time.
-1. Click on `Request Temporary License` button. *If you are not part of the beta group, you will see an error message.*
-1. Temporary License form will load, and display the related OpportunityID and ZuoraSubscriptionID.
+1. Click on `Request Temporary Extension` button.
+1. Temporary Renewal Extension form will load, and display the related OpportunityID and ZuoraSubscriptionID.
 1. Select `Reason` from the drop down, specify number of `Users` for the license, add optional `Notes`, then click `Next`.
    1. If creating a temporary renewal extension for SaaS subscription, the number of `Users` is irrelevant - extension will be created for the same number of users as the current subscription.
 1. Once the extension is created, you will see a success message. Otherwise, you will see an [error message](add-link).
@@ -181,7 +171,7 @@ Once subscription is renewed, the `Access temporarily extended until YYYY-MM-DD`
 
 | Error | Description |
 |---------|-----------|
-| Request date is not within the allowable range of 15 days prior to subscription term end date | Temporary extension must be created 1-15 days before subscription end date. |
+| Temporary extension can be requested 15 days prior to subscription expiry up until 13 days after subscription expiry | Temporary extension must be created 15 days before subscription end date or up to 13 days after subscription end date. |
 | Subscription has already availed an extension in the current renewal term | There can only be one 21-day temporary extension per renewal. No additional extensions are allowed. |
 | Subscription has an upcoming extension starting on YYYY-MM-DD | There is an existing temporary extension for the renewal, which hasn't started yet. |
 | Customer account labeled as having bad debt | Billing team has identified this account as having bad debt. You will see either of these fields populated on the Zuora Billing Account: `Support hold`, `Credit hold`. |
@@ -775,7 +765,7 @@ Our [service usage data](/handbook/legal/privacy/customer-product-usage-informat
 
 **Can a customer send subscription data ad-hoc, while keeping their GitLab instance airgapped/not connected to the internet?**
 
-Please see [Offline Cloud Licensing](/pricing/licensing-faq/cloud-licensing/#offline-cloud-licensing) for more information.
+Please see [Offline Cloud Licensing](https://about.gitlab.com/pricing/licensing-faq/cloud-licensing/#offline-cloud-licensing) for more information.
 
 
 ## Fulfillment Roadmap Prioritization

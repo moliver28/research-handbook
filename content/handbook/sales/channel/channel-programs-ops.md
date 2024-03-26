@@ -47,6 +47,89 @@ The Admin console capabilities include:
 4. Training courses and exams are available for partners in the Portal.  The courses are maintained by Field Enablement and Channel Programs.  Once the GitLab LXP is rolled out to partners, partners will access the LXP through the portal via single sign-on.
 5. Journeys are set up to assign a partner a set of specific tasks and activities.  For example, new partner users are assigned an onboarding Journey.  Journeys are set up and maintained by the Channel Programs team.
 
+## New Channel Partner Application Process
+
+**Reseller, Integrator, MSP, Training, Services and Referral ONLY.**
+
+
+### New Partner Sign-Up (Channel Partner Application)
+
+
+
+* Request Portal Access
+* Partner Company Category > Channel Partner Application
+* Partner will fill out Long-Form Contact Information
+* Partner will automatically go into Pending Status
+* Pending Status email will be sent to the registered partner email address
+* Notification Emails will be sent to each Partner Team’s region for each applicant in their region 
+
+
+### Pending Status
+
+
+
+* Pending Partners can be found in Impartner under Applicants Tab
+* Pending Partners will stay in Pending Status until Approved or Denied
+
+
+### Approval Process (Partner Vetting Process)
+
+
+
+* PAM/PTM Notification Email 
+* Follow [Partner Vetting Process](https://docs.google.com/document/d/10UitoYs2wL5bWh1ktSrM5rZxXXgmUDN49msMWcdMYK0/edit#heading=h.khaqbs6riuh9)
+* Pending Partner will either be Approved or Denied 
+
+
+### Partner Approved
+
+
+
+* Select Pending partner application
+* Select “APPROVE” of “DENY”
+* Confirm Account: **Primary Vertical** is Selected
+    1. Pending Account > Standard Registration Form > Primary Vertical > (7) Options
+    2. If Blank, Select **Commercial** option
+* Select **Approve **within Step 4: Pending Box
+* Next Window: 
+    3. Select **Partner** from the **Assigned Level** drop-down
+    4. Select **Approved** from the **Assigned Status** drop-down
+    5. Click **APPROVE **button
+* Partner will be Approved and sent an email with their log-in information
+
+
+### Partner Denied 
+
+
+
+* Select Pending partner application
+* Select “DENY”
+
+
+### Partner Click-Through Agreement 
+
+
+
+* Partner receives an email with their log-in information
+* Once Partner logs in they will be prompted to Read and Agree to GitLab’s Click-Through Partner Agreement
+* Once Agreed, the partner will have access to the partner portal to being the Welcome Onboarding Journey
+* Partners will not be able to fully access the partner portal without Agreeing to the Partner Agreement 
+* 
+
+**Q:  Partner says “I’m not able to login” or “my account has been deactivated”**
+
+**A:  **This could be due to a partner not being registered or an individual thinking they registered before. Or it could be an Alliance partner, those partners currently don’t get portal access. Otherwise, we could’ve deactivated them due to inactivity. Try one of these:
+
+
+
+1. Check to see if the user exists in Impartner.  
+    * If not, have them register at partners.gitlab.com. 
+    * If yes, proceed to the next step.
+2. On the Partner Account, check the Partner Status. If this is not “Authorized” or “NDA”, the partner cannot login and should not be activated until they have signed a Partner Agreement. _Only set it to Authorized if the partner signed a contract._
+    * _Is Active? field right now should only be marked "true" if:_
+        * _Partner Type = Channel_
+        * _Partner Status = Authorized (or in rare cases, NDA)_
+
 ** **
 
 # Partner Support Questions

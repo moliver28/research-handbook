@@ -133,6 +133,7 @@ If at any time during the interview process a candidate is declined due to compe
   - If applicable, Round 2B: 25 minute interview with a Hiring Team member
   - If applicable, Round 3: 50 minute Executive Interview
 - The Recruiter should confirm focus areas have been assigned to the interview team. This should have been taken care of in the [REQ kick-off Issue](https://gitlab.com/gl-talent acquisition/req-intake/-/issues)
+- Interviewing is only available to full time GitLab team members. Under no circumstances should a contractor or outside third party be invited to interview a candidate or to shadow an interview.
 - The candidate should be provided clear expectations of the process, location of interviewers, timeline to hire, etc.
 - When Team Interviews have completed, follow up with the hiring manager on next steps. Depending on the level of the role and outcome of interviews, next steps may include additional interviews including an executive interview or moving to reference checks.
 

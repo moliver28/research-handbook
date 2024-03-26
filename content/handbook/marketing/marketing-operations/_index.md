@@ -27,11 +27,11 @@ Marketing Operations (MktgOps) supports the marketing organization to streamline
 | Person | Role |
 | ------ | ------ |
 | [Christine Lee](https://gitlab.com/christinelee ) | VP, Marketing Ops and Analytics |
-| [Amy Waller](https://gitlab.com/amy.waller) | [Senior Manager, Marketing Operations](/job-families/marketing/marketing-operations-manager/#senior-manager-marketing-operations) |
+| [Amy Waller](https://gitlab.com/amy.waller) | [Director, Marketing Operations](/job-families/marketing/marketing-operations-manager/#director-marketing-operations) |m
 | [Gillian Murphy](https://gitlab.com/gillmurphy) | [Manager, Marketing Operations Manager](/job-families/marketing/marketing-operations-manager/#manager-marketing-operations) |
 | [Nikki Silverberg](https://gitlab.com/nikkiroth) | [Staff Marketing Operations Manager](/job-families/marketing/marketing-operations-manager/#staff-marketing-operations-manager) |
-| [Jenny Tiemann](https://gitlab.com/jennyt) | [Senior Marketing Operations Manager](/job-families/marketing/marketing-operations-manager/#senior-marketing-operations-manager) |
-| [Robert Rosu](https://gitlab.com/RobRosu) | [Senior Marketing Operations Manager](/job-families/marketing/marketing-operations-manager/#senior-marketing-operations-manager) |
+| [Jenny Tiemann](https://gitlab.com/jennyt) | [Staff Marketing Operations Manager](/job-families/marketing/marketing-operations-manager/#staff-marketing-operations-manager) |
+| [Robert Rosu](https://gitlab.com/RobRosu) | [Staff Marketing Operations Manager](/job-families/marketing/marketing-operations-manager/#staff-marketing-operations-manager) |
 | [Mihai Conteanu](https://gitlab.com/MihaiConteanu) | [Senior Marketing Operations Manager](/job-families/marketing/marketing-operations-manager/#senior-marketing-operations-manager) |
 | [Salina Tran](https://gitlab.com/stran5) | [Senior Marketing Operations Manager](/job-families/marketing/marketing-operations-manager/#senior-marketing-operations-manager/) |
 | [Jameson Burton](https://gitlab.com/jburton) | [Marketing Operations Manager](/job-families/marketing/marketing-operations-manager/#marketing-operations-manager-intermediate) |
@@ -164,10 +164,9 @@ Categories
 
 <details>
 <summary markdown='span'>
-Collaboration with Sales Systems
+Proccess Steps with Sales Systems
 </summary>
 
-- `EntAppsCustomer: MOPS`: Used on issues that require Sales Systems support
 - `MktgOpsPrio::00: Requested`: New issues  
 - `MktgOpsPrio::01: In Approved`: Issues that have received business process owner approval
 - `MktgOpsPrio::02: In Queue - Mops`: Issues that are ready for prioritization with Sales Systems 
@@ -181,12 +180,40 @@ Collaboration with Sales Systems
 
 <details>
 <summary markdown='span'>
+Systems Related Labels
+</summary>
+
+- `EntAppsCustomer: MOPS`: Used on issues that require Sales Systems support
+
+Business Impact Labels: What business impact or subject area is driving these changes
+- `MktgImpact - Partner Lead Lifecycle` - Impacts to Vartopia and Partner Lead Lifecycle. Such as the Lead Module, Campaign Module and ROI for channel events and lead tracking.
+- `MktgImpact - Sales Enablement` - Marketing initiatives that will help Sales productivity and efficiency
+- `MktgImpact - Sales Dev Productivity` - Improves productivity of Sales Dev team, such as SLAs, and visibility
+- `MktgImpact - Product Launches` - Issues revolving around a prodct launch or release
+- `MktgImpact - Team Productivity and Efficiency` - General marketing team productivity improvements
+- `MktgImpact - Analytics and Data Quality` - Data updates or analytics needs
+- `MktgImpact - TBD` - New labels will be created for large-cross function projects, like FY25
+
+Type Labels: What type of SFDC work is required
+- `MktgType - Break/Fix`
+- `MktgType - Tool Installation / Configuration`
+- `MktgType - Package Updates`
+- `MktgType - FLS or Access`
+- `MktgType - Tech Debt`
+- `MktgType - Operational Improvements`
+
+
+</details>
+
+<details>
+<summary markdown='span'>
 Priorities
 </summary>
 
-- `MktgOpsPriority::High`: Issue that is related to a breaking change, OKR focus, any other prioritized project by MktgOps leadership. This category will be limited because not everything can be a priority. Timeframe: Immediate action needed.
-- `MktgOpsPriority::Medium`: Issue has a specific action item for MktgOps to be completed as it is an OKR. Timeframe: Within weeks
-- `MktgOpsPriority::Low`: Issue is a feature to help the team or a specific action item for MktgOps that would be helpful, but can be pushed for other issues.Timeframe: Within months
+- `MktgOpsPriority:: 00-Urgent`: Issue that is related to a breaking change, security issue or business critical item. This category will be limited because not everything can be a priority. Timeframe: Immediate action needed.
+- `MktgOpsPriority:: 01-High`: Issue that is related to a breaking change, OKR focus, any other issue of high business value.  Timeframe: Action within milestone
+- `MktgOpsPriority:: 02-Medium`: Issue has a specific action item for MktgOps to be completed. Timeframe: Within weeks
+- `MktgOpsPriority:: 03-Low`: Issue is a feature to help the team or a specific action item for MktgOps that would be helpful, but can be pushed for other issues.Timeframe: Within months
 
 </details>
 
@@ -210,7 +237,6 @@ Stage
 
 
 ### Milestones
-{: .no_toc}
 
 The MktgOps team works in two week iterations which are tracked as milestones at the `GitLab.com` level. Each individual contributor (IC) is responsible for adding issues to the milestone that will be completed in the two-week time frame. If needed, the IC will separate the main issue into smaller pieces that are _workable_ segments of the larger request.
 
@@ -350,7 +376,6 @@ Insights from Discovery research calls will be used to inform the Marketing Oper
 ## <i class="fas fa-toolbox" id="biz-tech-icons"></i> Marketing Technology Stack
 
 ### Marketing Technology Tiering System
-{: .no_toc}
 
 The Marketing Operations team maintains the [Marketing technology tiering system](/handbook/marketing/marketing-operations/marketing-technology-tiering-system/) in order to prioritize requests, provide support, and optimize processes.
 
@@ -384,39 +409,38 @@ Below are tools in the Marketing Technology stack, organized by tier.
 #### Operational Technology - Tier 2
 
 - [Allocadia](/handbook/marketing/strategy-performance/allocadia/)
-- Base
+- Base (Customer Reference)
 - [Hightouch](/handbook/marketing/marketing-operations/hightouch/)
 - [LinkedIn Sales Navigator](/handbook/sales/training/social-selling/)
-- [MailJet](/handbook/marketing/marketing-operations/mailjet/)
-- [OneTrust](/handbook/marketing/digital-experience/onetrust/)
+- [OneTrust](/handbook/marketing/digital-experience/onetrust/) (DEX)
 - [RingLead](/handbook/marketing/marketing-operations/ringlead/)
-- Integrate DAP
+- Integrate DAP (Digital Strategy - Campaigns)
 
 #### Management Technology - Tier 3
 
 - [Litmus](/handbook/marketing/marketing-operations/litmus)
 - [Reachdesk](/handbook/marketing/marketing-operations/reachdesk/)
-- Google Analytics (Search Discovery)
+- Google Analytics (Search Discovery/Further) (DEX)
 - Survey Monkey
 - [Terminus Email Experiences](/handbook/marketing/marketing-operations/terminus-email-experiences)
 - [Typeform](/handbook/marketing/marketing-operations/typeform/)
 
 #### Functional Technology - Tier 4
 
-- [Bitergia](/handbook/marketing/developer-relations/workflows-tools/#tool-stack-overview)
-- [Canva](handbook/marketing/brand-and-product-marketing/design/#canva-best-practices)
+- [Bitergia](/handbook/marketing/developer-relations/workflows-tools/#tool-stack-overview) (Developer Relations)
+- [Canva](handbook/marketing/brand-and-product-marketing/design/#canva-best-practices) (Brand)
 - Cision
-- [Common Room](/handbook/marketing/developer-relations/workflows-tools/#tool-stack-overview)
+- [Common Room](/handbook/marketing/developer-relations/workflows-tools/#tool-stack-overview) (Devoper Relations)
 - ContentKing
-- Frame.io
-- Figma
+- Frame.io (Brand)
+- Figma (UX)
 - [Launch Darkly](handbook/marketing/digital-experience/engineering-ab-tests/)
 - [MeetUp](/handbook/marketing/developer-relations/workflows-tools/#tool-stack-overview)
-- Quantum Metric
-- [SEMRush](/handbook/marketing/inbound-marketing/search-marketing/seo-strategy/)
-- SheerID
+- [Quantum Metric](https://handbook.gitlab.com/handbook/business-technology/tech-stack/#quantum-metric) (DEX)
+- [SEMRush](/handbook/marketing/inbound-marketing/search-marketing/seo-strategy/) (Search Marketing)
+- [SheerID](https://handbook.gitlab.com/handbook/business-technology/tech-stack/#sheerid) (Community Programs)
 - [Sprout Social + Bambu](/handbook/marketing/integrated-marketing/digital-strategy/social-marketing/team-member-social-advocacy/#team-member-social-media-advocacy-and-enablement)
-- [Vimeo](/handbook/marketing/marketing-operations/vimeo/)
+- [Vimeo](/handbook/marketing/marketing-operations/vimeo/) (Brand)
 - [Zendesk Community](/handbook/marketing/developer-relations/workflows-tools/#tool-stack-overview)
 
 
@@ -427,12 +451,10 @@ To request access to an existing tool in the stack, [please follow the access re
 If you are working with a contractor or consultant that requires access to a tool in our stack, [please follow the professional services access request process](/handbook/finance/procurement/) as outlined in the procurement handbook.
 
 ## Tool User Management
-{: .no_toc}
 
 Technical owners should perform quarterly, bi-quaterly and, for some tools, monthly user audits. If a team member has not been actively taking advantage of a tool for 45 days (30 days for Zoominfo) or more, they will have access to that tool revoked with 5 business days of notification via email or slack (for Zoominfo). Activity will be determined by user reports pulled by the tools' technical owner. These reports can be found by viewing issues from the Marketing Ops project with the issue label `Mktg Tool Audit`. The reports will utilize the audit issue template from the Marketing Ops project. To regain access to revoked tools, the team member will need to submit a new access request and follow standard access request procedures. However, user seats will be on a first-come-first-serve basis unless it is determined additional seats should be purchased.
 
 ### Tech Stack Status Pages
-{: .no_toc}
 
 Below is a collection of links leading to status pages of several listed MktgOps DRI tools. Unclickable links did not offer **official** status pages during the 2023 review of available webpages, but there are several **unofficial** and **unaffiliated** websites that offer webpage uptime checking as a service, e.g. www.isitdownrightnow.com, www.downdetector.com and www.downforeveryoneorjustme.com. Feel free to search on these sites during a perceived downtime, but keep in mind it may not be as accurate as an official source. 
 
@@ -464,7 +486,6 @@ Click to see dropdown list of available status page URLs.
 </details>
 
 ### Renewal process for marketing technology budget owners
-{: .no_toc}
 
 - Renewal discussion timing is determined by tier.
 - For new software that has been approved create a business case to attach to the Zip Request ([example](https://gitlab.com/gitlab-com/marketing/marketing-operations/-/issues/6171)).
@@ -479,7 +500,6 @@ Align with Procurement and Finance:
 Marketing Operations role:
 - Marketing Operations will help to define requirements and be a trusted advisor.
 - Submit an issue ([example](https://gitlab.com/gitlab-com/marketing/marketing-operations/-/issues/6513#note_1079813146)) for new software evaluations.
-
 
 
 ## MarTech Change Management 
@@ -553,8 +573,6 @@ Marketing Ops is responsible for maintaining the email marketing database. Go to
 
 `Initial Source` is the first "known" touch attribution or when a website visitor becomes a known name in our database, once set it should never be changed or overwritten. For this reason Salesforce is set up so that you are unable to update the `Initial Source` field. If merging records, keep the `Initial Source` that is oldest (or set first). When creating Lead/Contact records and you are unsure what `Initial Source` should be used, ask in the `#mktgops` Slack channel. `Initial Source` in Marketo is named `Person Source`, and should only update when empty.
 
-We use Source Buckets to group Sources into acquisition channels. These groups are: core, inbound, outbound, paid demand gen, purchased list, referral, virtual event, and web direct. When using the [TD - Marketing Metrics dashboard](https://app.periscopedata.com/app/gitlab/798262/TD---Marketing-Metrics) reports can be filterd by these source buckets.
-
 The values listed below are the only values currently supported. If you attempt to upload or import leads or contacts into Salesforce without one of these initial sources you will encounter a validation rule error. If you think that there needs to be a new Initial Source added to this list and into Salesforce please [open an issue](https://gitlab.com/gitlab-com/marketing/marketing-operations/-/issues/new) with the marketing ops team. When a new initial source is added, the bucket must also be updated in a SFDC workflow to properly show in Sisense.
 
 Status in the table below means:
@@ -616,6 +634,7 @@ Status in the table below means:
 |Free Registration|core| Sign up via Free User registration|Active|
 |Paid Social|inbound|Sourced from Paid Social Campaigns|Active|
 |Vendor Arranged Meetings|paid demand gen| Registered or attended a vendor arranged meeting|Active|
+| Trust Center | inbound | Requested access to the GitLab [Trust Center](https://handbook.gitlab.com/handbook/security/security-assurance/field-security/trust_center_guide/) | Active |
 
 | Source | Source Bucket | Definition and/or transition plan | Status* |
 | ------ | ------------- | --------------------------------- | ------- |

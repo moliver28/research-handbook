@@ -12,7 +12,7 @@ The Observability group is part of the GitLab [Monitor stage](/handbook/engineer
 
 ### Stable counterparts
 
-{{< stable-counterparts manager-role="Engineering Manager(.*)Monitor:Observability" role="Principal(.*)Monitor|Security(.*)Monitor" >}}
+{{< stable-counterparts manager-role="Engineering Manager(.*)Monitor:Observability" role="Product(.*)Observability|Principal(.*)Monitor|Security(.*)Monitor" >}}
 
 ## Technical Architecture
 
@@ -26,6 +26,11 @@ The Observability group is part of the GitLab [Monitor stage](/handbook/engineer
 ### Architecture Documentation
 
 * See [this page](https://gitlab.com/gitlab-org/opstrace/opstrace/-/tree/main/docs/architecture)
+
+### Project Links
+
+* [Top-level Epic](https://gitlab.com/groups/gitlab-org/opstrace/-/epics/92)
+* [Source Code Repository](https://gitlab.com/gitlab-org/opstrace/opstrace)
 
 ### ClickHouse Datastore
 
@@ -66,13 +71,17 @@ We use several Slack channels to organize ourselves:
 
 ### How we do planning?
 
-We are following the monthly milestone cadence. Work is organized into [epics](https://gitlab.com/groups/gitlab-org/opstrace/-/epics/92 "Observability Group - FY25 HQ") and assigned to the relevant milestones:
+We are following the monthly milestone cadence. Work is organized into [epics](https://gitlab.com/groups/gitlab-org/opstrace/-/epics/92 "Observability Group - FY25 HQ") and assigned to the relevant milestones.
 
-- Two weeks before the beginning of the Milestone, the EM or PM start a [new planning issue ](https://gitlab.com/gitlab-org/opstrace/general/-/issues/?sort=updated_desc&state=all&label_name%5B%5D=Planning%20Issue&first_page_size=20)and define high level milestone goals.
-- Individual contributors recommend epics and issues related to these goals or carried over from previous milestones.
-- One week before the beginning of the milestone, milestone goals and related epics and issues should be finalized and prioritized.
-- All Planning work can be seen on the [Planning Board](https://gitlab.com/groups/gitlab-org/opstrace/-/boards/3657448)
-- Throughout the Milestone we analyze progress and reprioritize as needed.
+Milestone starting date is defined in [gitlab.org group milestones](https://gitlab.com/groups/gitlab-org/-/milestones?search_title=17.0&state=&sort=). It changes every month, according to the [new GitLab release calendar](https://about.gitlab.com/blog/2023/09/18/gitlab-release-date-change/).
+
+Milestone Planning timeline:
+- 10 days before milestone starting date: Planning [draft issue](https://gitlab.com/gitlab-org/opstrace/general/-/issues/?sort=updated_desc&state=all&label_name%5B%5D=Planning%20Issue&first_page_size=20) is created by PM/EM, with high level milestone goals.
+- 8 days before milestone starting date: Planning draft is shared with team. Individual contributors recommend epics and issues related to these goals or carried over from previous milestones.
+- 5 days before milestone starting date: Planning is reviewed during team sync meeting.
+- On milestone starting date: Milestone goals and related epics and issues should be finalized and prioritized. All planned work can be seen on the [Planning Board](https://gitlab.com/groups/gitlab-org/opstrace/-/boards/3657448) Previous milestone issues are moved to the new milestone or backlog.
+- During the milestone, we analyze progress and reprioritize as needed.
+
 
 ### How to find something to work on
 
@@ -89,34 +98,21 @@ If you are ever looking for additional issues to work on:
 7. Once you are done with the issue, make sure any relevant MRs are linked and close the issue.
 8. Repeat.
 
-## Weekly Project Plan for Tracing
-
-Epic: https://gitlab.com/groups/gitlab-org/opstrace/-/epics/73
-
-**Week of 2023-10-23**
-
-- [Show all span attrs in details drawer](https://gitlab.com/gitlab-org/opstrace/opstrace/-/issues/2388 "Show all span attributes in details drawer")
-
-**Week of 2023-11-06**
-
-- [Add Tracing Documentation with Beta features](https://gitlab.com/gitlab-org/opstrace/opstrace/-/issues/2439 "Update Tracing documentation with beta features")
-
-**Week of 2023-11-13**
-
-- [Sort traces by recency & duration](https://gitlab.com/gitlab-org/opstrace/opstrace/-/issues/2385 "Sort traces by recency & duration")
-- [Show traces for search that matches root and child spans](https://gitlab.com/gitlab-org/opstrace/opstrace/-/issues/2381 "Show context for why trace is shown in filtered list")
-
-**Week of 2023-11-20**
-
-- [ClickHouse Cloud Migration completed](https://gitlab.com/groups/gitlab-org/opstrace/-/epics/82 "Clickhouse cloud migration")
-
-**Week of 2023-11-27**
-
-**Week of 2023-12-04**
-
-- [Accepted Production readiness review for Tracing](https://gitlab.com/gitlab-com/gl-infra/readiness/-/issues/91 "Readiness review: Observability Tracing")
-
 ## Dashboards
 
-{{% cross-functional-dashboards filters="Observability" %}}
+{{< tableau height="600px" toolbar="hidden" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/TopEngineeringMetrics/TopEngineeringMetricsDashboard" >}}
+  {{< tableau/filters "GROUP_LABEL"="observability" >}}
+{{< /tableau >}}
+
+{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/MergeRequestMetrics/OverallMRsbyType_1" >}}
+  {{< tableau/filters "GROUP_LABEL"="observability" >}}
+{{< /tableau >}}
+
+{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/Flakytestissues/FlakyTestIssues" >}}
+  {{< tableau/filters "GROUP_NAME"="observability" >}}
+{{< /tableau >}}
+
+{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/SlowRSpecTestsIssues/SlowRSpecTestsIssuesDashboard" >}}
+  {{< tableau/filters "GROUP_LABEL"="observability" >}}
+{{< /tableau >}}
 

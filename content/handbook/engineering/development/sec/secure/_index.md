@@ -27,7 +27,7 @@ The Secure team works on GitLab's [Secure stage].
 
 ## Sub-department development people leaders
 
-{{< stable-counterparts role="Director(.*)Secure|Manager(.*)Secure$|Staff(.*)Secure" >}}
+{{< team-by-manager-slug manager="thomaswoodham" team="Manager(.*)Secure" >}}
 
 To contact Secure stage development people leaders leaders use the following aliases:
 
@@ -177,7 +177,7 @@ Note: Our goal is to centralize automation for vulnerability management in the [
 
 <details>
   <summary>View manual process fallback when automation fails</summary>
-  
+
   #### Manually reviewing and resolving vulnerabilities
 
   On a weekly basis: review the vulnerability report to resolve no longer detected ones and close related issues. Note: It is not necessary to investigate vulnerabilities that are no longer detected.
@@ -220,7 +220,7 @@ To ensure compliance, the management of FedRAMP vulnerabilities is handled by [a
 
 ###### Non-FedRAMP vulnerabilities
 
-We do not yet have the same automation in place for non-FedRAMP vulnerabilities since it represents a too important volume to manage for our teams and some necessary [improvements in the vulnmapper tool](https://gitlab.com/gitlab-com/gl-security/threatmanagement/vulnerability-management/vulnerability-management-internal/vulnmapper/-/milestones/4#tab-issues) are required prior to enabling this. 
+We do not yet have the same automation in place for non-FedRAMP vulnerabilities since it represents a too important volume to manage for our teams and some necessary [improvements in the vulnmapper tool](https://gitlab.com/gitlab-com/gl-security/threatmanagement/vulnerability-management/vulnerability-management-internal/vulnmapper/-/milestones/4#tab-issues) are required prior to enabling this.
 In the meantime, we favor a more specialized approach for these vulnerabilities and there is no standardized process across the groups.
 
 #### Error Monitoring
@@ -374,38 +374,7 @@ The author of changes should announce broadly the changes made on these componen
 
 ### Development of new analyzers
 
-We occasionally need to build out new analyzer projects to support new frameworks and tools.
-In doing so we should follow [our engineering Open Source guidelines](/handbook/engineering/open-source/),
-including licensing and [code standards](https://docs.gitlab.com/ee/development/go_guide).
-
-In addition, to write a custom analyzer that will integrate into the GitLab application
-a minimal featureset is required:
-
-#### Checklist
-
-##### Underlying tool
-
-- [ ] Has [permissive software license](/handbook/engineering/open-source/#using-open-source-software)
-- [ ] Headless execution (CLI tool)
-- [ ] Bundle-able dependencies to be packaged as a Docker image, to be executed using GitLab Runner's [Linux or Windows Docker executor](https://docs.gitlab.com/runner/executors/docker.html)
-- [ ] Compatible projects can be detected based on filenames or extensions
-- [ ] Offline execution (no Internet access) or can be configured to use custom proxies and/or CA certificates
-
-##### Dockerfile
-
-The `Dockerfile` should use an unprivileged user with the name `gitlab`. The reason this is necessary is to provide compatibility with Red Hat OpenShift instances, which don't allow containers to run as an admin (root) user. There are certain limitations to keep in mind when running a container as an unprivileged user, such as the fact that any files that need to be written on the Docker filesystem will require the appropriate permissions for the `gitlab` user. Please see the following merge request for more details: [Use gitlab user instead of root in Docker image](https://gitlab.com/gitlab-org/security-products/analyzers/gemnasium/-/merge_requests/130).
-
-##### Minimal vulnerability data
-
-Please see [our security-report-schemas](https://gitlab.com/gitlab-org/security-products/security-report-schemas/-/blob/master/src/security-report-format.json) for a full list of required fields.
-
-The [security-report-schema](https://gitlab.com/gitlab-org/security-products/security-report-schemas) repository contains JSON schemas that list the required fields for each report type:
-
-- [Container Scanning](https://gitlab.com/gitlab-org/security-products/security-report-schemas/-/blob/master/dist/container-scanning-report-format.json)
-- [DAST](https://gitlab.com/gitlab-org/security-products/security-report-schemas/-/blob/master/dist/dast-report-format.json)
-- [Dependency Scanning](https://gitlab.com/gitlab-org/security-products/security-report-schemas/-/blob/master/dist/dependency-scanning-report-format.json)
-- [SAST](https://gitlab.com/gitlab-org/security-products/security-report-schemas/-/blob/master/dist/sast-report-format.json)
-- [Secret Detection](https://gitlab.com/gitlab-org/security-products/security-report-schemas/-/blob/master/dist/secret-detection-report-format.json)
+For a complete guide about developing a new analyzer please refer to our [user documentation](https://docs.gitlab.com/ee/development/sec/analyzer_development_guide.html#development-of-new-analyzers)
 
 ## Technical Documentation
 
@@ -431,23 +400,23 @@ NB: we use to have a sub-department wide retrospective whose issues are still ac
 
 The Secure group reviews analytics to help understand customers and their usage of the tools. This data helps drive product and technical decisions.  The following links show usage of Secure functionality.
 
-- https://app.periscopedata.com/app/gitlab/895813/Secure-Scan-metrics
+[Secure Scan Metrics Dashboard](https://10az.online.tableau.com/t/gitlab/views/PDSecureScanMetrics_17090087673440/SecureScanMetrics)
 
 ## Cross-functional Backlog
 
-**[Sisense](https://app.periscopedata.com/app/gitlab/1000952/Interdepartment-Embedded-Dashboard)**
-
 We also track our backlog of issues, including past due security and infradev issues, and total open SUS-impacting issues and bugs.
 
-{{< sisense-with-filters dashboard="1000952" Stage="secure" visible="team_group,stage,development_section" >}}976854
+{{< tableau height="600px" toolbar="hidden" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/TopEngineeringMetrics/TopEngineeringMetricsDashboard" >}}
+  {{< tableau/filters "STAGE_LABEL"="secure" >}}
+{{< /tableau >}}
 
 ## Merged Merge Request Types
 
-**[Sisense](https://app.periscopedata.com/app/gitlab/976854/Merge-Request-Types-Detail)**
-
 MR Type labels help us report what we're working on to industry analysts in a way that's consistent across the engineering department. The dashboard below shows the trend of MR Types over time and a list of merged MRs.
 
-{{< sisense-with-filters dashboard="976854" Stage="secure" visible="team_group,stage,development_section" >}}
+{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/MergeRequestMetrics/OverallMRsbyType_1" >}}
+  {{< tableau/filters "STAGE_LABEL"="secure" >}}
+{{< /tableau >}}
 
 ## Common Links
 

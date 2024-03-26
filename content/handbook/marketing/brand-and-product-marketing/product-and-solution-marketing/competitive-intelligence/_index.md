@@ -13,7 +13,7 @@ title: "Competitive Intelligence"
 
 The Competitive Intelligence function at GitLab has two primary constituencies (1) Our prospects and customers (2) Our sales organization, which includes partners who assist in sales efforts.
 
-**Prospects and Customers**:  In keeping with a GitLab core value of **[transparency](/handbook/values/#transparency)**, Competitive Intelligence will ensure that anyone looking to an end-to-end DevOps solution has the information they need to make the right and unbiased decisions that serve the customer's business goal.  To this end, all our product comparison pages are un-gated and available at **[DevOps Tools Comparison Pages](/competition/)**.  GitLab believes that transparency of competitive intelligence creates a well informed customer and gives  teams the information to be successful during their DevOps journey.
+**Prospects and Customers**:  In keeping with a GitLab core value of **[transparency](/handbook/values/#transparency)**, Competitive Intelligence will ensure that anyone looking to an end-to-end DevOps solution has the information they need to make the right and unbiased decisions that serve the customer's business goal.  To this end, all our product comparison pages are un-gated and available at **[DevOps Tools Comparison Pages](https://about.gitlab.com/why-gitlab/)**.  GitLab believes that transparency of competitive intelligence creates a well informed customer and gives  teams the information to be successful during their DevOps journey.
 
 **Sales Team**: Another GitLab core value is **[results](/handbook/values/#results)**.  Sales is a key constituency that helps GitLab achieve results.  Hence parts of the Competitive Intelligence material is targeted at helping our sales teams effectively sell to our prospects, thereby delivering value that fulfills the customer's business needs.
 
@@ -29,7 +29,7 @@ The competitive intelligence team brings timely and insightful analysis of compe
 
 ## Comparison Assets - Externally-facing
 
-All our comparison assets - pages that compare other vendor products with GitLab are found in the **[DevOps Tools Landscape page](https://about.gitlab.com/devops-tools/)** and the **[DevOps Maturity Comparison chart](/competition/)**
+All our comparison assets - pages that compare other vendor products with GitLab are found in the **[DevOps Tools Landscape page](https://about.gitlab.com/devops-tools/)** and the **[DevOps Maturity Comparison chart](https://about.gitlab.com/why-gitlab/)**
 
 These assets have two different purposes:
 - The DevOps Tools Landscape visualizes how we consider ourselves in each stage, ranking GitLab compared to the Best In Class competitors for each stage.
@@ -126,7 +126,7 @@ At GitLab, anyone can contribute to the Competitive Intelligence process.   We s
 
 ## Competitors and Products with overlapping functionality
 
-GitLab exists in an ecosystem of **[DevOps tools](/competition/)** and might need to interact with any number of these tools. Many have over-lapping capabilities, but that does not mean that we necessarily directly compete with them. A user would need to patch together multiple solutions from this list in order to get all the functionality that is built-in to GitLab as a **[single application for end-to-end DevOps](/)**.
+GitLab exists in an ecosystem of **[DevOps tools](https://about.gitlab.com/why-gitlab/)** and might need to interact with any number of these tools. Many have over-lapping capabilities, but that does not mean that we necessarily directly compete with them. A user would need to patch together multiple solutions from this list in order to get all the functionality that is built-in to GitLab as a **[single application for end-to-end DevOps](https://about.gitlab.com)**.
 
 We tend to include those products also in the DevOps Tools comparison pages so customers have a comprehensive understanding of how we view the full landscape, not necessarily in competitive terms. Refer to this handbook page for more information on [who GitLab competes with](/handbook/product/gitlab-the-product/#who-gitlab-competes-with).
 
@@ -162,4 +162,4 @@ The diagram below captures the overall approach.  The idea is that for each use 
 ![Competitive Framework](compintel-strategy.png)
 
 
-[See the Solutions Marketing page](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/) for more information.  
+[See the Solutions Marketing page](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/) for more information.

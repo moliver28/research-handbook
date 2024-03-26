@@ -16,7 +16,7 @@ The purpose of this page is to document configuration of our SFDC org. This will
 
 ### Salesforce Provisioning
 
-For roles that should automatically receive Salesforce access your account and permissions will be automatically created by Okta. For anyone else who needs Salesforce access for their job responsibilities, please open an [Access Request](/handbook/business-technology/team-member-enablement/onboarding-access-requests/access-requests/).
+For roles that should automatically receive Salesforce access your account and permissions will be automatically created by Okta. For anyone else who needs Salesforce access for their job responsibilities, please open an [Access Request](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/).
 
 ### Salesforce De-Provisioning
 

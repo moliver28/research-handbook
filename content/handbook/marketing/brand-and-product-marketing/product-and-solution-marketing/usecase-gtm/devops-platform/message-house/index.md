@@ -16,7 +16,7 @@ In the spirit of [Command of the Message](/handbook/sales/command-of-the-message
 
 ## The Four Phases of DevOps
 
-As [DevOps](/topics/devops/) has evolved, so has its complexity. This complexity is driven by two factors:
+As [DevOps](https://about.gitlab.com/topics/devops/) has evolved, so has its complexity. This complexity is driven by two factors:
 
 1. Organizations are moving from monolithic architectures to microservices architectures. By using microservices, teams can work independently and move faster.
 1. As DevOps matures, organizations need more and more DevOps tools per project.

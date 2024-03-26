@@ -6,7 +6,7 @@ title: "Adding CTAs to Learn@GitLab YouTube Videos"
 
 
 ## Why?
-The YoutTube GitLab channel has the Learn@GitLab playlist on it. This playlist is comprised of the videos the Technical Marketing team creates about the customer use cases which are the basis of our Use Case GTM. To increase the value we get from these videos it is valuable to cross reference to other videos, the playlist, and to subscribe, by adding appropriate CTA's at the end of our videos.
+The YoutTube GitLab channel has the Learn@GitLab playlist on it. This playlist is comprised of the videos the Developer Advocate team creates about the customer use cases which are the basis of our Use Case GTM. To increase the value we get from these videos it is valuable to cross reference to other videos, the playlist, and to subscribe, by adding appropriate CTA's at the end of our videos.
 
 ## How to add CTAs (do all of these for each video)
 

@@ -7,13 +7,23 @@ The [`group::foundations` team](/handbook/product/categories/#foundations-group)
 
 > Note: a [Code Owners approval rule](https://docs.gitlab.com/ee/user/project/codeowners/) is in place to prevent unapproved changes to the navigation. If you have not followed this process, your Merge Request will be blocked.
 
-## What is navigation
+## What is navigation?
 
-Navigation refers to elements that aid users in moving around GitLab, which includes their organization and wayfinding clues. The navigation experience directly impacts the usability and discoverability of our features.
+Navigation refers to elements that aid users in moving around GitLab, which includes their organization and wayfinding clues. The navigation experience directly impacts the usability and discoverability of our features. This document describes how we can collectively evolve the navigation while still [meeting our goals](https://about.gitlab.com/direction/manage/foundations/navigation_settings/#navigation).
+ 
+## Why do we need to be careful when changing the navigation?
 
-Listed in [Pajamas](https://design.gitlab.com/patterns/navigation) are the elements that impact navigation.
+In the past, teams added items to highlight new features. However, this created an overwhelming navigation structure that makes it challenging for users to find what they need. Our [quarterly GitLab SUS survey](https://gitlab.com/groups/gitlab-org/-/epics/1455) continues to highlight these recurring themes:
 
-## What are navigation changes
+* The navigation is complex or confusing
+* The navigation is difficult to learn
+* The navigation is not intuitive
+
+## What kind of navigation changes require approval?
+
+While Gitlab's UX allows users to navigate across the product in different ways, the focus of the approval process is on the left-side navigation. This area serves both as navigation and as a feature discovery point for users. As the navigation evolves, it's crucial that we maintain a balance between a focus on core workflows and feature visibility. 
+
+To help maintain this balance, we ask for everyone to use this process when proposing changes to the left-side navigation:
 
 - First, second, and third-level navigation additions
 - Renaming a navigation item
@@ -64,3 +74,11 @@ After there is insight into a problem with the navigation, the Product team DRI 
 [Feature flags](https://docs.gitlab.com/ee/operations/feature_flags.html) are a great way for teams to merge changes in smaller batches without negatively impacting the user experience.
 
 When shipping navigation changes behind a feature flag, it is required to present a proposal that considers the future state with a clear, validated vision of the final outcome. We do not merge iterative navigation changes behind a feature flag without having an understanding of the end state.
+
+## Reconciliation process
+
+The navigation proposal process attempts to balance a focus on core workflows and feature visibility, which means sometimes proposal authors may disagree with the Foundations team decision. If you feel like we’ve struck the wrong balance, let’s follow the [manager mention thread process](https://handbook.gitlab.com/handbook/communication/#scaling-merge-requests-through-manager-mention-mrs-formerly-consolidated-mrs). Add a comment to the proposal and:
+
+1. Summarize why the proposal was rejected and your perspective on why this decision is incorrect
+1. Mention your manager and the Foundations PM manager
+1. Request their input on the decision

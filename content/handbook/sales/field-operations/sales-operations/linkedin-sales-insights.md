@@ -23,7 +23,7 @@ This tool is currently only accessible by Sales Ops and Sales Leadership (ASMs a
 
 You can log in to LinkedIn Sales Insights (LSI) using your regular LinkedIn username/password here: https://www.linkedin.com/sales-insights/.
 
-To request access please create an [Access Request](/handbook/business-technology/team-member-enablement/onboarding-access-requests/access-requests/#how-do-i-choose-which-template-to-use).
+To request access please create an [Access Request](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/#how-do-i-choose-which-template-to-use).
 
 ### Sales Leadership (ASMs and up) Use Cases
 

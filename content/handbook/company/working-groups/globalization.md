@@ -23,7 +23,7 @@ This Working Group has the following exit criteria:
 1. Align on top 5 priority countries with most business impact for FY24
 1. Determine DRI to operationalize on-going globalization program and playbook
 
-## FY23 Q3 CEO OKR:
+## FY23 Q3 company OKR:
 
 Deliver cross-functional revenue globalization priority frameworks and committed departmental action plans for top 5 countries.
 

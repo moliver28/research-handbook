@@ -259,7 +259,7 @@ Directs-Group is a group made up of a senior leader from each function. These le
 #### Directs-Group Selection Criteria
 
 Each Directs-Group cohort must meet the following criteria:
-1. High growth and high performance team members in good standing
+1. High growth and high performing team members in good standing
 1. Director + who are direct reports to an E-Group member
 1. Folks who consistently demonstrate [CREDIT Values](/handbook/values/)
 1. ⅓ or more of each cohort needs to be comprised of members from [underrepresented groups](/handbook/company/culture/inclusion/#examples-of-select-underrepresented-groups)

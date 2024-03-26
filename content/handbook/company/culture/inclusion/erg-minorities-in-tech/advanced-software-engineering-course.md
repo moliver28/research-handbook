@@ -36,7 +36,7 @@ Diversity, Inclusion and Belonging ([DIB]({{< ref "inclusion" >}})) are fundamen
 The GitLab instructors below have volunteered their time to create the course content that made this course possible. A special thanks goes out to each person listed below:
 
 - [Brendan O’Leary](/handbook/company/team/#brendan), Senior Developer Evangelist
-- [Michael Friedrich](/handbook/company/team/#dnsmichi), Developer Evangelist
+- [Michael Friedrich](/handbook/company/team/#dnsmichi), Developer Advocate
 - Darren Murph, Head of Remote
 - [Paul Slaughter](/handbook/company/team/#pslaughter), Senior Frontend Engineer
 - [Tim Zallmann](/handbook/company/team/#timzallmann), Director of Engineering

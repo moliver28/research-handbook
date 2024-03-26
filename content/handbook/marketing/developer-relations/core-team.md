@@ -14,7 +14,7 @@ title: "Core Team"
 
 ## Becoming a Core Team member
 
-A new member can be added to the [Core Team](/community/core-team/) at any time through the following steps:
+A new member can be added to the [Core Team](https://about.gitlab.com/community/core-team/) at any time through the following steps:
 
 1. Any Core Team member or GitLab Team member can nominate a new member from the wider community at any time using a confidential issue in [the Core Team group](https://gitlab.com/groups/gitlab-org/gitlab-core-team/-/issues) to limit any possible negative feedback in the smallest setting possible.
 2. The nominee will be added to the Core Team if they have received positive votes from two-thirds (2/3) of all current core team members within a four-week period and accept the nomination.
@@ -36,7 +36,7 @@ Anyone can open an issue in the [Core Team issue tracker](https://gitlab.com/git
 
 ## Offboarding and stepping down gracefully
 
-If you are no longer able to or interested in serving in the Core Team, you should make an announcement on the `#core` Slack channel. When you step down, you will become a [Core Team Alumni](/community/core-team/alumni/). Once a Core Team member steps down, GitLab team member(s) will start the off-boarding activities to:
+If you are no longer able to or interested in serving in the Core Team, you should make an announcement on the `#core` Slack channel. When you step down, you will become a [Core Team Alumni](https://about.gitlab.com/community/core-team/alumni/). Once a Core Team member steps down, GitLab team member(s) will start the off-boarding activities to:
 
 1. Move the individual from the `team.yml` file to the `alumni.yml` file.
 2. Create an issue in [team-member-epics/employment](https://gitlab.com/gitlab-com/team-member-epics/employment/-/issues) using the [`offboarding` template](https://gitlab.com/gitlab-com/people-group/employment-templates/-/blob/main/.gitlab/issue_templates/offboarding_core_team_member.md) and fill out the "Core Team Members" section to remove the individual from GitLab Slack, [the Core Team Group](https://gitlab.com/groups/gitlab-org/gitlab-core-team/community-members/-/group_members), gitlab-org etc.
@@ -96,7 +96,7 @@ A list of the up-to-date channels the Core should/have access to can be found in
 - competition
 - contributor-success
 - core
-- dev-evangelism-and-technical-marketing
+- dev-advocacy-team
 - developer-relations
 - developer-relations-hangout
 - development
@@ -195,7 +195,7 @@ At this time, Core Team members are not added to the [`gitlab-com` group](https:
 
 To emphasize their affiliation and closeness to the GitLab team, and to raise visibility on their profile, Core Team members can [add themselves to the GitLab team page](/handbook/editing-handbook/#add-yourself-to-the-team-page) and ask a review from any member of [Contributor Success](/handbook/marketing/developer-relations/contributor-success/#team-members).
 
-This will list their profile on [the Core Team page](/community/core-team/) as well.
+This will list their profile on [the Core Team page](https://about.gitlab.com/community/core-team/) as well.
 
 ### GitLab top tier license
 

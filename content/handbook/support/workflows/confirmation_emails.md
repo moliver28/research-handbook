@@ -27,11 +27,11 @@ Before the issue can be resolved we first need to locate the account in question
 1. Observe the results. Check if the app found an account associated with the username or email address provided by the user. If a result was returned for the username lookup only, go to the provided `Admin Link` and check what email address is listed on the account.
 1. Proceed to Step 2 under Check GitLab Admin.
 
-**If no account was found** use the Zendesk macro [`Support::SaaS::Account does not exist`](https://gitlab.com/gitlab-com/support/support-ops/zendesk-global/macros/-/blob/master/macros/active/Support/SaaS/Account%20does%20not%20exist.yaml) or, if you believe it's applicable, use [`General::Verify account self-managed or .com`](https://gitlab.com/gitlab-com/support/support-ops/zendesk-global/macros/-/blob/master/macros/active/General/Verify%20account%20self-managed%20or%20.com.yaml) and then wait for a followup from the user.
+**If no account was found** use the Zendesk macro [`Support::SaaS::Gitlab.com::Account does not exist`](https://gitlab.com/gitlab-com/support/zendesk-global/macros/-/blob/master/active/Support/SaaS/GitLab.com/Account%20does%20not%20exist.md?ref_type=heads) or, if you believe it's applicable, use [`General::Verify account self-managed or .com`](https://gitlab.com/gitlab-com/support/support-ops/zendesk-global/macros/-/blob/master/macros/active/General/Verify%20account%20self-managed%20or%20.com.yaml) and then wait for a followup from the user.
 
 ### Method 2: Check GitLab Admin
 
-1. In the GitLab SaaS Admin Area, [search for the user](https://gitlab.com/admin/users) by username to confirm the account exists. Alternatively, search in your browser using [the API](https://gitlab.com/api/v4/users?search=email@email.test) or [ChatOps](/handbook/support/workflows/chatops#user).
+1. In the GitLab.com Admin Area, [search for the user](https://gitlab.com/admin/users) by username to confirm the account exists. Alternatively, search in your browser using [the API](https://gitlab.com/api/v4/users?search=email@email.test) or [ChatOps](/handbook/support/workflows/chatops#user).
 1. Check the email address against what the user has reported and then perform one of the following fixes:
     - They likely are not receiving their confirmation email due to a suppression. See 👉 [Stage 2: Fix](#stage-2-fix).
 
@@ -45,6 +45,8 @@ Ensure the ticket has the correct:
 - Impacted email address
 
 Zendesk should automatically check for and remove a suppression if found.
+
+The automation will send out an email to the customer letting them know whether there was a suppresion on their account or not and what next steps they can take.
 
 ### Typo Fix
 

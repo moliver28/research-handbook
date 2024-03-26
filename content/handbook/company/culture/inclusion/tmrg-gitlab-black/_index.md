@@ -37,7 +37,7 @@ This group is open to all members of the GitLab community.
 
 - [Darva Satcher](/handbook/company/team/#dsatcher)
 - [Mam Joof](/handbook/company/team/#mjoof1)
-- [Erran Carrey](/handbook/company/team/#erran)
+- [Erran Carey](/handbook/company/team/#erran)
 
 ## How to Join
 

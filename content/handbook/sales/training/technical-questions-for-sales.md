@@ -12,7 +12,7 @@ description: "To improve sales efficiency, the GitLab Solution Architect team id
 
 ## **Introduction**
 
-To improve sales efficiency and reduce the dependence of GitLab sales team members on Solution Architects (SAs), the SA team identified and answered the most common technical questions they believe GitLab sales team members should be able to answer. The following questions have been organized by [DevOps lifecycle stage](/stages-devops-lifecycle/).
+To improve sales efficiency and reduce the dependence of GitLab sales team members on Solution Architects (SAs), the SA team identified and answered the most common technical questions they believe GitLab sales team members should be able to answer. The following questions have been organized by [DevOps lifecycle stage](https://about.gitlab.com/stages-devops-lifecycle/).
 
 ### Manage
 
@@ -71,7 +71,7 @@ To improve sales efficiency and reduce the dependence of GitLab sales team membe
   <iframe src="https://www.youtube.com/embed/x1_b2iqKOfI" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
 
-- **Learn more**: Administrators have more powerful user management capabilities. Check out [all the differences between GitLab.com and self-managed](/features/).
+- **Learn more**: Administrators have more powerful user management capabilities. Check out [all the differences between GitLab.com and self-managed](https://about.gitlab.com/features/).
 
 ### Manage Quiz
 
@@ -100,7 +100,7 @@ To improve sales efficiency and reduce the dependence of GitLab sales team membe
   <iframe src="https://www.youtube.com/embed/et3umKvcrX4" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
 
-- **Learn more**: Check out the [GitLab Jira Integration page](/solutions/jira/)
+- **Learn more**: Check out the [GitLab Jira Integration page](https://about.gitlab.com/solutions/jira/)
 
 
 #### What is the difference between the Jira integration in Free and in Premium?
@@ -214,7 +214,6 @@ To improve sales efficiency and reduce the dependence of GitLab sales team membe
 
 - **Short answer**: Coming soon
 - **Context video**: Coming soon
-- **Learn more**: Check out the [JFrog Artifactory vs. GitLab comparison](/competition/jfrog/)
 
 
 ### Secure
@@ -284,7 +283,7 @@ No questions at this time.
 
 - **Short answer**: Coming soon
 - **Context video**: Coming soon
-- **Learn more**: Please look at GitLab's [multi cloud support](/topics/multicloud/)
+- **Learn more**: Please look at GitLab's [multi cloud support](https://about.gitlab.com/topics/multicloud/)
 
 
 #### Does GitLab have reference architectures with sizing information?
@@ -312,14 +311,14 @@ No questions at this time.
 
 - **Short answer**: Coming soon
 - **Context video**: Coming soon
-- **Learn more**: GitLab strongly recommends downloading the Omnibus package installation since it is quicker to install, easier to upgrade, and contains features to enhance reliability not found in other methods. We also strongly recommend [at least 4GB of free RAM](https://docs.gitlab.com/ee/install/requirements.html#cpu) to run GitLab. Find out more on the [GitLab Installation page](/install/).
+- **Learn more**: GitLab strongly recommends downloading the Omnibus package installation since it is quicker to install, easier to upgrade, and contains features to enhance reliability not found in other methods. We also strongly recommend [at least 4GB of free RAM](https://docs.gitlab.com/ee/install/requirements.html#cpu) to run GitLab. Find out more on the [GitLab Installation page](https://about.gitlab.com/install/).
 
 
 #### How do customers migrate from GitLab CE to EE?
 
 - **Short answer**: Coming soon
 - **Context video**: Coming soon
-- **Learn more**: Check out the [Upgrade to Enterprise Edition page](/upgrade/)
+- **Learn more**: Check out the [Upgrade to Enterprise Edition page](https://about.gitlab.com/upgrade/)
 
 
 #### How do customers migrate from GitLab self-managed to .com?

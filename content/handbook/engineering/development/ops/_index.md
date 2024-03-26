@@ -104,7 +104,7 @@ Planning processes followed by teams in the Sub-department:
 
 ### Forced Priority planning/scheduling
 
-Our [prioritization framework](/handbook/product/product-processes/#prioritization-framework) describes a number of [Forced Priority](/handbook/product/product-processes/#forced-prioritization) labels that present a high risk to our customers and our business. As such, it's critical that we complete this work within the appropriate SLO/SLAs where possible. An example of this are security issues, here's a dashboard for past due and soon to be due security issues: https://app.periscopedata.com/app/gitlab/913607/Past-Due-Security-Issues-Development
+Our [prioritization framework](/handbook/product/product-processes/#prioritization-framework) describes a number of [Forced Priority](/handbook/product/product-processes/#forced-prioritization) labels that present a high risk to our customers and our business. As such, it's critical that we complete this work within the appropriate SLO/SLAs where possible. An example of this are security issues, here's a dashboard for past due and soon to be due security issues: https://10az.online.tableau.com/t/gitlab/views/DRAFTIssueTypesDetail/PastDueIssueList/d1401498-2050-4321-b0f4-ab51047fbeb1/1909fa14-fdf0-4682-8a07-f02d8c8d4803
 
 With this in mind, here's a process that groups are encouraged to use and iterate on in the event that they don't have an existing approach or are falling behind on SLA/SLOs.
 
@@ -158,14 +158,14 @@ These lists should include:
 
 #### Promotion Mentor for Staff+ Roles
 
-Team members who aspire to advance within our organization are advised to identify and formally request mentorship from another engineer already established in the targeted role, with work performance in good standing as deemed by their manager. Involving a mentor in the peer promotion review process is beneficial, as it ensures:
+Team members who aspire to advance within our organization are advised to identify a [mentor](/handbook/people-group/learning-and-development/mentor/) in the targeted role, and reach out to them about a mentorship. Involving a mentor in the peer promotion review process is beneficial, as it ensures:
 
 1. The feedback is informed by comprehensive understanding and relevance to the individual's development.
 1. The feedback, being familiar and constructive, will not catch the mentee off guard and will provide clear directions for improvement from peers they'd work with directly.
 
 Individuals pursuing promotion, possibly in consultation with their managers, should maintain regular communication with their mentor to evaluate progress and explore further opportunities for growth. This initiative also aims to cultivate leadership qualities among our senior Staff+ engineers.
 
-We plan to trial this optional process in Ops during Q1FY25, progress, mentors and mentee can be found in this [epic](https://gitlab.com/groups/gitlab-org/ci-cd/-/epics/6)
+We plan to trial this optional process in Ops during Q1FY25. Progress and established mentor/mentee pairs can be found in this [epic](https://gitlab.com/groups/gitlab-org/ci-cd/-/epics/6)
 
 ## Ops Hiring process
 
@@ -203,26 +203,26 @@ For projects that span many milestones we are experimenting with additional proj
 
 Key projects will be listed in the table below:
 
-| Project Name                                  | Link to Project Plan                                                                                                                                  | DRI                       |
-|-----------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------|
-| CI/CD Catalog                                 | [Project plan](/handbook/engineering/development/ops/project-plans/ci-catalog/)                                                                       | Mark Nuzzo                |
-| CI Data Partitioning                          | [Project plan](/handbook/engineering/development/ops/verify/pipeline-execution/project-plans/ci-data-partitioning/)                                   | Caroline Simpson          |
-| CI Primary Key Conversion                     | [Project plan](/handbook/engineering/development/ops/verify/pipeline-execution/project-plans/ci-pk-conversion/)                                       | Drew Stachon / Caroline Simpson |
-| Container Registry v2 Self-Managed            | [Project plan](/handbook/engineering/development/ops/project-plans/container-registry-v2/)                                                            | Crystal Poole             |
-| CI Secrets Management                         | [Project plan](/handbook/engineering/development/ops/project-plans/secrets-manager/)                                                                  | Scott Hampton             |
-| Cluster Web Terminal                          | [Project plan](/handbook/engineering/development/ops/project-plans/cluster-web-terminal/)                                                             | Nicolò Maria Mezzopera    |
-| Kubernetes Dashboard                          | [Project plan](/handbook/engineering/development/ops/project-plans/k8s-dashboard/)                                                                    | Nicolò Maria Mezzopera    |
-| Autoscaling for GitLab Runner                 | [Project Plan](/handbook/engineering/development/ops/verify/runner/project-plans/#autoscaling-provider-for-gitLab-runner-to-replace-docker-machine)   | Nicole Williams           |
-| Dedicated SaaS Runners For GitLab Dedicated   | [Project Plan](/handbook/engineering/development/ops/verify/runner/project-plans/#dedicated-saas-runners-for-gitlab-dedicated)                        | Nicole Williams           |
-| CI Steps                                      | [Project plan](/handbook/engineering/development/ops/verify/project-plans/ci-steps/)                                                                  | Cheryl Li                 |
+| Project Name                                  | Link to Project Plan                                                                                                                                  | DRI                         | [Tech Leads](/handbook/engineering/ic-leadership/tech-lead/#the-tech-lead-role)                  |
+|-----------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------| --------------------------- |
+| CI/CD Catalog                                 | [Project plan](/handbook/engineering/development/ops/project-plans/ci-catalog/)                                                                       | Mark Nuzzo                  | Fabio Pitino (transitioning to Laura Montemayor and Avielle Wolfe) |
+| CI Data Partitioning                          | [Project plan](/handbook/engineering/development/ops/verify/pipeline-execution/project-plans/ci-data-partitioning/)                                   | Caroline Simpson            | Marius Bobin                |
+| CI Primary Key Conversion                     | [Project plan](/handbook/engineering/development/ops/verify/pipeline-execution/project-plans/ci-pk-conversion/)                                       | Drew Stachon / Caroline Simpson | Tianwen Chen            |
+| Container Registry v2 Self-Managed            | [Project plan](/handbook/engineering/development/ops/project-plans/container-registry-v2/)                                                            | Crystal Poole               | Hayley Swimelar             |
+| CI Secrets Management                         | [Project plan](/handbook/engineering/development/ops/project-plans/secrets-manager/)                                                                  | Scott Hampton               | Albert Salim                |
+| Cluster Web Terminal                          | [Project plan](/handbook/engineering/development/ops/project-plans/cluster-web-terminal/)                                                             | Nicolò Maria Mezzopera      |                             |
+| Kubernetes Dashboard                          | [Project plan](/handbook/engineering/development/ops/project-plans/k8s-dashboard/)                                                                    | Nicolò Maria Mezzopera      |                             |
+| Autoscaling for GitLab Runner                 | [Project Plan](/handbook/engineering/development/ops/verify/runner/project-plans/#autoscaling-provider-for-gitLab-runner-to-replace-docker-machine)   | Nicole Williams             |                             |
+| Dedicated SaaS Runners For GitLab Dedicated   | [Project Plan](/handbook/engineering/development/ops/verify/runner/project-plans/#dedicated-saas-runners-for-gitlab-dedicated)                        | Nicole Williams             |                             |
+| CI Steps                                      | [Project plan](/handbook/engineering/development/ops/verify/project-plans/ci-steps/)                                                                  | Kamil Trzciński / Cheryl Li | Joe Burnett              |
 
 ### Completed Projects
 
-| Project Name                                  | Link to Project Plan                                                                                                                                  | DRI                       | Completed |
-|-----------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------| ------- |
-| Merge Train Improvements (Fast-Foward Support)| [Project plan](/handbook/engineering/development/ops/verify/pipeline-execution/project-plans/merge-trains/) | Caroline Simpson | FY24-Q4 |
-| O11y Distributed Tracing | [Project plan](/handbook/engineering/development/ops/monitor/observability/#weekly-project-plan) | Nicholas Klick | FY24-Q4 |
-| GCP Secrets Integration | [Project plan](/handbook/engineering/development/ops/project-plans/gcp-secrets-integration/) | Scott Hampton | FY24-Q4 |
+| Project Name                                  | Link to Project Plan                                                                                                                                  | DRI                       | Tech Leads                | Completed |
+|-----------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------| --------------------------| ------- |
+| Merge Train Improvements (Fast-Foward Support)| [Project plan](/handbook/engineering/development/ops/verify/pipeline-execution/project-plans/merge-trains/) | Caroline Simpson | Allison Browne, Hordur Yngvason | FY24-Q4 |
+| O11y Distributed Tracing | [Project plan](/handbook/engineering/development/ops/monitor/observability/#weekly-project-plan) | Nicholas Klick | | FY24-Q4 |
+| GCP Secrets Integration | [Project plan](/handbook/engineering/development/ops/project-plans/gcp-secrets-integration/) | Scott Hampton | Albert Salim | FY24-Q4 |
 
 
 ### Key Project Planning

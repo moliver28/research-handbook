@@ -11,7 +11,7 @@ title: "Flaky tests Primer"
 
 - [Flaky tests technical documentation](https://docs.gitlab.com/ee/development/testing_guide/flaky_tests.html)
 - [Measure and act on flaky specs](https://gitlab.com/groups/gitlab-org/-/epics/8789)
-- [Flaky tests Sisense dashboard](https://app.periscopedata.com/app/gitlab/888968/EP---Flaky-tests)
+- [Flaky tests Sisense dashboard](https://10az.online.tableau.com/#/site/gitlab/workbooks/2283052/views)
 
 ### Introduction
 
@@ -23,10 +23,10 @@ In a test suite, flaky tests are inevitable, so our goal should be to limit thei
 
 | Current state | Assumptions |
 | ------------- | ----------- |
-| `master` success rate (with manual retrying of flaky tests) [is between 88% and 92% for August/September/October 2021](https://app.periscopedata.com/app/gitlab/564156/EP---Pipelines-health?widget=7870937&udv=895976) | We don't know exactly what would be the success rate if we'd stop retrying flaky tests, but based on [this exploratory chart](https://app.periscopedata.com/app/gitlab/590833/WIP:-Kyle-Wiebers-Scratchpad?widget=9705774&udv=0), it could go down by approximately 7% |
-| [175 programmatically identified flaky tests](https://app.periscopedata.com/app/gitlab/888968/EP---Flaky-tests?widget=12187306&udv=0) and [211 `~"failure::flaky-test" issues](https://app.periscopedata.com/app/gitlab/888968/EP---Flaky-tests?widget=13096912&udv=1474231) out of a total of 159,590 tests | It means [we identified 0.1% of tests as being flaky](https://docs.gitlab.com/ee/development/testing_guide/flaky_tests.html#automatic-retries-and-flaky-tests-detection). This is in line with the ["RSpec Job Flaky Failure Probability"](https://app.periscopedata.com/app/gitlab/888968/EP---Flaky-tests?widget=13096878&udv=1474231). [GitHub identified that 25% of their tests were flaky at some point](https://github.blog/2020-12-16-reducing-flaky-builds-by-18x/#how-far-weve-come), our reality is probably in between. |
+| `master` success rate (with manual retrying of flaky tests) [is between 88% and 92% for August/September/October 2021](https://10az.online.tableau.com/#/site/gitlab/workbooks/2312755/views) | We don't know exactly what would be the success rate if we'd stop retrying flaky tests, but based on this exploratory chart, it could go down by approximately 7% |
+| [175 programmatically identified flaky tests](https://10az.online.tableau.com/#/site/gitlab/workbooks/2283052/views) and [211 `~"failure::flaky-test" issues](https://10az.online.tableau.com/#/site/gitlab/views/DRAFTFlakytestissues/FlakyTests?:iid=1) out of a total of 159,590 tests | It means [we identified 0.1% of tests as being flaky](https://docs.gitlab.com/ee/development/testing_guide/flaky_tests.html#automatic-retries-and-flaky-tests-detection). This is in line with the ["RSpec Job Flaky Failure Probability"](https://10az.online.tableau.com/#/site/gitlab/views/SlowRSpecTestsIssues/SlowRSpecTestsIssuesDashboard?:iid=1). [GitHub identified that 25% of their tests were flaky at some point](https://github.blog/2020-12-16-reducing-flaky-builds-by-18x/#how-far-weve-come), our reality is probably in between. |
 | [Coverage is currently at 97.86%](https://gitlab-org.gitlab.io/gitlab/coverage-ruby/#_AllFiles) | Even if we'd removed the 175 flaky tests, we don't expect the coverage to go down meaningfully. |
-| ["Average Retry Count"](https://app.periscopedata.com/app/gitlab/888968/EP---Flaky-tests?widget=13096878&udv=1474231) per pipeline is currently at 0.08, it means given [RSpec jobs' current average duration of 23 minutes](https://app.periscopedata.com/app/gitlab/652085/EP---Jobs-Durations?widget=6914224&udv=1005715), this results in an additional `0.08 * 23 = 1.84` minutes on average per pipeline , not including the idle time between the job failing and the time it is retried. [Explanation provided by Albert](https://gitlab.com/gitlab-org/quality/team-tasks/-/issues/874#note_575599680). | Given we have approximately [11k MR pipelines per month](https://app.periscopedata.com/app/gitlab/496118/EP---Sandbox?widget=8625910&udv=785399), that means flaky tests are wasting 20,240 minutes per month = **337 engineer hours** = 14 days. Given our private runners cost us $0.0845 / minute, this means flaky tests are wasting $1,710 per month. |
+| ["Average Retry Count"](https://10az.online.tableau.com/#/site/gitlab/workbooks/2283052/views) per pipeline is currently at 0.08, it means given [RSpec jobs' current average duration of 23 minutes](https://10az.online.tableau.com/#/site/gitlab/views/DRAFTEP-JobsDurations/EP-JobsDurations?:iid=2), this results in an additional `0.08 * 23 = 1.84` minutes on average per pipeline , not including the idle time between the job failing and the time it is retried. [Explanation provided by Albert](https://gitlab.com/gitlab-org/quality/team-tasks/-/issues/874#note_575599680). | Given we have approximately [11k MR pipelines per month](https://10az.online.tableau.com/#/site/gitlab/workbooks/2312755/views), that means flaky tests are wasting 20,240 minutes per month = **337 engineer hours** = 14 days. Given our private runners cost us $0.0845 / minute, this means flaky tests are wasting $1,710 per month. |
 
 When a flaky test fails in an MR, following is the workflow the author might follow:
 
@@ -52,7 +52,7 @@ Flaky tests negatively impact several teams and areas:
 ### Goal
 
 - Increase `master` stability to a solid 95% success rate without manual action
-- Improve productivity - MR merge time - [lower "Average Retry Count"](https://app.periscopedata.com/app/gitlab/888968/EP---Flaky-tests?widget=13096878&udv=1474231)
+- Improve productivity - MR merge time - [lower "Average Retry Count"](https://10az.online.tableau.com/#/site/gitlab/workbooks/2283052/views)
 - Removes doubts on whether `master` is broken or not and default action of retry
 - Defining acceptable thresholds for action like quarantining/focus on refactoring
 - Step towards unlocking merge train

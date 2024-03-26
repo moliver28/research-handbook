@@ -271,7 +271,7 @@ Please tag `@jeffersonmartin` for any architecture, decisions, discussions, guid
     - Infrastructure vulnerability management
     - Infrastructure configuration and best practices policies
     - Production readiness reviews
-  manager: jdubail
+  manager: juliedavila
   counterparts:
     - djain
     - mmorrison

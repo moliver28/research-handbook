@@ -1,6 +1,6 @@
 ---
 
-title: "Scale CSE Operating Rhythm"
+title: "CSE Operating Rhythm"
 ---
 
 
@@ -11,14 +11,14 @@ title: "Scale CSE Operating Rhythm"
 View the [CSM Handbook homepage](/handbook/customer-success/csm/) for additional CSM/CSE-related handbook pages.
 
 ---
-## Scale Team Customer Engagement Types
+## CSE Team Customer Engagement Types
 
-There are several different ways that the Scale CSE team engages with customers, including:
+There are several different ways that the CSE team engages with customers, including:
 1. [Targeted campaigns run from Gainsight](#targeted-campaigns) 
 
 1. [Monthly Webinars and Labs](#monthly-webinars-and-hands-on-labs)
 1. [GitLab Onboarding Cohorts](#scale-onboarding-cohorts)
-1. [Sales Driven Scale Engagement Request](#scale-engagement-request-process) 
+1. [Sales Driven CSE Engagement Request](#scale-engagement-request-process) 
 
 
 ### Targeted Campaigns
@@ -27,7 +27,7 @@ Customer Success Operations and CS leaders determine, based on various GitLab he
  - 90 day low license utilization
  - CI product coach
 
-  Existing campaign email drafts can be found in the [Automated Scale Campaigns Content google doc](https://docs.google.com/document/d/1Db6y_i2gPQrPnJkJpAAbfFKQtw4c5VgSFJcHKDG-4hk/edit?usp=sharing).  The email campaigns get sent to a target group based on geo and ARR and typically contain the calendly link for the specific CSE working with that segment.
+  Existing campaign email drafts can be found in the [Automated CSE Campaigns Content google doc](https://docs.google.com/document/d/1Db6y_i2gPQrPnJkJpAAbfFKQtw4c5VgSFJcHKDG-4hk/edit?usp=sharing).  The email campaigns get sent to a target group based on geo and ARR and typically contain the calendly link for the specific CSE working with that segment.
 
 ### Monthly Webinars and Hands On Labs
 
@@ -57,7 +57,7 @@ At the end of the webinar, the host should launch the poll for the attendees. Th
 
 It is recommended to check before the webinar if the recorded video already mentions the poll. If yes, you should try to launch the poll at the same time it is mentioned in the recorded video.
 
-The Scale Program Manager will handle all pre- and post-webinar communication with the attendees.
+The CSE Program Manager will handle all pre- and post-webinar communication with the attendees.
 
 Here is a quick video guide on how to host the webinar, including steps for sharing the local webinar video file through zoom: [Quick Guide Video](https://drive.google.com/file/d/1kjntQ_ZzSDTmThP1XvYEARSCS4cjS6XM/view)
 
@@ -71,7 +71,7 @@ A registration code will then be created for the lab.  Registration codes are tr
 
 Before the event, the host should make a copy of the appropriate [master slide deck](https://drive.google.com/drive/folders/1h-I2J_J4MlgBmjfwxpdGiyVM0vIVW9vY?usp=drive_link) and store it in the [2. Global Onboarding Labs -> Decks -> Delivered decks folder](https://drive.google.com/drive/folders/1SYuAOlR9YqLSS3I9qebW8aKyRYx2Yv8I?usp=drive_link), with the Title: `<Lab Name> - <Region> - Date`.  In the lab deck, change the registration codes to match the current lab, and add their name and profile picture to the presenter slide.  
 
-The Scale Program Manager will handle all pre-lab and post-lab communication with the attendees, and will request the Highspot link to add to the post-lab email.
+The CSE Program Manager will handle all pre-lab and post-lab communication with the attendees, and will request the Highspot link to add to the post-lab email.
 
 The lab content is contained in the [GitLab Learn Labs Sample Projects group](https://gitlab.com/gitlab-learn-labs/sample-projects).  The correct project should be linked in the slide deck you are using for the lab.  The host should run through the lab exercises in their entirety at least once before the event to ensure there are no technical issues.
 
@@ -91,11 +91,11 @@ Tips and tricks for presenting:
    - hide your bookmarks bar and be conscious not to share anything related to other customers
    - go slower than you think you need to through the exercises
 
-After the lab, the Scale Program Manager will send a post-event email with a link to the recording and slide deck.  
+After the lab, the CSE Program Manager will send a post-event email with a link to the recording and slide deck.  
 
-### Scale Onboarding Cohorts
+### CSE Onboarding Cohorts
 
-As a supplement to the [monthly webinars](/handbook/customer-success/csm/segment/scale/webinar-calendar/) presented by the CSM/CSE team, the CSE team also invites net-new scale eligible customers to participate in a monthly onboardhing cohort.
+As a supplement to the [monthly webinars](/handbook/customer-success/csm/segment/scale/webinar-calendar/) presented by the CSM/CSE team, the CSE team also invites net-new eligible customers to participate in a monthly onboardhing cohort.
 
 The onboarding cohort will have a duration of 4 weeks, starting at the beginning of each month, with 90-minute live weekly training led by a Customer Success Engineer. Customers will be grouped with other new GitLab customers during each training. In addition to the weekly hands-on calls, customers will have access to a shared Slack channel monitored by Customer Success Engineers throughout the program to help answer questions and provide best practice guidance.
 
@@ -107,47 +107,47 @@ The onboarding cohort will have a duration of 4 weeks, starting at the beginning
 
 All customers participating will complete their training using a sandbox sub-group on gitlab.com [provisioned via gitlabdemo.com](https://gitlabdemo.com/login). 
 
-### Scale Engagement Request Process
+### CSE Engagement Request Process
 
-Account owners (AEs, SAEs, Renewals Managers) working with customers that [qualify](https://gitlab.com/gitlab-com/customer-success/csm/-/wikis/CSM-Segments) for Scale CSE may find that their customer would benefit from a Scale CSE engagement outside of the [normal operating rhythm during the customer lifecycle](/handbook/customer-success/csm/segment/scale/#customer-lifecycle) (programmatic call invitations from Gainsight, manual outreach by CSE in Outreach, Office Hours and Webinars). In these cases, it is best to submit ad-hoc engagement requests through Salesforce. You can submit a case for a CSE to engage with you on an account by clicking on "CSE Help" at the top of the Salesforce account page chatter (click "Show Feed" to open it first ). This will help to qualify the engagement and help the CSE prepare for a productive conversation with the customer.
+Account owners (AEs, SAEs, Renewals Managers) working with customers that [qualify](https://gitlab.com/gitlab-com/customer-success/csm/-/wikis/CSM-Segments) for CSE may find that their customer would benefit from a CSE engagement outside of the [normal operating rhythm during the customer lifecycle](/handbook/customer-success/csm/segment/scale/#customer-lifecycle) (programmatic call invitations from Gainsight, manual outreach by CSE in Outreach, Office Hours and Webinars). In these cases, it is best to submit ad-hoc engagement requests through Salesforce. You can submit a case for a CSE to engage with you on an account by clicking on "CSE Help" at the top of the Salesforce account page chatter (click "Show Feed" to open it first ). This will help to qualify the engagement and help the CSE prepare for a productive conversation with the customer.
 
 This brief screencast demonstrates how to reveal the CSE Help button when on an account page in Salesforce:
 
 ![example-clip-demonstrating-scale-cse-request-sfdc](/handbook/customer-success/csm/segment/scale/cse-help.gif)
 
-#### Requesting Scale CSE Engagement (Account Owners only - AEs, SAEs)
+#### Requesting CSE Engagement (Account Owners only - AEs, SAEs)
 
-Only account owners should file a new issue requesting a Scale CSE engagement for their customer. Other stakeholders at GitLab (Solutions Architects, Support, Professional Services) may identify a potential opportunity for Scale CSE engagement, but ultimately the account owner should be notified to follow through the request process and communicate to the customer that a request has been made.
+Only account owners should file a new issue requesting a CSE engagement for their customer. Other stakeholders at GitLab (Solutions Architects, Support, Professional Services) may identify a potential opportunity for CSE engagement, but ultimately the account owner should be notified to follow through the request process and communicate to the customer that a request has been made.
 
-To make a request, click "CSE Help" at the top of the Salesforce account page chatter (click "Show Feed" to open it first ), populate and the form with as much information as possible to help the Scale CSE team qualify the request, and prepare for engagement.
+To make a request, click "CSE Help" at the top of the Salesforce account page chatter (click "Show Feed" to open it first ), populate and the form with as much information as possible to help the CSE team qualify the request, and prepare for engagement.
 
-- For more information about the scope and qualifications for Scale CSE engagement, refer to [Scale CSM: Qualifications/Scope Document for Scale CSM Engagement](https://docs.google.com/document/d/1UVUPVTpEd3uYN8X1a_-LgB0GVY3fW6Y-S8sXfh-W65M/edit#)
+- For more information about the scope and qualifications for CSE engagement, refer to [CSE: Qualifications/Scope Document for CSE Engagement](https://docs.google.com/document/d/1UVUPVTpEd3uYN8X1a_-LgB0GVY3fW6Y-S8sXfh-W65M/edit#)
 
 
-#### Tracking Ad-Hoc Scale CSE Engagements in Gainsight (CSEs only)
+#### Tracking Ad-Hoc CSE Engagements in Gainsight (CSEs only)
 
-When a CSE has accepted a Scale CSE engagement request, the CSE must then create a [CTA](/handbook/customer-success/csm/gainsight/ctas/) in Gainsight for proper tracking and CSAT survey deployment post-follow-up email.
+When a CSE has accepted an engagement request, the CSE must then create a [CTA](/handbook/customer-success/csm/gainsight/ctas/) in Gainsight for proper tracking and CSAT survey deployment post-follow-up email.
 
 - Create CTA from the Cockpit with the following details
-   - Name: [Customer Name] - Ad-Hoc Scale CSE Engagement Request
+   - Name: [Customer Name] - Ad-Hoc CSE Engagement Request
    - Company: [Customer Name]
    - Type: Digital Journey
    - Reason: Other Digital Journey Reason
    - Priority: (select the most appropriate type based on the request)
-   - Playbook: One-Off Scale CSM Outreach
+   - Playbook: One-Off Scale CSE Outreach
 
 Once the call is complete, the call must be [logged as an activity](/handbook/customer-success/csm/cadence-calls/#review-and-update-account-details) against the customer’s timeline in Gainsight using the `Scale Engagement` meeting type in Gainsight, and filling in the relevant details regarding the customer meeting details.
 
-The CSE should then prepare a follow-up email to be sent to the customer through the email-assist in the task: `Follow Up Email Post One-off Scale CSM Outreach Call Completion`
+The CSE should then prepare a follow-up email to be sent to the customer through the email-assist in the task: `Follow Up Email Post One-off Scale CSE Outreach Call Completion`
 
 This ensures that a CSAT survey is deployed to the recipients of the email.
 
 
 
 
-## General Guidelines for Scale Engagements
+## General Guidelines for CSE Engagements
 
-### Scale Escalations
+### CSE Escalations
 
 Qualifying the customer for an escalation is important in terms of ARR and LAM. ARR should be >=80% of the ceiling for your segment’s ARR range. LAM ought to be > $100K. Another very weighty criterion is an upcoming renewal. If they are <= 3 months away from an upcoming renewal, an escalation could help turn their frown upside down.
 

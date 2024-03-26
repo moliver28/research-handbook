@@ -5,13 +5,6 @@ title: Analytics Instrumentation - Monitoring and troubleshooting
 description: "The Analytics Instrumentation group work on feature enhancements and implementing privacy focused product analytics across GitLab projects"
 ---
 
-
-
-
-
-
-
-
 # Monitoring and troubleshooting
 
 This page aims to contain information and links helpful in monitoring and troubleshooting the internal analytics infrastructure provided by the [Analytics Instrumentation group](/handbook/engineering/development/analytics/analytics-instrumentation).
@@ -22,22 +15,59 @@ This page aims to contain information and links helpful in monitoring and troubl
 
 For a brief video overview of the tools used to monitor Snowplow usage, please check out [this internal video](https://www.youtube.com/watch?v=NxPS0aKa_oU) (you must be logged into GitLab Unfiltered to view).
 
+- [Tableau dashboard](https://10az.online.tableau.com/#/site/gitlab/workbooks/2358326/views) provides information about the number of good and bad events imported into the Data Warehouse, as well as the most common types of error messages for bad events.
 - [Analytics Instrumentation Grafana dashboard](https://dashboards.gitlab.net/d/product-intelligence-main/product-intelligence-product-intelligence?orgId=1) monitors backend events sent from a GitLab.com instance to a collectors fleet. This dashboard provides information about:
   - The number of events that successfully reach Snowplow collectors.
   - The number of events that failed to reach Snowplow collectors.
   - The number of backend events that were sent.
 - [AWS CloudWatch dashboard](https://console.aws.amazon.com/cloudwatch/home?region=us-east-1#dashboards:name=SnowPlow;start=P3D) monitors the state of the events in a processing pipeline. The pipeline starts from Snowplow collectors, goes through to enrichers and pseudonymization, and then up to persistence in an S3 bucket. From S3, the events are imported into the Snowflake Data Warehouse. You must have AWS access rights to view this dashboard. For more information, see [monitoring](https://gitlab.com/gitlab-org/analytics-section/analytics-instrumentation/snowplow-pseudonymization#monitoring) in the Snowplow Events pseudonymization service documentation.
-- [Sisense dashboard](https://app.periscopedata.com/app/gitlab/417669/Snowplow-Summary-Dashboard) provides information about the number of good and bad events imported into the Data Warehouse, in addition to the total number of imported Snowplow events.
-
-This page covers dashboards and alerts coming from a number of internal tools.
-
+- [Snowflake](https://app.snowflake.com/) is where analytics data ends up and can be queried. Basic intro on how to access data in Snowflake in [this video](https://www.youtube.com/watch?v=0RGnh7eErDs)
 
 ### Alerts
+
+Our alerts can either be found in [Monte Carlo](https://getmontecarlo.com/settings/notifications2/audiences/f61407c9-6b9f-4cef-8fb8-fbd8a6051919) if they are based on data from Snowflake,
+or in [AWS Cloud Watch](https://us-east-1.console.aws.amazon.com/cloudwatch/home?region=us-east-1#alarmsV2:) if they are related to Snowplow AWS infrastructure.
+
+#### Amount of Bad Events Violation
+
+##### Symptoms
+
+You will be alarmed via a [Monte Carlo alert](https://getmontecarlo.com/monitors/c8e6772d-39dd-4dd7-946d-7daeec72dbe4) that is sent to `#g_analytics_instrumentation` Slack channel that the amount of bad events as compared to good events is higher than usual for the last day.
+
+##### Locating the problem
+
+Start with the [Tableau dashboard](https://10az.online.tableau.com/#/site/gitlab/workbooks/2358326/views) which is based on the raw data ingested from our Snowplow S3 Bucket. Try to answer the following questions:
+
+1. Is the number of bad events unusually high, or is the number of good events lower than usual? If the latter is true, it indicates an unalerted drop in good events, and you should continue with the [good events drop alert](#good-events-drop)```
+1. Locate the abbreviated messages which have the most increase in the affected time frame (see [chart](https://10az.online.tableau.com/#/site/gitlab/views/SnowplowEventVolumeDebugging/BadEventmessages?:iid=1)), and are therefore likely to have caused the error.
+  1. If the messages start with "Payload with vendor", it's likely triggered by a directory scan by some kind of bot, since Snowplow interprets the first folder in the path as the
+     vendor, e.g. for `https://snowplow-collector.com/snowplow the vendor would be `snowplow`. These errors can be ignored if they don't persist beyond a few days.
+  1. See if the abbreviated error message already tells you what's wrong.
+
+##### Debugging the offending events
+
+If the shortened message looks like an error caused by a valid attempt at sending an event, we likely need to dig into the actual requests / events being sent. You can get a sample of events for a specific error message with an sql query in Snowflake similar to:
+
+```sql
+SELECT
+    JSONTEXT:errors[0]:message as message,
+    JSONTEXT:line::text as base_64_request
+FROM RAW.SNOWPLOW.GITLAB_BAD_EVENTS
+WHERE uploaded_at > DATEADD(Day ,-1, current_date)
+AND STARTSWITH(JSONTEXT:errors[0]:message::text, '[shortened message]')
+LIMIT 10
+```
+
+Where you replace the `shortened_message` with the message that causes most errors.
+You can use `echo '<base_64_request>' | base64 -D` to decode the request and look for patterns.
+
+[This video](https://youtu.be/1GyUera6uH4) shows a debugging session of bad events in Snowplow.
+
 #### Good events drop
 
 ##### Symptoms
 
-You will be alarmed via a [Sisense alert](https://app.periscopedata.com/app/gitlab/alert/Volume-of-Snowplow-Good-events/5a5f80ef34fe450da5ebb84eaa84067f/edit) that is sent to `#g_analytics_instrumentation` Slack channel.
+You will be alarmed via a [Monte Carlo alert](https://getmontecarlo.com/monitors/c16474d8-4660-4be2-9be6-5af3be25bd48) that is sent to `#g_analytics_instrumentation` Slack channel that the amount of newly received Snowplow events is below a feasible threshhold.
 
 ##### Locating the problem
 

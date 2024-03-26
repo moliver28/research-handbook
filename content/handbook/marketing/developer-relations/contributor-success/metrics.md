@@ -10,13 +10,13 @@ description: Learn about the Sisense SQL snippets that are used in community-rel
    - Amount of MRs created, merged & closed
    - Time between MR created and merged (OCMA)
    - Time between MR ready for review & reviewed
-- [Leading Organizations PIs](https://app.periscopedata.com/app/gitlab/1064389/Leading-Organizations-PIs)
+- [Leading Organizations PIs](https://10az.online.tableau.com/#/site/gitlab/views/LeadingOrganizationsPIsPart1/LeadingOrganizationsPIsPart1?:iid=3)
    - Time to review SLO
    - Open MRs from Leading Organizations & their age
-- [MRARR Dashboard](https://app.periscopedata.com/app/gitlab:safe-intermediate-dashboard/965062/MRARR-Dashboard)
+- [MRARR Dashboard](https://10az.online.tableau.com/#/site/gitlab/workbooks/2326936/views)
    - Customers ARR * Number of MRs
    - Shows how we are doing towards the target
-- [MRARR Diagnostics](https://app.periscopedata.com/app/gitlab:safe-intermediate-dashboard/965418/MRARR-Diagnostics)
+- [MRARR Diagnostics](https://10az.online.tableau.com/#/site/gitlab/views/MRARRDiagnostics/MRARRDiagnostics?:iid=1)
    - Identifies MRs from customers that are not being tracked yet
    - Identifies projects with contributions that are not being tracked yet
    - See [Contributing Orgs tracker](/handbook/marketing/developer-relations/contributor-success/contributing-org-tracker.html) for details

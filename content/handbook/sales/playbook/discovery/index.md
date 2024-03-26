@@ -26,7 +26,7 @@ Ideally, effective qualification also includes identification of the prospect's:
 - Cloud strategy
 - Preferred cloud partner(s)
 - Future growth potential ([Landed Addressable Market (LAM)](/handbook/sales/sales-term-glossary/)), and
-- Preference for [SaaS or Self-Managed](/features/)
+- Preference for [SaaS or Self-Managed](https://about.gitlab.com/features/)
 
 ## Understand Value Points
 

@@ -50,7 +50,6 @@ The following can be used as a guide on what actions could be taken before your 
 ### Other accounts
 
  Set up accounts that you'll need access to after your last day. Ensure your personal email address is up to date with these accounts. They may include:
-  - ADP (payroll): https://workforcenow.adp.com
   - Fidelity (US 401(k)): https://www.fidelity.com
   - E-Trade (RSU): http://www.etrade.com
   - Carta (Stock options): https://login.app.carta.com/credentials/login/

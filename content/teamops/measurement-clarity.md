@@ -34,7 +34,7 @@ Crucially, under TeamOps every functional department shares its KPIs transparent
 {{% details summary="Examples and resources for transparent measurements" %}}
 **Example:** [Chief Executive Officer OKR and KPIs](/handbook/company/okrs/fy23-q3/)
 
-In Q3-FY23 at GitLab, a CEO OKR was [Improve user and wider-community engagement](/handbook/company/okrs/fy23-q3/). This is the *initiative* to improve a series of KPIs, a subset of which are documented below:
+In Q3-FY23 at GitLab, a company OKR was [Improve user and wider-community engagement](/handbook/company/okrs/fy23-q3/). This is the *initiative* to improve a series of KPIs, a subset of which are documented below:
 
 1. Evolve the resident contributor strategy by conducting 5 customer conversations with current “resident contributors” in seat
 1. Certify 1,000 team members and 10,000 wider-community members in TeamOps

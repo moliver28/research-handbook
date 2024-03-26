@@ -45,7 +45,8 @@ flowchart LR
     I[Infrastructure]
     click I "/handbook/engineering/infrastructure/"
 
-    I --> TPM
+    I --> TPM[Technical Program Management]
+    click TPM "/handbook/engineering/infrastructure/technical-program-management/"
 
     I --> EP[Engineering Productivity]
     click EP "/handbook/engineering/infrastructure/engineering-productivity/"
@@ -105,12 +106,12 @@ flowchart LR
     D --> Switchboard
     click Switchboard "/handbook/engineering/infrastructure/team/gitlab-dedicated/switchboard/"
 
-    TP --> TTI[Test and Tools Infrastructure]
-    click TTI "/handbook/engineering/infrastructure/test-platform/test-and-tools-infrastructure-team/"
     TP --> SMP[Self-Managed Platform]
     click SMP "/handbook/engineering/infrastructure/test-platform/self-managed-platform-team/"
     TP --> TE[Test Engineering]
     click TE "/handbook/engineering/infrastructure/test-platform/test-engineering-team/"
+    TP --> TTI[Test and Tools Infrastructure]
+    click TTI "/handbook/engineering/infrastructure/test-platform/test-and-tools-infrastructure-team/"
 ```
 
 ## Design
@@ -140,7 +141,7 @@ The [handbook usage page guide](/handbook/handbook-usage/) lists a number of gen
 
 Classification of the Infrastructure department projects is described on the [infrastructure department projects page](/handbook/engineering/infrastructure/projects).
 
-The [infrastructure issue tracker](https://gitlab.com/gitlab-com/gl-infra/infrastructure/issues) is the backlog and a catch-all project for the infrastructure teams and tracks the work our teams are doing–unrelated to an ongoing change or incident.
+The [infrastructure issue tracker](https://gitlab.com/gitlab-com/gl-infra/production-engineering/-/issues) is the backlog and a catch-all project for the infrastructure teams and tracks the work our teams are doing–unrelated to an ongoing change or incident.
 
 In addition to tracking the backlog, Infrastructure Department projects are captured in our [Infrastructure Department Epic](https://gitlab.com/groups/gitlab-com/-/epics/1049) as well as in our [Quarterly Objectives & Key Results](https://gitlab.com/groups/gitlab-com/-/epics/1420)
 
@@ -189,7 +190,7 @@ The Infrastructure department hires for a number of different technical speciali
 [help]: /handbook/engineering/infrastructure/production/#how-to-get-help
 [incident]: /handbook/engineering/infrastructure/incident-management/
 [change]: /handbook/engineering/infrastructure/change-management/
-[infra]: https://gitlab.com/gitlab-com/gl-infra/infrastructure/issues/
+[infra]: https://gitlab.com/gitlab-com/gl-infra/production-engineering/-/issues
 [production]: https://gitlab.com/gitlab-com/gl-infra/production/issues/
 [delivery]: https://gitlab.com/gitlab-com/gl-infra/delivery/issues/
 [scalability]: https://gitlab.com/gitlab-com/gl-infra/scalability/issues

@@ -52,7 +52,7 @@ We will also continue to address Customer Experience through our quality initiat
 ## Performance Indicator
 
 We measure the value we contribute by using Performance Indicators (PI), which we define and use to track progress.
-The current [PI for the Pipeline Execution group](/handbook/product/performance-indicators/#verify-ci-verify-runner-count-of-pipelines-triggered-by-unique-users) is the `number of unique users who trigger ci_pipelines`. For more details, please check out the [Product Team Performance Indicators](/handbook/product/performance-indicators/#regular-performance-indicators). To view the latest Verify stage ci_pipeline data see our [Sisense Dashboard](https://app.periscopedata.com/app/gitlab/538594/Verify-Stage-Dashboard).
+The current [PI for the Pipeline Execution group](/handbook/product/performance-indicators/#verify-ci-verify-runner-count-of-pipelines-triggered-by-unique-users) is the `number of unique users who trigger ci_pipelines`. For more details, please check out the [Product Team Performance Indicators](/handbook/product/performance-indicators/#regular-performance-indicators). To view the latest Verify stage ci_pipeline data see our [Tableau Dashboard](https://10az.online.tableau.com/t/gitlab/views/VerifyPerformanceIndicatorDashboard/VerifyPerformanceIndicatorHub).
 
 ### Usage Funnel
 
@@ -121,7 +121,7 @@ Not included in the Pipeline Execution group's domain:
 
 ## Technical Roadmap
 
-### FY24
+### FY25
 
 These are our high-level engineering driven goals for the year. As with any of our goals, they are ambitious and subject to change.
 
@@ -134,19 +134,12 @@ These are our high-level engineering driven goals for the year. As with any of o
 - Understand what we can do to improve pipeline speed
 - Prototype at least one big swing improvement
 
-##### Pipeline Scheduling Algorithm / Queuing
-
-**Goals:**
-
-- Settle on path forward for what changes we want to make to the algorithm
-- Complete phase 1 implementation based on decisions
-
 ##### Fix Long Standing Pipeline Status Issues
 
 **Goals:**
 
-- Deep dive into existing pipeline status issues and code.
-    - Determine if there are and make systemic changes to address a number of the issues.
+- Deep dive into existing pipeline status issues and code
+    - Determine if there are and make systemic changes to address a number of the issues
 
 #### Scalability
 
@@ -156,28 +149,48 @@ These are our high-level engineering driven goals for the year. As with any of o
 
 - Complete the data partitioning of the 6 largest CI tables - [Blueprint](https://docs.gitlab.com/ee/architecture/blueprints/ci_data_decay/pipeline_partitioning.html)
 
+
+##### Sidekiq
+
+**Goals:**
+
+- Improve performance of our background workers to increase reliability and scalability
+
+##### Support Improved Job Searching Capabilities
+
+**Goals:**
+
+- Improve our ability to support additional search and filtering capabilities for jobs
+
 ##### Reduce Operating costs
 
 **Goals:**
 
+- Contribute to data retention planning
 - Identify potential cost savings from compressing job logs - [Spike](https://gitlab.com/gitlab-org/gitlab/-/issues/390114)
-    - Depending on results, schedule work to implement compression.
+    - Depending on results, schedule work to implement compression
 
 #### Developer Efficiency
+
+##### Technical Debt Reduction
+
+**Goals:**
+
+- Reduce the overall technical debt existing within the codebase
+- Avoid accumulating more long-term debt by scheduling follow-up issues promptly
+
 ##### Frontend Refactoring to Vue
 
 **Goals:**
 
-- Complete the refactoring of the schedules pages to Vue
-- Complete the refactoring of the pipeline triggers pages to Vue
 - Complete the refactoring of the pipeline subscriptions pages to Vue
+- Identify any additional areas that should be refactored [Epic](https://gitlab.com/groups/gitlab-org/-/epics/12836)
 
-##### Support Internal Pipeline Dogfooding
+##### Pipeline Rendering
 
 **Goals:**
 
-- Contribute to [Dogfooding Audit](https://gitlab.com/gitlab-org/quality/engineering-productivity/team/-/issues/206)
-    - Schedule issues that arise as a result of the audit
+- Complete performance improvements for pipeline rendering. This functionality is used frequently by developers and their productivity is impacted by poor performance.
 
 ##### Merge Trains
 
@@ -185,21 +198,6 @@ These are our high-level engineering driven goals for the year. As with any of o
 
 - Get merge trains to a state where they are scalable enough to be used effectively by the GitLab project.
 
-### Projected Timeline
-
-#### Q3 - Theme: Scaling & Performance
-
-- Focus on CI Database Partitioning
-- Merge train improvements
-- Investigate potential cost savings for compressed job logs
-- Refactor frontend to Vue
-
-#### Q4 - Theme: Performance & Efficiency
-
-- Focus on CI Database Partitioning across the team
-- Continue Merge train improvements
-- Refactor frontend to Vue
-- Pipeline status issues
 
 ## Team Members
 
@@ -286,7 +284,7 @@ is written in. Familiarity with Docker and Kubernetes is also useful on our team
 - [Slack channel: `#g_pipeline-execution`](https://gitlab.slack.com/archives/CPCJ8CCCX)
 - [GitLab unfiltered: Pipeline Execution group](https://www.youtube.com/playlist?list=PL05JrBw4t0KpsVi6PG4PvDaVM8lKmB6lV)
 - [Grafana dashboard](https://dashboards.gitlab.net/d/stage-groups-pipeline_execution/stage-groups-group-dashboard-verify-pipeline-execution?orgId=1)
-- [Sisense dashboard](https://app.periscopedata.com/app/gitlab/983566/Pipeline-Execution-Dashboard)
+- [Tableau dashboard (to be migrated)](https://gitlab.com/gitlab-data/tableau/-/issues/208)
 - [Next planning issue](https://gitlab.com/gitlab-org/ci-cd/pipeline-execution/-/issues/?sort=popularity&state=opened&label_name%5B%5D=Planning%20Issue&first_page_size=20)
 - [Help Requests for pipeline execution](https://gitlab.com/gitlab-com/ops-sub-department/section-ops-request-for-help/-/issues/?state=opened&label_name%5B%5D=Help%20group%3A%3Apipeline%20execution)
 - [Current milestome retro](https://gitlab.com/gl-retrospectives/verify-stage/pipeline-execution/-/issues?search=Pipeline+Execution+retrospective&sort=popularity&state=opened)
@@ -306,7 +304,21 @@ For those new to the team, these links may be helpful in learning more about the
 
 ## Dashboards
 
-{{% cross-functional-dashboards filters="Pipeline Execution" %}}
+{{< tableau height="600px" toolbar="hidden" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/TopEngineeringMetrics/TopEngineeringMetricsDashboard" >}}
+  {{< tableau/filters "GROUP_LABEL"="pipeline execution" >}}
+{{< /tableau >}}
+
+{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/MergeRequestMetrics/OverallMRsbyType_1" >}}
+  {{< tableau/filters "GROUP_LABEL"="pipeline execution" >}}
+{{< /tableau >}}
+
+{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/Flakytestissues/FlakyTestIssues" >}}
+  {{< tableau/filters "GROUP_NAME"="pipeline execution" >}}
+{{< /tableau >}}
+
+{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/SlowRSpecTestsIssues/SlowRSpecTestsIssuesDashboard" >}}
+  {{< tableau/filters "GROUP_LABEL"="pipeline execution" >}}
+{{< /tableau >}}
 
 #### Cross-functional prioritisation
 
@@ -624,9 +636,7 @@ When building features that may have high impact the team uses established [GitL
 
 We also ensure we are collaborating with our teammates in customer support and customer success by [alerting them](https://docs.gitlab.com/ee/development/feature_flags/controls.html#communicate-the-change) to the rollout issue before a feature is enabled.
 
-The feature flags introduced by the team still in the code can be found in this table.
-
-{{< sisense-with-filters dashboard="792066" chart="10522908" team_group="pipeline execution" >}}
+The feature flags introduced by the team still in the code can be found in [this table](https://10az.online.tableau.com/t/gitlab/views/Engineering-Featureflags/Engineering-FeatureFlags/6ecdfc19-ff4b-4a81-b7b6-25948fe8816f/c486cf97-81c5-4d83-9533-bf259ead2885).
 
 You can also search all Feature Flags through Sam's great [tool here](https://samdbeckham.gitlab.io/feature-flags/#%5B%7B%22type%22:%22group%22,%22value%22:%7B%22data%22:%22group::pipeline%C2%A0execution%22,%22operator%22:%22=%22%7D%7D,%7B%22type%22:%22filtered-search-term%22,%22value%22:%7B%22data%22:%22%22%7D%7D%5D) (prefiltered for pipeline exeuction)
 
@@ -646,7 +656,7 @@ Some practical examples of this are:
 - When you open up or begin working on an epic, issue, or merge request, consider if all stakeholders are aware of this or should be updated. If unsure, error on the side of updating rather than keeping silent.
 - When making significant progress make sure this is seen by the relevant stakeholders even if you don't require immediate feedback by mentioning them rather than relying on automated email notifications. Make their involvement explicit.
 
-Note: For issues related to Merge Request experience, always keep [the Code Review group](/handbook/product/categories/#code-review-group) in the loop to avoid any technical or UX debt from occurring. Refer to the [collaboration on merge requests experience](/handbook/product/cross-stage-features/merge-requests/) page to learn more about the collaboration framework.
+Note: For issues related to Merge Request experience, always keep [the Code Review group](/handbook/product/categories/#code-review-group) in the loop to avoid any technical or Deferred UX from occurring. Refer to the [collaboration on merge requests experience](/handbook/product/cross-stage-features/merge-requests/) page to learn more about the collaboration framework.
 
 Note: A good practice when only wanting to inform rather than requesting a direct action from the mentioned stakeholders is to put `FYI` directly following the @mention handle.
 
@@ -685,7 +695,7 @@ For more details on how to contribute to GitLab generally, please see our [docum
 
 #### Aligning on feature development
 
-The Engineering DRI works with the Product Designer throughout the `workflow:in dev` phase to uncover possible problems with the solution early enough that exhibit unexpected behaviour to what was originally agreed upon. If there are changes to be added that weren't agreed upon in the initial issue - a followup issue should be made and the Engineering DRI should work with the Product Manager to schedule that issue in a following milestone. This allows us to focus on [cleanup over signoff](/handbook/values/#cleanup-over-sign-off), iterate quickly on issues with [a low level of shame](/handbook/values/#low-level-of-shame), and still make sure we accomplish what we've agreed upon. We should be careful not to hold off on completing these followup issues so that we don't build up a significant amount of UX debt issues.
+The Engineering DRI works with the Product Designer throughout the `workflow:in dev` phase to uncover possible problems with the solution early enough that exhibit unexpected behaviour to what was originally agreed upon. If there are changes to be added that weren't agreed upon in the initial issue - a followup issue should be made and the Engineering DRI should work with the Product Manager to schedule that issue in a following milestone. This allows us to focus on [cleanup over signoff](/handbook/values/#cleanup-over-sign-off), iterate quickly on issues with [a low level of shame](/handbook/values/#low-level-of-shame), and still make sure we accomplish what we've agreed upon. We should be careful not to hold off on completing these followup issues so that we don't build up a significant amount of Deferred UX issues.
 
 If we find that solutions are consistently not matching the agreed upon design, we will hold a retrospective with the DRI, designer, and product manager to discuss where the gaps in communication are so that we can improve. It may be necessary to begin requiring a UX approval for merge requests on certain issues to help the Engineering DRI meet the requirements.
 
@@ -767,7 +777,7 @@ When creating a follow-up issue for required tests:
 
 ### Bugs
 
-As a group, we strive to meet the [Severity Service Level Objective](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity-slos) of bugs. We regularly review all bugs and prioritize issues with a `~missed-SLO` label and those approaching SLO (Service Level Objective) through our weekly [Triage Report](/handbook/engineering/infrastructure/engineering-productivity/triage-operations/#group-level-bugs-features-and-ux-debt). One of the group's goals is to reduce the median age of open S2 bugs which is being tracked by the Quality department as a [KPI](/handbook/engineering/quality/performance-indicators/#s2-oba). To do this we will triage aged bugs each milestone closing what we can, reducing severity for bugs mis-labeled, asking for more details for issues that cannot be reproduced and prioritizing those that can be reproduced focusing on bugs in the identified [JTBD](/handbook/engineering/development/ops/verify/pipeline-execution/jtbd/).
+As a group, we strive to meet the [Severity Service Level Objective](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity-slos) of bugs. We regularly review all bugs and prioritize issues with a `~missed-SLO` label and those approaching SLO (Service Level Objective) through our weekly [Triage Report](/handbook/engineering/infrastructure/engineering-productivity/triage-operations/#group-level-bugs-features-and-deferred-ux). One of the group's goals is to reduce the median age of open S2 bugs which is being tracked by the Quality department as a [KPI](/handbook/engineering/quality/performance-indicators/#s2-oba). To do this we will triage aged bugs each milestone closing what we can, reducing severity for bugs mis-labeled, asking for more details for issues that cannot be reproduced and prioritizing those that can be reproduced focusing on bugs in the identified [JTBD](/handbook/engineering/development/ops/verify/pipeline-execution/jtbd/).
 
 ### Features
 

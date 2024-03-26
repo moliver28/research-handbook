@@ -166,3 +166,10 @@ Potential ratings can and should change (hopefully for the better) through techn
 Once current level is assessed - add the scoped label `ControlAutomationPotentialLevel::Level-X` to the epic/issue.
 
  *Note: When assessing potential, try to be realistic but ambitious. If you're rating potential as a 6 because you think that if the entire platform a process is currently operated in were to change, the process could reach a level 6 but otherwise the potential level is a level 3, that may not be an appropriate rating. On the other hand, if you think a potential level is a 6 if the team that operates the control were to moderately adapt their processes, that may be an appropriate rating.*
+
+## <i class="fas fa-id-card" style="color:rgb(110,73,203)" aria-hidden="true"></i> Contact the Team
+
+[Donovan Felton](/handbook/company/team/#dfelton), @dfelton, Security Assurance Engineer, Automation
+
+- [Automation design, development, and implementation]({{< ref "security-assurance-automation" >}})
+- [GRC application administration]({{< ref "security-assurance#core-tools-and-systems-1" >}})

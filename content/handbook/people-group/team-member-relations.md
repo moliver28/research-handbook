@@ -61,7 +61,7 @@ An urgent request would be something that needs immediate attention like team me
 
 ## Team Member Relations Philosophy
 
-GitLab believes in preserving the dignity of each team member and expects everyone to treat others with fairness, respect, and transparency.  We encourage mutual responsibility for constructive work relationships and communication, information sharing, problem solving and a safe neutral processs through which differences can be resolved.  Direct and honest communication is strongly encouraged between all team members regardless of title or level and per our values we [do not pull rank]({{< ref "values#dont-pull-rank" >}}). Such communication is likely to enhance understanding, avoid misunderstandings and create rapid solutions to concerns.
+GitLab believes in preserving the dignity of each team member and expects everyone to treat others with fairness, respect, and transparency.  We encourage mutual responsibility for constructive work relationships and communication, information sharing, problem solving and a safe neutral process through which differences can be resolved.  Direct and honest communication is strongly encouraged between all team members regardless of title or level and per our values we [do not pull rank]({{< ref "values#dont-pull-rank" >}}). Such communication is likely to enhance understanding, avoid misunderstandings and create rapid solutions to concerns.
 
 We have built this philosophy to focus on these 4 pillars in line with our values:
 

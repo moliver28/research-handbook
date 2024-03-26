@@ -42,15 +42,15 @@ We review these at each quarterly meeting of the Board of Directors.
 These KPIs are determined by a combination of their stand alone importance to the company and the amount of management focus devoted to improving the metric.
 
 1. [Revenue](/handbook/company/kpis/#sales-kpis) vs. plan (lagging) **North Star KPI**
-1. [R&D Overall MR Rate](/handbook/engineering/performance-indicators/#rd-overall-mr-rate)[📊](https://app.periscopedata.com/app/gitlab/710733/GitLab-Project-Efficiency?widget=9287585) (leading)
-1. [Estimated Combined Monthly Active Users (CMAU)](/handbook/product/performance-indicators/#estimated-combined-monthly-active-users) [📊](https://app.periscopedata.com/app/gitlab/634200/Usage-Ping-SMAU-Dashboard?widget=9051075) (leading)
+1. [R&D Overall MR Rate](/handbook/engineering/performance-indicators/#rd-overall-mr-rate) (leading)
+1. [Estimated Combined Monthly Active Users (CMAU)](/handbook/product/performance-indicators/#estimated-combined-monthly-active-users) (leading)
 1. [Net New Business Pipeline Created ($s)](/handbook/marketing/performance-indicators/#net-new-business-pipeline-created) 🐔 (leading)
 1. [Pipeline coverage start of quarter stage 3+](/handbook/marketing/performance-indicators/#pipeline-coverage) (leading)
-1. [Percent of Ramped Reps at or Above Quota](https://internal.gitlab.com/handbook/company/performance-indicators/sales/#percent-of-ramped-reps-at-or-above-quota) [📊](https://app.periscopedata.com/app/gitlab/832223/Sales-KPI's?widget=11433770&udv=0) (lagging)
-1. [Net Retention](/handbook/customer-success/vision/#retention-and-reasons-for-churn) [🔗](https://app.periscopedata.com/app/gitlab/832223/Sales-KPI's?widget=11155475&udv=0) (lagging)
-1. [Gross Retention](/handbook/customer-success/vision/#retention-and-reasons-for-churn) [🔗](https://app.periscopedata.com/app/gitlab/403244/Retention?widget=5435598&udv=1067274) (lagging)
-1. [12 Month Team Member Voluntary Retention](/handbook/people-group/people-success-performance-indicators/#team-member-voluntary-retention-rolling-12-months) [🔗](https://app.periscopedata.com/app/gitlab/482006/People-KPIs?widget=9592672&udv=904340) (lagging)
-1. [Unique Wider Community Contributors per Month](/handbook/engineering/quality/performance-indicators/#unique-wider-community-contributors-per-month) [📊](https://app.periscopedata.com/app/gitlab/729542/Community-Efficiency-PIs?widget=9522755&udv=1125629) (lagging)
+1. [Percent of Ramped Reps at or Above Quota](https://internal.gitlab.com/handbook/company/performance-indicators/sales/#percent-of-ramped-reps-at-or-above-quota) (lagging)
+1. [Net Retention](/handbook/customer-success/vision/#retention-and-reasons-for-churn) (lagging)
+1. [Gross Retention](/handbook/customer-success/vision/#retention-and-reasons-for-churn) (lagging)
+1. [12 Month Team Member Voluntary Retention](/handbook/people-group/people-success-performance-indicators/#team-member-voluntary-retention-rolling-12-months) (lagging)
+1. [Unique Wider Community Contributors per Month](/handbook/marketing/developer-relations/performance-indicators/#unique-wider-community-contributors-per-month) (lagging)
 
 ## CoST to the CEO KPIs
 

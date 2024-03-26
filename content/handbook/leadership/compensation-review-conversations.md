@@ -6,6 +6,8 @@ title: Compensation Review Conversations
 
 Conversations with regards to compensation are an important part of being a people manager. This page will take you through information and recommendations to effectively manage and guide these conversations. If you’re ever in doubt or have a question, don't hesitate to reach out to your aligned [People Business Partner.](/handbook/people-group/#people-business-partner-alignment-to-division)
 
+For more information for managers on the FY25 Annual Compensation Review Cycle, please refer to the [Manager Information Guide](https://docs.google.com/document/d/1ZSC0lVo3di9JFJy4kwy9QSGChrI8F3jdO34iG0yO3Sg/edit)
+
 ## Content to Review Prior to Compensation Conversations
 
 Please make sure to review and understand the following content with regards to Compensation at GitLab:
@@ -13,16 +15,13 @@ Please make sure to review and understand the following content with regards to 
 - [GitLab’s Guide to Total Rewards](/handbook/total-rewards/)
 - [LevelUp Training: GitLab Total Rewards Compensation Fundamentals](https://levelup.gitlab.com/access/saml/login/internal-team-members?returnTo=https://levelup.gitlab.com/courses/total-rewards-compensation-fundamentals-training)
 - [Compensation Calculator](https://comp-calculator.gitlab.net/users/sign_in)
-- [“How to Think about Your Equity”](https://www.youtube.com/watch?v=ooWIfdsK5ho&ab_channel=GitLabUnfiltered) video embedded in the Compensation Calculator linked above
 - [Annual Compensation Review Cycle](/handbook/total-rewards/compensation/compensation-review-cycle/#determining-cash-compensation-increases)
 - [Equity Refresh Program](https://about.gitlab.com/handbook/stock-options)
 - [Talent Assessment at GitLab](/handbook/people-group/talent-assessment/)
 
 ## Total Compensation Statements
 
-For FY24, Total Rewards will be providing [Cash Compensation Statements](/handbook/total-rewards/compensation/compensation-review-cycle/#cash-compensation-statement) outlining the compensation increase and/or promotion received during Annual Compensation Review. We recommend reviewing this letter before the conversation and use the letter as preparation to communicate exact approved figures. It is also recommended that you send the letter to the team member after your conversation with them so they can view the details.
-
-After Equity planning has been approved, a more robust [Total Compensation Statement](/handbook/total-rewards/compensation/compensation-review-cycle/#communicating-equity-refresh-grant) will be released. More information on this is forthcoming.
+For FY25, Total Rewards will be providing [Total Compensation Statements](/handbook.gitlab.com/handbook/total-rewards/compensation/compensation-review-cycle/#total-compensation-statement) outlining the total compensation increase (cash and equity) and/or promotion received during Annual Compensation Review. We recommend reviewing this letter before the conversation and using the letter as preparation to communicate the compensation decisions and expected total compensation. It is also recommended that you send the letter to the team member after your conversation with them so they can view the details. You can find instructions on how to pull the Total Compensation Statement in the [job aid](https://docs.google.com/document/d/1zjWqzYKblfzH4fo2OfMzUU3fwWXfdX4ILwwzJqmMrww/edit)
 
 ### Compensation Communication Recommendations
 
@@ -36,7 +35,7 @@ After Equity planning has been approved, a more robust [Total Compensation State
     - Key Talent
     - Location factor changes
     - Benchmark changes
-    - % and # increase: This number can be found on the Total Rewards Statement
+    - % and # increase: This number can be found on the Total Compensation Statement
 - Communicate the change at the beginning of the meeting. You want to give the team member time to ask questions and discuss their compensation change. Avoid trying to rush to communicate at the end of a [1:1 meeting]({{< ref "1-1" >}}).
 - Try to clearly explain the reasoning behind the compensation change. As Compensation differentials are related to performance, the preparation done for the [Talent Assessment conversation](/handbook/people-group/talent-assessment/#best-practices-for-communicating-performancegrowth-factors) could also be useful in explaining the "why". It is also recommended to review the Annual Compensation review page for [all considerations that go into compensation reviews.](/handbook/total-rewards/compensation/compensation-review-cycle/)
 - Protect the confidentiality of other team members by avoiding saying things like “everyone else received less than you” or “you were the only team member to get a discretionary increase.”
@@ -105,9 +104,9 @@ Thank you for your ongoing commitment to results at GitLab! If you have any ques
     - Reiterate GitLab’s compensation philosophy. We pay to market based on the compensation calculator and increase compensation annually based on performance.
     - Point your team member to the Compensation Calculator where they can see the range for their role.
     - If your team member is in good standing from a performance perspective, work with them to put together a [development plan](/handbook/people-group/learning-and-development/career-development/) to help them achieve their goals (e.g. skill development or a promotion).
-1. A team member is not happy with their performance and/or growth factor.
+1. A team member is not happy with their performance and/or growth potential rating.
     - Listen to your team member’s feedback and allow them to express their concerns.
-    - Refer back to the conversation you had with your team member at the time performance/growth factors were determined and reiterate the justification and feedback that you provided at that time.
+    - Refer back to the conversation you had with your team member at the time performance/growth potential ratings were determined and reiterate the justification and feedback that you provided at that time.
     - If your team member is in good standing from a performance perspective, work with them to put together a [development plan](/handbook/people-group/learning-and-development/career-development/) to help them continue to grow.
 
 **If you need assistance after reviewing the [handbook](/handbook/total-rewards/compensation/), please work directly with your manager or your [People Business Partner](/handbook/people-group/#people-business-partner-alignment-to-division)**

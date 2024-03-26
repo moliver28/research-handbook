@@ -9,8 +9,6 @@ canonical_path: "/company/culture/contribute/previous/"
 
 In April 2020, we pivoted to a Virtual Contribute after canceling the Prague Contribute due to Covid-19. GitLab team members and investors joined from around the world to enjoy keynotes, workshops, and speed coffee chatting.
 
-![Virtual Contribute 2020](/images/press/team_and_pets_with_logo_small.jpg)
-
 <small>In April 2020, the team had grown to 1250!</small>*
 
 ### Contribute in New Orleans, Louisiana, USA

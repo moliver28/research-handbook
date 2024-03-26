@@ -195,7 +195,7 @@ The communications channels and forms that should be used in an incident or even
 - Our most common form of customer response is via direct email communications to affected customers.
 - When a deeper dive response is needed, or to ensure broader coverage on a security incident or event, a blog post may be developed on an urgent basis.
 - See [deeper dive explanations on forms and channels]({{< ref "security-incident-communication-plan#potential-channels-for-use-in-a-security-incident" >}}) for consideration
-- Communication to [JiHu]({{< ref "jihu-support" >}}) should happen via the [#security-vulnerability](https://gitlab-jh.slack.com/archives/C039R937PAN) channel within the JiHu Slack workspace. GitLab team members Dominic Couture, James Ritchey, Laurence Bierner, Jerome Ng, Mek Stittri and Kevin Chu have access to this channel.
+- Communication to [JiHu]({{< ref "jihu-support" >}}) should happen via the [#security-vulnerability](https://gitlab-jh.slack.com/archives/C039R937PAN) channel within the JiHu Slack workspace. GitLab team members Dominic Couture, James Ritchey, Jerome Ng, Mek Stittri and Kevin Chu have access to this channel.
 
 ## Helpful templates and runbooks
 

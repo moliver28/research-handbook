@@ -29,7 +29,7 @@ Conducting a competitor comparison should be done at least annually if you're at
 
 ## Steps to follow
 
-A Product Manager will lead their quad team, in collaboration with a Product Marketing Manager or Technical Marketing Manager, in conducting the competitor comparison. Reason: A Product Manager is best suited for leading the comparison effort, because they have a detailed view into the JTBDs, competitors, and features. The following steps walkthrough the process for a competitor comparison:
+A Product Manager will lead their quad team, in collaboration with a Product Marketing Manager or Developer Advocate, in conducting the competitor comparison. Reason: A Product Manager is best suited for leading the comparison effort, because they have a detailed view into the JTBDs, competitors, and features. The following steps walkthrough the process for a competitor comparison:
 
 - **Step 1 - Choose the competitor(s)**
   - If there are many competitors in the space, it’s advised to focus on the top competitor(s).

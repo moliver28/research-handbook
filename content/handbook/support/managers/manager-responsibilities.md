@@ -87,7 +87,7 @@ Ask and answer questions in Slack. (We don't have a way to easily track this, bu
 
 Important Slack channels:
 
-    1. `#spt_managers`
+    1. `#support_leadership`
     1. `#support_ticket-attention-requests`
     1. `#spt_hiring`
     1. `#support_team_chat`

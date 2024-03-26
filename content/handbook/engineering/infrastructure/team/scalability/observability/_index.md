@@ -72,6 +72,45 @@ Between these different signals, we have a relatively (im)precise view into the 
 
 ## How we work
 
+We default to working inline with the GitLab [values](/handbook/values/) and by following the processes of the wider [SaaS Platforms section](/handbook/engineering/infrastructure/platforms/project-management/) and [Scalability group](/handbook/engineering/infrastructure/team/scalability/#how-we-work). In addition to this, listed below are some processes that are specific, or particularly important, to how we work in Scalability:Observability.
+
+
+### Issue management
+
+While we mainly operate from the [scalability issue tracker](https://gitlab.com/gitlab-com/gl-infra/scalability/-/issues), there are other projects under the `gl-infra` group team members are working on.
+Hence we strive to use group-level labels and boards to get the entire picture.
+
+#### Labels
+
+All issues pertaining to our team have the `~"team::Scalability-Observability"` label.
+
+All issues that are within scope of current work have a `~board::build` or `~board::planning` label.
+This is a measure to cut through noise on the tracker and allows us to get a view on what's currently important to us.
+See Boards below on how this is being used.
+All issues require either a Service label or the team-tasks, discussion, or capacity planning labels.
+
+#### Assignees
+
+We use issue assignments to signal who is the DRI for the issue.
+We expect issue assignees to regularly update their issues with the status, and to be as explicit as possible at what has been done and what still needs to be done.
+We expect the assignee of an issue to drive the issue to completion.
+The assignee status typically expresses, that the assigned team member is currently actively working on this or planning to come back to it relatively soon.
+We unassign ourselves from issues we are not actively working on or planning to revisit in a few days.
+
+#### Boards
+
+The Scalability::Observability team's [issue boards](https://gitlab.com/gitlab-com/gl-infra/scalability/-/boards/) track the progress of ongoing work.
+
+We use [issue boards](https://gitlab.com/gitlab-com/gl-infra/scalability/-/boards/) to track the progress of planned and ongoing work.
+Refer to the Scalability group [issue boards section](/handbook/engineering/infrastructure/team/scalability/#issue-boards) for more details.
+
+| **Planning** | **Building**|
+|--------------|-------------|
+| [Planning Board](https://gitlab.com/groups/gitlab-com/gl-infra/-/boards/7339171) | [Build Board](https://gitlab.com/groups/gitlab-com/gl-infra/-/boards/7339070) |
+| Issues where we are investigating the work to be done. | Issues that will be built next, or are actively in development. |
+| ![Triage](../img/label-triage.png)	<br/>![Proposal](../img/label-proposal.png) <br/>![Ready](../img/label-ready.png) | ![Ready](../img/label-ready.png) <br/>![In Progress](../img/label-in_progress.png) <br/>![Under Review](../img/label-under_review.png) <br/>![Verify](../img/label-verify.png) <br/>![Done](../img/label-done.png)|
+
+
 ### Group call
 
 We hold a weekly, 30 minutes group call at alternating times to facilitate a synchronous conversation across members of the group.

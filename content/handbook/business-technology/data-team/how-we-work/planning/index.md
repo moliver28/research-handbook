@@ -84,7 +84,7 @@ The timeline for Iteration planning is as follows:
 
 ### Quarterly OKR Planning
 
-Data Team OKRs aspire to align with Business Technology OKRs, Finance Division OKRs, and CEO OKRs, thereby aligning with the OKRs of the Divisions we support. The Data Team also creates OKRs for [Data Platform](/handbook/business-technology/data-team/platform/) infrastructure development and these OKRs may not always map to immediate term Business Partner OKRs. Overall, [OKRs constitute 60-75%](/handbook/business-technology/data-team/how-we-work/#standing-priorities) of the Data Team's Quarterly Capacity, with Production Operations as the only established higher priority.
+Data Team OKRs aspire to align with Business Technology OKRs, Finance Division OKRs, and company OKRs, thereby aligning with the OKRs of the Divisions we support. The Data Team also creates OKRs for [Data Platform](/handbook/business-technology/data-team/platform/) infrastructure development and these OKRs may not always map to immediate term Business Partner OKRs. Overall, [OKRs constitute 60-75%](/handbook/business-technology/data-team/how-we-work/#standing-priorities) of the Data Team's Quarterly Capacity, with Production Operations as the only established higher priority.
 
 Data Team OKRs are managed with [GitLab Plan](https://about.gitlab.com/direction/plan/) using Epics and Issues using a standard naming scheme and structure and this approach:
 - enables async contributions and planning
@@ -156,7 +156,7 @@ We use a T-Shirt sizing approach for quickly sizing the work required to deliver
 
 ## Work Breakdowns
 
-Work breakdowns are always developed as a part of the Quarterly OKR Planning Drumbeat, but can also be leveraged to help scope and plan new initiatives, infrastructure projects, and similar multi-person or multi-week projects. The outcome of the work breakdown is a detailed description of the work to be performed, deliverables and responsibilities, and a high-level timeline.  
+Work breakdowns are always developed as a part of the Quarterly OKR Planning Drumbeat, but can also be leveraged to help scope and plan new initiatives, infrastructure projects, and similar multi-person or multi-week projects. The outcome of the work breakdown is a detailed description of the work to be performed, deliverables and responsibilities, and a high-level timeline.
 - As a part of the Quarterly OKR Planning Drumbeat, work breakdowns are embedded in the KR Description.
 - As a part of a stand-alone or ad-hoc initiative, work breakdowns are embedded in the appropriate Epic Description.
 - As an example of a Work Breakdown, see this [FY22-Q4 Data Platform Work Breakdown](https://gitlab.com/groups/gitlab-data/-/epics/372).

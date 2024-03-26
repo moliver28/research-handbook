@@ -1,6 +1,6 @@
 ---
 title: "Test Platform Sub-Department"
-description: "Test Platform Sub-Department"
+description: "Test Platform Sub-Department enables successful development and deployment of high quality GitLab software applications by providing innovative build automated solutions, reliable tooling, refined test efficiency, and fostering an environment where Quality is Everyone's responsibility."
 ---
 
 ## Child Pages
@@ -80,9 +80,18 @@ Test Platform owns several tools which form a 3-prong trident for Self-Managed E
 
 For more information, please visit our [Self-Managed Excellence](self-managed-excellence) page.
 
-### Quality Architecture
+### Test Infrastructure
 
-Given rapidly evolving technologies and our drive to provide a world class experience for GitLab users, Test Platform must meet the increasing demands of efficient, intelligent test coverage and confidence at scale. We must test the right things at the right time. To that end, this year we are exploring several new testing types and visibility improvements to increase the actionability, speed, and sophistication of our various test suites.
+Test infrastructure provides stability, dependability, and testing continuity for better planning and implementation. It gives the foundation for engineers to write their tests and an execution platform to execute them. By standardizing and streamlining software development, deployment, and maintenance processes, Test Platform can enable engineers to deliver and improve applications more efficiently, while reducing errors, improving consistency, and increasing speed.
+
+- Deliver tools and frameworks to increase standardization, repeatability, and consistency of tests performed.
+- Provide controlled environments that allow for precise and reproducible test execution.
+- Provide a platform for test automation to reduce human intervention during test execution.
+- Offer flexibility in scheduling and executing tests at any time with no manual intervention required.
+
+### Test Coverage
+
+Given rapidly evolving technologies and our drive to provide a world class experience for GitLab users, Test Platform sub-department strives to meet the increasing demands of efficient, intelligent test coverage and confidence at scale. We aim to test the right things at the right time. We focus on exploring several new testing types and visibility improvements to increase the actionability, speed, and sophistication of our various test suites. 
 
 - Machine learning for test gap recognition, failure analysis and classification, and failing fast.
 - New testing types: visual regression testing, chaos testing, contract testing, permissions testing.
@@ -92,13 +101,43 @@ Given rapidly evolving technologies and our drive to provide a world class exper
 
 ### Customer Centric Quality
 
-Test Platform has been key to supporting prospect POVs and providing prompt, knowledgeable troubleshooting for external customers, but we also have a deep commitment to supporting our internal customers as well. We will expand our Deploy with Confidence foundation we began last year in collaboration with our Infrastructure and Development Departments, and we will seek input into how our processes and tools can be improved.
+Test Platform has been key to supporting prospect POVs and providing prompt, knowledgeable troubleshooting for external customers, while continuing to have a deep commitment to supporting our internal customers as well. We support our internal and external customers by:
 
-- Expand & improve upon deploy with confidence work foundation.
-- Outreach to understand user's needs of Reference Architectures.
+- Outreach to understand user's needs of Reference Architectures and performing reviews for new environment proposals or existing environment issues where design is suspected
 - Expand the capability of staging environments according to engineers' needs.
-- Increase customer empathy by participating in activities that highlights their painpoints.
-- Burn down S2 bugs to improve user experience.
+- Increase customer empathy by participating in triages that highlight their painpoints.
+- Build tooling needs that enable developers to deliver efficiently and confidentally.
+- Burn down customer bugs to improve user experience.
+
+### Metric driven
+
+To order to ensure platform is reliable, scalable, and secure, Test Platform sub-department can help with setting up dashboards for capturing test covearge, performance issues, and conducting capacity planning to ensure that the platform can handle the expected load.
+
+- Define what metrics to collect.
+- Test covearge ratio across all tiers.
+- Continuous Integration Automated Test Pass Rate.
+- Different Performance Testing matrices like Average latency/ wait time, Average load time, requests per second, etc.
+
+
+### AI-powered Innovations
+
+As AI has evolved to be a foundational and transformational technology that can provide compelling and helpful benefits through its capacity to assist, complement, empower, and inspire people in almost every field of human endeavor, the Test Platform sub-department is looking into ways to boost efficiency and reduce cycle times in every phase of the software development lifecycle.
+
+- Employing AI for enhanced testing accuracy.
+- Automated Test generation: The ability to generate test scripts.
+- Test Covearge Optimization: The ability to carefully select tests and optimize coverage.
+- AI powered performance testing.
+- Automated bug triage: The ability to  triage untriaged bugs for critical details like severity, bug description, logs, etc.
+
+### Techincal Expertise
+
+Test Platform Engineers are always available to provide technical support and expertise to development teams to solve complex technical challenges and ensure that applications are built to industry standards. This includes but not limited to:
+
+- Implement tooling needs to help deliver faster
+- Knowledge sharing
+- Provide guidelines on best testing practices
+- Defines Testing strategy for a complex feature or implementation.
+- Assisting internal and external customers with questions and asks around general GitLab deployments across various cloud providers and on-prem.
 
 ### Productivity
 
@@ -141,7 +180,7 @@ Feel free to reach out to us by opening an issue on the [Quality Team Tasks proj
 
 ### Management team
 
-{{< team-by-manager-role role="Interim Director, Test Platform" team="Manager" >}}
+{{< team-by-manager-role role="Director, Test Platform" >}}
 
 ### Individual contributors
 

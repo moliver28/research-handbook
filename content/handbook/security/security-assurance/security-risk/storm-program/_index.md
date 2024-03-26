@@ -307,17 +307,17 @@ To arrive at a final impact score, the impact score of all impact categories is 
 
 - Residual risk is calculated in the same manner as inherent risk, but the likelihood and impact is reassessed based on the known existing controls, processes/procedures, etc. that reduce/mitigate the risk.
 
-#### Determining if a risk is considered Low, Medium, or High
+#### Determining if a risk is considered Very Low, Low, Moderate, High, or Very High
 
-Once the Inherent and Residual risk score is determined, the following table can be used to determine if a risk is considered Low, Medium, or High:
+Once the Inherent and Residual risk score is determined, the following table can be used to determine if a risk is considered Very Low, Low, Moderate, High, or Very High:
 
 |Risk Rating|Risk Score Range|
 |:---------:|:--------------:|
-|Very Low|0-5|
-|Low|5-10|
-|Moderate|10-20|
-|High|20-25|
-|Very High|25-30|
+|Very Low|1-5|
+|Low|6-10|
+|Moderate|11-20|
+|High|21-25|
+|Very High|26-30|
 
 These ratings represent labels for communication purposes rather than what is or is not acceptable. To determine what is an acceptable risk, please refer to [risk tolerances](#translating-gitlabs-security-risk-appetite-to-risk-tolerance).
 

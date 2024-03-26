@@ -9,12 +9,12 @@ description: "Information about creating and running experiments at GitLab."
 
 
 
-
+  
 ### Experimentation
 
-This page covers the Growth engineering process for running experiments. See also:
+This page covers the Growth engineering process for running experiments. See also:  
 
-* [How Growth Launches Experiments](/handbook/marketing/growth/#how-growth-launches-experiments) (Product)
+* [How Growth Launches Experiments](/handbook/product/growth/#how-growth-launches-experiments) (Product)
 * [Experiment Guide](https://docs.gitlab.com/ee/development/experiment_guide/) (GitLab Developer Documentation)
 * [Experimentation Design & Analysis](/handbook/product/product-analysis/experimentation/) (Product Analysis)
 
@@ -113,9 +113,9 @@ The `experiment::` scoped labels are:
 
 #### Experiment Cleanup Issue
 
-This issue is used to clean up an experiment after an experiment has been completed. It is created within the project where the cleanup work will be done (e.g. the `gitlab-org/gitlab` project).
-The cleanup work may include completely removing the experiment
-(in the case of `~"experiment::invalidated"` and `~"experiment::inconclusive"`) or refactoring the experiment feature for the long run (in the case of `~"experiment::validated"`).
+This issue is used to clean up an experiment after an experiment has been completed. It is created within the project where the cleanup work will be done (e.g. the `gitlab-org/gitlab` project). 
+The cleanup work may include completely removing the experiment 
+(in the case of `~"experiment::invalidated"` and `~"experiment::inconclusive"`) or refactoring the experiment feature for the long run (in the case of `~"experiment::validated"`). 
 The cleanup issue should be linked to the experiment rollout issue as a reference to ensure the experiment is concluded prior to cleanup.
 
 The [Experiment Successful Cleanup](https://gitlab.com/gitlab-org/gitlab/-/issues/new?issuable_template=Experiment%20Successful%20Cleanup) issue template can be used for the `gitlab-org/gitlab` project.
@@ -149,7 +149,7 @@ Matej Latin shares an example of [a so-called "painted door" test](https://crsta
 A simple example of a "painted door" test might be a call-to-action (CTA) button that doesn't really go anywhere – maybe it brings up a simple modal which says "Oops! That feature isn't ready yet," or maybe it takes the user to an existing page in our documentation.
 Because the design of this type of MVE is intentionally simple, it is easier and faster to develop, deploy, and start gathering data.
 Because the design of this type of MVE is intentionally simple, it is easier and faster to develop and deploy. With a small amount of instrumentation, we can use it as an opportunity to measure initial engagement with that button.
-- Who clicks on the CTA?
+- Who clicks on the CTA? 
 - How often is it getting clicked?
 
 This can be a fairly low cost way to inform next steps, for example rolling back, developing a larger experiment, or implementing a feature as a follow-up.
@@ -160,14 +160,10 @@ Ask yourself, "Is there a simpler version of this experiment which is worth depl
 
 ## Experiment Status
 
-For real time experiment rollout status GitLab team members can view the [experiments API](https://gitlab.com/api/v4/experiments) ([docs](https://docs.gitlab.com/ee/api/experiments.html)) (a JSON viewer for your browser is recommended).
+For real time experiment rollout status GitLab team members can view the [experiments API](https://gitlab.com/api/v4/experiments) ([docs](https://docs.gitlab.com/ee/api/experiments.html)) (a JSON viewer for your browser is recommended). 
 
-The "current_status" will be on, off, or conditional. If conditional, there will be either a percentage_of_time or percentage_of_actors. Refer to the [note on feature flags](https://docs.gitlab.com/ee/development/experiment_guide/gitlab_experiment.html#notes-on-feature-flags) in the experiment guide.
+The "current_status" will be on, off, or conditional. If conditional, there will be either a percentage_of_time or percentage_of_actors. Refer to the [note on feature flags](https://docs.gitlab.com/ee/development/experiment_guide/gitlab_experiment.html#notes-on-feature-flags) in the experiment guide. 
 
-There are dashboards in Sisense to indicate whether the experiment flag still exists, but not the current status. These are also only available to GitLab team members.
-
-- [Experiments in codebase](https://app.periscopedata.com/app/gitlab/799224/Growth-experiment-cadence?widget=10640386&udv=0)
-- [Experiments removed](https://app.periscopedata.com/app/gitlab/799224/Growth-experiment-cadence?widget=12422147&udv=0)
-- [Legacy experiments (before 13.7)](https://app.periscopedata.com/app/gitlab/799224/Growth-experiment-cadence?widget=10640406&udv=0)
+There are dashboards in Sisense to indicate whether the experiment flag still exists, but not the current status. These are also only available to GitLab team members. 
 
 The [experiment rollout board](https://gitlab.com/groups/gitlab-org/-/boards/1352542?label_name[]=experiment-rollout) lists rollout issues linked to [experiment feature flags](https://docs.gitlab.com/ee/development/feature_flags/#experiment-type) used in development and on SaaS.

@@ -106,9 +106,9 @@ PSEs or Technical Instructors who deliver GitLab Education Services instructor-l
 
 1. During the training planning meeting, be sure to discuss and document all of the event logistics listed in the [Training Event Plan Template](https://docs.google.com/document/d/1huNauyfhFPvLCuo-9T7Ol3FtBDYowYxiP_T5ItP2FN4/edit?usp=sharing). The Project Coordinator will create a draft of the Training Event Plan prior to the meeting and update the document during the training planning meeting.  
    - During the training planning meeting, the course outline and system requirements pages below are useful to use to review training logistics, topics, teleconferencing, and system requirements.  
-      - [GitLab with Git Basics course outline](https://about.gitlab.com/services/education/gitlab-basics/)  
+      - [GitLab with Git Fundamentals course outline](https://about.gitlab.com/services/education/git-fundamentals/)  
       - [GitLab CI/CD course course outline](https://about.gitlab.com/services/education/gitlab-ci/)  
-      - [GitLab for Project Managers course outline](https://about.gitlab.com/services/education/pm/)  
+      - [GitLab Agile Portfolio Management course outline](https://about.gitlab.com/services/education/pm/)  
       - [GitLab Security Essentials course outline](https://about.gitlab.com/services/education/security-essentials/)  
       - [GitLab System Administration course outline](https://about.gitlab.com/services/education/admin/)  
       - [System Requirements](https://about.gitlab.com/services/education/prereq/)  
@@ -133,15 +133,15 @@ PSEs or Technical Instructors who deliver GitLab Education Services instructor-l
 
 ##### Training lab pre-course instructor workflow
 
-PS uses the [GitLab Demo Cloud](http://gitlabdemo.com/) as the standard environment for hands-on course lab activities and hands-on certification assessments. Follow these steps to set up your course attendees for lab access.
+PS uses the [GitLab Lab Environment](http://gitlabdemo.com/) as the standard environment for hands-on course lab activities and hands-on certification assessments. Follow these steps to set up your course attendees for lab access.
 
 **1. GitLab Demo System invitation codes**
 1. The Project Coordinator will generate the invitation code for your class and provide the invitation code information approximately a week prior to your class start date as part of the instructor friendly reminders post within your Kantata project.
-1. Follow the instructions on the [Demo System Invitation Code Redemption handbook page](/handbook/customer-success/demo-systems/#invitation-code-redemption) to redeem the invitation code and access the lab environment.
+1. Follow the instructions on the [GitLab Lab Environment Invitation Code Redemption handbook page](/handbook/customer-success/demo-systems/#invitation-code-redemption) to redeem the invitation code and access the lab environment.
 1. For any edits/extensions/etc or any custom redemption rules (different durations than our standards), contact the GitLab Professional Services Operations team for assistance.
 
 **2. Share the invitation code and access instructions with attendees**:
-1. On the first day of class, share the invitation code and review the login process with the attendees. Also let them know the expiration date (which is 7 days from the date they generate the login).
+1. On the first day of class, share the invitation code and review the login process with the attendees. Also let them know the expiration date (which is 30 days from the date they generate the login).
 
 #### Training Closeout
 

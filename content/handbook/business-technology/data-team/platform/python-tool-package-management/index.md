@@ -71,9 +71,9 @@ There are several images we are using 🐍`Python`. Various versions are in use 
 | [ci-pyhton-image](https://gitlab.com/gitlab-data/ci-python-image/-/blob/main/src/requirements.txt?ref_type=heads) | `3.8`          | `python:3.8-slim-buster`                                           | `TBA`     | `Data Platform`       |
 | [data-image](https://gitlab.com/gitlab-data/data-image/-/blob/master/data_image/Dockerfile?ref_type=heads)        | `3.10.3`          | `python:3.10.3`                                                       | `TBA`     | `Data Platform`       |
 | [data-science](https://gitlab.com/gitlab-data/data-science/-/blob/main/docker-compose.yml?ref_type=heads)         | `3.8.8`        | `registry.gitlab.com/gitlab-data/data-image/analyst-image:v0.0.19` | `TBA`     | `Data Scientists`     |
-| [dbt-image](https://gitlab.com/gitlab-data/dbt-image/-/blob/main/src/requirements.txt?ref_type=heads)             | `3.10.3`          | `python:3.10.3`                                                       | `TBA`     | `Data Platform`       |
+| [dbt-image](https://gitlab.com/gitlab-data/dbt-image/-/blob/main/src/requirements.txt?ref_type=heads)             | `3.10.3`       | `python:3.10.3`                                                    | `TBA`     | `Data Platform`       |
 | [gitlab-data-meltano](https://gitlab.com/gitlab-data/gitlab-data-meltano/-/blob/main/Dockerfile?ref_type=heads)   | `3.8`          | `meltano/meltano:v2.16.1-python3.8`                                | `TBA`     | `Data Platform`       |
-| [mlfow-infra](https://gitlab.com/gitlab-data/mlflow-infra/-/blob/main/mlflow_image/Dockerfile?ref_type=heads)     | `3.8`          | `python:3.8`                                                       | `TBA`     | `Data Scientists`       |
+| [mlfow-infra](https://gitlab.com/gitlab-data/mlflow-infra/-/blob/main/mlflow_image/Dockerfile?ref_type=heads)     | `3.8`          | `python:3.8`                                                       | `TBA`     | `Data Scientists`     |
 
 <details><summary>Dependency graph (Click to expand)</summary>
 
@@ -82,9 +82,9 @@ There are several images we are using 🐍`Python`. Various versions are in use 
 title: Dependency graph for images and Python versions
 ---
 flowchart LR
-    P37 --> pip
-    P38 --> pip
+    P38  --> pip
     P388 --> pip
+    P310 --> pip
     pip --> airflow-image
     pip --> analyst-image
     pip --> ci-python-image
@@ -101,10 +101,9 @@ flowchart LR
 
     
     subgraph Python
-        P37[Python 3.10.3]
         P38[Python 3.8]
         P388[Python 3.8.8]
-
+        P310[Python 3.10.3]
     end
 
     subgraph Package manager
@@ -157,14 +156,26 @@ This is because anything becomes deprecated usually no longer receives any bug f
 
 ## Tools inventory list
 
-> **Table 2:** List of tools we are using
+> **Table 2:** List of tools GitLab Data team is using
 
 | Tool name                                                                                                   | Version in use | Version supported timeline                                                                                                                                                                                                                                                                         | How to upgrade   | DRI       | Users                                                               | Upgrade Policy | 
 |-------------------------------------------------------------------------------------------------------------|----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------|-----------|---------------------------------------------------------------------| ------------ | 
-| [dbt](https://about.gitlab.com/handbook/business-technology/data-team/platform/dbt-guide/)                  | `1.2.3`        | [link](https://docs.getdbt.com/docs/dbt-versions/core#latest-releases)| - [dbt best practices for upgrading](https://docs.getdbt.com/docs/dbt-versions/core#best-practices-for-upgrading)<br>- [Upgrading dbt version](https://gitlab.com/gitlab-data/runbooks/-/blob/main/infrastructure/upgrading_dbt_version.md)  | `TBA`     | - `Data Platform`<br>- `Analytics Engineers`<br>- `Data Scientists` | Not more than 2 versions behind (beta release excluded) and minimum support level `critical` | 
+| [dbt](https://about.gitlab.com/handbook/business-technology/data-team/platform/dbt-guide/)                  | `1.6.4`        | [link](https://docs.getdbt.com/docs/dbt-versions/core#latest-releases)| - [dbt best practices for upgrading](https://docs.getdbt.com/docs/dbt-versions/core#best-practices-for-upgrading)<br>- [Upgrading dbt version](https://gitlab.com/gitlab-data/runbooks/-/blob/main/infrastructure/upgrading_dbt_version.md)  | `TBA`     | - `Data Platform`<br>- `Analytics Engineers`<br>- `Data Scientists` | Not more than 2 versions behind (beta release excluded) and minimum support level `critical` | 
 | [airflow](https://about.gitlab.com/handbook/business-technology/data-team/platform/infrastructure/#airflow) | `2.5.3`        | [link](https://airflow.apache.org/docs/apache-airflow/stable/installation/supported-versions.html#version-life-cycle) | [Upgrade Plan for Airflow](https://gitlab.com/gitlab-data/analytics/-/issues/11804)                                                                                                                                                          | `TBA`     | `Data Platform`                                                     | Current version released > 1 year |  
 | [permifrost](https://about.gitlab.com/handbook/business-technology/data-team/platform/permifrost/)          | `0.14.0`       | [link](https://gitlab.com/gitlab-data/permifrost)                                                                     | [Upgrading permifrost version](https://gitlab.com/gitlab-data/permifrost/-/blob/master/RELEASE.md?ref_type=heads)                                                                                                                            | @rbacovic | `Data Platform`                                                     | Not more than 2 versions behind (beta release excluded) | 
 | [meltano](https://about.gitlab.com/handbook/business-technology/data-team/platform/Meltano-Gitlab/)         | `2.16.1`       | [link](https://github.com/meltano/meltano/releases)                                                                   | [Upgrade Meltano version](https://gitlab.com/gitlab-data/gitlab-data-meltano/-/merge_requests/34)                                                                                                                                            | `TBA`     | `Data Platform`                                                     | Current version released > 1 year |
+
+### dbt packages inventory
+
+| package name                                                                                | Version in use |  DRI  | User                                   |
+|---------------------------------------------------------------------------------------------|----------------|-------|----------------------------------------|
+| [snowflake_spend](https://gitlab.com/gitlab-data/snowflake_spend)                           | `1.1`          | `N\A` |-Data Engineers<br>-Analytics Engineers | 
+| [data-tests](https://gitlab.com/gitlab-data/data-tests)                                     | `N\A`          | `N\A` |-Data Engineers<br>-Analytics Engineers | 
+| [dbt-labs/audit_helper](https://github.com/dbt-labs/dbt-audit-helper)                       | `0.9.0`        | `N\A` |-Data Engineers<br>-Analytics Engineers | 
+| [dbt-labs/dbt_utils](https://github.com/dbt-labs/dbt-utils)                                 | `1.1.1`        | `N\A` |-Data Engineers<br>-Analytics Engineers | 
+| [dbt-labs/snowplow](https://github.com/dbt-labs/snowplow/tree/0.15.1/)                      | `0.15.1`       | `N\A` |-Data Engineers<br>-Analytics Engineers | 
+| [dbt-labs/dbt_external_tables](https://hub.getdbt.com/dbt-labs/dbt_external_tables/latest/) | `0.8.7`        | `N\A` |-Data Engineers<br>-Analytics Engineers | 
+| [brooklyn-data/dbt_artifacts](https://github.com/brooklyn-data/dbt_artifacts)               | `2.6.1`        | `N\A` |-Data Engineers<br>-Analytics Engineers | 
 
 ### Approach to update tools version
 
@@ -244,10 +255,11 @@ The reason for upgrading can be dependent tool/package. For instance, if you pla
 
 > **Table 5:** Log activities regarding the upgrade
 
-| Quarter<br>(In which quarter we do upgrade planning) | Issue for check upgrades<br>(Put the link to the issue you plan to use for the upgrade planning) | Upgrade execution<br>(In which quarter we do upgrade execution) | Epic for planned upgrade<br>(Put the link to the epic you plan to use for the upgrade execution) | Type of upgrading<br>[`Python`\|`Tool`\|`Libraries`]<br>(What type of object you plan to upgrade) | DRI<br>(The individual who will check what is required for the upgrade planning) |
-|------------------------------------------------------|--------------------------------------------------------------------------------------------------|-----------------------------------------------------------------|----------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------|
-| `FY24Q4`                                             |                                                                                                  | `FY25Q1`                                                        |                                                                                                    |                                                                                                     | @rbacovic                                                                          |
-| `FY25Q1`                                             |                                                                                                  | `FY25Q2`                                                        |                                                                                                    |                                                                                                     |                                                                                    |
-| `FY25Q2`                                             |                                                                                                  | `FY25Q3`                                                        |                                                                                                    |                                                                                                     |                                                                                    |
-| `FY25Q3`                                             |                                                                                                  | `FY25Q4`                                                        |                                                                                                    |                                                                                                     |                                                                                    |
-| `FY25Q4`                                             |                                                                                                  | `FY26Q1`                                                        |                                                                                                    |                                                                                                     |                                                                                    |
+| Quarter<br>_(In which quarter we do upgrade planning) | Issue for check upgrades<br>_(Put the link to the issue you plan to use for the upgrade planning)_ | Upgrade execution<br>_(In which quarter we do upgrade execution)_ | Epic for planned upgrade<br>_(Put the link to the epic you plan to use for the upgrade execution)_ | Type of upgrading<br>[`Python`\|`Tool`\|`Libraries`]<br>(What type of object you plan to upgrade) | DRI<br>_(The individual who will check what is required for the upgrade planning)_ |
+|-------------------------------------------------------|----------------------------------------------------------------------------------------------------|-----------------------------------------------------------------|----------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------|
+| `FY24Q4`                                              | [#19248](https://gitlab.com/gitlab-data/analytics/-/issues/19248#package-version-inventory)        | `FY25Q1`                                                        |                                                                                                    |                                                                                                     | @rbacovic                                                                          |
+| `FY25Q1`                                              |                                                                                                    | `FY25Q2`                                                        |                                                                                                    |                                                                                                     |                                                                                    |
+| `FY25Q2`                                              |                                                                                                    | `FY25Q3`                                                        |                                                                                                    |                                                                                                     |                                                                                    |
+| `FY25Q3`                                              |                                                                                                    | `FY25Q4`                                                        |                                                                                                    |                                                                                                     |                                                                                    |
+| `FY25Q4`                                              |                                                                                                    | `FY26Q1`                                                        |                                                                                                    |                                                                                                     |                                                                                    |
+

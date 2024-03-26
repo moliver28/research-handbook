@@ -43,15 +43,21 @@ description: This page is about working with sales.
   - Account owner says the account is not theirs any more.
   - Account owner says they have no time to help.
 
-##### If the Salesforce `Account Owner` is `POOLED USER [ DO NOT CHATTER ]`
+##### If the Salesforce `Account Owner` is `AMER|EMEA|APAC SMB Sales User`
 
-- Chatter the [**@AMER Pooled AEs**](https://gitlab.my.salesforce.com/_ui/core/chatter/groups/GroupProfilePage?g=0F98X000000oPQS) group in Salesforce.
+- Follow this [process](https://handbook.gitlab.com/handbook/sales/commercial/global_digital_smb/#working-with-the-global-digital-smb-account-team) to create a case, OR
+Chatter the [**@SMB Advocate Team**](https://gitlab.my.salesforce.com/_ui/core/chatter/groups/GroupProfilePage?g=0F98X000000oPQS) group in Salesforce.
+  - Once a case is created, it will be picked up by an SMB Advocate.  Once picked up, the SMB Adovate will drop a note in the Zendesk ticket advising that the request is being actioned.
+  - The case can then be tracked by viewing the `Case Status` field, and `Case Next Steps` field.
+  - Support Cases, and their current status, can be viewed on the SFDC account, or via this [SFDC Report](https://gitlab.my.salesforce.com/00OPL000000toc5).
+
 - If the Support Engineer does not have Salesforce access, post a message in the [**#smb-pooled-ae**](https://gitlab.slack.com/archives/C036C3W83U1) slack channel.
 - In your post, include:
   - details of the request
   - the Zendesk ticket link
+- Note: Chattering the group or creating a slack post, instead of creating a Salesforce case, will result in a delayed response.  Chatters and slack messages can also not be tracked.
 
-##### If the Salesforce `Account Owner` is not a person and is not `POOLED USER [ DO NOT CHATTER ]`
+##### If the Salesforce `Account Owner` is not a person and is not `<@AMER|@EMEA|@APAC> SMB Sales` User
 
 1. Find the person in charge of the [sales segment](/handbook/sales/field-operations/gtm-resources/#segmentation)
   and [sales territory](https://internal.gitlab.com/handbook/sales/sales-operations/#territory-management) and mention them in a Chatter comment. In your post, include:

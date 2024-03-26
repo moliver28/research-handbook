@@ -216,7 +216,7 @@ Since GitLab is an [all remote](/handbook/company/culture/all-remote/) company w
 
 ### Kansas
 
-- [Unemployment Insurance](https://www.dol.ks.gov/documents/20121/56357/Unemployment+Insurance+Poster.pdf/81a04d94-26c5-ba54-16f8-b6b1e9d2932a?t=1612353923740)
+- [Unemployment Insurance](https://www.dol.ks.gov/home/showpublisheddocument/100/638363383565870000)
 - [Kansas Law Provides Equal Opportunity](http://www.khrc.net/pdf/ksemployposter.pdf)
 - [Workers' Compensation Notice - Inc.](https://drive.google.com/file/d/1wfEtSjJ7O_MDx4eIg9-5rebCLkDyrkgL/view?usp=sharing)
 

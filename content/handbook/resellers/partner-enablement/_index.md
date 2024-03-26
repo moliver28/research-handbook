@@ -31,8 +31,8 @@ Rember that some of the links below require you to login to [GitLab's Partner Po
 Learn what GitLab is, what it offers, and what it does
 
 **Customer Facing Resources**
-  - [GitLab Promo](https://about.gitlab.com/why-gitlab/) (Video)
-    - This is the GitLab Trailer.  It's actually a good elevator pitch!  Check it out.  (1 min)
+  - [GitLab Promo Page](https://about.gitlab.com/why-gitlab/) (Web Page)
+    - This is a Why GitLab Page .  It's actually a good elevator pitch!  Check it out.  
   - [GitLab Promo DEMO](https://about.gitlab.com/demo/) (Video)
     - This video is a bit longer demo video and shows more about using GitLab (3 min)
   - [Platform Page](https://about.gitlab.com/platform) (Web Page)

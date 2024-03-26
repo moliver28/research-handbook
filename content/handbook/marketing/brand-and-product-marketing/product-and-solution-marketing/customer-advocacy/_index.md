@@ -92,7 +92,7 @@ To formally recognize members of our revenue organization who partner with marke
 
 
 **Make a request**
-To create a general request for the Customer Advocacy team, [open an issue here](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/product-marketing) and assign it to Nicole Smith.  
+To create a general request for the Customer Advocacy team, [open an issue here](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/product-marketing) and assign it to Nicole Smith.
 
 **Nominate an advocate**
 This process is evolving. While we’re under construction, please [nominate an advocate here](https://docs.google.com/forms/d/e/1FAIpQLSfdnTB8tzhBxoLYKxOAaMrPOCi4hrJfEfY_W_GHDwDKuUEXpQ/viewform?usp=sf_link), or post in #customer-advocacy-and-references for any questions.
@@ -106,9 +106,9 @@ Find us on Slack at #customer-advocacy-and-references.
 
   Visit our Customer Advocacy spot on HighSpot to find all of our existing customer story content and filter based on industry, use case, region, and more! Here you can create a “pitch” and share out your content of choice directly from the platform.
 
-  [**Website**](/customers/)
-  
-  Visit [about.gitlab.com/customers](/customers/) to find our external customer stories page.
+  [**Website**](https://about.gitlab.com/customers/)
+
+  Visit [about.gitlab.com/customers](https://about.gitlab.com/customers/) to find our external customer stories page.
 
 **Other Links**
 

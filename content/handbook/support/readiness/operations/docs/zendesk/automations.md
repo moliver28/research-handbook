@@ -120,6 +120,8 @@ deleting, click the three vertical dots at right-hand side of automation, and
 click `Delete`. This will cause a pop-up modal to appear asking you to confirm
 the action. Click blue `Delete automation` button to do so.
 
+## Troubleshooting
+
 #### Pipeline error "No managed content file"
 
 This happens when we have said a managed content file should exist, but the git
@@ -141,6 +143,46 @@ submodule does not contain one. This is commonly caused by:
   managed content project MR completed and merged first. Once that has been
   done, you can rebase your MR by making a comment of `/rebase`. After it
   performs the rebase, your MR's CI/CD pipeline should pass.
+
+#### Pipeline error "Blank ID"
+
+This means the script detected a YAML file within `data/active` or
+`data/inactive` that has an `id` value of blank (or nil). You will need to
+locate the file mentioned in the error and correct that.
+
+#### Pipeline error "Blank position"
+
+This means the script detected a YAML file within `data/active` or
+`data/inactive` that has an `position` value of blank (or nil). You will need to
+locate the file mentioned in the error and correct that.
+
+#### Pipeline error "Blank title"
+
+This means the script detected a YAML file within `data/active` or
+`data/inactive` that has an `title` value of blank (or nil). You will need to
+locate the file mentioned in the error and correct that.
+
+#### Pipeline error "Inactive automation in active folder"
+
+This means the script detected a YAML file within `data/active` that has an
+`active` value of `false`. You will need to locate the file mentioned in the
+error and correct that.
+
+#### Pipeline error "Active automation in inactive folder"
+
+This means the script detected a YAML file within `data/inactive` that has an
+`active` value of anything other than `false`. You will need to locate the file
+mentioned in the error and correct that.
+
+#### Pipeline error "GitLab errors"
+
+This is a generic error message that will detail some error that occurred when
+trying to either create or update the tag used on the source project. The exact
+steps to fix this will vary based on the nature of the error itself. You will
+need to review the error and determine the next steps from there.
+
+If you are unsure how to proceed, it is best to seek assistance from the wider
+team.
 
 ## Source Projects
 

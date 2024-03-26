@@ -4,10 +4,7 @@ title: "Static Analysis Group"
 
 ## Static Analysis
 
-The Static Analysis group at GitLab is charged with developing the following solutions for customer software repositories:
-- [Static Application Security Testing (SAST)](https://about.gitlab.com/direction/secure/static-analysis/sast/)
-- [Secret Detection](https://about.gitlab.com/direction/secure/static-analysis/secret-detection/)
-- [Code Quality](https://about.gitlab.com/direction/secure/static-analysis/code_quality/)
+The Static Analysis group at GitLab is charged with developing the [Static Application Security Testing (SAST)](https://about.gitlab.com/direction/secure/static-analysis/sast/) feature category for customer software repositories.
 
 ## Common Links
 
@@ -172,9 +169,6 @@ Observability is a critical component to any high-availability system and it is 
 - [SAST Analyzer Registry Traffic](https://log.gprd.gitlab.net/app/dashboards#/view/84aa3f10-89d2-11ec-9dd2-93d354bef8e7?_g=(filters%3A!()%2CrefreshInterval%3A(pause%3A!t%2Cvalue%3A0)%2Ctime%3A(from%3Anow-24h%2Cto%3Anow)))
 - [SAST Engineering Kibana Dashboard](https://log.gprd.gitlab.net/app/dashboards#/view/1eebd010-9a73-11ec-9dd2-93d354bef8e7)
 
-We also utilize Sisense for long-term trend forecasting. While this is not a recommended observability tool, it can be helpful to recognize trends over time as they surface.
-
-- [Static Analysis analyzer job performance](https://app.periscopedata.com/app/gitlab/833722/Static-Analysis-Analyzer-job-performance)
 
 #### Runbooks
 
@@ -368,4 +362,18 @@ If there is any question of whether a bug fix or improvement should be taken up 
 
 When a [Customer Success Escalation](/handbook/customer-success/csm/escalations/) is declared, the Engineering Manager and Product Manager should both be alerted, and an appropriate team member should be designated to deprioritize existing work and respond to the escalation as soon as possible.
 
-{{% cross-functional-dashboards filters="Static Analysis" %}}
+{{< tableau height="600px" toolbar="hidden" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/TopEngineeringMetrics/TopEngineeringMetricsDashboard" >}}
+  {{< tableau/filters "GROUP_LABEL"="static analysis" >}}
+{{< /tableau >}}
+
+{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/MergeRequestMetrics/OverallMRsbyType_1" >}}
+  {{< tableau/filters "GROUP_LABEL"="static analysis" >}}
+{{< /tableau >}}
+
+{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/Flakytestissues/FlakyTestIssues" >}}
+  {{< tableau/filters "GROUP_NAME"="static analysis" >}}
+{{< /tableau >}}
+
+{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/SlowRSpecTestsIssues/SlowRSpecTestsIssuesDashboard" >}}
+  {{< tableau/filters "GROUP_LABEL"="static analysis" >}}
+{{< /tableau >}}

@@ -221,4 +221,5 @@ To ensure that the issue gets visibility by our team, when creating an issue on 
 
 The handbook is essential to working remote successfully, to keeping up our transparency, and to recruiting successfully. Our processes are constantly evolving and we need a way to make sure the handbook is being updated at a regular cadence. This is measured by Merge Requests that update the handbook contents related to the performance indicator pages, our team page, and engineering metrics pages.
 
-{{< sisense dashboard="902602" chart="12625524" >}}
+{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/HandbookMRRate/EAhandbookMRrate" >}}
+{{< /tableau >}}

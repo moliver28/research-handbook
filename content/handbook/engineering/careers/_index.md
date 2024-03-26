@@ -141,7 +141,7 @@ For more details on logistics of ending an interim or acting period please refer
 
 #### Development Department
 
-<div class="x-scrollable">
+<div style="overflow-x: auto">
 <div style="width: 1800px;">
 
 ```mermaid
@@ -221,7 +221,7 @@ For more details on logistics of ending an interim or acting period please refer
   click eng:fel "/job-families/engineering/engineering-management/#engineering-fellow";
 
   %% career progression
-  subgraph Based on Merit and Company Need
+  subgraph Based on Merit & Company Need
   eng:stfe & eng:em
   eng:stbe & eng:em
   eng:stfs & eng:em;
@@ -235,10 +235,14 @@ For more details on logistics of ending an interim or acting period please refer
   eng:tfs-->eng:afs-->eng:ifs-->eng:sfs-->eng:stfs & eng:em;
   end
 ```
+
 </div>
 </div>
 
 #### Quality Department
+
+<div style="overflow-x: auto">
+<div style="width: 1800px;">
 
 ```mermaid
   graph LR;
@@ -250,7 +254,7 @@ For more details on logistics of ending an interim or acting period please refer
     qual:ifsecs(Intermediate Fullstack Engineer, Contributor Success)-->qual:sfsecs(Senior Fullstack Engineer, Contributor Success);
   end
 
-  subgraph Based on Merit &amp; Company Need
+  subgraph Based on Merit & Company Need
     qual:sset(Senior Software Engineer in Test)-->qual:stset(Staff Software Engineer in Test);
     qual:sset(Senior Software Engineer in Test)-->qual:qem(Quality Engineering Manager);
 
@@ -277,7 +281,13 @@ For more details on logistics of ending an interim or acting period please refer
   click qual:vpq "/job-families/engineering/engineering-management-quality/#vp-of-quality";
 ```
 
+</div>
+</div>
+
 #### Support Department
+
+<div style="overflow-x: auto">
+<div style="width: 1800px;">
 
 ```mermaid
   graph LR;
@@ -287,7 +297,7 @@ For more details on logistics of ending an interim or acting period please refer
     supe:se(Support Engineer)-->supe:sse(Senior Support Engineer);
   end
 
-  subgraph Based on Merit &amp; Company Need
+  subgraph Based on Merit & Company Need
     supe:sse(Senior Support Engineer)-->supe:stse(Staff Support Engineer);
     supe:sse(Senior Support Engineer)-->supe:sem(Support Engineering Manager);
 
@@ -303,7 +313,13 @@ For more details on logistics of ending an interim or acting period please refer
   click supe:ds "/job-families/engineering/support-management#director-of-support";
 ```
 
+</div>
+</div>
+
 #### Infrastructure Department
+
+<div style="overflow-x: auto">
+<div style="width: 1800px;">
 
 ```mermaid
   graph LR;
@@ -322,7 +338,7 @@ For more details on logistics of ending an interim or acting period please refer
     eng:ia(Infrastructure Analyst)
   end
 
-subgraph Based on Merit &amp; Company Need
+subgraph Based on Merit & Company Need
   %% Backend Engineers
     eng:sbe(Senior Backend Engineer)-->eng:stbe(Staff Backend Engineer);
     eng:stbe(Staff Backend Engineer)-->eng:pei(Principal Engineer Infrastructure);
@@ -379,7 +395,13 @@ subgraph Based on Merit &amp; Company Need
   click eng:efi "/job-families/engineering/infrastructure/engineering-fellow/";
 ```
 
+</div>
+</div>
+
 #### Incubation Engineering Department
+
+<div style="overflow-x: auto">
+<div style="width: 1800px;">
 
 ```mermaid
   graph LR;
@@ -388,7 +410,7 @@ subgraph Based on Merit &amp; Company Need
   inc:int(Intermediate Incubation Engineer) --> inc:snr(Senior Incubation Engineer);
   end
 
-  subgraph Based on Merit &amp; Company Need
+  subgraph Based on Merit & Company Need
   inc:snr(Senior Incubation Engineer)-->inc:stf(Staff Incubation Engineer);
   inc:stf(Staff Incubation Engineer)-->inc:pre(Principal Incubation Engineer);
   inc:dir(Director, Incubation Engineering)-->inc:vp(VP of Incubation Engineering);
@@ -399,8 +421,11 @@ subgraph Based on Merit &amp; Company Need
   click inc:stf "/job-families/engineering/development/incubation/engineer/#staff-incubation-engineer";
   click inc:pre "/job-families/engineering/development/incubation/engineer/#principal-incubation-engineer";
   click inc:dir "/job-families/engineering/development/incubation/management/#director-incubation-engineering";
-  click inc:vp  "/job-families/engineering/development/incubation/management/#vp-of-incubation-engineering";
+  click inc:vp "/job-families/engineering/development/incubation/management/#vp-of-incubation-engineering";
 ```
+
+</div>
+</div>
 
 ## Apprenticeship for Learning
 

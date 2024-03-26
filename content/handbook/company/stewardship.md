@@ -25,7 +25,8 @@ We promise that:
 1. The open source codebase will not contain any artificial limits (repositories, users, size, performance, [requiring a trademarked header](https://news.ycombinator.com/item?id=28110610), etc.).
 1. All stages of the DevOps lifecycle (plan, create, verify, package, release, configure, monitor) will have some open source features.
 1. The majority of new features made by GitLab Inc. will be open source.
-1. The product will be available for download from a link above the fold on the desktop homepage without you having to submit an email address or sign in.
+1. The product will be available for install and/or download in the menu of the website.
+1. You can install it without you having to submit an email address or sign in.
 1. We will always allow you to [benchmark the performance](https://news.ycombinator.com/item?id=18103162) of GitLab.
 1. We will make our Free tier easily discoverable.
 1. We will always make it clear what is proprietary and what is open source code. This will be implemented with a [separate directory for EE code](https://gitlab.com/gitlab-org/gitlab/-/tree/master/ee) and a [Git repo downstream that is open source only](https://gitlab.com/gitlab-org/gitlab-foss).
@@ -49,7 +50,7 @@ just that we think that other buyers are relatively more likely to care about it
 The more of GitLab that you use the more likely it is that you benefit from a higher tier.
 Even a single person using GitLab might be best off using our highest tier.
 
-It is hard to get [the tier](/handbook/marketing/strategic-marketing/tiers/) right, and if we put something in a tier that is too high we won't hesitate to [open-source](/releases/2016/12/24/were-bringing-gitlab-pages-to-community-edition/) [it](https://news.ycombinator.com/item?id=10931347) or move it to a lower tier. We listen to our community in order to find what we feel is the right balance, and we iterate and make changes based on their feedback. At the same time, the premium product needs to hold value, and we believe we provide that.
+It is hard to get [the tier](/handbook/marketing/strategic-marketing/tiers/) right, and if we put something in a tier that is too high we won't hesitate to [open-source](https://about.gitlab.com/releases/2016/12/24/were-bringing-gitlab-pages-to-community-edition/) [it](https://news.ycombinator.com/item?id=10931347) or move it to a lower tier. We listen to our community in order to find what we feel is the right balance, and we iterate and make changes based on their feedback. At the same time, the premium product needs to hold value, and we believe we provide that.
 
 All stages of the [DevOps lifecycle](https://about.gitlab.com/direction/#scope) have at least some features available in GitLab Core. There are companies using GitLab Core with more than 10,000 users.
 

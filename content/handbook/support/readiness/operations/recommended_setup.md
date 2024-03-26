@@ -282,7 +282,7 @@ export ZD_USERNAME='YOUR_EMAIL_ADDRESS'
 export ZD_TOKEN='ZENDESK_GLOBAL_ADMIN_TOKEN'
 
 # main sandbox
-export ZD_SB_URL='https://gitlab1545832369.zendesk.com/api/v2'
+export ZD_SB_URL='https://gitlab1707170878.zendesk.com/api/v2'
 export ZD_SB_USERNAME='YOUR_EMAIL_ADDRESS'
 export ZD_SB_TOKEN='ZENDESK_GLOBAL_SANDBOX_ADMIN_TOKEN'
 

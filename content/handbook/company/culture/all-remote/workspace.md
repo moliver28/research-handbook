@@ -46,7 +46,7 @@ Assuming you're lucky enough to have excellent access, you may also want to set 
 
 ### PC
 
-Refer to your company's policy for specifics on [purchasing a computer or laptop](/handbook/business-technology/team-member-enablement/onboarding-access-requests#laptops). Since this will your main mode of working and communicating, be sure the specs and speed fit your optimal way of working.
+Refer to your company's policy for specifics on [purchasing a computer or laptop](/handbook/business-technology/end-user-services/onboarding-access-requests#laptops). Since this will your main mode of working and communicating, be sure the specs and speed fit your optimal way of working.
 
 ### Camera with video capability
 
@@ -59,8 +59,6 @@ There are generally three tiers of camera quality for at-home workspaces (profes
 1. Built-in webcam on a phone, laptop, or external display (baseline)
 
 #### Mirrorless or DSLR camera
-
-{{% tweet user="chrisgetsbetter" id="1243620518281928705" %}}
 
 For optimal image quality in video calls, a dedicated mirrorless camera or DSLR is the ideal. *The Verge* maintains a [basic setup guide](https://www.theverge.com/21244380/webcam-camera-how-to-dslr-mirrorless-capture-card-usb-hdmi) if you're new to the concept. Sony's Alpha line of mirrorless cameras are excellent for webcam use. However, these types of cameras and their accessories can be very expensive, and may not be right for everyone's needs. Before committing, read the following considerations.
 
@@ -189,8 +187,6 @@ Generally, a larger desk is preferred, as it reduces crowding. A clean, uncrowde
 
 #### Standing desks
 
-{{% tweet user="jake_burden_" id="1333471036474597377" %}}
-
 An adjustable standing desk is a great, ergonomic option. You can find standing desks at a variety of price points, heights, adjustability levels, and more. An adjustable desk allows you to easily move your desk higher in order to stand while working, and then adjust it back down to sit for a time. This is a good article on [The Best Standing Desks](https://thewirecutter.com/reviews/best-standing-desk) in higher price ranges.
 
 GitLab team members have been satisfied with the value and quality of standing desks from [Autonomous](https://www.autonomous.ai), [IKEA](https://www.ikea.com/us/en/p/skarsta-trotten-desk-sit-stand-white-s49435416), [Fully](https://www.fully.com/standing-desks.html) and [WorkTrainer for small spaces](https://www.worktrainer.de/Kleiner-Wand-Sitz-Steh-Tisch-Walldesk-elektrisch).
@@ -252,7 +248,7 @@ Research has [found](https://www.bbc.com/worklife/article/20160617-the-never-end
 
 - GitLab Head of Remote, Darren M., shares details on his work-from-home arrangement, which includes a mirrorless camera as a webcam for optimal video quality.
 - Job van der Voort, CEO at Remote, provides [a breakdown of his top-notch home office setup](https://remote.com/blog/maximum-productivity-home-office).
-- GitLab Developer Evangelist Michael F. [details his current setup](https://dnsmichi.at/all-remote-workspace) with helpful tips on lighting, apps and settings, and how to personalize your workspace.
+- GitLab Developer Advocate Michael F. [details his current setup](https://dnsmichi.at/all-remote-workspace) with helpful tips on lighting, apps and settings, and how to personalize your workspace.
 - Emma Bostian, Software Engineer at Spotify, [writes about her home-office tech setup for recording courses and podcasts](https://dev.to/emmabostian/lights-camera-action-my-tech-setup-for-recording-courses-podcasts-2p6j)
 - Andreas Klinger, founder at [Remote First Capital](https://www.remotefirstcapital.com), maintains an [ongoing Twitter thread](https://twitter.com/andreasklinger/status/1238325463300202497) of exceptional at-home workspaces.
 

@@ -4,15 +4,8 @@ title: "Customer Success Management Handbook"
 description: "The Customer Success Management team at GitLab is a part of the Customer Success department, acting as trusted advisors to our customers and helping them realize value faster."
 ---
 
-
-
-
-
-
-
-
 [<button class="btn btn-primary" type="button" style="padding: 15px 30px; font-size: 24px;">Digital</button>](/handbook/sales/field-operations/customer-success-operations/cs-ops-programs/)
-[<button class="btn btn-primary" type="button"  style="padding: 15px 30px; font-size: 24px;">Scale</button>](/handbook/customer-success/csm/segment/scale/)
+[<button class="btn btn-primary" type="button"  style="padding: 15px 30px; font-size: 24px;">CSE</button>](/handbook/customer-success/csm/segment/scale/)
 [<button class="btn btn-primary" type="button"  style="padding: 15px 30px; font-size: 24px;">CSM AMER</button>](/handbook/customer-success/csm/segment/amer/)
 [<button class="btn btn-primary" type="button"  style="padding: 15px 30px; font-size: 24px;">CSM EMEA</button>](/handbook/customer-success/csm/segment/emea/)
 [<button class="btn btn-primary" type="button"  style="padding: 15px 30px; font-size: 24px;">CSM APJ</button>](/handbook/customer-success/csm/segment/apj/)
@@ -47,7 +40,7 @@ CSMs are accountable for customer adoption, measurable outcomes, customer satisf
 </thead><tbody>
   <tr>
     <td><a href="/handbook/customer-success/csm/success-plans/">Success Plans</a></td>
-    <td>Mutually agreed (Customer | GitLab) adoption plans that outline desired outcomes (e.g., improve cycle time),technical milestones required (e.g., migrate to GitLab, overcome constraints), timelines and DRIs.
+    <td>Mutually agreed (Customer | GitLab) adoption plans that outline desired outcomes (e.g., improve cycle time), technical milestones required (e.g., migrate to GitLab, overcome constraints), timelines and DRIs.
     <br><br>
      These plans enable us to be proactive and ensure progress towards the customer's goals. As trusted advisors, we understand what drives value for our customers and help them achieve it.</td>
     <td>Every customer must have an active success plan</td>
@@ -62,7 +55,7 @@ CSMs are accountable for customer adoption, measurable outcomes, customer satisf
   <tr>
     <td><a href="/handbook/customer-success/csm/cadence-calls/">Cadence Calls</a></td>
     <td>The cadence call is a proactive call. For this call to be proactive, the CSM's responsibility includes those listed in the linked cadence call page</td>
-    <td>Call frequency:<br><ul><li>Customer is engaged weekly or biweekly, monthly at a very minimum</li></ul><br><br>A CSM/CSE can expect to conduct a minimum number of calls as follows:<br><ul><li>CSMs: 5-7 calls per week</li><li>Scale CSEs: 15 calls per week</li></ul></td>
+    <td>Call frequency:<br><ul><li>Customer is engaged weekly or biweekly, monthly at a very minimum</li></ul><br><br>A CSM/CSE can expect to conduct a minimum number of calls as follows:<br><ul><li>CSMs: 5-7 calls per week</li><li>CSEs: 15 calls per week</li></ul></td>
     <td>DRI: CSM<br><br>Consulted: AE, Customer<br><br>Informed: SA, Leadership</td>
   </tr>
   <tr>
@@ -147,7 +140,7 @@ Please reference this page for an overview of the areas your CSM will engage wit
 ### Big Rock (Annual Strategy) Archive
 
 - [FY23](/handbook/customer-success/csm/fy23)
-- [FY24](/handbook.gitlab.com/handbook/customer-success/csm/annual-strategy/fy24/)
+- [FY24](/handbook/customer-success/csm/fy24)
 
 
 ## Handbook Directory

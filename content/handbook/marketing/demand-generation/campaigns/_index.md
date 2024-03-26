@@ -82,7 +82,7 @@ FY23-Q4
 **Shari Rances** _Sr. Marketing Campaign Manager_
 
 - **Campaign strategy for Automated Software Delivery (AutoSD) Global Campaign**
-  - Partner with campaign core team (Product Marketing, Technical Marketing, Content, Analyst relations, Design) to develop and deploy Automated Software Delivery integrated marketing campaigns bundles
+  - Partner with campaign core team (Product Marketing, Developer Advocacy, Content, Analyst relations, Design) to develop and deploy Automated Software Delivery integrated marketing campaigns bundles
   - Host monthly enablement sessions on Automated Software Delivery global campaign updates and new LIVE assets
   - Produce half-yearly Automated Software Delivery global campaign performance reporting and optimization plan
   - Project manage and run top-funnel global campaign webcasts (e.g: Quarterly release webcasts, Forrester TEI webcast, DORA webcast)
@@ -92,7 +92,7 @@ Host monthly enablement sessions on global campaign updates and new LIVE assets
 **Eirini Panagiotopoulou** _Sr. Marketing Campaign Manager_
 
 - **Campaign strategy for DevSecOps Platform and Security & Compliance (S&C) Global Campaigns**
-  - Partner with campaign core team (Product Marketing, Technical Marketing, Content, Analyst relations, Design) to develop and deploy DevSecOps Platform and Security & Compliance integrated marketing campaigns bundles
+  - Partner with campaign core team (Product Marketing, Developer Advocacy, Content, Analyst relations, Design) to develop and deploy DevSecOps Platform and Security & Compliance integrated marketing campaigns bundles
   - Host monthly enablement sessions on DevSecOps Platform and Security & Compliance global campaigns updates and new LIVE assets
   - Produce half-yearly DevSecOps Platform and Security & Compliance campaigns performance reporting and optimization plan
   - Project manage and run top-funnel global campaign webcasts (e.g: Quarterly release webcasts, Forrester TEI webcast, DORA webcast)

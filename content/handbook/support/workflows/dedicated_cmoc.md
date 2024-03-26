@@ -46,6 +46,17 @@ Follow these steps to create a new ticket to start communications with a custome
 - Work with the customer to set expectations about the frequency of updates, especially if you are the GDCMOC within the same region as the customer. They will likely expect more updates during their regional business hours.
   - If we proceed with lower frequency updates, the important thing is that we communicate our expected update frequency to them. For example, we can let the customer know that during their regional business hours, we will provide an update every 1-2 hours, and during their non-regional hours we will update them if there is anything substantial to share.
 - Keep in mind the [information that we **should not** share with the customer](/handbook/support/workflows/dedicated/#sharing-internal-logs-data--graphs)
+- If you'd like a second pair of eyes to review messages before sending them out to customers,
+  refer to the table below to find an appropriate DRI.
+    - Approval of message content is required for security-related communications.
+    - Approval is optional for all other communication.
+
+| Communication type                       | Who reviews content?   | Who approves content? |
+|------------------------------------------|------------------------|-----------------------|
+| Non-security out-of-band maintenance     | SRE                    | Optional              |
+| Security-related out-of-band maintenance | SIRT                   | SIRT                  |
+| Incident communication                   | SRE / Incident manager | Optional              |
+| Other urgent communication               | It depends             | Optional              |
 
 ## Guidelines
 
@@ -61,3 +72,20 @@ You can ping the Support Manager oncall in slack with `@support-manager-oncall`.
 ## Handover
 
 Follow the [End of Shift Handover Procedure](/handbook/support/workflows/cmoc_workflows/#end-of-shift-handover-procedure) from the CMOC workflows. Make the ingress GDCMOC aware of any issues, slack threads or tickets they should CC themselves on. Assign the Zendesk ticket used for communication to the next CMOC.
+
+## Emergency maintenance
+
+A security vulnerability fix might result in emergency maintenance for GitLab Dedicated
+environments.
+
+NOTE:
+"Emergency maintenance" refers exclusively to security-related maintenance. Maintenance that
+happens outside of the weekly scheduled maintenance window should be referred to as "out-of-band
+maintenance"
+
+In such cases, the GitLab Dedicated CMOC will be called upon to send initial notification to
+customers using the `TO_BE_CREATED` macro. The following information should be provided:
+
+- The list of customers to contact.
+- The date and approximate time (in UTC) that emergency maintenance was carried out.
+- Whether the customer's GitLab Dedicated environment was impacted and details if any.

@@ -11,7 +11,7 @@ DRI: [@eduardobonet](https://gitlab.com/eduardobonet)
 - [Epic](https://gitlab.com/groups/gitlab-org/-/epics/8560)
 - [All Merge Requests](https://gitlab.com/gitlab-org/gitlab/-/merge_requests?scope=all&state=opened&label_name[]=Model%20Experiments)
 - [All Issues](https://gitlab.com/gitlab-org/gitlab/-/issues/?label_name%5B%5D=Model%20Experiments)
-- [Usage](https://app.periscopedata.com/app/gitlab/1138619/Model-experiments)
+- [Usage](https://gitlab.com/gitlab-data/tableau/-/issues/323)
 
 ## Mission
 

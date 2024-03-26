@@ -45,7 +45,7 @@ The License Compliance report will generate a list of all of the licenses detect
 
 1. Click the **New policy** button.
 
-1. Click **Scan result policy > Select policy**.
+1. Click **Merge request approval policy > Select policy**.
 
 1. Input any name (ex. `ScanApprovedPolicy`) and description for the policy.
 

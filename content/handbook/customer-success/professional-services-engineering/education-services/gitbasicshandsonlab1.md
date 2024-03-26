@@ -21,7 +21,7 @@ GitLab provides various tools for tracking and managing projects. In this lab, y
 
 1. Select **Provision Training Environment**.
 
-1. The system then prompts you for your **GitLab.com** username. Enter your GitLab.com user in the field provided. Select **Provision Training Environment**.
+1. The system then prompts you for your **GitLab.com** username. Enter your GitLab.com user (excluding the leading @ sign) in the field provided. Select **Provision Training Environment**.
 
 1. On the confirmation page, locate the `Your GitLab Credentials` section. Read this section carefully, noting the credential information provided and the expiration date. Your access to this group and all of the projects that you create is ephemeral and will be deleted after the expiration date.
 
@@ -105,7 +105,7 @@ GitLab provides various tools for tracking and managing projects. In this lab, y
 
    > When you create a label in a project, the label is created at the project level. This means that the label will not be available in any other projects. It is possible to also create a group level label, which is available to all projects in a group.
 
-1. Using the previous three steps, create two additional labels for with the titles `Completed` and `Needs documentation`. These labels can have any background colors that you desire.
+1. Using the previous three steps, create two additional labels with the titles `Completed` and `Needs documentation`. These labels can have any background colors that you desire.
 
 1. You now have 3 labels that are now available for you to assign to any issue, merge request, or epic in your project.
 

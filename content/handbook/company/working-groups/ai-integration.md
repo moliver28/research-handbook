@@ -114,7 +114,7 @@ The following criteria should be met for the group to disband:
 | Application Security Representative | @greg | [Greg Myers](/handbook/company/team/#greg) | Security Engineer (Application Security) |
 | Solutions Architecture Representative / Rapid Prototyping Team Member | @bartzhang | [Bart Zhang](/handbook/company/team/#bartzhang) | Channel Solutions Architect |
 | Product Marketing Representative| @laurenaalves | [Laurena Alves](/handbook/company/team/#laurenaalves) | Senior Product Marketing Manager |
-| Developer Relations Representative | @johncoghlan | [John Coghlan](https://gitlab.com/johncoghlan) | Senior Manager, Developer Evangelism |
+| Developer Relations Representative | @johncoghlan | [John Coghlan](https://gitlab.com/johncoghlan) | Director, Developer Advocacy |
 | Privacy Representative | @emccrann | [Eugene McCrann](/handbook/company/team/#emccrann) | Lead Legal Counsel, Privacy |
 | Quality Engineering Representative | @at.ramya | [Ramya Authappan](/handbook/company/team/#at.ramya) | Engineering Manager, Quality, Dev & Analytics Section |
 | Infrastructure | @lmcandrew  | [Liam McAndrew](/handbook/company/team/#lmcandrew)  | Engineering Manager, Scalability Frameworks |

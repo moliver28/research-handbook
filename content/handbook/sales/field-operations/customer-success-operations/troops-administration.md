@@ -18,9 +18,10 @@ For Rattle administrators:
 
 1. [How to Set Up a User](https://www.youtube.com/watch?v=ngsPW7J5myQ). Three steps:
    1. Create user in Rattle
+   1. Add user to the Okta Rattle Group (https://groups.google.com/a/gitlab.com/g/okta-rattle-users/members)
    1. Ensure the user has integrated their Salesforce account (https://help.gorattle.com/en/articles/6254793-accepting-a-rattle-invite-and-integrating-salesforce) 
    1. Add user to their respective *regional* slack channel notification (rattle-activities-region) 
    1. Add user to #rattle-users in Slack
    1. All workflows in Rattle are based on Salesforce Role, not the user's name, so there is no action needed on workflows when a new hire starts. 
 1. [How to Set Up a New Workflow](https://help.gorattle.com/en/collections/3196824-workflows)
-1. [Additional Rattle How-To Documentation] (https://help.gorattle.com/en/)
+1. [Additional Rattle How-To Documentation](https://help.gorattle.com/en/)
