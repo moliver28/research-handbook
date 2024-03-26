@@ -3,9 +3,26 @@ title: Govern, Threat Insights
 description: "The Threat Insights group at GitLab is charged with developing solutions to enable customers to manage their security risks effectively and efficiently."
 ---
 
-## Threat Insights
+## Customer outcomes we are driving for at GitLab
 
-We are responsible for developing solutions to give customers insights into threats and enable them to manage their security risks effectively and efficiently.
+As a developer it is imperative to know if you are introducing vulnerabilities as you merge into protected branches in addition to the default branch. In FY25, we will allow users to track vulnerabilities across multiple branches. If there is something a developer wants to remediate, but aren’t sure where to get started, they can use our features AI to learn more and get a suggestion for a fix.
+
+As a security engineer, you want to know what vulnerabilities to work on first. Over the next year we will be adding key risk metrics so you can quickly triage and mitigate vulnerabilities that have the potential to be exploited.
+
+Leadership wants to make sure their organization is mitigating risks and their security programs are effective. With enhancements to the Security Dashboards, leaders will have a place to get an overview and answer key questions about metrics, trends and vulnerabilities that need
+to be addressed quickly.
+
+## Top Priorities for FY25
+
+**Enable users to identify risk and visualize trends** - We will be making enhancements to Security Dashboards at the project and group level.
+
+**Estimate potential impact and likelihood of vulnerability exploitation** - Give users the ability to access risk directly in the vulnerability report through industry known risk scores like CVSS (Common Vulnerability Scoring System) and exploitability probability.
+
+E**nable users to track vulnerabilities across multiple branches** - Allow users to track vulnerabilities outside the default branch.
+
+**Offer guidance for users to get started with vulnerability remediation** - leverage the power of AI and security training to help developers understand and remediate vulnerabilities.
+
+**Threat Insights features are reliable and perform at scale** - As we add more group and organization level features, we will be optimizing query performance and move forward with confidence that our database will scale and perform as we grow.
 
 ## Common Links
 
