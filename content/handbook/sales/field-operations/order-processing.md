@@ -615,7 +615,7 @@ IF:
 1. Opportunity Type = New Business or Add-On Business
 2. Net ARR >= $100,000
 3. Stamped Sales Segment = Large
-4. Stamped Opp Owner User Region = AMER
+4. Stamped Opp Owner User Region = `AMER`, `EMEA`
 5. Product Sold = SaaS - Ultimate, Self-Managed - Ultimate, or Dedicated - Ultimate
 
 THEN:
@@ -639,7 +639,7 @@ THEN:
 If an opportunity meets the criteria listed above, the Minimum Professional Services Amount must be attached to the opportunity. Services can be attached using one of two methods:
 
 1. Add standard SKU professional services (i.e. Admin Training) totaling or exceeding the Minimum Professional Services Amount to the quote. Note: Custom services requiring a signed SOW must be quoted separately on a standalone opportunity - see below.
-2. Link a separate, standalone professional services opportunity with services totaling or exceeding the Minimum Professional Services Amount via the "PS Opportunity" field.
+2. Link a separate, standalone professional services opportunity with services totaling or exceeding the Minimum Professional Services Amount via the "PS Opportunity" field. Please work with the assigned Professional Services Engagement Manager if a Custom Statement of Work (SOW) is needed.
 
 #### Service Attach Exceptions/Approval Requirements:
 
