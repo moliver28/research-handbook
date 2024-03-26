@@ -47,6 +47,4 @@ The `~Maturity::*` label reflects the current state of the process and is **opti
 
 ## Resources
 
-- ["Capability Maturity Model" wikipedia page]
-
-["Capability Maturity Model" wikipedia page]: (https://en.wikipedia.org/wiki/Capability_Maturity_Model)
+- ["Capability Maturity Model" wikipedia page](https://en.wikipedia.org/wiki/Capability_Maturity_Model)
