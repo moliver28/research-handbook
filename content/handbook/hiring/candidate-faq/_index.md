@@ -192,7 +192,7 @@ At GitLab, we hire people from all over the world and all walks of life. Diversi
 
 {{% details summary="Take a look at the countries where we currently hire below." %}}
 
-Please refer to a specific job listing to see if the position is hiring in the country where you are located. You check our [handbook]({{< ref "/handbook/people-group/employment-solutions#country-hiring-guidelines" >}}) for more in-depth information
+Please refer to a specific job listing to see if the position is hiring in the country where you are located. You check our [handbook](/handbook/people-group/employment-solutions#country-hiring-guidelines) for more in-depth information
 
 | Country                                                        | Employed through an Entity or PEO  |
 | -------------------------------------------------------------- | ---------------------------------- |
@@ -239,7 +239,7 @@ Our [mission]({{< ref "mission" >}}) makes it clear that we believe in a world w
 - [Life at GitLab](https://about.gitlab.com/jobs/)
 - [How We're Changing the Look of DevOps and Remote Work, One Iteration at a Time](https://builtin.com/brand-studio/gitlab-changing-look-devops-remote-work?utm_source=linkedin&utm_medium=social_media&utm_campaign=gitlab)
 - [GitLab's guide to starting a new remote role](/handbook/company/culture/all-remote/getting-started/)
-- [Life at GitLab Content Library]({{< ref "/handbook/people-group/employment-branding/content-library" >}})
+- [Life at GitLab Content Library](/handbook/people-group/employment-branding/content-library)
 {{% /details %}}
 
 ### What our team members are saying

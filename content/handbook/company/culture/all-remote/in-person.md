@@ -129,7 +129,7 @@ In all-remote settings, these known touch points are critical for morale. Team m
 {{% /card %}}
 {{% /cardpane %}}
 
-As an all-remote team [scales]({{< ref "./scaling" >}}), you may find that certain regions of the world are home to multiple team members. At GitLab, we encourage colleagues to join [Location Channels]({{< ref "/handbook/communication/chat#location-channels-loc_" >}}) in Slack, which allow them to easily connect with others who live relatively nearby.
+As an all-remote team [scales]({{< ref "./scaling" >}}), you may find that certain regions of the world are home to multiple team members. At GitLab, we encourage colleagues to join [Location Channels](/handbook/communication/chat#location-channels-loc_) in Slack, which allow them to easily connect with others who live relatively nearby.
 
 This creates an easy path for gathering in a central location to bond. Common reasons for scheduling a get-together are holidays and milestone celebrations, though active local communities may consider coming together on a regular basis (monthly, quarterly, etc.) simply to maintain a physical connection.
 
@@ -163,7 +163,7 @@ Leadership should be mindful of personal strain placed on team members when they
 
 ## GitLab Knowledge Assessment: Considerations for in-person interactions in a remote company
 
-Anyone can test their knowledge on considerations for in-person interactions in a remote company by completing the [knowledge assessment](https://docs.google.com/forms/d/e/1FAIpQLSdJF6Gdal_o6g4a3qAwwas9glPMOQAiPDvPNbz3GQI5E5cvaw/viewform). Earn at least an 80% or higher on the assessment to receive a passing score. Once the quiz has been passed, you will receive an email acknowledging the completion from GitLab. We are in the process of designing a GitLab Remote Certification and completion of the assessment will be one requirement in obtaining the [certification](https://about.gitlab.com/learn/certifications/public). If you have questions, please reach out to our [Learning & Development team]({{< ref "/handbook/people-group/learning-and-development" >}}) at `learning@gitlab.com`.
+Anyone can test their knowledge on considerations for in-person interactions in a remote company by completing the [knowledge assessment](https://docs.google.com/forms/d/e/1FAIpQLSdJF6Gdal_o6g4a3qAwwas9glPMOQAiPDvPNbz3GQI5E5cvaw/viewform). Earn at least an 80% or higher on the assessment to receive a passing score. Once the quiz has been passed, you will receive an email acknowledging the completion from GitLab. We are in the process of designing a GitLab Remote Certification and completion of the assessment will be one requirement in obtaining the [certification](https://about.gitlab.com/learn/certifications/public). If you have questions, please reach out to our [Learning & Development team](/handbook/people-group/learning-and-development) at `learning@gitlab.com`.
 
 ----
 

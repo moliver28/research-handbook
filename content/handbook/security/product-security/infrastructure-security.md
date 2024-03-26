@@ -11,7 +11,7 @@ aliases:
 
 GitLab's Infrastructure Security team is responsible for the planning, execution, and support of proactive initiatives specific to the security of GitLab.com. Its core mission is to become [Infrastructure Department](/handbook/engineering/infrastructure/)'s stable counterpart in Security. This is achieved by sharing the SRE view of GitLab.com, but with a strong security focus. Infrastructure Security's engagements take place in the form of infrastructure change reviews, SaaS infrastructure access & permissions models, cloud security best practices, operating system security, security monitoring at the host and container level, vulnerability management, and patching policies.
 
-Further details can be found in the [job family description]({{< ref "/job-families/security/infrastructure-security" >}}).
+Further details can be found in the [job family description](/job-families/security/infrastructure-security).
 
 ### Vision
 
@@ -52,23 +52,23 @@ SIRT's goal is detection and response of anomalies and security events - on the 
 <tbody>
 <tr>
 <td>Julie Davila</td>
-<td><a href="{{< ref "/job-families/security/security-leadership#vice-president-vp-security" >}}">VP, Product Security (interim InfraSec manager)</a></td>
+<td><a href="/job-families/security/security-leadership#vice-president-vp-security">VP, Product Security (interim InfraSec manager)</a></td>
 </tr>
 <tr>
 <td>Paulo Pontes Martins</td>
-<td><a href="{{< ref "/job-families/security/infrastructure-security#senior-infrastructure-security-engineer" >}}">Staff Security Engineer, Infrastructure Security</a></td>
+<td><a href="/job-families/security/infrastructure-security#senior-infrastructure-security-engineer">Staff Security Engineer, Infrastructure Security</a></td>
 </tr>
 <tr>
 <td>Dhruv Jain</td>
-<td><a href="{{< ref "/job-families/security/infrastructure-security#senior-infrastructure-security-engineer" >}}">Senior Security Engineer, Infrastructure Security</a></td>
+<td><a href="/job-families/security/infrastructure-security#senior-infrastructure-security-engineer">Senior Security Engineer, Infrastructure Security</a></td>
 </tr>
 <tr>
 <td>Matt Morrison</td>
-<td><a href="{{< ref "/job-families/security/infrastructure-security#senior-infrastructure-security-engineer" >}}">Senior Security Engineer, Infrastructure Security</a></td>
+<td><a href="/job-families/security/infrastructure-security#senior-infrastructure-security-engineer">Senior Security Engineer, Infrastructure Security</a></td>
 </tr>
 <tr>
 <td>Uday Govindia</td>
-<td><a href="{{< ref "/job-families/security/infrastructure-security#senior-infrastructure-security-engineer" >}}">Senior Security Engineer, Infrastructure Security</a></td>
+<td><a href="/job-families/security/infrastructure-security#senior-infrastructure-security-engineer">Senior Security Engineer, Infrastructure Security</a></td>
 </tr>
 </tbody>
 </table>

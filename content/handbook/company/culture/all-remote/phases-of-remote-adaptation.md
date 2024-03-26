@@ -108,7 +108,7 @@ Learn more in GitLab's guide to using [forcing functions to work remote-first]({
 >
 > This counteracts the human instinct to start a project in a chat tool. It forces us to ask a simple question: 'Where does the work need to end up?' (Answer: [GitLab](https://about.gitlab.com/stages-devops-lifecycle))
 >
-> This structure also solves another common problem with remote teams, which is people tend to feel isolated or disconnected from people. Given that we cannot practically use Slack for long-term work projects, we maximize its use as a tool for informal communication. Our team has access to a plethora of [topical channels]({{< ref "/handbook/communication/chat" >}}) — fitness, music, mental health, parenting, etc.
+> This structure also solves another common problem with remote teams, which is people tend to feel isolated or disconnected from people. Given that we cannot practically use Slack for long-term work projects, we maximize its use as a tool for informal communication. Our team has access to a plethora of [topical channels](/handbook/communication/chat) — fitness, music, mental health, parenting, etc.
 
 ### Using GitLab for remote collaboration
 
@@ -153,11 +153,11 @@ An organization's ability to transition quickly from Phase 1 to Phase 3 is depen
 - Do team members have a preexisting understanding of [digital communication tools]({{< ref "communication" >}})?
 - Do team members have preexisting methods of accessing sensitive information (e.g. established VPN protocols)?
 - Does a company's [business operations](https://about.gitlab.com/handbook/business-technology) or IT department have preexisting protocols for enabling team members from locales outside of the office?
-- Does a company have preexisting documentation for core company processes ([communication]({{< ref "communication" >}}), client service expectations, socializing and relationship building, onboarding, [in-person interactions](./in-person), [expensing](https://about.gitlab.com/handbook/spending-company-money), working hours, [metrics and goals]({{< ref "/handbook/company/okrs" >}}), owners/[DRIs]({{< ref "directly-responsible-individuals" >}}), etc.)
+- Does a company have preexisting documentation for core company processes ([communication]({{< ref "communication" >}}), client service expectations, socializing and relationship building, onboarding, [in-person interactions](./in-person), [expensing](https://about.gitlab.com/handbook/spending-company-money), working hours, [metrics and goals](/handbook/company/okrs), owners/[DRIs]({{< ref "directly-responsible-individuals" >}}), etc.)
 
 ## GitLab Knowledge Assessment: Phases of Remote Adaptation
 
-Anyone can test their knowledge on the phases of remote adaptation by completing the [knowledge assessment](https://docs.google.com/forms/d/e/1FAIpQLSdeD_swNPsT_5YUaaLNFhpNmLGIajYaswkC9vdHxwO4c4QiAQ/viewform). Earn at least an 80% or higher on the assessment to receive a passing score. Once the quiz has been passed, you will receive an email acknowledging the completion from GitLab. We are in the process of designing a GitLab Remote Certification and completion of the assessment will be one requirement in obtaining the [certification](https://about.gitlab.com/learn/certifications/public). If you have questions, please reach out to our [Learning & Development team]({{< ref "/handbook/people-group/learning-and-development" >}}) at `learning@gitlab.com`.
+Anyone can test their knowledge on the phases of remote adaptation by completing the [knowledge assessment](https://docs.google.com/forms/d/e/1FAIpQLSdeD_swNPsT_5YUaaLNFhpNmLGIajYaswkC9vdHxwO4c4QiAQ/viewform). Earn at least an 80% or higher on the assessment to receive a passing score. Once the quiz has been passed, you will receive an email acknowledging the completion from GitLab. We are in the process of designing a GitLab Remote Certification and completion of the assessment will be one requirement in obtaining the [certification](https://about.gitlab.com/learn/certifications/public). If you have questions, please reach out to our [Learning & Development team](/handbook/people-group/learning-and-development) at `learning@gitlab.com`.
 
 {{% include "includes/is_this_advice_any_good_remote.md" %}}
 

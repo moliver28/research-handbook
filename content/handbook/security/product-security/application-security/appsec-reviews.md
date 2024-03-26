@@ -134,7 +134,7 @@ following the conditions below:
 [1]: https://docs.google.com/document/d/15eNKGA3zyZazsJMldqTBFbYMnVUSQSpU14lo22JMZQY/edit
 [2]: https://gitlab.com/gitlab-com/gl-security/appsec/appsec-reviews/issues
 [3]: {{< ref "./_index.md#stable-counterparts" >}}
-[4]: {{< ref "/handbook/security#issue-triage" >}}
+[4]: /handbook/security#issue-triage
 
 ## Internal Application Security Reviews
 

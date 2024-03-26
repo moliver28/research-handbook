@@ -70,7 +70,7 @@ A DIB Team Member will set up a time to discuss with the manager the function of
 
 ### Set the ground rules:
 
-- This is a closed session and a safe space.  However if something arises as part of the conversation that needs investigation, the roundtable facilitator will reach out to their [PBP]({{< ref "/handbook/people-group#people-business-partner-alignment-to-division" >}}) to discuss.
+- This is a closed session and a safe space.  However if something arises as part of the conversation that needs investigation, the roundtable facilitator will reach out to their [PBP](/handbook/people-group#people-business-partner-alignment-to-division) to discuss.
 - [Assume positive intent]({{< ref "values#assume-positive-intent" >}}), share and express with a higher intent
 - Learning happens through experience; so if someone makes a mistake, [give feedback kindly]({{< ref "values#kindness" >}})
 - Please avoid multitasking unless there is a true emergency; please give your full attention to the session.

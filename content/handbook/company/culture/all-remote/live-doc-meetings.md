@@ -52,7 +52,7 @@ If you determine that a meeting is needed to move a project forward, address a b
 1. Always ask if the name preceding the question would like to verbalize; if they wish not to, or are otherwise unavailable, the meeting host should verbalize on their behalf.
 1. Reenact questions in the list by verbalizing them even if they were already asked and answered in the shared document. Hearing the question and answer allows everyone to think about it and respond to it. It might also happen that when verbalizing the question or answer more context is given since most people can talk faster and with less effort than they can type. Another advantage if you're recording the meeting is that the recording contains everything.
 1. Unless the meeting contains [Not Public]({{< ref "confidentiality-levels#not-public" >}}) information, record the meeting to share with those who cannot attend live and consider livestreaming for maximum transparency and feedback potential.
-1. If a portion of a meeting does not pertain to you, [it's OK to look away]({{< ref "./meetings#9-its-ok-to-look-away" >}}). You are the [manager of your own time and attention]({{< ref "/handbook/leadership#managers-of-one" >}}).
+1. If a portion of a meeting does not pertain to you, [it's OK to look away]({{< ref "./meetings#9-its-ok-to-look-away" >}}). You are the [manager of your own time and attention](/handbook/leadership#managers-of-one).
 
 ## Q: What are the benefits of live doc meetings?
 
@@ -86,7 +86,7 @@ Here is a [sample template for a live doc meeting](https://docs.google.com/docum
 
 ## Q: What is meant by 'live document'?
 
-A live document is a document that may continually be edited and updated. Examples could include a shared Google doc, whiteboard being used by a team for collaboration, or [GitLab's handbook]({{< ref "/handbook" >}}).
+A live document is a document that may continually be edited and updated. Examples could include a shared Google doc, whiteboard being used by a team for collaboration, or [GitLab's handbook](/handbook).
 
 ## Q: How can I participate in a live doc meeting?
 

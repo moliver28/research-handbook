@@ -40,11 +40,11 @@ Navigate to career development resources located throughout the GitLab handbook:
     <a href="{{< ref "self-paced-learning#linux-foundation-courses" >}}" class="btn btn-primary" style="margin:5px;">Linux Foundation Courses</a>
     <a href="{{< ref "self-paced-learning#oreilly-learning" >}}" class="btn btn-primary" style="margin:5px;">O'Reilly Learning</a>
     <a href="{{< ref "self-paced-learning#gcp-learning" >}}" class="btn btn-primary" style="margin:5px;">GCP Learning</a>
-    <a href="{{< ref "/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development#professional-developmentcertificationslicenses" >}}" class="btn btn-primary" style="margin:5px;">Professional Certifications</a>
-    <a href="{{< ref "/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development#workshops-and-conferences" >}}" class="btn btn-primary" style="margin:5px;">Attend a Workshop/Conference</a>
-    <a href="{{< ref "/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development#crucial-conversations-training" >}}" class="btn btn-primary" style="margin:5px;">Crucial Conversations</a>
-    <a href="{{< ref "/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development#academic-study" >}}" class="btn btn-primary" style="margin:5px;">Academic Study</a>
-    <a href="{{< ref "/job-families/expert/merge-request-coach" >}}" class="btn btn-primary" style="margin:5px;">MR Coaching</a>
+    <a href="/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development#professional-developmentcertificationslicenses" class="btn btn-primary" style="margin:5px;">Professional Certifications</a>
+    <a href="/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development#workshops-and-conferences" class="btn btn-primary" style="margin:5px;">Attend a Workshop/Conference</a>
+    <a href="/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development#crucial-conversations-training" class="btn btn-primary" style="margin:5px;">Crucial Conversations</a>
+    <a href="/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development#academic-study" class="btn btn-primary" style="margin:5px;">Academic Study</a>
+    <a href="/job-families/expert/merge-request-coach" class="btn btn-primary" style="margin:5px;">MR Coaching</a>
     <a href="https://levelup.gitlab.com/access/saml/login/internal-team-members?returnTo=https://levelup.gitlab.com/learn/course/teamops" class="btn btn-primary" style="margin:5px;">TeamOps Certification</a>
     <a href="https://about.gitlab.com/company/culture/inclusion/tmrg-gitlab-women/" class="btn btn-primary" style="margin:5px;">#IamRemarkable Workshop</a>
     <a href="https://levelup.gitlab.com/access/saml/login/internal-team-members?returnTo=https://levelup.gitlab.com/learn/course/igp" class="btn btn-primary" style="margin:5px;">Individual Growth Plan Course</a>
@@ -68,7 +68,7 @@ Navigate to career development resources located throughout the GitLab handbook:
 
 <div class="flex-row" markdown="0">
   <div>
-    <a href="{{< ref "/handbook/ceo/shadow" >}}" class="btn btn-primary" style="margin:5px;">CEO Shadow</a>
+    <a href="/handbook/ceo/shadow" class="btn btn-primary" style="margin:5px;">CEO Shadow</a>
     <a href="{{< ref "chief-of-staff-team#chief-of-staff-shadow" >}}" class="btn btn-primary" style="margin:5px;">Chief of Staff to CEO Shadow</a>
     <a href="https://about.gitlab.com/handbook/finance/growth-and-development/cfo-shadow-program/" class="btn btn-primary" style="margin:5px;">CFO Shadow</a>
     <a href="https://about.gitlab.com/handbook/marketing/cmo-shadow/" class="btn btn-primary" style="margin:5px;">CMO Shadow</a>
@@ -104,14 +104,14 @@ A live speaker series hosted in March 2022 with [Lavinia Mehedintu](https://www.
 
 1. 70% of your development should come from on-the-job and action learning.  This can include development experiences like managing a project, serving on a cross-functional team, taking on a new task, job shadowing, job rotation, etc.
 1. 20% of your development should come from interactions with others.  This includes having a mentor, being a mentor, coaching, participating in communities of practice, providing and receiving feedback, serving as a leader in your organization, etc.
-1. 10% of your development should come from training, including classes, seminars, webinars, podcasts, reading, conferences, etc. GitLab offers a [growth and development benefit]({{< ref "/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development" >}}) to help with this.
+1. 10% of your development should come from training, including classes, seminars, webinars, podcasts, reading, conferences, etc. GitLab offers a [growth and development benefit](/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development) to help with this.
 
 
 ### Career Development versus Career Mobility
 
 GitLab team members [should not feel pressure to climb the career ladder]({{< ref "1-1#key-points" >}}). Skill development and promotion are not mutually exclusive. [Unique experience influences problem solving](/handbook/company/culture/inclusion/) and views of success.
 
-You are encouraged to learn and develop skills without pressure to in turn seek promotion. Team members will not be thought less of or penalized if they don't view promotion as a success measure. If you feel you are not being supported in this way, please [reach out to People Connect or your People Business Partner]({{< ref "/handbook/people-group/people-connect#-connect-with-us" >}}).
+You are encouraged to learn and develop skills without pressure to in turn seek promotion. Team members will not be thought less of or penalized if they don't view promotion as a success measure. If you feel you are not being supported in this way, please [reach out to People Connect or your People Business Partner](/handbook/people-group/people-connect#-connect-with-us).
 
 | Topic | Definition | Examples |
 | ----- | ----- | ----- |
@@ -239,7 +239,7 @@ Team Members: Take the [Support your team with Career Conversations course in Le
 Managers should support their direct reports with their professional development goals. Implement the following into a [1-1]({{< ref "1-1" >}}), team meeting, or async communication to support your team.
 
 1. Encourage team members to create an [Individual Growth Plan]({{< ref "career-development#individual-growth-plan" >}}) or use [GitLab Epics to track their career development]({{< ref "career-development#use-gitlab-epics-to-track-your-career-development" >}}).
-1. Utilize the [Growth & Development Benefit]({{< ref "/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development" >}}).
+1. Utilize the [Growth & Development Benefit](/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development).
 1. Recommend (and model) blocking [time to learn during the work week]({{< ref "learning-initiatives#take-time-out-to-learn-campaign" >}}).
 1. Organize team specific and cross-functional learning communities to practice [social learning]({{< ref "learning-initiatives#social-learning-through-live-learning" >}}).
 1. Model and share your own career and professional development pursuits.
@@ -328,11 +328,11 @@ What do managers ask about when it comes to having career conversations with the
 
 *Career Conversation Acknowledgements happen at a division basis. Check with your People Business Partner if your division is doing this.*
 
-Career development is a key factor in team member engagement and role satisfaction. As part of the FY'20 GitLab annual [engagement survey results]({{< ref "/handbook/people-group/engagement" >}}) it was clear that team members want to have meaningful conversations with their managers on an annual basis or even more frequently.
+Career development is a key factor in team member engagement and role satisfaction. As part of the FY'20 GitLab annual [engagement survey results](/handbook/people-group/engagement) it was clear that team members want to have meaningful conversations with their managers on an annual basis or even more frequently.
 
 ### Cadence
 
-This process is just an acknowledgement by the team member that they have had career conversations. Aligned with the Performance/Potential [matrix cadence]({{< ref "/handbook/people-group/talent-assessment" >}}), formal career conversations will ideally happen twice per year:
+This process is just an acknowledgement by the team member that they have had career conversations. Aligned with the Performance/Potential [matrix cadence](/handbook/people-group/talent-assessment), formal career conversations will ideally happen twice per year:
 
 - Once in Q2
 - Once in Q4
