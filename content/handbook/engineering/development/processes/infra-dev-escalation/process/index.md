@@ -260,7 +260,7 @@ spreadsheet, directors and managers are encouraged to sign up in the
 The coordinator will:
 
 1. Remind engineers to sign up, by:
-    - Posting reminders to the [#development](https://app.slack.com/client/T02592416/C02PF508L) and [#backend](https://app.slack.com/client/T02592416/C8HG8D9MY) channels in Slack
+    - Posting reminders to the [#dev-escalation](https://gitlab.slack.com/messages/CLKLMSUR4) channel in Slack
     - Asking managers in [#eng-managers](https://app.slack.com/client/T02592416/CU4RJDQTY) to remind team-members in 1-1s
 1. Assign folks to unfilled slots when needed. Use purple text in the spreadsheet to indicate this was an assigned slot.
 1. Coordinate temporary changes or special requests that cannot be
