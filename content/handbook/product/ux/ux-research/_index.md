@@ -34,6 +34,7 @@ Below is a full list of our UX Research team handbook content:
      - [Survey question scales](/handbook/product/ux/ux-research/surveys/survey-question-scales/)
      - [Sample sizes for surveys](/handbook/product/ux/ux-research/surveys/sample-sizes-for-surveys/)
      - [Piloting your survey](/handbook/product/ux/ux-research/surveys/piloting-your-survey/)
+     - [Qualtrics Tips and Tricks](/handbook/product/ux/ux-research/surveys/qualtrics/)
 - [Jobs to be Done](/handbook/product/ux/jobs-to-be-done/)
 - [Longitudinal studies](/handbook/product/ux/ux-research/longitudinal-studies/)
 - [Diary studies](/handbook/product/ux/ux-research/diary-studies/)
