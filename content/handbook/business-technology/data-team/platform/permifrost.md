@@ -102,3 +102,5 @@ Permifrost uses tags to create its artifacts. Pushing a new tag to the repositor
 1. Make sure to check `delete the source branch when the changes are merged`
 
 1. When the **publish** pipeline succeeds, the release is publicly available on [PyPI](https://pypi.org/project/permifrost/)
+
+# TODO: rbacovic to add more details about Permifrost
