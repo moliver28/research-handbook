@@ -29,7 +29,7 @@ Below is a list of the different technical skill sets found on the Sales System 
 - [License Usage App Documentation](/handbook/sales/field-operations/sales-systems/license-usage-app/)
 - [Salesforce Configuration Documentation](/handbook/sales/field-operations/sales-systems/salesforce-config/)
 - [Lead Source Master Data Set](/handbook/marketing/marketing-operations/#initial-source)
-- [Salesforce Dataloader Install/Uninstall/Upgrade Instructions](dataloader-installation.html)
+- [Salesforce Dataloader Install/Uninstall/Upgrade Instructions](dataloader-installation/)
 
 ## Working with us
 - [Sales System Agile Board](https://gitlab.com/groups/gitlab-com/-/boards/1117318?label_name[]=SalesSystems)
@@ -278,10 +278,11 @@ Persuant with GitLab's [best practices for password security](/handbook/security
 
 Sandboxes which are managed as part of our team's SDLC process will follow a regular refresh schedule, as detailed below.
 
-|Sandbox name|Sandbox type|Used for|Refresh cadence|Last refresh date|Next refresh issue|
-|-----|-----|-----|-----|-----|-----|
-|[STAGING](https://gitlab--staging.sandbox.my.salesforce.com/)|Full|Pre-production org.  Used for UAT of Systems issues prior to release to production.  Also used for troubleshooting.|As needed, up to once per month, minimum once per quarter| 11/11/2022 |To be provided|
-|[SANDBOX](https://gitlab--sandbox.sandbox.my.salesforce.com/)|Partial|Developer integration and testing org. |As needed, up to once per month, minimum once per quarter|6/18/2021 3:14 PM|To be provided|
+|Sandbox name|Sandbox type|Used for|Refresh cadence|Last refresh date|Next refresh issue|Connected to Zuora Tenant|
+|-----|-----|-----|-----|-----|-----|-----|
+|[STAGING](https://gitlab--staging.sandbox.my.salesforce.com/)|Full|Pre-production org.  Used for UAT of Systems issues prior to release to production.  Also used for troubleshooting.|As needed, up to once per month, minimum once per quarter| 11/11/2022 |To be provided| |
+|[SANDBOX](https://gitlab--sandbox.sandbox.my.salesforce.com/)|Partial|Developer integration and testing org. |As needed, up to once per month, minimum once per quarter|6/18/2021 3:14 PM|To be provided| |
+|[LIGHTNING](https://gitlab--lightning.sandbox.my.salesforce.com/)| | | | | | |
 
 ### Data, Data Uploads & Permissions
 
