@@ -40,7 +40,7 @@ Channel partners are ultimately responsible for the execution of these campaigns
 
 ## Joint Marketing with the Channel
 
-The Channel Marketing Manager works with the Field Marketing team to identify upcoming field marketing events and activities that channel partners can participate in for joint go-to-market activities. Both the Channel Marketing Managers or the Field Marketing Managers can suggest campaigns for marketing-ready channel partner participation. Requirements for this joint marketing can be [found here](/handbook/marketing/field-marketing/#field-marketingchannel-marketing-engagement). 
+The Channel Marketing Manager works with the Field Marketing team to identify upcoming field marketing events and activities that channel partners can participate in for joint go-to-market activities. Both the Channel Marketing Managers or the Field Marketing Managers can suggest campaigns for marketing-ready channel partner participation. Requirements for this joint marketing can be [found here](/handbook/marketing/field-marketing/#the-field-marketing-team-will-work-with-channel-partners-that-have-successfully). 
 
 ## Current Service Offerings
 
