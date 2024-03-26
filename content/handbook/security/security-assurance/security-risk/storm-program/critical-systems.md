@@ -27,7 +27,7 @@ Defining what a critical system means at GitLab can be complex given the nature 
 1. What is the impact of System disruption (System is unavailable)?
 2. Please describe the potential impact of System disruption. Specify any GitLab team(s) affected.
 
-Answers are reviewed by the Security Risk and/or IT Compliance Team to designate a Critical System Tier for the new system. The guidelines used to distinguish each tier are described in the next section.
+The Security Risk Team judgmentally designates a Critical System Tier for the new system based on answers from the Business Owner and their own understanding of the services provided by the system. The guidelines used to distinguish each tier are described in the next section.
 
 ### Designating Critical System Tiers
 
