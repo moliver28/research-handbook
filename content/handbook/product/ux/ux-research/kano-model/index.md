@@ -134,7 +134,7 @@ For ane example of a research plan, see this past [Kano study plan in Google Doc
 
 #### Questionnaire structure
 
-Use [Qualtrics](/handbook/product/ux/qualtrics/) to create the questionnaire. Each feature description with related questions (functional and dysfunctional question) should be presented on a separate block, so participants can answer each feature independent of another. Also, it is recommended to randomize the order of each block, so the presentation order does not affect participants' feedback.
+Use [Qualtrics](/handbook/product/ux/ux-research/surveys/qualtrics/) to create the questionnaire. Each feature description with related questions (functional and dysfunctional question) should be presented on a separate block, so participants can answer each feature independent of another. Also, it is recommended to randomize the order of each block, so the presentation order does not affect participants' feedback.
 
 Example [survey](https://gitlab.eu.qualtrics.com/jfe/preview/SV_3VoczISwBuK8ab3?Q_CHL=preview&Q_SurveyVersionID=current) that we used in [#1027](https://gitlab.com/gitlab-org/ux-research/-/issues/1027)
 
