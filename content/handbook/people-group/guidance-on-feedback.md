@@ -69,7 +69,7 @@ Watch as [Dr. Jeb Hurley](https://linkedin.com/in/jebhurley), Co-founder of Xmet
 
 ### Hard Conversations
 
-Difficult and constructive feedback is valuable when delivered with compassion. It's important to consider the individual recieving the feedback and anticipate how they might react. As explained in [Crucial Conversations]({{< ref "/handbook/leadership/crucial-conversations" >}}), if the person feels threatened, they might shift into Silence or Verbal Violence.
+Difficult and constructive feedback is valuable when delivered with compassion. It's important to consider the individual recieving the feedback and anticipate how they might react. As explained in [Crucial Conversations](/handbook/leadership/crucial-conversations), if the person feels threatened, they might shift into Silence or Verbal Violence.
 
 To optimize for a open, honest, and effective conversation, reflection on the following before sharing difficult feedback:
 

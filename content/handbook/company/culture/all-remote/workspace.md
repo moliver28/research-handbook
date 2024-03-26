@@ -158,7 +158,7 @@ It's important for remote workers to be cognizant of repetitive motion. While it
 Keep in mind that work often happens [in multiple spaces](https://youtu.be/l9jmb8TE7sw?t=454) throughout the workweek. You'll want to consider a range of spaces for different types of work:
 
 1. **Primary spaces:** Ideal for deep, focused work where you need secondary screens, specialized tools, or controlled conditions for important video calls.
-1. **Secondary spaces:** Try these for re-energizing your mind with [coffee chats]({{< ref "./informal-communication#coffee-chats" >}}), 1:1s, [learning and development]({{< ref "/handbook/people-group/learning-and-development" >}}), etc.
+1. **Secondary spaces:** Try these for re-energizing your mind with [coffee chats]({{< ref "./informal-communication#coffee-chats" >}}), 1:1s, [learning and development](/handbook/people-group/learning-and-development), etc.
 1. **On-the-go spaces:** Great for cognitively light work and fitting in bursts of productivity between meetings or appointments.
 
 ### Chair
@@ -284,7 +284,7 @@ Keep in mind that there's no "one size fits all" for a home office setup, becaus
 
 ## GitLab Knowledge Assessment: Considerations for a productive home office or remote workspace
 
-Anyone can test their knowledge on how to set up a productive home office or remote workspace by completing the [knowledge assessment](https://docs.google.com/forms/d/e/1FAIpQLSeuswfs_t1Dl2vbmapTLNRHa2rfi5zwUg2IQ7ZQI7hxc1gB5g/viewform). Earn at least an 80% or higher on the assessment to receive a passing score. Once the quiz has been passed, you will receive an email acknowledging the completion from GitLab. We are in the process of designing a GitLab Remote Certification and completion of the assessment will be one requirement in obtaining the [certification](https://about.gitlab.com/learn/certifications/public). If you have questions, reach out to our [Learning & Development team]({{< ref "/handbook/people-group/learning-and-development" >}}) at `learning@gitlab.com`.
+Anyone can test their knowledge on how to set up a productive home office or remote workspace by completing the [knowledge assessment](https://docs.google.com/forms/d/e/1FAIpQLSeuswfs_t1Dl2vbmapTLNRHa2rfi5zwUg2IQ7ZQI7hxc1gB5g/viewform). Earn at least an 80% or higher on the assessment to receive a passing score. Once the quiz has been passed, you will receive an email acknowledging the completion from GitLab. We are in the process of designing a GitLab Remote Certification and completion of the assessment will be one requirement in obtaining the [certification](https://about.gitlab.com/learn/certifications/public). If you have questions, reach out to our [Learning & Development team](/handbook/people-group/learning-and-development) at `learning@gitlab.com`.
 
 {{% include "includes/is_this_advice_any_good_remote.md" %}}
 

@@ -58,7 +58,7 @@ At minimum, controlled documents should cover the following key topic areas:
 
 Creation of, or changes to, controlled documents must be approved by management or a formally designated representative of the owning department as defined in the Code Owners file prior to publishing.
 
-Most controlled documents will be published to our public facing [handbook]({{< ref "/" >}}). However, if there is [non public data]({{< ref "data-classification-standard" >}}) included in the controlled document, it should be published via an *internal facing only* mechanism (e.g. an internal GitLab project or an internal only handbook page). Controlled documents should be accessible to all internal team members.
+Most controlled documents will be published to our public facing [handbook](/). However, if there is [non public data]({{< ref "data-classification-standard" >}}) included in the controlled document, it should be published via an *internal facing only* mechanism (e.g. an internal GitLab project or an internal only handbook page). Controlled documents should be accessible to all internal team members.
 
 #### Handbook header
 

@@ -315,6 +315,6 @@ If you are unable to attend the existing working group meeting due to time diffe
 
 ## What were Top Cross-Functional Initiatives?
 
-Top Cross-Functional Initiatives were [Working Groups]({{< ref "/handbook/company/working-groups" >}}) that were key to GitLab's success in the fiscal year and beyond. While there were other important business initiatives and priorities that existed within functions or required engagement across the business, we elevated these initiatives to address cross-functional dependencies, align on goals, and ensure ongoing reporting and monitoring.
+Top Cross-Functional Initiatives were [Working Groups](/handbook/company/working-groups) that were key to GitLab's success in the fiscal year and beyond. While there were other important business initiatives and priorities that existed within functions or required engagement across the business, we elevated these initiatives to address cross-functional dependencies, align on goals, and ensure ongoing reporting and monitoring.
 
 We retired this concept in FY24-Q3, because we had layered these initiatives under [Yearlies]({{< ref "yearlies" >}}) as sub-objectives. This list was duplicative and confusing to team members who were trying to manage these and other priorities. Top Cross-Functional Initiatives were moved to this page. The Top Cross-Functional Initiative concept was deprecated.
