@@ -180,19 +180,7 @@ The Backend Engineering Manager role is a [grade 8](/handbook/total-rewards/comp
 
 #### Responsibilities
 
-- Help your engineers grow their skills and experience
-- Author project plans for epics
-- Run agile project management processes
 - Conduct code reviews, and make technical contributions to product architecture as well as getting involved in solving bugs and delivering small features
-- Actively seek and hire globally-distributed talent
-- Conduct managerial interviews for candidates, and train the team to do technical interviews
-- Contribute to the sense of psychological safety on your team
-- Generate and implement process improvements
-- Hold regular [1:1's](/handbook/leadership/1-1/) with all members of their team
-- Give regular and clear feedback around the [individual's performance](/handbook/leadership/1-1/suggested-agenda-format/)
-- Foster technical decision making on the team, but make final decisions when necessary
-- Draft quarterly OKRs and [Engineering KPIs](/handbook/company/kpis/#engineering-kpis)
-- Improve product quality, security, and performance
 
 #### Requirements
 
