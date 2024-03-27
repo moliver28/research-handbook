@@ -181,3 +181,7 @@ Review the Hugo development documentation to learn more.
 ### CI/CD pipeline
 
 The CI/CD pipeline uses GitLab Pages for Review Apps to preview the changes in the same environment.
+
+#### Reviewer Roulette
+
+The project uses [Reviewer Roulette](https://docs.gitlab.com/ee/development/code_review.html#reviewer-roulette) feature of [`danger-review` CI/CD component](https://gitlab.com/gitlab-org/components/danger-review/-/tree/main).
