@@ -114,7 +114,7 @@ We will cover:
 
 Join us for the AI in DevSecOps webinar where we will explore Artificial Intelligence and how it fits within the DevSecOps lifecycle. In this session, we will cover foundational implementation and use case scenarios such as Code Suggestions and Vulnerability Explanations.
 
-[<button class="btn btn-primary" type="button">Register</button>](https://gitlab.zoom.us/webinar/register/WN_D_pFLbsvRS-bLD0p7ut24g#/registration)
+[<button class="btn btn-primary" type="button">Register</button>](https://gitlab.zoom.us/webinar/register/WN_-kIPWEcnTjOzVrKplN126g#/registration)
 
 
 ### EMEA Time Zone Webinars & Labs
@@ -178,6 +178,6 @@ We will cover:
 
 Join us for the AI in DevSecOps webinar where we will explore Artificial Intelligence and how it fits within the DevSecOps lifecycle. In this session, we will cover foundational implementation and use case scenarios such as Code Suggestions and Vulnerability Explanations.
 
-[<button class="btn btn-primary" type="button">Register</button>](https://gitlab.zoom.us/webinar/register/WN_-kIPWEcnTjOzVrKplN126g#/registration)
+[<button class="btn btn-primary" type="button">Register</button>](https://gitlab.zoom.us/webinar/register/WN__PRkLukaTyqA1uwpoe9OwA#/registration)
 
 Check back later for more webinars & labs! 
