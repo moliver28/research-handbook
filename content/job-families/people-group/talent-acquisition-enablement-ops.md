@@ -89,7 +89,7 @@ The Manager, Talent Acquisition Operations is a [grade 8](/handbook/total-reward
 #### Manager, Talent Acquisition Operations Responsibilities
 
 - Design and drive rigor in processes and policies for our Global Talent Acquisition team
-- Optimize our systems, tools and processes to create consistent, efficient and equitable hiring outcomes
+- Optimize our TA and Candidate Experience systems, tools and processes to create consistent, efficient and equitable hiring outcomes
 - Partner with Finance, People Operations, and other teams to ensure that the necessary process flows are built for scale
 - Partner with Senior Program Manager, Global TA Enablement to ensure all process changes are communicated and rolled out effectively
 - Collaborate on the GitLab hiring planning process in collaboration with the various operations teams, finance and the PBP’s
@@ -104,10 +104,11 @@ The Manager, Talent Acquisition Operations is a [grade 8](/handbook/total-reward
 
 #### Manager, Talent Acquisition Operations Requirements
 
-- Prior experience as a site administrator an expert in an ATS, such as Lever or Greenhouse
+- Prior experience as a site administrator working to improve or maintain an ATS such as Lever or Greenhouse
 - Experience in TA Operations with a focus on process improvement, systems, tools, and project management
 - Exceptional cross-functional communication and organization skills, and demonstrated experience in time-management and ability to influence
 - A creative mindset to get things done accurately, effectively and efficiently
+- Ability to work collaboratively with a cross-functional group of stakeholders
 - Ability to influence others by leading with recommendations and taking feedback to adjust as needed
 - Strategic thinking skills and operational mindset
 - Ability to learn and use GitLab
