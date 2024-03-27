@@ -85,7 +85,7 @@ Currently the Custom Model has the following weights for each stage (updated Feb
 - **Opportunity Creation** - 22.5%
 - **SAO** - 15.9%
 - **Closed (Lost, Won)** - 29.2%
-- **Middle Touches** - 13%
+- **Middle Touches** - 13.2%
 
 
 ### Online vs. Offline Touchpoints
