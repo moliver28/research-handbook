@@ -31,12 +31,14 @@ allows everyone to contribute.
 
 ## Engineering Initiatives
 
-Engineering is the primary advocate for the performance, availability, and security of the GitLab project. Product Management prioritizes 80% of engineering time, so everyone in the engineering function should participate in the Product Management [prioritization process](/handbook/product/product-processes/#how-we-prioritize-work) to ensure that our project stays ahead in these areas.   Engineering prioritizes 20% of time on initiatives that improve the underlying platform and foundational technologies we use.
+Engineering is the primary advocate for the performance, availability, and security of the GitLab project. Product Management is responsible for overall prioritization but does so in close collaboration with all members of the quad (Development, Quality, and UX) as a guideline groups should aim for 60% of their time spend on new features and 40% of their time spent on bugs, maintenance, and engineering-driven initatives. Some examples include:
 
 - Review fixes from our support team. These merge requests are tagged with the `Support Team Contributions` label.  You can [filter on open MRs](https://gitlab.com/gitlab-org/gitlab/-/merge_requests?label_name%5B%5D=Support%20Team%20Contributions).
 - Working on high priority issues as a result of [issue triaging](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/). This is our commitment to the community and we need to include some capacity to review MRs or work on defects raised by the community.
 - Improvements to the performance, stability and scalability of a feature.  Again, the Product team should be involved in the definition of these issues but Engineering may lead here by clearly defining the recommended improvements.
 - Improvements and upgrades to our toolchain in order to boost efficiency.
+
+You can learn more about our cross-functional prioritization process [here](/handbook/product/cross-functional-prioritization/#cross-functional-milestone-planning).
 
 ### Community Contributions
 
