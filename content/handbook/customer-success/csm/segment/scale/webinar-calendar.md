@@ -21,12 +21,6 @@ If you know someone who might be interested in attending, feel free to share the
 
 ### AMER Time Zone Webinars & Labs
 
-#### Security and Compliance
-##### March 26th, 2024 at 9:00-10:00AM Pacific Time / 12:00-1:00PM Eastern Time
-
-GitLab enables developers and security to work together in a single tool, allowing for proactive security or “shifting left”. This session will cover what GitLab offers, how scan results integrate seamlessly with merge requests, and how to use the Security Dashboard to manage vulnerabilities.
-
-[<button class="btn btn-primary" type="button">Register</button>](https://gitlab.zoom.us/webinar/register/WN_H4LE0jLcTA-f9r4lRb7DmQ#/registration)
 
 #### Hands-On Advanced GitLab CI Lab 
 ##### March 27th, 2023 at 9:00-11:00AM Pacific Time / 12:00-2:00PM Eastern Time
@@ -42,13 +36,6 @@ We will cover:
 [<button class="btn btn-primary" type="button">Register</button>](https://gitlab.zoom.us/webinar/register/WN_JER8cqk9T9uLPObVrb_-gA#/registration)
 
 ### EMEA Time Zone Webinars & Labs
-
-#### Security and Compliance
-##### March 26th, 2024 at 10:00-11:00AM UTC / 11:00AM-12:00PM CET
-
-GitLab enables developers and security to work together in a single tool, allowing for proactive security or “shifting left”. This session will cover what GitLab offers, how scan results integrate seamlessly with merge requests, and how to use the Security Dashboard to manage vulnerabilities.
-
-[<button class="btn btn-primary" type="button">Register</button>](https://gitlab.zoom.us/webinar/register/WN_G5BXFRtvREiv2Smo_p2hmg#/registration)
 
 #### Hands-On Advanced GitLab CI Lab 
 ##### March 27th, 2023 at 10:00AM-12:00PM UTC / 11:00AM-1:00PM CET
