@@ -79,7 +79,7 @@ flowchart TD
 
     E --> B
     linkStyle 12 stroke-width:2px,fill:none,stroke:blue;
-    
+
     A <--> Q
     linkStyle 13 stroke-width:2px,fill:none,stroke:blue;
     B --> L
@@ -100,13 +100,13 @@ flowchart TD
 | ------ | ------ | -----|----------------------|
 | ADP | TBD | TBD |TBD |
 | Lumity | TBD | TBD | TBD |
-| GitLab | API | one-way (reads from BambooHR) | [link]({{< ref "/handbook/people-group/engineering/employment-issues" >}}) |
-| Modern Health | SFTP Upload | one-way (reads from BambooHR) | [link]({{< ref "/handbook/people-group/engineering/miscellaneous#team-members-to-modern-health" >}}) |
-| LawLogix | SFTP Upload | one-way (reads from BambooHR) |[link]({{< ref "/handbook/people-group/engineering/miscellaneous#team-members-to-lawlogix-i9" >}}) |
+| GitLab | API | one-way (reads from BambooHR) | [link](/handbook/people-group/engineering/employment-issues) |
+| Modern Health | SFTP Upload | one-way (reads from BambooHR) | [link](/handbook/people-group/engineering/miscellaneous#team-members-to-modern-health) |
+| LawLogix | SFTP Upload | one-way (reads from BambooHR) |[link](/handbook/people-group/engineering/miscellaneous#team-members-to-lawlogix-i9) |
 | Okta | TBD | TBD |TBD |
 | Culture Amp | TBD | TBD |TBD |
 | Assessment Tool | API |  two-way (reads and writes from/to BambooHR) | |
-| Nominator bot | API | two-way (reads and writes from/to BambooHR) |[link]({{< ref "/handbook/people-group/engineering/slack-integrations#nominator" >}}) |
+| Nominator bot | API | two-way (reads and writes from/to BambooHR) |[link](/handbook/people-group/engineering/slack-integrations#nominator) |
 | EdCast - GitLab Learn | TBD | TBD |TBD |
 | Navex Global| SFTP Upload | one-way (reads from BambooHR) |TBD |
 | Compaas | TBD | one-way (reads from BambooHR) |TBD |

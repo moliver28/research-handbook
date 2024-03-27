@@ -294,7 +294,7 @@ Looking for GitLab's library of guides to working remotely? Those are [**here**]
 
 #### Tools that enable remote teams
 
-Here's [a list]({{< ref "/handbook/tools-and-tips" >}}) of the tools we use internally at GitLab, with details on how we use them.
+Here's [a list](/handbook/tools-and-tips) of the tools we use internally at GitLab, with details on how we use them.
 
 [Elaine Z.](https://twitter.com/ezelby), investor at [SignalFire](https://twitter.com/SignalFire), compiled an [excellent summary of tools](https://medium.com/@ezelby/remote-work-market-map-58591966b0c2) for remote teams to consider. Others are shared below.
 

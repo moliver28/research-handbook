@@ -38,7 +38,7 @@ Per the People Connect Rotation the offboarding will be assigned directly in the
 
 ### Creating the Offboarding Issue
 
-Offboarding issues are created [automatically]({{< ref "/handbook/people-group/engineering/offboarding#scheduled-offboarding-issue-creation" >}}) using the data that is populated by the offboarding form. **It is essential that the date and time inserted in the tracker is accurate as this will be the time at which the employment bot will open the offboarding issue**
+Offboarding issues are created [automatically](/handbook/people-group/engineering/offboarding#scheduled-offboarding-issue-creation) using the data that is populated by the offboarding form. **It is essential that the date and time inserted in the tracker is accurate as this will be the time at which the employment bot will open the offboarding issue**
 
 The assigned People Connect member will be automatically added to the list of assignees once the offboarding issue is created.
 

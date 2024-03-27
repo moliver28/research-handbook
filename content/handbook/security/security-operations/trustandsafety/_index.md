@@ -5,7 +5,7 @@ description: "GitLab.com Trust & Safety Team Overview"
 
 <link rel="stylesheet" type="text/css" href="/stylesheets/biztech.css" />
 
-The Trust and Safety team is a sub department of the Security Team at GitLab that forms part of the [Security Operations]({{< ref "/handbook/security/security-operations" >}}) subdepartment in [Security]({{< ref "/handbook/security" >}}) at GitLab Inc and are tasked with the mitigation of [Abuse on gitlab.com]({{< ref "abuse-on-gitlab-com" >}}).
+The Trust and Safety team is a sub department of the Security Team at GitLab that forms part of the [Security Operations](/handbook/security/security-operations) subdepartment in [Security](/handbook/security) at GitLab Inc and are tasked with the mitigation of [Abuse on gitlab.com]({{< ref "abuse-on-gitlab-com" >}}).
 
 ## Mission
 
@@ -41,23 +41,23 @@ We want to make our corner of the internet a little safer, but also be the best 
 <tbody>
 <tr>
 <td>Joanna Rubi</td>
-<td><a href="{{< ref "/job-families/security/trust-and-safety" >}}">Security Engineer, Trust & Safety</a></td>
+<td><a href="/job-families/security/trust-and-safety">Security Engineer, Trust & Safety</a></td>
 </tr>
 <tr>
 <td>Shawn Sichak</td>
-<td><a href="{{< ref "/job-families/security/trust-and-safety" >}}">Security Engineer, Trust & Safety</a></td>
+<td><a href="/job-families/security/trust-and-safety">Security Engineer, Trust & Safety</a></td>
 </tr>
 <tr>
 <td>Westley van den Berg</td>
-<td><a href="{{< ref "/job-families/security/trust-and-safety" >}}">Security Analyst, Trust & Safety</a></td>
+<td><a href="/job-families/security/trust-and-safety">Security Analyst, Trust & Safety</a></td>
 </tr>
 <tr>
 <td>Ruby Nealon</td>
-<td><a href="{{< ref "/job-families/security/trust-and-safety" >}}">Security Engineer, Trust & Safety</a></td>
+<td><a href="/job-families/security/trust-and-safety">Security Engineer, Trust & Safety</a></td>
 </tr>
 <tr>
 <td>Charl de Wit</td>
-<td><a href="{{< ref "/job-families/security/trust-and-safety" >}}">Security Manager, Trust & Safety</a></td>
+<td><a href="/job-families/security/trust-and-safety">Security Manager, Trust & Safety</a></td>
 </tr>
 </tbody>
 </table>

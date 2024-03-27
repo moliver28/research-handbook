@@ -15,7 +15,7 @@ If you have any feedback or questions please contact [Total Rewards](/handbook/p
 
 - Increased Education around benefits as `I understand my benefits package at GitLab` decreased by 7% company wide. Also to increase awareness on the Total Rewards team is who to reach out to since there is company wide score of 3.82 out of 5 (lowest score among ICs). [Related Issue](https://gitlab.com/gitlab-com/people-group/total-rewards/-/issues/191).
   - Actions taken:
-    - Updated the [Total Rewards landing page]({{< ref "/handbook/total-rewards" >}}) and the [People Group contacts page](/handbook/people-group/#how-to-reach-the-right-member-of-the-people-group) with our contact details.
+    - Updated the [Total Rewards landing page](/handbook/total-rewards) and the [People Group contacts page](/handbook/people-group/#how-to-reach-the-right-member-of-the-people-group) with our contact details.
     - Introduced the [Benefits calculator]({{< ref "compensation-calculator#use-the-calculator" >}}) so team members can work out their overall Total Rewards package, including fixed costs, general benefits, remote benefits and entity-specific benefits.
     - [WIP](https://gitlab.com/gitlab-com/people-group/peopleops-eng/people-group-engineering/-/issues/206) - Embed the entity-specific benefits calculator under respective [entity benefit pages]({{< ref "general-and-entity-benefits#entity-benefits" >}}).
     - Implemented the [Compensation]({{< ref "compensation#knowledge-assessment" >}}), [Benefits]({{< ref "benefits#knowledge-assessment" >}}) and [Equity]({{< ref "benefits#knowledge-assessment" >}}) Knowledge Assessments.
