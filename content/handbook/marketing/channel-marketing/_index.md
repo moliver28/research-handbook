@@ -59,7 +59,7 @@ For an in-depth look at the programs and tools we offer our partners, see our [m
     - Support requests for inclusion in third party publications
 - Support the web team in maintaining GitLab’s marketing website [partner pages](https://about.gitlab.com/partners/)
 - Working with Sales Ops and Marketing Ops improve attribution and reporting of [partner sourced leads (CQLs), and partner sourced opportunities](/handbook/sales/field-operations/channel-operations/).
-- [Partner Concierge Program](https://gitlab.com/gitlab-com/marketing/demand-generation/fy24-integrated-marketing-planning/-/issues/8#pre-pilot-launch) is starting a pilot program with a list of select partners approved for participation. Partner accepted into the program will have monthly meetings with Program's Manager as well as a customer [content calendar](https://docs.google.com/presentation/d/1vdR-FhJFltPfCijO43L2as-HAlw8zEgUUCk6687CDWg/edit#slide=id.g123a13deda8_0_405) to track all social campaigns scheduled. Participants of the Concierge Program will not be able to participate in the MDF Program.
+- [Partner Concierge Program](https://gitlab.com/gitlab-com/marketing/demand-generation/fy24-integrated-marketing-planning/-/issues/8#pre-pilot-launch) is opened for participation for Marketing Ready partners. The partners that are accepted into the program will have monthly meetings with Program's Manager as well as a customer [content calendar](https://docs.google.com/presentation/d/1vdR-FhJFltPfCijO43L2as-HAlw8zEgUUCk6687CDWg/edit#slide=id.g123a13deda8_0_405) to track all social campaigns scheduled. Participants of the Concierge Program can be participating in other programs.
 
 ## 6 Month Planning Cycle with quarterly reviews: Channel Marketing Managers
 
