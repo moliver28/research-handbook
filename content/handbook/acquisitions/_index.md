@@ -18,11 +18,8 @@ Additional benefits to GitLab:
 
 ## Acquisition approach
 
-We are looking for companies interested in helping deliver on our [vision](https://about.gitlab.com/direction/#vision) to create a single application for the entire DevOps lifecycle.
+We are looking for companies interested in helping deliver on our [vision](https://about.gitlab.com/direction/#vision) to create a single application for the entire DevOps lifecycle. We value strong teams and technology and are looking for a combination of both that will help us accelerate our roadmap. We're looking for acquisitions which can either present a strategic value-add or create potential for significant revenue upside.
 
-We value strong teams and technology and are looking for a combination of both that will help us accelerate our roadmap. We're pursuing two types of acquisitions:
-1. Growth stage: For companies with proven traction and growth we follow our [acquisition process](/handbook/acquisitions/acquisition-process/), designed to identify the mutual potential and create a joint-vision to deliver on post-acquisition. We're looking for acquisitions which can either present a strategic value-add or create potential for significant revenue upside.
-1. Soft-landing: for mature start-ups with limited business success or very early stage start-ups we've created an accelerated process (described below) for exits with a total deal consideration of less than $1M.
 
 ## Acquisition target profile
 
