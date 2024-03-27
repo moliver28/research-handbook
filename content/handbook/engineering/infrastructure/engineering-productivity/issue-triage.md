@@ -79,7 +79,7 @@ If you need help estimating severity, tag the group's corresponding [Software En
 
 Note: Theses severity definitions apply to issues only. Please see [Severity Levels section](/handbook/engineering/infrastructure/incident-management/#severities) of the [Incident Management page](/handbook/engineering/infrastructure/incident-management/) for details on incident severity.
 
-[Severity labels](https://docs.gitlab.com/ee/development/labels/index.html#severity-labels) help us determine urgency and clearly communicate the impact of a `~"type::bug"` on users. There can be multiple categories of a `~"type::bug"`. Severity is also applicable to non-`type::bug` `~SUS::Impacting` issues.
+[Severity labels](https://docs.gitlab.com/ee/development/labels/index.html#severity-labels) help us determine urgency and clearly communicate the impact of a `~"type::bug"` on users. There can be multiple categories of a `~"type::bug"`.
 
 The presence of bug category labels `~"bug::availability"`, `~"bug::performance"`, `~"bug::vulnerability"`, and `~UX` denotes to use the severity definition in that category. When a `~"type::bug"` correspond to multiple categories, the severity to apply should be the higher, for example, if an issue has a `~"severity::2"` for `~"bug::availability"` and a `~"severity::1"` for `~"bug::performance"` then the severity assigned to the issue should be `~"severity::1"`.
 
