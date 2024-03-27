@@ -19,21 +19,28 @@ The *Engineering Manager* role is a [grade 8](/handbook/total-rewards/compensati
 
 ## Responsibilities
 
+People
 - Manage a [team](/handbook/engineering/starting-new-teams/#team-construction) of engineers.
 - Help your engineers grow their skills and experience
-- Author project plans for epics
-- Run agile project management processes
 - Provide guidance and coaching to team members on technical contributions, product architecture, and other areas.
-- Maintain empathy for the team by keeping awareness of engineering processes and practices. Examples might be: evaluating individual workflow during one on ones, conducting code reviews, or working on non-critical path bugs and/or features.
 - Actively seek and hire globally-distributed talent
 - Conduct managerial interviews for candidates, and train the team to do technical interviews
 - Contribute to the sense of psychological safety on your team
-- Generate and implement process improvements
 - Hold regular [1:1s](/handbook/leadership/1-1/) with all members of their team
 - Give regular and clear feedback around the [individual's performance](/handbook/leadership/1-1/suggested-agenda-format/)
-- Foster technical decision making on the team, but make final decisions when necessary
+
+Process
+- Maintain empathy for the team by keeping awareness of engineering processes and practices. Examples might be: evaluating individual workflow during one on ones, conducting code reviews, or working on non-critical path bugs and/or features.
+- Generate and implement process improvements
+
+Projects
+- Author project plans for epics
+- Run agile project management processes
 - Draft quarterly OKRs and [Engineering KPIs](/handbook/company/kpis/#engineering-kpis)
 - Improve product quality, security, and performance
+
+Technical leadership
+- Foster technical decision making on the team, but make final decisions when necessary
 - May have more than one specialty on their team, per our [shared manager team](/handbook/engineering/starting-new-teams/#team-construction) concept
 - Participate in the [Incident Management on-call rotation](/handbook/engineering/infrastructure/incident-management/#incident-manager-responsibilities) to help ensure the availability goals for GitLab.com are met, by working with reliability engineers and development team members.
 
