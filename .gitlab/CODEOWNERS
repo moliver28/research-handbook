@@ -18,6 +18,16 @@
 ^[content-sites]
 * @gitlab-com/egroup @gitlab-com/content-sites
 
+# Handbook section needs to be near the top as it includes the fallback
+^[handbook]
+/content/ @sytses @streas @gitlab-com/egroup
+/content/handbook/handbook-usage.md @sytses @streas @gitlab-com/content-sites
+/content/handbook/style-guide.md @gitlab-com/content-sites
+/content/handbook/about/ @gitlab-com/content-sites
+/content/handbook/content-websites/ @gitlab-com/content-sites
+/content/handbook/editing-handbook/ @gitlab-com/content-sites
+/content/handbook/markdown-guide/ @gitlab-com/content-sites
+
 ^[Acquisitions]
 /content/handbook/acquisitions/ @eliran.mesika
 
@@ -586,16 +596,7 @@
 /content/handbook/company/working-groups/multi-large.md @cdu1 @mbursi
 /content/handbook/company/working-groups/software-supply-chain-security.md @sam.white @pcalder
 
-# Please keep all handbook sections near the end
-^[handbook]
-/content/ @sytses @streas @gitlab-com/egroup
-/content/handbook/handbook-usage.md @sytses @streas @gitlab-com/content-sites
-/content/handbook/style-guide.md @gitlab-com/content-sites
-/content/handbook/about/ @gitlab-com/content-sites
-/content/handbook/content-websites/ @gitlab-com/content-sites
-/content/handbook/editing-handbook/ @gitlab-com/content-sites
-/content/handbook/markdown-guide/ @gitlab-com/content-sites
-
+## Please keep the required handbook sections near the end
 [CODEOWNERS]
 /.gitlab/ @gitlab-com/ceo-chief-of-staff-team @gitlab-com/content-sites @gitlab-com/egroup
 
@@ -610,16 +611,16 @@
 /.vale/ @gitlab-com/content-sites @gitlab-com/content-sites/handbook-backend
 /.vscode/ @gitlab-com/content-sites @gitlab-com/content-sites/handbook-backend
 /config/ @gitlab-com/content-sites @gitlab-com/content-sites/handbook-backend
-/content/_index.html @gitlab-com/content-sites @gitlab-com/content-sites/handbook-backend
-/content/featured-background.png @gitlab-com/content-sites @gitlab-com/content-sites/handbook-backend
-/CONTRIBUTING.md @gitlab-com/content-sites @gitlab-com/content-sites/handbook-backend
+/content/_index.html @gitlab-com/content-sites @gitlab-com/content-sites/handbook-backend @gitlab-com/egroup
+/content/featured-background.png @gitlab-com/content-sites @gitlab-com/content-sites/handbook-backend @gitlab-com/egroup
+/CONTRIBUTING.md @gitlab-com/content-sites @gitlab-com/content-sites/handbook-backend @gitlab-com/egroup
 /go.mod @gitlab-com/content-sites @gitlab-com/content-sites/handbook-backend
 /go.sum @gitlab-com/content-sites @gitlab-com/content-sites/handbook-backend
-/layouts/ @gitlab-com/content-sites @gitlab-com/content-sites/handbook-backend
-/LICENCE @gitlab-com/content-sites @gitlab-com/content-sites/handbook-backend
+/layouts/ @gitlab-com/content-sites @gitlab-com/content-sites/handbook-backend @gitlab-com/egroup
+/LICENCE @gitlab-com/content-sites @gitlab-com/content-sites/handbook-backend @gitlab-com/egroup
 /package-lock.json @gitlab-com/content-sites @gitlab-com/content-sites/handbook-backend
 /package.json @gitlab-com/content-sites @gitlab-com/content-sites/handbook-backend
-/README.md @gitlab-com/content-sites @gitlab-com/content-sites/handbook-backend
+/README.md @gitlab-com/content-sites @gitlab-com/content-sites/handbook-backend @gitlab-com/egroup
 /scripts/ @gitlab-com/content-sites @gitlab-com/content-sites/handbook-backend
 
 ## Controlled Documents must be in this section, and it must be the last section
