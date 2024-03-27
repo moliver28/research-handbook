@@ -36,12 +36,38 @@ only smoke tests will be run during the release process.
 
 Tests are selected for promotion by a weekly automated script that uses the data produced by reliable test report.
 
-- Criteria: 14 consecutive days of success and top 10 in run frequency.
+- Criteria: 14 consecutive days of success and top 10 in run frequency in master or nightly pipelines
 - The process involves generating MRs for the top-performing tests and assigning them for review by counterpart SET for
   the DevOps stage of the test as a DRI.
 - A test should ideally not be promoted manually without it being identified in the reliable test report. However, if a
   test has been identified in the reliable test report did not make it to the top 10 number of runs, it can be promoted
   by manually creating an MR.
+
+The flow of promotion to blocking as a decision tree:
+
+```mermaid
+flowchart TD
+    %% nodes
+    reliable_test_report[Reliable test report\nruns once a week]
+    end_to_end_test[End to end test]
+    passed_consistently_for_14_days_check{Passed\nconsistently\nfor 14 days}
+    master_and_nightly_piplines_check{Ran in master or\nnightly pipline}
+    surfaces_in_reliable_test_report[Surface in reliable test report]
+    top_10_run_frequency_check{In top 10 list\nby no of runs}
+    create_merge_request_for_promotion[Merge request created for promotion]
+    no_action_performed[No action performed]
+
+    %% diagram
+    reliable_test_report --> |Evaluates| end_to_end_test
+    end_to_end_test --> master_and_nightly_piplines_check
+    master_and_nightly_piplines_check --> |Yes |passed_consistently_for_14_days_check
+    master_and_nightly_piplines_check --> |No |no_action_performed
+    passed_consistently_for_14_days_check --> |Yes| surfaces_in_reliable_test_report
+    passed_consistently_for_14_days_check --> |No |no_action_performed
+    surfaces_in_reliable_test_report --> top_10_run_frequency_check
+    top_10_run_frequency_check --> |Yes| create_merge_request_for_promotion
+    top_10_run_frequency_check --> |No |no_action_performed
+```
 
 ### Weekly Reliable Spec Report
 
@@ -52,7 +78,57 @@ This report plays a crucial role in managing the health of the test suite, highl
 
 ## Managing Test Failures
 
-### What to do when a reliable test fails?
+The flow of test failures as a decision tree:
+
+```mermaid
+
+flowchart TD
+    %% nodes
+    test_fails[An E2E test fails]
+    failure_in_mr_check{Failure is\nin MR?}
+    author_fixes[MR author fixes the code\nor updates the test]
+    failure_issue_created[Failure issue created]
+    test_session_report[Failure issue surfaces on\ntest session report and Slack]
+    manual_triage_flow[Manual Triage Flow]
+    blocking_check{Failed test\nis blocking\nor reliable?}
+    nightly_or_master_check{Failure is\non master\nor nightly\npipeline?}
+    surface_on_relaible_report[Failure issue surfaces\non reliable test report]
+    one_percent_failure_check{Test failed\nin more than\n1% of runs?}
+    failure_issue_open_check{Failure\nissue\nis open?}
+    test_environment_related_check{Failure is\nenvoronment\nrelated?}
+    create_mr_for_quarantine[MR auto created for quarantine]
+    no_action[No action needed]
+
+    %% external links
+    click manual_triage_flow "https://handbook.gitlab.com/handbook/engineering/infrastructure/test-platform/debugging-qa-test-failures/#triage-flow"
+
+    %% diagram
+    test_fails --> failure_in_mr_check
+    failure_in_mr_check -->|Yes| author_fixes
+    failure_in_mr_check -->|NO| failure_issue_created
+    failure_issue_created --> test_session_report
+    test_session_report --> manual_triage_flow
+    failure_issue_created --> nightly_or_master_check
+
+    nightly_or_master_check -->|Yes| blocking_check
+    nightly_or_master_check -->|No| manual_triage_flow
+    blocking_check -->|Yes| surface_on_relaible_report
+    blocking_check -->|No| manual_triage_flow
+
+    surface_on_relaible_report --> one_percent_failure_check
+    one_percent_failure_check -->|Yes| failure_issue_open_check
+    one_percent_failure_check -->|No| no_action
+    failure_issue_open_check -->|Yes| test_environment_related_check
+    failure_issue_open_check -->|No| no_action
+    test_environment_related_check -->|No| create_mr_for_quarantine
+    test_environment_related_check -->|Yes| manual_triage_flow
+```
+
+### What happens when a reliable test fails?
+
+- **In MRs**: The author is responsible for addressing any bugs or updating the test.
+- **In master or nightly pipeline**: Consistent failures trigger automatic quarantine.
+- **In release pipeline**: The [triage flow](/handbook/engineering/infrastructure/test-platform/debugging-qa-test-failures/#triage-flow) is followed with these guidelines:
 
 | Reason for Failure                    | Action                         |
 |---------------------------------------|--------------------------------|
@@ -62,7 +138,7 @@ This report plays a crucial role in managing the health of the test suite, highl
 | Significant infrastructure issues     | Test remains `:reliable`       |
 
 The reliable test suite is not actively expanded. Therefore, once a demoted reliable test passes consistently, it will
-identified and
+be identified and
 an MR will be created to promote it to the blocking suite and not the reliable suite.
 
 The `:reliable` tag will be sunset at a later stage. Refer to the [Future Iterations](#future-iterations) section below
@@ -75,8 +151,8 @@ Blocking test failures require immediate attention:
 - **In MRs**: The author is responsible for addressing any bugs or updating the test.
 - **In master or nightly pipeline**: Consistent failures trigger automatic quarantine.
 
-An issue for de-quarantining the test will be created and assigned to counterpart SET for the test’s DevOps stage.
-It is the responsibility of the assigned SET to either delegate the issue or fix and de-quarantine the test themselves.
+Once a test is quarantined, the counter part SET will be mentioned in a comment on the failure issue which will already be assigned to them.
+It is the responsibility of the coutner part SET to either delegate the issue or fix and de-quarantine the test themselves.
 
 If a test needs to be quarantined sooner than the next reliable test report run,
 the [fast quarantine](/handbook/engineering/infrastructure/test-platform/debugging-qa-test-failures/#fast-quarantine)
