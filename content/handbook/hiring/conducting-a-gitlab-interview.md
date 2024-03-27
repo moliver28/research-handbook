@@ -4,7 +4,7 @@ description: "Helpful information about how to prepare and conduct interviews fo
 ---
 ## **Overview**
 
-Interviewing can be challenging for both parties involved. In under an hour, a decision must be made about the potential collaboration. This page aims to provide clear guidelines to ease the interview process for everyone.
+Interviewing can be challenging for both parties involved. In a relatively short space of time, a decision must be made about the potential collaboration. This page aims to provide clear guidelines to ease the interview process for everyone.
 
 ## Interviewer Training Requirements
 
