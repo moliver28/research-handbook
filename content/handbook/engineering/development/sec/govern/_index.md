@@ -42,17 +42,14 @@ To contact Govern sub-department development people leaders leaders use the foll
 
 ## All Team Members
 
-### Anti-abuse
-
-{{% team-by-manager-slug manager="jayswain" team="Engineer(.*)Govern:Anti-Abuse" %}}
 
 ### Authentication
 
 {{% team-by-manager-slug manager="adil.farrukh" team="Engineer(.*)Govern:Authentication" %}}
 
-### Authorization
+### Authorization and Anti-abuse
 
-{{% team-by-manager-slug manager="jayswain" team="Engineer(.*)Govern:Authorization" %}}
+{{% team-by-manager-slug manager="jayswain" team="Engineer(.*)Govern:Authorization|Govern:Anti-Abuse" %}}
 
 ### Compliance
 
