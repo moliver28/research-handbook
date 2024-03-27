@@ -27,9 +27,14 @@ Permifrost is a Python tool for managing permissions on a Snowflake data warehou
 
 ### Caveats and Errors
 
-- Objects that exist but are not in the config file do not lead to errors
-- Role/warehouse/database creation and deletion is not managed by permifrost
-    - Removing entire roles from the file will **not** delete them
+#### :x: What Permifrost is doing
+
+* Objects that exist but are not in the config file do not lead to errors
+
+#### :white_check_mark: What Permifrost is not doing
+
+* Role/warehouse/database creation and deletion is not managed by permifrost
+* Removing entire roles from the file will **not** delete them
 
 ### Development
 
