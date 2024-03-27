@@ -284,6 +284,10 @@ There are set location options in Greenhouse to make this possible. Recruiters c
 | Remote, APAC | Australia, New Zealand, South Korea, Singapore, Japan, Phillipines |
 | Remote, Asia | Singapore, Phillipines, South Korea, Japan |
 | Remote, US | United States |
+| Remote, US-Southeast | Georgia, North Carolina, South Carolina, Florida, Virginia |
+| Remote, Canada | Canada |
+| Remote, Chile | Chile |
+| Remote, Costa Rica | Costa Rica |
 | Remote, North America | United States, Canada |
 | Remote, France | France |
 | Remote, India | India |
