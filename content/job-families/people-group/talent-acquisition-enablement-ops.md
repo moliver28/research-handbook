@@ -99,7 +99,7 @@ The Manager, Talent Acquisition Operations is a [grade 8](/handbook/total-reward
 - Manage our technical tools and the vendor relationships behind them
 - Ensures data is properly maintained within our technical systems to lead to better decision making
 - Act as project manager on operations projects
-- Build and manage an Operations team as we scale
+- Hire and manage TA Operations team members as needed
 
 
 #### Manager, Talent Acquisition Operations Requirements
