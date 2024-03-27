@@ -53,6 +53,70 @@ Check back later for more webinars & labs!
 
 ## April 2024
 
+### AMER Time Zone Webinars & Labs
+
+#### Intro to GitLab
+##### April 3rd, 2024 at 9:00-10:00AM PT / 12:00-1:00PM ET
+
+Are you new to GitLab? Join this webinar, where we will review what GitLab is, how it benefits you, and the recommended workflow to allow you to get the most out of the platform.
+
+[<button class="btn btn-primary" type="button">Register</button>](https://gitlab.zoom.us/webinar/register/WN_VibxsqwhSTq3Z_0KPPlVqg#/registration)
+
+#### Intro to CI/CD
+##### April 9th, 2024 at 9:00-10:00AM PT / 12:00-1:00PM ET
+
+Come learn about what CI/CD is and how it can benefit your team. We will cover an overview of CI/CD and what it looks like in GitLab. We will also cover how to get started with your first CI/CD pipeline in GitLab and the basics of GitLab Runners.
+
+[<button class="btn btn-primary" type="button">Register</button>](https://gitlab.zoom.us/webinar/register/WN_gE1n9NBhRp2AI7ogdCNBhw#/registration)
+
+#### Hands-On GitLab CI Lab 
+##### April 10th, 2024 at 9:00-11:00AM PT / 12:00-2:00PM ET
+
+Join us for a hands-on GitLab CI lab and learn how it can fit in your organization!
+
+Learn how to build simple GitLab pipelines and work up to more advanced pipeline structures and workflows, including security scanning and compliance enforcement.
+
+[<button class="btn btn-primary" type="button">Register</button>](https://gitlab.zoom.us/webinar/register/WN_5JolkHESQCOPVIWxYEQjgg#/registration)
+
+### Jira to GitLab: Helping you transition to planning with GitLab
+##### April 16th, 2024 at 9:00-10:00AM PT / 12:00-1:00PM ET
+
+GitLab offers robust team planning capabilities that work directly with the DevOps lifecycle. Keeping teams in a single application offers operational and financial advantages. Many customers inquire about what a transition would look like from Jira Software to GitLab to team planning. This webinar will start to outline the differences in functionality and advantages gained by using GitLab. 
+
+[<button class="btn btn-primary" type="button">Register</button>](https://gitlab.zoom.us/webinar/register/WN_Y7sn8gWvQeixZ2hI3ZYVbg#/registration)
+
+#### Hands-on Lab: Security and Compliance in GitLab
+##### April 17th, 2024 at 9:00-11:00AM PT / 12:00-2:00PM ET
+
+In this lab we will focus on how you can secure your application with GitLab. 
+
+We will first take a look at how to apply scanners to your CICD pipelines in a hands-on exercise so that any vulnerabilities are caught as soon as the code is committed. 
+
+Next, we will look at compliance frameworks and pipelines to show how you can ensure no one within your development teams is cutting corners and exposing your application.
+
+[<button class="btn btn-primary" type="button">Register</button>](https://gitlab.zoom.us/webinar/register/WN_z3yMsYLQTpqiDzAC0RcbsQ#/registration)
+
+#### Hands-On Advanced GitLab CI Lab 
+##### April 24th, 2024 at 9:00-11:00AM PT / 12:00-2:00PM ET
+
+Join us for a hands-on lab where we will go into advanced GitLab CI capabilities that allow customers to simplify pipeline yml code and optimize the execution time of pipelines.
+
+We will cover:
+- Storing build resources in GitLab registries
+- Managing artifacts, dependencies, and environment variables between jobs
+- Running a job multiple times in parallel with different variables
+- Triggering downstream pipelines
+
+[<button class="btn btn-primary" type="button">Register</button>](https://gitlab.zoom.us/webinar/register/WN_D_pFLbsvRS-bLD0p7ut24g#/registration)
+
+#### AI in DevSecOps - GitLab Webinar
+##### April 30th, 2024 at 9:00-10:00AM Pacific Time / 12:00-1:00PM Eastern Time
+
+Join us for the AI in DevSecOps webinar where we will explore Artificial Intelligence and how it fits within the DevSecOps lifecycle. In this session, we will cover foundational implementation and use case scenarios such as Code Suggestions and Vulnerability Explanations.
+
+[<button class="btn btn-primary" type="button">Register</button>](https://gitlab.zoom.us/webinar/register/WN_D_pFLbsvRS-bLD0p7ut24g#/registration)
+
+
 ### EMEA Time Zone Webinars & Labs
 
 #### Intro to GitLab
@@ -108,14 +172,6 @@ We will cover:
 - Triggering downstream pipelines
 
 [<button class="btn btn-primary" type="button">Register</button>](https://gitlab.zoom.us/webinar/register/WN_OQNV9scJSIaelQkXl5mbnw#/registration)
-
-#### AI in DevSecOps - GitLab Webinar
-##### April 30th, 2024 at 9:00-10:00AM Pacific Time / 12:00-1:00PM Eastern Time
-
-Join us for the AI in DevSecOps webinar where we will explore Artificial Intelligence and how it fits within the DevSecOps lifecycle. In this session, we will cover foundational implementation and use case scenarios such as Code Suggestions and Vulnerability Explanations.
-
-[<button class="btn btn-primary" type="button">Register</button>](https://gitlab.zoom.us/webinar/register/WN__PRkLukaTyqA1uwpoe9OwA#/registration)
-
 
 #### AI in DevSecOps - GitLab Webinar
 ##### April 30th, 2024 at at 9:00-10:00AM UTC / 11:00AM-12:00PM CET
