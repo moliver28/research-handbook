@@ -162,7 +162,7 @@ If possible, avoid time critical work. Great intern projects tend to be items wh
 
 ### Make your strategy and onboarding public
 
-At GitLab, we make our [strategy]({{< ref "/handbook/company/strategy" >}}) and [OKRs]({{< ref "/handbook/company/okrs" >}}) (objectives and key results) public, and offer copious context on the question of "[What's it like to work at GitLab?]({{< ref "candidate-faq" >}})" This shows respect for job seekers, and it ensures that those who apply resonate with our [values]({{< ref "values" >}}).
+At GitLab, we make our [strategy](/handbook/company/strategy) and [OKRs](/handbook/company/okrs) (objectives and key results) public, and offer copious context on the question of "[What's it like to work at GitLab?]({{< ref "candidate-faq" >}})" This shows respect for job seekers, and it ensures that those who apply resonate with our [values]({{< ref "values" >}}).
 
 Hiring remote interns is hard. An organization shouldn't make it harder by concealing their vision and values until *after* an intern is hired. Given the remarkably short duration of the internship experience, it's vital to act [transparently]({{< ref "values#transparency" >}}) in order to create as much pre-start alignment as possible.
 

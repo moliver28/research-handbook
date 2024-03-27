@@ -38,7 +38,7 @@ Such a process will be the responsibility of a future Security team.
 The following requirements are driven by 3 high level guidelines:
 
 - [Least Privilege]({{< ref "access-management-policy#principle-of-least-privilege" >}})
-- [Zero Trust]({{< ref "/handbook/security/architecture/zero-trust" >}})
+- [Zero Trust](/handbook/security/architecture/zero-trust)
 - [GitLab's Security Controls]({{< ref "sec-controls#gitlabs-security-controls" >}})
 
 ### Identity, Authentication, and Authorization

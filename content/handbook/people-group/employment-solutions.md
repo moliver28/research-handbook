@@ -4,7 +4,7 @@ description: GitLab's Employment Solutions.
 ---
 
 This page contains an overview of how we have scaled team members Globally.
-The DRI for all Employment Solutions is the [Employment Solutions Partner]({{< ref "/job-families/people-group/global-workforce-strategy" >}}). Any changes to any contracts should be requested to the Employment Solutions Partner and will require approval from our Director of Tax & our Director of Legal, Employment.
+The DRI for all Employment Solutions is the [Employment Solutions Partner](/job-families/people-group/global-workforce-strategy). Any changes to any contracts should be requested to the Employment Solutions Partner and will require approval from our Director of Tax & our Director of Legal, Employment.
 
 ## Country Hiring Guidelines
 

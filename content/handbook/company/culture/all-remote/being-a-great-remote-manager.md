@@ -24,7 +24,7 @@ Managing remotely is much like managing in-person, but there are certain traits 
 
 ### Self-awareness
 
-Self-awareness is critical for relationship building and trust, particularly in an all-remote setting. The reality is that people prefer to learn, and to be managed, differently. GitLab's CEO goes so far as to [publicize his communication preferences]({{< ref "/handbook/ceo#communication" >}}) and [flaws]({{< ref "/handbook/ceo#flaws" >}}), which requires a high degree of self-awareness, a [low level of shame]({{< ref "values#low-level-of-shame" >}}), and a penchant for [transparency]({{< ref "values#transparency" >}}).
+Self-awareness is critical for relationship building and trust, particularly in an all-remote setting. The reality is that people prefer to learn, and to be managed, differently. GitLab's CEO goes so far as to [publicize his communication preferences](/handbook/ceo#communication) and [flaws](/handbook/ceo#flaws), which requires a high degree of self-awareness, a [low level of shame]({{< ref "values#low-level-of-shame" >}}), and a penchant for [transparency]({{< ref "values#transparency" >}}).
 
 Self-aware managers will be open with reports on their learning and communication preferences, enabling those who report to them to interact without ambiguity.
 
@@ -76,7 +76,7 @@ Being a remote manager means building a support system for your team, while at t
 
 #### Maintain constant communication
 
-At GitLab, [Slack]({{< ref "/handbook/communication/chat" >}}) is critical to our communication with each other. While it enables real-time communication, we also are careful to remain true to our asynchronous mindset, suggesting that GitLab team-members set "do not disturb" and not expect real-time answers from others all the time.
+At GitLab, [Slack](/handbook/communication/chat) is critical to our communication with each other. While it enables real-time communication, we also are careful to remain true to our asynchronous mindset, suggesting that GitLab team-members set "do not disturb" and not expect real-time answers from others all the time.
 
 #### Prioritize one-on-one time
 
@@ -227,7 +227,7 @@ Two, managers carve out more bandwidth in their day to focus, rather than re-ans
 
 It is the job of a manager to ensure a direct report has what they need to be successful on an ongoing basis. By [documenting]({{< ref "./management#scaling-by-documenting" >}}) processes, guides, solutions, how-tos, and policies, a manager is practicing [servant leadership](https://www.shrm.org/resourcesandtools/hr-topics/organizational-and-employee-development/pages/the-art-of-servant-leadership.aspx) in a powerful way.
 
-If your company has yet to implement their own handbook, start now and start small. Don't be overwhelmed with the notion of building a complete handbook from the get-go; simply start with one process, then document the next, and so on. This is the power of [iteration]({{< ref "values#iteration" >}}). GitLab (the company) uses GitLab ([the product](https://about.gitlab.com/stages-devops-lifecycle/)) to build and maintain our public-facing [handbook]({{< ref "/handbook" >}}), and options from [Almanac](https://almanac.io/) and [Trainual](https://trainual.com/) are available as well.
+If your company has yet to implement their own handbook, start now and start small. Don't be overwhelmed with the notion of building a complete handbook from the get-go; simply start with one process, then document the next, and so on. This is the power of [iteration]({{< ref "values#iteration" >}}). GitLab (the company) uses GitLab ([the product](https://about.gitlab.com/stages-devops-lifecycle/)) to build and maintain our public-facing [handbook](/handbook), and options from [Almanac](https://almanac.io/) and [Trainual](https://trainual.com/) are available as well.
 
 In the event that a direct report asks a question that has yet to be documented, agree to document the eventual solution so that the work put forth in answering benefits a wider swath of people.
 
@@ -338,7 +338,7 @@ Here's what they had to say:
 
 ## GitLab Knowledge Assessment: Being a great remote manager
 
-Anyone can test their knowledge on Being a great remote manager by completing the [knowledge assessment](https://docs.google.com/forms/d/e/1FAIpQLSfx9CcEag4ZxiNtYAkUJJ9fzKYg51qEYkcpHRVZNaNxjOJVRA/viewform). Earn at least an 80% or higher on the assessment to receive a passing score. Once the quiz has been passed, you will receive an email acknowledging the completion from GitLab. We are in the process of designing a GitLab Remote Certification and completion of the assessment will be one requirement in obtaining the [certification](https://about.gitlab.com/learn/certifications/public/). If you have questions, please reach out to our [Learning & Development team]({{< ref "/handbook/people-group/learning-and-development" >}}) at `learning@gitlab.com`.
+Anyone can test their knowledge on Being a great remote manager by completing the [knowledge assessment](https://docs.google.com/forms/d/e/1FAIpQLSfx9CcEag4ZxiNtYAkUJJ9fzKYg51qEYkcpHRVZNaNxjOJVRA/viewform). Earn at least an 80% or higher on the assessment to receive a passing score. Once the quiz has been passed, you will receive an email acknowledging the completion from GitLab. We are in the process of designing a GitLab Remote Certification and completion of the assessment will be one requirement in obtaining the [certification](https://about.gitlab.com/learn/certifications/public/). If you have questions, please reach out to our [Learning & Development team](/handbook/people-group/learning-and-development) at `learning@gitlab.com`.
 
 {{% include "includes/is_this_advice_any_good_remote.md" %}}
 

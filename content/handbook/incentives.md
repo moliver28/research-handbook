@@ -69,7 +69,7 @@ You can read more about the process in [our handbook](#nominator-bot-process)
 
 > to do more or better than would usually be expected of you
 
-What do we normally expect of a GitLab team member? Read their job family responsibilities to determine if their work is part of the normal job expectations. As an example, a senior Frontend developer is expected to [solve technical problems of high scope and complexity.]({{< ref "/job-families/engineering/development/frontend#senior-frontend-engineer" >}}). Going above and beyond involves taking on work that is outside the scope of their job responsibility listing, and executing it to a high level.
+What do we normally expect of a GitLab team member? Read their job family responsibilities to determine if their work is part of the normal job expectations. As an example, a senior Frontend developer is expected to [solve technical problems of high scope and complexity.](/job-families/engineering/development/frontend#senior-frontend-engineer). Going above and beyond involves taking on work that is outside the scope of their job responsibility listing, and executing it to a high level.
 
 Some tips for knowing if someone is going above and beyond:
 
