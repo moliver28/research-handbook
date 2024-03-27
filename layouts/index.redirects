@@ -38,14 +38,6 @@
 {{- end -}}
 {{ printf "" }}
 
-# Handbook doesn't use .html style page locations so repoint these
-/*.html /:splat/ 301
-
-# All other manually created redirects
-# People-group migration redirects - created: 2023-10-02 - remove 2024-10-01
-/handbook/hiring/candidate/faq/ /handbook/hiring/candidate-faq/
-/handbook/hiring/candidate/faq/recruitment-privacy-policy/ /handbook/hiring/candidate-faq/recruitment-privacy-policy/
-
 # Files with Underscores in their Name - remove 2024-12-01
 /handbook/security/External_Security_Communications_Procedure.html /handbook/security/external-security-communications-procedure/
 /handbook/security/gitlab_projects_baseline_requirements.html /handbook/security/gitlab_projects_baseline_requirements/
@@ -57,3 +49,6 @@
 /handbook/security/security-assurance/production_readiness_compliance_assessment.html /handbook/security/security-assurance/production-readiness-compliance-assessment/
 /handbook/security/security-assurance/security-risk/sox_cuec_mapping_procedure.html /handbook/security/security-assurance/security-risk/sox_cuec_mapping_procedure/
 /handbook/legal/privacy/us-state-privacy-disclosure/ https://about.gitlab.com/privacy/us-state-privacy-rights-and-disclosures/
+
+# Handbook doesn't use .html style page locations so repoint these
+/*.html /:splat/ 301
