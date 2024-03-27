@@ -115,11 +115,11 @@ For Support Engineers who are nearing or at Senior Level
 
 Support Engineers with verified US Citizenship may join the GitLab US Government Support Team. This group works through the [US Government Support portal](https://about.gitlab.com/support/us-government-support/) to collaborate with Public Sector organizations and United States Government agencies in order to support, maintain, and resolve issues in their GitLab environments.
 
-There are a number of challenges that are unique when it comes to supporting the customer environments that an engineer may encounter in the US Government space. Some of those challenges may include highly sanitized and redacted troubleshooting information, inability to screenshare or provide screenshots, etc. You can learn more about working on tickets in the US Government Support portal [here](/handbook/support/workflows/usgovernment_tickets.html). If you look forward to the aforementioned challenges and meet the requirements for US Government Support, apply today!
+There are a number of challenges that are unique when it comes to supporting the customer environments that an engineer may encounter in the US Government space. Some of those challenges may include highly sanitized and redacted troubleshooting information, inability to screenshare or provide screenshots, etc. You can learn more about working on tickets in the US Government Support portal [here](/handbook/support/workflows/usgovernment_tickets/). If you look forward to the aforementioned challenges and meet the requirements for US Government Support, apply today!
 
 ### Support Engineer (Shift)
 
-Responsibilties mirror that of a Support Engineer with the primary variance being that the working hours and on-call shifts do not necessarily align with the traditional working hours of the engineer's region. This role is important for situations where it is not feasible to staff in a "follow the sun" manner.  
+Responsibilties mirror that of a Support Engineer with the primary variance being that the working hours and on-call shifts do not necessarily align with the traditional working hours of the engineer's region. This role is important for situations where it is not feasible to staff in a "follow the sun" manner.
 
 #### Requirements
 

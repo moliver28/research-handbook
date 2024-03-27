@@ -257,7 +257,7 @@ When creating an [individual/bulk access request](https://gitlab.com/gitlab-com/
 
 ### Workflows
 
-- [License & renewals workflows](/handbook/support/license-and-renewals/workflows/index.html)
+- [License & renewals workflows](/handbook/support/license-and-renewals/workflows/index/)
 
 ### Useful tools
 

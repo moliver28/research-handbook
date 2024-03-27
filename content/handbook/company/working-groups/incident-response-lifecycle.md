@@ -51,9 +51,9 @@ description: "The Incident Response Lifecyle working group is intended to docume
 1. Reliability
    - [Incident Management](/handbook/engineering/infrastructure/incident-management/)
 1. Support
-   - [How to Perform CMOC Duties](/handbook/support/workflows/cmoc_workflows.html)
+   - [How to Perform CMOC Duties](/handbook/support/workflows/cmoc_workflows/)
    - [Contacting Customers](/handbook/support/internal-support/#contacting-customers-via-tickets)
-   - [Sending Notices](/handbook/support/workflows/sending_notices.html) (small number of users)
+   - [Sending Notices](/handbook/support/workflows/sending_notices/) (small number of users)
 
 ### Noted issues
 
