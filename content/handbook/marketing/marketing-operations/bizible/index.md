@@ -81,8 +81,8 @@ The Custom Attribution Model's machine learning algorithm improves as it collect
 
 Currently the Custom Model has the following weights for each stage (updated April 24th, 2023):
 
-- **First Touch** - 18.8%
-- **Lead Creation** - 18.3%
+- **First Touch** - 19.2%
+- **Lead Creation** - 0%
 - **Opportunity Creation** - 18.6%
 - **SAO** - 11.5%
 - **Closed (Lost, Won)** - 22.8%
