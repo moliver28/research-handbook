@@ -226,7 +226,10 @@ When a customer is in an escalated state, the path to resolution must continue t
 
 ## Support Engineering's role in Escalations
 
-See the [Support Engineering Guide to Escalations](/handbook/support/internal-support/support-ticket-attention-requests.html) for more specific information on how support manages customers in an escalated state.
+For more specific information on how the GitLab Support team handles and manages customers in an esclated state:
+
+- See [Expectations during an Account Escalation](/handbook/support/workflows/emergency-to-escalation-process.html#expectations-during-an-account-escalation) to learn more about a Support Engineer's role during an escalation. 
+- See [A Support Engineering Manager guide to account escalations](/handbook/support/workflows/support/workflows/escalations-support_manager/) to learn more about a Suport Manager's role during an escalation.
 
 ## Engineering's role in Escalations
 
@@ -234,6 +237,7 @@ Engineering support will usually come via Support Engineering, however it's wort
 
 ## Related Links
 
-- [Support Engineering Page](/handbook/support/) and [Support Engineering Escalation Procedures](/handbook/support/workflows/working-with-issues.html)
+- [Support Engineering Page](/handbook/support/)
+- [A Support Engineering Manager guide to account escalations](/handbook/support/workflows/support/workflows/escalations-support_manager/)
 - [Product Escalation Issue Template](https://gitlab.com/gitlab-com/Product/issues/new?issuable_template=Product-Support-Request) to request Product Team support for roadmap / future needs, prioritization of enhancements and/or issues and troubleshooting of customer issues.
 - [Customer Health Assessment and Account Triaging](/handbook/customer-success/csm/health-score-triage/)
