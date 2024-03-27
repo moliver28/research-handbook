@@ -54,7 +54,7 @@ according to our [category maturity](https://about.gitlab.com/direction/maturity
 
 ## What we offer
 
-Growth stage acquisitions will receive a compensation offer specific to that engagement which will be evaluated as part of our [acquisition process](/handbook/acquisitions/acquisition-process/) as we learn more about you and your technology.
+Acquisitions receive a compensation offer specific to that engagement, which will be evaluated as part of our [acquisition process](/handbook/acquisitions/acquisition-process/) as we learn more about your company and your technology.
 
 ## What happens to your current company?
 
