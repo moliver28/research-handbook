@@ -80,7 +80,7 @@ To learn how the GitLab product and our Teams are organized review our Product C
 
 Learn about GitLab as a product, including what does it mean to be a single application, our subscription tiers and pricing model, and the basics of permissions in the platform.
 
-### [**Product Manager Responsibilities**](/handbook/product/product-manager-responsibilities)
+### [**Product Manager Responsibilities**](https://handbook.gitlab.com/job-families/product/product-manager)
 
 Understand the roles and responsibilities of product managers.
 
