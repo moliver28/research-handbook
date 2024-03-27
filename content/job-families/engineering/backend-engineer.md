@@ -169,6 +169,8 @@ The Staff Backend Engineer is a [grade 8](/handbook/total-rewards/compensation/c
 - Represent GitLab and its values in public communication around broad initiatives, specific projects, and community contributions. Interact with customers and other external stakeholders as a consultant and spokesperson for the work of your team.
 - Provide mentorship for all Engineers on your team to help them grow in their technical responsibilities and remove blockers to their autonomy.
 - Confidently ship large features and improvements with minimal guidance and support from other team members. Collaborate with the team on larger projects.
+- Works on large scope or high impact projects that involve the team, not necessarily cross team initiatives.
+- Solve problems that are a core business need and move the needle for the organizations OKRs and Yearlies.
 
 ### Backend Engineering Manager
 
