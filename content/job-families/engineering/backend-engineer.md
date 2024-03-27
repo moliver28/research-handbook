@@ -190,14 +190,8 @@ The Backend Engineering Manager role is a [grade 8](/handbook/total-rewards/comp
 
 #### Nice-to-have Requirement
 
-- Experience in a peak performance organization
 - Deep Ruby on Rails experience
 - Golang experience
-- Product company experience
-- Startup experience
-- Enterprise software company experience
-- Computer science education or equivalent experience
-- Passionate about open source and developer tools
 
 ## Career Ladder
 
