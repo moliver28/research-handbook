@@ -18,6 +18,16 @@
 ^[content-sites]
 * @gitlab-com/egroup @gitlab-com/content-sites
 
+# Handbook section needs to be near the top as it includes the fallback
+^[handbook]
+/content/ @sytses @streas @gitlab-com/egroup
+/content/handbook/handbook-usage.md @sytses @streas @gitlab-com/content-sites
+/content/handbook/style-guide.md @gitlab-com/content-sites
+/content/handbook/about/ @gitlab-com/content-sites
+/content/handbook/content-websites/ @gitlab-com/content-sites
+/content/handbook/editing-handbook/ @gitlab-com/content-sites
+/content/handbook/markdown-guide/ @gitlab-com/content-sites
+
 ^[Acquisitions]
 /content/handbook/acquisitions/ @eliran.mesika
 
@@ -586,16 +596,7 @@
 /content/handbook/company/working-groups/multi-large.md @cdu1 @mbursi
 /content/handbook/company/working-groups/software-supply-chain-security.md @sam.white @pcalder
 
-# Please keep all handbook sections near the end
-^[handbook]
-/content/ @sytses @streas @gitlab-com/egroup
-/content/handbook/handbook-usage.md @sytses @streas @gitlab-com/content-sites
-/content/handbook/style-guide.md @gitlab-com/content-sites
-/content/handbook/about/ @gitlab-com/content-sites
-/content/handbook/content-websites/ @gitlab-com/content-sites
-/content/handbook/editing-handbook/ @gitlab-com/content-sites
-/content/handbook/markdown-guide/ @gitlab-com/content-sites
-
+## Please keep the required handbook sections near the end
 [CODEOWNERS]
 /.gitlab/ @gitlab-com/ceo-chief-of-staff-team @gitlab-com/content-sites @gitlab-com/egroup
 
