@@ -64,6 +64,18 @@ If you'd like the assistance of another person or team, you can use SFDC chatter
 | Requesting SAO Credit on an Opp                        | Chatter Sales Dev Ops or the Director of Commercial Sales Development.            |
 | Account is in Restricted Status                        | Chatter the SAE and ask permission to reach out.                                   |
 
+Lastly, Every so often you may be assigned a lead that has no value to GitLab and is not worth keeping within our database. Qualities that define these types of leads include:
+
+| Step                                                    | Description                                                                                                                                                           |
+|---------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Identify leads with no value to GitLab                  | Look for leads with characteristics such as incoherent or obviously forged information, or email addresses from temporary domains that self-terminate.            |
+| Verify lead removal necessity                           | Ensure that the leads meet the criteria for removal and are unlikely to provide any value to GitLab.                                                                  |
+| Add leads to the SPAM DELETION Salesforce campaign      | Add the identified leads to the SPAM DELETION campaign in Salesforce. Make sure to be 100% certain about the removal, as this process is irreversible.               |
+| Note campaign membership, not status                    | Remember that only campaign membership matters for this process, so the campaign member status used when adding to the campaign does not affect the removal process. |
+| Understand the permanence of lead removal               | Realize that leads removed through this process cannot be recovered by MktgOps, making the removal permanent. Exercise caution when initiating lead removals.         |
+| Be aware of the removal schedule and exceptions         | Note that the removal process occurs daily at 12:05 am PDT via Marketo. For unscheduled removals, request assistance in the mktgops Slack channel but minimize requests. |
+| Request email domain blocking if necessary              | If you observe multiple leads with the same domain, create an issue with Marketing Ops to add the domain to a block list, preventing future occurrences.           |
+
 ## Actioning your leads
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
