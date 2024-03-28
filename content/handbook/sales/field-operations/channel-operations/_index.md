@@ -855,8 +855,8 @@ The following departments/people will be tagged for gathering this information:
 The following departments/people will be tagged for FYI/Additional Input:
 
 - **Partner Operations:** Nick Scala, Niles Jamshaid
-- **Channel Programs**: Evon Collett
-- **Deal Desk**: Cal Baker
+- **Channel Programs**: David Forsch
+- **Deal Desk**: Jesse Rabbits
 - **PubSec Channel**: Pilar Meija
 
 After all product approvals are complete, Partner Operations will request approval in the same issue from the following Channel Teams/Individuals:
