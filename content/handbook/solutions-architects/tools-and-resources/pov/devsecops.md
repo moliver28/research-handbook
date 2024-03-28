@@ -5,8 +5,6 @@ description: DevSecOps POV Scope and Acceptance
 ---
 
 
-## DevSecOps POV Scope and Acceptance
-
 The DevSecOps solution is identified for organizations  who are trying to "shift left" to find security vulnerabilities earlier within their DevOps methodology but have not been able to achieve the expected results.
 
 From the early discovery when qualifying the POV it is confirmed that the existing application security is separated from the DevOps flow, causing bottlenecks as the final hurdle in the development life cycle and typically controlled only by the App Sec team.
@@ -21,6 +19,7 @@ The key objective of the POV is to validate the value of the shift left security
 - Both DevOps + App sec team are stakeholders to be involved
 
 ### Suggested Success Criteria
+
 - Business Driver: increase velocity, consolidate/reduce spending, improve security posture, protect brand and reputation
 - Enterprise Initiative and Sponsor: cloud transformation, CIO
 - Required capabilities with the objectives to infuse security earlier in the development process, ability to scan all code and act them real time. Have the security oversight as the integral part of the end to end DevOps.

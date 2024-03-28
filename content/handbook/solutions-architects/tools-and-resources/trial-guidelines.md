@@ -38,7 +38,7 @@ Customers who choose a self-managed trial will need to install a single node [Om
 ### Populating your group with project data
 
 - When determining which projects to import into the trial namespace, we recommend considering the following criteria:
-   - Use copies of your own existing groups/projects - see [General Approaches](####general-approaches) below
+   - Use copies of your own existing groups/projects - see [General Approaches](#general-approaches) below
    - Use GitLab Security demo projects - GitLab provides a set of [security demos](https://gitlab.com/gitlab-org/security-products/demos) to show how the various security scans work
 
 - Only one [Project Access Tokens](https://docs.gitlab.com/ee/user/project/settings/project_access_tokens.html) is available with a trial license and [Group Access Tokens](https://docs.gitlab.com/ee/user/group/settings/group_access_tokens.html) are not available on a trial license

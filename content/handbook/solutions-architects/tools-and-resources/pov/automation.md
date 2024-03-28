@@ -5,8 +5,6 @@ description: Automated Software Delivery POV Scope and Acceptance
 ---
 
 
-## Automated Software Delivery POV Scope and Acceptance
-
 The Automated Software Delivery solution is identified for organizations who are trying to reduce the complexity and increase the velocity of Continuous Integration (CI) and Continuous Delivery/Deployment (CD) capabilities to deliver better software faster.
 
 From the early discovery when qualifying the POV, it is confirmed that the current CI/CD pipeline solution does not provide sufficient flexibility in organizing pipelines and requires too much administrative overhead to operate and integrate the CI/CD system with the source code repository.
@@ -20,6 +18,7 @@ The key objective of the POV is to validate the value of a tightly connected CI/
 - Both DevOps + App sec team are stakeholders to be involved
 
 ### Suggested Success Criteria
+
 - Business Driver: increase velocity, consolidate/reduce spending, improve security posture, protect brand and reputation
 - Enterprise Initiative and Sponsor: cloud transformation, CIO
 - Required capabilities with the objectives to infuse security earlier in the development process, ability to scan all code and act them real time. Have the security oversight as the integral part of the end to end DevOps.

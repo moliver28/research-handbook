@@ -5,8 +5,6 @@ description: Software Compliance POV Scope and Acceptance
 ---
 
 
-## Compliance POV Scope and Acceptance
-
 When the SA has confirmed with the prospect or the existng customer especially businesses in the regulated industry for a Software Compliance solution, the scope of the POV will focus on securing the software supply chain and simplifying the compliance with common industry regulations while at the same time speeding the software velocity.
 
 The key capabilities to validate to the value are
@@ -20,6 +18,7 @@ The key capabilities to validate to the value are
 - There is a clear requirement on compliance and audit either driven by the regulatory requirements or enterprise standardization
 
 ### Suggested Success Criteria
+
 - Business Driver: improved compliance and easy audit to be able to stay in market or enter into new market that is regulated by the government or reguatory bodies.
 - Enterprise Initiative and Sponsor: new product launch or regulator audit
 - Required capabilities with the objectives to infuse built-in compliance into the development process, ability to generate and audit artifacts and evidence for all steps and process.

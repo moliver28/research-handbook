@@ -4,7 +4,6 @@ title: Artificial Intelligence POV Scope and Acceptance
 description: Artifical Intelligence POV Scope and Acceptance
 ---
 
-# AI POVs
 
 ## AI POV best practices
 
