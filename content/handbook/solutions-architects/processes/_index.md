@@ -6,7 +6,6 @@ title: Solutions Architects Processes
 
 # Solutions Architects Processes
 
-
 ## SA Process Maps
 
 The SA organization uses process mapping as a framework for structured and continuous improvement.  LucidChart is used to document SA execution workflow and details; in other words, what we do and how we do it is documented as a visual process map.  This provides a single location to find reusable artifacts, enablement, and tooling. 
@@ -25,8 +24,6 @@ SA process mapping is not meant to restrict creativity, experimentation, or impr
 To following process maps are best viewed in full screen.  Please note that many of the map nodes are clickable, leading to other maps, handbook pages, or other supporting artifacts.
 
 <iframe allowfullscreen frameborder="0" style="width:640px; height:480px" src="https://lucid.app/documents/embeddedchart/38e731ce-71cb-4e87-aaa5-d58bb78e1aad" id="z1uMS15~KGtS"></iframe>
-
-
 
 ## SA Activity Capture
 
@@ -63,7 +60,7 @@ Customer Success Planning process:
 ## Positioning Professional Services
 
 Solutions Architects should be pitching professional services at every qualified customer opportunity due to long term customer sucess and growth. Please use this [deck](https://docs.google.com/presentation/d/1pXPE84FAv4zhFBwwM7cSy0WbhjUeJ7mrbp1PPjxLBaA/edit#slide=id.g122779ad4b2_0_0) and [rubric](https://docs.google.com/presentation/d/1pXPE84FAv4zhFBwwM7cSy0WbhjUeJ7mrbp1PPjxLBaA/edit#slide=id.g122779ad4b2_0_0) to familirize yourself with the catalog listed [here](https://about.gitlab.com/services/catalog/).
-Please add "Positioned PS" as SA activity type after you have positoned it for your opportunity. 
+Please add "Positioned PS" as SA activity type after you have positoned it for your opportunity.
 
 ## Engaging Professional Services
 
@@ -84,7 +81,6 @@ Simplified process description:
 Follow the process detailed in the [GitLab's Customer Assurance Activities](/handbook/security/security-assurance/field-security/customer-security-assessment-process.html)
 handbook page.
 
-
 **Optional** Considerations when engaging the Customer Assurance team:
 
 - You can start with [Security - GitLab Trust Center](https://about.gitlab.com/security/) in some cases.
@@ -95,7 +91,6 @@ handbook page.
 - Additional requests can be made in [#sec-fieldsecurity](https://gitlab.slack.com/archives/CV5A53V70) Slack Channel.
 - When spending time on a security questionnaire ensure you capture the initial time dedicated via our SA Activity Capture system (troops).
 
-
 ## SA Initiatives and OKRs
 
 Solutions Architects record and track their OKRs (Objectives and Key Results) and Initiatives in the [SA Initiatives](https://gitlab.com/gitlab-com/customer-success/solutions-architecture-leaders/sa-initiatives) GitLab project.
@@ -104,7 +99,6 @@ Every Solution Architect can start a new Initiative and OKR as well as contribut
 Both are ideally broken down to quarterly achievable efforts with DRIs (Direct Responsible Individual) for each action item as well as measurble deliverables (Key Results).
 For documentation and tracking use the OKR and Initiatives template provided in the [project](https://gitlab.com/gitlab-com/customer-success/solutions-architecture-leaders/sa-initiatives) and apply the correspongding lables.
 At the end of the quarter each Inititative and OKR should be successfully closed, archieved or moved to the next quarter if necessary. New planning starts at the beginning of the new quarter.
-
 
 ## Cross-functional Sales Team Processes
 
@@ -132,14 +126,16 @@ Enterprise Solutions Architects typically support sales teams made up of Sales D
 1. <b>[GitLab Account Management Project](https://gitlab.com/gitlab-com/account-management)</b> may be used for a POV and/or CSM collaboration with a customer post-sale.
 1. <b>[Chorus.ai](https://chorus.ai/)</b> is used to record meetings. The GitLab Notetaker will automatically join meetings with people outside of GitLab once your account is set up.
 
-### Account Planning 
+### Account Planning
 
 Account planning helps the SAE and the SA elevate opportunity-driven conversations into value-based conversations that focus on the customer's value drivers. It is a critical step in strategically supporting the customer at the account level, and facilitates more efficient opportunity planning. See the [Using Gainsight for SAs](/handbook/solutions-architects/processes/account-planning) page for details. 
 
 ### Quarterly Exchange
+
 At the end of a quarter, an SA team meets to share what they have been focused on to either share learnings or gather insights. 
 
 #### Goals
+
 1. Collaborate, learn from, and improve upon each other&apos;s customer activities
 1. Create a dialog to leverage each other&apos;s work
 1. Grow closer as a team
@@ -150,12 +146,15 @@ Anti-goals
 1. Another meeting
 
 #### Format
+
 15-30 minutes for each SA to either Reflect Back or Look Forward. 
 
 ##### ⬅️ Reflect Back
+
 Reflecting back on the past quarter, an SA can share what worked well or what should be avoided. A great way to facilitate this reflection and discussion is through Closed Opp Key Learnings or a Customer Strategy Plan. 
 
 ##### Look Forward ➡️
+
 Looking forward on the upcoming quarter, an SA can share a Technical Opportunity Plan to outline their strategy to secure a technical win and gather feedback and insights from team members. 
 
 ### Quarterly Business Reviews (QBR)
@@ -164,13 +163,13 @@ Solutions Architect Managers prepare QBR content by utilizing SA specific Dashbo
 
 SAs should offer proactive assistance in matters related to articulation of technical win and success criteria details in the Notable Opportunities section.
 
-Slides are stored in the [Solutions Architects QBR folder](https://drive.google.com/drive/folders/1pO58rT1jO3jCPxM-_tqQzhnjnGM_E7mK?usp=drive_link) in the appropriate quaterly subfolder. 
+Slides are stored in the [Solutions Architects QBR folder](https://drive.google.com/drive/folders/1pO58rT1jO3jCPxM-_tqQzhnjnGM_E7mK?usp=drive_link) in the appropriate quaterly subfolder.
 
 ### Engaging an SA During the Sales Cycle
 
 Solution Architects may participate in initial qualifying meetings (IQM's) or allow the SDR and SAE/AE to manage the initial call and utilize information gained during it for additional preparation. Teams can handle this on a case by case basis.
 
-Once objectives and expectations have been established following the  [command of the message discovery](https://internal.gitlab.com/handbook/sales/command-of-the-message/), we suggest a recommended review as an account team of information gathered. This will help us determine if qualification criterias have been met to proceed with further technical discovery or that the account requires further discovery of their outcomes. Solutions Architects oftentimes will have a unique perspective in a given opportunity and it is vital that this information is distilled and shared out, preferably through the command plan, to the rest of the account team.  
+Once objectives and expectations have been established following the  [command of the message discovery](https://internal.gitlab.com/handbook/sales/command-of-the-message/), we suggest a recommended review as an account team of information gathered. This will help us determine if qualification criterias have been met to proceed with further technical discovery or that the account requires further discovery of their outcomes. Solutions Architects oftentimes will have a unique perspective in a given opportunity and it is vital that this information is distilled and shared out, preferably through the command plan, to the rest of the account team.
 
 The perceived size of a given opportunity is not always reflective of the amount of effort that an SA ought to put into a given customer.  The requirements listed below are aimed at:
 
@@ -181,14 +180,14 @@ The perceived size of a given opportunity is not always reflective of the amount
 
 When reaching out to engage SAs during opportunity qualification, discovery, and technical evaluations, please provide the below information. This will enable the SAs to accelerate execution, enable success, and promote consistent and quality opportunity outcomes aligned to the varied Sales roles and adopted strategies. The SAs reserve the right to decline the meeting if the below information is missing/not provided after being asked & if the correct personas are not engaged. We will review the exceptions on a case-by-case basis in case the below information is not provided and/or not qualified.
 
-- Please provide active SFDC opportunity ID 
+- Please provide active SFDC opportunity ID
 - Please provide link to the the associated and completed Command Plan
     - Ensure the Why Now?, Identified Pain, and Champion have been captured
 - Any additional opportunity information (i.e. company overview and background, initiatives, desired outcomes, personas, etc.)
 - Ensure that any scheduled or planned customer meetings have been discussed with the SA before customer engagement
-  - What are we attempting to accomplish within the scheduled meeting? 
-  - Are the objectives clear and understandable? 
-  - Have expecatations been managed and cleary discussed? 
+  - What are we attempting to accomplish within the scheduled meeting?
+  - Are the objectives clear and understandable?
+  - Have expecatations been managed and cleary discussed?
 
 _Poorly positioned opportunities where the SAs has been engaged at the wrong time or without enough context will lead to SA burnout, stalled or prolonged sales cycles, and misalignment with the customers needs. It is critical that SAs are engaged when the Command Plan is leveraged, specifically the Why Now/Identify Pain are in sentence format._
 
@@ -200,7 +199,7 @@ Solution Architects should participate in [technical discovery](#technical-disco
 - Whiteboarding sessions
 - Prospect Q&A sessions
 - RFI/RFP completion
-- PoV planning, documentation and execution strategy 
+- PoV planning, documentation and execution strategy
 - [Security Audits](https://about.gitlab.comhandbook/security/security-assurance/field-security/customer-security-assessment-process.html)
 - [SOW Scoping with Professional Services](/handbook/customer-success/professional-services-engineering/selling/)
 
@@ -267,7 +266,6 @@ For Strategic Account Executives, the below process can be used to request a SA.
 - Retaining SAs for multiple opportunities throughout the life cycle of an account or dedicated SA for SAE will be at SA/ASM manager discretion.
 - The SA/SAE alignment will be visible on a report
 
-
 Async Slack support
 
 In some cases SA support might be required in early stage or not fully qualified opportunities. Slack can be used for answering technical questions, providing additional customer outreach materials or helping an Account Executive with a narrowly-scoped customer inquiry. These requests can be served asynchronously via Slack:
@@ -297,12 +295,14 @@ SA engagement for customer interactions, RFP's, audits and more ([how to engage 
 APAC SAs are aligned regionally into regions such as ANZ, SEA (South-East Asia), India, South Korea and Japan in close alignment to the Strategic Account Leaders, Commercial AEs and Channels Managers territories. Teams collaborate to the standards [Working Agreements](#working-agreements). 
 
 ### Alliances SA Engagement Model
+
 The Alliance SA team is global. The Alliance SA's are aligned with Alliance Partner Managers/Directors and the Alliance Business Development Managers. In customer accounts where an Alliance partner technology is involved, an Alliance SA engagement for customer interactions can be requested by an Account Executive / SA / CSM using the appropriate issue board. For more details, click on [how to engage an Alliance SA](/handbook/solutions-architects/processes/alliance/). Here's the [Alliance Triage Board](https://gitlab.com/gitlab-com/alliances/gitlab-alliances-team/alliance-sa-work/-/boards/2245192) and the [issue template](https://gitlab.com/gitlab-com/alliances/gitlab-alliances-team/alliance-sa-work/-/issues/new?issuable_template=GitLab%20Internal%20Assistance) 
 
 ### Channel SA Engagement Model
-The Channel SA's are aligned globally with the Channel program team as well as regionally with Channel Sales Directors and Channel Account Managers. Channel SA's are primarily focused on developing Partner relationships as opposed to direct Customer relationships.  Our primary community served are the regional Channel Sales Directors and their Channel Account Managers (CAMs), Partner teams, and our own managment.  Generally for direct customer opportunity support, engage the appropriate GitLab SA community for your customer.  Channel SA's can provide backup to the Customer SA community in support of a Partner aligned opportunity.  
 
-Most Opportunity based enagement should start with the CAM and they should identify the appropriate Channel SA to engage.  If you do not know the CAM for your account / partner reach out via the `#channel-sales` slack channel for general sales questions about working with partners or finding help with a specific channel opportunity.  
+The Channel SA's are aligned globally with the Channel program team as well as regionally with Channel Sales Directors and Channel Account Managers. Channel SA's are primarily focused on developing Partner relationships as opposed to direct Customer relationships.  Our primary community served are the regional Channel Sales Directors and their Channel Account Managers (CAMs), Partner teams, and our own managment.  Generally for direct customer opportunity support, engage the appropriate GitLab SA community for your customer.  Channel SA's can provide backup to the Customer SA community in support of a Partner aligned opportunity.
+
+Most Opportunity based enagement should start with the CAM and they should identify the appropriate Channel SA to engage.  If you do not know the CAM for your account / partner reach out via the `#channel-sales` slack channel for general sales questions about working with partners or finding help with a specific channel opportunity.
 
 In customer accounts where a Channel partner is involved, engagement with the Partner from a Channel SA can be requested by an Account Executive / SA / CSM.  For more details, click on [how to engage a Channel SA](/handbook/solutions-architects/processes/channel/).  The details on Channel SA engagement model can be found in this [RACI spreadsheet](https://docs.google.com/spreadsheets/d/1AxDrQp2HeIXfomw8QRrb0gemQCHktt_BR3ufpLTtxNc/).
 
@@ -351,7 +351,7 @@ Create an issue in the [SME Triage Project](https://gitlab.com/gitlab-com/custom
 
 The SA team associated with each region will monitor the triage board and/or an associated Slack channel for incoming work and will contact the appropriate Customer Success team members via Slack, email or phone depending on required skills, schedules and availability. SLA for activity is 48 hours unless the issue is marked with an 'Expedite' label.
 
-## Requesting an SA to support Events 
+## Requesting an SA to support Events
 
 Solutions Architects are often needed to support events requiring their expertise.   The event support requests require SA assignments worldwide and collaboration between the requestor, SA leadership, and individual SAs.  Without an efficient and transparent request and triage process, we risk incurring higher expenses than necessary,  disrupting revenue opportunity SA engagements, and suboptimal diversity and inclusion.
 
@@ -369,7 +369,7 @@ SA Leaders will leverage the [SA request triage board](https://gitlab.com/gitlab
 
 Following this request and triage process will ensure we minimize the expenses associated with supporting events, avoid disruption on revenue-producing opportunities, and represent diversity and inclusion at the events.
 
-There is a 5 day SLA in place to secure SA participation. 
+There is a 5 day SLA in place to secure SA participation.
 
 ## Request Solutions Support from Product
 
@@ -397,6 +397,6 @@ The two main reasons you would need a Demo Architects assistence is either with 
 
 The best way to do this is by filling out [this](https://gitlab.com/gitlab-com/customer-success/demo-engineering/workshop-library/demo-engineering-workshop-issues/-/issues/8) issue. You dont have to know the answer to every column before adding something to the issue but by adding your info a Demo Architect will set up an inital planning/content handoff meeting with you. Please note that the general ask is to have at least a week of heads up before an event.
 
-**Specifc Demos**  
+**Specifc Demos**
 
 First check out the [CS Shared Demo Space](https://gitlab.com/gitlab-learn-labs/webinars) and make sure that the demo you are looking for dosent already exist. You may need to request access to be able to see some of the content. If you still dont see content for what you are looking for or think one of the demos needs an update please open an issue by following the READEME [here](https://gitlab.com/gitlab-learn-labs/webinars/dev-issue-board)

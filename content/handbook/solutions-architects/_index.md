@@ -45,13 +45,13 @@ In addition to core responsibilities, Solutions Architects may assist in other c
 
 See the [Solutions Architect role description](/job-families/sales/solutions-architect/) for additional details.
 
-### Demo Architects 
+### Demo Architects
 
 - [Demo Architect Offerings](/handbook/solutions-architects/demo-architect/)
 
 Demo Architects are tasks with maintaining public facing demo content (Workshops/Hands on Labs/ Pre-baked demos) as well as running the systems these events run on. There main goal is to create processes & new tools to help assist & enable Solution Architects when selling to customers.
 
-### SA Managers 
+### SA Managers
 
 - [SA Manager Process](/handbook/solutions-architects/sa-manager/)
 

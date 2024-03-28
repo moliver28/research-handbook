@@ -5,7 +5,7 @@ description: "This guide will outline all of the offerings from the Demo Archite
 ---
 
 
-## Demo Architect Offerings
+# Demo Architect Offerings
 
 ### Term Definitions
 
