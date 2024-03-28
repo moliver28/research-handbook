@@ -79,8 +79,6 @@
 /content/handbook/customer-success/csm/segment/scale/ @afrusciano @esivak @ofalk
 /content/handbook/customer-success/professional-services-engineering/ @bryan-may @klake
 /content/handbook/customer-success/professional-services-engineering/education-services/ @scottcosentinogitlab @nshah19
-/content/handbook/customer-success/solutions-architects/ @gitlab-com/customer-success/solutions-architecture/sa-leadership-team
-/content/handbook/customer-success/solutions-architects/sa-practices/value-stream-discovery/ @simon_mansfield @reshmikrishna @jfullam
 
 ^[eba-team]
 /content/handbook/eba/ @jrotenberry @lsimonot
@@ -537,6 +535,10 @@
 /content/handbook/security/threat-management/red-team/ @cmoberly
 /content/job-families/security/ @joshlemos @jlongo_gitlab @juliedavila
 /content/job-families/chief-information-security-officer.md @robin @fofungwu
+
+^[solutions-architects]
+/content/handbook/solutions-architects/ @gitlab-com/customer-success/solutions-architecture/sa-leadership-team
+/content/handbook/solutions-architects/sa-practices/value-stream-discovery/ @simon_mansfield @reshmikrishna @jfullam
 
 ^[support]
 /content/handbook/support/ @gitlab-com/support
