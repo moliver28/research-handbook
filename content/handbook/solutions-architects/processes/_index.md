@@ -282,7 +282,7 @@ SAs are regionaly aligned to AEs and aligned in their respective account activit
 
 Default alignment is maintained in the [EMEA AE-SA Alignment page](https://gitlab.com/groups/gitlab-com/customer-success/solutions-architecture/-/wikis/EMEA-SAL-SA-Alignment).
 
-When workload exceeds the SA's capacity or when there is a request from other departments, please reach out via **#emea-customer-success* Slack channel for assistance.
+When workload exceeds the SA's capacity or when there is a request from other departments, please reach out via `#emea-customer-success` Slack channel for assistance.
 
 ### Commercial Engagement Model
 
