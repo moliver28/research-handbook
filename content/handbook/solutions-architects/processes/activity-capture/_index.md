@@ -25,7 +25,7 @@ SA prospect/customer activity is recorded into `Task` objects within Salesforce 
 
 - Setup your Rattle account and connect it to Slack, Salesforce, and your Google Calendar.
     - [Rattle Setup Video](https://www.youtube.com/watch?v=pW_fHzx7h2Y)
-    - If you did not receive an invite to Rattle when you started at GitLab, please submit an Access Request. 
+    - If you did not receive an invite to Rattle when you started at GitLab, please submit an Access Request.
 
 
 ### Logging an Activity
@@ -38,7 +38,7 @@ SA prospect/customer activity is recorded into `Task` objects within Salesforce 
     - **Related To** - Search for and set this to the Salesforce `Opportunity` associated with the activity.
     - **Name**  - Please search for and populate the `Name` field with a prospect/customer contact existing in Salesforce that was part of the activity.   <i>`Name` is currently a single select field. Choose any contact that was part of the meeting, if possible. In the future, we may have the ability to select multiple contacts.</i>
     - **Subject**  - High-level description of the activity. Usually, the subject of the calendar event for this activity is appropriate.
-    - **[SA] Activity Type** - Choose the type(s) of activity for this customer/prospect interaction  (ie. Demo, POV Related, Presentation/Pitch). For description of each activity type, refer to [this page](/handbook/solutions-architects/processes/activity-capture/activity-desc). 
+    - **[SA] Activity Type** - Choose the type(s) of activity for this customer/prospect interaction  (ie. Demo, POV Related, Presentation/Pitch). For description of each activity type, refer to [this page](/handbook/solutions-architects/processes/activity-capture/activity-desc).
     - **Persona Levels** (Optional if unknown) - Select the customer/prospect participants' levels in this activity. Current options include: `Individual Contributor, Manager/Director, Executive` _Note: Executive should be used for any VP, C-level or the Economic Buyer_
     - **Persona Functions** (Optional if unknown) - Select the customer/prospect functions represented during the activity (ie. Development, Security, DevOps)
     - **Description** - Enter a summary of the interaction. Two to three sentences are usually sufficient, but more detail is ok. Try to capture the meeting's intent, how it went (the outcome or customer/prospect sentiment), and any prospect/customer perceived next steps. It is highly encouraged that you provide a link to more detailed notes of your meeting. You can use [Google Docs Bookmarks](https://support.google.com/docs/answer/45893) to do so.
@@ -75,12 +75,12 @@ _Tip:_ You can create a dedicated slack section for all of your Rattle related c
 
 ### SA Specific Opportunity Fields
 
-An **SA Validated Tech Evaluation** is a set of SA-assisted activities a prospect or a customer undertakes to make a decision on whether or not a GitLab solution will provide the value they expect. These activities include and are not limited to a guided trial, POV, value stream assessment, workshops, and strategy roadmap planning. An SA Validated Tech Evaluation does not start until a prospect or customer explicitly engages in an evaluation of value and involves meaningful engagement with a GitLab SA. As part of an SA Validated Tech Evaluation, the GitLab SA should create a [Technical Close Plan](/handbook/solutions-architects/sa-practices/technical-close-plan/).  **If the GitLab SA does not know the next actions to progress the evaluation towards closure, it's an indication that there is NOT an SA Validated Tech Evaluation that the SA is meaningfully engaged on.**  
+An **SA Validated Tech Evaluation** is a set of SA-assisted activities a prospect or a customer undertakes to make a decision on whether or not a GitLab solution will provide the value they expect. These activities include and are not limited to a guided trial, POV, value stream assessment, workshops, and strategy roadmap planning. An SA Validated Tech Evaluation does not start until a prospect or customer explicitly engages in an evaluation of value and involves meaningful engagement with a GitLab SA. As part of an SA Validated Tech Evaluation, the GitLab SA should create a [Technical Close Plan](/handbook/solutions-architects/sa-practices/technical-close-plan/).  **If the GitLab SA does not know the next actions to progress the evaluation towards closure, it's an indication that there is NOT an SA Validated Tech Evaluation that the SA is meaningfully engaged on.**
 
 To assist with the analysis of SA guided technical evaluations by our prospects and customer, the SA team maintains four opportunity fields in Salesforce. These four fields can be updated through Rattle or within the opportunity in Salesforce:
 
 - **Primary SA** - The primary SA assigned to and working on the opportunity.
-- **SA Validated Tech Evaluation Start Date** - The date the SA started engaging with a prospect or customer on an **explicit solution evaluation** as described above. This date should mark the first time the SA engages with the customer after the customer explicitly starts an evaluation of value.  When the SA joins an initial meeting and the prospect does not seriously engage until months later, the start date should reflect when they seriously engaged. This date should not be set if the SA activity, regardless of the type of activity (e.g., demos, workshops, etc.), is for the purpose of discovery, creating interest in GitLab, education, or anything other than the serious evaluation of a GitLab to address an agreed upon problem and / or drive a specific outcome. 
+- **SA Validated Tech Evaluation Start Date** - The date the SA started engaging with a prospect or customer on an **explicit solution evaluation** as described above. This date should mark the first time the SA engages with the customer after the customer explicitly starts an evaluation of value.  When the SA joins an initial meeting and the prospect does not seriously engage until months later, the start date should reflect when they seriously engaged. This date should not be set if the SA activity, regardless of the type of activity (e.g., demos, workshops, etc.), is for the purpose of discovery, creating interest in GitLab, education, or anything other than the serious evaluation of a GitLab to address an agreed upon problem and / or drive a specific outcome.
   * In **Commercial**, the start date is to reflect the start of the trial when an SA is engaged with the account, even when the trial started prior to the SA engaging.
 - **SA Validated Tech Evaluation End Date** - The date the SA stopped engaging with a prospect or customer from an evaluation standpoint and the technical evaluation is deemed closed as a technical win, loss, or a stalled evaluation. This has no connection to whether or not the deal closes with a win or loss, as there may be non-technical variables that may impact the success of a deal after a technical evaluation.
   * In **Commercial**, the end date is to reflect the end of the trial when an SA is engaged with the account.
@@ -98,11 +98,11 @@ Whenever an SA engages a prospect/customer who has a specific problem to be addr
 
 In case that the opportunity has been closed in Salesforce, and you did not have the chance to complete all the information for your SA activities previously described, do the following:
 - Go to the opportunity you need to update, and click on Show Feed and the left hand side of the topics bar.
-- In the post text area, enter `@Sales-Support` and then a brief description of the fields you wish to fill. Example: 
+- In the post text area, enter `@Sales-Support` and then a brief description of the fields you wish to fill. Example:
     ```
     @[Sales-Support] please update the SA Validated Tech Evaluation Close Status field to Won, and SA Validated Tech Evaluation End Date to 10/14/2021
     ```
-- Make sure you manually type the `@Sales-support` part of your message, as Salesforce will not recognize the `@` call to notify the sales support group. 
+- Make sure you manually type the `@Sales-support` part of your message, as Salesforce will not recognize the `@` call to notify the sales support group.
 
 ### Proof of Value (POV) Updates
 
@@ -121,7 +121,7 @@ You can update activity that was previously logged in Salesforce or through Ratt
 
 ### Creating a Contact
 
-If a contact you'd like to associate your activity updates with does not yet exist on the account in Salesforce, you can create the contact through Rattle: 
+If a contact you'd like to associate your activity updates with does not yet exist on the account in Salesforce, you can create the contact through Rattle:
 
 - Use `/rattle-create` in Slack and click the `Create Contact` button. The contact will now appear in the `Name` field when logging an activity through Rattle. ([Create a Record Video](https://www.youtube.com/watch?v=ftfrPyl5plU))
 
@@ -140,9 +140,9 @@ If a contact you'd like to associate your activity updates with does not yet exi
 
 ### Setting up Rattle alerts
 
-Rattle alerts are messages sent from the Rattle application via Slack that inform you whenver certain actions happen. All users are allowed to create Workflows. 
+Rattle alerts are messages sent from the Rattle application via Slack that inform you whenver certain actions happen. All users are allowed to create Workflows.
 
-This [tutorial](https://help.gorattle.com/en/collections/3196824-workflows) explains the available options and how to set it up. 
+This [tutorial](https://help.gorattle.com/en/collections/3196824-workflows) explains the available options and how to set it up.
 
 
 ### Training Resources
@@ -210,12 +210,12 @@ It can take 0-5 minutes for the system to ping you. After that, here are several
 
 **Rattle is trying to log my activity to the wrong Opportunity**
 
-Rattle using the following logic to relate an Opportunity to a calendar meeting: 
--Are any of these attendees Contact Roles on an Opportunity? If YES, then Rattle will try to associate them 
--If NO, Rattle will look at the email domains of attendees and try to associate the activity to the Account with the domain that matches. You might run into errors if: 
-     -Your event attendee uses Gmail or another generic domain 
+Rattle using the following logic to relate an Opportunity to a calendar meeting:
+-Are any of these attendees Contact Roles on an Opportunity? If YES, then Rattle will try to associate them
+-If NO, Rattle will look at the email domains of attendees and try to associate the activity to the Account with the domain that matches. You might run into errors if:
+     -Your event attendee uses Gmail or another generic domain
      -Your event attendee has a domain that is similar to another Account (ex "epsi.com" might get picked up as "pepsi.com")
-     -The Rattle support team is aware of these issues and working to create more accurate matching logic 
+     -The Rattle support team is aware of these issues and working to create more accurate matching logic
 
 **Error message when logging a call to a Lead and Opportunity**
 

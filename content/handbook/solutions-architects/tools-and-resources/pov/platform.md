@@ -28,16 +28,16 @@ The pre-requsition of this scope of POV tend to be focused with these aspects:
 
 ### Suggested Success Criteria
 
-- Business Driver: end to end DevOps but with integration to support across the board initiative, particularly digital transformation or accelerated cloud initiative. 
+- Business Driver: end to end DevOps but with integration to support across the board initiative, particularly digital transformation or accelerated cloud initiative.
 - Enterprise Initiative and Sponsor: CTO and enterprise wide developer's experience and operations efficiency
 - Required capabilities with the objectives to have a platform to address immediately needs and future proof for flexibility and high end scalability
 
 | Required Capability | Acceptance | Objective | GitLab Feature |
 | ---      | ---      | ---      |---      |
 | Continous Integration | Similar to automated software delivery but may have specific performance metrics for given user and repository size | Automation and Standard CI Practice | Continous Integration, Git Flow and Repository |
-| Integration of Platform to Other Tools | Ability to Integrate with Various Tools in the Ecosystem | Integration and End to end process flow supported | Integration points, webhooks, APIs for the given integration scope | 
-| Cloud Native Continous Deployment | Containization and K8S Support | Accelerate Cloud Initiative and Cloud Native Toolchain | Cloud Native CI/CD and GitLab Server/Runner being Cloud Native  | 
-| Developers Experience | Streamlined Experience for High Velocity | New and Better Developer Tools to Attract and Retain Talents | Single User Interface, High Usability, Customizable UI | 
+| Integration of Platform to Other Tools | Ability to Integrate with Various Tools in the Ecosystem | Integration and End to end process flow supported | Integration points, webhooks, APIs for the given integration scope |
+| Cloud Native Continous Deployment | Containization and K8S Support | Accelerate Cloud Initiative and Cloud Native Toolchain | Cloud Native CI/CD and GitLab Server/Runner being Cloud Native  |
+| Developers Experience | Streamlined Experience for High Velocity | New and Better Developer Tools to Attract and Retain Talents | Single User Interface, High Usability, Customizable UI |
 
 In addition it can be combined with DevSecOps and Software Compliance for Ultimate.
 
@@ -45,7 +45,7 @@ The POV can be multi-phased and more than 60 days. It is critical to have writte
 
 See this example for references for [a large new logo 2-phase POV](https://docs.google.com/presentation/d/1GEew0786_z2_Hj_acExoynkVO-XwpmArhyBTQEk-P0Q/edit#slide=id.g10daba8f689_0_275).
 
-If you have identified the platform POV, reach out to the Strategic Field team for qualification, scoping and acceptance definition, particularly mapping the technical metrics to business values. 
+If you have identified the platform POV, reach out to the Strategic Field team for qualification, scoping and acceptance definition, particularly mapping the technical metrics to business values.
 
 ### Proof Points Consideration
 

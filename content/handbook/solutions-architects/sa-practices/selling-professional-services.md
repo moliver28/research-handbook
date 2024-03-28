@@ -50,7 +50,7 @@ To appropriately scope custom services engagements, the PS Engagement Manager wi
 - What tools is the customer transitioning from and replacing with GitLab? SCM (GitHub, Bitbucket, Svn, Perforce, etc), CI/CD (Harness, Jenkins,...), Project Management (Jira,...), Container and/or package registries, other?
 - What tools will the customer plan to integrate GitLab with?
 - What is the customer's planned deployment architecture?  SaaS or self-managed?  If self-managed, single node omnibus or HA implementation, and in a cloud (which one) or in the customer's data center?
-- If looking to adopt GitLab CI/CD, what types of applications does the customer have?  Are they deploying to a cloud environment?  which one(s)?  Do they deploy apps in containers?  Are they using k8s for container orchestration?  
+- If looking to adopt GitLab CI/CD, what types of applications does the customer have?  Are they deploying to a cloud environment?  which one(s)?  Do they deploy apps in containers?  Are they using k8s for container orchestration?
 - What version of GitLab is the customer on, or planning on deploying?  And what license tier - Premium or Ultimate?
 - If the customer is looking to migrate from GitLab self-managed to SaaS, it will be helpful to have the customer run the [Evaluate](https://gitlab.com/gitlab-org/professional-services-automation/tools/utilities/evaluate) script.  This tool will provide a count of users and repositories, show which GitLab features are used in each project, and flag any project where the type or amount of data might be problematic for migration.
 

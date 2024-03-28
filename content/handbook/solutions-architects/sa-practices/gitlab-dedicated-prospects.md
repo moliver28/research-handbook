@@ -6,11 +6,11 @@ title: "GitLab Dedicated Prospects"
 
 # GitLab Dedicated
 
-The purpose of this page is to hopefully help an SA onboards when they onboard a new Dedicated Customer, what are the considerations and preparation material during the onboarding/discovery phase. Based on past interactions with existing GitLab Dedicated customers and due to the usually longer nature of onboarding customers, a [collaboration project](/handbook/solutions-architects/processes/collaboration-project/) is recommended to keep all stakeholders aware and engaged. 
+The purpose of this page is to hopefully help an SA onboards when they onboard a new Dedicated Customer, what are the considerations and preparation material during the onboarding/discovery phase. Based on past interactions with existing GitLab Dedicated customers and due to the usually longer nature of onboarding customers, a [collaboration project](/handbook/solutions-architects/processes/collaboration-project/) is recommended to keep all stakeholders aware and engaged.
 
-A collaboration template specifically for dedicated customers is available as a template here (https://gitlab.com/gitlab-com/account-management/templates/dedicated-collaboration-project). 
+A collaboration template specifically for dedicated customers is available as a template here (https://gitlab.com/gitlab-com/account-management/templates/dedicated-collaboration-project).
 
-Most of the details discussed below are also available as individual issues which provides a good place to include your product managers and customers to collaborate. 
+Most of the details discussed below are also available as individual issues which provides a good place to include your product managers and customers to collaborate.
 
 ## Dedicated Reference Links
 
@@ -39,7 +39,7 @@ Most of the details discussed below are also available as individual issues whic
 
 - Reverse PrivateLink: What services are required for private link connectivity (E.g. between JIRA, Confluence, Nexus, Artifactory and GitLab)
 
-| URL | Service Name | Port | 
+| URL | Service Name | Port |
 | ------ | ------ | ------ |
 | xxx.com | com.amazonaws.vpce.xx-xxx | 443 |
 
@@ -66,7 +66,7 @@ Most of the details discussed below are also available as individual issues whic
 
 ## Desired Instance Storage & Sizing
 
-- This is inclusive of registry as well as all other resources tied to the application (git, etc) 
+- This is inclusive of registry as well as all other resources tied to the application (git, etc)
 
 ## Logging and Security Requirements
 - Are you looking for log streaming to an S3 bucket?

@@ -16,7 +16,7 @@ Please read this [list](https://www.verywellmind.com/cognitive-biases-distort-th
 
 How to facilitate Cognitive Bias exercise:
 
-1. Create a survey to collect information & feedback from team members about their own bias. 
+1. Create a survey to collect information & feedback from team members about their own bias.
 1. In a small team meeting setting:
 a. Summarize the results of the survey
 b. Pick 2-3 examples for a role-playing exercise
@@ -29,5 +29,5 @@ Step by Step guide to continuously focus discussions on cognitive bias & psychol
 - <span class="colour" style="color: rgb(60, 64, 67);"> Identifying with the bias & to provide some real-life examples</span>
 - <span class="colour" style="color: rgb(60, 64, 67);">What actions can we take if we recognize we have that bias in order to create a psychologically safe environment.</span>
 
-2. Make sure to pick the moderator & a topic for your next meeting. 
+2. Make sure to pick the moderator & a topic for your next meeting.
 3. Please use this LinkedIn learning [course](https://www.linkedin.com/learning/overcoming-cognitive-bias/make-better-decisions-by-understanding-bias-2?u=2255073) to schedule deeper discussions around this for the interested audience.

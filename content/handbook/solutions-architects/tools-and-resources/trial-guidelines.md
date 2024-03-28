@@ -5,7 +5,7 @@ description: GitLab Trial Guidelines
 ---
 
 
-The guidelines here are meant to help prospects and existing GitLab Self-Managed or SaaS customers get started with an Ultimate trial. 
+The guidelines here are meant to help prospects and existing GitLab Self-Managed or SaaS customers get started with an Ultimate trial.
 
 ### Requesting a Trial
 Both prospects and existing customers should request an Ultimate trial by going to the [GitLab Trial Landing Page](https://about.gitlab.com/free-trial), choosing SaaS or self-managed, and then following the provided instructions.
@@ -40,16 +40,16 @@ Customers who choose a self-managed trial will need to install a single node [Om
     - Use GitLab Security demo projects - GitLab provides a set of [security demos](https://gitlab.com/gitlab-org/security-products/demos) to show how the various security scans work
 
 - Only one [Project Access Tokens](https://docs.gitlab.com/ee/user/project/settings/project_access_tokens.html) is available with a trial license and [Group Access Tokens](https://docs.gitlab.com/ee/user/group/settings/group_access_tokens.html) are not available on a trial license
- 
+
 #### General Approaches
 
    - [Copy Groups and Projects](https://docs.gitlab.com/ee/user/group/import/index.html)
       - When copying from one GitLab.com namespace to another, you must copy all subgroups and projects.  This is not recommended for customers with a large number of groups and projects.
       - Only [these](https://docs.gitlab.com/ee/user/group/import/index.html#migrated-group-items) groups items are migrated, no others
-      - Only [these](https://docs.gitlab.com/ee/user/group/import/index.html#migrated-project-items) project items are migrated. Note these are the same project items that are migrated with file exports (described in the next section) 
+      - Only [these](https://docs.gitlab.com/ee/user/group/import/index.html#migrated-project-items) project items are migrated. Note these are the same project items that are migrated with file exports (described in the next section)
 
-   - [Migrate Projects using file exports](https://docs.gitlab.com/ee/user/project/settings/import_export.html) 
-      - Only [these](https://docs.gitlab.com/ee/user/project/settings/import_export.html#items-that-are-exported) project items are migrated. Note these are the same as above even if the lists look a little different. 
+   - [Migrate Projects using file exports](https://docs.gitlab.com/ee/user/project/settings/import_export.html)
+      - Only [these](https://docs.gitlab.com/ee/user/project/settings/import_export.html#items-that-are-exported) project items are migrated. Note these are the same as above even if the lists look a little different.
 
    - [Project Forking](https://docs.gitlab.com/ee/user/project/repository/forking_workflow.html)
       - This works like standard forking with a copy of the repository and branches
@@ -64,8 +64,8 @@ Customers who choose a self-managed trial will need to install a single node [Om
    - [Autobuild](https://docs.gitlab.com/ee/topics/autodevops/stages.html#auto-build) will use a Dockerfile contained in the project root directory or cloud native build packs to detect the application type and build it
    - Since some project configurations like CI/CD variables, container and package registries, and tokens, do not get imported some suggestions are as follows
       - [SAST](https://docs.gitlab.com/ee/user/application_security/sast/), [Secret Detection](https://docs.gitlab.com/ee/user/application_security/secret_detection/), and [Dependency Scanning](https://docs.gitlab.com/ee/user/application_security/dependency_scanning/) can be run without building your project. Simply add them to the CI file and comment out any build / deploy sections if they cannot be set up again
-      
+
       - [Container Scanning](https://docs.gitlab.com/ee/user/application_security/container_scanning/) - needs an application built into a container and pushed to the container registry, usually created via a build job that precedes the container scanning job, but does not require a deploy job
-   - In order to validate [DAST](https://docs.gitlab.com/ee/user/application_security/dast/) or [web api fuzz testing](https://docs.gitlab.com/ee/user/application_security/api_fuzzing/), you must have a deployed application available to scan.  You might want to [connect a Kubernetes cluster](https://docs.gitlab.com/ee/user/clusters/agent/) to make evaluating these features easier. 
+   - In order to validate [DAST](https://docs.gitlab.com/ee/user/application_security/dast/) or [web api fuzz testing](https://docs.gitlab.com/ee/user/application_security/api_fuzzing/), you must have a deployed application available to scan.  You might want to [connect a Kubernetes cluster](https://docs.gitlab.com/ee/user/clusters/agent/) to make evaluating these features easier.
 
 - For customers wanting to evaluate portfolio and project planning, they can view the [GitLab Organization](https://gitlab.com/groups/gitlab-com/) to view the epic list and boards, roadmap, milestones, and other portfolio features.  Note: some features are only available to logged in users.

@@ -23,14 +23,14 @@ We need to proactively identify languages, testing questions and teams with them
   - 10 min conclusion and next steps
 - Make it as easy as possible for participants to experiment with the features, using the following recommendations and adjusting to the context:
   - Onboarding process. Minimize the number of steps needed for a participant to opt into the POV.
-    - Example process: 
+    - Example process:
       - Survey to gather participants’ name, role, gitlab account
       - Participant is enrolled in the POV instance, and given access to the right projects
       - Participant is invited to POV meetings
       - In the meeting invitation, participant finds instructions to access the POV instance, link to pre-POV survey, link to instructions to go through the workshops asynchronously, etc.
-  - Make sure that the POV environment is made available to participants for the kick-off session, even if this session doesn’t include a workshop. 
+  - Make sure that the POV environment is made available to participants for the kick-off session, even if this session doesn’t include a workshop.
     Some participants may want to start experimenting with the solution during the kick-off or right after.
-  - Give simple and clear instructions to ask for help: 
+  - Give simple and clear instructions to ask for help:
     - Where to create an issue and who to tag
     - Invitation to Office Hours
 - Bias for guided, hands-on activities. See POV activites for inspiration
@@ -59,7 +59,7 @@ Set-up the POV instance with your customer’s POV lead or technical counterpart
   - with a VPN enabled or not
   - with different IDEs including the Web IDE
 
-## POV Activities 
+## POV Activities
 
 The following are different workshop formats to pick and combine in order to facilitate and lead the POV.
 Examples of POV activity timelines:
@@ -124,10 +124,10 @@ Additional guidance:
   - Starting from scratch, which may not be frequent in enterprise settings
   - Feeling exposed to coworkers or managers judgment
   - Discovering new AI-powered features
-- To mitigate this discomfort: 
+- To mitigate this discomfort:
   - Set expectations: participants are not expected to complete all tasks, or deliver perfect software in such a short timeframe
   - Set rules of conduct for participants, about openness, kindness, communication
-  - Prepare resources and tools in the hackathon project 
+  - Prepare resources and tools in the hackathon project
 - To make the most out of the allocated time for the hackathon, consider forming teams before the workshop.
 
 ### Comparative study
@@ -175,12 +175,12 @@ SA working with SAE and AE can define the POV scope with the customer, with alig
 ## AI engagements in general
 
 ### Discovery - adapt to the customer's context
- 
+
 As early as possible, actively discover your customer’s specific context.
 For instance, before even presenting GitLab’s vision or positioning, ask the customer if they have an existing company strategy or guidelines, or personal opinions on Gen-AI in general, and for development.
 
-Inquire about the following topics 
-- Vision on Gen-AI 
+Inquire about the following topics
+- Vision on Gen-AI
   - Sentiment: afraid of AI vs excited about the technology vs cautious about security implications
   - How much is expected: a complete overhaul of practices, or punctual help for developers
   - Understanding of the market: awareness of the multiple vendors and products? Do they see AI models as a “winner-takes-all” or as a commodity?
@@ -190,10 +190,10 @@ Inquire about the following topics
   - Are developers authorized to use Gen-AI tools that were not vetted and purchased by the company? What are the security and privacy implications? Are there control mechanisms in place to prevent this kind of shadow IT?
 - Use cases and workflows
   - Providing comfort and productivity for developers (code generation performance)? Or broader vision over the broader picture = SDLC performance.
-  - Metrics 
+  - Metrics
   - Objectives and key results
 - Constraints. Depending on the answers to the following questions, some AI features might not be immediately available. Or they may not apply to a subset of projects.
-  - Self-managed or Dedicated? Cloud licensing possible? Premium or Ultimate? 
+  - Self-managed or Dedicated? Cloud licensing possible? Premium or Ultimate?
   - Security and Privacy: allow for API calls outside their infrastructure? Including sending proprietary code?
 
 Examples of customer inputs that had a significant influence on the technical evaluation:
@@ -206,7 +206,7 @@ The following elements proved effective to influence positively the way AI-power
 
 **Pioneer/learning mindset**: Gen-AI is relatively new for everyone everywhere. As early adopters, we’ll learn the best patterns to interact with it, and be creative to surface new use cases where AI will prove most useful
 - Customers might ask for features that are not currently available, and which could sound too ambitious or not technically feasible. Try to be open, don’t dismiss these ideas too quickly. Consider how a combination of GitLab’s existing or roadmap features could serve this purpose, specifically GitLab Duo Chat which is very versatile.
-- Encourage this kind of reflection with questions like: Without considering any technical constraints, what use cases would you like AI to perform? Can you think of any creative use that could be made of the current feature set? 
+- Encourage this kind of reflection with questions like: Without considering any technical constraints, what use cases would you like AI to perform? Can you think of any creative use that could be made of the current feature set?
   - This is meant to put attendees in a position to find potential solutions, rather than finding potential issues.
 - Examples of creative use cases that can be achieved
   - “I’d like the AI to document legacy applications” could be achieved by customizing the /explain action
@@ -219,8 +219,8 @@ The following elements proved effective to influence positively the way AI-power
 
 **AI as an assistant to developers**, as opposed to an autonomous software delivery system
 highlights the importance of the developer’s role and skill: review, adjust, use AI as a tool
-- Mention the [reason behind the name "GitLab Duo"](https://about.gitlab.com/blog/2023/06/22/meet-gitlab-duo-the-suite-of-ai-capabilities/): 
-  > The name GitLab Duo is rooted in You + GitLab AI = the AI dynamic duo. 
+- Mention the [reason behind the name "GitLab Duo"](https://about.gitlab.com/blog/2023/06/22/meet-gitlab-duo-the-suite-of-ai-capabilities/):
+  > The name GitLab Duo is rooted in You + GitLab AI = the AI dynamic duo.
 - Be mindful that some companies or individuals might have a pre-existing bias against Gen-AI. Some might even see any Gen-AI effort as dangerous, or as a way to replace human workers. If this is the case
   - try to understand why
   - consider giving a presentation to popularize Gen-AI to explain how how it works, and explore its strengths and limitations. This could go a long way towards putting it under a more favorable light.

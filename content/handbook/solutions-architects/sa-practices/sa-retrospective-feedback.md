@@ -12,22 +12,22 @@ The worldwide Solution Architecture team, as a learning organization believes th
 
 GitLab as an organization being fully remote, encourages Solutions Architecture groups and other teams to run agile retrospective feedback sessions. As an organization operating in various worldwide regions, we are distributed and coming together in-person in a meeting room may not always be possible. In the spirit of one of our company values [**Iteration**](/handbook/values/#iteration) it gives us an opportunity to hold agile retrospective meetings that follow similar software development principles in the context of our engagements to educate and enable our customers. During the retrospective, the team reflects on what happend in the iteration and focussed on actions to be taken to improve going forward.
 
-On a high-level goal, we are trying to understand what happened in a given time period (on a quarterly basis for instance), with a goal to improve "things" in the upcoming time period which is stricly based on those learning and discussions. 
+On a high-level goal, we are trying to understand what happened in a given time period (on a quarterly basis for instance), with a goal to improve "things" in the upcoming time period which is stricly based on those learning and discussions.
 
 We suggest for teams to pause and reflect on what transpired and encourage collaboration to distinguish between what worked from what didn't work during a particular time period. It also allows for Solution Architecture teams to re-align given field observations coming from our customers.
 
-The following diagram shows the Solution Architecture Retrospective Overview. 
+The following diagram shows the Solution Architecture Retrospective Overview.
 
 <div style="width: 640px; height: 480px; margin: 10px; position: relative;"><iframe allowfullscreen frameborder="0" style="width:640px; height:480px" src="https://lucid.app/documents/embedded/da94d876-9df6-4916-b5f4-a48d0f5fea99" id="eS_y6JdDjATk"></iframe></div>
 
-Solution Architecture Retrospective feedback critically impacts customers and other cross-functional teams, including Product, Sales and Marketing. Based on the retrospection insights, Solution Architects can improve product alignment and prioritisation. Apart from the Solution Architecture team, many other cross-functional teams will benefit from Solution Architecture Retrospection Feedback and use it to improve internal alignment and enhance the customer-centric approach. 
+Solution Architecture Retrospective feedback critically impacts customers and other cross-functional teams, including Product, Sales and Marketing. Based on the retrospection insights, Solution Architects can improve product alignment and prioritisation. Apart from the Solution Architecture team, many other cross-functional teams will benefit from Solution Architecture Retrospection Feedback and use it to improve internal alignment and enhance the customer-centric approach.
 
 
 ## What is an agile retrospective feedback session?
 
-Agile feedback retrospective sessions can end up in pointing out the flaws and challenges which teams encounter. However, it is important that team members also equally consider to bring up positive experiences and iterate on improvements which can increase productivity and efficiency in their roles. 
+Agile feedback retrospective sessions can end up in pointing out the flaws and challenges which teams encounter. However, it is important that team members also equally consider to bring up positive experiences and iterate on improvements which can increase productivity and efficiency in their roles.
 
-Retrospective feedback sessions should ideally consider 3 areas: 
+Retrospective feedback sessions should ideally consider 3 areas:
 
 1. "I'm glad that..." >> Green
 
@@ -56,11 +56,11 @@ A walk-through of setting up a new restrospective can be found in the video belo
 
 ## What are the roles during an agile retrospective feedback session?
 
-Agile retros are commonly used as a practise withing engineering teams. However, the GitLab SA groups has implemented a way to reflect on how we work in order to become better in what we do. One of our approaches is the benefit of hosting retrospectives. We hold retrospective sessions towards the end of our fiscal quarter to seek feedback (but that is not restricted to that period only). In the context of our group, the Solutions Architecture leader (i.e. SA Manager, SA Director, SA VP etc.) takes the lead as the host of the restrospective workshop by creating a safe space to gather peoples' opinions, fascilitating discussion and identifying what the team members need.  
+Agile retros are commonly used as a practise withing engineering teams. However, the GitLab SA groups has implemented a way to reflect on how we work in order to become better in what we do. One of our approaches is the benefit of hosting retrospectives. We hold retrospective sessions towards the end of our fiscal quarter to seek feedback (but that is not restricted to that period only). In the context of our group, the Solutions Architecture leader (i.e. SA Manager, SA Director, SA VP etc.) takes the lead as the host of the restrospective workshop by creating a safe space to gather peoples' opinions, fascilitating discussion and identifying what the team members need.
 
-The entire group in the retrospective workshop becomes a participant with the opportunity to collaborate, share insights and have a voice. 
+The entire group in the retrospective workshop becomes a participant with the opportunity to collaborate, share insights and have a voice.
 
-The host of the restrospective feedback session is encouraged to share the screen over zoom or when in-person, project the retro board for everyone. 
+The host of the restrospective feedback session is encouraged to share the screen over zoom or when in-person, project the retro board for everyone.
 
 **Recommended guidance for all retro participants:**
 
@@ -77,7 +77,7 @@ The host of the restrospective feedback session is encouraged to share the scree
 
 ## How do I participate in an agile retrospective feedback session?
 
-We encourage that SA Leaders execute retros on a regular basis proactively. However, it is also encourages that individual team members help monitor the frequency of retros and also proactively engage by requesting sessions. As the team leader, we are responsible to be inclusive to invite the entire team making everyone a participant. Optionally the team leader can include relevant team members from immediate teams/groups to participate. 
+We encourage that SA Leaders execute retros on a regular basis proactively. However, it is also encourages that individual team members help monitor the frequency of retros and also proactively engage by requesting sessions. As the team leader, we are responsible to be inclusive to invite the entire team making everyone a participant. Optionally the team leader can include relevant team members from immediate teams/groups to participate.
 
 The following activities are required to hold a retrospective session:
 
@@ -103,9 +103,9 @@ As the agile retro host, close the retro by reflecting on the session and thanki
 
 ## Follow-up and challenge takeaways
 
-There are a few ways to take the action items from the retro and integrate them into the ways of working depending on the scope of the actions. 
+There are a few ways to take the action items from the retro and integrate them into the ways of working depending on the scope of the actions.
 
-For small items changes can be made immediately, updating documents and handbook pages. 
+For small items changes can be made immediately, updating documents and handbook pages.
 
 When looking at larger changes to processes the best course of action is to integrate these action items into cross-functional OKRs. Especially in these cases with cross-functional process changes it is important to socialise these changes in the appropriate slack channels as well.
 

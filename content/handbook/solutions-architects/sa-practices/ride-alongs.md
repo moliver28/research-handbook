@@ -17,7 +17,7 @@ Ride alongs can be within a passenger's current segment or region or outside of 
 ##### Participating as a passenger in a Ride Along
 
 In order to participate as a passenger in a ride along, a Solutions Architect
-can leverage the list of drivers on this page to find a Solutions Architect you can accompany. 
+can leverage the list of drivers on this page to find a Solutions Architect you can accompany.
 
 _For passengers interested in the public sector, information within the public sector is less widely available, please reach out to the available public sector drivers to get a ride along coordinated._
 
@@ -86,7 +86,7 @@ Passengers debriefing after a customer call should:
 
 ##### Troops Feedback Template
 
-Record your ride along activity in Troops as a call to **the account** (and not the opportunity) with the [appropriate activity type](/handbook/solutions-architects/processes/activity-capture/activity-desc/). Recording at the account level is required because ride alongs that are inter-segment or inter-region will not have their opportunities available to the riders. 
+Record your ride along activity in Troops as a call to **the account** (and not the opportunity) with the [appropriate activity type](/handbook/solutions-architects/processes/activity-capture/activity-desc/). Recording at the account level is required because ride alongs that are inter-segment or inter-region will not have their opportunities available to the riders.
 The following can be used to guide how you record the description of your
 troops activity.
 

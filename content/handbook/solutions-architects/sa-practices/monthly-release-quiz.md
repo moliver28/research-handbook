@@ -27,7 +27,7 @@ It is recommended for two people to organize the quiz together.
 
 1. Read through the monthly release blog post
 2. Each organizer comes up with 10 questions and reviews the other's questions (see [Formulating Questions](#formulating-quiz-questions))
-3. One organizer enters the questions on the quiz platform, [Kahoot](https://kahoot.it/). The credentials can be found on 1Password in the shared Solutions Architect folder. If you do not have access to the credentials in this folder, please reach out to Siddharth Mathur or Chloe Cartron. 
+3. One organizer enters the questions on the quiz platform, [Kahoot](https://kahoot.it/). The credentials can be found on 1Password in the shared Solutions Architect folder. If you do not have access to the credentials in this folder, please reach out to Siddharth Mathur or Chloe Cartron.
 4. Before the beginning of the quiz, a message is shared on slack to encourage team members to join the event
 5. During the event, one organizer shares their screen
 6. The event starts by reminding participants on how to join Kahoot. Participants are encouraged to use their real name when playing.

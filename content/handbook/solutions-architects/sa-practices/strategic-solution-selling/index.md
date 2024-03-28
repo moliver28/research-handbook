@@ -162,7 +162,7 @@ With these capabilities identify, the solution options can be considered:
 [**Automated Software Delivery**](https://about.gitlab.com/solutions/delivery-automation/) by transforming and modernizing the continous integration and delivery, and driving the organization to become the top performer in software delivery;
 
 [**DevOps platform**](https://about.gitlab.com/solutions/devops-platform/) to leverage the DevOps innovations for a unified developer experience with scalable and reliable solution for large scale adoption.
- 
+
 
 
 

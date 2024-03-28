@@ -9,18 +9,18 @@ description: Automated Software Delivery POV Scope and Acceptance
 
 The Automated Software Delivery solution is identified for organizations who are trying to reduce the complexity and increase the velocity of Continuous Integration (CI) and Continuous Delivery/Deployment (CD) capabilities to deliver better software faster.
 
-From the early discovery when qualifying the POV, it is confirmed that the current CI/CD pipeline solution does not provide sufficient flexibility in organizing pipelines and requires too much administrative overhead to operate and integrate the CI/CD system with the source code repository. 
+From the early discovery when qualifying the POV, it is confirmed that the current CI/CD pipeline solution does not provide sufficient flexibility in organizing pipelines and requires too much administrative overhead to operate and integrate the CI/CD system with the source code repository.
 
-The key objective of the POV is to validate the value of a tightly connected CI/CD pipeline system that does not require additional integration or plugins to provide a broad variety of pipeline shapes and capabilities. 
+The key objective of the POV is to validate the value of a tightly connected CI/CD pipeline system that does not require additional integration or plugins to provide a broad variety of pipeline shapes and capabilities.
 
 ### Input to the POV
 
-- Pain points identified: Toolchain review and mapped out existing app sec tools and usage 
+- Pain points identified: Toolchain review and mapped out existing app sec tools and usage
 - High level ROI discussion identifying potential tool consolidation (hard cost); and overall efficiency gains with transformative process with shift left security
 - Both DevOps + App sec team are stakeholders to be involved
 
 ### Suggested Success Criteria
-- Business Driver: increase velocity, consolidate/reduce spending, improve security posture, protect brand and reputation 
+- Business Driver: increase velocity, consolidate/reduce spending, improve security posture, protect brand and reputation
 - Enterprise Initiative and Sponsor: cloud transformation, CIO
 - Required capabilities with the objectives to infuse security earlier in the development process, ability to scan all code and act them real time. Have the security oversight as the integral part of the end to end DevOps.
 
@@ -32,7 +32,7 @@ The key objective of the POV is to validate the value of a tightly connected CI/
 | Pipelines scale to match performance and cost demands | Able to run hundreds of pipelines concurrently | Scalability | scalable job queues, scalable runner architecture |
 | Coordinated pipeline execution across multiple repositories | A pipeline running for one repo is able to trigger pipelines in other repos and record outcome | Pipeline coordination | Cross-project pipelines |
 | Shared and reusable pipelines | Pipelines can be composed from reusable templates and included pipelines | Innersourcing and best practices | Pipeline templates, includes, compliance pipelines |
-| Enforce compliance with required pipelines | Mandatory parts of a pipeline can be set up for an entire group of repos | Organizational compliance | Compliance pipelines, Security Scan Policies | 
+| Enforce compliance with required pipelines | Mandatory parts of a pipeline can be set up for an entire group of repos | Organizational compliance | Compliance pipelines, Security Scan Policies |
 | Control who can run pipelines and under what conditions | Running pipelines against "protect" branches is limited by role | Continuous Deployment | Credentials Inventory,  protected branches, runners, variables and tags |
 | Limit access to deployment pipelines | Only designated `maintainer` users can deploy to higher level environments | Continuous Deployment | Protected runners, variables, environments and branches |
 

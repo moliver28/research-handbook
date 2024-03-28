@@ -3,7 +3,7 @@ title: Technical Close Plan
 description: A Technical Close Plan is an internal strategy that Solutions Architects can use to secure a technical win for a given opportunity. It is built off the information in the Command Plan and expands on it by including the customer’s desired business outcomes, notional architectures of the current and proposed states, key stakeholders, and known risks. This strategy can also be a subset of the Opportunity Plan created by AEs or live on its own.
 ---
 
-## Why Use a Technical Close Plan 
+## Why Use a Technical Close Plan
 ### Primary Objectives
 1. Elevate technical evaluation conversations to align to critical business outcomes
 1. Accelerate technical win through clarity and alignment
@@ -12,7 +12,7 @@ description: A Technical Close Plan is an internal strategy that Solutions Archi
 We can leverage a Technical Close Plan early in the sales process to help Solutions Architects and the sales team evaluate requirements for a technical win. After the command plan and technical discovery, we can build out the Technical Close Plan. This plan will drive our technical win strategies. It also can accelerate getting to a technical win because we align critical business outcomes to technical win conversations. This process can also aid in building habits of proactively prescribing how GitLab uniquely partners with customers.
 
 ### When to Create a Technical Close Plan
-A Technical Close Plan is most useful as an opportunity is approaching a technical evaluation. The plan adds clarity to how to successfully complete the evaluation in a shorter period of time. Within the sales stages, that typically aligns to Stage-3 Technical Evaluation, but might also make sense in Stage-2 Scoping. 
+A Technical Close Plan is most useful as an opportunity is approaching a technical evaluation. The plan adds clarity to how to successfully complete the evaluation in a shorter period of time. Within the sales stages, that typically aligns to Stage-3 Technical Evaluation, but might also make sense in Stage-2 Scoping.
 
 ### Which Opportunities Should Have a Technical Close Plan?
 1. All opportunities with an [SA Validated Tech Evaluation](/handbook/solutions-architects/processes/activity-capture/#sa-specific-opportunity-fields)
@@ -31,7 +31,7 @@ As both are customer-centric, the Technical Close Plan can and should feed into 
 ## How to Build a Technical Close Plan
 
 ### Resources
-This [Google Drive Folder](https://drive.google.com/drive/folders/1nQaUD5l05eTN5Dttxuk5Lvr88oyyVDbT) contains the [Technical Close Plan](https://docs.google.com/presentation/d/1RFvOrf-aKXOzPBxLdlF5lkAnBLUTQlUNSFbWlVArA9o/edit?usp=sharing) starting template, an [instructional walkthrough](https://docs.google.com/presentation/d/1Kh48akXwaEJh2HO2TCZqQhfULs_UCx7E9DFsUbLOnzI/edit#slide=id.g253f367cf99_2_447), and [example Technical Close Plans](https://drive.google.com/drive/folders/1X5x7EbRB1v_crFG6RI-ie1D-B8pEgY36) as a reference. 
+This [Google Drive Folder](https://drive.google.com/drive/folders/1nQaUD5l05eTN5Dttxuk5Lvr88oyyVDbT) contains the [Technical Close Plan](https://docs.google.com/presentation/d/1RFvOrf-aKXOzPBxLdlF5lkAnBLUTQlUNSFbWlVArA9o/edit?usp=sharing) starting template, an [instructional walkthrough](https://docs.google.com/presentation/d/1Kh48akXwaEJh2HO2TCZqQhfULs_UCx7E9DFsUbLOnzI/edit#slide=id.g253f367cf99_2_447), and [example Technical Close Plans](https://drive.google.com/drive/folders/1X5x7EbRB1v_crFG6RI-ie1D-B8pEgY36) as a reference.
 
 ### Technical Close Plan Structure
 The specific structure of a Technical Close Plan is not as relevant as the content and conversation.
@@ -51,10 +51,10 @@ As succintly as possible, describe the customer's critical business needs and ou
 When trying to connect the dots between lower-level customer goals and their broader initiatives that likely align to GitLab’s [value drivers](/handbook/sales/command-of-the-message/#customer-value-drivers), consider an Outcome Mapping exercise.
 
 #### Key Stakeholders
-Either within the Business Outcomes section or in its own section, call out the key stakeholders whom have been involved or need to be. It’s important to map existing relationships and note aspects of the relationship or about the individual. Identify gaps to call out where to branch out and meet other members or functions within the organization. Examples of responsibilities could align to their role at the company or could include GitLab's perspective of a Champion, Influencer, Buyer, and Tech Champion. 
+Either within the Business Outcomes section or in its own section, call out the key stakeholders whom have been involved or need to be. It’s important to map existing relationships and note aspects of the relationship or about the individual. Identify gaps to call out where to branch out and meet other members or functions within the organization. Examples of responsibilities could align to their role at the company or could include GitLab's perspective of a Champion, Influencer, Buyer, and Tech Champion.
 
 #### Notional Architecture
-In order to build a plan with steps to achieve goals, starting and ending points are needed. Current and proposed state notional architectures paint a picture of what today's reality is and what tomorrow could look like. 
+In order to build a plan with steps to achieve goals, starting and ending points are needed. Current and proposed state notional architectures paint a picture of what today's reality is and what tomorrow could look like.
 
 When capture either current or proposed state notional architectures, highlight information relevant to the opportunity. Customers often have known non-negotiables or phased goals which should be taken into account.
 
@@ -75,32 +75,32 @@ The proposed or future state notional architecture should be a deliberate contra
 - A parallelized pipeline with a fail-fast mentality
 - Consolidated tooling that simplifies operations, reduces cognitive load, and enables reporting
 - A migration plan from several self-managed and SaaS instances to GitLab Dedicated so the customer can focus on delivering software rather than managing GitLab
-    
+
 #### Known Risks / Mitigations
 A well thought-out plan can still result in a failed technical evaluation. Capture possible challenges or roadblocks that could derail the conversation as well as how the team is planning to mitigate the risks.
 
-#### Activity Plan 
+#### Activity Plan
 What are the discovery and technical evaluation activities that have already happened and are needed to prove the technical evaluation?
 
-These could include activities like demonstrations, value stream workshops, hands-on workshops, proofs of value, etc. The specific combination will depend on the customer dynamics. 
+These could include activities like demonstrations, value stream workshops, hands-on workshops, proofs of value, etc. The specific combination will depend on the customer dynamics.
 
 The activity plan is how a Solutions Architect is intentional about what is needed to progress the customer through a technical evaluation rather than simply taking the customer's lead and reacting. As the evaluation progresses, reassess and adjust.
 
 ## Tracking
 
 ### Salesforce Opportunity
-A Technical Close Plan should be tracked on the opportunity with which it is associated via the `Technical Close Plan` field. This should always represent the current state of the Technical Close Plan for the given opportunity. The plan itself can be store in an account folder to retain the account context over time. 
+A Technical Close Plan should be tracked on the opportunity with which it is associated via the `Technical Close Plan` field. This should always represent the current state of the Technical Close Plan for the given opportunity. The plan itself can be store in an account folder to retain the account context over time.
 
 ![Technical Close Plan field in Salesforce](sfdc-tcp-field.png)
 
-If there are several opportunities relevant to the plan, each can point to the single Technical Close Plan. 
+If there are several opportunities relevant to the plan, each can point to the single Technical Close Plan.
 
 ## Regular Review
 Since the Technical Close Plan is used to progress a technical evaluation, the scope and definition could be fluid. It's important to regularly review the plan during 1:1s, account plans, and opportunity consults.
 
 ## Converting to a Customer Success Plan
-In many instances, the Technical Close Plan can be used as-is for a Customer Success Plan, where the only real difference is the timing. 
+In many instances, the Technical Close Plan can be used as-is for a Customer Success Plan, where the only real difference is the timing.
 
-In other cases, there may be additional adoption information to capture, like other known tools, migration plan, adoption plan, adoption risks, etc. 
+In other cases, there may be additional adoption information to capture, like other known tools, migration plan, adoption plan, adoption risks, etc.
 
 There also may be parts of the original Technical Close Plan that are no longer relevant to share with the customer, like internal relationship notes, sales or GitLab terminology, or mitigated risks.

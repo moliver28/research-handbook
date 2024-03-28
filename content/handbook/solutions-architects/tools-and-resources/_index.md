@@ -39,7 +39,7 @@ GitLab Solutions Architects conduct hands-on workshops as interactive events for
 
 RFx's such as RFI and RFP are common steps in the public sector yet it may be required by enterprise customers to assess, evaluate and procure the software. Solution architects often participate in the RFP process responding to the technical asks and solutions requirements. Information on responding to the RFx can be found on the [RFI/RFP](/handbook/security/security-assurance/field-security/Field-Security-RFP.html) page.
 
-### Stack Overflow for Teams 
+### Stack Overflow for Teams
 
 [Stack Overflow for Teams](https://stackoverflowteams.com/c/gitlab-customer-success/questions) is a knowledge sharing and collaboration tool that helps entire Customer Success organization stay productive, onboard faster, and minimize distractions by unlocking information through collaborative knowledge management.
 Everyone in Customer Success organization has access to the Stack Overflow for Teams via Okta and is able to answer questions or provide responses directly via web interface
@@ -89,7 +89,7 @@ Solutions Architects frequently interact with customers for demos, presentations
 
 ### Useful Customer Facing Presentations
 
-No two presentations are the same and we often find ourselves mixing and matching content tailored to our Customer's journey. All field and customer facing collateral is hosted on 
+No two presentations are the same and we often find ourselves mixing and matching content tailored to our Customer's journey. All field and customer facing collateral is hosted on
 - [HighSpot](https://gitlab.highspot.com/) (for field teams)
 - [Solution Pages](https://about.gitlab.com/solutions/) (for web users)
 

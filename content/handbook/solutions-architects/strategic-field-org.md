@@ -39,7 +39,7 @@ In the field, the Strategic field team focuses on two main engagement models:
 
 **Land at scale (new logos)**
 
-The core function of the team is to help drive larger, new logo opportunities.  Due to the complexities of a large-scale organizational shift, we must provide a holistic approach to adopting GitLab. The strategic field team engages as an extension to the prospect's senior leadership to help bridge the technical and business impact.  
+The core function of the team is to help drive larger, new logo opportunities.  Due to the complexities of a large-scale organizational shift, we must provide a holistic approach to adopting GitLab. The strategic field team engages as an extension to the prospect's senior leadership to help bridge the technical and business impact.
 
 **Drive Ultimate adoption with existing strategic customers**
 

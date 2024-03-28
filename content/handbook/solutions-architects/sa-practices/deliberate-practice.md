@@ -6,13 +6,13 @@ title: "Deliberate Practice"
 
 # Deliberate Practice
 
-They say that practice makes perfect.  While it's true that practice is important to hone one's skills, it's how you actually do that practice that matters.  [Deliberate Practice](https://jamesclear.com/beginners-guide-deliberate-practice) is a particular way of practicing that is persistant and intense.  When one practices deliberately, they are stretching beyond their normal comfort level and they are focusing on a particular piece of their routine or demonstration to work on with a specific goal of improving performance.  
+They say that practice makes perfect.  While it's true that practice is important to hone one's skills, it's how you actually do that practice that matters.  [Deliberate Practice](https://jamesclear.com/beginners-guide-deliberate-practice) is a particular way of practicing that is persistant and intense.  When one practices deliberately, they are stretching beyond their normal comfort level and they are focusing on a particular piece of their routine or demonstration to work on with a specific goal of improving performance.
 
 Similar to athletes breaking down specific parts of their movements, Solutions Architects should be focusing on specific parts of their demonstrations to improve them. As opposed to working on the entire swing all at once, a baseball or cricket player may work on how their hips are positioned or where their hands are on the bat during each swing.  Breaking down your routine into areas you can focus on is an important part of practicing deliberately.
 
-Deliberate Practice is not an easy thing to do.  It requires you to get out of your comfort level and try new ways to improve. If you keep practicing the same way over and over, you'll never improve.  
+Deliberate Practice is not an easy thing to do.  It requires you to get out of your comfort level and try new ways to improve. If you keep practicing the same way over and over, you'll never improve.
 
-Once you have broken down your routine and feel good about what you are doing, it's important to solicit feedback on your performance.  Feedback is how we grow and learn.  Feedback, both receiving and giving, is extremely important in deliberate practice.  If you have a new way of attempting something, it's extremely important to contact your team members and perform it for them.  Let them see what you've done and offer you feedback.  If you are asked to provide feedback, please take it seriously.  Feedback of "that looks great!" or "nice job" is friendly, but not the most useful.  Try to find specific things the presenter did that stood out or could be improved. 
+Once you have broken down your routine and feel good about what you are doing, it's important to solicit feedback on your performance.  Feedback is how we grow and learn.  Feedback, both receiving and giving, is extremely important in deliberate practice.  If you have a new way of attempting something, it's extremely important to contact your team members and perform it for them.  Let them see what you've done and offer you feedback.  If you are asked to provide feedback, please take it seriously.  Feedback of "that looks great!" or "nice job" is friendly, but not the most useful.  Try to find specific things the presenter did that stood out or could be improved.
 
 # Techniques That Can Help
 
@@ -20,7 +20,7 @@ Breaking down a demonstration into manageable areas may not be the easiest thing
 
 ## Lightning Talks
 
-Finding a topic that you are unfamiliar with and putting some time into understanding it can be a great way to improve.  A Lightning Talk is a way of delivering this information in a clear and concise manner.  Lightning Talks should be no more than five minutes long and should only use slides to get your point accross.  When performing a Lightning Talk, there should be no need to go into the actual application to show what you are discussing.  Use the minimal slides you have to get quickly to your point and explain how it can be beneficial to GitLab users.  Five minutes goes very fast when addressing a group or performing a discussion. Lightning Talks can also help you prepare for how best to deliver your message. If you only have so much time, you want to make sure the words you use are the meaningful ones that get your point across.  
+Finding a topic that you are unfamiliar with and putting some time into understanding it can be a great way to improve.  A Lightning Talk is a way of delivering this information in a clear and concise manner.  Lightning Talks should be no more than five minutes long and should only use slides to get your point accross.  When performing a Lightning Talk, there should be no need to go into the actual application to show what you are discussing.  Use the minimal slides you have to get quickly to your point and explain how it can be beneficial to GitLab users.  Five minutes goes very fast when addressing a group or performing a discussion. Lightning Talks can also help you prepare for how best to deliver your message. If you only have so much time, you want to make sure the words you use are the meaningful ones that get your point across.
 
 GitLab Solutions Architects should feel comfortable performing Lightning Talks in front of their peers
 
@@ -47,7 +47,7 @@ To ensure that GitLab Solution Architects are as best prepared as they can be, t
 
 ## Feature Fridays
 
-This is a fun practice where a Solutions Architect Manager will select up to 3 SA's to pick an interesting feature they like most and have them do a quick Slack message about it.  As the name implies, the SA should post these on Friday mornings.  Selections should be done on a Wednesday so the SA's have time to think about it and put together a simple summary.  SA's can post the message in the #customer-success Slack channel.  These should be pretty minimal, but at the very least, the summary should include the name of the feature, why they like it and a link to the documentation.  If there's a project that shows off this feature, SA's can feel free to include that as well. 
+This is a fun practice where a Solutions Architect Manager will select up to 3 SA's to pick an interesting feature they like most and have them do a quick Slack message about it.  As the name implies, the SA should post these on Friday mornings.  Selections should be done on a Wednesday so the SA's have time to think about it and put together a simple summary.  SA's can post the message in the #customer-success Slack channel.  These should be pretty minimal, but at the very least, the summary should include the name of the feature, why they like it and a link to the documentation.  If there's a project that shows off this feature, SA's can feel free to include that as well.
 
 - Example:
 

@@ -14,7 +14,7 @@ The purpose of this effort is to consistently create content that:
 - Builds thought leadership across the solutions architecture community
 - Enables solutions architects to spend more time having meaningful conversations with customers
 
-This is not meant to limit creativity. It's a [boring](/handbook/values/#boring-solutions) solution to systematically and consistently create content beneficial to our customers. 
+This is not meant to limit creativity. It's a [boring](/handbook/values/#boring-solutions) solution to systematically and consistently create content beneficial to our customers.
 
 ## Content process
 

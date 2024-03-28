@@ -13,11 +13,11 @@ View the [SA Handbook homepage](/handbook/solutions-architects/) for additional 
 {: .alert .alert-warning}
 
 
-## Solutions Architects Onboarding Overview 
+## Solutions Architects Onboarding Overview
 
-Onboarding for Solutions Architects is meant to provide newly hired Team Members with information to expedite the process of becoming acclimated to GitLab and the SA role. As a crucial part of the Solutions Architecture team, it is imperative that the new Team Member understands the intricacies of how GitLab's products and solutions work and thus be able to articulate specific use cases and efficiently execute demos. 
+Onboarding for Solutions Architects is meant to provide newly hired Team Members with information to expedite the process of becoming acclimated to GitLab and the SA role. As a crucial part of the Solutions Architecture team, it is imperative that the new Team Member understands the intricacies of how GitLab's products and solutions work and thus be able to articulate specific use cases and efficiently execute demos.
 
-The purpose of this role-specific onboarding program is to provide the newly hired Solutions Architect (SA) with information to expedite the process of becoming acclimated to GitLab and the SA role. As a crucial part of the Solutions Architecture team, it is imperative that as a new SA, you fully understand the intricacies of how GitLab's products and solutions work. This will enable you to articulate GitLab’s Go To Market (GTM) Messaging, apply specific use cases, and efficiently execute demos. 
+The purpose of this role-specific onboarding program is to provide the newly hired Solutions Architect (SA) with information to expedite the process of becoming acclimated to GitLab and the SA role. As a crucial part of the Solutions Architecture team, it is imperative that as a new SA, you fully understand the intricacies of how GitLab's products and solutions work. This will enable you to articulate GitLab’s Go To Market (GTM) Messaging, apply specific use cases, and efficiently execute demos.
 
 ![swag](https://gitlab.com/gitlab-com/people-group/peopleops-eng/emails/-/raw/f300f5097b8364158541bc447ad71af2d6fad249/images/swag.png)
 

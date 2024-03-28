@@ -8,7 +8,7 @@ title: Solutions Architects Processes
 
 ## SA Process Maps
 
-The SA organization uses process mapping as a framework for structured and continuous improvement.  LucidChart is used to document SA execution workflow and details; in other words, what we do and how we do it is documented as a visual process map.  This provides a single location to find reusable artifacts, enablement, and tooling. 
+The SA organization uses process mapping as a framework for structured and continuous improvement.  LucidChart is used to document SA execution workflow and details; in other words, what we do and how we do it is documented as a visual process map. This provides a single location to find reusable artifacts, enablement, and tooling.
 
 The goals of SA process mapping are inclusive of the following:
 
@@ -19,7 +19,7 @@ The goals of SA process mapping are inclusive of the following:
 - Make it easier to collaborate and iterate on what we did
 - Create a repeatable process for all SAs to collaborate with our customers
 
-SA process mapping is not meant to restrict creativity, experimentation, or improvement.  As part of the SA Learning Organization, SAs are encouraged to challenge our mental models and focus on solving problems as a team.  If something can be done better, please try it out and share your learnings.  Contribute to our process maps and to the supporting handbook pages.
+SA process mapping is not meant to restrict creativity, experimentation, or improvement.  As part of the SA Learning Organization, SAs are encouraged to challenge our mental models and focus on solving problems as a team. If something can be done better, please try it out and share your learnings.  Contribute to our process maps and to the supporting handbook pages.
 
 To following process maps are best viewed in full screen.  Please note that many of the map nodes are clickable, leading to other maps, handbook pages, or other supporting artifacts.
 
@@ -41,7 +41,7 @@ Customer Success Planning core goal is to identify and state:
 - High-impact strategic requirements
 - Current state of customer technology ecosystem
 - Current and desired capabilities
-- Operational alignment with strategic objectives 
+- Operational alignment with strategic objectives
 - Perceived gaps and deficiencies in current capabilities
 
 Customer Success Planning process:
@@ -97,7 +97,7 @@ Solutions Architects record and track their OKRs (Objectives and Key Results) an
 OKRs are directly realted to the fiscal year SA focus areas as well as [company OKRs](/handbook/company/okrs/). Initiatives are independent of focus areas and OKRs.
 Every Solution Architect can start a new Initiative and OKR as well as contribute to existing.
 Both are ideally broken down to quarterly achievable efforts with DRIs (Direct Responsible Individual) for each action item as well as measurble deliverables (Key Results).
-For documentation and tracking use the OKR and Initiatives template provided in the [project](https://gitlab.com/gitlab-com/customer-success/solutions-architecture-leaders/sa-initiatives) and apply the correspongding lables.
+For documentation and tracking use the OKR and Initiatives template provided in the [project](https://gitlab.com/gitlab-com/customer-success/solutions-architecture-leaders/sa-initiatives) and apply the corresponding labels.
 At the end of the quarter each Inititative and OKR should be successfully closed, archieved or moved to the next quarter if necessary. New planning starts at the beginning of the new quarter.
 
 ## Cross-functional Sales Team Processes
@@ -107,7 +107,7 @@ At the end of the quarter each Inititative and OKR should be successfully closed
 Enterprise Solutions Architects typically support sales teams made up of Sales Development Representatives, Strategic Account Leaders and Customer Success Managers. Commercial Sales Solutions Architects support Mid-Market Account Executives and SMB Customer Advocates in a pooled model. When joining a sales team, establishing working agreements is critical to providing optimal service to the customers as well as the GitLab team. A sample template of working agreements is found below to help facilitate conversation and establish these agreements:
 
 1. **Customer response time for emails and meeting followups** I will always do my best to provide same-day responses to customer inquiries and follow ups unless otherwise noted. I like to provide customers top-notch service, but interruptions can affect that target. I will use my out of office when traveling so customers can expect delayed responses during those times. Feel free to contact me if it's approaching the end of the day and you didn't see me address a customer request. Slack is the easiest way to find me most of the time.
-1. **Delivery Excellence** If the nature of my response requires a top-notch service needing me to contextualise my response in better and higher quality to our customers, I will collaborate with my GitLab sales team and set reasonable timelines for completions. Examples could be customized and tailored summaries of technical guidance as per our documentation (not just a url), suggested reference solutions architectures, and/or integrations with third-party technologies to GitLab. 
+1. **Delivery Excellence** If the nature of my response requires a top-notch service needing me to contextualise my response in better and higher quality to our customers, I will collaborate with my GitLab sales team and set reasonable timelines for completions. Examples could be customized and tailored summaries of technical guidance as per our documentation (not just a url), suggested reference solutions architectures, and/or integrations with third-party technologies to GitLab.
 1. **Calendar** Schedule things as necessary right on my calendar during working hours - I'll do my best to keep my calendar up to date. However, if you see only one empty slot for a day or if it looks like the meeting would be back to back with something else, please check with me before confirming dates and times with the customer. If you want me at my best for you, I will need time to prepare and followup. If we schedule back to back, I've found I'm often late to arrive due to the last meeting, flustered as I context shift, lacking answers for known questions, unprepared with demo environments that were altered in the last call, etc.
 1. **Regular communication** A weekly strategy hour-long call with the SA, SAE, SDR and CSM is preferred. If more frequent synchronous communication is desirable or required, we should work together as a team to identify a viable cadence, required attendees, convenient time and agenda for those calls. In either of those regular communication methods, documenting discussion points and agreements is essential.
 1. **Elevated conversations** The more we focus on value and stay away from very deep technical and troubleshooting conversations, the more I can help you achieve target sales. I'm happy to review and contribute to business plans and strategies so we remain in sync.
@@ -128,11 +128,11 @@ Enterprise Solutions Architects typically support sales teams made up of Sales D
 
 ### Account Planning
 
-Account planning helps the SAE and the SA elevate opportunity-driven conversations into value-based conversations that focus on the customer's value drivers. It is a critical step in strategically supporting the customer at the account level, and facilitates more efficient opportunity planning. See the [Using Gainsight for SAs](/handbook/solutions-architects/processes/account-planning) page for details. 
+Account planning helps the SAE and the SA elevate opportunity-driven conversations into value-based conversations that focus on the customer's value drivers. It is a critical step in strategically supporting the customer at the account level, and facilitates more efficient opportunity planning. See the [Using Gainsight for SAs](/handbook/solutions-architects/processes/account-planning) page for details.
 
 ### Quarterly Exchange
 
-At the end of a quarter, an SA team meets to share what they have been focused on to either share learnings or gather insights. 
+At the end of a quarter, an SA team meets to share what they have been focused on to either share learnings or gather insights.
 
 #### Goals
 
@@ -147,15 +147,15 @@ Anti-goals
 
 #### Format
 
-15-30 minutes for each SA to either Reflect Back or Look Forward. 
+15-30 minutes for each SA to either Reflect Back or Look Forward.
 
 ##### ⬅️ Reflect Back
 
-Reflecting back on the past quarter, an SA can share what worked well or what should be avoided. A great way to facilitate this reflection and discussion is through Closed Opp Key Learnings or a Customer Strategy Plan. 
+Reflecting back on the past quarter, an SA can share what worked well or what should be avoided. A great way to facilitate this reflection and discussion is through Closed Opp Key Learnings or a Customer Strategy Plan.
 
 ##### Look Forward ➡️
 
-Looking forward on the upcoming quarter, an SA can share a Technical Opportunity Plan to outline their strategy to secure a technical win and gather feedback and insights from team members. 
+Looking forward on the upcoming quarter, an SA can share a Technical Opportunity Plan to outline their strategy to secure a technical win and gather feedback and insights from team members.
 
 ### Quarterly Business Reviews (QBR)
 
@@ -207,7 +207,7 @@ SA's may also work in tandem with a CSM to support existing customers, especiall
 
 #### [SA/CSM Engagement Overlap]
 
-- On a high level note, SAs are the pre-sales advisors for our prospective as well as existing customers and CSMs manage the post-sales relationship of existing customers and are responsible for the GitLab adoption.  
+- On a high level note, SAs are the pre-sales advisors for our prospective as well as existing customers and CSMs manage the post-sales relationship of existing customers and are responsible for the GitLab adoption.
 
 Further details can be found here: (/handbook/customer-success/#overlap-between-solution-architects-and-customer-success-managers)
 
@@ -237,7 +237,7 @@ The Solutions Architect, in order to tailor conversations and demos to demonstra
 - What collaboration or governance opportunities exist?
 - What security or compliance inefficiencies exist?
 
-_Qualification criteria typically involves both Business requirements and Technical Functional/Non-Functional requirements *(i.e, Functional requirements explain how the system must work, while non functional requirements explain how the system should perform._ 
+_Qualification criteria typically involves both Business requirements and Technical Functional/Non-Functional requirements *(i.e, Functional requirements explain how the system must work, while non functional requirements explain how the system should perform._
 
 Once a technical discovery has been completed, SA will work within the account team to solidify a path forward (will the customer proceed with a purchase, trial, proof of value?) and idenitfy the corresponding metrics that will be used to determine the success of the evaluation.
 
@@ -247,7 +247,7 @@ Once a technical discovery has been completed, SA will work within the account t
 
 The Enterprise Strategic SA Engagement Model intends to foster collaboration and influence an even greater iteration amongst ourselves and customers.
 
-Given that Landed Addressable Market (LAM or LAM Dev) might not always be correct and the Opportunity Net ARR isn't always indicative of the potential, this model segments an SA team's engagement by the AE role, so that the SA engagement model is aligned with the AE team structures.  
+Given that Landed Addressable Market (LAM or LAM Dev) might not always be correct and the Opportunity Net ARR isn't always indicative of the potential, this model segments an SA team's engagement by the AE role, so that the SA engagement model is aligned with the AE team structures.
 
 Solutions architects are responsible for owning their engagement on opportunities. The "engagement model" is a general recommendation, not a rule, and will be left to the discretion of the solutions architect.
 
@@ -255,7 +255,7 @@ For Major Account Executives, SAs are aligned with the account executives in the
 
 For Strategic Account Executives, SAs are aligned with the account executives based on ongoing opportunities.
 
-For Strategic Account Executives, the below process can be used to request a SA.: 
+For Strategic Account Executives, the below process can be used to request a SA.:
 
 - The Strategic Account Executives will click on the "SA Request" button in salesforce after creation of a qualified opportunity.
 - This requires information regarding the customer's pain points, why now and any additional information needed to get SA help.
@@ -282,7 +282,7 @@ EMEA Enterprise Solutions Architects support the Major Account Executives (MAE) 
 
 SAs are regionaly aligned to AEs and aligned in their respective account activities. Each team collaborates according to standard [Working Agreements](#working-agreements), but they can be adjusted by teams individually.
 
-Default alignment is maintained in the [EMEA AE-SA Alignment page](https://gitlab.com/groups/gitlab-com/customer-success/solutions-architecture/-/wikis/EMEA-SAL-SA-Alignment). 
+Default alignment is maintained in the [EMEA AE-SA Alignment page](https://gitlab.com/groups/gitlab-com/customer-success/solutions-architecture/-/wikis/EMEA-SAL-SA-Alignment).
 
 When workload exceeds the SA's capacity or when there is a request from other departments, please reach out via **#emea-customer-success* Slack channel for assistance.
 
@@ -292,11 +292,11 @@ SA engagement for customer interactions, RFP's, audits and more ([how to engage 
 
 ### APAC Account Engagement Model
 
-APAC SAs are aligned regionally into regions such as ANZ, SEA (South-East Asia), India, South Korea and Japan in close alignment to the Strategic Account Leaders, Commercial AEs and Channels Managers territories. Teams collaborate to the standards [Working Agreements](#working-agreements). 
+APAC SAs are aligned regionally into regions such as ANZ, SEA (South-East Asia), India, South Korea and Japan in close alignment to the Strategic Account Leaders, Commercial AEs and Channels Managers territories. Teams collaborate to the standards [Working Agreements](#working-agreements).
 
 ### Alliances SA Engagement Model
 
-The Alliance SA team is global. The Alliance SA's are aligned with Alliance Partner Managers/Directors and the Alliance Business Development Managers. In customer accounts where an Alliance partner technology is involved, an Alliance SA engagement for customer interactions can be requested by an Account Executive / SA / CSM using the appropriate issue board. For more details, click on [how to engage an Alliance SA](/handbook/solutions-architects/processes/alliance/). Here's the [Alliance Triage Board](https://gitlab.com/gitlab-com/alliances/gitlab-alliances-team/alliance-sa-work/-/boards/2245192) and the [issue template](https://gitlab.com/gitlab-com/alliances/gitlab-alliances-team/alliance-sa-work/-/issues/new?issuable_template=GitLab%20Internal%20Assistance) 
+The Alliance SA team is global. The Alliance SA's are aligned with Alliance Partner Managers/Directors and the Alliance Business Development Managers. In customer accounts where an Alliance partner technology is involved, an Alliance SA engagement for customer interactions can be requested by an Account Executive / SA / CSM using the appropriate issue board. For more details, click on [how to engage an Alliance SA](/handbook/solutions-architects/processes/alliance/). Here's the [Alliance Triage Board](https://gitlab.com/gitlab-com/alliances/gitlab-alliances-team/alliance-sa-work/-/boards/2245192) and the [issue template](https://gitlab.com/gitlab-com/alliances/gitlab-alliances-team/alliance-sa-work/-/issues/new?issuable_template=GitLab%20Internal%20Assistance)
 
 ### Channel SA Engagement Model
 
@@ -353,14 +353,14 @@ The SA team associated with each region will monitor the triage board and/or an 
 
 ## Requesting an SA to support Events
 
-Solutions Architects are often needed to support events requiring their expertise.   The event support requests require SA assignments worldwide and collaboration between the requestor, SA leadership, and individual SAs.  Without an efficient and transparent request and triage process, we risk incurring higher expenses than necessary,  disrupting revenue opportunity SA engagements, and suboptimal diversity and inclusion.
+Solutions Architects are often needed to support events requiring their expertise. The event support requests require SA assignments worldwide and collaboration between the requestor, SA leadership, and individual SAs.  Without an efficient and transparent request and triage process, we risk incurring higher expenses than necessary,  disrupting revenue opportunity SA engagements, and suboptimal diversity and inclusion.
 
 To request an SA to support an event, it is required that you:
 
-1. Create a request using the SA_Request template [here](https://gitlab.com/gitlab-com/customer-success/solutions-architecture/marketing-support-requests/-/issues/new?issuable_template=SA_Request). 
+1. Create a request using the SA_Request template [here](https://gitlab.com/gitlab-com/customer-success/solutions-architecture/marketing-support-requests/-/issues/new?issuable_template=SA_Request).
 1. Provide all required information.
 
-SA Leaders will leverage the [SA request triage board](https://gitlab.com/gitlab-com/customer-success/solutions-architecture/marketing-support-requests/-/boards) to track all requests and assign the most appropriate SA for each event.  The following criteria will be considered:
+SA Leaders will leverage the [SA request triage board](https://gitlab.com/gitlab-com/customer-success/solutions-architecture/marketing-support-requests/-/boards) to track all requests and assign the most appropriate SA for each event. The following criteria will be considered:
 
 - Competency required
 - SA Availability

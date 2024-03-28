@@ -34,7 +34,7 @@ To mature Partners through their Partner Journey, CSA's engage in a variety of a
 
 #### Expand
 
-- Assist to develop and review the partner positioned services and solutions and be the customer advocate for our partners 
+- Assist to develop and review the partner positioned services and solutions and be the customer advocate for our partners
 - Develop sales plays and solutions between GitLab, Channel Partners, GitLab Alliances Partners
 - Presenting on GitLab technology at partner events
 - Help Partner GTM teams identify new use cases and associated enablement & guidance

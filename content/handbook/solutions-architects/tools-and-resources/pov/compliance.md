@@ -22,15 +22,15 @@ The key capabilities to validate to the value are
 ### Suggested Success Criteria
 - Business Driver: improved compliance and easy audit to be able to stay in market or enter into new market that is regulated by the government or reguatory bodies.
 - Enterprise Initiative and Sponsor: new product launch or regulator audit
-- Required capabilities with the objectives to infuse built-in compliance into the development process, ability to generate and audit artifacts and evidence for all steps and process. 
+- Required capabilities with the objectives to infuse built-in compliance into the development process, ability to generate and audit artifacts and evidence for all steps and process.
 
 | Required Capability | Acceptance | Objective | GitLab Feature |
 | ---      | ---      | ---      |---      |
 | Compliance policies and framework | Compliance can setup policies and enforce across line of business or across the entire enterprise | Prove to regulators the compliant process | Compliance Framework; Required Pipeline; Compliance Dashboard; Audit Events; Separation of Duties |
-| Standardized Software Supply Chain | Enforced standards to support compliance policies in the software supply chain | Organizational management for compliance | Project to group level compliance view | 
-| Audit | Audit on organization changes and user access | Proactive audit for internal and external aduit | Audit event, API, dashboard | 
+| Standardized Software Supply Chain | Enforced standards to support compliance policies in the software supply chain | Organizational management for compliance | Project to group level compliance view |
+| Audit | Audit on organization changes and user access | Proactive audit for internal and external aduit | Audit event, API, dashboard |
 
-It may overlap with some of the key acceptance in DevSecOps, but more focused on standard compliance and auditibility. 
+It may overlap with some of the key acceptance in DevSecOps, but more focused on standard compliance and auditibility.
 
 If this is the key scope for the POV, reach out to the strategic field team to review the top drivers and regulatory requirements or deadline, and define the right scope and execution steps for the POV with the acceptance.
 
