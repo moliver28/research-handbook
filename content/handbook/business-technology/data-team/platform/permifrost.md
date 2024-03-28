@@ -40,6 +40,9 @@ Permifrost is a Python tool for managing permissions on a Snowflake data warehou
 * Removing entire roles from the file will **not** delete them
 * Working on any other database except Snowflake
 
+
+## Contributing 
+
 ### Development
 
 Follow these steps to create and prepare your virtual environment.
@@ -60,63 +63,55 @@ pip install -e '.[dev]'
 
 Once you've committed your changes, submit a merge request and update the default template.
 
+
+### Communication
+
+* For any additional question, contribution or ide, feel free to open a [**new issue**](https://gitlab.com/gitlab-data/permifrost/-/issues/new) in the Permifrost project and, if needed, tag `@gitlab-data/permifrost_maintainers` _(the project maintainers)_
+* If you prefer to announce or ask, Slack channel [#tools-permifrost](https://getdbt.slack.com/archives/C01LWQJMMGS) is also a good option.
+
 ### Release Process
 
 The release process is described in the template [Release process for Permifrost](https://gitlab.com/gitlab-data/permifrost/-/blob/master/RELEASE.md) with using [Release Permifrost](https://gitlab.com/gitlab-data/permifrost/-/blob/master/.gitlab/issue_templates/Releasing%20update.md) template. For real life example, use [Release `0.15.1`](https://gitlab.com/gitlab-data/permifrost/-/issues/175) as a template.
+
+We set  a goal to release a new version of Permifrost at least twice per year.
 
 #### Versioning
 
 Permifrost uses [Semantic Versioning 2.0.0](https://semver.org/) as its version number scheme.
 
-#### Prerequisites
-
-Ensure you have the latest `master` branch locally before continuing.
-
-```bash
-git fetch origin
-```
-
 #### Workflow
 
-Permifrost uses tags to create its artifacts. Pushing a new tag to the repository will publish it as docker images and a `PyPI` package.
+Permifrost uses tags to create its artifacts. Pushing a new tag to the repository will publish it as docker images and a `PyPI` package. For details, refer to the [Release guideline](https://gitlab.com/gitlab-data/permifrost/-/blob/master/.gitlab/issue_templates/Releasing%20update.md).
 
-1. Ensure your installation is up to date following the Development workflow outlined above
 
-1. Execute the commands below:
 
-    ```bash
-    # create and checkout the `release-next` branch from `origin/master`
-    git checkout -B release-next origin/master
+```mermaid
+---
+title: Permifrsot development workflow
+---
+flowchart TD
 
-    # view changelog (verify changes made match changes logged)
-    changelog view
+    ISSUE--Tag permifrost maintainers--> VAL
+    VAL--permifrost::1 Accepting Merge Requests-->MR
+    MR--permifrost::2 In-Progress--> MRD
+    MRD--permifrost::3 In-Review-->APR
+    APR--Yes-->APR_YES[Adding to chanelog]
+    APR--Work needed-->MR
+    END((End))
+    subgraph Community
+        RFC((Request for change))
+        RFC--Create an issue-->ISSUE[Issue]
+        MR[Merge request]
+        MRD[Work is done]
+    end  
+    subgraph Permifost maintainer
+        VAL[Validate issue]
+        APR{Code is approved?}
+        APR_YES--Release-->PyPi[PyPi]
+        PyPi--share info about new release-->END
+    end
+    
+```
 
-    # after the changelog has been validated, tag the release
-    make type=minor release
 
-      # If doing a patch release, run
-      make type=patch release
 
-      # If doing a major release, run
-      make type=major release
-
-    # ensure the tag once the tag has been created, check the version we just bumped to: e.g. `0.22.0` => `0.23.0`.
-    git describe --tags --abbrev=0
-
-    # push the tag upstream to trigger the release pipeline
-    git push origin $(git describe --tags --abbrev=0)
-
-    # push the release branch to merge the new version, then create a merge request
-    git push origin release-next
-    ```
-
-1. Create a merge request from `release-next` targeting `master`
-
-1. Make sure to check `delete the source branch when the changes are merged`
-
-1. When the **publish** pipeline succeeds, the release is publicly available on [PyPI](https://pypi.org/project/permifrost/)
-
-#### Communication
-
-* For any additional question, contribution or ide, feel free to open a [**new issue**](https://gitlab.com/gitlab-data/permifrost/-/issues/new) in the Permifrost project and, if needed, tag `@gitlab-data/permifrost_maintainers` _(the project maintainers)_
-* If you prefer to announce or ask, Slack channel [#tools-permifrost](https://getdbt.slack.com/archives/C01LWQJMMGS) is also a good option.
