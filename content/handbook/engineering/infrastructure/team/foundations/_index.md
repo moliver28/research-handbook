@@ -77,7 +77,7 @@ We rotate triage duties weekly between team members. The goal of the team member
 
 The team member on rotation is responsible for:
 
-- Checking the [Production Engineering issue tracker](https://gitlab.com/gitlab-com/gl-infra/production-engineering/-/issues/?sort=created_date&state=opened&first_page_size=20) throughout the week and ensuring new issues:
+- Checking the [Production Engineering issue tracker](https://gitlab.com/gitlab-com/gl-infra/production-engineering/-/issues/?sort=created_date&state=opened&first_page_size=20) throughout the week and ensuring new issues related to Foundations:
   - Have the correct labels (team, priority, workflow, any other applicable category labels)
   - Have a [weight](#issue-weighting).
   - Are assigned to an appropriate epic if applicable.
