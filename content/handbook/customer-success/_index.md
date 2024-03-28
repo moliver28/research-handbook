@@ -72,7 +72,7 @@ See the [Terrain Mapping Engagements Page](/handbook/customer-success/customer-t
 
 ### Solutions Architects
 
-- [Solutions Architects handbook](/handbook/customer-success/solutions-architects/)
+- [Solutions Architects handbook](/handbook/solutions-architects/)
 - [Public Sector Solutions Architects handbook](/handbook/customer-success/public-sector/solutions-architects/)
 
 ### Professional Services
@@ -121,7 +121,7 @@ CSM-Created, Enablement Focus:
 
 SA-Created, Hands-On Focus:
 
-- [Hands-On Workshops](/handbook/customer-success/solutions-architects/tools-and-resources/#hands-on-workshops)
+- [Hands-On Workshops](/handbook/solutions-architects/tools-and-resources/#hands-on-workshops)
 
 ### Using Salesforce within Customer Success
 
@@ -183,7 +183,7 @@ Customer Success team members maintain a [FAQ](/handbook/customer-success/faq/) 
 - [GitLab Positioning](/handbook/positioning-faq/)
 - [FAQ from prospects](/handbook/sales/faq-from-prospects/)
 - [Client Use Cases](/handbook/use-cases/)
-- [Proof of Value Guidelines](/handbook/customer-success/solutions-architects/tools-and-resources/pov)
+- [Proof of Value Guidelines](/handbook/solutions-architects/tools-and-resources/pov)
 - [Account Planning Template for Large/Strategic Accounts](https://docs.google.com/presentation/d/1yQ6W7I30I4gW5Vi-TURIz8ZxnmL88uksCl0u9oyRrew/edit?ts=58b89146#slide=id.g1c9fcf1d5b_0_24))
 - [Sales Demo](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/demo/)
 - [Sales Development Group Handbook](/handbook/marketing/sales-development/)

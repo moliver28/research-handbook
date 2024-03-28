@@ -102,7 +102,7 @@ Please reference this page for an overview of the areas your CSM will engage wit
 <tbody>
   <tr>
     <td>Pre-Sales & Alignment</td>
-    <td><ul><li><a href="/handbook/customer-success/solutions-architects/sa-practices/value-stream-discovery/">Value Stream Discovery</a></li>
+    <td><ul><li><a href="/handbook/solutions-architects/sa-practices/value-stream-discovery/">Value Stream Discovery</a></li>
     <li><a href="/handbook/customer-success/pre-sales-post-sales-transition/">Sales to CS Handoff</a></li>
     <li><a href="/handbook/customer-success/csm/engagement/#customer-personas">Identify Personas</a></li></ul></td>
   </tr>
