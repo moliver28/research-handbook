@@ -1,7 +1,7 @@
 ---
 
-title: "Staging Ref environment"
-description: "Detailed information about Staging Ref environment"
+title: "Staging Ref Cell environment"
+description: "Detailed information about Staging Ref Cell environment"
 ---
 
 
@@ -12,11 +12,11 @@ description: "Detailed information about Staging Ref environment"
 
 ## Staging Ref
 
-Staging Ref is a sandbox environment used for pre-production testing of the latest Staging Canary code with full access to the environment and control over data.
+Staging Ref Cell is a sandbox environment used for pre-production testing of the latest Staging Canary code with full access to the environment and control over data.
 
 | **Name** | **URL** | **Purpose** | **Deploy** | **Database** | **Terminal access** | **Slack channel** |
 | ---- | --- | ------- | ------ | -------- | --------------- | --------- |
-| Staging Ref | [staging-ref.gitlab.com](https://staging-ref.gitlab.com/users/sign_in) | Pre-production testing | Frequently (Parallel to `gstg-cny`) | Separate and local | All engineers | [`#staging-ref`](https://gitlab.slack.com/archives/C02LN0K1N3Y) |
+| Staging Ref | [staging-ref-cell.gitlab.com](https://staging-ref-cell.gitlab.com/users/sign_in) | Pre-production testing | Frequently (Parallel to `gstg-cny`) | Separate and local | All engineers | [`#staging-ref`](https://gitlab.slack.com/archives/C02LN0K1N3Y) |
 
 ### Purpose
 
@@ -44,7 +44,7 @@ Staging Ref is a sandbox environment used for pre-production testing of the late
 
 #### Deployment process
 
-Staging Ref deployment runs parallel to Staging Canary deployment. [Deployer](https://ops.gitlab.net/gitlab-com/gl-infra/deployer) triggers a job in [Staging-Ref GET Config](https://ops.gitlab.net/gitlab-org/quality/gitlab-environment-toolkit-configs/staging-ref) to update the environment. Notifications about new deployments are sent to the [`#announcements`](https://gitlab.slack.com/archives/C8PKBH3M5) Slack channel.
+Staging Ref Cell deployment runs parallel to Staging Canary deployment. [Deployer](https://ops.gitlab.net/gitlab-com/gl-infra/deployer) triggers a job in [Staging-Ref GET Config](https://ops.gitlab.net/gitlab-org/quality/gitlab-environment-toolkit-configs/staging-ref) to update the environment. Notifications about new deployments are sent to the [`#announcements`](https://gitlab.slack.com/archives/C8PKBH3M5) Slack channel.
 
 Staging Ref pipelines do not block the deployment. If there are any failures with deployment to `gstg-ref`, please reach out to `@release-managers`. After successful deployment, Sanity and Full QA pipelines are triggered. Results are posted to `#qa-staging-ref` and analysed by Quality on-call DRIs. Please refer to the [Quality Department pipeline triage rotation schedule](/handbook/engineering/infrastructure/test-platform/oncall-rotation/#schedule) to identify the current DRI.
 
@@ -85,11 +85,11 @@ gstg_qa -[#554488]-> gprd
 @enduml
 ```
 
-### How to use Staging Ref
+### How to use Staging Ref Cell
 
-Staging Ref is a safe playground for engineers who want to test latest Staging(`gstg-cny`) code. Staging Ref has several advantages that allow it to be a full-fledged sandbox environment:
+Staging Ref Cell is a safe playground for engineers who want to test latest Staging(`gstg-cny`) code. Staging Ref Cell has several advantages that allow it to be a full-fledged sandbox environment:
 
-- Staging Ref deployments do not block the deployment process and can be tweaked or updated by any GitLab engineer. Hence GitLab engineers have wide permissions and full control over the environment.
+- Staging Ref Cell deployments do not block the deployment process and can be tweaked or updated by any GitLab engineer. Hence GitLab engineers have wide permissions and full control over the environment.
 - Environment follows 3k hybrid architecture, so it is more performant than existing Staging(`gstg`) and could be used for load testing if needed.
 
 To sign in to the environment, navigate to [staging-ref.gitlab.com](https://staging-ref.gitlab.com/users/sign_in) and use your GitLab Google account in 'Sign in with Google' option.
