@@ -21,24 +21,27 @@ The following diagram provides a high-level view of the GitLab Collaboration Pro
 <div style="width: 640px; height: 480px; margin: 10px; position: relative;"><iframe allowfullscreen frameborder="0" style="width:640px; height:480px" src="https://lucid.app/documents/embedded/5cb290db-f70b-4024-9e5c-ca944bc8dc38" id="JKftUP8938-y"></iframe></div>
 
 ### Internal Impact
+
 GitLab Collaboration Project is highly beneficial to find out the various customer insights-based Solution Architects' collaborations with the customer team. Example cross-functional teams at GitLab, which will benefit from GitLab Collaboration Project, include the Product, Marketing, Professional Services and Sales Team. The internal impact includes enhancements in product roadmaps, product feedback and enhanced strategy or strategic marketing influence.
 For instance, feedback based on the collaboration project might result in reviewing, improving or even adding new product solutions via [Solutions Go-to-market](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/) marketing activities.
 
 ### External Impact
+
 Another critical benefit of the GitLab Collaboration Project is the external impact on the customer stakeholders, communication and strategy. In complex Enterprise environments, project scope and alignment are the keys that need to be appropriately managed. Solution Architect activities during technical evaluation include customer technical validations, requirements clarifications, and prioritisations, which result in good governance and stakeholder alignment. GitLab Collaboration Project provides structured communication between internal and external stakeholders, simultaneously providing a collaborative and transparent environment.
 
 ## Usage
+
 Collaboration projects take advantage of the Agile Planning capabilities of GitLab such as issues, iterations, and boards to allow GitLab teams to collaborate with customer teams effectively during an evaluation period.
 
 ### How does a customer use a Collaboration Project successfully?
+
 SA Collaboration Projects acheive their most significant value if the customer becomes an active participant. The customer is able to start realising how easily they can collaborate on the GitLab platform. On larger and more strategic customer opportunities, the GitLab Solutions Architecture team can also assist in triaging relevant product management and engineering queries asynchronously.
 
 Customers should raise issues when they have specific questions, use cases, or topics about the GitLab product and use the collection of issues as a knowledge base for their technical evaluation and as a basis for internal documentation of processes after adopting GitLab.
 [WIP]
 
-
-
 ### How does a Solution Architect utilise a Collaboration Project?
+
 Once a solution architect has determined that an opportunity will span across multiple internal or customer teams they will create a project in the <TBC> group on GitLab.com. Key participants should be added as members of the project (SAE, CSM, PS, Product, Customer Stakeholders)
 
 Participants can then use GitLab issues to raise key use cases and questions.
@@ -49,10 +52,12 @@ When using a Collaboration Project, it is important to stay consistent to meet t
 
 
 ### Key Use Cases
+
 - Multiple customer stakeholders spanning various departments or agencies
 - High levels on communication with product required (E.g. Dedicated, Product Co-Development)
 
 ### Benefits
+
 Collaboration projects allow the Solution Architect to track questions outside of email or meeting notes in a transparent way with the customer and allows for easy collaboration across multiple stakeholder engagements.
 Customers are enabled to have a long term record of answers to questions in an organised way, which allows them to take the information and use it to speed up the creation of internal processes and documentation.
 Dogfooding GitLab early in the opportunity cadence helps to get customers more familiar with the GitLab User Interface and workflows.

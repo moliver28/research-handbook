@@ -287,6 +287,7 @@ With the continuous iteration and releases of GitLab, it's important to stay up 
 The Commercial Demo Jam serves as a safe forum for the Commercial SA team to practice demoing features, discuss potential customer objections, and articulate value through storytelling.
 
 #### Structure
+
 - Demo Jams are hosted every two weeks and the Wheel of Names is used to randomly select a team member.
 - This is a 25 minute meeting with two presenters.
 - Each presentation has ~5 minutes to present and ~5 minutes for feedback/discussion.
