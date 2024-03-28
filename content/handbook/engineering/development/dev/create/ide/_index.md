@@ -167,6 +167,16 @@ this general process, and why we need to use an extension to support it rather t
 This extension is in support of a [GitLab OKR](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/2085) for Create.
 We plan to continue iterating in this area, with the goal of eventually having GitLab directly support this workflow.
 
+### Wider Board Columns
+
+The default width of lists on boards can make the board harder to use, since you see fewer items and have to scroll more.
+
+There is [an open issue to address this](https://gitlab.com/gitlab-org/gitlab/-/issues/15927). In the meantime, though, you can use the following javascript bookmarklet suggested in [this comment on the issue](https://gitlab.com/gitlab-org/gitlab/-/issues/15927#note_214871708), which will make the lists take up the full board width. Just make a bookmark named "Wider board lists" with this as the link:
+
+```text
+javascript:(function(){var el=document.getElementsByClassName('boards-list');for(i=0;i<el.length;++i){el[i].style.padding=0;el[i].style.display='table';}el=document.getElementsByClassName('board');for(i=0;i<el.length;++i){el[i].style.padding=0;el[i].style.border='0';el[i].style.display='table-cell';}el=document.getElementsByClassName('board-inner');for(i=0;i<el.length;++i){el[i].style.padding=0;el[i].style.border='0';}})();
+```
+
 ### Remote Development Iteration Planning Report
 
 In addition to the Velocity Board chrome extension, there is a [Remote Development Iteration Planning Report](https://gitlab-org.gitlab.io/remote-development/remote-development-team-automation/remote-development-iteration-planning-report-latest.html) which is automatically published every 6 hours.
