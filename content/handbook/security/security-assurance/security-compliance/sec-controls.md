@@ -69,7 +69,7 @@ To assess newly acquired/developed systems that enable security controls OR are/
 
 ### 1. System identification
 
-Our goal is to identify systems that enable security controls (e.g., access management system) OR systems that are (or may be) subject to regulatory (e.g., SOX) or compliance requirements (SOC2) as early as possible via our [Third Party Risk Management (TPRM) Program]({{< ref "third-party-risk-management" >}}). As we engage with third parties for new systems, we assess the use of the system and whether or not it meets the criteria described above. Existing systems can also be ingested into the Security Compliance Intake process. Examples of these could include systems whose functionality has expanded to support security controls or instances where our understanding of a security control has improved resulting in the identification of a previously uncredited supporting system.
+Our goal is to identify systems that enable security controls (e.g., access management system) OR systems that are (or may be) subject to regulatory (e.g., SOX) or compliance requirements (SOC2) as early as possible. As we develop new features/systems and engage with third parties for services, we assess the use of the system and whether or not it meets the criteria described above. Existing systems can also be ingested into the Security Compliance Intake process. Examples of these could include systems whose functionality has expanded to support security controls or instances where our understanding of a security control has improved resulting in the identification of a previously uncredited supporting system.
 
 If the system meets the criteria, we open up a new [Security Compliance Intake Issue](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-compliance-commercial-and-dedicated/security-compliance-intake/-/issues/new?issue[title]=System%20Intake:%20%5BSystem%20Name%20FY2%23%20Q%23%5D&issuable_template=intakeform).
 
@@ -79,9 +79,9 @@ If the system meets the criteria, we open up a new [Security Compliance Intake I
 
 - System overview
 - Implemented security controls or impacted regulatory or compliance program
-- Link to TPRM review and results
-- Link to most recent [Business Impact Analysis]({{< ref "business-impact-analysis" >}}) and [Critical System Tier]({{< ref "critical-systems#critical-systems-tiering-methodolgy" >}}) (CST)
-- Control owner details
+- Link to TPRM reviews or Production Readiness reviews
+- [Critical System Tier]({{< ref "critical-systems#critical-systems-tiering-methodolgy" >}}) (CST)
+- Key Contact Details
 - Deployment model and implementation status
 - Data classification
 - Regulatory scope (supported by Security Compliance and [Internal Audit](/handbook/internal-audit/))
