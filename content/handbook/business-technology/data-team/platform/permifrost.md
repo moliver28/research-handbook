@@ -84,10 +84,7 @@ Permifrost uses [Semantic Versioning 2.0.0](https://semver.org/) as its version 
 Permifrost uses tags to create its artifacts. Pushing a new tag to the repository will publish it as docker images and a `PyPI` package. For details, refer to the [Release guideline](https://gitlab.com/gitlab-data/permifrost/-/blob/master/.gitlab/issue_templates/Releasing%20update.md).
 
 ```mermaid
----
-title: Permifrsot development workflow
----
-flowchart TD
+graph TD
 
     ISSUE--Tag permifrost maintainers--> VAL
     VAL--permifrost::1 Accepting Merge Requests-->MR
