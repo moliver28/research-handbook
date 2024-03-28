@@ -25,7 +25,7 @@ description: "Manage Snowflake Permissions"
 
 Permifrost is a Python tool for managing permissions on a Snowflake data warehouse. The main documentation for using the tool is available in the project and on PyPI.
 
-### Caveats and Errors
+### Caveats
 
 #### :white_check_mark: What Permifrost is 
 
@@ -116,4 +116,7 @@ Permifrost uses tags to create its artifacts. Pushing a new tag to the repositor
 
 1. When the **publish** pipeline succeeds, the release is publicly available on [PyPI](https://pypi.org/project/permifrost/)
 
-# TODO: rbacovic to add more details about Permifrost
+#### Communication
+
+* For any additional question, contribution or ide, feel free to open a [**new issue**](https://gitlab.com/gitlab-data/permifrost/-/issues/new) in the Permifrost project and, if needed, tag `@gitlab-data/permifrost_maintainers` _(the project maintainers)_
+* If you prefer to announce or ask, Slack channel [#tools-permifrost](https://getdbt.slack.com/archives/C01LWQJMMGS) is also a good option.
