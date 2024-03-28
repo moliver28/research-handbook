@@ -149,7 +149,7 @@ Sanity or Full QA pipeline may be triggered on demand in [staging-ref](https://o
 
 Monitoring implementation was done in ([epic#594](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/594)). Documentation can be found in the [runbooks](https://gitlab.com/gitlab-com/runbooks/-/blob/master/docs/staging-ref/get-monitoring-setup.md).
 
-Dashboards for Staging Ref can be found in Grafana under the [staging-ref folder](https://dashboards.gitlab.net/d/Fyic5Wanz/server-performance?orgId=1). There are other existing dashboards which may also show Staging Ref information if you select `environment=gstg-ref`.
+Dashboards for Staging Ref Cell can be found in Grafana under the [staging-ref folder](https://dashboards.gitlab.net/d/Fyic5Wanz/server-performance?orgId=1). There are other existing dashboards which may also show Staging Ref information if you select `environment=gstg-ref`.
 
 The Geo secondary site is running Grafana at <https://geo.staging-ref.gitlab.com/-/grafana>. Credentials can be found in `EU site monitoring` section in `Staging Ref credentials` in 1Password `Engineering` vault.
 
@@ -169,7 +169,7 @@ Watch [this demo](https://gitlab.com/gitlab-org/gitlab/uploads/43733f0e0b58ded0e
 
 #### Pre-existing test accounts
 
-Staging Ref environment has pre-existing accounts that can be used for testing. For example, Admin accounts on different paid plans, Auditor user, QA users. All credentials are stored in `Staging Ref credentials` in 1Password `Engineering` vault.
+Staging Ref Cell environment has pre-existing accounts that can be used for testing. For example, Admin accounts on different paid plans, Auditor user, QA users. All credentials are stored in `Staging Ref credentials` in 1Password `Engineering` vault.
 
 #### Working with a SAML SSO enabled group
 
@@ -209,4 +209,4 @@ Other outstanding work for Staging Ref is tracked [in GitLab issue tracker](http
 
 ### Feedback
 
-If you need some additional custom configuration for Staging Ref to be explored or you have other feedback and ideas for improvements, please reach out to [`#eng-allocation-new-staging`](https://gitlab.slack.com/archives/C02BA0YKRUH) Slack channel or add a comment to the feedback [issue#350744](https://gitlab.com/gitlab-org/gitlab/-/issues/350744).
+If you need some additional custom configuration for Staging Ref Cell to be explored or you have other feedback and ideas for improvements, please reach out to [`#eng-allocation-new-staging`](https://gitlab.slack.com/archives/C02BA0YKRUH) Slack channel or add a comment to the feedback [issue#350744](https://gitlab.com/gitlab-org/gitlab/-/issues/350744).
