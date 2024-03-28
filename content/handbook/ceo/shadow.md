@@ -821,6 +821,6 @@ CEO Shadow Program alumni are welcome to join the `#ceo-shadow-alumni` Slack cha
 | 2024-02-20 | 2024-03-01 | [Emma Neuberger](https://gitlab.com/eneuberger) | Sr Product Analyst | |
 | 2024-02-26 | 2024-03-08 | [Viktor Nagy](https://gitlab.com/nagyv-gitlab) | Senior Product Manager, Deploy:Environments | |
 | 2024-03-04 | 2024-03-22 |  [Aleesha Dawson](https://gitlab.com/adawson-gitlab) | Senior Customer Success Manager | |
-| 2024-03-25 | 2024-03-29 | [Bartek Marnane](https://gitlab.com/bmarnane) | VP, Incubation Engineering | | 
+| 2024-03-25 | 2024-03-29 | [Bartek Marnane](https://gitlab.com/bmarnane) | VP, Incubation Engineering | |
 | 2024-03-25 | 2024-03-29 | [Mek Stittri](https://gitlab.com/meks) - VP of Infrastructure & Quality | |
 | 2024-03-18 | 2024-04-05 | [Miracle Banks](https://gitlab.com/miraclebanks) | Full Stack Engineer | |
