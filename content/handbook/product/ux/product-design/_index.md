@@ -76,7 +76,7 @@ Product Designer Tools
 
 Product Design Management
 
-- [Product Design Manager Workflows](/handbook/product/ux/product-design/product-design-manager/)
+- [Product Design Manager Workflows](/handbook/product/ux/product-design/product-design-manager)
 
 Learning and Development
 
