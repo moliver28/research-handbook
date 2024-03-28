@@ -21,13 +21,24 @@ description: "Manage Snowflake Permissions"
 
 ## Permifrost
 
-Permifrost is a python tool for managing permissions on a Snowflake data warehouse. The main documentation for using the tool is available in the project and on PyPI.
+![](pf.jpeg)
 
-### Caveats and Errors
+Permifrost is a Python tool for managing permissions on a Snowflake data warehouse. The main documentation for using the tool is available in the project and on PyPI.
 
-- Objects that exist but are not in the config file do not lead to errors
-- Role/warehouse/database creation and deletion is not managed by permifrost
-    - Removing entire roles from the file will **not** delete them
+### Caveats
+
+#### :white_check_mark: What Permifrost is 
+
+* Is working only on the Snowflake environment
+* Permifrost is taking care of roles and privileges only
+* Objects that exist but are not in the config file do not lead to errors
+* Is a fully open-source package and everyone can contribute
+
+#### :x: What Permifrost is not 
+
+* Role/warehouse/database creation and deletion is not managed by permifrost
+* Removing entire roles from the file will **not** delete them
+* Working on any other database except Snowflake
 
 ### Development
 
@@ -51,9 +62,11 @@ Once you've committed your changes, submit a merge request and update the defaul
 
 ### Release Process
 
+The release process is described in the template [Release process for Permifrost](https://gitlab.com/gitlab-data/permifrost/-/blob/master/RELEASE.md) with using [Release Permifrost](https://gitlab.com/gitlab-data/permifrost/-/blob/master/.gitlab/issue_templates/Releasing%20update.md) template. For real life example, use [Release `0.15.1`](https://gitlab.com/gitlab-data/permifrost/-/issues/175) as a template.
+
 #### Versioning
 
-Permifrost uses [semver](https://semver.org/) as its version number scheme.
+Permifrost uses [Semantic Versioning 2.0.0](https://semver.org/) as its version number scheme.
 
 #### Prerequisites
 
@@ -65,7 +78,7 @@ git fetch origin
 
 #### Workflow
 
-Permifrost uses tags to create its artifacts. Pushing a new tag to the repository will publish it as docker images and a PyPI package.
+Permifrost uses tags to create its artifacts. Pushing a new tag to the repository will publish it as docker images and a `PyPI` package.
 
 1. Ensure your installation is up to date following the Development workflow outlined above
 
@@ -102,3 +115,8 @@ Permifrost uses tags to create its artifacts. Pushing a new tag to the repositor
 1. Make sure to check `delete the source branch when the changes are merged`
 
 1. When the **publish** pipeline succeeds, the release is publicly available on [PyPI](https://pypi.org/project/permifrost/)
+
+#### Communication
+
+* For any additional question, contribution or ide, feel free to open a [**new issue**](https://gitlab.com/gitlab-data/permifrost/-/issues/new) in the Permifrost project and, if needed, tag `@gitlab-data/permifrost_maintainers` _(the project maintainers)_
+* If you prefer to announce or ask, Slack channel [#tools-permifrost](https://getdbt.slack.com/archives/C01LWQJMMGS) is also a good option.
