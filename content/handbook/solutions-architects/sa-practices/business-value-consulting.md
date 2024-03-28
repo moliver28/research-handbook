@@ -4,9 +4,6 @@ title: Business Value Consulting
 ---
 
 
-# Business Value Consulting
-
-
 Business value consulting is a practice and approach that a Solutions Architect (SA), in collaboration with the sales team, can engage with the customers to
 - Focus on customer challenges and required GitLab DevSecOps capabilities to address the challenges
 - Quantify values of GitLab DevSecOps solution with performance improvements and measurable business outcomes
@@ -46,6 +43,7 @@ SAs can incorporate the value consulting into early sales stages while building 
   - Incorporate agreed ROI along with the adoption speed, and time to value with the Professional Services
 
 ## Top Value Drivers and Benefits
+
 - Increase Operational Efficiencies - Simplify the software development toolchain to reduce total cost of ownership
   - Top value drivers: Tool consolidation, often this value driver can be mapped to a set of hardcost on tooling license, hosting, infrastracture incurred
 - Deliver Better Products Faster - Accelerate the software delivery process to meet business objectives

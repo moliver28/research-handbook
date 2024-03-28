@@ -4,8 +4,6 @@ title: "Deliberate Practice"
 ---
 
 
-# Deliberate Practice
-
 They say that practice makes perfect.  While it's true that practice is important to hone one's skills, it's how you actually do that practice that matters.  [Deliberate Practice](https://jamesclear.com/beginners-guide-deliberate-practice) is a particular way of practicing that is persistant and intense.  When one practices deliberately, they are stretching beyond their normal comfort level and they are focusing on a particular piece of their routine or demonstration to work on with a specific goal of improving performance.
 
 Similar to athletes breaking down specific parts of their movements, Solutions Architects should be focusing on specific parts of their demonstrations to improve them. As opposed to working on the entire swing all at once, a baseball or cricket player may work on how their hips are positioned or where their hands are on the bat during each swing.  Breaking down your routine into areas you can focus on is an important part of practicing deliberately.
@@ -39,6 +37,7 @@ Examples:
 
 
 ## Demo Jam
+
 Similar to lightning talks, [Demo Jam](/handbook/solutions-architects/processes/commercial/#commercial-demo-jam) is practiced amongst the Commercial SA Team as a safe place to continously practice showcasing features, managing objections, and improving storytelling.
 
 ## Objection Handling Workshops
@@ -59,13 +58,6 @@ This is a facilitation session where Solutions Architects will be assigned a [ra
 
 - Example:
 [Enterprise US Solutions Architecture Deliberate Practice](https://gitlab.com/gitlab-com/customer-success/solutions-architecture/enterprise-amer-sa-team/-/issues/1)
-
-
-
-
-
-
-
 
 ## Peer Reviews
 

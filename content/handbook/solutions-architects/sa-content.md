@@ -24,6 +24,7 @@ This is not meant to limit creativity. It's a [boring](/handbook/values/#boring-
 4. If creating a video, please add your video to the [Solutions Architecture GitLab Unfiltered Playlist](https://www.youtube.com/playlist?list=PL05JrBw4t0Ko87g05LlHroe7eLPzCPJUY).
 
 ## Blog post generator
+
 For easy creation of a blog post and all the items behind the scenes, use the [blog post creator](https://demos.gitlab.io/applications/blog-post-creator/#/).
 
 ## FY24 Q2 Calendar

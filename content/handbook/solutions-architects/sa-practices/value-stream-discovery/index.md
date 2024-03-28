@@ -291,21 +291,21 @@ It is recommended to review the executive briefing with your champion, key stake
 
 The Account Leader (AE) is responsible for maintaining the Salesforce opportunity level VSW Tracking Fields outline below:
 
-- **VSW Start Date** - Date of the VSW kickoff call with the prospect/customer.(This is the first meeting with the prospect/customer, after they've committed to do a VSW, to discuss [planning of the VSW workshop](#planning-meeting-with-customer).)
-- **VSW End Date** - The date the VSW readout is presented to the prospect/customer or the date of the last meeting with the prospect if the VSW status is set to "Stalled."
-- **VSW Status** - The status of the VSW where
-  - **Planning** - Internal qualification and planning is occuring.  Please remove the status if it becomes unqualified during this step. VSW start date should not be set when this status is set.
-  - **Pitched** - We've positioned a VSW with the prospect/customer.  VSW start date should not be set when this status is set.
-  - **Accepted** - When the customer has agreed to do a VSW and has scheduled a kickoff call.  VSW start date should not be set when this status is set.
-  - **In-process** - We've had a kickoff call, are actively facilitating the VSW, or are compiling the result for the readout.
-  - **Completed** - We have presented the VSW executive readout to the prospect/customer.  VSW End Date should be set.
-  - **Stalled** - We were in-process but the prospect/customer is non-responsive and we can't schedule additional interviews.  VSW End Date should be set.
-- **VSW Readout** - The sentiment from the VSW Readout meeting.
-  - **Positive** - The prospect/customer was highly receptive to our recommendations and we have progressive next steps.
-  - **Neutral** - The prospect/customer was receptive but we do not have clear next steps.
-  - **Negative** - The prospect/customer was not receptive to our recommendation.
-- **VSW URL** - The URL to the the google drive folder containing the readout presentation and any other VSW artifacts.
-- **VSW Start Date Net ARR** - (Auto populated field) The opportunity Net ARR when the VSW start date is populated.
+* **VSW Start Date** - Date of the VSW kickoff call with the prospect/customer.(This is the first meeting with the prospect/customer, after they've committed to do a VSW, to discuss [planning of the VSW workshop](#planning-meeting-with-customer).)
+* **VSW End Date** - The date the VSW readout is presented to the prospect/customer or the date of the last meeting with the prospect if the VSW status is set to "Stalled."
+* **VSW Status** - The status of the VSW where
+  * **Planning** - Internal qualification and planning is occuring.  Please remove the status if it becomes unqualified during this step. VSW start date should not be set when this status is set.
+  * **Pitched** - We've positioned a VSW with the prospect/customer.  VSW start date should not be set when this status is set.
+  * **Accepted** - When the customer has agreed to do a VSW and has scheduled a kickoff call.  VSW start date should not be set when this status is set.
+  * **In-process** - We've had a kickoff call, are actively facilitating the VSW, or are compiling the result for the readout.
+  * **Completed** - We have presented the VSW executive readout to the prospect/customer.  VSW End Date should be set.
+  * **Stalled** - We were in-process but the prospect/customer is non-responsive and we can't schedule additional interviews.  VSW End Date should be set.
+* **VSW Readout** - The sentiment from the VSW Readout meeting.
+  * **Positive** - The prospect/customer was highly receptive to our recommendations and we have progressive next steps.
+  * **Neutral** - The prospect/customer was receptive but we do not have clear next steps.
+  * **Negative** - The prospect/customer was not receptive to our recommendation.
+* **VSW URL** - The URL to the the google drive folder containing the readout presentation and any other VSW artifacts.
+* **VSW Start Date Net ARR** - (Auto populated field) The opportunity Net ARR when the VSW start date is populated.
 
 Solutions Architects should leverage the following [SA Actiity Types](/handbook/solutions-architects/processes/activity-capture/activity-desc/#description-for-value-stream-workshop) when [loggin activity](/handbook/solutions-architects/processes/activity-capture/activity-desc/#description-for-value-stream-workshop)
 
@@ -323,6 +323,7 @@ This course is designed to provide an overview of how GitLab account teams shoul
 * [GitLab Value Stream Workshop Accreditation on LevelUp](https://levelup.gitlab.com/access/saml/login/internal-team-members?returnTo=https://levelup.gitlab.com/learn/learning-path/value-stream-assessment-accreditation)
 
 #### Past Enablement
+
 * [2023-03-23 Webcast - Winning With Value Stream Assessments - Jonathan Fullam](https://gitlab.highspot.com/items/641d1b3c054fb79cebe7288f)
 * [2022-02-03 Webcast - Value Stream Assessment - Simon Mansfield, Reshmi Krishna](https://youtu.be/jfM3AG6dBFY)
 

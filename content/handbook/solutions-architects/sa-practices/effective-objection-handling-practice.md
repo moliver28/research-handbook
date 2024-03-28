@@ -4,11 +4,9 @@ title: Effective Objection Handling Practice
 ---
 
 
-# Effective Objection Handling Practice
-
 Effective Objection handling skill is critical to becoming a trusted advisor in our respective sales/customer success roles. Objection handling means responding to the customer in a way that changes their mind or alleviate their concerns. Objections typically fall into these [categories](http://changingminds.org/disciplines/sales/objection/objection_types.htm).
 
-# Objection Handling Process
+## Objection Handling Process
 
 The Objection Handling Process can be broken down into the following steps:
 
@@ -29,7 +27,7 @@ The Objection Handling Process can be broken down into the following steps:
 
 Then go for the close using any of these [closing techniques](http://changingminds.org/disciplines/sales/closing/closing_techniques.htm).
 
-# Objection Handling Techniques That Can Help
+## Objection Handling Techniques That Can Help
 
 The techniques listed below are commonly used in the field to handle objections effectively. Sometimes, we might have to use more than 1 technique to handle an objection. Please remember to use empathy, establish yourself as trusted advisor & use sentences like "let me get back to you on it" when you are not sure on how to handle the objection instantly.
 
@@ -71,13 +69,13 @@ The techniques listed below are commonly used in the field to handle objections 
 
 [Pre-empting](http://changingminds.org/disciplines/sales/objection/objection_preempt.htm): This technique suggests you handle the objection before it happens according to your experience.
 
-## Objection Handling Role Play Exercise
+### Objection Handling Role Play Exercise
 
 [Presentation](https://docs.google.com/presentation/d/1SvKvx1U9KWZ-ABfkJr3rgsePtaD-pIA--jn4ywRU_hQ/edit#slide=id.g153a2ed090_0_63)
 
 [Recording](https://www.youtube.com/watch?v=vobGVMqUpqA)
 
-## Facilitating Objection Handling Exercise
+### Facilitating Objection Handling Exercise
 
 Practice Objection Handling in team meeeting by using the framework below:
 
@@ -93,7 +91,7 @@ Please note it's suggested to have these meetings weekly, biweekly so handling o
 
 [Example Facilitation recording](https://drive.google.com/file/d/16SQpH4EJedght5qRaNUikYCqm1t6G3tl/view)
 
-## Best Practices
+### Best Practices
 
 **Before the meeting:**
 
@@ -115,7 +113,7 @@ Please note it's suggested to have these meetings weekly, biweekly so handling o
 
 -  Follow up within 24/48 hours with resources, questions & next steps
 
-## More resources
+### More resources
 
 - <span class="colour" style="color:rgb(0, 0, 0)">SA handbook </span>[<span class="colour" style="color:rgb(0, 0, 255)"><u>resource</u></span>](/handbook/solutions-architects/sa-practices/effective-objection-handling-practice/)<span class="colour" style="color:rgb(0, 0, 0)"> for objection handling & “how to” facilitate additional exercises</span>
 - <span class="colour" style="color:rgb(0, 0, 0)">LinkedIn Learning </span>[<span class="colour" style="color:rgb(0, 0, 255)"><u>course</u></span>](https://www.linkedin.com/learning/sales-handling-objections/the-buyer-and-seller-relationship?u=2255073)

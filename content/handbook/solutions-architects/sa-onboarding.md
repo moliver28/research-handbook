@@ -42,6 +42,7 @@ If you are unable to find the information you are looking for, please be sure to
 Alternatively once you are active on [Slack](/handbook/communication/chat), which is used solely for informal communication, you will notice that you have been automatically added to a handful of useful support channels such #questions, #cs-questions, #solutions-architects, #it-help, etc.
 
 ## 30-60-90 Day Program
+
 * [SA Onboarding At a Glance](https://docs.google.com/presentation/d/1_4rX6svo7QC7bHBBYjABzhasS5_Gu07sMznbLe3G_Eg/edit#slide=id.g118aed8c9bf_0_193)
 
 ### How to Access the SA Onboarding Program
@@ -53,6 +54,7 @@ Alternatively once you are active on [Slack](/handbook/communication/chat), whic
 
 
 ## How to Contribute
+
 Keeping up with the GitLab value of **"Everyone can Contribute"**, please provide input to continuously improve this Onboarding Program through one of the following ways:
 * Create a merge request to improve this page
 * Add feedback or tasks to the [SA Onboarding Issue](https://gitlab.com/gitlab-com/sales-team/field-operations/enablement/-/issues/1287)

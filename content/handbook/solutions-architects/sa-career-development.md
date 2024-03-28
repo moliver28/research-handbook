@@ -72,11 +72,11 @@ high awareness of priorities that are aligned to visible results.
 
 The Associate SA Program aims to embody as many GitLab values as possible as it aims to instill a passion for DevOps, Open-Source Software, and GitLab.  Key values and sub-values include:
 
-* [Dogfooding](/handbook/values/#dogfooding) (Results Sub-value)
-* [Self-service and self-learning](/handbook/values/#self-service-and-self-learning) (Efficiency Sub-value)
-* [Be a mentor](/handbook/values/#be-a-mentor) (Diversity, Inclusion & Belonging Sub-Value)
-* [Iteration](/handbook/values/#iteration)
-* [Transparency](/handbook/values/#transparency)
+- [Dogfooding](/handbook/values/#dogfooding) (Results Sub-value)
+- [Self-service and self-learning](/handbook/values/#self-service-and-self-learning) (Efficiency Sub-value)
+- [Be a mentor](/handbook/values/#be-a-mentor) (Diversity, Inclusion & Belonging Sub-Value)
+- [Iteration](/handbook/values/#iteration)
+- [Transparency](/handbook/values/#transparency)
 
 The content is supplemental to the [30/60/90 day onboarding](/handbook/solutions-architects/sa-onboarding/#30-60-90-day-program) that all SAs go through.
 
@@ -132,6 +132,7 @@ Additionally, the team is finalizing a mentoring program that is slated to begin
 Recognizing the hard work that the Solutions Architects bring to the sales process and to GitLab itself is something we hold dear.  The SA organization should feel proud of the wins they achieve.  Whether they are business related or personal goals reached, SA's deserve to be called out for their accomplishments.
 
 ### Peer Recognition
+
 Recognizing (and being recognized) by your peers is extremely fulfilling.  If an SA is recognized by a peer, it may appear in one or more of these places:
 
 - The #thanks Slack Channel (Used by the entire organization for all manner of appreciation.)
@@ -143,6 +144,7 @@ Recognizing (and being recognized) by your peers is extremely fulfilling.  If an
 
 
 ### Management Recognition
+
 At various points of the year, SA's have the opportunity to be recognized by their managers and/or Customer Success leadership.
 
 - [Field Organization Quarterly Achievers](/handbook/sales/field-operations/field-enablement/field-team-recognition/#field-quarterly-achievers-chat) (12 various winners from accross the Field Organization for outstanding performance in the Quarter. A designated chat with the CEO, CRO and the other winners as well as a $250 US expensed dinner are included)
