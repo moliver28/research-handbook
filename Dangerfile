@@ -28,7 +28,7 @@ MARKDOWN
 
 if rows.empty?
   markdown <<~MARKDOWN
-    There are suggestions for the changes in this merge request.
+    There are no required approvals. Please ask an appropriate team member to review the content, or use the [Approvers Merge Request widget](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/rules.html#multiple-approval-rules).
   MARKDOWN
 else
   table = <<~MARKDOWN
