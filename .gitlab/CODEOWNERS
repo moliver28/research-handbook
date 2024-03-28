@@ -614,6 +614,7 @@
 /content/_index.html @gitlab-com/content-sites @gitlab-com/content-sites/handbook-backend @gitlab-com/egroup
 /content/featured-background.png @gitlab-com/content-sites @gitlab-com/content-sites/handbook-backend @gitlab-com/egroup
 /CONTRIBUTING.md @gitlab-com/content-sites @gitlab-com/content-sites/handbook-backend @gitlab-com/egroup
+/Dangerfile @gitlab-com/content-sites @gitlab-com/content-sites/handbook-backend
 /go.mod @gitlab-com/content-sites @gitlab-com/content-sites/handbook-backend
 /go.sum @gitlab-com/content-sites @gitlab-com/content-sites/handbook-backend
 /layouts/ @gitlab-com/content-sites @gitlab-com/content-sites/handbook-backend @gitlab-com/egroup
