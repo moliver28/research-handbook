@@ -25,8 +25,8 @@ Solutions architects are responsible for owning their engagement on opportunitie
 Solutions Architects operate within Circles (small teams of SAs).  Each Circle is responsible for managing their triaging process.  When scheduling conflicts arise, SA Circles may distribute opportunity workload to other Circles.  When taking PTO, or out on a sick day, an SA's Circle is their first stop for backup.
 
 * Goals of Circle Triage:
-   * Create a mechanism to pragmatically assign opportunities to members of our SA team who are available and ready - in time and skill set.
-   * Enable SAs with a process that allows the majority of their time to be focused on current deals and projects that contribute to the greater Customer Success org - not Salesforce report refreshes.
+   - Create a mechanism to pragmatically assign opportunities to members of our SA team who are available and ready - in time and skill set.
+   - Enable SAs with a process that allows the majority of their time to be focused on current deals and projects that contribute to the greater Customer Success org - not Salesforce report refreshes.
 
 #### SA Circle Triage Guidelines
 
@@ -34,51 +34,49 @@ Solutions Architects operate within Circles (small teams of SAs).  Each Circle i
 
 _Self-assignment does not happen without first discussing the opportunity and the “4 Questions” in the Circle-slack channel_
 
-  * **This is the #1 immutable rule.**  All others build off of it.  We must Collaborate, prioritizing The Circle and The Process over “just this once”.
-    * We will have a Fast-track prioritization route for those demos that were scheduled with less than 24 hours.   We will still collaborate in Slack circle-region channels when this situation occurs.
+  - **This is the #1 immutable rule.**  All others build off of it.  We must Collaborate, prioritizing The Circle and The Process over “just this once”.
+    - We will have a Fast-track prioritization route for those demos that were scheduled with less than 24 hours.   We will still collaborate in Slack circle-region channels when this situation occurs.
 
 ###### #2: Triage within One Business Day
 
 _It doesn’t need to be within an hour.  You can eat lunch first_
 
-* Totally Acceptable Circle Behavior:  A new opportunity is created and sits for 3 hours because the Circle is busy with demos and life.
-* Totally Acceptable Circle Behavior: A new opportunity is created, and someone in the Circle-slack channel says “hey there is a new opp and I would like to discuss” and that Circle follow-up discussion doesn’t come for 2, or even 4 hours, because the rest of the Circle is busy with other things.  This is still okay.  The wait period is not a diss to anyone, the Circle will get to it when they can, in natural pauses of the day.
-* One Full Business Day Defined:  If it comes in at 4pm, the Circle has 4pm the next day to Triage.
+- Totally Acceptable Circle Behavior:  A new opportunity is created and sits for 3 hours because the Circle is busy with demos and life.
+- Totally Acceptable Circle Behavior: A new opportunity is created, and someone in the Circle-slack channel says “hey there is a new opp and I would like to discuss” and that Circle follow-up discussion doesn’t come for 2, or even 4 hours, because the rest of the Circle is busy with other things.  This is still okay.  The wait period is not a diss to anyone, the Circle will get to it when they can, in natural pauses of the day.
+- One Full Business Day Defined:  If it comes in at 4pm, the Circle has 4pm the next day to Triage.
 
 ###### #3: Better Triage Happens with a Second Review
 
 _If possible, two team members review a Command Plan before assignment_
 
-* Some days, this may not be possible.  If 1/2 the team is on PTO and the other 1/2 is slammed, then perhaps in the Slack circle-region channel we might to eachother, after a request for a Circle review, “don’t have time for 2eyes, if you have the capacity and feel fully comfortable with the 4 questions being fulfilled, then assign it to yourself”.  The key is, to get here, as a Circle, we communicated on Triage.
-  * The Circle’s Reporting Managers are considered a very valued 2nd person to review, when directly requested.
+- Some days, this may not be possible.  If 1/2 the team is on PTO and the other 1/2 is slammed, then perhaps in the Slack circle-region channel we might to eachother, after a request for a Circle review, “don’t have time for 2eyes, if you have the capacity and feel fully comfortable with the 4 questions being fulfilled, then assign it to yourself”.  The key is, to get here, as a Circle, we communicated on Triage.
+  - The Circle’s Reporting Managers are considered a very valued 2nd person to review, when directly requested.
 
 ##### The 4 Questions
 
 There are often 'what-if' scenarios when an SA evaluates an incoming lead.   These 4 questions give us the start to our async Slack conversations.  *Should this meeting move forward if I don't know 'X'?*  is exacty when the members of The Circle will able to add context, and conversation to the Triage Collaboration.
 
-* **#1: Is the Command Plan Properly completed?  Read through the Plan.  Identify if anything is missing.**
-   * Goal: Make it acceptable for the AE and the Command Plan not to be perfect. Make it thusly acceptable for the SA Circle to ask clarifying questions and request more information before the opportunity is assigned, and before the next proposed meeting can take place.
-      * Command Plan clarification questions are a great opportunity for our experienced SA org to lead and guide those folks who are in the sales org who are newer to GitLab and/or DevOps.  Having the proper time for a feedback loop serves everyone involved in the lead.   If we don't tells our AEs what more we need, how else will they understand what to ask in the future?
+- **#1: Is the Command Plan Properly completed?  Read through the Plan.  Identify if anything is missing.**
+   - Goal: Make it acceptable for the AE and the Command Plan not to be perfect. Make it thusly acceptable for the SA Circle to ask clarifying questions and request more information before the opportunity is assigned, and before the next proposed meeting can take place.
+      - Command Plan clarification questions are a great opportunity for our experienced SA org to lead and guide those folks who are in the sales org who are newer to GitLab and/or DevOps.  Having the proper time for a feedback loop serves everyone involved in the lead.   If we don't tells our AEs what more we need, how else will they understand what to ask in the future?
+- **#2:  Based on the Command Plan, does the SA have a good understanding of the following:**
+  - Current DevOps stack? (SCM, Plan, CI/CD, Cloud Vendor(s), Deployment technologies)
+  - What are the evaluated competitive technologies? (ex: GitHub, ADO, Atlassian)
+  - Who will be attending the meeting?  Names and titles need to be identified (LinkedIn, here we come).
+  - What are the specific use-cases they are looking for GitLab to address?
+  - Why Now?
 
 
-* **#2:  Based on the Command Plan, does the SA have a good understanding of the following:**
-  * Current DevOps stack? (SCM, Plan, CI/CD, Cloud Vendor(s), Deployment technologies)
-  * What are the evaluated competitive technologies? (ex: GitHub, ADO, Atlassian)
-  * Who will be attending the meeting?  Names and titles need to be identified (LinkedIn, here we come).
-  * What are the specific use-cases they are looking for GitLab to address?
-  * Why Now?
+- **#3: Does the SA have the lead time to prepare; is the meeting is not scheduled within 12-24 hours of the request**
+  - Goal: AEs to hold off on scheduling the next customer meetings until the SA Circle has enough time to evaluate if all correct information has been collected in Questions 1 & 2.
+      -  SAs deserve time to clarify on Command Plans with the AEs and prepare demonstration environments.  GitLab is a large, and ever changing platform - the product is forever being delivered (every month). The SA team requests proper time to prepare so they can deliver the best results.
+      - Sometimes, a lot of runaway is not possible.  We will still have a ‘Fast Track’ process that allows the AE to both mark the request record in Salesforce (for future metrics) and notify the Circle in the Slack circle-region-aeasm channel (because the SAs will be doing other work than always watching incoming opportunities.  See Point #2 in Triage Guidelines!)
 
 
-* **#3: Does the SA have the lead time to prepare; is the meeting is not scheduled within 12-24 hours of the request**
-  * Goal: AEs to hold off on scheduling the next customer meetings until the SA Circle has enough time to evaluate if all correct information has been collected in Questions 1 & 2.
-      *  SAs deserve time to clarify on Command Plans with the AEs and prepare demonstration environments.  GitLab is a large, and ever changing platform - the product is forever being delivered (every month). The SA team requests proper time to prepare so they can deliver the best results.
-      * Sometimes, a lot of runaway is not possible.  We will still have a ‘Fast Track’ process that allows the AE to both mark the request record in Salesforce (for future metrics) and notify the Circle in the Slack circle-region-aeasm channel (because the SAs will be doing other work than always watching incoming opportunities.  See Point #2 in Triage Guidelines!)
-
-
-* **#4: Does the SA have relatable experience on this type of account.**
-  * 'Yes' could be the "preferred" answer depending on the account and timeline.
-  * But 'No' is also a 'Yes'. Solution Architects belong to a learning-focused organization. Less experienced SAs are going to continue to take on accounts where they do not know everything, and will hopefully do even better with their small accessible Circle to constantly collaborate with.
-  * An additional benefit of the Circle structure is we now have a dedicated small-group who are there for a main-assist.
+- **#4: Does the SA have relatable experience on this type of account.**
+  - 'Yes' could be the "preferred" answer depending on the account and timeline.
+  - But 'No' is also a 'Yes'. Solution Architects belong to a learning-focused organization. Less experienced SAs are going to continue to take on accounts where they do not know everything, and will hopefully do even better with their small accessible Circle to constantly collaborate with.
+  - An additional benefit of the Circle structure is we now have a dedicated small-group who are there for a main-assist.
 
 ### Segment-Specific Engagement Models
 
@@ -135,10 +133,10 @@ Solutions Architects are highly versatile and can be leveraged for on-site engag
 
 On-site requests should primarily be driven by the desire of the customer. No on-site will be perfectly executed. As a team, learning how to best leverage through iteration on-sites is a critical capability for us to build.
 
-* Giving a demo to a large crowd with various personas that otherwise would not have been engaged virtually.
-* Running a workshop where the given customer has requested this to be done in person.
-* Meeting with executives in a room to help discuss their initiatives and cast a vision for GitLab within their organization.
-* Conducting a [Day In The Life of A Developer](/handbook/solutions-architects/sa-practices/day-in-the-life/) assessment
+- Giving a demo to a large crowd with various personas that otherwise would not have been engaged virtually.
+- Running a workshop where the given customer has requested this to be done in person.
+- Meeting with executives in a room to help discuss their initiatives and cast a vision for GitLab within their organization.
+- Conducting a [Day In The Life of A Developer](/handbook/solutions-architects/sa-practices/day-in-the-life/) assessment
 
 ##### Pre-Requisites for On-site Engagements
 
@@ -224,16 +222,19 @@ The Commercial Solutions Architecture team leverages SA Circles for two primary 
 The guiding principles of circles
 
 #### **Diversity, Inclusion, Belonging** drives **Collaboration**
+
 - No one member is 'in charge' of a circle, as they will still report to regional managers. SA Circles are meant to be working groups of peers.
 - Circles reflect a diversity of seniority levels. The key benefit of a circle is receiving different points of views, and giving everyone opportunities for new learning experiences.
 - Circles support a combination of SMB, MM and Strategic AEs
 
 #### Focus is on **Efficiency** and Collective **Results**
+
 - Strategically important opportunities that have been identified within an SA Circle ought to have increased awareness and focus from the more senior-level SAs. Segment-Specific Engagement Alignment will be a primary tool to indicate what is strategic but may deviate.
 - Success of an SA Circle is viewed from a team success perspective, not individual SA success
 - SA Circles have autonomy to manage their individual triage process, while being encouraged to share their learnings to the other SA Circles
 
 #### Results-Focused and Collaboration fuels **Iteration** and **Transparency**
+
 - Experimentation within a cirlce is encouraged!
 - SA Circles will focus on being open about how work is triaged and performed.
 - Iteration will help ensure that we find ways to be proactive in a function that can stagnate when it is only reactive
@@ -256,6 +257,7 @@ That is to say, every experiment should have:
 The 5-Minute Demo Framework is a method to quickly produce technical content that is easy to consume for the customer. The intent of the framework is to rapidly develop tutorials while also generating value-packed content for the customer to consume. This content can range from videos, blog posts, or tutorials. As a result of building and sharing out bit-sized videos, the Commercial SA team can scale out our reach to a broader technical audience. Moreover, as the content compounds, the Account Executive teams will have a bank of content to share asynchronously to customers used to deliver value to customers efficiently.
 
 #### Topics Delivered Upon and Available to Customers
+
 - How to provision dynamic review environments using merge requests and Argo CD - [Blog Post](https://about.gitlab.com/blog/2022/08/02/how-to-provision-reviewops/)
 - How to automate testing for a React application with GitLab - [Blog Post](https://about.gitlab.com/blog/2022/11/01/how-to-automate-testing-for-a-react-application-with-gitlab/)
 - CI/CD Modernization with GitLab - [YouTube Link](https://www.youtube.com/watch?v=QGAaif8lY0A) or [Highspot Pitch Link](https://gitlab.highspot.com/items/6335dbcb985c4ea802afcf8d?lfrm=srp.0)
@@ -266,18 +268,18 @@ The 5-Minute Demo Framework is a method to quickly produce technical content tha
 
 #### Topic Curation
 
-* A [demo wishlist](https://drive.google.com/drive/u/0/search?q=title:%225%20Minute%20Demo%20Framework:%20Demo%20Wishlist%22%20type:document) (internal) has been made to help the team generate and prioritize one-off topics based off of field demand and interest.
-* A [framework tutorial issue tracker](https://gitlab.com/guided-explorations/framework-tutorials) has been created to organize tech and language framework tutorials. These tutorials will align to specific GitLab stages with end-to-end guides.
+- A [demo wishlist](https://drive.google.com/drive/u/0/search?q=title:%225%20Minute%20Demo%20Framework:%20Demo%20Wishlist%22%20type:document) (internal) has been made to help the team generate and prioritize one-off topics based off of field demand and interest.
+- A [framework tutorial issue tracker](https://gitlab.com/guided-explorations/framework-tutorials) has been created to organize tech and language framework tutorials. These tutorials will align to specific GitLab stages with end-to-end guides.
 
 ##### Tips for searchability
 
-* For videos, please add the video to GitLab Unfiltered YouTube channel under "Solutions Architecture" playlist. Additionally [link the video within Highspot](/handbook/sales/field-communications/gitlab-highspot/#gitlab-highspot-best-practices-for-content-owners) for the AE's to create email pitches.
-* For blog posts, please refer to the [marketing handbook page](/handbook/marketing/blog/) on how to publish to the Blog. See [MR1](https://gitlab.com/gitlab-com/www-gitlab-com/-/merge_requests/113595) and [MR2](https://gitlab.com/gitlab-com/www-gitlab-com/-/merge_requests/108728) as an example.
-* For repository examples, please store the repository within the [Guided Exploration group](https://gitlab.com/guided-explorations).
+- For videos, please add the video to GitLab Unfiltered YouTube channel under "Solutions Architecture" playlist. Additionally [link the video within Highspot](/handbook/sales/field-communications/gitlab-highspot/#gitlab-highspot-best-practices-for-content-owners) for the AE's to create email pitches.
+- For blog posts, please refer to the [marketing handbook page](/handbook/marketing/blog/) on how to publish to the Blog. See [MR1](https://gitlab.com/gitlab-com/www-gitlab-com/-/merge_requests/113595) and [MR2](https://gitlab.com/gitlab-com/www-gitlab-com/-/merge_requests/108728) as an example.
+- For repository examples, please store the repository within the [Guided Exploration group](https://gitlab.com/guided-explorations).
 
 ##### Practice and review
 
-* If you produce a video and are requesting feedback, feel free to add it to the [Demo Jam](#commercial-demo-jam) agenda. An alternative is to record it and share it asynchronously in #cs_mm_sa slack channel for feedback.
+- If you produce a video and are requesting feedback, feel free to add it to the [Demo Jam](#commercial-demo-jam) agenda. An alternative is to record it and share it asynchronously in #cs_mm_sa slack channel for feedback.
 
 ### Commercial Demo Jam
 
@@ -324,6 +326,7 @@ Commercial SA team holds [Peer Review sessions](/handbook/solutions-architects/s
 
 
 ## Paid Time Off
+
 Commercial SA team members are strongly encouraged to take time off as part of [GitLab's paid time off policy](/handbook/paid-time-off/). Taking off can be intimidating as we may support multiple customers at any given time.
 To best support our customers, consider the following:
 1. Communicate your time off within your circle in case of coverage.

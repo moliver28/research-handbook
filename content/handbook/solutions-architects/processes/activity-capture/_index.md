@@ -6,8 +6,6 @@ description: >-
   transparency and collaboration
 ---
 
-# Activity Capture
-
 
 Solutions Architects record all customer and prospect activity to promote **transparency** and **collaboration**. By consistently capturing our prospect or customer-facing activity, we can perform analysis for further reporting to establish **efficient** decision making for GitLab's business.
 
@@ -81,9 +79,9 @@ To assist with the analysis of SA guided technical evaluations by our prospects 
 
 - **Primary SA** - The primary SA assigned to and working on the opportunity.
 - **SA Validated Tech Evaluation Start Date** - The date the SA started engaging with a prospect or customer on an **explicit solution evaluation** as described above. This date should mark the first time the SA engages with the customer after the customer explicitly starts an evaluation of value.  When the SA joins an initial meeting and the prospect does not seriously engage until months later, the start date should reflect when they seriously engaged. This date should not be set if the SA activity, regardless of the type of activity (e.g., demos, workshops, etc.), is for the purpose of discovery, creating interest in GitLab, education, or anything other than the serious evaluation of a GitLab to address an agreed upon problem and / or drive a specific outcome.
-  * In **Commercial**, the start date is to reflect the start of the trial when an SA is engaged with the account, even when the trial started prior to the SA engaging.
+  - In **Commercial**, the start date is to reflect the start of the trial when an SA is engaged with the account, even when the trial started prior to the SA engaging.
 - **SA Validated Tech Evaluation End Date** - The date the SA stopped engaging with a prospect or customer from an evaluation standpoint and the technical evaluation is deemed closed as a technical win, loss, or a stalled evaluation. This has no connection to whether or not the deal closes with a win or loss, as there may be non-technical variables that may impact the success of a deal after a technical evaluation.
-  * In **Commercial**, the end date is to reflect the end of the trial when an SA is engaged with the account.
+  - In **Commercial**, the end date is to reflect the end of the trial when an SA is engaged with the account.
 - **SA Validated Tech Evaluation Close Status** - The close status of the technical evaluation:
 There are two ways to update these fields in Rattle:
 While all of these fields can be updated and changed anytime as an opportunity evolves, the end date and close status should not be populated as a forecast.

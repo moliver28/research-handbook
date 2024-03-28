@@ -5,8 +5,6 @@ description: "Solutions Architects are occasionally called on at a moments notic
 ---
 
 
-# Demonstrations
-
 ## Demo Systems Overview and Specific Environments
 
 The [Demo Systems Handbook page](/handbook/customer-success/demo-systems/) provides an overview of the demo system infrastructure used for demonstrating GitLab features, value propositions, and workflows.

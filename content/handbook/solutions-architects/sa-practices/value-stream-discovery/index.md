@@ -25,11 +25,8 @@ Value Stream Discovery (VSD) aims to gain a clear understanding of how an organi
 ### Common Value Stream Discovery Techniques
 
 * **Discovery Session (with Value Stream Concepts):** Integrate value stream mapping concepts into standard discovery sessions. This aligns well with GitLab's [Command of the Message](https://handbook.gitlab.com/handbook/sales/command-of-the-message/) approach, focusing on understanding the customer's current state, future desired state, and the metrics they'll use to measure success.  It's vital to grasp how the customer's value stream ties into achieving their larger business goals.
-
 * **"Day in the Life":** Leverage the established ["Day in the Life" SA practice](https://handbook.gitlab.com/handbook/solutions-architects/sa-practices/day-in-the-life/) to extract valuable value stream information. While initial observations might be limited to a single team, the resulting metrics and insights provide a valid foundation. Ideally, expand this exercise to involve multiple teams within the value stream for greater cross-functional visibility.
-
 * **Value Stream Discovery Session (Informal):** A focused session involving representatives from across the value stream. Less structured than a full workshop, it still prioritizes understanding the customer's value stream with the potential to identify immediate improvement areas if time allows.
-
 * **Value Stream Workshop:** A comprehensive approach detailed [below in this handbook page](#value-stream-workshop).
 
 ### Customer-Focused Techniques
@@ -37,7 +34,6 @@ Value Stream Discovery (VSD) aims to gain a clear understanding of how an organi
 Since Value Stream Discovery aims to uncover challenges in delivering value to the end-user, techniques focusing on them can be valuable:
 
 * **Customer Journey Mapping:** Visualize the customer's experience as they interact with the value stream. Map touchpoints, identify pain points, and uncover opportunities to improve their journey, enhancing overall delivered value ([Lucidchart Overview](https://www.lucidchart.com/blog/how-to-build-customer-journey-maps)).
-
 * **Voice of the Customer (VOC):** Employ surveys, interviews, or user testing to collect direct feedback from end-users on their experience with the value stream. This qualitative data provides insights into their needs, frustrations, and areas for improvement ([Gainsight Overview](https://www.gainsight.com/essential-guides/voice-of-the-customer/)).
 
 
@@ -266,13 +262,10 @@ It is recommended to review the executive briefing with your champion, key stake
 ### FAQs from customers/prospects
 
 1. What's in it for me - the customer?
-
     - Free, hands-on consultative analysis of their software delivery lifecycle, including their current state, future state, and areas of improvements.
     - Competitive analysis of where they are compared to their peers in the industry. This report contains the most recent benchmark values for the four DORA metrics (widely regarded as good measures of DevOps performance) [State of DevOps Report 2021](https://services.google.com/fh/files/misc/state-of-devops-2021.pdf).
     - Recommendations on how to overcome visible or invisible challenges with a strategic plan to help them reach their future state.
-
 1. What are typical outcomes for a customer?
-
     - For one medical device company in Silicon Valley, doing a Value Stream Workshop provided them with a tangible adoption plan to decrease their release cycle from 6 months to 1 months. It was specific, actionable, and realistic.
     - For a financial service bank, doing a Value Stream Workshop provided them with a comparison of their process with their peers, and the clear path forward to improve their processes, and ultimately allowed them to achieve a desired ROI of releasing software faster while increasing quality.
 
@@ -283,19 +276,12 @@ It is recommended to review the executive briefing with your champion, key stake
         - Improved change failure rate
         - Necessary capabilities obtained to drive transformation change (e.g., digital, DevOps, software delivery, modern applications)
 1. Which teams are typically involved?
-
     - We start with application development team, quality engineering team, DevOps then application security.
-
 1. What's the best place to start?
-
     - Pick the most business critical application or a representative application that has faster time to market requirement.
-
 1. That's a lot of time investment from our teams Or Our teams are busy with other projects.
-
     - It takes 1 or 1.5 hr per team to do focused discovery for a Value Stream Workshop. We interviewed 4 different teams for our silicon valley customer in 4.5 hrs. We can start with the least busy team if you don't want it to be pursued in a group setting.
-
 1. Can you interview 1 team at a time?
-
     - Yes. We would like to start with application development team if so. This helps us understand an overview of their development process(idea-production) process.
 
 

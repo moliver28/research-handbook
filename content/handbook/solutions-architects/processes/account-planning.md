@@ -13,9 +13,10 @@ title: Account Planning for Solutions Architects
 - Steps to access Gainsight are outlined on this [Handbook Page](/handbook/sales/gainsight/#getting-started)
 
 
-# SA Role Specific Gainsight Usage
+## SA Role Specific Gainsight Usage
+
 - **How to create and edit a Technical Win Plan from Gainsight:**
-* You can create an objective under account plan. Here is a sample Success Plan to use as guidance:
+- You can create an objective under account plan. Here is a sample Success Plan to use as guidance:
 
   [Sample Success Plan - Flowchart](https://lucid.app/documents/view/3f6a8cf8-f63a-4649-b797-c540034c3f1e)
 
@@ -62,10 +63,10 @@ It is important to note that Gainsight brings the entire account team onto a sin
 
 ## Gainsight Enablement
 
-* [Account Planning Handbook Page](/handbook/sales/account-planning/)
-* [Account Planning with Gainsight Overview and Demo](https://www.youtube.com/watch?v=Xhor2IIsCQQ)
-* [Account Planning for SAs](https://gitlab.edcast.com/pathways/gainsight-for-solutions-architects-sas)
-* [Using Gainsight in Team Meetings](https://www.youtube.com/watch?v=gT_pz9PoHHg)
+- [Account Planning Handbook Page](/handbook/sales/account-planning/)
+- [Account Planning with Gainsight Overview and Demo](https://www.youtube.com/watch?v=Xhor2IIsCQQ)
+- [Account Planning for SAs](https://gitlab.edcast.com/pathways/gainsight-for-solutions-architects-sas)
+- [Using Gainsight in Team Meetings](https://www.youtube.com/watch?v=gT_pz9PoHHg)
 
 ## Additional Reading:
 
