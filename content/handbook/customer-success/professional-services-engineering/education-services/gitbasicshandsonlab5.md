@@ -91,20 +91,19 @@ After you commit these changes, a pipeline will run, and the test stage will fai
 
 1. In the list of repository files, click the `test` directory and then the `test.js` file.
 
-1. Click **Edit > Edit single file** and modify the line `.expect(/Welcome to Express/, done)` to `.expect(/GitLab welcomes you to express/)`. After completing the edits, your code will look like this:
+1. Click **Edit > Edit single file** and modify the line `.expect(/Welcome to Express/, done)` to `.expect(/GitLab welcomes you to Express/, done)`. After completing the edits, your code will look like this:
 
     ```js
     const request = require('supertest');
     const app = require('../app');
 
     describe('App', function() {
-    it('has the default page', function(done) {
+      it('has the default page', function(done) {
         request(app)
         .get('/')
         .expect(/GitLab welcomes you to Express/, done);
+      });
     });
-    }); 
-
     ```
 1. For **Commit message**, type `Update welcome message test`
 

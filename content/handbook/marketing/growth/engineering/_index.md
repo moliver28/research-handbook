@@ -74,7 +74,7 @@ If an issue arises - such as a production incident or feature change lock - that
 
 If an Engineer is unavailable the Engineering Manager will reassign open issues and merge requests to another engineer, preferably in the same [group](#all-team-members).
 
-Some people management functions may require escalation or delegation, such as [Workday](/handbook/people-group/workday/workday-guide/) and [Navan Expense](/handbook/business-technology/enterprise-applications/guides/navan-expense-guide/).
+Some people management functions may require escalation or delegation, such as [Workday](/handbook/people-group/workday-guide/) and [Navan Expense](/handbook/business-technology/enterprise-applications/guides/navan-expense-guide/).
 
 This can be used as the basis for a business continuity plan (BCP),
 as well as a general guide to Growth Engineering continuity in the event of one or more team members being unavailable for any reason.

@@ -58,7 +58,7 @@ Our Enterprise Applications team is made up of a combination of roles to best su
 # <i class="fas fa-database" id="biz-tech-icons"></i>  Applications We Own
 
 1. [Zuora](/handbook/finance/accounting/finance-ops/billing-ops/zuora-billing/)
-1. [Zuora Revenue (RevPro)](/handbook/finance/accounting/finance-ops/Revenue-Accounting/tech-stack-guide-zuora-revenue/)
+1. [Zuora Revenue (RevPro)](/handbook/finance/accounting/finance-ops/revenue-accounting/tech-stack-guide-zuora-revenue/)
 1. NetSuite
 1. Coupa
 1. Tipalti

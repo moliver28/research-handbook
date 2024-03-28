@@ -19,7 +19,7 @@ Make sure to save these credentials as distinct from your regular GitLab credent
     - to get a login to the version application, [open an access request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=Individual_Bulk_Access_Request) and remove all systems in the list except for the row for `GitLab DEV` which you will use to OAuth into the application.
 Make sure to save these credentials as distinct from your regular GitLab credentials.
 - [Kyla's Quote Creation Videos](https://drive.google.com/drive/u/0/folders/1CAXWx2SSXbIIW5bmPv4Lahlv_VPYdJce)
-- [Support: Common Licensing, Transaction and Billing Troubleshooting](/handbook/support/license-and-renewals/workflows/license_troubleshooting.html)
+- [Support: Common Licensing, Transaction and Billing Troubleshooting](/handbook/support/license-and-renewals/workflows/license_troubleshooting/)
 - [Sales Enablement Renewal Doc](https://docs.google.com/document/d/15WKHS-LxE4c4BbZ4eNREwwH_n_DhX_Q2yzT0OYTNjh0/edit)
 - How to create a quote
     - [new subscription quote](/handbook/sales/field-operations/sales-operations/deal-desk/#new-subscription-quote)

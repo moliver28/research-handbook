@@ -25,5 +25,3 @@ The guiding principles for the Emerging Talent Program cascade from GitLab’s h
     - We deliver content designed to minimize participants’ time to impact through programming and work-integrated learning.
 - **Build For The Long Term**
     - We contribute to GitLab’s [long-term organizational effectiveness](https://dorieclark.com/longgame/) by investing in and building talent, our execution is iterative but our strategy drives toward building a [100-year company](https://bigthink.com/articles/how-to-build-the-100-year-company/).
-
-GitLab Team Members can click [here](https://docs.google.com/document/d/1zBV-94eNXVZI3Opp4U196viqVQBI9ZedGPmCTme4YJM/edit#heading=h.end9bv3ja91m) to learn about our Key Objectives and Programs that are currently being built.

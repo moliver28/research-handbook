@@ -44,6 +44,6 @@ The following is a non-exhaustive list of approaches to finding customers open t
 
 - Modify the process to best fit your teams' needs, including the PM, PD, and the engineering team
 - All continuous customer interview data should live in Dovetail. Any additional information (summaries, templates, etc.) can live in confidential issues as long as the data are connected back to the Dovetail project.
-- Remove customers’ [Personally Identifiable Information (PII)](/handbook/support/workflows/pii_removal_requests.html) from Dovetail and GitLab issues, so that team members do not identify specific individuals as part of the research process.
+- Remove customers’ [Personally Identifiable Information (PII)](/handbook/support/workflows/pii_removal_requests/) from Dovetail and GitLab issues, so that team members do not identify specific individuals as part of the research process.
     - For example: Avoid including the first/last name of the user and company where the user works. Instead, you can reference them by their job title, persona type, or participant number (P6).
 - With any customer research, you have the option to [compensate participants](/handbook/product/ux/ux-research-coordination/#thank-you-gifts) for their time. Providing a small token of thanks is a best practice to show users how we value their time.

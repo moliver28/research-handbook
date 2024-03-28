@@ -603,7 +603,11 @@ If an opportunity has incorrect data after it has moved into Stage 1 - Discovery
 
 If the opportunity is for a new group of users in a Large account where sales is working on a large "central" opportunity, then your opportunity should be merged to that opportunity for you to get credit for the users you have brought to the deal. [See under Stage 8](/handbook/sales/field-operations/gtm-resources/#opportunity-stages) in the Sales Go To Market Handbook
 
-* [ How to create an opportunity](/handbook/sales/field-operations/gtm-resources/#creating-a-new-business-opportunity-from-lead-record)
+* [ How to create an opportunity](/handbook/sales/field-operations/gtm-resources/#creating-a-new-business-opportunity-from-lead-record) - Please be mindful of relating activities so you can facilitate with our [monthly audit process](https://handbook.gitlab.com/handbook/marketing/sales-development/sales-development-tools/#monthly-audit-process). To relate activities to your opportunities, please:
+
+- Identify any relevant two-way communications that you've had with the prospect, leading up to the opportunity's creation. These can be email exchanges, call records from outreach, discovery calls or LI messages. These all have to be a properly logged activity on SFDC, and associated with the person, company, and opportunity properly. 
+- Select the specific activity records that highlight your involvement, and press "related to"
+- Select the Opportunity that corresponds to this activity and press save.
 
 Before scheduling the meeting with the AE/SAE, you will need to verify the sales organization RoE
 

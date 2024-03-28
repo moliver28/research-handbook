@@ -32,9 +32,7 @@ Below, we're detailing examples of people who have adopted a [remote lifestyle](
 The thought of having no permanent residence while maintaining the same career would conjure laughter and confusion a few decades ago. Thanks to rapid advancement in internet infrastructure, technology, software, tools, and cultural appreciation for [asynchronous communication]({{< ref "./informal-communication" >}}), it's now quite [feasible]({{< ref "./jobs" >}}).
 
 
-{{% tweet user="JTGenter" id="1051185813344669696" %}}
-
-[JT Genter](https://thepointsguy.com/author/jtgenter) and [Katie Genter](https://thepointsguy.com/author/katiegenter) aspire to explore the world, embrace their passion for writing, and fly on as many airlines as possible. As members of [The Points Guy](https://thepointsguy.com)'s editorial staff, they're able to contribute asynchronously and maintain connections with team members through tools like Slack and Zoom. They've built their careers while crisscrossing the globe, embracing the digital nomad lifestyle while informing others on how to do similar.
+[JT Genter](https://thepointsguy.com/author/jtgenter) and [Katie Genter](https://thepointsguy.com/author/katiegenter) aspire to explore the world, embrace their passion for writing, and fly on as many airlines as possible. As members of [The Points Guy](https://thepointsguy.com)'s editorial staff, they're able to contribute asynchronously and maintain connections with team members through tools like Slack and Zoom. They've built their careers while crisscrossing the globe, embracing the digital nomad lifestyle while informing others on how to do similar. See [this tweet from JT Genter on his travel statistics](https://twitter.com/JTGenter/status/1051185813344669696).
 
 Those looking to connect professionally with other digital nomads should consider joining [LinkedIn's Digital Nomads Group](https://www.linkedin.com/groups/13657237).
 

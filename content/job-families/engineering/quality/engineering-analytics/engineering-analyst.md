@@ -140,7 +140,7 @@ The Staff Engineering Analyst role extends the [Senior Engineering Analyst](#sen
 ### UX
 
 - SUS Scores
-- UX Debt
+- Deferred UX
 
 ### Security
 

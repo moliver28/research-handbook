@@ -227,18 +227,15 @@ Once you save the ticket in the `Open` state, the macro will also:
 
 ### Using the Cross Region Handover Form
 
-The existing Handover Form is reserved for high-priority tickets only, ensuring a streamlined process for urgent cases, reducing noise and allowing Support Engineers to handle lower-priority tickets without managerial guidance.
+The existing Slack Handover Form is reserved for high-priority tickets only, ensuring a streamlined process for urgent cases, reducing noise and allowing Support Engineers to handle lower-priority tickets without managerial guidance.
 
 Ensure that you have followed the steps above in relation to preparing the ticket for handover:
 
-
-1. Select a handover form from the Handovers folder that is bookmarked at the top of your SGG channel. Choose the form (such as Handover to EMEA) based on the target region to which you need to handover the ticket.
-1. Fill out all fields (using as much detail as possible for the paragraph fields), then click Submit.
-1. A message will post to your group’s Slack channel, which will ping the regional group handle as well as the associated SGG Support Managers.
-1. You will also receive a private Slack message with the full details of your form submission, including a reminder to use the `Handover Ticket Summary` macro (required).
-1. You can track your request in the Ticket Handover Tracker sheet that you will also find in the Handovers folder.
-1. Managers and Seniors should periodically review the Ticket Handover Tracker sheet to help address any pending requests.
-
+1. Select a handover form based on the target region to which you need to handover the ticket (such as `Handover to EMEA`) from the Handovers folder bookmarked at the top of your SGG channel.
+1. Fill out all fields, then click Submit.
+1. A message will post to your group’s Slack channel, which will ping the regional group handle.
+1. You will also receive a private Slack reminder to use the `Handover Ticket Summary` macro (required).
+1. All requests will log to the [#spt_handover-log](https://gitlab.enterprise.slack.com/archives/C06PUE3CECR) channel for tracking.
 
 ## Contacting a Customer Success Manager or Account Manager
 

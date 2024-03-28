@@ -23,7 +23,7 @@ In truth, managing an all-remote company is much like managing any other company
 
 Remote forces you to do the things you should be doing [way earlier and better](https://nohq.co/blog/sid-sijbrandij-people-dont-want-to-commute-they-ju). It forces discipline that sustains culture and efficiency [at scale](./scaling), particularly in areas which are easily deprioritized in small colocated companies.
 
-It's important to not assume that team members understand good remote work practices. GitLab managers are [expected]({{< ref "structure#management-group" >}}) to coach their reports to utilize [asynchronous communication]({{< ref "./management#asynchronous" >}}), be [handbook-first]({{< ref "/handbook/handbook-usage#why-handbook-first" >}}), design an [optimal workspace]({{< ref "./workspace" >}}), and understand the importance of [self-learning/self-service]({{< ref "./self-service" >}}).
+It's important to not assume that team members understand good remote work practices. GitLab managers are [expected]({{< ref "structure#management-group" >}}) to coach their reports to utilize [asynchronous communication]({{< ref "./management#asynchronous" >}}), be [handbook-first](/handbook/handbook-usage#why-handbook-first), design an [optimal workspace]({{< ref "./workspace" >}}), and understand the importance of [self-learning/self-service]({{< ref "./self-service" >}}).
 
 ## Get certified in remote management
 
@@ -102,7 +102,7 @@ Remember that someone's home time zone will not necessarily represent their day-
 Practically, the following should be considered.
 1. Leaders should proactively optimize as many workflows as possible for [asynchronous]({{< ref "./asynchronous" >}}). This enables people to work when they are [most productive]({{< ref "leadership#managers-of-one" >}}), fosters a culture of [rich documentation]({{< ref "./handbook-first" >}}), and creates a more [inclusive work environment]({{< ref "values#bias-towards-asynchronous-communication" >}}).
 1. Attempt to align on a time, or a rotation of times, where the manager and direct report can be online at the same time for a regular [1-1]({{< ref "1-1" >}}). If this pulls one person or the other into non-working hours, consider rotating times so the burden is equally shared.
-1. Document what success looks like using [Objectives and Key Results (OKRs)]({{< ref "/handbook/company/okrs" >}}). This should be conveyed plainly and mutually agreed upon.
+1. Document what success looks like using [Objectives and Key Results (OKRs)](/handbook/company/okrs). This should be conveyed plainly and mutually agreed upon.
 1. Foster community and mentorship with like time zones. E.g. If a manager gains a new direct report with a sizable time zone gap, ask others in the organization — even if they are not in the same department — who are more aligned with the time zone to include this person in their social activities.
 1. Lean on documentation. Place importance on using [low-context communication]({{< ref "./effective-communication" >}}) in 1-1 documents, GitLab issues/merge requests, etc.
 1. Consider using tools like [Yac](https://yac.com) and [Loom](https://www.loom.com) to convey thoughts and feedback with video and audio if the written word feels too impersonal. [Managers]({{< ref "being-a-great-remote-manager" >}}) should flex to the preferred medium and style of their direct report, and encourage open conversation to iterate on this as the relationship develops.
@@ -117,13 +117,13 @@ You can also learn from the experiences of GitLab team members collected in [thi
 
 *In the [GitLab Unfiltered](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A) video above, Darren (GitLab) and Anna-Karin (Because Mondays) discuss a number of challenges and solutions related to remote work, transitioning a company to remote, working asynchronously, and defaulting to documentation.*
 
-Remote work is what led to the development of our publicly viewable [handbook]({{< ref "/handbook" >}}), which captures everything you'd need to know about the company. If you can't tell, we like [efficiency]({{< ref "values#efficiency" >}}) and don't like having to explain things twice.
+Remote work is what led to the development of our publicly viewable [handbook](/handbook), which captures everything you'd need to know about the company. If you can't tell, we like [efficiency]({{< ref "values#efficiency" >}}) and don't like having to explain things twice.
 
-Each department and team's quarterly goals, or ["objectives and key results" (OKRs)]({{< ref "/handbook/company/okrs" >}}), are also clearly documented in our handbook for visibility across the company. We check in on these goals monthly, so there's as much transparency as possible around what each team is accomplishing.
+Each department and team's quarterly goals, or ["objectives and key results" (OKRs)](/handbook/company/okrs), are also clearly documented in our handbook for visibility across the company. We check in on these goals monthly, so there's as much transparency as possible around what each team is accomplishing.
 
-Our approach to [documentation]({{< ref "/handbook/documentation" >}}) also helps with [onboarding new team members]({{< ref "./learning-and-development" >}}), because everything they need to know is in one place.
+Our approach to [documentation](/handbook/documentation) also helps with [onboarding new team members]({{< ref "./learning-and-development" >}}), because everything they need to know is in one place.
 
-We also have an extensive [onboarding template](https://gitlab.com/gitlab-com/people-group/employment-templates/-/blob/main/.gitlab/issue_templates/onboarding.md) and we host a [GitLab 101]({{< ref "/handbook/company/culture/gitlab-101" >}}) for new hires to ask questions.
+We also have an extensive [onboarding template](https://gitlab.com/gitlab-com/people-group/employment-templates/-/blob/main/.gitlab/issue_templates/onboarding.md) and we host a [GitLab 101](/handbook/company/culture/gitlab-101) for new hires to ask questions.
 
 ### Using GitLab for remote collaboration
 
@@ -158,7 +158,7 @@ The GitLab way of working is more [inclusive]({{< ref "inclusion#fully-distribut
 >
 > At GitLab, we have a rule that says [handbook first]({{< ref "handbook-usage#why-handbook-first" >}}). If you're going to communicate a change to people, first put it in the handbook and then communicate that change to people.
 >
-> Our handbook has [grown to over 3,000 pages]({{< ref "/handbook/about#count-handbook-pages" >}}) — it's impossible to read all of it — but you're going to read the sections that are relevant to the job that you have to do. We encourage people to record things and share things. We're continuously trying to move conversations out of Slack and into [GitLab Issues](https://docs.gitlab.com/ee/user/project/issues) where everyone can see them. We encourage people to stream to YouTube on [GitLab Unfiltered](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A). - *GitLab co-founder and CEO Sid Sijbrandij*
+> Our handbook has [grown to over 3,000 pages](/handbook/about#count-handbook-pages) — it's impossible to read all of it — but you're going to read the sections that are relevant to the job that you have to do. We encourage people to record things and share things. We're continuously trying to move conversations out of Slack and into [GitLab Issues](https://docs.gitlab.com/ee/user/project/issues) where everyone can see them. We encourage people to stream to YouTube on [GitLab Unfiltered](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A). - *GitLab co-founder and CEO Sid Sijbrandij*
 
 This is one of the harder things to apply on a daily basis. Taking the time to document a solution isn't very satisfying in the moment, and is easy to deprioritize when other seemingly urgent tasks are vying for your attention.
 
@@ -222,7 +222,7 @@ Learn more about GitLab's approach to asynchronous working by viewing our [Effic
 
 Paralysis by analysis is something all companies should seek to avoid. In managing through this at an all-remote company, leaders should ensure that all colleagues understand that consensus doesn't scale.
 
-Thus, there should be [no goal to achieve consensus]({{< ref "/handbook" >}}). This may feel awkward or unnatural to those coming from colocated corporate environments, but trusting decision makers and living out [the value of iteration]({{< ref "values#iteration" >}}) prevents unnecessary slowdowns in your organization.
+Thus, there should be [no goal to achieve consensus](/handbook). This may feel awkward or unnatural to those coming from colocated corporate environments, but trusting decision makers and living out [the value of iteration]({{< ref "values#iteration" >}}) prevents unnecessary slowdowns in your organization.
 
 By intentionally separating the process of decision *gathering* and decision *making*, you provide ample opportunity for everyone to add input, offering up fresh angles for consideration that may well sway the mind of the DRI ([directly responsible individual]({{< ref "directly-responsible-individuals" >}})).
 
@@ -266,7 +266,7 @@ In all-remote companies, it is easy to fall into a situation where you work with
 
 Leaders in an all-remote company must work to avoid dotted lines and matrix organization. Everyone should report to exactly one person, and that person should understand your day-to-day tasks and be well-positioned to assist you in removing obstacles to thriving in your role.
 
-Whenever there is need to work on a specific, high-level, cross functional business problem, a [working group]({{< ref "/handbook/company/working-groups" >}}) should be established for that need.
+Whenever there is need to work on a specific, high-level, cross functional business problem, a [working group](/handbook/company/working-groups) should be established for that need.
 
 Learn more about GitLab's approach in the [Leadership section of our Handbook]({{< ref "leadership#no-matrix-organization" >}}).
 
@@ -290,7 +290,7 @@ All-remote companies should go beyond striving for results. They should add as m
 
 This can be achieved by implementing Objectives and Key Results (OKRs), a widely used framework for setting strategy and removing ambiguity over what matters.
 
-Learn more about [GitLab's implementation of OKRs]({{< ref "/handbook/company/okrs" >}}).
+Learn more about [GitLab's implementation of OKRs](/handbook/company/okrs).
 
 ### Key Performance Indicators (KPIs)
 
@@ -333,7 +333,7 @@ Tomasz Tunguz describes it as such in an article entitled "[The early discipline
 
 ## GitLab Knowledge Assessment: All-remote management
 
-Anyone can test their knowledge on all-remote management by completing the [knowledge assessment](https://docs.google.com/forms/d/e/1FAIpQLSfJEDRSuyVQxRU-vnpTXpRHjCzd_jtqNcGElJ2KHalJgy7jHQ/viewform). Earn at least an 80% or higher on the assessment to receive a passing score. Once the quiz has been passed, you will receive an email acknowledging the completion from GitLab. We are in the process of designing a GitLab Remote Certification and completion of the assessment will be one requirement in obtaining the [certification](https://about.gitlab.com/learn/certifications/public). If you have questions, please reach out to our [Learning & Development team]({{< ref "/handbook/people-group/learning-and-development" >}}) at `learning@gitlab.com`.
+Anyone can test their knowledge on all-remote management by completing the [knowledge assessment](https://docs.google.com/forms/d/e/1FAIpQLSfJEDRSuyVQxRU-vnpTXpRHjCzd_jtqNcGElJ2KHalJgy7jHQ/viewform). Earn at least an 80% or higher on the assessment to receive a passing score. Once the quiz has been passed, you will receive an email acknowledging the completion from GitLab. We are in the process of designing a GitLab Remote Certification and completion of the assessment will be one requirement in obtaining the [certification](https://about.gitlab.com/learn/certifications/public). If you have questions, please reach out to our [Learning & Development team](/handbook/people-group/learning-and-development) at `learning@gitlab.com`.
 
 {{% include "includes/is_this_advice_any_good_remote.md" %}}
 

@@ -79,7 +79,7 @@ All GitLab team members are eligible to apply for the CEO Shadow Program.
 
 Exceptions to eligibility:
 
-CEO Shadow rotations will be reserved for [Functional Leaders]({{< ref "/handbook/company/structure.md#functional-leaders" >}}) during the week of [E-Group Offsites](/handbook/company/offsite/#schedule). An exception will be made if there is last minute availability as two functional leaders are not available to serve in this role during this window.
+CEO Shadow rotations will be reserved for [Functional Leaders](/handbook/company/structure.md#functional-leaders) during the week of [E-Group Offsites](/handbook/company/offsite/#schedule). An exception will be made if there is last minute availability as two functional leaders are not available to serve in this role during this window.
 
 **Note:** At this time, all shadow rotations are fully remote. Learn more about what to expect from a [remote shadow rotation](#remote-shadow-rotations).
 
@@ -114,7 +114,7 @@ Currently, a rotation is two weeks:
 
 The shadow should be available for the full two weeks.
 
-When the CEO has a week or more of paid time off, or during [Summit (Contribute)]({{< ref "/handbook/company/culture/contribute/_index.md" >}}), the program will pause, one shadow will "see one" before the break and "teach one" after the break.
+When the CEO has a week or more of paid time off, or during [Summit (Contribute)](/handbook/company/culture/contribute/_index.md), the program will pause, one shadow will "see one" before the break and "teach one" after the break.
 The rotations with breaks of one or more weeks without a shadow are great if you can't be away from home for more than one week at a time.
 
 This program is not limited to long-term GitLab team members.
@@ -127,7 +127,6 @@ For those with regular commitments, look for shorter weeks or timezone variation
 
 | Start date | End date | See one | Teach one | Schedule Notes |
 | ---------- | -------- | ------- | --------- | -------------- |
-| 2024-02-26 | 2024-03-01 | [Viktor Nagy](https://gitlab.com/nagyv-gitlab) - Senior Product Manager, Deploy:Environments | [Emma Neuberger](https://gitlab.com/eneuberger) - Sr Product Analyst | REMOTE - PT |
 | 2024-03-04 | 2024-03-08 |  [Aleesha Dawson](https://gitlab.com/adawson-gitlab) - Senior Customer Success Manager | [Viktor Nagy](https://gitlab.com/nagyv-gitlab) - Senior Product Manager, Deploy:Environments | REMOTE - PT |
 | 2024-03-11 | 2023-03-15 | NO SHADOW | NO SHADOW | SUMMIT - PT |
 | 2024-03-18 | 2024-03-22 | [Miracle Banks](https://gitlab.com/miraclebanks) - Full Stack Engineer |  [Aleesha Dawson](https://gitlab.com/adawson-gitlab) - Senior Customer Success Manager | REMOTE - ET - Light Shadow week due to travel |
@@ -141,14 +140,14 @@ For those with regular commitments, look for shorter weeks or timezone variation
 | 2024-05-13 | 2024-05-17 | [Djordje Micovic](https://gitlab.com/dmicovic) - Staff Data Analyst, Marketing Analytics | OPEN | REMOTE - PT, MON - TUES |
 | 2024-05-20 | 2024-05-24 | NO SHADOW | NO SHADOW | PRESIDENT'S CLUB |
 | 2024-05-27 | 2024-05-31 | OPEN | [Djordje Micovic](https://gitlab.com/dmicovic) - Staff Data Analyst, Marketing Analytics | REMOTE - PT |
-| 2024-06-03 | 2024-06-07 | [Christopher Wang](https://gitlab.com/cs.wang) | Sr. Manager - Enablement and Strategy (Sales Development) | OPEN | REMOTE - PT |
-| 2024-06-10 | 2024-06-14 | OPEN | [Christopher Wang](https://gitlab.com/cs.wang) | Sr. Manager - Enablement and Strategy (Sales Development) | REMOTE - PT |
+| 2024-06-03 | 2024-06-07 | [Christopher Wang](https://gitlab.com/cs.wang) - Sr. Manager - Enablement and Strategy (Sales Development) | OPEN | REMOTE - PT |
+| 2024-06-10 | 2024-06-14 | OPEN | [Christopher Wang](https://gitlab.com/cs.wang) - Sr. Manager - Enablement and Strategy (Sales Development) | REMOTE - PT |
 | 2024-06-17 | 2024-06-21 | [Camilo Villanueva Santiago](https://gitlab.com/cvillanueva1) - Sr. Enterprise Renewals Manager | OPEN | REMOTE - PT |
 | 2024-06-24 | 2024-06-27 | OPEN - VP DIRECTS ONLY | OPEN - VP DIRECTS ONLY | In Person - East Coast |
 | 2024-07-01 | 2024-07-05 | NO SHADOW | NO SHADOW | CEO OOO |
 | 2024-07-08 | 2024-07-12 |  OPEN | [Camilo Villanueva Santiago](https://gitlab.com/cvillanueva1) - Sr. Enterprise Renewals Manager | TBD - Possible limited week/travel in EMEA |
-| 2024-07-15 | 2024-07-19 |  OPEN | OPEN | REMOTE - PT |
-| 2024-07-22 | 2024-07-26 |  [Lesley Razzaghian](https://gitlab.com/lesley-r) - Backend Engineer | OPEN | REMOTE - PT |
+| 2024-07-15 | 2024-07-19 |  [Kristine Setschin](https://gitlab.com/KSetschin) - Sr. Manager Regional Marketing, EMEA | OPEN | REMOTE - PT |
+| 2024-07-22 | 2024-07-26 |  [Lesley Razzaghian](https://gitlab.com/lesley-r) - Backend Engineer | [Kristine Setschin](https://gitlab.com/KSetschin) - Sr. Manager Regional Marketing, EMEA | REMOTE - PT |
 | 2024-07-29 | 2024-08-02 |  OPEN | [Lesley Razzaghian](https://gitlab.com/lesley-r) - Backend Engineer | REMOTE - PT |
 
 If you have questions regarding the planned rotation schedule, please ping the [EBA to the CEO]({{< ref "eba#executive-business-administrator-team" >}}) and [Chief of Staff to the CEO]({{< ref chief-of-staff >}}) in the `#ceo-shadow` Slack channel. The CoS and EBA to the CEO manage the rotation schedule. Please do not add new dates to the schedule when adding in your rotation. The CEO's schedule is subject to constant change and your rotation may need to be rescheduled.
@@ -360,9 +359,9 @@ In situations when someone asks others to vocalize their question, shadows are i
 
 #### If you see something, say something
 
-Shadows should notify GitLab meeting participants if their [name and job title]({{< ref "/handbook/tools-and-tips/zoom.md#adding-your-title-to-your-name" >}}) are not mentioned on Zoom.
+Shadows should notify GitLab meeting participants if their [name and job title](/handbook/tools-and-tips/zoom.md#adding-your-title-to-your-name) are not mentioned on Zoom.
 
-If a GitLab team member is sharing their screen before introductions have occurred, shadows should remind GitLab presenters that GitLab does not [recommend sharing screens during zoom meetings]({{< ref "/handbook/tools-and-tips/zoom.md#sharing-your-screen-in-zoom" >}}) and to please wait until after introductions have been completed to allow participants to see each other clearly during introductions. This is especially important during external calls when participants are meeting each other for the first time.
+If a GitLab team member is sharing their screen before introductions have occurred, shadows should remind GitLab presenters that GitLab does not [recommend sharing screens during zoom meetings](/handbook/tools-and-tips/zoom.md#sharing-your-screen-in-zoom) and to please wait until after introductions have been completed to allow participants to see each other clearly during introductions. This is especially important during external calls when participants are meeting each other for the first time.
 
 If you notice that someone does not have their picture set in Google when a Google document is being actively worked on, [let them know how to set one](https://myaccount.google.com/personal-info) so their picture will show up in the document rather than their first initial. That makes it easier for everyone to find where they are in the document, especially when they are speaking. Let them know that this is 100% optional.
 
@@ -824,4 +823,4 @@ CEO Shadow Program alumni are welcome to join the `#ceo-shadow-alumni` Slack cha
 | 2024-02-05 | 2024-02-14 | [Deepika Guliani](https://gitlab.com/deepika.guliani) | Frontend Engineer, Plan:Project Management | |
 | 2024-02-12 | 2024-02-23 | [Taimur Khan](https://gitlab.com/tkhan.gitlab) | Staff CSM, Industry Lead | |
 | 2024-02-20 | 2024-03-01 | [Emma Neuberger](https://gitlab.com/eneuberger) | Sr Product Analyst | |
-
+| 2024-02-26 | 2024-03-08 | [Viktor Nagy](https://gitlab.com/nagyv-gitlab) | Senior Product Manager, Deploy:Environments | https://www.linkedin.com/pulse/from-shadow-viktor-nagy-ngvwf/ |

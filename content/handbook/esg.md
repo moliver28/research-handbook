@@ -326,7 +326,7 @@ Our FY23 priorities in this area included:
 
 - **Supply Chain Levels for Software Artifacts (“SLSA”) security framework feature (all tiers)**
 
-    SLSA is a security framework that helps security and integrity of software supply chains. By default, [GitLab Runner](https://docs.gitlab.com/runner/) is now capable of generating and producing SLSA-2 compliant attestation metadata for building artifacts.
+    SLSA is a security framework that helps security and integrity of software supply chains. By default, [GitLab Runner](https://docs.gitlab.com/runner/) is now capable of generating and producing SLSA-L1 compliant attestation metadata for building artifacts.
 
 - **Group and subgroup-level scan result capabilities for security policies (Ultimate tier only)**
 
@@ -367,7 +367,7 @@ As with other ethical concerns, team members may confidentially and anonymously 
 
 #### Measuring Results
 
-Disclosing our progress through data aligns with our [transparency]({{ ref "values#transparency" >}}) and [results]({{< ref "values#results" >}}) values. We have a section in our Handbook devoted to [key performance indicators (KPIs)](/handbook/company/kpis/) where we update our progress regularly. Every part of GitLab has KPIs linked to the company [objectives and key results (OKRs)](/handbook/company/okrs/). As we build our ESG strategy, we will continue to add and update relevant ESG KPIs to the Handbook.
+Disclosing our progress through data aligns with our [transparency](https://handbook.gitlab.com/handbook/values/#transparency) and [results](https://handbook.gitlab.com/handbook/values/#results) values. We have a section in our Handbook devoted to [key performance indicators (KPIs)](/handbook/company/kpis/) where we update our progress regularly. Every part of GitLab has KPIs linked to the company [objectives and key results (OKRs)](/handbook/company/okrs/). As we build our ESG strategy, we will continue to add and update relevant ESG KPIs to the Handbook.
 
 - [GRI disclosures](https://about.gitlab.com/documents/GRI_CONTENT_INDEX_FY23.pdf)
 - [SASB disclosures](https://about.gitlab.com/documents/SASB_INDEX_FY23.pdf)

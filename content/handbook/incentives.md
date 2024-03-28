@@ -12,7 +12,7 @@ The following incentives are available for GitLab team members. Also see our sep
 ### Discretionary Bonuses for Individuals
 
 1. Every now and then, individual GitLab team members really shine as they live our values.  We especially like to celebrate the special moments that exemplify the behavior we want to see in all GitLab team members.
-1. We recognize this through the `#thanks` channel, and sometimes also through a discretionary bonus.
+1. We recognize this through the `#thanks` channel, and sometimes also through a discretionary bonus which is also celebrated in `#thanks`.
 1. [Any GitLab team member can recommend a discretionary bonus for another GitLab team member to the GitLab team member's manager using the Nominator Bot]({{< ref "incentives" >}}) for a $1,000 at [the exchange rate](/handbook/total-rewards/compensation/#exchange-rates). The exception is that direct reports cannot nominate their manager or anyone in their management chain for a discretionary bonus.
 1. Only [GitLab team members](/handbook/people-group/employment-solutions/#team-member-types-at-gitlab) are eligible to receive a discretionary bonus / working group bonus or nominate other GitLab team members. Hence, `Temporary Contractors` (Not included in GitLab Team Member Types) are not eligible to receive or nominate discretionary bonus / working group bonus. Any such nominations for the temporary contractors will not be approved by the People Connect team.
 1. We are fixing this amount at $1,000 thoughtfully and purposefully. We want the focus to be on the value and the behavior, not on the perceived monetary impact to GitLab. This is about recognition.
@@ -69,7 +69,7 @@ You can read more about the process in [our handbook](#nominator-bot-process)
 
 > to do more or better than would usually be expected of you
 
-What do we normally expect of a GitLab team member? Read their job family responsibilities to determine if their work is part of the normal job expectations. As an example, a senior Frontend developer is expected to [solve technical problems of high scope and complexity.]({{< ref "/job-families/engineering/development/frontend#senior-frontend-engineer" >}}). Going above and beyond involves taking on work that is outside the scope of their job responsibility listing, and executing it to a high level.
+What do we normally expect of a GitLab team member? Read their job family responsibilities to determine if their work is part of the normal job expectations. As an example, a senior Frontend developer is expected to [solve technical problems of high scope and complexity.](/job-families/engineering/development/frontend#senior-frontend-engineer). Going above and beyond involves taking on work that is outside the scope of their job responsibility listing, and executing it to a high level.
 
 Some tips for knowing if someone is going above and beyond:
 
@@ -113,7 +113,7 @@ If you received the same nomination twice (for the same person and the same reas
 1. The Nominator bot will send you a Slack DM asking to approve or reject the nomination.
 1. When you decide to approve, all you need to do is click the approve button. The bot will take care of the next steps (sending it to the second level manager and the People Connect team).
 1. When you decide to reject, click the reject button. The nomination will be updated as `rejected_by_manager`. The bot will ask you to reach out to the nominator as to make sure they understand why the nomination was not approved.
-1. When everyone else has approved, the bot will reach out to you so you can share this with the team member, in the `[#thanks](https://gitlab.slack.com/archives/C038E3Q6L)` Slack channel, and make sure the team member's direct peers can easily see it:
+1. When everyone else has approved, the bot will reach out to you so you can share this with the team member, in the [#thanks](https://gitlab.slack.com/archives/C038E3Q6L) Slack channel, and make sure the team member's direct peers can easily see it:
      - For example, cross-post to the team member's group channel
      - For Support, add it to the [Support Week in Review](/handbook/support/#support-week-in-review) as a "Team Member Update" item
 

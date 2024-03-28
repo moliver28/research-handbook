@@ -42,7 +42,7 @@ graph TD
 
 | Coaching Type | Description |
 | ----- | --------------- |
-| Coaching Right Now | Professional coaching by external coaches is offered for managers and IC's Job Grade 8 and above using the [Growth and Development Benefit](/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development/#types-of-growth-and-development-reimbursements). We work with [Coaching Right Now](/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development/#professional-coaching) as our vendor of choice to pair team members with coaches who have been reviewed by the GitLab L&D team. More information about this program with Coaching Right Now can be found [here](https://docs.google.com/document/d/188H3iuIY9JwE4kmAeoLobNz-e6j-rKie/edit?rtpof=true&sd=true). |
+| Coaching Right Now | Professional coaching by external coaches is offered for managers and IC's Job Grade 8 and above using the [Growth and Development Fund](/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development/#types-of-growth-and-development-reimbursements). We work with [Coaching Right Now](/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development/#professional-coaching) as our vendor of choice to pair team members with coaches who have been reviewed by the GitLab L&D team. More information about this program with Coaching Right Now can be found [here](https://docs.google.com/document/d/188H3iuIY9JwE4kmAeoLobNz-e6j-rKie/edit?rtpof=true&sd=true). |
 | [Modern Health](/handbook/total-rewards/benefits/modern-health/) | Using our Modern Health Employee Assistance Program provides professional coaching to all team members. Coaches on Modern Health specialize in professional/career, mental health, and financial coaching. |
 | Manager Coaching | Your manager can be a coach that steers you towards future goals. Ensure that your Manager can take you on in a coaching capacity. However, coaching can also be a type of interaction you have with your Manager during 1:1 discussions. |
 | Internal Coach | Consider a senior to you in your larger team or someone outside of your team that has inspired you on the specific areas you are working and developing on. Consider searching on [this list of available mentors](/handbook/people-group/learning-and-development/mentor/#find-a-mentor).
@@ -325,7 +325,7 @@ That action will include additional coaching, both verbal and documented.
 
 There are times when a Team Member’s behavior becomes so egregious that it is more than a performance issue, and becomes a true conduct concern. If at any point you suspect a team member has engaged in such behavior TMR should be looped in immediately, regardless of whether or not you consider the Team Member a high performer.
 
-- [TMR Handbook Page]({{< ref "/handbook/people-group/readmes" >}})
+- [TMR Handbook Page](/handbook/people-group/readmes)
 - [LDR 102 Underperformance](https://www.youtube.com/watch?v=nRJHvzXwXBU&t=1s)
 - [Managing Underperformance Handbook Interview](https://www.youtube.com/watch?v=-mLpytnQtlY)
 

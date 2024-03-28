@@ -200,13 +200,13 @@ This avoids the rush to provide documentation that often accompanies the release
   {{< tableau/filters "GROUP_LABEL"="product planning" >}}
 {{< /tableau >}}
 
-More detail is available on our [metrics page].
+Detailed metrics are available on the [Engineering Metrics page].
 
 Product Planning is part of a test of new MR sub-type labels which are designed to make it easier to understand which top-level type should be applied. You can read more about them in the [Work Type Classification] section of the metrics page.
 
 Note: MR Type may differ from issue type. For example, a ~"maintenance::dependency" change that supports a new ~"feature::enhancement".
 
-[metrics page]: https://about.gitlab.com/handbook/engineering/metrics/dev/plan/product-planning/#mr-types-dashboard
+[Engineering Metrics page]: https://handbook.gitlab.com/handbook/engineering/metrics/dashboards/
 [Work Type Classification]: https://about.gitlab.com/handbook/engineering/metrics/#work-type-classification
 
 ### Picking something to work on
@@ -263,7 +263,7 @@ When you pick something to work on, please:
 [iteration]: /handbook/values/#iteration
 
 [request for it to be scheduled]: /handbook/engineering/workflow/#requesting-something-to-be-scheduled
-[issue bash]: /community/issue-bash/
+[issue bash]: https://about.gitlab.com/community/issue-bash/
 
 ## Useful links
 

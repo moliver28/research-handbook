@@ -2,8 +2,6 @@
 
 title: Solutions Architects - Subject Matter Experts
 ---
-
-
 # Subject Matter Expert Program
 
 The SME Program is an initiative designed to help solutions architects (SAs) provide better support to customers. The program will identify and onboard subject matter experts (SMEs) in key areas, such as AI, security, and agile planning.
@@ -39,10 +37,11 @@ SMEs will be responsible for the following tasks:
 - Staying up-to-date on the latest trends in their area of expertise.
 - Participating in field enablement activities.
 - Form [communities of practices](/handbook/customer-success/solutions-architects/sa-practices/communities-of-practice/) among the SMEs for the same topic and with fellow SAs to foster the knowledge in the team.
+- Stable counter part in the coresponding [product group](https://handbook.gitlab.com/handbook/product/categories/#devops-stages)
 
 ## Scope
 
-- SME support for an opportunity or an account should be requested by a Primary SA
+- SME support for an opportunity or an account should be requested by a Primary SA this can include roadmap discussions
 - A generalist SA should primarily drive solutions with their broad knowledge. A SME should be consulted ONLY when the generalist SA faces challenges moving forward.
 - The existence of SMEs does not guarantee the availability of their engagement.
 - The main focus of SMEs are their regular SA responsibilities and then, their assistance as SMEs

@@ -219,7 +219,7 @@ a project in action, you can check out the [GitLab Pride project](https://gitlab
 ### Create a Google group
 
 Managing membership will be greatly simplified by using a Google group. The main benefit is that you can invite the group to any calendar events and users can
-join or leave the group on their own. In order to create a Google group, you'll need to create an [access request issue](/handbook/business-technology/team-member-enablement/onboarding-access-requests/access-requests/#slack-google-groups-1password-vaults-or-groups-access-requests)
+join or leave the group on their own. In order to create a Google group, you'll need to create an [access request issue](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/#slack-google-groups-1password-vaults-or-groups-access-requests)
 requesting a new group. There is a template you can use and you can [view an example](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/3547)
 issue if you'd like. Once you've got the Google group created, you can add users manually or allow them to sign up on their own at the group homepage. You can
 look at the [pride-erg](https://groups.google.com/a/gitlab.com/forum/#!forum/erg-pride) for an example of what that might look like.
@@ -510,7 +510,7 @@ Having short terms and long term goals for the TMRG is extremely important in de
 
 - Work with the wider TMRG on the TMRGs priorities
     - Leadership should distill these down into a manageable number of goals
-- Utilize a goal setting methodology such as [OKRs]({{< ref "/handbook/company/okrs" >}}) or [SMART](https://www.mindtools.com/pages/article/smart-goals.htm) to set the goals in a practical way
+- Utilize a goal setting methodology such as [OKRs](/handbook/company/okrs) or [SMART](https://www.mindtools.com/pages/article/smart-goals.htm) to set the goals in a practical way
 - Add these goals to your quarterly strategy issue for the TMRG
 - Assign a working group or DRI/s to the goal
 - Share the goals with your executive sponsor and the wider GitLab team through the Monthly Initiatives Call

@@ -24,7 +24,7 @@ Installing software with known vulnerabilities carries inherent risk. Do not all
 
 That is not the intent of this page. The intent of this page is to educate both team members and those in the community who are interested in learning about security.
 
-GitLab's disclosure policy is to make patched vulnerabilities public after 30 days. See our [process for disclosing security issues]({{< ref "/handbook/security#process-for-disclosing-security-issues" >}}). These disclosed issues include steps to reproduce, often include videos or screenshots, and links to the code that patches the issue.
+GitLab's disclosure policy is to make patched vulnerabilities public after 30 days. See our [process for disclosing security issues](/handbook/security#process-for-disclosing-security-issues). These disclosed issues include steps to reproduce, often include videos or screenshots, and links to the code that patches the issue.
 
 Disclosed vulnerabilities, including those listed here, are already publicly accessible [in our issue tracker](https://gitlab.com/groups/gitlab-org/-/issues/?sort=updated_desc&state=closed&label_name%5B%5D=bug%3A%3Avulnerability). This page will never give more assistance or more detail than already exists in those public issues.
 

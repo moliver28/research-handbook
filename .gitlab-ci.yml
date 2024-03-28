@@ -36,6 +36,7 @@ stages:
 
 include:
   - template: Security/Secret-Detection.gitlab-ci.yml
+  - component: gitlab.com/gitlab-org/components/danger-review/danger-review@~latest
 
 default:
   interruptible: true # All jobs are interruptible by default
@@ -149,7 +150,10 @@ deploy s3:
       - *assume_role
       - aws s3 sync public/ s3://$S3_BUCKET
     rules:
-      - if: '$CI_SERVER_HOST == "gitlab.com" && $CI_PROJECT_NAMESPACE == "gitlab-com/content-sites" && $CI_COMMIT_REF_NAME == "main"'
+      # Never try to deploy on merge requests.
+      - if: $CI_MERGE_REQUEST_IID
+        when: never
+      - if: '$CI_SERVER_HOST == "gitlab.com" && $CI_PROJECT_NAMESPACE == "gitlab-com/content-sites" && $CI_COMMIT_REF_NAME == $CI_DEFAULT_BRANCH'
         when: on_success
 
 ####################################
@@ -199,6 +203,26 @@ handbooklint:
       - handbook-codequality.json
     reports:
       codequality: handbook-codequality.json
+
+hugolint:
+  stage: test
+  needs: []
+  rules:
+    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+      allow_failure: true
+    - if: $CI_PIPELINE_SOURCE == 'merge_request_event'
+      allow_failure: true
+  image:
+    name: registry.gitlab.com/fforster/hugolint:main
+  script:
+    - hugolint linkcheck --format=json $(find content -type f -name '*.md' | grep -v ' ') >linkcheck.json
+  artifacts:
+    when: always
+    expire_in: 1 month
+    paths:
+      - linkcheck.json
+    reports:
+      codequality: linkcheck.json
 
 ####################################
 ##

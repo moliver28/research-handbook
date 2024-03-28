@@ -27,7 +27,7 @@ This is not an exhaustive list. For anything else you believe the Support team c
 
 ## GitLab Support's Purpose
 
-GitLab Support provides technical support for GitLab.com and Self-Managed GitLab customers. We do **not** provide support for GitLab team members who are experiencing IT (1Password, Slack, Mac, etc.) issues. If you require assistance with issues of that nature, please contact [Team Member Enablement](/handbook/business-technology/team-member-enablement/self-help-troubleshooting/).
+GitLab Support provides technical support for GitLab.com and Self-Managed GitLab customers. We do **not** provide support for GitLab team members who are experiencing IT (1Password, Slack, Mac, etc.) issues. If you require assistance with issues of that nature, please contact [Team Member Enablement](/handbook/business-technology/end-user-services/self-help-troubleshooting/).
 
 ## Should I Contact GitLab Support?
 
@@ -388,9 +388,10 @@ All the billable members are also currently displayed on the group billing page 
 Zendesk has the ability to store Organization and User notes. Using Zendesk
 triggers, we put these into each ticket submitted by that organization or
 user. If there is important information you wish to have included in tickets
-for an organization or user, please [create an issue under the
-organizations project](https://gitlab.com/gitlab-com/support/zendesk-global/organizations/-/issues/new).
-template. Please be sure to indicate whether the information is only valid
+for an organization or user, please create an MR by searching for the organization's ID
+(you can locate this by copying the ID from the organization's URL in Zendesk) [here](https://gitlab.com/gitlab-com/support/zendesk-global/organizations/-/tree/master/organizations)
+and making the required changes to the relevant organization's file.
+Please be sure to indicate whether the information is only valid
 for a specific period of time so that we may include that fact in the notes.
 
 Examples of some notes you might want added:

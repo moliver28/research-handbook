@@ -272,7 +272,6 @@ Each quarter the Corporate Development team defines a set of [three categories](
 Although we have our quarterly focus areas, we are open to discussing and potentially pursuing an opportunity outside of those focus areas. For us to look into an opportunity outside of our quarterly focus areas, it needs to satisfy one, or more, of the following criteria:
 1. Present an outsized revenue potential
 1. Serve as a strategic move (market dynamics etc.)
-1. Fit our [soft-landing framework](/handbook/acquisitions/#acquisition-approach)
 
 Every opportunity we explore is constantly evaluated against our prioritization as well as our bandwidth (including active engagements).
 

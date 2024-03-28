@@ -34,7 +34,7 @@ Tip: After setup, if you don’t see the Wi-Fi status icon in the menu bar, you 
 
 #### Apple ID
 
-- We recommend creating a new Apple ID for GitLab to keep your personal and work data separate. You can also reimburse apps using an Apple ID created with your GitLab account. Your Apple ID consists of an email address and a password. It’s the account you use for everything you do with Apple—including using the App Store, Apple TV app, Apple Book Store, iCloud, Messages, and more.
+- Please create a new Apple ID for GitLab using your @gitLab.com email address to keep your personal and work data separate. You can also reimburse apps using an Apple ID created with your GitLab account. Your Apple ID consists of an email address and a password. It’s the account you use for everything you do with Apple—including using the App Store, Apple TV app, Apple Book Store, iCloud, Messages, and more.
 
 #### Initial Setup Part 2
 
@@ -72,7 +72,7 @@ Check out [this detailed page](/handbook/tools-and-tips/linux/) on setting up yo
 
 ### Endpoint Management
 
-MacBook: You are required to install Jamf on your MacBook for security and compliance reasons. Please check [this guide](/handbook/business-technology/end-user-services/onboarding-access-requests/endpoint-management/jamf/#enrolling-in-jamf) for assistance!
+MacBook: You are required to install Jamf on your MacBook for security and compliance reasons. Please check [this guide](https://internal.gitlab.com/handbook/it/endpoint-tools/jamf/#enrolling-in-jamf) for assistance!
 
 Linux: Currently we do not have an endpoint management tool for Linux. However we do have [a tool](/handbook/business-technology/end-user-services/onboarding-access-requests/#fleet-intelligence--remote-lockwipe) that we use to wipe and lock them if needed.
 

@@ -497,7 +497,7 @@ Application limits should be enabled by default. If we are considering enabling 
     - Document the limit for customers on the [instance limits](https://gitlab.com/help/administration/instance_limits.md) help page, ensuring the limit for gitlab.com is specified. Include instructions on how the limit can be changed on self-managed instances.
     - If the limit is time based, link to that section from the [Rate limits page](https://docs.gitlab.com/ee/security/rate_limits.html)
 - **Communicate the limits in the release post** - When the limit is rolled out, make sure to document this change in the next release post.
-- **Communicate directly to affected users** - Especially if the limit is going to have a significant impact to users, consider reaching out directly to notify those users of the change, and any available remedies, workarounds, or best practices that may help mitigate that impact. To send out an email to affected users, [work with Support to create an email request](/handbook/support/workflows/internal_requests.html#contact-request).
+- **Communicate directly to affected users** - Especially if the limit is going to have a significant impact to users, consider reaching out directly to notify those users of the change, and any available remedies, workarounds, or best practices that may help mitigate that impact. To send out an email to affected users, [work with Support to create an email request](/handbook/support/workflows/internal_requests/#contact-request).
 
 ### Cross-stage features
 
@@ -1473,7 +1473,7 @@ Breaking down a design into pieces that can be released iteratively is going to 
 
 #### Refactors
 
-Continuously improving the software we write is important. If we don't proactively work through [technical debt](/handbook/engineering/workflow/#technical-debt) and [ux debt](/handbook/engineering/workflow/#ux-debt) as we progress, we will end up spending more time and moving slower in the long run. However, it is important to strike the right balance between technical and ux debt and iteratively developing features. Here are some questions to consider:
+Continuously improving the software we write is important. If we don't proactively work through [technical debt](/handbook/engineering/workflow/#technical-debt) and [Deferred UX](/handbook/engineering/workflow/#deferred-ux) as we progress, we will end up spending more time and moving slower in the long run. However, it is important to strike the right balance between technical debt, deferred UX, and iteratively developing features. Here are some questions to consider:
 
 - What is the impact if we do not refactor this code right now?
 - Can we refactor some of it? Is a full re-write necessary?
@@ -2027,7 +2027,7 @@ Product Managers should also regularly assess the performance and cost of featur
 There are a few different tools PM's can utilize to understand the operational costs of their features. Some of these are maintained by Infrastructure, based on the operational data of GitLab.com. Others tools, like service ping, can be utilized to better understand the costs of our self-managed users. Ultimately, each product group is responsible for ensuring they have the data needed to understand and optimize costs.
 
 - Useful Dashboards to Visualize Infrastructure Costs:
-- [Access to Billing Console](https://console.cloud.google.com/billing/) ([Access Request](/handbook/business-technology/team-member-enablement/onboarding-access-requests/access-requests/) required)
+- [Access to Billing Console](https://console.cloud.google.com/billing/) ([Access Request](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/) required)
 - [Service ping](https://docs.gitlab.com/ee/development/service_ping/)
 - Your Engineering Manager, #infrafin on Slack, and the broader GitLab team
 
