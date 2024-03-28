@@ -4,8 +4,6 @@ title: "Integration Technologies"
 ---
 
 
-# Integration Technologies
-
 This is a collection of best practices collected from working with customers on each stage of the SDLC. This list is not supposed to be exhaustive but provide the SA with a few good pointers when going into a meeting on a specific stage or feature.
 
 ## Topics List
@@ -16,8 +14,6 @@ This is a collection of best practices collected from working with customers on 
 
 
 ## Advanced Search with Elasticsearch
-
-
 
 Search is a very important aspect in our everyday lives. From using navigation apps to guide us to our restaurants nearby to translating words that are not in our native language, it is crucial that the search functionality is fast, accurate and flexible to allow us to get get the most relevant results possible.
 

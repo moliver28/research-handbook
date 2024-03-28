@@ -41,6 +41,7 @@ It is important to note that Gainsight brings the entire account team onto a sin
 
 
 ## FAQs:
+
 - **How is Gainsight different from Troops and SFDC?**
   - Gainsight is a platform that enables collaboration between SAE, SA & CSMs. SA are expected to collaborate during Account Planning. SAs should own the objective of creating a technical win plan during account planning. Troops is used for day to day activity capture for meetings.
 - **Will using Gainsight save me time?**

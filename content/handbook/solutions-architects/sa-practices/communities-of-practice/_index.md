@@ -4,8 +4,6 @@ title: "Solution Architect (SA) Communities of Practice"
 description: "This is a collection of best practices collected from working with customers on each stage of the Software Development Lifecycle"
 ---
 
-# Communities of Practice
-
 This is a collection of best practices collected from working with customers on each stage of the Software Development Lifecycle (SDLC).
 
 This list is **not** exhaustive but provides the Solution Architect (SA) with a few good pointers when preparing for a meeting with a prospect asking about industry best practices surronding a topic or stage.
@@ -34,7 +32,7 @@ The write-up should not be lengthy and emphasises the value of why this best pra
 
 An topic to highlight a certain value should include the following:
 
-```
+```markdown
 [TEMPLATE]
 1. Why is this valuable to a customer?
 
@@ -47,8 +45,3 @@ An topic to highlight a certain value should include the following:
 
 5. Other links for references [OPTIONAL]
 ```
-
-
-
-
-

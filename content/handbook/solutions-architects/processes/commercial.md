@@ -24,7 +24,7 @@ Solutions architects are responsible for owning their engagement on opportunitie
 
 Solutions Architects operate within Circles (small teams of SAs).  Each Circle is responsible for managing their triaging process.  When scheduling conflicts arise, SA Circles may distribute opportunity workload to other Circles.  When taking PTO, or out on a sick day, an SA's Circle is their first stop for backup.
 
-* Goals of Circle Triage:
+- Goals of Circle Triage:
    - Create a mechanism to pragmatically assign opportunities to members of our SA team who are available and ready - in time and skill set.
    - Enable SAs with a process that allows the majority of their time to be focused on current deals and projects that contribute to the greater Customer Success org - not Salesforce report refreshes.
 
@@ -39,7 +39,7 @@ _Self-assignment does not happen without first discussing the opportunity and th
 
 ###### #2: Triage within One Business Day
 
-_It doesn’t need to be within an hour.  You can eat lunch first_
+*It doesn’t need to be within an hour.  You can eat lunch first*
 
 - Totally Acceptable Circle Behavior:  A new opportunity is created and sits for 3 hours because the Circle is busy with demos and life.
 - Totally Acceptable Circle Behavior: A new opportunity is created, and someone in the Circle-slack channel says “hey there is a new opp and I would like to discuss” and that Circle follow-up discussion doesn’t come for 2, or even 4 hours, because the rest of the Circle is busy with other things.  This is still okay.  The wait period is not a diss to anyone, the Circle will get to it when they can, in natural pauses of the day.
@@ -47,7 +47,7 @@ _It doesn’t need to be within an hour.  You can eat lunch first_
 
 ###### #3: Better Triage Happens with a Second Review
 
-_If possible, two team members review a Command Plan before assignment_
+*If possible, two team members review a Command Plan before assignment*
 
 - Some days, this may not be possible.  If 1/2 the team is on PTO and the other 1/2 is slammed, then perhaps in the Slack circle-region channel we might to eachother, after a request for a Circle review, “don’t have time for 2eyes, if you have the capacity and feel fully comfortable with the 4 questions being fulfilled, then assign it to yourself”.  The key is, to get here, as a Circle, we communicated on Triage.
   - The Circle’s Reporting Managers are considered a very valued 2nd person to review, when directly requested.
@@ -65,14 +65,10 @@ There are often 'what-if' scenarios when an SA evaluates an incoming lead.   The
   - Who will be attending the meeting?  Names and titles need to be identified (LinkedIn, here we come).
   - What are the specific use-cases they are looking for GitLab to address?
   - Why Now?
-
-
 - **#3: Does the SA have the lead time to prepare; is the meeting is not scheduled within 12-24 hours of the request**
   - Goal: AEs to hold off on scheduling the next customer meetings until the SA Circle has enough time to evaluate if all correct information has been collected in Questions 1 & 2.
-      -  SAs deserve time to clarify on Command Plans with the AEs and prepare demonstration environments.  GitLab is a large, and ever changing platform - the product is forever being delivered (every month). The SA team requests proper time to prepare so they can deliver the best results.
-      - Sometimes, a lot of runaway is not possible.  We will still have a ‘Fast Track’ process that allows the AE to both mark the request record in Salesforce (for future metrics) and notify the Circle in the Slack circle-region-aeasm channel (because the SAs will be doing other work than always watching incoming opportunities.  See Point #2 in Triage Guidelines!)
-
-
+    -  SAs deserve time to clarify on Command Plans with the AEs and prepare demonstration environments.  GitLab is a large, and ever changing platform - the product is forever being delivered (every month). The SA team requests proper time to prepare so they can deliver the best results.
+    - Sometimes, a lot of runaway is not possible.  We will still have a ‘Fast Track’ process that allows the AE to both mark the request record in Salesforce (for future metrics) and notify the Circle in the Slack circle-region-aeasm channel (because the SAs will be doing other work than always watching incoming opportunities.  See Point #2 in Triage Guidelines!)
 - **#4: Does the SA have relatable experience on this type of account.**
   - 'Yes' could be the "preferred" answer depending on the account and timeline.
   - But 'No' is also a 'Yes'. Solution Architects belong to a learning-focused organization. Less experienced SAs are going to continue to take on accounts where they do not know everything, and will hopefully do even better with their small accessible Circle to constantly collaborate with.
@@ -153,14 +149,14 @@ Prior to conducting any on-site engagement, approval from the Solutions Architec
 
 To facilitate the review process, the following information should be provided by submitting an issue:
 
--  Customer SFDC Opportunity Link: *The link to the customer opportunity being pursued with updated `Help` inside of `Command Plan` listing out Technical Details of what is needed for an on-site.*
--  Estimated Cost: *The amount expected for travel and lodging (not including meals) for on-site engagement.*
--  GitLab Team On-Site Attendees: *The team members required to attend the on-site engagement. If a Customer Success Manager is aligned to the account, please make sure there is collaboration.*
--  Summary of Customer Engagement To Date: *An overview of the ongoing activities with the customer.*
--  Customer Stakeholders/Teams: *A list of key stakeholders who will be present during the engagement, along with any outstanding or pending activities on-site.*
--  On-Site Proposed Date(s): *The proposed timeline and agenda for the on-site engagement.*
--  On-Site Agenda: *The proposed agenda for the on-site on each given day*
--  Outstanding Activities Prior to Scheduling: *What needs to be completed prior to the event*
+- Customer SFDC Opportunity Link: *The link to the customer opportunity being pursued with updated `Help` inside of `Command Plan` listing out Technical Details of what is needed for an on-site.*
+- Estimated Cost: *The amount expected for travel and lodging (not including meals) for on-site engagement.*
+- GitLab Team On-Site Attendees: *The team members required to attend the on-site engagement. If a Customer Success Manager is aligned to the account, please make sure there is collaboration.*
+- Summary of Customer Engagement To Date: *An overview of the ongoing activities with the customer.*
+- Customer Stakeholders/Teams: *A list of key stakeholders who will be present during the engagement, along with any outstanding or pending activities on-site.*
+- On-Site Proposed Date(s): *The proposed timeline and agenda for the on-site engagement.*
+- On-Site Agenda: *The proposed agenda for the on-site on each given day*
+- Outstanding Activities Prior to Scheduling: *What needs to be completed prior to the event*
 
 This review process aims to help ensure on-site engagements have the highest level of professionalism and that they deliver the intended value to the customer.
 
@@ -214,8 +210,8 @@ Live Optimization sessions are one-time post-sales activities session conducted 
 
 The Commercial Solutions Architecture team leverages SA Circles for two primary reasons:
 
--  Circles accelerate our learning, as pre-sales professionals, with increased exposure and understanding of deals as they are in an active pre-sales cycle. This acceleration helps us get more immediate feedback to change direction, or ideas to enhance the positioning that has already occurred.
--  Circles normalize opportunity distribution. Ensure that some team members are not getting overloaded and burnt out, with the potential for other team members to sit with an empty queue, and perhaps under pressure to just 'grab anything that comes'
+- Circles accelerate our learning, as pre-sales professionals, with increased exposure and understanding of deals as they are in an active pre-sales cycle. This acceleration helps us get more immediate feedback to change direction, or ideas to enhance the positioning that has already occurred.
+- Circles normalize opportunity distribution. Ensure that some team members are not getting overloaded and burnt out, with the potential for other team members to sit with an empty queue, and perhaps under pressure to just 'grab anything that comes'
 
 ### Guiding Principles
 

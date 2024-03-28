@@ -17,7 +17,7 @@ The following diagram shows the mindset for the SA to consider when expanding th
 
 <div style="width: 640px; height: 480px; margin: 10px; position: relative;"><iframe allowfullscreen frameborder="0" style="width:640px; height:480px" src="https://lucid.app/documents/embedded/fa7a09ed-e840-4c2a-a18b-1270a5cff62b" id="a8lEA_q1dGe5"></iframe></div>
 
-_Note_: *To increase the size of the diagram, press "full screen" icon in the top right corner and increase the size via "zoom options" in the bottom right corner*.
+_Note_: _To increase the size of the diagram, press "full screen" icon in the top right corner and increase the size via "zoom options" in the bottom right corner._
 
 Strategic Outcomes play a key role in the overall Strategic Solution Selling process. The below points provide a short introduction.
 
@@ -44,9 +44,8 @@ The initial information is based on various sources of information, which can be
 
 SA teams have mapped out technical discovery approach with pre call preparation, conducting the call and followed by the strategic planning. Refer to these documents for details:
 
-- [*SA Technical Discovery Process & Guide*](https://docs.google.com/document/d/1GZnbqE_rtGFRAJxoeje4mtFyP1AfpLLueESijXgikm4/): The goal of this document is to provide a workflow on how to conduct better technical discovery calls with customers to ensure we are aligned for an efficient technical evaluation. (for internal access only)
-
-- [*SA Modern Apps Discovery Process & Guide*](https://docs.google.com/document/d/11-o9oTxSLomBoOTerGnfj3HXzXbouZ2p6yuIfXuJweQ/): The goal of this document is to provide guidance for technical discovery & process for assisting our customers with their modern applications journey. (for internal access only)
+- [_SA Technical Discovery Process & Guide_](https://docs.google.com/document/d/1GZnbqE_rtGFRAJxoeje4mtFyP1AfpLLueESijXgikm4/): The goal of this document is to provide a workflow on how to conduct better technical discovery calls with customers to ensure we are aligned for an efficient technical evaluation. (for internal access only)
+- [_SA Modern Apps Discovery Process & Guide_](https://docs.google.com/document/d/11-o9oTxSLomBoOTerGnfj3HXzXbouZ2p6yuIfXuJweQ/): The goal of this document is to provide guidance for technical discovery & process for assisting our customers with their modern applications journey. (for internal access only)
 
 ### Tools for Information Analysis
 

@@ -48,7 +48,7 @@ All activities should fall into one of the categories described in the [activity
 
 #### Example Activity Description
 
-```
+```markdown
 We provided a SCM and CI/CD demo for the head of application development, Homer Simpson, that was well-received.  His team is responsible for building a suite of catalog services and API for their partner merchants.  They are using Spring Boot to develop microservices and struggling with deployment consistency and complexity.  As a next step, we are scheduling a review of their current path to production.
 More detailed notes are here: <link to detailed notes>
 ```
@@ -97,9 +97,7 @@ Whenever an SA engages a prospect/customer who has a specific problem to be addr
 In case that the opportunity has been closed in Salesforce, and you did not have the chance to complete all the information for your SA activities previously described, do the following:
 - Go to the opportunity you need to update, and click on Show Feed and the left hand side of the topics bar.
 - In the post text area, enter `@Sales-Support` and then a brief description of the fields you wish to fill. Example:
-    ```
-    @[Sales-Support] please update the SA Validated Tech Evaluation Close Status field to Won, and SA Validated Tech Evaluation End Date to 10/14/2021
-    ```
+  > @[Sales-Support] please update the SA Validated Tech Evaluation Close Status field to Won, and SA Validated Tech Evaluation End Date to 10/14/2021
 - Make sure you manually type the `@Sales-support` part of your message, as Salesforce will not recognize the `@` call to notify the sales support group.
 
 ### Proof of Value (POV) Updates
@@ -144,6 +142,7 @@ This [tutorial](https://help.gorattle.com/en/collections/3196824-workflows) expl
 
 
 ### Training Resources
+
 - [Logging an Activity Post Meeting](https://downloads.intercomcdn.com/i/o/411043617/d58ebb3f6988af1eba3dfce4/Meeting-DM.gif)
 - [Create a Record](https://www.youtube.com/watch?v=ftfrPyl5plU)
 - [Updating Tech Eval Dates and Status](https://www.youtube.com/watch?v=ieXDRnCTOYU)
@@ -167,10 +166,6 @@ Email communication that is collected and stored in Salesforce is not measured o
 
 For transparency and awareness, the Rattle activities specific to Solution Architects are listed below.
 
-
-
-
-
 | Name                                                         | Description                                                  | Slack Notification                                           | Recipient                                         | Reference |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------- | --------- |
 | Log a meeting                                                | Reminder notification for SA to log their customer call      | `You just had a meeting - Please provide us with information on this activity. (wf-1)` | Rattle DM                                         | `wf-01`   |
@@ -188,14 +183,13 @@ For transparency and awareness, the Rattle activities specific to Solution Archi
 | Primary SA Field Has Changed                                 | This is to notify SA Managers when the `Primary SA` field has changed during Stages 2 or 3 | The Primary Solution Architect has changed on  Opportunity: Name (wf-14) | #rattle-primary-sa-change                         | `wf-14`   |
 | Missing Close Status and Stage 4                             | When an Oppty has moved to stages 4-7, the `SA Validated Tech Eval Start Date` is set, the `End Date` **or** `Close Status`is blank, Rattle will DM the Primary SA as a reminder to complete the Oppty data | `Opportunity: Name` has moved to stage  `Opportunity: Stage` and is missing Tech Eval close data (wf-15) | Rattle DM                                         | `wf-15`   |
 
-
-
 ## Frequently Asked Questions
 
 - Question: Should I also be adding calls to Salesforce using the Salesforce specific Google calendar plugin as we've done in the past or should we only be using the Rattle integration.
 - Answer: It is not required to automatically log your calls via the Salesforce-Google calendar plugin and we aren't currently planning to analyze that information.
 
 ### Troubleshooting steps (with Rattle)
+
 **For Feedback and launch specific issues, please see this ISSUE**
 [Rattle Launch Feedback and Known Issues](https://gitlab.com/gitlab-com/customer-success/solutions-architecture-leaders/sa-initiatives/-/issues/342)
 

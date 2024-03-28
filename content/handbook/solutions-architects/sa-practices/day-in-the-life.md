@@ -4,9 +4,6 @@ title: Day In The Life of a Developer
 ---
 
 
-# Day In The Life of a Developer
-
-
 Every company is developing software. Whether it is external facing applications, or internal applications, or both.  Every company wants to be more efficient at developing software, as it has a direct correlation with the company's success.  GitLab is positioned to help every company create better applications by providing capabilities throughout the application delivery process including development, operations and security.  In the past, there was not one solution to help companies develop software from idea to deployment.  Companies relied on purchasing specific products for specific capabilities, and/or used manual methods such as email, spreadsheets, and documents to keep track of their development.
 
 The purpose of the Day In The Life of a Developer is to understand the company's current development process, look for opportunities for improvement, and relay those findings back to our stakeholders.  These improvement opportunities can then be communicated back in the form of an executive brief where prescriptive guidance can be shared, providing an explanation of where, how, and at what level of effort may be required as we partner with the customer to make those improvements.
@@ -79,7 +76,6 @@ Usually, through discovery, there is some level of knowledge of the current deve
 
 Prepare for the Day In The Life of a Developer, by having notes on what is known to be able to reference, to insuring they are addressed.
 
-
 ### Pitch
 
 The initial customer pitch allows us to identify key stakeholders & get their buy in. The customer pitch should include:
@@ -94,7 +90,6 @@ Here are some resources that can be used as starting point for the pitch:
 Customer pitch deck
 [Internal pitch deck](https://docs.google.com/presentation/d/17xVS6c8q6u-3fiqhHYvJHCklW1tOfuW30np4TaI6myQ/edit#slide=id.g1d4eddc8f35_1_0)
 
-
 ### Planning meeting with customer
 
 Planning a Day In The Life of a Developer can be done within an hour or less, given the right expectation, focus and people involved.  Below are aspects to be considered when planning the Day In The Life of a Developer.
@@ -105,7 +100,6 @@ Planning a Day In The Life of a Developer can be done within an hour or less, gi
 - What application will be demonstrated to highlight development from idea to deployment?
 - What context or conditions are being considered?
 - What triggering event initiates the work flowing through the development process?
-
 
 ### Day In The Life of a Developer Demonstration
 
@@ -150,15 +144,15 @@ The process which we will go through, at a high level, is as follows:
 #### Tools
 
 - Remote:
-    - Zoom, MS Teams, or Google Meet
-    - LucidChart for Current State and Future State visualization
-      - LucidChart is an IT-managed application. If you are unsure if you have LucidChart access, go to the Okta interface in your browser, then select "Search Your Apps" and see if `LucidChart SSO` is available. If yes, LucidChart has been assigned to you and you can launch it from Okta and collaborate on any LucidChart Documents your team has shared with you. If no, then `LucidChart SSO` has not been assigned to you yet.
-      - If you do not have `LucidChart SSO` assigned to you in Okta, please navigate to the ["access-requests" Project](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/) and submit an Issue requesting "Lucid Chart". Assign the Issue to your Manager and add the `IT::to do` label. An example Access Request Issue may be found [here](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/19341).
-      - If your Access Request is urgent, paste the link to your Access Request Issue into the #it_help Slack channel and @ mention `it-help` with a note on why it is urgent.
+  - Zoom, MS Teams, or Google Meet
+  - LucidChart for Current State and Future State visualization
+    - LucidChart is an IT-managed application. If you are unsure if you have LucidChart access, go to the Okta interface in your browser, then select "Search Your Apps" and see if `LucidChart SSO` is available. If yes, LucidChart has been assigned to you and you can launch it from Okta and collaborate on any LucidChart Documents your team has shared with you. If no, then `LucidChart SSO` has not been assigned to you yet.
+    - If you do not have `LucidChart SSO` assigned to you in Okta, please navigate to the ["access-requests" Project](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/) and submit an Issue requesting "Lucid Chart". Assign the Issue to your Manager and add the `IT::to do` label. An example Access Request Issue may be found [here](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/19341).
+    - If your Access Request is urgent, paste the link to your Access Request Issue into the #it_help Slack channel and @ mention `it-help` with a note on why it is urgent.
 - Onsite:
-    - Stickies
-    - Pens
-    - Large whiteboard
+  - Stickies
+  - Pens
+  - Large whiteboard
 
 #### Example Workflows
 
@@ -197,25 +191,18 @@ It is recommended to review the executive briefing with your champion, key stake
 ## FAQs from customers/prospects
 
 1. What's in it for me - the customer?
-
-    - Free, hands-on consultative analysis of their software delivery lifecycle, including their current state, future state, and areas of improvements.
-    - Competitive analysis of where they are compared to their peers in the industry. This report contains the most recent benchmark values for the four DORA metrics (widely regarded as good measures of DevOps performance) [State of DevOps Report 2021](https://services.google.com/fh/files/misc/state-of-devops-2021.pdf).
-    - Recommendations on how to overcome visible or invisible challenges with a strategic plan to help them reach their future state.
+   - Free, hands-on consultative analysis of their software delivery lifecycle, including their current state, future state, and areas of improvements.
+   - Competitive analysis of where they are compared to their peers in the industry. This report contains the most recent benchmark values for the four DORA metrics (widely regarded as good measures of DevOps performance) [State of DevOps Report 2021](https://services.google.com/fh/files/misc/state-of-devops-2021.pdf).
+   - Recommendations on how to overcome visible or invisible challenges with a strategic plan to help them reach their future state.
 
 1. What are typical outcomes for a customer?
-
-  TBD
+   - TBD
 1. Which teams are typically involved?
-
-    - We start with application development team, quality engineering team, application security, then operations.
-
+   - We start with application development team, quality engineering team, application security, then operations.
 1. What's the best place to start?
-
-    - Pick the most business critical application or a representative application that has faster time to market requirement.
-
+   - Pick the most business critical application or a representative application that has faster time to market requirement.
 1. That's a lot of time investment from our teams Or Our teams are busy with other projects.
-
-    - It takes approximately 1.5 hrs demonstration to do a focused discovery for a Day In The Life Of A Developer.
+   - It takes approximately 1.5 hrs demonstration to do a focused discovery for a Day In The Life Of A Developer.
 
 ## Training and Enablement
 

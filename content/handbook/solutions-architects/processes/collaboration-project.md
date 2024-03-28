@@ -5,8 +5,6 @@ description: >-
   Collaboration project with the customer and product as a forum to discuss
 ---
 
-# SA Collaboration Project
-
 
 ## When should a Collaboration Project be considered during an engagement with a customer?
 
