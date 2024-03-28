@@ -40,7 +40,7 @@ The Technical Writing Manager is a [grade 8](/handbook/total-rewards/compensatio
 
 ### Performance indicators
 
-View [UX Department Performance Indicators](/handbook/product/ux/performance-indicators/) for this position. 
+View [UX Department Performance Indicators](/handbook/product/ux/performance-indicators/) for this position.
 
 ### Hiring Process
 
@@ -90,7 +90,7 @@ The Senior Manager, Technical Writing is a [grade 9](/handbook/total-rewards/com
 
 ### Performance indicators
 
-View [UX Department Performance Indicators](/handbook/product/ux/performance-indicators/) for this position. 
+View [UX Department Performance Indicators](/handbook/product/ux/performance-indicators/) for this position.
 
 ### Hiring Process
 
