@@ -56,7 +56,7 @@ The projects are further ordered into Sub-Groups by region:
 - Provide:
   - Training recommendations.
   - Important links & resources.
-- The use cases of Pre-Sales assets are described in this [Handbook Page: Solutions Architecture Collaboration Project](/handbook/customer-success/solutions-architects/processes/collaboration-project/)
+- The use cases of Pre-Sales assets are described in this [Handbook Page: Solutions Architecture Collaboration Project](/handbook/solutions-architects/processes/collaboration-project/)
 
 ### Setup a Customer Collaboration Project for Customer Success Managers
 
