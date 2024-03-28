@@ -29,7 +29,7 @@ Below is a list of the different technical skill sets found on the Sales System 
 - [License Usage App Documentation](/handbook/sales/field-operations/sales-systems/license-usage-app/)
 - [Salesforce Configuration Documentation](/handbook/sales/field-operations/sales-systems/salesforce-config/)
 - [Lead Source Master Data Set](/handbook/marketing/marketing-operations/#initial-source)
-- [Salesforce Dataloader Install/Uninstall/Upgrade Instructions](dataloader-installation.html)
+- [Salesforce Dataloader Install/Uninstall/Upgrade Instructions](dataloader-installation/)
 
 ## Working with us
 - [Sales System Agile Board](https://gitlab.com/groups/gitlab-com/-/boards/1117318?label_name[]=SalesSystems)
@@ -92,11 +92,9 @@ Below is a list of the different technical skill sets found on the Sales System 
 
 #### [Systems Owner] Systems Owner Sign-off :- Salesforce CRM System Owners should provide the signoff. The signoff matrix is an below,
 
-| Main Approver               |Backup Approver (if Jack Brennan or Sheela Viswanathan are unavailable)                                               | Backup Approver (if Jack Brennan or Sheela Viswanathan and Al Champagne are unavailable)                                                |
+| Main Approver               |Backup Approver (if Sheela Viswanathan is unavailable)                                               | Backup Approver (if Sheela Viswanathan and Al Champagne are unavailable)                                                |
 |-----------------------------|--------------------------------------------------------------|-----------------------------------------------------------------|
-| Jack Brennan - Senior Director, Sales Systems
-or
-Sheela Viswanathan - Senior Manager, Sales Systems  |Al Champagne - Senior Director, Enterprise Applications | Nabitha Rao - VP, IT  |
+| Sheela Viswanathan - Senior Manager, Sales Systems  |Al Champagne - Senior Director, Enterprise Applications | Nabitha Rao - VP, IT  |
 
 #### [Systems DRI] Add the correct `SalesSystems::Deployed - #` GitLab Label :- Once the issue has been deployed, the issue should be tagged with one of the following deploy label following the [SDLC - Software Development Life Cycle](/handbook/sales/field-operations/sales-systems/#salesforcecom-change-management-processes-and-sdlc-software-development-life-cycle) by the sales systems team member assigned to the issue.
 
@@ -278,10 +276,11 @@ Persuant with GitLab's [best practices for password security](/handbook/security
 
 Sandboxes which are managed as part of our team's SDLC process will follow a regular refresh schedule, as detailed below.
 
-|Sandbox name|Sandbox type|Used for|Refresh cadence|Last refresh date|Next refresh issue|
-|-----|-----|-----|-----|-----|-----|
-|[STAGING](https://gitlab--staging.sandbox.my.salesforce.com/)|Full|Pre-production org.  Used for UAT of Systems issues prior to release to production.  Also used for troubleshooting.|As needed, up to once per month, minimum once per quarter| 11/11/2022 |To be provided|
-|[SANDBOX](https://gitlab--sandbox.sandbox.my.salesforce.com/)|Partial|Developer integration and testing org. |As needed, up to once per month, minimum once per quarter|6/18/2021 3:14 PM|To be provided|
+|Sandbox name|Classic URL|Sandbox type|Used for|Refresh cadence|Last refresh date|Next refresh issue|Zuora Billing Sandbox|Zuora Billing Sandbox Tenant ID|
+|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+|[Developer](https://gitlab--developer.sandbox.my.salesforce.com/?ec=302&startURL=%2Fvisualforce%2Fsession%3Furl%3Dhttps%253A%252F%252Fgitlab--developer.sandbox.lightning.force.com%252Flightning%252Fsetup%252FManageUsers%252Fpage%253Faddress%253D%25252F005PL0000000MuzYAE%25253Fnoredirect%25253D1%252526isUserEntityOverride%25253D1%252526retURL%25253D%2525252Fsetup%2525252Fhome)|https://gitlab--developer.sandbox.my.salesforce.com/home/home.jsp?source=lex|Partial|Developer integration and testing org. |As needed, up to once per month, minimum once per quarter|2/14/2024|TBD|Developer Sandbox (i.e. "Dev Sandbox")|10002574|
+|[STAGING](https://gitlab--staging.sandbox.my.salesforce.com/?ec=302&startURL=%2Fvisualforce%2Fsession%3Furl%3Dhttps%253A%252F%252Fgitlab--staging.sandbox.lightning.force.com%252Flightning%252Fpage%252Fhome)|https://gitlab--staging.sandbox.my.salesforce.com/home/home.jsp?source=lex|Full|Used for UAT of Systems . Also used for troubleshooting.|As needed, up to once per month, minimum once per quarter|11/11/2022 |TBD|Central Sandbox 1 (i.e. "Staging Sandbox")|10000796|
+|[LIGHTNING](https://gitlab--lightning.sandbox.my.salesforce.com/?ec=302&startURL=%2Fvisualforce%2Fsession%3Furl%3Dhttps%253A%252F%252Fgitlab--lightning.sandbox.lightning.force.com%252Flightning%252Fpage%252Fhome)|https://gitlab--lightning.sandbox.my.salesforce.com/home/home.jsp?source=lex|Full|Pre-production org. Used for UAT of Systems issues prior to release to production. Also used for troubleshooting.|As needed, up to once per month, minimum once per quarter|03/26/2024|TBD|Central Sandbox 2|10000719|
 
 ### Data, Data Uploads & Permissions
 
