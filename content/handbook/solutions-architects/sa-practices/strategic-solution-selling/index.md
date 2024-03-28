@@ -3,10 +3,6 @@ title: Strategic Solution Selling
 ---
 
 
-
-# Strategic Solution Selling
-
-
 This is a practice guide for a Solutions Architect (SA) to engage enterprises for driving a **strategic solution** during discovery and scoping stage, which can lead into the technical evaluation.
 
 A strategic solution is aimed to provide a customer the DevOps capabilities for delivering software better and faster with an organizational wide impact and aligned with the enterprise transformational intiatitives. The SA will assess and provide the solutioning as the right fit for the enterprise from the business and technical perspectives. The solution should aligne with the business outcomes that can be realized based on the DevOps roadmap vision. Further the solution can accelerate the customer's DevOps transformation at scale.
@@ -65,6 +61,7 @@ The complete [example](https://drive.google.com/file/d/1Qy9bsMmBDqr5ZaMguGGVDwJ5
 This [template](https://docs.google.com/presentation/d/1xilP8z7nYHJVa05qiBNFq2cEoq4HtKj-c-bbR0Y29JY/edit?usp=sharing) can be used by the account team to brainstorm. The brainstorming session between the SA and SAE helps with the alignments of the future stages of the sales process, specifically focusing on “discovery”, "scoping" and “technical evaluation”.
 
 ### Example Discussion Areas
+
 Key areas driven by SA during the initial customer engagement include for example:
 
 - Technological landscape
@@ -100,6 +97,7 @@ During the call, listen and probe for the key information about:
 - listen and qualify if the problem identified is in a silo by a single unit or it is an opportunity that is across the entire organization
 
 ### Activities for Discovery and Scoping
+
 SAE Driven Activities: setting the stage for the discovery with the meetings and right participants; during the call, take the notes, discover/confirm the organizational structure and approach
 
 SA Driven Activities: during the call, more prescriptive in assessing the conversation as **transactional** vs **strategic** solution.
@@ -109,12 +107,14 @@ Activities driven by the SA + collaboration with the SAE
 - Collaborate on the organizational priority + inject into the discussion for initiatives and changes that can drive the conversation beyond just tools / features
 
 #### Transactional based solutioning
+
 Not all calls will lead into the strategic solution selling and some of them will simply result in a transactional deal. For a more tactical and transaction based sell, here are some points to note:
 - Point Solution: a customers is looking for a small team solution or a single stage to address a specific problem and required to integrate to existing tools
 - Support: There is no sponsorship or initiative to investigate the bigger DevOps problem at a broader scope
 - Sentiment: Uncertain about the Platform approach where the indvidual or team is more focusing on a specific feature
 
 #### Signs to Drive Strategic Discussion for a Broad Solution
+
 The following aspects oultine a more strategic dialog for SA to lead and engage with the customer:
 - Appetite for process and structure re-alignment and change, such as
   - Agile process
@@ -129,6 +129,7 @@ When engaging with the topics that lead to good responses from the initial discu
 [**Value Stream Workshop**](/handbook/solutions-architects/sa-practices/value-stream-discovery/#value-stream-workshop) may be positioned for deeper understanding and further solidify the strategic partnership and engagement.
 
 ## Capabilities and Solutions
+
 A SA can lead and identify required capabilities and solution framework upon the following information gathered and analysis performed:
 
 - Information and knowledge on the current challenges, pains and problems
@@ -162,8 +163,3 @@ With these capabilities identify, the solution options can be considered:
 [**Automated Software Delivery**](https://about.gitlab.com/solutions/delivery-automation/) by transforming and modernizing the continous integration and delivery, and driving the organization to become the top performer in software delivery;
 
 [**DevOps platform**](https://about.gitlab.com/solutions/devops-platform/) to leverage the DevOps innovations for a unified developer experience with scalable and reliable solution for large scale adoption.
-
-
-
-
-

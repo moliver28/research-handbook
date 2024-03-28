@@ -4,14 +4,12 @@ title: Selling Professional Services
 ---
 
 
-# Selling Professional Services
-
-
 This is a practice guide for a Solutions Architect (SA) to position Professional Services to a customer during the sales cycle and gather the appropriate information to provide to the Professional Services Engagement Management Team for custom scoping, if necessary.  The overall workflow for selling Professional Services is defined in the [Professional Services Handbook - Selling Professional Services page](/handbook/customer-success/professional-services-engineering/selling/).
 
 - See the [Positioning Professional Services Class](https://levelup.gitlab.com/courses/positioning-professional-services) on LevelUp for an overview.
 
 ## Types of Services
+
 GitLab provides a wide array of [Professional Services offerings](https://about.gitlab.com/services/) to accelerate the customer's time to value in GitLab platform adoption and maturing DevOps practices.  Service offerings range from standard instructor-led training to custom services packages that address a specific customer need.  Generally, Professional Services are sold in one of two ways:
 - via a sku on an order form - no SOW is needed for the customer to purchase these services; they can be added directly to an order form, in conjunction with a license purchase, when applicable.  the [Professional Services Catalog](https://about.gitlab.com/services/catalog/) has a full list of sku-based services offerings.  The most popular sku-based services are:
    - [GitLab Rapid Results - self-managed](https://about.gitlab.com/services/rapid-results/) for implementing GitLab in a cloud environment
@@ -44,6 +42,7 @@ As a guideline, team member responsibilities will break out as follows:
 
 
 ## Discovery for Custom Services Scoping
+
 To appropriately scope custom services engagements, the PS Engagement Manager will need details about the customer's current tool usage and the goals of GitLab.  Having a reasonable understanding of the customer needs ahead of a PS scoping call will help the PS Engagement Manager be efficient and productive in arriving at an appropriate services package that suits the customer's needs.  The PS Engagement Manager will provide guidance on what information is needed based on the specific scenario, but the list below is a reasonable starting point for most custom PS:
 - Number of users currently using GitLab (if applicable) and number of planned users when GitLab has been fully rolled out
 - Customer DevOps goals and priorities in adopting GitLab

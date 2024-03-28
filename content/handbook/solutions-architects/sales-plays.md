@@ -25,6 +25,7 @@ Who is this sales play for?
 - Secondary: CSMs who help in discovery with new teams in existing customers
 
 ## Who to meet
+
 {: .alert .alert-gitlab-orange}
 
 **Ideal Customer Profile** - Prospects or new teams in existing customers who are listed in this qualification [list](https://gitlab.my.salesforce.com/00O4M000004aULR) for enterprise customers

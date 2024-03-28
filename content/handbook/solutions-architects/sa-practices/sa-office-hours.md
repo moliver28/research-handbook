@@ -5,9 +5,6 @@ description: "Solutions Architect Office hours to educate and build relationship
 ---
 
 
-# Office Hours
-
-
 Office Hours are a collaborative space where AE/CSM/SAs can learn and ask questions to the Commercial Solutions Architecture team.
 
 ##### Participating in Commericial SA Office Hours
