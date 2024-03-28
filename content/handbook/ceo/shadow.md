@@ -138,10 +138,10 @@ For those with regular commitments, look for shorter weeks or timezone variation
 | 2024-05-27 | 2024-05-31 | OPEN | [Djordje Micovic](https://gitlab.com/dmicovic) - Staff Data Analyst, Marketing Analytics | REMOTE - PT |
 | 2024-06-03 | 2024-06-07 | [Christopher Wang](https://gitlab.com/cs.wang) - Sr. Manager - Enablement and Strategy (Sales Development) | OPEN | REMOTE - PT |
 | 2024-06-10 | 2024-06-14 |  [Camilo Villanueva Santiago](https://gitlab.com/cvillanueva1) - Sr. Enterprise Renewals Manager | [Christopher Wang](https://gitlab.com/cs.wang) - Sr. Manager - Enablement and Strategy (Sales Development) | REMOTE - PT |
-| 2024-06-17 | 2024-06-21 | [David Tuan](https://gitlab.com/dtuan) - Director, Strategy and Operations | [Camilo Villanueva Santiago](https://gitlab.com/cvillanueva1) - Sr. Enterprise Renewals Manager | REMOTE - PT |
+| 2024-06-17 | 2024-06-21 | [Stacy Cline](https://gitlab.com/slcline) - Sr Director, ESG | [Camilo Villanueva Santiago](https://gitlab.com/cvillanueva1) - Sr. Enterprise Renewals Manager | REMOTE - PT |
 | 2024-06-24 | 2024-06-27 | OPEN - VP DIRECTS ONLY | OPEN - VP DIRECTS ONLY | In Person - East Coast |
 | 2024-07-01 | 2024-07-05 | NO SHADOW | NO SHADOW | CEO OOO |
-| 2024-07-08 | 2024-07-12 |  [Stacy Cline](https://gitlab.com/slcline) - Sr Director, ESG | [Camilo Villanueva Santiago](https://gitlab.com/cvillanueva1) - Sr. Enterprise Renewals Manager | TBD - Possible limited week/travel in EMEA |
+| 2024-07-08 | 2024-07-12 | OPEN | [David Tuan](https://gitlab.com/dtuan) - Director, Strategy and Operations | TBD - Possible limited week/travel in EMEA |
 | 2024-07-15 | 2024-07-19 |  [Kristine Setschin](https://gitlab.com/KSetschin) - Sr. Manager Regional Marketing, EMEA | OPEN | REMOTE - PT |
 | 2024-07-22 | 2024-07-26 |  [Lesley Razzaghian](https://gitlab.com/lesley-r) - Backend Engineer | [Kristine Setschin](https://gitlab.com/KSetschin) - Sr. Manager Regional Marketing, EMEA | REMOTE - PT |
 | 2024-07-29 | 2024-08-02 |  OPEN | [Lesley Razzaghian](https://gitlab.com/lesley-r) - Backend Engineer | REMOTE - PT |
