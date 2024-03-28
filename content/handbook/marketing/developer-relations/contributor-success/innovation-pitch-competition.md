@@ -151,11 +151,10 @@ Evaluating a submission and scoring it was less obvious for a few key reasons:
 
 ## Achievement of Objectives: Evaluate whether the competition met its intended goals.
 
-* This initiative was designed to engage our community, stimulate innovation, and showcase creativity within our field, marking a significant milestone in our commitment to fostering talent and recognizing outstanding contributions.
-* Initially the intent was to set KPIs, but because this was the inaugural edition we didn’t have a baseline and as a result the decision was made not to set KPIs for this edition. 
-* Intentionally this edition was also designed to maximize the learnings in preparation for future editions. Next to documenting internal processes, we measured the topics of interest, profiles of participants and communication channels.
-* Given the number of participants (916), the increase of new users who had never used or built with GitLab before, the number of validated submissions, the quality of the eligible submissions, the increased activity on various channels and a significant increase of contributions to the CI/CD catalog ….
-* Details of the impact assessment are available in this confidential issue: TBD
+* Community engagement and innovation showcase initiative: This program was meticulously crafted to actively involve our community, ignite innovation, and spotlight creativity within our industry. It represents a significant milestone in our ongoing commitment to nurturing talent and acknowledging exceptional contributions.
+* Initial intent and adaptation: Originally, we aimed to establish Key Performance Indicators (KPIs). However, given that this was the inaugural edition, we lacked a baseline for comparison. Consequently, we made the deliberate decision not to set KPIs for this iteration.
+* Strategic learning and future preparedness: This edition was intentionally designed to maximize our learning experience, laying the groundwork for future editions. Alongside documenting internal processes, we meticulously analyzed topics of interest, participant profiles, and communication channels.
+* Evidence of success: Considering the impressive participation of 916 individuals, the influx of 482 new users who had never engaged with GitLab before, and the validation of 69 submissions, we confidently declare this edition a resounding success. Additionally, the quality of eligible submissions, heightened activity across various channels, and a remarkable 50% increase in contributions to the CICD catalog further reinforce this achievement.Details are available via a [separate document](https://docs.google.com/document/d/1f1P0mGEkgtwboUe5UJRolnyDUJ3WQ7q3wBTiUJQUK-k/edit?usp=sharing)
 
 # Future Recommendations
 
