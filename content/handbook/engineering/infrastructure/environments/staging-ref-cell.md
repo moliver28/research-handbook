@@ -30,7 +30,7 @@ Staging Ref Cell is a sandbox environment used for pre-production testing of the
 
 ### Pending integrations
 - Geo
-- CustomersDot
+- [CustomersDot](https://gitlab.com/gitlab-org/quality/quality-engineering/team-tasks/-/issues/2458)
 
 ### Environment information
 
