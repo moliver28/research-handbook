@@ -114,7 +114,7 @@ the responsible engineering team:
 <details>
 <summary>Click to view copy-pastable Appsec Triage Checklist markdown to help with triaging exposed secrets</summary>
 
-```
+```markdown
 ### Appsec Triage checklist
 - [ ] Mitigate the incident if possible
   - [ ] If the exposed secret is a Agent Token:
