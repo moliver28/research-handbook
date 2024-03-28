@@ -1,6 +1,8 @@
 ---
 title: Candidate Handbook Page
 description: "This page outlines what hiring looks like at GitLab. We share the latest information about our processes and practices to ensure you have the information you need to feel confident during the interview process."
+aliases:
+- /handbook/hiring/candidate/faq/
 ---
 
 The GitLab Candidate Handbook is a space for recent applicants and candidates progressing through the interview process. We encourage every prospective job seeker to spend time learning more about the work we do, our culture & values, and what to expect during our hiring process.

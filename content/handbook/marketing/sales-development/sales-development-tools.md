@@ -477,6 +477,10 @@ The full process for offboarding at GitLab differs based on whether it is volunt
 
 * The people team will create an [offboarding issue](/handbook/people-group/offboarding/#offboarding), complete all ‘Manager’ tasks on the issue. If you have any questions use the #managers #people-connect slack channels. You can also reach out to the assigned people ops team member on the issue.
 
+### Sales Dev Handover Issue
+
+* When a teamember is either leaving GitLab, leaving the Sales Dev Org, or transferring to another BDR team the departing team's manager must created a [Sales Dev Handover Issue](https://gitlab.com/gitlab-com/marketing/sales-development/-/blob/main/.gitlab/issue_templates/Exit_handover_template.md?ref_type=heads)
+
 ## Sequence Creation
 
 * We follow the process outlined [here](https://handbook.gitlab.com/handbook/marketing/sales-development/#new-outreach-sequenceworkflow-creation) for creating new content, when it comes to reviewing this content, the Sales Dev Ops team will follow a quarterly cadence of reviewing the sequences/campaigns that are on the In-flight column on the board [here](https://gitlab.com/gitlab-com/marketing/sales-development/-/boards/5540104). We use the criteria below:
