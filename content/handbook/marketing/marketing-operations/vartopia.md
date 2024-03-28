@@ -254,6 +254,27 @@ In comparison to the main process, we are required to create a child campaign pe
 8. Vartopia - when a partner converts the lead to DR, Vartopia will recognize there's a campaign linked to the account, and display a dropdown to select the campaign name.
 9. Salesforce - see the deal registration that's created and update the metrics on the campaign.
 
+### Carahsoft
+
+#### Distributor Marketing Campaign
+
+On the second page of the DR form, we will have a new campaign field called: `Distributor Marketing Campaign` dropdown when the Distributor Account is selected. The campaigns are collected via a smartsheet which Gabby will be responsible for keeping up to date. When a new entry is submitted to the smartsheet, Vartopia is responsible for adding that campaign to the Distributor Marketing Campaign dropdown.
+
+Then, they will no longer need to use the GitLab Marketing Campaign on the deal registration form.
+
+This will allow the Distributor to tie the DR to the campaign, HOWEVER, we’ll still need to use the Partner Placeholder Pubsec reseller account.
+
+This process is still a work in progress, follow along in this [epic](https://gitlab.com/groups/gitlab-com/-/epics/2249) for the next iteration.
+
+#### Value-Add Campaign
+
+The purpose of this use case is to allow Value-Add campaigns to be available in the Distirbutor Marketing Campaign dropdown to track ROI.
+
+1. Gabby - Create a Marketing Ops issue assigned to Salina requesting to have the SFDC campaign created and provide the name of the campaign.
+2. Salina - Create the SFDC campaign, and Salina will provide Gabby with the Salesforce Campaign ID
+3. Gabby - Add Campaign name and info to the [Smartsheet](https://app.smartsheet.com/sheets/Jrr5PhjRjRfH965FqrvCq7GC9p56whHXp22C98m1)
+4. This will allow the Campaign Name to be displayed on the Distributor Marketing Campaign.
+
 # Field Glossary
 
 ## Lead Object
