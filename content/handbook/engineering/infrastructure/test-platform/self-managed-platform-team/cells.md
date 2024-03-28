@@ -5,10 +5,10 @@ title: Test Platform in Cells
 
 ## Overview
 
-Testing for Cells is complicated by the fact that it is a project that spans the entirity of GitLab. Instead of recreating testing done by the other teams, we will reuse and leverage what exists currently and supplement to fill in gaps.
+Cells is a project that spans the entirety of GitLab. Instead of recreating testing done by the other teams, we will reuse and leverage what exists currently and supplement to fill in gaps.
 
-This approach had the following requirements:
-- It must feed back useful information to the dev teams in an efficient, non burdensome way
+This approach has the following requirements:
+- It must feed back useful information to the engineering teams in an efficient, non burdensome way
 - It must provide good coverage so we have confidence to release
 - It must be easy to add/enhance/change tests
 - It works with our current process
