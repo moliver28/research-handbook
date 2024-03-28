@@ -32,17 +32,18 @@ GitLab Champions enlists, supports, rewards, and recognizes members of the GitLa
 ## Why to become a GitLab Partner Champion?
 
 **- Sales Opportunities:** Get promoted within the GitLab Field Sales organization as a GitLab SME for your organization possibly generating sales leads and new oppty’s.
+
 **- Exclusive Access:** Gain exclusive access via GitLab Beta Program when launched, Partner SA exclusive roadmap updates, and access to GitLab’s internal Stack Overflow instance.
 
 **- Community Influence:** Have the opportunity to influence GitLab's product development by providing feedback and insights to GitLab Product Managers invited to Champions calls.
 
-**- Networking Opportunities:** Connect with fellow GitLab Champions, GitLab Partner SAs, GitLab field sales teams, and other key stakeholders in the community. 
+**- Networking Opportunities:** Connect with fellow GitLab Champions, GitLab Partner SAs, GitLab field sales teams, and other key stakeholders in the community.
 
 **- Recognition:** Receive public recognition and visibility as a GitLab Champion, both within the partner community and on GitLab's official channels. This recognition can enhance your professional profile.
 
 **- GitLab Swag and Merchandise:** Enjoy exclusive GitLab-branded merchandise and swag items as a token of appreciation for your efforts in GitLab practice development
 
-**- Training and Certification Opportunities:** Benefit from training and certification programs that can enhance your expertise in GitLab, making you become more valuable asset to your partner organization, GitLab certifications vouchers will be provided to the champions so that they can keep their technical knowledge updated in GitLab with no extra cost  
+**- Training and Certification Opportunities:** Benefit from training and certification programs that can enhance your expertise in GitLab, making you become more valuable asset to your partner organization, GitLab certifications vouchers will be provided to the champions so that they can keep their technical knowledge updated in GitLab with no extra cost
 
 ## Who is the Right Candidate for the Program?
 **- Adhere to GitLab Values:** Aspire to GitLab [mission](https://about.gitlab.com/company/mission/#mission), uphold our [values](https://about.gitlab.com/handbook/values/), and adhere to our [Code of Conduct](https://about.gitlab.com/community/contribute/code-of-conduct/).
@@ -67,7 +68,7 @@ GitLab Champions enlists, supports, rewards, and recognizes members of the GitLa
 
 **- Maintain technical proficiency:** Acquire GitLab professional certification and consistently update knowledge in line with the latest developments in GitLab.
 
-**- Partner Team Enablement:** Function as SME for GitLab within the partner organization, and deliver a GitLab enablement session at least once a quarter. 
+**- Partner Team Enablement:** Function as SME for GitLab within the partner organization, and deliver a GitLab enablement session at least once a quarter.
 
 **- GitLab Product Strategy:** Offer feedback from practical field experiences regarding new or modified features within GitLab to the GitLab Product team.
 
@@ -75,4 +76,4 @@ GitLab Champions enlists, supports, rewards, and recognizes members of the GitLa
 
 **- GitLab Publications:** Participate in the GitLab community by contributing at least two artifacts annually, such as blogs, videos, or whitepapers.
 
-**- GitLab Community Support:** When possible attend GitLab Champions regional social events (dinners, meetups, gatherings). 
+**- GitLab Community Support:** When possible attend GitLab Champions regional social events (dinners, meetups, gatherings).
