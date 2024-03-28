@@ -35,7 +35,7 @@ We need to proactively identify languages, testing questions and teams with them
     - Invitation to Office Hours
 - Bias for guided, hands-on activities. See POV activites for inspiration
 
-## Pre requisites
+## Pre-requisites
 
 We need to make sure the customer has gone through the AI hands-on [workshop](https://handbook.gitlab.com/handbook/solutions-architects/tools-and-resources/workshop/) to have a great experience with AI POV. We also recommend building a technical close [plan](https://handbook.gitlab.com/handbook/solutions-architects/sa-practices/technical-close-plan/) and getting agreement from your customer before the POV start.
 
@@ -47,12 +47,12 @@ We need to make sure the customer has gone through the AI hands-on [workshop](ht
 
 Until trials are generally available, SA-led Trials should follow [this process](https://docs.google.com/document/d/13BBDlhV5-INvHoReCbYjgQeojpBUd1ldvlmlYYpUqss/edit) (internal)
 
-Set-up the POV instance with your customer’s POV lead or technical counterpart. 
-- Import the public [AI POV Plan project template](https://gitlab.com/gitlab-com/account-management/templates/ai-pov-plan) at the root of the POV group, namespace, or instance. 
+Set-up the POV instance with your customer’s POV lead or technical counterpart.
+- Import the public [AI POV Plan project template](https://gitlab.com/gitlab-com/account-management/templates/ai-pov-plan) at the root of the POV group, namespace, or instance.
   - It is intended to be used as a central point of entry for participants, to make all useful information and resources easily discoverable for testers.
 - Follow the checklist provided in the REAMDE.md to customize this project
 - Configurations needed in the instance or group are better done by the customer's POV lead
-  - This way they have ownership and understanding of the configuration 
+  - This way they have ownership and understanding of the configuration
   - It is also on them to review the terms of experimental features to be turned on, and GitLab's [testing agreement](https://handbook.gitlab.com/handbook/legal/testing-agreement/)
 - Test AI-powered features in various settings, before undertaking any POV activity. Troubleshoot or adjust POV activities accordingly.
   - within the customer’s network or not
@@ -62,18 +62,18 @@ Set-up the POV instance with your customer’s POV lead or technical counterpart
 ## POV Activities 
 
 The following are different workshop formats to pick and combine in order to facilitate and lead the POV.
-Examples of POV activity timelines : 
-- Customer A 
+Examples of POV activity timelines:
+- Customer A
   - Week 1: Kick-off and standard guided workshop
   - Week 2: Custom workshop on IDE integration setups and IDE features
   - Week 4: Standard guided workshop for a second set of users
 - Customer B
   - Week 1: Kick-off and standard guided workshop
   - Week 3: Custom workshop on improving quality and generating documentation
-  - Week 4: Coaching the POV leads to prepare an internal demo 
+  - Week 4: Coaching the POV leads to prepare an internal demo
   - Week 6: AI Hackathon, in three separate sessions, with a measurement of productivity improvement (see [Comparative Study](#comparative-study))
 
-### Standard AI Workshop 
+### Standard AI Workshop
 
 The standard AI workshop leverages the [Tanuki Racing](https://gitlab.com/gitlab-learn-labs/sample-projects/tanuki-racing) project from [GitLab Learn Labs](https://gitlab.com/gitlab-learn-labs).
 - Under [Courses / Workshops / AI](https://gitlab.com/gitlab-learn-labs/sample-projects/tanuki-racing/-/tree/main/Courses/Workshops/AI?ref_type=heads) are the workshop instructions
@@ -86,32 +86,32 @@ Depending on the availability of the SA in charge, this workshop is either deliv
 
 ### Custom AI Workshop
 
-This approach consists of customizing the standard AI workshop to a customer's specific needs or context.  
-- Consider exploring specific workflows that matter to the customer. 
+This approach consists of customizing the standard AI workshop to a customer's specific needs or context.
+- Consider exploring specific workflows that matter to the customer.
 - Make sure to thoroughly test the workflow before the workshop, and adjust prompts and instructions as needed
 - Consider using a different project to support the workshop. Either an open source project, or a customer project could be used to focus on a specific framework or language
   - If a customer project is used, first validate whether or not it is allowed to be uploaded to the POV instance or namespace.
 
-It requires more involvement, both from GitLab’s side and from the customer side. Validate this with the POV lead before starting the initiative. 
-It is also likely to yield higher engagement and enthusiasm from the participants. And to give decision makers a more accurate understanding of the value they can expect, including quantitative indicators.  
+It requires more involvement, both from GitLab’s side and from the customer side. Validate this with the POV lead before starting the initiative.
+It is also likely to yield higher engagement and enthusiasm from the participants. And to give decision makers a more accurate understanding of the value they can expect, including quantitative indicators.
 
-### AI-powered Hackathon 
+### AI-powered Hackathon
 
-This approach goes one step further in terms of involvement, both for preparation, and for the workshops themselves. Workshops are usually 1.5-2.5 hours long, whereas hackathons typically last half a day to a full day.  
+This approach goes one step further in terms of involvement, both for preparation, and for the workshops themselves. Workshops are usually 1.5-2.5 hours long, whereas hackathons typically last half a day to a full day.
 
-Participants form teams, and use AI-powered features at will for a given period of time to deliver a prototype.  
+Participants form teams, and use AI-powered features at will for a given period of time to deliver a prototype.
 
 A hackathon project is prepared to give participants
 - Instructions and links to useful resources
 - A project boilerplate, helper functions, evaluation functions. Consider having multiple versions for multiple use cases or languages.
 - A GitLab issue, issue template, to log time estimates and results. The project’s readme may also be used for this purpose
 
-The scope could be 
+The scope could be
 - The same for all teams. Eg “Flight tracking app” or “Competitive quiz app”
 - To be chosen within a set of assignments.
 - Free: develop whatever you want in the allocated time. Give some example use cases.
 - Consider public coding challenges, which are good candidates for hackathon assignments, as they usually give
-  - instructions and boilerplates for teams to use. 
+  - instructions and boilerplates for teams to use.
   - clear success/failure or performance for each tasks, when there is a possibility to submit a solution and get instantaneous feedback.
   - time estimates or public leaderboards for each tasks, which can be useful to estimate the value of AI-powered features
 - A caveat to public coding challenges is that they could sometimes be considered too far from the reality of enterprise work. To be discussed  ahead of time with POV leads.
@@ -132,19 +132,19 @@ Additional guidance:
 
 ### Comparative study
 
-When POV goals are to surface quantitative indicators of improvements brought by AI-powered features, it is tempting to adopt a comparative study approach for the workshops or hackathons described above.  
-It consists of assigning the same task to two groups of developers. One group works "as usual", while the other is allowed to use AI-powered features. Optionnally, a second assignment is given, and the two groups are switched around. 
+When POV goals are to surface quantitative indicators of improvements brought by AI-powered features, it is tempting to adopt a comparative study approach for the workshops or hackathons described above.
+It consists of assigning the same task to two groups of developers. One group works "as usual", while the other is allowed to use AI-powered features. Optionnally, a second assignment is given, and the two groups are switched around.
 - A drawback of this approach is that working without AI-powered features isn’t very fun. Considering how precious it is in enterprise settings to have time dedicated to this kind of initiatives, spending it on "working as usual" may not be ideal.
 - As an alternative, ask participants to log, for each task
   - Before: a time estimate if they were working as usual
-  - After: the time it actually took, with the help of AI-powered features. 
+  - After: the time it actually took, with the help of AI-powered features.
   - After: include qualitative feedback about comfort of working, quality of software, etc.
 
 ### Guided Workshop best practices
 
 Before the workshop
 - See setup of the POV instance
-- Have a dry run, to surface and tackle any issues with the GitLab instance, or videoconference: screen share, breakout rooms, etc.  
+- Have a dry run, to surface and tackle any issues with the GitLab instance, or videoconference: screen share, breakout rooms, etc.
 
 During the workshop
 - Lead the workshop with a co-host from GitLab, who is familiar with the workshop.
@@ -164,7 +164,6 @@ After the workshop
 
 ### Tracking
 
-
 ### Other POV Scope and Acceptance
 
 SA working with SAE and AE can define the POV scope with the customer, with alignment to the business values and the GitLab solution. For each solution, the typical scope and acceptances are listed for reference but the team should define the scope, time and execution with acceptance for each engagement.
@@ -173,11 +172,11 @@ SA working with SAE and AE can define the POV scope with the customer, with alig
 - [Automated Software Delivery](/handbook/solutions-architects/tools-and-resources/pov/automation/)
 - [DevOps Platform cumulatively](/handbook/solutions-architects/tools-and-resources/pov/platform/)
 
-# AI engagements in general 
+## AI engagements in general
 
-## Discovery - adapt to the customer's context
+### Discovery - adapt to the customer's context
  
-As early as possible, actively discover your customer’s specific context.  
+As early as possible, actively discover your customer’s specific context.
 For instance, before even presenting GitLab’s vision or positioning, ask the customer if they have an existing company strategy or guidelines, or personal opinions on Gen-AI in general, and for development.
 
 Inquire about the following topics 
@@ -201,7 +200,7 @@ Examples of customer inputs that had a significant influence on the technical ev
 - "Code suggestions are not useful for us, we don’t want to activate that feature. Instead, we’re looking to leverage GitLab Duo to make the most out of our existing applications: documenting, refactoring, adding tests, innersourcing, etc."
 - "We only want to use AI features if they’re connected to self-hosted, custom AI models, without any data leaving our network"
 
-## Elements of perspective and communication on Gen-AI features
+### Elements of perspective and communication on Gen-AI features
 
 The following elements proved effective to influence positively the way AI-powered features are perceived.
 
@@ -228,25 +227,20 @@ highlights the importance of the developer’s role and skill: review, adjust, u
   - Convey the message that any Gen-AI suggestion is only useful if used in the right context, reviewed, and adjusted as needed by an expert.
   > GitLab Duo is a customer-centric approach focused on privacy first, where customers know their intellectual property is secured.
 
-## Expect the unexpected
+### Expect the unexpected
 
-Gen-AI won’t necessarily give the same answer to the same prompt.  
-You will run into use cases where AI gives unexpected, wrong, or no answers in your demos. Also keep this in mind when leading a workshop, as a portion of the students will probably experience this.  
-While this could typically be interpreted as "failing" in a regular context, it doesn't necessarily have to be the case for AI conversations. Use the following to mitigate the negative impact this might have, and even turn it to your advantage: 
+Gen-AI won’t necessarily give the same answer to the same prompt.
+You will run into use cases where AI gives unexpected, wrong, or no answers in your demos. Also keep this in mind when leading a workshop, as a portion of the students will probably experience this.
+While this could typically be interpreted as "failing" in a regular context, it doesn't necessarily have to be the case for AI conversations. Use the following to mitigate the negative impact this might have, and even turn it to your advantage:
 - Manage expectations and mindset, both for a person running a demo or for someone following a workshop
   - Mention that this is expected, and inherent to Gen-AI. It is neither a bug that will be fixed nor something specific to GitLab’s Gen-AI features.
 - As a presenter, be prepared for these "happy incidents"
   - Be prepared to brush it off of laugh it off. One wrong suggestion is not a big deal. After all, it's not a true demo until something goes wrong.
   - Use them as opportunities to adopt [pioneer/learning/playful mindset](https://gitlab.com/gitlab-com/content-sites/handbook/-/edit/pdumaitre-main-patch-06406/content/handbook/solutions-architects/tools-and-resources/pov/ai.md?from_merge_request_iid=3693#elements-of-perspective-and-communication-on-gen-ai-features), or convey the messaging that AI is meant as an assistant to development teams.
-    > "If you want to dig into this later, I'm sure we'll be able to find the right prompt to make this work"  
-    > "Good thing I'm following best practices and reviewing AI suggestions" 
+    > "If you want to dig into this later, I'm sure we'll be able to find the right prompt to make this work"
+    > "Good thing I'm following best practices and reviewing AI suggestions"
     > "Glad to see I'm not obsolete just yet!"
-  - The unexpected answer might be at least partially useful, or serve another purpose 
+  - The unexpected answer might be at least partially useful, or serve another purpose
   - Re-try with the same prompt, or with a very slight change
   - Have alternative prompts or use cases ready
 - If you are presenting in a high-stakes setting where “nothing should go wrong” use video recordings as a backup
-
-
-
-
-

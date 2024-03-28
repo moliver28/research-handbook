@@ -61,7 +61,7 @@ The Field and Alliance/Channels SA Management (referred as SA management going f
 
 Being a Trusted Advisor is referencing a role/skill that a person takes on when working with customers to solve their business problem.
 
-> **Building Trust (Trusted Advisor)**:  
+> **Building Trust (Trusted Advisor)**:
 > Connects with key stakeholders on both a personal and professional level and shows up as a credible and reliable champion for customers. Effectively positions GitLab as a partner to the customer rather than just another vendor with a focus on following through on commitments and delivering results.
 >
 > --<cite> [Solution Focus Field Competency](/handbook/sales/training/field-functional-competencies/#solution-focus)

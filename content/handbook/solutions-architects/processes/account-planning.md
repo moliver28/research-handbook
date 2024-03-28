@@ -4,11 +4,12 @@ title: Account Planning for Solutions Architects
 ---
 
 
-## Account Planning in Gainsight Overview 
+## Account Planning in Gainsight Overview
 
 [Account planning](/handbook/sales/account-planning/) helps the SAE and the SA develop a plan to elevate opportunity-driven conversations into value-based conversations that focus on the customer's value drivers. This is is a critical step is helping the team evaluate the customer's organization and work more strategically across the territory. Gainsight is a the tool for Strategic Account Leaders (SAEs), Solutions Architects (SAs), and Customer Success Managers (CSMs) to manage the account planning process. Since it sits within SalesForce, it provides a comprehensive view of your customers, allows you to understand trends and risks, and empowers you to execute a strategy to help you win deals.
 
-# Accessing Gainsight
+## Accessing Gainsight
+
 - Steps to access Gainsight are outlined on this [Handbook Page](/handbook/sales/gainsight/#getting-started)
 
 
@@ -20,11 +21,13 @@ title: Account Planning for Solutions Architects
   
   [Creating a Technical Win Plan Using Gainsight - Video](https://drive.google.com/file/d/1dLeFXZsU-1ArzQlpeSEcdqCP6u59vJSd/view)
 
-# How does an SA contribute to the Account Planning?
+## How does an SA contribute to the Account Planning?
+
 A rationale describing how an SA can contribute to the Account Planning is documented here in the [Handbook](/handbook/sales/field-operations/customer-success-operations/gainsight/gainsight-gtm.html)
 
 
-# Collaborating with Other Team Members
+## Collaborating with Other Team Members
+
 It is important to note that Gainsight brings the entire account team onto a single platform to plan, and by having the SAE, SA, and CSM in one place, it allows the SA to visualize the dependencies between the tasks of each individual much more clearly and understand how each team member is working towards the 6, 12, and 18 month goals.
 - SAs should collaborate with the SAE/CSM on a Technical Win Plan and ensure that the plan encompasses Workshops, PoVs, deep dives, etc. 
 
@@ -36,7 +39,7 @@ It is important to note that Gainsight brings the entire account team onto a sin
 - SAs are not the DRIs of a customer’s initial account plan. By the time the opportunity reaches the Account Planning stage, basic account details should have been entered into Salesforce. Thus, the main purpose of completing the Account Profile section of the account plan,should be to capture important details about the customer or prospect, including information about the organization's business, strategic objectives, goals, motivations, competitive landscape, pertinent technology stack details, etc. The account profile should be all about the customer (not GitLab). 
 
 
-# FAQs:
+## FAQs:
 - **How is Gainsight different from Troops and SFDC?**
   - Gainsight is a platform that enables collaboration between SAE, SA & CSMs. SA are expected to collaborate during Account Planning. SAs should own the objective of creating a technical win plan during account planning. Troops is used for day to day activity capture for meetings. 
 - **Will using Gainsight save me time?**
@@ -51,18 +54,21 @@ It is important to note that Gainsight brings the entire account team onto a sin
   - The SA together with the SAE will create a Technical Win Plan using Gainsight.
 
 
-# Gainsight Example: How an SA Adds/Update a Success Plan
+## Gainsight Example: How an SA Adds/Update a Success Plan
+
 **Creating a New Success Plan or Adding a Success Plan to an Existing Customer Entry**
 <div style="position: relative; padding-bottom: 69.76744186046511%; height: 0;"><iframe src="https://lucid.app/documents/embeddedchart/3f6a8cf8-f63a-4649-b797-c540034c3f1e" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
 
-# Gainsight Enablement 
+## Gainsight Enablement
+
 * [Account Planning Handbook Page](/handbook/sales/account-planning/)
 * [Account Planning with Gainsight Overview and Demo](https://www.youtube.com/watch?v=Xhor2IIsCQQ)
 * [Account Planning for SAs](https://gitlab.edcast.com/pathways/gainsight-for-solutions-architects-sas)
 * [Using Gainsight in Team Meetings](https://www.youtube.com/watch?v=gT_pz9PoHHg)
 
-# Additional Reading:
+## Additional Reading:
+
 - Documentation about Gainsight Go-To-Market Technical Documentation is located [here](/handbook/sales/field-operations/customer-success-operations/gainsight/gainsight-gtm.html)
 - More information about how Sales uses Gainsight can be found on the Using [Gainsight within Sales page](/handbook/sales/gainsight/account-planning/)
 - Information about how Customer Success uses Gainsight is located on the [Using Gainsight within Customer Success page](/handbook/customer-success/csm/gainsight/)
