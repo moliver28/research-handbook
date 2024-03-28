@@ -3,6 +3,10 @@ title: Fulfillment Sub-department
 description: "The Fulfillment Sub-department is composed of the Billing and Subscription Management, Fulfillment Platform, Provision, Purchase, and Utilization development teams working on the infrastructure between the systems which affect the user purchasing process that support the GitLab DevOps Platform."
 ---
 
+- [Direction](https://about.gitlab.com/direction/fulfillment)
+- [Groups](https://about.gitlab.com/direction/fulfillment/#groups)
+- [Team](/handbook/engineering/development/fulfillment/#team-members)
+
 ## Vision
 
 A [high performing team](/handbook/leadership/#strategies-to-build-high-performing-teams) who provides our customers with a world-class buyer experience through the products we build. Our team strives to build an experience that is delightful, performant, trustworthy, and reliable.
@@ -11,11 +15,11 @@ A [high performing team](/handbook/leadership/#strategies-to-build-high-performi
 
 Fulfillment focuses on improving our capabilities and metrics in the following areas:
 
-- Fulfillment: [Direction](https://about.gitlab.com/direction/fulfillment), [Group Responsibilities](https://about.gitlab.com/direction/fulfillment/#group-responsibilities), [Fulfillment Development Team](/handbook/engineering/development/fulfillment/)
-- Fulfillment Platform: [Direction](https://about.gitlab.com/direction/fulfillment/platform/), [Team](/handbook/engineering/development/fulfillment/fulfillment-platform/)
-- Provision: [Direction](https://about.gitlab.com/direction/fulfillment#provision), [Team](/handbook/engineering/development/fulfillment/provision/)
-- Purchase: [Direction](https://about.gitlab.com/direction/fulfillment/purchase/), [Team](/handbook/engineering/development/fulfillment/purchase/)
-- Utilization: [Team](/handbook/engineering/development/fulfillment/utilization/)
+- [Platform](https://about.gitlab.com/direction/fulfillment/platform/): [Team](/handbook/engineering/development/fulfillment/fulfillment-platform/#team-members)
+- [Provision](https://about.gitlab.com/direction/fulfillment/provision/): [Team](/handbook/engineering/development/fulfillment/provision/#team-members)
+- Purchase
+- [Subscription Management](/handbook/engineering/development/fulfillment/billing-and-subscription-management/): [Features](https://about.gitlab.com/direction/fulfillment/subscription-management#feature-overview-and-maturity)
+- [Utilization](/handbook/engineering/development/fulfillment/utilization/): [Team](/handbook/engineering/development/fulfillment/utilization/#team-members)
 
 ## Direction
 
