@@ -28,20 +28,20 @@ For easy creation of a blog post and all the items behind the scenes, use the [b
 
 ## FY24 Q2 Calendar
 
-| Publish Week 	| Author 	| Topic 	| Content Type 	|
-|--------------	|--------	|-------	|--------------	|
-| 2023-05-08   	| [Noah Ing](https://gitlab.com/noah.ing) & [Sophia Manicor](https://gitlab.com/smanicor) | Managing Multiple Environments with Terraform and GitLab CI | Blog |
-| 2023-05-15   	| [Sam Morris](https://gitlab.com/sam) | Getting started with your first Docker app + container registry and scanning | Blog |
-| 2023-05-22   	| [Jeremy Wagner](https://gitlab.com/jeremywagner) | How To Deploy NextJS to Vercel  | Blog |
-| 2023-05-29   	| [Cailey Pawlowski](https://gitlab.com/cpawlowski) |       	|              	|
-| 2023-06-05   	| [Julie Byrne](https://gitlab.com/juliebyrne) | How GitLab can help you with your SOC2 audit | Blog |
-| 2023-06-12   	| [Julie Byrne](https://gitlab.com/juliebyrne) | Preparing for a Migration to GitLab.com | Blog |
-| 2023-06-19   	| [Michael Balzer](https://gitlab.com/mbalzer) |       	| Blog |
-| 2023-06-26   	| [Jeremy Wagner](https://gitlab.com/jeremywagner) & [Sophia Manicor](https://gitlab.com/smanicor) | React + Cypress Tests | Blog |
-| 2023-07-03   	| [Joe Randazzo](https://gitlab.com/jrandazzo) |       	|              	|
-| 2023-07-10   	| [Siddharth Mathur](https://gitlab.com/smathur) |       	|              	|
-| 2023-07-17   	|        	|       	|              	|
-| 2023-07-24  	|        	|       	|              	|
+| Publish Week     | Author    | Topic     | Content Type     |
+|--------------    |--------    |-------    |--------------    |
+| 2023-05-08       | [Noah Ing](https://gitlab.com/noah.ing) & [Sophia Manicor](https://gitlab.com/smanicor) | Managing Multiple Environments with Terraform and GitLab CI | Blog |
+| 2023-05-15       | [Sam Morris](https://gitlab.com/sam) | Getting started with your first Docker app + container registry and scanning | Blog |
+| 2023-05-22       | [Jeremy Wagner](https://gitlab.com/jeremywagner) | How To Deploy NextJS to Vercel  | Blog |
+| 2023-05-29       | [Cailey Pawlowski](https://gitlab.com/cpawlowski) |           |                  |
+| 2023-06-05       | [Julie Byrne](https://gitlab.com/juliebyrne) | How GitLab can help you with your SOC2 audit | Blog |
+| 2023-06-12       | [Julie Byrne](https://gitlab.com/juliebyrne) | Preparing for a Migration to GitLab.com | Blog |
+| 2023-06-19       | [Michael Balzer](https://gitlab.com/mbalzer) |           | Blog |
+| 2023-06-26       | [Jeremy Wagner](https://gitlab.com/jeremywagner) & [Sophia Manicor](https://gitlab.com/smanicor) | React + Cypress Tests | Blog |
+| 2023-07-03       | [Joe Randazzo](https://gitlab.com/jrandazzo) |           |                  |
+| 2023-07-10       | [Siddharth Mathur](https://gitlab.com/smathur) |           |                  |
+| 2023-07-17       |            |           |                  |
+| 2023-07-24       |            |           |                  |
 
 ## Example Blogs & Videos
 
