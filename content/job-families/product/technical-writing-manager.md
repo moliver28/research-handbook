@@ -21,7 +21,7 @@ The Technical Writing Manager is a [grade 8](/handbook/total-rewards/compensatio
 - Encourage efficient collaboration by defining processes that align with the rest of the product teams, are consistent and efficient, and use GitLab capabilities (like labels) to power process flows and metrics.
 - Create practices that encourage keeping documentation up to date and easily discoverable.
 - Promote and optimize the experience for documentation contributions from the GitLab team and the wider GitLab community.
-- Deliver input on promotions, function changes, demotions, and offboarding in consultation with the other Technical Writing Managers, the Senior Manager, Technical Writing, and the VP of UX.
+- Deliver input on promotions, function changes, demotions, and offboarding in consultation with the other Technical Writing Managers, the Technical Writing Director, and the VP of UX.
 
 ### Requirements
 
@@ -40,18 +40,14 @@ The Technical Writing Manager is a [grade 8](/handbook/total-rewards/compensatio
 
 ### Performance indicators
 
-- [UX hiring actual vs plan](/handbook/product/ux/performance-indicators/#ux-hiring-actual-vs-plan)
-- [UX average location factor](/handbook/product/ux/performance-indicators/#ux-average-location-factor)
-- [Technical Writing team member MR rate](/handbook/product/ux/performance-indicators/index.html#technical-writing-team-member-mr-rate)
-- [Distribution of Technical Writing team documentation effort](/handbook/product/ux/performance-indicators/index.html#distribution-of-technical-writing-team-documentation-effort)
-- [Technical Writing collaboration on UI text](/handbook/product/ux/performance-indicators/#technical-writing-collaboration-on-ui-text)
+View [UX Department Performance Indicators](/handbook/product/ux/performance-indicators/) for this position. 
 
 ### Hiring Process
 
 - Screening call with a recruiter.
-- Interview with Technical Writer. The interviewer will spend time learning about understand your management style, your approach to writing work, your experience with docs-as-code workflows, and your technical abilities.
 - Interview with Technical Writing Manager. The peer interviewer will spend time learning about your managerial experience, your experience with docs-as-code workflows, how you define strategy, how you work with cross-functional partners, how you handle conflict, and how you have dealt with difficult situations in the past.
-- Interview with Senior Manager, Technical Writing. The interviewer will spend time learning about your management style, past experiences, and career goals.
+- Interview with Technical Writer. The interviewer will spend time learning about understand your management style, your approach to writing work, your experience with docs-as-code workflows, and your technical abilities.
+- Interview with Technical Writing Director. The interviewer will spend time learning about your management style, past experiences, and career goals.
 - Interview with a VP of UX. The interviewer will spend time learning about your leadership experience, management style, and why you want to join GitLab.
 
 ## Senior Manager, Technical Writing
