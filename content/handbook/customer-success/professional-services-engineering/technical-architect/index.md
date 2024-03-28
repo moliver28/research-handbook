@@ -4,11 +4,6 @@ title: "Professional Services Technical Architect"
 description: "Learn about the processes that the GitLab Technical Architect team uses for technical leadership, enablement and to deliver successful engagements with Customers."
 ---
   
-
-
- 
-
-
  
 GitLab takes our customer's success very seriously. In Professional Services (PS) we strive to provide a first class experience for all engagements.
 
