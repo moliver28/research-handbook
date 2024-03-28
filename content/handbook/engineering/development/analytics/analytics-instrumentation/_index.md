@@ -34,7 +34,9 @@ We define incidents as a deviation from the intended process that significantly 
 
 1. Any SEV-1 Monte Carlo alert posted into #g_monitor_analytics_instrumentation that's not directly associated with an exisiting incident.
 2. Any suspected loss or delay of analytics data that might affect metrics with a `performance_indicator_type` and could be originating in the Analytics Instrumentation domain.
-
+Examples of incidents
+1. [High severity incidents](https://gitlab.com/gitlab-org/gitlab/-/issues/442875)
+2. [Medium severity incidents](https://gitlab.com/gitlab-org/gitlab/-/issues/443639)
 When choosing whether to declare an incident:
 
 1. Rather err on the side of declaring an incident even if you run the risk of it not being one. We'd rather close an incident as false positive than miss out on one.
