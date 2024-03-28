@@ -17,6 +17,7 @@ description: "Manage Snowflake Permissions"
 ## Quick Links
 
 [Permifrost Project](https://gitlab.com/gitlab-data/permifrost/){:.btn .btn-purple-inv}
+
 [PyPI](https://pypi.org/project/permifrost/){:.btn .btn-purple-inv}
 
 ## Permifrost
@@ -27,17 +28,17 @@ Permifrost is a Python tool for managing permissions on a Snowflake data warehou
 
 ### Caveats
 
-#### :white_check_mark: What Permifrost is 
+#### :white_check_mark: What Permifrost is and what it is doing
 
 * Is working only on the Snowflake environment
 * Permifrost is taking care of roles and privileges only
 * Objects that exist but are not in the config file do not lead to errors
 * Is a fully open-source package and everyone can contribute
 
-#### :x: What Permifrost is not 
+#### :x: What Permifrost is not and what it is not doing
 
 * Role/warehouse/database creation and deletion is not managed by permifrost
-* Removing entire roles from the file will **not** delete them
+* If the entire roles are removed from the `roles.yml` file, it will **not** delete them from Snowflake
 * Working on any other database except Snowflake
 
 
@@ -63,7 +64,6 @@ pip install -e '.[dev]'
 
 Once you've committed your changes, submit a merge request and update the default template.
 
-
 ### Communication
 
 * For any additional question, contribution or ide, feel free to open a [**new issue**](https://gitlab.com/gitlab-data/permifrost/-/issues/new) in the Permifrost project and, if needed, tag `@gitlab-data/permifrost_maintainers` _(the project maintainers)_
@@ -82,6 +82,8 @@ Permifrost uses [Semantic Versioning 2.0.0](https://semver.org/) as its version 
 #### Workflow
 
 Permifrost uses tags to create its artifacts. Pushing a new tag to the repository will publish it as docker images and a `PyPI` package. For details, refer to the [Release guideline](https://gitlab.com/gitlab-data/permifrost/-/blob/master/.gitlab/issue_templates/Releasing%20update.md).
+
+Below is the entire workflow for Permifrost contribution and development:
 
 ```mermaid
 graph TD
