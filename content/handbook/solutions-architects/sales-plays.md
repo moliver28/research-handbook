@@ -187,8 +187,8 @@ Will have specific resources under actions above. This is for additional resourc
 
 Not sure? Get in contact with your region's [PS Engagement Manager](/handbook/company/team/?department=practice-management) in [#professional-services](https://gitlab.slack.com/archives/CFRLYG77X) to discuss specific customer opportunities.
 
-
 ## Measuring progress
+
 {: .alert .alert-gitlab-orange}
 
 Please copy [this checklist](https://docs.google.com/spreadsheets/d/1YT-w0MXpD6-v2Z2PqNqU9tdKsNknzzLAKlb_ktuPNBo/edit?usp=sharing) per opportunity & update as needed.

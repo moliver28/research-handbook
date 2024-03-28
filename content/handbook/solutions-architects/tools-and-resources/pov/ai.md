@@ -117,7 +117,7 @@ The scope could be
 
 Additional guidance:
 - Be mindful that a hackathon setting could be intimidating or stressful to participants because of:
-  -  Time pressure
+  - Time pressure
   - Working on unfamiliar tasks
   - Working outside of their usual tooling
   - Starting from scratch, which may not be frequent in enterprise settings

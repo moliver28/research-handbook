@@ -12,7 +12,7 @@ Deliberate Practice is not an easy thing to do.  It requires you to get out of y
 
 Once you have broken down your routine and feel good about what you are doing, it's important to solicit feedback on your performance.  Feedback is how we grow and learn.  Feedback, both receiving and giving, is extremely important in deliberate practice.  If you have a new way of attempting something, it's extremely important to contact your team members and perform it for them.  Let them see what you've done and offer you feedback.  If you are asked to provide feedback, please take it seriously.  Feedback of "that looks great!" or "nice job" is friendly, but not the most useful.  Try to find specific things the presenter did that stood out or could be improved.
 
-# Techniques That Can Help
+## Techniques That Can Help
 
 Breaking down a demonstration into manageable areas may not be the easiest thing to do, so here are some exercises that GitLab Solution Architects can work on:
 

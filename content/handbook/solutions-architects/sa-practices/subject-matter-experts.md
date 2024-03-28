@@ -2,9 +2,8 @@
 
 title: Solutions Architects - Subject Matter Experts
 ---
-# Subject Matter Expert Program
 
-The SME Program is an initiative designed to help solutions architects (SAs) provide better support to customers. The program will identify and onboard subject matter experts (SMEs) in key areas, such as AI, security, and agile planning.
+The Subject Matter Experts Program is an initiative designed to help solutions architects (SAs) provide better support to customers. The program will identify and onboard subject matter experts in key areas, such as AI, security, and agile planning.
 
 SMEs are Solutions Architects who will help SAs in their region to answer more-in-depths questions, provide deep technical expertise, and assist with customer demos and presentations when needed.
 
@@ -46,5 +45,3 @@ SMEs will be responsible for the following tasks:
 - The existence of SMEs does not guarantee the availability of their engagement.
 - The main focus of SMEs are their regular SA responsibilities and then, their assistance as SMEs
 - There will be multiple SME per region (EMEA, APAC, US East, US West) but they will be a cross-regional group of SMEs
-
-

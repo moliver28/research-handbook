@@ -54,7 +54,7 @@ _Self-assignment does not happen without first discussing the opportunity and th
 
 ##### The 4 Questions
 
-There are often 'what-if' scenarios when an SA evaluates an incoming lead.   These 4 questions give us the start to our async Slack conversations.  *Should this meeting move forward if I don't know 'X'?*  is exacty when the members of The Circle will able to add context, and conversation to the Triage Collaboration.
+There are often 'what-if' scenarios when an SA evaluates an incoming lead.   These 4 questions give us the start to our async Slack conversations.  _Should this meeting move forward if I don't know 'X'?_  is exacty when the members of The Circle will able to add context, and conversation to the Triage Collaboration.
 
 - **#1: Is the Command Plan Properly completed?  Read through the Plan.  Identify if anything is missing.**
    - Goal: Make it acceptable for the AE and the Command Plan not to be perfect. Make it thusly acceptable for the SA Circle to ask clarifying questions and request more information before the opportunity is assigned, and before the next proposed meeting can take place.
@@ -67,7 +67,7 @@ There are often 'what-if' scenarios when an SA evaluates an incoming lead.   The
   - Why Now?
 - **#3: Does the SA have the lead time to prepare; is the meeting is not scheduled within 12-24 hours of the request**
   - Goal: AEs to hold off on scheduling the next customer meetings until the SA Circle has enough time to evaluate if all correct information has been collected in Questions 1 & 2.
-    -  SAs deserve time to clarify on Command Plans with the AEs and prepare demonstration environments.  GitLab is a large, and ever changing platform - the product is forever being delivered (every month). The SA team requests proper time to prepare so they can deliver the best results.
+    - SAs deserve time to clarify on Command Plans with the AEs and prepare demonstration environments.  GitLab is a large, and ever changing platform - the product is forever being delivered (every month). The SA team requests proper time to prepare so they can deliver the best results.
     - Sometimes, a lot of runaway is not possible.  We will still have a ‘Fast Track’ process that allows the AE to both mark the request record in Salesforce (for future metrics) and notify the Circle in the Slack circle-region-aeasm channel (because the SAs will be doing other work than always watching incoming opportunities.  See Point #2 in Triage Guidelines!)
 - **#4: Does the SA have relatable experience on this type of account.**
   - 'Yes' could be the "preferred" answer depending on the account and timeline.

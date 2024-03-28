@@ -47,7 +47,7 @@ The primary focus areas should include:
 - [Business Outcomes](#business-outcomes) that describe what is valuable to the customer, using their terminology
 - [Key Stakeholders](#key-stakeholders) and how they align to the opportunity
 - [Notional Architecture](#notional-architecture) for the current and proposed state
-- [Known Risks](#known-risks) that could impede progress, including any mitigation steps
+- [Known Risks](#known-risks--mitigations) that could impede progress, including any mitigation steps
 - [Activity Plan](#activity-plan) to capture the intentional steps taken to drive a technical evaluation
 
 Most Technical Close Plans should address all of the areas listed above. If the account team is struggling to articulate those areas, it's an indicator that the opportunity is not qualified.
