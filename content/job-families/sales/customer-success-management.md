@@ -7,30 +7,28 @@ The Customer Success Management (CSM) team focuses on the themes of align, enabl
 
 Additionally, our team serves as liaisons between the customer and the GitLab ecosystem, streamlining collaboration with Product Management, Engineering, Sales, Professional Services, and others. [CSM handbook](/handbook/customer-success/csm).
 
-## Responsibilities
+The Customer Success Management(CSM) team at GitLab is expected to serve and operate in the following ways and have product and domain expertise.  The depth of knowledge in each area will progress within the CSM career ladder.
 
-- Partner with our customers in taking what was established in the pre-sales command plan, and turning the customers desired positive business outcomes into actionable objectives
-- Know the GitLab platform, our more common best practices, and use cases in order to guide the customer
-- Understand the customer journey and be able to guide them on future adoption
-- Act as the GitLab liaison for GitLab questions, issues, or escalations. Collaborate with GitLab Support, Product Management (i.e., roadmaps), or other teams as needed
-- Own a book of assigned customers, with a focus on increasing adoption, ensuring retention and growth, and overall customer satisfaction
-- Remain knowledgeable and up-to-date on GitLab releases
+## Consultative/Customer Management Knowledge
 
-## Requirements
+- Ability to analyze and create actionable insights from product usage data
+- Experience guiding customer conversations in order to discover customer goals/objectives
+- Consultative approach to customer discovery to ensure customer renewal and identify expansion opportunities and risk
+- Risk mitigation and escalation management
+- Customer Onboarding: Guiding new customers through the onboarding process to ensure a smooth transition and successful adoption of the product or service
+- Ownership of customer adoption and enablement plan
+- Experience working with technical teams, including decision makers and practitioners
+- Able to manage external and internal stakeholders to agreed timelines and deliverables
 
-- Understanding of Git and typical branching strategies
-- Knowledge of software development lifecycle and development pipeline
-- Understanding of continuous integration, continuous deployment, DevSecOps
-- Prior experience in Customer Success or equivalent history of increasing satisfaction, adoption, and retention
-- Experience partnering with customers to define and achieve business outcomes
-- Familiarity working with customers of sizes relevant to the assigned [segment](/handbook/customer-success/csm/segment/#segments)
-- Exceptional verbal, written, organizational, presentation, and communications skills
-- Detailed oriented and analytical
-- Strong team player but self-starter
-- Project management experience & skills
-- Strong technical, analytic, and problem-solving skills
-- Alignment with our [values](/handbook/values/), and willingness to work in accordance with those values
-- Willingness to travel if needed and comply with the company’s [travel policy](/handbook/travel/)
+## Product and Domain Knowledge
+
+- Up-to-date on recent GitLab releases
+- Hands-on knowledge of GitLab
+- Ability to convey complex technical concepts to demo GitLab Features addressing specific customer requirements
+- Ability to understand and address/navigate complex customer environments (technical construct, integrations, business processes)
+- Identified area of GitLab Product specialization, including knowledge of competitive landscape
+- Experienced in one or more parts of the software development lifecycle (e.g., architecture, development, testing, implementation, operations)
+
 
 ## Levels
 
