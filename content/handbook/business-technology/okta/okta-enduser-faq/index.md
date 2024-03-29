@@ -122,7 +122,7 @@ There are applications that may need conversion to SAML. Please open a [Change M
 
 ## What is my username and password for GitLab Okta?
 
-At GitLab, your GitLab email address is your username. If you've forgotten your password, use the 'Forgot password' link at the bottom of the sign‐in page to generate a new one.
+At GitLab, your GitLab email address is your username. If you've forgotten your password, please reach out in #it_help.
 
 ## How do I make a safe password?
 
