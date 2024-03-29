@@ -158,7 +158,9 @@ Evaluating a submission and scoring it was less obvious for a few key reasons:
 
 # Future Recommendations
 
-##  Improvements: Suggestions for improving future iterations of the competition based on feedback and observations.
+## Improvements
+
+Suggestions for improving future iterations of the competition based on feedback and observations.
 
 * Prepare a FAQ for participants based on the [questions asked](https://gitlab.devpost.com/forum_topics/) during this edition.
 * Add “custom submission questions” to the initial participants’ entry form. Such questions make the eligibility process much faster later on in the competition.
