@@ -27,7 +27,7 @@ This chart reflects the available signatories for each of GitLab's entities. The
 | GitLab BV Belgium, Dutch & English | Marissa Farris, Pattie Egan|
 | GitLab BV, Netherlands | Marissa Farris & Pattie Egan|
 | GitLab GmbH | Marissa Farris, Rob Allen & Pattie Egan|
-| GitLab PTY Ltd, Australia | Jess Dallmar & Rob Allen|
+| GitLab PTY Ltd, Australia | Jess Dallmar & Rob Allen.  Backup: Jim (James) Gladen |
 | GitLab PTY Ltd, New Zealand | Jess Dallman & Rob Allen|
 | GitLab Ireland LTD | Marissa Farris, Rob Allen & Pattie Egan|
 | GitLab UK Ltd | Marissa Farris, Rob Allen, Pattie Egan|
