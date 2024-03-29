@@ -452,7 +452,6 @@ The responsibility of the DRI is simply to collect information and to ensure the
 | 2024-05-27 | Donald Cook |
 | 2024-06-03 | Vladimir Shushlin |
 
-
 #### Links
 
 - [Current Weekly Digests](https://gitlab.com/gitlab-org/plan/-/issues/?sort=updated_desc&state=opened&label_name%5B%5D=weekly%20update&first_page_size=20)
