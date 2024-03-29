@@ -34,7 +34,7 @@ description: Information and guidelines about the Innovation Pitch Competition
 ## Rules and Guidelines
 
 * For the competition entry, participants had to build an innovative pitch into a proof of concept on GitLab. They had to make a 2.5 minute video demoing the project and include a text description about the problem it solves.
-* The proof of concept demos had to expand the [global CI/CD catalog](https://gitlab.com/explore/catalog) with CI/CD component additions, conduct AI experiments with/on GitLab, contribute to the development of GitLab, create a social impact for the Wider GitLab Community or enhance the overall quality of GitLab.
+* The proof of concept demos had to do at least one of the following: expand the [global CI/CD catalog](https://gitlab.com/explore/catalog) with CI/CD component additions, conduct AI experiments with/on GitLab, contribute to the development of GitLab, create a social impact for the Wider GitLab Community, or enhance the overall quality of GitLab.
 * Submissions to the competition must meet the following requirements:
     * A demo video of the project which should not be more than 2.5 minutes.
     * That video should include footage that shows the Project functioning and  uploaded and made publicly visible on YouTube (preferred), Vimeo, Facebook Video, or Youku.
