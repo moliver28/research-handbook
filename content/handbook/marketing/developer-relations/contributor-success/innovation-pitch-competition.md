@@ -18,7 +18,6 @@ description: Information and guidelines about the Innovation Pitch Competition
 * Some selected contributions can receive follow up investment post events (ref: [Deep Dive](https://docs.google.com/document/d/1Hx990RwTzFpp3Z6xWNy-Tvs6bblyeXFhAu9SmO9gMiM/edit?usp=sharing) sessions).
 * An [in-depth background document](https://docs.google.com/document/d/1k8EE3reAqewBa_wpY9N3mGowqm8fHqQXq7M1ftxRHH0/edit) has been compiled, detailing iterations, context, and foundational materials for potential future use. Additionally, a separate document outlines the [responsibilities of the competition's DRI](https://docs.google.com/document/d/1ca9J7CouVL3t0M8F4Xis2vGej0MaceJzNsyNrpuwFTY/edit?usp=sharing) from December to March, featuring a to-do list and numerous links to various support documents.
 
-
 ## Participants eligibility criteria
 
 * Participants needed to be the legal age of majority in country of residence
