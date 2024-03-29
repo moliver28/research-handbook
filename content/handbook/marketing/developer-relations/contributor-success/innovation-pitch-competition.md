@@ -209,7 +209,7 @@ Projects poised to deliver significant benefits to the wider community, with str
 
 ## Key points
 
-* The primary objective of the inaugural edition was to enhance contributor engagement on the platform, with a specific emphasis on the CICD component store, artificial intelligence, and social impact. 
+* The primary objective of the inaugural edition was to enhance contributor engagement on the platform, with a specific emphasis on the CI/CD component store, artificial intelligence, and social impact. 
 * The competition achieved success in terms of both submission quality and quantity, establishing robust groundwork for subsequent editions and positioning GitLab favorably within the competitive landscape.
 
 ## Special thank you
