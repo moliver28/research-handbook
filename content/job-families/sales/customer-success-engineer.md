@@ -11,10 +11,10 @@ The Senior CSE reports to the Manager/Senior Manager, CSE.
 
 #### Customer Success Engineer Responsibilities
 
-- Engage with customers, both onsite and remote (mostly remote), in a technical consultancy and advisor role during the post-sales process while providing technical and solution guidance
+- Engage with customers, via Zoom calls and emails, in a technical consultancy and advisor role during the post-sales process while providing technical and solution guidance
 - Providing technical, architectural and best practice guidance
 - Drive the achievement of measurable value (business outcomes), leading to product adoption, renewal, and expansion
-- Align with Customer Success Managers (i/a) to provide customer-facing subject matter expertise based on the customer's business objectives
+- Align with Account Executives and Renewals Managers to provide customer-facing subject matter expertise based on the customer's business objectives
 - Focus on solution-based programs that are customized to fit an individual customer's needs
 - Develop and collaborate on customer workshops, demos, and other enablement
 - Maintain specialty competency in one or more technologies related to GitLab's market focus through activities such as training, certification and creation of working examples for reuse internally and by customers and partners
