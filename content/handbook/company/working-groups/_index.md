@@ -210,6 +210,7 @@ If you are unable to attend the existing working group meeting due to time diffe
 1. [ClickHouse Datastore]({{< ref "clickhouse-datastore" >}})
 1. [Continue to win against GitHub and ship AI features]({{< ref "yearlies" >}})
 1. [Customer Use Case Adoption]({{< ref "customer-use-case-adoption" >}})
+1. [Digital SMB + Solutions Architects]({{< ref "digital-smb-sa" >}})
 1. [Emerging Talent]({{< ref "emerging-talent" >}})
 1. [Event Stream]({{< ref "event-stream" >}})
 1. [Expense Management]({{< ref "expense-management" >}})
