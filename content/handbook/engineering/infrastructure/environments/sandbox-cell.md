@@ -20,9 +20,9 @@ The Sandbox Cell is a sandbox environment used for pre-production testing of the
 
 ### Purpose
 
-- Cover testing needs of Quality and Development teams in a production-like environment
+- Cover testing needs of Test Platform and Development teams in a production-like environment
 - Admin testing access
-  - Current Staging (`gstg`) has customer data which is a blocker for giving more access to Development and Quality teams.
+  - Current Staging (`gstg`) has customer data which is a blocker for giving more access to Development and Test Platform teams.
 - Testing different paid tiers
 - Democratizing testing and better test data
 - Better access to test accounts and wider permissions
