@@ -10,7 +10,7 @@ description: "Test and Tools Infrastructure Team in Test Platform sub-department
 | **GitLab Team Handle**  | [`@gl-quality/tp-test-tools-infrastructure`](https://gitlab.com/gl-quality/tp-test-tools-infrastructure) |
 | **Slack Channel**               | [`#test-tools-infrastructure-team`](https://gitlab.slack.com/archives/C064M4D2V37) |
 | **Slack Handle**               | `@test-tools-infrastructure` |
-| **Team Boards**         | [`Team Planning Board`](https://gitlab.com/groups/gitlab-org/-/boards/7369197?not%5Blabel_name%5D%5B%5D=tti%3A%3Asupport-request&not%5Blabel_name%5D%5B%5D=failure%3A%3A*&label_name%5B%5D=team%3A%3ATest%20and%20Tools%20Infrastructure)  [`Support & Maintenance Board`](https://gitlab.com/groups/gitlab-org/-/boards/7369206?not%5Blabel_name%5D%5B%5D=type::feature&label_name%5B%5D=team::Test%20and%20Tools%20Infrastructure&label_name%5B%5D=type::*)  |
+| **Team Boards**         | [`Milestone Planning Board`](https://gitlab.com/groups/gitlab-org/-/boards/7369197?not%5Blabel_name%5D%5B%5D=tti::support-request&not%5Blabel_name%5D%5B%5D=failure::*&not%5Blabel_name%5D%5B%5D=type::maintenance&label_name%5B%5D=team::Test%20and%20Tools%20Infrastructure)  [`Support & Maintenance Board`](https://gitlab.com/groups/gitlab-org/-/boards/7369206?not%5Blabel_name%5D%5B%5D=type::feature&label_name%5B%5D=team::Test%20and%20Tools%20Infrastructure&label_name%5B%5D=type::*)  |
 | **Issue Tracker**       | [`quality/team-tasks`](https://gitlab.com/gitlab-org/quality/team-tasks/issues/) |
 
 ## Vision
