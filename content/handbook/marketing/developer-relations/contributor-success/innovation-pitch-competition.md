@@ -178,7 +178,7 @@ Discuss whether the competition should become a recurring event and, if so, any 
 
 * This inaugural edition set the groundwork for future iterations, hence the detailed documentation.
 * For subsequent editions with similar objectives, a 2 to 3-month lead time from inception to public announcement is anticipated, leveraging existing materials and insights.
-* Narrow down on exactly GitLab wants to achieve with a future competition :
+* Narrow down on exactly what GitLab wants to achieve with a future competition :
     * Development of new functionality
     * More CI/CD components
     * More GitLab Duo (AI) projects
@@ -189,7 +189,10 @@ Discuss whether the competition should become a recurring event and, if so, any 
 * Tackle intellectual property (IP) legalities proactively, but only once the competition's aims and framework are established.
 * Evaluate entrusting DevPost with complete project management responsibilities rather than limiting their role to mid-level management tasks. Full project management will give GitLab a dedicated project manager who runs the project planning, offers best practices along the way, helps engage participants, provides additional assistance by participating in office hours and workshops, keeps things highly organized, and includes structured weekly call times.
 
-## Other Inspiration: format suggestions
+## Format suggestions for future events
+
+These format ideas emerged during the Innovation Pitch Competition. Although these formats were initially developed as “spinoffs,” they have garnered positive feedback from several team members. These ideas are supported by the team to consider for future events.
+
 
 Projects poised to deliver significant benefits to the wider community, with strong potential to draw in new contributors, keep current ones engaged, and enhance GitLab's standing among competitors. For more information, please refer to the detailed descriptions in the background document or contact the DRI of this competition.
 
