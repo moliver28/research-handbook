@@ -70,7 +70,7 @@ description: Information and guidelines about the Innovation Pitch Competition
       * Total Addressable Market
       * Feasibility
   * Extra informative criterion given to the jury members: Evaluate the contributor's ability to advance, execute, and potentially scale the project. It's crucial they possess the coding skills needed to further develop the proof of concept (POC) for additional funding.
-  * Judges were given 5 working days (Feb 29- Mar 6, 2024) to evaluate the entries via a spreadsheet.
+  * Judges were given 5 working days (2024-02-29 - 2024-03-06) to evaluate the entries via a spreadsheet.
   * The judging process occured in two phases. 
       * In the first wave, nine judges with diverse backgrounds assessed the submissions. Their evaluations determined the initial selection, resulting in an initial ranking.
       * Following this initial wave, entries underwent further evaluation. The Chief Marketing Officer (CMO) and the VP of Developer Relations conducted an async voting session with the Director of Contributor Success to score these submissions.
