@@ -20,5 +20,6 @@ The GitLab Beta Program aims to increase engagement with early adopters, create 
 
 1. Naming is hard. We're flexible and this is up for change
 2. We will not gate features from users.
-3. There has to be an explicit opt-in to the terms & conditions of our testing agreement before Beta or Experimental features can be used. Guidance from UX & Product should be followed how this gets implemented for a consistent user experience.
-4. There is an optional opt-in to receive marketing communications regarding beta or experimental features
+3. There has to be an required & explicit acceptance to the terms & conditions of our testing agreement before Beta or Experimental features can be used.
+4. There is an optional opt-in to receive marketing communications regarding beta or experimental features. 
+5. Guidance from UX & Product should be followed how this gets implemented for a consistent user experience.
