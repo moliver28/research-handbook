@@ -1290,7 +1290,6 @@ Whatever behavior you reward will become your values. We reinforce our values by
 1. Criteria we use for our [annual compensation review](/handbook/total-rewards/compensation/compensation-review-cycle/#annual-compensation-review).
 1. What we refer to when [making decisions](/handbook/leadership/#making-decisions).
 1. The example the E-group sets for the company since [a fish rots from the head down](https://thoughtmanagement.org/2011/11/21/does-the-fish-rot-from-the-head-down-when-organisations-go-toxic/).
-
 1. What we expect from all team members, as [ambassadors for our values](/handbook/leadership/).
 1. Keeping them [up to date](#updating-our-values) with a [stream of commits that add details](https://gitlab.com/gitlab-com/content-sites/handbook/-/commits/main/).
 1. Behavior we give each other [360 feedback](/handbook/people-group/360-feedback/) on.
@@ -1307,6 +1306,7 @@ Whatever behavior you reward will become your values. We reinforce our values by
 1. Applying one of our [values virtual backgrounds](https://about.gitlab.com/press/press-kit/#green-screens) in video calls.
 1. Our GitLab [Song Book](/handbook/company/culture/songbook/), the song lyrics often mention GitLab values.
 1. Regularly conduct a values exercise at the [e-group offsite](/handbook/company/offsite/).
+1. Have questions about the values during trivia quiz, either [virtual trivia](/handbook/company/culture/all-remote/informal-communication/#virtual-trivia) or during a session at a [Summit](/handbook/company/culture/contribute/previous/).
 
 The most important moments to reinforce our values are decisions which affect individual team members most: hiring, promotions, and bonuses, which is why every promotion document at GitLab is shared with the entire company and uses the values as its core structure.
 
