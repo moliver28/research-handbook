@@ -22,7 +22,7 @@ description: Information and guidelines about the Innovation Pitch Competition
 
 * Participants needed to be the legal age of majority in country of residence
 * Companies/professional organizations were excluded from participation
-* Specific countries/territories excluded: Belarus, Brazil, Cambodia, China, Crimea, Cuba, Islamic Republic of Iran, Democratic People's Republic of Korea, Myanmar,Quebec, Russia, Syrian Arab Republic, Ukraine and Venezuela.
+* Specific countries/territories excluded: Belarus, Brazil, Cambodia, China, Crimea, Cuba, Islamic Republic of Iran, Democratic People's Republic of Korea, Myanmar, Quebec, Russia, Syrian Arab Republic, Ukraine and Venezuela.
 
 ## Timeline
 
