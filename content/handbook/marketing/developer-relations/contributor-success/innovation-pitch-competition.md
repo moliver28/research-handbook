@@ -26,10 +26,10 @@ description: Information and guidelines about the Innovation Pitch Competition
 
 ## Timeline
 
-* Launch: Jan 16, 2024, 12 PM (PST)
-* Entry Deadline: Feb, 26 2024, 11:45 PM (PST)
-* Judging: Feb 29- Mar 6, 2024
-* Winner Announcement: Mar 11, 2024, during the GitLab Pitch Show
+* Launch: 2024-01-16, 12 PM (PST)
+* Entry Deadline: 2024-02-26, 11:45 PM (PST)
+* Judging: 2024-02-29 - 2024-03-06
+* Winner Announcement: 2024-03-11, during the GitLab Pitch Show
 
 ## Rules and Guidelines
 
