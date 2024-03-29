@@ -122,7 +122,7 @@ description: Information and guidelines about the Innovation Pitch Competition
 ## Participant Feedback
 
 * Participants had the opportunity to communicate with the team through a public [Discussions](https://gitlab.devpost.com/forum_topics/) board on the DevPost website. Here, participants submitted their questions, and the team provided responses. Additionally, questions asked during the four AMA (Ask Me Anything) sessions were summarized by a team member and then posted on the discussion board. Upon reviewing all the questions, it was observed that there was no specific theme, common thread, or frequently asked questions that emerged.
-* We received some negative feedback from participants were around the strict application of our rules towards submissions such as the due date, hosting location of the video & repository, length of the movie and more.
+* We received some negative feedback from participants concerning the strict application of our rules for submissions such as the due date, hosting location of the video & repository, length of the movie and more.
 
 ## Judges' Insights
 
