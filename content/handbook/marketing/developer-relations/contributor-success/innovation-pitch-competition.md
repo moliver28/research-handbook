@@ -9,7 +9,7 @@ description: Information and guidelines about the Innovation Pitch Competition
 
 ## Concept & Goals
 
-* Executive Summary [URL](https://docs.google.com/document/d/1WMBmCeM6PwVPsggIM2Dy5TIeEWxdwBd4wLtMpG3FaLs/edit)
+* [Executive Summary](https://docs.google.com/document/d/1WMBmCeM6PwVPsggIM2Dy5TIeEWxdwBd4wLtMpG3FaLs/edit)
 * This initiative was designed to engage our community, stimulate innovation, and showcase creativity within our field, marking a significant milestone in our commitment to fostering talent and recognizing outstanding contributions.
 * Participants submitted a 2.5-minute video pitch, promoting their proof of concept and jury members chose the best ones.
 * Fulfillment Partner to run this competition was [DevPost](http://gitlab.devpost.com)
