@@ -89,7 +89,7 @@ Account teams may choose to include the [Sales Development Representative (SDR)]
 
 ### Tools to Use During the Meeting
 
-- [Working Agreement](/handbook/customer-success/solutions-architects/processes/#working-agreements)
+- [Working Agreement](/handbook/solutions-architects/processes/#working-agreements)
 - Salesforce
 - Gainsight
 - [Customer collaboration project](/handbook/customer-success/csm/customer-collaboration-project/)

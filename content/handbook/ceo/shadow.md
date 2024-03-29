@@ -127,26 +127,30 @@ For those with regular commitments, look for shorter weeks or timezone variation
 
 | Start date | End date | See one | Teach one | Schedule Notes |
 | ---------- | -------- | ------- | --------- | -------------- |
-| 2024-03-04 | 2024-03-08 |  [Aleesha Dawson](https://gitlab.com/adawson-gitlab) - Senior Customer Success Manager | [Viktor Nagy](https://gitlab.com/nagyv-gitlab) - Senior Product Manager, Deploy:Environments | REMOTE - PT |
-| 2024-03-11 | 2023-03-15 | NO SHADOW | NO SHADOW | SUMMIT - PT |
-| 2024-03-18 | 2024-03-22 | [Miracle Banks](https://gitlab.com/miraclebanks) - Full Stack Engineer |  [Aleesha Dawson](https://gitlab.com/adawson-gitlab) - Senior Customer Success Manager | REMOTE - ET - Light Shadow week due to travel |
-| 2024-03-25 | 2024-03-29 | [Bartek Marnane](https://gitlab.com/bmarnane) - VP, Incubation Engineering | [Mek Stittri](https://gitlab.com/meks) - VP of Infrastructure & Quality | In person - Bay Area |
 | 2024-04-01 | 2024-04-05 | [Jeremy Wagner](https://gitlab.com/jeremywagner) - Sr Solutions Architect | [Miracle Banks](https://gitlab.com/miraclebanks) - Full Stack Engineer | REMOTE - PT |
 | 2024-04-08 | 2024-04-12 | [Karen Kwentus](https://gitlab.com/kkwentus1) - Sr Solutions Architect | [Jeremy Wagner](https://gitlab.com/jeremywagner) - Sr Solutions Architect | REMOTE - PT - Light Shadow week due to travel |
 | 2024-04-15 | 2024-04-19 | NO SHADOW | NO SHADOW | CEO OOO |
-| 2024-04-22 | 2024-04-26 | [Sam Wiskow - Senior Product Manager, Delivery & Scalability](https://gitlab.com/swiskow)  | [Karen Kwentus](https://gitlab.com/kkwentus1) - Sr Solutions Architect | REMOTE - PT |
-| 2024-04-29 | 2024-05-03 | [Indre Kryzeviciene](https://gitlab.com/ikryzeviciene) - Staff Marketing Campaigns Manager | [Sam Wiskow - Senior Product Manager, Delivery & Scalability](https://gitlab.com/swiskow)  | REMOTE - PT, MON - THURS |
+| 2024-04-22 | 2024-04-26 | OPEN  | [Karen Kwentus](https://gitlab.com/kkwentus1) - Sr Solutions Architect | REMOTE - PT |
+| 2024-04-29 | 2024-05-03 | [Indre Kryzeviciene](https://gitlab.com/ikryzeviciene) - Staff Marketing Campaigns Manager | OPEN  | REMOTE - PT, MON - THURS |
 | 2024-05-06 | 2024-05-10 | OPEN | [Indre Kryzeviciene](https://gitlab.com/ikryzeviciene) - Staff Marketing Campaigns Manager | REMOTE - PT, MON, FRI |
 | 2024-05-13 | 2024-05-17 | [Djordje Micovic](https://gitlab.com/dmicovic) - Staff Data Analyst, Marketing Analytics | OPEN | REMOTE - PT, MON - TUES |
 | 2024-05-20 | 2024-05-24 | NO SHADOW | NO SHADOW | PRESIDENT'S CLUB |
-| 2024-05-27 | 2024-05-31 | OPEN | [Djordje Micovic](https://gitlab.com/dmicovic) - Staff Data Analyst, Marketing Analytics | REMOTE - PT |
-| 2024-06-03 | 2024-06-07 | [Christopher Wang](https://gitlab.com/cs.wang) - Sr. Manager - Enablement and Strategy (Sales Development) | OPEN | REMOTE - PT |
+| 2024-05-27 | 2024-05-31 | [Rigerta Demiri](https://gitlab.com/Rigerta) - Senior Data Engineer, Data | [Djordje Micovic](https://gitlab.com/dmicovic) - Staff Data Analyst, Marketing Analytics | REMOTE - PT |
+| 2024-06-03 | 2024-06-07 | [Christopher Wang](https://gitlab.com/cs.wang) - Sr. Manager - Enablement and Strategy (Sales Development) | [Rigerta Demiri](https://gitlab.com/Rigerta) - Senior Data Engineer, Data | REMOTE - PT |
 | 2024-06-10 | 2024-06-14 | OPEN | [Christopher Wang](https://gitlab.com/cs.wang) - Sr. Manager - Enablement and Strategy (Sales Development) | REMOTE - PT |
 | 2024-06-17 | 2024-06-21 | [Camilo Villanueva Santiago](https://gitlab.com/cvillanueva1) - Sr. Enterprise Renewals Manager | OPEN | REMOTE - PT |
+<<<<<<< content/handbook/ceo/shadow.md
 | 2024-06-24 | 2024-06-27 | [Sherrod Patching](https://gitlab.com/spatching) - VP, Customer Success| OPEN - VP DIRECTS ONLY | In Person - East Coast |
+=======
+| 2024-05-27 | 2024-05-31 | [Rigerta Demiri](https://gitlab.com/Rigerta) - Senior Data Engineer, Data | [Djordje Micovic](https://gitlab.com/dmicovic) - Staff Data Analyst, Marketing Analytics | REMOTE - PT |
+| 2024-06-03 | 2024-06-07 | [Christopher Wang](https://gitlab.com/cs.wang) - Sr. Manager - Enablement and Strategy (Sales Development) | [Rigerta Demiri](https://gitlab.com/Rigerta) - Senior Data Engineer, Data | REMOTE - PT |
+| 2024-06-10 | 2024-06-14 |  [Camilo Villanueva Santiago](https://gitlab.com/cvillanueva1) - Sr. Enterprise Renewals Manager | [Christopher Wang](https://gitlab.com/cs.wang) - Sr. Manager - Enablement and Strategy (Sales Development) | REMOTE - PT |
+| 2024-06-17 | 2024-06-21 | [Stacy Cline](https://gitlab.com/slcline) - Sr Director, ESG | [Camilo Villanueva Santiago](https://gitlab.com/cvillanueva1) - Sr. Enterprise Renewals Manager | REMOTE - PT |
+| 2024-06-24 | 2024-06-27 | [Sherrod Patching](https://gitlab.com/spatching) - VP, Customer Success | OPEN - VP DIRECTS ONLY | In Person - East Coast |
+>>>>>>> content/handbook/ceo/shadow.md
 | 2024-07-01 | 2024-07-05 | NO SHADOW | NO SHADOW | CEO OOO |
-| 2024-07-08 | 2024-07-12 |  OPEN | [Camilo Villanueva Santiago](https://gitlab.com/cvillanueva1) - Sr. Enterprise Renewals Manager | TBD - Possible limited week/travel in EMEA |
-| 2024-07-15 | 2024-07-19 |  [Kristine Setschin](https://gitlab.com/KSetschin) - Sr. Manager Regional Marketing, EMEA | OPEN | REMOTE - PT |
+| 2024-07-08 | 2024-07-12 | [Sam Wiskow - Senior Product Manager, Delivery & Scalability](https://gitlab.com/swiskow) | [David Tuan](https://gitlab.com/dtuan) - Director, Strategy and Operations | TBD - Possible limited week/travel in EMEA |
+| 2024-07-15 | 2024-07-19 |  [Kristine Setschin](https://gitlab.com/KSetschin) - Sr. Manager Regional Marketing, EMEA | [Sam Wiskow - Senior Product Manager, Delivery & Scalability](https://gitlab.com/swiskow) | REMOTE - PT |
 | 2024-07-22 | 2024-07-26 |  [Lesley Razzaghian](https://gitlab.com/lesley-r) - Backend Engineer | [Kristine Setschin](https://gitlab.com/KSetschin) - Sr. Manager Regional Marketing, EMEA | REMOTE - PT |
 | 2024-07-29 | 2024-08-02 |  OPEN | [Lesley Razzaghian](https://gitlab.com/lesley-r) - Backend Engineer | REMOTE - PT |
 
@@ -823,4 +827,8 @@ CEO Shadow Program alumni are welcome to join the `#ceo-shadow-alumni` Slack cha
 | 2024-02-05 | 2024-02-14 | [Deepika Guliani](https://gitlab.com/deepika.guliani) | Frontend Engineer, Plan:Project Management | |
 | 2024-02-12 | 2024-02-23 | [Taimur Khan](https://gitlab.com/tkhan.gitlab) | Staff CSM, Industry Lead | |
 | 2024-02-20 | 2024-03-01 | [Emma Neuberger](https://gitlab.com/eneuberger) | Sr Product Analyst | |
-| 2024-02-26 | 2024-03-08 | [Viktor Nagy](https://gitlab.com/nagyv-gitlab) | Senior Product Manager, Deploy:Environments | https://www.linkedin.com/pulse/from-shadow-viktor-nagy-ngvwf/ |
+| 2024-02-26 | 2024-03-08 | [Viktor Nagy](https://gitlab.com/nagyv-gitlab) | Senior Product Manager, Deploy:Environments | |
+| 2024-03-04 | 2024-03-22 |  [Aleesha Dawson](https://gitlab.com/adawson-gitlab) | Senior Customer Success Manager | |
+| 2024-03-25 | 2024-03-29 | [Bartek Marnane](https://gitlab.com/bmarnane) | VP, Incubation Engineering | |
+| 2024-03-25 | 2024-03-29 | [Mek Stittri](https://gitlab.com/meks) - VP of Infrastructure & Quality | |
+| 2024-03-18 | 2024-04-05 | [Miracle Banks](https://gitlab.com/miraclebanks) | Full Stack Engineer | |

@@ -132,7 +132,7 @@ description: "Core curriculum for GitLab's Sales & Customer Success onboarding"
 - **Solutions Architects (Material - Handbook - 15 minutes)**
    - GitLab's Solutions Architects (SAs) are trusted advisors to GitLab prospects and customers during the presales motion, demonstrating how the GitLab application and GitLab Professional Services address common and unique business requirements.
    - Read the [Solutions Architect Role Description](/job-families/sales/solutions-architect/)
-   - Read about the [Proof of Value Deliverable](/handbook/customer-success/solutions-architects/tools-and-resources/pov)
+   - Read about the [Proof of Value Deliverable](/handbook/solutions-architects/tools-and-resources/pov)
 - **Customer Success Managers (Material, - Handbook - 15 minutes)**
    - GitLab's Customer Success Managers serve as trusted advisors to GitLab's customers. This section outlines to CSM role and their key deliverables: Health Checks, Sucess Plans, and Executive Business Reviews.
    - Read the [CSM Handbook](/handbook/customer-success/csm/#what-is-a-customer-success-manager-csm)
