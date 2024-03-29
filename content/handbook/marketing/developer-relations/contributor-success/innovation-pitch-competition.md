@@ -172,7 +172,9 @@ Suggestions for improving future iterations of the competition based on feedback
 * Update for Jury Guidelines: Jurors are required to score a set number of submissions, with additional evaluations being optional.
 * Originally, our jury utilized a single, comprehensive spreadsheet with individual tabs for each member—a system that suited us well. Unexpectedly, DevPost shifted to separate spreadsheets for each judge. Despite their good intentions, this change posed an inconvenience from our standpoint.
 
-## Potential for Recurrence: Discuss whether the competition should become a recurring event and, if so, any proposed changes to its format or scope.
+## Potential for Recurrence
+
+Discuss whether the competition should become a recurring event and, if so, any proposed changes to its format or scope.
 
 * This inaugural edition set the groundwork for future iterations, hence the detailed documentation.
 * For subsequent editions with similar objectives, a 2 to 3-month lead time from inception to public announcement is anticipated, leveraging existing materials and insights.
