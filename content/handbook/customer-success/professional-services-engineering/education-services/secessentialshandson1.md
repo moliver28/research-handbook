@@ -238,7 +238,7 @@ Please take time to understand any code that you are asked to copy and paste in 
 
 1. Click the `.gitlab-ci.yml` file. In the top right above the code, navigate to **Edit > Edit single file**.
 
-2. Enable Secret Detection by adding `template: Security/SAST.gitlab-ci.yml` at the end of the existing `include:` section in `.gitlab-ci.yml`, below the template for SAST. This indent should be at the same level as the previous template.
+2. Enable Secret Detection by adding `template: Security/Secret-Detection.gitlab-ci.yml` at the end of the existing `include:` section in `.gitlab-ci.yml`, below the template for SAST. This indent should be at the same level as the previous template.
 
     ```yml
     include:
@@ -378,7 +378,7 @@ Please take time to understand any code that you are asked to copy and paste in 
 
 1. Click the checkbox next to the **RSA private key** and **GitLab Personal Access Token** vulnerability. In the **Set status** dropdown, click **Resolve**. Click **Change status**.
 
-## Task J. Enable and Configure DAST
+## Task K. Enable and Configure DAST
 
 > Dynamic Application Security Testing, or DAST, is the process of scanning a running application for vulnerabilities using simulated attacks. DAST allows you to see how your application actually runs, catching vulnerabilities that may not be present in static testing. In this section, you will learn how to configure DAST scanning in your project.
 
