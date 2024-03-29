@@ -114,7 +114,7 @@ description: Information and guidelines about the Innovation Pitch Competition
 ## Prizes
 
 * Prize money: $30,000 USD
-* Public Vote Prizes: 3 Tier-3 packages for the first 3
+* Public Vote Prizes: 3 Tier-3 GitLab swag packages for the first 3
 * GitLab had the option to provide winning projects with additional support or benefits beyond the prize money at its discretion. Winning projects were considered for additional support of up to US$100,000 in value. Should any extra support be given, it would be managed under a separate agreement, independent of the competition's official rules.
 
 # Feedback and Observations
