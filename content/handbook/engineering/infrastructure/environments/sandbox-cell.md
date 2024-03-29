@@ -1,7 +1,7 @@
 ---
 
-title: "Staging Ref Cell environment"
-description: "Detailed information about Staging Ref Cell environment"
+title: "Sandbox Cell environment"
+description: "Detailed information about the Sandbox Cell environment"
 ---
 
 
@@ -10,13 +10,13 @@ description: "Detailed information about Staging Ref Cell environment"
 
 
 
-## Staging Ref
+## Sandbox Cell
 
-Staging Ref Cell is a sandbox environment used for pre-production testing of the latest Staging Canary code with full access to the environment and control over data.
+The Sandbox Cell is a sandbox environment used for pre-production testing of the latest Staging Canary code with full access to the environment and control over data.
 
 | **Name** | **URL** | **Purpose** | **Deploy** | **Database** | **Terminal access** | **Slack channel** |
 | ---- | --- | ------- | ------ | -------- | --------------- | --------- |
-| Staging Ref Cell |  | Pre-production testing | Frequently (Parallel to `gstg-cny`) | Separate and local | All engineers | [`#staging-ref`](https://gitlab.slack.com/archives/C02LN0K1N3Y) |
+| Sandbox Cell |  | Pre-production testing | Frequently (Parallel to `gstg-cny`) | Separate and local | All engineers | [`#staging-ref`](https://gitlab.slack.com/archives/C02LN0K1N3Y) |
 
 ### Purpose
 
@@ -44,11 +44,11 @@ Staging Ref Cell is a sandbox environment used for pre-production testing of the
 
 
 
-### How to use Staging Ref Cell
+### How to use the Sandbox Cell
 
-Staging Ref Cell is a safe playground for engineers who want to test latest Staging(`gstg-cny`) code. Staging Ref Cell has several advantages that allow it to be a full-fledged sandbox environment:
+The Sandbox Cell is a safe playground for engineers who want to test latest Staging(`gstg-cny`) code. Sandbox Cell has several advantages that allow it to be a full-fledged sandbox environment:
 
-- Staging Ref Cell deployments do not block the deployment process and can be tweaked or updated by any GitLab engineer. Hence GitLab engineers have wide permissions and full control over the environment.
+- Sandbox Cell deployments do not block the deployment process and can be tweaked or updated by any GitLab engineer. Hence GitLab engineers have wide permissions and full control over the environment.
 - Environment follows 3k hybrid architecture, so it is more performant than existing Staging(`gstg`) and could be used for load testing if needed.
 
 To sign in to the environment, navigate to ~~[staging-ref.gitlab.com](https://staging-ref.gitlab.com/users/sign_in)~~ and use your GitLab Google account in 'Sign in with Google' option.
@@ -57,13 +57,13 @@ To sign in to the environment, navigate to ~~[staging-ref.gitlab.com](https://st
 
 #### Enable Feature Flags
 
-~~[ChatOps commands](/handbook/support/workflows/chatops/#feature-flags) can be used to enable or disable Feature Flags on Staging Ref. You can run this command in the [`#staging-ref`](https://gitlab.slack.com/archives/C02LN0K1N3Y) Slack channel and notifications will be sent to [`#qa-staging-ref`](https://gitlab.slack.com/archives/C02JGFF2EAZ) after a flag is enabled/disabled.~~
+~~[ChatOps commands](/handbook/support/workflows/chatops/#feature-flags) can be used to enable or disable Feature Flags on the Sandbox Cell. You can run this command in the [`#staging-ref`](https://gitlab.slack.com/archives/C02LN0K1N3Y) Slack channel and notifications will be sent to [`#qa-staging-ref`](https://gitlab.slack.com/archives/C02JGFF2EAZ) after a flag is enabled/disabled.~~
 
 #### Admin access
 
-~~To promote your user to Admin, please sign in as Admin using the `Staging Ref credentials` from 1Password `Engineering` vault. Then navigate to the [Admin Area’s Users page](https://docs.gitlab.com/ee/administration/admin_area.html#administering-users) and edit your user's Access Level.~~
+~~To promote your user to Admin, please sign in as Admin using the `Sandbox Cell credentials` from 1Password `Engineering` vault. Then navigate to the [Admin Area’s Users page](https://docs.gitlab.com/ee/administration/admin_area.html#administering-users) and edit your user's Access Level.~~
 
-~~Note that Staging Ref environment is shared across all engineers. If you plan to perform changes to GitLab Admin settings, use the [`#staging-ref`](https://gitlab.slack.com/archives/C02LN0K1N3Y) Slack channel to communicate changes broadly.~~
+~~Note that Sandbox environment is shared across all engineers. If you plan to perform changes to GitLab Admin settings, use the [`#staging-ref`](https://gitlab.slack.com/archives/C02LN0K1N3Y) Slack channel to communicate changes broadly.~~
 
 #### SSH access and Rails console
 
@@ -92,13 +92,13 @@ To sign in to the environment, navigate to ~~[staging-ref.gitlab.com](https://st
 
 #### Request access to GCP project and environment
 
-~~If you need access to Staging Ref components in the GCP project(`gitlab-staging-ref`), please reach out in the `#staging-ref` Slack channel. [Quality Engineering Managers](/handbook/engineering/quality#management-team) can [add](https://support.google.com/groups/answer/2465464?hl=en) you to [`gcp-staging-ref-sg@gitlab.com` Google group](https://groups.google.com/a/gitlab.com/g/gcp-staging-ref-sg/members).~~
+~~If you need access to the Sandbox Cell components in the GCP project(`gitlab-staging-ref`), please reach out in the `#staging-ref` Slack channel. [Quality Engineering Managers](/handbook/engineering/quality#management-team) can [add](https://support.google.com/groups/answer/2465464?hl=en) you to [`gcp-staging-ref-sg@gitlab.com` Google group](https://groups.google.com/a/gitlab.com/g/gcp-staging-ref-sg/members).~~
 
 ~~As another option you can create an issue in [the access-request project](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=Individual_Bulk_Access_Request). Requests for access to server environments requires the approval of your manager and an Infrastructure manager.~~
 
 ~~Note that GitLab configuration changes will be overwritten by a new deployment to the environment. Environment updates can be locked if needed by a request to `@release-managers` in the `#staging-ref` Slack channel.~~
 
-~~A simplified process to request SSH access to Staging Ref virtual machines and the GKE cluster is being worked on in [issue#343938](https://gitlab.com/gitlab-org/gitlab/-/issues/343938).~~
+~~A simplified process to request SSH access to the Sandbox Cell virtual machines and the GKE cluster is being worked on in [issue#343938](https://gitlab.com/gitlab-org/gitlab/-/issues/343938).~~
 
 #### Trigger QA pipelines
 
@@ -108,9 +108,9 @@ To sign in to the environment, navigate to ~~[staging-ref.gitlab.com](https://st
 
 ~~Monitoring implementation was done in ([epic#594](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/594)). Documentation can be found in the [runbooks](https://gitlab.com/gitlab-com/runbooks/-/blob/master/docs/staging-ref/get-monitoring-setup.md).~~
 
-~~Dashboards for Staging Ref Cell can be found in Grafana under the [staging-ref folder](https://dashboards.gitlab.net/d/Fyic5Wanz/server-performance?orgId=1). There are other existing dashboards which may also show Staging Ref information if you select `environment=gstg-ref`.~~
+~~Dashboards for Staging Ref Cell can be found in Grafana under the [staging-ref folder](https://dashboards.gitlab.net/d/Fyic5Wanz/server-performance?orgId=1). There are other existing dashboards which may also show Sandbox Cell information if you select `environment=gstg-ref`.~~
 
-~~The Geo secondary site is running Grafana at <https://geo.staging-ref.gitlab.com/-/grafana>. Credentials can be found in `EU site monitoring` section in `Staging Ref credentials` in 1Password `Engineering` vault.~~
+~~The Geo secondary site is running Grafana at <https://geo.staging-ref.gitlab.com/-/grafana>. Credentials can be found in `EU site monitoring` section in `Sandbox Cell credentials` in 1Password `Engineering` vault.~~
 
 ~~If you need a specific dashboard or an existing dashboard does not work please reach out to [`#staging-ref`](https://gitlab.slack.com/archives/C02LN0K1N3Y) channel.~~
 
@@ -128,14 +128,14 @@ To sign in to the environment, navigate to ~~[staging-ref.gitlab.com](https://st
 
 #### Pre-existing test accounts
 
-~~Staging Ref Cell environment has pre-existing accounts that can be used for testing. For example, Admin accounts on different paid plans, Auditor user, QA users. All credentials are stored in `Staging Ref credentials` in 1Password `Engineering` vault.~~
+~~The Sandbox Cell environment has pre-existing accounts that can be used for testing. For example, Admin accounts on different paid plans, Auditor user, QA users. All credentials are stored in `Sandbox Cell credentials` in 1Password `Engineering` vault.~~
 
 #### Working with a SAML SSO enabled group
 
 ~~An Okta application has been setup to act as SAML idP for [https://staging-ref.gitlab.com/groups/saml-sso-group](https://staging-ref.gitlab.com/groups/saml-sso-group).~~
 ~~Two users with names `gitlab-qa-saml-sso-user1` and `gitlab-qa-saml-sso-user2` have been created and added to Okta and assigned the application. These users are also available in staging-ref environment.~~
 
-~~Please note that all credentials and values for fields mentioned below are saved in 1Password Engineering Vault in "Staging Ref credentials" under "User credentials for saml-sso-group Group".~~
+~~Please note that all credentials and values for fields mentioned below are saved in 1Password Engineering Vault in "Sandbox Cell credentials" under "User credentials for saml-sso-group Group".~~
 
 ~~For using SAML SSO, you will need to:~~
 1. ~~As an [admin](#admin-access), create the group at [https://staging-ref.gitlab.com/groups/saml-sso-group](https://staging-ref.gitlab.com/groups/saml-sso-group) if it does not already exist.~~
@@ -152,7 +152,7 @@ To sign in to the environment, navigate to ~~[staging-ref.gitlab.com](https://st
 
 ### Future iterations and known limitations
 
-~~Staging Ref environment has some known limitations that will be worked on:~~
+~~The Sandbox Cell environment has some known limitations that will be worked on:~~
 
 - ~~Test data configuration will be explored ([epic#7020](https://gitlab.com/groups/gitlab-org/-/epics/7020))~~
 - ~~Configure Shared Runners ([issue#353284](https://gitlab.com/gitlab-org/gitlab/-/issues/353284))~~
@@ -164,8 +164,8 @@ To sign in to the environment, navigate to ~~[staging-ref.gitlab.com](https://st
 - ~~Increase Staging Ref adoption and gather feedback - ([issue#350744](https://gitlab.com/gitlab-org/gitlab/-/issues/350744))~~
 - ~~Configure Pages on Staging Ref ([issue#383243](https://gitlab.com/gitlab-org/gitlab/-/issues/383243))~~
 
-~~Other outstanding work for Staging Ref is tracked [in GitLab issue tracker](https://gitlab.com/groups/gitlab-org/-/issues/?sort=updated_desc&state=opened&label_name%5B%5D=staging-improvements&label_name%5B%5D=Future&first_page_size=20).~~
+~~Other outstanding work for the Sandbox Cell is tracked [in GitLab issue tracker](https://gitlab.com/groups/gitlab-org/-/issues/?sort=updated_desc&state=opened&label_name%5B%5D=staging-improvements&label_name%5B%5D=Future&first_page_size=20).~~
 
 ### Feedback
 
-~~If you need some additional custom configuration for Staging Ref Cell to be explored or you have other feedback and ideas for improvements, please reach out to [`#eng-allocation-new-staging`](https://gitlab.slack.com/archives/C02BA0YKRUH) Slack channel or add a comment to the feedback [issue#350744](https://gitlab.com/gitlab-org/gitlab/-/issues/350744).~~
+~~If you need some additional custom configuration for the Sandbox Cell to be explored or you have other feedback and ideas for improvements, please reach out to [`#eng-allocation-new-staging`](https://gitlab.slack.com/archives/C02BA0YKRUH) Slack channel or add a comment to the feedback [issue#350744](https://gitlab.com/gitlab-org/gitlab/-/issues/350744).~~
