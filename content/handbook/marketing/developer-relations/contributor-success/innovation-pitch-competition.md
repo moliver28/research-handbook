@@ -1,6 +1,6 @@
 ---
 title: Innovation Pitch Competion
-description: Informations and guidelines about Innovation Pitch Competitions
+description: Information and guidelines about the Innovation Pitch Competition
 ---
 
 - - -
