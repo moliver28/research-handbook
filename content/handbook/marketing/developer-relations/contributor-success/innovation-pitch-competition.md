@@ -49,10 +49,10 @@ description: Information and guidelines about the Innovation Pitch Competition
 * Participants were kept up to date mainly via an [Updates](https://gitlab.devpost.com/updates) channel on DevPost. Each time an update was published, all participants were sent an email containing the information of the update.
 * Participants could contact the GitLab team via a [Discussions](https://gitlab.devpost.com/forum_topics) channel on DevPost. The GitLab team also made use of this channel to craft FAQ’s.
 * The GitLab team organized 4 AMA’s (video sessions) which ran on Discord.
-    * AMA 1: General info on the Innovation Pitch Competition
-    * AMA 2: How to Give a Great Pitch
-    * AMA 3: Public Speaking 101
-    * AMA 4: The Importance of Feedback and Iteration
+    * AMA 1: [General info on the Innovation Pitch Competition](https://www.youtube.com/watch?v=c0hDvIE3q00)
+    * AMA 2: [How to Give a Great Pitch](https://www.youtube.com/watch?v=IHUz7xr0vmU)
+    * AMA 3: [Public Speaking 101](https://www.youtube.com/watch?v=uFDLzyH7RDM)
+    * AMA 4: [The Importance of Feedback and Iteration](https://www.youtube.com/watch?v=bDGjzyS_9b0)
 
 ## Competition marketing
 
