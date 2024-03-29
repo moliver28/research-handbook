@@ -95,13 +95,13 @@ description: Information and guidelines about the Innovation Pitch Competition
     * 916 individual registrations to the competition.
     * 69 validated projects (out of 110 submissions).
     * Main participants specialties:
-        1. Full Stack Developer (46,1%)
-        2. Data Scientist (13,3%)
+        1. Full Stack Developer (46.1%)
+        2. Data Scientist (13.3%)
         3. Front-end and Back-end developers (both 9%)
     * Main participants submissions topics: 
-        4. Social Impact (34,8%) 
-        5. AI (26,1%) 
-        6. CI/CD catalog (24,6%)
+        4. Social Impact (34.8%) 
+        5. AI (26.1%) 
+        6. CI/CD catalog (24.6%)
 
 ## Winner Announcement
 
