@@ -94,6 +94,8 @@ Who sees assessment results?
 1. The Elevate program team will look at cumulative results, vs individual results.
 1. Stakeholder results will be shared with you directly for use in the program.
 
+Results from the self and stakeholder assessments will be used throughout the program, during workshop sessions and intersession work, to inform and personalize the material for each participant.
+
 ## Frequently Asked Questions
 
 ### What does success in Elevate+ look like?
