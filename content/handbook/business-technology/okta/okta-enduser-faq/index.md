@@ -9,7 +9,7 @@ title: "Okta FAQs"
 
 
 
-Below are frequently asked questions about Okta and GitLab's implementation of it. If you have an additional question that is not listed here, please add it to our [Okta FAQ doc](https://docs.google.com/document/d/1fRiWDmZd3BNu7dkr40h0eAWtE1KW5TifPRYXXUKh2a0/) and we'll improve this list.
+Below are frequently asked questions about Okta and GitLab's implementation of it. If you have an additional question that is not listed here, please ask in #it_help.
 
 ## How do I use Okta to log into an application?
 
@@ -21,7 +21,7 @@ Below are frequently asked questions about Okta and GitLab's implementation of i
 
 ## How will Okta support GitLab's account creation?
 
-The activation workflow is triggered by the creation of account within Workday
+The activation workflow is triggered by the creation of account within Workday.
 
 ## Which browsers does Okta work on?
 
