@@ -369,7 +369,7 @@ The Vice President of Customer Success is a job grade [level 12](/handbook/total
 
 ## Career Ladder
 
-The next steps in the Customer Success job family is to move to a senior job grade.
+Team members in the Customer Success Engineering job family may progress through the career ladder; in some instances team members may move to other roles in the Sales organization such as Customer Success Manager, Customer Success Architect or Solutions Architect.  
 
 ## Hiring Process
 
