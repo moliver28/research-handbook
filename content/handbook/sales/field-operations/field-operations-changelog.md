@@ -18,7 +18,9 @@ To learn more about Field Ops releases, see the [RSOE Release Schedule handbook 
 
 ### 2024-04-01 Release ([epic](https://gitlab.com/groups/gitlab-com/sales-team/field-operations/-/epics/489))
 
+**[Update to Closed Lost/Downgrade Reason Fields](https://gitlab.com/gitlab-com/sales-team/field-operations/systems/-/issues/4697)**
 
+**[Updated Sales Stage Definitions](https://gitlab.com/gitlab-com/sales-team/field-operations/enablement/-/issues/2362)**
 
 ### 2024-03-18 Release ([epic](https://gitlab.com/groups/gitlab-com/sales-team/field-operations/-/epics/53))
 
