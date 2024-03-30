@@ -89,7 +89,7 @@ The CSM (Intermediate) is a job grade [level 6](/handbook/total-rewards/compensa
 - Knowledge of software development lifecycle and development pipeline
 - Understanding of continuous integration, continuous deployment, DevSecOps
 
-### Senior CSM
+### Senior Customer Success Manager (CSM)
 
 The Senior CSM reports to the [Manager/Senior Manager, CSM](/job-families/sales/customer-success-management/#manager-of-customer-success-managers).
 
@@ -117,7 +117,7 @@ The Senior CSM is a job grade [level 7](/handbook/total-rewards/compensation/com
 - Advanced knowledge of software development lifecycle and development pipeline
 - Advanced project management experience & skills
 
-### Staff CSM
+### Staff Customer Success Manager (CSM)
 
 Market Justification: The business need for an individual contributor Staff CSM role is to have a team member who is a subject matter expert in customer engagement, success planning, and driving platform adoption. In addition to working with the customers in their book of business, they provide guidance and coaching to other CSMs and develop improvements to our customer engagement model. In the market, there are over 20 organizations that typically have 2-3 Staff CSMs.
 
@@ -164,7 +164,7 @@ The Staff CSM is a job grade [level 9](/handbook/total-rewards/compensation/comp
 - 6 enablement contributions to global CS team per fiscal year
 - 2 Use-case specific or Vertical-specific playbooks created, with global team enabled on them, per year
 
-### Manager, Customer Success Managers
+### Manager, Customer Success Managers (CSM)
 
 The Manager, Customer Success Managers (CSM), reports to the [Director of Customer Success Managers](/job-families/sales/customer-success-management/#director-of-customer-success-managers).
 
@@ -206,7 +206,7 @@ The Manager, CSM is a job grade [level 9](/handbook/total-rewards/compensation/c
 - Ability to connect technology with measurable business value
 - Strategic thinking about business, products, and technical challenges
 
-### Senior Manager, Customer Success Managers
+### Senior Manager, Customer Success Managers (CSM)
 
 The Senior Manager, Customer Success Managers(CSM) reports to the [Director of Customer Success Managers](/job-families/sales/customer-success-management/#director-of-customer-success-managers).
 
