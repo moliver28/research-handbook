@@ -7,7 +7,7 @@ The Customer Success Architect (CSA) team focuses on the themes of align, enable
 
 Additionally, our team serves as liaisons between the customer and the GitLab ecosystem, streamlining collaboration with Product Management, Engineering, Sales, Professional Services, and others. [CSM handbook](/handbook/customer-success/csm).
 
-The Customer Success Architect (CSA) team at GitLab is expected to serve and operate in the following ways and have product and domain expertise.  The depth of knowledge in each area will progress within the CSM career ladder.
+The Customer Success Architect (CSA) team focuses on hands-on technical enablement, adoption, utilization and maturity - while maintaining strong customer relationships and business alignment.
 
 ## Levels
 
