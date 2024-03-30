@@ -21,11 +21,11 @@ The Associate CSA is a job grade [level 5](/handbook/total-rewards/compensation/
 
 #### Associate CSA Responsibilities
 
-- 
+- [content to be added]
 
 #### Associate CSA Requirements
 
-- 
+- [conent to be added]
 
 ### Customer Success Architect (CSA) (Intermediate)
 
@@ -37,11 +37,11 @@ The CSA (Intermediate) is a job grade [level 6](/handbook/total-rewards/compensa
 
 #### CSA (Intermediate) Responsibilities
 
-
+- [content to be added]
 
 #### CSA (Intermediate) Requirements
 
-
+- [content to be added]
 
 ### Senior Customer Success Architect (CSA)
 
@@ -53,11 +53,11 @@ The Senior CSA is a job grade [level 7](/handbook/total-rewards/compensation/com
 
 #### Senior CSA Responsibilities
 
-- 
+- [content to be added]
 
 #### Senior CSA Requirements
 
-- 
+- [content to be added]
 
 ### Staff Customer Success Architect (CSA)
 
@@ -71,11 +71,11 @@ The Staff CSA is a job grade [level 9](/handbook/total-rewards/compensation/comp
 
 #### Staff CSA Responsibilities
 
-- 
+- [content to be added]
 
 #### Staff CSA Requirements
 
-- 
+- [content to be added]
 
 ### Manager, Customer Success Architects (CSA)
 
@@ -87,11 +87,11 @@ The Manager, CSA is a job grade [level 9](/handbook/total-rewards/compensation/c
 
 #### Manager, CSA Responsibilities
 
-- 
+- [content to be added]
 
 #### Manager, CSA Requirements
 
-- 
+- [content to be added]
 
 ### Senior Manager, Customer Success Architects (CSA)
 
@@ -103,11 +103,11 @@ The Senior Manager, CSA is a job grade [level 9](/handbook/total-rewards/compens
 
 #### Senior Manager, CSA Responsibilities
 
-- 
+- [content to be added]
 
 #### Senior Manager, CSA Requirements
 
-- 
+- [content to be added]
 
 
 ## Specialties
@@ -116,11 +116,11 @@ The Senior Manager, CSA is a job grade [level 9](/handbook/total-rewards/compens
 
 #### Public Sector CSA Responsibilities
 
-- Extends the corresponding CSA level responsibilities, working exclusively with Public Sector customers
+- Extends the corresponding Customer Success Architect level responsibilities, working exclusively with Public Sector customers
 
 #### Public Sector CSA Requirements
 
-In addition to the corresponding Customer Success Manager level requirements:
+In addition to the corresponding Customer Success Architect level requirements:
 - TS/SCI Security Clearance if applicable
 - Knowledge of and demonstrated progressive experience with Public Sector customers
 
