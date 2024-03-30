@@ -13,7 +13,7 @@ The Customer Success Engineer (CSE) role provides deep subject matter expertise 
 
 ### Associate Customer Success Engineer
 
-The Associate CSE reports to the [Manager/Senior Manager, CSE](/job-families/sales/customer-success-engineer/#manager-of-customer-success-engineers)
+The Associate Customer Success Engineer (CSE) reports to the [Manager/Senior Manager, CSE](/job-families/sales/customer-success-engineer/#manager-of-customer-success-engineers)
 
 #### Associate CSE Job Grade
 
@@ -30,13 +30,13 @@ The Associate CSE is a job grade [level 5](/handbook/total-rewards/compensation/
 
 ### Customer Success Engineer (Intermediate)
 
-The CSE (Intermediate) reports to the [Manager/Senior Manager, CSE](/job-families/sales/customer-success-engineer/#manager-of-customer-success-engineers)
+The Customer Success Engineer (CSE) (Intermediate) reports to the [Manager/Senior Manager, CSE](/job-families/sales/customer-success-engineer/#manager-of-customer-success-engineers)
 
 #### CSE (Intermediate) Job Grade
 
 The Intermediate CSE is a job grade [level 6](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
-#### Customer Success Engineer (Intermediate) Responsibilities
+#### CSE (Intermediate) Responsibilities
 
 - Engage with customers, via Zoom calls and emails, in a technical consultancy and advisor role during the post-sales process while providing technical and solution guidance
 - Providing technical, architectural and best practice guidance
@@ -48,7 +48,7 @@ The Intermediate CSE is a job grade [level 6](/handbook/total-rewards/compensati
 - Continuously improve professional skills with a focus on personal mastery and team learning through activities such as training, reading and seeking mentorship from others
 - Contributes to our docs, YouTube channel, and other enablement programs such as the Digital Journey
 
-#### Customer Success Engineer (Intermediate) Requirements
+#### CSE (Intermediate) Requirements
 
 - Experience with a GitLab use case (SCM, CI, CD, DevSecOps, Agile Planning) to provide in-depth customer guidance and enablement
 - Proficiency using DevSecOps tools or highly technical tooling in adjacent fields
@@ -61,13 +61,13 @@ The Intermediate CSE is a job grade [level 6](/handbook/total-rewards/compensati
 
 ### Senior Customer Success Engineer
 
-The Senior CSE reports to the [Manager/Senior Manager, CSE](/job-families/sales/customer-success-engineer/#manager-of-customer-success-engineers)
+The Senior Customer Success Engineer (CSE) reports to the [Manager/Senior Manager, CSE](/job-families/sales/customer-success-engineer/#manager-of-customer-success-engineers)
 
 #### Senior CSE Job Grade
 
 The Senior CSE is a job grade [level 7](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
-#### Senior Customer Success Engineer Responsibilities
+#### Senior CSE Responsibilities
 
 - Extends the Customer Success Engineer responsibilities
 - Strategize on the overall objectives and long-range goals of the team
@@ -77,7 +77,7 @@ The Senior CSE is a job grade [level 7](/handbook/total-rewards/compensation/com
 - Help drive team expertise and technical thought leadership
 - Maintain deep knowledge of the GitLab platform
 
-#### Senior Customer Success Engineer Requirements
+#### Senior CSE Requirements
 
 - Extends the Customer Success Engineer requirements
 - Ability to translate business requirements into business value, and work with sales and marketing to promote value-driven solutions
@@ -89,13 +89,13 @@ The Senior CSE is a job grade [level 7](/handbook/total-rewards/compensation/com
 
 Market Justification: The business need for an individual contributor Staff CSE role is to have a team member who is a subject matter expert (SME) with deep subject matter expertise positioned to train on and refine the practice of the CSE function. The Staff CSE collaborates closely with the CSE and CSM leadership in further refining the direction and enablement of the CSE specialty within Customer Success Management. In the market, there are over 20 organizations that typically have 2-3 Staff CSEs.
 
-The Staff CSE reports to the [Manager/Senior Manager, CSE](/job-families/sales/customer-success-engineer/#manager-of-customer-success-engineers)
+The Staff Customer Success Engineer (CSE) reports to the [Manager/Senior Manager, CSE](/job-families/sales/customer-success-engineer/#manager-of-customer-success-engineers)
 
 #### Staff CSE Job Grade
 
 The Intermediate CSE is a job grade [level 9](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
-#### Staff Customer Success Engineer Responsibilities
+#### Staff CSE Responsibilities
 
 - Extends the Senior Customer Success Engineer responsibilities
 - Demonstrates seniority in 3 or more [customer use cases](/handbook/use-cases/)
@@ -107,7 +107,7 @@ The Intermediate CSE is a job grade [level 9](/handbook/total-rewards/compensati
 - Increase global CS team knowledge and thought leadership within the realm of their expertise
 - Serves as advisor to Product Team providing feedback to promote customer use cases and assist in product feature prioritization
 
-#### Staff Customer Success Engineer Requirements
+#### Staff CSE Requirements
 
 - Extends the Senior Customer Success Engineer requirements
 - Experience and a proven track record with the additional responsibilities of a Staff TAM/CSE/CSM
@@ -117,9 +117,9 @@ The Intermediate CSE is a job grade [level 9](/handbook/total-rewards/compensati
 - Excellent moderation and communication skills
 - Extensive experience within a technical or account management area
 
-### Manager, Customer Success Engineering
+### Manager, Customer Success Engineers
 
-The Manager, Customer Success Engineering(CSE), reports to the [Director of Customer Success Managers](/job-families/sales/customer-success-management/#director-of-customer-success-managers).
+The Manager, Customer Success Engineers (CSE), reports to the [Director of Customer Success Managers](/job-families/sales/customer-success-management/#director-of-customer-success-managers).
 
 #### Manager, CSE Job Grade
 
@@ -138,9 +138,9 @@ The Manager, CSE is a [grade 9](/handbook/total-rewards/compensation/compensatio
   - Deeper technical understanding in DevSecOps and ability to coach and mentor team members on that topic
   - Experience with content creation and delivery at scale
 
-### Senior Manager, Customer Success Engineering
+### Senior Manager, Customer Success Engineers
 
-The Senior Manager, CSE reports to the [Director of Customer Success Managers](/job-families/sales/customer-success-management/#director-of-customer-success-managers).
+The Senior Manager, Customer Success Engineers (CSE) reports to the [Director of Customer Success Managers](/job-families/sales/customer-success-management/#director-of-customer-success-managers).
 
 #### Senior Manager, CSE Job Grade
 
@@ -163,6 +163,20 @@ The Senior Manager, CSE is a [grade 9](/handbook/total-rewards/compensation/comp
 - Demonstrated progressive management experience leading teams in a software company
 - Demonstrated progressive experience leading customer success managers/engineers, Technical Account Managers, account management or sales teams with team sizes of 5+ people
 - Proven experience leading teams, driving software adoption, and building and scaling customer success practices
+
+## Specialties
+
+### Public Sector Customer Success Engineer (CSE)
+
+#### Public Sector CSE Responsibilities
+
+- Extends the corresponding Customer Success Engineer level responsibilities, working exclusively with Public Sector customers
+
+#### Public Sector CSE Requirements
+
+In addition to the corresponding Customer Success Engineer level requirements:
+- TS/SCI Security Clearance if applicable
+- Knowledge of and demonstrated progressive experience with Public Sector customers
 
 ## Performance Indicators
 
@@ -201,9 +215,6 @@ The panel interview consists of several members of the Customer Success team. It
 - Live demonstration based on the guidance provided ahead of the interview by the recruiter
 - General discussion and questions from the panel
 
-### Executive Interview
-
-Conducted by the [Senior Director of Customer Success](/job-families/sales/customer-success-management/#senior-director-of-CSMs), this is a discussion with the candidate as a final assessment interview to evaluate the candidate's suitability for the role. This is a 30 minute interview.
 
 ### Reference and Background Check
 
