@@ -3,11 +3,7 @@
 title: "Flaky tests Primer"
 ---
 
-
-
-
-| ------ | ------ |
-| **Last reviewed** | 2021-10-28 |
+**Last reviewed**: 2021-10-28
 
 - [Flaky tests technical documentation](https://docs.gitlab.com/ee/development/testing_guide/flaky_tests.html)
 - [Measure and act on flaky specs](https://gitlab.com/groups/gitlab-org/-/epics/8789)

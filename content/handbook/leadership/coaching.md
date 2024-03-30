@@ -325,7 +325,7 @@ That action will include additional coaching, both verbal and documented.
 
 There are times when a Team Member’s behavior becomes so egregious that it is more than a performance issue, and becomes a true conduct concern. If at any point you suspect a team member has engaged in such behavior TMR should be looped in immediately, regardless of whether or not you consider the Team Member a high performer.
 
-- [TMR Handbook Page]({{< ref "/handbook/people-group/readmes" >}})
+- [TMR Handbook Page](/handbook/people-group/readmes)
 - [LDR 102 Underperformance](https://www.youtube.com/watch?v=nRJHvzXwXBU&t=1s)
 - [Managing Underperformance Handbook Interview](https://www.youtube.com/watch?v=-mLpytnQtlY)
 

@@ -37,7 +37,7 @@ After you sign your offer and complete your background check and references, you
   - South Korea: Global Upside / Safeguard
   - UK: Papaya
 1. If you are hired through a PEO location, the PEO will reach out to you prior to your start date to obtain the necessary documents and start their onboarding process.
-1. The next email you will receive, is a [TaNEWki call]({{< ref "/handbook/people-group/general-onboarding#tanuki-orange" >}}) invite. We hope you can join us! This Zoom call addresses those first day nerves and gives you some time to meet other new team members. You will see this invite sent to you 1-2 weeks before your start date.
+1. The next email you will receive, is a [TaNEWki call](/handbook/people-group/general-onboarding#tanuki-orange) invite. We hope you can join us! This Zoom call addresses those first day nerves and gives you some time to meet other new team members. You will see this invite sent to you 1-2 weeks before your start date.
 1. You may receive an email from Okta (our SAAS application portal) with an invite to register. **Please ignore this email** until you receive your onboarding welcome email on your first day with us. This will ensure that no issues are experienced with your access levels on your first day.
 
 ### First day {.text-warning}
@@ -87,8 +87,8 @@ As point 36 on our [communication handbook page](/handbook/communication/#writin
 
 | Acronym| Word/Saying/Title |
 |:---------------|:---------------|
-| VSD |  [Value Stream Disovery](/handbook/customer-success/solutions-architects/sa-practices/value-stream-discovery) |
-| VSW |  [Value Stream Workshop](/handbook/customer-success/solutions-architects/sa-practices/value-stream-discovery/#value-stream-workshop) |
+| VSD |  [Value Stream Disovery](/handbook/solutions-architects/sa-practices/value-stream-discovery) |
+| VSW |  [Value Stream Workshop](/handbook/solutions-architects/sa-practices/value-stream-discovery/#value-stream-workshop) |
 | L28D |  Short form for "Last 28 days". |
 
 **People Group Related Acronyms**

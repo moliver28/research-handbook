@@ -76,7 +76,7 @@ Maintenance/quality:
 1. Are the % of undefined merge requests < 1% for the timeframe being analyzed?  If not, what should be done to correct?
 1. How do error budgets look?
 1. Are past due bugs being prevented/prioritized as appropriate?
-1. Are usability/SUS impacting issues being prioritized as appropriate?
+1. Are usability issues being prioritized as appropriate?
 1. Are security issues being prioritized as appropriate?
 1. Are infrastructure backlog issues being prioritized as appropriate?
 1. Are maintenance priorities from the engineering development manager being prioritized as appropriate?

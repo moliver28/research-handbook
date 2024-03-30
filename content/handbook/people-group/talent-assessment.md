@@ -17,7 +17,7 @@ Additional key benefits of the Assessment Program include:
 
 ## Overview
 
-We use Workday to complete our Talent Assessment. You can review an overview of Workday Talent [here](https://docs.google.com/presentation/d/1CYNNtYWvbDyDu_WndCQ47uvTbZYhNKt5PJLnrwZ_3ek/edit?usp=sharing). Please reach out to your [People Business Partner]({{< ref "/handbook/people-group#people-business-partner-alignment-to-division" >}}) if you have any questions.
+We use Workday to complete our Talent Assessment. You can review an overview of Workday Talent [here](https://docs.google.com/presentation/d/1CYNNtYWvbDyDu_WndCQ47uvTbZYhNKt5PJLnrwZ_3ek/edit?usp=sharing). Please reach out to your [People Business Partner](/handbook/people-group#people-business-partner-alignment-to-division) if you have any questions.
 You can also review the following [guide](https://docs.google.com/document/d/1bdGDq85nY3uLRFLrmKV5RDyQpGkPmnvGAI1pN_RRNto/edit) which mirrors what is included in the Workday Talent Assessment template to prepare you prior to the tool being launched.
 
 There are many talent assessment options, and we have opted to use a Performance/Growth Potential Matrix (commonly known as "9-Box" in the US) and annually review Key Talent.
@@ -136,9 +136,9 @@ How can managers determine whether their team members are Developing, Performing
 Performance against Job Family responsibilities, requirements, performance indicators, and functional competencies (if applicable) should be weighted at 60%.
 
 - Review Job Families: Look at the Responsibilities section and how your team member is performing against those responsibilities
-    - Example: [Software Engineer in Test]({{< ref "/job-families/engineering/software-engineer-in-test#responsibilities" >}})
+    - Example: [Software Engineer in Test](/job-families/engineering/software-engineer-in-test#responsibilities)
 - Review Performance indicators per Job Family: Look at the Performance indicators.
-    - Example: [Software Engineer in Test]({{< ref "/job-families/engineering/software-engineer-in-test#performance-indicators" >}})
+    - Example: [Software Engineer in Test](/job-families/engineering/software-engineer-in-test#performance-indicators)
 - *(if applicable)* [Functional Competencies](/handbook/competencies/#functional-competencies)
 
 For management roles, please also review and consider the [levels]({{< ref "structure#levels" >}}) outlined in the Organizational Structure.
@@ -300,7 +300,7 @@ The calibration session is one of the most important pieces of the Performance/G
 
 It is likely not necessary to discuss each team member in detail, particularly for larger groups. Calibration sessions typically focuses on gaps, outliers and areas that might require additional management attention and/or alignment.
 
-As a best practice, we should calibrate outliers. "Outliers" are typically considered to [Box 1 ("Exceeding Growth Potential" and "Exceeding Performance") and Box 9 ("Developing Growth Potential" and "Developing Performance")]({{< ref "/handbook/people-group/talent-assessment" >}}). [People Business Partners]({{< ref "/handbook/people-group#people-business-partner-alignment-to-division" >}}) and business leaders have discretion to expand this threshold as needed, but live calibration for team members in Box 1 and Box 9 should be the baseline across the board.
+As a best practice, we should calibrate outliers. "Outliers" are typically considered to [Box 1 ("Exceeding Growth Potential" and "Exceeding Performance") and Box 9 ("Developing Growth Potential" and "Developing Performance")](/handbook/people-group/talent-assessment). [People Business Partners](/handbook/people-group#people-business-partner-alignment-to-division) and business leaders have discretion to expand this threshold as needed, but live calibration for team members in Box 1 and Box 9 should be the baseline across the board.
 
 A few additional reasons to consider calibrating beyond Box 1 and Box 9 are:
 
@@ -351,14 +351,14 @@ After the calibration sessions the performance and growth potential outcomes can
 
 - [Career Development Conversations]({{< ref "1-1#career-development-discussion-at-the-1-1" >}})
 - Promotion planning
-- Identifying [L&D opportunities]({{< ref "/handbook/people-group/learning-and-development" >}})
+- Identifying [L&D opportunities](/handbook/people-group/learning-and-development)
 - Succession Planning
 
 ## Q4 Formal Talent Assessment
 
 ### Timeline
 
-Below is the high level timeline for the formal assessment in Q4 FY24 (Nov, Dec, Jan). Different departments may have additional due dates built into the high level timeline, so please follow up with your [People Business Partner]({{< ref "/handbook/people-group#people-business-partner-alignment-to-division" >}}) if you have any questions.
+Below is the high level timeline for the formal assessment in Q4 FY24 (Nov, Dec, Jan). Different departments may have additional due dates built into the high level timeline, so please follow up with your [People Business Partner](/handbook/people-group#people-business-partner-alignment-to-division) if you have any questions.
 
 - **2023-10-16:** Kick off Optional Self-Evaluation cycle for all Team Members
 - **2023-10-25 (5:00pm PST):** Due date for all Self-Evaluations
@@ -425,7 +425,7 @@ When assessing team members who have transferred teams or changed roles througho
 
 ## Best Practices for Communicating Performance/Growth Potential Factors
 
-After calibration sessions are done and performance and growth potential factors are determined, it’s time to communicate the final results with team members. **Communications can begin after you have been notified that final talent assessment factors have been approved by the E-group**. The conversation following the talent assessment process is the most important part; it is a great way to drive alignment with your team members and set them up for success moving forward.  Below are  some of the best practices for communications, but remember, if you are ever in doubt please reach out to your manager or [People Business Partner]({{< ref "/handbook/people-group#people-business-partner-alignment-to-division" >}}) for additional support.
+After calibration sessions are done and performance and growth potential factors are determined, it’s time to communicate the final results with team members. **Communications can begin after you have been notified that final talent assessment factors have been approved by the E-group**. The conversation following the talent assessment process is the most important part; it is a great way to drive alignment with your team members and set them up for success moving forward.  Below are  some of the best practices for communications, but remember, if you are ever in doubt please reach out to your manager or [People Business Partner](/handbook/people-group#people-business-partner-alignment-to-division) for additional support.
 
 1. **Communicate performance and growth potential factors face-to-face over Zoom**. As a manager, this is the opportunity for you to have a conversation with your team member about their performance and growth potential. Having the conversation over Zoom allows for you to have a dialogue with your team member (versus just sharing their performance and growth potential factor asynchronously) and allows you to pick up other information, like tone and non-verbal cues which can tell you more about how someone is feeling during this conversation. You may also choose to share the PDF of the review prior to the conversation so that your team member has time to process the information. If so, ideally share just 1-2 days prior to the conversation so you are able to address questions promptly.
 1. **Prepare for the discussion ahead of time.** As a manager, you should prepare in advance of calibration discussions with your team members. Before communicating a team member’s [performance and growth potential factors]({{< ref "compensation-review-cycle#performance-factor" >}}), it’s beneficial to look back through your preparation document, notes, and anything relevant that was discussed as part of the calibration exercise. Be prepared with notes on the following:
@@ -481,7 +481,7 @@ As a next step, let's schedule some time to talk more about what you want to do 
 ### Sample Next Steps
 
 The most important part of the talent assessment discussion is to determine next steps in partnership with your team member. The team member should be the DRI for the next steps with support from you as their manager. Our [Career Development handbook page]({{< ref "career-development" >}}) includes a lot of great information and resources on career development including [an Individual Growth Plan guide](/handbook/people-group/learning-and-development/career-development/igp-guide/) which should help provide structure and a plan for next steps.
-If you have any questions or concerns about next steps, please contact your manager and/or your [People Business Partner]({{< ref "/handbook/people-group#people-business-partner-alignment-to-division" >}}).
+If you have any questions or concerns about next steps, please contact your manager and/or your [People Business Partner](/handbook/people-group#people-business-partner-alignment-to-division).
 
 ## Information Guide
 
@@ -583,8 +583,8 @@ If you feel a conversation might be particularly challenging, you may reach out 
 **My team member is exceeding growth potential expectations, how should I be thinking about their ongoing development?**
 
 Great! At GitLab team members have the opportunity to own their own development, and deserve a great manager (you) to facilitate it. Ask your team member to articulate where they would like to see their skills and career develop. You may have insights that help them refine those goals based on where you see the business going, as they will be most successful in gaining the experience they’re looking for if there are opportunities to align those goals with business goals.
-Using the [70-20-10 model for learning]({{< ref "/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development#70-20-10-rule-for-development" >}}), help your team member identify experiential and formal learning opportunities, and consider connections you can facilitate that will support their growth.
-The [Career Development handbook page]({{< ref "/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development" >}}) has more ideas to help your team member craft a growth plan, including information on GitLab’s [Growth and Development benefit]({{< ref "/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development" >}}).
+Using the [70-20-10 model for learning](/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development#70-20-10-rule-for-development), help your team member identify experiential and formal learning opportunities, and consider connections you can facilitate that will support their growth.
+The [Career Development handbook page](/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development) has more ideas to help your team member craft a growth plan, including information on GitLab’s [Growth and Development benefit](/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development).
 
 **How should we be communicating Growth Potential to team members who we haven't communicated this to before?**
 
@@ -639,7 +639,7 @@ Recommended process for our FY'24 Q2 cycle will be as follows:
 
     - **Achievements**
 
-      List your 3 most significant achievements since the last formal [Talent Assessment]({{< ref "/handbook/people-group/talent-assessment" >}}), aligned with the job responsibilities and expectations of the role. This can include significant impact to the department or company, customer-impact, community-impacting, etc. Feedback can also be included in this section if applicable.
+      List your 3 most significant achievements since the last formal [Talent Assessment](/handbook/people-group/talent-assessment), aligned with the job responsibilities and expectations of the role. This can include significant impact to the department or company, customer-impact, community-impacting, etc. Feedback can also be included in this section if applicable.
 
     - **Strengths & Opportunities in Role**
 
@@ -683,7 +683,7 @@ We have intentionally provided a longer timeline to ensure different business gr
 
 ## Succession Planning
 
-Succession planning is an important step in our Talent Assessment process. Completing the [Performance/Growth Potential Assessment]({{< ref "/handbook/people-group/talent-assessment" >}}) gives leaders a fresh overview of the top performers and the highest growth team members in their respective organizations. Particularly for individuals in Senior Leadership roles and above (the [S-Group]({{< ref "structure#s-group" >}}) and depending on structure the [Director-Group]({{< ref "structure#director-group" >}})), a recommended next step following the Performance/Growth Potential assessment is to do succession planning.
+Succession planning is an important step in our Talent Assessment process. Completing the [Performance/Growth Potential Assessment](/handbook/people-group/talent-assessment) gives leaders a fresh overview of the top performers and the highest growth team members in their respective organizations. Particularly for individuals in Senior Leadership roles and above (the [S-Group]({{< ref "structure#s-group" >}}) and depending on structure the [Director-Group]({{< ref "structure#director-group" >}})), a recommended next step following the Performance/Growth Potential assessment is to do succession planning.
 
 Succession planning ensures we are identifying and developing future GitLab leaders to ensure business continuity in the event of an unforeseen change, and providing the current leadership team the opportunity to grow and scale. It may provide an opportunity to diversify our leadership team by developing our internal bench of talent. Note, potential alone does not determine who will be a successor. Strong succession candidates should demonstrate sustained exceeding performance and growth, aspire to have a role at the next level, and be ready for a much larger role in the near term.
 
@@ -703,7 +703,7 @@ The succession planning process might vary slightly for different areas of the b
 
 1. **Leaders go through the [Performance/Growth Potential Assessment](#the-performancepotential-matrix) process for all of their direct reports.** Ideally, this process includes [calibration](#calibration-session-guidelines) to generate a level of initial familiarity amongst leadership peers with the talent in the organization.
 1. **Leaders identify and document their respective successors** (and emergency coverage plans if the identified successor could not currently cover in an emergency situation) leveraging [this template](https://docs.google.com/presentation/d/1w-ODnm-S_sV7TAEDqfU6kUpZqr7-cDIFwAlPZI10HzU/edit#slide=id.p).
-1. **Succession plans are reviewed with peers** (I.E. all other executives, all other senior leaders in the function, etc.) and your [People Business Partner]({{< ref "/handbook/people-group#people-business-partner-alignment-to-division" >}}), ideally during a synchronous session to facilitate discussion and questions.
+1. **Succession plans are reviewed with peers** (I.E. all other executives, all other senior leaders in the function, etc.) and your [People Business Partner](/handbook/people-group#people-business-partner-alignment-to-division), ideally during a synchronous session to facilitate discussion and questions.
 1. **Development plans are finalized** for successors and documented in the successor slide.
 1. *(if applicable)* **Skills gaps impacting ability to achieve business goals are identified and actions are put in place** to ensure these gaps are closed/minimized (I.E. stretch assignments, increased visibility and exposure, or hiring)
 
@@ -807,9 +807,9 @@ While some team members are identified as key talent, this does not mean the res
 
 ## Impact of Being Identified as Key Talent
 
-We want to make sure we use engagement tools to retain Key Talent. A few of our primary engagement tools are: [Learning & Development]({{< ref "/handbook/people-group/learning-and-development" >}}), growth opportunities and compensation.
+We want to make sure we use engagement tools to retain Key Talent. A few of our primary engagement tools are: [Learning & Development](/handbook/people-group/learning-and-development), growth opportunities and compensation.
 
-- **Learning & Development:** We want to support the growth of Key Talent and their competencies, skills, and knowledge by providing them with the tools they need and the opportunities to progress their own personal and professional development goals. As a people manager it’s your priority to identify [L&D opportunities]({{< ref "/handbook/people-group/learning-and-development" >}}) for your team.
+- **Learning & Development:** We want to support the growth of Key Talent and their competencies, skills, and knowledge by providing them with the tools they need and the opportunities to progress their own personal and professional development goals. As a people manager it’s your priority to identify [L&D opportunities](/handbook/people-group/learning-and-development) for your team.
 - **Growth Opportunities:** As a people manager, it’s important to have career conversations and identify growth opportunities with your team members. For Key Talent, it’s especially important to discuss their motivation and ambitions. Growth opportunities can be both horizontal and vertical. Examples of growth opportunities are: expanding the scope within a team member's current role, a lateral move to a new role, or a promotion to the next level.
 - **Compensation:** At GitLab, compensation = cash + equity + benefits. We have a [market based approach]({{< ref "compensation#market-based-approach" >}}) and differentiate pay based on performance. Our Annual Compensation Review Cycle and Annual Equity Refresh program allow us to differentiate compensation based on performance and for Key Talent.
 - **Succession Planning:** As team members identified as Key Talent are critical to roles that have a high impact on the company's success, it is important that we identify successors to avoid any single points of failure within the organization.
@@ -831,7 +831,7 @@ One way to set up a structure and regular cadence for touchpoints with our Key T
 1. Identify areas of support needed
 1. Identify opportunity for stretch projects and continued growth
 1. Use this discussion as a starting point to partner with team members to get [Individual Growth Plans (IGPs)]({{< ref "igp-guide" >}}) in place
-1. Leverage this data to identify key themes and potential actions across our Key Talent pool with the goal of improving engagement (leaders can work with their aligned [People Business Partner]({{< ref "/handbook/people-group#people-business-partner-alignment-to-division" >}}) on this piece)
+1. Leverage this data to identify key themes and potential actions across our Key Talent pool with the goal of improving engagement (leaders can work with their aligned [People Business Partner](/handbook/people-group#people-business-partner-alignment-to-division) on this piece)
 
 Managers can leverage [this template](https://docs.google.com/document/d/1ZMDkD8TE7mAcB1IUuHjNi5VeuXDbvsEsqKnGFXUqxsc/edit#heading=h.akod5o3a8i5q) to help facilitate consistency in Key Talent Engagement Discussions.
 

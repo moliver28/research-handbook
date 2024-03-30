@@ -13,7 +13,7 @@ Cross-functional feedback provides critical insights into strengths and improvem
 There are various ways to support team members' performance and growth. Timely and direct [feedback]({{< ref "guidance-on-feedback" >}}) is often the best way to course correct efficiently and improve performance on an ongoing basis.  360 feedback is a useful tool to support specific development goals or surface blind spots, often for those in leadership positions.  A 360 is not the best investment of time for team members who already have a clear understanding of their strengths and weaknesses, and an actionable development plan underway. Team members should take ownership of and leverage the tools that are most relevant and beneficial to them.
 
 
-The optional 360 feedback cycle is timed *after* the [Mid-Year Check In]({{< ref "/handbook/people-group/talent-assessment#mid-year-check-in" >}}) and *after* [promotion calibrations]({{< ref "promotions-transfers#promotion-process--timeline" >}}) to maintain the focus on development. Managers should check in with cross functional stakeholders informally when preparing for a Mid Year check in or Promotion Calibration vs waiting for a 360 feedback cycle.
+The optional 360 feedback cycle is timed *after* the [Mid-Year Check In](/handbook/people-group/talent-assessment#mid-year-check-in) and *after* [promotion calibrations]({{< ref "promotions-transfers#promotion-process--timeline" >}}) to maintain the focus on development. Managers should check in with cross functional stakeholders informally when preparing for a Mid Year check in or Promotion Calibration vs waiting for a 360 feedback cycle.
 
 ## Is The 360 Process Right For Me?
 
@@ -263,7 +263,7 @@ Some general guidance and tips for the conversations can be found below:
 - Follow Up. Did you discuss pathways to career progress, or specific points of attention for improving performance? Make sure you add them to the top of the 1:1 doc so as to remind yourselves to follow up every so often.
 - Managers are encouraged to share their key learnings with their teams. Making yourself open and vulnerable can help the rest of the team understand that it is ok to get hard feedback and we can grow from it. It also enlists the team is helping you grow.
 - Consider asking each team member to share the top 2-3 Themes from their feedback, what they plan to do now, and how the team can help.
-- If there are areas that were indicated over the 360s that need immediate improvement, are not aligned with our values or go against our [Code of Business Conduct and Ethics for Directors, Officers, Employees and Contractors](https://ir.gitlab.com/static-files/7d8c7eb3-cb17-4d68-a607-1b7a1fa1c95d), please reach out to our [Team Member Relations Specialist]({{< ref "/handbook/people-group" >}}) via teammemberrelations@gitlab.com.
+- If there are areas that were indicated over the 360s that need immediate improvement, are not aligned with our values or go against our [Code of Business Conduct and Ethics for Directors, Officers, Employees and Contractors](https://ir.gitlab.com/static-files/7d8c7eb3-cb17-4d68-a607-1b7a1fa1c95d), please reach out to our [Team Member Relations Specialist](/handbook/people-group) via teammemberrelations@gitlab.com.
 
 ### Action Plans
 

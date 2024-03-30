@@ -27,7 +27,7 @@ Here are how the team members divide their work to ensure the best results:
 
 ### Responsibilities
 
-People Operations is a Department under the [People]({{< ref "/handbook/people-group" >}}) Division.
+People Operations is a Department under the [People](/handbook/people-group) Division.
 
 ### Slack
 
@@ -67,6 +67,6 @@ You can tag the People Operations in GitLab using:
 ### People Operations Team Handbook Navigation
 
 - [People Connect team](https://internal.gitlab.com/handbook/people-group/people-operations/people-connect/people_connect_team/)
-- [People Engineering Handbook]({{< ref "/handbook/people-group/engineering" >}})
-- [People Compliance]({{< ref "/handbook/people-group/people-compliance" >}})
+- [People Engineering Handbook](/handbook/people-group/engineering)
+- [People Compliance](/handbook/people-group/people-compliance)
 - [People Analytics Team]({{< ref "people-analytics" >}})

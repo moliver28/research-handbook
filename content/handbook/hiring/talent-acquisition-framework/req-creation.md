@@ -34,7 +34,7 @@ Backfills require a needed approval process prior to moving to the next step of 
 
 In order to open a backfill:
 
-1. Manager of departing team member enters attrition in Workday via the [off-boarding process]({{< ref "/handbook/people-group/offboarding" >}}).
+1. Manager of departing team member enters attrition in Workday via the [off-boarding process](/handbook/people-group/offboarding).
 1. Talent Acquisition Leadership (Dir+) is notified via automated reporting once attrition is entered into the system.
 1. Leadership allocates the role to appropriate recruiter.
 1. Recruiter creates a backfill issue that informs: FP&A, PBP, VP via the appropriate backfill template in [department] headcount project. For Sales, add Sales Strategy. For R&D, add the corresponding E-Group member.
@@ -284,6 +284,10 @@ There are set location options in Greenhouse to make this possible. Recruiters c
 | Remote, APAC | Australia, New Zealand, South Korea, Singapore, Japan, Phillipines |
 | Remote, Asia | Singapore, Phillipines, South Korea, Japan |
 | Remote, US | United States |
+| Remote, US-Southeast | Georgia, North Carolina, South Carolina, Florida, Virginia |
+| Remote, Canada | Canada |
+| Remote, Chile | Chile |
+| Remote, Costa Rica | Costa Rica |
 | Remote, North America | United States, Canada |
 | Remote, France | France |
 | Remote, India | India |

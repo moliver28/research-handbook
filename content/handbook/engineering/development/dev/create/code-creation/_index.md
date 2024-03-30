@@ -85,7 +85,7 @@ To help get started as a developer with the Create:Code Creation team, we have c
 
 ## Meetings
 
-**Sync: Code Creation** - a meeting held once a week on Thursday at 3:15 p.m. UTC to align on group priorities. If there are no points on the meeting agenda one hour before the meeting starts, that meeting is considered as canceled.
+**Sync: Code Creation** - a meeting held once a week on Tuesday at 15:00 UTC to align on group priorities. If there are no points on the meeting agenda one hour before the meeting starts, that meeting is considered as canceled.
 
 All of our meetings and videos are uploaded to the [Code Creation YouTube Playlist](https://www.youtube.com/playlist?list=PL05JrBw4t0KoZOUC-DfaJOzFb6w6hG198). Some meetings are marked as private, so internal team members will need to swtich to use the [Unfiltered YouTube account](https://handbook.gitlab.com/handbook/marketing/marketing-operations/youtube/#unable-to-view-a-video-on-youtube).
 

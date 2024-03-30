@@ -27,7 +27,7 @@ The Shadow program is currently scheduled over a 2 - 3 week period.
 1. It is important that the team member requests approval from their respective manager to join the shadow program.
 1. Once we have received interest from a team member to join the program, the People Connect Team will decide on a start date and communicate this to the team member.
 1. Prior to the start date (day before is fine), the team member needs to complete the following:
-    - Complete the [GitLab Tools 101 Training]({{< ref "/handbook/people-group/learning-and-development/gitlab-101" >}})
+    - Complete the [GitLab Tools 101 Training](/handbook/people-group/learning-and-development/gitlab-101)
     - Ensure that you are subscribed to the #people-connect & #pea-team Slack channel.
 1. On the start date, the People Connect Team will create the [PEA Shadow Issue](https://gitlab.com/gitlab-com/people-group/people-operations/employment-templates/-/blob/main/.gitlab/issue_templates/people_experience_team_shadow.md) and assign to the respective team member.
 1. At the end of the Shadow program, the People Connect Team and Shadower will provide feedback on the process and each others particpation in the program to ensure the success and continous growth within the roles. The Feedback Form can be found in the People Connect folder in the shared Drive.
