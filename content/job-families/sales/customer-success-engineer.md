@@ -11,6 +11,15 @@ The Customer Success Engineer (CSE) role provides deep subject matter expertise 
 
 ## Levels
 
+| Role | Grade |
+| -- | - |
+| [Associate Customer Success Engineer](#associate-customer-success-engineer-cse) | [Grade 5](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) |
+| [Customer Success Engineer](#customer-success-engineer-cse-intermediate) | [Grade 6](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) |
+| [Senior Customer Success Engineer](#senior-customer-success-engineer-cse) | [Grade 7](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades)
+| [Staff Customer Success Engineer](#staff-customer-success-engineer-cse) | [Grade 9](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades)
+| [Manager, Customer Success Engineers](#manager-customer-success-engineers-cse) | [Grade 9](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) |
+| [Senior Manager, Customer Success Engineers](#senior-manager-customer-success-engineers-cse) | [Grade 9](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) |
+
 ### Associate Customer Success Engineer
 
 The Associate Customer Success Engineer (CSE) reports to the [Manager/Senior Manager, CSE](/job-families/sales/customer-success-engineer/#manager-of-customer-success-engineers)
