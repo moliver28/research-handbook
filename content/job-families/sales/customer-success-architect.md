@@ -11,6 +11,15 @@ The Customer Success Architect (CSA) team at GitLab is expected to serve and ope
 
 ## Levels
 
+| Role | Grade |
+| -- | - |
+| [Associate Customer Success Architect](#associate-customer-success-architect-csa) | [Grade 5](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) |
+| [Customer Success Architect](#customer-success-architect-csa-intermediate) | [Grade 6](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) |
+| [Senior Customer Success Architect](#senior-customer-success-architect-csa) | [Grade 7](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades)
+| [Staff Customer Success Architect](#staff-customer-success-architect-csa) | [Grade 9](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades)
+| [Manager, Customer Success Architects](#manager-customer-success-architects-csa) | [Grade 9](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) |
+| [Senior Manager, Customer Success Architects](#senior-manager-customer-success-arcitects-csa) | [Grade 9](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) |
+
 ### Associate Customer Success Architect (CSA)
 
 The Associate CSA reports to the [Manager/Senior Manager, CSM](/job-families/sales/customer-success-management/#manager-of-customer-success-managers)
