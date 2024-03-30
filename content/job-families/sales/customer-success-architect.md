@@ -140,7 +140,7 @@ In addition to the corresponding Customer Success Architect level requirements:
 
 ## Career Ladder
 
-Team members in the Customer Success Engineering job family may progress through the career ladder; in some instances team members may move to other roles in the Sales organization such as Customer Success Manager, Customer Success Architect or Solutions Architect.  
+Team members in the Customer Success Architect job family may progress through the career ladder; in some instances team members may move to other roles in the Sales organization such as Customer Success Engineer, Customer Success Manager or Solutions Architect.  
 
 ## Hiring Process
 
