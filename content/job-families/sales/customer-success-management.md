@@ -7,7 +7,7 @@ The Customer Success Management (CSM) team focuses on the themes of align, enabl
 
 Additionally, our team serves as liaisons between the customer and the GitLab ecosystem, streamlining collaboration with Product Management, Engineering, Sales, Professional Services, and others. [CSM handbook](/handbook/customer-success/csm).
 
-The Customer Success Management(CSM) team at GitLab is expected to serve and operate in the following ways and have product and domain expertise.  The depth of knowledge in each area will progress within the CSM career ladder.
+The Customer Success Manager(CSM) role at GitLab is expected to serve and operate in the following ways and have product and domain expertise.  The depth of knowledge in each area will progress within the CSM career ladder.
 
 ## Consultative/Customer Management Knowledge
 
@@ -28,7 +28,6 @@ The Customer Success Management(CSM) team at GitLab is expected to serve and ope
 - Ability to understand and address/navigate complex customer environments (technical construct, integrations, business processes)
 - Identified area of GitLab Product specialization, including knowledge of competitive landscape
 - Experienced in one or more parts of the software development lifecycle (e.g., architecture, development, testing, implementation, operations)
-
 
 ## Levels
 
@@ -153,9 +152,9 @@ The Staff CSM is a job grade [level 9](/handbook/total-rewards/compensation/comp
 - 6 enablement contributions to global CS team per fiscal year
 - 2 Use-case specific or Vertical-specific playbooks created, with global team enabled on them, per year
 
-### Manager, CSM
+### Manager, Customer Success Managers
 
-The Manager, CSM, reports to the [Director of Customer Success Managers](/job-families/sales/customer-success-management/#director-of-customer-success-managers).
+The Manager, Customer Success Managers (CSM), reports to the [Director of Customer Success Managers](/job-families/sales/customer-success-management/#director-of-customer-success-managers).
 
 #### Manager, CSM Job Grade
 
@@ -195,9 +194,9 @@ The Manager, CSM is a job grade [level 9](/handbook/total-rewards/compensation/c
 - Ability to connect technology with measurable business value
 - Strategic thinking about business, products, and technical challenges
 
-### Senior Manager, CSM
+### Senior Manager, Customer Success Managers
 
-The Senior Manager, CSM reports to the [Director of Customer Success Managers](/job-families/sales/customer-success-management/#director-of-customer-success-managers).
+The Senior Manager, Customer Success Managers(CSM) reports to the [Director of Customer Success Managers](/job-families/sales/customer-success-management/#director-of-customer-success-managers).
 
 #### Senior Manager, CSM Job Grade
 
@@ -314,51 +313,15 @@ The Vice President of Customer Success is a job grade [level 12](/handbook/total
 
 ## Specialties
 
-### Customer Success Manager / Strategic, named assignments
+### Public Sector Customer Success Manager (CSM)
 
-- Experience leading a high-touch motion with customers, including strategic account planning, lifecycle management, deep focus on maturity of adoption and leadership in expansion initiatives
-- Possess a deep understanding of creating customer value to deliver scalable customer engagements that help customers derive ongoing value from their investment with GitLab
-- Manage and provide input into iteration upon the customer journey, including onboarding, adoption, retention, and expansion, with an emphasis on defining and demonstrating value programmatically to grow net revenue retention ultimately
-- Take a data-driven approach to driving value across the customer segment, ensuring time and attention is prioritized to ensure the most significant positive impact
-- Proactively identify and prioritize accounts to focus efforts within a defined territory as based on point in lifecycle (e.g., onboarding) perceived risk, potential growth, strategic value, and renewal timeframe
-- Work cross-functionally with multiple teams (CS ops, Content, Programs, Marketing, Product, Sales) to develop thoughtful and innovative approaches to driving success with customers at scale
-- Identify key areas of enablement need across the customer segment and partner closely with the CSM and CSE leaders to create content and webinars to address these needs
-- Analyze industry best practices, trends, and performance metrics to shape customer engagement strategies and accelerate results
+#### Public Sector CSM Responsibilities
 
-### Customer Success Engineer / Success at Scale
+- Extends the corresponding Customer Success Manager level responsibilities, working exclusively with Public Sector customers
 
-- Develop and deliver programs at scale to drive product adoption, expansion, and customer engagement through webinars, digital content, and cohort engagement approaches (eg. workshops, office hours, etc.)
-- Collaborate across a number of other teams to drive effective customer programs (digital editor, CSM team, digital campaign manager, marketing)
-- Understand the nuances of digital relationships and automated engagements and architects positive customer experiences to ensure the customer feels valued while obtaining value from the GitLab platform
-- Utilize automation and digital engagements, isolating some customers for reach-outs based on product usage data insights coupled with the customer's point in their lifecycle
-- Create blanket contact campaigns of monthly or quarterly e-newsletters, data triggered email campaigns, on-demand training and guidance
-- Drive feature adoption through targeted on-going training of customers via webinars and campaigns
-- Leverage engagement and digital metrics to create and improve enablement content in alignment with customer journey
-- Analyze product usage data to determine prioritization of customer reach-outs and activities
-- Create fun and engaging training resources that scale
-- Build engagement playbooks and reach out to customers with a relentless focus on quick solutions and positive outcomes
-- Work with CS and Sales leadership on creating and executing upon scalable save plays for at-risk customers
-- Organize product-centric office hours where customers can troubleshoot with a technical representative
+#### Public Sector CSM Requirements
 
-### Customer Programs
-
-- Engage and assist customers as part of a campaign or program led by Customer Programs team in partnership with CSM/CSE and Sales team
-- Capture customer insights (e.g., common reasons for stalled adoption, contraction and churn) in the SMB segment through data analysis and customer engagement
-- Create solution guides and videos to deliver technical enablement to a large audience across the SMB and Mid-Market segments primarily
-- Curate frequently asked questions (FAQ) and related solution guides based on direct customer engagement, and analysis of customer requests and usage patterns
-- Partner with Customer Programs team to enhance and improve digital adoption journey to preserve or increase net retention for digital customers
-- Partner with our customers to understand industry-wide technical challenges along the customer journey with GitLab
-
-### Public Sector Customer Success Manager
-
-#### Public Sector Customer Success Manager Responsibilities
-
-- Extends the corresponding Customer Success Manager level responsibilities:
-- Work exclusively with Public Sector customers
-
-#### Public Sector Customer Success Manager Requirements
-
-- In addition to the corresponding Customer Success Manager level requirements:
+In addition to the corresponding Customer Success Manager level requirements:
 - TS/SCI Security Clearance if applicable
 - Knowledge of and demonstrated progressive experience with Public Sector customers
 
@@ -397,10 +360,6 @@ The panel interview consists of several members of the Customer Success team. It
 
 - Live demonstration based on the guidance provided ahead of the interview by the recruiter
 - General discussion and questions from the panel
-
-### Executive Interview
-
-Conducted by the [Senior Director of Customer Success](/job-families/sales/customer-success-management/#senior-director-of-CSMs), this is a discussion with the candidate as a final assessment interview to evaluate the candidate's suitability for the role. This is a 30 minute interview.
 
 ### Reference and Background Check
 
