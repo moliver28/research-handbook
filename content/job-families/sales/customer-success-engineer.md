@@ -1,5 +1,5 @@
 ---
-title: "Customer Success Engineer"
+title: "Customer Success Engineering"
 description: "The Customer Success Engineering (CSE) team focuses on the themes of align, enable, and expand."
 ---
 
@@ -11,7 +11,7 @@ The Customer Success Engineer (CSE) role provides deep subject matter expertise 
 
 ## Levels
 
-### Associate Customer Success Engineer 
+### Associate Customer Success Engineer
 
 The Associate CSE reports to the [Manager/Senior Manager, CSE](/job-families/sales/customer-success-engineer/#manager-of-customer-success-engineers)
 
@@ -20,10 +20,12 @@ The Associate CSE reports to the [Manager/Senior Manager, CSE](/job-families/sal
 The Associate CSE is a job grade [level 5](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
 #### Associate CSE Responsibilities
+
 - [content to be added]
 
 
 #### Associate CSE Requirements
+
 - [content to be added]
 
 ### Customer Success Engineer (Intermediate)
