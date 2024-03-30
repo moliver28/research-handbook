@@ -33,17 +33,17 @@ The Customer Success Manager(CSM) role at GitLab is expected to serve and operat
 
 | Role | Grade |
 | -- | - |
-| [Associate Customer Success Manager](#associate-customer-success-manager-csm) | [Grade 5](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) |
-| [Customer Success Manager](#customer-success-manager-csm-intermediate) | [Grade 6](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) |
+| [Associate Customer Success Manager](#associate-customer-success-manager) | [Grade 5](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) |
+| [Customer Success Manager](#customer-success-manager-intermediate) | [Grade 6](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) |
 | [Senior Customer Success Manager](#senior-customer-success-manager) | [Grade 7](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades)
 | [Staff Customer Success Manager](#staff-customer-success-manager) | [Grade 9](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades)
 | [Manager, Customer Success Managers](#manager-customer-success-managers) | [Grade 9](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) |
 | [Senior Manager, Customer Success Managers](#senior-manager-customer-success-managers) | [Grade 9](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) |
-| [Director of Customer Success ](#director-of-customer-success) | [Grade 10](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) |
-| [Senior Director of Customer Success ](#senior-director-of-customer-success) | [Grade 11](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) |
-| [Vice President of Customer Success ](#vice-president-of-customer-success) | [Grade 12](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) |
+| [Director of Customer Success](#director-of-customer-success) | [Grade 10](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) |
+| [Senior Director of Customer Success](#senior-director-of-customer-success) | [Grade 11](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) |
+| [Vice President of Customer Success](#vice-president-of-customer-success) | [Grade 12](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) |
 
-### Associate Customer Success Manager 
+### Associate Customer Success Manager
 
 The Associate Customer Success Manager (CSM) reports to the [Manager/Senior Manager, CSM](/job-families/sales/customer-success-management/#manager-of-customer-success-managers)
 
