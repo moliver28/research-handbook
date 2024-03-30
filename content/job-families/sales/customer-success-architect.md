@@ -112,15 +112,15 @@ The Senior Manager, CSA is a job grade [level 9](/handbook/total-rewards/compens
 
 ## Specialties
 
-### Public Sector Customer Success Manager
+### Public Sector Customer Success Architect (CSA)
 
-#### Public Sector Customer Success Manager Responsibilities
+#### Public Sector CSA Responsibilities
 
-- Extends the corresponding Customer Success Manager level responsibilities, working exclusively with Public Sector customers
+- Extends the corresponding CSA level responsibilities, working exclusively with Public Sector customers
 
-#### Public Sector Customer Success Manager Requirements
+#### Public Sector CSA Requirements
 
-- In addition to the corresponding Customer Success Manager level requirements:
+In addition to the corresponding Customer Success Manager level requirements:
 - TS/SCI Security Clearance if applicable
 - Knowledge of and demonstrated progressive experience with Public Sector customers
 
@@ -159,10 +159,6 @@ The panel interview consists of several members of the Customer Success team. It
 
 - Live demonstration based on the guidance provided ahead of the interview by the recruiter
 - General discussion and questions from the panel
-
-### Executive Interview
-
-Conducted by the [Senior Director of Customer Success](/job-families/sales/customer-success-management/#senior-director-of-CSMs), this is a discussion with the candidate as a final assessment interview to evaluate the candidate's suitability for the role. This is a 30 minute interview.
 
 ### Reference and Background Check
 
