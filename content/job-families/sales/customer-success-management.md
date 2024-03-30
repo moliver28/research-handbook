@@ -35,17 +35,17 @@ The Customer Success Manager(CSM) role at GitLab is expected to serve and operat
 | -- | - |
 | [Associate Customer Success Manager](#associate-customer-success-manager-csm) | [Grade 5](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) |
 | [Customer Success Manager](#customer-success-manager-csm-intermediate) | [Grade 6](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) |
-| [Senior Customer Success Manager](#senior-customer-success-manager-csm) | [Grade 7](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades)
-| [Staff Customer Success Manager](#staff-customer-success-manager-csm) | [Grade 9](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades)
-| [Manager, Customer Success Managers](#manager-customer-success-managers-csm) | [Grade 9](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) |
-| [Senior Manager, Customer Success Managers](#senior-manager-customer-success-managers-csm) | [Grade 9](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) |
+| [Senior Customer Success Manager](#senior-customer-success-manager) | [Grade 7](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades)
+| [Staff Customer Success Manager](#staff-customer-success-manager) | [Grade 9](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades)
+| [Manager, Customer Success Managers](#manager-customer-success-managers) | [Grade 9](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) |
+| [Senior Manager, Customer Success Managers](#senior-manager-customer-success-managers) | [Grade 9](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) |
 | [Director of Customer Success ](#director-of-customer-success) | [Grade 10](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) |
 | [Senior Director of Customer Success ](#senior-director-of-customer-success) | [Grade 11](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) |
 | [Vice President of Customer Success ](#vice-president-of-customer-success) | [Grade 12](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) |
 
-### Associate Customer Success Manager (CSM)
+### Associate Customer Success Manager 
 
-The Associate CSM reports to the [Manager/Senior Manager, CSM](/job-families/sales/customer-success-management/#manager-of-customer-success-managers)
+The Associate Customer Success Manager (CSM) reports to the [Manager/Senior Manager, CSM](/job-families/sales/customer-success-management/#manager-of-customer-success-managers)
 
 #### Associate CSM Job Grade
 
@@ -63,9 +63,9 @@ The Associate CSM is a job grade [level 5](/handbook/total-rewards/compensation/
 
 - Demonstrated progressive experience in a related function is required with direct customer advocacy and engagement experience in post-sales or professional services functions
 
-### Customer Success Manager (CSM) (Intermediate)
+### Customer Success Manager (Intermediate)
 
-The CSM (Intermediate) reports to the [Manager/Senior Manager, CSM](/job-families/sales/customer-success-management/#manager-of-customer-success-managers).
+The Customer Success Manager (CSM) (Intermediate) reports to the [Manager/Senior Manager, CSM](/job-families/sales/customer-success-management/#manager-of-customer-success-managers).
 
 #### CSM (Intermediate) Job Grade
 
@@ -89,7 +89,7 @@ The CSM (Intermediate) is a job grade [level 6](/handbook/total-rewards/compensa
 - Knowledge of software development lifecycle and development pipeline
 - Understanding of continuous integration, continuous deployment, DevSecOps
 
-### Senior Customer Success Manager (CSM)
+### Senior Customer Success Manager
 
 The Senior CSM reports to the [Manager/Senior Manager, CSM](/job-families/sales/customer-success-management/#manager-of-customer-success-managers).
 
@@ -117,11 +117,11 @@ The Senior CSM is a job grade [level 7](/handbook/total-rewards/compensation/com
 - Advanced knowledge of software development lifecycle and development pipeline
 - Advanced project management experience & skills
 
-### Staff Customer Success Manager (CSM)
+### Staff Customer Success Manager
 
 Market Justification: The business need for an individual contributor Staff CSM role is to have a team member who is a subject matter expert in customer engagement, success planning, and driving platform adoption. In addition to working with the customers in their book of business, they provide guidance and coaching to other CSMs and develop improvements to our customer engagement model. In the market, there are over 20 organizations that typically have 2-3 Staff CSMs.
 
-The Staff CSM reports to the [Manager/Senior Manager/Director, CSM](/handbook.gitlab.com/job-families/sales/customer-success-management/#manager-csm).
+The Staff Customer Success Manager (CSM) reports to the [Manager/Senior Manager/Director, CSM](/handbook.gitlab.com/job-families/sales/customer-success-management/#manager-csm).
 
 #### Staff CSM Job Grade
 
@@ -164,7 +164,7 @@ The Staff CSM is a job grade [level 9](/handbook/total-rewards/compensation/comp
 - 6 enablement contributions to global CS team per fiscal year
 - 2 Use-case specific or Vertical-specific playbooks created, with global team enabled on them, per year
 
-### Manager, Customer Success Managers (CSM)
+### Manager, Customer Success Managers
 
 The Manager, Customer Success Managers (CSM), reports to the [Director of Customer Success Managers](/job-families/sales/customer-success-management/#director-of-customer-success-managers).
 
@@ -206,7 +206,7 @@ The Manager, CSM is a job grade [level 9](/handbook/total-rewards/compensation/c
 - Ability to connect technology with measurable business value
 - Strategic thinking about business, products, and technical challenges
 
-### Senior Manager, Customer Success Managers (CSM)
+### Senior Manager, Customer Success Managers
 
 The Senior Manager, Customer Success Managers(CSM) reports to the [Director of Customer Success Managers](/job-families/sales/customer-success-management/#director-of-customer-success-managers).
 
