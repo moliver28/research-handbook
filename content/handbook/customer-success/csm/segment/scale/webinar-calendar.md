@@ -82,6 +82,23 @@ Join us for the AI in DevSecOps webinar where we will explore Artificial Intelli
 
 [<button class="btn btn-primary" type="button">Register</button>](https://gitlab.zoom.us/webinar/register/WN_-kIPWEcnTjOzVrKplN126g#/registration)
 
+### APJ Time Zone Webinars & Labs
+
+#### GitLab Runner Fundamentals and What You Need to Know
+##### April 9th, 2024 at 10:30-11:30AM India / 12:00-1:00PM Indonesia / 1:00-2:00PM Singapore / 3:00-4:00PM Sydney  
+
+Runners are a requirement for operating GitLab CI/CD. Learn about Runner architecture, options for deployments, supported operating systems, and optimizing them for most efficient usage. We will be discussing best practices, decisions that you need to make before deploying at scale, and options you have for monitoring fleets of runners.
+
+[<button class="btn btn-primary" type="button">Register</button>](https://gitlab.zoom.us/webinar/register/WN_WEeZbf8XSFCiBqwonQ_XgA#/registration)
+
+
+### Jira to GitLab: Helping you transition to planning with GitLab
+##### April 11th, 2024 at 10:30-11:30AM India / 12:00-1:00PM Indonesia / 1:00-2:00PM Singapore / 3:00-4:00PM Sydney  
+
+GitLab offers robust team planning capabilities that work directly with the DevOps lifecycle. Keeping teams in a single application offers operational and financial advantages. Many customers inquire about what a transition would look like from Jira Software to GitLab to team planning. This webinar will start to outline the differences in functionality and advantages gained by using GitLab. 
+
+[<button class="btn btn-primary" type="button">Register</button>](https://gitlab.zoom.us/webinar/register/WN_BQP74WAFTtiVOPPzdIup8w#/registration)
+
 
 ### EMEA Time Zone Webinars & Labs
 
@@ -145,5 +162,7 @@ We will cover:
 Join us for the AI in DevSecOps webinar where we will explore Artificial Intelligence and how it fits within the DevSecOps lifecycle. In this session, we will cover foundational implementation and use case scenarios such as Code Suggestions and Vulnerability Explanations.
 
 [<button class="btn btn-primary" type="button">Register</button>](https://gitlab.zoom.us/webinar/register/WN__PRkLukaTyqA1uwpoe9OwA#/registration)
+
+
 
 Check back later for more webinars & labs! 
