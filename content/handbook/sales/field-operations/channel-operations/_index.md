@@ -1049,9 +1049,9 @@ Just as our partners register opportunities with GitLab, Partner Managers should
 AWS registrations can be received and submitted directly through your SFDC opportunity using the Labra Referrals and Labra Leads tools. Instructions can be found in this [Labra Process Guide](https://docs.google.com/document/d/1wdru-IPPj-lKnq4n25XQGPH3d06Z1xClxXnNdHE7LwU/edit#heading=h.rfec1j50uxik).
 
 #### Google Cloud
-GCP registrations can be submitted by accessing Google's [Partner Advantage portal](https://www.partneradvantage.goog/GCPPRM/s/partneradvantageportallogin?language=en_US). Additional GCP registration information can be found in the following resoures: 
-- [Deal Submission Quick Reference Guide](https://docs.google.com/presentation/d/1D4E4jcVtfky3Qt9kZ1pExiILzCRpQqx95cSOOCjy3vY/edit#slide=id.g20fb1bc5386_7_316)
-- [Video: How to submit a deal](https://drive.google.com/file/d/16sddA_mb3u0pvpq_CKxXzbes1pfvswNH/edit)
+GCP registrations are submitted on GitLab's behalf by the GCP team. To register a new opportunity with GCP, please click the following link and fill out the form. 
+
+[New GitLab Opportunity Registration for GCP](https://docs.google.com/forms/d/e/1FAIpQLScEsVcfRBILkrSs73vUeqkzfi_nTuK4Tluv-HBUw230pWuRXw/viewform)
 
 ## Compensation on Partner Opportunities
 
