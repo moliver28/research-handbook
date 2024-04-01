@@ -1,5 +1,4 @@
 ---
-
 title: People Business Partner Team
 description: "People business partners at GitLab contribute to GitLab's strategy by driving a high performance and inclusive culture in each division."
 
@@ -55,16 +54,10 @@ PBPs can provide invaluable leadership coaching on a range of issues such as tea
 People Business Partners often collaborate with others in People Group or other teams on talent programs where the (DRI)[https://handbook.gitlab.com/handbook/people-group/directly-responsible-individuals/] sits outside the PBP team. PBP’s can provide business context, needs analysis, championship of new programs in our aligned client groups, and support change management related to new initiatives. To clarify the PBP’s role in a project, we have provided the following framework to help ensure the goals of the collaboration are met. The PBP team works together to assign the appropriate PBPs to cross-functional projects to ensure a diverse view of the business is included. PBPs play a key role in bringing talent programs to life in each division. A framework for how collaborate in project teams is below. 
 
 | PBP Role in a Project    | What to expect | Program examples |
-| -------- | ------- |------- |
-| Accountable  | PBP is not the enterprise program DRI, but is responsible for the execution in their client group. The program requires significant lift by team members/managers. 
+|---------|---------|-------|
+| Accountable  | PBP is not the enterprise program DRI, but is responsible for the execution in their client group. The program requires significant lift by team members/managers. In this type of project, a PBP is part of the core project team to bring business perspective to the build phase, helps develop a communication/change mgmt plan, and executes the program in their aligned client group, including any bespoke enablement needed. The PBP is often the face of this program for their client group, and recipient of team member feedback | Talent Assessment, Promotion, ACR    |
+| Consulted | PBP provides input on how the program can be most effectively communicated or embedded in their division, but may not have a direct role in execution. Engaging the assigned PBP in reviewing comms or supporting change management can help drive adoption deeper in the organization |Elevate   |
+| Informed    | PBPs should be made aware of the project as it will impact team members and questions may be directed toward the PBP team. If PBPs are given a preview of comms for final feedback and visibility before launch, they can help ensure the comms will meet the needs of their client group | Policy or benefit changes that impact team members    |
 
-In this type of project, a PBP is part of the core project team to bring business perspective to the build phase, helps develop a communication/change mgmt plan, and executes the program in their aligned client group, including any bespoke enablement needed. The PBP is often the face of this program for their client group, and recipient of team member feedback
-   | Talent Assessment, Promotion, ACR    |
-| Consulted | PBP provides input on how the program can be most effectively communicated or embedded in their division, but may not have a direct role in execution.
 
-Engaging the assigned PBP in reviewing comms or supporting change management can help drive adoption deeper in the organization
-     |Elevate     |
-| Informed    | PBPs should be made aware of the project as it will impact team members and questions may be directed toward the PBP team. 
 
-If PBPs are given a preview of comms for final feedback and visibility before launch, they can help ensure the comms will meet the needs of their client group
-    | Policy or benefit changes that impact team members    |
