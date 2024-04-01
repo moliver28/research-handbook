@@ -1040,7 +1040,7 @@ See [IBM (OEM) Partner Requests & QTC Process](https://docs.google.com/document/
 
 ### Consulting Partner Private Offers (CPPO)
 
-For more information on our AWS CPPO Pilot Program, please reference the following [program guide.](https://docs.google.com/document/d/1cH0pJP6xaY0I-Fxra212VjYwn_MvNTH1hHOtkhGVC-4/edit#heading=h.lpzn62rdfa90)
+For more information on our AWS CPPO Program, please reference the following [program guide.](https://docs.google.com/document/d/11P1Iva6ksIuw-UrxCvq5G5i2k0a-cplxAsCKi4msjpY/edit)
 
 ### Registering Opportunities with Marketplace Providers
 Just as our partners register opportunities with GitLab, Partner Managers should register their marketplace opportunities with the prospective cloud provider. Instructions for submitting registrations to AWS and GCP are shown below.
