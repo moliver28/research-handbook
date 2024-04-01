@@ -50,7 +50,7 @@ GitLab’s security risk appetite is determined based on the total average prior
 Each risk strategy statement is ranked in order of priority from Highest priority risk strategy to Lowest priority risk strategy by senior leadership. GitLab utilizes the following risk appetite matrix:
 
 <style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
+.tg  {border-collapse:collapse;border-spacing:0;color:black}
 .tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
 .tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
 .tg .tg-9wq8{border-color:inherit;text-align:center;vertical-align:middle}
@@ -394,13 +394,13 @@ By accepting the risk, the Risk Owner and risk acceptance approvers (if separate
 
 ### Risk Tracking and Reporting
 
-Identified risks are formally tracked via an internal risk register. Given the nature of the sensitivity of this information in aggregate, the risk register is [not made public]({{< ref "confidentiality-levels#not-public" >}}), and is not distributed externally. However, a publicly viewable GitLab Risk Register Template is available [here](https://docs.google.com/spreadsheets/d/1Lvn-ZjPNcZ-QMh-pkC6HqjwR-acUf70V9w2pquhRmH0/edit?usp=sharing) for those interested in getting some more insight into the type of information tracked in GitLab's risk register. StORM-related risk activities are centralized within GitLab's GRC tool, ZenGRC. Additional information on the various risk-related activities carried out of ZenGRC can be found on the [ZenGRC Activities]({{< ref "zg-activities#risk-activities" >}}) handbook page.
+Identified risks are formally tracked via an internal risk register. Given the nature of the sensitivity of this information in aggregate, the risk register is [not made public]({{< ref "confidentiality-levels#not-public" >}}), and is not distributed externally. However, a publicly viewable GitLab Risk Register Template is available [here](https://docs.google.com/spreadsheets/d/1Lvn-ZjPNcZ-QMh-pkC6HqjwR-acUf70V9w2pquhRmH0/edit?usp=sharing) for those interested in getting some more insight into the type of information tracked in GitLab's risk register. StORM-related risk activities are centralized [within GitLab](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-risk-team/storm-risk-register/-/issues/?sort=weight_desc&state=opened&first_page_size=100) (internal only).
 
-Historically, we've produced an annual report to summarize our current StORM landscape including new potential risks, updates on our highest risks to support decision-making, and recommendations on actions to take to help mitigate existing risks. Starting in FY24 we will produce a quarterly report in alignment with our values. The template we've used can be found [here](https://docs.google.com/presentation/d/1uwz8sKnf9sWY9Of_GKPtIU2dDa3i6k6xekZENPW41NY/edit?usp=sharing) for reference.
+We produce an annual report (the Annnual Risk Assessment or ARA) to summarize our current StORM landscape including new potential risks, updates on our highest risks to support decision-making, and recommendations on actions to take to help mitigate existing risks. We began reporting on our top 5 risks on a quarterly basis (the Security Risk Quartlerly or SRQ) in alignment with our values. To learn more about the SRQ, please see our unfiltered video linked [here](https://www.youtube.com/watch?v=sHZr-5SR7yg). The template we've used can be found [here](https://docs.google.com/presentation/d/1uwz8sKnf9sWY9Of_GKPtIU2dDa3i6k6xekZENPW41NY/edit?usp=drive_link) for reference.
 
 ### Top 5 Risks
 
-The Security Division's "Top 5 Risks" are established during annual risk assessment activities and are reported upon quarterly as resources allow.  Security Leadership leverages these Top 5 Risks when conducting short and long-term strategic planning activities.
+The Security Division's "Top 5 Risks" are established during annual risk assessment activities and are reported upon quarterly as resources allow via the SRQ. Security Leadership leverages these Top 5 Risks when conducting short and long-term strategic planning activities. We intend to support remediation through assisting with treatment activities and performing design and operating effectives assurance testing on key remediation activities.
 
 #### Long-Term Risk Treatment Planning
 
@@ -420,9 +420,10 @@ The table below outlines planned/completed activities for FY24.
 
 |Timing|Activities|
 |-----|-----|
-|Q2|Establish FY24 Risk Appetite and release Annual Risk Assessment Report|
-|Q3 (September)|Quarterly report (Security Risk Quarterly) |
-|Q4 (December/January)|Quarterly report|
+|Q1| SRQ |
+|Q2| SRQ and ARA Planning |
+|Q3| ARA |
+|Q4| SRQ |
 
 ## Exceptions
 
