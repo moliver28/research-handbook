@@ -125,5 +125,4 @@ The People team is not involved in the process for hiring, onboarding, or offboa
 - [Sales team onboarding](/handbook/sales/onboarding/)
 - [Support team onboarding](/handbook/support/training)
 - [SRE onboarding](/handbook/engineering/infrastructure/team/reliability/sre-onboarding/)
-- [Product Designer onboarding](/handbook/product/ux/product-designer-onboarding/)
 - [UX Researcher onboarding](/handbook/product/ux/ux-research/)
