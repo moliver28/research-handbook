@@ -119,9 +119,10 @@ theme:
 - github.com/google/docsy
 
 module:
+  proxy: https://proxy.golang.org
   hugoVersion:
     extended: true
-    min: 0.95
+    min: 0.111
   imports:
   - path: gitlab.com/gitlab-com/content-sites/docsy-gitlab
     disable: false

@@ -118,7 +118,7 @@ One way to create inclusion among your remote staff is to remove time zone bias 
 
 Take initiative to operate [asynchronously]({{< ref "./asynchronous" >}}) whenever possible. This shows care and consideration for those who may not be in the same time zone, are traveling outside of their usual time zone, or are [structuring their day]({{< ref "./people#creating-a-more-efficient-day" >}}) around pressing personal or local commitments.
 
-For example, you can record and share team [meetings]({{< ref "./meetings" >}}) using GitLab Issues and Merge Requests rather than sending texts, calls, or Slack messages. Be aware of local holidays, personal vacation statuses, and encourage others to default to [documentation]({{< ref "/handbook/documentation" >}}) rather than pressuring team members to be online outside of their working hours.
+For example, you can record and share team [meetings]({{< ref "./meetings" >}}) using GitLab Issues and Merge Requests rather than sending texts, calls, or Slack messages. Be aware of local holidays, personal vacation statuses, and encourage others to default to [documentation](/handbook/documentation) rather than pressuring team members to be online outside of their working hours.
 
 ## How do I assess culture fit remotely?
 
@@ -158,7 +158,7 @@ You can learn more at GitLab's [remote team solutions page]({{< ref "gitlab-for-
 Whatever behavior you reward will become your values. New hires and promotions serve as important decisions to promote and reinforce values. GitLab reinforces its values by what:
 
 1. [Leadership]({{< ref "leadership" >}}) does.
-1. We select for during [hiring]({{< ref "/handbook/hiring" >}}).
+1. We select for during [hiring](/handbook/hiring).
 1. We emphasize during [onboarding]({{< ref "general-onboarding" >}}).
 1. Behavior we give each-other [360 feedback]({{< ref "360-feedback" >}}) on.
 1. Behavior we [compliment]({{< ref "communication#say-thanks" >}}).
@@ -166,14 +166,14 @@ Whatever behavior you reward will become your values. New hires and promotions s
 1. Criteria we use for our [annual compensation review]({{< ref "compensation-review-cycle" >}}).
 1. Criteria we use for [promotions]({{< ref "promotions-transfers" >}}).
 1. Criteria we use to [manage underperformance]({{< ref "underperformance" >}}).
-1. We do when we [let people go]({{< ref "/handbook/people-group/offboarding" >}}).
+1. We do when we [let people go](/handbook/people-group/offboarding).
 1. We give value awards for during [Contribute](https://about.gitlab.com/events/gitlab-contribute/).
 
 In negative feedback, one should be specific about what the problem is. For example, saying someone is "[not living the values](https://hbr.org/2017/05/how-corporate-values-get-hijacked-and-misused)" isn't helpful.
 
 ## Never take company culture for granted
 
-While the importance of culture is driven home during onboarding, continual reinforcement is required to keep it top-of-mind. In the course of business, it's easy to lose sight of values and culture when focusing on [OKRs]({{< ref "/handbook/company/okrs" >}}) and [KPIs]({{< ref "kpis" >}}). However, it is vital for leadership to remind themselves and other team members that values should never be pushed aside or lowered in priority.
+While the importance of culture is driven home during onboarding, continual reinforcement is required to keep it top-of-mind. In the course of business, it's easy to lose sight of values and culture when focusing on [OKRs](/handbook/company/okrs) and [KPIs]({{< ref "kpis" >}}). However, it is vital for leadership to remind themselves and other team members that values should never be pushed aside or lowered in priority.
 
 *Every* decision a business makes should align with their values. Otherwise, values will be seen as "merely words," and culture will disintegrate.
 
@@ -253,7 +253,7 @@ Emna G., founder and CEO at [Veamly](https://veamly.com/), spoke with GitLab's [
 >
 > If you put structure around this, and you document it, you eliminate the guilt and the fear of missing out. — *Emna G., founder and CEO at [Veamly](https://veamly.com/)*
 
-It's important for leadership to set the tone, but it's even more important to [document]({{< ref "/handbook/documentation" >}}) what will define your culture. Each time a scenario arises where there is no clearly defined answer, look to your company values to determine the answer, and then document.
+It's important for leadership to set the tone, but it's even more important to [document](/handbook/documentation) what will define your culture. Each time a scenario arises where there is no clearly defined answer, look to your company values to determine the answer, and then document.
 
 Documentation is a shared benefit, and is something that should be embraced by all members of the organization. While it may feel inefficient to document nuances related to culture, creating good habits around this will ensure that culture is as strong in the future as it was in a company's infancy.
 
@@ -271,7 +271,7 @@ Creating and evolving company culture is something that all remote organizations
 
 ## GitLab Knowledge Assessment: Building and reinforcing a sustainable culture
 
-Complete all knowledge assessments in the [Remote Work Foundation certification]({{< ref "./remote-certification" >}}) to receive the [Remote Foundations Badge in GitLab Learn](https://gitlab.edcast.com/pathways/copy-of-remote-foundations-badge). If you have questions, please reach out to our [Learning & Development team]({{< ref "/handbook/people-group/learning-and-development" >}}) at `learning@gitlab.com`.
+Complete all knowledge assessments in the [Remote Work Foundation certification]({{< ref "./remote-certification" >}}) to receive the [Remote Foundations Badge in GitLab Learn](https://gitlab.edcast.com/pathways/copy-of-remote-foundations-badge). If you have questions, please reach out to our [Learning & Development team](/handbook/people-group/learning-and-development) at `learning@gitlab.com`.
 
 
 ----

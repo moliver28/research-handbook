@@ -26,8 +26,8 @@ title: Learning & Development
 
 *Performance indicators*
 
-1. Reduce voluntary attrition by 5% each year by measuring [exit survey data]({{< ref "/handbook/people-group/offboarding#exit-survey" >}}) related to career development
-1. Secure a 5% increase in the Growth & Development category of the [annual engagement survey]({{< ref "/handbook/people-group/engagement" >}})
+1. Reduce voluntary attrition by 5% each year by measuring [exit survey data](/handbook/people-group/offboarding#exit-survey) related to career development
+1. Secure a 5% increase in the Growth & Development category of the [annual engagement survey](/handbook/people-group/engagement)
 1. Increased access to career mobility: internal transfers, [promotions]({{< ref "promotions-transfers" >}}), job shadows, intern for learning, and professional development
 1. Clear evidence of best in class remote learning & development (i.e. [Brandon Hall Awards](https://excellenceawards.brandonhall.com/), Industry Speaking Events, Thought Leadership articles, etc.)
 
@@ -42,9 +42,9 @@ title: Learning & Development
 
 We are a small team, but we've got a big role to play at GitLab!
 
-- [Learning and Development Director]({{< ref "/job-families/people-group/learning-development#learning--development-manager" >}}): [Tre Ely]({{/handbook.gitlab.com/handbook/company/team/#tely2}})
-- [Senior Learning and Development Program Manager]({{< ref "/job-families/people-group/learning-development#intermediate-learning--development-program-manager" >}}): [Samantha Lee](/handbook/company/team/#slee24)
-- [Learning and Development Program Manager]({{< ref "/job-families/people-group/learning-development#intermediate-learning--development-program-manager" >}}): [Jamie Allen](/handbook/company/team/#jallen16)
+- [Learning and Development Director](/job-families/people-group/learning-development#learning--development-manager): [Tre Ely]({{/handbook.gitlab.com/handbook/company/team/#tely2}})
+- [Senior Learning and Development Program Manager](/job-families/people-group/learning-development#intermediate-learning--development-program-manager): [Samantha Lee](/handbook/company/team/#slee24)
+- [Learning and Development Program Manager](/job-families/people-group/learning-development#intermediate-learning--development-program-manager): [Jamie Allen](/handbook/company/team/#jallen16)
 
 ## Team Member Resources
 
@@ -53,7 +53,7 @@ The Learning & Development team has a number of resources to help team members l
 <div class="flex-row" markdown="0">
   <div>
     <a href="{{< ref "manager-development" >}}" class="btn btn-primary" style="width:200px;margin:5px;">Transitioning to a Manager Role</a>
-    <a href="{{< ref "/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development" >}}" class="btn btn-primary" style="width:200px;margin:5px;">Growth & Development Benefit</a>
+    <a href="/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development" class="btn btn-primary" style="width:200px;margin:5px;">Growth & Development Benefit</a>
     <a href="{{< ref "career-development" >}}" class="btn btn-primary" style="width:200px;margin:5px;">Career Development & Mobility</a>
   </div>
 </div>

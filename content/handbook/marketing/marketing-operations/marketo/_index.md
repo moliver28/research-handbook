@@ -199,7 +199,7 @@ Some leads are exluded from scoring if they:
 
 #### Why Do We Use A Scoring Model?
 
-A slide deck of the "why" we use a scoring model, along with a few pointers, can be found [here](https://docs.google.com/presentation/d/1Xl1xcrOeFsDar2B9kTmMH1Hrw5WKsNx7mDL9xtVeBMs/edit#slide=id.g1d24c3e4ddd_5_252). Note, this is the slide deck used in the LevelUp course. 
+A slide deck of the "why" we use a scoring model, along with a few pointers, can be found [here](https://docs.google.com/presentation/d/1Xl1xcrOeFsDar2B9kTmMH1Hrw5WKsNx7mDL9xtVeBMs/edit#slide=id.g1d24c3e4ddd_5_252). Note, this is the slide deck used in the LevelUp course.
 
 #### Scoring Revamp FY25Q1
 
@@ -209,7 +209,7 @@ For details on the data driven changes made to lead scoring at the beginning of 
 
 Based on certain criteria, a lead may auto-MQL. Note that any auto-MQL is considered to be part of the `Behavior` score category. The scenarios are listed below:
 
-WIP 
+WIP
 
 <!-- Self-Managed Trial + Business email domain
 - SaaS Trial - Signed Up + Business email domain
@@ -219,7 +219,7 @@ WIP
 | ------ | ------ | ------ | ------|
 |   Follow Up Requested  | Follow Up Requested, <br> Conference > Meeting Attended   | +100 | Everytime | 
 |  Inbound  | Contact Request, <br> Renewals, <br> [Hand Raise PQL](https://handbook.gitlab.com/handbook/product/product-principles/#a-pql-can-be-further-broken-down-into-two-types-usage-and-hand-raise), <br> In-app Health Check, <br> Duo Requests <br> | +100 | 1/day | 
-| [PTP Score]((https://internal.gitlab.com/handbook/sales/propensity_models/))  |Assigned a 4 or 5 score via the Propensity Model.<br> See [Educational deck](https://docs.google.com/presentation/d/1dxSXekzw-SIF1g4pjNf6QGNBUY1L6euggsqqr9BTHUY/edit#slide=id.g1d24c3e4ddd_5_252) or handbook for details <br>  | +100 | 1/90 days |
+| [PTP Score]((https://internal.gitlab.com/handbook/sales/propensity_models/))  |Newly assigned a 4 or 5 score via the Propensity Model alongside being assigned an `A` or `B` ranking via Lead Score Classification.<br> See [Educational deck](https://docs.google.com/presentation/d/1dxSXekzw-SIF1g4pjNf6QGNBUY1L6euggsqqr9BTHUY/edit#slide=id.g1d24c3e4ddd_5_252) or handbook for details <br>  | +100 | 1/90 days |
 | Web Chat - <br>Qualified  |Web chat interaction or meeting scheduled | +100 | 1/day | 
 |* Inbound - Med|Inbound form, not above |    +100|1/day|
 
@@ -247,7 +247,7 @@ Behavior scoring is based on the actions that person has taken. The cadence of h
 
 ##### Interaction Boosters
 
-Boosts to scores occur when a special action takes place above the traditional action above.  
+Boosts to scores occur when a special action takes place above the traditional action above.
 
 |**Interaction Boosters**|Campaign Description|**Points Assigned**|**Schedule/Flow Limit**|
 |:-------------:|:-------:|:-----:|:--------:|
@@ -292,9 +292,9 @@ For Job role/function and seniority descriptions can be found [here](https://doc
 
 The Lead Classification Matrix and the Lead Classification Definitions Table [exist in Figma](https://www.figma.com/file/U4GBe693vvyyrXZnMGGjS7/Welcome-to-FigJam?type=whiteboard&node-id=0%3A1&t=PZBNGKUfGQo8Ocvn-1), if the handbook page ever becomes broken.
 
-To streamline prospecting with lead scoring, as of January 2024 Salesforce now displays a `lead score classification` on all `new` leads moving forward and all leads Marketing has tracked as `active` since Jan 2023. Leads that do not meet this criteria may not feature a classification, but eventually more leads _may_ have the field populated. The field can be found in the `Person Status` section of leads and and `Contact Detail` section of contacts. 
+To streamline prospecting with lead scoring, as of January 2024 Salesforce now displays a `lead score classification` on all `new` leads moving forward and all leads Marketing has tracked as `active` since Jan 2023. Leads that do not meet this criteria may not feature a classification, but eventually more leads _may_ have the field populated. The field can be found in the `Person Status` section of leads and and `Contact Detail` section of contacts.
 
-A `lead score classification` is a 2-character score/designation meant to classify the likelihood of a prospect leading into a closed-won opportunity - with the score being modeled after the lead's current `demographic` and `behavior` scores. A Marketo automation sets or changes the lead score classification a few minutes after two types of events: 1) when a lead is created 2) when a lead experiences a change in either their `demographic` or `behavior` scores. A visual representation of the scores and their definitions are pictured below in the `Lead Classification Matrix`. Lead that have their lead status set into `Ineligible` or `Disqualified` will have their `lead score classification` set to `Disqualified` or `Ineligible`. 
+A `lead score classification` is a 2-character score/designation meant to classify the likelihood of a prospect leading into a closed-won opportunity - with the score being modeled after the lead's current `demographic` and `behavior` scores. A Marketo automation sets or changes the lead score classification a few minutes after two types of events: 1) when a lead is created 2) when a lead experiences a change in either their `demographic` or `behavior` scores. A visual representation of the scores and their definitions are pictured below in the `Lead Classification Matrix`. Lead that have their lead status set into `Ineligible` or `Disqualified` will have their `lead score classification` set to `Disqualified` or `Ineligible`.
 
 ![Lead Classification Matrix](/handbook/marketing/marketing-operations/marketo/lead_classification_matrix.png)
 
@@ -302,14 +302,14 @@ A `lead score classification` is a 2-character score/designation meant to classi
 
 The lead classification score --and its visual companion matrix-- is designed to appropriately rank how to approach a lead based on two primary criteria: the `demographic` and `behavior` scores. The `demographic fit` of a lead is associated with letters/columns `A`, `B`, `C` and `D`. The `behavior level` of a lead is associated with rows `1`, `2`, `3` and `4`. Both `A` and  `1` are the highest designations while `D` and `4` are the lowest. When looking at the matrix, the lowest classification is the bottom left, `D4`, and the highest classification is the top right, `A1`. Total, there are `16` lead classification scores and each of the `16` scores has a specific definition.
 
-In order to best utilize the lead score classification, read the definition provided on the matrix or via the definitions table below and act appropriately. For instance, a lead classified as `B2` or `A2` is more likely to produce a closed-won opportunity than a lead classified as `D2`. A `D2` lead can still lead to a closed-won opporunity due to interest being shown, but due to a low `demographic` fit it's less likely to be worth the time. 
+In order to best utilize the lead score classification, read the definition provided on the matrix or via the definitions table below and act appropriately. For instance, a lead classified as `B2` or `A2` is more likely to produce a closed-won opportunity than a lead classified as `D2`. A `D2` lead can still lead to a closed-won opporunity due to interest being shown, but due to a low `demographic` fit it's less likely to be worth the time.
 
 |  | D <br> (Demographic - Low) | C | B | A <br> (Demographic - High) |
 | ------ | ------ | ------ | ------ | ------ |
 |   **1**  <br> **(Behavior - High)** |  Wrong fit, very interested      |  Not ideal prospect, very interested      |   Good fit, very interested    |    Right prospect, very interested     |
-|    **2**   |    Wrong fit, showing interest    |   Not ideal prospect, showing interest     |    Good fit, showing interest   |    Right prospect, showing interest     | 
+|    **2**   |    Wrong fit, showing interest    |   Not ideal prospect, showing interest     |    Good fit, showing interest   |    Right prospect, showing interest     |
 |   **3**     |   Wrong fit, little interest     |    Not ideal prospect, little interest    |    Good fit, little interest   |   Right prospect, little interest      |
-|    **4** <br>**(Behavior - Low)**    |  Wrong fit, no interest      |    Not ideal prospect, no interest    |    Good fit, no interest   |     Right prospect, no interest    | 
+|    **4** <br>**(Behavior - Low)**    |  Wrong fit, no interest      |    Not ideal prospect, no interest    |    Good fit, no interest   |     Right prospect, no interest    |
 
 
 

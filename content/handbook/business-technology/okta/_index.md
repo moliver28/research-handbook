@@ -42,7 +42,7 @@ GitLab is using Okta for a few key goals:
 
 ## How do I get my Okta account set up?
 
-All GitLab team-members will have an Okta account set up as part of their onboarding process. You should already have an activation email in both your Gmail and Personal Accounts.  For efficiency, please follow the onboarding process for setting up Okta and set up 1Password first and follow that up with Okta.  Please also set up Okta from your computer rather than your mobile or the mobile app, as you will be guided to set up the mobile app as part of the onboarding process.
+All GitLab team-members will have an Okta account set up as part of their onboarding process. You should already have an activation email in both your Gmail and Personal Accounts.  For efficiency, please follow the onboarding process for setting up Okta and set up 1Password first and follow that up with Okta.  Please also set up Okta from your computer rather than your mobile or the mobile app, as you will be guided to set up the Okta Verify mobile app as part of the onboarding process.
 
 GitLab requires all team members to use either Biometrics or YubiKey as your [Okta authentication](#i-want-to-add-touch-id--face-id--face-authentication--yubikey-to-okta)
 
@@ -50,7 +50,6 @@ GitLab requires all team members to use either Biometrics or YubiKey as your [Ok
 
 **Using [WebAuthn](https://www.okta.com/sites/default/files/pdf/How_WebAuthn_Works_0.pdf) authentication is required for all team members.**
 
-1. Touch ID on Mac currently requires Chrome or Safari. The latest version of macOS works better with Touch ID/YubiKeys. There is a known [issue](https://bugzilla.mozilla.org/show_bug.cgi?id=1536482) with Firefox preventing it from working with Touch ID. YubiKeys can be used with all browsers.
 
 1. While logged in to Okta from the device you wish to add, access the [Settings](https://gitlab.okta.com/enduser/settings) page.
 1. In the 'Security Methods' section of the page, choose `Set up` or `Set up another` next to `Security Key or Biometric`.
@@ -66,7 +65,7 @@ GitLab requires all team members to use either Biometrics or YubiKey as your [Ok
 
 1. If you choose to save it in your Chrome profile, another prompt will appear asking you to authenticate using Touch ID or Face ID.
 
-    <img src="/handbook/business-technology/Okta-Add-Biometric-2.png" alt="Okta Add Biometric #2" width="300"/>
+    <img src="/handbook/business-technology/okta/images/Okta-Add-Biometric-2.png" alt="Okta Add Biometric #2" width="300"/>
 
 1. If you chose to use the iCloud Keychain or Security Key, choose the correct option to finish enrollment.
 
@@ -75,11 +74,11 @@ GitLab requires all team members to use either Biometrics or YubiKey as your [Ok
 
 1. For Security Key, relevant prompts will appear.
 
-    <img src="/handbook/business-technology/Okta-Add-SecurityKey-1.png" alt="Okta Security Key #1" width="300"/>
+    <img src="/handbook/business-technology/okta/images/Okta-Add-SecurityKey-1.png" alt="Okta Security Key #1" width="300"/>
 
 1. You may be prompted for a PIN, and then finally click `Allow`.
 
-    <img src="/handbook/business-technology/Okta-Add-SecurityKey-2.png" alt="Okta Security Key #2" width="300"/>
+    <img src="/handbook/business-technology/okta/images/Okta-Add-SecurityKey-2.png" alt="Okta Security Key #2" width="300"/>
 
 1. We recommend enrolling both Chrome and Safari for redundancy on your computer, as well as a mobile device. Each browser needs to be enrolled separately, unless you use iCloud Keychain. Note that separate Chrome browser profiles also need to be enrolled separately. You should enroll one computer browser (for example, Chrome), then add the [mobile device](#i-want-to-add-touch-id--face-id--face-authentication-to-okta-for-my-mobile-device-iphoneipad-or-android), then if required add the other computer [browser](#i-want-to-login-or-add-a-new-computer-to-okta-and-i-have-a-mobile-device-enrolled) (for example, Safari).
 1. If clearing your browser cache, please be careful as you can delete your passkey.
@@ -88,7 +87,7 @@ GitLab requires all team members to use either Biometrics or YubiKey as your [Ok
 
 Follow the GitLab Okta [FAQ](/handbook/business-technology/okta/okta-enduser-faq/).
 
-We have also prepared Introductory Videos on [Setting up MFA/YubiKeys](https://youtu.be/9UyKml_aO3s), [Configuring Applications](https://youtu.be/xS2CarGUPLc) and [Dashboard Tips](https://youtu.be/xQQwa_pbe2U).
+We have also prepared Introductory Videos on [Configuring Applications](https://youtu.be/xS2CarGUPLc) and [Dashboard Tips](https://youtu.be/xQQwa_pbe2U).
 
 ### Adding a Passkey to 1Password
 
@@ -107,23 +106,23 @@ These steps are for an iPhone, and may be slightly different for Android.  If yo
 1. On your Mac, please also check that you are using macOS Ventura [13.0.1](https://support.apple.com/en-us/HT201260#:~:text=From%20the%20Apple%20menu%20%EF%A3%BF,version%20number%20to%20see%20it.) or newer.
 1. On your Mac, please check under "System Settings"->"Privacy & Security"->"Bluetooth" and make sure that Google Chrome has Bluetooth access enabled.
 
-    <img src="/handbook/business-technology/Okta-Mac-Bluetooth-1.png" alt="Okta Mac Bluetooth-1" width="300"/>
-    <img src="/handbook/business-technology/Okta-Mac-Bluetooth-2.png" alt="Okta Mac Bluetooth-2" width="300"/>
+    <img src="/handbook/business-technology/okta/images/Okta-Mac-Bluetooth-1.png" alt="Okta Mac Bluetooth-1" width="300"/>
+    <img src="/handbook/business-technology/okta/images/Okta-Mac-Bluetooth-2.png" alt="Okta Mac Bluetooth-2" width="300"/>
 1. On the computer, login into your [Okta](https://gitlab.okta.com)
 1. On the computer, click on your name on the top right to open the drop down menu (similar to above) and navigate to "Settings".
 1. On the computer, under Security Methods click "Set up another" beside Security Key or Biometric. This will take you to a setup authentication screen, click "Verify". Provide Touch ID.
 1. On the computer, click "Set up", then click "Set up" again on the next screen
 1. On the computer, ignore all popups from the 1Password browser extension as it could interfere with the process of transferring the passkey. Click the "Yubikey" icon to bypass if it appears.
-<img src="/handbook/business-technology/okta/images/1password-passkey.png alt="1Password USB Key" width="300">
+<img src="/handbook/business-technology/okta/images/1password-passkey.png" alt="1Password USB Key" width="300">
 
 1. On the computer, the next step depends on the browser and version.
     1. In Chrome, the pop up that opens states "Create a passkey for gitlab.okta.com" and has your email address listed. Choose "Use a different passkey" at the bottom left.
 
-    <img src="/handbook/business-technology/images/Okta-Chrome-Passkey-Popup.png" alt="Okta Chrome Passkey" width="300"/>
+    <img src="/handbook/business-technology/okta/images/Okta-Chrome-Passkey-Popup.png" alt="Okta Chrome Passkey" width="300"/>
 
      Then, choose "Use a phone, tablet or security key".
 
-     <img src="/handbook/business-technology/images/Okta-Chrome-Passkey-2.png" alt="Okta Chrome Passkey-2" width="300"/>  
+     <img src="/handbook/business-technology/okta/images/Okta-Chrome-Passkey-2.png" alt="Okta Chrome Passkey-2" width="300"/>  
 
       This should display a QR code that you can scan.
     1. In Safari, click "Other options", then choose "iPhone, iPad or Android device - save a passkey on a device with a camera", then "Continue".

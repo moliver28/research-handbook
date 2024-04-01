@@ -107,4 +107,4 @@ If this doesn't solve the issue, reach out to [Gainsight support](#support-ticke
 
 - You can find more information about how Sales uses Gainsight on the [Using Gainsight within Sales](/handbook/sales/gainsight/account-planning/) page
 - You can find more information about how Customer Success Managers use Gainsight on the [Using Gainsight for CSMs](/handbook/customer-success/csm/gainsight/) page
-- You can find more information about how Solutions Architect use Gainsight on the [Using Gainsight for SAs](/handbook/customer-success/solutions-architects/processes/account-planning)
+- You can find more information about how Solutions Architect use Gainsight on the [Using Gainsight for SAs](/handbook/solutions-architects/processes/account-planning)

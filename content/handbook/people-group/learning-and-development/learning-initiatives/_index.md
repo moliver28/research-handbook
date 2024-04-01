@@ -9,7 +9,7 @@ The Learning & Development team is rolling out learning programs to enable a cul
 
 Team members can follow our [`#learninganddevelopment` Slack channel](https://app.slack.com/client/T02592416/CMRAWQ97W/thread/G018JT50VH7-1663352618.329159) for upcoming programs.
 
-We record our [past initiatives]({{< ref "/handbook/people-group/learning-and-development/learning-initiatives/past-initiatives" >}}) so that we can share and revisit our programs over time.
+We record our [past initiatives](/handbook/people-group/learning-and-development/learning-initiatives/past-initiatives) so that we can share and revisit our programs over time.
 
 ## Learning Sessions
 
@@ -73,7 +73,7 @@ The L&D team hosted a quarterly newsletter for five quarters for the community.
 
 [Focus Friday's]({{< ref "communication#focus-fridays" >}}) are a great benefit at GitLab. We try to schedule minimal meetings on Fridays to catch up on work and grow our skills professionally. Use Focus Fridays to take time out to learn. Team members can work with their manager through a [career development conversation]({{< ref "1-1#career-development-discussion-at-the-1-1" >}}) to determine what skills that want to grow in the future. Aspirations can be documented in an [individual growth plan]({{< ref "career-development#internal-resources" >}}).
 
-From there, identify what will be needed to attain the new skills and consider using the [Growth and Development Benefit]({{< ref "general-and-entity-benefits#growth-and-development-benefit" >}}) or [expensing professional development opportunities such as coaching, worskshops, conferencces, self-service learning, etc.]({{< ref "/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development#types-of-growth-and-development-reimbursements" >}}). Block time off your calendar every week or month to devote to learning new skills. Share what you are learning with team members and in the `#learninganddevelopment` slack channel.
+From there, identify what will be needed to attain the new skills and consider using the [Growth and Development Benefit]({{< ref "general-and-entity-benefits#growth-and-development-benefit" >}}) or [expensing professional development opportunities such as coaching, worskshops, conferencces, self-service learning, etc.](/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development#types-of-growth-and-development-reimbursements). Block time off your calendar every week or month to devote to learning new skills. Share what you are learning with team members and in the `#learninganddevelopment` slack channel.
 
 In a [discussion with Darren Murph, Head of Remote at GitLab, about his career development](https://levelup.gitlab.com/access/saml/login/internal-team-members?returnTo=https://levelup.gitlab.com/learn/course/career-development-with-darren-murph), Darren called out the importance of taking time out to learn, reminding the team that career development is "not something that comes around the fringes of work - it is work". The Take Time out to Learn initiative leans into this idea.
 

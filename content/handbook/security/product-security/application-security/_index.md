@@ -101,9 +101,9 @@ Please see the [Application Security Automation and Monitoring page][12]
 [3]: {{< ref "vulnerability-management" >}}
 [4]: {{< ref "stable-counterparts" >}}
 [5]: {{< ref "./runbooks" >}}
-[6]: {{< ref "/job-families/security/application-security" >}}
+[6]: /job-families/security/application-security
 [8]: https://10az.online.tableau.com/#/site/gitlab/views/appsectest2rawdata/AppSec-ApplicationandContainerVulnerabilityDashboard?:iid=4
 [9]: https://docs.google.com/document/d/1Mba9ZhuVr2qBkvR7AqzNTUFMUTapJqiXkPUqc9Gr8io/edit
-[10]: {{< ref "/handbook/security/root-cause-analysis" >}}
+[10]: /handbook/security/root-cause-analysis
 [11]: {{< ref "reproducible-vulnerabilities" >}}
 [12]: {{< ref "application-security-automation-monitoring" >}}

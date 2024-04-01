@@ -36,6 +36,7 @@ stages:
 
 include:
   - template: Security/Secret-Detection.gitlab-ci.yml
+  - component: gitlab.com/gitlab-org/components/danger-review/danger-review@~latest
 
 default:
   interruptible: true # All jobs are interruptible by default

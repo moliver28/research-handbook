@@ -115,7 +115,7 @@ Once the initial steps have been done and we have a first set of well thought ou
 
 ### Documenting the Threat Model
 
-The [Stable Counterpart]({{< ref "/handbook/security/product-security/application-security/stable-counterparts" >}}) should document the threat model and the results. The threat model will be added to [the AppSec Threat Models repository](https://gitlab.com/gitlab-com/gl-security/appsec/threat-models)(internal link). This also includes templates for threat modeling that anyone can use in issues or epics.
+The [Stable Counterpart](/handbook/security/product-security/application-security/stable-counterparts) should document the threat model and the results. The threat model will be added to [the AppSec Threat Models repository](https://gitlab.com/gitlab-com/gl-security/appsec/threat-models)(internal link). This also includes templates for threat modeling that anyone can use in issues or epics.
 
 ### Ensure Ownership of Threats
 

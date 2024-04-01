@@ -34,11 +34,11 @@ As per the [onboarding issue procedures](https://gitlab.com/gitlab-com/people-gr
 
 We are currently using Jamf as our endpoint management solution for Mac laptops. All macOS laptops procured by GitLab will come configured with [Jamf](https://internal.gitlab.com/handbook/it/endpoint-tools/). GitLab Team Members procuring and expensing Mac Laptops will require [Jamf](https://internal.gitlab.com/handbook/it/endpoint-tools/) to be installed as part of their [Day 1 Security tasks](https://gitlab.com/gitlab-com/people-group/people-operations/employment-templates/-/blob/main/.gitlab/issue_templates/onboarding.md#day-1-getting-started-accounts-and-paperwork). Upon their discretion, IT Ops may install additional security tools via Jamf.
 
-Linux users must install [SentinelOne](/handbook/business-technology/end-user-services/onboarding-access-requests/endpoint-management/edr/#how-do-i-install-the-sentinelone-agent-on-linux) and [DriveStrike](/handbook/it/guides/drivestrike/#installation-process) as part of their onboarding process.
+Linux users must install [SentinelOne](/handbook/business-technology/end-user-services/onboarding-access-requests/endpoint-management/edr/#how-do-i-install-the-sentinelone-agent-on-linux) and [DriveStrike](https://internal.gitlab.com/handbook/it/it-self-service/it-guides/drivestrike/) as part of their onboarding process.
 
 ### Security and Proprietary Information
 
-All GitLab data is categorized and must be handled in accordance with the [Data Classification Standard](/handbook/security/data-classification-standard.html). All computing assets that connect to any part of the GitLab network, or 3rd party services that are used by GitLab, must comply with the applicable standards.
+All GitLab data is categorized and must be handled in accordance with the [Data Classification Standard](https://handbook.gitlab.com/handbook/security/data-classification-standard/). All computing assets that connect to any part of the GitLab network, or 3rd party services that are used by GitLab, must comply with the applicable standards.
 
 ### Open source libraries
 
@@ -48,9 +48,9 @@ Open Source libraries are allowed under this policy if its use complies with the
 
 Individual Use Software (freeware, add-ons and plugins) is permitted, with the exception of unauthorized Google Workspace Integrations. Individual Use Software is subject to retroactive removal at any time by IT, Legal and Security when it is deemed unsafe or insecure.
 
-Authorized Google Workspace Integrations and other approved Individual Use Software can be found on the [Pre-Approved Individual-Use Software](https://internal.gitlab.com/handbook/finance/procurement/individual-use-software/) list and are permitted for use subject to any "Notes and Restrictions" for each respective Pre-Approved software offering.
+Authorized Google Workspace Integrations and other approved Individual Use Software can be found on the [Pre-Approved Individual-Use Software](https://internal.gitlab.com/handbook/finance/procurement/pre-approved-individual-use-software/) list and are permitted for use subject to any "Notes and Restrictions" for each respective Pre-Approved software offering.
 
-To request approval for new Individual Use Software, please follow the [Individual Use Software](https://about.gitlab.com/handbook/finance/procurement/personal-use-software/#how-do-i-submit-a-request-for-new-individual-use-software) request process.
+To request approval for new Individual Use Software, please follow the [Individual Use Software](https://handbook.gitlab.com/handbook/finance/procurement/individual-use-software/#how-do-i-submit-a-request-for-new-individual-use-software) request process.
 
 
 {{% alert title="Note" %}}
@@ -80,9 +80,10 @@ Prohibited system and network activities include, but are not limited to, the fo
 - Executing any form of network monitoring that intercepts data not intended for the Team Member’s or contractor's computer, except when troubleshooting networking issues for the benefit of GitLab.
 - Circumventing user authentication or security of any computer host, network, or account used by GitLab.
 - Tunneling between network segments or security zones (e.g., `gprd`, `gstg`, `ops`, `ci`), except when troubleshooting issues for the benefit of GitLab.
-- Given the potential sensitivity of the data contained in screenshot images, the use of tools that capture and share screenshots to hosted sites online is prohibited without the explicit approval of the Security and Legal Departments.  Screenshots should be stored locally or within Google drive folders associated with your GitLab.com account. Access to these drives and files should be managed in accordance with our [Access Management policy](/handbook/security/access-management-policy.html), and handled according to our [Data Classification Standard](/handbook/security/data-classification-standard.html). Tools such as [Lightshot](https://app.prntscr.com/en/index.html), where upload functionality cannot be disabled and could result in inadvertent uploads, should not be used.
+- Given the potential sensitivity of the data contained in screenshot images, the use of tools that capture and share screenshots to hosted sites online is prohibited without the explicit approval of the Security and Legal Departments.  Screenshots should be stored locally or within Google drive folders associated with your GitLab.com account. Access to these drives and files should be managed in accordance with our [Access Management policy](https://handbook.gitlab.com/handbook/security/access-management-policy/), and handled according to our [Data Classification Standard](https://handbook.gitlab.com/handbook/security/data-classification-standard/). Tools such as [Lightshot](https://app.prntscr.com/en/index.html), where upload functionality cannot be disabled and could result in inadvertent uploads, should not be used.
 - The use of high risk remote administration tools, such as TeamViewer and AnyDesk, which are [commonly used by attackers](https://attack.mitre.org/techniques/T1219/) to gain and remotely control systems.
 - Tools that emulate another operating system or create compatibility layers such as [WINE](https://www.winehq.org/)
+- The use of torrent or other P2P software on GitLab computing assets.
 
 #### Unacceptable Email and Communications Activities
 
@@ -98,7 +99,7 @@ All GitLab-owned computing resources must be [returned]({{< ref "offboarding#ret
 
 ### Bring-Your-Own-Device (BYOD)
 
-As a general rule, non-company devices are not permitted to access company assets. While there are some exceptions listed below, access to RED classified data, as defined by the [GitLab Data Classification Standard](/handbook/security/data-classification-standard.html), is still prohibited.
+As a general rule, non-company devices are not permitted to access company assets. While there are some exceptions listed below, access to RED classified data, as defined by the [GitLab Data Classification Standard](https://handbook.gitlab.com/handbook/security/data-classification-standard/), is still prohibited.
 
 The exceptions are as follows:
 
@@ -110,7 +111,7 @@ All personal mobile computing devices used to access GitLab-managed data, includ
 
 For new employees who have not received a company laptop, there are [exception processes](/handbook/business-technology/end-user-services/onboarding-access-requests/#exception-processes) for using non-company devices.
 
-The same exception processes apply in the case of a corporate laptop being unavailable or unusable due to loss, theft or disrepair. See [lost or stolen procedures]({{< ref "/handbook/security#reporting-an-incident" >}}) for additional information. You must open [a Policy Exeption Request](https://gitlab.com/gitlab-com/gl-security/security-assurance/sec-compliance/exceptions/issues/new?issuable_template=exception_request). While the exception processes are considered a temporary solution, you still need to make sure the non-company system meets [basic configuration standards](/handbook/business-technology/it/security/system-configuration/#laptop-or-desktop-system-configuration), and a Microsoft Windows system is still not allowed access under any circumstances.
+The same exception processes apply in the case of a corporate laptop being unavailable or unusable due to loss, theft or disrepair. See [lost or stolen procedures](/handbook/security#reporting-an-incident) for additional information. You must open [a Policy Exeption Request](https://gitlab.com/gitlab-com/gl-security/security-assurance/sec-compliance/exceptions/issues/new?issuable_template=exception_request). While the exception processes are considered a temporary solution, you still need to make sure the non-company system meets [basic configuration standards](/handbook/business-technology/it/security/system-configuration/#laptop-or-desktop-system-configuration), and a Microsoft Windows system is still not allowed access under any circumstances.
 
 Do not sign in to any GitLab related accounts using public computers, such as library or hotel kiosks.
 
@@ -124,7 +125,7 @@ For [video calls](/handbook/communication/#video-calls), and as a back-up to Sla
 
 The use of removable and external storage devices such as USB flash drives and external backup drives on company-managed devices is not officially sanctioned. If there is a business need for the use of an external storage device, such as a flash drive or an external hard drive on company devices, please contact the Security Team to determine the most suitable encryption-enabled device. All external and removable storage devices must be encrypted and protected by a passcode.
 
-As a reminder, Red Data may not be transmitted from an approved Red data source to any other systems or solutions without first obtaining approval from the Privacy and Security teams. Please refer to GitLab's [Data Classification Standard]({{< ref "data-classification-standard#red" >}}) for further details.
+As a reminder, Red Data may not be transmitted from an approved Red data source to any other systems or solutions without first obtaining approval from the Privacy and Security teams. Please refer to GitLab's [Data Classification Standard](https://handbook.gitlab.com/handbook/security/data-classification-standard/) for further details.
 
 ### Use of file sharing services other than Google Drive
 
@@ -137,7 +138,7 @@ When creating an account with and using a file sharing service other that Google
 
 ### Lost or Stolen Procedures
 
-GitLab provides a `panic@gitlab.com` email address and a [lost or stolen procedure]({{< ref "/handbook/security#reporting-an-incident" >}}) for team members to use in situations that require an immediate security response. Should a team member lose a device such as a thumb drive, Yubikey, mobile phone, tablet, laptop, etc. that contains their credentials or other GitLab-sensitive data, they should send an email to `panic@gitlab.com` right away. When the production and security teams receive an email sent to this address it will be handled immediately. Using this address provides an excellent way to limit the damage caused by a loss of one of these devices.
+GitLab provides a `panic@gitlab.com` email address and a [lost or stolen procedure](/handbook/security#reporting-an-incident) for team members to use in situations that require an immediate security response. Should a team member lose a device such as a thumb drive, Yubikey, mobile phone, tablet, laptop, etc. that contains their credentials or other GitLab-sensitive data, they should send an email to `panic@gitlab.com` right away. When the production and security teams receive an email sent to this address it will be handled immediately. Using this address provides an excellent way to limit the damage caused by a loss of one of these devices.
 
 GitLab reserves the right to request documentation of the theft and/or a related police report in the case of a stolen laptop.
 
@@ -156,11 +157,11 @@ To consult with the Security Team create an issue in the [Security Compliance tr
 Exceptions to this policy must be approved by Security, Legal and PeopleOps Departments.
 
 - [Onboarding Issue](https://gitlab.com/gitlab-com/people-group/people-operations/employment-templates/-/blob/main/.gitlab/issue_templates/onboarding.md)
-- [Data Classification Standard]({{< ref "data-classification-standard" >}})
+- [Data Classification Standard](https://handbook.gitlab.com/handbook/security/data-classification-standard/)
 - [Asset return procedure]({{< ref "offboarding#returning-property-to-gitlab" >}})
-- [Lost or stolen asset procedure]({{< ref "/handbook/security#reporting-an-incident" >}})
+- [Lost or stolen asset procedure](/handbook/security#reporting-an-incident)
 
 ## References
 
-- Parent Policy: [Information Security Policy]({{< ref "/handbook/security" >}})
+- Parent Policy: [Information Security Policy](/handbook/security)
 - GitLab's [Community Code of Conduct](https://about.gitlab.com/community/contribute/code-of-conduct/) applies to all members of the GitLab community

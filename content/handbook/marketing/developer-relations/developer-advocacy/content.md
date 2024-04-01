@@ -26,6 +26,7 @@ Note: The demos can be run offline in the absence of internet connectivity. To d
 
 Product tours are a self-guided journey emphasizing the 'What' of a feature, skipping the 'How-to' steps to directly showcase the value aspects.
 
+* [Interactive infographic - March 24](https://tech-marketing.gitlab.io/static-demos/gitlab-infographic.html)
 * [Resolving vulnerabilities with GitLab Duo (AI) - Feb 24](https://tech-marketing.gitlab.io/static-demos/pt-explain-vulnerability.html)
 * [CI/CD Catalog beta - Jan 24](https://gitlab.navattic.com/cicd-catalog)
 * [Integrating security to the pipeline - Jan 24](https://gitlab.navattic.com/gitlab-scans)

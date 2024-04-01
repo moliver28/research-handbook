@@ -98,7 +98,7 @@ Yes. And once the value crosses over the $50k threshold, SAEs should be looped i
 Loop in the SAE and ASMs and other account team resources (SAs and CSMs). These growth oppotunities should be a collaborative effort between the ISR, SAE, and ASM.
 
 **How should ISRs work with Solution Architects?**
-[Engaging Solution Architects](/handbook/customer-success/solutions-architects/processes/#engaging-an-sa-during-the-sales-cycle) is ultimately the responsibility of the SAE (or ASM). ISRs should work closely with SAEs to ensure the SA qualification criteria is uncovered and there is strategic growth or upgrade potential.
+[Engaging Solution Architects](/handbook/solutions-architects/processes/#engaging-an-sa-during-the-sales-cycle) is ultimately the responsibility of the SAE (or ASM). ISRs should work closely with SAEs to ensure the SA qualification criteria is uncovered and there is strategic growth or upgrade potential.
 
 
 
