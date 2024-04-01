@@ -26,17 +26,18 @@ This chart reflects the available signatories for each of GitLab's entities. The
 | GitLab Federal LLC    |       Bob Stevens     |
 | GitLab BV Belgium, Dutch & English | Marissa Farris, Pattie Egan|
 | GitLab BV, Netherlands | Marissa Farris & Pattie Egan|
-| GitLab GmbH | Marissa Farris, Rob Allen & Pattie Egan|
-| GitLab PTY Ltd, Australia | Jess Dallmar & Rob Allen.  Backup: Jim (James) Gladen |
-| GitLab PTY Ltd, New Zealand | Jess Dallman & Rob Allen|
-| GitLab Ireland LTD | Marissa Farris, Rob Allen & Pattie Egan|
-| GitLab UK Ltd | Marissa Farris, Rob Allen, Pattie Egan|
 | GitLab Canada Corp | Simon Mundy |
-| GitLab GK, Japan | Jess Dallmar, Rob Allen. Backup: Simon Mundy|
-| GitLab IT BV | Marissa Farris, Pattie Egan |
-| GitLab South Korea | Jess Dallmar & Rob Allen |
 | GitLab France S.A.S. | Rob Allen & Pattie Egan|
+| GitLab GK, Japan | Jess Dallmar, Rob Allen. Backup: Simon Mundy|
+| GitLab GmbH | Marissa Farris, Rob Allen & Pattie Egan|
+| GitLab Iberia S.L (Spain) | Jim Gladen & Simon Mundy |
+| GitLab Ireland LTD | Marissa Farris, Rob Allen & Pattie Egan|
+| GitLab IT BV | Marissa Farris, Pattie Egan |
+| GitLab PTY Ltd, Australia | Jess Dallmar & Rob Allen. Backup: Jim Gladen|
+| GitLab PTY Ltd, New Zealand | Jess Dallman & Rob Allen. Backup: Jim Gladen|
+| GitLab South Korea | Jess Dallmar & Rob Allen |
 | GitLab Singapore PTE. LTD. | Jess Dallmar & Rob Allen. Backup: Simon Mundy |
+| GitLab UK Ltd | Marissa Farris, Rob Allen, Pattie Egan|
 | JCLs | Choose signatory from the list above. For the US, Morgan Wilkins can also sign. |
 | PEOs | The Candidate Experience Specialist processing the offer. For JCLs, choose Morgan Wilkins or Marissa Ferber |
 
