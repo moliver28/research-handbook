@@ -194,29 +194,52 @@ Slack channel.
 
 ### Seeing which manager is on-call
 
-To see who the current manager on-call is you can:
+To see who the *current* manager on-call is, you can:
 
-- use ChatOps to query the on-call schedule with `/chatops run oncall manager`
-- log in to PagerDuty view the [Support Managers Service](https://gitlab.pagerduty.com/services/PTFI8XR)
+- Use ChatOps to query the on-call schedule with `/chatops run oncall manager`
+- Log in to PagerDuty view the [Support Managers](https://gitlab.pagerduty.com/services/PTFI8XR) service
+- View the `#spt-gg-forest` Slack channel, the regional bot message lists who is on-call for the different schedules today
+
+To see who the *upcoming* manager on-call is, you can:
+
 - View the individual on-call schedules for
-    - [Support Manager - AMER](https://gitlab.pagerduty.com/schedules/PTI56V1)
     - [Support Manager - APAC](https://gitlab.pagerduty.com/schedules/PWBXTYX)
     - [Support Manager - EMEA](https://gitlab.pagerduty.com/schedules/PXQ2ZAZ)
-- In the `#spt-gg-forest` slack channel, the regional bot message lists who is on-call for the different schedules today
-- Ask in `#support_leadership` (where you may or may not be referred to the above steps!)
+    - [Support Manager - AMER](https://gitlab.pagerduty.com/schedules/PTI56V1)
+- View the internal [Oncall Schedules](https://gitlab-com.gitlab.io/support/team/oncall.html) page
+
+When in doubt, you can always ask in `#support_leadership`
 
 ### Paging the next on-call engineer
 
+This assumes that your shift has ended and the "next" on-call engineer is the *current* one as far as PagerDuty is concerned.
+
 - First, try pinging the on-call engineer in Slack using the `@ceoc` handle.
-- If it's important and urgent or a weekend, you can:
-   - Manually create a new incident from the [Customer Support Service](https://gitlab.pagerduty.com/service-directory/PL3TX00)
+- If it's urgent or a weekend/holiday and there's no response within 10 minutes, you can:
+   - Use the `/pd trigger` command in Slack to create a new incident (for the `Customer Support` service)
+   - Manually create a new incident from the [Customer Support](https://gitlab.pagerduty.com/service-directory/PL3TX00) service
+
+If your shift has not ended yet and you want to coordinate with the *upcoming* on-call engineer, you can:
+
+- View the individual on-call schedules for
+    - [Customer Emergencies - APAC Group 1](https://gitlab.pagerduty.com/schedules/PQB9Q6K)
+    - [Customer Emergencies - APAC Group 2](https://gitlab.pagerduty.com/schedules/PKPXM8K)
+    - [Customer Emergencies - EMEA](https://gitlab.pagerduty.com/schedules/P9SV029)
+    - [Customer Emergencies - AMER Group 1](https://gitlab.pagerduty.com/schedules/PBLAHV7)
+    - [Customer Emergencies - AMER Group 2](https://gitlab.pagerduty.com/schedules/P9FKYZC)
+    - [Customer Emergencies - AMER Group 3](https://gitlab.pagerduty.com/schedules/PP28N7L)
+- View the internal [Oncall Schedules](https://gitlab-com.gitlab.io/support/team/oncall.html) page
+
+When in doubt, you can always ask in `#support_leadership`
 
 ### Paging the on-call manager
 
+This is for paging the *current* on-call manager.
+
 - First, try pinging the on-call manager by tagging `@support-manager-oncall` in Slack.
-- If it's important and urgent or a weekend, you can:
-    - Tag the Support Manager On-Call by name in Slack to page the on-call manager
-    - Manually create a new incident from the [Support Managers Service](https://gitlab.pagerduty.com/services/PTFI8XR)
+- If it's urgent or a weekend/holiday and there's no response within 10 minutes, you can:
+    - Use the `/pd trigger` command in Slack to create a new incident (for the `Support Managers` service)
+    - Manually create a new incident from the [Support Managers](https://gitlab.pagerduty.com/services/PTFI8XR) service
 
 ## Mobile phone service and data reimbursement
 
