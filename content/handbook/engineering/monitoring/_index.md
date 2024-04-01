@@ -53,6 +53,7 @@ More details on definitions of outage, and degradation are on the [incident-mana
 
 | **Year Month** | **Availability** | **Comments** |
 | ---- | ----------- | ---- |
+| 2024 March | 100% | |
 | 2024 February | 99.86% | |
 | 2024 January | 100% | |
 | 2023 December | 99.99% |  |
