@@ -97,6 +97,18 @@ func main() {
 
 1. Select **Go to MR** to return back to your merge request.
 
+## Task D. Summarizing your Code Changes
+
+1. Navigate to your MR.
+
+1. Select **Edit**.
+
+1. Just above the Description input, select **Summarize code changes**.
+
+1. Select **Save changes**.
+
+1. Note that at the bottom of the MR description, there is now an outline of the changes included in the MR.
+
 ## Lab Guide Complete
 
 You have completed this lab exercise. You can view the other [lab guides for this course](/handbook/customer-success/professional-services-engineering/education-services/devsecopswithduo).
