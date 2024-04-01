@@ -554,6 +554,8 @@ One can download Tableau Desktop using the links below, or follow the link from 
 - [Tableau Desktop Releases Download](https://www.tableau.com/support/releases)
 - [Tableau Prep Builder Releases Download](https://www.tableau.com/support/releases/prep)
 
+*Note: For GitLAb employees, the version of Mac we runis not supported by Tableau, so it is recommended you install an older version of Tableau, such as 2023.2. The newer versions tend to crash at random while working. It is also recommended you [follow the steps for improving local connection timeouts](https://handbook.gitlab.com/handbook/business-technology/data-team/platform/tableau/tableau-developer-guide/#improving-local-connection-timeouts) once you have installed Tableau, and do your best to develop on extracted (non-live) connections to speed up your development time.*
+
 ### Tableau Desktop vs. Tableau Cloud
 
 Tableau offers two ways to create / edit workbooks and data sources, either via the Desktop client or Cloud (web) version. However, we recommend to develop in Desktop, as this version will have full functionality for editing and development.
