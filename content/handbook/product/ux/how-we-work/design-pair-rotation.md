@@ -17,7 +17,7 @@ Pair designing gives Product Designers a consistent partner to ideate with at th
 
 Collaborating on key activities offers a unique opportunity to broaden your knowledge across different areas of GitLab. This cross-functional collaboration not only enriches your skill set but can also cultivate a deeper understanding of the product as a whole. Try some of these suggestions when working with your design pair:
 
-- Perform mini-design reviews on each other's designs.
+- Perform design reviews on each other's designs.
 - Walk your pair partner through your Group’s primary use cases to familiarize them with it.
 - Review each other's Group's MRs. 
 - Use part of your pairing sessions to ensure environments are set up and ready for reviews in your respective Groups.
