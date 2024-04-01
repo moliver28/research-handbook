@@ -85,14 +85,14 @@ Follow the links provided by the PM for the relevant feature issues. **Only** co
 1. Change the color of the stickies to yellow following the key in FigJam.
 1. Select all of the issues and arrange them into a grid.
 1. Copy and paste SUS-Impacting issues and change their color to match the key in FigJam.
-1. Copy and paste UX Debt issues and change their color to match the key in FigJam.
+1. Copy and paste Deferred UX  issues and change their color to match the key in FigJam.
 1. Arrange these stickies into a grid and place them adjacent to the feature stickies.
 
 Next: Follow the links provided by the Design DRI for relevant insights and JTBD.
 
 1. Copy and paste each actionable insight issue title into a sticky note. Change their color to match the key in FigJam.
 1. Copy and paste each JTBD into a sticky note. Change their color to match the key in FigJam.
-1. Arrange these stickies into a grid and place them adjacent to the feature, sus-impacting, and UX debt stickies.
+1. Arrange these stickies into a grid and place them adjacent to the feature, sus-impacting, and Deferred UX stickies.
 
 *When complete, the FigJam should look like this:*
 

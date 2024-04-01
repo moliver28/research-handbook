@@ -16,11 +16,11 @@ These are the core responsibilities of the security governance discipline.
 
 ### Security policies and standards
 
-Keeping the organization on track and within established boundaries to ensure compliance with applicable laws and regulations while maintaining GitLab's [Information Security Policies]({{< ref "/handbook/security/controlled-document-procedure" >}}). Providing guidance, consistency and accountability to streamline internal processes and align with GitLab's values and mission.
+Keeping the organization on track and within established boundaries to ensure compliance with applicable laws and regulations while maintaining GitLab's [Information Security Policies](/handbook/security/controlled-document-procedure). Providing guidance, consistency and accountability to streamline internal processes and align with GitLab's values and mission.
 
 #### Security handbook maintenance
 
-Security Governance is responsible for the continuous maintenance and improvement of the `security` section in GitLab's handbook. This includes the creation and maintenance of [controlled documents]({{< ref "controlled-document-procedure" >}}), maintenance of the `security` section's overall structure, content relevance and accuracy, and alignment with GitLab's [style guide]({{< ref "/docs/markdown-guide" >}}). To request an update to the handbook's `security` section, please open an issue using the link below.
+Security Governance is responsible for the continuous maintenance and improvement of the `security` section in GitLab's handbook. This includes the creation and maintenance of [controlled documents]({{< ref "controlled-document-procedure" >}}), maintenance of the `security` section's overall structure, content relevance and accuracy, and alignment with GitLab's [style guide](/docs/markdown-guide). To request an update to the handbook's `security` section, please open an issue using the link below.
 
 <a href="https://gitlab.com/gitlab-com/gl-security/security-assurance/governance/security-handbook/-/issues/new?issuable_template=security_handbook_request" class="btn bg-primary text-white btn-lg">Security Handbook Request</a>
 

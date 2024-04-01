@@ -85,7 +85,7 @@ AEs/SAEs/ASMs/ISRs and their associated managers fall under Sales.
 
 Members of the sales organization and sales development, should receive access to ZoomInfo as part of their role entitlement request. If the team member did not receive access or if access had been removed and you would like it back you will need to open an access request.
 
-Specifically, for a Marketing related role (SDRs/BDRs) please open an (individual access request - AR for short)[https://about.gitlab.com/handbook/business-technology/team-member-enablement/onboarding-access-requests/access-requests/] and tag your manager for approval and Rob Rosu (Mops), while for a Field Sales related role (AEs/SAEs/ASMs/ISRs) open an AR and tag your manager for approval and Briann Vandre (Data Intelligence). 
+Specifically, for a Marketing related role (SDRs/BDRs) please open an (individual access request - AR for short)[/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/] and tag your manager for approval and Rob Rosu (Mops), while for a Field Sales related role (AEs/SAEs/ASMs/ISRs) open an AR and tag your manager for approval and Briann Vandre (Data Intelligence).
 
 If you are experiencing issues with ZoomInfo, your first point of contact is ZoomInfo. You can reach them via email at: helpmenow@zoominfo.com.
 

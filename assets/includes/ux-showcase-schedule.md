@@ -1,7 +1,5 @@
 | Date       | Host                 | Presenter 1            | Presenter 2            | Presenter 3            |
 |------------|----------------------|------------------------|------------------------|------------------------|
-| 2024-03-06 | Emily Sybrant        | Michael Fangman        | Dan Mizzi-Harris       |                        |
-| 2024-03-20 | Jacki Bauer          | Chad Lavimoniere       | Dan Mizzi-Harris       |                        |
 | 2024-04-03 | Justin Mandell       | Julia Miocene          | Amelia Bauerly         | Nick Brandt            |
 | 2024-04-17 | Chris Micek          | Austin Regnery         | Taylor Vanderhelm      | Sunjung Park           |
 | 2024-05-01 | Andy Volpe           | Gina Doyle             | Camellia X Yang        |                        |
@@ -13,7 +11,7 @@
 | 2024-07-24 | Emily Sybrant        | Mike Nichols           | Gina Doyle             |                        |
 | 2024-08-07 | Jacki Bauer          | Amelia Bauerly         | Michael Fangman        | Ian Gloude             |
 | 2024-08-21 | Justin Mandell       | Chad Lavimoniere       | Dan Mizzi-Harris       | Ilonah Pelaez          |
-| 2024-09-04 | Chris Micek          | Matthew Nearents       | Becka Lippert          |                        |
+| 2024-09-04 | Chris Micek          | Lina Fowler            | Becka Lippert          |                        |
 | 2024-09-18 | Andy Volpe           | Nick Leonard           | Camellia X Yang        |                        |
 | 2024-10-02 | Rayana Verissimo     | Sunjung Park           | Annabel Gray           | Nick Brandt            |
 | 2024-10-16 | Paul Wright          | Emily Bauman           | Divya Alagarsamy       |                        |

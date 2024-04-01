@@ -336,7 +336,7 @@ GitLab has a large and ever-growing fleet of laptops, which IT Operations is res
 In order to do this and combined with our Zero Trust security policies and various Compliance needs, there must be some measure of intelligence and reporting in place.
 To accomplish this goal we are utilizing Jamf for MacOS devices to obtain only the essential information required. For Linux machines we will be utilizing DriveStrike as a light-touch mechanism.
 
-For more information regarding Jamf, refer to our [Endpoint Management](/handbook/business-technology/end-user-services/onboarding-access-requests/endpoint-management/) handbook page.
+For more information regarding Jamf, refer to our [Endpoint Management](https://internal.gitlab.com/handbook/it/endpoint-tools/) handbook page.
 
 For more information regarding DriveStrike, refer to our [DriveStrike](/handbook/it/guides/drivestrike/) handbook page.
 

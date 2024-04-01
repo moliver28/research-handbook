@@ -128,4 +128,4 @@ The Ops Team must maintain a broad and diverse set of technical skills while als
 ## Common Links
 
 - Issue Board: [All issue by priority](https://gitlab.com/gitlab-com/gl-infra/production-engineering/-/boards/3993753?label_name[]=team%3A%3AOps)
-- Slack Channel: #g_infra_general
+- Slack Channel: #g_infra_ops

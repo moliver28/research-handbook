@@ -12,7 +12,7 @@ This approach allows groups across GitLab to practice detecting and responding t
 
 The Red Team operates under a predefined set of [rules of engagement]({{< ref "red-team-roe" >}}). The rules of engagement exist to inform GitLab's team members on how the team operates during engagements. It provides guidelines for determining scope, the ethics we employ during our engagements, how we collaborate as a security team, and how we escalate vulnerabilities and exploits we discover during those engagements.
 
-Further details can be found in the [job family description]({{< ref "/job-families/security/red-team" >}}).
+Further details can be found in the [job family description](/job-families/security/red-team).
 
 ## What the Red Team Does
 
@@ -146,7 +146,7 @@ Red Team members can also hunt for ways to "break in" to GitLab at any time in t
 
 The Red Team will develop new adversary emulation techniques on a regular basis, both during formalized operations and opportunistic attacks. For example, the Red Team may create a bot that logs into development instances and attempts to exploit a specific configuration. Once the risk has been proven and existing detection/response capabilities have been tested, it is time for the technique to be fully disclosed internally.
 
-While this may result in product fixes or infrastructure changes, it is possible that vulnerable configurations may reappear in the environment. At this point, GitLab's [Vulnerability Management]({{< ref "/handbook/security/threat-management/vulnerability-management" >}}) group will take over any ongoing scanning required to monitor for this scenario. The Red Team will share any tools they used for the initial discovery, but Vulnerability Management will generally implement a more production-ready permanent scanning solution.
+While this may result in product fixes or infrastructure changes, it is possible that vulnerable configurations may reappear in the environment. At this point, GitLab's [Vulnerability Management](/handbook/security/threat-management/vulnerability-management) group will take over any ongoing scanning required to monitor for this scenario. The Red Team will share any tools they used for the initial discovery, but Vulnerability Management will generally implement a more production-ready permanent scanning solution.
 
 ### Red Team Tooling Development
 
@@ -176,7 +176,7 @@ You can read more about this process in the ["deconfliction" section]({{< ref "r
 
 If the Red Team is ever asked *"Is this you?"* by someone other than the designated team members mentioned above, they will respond with the following text:
 
-> Thanks for your vigilance! Any suspicious activity should be treated as potentially malicious. If you'd like to contact security, you can follow the process [here]({{< ref "/handbook/security/security-operations/sirt/engaging-security-on-call" >}}).
+> Thanks for your vigilance! Any suspicious activity should be treated as potentially malicious. If you'd like to contact security, you can follow the process [here](/handbook/security/security-operations/sirt/engaging-security-on-call).
 >
 > Red Team operations provide an opportunity to practice detecting and responding to real-world attacks, and revealing an operation early might mean we miss out on that opportunity. Because of this, we have a policy to neither confirm nor deny whether an activity belongs to us. You can read more about this policy here: [{{< ref ".#is-this-the-red-team" >}}]({{< ref ".#is-this-the-red-team" >}}).
 

@@ -49,7 +49,7 @@ Each team member need only sign the Team Member General Publicity Waiver and Rel
 Use the Material- and Purpose-specific Publicity Waiver and Release template for materials featuring individuals who are no GitLab team members, or for materials featuring individuals that will be used for paid outbound advertising. For materials that will not be used for paid outbound advertising and feature only GitLab team members, use the [Team Member General Publicity Waiver and Release](./#team-member-general-publicity-waiver-and-release) instead.
 
 {{% details summary="Expand for instructions for DRIs using the Material- and Purpose-specific Publicity Waiver and Release" %}}
-1. If you don't have DocuSign access, open an [Access Request](/handbook/business-technology/team-member-enablement/onboarding-access-requests/access-requests/) to get it.
+1. If you don't have DocuSign access, open an [Access Request](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/) to get it.
 1. Once you has DocuSign access, access the [Material- and Purpose-specific Publicity Waiver and Release template](https://app.docusign.com/templates/details/0716de66-3f1e-4969-b305-4562b9af665d).
 1. Click `USE`.
 1. On the `Recipients` page:

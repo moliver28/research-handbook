@@ -73,7 +73,7 @@ The Security Architecture review is conducted by a [Security Architect] who will
 
 The threats identified can be avoided (different architecture) or mitigated (security controls).
 
-[Security Architect]: {{< ref "/job-families/security/security-engineer#security-architect" >}}
+[Security Architect]: /job-families/security/security-engineer#security-architect
 
 ### SMEs
 
@@ -91,7 +91,7 @@ Depending on the type of change being reviewed, the Security Architect can invol
 - The Cryptography Officer
 
 [Threat Models]({{< ref "../threat-modeling" >}})
-[AppSec reviews]({{< ref "/handbook/security/product-security/application-security/#application-security-reviews" >}})
+[AppSec reviews](/handbook/security/product-security/application-security/#application-security-reviews)
 
 ## Result
 

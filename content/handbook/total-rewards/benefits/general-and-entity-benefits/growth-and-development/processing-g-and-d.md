@@ -1,11 +1,11 @@
 ---
-title: Growth and Development Benefit
-description: A description of programs and resources for team members to access when using the Growth and Development benefit.
+title: Growth and Development Processing Documentation for Talent Development
+description: This page is used to document processes for the Talent Development team
 ---
 
-## Benefit processing documentation for the Talent Development team
+## Processing documentation for the Talent Development team
 
-Administration of Growth and Fund applications is the responsibiliity of the Talent Development Team. This handbook page will go over the admin notes of what's required when processing applications.
+Administration of Growth and Development Fund applications is the responsibiliity of the Talent Development Team. This handbook page will go over the admin notes of what's required when processing applications.
 
 ### Processing Growth and Development Applications
 

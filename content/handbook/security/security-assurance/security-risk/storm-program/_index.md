@@ -9,7 +9,7 @@ We receive [feedback](/handbook/people-group/guidance-on-feedback/#feedback-at-g
 
 ## Purpose
 
-The purpose of the Security Operational Risk Management (“StORM”) program at GitLab is to enable better [decision-making](/handbook/leadership/making-decisions/) by identifying, monitoring, treating, and reporting on security operational risks in support of GitLab's [strategy]({{< ref "/handbook/company/strategy" >}}). The Security Risk Team utilizes the procedures below (formed through consideration of guidance set forth in [NIST’s SP 800-39](https://csrc.nist.gov/pubs/sp/800/39/final), [SP 800-30 Rev. 1](https://csrc.nist.gov/pubs/sp/800/30/r1/final), and [ISO 31000 Risk Management Methodology](https://www.iso.org/iso-31000-risk-management.html)) to ensure that security risks that may impact GitLab are effectively managed.
+The purpose of the Security Operational Risk Management (“StORM”) program at GitLab is to enable better [decision-making](/handbook/leadership/making-decisions/) by identifying, monitoring, treating, and reporting on security operational risks in support of GitLab's [strategy](/handbook/company/strategy). The Security Risk Team utilizes the procedures below (formed through consideration of guidance set forth in [NIST’s SP 800-39](https://csrc.nist.gov/pubs/sp/800/39/final), [SP 800-30 Rev. 1](https://csrc.nist.gov/pubs/sp/800/30/r1/final), and [ISO 31000 Risk Management Methodology](https://www.iso.org/iso-31000-risk-management.html)) to ensure that security risks that may impact GitLab are effectively managed.
 
 ## Scope
 

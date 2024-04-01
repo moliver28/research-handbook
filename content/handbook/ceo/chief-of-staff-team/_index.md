@@ -315,7 +315,7 @@ As of FY23, the Chief of Staff Team to the CEO is [responsible for the GitLab ha
 This includes maintaining infrastructure and ensuring usability of both the internal and public handbooks.
 
 During FY24, we have started the migration of handbook content from [about.gitlab.com](https://about.gitlab.com/handbook)
-to our [new handbook site]({{< ref "/_index.html" >}}).
+to our [new handbook site](/_index.html).
 
 We are excited by this move which we hope will improve the usability of the handbook and demonstrate our commitment to
 our values of iteration, collaboration, and transparency.  During the coming months we will be iterating over the handbook

@@ -77,14 +77,48 @@ Considerations include:
 1. The team member operates within GitLab and in their particular area of achievement in concordance with [GitLab Values](/handbook/values/)
 1. The team member has not won a Quarterly Achiever award within the current fiscal year
 
-### Engineering Quarterly Achievers Process and Timeline
+### Engineering Quarterly Achievers Timeline
 
-1. 4 Weeks prior to quarter start, a call for nominations goes out in the Engineering Week in Review and `#cto` channel
+1. 4 Weeks prior to quarter start, a call for nominations goes out in the Engineering Week in Review, and Slack. See [Communicating](#communicating) for the list of channels.
 1. Engineering Quarterly Achievers finalized within the first week of the new quarter by CTO leadership
 1. Engineering Quarterly Achievers announced and recognized in the first Engineering All-Hands of the quarter
 1. Engineering Quarterly Achievers Chat held within the quarter
 1. CEO, CTO, and CPO to congratulate and inquire about key learnings from achievers on call
 1. CEO, CTO, and CPO to pull out 2-3 of the most impactful key learnings and share with the larger team in a Slack post (either `#ceo` or `#cto`) after the call
+
+### Engineering Quarterly Achievers Process
+
+#### Accepting Nominations
+
+1. Create a copy of the `Engineering Quarterly Achievers Nomination Form - Template` in the [`Awards [Quarterly]` folder](https://drive.google.com/drive/search?q=type:folder%20%22achievers%20quarterly%22) on Drive. If you do not have access, ask the CTO's EBA for access.
+1.  Make sure to add any new categories.
+1. In the "Responses" tab, click "Link to Sheets" to collect responses in a Google Sheet rather than in the form itself.
+1. In the "Responsess" tab, toggle "Accepting responses" on, and toggle it off when nominations close.
+
+##### Communicating
+
+1. Create a Field Operations - Enablement issue ([example](https://gitlab.com/gitlab-com/sales-team/field-operations/enablement/-/issues/2394)) to get permission to post in `#field-fyi` for the "Contribution to Sales or Renewal" Award.
+   - Consider posting a pre-filled link that selects that specific award.
+1. In the Engineering Week in Review, add a note that nominations are open with a link to the form.
+1. Make a Slack post in `#engineering-fyi`. Cross-post in `#cto`, and `#eng-managers`.
+1. Consider posting reminders 1 week, and 1 day before due date.
+
+#### Selecting Winners
+
+1. Pull the raw data from the nominations sheet and put it in a copy of `Engineering Quarterly Achievers Nominees Selection - TEMPLATE`. It's easier to collaborate on a Google Doc than a Google Sheet.
+   - You can consider using `process-quarterly-achievers.rb` to process the data.
+1. Make a copy of the `Engineering Quarterly Achievers All Hands Deck - TEMPLATE`
+1. Follow the instructions in the template:
+   - Choose DRIs for each area
+   - Empower them to make decisions
+   - Direct them to update the deck with names, photos and speaker notes that highlight the nomination.
+
+#### Announce Winners
+
+In the next All-Hands, announce winners! Wooo! You're done until next quarter.
+
+
+
 
 #### Engineering Quarterly Achievers Nominations
 

@@ -8,7 +8,7 @@ Several dashboards have been published to the Engineering project in the Tableau
 
 ### Centralized Engineering Metrics
 
-Please refer to our Centralized Engineering Metrics page [here](https://handbook.gitlab.com/handbook/engineering/metrics/dashboards/). 
+Please refer to our Centralized Engineering Metrics page [here](https://handbook.gitlab.com/handbook/engineering/metrics/dashboards/).
 
 ### Tableau Dashboards
 
@@ -90,7 +90,7 @@ The 3 types (Bug, Feature & Maintenance) is key to our report to industry analys
 
 1. `~"type::bug"`: Defects in shipped code and fixes for those defects. Read more about [features vs bugs](/handbook/product/product-processes/#issues).
   - `~"bug::performance"`: Performance defects or response time degradation
-  - `~"bug::availability"`: Defects related to GitLab SaaS availability. See [the definition](/handbook/engineering/quality/issue-triage/#availability) for more guidance.
+  - `~"bug::availability"`: Defects related to GitLab SaaS availability. See [the definition](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#availability) for more guidance.
   - `~"bug::vulnerability"`: Defects related to Security Vulnerabilities
   - `~"bug::mobile"`: Defects encountered on Mobile Devices
   - `~"bug::functional"`: Functional defects resulting from feature changes

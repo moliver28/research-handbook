@@ -117,10 +117,10 @@ flowchart TD
     ```yml
     fuzz-test-is-third-byte-zero:
       extends: .fuzz_base  # This anchor is defined in the template included above.
-      image: python:3.6    # This image must be able to run the code-under-test.
+      image: python:latest    # This image must be able to run the code-under-test.
       script:
         # Install the fuzz engine from a GitLab-hosted PyPi repo.
-        - pip install pythonfuzz
+        - pip install --extra-index-url https://gitlab.com/api/v4/projects/19904939/packages/pypi/simple pythonfuzz
 
         # Run a language-agnostic binary, specifying the type of fuzz engine,
         # the root of the project, and the fuzz target.

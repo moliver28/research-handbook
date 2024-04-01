@@ -8,11 +8,11 @@ description: "This page covers the administration and oversight of Rattle"
 
 ## Overview
 
-Rattle is primarily used by our Solutions Architects for [activity capture](/handbook/customer-success/solutions-architects/processes/activity-capture/) to capture customer calls, efficiently log them, and run reporting in Salesforce and our BI tool. Rattle replaced Troops.ai in January of 2024. 
+Rattle is primarily used by our Solutions Architects for [activity capture](/handbook/solutions-architects/processes/activity-capture/) to capture customer calls, efficiently log them, and run reporting in Salesforce and our BI tool. Rattle replaced Troops.ai in January of 2024. 
 
 ## Rattle training
 
-For SA end-users, see [Rattle Setup page](/handbook/customer-success/solutions-architects/processes/activity-capture/#troops-setup).
+For SA end-users, see [Rattle Setup page](/handbook/solutions-architects/processes/activity-capture/#troops-setup).
 
 For Rattle administrators:
 

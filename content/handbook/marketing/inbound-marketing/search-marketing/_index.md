@@ -25,7 +25,7 @@ The Search Marketing team focuses on helping grow revenue for GitLab by increasi
 [**Hanif Smith-Watson**](/handbook/company/team/#hsmith-watson)
 * Title: Search Marketing Manager
 * GitLab handle: hsmith-watson
-* Slack handle: @Hanif Smith-Watson 
+* Slack handle: @Hanif Smith-Watson
 
 ## Areas we focus
 * Organic discovery
@@ -85,7 +85,7 @@ Regular website health checks should be performed. These checks are meant to ens
 
 Issues to look for in each of these tools:
 
-- **Google Search Console**: Check the dashboard and messages for any important notifications regarding the website. Also check under `Search Traffic` > `Manual Actions` for any URLs that have been identified as spam or harmful content. Forward security warnings to the Abuse team and follow the [DMCA complaint process](/handbook/support/workflows/dmca.html) with the support team.
+- **Google Search Console**: Check the dashboard and messages for any important notifications regarding the website. Also check under `Search Traffic` > `Manual Actions` for any URLs that have been identified as spam or harmful content. Forward security warnings to the Abuse team and follow the [DMCA complaint process](/handbook/support/workflows/dmca/) with the support team.
 - **Google Analytics**: Compare organic site traffic from the most previous week compared to the previous week and look for any large fluctuations.
 
 ### Using robots metadata to manage search index
@@ -96,7 +96,7 @@ All pages are set to `meta name="robots" content="index, follow"` by default. To
 
 ### about.gitlab.com redirects
 
-Occasionally we need to change URL structures of the website, and we want to make sure that people can find pages they need. We use 301 redirects to send people to the right URL when it's appropriate. 
+Occasionally we need to change URL structures of the website, and we want to make sure that people can find pages they need. We use 301 redirects to send people to the right URL when it's appropriate.
 
 #### about.gitlab.com redirect policy
 

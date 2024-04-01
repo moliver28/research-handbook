@@ -110,7 +110,7 @@ If a GitLab team member needs to loop in the Advocate team on a customer Account
 - Navigate to the *Account* in Salesforce.
 - Hover over *Cases*, and select *New Case*.
 - Select *SMB Sales Case*, from the Record Type dropdown.
-- Add the *Contact*, to the Contact Name lookup field. (A lead can also be added.)
+- Add the *Contact*, to the Contact Name lookup field. (A Lead can also be added, instead of a Contact, however in this scenario, the Account the Lead is matched to must also be manually added to the case.  To find the matched account, view the *Traction Complete Leads: Account* field)
 - Add the *Opportunity*, to the Opportunity lookup field (if relevant). 
 - Describe the ask of the AE in the case *Description* box. Include any relevant links or resources. (Once the case has been created, you can also upload files e.g. a PO, in the *Google Docs & Attachments* section at the bottom of the case record).
 - Select a *Type* that most closely matches the origin of your request. (e.g if you are in Support, select *Inbound Request via Support*)

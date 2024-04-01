@@ -32,7 +32,7 @@ Group priorities are reviewed collaboratively with product counterparts and publ
 
 ## Sub-department development people leaders
 
-{{< team-by-manager-slug manager="pcalder" role="Govern" >}}
+{{< team-by-manager-slug manager="pcalder" role="Govern" team="Engineering Manager(.*)Govern" >}}
 
 To contact Govern sub-department development people leaders leaders use the following aliases:
 
@@ -42,17 +42,14 @@ To contact Govern sub-department development people leaders leaders use the foll
 
 ## All Team Members
 
-### Anti-abuse
-
-{{% team-by-manager-slug manager="jayswain" team="Engineer(.*)Govern:Anti-Abuse" %}}
 
 ### Authentication
 
 {{% team-by-manager-slug manager="adil.farrukh" team="Engineer(.*)Govern:Authentication" %}}
 
-### Authorization
+### Authorization and Anti-abuse
 
-{{% team-by-manager-slug manager="jayswain" team="Engineer(.*)Govern:Authorization" %}}
+{{% team-by-manager-slug manager="jayswain" team="Engineer(.*)Govern:Authorization|Govern:Anti-Abuse" %}}
 
 ### Compliance
 
@@ -72,7 +69,7 @@ To contact Govern sub-department development people leaders leaders use the foll
 
 The following members of other functional teams are our stable counterparts:
 
-{{% stable-counterparts role="Govern" other-manager-roles="Engineering Manager(.*)Govern:Authorization and Anti-abuse|Engineering Manager(.*)Govern:Authentication|Engineering Manager(.*)Govern:Compliance|Engineering Manager(.*)Govern:Security Policies|Engineering Manager(.*)Govern:Threat Insights|Engineering Manager(.*)Growth and Govern:Threat Insights|Director of Engineering(.*)Govern" %}}
+{{% stable-counterparts role="Govern" other-manager-roles="Engineering Manager(.*)Govern:(.*)|Director of Engineering(.*)Govern" %}}
 
 ## Skills
 
@@ -126,7 +123,7 @@ Team members should contact any Govern Engineering Manager by mentioning in `#sd
 
 The Engineering Manager will allocate open issues and merge requests to another engineer, ideally in the same [group](#all-team-members), if an engineer is absent.
 
-Some people management tasks, including [Workday](/handbook/people-group/workday/workday-guide) and [Navan Expense](/handbook/business-technology/enterprise-applications/guides/navan-expense-guide), may require for escalation or delegation.
+Some people management tasks, including [Workday](/handbook/people-group/workday-guide) and [Navan Expense](/handbook/business-technology/enterprise-applications/guides/navan-expense-guide), may require for escalation or delegation.
 
 In the event that one or more team members become unavailable for any reason, this can serve as the foundation for a business continuity plan (BCP) and serve as a basic guide for Managing Engineering continuity.
 

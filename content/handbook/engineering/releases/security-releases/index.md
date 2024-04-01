@@ -8,7 +8,7 @@ Security vulnerabilities in GitLab and its dependencies are to be addressed foll
 
 At GitLab, we have two types of security releases:
 
-1. Planned: A planned security release to publish all available vulnerability fixes to [the current, and previous two GitLab versions](https://docs.gitlab.com/ee/policy/maintenance.html). Planned security releases normally take place after the [monthly release](https://about.gitlab.com/releases/).
+1. Planned: A planned security release to publish all available vulnerability fixes to [the current, and previous two GitLab versions](https://docs.gitlab.com/ee/policy/maintenance.html). Planned security releases normally take place around the [monthly release](https://about.gitlab.com/releases/).
 1. Unplanned critical: An unplanned, immediate patch and mitigation is required.
 
 Security releases are prepared in parallel with regular GitLab.com deployments so that continuous deployment is not blocked. In this way we can apply security fixes to GitLab.com instances before the public release.
@@ -21,7 +21,7 @@ If you're a GitLab engineer looking to include a fix in a security release, plea
 
 ### Planned security release process
 
-One security release is scheduled each month, usually in the week following the monthly release. In line with our current [maintenance policy](https://docs.gitlab.com/ee/policy/maintenance.html).
+Security releases are scheduled twice a month on the second and fourth Wednesdays, around the monthly release week. These are best-effort dates and they might be subject to change.
 
 The planned security release includes all security fixes ready at the time of release preparation. Security fixes are worked on in the mirrored GitLab security repositories to avoid revealing vulnerabilities before the release.
 

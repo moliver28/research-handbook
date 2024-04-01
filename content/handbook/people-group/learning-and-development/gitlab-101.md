@@ -58,7 +58,7 @@ This will make more sense once you understand all of the terminology.
    1. **Example:** If someone says to do something locally that means to open the terminal on your computer to make a change.
 1. Markdown
    1. **Definition:** a lightweight markup language with plain-text-formatting syntax. Its design allows it to be converted to many output formats, but the original tool by the same name only supports HTML.
-   1. **Example:** Take a look at our [GitLab Markdown Guide]({{< ref "/docs/markdown-guide" >}})
+   1. **Example:** Take a look at our [GitLab Markdown Guide](/docs/markdown-guide)
 1. Milestones
    1. **Definition:** are a way to track issues and merge requests created to achieve a broader goal in a certain period of time. They allow you to organize issues and merge requests into a cohesive group, with an optional start date and an optional due date.
    1. **More information on:** [milestones](https://docs.gitlab.com/ee/user/project/milestones/)
@@ -67,7 +67,7 @@ This will make more sense once you understand all of the terminology.
    1. **Example:** This is a [Merge Request](https://gitlab.com/gitlab-com/www-gitlab-com/-/merge_requests/40563#0c7def9794ef444dbc7eb560126846353b630886).
 1. Open Source
    1. **Definition:** denotes software for which the original source code is made freely available and may be redistributed and modified.
-   1. **Example:** Our GitLab [handbook]({{< ref "/handbook" >}}) is open source because anyone can make changes and contribute to it.
+   1. **Example:** Our GitLab [handbook](/handbook) is open source because anyone can make changes and contribute to it.
 1. Project
    1. **Definition:** used for hosting your codebase, as an issue tracker, collaborate on code, and continuously build, test, and deploy your app with built-in GitLab CI/CD.
    1. **Example:** This is a [project](https://gitlab.com/gitlab-com/people-group/gitlab-tool-training).

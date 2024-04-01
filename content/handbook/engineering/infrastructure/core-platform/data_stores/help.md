@@ -100,7 +100,7 @@ Always include:
 1. [Activate Development On-Call](https://handbook.gitlab.com/handbook/on-call/#development-team-on-call-rotation)
 1. If development on-call needs additional database expertise, reach out in [#database](https://gitlab.enterprise.slack.com/archives/C3NBYFJ6N)
 1. If there's no response within 15 minutes, or the request is urgent, tag `@db-team` (Application) or `@dbre` (Infrastructure) in a thread on the original message
-1. If there's no response to the ping within 15 minutes, and the request is urgent, use slack to find the phone number of the Database or DBRE and text or call them.
+1. If there's no response to the ping within 15 minutes, and the request is urgent, use slack to find the phone number of the Database or DBRE manager and text or call them.
 
 #### For Support Escalations
 

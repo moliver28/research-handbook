@@ -613,15 +613,15 @@ Technical debt is prioritized like [other technical decisions](/handbook/enginee
 
 For technical debt which might span, or fall in gaps between groups they should be brought up for a [globally optimzed](/handbook/values/#global-optimization) prioritization in [retrospectives](/handbook/engineering/management/group-retrospectives/) or directly with the appropriate member of the [Product Leadership team](/handbook/product/product-leadership/). Additional avenues for addressing technical debt outside of product groups are [Rapid Action issues](/handbook/engineering/development/#rapid-action-issue) and [working groups](/handbook/company/working-groups/).
 
-## UX debt
+## Deferred UX
 
-Sometimes there is an intentional decision to deviate from the agreed-upon [MVC](/handbook/product/product-principles/#the-minimal-viable-change-mvc), which sacrifices the user experience. When this occurs, the Product Designer creates a follow-up issue and labels it `UX debt` to address the UX gap in subsequent releases.
+Sometimes there is an intentional decision to deviate from the agreed-upon [MVC](/handbook/product/product-principles/#the-minimal-viable-change-mvc), which sacrifices the user experience. When this occurs, the Product Designer creates a follow-up issue and labels it `Deferred UX` to address the UX gap in subsequent releases.
 
-For the same reasons as technical debt, we don't want UX debt to grow faster than our code base.
+For the same reasons as technical debt, we don't want Deferred UX to grow faster than our code base.
 
 These issues are prioritized like [other technical decisions](/handbook/engineering/development/principles/#prioritizing-technical-decisions) in [product groups](/handbook/company/structure/#product-groups) by [product management](/handbook/product/product-processes/#how-we-prioritize-work).
 
-As with [technical debt](#technical-debt), UX debt should be brought up for [globally optimized](/handbook/values/#global-optimization) prioritization in [retrospectives](/handbook/engineering/management/group-retrospectives/) or directly with the appropriate member of the [Product Leadership team](/handbook/product/product-leadership/).
+As with [technical debt](#technical-debt), Deferred UX should be brought up for [globally optimized](/handbook/values/#global-optimization) prioritization in [retrospectives](/handbook/engineering/management/group-retrospectives/) or directly with the appropriate member of the [Product Leadership team](/handbook/product/product-leadership/).
 
 ## UI polish
 

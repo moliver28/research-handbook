@@ -252,7 +252,7 @@ Error tracking service.
 - [Diagnose Errors on GitLab.com - Searching Sentry][sentry_500]
 
 [sentry_doc]: https://docs.gitlab.com/ee/operations/error_tracking.html
-[sentry_500]: /handbook/support/workflows/500_errors.html#searching-sentry
+[sentry_500]: /handbook/support/workflows/500_errors/#searching-sentry
 [demo]: https://youtu.be/o02t3V3vHMs
 
 #### Setting sentry alerts for your group

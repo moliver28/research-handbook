@@ -83,18 +83,18 @@ GitLab uses labels to categorize, prioritize, and track work. The following is a
 - [**UX problem validation** label](https://gitlab.com/groups/gitlab-org/-/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=UX%20problem%20validation): Indicates that the issue requires UX work to validate that the problem is relevant to users. We use this label in addition to the Product Development Flow scoped labels, so that we can track validation efforts over time in our [UX Performance Indicators](/handbook/product/ux/performance-indicators/).
 - [**UX solution validation** label](https://gitlab.com/groups/gitlab-org/-/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=UX%20solution%20validation): Indicates that the issue requires tasks to validate that the proposed solution is technically feasible and meets user needs. We use this label in addition to the Product Development Flow scoped labels, so that we can track validation efforts over time in our [UX Performance Indicators](/handbook/product/ux/performance-indicators/).
 - [**UI polish** label](https://gitlab.com/groups/gitlab-org/-/issues?scope=all&state=opened&utf8=%E2%9C%93&label_name%5B%5D=UI+polish): Indicates the issue covers *only* visual improvement(s) to the existing user interface.
-- [**UX debt** label](https://gitlab.com/groups/gitlab-org/-/issues?scope=all&state=opened&utf8=%E2%9C%93&label_name%5B%5D=UX+debt): UX debt results from the intentional decision to deviate from the UX vision or MVC, which sacrifices the user experience. UX debt-labeled issues are to be included in subsequent releases. Use this label to indicate that the UX released does not meet:
+- [**Deferred UX** label](https://gitlab.com/groups/gitlab-org/-/labels?subscribed=&sort=relevance&search=deferred+ux): Deferred UX results from the intentional decision to deviate from the UX vision or MVC, which sacrifices the user experience. Deferred UX labeled issues are to be included in subsequent releases. Use this label to indicate that the UX released does not meet:
    - UX and Pajamas specifications
    - Usability standards
    - Feature viability standards
 
-   This label is applied to any follow-up issues that address a UX gap. It does not apply to the issue or merge request that created the UX debt. For example, if the agreed MVC design solution is not fully realized due to release pressures or implementation oversight, that's considered UX Debt.
+   This label is applied to any follow-up issues that address a UX gap. It does not apply to the issue or merge request that created the Deferred UX. For example, if the agreed MVC design solution is not fully realized due to release pressures or implementation oversight, that's considered Deferred UX.
 
-   If the design is implemented correctly but unforeseen UX issues are identified, it is *not* considered UX debt.
+   If the design is implemented correctly but unforeseen UX issues are identified, it is *not* considered Deferred UX.
 
-   If in doubt about when to apply this label, use the following rule: If you can say "This UX problem did not originate from an issue or merge request," then it's just UX, not UX Debt. In case your team makes the decision ship an MVC that contains UX Debt, it is recommended to create an issue to track it as soon as the change has been released.
+   If in doubt about when to apply this label, use the following rule: If you can say "This UX problem did not originate from an issue or merge request," then it's just UX, not Deferred UX. In case your team makes the decision ship an MVC that contains Deferred UX, it is recommended to create an issue to track it as soon as the change has been released.
 
-- [**Learn more about UX Debt as a UX Department Performance Indicator**](/handbook/product/ux/performance-indicators/#ux-debt).
+- [**Learn more about Deferred UX as a UX Department Performance Indicator**](/handbook/product/ux/performance-indicators/#deferred-ux).
 - [**UX Paper Cuts** label](https://gitlab.com/groups/gitlab-org/-/merge_requests?scope=all&state=opened&label_name[]=UX%20Paper%20Cuts): Used to prioritize and track work from the UX Paper Cuts team.
 - [**Seeking community contributions**](https://gitlab.com/groups/gitlab-org/-/issues?state=opened&label_name[]=Seeking+community+contributions&assignee_id=0&sort=weight)
 - [**System Usability Scale (SUS)** labels](https://gitlab.com/gitlab-org/gitlab/-/labels?subscribed=&search=sus): Indicates that the issue is related to usability problems surfaced in one of our SUS research efforts. More specifically, issues related to SUS that are prioritized can be labeled with the corresponding Fiscal Year and Quarter. For example: `SUS::FY22 Q2 - Incomplete`.

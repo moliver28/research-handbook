@@ -17,7 +17,7 @@ Information about SIRT responsibilities and incident ownership is available in t
 
 Security incident investigations are initiated when a security event has been detected on [GitLab.com](https://www.gitlab.com) or as part of the GitLab company. These investigations are handled with the same level of urgency and priority regardless of whether it's a single user or multiple projects.
 
-Incident indicators can be reported to SIRT either internally, by a GitLab team member, or [externally]({{< ref "/handbook/security#external-contact-information" >}}). It is the Security team's responsibility to determine when to investigate dependent on the identification and verification of a security incident.
+Incident indicators can be reported to SIRT either internally, by a GitLab team member, or [externally](/handbook/security#external-contact-information). It is the Security team's responsibility to determine when to investigate dependent on the identification and verification of a security incident.
 
 The GitLab Security team identifies security incidents as any violation, or threat of violation, of GitLab security, acceptable use or other relevant policies.
 
@@ -247,11 +247,11 @@ We currently track several labels specific to phishing-related incidents:
 
 ## Exceptions
 
-Exceptions to this procedure will be tracked as per the [Information Security Policy Exception Management Process]({{< ref "/handbook/security#information-security-policy-exception-management-process" >}}).
+Exceptions to this procedure will be tracked as per the [Information Security Policy Exception Management Process](/handbook/security#information-security-policy-exception-management-process).
 
 ## References
 
-- Parent Policy: [Information Security Policy]({{< ref "/handbook/security" >}})
+- Parent Policy: [Information Security Policy](/handbook/security)
 - [Security Communications Runbooks](https://gitlab.com/gitlab-com/gl-security/runbooks/-/tree/master/communications) (internal)
 - [Incident Communications Plan]({{< ref "security-incident-communication-plan" >}})
 - [Marketing Emergency Response process](/handbook/marketing/emergency-response/)

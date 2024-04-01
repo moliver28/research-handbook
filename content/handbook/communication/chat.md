@@ -44,7 +44,7 @@ The alphabetically sorted starter list below spotlights a few of GitLab's many S
 There are a lot of general channels, just to name a few:
 
 - **[`#questions`](https://gitlab.slack.com/archives/questions)**: Ask all of GitLab for help with any question you have... and then go document it after you find the answer :)
-- **[`#thanks`](https://gitlab.slack.com/archives/thanks)**: Where GitLab team-members can [say thanks](/handbook/communication/#say-thanks) to those GitLab team-members who did a great job, helped a customer, or helped you!
+- **[`#thanks`](https://gitlab.slack.com/archives/thanks)**: Where GitLab team-members can [say thanks](/handbook/communication/#say-thanks) to those GitLab team-members who did a great job, helped a customer, or helped you! Also where managers recoginze discretionary bonuses for their teams.
 - **[`#office-today`](https://gitlab.slack.com/archives/office-today)**: GitLab is an [all-remote](/handbook/company/culture/all-remote/) organization. Where’s your office today?
 - **[`#remote`](https://gitlab.slack.com/archives/travel)**: To share news, thoughts, feedback and anything else pertaining to remote work! Learn more about [GitLab's approach to remote work](/handbook/company/culture/all-remote/)
 - **[`#travel`](https://gitlab.slack.com/archives/travel)**: A place to discuss all things [travel](/handbook/company/culture/all-remote/people/#travelers)
@@ -85,7 +85,7 @@ To raise an issue with a specific team, please use below most commonly used chan
 
 These channels (prefixed with a `a_`) are for team members to collaborate and communicate regarding the account for a customer organization. Depending on the customer, they are sometimes internal, marked as private or we shared with the customer by connecting to customer's own Slack workspace. In order to clearly differentiate between these shared and internal channels, we recommend using `a_XYZ-internal` and `a_XYZ-external` naming conventions to be explicitly clear (as the shared symbol can be easily missed in Slack).
 
-To request a new channel or to make changes to existing channels, please use the [access request process](/handbook/business-technology/team-member-enablement/onboarding-access-requests/access-requests/#slack-google-groups-1password-vaults-or-groups-access-requests).
+To request a new channel or to make changes to existing channels, please use the [access request process](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/#slack-google-groups-1password-vaults-or-groups-access-requests).
 
 Commercial (Mid-Market and SMB) accounts have specific guidelines around having Slack channels with customers.
 
