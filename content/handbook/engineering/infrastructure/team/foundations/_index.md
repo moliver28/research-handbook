@@ -73,7 +73,7 @@ Apply one of the following templates:
 
 ### Triaging requests
 
-We rotate triage duties weekly between team members. The goal of the team member on triage is to purposely plan to have interrupt work for a week so that the rest of the team can have less interrupt work. The schedule is available in [this spreadsheet](https://docs.google.com/spreadsheets/d/1D1Ih2CiMxnCjPnStFN0wRgChmbshRnzamyo_MGraYqA/edit?usp=sharing).
+We rotate triage duties weekly between team members. The goal of the team member on triage is to purposely plan to have interrupt work for a week so that the rest of the team can have less interrupt work. The [schedule is available in pager duty](https://gitlab.pagerduty.com/schedules#P7Y8O0E).
 
 The team member on rotation is responsible for:
 
