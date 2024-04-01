@@ -27,7 +27,7 @@ INSERT TABLE
 
 People Business Partners partner with senior leadership to drive organizational design initiatives in each division that drive results and enable a culture of belonging and career growth. Please reach out to your PBP to discuss new New organizational structures or re-alignment of team members.
 
-Additionally, PBPs support team member engagement in each division using sentiment data from our engagmeent surveys and driving action planning in the divisions. You can also talk to your PBP about specific retention concerns or strategies as needed. 
+Additionally, PBPs support team member engagement in each division using sentiment data from our engagmeent surveys and driving action planning in the divisions. You can also talk to your PBP about specific retention concerns or strategies as needed.
 
 #### For more information:
 
@@ -52,11 +52,11 @@ PBPs can provide invaluable leadership coaching on a range of issues such as tea
 #### For more information:
 
 1. Support in leveraging leadership development tools for specific growth opportunities such as [360s for people leaders](https://handbook.gitlab.com/handbook/people-group/360-feedback/) and [external coaching] (https://handbook.gitlab.com/handbook/leadership/coaching/)
-1. For direct manager support on underperformance, please refer to (Team Member Relations)[https://handbook.gitlab.com/handbook/people-group/team-member-relations/]
+1. For direct manager support on underperformance, please refer to [Team Member Relations](https://handbook.gitlab.com/handbook/people-group/team-member-relations/)
 
 ### Collaborating with the PBP team on projects
 
-People Business Partners often collaborate with others in People Group or other teams on talent programs where the (DRI)[https://handbook.gitlab.com/handbook/people-group/directly-responsible-individuals/] sits outside the PBP team. PBP’s can provide business context, needs analysis, championship of new programs in our aligned client groups, and support change management related to new initiatives. To clarify the PBP’s role in a project, we have provided the following framework to help ensure the goals of the collaboration are met. The PBP team works together to assign the appropriate PBPs to cross-functional projects to ensure a diverse view of the business is included. PBPs play a key role in bringing talent programs to life in each division. A framework for how collaborate in project teams is below.
+People Business Partners often collaborate with others in People Group or other teams on talent programs where the [DRI](https://handbook.gitlab.com/handbook/people-group/directly-responsible-individuals/) sits outside the PBP team. PBP’s can provide business context, needs analysis, championship of new programs in our aligned client groups, and support change management related to new initiatives. To clarify the PBP’s role in a project, we have provided the following framework to help ensure the goals of the collaboration are met. The PBP team works together to assign the appropriate PBPs to cross-functional projects to ensure a diverse view of the business is included. PBPs play a key role in bringing talent programs to life in each division. A framework for how collaborate in project teams is below.
 
 | PBP Role in a Project    | What to expect | Program examples |
 |---------|---------|-------|
