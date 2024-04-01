@@ -89,8 +89,6 @@
 /content/handbook/customer-success/csm/segment/scale/ @afrusciano @esivak @ofalk
 /content/handbook/customer-success/professional-services-engineering/ @bryan-may @klake
 /content/handbook/customer-success/professional-services-engineering/education-services/ @scottcosentinogitlab @nshah19
-/content/handbook/customer-success/solutions-architects/ @gitlab-com/customer-success/solutions-architecture/sa-leadership-team
-/content/handbook/customer-success/solutions-architects/sa-practices/value-stream-discovery/ @simon_mansfield @reshmikrishna @jfullam
 
 ^[eba-team]
 /content/handbook/eba/ @jrotenberry @lsimonot
@@ -548,6 +546,10 @@
 /content/job-families/security/ @joshlemos @jlongo_gitlab @juliedavila
 /content/job-families/chief-information-security-officer.md @robin @fofungwu
 
+^[solutions-architects]
+/content/handbook/solutions-architects/ @gitlab-com/customer-success/solutions-architecture/sa-leadership-team
+/content/handbook/solutions-architects/sa-practices/value-stream-discovery/ @simon_mansfield @reshmikrishna @jfullam
+
 ^[support]
 /content/handbook/support/ @gitlab-com/support
 /content/handbook/support/readiness/ @lyle @jcolyer @dtragjasi
@@ -614,6 +616,7 @@
 /content/_index.html @gitlab-com/content-sites @gitlab-com/content-sites/handbook-backend @gitlab-com/egroup
 /content/featured-background.png @gitlab-com/content-sites @gitlab-com/content-sites/handbook-backend @gitlab-com/egroup
 /CONTRIBUTING.md @gitlab-com/content-sites @gitlab-com/content-sites/handbook-backend @gitlab-com/egroup
+/Dangerfile @gitlab-com/content-sites @gitlab-com/content-sites/handbook-backend
 /go.mod @gitlab-com/content-sites @gitlab-com/content-sites/handbook-backend
 /go.sum @gitlab-com/content-sites @gitlab-com/content-sites/handbook-backend
 /layouts/ @gitlab-com/content-sites @gitlab-com/content-sites/handbook-backend @gitlab-com/egroup

@@ -34,6 +34,8 @@ For the moment, the Cognism Web App and the Cognism Chrome Extension are only us
 
 The Cognism data that was enriched on specific lead records, however, can be viewed by anyone by just checking the Cognism fields on the lead & contact objects.
 
+Note, we redistribute inactive seats to new Cognism users. Any users who have not logged in to Cognism in the last 2 months are at risk of losing their seats. If you wish to keep your Cognism seats, please be sure you are regularly logging in and using the platform. 
+
 ## Training
 
 Both the Cognism Web App and the Cognism Chrome Extension are self explanatory and very user friendly, however, Cognism does provide additional videos that can be viewed to get familiar with the tool.
@@ -83,6 +85,7 @@ The current enrichment criteria is the following:
 2. `Last Interesting Moment Date` equals `Last 30 Days` *AND* `[PQL] Product Qualified Lead` equals `True` *AND* `[PTPT] Score Group` equals `4,5`;
 3. `Initial Source` equals `Zoominfo` *AND* (`Phone` equals `blank` *OR* `Email` equals `blank`) *AND* `Demographic Score` greater than `59`;
 4. `Initial Source` equals `Request - Contact` *AND* (`Phone` equals `blank` *OR* `Email` equals `blank`) *AND* `Lead Owner` does not contain `disq,inel,jihu`.
+5. `Lead Status` equals `MQL, Accepted, Qualifying` *AND* `Vartopia Partner Account` equals `blank` *AND* Campaign Field - `Member First Responded Date` equals `Current FY` *AND* Campaign Field - `Campaign Type` equals `Trial` *AND* `[Cognism] Automatically Enriched` equals `False` *AND* `Account Demographics: Region` equals `EMEA`.
 
 ## Cognism Licensing Policy & Procedures
 
