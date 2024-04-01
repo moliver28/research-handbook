@@ -772,6 +772,30 @@ When a partner needs a Letter of Authorization ("LOA"), they must log into the p
 
 The partner will be prompted to input basic company information that will auto-fill the LOA. Upon submission, the LOA will automatically be sent to the Partner Operations team for review and confirmation that the entity requesting the LOA is a valid and authorized partner. Once appproved by Partner Operations, the LOA will automatically be sent to the legal team who will approve and initial the LOA before sending it to GitLab's PAO for signature. Once signed, the LOA will be sent directly to the partner via email. The letter is good for one calendar year from the date on the letter.
 
+## NFR Licenses
+
+Please review the [NFR policy](/handbook/resellers/channel-working-with-GitLab/#requesting-a-gitlab-nrf-not-for-resale-license) to see details about what partners can be eligible to receive. If a Partner would like to request or renew a NFR license they can review how to in the Partner Handbook on the [Working with GitLab page under "Requesting a GitLab NFR License"](/handbook/resellers/channel-working-with-GitLab/#requesting-a-gitlab-nfr-not-for-resale-license). They should be directed to log into the Partner Portal, click on the `Support` or `Services` tab, and choose the "NFR" icon. They'll be directed to a Google form that sends their request to the Partner Operations team. Partners should review the NFR Policy link in the form prior to submitting it to understand the requirements.
+
+When Partner Operations receives the request, they will review the partner account to verify the partner meets NFR eligibility requirements. If they do, Partner Operations will submit the NFR request to GitLab's license support team to be fulfilled. If the partner does not meet the eligibility requirements, they will email the submitter and explain the missing requirements and how to fulfill them.
+
+## NFR Requests Outside of Program Guidelines
+
+If a partner needs additional NFR users or licenses OR wants to use a license outside of the parameters set by the NFR policy, CAMs and SAs should consult to determine if the partner should be paying for a license to invest in their GitLab practice and work with Sales to help the partner purchase license(s) for their own internal use.
+
+Any requests outside of the normal NFR policy must be approved by the Sr. Director of Programs (Ed Cepulis) and the Channel Manager's manager, usually a Channel Director. If it is determined that the partner should not pay for additional users or licenses above what the NFR program offers, the CAM must submit an exception request:
+
+1. The Channel Manager should email partnersupport@gitlab.com with subject line "NFR Exception for (Partner Name)" and copy Ed Cepulis and their manager / the Channel Director for their region. Include the business justification for the exception and the amount of users requested.
+
+     - If the partner has not submitted a NFR request in the partner portal per the process above, please have them do so, selecting the amount of users allowed per their partner track so that the team can work on the request if it is approved. They are also welcome to add a note in the comments indicating their Channel Manager will be submitting an exception request on their behalf.
+
+2. Once both directors have approved the request, the Partner Operations team will proceed to fulfill the request.
+
+Other items to note about exception requests:
+- Not all requests will be granted.
+- Partners cannot receive a NFR exception if they are not compliant with their partner track requirements.
+
+
+
 ## Partner Support and Communication
 
  Please see the [Partner Support](/handbook/resellers/partner-support/) page.
@@ -797,6 +821,7 @@ Most partner-facing questions and changes to the Impartner (Partner Portal) syst
 - Partner Training and Certifications
 - Partner Rebates and Payment Set-Up in Coupa
 - Partner Not-for-Resale (NFR) Licenses
+- Partner accounts should *always* be created by the partner visiting `partners.gitlab.com` and signing up to become a partner
 
 
 ## Program and Incentive Definitions
