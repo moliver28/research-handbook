@@ -23,7 +23,7 @@ Collaborating on key activities offers a unique opportunity to broaden your know
 - Use part of your pairing sessions to ensure environments are set up and ready for reviews in your respective Groups.
 - Perform Buddy [UX Scorecard: Heuristic Evaluations](https://handbook.gitlab.com/handbook/product/ux/ux-scorecards/#option-a-conduct-a-heuristic-evaluation) ([Buddy Template](https://gitlab.com/gitlab-org/gitlab-design/-/blob/master/.gitlab/issue_templates/Heuristic%20Buddy%20UX%20Scorecard.md)) on each other’s primary use cases.
 - Collaborate on solution validation for each other’s Group (write scripts, take notes, observe, assess interview data).
-- Collaborate on contributing code updates to each other’s Group.
+- Collaborate on MRs that address UI improvements to each other’s product areas.
 
 ### Schedule
 
