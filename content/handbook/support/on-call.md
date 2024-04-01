@@ -169,7 +169,7 @@ When your on-call shift starts, you should get notification(s) that your shift i
 ### Ending your on-call shift
 
 Before your shift ends, consider what tasks need to be handed over and make sure to proactively communicate them to the next engineer in the rotation.
-This may mean [paging the next on-call engineer](#paging-the-next-on-call-engineer) and bringing them into an active troubleshooting call, or it may mean providing instructions or context for situations
+This may mean [engaging the next On-call Support Engineer](#engaging-the-next-on-call-support-engineer-ceoc) and bringing them into an active troubleshooting call, or it may mean providing instructions or context for situations
 you have handled that have some follow-up action. For example:
    - if you're in an active call with a customer and it's time to end your day, page the incoming on-call and make sure they're prepared to provide continuity by giving them an overview of what's been done before and what's next
      - once you anticipate an active call to spill over into the next shift, try reaching out to the incoming on-call on Slack to make them aware of the upcoming need for a handover – they might not be around already, but it's worth trying and can make it easier for you to end your shift on time
@@ -190,31 +190,82 @@ You may want to monitor all on-call pages received by the Support team. You can
 do this by joining the [`#spt_on-call`](https://gitlab.slack.com/archives/C02TSECGGV8)
 Slack channel.
 
-### Seeing which manager is on-call
+### Determining the On-call Support Engineer (CEOC)
 
-To see who the current manager on-call is you can:
+To see who the *current* Support Engineer on-call is, you can:
 
-- use ChatOps to query the on-call schedule with `/chatops run oncall manager`
-- log in to PagerDuty view the [Support Managers Service](https://gitlab.pagerduty.com/services/PTFI8XR)
+- [Look up](https://slack.com/help/articles/360003534892-Browse-people-and-user-groups-in-Slack#browse-user-groups) who currently is a member of the `@ceoc` group/handle in Slack
+- Log in to PagerDuty to view the [Customer Support](https://gitlab.pagerduty.com/service-directory/PL3TX00) service
+- View the `#spt-gg-forest` Slack channel, the regional bot message lists who is on-call for the different schedules today
+
+To see who the *upcoming* Support Engineer on-call is, you can:
+
 - View the individual on-call schedules for
-    - [Support Manager - AMER](https://gitlab.pagerduty.com/schedules/PTI56V1)
+    - [Customer Emergencies - APAC Group 1](https://gitlab.pagerduty.com/schedules/PQB9Q6K)
+    - [Customer Emergencies - APAC Group 2](https://gitlab.pagerduty.com/schedules/PKPXM8K)
+    - [Customer Emergencies - EMEA](https://gitlab.pagerduty.com/schedules/P9SV029)
+    - [Customer Emergencies - AMER Group 1](https://gitlab.pagerduty.com/schedules/PBLAHV7)
+    - [Customer Emergencies - AMER Group 2](https://gitlab.pagerduty.com/schedules/P9FKYZC)
+    - [Customer Emergencies - AMER Group 3](https://gitlab.pagerduty.com/schedules/PP28N7L)
+- View the internal [Oncall Schedules](https://gitlab-com.gitlab.io/support/team/oncall.html) page
+
+When in doubt, you can always ask in `#support_leadership`.
+
+### Determining the On-call Manager
+
+To see who the *current* manager on-call is, you can:
+
+- [Look up](https://slack.com/help/articles/360003534892-Browse-people-and-user-groups-in-Slack#browse-user-groups) who currently is a member of the `@support-manager-oncall` group/handle in Slack
+- Log in to PagerDuty to view the [Support Managers](https://gitlab.pagerduty.com/services/PTFI8XR) service
+- View the `#spt-gg-forest` Slack channel, the regional bot message lists who is on-call for the different schedules today
+
+To see who the *upcoming* manager on-call is, you can:
+
+- View the individual on-call schedules for
     - [Support Manager - APAC](https://gitlab.pagerduty.com/schedules/PWBXTYX)
     - [Support Manager - EMEA](https://gitlab.pagerduty.com/schedules/PXQ2ZAZ)
-- In the `#spt-gg-forest` slack channel, the regional bot message lists who is on-call for the different schedules today
-- Ask in `#support_leadership` (where you may or may not be referred to the above steps!)
+    - [Support Manager - AMER](https://gitlab.pagerduty.com/schedules/PTI56V1)
+- View the internal [Oncall Schedules](https://gitlab-com.gitlab.io/support/team/oncall.html) page
 
-### Paging the next on-call engineer
+When in doubt, you can always ask in `#support_leadership`.
 
-- First, try pinging the on-call engineer in Slack using the `@ceoc` handle.
-- If it's important and urgent or a weekend, you can:
-   - Manually create a new incident from the [Customer Support Service](https://gitlab.pagerduty.com/service-directory/PL3TX00)
+### Engaging the next On-call Support Engineer
 
-### Paging the on-call manager
+In this context it is assumed that your shift has ended and the "next" Support Engineer on-call is the *current* one as far as PagerDuty is concerned. In that case:
 
-- First, try pinging the on-call manager by tagging `@support-manager-oncall` in Slack.
-- If it's important and urgent or a weekend, you can:
-    - Tag the Support Manager On-Call by name in Slack to page the on-call manager
-    - Manually create a new incident from the [Support Managers Service](https://gitlab.pagerduty.com/services/PTFI8XR)
+You can ping the current Support Engineer On-call in Slack by tagging `@ceoc`.
+
+You should page the Support Engineer On-call via PagerDuty
+
+- immediately on a weekend or a holiday.
+- if you don't get a reply to your Slack ping after ten minutes.
+
+To page the current Support Engineer On-call, you can:
+
+- Use the `/pd trigger` command in Slack to create a new incident (for the `Customer Support` service)
+- Manually create a new incident from the [Customer Support](https://gitlab.pagerduty.com/service-directory/PL3TX00) service
+
+If your shift has **not** ended yet and you want to coordinate with the *upcoming* Support Engineer on-call, see [determining the On-call Support Engineer](#determining-the-on-call-support-engineer-ceoc).
+
+
+### Engaging the On-call Manager
+
+In some situations, you may need to engage the [Support Manager On-all](/handbook/support/workflows/support_manager-on-call) for assistance.
+
+You can ping the current Support Manager On-call in Slack by tagging `@support-manager-oncall`.
+
+You should page the Support Manager On-call via PagerDuty
+
+- immediately on a weekend or a holiday.
+- if you don't get a reply to your Slack ping after ten minutes.
+
+To page the current Support Manager On-call, you can:
+
+- Use the `/pd trigger` command in Slack to create a new incident (for the `Support Managers` service)
+- Manually create a new incident from the [Support Managers](https://gitlab.pagerduty.com/services/PTFI8XR) service
+
+This is for engaging the *current* on-call manager. If you need to coordinate with the upcoming on-call manager, see [determining the On-call Manager](#determining-the-on-call-manager).
+
 
 ## Mobile phone service and data reimbursement
 
