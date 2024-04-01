@@ -53,7 +53,7 @@ The Ops Team is responsible for ensuring the published Monthly Availability Upda
 
 1. [Historical Service Level Availability](/handbook/engineering/monitoring/#historical-service-level-availability) including [maintenance windows](https://status.gitlab.com/pages/history/5b36dc6502d06804c08349f7) from the month in the comments
 
-Each of these items should be updated to reflect the most recent month.  ([Sample MR](https://gitlab.com/gitlab-com/www-gitlab-com/-/merge_requests/127806)).
+Each of these items should be updated to reflect the most recent month.  ([Sample MR](https://gitlab.com/gitlab-com/content-sites/handbook/-/merge_requests/4115)).
 
 Latest results are on the [GitLab.com General SLA Dashboard](https://dashboards.gitlab.net/d/general-slas/general-slas?orgId=1&from=now-1M%2FM&to=now-1M%2FM) (internal only)
 
