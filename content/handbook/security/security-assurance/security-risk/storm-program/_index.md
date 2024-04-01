@@ -400,7 +400,7 @@ We produce an annual report (the Annnual Risk Assessment or ARA) to summarize ou
 
 ### Top 5 Risks
 
-The Security Division's "Top 5 Risks" are established during annual risk assessment activities and are reported upon quarterly as resources allow via the SRQ. Security Leadership leverages these Top 5 Risks when conducting short and long-term strategic planning activities. We intend to support remediation through assisting with treatment activities and performing design and operating effectives assurance testing on key remediation activities.
+The Security Division's "Top 5 Risks" are established during annual risk assessment (ARA) activities and are reported upon quarterly as resources allow via the SRQ. Security Leadership leverages these Top 5 Risks when conducting short and long-term strategic planning activities. We intend to support remediation through assisting with treatment activities and performing design and operating effectives assurance testing on key remediation activities.
 
 #### Long-Term Risk Treatment Planning
 
