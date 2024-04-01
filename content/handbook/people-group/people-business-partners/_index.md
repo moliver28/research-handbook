@@ -19,7 +19,16 @@ PBPs collaborate across the People Group to ensure people and business strategy 
 
 ### People Business Partner Alignments
 
-INSERT TABLE
+| Contact | Division - Department |
+|-------------------|------------|
+| Anjali Kaufmann   | G&A: People Group, Finance, LACA  |
+| Denise Parsonage  | Marketing: Awareness, Brand Activation, Campaigns, CMO Executive, Communications, Developer Relations, Content Marketing, Digital Design, Digital Marketing, Field Marketing, Marketing Ops, Partner Marketing, Sales Development, and Search Marketing |
+| Carolyn Bednarz   | Sales: Enterprise Sales  |
+| Carlie Russell    | Sales: Customer Success, Channel and Alliances |
+| Lauren Tepper     | Sales: Commercial Sales, Field Operations   |
+| Giuliana Lucchesi | Product: Product Management and UX; CISO: Security   |
+| Kristina Bullock  | Engineering: CTO, Customer Support, Quality/Infrastructure, Chief of Staff   |
+| Jess Durbin       | Engineering: Core Development and Expansion  |
 
 ## How to partner with PBPs to foster high performance in your team:
 
@@ -31,7 +40,7 @@ Additionally, PBPs support team member engagement in each division using sentime
 
 #### For more information:
 
-1. [Organizational Design] (https://handbook.gitlab.com/handbook/people-group/organizational-design/)
+1. [Organizational Design](https://handbook.gitlab.com/handbook/people-group/organizational-design/)
 1. GitLab Job Frameworks
 1. Team Member Engagement: [Engagement Survey](https://handbook.gitlab.com/handbook/people-group/engagement/#engagement-and-org-health-surveys-overview) analysis and action planning
 
@@ -41,7 +50,7 @@ PBPs collaborate with Talent Management, Talent Development, Total Rewards,and a
 
 #### For more information:
 
-1.[Talent Assessment programs](https://handbook.gitlab.com/handbook/people-group/talent-assessment/) including promotion and career development
+1. [Talent Assessment programs](https://handbook.gitlab.com/handbook/people-group/talent-assessment/) including promotion and career development
 1. [Succession planning](https://handbook.gitlab.com/handbook/people-group/talent-assessment/#succession-planning)
 
 
@@ -51,7 +60,7 @@ PBPs can provide invaluable leadership coaching on a range of issues such as tea
 
 #### For more information:
 
-1. Support in leveraging leadership development tools for specific growth opportunities such as [360s for people leaders](https://handbook.gitlab.com/handbook/people-group/360-feedback/) and [external coaching] (https://handbook.gitlab.com/handbook/leadership/coaching/)
+1. Support in leveraging leadership development tools for specific growth opportunities such as [360s for people leaders](https://handbook.gitlab.com/handbook/people-group/360-feedback/) and [external coaching](https://handbook.gitlab.com/handbook/leadership/coaching/)
 1. For direct manager support on underperformance, please refer to [Team Member Relations](https://handbook.gitlab.com/handbook/people-group/team-member-relations/)
 
 ### Collaborating with the PBP team on projects
