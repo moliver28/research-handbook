@@ -171,7 +171,7 @@ When your on-call shift starts, you should get notification(s) that your shift i
 ### Ending your on-call shift
 
 Before your shift ends, consider what tasks need to be handed over and make sure to proactively communicate them to the next engineer in the rotation.
-This may mean [engaging the next On-call Support Engineer](#engaging-the-next-on-call-support-engineer-ceoc) and bringing them into an active troubleshooting call, or it may mean providing instructions or context for situations
+This may mean [engaging the next On-call Support Engineer](#engaging-the-next-on-call-support-engineer) and bringing them into an active troubleshooting call, or it may mean providing instructions or context for situations
 you have handled that have some follow-up action. For example:
    - if you're in an active call with a customer and it's time to end your day, page the incoming on-call and make sure they're prepared to provide continuity by giving them an overview of what's been done before and what's next
      - once you anticipate an active call to spill over into the next shift, try reaching out to the incoming on-call on Slack to make them aware of the upcoming need for a handover – they might not be around already, but it's worth trying and can make it easier for you to end your shift on time
