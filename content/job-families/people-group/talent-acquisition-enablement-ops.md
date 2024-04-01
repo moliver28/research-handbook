@@ -78,15 +78,15 @@ The Senior Progam Manager, Global TA Enablement is a [grade 7](/handbook/total-r
 - Aligns with GitLab values
 
 
-### Manager, Talent Acquisition Operations
+### Talent Acquisition Operations Manager
 
 The Manager, Talent Acquisition Operations reports to the Senior Manager, Global Enablement.
 
-#### Manager, Talent Acquisition Operations Job Grade
+#### Talent Acquisition Operations Manager Job Grade
 
-The Manager, Talent Acquisition Operations is a [grade 8](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+The Talent Acquisition Operations Manager is a [grade 8](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
-#### Manager, Talent Acquisition Operations Responsibilities
+#### Talent Acquisition Operations Manager Responsibilities
 
 - Design and drive rigor in processes and policies for our Global Talent Acquisition team
 - Optimize our TA and Candidate Experience systems, tools and processes to create consistent, efficient and equitable hiring outcomes
@@ -102,7 +102,7 @@ The Manager, Talent Acquisition Operations is a [grade 8](/handbook/total-reward
 - Hire and manage TA Operations team members as needed
 
 
-#### Manager, Talent Acquisition Operations Requirements
+#### Talent Acquisition Operations Manager Requirements
 
 - Prior experience as a site administrator working to improve or maintain an ATS such as Lever or Greenhouse
 - Experience in TA Operations with a focus on process improvement, systems, tools, and project management
