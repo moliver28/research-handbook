@@ -4,7 +4,7 @@ controlled_document: true
 ---
 
 {{% panel header="**Not a GitLab team member but want to provide feedback on our StORM program?**" header-bg="primary" %}}
-We receive [feedback](/handbook/people-group/guidance-on-feedback/#feedback-at-gitlab) from GitLab team members regularly and we wanted to provide a mechanism for non-GitLab team members to provide feedback as well to help us [iterate](/handbook/values/#iteration) and align more closely with [our values](https://handbook.gitlab.com/handbook/values). If you are not a GitLab team member and would like to provide feedback on our Security Operational Risk Management (StORM) program or methodology, plese use this [feedback form](https://docs.google.com/forms/d/e/1FAIpQLSfmD4G6CTdpbCe5Aymoz0oD6Z3Oi1X-2xxYzGNbJ2wcYh6uOA/viewform?usp=sf_link) to submit anonymous feedback.
+We receive [feedback](/handbook/people-group/guidance-on-feedback/#feedback-at-gitlab) from GitLab team members regularly and we wanted to provide a mechanism for non-GitLab team members to provide feedback as well to help us [iterate](/handbook/values/#iteration) and align more closely with [our values](/handbook/values). If you are not a GitLab team member and would like to provide feedback on our Security Operational Risk Management (StORM) program or methodology, plese use this [feedback form](https://docs.google.com/forms/d/e/1FAIpQLSfmD4G6CTdpbCe5Aymoz0oD6Z3Oi1X-2xxYzGNbJ2wcYh6uOA/viewform?usp=sf_link) to submit anonymous feedback.
 {{% /panel %}}
 
 ## Purpose
@@ -412,7 +412,7 @@ Executive Risk Owners are accountable for ensuring that long-term treatment plan
  - Establish realistic target delivery dates for each KR. Due to the nature of operational risks, we expect delivery dates to range up to 4 years in the future. Try to establish at least one KR per quarter to show incremental progress.
  - Scoring: Subtract '10' (our risk tolerance threshold based on the current risk appetite) from the current risk score to identify the reduction required to move the risk within tolerance. Divide this difference by the number of projected KRs. The quotient/remainder is the amount the score will be reduced each time a KR is completed. This number can be adjusted judgmentally as required.
 
- In the event the Executive Risk Owner chooses not to pursue a Risk Remediation-related KR in a given quarter due to competing priorities, a [Risk Acceptance](https://handbook.gitlab.com/handbook/security/security-assurance/security-risk/third-party-risk-management/#tprm-risk-acceptance-process) should be formalized to document the business rationale. This Risk Acceptance should contain rationale explaining why the risk of delaying additional Risk Remediation is less than the risk of not fulfilling the competing priority.
+ In the event the Executive Risk Owner chooses not to pursue a Risk Remediation-related KR in a given quarter due to competing priorities, a [Risk Acceptance](/handbook/security/security-assurance/security-risk/third-party-risk-management/#tprm-security-notice-process) should be formalized to document the business rationale. This Risk Acceptance should contain rationale explaining why the risk of delaying additional Risk Remediation is less than the risk of not fulfilling the competing priority.
 
 #### StORM Reporting Schedule
 
@@ -433,7 +433,6 @@ The only exceptions to this procedure are those risks that are out of scope (as 
 
 - GitLab Handbook References:
     - [GitLab's Communication Page, Not Public Section]({{< ref "confidentiality-levels#not-public" >}})
-    - [ZenGRC Activities]({{< ref "zg-activities#risk-activities" >}})
 - External References
     - [NIST SP 800-30 Rev. 1](https://csrc.nist.gov/publications/detail/sp/800-30/rev-1/final)
     - [ISO 31000 Risk Management Methodology](https://www.iso.org/iso-31000-risk-management.html)
