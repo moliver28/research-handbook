@@ -954,7 +954,7 @@ This list offers additional guidance for written communication at GitLab:
    1. When financial data is presented, include a note to indicate fiscal year (e.g. "Fiscal Year ending January, 31 'yy")
 1. For time formatting guidelines, refer to the [GitLab Content Style Guide](https://handbook.gitlab.com/handbook/marketing/brand-and-product-marketing/brand/content-style-guide/#time-formatting).
 1. Please remember that not everyone is working in the same timezone; what may be morning for you is evening for someone else. Try to say 3 hours ago or 4 hours from now, or use a timestamp, including a timezone reference.
-1. Don't use "EOD" or "end of day", as team members communicate across timezones, where "end of day" does not specify the exact date and time. When you want something due at a specific time, [communicate the date and time](/handbook/communication/#communicating-dates-and-time) by when the request should be done, for example: `Please review before 2023-06-10 5 p.m. PT`.
+1. Don't use "EOD" or "end of day" ("COB" or "close of business", "EOB" or "end of business"), unless you are okay with a deliverable being due at the end of [anywhere on earth](https://en.wikipedia.org/wiki/Anywhere_on_Earth#:~:text=World%20map%20of%20time%20zones,it%20ends%20on%20Howland%20Island). Team members communicate across timezones, where "end of day" does not specify the exact date and time. When you want something due at a specific time, [communicate the date and time](/handbook/communication/#communicating-dates-and-time) by when the request should be done, for example: `Please review before 2023-06-10 5PM PT`.
 
 ### Visuals
 
