@@ -681,3 +681,4 @@
 /content/handbook/security/software-development-lifecycle-policy.md @jlongo_gitlab @joshlemos @juliedavila @gitlab-com/egroup @gitlab-com/content-sites
 ### This is not a controlled doc however it mentions how to make a page a controlled doc, so this line is required for validation. See issue#213 for excluding this.
 /content/handbook/editing-handbook/frontmatter.md @gitlab-com/ceo-chief-of-staff-team @gitlab-com/egroup @gitlab-com/content-sites
+/content/handbook/security/security-logging-standard.md @mcoons
