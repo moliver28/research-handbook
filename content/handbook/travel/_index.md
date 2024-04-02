@@ -22,7 +22,7 @@ Note that this is not a GitLab application and is managed by ISOS. You can read 
 If you have questions, reach out in the #peopleconnect Slack channel.
 - Check out this [video](https://www.internationalsos.com/bottleofhelp) for an outline on how ISOS can help in an emergency.
 
-## Travel Insurance
+### Travel Insurance
 
 Business Travel Accident Policy
 This policy [link](https://drive.google.com/file/d/1USae0p7PtKmXB35GuSJqJyIopBsH9b2I/view?usp=sharing) provides coverage for team members who travel domestic and internationally for business purposes. This policy will provide Emergency Medical and Life Insurance coverage should an emergency happen while you are traveling. In accompaniment, there is coverage for security evacuations, as well a travel assistance line which helps with pre-trip planning and finding contracted facilities worldwide.
