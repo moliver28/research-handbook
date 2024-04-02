@@ -52,10 +52,8 @@ OKRs are established following the same process for [issue prioritization](/hand
 The Ops Team is responsible for ensuring the published Monthly Availability Updates are maintained.  This is currently a manual process.   Items to update include:
 
 1. [Historical Service Level Availability](/handbook/engineering/monitoring/#historical-service-level-availability) including [maintenance windows](https://status.gitlab.com/pages/history/5b36dc6502d06804c08349f7) from the month in the comments
-1. [Executive Summary](/handbook/engineering/performance-indicators/)
-1. [GitLab.com Availability](/handbook/engineering/infrastructure-quality/performance-indicators/#gitlabcom-availability) (Only last 3 months are required)
 
-Each of these items should be updated to reflect the most recent month.  ([Sample MR](https://gitlab.com/gitlab-com/www-gitlab-com/-/merge_requests/127806)).
+Each of these items should be updated to reflect the most recent month.  ([Sample MR](https://gitlab.com/gitlab-com/content-sites/handbook/-/merge_requests/4115)).
 
 Latest results are on the [GitLab.com General SLA Dashboard](https://dashboards.gitlab.net/d/general-slas/general-slas?orgId=1&from=now-1M%2FM&to=now-1M%2FM) (internal only)
 
