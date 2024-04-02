@@ -20,7 +20,7 @@ Note that this is not a GitLab application and is managed by ISOS. You can read 
 - If team members prefer not to download the app, we encourage you to follow this [link] (https://myportal.internationalsos.com/WebPortal/MyOrganisation) and print or take a picture of the membership card with the emergency contact details. You can save the number in your phone for easy access.
 - Note that International SOS is an optional resource for team members and is only one of the ways you can receive care.
 If you have questions, reach out in the #peopleconnect Slack channel.
-- Check out this [video](https://www.internationalsos.com/bottleofhelp) for an outline on how ISOS can help in an emergency. 
+- Check out this [video](https://www.internationalsos.com/bottleofhelp) for an outline on how ISOS can help in an emergency.
 
 ## Travel Insurance
 
@@ -37,7 +37,7 @@ Trip Duration: Coverage provided for trips less than 180 days.
 Baggage & Personal Effects Benefit: $500 lost bag coverage up to 5 bags.
 For any assistance with claims, please reference the claims guide (internal only).
 This policy will not work in conjunction with another personal accident policy as the Business Travel Accident Policy will be viewed as primary and will pay first.
-Family members: Immediate family members (spouse, domestic partners and children below the age of 26) are also covered while traveling with you on a business trip. 
+Family members: Immediate family members (spouse, domestic partners and children below the age of 26) are also covered while traveling with you on a business trip.
 For more detailed information on this benefit, please reference the policy document.
 If you need a confirmation of coverage letter, please reference the visa letter generation document (internal only).
 For any additional questions, please contact the Total Rewards Analyst.
