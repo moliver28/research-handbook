@@ -363,8 +363,6 @@ We encourage collaboration with global organizations and programs that support u
 GitLab also provides additional support through the [GitLab Diversity Sponsorship program](https://about.gitlab.com/community/sponsorship/).
 We offer funds to help support the event financially, and if the event is in a city we have a GitLab team member, we get hands-on by offering to coach and/or give a talk whenever possible.
 
-Community members from all backgrounds are encouraged to join our [First Look](https://about.gitlab.com/community/gitlab-first-look/) UX research participant panel. Feedback from our community is what makes GitLab lovable and anyone is [able to sign up](https://gitlab.fra1.qualtrics.com/jfe/form/SV_51J9D8skLbWqdil?Source=d&i) to our research program for invites to usability tests, user interviews, surveys, and more.
-
 We encourage organizers of events that are supported through our [GitLab Diversity Sponsorship program](https://about.gitlab.com/community/sponsorship/) to share [this sign up link](https://gitlab.fra1.qualtrics.com/jfe/form/SV_51J9D8skLbWqdil?Source=d&i) with attendees. Everyone can contribute.
 
 
