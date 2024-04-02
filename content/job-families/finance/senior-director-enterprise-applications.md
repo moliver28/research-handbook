@@ -220,11 +220,11 @@ The Senior Director, Enterprise Applications is a [grade 11](/handbook/total-rew
 
 ## Performance Indicators (PI)
 
-- [New Hire Location Factor < 0.69](/handbook/business-technology/metrics/#new-hire-location-factor--069)
-- [% of team who self-classify as diverse](/handbook/business-technology/metrics/#percent--of-team-who-self-classify-as-diverse)
-- [Discretionary bonus per employee per month > 0.1](/handbook/business-technology/metrics/#discretionary-bonus-per-employee-per-month--01)
-- [Cost Actual vs Plan](/handbook/business-technology/metrics/#cost-actual-vs-plan)
-- [System roll out vs plan](/handbook/business-technology/metrics/#system-roll-out-vs-plan)
+- [New Hire Location Factor < 0.69](https://internal.gitlab.com/handbook/it/it-performance-indicators/#new-hire-location-factor--069)
+- [% of team who self-classify as diverse](https://internal.gitlab.com/handbook/it/it-performance-indicators/#percent--of-team-who-self-classify-as-diverse)
+- [Discretionary bonus per employee per month > 0.1](https://internal.gitlab.com/handbook/it/it-performance-indicators/#discretionary-bonus-per-employee-per-month--01)
+- [Cost Actual vs Plan](https://internal.gitlab.com/handbook/it/it-performance-indicators/#cost-actual-vs-plan)
+- [System roll out vs plan](https://internal.gitlab.com/handbook/it/it-performance-indicators/#system-roll-out-vs-plan)
 
 ## Hiring Process
 
