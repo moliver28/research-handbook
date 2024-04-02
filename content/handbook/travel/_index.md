@@ -1,25 +1,48 @@
 ---
-title: Travel Safety and Security
+title: "Travel Safety and Security"
 ---
 
-## Travel Safety and Security
+### Travel Safety and Security
 
 Team member safety and security are a top priority for GitLab. If a team member feels uncomfortable or unsafe traveling to a location on GitLab's behalf due to concerns about the location, region, personal health, or other safety or security risks, please contact [People Connect](https://gitlab.slack.com/archives/C02360SQQFR) via Slack or email. The People Connect team will assist by helping to connect the team member with the right resources.
 
 **Please note that team member travel is not required unless deemed essential to the role. Please speak to your manager about whether the travel is mandatory and required for your role.**
 
-## Travel Safety- Covid-19
+### Business Travel Emergency Assitance Program with International SOS
 
-You must make your own decision about what is right for you regarding travel. Please be aware that any risk of potential exposure to Covid-19 may subject you to potential restrictions from GitLab or third parties (ex. customers, vendors, conferences, etc.) on your ability to attend in-person meetings or events for some period of time, even after the removal of general travel restrictions. Consult authoritative agencies at both departure and arrival locations before embarking on international travel. If you choose to travel internationally, please note the resources provided by agencies such as the CDC (in the USA) and your local government, and we ask that you notify your manager with your travel dates so we can help set expectations for timing to return to possible in-person meetings in the future. Always consider ways to get the business results remotely before requesting travel approval.
+In an emergency, International SOS (ISOS) can provide quick medical, safety, and security assistance and services to team members on business travel around the globe.
 
-### Resources
+Your coverage as a GitLab team member is automatic and is year-round. There are several ways to interact with ISOS, depending on your preference:
 
-- [World Health Organization Guidance](https://www.who.int/emergencies/diseases/novel-coronavirus-2019)
-- [CDC Guidance](https://www.cdc.gov/coronavirus/2019-ncov/travelers/index.html)
-- [Government of Canada Guidance](https://www.canada.ca/en/public-health/services/diseases/2019-novel-coronavirus-infection.html)
-- Navan Application found via Okta - Navan has information regarding [Travel Restrictions](https://app.navan.com/app/user2/travel-restrictions)
+- Team members can download the [ISOS emergency app](https://https://my.internationalsos.com/LP=8890?_ga=2.54701099.1827787566.1652889843-59998074.1652889840) — it’s the best way to get medical, safety, and security assistance abroad. Before traveling, open the App and register using your GitLab email address. Please use a unique password and not the same as your existing GitLab credentials.
+Note that this is not a GitLab application and is managed by ISOS. You can read more about the app here.
+- If you have medical, safety, or security questions before or during travel, open the ISOS app and press the Need Assistance button. You will be directed to ISOS’s closest emergency alarm center, where a nurse, doctor, safety, or security expert will assist you.
+- If team members prefer not to download the app, we encourage you to follow this [link] (https://myportal.internationalsos.com/WebPortal/MyOrganisation) and print or take a picture of the membership card with the emergency contact details. You can save the number in your phone for easy access.
+- Note that International SOS is an optional resource for team members and is only one of the ways you can receive care.
+If you have questions, reach out in the #peopleconnect Slack channel.
+- Check out this [video](https://www.internationalsos.com/bottleofhelp) for an outline on how ISOS can help in an emergency.
 
-## Secure your data during travels
+## Travel Insurance
+
+Business Travel Accident Policy
+This policy [link] (https://drive.google.com/file/d/1USae0p7PtKmXB35GuSJqJyIopBsH9b2I/view?usp=sharing) provides coverage for team members who travel domestic and internationally for business purposes. This policy will provide Emergency Medical and Life Insurance coverage should an emergency happen while you are traveling. In accompaniment, there is coverage for security evacuations, as well a travel assistance line which helps with pre-trip planning and finding contracted facilities worldwide.
+
+Coverage:
+Accidental Death [enhanced coverage]: 5 times Annual Salary up to USD 500,000.
+The treatment of Covid is covered like any other illness under the Out-of-Country Medical Expense coverage, however there are no covid quarantine benefits covered under our policy.
+Out of Country Emergency Medical: Coverage up to $250,000 per occurrence. If there is an injury or sickness while outside of his or her own country that requires treatment by a physician.
+Security Evacuation with Natural Disaster: If an occurrence takes place outside of his or her home country and Security Evacuation is required, you will be transported to the nearest place of safety.
+Personal Deviation: Coverage above is extended if personal travel is added on to a business trip. Coverage will be provided for 25% of length of the business trip.
+Trip Duration: Coverage provided for trips less than 180 days.
+Baggage & Personal Effects Benefit: $500 lost bag coverage up to 5 bags.
+For any assistance with claims, please reference the claims guide (internal only).
+This policy will not work in conjunction with another personal accident policy as the Business Travel Accident Policy will be viewed as primary and will pay first.
+Family members: Immediate family members (spouse, domestic partners and children below the age of 26) are also covered while traveling with you on a business trip.
+For more detailed information on this benefit, please reference the policy document.
+If you need a confirmation of coverage letter, please reference the visa letter generation document (internal only).
+For any additional questions, please contact the Total Rewards Analyst.
+
+### Secure your data during travels
 
 During your working travel your restricted data could be exposed. If you feel that your travel frequency may expose your data please keep in mind the following points to ensure that sensitive data contained in your devices will not be compromised:
 
@@ -37,21 +60,8 @@ For additional security specifically when traveling through an airport, the foll
 - If you are traveling through an [embargoed country](/handbook/sales/#export-control-classification-and-countries-we-do-not-do-business-in), do not bring any company-owned devices with you. If you must bring one, contact the legal department to discuss.
 - If you are aware of any circumstances with your travel that may present a unique security risk (such as traveling to speciality conferences like Defcon), you may request advice in the [#security-department](https://gitlab.slack.com/archives/CM74JMLTU) Slack channel.
 
-## Travel Insurance
 
-GitLab offers travel insurance for business travel. Full details of GitLab's Business Travel Accident Policy can be found in the [benefits section](/handbook/total-rewards/benefits/general-and-entity-benefits/#business-travel-accident-policy).
-
-## Emergency Travel Assistance While Traveling Abroad for Work
-
-Emergency Medical, Safety, and Security Assistance is available to all GitLab team members when traveling abroad for work. All GitLab team members can access AIG's Travel Guard program for emergency assistance while traveling. Prior to traveling:
-
-- Download the [Travel Guard App](https://apps.apple.com/app/aig-business-travel-assistance/id829194220) and register for their services. If you don't have access to the app and need assistance, contact the following emergency call centers 24x7:
-- View and register on [Travel Guards](https://travelguard.secure.force.com/TravelAssistance/TGPreLoginHomePage?PL=AIGACCIDENTANDHEALTH) website for resource information
-- Download and save the [GitLab Assistance Membership card](https://drive.google.com/file/d/1WJUmO1AC2gIwgBuA8FgacgUwJuWdlutd/view?usp=sharing) and keep it handy for emergency contact details.
-- Emergency Phone Contact Information: U.S. and Canada Toll-Free: 1-877-244-6871 or +1-877-278-7196
-- Non-U.S. collect calls: +1 715-346-0859 or +1 715-295-9973
-
-## Expenses While Traveling
+### Expenses While Traveling
 
 Understand the guidelines of our [Global Travel and Expense Policy](/handbook/finance/expenses/) before you travel.
 
