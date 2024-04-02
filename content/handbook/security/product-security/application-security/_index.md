@@ -93,6 +93,10 @@ Learn more about the [GitLab AppSec Inventory]({{< ref "inventory" >}}).
 
 Learn how to identify or remediate security issues using real examples with GitLab's [Reproducible Vulnerabilities][11].
 
+## Reproducible Builds
+
+Learn how GitLab is implementing [Reproducable Builds][13] for our build processes.
+
 ## Application Security Automation and Monitoring
 
 Please see the [Application Security Automation and Monitoring page][12]
@@ -107,3 +111,4 @@ Please see the [Application Security Automation and Monitoring page][12]
 [10]: /handbook/security/root-cause-analysis
 [11]: {{< ref "reproducible-vulnerabilities" >}}
 [12]: {{< ref "application-security-automation-monitoring" >}}
+[13]: {{< ref "reproducible-builds" >}}
