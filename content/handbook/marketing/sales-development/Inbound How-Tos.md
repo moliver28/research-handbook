@@ -78,27 +78,90 @@ Lastly, Every so often you may be assigned a lead that has no value to GitLab an
 
 ## Actioning your leads
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+**1. Determining High-touch or Low-touch sequence usage:**
+
+| Step | Notes |
+|------|--------------|
+| 1    | Determine if the lead qualifies for a high touch or low touch sequence. High touch sequences are for higher-quality leads and require more personalization and touch points, including phone calls and LinkedIn Connect requests. Low touch sequences are typically automated and run for a shorter period of time. You can use Low-touch for leads where a phone number cannot be found online or in our databases, or where their contact information is incomplete and cannot be enriched by our tools, or through manual research. |
+| 2    | Research the appropriate outreach collections for relevant collateral to be used. Most typically our [High-Touch](https://web.outreach.io/sequences?queryFilters=%5B%7B%22attribute%22%3A%22collection%22%2C%22operator%22%3A%22is%22%2C%22value%22%3A%5B%2269%22%5D%7D%5D&sortBy=recent&sortDirection=desc) or [Low-Touch](https://web.outreach.io/sequences?queryFilters=%5B%7B%22attribute%22%3A%22collection%22%2C%22operator%22%3A%22is%22%2C%22value%22%3A%5B%2271%22%5D%7D%5D&sortBy=recent&sortDirection=desc) collections. | 
+| 
+
 
 ### How to enroll to outreach
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-
-### Outreach inbound collections
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-
-### Outreach call and lead statuses/dispositions
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+| Step | Action |
+|------|--------|
+| 1 | Go to your SDR views on SFDC and select the lead you want to sequence. |
+| 2 | Press "Import to Outreach". |
+| 3 | Work from the Outreach extension on Chrome to then select the sequence you want to enroll the lead in. |
+| 4 | If manual steps are required for the sequence that you chose, select "Edit Steps". Go through each step you want to edit, paying especial attention to manual variables. |
+| 5 | Once the first step of an Outreach sequence is complete, the lead status will automatically change from MQL, Inquiry, or Raw to Accepted, marking that you are actively working on this lead. |
+| 6 | When a lead responds to you via email, their status will again automatically change from Accepted to Qualifying. Manage these leads from your S3 and B5 lead views. |
+| 7 | If you are not working on qualifying this lead further, manually change the status to Recycle so that this lead is back in Marketing recycle and isn’t stuck in your My Qualifying view. If you have spoken to the lead by phone and are qualifying them, manually change the status from Accepted to Qualifying. |
+| 8 | When looking at your qualifying view, sequence leads that have no recent last activity + no active tasks + are not actively being sequenced into one of our follow up sequences that have the “Follow up Ruleset Sequences”. |
+| 9.   | Tasks and your pipeline can be then managed via the Outreach [360 view.](https://support.outreach.io/hc/en-us/articles/214806328-Navigating-the-360-View-Dashboard) |
+| 10.   | In the 360 View, review the list of inbound leads assigned to you by navigating to the bottom left of the screen and pressing Start tasks.                                             |   
+| 19 | If a lead finishes an Outreach sequence without responding, the lead status will automatically change to unresponsive or recycle in seven days if there is still no response. |
+| 20 | If a lead responds, schedule a call/meeting using Outreach’s meetings feature. |
+| 21 | Manually change lead status if you don’t use an Outreach sequence to reach out to someone or if you need to unqualify a lead for bad data etc. |
+| 22 | If you check the Inactive lead or Inactive contact checkbox, signifying that this person no longer works at the company, any running sequence will automatically be marked as finished. |
+| 23 | If you notice your leads are being reassigned to Inquiry Queue, that’s due to a scheduled clean up job in Traction that updated Status = Inquiry to Inquiry Queue. To resolve this, add your leads to an Outreach sequence. Note: The scheduled clean up runs daily at 10:30 PM EST/EDT. | 
 
 ## SAO Credit
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+Qualification criteria is a minimum set of characteristics that a lead must have in order to be passed to sales and become a Sales Accepted Opportunity (SAO), these are split into [Inbound and Outbound Criteria.](https://handbook.gitlab.com/handbook/sales/field-operations/gtm-resources/#opportunities)
+
+As an SDR or BDR, you will work to connect with inbound/outbound leads that you get a response from to obtain the applicable information required. This information is tracked on the qualification criteria on the LEAD, CONTACT, and OPPORTUNITY objects in Salesforce. In order to obtain an SAO, you will need to have the ‘required’ information filled out on the opportunity including documented 2-way communication on the Contacts in the Opportunity. Professional Services opportunities are not credited to sales development, these need to be passed straight to the account AEs for them to qualify.
+
+**When do I create an Opportunity?**
+
+1. **You have scheduled time with AE/SAE to speak with the prospect:**
+If you are scheduling time with an AE/SAE to speak to the prospect based on a qualifying conversation you have had with the prospect, an opportunity needs to be created and placed in stage 0. On the opportunity, all “required qualification” fields need to be filled in.
+
+2. **You have obtained a commitment/willigness from a prospect to discuss further.**
+If you have a meaningful two-way communication with a prospect, but have not had the required qualification criteria to move to the Sales team, you can create an opportunity under your name so that you better track your warm conversations. These opportunities may also be used for better collaboration with your team, as they can be reviewed and brain-stormed upon during team meetings.
+
+**Who owns the opportunity at this point?**
+
+**1. You have scheduled time with AE/SAE to speak with the prospect.**
+When you have entered the qualification criteria onto the opportunity, and have received calendar confirmation from all parties for the intro call with sales, you will change ownership to the AE/SAE. After you have saved opp owner, you will add yourself to the BDR/SDR field. The opportunity will remain in stage 0.
+
+**2.You have obtained a commitment/willigness from a prospect to discuss further.**
+At this point, the opportunity will be in your ownership but you can not have yourself listed in the Business Development Representative or Sales Development Representative field. There is a validation rule that will not allow the opp owner and the SDR/BDR representative field to be the same member.
+
+**When will it be credited as an SAO?**
+
+After the AE/SAL meets with the prospect to verify and supplement qualification criteria, they will move the opportunity into Stage 1 Discovery. The AE/SAL is expected to move the opportunity into the correct stage within 48 hours of the meeting reflected in the “Next Step” date field.
+
+If an opportunity has incorrect data after it has moved into Stage 1 - Discovery, please Chatter your manager about the required changes, they will then Chatter someone from Sales Dev Operations (Ramona, Panos, Ed) once final changes are agreed upon. No one else from Sales Dev can edit opportunities once they are in Stage 1, so please try and ensure you have all the information on the opportunity before you ask the AE/SAL to accept it.
+
+If the opportunity is for a new group of users in a Large account where sales is working on a large “central” opportunity, then your opportunity should be merged to that opportunity for you to get credit for the users you have brought to the deal. See under [Stage 8](https://handbook.gitlab.com/handbook/sales/field-operations/gtm-resources/#opportunity-stages) in the Sales Go To Market Handbook.
 
 ### Scheduling IQMs
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+| Step | Description |
+| ---- | ----------- |
+| **Creating Opportunities:** | |
+| 1. Identify Communications | Identify relevant two-way communications with the prospect, such as email exchanges, call records, or LI messages. Ensure proper logging in SFDC associated with the person, company, and opportunity. |
+| 2. Relate Activities | Select specific activity records highlighting your involvement and press "related to." Select the corresponding Opportunity and press save. |
+| 3. Verify Sales Organization RoE | - On ZoomInfo or other sources, verify parent/child segmentation and HQ of the company or ultimate user.<br>- If discrepancies exist, communicate with the appropriate personnel for resolution. |
+| 4. Overriding Incorrect Account Assignments | - Navigate to the Lead/Contact Review Admin section in Salesforce to input correct information.<br>- If unsuccessful, communicate with the Sales Dev Director for assistance in updating account records. |
+| **AMER SDR - IQM Standards:** | |
+| **Prior to the IQM** | |
+| 1. Schedule IQM | Schedule IQM within 48 hours of the DC, giving at least 24 hours notice to the AE. Send calendar invite + Zoom link. |
+| 2. AE Review | AE verifies they reviewed the opportunity beforehand. Review the specifics of the call, responsibilities, and send meeting reminders. |
+| 3. Booking Meetings | For booking meetings, use Outreach and Google to get a detailed view. Ask lead to accept while on the phone. Send pre-meeting emails. |
+| **IQM** | |
+| 1. Attend IQM | AE and SDR show up on time or up to 5 minutes beforehand. Cameras on. Location is quiet and indoors for AE and SDR. |
+| 2. Introduction | SDR introduces the call, then AE takes over. Cameras stay on. |
+| **Post IQM** | 
+| 1. Debrief | AE and SDR debrief within 24 hours regarding the opportunity flipping or being disqualified. Reasons are shared in writing via Slack/email and added to Salesforce by the AE. |
+| 2. IQM Notes | SDR adds IQM notes to the Initiative section in the opportunity Title. Include Attendees, Raw Notes, Questions, Summary, and Next Steps. |
+| 3. Opportunity Acceptance | AE must accept/"flip" within 48 hours of the IQM. |
+| **No-show IQM** | |
+| 1. Rebook | SDR’s responsibility to rebook using Outreach rebook sequence. Conduct outreach for 2 weeks. If IQM cannot be rescheduled, AE will unqualify the opportunity. |
+| 2. Follow-up | Ongoing follow-up by SDR - 1x cycle/month. Follow-up plan includes email, voicemail, LI message, and invites to webinar/online workshop. |
+
 
 ### Filling CRM qualification questions
 
