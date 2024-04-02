@@ -166,11 +166,11 @@ Examples of English Language Courses:
 
 We encourage people to be speakers in conferences. More information for people interested in speaking can be found on our [GitLab Speaker Resources](/handbook/marketing/corporate-communications/speaking-resources/).
 
-**Eligibility for Reimbursement:** Before scheduling any travel or time off to attend a conference, please discuss your request with your manager. The manager will approve the request if the conference is work-related and the timing doesn't interfere with GitLab deliverables. After discussing with your manager, create a [Growth & Development issue](/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development/#how-to-apply-for-growth-and-development-benefits). Once all required approvals are given on the issue, travel can be scheduled. Please review current [GitLab travel policy]({{< ref "travel" >}}) for the most up-to-date information about booking and planning conference travel. 
+**Eligibility for Reimbursement:** Before scheduling any travel or time off to attend a conference, please discuss your request with your manager. The manager will approve the request if the conference is work-related and the timing doesn't interfere with GitLab deliverables. After discussing with your manager, create a [Growth & Development issue](/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development/#how-to-apply-for-growth-and-development-benefits). Once all required approvals are given on the issue, travel can be scheduled. Please review current [GitLab travel policy]({{< ref "travel" >}}) for the most up-to-date information about booking and planning conference travel.
 
 Reimbursement should be applied for after the conference, with proof of attendance submitted as part of the Navan claim. When claiming back travel via Navan, you should add a link to your G&D issue in the description.
 
-For reimbursements above $1,000, you can expense 50% of the cost up front, and 50% upon completion. 
+For reimbursements above $1,000, you can expense 50% of the cost up front, and 50% upon completion.
 
 ### Self-Service Learning (Skillserve, Coursera, LinkedIn Learning Others)
 
