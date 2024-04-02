@@ -66,10 +66,10 @@ Detailed process is described on [Performance and Scalability](https://docs.gitl
 
 #### Upgrade Tester
 
-Focused on building and testing different upgrade paths using the [Reference Architectures](https://docs.gitlab.com/ee/administration/reference_architectures), the upgrade tester pipelines will build and upgrade environments starting at a specified version and ending at either the latest nightly package or a specific version. For each upgrade the path used to upgrade will differ depending on the start and end versions used. For example, when starting with version 16.0.0 the upgrade path would be
+Focused on building and testing different upgrade paths using the [Reference Architectures](https://docs.gitlab.com/ee/administration/reference_architectures), the Upgrade Tester pipelines build and upgrade environments starting at a specified version and ending at either the latest nightly package or a specific version. For each upgrade the path used to upgrade differs depending on the start and end versions used. For example, when starting with version 16.0.0 the upgrade path would be
 `16.0.0, 16.1.6, 16.3.7, 16.7.7, nightly`.
 
-More information can be found within the [Upgrade Tester project](https://gitlab.com/gitlab-org/quality/upgrade-tester).
+More information can be found within the [Upgrade Tester project](https://gitlab.com/gitlab-org/quality/upgrade-tester) about the schedule and Reference Architecture types that are used for testing. Test results are reported to `#qa-upgrade-results` channel in Slack and monitored by Self-Managed Platform team.
 
 #### Work in progress
 
