@@ -3,11 +3,7 @@
 title: "Direction - GDK"
 ---
 
-
-
-
-| ------ | ------ |
-| **Last reviewed** | 2021-01-16 |
+**Last reviewed**: 2021-01-16
 
 - [GDK Project](https://gitlab.com/gitlab-org/gitlab-development-kit)
 - [Issue List](https://gitlab.com/gitlab-org/gitlab-development-kit/-/issues)

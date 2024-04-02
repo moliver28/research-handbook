@@ -58,9 +58,15 @@ MR review requests are the [number one priority for Product Designers](/handbook
 
 Balancing MR reviews with other priorities is a challenge, as they can be unpredictable. To avoid disruptions and context-switching, we suggest you block some time every day to review MRs (for example, 30 minutes or 1 hour per day).
 
-If you're struggling with MR reviews, remember to [manage expectations with MR authors](/handbook/engineering/workflow/code-review/#managing-expectation) and let your manager know right away so they can help you.
+If you're struggling with MR reviews, remember to [manage expectations with MR authors](/handbook/engineering/workflow/code-review/#managing-expectation). Before taking up a review, make an estimation of your capacity keeping in mind any upcoming time off. If you are unsure of completing the review before leaving for a time off, work with your manager and team to reassign the MR to another designer.
 
-Before taking up a review, make an estimation of your capacity keeping in mind any upcoming time off. If you are unsure of completing the review before leaving for a time off, work with your manager and team to reassign the MR to another designer.
+### Monitoring MR review workload
+
+Should you find yourself overloaded with MRs, let your manager know right away so they can help you. You can request assistance from another designer on your team or by asking in the #ux_coworking Slack channel.
+
+Product design managers should escalate and monitor these occurences with UX leadership to determine if they are isolated incidents or indicative of a broader trend. 
+
+To ensure that MR reviews are evenly distributed across designers, we monitor the [GitLab Review Workload Dashboard](https://gitlab-org.gitlab.io/gitlab-roulette/?sortKey=stats.avg30&order=-1&hourFormat24=true&visible=reviewer%7CUX) and [Product Design MR review volume](/handbook/product/ux/performance-indicators/#product-design-mr-review-volume).
 
 ## Reviewing
 

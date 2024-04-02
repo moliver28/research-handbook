@@ -510,7 +510,7 @@ Having short terms and long term goals for the TMRG is extremely important in de
 
 - Work with the wider TMRG on the TMRGs priorities
     - Leadership should distill these down into a manageable number of goals
-- Utilize a goal setting methodology such as [OKRs]({{< ref "/handbook/company/okrs" >}}) or [SMART](https://www.mindtools.com/pages/article/smart-goals.htm) to set the goals in a practical way
+- Utilize a goal setting methodology such as [OKRs](/handbook/company/okrs) or [SMART](https://www.mindtools.com/pages/article/smart-goals.htm) to set the goals in a practical way
 - Add these goals to your quarterly strategy issue for the TMRG
 - Assign a working group or DRI/s to the goal
 - Share the goals with your executive sponsor and the wider GitLab team through the Monthly Initiatives Call

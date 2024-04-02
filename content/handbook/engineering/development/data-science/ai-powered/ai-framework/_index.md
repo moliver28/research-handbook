@@ -33,6 +33,7 @@ If you're interested in the team's Objectives and Key Results (OKRs), you can fi
 * Providing essential support for our AI chat system framework.
 * Incorporating support for new AI providers when required.
 * Assisting with the production support and ensuring the readiness of the AI Gateway.
+* LLM inference support, including prompt enginering, response evaluation, fine tuning, evaluation, and more.
 
 ### ☎️ How to reach us
 
@@ -77,7 +78,7 @@ Each week the team EM provides a Weekly Status update issue which aims to captur
 Our workflow process for our [board](https://gitlab.com/groups/gitlab-org/-/boards/7346017?label_name[]=group%3A%3Aai%20framework) is outlined below.
 
 1. **Open** 📝: This list contains all identified issues. An engineering manager will be assigned if either the Milestone or the label "workflow::ready for development" is missing.
-2. **workflow::solution validation** 🧪: Issues here are undergoing validation to ensure the proposed solution meets the requirements. Once validated, the "ready for development" label is applied.
+2. **workflow::problem validation** 🧪: Issues here are undergoing validation to ensure the proposed solution meets the requirements. Once validated, the "ready for development" label is applied.
 2. **workflow::ready for development** 🎯: Issues that have been prioritized and assigned to a specific milestone are moved to this list and the "ready for development" label is applied.
 3. **workflow::in dev** 👩‍💻: When a developer starts working on an issue, they should move it to this list and apply the "in dev" label.
 4. **workflow::in review** 👀: Once the development work on an issue is complete, it should be moved to this list and the "in review" label should be applied.

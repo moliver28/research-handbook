@@ -137,6 +137,15 @@ Here is a sample checklist of activities:
 - Remove log files older than 90 days.
      - Following [this runbook](https://gitlab.com/gitlab-data/runbooks/-/blob/main/airflow_infrastructure/archival_pvc_volume/delete_pvc_volume.md) remove old Airflow logfiles to reduce PVC. If we run out of disk space Airflow stops working.
 
+#### Monte Carlo
+
+- Deactivate off-boarded employees from Monte Carlo
+     - All Monte Carlo accounts from GitLab team members that are off-boarded, should be deactivated from the day they are off-boarded. This activity checks for any active accounts for off-boarded GitLab team members. Subsequently any active account will be deactivated.
+- Deactivate any account, that has not logged-in within the past 90 days from the moment of performing an audit, from Monte Carlo.
+     - Any named user Monte Carlo account that hasn't logged for more than 90 days will be deactivated. If a GitLab team member wants to have access provisioned back again, a regular AR needs to be created. After manager approval the account will be activated if there there are licenses available
+     
+Note: The 90 days are subject to change. At this moment we have set a 90 days threshold because Monte Carlo is less frequently used by some team members (not needed as frequent as i.e. Snowflake or Tableau). We may change this in the future
+
 ## Exceptions
 
 Exceptions to this procedure will be tracked as per the [Information Security Policy Exception Management Process](/handbook/security/#information-security-policy-exception-management-process).

@@ -6,7 +6,7 @@ title: Manager Challenge
 
 **Please note that the next Manager Challenge has been paused until further notice.**
 
-Team member can reach out in the [#learninganddevelopment Slack channel](https://app.slack.com/client/T02592416/CMRAWQ97W) with any questions about upcoming manager training or utilize their [Growth and Development benefit]({{< ref "/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development" >}}) for external training opportunities.
+Team member can reach out in the [#learninganddevelopment Slack channel](https://app.slack.com/client/T02592416/CMRAWQ97W) with any questions about upcoming manager training or utilize their [Growth and Development benefit](/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development) for external training opportunities.
 
 You can learn more about our current manager development program on our [Elevate handbook page]({{< ref "elevate-programs" >}}).
 
@@ -24,7 +24,7 @@ The program was awarded a Gold Excellence in Leadership Development by the [Bran
 
 ### Team Member Time Investment Level
 
-If you plan to participate in the Manager Challenge, please discuss with your manager. Let them know you are interested and will be dedicating the three weeks to actively participating. This is not like the [CEO Shadow program]({{< ref "/handbook/ceo/shadow" >}}), but the Manager Challenge will **require a heavy time investment**. If you plan to participate, try to do everything you can to block one to two hours each day during the program. This is an intensive program with the goal of covering a lot of material in a short amount of time to increase knowledge retention. **There will be more synchronous activities, less async, this challenge due to feedback from past participants.**
+If you plan to participate in the Manager Challenge, please discuss with your manager. Let them know you are interested and will be dedicating the three weeks to actively participating. This is not like the [CEO Shadow program](/handbook/ceo/shadow), but the Manager Challenge will **require a heavy time investment**. If you plan to participate, try to do everything you can to block one to two hours each day during the program. This is an intensive program with the goal of covering a lot of material in a short amount of time to increase knowledge retention. **There will be more synchronous activities, less async, this challenge due to feedback from past participants.**
 
 Make the program part of your [career development]({{< ref "career-development" >}}), and include in your [Individual Growth Plan]({{< ref "career-development#internal-resources-1" >}}).
 
@@ -48,7 +48,7 @@ In addition, the program ties into GitLab's strategic priorities through the fol
      1. [Lack of Performance Management](https://internal-handbook.gitlab.io/handbook/leadership/mitigating-concerns/#underperformance)
      1. [Ineffective Management](https://internal-handbook.gitlab.io/handbook/leadership/mitigating-concerns/#ineffective-management)
 1. Achieving GitLab Strategy of:
-     1. [Inclusive Growth & Development for Team Members]({{< ref "/handbook/company/strategy#4-inclusive-growth--development-for-team-members" >}})
+     1. [Inclusive Growth & Development for Team Members](/handbook/company/strategy#4-inclusive-growth--development-for-team-members)
 
 Below is a video L&D recorded with Sid on manager enablement:
 

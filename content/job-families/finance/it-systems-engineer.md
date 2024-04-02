@@ -136,10 +136,10 @@ The Staff IT Systems Engineer has all the same responsibilities as the ones outl
 
 - Automation workflows created / GitLab Merge Requests
 - Handbook Merge Requests
-- [Number of days since last environment audit](/handbook/business-technology/metrics/#number-of-days-since-last-environment-audit)
+- [Number of days since last environment audit](https://internal.gitlab.com/handbook/it/it-performance-indicators/#number-of-days-since-last-environment-audit)
 
-- [Cycle Time for IT Support Issue Resolution](/handbook/business-technology/metrics/#cycle-time-for-it-support-issue-resolution)
-- [Customer Satisfaction Survey (CSAT)](/handbook/business-technology/metrics/#customer-satisfaction-survey-csat)
+- [Cycle Time for IT Support Issue Resolution](https://internal.gitlab.com/handbook/it/it-performance-indicators/#cycle-time-for-it-support-issue-resolution)
+- [Customer Satisfaction Survey (CSAT)](https://internal.gitlab.com/handbook/it/it-performance-indicators/#customer-satisfaction-survey-csat)
 
 ## Career Ladder
 

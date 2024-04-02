@@ -146,7 +146,7 @@ Offer details usually include:
 - Job Title
 - Salary
 - General and specific [benefits]({{< ref "benefits" >}})
-- Contract type and [employment type]({{< ref "/handbook/people-group/employment-solutions#team-member-types-at-gitlab" >}})
+- Contract type and [employment type](/handbook/people-group/employment-solutions#team-member-types-at-gitlab)
 - [Onboarding process]({{< ref "general-onboarding#onboarding-at-gitlab" >}})
 - [Asynchronous communication](/handbook/company/culture/all-remote/asynchronous/)
 - [Stock options](/handbook/stock-options/)

@@ -351,7 +351,7 @@ The company will cover all work-related travel expenses. This includes lodging a
 
 #### Conferences
 
-- All costs associated with attending a conference to represent GitLab are reimbursable and an approved completed [G&D issue]({{< ref "/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development" >}}) will need to be noted in the expense report upon submission. Please refer to the [Growth and Development handbook page]({{< ref "/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development" >}}) for further details and requirements. The reimbursement limits currently denoted in the Growth and Development handbook page do not include the cost of travel to and from the conference, so please ensure you have Manager approval for the cost of the travel.
+- All costs associated with attending a conference to represent GitLab are reimbursable and an approved completed [G&D issue](/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development) will need to be noted in the expense report upon submission. Please refer to the [Growth and Development handbook page](/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development) for further details and requirements. The reimbursement limits currently denoted in the Growth and Development handbook page do not include the cost of travel to and from the conference, so please ensure you have Manager approval for the cost of the travel.
 - Select classification or tag “Growth and Development” in Navan when you create expenses.
 - Needs to have approved G&D Development issue which will be reviewed by AP Admin.
 - No conference expense, with the exception of travel, should be allowed outside of G&D, unless the Team Member is a speaker for an event or required to attend an event for job related responsibilities (i.e. staffing or sales).
@@ -546,7 +546,7 @@ The company will cover all work-related travel expenses. This includes lodging a
 ### Training/Tuition
 
 - All costs associated with training or tuition are reimbursable.
-- An approved [completed G&D issue]({{< ref "/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development" >}}) will need to be noted in the expense report upon submission.
+- An approved [completed G&D issue](/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development) will need to be noted in the expense report upon submission.
 - The Growth and Development benefit is managed in partnership by the Total Rewards and Learning and Development team.
 - Select classification or tag “Growth and Development” in Navan when you create expenses.
 - AP Admin needs to review expense for approved issue.
@@ -559,7 +559,7 @@ The company will cover all work-related travel expenses. This includes lodging a
 
 ### VPN Subscription
 
-- Please read [Why We Don't Have A Corporate VPN]({{< ref "/handbook/security#why-we-dont-have-a-corporate-vp" >}}n), and check out our [Personal VPN]({{< ref "personal-vpn" >}}) page regarding usage at GitLab.
+- Please read [Why We Don't Have A Corporate VPN](/handbook/security#why-we-dont-have-a-corporate-vpn), and check out our [Personal VPN]({{< ref "personal-vpn" >}}) page regarding usage at GitLab.
 - Policy is set at $150 per year.
 - Yearly subscription can be submitted in one claim.
 - Monthly subscriptions to be submitted monthly.
@@ -603,7 +603,7 @@ The procedure by which reimbursable expenses are processed varies and is depende
 #### PEO (Professional Employer Organization/ Employer of Record and not a GitLab entity or Branch)
 
 **Global Upside, Remote.com and Papaya Global**
-- The list of Global Upside, Remote & Papaya countries can be found [here]({{< ref "/handbook/people-group/employment-solutions#peo-professional-employer-organization-employer-of-record-and-not-a-gitlab-entity" >}}).
+- The list of Global Upside, Remote & Papaya countries can be found [here](/handbook/people-group/employment-solutions#peo-professional-employer-organization-employer-of-record-and-not-a-gitlab-entity).
 - Team Members must submit their expenses through Navan.
 - All expenses must be submitted and approved by the Accounts Payable team (for out of policy expenses) on or before the 6th of each month to ensure it is included in the current month's payroll.
 
@@ -614,7 +614,7 @@ The procedure by which reimbursable expenses are processed varies and is depende
 
 **CXC Global**
 
-- The list of CXC countries can be found [here]({{< ref "/handbook/people-group/employment-solutions" >}}).
+- The list of CXC countries can be found [here](/handbook/people-group/employment-solutions).
 - Team Members must submit their expenses through Navan.
 - All expenses must be submitted and approved by the Accounts Payable team (for out of policy expenses) on or before the 6th of each month to ensure it is included in the current month's payroll.
 - GitLab Payroll Team will send the approved expense amount to CXC EMEA Payroll to include with the monthly salary.

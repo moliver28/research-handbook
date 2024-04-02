@@ -275,4 +275,5 @@ Some company related details are required to be added as a signature to certain 
 
 ## Useful links
 
-- [Payroll calendar for GitLab GmbH](https://docs.google.com/spreadsheets/d/1HCKIZTVBYjQOTOp4syfHssDMceujRmEfF75ZGM85d1g/edit?usp=sharing) (internal)
+- [Payroll calendar for GitLab GmbH](https://internal.gitlab.com/handbook/finance/payroll/?search=payroll#pay-dates) (internal)
+- [Payroll-related information for GitLab GmbH](https://internal.gitlab.com/handbook/finance/payroll/?search=payroll#germany) (internal)

@@ -110,43 +110,17 @@ The calculator below is based on the following [Value Calculator](https://docs.g
 
 Our planning process is called the [Planning Drumbeat](/handbook/business-technology/data-team/how-we-work/planning) and it encompasses Quarterly Planning and [Iteration Planning](/handbook/business-technology/data-team/how-we-work/planning/#iteration-planning). The Planning Drumbeat is one of the most important activities the Data Team performs because it helps us align our work with the broader company, while remaining agile enough to manage shifting business priorities.
 
-#### Weekly Roll Up Reporting
+#### Quarterly KR Status Reporting
 
-Business Technology developed [Rolly Bot](/handbook/business-technology/how-we-work/rolly/) to automate the creation and dissemination of weekly status updates. By using their tool, the Data Team is able to send out regular updates about their OKRs via email and Slack with minimal time commitments from team members. One roll up is generated for the Data Fusion team and a second is created for the Data Platform team. 
-
-We use GitLab's [DRI Handbook Page](/handbook/people-group/directly-responsible-individuals/#dri-consulted-informed-dci) to define the roles and responsibilities for each key result. The DRI (Responsible and Accountable Team Member that completes the Key Result), Consulted (Primary Business Stakeholder for Data Activation), and Informed (Secondary Business Stakeholder for Data activation) should be added to the Epic description.
+Beginning in FY25-Q1, the Data Team is using the [GitLab Objectives and Key Results project](https://gitlab.com/gitlab-com/gitlab-OKRs) to manage quarterly commitments. 
 
 Process:
-1. Create Epics for tracking KRs related to our Quarterly Objectives
-2. Add the appropriate Label to each epic
-    - Data Platform Team: `Data-Platform-weekly-rollup`
-    - Data Fusion Team: `Data-Fusion-weekly-rollup`
-    - Data Science Team: `Data-Science-weekly-rollup`
-    - Data Collaboration Team: `Data-Collaboration-weekly-rollup`
-3. Add the following text in each Epic description, filling in the details for each KR: 
-    ```
-    <!-- Status Start -->
-    1. **DRI:** [Team member(s) tags responsible for completing the KR]
-    1. **Consulted:** [Primary Business stakeholder(s) tags so they receive the weekly roll up email]
-    1. **Informed:** [Secondary Business stakeholder(s) tags so they receive the weekly roll up email]
-    1. **Next Release Date:** [Date of Release]
-    1. **Status:** [Red, Yellow, Green]
-    1. **Stage:** [Triage, Validation, Scheduling, Scheduled, Development, Review, Completed, Blocked]
-    1. **Achieved:** [Bulleted list of what has been completed]
-    1. **Features Included in Next Release:** [Bulleted list of what is scheduled to be completed in the next release]
-    1. **Blockers:**  [Details of any blockers (technical, business, other)]
-    1. **Overall Estimated Size:**  [T-Shirt Size Estimate]
-    1. **Business Impact Statement:** [Short summary of business impact]
-    <!-- Status End -->
-    ```
-4. During iteration planning, the DRI will be responsible for updating the above details for the KR in the Epic. The best practice is to write the update for the entire iteration.
-5. At the end of the quarter, the roll up labels will be removed from the KR Epics and added to the new quarter's KR Epics.
-
-**Note:** The release date will often be the next iteration based on our iteration planning process, but it could be sooner or later than that, depending on the specific KR.
-
-Current limits:
-1. Only Epics can be added to the weekly roll up (i.e. not Issues)
-1. Only 20 Epics can be added to the weekly roll up
+1. Create KRs in the project for each of the committed Key Results.
+2. In the KR description, add a link to the corresponding Epic from the GitLab Data Team project where the development work is being tracked. 
+3. Throughout the quarter, the DRI for the workstream should make the following updates (at a minimum, these updates should be added at the end of each month in the quarter for the KRs that have the `Division::` scoped label applied to them; some teams may choose to make updates more frequently): 
+    - Add a comment outlining what work has been completed, and what work is remaining to complete the KR.
+    - Update the % complete field on the KR.
+    - Update the Health Status field to indicate whether the KR is `On Track`, `Needs Attention`, or `At Risk`.
 
 ##### Introducing a new data source
 <!-- Amie to check with Dennis on this -->

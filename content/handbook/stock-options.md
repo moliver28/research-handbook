@@ -144,7 +144,7 @@ Note: All equity grants are subject to approval by the Board of Directors and no
 
 ## Annual Refresh Grant Program Eligibility
 
-Team members may be eligible to participate in the annual refresh grant cycle review if they have completed six months of service with the company. However, participation will be based upon individual team member talent assessments (including if a team member is currently in good standing) and [key talent criteria]({{< ref "/handbook/people-group/talent-assessment#key-talent-criteria" >}}). Therefore, not all team members will receive a refresh grant in the annual review cycle. Leaders will have discretion on the size of the refresh grant based on talent assessments and equity budget as allocated to each E-group member’s division. All proposed grants will be reviewed by the People team for pay equality. All proposed equity grants are subject to review and approval by the GitLab Board of Directors.
+Team members may be eligible to participate in the annual refresh grant cycle review if they have completed six months of service with the company. However, participation will be based upon individual team member talent assessments (including if a team member is currently in good standing) and [key talent criteria](/handbook/people-group/talent-assessment#key-talent-criteria). Therefore, not all team members will receive a refresh grant in the annual review cycle. Leaders will have discretion on the size of the refresh grant based on talent assessments and equity budget as allocated to each E-group member’s division. All proposed grants will be reviewed by the People team for pay equality. All proposed equity grants are subject to review and approval by the GitLab Board of Directors.
 
 ## Option Vesting
 

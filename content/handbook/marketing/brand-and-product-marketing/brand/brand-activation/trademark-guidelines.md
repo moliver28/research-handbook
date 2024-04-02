@@ -49,7 +49,7 @@ To request use of the Trademarks in a manner, or for a purpose, not expressly pe
 
 2.1. Unless otherwise expressly permitted in these Guidelines, you must never:
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2.1.1. Use the Trademarks in the name of your business, product, service, app, domain name, social media account, or business indicator, even if such use otherwise complies with Section 1.1.1;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2.1.1. Use the Trademarks in the name of your business, product, service, app, domain name, email username, social media account, or business indicator, even if such use otherwise complies with Section 1.1.1;
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2.1.2. Inaccurately imply an affiliation, endorsement, sponsorship, or approval with or by GitLab Inc., or use the Trademarks in a manner that is considered deceptive, unethical, illegal, or is detrimental to us in any way;
 

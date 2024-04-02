@@ -71,7 +71,7 @@ This triage process is automated by the [Contributor Success team](/handbook/mar
 
 The inactive merge request policy was created to enable GitLab teams to focus efforts on active merge request and prevent old merge requests from degrading into a state of disrepair. This is done by creating two thresholds at which GitLab team members attempt to move the merge request forward.
 
-Contributor Success team members attempt to move merge requests that have reached the first threshold forward via the [Community merge requests requiring attention](/handbook/engineering/quality/triage-operations#community-merge-requests-requiring-attention) triage report.
+Contributor Success team members attempt to move merge requests that have reached the first threshold forward via the [Community merge requests requiring attention](/handbook/engineering/infrastructure/engineering-productivity/triage-operations#community-merge-requests-requiring-attention) triage report.
 
 If that's not successful an Engineering Manager makes a decision at the second threshold. We value your effort - that's why all decisions to close a merge request are made by a human, and are not automated.
 

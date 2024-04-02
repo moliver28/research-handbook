@@ -66,7 +66,7 @@ Once a template has been selected, the description box will be populated with th
 - Select `Feature Request` for requesting enhancements to current systems.
 - Select `Partner M&A and Name Changes` when requesting a partner account change related to mergers and acquisitions, merging duplicate accounts or moving them into an account hierarchy, or to change a partner account name.
 - Select `Procedures & HB Updates` to request edits or reviews for certain procedures/processes or handbook updates managed by Partner Operations, especially if more discussion is needed prior to submitting a MR for a page.
-- Select `Partner Funding Request` to request _non-MDF_ funding for partner events, MOUs, funded headds, SPIFFS, etc.
+- Select `Partner Funding Request` to request _non-MDF_ funding for partner events, MOUs, funded heads, SPIFFS, etc.
 
 
 **3. Before you submit**
@@ -1040,7 +1040,7 @@ See [IBM (OEM) Partner Requests & QTC Process](https://docs.google.com/document/
 
 ### Consulting Partner Private Offers (CPPO)
 
-For more information on our AWS CPPO Pilot Program, please reference the following [program guide.](https://docs.google.com/document/d/1cH0pJP6xaY0I-Fxra212VjYwn_MvNTH1hHOtkhGVC-4/edit#heading=h.lpzn62rdfa90)
+For more information on our AWS CPPO Program, please reference the following [program guide.](https://docs.google.com/document/d/11P1Iva6ksIuw-UrxCvq5G5i2k0a-cplxAsCKi4msjpY/edit)
 
 ### Registering Opportunities with Marketplace Providers
 Just as our partners register opportunities with GitLab, Partner Managers should register their marketplace opportunities with the prospective cloud provider. Instructions for submitting registrations to AWS and GCP are shown below.
@@ -1049,9 +1049,9 @@ Just as our partners register opportunities with GitLab, Partner Managers should
 AWS registrations can be received and submitted directly through your SFDC opportunity using the Labra Referrals and Labra Leads tools. Instructions can be found in this [Labra Process Guide](https://docs.google.com/document/d/1wdru-IPPj-lKnq4n25XQGPH3d06Z1xClxXnNdHE7LwU/edit#heading=h.rfec1j50uxik).
 
 #### Google Cloud
-GCP registrations can be submitted by accessing Google's [Partner Advantage portal](https://www.partneradvantage.goog/GCPPRM/s/partneradvantageportallogin?language=en_US). Additional GCP registration information can be found in the following resoures: 
-- [Deal Submission Quick Reference Guide](https://docs.google.com/presentation/d/1D4E4jcVtfky3Qt9kZ1pExiILzCRpQqx95cSOOCjy3vY/edit#slide=id.g20fb1bc5386_7_316)
-- [Video: How to submit a deal](https://drive.google.com/file/d/16sddA_mb3u0pvpq_CKxXzbes1pfvswNH/edit)
+GCP registrations are submitted on GitLab's behalf by the GCP team. To register a new opportunity with GCP, please click the following link and fill out the form. 
+
+[New GitLab Opportunity Registration for GCP](https://docs.google.com/forms/d/e/1FAIpQLScEsVcfRBILkrSs73vUeqkzfi_nTuK4Tluv-HBUw230pWuRXw/viewform)
 
 ## Compensation on Partner Opportunities
 

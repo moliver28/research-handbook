@@ -40,7 +40,7 @@ Marketing Operations (MktgOps) supports the marketing organization to streamline
 
 ## <i class="far fa-life-ring" id="biz-tech-icons"></i> How to Get Help
 
-**Important**: Before submitting an issue that may contain [Personally Identifable Information (PII) data](/handbook/support/workflows/pii_removal_requests.html#overview) (including screenshots), please ensure the issue is marked confidential. You can use [quick actions](https://docs.gitlab.com/ee/user/project/quick_actions.html#issues-merge-requests-and-epics) to accomplish this in the issue description priort to submitting.
+**Important**: Before submitting an issue that may contain [Personally Identifable Information (PII) data](/handbook/support/workflows/pii_removal_requests/#overview) (including screenshots), please ensure the issue is marked confidential. You can use [quick actions](https://docs.gitlab.com/ee/user/project/quick_actions.html#issues-merge-requests-and-epics) to accomplish this in the issue description priort to submitting.
 
 <div class="flex-row" markdown="0">
   <div>
@@ -70,16 +70,16 @@ We do not use or create tool-specific Slack channels (e.g. `#marketo`).
 
 - [#hbupdate-mktgops](https://gitlab.slack.com/archives/mktgops) - This channel is used to automatically post new [handbook updates](#handbook-updates) that have been merged.
 - [#mktgops](https://gitlab.slack.com/archives/mktgops) - We use this channel for general marketing operations support, weekly marketing operations team standup updates, and key system status updates. We attempt to [avoid direct messages](/handbook/communication/#avoid-direct-messages) where possible as it discourages collaboration.
-   - In order to efficiently triage common requests, we utilize auto-responses in this channel. Anyone can help triage requests in the #mktgops slack channel by using the slack emoji reactions in the table below. 
+   - In order to efficiently triage common requests, we utilize auto-responses in this channel. Anyone can help triage requests in the #mktgops slack channel by using the slack emoji reactions in the table below.
 
 | Inquiry | Slack Reaction |
 | ------ | ------ |
-| Questions specific to SFDC | `:mktgops_salesforce:` | 
-| Complex questions that require an issue | `:mktgops_issue:` |     
-| Bugs | `:mktgops_bug:` |     
-| Questions about tool status | `:mktgops_status:` |     
-| List import questions | `:mktgops_lists:` |   
-| Tool access is needed | `:mktgops_AR:` |   
+| Questions specific to SFDC | `:mktgops_salesforce:` |
+| Complex questions that require an issue | `:mktgops_issue:` |
+| Bugs | `:mktgops_bug:` |
+| Questions about tool status | `:mktgops_status:` |
+| List import questions | `:mktgops_lists:` |
+| Tool access is needed | `:mktgops_AR:` |
 
 **Salesforce**
 
@@ -167,9 +167,9 @@ Categories
 Proccess Steps with Sales Systems
 </summary>
 
-- `MktgOpsPrio::00: Requested`: New issues  
+- `MktgOpsPrio::00: Requested`: New issues
 - `MktgOpsPrio::01: In Approved`: Issues that have received business process owner approval
-- `MktgOpsPrio::02: In Queue - Mops`: Issues that are ready for prioritization with Sales Systems 
+- `MktgOpsPrio::02: In Queue - Mops`: Issues that are ready for prioritization with Sales Systems
 - `MktgOpsPrio::03: In Queue - Systems`: Discussed in prioritization and added to a temporary milestone
 - `MtkgOpsPrio::04: Actioned`: Issue is in current or future milestone, not yet ready for UAT
 - `MktgOpsPrio:: 05: Business Owner UAT`: Issue is in UAT by the business owner, Systems cannot move forward without signoff
@@ -276,7 +276,7 @@ Periodically Marketing Operations and other teams through the marketing org make
 
 
 - To use [labels](/handbook/marketing/marketing-operations/#labeling) to denote where the issue is
-- To use [Milestones](/handbook/marketing/marketing-operations/#milestones) to denote when the work will be done 
+- To use [Milestones](/handbook/marketing/marketing-operations/#milestones) to denote when the work will be done
 - To provide solution options for the problem statement with clear outline of timeline/ potential blockers.
 - To verify possibility of the suggested solution(if there is one).
 
@@ -289,7 +289,7 @@ Salina to
 - Add [Stage Label](/handbook/marketing/marketing-operations/#labeling)
 - Add milestone to the issue of when she thinks the work will be started
 
-If no new issues- can either discuss issues or skip a week. 
+If no new issues- can either discuss issues or skip a week.
 
 #### Milestone MRs
 
@@ -316,7 +316,7 @@ If you need assistance with Sales Systems follow the next steps:
 7. Once systems build, it is the responsibility of the Business Owner to test and accept. The Business Owner must show proof (such as a testing plan, or screenshot) that the solution is working correctly in the staging environment. This is an important step that represents acceptance of the solution, its testing, and the authority to change the related process. The issue will stay in `MktgOpsPrio:: 05: Business Owner UAT` during this time.
 8. Once ready to deploy, Systems manager will add `SFDCReleaseHelp` to flag to release managers it is ready for production release. Marketing Ops label should be updated to `MktgOpsPrio::05: Pending Release`
 7. Once in production, MktgOps should confirm again that the field/update in SFDC and corresponding/impacted systems is working as anticipated. Label updated to `MktgOpsPrio::06: Completed`
-8. Issue is closed and completed. 
+8. Issue is closed and completed.
 
 **Other helpful links:**
 
@@ -330,14 +330,14 @@ Workato is a low-code/no-code tool used to for automations and integrations acro
 1. Request the creation of a new automation/integration
       - For types of request that involve building something from scratch and you require assistence from the Integrations team
         1. Open an issue in the [Integrations Work](https://gitlab.com/gitlab-com/business-technology/enterprise-apps/integrations/integrations-work/-/issues/new) and follow the instructions in the issue template.
-        2. If the issue relates to marketing operations, make sure to tag @mihaiConteanu or @amy.waller 
+        2. If the issue relates to marketing operations, make sure to tag @mihaiConteanu or @amy.waller
 
 2. Bug fixing or deploying recipes developed in the testing environment
       - For fixing issues with currently working recipes or to test and review an independently built recipe before moving it into production. Due to SOX compliance, any change to a recipe in production needs to be acompanied by a change management issue.
         1. Open an issue in the [Integrations Work Project](https://gitlab.com/gitlab-com/business-technology/enterprise-apps/integrations/integrations-work/-/issues/new) and depending on your specific need, choose a template for *Bug*, *Change*, or *Default* and follow the instructions in the issue template.
         2. Open an issue in the [Change Management Project](https://gitlab.com/gitlab-com/business-technology/change-management/-/issues/new) and copy and paste [this template](https://gitlab.com/gitlab-com/business-technology/enterprise-apps/integrations/integrations-work/-/blob/main/.gitlab/issue_templates/change%20management.md?ref_type=heads) in the issue description
         3. Follow the instructions in the template, it contains all labels and tags necessary to notify the Integrations Team
-        4. Set a meeting with Durgesh Thakkar and Karuna Singh to go over and review your changes/recipe/issue. 
+        4. Set a meeting with Durgesh Thakkar and Karuna Singh to go over and review your changes/recipe/issue.
 
 **Helpful links**
 - [How Integrations Team works](/handbook/business-technology/enterprise-applications/integrations/how-we-work/)
@@ -346,28 +346,28 @@ Workato is a low-code/no-code tool used to for automations and integrations acro
 
 
 
-## Stakeholder Mapping 
-Stakeholder mapping is a tool to help define roles and to delegate cross-functional responsibilities among the team. Stakeholder mapping connects key functions and jobs across marketing with a primary marketing operations stakeholder, a supporting team of marketing operations team members, and stakeholders outside of marketing operations. The main purpose of stakeholder mapping is to identify and connect the stakeholders involved in setting the strategic direction of marketing operations initiatives. 
+## Stakeholder Mapping
+Stakeholder mapping is a tool to help define roles and to delegate cross-functional responsibilities among the team. Stakeholder mapping connects key functions and jobs across marketing with a primary marketing operations stakeholder, a supporting team of marketing operations team members, and stakeholders outside of marketing operations. The main purpose of stakeholder mapping is to identify and connect the stakeholders involved in setting the strategic direction of marketing operations initiatives.
 
-Stakeholder mapping is NOT a way to gatekeep, nor is it meant to stifle communication, collaboration, or efficiency. A particular function is not limited to communicating only with the strategic partner or supporting team members mapped to that function. Similarly, marketing operations team members who are not strategic partners or supporting team members for a particular function may still support that function in various ways. 
+Stakeholder mapping is NOT a way to gatekeep, nor is it meant to stifle communication, collaboration, or efficiency. A particular function is not limited to communicating only with the strategic partner or supporting team members mapped to that function. Similarly, marketing operations team members who are not strategic partners or supporting team members for a particular function may still support that function in various ways.
 
-### Why is Stakeholder Mapping important? 
+### Why is Stakeholder Mapping important?
 Stakeholder mapping is important because it helps to formalize a process for setting the strategic direction of marketing operations initiatives. Stakeholder mapping will help marketing operations better understand the challenges and opportunities that our stakeholders face, allowing the marketing operations team to be more proactive business partners, and better able to plan for and deliver on strategic projects.
 
-Additionally, Stakeholder Mapping creates tighter alignment between Marketing Operations and our stakeholders. It provides our stakeholders with a specific point of contact and a predictable cadence with which they can collaborate on strategic initiatives. 
+Additionally, Stakeholder Mapping creates tighter alignment between Marketing Operations and our stakeholders. It provides our stakeholders with a specific point of contact and a predictable cadence with which they can collaborate on strategic initiatives.
 
-#### What does it mean to be a strategic partner? 
-Strategic partners are the main point of contact for understanding, documenting, and sharing strategic opportunities from the functions to which they are mapped. This can be done by conducting Marketing Operations Discovery research, which typically happens twice per fiscal year. 
+#### What does it mean to be a strategic partner?
+Strategic partners are the main point of contact for understanding, documenting, and sharing strategic opportunities from the functions to which they are mapped. This can be done by conducting Marketing Operations Discovery research, which typically happens twice per fiscal year.
 
-Findings of Discovery research are then used as inputs for the marketing operations roadmap and backlog. 
+Findings of Discovery research are then used as inputs for the marketing operations roadmap and backlog.
 
-### What does it mean to be a supporting team member? 
-Supporting team members are typically subject matter experts in a specific use case or area within a function. Supporting team members participate in Discovery research and should feel free to ask questions directed toward their particular focus area in order to capture additional insights. Supporting team members typically take point on note taking during Discovery research calls. 
+### What does it mean to be a supporting team member?
+Supporting team members are typically subject matter experts in a specific use case or area within a function. Supporting team members participate in Discovery research and should feel free to ask questions directed toward their particular focus area in order to capture additional insights. Supporting team members typically take point on note taking during Discovery research calls.
 
 ### What is Discovery research and how do we conduct it?
-Discovery research is a way to learn more about our users. Our users are members of the marketing division who use tier 1 and 2 marketing technology. Discovery research can be conducted through synchronous interviews or asynchronously. When possible, synchronous interviews are preferred because they allow us to build relationships and ask follow up questions in real time. Discovery research calls should happen quarterly, up to the discretion of the strategic partner and the stakeholder. 
+Discovery research is a way to learn more about our users. Our users are members of the marketing division who use tier 1 and 2 marketing technology. Discovery research can be conducted through synchronous interviews or asynchronously. When possible, synchronous interviews are preferred because they allow us to build relationships and ask follow up questions in real time. Discovery research calls should happen quarterly, up to the discretion of the strategic partner and the stakeholder.
 
-#### What will Discovery research insights be used for? 
+#### What will Discovery research insights be used for?
 Insights from Discovery research calls will be used to inform the Marketing Operations strategic planning and roadmapping.
 
 
@@ -381,7 +381,7 @@ The Marketing Operations team maintains the [Marketing technology tiering system
 
 ### Tools in the Stack
 
-The SSoT for all tools at GitLab is the  [Tech Stack Applications page](/handbook/business-technology/tech-stack-applications/). 
+The SSoT for all tools at GitLab is the  [Tech Stack Applications page](/handbook/business-technology/tech-stack-applications/).
 
 As a compliment to the Tech Stack, we created a visual of the Tier 1 and 2 tools in Marketing Technology stack, aligned to our customer journey.
 
@@ -456,11 +456,11 @@ Technical owners should perform quarterly, bi-quaterly and, for some tools, mont
 
 ### Tech Stack Status Pages
 
-Below is a collection of links leading to status pages of several listed MktgOps DRI tools. Unclickable links did not offer **official** status pages during the 2023 review of available webpages, but there are several **unofficial** and **unaffiliated** websites that offer webpage uptime checking as a service, e.g. www.isitdownrightnow.com, www.downdetector.com and www.downforeveryoneorjustme.com. Feel free to search on these sites during a perceived downtime, but keep in mind it may not be as accurate as an official source. 
+Below is a collection of links leading to status pages of several listed MktgOps DRI tools. Unclickable links did not offer **official** status pages during the 2023 review of available webpages, but there are several **unofficial** and **unaffiliated** websites that offer webpage uptime checking as a service, e.g. www.isitdownrightnow.com, www.downdetector.com and www.downforeveryoneorjustme.com. Feel free to search on these sites during a perceived downtime, but keep in mind it may not be as accurate as an official source.
 
 <details>
 <summary markdown='span'>
-Click to see dropdown list of available status page URLs. 
+Click to see dropdown list of available status page URLs.
 </summary>
 
 - 6sense
@@ -502,7 +502,7 @@ Marketing Operations role:
 - Submit an issue ([example](https://gitlab.com/gitlab-com/marketing/marketing-operations/-/issues/6513#note_1079813146)) for new software evaluations.
 
 
-## MarTech Change Management 
+## MarTech Change Management
 
 ### New Tool Purchase Process
 
@@ -510,15 +510,15 @@ If you are interested in or would like to request a new tool be added to the tec
 
 The process for requesting a new tool is:
 1. [Tool Eval issue](https://gitlab.com/gitlab-com/marketing/marketing-operations/issues/new?issuable_template=tools_eval) is submited
-1. A Marketing Operations member is assigned to review the request. This person scores the requested tool in order to determine its tier. The business and technical owners of the tool are identified.  
+1. A Marketing Operations member is assigned to review the request. This person scores the requested tool in order to determine its tier. The business and technical owners of the tool are identified.
 1. For tier 1 and 2 tools, once the request has been reviewed, the Marketing Operations manager will:
    - Create a new evaluation Epic, capturing relevant details from the intake issue.
-   - Assign the new Epic to the business and technical owners 
+   - Assign the new Epic to the business and technical owners
    - Update the intake issue description with a link to the new Epic.
-1. Tier 3 tools will be handled on a case-by-case basis. If the tool requires extensive evaluation and Marketing Operations support, the above process will apply. 
-1. The business owner is the DRI for tier 4 tool evaluations and implementations. 
+1. Tier 3 tools will be handled on a case-by-case basis. If the tool requires extensive evaluation and Marketing Operations support, the above process will apply.
+1. The business owner is the DRI for tier 4 tool evaluations and implementations.
 
-Once the evaluation Epic is created, the following evaluation steps should be followed: 
+Once the evaluation Epic is created, the following evaluation steps should be followed:
 1. Discovery - understand the request/problem we're trying to solve
 1. Stakeholder identification - build the evaluation team based on the roles and responsibilities outlined below
 1. Requirements gathering - document user stories, requirements, impacted processes, and features using [this requirements gathering template](https://docs.google.com/spreadsheets/d/1JsUcCnePqWnc8ownZQEsjsDtMea6pLPk2k-6TV3M_uI/edit#gid=0)
@@ -668,14 +668,14 @@ One of the following must occur to have a lead move from `Raw` to `Inquiry`
 
 ## Lead Address Fields
 
-On the lead object we have three types of address information, the local/personal address information for that lead, which is stored on the `Person Address` (address type field), the `Ultimate Parent Account Company` information stored on `Company Address: [XXX]` text fields,  and the `Zoominfo enrichment address information` for both the Contact (local information) and the Company level information: 
+On the lead object we have three types of address information, the local/personal address information for that lead, which is stored on the `Person Address` (address type field), the `Ultimate Parent Account Company` information stored on `Company Address: [XXX]` text fields,  and the `Zoominfo enrichment address information` for both the Contact (local information) and the Company level information:
 
 - `Person Address` is partially filled in from Marketo Form Fills and is also completed by ZI enrichment when it is missing;
      - This is the address that Marketo references for email lists. It contains the local address of the record, if known through form fill, list upload, or ZI enrichment.
-- `UPA Company Address` - stored on the `Company Adress: Country`, `Company Adress: State`, `Company Adress: City`, `Company Adress: Street`, `Company Adress: Postal Code` text fields. These fields are updated through APEX code through a 3-step waterfall approach. 
+- `UPA Company Address` - stored on the `Company Adress: Country`, `Company Adress: State`, `Company Adress: City`, `Company Adress: Street`, `Company Adress: Postal Code` text fields. These fields are updated through APEX code through a 3-step waterfall approach.
   1. `Account Demographics Fields` (i.e: `Account Demographics: UPA City`) - If the lead matches to an existing account the address is populated through the Account Demographic fields, taken from the account associated with this lead;
   2. `Admin Override Fields` (i.e: `[Admin] Company Address Country`) - If a lead doesn't match to an account, the Company Address fields are either blank or  are populated through step 3 in the waterfall (see below). If the address is blank or the address information from step 3 is wrong, SDRs/BDRs can update the address information themselves using these Admin Override fields. You can see more information about this process in the [Overriding Incorrect Account Assignments section from Sales Dev Handbook](/handbook/marketing/sales-development/#overriding-incorrect-account-assignments) or in this [video](https://www.youtube.com/watch?v=QT-oOceFU6k&ab_channel=GitLabUnfiltered).
-  3. `Zoominfo Company Address Fields` (i.e: `[ZI] Company Country`) - If the lead doesn't match an account, it was not overwritten using the Admin Override Fields mentioned above and the lead matches to Zoominfo's database, the Company Address fields are populted with Zoominfo Company Address information from the Zoominfo Company Address fields. 
+  3. `Zoominfo Company Address Fields` (i.e: `[ZI] Company Country`) - If the lead doesn't match an account, it was not overwritten using the Admin Override Fields mentioned above and the lead matches to Zoominfo's database, the Company Address fields are populted with Zoominfo Company Address information from the Zoominfo Company Address fields.
 - `Zoominfo enrichment address information` which as can be of two types, personal (local) or company level address;
 1. Zoominfo personal (local) address information can be found in the `[ZI] Contact Country`, `[ZI] Contact State`, `[ZI] Contact City`, `[ZI] Contact Street`, `[ZI] Contact Zip Code` fields;
 2. Zoominfo Company Address Information can be found on the `[ZI] Company Country`, `[ZI] Company State`, `[ZI] Company City`, `[ZI] Company Street`, `[ZI] Company Zip Code` fields;
@@ -690,10 +690,10 @@ The enrichment part of the process is done using the data appending/enrichment t
 
 This cleaning & enrichment process has 5 main priorities:
 
-1. **Enrich net new Marketo leads with Marketo Webhook**  - All leads created through Marketo are instantly enriched with ZI data. 
-2. **Instant Enrich for leads** - When new leads are created in SFDC, Instant Enrich functionality kicks in and the record's **[ZI] fields** are enriched upon creation. 
-3. **Enriching net new leads with Scheduled Enrich** - As a back-up to the Instant Enrich functionality (in case it fails for any reason), all leads created in the last 24h are enriched through scheduled enrichment, to make sure they contain the most updated information. 
-4. **Existing Database Enrichment** - All lead records in SFDC are enriched regularly to make sure that the leads who change roles/companies are updated with the lastest information. 
+1. **Enrich net new Marketo leads with Marketo Webhook**  - All leads created through Marketo are instantly enriched with ZI data.
+2. **Instant Enrich for leads** - When new leads are created in SFDC, Instant Enrich functionality kicks in and the record's **[ZI] fields** are enriched upon creation.
+3. **Enriching net new leads with Scheduled Enrich** - As a back-up to the Instant Enrich functionality (in case it fails for any reason), all leads created in the last 24h are enriched through scheduled enrichment, to make sure they contain the most updated information.
+4. **Existing Database Enrichment** - All lead records in SFDC are enriched regularly to make sure that the leads who change roles/companies are updated with the lastest information.
 5. **Assure Data Cleanliness & Accuracy** - The Marketing Operations team is following the recommended deduplication order of operations as detailed below:
     * Lead to Lead Deduplication  (*Paused* to fix duplicates being created by different tools)
     * Account Deduplication (This part is currently performed using Openprise by Sales Operations)
@@ -712,13 +712,13 @@ For more information regarding our data deduplication process visit the [Ringlea
 
 You can find more details on the enrichment process in our [Zoominfo Handbook Page](/handbook/marketing/marketing-operations/zoominfo/).
 
-### Lead List Upload Enrichment 
+### Lead List Upload Enrichment
 
-To be able to upload a lead in our SFDC, it is mandator for the lead to have an email address. Sometimes we do run into situations where the email address is not available. 
+To be able to upload a lead in our SFDC, it is mandator for the lead to have an email address. Sometimes we do run into situations where the email address is not available.
 
-To bypass this challenge and still be able to upload the leads in SFDC, please create an **List Upload - Enrichment Request** with this [issue template](insert_link_here_when_available), upload the CSV file in the issue and Mops will use the **Zoominfo Enhance**, **Zoominfo ListMatch** and **Cognism Enhance** functionality to enrich these records with the most up to date information (including the email address). 
+To bypass this challenge and still be able to upload the leads in SFDC, please create an **List Upload - Enrichment Request** with this [issue template](insert_link_here_when_available), upload the CSV file in the issue and Mops will use the **Zoominfo Enhance**, **Zoominfo ListMatch** and **Cognism Enhance** functionality to enrich these records with the most up to date information (including the email address).
 
-**Note:** Such records as lead list uploads with no email addres, that sub-sequently are enriched with the email address through Zoominfo/Cognism enrichment, need to be marked as `Opt-out` as **these individuals did not give us the express consent** that they can be reached to; 
+**Note:** Such records as lead list uploads with no email addres, that sub-sequently are enriched with the email address through Zoominfo/Cognism enrichment, need to be marked as `Opt-out` as **these individuals did not give us the express consent** that they can be reached to;
 
 ### Cleaning Test Leads
 

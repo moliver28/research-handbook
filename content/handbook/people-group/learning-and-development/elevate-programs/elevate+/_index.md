@@ -94,6 +94,8 @@ Who sees assessment results?
 1. The Elevate program team will look at cumulative results, vs individual results.
 1. Stakeholder results will be shared with you directly for use in the program.
 
+Results from the self and stakeholder assessments will be used throughout the program, during workshop sessions and intersession work, to inform and personalize the material for each participant.
+
 ## Frequently Asked Questions
 
 ### What does success in Elevate+ look like?
@@ -148,6 +150,7 @@ Important things to note:
 1. You might be nominated by mulitiple Elevate+ participants to take the assessment. Please consider taking it for each person that's nominated you. You'll recieve a separate Culture Amp message and assessment link for each assessment.
 1. Participants of current Elevate+ rounds might have also been nominated to take the assessment for their colleagues. This is expected - thanks for taking time to assess your fellow Elevate+ members!
 1. The People Analytics team will have access the the entire survey data set, including names, and will use this to pull aggregate themes from across all Elevate+ participants.
+1. If you're nominated to give feedback to someone that you feel you can't give adequate feedback to, based on your level of collaboration with them, please simply ignore the message from Culture Amp and any reminders.
 
 
 

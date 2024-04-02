@@ -910,61 +910,51 @@ Watch the replay below:
 
 ## Writing style guidelines
 
-1. At GitLab, we use American English as the standard written language.
-1. Do not use rich text, it makes it hard to copy/paste. Use [Markdown](/docs/markdown-guide/) to format text that is stored in a Git repository. In Google Docs use "Normal text" using the style/heading/formatting dropdown and paste without formatting.
+As you're creating external or business content for GitLab, please refer to the [GitLab Content Style Guide](https://handbook.gitlab.com/handbook/marketing/brand-and-product-marketing/brand/content-style-guide/). For technical content, you can reference [this word list](https://docs.gitlab.com/ee/development/documentation/styleguide/word_list.html).
+
+This list offers additional guidance for written communication at GitLab:
+
+1. Do not use rich text, it makes it hard to copy/paste. Use [Markdown](/docs/markdown-guide/) to format text that is stored in a Git repository. In Google Docs, use "Normal text" using the style/heading/formatting dropdown and paste without formatting.
 1. Read our [Markdown Style Guide](/docs/markdown-guide/) for more information when using Markdown.
 1. Do not use ALL CAPS because it [feels like shouting](https://en.wikipedia.org/wiki/All_caps#Association_with_shouting). However, there is the [`#all-caps` Slack channel](https://gitlab.slack.com/archives/C01BC085AVB) for your good-natured shouting needs.
 1. We use Unix style (lf) line endings, not Windows style (crlf), please ensure `*.md text eol=lf` is set in the repository's `.gitattributes` and run `git config --global core.autocrlf input` on your client.
 1. When specifying measurements, please include both Metric and Imperial equivalents.
 1. When mentioning currency amounts that team members may need to convert to their local currency (e.g. benefits, expenses, or bonuses), link those amounts to our [Exchange Rates](/handbook/total-rewards/compensation/#exchange-rates) section (e.g. [500 USD](/handbook/total-rewards/compensation/#exchange-rates)).
 1. Monetary amounts shouldn't have one digit, so prefer $19.90 to $19.9.
-1. Although we're a San Francisco based company we're also an internationally diverse one. Please do not refer to team members outside the US as international, instead use non-US. Please also avoid the use of offshore/overseas to refer to non-American continents.
+1. Although we're a San Francisco based company, we're also an internationally diverse one. Please do not refer to team members outside the US as "international". Instead, use "non-US". Please also avoid the use of "offshore/overseas" to refer to non-American continents.
 1. If you have multiple points in a comment or email, please number them. Numbered lists are easier to reference during a discussion over bulleted lists.
-1. When you reference an issue, merge request, comment, commit, page, doc, etc. and you have the URL available please paste that in.
+1. When you reference an issue, merge request, comment, commit, page, doc, etc. and you have the URL available, please include it.
 1. In making URLs, always prefer hyphens to underscores, and always use lowercase.
-1. The community includes users, contributors, core team members, customers, people working for GitLab Inc., and friends of GitLab. If you want to refer to "people not working for GitLab Inc." just say that and don't use the word community. If you want to refer to people working for GitLab Inc. you can also use "the GitLab Inc. team" but don't use the "GitLab Inc. employees".
-1. When we refer to the GitLab community excluding GitLab team members please say "wider community" instead of "community".
+1. The community includes users, contributors, core team members, customers, people working for GitLab Inc., and friends of GitLab. If you want to refer to "people not working for GitLab Inc.", just say that, and don't use the word "community". If you want to refer to people working for GitLab Inc., you can also use "the GitLab Inc. team", but don't use "GitLab Inc. employees".
+1. When we refer to the GitLab community (excluding GitLab team members), please say "wider community" instead of "community".
 1. All people working for GitLab (the company) are the [GitLab team](/handbook/company/team/). We also have the [Core team](https://about.gitlab.com/community/core-team/) that consists of volunteers.
 1. Please always refer to GitLab Inc. people as GitLab team members, not employees.
 1. Use [inclusive and gender-neutral language](https://techwhirl.com/gender-neutral-technical-writing/) in all writing.
-1. Always write "GitLab" with "G" and "L" capitalized, even when writing "GitLab.com", except within URLs. When "gitlab.com" is part of a URL it should be lowercase.
-1. Refer to products by tier name only on Marketing pages: Our tier names are Ultimate, Premium, and Free. When both deployment models are being referred to (SaaS and self-managed), use the tier name only. When only one of the deployment models is being referred to, prefix the tier name with the deployment model. E.g., SaaS-Premium, Self-Managed-Ultimate.
-1. Correct capitalization of self-managed: The term `self-managed` should not be capitalized unless it's in a title or unless you are writing the full product name ("Self-Managed-Ultimate"). If it is used at the beginning of a sentence, then the first word only is capitalized: "Self-managed".
-1. Refer to environments that are installed and run by the end-user as "self-managed."
-1. Write a [group](/handbook/product/categories/#hierarchy) name as ["Stage:Group"](/handbook/product/categories/#naming) when you want to include the stage name for extra context.
+1. Always write "GitLab" with "G" and "L" capitalized, even when writing "GitLab.com", except within URLs. When "gitlab.com" is part of a URL, it should be lowercase.
 1. Do not use a hyphen when writing the term "open source" except where doing so eliminates ambiguity or clumsiness.
 1. If an email needs a response, write the answer at the top of it.
 1. Use the future version of words, just like we don't write internet with a capital letter anymore. We write frontend and webhook without a hyphen or space.
 1. Our homepage is https://about.gitlab.com/ (with the `about.` and with `https`).
-1. Try to use the [active voice](https://writing.wisc.edu/Handbook/CCS_activevoice.html) whenever possible.
 1. If you use headers, properly format them (`##` in Markdown, "Heading 2" in Google Docs); start at the second header level because header level 1 is for titles. Do not end headers with a colon. Do not use emoji in headers as these cause links to have strange characters.
-1. Always use a [serial comma](https://en.wikipedia.org/wiki/Serial_comma) (a.k.a. an "Oxford comma") before the coordinating conjunction in a list of three, four, or more items.
-1. Read our [Documentation Styleguide](https://docs.gitlab.com/ee/development/documentation/styleguide/) for more information when writing documentation.
 1. Do not use acronyms when you can avoid them. Acronyms have the effect of excluding people from the conversation if they are not familiar with a particular term. Example: instead of `MR`, write `merge request (MR)`.
-   1. If acronyms are used, expand them at least once in the conversation or document and define them in the document using [Kramdown abbreviation syntax](https://kramdown.gettalong.org/syntax.html#abbreviations). Alternatively, link to the definition.
-   1. If you don't know the meaning of an acronym, ask. It's always ok to [speak up](/handbook/values/#share).
-1. We segment our customers/prospects into 4 segments [Strategic, Large, Mid-Market, and Small Medium Business (SMB)](/handbook/sales/field-operations/gtm-resources/).
+1. If acronyms are used, expand them at least once in the conversation or document and define them in the document using [Kramdown abbreviation syntax](https://kramdown.gettalong.org/syntax.html#abbreviations). Alternatively, link to the definition.
+1. If you don't know the meaning of an acronym, ask. It's always ok to [speak up](/handbook/values/#share).
+
 
 ### Communicating dates and time
 
-1. {: #iso-dates} Always use [ISO dates](https://en.wikipedia.org/wiki/ISO_8601#Calendar_dates) in all writing and legal documents since other formats [lead to online confusion](http://xkcd.com/1179/).
-   1. Use `yyyy-mm-dd`, for example 2015-04-13, and never 04-13-2015, 13-04-2015, 2015/04/13, 20150413, 2015.04.13, nor April 13, 2015. Even if you use an unambiguous alternative format it is still harder to search for a date, sort on a date, and for other team members to know we use the ISO standard.
-   1. For months use `yyyy-mm`, so 2018-01 for January.
-   1. Refer to a year with CY18 (never with 2018) and a quarter with CY18-Q1 to prevent confusion with fiscal years and quarters. If the year is obvious from the context it is OK to use Dec 4, but not 12/4, since the ordering isn't obvious when using two numbers but when naming the month it is clear that the number is the day of the month.
-   1. **Note:** The blog uses Associated Press Style for dates as its guide because it's a publication. See the [editorial guidance](/handbook/marketing/brand-and-product-marketing/content/editorial-team/#dates) for how to format dates in the blog.
+1. For external content, refer to the guidance in the [GitLab Content Style Guide](https://handbook.gitlab.com/handbook/marketing/brand-and-product-marketing/brand/content-style-guide/#dates-and-times).
+1. {: #iso-dates} For internal content, use ISO dates: `yyyy-mm-dd`
+1. For months, use `yyyy-mm`, so 2018-01 for January.
+1. Refer to a year with CY18 (never with 2018) and a quarter with CY18-Q1 to prevent confusion with fiscal years and quarters. If the year is obvious from the context it is OK to use Dec 4, but not 12/4.
 1. GitLab operates on a [Fiscal Year](/handbook/finance/#fiscal-year) offset from the calendar year. When referring to a fiscal year or quarter, please use the following abbreviations:
    1. "FY20" is the preferred format and means: Fiscal Year 2020, the period running from February 1, 2019 through January 31, 2020
    1. "Q1" = the first quarter of the current Fiscal Year, so on Feb 1, 2020, "Q1" is the period from Feb. 1, 2020 through April 30, 2020. Note that Epics in GitLab follow Calendar Years and Quarters.
    1. When referring to a quarter in a future or past year, combine the two above: "FY21-Q1"
-   1. When financial data is presented include a note to indicate fiscal year (e.g. "Fiscal Year ending January, 31 'yy")
-1. We recommend considering documenting times in UTC in addition to Pacific in engineering and product management.  We recommend this because these teams often span more than three time zones, the standard is for systems to log information in UTC (which is used when documenting production root cause analysis), and it is useful to do so when coordinating cross-functional activities related to the monthly release.
-   1. Tip: It can be helpful to add UTC as a [secondary timezone in your Google calendar](/handbook/tools-and-tips/#time-zone).
-1. We use Pacific Time (PT) for all other uses since we are a San Francisco-based company.
-   1. Tip: You can [add multiple local times](/handbook/tools-and-tips/#world-clock) from other team members' time zone to your calendar sidebar. For macOS, additional [utilities](/handbook/tools-and-tips/mac/#macos-utilities) can help with timezone visualization and conversion.
-1. We communicate time using the [12-hour clock format](https://en.wikipedia.org/wiki/12-hour_clock). As such, make sure to include `AM` or `PM`.
-   1. Please refer to time as `9:00 AM Pacific` or `9:00 PM PT` as well as `9:00 AM UTC` (for engineering and product related items). It isn't often necessary to specify whether a timezone is currently observing Daylight Saving Time, and such references are often incorrect, so prefer "PT" to "PDT" or "PST" unless you have a specific need to differentiate between PDT and PST.
+   1. When financial data is presented, include a note to indicate fiscal year (e.g. "Fiscal Year ending January, 31 'yy")
+1. For time formatting guidelines, refer to the [GitLab Content Style Guide](https://handbook.gitlab.com/handbook/marketing/brand-and-product-marketing/brand/content-style-guide/#time-formatting).
 1. Please remember that not everyone is working in the same timezone; what may be morning for you is evening for someone else. Try to say 3 hours ago or 4 hours from now, or use a timestamp, including a timezone reference.
-1. Don't use "EOD" or "end of day" unless you are okay with a deliverable being due at the end of [anywhere on earth](https://en.wikipedia.org/wiki/Anywhere_on_Earth#:~:text=World%20map%20of%20time%20zones,it%20ends%20on%20Howland%20Island). Team members communicate across timezones, where "end of day" does not specify the exact date and time. When you want something due at a specific time, [communicate the date and time](/handbook/communication/#communicating-dates-and-time) by when the request should be done, for example: `Please review before 2023-06-10 5PM PT`.
+1. Don't use "EOD" or "end of day" ("COB" or "close of business", "EOB" or "end of business"), unless you are okay with a deliverable being due at the end of [anywhere on earth](https://en.wikipedia.org/wiki/Anywhere_on_Earth#:~:text=World%20map%20of%20time%20zones,it%20ends%20on%20Howland%20Island). Team members communicate across timezones, where "end of day" does not specify the exact date and time. When you want something due at a specific time, [communicate the date and time](/handbook/communication/#communicating-dates-and-time) by when the request should be done, for example: `Please review before 2023-06-10 5PM PT`.
 
 ### Visuals
 
@@ -1318,25 +1308,28 @@ Google Docs [Pageless format](https://support.google.com/docs/answer/11528737?hl
 #### Link sharing
 
 If you *do* need a Google Doc, create one with your company Google Workspace (formerly G Suite)
-account and set the visibility and access controls according to the following guidelines.
+account and set the visibility, access controls and searchable flag according to the following guidelines.
 
-The recommended defaults when sharing a document for GitLab internal purposes is setting visibility to **On - GitLab** and access to **Can Edit** to ensure everyone can contribute!
+The recommended defaults when sharing a document for GitLab internal purposes is setting visibility to **GitLab**, access to **Editor** and searchable
+**Can find in search results** to ensure everyone can contribute!
 
 **Note:**
 To our knowledge, it is not possible to set the default to **Can Edit** and you have to change the permissions from **View** manually. We hope that Google adds this capability in the future.
 
 | **Visibility Setting**                | **Use Cases**                                                                                                                                                                                             |
 | ------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| On - Public on the web                | If you want the document to be discoverable by anyone on the internet.                                                                                                                                    |
-| On - Anyone with the link             | Avoid this setting. Instead, choose **On - GitLab**, then explicitly share the document with desired external individuals. Only use this if you want the document to be public but not indexed by Google. |
-| **On - GitLab (Recommended Default)** | This is the recommended default as it allows anyone within GitLab to easily discover documents via searching for their name within Drive.                                                                 |
-| On - Anyone at GitLab with the link   | Avoid this option as it limits discoverability by others at GitLab.                                                                                                                                       |
-| Off - Specific people                 | When the document contains highly sensitive or private information such as 1:1s with direct reports                                                                                                       |
+| Anyone with the link             | Avoid this setting. Instead, choose **GitLab**, then explicitly share the document with desired external individuals. Only use this if you want the document to be public but not indexed by Google. |
+| **GitLab (Recommended Default)** | This is the recommended default as it allows anyone within GitLab to easily discover documents via searching for their name within Drive.                                                                 |
+| Restricted                | When the document contains highly sensitive or private information such as 1:1s with direct reports                                                                                                                                    |
+| **Searchable Setting**                    | **Effect**                                                                                                                                                                                             |
+| --------------                        |
+| Can find in search results. | makes the file available to anyone with a PeppGitLaberdine Google account and discoverable within GitLab Google Drive's search feature. |
+| Must have link to access | makes the file available to anyone with a GitLab Google account who has the link. |
 | **Access Setting**                    | **Use Cases**                                                                                                                                                                                             |
 | --------------                        | ---------                                                                                                                                                                                                 |
-| Can Edit                              | Anyone that can view the document can edit it. This is the recommended setting when **On - GitLab** is enabled for the document                                                                           |
-| Can Comment                           | Anyone that can view the document can add a comment but cannot edit the document. This is ideal if you want to provide visibility but retain more fine-grained control of document editing.               |
-| View                                  | Individuals with access to the document will only be able to view it.                                                                                                                                     |
+| Editor                              | Anyone that can view the document can edit it. This is the recommended setting when **On - GitLab** is enabled for the document                                                                           |
+| Commenter                           | Anyone that can view the document can add a comment but cannot edit the document. This is ideal if you want to provide visibility but retain more fine-grained control of document editing.               |
+| Viewer                                  | Individuals with access to the document will only be able to view it.                                                                                                                                     |
 
 Reference Google's [documentation](https://support.google.com/drive/answer/2494822?visit_id=637102981721473693-3129607436&p=link_sharing_options&hl=en&rd=1#link_sharing) on Link Sharing to learn more.
 

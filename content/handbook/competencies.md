@@ -25,13 +25,13 @@ The following initiatives should use the same competencies as their SSoT.
 Instead of maintaining separate materials they should link back to the most relevant place where the competency is defined. For general competencies, this is likely our [values](/handbook/values/) page. For role specific competencies, this is likely the [job-family](/handbook/hiring/job-families/#format) page.
 For example, we should have one SSoT for how to articulate the value of GitLab.
 
-1. [Job family requirements]({{< ref "/handbook/hiring/job-families#format" >}})
+1. [Job family requirements](/handbook/hiring/job-families#format)
 1. [Interview scoring]({{< ref "hiring-manager#step-12hm-complete-feedback-in-greenhousenext-steps" >}})
 1. [Promotion criteria]({{< ref "promotions-transfers" >}})
 1. [9 box assessments](https://www.predictivesuccess.com/blog/9-box/)
-1. [Performance/Potential criteria]({{< ref "/handbook/people-group/talent-assessment#the-performancegrowth-potential-matrix" >}})
-1. [Succession planning]({{< ref "/handbook/people-group/talent-assessment#succession-planning" >}})
-1. [Learning and development]({{< ref "/handbook/people-group/learning-and-development" >}})
+1. [Performance/Potential criteria](/handbook/people-group/talent-assessment#the-performancegrowth-potential-matrix)
+1. [Succession planning](/handbook/people-group/talent-assessment#succession-planning)
+1. [Learning and development](/handbook/people-group/learning-and-development)
 1. [PDPs/PIPs]({{< ref "underperformance" >}})
 1. [Career development]({{< ref "career-development" >}})
 1. [360 reviews]({{< ref "360-feedback" >}})

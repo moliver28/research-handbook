@@ -46,7 +46,7 @@ The team collaborates intensively with various internal and external stakeholder
 
 #### Service Desk
 
-Our Service Desk was created by the [People Group Engineering Team]({{< ref "/handbook/people-group/engineering" >}}) using or [dogfooding]({{< ref "values#dogfooding" >}}) our own product. You can read more about the **People Connect Bot** [here]({{< ref "people-connect-bot#people-connect-bot" >}})
+Our Service Desk was created by the [People Group Engineering Team](/handbook/people-group/engineering) using or [dogfooding]({{< ref "values#dogfooding" >}}) our own product. You can read more about the **People Connect Bot** [here]({{< ref "people-connect-bot#people-connect-bot" >}})
 
 #### Methods of Engagement
 
