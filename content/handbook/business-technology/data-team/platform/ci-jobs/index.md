@@ -359,6 +359,64 @@ Runs the `spec-test` cli of [Permifrost](https://gitlab.com/gitlab-data/permifro
 
 Triggered when there is a change to `permissions/snowflake/roles.yml`. Validates that the YAML is correctly formatted.
 
+#### `snowflake_provisioning_snowflake_users`
+
+This job adds/removes specified users and roles in Snowflake itself based on changes to `snowflake_usernames.yml`.
+
+##### tl;dr
+
+- To add new users/roles in Snowflake, add the new username(s) to [`snowflake_usernames.yml`](https://gitlab.com/gitlab-data/analytics/-/blob/master/permissions/snowflake/snowflake_usernames.yml?ref_type=heads).
+- Likewise, to remove a user from Snowflake, delete the username(s) from above file.
+- To create a development database for new users, add the CI variable `IS_DEV_DB: True`.
+
+##### Further Explanation
+
+Under the hood, this CI job is calling the python script [`orchestration/snowflake_provisioning_automation/provision_users/provision_user.py`](https://gitlab.com/gitlab-data/analytics/-/blob/master/orchestration/snowflake_provisioning_automation/provision_users/provision_users.py?ref_type=heads).
+
+These are the full list of CI job arguments, all are **OPTIONAL**:
+1. `IS_TEST_RUN`:
+    - Defaults to `False`, but accepts `True`.
+    - If True, will only **print** the `GRANT` sql statements, but will not run them.
+3. `USERNAMES_TO_ADD`:
+    - Defaults to the usernames **added** to [`snowflake_usernames.yml`](https://gitlab.com/gitlab-data/analytics/-/blob/master/permissions/snowflake/snowflake_usernames.yml?ref_type=heads) within the MR.
+    - To override, pass in a string value like so `USERNAMES_TO_ADD: username_to_add1 username_to_add2`
+5. `IS_DEV_DB`:
+    - Defaults to `False`, but accepts `True`.
+    -  If True, will create the development database for each username in `usernames_to_add`.
+
+Note: `USERNAMES_TO_REMOVE` argument is not available for this job because all deactivated users will be removed in Snowflake via separate airflow job.
+
+#### `snowflake_provisioning_roles_yaml`
+
+This job updates `roles.yml` automatically based on changes to `snowflake_usernames.yml`.
+
+##### tl;dr
+
+- To add new user entries to `roles.yml`, add the new username(s) to [`snowflake_usernames.yml`](https://gitlab.com/gitlab-data/analytics/-/blob/master/permissions/snowflake/snowflake_usernames.yml?ref_type=heads).
+- Likewise, to remove user entries from `roles.yml`, delete the username(s) from above file.
+- If no optional arguments are passed into the CI job, it will run with the default arguments described in [Automating roles.yml: Common Templates](https://handbook.gitlab.com/handbook/business-technology/data-team/platform/#automating-rolesyml-common-templates) section of the handbook.
+
+##### Further explanation
+
+Under the hood, this CI job is calling the python script [`orchestration/snowflake_provisioning_automation/update_roles_yaml/update_roles_yaml.py`](https://gitlab.com/gitlab-data/analytics/-/blob/master/orchestration/snowflake_provisioning_automation/update_roles_yaml/update_roles_yaml.py?ref_type=heads).
+
+These are the full list of CI job arguments, all are **OPTIONAL**:
+1. `IS_TEST_RUN`:
+    - Defaults to `False`, but accepts `True`.
+    - If True, will only **print** what values will be added
+1. `USERNAMES_TO_ADD`:
+    - Defaults to the usernames **added** to [`snowflake_usernames.yml`](https://gitlab.com/gitlab-data/analytics/-/blob/master/permissions/snowflake/snowflake_usernames.yml?ref_type=heads) within the MR.
+    - To override, pass in a string value like so `USERNAMES_TO_ADD: username_to_add1 username_to_add2`
+1. `DATABASES_TEMPLATE`:
+    - Defaults to None, but accepts any JSON string, see this ['Databases' handbook section](https://handbook.gitlab.com/handbook/business-technology/data-team/platform/#databases) for more details/examples.
+1. `ROLES_TEMPLATE`:
+    - Defaults to 'SNOWFLAKE_ANALYST' role and 'DEV_XS' warehouse, but accepts any JSON string, see this ['Roles' handbook section](https://handbook.gitlab.com/handbook/business-technology/data-team/platform/#roles) for more details/examples.
+1. `USERS_TEMPLATE`:
+    - Defaults to the standard user entry, see ['Users' handbook section](https://handbook.gitlab.com/handbook/business-technology/data-team/platform/#users) for more details/examples. This value can be overriden with any JSON string, but should not be necessary.
+
+Note: `USERNAMES_TO_REMOVE` argument is not available because all deactivated users will be removed in Snowflake via separate airflow job.
+
+
 ### 🛑 Snowflake Stop
 
 These jobs are defined in [`.gitlab-ci.yml`](https://gitlab.com/gitlab-data/analytics/-/blob/master/.gitlab-ci.yml).
