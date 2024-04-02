@@ -49,6 +49,11 @@ TT103: Introduction to Cold Calls
 >
 > 3 credit hours
 
+TT104: Sales Development Processes (2 Parts)
+> Teaches new Sales Dev Org Members the Basic Tools and Workflows they will need to know in the BDR or SDR roles. In this class, we discuss Salesforce, Outreach, our Data Tools, Organization techniques, and how to create your own messaging. We also provide time for a Q and A for the students to ask any questions they have related to our workflows and processes. 
+>
+> 3 credit hours
+
 TT110: Competitive
 > Because we operate in so many different product categories, GitLab has a large number of competitors. In this class, we discuss our biggest four competitors and how to effectively handle competitive situations with them.
 >
