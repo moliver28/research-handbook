@@ -209,9 +209,9 @@ The guidelines for inclusion in the `is_part_of_product` lists are:
 Follow these steps to request a new project to be tracked:
 
 1. Create a merge request to the GitLab.com or ops.gitlab.net project list from above.
-1. Assign the merge request to the [Engineering Productivity team](/handbook/engineering/infrastructure/engineering-productivity/#team-members) Engineering Manager.
-1. The Manager of the Engineering Productivity team will work with the [Engineering Analytics Team](/handbook/engineering/quality/engineering-analytics/#counterpart-assignments) to determine the changes to MR Rate metrics and provide validation for the projects. For self-service, team members can validate changes to the MR Rate using [this dashboard](https://app.periscopedata.com/app/gitlab/794887/Scratch-Engineering-Metrics:-MR-Rates-for-Proposals).
-1. The [Director of Engineering Productivity](@dcroft) is the DRI to approve and merge the list of projects.
+2. Assign the merge request to the [Engineering Productivity team](/handbook/engineering/infrastructure/engineering-productivity/#team-members) Engineering Manager.
+3. The Manager of the Engineering Productivity team will work with the [Engineering Analytics Team](/handbook/engineering/quality/engineering-analytics/#counterpart-assignments) to determine the changes to MR Rate metrics and provide validation for the projects.
+4. The [Director of Engineering Productivity](https://gitlab.com/yanguo1) is the DRI to approve and merge the list of projects.
 
 There is no need to remove archived projects from the `is_part_of_product` list. Removal of projects will remove historical merge requests from metrics and reduce Merge Request rates.
 
