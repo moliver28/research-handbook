@@ -20,7 +20,7 @@ At GitLab, we take customer success seriously, and our Customer Success Engineer
 
 [For the ARR thresholds for the CSE customer segment please reference this Wiki page](https://gitlab.com/gitlab-com/customer-success/csm/-/wikis/CSM-Segments) (GitLab Internal).
 
-1\. **[Customer Enablement Webinar Program](/handbook/customer-success/csm/segment/scale/webinar-calendar/):**
+1\. **[Customer Enablement Webinar Program](/handbook/customer-success/csm/segment/cse/webinar-calendar/):**
 
 - Informative and interactive webinars for customers.
 
@@ -40,7 +40,7 @@ At GitLab, we take customer success seriously, and our Customer Success Engineer
 
 - Improves overall customer satisfaction.
 
-3\. **[Pooled CSE Model for Key Accounts:](/handbook/customer-success/csm/segment/scale/scale-operating-rhythm/#scale-engagement-request-process)**
+3\. **[Pooled CSE Model for Key Accounts:](/handbook/customer-success/csm/segment/cse/cse-operating-rhythm/#cse-engagement-request-process)**
 
 - Collaboration with sales for high-risk or expansion accounts.
 
@@ -62,9 +62,9 @@ At GitLab, we take customer success seriously, and our Customer Success Engineer
 
 ### **Operating Rhythm and Active Campaigns**
 
-![Customer Lifecycle Journey Scale CSE](/handbook/customer-success/csm/segment/scale/CustomerLifecycleJourneywithMetrics-ScaleCSE_Nov-2023.png)
+![Customer Lifecycle Journey CSE](/handbook/customer-success/csm/segment/cse/CustomerLifecycleJourneywithMetrics-ScaleCSE_Nov-2023.png)
 
-The [CSE operating rhythm](/handbook/customer-success/csm/segment/scale/scale-operating-rhythm/) outlines procedures CSEs use to engage with customers as well as how account owners can request CSE engagement outside of the normal operating rhythm during the customer lifecycle.
+The [CSE operating rhythm](/handbook/customer-success/csm/segment/cse/cse-operating-rhythm/) outlines procedures CSEs use to engage with customers as well as how account owners can request CSE engagement outside of the normal operating rhythm during the customer lifecycle.
 
 Active Campaigns: [Email Content - GitLab Internal Only](https://docs.google.com/document/d/1Db6y_i2gPQrPnJkJpAAbfFKQtw4c5VgSFJcHKDG-4hk/edit)
 
