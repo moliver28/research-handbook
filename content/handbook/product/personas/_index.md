@@ -74,7 +74,7 @@ We describe the following personas in terms of the jobs they do, their motivatio
   1. [Daphne, Data Scientist](/handbook/product/personas/#daphne-data-scientist)
   1. [Mia, ML Engineer](/handbook/product/personas/#mia-ml-engineer)
 
-#### Personas across stages
+#### User Personas across stages
 
 Our personas span across stages (see table below for a depiction of how our user personas map across stages). Understanding how our personas map across stages helps us understand how to collaborate cross-functionally to support their needs.
 
@@ -84,13 +84,19 @@ Our personas span across stages (see table below for a depiction of how our user
 
 *Note: To change the table above, team members can edit the [Google Slide deck](https://docs.google.com/presentation/d/1IVDu5RIlywcRCqpkXzdSG7lW8dNiE_XHq54GdI7lkfk/edit?usp=sharing).*
 
-#### Personas across Use Cases
+#### User Personas across Use Cases
 
 <figure class="video_container">
 <iframe src="https://docs.google.com/presentation/d/1iit_S9U81iVdLuIc9hgrG68ewlr5U0bSGQLsbQNGMOc/edit#slide=id.g269ac2dfec4_0_615" frameborder="0" width="1220" height="620" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 </figure>
 
-*Note: To change the table above, team members can edit the [Google Slide deck](https://docs.google.com/presentation/d/1iit_S9U81iVdLuIc9hgrG68ewlr5U0bSGQLsbQNGMOc/edit?usp=sharing).*
+##### User Persona Profiles
+
+<figure class="video_container">
+<iframe src="https://docs.google.com/presentation/d/1iit_S9U81iVdLuIc9hgrG68ewlr5U0bSGQLsbQNGMOc/edit#slide=id.g26bef2edc2b_0_15" frameborder="0" width="1220" height="620" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+</figure>
+
+*Note: To change the tables above, team members can edit the [Google Slide deck](https://docs.google.com/presentation/d/1iit_S9U81iVdLuIc9hgrG68ewlr5U0bSGQLsbQNGMOc/edit?usp=sharing).*
 
 #### Parker (Product Manager)
 
