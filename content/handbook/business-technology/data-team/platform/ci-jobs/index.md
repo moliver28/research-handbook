@@ -403,15 +403,14 @@ These are the full list of CI job arguments, all are **OPTIONAL**:
 1. `USERNAMES_TO_ADD`:
     - Defaults to the usernames **added** to [`snowflake_usernames.yml`](https://gitlab.com/gitlab-data/analytics/-/blob/master/permissions/snowflake/snowflake_usernames.yml?ref_type=heads) within the MR.
     - To override, pass in a string value like so `USERNAMES_TO_ADD: username_to_add1 username_to_add2`
-1. `USERNAMES_TO_REMOVE`:
-    - Defaults to the usernames **removed** from [`snowflake_usernames.yml`](https://gitlab.com/gitlab-data/analytics/-/blob/master/permissions/snowflake/snowflake_usernames.yml?ref_type=heads) within the MR.
-    - To override, pass in a string value like so `USERNAMES_TO_REMOVE: username_to_remove1 username_to_remove2`
 1. `DATABASES_TEMPLATE`:
     - Defaults to None, but accepts any JSON string, see this ['Databases' handbook section](https://handbook.gitlab.com/handbook/business-technology/data-team/platform/#databases) for more details/examples.
 1. `ROLES_TEMPLATE`:
     - Defaults to 'SNOWFLAKE_ANALYST' role and 'DEV_XS' warehouse, but accepts any JSON string, see this ['Roles' handbook section](https://handbook.gitlab.com/handbook/business-technology/data-team/platform/#roles) for more details/examples.
 1. `USERS_TEMPLATE`:
     - Defaults to the standard user entry, see ['Users' handbook section](https://handbook.gitlab.com/handbook/business-technology/data-team/platform/#users) for more details/examples. This value can be overriden with any JSON string, but should not be necessary.
+
+Note: `USERNAMES_TO_REMOVE` argument is not available because all deactivated users will be removed in Snowflake via separate airflow job.
 
 
 ### 🛑 Snowflake Stop
