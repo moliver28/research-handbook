@@ -22,7 +22,6 @@ Collaborating on key activities offers a unique opportunity to broaden your know
 - Use part of your pairing sessions to ensure environments are set up and ready for reviews in your respective product areas. Collaborate on MR reviews to learn more about the product area and provide UX feedback to your design pair.
 - Perform Buddy [UX Scorecard: Heuristic Evaluations](https://handbook.gitlab.com/handbook/product/ux/ux-scorecards/#option-a-conduct-a-heuristic-evaluation) ([Buddy Template](https://gitlab.com/gitlab-org/gitlab-design/-/blob/master/.gitlab/issue_templates/Heuristic%20Buddy%20UX%20Scorecard.md)) on each other’s primary use cases.
 - Collaborate on solution validation for each other’s product areas (write scripts, take notes, observe, assess interview data).
-- Collaborate on MRs that address UI improvements to each other’s product areas.
 
 ### Schedule
 
