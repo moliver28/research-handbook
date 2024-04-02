@@ -1,6 +1,9 @@
 ---
 
 title: "CSE New Team Member Onboarding"
+aliases:
+- /handbook/customer-success/csm/segment/cse/cse-tm-onboarding/
+- /handbook/customer-success/csm/segment/scale/cse-tm-onboarding/
 ---
 
 
@@ -61,7 +64,7 @@ As a CSE, in addition to the [SQS learning objectives](https://handbook.gitlab.c
 
 **Milestones and Onboarding Roadmap**
 
-![CSE Onboarding Journey Roadmap](/handbook/customer-success/csm/segment/scale/CSE-Onboarding-Journey-Roadmap.png)
+![CSE Onboarding Journey Roadmap](/handbook/customer-success/csm/segment/cse/CSE-Onboarding-Journey-Roadmap.png)
 
 **Expectations for Manager Support during Onboarding**
 

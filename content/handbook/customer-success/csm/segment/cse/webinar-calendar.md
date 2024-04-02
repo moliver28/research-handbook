@@ -1,6 +1,9 @@
 ---
 
 title: "CSM/CSE Webinar & Hands-On Labs Calendar"
+aliases:
+- /handbook/customer-success/csm/segment/cse/webinar-calendar/
+- /handbook/customer-success/csm/segment/scale/webinar-calendar/
 ---
 # On this page
 
