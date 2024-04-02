@@ -57,7 +57,7 @@ If using Figma for your prototype, there are a few tips to keep in mind before a
 ### Frequently Asked Questions
 
 - **How do I know if my study is a good candidate for unmoderated testing?** If your study doesn’t require you to explain details and if there’s low risk of participants veering off course, your study is probably a good candidate for unmoderated testing. If you have any questions as to whether a study is a good fit for unmoderated testing, ask your UX Researcher.
-- **What if I want to ask problem validation related questions?** UserTesting.com isn’t your best option. Instead, go through the [recruitment process](/handbook/product/ux/ux-research/recruiting-participants/) to identify participants through Respondant.
+- **What if I want to ask problem validation related questions?** UserTesting.com isn’t your best option. Instead, go through the [recruitment process](/handbook/product/ux/ux-research/recruiting-participants/) to identify participants in other ways.
 - **How many participants should I request per study?** Since we’re using unmoderated for evaluation studies, the sample size should be between 5-8 participants per study.
 - **Can I create a custom panel of existing GitLab users?** While it is possible to create a custom panel, we recommend using the UserTesting panel and use the screener questions that are already saved for you to screen for GitLab users in specific roles.
 - **Can I screen for certain criteria?** Of course - whatever you want. The stricter the screener criteria, the less likely you are to find the participants you’re looking for.  Note that there are already some GitLab screening questions in UserTesting.com for you to utilize.  You can find them under the 'Saved Screener Questions' within UserTesting.com.
