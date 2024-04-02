@@ -17,15 +17,15 @@ Your coverage as a GitLab team member is automatic and is year-round. There are 
 - Team members can download the [ISOS emergency app](https://https://my.internationalsos.com/LP=8890?_ga=2.54701099.1827787566.1652889843-59998074.1652889840) — it’s the best way to get medical, safety, and security assistance abroad. Before traveling, open the App and register using your GitLab email address. Please use a unique password and not the same as your existing GitLab credentials.
 Note that this is not a GitLab application and is managed by ISOS. You can read more about the app here.
 - If you have medical, safety, or security questions before or during travel, open the ISOS app and press the Need Assistance button. You will be directed to ISOS’s closest emergency alarm center, where a nurse, doctor, safety, or security expert will assist you.
-- If team members prefer not to download the app, we encourage you to follow this [link] (https://myportal.internationalsos.com/WebPortal/MyOrganisation) and print or take a picture of the membership card with the emergency contact details. You can save the number in your phone for easy access.
+- If team members prefer not to download the app, we encourage you to follow this [link](https://myportal.internationalsos.com/WebPortal/MyOrganisation) and print or take a picture of the membership card with the emergency contact details. You can save the number in your phone for easy access.
 - Note that International SOS is an optional resource for team members and is only one of the ways you can receive care.
 If you have questions, reach out in the #peopleconnect Slack channel.
 - Check out this [video](https://www.internationalsos.com/bottleofhelp) for an outline on how ISOS can help in an emergency.
 
-## Travel Insurance
+### Travel Insurance
 
 Business Travel Accident Policy
-This policy [link] (https://drive.google.com/file/d/1USae0p7PtKmXB35GuSJqJyIopBsH9b2I/view?usp=sharing) provides coverage for team members who travel domestic and internationally for business purposes. This policy will provide Emergency Medical and Life Insurance coverage should an emergency happen while you are traveling. In accompaniment, there is coverage for security evacuations, as well a travel assistance line which helps with pre-trip planning and finding contracted facilities worldwide.
+This policy [link](https://drive.google.com/file/d/1USae0p7PtKmXB35GuSJqJyIopBsH9b2I/view?usp=sharing) provides coverage for team members who travel domestic and internationally for business purposes. This policy will provide Emergency Medical and Life Insurance coverage should an emergency happen while you are traveling. In accompaniment, there is coverage for security evacuations, as well a travel assistance line which helps with pre-trip planning and finding contracted facilities worldwide.
 
 Coverage:
 Accidental Death [enhanced coverage]: 5 times Annual Salary up to USD 500,000.
