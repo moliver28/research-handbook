@@ -38,7 +38,7 @@ E**nable users to track vulnerabilities across multiple branches** - Allow users
 
 ### Prioritization
 
-We use our Threat Insights Priorities pages [16.x](https://about.gitlab.com/direction/govern/threat_insights/16_threat_insights_priorities.html) [17.x](https://about.gitlab.com/direction/govern/threat_insights/17_threat_insights_priorities.html) page to track what we are doing, and what order to do it in.
+We use our Threat Insights Priorities pages [16.x](https://about.gitlab.com/direction/govern/threat_insights/16_threat_insights_priorities.html) and [17.x](https://about.gitlab.com/direction/govern/threat_insights/17_threat_insights_priorities.html) page to track what we are doing, and what order to do it in.
 
 ## How we work
 
