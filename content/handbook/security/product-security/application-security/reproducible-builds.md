@@ -26,10 +26,10 @@ Builds need to implement binary provenance (BP). Binary provenance is another wa
 - Authenticity Attestation: describes system that produced the BP and includes cryptographic signatures to provide attestation as to the authenticity for the file
 - Expected Outputs: describes all expected outputs of the build process as well as provides a cryptographic hash for each artifact.
 - Expected Inputs: describes everything included in the build. This field allows the verifier to correlate the source to the artifact
- - Sources: within the expected inputs field. This might look like "`git commit 291e...494d`" from `https://gitlab.com/gitlab-org/gitlab`" or even "`gitlab-ee-17.0.1`" with SHA256 hash "`75a4...9982`"
- - Dependencies: Every implicit dependency needs to be linked in a format above. Each input affects the integrity of the build.
+  - Sources: within the expected inputs field. This might look like "`git commit 291e...494d`" from `https://gitlab.com/gitlab-org/gitlab`" or even "`gitlab-ee-17.0.1`" with SHA256 hash "`75a4...9982`"
+  - Dependencies: Every implicit dependency needs to be linked in a format above. Each input affects the integrity of the build.
 - Commands: each command used to intiate the build needs to be outlined in such a way as to allow for autmated analysis
- - Example: `{"gitlab-omnibus": {"command": "build", "target": "//main:hello_world"}}"`
+  - Example: `{"gitlab-omnibus": {"command": "build", "target": "//main:hello_world"}}"`
 - Environment: any information such as architecture details, environment variables, tool/compiler versions, etc.
 - Versioning: Build timestamps
 
