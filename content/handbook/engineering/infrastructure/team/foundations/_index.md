@@ -90,7 +90,7 @@ The team member on rotation is responsible for:
    - Patch updates with passing pipelines should be merged.
    - Minor updates should have their changelogs be reviewed before merging.
    - Major updates should be looked at closely to understand breaking changes before considering merging.
-- Responding to terraform drifts related to Foundations services posted in [`#infra-terraform-alerts`](https://gitlab.enterprise.slack.com/archives/C06PZQCRUJH).
+- Responding to Terraform drifts related to Foundations services posted in [`#infra-terraform-alerts`](https://gitlab.enterprise.slack.com/archives/C06PZQCRUJH).
 
 ### Priority Levels for Requests
 
