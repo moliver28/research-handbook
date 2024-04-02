@@ -16,6 +16,10 @@ To learn more about Field Ops releases, see the [RSOE Release Schedule handbook 
 
 ## Q1-FY25
 
+### 2024-04-15 Release ([epic](https://gitlab.com/groups/gitlab-com/sales-team/field-operations/-/epics/496))
+
+
+
 ### 2024-04-01 Release ([epic](https://gitlab.com/groups/gitlab-com/sales-team/field-operations/-/epics/489))
 
 **[Update to Closed Lost/Downgrade Reason Fields](https://gitlab.com/gitlab-com/sales-team/field-operations/systems/-/issues/4697)**
