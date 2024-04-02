@@ -11,7 +11,8 @@ This page serves as a resource for team members looking for information about wo
 
 ## Design and UX research for AI features
 * [Pajamas AI guidelines](https://design.gitlab.com/usability/ai-human-interaction): How to design the user experience for AI features. Includes design patterns and guidelines.
-* [UX Research in AI space](https://handbook.gitlab.com/handbook/product/ux/ux-research/research-in-the-ai-space/): Helps team members evaluate the usefullness and usability of AI features.
+* [UX research in AI space](/handbook/product/ux/ux-research/research-in-the-ai-space/): Helps team members evaluate the usefullness and usability of AI features.
+* [UX maturity guidelines](/handbook/product/ai/ux-maturity/): Suggested UX validation to move up in AI feature maturity.
 
 ## Special considerations for AI features
 * [AI ethics principles](/handbook/legal/ethics-compliance-program/ai-ethics-principles/#1-avoid-unfair-bias): Principles to guide our decision making as we continue to build AI features into GitLab and to ensure that these features properly embody our values.
@@ -23,7 +24,7 @@ This page serves as a resource for team members looking for information about wo
 ## Engineering AI features
 * [Development process AI features](https://docs.gitlab.com/ee/development/ai_features/index.html)
 * [List of language models](https://docs.gitlab.com/ee/user/ai_features.html#language-models): All the models we are using to power features.
-* [Process for choosing or switching AI vendors](https://handbook.gitlab.com/handbook/product/ai/continuity-plan/)
+* [Process for choosing or switching AI vendors](/handbook/product/ai/continuity-plan/)
 
 ## Support engineering AI features
 * [Support AI workflow](/handbook/support/workflows/ai_features/): This page has information for handling tickets related to AI features.
@@ -32,6 +33,6 @@ This page serves as a resource for team members looking for information about wo
 * (Coming soon) Office hours
 
 ## Current AI features and teams
-* [List of AI features](https://handbook.gitlab.com/handbook/engineering/development/data-science/ai-powered/#features): Current AI features in developement, the team that owns them and whether they are integrated into Duo Chat.
+* [List of AI features](/handbook/engineering/development/data-science/ai-powered/#features): Current AI features in developement, the team that owns them and whether they are integrated into Duo Chat.
 * [AI features by tier](https://docs.gitlab.com/ee/user/ai_features.html): All features that are available to use, and how to access them.
-* [AI teams](https://handbook.gitlab.com/handbook/engineering/development/data-science/ai-powered/#stage-groups)
+* [AI teams](/handbook/engineering/development/data-science/ai-powered/#stage-groups)
