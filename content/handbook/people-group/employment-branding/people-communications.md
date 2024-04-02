@@ -31,11 +31,20 @@ GitLab team members can better understand how communication and engagement work 
 
 ## Working with People Communications & Engagement
 
-Given the amount of information we need to communicate with GitLab team members around the world it's important that we have a structured approach to communication & engagement.
+Given the amount of information we need to communicate with GitLab team members around the world it's important that we have a structured approach to communication & engagement so team members are provided a full view of things happening across GitLab.
 
-It's equally important that we provide team members with a well-rounded view of things happening across GitLab.
+There are several different ways our People Communications & Engagement team can support cross-functional projects depending on the need. These include:
 
-In preparing key messages to be shared with all team members, we ask all departments to follow the process below:
+| Type of involvement | What this type of involvement entails | How People Comms & Engagement can support
+| ------------------- | ------------------------------------- |
+| Review of communications | The most basic level of support provided is a review of planned communications, typical lead time is 48 hours | This means reviewing a single message or series of messages for tone and format, alignment with communication principles, cascade of information, and appropriate channel use |
+| Collaborative communications planning | This is a partnered approach on the creation of a message or a communications plan anticipated to impact a significant amount of team members or have a high impact to a select amount of team members, typical lead time is 1-2 weeks depending on bandwidth | For projects with a defined DRI outside of the People Communications & Engagement team, we will often work together on a collaborative comms plan by reviewing and editing copy, reccomending channels, cascade of information, and communications best practices | 
+| Accountable for communications | For project with change management complexity or a large communications component, we look to establish a comms DRI to be accountable for communications, typical lead time is 3+ weeks to understand the project and advise | This means writing communications, getting neccesary stakeholder input, aligning to our typical template for leadership review, plus everything we would typically do for a review of communications |
+| DRI for communication-based projects | Often times an entire project may sit with People Comms & Engagement (i.e. a large cultural shift like a Value change, changes to a major policy) | In these cases someone from the People Communications & Engagement team leads a cross-functional project team to deliver a defined piece of work |
+
+Depending on the level of support needed for a given project, the person assigned to that work from the People Communications & Engagement team can advise on process, standard templates and practices used, and suggest best practices for communicating at GitLab.
+
+If asking for communications to lead communications when preparing key messages to be shared with all team members, we ask all departments to follow the process below:
 
 1. Share the need for communications support by completing a [request for internal communications support template](https://docs.google.com/document/d/1whzG0NxWfUyKDWdIwwojiDy_2xy5W-JIjV34BJm7nek/edit?usp=sharing) as completely as possible and share the need with a member of our People Communications & Engagement team.
     - These requests can be shared on Slack using the **#internal-communications-requests** channel, or if confidentiality is a concern, please connect directly with:
