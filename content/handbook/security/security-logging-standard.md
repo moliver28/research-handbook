@@ -3,8 +3,6 @@ title: GitLab Security Logging Standards
 controlled_document: true
 ---
 
-# Security Logging Standard
-
 ## Purpose
 
 This security logging standard defines the requirements for security log generation, management, storage, access and use.
@@ -46,9 +44,9 @@ SecOps maintains a list of security logs and priorities and details in [Security
 
 ### Log Collection Requirements
 
-The security team at GitLab may require systems not logging to Devo to collect security logs locally. Generally, the retention of the security audit log is the baseline for local logging requirements. 
+The security team at GitLab may require systems not logging to Devo to collect security logs locally. Generally, the retention of the security audit log is the baseline for local logging requirements.
 
-For Tier 1 and Tier 2 applications in Critical System Tiering, log retention periods are defined by log source, outlined in [the policy](https://handbook.gitlab.com/handbook/security/records-retention-deletion/). For applications that do not meet these requirements, 90 days retention is considered best practice. 
+For Tier 1 and Tier 2 applications in Critical System Tiering, log retention periods are defined by log source, outlined in [the policy](https://handbook.gitlab.com/handbook/security/records-retention-deletion/). For applications that do not meet these requirements, 90 days retention is considered best practice.
 
 
 #### Basic Security Logs: Necessary Fields
