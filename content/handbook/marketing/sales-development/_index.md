@@ -78,17 +78,17 @@ Our Outbound-focused BDRs excel in strategic account planning, research, and del
 | Name/Link                                                            | Description                                            |
 |-----------------------------------------------------------------------|--------------------------------------------------------|
 | [1:1 Dashboards - Leads: PUBSEC](https://gitlab.my.salesforce.com/01Z8X000000u7Vy)   | 1:1 dashboard for leads in the PUBSEC segment.          |
-| [1:1 Dashboards - Leads: APAC ENTG](https://gitlab.my.salesforce.com/01Z8X000000u7Vt) | 1:1 dashboard for leads in the APAC ENTG segment.       |
+| [1:1 Dashboards - Leads: APJ ENTG](https://gitlab.my.salesforce.com/01Z8X000000u7Vt) | 1:1 dashboard for leads in the APJ ENTG segment.       |
 | [1:1 Dashboards - Leads: ENTG EMEA](https://gitlab.my.salesforce.com/01Z8X000000u7Vo) | 1:1 dashboard for leads in the ENTG EMEA segment.       |
 | [1:1 Dashboards - Leads: ENTG EMEA/AMER](https://gitlab.my.salesforce.com/01Z8X000000u7W8) | 1:1 dashboard for leads in the ENTG EMEA/AMER segment.  |
 | [1:1 Dashboards - Leads: COMM EMEA](https://gitlab.my.salesforce.com/01Z8X000000u7Q5)  | 1:1 dashboard for leads in the COMM EMEA segment.       |
 | [1:1 Dashboards - Accounts: EMEA COMM](https://gitlab.my.salesforce.com/01Z8X000000u7O4) | 1:1 dashboard for accounts in the EMEA COMM segment.    |
 | [1:1 Dashboards - Accounts: ENG AMER/LATAM](https://gitlab.my.salesforce.com/01Z8X000000u7Ww) | 1:1 dashboard for accounts in the ENG AMER/LATAM segment. |
-| [1:1 Dashboards - Accounts: ENTG APAC](https://gitlab.my.salesforce.com/01Z8X000000u7Wm)   | 1:1 dashboard for accounts in the ENTG APAC segment.     |
+| [1:1 Dashboards - Accounts: ENTG APJ](https://gitlab.my.salesforce.com/01Z8X000000u7Wm)   | 1:1 dashboard for accounts in the ENTG APJ segment.     |
 | [1:1 Dashboards - Accounts: ENTG EMEA](https://gitlab.my.salesforce.com/01Z8X000000u7Wr)   | 1:1 dashboard for accounts in the ENTG EMEA segment.     |
 | [1:1 Dashboards - Accounts: PUBSEC](https://gitlab.my.salesforce.com/01Z8X000000u7Wh)     | 1:1 dashboard for accounts in the PUBSEC segment.       |
 | [Watch and Help Action Needed: AMER](https://gitlab.my.salesforce.com/01ZPL00000069v3) | Action needed for watch and help in the AMER segment.   |
-| [Watch and Help Action Needed: APAC BDR](https://gitlab.my.salesforce.com/01ZPL000000bkbl) | Action needed for watch and help for APAC BDR.          |
+| [Watch and Help Action Needed: APJ BDR](https://gitlab.my.salesforce.com/01ZPL000000bkbl) | Action needed for watch and help for APJ BDR.          |
 | [Watch and Help Action Needed: EMEA BDR](https://gitlab.my.salesforce.com/01Z4M000000soBO) | Action needed for watch and help for EMEA BDR.          |
 | [Watch and Help Action Needed: PUBSEC BDR](https://gitlab.my.salesforce.com/01ZPL000000UN7F) | Action needed for watch and help for PUBSEC BDR.        |
 | [Watch and Help Action Needed: SDR Global](https://gitlab.my.salesforce.com/01ZPL000000ULrp) | Action needed for watch and help for SDR Global.        |
@@ -146,7 +146,7 @@ Our Outbound-focused BDRs excel in strategic account planning, research, and del
 | Account | An organization tracked in salesforce.com. An account can be a prospect, customer, former customer, integrator, reseller, or prospective reseller |
 | AM | Account Manager |
 | AE | Account Executive, can be Major or Strategic in AMER/EMEA Enterprise |
-| APAC | Asia-Pacific |
+| APJ | Asia-Pacific and Japan|
 | BDR | Business Development Represenative - focused on outbound |
 | CAM | Channel Account Manager |
 | CS | Customer Success |
@@ -275,13 +275,13 @@ Next Steps: SDR chatters the BDR Assigned and lets them know you didn't find act
 | [ARR](/handbook/sales/sales-term-glossary/arr-in-practice) pipeline component |
 | 2-way communication must be documented on the Contact in the Opportunity to receive credit. Opportunities missing this documentation will not be considered for compensation and will not retire quota. |
 | For BDRs and SDRs who have SAO/ARR goals, compensation is based on the SAO attainment. ARR attainment is a qualifier for accelerator payments. Our aim is to land net new logos and expand to new customer business units, SAOs being our quantity metric and ARR our quality metric. Our mission is to create good qualified pipeline for the company. SAO credit is given for licenses and not for PS Opportunities (for training, for example) nor pipeline minutes. |
-| **Team Member OTE (SDR/MM BDR, APAC BDR, & Pub Sec)** |
+| **Team Member OTE (SDR/MM BDR, APJ BDR, & Pub Sec)** |
 | 70% Base Pay |
 | 30% Variable Pay: |
 | - 100% Individual SAO Quota: |
 |   - No floor or ceiling |
 |   - Accelerator x 1.5 after meeting 100% of target |
-|   - 1.3 x High LAM New Logo Kicker for APAC/Pub Sec BDRs |
+|   - 1.3 x High LAM New Logo Kicker for APJ/Pub Sec BDRs |
 | **Team Member OTE (ENT BDR Strategic)** |
 | 70% Base Pay |
 | 30% Variable Pay: |
@@ -629,7 +629,7 @@ What do I do when ZoomInfo has improper data on an account?
 
 1. The first (and most timely) opportunity to override incorrect ZoomInfo data is when working with a Lead record in Salesforce. When you have verified a correct address/employee count through an accepted source, you should navigate to the **Lead/Contact Review Admin** section on the lead record. Here you can input the correct address and/or employee count, along with the source by which you verified the information. You should always try to input a full address including street number, but in order for the record to route correctly, a postal code, state (when applicable) and country are required. Vital to this process is that you check the box labeled **[Admin] Exclude from Enrichment**. Failure to do this will result in the ZoomInfo data overwriting your changes. This process is modeled in **[this video](https://www.youtube.com/watch?v=QT-oOceFU6k&ab_channel=GitLabUnfiltered)** courtesy of our Marketing Ops team. If you are overriding the employee count, you will also need to navigate to the **Segmentation** section on the lead record and update the "No. of Employees" and "Employees Bucket" fields appropriately.
 
-2. If your Lead record override is unsuccessful, you just have an existing account record that you need overriden, or you need a parent-child relationship adjusted, or you need number of employees altered, Chatter the appropriate Sales Dev Director to assist you: Brian Tabbert (Global Commercial and ENT AMER), Elsje Smart (ENT APAC/EMEA) or Mona Elliott. In your chatter you need to include the full company address and/or employee count as well as your source for the correct information. The Director will then complete the appropriate **Account Review Admin** fields on the account record. After completing the override, the Director will Chatter you letting you know. At this point, the SalesForce automation process takes effect. This process consists of the following:
+2. If your Lead record override is unsuccessful, you just have an existing account record that you need overriden, or you need a parent-child relationship adjusted, or you need number of employees altered, Chatter the appropriate Sales Dev Director to assist you: Brian Tabbert (Global Commercial and ENT AMER), Elsje Smart (ENT APJ/EMEA) or Mona Elliott. In your chatter you need to include the full company address and/or employee count as well as your source for the correct information. The Director will then complete the appropriate **Account Review Admin** fields on the account record. After completing the override, the Director will Chatter you letting you know. At this point, the SalesForce automation process takes effect. This process consists of the following:
 
     1. Overnight the segment/hierarchy updates
     2. Territory rules run and update the territory
@@ -1220,7 +1220,7 @@ Learn more about [Field](/handbook/marketing/field-marketing/) and [Corporate Ev
 
 ### Approvals Required
 
-The FMM Regional team & the AMER or EMEA/APAC Regional Senior BDR Manager will review the upcoming quarter event calendar to discuss which events needs BDR support and what level of support would be needed. The Regional Senior BDR Manager will sign off on the related event support by referencing the "BDR approved" column in the [Marketing Calendar SSOT worksheet](/handbook/marketing/#marketing-calendar). FMMs will then open the related FMM/ISR/SDR issue mentioning the Regional Senior BDR Manager. The Regional Sr. BDR Manager will assign a Manager DRI who will then include related BDRs participating in the event's BDR pre and post tasks.
+The FMM Regional team & the AMER or EMEA/APJ Regional Senior BDR Manager will review the upcoming quarter event calendar to discuss which events needs BDR support and what level of support would be needed. The Regional Senior BDR Manager will sign off on the related event support by referencing the "BDR approved" column in the [Marketing Calendar SSOT worksheet](/handbook/marketing/#marketing-calendar). FMMs will then open the related FMM/ISR/SDR issue mentioning the Regional Senior BDR Manager. The Regional Sr. BDR Manager will assign a Manager DRI who will then include related BDRs participating in the event's BDR pre and post tasks.
 
 *  [Field Marketing SDR Support Template](https://gitlab.com/gitlab-com/marketing/sales-development/-/blob/main/.gitlab/issue_templates/FM_BDR_Collaboration_Template.md)
 
@@ -1260,7 +1260,7 @@ BDRs should not support joint partner related events where there the routing pla
 * [AMER](https://gitlab.com/gitlab-com/marketing/field-marketing/-/issues?scope=all&state=opened&label_name[]=SDR%3A%3AAMER%20Event%20Awareness
 )
 * [US PubSec](https://gitlab.com/gitlab-com/marketing/field-marketing/-/issues?scope=all&state=opened&label_name[]=SDR%20Pub%20Sec)
-* [APAC](https://gitlab.com/gitlab-com/marketing/field-marketing/-/issues?scope=all&state=opened&label_name[]=SDR%3A%3AAPAC%20Event%20Awareness)
+* [APJ](https://gitlab.com/gitlab-com/marketing/field-marketing/-/issues?scope=all&state=opened&label_name[]=SDR%3A%3AAPAC%20Event%20Awareness)
 * [EMEA](https://gitlab.com/gitlab-com/marketing/field-marketing/-/issues?scope=all&state=opened&label_name[]=SDR%3A%3AEMEA%20Event%20Awareness
 )
 
