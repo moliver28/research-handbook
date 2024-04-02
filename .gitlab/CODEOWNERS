@@ -545,7 +545,6 @@
 /content/handbook/security/threat-management/red-team/ @cmoberly
 /content/job-families/security/ @joshlemos @jlongo_gitlab @juliedavila
 /content/job-families/chief-information-security-officer.md @robin @fofungwu
-/content/handbook/security/security-logging-standard.md @mcoons
 
 ^[solutions-architects]
 /content/handbook/solutions-architects/ @gitlab-com/customer-success/solutions-architecture/sa-leadership-team
