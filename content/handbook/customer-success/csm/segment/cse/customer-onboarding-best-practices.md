@@ -1,6 +1,9 @@
 ---
 
 title: "Customer Onboarding Best Practices"
+aliases:
+- /handbook/customer-success/csm/segment/cse/customer-onboarding-best-practices/
+- /handbook/customer-success/csm/segment/scale/customer-onboarding-best-practices/
 ---
 
 

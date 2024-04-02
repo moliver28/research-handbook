@@ -1,6 +1,9 @@
 ---
 
 title: "CSE Operating Rhythm"
+aliases:
+- /handbook/customer-success/csm/segment/cse/cse-operating-rhythm/
+- /handbook/customer-success/csm/segment/scale/scale-operating-rhythm/
 ---
 
 
@@ -17,8 +20,8 @@ There are several different ways that the CSE team engages with customers, inclu
 1. [Targeted campaigns run from Gainsight](#targeted-campaigns) 
 
 1. [Monthly Webinars and Labs](#monthly-webinars-and-hands-on-labs)
-1. [GitLab Onboarding Cohorts](#scale-onboarding-cohorts)
-1. [Sales Driven CSE Engagement Request](#scale-engagement-request-process) 
+1. [GitLab Onboarding Cohorts](#cse-onboarding-cohorts)
+1. [Sales Driven CSE Engagement Request](#cse-engagement-request-process) 
 
 
 ### Targeted Campaigns
@@ -31,7 +34,7 @@ Customer Success Operations and CS leaders determine, based on various GitLab he
 
 ### Monthly Webinars and Hands On Labs
 
-The CSE Team delivers monthly webinars and hands-on labs that are available to all.  The [webinar calendar](/handbook/customer-success/csm/segment/scale/webinar-calendar/) is published to our website, with a registration link for each.  Webinars are pre-recorded content with CSEs answering Q&A.  Labs provide a hands-on learning experience for each attendee with their own lab environment to work through lab exercises during the session.
+The CSE Team delivers monthly webinars and hands-on labs that are available to all.  The [webinar calendar](/handbook/customer-success/csm/segment/cse/webinar-calendar/) is published to our website, with a registration link for each.  Webinars are pre-recorded content with CSEs answering Q&A.  Labs provide a hands-on learning experience for each attendee with their own lab environment to work through lab exercises during the session.
 
 #### Preparing for and Delivering a Webinar
 
@@ -53,7 +56,7 @@ At the end of the webinar, the host should launch the poll for the attendees. Th
 2. Select **Polls**, then click on the **Feedback Poll**. 
 3. Check the questions and click on the **Launch** button to launch the poll for all attendees.
 
-![example-zoom-polls-webinars-cse](/handbook/customer-success/csm/segment/scale/zoom-polls-cse.gif)
+![example-zoom-polls-webinars-cse](/handbook/customer-success/csm/segment/cse/zoom-polls-cse.gif)
 
 It is recommended to check before the webinar if the recorded video already mentions the poll. If yes, you should try to launch the poll at the same time it is mentioned in the recorded video.
 
@@ -95,7 +98,7 @@ After the lab, the CSE Program Manager will send a post-event email with a link 
 
 ### CSE Onboarding Cohorts
 
-As a supplement to the [monthly webinars](/handbook/customer-success/csm/segment/scale/webinar-calendar/) presented by the CSM/CSE team, the CSE team also invites net-new eligible customers to participate in a monthly onboardhing cohort.
+As a supplement to the [monthly webinars](/handbook/customer-success/csm/segment/cse/webinar-calendar/) presented by the CSM/CSE team, the CSE team also invites net-new eligible customers to participate in a monthly onboardhing cohort.
 
 The onboarding cohort will have a duration of 4 weeks, starting at the beginning of each month, with 90-minute live weekly training led by a Customer Success Engineer. Customers will be grouped with other new GitLab customers during each training. In addition to the weekly hands-on calls, customers will have access to a shared Slack channel monitored by Customer Success Engineers throughout the program to help answer questions and provide best practice guidance.
 
@@ -109,11 +112,11 @@ All customers participating will complete their training using a sandbox sub-gro
 
 ### CSE Engagement Request Process
 
-Account owners (AEs, SAEs, Renewals Managers) working with customers that [qualify](https://gitlab.com/gitlab-com/customer-success/csm/-/wikis/CSM-Segments) for CSE may find that their customer would benefit from a CSE engagement outside of the [normal operating rhythm during the customer lifecycle](/handbook/customer-success/csm/segment/scale/#customer-lifecycle) (programmatic call invitations from Gainsight, manual outreach by CSE in Outreach, Office Hours and Webinars). In these cases, it is best to submit ad-hoc engagement requests through Salesforce. You can submit a case for a CSE to engage with you on an account by clicking on "CSE Help" at the top of the Salesforce account page chatter (click "Show Feed" to open it first ). This will help to qualify the engagement and help the CSE prepare for a productive conversation with the customer.
+Account owners (AEs, SAEs, Renewals Managers) working with customers that [qualify](https://gitlab.com/gitlab-com/customer-success/csm/-/wikis/CSM-Segments) for CSE may find that their customer would benefit from a CSE engagement outside of the [normal operating rhythm during the customer lifecycle](/handbook/customer-success/csm/segment/cse/#customer-lifecycle) (programmatic call invitations from Gainsight, manual outreach by CSE in Outreach, Office Hours and Webinars). In these cases, it is best to submit ad-hoc engagement requests through Salesforce. You can submit a case for a CSE to engage with you on an account by clicking on "CSE Help" at the top of the Salesforce account page chatter (click "Show Feed" to open it first ). This will help to qualify the engagement and help the CSE prepare for a productive conversation with the customer.
 
 This brief screencast demonstrates how to reveal the CSE Help button when on an account page in Salesforce:
 
-![example-clip-demonstrating-scale-cse-request-sfdc](/handbook/customer-success/csm/segment/scale/cse-help.gif)
+![example-clip-demonstrating-cse-request-sfdc](/handbook/customer-success/csm/segment/cse/cse-help.gif)
 
 #### Requesting CSE Engagement (Account Owners only - AEs, SAEs)
 
@@ -134,11 +137,11 @@ When a CSE has accepted an engagement request, the CSE must then create a [CTA](
    - Type: Digital Journey
    - Reason: Other Digital Journey Reason
    - Priority: (select the most appropriate type based on the request)
-   - Playbook: One-Off Scale CSE Outreach
+   - Playbook: One-Off CSE Outreach
 
-Once the call is complete, the call must be [logged as an activity](/handbook/customer-success/csm/cadence-calls/#review-and-update-account-details) against the customer’s timeline in Gainsight using the `Scale Engagement` meeting type in Gainsight, and filling in the relevant details regarding the customer meeting details.
+Once the call is complete, the call must be [logged as an activity](/handbook/customer-success/csm/cadence-calls/#review-and-update-account-details) against the customer’s timeline in Gainsight using the `CSE Engagement` meeting type in Gainsight, and filling in the relevant details regarding the customer meeting details.
 
-The CSE should then prepare a follow-up email to be sent to the customer through the email-assist in the task: `Follow Up Email Post One-off Scale CSE Outreach Call Completion`
+The CSE should then prepare a follow-up email to be sent to the customer through the email-assist in the task: `Follow Up Email Post One-off CSE Outreach Call Completion`
 
 This ensures that a CSAT survey is deployed to the recipients of the email.
 
@@ -185,7 +188,7 @@ Meetings are integral to interfacing with customers; whether we are joining a ca
    1. [Notes](https://docs.google.com/document/u/0/d/159Bxv_H7Ds9QoGsmFW7c7Zoq5nqugAChN_a7XuKUeLs/edit)
    1. [Slide Deck](https://docs.google.com/presentation/u/0/d/1bGvo9EOz-pa-hsPi6xmguuL20L5e5XNfDVaFYeHZWdc/edit)
    1. [GitLab features](https://about.gitlab.com/features/) for reference
-   1. Any other pertinent resources for quick reference (See Appendix of [Scale CSE - Kickoff / Discovery Questions Template](https://docs.google.com/document/d/159Bxv_H7Ds9QoGsmFW7c7Zoq5nqugAChN_a7XuKUeLs/edit?usp=sharing) for ideas)
+   1. Any other pertinent resources for quick reference (See Appendix of [CSE - Kickoff / Discovery Questions Template](https://docs.google.com/document/d/159Bxv_H7Ds9QoGsmFW7c7Zoq5nqugAChN_a7XuKUeLs/edit?usp=sharing) for ideas)
 1. Make sure to manage expectations about short term engagements and not being permanently aligned.
 1. After the call is complete, set expectations for follow up email in the upcoming 2-3 days.
 1. Once the call is complete, the call must be [logged as an activity](/handbook/customer-success/csm/cadence-calls/#review-and-update-account-details) against the customer’s timeline in Gainsight.
