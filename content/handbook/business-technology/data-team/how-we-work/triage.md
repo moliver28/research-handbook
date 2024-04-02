@@ -60,8 +60,8 @@ Steps to uplevel triaging process:
 |                   | Business Insights and Analytics | |  `@Vikas Agrawal` | `@Deepesh Gupta` |  |      |  `@Shivangi Mishra` |
 |                   | GTM Data Fusion | | `@Peter Empey` |  |  |    | `@Michelle Cooper` |
 | `@R&DAnalyticsTriage` | Product Data Insights |  | `@Matthew Petersen` `@Carolyn Braza` | `@Dave Peterson` | `@Emma Neuberger` | `@Nicole Hervas` | `@Neil Raisinghani` |
-|                   | R&D Data Fusion | |  |  | `@Chris Sharp`  | `@snalamaru`  | `@Miles Russell`  |
-| `@PeopleAnalyticsTriage` | People Analytics | | | | | `@Adrian Pérez` | | 
+|                   | R&D Data Fusion | | `@utkarsh060` |  | `@Chris Sharp`  | `@snalamaru`  |   |
+| `@PeopleAnalyticsTriage` | People Analytics | |  | | | `@Adrian Pérez` `@rakhireddy` | | 
 |                   | G&A Data Fusion | | `@Peter Empey` | `@lisvinueza`  | | | |  
 | `@EngineeringAnalyticsTriage` | Engineering Analytics |  |  | `@Raul Rendon` | |  `@lily` | 
 |                   | Engineering Data Fusion |  | `@Peter Empey`  | `@lisvinueza` |  |     |     |
