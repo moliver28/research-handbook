@@ -106,11 +106,11 @@ The Delivery:Releases and Delivery:Deployments OKRs, while contributing to the w
 
 ### Delivery:Releases
 
-The primary goal of the Releases team is to provide everything to do with creating GitLab releases for customers and enabling internal customers to get their changes into releases. Major, minor and patch releases as well as a platform on which we can verify changes to various installation types (release environments) and create visibility for GitLab team members and customers into our release schedule (release dashboard)
+The primary goal of the Releases team is to provide everything to do with creating GitLab releases for customers and enabling internal customers to get their changes into releases. Major, minor and patch releases as well as a platform on which we can verify changes to various installation types (release environments) and create visibility for GitLab team members and customers into our release schedule (release dashboard).
 
 ### Delivery:Deployments
 
-The primary goal of the Deployments team is to provide everything to do with rolling out changes to active platforms managed by GitLab, including but not limited to continuous deployment to GitLab.com (deployment safety), changing gitlab.com architecture to support continuous deployment (eliminate staging 🤞 ) and thinking about how to optimise the rollout experience (zero downtime work)
+The primary goal of the Deployments team is to provide everything to do with rolling out changes to active platforms managed by GitLab, including but not limited to continuous deployment to GitLab.com (deployment safety), changing gitlab.com architecture to support continuous deployment (eliminate staging 🤞 ) and thinking about how to optimise the rollout experience (zero downtime work).
 
 ### Team Members
 
@@ -147,7 +147,7 @@ The Delivery Group owns the tools and capabilities needed for GitLab deployments
 
 ### Release Manager ownership
 
-Release Managers are members of the Delivery group but during their time as release managers they're wearing a different hat. The primary customers are GitLab users
+Release Managers are members of the Delivery group but during their time as release managers, they're wearing a different hat. The primary customers are GitLab users.
 
 1. Auto-deploys: Release Managers operate the auto-deploy process. Largely this will make use of capabilities provided by the Deployments team, but the Orchestration tools will be making use of the Deployments team capabilities. Environment health checks are an example of a Deployments capability that will be integral to the process and tools the release managers use.
 2. Self-managed releases: Release Managers operate the release processes (patch and security) using the capabilities provided by the Releases team.
@@ -169,8 +169,8 @@ The primary customers of the Releases team are:
 10. Release/packaging execution log: Ensuring that an accurate log of releases is maintained.
 11. Deployment & release metadata: Tracking component versions and dependencies to allow for quality gates to be accurate, and to ensure predictable releases.
 12. QA test execution & results visibility: Ensuring that all deployments and releases pass the required testing. Releases will be particularly concerned with timing of test execution and making sure that the correct dependencies are in place for reliable results.
-13. Releases dashboards: Delivery:Releases will own a set of dashboards to guide the team's work on designing effective release processes. Dashboards, or templates, will also be needed to evaluate the effectiveness of individual release pipelines.
-14. Release Publishing: publishing packages to various distribution sites (e.g., packages.gitlab.com, Docker Hub, etc.), publishing tooling, and guaranteeing a reliable publishing process.
+13. Releases dashboards: Delivery: Releases will own a set of dashboards to guide the team's work on designing effective release processes. Dashboards, or templates, will also be needed to evaluate the effectiveness of individual release pipelines.
+14. Release Publishing: Publishing packages to various distribution sites (e.g., packages.gitlab.com, Docker Hub, etc.), publishing tooling, and guaranteeing a reliable publishing process.
 
 ### Delivery:Deployments ownership
 
