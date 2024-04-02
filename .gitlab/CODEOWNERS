@@ -530,7 +530,7 @@
 /content/handbook/security/product-security/ @juliedavila @jritchey
 /content/handbook/security/product-security/infrastructure-security.md @juliedavila
 /content/handbook/security/security-operations/security-logging/ @mcoons
-content/handbook/security/security-logging-standard.md @mcoons
+/content/handbook/security/security-logging-standard.md @mcoons
 
 ^[solutions-architects]
 /content/handbook/customer-success/solutions-architects/ @gitlab-com/customer-success/solutions-architecture/sa-leadership-team
