@@ -232,7 +232,7 @@ This section is meant to document tips and best practices that the Developer Rel
 - **Speakers:** As event organizers and participants, we seek to include a diverse set of speakers in events that GitLab organizes or touches.
 - **We are open-minded:** We actively seek feedback and keep an open mind about our current policies. We are open to change and are willing to make structural changes to ensure that we continue to foster DIB among our team and the wider GitLab community.
 - **We retain a growth mindset and keep learning:** We read articles, attend workshops, and participate in trainings that help educate us about how to foster DIB in our community and how to be inclusive ourselves.
-- **We encourage a diverse set of community members to participate in research:** We recognize the product inclusivity is important and that we need to build with our community, not just for them. We encourage a diverse set of community members to participate in our [First Look product research program](https://about.gitlab.com/community/gitlab-first-look/).
+- **We encourage a diverse set of community members to participate in research:** We recognize the product inclusivity is important and that we need to build with our community, not just for them.
 - **We promote the [GitLab Diversity Scholarship program](https://about.gitlab.com/community/sponsorship/):** This scholarship supports Diversity, Inclusion, and Belonging-focused events financially.
 
 ## <i class="fas fa-lightbulb" fa-fw color-orange font-awesome></i> Communities who inspire us
