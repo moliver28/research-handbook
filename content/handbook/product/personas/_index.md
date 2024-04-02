@@ -90,6 +90,8 @@ Our personas span across stages (see table below for a depiction of how our user
 <iframe src="https://docs.google.com/presentation/d/1iit_S9U81iVdLuIc9hgrG68ewlr5U0bSGQLsbQNGMOc/edit#slide=id.g269ac2dfec4_0_615" frameborder="0" width="1220" height="620" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 </figure>
 
+*Note: To change the table above, team members can edit the [Google Slide deck](https://docs.google.com/presentation/d/1iit_S9U81iVdLuIc9hgrG68ewlr5U0bSGQLsbQNGMOc/edit?usp=sharing).*
+
 #### Parker (Product Manager)
 
 - **Alternative Job Titles:** Program Manager, Project Manager, Technical Product Manager, Head of Product
