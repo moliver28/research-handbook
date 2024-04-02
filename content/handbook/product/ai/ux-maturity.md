@@ -6,7 +6,7 @@ description: "When to move an AI-assisted feature from Experiment to Beta, and t
 
 ## Summary
 
-The following guidelines focus on the **UX** aspect of the maturity of AI-assisted features. [Other aspects][experiment-beta-ga-docs], like stability or documentation, should also be taken into account to determine the appropriate feature maturity. See [background](#background) to understand why these guidelines are specific to AI-assisted features.
+The following guidelines focus on the **UX** aspect of the maturity of AI-assisted features. [Other aspects][experiment-beta-ga-docs], like stability or documentation, should also be taken into account to determine the appropriate feature maturity.
 
 To evaluate the UX maturity of AI-assisted features, use three criteria from the [Product Development Flow][prod-dev-flow]:
 
