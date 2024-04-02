@@ -1,15 +1,14 @@
-
 ---
-title: Travel Safety and Security
+title: "Travel Safety and Security"
 ---
 
-## Travel Safety and Security
+### Travel Safety and Security
 
 Team member safety and security are a top priority for GitLab. If a team member feels uncomfortable or unsafe traveling to a location on GitLab's behalf due to concerns about the location, region, personal health, or other safety or security risks, please contact [People Connect](https://gitlab.slack.com/archives/C02360SQQFR) via Slack or email. The People Connect team will assist by helping to connect the team member with the right resources.
 
 **Please note that team member travel is not required unless deemed essential to the role. Please speak to your manager about whether the travel is mandatory and required for your role.**
 
-## Business Travel Emergency Assitance Program with International SOS
+### Business Travel Emergency Assitance Program with International SOS
 
 In an emergency, International SOS (ISOS) can provide quick medical, safety, and security assistance and services to team members on business travel around the globe.
 
@@ -43,8 +42,7 @@ For more detailed information on this benefit, please reference the policy docum
 If you need a confirmation of coverage letter, please reference the visa letter generation document (internal only).
 For any additional questions, please contact the Total Rewards Analyst.
 
-
-## Secure your data during travels
+### Secure your data during travels
 
 During your working travel your restricted data could be exposed. If you feel that your travel frequency may expose your data please keep in mind the following points to ensure that sensitive data contained in your devices will not be compromised:
 
@@ -63,7 +61,7 @@ For additional security specifically when traveling through an airport, the foll
 - If you are aware of any circumstances with your travel that may present a unique security risk (such as traveling to speciality conferences like Defcon), you may request advice in the [#security-department](https://gitlab.slack.com/archives/CM74JMLTU) Slack channel.
 
 
-## Expenses While Traveling
+### Expenses While Traveling
 
 Understand the guidelines of our [Global Travel and Expense Policy](/handbook/finance/expenses/) before you travel.
 
