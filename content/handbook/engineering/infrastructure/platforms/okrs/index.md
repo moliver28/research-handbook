@@ -53,7 +53,7 @@ Objectives and Key Results should be updated every Wednesday.
 For key results, the DRI must update the progress and the health of the key result. 
 
 For objectives, the DRI must update the health and provide a short status update. 
-The status update should be one line per key result.
+The status update should be a one-line summary for each key result that belongs to the objective. 
 The progress of objectives should not be updated as this is achieved by automation. 
 
 The reason we do not have larger status updates is because we rely on the status information that is already present on the linked issues and epics.
