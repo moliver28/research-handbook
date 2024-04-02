@@ -205,45 +205,13 @@ For a more detailed overview of navigating the NBV portal, please click here to 
 
 1. Prior to distributing the Board deck, the CFO or Senior EBA to the CFO groups questions together in the BOD Meeting Agenda by function or topic. Notes *should not* be taken by any GitLab team members in the agenda document during the meeting as requested by Legal.
 1. Key Board material is presented during Board Meeting sessions. This includes:
-   - The General Session Board deck (excluding the appendix or any pre-read slides, memos or videos)
+   - E-Group memos, eliminating previous general session board presentation:
+        - Each discussion subject has a memo with unlimited slides.
+        - Finance has unlimited slides in the memo.
+        - Annual Operating Plan can be a memo or slide deck.
    - The Administration Session for Board Committee readouts by the Committee Chairperson updating the Board as to the Committee’s activities and highlighting the items requiring Board approval, if any.
 1. Questions can be asked throughout the meeting. 30 minutes are reserved at the end of the General Session for Q&A / Discussion.
 1. At the conclusion of the General Session the E-Group, Observers, CoS to the CEO, Staff EBA, CEO Shadows depart the zoom meeting and the full Board shall meet for a Closed Session.
-
-### Board Deck
-
-1. The deck should start with a CEO Overview section which includes: list of up to ten [GitLab KPIs]({{< ref "kpis#gitlab-kpis" >}}). These should reflect the team’s prioritizations. The expectation is that these metrics will be on the list for a year or longer. The CEO Overview will also include slides on: prior quarter or fiscal year overview, trends, challenges, opportunities and current fiscal year priorities.
-1. The deck highlights 2 key asks for Board input during the meeting. Each ask should have a few key slides that provide historical context, current status, and plans for the future. We strive to have 2 key asks and at least 20 minutes spent on these topics. The key asks are typically presented during the meeting and may include team members from across the organization to join the meeting.
-1. The deck includes a Sales and Marketing section composed of: an executive summary slide on OKRs and key learnings, prior quarter review, upcoming quarter and fiscal year outlook. It may also include a competitive landscape update and any other relevant key updates.
-1. The deck includes an R&D section composed of: an executive summary slide on OKRs and key learnings, R&D investments, product themes, efficiency drivers, revenue drivers, and any other key updates.
-1. The deck includes a People Group section composed of: Attrition and General Update.
-1. The deck should strive to not exceed 7 slides per group.
-1. Slides should convey a high-level overview as opposed to operational updates and will not include embedded links.
-1. Put information on public webpages such as [/strategy](/handbook/company/strategy) as much as possible.
-1. Sensitive information goes into the Administration deck managed by the CFO.
-1. Font size should be minimum 16pt, footnotes excluded. We want to make sure everything can be read.
-1. Every slide should have a title which provides the key takeaway from that slide.
-
-#### Sales Slides
-
-The Sales Slides should always include:
-
-1. An overview of segment and geographic success
-1. A sales overview including revenue, % of plan, growth versus last year and other key metrics
-
-#### Finance Presentation
-
-The Finance slides are as follows:
-
-1. Review past quarter and YTD: Bookings review (growth rates) / new/growth and by sales zone
-1. Review past quarter and YTD: P&L vs plan with commentary
-1. Review past quarter and YTD: Revenue deep dive
-1. Review past quarter and YTD: Gross Margin deep dive
-1. Review past quarter and YTD: Cash waterfall
-1. Forward looking: Rolling forecast that we will hold company accountable to in next quarter with commentary
-1. Forward looking: Cash projection through end of year
-1. Forward looking: LR plan adjustments with commentary
-1. Forward looking: Balance sheet projection to match the 4Q Forecast
 
 ### CEO Memo
 
