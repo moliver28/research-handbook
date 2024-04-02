@@ -375,12 +375,11 @@ These are the full list of CI job arguments, all are **OPTIONAL**:
 3. `USERNAMES_TO_ADD`:
     - Defaults to the usernames **added** to [`snowflake_usernames.yml`](https://gitlab.com/gitlab-data/analytics/-/blob/master/permissions/snowflake/snowflake_usernames.yml?ref_type=heads) within the MR.
     - To override, pass in a string value like so `USERNAMES_TO_ADD: username_to_add1 username_to_add2`
-4. `USERNAMES_TO_REMOVE`:
-    - Defaults to the usernames **removed** from [`snowflake_usernames.yml`](https://gitlab.com/gitlab-data/analytics/-/blob/master/permissions/snowflake/snowflake_usernames.yml?ref_type=heads) within the MR.
-    - To override, pass in a string value like so `USERNAMES_TO_REMOVE: username_to_remove1 username_to_remove2`
 5. `IS_DEV_DB`:
     - Defaults to `False`, but accepts `True`.
     -  If True, will create the development database for each username in `usernames_to_add`.
+
+Note: `USERNAMES_TO_REMOVE` argument is not available for this job because all deactivated users will be removed in Snowflake via separate airflow job.
 
 #### `snowflake_provisioning_roles_yaml`
 
