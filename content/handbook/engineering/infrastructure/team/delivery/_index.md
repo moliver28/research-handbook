@@ -287,15 +287,15 @@ There are three other workflow labels of importance omitted from the diagram abo
 
 1. `workflow-infra::Cancelled`:
 
-- Work in the issue is being abandoned due to external factors or decision to not resolve the issue. After applying this label, issue will be closed.
+    - Work in the issue is being abandoned due to external factors or decision to not resolve the issue. After applying this label, issue will be closed.
 
 1. `workflow-infra::Stalled`
 
-- Work is not abandoned but other work has higher priority. After applying this label, team Engineering Manager is mentioned in the issue to either change the priority or find more help.
+    - Work is not abandoned but other work has higher priority. After applying this label, team Engineering Manager is mentioned in the issue to either change the priority or find more help.
 
 1. `workflow-infra::Blocked`
 
-- Work is blocked due external dependencies or other external factors. After applying this label, issue will be regularly triaged by the team until the label can be removed.
+    - Work is blocked due external dependencies or other external factors. After applying this label, issue will be regularly triaged by the team until the label can be removed.
 
 Label `workflow-infra::Done` is applied to signify completion of work, but its sole purpose is to ensure that issues are closed when the work is completed, ensuring issue hygiene.
 
