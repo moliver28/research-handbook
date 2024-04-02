@@ -97,11 +97,11 @@ Use Case Adoption metrics currently live in Snowflake where they are calculated 
 The last piece is enabling CSMs to be able to calculate the score, formulate the customer-facing slide deck and be able to present the score in detail. This requires cross-functional partnership between CSMs, CSM Managers, Enablement and CSOps, where a CSM will usually lead the enablement sessions with a mock presentation, while CSOps handle Q&A and any follow-ups that may come out of those enablement sessions.
 <br>
 
-### Iterate and Improve
+### Change Management
 
 **Timeframe: Varies**
 
-With a product that updates monthly while adding new features to the GitLab use cases, we have an ongoing process to update the respective adoption scores, aiming for the most accurate depiction of use case adoption by our customers. As new features are built and made available, new metrics are also instrumented by the respective product teams to be able to provide insights to customers that can help them improve their experience and attain their DevOps goals with GitLab.
+With a product that updates monthly while adding new features to the GitLab use cases, we have an ongoing process to iterate and improve the respective adoption scores, aiming for the most accurate depiction of product adoption by our customers. As new features are built and made available, new metrics are also instrumented by the respective product teams to be able to provide insights to customers that can help them improve their experience and attain their DevOps goals with GitLab.
 <br>
 
 </details>
