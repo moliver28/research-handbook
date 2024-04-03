@@ -15,7 +15,7 @@ Further information can also be found in the [AXA PPP Brochure](https://drive.go
 
 Please let the Total Rewards team know if you would like to join the scheme via email to `total-rewards@gitlab.com` and `Bryony.Smith@wtwco.com` Include the following details:
  1. Full name
- 1. Date of Birth 
+ 1. Date of Birth
  1. Current address
  1. Employee ID 
  1. Dependent Details if you'd like to add them to the plan (Full Name, DOB, and address). 
