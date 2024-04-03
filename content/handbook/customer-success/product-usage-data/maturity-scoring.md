@@ -24,7 +24,7 @@ By looking at the Adoption scores, the CSM will gain an understanding of the cus
 <details>
   <summary markdown="span"> Building Adoption Scores </summary>
 
-### Metrics Availability & Evaluation
+### Defining Adoption & Identifying Lighthouse Metrics
 
 **Timeframe: 2-3 Months**
 
