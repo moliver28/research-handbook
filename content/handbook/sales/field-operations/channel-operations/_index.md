@@ -268,7 +268,7 @@ Partners and GitLab Sellers frequently ask questions on how to collaborate with 
 - **PTM/PAM Notes**: PTMs and PAMs enter partner opportuity notes and next steps here
 - **Alliance Partner Opp ID**: PTMs and PAMs enter the cloud partner(AWS or GCP) co-sell registration ID here
 - **Platform Partner**:  Customer's platform that GitLab is being deployed
-- **Hyperscaler Engaged**: The customer's cloud service provider
+- **Hyperscaler Engaged**: PTMs and PAMs can select the hyperscaler engaged on early stage Marketplace deals to identify them for forecasting
 
     ![Partner_Contribution](image-11.png)
 
