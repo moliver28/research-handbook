@@ -425,6 +425,7 @@ Before starting this steps, note you'll need to have already set up the [Allocad
 
 1. Under `Vartopia Partner Information`, select the `Partner Account` and check `Sync to Vartopia` for the campaign to sync to Vartopia.
 1. `Budgeted Cost` in SFDC pulls from your plan number, not your forecast number from Allocadia. If you do not have a plan cost in Allocadia then `Budgeted Cost` in SFDC will remain blank. If this is the case, you will want to add in your `Budgeted Cost` manually into your SFDC campaign.
+1. Under `MDF Request`, select the corresponding `MDF Request` to successfuly link to SFDC campaign. 
 2. Once Allocadia has updated the SFDC campaign, you will need to double check `Campaign Type` and make sure it still says `Partner - MDF`. If it does not, please update the field.
 
 **Step 4: Update List Upload Request Issue**
