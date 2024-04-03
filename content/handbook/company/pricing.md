@@ -6,10 +6,8 @@ description: "Most GitLab functionality is and will be available for free in our
 GitLab's pricing strategy is set by the CEO, Sid Sibrandij. Everyone can contribute, and the best way to communicate is on the #pricing Slack channel.
 
 Contributions are part of the day-to-day jobs of the following people:
-- Principal Pricing Manager (Lisa Hoang)
-- Principal Pricing Manager (TBH)
+- Principal Pricing Manager (Sean Hall)
 - Sr Director, Product Monetization (Justin Farris)
-- Product Marketing (Saumya Upadhyaya)
 
 ## Pricing Strategy
 
