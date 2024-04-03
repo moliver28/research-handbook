@@ -421,7 +421,7 @@ Below is a list of some of the resources that you can use to contribute to the d
 
 ## UX Paper Cuts workflow
 
-See [UX Paper Cuts Diretion Page](https://about.gitlab.com/direction/ux-paper-cuts).
+See [UX Paper Cuts Direction Page](https://about.gitlab.com/direction/ux-paper-cuts).
 
 ## Approach to communication
 
