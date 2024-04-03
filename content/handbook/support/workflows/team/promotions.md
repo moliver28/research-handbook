@@ -10,8 +10,7 @@ description: Process for submitting a promotions request
 ## Overview
 
 This page supplements the [Promotions and Transfers handbook page](/handbook/people-group/promotions-transfers/)
-and documents promotions-related workflows and processes specific to the
-Customer Support department.
+and the [Support Engineer Career path](/handbook/support/support-engineer-career-path/#career-development-in-support) page. It documents workflows and processes specific to preparing your promotion document in the Customer Support department.
 
 ## Process
 
