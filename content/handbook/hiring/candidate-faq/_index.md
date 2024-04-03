@@ -119,7 +119,7 @@ Feel free to send an email to your Recruiter to get a status update on where you
 {{% /details %}}
 
 {{% details summary="Can I have the hiring team’s email addresses so I can send them a note?" %}}
-Yes. You can email your Recruiter or ces@gitlab.com to request your interviewer's email address.
+If you'd like to send a note to the hiring team, please send it to your Recruiter and they will forward it on.
 {{% /details %}}
 
 {{% details summary="Can I interview for multiple roles at the same time?" %}}
