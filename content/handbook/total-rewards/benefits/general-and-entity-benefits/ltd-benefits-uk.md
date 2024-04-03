@@ -17,7 +17,7 @@ Please let the Total Rewards team know if you would like to join the scheme via 
  1. Full name
  1. Date of Birth
  1. Current address
- 1. Employee ID 
+ 1. Employee ID
  1. Dependent Details if you'd like to add them to the plan (Full Name, DOB, and address). 
 
 Please note that it can take 7 - 10 working days to receive a reply and confirmation from AXA PPP.
