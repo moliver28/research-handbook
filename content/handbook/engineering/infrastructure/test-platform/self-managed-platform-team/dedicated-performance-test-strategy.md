@@ -13,6 +13,51 @@ Our base performance test approach is proactively test against [Reference Archit
 
 Dedicated deploys Cloud Native environments based on Reference Architectures so the testing we do is directly mappable to the Dedicated Tenant environments.
 
+```mermaid
+flowchart LR
+  %% nodes
+   tested_code{{Fully tested GitLab code}}
+   reference_architectures[Reference Architectures]
+   gpt_test(GPT Performance Test Run)
+   gbpt_test(GBPT Performance Test Run)
+   dedicated_tenant(Dedicated Tenant environment)
+   cell_tenant(Cells Tenant environment)
+   fedramp_tenant(FedRAMP Tenant environment)
+   review_results([Review test Results])
+   
+
+  %% diagram
+  tested_code --> gpt_test
+  tested_code --> gbpt_test
+
+  subgraph GET Deployed Reference Architecture Environment
+    direction TB
+    gpt_test
+    gbpt_test
+    review_results
+  end
+
+  reference_architectures --> dedicated_tenant
+  reference_architectures --> cell_tenant
+  reference_architectures --> fedramp_tenant
+  gpt_test --> review_results
+  gbpt_test --> review_results
+  review_results --> reference_architectures
+
+  subgraph Dedicated[Dedicated Deployed Environment]
+    direction LR
+    dedicated_tenant
+    subgraph FedRAMP
+      direction LR
+      fedramp_tenant
+    end
+
+    subgraph Cells
+      direction LR
+      cell_tenant
+    end
+  end
+```
 ## Gitaly focus
 
 TBD
