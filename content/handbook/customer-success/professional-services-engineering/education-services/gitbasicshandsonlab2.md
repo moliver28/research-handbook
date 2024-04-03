@@ -34,17 +34,24 @@ Please take time to understand any code that you are asked to copy and paste in 
 
 > GitLab uses the SSH protocol to securely communicate with Git. When you use SSH keys to authenticate to the GitLab remote server, you don’t need to supply your username and password each time. You can learn more in the [documentation](https://docs.gitlab.com/ee/user/ssh.html).
 
-1. Create a public and private key pair by running this command in your terminal or PowerShell.
+
+1. We will use OpenSSH client, which comes pre-installed on GNU/Linux, macOS, and Windows 10. To check your current version run the following command in your terminal or Powershell:
+
+    ```bash
+    ssh -V 
+    ```
+
+2. Create a public and private key pair by running this command in your terminal or PowerShell.
 
     ```bash
     ssh-keygen
     ```
 
-2. The first prompt will ask you where you would like to save your SSH key. Take note of the location that the command is saving the key to. By default, the path will be `~/.ssh`, and the default name will be `id_rsa`. Press <kbd>Enter</kbd> to accept the default key location and name.
+3. The first prompt will ask you where you would like to save your SSH key. Take note of the location that the command is saving the key to. By default, the path will be `~/.ssh`, and the default name will be `id_rsa`. Press <kbd>Enter</kbd> to accept the default key location and name.
 
     > Note: If preferred, you can also provide a custom file path and key name for this step.
 
-3. The second prompt will ask you to set a password for the key file. Press <kbd>Enter</kbd> to use a blank passphrase for the local key file.
+4. The second prompt will ask you to set a password for the key file. Press <kbd>Enter</kbd> to use a blank passphrase for the local key file.
 
     > Note: To keep the steps simple, we are opting to not set a password for the key file. Blank passphrases are not generally considered best practices. You can set a passphrase if desired.
 
@@ -65,6 +72,11 @@ Please take time to understand any code that you are asked to copy and paste in 
     ```bash
     cd ~/.ssh
     ls
+    ```
+    In Windows: 
+
+    ```bash
+    cd ~\.ssh
     ```
 
     > Note: By default, the key will be saved in the `~/.ssh` directory. If you saved the key to a different directory, you will need to `cd` to that directory instead.
@@ -103,8 +115,15 @@ Please take time to understand any code that you are asked to copy and paste in 
 
 1. In your terminal, run the following command to test your connection.
 
+If your instance URL includes `gitlab-learn-labs/*` run:
+
     ```bash
     ssh -T git@gitlab.com
+    ```
+If your instance URL includes `ilt.gitlabtraining.cloud` run:
+
+    ```bash
+    ssh -T git@ilt.gitlabtraining.cloud
     ```
 
 If the command completes with a welcome message instead of an error, your SSH key is set up correctly.
@@ -127,6 +146,12 @@ If the command completes with a welcome message instead of an error, your SSH ke
     mkdir ~/training
     cd ~/training
     ```
+In Windows:
+
+```bash
+mkdir ~\training
+cd ~\training
+```
 
 1. Run the `git clone` command, using the command you copied from **Clone with SSH**.
 
