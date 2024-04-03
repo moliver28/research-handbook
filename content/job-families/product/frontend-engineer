@@ -63,7 +63,7 @@ The Frontend Engineer is a [grade 6](/handbook/total-rewards/compensation/compen
 
 #### Requirements
 
-A Frontend Engineer is expected to meet the requirements and execute the responsibilities with some assistance from their manager.
+A Frontend Engineer is expected to meet the base requirements and execute the responsibilities with a commitment to results and agreed actions.
 
 ### Senior Frontend Engineer
 
@@ -87,6 +87,10 @@ The Senior Frontend Engineer is a [grade 7](http://about.gitlab.com/handbook/tot
 - **Mentoring**: Mentor other members of the UX department, both inside and outside of your group on how to make changes directly in the product that help accelerate implementing design system components in the product, or to address usability issues.
 - **Recruiting**: Help evaluate candidates during the hiring process by participating on the interview panel for other frontend and UX engineers.
 
+#### Requirements
+
+A Senior Frontend Engineer is expected to meet the base requirements and execute the responsibilities while modeling a sense of urgency and commitment to deliver results.
+
 ### Staff Frontend Engineer
 
 A Staff Frontend Engineer reports to a UX Engineering Manager or [Product Design Manager](/job-families/product/product-design-management/#product-design-manager).
@@ -100,15 +104,19 @@ The Frontend Engineer is a [grade 8](/handbook/total-rewards/compensation/compen
 - **Product knowledge**: Deeply understand the technology and features of the group you are assigned and have a working knowledge of the end-to-end GitLab product.
 - **Deliverables**: Develop features and improvements to the GitLab product in a secure, accessible, user-friendly, well-tested, and performant way. Define best practices to inform how teams design and build across GitLab. Proactively seek out difficult impediments to our efficiency as a team ("technical debt"), propose and implement solutions that will enable the entire team to iterate faster.
 - **Communication**: Set an example for how to effectively communicate across groups and stages by frequently participating in asynchronous collaboration in issues and merge requests.
-- **Iteration**: Practice iteration by breaking down design and development efforts to fit the release cadence of your group. Understand long-term goals in your group and help other engineers breeak down efforts into actionable steps.
+- **Iteration**: Practice iteration by breaking down design and development efforts to fit the release cadence of your group. Understand long-term goals in your group and help other engineers break down efforts into actionable steps.
 - **Design system**: Be a primary contributor to the [Pajamas Design System](https://design.gitlab.com/) by building components and updating documentation. Act as an owner of the "Pajamas component migration" performance indicator. Ensure components available in GitLab UI follow design specs and work with groups to advocate for component usage and compliance.
 - **Code quality**: Shepherd the definition and improvement of our internal standards for style, maintainability, and best practices for a high-scale web environment. Push forward the craft of high-quality code output by fostering a collaborative peer review process in an all-remote context.
 - **Accessibility**: Teach and socialize accessibility best practices in the GitLab community, so that product teams can implement WCAG guidelines more efficiently on their own.
 - **Cross-stage collaboration**: Identify dependencies between groups and stages, and advocate for cross-stage collaboration when needed. Drive adoption of the Pajamas Design System.
-- **Influence**: Advocate for improvements to product quality, security, and performance that have particular impact across your group. Exert significant influence on the overall vision and long-range goals of your group. Drive innovation on the team with a willingness to experiment and to boldy confront problems of immense complexity and scope.
-**Public presence**: Help promote GitLab publicly by writing blog articles, giving talks, publishing videos to GitLab Unfiltered, or responding on social media, where apprioprioate.
+- **Influence**: Advocate for improvements to product quality, security, and performance that have particular impact across your group. Exert significant influence on the overall vision and long-range goals of your group. Drive innovation on the team with a willingness to experiment and to boldly confront problems of immense complexity and scope.
+**Public presence**: Help promote GitLab publicly by writing blog articles, giving talks, publishing videos to GitLab Unfiltered, or responding on social media, where appropriate.
 - **Mentoring**: Mentor engineers and designers, both inside and outside of your group on how to approach technical problems, solicit feedback, and drive for impactful outcomes.
 - **Recruiting**: Help evaluate candidates during the hiring process by participating on the interview panel for other frontend and UX engineers.
+
+#### Requirements
+
+A Staff Frontend Engineer is expected to meet the base requirements and execute the responsibilities while coaching team members to collaborate and work iteratively.
 
 ## Hiring Process
 
