@@ -87,13 +87,7 @@ Our personas span across stages (see table below for a depiction of how our user
 #### User Personas across Use Cases
 
 <figure class="video_container">
-<iframe src="https://docs.google.com/presentation/d/1iit_S9U81iVdLuIc9hgrG68ewlr5U0bSGQLsbQNGMOc/edit#slide=id.g269ac2dfec4_0_615" frameborder="0" width="1220" height="620" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-</figure>
-
-##### User Persona Profiles
-
-<figure class="video_container">
-<iframe src="https://docs.google.com/presentation/d/1iit_S9U81iVdLuIc9hgrG68ewlr5U0bSGQLsbQNGMOc/edit#slide=id.g26bef2edc2b_0_15" frameborder="0" width="1220" height="620" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQU1Lm4fyZvEk4TrkQ-kNDZWA5MVb9fNuqaDPzXaZjCE3PYL8BQ0nSD5Hfw34fSNq_of3E-U3G6fyRL/embed?start=false&loop=false&delayms=15000" frameborder="0" width="1220" height="620" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 </figure>
 
 *Note: To change the tables above, team members can edit the [Google Slide deck](https://docs.google.com/presentation/d/1iit_S9U81iVdLuIc9hgrG68ewlr5U0bSGQLsbQNGMOc/edit?usp=sharing).*
