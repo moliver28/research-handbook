@@ -147,12 +147,12 @@ If the command completes with a welcome message instead of an error, your SSH ke
     mkdir ~/training
     cd ~/training
     ```
-In Windows:
+    In Windows:
 
-```bash
-mkdir ~\training
-cd ~\training
-```
+    ```bash
+    mkdir ~\training
+    cd ~\training
+    ```
 
 1. Run the `git clone` command, using the command you copied from **Clone with SSH**.
 
