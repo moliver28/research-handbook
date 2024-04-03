@@ -59,6 +59,62 @@ flowchart LR
     end
   end
 ```
+
+```mermaid
+flowchart LR
+  %% nodes
+  ra_cnh_3k(3k Architecture)
+  gpt_cnh_3k(3k Architecture)
+  gbpt_cnh_3k(3k Architecture)
+  dedicated_cnh_3k(3k Architecture)
+  fedramp_cnh_3k(3k Architecture)
+  cells_cnh_3k(3k Architecture)
+
+
+  %% diagram
+
+
+
+  subgraph test_env[GET Deployed Reference Architecture Environment]
+    subgraph gpt_test[GPT test pipeline]
+      gpt_cnh_3k
+    end
+
+    subgraph gbpt_test[GBPT test pipeline]
+      gbpt_cnh_3k
+    end
+  end
+
+  subgraph ref_arch[Reference Architectures]
+    subgraph omnibus[Omnibus Architectures]
+    end
+
+    subgraph cnh[Cloud Native Hybrid Architectures]
+      ra_cnh_3k
+    end
+  end
+  
+  subgraph dedicated[Dedicated Deployed Environment]
+    subgraph dedicated_tenant[Dedicated Tenant]
+      dedicated_cnh_3k
+    end
+
+    subgraph FedRAMP
+      fedramp_cnh_3k
+    end
+
+    subgraph Cells
+      cells_cnh_3k
+    end
+  end
+  test_env <-- ref_arch
+  ref_arch --> dedicated
+  ra_cnh_3k <--> gpt_cnh_3k
+  ra_cnh_3k <--> gbpt_cnh_3k
+  ra_cnh_3k --> dedicated_cnh_3k
+  ra_cnh_3k --> cells_cnh_3k
+  ra_cnh_3k --> fedramp_cnh_3k
+```
 ## Gitaly focus
 
 TBD
