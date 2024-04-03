@@ -1,5 +1,5 @@
 
-#"Talent Management Roles"
+### Talent Management Roles
 description: "The Talent Management job family creates and facilitates programs designed to accelerate performance and talent at GitLab."
 ---
 
@@ -53,7 +53,7 @@ The Senior Talent Management Partner is a [grade 7](/handbook/total-rewards/comp
 
 
 
-## Director, Talent Management
+### Director, Talent Management
 
 The Director, Talent Management reports to the [VP, Talent & Engagement](/job-families/people-group/talent-acquisition-leadership/).
 
