@@ -268,7 +268,7 @@ Partners and GitLab Sellers frequently ask questions on how to collaborate with 
 - **PTM/PAM Notes**: PTMs and PAMs enter partner opportuity notes and next steps here
 - **Alliance Partner Opp ID**: PTMs and PAMs enter the cloud partner(AWS or GCP) co-sell registration ID here
 - **Platform Partner**:  Customer's platform that GitLab is being deployed
-- **Hyperscaler Engaged**: The customer's cloud service provider
+- **Hyperscaler Engaged**: PTMs and PAMs can select the hyperscaler engaged on early stage Marketplace deals to identify them for forecasting
 
     ![Partner_Contribution](image-11.png)
 
@@ -979,8 +979,8 @@ The following partner forecast dashboards have been published for FY25. Please u
 
 All forecasting for the partner organization is done in Clari. Please use the following enablement guides to learn how to naivgate the tool and understand the forecasting process.
 - [Clari Partner Handbook](https://internal.gitlab.com/handbook/sales/sales-tools/sales-forecasting/#partner-forecasting)
-- [Clari Cheat Sheet and Enablement Deck](https://docs.google.com/presentation/d/1uEJR85CGuwUSSoKtLx4X-CSz6u3hKxZtL3QznemoUOE/edit#slide=id.g28468b8eaf0_0_36)
-- [Clari Demo](https://youtu.be/tmLr-ssdgHQ) - open link -> click your profile icon in upper right hand corner -> click Switch Account -> select GitLab Unfiltered
+- [Clari Cheat Sheet and Enablement Deck](https://docs.google.com/presentation/d/1MzRR0Y5y4J9OCyAxoPzvxsY8cnzeQlPJp0C5_r4oaZ4/edit#slide=id.g28468b8eaf0_0_36)
+- [Clari Demo](https://gitlab.zoom.us/rec/play/7ZHwgYej0z7TGLDn_-Gi8NpUz0Adx0c8Z2mu0mVnyFF7pyKIvIpYvwrAP_Zx95AXQBen2SPcEPR4gZIM.MjCFFXOxTc8aPfO8) 
 
 
 ## Alliances and OEMs
