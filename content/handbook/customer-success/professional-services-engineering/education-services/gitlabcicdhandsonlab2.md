@@ -140,7 +140,7 @@ This file defines two stages: `build` and `test`. The `build1` job executes duri
 
     ```powershell
     cd C:\GitLab-Runner
-    ./gitlab-runner.exe status
+    .\gitlab-runner.exe status
     ```
 
 1. If the command gives an output like: `gitlab-runner: Service is running`, then you already have a runner installed on your system. If a runner is already installed on your system, skip to Part F below. If the command throws an error, continue with the next section.
@@ -198,14 +198,14 @@ If you see `Service is running` in the output, the gitlab-runner service is work
 
     ```powershell
     cd C:\GitLab-Runner
-    ./gitlab-runner.exe install
-    ./gitlab-runner.exe start
+    .\gitlab-runner.exe install
+    .\gitlab-runner.exe start
     ```
 
 1. Verify that the gitlab-runner service has started by running this command:
 
     ```powershell
-    ./gitlab-runner.exe status
+    .\gitlab-runner.exe status
     ```
     
 If you see `Service is running` in the output, the gitlab-runner service is working as expected.
@@ -251,7 +251,7 @@ If you see `Service is running` in the output, the gitlab-runner service is work
 
         ```powershell
         cd C:\GitLab-Runner
-        ./gitlab-runner.exe list
+        .\gitlab-runner.exe list
         ```
 
 
