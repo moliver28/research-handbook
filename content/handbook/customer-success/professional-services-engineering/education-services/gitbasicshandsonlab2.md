@@ -115,12 +115,13 @@ Please take time to understand any code that you are asked to copy and paste in 
 
 1. In your terminal, run the following command to test your connection.
 
-If your instance URL includes `gitlab-learn-labs/*` run:
+    If your instance URL includes `gitlab-learn-labs/*` run:
 
     ```bash
     ssh -T git@gitlab.com
     ```
-If your instance URL includes `ilt.gitlabtraining.cloud` run:
+
+    If your instance URL includes `ilt.gitlabtraining.cloud` run:
 
     ```bash
     ssh -T git@ilt.gitlabtraining.cloud
