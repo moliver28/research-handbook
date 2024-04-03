@@ -101,8 +101,7 @@ All requirements of previous roles plus:
 
 ### Performance Indicators
 
-Division Wide Operational Efficency
-On-time delivery of programs within the Product Division
+Division Wide Operational Efficency of programs within the Product Division
 
 ## Hiring Process
 
