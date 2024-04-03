@@ -36,9 +36,10 @@ Please take time to understand any code that you are asked to copy and paste in 
 
 
 1. We will use OpenSSH client, which comes pre-installed on GNU/Linux, macOS, and Windows 10. To check your current version run the following command in your terminal or Powershell:
-```bash
-ssh -V 
-```
+
+    ```bash
+    ssh -V 
+    ```
 
 2. Create a public and private key pair by running this command in your terminal or PowerShell.
 
@@ -121,9 +122,9 @@ If your instance URL includes `gitlab-learn-labs/*` run:
     ```
 If your instance URL includes `ilt.gitlabtraining.cloud` run:
 
-```bash
-ssh -T git@ilt.gitlabtraining.cloud
-```
+    ```bash
+    ssh -T git@ilt.gitlabtraining.cloud
+    ```
 
 If the command completes with a welcome message instead of an error, your SSH key is set up correctly.
 
