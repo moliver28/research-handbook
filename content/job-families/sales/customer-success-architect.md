@@ -3,7 +3,9 @@ title: "Customer Success Architect"
 description: "The Customer Success Architect (CSA) team focuses on the themes of align, enable, and expand."
 ---
 
-The Customer Success Architect (CSA) team focuses on the themes of align, enable, and expand.  We align with customers' desired business outcomes, enable them on their existing use cases, and work with them to expand into additional use cases, ensuring ongoing and ever-improving customer return-on-investment.
+The Customer Success Architect (CSA) is a highly strategic position designed to provide unparalleled value to our customers by aligning our platform with their unique business objectives and driving long-term success.
+
+The CSA role is a pivotal addition to our customer success team, focusing on building strong, consultative relationships with our key customers. Our CSAs will serve as trusted advisors, leveraging their deep understanding of DevSecOps best practices, industry trends and our software capabilities to help customers navigate complex challenges and achieve their desired outcomes.
 
 Additionally, our team serves as liaisons between the customer and the GitLab ecosystem, streamlining collaboration with Product Management, Engineering, Sales, Professional Services, and others. [CSM handbook](/handbook/customer-success/csm).
 
