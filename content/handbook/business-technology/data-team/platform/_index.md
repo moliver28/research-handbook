@@ -995,7 +995,7 @@ The Qualtrics mailing list data pump process, also known in code as `Qualtrics S
 
 During the process, the Google Sheet is updated to reflect the process' status.  The first column's name is set to `processing` when the process begins, and then is set to `processed` when the mailing list and contacts have been uploaded to Qualtrics.  Changing the column name informs the requester of the process' status, assists in debugging, and ensures that a mailing list is only created once for each spreadsheet.
 
-The end user experience is described on the [UX Qualtrics page](/handbook/product/ux/qualtrics/#distributing-your-survey-to-gitlabcom-users).
+The end user experience is described on the [UX Qualtrics page](/handbook/product/ux/ux-research/surveys/qualtrics/#distributing-your-survey-to-gitlabcom-users).
 
 ##### Debugging to Qualtrics Processes
 
