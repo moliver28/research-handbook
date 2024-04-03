@@ -10,7 +10,7 @@ Reproducible Builds (RB) is a methodology for building software that allows the 
 The RB methodology is composed of three major tenants:
 
 - Hermetic: All build inputs are specified in an unambigious way. Each item that goes into a build is given a fully resolved version number and/or cryptographic hash. Hermeticity is verified as part of the build process.
-- Reproducable: When you run the build process, you should get the same bit-by-bit output as the developer. All sources of nondeterminism and variance should be removed and all information necessary to reproduce the build should be provided up front in a `buildinfo` or similar lock file.
+- Reproducible: When you run the build process, you should get the same bit-by-bit output as the developer. All sources of nondeterminism and variance should be removed and all information necessary to reproduce the build should be provided up front in a `buildinfo` or similar lock file.
 - Verifiable: Mechanisms should be employed to cryptographically verify the end binary to the source it was built from in a trustworthy manner.
 
 1. Sufficient similarity highlights that 100% verifiability is not always feesable. Variances across compiler versions, OS hardware, timestamps, ordering of files on a filesystem, and other sources of nondeterminism will degrade similarity metrics. Sufficient similarity goals are to be set by the source code maintainers.
