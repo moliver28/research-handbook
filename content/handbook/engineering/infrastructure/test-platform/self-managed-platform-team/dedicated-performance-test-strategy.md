@@ -30,13 +30,14 @@ flowchart LR
   tested_code --> gpt_test
   tested_code --> gbpt_test
 
-  subgraph GET Deployed Reference Architecture Environment
+  subgraph test_env[GET Deployed Reference Architecture Environment]
     direction TB
     gpt_test
     gbpt_test
     review_results
   end
 
+  reference_architectures --> test_env
   reference_architectures --> dedicated_tenant
   reference_architectures --> cell_tenant
   reference_architectures --> fedramp_tenant
