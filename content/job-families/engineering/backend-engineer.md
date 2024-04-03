@@ -161,7 +161,7 @@ The Staff Backend Engineer is a [grade 8](/handbook/total-rewards/compensation/c
 #### Responsibilities
 
 - Advocate for improvements to product quality, security, and performance that have particular impact across your team and others.
-- Solve technical problems of the largest scope or highest impact for your team.
+- Solve technical problems of the highest scope and complexity or largest impact for your team.
 - Exert significant influence on the overall objectives and long-range goals of your team.
 - Shepherd the definition and improvement of our internal standards for style, maintainability, and best practices for a high-scale web environment. Maintain and advocate for these standards through code review.
 - Drive innovation on the team with a willingness to experiment and to boldly confront problems of immense complexity and scope.
