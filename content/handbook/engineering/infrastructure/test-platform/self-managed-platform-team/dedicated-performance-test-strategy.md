@@ -63,12 +63,25 @@ flowchart LR
 ```mermaid
 flowchart LR
   %% nodes
+  ra_omni_1k(1k Architecture)
+  ra_omni_2k(2k Architecture)
+  ra_omni_3k(3k Architecture)
+  ra_omni_5k(5k Architecture)
+  ra_omni_10k(10k Architecture)
+  ra_omni_25k(25k Architecture)
+  ra_omni_50k(50k Architecture)
   ra_cnh_3k(3k Architecture)
-  gpt_cnh_3k(3k Architecture)
-  gbpt_cnh_3k(3k Architecture)
-  dedicated_cnh_3k(3k Architecture)
-  fedramp_cnh_3k(3k Architecture)
-  cells_cnh_3k(3k Architecture)
+  ra_cnh_2k(2k Architecture)
+  ra_cnh_5k(5k Architecture)
+  ra_cnh_10k(10k Architecture)
+  ra_cnh_25k(25k Architecture)
+  ra_cnh_50k(50k Architecture)
+  gpt_cnh_3k(3k CNH Architecture)
+  gpt_omni_3k(3k Omnibus Architecture)
+  gbpt_cnh_3k(3k CNH Architecture)
+  dedicated_cnh_3k(3k CNHArchitecture)
+  fedramp_cnh_3k(3k CNH Architecture)
+  cells_cnh_3k(3k CNH Architecture)
 
 
   %% diagram
@@ -78,6 +91,7 @@ flowchart LR
   subgraph test_env[GET Deployed Reference Architecture Environment]
     subgraph gpt_test[GPT test pipeline]
       gpt_cnh_3k
+      gpt_omni_3k
     end
 
     subgraph gbpt_test[GBPT test pipeline]
@@ -87,10 +101,23 @@ flowchart LR
 
   subgraph ref_arch[Reference Architectures]
     subgraph omnibus[Omnibus Architectures]
+      direction TB
+      ra_omni_1k
+      ra_omni_2k
+      ra_omni_3k
+      ra_omni_5k
+      ra_omni_10k
+      ra_omni_25k
+      ra_omni_50k
     end
 
-    subgraph cnh[Cloud Native Hybrid Architectures]
+    subgraph cnh[Cloud Native Hybrid\nArchitectures]
+      ra_cnh_2k
       ra_cnh_3k
+      ra_cnh_5k
+      ra_cnh_10k
+      ra_cnh_25k
+      ra_cnh_50k
     end
   end
   
@@ -107,13 +134,13 @@ flowchart LR
       cells_cnh_3k
     end
   end
-  test_env <-- ref_arch
-  ref_arch --> dedicated
-  ra_cnh_3k <--> gpt_cnh_3k
-  ra_cnh_3k <--> gbpt_cnh_3k
+
+  gpt_cnh_3k <--> ra_cnh_3k
+  gbpt_cnh_3k <--> ra_cnh_3k 
   ra_cnh_3k --> dedicated_cnh_3k
   ra_cnh_3k --> cells_cnh_3k
   ra_cnh_3k --> fedramp_cnh_3k
+  gpt_omni_3k <--> ra_omni_3k
 ```
 ## Gitaly focus
 
