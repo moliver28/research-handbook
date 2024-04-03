@@ -1,18 +1,12 @@
 ---
 
 title: "Test Coverage"
-description: "The Quality Department has coverage to support testing particular scenarios."
+description: "The Test Platform Department has coverage to support testing particular scenarios."
 ---
-
-
-
-
-
-
 
 ### Offline environments / Airgapped GitLab QA scenario
 
-The Quality Department has a GitLab QA scenario that supports [offline environment / air-gapped](https://docs.gitlab.com/ee/user/application_security/offline_deployments) testing.
+The Test Platform Department has a GitLab QA scenario that supports [offline environment / air-gapped](https://docs.gitlab.com/ee/user/application_security/offline_deployments) testing.
 The [scenario](https://gitlab.com/gitlab-org/gitlab-qa/-/blob/master/lib/gitlab/qa/scenario/test/instance/airgapped.rb) `Test::Instance::Airgapped` is part of [GitLab QA](https://gitlab.com/gitlab-org/gitlab-qa/-/blob/master/docs/what_tests_can_be_run.md#testinstanceairgapped)
 test scenarios. The suite runs against a test environment including [Gitaly Cluster](https://docs.gitlab.com/ee/administration/gitaly/) which have been configured using `iptables` to drop traffic other than specific ports which allow our test access to the test instances.
 
@@ -26,8 +20,8 @@ where test states such as failures can be filtered on.
 Nightly pipelines are visible at the
 [`gitlab-org/gitlab` nightly schedule pipelines](https://gitlab.com/gitlab-org/gitlab/-/pipeline_schedules) page (internal only).
 The offline environment / airgapped test job names are `ce:airgapped` and `ee:airgapped`.
-This is one of the [pipelines monitored by the Quality Engineering team](/handbook/engineering/infrastructure/test-platform/debugging-qa-test-failures/#qa-test-pipelines) as part of the
-[Quality Department pipeline triage on-call rotation](/handbook/engineering/infrastructure/test-platform/oncall-rotation/).
+This is one of the [pipelines monitored by the Test Platform team](/handbook/engineering/infrastructure/test-platform/debugging-qa-test-failures/#qa-test-pipelines) as part of the
+[Test Platform Department pipeline triage on-call rotation](/handbook/engineering/infrastructure/test-platform/oncall-rotation/).
 
 #### Other reference guides
 
@@ -41,7 +35,7 @@ Instructions for working with secure scanners can be found in the [Offline envir
 
 #### GitLab QA update scenario
 
-The Quality Department has a [`Test::Omnibus::UpdateFromPrevious`](https://gitlab.com/gitlab-org/gitlab-qa/-/blob/master/docs/what_tests_can_be_run.md#testomnibusupdatefromprevious-full-image-address-current_version-majorminor)
+The Test Platform Department has a [`Test::Omnibus::UpdateFromPrevious`](https://gitlab.com/gitlab-org/gitlab-qa/-/blob/master/docs/what_tests_can_be_run.md#testomnibusupdatefromprevious-full-image-address-current_version-majorminor)
 GitLab QA scenario that verifies update from the previous (major or minor) version to the current GitLab version ([scenario code](https://gitlab.com/gitlab-org/gitlab-qa/-/blob/master/lib/gitlab/qa/scenario/test/omnibus/update_from_previous.rb)).
 
 ##### Test run schedule
@@ -73,5 +67,5 @@ More information can be found within the [Upgrade Tester project](https://gitlab
 
 #### Work in progress
 
-Quality team is working on improving GitLab upgrades coverage and this effort is
-tracked in [epic#9201](https://gitlab.com/groups/gitlab-org/-/epics/9201).
+Test Platform team is working on improving GitLab upgrades coverage and this effort is
+tracked in [epic#12458](https://gitlab.com/groups/gitlab-org/-/epics/12458).
