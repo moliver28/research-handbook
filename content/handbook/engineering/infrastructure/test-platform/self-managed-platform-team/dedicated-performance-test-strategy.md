@@ -70,15 +70,26 @@ flowchart LR
   ra_omni_10k(10k Architecture)
   ra_omni_25k(25k Architecture)
   ra_omni_50k(50k Architecture)
-  ra_cnh_3k(3k Architecture)
   ra_cnh_2k(2k Architecture)
+  ra_cnh_3k(3k Architecture)
   ra_cnh_5k(5k Architecture)
   ra_cnh_10k(10k Architecture)
   ra_cnh_25k(25k Architecture)
   ra_cnh_50k(50k Architecture)
+  gpt_cnh_2k(2k CNH Architecture)
   gpt_cnh_3k(3k CNH Architecture)
+  gpt_cnh_5k(5k CNH Architecture)
+  gpt_cnh_10k(10k CNH Architecture)
+  gpt_cnh_25k(25k CNH Architecture)
+  gpt_cnh_50k(50k CNH Architecture)
   gpt_omni_3k(3k Omnibus Architecture)
+  gbpt_omni_3k(3k Omnibus Architecture)
+  gbpt_cnh_2k(2k CNH Architecture)
   gbpt_cnh_3k(3k CNH Architecture)
+  gbpt_cnh_5k(5k CNH Architecture)
+  gbpt_cnh_10k(10k CNH Architecture)
+  gbpt_cnh_25k(25k CNH Architecture)
+  gbpt_cnh_50k(50k CNH Architecture)
   dedicated_cnh_3k(3k CNHArchitecture)
   fedramp_cnh_3k(3k CNH Architecture)
   cells_cnh_3k(3k CNH Architecture)
@@ -90,18 +101,28 @@ flowchart LR
 
   subgraph test_env[GET Deployed Reference Architecture Environment]
     subgraph gpt_test[GPT test pipeline]
+      gpt_cnh_2k
       gpt_cnh_3k
+      gpt_cnh_5k
+      gpt_cnh_10k
+      gpt_cnh_25k
+      gpt_cnh_50k
       gpt_omni_3k
     end
 
     subgraph gbpt_test[GBPT test pipeline]
+      gbpt_cnh_2k
       gbpt_cnh_3k
+      gbpt_cnh_5k
+      gbpt_cnh_10k
+      gbpt_cnh_25k
+      gbpt_cnh_50k
+      gbpt_omni_3k
     end
   end
 
   subgraph ref_arch[Reference Architectures]
     subgraph omnibus[Omnibus Architectures]
-      direction TB
       ra_omni_1k
       ra_omni_2k
       ra_omni_3k
@@ -140,7 +161,6 @@ flowchart LR
   ra_cnh_3k --> dedicated_cnh_3k
   ra_cnh_3k --> cells_cnh_3k
   ra_cnh_3k --> fedramp_cnh_3k
-  gpt_omni_3k <--> ra_omni_3k
 ```
 ## Gitaly focus
 
