@@ -343,16 +343,48 @@ We follow the Quad Planning process defined [here](/handbook/engineering/infrast
 
 ### User Experience
 
-We strive to provide excellent usability in all of our workflows, creating a balance between user and business needs. Product Designers work closely with Product Managers and Engineers. Visit the [Fulfillment User Experience](/handbook/product/ux/stage-group-ux-strategy/fulfillment/) page for details.
+We strive to provide excellent usability in all of our workflows, creating a balance between user and business needs. Product Designers work closely with Product Managers and Engineers.
 
-In summary,
-- We measure our progres using [UX Scorecards](/handbook/product/ux/ux-scorecards/) and [Category Maturity Scorecards](/handbook/product/ux/category-maturity/category-maturity-scorecards/). See our [UX Health](/handbook/product/ux/stage-group-ux-strategy/fulfillment/#ux-health).
-- We follow the [Product Designer Workflows](/handbook/product/ux/product-designer/).
-- We track user research efforts using `UX Problem Validation` and `UX Solution Validation` labels.
-- We weight issues using the [UX issue weighting process](/handbook/product/ux/product-designer/#ux-issue-weights).
-- We create separate [UX] and [Engineering] issues to aid in tracking issue weights.
-- [UX] issues are the SSOT for designs and should reflect the latest design decisions. Related implementation issues should link to the [UX] issue for the design details to maintain the SSOT.
-- Fulfillment Product Designers participate in GitLab's reviewer roulette, but at this time only Fulfillment Product Designers should review CustomersDot MRs and GitLab MRs that require connection to CustomersDot (e.g., the GitLab.com purchase flow).
+#### How we work
+
+- We follow the [Product Designer workflows](/handbook/product/ux/product-designer/) and [UX Researcher workflows](/handbook/product/ux/ux-research/) described in the [Product Design section](/handbook/product/ux/) of the handbook.
+- We measure our progress using [UX Scorecards](/handbook/product/ux/ux-scorecards/) and [Category Maturity Scorecards](/handbook/product/ux/category-maturity/category-maturity-scorecards/).
+- We prioritize the most important projects every quarter, and Fulfillment product designers [support projects instead of Groups](#product-designer-focus-areas).
+- We use [[UX] issues](#ux-issue-management-and-weights) as the SSOT for designs. Implementation issues should link to the [UX] issue for the design details to maintain the SSOT.
+- We use labels to track our issues:
+  - `UX`, `devops::fulfillment`, `section::fulfillment` and `group::`.
+  - `workflow::` labels to indicate where the issue is in the [product development flow](/handbook/product-development-flow/)
+  - `UX Problem Validation` and `UX Solution Validation` for research efforts
+  - `design weight::` for [UX issue weights](/handbook/product/ux/product-designer/#ux-issue-weights)
+
+#### Product Designer focus areas
+
+The Fulfillment team is Project focused, and many projects span Groups, leading to gaps in the user experience or frequent designer borrow requests. In order to avoid this, we will assign designers to project areas, and revisit quarterly during OKR planning.
+
+- Priorities for the Fulfillment UX team are documented in a [prioritization issue](https://gitlab.com/gitlab-org/fulfillment/meta/-/issues/?label_name%5B%5D=Fulfillment%20UX%20Priorities).
+  - Priorities should be reviewed by the team quarterly, or when a new priority project is identified.
+- Anyone can propose projects identified for design focus in the issue. Product Managers should work with Product Designers and the Product Design Manager to rank the priorities. If multiple PMs are contributing to a project, one should be designated for UX planning.
+  - If we had to make a priority call to have projects that will go forward without design support, list those decisions in the issue.
+- Designers can still pick up issues outside their assigned projects. These should be crucial UX issues such as SUS Impacting issues or bugs. Issue weights can be used to discuss trade-offs when needed.
+- Anyone can use the #s_fulfillment_ux Slack channel to ask for assistance.
+
+Best practices
+
+- To manage workload, designers should generally be assigned to no more than one large and 1 small/medium project at a time, or 3-4 small/medium projects (or the equivalent in issue weights).
+- Designers should use their best judgement and collaborate with their teams to decide which meetings to attend. Designers aren't expected to attend team sync meetings for multiple teams at the same time.
+- Product Designers should be assigned [UX MR reviews](/handbook/product/ux/product-designer/mr-reviews/) for the projects they're supporting. 
+  - If UX review is needed on an MR that is part of a project without an assigned designer, post the request in the #s_fulfillment_ux Slack channel. UX MR review requests in the Slack channel will be picked up based on bandwidth.
+
+#### UX issue management and weights
+
+We use separate [UX] issues for medium or large projects that will take more than one dev issue to implement (e.g., end-to-end flows, complicated logic, or multiple use cases / states that will be broken down by engineering into several implementation issues). UX issues should be prefixed with [UX].
+
+If the work is small enough that implementation can happen in a single issue, then a separate [UX] issue is not needed, and the designer should assign themselves to the issue and use workflow labels to indicate that it's in the design phase.
+
+- [UX] issues are the SSOT for design goals, design drafts, design conversation and critique, and the chosen design direction that will be implemented. Implementation issues should link to the designs in the [UX] issue as the SSOT.
+- Product requirement discussions should continue to happen in the main Issue or Epic as much as possible.
+- When the Product Designer wants to indicate that the design is ready for ~"workflow::planning breakdown", they should apply this label to their issue, notify the PM and EM, and close the issue.
+- Issue weights should follow the [UX Department's definitions](/handbook/product/ux/product-designer/#ux-issue-weights) and are applied using the ~'design weight:" label.
 
 ### Approving and merging the work
 
