@@ -1,5 +1,5 @@
-
-### Talent Management Roles
+---
+title: "Talent Management Roles"
 description: "The Talent Management job family creates and facilitates programs designed to accelerate performance and talent at GitLab."
 ---
 
@@ -10,11 +10,11 @@ The Talent Management job family creates and facilitates programs designed to ac
 
 The Senior Talent Management Partner reports to the Director, Talent Management.
 
-### Job Grade
+#### Senior Talent Management Partner Job Grade
 
 The Senior Talent Management Partner is a [grade 7](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
-### Responsibilities
+#### Senior Talent Management Partner Responsibilities
 
 - Partners with PBPs and Divisions to ensure talent strategies align with business needs
 - Identifies common talent needs across the organization to inform strategic priorities in alignment with overarching Talent strategy. Consult with business partners on specific talent needs
@@ -34,7 +34,7 @@ The Senior Talent Management Partner is a [grade 7](/handbook/total-rewards/comp
 - Establishes talent identification and succession strategies
 - Assist with and complete other Talent Management projects and duties as assigned
 
-### Requirements
+#### Senior Talent Management Partner Requirements
 
 - Proven progressive experience with a background in people business partnering, learning and development, or analytics preferred
 - Experience with the strategy design, implementation and governance of global talent processes
@@ -51,17 +51,15 @@ The Senior Talent Management Partner is a [grade 7](/handbook/total-rewards/comp
 - Ability to solve problems in a practical manner
 - Open, inclusive, and flexible mindset
 
-
-
 ### Director, Talent Management
 
 The Director, Talent Management reports to the [VP, Talent & Engagement](/job-families/people-group/talent-acquisition-leadership/).
 
-### Job Grade
+#### Director, Talent Management Job Grade
 
 The Director, Talent Management is a [grade 10](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
-### Responsibilities
+#### Director, Talent Management Responsibilities
 
 - Partner with our People Business Partner team to evolve our talent assessment and promotion processes
 - At an enterprise-view, build a process to continuously evaluate and report on organizational design themes to ensure that we grow in the most effective way possible (e.g. org shape)
@@ -72,7 +70,7 @@ The Director, Talent Management is a [grade 10](/handbook/total-rewards/compensa
 - In conjunction with Talent Development, develop and own a company-wide coaching strategy for our leadership teams
 - Design and drive our Succession planning program
 
-### Requirements
+#### Director, Talent Management Requirements
 
 - Strong track record delivering talent management programs at a fast-growth company
 - Previous experience working in a strategic capacity, helping drive initiatives and influencing change through different stakeholder groups
@@ -83,4 +81,5 @@ The Director, Talent Management is a [grade 10](/handbook/total-rewards/compensa
 - Understanding of technology architecture and have partnered with people technology in previous roles to help effectuate change
 - Comfortable setting a multi-year plan and delivering against it
 - Used to influencing and driving change at the Executive level
+
 
