@@ -22,12 +22,11 @@ The Commercial Account Executive- Mid-Market is a [grade 7](/handbook/total-rewa
   - Drive attendance to our events, which you will be part of to further network with current and prospective customers
 - Contribute to root cause analyses on wins/losses.
   - Communicate lessons learned to the team, including account managers, the marketing team, and the technical team.
-- Contribute to documenting improvements in our [sales handbook](/handbook/sales/).
+- Contribute to documenting improvements in our [sales handbook](/handbook/sales/)
 - Collaborate with cross-functional teams, such as Customer Success, Renewals, Sales Development, etc. to provide account leadership, ensuring a good outcome for our customers in the pre- and post-sales process
 - Be the voice of the customer by contributing product ideas to our public [issue tracker](https://gitlab.com/gitlab-org/gitlab-ee/issues)
 - Master MEDPICC and Command of the Message on all opportunities
 
-{{% job-families/sales/performance %}}
 
 ### Requirements
 
@@ -44,7 +43,7 @@ The Commercial Account Executive- Mid-Market is a [grade 7](/handbook/total-rewa
 
 ## Commercial Account Executive - Named
 
-The Commercial Account Executive- Mid-Market is a [grade 7](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+The Commercial Account Executive- Named is a [grade 7](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
 ## Responsibilities
 
@@ -54,10 +53,22 @@ The Commercial Account Executive- Mid-Market is a [grade 7](/handbook/total-rewa
   - Develop and execute on an account plan enabling you to meet or exceed your quota
   - Expand your Key Accounts by more than the standard expansion rate
   - Build a strong pipeline through a healthy cadence of prospecting activity
+  - Work and collaborate with our Partner ecosystem to drive new business and value for our customers
+  - Create an accurate forecast for each quarter against your plan/budget 
+- Contribute to root cause analyses on wins/losses.
+  - Communicate lessons learned to the team, including account managers, the marketing team, and the technical team
+- Contribute to documenting improvements in our [sales handbook](/handbook/sales/)
+- Collaborate with cross-functional teams, such as Customer Success, Renewals, Sales Development, etc. to provide account leadership, ensuring a good outcome for our customers in the pre- and post-sales process
+- Be the voice of the customer by contributing product ideas to our public [issue tracker](https://gitlab.com/gitlab-org/gitlab-ee/issues)
+- Master MEDPICC and Command of the Message on all opportunities
+
+## Performance Indicators
+
+As with all roles in the Sales Department the Strategic Account Executive participates in the [Sales KPIs](/handbook/company/kpis/#sales-kpis).
 
 ## Career Ladder
 
-The next step in the Account Executive - Mid Market job family is to move to the Commercial Account Executive Named role, [Strategic Account Executive](/job-families/sales/enterprise-account-executive) job family or the [Sales Management](/job-families/sales/area-sales-manager/) Job Family.
+The progression of the Commercial Account Executive job family is to move from Commercial Account Executive - Mid-Market to either the Commercial Account Executive - Named role, [Strategic Account Executive](/job-families/sales/enterprise-account-executive) job family or the [Sales Management](/job-families/sales/area-sales-manager/) job family.
 
 ## Hiring Process
 
@@ -78,21 +89,3 @@ Additional details about our process can be found on our [hiring page](/handbook
 
 
 
-We are seeking proven, quota-carrying sales performers to help us grow our enterprise customer base within the Financial Service sector. Responsibilities include generating new logo business and generating new business in existing accounts.
-
-### Financial Services
-
-#### Responsibilities
-
-- Act as a primary point of contact and the face of GitLab for our Financial Services prospects/clients.
-- Lead qualification for all Financial Services leads and sales opportunities
-- Up-selling and leveraging business from new and established customer relationships
-
-#### Requirements
-
-- Strong understanding of the financial services industry and demonstrated progressive experience selling into brokerage, banking, wealth/asset management or payments accounts
-- Account planning and execution skills
-- Ability to sell C-Level and across both IT and business units
-- A proven track record of driving and closing enterprise deals
-- Demonstrated progressive solution sales experience
-- Ability to maintain a high level of productivity, manage multiple competing priorities, and work effectively under the pressure of time constraints in a fast-paced, complex, collaborative, and team-oriented environment
