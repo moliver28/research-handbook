@@ -23,3 +23,10 @@ The GitLab Beta Program aims to increase engagement with early adopters, create 
 3. There has to be an required & explicit acceptance to the terms & conditions of our testing agreement before Beta or Experimental features can be used.
 4. There is an optional opt-in to receive marketing communications regarding beta or experimental features. 
 5. Guidance from UX & Product should be followed how this gets implemented for a consistent user experience.
+
+### FYI
+
+For guidelines on how features are marked as Beta or Experimental, along with their legal and support status please refer to one of the following pages:
+
+1. https://docs.gitlab.com/ee/policy/experiment-beta-support.html
+2. https://docs.gitlab.com/ee/development/gitlab_beta_program/features.html
