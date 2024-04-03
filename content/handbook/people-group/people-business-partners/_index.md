@@ -32,11 +32,11 @@ PBPs collaborate across the People Group to ensure people and business strategy 
 
 ## How to partner with PBPs to foster high performance in your team:
 
-### Team Structure and Org Health
+### Team Structure and Organizational Health
 
-People Business Partners partner with senior leadership to drive organizational design initiatives in each division that drive results and enable a culture of belonging and career growth. Please reach out to your PBP to discuss new New organizational structures or re-alignment of team members.
+People Business Partners partner with senior leadership to drive organizational design initiatives in each division that drive results and enable a culture of belonging and career growth. Please reach out to your PBP to discuss new organizational structures or re-alignment of team members.
 
-Additionally, PBPs support team member engagement in each division using sentiment data from our engagmeent surveys and driving action planning in the divisions. You can also talk to your PBP about specific retention concerns or strategies as needed.
+Additionally, PBPs support team member engagement in each division using sentiment data from our engagement surveys and driving action planning in the divisions. You can also talk to your PBP about specific retention concerns or strategies as needed.
 
 #### For more information:
 
@@ -44,7 +44,7 @@ Additionally, PBPs support team member engagement in each division using sentime
 1. GitLab Job Frameworks
 1. Team Member Engagement: [Engagement Survey](https://handbook.gitlab.com/handbook/people-group/engagement/#engagement-and-org-health-surveys-overview) analysis and action planning
 
-### Talent program execution in your division
+### Talent Program Execution in your division
 
 PBPs collaborate with Talent Management, Talent Development, Total Rewards,and all People Group teams to execute talent programs in each division.  Where appropriate, PBPs contribute to project teams to ensure talent programs meet specific business needs.
 
