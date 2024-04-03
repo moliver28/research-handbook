@@ -115,13 +115,13 @@ After closing your survey, its now time to see how much the prevention measures 
 1. Select `Embedded data`, select an `Embedded Data field`, select an `Operator` and enter/select an `Embedded Data Value`.
     - For every sample you create, you must always add sampling criteria for `Stage groups` and `Types of research`. When a person signs up to GitLab First Look, they specify what they would like to receive studies about (stage groups) and what type of research they would like to take part in. It’s extremely important that when you contact users, you only email them in relation to their preferences.
     - Remember the embedded data for `Stage groups` and `Types of research` can contain multiple values (it’s rare that users sign-up to receive emails abouts one particular stage group or want to take part in one form of research). Therefore, your `Operator` will always be `Contains`.
-    - For more information on what embedded data is available, please refer to the [embedded data](/handbook/product/ux/qualtrics/#embedded-data) section.
+    - For more information on what embedded data is available, please refer to the [embedded data](/handbook/product/ux/ux-research/surveys/qualtrics/#embedded-data) section.
 1. Click `New Condition` to add additional sampling criteria.
 1. Click `Create` once you have finished entering your sampling criteria.
 1. A progress bar will appear, this indicates that Qualtrics is building your sample.
 1. Once the sample is ready, click `Go to Sample` (Alternatively you can navigate to `Lists` and your new sample will be visible under `All Lists`. Click on your sample to access it).
 1. The number of contacts in your sample will show on the left hand side of the screen.
-    - [What to do if your sample size is lower than expected](/handbook/product/ux/qualtrics/#what-to-do-if-your-sample-size-is-lower-than-expected)
+    - [What to do if your sample size is lower than expected](/handbook/product/ux/ux-research/surveys/qualtrics/#what-to-do-if-your-sample-size-is-lower-than-expected)
 1. If you are happy with the number of contacts in your sample, you are now ready to send your survey to users. To do this, go to `Projects`
 1. Select the project/survey you want to distribute to users.
 1. Click `Distributions`
