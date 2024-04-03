@@ -48,4 +48,4 @@ Justification for your sample size is often needed to help other team members un
 4. What does the confidence level and margin of error mean?
 
 Here is an example of a filled in report slide for a survey:
-![Example slide reporting sample size](/handbook/product/ux/ux-research/surveys/Example_slide_reporting_sample_size.png)
+![Example slide reporting sample size](/handbook/product/ux/ux-research/surveys/Example_slide_reporting_sample_size1.png)
