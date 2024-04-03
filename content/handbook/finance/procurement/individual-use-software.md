@@ -10,7 +10,7 @@ title: Individual Use Software
 
 ## I Need Individual Use Software- Where Do I Start?
 
-- If you need a individual use software subscription, please first check the list of [Tech Stack applications](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/tech_stack.yml).
+- If you need a individual use software subscription, please first check the list of [Tech Stack applications](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/tech_stack.yml) and/or the listing of [Pre-Approved Individual Use Software](https://internal.gitlab.com/handbook/finance/procurement/pre-approved-individual-use-software/)
     - If your vendor is listed in the tech stack, please submit an [access request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=Individual_Bulk_Access_Request) using the Individual Bulk Access Request template to gain access.
 - If you would like more information about freeware, please refer to GitLab's [Internal Acceptable Use Policy](https://handbook.gitlab.com/handbook/people-group/acceptable-use-policy/)
 - If GitLab does not have any existing agreements with your preferred vendor, please consider whether one of our existing vendors may be able to service your needs adequately. It is always preferable to add users to existing agreements that have already been screened and approved where possible, as this decreases GitLab’s risk and grants you access to the tools you need sooner.
