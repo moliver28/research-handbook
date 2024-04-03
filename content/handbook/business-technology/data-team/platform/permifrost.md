@@ -30,7 +30,7 @@ Permifrost is a Python tool for managing permissions on a Snowflake data warehou
 
 #### :white_check_mark: What Permifrost is and what it is doing
 
-* Is working only on the Snowflake environment
+* Supports Snowflake only
 * Permifrost is taking care of roles and privileges only
 * Objects that exist but are not in the config file do not lead to errors
 * Is a fully open-source package and everyone can contribute
