@@ -89,7 +89,7 @@ Detailed process is described on [Performance and Scalability](https://docs.gitl
 | Upgrade path scenarios               | Example                                                                                                                                          |
 |--------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|
 | Latest update stop → GitLab Nightly | [16.7.7 → nightly](https://gitlab.com/gitlab-org/quality/upgrade-tester/-/pipelines/1234507969)                                                 |
-| Latest GitLab release → GitLab Nightly | [16.10.1 → nightly]()
+| Latest GitLab release → GitLab Nightly | [16.10.1 → nightly](https://gitlab.com/gitlab-org/quality/upgrade-tester/-/pipelines/1240098663)
 | Custom path scenarios                | [15.0.0, 15.0.5, 15.4.6, 15.11.13, 16.1.6, 16.3.7, 16.7.7, 16.10.0](https://gitlab.com/gitlab-org/quality/upgrade-tester/-/pipelines/1238546334) |
 
 Focused on building and testing different upgrade paths using the [Reference Architectures](https://docs.gitlab.com/ee/administration/reference_architectures), the Upgrade Tester pipelines build and upgrade environments starting at a specified version and ending at either the latest nightly package or a specific version. For each upgrade the path used to upgrade differs depending on the start and end versions used. For example, when starting with version 16.0.0 the upgrade path would be
