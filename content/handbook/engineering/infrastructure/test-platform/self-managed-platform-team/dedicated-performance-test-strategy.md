@@ -156,8 +156,8 @@ TBD
 * We have recommendations on how to determine what sized Reference Architecture they should need
 * We have performance tested the CNH Reference Architectures and are confident in our published metrics
 * We will listen to their concerns and work with them to provide better confidence in GitLab
-    * We added a [50k Reference Architecture](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/issues/2445) due to a customer request
-    * We added [monorepo testing based on Chromium](https://gitlab.com/gitlab-org/quality/quality-engineering/team-tasks/-/issues/2377) 
+  * We added a [50k Reference Architecture](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/issues/2445) due to a customer request
+  * We added [monorepo testing based on Chromium](https://gitlab.com/gitlab-org/quality/quality-engineering/team-tasks/-/issues/2377) 
 
 
 ## Environment specific Notes
