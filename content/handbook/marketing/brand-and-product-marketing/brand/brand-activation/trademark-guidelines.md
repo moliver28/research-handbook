@@ -19,7 +19,7 @@ To protect our intellectual property rights and our reputation, we are careful a
 
 These Trademark Guidelines (“**Guidelines**”) apply to all trademarks of GitLab Inc. and its affiliates (“**GitLab Inc.**”, “**we**”, “**us**”, and “**our**”), including the GITLAB name (the “**GitLab Name**”); the [Core Logo](https://design.gitlab.com/brand-logo/core-logo/), [Logomark](https://design.gitlab.com/brand-logo/logomark/), and [Wordmark](https://design.gitlab.com/brand-logo/core-logo#wordmark) (the “**Logos**”); and all other registered and unregistered trademarks (collectively, the “**Trademarks**”).
 
-Use of the Logos is not permitted under these Guidelines. To request use of the Logos in any manner and for any purpose, or use of the Trademarks in a manner, or for a purposes, not expressly permitted in these Guidelines, email [intellectualproperty@gitlab.com](mailto:intellectualproperty@gitlab.com).
+Use of the Logos is not permitted under these Guidelines. To request use of the Logos in any manner and for any purpose, or use of the Trademarks in a manner, or for purposes, not expressly permitted in these Guidelines, email [intellectualproperty@gitlab.com](mailto:intellectualproperty@gitlab.com).
 
 ### **1. Use of the Trademarks**
 
