@@ -28,7 +28,7 @@ Know someone who might be a great fit for our team? Please refer them to the job
 - When supporting a customer, any issue, incident or loss is *GitLab's loss*.
   - When a customer experiences trouble or downtime, take action with the same urgency you'd have if GitLab were experiencing downtime.
   - When a customer is losing productivity, take action with the same urgency you'd have if GitLab were losing productivity.
-  - A customer with 2,500 users whose instance is down, gets the same urgency as if GitLab were losing $1,000,000 per day. This treatment is equal regardless of how much they are paying us.
+  - A customer with 2,500 users whose instance is down, gets the same urgency as if GitLab were losing $1,000,000 per day.
 - Escalate early. Visibility across GitLab, up to and including the CEO, is always better earlier rather than later. Ensure all resources needed are on the case for customers early.
 
 Remember, as members of the support team we are the first to interact with someone when they have a problem or question. As such it is up to us to represent the company and make sure we present ourselves properly. Therefore we are expected to:
