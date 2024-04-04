@@ -13,7 +13,7 @@ Our base performance test approach is proactively test against [Reference Archit
 
 Dedicated deploys Cloud Native environments based on Reference Architectures so the testing we do is directly mappable to the Dedicated Tenant environments.
 
-### Diagrams
+**Debating between the two diagrams**
 ```mermaid
 flowchart LR
   %% nodes
@@ -60,7 +60,9 @@ flowchart LR
     end
   end
 ```
-Note: For readability this diagram only shows the lines for the 3k `Reference Architecture`, there are equivalant lines for all the Reference Architectures to the `GET Deployed Reference Architecture Performance Test Environments` and from the Cloud Native Hybrid Reference Architectures to the `Dedicated Deployed Environments` (based on the size of the tenant environment)
+
+For readability this diagram only shows the lines for the [3k Cloud Native Hybrid Reference Architecture](https://docs.gitlab.com/ee/administration/reference_architectures/3k_users.html#cloud-native-hybrid-reference-architecture-with-helm-charts-alternative). Lines for the other [Reference Architectures](https://docs.gitlab.com/ee/administration/reference_architectures/) could be drawn instead. We have performance results for the [availiable versions of GitLab](https://gitlab.com/gitlab-org/quality/performance/-/wikis/Benchmarks/GitLab-Versions). 
+
 ```mermaid
 flowchart LR
   classDef hidden display: none;
@@ -157,9 +159,23 @@ TBD
     * We added a [50k Reference Architecture](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/issues/2445) due to a customer request
     * We added [monorepo testing based on Chromium](https://gitlab.com/gitlab-org/quality/quality-engineering/team-tasks/-/issues/2377) 
 
-## Cells
 
-## FedRAMP
+## Environment specific Notes
+### Dedicated
+
+* Deploys the previous major release of GitLab
+* Deploys to AWS/GCP
+
+### Cells
+
+* Deploys the current version of GitLab
+* Deploys to GCP
+
+### FedRAMP
+
+* Deploys the current version of GitLab
+* Deploys in AWS GovCloud
+* Uses FIPS enabled base images
 
 
 ## Sample issues supporting customer requests
