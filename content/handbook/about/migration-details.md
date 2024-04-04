@@ -1645,7 +1645,6 @@ people-group/employment-branding/index.html.md
 people-group/employment-branding/awards-process/index.html.md
 people-group/employment-branding/content-library/index.html.md
 people-group/employment-branding/glassdoor-escalation/index.html.md
-people-group/people-connect-shadow-program/index.html.md
 people-group/celebrations/index.html.md
 people-group/frequent-requests/index.html.md
 people-group/contracts-probation-periods/index.html.md.erb
