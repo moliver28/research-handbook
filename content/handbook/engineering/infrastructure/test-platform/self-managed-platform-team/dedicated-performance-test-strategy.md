@@ -1,6 +1,6 @@
 ---
 
-title: Performance Testing in Dedicated
+title: Performance Testing of Reference Architectures
 ---
 
 ## Overview
