@@ -460,21 +460,32 @@ This template is a guideline and feel free to alter it to specific project needs
 
 2. **% Complete**: `X%`
 
+<!--
 The following calculations can help inform this %.
 
+Open this page and filter for your epic: https://gitlab.com/groups/gitlab-org/-/issues/?sort=created_date&state=all&first_page_size=100
+
+```javascript
 // Numerator: Calculate total weight of closed issues (use `defaultWeight` for issues without weight)
-const defaultWeight = 1;
+let defaultWeight = 0;
 [...document.querySelectorAll('.issue.closed')].reduce((memo, el) => {
     const weightText = el.querySelector('.issuable-weight')?.innerText;
-    return memo + Number(weightText) || defaultWeight;
+    return memo + (Number(weightText) || defaultWeight);
 }, 0);
 
 // Denominator: Calculate total weight of open and closed issues (use `defaultWeight` for issues without weight)
-const defaultWeight = 1;
+let defaultWeight = 0;
 [...document.querySelectorAll('.issue')].reduce((memo, el) => {
     const weightText = el.querySelector('.issuable-weight')?.innerText;
-    return memo + Number(weightText) || defaultWeight;
+    return memo + (Number(weightText) || defaultWeight);
 }, 0);
+
+// Finds open issues with missing weight
+[...document.querySelectorAll('.issue')].filter(el => {
+    return !el.classList.contains('closed') && !el.querySelector('.issuable-weight');
+}).length;
+```
+-->
 
 3. **Status**: `On Track or Behind` (this is determined based on your how your % complete is trending to your key dates -- are you far enough along to hit your key dates?)
 
