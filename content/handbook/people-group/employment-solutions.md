@@ -63,6 +63,7 @@ Note: In countries with a star (*) hiring is limited to only certain roles, more
 | France *                                                    | Employee            | GitLab France S.A.S.                                   |            12 | GitLab Payroll Dept | Y                     |
 | Germany                                                     | Employee            | GitLab GmbH                                            |            12 | GitLab Payroll Dept | Y                     |
 | Ireland                                                     | Employee            | GitLab Ireland Ltd                                     |            12 | GitLab Payroll Dept | Y                     |
+| Israel *                                                     | Employee            | Oxeye Security Ltd. Ltd                                     |            12 | GitLab Payroll Dept | Y                     |
 | Japan                                                       | Employee            | GitLab GK                                              |            12 | GitLab Payroll Dept | Y                     |
 | Netherlands                                                 | Employee            | GitLab BV                                              |         12.96 | GitLab Payroll Dept | Y                     |
 | New Zealand *                                               | Employee            | GitLab PTY Ltd NZ (Branch of GitLab PTY Ltd Australia) |            12 | GitLab Payroll Dept | Y                     |
