@@ -45,7 +45,7 @@ The Commercial Account Executive- Mid-Market is a [grade 7](/handbook/total-rewa
 
 The Commercial Account Executive- Named is a [grade 7](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
-## Responsibilities
+### Responsibilities
 
 - Meet or exceed quota while fostering strong customer relationships
 - Take ownership of and act as the CEO for your book of business of key accounts:
@@ -54,7 +54,7 @@ The Commercial Account Executive- Named is a [grade 7](/handbook/total-rewards/c
   - Expand your Key Accounts by more than the standard expansion rate
   - Build a strong pipeline through a healthy cadence of prospecting activity
   - Work and collaborate with our Partner ecosystem to drive new business and value for our customers
-  - Create an accurate forecast for each quarter against your plan/budget 
+  - Create an accurate forecast for each quarter against your plan/budget
 - Contribute to root cause analyses on wins/losses.
   - Communicate lessons learned to the team, including account managers, the marketing team, and the technical team
 - Contribute to documenting improvements in our [sales handbook](/handbook/sales/)
