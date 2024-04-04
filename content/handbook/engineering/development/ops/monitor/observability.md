@@ -100,7 +100,7 @@ If you are ever looking for additional issues to work on:
 
 ### How to enable Observability Beta for a customer?
 
-To enable access to Logs, Trace, and Metrics Beta for a certain customer, follow this process:
+To enable access to Logs, Tracing, and Metrics Beta for a certain customer, follow this process:
 
 For SaaS:
 
