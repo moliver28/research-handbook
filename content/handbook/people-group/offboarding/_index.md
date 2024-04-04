@@ -49,15 +49,6 @@ For any other offboarding questions, please reach out to People Connect via `peo
 1. **People Business Partner:** You will receive a prompt in your Workday Inbox to review the termination particlars submitted by the Manager if you are satisfied with the details enclosed and aligned with the Manager on the final date of employment click `Approve`.  In the instance that you feel further discussion is required a sync with the Manager and/or Team Member should be arranged and the particulars can be sent back for further review.
 1. **People Connect:** Once the transaction has been fully approved the team will receive a notification of the termination within the Workday Inbox.
 
-#### Statutory Holiday Allowance
-
-1. **Payroll:** If the team member is located in a country with statutory holiday allowance their balances at the time of resignation should be shared and confirmed with both the manager and team member via email - this email should be uploaded to the departing team members Workday Profile within the [documents tab](https://docs.google.com/document/d/1ao_d_JxvqvZdqxlt4mBoHe1GcAhYT7B6YQoBgDxPdRE/edit).
-1. **Payroll:** Once this action has been completed an Acknowledgement Letter can be prepared the format for which will depend on the **location** and **employment status** of the team member e.g. [GitLab Ltd (UK) Resignation Acknowledgement](https://docs.google.com/document/d/1zV1qnZmjQaNZ3QUjrLOtod-FbboNCPmYdqCLIAc7aos/edit) and [GitLab BV (Netherlands) Resignation Acknowledgement](https://docs.google.com/document/d/1-9hCL2Xs5po4lZ19L2vrcmGxQIYRD-Emyci3F63kt0c/edit).
-1. **Payroll:** The Acknowledgement Letter should be released for signature via DocuSignand once complete should also be uploaded to the respective team members Workday Profile.
-
-**Note:** GitLab UK team members, payroll can pay up to and including the 5th day of the following month. For example, if a team member's last day is February 2nd, the team member can receive their final pay for this in January's payroll.
-
-
 ### Offboarding
 
 1. **People Connect:** On the Last Day of Work indicated in Workday at the [pre-determined time]({{< ref "offboarding_standards#notice-of-offboarding" >}}) the offboarding issue will be [created](/handbook/people-group/engineering/offboarding#scheduled-offboarding-issue-creation) - this will signal to all system owners that team member access can be revoked.  In the instance that the automation does not trigger the offboarding can be [initiated manually](https://internal.gitlab.com/handbook/people-group/people-operations/engineering/employment-automation/pops-commands/offboarding/) once this has happened all other back-end offboarding processes facilitated by People Connect can get underway.
