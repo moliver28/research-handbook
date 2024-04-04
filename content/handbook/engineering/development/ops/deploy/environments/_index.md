@@ -307,7 +307,7 @@ Team members should use their best judgment to determine whether to assign the f
 - Does the MR require a lot of dev environments setup that team members outside the Environments group are likely to not have?
 - Is the MR part of a larger effort for which a specific team member already has all the context?
 
-During the initial review, team members and domain experts are encouraged to share the broader context in a comment to help a maintainer perform their review efficiently. This context may cover:
+As team members and domain experts, both the MR author and initial reviewer are encouraged to share the broader context before, during, and throughout the review process to assist maintainers in conducting efficient reviews. This context may cover:
 
 - Known limitations;
 - Edge cases;
