@@ -19,7 +19,9 @@ For more details about the vision for this area of the product, see the
 
 ### Stable counterparts
 
-{{% stable-counterparts manger-role="Engineering Manager(.*)Plan:Product Planning" role="[,&] (Planning(.*:)|Plan:Product Planning)" %}}
+{{% stable-counterparts manager-role="Engineering Manager(.)Plan:Product Planning" role="(.)Plan:Product Planning$|Product Manager(.)Plan Stage|Security(.)Plan|Engineering(.)Plan$|Principal(.)Plan$|Group(.*)Plan" %}}
+
+
 
 ### Hiring chart
 
