@@ -33,7 +33,33 @@ Instructions for working with secure scanners can be found in the [Offline envir
 
 ### GitLab Upgrades
 
+The goal of GitLab Upgrades test coverage is to ensure that if customer is following [upgrade path](https://docs.gitlab.com/ee/update/index.html#upgrade-paths) the upgrade is successful.
+
+To achieve the best coverage, Test Platform follows [Test Pyramid approach](https://docs.gitlab.com/ee/development/testing_guide/testing_levels.html)
+by shifting left to unit tests without build environments in merge requests
+and going up to system level testing with actual environments being built:
+
+1. Lower level testing - [Multi-version migration upgrade jobs](#multi-version-migration-upgrade-jobs)
+1. System level testing - [Single-node/Docker upgrades](#gitlab-qa-update-scenario)
+1. System level testing - [Multi-node/Self-Managed upgrades](#upgrade-tester)
+
+#### Multi-version migration upgrade jobs
+
+| Upgrade path scenarios                     | Example             |
+|--------------------------------------------|---------------------|
+| Latest update stop → GitLab Merge Requests | [16.7.7 → MR in 16.11](https://gitlab.com/gitlab-org/gitlab/-/jobs/6488556764) |
+
+[`db:migrate:multi-version-upgrade`](https://docs.gitlab.com/ee/development/database/dbmigrate:multi-version-upgrade-job.html)
+validates that migrations pass for multi-version upgrade from the latest required upgrade stop to the author’s working branch.
+It allows catching migration error at unit-level without building an environment.
+Test job runs Database migrations against PostgreSQL dump created from the latest known GitLab version stop with test data.
+
 #### GitLab QA update scenario
+
+| Upgrade path scenarios                                  | Example             |
+|---------------------------------------------------------|---------------------|
+| Latest update stop in previous major → GitLab `master`  | [15.11.13 → 16.1.6 → 16.3.7 → 16.7.7 → 16.11 pre](https://gitlab.com/gitlab-org/gitlab/-/jobs/6539783636#L351) |
+| Current GitLab stable release → GitLab `master`        | [16.10.1 → 16.11 pre](https://gitlab.com/gitlab-org/gitlab/-/jobs/6539783632#L350) |
 
 The Test Platform Department has a [`Test::Omnibus::UpdateFromPrevious`](https://gitlab.com/gitlab-org/gitlab-qa/-/blob/master/docs/what_tests_can_be_run.md#testomnibusupdatefromprevious-full-image-address-current_version-majorminor)
 GitLab QA scenario that verifies update from the previous (major or minor) version to the current GitLab version ([scenario code](https://gitlab.com/gitlab-org/gitlab-qa/-/blob/master/lib/gitlab/qa/scenario/test/omnibus/update_from_previous.rb)).
@@ -59,6 +85,11 @@ nightly image.
 Detailed process is described on [Performance and Scalability](https://docs.gitlab.com/ee/administration/reference_architectures/#how-to-interpret-the-results) page.
 
 #### Upgrade Tester
+
+| Upgrade path scenarios               | Example                                                                                                                                          |
+|--------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|
+| Latest update stop → GitLab Nightly | [16.7.7 → nightly](https://gitlab.com/gitlab-org/quality/upgrade-tester/-/pipelines/1234507969)                                                 |
+| Custom path scenarios                | [15.0.0, 15.0.5, 15.4.6, 15.11.13, 16.1.6, 16.3.7, 16.7.7, 16.10.0](https://gitlab.com/gitlab-org/quality/upgrade-tester/-/pipelines/1238546334) |
 
 Focused on building and testing different upgrade paths using the [Reference Architectures](https://docs.gitlab.com/ee/administration/reference_architectures), the Upgrade Tester pipelines build and upgrade environments starting at a specified version and ending at either the latest nightly package or a specific version. For each upgrade the path used to upgrade differs depending on the start and end versions used. For example, when starting with version 16.0.0 the upgrade path would be
 `16.0.0, 16.1.6, 16.3.7, 16.7.7, nightly`.
