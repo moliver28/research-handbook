@@ -121,6 +121,9 @@ Business Justification: The staff level requires deep technical and functional k
 - Provide mentorship for all on your team to help them grow in their technical responsibilities
 - Propose ideas to improve the scale, performance, and capabilities of the Data Platform
 
+### Prinicipal Data Engineer
+
+
 ## Specialties
 
 ### Senior Data Engineer Big Data
