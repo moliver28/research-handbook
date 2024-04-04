@@ -62,6 +62,21 @@ The Commercial Account Executive- Named is a [grade 7](/handbook/total-rewards/c
 - Be the voice of the customer by contributing product ideas to our public [issue tracker](https://gitlab.com/gitlab-org/gitlab-ee/issues)
 - Master MEDPICC and Command of the Message on all opportunities
 
+### Requirements
+
+- Demonstrated progressive experience with Software sales, with experience selling to Executives and increasing nARR of current buying clients to Top Tier Solutions
+- Progressive experience building and owning a territory of business
+- A true desire to see customers benefit from the investment they make with GitLab
+- Excellence in operational rigor when it comes to Deal Management in Salesforce as well as Clari Forecasting
+- Ability to leverage established relationships and proven sales techniques for success
+- Effective communicator, strong interpersonal skills
+- Motivated self-starter who is driven and results oriented
+- Excellent negotiation, presentation and closing skills
+- Preferred experience with Git, Software Development Tools, Application Lifecycle Management
+- You share our [values](/handbook/values/), and work in accordance with those values.
+- Ability to travel if needed and comply with the company’s [travel policy](/handbook/travel/)
+
+
 ## Performance Indicators
 
 As with all roles in the Sales Department the Strategic Account Executive participates in the [Sales KPIs](/handbook/company/kpis/#sales-kpis).
