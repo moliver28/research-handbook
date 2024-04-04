@@ -83,13 +83,15 @@ There is no async makeup option for Cohort Workshops.
 
 ## Measuring Success
 
-How we’ll measure program impact:
+We're using the Elevate+ 360, delivered via Culture Amp, to both measure success of the program and give participants persnalized feedback on their leadership styles.
 
-**Self-Assessment:** Participants will complete a self-assessment, reflecting upon your current abilities and confidence as a leader of leaders. After the program, participants will re-take the assessment so you can see how they’ve grown.
+**Self-Assessment:** Participants will complete a self-assessment, reflecting upon their current abilities and confidence as a leader of leaders. After the program, participants will re-take the assessment to demonstrate growth.
 
 **Stakeholder Assessment:** Identified stakeholders will receive an (anonymous!) survey to gather feedback both for participants to identify areas they want to focus on during the next 6 months as well as overall program feedback. Stakeholders will be surveyed again 6 months after the program to measure collective leadership growth of the Elevate+ participants. This is a fantastic opportunity to collect and take action on feedback from those you work closely with.
 
-Who sees assessment results?
+Particiapnts will nominated 2-3 stakeholders for the assessment. Their manager and direct reports will also be sent the assessment.
+
+Who sees the assessment results?
 
 1. The Elevate program team will look at cumulative results, vs individual results.
 1. Stakeholder results will be shared with you directly for use in the program.
