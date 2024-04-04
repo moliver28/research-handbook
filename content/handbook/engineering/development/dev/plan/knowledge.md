@@ -15,7 +15,7 @@ For more details about the vision for this area of the product, see the
 
 ### Team members
 
-{{< team-by-manager-role role="Senior Manager, Engineering(.*)Plan" team="[,&] (Plan:Knowledge)" >}}
+{{< team-by-manager-role role="Engineering Manager(.*)Plan:Knowledge" >}}
 
 ### Stable counterparts
 
