@@ -83,7 +83,7 @@ Milestone Planning timeline:
 - During the milestone, we analyze progress and reprioritize as needed.
 
 
-### How to find something to work on
+### How to find something to work on?
 
 Normally at the beginning of the Milestone the EM will discuss an overview of the work and what relevant areas you will focus on. Sometimes issues will already be assigned to you before the Milestone begins.
 
@@ -97,6 +97,36 @@ If you are ever looking for additional issues to work on:
 6. Begin working on the issue.
 7. Once you are done with the issue, make sure any relevant MRs are linked and close the issue.
 8. Repeat.
+
+### How to enable Observability Beta for a customer?
+
+To enable access to Logs, Trace, and Metrics Beta for a certain customer, follow this process:
+
+For SaaS:
+
+- Before hand, make sure you have the right access and permissions to run ChatOps command as detailed in [this page](https://docs.gitlab.com/ee/development/chatops_on_gitlabcom.html#requesting-access).
+- Ask customer for their top-level group name (example: `gitlab-org` for https://gitlab.com/gitlab-org/)
+- In #production, run the following commands to enable the feature flags for this group (replace `gitlab-org` by the customer's group name):
+```
+/chatops run feature set --group=gitlab-org observability_group_tab true
+/chatops run feature set --group=gitlab-org observability_metrics true
+/chatops run feature set --group=gitlab-org observability_tracing true
+/chatops run feature set --group=gitlab-org observability_metrics true
+/chatops run feature set --group=gitlab-org observability_logs true
+```
+
+To see the list of groups that have been already enabled, you can run the following command:
+```
+/chatops run feature get observability_tracing
+```
+The list returns group IDs and not group names though. To know a group's ID, browse to the group's page ([example](https://gitlab.com/gitlab-org/)), open the "..." menu on the top-right of the page and select "Copy group ID". If you don't have access to the group, ask the customer to do it.
+
+Learn more: see related [feature flag issue](https://gitlab.com/gitlab-org/opstrace/opstrace/-/issues/2444).
+
+
+For Self-Managed:
+
+- not available for now
 
 ## Dashboards
 
