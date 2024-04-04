@@ -120,7 +120,7 @@ At GitLab, we promote on a twice per year basis. This means that there is **one 
 
 ### FY25-Q1
 
-*Status:* Upcoming. Aligned with [Annual Compensation Cycle]({{< ref "compensation-review-cycle#annual-compensation-review-timeline" >}})
+*Status:* Completed. Aligned with [Annual Compensation Cycle]({{< ref "compensation-review-cycle#annual-compensation-review-timeline" >}})
 
 - Planning: 2023-12-01 to 2023-12-15
 - Calibrations: 2023-12-18 to 2024-01-08
