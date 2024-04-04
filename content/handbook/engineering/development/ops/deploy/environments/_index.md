@@ -282,8 +282,8 @@ customer while aligning with our CREDIT values. From a high level we value the
 following:
 
 - A bias for action on deciding if we will fix a bug or not.
-- A bias for action on fixing bugs we've decided to fix.
-- Do not maintain a bug backlog. Instead, all bug reports would have exactly 1
+- A bias for action on scheduling work to fix bugs we've decided to fix.
+- Not maintaining a bug backlog. Instead, all bug reports would have exactly 1
   of 3 destinations:
   - They are verified as a bug we will fix, becoming part of the next
     milestone's planned work as soon as they are `~workflow::ready for
