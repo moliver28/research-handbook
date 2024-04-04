@@ -304,12 +304,12 @@ Works with finance, sales and the PS leadership to ensure effective use and adop
 
 - [more detail required]
 
-### Solutions Manager, Partner Operations
+### Partner Operations, Professional Services
 
 
-#### Solutions Manager, Partner Operations Job Grade is a [grade 6](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+#### Partner Operations, Professional Services Job Grade is a [grade 6](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
-#### Solutions Manager, Partner Operations Responsibilities
+#### Partner Operations, Professional Services Responsibilities
 
 - Strategic Partnership Development:
    - Negotiate and finalize partnership agreements, focusing on creating value for both GitLab and its partners.
@@ -326,7 +326,7 @@ Works with finance, sales and the PS leadership to ensure effective use and adop
 - Cross-Functional Collaboration:
    - Work closely with various GitLab teams, including Consulting and Education Services and Channel, to ensure cohesive strategy and execution across GitLab's training offerings.
 
-#### Solutions Manager, Partner Operations Requirements
+#### Partner Operations, Professional Services Requirements
 
 - Bachelor’s degree or the equivalent experience with demonstrated progressive experience in channel programs.
 - Excellent communication, analytical and organizational skills.
@@ -335,12 +335,12 @@ Works with finance, sales and the PS leadership to ensure effective use and adop
 - Excellent communication and presentation skills
 - Must have incredible attention to detail, be self-starting, and possess strong organizational skills
 
-### Senior Solutions Manager, Partner Operations
+### Program Manager, Partner Operations
 
 
-#### Senior Solutions Manager, Partner Operations [grade 7](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+#### Program Manager, Partner Operations [grade 7](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
-#### Senior Solutions Manager, Partner Operations Responsibilities
+#### Program Manager, Partner Operations Responsibilities
 
 - Strategic Partnership Development
    - Identify, assess, and develop relationships with potential consulting and training partners and subcontractors to expand GitLab's ecosystem, ensuring alignment with GitLab's strategic goals and consulting educational standards.
@@ -363,7 +363,7 @@ Works with finance, sales and the PS leadership to ensure effective use and adop
   - Work closely with various GitLab teams, including Consulting and Education Services and Channel, to ensure cohesive strategy and execution across GitLab's training offerings.
 
 
-#### Senior Solutions Manager, Partner Operations Requirements
+#### Program Manager, Partner Operations Requirements
 
 - Bachelor’s degree or the equivalent experience with demonstrated progressive experience in channel programs.
 - Experience in building,managing and automating partner program, preferably in the DevOps space,
