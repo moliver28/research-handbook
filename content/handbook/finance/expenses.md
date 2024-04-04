@@ -531,16 +531,16 @@ The company will cover all work-related travel expenses. This includes lodging a
 ### Team Building
 
 - To be used for team activities and food/beverages associated with special team events. Amount allowed is dependent on their department budget for the year.
-- In FY24, each EGroup member has been allocated a budget per quarter for FY24-Q2 to FY24-Q4 for team building events.
+- In FY25, each EGroup member has been allocated a budget per quarter for FY25-Q2 to FY25-Q4 for team building events.
 - Each EGroup member can use their discretion when using the budget.
 - The budget should be used within the quarter the funds are allocated and unused funds cannot be moved to a different quarter.
 - This budget should cover leadership offsites, Team Members get togethers, the holiday party and other virtual fun events.
-- In Navan, the Team Member must code any related expense to GL code "Team events & meals" and Classification (under optional details) "FY24 Team Building Budget".
+- In Navan, the Team Member must code any related expense to GL code "Team events & meals" and Classification (under optional details) "FY25 Team Building Budget".
 - The expense needs to be submitted in the same month as the event or if not possible due to the timing of the event, the latest acceptable submission will be before the end of the fiscal quarter that the event took place.
 
 {{% panel header="**Coding**" header-bg="green" %}}
 - **Expense Type / Navan Policy Category:** Team events & meals
-- **Classification:** FY24 Team Building Budget
+- **Classification:** FY25 Team Building Budget
 {{% /panel %}}
 
 ### Training/Tuition
