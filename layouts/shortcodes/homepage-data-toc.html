@@ -10,54 +10,57 @@
 </section>
 -->
 <style>
-    .row > .card {
-        padding-left: 0px;
-        padding-right: 0px;
-    }
+  .row > .card {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
 
-    h3 > i {
-        padding-right: 1em;
-    }
+  h3 > i {
+    padding-right: 1em;
+  }
 
-    a {
-        color: #6e49cb;
-    }
-    
-    sup {
-        font-size: 0.6em;
-    }
+  a {
+    color: #6e49cb;
+  }
+
+  sup {
+    font-size: 0.6em;
+  }
 </style>
 <section id="td-block-1" class="td-box td-box--white td-box--height-auto">
-<div class="container" style="max-width: 100%!important">
-  <div class="row row-cols-3">
-{{- range .Site.Data.toc }}
-    <div class="col col-12 col-md-4 mb-4">
-        <div class="card" style="height: 100%;">
-        <div class="card-header">
+  <div class="container" style="max-width: 100% !important">
+    <div class="row row-cols-3">
+      {{- range .Site.Data.toc }}
+      <div class="col col-12 col-md-4 mb-4">
+        <div class="card" style="height: 100%">
+          <div class="card-header">
             {{- $section_url := urls.Parse .url }}
-            {{- if not $section_url.IsAbs }}
-                <a href="{{ relref $.Page .url }}"><h3><i class="{{ .icon }}"></i>{{ .name }}</h3></a>
-            {{- else }}
-            <a href="{{ .url }}"><h3><i class="{{ .icon }}"></i>{{ .name }} <sup><i class="fa-solid fa-up-right-from-square"></i></sup></h3></a>
-            {{- end }}
-        </div>
-        <div class="card-body">
+            <a href="{{ relref $.Page .url }}"
+              ><h3><i class="{{ .icon }}"></i>{{ .name }}</h3></a
+            >
+          </div>
+          <div class="card-body">
             <div class="list-group">
-                {{- range .links }}
-                {{- $u := urls.Parse .url }}
-                {{- $url := .url }}
-                {{- if not $u.IsAbs }}
-                    <a href="{{ relref $.Page .url }}" class="list-group-item list-group-item-action">{{.name}}</a>
-                {{- else }}
-                <a href="{{ $url }}" class="list-group-item list-group-item-action">{{.name}} <sup><i class="fa-solid fa-up-right-from-square"></i></sup></a>
-                {{- end }}
-                {{- end }}
+              {{- range .links }} {{- $u := urls.Parse .url }} {{- $url := .url
+              }} {{- if not $u.IsAbs }}
+              <a
+                href="{{ relref $.Page .url }}"
+                class="list-group-item list-group-item-action"
+                >{{.name}}</a
+              >
+              {{- else }}
+              <a
+                href="{{ $url }}"
+                class="list-group-item list-group-item-action"
+                >{{.name}}
+                <sup><i class="fa-solid fa-up-right-from-square"></i></sup
+              ></a>
+              {{- end }} {{- end }}
             </div>
+          </div>
         </div>
+      </div>
+      {{- end }}
     </div>
-</div>
-{{- end }}
   </div>
-</div>
-
 </section>
