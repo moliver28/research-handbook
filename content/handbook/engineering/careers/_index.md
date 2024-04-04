@@ -30,21 +30,6 @@ process documents what an engineer has already done to deserve a more senior
 position on the team. The two processes are related, but they are not
 substitutes for each other.
 
-
-### Mobility Principles 
-
-Career mobility is a part of career development, we support and encourage development and opportunities of our team members while maintaining or making conscious choices of impact to business objectives, current business team capacity, and budget constraints. The following steps must be followed 
-
-- Internal mobility should not be an easier path than a promotion for level change 
-- All new roles will follow inclusive hiring guidelines for posting and making them available to all potential internal candidates (must be open for a minimum of 5 days before any offer is made)
-- All new roles have a recommended level that is determined by the expected return on investment for the given budget. Managers who wish to consider candidates above or below the given role may offer an interested internal candidate, the following two options: 
-  - Re-level the role with a business justification for how this change will benefit the company.
-    - A [template (google document)](https://docs.google.com/document/d/1BAIty-x7otBpohe5w6Kl8DKD-C2nUS9MCm4JwognfVI/edit#heading=h.5onpwyv1o0vg) has been provided, please create a copy and
-  - After evaluating the potential readiness of the candidate to meet the expected criteria within a given time period, accept the candidate for an interim period, up to 6 months, and evaluate readiness and impact of level change at the end of the interim period.
-- Transfers between career paths (IC->EM, EM->IC) the person should be moved into an available role on an interim/acting basis for 4-6 months before the change is made permanent with a promotion/evaluation rationale based on performance
-- All role changes will be reviewed by R&D leadership on a weekly basis. This review will include impact on roadmaps and mitigation of the budget impact if the change requires additional budget to accommodate the request. 
-- All internal transfer candidates should have an aligned transition and communication plan to address impact on the previous team, including finalizing a plan for backfill and completing any milestones that are already underway.
-
 ### Individual Initiative
 
 Most career opportunities involve stepping into a position of informal or formal leadership. As such, the initiative
@@ -59,6 +44,20 @@ The GitLab Engineering career track offers a full path of opportunity for indivi
 There are scenarios where a position must become available before a promotion can occur. On the engineering track, there must be a position of need to be promoted from a Senior Engineer to either a Staff Engineer or an Engineering Manager, depending on your chosen path. Progression beyond these types of roles (e.g. Senior Engineer) are not guaranteed by time in role. There must be a justifiable need for the role and the candidate must have some level of demonstrated ability to thrive in these roles to be considered for the new position.
 
 These next level opportunities are not guaranteed to be available and should not be viewed as career limiting. Again, using the Senior Engineering role as an example, is a critical role within GitLab. It is an accomplishment to thrive at the Senior level and should be celebrated as such.
+
+## Mobility Principles 
+
+Career mobility is a part of career development, we support and encourage development and opportunities of our team members while maintaining or making conscious choices of impact to business objectives, current business team capacity, and budget constraints. The following steps must be followed 
+
+- Internal mobility should not be an easier path than a promotion for level change 
+- All new roles will follow inclusive hiring guidelines for posting and making them available to all potential internal candidates (must be open for a minimum of 5 days before any offer is made)
+- All new roles have a recommended level that is determined by the expected return on investment for the given budget. Managers who wish to consider candidates above or below the given role may offer an interested internal candidate, the following two options: 
+  - Re-level the role with a business justification for how this change will benefit the company.
+    - A [template (google document)](https://docs.google.com/document/d/1BAIty-x7otBpohe5w6Kl8DKD-C2nUS9MCm4JwognfVI/edit#heading=h.5onpwyv1o0vg) has been provided, please create a copy and
+  - After evaluating the potential readiness of the candidate to meet the expected criteria within a given time period, accept the candidate for an interim period, up to 6 months, and evaluate readiness and impact of level change at the end of the interim period.
+- Transfers between career paths (IC->EM, EM->IC) the person should be moved into an available role on an interim/acting basis for 4-6 months before the change is made permanent with a promotion/evaluation rationale based on performance
+- All role changes will be reviewed by R&D leadership on a weekly basis. This review will include impact on roadmaps and mitigation of the budget impact if the change requires additional budget to accommodate the request. 
+- All internal transfer candidates should have an aligned transition and communication plan to address impact on the previous team, including finalizing a plan for backfill and completing any milestones that are already underway.
 
 ## Individual Contribution vs. Management
 
