@@ -13,6 +13,7 @@ Our base performance test approach is proactively test against [Reference Archit
 
 Dedicated deploys Cloud Native environments based on Reference Architectures so the testing we do is directly mappable to the Dedicated Tenant environments.
 
+### Diagrams
 ```mermaid
 flowchart LR
   %% nodes
@@ -59,10 +60,11 @@ flowchart LR
     end
   end
 ```
-
+Note: For readability this diagram only shows the lines for the 3k `Reference Architecture`, there are equivalant lines for all the Reference Architectures to the `GET Deployed Reference Architecture Performance Test Environments` and from the Cloud Native Hybrid Reference Architectures to the `Dedicated Deployed Environments` (based on the size of the tenant environment)
 ```mermaid
 flowchart LR
   %% nodes
+  tested_code{{Fully tested GitLab code}}
   ra_omni_1k(1k Architecture)
   ra_omni_2k(2k Architecture)
   ra_omni_3k(3k Architecture)
@@ -76,48 +78,22 @@ flowchart LR
   ra_cnh_10k(10k Architecture)
   ra_cnh_25k(25k Architecture)
   ra_cnh_50k(50k Architecture)
-  gpt_cnh_2k(2k CNH Architecture)
   gpt_cnh_3k(3k CNH Architecture)
-  gpt_cnh_5k(5k CNH Architecture)
-  gpt_cnh_10k(10k CNH Architecture)
-  gpt_cnh_25k(25k CNH Architecture)
-  gpt_cnh_50k(50k CNH Architecture)
-  gpt_omni_3k(3k Omnibus Architecture)
-  gbpt_omni_3k(3k Omnibus Architecture)
-  gbpt_cnh_2k(2k CNH Architecture)
   gbpt_cnh_3k(3k CNH Architecture)
-  gbpt_cnh_5k(5k CNH Architecture)
-  gbpt_cnh_10k(10k CNH Architecture)
-  gbpt_cnh_25k(25k CNH Architecture)
-  gbpt_cnh_50k(50k CNH Architecture)
-  dedicated_cnh_3k(3k CNHArchitecture)
+  dedicated_cnh_3k(3k CNH Architecture)
   fedramp_cnh_3k(3k CNH Architecture)
   cells_cnh_3k(3k CNH Architecture)
 
 
   %% diagram
 
-
-
-  subgraph test_env[GET Deployed Reference Architecture Environment]
+  subgraph test_env[GET Deployed\nReference Architecture\nPerformance Test Environments]
     subgraph gpt_test[GPT test pipeline]
-      gpt_cnh_2k
       gpt_cnh_3k
-      gpt_cnh_5k
-      gpt_cnh_10k
-      gpt_cnh_25k
-      gpt_cnh_50k
-      gpt_omni_3k
     end
 
     subgraph gbpt_test[GBPT test pipeline]
-      gbpt_cnh_2k
       gbpt_cnh_3k
-      gbpt_cnh_5k
-      gbpt_cnh_10k
-      gbpt_cnh_25k
-      gbpt_cnh_50k
-      gbpt_omni_3k
     end
   end
 
@@ -142,7 +118,7 @@ flowchart LR
     end
   end
   
-  subgraph dedicated[Dedicated Deployed Environment]
+  subgraph dedicated[Dedicated Deployed Environments]
     subgraph dedicated_tenant[Dedicated Tenant]
       dedicated_cnh_3k
     end
@@ -156,12 +132,37 @@ flowchart LR
     end
   end
 
+  tested_code --> gpt_cnh_3k
+  tested_code --> gbpt_cnh_3k
+  tested_code --> dedicated_cnh_3k
+  tested_code --> cells_cnh_3k
+  tested_code --> fedramp_cnh_3k
+
   gpt_cnh_3k <--> ra_cnh_3k
   gbpt_cnh_3k <--> ra_cnh_3k 
   ra_cnh_3k --> dedicated_cnh_3k
   ra_cnh_3k --> cells_cnh_3k
   ra_cnh_3k --> fedramp_cnh_3k
 ```
+
+### Brittany diagram
+```mermaid
+
+  sequenceDiagram
+    %% participants
+    participant Distribution
+    participant Self Managed D.T.
+    participant .
+    participant tenant
+
+    Note left of Distribution: Product
+    Note left of Distribution: Gitlab
+    Note left of Distribution: Docs
+
+
+  
+```
+
 ## Gitaly focus
 
 TBD
