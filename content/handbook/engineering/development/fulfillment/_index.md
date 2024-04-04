@@ -463,7 +463,7 @@ This template is a guideline and feel free to alter it to specific project needs
 <!--
 The following calculations can help inform this %.
 
-Open this page and filter for your epic: https://gitlab.com/groups/gitlab-org/-/issues/?sort=created_date&state=all&first_page_size=100&epic_id=<INSERT EPIC ID>
+Open this page and filter for your epic: https://gitlab.com/groups/gitlab-org/-/issues/?sort=created_date&state=all&first_page_size=100
 
 ```javascript
 // Numerator: Calculate total weight of closed issues (use `defaultWeight` for issues without weight)
