@@ -277,6 +277,7 @@ everyone is encouraged to set the deadline based on the date of the last severit
 
 ##### Bug intake process
 
+###### High level
 The goal of our bug intake process is to deliver the best result for the
 customer while aligning with our CREDIT values. From a high level we value the
 following:
@@ -294,6 +295,8 @@ following:
   - They determined not to be bugs. The `~type::bug` label is removed and the
     issue is closed.
 
+
+###### Process details
 
 When a `~group::environments` issue is created with the `~type::bug` label,
 apply the following process:
