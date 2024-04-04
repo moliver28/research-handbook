@@ -33,9 +33,9 @@ Instructions for working with secure scanners can be found in the [Offline envir
 
 ### GitLab Upgrades
 
-The goal of GitLab Upgrades test coverage is to ensure that if customer is following [upgrade path](https://docs.gitlab.com/ee/update/index.html#upgrade-paths) the upgrade is successful.
+The goal of GitLab Upgrades test coverage is to ensure that a customer following the [upgrade path](https://docs.gitlab.com/ee/update/index.html#upgrade-paths) will be successful.
 
-To achieve the best coverage, Test Platform follows [Test Pyramid approach](https://docs.gitlab.com/ee/development/testing_guide/testing_levels.html)
+To achieve the best coverage, Test Platform follows the [Test Pyramid approach](https://docs.gitlab.com/ee/development/testing_guide/testing_levels.html)
 by shifting left to unit tests without build environments in merge requests
 and going up to system level testing with actual environments being built:
 
@@ -89,6 +89,7 @@ Detailed process is described on [Performance and Scalability](https://docs.gitl
 | Upgrade path scenarios               | Example                                                                                                                                          |
 |--------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|
 | Latest update stop → GitLab Nightly | [16.7.7 → nightly](https://gitlab.com/gitlab-org/quality/upgrade-tester/-/pipelines/1234507969)                                                 |
+| Latest GitLab release → GitLab Nightly | [16.10.1 → nightly]()
 | Custom path scenarios                | [15.0.0, 15.0.5, 15.4.6, 15.11.13, 16.1.6, 16.3.7, 16.7.7, 16.10.0](https://gitlab.com/gitlab-org/quality/upgrade-tester/-/pipelines/1238546334) |
 
 Focused on building and testing different upgrade paths using the [Reference Architectures](https://docs.gitlab.com/ee/administration/reference_architectures), the Upgrade Tester pipelines build and upgrade environments starting at a specified version and ending at either the latest nightly package or a specific version. For each upgrade the path used to upgrade differs depending on the start and end versions used. For example, when starting with version 16.0.0 the upgrade path would be
