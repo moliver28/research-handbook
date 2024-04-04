@@ -143,23 +143,7 @@ flowchart LR
  
 ```
 
-### Brittany diagram
-```mermaid
 
-  sequenceDiagram
-    %% participants
-    participant Distribution
-    participant Self Managed D.T.
-    participant .
-    participant tenant
-
-    Note left of Distribution: Product
-    Note left of Distribution: Gitlab
-    Note left of Distribution: Docs
-
-
-  
-```
 
 ## Gitaly focus
 
