@@ -36,6 +36,10 @@ Internal mobility opportunities are dependent on [employee eligibility](/handboo
 
 At times, the business may need to change job attributes such as the direct manager or department. These changes may be a result of consolidating teams, creating new departments, or moving team members to report to a new manager. These types of changes are specified as job attribute changes and don’t meet the definition of internal mobility, and can be initiated by the current manager via Workday.  
 
+#### Engineering Internal Mobility
+
+For Engineering, please see [Engineering Mobility Principles](/handbook/engineering/careers/#mobility-principles) for addtional guidelines and justification.
+
 ### Promotions
 
 **In-Cycle Promotions:**  An in-cycle promotion is any individual that is within the same job family, and has a similar but increased job scope. A promotion is not necessarily defined with a new grade due to differences in job families. This process does not require interview(s), does not create backfill headcount and occurs semi-annually through the calibrated promotion process. All in-cycle promotions are processed in **Workday and not in Greenhouse.**  
