@@ -36,7 +36,7 @@ The ideal candidate has deep expertise in environment, social, and governance pr
 - Attention to detail and ability to prioritize
 - Superior research and analytical skills
 - Outstanding cross-functional partnership skills, with a confirmed ability to identify, initiate and lead efforts with both internal and external teams
-- Embrace GitLab Values of [Collaboration](/handbook/values/#collaboration[), [Results](/handbook/values/#results), [Efficiency](/handbook/values/#efficiency), [Diversity, Inclusion & Belonging](/handbook/values/#diversity-inclusion), [Iteration](/handbook/values/#iteration), and [Transparency](/handbook/values/#transparency)
+- Embrace GitLab Values of [Collaboration](/handbook/values/#collaboration), [Results](/handbook/values/#results), [Efficiency](/handbook/values/#efficiency), [Diversity, Inclusion & Belonging](/handbook/values/#diversity-inclusion), [Iteration](/handbook/values/#iteration), and [Transparency](/handbook/values/#transparency)
 
 ## ESG Manager - Volunteerism and Social Impact
 
@@ -55,20 +55,20 @@ The ideal candidate has deep expertise in building and managing social impact pr
 - Participate in the development of the company’s ESG programs, including creating the first formal global volunteer program
 - Manage the GitLab for Nonprofits in-kind donation program including; internal communication of the program, external communication with applicants, and management of GitLab’s verification partner, TechSoup
 - Create and manage relationships with nonprofit organizations
-- Work with internal teams to ensure give-back components are included for in-person events 
-- Organize quarterly virtual volunteer opportunities for team members 
-- Partner with team member resource groups (TMRGs) to support volunteerism with diverse organizations 
-- Partner with internal and external communications teams to effectively share program updates and progress 
+- Work with internal teams to ensure give-back components are included for in-person events
+- Organize quarterly virtual volunteer opportunities for team members
+- Partner with team member resource groups (TMRGs) to support volunteerism with diverse organizations
+- Partner with internal and external communications teams to effectively share program updates and progress
 - Develop and maintain tools and mechanisms to evaluate, track and report on progress against company ESG goals
-- Contribute to the development and publication of the annual ESG report 
+- Contribute to the development and publication of the annual ESG report
 - Conduct benchmarking, follow trends, and provide best practices for social impact and team member volunteering
 
 ### ESG Manager - Volunteerism and Social Impact Requirements
 
 - 3+ years’ experience in corporate social responsibility, social impact, employee engagement, or related field
 - Experience in creating global team member volunteer programs
-- Proven track record effectively communicating and recruiting global team members for virtual volunteerism 
-- Experience in managing in-kind donation programs 
+- Proven track record effectively communicating and recruiting global team members for virtual volunteerism
+- Experience in managing in-kind donation programs
 - Excellent written and oral communication skills
 - Excellent organizational skills as well as creativity and resourcefulness
 - Ability to work in a deadline-oriented environment
