@@ -396,11 +396,11 @@ By accepting the risk, the Risk Owner and risk acceptance approvers (if separate
 
 Identified risks are formally tracked via an internal risk register. Given the nature of the sensitivity of this information in aggregate, the risk register is [not made public]({{< ref "confidentiality-levels#not-public" >}}), and is not distributed externally. However, a publicly viewable GitLab Risk Register Template is available [here](https://docs.google.com/spreadsheets/d/1Lvn-ZjPNcZ-QMh-pkC6HqjwR-acUf70V9w2pquhRmH0/edit?usp=sharing) for those interested in getting some more insight into the type of information tracked in GitLab's risk register. StORM-related risk activities are centralized [within GitLab](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-risk-team/storm-risk-register/-/issues/?sort=weight_desc&state=opened&first_page_size=100) (internal only).
 
-We report on our top 5 risks on a quarterly basis (the Security Risk Quarterly or "SRQ") in alignment with our values. To learn more about the SRQ, please see our unfiltered video linked [here](https://www.youtube.com/watch?v=sHZr-5SR7yg). The template we've used can be found [here](https://docs.google.com/presentation/d/1uwz8sKnf9sWY9Of_GKPtIU2dDa3i6k6xekZENPW41NY/edit?usp=drive_link) for reference. Additionally, we perform an annual exercise to refresh our listing of Top 5 risks. 
+We report on our top 5 risks on a quarterly basis (the Security Risk Quarterly or "SRQ") in alignment with our values. To learn more about the SRQ, please see our YouTube unfiltered video linked [here](https://www.youtube.com/watch?v=sHZr-5SR7yg). The template we've used can be found [here](https://docs.google.com/presentation/d/1uwz8sKnf9sWY9Of_GKPtIU2dDa3i6k6xekZENPW41NY/edit?usp=drive_link) for reference. Additionally, we perform an annual exercise to refresh our Risk Appetite and our Top 5 risks.
 
 ### Top 5 Risks
 
-The Security Division's "Top 5 Risks" are established during annual risk assessment (ARA) activities and are reported upon quarterly as resources allow via the SRQ. Security Leadership leverages these Top 5 Risks when conducting short and long-term strategic planning activities. We intend to support remediation through assisting with treatment activities and performing design and operating effectives assurance testing on key remediation activities.
+The Security Division's "Top 5 Risks" are established annually and are reported upon quarterly as resources allow via the SRQ. Security Leadership leverages these Top 5 Risks when conducting short and long-term strategic planning activities. We intend to support remediation through assisting with treatment activities and performing design and operating effectives assurance testing on key remediation activities.
 
 #### Long-Term Risk Treatment Planning
 
@@ -421,8 +421,8 @@ The table below outlines planned/completed activities for FY24.
 |Timing|Activities|
 |-----|-----|
 |Q1| SRQ |
-|Q2| SRQ and ARA Planning |
-|Q3| ARA |
+|Q2| SRQ and Annual Refresh Planning |
+|Q3| SRQ with refreshed risk appetite and Top 5 risks |
 |Q4| SRQ |
 
 ## Exceptions
