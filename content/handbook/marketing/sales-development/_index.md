@@ -491,6 +491,8 @@ When a territory moves from one BDR to another but the previous BDR remains with
 5. Qualified leads associated with **“Actively Working”** accounts
     * BDR assigned to the Actively Working Account will have the lead routed to them
 
+6. MQLs Associated with **Telco industry in EMEA** and **Finserv in AMER** should be passed to the BDR Assigned on the account, _**regardless of BDR Prospecting Status**_, they do not have to be in Actively Working as there aren't a high number of accounts per BDR. In FY25 there is be a focus on these two industries by industry specific BDRs. 
+
 **Outreach & Marketo**
 
 If the lead is yours to work based on all of the above, sequence them in Outreach using the FY24 inbound sequence that correlates with the Last Interesting Moment. You can also look at the initial source and Marketo insights to get a holistic view of what a lead is looking into. There is an Outreach collection of sequences for inbound leads for each region. These collections contain a primary sequence for nearly every inbound lead scenario.
