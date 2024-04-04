@@ -91,7 +91,7 @@ We're using the Elevate+ 360, delivered via Culture Amp, to both measure success
 
 Particiapnts will nominated 2-3 stakeholders for the assessment. Their manager and direct reports will also be sent the assessment.
 
-Who sees assessment results?
+Who sees the assessment results?
 
 1. The Elevate program team will look at cumulative results, vs individual results.
 1. Stakeholder results will be shared with you directly for use in the program.
