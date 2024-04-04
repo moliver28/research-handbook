@@ -63,8 +63,8 @@ flowchart LR
 Note: For readability this diagram only shows the lines for the 3k `Reference Architecture`, there are equivalant lines for all the Reference Architectures to the `GET Deployed Reference Architecture Performance Test Environments` and from the Cloud Native Hybrid Reference Architectures to the `Dedicated Deployed Environments` (based on the size of the tenant environment)
 ```mermaid
 flowchart LR
+  classDef hidden display: none;
   %% nodes
-  tested_code{{Fully tested GitLab code}}
   ra_omni_1k(1k Architecture)
   ra_omni_2k(2k Architecture)
   ra_omni_3k(3k Architecture)
@@ -87,7 +87,8 @@ flowchart LR
 
   %% diagram
 
-  subgraph test_env[GET Deployed Reference Architecture Performance Test Environments]
+  subgraph test_env[Performance Test CI Pipelines]
+    hidden:::hidden
     subgraph gpt_test[GPT test pipeline]
       gpt_cnh_3k
     end
@@ -108,7 +109,7 @@ flowchart LR
       ra_omni_50k
     end
 
-    subgraph cnh[Cloud Native Hybrid\nArchitectures]
+    subgraph cnh[Cloud Native Hybrid Architectures]
       ra_cnh_2k
       ra_cnh_3k
       ra_cnh_5k
@@ -132,17 +133,14 @@ flowchart LR
     end
   end
 
-  tested_code --> gpt_cnh_3k
-  tested_code --> gbpt_cnh_3k
-  tested_code --> dedicated_cnh_3k
-  tested_code --> cells_cnh_3k
-  tested_code --> fedramp_cnh_3k
-
   gpt_cnh_3k <--> ra_cnh_3k
   gbpt_cnh_3k <--> ra_cnh_3k 
   ra_cnh_3k --> dedicated_cnh_3k
   ra_cnh_3k --> cells_cnh_3k
   ra_cnh_3k --> fedramp_cnh_3k
+
+
+ 
 ```
 
 ### Brittany diagram
