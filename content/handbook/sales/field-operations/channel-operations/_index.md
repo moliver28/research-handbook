@@ -268,7 +268,7 @@ Partners and GitLab Sellers frequently ask questions on how to collaborate with 
 - **PTM/PAM Notes**: PTMs and PAMs enter partner opportuity notes and next steps here
 - **Alliance Partner Opp ID**: PTMs and PAMs enter the cloud partner(AWS or GCP) co-sell registration ID here
 - **Platform Partner**:  Customer's platform that GitLab is being deployed
-- **Hyperscaler Engaged**: PTMs and PAMs can select the hyperscaler engaged on early stage Marketplace deals to identify them for forecasting
+- **Hyperscaler Engaged**: PTMs and PAMs can select the cloud partner (AWS or GCP) engaged on early stage marketplace deals to identify the opportuity for forecasting in Clari. Refer to [Clari Cheat Sheet](https://docs.google.com/presentation/d/1MzRR0Y5y4J9OCyAxoPzvxsY8cnzeQlPJp0C5_r4oaZ4/edit#slide=id.g133719dda83_2_102) for more details
 
     ![Partner_Contribution](image-11.png)
 
