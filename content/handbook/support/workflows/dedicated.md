@@ -36,6 +36,10 @@ reproduction purposes. This instance can be accessed at the following URLs:
 
 To receive an invite, ask Armin, Brie, Matthew or Wei-Meng.
 
+When running a test on the GitLab Support Dedicated instance, please communicate about it on the Slack channel [#spt_pod_dedicated](https://gitlab.enterprise.slack.com/archives/C058LM1RL3V).
+As we are all sharing the same test instance, and if your test may impact the whole instance, post a message at the beginning of a test with an estimate duration.
+Upon test completion, please use the emoji `:done:` to show you reverted the changes and the test is completed.
+
 The Switchboard console can be accessed at https://console.gitlab-private.org/tenants/40.
 Follow [these instructions](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/switchboard/-/tree/main#process-to-provision-new-users-pre-production-environment)
 to request access. You may use this [example access request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/25151)
