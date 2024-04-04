@@ -87,7 +87,7 @@ flowchart LR
 
   %% diagram
 
-  subgraph test_env[GET Deployed\nReference Architecture\nPerformance Test Environments]
+  subgraph test_env[GET Deployed Reference Architecture Performance Test Environments]
     subgraph gpt_test[GPT test pipeline]
       gpt_cnh_3k
     end
