@@ -85,22 +85,7 @@ As with all roles in the Sales Department the Strategic Account Executive partic
 
 The progression of the Commercial Account Executive job family is to move from Commercial Account Executive - Mid-Market to either the Commercial Account Executive - Named role, [Strategic Account Executive](/job-families/sales/enterprise-account-executive) job family or the [Sales Management](/job-families/sales/area-sales-manager/) job family.
 
-## Hiring Process
 
-Candidates for this position can expect the hiring process to follow the order below. Please keep in mind that candidates can be declined from the position at any stage of the process. To learn more about someone who may be conducting the interview, find their job title on our [team page](/handbook/company/team/).
-
-- Qualified candidates receive a short questionnaire from our Global Recruiters
-  1. What would differentiate you and make you a great account executive for GitLab?
-  1. What is your knowledge of the space that GitLab is in? (i.e. Industry Trends)
-  1. How do you see the developer tools changing over the coming years from a sales perspective? (i.e. Competitive Positioning, Customer Needs, etc)
-- Selected candidates will be invited to the following
-  1. A phone or video conference screen with the recruiter. This takes 30 minutes and helps our recruiting team align your interests and qualifications with the right opening on the sales team.
-  1. A video conversation with the hiring manager. This takes 30 minutes and helps the sales manager understand what you want to do next in your career and how that might intersect with GitLab and the Commercial sales team.
-  1. A video conversation reviewing your professional experience chronologically. This takes from 45 min to an hour and allows your hiring manager to understand the similarities and differences of past roles you’ve had to the role we are considering for you.
-  1. A video conversation with a potential colleague. This takes 45 minutes and helps us understand your sales experience, style, and skills.
-  1. A mock GitLab customer call. The mock call itself is limited to 15 minutes. You are give a few minutes to ask any final questions before going into the mock call. After the mock call we use the remainder of the half hour to understand feedback, how it felt to sell GitLab, and ask any questions we have remaining about your candidacy.
-
-Additional details about our process can be found on our [hiring page](/handbook/hiring/).
 
 
 
