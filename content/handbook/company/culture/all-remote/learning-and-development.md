@@ -137,7 +137,7 @@ At a high level, this is how new team members are onboarded at GitLab.
     - The Onboarding Buddy is a serious role, replete with [its own Handbook page]({{< ref "onboarding-buddies" >}})
     - The Onboarding Buddy provides assistance in any way, where no question is silly or too minute, to ensure the new hire has all questions addressed
     - If a concern or obstacle is surfaced to the Onboarding Buddy, and there is no solution in the Handbook, the Onboarding Buddy works with the new hire to create a merge request for the enlightenment of all future new hires
-1. The onboarding process is self-directed and self-guided, with new hires encouraged to lean on [documentation]({{< ref "./handbook-first" >}}t) in the [Handbook](/handbook) — as well as conversing with any GitLab team member — to get up to speed.
+1. The onboarding process is self-directed and self-guided, with new hires encouraged to lean on [documentation]({{< ref "./handbook-first" >}}) in the [Handbook](/handbook) — as well as conversing with any GitLab team member — to get up to speed.
 
 Read more in GitLab's [complete guide to remote onboarding]({{< ref "./onboarding" >}}).
 
