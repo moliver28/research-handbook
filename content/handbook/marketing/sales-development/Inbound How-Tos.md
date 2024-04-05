@@ -162,11 +162,3 @@ If the opportunity is for a new group of users in a Large account where sales is
 | 1. Rebook | SDR’s responsibility to rebook using Outreach rebook sequence. Conduct outreach for 2 weeks. If IQM cannot be rescheduled, AE will unqualify the opportunity. |
 | 2. Follow-up | Ongoing follow-up by SDR - 1x cycle/month. Follow-up plan includes email, voicemail, LI message, and invites to webinar/online workshop. |
 
-
-### Filling CRM qualification questions
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-
-### Opportunity creation
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit.  
