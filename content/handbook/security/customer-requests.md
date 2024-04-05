@@ -25,10 +25,10 @@ GitLab's Security Incident Response Team handles complex, extensive requests. In
 ## Process outline
 
 1. Customer contacts GitLab Support or CSM with a request that meets the required [conditions and requirements](#conditions-and-requirements).
-1. GitLab GitLab Support or CSM creates a `confidential` issue to the SIRT team by triggering a workflow from Slack with the command `/security`.
-1. This new issue will be tagged with the handle `@gitlab-com/gl-security/sirt` on the issue. The requesting customer **must not** be added to the issue.
+1. GitLab Support or CSM triggers the workflow from Slack with the command `/security` to automatically create a confidential SIRT issue.
+1. This newly created SIRT issue tags `@gitlab-com/gl-security/sirt` directly. The requesting customer **must not** be added to the issue.
 1. Approval from GitLab Legal `@lasayers` should only be requested if an exception is required.
-1. GitLab GitLab Support or CSM verifies that the requesting customer complies with our [conditions and requirements](#conditions-and-requirements) for the request.
+1. GitLab Support or CSM verifies that the requesting customer complies with our [conditions and requirements](#conditions-and-requirements) for the request.
 1. The relevant team (either GitLab Support or GitLab Security) starts working on the case, depending on the type of requests. The issue is updated with every new finding.
 1. GitLab Support or CSM provides status updates to the customer based on the updates captured in the issue on a 12-hour/business day best-effort cadence.
 1. Once the requested artefacts (i.e. log entries) are collected, GitLab Security and GitLab Legal review them.
