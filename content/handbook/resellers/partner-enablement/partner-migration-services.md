@@ -19,7 +19,7 @@ The GitLab Channel Partner Program provides the following [GitLab Channel Servic
 
 ## From other DevOps platforms to GitLab
 
-To migrate projects from systems other than GitLab, please review the list of [available project importers](https://docs.gitlab.com/ee/user/project/import/#available-project-importers).
+To migrate projects from systems other than GitLab, please review the list of [Supported import sources](https://docs.gitlab.com/ee/user/project/import/#supported-import-sources).
 
 Migrating pipelines is always a manual process.
 
