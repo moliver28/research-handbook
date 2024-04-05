@@ -43,9 +43,9 @@ CI Catalog GA Epic: [https://gitlab.com/groups/gitlab-org/-/epics/12153](https:/
     - [Relative URL breaks CI/CD component catalog project reference](https://gitlab.com/gitlab-org/gitlab/-/issues/450914) (FE work In-Review / BE work complete)
     - ~~[Construct component path from parts (stop fetching it from the database)](https://gitlab.com/gitlab-org/gitlab/-/issues/441666)~~ (Complete)
     - ~~[Remove the experimental label in the component tab](https://gitlab.com/gitlab-org/gitlab/-/issues/446052)~~ (Complete)
-- CI/CD Catalog UX improvements
+- CI Catalog UX improvements
   - ~~[Add badges for components](https://gitlab.com/gitlab-org/gitlab/-/issues/437893)~~ (Complete)
-    - NOTE: Backend [issue](https://gitlab.com/gitlab-org/gitlab/-/issues/451507) remains before badging start showing up in Catalog.
+    - NOTE: Backend [issue](https://gitlab.com/gitlab-org/gitlab/-/issues/451507) remains before badging starts showing up in CI Catalog.
   - [Reorganize information in the detail](https://gitlab.com/gitlab-org/gitlab/-/issues/438262) (In-Review)
 
 ### Blockers:
