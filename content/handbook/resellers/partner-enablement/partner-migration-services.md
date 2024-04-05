@@ -21,7 +21,7 @@ The GitLab Channel Partner Program provides the following [GitLab Channel Servic
 
 To migrate projects from systems other than GitLab, please review the list of [Supported import sources](https://docs.gitlab.com/ee/user/project/import/#supported-import-sources).
 
-Migrating pipelines is always a manual process.
+Migrating pipelines from other systems, [such as Jenkins](https://docs.gitlab.com/ee/ci/migration/jenkins.html), is a value-add manual development process. We encourage our partners to scope by understanding the number of pipelines, current pipeline performance, [envirnonmental variables](https://docs.gitlab.com/ee/ci/variables/) and secrets used. Some partners find a time and materials style contract to be helpful when consulting on developing pipelines between other sources sytems and [GitLab's pipeline syntax.](https://docs.gitlab.com/ee/ci/)
 
 ## From GitLab self-managed to GitLab self-managed
 
