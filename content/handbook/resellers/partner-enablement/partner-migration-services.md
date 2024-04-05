@@ -14,7 +14,7 @@ title: "Channel Partner Migration Services"
 # Partner Migration Services
 {: .gitlab-orange}
 
-To learn about GitLab migrations, start [here](https://docs.gitlab.com/ee/user/project/import/). Depending on the source Git provider, size/scope of the migration and the importance of the preservation of the migrated artifacts, carefully consider each option given each option's limitations/benefits.
+To learn about GitLab migrations, start with GitLab's technical documentation titled [Import and migrate groups and projects](https://docs.gitlab.com/ee/user/project/import/). Depending on the source Git provider, size/scope of the migration and the importance of the preservation of the migrated artifacts, carefully consider each option given each option's limitations/benefits.
 
 The GitLab Channel Program provides the following [resources to our partners to construct your own Services Packages](https://partners.gitlab.com/prm/English/c/Channel_Service_Packages) in our Partner Portal, including our Migration+ Services Offering.
 
