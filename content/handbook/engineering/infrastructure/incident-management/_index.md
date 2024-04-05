@@ -467,7 +467,7 @@ Incident Managers and Engineers On-Call can use the following table as a guide f
 
 ## Incident Data Classification
 
-There are four data classification levels defined in GitLab's [Data Classification Standard](/handbook/engineering/security/data-classification-standard.html#data-classification-levels).
+There are four data classification levels defined in GitLab's [Data Classification Standard](/handbook/security/data-classification-standard/#data-classification-levels).
 
 - RED data should never be included in incident issues, even if the issue is confidential.
 - ORANGE and YELLOW data can be included and the Incident Manager managing the incident should ensure the incident issue is marked as confidential or is in an internal note.
