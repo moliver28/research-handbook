@@ -7,7 +7,7 @@ We at GitLab are committed to helping our customers succeed. When a GitLab.com c
 
 ## What type of assistance can GitLab provide to customers if they experience a security incident?
 
-If a GitLab.com customer determines that the information available through the [Audit Events](https://docs.gitlab.com/ee/administration/audit_events.html) feature doesn't provide suffcient information about activities taken on the customer's account, GitLab may provide reasonable assistance by performing additional log-dives under certain [conditions and requirements](#conditions-and-requirements).
+If a GitLab.com customer determines that the information available through the [Audit Events](https://docs.gitlab.com/ee/administration/audit_events.html) feature doesn't provide sufficient information about activities taken on the customer's account, GitLab may provide reasonable assistance by performing additional log-dives under certain [conditions and requirements](#conditions-and-requirements).
 
 ## To whom does this apply?
 
