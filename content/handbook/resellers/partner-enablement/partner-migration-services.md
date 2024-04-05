@@ -13,15 +13,13 @@ title: "Channel Partner Migration Services"
 
 # Partner Migration Services
 
-{: .gitlab-orange}
+To learn about GitLab migrations, start with GitLab's technical documentation titled [Import and migrate groups and projects](https://docs.gitlab.com/ee/user/project/import/). Depending on the source Git provider, size/scope of the migration and the importance of the preservation of the migrated artifacts, carefully consider each option given each option's limitations/benefits.
 
-To learn about GitLab migrations, start [here](https://docs.gitlab.com/ee/user/project/import/). Depending on the source Git provider, size/scope of the migration and the importance of the preservation of the migrated artifacts, carefully consider each option given each option's limitations/benefits.
-
-The GitLab Channel Program provides the following [resources to our partners to construct your own Services Packages](https://partners.gitlab.com/prm/English/c/Channel_Service_Packages) in our Partner Portal, including our Migration+ Services Offering.
+The GitLab Channel Partner Program provides the following [GitLab Channel Service Packages](https://partners.gitlab.com/prm/English/c/Channel_Service_Packages) to our partners in order to construct your own Services Packages in our [GitLab Partner Portal](https://partners.gitlab.com), including our Migration Quickstart Services Offering.
 
 ## From other DevOps platforms to GitLab
 
-To migrate projects from systems other than GitLab, please review the list of [available project importers](https://docs.gitlab.com/ee/user/project/import/#available-project-importers).
+To migrate projects from systems other than GitLab, please review the list of [Supported import sources](https://docs.gitlab.com/ee/user/project/import/#supported-import-sources).
 
 Migrating pipelines is always a manual process.
 
@@ -80,7 +78,6 @@ GitLab can be installed and operated in [offline environments](https://docs.gitl
 
 # GitLab Professional Migration Services
 
-{: .gitlab-orange}
 GitLab Professional Services team has a [full service catalog of offerings avaialable](https://about.gitlab.com/services/catalog/) for direct to customers to utilize. Partners may want to review the offerings for inspiration towards delivering same or similar Professional (consultative) Service offerings.
 
 The [GitLab Professional Services Migration Package](https://drive.google.com/file/d/1SK4iEg3XKx2nBWNo7xDlBbjLfOe1cFhB/view) is one popular offering.
