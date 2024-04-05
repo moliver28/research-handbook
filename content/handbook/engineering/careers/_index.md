@@ -47,6 +47,8 @@ These next level opportunities are not guaranteed to be available and should not
 
 ## Mobility Principles 
 
+The Engineering Mobility Principle is an add-on to the company's mobility guidelines. For cases not covered in this section, please visit the [People Ops Internal Mobility guidelines](/handbook/people-group/promotions-transfers/#internal-mobility)
+
 Career mobility is a part of career development, we support and encourage development and opportunities of our team members while maintaining or making conscious choices of impact to business objectives, current business team capacity, and budget constraints. The following steps must be followed 
 
 - Internal mobility should not be an easier path than a promotion for level change 
