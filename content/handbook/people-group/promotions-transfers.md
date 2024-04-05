@@ -38,7 +38,7 @@ At times, the business may need to change job attributes such as the direct mana
 
 #### Engineering Internal Mobility
 
-For Engineering, please see [Engineering Mobility Principles](/handbook/engineering/careers/#mobility-principles) for addtional guidelines and justification.
+For Engineering, please see [Engineering Mobility Principles](/handbook/engineering/careers/#mobility-principles) for additional guidelines and justification.
 
 ### Promotions
 
