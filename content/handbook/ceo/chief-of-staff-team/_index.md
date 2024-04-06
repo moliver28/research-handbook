@@ -5,7 +5,7 @@ description: "Details about Office of the CEO at GitLab"
 
 ## Office of the CEO Overview
 
-GitLab is a [functionally organized](/handbook/company/structure/#gitlabcom-isnt-a-role) company in which functions are as mutally exclusive as possible to be efficient. Without a COO or central operating department reporting into the CEO, the CEO gets leverage through an [Office of the CEO](/handbook/ceo/office-of-the-ceo/) led by the Chief of Staff to the CEO. While the Chief of Staff to the CEO is not a part of GitLab's executive team, this senior person reports directly to the CEO and manages a team that supports the CEO and/or cross-functional projects of importance to GitLab.
+GitLab is a [functionally organized](/handbook/company/structure/#gitlabcom-isnt-a-role) company in which functions are as mutally exclusive as possible to be efficient. Without a COO or central operating department reporting into the CEO, the CEO gets leverage through an [Office of the CEO](/handbook/ceo/office-of-the-ceo/) led by the Chief of Staff (CoS) to the CEO. While the Chief of Staff to the CEO is not a part of GitLab's executive team, this senior person reports directly to the CEO and manages a team that supports the CEO and/or cross-functional projects of importance to GitLab.
 
 ## Team Mission
 
@@ -27,7 +27,7 @@ Given the cross-functional nature of the [company OKRs](/handbook/company/okrs/#
 
 ### Project Criteria
 
-The Chief of Staff (CoS) to the CEO and their team may work on projects that fit *any combination* of the following:
+The Chief of Staff to the CEO and their team may work on projects that fit *any combination* of the following:
 
 1. projects which build or improve organizational design, infrastructure, and operations
 1. cross-functional projects that need ownership until a maintainer or exit criteria is identified
