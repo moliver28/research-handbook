@@ -241,7 +241,7 @@ dependencies to achieve project goals
 
 ## Performance Indicators
 
-- [Throughput - Issues or merge requests closed as measurement of projects iterated on](/handbook/ceo/chief-of-staff-team/performance-indicators/#throughput-for-the-cost)
+- [Throughput - Issues or merge requests closed as measurement of projects iterated on](/handbook/ceo/chief-of-staff-team/performance-indicators/#throughput-for-the-cost-to-the-ceo)
 
 In addition, we are exploring [additional ways to measure performance](/handbook/ceo/chief-of-staff-team/#measuring-results).
 
