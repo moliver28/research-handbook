@@ -21,7 +21,7 @@ The [Office to the CEO](/handbook/ceo/office-of-the-ceo/) consists of:
 
 When there are gaps, the Office may expand to include additional roles and responsibilities. For example, at times this Office has included our [TeamOps](https://handbook.gitlab.com/teamops/) initiative, [internal communications](/handbook/communication/#internal-communication), and [handbook maintenance](https://handbook.gitlab.com/). As GitLab is a functionally organized company, the goal in most cases is to own an area until another function is prepared to own and support it.
 
-## Kinds of projects Strategy and Operations team members work on
+## Kinds of projects Strategy and Operations team members work on {#what-projects-does-the-cost-work-on}
 
 Given the cross-functional nature of the [company OKRs](/handbook/company/okrs/#okr-process-at-gitlab) and given these projects are important to the CEO, the Strategy and Operators team members are often involved in these initiatives.
 
