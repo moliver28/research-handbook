@@ -17,11 +17,11 @@ description: "This page is an overview of the search team alignment and the tale
 | Sales | Kelsey Hart  | Fernando Khubeir |
 | Customer Success, AMER | Barbara Dinoff |  Jazmin Armstrong |
 | All Business, APAC | Yas Priatna  | Lerato Thipe |
-| Marketing/ G&A, Global | Steph Sarff | Michelle Jubrey |
-| Marketing, BDR/SDR/G&A (Global)| Caroline Rebello |  Michelle Jubrey |
-| G&A | Hannah Stewart  | Jazmin Armstrong |
-| G&A | Jenna VanZutphen  | Fernando Khubeir |
-| G&A | Aiste Juozaponyte  | Fernando Khubeir |
+| G&A/EBA/Marketing (Leadership and E-Group+ EBA) | Steph Sarff | Michelle Jubrey |
+| G&A/EBA/Marketing (Global Sales Development, FP&A, EBA) | Caroline Rebello |  Michelle Jubrey |
+| G&A/Marketing (Developer Relations, Growth, IT) | Hannah Stewart  | Jazmin Armstrong |
+| G&A/Marketing (Corporate Communications, Data, Legal, People, Product Marketing) | Jenna VanZutphen  | Fernando Khubeir |
+| G&A/Marketing (Accounting, Integrated Marketing, Internal Audit, Marketing Ops, Tax) | Aiste Juozaponyte  | Fernando Khubeir |
 | Engineering, Development | Matt Angell, Chux Ugorji | Alice Crosbie |
 | Engineering, Development | Sara Currie | Jazmin Armstrong |
 | Engineering, Development | Heather Tarver | Fernando Khubeir |
@@ -53,7 +53,7 @@ For urgent requests of the Candidate Experience Specialist team, we encourage yo
 | Talent Acquisition (R&D: Infrastructure) | TBA |
 | Talent Acquisition (Executive) | Rich Kahn |
 | Enablement | Marissa Farris |
-| Candidate Experience | Ale Ayala + Marissa Farris |
+| Candidate Experience | Marissa Farris |
 
 ## Talent Acquisition Platform Directly Responsible Individual
 
