@@ -85,9 +85,17 @@ Our workflow process for our [board](https://gitlab.com/groups/gitlab-org/-/boar
 5. **workflow::verification** ✅: After the code and UX review is complete, the issue should be moved to this list and the "verification" label should be applied.
 6. **workflow::complete** 🎉: Once the issue has been verified and everything is working, it should be moved to this list, the "complete" label should be applied, and the issue should be closed.
 
+### 📝 Issue Priority
+
+To ensure that our developers are aware of the priority of their work, we [use three labels](https://gitlab.com/groups/gitlab-org/-/labels?subscribed=&sort=relevance&search=AIF):
+
+- **AIF-Priority::1**: This label is for issues that are of the highest priority. These issues should be addressed first.
+- **AIF-Priority::2**: This label is for issues that are of medium priority. These issues should be addressed after all Priority 1 issues have been resolved.
+- **AIF-Priority::3**: This label is for issues that are of lower priority. These issues should be addressed after all Priority 1 and Priority 2 issues have been resolved.
+
 ### 🔄 Processes
 
-#### Weekly 🗓️
+#### 🗓️ Weekly
 
 1. **Backlog Refinement 📝**: (DRI: PM /EM) Once per week, review all the issues in the **Open** lane. Prioritize them based on their importance, urgency, and input from the team. Identify which issues need discovery work and which can be moved straight into **workflow::ready for development**.
 2. **Discovery Work Assignment 🧪**: (DRI: PM/EM) Move issues that need discovery work into the **workflow::problem validation** lane. These issues are not yet fully defined and need further investigation before they can be developed.
