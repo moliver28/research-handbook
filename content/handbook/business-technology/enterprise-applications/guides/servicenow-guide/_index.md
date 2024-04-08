@@ -1,8 +1,9 @@
 ---
-
 title: "HelpLab End Users Guide"
 description: "HelpLab End Users Guide"
 ---
+
+<link rel="stylesheet" type="text/css" href="/stylesheets/biztech.css" />
 
 ## What is HelpLab
 
@@ -21,10 +22,7 @@ TBD
 
 ## Tracking & Managing Open Requests
 
-![coupa-image-40](/handbook/business-technology/enterprise-applications/guides/coupa-guide/coupa40.png)
-
 TBD
-
 
 ## HelpLab Support
 
@@ -35,5 +33,4 @@ TBD
 TBD
 
 
-
-
+{::options parse_block_html="false" /}
