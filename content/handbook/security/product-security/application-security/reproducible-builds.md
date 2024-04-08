@@ -5,15 +5,13 @@ description: "Learn how GitLab is implementing Reproducable Builds for our build
 
 ## What are Reproducible Builds?
 
-Reproducible Builds (RB) is a methodology for building software that allows the end user to verify that the build published on any given release is *sufficiently similar*[1] or the same as the build that is deployed locally.
+Reproducible Builds (RB) is a methodology for building software that allows the end user to verify that the build published on any given release is *sufficiently similar*[^1] or the same as the build that is deployed locally.
 
 The RB methodology is composed of three major tenants:
 
 - Hermetic: All build inputs are specified in an unambigious way. Each item that goes into a build is given a fully resolved version number and/or cryptographic hash. Hermeticity is verified as part of the build process.
 - Reproducible: When you run the build process, you should get the same bit-by-bit output as the developer. All sources of nondeterminism and variance should be removed and all information necessary to reproduce the build should be provided up front in a `buildinfo` or similar lock file.
 - Verifiable: Mechanisms should be employed to cryptographically verify the end binary to the source it was built from in a trustworthy manner.
-
-1. Sufficient similarity highlights that 100% verifiability is not always feesable. Variances across compiler versions, OS hardware, timestamps, ordering of files on a filesystem, and other sources of nondeterminism will degrade similarity metrics. Sufficient similarity goals are to be set by the source code maintainers.
 
 ## Why are Reproducible Builds Important?
 
@@ -40,3 +38,7 @@ Note that other fields may be beneficial and the list above is not comprehensive
 As mentioned above, different Reproducible Builds are going to have different required similarity scores. It's not always fesable to enforce 100% reproducability as some nondeterministic factors may be unable to be mitigated. In order to meet the criteria for reproducibility, builds should be:
 - Byte-by-byte verifiable: this typically takes the form of a cryptographic hash that is able to be compared against an authenticated source
 - Automatable: build hashes of source inputs, expected outputs, attestations, and so on should be provided in a format that is easily able to be verified by automation
+
+---
+
+[^1]: Sufficient similarity highlights that 100% verifiability is not always feesable. Variances across compiler versions, OS hardware, timestamps, ordering of files on a filesystem, and other sources of nondeterminism will degrade similarity metrics. Sufficient similarity goals are to be set by the source code maintainers.
