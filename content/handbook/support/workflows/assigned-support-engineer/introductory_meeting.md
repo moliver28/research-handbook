@@ -73,8 +73,7 @@ There are only a few goals for this meeting:
    can include:
    1. The customer's technical people who are expected to be the ones working
       with the ASE on a frequent basis
-   1. The individual(s) designated by the customer to oversee and assess 
-      the success of the ASE engagement
+   1. The individual(s) designated by the customer to oversee and assess the success of the ASE engagement
    1. The ASE
 1. Do **not** let the meeting become a troubleshooting session
 1. Throughout the meeting, be sure that you speak clearly, slowly but not too
