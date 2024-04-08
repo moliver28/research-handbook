@@ -1,5 +1,8 @@
 ---
 title: JiHu validation pipelines
+aliases:
+- /handbook/ceo/office-of-the-ceo/jihu-support/jihu-validation-pipelines/
+- /handbook/ceo/office-of-the-ceo/jihu-support/jihu-validation-pipelines/
 ---
 
 ## JiHu validation pipelines

@@ -5,6 +5,9 @@ twitter_image: "/images/opengraph/all-remote.jpg"
 twitter_image_alt: "GitLab's All-Remote Marketing branded image"
 twitter_site: "@gitlab"
 twitter_creator: "@gitlab"
+aliases:
+- /handbook/ceo/office-of-the-ceo/workplace/
+- /handbook/ceo/office-of-the-ceo/workplace/
 ---
 
 ## About the GitLab Strategy and Operations (Workplace) Team

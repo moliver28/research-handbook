@@ -1,6 +1,9 @@
 ---
 title: "Office of the CEO"
 description: "Details about Office of the CEO at GitLab"
+aliases: 
+- /handbook/ceo/office-of-the-ceo/
+- /handbook/ceo/office-of-the-ceo/
 ---
 
 ## Office of the CEO Overview
@@ -243,7 +246,7 @@ With the goals of increasing efficiency and looking at how to make recurring mee
 2. Discuss removing yourself as an attendee with the meeting owner if you don’t feel that you are contributing or supporting business results through participation
 3. Ask other team members to reexamine how existing meetings are managed
 
-If you’re looking for possible wording to use when taking the actions above, and for more information about the cleanup day, please look at  https://handbook.gitlab.com/handbook/ceo/chief-of-staff-team/#meeting-cleanup-day.
+If you’re looking for possible wording to use when taking the actions above, and for more information about the cleanup day, please look at  https://handbook.gitlab.com/handbook/ceo/office-of-the-ceo/#meeting-cleanup-day.
 ```
 
 When cancelling a meeting, a team member can copy and paste this message to send to attendees:

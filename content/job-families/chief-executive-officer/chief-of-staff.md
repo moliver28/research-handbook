@@ -4,7 +4,7 @@ title: "Chief of Staff to the CEO"
 
 The Chief of Staff to the CEO is a very talented individual who serves as a trusted advisor and confidant to the Chief Executive Officer (CEO). The Chief of Staff to the CEO and the CEO work closely together to get twice as much done as the CEO would be able to do alone. The Chief of Staff to the CEO leads the Office of the CEO at GitLab.
 
-This is a senior leadership role. This role does not do any work our [Executive Business Administrators](/job-families/people-group/executive-business-administrator/) (EBAs) are already doing, for example, calendaring. The Chief of Staff to the CEO has some EBA support. A detailed list of the types of projects the Chief of Staff to the CEO might work on can be found in the Chief of Staff to the CEO [handbook page](/handbook/ceo/chief-of-staff-team/#what-projects-does-the-cost-work-on).
+This is a senior leadership role. This role does not do any work our [Executive Business Administrators](/job-families/people-group/executive-business-administrator/) (EBAs) are already doing, for example, calendaring. The Chief of Staff to the CEO has some EBA support. A detailed list of the types of projects the Chief of Staff to the CEO might work on can be found in the Chief of Staff to the CEO [handbook page](/handbook/ceo/office-of-the-ceo/#what-projects-does-the-cost-work-on).
 
 ## Job Grade
 
@@ -42,7 +42,7 @@ The responsibilities include both directed work that will mostly be triggered by
 1. Act as a sounding board to the CEO for new ideas and initiatives.
 1. Prepare ahead of formal and informal Board meetings. Ensure CEO has up to date information from every function in advance of questions from the board.
 1. Run special projects that are urgent and important, for example building a company wide [compensation model](/handbook/total-rewards/compensation/compensation-calculator/).
-1. Lead key [many-functional efforts](/handbook/ceo/chief-of-staff-team/#many-functional).
+1. Lead key [many-functional efforts](/handbook/ceo/office-of-the-ceo/#many-functional).
 
 ## Requirements
 
@@ -71,8 +71,8 @@ The responsibilities include both directed work that will mostly be triggered by
 
 ## Performance Indicators
 
-- [Meetings shifted from CEO - hours spent in meetings decreases overtime by Chief of Staff to the CEO stepping in, supported by Internal Consultants](/handbook/ceo/chief-of-staff-team/performance-indicators/#executive-time-for-the-ceo)
-- [Throughput - Issues or merge requests closed as measurement of projects iterated on](/handbook/ceo/chief-of-staff-team/performance-indicators/#throughput-for-the-cost)
+- [Meetings shifted from CEO - hours spent in meetings decreases overtime by Chief of Staff to the CEO stepping in, supported by Internal Consultants](/handbook/ceo/office-of-the-ceo/performance-indicators/#executive-time-for-the-ceo)
+- [Throughput - Issues or merge requests closed as measurement of projects iterated on](/handbook/ceo/office-of-the-ceo/performance-indicators/#throughput-for-the-cost)
 
 ## Hiring Process
 
