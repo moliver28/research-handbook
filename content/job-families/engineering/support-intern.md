@@ -1,6 +1,6 @@
 ---
 title: "Support Engineer Intern"
-description: "The core responsibility of a GitLab Support Intern is to learn about how software is built and maintained through the lens of delivering customer results."
+description: "The core responsibility of a GitLab Support Intern is to contribute to how software is built and maintained through the lens of delivering customer results."
 canonical_path: "/job-families/engineering/support-intern/"
 ---
 
@@ -30,7 +30,7 @@ As a Support Engineer Intern, you will work for a 10 week period embedded within
 
 ### Projects you might work on
 
-When you’re not tackling difficult customer challenges, you’ll have a lot of freedom to work on things that will make your life, and the lives of our customers and Support Engineers, easier. Current and past support engineers have:
+When you’re not tackling difficult customer challenges, you may get to work on things that will make your life, and the lives of our customers and Support Engineers, easier. Current and past support engineers have:
 
 - created a tool to [quickly analyze strace output](https://gitlab.com/gitlab-com/support/toolbox/strace-parser)
 - built and maintained tooling to handle our call scheduling
@@ -38,7 +38,7 @@ When you’re not tackling difficult customer challenges, you’ll have a lot of
 - added functionality to [ChatOps](https://docs.gitlab.com/ee/ci/chatops/) to make it easier to identify user accounts on GitLab.com
 - written a [Chrome Extension to route downloads from Zendesk tickets into organized folders](https://gitlab.com/gitlab-com/support/toolbox/zd-dl-router)
 - … [done even more](https://gitlab.com/gitlab-com/support/toolbox?sort=latest_activity_desc)!
-
+All interns will be responsible for completing a final project at the end of their internship. This could be an opportunity to improve support, the product, or a [Stage](/handbook/product/categories/#hierarchy). Interns will share a virtual poster and present to Engineering executives. 
 ### Why are GitLab Engineering Interns placed in Customer Support?
 
 Products exist to serve customer needs, customer support exists for times when those needs aren't being met by the product or its documentation.
