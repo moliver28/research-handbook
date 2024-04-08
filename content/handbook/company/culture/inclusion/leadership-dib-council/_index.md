@@ -1,11 +1,11 @@
 ---
 
 title: Leadership Diversity Inclusion & Belonging Council
-description: "A strategic group of Senior leaders URG Leaders who assist the DIB team to implement the strategy and align the strategy to the Division's strategic imperatives"
+description: "A strategic group of Senior leaders who assist the DIB team to implement the strategy and align the strategy to the Division's strategic imperatives"
 canonical_path: "/company/culture/inclusion/leadership-dib-council/"
 ---
 
-A strategic group of Senior leaders Leaders who assist the DIB team in implementing the Corporate DIB strategy and provide insights to the DIB team on the Division's strategic imperatives.  Each representative will bring a unique set of capabilities such as but not limited to:
+A strategic group of Senior leaders who assist the DIB team in implementing the Corporate DIB strategy and provide insights to the DIB team on the Division's strategic imperatives.  Each representative will bring a unique set of capabilities such as but not limited to:
 
 - Location Diversity
 - Manage a team that are geographically dispersed (providing expertise on geographical diversity)
@@ -35,7 +35,7 @@ Senior leadership representative (Snr. Dir +) from each Department and a person 
     - Michel Isnard
 - Marketing - Two Representatives
     - Christine Lee
-    - TBC
+    - Leslie Blanchard
 - Finance
     - Andrew Murray
     - Dennis van Rooijen
