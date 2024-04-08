@@ -39,6 +39,22 @@ When you’re not tackling difficult customer challenges, you’ll have a lot of
 - written a [Chrome Extension to route downloads from Zendesk tickets into organized folders](https://gitlab.com/gitlab-com/support/toolbox/zd-dl-router)
 - … [done even more](https://gitlab.com/gitlab-com/support/toolbox?sort=latest_activity_desc)!
 
+### Why are GitLab Engineering Interns placed in Customer Support?
+
+Products exist to serve customer needs, customer support exists for times when those needs aren't being met by the product or its documentation.
+
+Develoing an empathy for and understanding of customer pain points is a career accelerator. No matter where you intend to go in your career, even outside of Engineering, getting [Results for Customers](/handbook/values/#results)
+is at the core of why a company exists.
+
+Support is uniquely positioned where decisions made by our colleagues in Sales, Customer Success, Product, Engineering and Documentation meet the customer. You'll have a chance to interact with team members across the business as you advocate for customer needs. More though: at GitLab, we're a step closer to our customers because we develop [publicly by default](https://handbook.gitlab.com/handbook/values/#public-by-default) and work hard to make it so that [everyone can contribute to the GitLab application](https://handbook.gitlab.com/handbook/company/mission/#contribute-to-gitlab-application). This means that not only can you _report_ customer pain points: you can solve them.
+
+Along the way you'll get exposure to the full suite of technologies our users use to build the world's software.
+
+During an internship at GitLab:
+- **Your public contributions will be a part of GitLab's history** - you'll [join the over 4000+ people who have helped co-create the leading DevOps Platform](https://about.gitlab.com/community/contribute/)
+- **You'll get exposure to modern software development practices** - you'll work directly with customers, and the engineering and product teams who support them to help leading companies deliver [software, faster.](https://about.gitlab.com/software-faster/)
+- **Your efforts will have impact** - whether you work on public facing documentation or product improvements, or work on internally-focused tools for greater efficiency, you'll be working on real challenges that a [category-leading company](https://about.gitlab.com/gartner-magic-quadrant/) is faces
+
 ## Requirements
 
 ### You should [apply](https://boards.greenhouse.io/gitlab) if
