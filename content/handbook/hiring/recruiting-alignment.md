@@ -17,11 +17,11 @@ description: "This page is an overview of the search team alignment and the tale
 | Sales | Kelsey Hart  | Fernando Khubeir |
 | Customer Success, AMER | Barbara Dinoff |  Sarah Lynch |
 | All Business, APAC | Yas Priatna  | Lerato Thipe |
-| Marketing/G&A/EBA (Leadership and E-Group+ EBA) | Steph Sarff | Michelle Jubrey |
-| Marketing/G&A (Global Sales Development, FP&A, EBA) | Caroline Rebello |  Michelle Jubrey |
-| Marketing/G&A (Developer Relations, Growth, IT) | Hannah Stewart  | Jazmin Armstrong |
-| Marketing/G&A (Corporate Communications, Data, Legal, People, Product Marketing) | Jenna VanZutphen  | Fernando Khubeir |
-| Marketing/G&A (Accounting, Integrated Marketing, Internal Audit, Marketing Ops, Tax) | Aiste Juozaponyte  | Fernando Khubeir |
+| G&A/EBA/Marketing (Leadership and E-Group+ EBA) | Steph Sarff | Michelle Jubrey |
+| G&A/EBA/Marketing (Global Sales Development, FP&A, EBA) | Caroline Rebello |  Michelle Jubrey |
+| G&A/Marketing (Developer Relations, Growth, IT) | Hannah Stewart  | Jazmin Armstrong |
+| G&A/Marketing (Corporate Communications, Data, Legal, People, Product Marketing) | Jenna VanZutphen  | Fernando Khubeir |
+| G&A/Marketing (Accounting, Integrated Marketing, Internal Audit, Marketing Ops, Tax) | Aiste Juozaponyte  | Fernando Khubeir |
 | Engineering, Development | Matt Angell, Chux Ugorji | Alice Crosbie |
 | Engineering, Development | Sara Currie | Jazmin Armstrong |
 | Engineering, Development | Heather Tarver | Sarah Lynch |
