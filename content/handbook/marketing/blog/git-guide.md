@@ -100,4 +100,4 @@ If you're having problems with Git, reach out in the following Slack channels =)
 
 Here are some existing resources from GitLab for Git.
 - [Developer Cheatsheet, Engineering Handbook](/handbook/engineering/development/dev/create/ide/developer-cheatsheet/)
-- [Git Cheat Sheet for Press](/images/press/git-cheat-sheet.pdf)
+- [Git Cheat Sheet for Press](https://about.gitlab.com/images/press/git-cheat-sheet.pdf)
