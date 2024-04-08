@@ -72,11 +72,6 @@ The role of TPM can mean different things at different organizations. At GitLab,
 | Gather inputs and feedback and suggest improvements to our Product Process, and operational model within the Product division. | Provide technical project management, coordination, and inter/intra team communications to deliver outstanding program outcomes. | Drive organizational needs cross-functionally with product, engineering and finance including tracking and reporting of progress and metrics
 | [Product Technical Program Management](https://handbook.gitlab.com/job-families/product/program-manager/) | [Infrastructure Program Management](https://handbook.gitlab.com/job-families/engineering/technical-program-management/technical-program-management-ic/) | [Security Program Management](https://handbook.gitlab.com/job-families/security/security-program-manager/)
 
-
-
-
-Driving operational efficiency for the Product Division. Technical Program Managers (TPMs) are responsible for supporting cross-division initiatives across Product Management and User Experience along with supporting initiatives cross functionally across all of R&D.
-
 ## Responsibilities
 
 * Manage and collaborate on key initiatives with stakeholders and leadership across R&D. Drive accountability ensuring all program objectives are met.
