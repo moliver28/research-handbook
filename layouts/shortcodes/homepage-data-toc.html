@@ -45,7 +45,7 @@
                 {{- if not $u.IsAbs }}
                     <a href="{{ relref $.Page .url }}" class="list-group-item list-group-item-action">{{.name}}</a>
                 {{- else }}
-                <a href="{{ $url }}" class="list-group-item list-group-item-action">{{.name}}</a>
+                <a href="{{ $url }}" class="list-group-item list-group-item-action">{{.name}} <sup><i class="fa-solid fa-up-right-from-square"></i></sup></a>
                 {{- end }}
                 {{- end }}
             </div>
