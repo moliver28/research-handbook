@@ -50,23 +50,22 @@
 </style>
 
 {{- /*  Initialize. */}}
-{{- $name := .Get "name" }}
-{{- $scope := .Get "scope" }}
+{{- $name := strings.Split (.Get "name") "::" }}
 {{- $color := .Get "color" }}
 {{- $dark := .Get "dark" }}
 
 <span
-  class="gl-label {{- if eq (len $dark) 0 }} gl-label-text-light {{- end }} {{- if gt (len $scope) 0 }} gl-label-scoped {{- end }}"
+  class="gl-label {{- if eq (len $dark) 0 }} gl-label-text-light {{- end }} {{- if isset $name "1" }} gl-label-scoped {{- end }}"
   style="
     --label-background-color: {{ $color }};
     --label-inset-border: inset 0 0 0 2px {{ $color }};
   "
 >
   <span class="gl-link gl-label-link">
-    <span class="gl-label-text"> {{ $name }} </span>
+    <span class="gl-label-text"> {{ index $name 0 }} </span>
 
-    {{- if gt (len $scope) 0 }}
-    <span class="gl-label-text-scoped"> {{ $scope }} </span>
+    {{- if isset $name "1"  }}
+    <span class="gl-label-text-scoped"> {{ index $name 1 }} </span>
     {{- end }}
   </span>
 </span>
