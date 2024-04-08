@@ -278,6 +278,7 @@ everyone is encouraged to set the deadline based on the date of the last severit
 ##### Bug intake process
 
 ###### High level
+
 The goal of our bug intake process is to deliver the best result for the
 customer while aligning with our CREDIT values. From a high level we value the
 following:
