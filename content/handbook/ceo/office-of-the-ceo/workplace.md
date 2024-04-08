@@ -7,7 +7,7 @@ twitter_site: "@gitlab"
 twitter_creator: "@gitlab"
 aliases:
 - /handbook/ceo/office-of-the-ceo/workplace/
-- /handbook/ceo/office-of-the-ceo/workplace/
+- /handbook/ceo/chief-of-staff-team/workplace/
 ---
 
 ## About the GitLab Strategy and Operations (Workplace) Team

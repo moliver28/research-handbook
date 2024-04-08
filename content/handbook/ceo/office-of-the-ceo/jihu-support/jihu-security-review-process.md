@@ -2,7 +2,7 @@
 title: JiHu Security Review Process
 aliases:
 - /handbook/ceo/office-of-the-ceo/jihu-support/jihu-security-review-process/
-- /handbook/ceo/office-of-the-ceo/jihu-support/jihu-security-review-process/
+- /handbook/ceo/chief-of-staff-team/jihu-support/jihu-security-review-process/
 ---
 
 ### Security review process for JiHu contributions

@@ -3,7 +3,7 @@ title: "Office of the CEO"
 description: "Details about Office of the CEO at GitLab"
 aliases: 
 - /handbook/ceo/office-of-the-ceo/
-- /handbook/ceo/office-of-the-ceo/
+- /handbook/ceo/chief-of-staff-team/
 ---
 
 ## Office of the CEO Overview
