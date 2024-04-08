@@ -1,0 +1,71 @@
+<style>
+.gl-label {
+  align-items:center;
+  background-color:#fff;
+  border-radius:.75rem;
+  box-shadow:var(--label-inset-border)!important;
+  color:#1f1f1f;
+  display:inline-flex;
+  filter:brightness(.9)contrast(1.1);
+  font-size:.875rem;
+  margin:0 5px 5px 0;
+  max-width:100%;
+  overflow:hidden;
+  position:relative;
+  vertical-align:middle
+}
+.gl-label:not(.gl-label-scoped) {
+  background-color:var(--label-background-color)
+}
+.gl-label.gl-label-text-light {
+  color:#fafafa
+}
+.gl-label .gl-label-link {
+  color:inherit;
+  display:flex;
+  font-size:.75rem;
+  font-weight:400;
+  line-height:1rem;
+  max-width:100%;
+  overflow:hidden
+}
+.gl-label .gl-label-text,
+.gl-label .gl-label-text-scoped {
+  display:inline-block;
+  max-width:100%;
+  overflow:hidden;
+  padding:.25rem .5rem;
+  text-overflow:ellipsis;
+  vertical-align:top;
+  white-space:nowrap
+}
+.gl-label.gl-label-scoped .gl-label-text {
+  padding-right:.25rem;
+  background-color:var(--label-background-color)
+}
+.gl-label.gl-label-scoped .gl-label-text-scoped {
+  color:#1f1f1f;
+  padding-left:.25rem
+}
+</style>
+
+{{- /*  Initialize. */}}
+{{- $name := strings.Split (.Get "name") "::" }}
+{{- $color := .Get "color" }}
+{{- $dark := .Get "dark" }}
+
+<span
+  class="gl-label {{- if eq (len $dark) 0 }} gl-label-text-light {{- end }} {{- if isset $name "1" }} gl-label-scoped {{- end }}"
+  style="
+    --label-background-color: {{ $color }};
+    --label-inset-border: inset 0 0 0 2px {{ $color }};
+  "
+>
+  <span class="gl-link gl-label-link">
+    <span class="gl-label-text"> {{ index $name 0 }} </span>
+
+    {{- if isset $name "1"  }}
+    <span class="gl-label-text-scoped"> {{ index $name 1 }} </span>
+    {{- end }}
+  </span>
+</span>
