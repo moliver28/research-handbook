@@ -377,7 +377,7 @@ Engineers / C-Suite / Heads of Engineering & Data Science / DevOps Engineers / I
 - **My Messaging:**
    - A single platform makes it easier to enforce compliance across the entire software life cycle
    - GitLab can pull reports from all projects, groups, and departments making preparing for audits much easier
-   - Vulternability and Dependcy manageemnt are easier through SBOM creationg, license approvals policies, and security dashboards
+   - Vulnerability and Dependency management are easier through SBOM creationg, license approvals policies, and security dashboards
 
 - **Potential Titles:**
    - Compliance Officer / Director or Manager: Risk & Regulatory, Audit, Ethics, Governance
