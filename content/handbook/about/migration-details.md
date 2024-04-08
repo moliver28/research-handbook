@@ -512,18 +512,18 @@ support/index.html.md.erb
 ```text
 ceo/index.html.md
 ceo/shadow/index.html.md
-ceo/chief-of-staff-team/performance-indicators/index.html.md.erb
-ceo/chief-of-staff-team/index.html.md
-ceo/chief-of-staff-team/jihu-support/jihu-database-change-process.html.md
-ceo/chief-of-staff-team/jihu-support/index.html.md
-ceo/chief-of-staff-team/jihu-support/release-certification.html.md
-ceo/chief-of-staff-team/jihu-support/jihu-security-review-process.html.md
-ceo/chief-of-staff-team/jihu-support/jihu-validation-pipelines.html.md
-ceo/chief-of-staff-team/jihu-support/jihu-contribution-review-process.html.md
-ceo/chief-of-staff-team/workplace/index.html.md
-ceo/chief-of-staff-team/readmes/index.html.md
-ceo/chief-of-staff-team/readmes/lfarrer/index.html.md.erb
-ceo/chief-of-staff-team/readmes/streas/index.html.md
+ceo/office-of-the-ceo/performance-indicators/index.html.md.erb
+ceo/office-of-the-ceo/index.html.md
+ceo/office-of-the-ceo/jihu-support/jihu-database-change-process.html.md
+ceo/office-of-the-ceo/jihu-support/index.html.md
+ceo/office-of-the-ceo/jihu-support/release-certification.html.md
+ceo/office-of-the-ceo/jihu-support/jihu-security-review-process.html.md
+ceo/office-of-the-ceo/jihu-support/jihu-validation-pipelines.html.md
+ceo/office-of-the-ceo/jihu-support/jihu-contribution-review-process.html.md
+ceo/office-of-the-ceo/workplace/index.html.md
+ceo/office-of-the-ceo/readmes/index.html.md
+ceo/office-of-the-ceo/readmes/lfarrer/index.html.md.erb
+ceo/office-of-the-ceo/readmes/streas/index.html.md
 ```
 
 ### Company

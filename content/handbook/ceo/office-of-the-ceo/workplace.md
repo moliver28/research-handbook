@@ -25,7 +25,7 @@ The GitLab Strategy and Operations (Workplace) Team evolved from the All-Remote 
 
 The mission of GitLab's Strategy and Operations (Workplace) team is to define, evolve, and scale [TeamOps]({{< ref teamops >}}). We also evolve and champion the company's [all-remote culture](/handbook/company/culture/all-remote/).
 
-This involves close collaboration with [GitLab's CEO]({{< ref ceo >}}) and [Chief of Staff]({{< ref chief-of-staff-team >}}); Corporate Marketing (PR, corporate events); People Group ([employment branding](/handbook/people-group/employment-branding/)) and [Diversity, Inclusion & Belonging](/handbook/company/culture/inclusion/).
+This involves close collaboration with [GitLab's CEO]({{< ref ceo >}}) and [Chief of Staff]({{< ref office-of-the-ceo >}}); Corporate Marketing (PR, corporate events); People Group ([employment branding](/handbook/people-group/employment-branding/)) and [Diversity, Inclusion & Belonging](/handbook/company/culture/inclusion/).
 
 ### All-Remote Flywheel
 
@@ -75,10 +75,10 @@ The purpose of the first version of this program is to collect feedback and reso
 
 Creation of and participation in this program also supports the [FY23-Q4 OKR to Grow Careers](/handbook/company/okrs/fy23-q4/) of GitLab team members.
 
-Apply to become a TeamOps Trainer and learn more about the program in [this GitLab issue](https://gitlab.com/gitlab-com/ceo-chief-of-staff-team/cos-team/-/issues/305).
+Apply to become a TeamOps Trainer and learn more about the program in [this GitLab issue](https://gitlab.com/gitlab-com/office-of-the-ceo/cos-team/-/issues/305).
 
 
-Requirements for [TeamOps Trainer: Level 1](https://gitlab.com/gitlab-com/ceo-chief-of-staff-team/cos-team/-/issues/305)
+Requirements for [TeamOps Trainer: Level 1](https://gitlab.com/gitlab-com/office-of-the-ceo/cos-team/-/issues/305)
 1. Complete the [TeamOps practitioner course](https://levelup.gitlab.com/learn/course/teamops)
 1. Be able to answer questions (interview by existing trainer)
 1. Enthusiastic presentation of about 3-5 minutes on advantages of TeamOps on YouTube (GitLab Unfiltered)
@@ -441,7 +441,7 @@ There are also a number of videos on GitLab's [YouTube channel](https://www.yout
 
 To contribute an idea or [proposal]{{< ref "values#make-a-proposal" >}}) to further GitLab's all-remote mission:
 
-1. Please put each new idea/topic in a new issue within the [Chief of Staff to the CEO Team](https://gitlab.com/gitlab-com/chief-of-staff-team/cos-team/-/issues) project
+1. Please put each new idea/topic in a new issue within the [Chief of Staff to the CEO Team](https://gitlab.com/gitlab-com/office-of-the-ceo/cos-team/-/issues) project
 1. Put `Proposal: [IDEA]` as the subject
 1. Assign to `@streas`
 1. Please [set a due date]({{< ref "values#set-a-due-date" >}}) using GitLab's `Due Date` feature and provide context for the deadline(s).
@@ -484,4 +484,4 @@ For a good template to roll this out for your team, see the [Growth team's plann
 
 ----
 
-Return to the [Chief of Staff Team to the CEO Handbook]({{< ref chief-of-staff-team >}}).
+Return to the [Chief of Staff Team to the CEO Handbook]({{< ref office-of-the-ceo >}}).
