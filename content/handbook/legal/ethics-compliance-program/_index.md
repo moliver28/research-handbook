@@ -48,7 +48,7 @@ Listed below are GitLab's policies and procedures, as well as guidance and other
 
 ### Policy Translations
 
-Certain policies are now available [here](https://handbook.gitlab.com/handbook/people-policies/#translations) in Dutch, French, and German. 
+Certain policies are now available [here](https://handbook.gitlab.com/handbook/people-policies/#translations) in Dutch, French, and German.
 
 ### Guidelines and Other Resources
 
