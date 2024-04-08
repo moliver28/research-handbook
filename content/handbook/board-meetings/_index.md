@@ -203,19 +203,16 @@ For a more detailed overview of navigating the NBV portal, please click here to 
 
 ### Agenda
 
-1. Prior to distributing the Board deck, the CFO or Senior EBA to the CFO groups questions together in the BOD Meeting Agenda by function or topic. Notes *should not* be taken by any GitLab team members in the agenda document during the meeting as requested by Legal.
 1. Key Board material is presented during Board Meeting sessions. This includes:
-   - E-Group memos, eliminating previous general session board presentation:
-        - Each discussion subject has a memo with unlimited slides.
-        - Finance has unlimited slides in the memo.
+   - E-Group memos and CEO memos
+        - Each E-Group member has a memo with up to four pages with four additional exhibits.
+        - Each discussion topic has a memo with unlimited exhibits.
+        - Finance has unlimited exhibits in the memo.
         - Annual Operating Plan can be a memo or slide deck.
    - The Administration Session for Board Committee readouts by the Committee Chairperson updating the Board as to the Committee’s activities and highlighting the items requiring Board approval, if any.
 1. Questions can be asked throughout the meeting. 30 minutes are reserved at the end of the General Session for Q&A / Discussion.
 1. At the conclusion of the General Session the E-Group, Observers, CoS to the CEO, Staff EBA, CEO Shadows depart the zoom meeting and the full Board shall meet for a Closed Session.
 
-### CEO Memo
-
-The CEO is responsible for submitting a memo to the BoD in advance of the Board meeting. The memo captures GitLab highlights from the previous quarter, company OKRs for the coming quarter, and other topics that are top of mind for the CEO. The CoS to the CEO supports the CEO by creating an initial draft and sharing it with the CEO a week before the final draft is shared with E-Group. The memo should have online tests for readability before they are finalized or shared with the CEO. A tool, such as https://readable.com/, can be used.
 
 ### Board Dinner
 
