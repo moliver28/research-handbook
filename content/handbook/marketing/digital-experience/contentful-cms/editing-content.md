@@ -70,7 +70,6 @@ The process for creating new content in Contentful is varied.
 - *Confidential*: can create, edit, publish, archive and delete all content in a space, including `Confidential` content.
 - *Creator*: can create and edit all content in a space (aside from `Confidential` content), but cannot publish it.
 - *Publisher*: can create, edit, publish, archive and delete all content in a space (aside from `Confidential` content). This person should be able to administer their own team.
-- *Reviewer*: can edit all content in a space (aside from `Confidential` content), but cannot publish it.
 
 ## Specific Contentful Training Resources
 
