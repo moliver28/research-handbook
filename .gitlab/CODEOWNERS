@@ -94,14 +94,14 @@
 /content/handbook/eba/ @jrotenberry @lsimonot
 
 ^[engineering]
-/content/handbook/developer-onboarding.md @sabrinafarmer @timzallmann @bmarnane
+/content/handbook/developer-onboarding.md @sabrina @timzallmann @bmarnane
 /content/handbook/on-call.md @jfuentes2 @meks @jscarborough
-/content/handbook/engineering/ @sabrinafarmer
-/content/handbook/engineering/cross-functional-prioritization.md @sabrinafarmer @david
+/content/handbook/engineering/ @sabrina
+/content/handbook/engineering/cross-functional-prioritization.md @sabrina @david
 /content/handbook/engineering/metrics/ @meks @lmai1 @rymai
 /content/handbook/engineering/open-source/ @rymai @meks @nick_vh
 /content/handbook/engineering/performance.md @timzallmann
-/content/job-families/engineering/ @sabrinafarmer
+/content/job-families/engineering/ @sabrina
 /content/job-families/engineering/incubation/ @bmarnane
 
 ^[Eng-Development-department]
@@ -463,8 +463,8 @@
 /content/handbook/product/ai/continuity-plan.md @robin @rnalen @ktesh @m_taylor @gitlab-com/egroup @hbenson @dfrhodes @tichen @tmccaslin
 
 ^[product-dev-flow]
-/content/handbook/product-development-budgeting.md @david @sabrinafarmer @timzallmann @justinfarris @hbenson @mflouton @steve-evangelista
-/content/handbook/product-development-flow/ @david @sabrinafarmer @timzallmann @justinfarris @hbenson @mflouton @steve-evangelista
+/content/handbook/product-development-budgeting.md @david @sabrina @timzallmann @justinfarris @hbenson @mflouton @steve-evangelista
+/content/handbook/product-development-flow/ @david @sabrina @timzallmann @justinfarris @hbenson @mflouton @steve-evangelista
 
 ^[sales]
 /content/handbook/resellers/ @ecepulis
@@ -565,7 +565,7 @@
 /content/handbook/support/workflows/pii_removal_requests.md @gitlab-com/support/managers @gitlab-com/gl-security/security-operations/trust-and-safety @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/support/workflows/reinstating-blocked-accounts.md @gitlab-com/support/managers @gitlab-com/gl-security/security-operations/trust-and-safety @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/support/workflows/setting_ticket_priority.md @gitlab-com/support/managers @gitlab-com/support/support-ops @gitlab-com/egroup @gitlab-com/content-sites
-/content/handbook/support/workflows/team/performance_review.md @sabrinafarmer @lbot @lyle @shaunmccann @vparsons @gitlab-com/egroup @gitlab-com/content-sites
+/content/handbook/support/workflows/team/performance_review.md @sabrina @lbot @lyle @shaunmccann @vparsons @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/support/workflows/working_with_security.md @gitlab-com/support/managers @gitlab-com/gl-security @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/support/workflows/zendesk-instances.md @gitlab-com/support/managers @gitlab-com/support/support-ops @gitlab-com/egroup @gitlab-com/content-sites
 
