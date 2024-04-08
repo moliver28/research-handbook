@@ -41,7 +41,12 @@
             <div class="list-group">
                 {{- range .links }}
                 {{- $u := urls.Parse .url }}
+                {{- $url := .url }}
+                {{- if not $u.IsAbs }}
                     <a href="{{ relref $.Page .url }}" class="list-group-item list-group-item-action">{{.name}}</a>
+                {{- else }}
+                <a href="{{ $url }}" class="list-group-item list-group-item-action">{{.name}}</a>
+                {{- end }}
                 {{- end }}
             </div>
         </div>
