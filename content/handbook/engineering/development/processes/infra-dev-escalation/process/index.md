@@ -172,7 +172,7 @@ The on-call spreadsheet(internal only) can be found by searching [Google Drive f
 
 All backend and fullstack engineers who have been with the company for at least 3 months and are part of Core Development or part of certains teams from Expansion Development:
 - All Fulfillment teams
-- All Goven teams with the exception of AI Model Validation
+- All Govern teams with the exception of AI Model Validation
 - All Secure teams with the exception of Composition Analysis
 
 Exceptions: (i.e. exempted from on-call duty)
