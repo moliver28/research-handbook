@@ -35,7 +35,7 @@ Senior leadership representative (Snr. Dir +) from each Department and a person 
     - Michel Isnard
 - Marketing - Two Representatives
     - Christine Lee
-    - TBC
+    - Leslie Blanchard
 - Finance
     - Andrew Murray
     - Dennis van Rooijen
