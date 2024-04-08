@@ -33,6 +33,20 @@ Please reach out to Allie Klatzkin or Luis Diego D'ambrosio with any questions.
 ### Meet the Team
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
+**Allie Klatzkin** _Staff Lifecycle Marketing Manager_
+
+- **Free User Campaigns**: DRI for free user efficiency project, focused on progression of free users to trial to paid
+- **Trial User Campaigns**: DRI for trial nurture, focused on progressing trial users to paid
+- **Duo Pro Campaigns**: DRI for email campaigns related to our AI product
+- **Intelligent Nurture - Buyer / User Personas**: DRI for organization of new content additions to the intelligent nurture, build of new streams within the nurture architecture in collaboration with marketing operations
+- **Customer MVCs**: (connection with Dir. Digital Success on CS Ops side)
+- **Calendaring and stakeholder conversations (DRI)**: Lead weekly email calendar conversations to ensure we are prioritizing our email sends per audience
+- **Email Templates**: define needs, organize design, and manage development and testing of new email templates
+- **Email Best Practices, Processes & Optimization**: enable teams across GitLab (mainly Marketing and Sales Dev) on email best practices, as well as streamlining, scaling, and improving email performance
+- **GitLab Corporate Events**: Global templates and scaling process for promoting and following up from corporate events and conferences. 
+- **Email point of contact/support**: Reviewing and optimizing AMER & Global events (fmm & corp), campaigns, and newsletter email sends to ensure best practices and compliance with the GitLab brand
+
+
 
 **Luis Diego D'Ambrosio** _Senior Lifecycle Marketing Manager_
 
@@ -43,21 +57,6 @@ Please reach out to Allie Klatzkin or Luis Diego D'ambrosio with any questions.
 - **Localization within emails**: Owning the translation and localization strategy for email
 - **Calendaring and stakeholder conversations (Supporting)**: Assist in the calendaring conversations led by @aklatzkin and be back-up in case of OOO
 - **Re-engagement nurture**: Develop and implement strategy for re-engagement email nurture
-
-
-
-**Allie Klatzkin** _Senior Lifecycle Marketing Manager_
-
-- **Free User Campaigns**: DRI for free user efficiency project, focused on progression of free users to trial to paid
-- **Trial User Campaigns**: DRI for trial nurture, focused on progressing trial users to paid
-- **Intelligent Nurture - Buyer / User Personas**: DRI for organization of new content additions to the intelligent nurture, build of new streams within the nurture architecture in collaboration with marketing operations
-- **Customer MVCs**: (connection with Dir. Digital Success on CS Ops side)
-- **Calendaring and stakeholder conversations (DRI)**: Lead weekly email calendar conversations to ensure we are prioritizing our email sends per audience
-- **Email Templates**: define needs, organize design, and manage development and testing of new email templates
-- **Email Best Practices, Processes & Optimization**: enable teams across GitLab (mainly Marketing and Sales Dev) on email best practices, as well as streamlining, scaling, and improving email performance
-- **GitLab Corporate Events**: Global templates and scaling process for promoting and following up from corporate events and conferences. 
-- **Email point of contact/support**: Reviewing and optimizing AMER & Global events (fmm & corp), campaigns, and newsletter email sends to ensure best practices and compliance with the GitLab brand
-
 
 
 ## Communication
