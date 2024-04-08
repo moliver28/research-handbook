@@ -255,7 +255,7 @@ security issues.
 operational tools used by the security teams. Contents and/or configurations
 require that most of these projects remain private.
 
-### Calendar
+#### Calendar
 
 We welcome GitLab team members to join meetings that are on our shared [Security Calendar](https://calendar.google.com/calendar?cid=c_iou94moo2dfleqh610khmis27g%40group.calendar.google.com).
 
