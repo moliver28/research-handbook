@@ -39,4 +39,6 @@ As mentioned above, different Reproducible Builds are going to have different re
 - Byte-by-byte verifiable: this typically takes the form of a cryptographic hash that is able to be compared against an authenticated source
 - Automatable: build hashes of source inputs, expected outputs, attestations, and so on should be provided in a format that is easily able to be verified by automation
 
+---
+
 [^1]: Sufficient similarity highlights that 100% verifiability is not always feesable. Variances across compiler versions, OS hardware, timestamps, ordering of files on a filesystem, and other sources of nondeterminism will degrade similarity metrics. Sufficient similarity goals are to be set by the source code maintainers.
