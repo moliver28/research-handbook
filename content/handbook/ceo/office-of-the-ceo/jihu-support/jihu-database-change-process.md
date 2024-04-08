@@ -1,5 +1,8 @@
 ---
 title: JiHu guidelines for database changes
+aliases:
+- /handbook/ceo/office-of-the-ceo/jihu-support/jihu-database-change-process/
+- /handbook/ceo/chief-of-staff-team/jihu-support/jihu-database-change-process/
 ---
 
 ## JiHu guidelines for database changes
