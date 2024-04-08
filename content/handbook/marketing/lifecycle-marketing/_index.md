@@ -114,7 +114,6 @@ Is our single source of truth (SSoT) for processes and relevant links
    - Prioritize completion of "Top" priority issues, then "High" priority issues.
 
 ### Labels
-{: #labels}
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
 #### Prioritization labels
@@ -237,6 +236,11 @@ The lifecycle marketing team uses the overall 2-week marketing milestones (forma
 
 <b>[All Milestones Board](https://gitlab.com/groups/gitlab-com/marketing/demand-generation/-/boards/3702791?milestone_title=Any%20Milestone&label_name[]=mktg-demandgen)</b> - this board provides high level of all milestones in consecutive order
 
+<b>[Lifecycle email - copy needs review](https://gitlab.com/groups/gitlab-com/marketing/-/boards/7146189?label_name[]=Lifecycle%3A%3A%2001%20Needs%20Copy%20Review)</b>
+
+<b>[Lifecycle email - layout needs review](https://gitlab.com/groups/gitlab-com/marketing/-/boards/7181554?label_name[]=Lifecycle%3A%3A%2003%20Email%20Layout%20Needs%20Approval)</b>
+
+
 ##### Board View Priorities Current Milestone
 - [All Team Members Priorities Current Milestone](https://gitlab.com/groups/gitlab-com/marketing/demand-generation/-/boards/3702791)
 - [Luis Diego D'Ambrosio Current Milestone](https://gitlab.com/groups/gitlab-com/marketing/demand-generation/-/boards/2574635?scope=all&milestone_title=%23started&assignee_username=dambrold)
@@ -252,7 +256,6 @@ The lifecycle marketing team uses the overall 2-week marketing milestones (forma
 - [Upcoming MIlestone by Team Members](https://gitlab.com/groups/gitlab-com/-/boards/1948068?scope=all&label_name[]=dg-campaigns&milestone_title=%23upcoming)
 
 #### Lists
-{: #lists}
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
 ##### Issue List Current Mile by Team Member
