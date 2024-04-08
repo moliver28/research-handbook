@@ -52,7 +52,7 @@ To ensure that our product quality is not negatively affected due to test covera
    In case a test is impacting `master`' stability heavily, the Engineering Productivity team can merge these merge requests even without a review from their responsible group.
    The group should still review the merge request and start a discussion about the quarantined test's next step.
 2. Once a test is quarantined, its associated issue will be reported in [weekly group reports](https://gitlab.com/gitlab-org/quality/triage-reports/-/issues/?sort=updated_desc&state=opened&label_name%5B%5D=triage%20report&in=TITLE&search=triage%20report%20for&first_page_size=20).
-    Groups can also list all their [flaky tests](https://gitlab.com/gitlab-org/gitlab/-/issues/?state=opened&label_name%5B%5D=failure%3A%3Aflaky-test&label_name%5B%5D=group%3A%3Axxx) and their [quarantined tests](https://gitlab.com/gitlab-org/gitlab/-/issues/?state=opened&label_name%5B%5D=group%3A%3Axxx&label_name%5B%5D=quarantine) (replace `group::xxx` in the issues list).
+    Groups can also list all of their [flaky tests](https://gitlab.com/gitlab-org/gitlab/-/issues/?state=opened&label_name%5B%5D=failure%3A%3Aflaky-test&label_name%5B%5D=group%3A%3Axxx) and their [quarantined tests](https://gitlab.com/gitlab-org/gitlab/-/issues/?state=opened&label_name%5B%5D=group%3A%3Axxx&label_name%5B%5D=quarantine) (replace `group::xxx` in the issues list).
 3. Number of quarantined test cases per group is also available as [a dashboard](https://10az.online.tableau.com/#/site/gitlab/views/DRAFTFlakytestissues/FlakyTestIssues?:iid=2).
 4. Groups are responsible for ensuring stability and coverage of their own tests, by removing unstable tests or getting them back to running.
 
@@ -70,4 +70,4 @@ You can leave any feedback about this process in the [dedicated issue](https://g
 
 - [Flaky tests technical documentation](https://docs.gitlab.com/ee/development/testing_guide/flaky_tests.html)
 - [Measure and act on flaky specs](https://gitlab.com/groups/gitlab-org/-/epics/8789)
-- [Flaky tests Sisense dashboard](https://10az.online.tableau.com/#/site/gitlab/workbooks/2283052/views)
+- [Flaky tests dashboard](https://10az.online.tableau.com/#/site/gitlab/workbooks/2283052/views)

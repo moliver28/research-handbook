@@ -12,7 +12,7 @@ The Engineering Productivity team has diverse responsibilities and reactive work
 
 - We focus on OKRs, corrective actions and preventative work.
 - We adhere to the general release milestones like %x.y.
-- We are ambitious with our targeted planned work per milestone. These targets are not reflective of a commitment. Reactive work load will ebb and flow and we do not expected to accomplish everything planned for the current milestone.
+- We are ambitious with our targeted planned work per milestone. These targets are not reflective of a commitment. Reactive work load will ebb and flow and we do not expect to accomplish everything planned for the current milestone.
 - [Priority labels](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#priority) are used to indicate relative priority for a milestone.
 
 ## Weighting
@@ -43,7 +43,7 @@ The list below is ordered based on aligned priorities and includes primary domai
 
 | Project | Domain Knowledge | Documentation |
 | ------- | ------------------------------------------ | ----- |
-| GitLab CI Pipeline configuration optimization and stability | Jen-Shin, David, Nao | [Pipelines for the GitLab project](https://docs.gitlab.com/ee/development/pipelines/index.html) |
+| GitLab CI Pipeline configuration optimization and stability | Jen-Shin, David, Jenn | [Pipelines for the GitLab project](https://docs.gitlab.com/ee/development/pipelines/index.html) |
 | Triaging master-broken | Jenn, Nao | [Broken Master](https://about.gitlab.com/handbook/engineering/workflow/#broken-master) |
 | GitLab Development Kit (GDK) continued development | Nao, Peter | [GitLab Development Kit](https://gitlab.com/gitlab-org/gitlab-development-kit/) |
 | Triage operations for issues, merge requests, community contributions | Jenn, Alina | [triage-ops](https://gitlab.com/gitlab-org/quality/triage-ops/) |
