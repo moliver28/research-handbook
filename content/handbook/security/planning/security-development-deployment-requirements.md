@@ -38,7 +38,7 @@ Such a process will be the responsibility of a future Security team.
 The following requirements are driven by 3 high level guidelines:
 
 - [Least Privilege]({{< ref "access-management-policy#principle-of-least-privilege" >}})
-- [Zero Trust]({{< ref "/handbook/security/architecture/zero-trust" >}})
+- [Zero Trust](/handbook/security/architecture/zero-trust)
 - [GitLab's Security Controls]({{< ref "sec-controls#gitlabs-security-controls" >}})
 
 ### Identity, Authentication, and Authorization
@@ -68,7 +68,7 @@ The following requirements are driven by 3 high level guidelines:
 #### Service Account usage
 
 1. Service accounts names SHOULD be meaningful.
-1. Service accounts with access to RED data MUST follow the [Access Request](/handbook/business-technology/team-member-enablement/onboarding-access-requests/access-requests/#shared-account-access-request)
+1. Service accounts with access to RED data MUST follow the [Access Request](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/#shared-account-access-request)
    process.
 1. Service accounts with access to RED data MUST be limited to single logical scope; for example, a single GCP project.
 

@@ -70,8 +70,8 @@ The following process outlines steps for the L&D team to take when planning and 
 1. Create a calendar event and share it with the `GitLab Team Meetings` calendar. Invite the `everyone` alias. Post in the [#people-connect Slack channel](https://app.slack.com/client/T02592416/C0SNC8F2N/thread/C0SNC8F2N-1602618225.269200) to accept event on the team meetings calendar. Consider hosting the call at least 2 times, or varying session times throughout a quarterly series, to accommodate for multiple time zones.
 1. Test Zoom functionality with the speaker at least two business days before event.
     - If external speaker, ensure they have downloaded [Zoom](https://zoom.us/support/download).
-    - Have speaker test [audio and video]({{< ref "/handbook/tools-and-tips/zoom#how-to-test-audio-and-video-in-zoom" >}}).
-    - Check that speaker will be able to [share a presentation]({{< ref "/handbook/tools-and-tips/zoom#how-to-share-a-presentation-in-zoom" >}}) if necessary.
+    - Have speaker test [audio and video](/handbook/tools-and-tips/zoom#how-to-test-audio-and-video-in-zoom).
+    - Check that speaker will be able to [share a presentation](/handbook/tools-and-tips/zoom#how-to-share-a-presentation-in-zoom) if necessary.
 1. Send speaker calendar invite with all details for the call (including, but not limited to, Zoom link, agenda, slides, etc.).
 1. Create an agenda for the presentation. GitLab team members can access templates in [this Google folder](https://drive.google.com/drive/u/1/folders/1jHdqyLlHn8syxL9MrRtXSaxB5zY5RubN?ths=true).
 1. Coordinate an announcement of the call in the #what's-happening-at-GitLab Slack channel at least 1 business day before the call.

@@ -88,7 +88,7 @@ The one caveat you need to consider is when you are changing a view to allow for
 managed content (or to disable it using managed content).
 
 If you are adding managed content for the view, see
-[Creating a new view with managed content](creating-a-new-view-with-managed-content)
+[Creating a new view with managed content](#creating-a-new-view-with-managed-content)
 as that process will detail setting up the connection.
 
 If you are removing managed content for the view, you will simply change the

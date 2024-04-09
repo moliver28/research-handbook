@@ -10,7 +10,7 @@ This handbook page will serve as your Elevate+ homebase. Here, you'll find impor
 
 ## Quick Links
 
-Navigate to frequently used links for Eleate+ below:
+Navigate to frequently used links for Elevate+ below:
 
 <div class="flex-row" markdown="0">
   <div>

@@ -25,7 +25,7 @@ agents only, not to end-users.
 
 During your work on the ticket, if you have additional information worth noting
 about the organization, you can add them by following the
-[editing organizations]({{< ref "/handbook/support/readiness/operations/docs/zendesk/organizations#editing-organization-fields-in-zendesk" >}})
+[editing organizations](/handbook/support/readiness/operations/docs/zendesk/organizations#editing-organization-fields-in-zendesk)
 procedure.
 
 You may also consider updating the [Customer Collaboration Projects](/handbook/customer-success/csm/customer-collaboration-project/)

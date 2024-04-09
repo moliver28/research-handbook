@@ -16,7 +16,7 @@ In 2020, and again in 2022, GitLab established an internship program that offers
 
 On this page, you'll learn more about how we first began this program, how to get involved as an engineering team, and [how to request an intern for your team](/handbook/engineering/internships/#how-to-request-an-intern-for-your-team). 
 
-As we head into 2023, we are evaluating our internship offerings in the Engineering Devision. When positions become available we will post the link to apply on this page.
+As we head into 2023, we are evaluating our internship offerings in the Engineering Division. When positions become available we will post the link to apply on this page.
 
 ## Engineering Internship Program
 

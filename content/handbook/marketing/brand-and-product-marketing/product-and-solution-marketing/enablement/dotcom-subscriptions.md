@@ -39,7 +39,7 @@ Unlike Self-managed licenses which grant equal access to features across an inst
 
 GitLab subscriptions for internal namespaces are managed by the IT Operations team. To request
 a subscription to an internal group or internal project, please submit an
-[individual access request](/handbook/business-technology/team-member-enablement/onboarding-access-requests/access-requests/#individual-or-bulk-access-request).
+[individual access request](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/#individual-or-bulk-access-request).
 
 ## Common issues the Support Team encounters with sales-assisted purchases
 

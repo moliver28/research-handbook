@@ -144,6 +144,7 @@ The following table indexes all of the RAW data sources we are loading into the 
 | [Zuora](https://www.zuora.com/) | Stitch | `zuora_stitch` | `zuora` | Finance | 6h / 24h | Yes | Tier 1 |
 | [Zuora API Sandbox](https://www.zuora.com) | Stitch | `zuora_api_sandbox_stitch` | `Legacy` | Finance | 24h / 24h | Yes | Tier 3 |
 | [Zuora Central Sandbox](https://www.zuora.com/) | Fivetran | `zuora_central_sandbox_fivetran` | `zuora_central_sandbox` | Finance Sandbox | - | Yes | Tier 3 |
+| [Zuora Developer Sandbox](https://www.zuora.com/) | Fivetran | `zuora_dev_sandbox_fivetran` | `TBD` | Finance Sandbox | - | Yes | Tier 3 |
 | [Zuora Data Query](https://knowledgecenter.zuora.com/Zuora_Central_Platform/Query/Data_Query/A_Overview_of_Data_Query#Using_Data_Query)| Airflow | `zuora_query_api`| `zuora_query_api`|Finance | 24h / 48h | Yes | Tier 1 |
 | [Zuora Revenue](https://knowledgecenter.zuora.com/Zuora_Revenue) | Airflow | `zuora_revenue` | `zuora_revenue` | Finance | 24h / 48h | Yes | Tier 1 |
 
@@ -565,7 +566,7 @@ To use our credit consumption effectively, we try to minimize the amount of ware
 | `gainsight_xs`       | This is used for gainsight data pump                                                            | 30                  |
 | `gitlab_postgres`    | This is for extraction jobs that pull from GitLab internal Postgres databases                   | 10                  |
 | `grafana`            | This is exclusively for Grafana to use                                                          | 60                  |
-| `loading`            | This is for our Extract and Load jobs and testing new Meltano loaders                           | 60                  |
+| `loading`            | This is for our Extract and Load jobs and testing new Meltano loaders                           | 120                  |
 | `reporting`          | This is for the BI tool for querying.           | 30*                 |
 | `transforming_xs`    | These are for production dbt jobs                                                               | 180                 |
 | `transforming_s`     | These are for production dbt jobs                                                               | 180                 |
@@ -994,7 +995,7 @@ The Qualtrics mailing list data pump process, also known in code as `Qualtrics S
 
 During the process, the Google Sheet is updated to reflect the process' status.  The first column's name is set to `processing` when the process begins, and then is set to `processed` when the mailing list and contacts have been uploaded to Qualtrics.  Changing the column name informs the requester of the process' status, assists in debugging, and ensures that a mailing list is only created once for each spreadsheet.
 
-The end user experience is described on the [UX Qualtrics page](/handbook/product/ux/qualtrics/#distributing-your-survey-to-gitlabcom-users).
+The end user experience is described on the [UX Qualtrics page](/handbook/product/ux/ux-research/surveys/qualtrics/#distributing-your-survey-to-gitlabcom-users).
 
 ##### Debugging to Qualtrics Processes
 

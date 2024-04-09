@@ -21,9 +21,9 @@ GitLab defines Commercial Sales as worldwide sales for the mid-market and small/
 
 Solutions Architects are aligned to the Commercial Sales Account Executives by a pooled model. Requests for an SA will be pulled from the triage board by an SA based on multiple factors including availability, applicable subject matter expertise, and current workload.  
 
-- [Engage a Commercial Solutions Architect](/handbook/customer-success/solutions-architects/processes/commercial/)
+- [Engage a Commercial Solutions Architect](/handbook/solutions-architects/processes/commercial/)
 - [Solutions Architect role description](/job-families/sales/solutions-architect/)
-- [Solutions Architect overview](/handbook/customer-success/solutions-architects/)
+- [Solutions Architect overview](/handbook/solutions-architects/)
 
 ### Customer Success Managers
 
@@ -34,7 +34,7 @@ Customer Success Managers are aligned to a book of business for their respective
 
 ## Sales Engagement Guidelines
 
-Sales engagement for all Commercial Sales with SAs is documented in the [Commercial Process](/handbook/customer-success/solutions-architects/processes/commercial/) page.
+Sales engagement for all Commercial Sales with SAs is documented in the [Commercial Process](/handbook/solutions-architects/processes/commercial/) page.
 
 ## Customer Engagement Guidelines
 
@@ -60,5 +60,5 @@ A seamless customer journey requires a continuous flow of relevant information b
 - Update SA name on account team in Salesforce
 - Ensure any account notes, [tech stack discoveries](https://docs.google.com/spreadsheets/d/1sOeluQhMO4W0wWIC6rbSE_E1NzTj7eTaR-FDKLYlLb4/edit#gid=912439232), [technical briefs](https://gitlab.com/gitlab-com/customer-success/tko/technical-followup-briefs/-/tree/master) or running call notes are linked to Salesforce and shared with the new SA
 - Introduce new SA live on a client call
-- If a [POV](/handbook/customer-success/solutions-architects/tools-and-resources/pov) is pending or active, update the POV record in Salesforce as required
+- If a [POV](/handbook/solutions-architects/tools-and-resources/pov) is pending or active, update the POV record in Salesforce as required
 - Ensure any current action items are identified via an issue on the [Commercial SA Triage board](https://gitlab.com/gitlab-com/customer-success/sa-triage-boards/commercial-triage/-/boards/1006966)

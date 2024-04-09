@@ -4,7 +4,7 @@
 | 2* | Data Loss | `data loss` |
 | 3* | Resilience, Reliability, <a href="/handbook/engineering/performance/index.html#availability">Availability</a>, <a href="/handbook/engineering/workflow/#infradev">and Performance</a>| `availability`, `infradev`, `Corrective Action`, `bug::performance` |
 | 4 | <a href="https://about.gitlab.com/handbook/product/product-okrs/">OKR's</a> | |
-| 5 | Usability | `Usability benchmark`, `SUS::Impacting`, `UX debt` |
+| 5 | Usability | `Usability benchmark`, `SUS::Impacting`, `Deferred UX` |
 | 6 | Instrumentation | `instrumentation` |
 | 7 | xMAU / ARR Drivers | `direction` |
 | 8 | All other items not covered above | |

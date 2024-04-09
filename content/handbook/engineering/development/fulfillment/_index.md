@@ -3,6 +3,10 @@ title: Fulfillment Sub-department
 description: "The Fulfillment Sub-department is composed of the Billing and Subscription Management, Fulfillment Platform, Provision, Purchase, and Utilization development teams working on the infrastructure between the systems which affect the user purchasing process that support the GitLab DevOps Platform."
 ---
 
+- [Direction](https://about.gitlab.com/direction/fulfillment)
+- [Groups](https://about.gitlab.com/direction/fulfillment/#groups)
+- [Team](/handbook/engineering/development/fulfillment/#team-members)
+
 ## Vision
 
 A [high performing team](/handbook/leadership/#strategies-to-build-high-performing-teams) who provides our customers with a world-class buyer experience through the products we build. Our team strives to build an experience that is delightful, performant, trustworthy, and reliable.
@@ -11,11 +15,11 @@ A [high performing team](/handbook/leadership/#strategies-to-build-high-performi
 
 Fulfillment focuses on improving our capabilities and metrics in the following areas:
 
-- Fulfillment: [Direction](https://about.gitlab.com/direction/fulfillment), [Group Responsibilities](https://about.gitlab.com/direction/fulfillment/#group-responsibilities), [Fulfillment Development Team](/handbook/engineering/development/fulfillment/)
-- Fulfillment Platform: [Team](/handbook/engineering/development/fulfillment/fulfillment-platform/)
-- Provision: [Direction](https://about.gitlab.com/direction/fulfillment#provision), [Team](/handbook/engineering/development/fulfillment/provision/)
-- Purchase: [Direction](https://about.gitlab.com/direction/fulfillment/purchase/), [Team](/handbook/engineering/development/fulfillment/purchase/)
-- Utilization: [Team](/handbook/engineering/development/fulfillment/utilization/)
+- [Platform](https://about.gitlab.com/direction/fulfillment/platform/): [Team](/handbook/engineering/development/fulfillment/fulfillment-platform/#team-members)
+- [Provision](https://about.gitlab.com/direction/fulfillment/provision/): [Team](/handbook/engineering/development/fulfillment/provision/#team-members)
+- Purchase
+- [Subscription Management](/handbook/engineering/development/fulfillment/billing-and-subscription-management/): [Features](https://about.gitlab.com/direction/fulfillment/subscription-management#feature-overview-and-maturity)
+- [Utilization](/handbook/engineering/development/fulfillment/utilization/): [Team](/handbook/engineering/development/fulfillment/utilization/#team-members)
 
 ## Direction
 
@@ -143,7 +147,7 @@ We strictly adhere to this Intake Request process to ensure we capture the full 
 ### Prioritization
 
 We follow the [prioritization guidelines](/handbook/product/product-processes/#prioritization-ahead-of-kickoff) and use [cross-functional prioritization](/handbook/engineering/development/#cross-functional-prioritization).
-In addition to these company-wide prioritization inputs, PMs review the [L&R Support Priority Issues list for Fulfillment](/handbook/support/license-and-renewals/workflows/managing_product_issues.html#supports-issue-list-for-fulfillment).
+In addition to these company-wide prioritization inputs, PMs review the [L&R Support Priority Issues list for Fulfillment](/handbook/support/license-and-renewals/workflows/managing_product_issues/#supports-issue-list-for-fulfillment).
 
 Every team uses the [monthly prioritization template](https://gitlab.com/gitlab-org/fulfillment-meta/-/blob/master/.gitlab/issue_templates/monthly-prioritization.md) for [cross-functional dashboard reviews](/handbook/engineering/development/#cross-functional-dashboard-reviews) every month.
 
@@ -339,16 +343,48 @@ We follow the Quad Planning process defined [here](/handbook/engineering/infrast
 
 ### User Experience
 
-We strive to provide excellent usability in all of our workflows, creating a balance between user and business needs. Product Designers work closely with Product Managers and Engineers. Visit the [Fulfillment User Experience](/handbook/product/ux/stage-group-ux-strategy/fulfillment/) page for details.
+We strive to provide excellent usability in all of our workflows, creating a balance between user and business needs. Product Designers work closely with Product Managers and Engineers.
 
-In summary,
-- We measure our progres using [UX Scorecards](/handbook/product/ux/ux-scorecards/) and [Category Maturity Scorecards](/handbook/product/ux/category-maturity/category-maturity-scorecards/). See our [UX Health](/handbook/product/ux/stage-group-ux-strategy/fulfillment/#ux-health).
-- We follow the [Product Designer Workflows](/handbook/product/ux/product-designer/).
-- We track user research efforts using `UX Problem Validation` and `UX Solution Validation` labels.
-- We weight issues using the [UX issue weighting process](/handbook/product/ux/product-designer/#ux-issue-weights).
-- We create separate [UX] and [Engineering] issues to aid in tracking issue weights.
-- [UX] issues are the SSOT for designs and should reflect the latest design decisions. Related implementation issues should link to the [UX] issue for the design details to maintain the SSOT.
-- Fulfillment Product Designers participate in GitLab's reviewer roulette, but at this time only Fulfillment Product Designers should review CustomersDot MRs and GitLab MRs that require connection to CustomersDot (e.g., the GitLab.com purchase flow).
+#### How we work
+
+- We follow the [Product Designer workflows](/handbook/product/ux/product-designer/) and [UX Researcher workflows](/handbook/product/ux/ux-research/) described in the [Product Design section](/handbook/product/ux/) of the handbook.
+- We measure our progress using [UX Scorecards](/handbook/product/ux/ux-scorecards/) and [Category Maturity Scorecards](/handbook/product/ux/category-maturity/category-maturity-scorecards/).
+- We prioritize the most important projects every quarter, and Fulfillment product designers [support projects instead of Groups](#product-designer-focus-areas).
+- We use [[UX] issues](#ux-issue-management-and-weights) as the SSOT for designs. Implementation issues should link to the [UX] issue for the design details to maintain the SSOT.
+- We use labels to track our issues:
+  - `UX`, `devops::fulfillment`, `section::fulfillment` and `group::`.
+  - `workflow::` labels to indicate where the issue is in the [product development flow](/handbook/product-development-flow/)
+  - `UX Problem Validation` and `UX Solution Validation` for research efforts
+  - `design weight::` for [UX issue weights](/handbook/product/ux/product-designer/#ux-issue-weights)
+
+#### Product Designer focus areas
+
+The Fulfillment team is Project focused, and many projects span Groups, leading to gaps in the user experience or frequent designer borrow requests. In order to avoid this, we will assign designers to project areas, and revisit quarterly during OKR planning.
+
+- Priorities for the Fulfillment UX team are documented in a [prioritization issue](https://gitlab.com/gitlab-org/fulfillment/meta/-/issues/?label_name%5B%5D=Fulfillment%20UX%20Priorities).
+  - Priorities should be reviewed by the team quarterly, or when a new priority project is identified.
+- Anyone can propose projects identified for design focus in the issue. Product Managers should work with Product Designers and the Product Design Manager to rank the priorities. If multiple PMs are contributing to a project, one should be designated for UX planning.
+  - If we had to make a priority call to have projects that will go forward without design support, list those decisions in the issue.
+- Designers can still pick up issues outside their assigned projects. These should be crucial UX issues such as SUS Impacting issues or bugs. Issue weights can be used to discuss trade-offs when needed.
+- Anyone can use the #s_fulfillment_ux Slack channel to ask for assistance.
+
+Best practices
+
+- To manage workload, designers should generally be assigned to no more than one large and 1 small/medium project at a time, or 3-4 small/medium projects (or the equivalent in issue weights).
+- Designers should use their best judgement and collaborate with their teams to decide which meetings to attend. Designers aren't expected to attend team sync meetings for multiple teams at the same time.
+- Product Designers should be assigned [UX MR reviews](/handbook/product/ux/product-designer/mr-reviews/) for the projects they're supporting. 
+  - If UX review is needed on an MR that is part of a project without an assigned designer, post the request in the #s_fulfillment_ux Slack channel. UX MR review requests in the Slack channel will be picked up based on bandwidth.
+
+#### UX issue management and weights
+
+We use separate [UX] issues for medium or large projects that will take more than one dev issue to implement (e.g., end-to-end flows, complicated logic, or multiple use cases / states that will be broken down by engineering into several implementation issues). UX issues should be prefixed with [UX].
+
+If the work is small enough that implementation can happen in a single issue, then a separate [UX] issue is not needed, and the designer should assign themselves to the issue and use workflow labels to indicate that it's in the design phase.
+
+- [UX] issues are the SSOT for design goals, design drafts, design conversation and critique, and the chosen design direction that will be implemented. Implementation issues should link to the designs in the [UX] issue as the SSOT.
+- Product requirement discussions should continue to happen in the main Issue or Epic as much as possible.
+- When the Product Designer wants to indicate that the design is ready for ~"workflow::planning breakdown", they should apply this label to their issue, notify the PM and EM, and close the issue.
+- Issue weights should follow the [UX Department's definitions](/handbook/product/ux/product-designer/#ux-issue-weights) and are applied using the ~'design weight:" label.
 
 ### Approving and merging the work
 
@@ -404,7 +440,7 @@ We do this to encourage our team to be more async in collaboration and to allow 
 
 ### Async projects update
 
-This template is to be used for larger project progress status updates to be shared with leadership & cross-functional partners. 
+This template is to be used for larger project progress status updates to be shared with leadership & cross-functional partners.
 
 Leadership is interested in the following
 
@@ -424,21 +460,32 @@ This template is a guideline and feel free to alter it to specific project needs
 
 2. **% Complete**: `X%`
 
+<!--
 The following calculations can help inform this %.
 
+Open this page and filter for your epic: https://gitlab.com/groups/gitlab-org/-/issues/?sort=created_date&state=all&first_page_size=100
+
+```javascript
 // Numerator: Calculate total weight of closed issues (use `defaultWeight` for issues without weight)
-const defaultWeight = 1;
+let defaultWeight = 0;
 [...document.querySelectorAll('.issue.closed')].reduce((memo, el) => {
     const weightText = el.querySelector('.issuable-weight')?.innerText;
-    return memo + Number(weightText) || defaultWeight;
+    return memo + (Number(weightText) || defaultWeight);
 }, 0);
 
 // Denominator: Calculate total weight of open and closed issues (use `defaultWeight` for issues without weight)
-const defaultWeight = 1;
+let defaultWeight = 0;
 [...document.querySelectorAll('.issue')].reduce((memo, el) => {
     const weightText = el.querySelector('.issuable-weight')?.innerText;
-    return memo + Number(weightText) || defaultWeight;
+    return memo + (Number(weightText) || defaultWeight);
 }, 0);
+
+// Finds open issues with missing weight
+[...document.querySelectorAll('.issue')].filter(el => {
+    return !el.classList.contains('closed') && !el.querySelector('.issuable-weight');
+}).length;
+```
+-->
 
 3. **Status**: `On Track or Behind` (this is determined based on your how your % complete is trending to your key dates -- are you far enough along to hit your key dates?)
 
@@ -460,7 +507,7 @@ const defaultWeight = 1;
 _List any type of deliverable, e.g. merged MRs, alignment on solution, copy/designs were completed._
 
 
-1. 
+1.
 
 **FYI** TAG FOLKS
 
@@ -550,7 +597,7 @@ The following list contains some of the standard departments and teams who shoul
 - IT Helpdesk
 - Support Team
 
-When in doubt, err on the side of rejecting access as it can be easily restored through another [access request](/handbook/business-technology/team-member-enablement/onboarding-access-requests/access-requests/).
+When in doubt, err on the side of rejecting access as it can be easily restored through another [access request](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/).
 
 ### Deployment
 
@@ -654,7 +701,7 @@ In these cases please ensure:
 
 - You can visit our health-check instance [here](https://customersdot.cloudwatch.net/). You can find the login credentials in the [_Subscription portal_ vault in 1Password](https://gitlab.1password.com/vaults/27nafqigafgxfjpjkl2wvzs26y/allitems/jdeumqscahayoxvcfazbzdv22u). You will see services for both CustomersDot production and staging.
 - Exceptions for CustomersDot are captured in [Sentry](https://sentry.gitlab.net/gitlab/customersgitlabcom/).
-- You can query logs in [Kibana / Elasticsearch](https://log.gprd.gitlab.net/). Use this link to read more on using [kibana at GitLab](/handbook/support/workflows/kibana.html))
+- You can query logs in [Kibana / Elasticsearch](https://log.gprd.gitlab.net/). Use this link to read more on using [kibana at GitLab](/handbook/support/workflows/kibana/))
 - Grafana has some [triage dashboards](https://dashboards.gitlab.net/d/RZmbBr7mk/gitlab-triage?orgId=1&refresh=5m) that are generally applicable for GitLab, but do not contain specific observability metrics for Fulfillment systems until the InfraDev work is complete.
 - Blackbox probes reporting production availability alerts are reported to [#production in Slack](https://app.slack.com/client/T02592416/C101F3796/)
 

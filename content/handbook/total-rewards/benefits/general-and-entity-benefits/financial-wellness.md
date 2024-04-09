@@ -79,7 +79,7 @@ Schwab can also assist with investment support as a complimentary service throug
 
 ## Total Rewards and Financial Wellness for Managers
 
-An important component of the [Total Rewards Package]({{< ref "/handbook/total-rewards" >}}) is [Equity Compensation](/handbook/stock-options/). Team Members can review their equity holdings in Schwab. Please note that vested and exercised shares are currently being held in Computershare. The Stock Admin team will be providing additional information on these shares.
+An important component of the [Total Rewards Package](/handbook/total-rewards) is [Equity Compensation](/handbook/stock-options/). Team Members can review their equity holdings in Schwab. Please note that vested and exercised shares are currently being held in Computershare. The Stock Admin team will be providing additional information on these shares.
 
 In order for *managers* to understand the full picture of their team members’ total rewards package, the People Group has generated a [Total Rewards Summary](#total-rewards-summary) for managers to view vested and unvested holdings as of October 14, 2021 for each direct report.
 

@@ -6,6 +6,39 @@ title: Dynamic Analysis Group
 
 The Dynamic Analysis group at GitLab is charged with developing solutions which perform [Dynamic Analysis Software Testing (DAST)](https://about.gitlab.com/direction/secure/dynamic-analysis/dast/) and Fuzzing. Our work is a mix of open and closed source code.
 
+### Mission
+
+To support the success of GitLab by developing highly usable, hiqh quality tools for customers to build more secure software. The Dynamic Analysis group at GitLab is charged with developing solutions which perform API Security Testing, Dynamic Analysis Software Testing (DAST) and Fuzzing.
+
+### Top Priorities (FY25)
+**Theme: Increase adoption**
+
+- **Unify DAST offerings** - Reduce confusion by removing proxy-based DAST and maturing browser-based DAST by adding active checks and improving performance 
+
+- **API Discovery** - API discovery will analyze applications to produce an OpenAPI document describing the web APIs expected behavior. This schema document is then used by API Security testing (formerly called DAST API) to perform security scans.  Automating this will close the gap for customers whose applications include web APIs that haven’t been documented and aren’t being tested today.
+
+- **API Security Checks refresh** - Comprehensively review and update API Security Testing checks (rules).  By ensuring we address both the OWASP API Security Top 10:2023 and the OWASP Top 10:2021 (web applications), our customers will be confident in our ability to detect critical risks.
+
+- **DAST Performance** - Deduplicate scanning similar pages to reduce DAST scan times without reducing security coverage. Long scan times are a major barrier that discourages customers from incorporating DAST scans into DevSecOps processes.
+
+### Customer outcomes We are Driving
+
+The Dynamic Analysis team builds features for our API Security, DAST, and Fuzzing categories.  These features enable our Ultimate customers to incorporate security testing earlier in the development lifecycle for their web applications and APIs. By identifying vulnerabilities earlier in the SDLC, we enable customers to more efficiently reduce the security risks in their web apps and APIs.
+
+Our features identify vulnerabilities in different ways than GitLab’s other security analyzers do, and each tool should be used in tandem with other security analyzers such as SAST, SCA (dependency scanning), and secret detection to provide full coverage.
+
+API Security, DAST, and Fuzzing are Ultimate features. Increasing adoption of these features helps improve customer retention, and helps drive revenue for GitLab Ultimate.
+
+### Metrics we Love
+
+- **Cumulative Flow Diagram** - Kanban Progress (Team Metric)
+
+- **Vulnerabilities Resolved** - Number of Vulnerabilities Customers have Resolved with DAST (Retention Metric)
+
+- **False Positive Rate** - Customer Test Result Feedback (Accuracy Metric)
+
+- **Monthly Active Users** - Running DAST, API Security, and Fuzzing Tests (Growth Metric)
+
 ### Important DAST Repositories
 
 | Repo | Purpose |

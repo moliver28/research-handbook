@@ -194,7 +194,7 @@ More information on how to run tests using the gitlab-qa gem can be found on [Wh
 
 #### How can I have access to the GitLab QA Vault in 1Password?
 There are important variables to run several scenarios listed above. Also when running tests against different environments these variables
-are necessary. To have access to this vault please create an [access request](/handbook/business-technology/team-member-enablement/onboarding-access-requests/access-requests/) to the 1Password GitLab QA Vault.
+are necessary. To have access to this vault please create an [access request](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/) to the 1Password GitLab QA Vault.
  
 #### I triggered package-and-qa. Where do I find the tests?
 If you have an MR and want to make sure it is running the End-to-End tests, please trigger the manual `package-and-qa` job on the pipeline of your MR. After the pipeline runs there will be a note on your MR titled "Allure report" with a `package-and-qa` test report link. 

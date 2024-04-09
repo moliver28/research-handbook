@@ -245,7 +245,7 @@ Being a maintainer gives you access to much more than just the ability to merge.
 
 ### Granting others maintain access
 
-Do not grant people maintainer access without an [Access Request](/handbook/business-technology/team-member-enablement/onboarding-access-requests/access-requests/). As a maintainer you have the ability to grant others maintainer access. Don’t do so without following the Access Request process to garner the appropriate approvals and create the necessary documentation.
+Do not grant people maintainer access without an [Access Request](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/). As a maintainer you have the ability to grant others maintainer access. Don’t do so without following the Access Request process to garner the appropriate approvals and create the necessary documentation.
 
 ### Description Templates for Issues and Merge Requests
 

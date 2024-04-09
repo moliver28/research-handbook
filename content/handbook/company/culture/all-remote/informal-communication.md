@@ -19,7 +19,7 @@ Talking about the weather; sharing photos of pets, favorite foods or holidays; s
 
 ## What is the difference between formal and informal communication in the workplace?
 
-Since GitLab is an all-remote organization that [works asynchronously]({{< ref "./asynchronous" >}}), nearly all work communication is [documented]({{< ref "/handbook/documentation" >}}), making all work-related communications "formal" communications. This helps support our value of [transparency]({{< ref "values#transparency" >}}).
+Since GitLab is an all-remote organization that [works asynchronously]({{< ref "./asynchronous" >}}), nearly all work communication is [documented](/handbook/documentation), making all work-related communications "formal" communications. This helps support our value of [transparency]({{< ref "values#transparency" >}}).
 
 We are big on relationship-buiding. We highly value intentionally creating time to build relationships via informal communications.
 
@@ -118,7 +118,7 @@ For colocated companies, the occasional team offsite — to take in a sporting e
 Below are a number of intentional facets of [GitLab's culture]({{< ref "culture#culture-at-gitlab" >}}), created to foster informal communication. We welcome other all-remote companies to iterate on these and implement as desired.
 
 1. [Contribute Unconference](https://about.gitlab.com/events/gitlab-contribute): An in-person, week-long event where we bring the entire company together in one location to get to know each other better.
-1. [Group conversations]({{< ref "/handbook/group-conversations" >}}): Four times a week the company gets together virtually to discuss an area of the business. Slides are provided for context but not presented.
+1. [Group conversations](/handbook/group-conversations): Four times a week the company gets together virtually to discuss an area of the business. Slides are provided for context but not presented.
 1. Coffee chats: More details below.
 1. Coworking calls: More details below.
 1. Social hours: Informal social calls organized within our immediate teams to get to know each other on a more personal level.
@@ -192,9 +192,10 @@ Working in a truly global team means it's quite possible that nobody else works 
 
 It can be a great way to learn about a new place that you may not know about and is a great source of conversation topics for coffee chats.
 
-{{% tweet user="TheRealArty" id="1420903891764342786" %}}
+Examples:
 
-{{% tweet user="manoj_g33k" id="1379339796447784961" %}}
+1. [Arty's postcards board](https://twitter.com/TheRealArty/status/1420903891764342786)
+1. [Manoj sending 30+ postcards to 12 different countries](https://twitter.com/manoj_g33k/status/1379339796447784961)
 
 ## Coffee chats
 
@@ -436,7 +437,7 @@ In this section, we'll spotlight tips and advice from other experts and companie
 
 ## GitLab Knowledge Assessment: Informal Communication in an All-Remote Environment
 
-Complete all knowledge assessments in the [Remote Work Foundation certification]({{< ref "./remote-certification" >}}) to receive the [Remote Foundations Badge in GitLab Learn](https://gitlab.edcast.com/pathways/copy-of-remote-foundations-badge). If you have questions, please reach out to our [Learning & Development team]({{< ref "/handbook/people-group/learning-and-development" >}}) at `learning@gitlab.com`.
+Complete all knowledge assessments in the [Remote Work Foundation certification]({{< ref "./remote-certification" >}}) to receive the [Remote Foundations Badge in GitLab Learn](https://gitlab.edcast.com/pathways/copy-of-remote-foundations-badge). If you have questions, please reach out to our [Learning & Development team](/handbook/people-group/learning-and-development) at `learning@gitlab.com`.
 
 ----
 

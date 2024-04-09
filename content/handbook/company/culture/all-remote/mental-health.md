@@ -68,7 +68,7 @@ GitLab's L&D team also hosted a [live speaker series]({{< ref "learning-initiati
 
 {{< youtube "BDvpoouM-us" >}}
 
-Wendy Barnes, Chief People Officer at GitLab, sat down with Samantha Lee from the [Learning and Development]({{< ref "/handbook/people-group/learning-and-development" >}}) team for a [short conversation](https://youtu.be/MFowUT3GFDw) to answer the following questions.
+Wendy Barnes, Chief People Officer at GitLab, sat down with Samantha Lee from the [Learning and Development](/handbook/people-group/learning-and-development) team for a [short conversation](https://youtu.be/MFowUT3GFDw) to answer the following questions.
 
 1. What strategies can team members use to manage burnout?
 1. How can managers support their team members in taking time off?
@@ -134,7 +134,7 @@ A remote role can feel [lonely](https://about.gitlab.com/blog/2018/04/27/remote-
 
 Burnout, isolation, and anxiety are issues that impact team members across all companies, regardless of their organizational structure. While they aren't always intertwined, there is significant interplay between them.
 
-In a colocated setting, it's entirely possible for a team member to *appear* well, but struggle with these issues internally. That said, it tends to be easier for those in an office to reach out to a team member they trust (or their [people department]({{< ref "/handbook/people-group" >}})) if burnout, isolation, or anxiety is impacting their ability to thrive in the workplace.
+In a colocated setting, it's entirely possible for a team member to *appear* well, but struggle with these issues internally. That said, it tends to be easier for those in an office to reach out to a team member they trust (or their [people department](/handbook/people-group)) if burnout, isolation, or anxiety is impacting their ability to thrive in the workplace.
 
 In a remote setting, where [in-person interactions]({{< ref "./in-person" >}}) are less common, it's easier to fall victim to [isolation]({{< ref "./drawbacks" >}}). This is particularly true for those who are not well acclimated to remote work, or have [just started their first remote role]({{< ref "./getting-started" >}}).
 
@@ -243,7 +243,7 @@ Prevention is a [team sport](https://www.cncf.io/blog/2020/04/03/were-all-in-thi
 
 ### The power of being proactive
 
-GitLab has added a number of changes to the company [handbook]({{< ref "/handbook" >}}), encouraging managers and team members to be proactive when it comes to recognizing and avoiding burnout, isolation, and anxiety.
+GitLab has added a number of changes to the company [handbook](/handbook), encouraging managers and team members to be proactive when it comes to recognizing and avoiding burnout, isolation, and anxiety.
 
 1. [Encourage team members to communicate with their manager when they recognize burnout]({{< ref "paid-time-off#recognizing-burnout" >}})
 1. [Encourage team members to notice signs of burnout in their peers and direct reports]({{< ref "paid-time-off#recognizing-burnout" >}})
@@ -279,7 +279,7 @@ This is also something you can discuss live with your manager or team during reg
 
 ### Set realistic expectations
 
-Leadership must be sensible about expectations. If a company's [OKRs]({{< ref "/handbook/company/okrs" >}}) (objectives and key results) and [KPIs]({{< ref "kpis" >}}) (key performance indicators) are unattainable without compromising company [values]({{< ref "remote-values" >}}), this incongruence is a recipe for fostering burnout, isolation, and anxiety across a team.
+Leadership must be sensible about expectations. If a company's [OKRs](/handbook/company/okrs) (objectives and key results) and [KPIs]({{< ref "kpis" >}}) (key performance indicators) are unattainable without compromising company [values]({{< ref "remote-values" >}}), this incongruence is a recipe for fostering burnout, isolation, and anxiety across a team.
 
 It is foolish to expect a team member to maintain excellent mental health when their workload requires a sustained amount of sacrifice. There is a fine line between collaborating with a team member on an ambitious goal and assigning a task that will be perceived as impossible.
 
@@ -367,7 +367,7 @@ The following tools and strategies are used by the GitLab team to manage burnout
 
 ## GitLab Knowledge Assessment: Combating burnout, isolation, and anxiety in the remote workplace
 
-Complete all knowledge assessments in the [Remote Work Foundation certification]({{< ref "./remote-certification" >}}) to receive the [Remote Foundations Badge in GitLab Learn](https://gitlab.edcast.com/pathways/copy-of-remote-foundations-badge). If you have questions, please reach out to our [Learning & Development team]({{< ref "/handbook/people-group/learning-and-development" >}}) at `learning@gitlab.com`.
+Complete all knowledge assessments in the [Remote Work Foundation certification]({{< ref "./remote-certification" >}}) to receive the [Remote Foundations Badge in GitLab Learn](https://gitlab.edcast.com/pathways/copy-of-remote-foundations-badge). If you have questions, please reach out to our [Learning & Development team](/handbook/people-group/learning-and-development) at `learning@gitlab.com`.
 
 
 {{% include "includes/is_this_advice_any_good_remote.md" %}}

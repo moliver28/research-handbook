@@ -21,7 +21,7 @@ For how to add yourself to the team page, see the [add yourself to team guide](/
 
 ## Markdown formatting
 
-For how to format markdown in the handbook, see the [markdown style guide]({{< ref "/docs/markdown-guide" >}}),
+For how to format markdown in the handbook, see the [markdown style guide](/docs/markdown-guide),
 which includes how to embed videos.
 
 ## Use the Web IDE to edit the handbook
@@ -113,7 +113,7 @@ This video covers:
 
 ### Historical videos
 
-In these videos, we run through the GitLab Handbook with experts, uncovering how to best use the handbook in our day-to-day work, and learning best-practices for handbook editing along the way. They are meant to be helpful to understand generally how GitLab works, but **the instructions cannot be followed exactly since the editor in GitLab has changed**.
+In these videos, we run through the GitLab Handbook with experts, uncovering how to best use the handbook in our day-to-day work, and learning best-practices for handbook editing along the way. They are meant to be helpful to understand generally how GitLab works, but **the instructions cannot be followed exactly since the editor and repository in GitLab has changed**.
 
 1. [Creating new handbook pages and multimedia embedding best-practices](https://www.youtube.com/watch?v=hQgS97M8abc)
 1. [How to move the location of a handbook page](https://www.youtube.com/watch?v=aQl001ka3Y4)
@@ -122,6 +122,9 @@ In these videos, we run through the GitLab Handbook with experts, uncovering how
 1. [Creating issue templates](https://www.youtube.com/watch?v=ObNWS3trqIY)
 1. [Adding images to the handbook and handbook analytics](https://www.youtube.com/watch?v=P7Nv7bzksiY)
 1. [How to add a new directory and page to the handbook](https://www.youtube.com/watch?v=9NcJG9Bv6sQ)
+1. [How to rebase to fix a failing pipeline after fix is merged to main](https://www.youtube.com/watch?v=PeopYsoweGU)
+1. [Why a handbook pipeline is failing](https://youtu.be/Qg0ICfs_Noo)
+1. [How to identify why a pipeline is failing](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A)
 
 ## Editing the handbook locally
 
@@ -197,7 +200,7 @@ If you delete, rename, or move a page, you can:
 ## Editing content from shortcodes
 
 When trying to edit content, you may encounter content that is "built" using shortcodes and data files.
-Shortcodes look similar to `{{% performance-indicators "ux_department" %}}`.
+Shortcodes look similar to `{{` `% performance-indicators "ux_department" %` `}}`.
 
 When you encounter content in a shortcode and want to edit it:
 
@@ -228,9 +231,36 @@ For example: `Error: error building site: assemble: "/builds/gitlab-com/content-
 - Line: 1
 - Character: 2
 
-To fix markdown errors, review the message. Alternatively, review the relevant section in the [markdown style guide]({{< ref "/docs/markdown-guide" >}}).
+To fix markdown errors, review the message. Alternatively, review the relevant section in the [markdown style guide](/docs/markdown-guide).
 
-For all other errors, the error message should provide the information necessary to fix it. If you're unsure, you can [reach out for help](#need-help).
+For all other errors, the error message should provide the information necessary to fix it.
+
+See the below sections for more details on how to resolves specific types of issues.
+
+If the problem was on the `main` branch, you may need to [rebase](https://docs.gitlab.com/ee/user/project/quick_actions.html#issues-merge-requests-and-epics).
+
+If you're unsure, you can [reach out for help](#need-help).
+
+### Resolving linting errors
+
+To the ensure consistency, quality and correctness of the GitLab Handbook we use various linting jobs that run as part of the pipeline. These jobs check that everything is as it should be, and if they detect something is wrong will cause the pipeline to fail.
+
+### Links and anchors errors
+
+There is a special linter that validates links and anchors across the handbook. If your change accidentally breaks a link, then the pipeline job will fail with a similar error message.
+
+![Link linter error](/handbook/about/images/link-linter-error.png)
+
+1. It is a path to the file where the broken link was detected.
+    (filepath - `sites/handbook/source/handbook/total-rewards/benefits/general-and-entity-benefits/pty-benefits-australia/index.html.md`, line number: 87)
+1. It is an error message. An anchor `expense-reimbursement` is defined in the file path from step 1 but does not exist in the file path from step 3.
+1. It is a path where the header `Expense Reimbursement` needs to be defined. (file path - `sites/handbook/source/handbook/spending-company-money/index.html.md`)
+
+**How to fix the problem**
+
+Double-check that header `Expense Reimbursement` exists in `sites/handbook/source/handbook/spending-company-money/index.html.md`.
+
+If it was moved or renamed, then update the link with the anchor to point to the correct location.
 
 ### Fixing default branch errors
 

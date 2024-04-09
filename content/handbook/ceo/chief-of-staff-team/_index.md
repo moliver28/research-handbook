@@ -1,63 +1,48 @@
 ---
-title: "Chief of Staff Team to the CEO"
-description: "GitLab CoST to the CEO Handbook"
+title: "Office of the CEO"
+description: "Details about Office of the CEO at GitLab"
 ---
+
+## Office of the CEO Overview
+
+GitLab is a [functionally organized](/handbook/company/structure/#gitlabcom-isnt-a-role) company in which functions are as mutally exclusive as possible to be efficient. Without a COO or central operating department reporting into the CEO, the CEO gets leverage through an [Office of the CEO](/handbook/ceo/office-of-the-ceo/) led by the Chief of Staff (CoS) to the CEO. While the Chief of Staff to the CEO is not a part of GitLab's executive team, this senior person reports directly to the CEO and manages a team that supports the CEO and/or cross-functional projects of importance to GitLab.
 
 ## Team Mission
 
-Lead select cross-functional initiatives of importance to GitLab.
+Help the CEO be more effective and lead select cross-functional initiatives of importance to GitLab.
 
+## Team Composition
 
-## Quick Links and Fun Facts
+The [Office to the CEO](/handbook/ceo/office-of-the-ceo/) consists of:
 
-- [Chief of Staff to the CEO Job Family]({{< ref chief-of-staff >}})
-- [Strategy & Operations Job Family]({{< ref strategy-and-operations >}})
-- [GitLab Strategy and Operations (Workplace) Team Handbook]({{< ref workplace >}})
-- [Performance Indicators]({{< ref performance-indicators >}})
-- CoS to the CEO = Chief of Staff to the CEO
-- CoST to the CEO = Chief of Staff Team to the CEO
-- [GitLab Team Project](https://gitlab.com/gitlab-com/ceo-chief-of-staff-team/cos-team)
-- [Team READMEs]({{< ref readmes >}})
+1. The [Chief of Staff to the CEO](/job-families/chief-executive-officer/chief-of-staff/): the person responsible for running this group and supporting the success of the CEO.
+1. [Strategy and Operations team members](job-families/chief-executive-officer/strategy-and-operations/): internal consultants and doers who support priority cross-functional projects within GitLab. Roles vary based on business needs, but these folks can be specialists (for example, focused on China or technology) or generalists.
+1. [EBAs](/handbook/eba/) to the CEO: EBAs who support the CEO and the Chief of Staff to the CEO.
 
-## Contact Us
+When there are gaps, the Office may expand to include additional roles and responsibilities. For example, at times this Office has included our [TeamOps](https://handbook.gitlab.com/teamops/) initiative, [internal communications](/handbook/communication/#internal-communication), and [handbook maintenance](https://handbook.gitlab.com/). As GitLab is a functionally organized company, the goal in most cases is to own an area until another function is prepared to own and support it.
 
-- [`#ceo-chief-of-staff-team`][CoST-Slack] on Slack (GitLab Team Members only)
+## Kinds of projects Strategy and Operations team members work on {#what-projects-does-the-cost-work-on}
 
-### GitLab / Google Groups
-
-The CoST maintains a [GitLab Group](https://gitlab.com/groups/gitlab-com/ceo-chief-of-staff-team/-/group_members?with_inherited_permissions=exclude) and [Google Group](https://groups.google.com/a/gitlab.com/g/ceo-chief-of-staff-team/members) to ensure the appropriate level of access is granted or removed as team members join and leave the team. The following mapping of permission levels from GitLab Groups to Google Groups is being used:
-
-1. `Owner` -> `Owner`
-1. `Maintainer` -> `Manager`
-1. `Developer` -> `Member`
-
-As of 2023-08 there's no automatic syncing between these groups so CoST team members who have the appropriate permission level in each group should add or remove team members as they join and leave the team.
-
-#### GitLab Project
-
-The primary project used by the CoST to track work specific to our team is [CoS Team](https://gitlab.com/gitlab-com/ceo-chief-of-staff-team/cos-team). Please file issues here as needed to track work being done.
-
-## Kinds of projects CoST to the CEO works on{#what-projects-does-the-cost-work-on}
-
-Given the cross-functional nature of the [company OKRs](/handbook/company/okrs/#okr-process-at-gitlab) and given these projects are important to the CEO, the CoST is often involved in these initiatives as needed and as team member workload permits.
+Given the cross-functional nature of the [company OKRs](/handbook/company/okrs/#okr-process-at-gitlab) and given these projects are important to the CEO, the Strategy and Operators team members are often involved in these initiatives.
 
 ### Project Criteria
 
-The CoS to the CEO and their team may work on projects that fit *any combination* of the following:
-- projects which build or improve organizational design, infrastructure, and operations
-- cross-functional projects that need ownership until a maintainer or exit criteria is identified
-- projects that are so broad that they can't live within a function but are too much work for the CEO
-- projects that are important to the CEO
+The Chief of Staff to the CEO and their team may work on projects that fit *any combination* of the following:
+
+1. projects which build or improve organizational design, infrastructure, and operations
+1. cross-functional projects that need ownership until a maintainer or exit criteria is identified
+1. projects that are so broad that they can't live within a function but are too much work for the CEO or Chief of Staff to the CEO
+1. projects that are important to the CEO
 
 
-This is not an exhaustive list of the types of work the CoST to the CEO might do.
+This is not an exhaustive list of the types of work the Office of the CEO might do.
 
 #### Many Functional
 
 GitLab is a [functional organization](/handbook/leadership/#no-matrix-organization), which means the [people are organized by function](https://comp-calculator.gitlab.net/org_chart).
-When a project arises between three or more Departments, the CoST to the CEO is a team that can help with planning and execution.
-In many cases, a member of the Chief of Staff Team to the CEO will be the [directly responsible individual (DRI)](/handbook/people-group/directly-responsible-individuals/) for the project.
-Whether it's a product feature proposal, a new initiative roll-out, or questions from the board, the CoST to the CEO is the group that can be trusted to get things done, get them done quickly, and get them done right.
+When a cross-functional project arises between multiple different Departments, Office of the CEO team members may be included to help with the planning and execution.
+In many cases, a member of the Office of the CEO will be the [directly responsible individual (DRI)](/handbook/people-group/directly-responsible-individuals/) for the project.
+Whether it's a product feature proposal, a new initiative roll-out, or questions from the board, the Office of the CEO is the group that can be trusted to get things done, get them done quickly, and get them done right.
 
 Examples of a cross-functional project:
 - Helping shepherd KPI and/or OKR progress
@@ -69,9 +54,9 @@ Examples of a cross-functional project:
 #### Under-resourced
 
 Projects come up that are both important and under-resourced.
-The Chief of Staff Team to the CEO should be known for its ability to become 80% effective on any subject quickly.
+The Strategy and Operations team members within the Office of the CEO should be known for its ability to become 80% effective on any subject quickly.
 They are generalists at their core and, while they bring special skills to the table, they are meant to be able to address important problems as they come up.
-A member of the CoST to the CEO might help source candidates for a strategic hire, fix grammatical errors in the handbook, and build a financial model all in the same day based on what is important or top of mind for the CEO at a given point.
+A member of the Office of the CEO might help source candidates for a strategic hire, fix grammatical errors in the handbook, and build a financial model all in the same day based on what is important or top of mind for the CEO at a given point.
 The team helps with work that other teams may not have the bandwidth to do but is important to the organization and/or the CEO.
 
 Examples of an under-resourced project:
@@ -84,7 +69,7 @@ Examples of an under-resourced project:
 There may be projects with no clear leader for a myriad of reasons, including that we're still hiring the point person or the lead is on leave.
 Because of the team's ability to come up to speed quickly, they may be tasked with something totally out of their domain with the expectation that they bring their leadership experience to the table, will do the work to make good decisions, and will lean on team members who are subject-matter experts.
 
-For example, there has historically been no DRI for the [handbook or related content sites]({{< ref content-websites >}}). As it became clear that this was a GitLab priority, but no function planned to prioritize this within the coming year, the CoST to the CEO stepped in to take on handbook ownership.
+For example, there has historically been no DRI for the [handbook or related content sites]({{< ref content-websites >}}). As it became clear that this was a GitLab priority, but no function planned to prioritize this within the coming year, the Office of the CEO stepped in to take on handbook ownership.
 
 Examples of projects with no clear leader:
 
@@ -95,7 +80,7 @@ Examples of projects with no clear leader:
 
 Some projects or initiatives are very broad and cross-functional and *make sense* to belong to the CEO but would be inefficient uses of the CEO's time if fully owned by the CEO.
 OKRs are a prime example. OKRs need to happen and are key to the business but it is not efficient for the CEO to shepherd the process along.
-The CoST to the CEO is the shepherd for these sorts of projects and collaborates with all team members at GitLab to achieve success on such initiatives.
+The Office of the CEO is the shepherd for these sorts of projects and collaborates with all team members at GitLab to achieve success on such initiatives.
 
 Examples of broad projects:
 
@@ -106,7 +91,7 @@ Examples of broad projects:
 
 #### Important to the CEO
 
-The CEO will have other projects that come up that he will task the CoST to the CEO with, such as following up on something or carrying on a conversation on his behalf.
+The CEO will have other projects that come up that they will task the Office of the CEO with, such as following up on something or carrying on a conversation on their behalf.
 
 Examples of tasks or initiatives that are important to the CEO:
 
@@ -125,32 +110,32 @@ Examples of tasks or initiatives that are important to the CEO:
 
 ## How to Work
 
-The team uses a limited access Google doc called "Stella, Sid, and CoST" to collaborate and share progress with the CEO.
+The team uses a limited access Google doc called "Sid, Stella, and the Office of the CEO" to collaborate and share progress with the CEO.
 It's format is structured like the [1-1 Suggested Agenda Format](/handbook/leadership/1-1/suggested-agenda-format/).
 Many of the tasks on the sheet are quick asks: handbook MRs, formatting changes, or questions to be answered.
 Small asks should be handled as quickly as possible.
 Other asks, such as OKR-related planning or an initiative that requires alignment with multiple stakeholders, require forethought and more appropriate timing.
 Some amount of time each week needs to be spent moving these sorts of tasks forward.
 
-As a rule, everything in the doc is a TODO for the CoST to the CEO.
+As a rule, everything in the doc is a TODO for the Office of the CEO.
 When tasks are DONE, they should be labeled as such.
 The CEO will review and delete the item once it's been assessed as completed.
 
 ### Prioritization
 
-Since the team has limited capacity to lean into everything that it may want or be asked to, it is thoughtful about team and individual capacity. Members of the Chief of Staff Team to the CEO will be expected to manage both directed and leadership (largely self-directed) work. You can find definitions and examples of directed and leadership work on the [CoS to the CEO handbook page]({{< ref "chief-of-staff#responsibilities" >}}).
+Since the team has limited capacity to lean into everything that it may want or be asked to, it is thoughtful about team and individual capacity. Members of the Office of the CEO will be expected to manage both directed and leadership (largely self-directed) work. You can find definitions and examples of directed and leadership work on the [CoS to the CEO handbook page]({{< ref "chief-of-staff#responsibilities" >}}).
 
-When newly initiated, self-directed, leadership work entails a significant time commitment (>20% capacity for more than a week), the work being done should be flagged to the CoST to the CEO in a 1:1 or team meeting. This work should stay on the 1:1 agenda between the CoS to the CEO and the team member for the duration of the activity. If needed, activities may be reprioritized based on top demands and priorities.
+When newly initiated, self-directed, leadership work entails a significant time commitment (>20% capacity for more than a week), the work being done should be flagged to the CEO in a 1:1 or team meeting. This work should stay on the 1:1 agenda between the CoS to the CEO and the team member for the duration of the activity. If needed, activities may be reprioritized based on top demands and priorities.
 
-More senior roles within the CoST can expect to have more leadership than directed work, but all roles should have a mix within a fiscal year.
+More senior roles within the Office of the CEO can expect to have more leadership than directed work, but all roles should have a mix within a fiscal year.
 
-CoST members should monitor the mix of directed and leadership work that they are doing and provide a status once a quarter in CoST Meetings, so the CoS to the CEO and CEO are aware of the current balance and can make adjustments, if needed.
+Office of the CEO members should monitor the mix of directed and leadership work that they are doing and provide as appropriate in Office of the CEO Meetings, so the CoS to the CEO and CEO are aware of the current balance and can make adjustments, if needed.
 
 ## Board Meetings
 
 The Chief of Staff to the CEO supports Board activities as specified in the [Board Meeting](/handbook/board-meetings/) section of the handbook and as directed by the CEO.
 
-In addition, the CoS to the CEO helps the CEO in preparing for the CEO's closed session. The CoS to the CEO should coordinate with the EBA to the CEO to schedule a 25 minute session with the CEO and the CoST to the CEO a week before the Board of Directors Meeting. The CoS to the CEO should prepare an agenda that includes an outline for what the CEO may want to cover. For each discussion topic, the following should be captured:
+In addition, the CoS to the CEO helps the CEO in preparing for the CEO's closed session. The CoS to the CEO should coordinate with the EBA to the CEO to schedule a 25 minute session with the CEO and the CoS to the CEO a week before the Board of Directors Meeting. The CoS to the CEO should prepare an agenda that includes an outline for what the CEO may want to cover. For each discussion topic, the following should be captured:
 
 1. What are we discussing?
 1. Why are we discussing it?
@@ -161,7 +146,7 @@ Designated meeting time will be used to review and make adjustments to the propo
 
 ## OKRs
 
-The CoST to the CEO has been running the [OKR process](/handbook/company/okrs/).
+The Office of the CEO runs the [OKR process](/handbook/company/okrs/).
 We set OKRs on a [fiscal quarter](/handbook/finance/#fiscal-year) basis.
 
 There is an [OKR schedule](/handbook/company/okrs/#schedule) that dictates the timeline of events.
@@ -169,55 +154,29 @@ We use a handbook page for each quarter.
 The CEO's Objectives every quarter map to the [sequence](/handbook/company/strategy/#sequence) of our [strategy](/handbook/company/strategy/#strategy).
 The CEO's KRs are what we're measuring for the company for that quarter.
 
-## General Group Conversation
-
-[Group Conversations (GCs)]({{< ref group-conversations >}}) are updates on different parts of the company.
-The CoST to the CEO prepares the General GC slides for the CEO.
-During the General GC, they help facilitate the flow and ask team members to verbalize.
-The CEO gives a General GC that covers the whole of the company.
-The CEO's GC slides usually cover:
-
-- OKR progress
-- GitLab KPIs
-- A reminder on handbook first
-- Openings on the CEO Shadow Rotation
-- Timely announcements
-- Three things that are on the CEO's mind, usually from the CoS to the CEO agenda
-
-The GCs are stored in the "CEO Evangelism" folder on Google Drive.
-
-### How to prepare the Slides
-
-- Start by copying the last slide deck. This will form the skeleton.
-- OKRs may need to be updated for the quarter, depending on the date.
-- Update with timely announcements, e.g. E-Group Offsite updates, anything shared in Company FYI recently, any great wins.
-- If there aren't any timely announcements, take this opportunity to remind folks about some of the key features of our [Communication](/handbook/communication/) guidelines, including our Top Misused Terms, MECEFU, or Why we track public Slack messages.
-
-Be sure that slides are prepared with enough notice for the CEO to record a video and for it to be shared at least 24 hours in advance of the Group Conversation.
-
 ## Collaborating on Cross-Functional Initiatives
 
-While there are rare exceptions, members of the Chief of Staff team are not forever owners of initiatives. They plug in to help achieve critical milestones or fill gaps. When a member of the CoST joins an initiative, there should be agreement from key stakeholders around:
+While there are rare exceptions, members of the Office of the CEO are not forever owners of initiatives. They plug in to help achieve critical milestones or fill gaps. When a member of the Office of the CEO joins an initiative, there should be agreement from key stakeholders around:
 
 1. The level of support required
-1. The CoST members' scope and responsibilities
-1. The exit criteria for the CoST
+1. The Office of the CEO members' scope and responsibilities
+1. The exit criteria for the Office of the CEO
 1. If required, the long-term plan for ongoing initiative or project support
 
-Chief of Staff Team members can be reassigned based on the needs of the business and priorities of the CEO. In most cases, a member of the Chief of Staff team will remain with a project until the exit criteria for the CoST is achieved. If a project extends beyond its anticipated timeframe or priorities change, a member may have to leave a project before the agreed upon exit criteria is achieved.
+Office of the CEO members can be reassigned based on the needs of the business and priorities of the CEO. In most cases, a member of the Office of the CEO will remain with a project until the exit criteria for the Office of the CEO is achieved. If a project extends beyond its anticipated timeframe or priorities change, a member may have to leave a project before the agreed upon exit criteria is achieved.
 
-When a member of the Chief of Staff Team exits an ongoing intitiative they will:
+When a member of the Office of the CEO exits an ongoing intitiative they will:
 
-1. Provide as much notice as possible that the CoST will no longer support the initiative
+1. Provide as much notice as possible that the Office of the CEO will no longer support the initiative
 1. Document their key responsibilities
 1. Support a project DRI in identifying new owners
 1. When possible, stay engaged in the initiative in a limited capacity during an agreed upon transition period
 
-There may be instances in which the CoST leaving leads to a project scope being reduced or deprioritized. In these instances, the CoST member will be responsible for engaging key stakeholders around the keep/expand scope or go/no-go decision. It will be clearly documented and key folks will be involved in the decision and aware of the outcome.
+There may be instances in which the Office of the CEO leaving leads to a project scope being reduced or deprioritized. In these instances, the Office of the CEO member will be responsible for engaging key stakeholders around the keep/expand scope or go/no-go decision. It will be clearly documented and key folks will be involved in the decision and aware of the outcome.
 
 ## Quarterly Kickoff
 
-The CEO does a Quarterly Kickoff in the first month of each quarter. The Chief of Staff Team plays a role in creating materials, recording content, and preparing the CEO. Details can be found on the [Assembly page](/handbook/company/gitlab-all-company-meetings/#quarterly-kickoff) of the handbook.
+The CEO does a Quarterly Kickoff in the first month of each quarter. The Office of the CEO plays a role in creating materials, recording content, and preparing the CEO. Details can be found on the [Assembly page](/handbook/company/gitlab-all-company-meetings/#quarterly-kickoff) of the handbook.
 
 ## E-Group Offsite
 
@@ -265,7 +224,7 @@ There is an issue to also [add DRIs and review the mitigations](https://gitlab.c
 
 ## Supporting Summit Challenge
 
-The CEO chooses to run a Summit Challenge as part of some [Summits](https://about.gitlab.com/events/). The Challenge is shared on the first day of Summit. As an example, the 2020 Challenge encouraged team members to [beautify docs](https://gitlab.com/groups/gitlab-org/-/epics/3063). The CoST to the CEO is responsible for collaborating with the CEO to create and introduce the challenge. The CEO is responsible for identifying a prize for team members, but the CoST should ensure that a prize is identified and support the CEO in this if needed.
+The CEO chooses to run a Summit Challenge as part of some [Summits](https://about.gitlab.com/events/). The Challenge is shared in advance of Summit or on the first day of Summit. As an example, the 2020 Challenge encouraged team members to [beautify docs](https://gitlab.com/groups/gitlab-org/-/epics/3063). The Office of the CEO is responsible for collaborating with the CEO to create and introduce the challenge. The CEO is responsible for identifying a prize for team members, but the Office of the CEO should ensure that a prize is identified and support the CEO in this if needed.
 
 ### Meeting Cleanup Day
 
@@ -296,45 +255,44 @@ When changing the cadence of a meeting, a team member can copy and paste this me
 
 If you are a team member who intends to decline a meeting, the [asynchronous communication](/handbook/company/culture/all-remote/asynchronous/#how-to-decline-meetings-in-favor-of-async) section of the handbook has some good suggestions for what to say when you decline.
 
-Meeting Cleanup Day is intentionally near the start of the new fiscal year. The CoST will launch this initiative annually a week in advance through posting in the `#whats-happening-at-gitlab` Slack channel, and by re-posting a reminder at 00:00 UTC on cleanup day. CoST (or CoS) will repost in the `#managers` channel for visibility.
+Meeting Cleanup Day is intentionally near the start of the new fiscal year. The Office of the CEO will launch this initiative annually a week in advance through posting in the `#whats-happening-at-gitlab` Slack channel, and by re-posting a reminder at 00:00 UTC on cleanup day. Office of the CEO (or CoS) will repost in the `#managers` channel for visibility.
 
 ## Program managing [JiHu](https://about.gitlab.com/pricing/faq-jihu/)
 
-A member of the Chief of Staff Team to the CEO is the DRI within GitLab for the success of GitLab's partnership with JiHu. Coordination with JiHu requires engagement from multiple functions within GitLab. The CoST to the CEO ensures that the appropriate folks are engaged at the right times and that GitLab provides appropriate support to this separate entity.
+A member of the Office of the CEO is the DRI within GitLab for the success of GitLab's partnership with JiHu. Coordination with JiHu requires engagement from multiple functions within GitLab. The Office of the CEO ensures that the appropriate folks are engaged at the right times and that GitLab provides appropriate support to this separate entity.
 
 For example, this member ensures that there is an aligned process among relevant GitLab functions after a customer requests to [transit to JiHu] (https://about.gitlab.com/pricing/faq-jihu/#customer-details):
 
-1. After the Customer's request of novation from GitLab to JiHu is approved, the member of the Chief of Staff Team to the CEO opens a new issue as soon as the contract is issued, and assigns the issue to GitLab Accounting department.
+1. After the Customer's request of novation from GitLab to JiHu is approved, the member of the Office of the CEO opens a new issue as soon as the contract is issued, and assigns the issue to GitLab Accounting department.
 1. This issue triggers the Accounting development to update SFDC, Zuora and NS.
 1. If there is no issue raised in the month, it means there is no novation in that month.
 1. This process takes effects from 2023-02-01, and replaces the previous process that an issue is created each month regardless whether there is novation in the month or not.
 
-## Maintaining the handbook
+## Organizational pulse
 
-As of FY23, the Chief of Staff Team to the CEO is [responsible for the GitLab handbook]({{< ref content-websites >}}).
-This includes maintaining infrastructure and ensuring usability of both the internal and public handbooks.
+Due to its cross-functional scope and access to information, the Office of the CEO is uniquely positioned to see what is happening across the company. Members of the Office of the CEO are encouraged to regularly have [coffee chats](/handbook/company/culture/all-remote/informal-communication/#coffee-chats) with folks outside of the team and share key insights and feedback from these conversations.
 
-During FY24, we have started the migration of handbook content from [about.gitlab.com](https://about.gitlab.com/handbook)
-to our [new handbook site]({{< ref "/_index.html" >}}).
+## Measuring results
 
-We are excited by this move which we hope will improve the usability of the handbook and demonstrate our commitment to
-our values of iteration, collaboration, and transparency.  During the coming months we will be iterating over the handbook
-content moving it in sections to our new infrastructure. We will be collaborating with both internal and external
-stakeholders to keep them up to date with what is happening and to try to minimize disruption such a migration may
-present. You can see our changes and follow our progress on [our repository](https://gitlab.com/gitlab-com/content-sites/handbook).
+We are evaluating different ways to measure our success as a team. These include:
+
+1. A company-wide team satisfaction score
+1. A pulse survey sent to a few targeted folks who have worked closely with the Office of the CEO team members in the past quarter
+1. Score against team quarterly goals
+1. Score on success in a few top initiatives within a quarter
 
 ## Chief of Staff Shadow
 
-The Chief of Staff to the CEO may occasionally have a Chief of Staff Shadow, a GitLab team member who will participate in a specific project or initiative for a fixed time. Shadow responsibilities could include: taking notes, providing feedback, and/or supporting the overall initiative success. This role would be in addition to any existing responsibilities at GitLab. Participants would opt in to experience another function within GitLab and contribute to a different part of the business. Since participation would be in addition to an existing workload, managers must sign off before a CoS to the CEO Shadow can participate. Interested team members can share their interest with the Chief of Staff to the CEO in the [`#ceo-chief-of-staff-team`][CoST-Slack] channel. The CoST to the CEO will follow up with you to understand what you are looking to get out of the experience and review projects that may be a good match. If there is not an existing project, you will be kept in mind for future opportunities.
+The Chief of Staff to the CEO may occasionally have a Chief of Staff Shadow, a GitLab team member who will participate in a specific project or initiative for a fixed time. Shadow responsibilities could include: taking notes, providing feedback, and/or supporting the overall initiative success. This role would be in addition to any existing responsibilities at GitLab. Participants would opt in to experience another function within GitLab and contribute to a different part of the business. Since participation would be in addition to an existing workload, managers must sign off before a CoS to the CEO Shadow can participate. Interested team members can share their interest with the Chief of Staff to the CEO in the `#ceo-chief-of-staff-team` Slack channel. The CoS to the CEO will follow up with you to understand what you are looking to get out of the experience and review projects that may be a good match. If there is not an existing project, you will be kept in mind for future opportunities.
 
-Once a project or initiative to Shadow has been identified and the team member decides to participate, the team member should open a merge request to add their name to the below table. The MR should be shared through slack in [`#ceo-chief-of-staff-team`][CoST-Slack] for review and merge.
+Once a project or initiative to Shadow has been identified and the team member decides to participate, the team member should open a merge request to add their name to the below table. The MR should be shared through slack in the `#ceo-chief-of-staff-team` channel for review and merge.
 
 |  Start Date | End Date | First & Last Name | GitLab Handle |
 | --- | --- | --- | --- |
 |2020-05-23|2020-08-21  | Mike Miranda | @mmiranda |
 |2020-08-31|2021-07-18  | Jerome Ng | @jeromezng |
 |2021-06-02 | 2021-09-01 | Samantha Lee  | @slee24  |
-|   |  |  |  |
+| 2023-03-06 | 2023-11-01 | Cynthia "Arty" Ng | @cynthia |
 |   |  |  |  |
 |   |  |  |  |
 
@@ -345,33 +303,30 @@ Once a project or initiative to Shadow has been identified and the team member d
 1. Participating in the shadow program is a privilege where you will be exposed to confidential information. This is underpinned by trust in the shadows to honor the confidentiality of topics being discussed and information shared. The continuation of this program is entirely dependent on shadows past, present, and future honoring this trust placed in them.
 1. Give feedback to and receive feedback from the Chief of Staff to the CEO. Participants in the shadow program are encouraged to deliver [candid feedback](/handbook/people-group/guidance-on-feedback/#guidelines-for-delivering-feedback). Shadows maintaining confidentiality during the program is separate from shadows being able to provide candid feedback.
 
-## Organizational pulse
+## Quick Links and Fun Facts
 
-Due to its cross-functional scope and access to information, the Chief of Staff Team to the CEO is uniquely positioned to see what is happening across the company. Members of the CoST to the CEO are encouraged to regularly have [coffee chats](/handbook/company/culture/all-remote/informal-communication/#coffee-chats) with folks outside of the team and share key insights and feedback from these conversations.
+- [Chief of Staff to the CEO Job Family]({{< ref chief-of-staff >}})
+- [Strategy & Operations Job Family]({{< ref strategy-and-operations >}})
+- [GitLab Strategy and Operations (Workplace) Team Handbook]({{< ref workplace >}})
+- [Performance Indicators]({{< ref performance-indicators >}})
+- [GitLab Team Project](https://gitlab.com/gitlab-com/ceo-chief-of-staff-team/cos-team)
+- [Team READMEs]({{< ref readmes >}})
 
-## Measuring results
+## Contact Us
 
-We are evaluating different ways to measure our success as a team. These include:
-1. A company-wide team satisfaction score
-1. A pulse survey sent to a few targeted folks who have worked closely with the CoST in the past quarter
-1. Score against team quarterly goals
-1. Score on success in a few top initiatives within a quarter
+- `#ceo-chief-of-staff-team` on Slack (GitLab Team Members only)
 
-## Resources on the CoS to the CEO Role
+### GitLab / Google Groups
 
-- [The Unrepentant Generalist: How to Be a Great Chief of Staff in Tech](http://www.nehrlich.com/blog/2019/10/31/how-to-be-a-great-chief-of-staff-in-tech/)
-- [NYT: Hail to the Chief of Staff](https://www.nytimes.com/2019/11/07/style/what-does-a-chief-of-staff-do.html)
-- 2020 March: [Chief of Staff in the Tech Industry](https://medium.com/@alexismonville/chief-of-staff-in-the-tech-industry-c7dc3a43dae6)
-- [Emilie Schario's Notes on the CoS to the CEO Book](https://docs.google.com/document/d/1ZjWmqhv78eic57gxR825FvC9GMHo91pYakb3Jc7ximU/edit?usp=sharing)
-- [Chief of Staff Tech Network](https://costechnetwork.com/)
-- [Chief of Staff Resources](https://www.chiefofstaff.expert)
-- [Prime Chief of Staff](https://primechiefofstaff.com)
-- [The First 90 Days](https://medium.com/@robdickins/a-90-day-impact-plan-for-a-new-chief-of-staff-97768d9b04bd)
-- [I’ve Logged 10,000 Hours as a Chief of Staff in a Large Tech Company](https://medium.com/@robdickins/ive-logged-10-000-hours-as-a-chief-of-staff-in-a-large-tech-company-here-s-my-pov-on-the-role-7c4aa095f5e8)
-- [The Role of a Corporate Chief of Staff](https://medium.com/cos-tech-forum/part-1-the-role-of-a-corporate-chief-of-staff-8db0142318f1)
-- [Better CoS to the CEO: Decision Making](https://medium.com/@robdickins/better-cos-decision-making-5d97d14152e3)
-- [Becoming a Chief of Staff with Brian Rumao](https://www.linkedin.com/learning/become-a-chief-of-staff-with-brian-rumao)
-- [HBR: The Case for a Chief of Staff](https://hbr.org/2020/05/the-case-for-a-chief-of-staff)
-- [How a Chief of Staff Makes Leaders more Effective](https://www.inc.com/inc-masters/how-a-chief-of-staff-makes-leaders-more.html)
+The Office of the CEO maintains a [GitLab Group](https://gitlab.com/groups/gitlab-com/ceo-chief-of-staff-team/-/group_members?with_inherited_permissions=exclude) and [Google Group](https://groups.google.com/a/gitlab.com/g/ceo-chief-of-staff-team/members) to ensure the appropriate level of access is granted or removed as team members join and leave the team. The following mapping of permission levels from GitLab Groups to Google Groups is being used:
 
-[CoST-Slack]: https://app.slack.com/client/T02592416/CN7MPDZF0
+1. `Owner` -> `Owner`
+1. `Maintainer` -> `Manager`
+1. `Developer` -> `Member`
+
+As of 2023-08 there's no automatic syncing between these groups so Office of the CEO team members who have the appropriate permission level in each group should add or remove team members as they join and leave the team.
+
+#### GitLab Project
+
+The primary project used by the Office of the CEO to track work specific to our team is [Office of the CEO](https://gitlab.com/gitlab-com/ceo-chief-of-staff-team/cos-team). Please file issues here as needed to track work being done.
+

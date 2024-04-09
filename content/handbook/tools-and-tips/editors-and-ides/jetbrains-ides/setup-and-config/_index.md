@@ -100,9 +100,13 @@ If you have the memory to spare on your workstation, it will help your performac
 
 ## Configuration
 
-### UPDATE 2023=12
+### UPDATE 2024-04
 
-Based on demo previews, it looks like the new [Toolbox Enterprise](https://www.jetbrains.com/toolbox-enterprise/) features will finally provide a viable and easy way to share configuration across a team. Jetbrains has said that the features we need should be available sometime around mid-2024.
+Jetbrains has pointed us to this issue to follow their progress on allowing team settings sharing: [Make Settings Sync/new separate feature suitable for team settings sharing](https://youtrack.jetbrains.com/issue/IDEA-309002)
+
+### UPDATE 2023-12
+
+Based on demo previews, it looks like the new [Toolbox Enterprise](https://www.jetbrains.com/toolbox-enterprise/) features will finally provide a viable and easy way to share configuration across a team. Jetbrains has said that the features we need should be available sometime around mid-2024. However, the additional license cost of this may be prohibitive.
 
 ### UPDATE 2023-11
 

@@ -12,10 +12,10 @@ The mission of the Governance and Field Security team is to: (i) drive the devel
 
 Please refer to the following roles and responsibilities for Governance and Field Security team members:
 
-[Goverance team member roles and responsibilities]({{< ref "/job-families/security/security-assurance-job-family" >}})
+[Goverance team member roles and responsibilities](/job-families/security/security-assurance-job-family)
 {.h4}
 
-[Field Security team member roles and responsibilities]({{< ref "/job-families/security/security-assurance-job-family" >}})
+[Field Security team member roles and responsibilities](/job-families/security/security-assurance-job-family)
 {.h4}
 
 ## High Level Core Competencies

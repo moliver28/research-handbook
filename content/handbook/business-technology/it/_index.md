@@ -84,7 +84,7 @@ The IT Engineering sub-department is focused on designing, developing, and imple
 <br />
 The IT Engineering team implements Okta SSO for our tech stack applications. You can learn more on the <a href="/handbook/business-technology/okta">Okta handbook page</a>.<br />
 <br />
-The IT Support team handles <a href="https://about.gitlab.com/handbook/business-technology/team-member-enablement/onboarding-access-requests/access-requests/">access requests</a> for the tech stack applications that IT manages. All access requests are created in the same <a href="https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=Individual_Bulk_Access_Request">issue tracker</a> project, regardless of which System Owner is responsible for provisioning your user account.<br />
+The IT Support team handles <a href="https://about.gitlab.com/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/">access requests</a> for the tech stack applications that IT manages. All access requests are created in the same <a href="https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=Individual_Bulk_Access_Request">issue tracker</a> project, regardless of which System Owner is responsible for provisioning your user account.<br />
 <br />
 The IT Development team also focuses on Identity and Access Management (IAM) and Role-Based Access Control (RBAC) automation. We are developing <a href="/handbook/it/access-manager">GitLab Access Manager (GLAM)</a>, a custom application that will replace access request issues and manual provisioning with a streamlined custom web UI and API integration with most of our tech stack applications for user and role provisioning.<br />
 

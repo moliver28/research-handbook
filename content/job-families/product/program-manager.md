@@ -1,9 +1,9 @@
 ---
-title: "Product Program Manager"
-description: "This role supports cross-division initaitives across PM, UX and other functions within R&D"
+title: "Technical Program Manager"
+description: "This role supports cross-division initaitives across PM, UX, Engineering and other functions within R&D along with functions across GTM"
 ---
 
-Driving operational efficiency for the Product Division. The Program Manager, Product is responsible for supporting cross-division initiatives across Product Management and User Experience along with supporting initiatives cross functionally across all of R&D.
+Driving operational efficiency for the Product Division. Technical Program Managers (TPMs) are responsible for supporting cross-division initiatives across Product Management and User Experience along with supporting initiatives cross functionally across all of R&D.
 
 ## Responsibilities
 
@@ -21,15 +21,15 @@ Driving operational efficiency for the Product Division. The Program Manager, Pr
 
 ## Levels
 
-### Product Program Manager
+### Technical Program Manager
 
-This position reports to the Sr Director of Product Management.
+This position reports to the VP of Product Management.
 
-#### Product Program Manager Job Grade
+#### Technical Program Manager Job Grade
 
 The role is a grade 6.
 
-#### Product Program Manager Responsibilities
+#### Technical Program Manager Responsibilities
 
 All responsibilities listed below (applicable to all roles) plus:
 
@@ -41,19 +41,19 @@ All responsibilities listed below (applicable to all roles) plus:
 - Build trust with direct stakeholders
 - Develop and guide deployment plans and communication with direct stakeholders
 
-#### Product Program Manager Requirements
+#### Technical Program Manager Requirements
 
 All requirements listed above (applicable to all roles)
 
-### Senior Product Program Manager
+### Senior Technical Program Manager
 
-This position reports to the Sr Director of Product Management.
+This position reports to the VP of Product Management.
 
-#### Senior Product Program Manager Job Grade
+#### Senior Technical Program Manager Job Grade
 
 The role is a grade 7.
 
-#### Senior Product Program Manager Responsibilities
+#### Senior Technical Program Manager Responsibilities
 
 All responsibilities of previous roles plus:
 
@@ -64,7 +64,7 @@ All responsibilities of previous roles plus:
 - Communicate successfully within the project team and at multiple levels of management, building trust across the organization.
 - Develop and guide deployment plans and communication with partners
 
-#### Senior Product Program Manager Requirements
+#### Senior Technical Program Manager Requirements
 
 All requirements of previous roles plus:
 
@@ -72,15 +72,15 @@ All requirements of previous roles plus:
 - Risk analysis and problem-solving skills
 - Excellent written and verbal communication skills, building relationships with partners.
 
-### Staff Product Program Manager
+### Staff Technical Program Manager
 
-This position reports to the Sr Director of Product Management.
+This position reports to the VP of Product Management.
 
-#### Staff Product Program Manager Job Grade
+#### Staff Technical Program Manager Job Grade
 
 The role is a grade 8.
 
-#### Staff Program Manager Responsibilities
+#### Staff Technical Manager Responsibilities
 
 All responsibilities of previous roles plus:
 
@@ -91,7 +91,7 @@ All responsibilities of previous roles plus:
 - Operate cross functionally to ensure the success of programs.
 - Develop repeatable, scalable, efficient, and effective processes
 
-#### Staff Product Program Manager Requirements
+#### Staff Technical Program Manager Requirements
 
 All requirements of previous roles plus:
 
@@ -101,8 +101,7 @@ All requirements of previous roles plus:
 
 ### Performance Indicators
 
-Division Wide Operational Efficency
-On-time delivery of programs within the Product Division
+Division Wide Operational Efficency of programs within the Product Division
 
 ## Hiring Process
 

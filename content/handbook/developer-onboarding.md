@@ -109,13 +109,28 @@ GitLab EE requires a license key to be used.
 Team members should file a submission via the [Support Super Form](https://support-super-form-gitlab-com-support-support-op-651f22e90ce6d7.gitlab.io/) by selecting
 "Request a team member license" from the drop down options.
 
-Wider community members should contact the [Contributor Success Team](/handbook/marketing/developer-relations/contributor-success/community-contributors-workflows#contributing-to-the-gitlab-enterprise-edition-ee).
+Wider community members should contact the [Contributor Success team](/handbook/marketing/developer-relations/contributor-success/community-contributors-workflows#contributing-to-the-gitlab-enterprise-edition-ee).
 
 [Learn more about working with licensing and subscriptions internally.](/handbook/support/internal-support/)
 
 ### Ruby Gems
 
 Follow the [development guidelines for Ruby gems](https://docs.gitlab.com/ee/development/gems.html).
+
+## Get involved with the wider community
+
+- Become a [Merge Request Coach](https://handbook.gitlab.com/job-families/expert/merge-request-coach/)
+- Join the [Community Discord](https://discord.gg/gitlab)
+- Encourage teams to host [Community Office Hours](https://handbook.gitlab.com/handbook/marketing/developer-relations/contributor-success/#community-office-hours)
+- Reach out to the [Contributor Success team](https://handbook.gitlab.com/handbook/marketing/developer-relations/contributor-success) on Slack in `#contributor-success`
+- Involve the community in things you do
+- Have conversations in public
+- Triage team issues and label with `quick win` where applicable, especially in advance of [Hackathons](https://about.gitlab.com/community/hackathon/)
+- Use the [Community Forks](https://gitlab.com/gitlab-community)
+- Consider [live streaming](https://handbook.gitlab.com/handbook/marketing/marketing-operations/youtube/#public-or-private-streaming) and [pairing sessions](https://handbook.gitlab.com/handbook/marketing/developer-relations/contributor-success/community-pairing-sessions/), with team members and/or the community
+- Record meetings for the [GitLab Unfiltered](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A) YouTube channel (handbook info [here](https://handbook.gitlab.com/handbook/marketing/marketing-operations/youtube/))
+- Champion requests from community members and raise concerns internally
+- Reach out offline to connect with community members on channels like X/Twitter or LinkedIn
 
 ## Relevant links
 

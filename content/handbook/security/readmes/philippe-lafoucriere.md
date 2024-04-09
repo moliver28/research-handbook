@@ -8,9 +8,9 @@ job: "Security Architect"
 
 ### About me
 
-Hi! I'm a [Security Architect]({{< ref "/job-families/security/security-engineer#security-architect" >}}) at
+Hi! I'm a [Security Architect](/job-families/security/security-engineer#security-architect) at
 GitLab, which is a specialty on top of my [Security Distinguished
-Engineer]({{< ref "/job-families/security/security-engineer#distinguished-security-engineer" >}}) role.
+Engineer](/job-families/security/security-engineer#distinguished-security-engineer) role.
 
 I have an Engineering background, having graduated from the [Université de Technologie de
 Compiègne](https://www.utc.fr/en/) (France) with a Master's Degree in Computer Science.
@@ -34,7 +34,7 @@ I joined GitLab with the [acquisition of
 Gemnasium](https://about.gitlab.com/press/releases/2018-01-30-gemnasium-acquisition.html) in 2018, when I become the first
 manager of the [Secure Stage](https://about.gitlab.com/direction/secure/). After having designed and developed security
 products, I decided to switch to the other side of the mirror and joined the [Security
-Department]({{< ref "/handbook/security" >}}) in 2020.
+Department](/handbook/security) in 2020.
 
 ![timeline](../timeline.png)
 

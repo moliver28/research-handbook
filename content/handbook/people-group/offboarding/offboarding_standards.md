@@ -24,11 +24,9 @@ These standards apply to all GitLab team-members, contractors, advisors, and con
 
 ### Notice of Offboarding
 
-Once the termination process has been approved and completed in Workday either by the departing team members [Direct Manager](https://docs.google.com/document/d/1Fr1G1i1kssfADgDf3D6LbZHR8RZmWKZYDNV8AfduZ1c/edit) (Voluntary) or by [Team Member Relations](https://docs.google.com/document/d/1nMokz03AiUQtb0XV5zpD9CjaQKcX5Lu8p5ASZy3cJVA/edit) (Involuntary) either a People Connect (Voluntary) or Team Member Relations (Involuntary) team member will submit an [Offboarding Workflow Form](https://docs.google.com/forms/d/e/1FAIpQLScBBnV7bKKVkqfTk9Aq9sfSB_r85SKTxt0_mC6RhbRwU3DtSA/viewform).  In the instance of a Voluntary Termination this process will follow the [resignation process](https://docs.google.com/document/d/1AVHHBKd6dtyn0DOl4_UydbdEhectLpH5aMh17r9Sg_4/edit) initiated by the team member directly in Workday.
+Once the termination process has been approved and completed in Workday either by the departing team members [Direct Manager](https://docs.google.com/document/d/1Fr1G1i1kssfADgDf3D6LbZHR8RZmWKZYDNV8AfduZ1c/edit) (Voluntary) or by [Team Member Relations](https://docs.google.com/document/d/1nMokz03AiUQtb0XV5zpD9CjaQKcX5Lu8p5ASZy3cJVA/edit) (Involuntary), automations in place will detect the new offboarding and attempt to open the issue if within a. valid offboarding window for the specified day.  In the instance of a Voluntary Termination this process will follow the [resignation process](https://docs.google.com/document/d/1AVHHBKd6dtyn0DOl4_UydbdEhectLpH5aMh17r9Sg_4/edit) initiated by the team member directly in Workday.
 
-This will populate the tracker through which various offboarding automations are triggered in addition to notifying IT Operations; Payroll and other Stakeholders of the team members temination particulars such as the effective date, information about garden leave if applicable and the time at which access to GitLab systems should be terminated in the #offboarding channel.
-
-In alignment with the needs of both People Connect and IT Operations, offboardings will kick off at 16:00pm in the team members regional timezone (EMEA, JAPAC, and NORAM) and 12:00pm in their regional timezone on Friday at which point de-provisioning will commence.
+In alignment with the needs of both People Connect and IT Operations, offboardings will kick off at depending on their local timezone in Slack. For offboardings scheduled for Monday-Thursday, these will be opened at 16:00pm of their local timezone, and on Fridays would be opened at 12:00pm in their local timezone.
 
 **Note:** In instances where team members require de-provisioning initiated at outside of those documented above they should reach out to People Connect via direct message or people-connect@gitlab.com to arrange an alternate time.
 
@@ -40,11 +38,11 @@ Per the People Connect Rotation the offboarding will be assigned directly in the
 
 ### Creating the Offboarding Issue
 
-Offboarding issues are created [automatically]({{< ref "/handbook/people-group/engineering/offboarding#scheduled-offboarding-issue-creation" >}}) using the data that is populated by the offboarding form. **It is essential that the date and time inserted in the tracker is accurate as this will be the time at which the employment bot will open the offboarding issue**
+Offboarding issues are created [automatically](/handbook/people-group/engineering/offboarding#scheduled-offboarding-issue-creation) using the data that is populated by the offboarding form. **It is essential that the date and time inserted in the tracker is accurate as this will be the time at which the employment bot will open the offboarding issue**
 
 The assigned People Connect member will be automatically added to the list of assignees once the offboarding issue is created.
 
-Many teams work to deprovision access including the IT Operations, this should be regarded as urgent and all tasks expected to be completed in 5 working days with the exception of [laptop returns](/handbook/business-technology/team-member-enablement/onboarding-access-requests/#returning-oldoffboarded-laptops), which can take 2 - 4 weeks.
+Many teams work to deprovision access including the IT Operations, this should be regarded as urgent and all tasks expected to be completed in 5 working days with the exception of [laptop returns](/handbook/business-technology/end-user-services/onboarding-access-requests/#returning-oldoffboarded-laptops), which can take 2 - 4 weeks.
 
 Note: If the team member is temporarily transitioning to a [contractor or consultant role](/handbook/business-technology/end-user-services/onboarding-access-requests/temporary-service-providers/), please proceed with the full offboarding process and create a separate onboarding issue to grant only specific temporary access for what they would need to fulfill their contractual obligations.
 

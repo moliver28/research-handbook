@@ -3,7 +3,7 @@ title: "Talent Acquisition Process - Candidate Experience Specialist Contract Pr
 description: "This page is an overview of the Candidate Experience Specialist Contract Processes when hiring globally."
 ---
 
-Assuming that the [hiring process]({{< ref "/handbook/hiring" >}}) went smoothly, now it is time to prepare the applicable contracts. Once the verbal offer is made, an issue will be created via the "email team" option in Greenhouse. The CES will send the contract to the applicant, using DocuSign in Greenhouse. On rare occasion, the CES may have to create the contract outside of Greenhouse using Google Docs; if this is the case, the CES needs to have a manager review the contract for accuracy before sending it out for signature.
+Assuming that the [hiring process](/handbook/hiring) went smoothly, now it is time to prepare the applicable contracts. Once the verbal offer is made, an issue will be created via the "email team" option in Greenhouse. The CES will send the contract to the applicant, using DocuSign in Greenhouse. On rare occasion, the CES may have to create the contract outside of Greenhouse using Google Docs; if this is the case, the CES needs to have a manager review the contract for accuracy before sending it out for signature.
 
 First, be sure to validate the following:
 
@@ -11,7 +11,7 @@ First, be sure to validate the following:
 1. The start date is not a no-start day, and is more than 10 days from your sent date. People Connect requires at least 5 days to process a new hire, but requests 10 days when possible. Recruiters need to be prepared for the time it takes for both parties to sign the contract as well as reject all remaining candidates and should prepare for this.
 1. The candidate lives in a country we are able to hire in. The SSOT for all country hiring is [here](https://comp-calculator.gitlab.net/hiring_status/index).
 1. The currency listed in the offer package in Greenhouse should normally be the local currency of the new team member unless approved by Total Rewards. This needs to be confirmed and approved by Total Rewards prior to making the offer, as any changes to the currency will require complete reapproval in Greenhouse, regardless if it is the same amount just in a different currency.
-1. Confirm [through which entity the team member would be employed or contracted]({{< ref "/handbook/people-group/employment-solutions#team-member-types-at-gitlab" >}}). If the title of the position includes "Public Sector" and they are located in the US, they may need a Federal contract. The Recruiter should confirm with the PBP if there's any questions.
+1. Confirm [through which entity the team member would be employed or contracted](/handbook/people-group/employment-solutions#team-member-types-at-gitlab). If the title of the position includes "Public Sector" and they are located in the US, they may need a Federal contract. The Recruiter should confirm with the PBP if there's any questions.
 1. If the candidate is located in *Belgium* the CES or Recruiter should be aware of two further things to address: i. there are strict language/translation requirements in Belgium so the CES or Recruiter should confirm which region of Belgium the candidate is located in and let legal know, to ensure the right contract, in the right language is used, and so that a translation can be arranged if necessary; and ii. if the role is *not* Grade 9 or higher, the CES or Recruiter should send a link to the role and the job requisition to the legal team via the #legal Slack channel once the candidate is at offer stage (before anything is sent out!) to determine whether or not the role is a position of trust.
 1. The recruiter should select "Email the team" and send the "CES Start Contract Request" email to CES* to initiate the offer letter and background check processes after the verbal offer has been made.
 
@@ -24,21 +24,22 @@ This chart reflects the available signatories for each of GitLab's entities. The
 |-------- | -----|
 | GitLab Inc | All Recruiting Leads (Jake Foster, Marissa Farris), Jess Dallmar, Rob Allen, Other People Group Team Members who are employed by Inc. and of the appropriate grade to sign the document. JCLs can be signed by Morgan Wilkins  |
 | GitLab Federal LLC    |       Bob Stevens     |
-| GitLab BV Belgium, Dutch & English | Marissa Farris, Pattie Egan. Backups: Craig Mestel|
-| GitLab BV, Netherlands | Marissa Farris & Pattie Egan. Backup: Craig Mestel|
+| GitLab BV Belgium, Dutch & English | Marissa Farris, Pattie Egan|
+| GitLab BV, Netherlands | Marissa Farris & Pattie Egan|
+| GitLab Canada Corp | Simon Mundy |
+| GitLab France S.A.S. | Rob Allen & Pattie Egan|
+| GitLab GK, Japan | Jess Dallmar, Rob Allen. Backup: Simon Mundy|
 | GitLab GmbH | Marissa Farris, Rob Allen & Pattie Egan|
-| GitLab PTY Ltd, Australia | Jess Dallmar & Rob Allen. Backup: Craig Mestel|
-| GitLab PTY Ltd, New Zealand | Jess Dallman & Rob Allen. Backup: Craig Mestel|
-| GitLab Ireland LTD | Marissa Farris, Rob Allen & Pattie Egan. Backup: Craig Mestel|
-| GitLab UK Ltd | Marissa Farris, Rob Allen, Pattie Egan|
-| GitLab Canada Corp | Craig Mestel, Simon Mundy |
-| GitLab GK, Japan | Jess Dallmar, Rob Allen. Backups: Simon Mundy, Craig Mestel |
-| GitLab IT BV | Marissa Farris, Pattie Egan. Backup: Craig Mestel|
-| GitLab South Korea | Jess Dallmar & Rob Allen. Backup: Craig Mestel |
-| GitLab France S.A.S. | Rob Allen & Pattie Egan. Backup: Craig Mestel|
+| GitLab Iberia S.L (Spain) | Jim Gladen & Simon Mundy |
+| GitLab Ireland LTD | Marissa Farris, Rob Allen & Pattie Egan|
+| GitLab IT BV | Marissa Farris, Pattie Egan |
+| GitLab PTY Ltd, Australia | Jess Dallmar & Rob Allen. Backup: Jim Gladen|
+| GitLab PTY Ltd, New Zealand | Jess Dallman & Rob Allen. Backup: Jim Gladen|
+| GitLab South Korea | Jess Dallmar & Rob Allen |
 | GitLab Singapore PTE. LTD. | Jess Dallmar & Rob Allen. Backup: Simon Mundy |
+| GitLab UK Ltd | Marissa Farris, Rob Allen, Pattie Egan|
 | JCLs | Choose signatory from the list above. For the US, Morgan Wilkins can also sign. |
-| PEOs | The Candidate Experience Specialist processing the offer. For JCLs, choose Morgan Wilkins or Marissa Ferber |
+| PEOs | The Candidate Experience Specialist processing the offer. For JCLs, choose Morgan Wilkins or Marissa Farris |
 
 ### Send the contract through Greenhouse
 
@@ -392,12 +393,12 @@ It is common for Dutch employers to offer a second temporary contract when the f
 
 The process for New Hires is as follows:
 
-1. The offer is made by the recruiter per the [hiring process]({{< ref "/handbook/hiring" >}}).
+1. The offer is made by the recruiter per the [hiring process](/handbook/hiring).
 1. If the BSN and date of birth are not filled out and cannot be found in a reference check form, the Candidate Experience Specialist can use the emails the email template Contract Info Request - the Netherlands from GreenHouse and send to the candidate.
 1. Ensure the start date is on a Monday, unless Monday is a holiday or the non-Monday date is legally required.
 1. The Candidate Experience Specialist will update the GreenHouse Offer Details with BSN and Date of Birth when the new team member provides the necessary details and then generates the "IT BV Employee Temporary - the Netherlands" contract out of GreenHouse.
 1. The Candidate Experience Specialist will stage the contract for signature via DocuSign, CC the hiring manager, and CC the HRSavvy group email. This will ensure our payroll provider in this location can start their onboarding, well ahead of ours.
-1. Please note that you should *not* be running a criminal background check for the Netherlands, because they'll be doing a different process (Certificate of Good Conduct/VoGS) instead. Please only run an employment verification.
+1. Please note that you should *not* be running a criminal background check for the Netherlands, because they'll be doing a different process (Certificate of Good Conduct/VoGS) instead. Please select the Netherlands background check package which only includes employment verification and an extended global sanctions search.
 
 The People Operation Specialist are in charge of [contract renewals]({{< ref "contracts-probation-periods#contract-renewals" >}}). The process the **end of the first 12-month GitLab BV Netherlands temporary contract** is listed in their [Netherlands Renewal Process]({{< ref "contracts-probation-periods#netherlands-renewal-process" >}}) section of the [Contracts, Probation Periods & PIAA]({{< ref "contracts-probation-periods" >}}) handbook page.
 
@@ -452,7 +453,7 @@ CXC provides a 12 month contract in these locations, and this can be extended. T
 
 To create the contract:
 
-1. Offer is made by the recruiter per the [hiring process]({{< ref "/handbook/hiring" >}}).
+1. Offer is made by the recruiter per the [hiring process](/handbook/hiring).
 1. The Candidate Experience Specialist emails the new team member the Contract Info Request - CXC from GreenHouse.
     - Click “Email CANDIDATE NAME”
     - Select “Contract Info Request-CXC” from dropdown.
@@ -492,7 +493,7 @@ GitLab is working in partnership with [Global Upside](https://globalupside.com) 
 
 The process for creating and sending an agreement is as follows:
 
-1. The Offer is made by the recruiter per the [hiring process]({{< ref "/handbook/hiring" >}}).
+1. The Offer is made by the recruiter per the [hiring process](/handbook/hiring).
 1. If the Nationality field is not filled out and cannot be found in the Reference Check form, CES sends “Contract Info Request-Global Upside” email to the new hire to collect additional details.
 1. Ensure the start date is on a Monday, unless Monday is a holiday or the non-Monday date is legally required.
 1. The Candidate Experience Specialist will check if there is a probationary period.
@@ -526,7 +527,7 @@ GitLab has partnered with [Remote.com](https://remote.com/) to hire in Brazil, S
 
 To create the contract:
 
-1. Offer is made by the recruiter per the [hiring process]({{< ref "/handbook/hiring" >}}).
+1. Offer is made by the recruiter per the [hiring process](/handbook/hiring).
 1. If the Nationality field is not filled out and cannot be found in the Reference Check form, CES sends “Contract Info Request-Global Upside” email to the new hire to collect additional details.
     - Click “Email CANDIDATE NAME”
     - Select “Contract Info Request-Remote.com” from dropdown.
@@ -650,7 +651,7 @@ If there are any questions, these should be directed to help@remote.com.
 
 **GitLab and New Hire:**
 
-1. Once the verbal offer has been made by the recruiter [hiring process]({{< ref "/handbook/hiring" >}}) complete the [Template-GitLab China Employee Offer letter](https://docs.google.com/document/d/1c69dG9TuAB0MgiKj_gLDuHTHpzjocvEAm2okUOKqRIs/edit#) as per How to use this page to prepare a contract.
+1. Once the verbal offer has been made by the recruiter [hiring process](/handbook/hiring) complete the [Template-GitLab China Employee Offer letter](https://docs.google.com/document/d/1c69dG9TuAB0MgiKj_gLDuHTHpzjocvEAm2okUOKqRIs/edit#) as per How to use this page to prepare a contract.
 1. CIIC require a Chinese version of a [Letter of Employment Intent](https://docs.google.com/document/d/1BEHvveYUJkS1xwyd037P_zzitOSotF_68Kbi-c7k8hY/edit).
 1. Complete the Letter of Intents with all of the information required/known. This should be completed in [English](https://docs.google.com/document/d/1b3fHqHzXhhoJeskUN-Km9vTLeuszysWPj8PlvXm45ug/edit) first then translated into Chinese using Google Translate.
 1. Once this has been done send the GitLab (Chinese & English) versions of the Letter of Employment Intent to the new hire for their review, completion and signature using DocuSign. Ensure that Peopleops and CIIC are copied.
@@ -736,7 +737,7 @@ The Intern contract template will be used for both C2C interns and all other int
 
 ## Employment Agreements for GitLab team members located everywhere else (IT BV contractor agreements)
 
-1. Review the [Hiring Status]({{< ref "/handbook/people-group/employment-solutions#country-hiring-guidelines" >}}) of the location you are working with. If the location has not been evaluated yet, we issue a IT BV contractor agreement.
+1. Review the [Hiring Status](/handbook/people-group/employment-solutions#country-hiring-guidelines) of the location you are working with. If the location has not been evaluated yet, we issue a IT BV contractor agreement.
 1. If the candidate would like to use their own entity for the contractor agreement update the offer details with the Contractor Name and Address. You will use the IT BV Contractor Agreement - C2C in these cases.
 1. Generate IT BV Contractor Agreement - Independent or the IT BV Contractor Agreement - C2C
 1. Select Send with DocuSign

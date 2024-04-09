@@ -82,7 +82,7 @@ GitLab prioritizes Registered Nonprofit Organizations that help advance GitLabâ€
 - Talent Management & Engagement
 - Climate Action and Greenhouse Gas Emissions
 
-For the calendar year 2023, we will limit the in-kind program to 5,000 seats, which was approved by finance and the board in the [Philanthropy Policy](https://docs.google.com/document/d/1b40Z-5uVebZ05RQehn5qq86c2qP_0w8T40MrygP3VEU/edit). Each organization will be eligible for up to 20 seats. This will allow us to assist as many organizations as possible. This will be revisited throughout the year and adjusted as needed. Interested organizations may request additional seats although the request may not be granted.
+For the calendar year 2024, we will limit the in-kind program to 5,000 seats, which was approved by finance and the board in the [Philanthropy Policy](https://docs.google.com/document/d/1b40Z-5uVebZ05RQehn5qq86c2qP_0w8T40MrygP3VEU/edit). Each organization will be eligible for up to 20 seats. This will allow us to assist as many organizations as possible. This will be revisited throughout the year and adjusted as needed. Interested organizations who are new customers may request additional seats although the request may not be granted. To limit churn, current GitLab customers that apply to transition to the Nonprofit Program will not be granted a special request above the 20 seats.
 
 **What are the terms of the GitLab for Nonprofits program?**
 
@@ -95,9 +95,14 @@ Interested organizations need to visit the [GitLab for Nonprofits](https://about
 **How are applications processed?**
 
 1. Nonprofits apply on the [GitLab for Nonprofits](https://about.gitlab.com/solutions/nonprofit/join/#nonprofit-program-application) page. Once the application is submitted, the Nonprofit will receive a message and a link to TechSoup, our verification partner.
-1. The Nonprofit will then need to log in or create their TechSoup account. TechSoup provides a rigorous vetting process to ensure the nonprofit is eligible for the GitLab for Nonprofits program and meets all requirements.
-1. If a Nonprofit is verified, TechSoup will notify GitLab and GitLab will send the instructions directly to the Nonprofit to redeem their license.
-1. If a Nonprofit is not verified, TechSoup will provide details on how the Nonprofit can become verified.
+2. The Nonprofit will then need to log in or create their TechSoup account. TechSoup provides a rigorous vetting process to ensure the nonprofit is eligible for the GitLab for Nonprofits program and meets all requirements.
+3. If a Nonprofit is verified, TechSoup will notify GitLab.
+4. GitLab will then undergo its own vetting and approval process.
+5. Once all parties have verified and approved the Nonprofit, GitLab will send the instructions directly to the Nonprofit to redeem their license.
+6. If a Nonprofit is not verified through TechSoup, TechSoup will provide details on how the Nonprofit can become verified.
+7. If a Nonprofit is declined from GitLab, GitLab will notify the Nonprofit via nonprofits@GitLab.com.
+8. Please allow up to 15 business days for the application and verification process.
+
 
 **Must Nonprofits renew their memberships?**
 
@@ -110,6 +115,11 @@ While GitLab for Nonprofits Program benefits do not include product [support](ht
 - Review [GitLab Docs](https://docs.gitlab.com/) for answers to general product-related questions.
 - Post questions in the [GitLab Forum](https://forum.gitlab.com/), where community members and GitLab team members can review and discuss them.
 - File bug reports and breaking behaviors [as issues](https://gitlab.com/gitlab-org/gitlab/-/issues) for product teams to review and address.
+
+**Iâ€™m a GitLab Team Member and I have a customer applying for the program. What do I do?**
+- Please point the Nonprofit to the GitLab for Nonprofits page to learn about the program, eligibility and application.
+- If the Nonprofit has questions on the eligibility or status of an application, please advise them to reach out to nonprofits@gitlab.com. Or team members can inquire about the status of an application in #esg.
+- If you have a question or concern about the customer churn, please raise this in #esg and an ESG team member will contact you.
 
 #### Matching Gifts Program
 

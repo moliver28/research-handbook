@@ -1,6 +1,6 @@
 ---
 aliases: /handbook/sales/field-operations/changelog
-title: "Field Operations Changelog"
+title: "RSOE Changelog"
 description: "A running log of Field Operations changes (Sales Ops, CS Ops, Channel Ops & Deal Desk) organized by quarter and further by bi-weekly releases."
 ---
 
@@ -10,11 +10,21 @@ description: "A running log of Field Operations changes (Sales Ops, CS Ops, Chan
 
 
 
-The Field Operations Changelog keeps a running log of Field Ops changes related to Sales Ops, CS Ops, Channel Ops & Deal Desk. The log is organized by fiscal year/quarter and sub-organized by the bi-weekly Field Ops release milestone/epic. It was started in Q3-FY22 and is organized by newest updates at the top. Any entries that were included in a Field Ops Release are **bolded**.
+The Revenue Strategy, Operations & Enablement (RSOE) Changelog keeps a running log of changes related to RSOE functions. The log is organized by fiscal year/quarter and sub-organized by the bi-weekly RSOE release milestone/epic. It was started in Q3-FY22 and is organized by newest updates at the top. 
 
-To learn more about Field Ops releases, see the [Field Ops Release Schedule handbook page](/handbook/sales/field-operations/release-schedule/).
+To learn more about Field Ops releases, see the [RSOE Release Schedule handbook page](/handbook/sales/field-operations/release-schedule/).
 
 ## Q1-FY25
+
+### 2024-04-01 Release ([epic](https://gitlab.com/groups/gitlab-com/sales-team/field-operations/-/epics/489))
+
+**[Update to Closed Lost/Downgrade Reason Fields](https://gitlab.com/gitlab-com/sales-team/field-operations/systems/-/issues/4697)**
+
+**[Updated Sales Stage Definitions](https://gitlab.com/gitlab-com/sales-team/field-operations/enablement/-/issues/2362)**
+
+### 2024-03-18 Release ([epic](https://gitlab.com/groups/gitlab-com/sales-team/field-operations/-/epics/53))
+
+**[Clari Pipeline Gen Tab Updates](https://internal.gitlab.com/handbook/sales/sales-tools/sales-forecasting/#sales-forecasting)**
 
 ### 2024-02-26 Release ([epic](https://gitlab.com/groups/gitlab-com/sales-team/field-operations/-/epics/478))
 

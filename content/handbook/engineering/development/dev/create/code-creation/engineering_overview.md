@@ -2,9 +2,9 @@
 title: "Create:Code Creation Group engineering overview"
 ---
 
-## Code Suggestions technical overview
+## Code Suggestions Technical Overview
 
-This page outlines different compontents involved in the Code Suggestion features implementation and provides high level overview of the features implementation.
+This page outlines different components involved in the Code Suggestion features implementation and provides high level overview of the features implementation.
 
 In most general sense Code Suggestions feature follow sequence as described on a diagaram below
 
@@ -22,25 +22,25 @@ sequenceDiagram
     USR->>IDE: types: "def add(a, b)"
     IDE->>EXT: notify about document change def add(a, b)
     EXT->>LS: register document change def add(a, b)
-    LS->>GLW: sends code suggestion requests 
+    LS->>GLW: sends code suggestion requests
     GLW->>GLR: proxies code suggestion request
-    GLR->>GLW: enriches code suggestion request 
+    GLR->>GLW: enriches code suggestion request
     GLW->>AIGW: enriched code suggestion request
     AIGW->>LLM:  enriched code suggestion request
     LLM->>AIGW: "a + b"
     AIGW->>GLW: suggestion: "a + b"
     GLW->>LS:  suggestion: "a + b"
-    LS->>EXT: triggers IDE code suggestion UI: "a + b" 
-    EXT->>IDE: triggers IDE code suggestion UI: "a + b" 
+    LS->>EXT: triggers IDE code suggestion UI: "a + b"
+    EXT->>IDE: triggers IDE code suggestion UI: "a + b"
 ```
 
-Components pictured on diagrama are as follow:
+Components pictured on diagram are as follow:
 
-1. IDE extensions: GitLab offers number of IDE extensions (aka plugins) that among other features also provide integration with Language Server     
-   1. VSCode Extension: https://gitlab.com/gitlab-org/gitlab-vscode-extension/      
+1. IDE extensions: GitLab offers number of IDE extensions (aka plugins) that among other features also provide integration with Language Server
+   1. VSCode Extension: https://gitlab.com/gitlab-org/gitlab-vscode-extension/
    1. JetBrains Extension: https://gitlab.com/gitlab-org/editor-extensions/gitlab-jetbrains-plugin
    1. NeoVim Extension: https://gitlab.com/gitlab-org/editor-extensions/gitlab.vim
-1. [Langugage Server](https://gitlab.com/gitlab-org/editor-extensions/gitlab-lsp): it is a unified way of delivering features that can be shared across different IDEs reducing duplication. Language Server is a component that uses the [LSP protocol](https://microsoft.github.io/language-server-protocol/#:~:text=The%20Language%20Server%20Protocol%20(LSP,definition%2C%20find%20all%20references%20etc.) for communication with IDE extensions. 
+1. [Langugage Server](https://gitlab.com/gitlab-org/editor-extensions/gitlab-lsp): it is a unified way of delivering features that can be shared across different IDEs reducing duplication. Language Server is a component that uses the [LSP protocol](https://microsoft.github.io/language-server-protocol) for communication with IDE extensions. 
 1. [GitLab Workhorse](https://docs.gitlab.com/ee/development/workhorse/) - GitLab Workhorse is a smart reverse proxy for GitLab intended to handle resource-intensive and long-running requests.
 1. [GitLab Rails](https://gitlab.com/gitlab-org/gitlab) - main GitLab component providing majority of features.
 1. [AI Gateway](https://gitlab.com/gitlab-org/modelops/applied-ml/code-suggestions/ai-assist) - a standalone-service that will give access to AI features to all users of GitLab, no matter which instance they are using: self-managed, dedicated or GitLab.com. For more conceptual information refer to [architecture blueprint](https://docs.gitlab.com/ee/architecture/blueprints/ai_gateway/index.html)
@@ -55,16 +55,16 @@ Each code suggestion request is catogrised into a single category. Request categ
 
 ## Code Completion
 
-Code completion interaction is one of two code cration requests that can be triggered by IDE. It's goal is to provide very fast responses (< 1 second) 
+Code completion interaction is one of two code creation requests that can be triggered by IDE. Its goal is to provide very fast responses (< 1 second) 
 at the cost of smaller suggestion size, and less context awareness of surrounding source code or repository files.
 
-The request flow is the same as in [the diagram](#code-suggestions-technical-overview) in the Code Suggestions technical overview. 
-Request prepared by the Language Server is proxied in mostly unmodified form without any additional context being attached. GitLab Rails role in this feature limits mostly to an authorisation entity assuring that given user is allowed to use Code Suggestions feature. 
+The request flow is the same as in [the diagram](#code-suggestions-technical-overview) in the Code Suggestions technical overview.
+Request prepared by the Language Server is proxied in mostly unmodified form without any additional context being attached. GitLab Rails role in this feature limits mostly to an authorisation entity assuring that given user is allowed to use Code Suggestions feature.
 
 ## Code Generation
 
 Code Generation interaction is another type code cration requests that can be triggered by IDE. It's goal is to provide long and extensive responses generating
-complete blocks of code like functions or classe. It has much longer response time then code completions (up to 30 seconds). This type of code creation requests
+complete blocks of code like functions or classes. It has much longer response time then code completions (up to 30 seconds). This type of code creation request
 takes extended context into account when resolving user task. This context comes from current files in IDE as well as [Repository X Ray](https://docs.gitlab.com/ee/user/project/repository/code_suggestions/repository_xray.html) report. 
 
 ```mermaid
@@ -76,20 +76,20 @@ sequenceDiagram
     participant AIGW as AI Gateway
 
     USR->>+IDE: types: "#35; generate a function that transposes a matrix"
-    IDE->>+GLR: trigger code generation for line ` "#35; generate function ` 
+    IDE->>+GLR: trigger code generation for line ` "#35; generate function `
     GLR->>PG: fetch X Ray report for project and language
     PG->>GLR:  xray_reports record
     GLR->>GLR: include first 50 entities from xray report into code generation prompt
-    GLR->>-AIGW: trigger code generation ` "#35; generate function ` 
+    GLR->>-AIGW: trigger code generation ` "#35; generate function `
 ```
 
 In above diagram some components (inc: GitLab Workhorse or Language Server) are ommitted for brevity reasons. However high level flow of requests shown in [technical overview](#code-creation-features-technical-overview) section
-remains unchanged.  
+remains unchanged.
 
-## Repository X ray
+## Repository X Ray
 
 [Repository X Ray](https://docs.gitlab.com/ee/user/project/repository/code_suggestions/repository_xray.html) is a feature that generates additional context data that is being included into code generation requests 
-in order to ground AI model into context of existing source code and aling it with its private API as well as coding patterns. 
+in order to ground AI model into context of existing source code and align it with its private API as well as coding patterns. 
 
 Repository X Ray report is generated as shown on following diagram:
 
@@ -108,11 +108,37 @@ sequenceDiagram
     GLR->>-PG: upserts xray_reports record
 ```
 
-Components pictured on diagrama are as follow:
+Components pictured on diagram are as follow:
 
 1. [GitLab Runner](https://docs.gitlab.com/runner/) - an application that works with GitLab CI/CD to run jobs in a pipeline.
 1. GitLab PostgreSQL DB - relational database engine storing GitLab operational data
 1. [Repository X Ray CI scanner](https://gitlab.com/gitlab-org/code-creation/repository-x-ray) - a golang program designed to be executed inside CI/CD job that scans repository files in search of package manager config file like: Gemfile.lock, or package.json, and process their content to build additional data used as Code Suggestion context.
 
 
-Existing Repository X Ray reports are being included into code generation requests as shown in diagram at [code generation](#code-generation) paragraph. 
+Existing Repository X Ray reports are being included into code generation requests as shown in diagram at [code generation](#code-generation) paragraph.
+
+## Code Tasks
+
+A user can also use one of the predefined chat commands to suggest changes in the selected code. 
+We currently support [refactoring](https://docs.gitlab.com/ee/user/gitlab_duo_chat.html#refactor-code-in-the-ide), 
+[explaining code](https://docs.gitlab.com/ee/user/gitlab_duo_chat.html#explain-code-in-the-ide), 
+and [writing tests](https://docs.gitlab.com/ee/user/gitlab_duo_chat.html#write-tests-in-the-ide). 
+These commands can be used in Duo Chat and also its response is displayed in Duo Chat window.
+
+```mermaid
+sequenceDiagram
+    participant USR as User
+    participant GLR as GitLab Rails
+    participant AIGW as AI Gateway
+    participant LLM as Large Language Model
+
+    Note over USR,LLM: GraphQL API
+    USR->>GLR: opens Duo Chat and sends `/refactor` messages with selected code
+    GLR->>USR: accepts the request and enques it
+    Note over USR,LLM: Asynchronous job
+    GLR->>AIGW: builds prompt and sends AI request
+    AIGW->>LLM: sends AI request
+    LLM->>AIGW: receives response
+    AIGW->>GLR: receives response
+    GLR->>USR: sends websocket message with response which is displayed in chat
+```

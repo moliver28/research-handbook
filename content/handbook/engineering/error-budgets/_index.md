@@ -237,7 +237,7 @@ Our current contract is 99.95% availability and a 20 minute monthly error budget
 |------------------|---------------------|---------------------|---------------------|
 | Enablement:Tenant Scale | 99.80% | To allow the group to focus on long-term scalability work as well as coordinate changes requiring introduction in the next API version. Described in [this MR](https://gitlab.com/gitlab-com/www-gitlab-com/-/merge_requests/108039) | 2024-06-30 (or if total traffic share exceeds 5%) |
 | Deploy:Environments | 99.9% | [To safely account for a disproportion in traffic in the feature flag endpoint that skews the budget](https://gitlab.com/gitlab-org/gitlab/-/issues/415063#note_1457186576), by using an custom error budget we can keep the correct urgency while accurately represnt the situation for the other services. | 2024-06-06 |
-| Create:Code Creation | 99.89% | Due to a Runway metrics taking a disproportionate effect on the group's error budget. We have removed these from the error budget for now. This will take full effect at the end of February | 2024-02-29 |
+| Create:Code Creation | 99.89% | [A bug was introduced while tuning some SLI thresholds](https://gitlab.com/gitlab-org/gitlab/-/issues/425095#note_1833203928) for AI Gateway leading to all apdex measurements for these SLIs were wrongly counted as failed measurements in March 2024. | 2024-04-30 |
 
 **Exceptions**
 

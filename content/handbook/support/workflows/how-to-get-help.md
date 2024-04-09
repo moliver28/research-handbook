@@ -81,6 +81,37 @@ Especially if you feel you're stalled on a ticket and need assistance identifyin
 
 Starting from `2022-06-13` the Support Team and the Development Team are rolling out a series of projects that will enable support engineers to request help from a GitLab Development group, for more information on this please review the [associated proposal](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/4023). The aim is to provide a formal and accountable workflow process for Support Engineers to request assistance from the various Development Sections for any technical issues which they are currently unable to progress.  Please note that this is an iterative process, which aims to roll out the process for each of the 10 development sections at GitLab. If the Development Section that you require assistance from is not listed in the table below then please continue to use the existing methods for contacting the relevant Development Teams, such as Slack.
 
+#### Are you requesting for Dev help too soon?
+
+NO! To drive this point home, here's what our Devs have to say about this:
+
+> [...] _it's almost never too soon and every dev I've talked to about it has nothing but mountains of respect for support folks [...]_
+
+  -- **James Nutt**
+
+> _I always love it when anyone from the support team reaches out to me. It's not a bother at all; in fact, it has given me a lot of great ideas before.I actually wrote an [article](https://medium.com/popmenu-engineering/popmenus-culture-of-cross-functional-collaboration-dcc19bba3ea9) about how working with our support team helped get good outcomes for customers at a previous company_
+
+  -- **Lesley Razzaghian**
+
+> _Most are happy to help anytime. My only suggestion is to search docs first. That’s really helpful for devs because we might link you to docs anyway. But then it’s also helpful to know “the docs didn’t address my question”. Or they did but not clearly enough. These conversations give all involved a basis for improving docs once the question is answered._
+
+  -- **Drew Blessing**
+
+> _[...] If you stumble through and figure it out, and never tell us that you (or the customer) struggled, we don't get the feedback that we need to do better (which in many cases includes prioritizing doing better). And most of us want to do better._
+>
+>_Personally I wish Support would escalate to devs much sooner than they do on average. If that means that we get inundated with support requests that make it hard to focus on other work, then that's a sign that we need to deprioritize other features to focus on UX and docs (which are also features)._
+
+  -- **David Nelson**
+
+> _I'm never annoyed by support friends reaching out. It's you + me vs the problem after all!_
+_Devs love a puzzle, so I'm always keen.[...]_
+
+  -- **Charlie Ablett**
+
+> _If both Support and the Customer are confused about what the next steps are, at a minimum it’s an indicator that something is lacking, either in our docs or support processes, and this is an opportunity to improve those areas._
+
+  -- **Chad Woolley**
+
 #### How to find the correct Development Section and Group to reach out for help
 
 The easiest way to determine the correct place for a Support Request for Help issue is to use the docs pages. One possible workflow is as follows:
@@ -138,7 +169,7 @@ Use the following repositories and resources for identifying similar issues or r
 #### Tips on getting timely responses
 
 1. Review the Opening a request for help to ensure all steps were covered.
-1. Mention the engineer who is helping or assigned with *every* comment where you need them to review or respond.
+1. Mention the engineer who is helping or assigned with _every_ comment where you need them to review or respond.
 1. If an issue is moved to another group (through a label change or moving to another project), check the corresponding template for the new group to see who to assign or mention in a comment.
 1. When linking to Kibana, also upload a copy of relevant entries, a screenshot of the graph, etc. as logs rotate out after 7 days. If possible, also link to the relevant Sentry entry.
 

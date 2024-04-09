@@ -82,7 +82,7 @@ Rules define actions to take, based on the project categories. These actions are
 [Approvals]: https://docs.gitlab.com/ee/api/merge_request_approvals.html
 [Approval Rules]: https://docs.gitlab.com/ee/api/merge_request_approvals.html#get-project-level-rules
 
-These policies are aligned with our [GitLab Projects Baseline Requirements](/handbook/security/gitlab_projects_baseline_requirements.html).
+These policies are aligned with our [GitLab Projects Baseline Requirements](/handbook/security/gitlab_projects_baseline_requirements/).
 
 ### How to categorize projects
 

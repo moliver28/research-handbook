@@ -38,7 +38,7 @@ The Product Designer (UX) - Marketing (Intermediate) is a [grade 6](/handbook/to
 - **Iteration:** Practice design iteration and take part in our 2 week sprint cadence by breaking down the designs to fit release cadence, reviewing and approving merge requests (visual quality assurance).
 - **Design system:** Keep design components available and up to date in prototyping tools, ensuring that reusable components fit visually and functionally together as well as meeting accessibility requirements. Actively contribute to the [Slippers Design System](https://gitlab-com.gitlab.io/marketing/inbound-marketing/slippers-ui/) and document usage.
 - **Design reviews:** Participate in [Design Reviews](/handbook/product/ux/product-designer/#design-reviews), giving and receiving feedback in an appropriate way.
-- **UX debt:** Understand UX debt and make recommendations for its resolution with the help from a Sr. Product Designer or your Product Manager.
+- **Deferred UX:** Understand Deferred UX and make recommendations for its resolution with the help from a Sr. Product Designer or your Product Manager.
 
 ### Senior Product Designer (UX) - Marketing
 
@@ -58,7 +58,7 @@ The Senior Product Designer is a [grade 7](/handbook/total-rewards/compensation/
 - **Usability:** Proactively identify both small and large usability issues within GitLab's Marketing experience, and help influence your Product  Manager and Technical Product Owner to prioritize them.
 - **Iteration:** Lead and coach iteration of design work. Take part in the bi-weekly sprint cycle by breaking down the designs to fit release cadence, reviewing and approving merge requests submitted by developers.
 - **Design reviews:** Participate in [Design Reviews](/handbook/product/ux/product-designer/#design-reviews), and model best practices for giving and receiving feedback
-- **UX debt:** Identify and influence the prioritization of UX debt.
+- **Deferred UX:** Identify and influence the prioritization of Deferred UX.
 - **Design system:** Actively contribute to the Slipper Design System, help determine whether components are single-use or multi-use, and provide recommendations to designers regarding new component requests.
 - **Public presence:** Help promote GitLab publicly by writing blog articles, giving talks, or responding on social media, where appropriate.
 - **Recruiting:** Interview potential UX candidates.

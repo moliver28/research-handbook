@@ -16,7 +16,7 @@ description: "Iconik is a hybrid cloud media management solution for digital pro
 
 ## Access
 
-Access is limited based on use case as it is used specifically and primarily by the digital production team. All requests will be vetted by marketing operations and digital production to determine justification for access. For contractors working on behalf of the digital production team, please follow the [access request process](/handbook/business-technology/team-member-enablement/onboarding-access-requests/access-requests/). 
+Access is limited based on use case as it is used specifically and primarily by the digital production team. All requests will be vetted by marketing operations and digital production to determine justification for access. For contractors working on behalf of the digital production team, please follow the [access request process](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/). 
 
 ## Support
 

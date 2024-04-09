@@ -110,7 +110,7 @@ If a GitLab team member needs to loop in the Advocate team on a customer Account
 - Navigate to the *Account* in Salesforce.
 - Hover over *Cases*, and select *New Case*.
 - Select *SMB Sales Case*, from the Record Type dropdown.
-- Add the *Contact*, to the Contact Name lookup field. (A lead can also be added.)
+- Add the *Contact*, to the Contact Name lookup field. (A Lead can also be added, instead of a Contact, however in this scenario, the Account the Lead is matched to must also be manually added to the case.  To find the matched account, view the *Traction Complete Leads: Account* field)
 - Add the *Opportunity*, to the Opportunity lookup field (if relevant). 
 - Describe the ask of the AE in the case *Description* box. Include any relevant links or resources. (Once the case has been created, you can also upload files e.g. a PO, in the *Google Docs & Attachments* section at the bottom of the case record).
 - Select a *Type* that most closely matches the origin of your request. (e.g if you are in Support, select *Inbound Request via Support*)
@@ -126,6 +126,7 @@ If a GitLab team member needs to loop in the Advocate team on a customer Account
 - **Check the *Assign using active assignment rules* checkbox, and click *Save*.If this is not done, the case will not enter the SMB Team queue, and will not be actioned**
 - This Case will now drop into the SMB Sales Queue, and will be actioned by a SMB Advocate.
 - Note: if an open SMB Case already exists on the account, do not check the *Assign using active assignment rules* box.  Instead, once you have saved the case, change the *Case Owner* to whoever owns the current open case on the account. 
+- If a case has not been actioned as per the stated SLA, please chatter the regions [ASM](https://gitlab.my.salesforce.com/00OPL000000rpxF2AQ) on the case to escalate. 
 
 ## Tracking Cases you have created
 
@@ -366,7 +367,7 @@ Due to the high case volume, it is imperative that the Required 10 is followed, 
 - Q. There is no opportunity linked to the case, but I have identified a Growth/ Add On opportunity, what do I do?
 - A. If you discover a Growth opportunity, you should manually create a Growth/ Add On opp and link it to the case via the Opportunity field. If an opp is already attached to the case (Renewal or QSR opp), this opp should be updated to reflect the possible growth. 
 - Q. If I am working a case, and the customer advises they are looking to expand but not for 6 months, should I close out the case?
-- A. No, update the Next Steps stating that the customer is open to conversation in 6 months.  Also change the Next Steps Date to 6 month from todays date.  Finaly click the Edit buton on the case, and check the *Asign using active assignment rules*. The case will subsequently drop back into the queue in 6 months time. 
+- A. No, update the Next Steps stating that the customer is open to conversation in 6 months.  Also change the Next Steps Date to 6 month from todays date, and update the stage of the case to Open.  Finaly click the Edit buton on the case, and check the *Assign using active assignment rules*. The case will subsequently drop back into the queue in 6 months time. 
 - Q. I am an AE not in the SMB Org, and a former customer has reached out to me.  This customer is now owned by an SMB Sales User.  How do I hand this customer over to the SMB Sales Team?
 - A. Follow this [process](https://docs.google.com/document/d/1Bc9N0Cvc65NjWHSVoliUp6injZNlbkjEEEZ0dYQm_Ck/edit#heading=h.wmdr1tkj670j). 
 - Q. I just closed won on opp for a SMB Customer, which took them above the $30k CARR threshold.  How do I hand this over to MM?

@@ -76,7 +76,7 @@ Product Designer Tools
 
 Product Design Management
 
-- [Product Design Manager Workflows](/handbook/product/ux/product-design/product-design-manager.html)
+- [Product Design Manager Workflows](/handbook/product/ux/product-design/product-design-manager)
 
 Learning and Development
 
@@ -114,13 +114,11 @@ Going forward, every milestone, we will ask Product Designers and Engineers to v
 
 | Milestone          | Product Designer  | Engineer          |
 | ------------------ | ----------------- | ----------------- |
-| 16.8               | Veethika M         |   Mireya Andres   |
-| 16.9               |                   |                   |
-| 16.10              |                   |                   |
-| 16.11              |                   |                   |
+| 16.8               | Veethika Mishra   |   Mireya Andres   |
 | 17.0               |                   |                   |
-| 17.1               |  Veethika Mishra  |     Miguel Rincon |
-
+| 17.1               |  Veethika Mishra  |   Miguel Rincon   |
+| 17.2               |                   |                   |
+| 17.3               |                   |                   |
 
 {{% details summary="Previous Volunteers" %}}
 | Milestone         | Product Designer  | Engineer          |

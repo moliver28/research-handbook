@@ -27,7 +27,17 @@ description: "The Engineering Productivity team increases productivity of GitLab
 
 ### Members
 
-{{< team-by-manager-role "Director of Engineering Productivity" >}}
+| Team Members                                     | Role                                                |
+|------------------------------------------------- | --------------------------------------------------  |
+| {{< member-by-name "Ethan Guo" >}}               | Acting Engineering Manager                          |
+| {{< member-by-name "Alina Mihaila" >}}           | Senior Backend Engineer, Engineering Productivity   |
+| {{< member-by-name "David Dieulivol" >}}         | Senior Backend Engineer, Engineering Productivity   |
+| {{< member-by-name "Jennifer Li" >}}             | Senior Backend Engineer, Engineering Productivity   |
+| {{< member-by-name "Jen-Shin Lin" >}}            | Senior Backend Engineer, Engineering Productivity   |
+| {{< member-by-name "Nao Hashizume" >}}           | Backend Engineer, Engineering Productivity          |
+| {{< member-by-name "Peter Leitzen" >}}           | Staff Backend Engineer, Engineering Productivity    |
+| {{< member-by-name "Rémy Coutable" >}}           | Principal Engineer, Infrastructure                  |
+
 
 ### Stable Counterpart
 
@@ -40,7 +50,7 @@ description: "The Engineering Productivity team increases productivity of GitLab
 ```mermaid
 graph LR
     A[Engineering Productivity Team]
-    
+
     A --> B[Planning & Reporting]
     B --> B1[Weekly team reports<br>Providing teams with an overview of their current, planned & unplanned work]
     click B1 "https://gitlab.com/groups/gitlab-org/quality/engineering-productivity/-/epics/32"
@@ -60,7 +70,7 @@ graph LR
     click F3 "https://gitlab.com/groups/gitlab-org/quality/engineering-productivity/-/epics/28"
     F --> F4[Review apps<br>Providing review apps to explore a merge request changes]
     click F4 "https://gitlab.com/groups/gitlab-org/quality/engineering-productivity/-/epics/33"
-    
+
     A --> D[Maintenance & Security]
     D --> D1[Automated dependency updates<br>Ensuring dependencies are up-to-date]
     click D1 "https://gitlab.com/groups/gitlab-org/quality/engineering-productivity/-/epics/40"
@@ -72,7 +82,7 @@ graph LR
     click D4 "https://gitlab.com/groups/gitlab-org/quality/engineering-productivity/-/epics/38"
     D --> D5[Shared CI/CD components<br>Providing CI/CD components to ensure consistency in all GitLab projects]
     click D5 "https://gitlab.com/groups/gitlab-org/quality/engineering-productivity/-/epics/41"
-    
+
     A --> G[JiHu Support]
     click G "https://gitlab.com/groups/gitlab-org/quality/engineering-productivity/-/epics/35"
 ```

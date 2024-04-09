@@ -1,19 +1,17 @@
 | Date       | Host                 | Presenter 1            | Presenter 2            | Presenter 3            |
 |------------|----------------------|------------------------|------------------------|------------------------|
-| 2024-03-06 | Emily Sybrant        | Michael Fangman        | Dan Mizzi-Harris       |                        |
-| 2024-03-20 | Jacki Bauer          | Chad Lavimoniere       | Matthew Nearents       |                        |
 | 2024-04-03 | Justin Mandell       | Julia Miocene          | Amelia Bauerly         | Nick Brandt            |
 | 2024-04-17 | Chris Micek          | Austin Regnery         | Taylor Vanderhelm      | Sunjung Park           |
 | 2024-05-01 | Andy Volpe           | Gina Doyle             | Camellia X Yang        |                        |
-| 2024-05-15 | Rayana Verissimo     | Nick Leonard           | Becka Lippert          |                        |
+| 2024-05-15 | Emily Sybrant        | Nick Leonard           | Becka Lippert          |                        |
 | 2024-05-29 | Paul Wright          | Pedro Moreira da Silva | Jeremy Elder           |                        |
 | 2024-06-05 | Marcel van Remmerden | Veethika Mishra        | Sascha Eggenberger     |                        |
 | 2024-06-26 | APAC                 | Libor Vanc             | Katie Macoy            | Bonnie Tsang           |
 | 2024-07-03 | Taurie Davis         | Tim Noah               | Austin Regnery         | Graham Bachelder       |
-| 2024-07-24 | Emily Sybrant        | Mike Nichols           | Gina Doyle             |                        |
+| 2024-07-24 | Rayana Verissimo     | Mike Nichols           | Gina Doyle             |                        |
 | 2024-08-07 | Jacki Bauer          | Amelia Bauerly         | Michael Fangman        | Ian Gloude             |
 | 2024-08-21 | Justin Mandell       | Chad Lavimoniere       | Dan Mizzi-Harris       | Ilonah Pelaez          |
-| 2024-09-04 | Chris Micek          | Matthew Nearents       | Becka Lippert          |                        |
+| 2024-09-04 | Chris Micek          | Lina Fowler            | Becka Lippert          |                        |
 | 2024-09-18 | Andy Volpe           | Nick Leonard           | Camellia X Yang        |                        |
 | 2024-10-02 | Rayana Verissimo     | Sunjung Park           | Annabel Gray           | Nick Brandt            |
 | 2024-10-16 | Paul Wright          | Emily Bauman           | Divya Alagarsamy       |                        |

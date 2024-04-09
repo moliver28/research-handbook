@@ -8,62 +8,101 @@ This area has traditionally been referred to as *"the handbook"*, but over time 
 
 Therefore, we are using the term "content websites" here to avoid ambiguity and properly frame discussions around this scope of responsibility.
 
-See our [direction page](/handbook/content-websites/direction/) for detailed plans.
+See our [direction page](direction) for more.
+
+If you need help, please see the [editing handbook section](../editing-handbook/#need-help), or [escalation information](../about/on-call) if it's urgent.
 
 ## Team Structure
 
-The maintainer of this page (as indicated in the sidebar) is considered the [DRI](/handbook/people-group/directly-responsible-individuals/) for GitLab's "content websites". At present this team falls under the [Chief of Staff Team to the CEO](/job-families/chief-executive-officer/strategy-and-operations/) and the job family for engineers working on these projects is [defined as a specialty](/job-families/engineering/development/fullstack/#specialties).
+The maintainer of this page (as indicated in the sidebar) is considered the [DRI](/handbook/people-group/directly-responsible-individuals/) for GitLab's "content websites". At present, the roles and responsibilities are as follows:
+
+| Role | Owner | Current Individual(s) | Responsibilities |
+| ------ | ------ | ------ | ------ |
+| Issue triager | Office of the CEO | Cynthia (Arty) Ng | Triage and prioritize issues, Schedule work in consultation with Technical DRI |
+| Technical DRI | Incubation (Engineering) | Marshall Cottrell | Development work as needed, Code reviews/approvals |
+| Content DRI | Office of the CEO | Stella Treas, Cynthia (Arty) Ng | Make decisions on handbook operations, Coordinate any major changes |
+| Keep pipeline green | Group of volunteers  | See [Escalation page](on-call#keep-main-green-group) | Help fix the pipeline if jobs are failing as needed  |
+| Code Maintainer | Group of volunteers | Technical DRI, plus [`@gitlab-com/content-sites/handbook-backend`](https://gitlab.com/gitlab-com/content-sites/handbook-backend/-/project_members?with_inherited_permissions=exclude) | Code reviews, escalation point for "Keep pipeline green" group, and as time allows, development work |
 
 This page further documents the scope and responsibilities of the DRI and their engineering reports.
 
 ## What are the content websites?
 
-1. The public [`about.gitlab.com`](https://about.gitlab.com) website:
-    1. While often referred to as "the handbook", this website also serves a wide variety of other content including the [handbook](https://about.gitlab.com/handbook/), the [blog](https://about.gitlab.com/blog/), [releases](https://about.gitlab.com/releases/), category direction pages, many marketing pages, and other uncategorized documentation for various areas of GitLab.
-    1. `about.gitlab.com` is primarily backed by the [`gitlab-com/www-gitlab-com`](https://gitlab.com/gitlab-com/www-gitlab-com) project and repo.
-    1. Some of the content for `about.gitlab.com` is also backed by the [`gitlab-com/marketing/digital-experience/buyer-experience`](https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience) project and repo, such as [small-business](https://about.gitlab.com/small-business) and [enterprise](https://about.gitlab.com/enterprise). The plan is to migrate more content from the `gitlab-com/www-gitlab-com` project to the `gitlab-com/marketing/digital-experience/buyer-experience` project.
+1. The public [`handbook.gitlab.com`](/) website:
+    1. While often referred to as "the handbook", this website also serves a wide variety of other content including the [job families](/job-families), and the [teamops](/teamops) pages.
+    1. `handbook.gitlab.com` is primarily backed by the [`gitlab-com/content-sites/handbook`](https://gitlab.com/gitlab-com/content-sites/handbook/)  project and repo.
+    1. Data (yml) files currently resides in the [`gitlab-com/www-gitlab-com`](https://gitlab.com/gitlab-com/www-gitlab-com) repository.
 1. The ["Internal Handbook" at `internal-handbook.gitlab.io`](https://internal-handbook.gitlab.io/):
-    1. This website contains content that falls into the [not public](/handbook/communication/confidentiality-levels/#not-public) category. More details are available in [the Internal Handbook usage page](https://about.gitlab.com/handbook/handbook-usage#the-internal-handbook)
-    1. The Internal Handbook is backed by the [`internal-handbook/internal-handbook.gitlab.io`](https://gitlab.com/internal-handbook/internal-handbook.gitlab.io) project and repo.
-
-### What MAY be content websites?
-
-These sites require further investigation, evaluation of current ownership, and a clearer definition of responsibilities:
-
-- The compensation calculator at [`comp-calculator.gitlab.net`](https://comp-calculator.gitlab.net/)
-- Project SuperSonics at [`gitlab-com.gitlab.io/licensing/`](https://gitlab-com.gitlab.io/licensing/)
-- People Operations aka [POPS internal handbook](/handbook/people-group/engineering/pops-internal-handbook/)
+    1. This website contains content that falls into the [not public](/handbook/communication/confidentiality-levels/#not-public) category. More details are available in [the Internal Handbook usage page](/handbook/handbook-usage#the-internal-handbook)
+    1. The Internal Handbook is backed by the [`gitlab-com/content-sites/internal-handbook`](https://gitlab.com/gitlab-com/content-sites/internal-handbook) project and repo.
+1. The theme for the handbook sites is in the [`gitlab-com/content-sites/docsy-gitlab`](https://gitlab.com/gitlab-com/content-sites/docsy-gitlab) project.
 
 ### What are NOT content websites?
 
-- The [`gitlab.com`](https://gitlab.com) SaaS site.
-- The [`docs.gitlab.com`](https://docs.gitlab.com) product documentation site.
-- Any other GitLab-managed or GitLab-owned website other than what is described above
+1. The [`about.gitlab.com`](https://about.gitlab.com) marketing website.
+1. The [`gitlab.com`](https://gitlab.com) site.
+1. The [`docs.gitlab.com`](https://docs.gitlab.com) product documentation site.
+1. Any other GitLab-managed or GitLab-owned website other than what is described above.
 
-## Content Websites DRI
+## Issue triage
 
-1. Responsible for all aspects of these content websites, including:
-    1. All business critical content for the content sites.
-    1. All shared and supporting aspects of the content sites, including infrastructure, code, architecture, projects, security, CI/CD, builds, deployments, upgrades, performance, scalability, metrics, monitoring, etc.
-    1. Triaging all issues and support requests, and delegating them to other responsible groups as appropriate.
-    1. Providing on-call support for high-priority incidents or outages, and [escalating to infrastructure, reliability engineering, or other groups](/handbook/about/on-call#when-to-hand-over-to-reliability-engineering) as appropriate.
-    1. Project management, [planning](https://gitlab.com/groups/gitlab-com/-/epics/423), and reporting for the above.
-1. The [Digital Experience](/handbook/marketing/digital-experience/) team under [Michael Preuss](https://gitlab.com/mpreuss22) also has responsibility for the marketing-related areas of the site. These areas include the [`gitlab-com/marketing/digital-experience/buyer-experience`](https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience) project and repo, as well as other content. The exact areas are still not fully defined, and this should also be clarified as part of [the definition of DRIs.](https://gitlab.com/gitlab-com/Product/-/issues/3273)
+The following guidelines are used for triaging issues in [content websites projects](https://gitlab.com/gitlab-com/content-sites/)
+that are [in-scope](#what-are-the-content-websites).
 
-## Support process for content websites
+The triage guidelines use the [product issue triage](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#priority)
+information as a basis. However, as the group structure and resources differ for the content
+websites, so do the guidelines.
 
-There is currently information describing differing support policies for the content websites in various places, and some of this info may be inconsistent or outdated. For example, the ["Handbook On-Call"](/handbook/about/on-call) page, or the [Handbook Support](/handbook/about/support#where-do-i-report-handbook-issues-and-request-help) page.
+### Types of issues and resourcing
 
-All of this information should be cleaned up and consolidated when a final DRI is assigned. In the meantime, this is the process to obtain support:
+Handbook issues typically fall under one of the following:
 
-1. Simple git or technical questions with MRs conflicts, markdown formatting errors, linting errors, pipeline failures, etc. can be asked in the [`#mr-buddies`](https://gitlab.slack.com/archives/CLM8K5LF4) slack channel.
-1. High-priority questions regarding broken master, outages, security concerns, etc. can be asked in the [`#handbook-escalation`](https://gitlab.slack.com/archives/CVDP3HG5V) channel. See the existing ["Handbook On-Call - When to escalate an issue"](/handbook/about/on-call#when-to-escalate-an-issue) section for what types of issues are appropriate to be asked in this channel.
-    1. If there is not an existing issue, you may be asked to create one in the [www-gitlab-com project](https://gitlab.com/gitlab-com/www-gitlab-com/-/issues) for tracking and prioritization purposes.
-    1. Please use the `Content Websites Support (about.gitlab.com or internal-handbook.gitlab.io)` issue template.
-    1. Make sure to included the `~content-websites-support` label.
-    1. Link to the new issue in `#handbook-escalation` for triage.
-1. For other topics not falling under either of the two above categories, for example, a feature request, a general question about content, etc.:
-    1. You can start by asking a question or discussing it in the [`#handbook`](https://gitlab.slack.com/archives/C81PT2ALD) channel for the public `about.gitlab.com` site, or in the [`#internal-handbook`](https://gitlab.slack.com/archives/C02GABPC4UV) for the Internal Handbook.
-    1. If you determine action is needed (and you can't fix it yourself with an MR), open a new issue in the [www-gitlab-com project](https://gitlab.com/gitlab-com/www-gitlab-com/-/issues). If this is related to the internal handbook, you can make the issue confidential as necessary.
-    1. Apply the `~content-websites-support` label.
-    1. Link to the issue in `#handbook` or `#internal-handbook` for triage.
+1. Content: Anything related to updating the text in the handbook, including required fixes.
+1. Feature: New or an enhancement of how the handbook works, such as theme, or shortcode.
+1. Operations: Theme, pipeline, local development, linters, other maintenance, and related documentation.
+1. Bug: Problem that prevents users from contributing, typically related to handbook operations.
+
+The team overseeing the content websites generally only resources operations and bug issues,
+unless the issue is a blocker for contributing or using the handbook.
+
+### Priority
+
+The priority label is used to indicate the importance of an issue and guide its scheduling.
+Priority labels are expected to be set based on the needs of GitLab.
+Priority can apply to any type of issue.
+
+For bug issues, priority typically matches the [severity](#severity).
+Match the priority to the severity if uncertain.
+
+| Priority | Importance | Intention | DRI |
+| -------- | ---------- | --------- | --- |
+| `~"hb-priority::1"` | Urgent | We will address this as soon as possible regardless of the limit on our team capacity. Our target resolution time is 30-60 days. |
+| `~"hb-priority::2"` | High   | We will address this soon and will provide capacity from our team for it. Our target resolution time is 60-120 days. |
+| `~"hb-priority::3"` | Medium | We want to address this but don't have visibility when this will be addressed. No timeline designated. |
+| `~"hb-priority::4"` | Low    | We don't have visibility when this will be addressed. No timeline designated. |
+
+We encourage contributions for all issues, especially priority 3 and 4 issues, to be addressed sooner.
+
+### Severity
+
+Severity labels help us determine urgency and clearly communicate the impact of a ~"Handbook::bug" on users.
+
+Content issues, such as typos, are *not* bug issues.
+Severity may be applied, but
+
+The severity should be determined based the various factors in the table below.
+When an issue falls under multiple categories, use your best judgment.
+
+Once you've determined a severity for an issue add a note that explains in summary why you selected the severity you did. This will help future team members understand your rationale so they will know how to proceed with acting upon the issue.
+
+| Type of `~"Handbook::bug"` | `~"hb-severity::1"`: Blocker | `~"hb-severity::2"`: High | `~"hb-severity::3"`: Medium  | `~"hb-severity::4"`: Low |
+|----------------|--------------------------|---------------------------|-------------------------|----------------------|
+| General bugs   | Broken feature with no workaround or any data-loss. | Broken feature with an unacceptably complex workaround. | Broken feature with a workaround. | Functionality is inconvenient. |
+| Impact on users | Impacts 20% or more of users without an available workaround | Impacts 20% or more of users, but a reasonable workaround is available<br/><br/>**AND/OR**<br/><br/>Impacts between 5%-20% of users without an available workaround | Impacts up to 20% of users with a reasonable workaround, or workaround not required. | Minimal impact on typical user's workflow. Workaround is available or not needed. |
+| User experience problem | Users are blocked and/or likely to make risky errors. | Users are significantly delayed by the available workaround. | Users are self sufficient in completing the task with the workaround, but may be somewhat delayed. | Usability isn't ideal or there is a small cosmetic issue. |
+
+Timeline for resolution is based on [priority](#priority).
+
+### Triage bot
+
+Please see the relevant project readme for implementation information.

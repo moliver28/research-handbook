@@ -12,7 +12,7 @@ In an all-remote organization, we want each team member to be a [manager of one]
 
 1. At GitLab, leadership is requested from everyone, whether an individual contributor or member of the leadership team.
 1. As a leader, GitLab team members will follow your behavior, so always do the right thing. Lead by example with effort.
-1. Everyone who joins GitLab should consider themselves ambassadors of our [values]({{< ref "values" >}}) and protectors of our [culture](handbook/company/culture/).
+1. Everyone who joins GitLab should consider themselves ambassadors of our [values]({{< ref "values" >}}) and protectors of our [culture](/handbook/company/culture/).
 1. Behavior should be consistent inside and outside the company. We do the right thing outside the company, too.
 1. GitLab respects your judgment of what is best for you, since you know yourself best. If you have a better opportunity somewhere else don't stay at GitLab out of a sense of loyalty to the company.
 1. In tough times people will put in their best effort when they are doing it for each other.
@@ -111,11 +111,11 @@ Feedback](https://hbr.org/2018/05/the-right-way-to-respond-to-negative-feedback)
 
 ## 1-to-1
 
-Please see [{{< relref "1-1" >}}]({{< ref "1-1" >}}).
+Please see [1-1]({{< ref "1-1" >}}).
 
 ## Skip level interactions
 
-Please see [{{< relref "skip-levels" >}}]({{< ref "skip-levels" >}}).
+Please see [skip-levels]({{< ref "skip-levels" >}}).
 
 ## Your Individual README
 
@@ -135,7 +135,7 @@ GitLab division README pages are linked below for context. Reading other READMEs
 - [People Group READMEs](/handbook/people-group/readmes/)
 - [Finance Team READMEs](/handbook/finance/readmes/)
 - [Legal Team READMEs](/handbook/legal/readmes/)
-- [Chief of Staff Team to the CEO READMEs]({{< ref "/handbook/ceo/chief-of-staff-team/readmes" >}})
+- [Chief of Staff Team to the CEO READMEs](/handbook/ceo/chief-of-staff-team/readmes)
 
 
 ### Creating Your README
@@ -170,7 +170,7 @@ READMEs are particularly powerful when working with those *outside* of GitLab, w
 
 ## No matrix organization
 
-Please see [{{< relref "no-matrix-organization" >}}]({{< ref "no-matrix-organization" >}})
+Please see [no-matrix-organization]({{< ref "no-matrix-organization" >}})
 
 ## Stable counterparts
 
@@ -332,7 +332,7 @@ When you give leadership training please [screenshare the handbook instead of cr
 1. [Self-led opportunities to be a mentor](/handbook/people-group/learning-and-development/mentor/) - keep an eye out for a company-wide mentorship program with applications opening at the end of January 2022.
 1. [Join the women's TMRG mentorship group](/handbook/company/culture/inclusion/tmrg-gitlab-women/mentorship-program/) to either be a mentor to practice leadership or get paired with a leader to learn from.
 1. Sign up for [Crucial Conversations training](/handbook/people-group/learning-and-development/learning-initiatives/#crucial-conversations)
-1. Explore opportunities to join the [CEO Shadow program]({{< ref "/handbook/ceo/shadow" >}}) or other division specific shadow programs with the [Chief of Staff]({{< ref "chief-of-staff-team#chief-of-staff-shadow" >}}), [People Connect Shadow Program](/handbook/people-group/people-connect-shadow-program/), [Security]({{< ref "security-shadow" >}}), and [Development Director Shadow Program](/handbook/engineering/development/shadow/director-shadow-program.html).
+1. Explore opportunities to join the [CEO Shadow program](/handbook/ceo/shadow) or other division specific shadow programs with the [Chief of Staff]({{< ref "chief-of-staff-team#chief-of-staff-shadow" >}}), [People Connect Shadow Program](/handbook/people-group/people-connect-shadow-program/), [Security]({{< ref "security-shadow" >}}), and [Development Director Shadow Program](/handbook/engineering/development/shadow/director-shadow-program.html).
 1. Explore the skills needed to successfully transistion from IC to Manager in [GitLab Learn](https://gitlab.edcast.com/channel/coming-soon-transitioning-from-ic-to-manager).
 1. Explore leadership and management courses on [LinkedIn Learning](https://www.linkedin.com/learning/topics/leadership-and-management?u=2255073)
 1. Watch or listen to one of the many [CEO Handbook Learning sessions](/handbook/people-group/learning-and-development/learning-initiatives/#list-of-ceo-handbook-learning-sessions) with Sid on various leadership topics
