@@ -4,7 +4,7 @@ This page is part of the Sales Development team's handbook [page](https://handbo
 
 While the contents below are meant to get you up to speed quickly, we also have a wealth of resources for team members that are looking to perfect their craft [here](https://handbook.gitlab.com/handbook/marketing/sales-development-knowledge-base/).
 
-## BDR Lead Views
+## BDR Lead and ContactViews
 
 | BDR Lead Views         | Description                                                                                                                                         |
 |------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -15,6 +15,16 @@ While the contents below are meant to get you up to speed quickly, we also have 
 | B5 - My Qualifying Leads                |  Leads in qualifying status with two-way engagement. Review best converting follow-up practices in the handbook.            |
 | B6 - 6QA imported leads                |  Leads related to accounts that have hit 6QA status, ready for sequencing upon moving the 6QA account into Actively Working. |
 | B7 - BDR Prospecting Last 7 Days                |  Surface leads created or refreshed from ZoomInfo or Cognism. Check contacts view if person is already a contact.  |
+
+Contact ownership is based on the BDR Assigned and Account owner fields. If you are the BDR Assigned on the account, you will be the owner of all contacts associated with that account. If there is no BDR Assigned, the account owner will be the owner of the contacts.
+
+| View   | Description                                                                                       |
+|--------|---------------------------------------------------------------------------------------------------|
+| B1     | Includes MQL’s, Hot contacts that require quick follow up                                           |
+| B2     | Contacts related to Actively working accounts that you can choose to sequence. Sort by Last Interesting Moment date.  |
+| B3     | Active HT sequenced leads that have a phone number - to help with call downs                        |
+| B4     | Qualifying leads. Contacts actively being qualified through back-and-forth conversations. Each contact must have active follow-up or scheduled future activities. |
+
 
 
 ## BDR FO Outbound Process
