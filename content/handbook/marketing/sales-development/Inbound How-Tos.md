@@ -151,9 +151,8 @@ If the opportunity is for a new group of users in a Large account where sales is
 | 5. Schedule IQM | - For booking meetings, use [Outreach Meetings](https://www.outreach.io/resources/blog/meetings-pr) to expedite the experience for prospects. <br> - Make sure to give a 24 hour notice to the AEs. <br> - Having sent a meeting invitation, ask the prospect to accept while on the phone/meeting with them. |
 | 6. AE Review | - Expect AEs to verify that they reviewed the opportunity beforehand. <br> - If needed, review the specifics of the call, responsibilities, and send meeting reminders. |
 | 7. Attending the IQM | - Please make sure that both AE and SDR show up on time or up to 5 minutes beforehand with Cameras on. <br> - Please ensure that the location is quiet and indoors for AE and SDR. |
-| 8. Debrief | - Have a goal for the AE and SDR to debrief within 24 hours regarding the opportunity being flipped or being disqualified. 
-- Ensure that feedback is shared in writing via Slack/email and added to Salesforce by the AE. |
+| 8. Debrief | - Have a goal for the AE and SDR to debrief within 24 hours regarding the opportunity being flipped or being disqualified. <br> - Ensure that feedback is shared in writing via Slack/email and added to Salesforce by the AE. |
 | 9. IQM Notes | - SDR adds IQM notes to the Initiative section in the opportunity Title. <br> - Include Attendees, Raw Notes, Questions, Summary, and Next Steps. |
-| 10. Rebooking no-shows | The SDR’s responsibility to rebook using the Outreach rebook sequence. Conduct outreach for 2 weeks. If IQM cannot be rescheduled, AE will unqualify the opportunity. |
-| 2. Follow-up | Ongoing follow-up by SDR - 1x cycle/month. Follow-up plan includes email, voicemail, LI message, and invites to webinar/online workshop. |
+| 10. Rebooking no-shows | - The SDR’s responsibility lies only in rebooking no-shows using the [Outreach rebook sequences](https://web.outreach.io/sequences?search=no%20show&sortBy=recent&sortDirection=desc). <Br> - Conduct outreach for 2 weeks. If IQM cannot be rescheduled, AE will unqualify the opportunity. |
+
 
