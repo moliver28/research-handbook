@@ -63,14 +63,6 @@ The process for creating new content in Contentful is varied.
 4. When the entry is published our automation is triggered and a production build starts. We recommend leaving a 10-15 minute buffer before your desired release time for the production build to run.
    - **Example:** There is a need to release a blog post at 9:00am EST, by setting the scheduled date and time to 8:45am EST we can expect the changes to be live on production around 9:00am EST.
 
-### Roles and Permissions
-
-- *Administrator*: has full access to everything in the space.
-- *CMS Administrator*: can create, read, update, publish, and delete all content aside from `Confidential` entries. Can modify space settings, access existing API keys, and can create and update API keys.
-- *Confidential*: can create, edit, publish, archive and delete all content in a space, including `Confidential` content.
-- *Creator*: can create and edit all content in a space (aside from `Confidential` content), but cannot publish it.
-- *Publisher*: can create, edit, publish, archive and delete all content in a space (aside from `Confidential` content). This person should be able to administer their own team.
-- *Reviewer*: can edit all content in a space (aside from `Confidential` content), but cannot publish it.
 
 ## Specific Contentful Training Resources
 
