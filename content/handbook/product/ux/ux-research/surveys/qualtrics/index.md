@@ -57,11 +57,11 @@ The following settings should be applied to your survey:
 
 ## Avoiding spam responses from social media
 
-Distributing a survey on social media is a great way to quickly expand your audience, reducing the time and cost of research. However, be aware that **surveys shared on social media are often targetted by bots or fake participants** to submit dozens or hundreds of responses in a short amount of time, affecting the integrity of the data and the whole research. **This especially affects surveys with rewards or surveys shared on Twitter.**
+Distributing a survey on social media is a great way to quickly expand your audience, reducing the time and cost of research. However, be aware that **surveys shared on social media are often targeted by bots or fake participants** to submit dozens or hundreds of responses in a short amount of time, [affecting the integrity of the data](https://europepmc.org/article/MED/25846043#R2). **This especially affects surveys with rewards or surveys shared on Twitter.**
 
-Some bots are more sophisticated then others. For example, basic bots will “speed” through the survey or provide illogical responses to open-ended questions; more sophisticated bots will intentionally take more time to complete the survey or even use language from the survey itself to compose logical responses to open-ended questions. That's right, some people go to great lengths to get the survey rewards.
+Some bots are more sophisticated than others. For example, basic bots will “speed” through the survey or provide illogical responses to open-ended questions; more sophisticated bots will intentionally take more time to complete the survey or even use language from the survey itself to compose logical responses to open-ended questions.
 
-Fear not, there are multiple things you can do to prevent or filter out *most of these responses*. We say “most of these responses” because the only true way to avoid spam in your surveys is to not share them on social media but rather to [send email survey invitations with individual links](https://www.qualtrics.com/support/survey-platform/distributions-module/email-distribution/emails-overview/#UnderstandingTheIndividualLink) that can only be used once, leveraging our First Look panel.
+There are multiple things you can do to prevent or filter out *most of these responses*. We say “most of these responses” because the only true way to avoid spam in your surveys is to not share them on social media but rather to [send email survey invitations with individual links](https://www.qualtrics.com/support/survey-platform/distributions-module/email-distribution/emails-overview/#UnderstandingTheIndividualLink) that can only be used once, leveraging resources such as [Marketo or the Data Warehouse](/content/handbook/product/ux/ux-research-coordination/recruitment-methods.md) to contact targeted sets of GitLab users we have on file.
 
 ### Prevent spam responses before sharing the survey
 
