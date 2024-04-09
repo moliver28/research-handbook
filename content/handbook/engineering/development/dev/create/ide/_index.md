@@ -46,6 +46,10 @@ Depending on the context here are the most appropriate ways to reach out to the 
 - Slack Channel: [`#g_create_ide`][slack]
 - Slack Groups: `@create-ide-team` (entire team) and `@create-ide-engs` (just engineers)
 
+### Group Metrics Dashboards
+
+[Create::IDE Group Metrics Tableau Workbook](https://10az.online.tableau.com/#/site/gitlab/workbooks/2067787/views)
+
 ### 📆 Group Meetings
 <span id="-team-meetings" data-message="alias anchor for old links"></span>
 
