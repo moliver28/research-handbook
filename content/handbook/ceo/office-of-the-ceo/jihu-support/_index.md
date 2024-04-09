@@ -1,6 +1,9 @@
 ---
 title: "JiHu Support"
 description: "How the GitLab Inc team provides support to JiHu"
+aliases:
+- /handbook/ceo/office-of-the-ceo/jihu-support/
+- /handbook/ceo/chief-of-staff-team/jihu-support/
 ---
 
 ## Overview
