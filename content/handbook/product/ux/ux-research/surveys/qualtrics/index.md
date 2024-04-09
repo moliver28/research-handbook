@@ -57,7 +57,7 @@ The following settings should be applied to your survey:
 
 ## Avoiding spam responses from social media
 
-Distributing a survey on social media is a great way to quickly expand your audience, reducing the time and cost of research. However, be aware that **surveys shared on social media are often targeted by bots or fake participants** to submit dozens or hundreds of responses in a short amount of time, [affecting the integrity of the data](https://europepmc.org/article/MED/25846043#R2). **This especially affects surveys with rewards or surveys shared on Twitter.**
+Distributing a survey on social media is a great way to quickly expand your audience, reducing the time and cost of research. However, be aware that **surveys shared on social media are often targeted by bots or fake participants** to submit dozens or hundreds of responses in a short amount of time, [affecting the integrity of the data](https://europepmc.org/article/MED/25846043). **This especially affects surveys with rewards or surveys shared on Twitter.**
 
 Some bots are more sophisticated than others. For example, basic bots will “speed” through the survey or provide illogical responses to open-ended questions; more sophisticated bots will intentionally take more time to complete the survey or even use language from the survey itself to compose logical responses to open-ended questions.
 
