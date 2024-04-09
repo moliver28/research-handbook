@@ -26,9 +26,6 @@ The VP, People is a [grade 12](/handbook/total-rewards/compensation/compensation
 - [Leadership at GitLab](/handbook/company/structure/#director-group)
 - Ability to use GitLab
 
-## Performance Indicators
-
-
 ### Career Ladder
 
 The next step in the People Leadership job family is to move to the [Chief People Officer](/job-families/people-group/chief-people-officer/) job family.
