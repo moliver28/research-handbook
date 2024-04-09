@@ -374,6 +374,17 @@ Next Steps: SDR chatters the BDR Assigned and lets them know you didn't find act
 | Any planned follow-up outside of the specified areas |
 | Any leads that reach out to you in your new role that were originally sourced in your old role |
 
+| Products Considered | Who | Order Type | Segment | Opportunities | ASP/pipeline |
+| ---------- | -------- | ------- | --------- | -------------- | ---------------- |
+| GitLab ultimate/premium, Duo | SDR | FO + New Connected | SMB/Comm | 1 (Duo Pro is excluded) | NA |
+| GitLab ultimate/premium, Duo | SDR | FO + New Connected + Growth | Enterprise | 2 (GitLab + Duo Pro) | NA |
+| GitLab ultimate/premium, Duo | BDR | FO | Comm/Ent | 2 | FO ASP for GitLab, growth ASP for Duo Pro |
+| GitLab ultimate/premium, Duo | BDR | New Connected + Growth | Comm/Ent | 2 | Growth ASP for GitLab, growth for Duo Pro |
+| Additional seats in current customer department | BDR | Growth | Comm/Ent | 1 | Growth ASP |
+| Tier upgrade | BDR | Growth | Comm/Ent | 1 | Growth ASP |
+| GitLab ultimate/premium, agile planning | everyone | All motions | All segments | 1 (agile planning is excluded) | SEe above for license ASP |
+| Professional services | everyone | All motions | All segments | 0 | NA |
+
 ## Our Ramping period levels for lead assignment
 
 | Levels        | Details                                                                                                         |
