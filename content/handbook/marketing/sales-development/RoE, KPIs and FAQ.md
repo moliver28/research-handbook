@@ -117,7 +117,23 @@ In accordance with the [Time Off Policy](https://handbook.gitlab.com/handbook/pa
 
 We want to help our team members being able to fully unplug from work during their PTO, while not having to worry about their workload or target attainment. Based on this, we have created this PTO Territory Planning Issue that you can use to strategize your work and be aligned to the GitLab value of being a [Manager of One.](https://handbook.gitlab.com/handbook/leadership/#managers-of-one)
 
-To log a PTO Territory Planning request, please go to the Issue list on the SDR GitLab project [here](https://gitlab.com/gitlab-com/marketing/sdr/-/issues/new#) and choose PTO_Coverage_Template from the Description drop-down list.All of these requests are then managed through the board here. and all next steps and guidelines are on the issue description.
+To log a PTO Territory Planning request, please go to the Issue list on the SDR GitLab project [here](https://gitlab.com/gitlab-com/marketing/sdr/-/issues/new#) and choose `PTO_Coverage_Template` from the Description drop-down list. All of these requests are then managed through the board here. and all next steps and guidelines are on the issue description.
+
+### Flexible working
+
+At GitLab we have flexible working hours. This means that you can organize your working day as you like and are not expected to arrive and leave at a set time every day, but we do expect MQL’s to be followed up within 1 hour (during business hours) so communication with your manager will be necessary if you plan to be out for an extended period of time. Managers will provide direction on the routing of leads during that time.
+
+With a prospect-facing role in Sales Development, do keep in mind when you are calling and emailing prospects:
+
+- The best times to call are early and late in the business day, so these may be best blocked for this activity.
+- Outreach allows you to schedule emails at set times. For outbound prospecting, the most effective emails are those that come in the early morning and early evening, so you can take advantage of this feature. On the other hand, inbound MQL’s must be handled regularly throughout your day as they come in.
+- Lunchtimes are good for outreach as most prospects have meeting blocks for three hours in the morning and then two hours mid-afternoon.
+- The above blocks you can use for account research and planning, customer meetings, or meetings with your sales reps, manager, peers, and teams.
+- Although you are not expected to start work and end work at the same time every day, please do keep in mind the normal business hours of your prospects, and make sure to schedule your own working hours to ensure you maximize opportunities.
+
+In short, working at GitLab means that if you start the day early you can take a long lunch break to hit the gym or go grocery shopping in the middle of the day when it’s quiet, yet you can still do a full day’s work around that and don’t need to be accountable all the time, as long as you are available to call prospects and be available for prospect meetings during normal working hours for your region/territory.
+
+
 
 
 

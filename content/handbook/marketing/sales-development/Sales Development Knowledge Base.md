@@ -70,6 +70,23 @@ Additionally, you can use the matrix below as a quick-cheet to determine what da
 | Use cases on website   | - Do they have the same customers as us? How do they help them?                                                    |
 | Speak to a user of the tool to create personalized message to decision maker | - Speak to someone who uses out tools every day to uncover pain-points (performance degradation at peak times) and take that information to a decision maker |
 
+### New Outreach Sequence/Workflow creation.
+
+In an effort to better iterate, and refresh, our outreach content and workflows, we have a structured process for BDRs to create/measure new Outreach sequences.
+
+Please log an issue here by selecting the template BDR_Sequence_Creation_Request.
+
+The issue description will walk you through all the next steps.
+
+This process aims to:
+
+**Implement Measurement Clarity and Decision Velocity**
+
+By dogfooding GitLab we have a structured and simplified cadence of quantifying sequence creation in terms of value and results without limiting agency.
+
+**Maintain Equal Contributions in a Shared Reality**
+By maintaing a Single Source of Truth (SSoT) we give the best possible forum for cross-functional collaboration with specific guidelines
+
 
 
 
