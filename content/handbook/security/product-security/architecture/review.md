@@ -90,7 +90,7 @@ Depending on the type of change being reviewed, the Security Architect can invol
 - The Security Compliance team
 - The Cryptography Officer
 
-[Threat Models]({{< ref "../threat-modeling" >}})
+[Threat Models]({{< ref "../application-security/threat-modeling" >}})
 [AppSec reviews](/handbook/security/product-security/application-security/#application-security-reviews)
 
 ## Result
