@@ -1,10 +1,7 @@
 ---
-
 title: "Tanuki Tech"
+description: "Tanuki Instutite of Technology Bootcamp"
 ---
-
-
-
 
 ## Tanuki Tech
 
