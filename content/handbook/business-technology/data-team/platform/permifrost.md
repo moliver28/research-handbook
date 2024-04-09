@@ -76,7 +76,7 @@ We set a goal to release a new version of Permifrost at least twice per year. Me
 
 #### Versioning
 
-Permifrost uses [Semantic Versioning 2.0.0](https://semver.org/) as its version number scheme.
+Permifrost uses [Semantic Versioning 2.0.0](https://semver.org/) as its version number scheme. 
 
 #### Workflow
 
