@@ -66,6 +66,20 @@ If the related SDR relays information that was not picked up in the new SDR’s 
 
 ## Frequently Asked Questions (FAQ)
 
+### General Sales Dev Trouble-shooting
+
+**Q:** I can’t see certain Outreach collections!: <Br>
+**A:** You potentially were added to the incorrect Sales Dev Team in Outreach. Please reach out to Sales Dev Operations.
+My version of Salesforce seems very basic…: Make sure you are using the Sales version of Salesforce. To check, please go to the top right corner of your Salesforce window and click the blue button with the drop down window. From there select “Sales”.
+I have not received access to all of my tools and it has been a week: Notify your manager and have them comment on your Onboarding Role Entitlements Issue.
+I have uploaded more leads from ZoomInfo than what are showing up in my Salesforce ZoomInfo Lead View: This most likely due to these leads aleady being in our Salesforce. The problem is that they are listed as a contact in Salesforce and will only appear in your ZoomInfo Contacts view rather than your Zoominfo Lead view.
+I do not know what this person did to score as an MQL: First check the last interesting moment description on Salesforce and then check the Scoring tab of the Marketo Sales Insight widget that is also on the Salesforce lead page. If no points were allocated to behavior and only to demographic type information please Slack the Marketing Ops group so they are aware that this lead did not take any new action.
+I received a personal data subject request by a prospect: Our MOPs team has set up a process to address any data subject requests for deletion or access to data. If you receive a request for deletion or access to data, please re-direct inquiries to the Personal Data Subject Request. This messaging snippet can be used and tailored.
+Why are BDRs no longer the Account Owner in Outreach?: BDRs are no longer listed as the account Owner in Outreach to improve Sales Dev and Sales visibility across all prospects/accounts (excluding PubSec). If you want to filter to see just your accounts, please use the ‘BDR Assigned’ field.
+A prospect said they were going to buy through our website (known as a Web Direct). How can I tell if they did?: SDRs get credit for opportunities where the SDR had meaningful two way communication with a prospect 60 days before they bought GitLab through our website. The best way to search for a web direct opportunity is to use this report. First, set the date range to the time you think the prospect would have bought. Next, find the opportunity that is tied to your prospect’s account. Then follow this process to request SAO credit.
+Note: Sometimes someone else from your prospect’s company actually made the GitLab purchase, leading to the opportunity being related to them instead
+
+
 ### RoE Common Questions
 
 **Q:** Should BDRs flag duplicate accounts? <br>
@@ -86,6 +100,38 @@ If the related SDR relays information that was not picked up in the new SDR’s 
 
 **Q:** What should BDRs do when a prospect or contact responds with a complince related question or objects to being contacted? <br>
 **A:** Immediately reach out to the Privacy Team via #privacy-team-help and forward any email from the contact to dpo@gitlab.com.
+
+### Announcement Common Questions
+
+There are three deciding factors on what channel you should use for your announcement:
+
+- Urgency: How crucial is it that the Sales Dev Org or team/teams see this announcement right now?
+- Who: The entire Sales Dev Org, SDR/BDRs, or a specific SalesDev Team
+- Impact: How much does it impact the audience’s ability to sell and create SAOs?
+
+Announcement Channels
+
+- Email Newsletter
+- Weekly Team Meetings
+- Sales Dev FYI Slack Channel
+- Monthly All Hands Meeting
+- Specific Team Slack Channels
+
+
+| Decision Grid                              | Not Time Sensitive or Important                       | Important and/or Time Sensitive                                             |
+|--------------------------------------------|-------------------------------------------------------|-----------------------------------------------------------------------------|
+| Impacts Multiple Teams                     | Email Newsletter, Weekly Team Meeting                | Sales Dev FYI Slack, All Hands Meeting, Weekly Team Meeting, Email Newsletter |
+| Only Impacts a Select Team                 | Weekly Team Meeting                                  | Sales Dev FYI Slack, Team Channel Slack, Weekly Team Meeting                |
+
+| Qualifiers by Channel        | Qualifier(s)                                                          |
+|------------------------------|-----------------------------------------------------------------------|
+| Sales Dev Global Slack       | Shoutouts, Questions, Concerns, Share something that’s working, Fun for Multiple Teams, New Team Members |
+| Sales Dev FYI Slack          | Announcements and Reminders that involve multiple teams or are of high importance |
+| Email Newsletter             | Impacts Multiple Teams                                                |
+| All Hands Meeting            | Important updates that affect multiple teams                          |
+| Weekly Team Meeting          | Any updates that affect that specific team                            |
+| Team Slack Channels          | Important or Time Sensitive, but only related to that specific team    |
+
 
 ## KPIs and SLAs 
 

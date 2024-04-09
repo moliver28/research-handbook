@@ -74,7 +74,7 @@ Additionally, you can use the matrix below as a quick-cheet to determine what da
 
 In an effort to better iterate, and refresh, our outreach content and workflows, we have a structured process for BDRs to create/measure new Outreach sequences.
 
-Please log an issue here by selecting the template BDR_Sequence_Creation_Request.
+Please log an issue [here](https://gitlab.com/gitlab-com/marketing/sales-development/-/issues/new) by selecting the template `BDR_Sequence_Creation_Request.`
 
 The issue description will walk you through all the next steps.
 
@@ -87,6 +87,34 @@ By dogfooding GitLab we have a structured and simplified cadence of quantifying 
 **Maintain Equal Contributions in a Shared Reality**
 By maintaing a Single Source of Truth (SSoT) we give the best possible forum for cross-functional collaboration with specific guidelines
 
+### Making Changes to the handbook
+
+[Video Walkthrough of how to make changes to the GitLab Handbook for the Sales Development org](https://www.youtube.com/watch?v=P7Nv7bzksiY&t=1032s)
+
+One of our Values is being handbook first. 
+
+In order to align the SDR organization more closely to this ideal, below are suggested steps. Please remember that the Handbook is a living document, and you are strongly encouraged to make improvements and add changes. This is ESPECIALLY true when it comes to net new solutions that should be shared so the whole organization has access to that process. (aka The DevOps ideal of turning “Localized Discoveries” into “Global Knowledge”.)
+
+Steps:
+
+- Have a change you want to make to the handbook? Great!
+- Navigate to the source code of the page in the handbook (e.g. Link to edit the SDR page in the Handbook )
+- Click either “Edit” or “Web IDE” to make your changes.
+- Have a brief but descriptive “Commit message” (e.g. “Add new section on ‘How to Make Changes to the Handbook’”) and commit your changes
+- Fill out the Merge Request details
+
+
+### Working with Resellers
+
+The end-user account determines the BDR/SDR alignment: If you are the SDR assigned to the 3rd party lead, please gather the information in point 1 and pass the lead to the correctly assigned BDR (the BDR assigned to the end-user account) who will complete points 2-6
+
+| Step                                           | Description                                                                                                                                                            |
+|------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Gather billing and end-user details from the reseller | - Billing company name/address: <br> - Billing company contact/email address: <br> - End-user company name/address: <br> - End-user contact/email address: <br> - Snippet in outreach |
+| Create a new lead record with end-user details | - Ensure that all notes are copied over to the new LEAD as this is the LEAD that will be converted.                                                                     |
+| Converting the new lead                        | - Name opp to reflect reseller involvement as shown here: “End-user account name via reseller account name” <br> - Convert original reseller lead to a contact associated with the reseller account <br> - If an account does not already exist for the reseller, create one when converting the lead to a contact <br> - Assign the record to the same account owner <br> - Do NOT create a new opportunity with this lead. |
+| Attach activity to the opportunity            | - On the reseller contact, go to the activity and link each activity related to your opportunity to the opp. <br> - Activity History > click edit to the left of the activity > choose ‘opportunity’ from the ‘related to’ dropdown > find the new opportunity > save |
+| Update the opportunity                         | - Change the business type to new business and stage to pending acceptance. <br> - Under contacts, add the reseller contact, role as reseller, and primary contact. <br> - Under partners, add the reseller account as VAR/Reseller |
 
 
 
