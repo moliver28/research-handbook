@@ -70,13 +70,27 @@ If the related SDR relays information that was not picked up in the new SDR’s 
 
 **Q:** I can’t see certain Outreach collections!: <Br>
 **A:** You potentially were added to the incorrect Sales Dev Team in Outreach. Please reach out to Sales Dev Operations.
-My version of Salesforce seems very basic…: Make sure you are using the Sales version of Salesforce. To check, please go to the top right corner of your Salesforce window and click the blue button with the drop down window. From there select “Sales”.
-I have not received access to all of my tools and it has been a week: Notify your manager and have them comment on your Onboarding Role Entitlements Issue.
-I have uploaded more leads from ZoomInfo than what are showing up in my Salesforce ZoomInfo Lead View: This most likely due to these leads aleady being in our Salesforce. The problem is that they are listed as a contact in Salesforce and will only appear in your ZoomInfo Contacts view rather than your Zoominfo Lead view.
-I do not know what this person did to score as an MQL: First check the last interesting moment description on Salesforce and then check the Scoring tab of the Marketo Sales Insight widget that is also on the Salesforce lead page. If no points were allocated to behavior and only to demographic type information please Slack the Marketing Ops group so they are aware that this lead did not take any new action.
-I received a personal data subject request by a prospect: Our MOPs team has set up a process to address any data subject requests for deletion or access to data. If you receive a request for deletion or access to data, please re-direct inquiries to the Personal Data Subject Request. This messaging snippet can be used and tailored.
-Why are BDRs no longer the Account Owner in Outreach?: BDRs are no longer listed as the account Owner in Outreach to improve Sales Dev and Sales visibility across all prospects/accounts (excluding PubSec). If you want to filter to see just your accounts, please use the ‘BDR Assigned’ field.
-A prospect said they were going to buy through our website (known as a Web Direct). How can I tell if they did?: SDRs get credit for opportunities where the SDR had meaningful two way communication with a prospect 60 days before they bought GitLab through our website. The best way to search for a web direct opportunity is to use this report. First, set the date range to the time you think the prospect would have bought. Next, find the opportunity that is tied to your prospect’s account. Then follow this process to request SAO credit.
+
+**Q:** My version of Salesforce seems very basic…: <br> 
+**A:** Make sure you are using the Sales version of Salesforce. To check, please go to the top right corner of your Salesforce window and click the blue button with the drop down window. From there select “Sales”.
+
+**Q:** I have not received access to all of my tools and it has been a week. <br>
+**A:** Notify your manager and have them comment on your Onboarding Role Entitlements Issue.
+
+**Q:** I have uploaded more leads from ZoomInfo than what are showing up in my Salesforce ZoomInfo Lead View. <br>
+**A:** This most likely due to these leads aleady being in our Salesforce. The problem is that they are listed as a contact in Salesforce and will only appear in your ZoomInfo Contacts view rather than your Zoominfo Lead view.
+
+**Q:** I do not know what this person did to score as an MQL. <br> 
+**A:** First check the last interesting moment description on Salesforce and then check the Scoring tab of the Marketo Sales Insight widget that is also on the Salesforce lead page. If no points were allocated to behavior and only to demographic type information please Slack the Marketing Ops group so they are aware that this lead did not take any new action.
+
+**Q:** I received a personal data subject request by a prospect. <Br>
+**A:** Our MOPs team has set up a process to address any data subject requests for deletion or access to data. If you receive a request for deletion or access to data, please re-direct inquiries to the [Personal Data Subject Request.](https://support.gitlab.io/account-deletion/) This messaging snippet can be [used and tailored.](https://web.outreach.io/snippets/1903)
+
+**Q:** Why are BDRs no longer the Account Owner in Outreach? <br> 
+**A:** BDRs are no longer listed as the account Owner in Outreach to improve Sales Dev and Sales visibility across all prospects/accounts (excluding PubSec). If you want to filter to see just your accounts, please use the ‘BDR Assigned’ field.
+
+**Q:** A prospect said they were going to buy through our website (known as a Web Direct). How can I tell if they did? <br> 
+**A:** SDRs get credit for opportunities where the SDR had meaningful two way communication with a prospect 60 days before they bought GitLab through our website. The best way to search for a web direct opportunity is to use [this report](https://gitlab.my.salesforce.com/00O4M000004dkX4). First, set the date range to the time you think the prospect would have bought. Next, find the opportunity that is tied to your prospect’s account. Then follow this process to request SAO credit.
 Note: Sometimes someone else from your prospect’s company actually made the GitLab purchase, leading to the opportunity being related to them instead
 
 
