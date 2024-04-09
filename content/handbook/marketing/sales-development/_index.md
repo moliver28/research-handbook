@@ -31,11 +31,11 @@ Our Outbound-focused BDRs excel in strategic account planning, research, and del
 
 | What is your role and ask? | How will the Sales Dev Org help |
 | ------ | ----- |
-| I am Field Marketer, and want to have people invited to my event | We typically work with the FM process outlined [here](/handbook/marketing/sales-development/#field-process), but are always eager to collaborate in making your events more succesful, if your ask is not covered in the template linked above, please write to us on the #sales_dev_global slack channel and we'll jump in to assist. |
-| I am an Account Executive, and want to nominate accounts for outbounding efforts | Our end-to-end outbound process [is here](/handbook/marketing/sales-development/#bdr-fo-outbound-process), and our collaboration guidelines are [here](/handbook/marketing/sales-development/#11-dashboards-and-other-collateral). The easiest way to automate your workflow is to find the field BDR Prospecting Status on the SFDC Account record, and select the Queued option from there. The BDR team will then pick it up and research it for their outbound pipeline. |
-| I am an Account Executive, and want to check the state of accounts, or quality of prospects, in my territory | Our BDR team uses a set of [1:1 dashboards](/handbook/marketing/sales-development/#11-dashboards-and-other-collateral) that consolidate all relevant resources in one place. Our BDR team typically uses these on 1:1s with the Sales team to facilitate better account and territory planning. |
-| I am a Field Marketer, or Account Executive, and want to suggest that the SDR or BDR team uses my messaging for reaching out to prospects or clients | We have a [quick process](/handbook/marketing/sales-development/#new-outreach-sequenceworkflow-creation) for creating new sequences on Outreach, our messaging tool. Even though the BDR or SDR are the ones typically creating these requests, we always welcome collaboration with other teams so feel free to log your own request directly if you'd like. |
-| I am a Sales Manager, and want to gauge the quality and progress of the SAOs provided to my team. | We have a robust set of pipeline [progression dashboards](https://gitlab.my.salesforce.com/01Z8X000000u6mP) that break down results in a lot of granularity. We also have a structured path for handing off opportunities from the SDR/BDR teams to the AE team that you can use to measure adherance to qualification criteria and [next steps](/handbook/marketing/sales-development/#sdrbdr-to-ae-sao-handoff-process). |
+| I am Field Marketer, and want to have people invited to my event | We typically work with the FM process outlined on the issue template called `FM-BDR-Collaboration-Template` that can be found [here](https://gitlab.com/gitlab-com/marketing/sales-development/-/issues/new), but are always eager to collaborate in making your events more succesful, if your ask is not covered in the template linked above, please write to us on the #sales_dev_global slack channel and we'll jump in to assist. |
+| I am an Account Executive, and want to nominate accounts for outbounding efforts | Our end-to-end outbound process [is here](https://handbook.gitlab.com/handbook/marketing/sales-development/outbound-how-tos/). The easiest way to automate your workflow is to find the field BDR Prospecting Status on the SFDC Account record, and select the Queued option from there. The BDR team will then pick it up and research it for their outbound pipeline. |
+| I am an Account Executive, and want to check the state of accounts, or quality of prospects, in my territory | Our BDR team uses a set of [1:1 dashboards](https://handbook.gitlab.com/handbook/marketing/sales-development/#our-sfdc-dashboards) that consolidate all relevant resources in one place. Our BDR team typically uses these on 1:1s with the Sales team to facilitate better account and territory planning. |
+| I am a Field Marketer, or Account Executive, and want to suggest that the SDR or BDR team uses my messaging for reaching out to prospects or clients | We have a [quick process](https://handbook.gitlab.com/handbook/marketing/sales-development/sales-development-knowledge-base/#new-outreach-sequenceworkflow-creation) for creating new sequences on Outreach, our messaging tool. Even though the BDR or SDR are the ones typically creating these requests, we always welcome collaboration with other teams so feel free to log your own request directly if you'd like. |
+| I am a Sales Manager, and want to gauge the quality and progress of the SAOs provided to my team. | We have a robust set of pipeline [progression dashboards](https://handbook.gitlab.com/handbook/marketing/sales-development/#our-sfdc-dashboards) that break down results in a lot of granularity. We also have a structured path for handing off opportunities from the SDR/BDR teams to the AE team that you can use to measure adherance to qualification criteria and [next steps](https://handbook.gitlab.com/handbook/marketing/sales-development/sales-development-knowledge-base/#sdrbdr-to-ae-sao-handoff-process). |
 
 ## Our Slack Channels
 
@@ -97,7 +97,6 @@ Our Outbound-focused BDRs excel in strategic account planning, research, and del
 | [Global Sales Dev Results Dashboard](https://gitlab.my.salesforce.com/01ZPL000000cNmn) | A more granular dashboard that breaks down attainment further. | 
 
 
-
 ## The pages we frequently use
 
 ### The main resources
@@ -111,7 +110,7 @@ Our Outbound-focused BDRs excel in strategic account planning, research, and del
 | [RoEs, FAQs and KPIs](https://handbook.gitlab.com/handbook/marketing/sales-development/roe-kpis-faq) | The page that answers any question you might have on rules of engagement, team member expectations or other common questions. |
 | [The Sales Dev Knowledge Base](https://handbook.gitlab.com/handbook/marketing/sales-development/sales-development-knowledge-base) | The page that accummulates all the knowledge generated by team members past and new, enter at your own peril. |  
 
-## The complementary Resources
+### The complementary Resources
 
 | Resource | Description |
 | :------: | :---------: |
