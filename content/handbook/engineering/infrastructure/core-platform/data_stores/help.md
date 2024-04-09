@@ -1,36 +1,53 @@
 ---
 title: Database Help Workflow
-description: "A basic workflow for requesting help during database related incidents or issues"
+description: "A basic workflow for requesting help during database related incidents or emergencies"
 ---
 
-This guide is for Reliability and Support engineers to quickly and easily find the help they need on database-related incidents and issues.
+This guide is for Reliability and Support engineers to quickly and easily find the help they need on database-related emergencies.
+
+{{% alert title="Note" color="primary" %}}
+This page is intended for helping find resources during emergencies. If this isn't an emergency (IE: S1/S2 issue), instead ensure there are appropriately labeled issues so they can be triaged by the team.
+{{% /alert %}}
+
+### Non-Emergencies
+
+1. Label your issue to be triaged by the right team:
+  - For operational or configuration issues, label them `~"team::Database Reliability"`
+  - For issues related to the packaged postgres in omnibus/charts, label them `~"group::distribution"`
+  - For application issues, label them for the team responsible for that feature.
+  - If you're not sure, take a look at the guide below for help identifying the right team.
+1. If the issue is blocking or you need to escalate:
+  - For application issues, Post a detailed message in the channel for the team that is responsible for the related feature.
+  - For operational or configuration issues, post in [#g_infra_database_reliability](https://gitlab.enterprise.slack.com/archives/C02K0JTKAHJ) (internal)
+  - For issues related to the packaged postgres in omnibus/charts, post in [#g_distribution](https://gitlab.enterprise.slack.com/archives/C1FCTU4BE) (internal)
 
 ### 1. Start
 
-If the issue is configuration related like:
+If the emergency is related to configuration or operations like:
 
+- emergencies related to operating postgres
 - Connection errors
 - Replication errors
 - SSL Errors
 
-Proceed to step [2. Configuration Errors](#2-configuration-errors)
+Proceed to step [2. Configuration Errors](#2-configuration-or-operational-errors)
 
 If not, proceed to step [3. Application Errors](#3-application-errors)
 
-### 2. Configuration Errors
+### 2. Configuration or Operational Errors
 
-If the issue is related to an ongoing incident on gitlab.com or dedicated customer, reach out to the [Database Reliability Team](./database-reliability/) in [#g_infra_database_reliability](https://gitlab.enterprise.slack.com/archives/C02K0JTKAHJ) (internal)
+If the emergency is related to an ongoing incident on gitlab.com or dedicated customer, Follow the [DBRE Escalation Process](https://handbook.gitlab.com/handbook/engineering/infrastructure/core-platform/data_stores/database-reliability/dbre-escalation-process/)
 
-If the issue is related to a self-managed customer, reach out to the [Distribution Team](../systems/distribution/) in [#g_distribution](https://gitlab.enterprise.slack.com/archives/C1FCTU4BE) (internal) who manages self-managed configuration.
+If the emergency is related to a self-managed customer, reach out to the [Distribution Team](../systems/distribution/) in [#g_distribution](https://gitlab.enterprise.slack.com/archives/C1FCTU4BE) (internal) who manages self-managed configuration.
 
 ### 3. Application Errors
 
-If the issue is related to a single query, page, or endpoint, for example:
+If the emergency is related to a single query, page, or endpoint, for example:
 
 - A page (or class of pages) has a 500 and Sentry identifies it as a PG Timeout Error
 - A long running transaction is identified as coming from a sidekiq worker
 - A single query is identified as taking 10s on production and slowing down the site
-- A migration is failing or has resulted in an issue
+- A migration is failing or has resulted in an emergency
 
 Go to step [4. Single Source Issues](#4-single-source-issues)
 
@@ -38,11 +55,11 @@ If not, go to [5. Widespread Issues](#5-widespread-issues)
 
 ### 4. Single Source Issues
 
-If the issue is from an error that includes a feature category, go to [8. Reach out to a team based on feature category](#8-reach-out-to-a-team-based-on-feature-category). As subject matter experts for a given feature, backend engineers are typically familiar with the involved database patterns and are typically best suited to solve issues related to their features even when the issue is related to database actions.
+If the emergency is from an error that includes a feature category, go to [8. Reach out to a team based on feature category](#8-reach-out-to-a-team-based-on-feature-category). As subject matter experts for a given feature, backend engineers are typically familiar with the involved database patterns and are typically best suited to solve issues related to their features even when the issue is related to database actions.
 
-If the issue is related to a migration, see [6. Determine Migration Source](#6-determine-migration-source)
+If the emergency is related to a migration, see [6. Determine Migration Source](#6-determine-migration-source)
 
-If the issue is related to a Rails controller, Sidekiq worker, API endpoint, or background migration, determine the feature category using details in our [feature categorization guide](https://docs.gitlab.com/ee/development/feature_categorization/), then go to [8. Reach out to a team based on feature category](#8-reach-out-to-a-team-based-on-feature-category)
+If the emergency is related to a Rails controller, Sidekiq worker, API endpoint, or background migration, determine the feature category using details in our [feature categorization guide](https://docs.gitlab.com/ee/development/feature_categorization/), then go to [8. Reach out to a team based on feature category](#8-reach-out-to-a-team-based-on-feature-category)
 
 If you need assistance to identify the source, go to [9. Escalating assistance](#9-escalating-assistance)
 
@@ -79,7 +96,7 @@ Each database table has a documentation file that can be used to determine a cor
 
 ### 8. Reach out to a team based on feature category
 
-Even if the issue is related to the database or has database words in it, the best first step is to contact the team responsible for that area of the application. The easiest way to figure out what team is responsible for that area is by feature category.
+Even if the emergency is related to the database or has database words in it, the best first step is to contact the team responsible for that area of the application. The easiest way to figure out what team is responsible for that area is by feature category.
 
 1. Using the feature category check the corresponding group in the [Category-Team mappings](https://handbook.gitlab.com/handbook/product/categories/#categories-a-z)
 1. Reach out in that team's slack channel, and `@mention` the team's manager for assistance
@@ -87,7 +104,7 @@ Even if the issue is related to the database or has database words in it, the be
 
 ### 9. Escalating assistance
 
-When escalating an issue, be as specific as possible and provide as many details as possible. Per [communication guidelines](https://handbook.gitlab.com/handbook/communication/#writing-style-guidelines), avoid acronyms whenever possible.
+When escalating an emergency, be as specific as possible and provide as many details as possible. Per [communication guidelines](https://handbook.gitlab.com/handbook/communication/#writing-style-guidelines), avoid acronyms whenever possible.
 
 Always include:
 - A link to the issue, Sentry error, incident, or Zendesk ticket
@@ -95,11 +112,11 @@ Always include:
 - Links to any applicable charts
 - Details about the query, migration, or issue
 
-#### For Gitlab.com or Dedicated Incidents
+#### For Ongoing Gitlab.com or Dedicated Incidents
 
 1. [Activate Development On-Call](https://handbook.gitlab.com/handbook/on-call/#development-team-on-call-rotation)
 1. If development on-call needs additional database expertise, reach out in [#database](https://gitlab.enterprise.slack.com/archives/C3NBYFJ6N)
-1. If there's no response within 15 minutes, or the request is urgent, tag `@db-team` (Application) or `@dbre` (Infrastructure) in a thread on the original message
+1. If there's no response within 15 minutes, or the request is urgent, tag `@db-team` (Application) or `@dbre` (Infrastructure/Operations) in a thread on the original message
 1. If there's no response to the ping within 15 minutes, and the request is urgent, use slack to find the phone number of the Database or DBRE manager and text or call them.
 
 #### For Support Escalations
