@@ -1,6 +1,9 @@
 ---
 title: "Office of the CEO"
 description: "Details about Office of the CEO at GitLab"
+aliases: 
+- /handbook/ceo/office-of-the-ceo/
+- /handbook/ceo/chief-of-staff-team/
 ---
 
 ## Office of the CEO Overview
@@ -243,7 +246,7 @@ With the goals of increasing efficiency and looking at how to make recurring mee
 2. Discuss removing yourself as an attendee with the meeting owner if you don’t feel that you are contributing or supporting business results through participation
 3. Ask other team members to reexamine how existing meetings are managed
 
-If you’re looking for possible wording to use when taking the actions above, and for more information about the cleanup day, please look at  https://handbook.gitlab.com/handbook/ceo/chief-of-staff-team/#meeting-cleanup-day.
+If you’re looking for possible wording to use when taking the actions above, and for more information about the cleanup day, please look at  https://handbook.gitlab.com/handbook/ceo/office-of-the-ceo/#meeting-cleanup-day.
 ```
 
 When cancelling a meeting, a team member can copy and paste this message to send to attendees:
@@ -309,7 +312,7 @@ Once a project or initiative to Shadow has been identified and the team member d
 - [Strategy & Operations Job Family]({{< ref strategy-and-operations >}})
 - [GitLab Strategy and Operations (Workplace) Team Handbook]({{< ref workplace >}})
 - [Performance Indicators]({{< ref performance-indicators >}})
-- [GitLab Team Project](https://gitlab.com/gitlab-com/ceo-chief-of-staff-team/cos-team)
+- [GitLab Team Project](https://gitlab.com/gitlab-com/office-of-the-ceo/cos-team)
 - [Team READMEs]({{< ref readmes >}})
 
 ## Contact Us
@@ -318,7 +321,7 @@ Once a project or initiative to Shadow has been identified and the team member d
 
 ### GitLab / Google Groups
 
-The Office of the CEO maintains a [GitLab Group](https://gitlab.com/groups/gitlab-com/ceo-chief-of-staff-team/-/group_members?with_inherited_permissions=exclude) and [Google Group](https://groups.google.com/a/gitlab.com/g/ceo-chief-of-staff-team/members) to ensure the appropriate level of access is granted or removed as team members join and leave the team. The following mapping of permission levels from GitLab Groups to Google Groups is being used:
+The Office of the CEO maintains a [GitLab Group](https://gitlab.com/groups/gitlab-com/office-of-the-ceo/-/group_members?with_inherited_permissions=exclude) and [Google Group](https://groups.google.com/a/gitlab.com/g/office-of-the-ceo/members) to ensure the appropriate level of access is granted or removed as team members join and leave the team. The following mapping of permission levels from GitLab Groups to Google Groups is being used:
 
 1. `Owner` -> `Owner`
 1. `Maintainer` -> `Manager`
@@ -328,5 +331,5 @@ As of 2023-08 there's no automatic syncing between these groups so Office of the
 
 #### GitLab Project
 
-The primary project used by the Office of the CEO to track work specific to our team is [Office of the CEO](https://gitlab.com/gitlab-com/ceo-chief-of-staff-team/cos-team). Please file issues here as needed to track work being done.
+The primary project used by the Office of the CEO to track work specific to our team is [Office of the CEO](https://gitlab.com/gitlab-com/office-of-the-ceo/cos-team). Please file issues here as needed to track work being done.
 

@@ -1,5 +1,8 @@
 ---
 title: JiHu contribution process
+aliases:
+- /handbook/ceo/office-of-the-ceo/jihu-support/jihu-contribution-process/
+- /handbook/ceo/chief-of-staff-team/jihu-support/jihu-contribution-process/
 ---
 
 Contributions from the JiHu team will follow two methods depending on whether they have JiHu proprietary changes or not.
@@ -77,7 +80,7 @@ Contributions in projects that have proprietary and upstream contributions will 
 1. The JiHu Engineering team will review and merge the JiHu MR in the JiHu project.
 1. A scheduled pipeline every 2 hours will run in [compliance-verification](https://gitlab.com/gitlab-org/gitlab-jh-mirrors/compliance-verification) against the [JiHu project pulling mirror](https://gitlab.com/gitlab-org/gitlab-jh-mirrors/gitlab) to verify that there are no code difference outside of `jh/` directory beside [agreed difference for `package.json` and `yarn.lock`](https://gitlab.com/gitlab-jh/gitlab-jh-enablement/-/issues/170#note_892043256).
 
-![Diagrem of the GitLab JiHu MR Process](/handbook/ceo/chief-of-staff-team/jihu-support/images/gitlab-jh-mr-process.png)
+![Diagrem of the GitLab JiHu MR Process](/handbook/ceo/office-of-the-ceo/jihu-support/images/gitlab-jh-mr-process.png)
 
 ### JiHu contribution identification
 

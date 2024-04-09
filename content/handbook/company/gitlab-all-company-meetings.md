@@ -11,7 +11,7 @@ GitLab has three big quarterly internal-only meetings to align team members on k
 
 Timing of team member touchpoints:
 
-- [Quarterly Kickoff](/handbook/ceo/chief-of-staff-team/#quarterly-kickoff) (first half of the first month of the quarter): Typically a video update from GitLab CEO, Sid Sibrandij shared on Slack, followed by an AMA
+- [Quarterly Kickoff](/handbook/ceo/office-of-the-ceo/#quarterly-kickoff) (first half of the first month of the quarter): Typically a video update from GitLab CEO, Sid Sibrandij shared on Slack, followed by an AMA
 - [Earnings Call](/handbook/finance/investor-relations/#quarterly-earnings-process) (first half of the second month of the quarter): Public call that team members are invited to attend
 - [Post-Earnings Recap & AMA](#post-earnings-recap--ama) (immediately following earnings): A 25 minute private AMA occurring after Earnings
 - [Assembly](/handbook/people-group/employment-branding/people-communications/#gitlab-assembly) (end of second month, early the third month of a quarter): An all-company meeting occurring 3-4 weeks after Earnings that covers a wide range of topics
@@ -50,7 +50,7 @@ The CEO's Quarterly Kickoff Slides usually cover:
 - Marathon Slide (as needed)
 - Reiterate how all elements of [cadence fit together](/handbook/company/yearlies/#cadence) including any new or changed elements of hierarchy such as new OKRs.
 
-The Quarterly Kickoff is a [CoST](/handbook/ceo/chief-of-staff-team/) initiative.
+The Quarterly Kickoff is a [CoST](/handbook/ceo/office-of-the-ceo/) initiative.
 
 ### Timeline for the Quarterly Kickoff
 
