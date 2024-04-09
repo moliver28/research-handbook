@@ -202,12 +202,12 @@ The executive communications manager will work closely with the executive leader
 
 ### Senior Executive Content Communications Manager (CEO)
 
-The executive communications to CEO specialty manager for the corporate communications team will work closely with the manager of the executive communications program, the CEO, and the CEO’s Chief of Staff team to extend the reach of the CEO’s participation in external events, bylined articles and more.
+The executive communications to CEO specialty manager for the corporate communications team will work closely with the manager of the executive communications program, the CEO, and the Office of the CEO to extend the reach of the CEO’s participation in external events, bylined articles and more.
 
 #### Responsibilities
 
 - Own the CEO executive communications visibility program, driving its strategy and executing on said strategy with agency support.
-- Work closely with the CEO’s Chief of Staff team to develop strong narrative presentations and content for internal and external speaking opportunities.
+- Work closely with the Office of the CEO to develop strong narrative presentations and content for internal and external speaking opportunities.
 - Work with the brand, design, Developer Advocate team and others needed to develop state of the art slide decks for internal and external events.
 - Lead speaking coaching sessions to ensure the CEO is comfortably delivering the content in a natural and charismatic way; incorporate edits as needed.
 - Think strategically about other CEO (aspirational and peer) platforms and how we can incorporate key takeaways into the CEO executive communications visibility program, whether that is via our blog, bylined articles, podcasts, YouTube, social media or other external platforms.
