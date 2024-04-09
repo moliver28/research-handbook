@@ -47,7 +47,7 @@ Senior leadership representative (Snr. Dir +) from each Department and a person 
     - People Business Partners
 - Representative from DIB Influencer Group
 - Office of CEO representative
-    - TBC
+    - Yin Yu
 - VP of DIB - Leadership DIB Council Lead
 - DIB Team
 - Executive Sponsors
