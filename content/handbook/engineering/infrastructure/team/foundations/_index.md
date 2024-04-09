@@ -239,7 +239,7 @@ Open planned work for our team is located in the [Production Engineering](https:
 - Include the following Labels (update the priority as needed):
 
    ```
-   /labels ~"devops::Platforms" ~"group::Production Engineering ~"team::Foundations" ~"workflow-infra::Triage" ~"Reliability::P4"
+   /labels ~"group::Production Engineering" ~"Sub-Department::SaaS Platforms" ~"team::Foundations" ~"workflow-infra::Triage" ~"Reliability::P4"
    ```
 
 - If there is a service label that is applicable, also apply that.
