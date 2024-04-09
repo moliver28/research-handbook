@@ -135,7 +135,7 @@ GitLab division README pages are linked below for context. Reading other READMEs
 - [People Group READMEs](/handbook/people-group/readmes/)
 - [Finance Team READMEs](/handbook/finance/readmes/)
 - [Legal Team READMEs](/handbook/legal/readmes/)
-- [Chief of Staff Team to the CEO READMEs](/handbook/ceo/office-of-the-ceo/readmes)
+- [Office of the CEO READMEs](/handbook/ceo/office-of-the-ceo/readmes)
 
 
 ### Creating Your README

@@ -54,7 +54,7 @@ These KPIs are determined by a combination of their stand alone importance to th
 
 ## CoST to the CEO KPIs
 
-{{< kpi "Chief of Staff Team" >}}
+{{< kpi "Office of the CEO" >}}
 
 ## Sales KPIs
 

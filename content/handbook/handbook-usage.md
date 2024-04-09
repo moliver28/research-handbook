@@ -251,7 +251,7 @@ Do not grant people maintainer access without an [Access Request](/handbook/busi
 
 The [description templates](https://docs.gitlab.com/ee/user/project/description_templates.html) for issues and merge requests in the various projects are respectively located in the `.gitlab/issue_templates` and `.gitlab/merge_request_templates` directories, and can be edited and changed with a new merge request.
 
-Changes to the default templates in `Default.md` require review by the [Chief of Staff Team to the CEO](/handbook/ceo/office-of-the-ceo/) or the [CEO](/handbook/ceo/). See `.gitlab/CODEOWNERS` for the current list of approvers.
+Changes to the default templates in `Default.md` require review by the [Office of the CEO](/handbook/ceo/office-of-the-ceo/) or the [CEO](/handbook/ceo/). See `.gitlab/CODEOWNERS` for the current list of approvers.
 
 ## The Internal handbook
 

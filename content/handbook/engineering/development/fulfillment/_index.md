@@ -87,7 +87,7 @@ The Sales & Go-To-Market stable counterpart will serve as the GTM DRI for strate
 
 {{< member-and-role-by-gitlab jlyttle mdunninger kslaats >}}
 
-### Chief of Staff Team to the CEO
+### Office of the CEO
 
 {{< member-and-role-by-gitlab "ipedowitz" >}}
 

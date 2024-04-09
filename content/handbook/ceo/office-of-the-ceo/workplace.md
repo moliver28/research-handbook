@@ -484,4 +484,4 @@ For a good template to roll this out for your team, see the [Growth team's plann
 
 ----
 
-Return to the [Chief of Staff Team to the CEO Handbook]({{< ref office-of-the-ceo >}}).
+Return to the [Office of the CEO Handbook]({{< ref office-of-the-ceo >}}).
