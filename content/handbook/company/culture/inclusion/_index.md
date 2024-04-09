@@ -129,7 +129,7 @@ Candidates are not limited by geography and we [champion this approach]({{< ref 
 
 By having no offices and allowing each GitLab team member to work and live where they are most comfortable, GitLab offers a uniquely inclusive culture.
 
-- All-remote means that you [will not sacrifice career advancement]({{< ref "/handbook/people-group/learning-and-development" >}}) by working outside of the office, as even GitLab executives are fully remote.
+- All-remote means that you [will not sacrifice career advancement](/handbook/people-group/learning-and-development) by working outside of the office, as even GitLab executives are fully remote.
 - All-remote creates a workplace where caregivers, individuals with physical disabilities, etc. are not disadvantaged for being unable to regularly commute into an office.
 - GitLab's approach to [Spending Company Money](/handbook/spending-company-money/) enables all team members to create a work environment uniquely tailored for them.
 - All-remote enables those who must relocate frequently for family and personal reasons to take their career with them.
@@ -263,9 +263,9 @@ We have created several TMRGs and welcome interest in creating new ones. Would y
 
 GitLab welcomes military veterans from around the world, as well as military spouses, to learn more about [life at GitLab]({{< ref "culture#life-at-gitlab" >}}) and to apply for [vacancies](https://about.gitlab.com/jobs/). We recognize the values gained from military experience, and we foster an [inclusive atmosphere]({{< ref "building-culture" >}}) to thrive in when returning to civilian life.
 
-Our [all-remote culture]({{< ref "all-remote" >}}) provides an ideal work environment for military veterans and spouses. By empowering team members to live and work where they are most comfortable, veterans and spouses can work in a safe, nurturing environment that they [choose and design]({{< ref "/handbook/company/culture/all-remote/workspace" >}}).
+Our [all-remote culture]({{< ref "all-remote" >}}) provides an ideal work environment for military veterans and spouses. By empowering team members to live and work where they are most comfortable, veterans and spouses can work in a safe, nurturing environment that they [choose and design](/handbook/company/culture/all-remote/workspace).
 
-We encourage military veterans and spouses to [read testimonials]({{< ref "/handbook/company/culture/all-remote/people#military-spouses-and-families" >}}) from GitLab team members to understand the benefits of all-remote when [joining the workforce]({{< ref "/handbook/company/culture/all-remote/getting-started" >}}) following military service. We are committed to our [Military Leave]({{< ref "/handbook/people-policies/leave-of-absence#military-leave" >}}) policy.
+We encourage military veterans and spouses to [read testimonials](/handbook/company/culture/all-remote/people#military-spouses-and-families) from GitLab team members to understand the benefits of all-remote when [joining the workforce](/handbook/company/culture/all-remote/getting-started) following military service. We are committed to our [Military Leave](/handbook/people-policies/leave-of-absence#military-leave) policy.
 
 *GitLab is actively [iterating]({{< ref "values#iteration" >}}) within Diversity, Inclusion & Belonging and Talent Acquisition to ensure that additional underrepresented groups are pursued, embraced, and positioned for success.*
 
@@ -279,9 +279,9 @@ The options of this field are:
 - No, I do not have a disability
 - Prefer Not to Answer
 
-If you are unsure how to answer, please review our [Individual with Disabilities Policy]({{< ref "/handbook/people-policies/inc-usa#individuals-with-disabilities-policy" >}}).
+If you are unsure how to answer, please review our [Individual with Disabilities Policy](/handbook/people-policies/inc-usa#individuals-with-disabilities-policy).
 
-At GitLab, we are proud to make reasonable accommodations to the known disability of a team member. Please review the [reasonable accommodation]({{< ref "/handbook/people-policies/inc-usa#reasonable-accommodation" >}}) handbook section if you need a reasonable accommodation due to your disability. Find more information on GitLab Inc's [Individuals with Disabilities]({{< ref "/handbook/people-policies/inc-usa#individuals-with-disabilities-policy" >}}) policy.
+At GitLab, we are proud to make reasonable accommodations to the known disability of a team member. Please review the [reasonable accommodation](/handbook/people-policies/inc-usa#reasonable-accommodation) handbook section if you need a reasonable accommodation due to your disability. Find more information on GitLab Inc's [Individuals with Disabilities](/handbook/people-policies/inc-usa#individuals-with-disabilities-policy) policy.
 
 #### Related Disability Legislation
 
@@ -307,7 +307,7 @@ The options of this field are:
 
 Above this field, we have a section titled `Veteran Status` that we ask our US-based team members to review and also complete during the onboarding process, if it applies to them and if they so wish. The reason we ask is because it is a legal requirement in the United States for us to request and document this information. We encourage our US-based GitLab team members to self-disclose their Veteran Status in our HRIS without any fear of judgment or negative consequences, but it is always optional. Again, all veteran status data is completely confidential, and only requested for mandatory reporting purposes.
 
-If you are a team member on a GitLab Inc or Federal contract and a disabled veteran you may request a “reasonable accommodation.” A reasonable accommodation is one that allows you to perform your job, and must be provided by GitLab unless doing so would cause GitLab significant difficulty or expense. A reasonable accommodation does not change essential job functions. GitLab can choose the type of reasonable accommodation that will be made available; however, the accommodation must be effective. More information on how to request a reasonable accommodation is available [here](https://www.dol.gov/ofccp/posters/ReasonableAccommodationPocketCard/index.htm). Please review the [reasonable accommodation]({{< ref "/handbook/people-policies/inc-usa#reasonable-accommodation" >}}) handbook section if you would like an accommodation due to your veteran status.
+If you are a team member on a GitLab Inc or Federal contract and a disabled veteran you may request a “reasonable accommodation.” A reasonable accommodation is one that allows you to perform your job, and must be provided by GitLab unless doing so would cause GitLab significant difficulty or expense. A reasonable accommodation does not change essential job functions. GitLab can choose the type of reasonable accommodation that will be made available; however, the accommodation must be effective. More information on how to request a reasonable accommodation is available [here](https://www.dol.gov/ofccp/posters/ReasonableAccommodationPocketCard/index.htm). Please review the [reasonable accommodation](/handbook/people-policies/inc-usa#reasonable-accommodation) handbook section if you would like an accommodation due to your veteran status.
 
 ### Diversity, Inclusion & Belonging Training and Learning Opportunities
 
@@ -363,8 +363,6 @@ We encourage collaboration with global organizations and programs that support u
 GitLab also provides additional support through the [GitLab Diversity Sponsorship program](https://about.gitlab.com/community/sponsorship/).
 We offer funds to help support the event financially, and if the event is in a city we have a GitLab team member, we get hands-on by offering to coach and/or give a talk whenever possible.
 
-Community members from all backgrounds are encouraged to join our [First Look](https://about.gitlab.com/community/gitlab-first-look/) UX research participant panel. Feedback from our community is what makes GitLab lovable and anyone is [able to sign up](https://gitlab.fra1.qualtrics.com/jfe/form/SV_51J9D8skLbWqdil?Source=d&i) to our research program for invites to usability tests, user interviews, surveys, and more.
-
 We encourage organizers of events that are supported through our [GitLab Diversity Sponsorship program](https://about.gitlab.com/community/sponsorship/) to share [this sign up link](https://gitlab.fra1.qualtrics.com/jfe/form/SV_51J9D8skLbWqdil?Source=d&i) with attendees. Everyone can contribute.
 
 
@@ -400,4 +398,4 @@ It's not about being warm and fuzzy and sharing your feelings. It's about being 
 When measuring diversity-focused performance indicators, we focus on top-of-funnel metrics, like pipeline, because they're [leading indicators](https://www.leadingagile.com/2018/02/leading-lagging-indicators/) which are better measures of where we are heading.
 It also helps reduce risk that we hire to the performance indicator, instead of hiring the best candidate.
 
-Like all performance indicators, our [Diversity Performance Indicators]({{< ref "/handbook/people-group/people-success-performance-indicators#key-performance-indicators" >}}) are on the [People Success Performance Indicator Page]({{< ref "/handbook/people-group/people-success-performance-indicators" >}}).
+Like all performance indicators, our [Diversity Performance Indicators](/handbook/people-group/people-success-performance-indicators#key-performance-indicators) are on the [People Success Performance Indicator Page](/handbook/people-group/people-success-performance-indicators).

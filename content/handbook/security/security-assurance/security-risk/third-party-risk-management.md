@@ -128,7 +128,7 @@ Circumstances may exist outside of those defined above that could necessitate fu
 
 If a Security Notice was documented at the time of the previous assessment, inquiry should be performed with the vendor or relevant stakeholder to determine the current status of the identified risk(s). Any updates should be documented within the Security Notice Issue. This can be performed in tandem with the requisition or after its approval.
 
-| Data Classification | Request | Supplemental Questionnaire in Zen? | Okta SSO? | New BIA / Tech Stack Entry? | BitSight Review? | Evidence of PenTest and BCP Testing |
+| Data Classification | Request | Supplemental Questionnaire in GRC? | Okta SSO? | New BIA / Tech Stack Entry? | BitSight Review? | Evidence of PenTest and BCP Testing |
 | ------ | ------ |------ |------ |------ |------ | ------ |
 |Red*     |3rd Party Attest & [SIG Lite Plus](https://docs.google.com/spreadsheets/d/1wvpY3oF8sG_UbnQzzlbXs85ahsfLiDQp/edit?usp=drive_link&ouid=103289635706160914358&rtpof=true&sd=true) (or equiv)|     Yes|          If applicable|     Yes|    If Applicable | Yes |
 |Orange SaaS Systems or Locally Hosted/Installed Systems with Data Exchange| 3rd Party Attest & [SIG Lite Plus](https://docs.google.com/spreadsheets/d/1wvpY3oF8sG_UbnQzzlbXs85ahsfLiDQp/edit?usp=drive_link&ouid=103289635706160914358&rtpof=true&sd=true) (or equiv)|     Yes|          Yes|     Yes|     Yes | Yes |
@@ -142,7 +142,7 @@ Software is inventoried in the tech stack regardless of data classification. See
 
 ### Acceptable Third-Party Attestations
 
-GitLab obtains and reviews third-party attestations to provide assurance over the design and operating effectiveness of a service provider's internal control environment. These attestations commonly include, but are not limited to, an ISO 27001 certificate or a SOC 2 Type 2 report. Alternate forms of attestations can be leveraged in the absence of these more common documents, though diligence should be performed by the assessor in determining whether the attestation provides sufficient coverage over the control environment and aligns with our assessment criteria.
+GitLab obtains and reviews third-party attestations to provide assurance over the design and operating effectiveness of a service provider's internal control environment. These attestations commonly include, but are not limited to, an ISO 27001 certificate or a Service Organization Control (SOC) 2 Type 2 report. Alternate forms of attestations can be leveraged in the absence of these more common documents, though diligence should be performed by the assessor in determining whether the attestation provides sufficient coverage over the control environment and aligns with our assessment criteria.
 
 **ISO 27001:** An ISO 27001 certificate can be leveraged as evidence of compliance with industry-standard security best practices. Though review of the certificate itself is not revelatory to the specific controls in place at the organization, the presence of a valid ISO 27001 certificate providing coverage over applicable services indicates that an external certifying body has performed testing to validate the design and operating effectiveness of controls related to the management team's continued performance of the following:
 - Systematic examination of the organization's information security risks, taking account of the threats, vulnerabilities, and impacts;
@@ -268,7 +268,7 @@ BitSight's Total Risk Monitoring is leveraged to obtain additional assurance ove
 
 - **BitSight Daily Alerting**
 
-Bitsight's Daily Alerting is leveraged to establish a system for continuously monitoring the security posture of GitLab's highest criticality vendors to identify and respond to potential risks and vulnerabilities promptly. The use of this service enables Security Risk to maintain a proactive approach to third party security management, operating 24/7 to help safeguard GitLab sensitive data and infrastructure effectively. Changes in GitLab's Tier 1 vendor's environments could lead to further security inquiries and investigations, a new security review, or TPRM Security Notice, depending on the severity and impact to GitLab.  
+Bitsight's Daily Alerting is leveraged to establish a system for continuously monitoring the security posture of GitLab's highest criticality vendors to identify and respond to potential risks and vulnerabilities promptly. The use of this service enables Security Risk to maintain a proactive approach to third party security management, operating 24/7 to help safeguard GitLab sensitive data and infrastructure effectively. Changes in GitLab's Tier 1 vendor's environments could lead to further security inquiries and investigations, a new security review, or TPRM Security Notice, depending on the severity and impact to GitLab.
 
 ### TPRM Approval Windows
 
@@ -292,9 +292,24 @@ The Security Risk team facilitates multiple functions to maintain accuracy of Te
 
 ### Complementary User Entity Controls (CUECs)
 
-Complementary User Entity Controls (CUECs) are commonly leveraged by vendors to support data security and adherence to service commitments. The vendor's control objectives cannot be met without proper design and implementation of these CUECs by GitLab. It is GitLab's responsibility to address these controls to support data security and prevent unauthorized data disclosure.
+Complementary User Entity Controls (CUECs) can be found in SOC Reports and are commonly leveraged by vendors to support data security and service commitments. Some vendor's control objectives cannot be met without proper design and implementation of these CUECs by GitLab. It is GitLab's responsibility to address these controls to support data security and prevent unauthorized data disclosure.
 
-In the performance of our TPRM reviews, the Security Risk team will obtain the vendor's SOC 2 report and determine whether CUECs are defined and relied upon by the vendor. If CUECs are defined, the Business Owner will be notified upon approval of the Zip requisition and instructed to review the CUECs and ensure controls are in place to address them. If controls are not already in place, the Business Owner is responsible for coordinating the implementation of these controls. This can be completed in collaboration with the Security Assurance team. Questions regarding CUECs can be directed to the #Sec-Assurance channel in Slack.
+In the performance of our TPRM reviews, the Security Risk team will obtain the vendor's SOC 2 report and determine whether CUECs are defined and relied upon by the vendor. If CUECs are defined, the Business Owner will be notified upon approval of the Zip requisition and instructed to review the CUECs and ensure controls are in place to address them. If controls are not already in place, the Business Owner is responsible for coordinating the implementation of these controls. This can be completed in collaboration with the Security Assurance team. We recommend creating an epic in your primary GitLab project titled `Application/Service Name CUEC Mapping`. An issue should be created for each CUEC that requires action. Issues would be closed once a documented plan or process is in place, ideally in the Handbook, including a mechanism for ensuring the controls take place periodically if needed. Common CUECs and guidance for each can be found in the table below. Note that the specific language defined in the vendor's SOC report may differ from the language below and may require a modified course of action.
+
+{{% details summary="(Expand to view chart)" %}}
+
+| # | CUEC | Guidance | Related [GCF Control(s)](https://handbook.gitlab.com/handbook/security/security-assurance/security-compliance/sec-controls/#gitlab-control-framework-gcf) |
+|---|:-----|:---------| -----------------------|
+|1|Ensuring accuracy of data shared with vendor|We should reduce the risk of [data quality problems](/handbook/business-technology/data-team/data-quality/#types-of-data-quality-problems) which can arise when moving data from one system to another. This can be done by comparing source data to destination data. Queries used to generate the data should be reviewed to ensure things aren't filtered out inappropriately.| SC-8 |
+|2|Adding and removing access to the application|For new applications, the Tech Stack Add process should facilitate on-boarding applications into our [access request](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/) and [off-boarding](/handbook/business-technology/tech-stack-applications/#updating-the-offboarding-templates) processes. For existing applications, ensure that the processes mentioned above are followed for your application.| AC-2|
+|3|Controlling access to our network|We don't have a [traditional enterprise network](/handbook/security/architecture/zero-trust/#zero-trust). Integrating with [Okta](/handbook/business-technology/okta/#why-isnt-an-application-i-need-available-in-okta) should help ensure access to the application is gated behind multi-factor authentication and is accessible only through Okta.|AC-17|
+|4|Reviewing access to the application|Access Reviews for Tier 1 and Tier 2 systems that are in scope for our [compliance and regulatory programs](https://handbook.gitlab.com/handbook/business-technology/tech-stack-applications/#compliance). System owners of Tier 1/2/3 systems that are not in scope for our compliance and regulatory program are highly encouraged to perform a minimum of an annual terminated access review for their owned systems using [this process](https://handbook.gitlab.com/handbook/security/security-assurance/security-compliance/access-reviews/) as a guide. Access reviews for Tier 4 systems are not required. To request an ad-hoc access review, create a request issue [here](https://gitlab.com/gitlab-com/gl-security/security-assurance/team-commercial-compliance/user-access-review/-/issues/new?issuable_template=Ad-Hoc%20User%20Access%20Review%20Request). Reminders of the periodic review can be set up as Google Calendar events on a shared calendar or an issue can be created on scheduled pipeline in GitLab.| AC-6 |
+|5|Notify vendor of changes timely|Work with the vendor to understand which changes need to be communicated. A common instance is when someone leaves a company that was considered a primary or secondary point of contact for the vendor or in the event of a security breach. Establish a process for documenting these scenarios, how they're communicated, and SLAs for doing so.| SR-8 |
+|6|Establishing disaster recovery procedures|We should be prepared for an outtage of the application. Would we be able to reproduce the data that isn't available due to the outtage? Document a procedure for how we would respond to an outage of an application.| CP-2 |
+
+{{% /details %}}
+
+Questions regarding CUECs can be directed to the #sec-assurance channel in Slack.
 
 ### Exceptions to the TPRM Process
 
@@ -395,15 +410,17 @@ Please refer to our [StORM Handbook]({{< ref "storm-program#accept-the-risk" >}}
 
 ### Technical Security Validations
 
-TPRM partners with GitLab's [Security Research team](/handbook/security/threat-management/security-research/) to facilitate Technical Security Validations (TSVs) for systems that have been identified during a TPRM review to have deficiencies in the design or operation of their security controls. These validations are triggered during our Security Notice process and include a deeper look into the security configurations of a system and their impact to GitLab. Areas of concern identified during the TSV process are documented within the TSV issue and integrated into the related Security Notice to provide greater assurance to GitLab and support informed decisions by stakeholders.
+TPRM partners with GitLab's [Security Research team](/handbook/security/threat-management/security-research/) to facilitate [Technical Security Validations (TSVs)](https://gitlab.com/gitlab-com/gl-security/security-assurance/technical-security-validation/-/issues/new?issue[title]=Technical%20Security%20Validation%20-%20%5BVendor%2FSoftware%20Name%5D&issuable_template=TSV%20Intake%20Template) for systems that have been identified during a TPRM review to have deficiencies in the design or operation of their security controls. These validations are triggered during our Security Notice process and include a deeper look into the security configurations of a system and their impact to GitLab. Areas of concern identified during the TSV process are documented within the TSV issue and integrated into the related Security Notice to provide greater assurance to GitLab and support informed decisions by stakeholders.
+
+Completion of the TSV may be required prior to approval of the associated requisition, depending on factors such as severity of the identified deficiency, sensitivity of data transmitted, and criticality of the system. This approach is taken to facilitate a more informed business decision prior to the introduction or continued presence of data within potentially insecure environments. The Business Owner will be notified of this and can appeal the delay if it may cause a business disruption or lapse in payment to the vendor.
 
 ## Exceptions to the TPRM Process
 
-Exceptions to this procedure will be tracked as per the [Information Security Policy Exception Management Process]({{< ref "/handbook/security#information-security-policy-exception-management-process" >}}).
+Exceptions to this procedure will be tracked as per the [Information Security Policy Exception Management Process](/handbook/security#information-security-policy-exception-management-process).
 
 ## References
 
-- Parent Policy: [Information Security Policy]({{< ref "/handbook/security" >}})
+- Parent Policy: [Information Security Policy](/handbook/security)
 - [GCF Compliance Controls](/handbook/security/security-assurance/security-compliance/sec-controls/)
 - [Data Classification Standard]({{< ref "data-classification-standard" >}})
 - [Current listing of controlled documents](https://gitlab.com/gitlab-com/gl-security/security-assurance/governance/security-governance/-/issues/42)

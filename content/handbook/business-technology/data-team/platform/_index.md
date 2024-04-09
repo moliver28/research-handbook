@@ -566,7 +566,7 @@ To use our credit consumption effectively, we try to minimize the amount of ware
 | `gainsight_xs`       | This is used for gainsight data pump                                                            | 30                  |
 | `gitlab_postgres`    | This is for extraction jobs that pull from GitLab internal Postgres databases                   | 10                  |
 | `grafana`            | This is exclusively for Grafana to use                                                          | 60                  |
-| `loading`            | This is for our Extract and Load jobs and testing new Meltano loaders                           | 60                  |
+| `loading`            | This is for our Extract and Load jobs and testing new Meltano loaders                           | 120                  |
 | `reporting`          | This is for the BI tool for querying.           | 30*                 |
 | `transforming_xs`    | These are for production dbt jobs                                                               | 180                 |
 | `transforming_s`     | These are for production dbt jobs                                                               | 180                 |
@@ -995,7 +995,7 @@ The Qualtrics mailing list data pump process, also known in code as `Qualtrics S
 
 During the process, the Google Sheet is updated to reflect the process' status.  The first column's name is set to `processing` when the process begins, and then is set to `processed` when the mailing list and contacts have been uploaded to Qualtrics.  Changing the column name informs the requester of the process' status, assists in debugging, and ensures that a mailing list is only created once for each spreadsheet.
 
-The end user experience is described on the [UX Qualtrics page](/handbook/product/ux/qualtrics/#distributing-your-survey-to-gitlabcom-users).
+The end user experience is described on the [UX Qualtrics page](/handbook/product/ux/ux-research/surveys/qualtrics/#distributing-your-survey-to-gitlabcom-users).
 
 ##### Debugging to Qualtrics Processes
 

@@ -35,20 +35,20 @@ Team members in Belgium should keep a basic first aid kit in their home, as per 
 
 ## Belgium Holiday Schedule
 
-Pursuant to article 13 of the law on paid public holidays, employers are obliged to inform employees of observance holidays granted in lieu of public holidays which fall on a Sunday or another day of inactivity. Below is the 2023 Holiday and Observance schedule for Team Members in Belgium:
+Pursuant to article 13 of the law on paid public holidays, employers are obliged to inform employees of observance holidays granted in lieu of public holidays which fall on a Sunday or another day of inactivity. Below is the 2024 Holiday and Observance schedule for Team Members in Belgium:
 
 | Date                     | Holiday | Replacement Day |
 |--------------------------|:---:|:----:|
-| Sunday January 1st         | New Year's Day  | Monday January 2, 2023 |
-| Monday April 10th     | Easter Monday  |  |
-| Monday May 1st | Labour Day  |  |
-| Thursday May 18th   | Ascension Day  |  |
-| Monday May 29th        | Whit Monday   |  |
-| Friday July 21st     | National Holiday  |  |
-| Tuesday August 15th | Assumption Day  |  |
-| Wednesday November 1st  | All Saints Day   | |
-| Saturday November 11th    | Armistice  | Friday November 10th |
-| Monday December 25th     | Christmas  |  |
+| Monday January 1st         | New Year's Day  | |
+| Monday April 1st     | Easter Monday  |  |
+| Wednesday May 1st | Labour Day  |  |
+| Thursday May 9th   | Ascension Day  |  |
+| Monday May 20th        | Whit Monday   |  |
+| Sunday July 21st     | National Holiday  | Monday July 22nd |
+| Thursday August 15th | Assumption Day  |  |
+| Friday November 1st  | All Saints Day   | |
+| Monday November 11th    | Armistice  | |
+| Wednesday December 25th     | Christmas  |  |
 
 ## GitLab B.V. Belgium Leave Policy
 

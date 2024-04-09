@@ -11,14 +11,30 @@ The Developer Advocacy team creates content that can be reused for campaigns. Al
 
 You can search for relevant content and contact the team in the linked content epics or in the [#dev-advocacy-team](https://app.slack.com/client/T02592416/CMELFQS4B) Slack channel.
 
+### Product Adoption Initiatives
+
+- [FY25 GitLab Duo adoption - Developer Relations epic](https://gitlab.com/groups/gitlab-com/marketing/developer-relations/-/epics/475) (internal).
+- [FY25 CI/CD adoption - Developer Relations epic](https://gitlab.com/groups/gitlab-com/marketing/developer-relations/-/epics/466) (internal)
+
+### Blog posts
+
+- [Abubakar Siddiq Ango](https://about.gitlab.com/blog/authors/abuango/)
+- [Cesar Saavedra](https://about.gitlab.com/blog/authors/csaavedra1/)
+- [Fatima Sarah Khalid](https://about.gitlab.com/blog/authors/sugaroverflow/)
+- [Fernando Diaz](https://about.gitlab.com/blog/authors/fjdiaz/)
+- [John Coghlan](https://about.gitlab.com/blog/authors/johncoghlan/)
+- [Itzik Gan Baruch](https://about.gitlab.com/blog/authors/iganbaruch/)
+- [Michael Friedrich](https://about.gitlab.com/blog/authors/dnsmichi/)
+- [William Arias](https://about.gitlab.com/blog/authors/warias/)
+
 ### Click-through Demos
 
 Click-through demos are product simulation demonstrations that can be used for self-guided training. They are invaluable for delivering demos to customers in areas with limited internet connectivity or complex environments, where preparation is necessary to showcase the flow. Toggle off the click boxes and speaker notes using fn+F2 to experience the real look and feel of the product.
 
-* [GitLab Duo (AI) - July 23](https://tech-marketing.gitlab.io/static-demos/ai-demos.html)
-* [Remote Development - May 23](https://tech-marketing.gitlab.io/static-demos/workspaces/ws_html.html)
-* [Feature Flags - June 23](https://tech-marketing.gitlab.io/static-demos/feature-flags/feature-flags-html.html)
-* [CI Overview - Oct 20](https://tech-marketing.gitlab.io/static-demos/ci_overview_v1.html)
+* [GitLab Duo (AI) - 2023-07-23](https://tech-marketing.gitlab.io/static-demos/ai-demos.html)
+* [Remote Development - 2023-05-23](https://tech-marketing.gitlab.io/static-demos/workspaces/ws_html.html)
+* [Feature Flags - 2023-06-23](https://tech-marketing.gitlab.io/static-demos/feature-flags/feature-flags-html.html)
+* [CI Overview - 2023-10-23](https://tech-marketing.gitlab.io/static-demos/ci_overview_v1.html)
 
 Note: The demos can be run offline in the absence of internet connectivity. To do so, you can directly obtain the necessary HTML files from [here](https://gitlab.com/tech-marketing/static-demos/-/tree/master/public).
 
@@ -26,19 +42,28 @@ Note: The demos can be run offline in the absence of internet connectivity. To d
 
 Product tours are a self-guided journey emphasizing the 'What' of a feature, skipping the 'How-to' steps to directly showcase the value aspects.
 
-* [Resolving vulnerabilities with GitLab Duo (AI) - Feb 24](https://tech-marketing.gitlab.io/static-demos/pt-explain-vulnerability.html)
-* [CI/CD Catalog beta - Jan 24](https://gitlab.navattic.com/cicd-catalog)
-* [Integrating security to the pipeline - Jan 24](https://gitlab.navattic.com/gitlab-scans)
-* [Code Suggestions - Jan 24](https://gitlab.navattic.com/code-suggestions)
+* [Interactive infographic - 2024-03-24](https://tech-marketing.gitlab.io/static-demos/gitlab-infographic.html)
+* [Resolving vulnerabilities with GitLab Duo (AI) - 2024-02-24](https://tech-marketing.gitlab.io/static-demos/pt-explain-vulnerability.html)
+* [CI/CD Catalog beta - 2024-01-24](https://gitlab.navattic.com/cicd-catalog)
+* [Integrating security to the pipeline - 2024-01-24](https://gitlab.navattic.com/gitlab-scans)
+* [Code Suggestions - 2024-01-24](https://gitlab.navattic.com/code-suggestions)
 
+### Maintained talks
+
+These golden talk slide decks provide storytelling for lightning talks at events, speaking engagements, customer workshops, etc. You can use the slide decks for your own talks, workshops, etc. or repurpose specific slides into new stories.
+
+These talks are maintained throughout FY25:
+
+- "Efficient DevSecOps workflows with a little help from AI" ([resources](https://gitlab.com/groups/gitlab-com/marketing/developer-relations/-/epics/402#resources))
+- "Efficient DevSecOps workflows with reusable CI/CD components" ([resources](https://gitlab.com/groups/gitlab-com/marketing/developer-relations/-/epics/399#resources))
 
 ### Projects
 
-Source code, demo projects, workshops, etc. are documented in the [Projects handbook](/handbook/marketing/developer-relations/developer-advocacy/projects/).
+Source code, demo projects, workshops, tutorials, research, etc. are documented in the [Projects handbook](/handbook/marketing/developer-relations/developer-advocacy/projects/). This includes use cases for GitLab Duo (AI), CI/CD components, DevSecOps and Security, Remote Development, GitLab API, etc.
 
 ### YouTube playlists
 
-- [Developer Evangelism](https://www.youtube.com/playlist?list=PL05JrBw4t0Kq-bYO9jCJaN45BBpzWSLAQ) with talks, workshops and community engagements.
+- [Developer Advocacy](https://www.youtube.com/playlist?list=PL05JrBw4t0Kq-bYO9jCJaN45BBpzWSLAQ) with talks, workshops and community engagements.
 - [GitLab Duo Coffee Chat](/handbook/marketing/developer-relations/developer-advocacy/projects/#gitlab-duo-coffee-chat)
 
 

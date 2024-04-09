@@ -42,7 +42,7 @@ Exit Criteria are avaialable in the [17.0 Major Release Coordination Epic](https
 
 | Working Group Role                       | Person                           | Title                                                          |
 |------------------------------------------|----------------------------------|----------------------------------------------------------------|
-| Executive Stakeholder                    | Josh Lemos (@clefelhocz1)           | CISO |
+| Executive Stakeholder                    | Josh Lemos (@joshlemos)           | CISO |
 | Facilitator/DRI                          | Sam Wiskow (@swiskow)                 | Sr. PM, Delivery & Scalability - Infra |
 | Product Management                       | Mike flouton (@mflouton )         | VP - Product |
 | Member                                   | Marin Jankovski (@marin)        | Senior Director - Infrastructure, SaaS Platforms  |

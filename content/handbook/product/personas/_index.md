@@ -71,8 +71,10 @@ We describe the following personas in terms of the jobs they do, their motivatio
   1. [Isaac, Infrastructure Security Engineer](/handbook/product/personas/#isaac-infrastructure-security-engineer)
   1. [Alex, Security Operations Engineer](/handbook/product/personas/#alex-security-operations-engineer)
   1. [Cameron, Compliance Manager](/handbook/product/personas/#cameron-compliance-manager)
+  1. [Daphne, Data Scientist](/handbook/product/personas/#daphne-data-scientist)
+  1. [Mia, ML Engineer](/handbook/product/personas/#mia-ml-engineer)
 
-#### Personas across stages
+#### User Personas across stages
 
 Our personas span across stages (see table below for a depiction of how our user personas map across stages). Understanding how our personas map across stages helps us understand how to collaborate cross-functionally to support their needs.
 
@@ -81,6 +83,14 @@ Our personas span across stages (see table below for a depiction of how our user
 </figure>
 
 *Note: To change the table above, team members can edit the [Google Slide deck](https://docs.google.com/presentation/d/1IVDu5RIlywcRCqpkXzdSG7lW8dNiE_XHq54GdI7lkfk/edit?usp=sharing).*
+
+#### User Personas across Use Cases
+
+<figure class="video_container">
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQU1Lm4fyZvEk4TrkQ-kNDZWA5MVb9fNuqaDPzXaZjCE3PYL8BQ0nSD5Hfw34fSNq_of3E-U3G6fyRL/embed?start=false&loop=false&delayms=15000" frameborder="0" width="1220" height="620" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+</figure>
+
+*Note: To change the tables above, team members can edit the [Google Slide deck](https://docs.google.com/presentation/d/1iit_S9U81iVdLuIc9hgrG68ewlr5U0bSGQLsbQNGMOc/edit?usp=sharing).*
 
 #### Parker (Product Manager)
 

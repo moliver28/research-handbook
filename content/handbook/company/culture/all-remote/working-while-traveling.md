@@ -14,7 +14,7 @@ On this page, we're detailing considerations for optimizing comfort and efficien
 
 ## Connect to the Internet securely
 
-When possible, do not connect to public WiFi networks. If a public WiFi network is your only option, it's crucial to employ robust security measures such as using a [personal VPN](../../../tools-and-tips/personal-vpn/#what-is-a-personal-vpn).
+When possible, do not connect to public WiFi networks. If a public WiFi network is your only option, it's crucial to employ robust security measures such as using a [personal VPN](/handbook/tools-and-tips/personal-vpn/#what-is-a-personal-vpn).
 
 Additionally, GitLab team members should be wary of connecting to unsecured networks or accessing sensitive information over public connections, even when using a VPN. When Ethernet connections are available, they generally offer a more secure option than WiFi due to their physical nature, but it's still essential to verify the network's authenticity and utilize encryption protocols whenever possible.
 

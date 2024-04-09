@@ -13,9 +13,7 @@ Be sure to read GitLab's [guidelines to effective and responsible communication]
 
 ## Tips for better writing
 
-Writing is a skill which can be learned. *Great* writing involves mastering proven principles and understanding how narratives influence thoughts and actions. Below, we've documented a series of principles which are commonly linked to writing procedures at Amazon, but are useful approaches for anyone communicating in a professional setting.
-
-{{% tweet user="alexgarcia_atx" id="1439597358698807312" %}}
+Writing is a skill which can be learned. *Great* writing involves mastering proven principles and understanding how narratives influence thoughts and actions. Below, we've documented a series of principles which are commonly linked to writing procedures at Amazon (source: [Alex Garcia's X (Twitter) thread](https://twitter.com/alexgarcia_atx/status/1439597358698807312)), but are useful approaches for anyone communicating in a professional setting.
 
 1. **Use short sentences**. Ideally, sentences should have fewer than 15 words. This improves clarity. The [Hemingway Editor](https://hemingwayapp.com/) helps achieve this.
 1. **Cut common phrases**. Example: replace "due to the fact" with "because."
@@ -33,13 +31,13 @@ Writing is a skill which can be learned. *Great* writing involves mastering prov
 
 *The topics covered on this page were discussed in a GitLab Live Learning session, which was recorded and uploaded to [GitLab Unfiltered](https://youtu.be/QTPeyRW766Q), and is embedded above.*
 
-In an all-remote organization with team members spread across an array of time zones, communicating through text is ideal. Not only is it inclusive and considerate, but a bias towards communicating through text creates a company that [documents everything]({{< ref "/handbook/documentation" >}}).
+In an all-remote organization with team members spread across an array of time zones, communicating through text is ideal. Not only is it inclusive and considerate, but a bias towards communicating through text creates a company that [documents everything](/handbook/documentation).
 
 Documentation is an essential competitive advantage. Companies which rely on vocalizing end up repeating themselves over and over in meetings, creating an inefficient environment with tremendous opportunity for knowledge leaks. While communicating and documenting through text may feel like a burden in the moment, it prevents a toxic cycle of meetings and touch points which serve only to "bring people up to speed."
 
 [Tim Casasola](https://twitter.com/timcasasola) of Sanctuary Computer [asserts](http://www.timcasasola.com/blog/writing) that "great writing makes remote work better. It saves time, reduces meetings, removes extrovert bias, and invites other perspectives."
 
-Communicating answers to problems via text makes documentation easier. Rather than transcribing one's voice, one must simply copy and paste in a structured format within a company's [handbook]({{< ref "/handbook" >}}). It's vital to understand that nurturing this habit serves more than the person receiving the answer. It is, in essence, paying it forward. Documenting solutions makes a more efficient future for every new hire who joins and asks the same question, not to mention existing team members who join a project or conversation midstream and need to understand what steps have been taken thus far (and why).
+Communicating answers to problems via text makes documentation easier. Rather than transcribing one's voice, one must simply copy and paste in a structured format within a company's [handbook](/handbook). It's vital to understand that nurturing this habit serves more than the person receiving the answer. It is, in essence, paying it forward. Documenting solutions makes a more efficient future for every new hire who joins and asks the same question, not to mention existing team members who join a project or conversation midstream and need to understand what steps have been taken thus far (and why).
 
 Below are several additional reasons to master the art of textual communication in a business.
 
@@ -153,7 +151,7 @@ When communicating, it's your responsibility to own how something impacted someo
 
 ## GitLab Knowledge Assessment: Communicating effectively and responsibly through text
 
-Complete all knowledge assessments in the [Remote Work Foundation certification]({{< ref "remote-certification" >}}) to receive the [Remote Foundations Badge in GitLab Learn](https://gitlab.edcast.com/pathways/copy-of-remote-foundations-badge). If you have questions, please reach out to our [Learning & Development team]({{< ref "/handbook/people-group/learning-and-development" >}}) at `learning@gitlab.com`.
+Complete all knowledge assessments in the [Remote Work Foundation certification]({{< ref "remote-certification" >}}) to receive the [Remote Foundations Badge in GitLab Learn](https://gitlab.edcast.com/pathways/copy-of-remote-foundations-badge). If you have questions, please reach out to our [Learning & Development team](/handbook/people-group/learning-and-development) at `learning@gitlab.com`.
 
 
 {{% include "includes/is_this_advice_any_good_remote.md" %}}

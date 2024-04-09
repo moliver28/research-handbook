@@ -569,7 +569,7 @@ Candidates for this position can expect the hiring process to follow the order b
 - Video Interview with the Hiring Manager
 - Team Interviews with 1-4 team members
 
-Additional details about our process can be found on our [hiring page]({{< ref "/handbook/hiring" >}}).
+Additional details about our process can be found on our [hiring page](/handbook/hiring).
 
 
 

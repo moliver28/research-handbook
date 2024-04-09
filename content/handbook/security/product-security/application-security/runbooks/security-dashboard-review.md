@@ -38,7 +38,7 @@ For each finding:
 - For a valid report:
     - Change the status to `Confirmed`
     - Click `Create Issue`
-    - Assign [Priority and Severity labels]({{< ref "/handbook/security/engaging-with-security#severity-and-priority-labels-on-security-issues" >}}) based on the finding rating and the impact on GitLab
+    - Assign [Priority and Severity labels](/handbook/security/engaging-with-security#severity-and-priority-labels-on-security-issues) based on the finding rating and the impact on GitLab
     - Assign a [Due Date]({{< ref "engaging-with-security#due-date-on-security-issues" >}})
     - add labels (`/label ~` command) corresponding to the [DevOps stage](/handbook/product/categories/#devops-stages) and source group (consult the [Hierarchy](/handbook/product/categories/#hierarchy) for an overview on categories forming the hierarchy)
     - @-mention product manager of appropriate teams for scheduling and/or the engineering managers if additional engineering feedback is required to complete the triage, based on the [product categories page](/handbook/product/categories/)

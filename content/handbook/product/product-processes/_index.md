@@ -497,7 +497,7 @@ Application limits should be enabled by default. If we are considering enabling 
     - Document the limit for customers on the [instance limits](https://gitlab.com/help/administration/instance_limits.md) help page, ensuring the limit for gitlab.com is specified. Include instructions on how the limit can be changed on self-managed instances.
     - If the limit is time based, link to that section from the [Rate limits page](https://docs.gitlab.com/ee/security/rate_limits.html)
 - **Communicate the limits in the release post** - When the limit is rolled out, make sure to document this change in the next release post.
-- **Communicate directly to affected users** - Especially if the limit is going to have a significant impact to users, consider reaching out directly to notify those users of the change, and any available remedies, workarounds, or best practices that may help mitigate that impact. To send out an email to affected users, [work with Support to create an email request](/handbook/support/workflows/internal_requests.html#contact-request).
+- **Communicate directly to affected users** - Especially if the limit is going to have a significant impact to users, consider reaching out directly to notify those users of the change, and any available remedies, workarounds, or best practices that may help mitigate that impact. To send out an email to affected users, [work with Support to create an email request](/handbook/support/workflows/internal_requests/#contact-request).
 
 ### Cross-stage features
 
@@ -1279,9 +1279,9 @@ We recently [conducted a GTM and R&D sensing mechanism survey](https://gitlab.co
 1. Engaging with our community alongside our [Developer Relations team](/handbook/marketing/developer-relations/) and [triaging](https://docs.gitlab.com/ee/development/contributing/issue_workflow.html#issue-triaging) community generated issues and ideas
 1. Reviewing [top up voted issues](#category-strategy)
 1. Engagement directly with [customers](#a-customer-expressed-interest-in-a-feature) and via the [customer](https://gitlab.com/groups/gitlab-org/-/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name%5B%5D=customer) label
-1. [Requesting](/handbook/product/ux/ux-research/#how-to-request-research) and analyzing [results](https://gitlab.com/gitlab-org/uxr_insights) from [UX research](/handbook/product/ux/ux-research/) via the [First Look](https://about.gitlab.com/community/gitlab-first-look/) research panel. Checkout this brief [video tutorial](https://www.youtube.com/watch?v=9U7hhGzRscs&feature=youtu.be)
-1. A summary of previous user interviews can be found under the [User interview project](https://gitlab.com/gitlab-com/user-interviews)
-1. All UX Research is being transcribed in [Dovetail](https://dovetailapp.com/)
+2. [Requesting](/handbook/product/ux/ux-research/#how-to-request-research) and analyzing [results](https://gitlab.com/gitlab-org/uxr_insights) from [UX research](/handbook/product/ux/ux-research/).
+3. A summary of previous user interviews can be found under the [User interview project](https://gitlab.com/gitlab-com/user-interviews)
+4. All UX Research is being transcribed in [Dovetail](https://dovetailapp.com/)
 
 ###### Buyer
 

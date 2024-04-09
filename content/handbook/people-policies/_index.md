@@ -22,7 +22,7 @@ These policies apply to all GitLab team members, contractors, advisors, and cont
 
 ## Translations
 
-There are translations available of many of our policies, for reference purposes, currently in Dutch, French and German, with further additions planned during FY25. They can be accessed [here](https://drive.google.com/drive/folders/1ZYIAuqGcIpaYVg8hMVDneK1FJg1b8zkN?usp=drive_link).  
+There are translations available of many of our policies, for reference purposes, currently in Dutch, French and German, with further additions planned during FY25. They can be accessed [here](https://drive.google.com/drive/folders/1ZYIAuqGcIpaYVg8hMVDneK1FJg1b8zkN?usp=drive_link).
 
 ## General Employment Practices
 
@@ -96,7 +96,7 @@ Team members also have obligations to protect the personal and sensitive informa
 
 ### Exceptions
 
-Exceptions to this procedure will be tracked as per the [Information Security Policy Exception Management Process]({{< ref "/handbook/security#information-security-policy-exception-management-process" >}}). For reference see the [Parent Policy: Information Security Policy]({{< ref "/handbook/security" >}}).
+Exceptions to this procedure will be tracked as per the [Information Security Policy Exception Management Process](/handbook/security#information-security-policy-exception-management-process). For reference see the [Parent Policy: Information Security Policy](/handbook/security).
 
 ### Anti-Harassment
 
@@ -112,7 +112,7 @@ Please see the [Complaint Procedure](/handbook/people-group/#how-to-report-viola
 
 ### Social Responsibility
 
-Please see our [Environmental, Social, and Governance]({{< ref "/handbook/esg" >}}) page.
+Please see our [Environmental, Social, and Governance](/handbook/esg) page.
 
 ### Personal Appearance
 
@@ -144,7 +144,7 @@ In general, please consider the following recommendations to ensure safety when 
 1. Try not to draw attention. People who appear to be from out of town are more vulnerable to crimes. Try to respect the culture you are visiting by blending in. Consider protective clothing to avoid pickpockets or other theft. Do not flash money or credit cards unnecessarily.
 1. Make copies of important documents. Consider carrying hard copies of important documents (passport, driver's license) in a separate location in the event your documents are misplaced or stolen.
 1. Keep friends and family updated. No matter whether you’re going on an overnight jaunt or a week-long international journey, it’s always a good idea to let friends or family know your plans. Before you leave, send a copy of your itinerary to a few trusted people who can keep tabs on your whereabouts. Check in regularly with your contacts so they know you’re where you’re supposed to be.
-1. Be wary of public Wi-Fi. Be aware that hackers can steal sensitive information in the public forum. Use a VPN or other secure access if you plan to access sensitive data. More information on [VPN usage at GitLab]({{< ref "/handbook/security#why-we-dont-have-a-corporate-vpn" >}}) and the [Personal VPN]({{< ref "personal-vpn" >}}) page.
+1. Be wary of public Wi-Fi. Be aware that hackers can steal sensitive information in the public forum. Use a VPN or other secure access if you plan to access sensitive data. More information on [VPN usage at GitLab](/handbook/security#why-we-dont-have-a-corporate-vpn) and the [Personal VPN]({{< ref "personal-vpn" >}}) page.
 1. Safeguard your hotel. Lock and deadbolt the door while you are in the room. Ensure the door is locked when you leave. Keep the windows closed. Try to give the impression that you’re in your room even when you’re away, such as placing the Do Not Disturb sign on the outside of your door and keeping the blinds or windows closed. Don’t let any strangers into your room, even if they say they work for the hotel. You can always call the front desk to check whether someone was ordered by hotel staff to come to your room.
 1. Be aware of your surroundings. Always keep an eye on your personal belongings and use good judgment when talking to strangers. A big part of the joy of traveling is the opportunities it affords to meet new people and learn about their cultures. But if someone near you is acting suspiciously, or if you feel uncomfortable, leave the area immediately. Trust your instincts.
 1. Adhere to any recommended safety recommendations made by the GitLab group. For all large self-hosted events we (jointly completed by our internal security team and our contracted security agency) will do a full risk assessment before we converge. It will be up to employees to read said risk assessment and adhere to recommendations outlined.

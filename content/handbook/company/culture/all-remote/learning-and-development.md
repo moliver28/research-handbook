@@ -7,7 +7,7 @@ twitter_site: "@gitlab"
 twitter_creator: "@gitlab"
 ---
 
-On this page, we're detailing how [learning and development (L&D)]({{< ref "/handbook/people-group/learning-and-development" >}}) works in a global all-remote company.
+On this page, we're detailing how [learning and development (L&D)](/handbook/people-group/learning-and-development) works in a global all-remote company.
 
 ## How does learning and development (L&D) work in an all-remote environment?
 
@@ -21,7 +21,7 @@ In an all-remote company, learning and development can still occur on a face-to-
 
 We believe that all-remote companies are at a competitive advantage when it comes to educating and developing team members. Across the [spectrum of learning styles](https://www.duq.edu/about/centers-and-institutes/center-for-teaching-excellence/teaching-and-learning/discover-your-learning-style), all-remote companies are able to easily scale training sessions, give team members greater agency over their development, and include historical cultural elements in [onboarding procedures]({{< ref "./onboarding" >}}).
 
-Learn more about [learning and development at GitLab in our Handbook]({{< ref "/handbook/people-group/learning-and-development" >}}).
+Learn more about [learning and development at GitLab in our Handbook](/handbook/people-group/learning-and-development).
 
 ## Benefits to all-remote L&D
 
@@ -43,9 +43,9 @@ Most challenges associated with all-remote L&D can be addressed at the [hiring s
 
 ### How can teams overcome remote L&D challenges?
 
-Clear communication is one of the best ways to overcome remote challenges.[GitLab's handbook]({{< ref "/handbook" >}}) captures everything an employee needs to know promoting autonomy and [efficiency]({{< ref "values#efficiency" >}}) for communication, processes, and procedures by putting everything in one place.
+Clear communication is one of the best ways to overcome remote challenges.[GitLab's handbook](/handbook) captures everything an employee needs to know promoting autonomy and [efficiency]({{< ref "values#efficiency" >}}) for communication, processes, and procedures by putting everything in one place.
 
-Managers can set, share, and track team goals, or ["objectives and key results" (OKRs)]({{< ref "/handbook/company/okrs" >}}) for visibility across the team and company.
+Managers can set, share, and track team goals, or ["objectives and key results" (OKRs)](/handbook/company/okrs) for visibility across the team and company.
 
 One potential downside for all-remote teams is having timely and adequate access to people and information. Managers can ensure everyone has the needed access to information by [documenting everything]({{< ref "values#write-things-down" >}}).
 
@@ -57,13 +57,13 @@ One potential downside for all-remote teams is having timely and adequate access
 
 Learning involves much more than comprehending what's necessary to complete a job. In fact, we hope candidates aspire to learn about GitLab's [history]({{< ref "history" >}}), [all-remote culture]({{< ref "culture" >}}), and [values]({{< ref "values" >}}) prior to joining the company.
 
-The above would be difficult, if not impossible, to achieve without a commitment to [documentation]({{< ref "./handbook-first" >}}). Documentation is so important at GitLab that we have a [section of our Handbook devoted to it]({{< ref "/handbook/documentation" >}}).
+The above would be difficult, if not impossible, to achieve without a commitment to [documentation]({{< ref "./handbook-first" >}}). Documentation is so important at GitLab that we have a [section of our Handbook devoted to it](/handbook/documentation).
 
 Particularly in all-remote companies — where everything from [interviewing]({{< ref "./interviews" >}}) to [onboarding]({{< ref "./onboarding" >}}) to [career development]({{< ref "career-development" >}}) takes place outside of a central office — regimented [documentation]({{< ref "./handbook-first" >}}) is the only way to ensure future team members have access to the same information as past and current team members. Even if you've already started a company but have failed to document key learnings, it's never too late to start.
 
 ### Handbook first
 
-GitLab's Handbook would [cover thousands of pages if printed]({{< ref "/handbook/about#count-handbook-pages" >}}). Each page is loaded with institutional knowledge on important topics like [hiring]({{< ref "/handbook/hiring" >}}), [values]({{< ref "values" >}}), and [benefits]({{< ref "benefits" >}}), Content is contributed, refreshed, and refined by hundreds of team members across the company.
+GitLab's Handbook would [cover thousands of pages if printed](/handbook/about#count-handbook-pages). Each page is loaded with institutional knowledge on important topics like [hiring](/handbook/hiring), [values]({{< ref "values" >}}), and [benefits]({{< ref "benefits" >}}), Content is contributed, refreshed, and refined by hundreds of team members across the company.
 
 We encourage other all-remote companies to adopt this [handbook first approach]({{< ref "handbook-usage#why-handbook-first" >}}). Simply, we default to adding knowledge to our handbook *before* disseminating elsewhere. Learn more about [GitLab's handbook-first approach to documentation]({{< ref "./handbook-first" >}}).
 
@@ -90,20 +90,20 @@ Hence, GitLab managers are [expected]({{< ref "structure#management-group" >}}) 
 
 ## What are some best practices for remote team management of L&D initiatives?
 
-One of the best ways to keep a remote team aligned is to regularly review the [Learning and Development Team's Purpose, Vision, Mission, and Objectives]({{< ref "/handbook/people-group/learning-and-development#overview" >}}).
+One of the best ways to keep a remote team aligned is to regularly review the [Learning and Development Team's Purpose, Vision, Mission, and Objectives](/handbook/people-group/learning-and-development#overview).
 
-GitLab's L&D team has a [regular meeting schedule]({{< ref "/handbook/people-group/learning-and-development#learning--development-team-meetings" >}}) to brainstorm, strategize, discuss and collaborate, assign tasks, review feedback or data, and assess progress on the team's strategy and roadmap.
+GitLab's L&D team has a [regular meeting schedule](/handbook/people-group/learning-and-development#learning--development-team-meetings) to brainstorm, strategize, discuss and collaborate, assign tasks, review feedback or data, and assess progress on the team's strategy and roadmap.
 
 ## What are some tips for building a successful remote team L&D program?
 
 For a remote team to work well, managers should coach their team in healthy remote-work practices such as:
 
 - [asynchronous communication]({{< ref "./management#asynchronous" >}})
-- working [handbook-first]({{< ref "/handbook/handbook-usage#why-handbook-first" >}})
+- working [handbook-first](/handbook/handbook-usage#why-handbook-first)
 - creating an [optimal workspace]({{< ref "./workspace" >}})
 - understanding the importance of [self-learning/self-service]({{< ref "./self-service" >}}).
 
-To stay ahead in L&D, GitLab prioritizes personal [Growth & Development opportunities]({{< ref "/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development" >}}) by allowing team members to take advantage of training opportunities for professional development, certifications, workshops, coaching, language courses, and much more!
+To stay ahead in L&D, GitLab prioritizes personal [Growth & Development opportunities](/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development) by allowing team members to take advantage of training opportunities for professional development, certifications, workshops, coaching, language courses, and much more!
 
 ### Trust and communication
 
@@ -137,7 +137,7 @@ At a high level, this is how new team members are onboarded at GitLab.
     - The Onboarding Buddy is a serious role, replete with [its own Handbook page]({{< ref "onboarding-buddies" >}})
     - The Onboarding Buddy provides assistance in any way, where no question is silly or too minute, to ensure the new hire has all questions addressed
     - If a concern or obstacle is surfaced to the Onboarding Buddy, and there is no solution in the Handbook, the Onboarding Buddy works with the new hire to create a merge request for the enlightenment of all future new hires
-1. The onboarding process is self-directed and self-guided, with new hires encouraged to lean on [documentation]({{< ref "./handbook-first" >}}t) in the [Handbook]({{< ref "/handbook" >}}) — as well as conversing with any GitLab team member — to get up to speed.
+1. The onboarding process is self-directed and self-guided, with new hires encouraged to lean on [documentation]({{< ref "./handbook-first" >}}) in the [Handbook](/handbook) — as well as conversing with any GitLab team member — to get up to speed.
 
 Read more in GitLab's [complete guide to remote onboarding]({{< ref "./onboarding" >}}).
 
@@ -162,11 +162,11 @@ Learn more about [GitLab Onboarding in our Handbook]({{< ref "general-onboarding
 ![GitLab commit illustration](/images/all-remote/gitlab-commit-illustration.jpg)
 {style="max-width: 50%;"}
 
-All-remote companies should strive for a [single source of truth](https://docs.gitlab.com/ee/development/documentation/styleguide#documentation-is-the-single-source-of-truth-ssot) in all facets of running the business, including job families. Job families and their descriptions should be accessible to all from day one. GitLab makes these descriptions available even to prospective team members in the [Job Families section of our Handbook]({{< ref "/handbook/hiring/job-families" >}}), reinforcing our [Transparency value]({{< ref "values#transparency" >}}).
+All-remote companies should strive for a [single source of truth](https://docs.gitlab.com/ee/development/documentation/styleguide#documentation-is-the-single-source-of-truth-ssot) in all facets of running the business, including job families. Job families and their descriptions should be accessible to all from day one. GitLab makes these descriptions available even to prospective team members in the [Job Families section of our Handbook](/handbook/hiring/job-families), reinforcing our [Transparency value]({{< ref "values#transparency" >}}).
 
 This removes ambiguity about how the company functions, [how it is organized](https://gitlab.com/gitlab-com/www-gitlab-com/tree/master/source/job-families), and what each position is responsible for.
 
-From a learning and development standpoint, this transparency is vital in providing clarity in [career development]({{< ref "/handbook/people-group/learning-and-development#what-is-career-development" >}}). In role levels, requirements for each are clearly listed. This also allows team members to find colleagues in functions outside of their own that they are interested in learning more about.
+From a learning and development standpoint, this transparency is vital in providing clarity in [career development](/handbook/people-group/learning-and-development#what-is-career-development). In role levels, requirements for each are clearly listed. This also allows team members to find colleagues in functions outside of their own that they are interested in learning more about.
 
 ### Recording meetings and trainings for asynchronous learning
 
@@ -216,7 +216,7 @@ Here are a few other examples of AMAs:
 
 All-remote companies are uniquely positioned to break down silos. Group Conversations allow members of any function to dive in and ask questions of a function outside of their own. Also, it gives members of one function the ability to ask questions of their own function.
 
-Learn more about [Group Conversations in GitLab's Handbook]({{< ref "/handbook/group-conversations" >}}).
+Learn more about [Group Conversations in GitLab's Handbook](/handbook/group-conversations).
 
 {{< youtube "MN3mzvbgwuc" >}}
 
@@ -231,11 +231,11 @@ More Group Conversations are listed below.
 
 ### Key Monthly Reviews
 
-Learning and development occurs more naturally when team members are well-informed. If there are knowledge gaps in the company strategy, it's difficult to apply new learnings. Particularly in all-remote settings, it's important to make OKRs ([Objectives and Key Results]({{< ref "/handbook/company/okrs" >}})) visible across the company.
+Learning and development occurs more naturally when team members are well-informed. If there are knowledge gaps in the company strategy, it's difficult to apply new learnings. Particularly in all-remote settings, it's important to make OKRs ([Objectives and Key Results](/handbook/company/okrs)) visible across the company.
 
 This allows team members to educate themselves on what matters to each functional group, enabling new learnings to map to something tangible in their day-to-day work.
 
-Learn more about [GitLab's OKRs]({{< ref "/handbook/company/okrs" >}}).
+Learn more about [GitLab's OKRs](/handbook/company/okrs).
 
 {{< youtube "FXpBol1TwiI" >}}
 
@@ -243,7 +243,7 @@ Learn more about [GitLab's OKRs]({{< ref "/handbook/company/okrs" >}}).
 
 For each GitLab executive, we hold a monthly call to discuss Key Performance Indicators (KPI) and Objectives and Key Results (OKR). This goes well beyond the usual scope of learning and development by providing on-the-job education on metrics that impact various parts of the company. Said another way, learning and development has greater impact when it's mapped to something tangible.
 
-Learn more about [GitLab's Key Reviews]({{< ref "/handbook/key-review" >}}).
+Learn more about [GitLab's Key Reviews](/handbook/key-review).
 
 {{% include "includes/is_this_advice_any_good_remote.md" %}}
 

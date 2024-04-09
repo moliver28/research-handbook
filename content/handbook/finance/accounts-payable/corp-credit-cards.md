@@ -54,7 +54,7 @@ anything over $50.   You can add the receipt once the charge reflects in Navan C
 - Managers can facilitate the ordering of Flowers or Gifts for delivery.
 - Executive Business Assistant’s are permitted to purchase gifts for team member significant life events on behalf of their managers.  An email or Slack pre-approval from their manager must be attached to the expense to be reimbursed.
 - Gift cards for Team members are not allowed for these gifts.
-- Please reference the [Gift Handbook Page]({{< ref "/handbook/people-group/celebrations" >}}).
+- Please reference the [Gift Handbook Page](/handbook/people-group/celebrations).
 - Note that these Expenses are tracked by department, thus whoever submits these expenses must be in the same department as the team member the gift pertains to.
 
 **Shipping & Postage Fees**

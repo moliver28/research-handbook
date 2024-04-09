@@ -17,6 +17,7 @@ Switchboard is a team within the [Dedicated Group](/handbook/engineering/infrast
 
 Product Manager: [Loryn Bortins](/handbook/company/team/#lbortins)
 Technical Writer: [Lysanne Pinto](/handbook/company/team/#lyspin)
+Product Designer: [Divya Alagarsamy](/handbook/company/team/#divyaalagarsamy)
 
 ## Working with us
 

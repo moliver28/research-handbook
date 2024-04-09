@@ -4,7 +4,7 @@ title: "Data Science Handbook"
 description: "GitLab Data Science Team Handbook"
 ---
 
- 
+
 
 
 
@@ -254,6 +254,17 @@ Our current platform consists of:
 - [Airflow](/handbook/business-technology/data-team/platform/infrastructure/#airflow) for automation and orchestration
 - Monte Carlo for drift detection
 - Tableau Server for model monitoring and on-going performance evaluation
+- [Feast](https://docs.feast.dev/) as a an open-source Feature Store for Machine Learning models
+
+
+### Feast: Feature Store Implementation
+
+We are using Feast as an open-source Feature Store for our machine learning models.
+Configuration can be found on the Feast project repository, updating the feature store is done via GitLab CI/CD and the web UI is published in a VM on GCP.
+
+You can find more details on this implementation on the [Feast - Feature Store Implementation](https://internal.gitlab.com/handbook/enterprise-data/platform/data-science/) Internal handbook section.
+
+
 
 ### CI/CD Pipelines for Data Science
 

@@ -19,20 +19,18 @@ This TMRG is focused on 4 key areas of impact. We call them our pillars. Review 
 | ----- | ----- | ----- |
 | Awareness and Education | Increase awareness of the experience of TMRG memebers at GitLab and educate allies. | |
 | Professional Development | Increase access to opportunity for career and professional growth of TMRG members | [Women at GitLab Mentorship Program]({{< ref "./mentorship-program" >}}) |
-| Recruiting and Retention | Increase the successful recruitment and retention of women at GitLab | Participate in [candidate TMRG calls]({{< ref "/handbook/hiring/talent-acquisition-framework/coordinator#speaking-with-tmrg-team-members-in-the-hiring-process" >}}) by joining the [#candidate_tmrg-call Slack channel](https://app.slack.com/client/T02592416/C03JEQPSN3V/thread/C012GP5CGCR-1655385119.184549) |
+| Recruiting and Retention | Increase the successful recruitment and retention of women at GitLab | Participate in [candidate TMRG calls](/handbook/hiring/talent-acquisition-framework/coordinator#speaking-with-tmrg-team-members-in-the-hiring-process) by joining the [#candidate_tmrg-call Slack channel](https://app.slack.com/client/T02592416/C03JEQPSN3V/thread/C012GP5CGCR-1655385119.184549) |
 | Business Influence | Start and contribute to discusses that influence GitLab the business. | Surface burnout data to People Leadership |
 
 ## Leads
 
 - [Kyla Gradin Dahl](/handbook/company/team/#kyla) Lead
-- [Samantha Lee](/handbook/company/team/#slee24) Co-Lead
 - [Winnie Chan](/handbook/company/team/#wyychan) Co-Lead
 - [Gosia Ksionek](/handbook/company/team/#mksionek) Co-Lead
 
 ## Executive Sponsors
 
 - [Robin Schulman](/handbook/company/team/#rschulman) - Chief Legal Officer and Corporate Secretary
-- [Michael McBride](/handbook/company/team/#mmcb) - Chief Revenue Officer
 
 ## How to Join
 
@@ -95,7 +93,7 @@ If you have a resource you'd like to include, please open a merge request and co
 | [WISE: Women in Sales Everywhere Memberships](https://womeninsaleseverywhere.com/) | In calendar year 2022, GitLab has allocated 15 licenses for women in the Sales organization to acceses memberships with [WISE](https://womeninsaleseverywhere.com/) including mentorship, events, and training. Reach out to TMRG leads if you are interested in a membership |
 | [GitLab Internship for Learning]({{< ref "internship-for-learning" >}}) | If your manager has coverage, you can spend a percentage of your time working (through an 'internship') with another team |
 | [Growth and Development benefit]({{< ref "general-and-entity-benefits#growth-and-development-benefit" >}}) | This benefit is available for GitLab team members and can be used to cover professional development costs associated with external resources |
-| [CEO Shadow Program]({{< ref "/handbook/ceo/shadow" >}})| The goal of the CEO Shadow Program is to give current and future directors and senior leaders at GitLab an overview of all aspects of the company |
+| [CEO Shadow Program](/handbook/ceo/shadow)| The goal of the CEO Shadow Program is to give current and future directors and senior leaders at GitLab an overview of all aspects of the company |
 | [Women in the Workplace Study Webinar](https://www.hracuity.com/webinar/leaninstudy-2020?utm_campaign=Content%20%7C%20Webinar%20%7C%20LeanIn&utm_medium=email&_hsmi=98577248&_hsenc=p2ANqtz-8kbiJWLM1fyvHgX1E15FQtDxjVDla2B4C3p2G7wSvpUQMJizBBdpFhEpmhEdG7PeYR-ekzWWPWhWK9EfpXoZwk5m6dWQ&utm_content=98577248&utm_source=hs_email) | A webinar from Lean In discussing the unique impact that COVID-19 has had on women of different races and ethnicities, working mothers, women in senior leadership and women with disabilities |
 | [The Harvard Gazette - Women less inclined to self-promote than men, even for a job](https://news.harvard.edu/gazette/story/2020/02/men-better-than-women-at-self-promotion-on-job-leading-to-inequities/) | Study finds female workers’ deep discomfort over touting skills, experience adds to gender gap in promotions, pay |
 | [People Connect Shadow Program]({{< ref "people-connect-shadow-program" >}})| The program allows for anyone to get an understanding of the People Connect responsibilities and allows for collaboration and iteration. |

@@ -7,7 +7,7 @@ description: "Offboarding Procedures for GitLab Team Members and Stakeholders"
 
 The offboarding process is facilitated by the People Connect team who collaborates throughout the process with various other stakeholders such as Team Member Relations, IT Operations and Payroll.
 
-If you have any questions around the offboarding process, please be sure to review the [Offboarding FAQs]({{< ref "/handbook/people-group/offboarding/faq" >}}) handbook page.
+If you have any questions around the offboarding process, please be sure to review the [Offboarding FAQs](/handbook/people-group/offboarding/faq) handbook page.
 
 **Note:** Departing team members will receive a comprehensive email prior to their final date of employment with information such as the impact on benefits coverage, final pay, arranging for a laptop wipe and stock administration.
 
@@ -34,7 +34,7 @@ For any other offboarding questions, please reach out to People Connect via `peo
 1. **Team Member:** Following the guidelines in the 'How to Submit a Resignation' [e-Learning](https://drive.google.com/file/d/1CWEfVPFLRLtcFQh81mYAuXtYKvf3hKW0/view?usp=sharing) or [Job Aid](https://docs.google.com/document/d/1AVHHBKd6dtyn0DOl4_UydbdEhectLpH5aMh17r9Sg_4/edit) submit your resignation directly in Workday which you may access through Okta.
 1. **Team Member:** If you are employed via a PEO or Third-Party Employer forward a copy of your Letter of Resignation directly to them.
 1. **Team Member:** Within 48 hours of submitting your resignation you can anticipate receiving both your offboarding information email and a request to complete an exit survey along with an invitation to take part in an optional exit interview.
-1. **Team Member:** You should review the [Offboarding FAQ]({{< ref "/handbook/people-group/offboarding/faq" >}}) handbook page to address any questions you may have. If you have a question that is not on that page, please reach out in #people-connect. **Note: You will not see your offboarding issue prior to your departure as this is an issue used to deprovision access and is created once you are done working.**
+1. **Team Member:** You should review the [Offboarding FAQ](/handbook/people-group/offboarding/faq) handbook page to address any questions you may have. If you have a question that is not on that page, please reach out in #people-connect. **Note: You will not see your offboarding issue prior to your departure as this is an issue used to deprovision access and is created once you are done working.**
 1. **Manager:** You will receive the resignation for review through your Workday Inbox - ensure that the proposed final date of employment aligns to the documented [notice period]({{< ref "contracts-probation-periods#probation-periods-of-team-members-employed-through-a-peo-or-an-entity" >}}) for the team members location.
 1. **Manager:** In the instance that the resignation details require revision, you may send it back to the team member by clicking `Send Back`.  If you are satisfied with the information, click `Approve`.
 1. **Manager:** Once the details about the team members departure have been finalized schedule time with the team member to plan the [departure announcement](#communicating-departures). Please reach out to your PBP if you need additional guidance.
@@ -49,18 +49,9 @@ For any other offboarding questions, please reach out to People Connect via `peo
 1. **People Business Partner:** You will receive a prompt in your Workday Inbox to review the termination particlars submitted by the Manager if you are satisfied with the details enclosed and aligned with the Manager on the final date of employment click `Approve`.  In the instance that you feel further discussion is required a sync with the Manager and/or Team Member should be arranged and the particulars can be sent back for further review.
 1. **People Connect:** Once the transaction has been fully approved the team will receive a notification of the termination within the Workday Inbox.
 
-#### Statutory Holiday Allowance
-
-1. **Payroll:** If the team member is located in a country with statutory holiday allowance their balances at the time of resignation should be shared and confirmed with both the manager and team member via email - this email should be uploaded to the departing team members Workday Profile within the [documents tab](https://docs.google.com/document/d/1ao_d_JxvqvZdqxlt4mBoHe1GcAhYT7B6YQoBgDxPdRE/edit).
-1. **Payroll:** Once this action has been completed an Acknowledgement Letter can be prepared the format for which will depend on the **location** and **employment status** of the team member e.g. [GitLab Ltd (UK) Resignation Acknowledgement](https://docs.google.com/document/d/1zV1qnZmjQaNZ3QUjrLOtod-FbboNCPmYdqCLIAc7aos/edit) and [GitLab BV (Netherlands) Resignation Acknowledgement](https://docs.google.com/document/d/1-9hCL2Xs5po4lZ19L2vrcmGxQIYRD-Emyci3F63kt0c/edit).
-1. **Payroll:** The Acknowledgement Letter should be released for signature via DocuSignand once complete should also be uploaded to the respective team members Workday Profile.
-
-**Note:** GitLab UK team members, payroll can pay up to and including the 5th day of the following month. For example, if a team member's last day is February 2nd, the team member can receive their final pay for this in January's payroll.
-
-
 ### Offboarding
 
-1. **People Connect:** On the Last Day of Work indicated in Workday at the [pre-determined time]({{< ref "offboarding_standards#notice-of-offboarding" >}}) the offboarding issue will be [created]({{< ref "/handbook/people-group/engineering/offboarding#scheduled-offboarding-issue-creation" >}}) - this will signal to all system owners that team member access can be revoked.  In the instance that the automation does not trigger the offboarding can be [initiated manually](https://internal.gitlab.com/handbook/people-group/people-operations/engineering/employment-automation/pops-commands/offboarding/) once this has happened all other back-end offboarding processes facilitated by People Connect can get underway.
+1. **People Connect:** On the Last Day of Work indicated in Workday at the [pre-determined time]({{< ref "offboarding_standards#notice-of-offboarding" >}}) the offboarding issue will be [created](/handbook/people-group/engineering/offboarding#scheduled-offboarding-issue-creation) - this will signal to all system owners that team member access can be revoked.  In the instance that the automation does not trigger the offboarding can be [initiated manually](https://internal.gitlab.com/handbook/people-group/people-operations/engineering/employment-automation/pops-commands/offboarding/) once this has happened all other back-end offboarding processes facilitated by People Connect can get underway.
 1. **Deprovisioners (Systems):** You will be tagged in the departing team members offboarding issue and required to indicate that the team members access has been revoked kindly note that access to SOX Systems must be attended to with urgency and all other tasks within the offboarding issue must be closed out within five days.
 
 ## Involuntary Terminations
@@ -235,7 +226,7 @@ The GitLab [Code of Business Conduct and Ethics](https://ir.gitlab.com/static-fi
 
 Our goals in communicating offboardings are transparency, and to provide an opportunity for team members to say goodbye. We understand that different individuals are comfortable with different levels of communication and that each offboarding situation has different situations and nuances. For this reason and out of respect for individuals, we have a couple of key guiding principles for communicating offboarding:
 
-1. We ask that all offboardings are announced in the `#team-member-updates` Slack channel for transparency and awareness. While we encourage all offboardings to be posted in #team-member-updates, we recognize there may be select situations that we should consider a different approach for. If a team member or their manager does not want to post in #team-member-updates, please discuss with your [People Business Partner]({{< ref "/handbook/people-group#people-business-partner-alignment-to-division" >}}) or [Team Member Relations]({{< ref "/handbook/people-group/team-member-relations" >}}).
+1. We ask that all offboardings are announced in the `#team-member-updates` Slack channel for transparency and awareness. While we encourage all offboardings to be posted in #team-member-updates, we recognize there may be select situations that we should consider a different approach for. If a team member or their manager does not want to post in #team-member-updates, please discuss with your [People Business Partner](/handbook/people-group#people-business-partner-alignment-to-division) or [Team Member Relations](/handbook/people-group/team-member-relations).
 1. Team members and managers have the discretion to determine who shares the news of the team member's offboarding (I.E. team member or manager). Regardless of who shares, it is required that team members review offboarding messaging with their managers prior to sharing.
 
 Depending on the team members’ role, timing of communication may vary (e.g. direct team, key stakeholders, etc.), and managers have discretion to determine who should be informed most immediately. The typical order followed for communicating departures is:
@@ -264,7 +255,7 @@ In most cases, managers communicate team member departures to key stakeholders.
 
 As explained briefly in the [offboarding issue](https://gitlab.com/gitlab-com/people-group/people-operations/employment-templates/-/blob/main/.gitlab/issue_templates/offboarding.md), GitLab is not always able to provide full context on why people are leaving when they do.
 
-However as mentioned in the procedures, for [voluntary offboarding]({{< ref "/handbook/people-group/offboarding#voluntary-offboarding" >}}), the team member can work with their manager on messaging to share a company-wide message about their departure.
+However as mentioned in the procedures, for [voluntary offboarding](/handbook/people-group/offboarding#voluntary-offboarding), the team member can work with their manager on messaging to share a company-wide message about their departure.
 
 Once the news has been shared with the team member’s team and other stakeholders, and messaging is agreed upon between the departing team members and their manager, the departure message should be shared in the `#team-member-updates` Slack channel.
 Managers and team members can optionally leverage this template as a guide on how to communicate a team member’s upcoming departure:
@@ -354,7 +345,7 @@ If the person has a Corporate Credit Card assigned to them, please notify Accoun
 
 ### Retrospective for Managers
 
-For involuntary offboardings it is optional to do a retrospective on the hiring, onboarding and coaching/communication of the departing team member. As a manager, you can use [this template](https://docs.google.com/document/d/1AWth5o_sagDTwQ92FJr7WDHPNezEg6-BgRY6Tafejgo/edit?usp=sharing) for a retrospective. Please share the filled out template with your manager as well as the [People Business Partner]({{< ref "/handbook/people-group#people-business-partner-alignment-to-division" >}}) for your group.
+For involuntary offboardings it is optional to do a retrospective on the hiring, onboarding and coaching/communication of the departing team member. As a manager, you can use [this template](https://docs.google.com/document/d/1AWth5o_sagDTwQ92FJr7WDHPNezEg6-BgRY6Tafejgo/edit?usp=sharing) for a retrospective. Please share the filled out template with your manager as well as the [People Business Partner](/handbook/people-group#people-business-partner-alignment-to-division) for your group.
 
 Within the Engineering division this is a **required process** because it causes hiring managers to reflect on what led to the ultimate decision of parting ways with the team member, and how that might be prevented during future hiring processes.
 

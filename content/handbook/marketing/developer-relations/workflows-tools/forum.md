@@ -41,7 +41,9 @@ If you see a community member volunteering their time to help another community 
 
 ### Flagging Inappropriate Content
 
-If any GitLab team member sees a forum post that is inappropriate, abusive, spam, or a violation of our code of conduct, please flag the post by clicking the flag icon. If immediate action to hide or redact private information is required, flag the post and then ping one of the [admins](https://forum.gitlab.com/about) in the [#developer-relations](https://gitlab.slack.com/archives/C0R04UMT9) Slack channel.
+If any GitLab team member sees a forum post that is inappropriate, abusive, spam, or a violation of our code of conduct, please flag the post by clicking the flag icon. The post is automatically hidden from public viewing and added to the [moderation](#moderation) queue for review. If the flagging action requires more context or immediate actions, contact [admins](https://forum.gitlab.com/about) in the [#developer-relations](https://gitlab.slack.com/archives/C0R04UMT9) Slack channel. 
+
+If immediate action to hide or redact private information is required, flag the post and then ping one of the [admins](https://forum.gitlab.com/about) in the [#developer-relations](https://gitlab.slack.com/archives/C0R04UMT9) Slack channel.
 
 
 ## Best Practices

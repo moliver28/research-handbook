@@ -1,6 +1,6 @@
 ---
-title: Growth and Development Fund
-description: A description of programs and resources for team members to access when using the Growth and Development benefit.
+title: Growth and Development Processing Documentation for Talent Development
+description: This page is used to document processes for the Talent Development team
 ---
 
 ## Processing documentation for the Talent Development team
