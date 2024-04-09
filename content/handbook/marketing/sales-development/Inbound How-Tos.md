@@ -83,7 +83,9 @@ Lastly, Every so often you may be assigned a lead that has no value to GitLab an
 
 | Step | Notes |
 |------|--------------|
-| 1    | Determine if the lead qualifies for a high touch or low touch sequence. High touch sequences are for higher-quality leads and require more personalization and touch points, including phone calls and LinkedIn Connect requests. Low touch sequences are typically automated and run for a shorter period of time. You can use Low-touch for leads where a phone number cannot be found online or in our databases, or where their contact information is incomplete and cannot be enriched by our tools, or through manual research. |
+| 1    | Determine if the lead qualifies for a high touch or low touch sequence. | 
+| 1a | - High touch sequences are for higher-quality leads and require more personalization and touch points, including phone calls and LinkedIn Connect requests. This should be the majority of your pipeline. | 
+| 1b | - Low touch sequences are typically automated and run for a shorter period of time. You can use Low-touch for leads where a phone number cannot be found online or in our databases, or where their contact information is incomplete and cannot be enriched by our tools, or through manual research. Low touch should only be reserved as the last resort. |
 | 2    | Research the appropriate outreach collections for relevant collateral to be used. Most typically our [High-Touch](https://web.outreach.io/sequences?queryFilters=%5B%7B%22attribute%22%3A%22collection%22%2C%22operator%22%3A%22is%22%2C%22value%22%3A%5B%2269%22%5D%7D%5D&sortBy=recent&sortDirection=desc) or [Low-Touch](https://web.outreach.io/sequences?queryFilters=%5B%7B%22attribute%22%3A%22collection%22%2C%22operator%22%3A%22is%22%2C%22value%22%3A%5B%2271%22%5D%7D%5D&sortBy=recent&sortDirection=desc) collections. | 
 | 
 
