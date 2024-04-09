@@ -205,7 +205,7 @@ In addition to the format described in the [platforms project management page](/
 
 \`\`\`
 /epic [current epic]
-/labels ~"devops::Platforms" ~"team::Foundations" ~"workflow-infra::Triage" ~"Reliability::P2" 
+/labels ~"group::Production Engineering" ~"Sub-Department::SaaS Platforms" ~"team::Foundations" ~"workflow-infra::Triage" ~"Reliability::P2" 
 \`\`\`
 
 ## References
