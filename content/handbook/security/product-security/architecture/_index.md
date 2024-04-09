@@ -1,5 +1,7 @@
 ---
 title: "Security Architecture"
+aliases:
+- /handbook/security/architecture
 ---
 
 <link rel="stylesheet" type="text/css" href="/stylesheets/biztech.css" />
