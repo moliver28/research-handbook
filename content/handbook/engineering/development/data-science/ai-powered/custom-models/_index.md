@@ -53,9 +53,72 @@ Issues owned by the Custom Models group should have these labels:
 In additional issues should contain the relevant `~type:` and subtype labels.
 ## Team Processes
 
-### Milestone Planning issues
+### Milestone Planning Process
 
+Custom Models follows the [Product Development Flow](https://handbook.gitlab.com/handbook/product-development-flow/) and uses a planning issue and boards to manage the planning process. 
 [Planning issues](https://gitlab.com/groups/gitlab-org/-/epics/12950) for each milestone are created by the PM and are used to coordinate upcoming work between the PM, EM and stable counterparts.
+
+In the last week of a milestone, planning is completed for the next milestone. The following activities are undertaken.
+
+- Creation of planning issues and boards (EM)
+- Identification of candidate issues for the milestone and addition to Planning Board (PM, EM, SET)
+- Team member capacity planning (EM)
+- Estimation of effort using weights (Engineers and EM)
+- Joint planning session to finialise the planning board (PM, EM, SET)
+- Assignment of work to engineers, addition of the `~Deliverable` label, update to the planning issue (EM)
+
+##### Planning Issue
+
+Each month a planning issue is created by the EM, using the [Custom Models Planning Issue](). This is the discussion area for the planning team members (PM, EM, and Software Engineer in Test (SET)) for a specific milestone and links to the Planning and Build Boards.
+
+##### Planning Board
+
+The [Planning Board]() is created for each release by the PM, and is a curated list of issues by category. The EM requests engineers to allocate weights to all issues on this board prior to milestone planning.
+
+##### Ready for Development
+
+Issues that are ready to be worked on by an engineer are labelled `workflow::ready for development`. Only issues with this label should be assigned to an engineer as a Deliverable. If research is required, the `~spike` label is assigned, but the scope of the spike should be clearly stated in the issue and an outcome might be code written or a refined issue created.
+
+##### Capacity Planning Spreadsheet
+
+The EM maintains a [Google Sheet]() for calculating team capacity, and the same Spreadsheet is also used to perform the process of assigning issues to the release based on weight and priority. The EM posts the team capacity on the Planning Issue.
+
+##### Build Board
+
+The EM selects issues from the [Planning Board](#planning-board) based on:
+
+- previous milestone slippage
+- PM preference
+- weight
+- priority
+
+The EM then applies the ~Deliverable label to each issue in the Release and assigns then to an engineer. The issues are tracked through the release via the Build Board.
+
+
+## Planning and Delivery Boards
+
+All workflow statuses in the [Product Development Flow](https://handbook.gitlab.com/handbook/product-development-flow/) are valid, and the statuses and milestones tied to boards are below.
+
+
+The Next 1-3 and 4-6 milestone boards are used to house issues which need refinement or are ready to be worked on
+
+| Board       | Filters           | Columns            | 
+|-------------|-------------------|--------------------|
+| Planning Board | Milestone, `~group::custom models`, `~planning priority` | `~type::bug`, `~type::maintenance`, `~type::feature` |
+| Build Board    | Milestone, `~group::custom models`, `~Deliverable` | `~workflow::ready for development`, `~workflow::in dev`, `~workflow::in review`, `~workflow::awaiting security release`, `~workflow::blocked` |
+| Next 1-3 Milestones | `%Next 1-3 Milestones` | `~workflow::problem validation`, `~workflow::problem validation`, `~workflow::design`, `~workflow::solution validation`, `~workflow::planning breakdown`, `~workflow::ready for development`     |
+| Next 4-6 Milestones | `%Next 4-6 Milestones` | `~workflow::problem validation`, `~workflow::problem validation`, `~workflow::design`, `~workflow::solution validation`, `~workflow::planning breakdown`, `~workflow::ready for development`     |  
+
+#### Issue Milestones
+
+- Issues are assigned the current or next milestone if they are planned to be worked on or are currently being worked on.
+- A milestone of `%Backlog` is assigned if issues are not intended to be worked on, although they may be addressed by a community contribution. 
+- Issues with a milestone of `%Awaiting Customer Feedback` may be worked on, pending customer interest.
+
+The [issue triage report](https://gitlab.com/gitlab-org/quality/triage-reports/-/issues/17099) highlights issues which need a milestone assignment.
+
+
+
 
 
 ### Shared calendars
