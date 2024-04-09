@@ -9,7 +9,12 @@ While the contents below are meant to get you up to speed quickly, we also have 
 
 Inbound leads get automatically imported to SFDC by the Sales Operations team, you can find links to their handbook pages on our [main page](https://handbook.gitlab.com/handbook/marketing/sales-development). 
 
-To find and access your leads, please navigate to SFDC's homepage and click on the `Leads` tab. You will find the lead views below. These views are split per use-case for your convenience. The KPIs for managing these leads are thoroughly outlined in our [SLAs page](https://handbook.gitlab.com/handbook/marketing/roe-kpis-slas). 
+To find and access your leads, please:
+
+ 1. Navigate to SFDC's homepage 
+ 2. Click on the `Leads` tab.  
+ 
+ You will find the lead views below. These views are split per use-case for your convenience. The KPIs for managing these leads are thoroughly outlined in our [SLAs page](https://handbook.gitlab.com/handbook/marketing/roe-kpis-slas). 
 
 ### SDR Lead Views
 
@@ -27,24 +32,20 @@ As part of your SDR responsibilities, you are expected to perform due diligence 
 
 | Step | Action                                                                                                                                  |
 |------|-----------------------------------------------------------------------------------------------------------------------------------------|
-| 1    | Begin with Enriching and using Find Duplicates on SFDC lead record.                                                                    |
-| 2    | Click "LinkedIn" to enrich title or company info for correct search of duplicates.                                                      |
-| 3    | Check “Matched Account” and ZoomInfo sections.                                                                                         |
-| 4    | - For Commercial leads (SMB and MM), convert to Account if SFDC account type equals “Customer”.                                        |
-|      | - If not a customer but contains an open opportunity, update Lead Status to Recycle and Recycle Reasons to Evaluating.                |
-|      | - For Universities/Education leads (non-US Pub Sec), work as regular lead if technical contact.                                         |
-|      | - Check for existing GitLab subscription before working lead.                                                                           |
-| 5    | Read ZoomInfo description for USA PubSec indicators.                                                                                    |
-| 6    | Press "Find Duplicates".                                                                                                               |
-| 7    | - Check if matched account is “Actively Working” to reroute lead to BDR.                                                               |
-|      | - If not actively working, check for duplicate leads or contacts. Merge if necessary, keeping oldest Initial Source.                   |
-|      | - Check Matched Opportunities Section for active opportunities. Determine relevance and pass along lead if necessary.                  |
-| 8    | If another lead at same company has MQL status, assign to owner with earliest MQL Date.                                                 |
-|      | If another lead has Accepted or Qualifying status, assign MQL to owner of the accepted/qualifying lead.                                |
-| 9    | BDRs receiving leads not associated with Actively Working accounts must assign back to SDR or chatter mktgops support if from Traction. |
+| 1    | Open the lead you want to investigate and press the `Find Duplicates` on the top of the lead's record.                                                                    |
+| 2    | Check through all the records that show up, from leads to Acccounts. Make sure to search for `Domain` and `Last Name` if the data you have seems incomplete.                                                    |
+| 3    | Check the `Matched Account Info` section on the lead record.                                                                                       |
+| 3a    | - For SMB leads, if there's a matched account where the type is `Customer`, please press the `Convert` button at the top of the lead page and match this lead to the existing account.                                       |
+|  3b    | - If there's not a customer record but you find an existing open opportunity, update the `Lead Status` to `Recycle` and `Recycle Reasons` to `Evaluating.`                |
+|  3c    | - For Universities/Education leads (non-US Pub Sec), work as regular lead if technical contact.                                         |
+| 3d    | - If there's a matched account, check if the field `BDR Prospecting Status` is `Actively Working` and, if so, reroute the lead to the team mentioned on the `BDR Assigned` field.                                                               |
+|  3e    | - If the existing account is not marked as `Actively Working`, check for duplicate leads or contacts and merge if necessary while keeping the oldest `Initial Source`.                            |
+| 4    | If there's no matched account, but there's another lead at same company that has the `MQL` status, assign both leads to the owner with the earliest `MQL Date`.                                                 |
+|  4a    | - If there's no matched account, but there's another lead that has the `Accepted` or `Qualifying` status, assign the new MQL to the owner of the accepted/qualifying leads.                                |
+| 5    | BDRs receiving leads not associated with `Actively Working` accounts must assign back to SDR team or chatter mktgops support. |
 | 10   | Qualified leads associated with “Actively Working” accounts are routed to BDR assigned to the Actively Working Account.                |
 
-If you need to do edits to the database by merging leads together, please reference the videos below for an explanation. 
+If you need to do edits to the database by merging leads together for any of the above steps, please reference the videos below for an explanation. 
 
 |                                   |
 |-------------------------------------------------|
