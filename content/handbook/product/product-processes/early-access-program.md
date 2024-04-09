@@ -23,7 +23,11 @@ In a secondary priority, this helps to [cultivate contributions from the Wider C
 1. All users who agree with the terms & conditions should gain access to available non GA-features. Otherwise said, we will not gate features to a subset of users.
 2. There must be a required & explicit acceptance to the terms & conditions of our testing agreement before Beta or Experimental features can be used.
 3. There must be an optional opt-in to receive marketing communications regarding beta or experimental features. 
-4. Guidance from UX & Product should be followed how this gets implemented for a consistent user experience.
+4. Guidance from UX & Product should be followed how this gets implemented for a consistent user experience. We should avoid adding friction.
+
+### Potential agreed upon UX solutions to influence direction
+
+* A generic modal that pops up anytime you hit a beta feature toggle vs creating a new place to go opt in before you can toggle the actual feature.
 
 ### FYI
 
