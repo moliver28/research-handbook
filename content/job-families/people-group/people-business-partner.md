@@ -267,11 +267,11 @@ The Senior Director, People Business Partner is a [job grade 11](/handbook/total
 
 Responsibilities
 - Primary People Business Partner support for the Go-To-Market teams in EMEA; develops a people strategy that helps support local organization and business goals
-- Consult on global expansion efforts in the EMEA region; including participating in the due diligence process 
+- Consult on global expansion efforts in the EMEA region; including participating in the due diligence process
 - Partners closely with the broader People Business Partners and People Group to support the implementation of GitLab's People programs and policies locally
 - Advises on People programs and solutions to support EMEA regional needs based on deep local expertise
-- Collaborate with our team member relations (TMR) and legal teams to provide additional guidance and support on HR compliance, local employment law, and regulatory requirements in the EMEA region based on local expertise  
-- Consult and inform local regulatory bodies such as Works Councils on topics that impact employment or working conditions 
+- Collaborate with our team member relations (TMR) and legal teams to provide additional guidance and support on HR compliance, local employment law, and regulatory requirements in the EMEA region based on local expertise
+- Consult and inform local regulatory bodies such as Works Councils on topics that impact employment or working conditions
 
 ## Performance Indicators
 
