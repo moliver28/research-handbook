@@ -209,7 +209,6 @@ Please note that the source of truth for role responsibilites is the job family 
 | Slack and Email Queries | Within 12 - 24 hours |
 | [Probation Period Notifications]({{< ref "contracts-probation-periods#probation-period" >}}) | Daily (when applicable) |
 | [Determining quarterly winners of the onboarding buddy program]({{< ref "onboarding-buddies" >}}) | Last week of each quarter |
-| [People Connect Shadow Program]({{< ref "people-connect-shadow-program" >}}) | As requested by other team members |
 | [Contract Renewals]({{< ref "contracts-probation-periods#contract-renewals" >}}) | 30 days or more prior to team member's renewal date |
 | [Exit Interviews]({{< ref "offboarding#exit-survey" >}}) | During voluntary offboarding team member's last week |
 | [Administration of the signing of our Code of Business Conduct and Ethics](https://ir.gitlab.com/static-files/7d8c7eb3-cb17-4d68-a607-1b7a1fa1c95d) | Annually in Feb/March |
