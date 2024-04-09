@@ -7,7 +7,11 @@ description: "Editing and creating content using Contentful"
 
 ## What is Contentful?
 
-The Digital Experience team is currently migrating the [marketing site](https://about.gitlab.com/) to our new CMS tool, Contentful. Contentful is a Content Management System - it replaces all of the text files in our marketing site and replaces them with different Content Entries. Contentful also has a Media Library, where we are moving our images. 
+The Digital Experience team has migrated the [marketing site](https://about.gitlab.com/) to our new CMS tool, Contentful. Contentful is a Content Management System - it replaces all of the text files in our marketing site and replaces them with different Content Entries. Contentful also has a Media Library, where we are moving our images. 
+
+## Why transition to a CMS? 
+
+As the GitLab marketing team and the marketing site evolves, we need a collaborative tool that allows for consistency across the marketing site. 
 
 ### Contentful terminology
 
@@ -19,26 +23,22 @@ The Digital Experience team is currently migrating the [marketing site](https://
 - Entry: An Entry is considered one piece of content in a content type. For example, there are many Cards across the marketing site, but the Free card on the pricing page is one example of a Card Entry.
 - Field: Even the most basic Content Type typically has multiple fields. For example, a Button may seem small, but some fields it contains include the url it points to, the text on the button, perhaps an icon, maybe some tracking data. Each of these are considered Fields of the Button Content Type. 
 
-## Making Changes in Contentful - Standard Operating Procedure
+## How do we make changes to the marketing site with the CMS?
 
 As owners of the marketing website, the digital experience team handles most large changes in order to drive business goals. However, we are not necessarily the subject matter experts and will defer to various teams when it comes to editing content. In general, these are the processes we try to adhere to:
 
 ### For Top 10 (most visited/impactful) Pages
 
-Any change to these pages must be reviewed by [Lauren Barker](https://gitlab.com/laurenbarker) and/or [Filza Qureshi](https://gitlab.com/fqureshi). Please tag them in the Contentful comments section prior to publishing any content on these pages, and link to any issues or MRs that may have additional context about the changes. 
+Any changes required for the following changes, must begin with an issue for the DEX team to reivew. Please create an issue per [this process](https://handbook.gitlab.com/handbook/marketing/digital-experience/#issue-template-to-submit-an-idea-to-drive-our-business-goals). 
 
 - [Homepage](https://about.gitlab.com/)
 - [Pricing](https://about.gitlab.com/pricing/)
-
-
-Changes to these pages should be reviewed by a member of the [Digital Experience team](/handbook/marketing/digital-experience/#groups-metrics--team-members):
-
 - [Free Trial](https://about.gitlab.com/free-trial/devsecops/)
 - [Why GitLab](https://about.gitlab.com/why-gitlab/) 
 - [GitLab Duo](https://about.gitlab.com/gitlab-duo/)
 - [Platform](https://about.gitlab.com/platform/)
 
-These pages typically also have design reources, so making any large or visual changes should be handled in an [issue request](https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/-/issues/new#). 
+These pages have been developed through a data-driven design process with cross-functional collaboration and approval. Changes can be suggested however changes will only be made if they are alignment with GitLab marketing goals. 
 
 ### For component editing, re-arranging, adding new page sections, significant content changes
 
