@@ -43,7 +43,7 @@ All interns will be responsible for completing a final project at the end of the
 
 Products exist to serve customer needs, customer support exists for times when those needs aren't being met by the product or its documentation.
 
-Develoing an empathy for and understanding of customer pain points is a career accelerator. No matter where you intend to go in your career, even outside of Engineering, getting [Results for Customers](/handbook/values/#results)
+Developing an empathy for and understanding of customer pain points is a career accelerator. No matter where you intend to go in your career, even outside of Engineering, getting [Results for Customers](/handbook/values/#results)
 is at the core of why a company exists.
 
 Support is uniquely positioned where decisions made by our colleagues in Sales, Customer Success, Product, Engineering and Documentation meet the customer. You'll have a chance to interact with team members across the business as you advocate for customer needs. More though: at GitLab, we're a step closer to our customers because we develop [publicly by default](https://handbook.gitlab.com/handbook/values/#public-by-default) and work hard to make it so that [everyone can contribute to the GitLab application](https://handbook.gitlab.com/handbook/company/mission/#contribute-to-gitlab-application). This means that not only can you _report_ customer pain points: you can solve them.
