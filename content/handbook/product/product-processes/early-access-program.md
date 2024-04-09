@@ -20,7 +20,7 @@ In a secondary priority, this helps to [cultivate contributions from the Wider C
 
 ## Alignments
 
-1. All users who agree with the terms & conditions should gain access to available non GA-features. Otherwise said, we will not gate features to a subset of users.
+1. All customers who agree with the terms & conditions should gain access to available non GA-features. Otherwise said, we will not gate features to a subset of customers.
 2. The existing process of accepting the terms & conditions of our testing agreement will be followed.
 3. There must be an optional opt-in to receive marketing communications regarding beta or experimental features. 
 4. Guidance from UX & Product should be followed how this gets implemented for a consistent user experience. We should avoid adding friction.
