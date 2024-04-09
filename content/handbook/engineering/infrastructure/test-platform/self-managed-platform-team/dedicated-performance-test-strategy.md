@@ -3,17 +3,26 @@
 title: Performance Testing of Reference Architectures
 ---
 
-## Overview
-
-Doing performance testing is a complicated process to do well. This page is targeted at clarifying our process for doing performance testing as it relates to our Reference Architectures.
+This page is targeted at clarifying our process for doing performance testing as it relates to our Reference Architectures. This is not ment to replace the existing documentation, but rather to supplement the `how` and `what` in our existing documentation and provide a `why` our customers can trust that the results we present are relevant to their environments.
 
 ## Approach
 
-Our base performance test approach is proactively test against [Reference Architectures](https://docs.gitlab.com/ee/administration/reference_architectures). We do this by running [GPT against the latest Nightly release of GitLab](https://handbook.gitlab.com/handbook/engineering/infrastructure/test-platform/performance-and-scalability/#test-process) ([customer facing description](https://docs.gitlab.com/ee/administration/reference_architectures/#validation-and-test-results)). We also run [browser based testing using GBPT against Reference Architectures](https://handbook.gitlab.com/handbook/engineering/infrastructure/test-platform/performance-and-scalability/#browser-performance-tool). This provides us confidence that the feature changes have not affected performance on environments deployed to match Reference Architectures.
+The base of the performance test approach is to proactively test against [Reference Architectures](https://docs.gitlab.com/ee/administration/reference_architectures). This is done by running [GPT against the latest Nightly release of GitLab](https://handbook.gitlab.com/handbook/engineering/infrastructure/test-platform/performance-and-scalability/#test-process) ([customer facing description](https://docs.gitlab.com/ee/administration/reference_architectures/#validation-and-test-results)). There is also [browser based testing using GBPT against Reference Architectures](https://handbook.gitlab.com/handbook/engineering/infrastructure/test-platform/performance-and-scalability/#browser-performance-tool).  This provides confidence that the feature changes have not affected performance on environments deployed to match Reference Architectures.
 
-Dedicated deploys Cloud Native environments based on Reference Architectures so the testing we do is directly mappable to the Dedicated Tenant environments.
+Dedicated deploys Cloud Native environments based on Reference Architectures so the testing done for Reference Architectures is directly mappable to the Dedicated Tenant environments.
 
-**Debating between the two diagrams**
+### Current Test Tools
+
+| Tool | Test Details | Latest Results |
+| ---- | ------------ | -------------- |
+| [GPT](https://gitlab.com/gitlab-org/quality/performance) | https://gitlab.com/gitlab-org/quality/performance/-/wikis/current-test-details | https://gitlab.com/gitlab-org/quality/performance/-/wikis/home |
+| [GBPT](https://gitlab.com/gitlab-org/quality/performance-sitespeed) | https://gitlab.com/gitlab-org/quality/performance-sitespeed/-/wikis/Current-Test-Details | https://gitlab.com/gitlab-org/quality/performance/-/wikis/Benchmarks/SiteSpeed |
+
+
+## How do Reference Architecture based performance tests work?
+
+Reference Architectures are the center of our performance testing approach. They describe the infrastructure that we are deploying to stand up GitLab on. GET deploys the infrastructure based on the Reference Architecture and then deploys the feature tested version of GitLab on that infrastructure. As we run performance tests, we review the results and they feedback to iteratively improve the Reference Architectures. When we deploy a Tenant under Dedicated environment, we use the same Reference Architecture to define the infrastructure we are deploying.
+
 ```mermaid
 flowchart LR
   %% nodes
@@ -22,46 +31,32 @@ flowchart LR
    gpt_test(GPT Performance Test Run)
    gbpt_test(GBPT Performance Test Run)
    dedicated_tenant(Dedicated Tenant environment)
-   cell_tenant(Cells Tenant environment)
-   fedramp_tenant(FedRAMP Tenant environment)
    review_results([Review test Results])
-   
+   get(GitLab Environment Toolkit)
 
   %% diagram
-  tested_code --> gpt_test
-  tested_code --> gbpt_test
+  tested_code --> get
 
-  subgraph test_env[GET Deployed Reference Architecture Environment]
-    direction TB
+  subgraph test_env[Transitory Reference Architecture Test Environment]
     gpt_test
     gbpt_test
     review_results
   end
 
-  reference_architectures --> test_env
-  reference_architectures --> dedicated_tenant
-  reference_architectures --> cell_tenant
-  reference_architectures --> fedramp_tenant
+  reference_architectures --> get
+  get -- deploys to --> test_env
+  get -- deploys to --> dedicated_tenant
   gpt_test --> review_results
   gbpt_test --> review_results
   review_results --> reference_architectures
 
   subgraph Dedicated[Dedicated Deployed Environment]
-    direction LR
     dedicated_tenant
-    subgraph FedRAMP
-      direction LR
-      fedramp_tenant
-    end
-
-    subgraph Cells
-      direction LR
-      cell_tenant
-    end
   end
 ```
 
-For readability this diagram only shows the lines for the [3k Cloud Native Hybrid Reference Architecture](https://docs.gitlab.com/ee/administration/reference_architectures/3k_users.html#cloud-native-hybrid-reference-architecture-with-helm-charts-alternative). Lines for the other [Reference Architectures](https://docs.gitlab.com/ee/administration/reference_architectures/) could be drawn instead. We have performance results for the [availiable versions of GitLab](https://gitlab.com/gitlab-org/quality/performance/-/wikis/Benchmarks/GitLab-Versions). 
+This diagram shows a different view into the same information. It shows all the Reference Architectures we have defined and how the 3k Cloud Native Reference Architecture links to the performance test pipelines and the Dedicated environments. For readability, only the lines for the [3k Cloud Native Hybrid Reference Architecture](https://docs.gitlab.com/ee/administration/reference_architectures/3k_users.html#cloud-native-hybrid-reference-architecture-with-helm-charts-alternative) are shown. Lines for the other [Reference Architectures](https://docs.gitlab.com/ee/administration/reference_architectures/) could be drawn instead. The Reference Architecture fields in the diagram link to their corresponding definitions.
+
 
 ```mermaid
 flowchart LR
@@ -81,11 +76,22 @@ flowchart LR
   ra_cnh_25k(25k Architecture)
   ra_cnh_50k(50k Architecture)
   gpt_cnh_3k(3k CNH Architecture)
-  gbpt_cnh_3k(3k CNH Architecture)
   dedicated_cnh_3k(3k CNH Architecture)
-  fedramp_cnh_3k(3k CNH Architecture)
-  cells_cnh_3k(3k CNH Architecture)
 
+  %% external links
+  click ra_omni_1k "https://docs.gitlab.com/ee/administration/reference_architectures/1k_users.html"
+  click ra_omni_2k "https://docs.gitlab.com/ee/administration/reference_architectures/2k_users.html"
+  click ra_omni_3k "https://docs.gitlab.com/ee/administration/reference_architectures/3k_users.html"
+  click ra_omni_5k "https://docs.gitlab.com/ee/administration/reference_architectures/5k_users.html"
+  click ra_omni_10k "https://docs.gitlab.com/ee/administration/reference_architectures/10k_users.html"
+  click ra_omni_25k "https://docs.gitlab.com/ee/administration/reference_architectures/25k_users.html"
+  click ra_omni_50k "https://docs.gitlab.com/ee/administration/reference_architectures/50k_users.html"
+  click ra_cnh_2k "https://docs.gitlab.com/ee/administration/reference_architectures/2k_users.html#cloud-native-hybrid-reference-architecture-with-helm-charts-alternative"
+  click ra_cnh_3k "https://docs.gitlab.com/ee/administration/reference_architectures/3k_users.html#cloud-native-hybrid-reference-architecture-with-helm-charts-alternative"
+  click ra_cnh_5k "https://docs.gitlab.com/ee/administration/reference_architectures/5k_users.html#cloud-native-hybrid-reference-architecture-with-helm-charts-alternative"
+  click ra_cnh_10k "https://docs.gitlab.com/ee/administration/reference_architectures/10k_users.html#cloud-native-hybrid-reference-architecture-with-helm-charts-alternative"
+  click ra_cnh_25k "https://docs.gitlab.com/ee/administration/reference_architectures/25k_users.html#cloud-native-hybrid-reference-architecture-with-helm-charts-alternative"
+  click ra_cnh_50k "https://docs.gitlab.com/ee/administration/reference_architectures/50k_users.html#cloud-native-hybrid-reference-architecture-with-helm-charts-alternative"
 
   %% diagram
 
@@ -95,9 +101,6 @@ flowchart LR
       gpt_cnh_3k
     end
 
-    subgraph gbpt_test[GBPT test pipeline]
-      gbpt_cnh_3k
-    end
   end
 
   subgraph ref_arch[Reference Architectures]
@@ -120,69 +123,44 @@ flowchart LR
       ra_cnh_50k
     end
   end
-  
+
   subgraph dedicated[Dedicated Deployed Environments]
     subgraph dedicated_tenant[Dedicated Tenant]
       dedicated_cnh_3k
     end
-
-    subgraph FedRAMP
-      fedramp_cnh_3k
-    end
-
-    subgraph Cells
-      cells_cnh_3k
-    end
   end
 
   gpt_cnh_3k <--> ra_cnh_3k
-  gbpt_cnh_3k <--> ra_cnh_3k 
   ra_cnh_3k --> dedicated_cnh_3k
-  ra_cnh_3k --> cells_cnh_3k
-  ra_cnh_3k --> fedramp_cnh_3k
-
-
- 
 ```
 
+## Types of performance tests covered
 
+We have tests that cover a variety of different areas of GitLab in order to provide confidence in our application:
 
-## Gitaly focus
+| Tool | Area |
+| ---- | ---- |
+| GPT | [API](https://gitlab.com/gitlab-org/quality/performance/-/wikis/current-test-details#api) |
+| GPT | [git](https://gitlab.com/gitlab-org/quality/performance/-/wikis/current-test-details#git) |
+| GPT | [scenarios](https://gitlab.com/gitlab-org/quality/performance/-/wikis/current-test-details#scenarios) |
+| GPT | [web](https://gitlab.com/gitlab-org/quality/performance/-/wikis/current-test-details#web) |
+| GBPT | [web](https://gitlab.com/gitlab-org/quality/performance-sitespeed/-/wikis/Current-Test-Details) |
 
-TBD
+We performance test web with both GPT and GBPT because they each provide different approaches to testing that give us different insights that we use to improve performance.
 
-## Assurance we can provide the customer
+## Environment specifics
 
-* We have recommendations on how to determine what sized Reference Architecture they should need
-* We have performance tested the CNH Reference Architectures and are confident in our published metrics
-* We will listen to their concerns and work with them to provide better confidence in GitLab
-  * We added a [50k Reference Architecture](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/issues/2445) due to a customer request
-  * We added [monorepo testing based on Chromium](https://gitlab.com/gitlab-org/quality/quality-engineering/team-tasks/-/issues/2377) 
+This section identifies some of the key criteria of Dedicated
 
-
-## Environment specific Notes
 ### Dedicated
 
-* Deploys the previous major release of GitLab
-* Deploys to AWS/GCP
-
-### Cells
-
-* Deploys the current version of GitLab
-* Deploys to GCP
-
-### FedRAMP
-
-* Deploys the current version of GitLab
-* Deploys in AWS GovCloud
-* Uses FIPS enabled base images
+- Deploys a Reference Architecture based environment with [GitLab Environment Toolkit](https://gitlab.com/gitlab-org/gitlab-environment-toolkit)
+- Deploys the previous major release of GitLab
+- Deploys to AWS/GCP
+- Uses cloud-provider managed services
+- Cloud-Native Hybrid
 
 
-## Sample issues supporting customer requests
+### Findings
 
-* [Enhance performance testing on large monorepos](https://gitlab.com/groups/gitlab-org/quality/quality-engineering/-/epics/37)
-* [Extended performance testing to a large monorepo based on Chromium](https://gitlab.com/gitlab-org/quality/quality-engineering/team-tasks/-/issues/2377)
-* [Extended Reference Architectures to a 50k size](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/issues/2445)
-* [Pairing with a customer to define what performance testing needed to be done](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/issues/3724)
-
-
+Dedicated deployments use standard Reference Architecture infrastructure, so our existing performance tests are directly attributable
