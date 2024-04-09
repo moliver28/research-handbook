@@ -219,6 +219,61 @@ For more personal events, such as Executive Roundtables, there many be more deta
 - The first step is to put the prospect in the Sequence. From there customize the first email step to include the people mentioned in the Last Event Notes. You can also delay the time that the first email goes out so you have more time to get feedback from the SAE/AE if needed.
 - Next send a screenshot of the first email step to the SAE/AE’s that will be CC’d. Explain to them that this strategy creates space for them to engage with more specific messaging if the prospect is unresponsive. NOTE: There is a generic task on Day 12 to reach out to the SAE/SA if there has not been any engagement. The goal is to keep them in the loop and for you to work together to engage the prospect.
 
+## Outbound Account Ranking Matrix
+
+This complementary table can help structure your thinking around what outbound accounts to choose.
+
+| Account Scoring & Prioritization |
+|----------------------------------|
+| **Priority 1 Actively Working Accounts (15%)** |
+| - Strong ICP Qualities |
+| - Compelling Triggers |
+| - Strategy is Tailored and Targeted |
+| - Future based next step dates |
+| - Specific next step notes |
+| **Priority 2 Actively Working Accounts (35%)** |
+| - ICP qualities |
+| - No Triggers |
+| - Strategy is Targeted (persona/industry based) |
+| - Future based next step dates updated weekly/bi-weekly |
+| - Next step notes should just include week # |
+| **Priority 3 Actively Working Accounts (50%)** |
+| - ICP qualities |
+| - No Recent Triggers |
+| - Strategy is nurture based |
+| - Future based next step dates updated monthly |
+| - Next step notes should just include recent release # or event invite |
+| **Other Good Account Scoring Qualifiers:** |
+| - Current CE Usage |
+| - 250+ employees in IT/TEDD positions |
+| - Good Fit Industry / Vertical (High Growth, Technology, Financial, Healthcare, Regulated Business) |
+| - Early Adopters / Innovative IT Shops (Identifiers & Keywords): Kubernetes / Containers, Microservices, Multi-cloud, DevOps, DevSecOps, CICD (and open-source + proprietary tools), SAST / DAST, Digital Transformation |
+| - Current DevOps Adoption (multiple DevOps roles on staff or hiring for multiple DevOps positions) |
+| **Outbound Prospecting Framework** |
+| **Priority Level** | **Account Strategy Includes** | **Next Step Date** | **Next Step Notes** |
+| Priority 1 | Priority #, Any Details | Future based next steps | Hyper-personalized, simultaneous outreach, creative, direct mail, ads, groundswell, events |
+| Priority 2 | Priority #, Weekly Plan or Length of Sequence | Future based next steps depending on account strategy | Include the weeks outreach and overall strategy |
+| Priority 3 | Priority # | Update Next Step Date to next months outreach | BDR Next Step, What kind of nurture (Product Updates, Events, Ect) |
+
+## Growth Strategies, Ranking and RoE 
+
+
+**Strategies:** 
+
+- Growth within an existing customer account: BDR should strategically partner with SAE/ISR to identify additional business units to bring into the conversation as growth opportunities. Renewal dates should be exploited.
+- Expansion into parent/children/subsidiaries of existing customer accounts: These are accounts that fall within the corporate hierarchy within Salesforce. If a child/subsidiary account is identified via ZoomInfo but not in our system, then BDR should follow the following process: Create a LEAD for that account and then convert to CONTACT to create the ACCOUNT when you qualify your first lead.
+- Free to paid upgrades: Existing Core/CE users can be targeted to upgrade to a paid version of GitLab
+
+**Ranking and prioritization of accounts:**
+
+- Rank 1: Expand with Purpose (EwP) accounts should be closely/strategically worked with SAEs. These accounts have High 6Sense intent scores and should therefore be High touch by BDR.
+- Rank 2: ICP Ultimate parent accounts that have Core/CE-Users in a hierarchy, Total CARR/LAM for account, Med/Low 6Sense intent scores, and small renewals in current FQ.
+- Rank 3: As above but are not our ICP
+
+**Professional Services Opportunities**
+
+A Professional Services Opportunity will be used to cover any integration, consulting, training or other service that a Sales rep will sell to a prospect/client and needs or wants to be invoiced separately. To invoice separately a new quote and opportunity must be created.
+
 
 ## Frequently Used Terms
 
