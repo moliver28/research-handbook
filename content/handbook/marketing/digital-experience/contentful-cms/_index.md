@@ -92,7 +92,7 @@ We have various levels of access in Contentful. Most new members that are invite
 
 ## Getting access to Contentful
 
-Please fill out an access request [here.](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/)
+Please fill out an access request [here](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/) and tag your manager for approval as well as `@lbarker` from Digital Experience, and include the purpose for your request (i.e. to edit the marketing site, to edit the blog - these are managed in different spaces in Contentful). You will recieve an email invitation to Contentful as a `Creator` unless publish access is necessary. 
 
 
 
