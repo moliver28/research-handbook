@@ -48,6 +48,14 @@ Product tours are a self-guided journey emphasizing the 'What' of a feature, ski
 * [Integrating security to the pipeline - 2024-01-24](https://gitlab.navattic.com/gitlab-scans)
 * [Code Suggestions - 2024-01-24](https://gitlab.navattic.com/code-suggestions)
 
+### Maintained talks
+
+These golden talk slide decks provide storytelling for lightning talks at events, speaking engagements, customer workshops, etc. You can use the slide decks for your own talks, workshops, etc. or repurpose specific slides into new stories.
+
+These talks are maintained throughout FY25:
+
+- "Efficient DevSecOps workflows with a little help from AI" ([resources](https://gitlab.com/groups/gitlab-com/marketing/developer-relations/-/epics/402#resources))
+- "Efficient DevSecOps workflows with reusable CI/CD components" ([resources](https://gitlab.com/groups/gitlab-com/marketing/developer-relations/-/epics/399#resources))
 
 ### Projects
 

@@ -7,9 +7,9 @@ canonical_path: "/handbook/support/readiness/operations/docs/zendesk/apps/us-gov
 Zendesk US Federal has some similar apps as Zendesk Global. The ones they have
 in common are:
 
-- [Advanced Search](./global-apps#advanced-search)
-- [GitLab Reminders App](./global-apps#gitlab-reminders-app)
-- [Out of Office](./global-apps#out-of-office)
+- [Advanced Search](../global-apps#advanced-search)
+- [GitLab Reminders App](../global-apps#gitlab-reminders-app)
+- [Out of Office](../global-apps#out-of-office)
 
 ### Architecture Diagrams
 

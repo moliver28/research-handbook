@@ -57,11 +57,11 @@ The following settings should be applied to your survey:
 
 ## Avoiding spam responses from social media
 
-Distributing a survey on social media is a great way to quickly expand your audience, reducing the time and cost of research. However, be aware that **surveys shared on social media are often targetted by bots or fake participants** to submit dozens or hundreds of responses in a short amount of time, affecting the integrity of the data and the whole research. **This especially affects surveys with rewards or surveys shared on Twitter.**
+Distributing a survey on social media is a great way to quickly expand your audience, reducing the time and cost of research. However, be aware that **surveys shared on social media are often targeted by bots or fake participants** to submit dozens or hundreds of responses in a short amount of time, [affecting the integrity of the data](https://europepmc.org/article/MED/25846043). **This especially affects surveys with rewards.**
 
-Some bots are more sophisticated then others. For example, basic bots will “speed” through the survey or provide illogical responses to open-ended questions; more sophisticated bots will intentionally take more time to complete the survey or even use language from the survey itself to compose logical responses to open-ended questions. That's right, some people go to great lengths to get the survey rewards.
+Some bots are more sophisticated than others. For example, basic bots will “speed” through the survey or provide illogical responses to open-ended questions; more sophisticated bots will intentionally take more time to complete the survey or even use language from the survey itself to compose logical responses to open-ended questions.
 
-Fear not, there are multiple things you can do to prevent or filter out *most of these responses*. We say “most of these responses” because the only true way to avoid spam in your surveys is to not share them on social media but rather to [send email survey invitations with individual links](https://www.qualtrics.com/support/survey-platform/distributions-module/email-distribution/emails-overview/#UnderstandingTheIndividualLink) that can only be used once, leveraging our First Look panel.
+There are [multiple things](/handbook/product/ux/ux-research/surveys/how-to-identify-low-quality-data-when-designing-and-reviewing-your-survey/) you can do to prevent or filter out *most of these responses*. We say “most of these responses” because the only true way to avoid spam in your surveys is to not share them on social media but rather to [send email survey invitations with individual links](https://www.qualtrics.com/support/survey-platform/distributions-module/email-distribution/emails-overview/#UnderstandingTheIndividualLink) that can only be used once, leveraging resources such as [Marketo or the Data Warehouse](/handbook/product/ux/ux-research-coordination/recruitment-methods) to contact targeted sets of GitLab users we have on file.
 
 ### Prevent spam responses before sharing the survey
 
@@ -96,52 +96,6 @@ After closing your survey, its now time to see how much the prevention measures 
 - Check for illogical responses to open-ended questions, if applicable.
 - Check for respondents who complete your survey too quickly. The Response Quality feature attempts to [flag “speeder” responses](https://www.qualtrics.com/support/survey-platform/survey-module/survey-checker/response-quality/#Speeders) but it only works for surveys with at least 100 responses.
 - Check for duplicate email addresses, if applicable. Also pay attention to `@aol.com`, `@yahoo.com`, and `@hotmail.com` email addresses that are frequently used to spam surveys.
-
-## Distributing a survey to GitLab First Look
-
-**Note: These instructions are only applicable to UX Researchers and Research Coordinators.**
-
-1. Select `Contacts` (top right menu).
-1. Select `Lists` (far left menu).
-1. Select `GitLab First Look`
-1. Select `List Options`
-1. From the dropdown menu, select `Create Sample From List`.
-1. Give your sample a name.
-1. Select your sample size (the number of people who you ideally want to distribute your survey to).
-    - It is advisable to send your survey to a small test sample of users to begin with, to ensure that you receive the kind of responses you are looking for.
-    - When you distribute your survey to a larger audience, to avoid contacting the same users who have already answered your survey as part of your test sample, click `Advanced Sampling Criteria`, ensure the sampling criteria statement reads: `All of the following are true`, change the `Contact Activity` filter to `Survey` and change the `Select survey` filter to the survey you have already distributed.
-1. Click `Add Sampling Criteria`
-1. Ensure the sampling criteria statement reads: `All of the following are true`
-1. Select `Embedded data`, select an `Embedded Data field`, select an `Operator` and enter/select an `Embedded Data Value`.
-    - For every sample you create, you must always add sampling criteria for `Stage groups` and `Types of research`. When a person signs up to GitLab First Look, they specify what they would like to receive studies about (stage groups) and what type of research they would like to take part in. It’s extremely important that when you contact users, you only email them in relation to their preferences.
-    - Remember the embedded data for `Stage groups` and `Types of research` can contain multiple values (it’s rare that users sign-up to receive emails abouts one particular stage group or want to take part in one form of research). Therefore, your `Operator` will always be `Contains`.
-    - For more information on what embedded data is available, please refer to the [embedded data](/handbook/product/ux/ux-research/surveys/qualtrics/#embedded-data) section.
-1. Click `New Condition` to add additional sampling criteria.
-1. Click `Create` once you have finished entering your sampling criteria.
-1. A progress bar will appear, this indicates that Qualtrics is building your sample.
-1. Once the sample is ready, click `Go to Sample` (Alternatively you can navigate to `Lists` and your new sample will be visible under `All Lists`. Click on your sample to access it).
-1. The number of contacts in your sample will show on the left hand side of the screen.
-    - [What to do if your sample size is lower than expected](/handbook/product/ux/ux-research/surveys/qualtrics/#what-to-do-if-your-sample-size-is-lower-than-expected)
-1. If you are happy with the number of contacts in your sample, you are now ready to send your survey to users. To do this, go to `Projects`
-1. Select the project/survey you want to distribute to users.
-1. Click `Distributions`
-1. Click `Compose Email`
-1. In the `To` field, navigate to: `Group Library: UX Research` -> `GitLab First Look` -> `Samples` and select the sample you created earlier.
-1. Update the `From` field to: `firstlook@gitlab.com`
-1. Update the `From Name` to: `GitLab First Look`
-1. The `Reply-To Email` can either be your own, personal GitLab email address or `firstlook@gitlab.com`
-    - If you are planning to leave a survey running while you are on vacation, please use `firstlook@gitlab.com` as this will automatically forward to all UX Researchers who may be able to assist with any user queries in your absence.
-1. Update the `When` field to the time you would like to send the email.
-1. Enter your `subject line`.
-    - A standard subject line we use for campaigns is: `Quick, new research study available!` however, if you wish, you may experiment with this. Please ensure that you use a [subject line checker](https://www.subjectline.com/) to evaluate your subject line.
-1. Delete the standard text/links which appear in the WYSIWYG text area.
-1. Click `Load Message` next to the Message field.
-1. Navigate to `Group Library: UX Research` and select the template you would like to use.
-1. Select `Use Fixed Text` option from the `Load Message` dropdown after the template has loaded. This stops any changes you make to the template from being saved permanently.
-1. Edit the message text as appropriate.
-    - By default, the call to action always links to the current project/survey you are planning to send. As does the screening survey text link found in the body of templates for `Usability testing` and `User interviews`.
-1. When you have finished building your email, click `Send Preview Email` and enter your GitLab email address. A copy of the email will be sent to you for review.
-1. If you are happy with your email, click `Send`
 
 ### Embedded data
 

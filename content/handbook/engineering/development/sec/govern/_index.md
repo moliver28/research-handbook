@@ -11,9 +11,8 @@ To support GitLab's product vision through alignment with the [Govern stage](htt
 
 ## Groups
 
-- [Anti-abuse](anti-abuse/)
 - [Authentication](authentication/)
-- [Authorization](authorization/)
+- [Authorization](authorization/) and [Anti-abuse](anti-abuse/)
 - [Compliance](compliance/)
 - [Security Policies](security-policies/)
 - [Threat Insights](threat-insights/)

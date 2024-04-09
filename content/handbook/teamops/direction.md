@@ -12,7 +12,7 @@ images:
 
 ## Objectives and Key Results
 
-Although TeamOps has been practiced since the beginning of GitLab, it wasn't consolidated into a replicable framework until 2022. In FY2024, the Chief of Staff Team (CoST) in GitLab built a business model around TeamOps with the following objectives:
+Although TeamOps has been practiced since the beginning of GitLab, it wasn't consolidated into a replicable framework until 2022. In FY2024, the Office of the CEO in GitLab built a business model around TeamOps with the following objectives:
 
 - Internally optimize workforce awareness and universal application of the TeamOps model to standardize organizational behavior
 - Externally monetize and market the TeamOps model through professional services to monetize our non-tech thought leadership

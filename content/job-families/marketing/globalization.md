@@ -151,7 +151,7 @@ The next step in the Globalization Technology job family is Director, Globalizat
 #### Performance Indicators
 
 - Build and maintain a state-of-the-art localization platform in partnership with internal development teams and external suppliers.
-- Deploye solutions for localization workflows that rely more on integrated ML and generative AI tooling.
+- Deploy solutions for localization workflows that rely more on integrated ML and generative AI tooling.
 - Speed and throughput of translation; % of on-time deliveries.
 - Localization Quality; average language quality scores.
 - Total localization costs relative to content volume / format; fully-loaded price per word.

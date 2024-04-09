@@ -102,7 +102,7 @@ These reviews ensure that elements reflect current priorities and do not get sta
 1. Sales targets (in [Clari](/handbook/business-technology/tech-stack/#clari))
 1. [E-group offsite](/handbook/company/offsite/)
 1. [GitLab Assembly](/handbook/company/gitlab-all-company-meetings/)
-1. [Quarterly Kickoff](/handbook/ceo/chief-of-staff-team/#quarterly-kickoff)
+1. [Quarterly Kickoff](/handbook/ceo/office-of-the-ceo/#quarterly-kickoff)
 1. [Earnings activities](/handbook/finance/investor-relations/)
 1. [Key Reviews](/handbook/key-review/)
 1. [Group Conversations](/handbook/group-conversations/)
