@@ -167,7 +167,7 @@ security researchers use when choosing to engage with the security team, either
 directly or through our [HackerOne Bug Bounty Program]({{< ref "./product-security/application-security/runbooks/hackerone-process.md" >}}").
 
 Vulnerabilities must be mitigated and remediated according to specific timelines.
-The timelines are specified in the [Vulnerability Management handbook]({{< ref "./vulnerability-management/#remediation-slas" >}}) (a [controlled document]({{< ref "./controlled-document-procedure" >}})).
+The timelines are specified in the [Vulnerability Management handbook]({{< ref "./product-security/vulnerability-management/#remediation-slas" >}}) (a [controlled document]({{< ref "./controlled-document-procedure" >}})).
 
 If a better understanding of an issue leads us to discover the severity has changed, recalculate the time to remediate from the date the issue was opened. If that date is in the past, the issue must be remediated on or before the next security release.
 
@@ -177,7 +177,7 @@ For `~security` issues with the `~bug::vulnerability` label and a severity of `~
 which is the target date of when fixes should be ready for release.
 This due date should account for the `Time to remediate` times above, as well as
 monthly security releases on the 28th of each month. For example, suppose today is October 1st, and
-a new `severity::2` `~security` issue is opened. It must be addressed in a security release [within 30 days]({{< ref "./vulnerability-management#remediation-slas" >}}),
+a new `severity::2` `~security` issue is opened. It must be addressed in a security release [within 30 days]({{< ref "./product-security/vulnerability-management#remediation-slas" >}}),
 which is October 31st. So therefore, it must catch the October 28th security release.
 Furthermore, the [Security Release Process deadlines](https://gitlab.com/gitlab-org/release/docs/blob/master/general/security/process.md#release-deadlines)
 say that all merge requests associated with the fix must be ready 48 hours before the due date of the security release, which would be October 26th. So the due date in this example must be October 26th.

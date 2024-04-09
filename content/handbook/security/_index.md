@@ -68,6 +68,8 @@ To reflect this, we have structured the Security Division around four key tenets
         <ul>
             <li><a href="{{< ref "./product-security/application-security" >}}">Application Security</a></li>
             <li><a href="{{< ref "./product-security/infrastructure-security" >}}">Infrastructure Security</a></li>
+            <li><a href="{{< ref "./product-security/security-research" >}}">Security Research</a></li>
+            <li><a href="{{< ref "./product-security/vulnerability-management" >}}">Security Threat & Vulnerability Management</a></li>
         </ul>
       </td>
       <td>
@@ -81,8 +83,6 @@ To reflect this, we have structured the Security Division around four key tenets
         <ul>
             <li><a href="{{< ref "./threat-management/identity" >}}">Identity Engineering, Infra, and Ops</a></li>
             <li><a href="{{< ref "./threat-management/red-team" >}}">Red Team</a></li>
-            <li><a href="{{< ref "./threat-management/security-research" >}}">Security Research</a></li>
-            <li><a href="{{< ref "./threat-management/vulnerability-management" >}}">Security Threat & Vulnerability Management</a></li>
         </ul>
       </td>
       <td>
@@ -136,8 +136,8 @@ Security Program Management is responsible for complete overview and driving sec
 
 Security Architecture plans, designs, tests, implements, and maintains the security strategy and solutions across the entire GitLab ecosystem.
 
-- [Security Architecture]({{< ref "./architecture" >}})
-- [Security Architecture Review process]({{< ref "./architecture/review" >}})
+- [Security Architecture]({{< ref "./product-security/architecture" >}})
+- [Security Architecture Review process]({{< ref "./product-security/architecture/review" >}})
 
 ### Product development
 
@@ -283,7 +283,7 @@ our security automation initiatives.
 - [Security READMEs](/handbook/security/readmes/)
 - [Working in Security](/handbook/security/working-in-security.md)
 - [Contributing to GitLab the product as a Security team member]({{< ref "contributing-to-gitlab-the-product" >}})
-- [Threat Modeling]({{< ref "threat-modeling" >}})
+- [Threat Modeling]({{< ref "./product-security/application-security/threat-modeling" >}})
 
 #### AI in Security Learning Group
 

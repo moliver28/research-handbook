@@ -107,20 +107,20 @@ system helps to get started with the Threat Modeling activity.
 
 #### Threat Modeling
 
-Create or update a corresponding [Threat Model]({{< ref "../threat-modeling" >}}).
+Create or update a corresponding [Threat Model]({{< ref "../product-security/application-security/threat-modeling" >}}).
 
 #### OSS Ecosystem Testing
 
 In case the proposed architectural change introduces new Open Source Software components to our
 infrastructure or our product inform the Security Research Team
 (`@gitlab-com/gl-security/security-research`) for potential inclusion of the dependency into the
-[OSS Ecosystem Testing]({{< ref "../threat-management/security-research#gitlab-ecosystem-security-testing" >}})
+[OSS Ecosystem Testing]({{< ref "../product-security/security-research#gitlab-ecosystem-security-testing" >}})
 efforts.
 
 ## Additional resources and references
 
 
 [Security Assurance]: {{< ref "security-assurance" >}}
-[Security Architects]:{{< ref "../architecture" >}}
+[Security Architects]:{{< ref "../product-security/architecture" >}}
 [InfraSec]: {{< ref "../product-security/infrastructure-security" >}}
 [AppSec]: {{< ref "../product-security/application-security" >}}
