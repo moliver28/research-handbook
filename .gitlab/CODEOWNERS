@@ -535,8 +535,12 @@
 /content/handbook/security/ @joshlemos @jlongo_gitlab @plafoucriere @juliedavila
 /content/handbook/security/architecture/ @plafoucriere
 /content/handbook/security/identity/ @gitlab-com/gl-security/identity
-/content/handbook/security/product-security/ @juliedavila @jritchey
+/content/handbook/security/product-security/ @juliedavila
 /content/handbook/security/product-security/infrastructure-security.md @juliedavila
+/content/handbook/security/product-security/application-security/ @jritchey
+/content/handbook/security/product-security/architecture/ @plafoucriere
+/content/handbook/security/product-security/vulnerability-management/ @estrike
+/content/handbook/security/product-security/security-research/ @estrike
 /content/handbook/security/security-assurance/ @tdilbeck @corey-oas @jlongo_gitlab @lcoleman @cynthiamiller
 /content/handbook/security/security-operations/ @jfuentes2
 /content/handbook/security/security-operations/security-logging/ @mcoons
