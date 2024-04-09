@@ -911,6 +911,10 @@ It might be useful to add a Gmail filter that adds a label to any GitLab notific
 1. Check **Also apply filter to matching conversations**.
 1. Click **Create filter**.
 
+##### Apply label when assigned as reviewer on an MR
+
+##### Apply label when MR is merged
+
 ##### Apply label to all GitLab-generated emails
 
 GitLab issues and merge requests can generate a lot of email notifications depending on your settings and how in-demand your attention is.
