@@ -180,7 +180,8 @@ A candidate who has talked to a lot of people inside GitLab said that, compared 
 
 Keep an eye out for others who may be struggling or stuck.
 If you see someone who needs help, reach out and assist by either offering to [pair program](https://about.gitlab.com/blog/2019/08/20/agile-pairing-sessions/) with them or connect them with someone else who can provide expertise or assistance.
-We are a team and so, we succeed and shine together by supporting each other!
+If you see someone who needs help, reach out and assist. This might involve offering to [pair program](https://about.gitlab.com/blog/2019/08/20/agile-pairing-sessions/) or setting up a sync brainstorming session. The goal is to connect them with someone else who can provide expertise or assistance.
+We are a team, so we succeed and shine together by supporting each other!
 
 ##### People are not their work
 
