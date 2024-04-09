@@ -72,7 +72,7 @@ Once you've committed your changes, submit a merge request and update the defaul
 
 The release process is described in the template [Release process for Permifrost](https://gitlab.com/gitlab-data/permifrost/-/blob/master/RELEASE.md) with using [Release Permifrost](https://gitlab.com/gitlab-data/permifrost/-/blob/master/.gitlab/issue_templates/Releasing%20update.md) template. For real life example, use [Release `0.15.1`](https://gitlab.com/gitlab-data/permifrost/-/issues/175) as a template.
 
-We set  a goal to release a new version of Permifrost at least twice per year. Meanwhile, check our [release history](https://pypi.org/project/permifrost/#history).
+We set a goal to release a new version of Permifrost at least twice per year. Meanwhile, check our [release history](https://pypi.org/project/permifrost/#history).
 
 #### Versioning
 
