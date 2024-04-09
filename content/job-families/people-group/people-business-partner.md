@@ -264,6 +264,8 @@ The Senior Director, People Business Partner is a [job grade 11](/handbook/total
 - Drive equality, diversity, and inclusion throughout all of our programs and initiatives.
 
 ### PBP, EMEA
+
+Responsibilities
 - Primary People Business Partner support for the Go-To-Market teams in EMEA; develops a people strategy that helps support local organization and business goals
 - Consult on global expansion efforts in the EMEA region; including participating in the due diligence process 
 - Partners closely with the broader People Business Partners and People Group to support the implementation of GitLab's People programs and policies locally
