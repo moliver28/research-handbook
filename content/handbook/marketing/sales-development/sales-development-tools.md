@@ -1,10 +1,8 @@
 ---
-
 title: "Sales Development Tools and Manager Resources"
+description: "Guide to the many tools and best practices that the Sales Development Organization Utilizes"
 ---
-# Sales Development Tools
 
-This page is to act as your guide to the many tools and best practices that the Sales Development Organization uitlizes.
 
 ## Salesforce
 

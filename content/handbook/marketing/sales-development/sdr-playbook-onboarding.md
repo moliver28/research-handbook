@@ -1,9 +1,10 @@
 ---
-
 title: "Sales Development Onboarding"
+description: "Onboarding for New Sales Development Team Members"
 ---
 
 ## The Goal of Sales Development Onboarding
+
 As BDRs and SDRs, you work closely with the larger marketing org as well as the sales team. Due to this, your onboarding will encompass training on tools and processes related to not only your role but a blend of marketing and sales.
 
 This learning experience involves virtual self-paced learning paths in the form of a general company-wide onboarding issue, a Sales Development specific issue, as well as a Google Classroom course to prep you for [Sales Quick Start (SQS)](/handbook/sales/onboarding/SQS-workshop/). SQS is a 3-day in-person immersive and hands-on workshop for all new hires in a sales development or sales role. In parallel, you will meet regularly with your manager, onboarding buddy and members of our sales development enablement team to chat through and dig a bit deeper into the topics within your onboarding.
