@@ -4,6 +4,18 @@ This page is part of the Sales Development team's handbook [page](https://handbo
 
 While the contents below are meant to get you up to speed quickly, we also have a wealth of resources for team members that are looking to perfect their craft [here](https://handbook.gitlab.com/handbook/marketing/sales-development-knowledge-base/).
 
+## BDR Lead Views
+
+| BDR Lead Views         | Description                                                                                                                                         |
+|------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
+| B1 - My Leads, Action Needed                |  - Includes highest converting leads, a mix of High Priority and MQLs.                                                    |
+| B2 - AWA leads w/ LIM                |  Includes leads in your name and that match to your Actively Working Accounts, sorted by Last Interesting Moment Date.         |
+| B3 - Change Owner AWA’s (Clone)                |  Allows you to see leads that may not have been moved into your name. Keep sorted by LIM Date.                         |
+| B4 - My HT Leads W/ Phone                |  Used when additional call tasks are needed, allows you to easily create call tasks for leads in high touch sequences.     |
+| B5 - My Qualifying Leads                |  Leads in qualifying status with two-way engagement. Review best converting follow-up practices in the handbook.            |
+| B6 - 6QA imported leads                |  Leads related to accounts that have hit 6QA status, ready for sequencing upon moving the 6QA account into Actively Working. |
+| B7 - BDR Prospecting Last 7 Days                |  Surface leads created or refreshed from ZoomInfo or Cognism. Check contacts view if person is already a contact.  |
+
 
 ## BDR FO Outbound Process
 
