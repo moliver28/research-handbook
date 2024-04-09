@@ -1,6 +1,5 @@
 ---
 aliases: /handbook/engineering/infrastructure/core-platform/systems/distribution/workflow/k8s-release-support-policy.html
-
 title: "Distribution Team Kubernetes and OpenShift release support policy"
 ---
 
