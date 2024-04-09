@@ -95,26 +95,26 @@ Lastly, Every so often you may be assigned a lead that has no value to GitLab an
 | Step | Action |
 |------|--------|
 | 1 | Go to your SDR views on SFDC and select the lead you want to sequence. |
-| 2 | Press "Import to Outreach". |
+| 2 | Press `Import to Outreach`. |
 | 3 | Work from the Outreach extension on Chrome to then select the sequence you want to enroll the lead in. |
-| 4 | If manual steps are required for the sequence that you chose, select "Edit Steps". Go through each step you want to edit, paying especial attention to manual variables. |
-| 5 | Once the first step of an Outreach sequence is complete, the lead status will automatically change from MQL, Inquiry, or Raw to Accepted, marking that you are actively working on this lead. |
-| 6 | When a lead responds to you via email, their status will again automatically change from Accepted to Qualifying. Manage these leads from your S3 and B5 lead views. |
-| 7 | If you are not working on qualifying this lead further, manually change the status to Recycle so that this lead is back in Marketing recycle and isn’t stuck in your My Qualifying view. If you have spoken to the lead by phone and are qualifying them, manually change the status from Accepted to Qualifying. |
-| 8 | When looking at your qualifying view, sequence leads that have no recent last activity + no active tasks + are not actively being sequenced into one of our follow up sequences that have the “Follow up Ruleset Sequences”. |
+| 4 | If manual steps are required for the sequence that you chose, select `Edit Steps`. Go through each step you want to edit, paying especial attention to manual variables. |
+| 5 | Once the first step of an Outreach sequence is complete, the lead status will automatically change from `MQL, Inquiry, or Raw` to `Accepted` status, marking that you are actively working on this lead. |
+| 6 | When a lead responds to you via email, their status will again automatically change from `Accepted` to `Qualifying`. Manage these leads from your S3 and B5 lead views. |
+| 7 | If you are not working on qualifying this lead further, manually change the status to `Recycle` so that this lead is back in Marketing recycle and isn’t stuck in your `My Qualifying` view. If you have spoken to the lead by phone and are qualifying them, manually change the status from `Accepted` to `Qualifying`. |
+| 8 | When looking at your qualifying view, sequence leads that have no recent last activity + no active tasks + are not actively being sequenced into one of our follow up sequences that have the `Follow up Ruleset Sequences`. |
 | 9.   | Tasks and your pipeline can be then managed via the Outreach [360 view.](https://support.outreach.io/hc/en-us/articles/214806328-Navigating-the-360-View-Dashboard) |
 | 10.   | In the 360 View, review the list of inbound leads assigned to you by navigating to the bottom left of the screen and pressing Start tasks.                                             |   
-| 19 | If a lead finishes an Outreach sequence without responding, the lead status will automatically change to unresponsive or recycle in seven days if there is still no response. |
+| 19 | If a lead finishes an Outreach sequence without responding, the lead status will automatically change to `Unresponsive` or `Recycle` in seven days if there is still no response. |
 | 20 | If a lead responds, schedule a call/meeting using Outreach’s meetings feature. |
 | 21 | Manually change lead status if you don’t use an Outreach sequence to reach out to someone or if you need to unqualify a lead for bad data etc. |
 | 22 | If you check the Inactive lead or Inactive contact checkbox, signifying that this person no longer works at the company, any running sequence will automatically be marked as finished. |
-| 23 | If you notice your leads are being reassigned to Inquiry Queue, that’s due to a scheduled clean up job in Traction that updated Status = Inquiry to Inquiry Queue. To resolve this, add your leads to an Outreach sequence. Note: The scheduled clean up runs daily at 10:30 PM EST/EDT. | 
+| 23 | If you notice your leads are being reassigned to Inquiry Queue, that’s due to a scheduled clean up job in Traction that updated `Status = Inquiry` to Inquiry Queue. To resolve this, add your leads to an Outreach sequence. Note: The scheduled clean up runs daily at 10:30 PM EST/EDT. | 
 
 ## SAO Credit
 
 Qualification criteria is a minimum set of characteristics that a lead must have in order to be passed to sales and become a Sales Accepted Opportunity (SAO), these are split into [Inbound and Outbound Criteria.](https://handbook.gitlab.com/handbook/sales/field-operations/gtm-resources/#opportunities)
 
-As an SDR or BDR, you will work to connect with inbound/outbound leads that you get a response from to obtain the applicable information required. This information is tracked on the qualification criteria on the LEAD, CONTACT, and OPPORTUNITY objects in Salesforce. In order to obtain an SAO, you will need to have the ‘required’ information filled out on the opportunity including documented 2-way communication on the Contacts in the Opportunity. Professional Services opportunities are not credited to sales development, these need to be passed straight to the account AEs for them to qualify.
+As an SDR or BDR, you will work to connect with inbound/outbound leads that you get a response from to obtain the applicable information required. This information is tracked on the qualification criteria on the `LEAD, CONTACT, and OPPORTUNITY` objects in Salesforce. In order to obtain an SAO, you will need to have the `required information` filled out on the opportunity including documented 2-way communication on the Contacts in the Opportunity. Professional Services opportunities are not credited to sales development, these need to be passed straight to the account AEs for them to qualify.
 
 **When do I create an Opportunity?**
 
