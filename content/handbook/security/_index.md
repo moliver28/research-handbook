@@ -132,13 +132,6 @@ Security Program Management is responsible for complete overview and driving sec
 - Drive & Define Acceptance Criteria, Value Proposition, Milestones to Visualize and Communicate Program Effectiveness
 - Develop Repeatable, Scalable, Efficient, Effective, Processes & Procedures
 
-##### Security Architecture
-
-Security Architecture plans, designs, tests, implements, and maintains the security strategy and solutions across the entire GitLab ecosystem.
-
-- [Security Architecture]({{< ref "./product-security/architecture" >}})
-- [Security Architecture Review process]({{< ref "./product-security/architecture/review" >}})
-
 ### Product development
 
 In keeping with our [core values]({{< ref "values" >}}) and the belief that [everyone can contribute]({{< ref "mission#everyone-can-contribute" >}}), the Security Division is committed to [dogfooding]({{< ref "values#dogfooding" >}}) and contributing to the development of the GitLab product.
