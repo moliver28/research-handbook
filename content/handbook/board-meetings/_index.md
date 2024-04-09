@@ -163,7 +163,7 @@ The Staff EBA to the CEO shall ensure that there are separate calendar invites f
 1. 7 weeks before the Board meeting, the Lead Independent Director will reach out to the Board via email to discuss agenda topics.
 1. 6 weeks before the Board meeting, the Lead Independent Director, CEO, and CFO will have a meeting to discuss and finalize the agenda. Once finalized, the CFO will share the agenda with E-Group.
 1. The CFO sends a reminder to the E-Group 3 weeks in advance of the meeting.
-1. The CoS to the CEO shares the [CEO Memo](#ceo-memo) with E-Group for comments or edits 8 days prior to the Board Meeting.
+1. The CoS to the CEO shares the CEO Memo with E-Group for comments or edits 8 days prior to the Board Meeting.
 1. The E-Group has the complete presentation materials ready 10 business days prior to the meeting. All materials are submitted to the CLO and CFO for review within 48 hours of receipt.
 1. Once approved by the CLO and the CFO, the CFO authorizes the Corporate Paralegal to upload the materials into Nasdaq Boardvantage (NBV) and attach them to the corresponding NBV Meeting. All presentations and content should be finalized at this time with no further changes. The Corporate Paralegal is responsible for ensuring parity between the NBV Meeting and calendar invite. The Senior EBA to the CFO is responsible for the sharing settings on all materials. Materials should be shared with the E-Group, the Board (not via the @board alias), Board Observers, and the outside legal firm. Any exceptions must be confirmed by the CLO and relayed to the Corporate Paralegal before shipping. The deadline for the document upload is 2p PT 7 days before the Board meeting.
 1. The Senior EBA to the CFO is responsible for linking all materials in the agendas for each session of the board meeting. Materials should always be linked in the agenda and shared with the appropriate attendees.
@@ -204,7 +204,7 @@ For a more detailed overview of navigating the NBV portal, please click here to 
 ### Agenda
 
 1. Key Board material is presented during Board Meeting sessions. This includes:
-   - E-Group memos and CEO memos
+   - E-Group and CEO memos
         - Each E-Group member has a memo with up to four pages with four additional exhibits.
         - Each discussion topic has a memo with unlimited exhibits.
         - Finance has unlimited exhibits in the memo.
