@@ -145,10 +145,10 @@ If the opportunity is for a new group of users in a Large account where sales is
 | Step | Description |
 | ---- | ----------- |
 | **Creating Opportunities:** | |
-| 1. Identify Communications | Identify relevant two-way communications with the prospect, such as email exchanges, call records, or LI messages. Ensure proper logging in SFDC associated with the person, company, and opportunity. |
-| 2. Relate Activities | Select specific activity records highlighting your involvement and press "related to." Select the corresponding Opportunity and press save. |
-| 3. Verify Sales Organization RoE | - On ZoomInfo or other sources, verify parent/child segmentation and HQ of the company or ultimate user.<br>- If discrepancies exist, communicate with the appropriate personnel for resolution. |
-| 4. Overriding Incorrect Account Assignments | - Navigate to the Lead/Contact Review Admin section in Salesforce to input correct information.<br>- If unsuccessful, communicate with the Sales Dev Director for assistance in updating account records. |
+| 1. Identify Communications | Identify relevant two-way communications with the prospect, such as email exchanges, call records, or LI messages. Ensure that these are properly logged in SFDC associated with the `person, company, and opportunity records` as needed. To do this, select the specific activity records highlighting your involvement and press `related to`. Afterwards select the corresponding Opportunity and press save.  |
+| 2. Relate Activities | |
+| 3. Verify Sales Organization RoE | - On ZoomInfo or other sources, verify parent/child segmentation and HQ of the company or ultimate user. <br> - If discrepancies exist, communicate with the appropriate personnel for resolution. |
+| 4. Overriding Incorrect Account Assignments | - Navigate to the Lead/Contact Review Admin section in Salesforce to input correct information. <br> - If unsuccessful, communicate with the Sales Dev Director for assistance in updating account records. |
 | **AMER SDR - IQM Standards:** | |
 | **Prior to the IQM** | |
 | 1. Schedule IQM | Schedule IQM within 48 hours of the DC, giving at least 24 hours notice to the AE. Send calendar invite + Zoom link. |
