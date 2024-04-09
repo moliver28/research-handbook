@@ -149,7 +149,75 @@ Announcement Channels
 
 ## KPIs and SLAs 
 
+### Ramping Periods and Lead Routing
+
+| Levels    | Details                                                                                    |
+|-----------|--------------------------------------------------------------------------------------------|
+| Onboarding| - Timeframe: Month 0 - Parameters: SDR not on quota, leads are off in Traction, Qualified is off |
+| Ramping 1 | - Timeframe: Month 1 - Parameters: SDR is on 25% quota, leads are set at 50% in Traction, Qualified is off |
+| Ramping 2 | - Timeframe: Month 2 - Parameters: SDR is on 50% quota, leads are set at 100% in Traction, Qualified is off |
+| Ramping 3 | - Timeframe: Month 3 - Parameters: SDR is on 75% quota, leads are set at 100% in Traction, SDR is added to Qualified |
+| Expert    | - Timeframe: Months 4+ - Parameters: SDR is on full quota, leads are set at 100% in Traction, Qualified is on |
+            |   - SDR is now able to create their own Outreach sequences pending approval.               |
+
+
+### Sales Dev Career Path
+
+| Position                               | Promotion Criteria                                                                                                                                                                  |
+|----------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| SDR to SDR Team Lead (SDR TL)         | - Minimum 9 months in the SDR Role (incl. ramp)                                                                                                                                     |
+|                                        | - Hitting quota cumulatively over the last fully-ramped 5 months                                                                                                                    |
+|                                        | - Willingness to coach and up-level peers                                                                                                                                           |
+|                                        | - Endorsement from SDR management                                                                                                                                                   |
+|                                        | - Demonstration of GitLab’s Values                                                                                                                                                  |
+|                                        | - Completion of SDR Q1-Q3 Tanuki Techs                                                                                                                                              |
+|                                        | NOTE: Not every SDR will have the opportunity to become a team lead. Interviews will take place when a spot is available. A successful applicant must make a 3-month minimum commitment to the Team Lead Role before pursuing another promotion.  |
+| SDR to BDR                             | - Minimum 12 months in the SDR Role (incl. ramp)                                                                                                                                    |
+|                                        | - Hitting quota cumulatively over the last 2 fully-ramped quarters (neither quarter below 80% attainment)                                                                          |
+|                                        | - Endorsement from current SDR manager                                                                                                                                              |
+|                                        | - Demonstration of GitLab’s Values                                                                                                                                                  |
+|                                        | - Completion of SDR Q1-Q4 Tanuki Techs                                                                                                                                              |
+|                                        | NOTE: All promotions require a formal application + interview. Performance and adherence to values guarantee an interview, but candidates must demonstrate suitability during the process. Factors such as interview performance, headcount, and language requirements can influence promotion timelines. |
+| BDR to Senior BDR                      | - Minimum 6 months in the BDR Role (incl. ramp)                                                                                                                                     |
+|                                        | - Hitting quota cumulatively over the last 6 months (fully-ramped months must hit 100% cumulatively)                                                                               |
+|                                        | - Endorsement from BDR management                                                                                                                                                   |
+|                                        | - Demonstration of GitLab’s Values                                                                                                                                                  |
+|                                        | - Completion of BDR Q1-Q2 Tanuki Techs                                                                                                                                              |
+| BDR to BDR Team Lead                   | - Minimum 9 months in the BDR Role (incl. ramp)                                                                                                                                     |
+|                                        | - Hitting quota cumulatively over the last fully-ramped 5 months                                                                                                                    |
+|                                        | - Willingness to coach and up-level peers                                                                                                                                           |
+|                                        | - Endorsement from BDR management                                                                                                                                                   |
+|                                        | - Demonstration of GitLab’s Values                                                                                                                                                  |
+|                                        | - Completion of BDR Q1-Q3 Tanuki Techs                                                                                                                                              |
+|                                        | NOTE: Not every BDR will have the opportunity to become a team lead. Interviews will take place when a spot is available. A successful applicant must make a 3-month minimum commitment to the Team Lead Role before pursuing another promotion.  |
+| BDR and BDR Team Lead to Next Step     | - Minimum 12 months in the BDR Role (incl. ramp)                                                                                                                                    |
+|                                        | - Hitting quota cumulatively over the last 2 fully-ramped quarters (neither quarter below 80% attainment)                                                                          |
+|                                        | - Endorsement from BDR management                                                                                                                                                   |
+|                                        | - Demonstration of GitLab Values                                                                                                                                                    |
+|                                        | - Completion of BDR Q1-Q4 Tanuki Techs                                                                                                                                              |
+|                                        | NOTE: All promotions require a formal application + interview. Performance and adherence to values guarantee an interview, but candidates must demonstrate suitability during the process. Factors such as interview performance, headcount, and language requirements can influence promotion timelines. |
+
+### Our three pillars
+
+| Task                               | Details                                                                                                                                                                                |
+|------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 1. Uphold Daily Activity Metrics   | - MQLs to be sequenced within expected activity metrics.                                                                                                                               |
+|                                    | - Work lead records within Salesforce by leveraging relevant sequence libraries in Outreach.                                                                                            |
+|                                    | - Use Business Intelligence platforms like ZoomInfo or LinkedIn to verify the validity of inbound lead datapoints. Take appropriate actions to clean up and assure accuracy and consistency of SFDC/Outreach data.                              |
+|                                    | - Maintain SFDC data integrity by following the outbound workflow in researching and prospecting accounts.                                                                             |
+|                                    | - Sequence steps to be actioned within the same day of them being due. Move steps to a further date only because of national holidays affecting outreach (i.e., Christmas day).      |
+|                                    | - Maintain cross-functional relationships in terms of outbound account planning. Attend each initial qualifying meeting (IQM) with the AE/SAE you work with. Document accurate up-to-date notes in SFDC. |
+| 2. Displaying Business and Sales Acumen | - Display business acumen and sales skills in personalizing inbound/outbound leads, following our CoM email writing principles.                                                          |
+|                                           | - Display business acumen and sales skills in preparing for cold-calls, following our CoM cold-calling principles.                                                                    |
+|                                           | - Display business acumen and sales skills in preparing for scheduled discovery calls, following our CoM sales training.                                                              |
+|                                           | - Outbound accounts to be added in a weekly cadence, according to the expectations set within each regional team, in terms of outbound cycle (monthly, weekly), and volume of accounts. |
+| 3. Maintain Cross-functional Relationships | - Collaborate with the Sales team in terms of account planning.                                                                                                                       |
+|                                           | - Collaborate with the Field Marketing team in terms of event outreach.                                                                                                                |
+
+
 ### Inbound Lead Management
+
+The below apply for all inbound-related leads for both the SDR and BDR teams:
 
 | Metric                      | Description                                                            |
 |-----------------------------|------------------------------------------------------------------------|
