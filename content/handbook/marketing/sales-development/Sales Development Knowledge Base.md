@@ -139,6 +139,60 @@ The end-user account determines the BDR/SDR alignment: If you are the SDR assign
 | Attach activity to the opportunity            | - On the reseller contact, go to the activity and link each activity related to your opportunity to the opp. <br> - Activity History > click edit to the left of the activity > choose ‘opportunity’ from the ‘related to’ dropdown > find the new opportunity > save |
 | Update the opportunity                         | - Change the business type to new business and stage to pending acceptance. <br> - Under contacts, add the reseller contact, role as reseller, and primary contact. <br> - Under partners, add the reseller account as VAR/Reseller |
 
+### Frequently Used Terms
+
+| Term                      | Definition                                                                                                                                                                  |
+|---------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Accepted Lead             | A lead that an SDR or BDR agrees to work until qualified in or qualified out                                                                                               |
+| Account                   | An organization tracked in salesforce.com. An account can be a prospect, customer, former customer, integrator, reseller, or prospective reseller                         |
+| AM                        | Account Manager                                                                                                                                                             |
+| AE                        | Account Executive, can be Major or Strategic in AMER/EMEA Enterprise                                                                                                       |
+| APAC                      | Asia-Pacific                                                                                                                                                                |
+| BDR                       | Business Development Represenative - focused on outbound                                                                                                                     |
+| CAM                       | Channel Account Manager                                                                                                                                                    |
+| CS                        | Customer Success                                                                                                                                                           |
+| DACH                      | Germany, Austria and Switzerland region                                                                                                                                     |
+| EMEA                      | Europe, Middle East, and Africa                                                                                                                                            |
+| EULA                      | End User License Agreement                                                                                                                                                  |
+| High intent               | An event, webcast, demo that is a strong indicator of purchase or evaluation                                                                                                |
+| Inquiry                   | An Inbound request or response to an outbound marketing effort                                                                                                              |
+| IQM                       | Initial Qualifying Meeting                                                                                                                                                  |
+| LATAM                     | Latin America (includes all of Central & South America)                                                                                                                     |
+| META                      | Middle East, Turkey and Africa Region                                                                                                                                       |
+| MQL                       | Marketing Qualified Lead - an inquiry that has been qualified through systematic means (e.g. through demographic/firmographic/behavior lead scoring)                        |
+| MVC                       | Minimal Viable Change (not Model View Controller)                                                                                                                           |
+| NEUR                      | Northern Europe Region                                                                                                                                                      |
+| NORAM                     | North America                                                                                                                                                               |
+| Qualified Lead            | A lead that a BDR or SDR has qualified, converted to an opportunity and assigned to a Sales Representative (Stage 0-Pending Acceptance)                                     |
+| RD                        | Regional Director                                                                                                                                                           |
+| ROW                       | Rest of World                                                                                                                                                               |
+| SAE                       | Strategic Account Executive                                                                                                                                                |
+| Sales Admin               | Sales Administrator                                                                                                                                                         |
+| Sales Serve               | A sales method where a quota bearing member of the sales team closes the deal                                                                                                |
+| SAO                       | Sales Accepted Opportunity - an opportunity Sales agrees to pursue following an Initial Qualifying Meeting                                                                  |
+| SDR                       | Sales Development Representative - focused on inbound                                                                                                                        |
+| Self Serve                | A sales method where a customer purchases online through our web store. Also known as a “web direct”                                                                        |
+| SEUR                      | Southern Europe Region                                                                                                                                                      |
+| SLA                       | Service Level Agreement                                                                                                                                                     |
+| SQO                       | Sales Qualified Opportunity                                                                                                                                                 |
+| CSM                       | Customer Success Manager                                                                                                                                                   |
+| TEDD                      | Technology, Engineering, Development and Design - used to estimate the maximum potential users of GitLab at a company                                                       |
+| Won Opportunity           | Contract signed to Purchase GitLab                                                                                                                                          |
+| Hyper-personalization    | The concept of combining real-time data extracted from multiple sources to create outreach that resonates with prospects on an individual level.                             |
+| VIP (prospect)           | A Very Important Person, top officer, executive buyer, C-level prospect, or important influencer requiring hyper-personalization.                                            |
+| Influencer (prospect)    | An individual prospect suspected to be involved with IT decision-making, tooling, teams, roadmap, strategic projects, and/or budgets.                                         |
+| User (prospect)          | A prospect with limited influence within an IT organization.                                                                                                                 |
+| Groundswell               | An outbound strategy focused on filling the top of the funnel by generating engagement, opt-ins, MQLs, and uncovering intent signals.                                         |
+| Snippets                  | Content created for BDRs and SDRs to use to create hyper-personalized sequences, one-off emails, or to use for reaching out to prospects via LinkedIn.                      |
+| Warm Calling              | The method used to strategically incorporate phone calls and voicemails into an outbound prospecting workflow.                                                               |
+| Rules of Engagement (RoE) | Defines ownership of a lead, SAO credit, and collaboration between SDRs and BDRs.                                                                                          |
+| BDR Prospecting Status    | Salesforce status includes Queued, Actively Working, Worked in FY, and Restricted.                                                                                         |
+| Partner Prospecting Status| If populated, the lead/contact is worked by a partner, and Sales Dev should not proceed with outreach.                                                                     |
+| Actively Working Status   | Accounts chosen for strategic outreach based on alignment, news, initiatives, etc. Recycles after 10 weeks if not worked.                                                    |
+| Actively Working Status Requirements | BDR Account Strategy field must be populated. Research and Next Steps notes within 10 days. Minimum 5 people in sequences.                                               |
+| Queued status             | Accounts waiting to be moved into Actively Working. SDRs work MQLs in this status.                                                                                          |
+| Worked in FY status       | Indicates an account went through “Actively Working” this FY. Can be moved back to “Actively Working” later.                                                               |
+| Restricted status          | SAE-indicated restriction on the account. BDRs handle the status change, note the reason, and reroute to assigned BDR.                                                      |
 
 
 
