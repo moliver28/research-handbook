@@ -536,6 +536,8 @@ Each month you will be assigned one of your peers to Audit. We will share a repo
 
 Once you’ve audited an opp, you will create a task by logging a call, choose “other” as type, and write “#Audited” in the subject line. If an opp needs more research, write “#Audited - Pending Review” and add this opp into the Audit Review spreadsheet. 
 
+[**Audit Process Video Walkthrough**](https://www.youtube.com/watch?v=ef8gFx0lR48)
+
 ### AUDIT REVIEW (what to look for): 
 
 | Action | Rationale | Coaching Opportunity | 
