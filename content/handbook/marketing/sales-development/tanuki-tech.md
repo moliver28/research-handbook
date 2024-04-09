@@ -3,9 +3,6 @@ title: "Tanuki Tech"
 description: "Tanuki Instutite of Technology Bootcamp"
 ---
 
-
-
-
 ## Tanuki Tech
 
 Tanuki Tech (short for "Tanuki Instutite of Technology") is the world class sales/technology bootcamp that we are provide for the sales development organization. Our goal is to powerfully equip our sales development team members to be successful in their current role as well as prepare them for their next role, whatever that may be. **We are doing this because we care about our team members.**

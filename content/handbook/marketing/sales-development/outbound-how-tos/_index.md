@@ -1,5 +1,5 @@
 ---
-title: "Business Development Outbound Process"
+title: "Sales Development Outbound Process"
 description: "Outbound Lead Management Process"
 ---
 

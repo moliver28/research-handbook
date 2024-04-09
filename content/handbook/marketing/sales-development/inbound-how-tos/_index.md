@@ -1,4 +1,7 @@
-## Sales Development Inbound Process
+---
+title: "Sales Development Inbound Process"
+description: "Inbound Lead Management Process"
+---
 
 This page is part of the Sales Development team's handbook [page](https://handbook.gitlab.com/handbook/marketing/sales-development/) and aims to break our inbound lead management process into small how-to sections.
 
