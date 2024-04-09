@@ -210,6 +210,13 @@ Organizing a shared demo makes it more simple for us to offer spontaneously a de
 | 5. Change the Dial country to match attendees' language                      |                                                                                                                                                                                                                                                    |
 | 6. Configure additional settings such as Q&A, recording, and email settings |                                                                                                                                                                                                                                                    |
 | 7. Save the configuration as a template for future use                       |                                                                                                                                                                                                                                                    |
+## White Glove Event Follow Up Sequence (SAEs Included)
+
+For more personal events, such as Executive Roundtables, there many be more detailed Last Event Notes that have an ask to include the people who interacted with the prospect at the event. For these situations we have a [specialized white glove sequence.](https://app1a.outreach.io/sequences/12883)
+
+ The goal of this sequence is to reach out to the prospect quickly and to include our SAEs/AEs in the conversation.
+The first step is to put the prospect in the Sequence. From there customize the first email step to include the people mentioned in the Last Event Notes. You can also delay the time that the first email goes out so you have more time to get feedback from the SAE/AE if needed.
+Next send a screenshot of the first email step to the SAE/AE’s that will be CC’d. Explain to them that this strategy creates space for them to engage with more specific messaging if the prospect is unresponsive. NOTE: There is a generic task on Day 12 to reach out to the SAE/SA if there has not been any engagement. The goal is to keep them in the loop and for you to work together to engage the prospect.
 
 
 ## Frequently Used Terms

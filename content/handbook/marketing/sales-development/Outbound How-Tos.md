@@ -4,7 +4,9 @@ This page is part of the Sales Development team's handbook [page](https://handbo
 
 While the contents below are meant to get you up to speed quickly, we also have a wealth of resources for team members that are looking to perfect their craft [here](https://handbook.gitlab.com/handbook/marketing/sales-development-knowledge-base/).
 
-## BDR Lead and ContactViews
+## SFDC Views
+
+### BDR Lead and Contact Views
 
 | BDR Lead Views         | Description                                                                                                                                         |
 |------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -25,6 +27,15 @@ Contact ownership is based on the BDR Assigned and Account owner fields. If you 
 | B3     | Active HT sequenced leads that have a phone number - to help with call downs                        |
 | B4     | Qualifying leads. Contacts actively being qualified through back-and-forth conversations. Each contact must have active follow-up or scheduled future activities. |
 
+### Account Views
+
+| View                                         | Description                                                                                                                                       |
+|----------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|
+| B1 - My BDR Assigned accounts (clone)        | Customize to show accounts where you are the BDR assigned. Use to mass update 'BDR Strategy' and 'BDR Prospecting Status'.                          |
+| B2 - My Actively Working accounts (clone)    | Customize to show "Actively Working" accounts where you are the BDR assigned.                                                                     |
+| B3 - My Actively Working accounts (clone)    | Customize to show "Actively Working" accounts where you are the BDR assigned.                                                                     |
+| B4 - BDR Recycle Date Past due (Clone)       | Show AWA accounts where the Recycle Date is in the past two weeks.                                                                                |
+| B5 - Mvd to "WorkedinFY" this week (Clone)  | Show Worked in FY accounts with a recent Recycle Date.                                                                                             |
 
 
 ## BDR FO Outbound Process
