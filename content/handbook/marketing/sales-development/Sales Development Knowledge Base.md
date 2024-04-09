@@ -126,7 +126,6 @@ When a territory moves from one BDR to another but the previous BDR remains with
 - In instances where an account has been reassigned to the new BDR and the outgoing BDR had two-way engagement more than 30 days ago with the account but was unable to convert them to an SAO, and the account later returns unprompted and with no prior activity from the new BDR assigned to the territory and wants to pursue a conversation with sales, the team (manager) will receive SAO credit from any resulting opportunity.
 - Any other situations that arise which result in a credit dispute will be investigated and resolved by the BDRs’ leader and senior leader.
 
-
 ## Working with Resellers
 
 The end-user account determines the BDR/SDR alignment: If you are the SDR assigned to the 3rd party lead, please gather the information in point 1 and pass the lead to the correctly assigned BDR (the BDR assigned to the end-user account) who will complete points 2-6
@@ -139,7 +138,81 @@ The end-user account determines the BDR/SDR alignment: If you are the SDR assign
 | Attach activity to the opportunity            | - On the reseller contact, go to the activity and link each activity related to your opportunity to the opp. <br> - Activity History > click edit to the left of the activity > choose ‘opportunity’ from the ‘related to’ dropdown > find the new opportunity > save |
 | Update the opportunity                         | - Change the business type to new business and stage to pending acceptance. <br> - Under contacts, add the reseller contact, role as reseller, and primary contact. <br> - Under partners, add the reseller account as VAR/Reseller |
 
-### Frequently Used Terms
+## SDR/BDR to AE SAO Handoff Process
+
+The purpose of the BDR-AE outbound handoff process is three fold.
+
+- Ensure Outbound prospects get the best experience possible.
+- Ensure the BDR team enjoys operational efficiencies and have clearly structured ways to collaborate with the AE team on outbound accounts.
+- Ensure the AE team is set up for success is receiving outbound leads in a structured manner and have the appropriate information to utilize in converting them.
+
+To make sure that the hand-offs maximize internal efficiencies, it is required that:
+
+- The BDR team makes sure to book calls, with a minimum notice time of 48 business hours.
+- The BDR team makes sure to properly fulfil Outbound SAO criteria, or work with AE to create a mutual command plan.
+- The AE team makes sure to:
+    - Accept SAOs within 8 working hours after an IQM call.
+    - To leave a chatter note on the opportunity record, tagging BDR and AE manager with feedback on the level of qualification and handoff in case of discrepancies.
+    - To be responsible for managing the prospect relationship after all handoff types have taken place. This includes re-scheduling conflicts.
+
+### 1. BDR Qualified Meeting
+
+- Are leads that have been qualified by the BDR over a Discovery call.
+- CoM principles have been applied to the call and some of the Before/After Scenarios, Positive Business Outcomes, Requirements and Metrics have been identified and agreed upon between the prospect and the BDR.
+- There is a clear need or intent identified from the side of the company, and the prospect has clearly articulated a path to the ultimate decision-maker, as per the guidelines for outbound SAO criteria.
+
+
+**BDR steps after discovery call**
+
+- Summarize CoM principles uncovered during the call
+- Schedule next step through Outreach while being on the call with the prospect
+    - Meeting Type should be 45’ Evaluation Orchestration Call and body of invitation should be adjusted to meet the prospect’s needs.
+- Send AE Intro Email
+    - For demanding hand-offs, customer-facing agenda may also be copied and attached to intro email.
+- Log Required SFDC fields and populate Notes field.
+- Unless there’s a scheduling conflict for the BDR, attend Evaluation Orchestration Call and kick-off the call:
+    - Summarize the BDR qualifying conversation by mentioning and verifying the before and after scenario of the prospect, as transcribed on the SAO notes.
+    - After prospect acknowledges that their internal situation have not changes inbetween BDR and AE call, recap the expectations and metrics as transcribed on the SAO notes and handoff to AE to move forward.
+
+#### 2. Joint IQM
+
+- Are meetings booked with leads that are from pre-agreed upon Actively Working Acounts.
+- Calls scheduled for these prospects will be taken as a joint IQM with both BDR and AE attending, and leading the qualification.
+- CoM principles will be applied during the call, with the goal of uncovering a clear need and path to the ultimate decision-maker, as per the guidelines for outbound SAO criteria.
+
+**BDR steps before discovery call**
+
+- Schedule next step through Outreach while being on the call with the prospect, and schedule straight to the AEs calendar.
+    - Meeting Type should be 15’ Discovery Call.
+- Create SFDC opportunity, and log any pre-determined or relevant information from your past reseearch.
+- Communicate with AE, and create a mutual command plan for the call.
+    - When kicking off the call, summarize the BDR research and reason for reaching out, such compelling events, Persons with LIM, etc
+    - After prospect acknowledges their compelling event and internal situation, discovery call continues with pre agreed upon structure with AE.
+
+## Organizing a Group Demo 
+
+Organizing a shared demo makes it more simple for us to offer spontaneously a demonstration of GitLab, which should result in a easier handover of opps, and ease to create opps. As BDRs, we arranged the execution of this demo by creating a zoom webinar, and configuring the whole event so that the administrative side is automated.
+
+| |                                                                                                                                                                                                                                                    |
+|----------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Define the criteria that qualifies an opportunity as eligible to go to a shared demo.**                                                                                                                                                            |                                                                                                                                                                                                                                                    |
+| SAL/AE is involved only                                                    | The SAL can invite his/her/their customers or contacts in order to add value to their ongoing discussion, if the AE/SAL finds it relevant. This is in the context of a conversation with the prospect/customer.                                                                                              |
+| SAL/AE and BDR are involved                                                | The BDR schedules a discovery meeting with the SAL (whether it is a prospect or customer) that generates a qualified opportunity. Once the opportunity is created, the SAL/BDR suggests the shared demo instead of the individual demo based on the priority of the opportunity (importance of the account, number of licenses, amount of the opportunity, persona). This is in the context of a conversation with the prospect/customer. There needs to be an opportunity in this case to suggest the demo, for the sake of collaboration between the SAL and the BDR. |
+| BDR is involved only                                                       | When a lead with decision power or significant influence in the org (no individual contributor) expresses a high interest for GitLab (aka: high read/open rates on an email, response received by phone with interest confirmed) AND when the BDR has a tangible reason to think that there is a need in the division/team/company (research, information obtained through other leads in the same org), the BDR can leverage the shared demo for HOT leads to create interest or a sense of urgency, the goal being to have the lead jump on an introductory meeting after the shared demo. |
+| **Define the criteria for different groups of attendees who can join this demo**                                                                                                                                                                    |                                                                                                                                                                                                                                                    |
+| Attendees coming from a BDR conversation                                    | In order to attend a demo, this attendee needs to be part of an opportunity in at least stage 1- Discovery.                                                                                                                                                                                                     |
+| Attendees coming from the AE’s conversations                               | The AE can leverage this shared demo to invite his own contacts.                                                                                                                                                                                                                                                  |
+| **Step-by-step guide to plan a demo**                                                                                                                                                                                                                  |                                                                                                                                                                                                                                                    |
+| 1. Get a Zoom Webinars license                                              | You don’t have a Webinar licence by default, so you need to open an access request issue on GitLab to ask for one.                                                                                                                                                                                            |
+| 2. Go on Zoom SSO > Webinars (on the left under Meetings) > Schedule a webinar | You will be able to save the entire configuration of the webinar as a template, in order not to set it up again.                                                                                                                                                                                               |
+| 3. Change the topic, description, date/time, and duration                   | Change the topic (this will be the title of your demo, and the name of the event on Google Calendar), the description (describes the content of the demo, the idea is to adapt the focus of the demo depending on your attendees), set the date/time of the demo, and the duration (note that setting a certain duration will not stop the zoom webinar once the time has gone). |
+| 4. Tick the box ‘Required’ next to registration                             |                                                                                                                                                                                                                                                    |
+| 5. Change the Dial country to match attendees' language                      |                                                                                                                                                                                                                                                    |
+| 6. Configure additional settings such as Q&A, recording, and email settings |                                                                                                                                                                                                                                                    |
+| 7. Save the configuration as a template for future use                       |                                                                                                                                                                                                                                                    |
+
+
+## Frequently Used Terms
 
 | Term                      | Definition                                                                                                                                                                  |
 |---------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
