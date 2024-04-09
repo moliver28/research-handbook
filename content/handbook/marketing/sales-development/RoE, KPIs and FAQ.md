@@ -90,7 +90,7 @@ If the related SDR relays information that was not picked up in the new SDR’s 
 **A:** BDRs are no longer listed as the account Owner in Outreach to improve Sales Dev and Sales visibility across all prospects/accounts (excluding PubSec). If you want to filter to see just your accounts, please use the ‘BDR Assigned’ field.
 
 **Q:** A prospect said they were going to buy through our website (known as a Web Direct). How can I tell if they did? <br> 
-**A:** SDRs get credit for opportunities where the SDR had meaningful two way communication with a prospect 60 days before they bought GitLab through our website. The best way to search for a web direct opportunity is to use [this report](https://gitlab.my.salesforce.com/00O4M000004dkX4). First, set the date range to the time you think the prospect would have bought. Next, find the opportunity that is tied to your prospect’s account. Then follow this process to request SAO credit.
+**A:** SDRs get credit for opportunities where the SDR had meaningful two way communication with a prospect 60 days before they bought GitLab through our website. The best way to search for a web direct opportunity is to use [this report](https://gitlab.my.salesforce.com/00O4M000004dkX4). First, set the date range to the time you think the prospect would have bought. Next, find the opportunity that is tied to your prospect’s account. Then follow the process to request SAO credit.
 Note: Sometimes someone else from your prospect’s company actually made the GitLab purchase, leading to the opportunity being related to them instead
 
 

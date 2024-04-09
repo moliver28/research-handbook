@@ -70,7 +70,7 @@ Additionally, you can use the matrix below as a quick-cheet to determine what da
 | Use cases on website   | - Do they have the same customers as us? How do they help them?                                                    |
 | Speak to a user of the tool to create personalized message to decision maker | - Speak to someone who uses out tools every day to uncover pain-points (performance degradation at peak times) and take that information to a decision maker |
 
-### New Outreach Sequence/Workflow creation.
+## New Outreach Sequence/Workflow creation.
 
 In an effort to better iterate, and refresh, our outreach content and workflows, we have a structured process for BDRs to create/measure new Outreach sequences.
 
@@ -87,7 +87,7 @@ By dogfooding GitLab we have a structured and simplified cadence of quantifying 
 **Maintain Equal Contributions in a Shared Reality**
 By maintaing a Single Source of Truth (SSoT) we give the best possible forum for cross-functional collaboration with specific guidelines
 
-### Making Changes to the handbook
+## Making Changes to the handbook
 
 [Video Walkthrough of how to make changes to the GitLab Handbook for the Sales Development org](https://www.youtube.com/watch?v=P7Nv7bzksiY&t=1032s)
 
@@ -103,8 +103,31 @@ Steps:
 - Have a brief but descriptive “Commit message” (e.g. “Add new section on ‘How to Make Changes to the Handbook’”) and commit your changes
 - Fill out the Merge Request details
 
+## Follow Up Outreach Sequences
 
-### Working with Resellers
+- For SDRS and BDRS that want to sequence leads in their qualifying views we created [this video](https://www.youtube.com/watch?v=IKE24LRJbcc) to help you create a workflow around this follow up [sequence.](https://app1a.outreach.io/sequences/9383)
+
+- The same video also showcases the [Auto Follow Up](https://app1a.outreach.io/sequences/9543) to Book a Meeting Sequence SDRs and BDRs can use when a prospect responds to one of their sequences.
+
+## Automatic Enrollment to Sequences
+
+From FY24Q4 onwards, we will pilot [automatic triggers](https://support.outreach.io/hc/en-us/articles/221361788-How-To-Create-an-Outreach-Trigger) through Outreach. As a first iteration, we will be automatically enrolling leads that indicate a high Propensity to Purchase (PTP) score to a full High Touch outreach sequence. The filters applicable for this trigger are:
+
+- Lead has direct phone in their record
+- Lead has a high PTP score (4 or 5)
+- Lead is actively enrolled to a Low Touch Sequence
+
+## BDR Territory Movement Rules of Engagement
+
+When a territory moves from one BDR to another but the previous BDR remains with the same team (ex: moves from one MM territory to another) the BDR vacating the territory will have the chance to temporarily retain ownership of accounts with which they have generated ongoing engagement (subject to manager approval). At the time of the holdover, an issue will be created that will be reviewed in 30 days to verify account ownership. This includes:
+
+- The outgoing BDR will be allowed to hold back for 30 days any account with which they can demonstrate two-way engagement that could potentially lead to an IQM and new opportunity. If, after 30 days, no IQM has been set and no stage 0 opportunity exists, the account will be moved by the manager to the new BDR assigned to the territory. If the outgoing BDR is successful in generating a new opportunity, the account will remain with them until the opportunity is either qualified or unqualified.
+- The outgoing BDR will be allowed to hold back for 30 days any account with which there is an existing stage 0 opportunity where they are listed as the BDR. After 30 days if the opportunity is not qualified, the account will be moved by the manager to the new BDR assigned to the territory.
+- In instances where an account has been reassigned to the new BDR and the outgoing BDR had two-way engagement more than 30 days ago with the account but was unable to convert them to an SAO, and the account later returns unprompted and with no prior activity from the new BDR assigned to the territory and wants to pursue a conversation with sales, the team (manager) will receive SAO credit from any resulting opportunity.
+- Any other situations that arise which result in a credit dispute will be investigated and resolved by the BDRs’ leader and senior leader.
+
+
+## Working with Resellers
 
 The end-user account determines the BDR/SDR alignment: If you are the SDR assigned to the 3rd party lead, please gather the information in point 1 and pass the lead to the correctly assigned BDR (the BDR assigned to the end-user account) who will complete points 2-6
 
