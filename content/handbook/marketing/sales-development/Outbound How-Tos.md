@@ -128,31 +128,42 @@ Please follow the steps below to understand how to research the data provided on
 | Cross-reference the above with HighSpot     | i. Check for relevant playbooks based on company size <br> ii. Check for relevant messaging based on persona <br> iii. Check for relevant pain-points based on value driver |
 
 
-Execution Phase (5-10 hours/week)
-4. Exporting Accounts and Leads to SFDC, and adding to your Outbound Pipeline
+### Execution Phase (5-10 hours/week)
+
+**Exporting Accounts and Leads to SFDC, and adding to your Outbound Pipeline.**
+
 After having manually shortlisted the accounts that are applicable to your campaign, the next step is to determine the relevant prospects per account and export them to SFDC. It is important to add accounts to your outbound pipeline so that AEs and other SDRs/BDRs know this is an account that is already being touched, and to avoid confusion or multiple people approaching the same prospects. Before moving an account into “Actively Working Status”, make sure there have been no MQLs or opportunities created from that account within the past 30 days, and there are no leads from that account in Qualifying status with activity in the last 30 days or with a future task date set. If you are not sure, double-check with the related AE, SDR or BDR.
 
 To determine which prospects to enroll per account, please follow the steps below:
 
-Identify the idea value drivers to be used for the account’s pain-points through your manual research, as outlined above
-Determine which personas would most benefit from the specific value drivers by using our CoM documentation on HighSpot
-Run queries for the specific titles on ZoomInfo, and export to CRM
-You should explore the specific personas you intend to target, such as VPs, Directors, Developers, Security, Architecture, DevOps, DevSecOps, Procurement Officers, and IT Buyers. Determine the number of prospects you plan to add to sequences, with a minimum of 25 per day. Utilize LinkedIn Sales Navigator, ZoomInfo or Cognism to identify these personas within your target companies.
+- Identify the idea value drivers to be used for the account’s pain-points through your manual research, as outlined above.
+- Determine which personas would most benefit from the specific value drivers by using our CoM documentation on HighSpot.
+- Run queries for the specific titles on ZoomInfo, and export to CRM.
+
+You should explore the specific personas you intend to target, such as: VPs, Directors, Developers, Security, Architecture, DevOps, DevSecOps, Procurement Officers, and IT Buyers. 
+
+Determine the number of prospects you plan to add to sequences, with a minimum of 25 per day. Utilize LinkedIn Sales Navigator, ZoomInfo or Cognism to identify these personas within your target companies.
 
 In Step 7, compile the selected prospects and create LinkedIn Sales Navigator lists for each persona. Save these lists for future use.
 
-To export to CRM, please follow the guidelines below:
+**To export to CRM, please follow the guidelines below:**
 
-Click the Export to CRM button on ZoomInfo
-That’s it
-No, really.
-To fill in the BDR fields, please follow the guidelines below:
+- Click the Export to CRM button on ZoomInfo
+- That’s it
+- No, really.
+
+
+**To fill in the BDR fields, please follow the guidelines below:**
 
 Use the format found on this template
 Copy-Paste the Structure to the BDR Account Research field and populate accordingly.
 Populate the BDR Next Step Date to be at the end of the account’s sequence length (typically one month out)
-6. Maintaining a clean pipeline, and using BDR fields for cross-functional collaboration.
-To review your current pipeline, along with any leads with next steps, please refer to your segments dashboards by going to SFDC > Dashboards and searching for Watch and Help. Team specific variants of these dashboard components will also be found on your team’s dashboard. These dashboards will give you a bird’s eye view of what actions are required from to maintain a clean pipeline, in terms of: i. Accounts with BDR fields past due ii. Prospects with sequence steps past due iii. Prospects that have been moved to Qualifying status but have not had any outreach since.
+
+### 6. Maintaining a clean pipeline, and using BDR fields for cross-functional collaboration.
+
+To review your current pipeline, along with any leads with next steps, please refer to your segments dashboards by going to SFDC > Dashboards and searching for Watch and Help. 
+
+Team specific variants of these dashboard components will also be found on your team’s dashboard. These dashboards will give you a bird’s eye view of what actions are required from to maintain a clean pipeline, in terms of: i. Accounts with BDR fields past due ii. Prospects with sequence steps past due iii. Prospects that have been moved to Qualifying status but have not had any outreach since.
 
 
 
