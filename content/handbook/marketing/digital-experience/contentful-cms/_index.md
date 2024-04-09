@@ -36,24 +36,40 @@ Contentful is a Content Management System. It replaces all of the text files in 
 
 ## Getting help with Contentful
 
-### Contentful Office Hours
+## Making Changes in Contentful - Standard Operating Procedure
 
-The Digital Experience team will be hosting weekly drop-in office hours for specific questions, walkthroughs, or feature requests. We can screenshare and work through issues together. The office hours are on the digital experience calendar and the marketing team calendar.
+As owners of the marketing website, the digital experience team handles most large changes in order to drive business goals. However, we are not necessarily the subject matter experts and will defer to various teams when it comes to editing content. In general, these are the various processes we try to adhere to:
 
-Times: 
-- Every Tuesday from 11:30am EST - 11:55am EST
-- Every second Thursday from 4:00pm EST - 4:55pm EST
+#### For Top 10 (most visited/impactful) Pages
+
+Any change to these pages must be reviewed by [Lauren Barker](https://gitlab.com/laurenbarker) and/or [Filza Qureshi](https://gitlab.com/fqureshi). Please tag them in the Contentful comments section prior to publishing any content on these pages, and link to any issues or MRs that may have additional context about the changes. In the future, we may implement a tagging system that blocks most roles from publishing these pages. As we build more pages, this list may grow or shrink, but includes:
+
+1. Homepage
+2. Pricing page
+3. Platform Page
+TODO: add to this list
+...
+
+These pages typically also have design reources, so making any large or visual changes should be handled in an [issue request](https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/-/issues/new#). 
+
+#### For typos, broken links, small content changes
+
+Contentful is great tool for making small updates to the content on any given page. 
+
+- If you are a team that typically manages the content on the page in question, you should feel empowered to make the change and publish your changes. 
+- If you're changing content on a page that typically doesn't belong to you but is an obvious mistake, please also go ahead and publish your changes.
+- If you're making a change on a page that affects the tone of the page and are not an owner, please tag someone from the presiding team in the contentful comments section (or in an issue/MR/slack) prior to publishing your changes. This is not typically the Digital Experience team, but rather the relevant team that owns that content. We have created a rough table of ownership [here](TODO table) to be used as a guide only. 
+
 
 ### Digital Experience Slack Channel
 
-For urgent requests, reach out to our team in #digital-experience-team on slack. 
+Reach out to our team in #digital-experience-team on slack. 
 
 
 
 ## Getting access to Contentful
 
 Please fill out an access request [here.](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/)
-
 
 
 
