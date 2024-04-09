@@ -12,6 +12,8 @@ Much of what follows on this page and our other JTBD pages (Playbook, Deep Dive)
 
 This page covers the 'what' of Jobs to be Done. To skip to the 'how', or the _practice_ of doing Jobs to be Done research, head over to the [playbook](/handbook/product/ux/jobs-to-be-done/jtbd-playbook).
 
+Note: the previous single source of truth for all the JTBD at GitLab ([a yml file](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/jobs_to_be_done.yml?_gl=1%2a1hjur0y%2a_ga%2aNDkwNzM2Mzg5LjE2MzUxODMzMTE.%2a_ga_ENFH3X7M5Y%2aMTY2ODAxOTA2Mi42Ni4xLjE2NjgwMTk2MjUuMC4wLjA.), internal only) is in the process of being replaced. In the meantime, GitLab teams performing JTBD should keep track of their [playbook](/handbook/product/ux/jobs-to-be-done/jtbd-playbook) work in FigJam. A handbook page containing all the JTBD will be created shortly.
+
 ## Anatomy of a JTBD Canvas
 
 A Job to be Done Canvas is a way to arrange all of the elements of a [main job](#main-job-where-do-you-want-to-innovate) in an easy to read format, well-suited for iteration, sharing, and documentation. We use canvases throughout our [JTBD playbook](/handbook/product/ux/jobs-to-be-done/jtbd-playbook), as part of our [FigJam template](https://www.figma.com/file/Z4lsAOLH1ANN3pstQFYgSk/Jobs-to-be-done----Playbook-Template?type=whiteboard&node-id=0%3A1&t=7nzgsnW0igvXKwjr-1).
@@ -21,13 +23,13 @@ Each canvas has a number of different sections which combine to provide a **holi
 
 ### **Main Job:** Where do you want to innovate?
 
-The main job serves as the central focus for innovation efforts. It represents a goal and has specific criteria. It should be formulated using **action verbs**, devoid of references to technology, solutions, or methods, and avoid complex combinations. The level of granularity for the main job can vary, depending on the innovation's purpose and feasibility. If the main job isn’t obvious, move to the related jobs field on the canvas to explore the domain.
+The main job serves as the central focus for innovation efforts. It represents a goal and has specific criteria. It should be formulated using **action verbs**, without references to technology, solutions, or methods, and avoid complex combinations. It follows a pattern of 'verb + object + (optional) clarifier'. The level of granularity for the main job can vary, depending on the innovation's purpose and feasibility. If the main job isn’t obvious, move to the related jobs field on the canvas to explore the domain.
 
 Main jobs hint at a task that can be completed, for example:
 
-- Buy a new home
-- Write a book
-- Review code
+- Buy (verb) a new home (object) within 10 minutes of my work (clarifier)
+- Write (verb) a book (object)
+- Ensure (verb) code changes (object) meet organizational standards (clarifier)
 
 Bad examples:
 

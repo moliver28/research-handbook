@@ -42,12 +42,11 @@ If there is some concern that the time commitment required for a G&D application
 
 When a manager approves a G&D request, they are communicating that the growth experience is in line with the skills development for the team member (requestor) and this experience helps them in their contributions to overall team performance. Managers are approving the time and financial investment. If requests do not align with role/team performance and GitLab's focus on results for customers. Managers should be able to speak to the WHAT and HOW behind the request. This should drive ongoing performance and application conversations. In addition, these growth experiences should inform inputs into the Talent Assessment.
 
-**Updated Cost Tiers Approval:**
+**Approval Requirements:**
 
 1. Manager Approval: $0-$1000
-    1. Direct manager approval
-1. VP Approval: $1000.01 - $5000
-1. eGroup Approval for any spend beyond $5000
+1. Manager AND VP Approval: $1000.01 - $5000
+1. Manager AND eGroup Approval for any spend beyond $5000
     1. Sales: $5000+ approval by VP
 
 
@@ -57,13 +56,20 @@ As a manager you are ultimately responsible for the performance and behaviours o
 
 You should feel in all instances that you are able to explain the reasoning and benefits behind your team members G&D fund applications.
 
-### You are approving travel for any live (in person) experience
+### Approving travel for live, in person experiences
 
-The Growth and Development Fund **cannot be used to pay for travel** to and from live learning experiences (e.g. conferences or workshops.) This expense comes from your departments Travel & Expense budget (the cost of travel has been accounted for in the planning of team budgets). If you are unsure whether the cost of travel is justifiable, please speak to your manager / VP. Note: If you are approving the G&D request, you are also approving travel -- it's just that when it comes to filing for the reimbursement, the G&D experience should be submitted in one ticket and travel expensed separately.
-Further clarification: Historically, there has been some confusion around G&D expereinces and travel. Finance includes T&E projections for Growth & Development experiences when allocating budgets for each department. The issue is that the reimbursement has to be done separately. Travel for G&D is covered if approved by management, it just needs to be filed separately. If you have any questions, please reach out to the [Learning & Development](https://gitlab.enterprise.slack.com/archives/CMRAWQ97W) for support.
+Our intent at GitLab is to pay for everything a team member needs when travelling to a conference, but there are a couple of things to be mindful of when approving these requests.
 
-VP approval is required on all applications over $1000 involving travel, so in most cases they will be made aware as a matter of course.
+- The G&D Fund should be used to pay for conference registration, tickets, etc.
+- The costs for travelling to and from a conference, including hotel stays and meals, comes from the Travel & Expenses budget.
 
+These two costs should still be detailed in the Growth and Development request issue. They just need to be expensed separately. The travel costs won't be subtracted from the team members' personal G&D budget.
+
+There may be budgetary concerns if a team member is applying for a conference that would incur significant travel and accomodation costs. When approving a team members' G&D request, managers should feel confident that they can justify the total cost.
+
+If you are unsure whether the cost of travel for one of your team members G&D applications is justifiable, please speak to your manager / VP **before** approving the request. VP approval is required on all applications over $1000 involving travel, so in most cases they will be made aware as a matter of course.
+
+If you have any questions, please reach out to the [Learning & Development](https://gitlab.enterprise.slack.com/archives/CMRAWQ97W) team for support.
 
 ### You are approving time away / team member out of production
 

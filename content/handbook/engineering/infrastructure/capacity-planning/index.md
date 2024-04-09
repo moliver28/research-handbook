@@ -92,6 +92,7 @@ Capacity planning is a shared activity and dependent on input from many stakehol
    1. Assign legitimate forecasts to the respective Service Owner to review and act on it (see below).
    2. Select the most crucial saturation points to report in the [GitLab SaaS Availability](/handbook/engineering/#saas-availability-weekly-standup) meeting based on the impact they would have when fully saturated and how difficult the mitigation might be. To indicate issues like this, we apply the `~"SaaS Weekly"` label when we do the weekly triage.
    3. Review forecasts with inaccurate model fit or otherwise obscure predictions, and work on improving their quality. Those issues should be labeled with `~capacity-planning::tune model` and not get assigned to the Service Owner directly. Since these model tunings highly benefit from domain insight, the Scalability engineer involves Service Owners to get more information.
+   4. Leave a feedback comment for quality assessment, see [Quality Assessment and User Feedback](#quality-assessment-and-user-feedback) below.
 
 #### Service Owners
 
@@ -162,6 +163,54 @@ The prioritization framework uses an [Eisenhower Matrix](https://todoist.com/pro
  * [Quadrant board](https://gitlab.com/gitlab-com/gl-infra/capacity-planning/-/boards/5273449)
  * [Issues sorted by priority](https://gitlab.com/gitlab-com/gl-infra/capacity-planning/-/issues/?sort=label_priority&state=opened)
  * [Scoped prioritized labels](https://gitlab.com/gitlab-com/gl-infra/capacity-planning/-/labels?subscribed=&search=capacity-planning%3A%3Apriority)
+
+#### Quality Assessment and User Feedback
+
+In order to determine the quality of forecasts we produce, we rely on and collect feedback from everyone using forecasts and capacity warnings.
+
+This data helps us improve forecasting quality overall and we can also determine which components need further improving or don't qualify for forecasting at all.
+The following describes what feedback we're looking for and how to give that feedback.
+
+The intended audience is everyone interacting with capacity warnings.
+This includes service owners and the Scalability group doing the triage, and we ask everyone who is using capacity warnings in some form to give feedback.
+
+The key question to answer when presented a capacity warning is: Is this useful for me and/or my wider context?
+
+We acknowledge that whether a capacity warning is seen as *useful* or *not useful* is highly dependent on the individual working with these warnings and their respective context.
+Hence we collect feedback from everyone individually, so we ideally have multiple datapoints per capacity warning.
+
+Feedback can be given at any point in time but ideally reflects back on when the capacity warning got created.
+Did it turn out meaningful after all?
+
+The process looks like this:
+
+1. When a capacity warning is generated, Tamland creates an issue in the respective capacity warning tracker.
+2. Team member feedback can be given **through a comment on the issue**
+3. The comment includes either the `~tamland-feedback:useful` or `~tamland-feedback:not-useful` label to signal whether or not the capacity warning was useful to the team member.
+   1. Required: When using the `~tamland-feedback:not-useful` label, we ask to also include a brief explanation why this wasn't useful for you specifically (in the same comment).
+   1. Optional: Feel free to leave additional feedback for a useful capacity warning, too.
+
+The team member running triage is asked to ideally leave a feedback for each open and newly created capacity warning.
+
+For example, a forecast can be considered `useful` in these cases:
+
+1. The forecast indicates impending saturation, which is highly relevant to prevent an incident.
+2. A forecast looked "odd enough" to strike up a conversation about capacity limitations, which helped prioritize work. In this case, the forecast can be technically inaccurate, but still useful.
+
+Cases for labeling a capacity warning as `not-useful` include:
+
+1. The underlying timeseries is so jumpy that the projection is obviously not meaningful.
+2. A recent trend has been picked up too early and the projection is obviously overly pessimistic with no action required for anyone to mitigate or research further.
+
+#### Key Performance Indicator: Precision
+
+Based on the feedback data collected in comments, we derive a key performance indicator *Precision* and define this as follows.
+
+1. A capacity warning is considered useful, if it has at least one `useful` vote.
+2. For a set of *rated* issues `i`, we calculate *precision* as the ratio of useful issues in `i` to total issues in `i`.
+3. When referring to *precision as a KPI over time*, we use the creation timestamp for a capacity warning.
+
+In addition to precision, we also define a KPI *rated* to indicate the ratio of rated issues to total issues for a given time period.
 
 ## GitLab Dedicated Capacity Planning
 

@@ -157,7 +157,7 @@ While E-Group Offsites often happen about two months in advance of Board Meeting
 1. Start [**Yearlies**](/handbook/company/yearlies/) (50 minutes)
 1. Start review of [**Three Year Strategy**](/handbook/company/strategy/) (0.5 day)
 1. Non-product **Engineering** review, e.g. architecture, infrastructure
-1. [**CEO Assessment** from the Board](/handbook/ceo/chief-of-staff-team/#ceo-performance-evaluation) (2x session per year, 25 min per session)
+1. [**CEO Assessment** from the Board](/handbook/ceo/office-of-the-ceo/#ceo-performance-evaluation) (2x session per year, 25 min per session)
 
 **Q2 Offsite**
 1. E-Group Offsite Month: June
@@ -174,7 +174,7 @@ While E-Group Offsites often happen about two months in advance of Board Meeting
 1. Go-to-market (**GTM**) learnings
 1. Finish [**Yearlies**](/handbook/company/yearlies/) for the next year(1.5 hrs)
 1. **Org** design
-1. [**CEO Assessment** from the Board](/handbook/ceo/chief-of-staff-team/#ceo-performance-evaluation) (2x session per year, 25 min per session)
+1. [**CEO Assessment** from the Board](/handbook/ceo/office-of-the-ceo/#ceo-performance-evaluation) (2x session per year, 25 min per session)
 
 **Q4 Offsite**
 1. E-Group Offsite Month: January

@@ -133,7 +133,7 @@ Technical evaluation is where the prospective customer evaluates the fit of GitL
 1. **Update Customer Requirements documents** and review Google Docs and Salesforce for running meeting notes with customer environment and technical specifications.
 1. **Setup a free trial of GitLab** based on the following [Technical Evaluation Criteria](/handbook/customer-success/comm-sales/customer-buyer-journey.html#responsibilities-1).
 1. **Create a solution design blueprint** from requirements gathering, tech discovery, and customer meta-records.
-1. **Create a [Proof of Value](/handbook/customer-success/solutions-architects/tools-and-resources/pov)** when necessary which focuses on specific customer business outcomes that cannot be achieved through other technical and/or business interactions.
+1. **Create a [Proof of Value](/handbook/solutions-architects/tools-and-resources/pov)** when necessary which focuses on specific customer business outcomes that cannot be achieved through other technical and/or business interactions.
 1. **Submit a Proof of Value** (PoV/PoC) plan to stakeholders for approval.
 
 **Hold a strategy meeting**: Once the SA has completed the solution design blueprint and/or the Proof of Value, the sales representative will need to hold a strategy meeting with the SA to discuss the highpoints of the solution in order to prepare and present a pitch deck to the customer. If the sales representative does not have deep technical product depth, it will be even more important to debrief the solution blueprint with the SA.

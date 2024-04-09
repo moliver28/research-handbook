@@ -20,7 +20,7 @@ This handbook page is meant to cover who we are and why we exist at GitLab. On t
 ## What is People Analytics?
 
 
-The study of people at work! Human Resource departments (the [People Group]({{< ref "/handbook/people-group" >}}) here at GitLab) everywhere are flipping their approach to organizational behavior. Instead of only using experience, opinions, or intuition to make decisions they are leveraging the power of data for decision making processes.
+The study of people at work! Human Resource departments (the [People Group](/handbook/people-group) here at GitLab) everywhere are flipping their approach to organizational behavior. Instead of only using experience, opinions, or intuition to make decisions they are leveraging the power of data for decision making processes.
 
 According to [AIHR](https://www.aihr.com/blog/people-analytics/) (Academy to Innovate HR):
 

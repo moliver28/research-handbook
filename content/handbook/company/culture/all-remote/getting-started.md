@@ -132,7 +132,7 @@ Not all remote employers provide work equipment. This is an important question t
 
 While you will naturally connect with people during your onboarding, you will also need to be intentional about relationship-building via informal communication with your co-workers.
 
-Below are a number of intentional facets of [GitLab's culture]({{< ref "/handbook/company/culture#culture-at-gitlab" >}}), created to foster connections.
+Below are a number of intentional facets of [GitLab's culture](/handbook/company/culture#culture-at-gitlab), created to foster connections.
 
 1. [Social call]({{< ref "communication#social-call" >}}): A series of optional calls once a month on a Tuesday, to which everyone in the organization is invited. We have no set agenda, but items can be added to the linked document. This is just a time set aside for everyone to openly talk where everyone is a moderator.
 1. [Contribute Unconference](https://about.gitlab.com/events/gitlab-contribute/): An in-person, week-long event where we bring the entire company together in one location to get to know each other better.
@@ -148,7 +148,7 @@ Below are a number of intentional facets of [GitLab's culture]({{< ref "/handboo
 
 ### Familiarize yourself with the company's technology & tools
 
-Spend time getting to know [GitLab's publicly viewable handbook]({{< ref "/handbook" >}}), which captures everything you need to know about the company.
+Spend time getting to know [GitLab's publicly viewable handbook](/handbook), which captures everything you need to know about the company.
 
 Technology is ever-changing. Which is one reason why GitLab's [onboarding process]({{< ref "./onboarding" >}}) includes exercises in self-service via an [onboarding issue]({{< ref "general-onboarding" >}}) with multiple tasks broken down into small, digestible chunks. Each issue guides new hires to complete certain tasks on certain days, being a [manager of one]({{< ref "values#managers-of-one" >}})  — an operating principle of [Efficiency]({{< ref "values#efficiency" >}}) — applies from the very beginning.
 
@@ -194,7 +194,7 @@ Here are a few suggestions to avoid isolation.
 1. Schedule breaks in your day to interact with friends or family in the home, or nearby in your community.
 1. Experiment with working in a shared setting (e.g. a local coworking venue, [WiFi Tribe](https://about.gitlab.com/blog/2019/09/04/not-all-remote-is-created-equal/), etc.).
 1. Leverage [video calls](https://about.gitlab.com/blog/2019/08/05/tips-for-mastering-video-calls/) whenever practical, both at work and outside of work.
-1. Engage with colleagues on [non-work topics]({{< ref "/handbook/communication/chat#social-groups" >}}), via Slack, ad hoc video calls, or other communication tools.
+1. Engage with colleagues on [non-work topics](/handbook/communication/chat#social-groups), via Slack, ad hoc video calls, or other communication tools.
 1. Prioritize work events where travel and physical interaction is involved (e.g. [company summits](https://about.gitlab.com/events/gitlab-contribute/), meetups, [events]({{< ref "./events" >}}), conferences, etc.).
 
 For GitLab team members, be sure to join the `#mental_health_aware` Slack channel and read our [guide]({{< ref "./mental-health" >}}) on combating burnout, isolation, and anxiety in the remote workplace.
@@ -244,7 +244,7 @@ As aptly stated in [Basecamp's Handbook](https://basecamp.com/handbook), **there
 
 Remote work enables a great deal of flexibility, freedom, and autonomy. It also requires adaptability when it comes to communication, and may require experimentation by the team member to reach peak enjoyment.
 
-It can be tempting for new remote workers to simply implement tactics used in colocated spaces, but from their home or a co-working space. For example, learning to search for answers within [documentation]({{< ref "/handbook/documentation" >}}) rather than tapping someone on the shoulder and asking a question.
+It can be tempting for new remote workers to simply implement tactics used in colocated spaces, but from their home or a co-working space. For example, learning to search for answers within [documentation](/handbook/documentation) rather than tapping someone on the shoulder and asking a question.
 
 This also applies to more nuanced aspects of work, including employee perception. Whereas working from a unique place or doing things differently may be discouraged in a colocated space, consider celebrating such diversity in a remote space.
 

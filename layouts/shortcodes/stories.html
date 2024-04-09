@@ -48,7 +48,7 @@
                         </p>
                     </div>
                     <div class="col-md-6">
-                      <p><strong>departments:</strong>
+                      <p><strong>Departments:</strong>
                       <ul>{{ range .departments }}<li>{{.}}</li>{{end}}</ul></p>
                       <p><strong>Job Title:</strong> {{ .job_title }}</p>
                       {{ with .speciality }}
@@ -58,12 +58,12 @@
                       <p><strong>Pronouns:</strong> {{.}}</p>
                       {{end}}
                       {{ with .pronunciation }}
-                      <p><strong>Pronunciation:</strong> {{.}}</p>
+                      <p><strong>Pronunciation:</strong> {{ . | safeHTML }}</p>
                       {{end}}
                       <p><strong>GitLab Handle:</strong> {{.gitlab}}</p>
                     </div>
                     </div>
-                    
+
                 <div class="row">
                     <div class="col">
                 {{ with .projects }}

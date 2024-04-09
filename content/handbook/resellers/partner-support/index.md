@@ -46,6 +46,7 @@ Partners can contact the Partner Support team at partnersupport@gitlab.com.
 
 <details>
 <summary markdown="span">Quick Links</summary>
+
 - [Partner Guide (internal-only)](https://docs.google.com/document/d/1HOzcdl22JRRbqo0SLPDsoUiM8NpNkf6-L2eiUHr6HZ4/edit)
 - [GitLab Partner Portal](https://partners.gitlab.com/English/)
 - [Channels Issue Board](https://gitlab.com/groups/gitlab-com/-/boards/1508300?label_name[]=Channel)
@@ -56,6 +57,7 @@ Partners can contact the Partner Support team at partnersupport@gitlab.com.
 
 <details>
 <summary markdown="span">Handbook Pages</summary>
+
 - [Channel Partner Handbook](/handbook/resellers/)
 - [Channel Program Guide](/handbook/resellers/Channel-Program-Guide/)
 - [Partner Certifications & training](/handbook/resellers/training/)
@@ -64,16 +66,19 @@ Partners can contact the Partner Support team at partnersupport@gitlab.com.
 - [Channel Programs Operations](/handbook/sales/channel/channel-programs-ops)
 - [Deal Desk](/handbook/sales/field-operations/sales-operations/deal-desk/#)
 - [Quoting Channel Deals](/handbook/sales/field-operations/sales-operations/deal-desk/#quoting-channel-deals)
+
 </details>
 
 <details>
 <summary markdown="span">Partner Portal Asset Links (portal login required)</summary>
+
 _These links are useful to share with authorized reseller partners who already have access to the partner portal._
 - [Partner Guide](https://partners.gitlab.com/prm/English/s/assets?id=404715)
 - [Online Agreement](https://partners.gitlab.com/prm/English/s/assets?id=290599)
 - [Deal Registration Guide](https://partners.gitlab.com/prm/English/s/assets?id=391183)
 - [Partner Locator Guide](https://partners.gitlab.com/prm/English/s/assets?id=288270)
    - _Partners are able to log in and view a PDF of the Partner Agreement. GitLab Team members can visit the [Reseller Agreement](/handbook/resellers/reseller-agreement/) page. There is no separate PDF outside of the partner portal._
+
 </details>
 
 ## Quote to Cash

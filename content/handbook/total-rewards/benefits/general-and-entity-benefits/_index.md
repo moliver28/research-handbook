@@ -132,13 +132,6 @@ GitLab offers benefits in relation to [obtaining visas and work permits](/handbo
 
 GitLab offers an Employee Assistance Program to all team members via [Modern Health]({{< ref "modern-health" >}}).
 
-## Care Concierge Pilot Program
-
-In light of our [“Family First, Work Second”]({{< ref "values#family-and-friends-first-work-second" >}}) value, we’re looking to launch a new benefit in FY23 to assist team members with family care needs (child, adult and complex care). As part of this implementation, Total Rewards will run a Pilot Program starting in October 2022 and ending in December 2022 to test our platform of choice, [Helpr](https://www.helpr-app.com/parents).
-
-Total Rewards will collaborate with the People Business Partners to select 10 team members to ensure that there is a diversity of participants from different locations, with different care needs, so that we can adequately evaluate the success of the pilot program. Participants will be required to take a survey on their experience with the service.
-
-If you are interested in participating in the Pilot Program or have any questions, please reach out to total-rewards@gitlab.com. Unfortunately, not all team members who request to particpate may be selected due to the limited space in the Pilot Program.
 
 ## Incentives
 

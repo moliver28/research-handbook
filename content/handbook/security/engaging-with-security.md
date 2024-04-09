@@ -164,7 +164,7 @@ a external
 metric that may be evaluated by users as an indication of GitLab's commitment
 to protecting our users and customers. It is also an important measurement that
 security researchers use when choosing to engage with the security team, either
-directly or through our [HackerOne Bug Bounty Program]({{< ref "./product-security/application-security/runbooks/hackerone-process." >}}").
+directly or through our [HackerOne Bug Bounty Program]({{< ref "./product-security/application-security/runbooks/hackerone-process.md" >}}").
 
 Vulnerabilities must be mitigated and remediated according to specific timelines.
 The timelines are specified in the [Vulnerability Management handbook]({{< ref "./threat-management/vulnerability-management/#remediation-slas" >}}) (a [controlled document]({{< ref "./controlled-document-procedure" >}})).

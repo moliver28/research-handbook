@@ -6,6 +6,10 @@ title: Switchboard team
 
 Switchboard is a team within the [Dedicated Group](/handbook/engineering/infrastructure/team/gitlab-dedicated/). Our mission is to empower external GitLab Dedicated customers to manage their tenant environments and reduce the operational overhead on the Environment Automation team so we can scale up the GitLab Dedicated offering. We follow the same processes as listed on the [the Dedicated Group](/handbook/engineering/infrastructure/team/gitlab-dedicated/), unless a difference exists which is explicitly noted on this page.
 
+### Resources
+
+- [Switchboard Direction Page](https://about.gitlab.com/direction/saas-platforms/switchboard/)
+- [Switchboard Demo Library](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/switchboard/-/blob/main/docs/walkthrough-library.md)
 
 ## Team Members
 
@@ -13,6 +17,7 @@ Switchboard is a team within the [Dedicated Group](/handbook/engineering/infrast
 
 Product Manager: [Loryn Bortins](/handbook/company/team/#lbortins)
 Technical Writer: [Lysanne Pinto](/handbook/company/team/#lyspin)
+Product Designer: [Divya Alagarsamy](/handbook/company/team/#divyaalagarsamy)
 
 ## Working with us
 
@@ -211,7 +216,5 @@ There are two groups for Switchboard, [Reviewers and Maintainers](https://gitlab
 * All Switchboard team members are included in the `Reviewer` group.
 * When a team member is fully onboarded and feel confident in their knowledge of the codebase they are invited to the Maintainer group.
 
-### Resources
 
-[Switchboard Direction Page](https://about.gitlab.com/direction/saas-platforms/switchboard/)
 

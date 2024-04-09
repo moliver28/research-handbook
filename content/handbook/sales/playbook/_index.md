@@ -50,7 +50,7 @@ As the account lead, your role centers on successfully orchestrating all of the 
 |[Sales operations and deal desk:](/handbook/sales/field-operations/sales-operations/deal-desk/) |For structuring and closing deals, you’ll often work with Deal Desk, especially for non-standard quotes. #sales-support is also the go-to channel for any urgent questions around progressing a deal through our processes. |
 | [GitLab Support](/handbook/support/): | The Support Team serves our customers at different levels depending on what they’ve purchased.|
 |[Product team](/handbook/product/categories/): | For strategic deals, it often makes sense to bring in an expert from Product to speak to your customer about the benefits or maturity of features they care about the most. Often times, if something is not yet possible in GitLab, Product has a plan and roadmap for when it will be available. |
-|[Strategic Field Organization](/handbook/customer-success/solutions-architects/strategic-field-org/)| Or the strategic field team for large engagements that require a high degree of strategic planning - such as DevSecOps transformation, solution recommendations, and advisory for our customer's senior technical leadership in high-value, strategic deals ($400k+).|
+|[Strategic Field Organization](/handbook/solutions-architects/strategic-field-org/)| Or the strategic field team for large engagements that require a high degree of strategic planning - such as DevSecOps transformation, solution recommendations, and advisory for our customer's senior technical leadership in high-value, strategic deals ($400k+).|
 | Compete:| You may also bring in the compete team to help with intelligence or positioning. Use the #competition channel on Slack to collaborate and view important resources in their bookmarks.  |
 | [Customer Advocacy team](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/customer-advocacy/sales-support/):| You may want to construct a deal where the customer agrees to be reference or to logo usage, or perhaps you've delivered incredible value and they are ready to be a case study. |
 
@@ -79,15 +79,14 @@ Generally, surprises - whether in the form of sudden, major deals or sudden, maj
 
 **Pipeline management** is key to predictable, scalable revenue attainment and can make the difference between simply hitting your number and overachieving. It helps you allocate your time correctly, increase deal velocity, and increase total deal volume, size, and revenue through accurate forecasting practices.
 
-**The Enterprise Sales Stages Criteria** defines activities and exit criteria for each stage and serves as a roadmap for moving a deal from discovery to closed won (or qualified out quickly). The following process is specific to the Enterprise Sales team.
+**The Sales Stages Criteria** defines activities and exit criteria for each stage and serves as a roadmap for moving a deal from discovery to closed won (or qualified out quickly).
 
-- [View Enterprise Sales Stages, criteria, and resources in this Google spreadsheet](https://docs.google.com/spreadsheets/d/1slLr20a_HwfZD81I1InfS57PFlmWapzc586VDI6nmiw/edit?usp=sharing)
-- [View general sales opportunity stages](/handbook/sales/field-operations/gtm-resources/#opportunity-stages)
+- [View GitLab's Sales Stages, criteria, and resources in this Google spreadsheet](https://gitlab.highspot.com/items/623e24381f87632cd3327e93?lfrm=ssrp.0)
 
-**How to use it:** As you move a deal through the pipeline, the Enterprise Sales Stage criteria defines activities and exit criteria for each stage and serves as a roadmap to getting a deal from discovery to closed won (or qualified out quickly). Use it to help you validate your opportunity and forecast it correctly. This guidance gives definitions for each stage, tells you who might be involved on your team, what activities are typically done in each stage, and what is required before you can move it further in the pipeline.
+**How to use it:** As you move a deal through the pipeline, the Sales Stage criteria defines activities and exit criteria for each stage and serves as a roadmap to getting a deal from discovery to closed won (or qualified out quickly). Use it to help you validate your opportunity and forecast it correctly. This guidance gives definitions for each stage, tells you who might be involved on your team, what activities are typically done in each stage, and what is required before you can move it further in the pipeline.
 
 **Additional resources for opportunity management:**
-At the bottom of each stage in the detailed spreadsheet, you'll also see major strategic resources that can help you be successful during each milestone of a deal - from prospecting to transitioning to a the post-sales team. For operational resources, head to the general sales page up top. For commonly used sales assets like marketing plays and pitch decks, head to the [marketing resources handbook page](https://gitlab.highspot.com/spots/615dd7e3911d70c4887812a7).
+During each stage in the detailed spreadsheet, you'll also see major strategic resources that can help you be successful during each milestone of a deal - from prospecting to transitioning to a the post-sales team. For operational resources, head to the general sales page up top. For commonly used sales assets like marketing plays and pitch decks, head to the [marketing resources handbook page](https://gitlab.highspot.com/spots/615dd7e3911d70c4887812a7).
 
 
 #### Opportunity management
@@ -122,11 +121,11 @@ If you don’t have access to the items below and believe you should, open an [A
 
 - [GitLab Version Compare Tool](https://gitlab-com.gitlab.io/cs-tools/gitlab-cs-tools/what-is-new-since/?tab=features), also known as the 'What's new since?' tool, is a tool that allows you to populate a comparison all the additional features and functions from one version of GitLab to another (or the current release). Use it with your customers to understand what product they purchased previously, and what the value is now to support your proposals and pricing. Using this tool a quarter before the renewal or whenever you start contract discussions can be helpful in showing all the work we continue to build into the product.
 - [Gainsight](/handbook/sales/gainsight/) is used for documenting account details, timelines, and objectives
-- [ZenDesk](/handbook/support/workflows/zendesk_organizations_and_users_overview.html) is our ticketing system. Access is usually provided during onboarding. Ask your manager if you need access to ZenDesk.
+- [ZenDesk](/handbook/support/workflows/zendesk_organizations_and_users_overview/) is our ticketing system. Access is usually provided during onboarding. Ask your manager if you need access to ZenDesk.
 - [LucidChart](https://apis.google.com/additnow/l?applicationid=7081045131&__ls=ogb&__lu=https%3A%2F%2Flucid.app%2Fusers%2FgoogleLogin%3Fdomain%3Dgitlab.com) for creating diagrams and org charts for account plans.
 - [Chorus](/handbook/sales/field-operations/sales-operations/go-to-market/chorus/) is used to view recordings of GitLab sales calls and demos.
 - Use [GitLab's Design Toolkit](https://design.gitlab.com/brand/overview) to download our logos, access our illustration and icon libraries, and build out your documents and presentations for prospects and customers.
-- [Product Usage Data & Health Scores in Gainsight](/handbook/customer-success/product-usage-data/using-product-usage-data-in-gainsight/#using-product-usage-data-in-gainsight) is used by your CSM and can provide you with insights into current customer usage data by use case by walking you through the relevant dashboard in Gainsight. All AEs have read access to Gainsight. Health scores can be found in Salesforce at the account level as well. When running a report on your accounts, pull in the Health Score field to understand what urgent actions you may need to take. 
+- [Product Usage Data & Health Scores in Gainsight](/handbook/customer-success/product-usage-data/using-product-usage-data-in-gainsight/#using-product-usage-data-in-gainsight) is used by your CSM and can provide you with insights into current customer usage data by use case by walking you through the relevant dashboard in Gainsight. All AEs have read access to Gainsight. Health scores can be found in Salesforce at the account level as well. When running a report on your accounts, pull in the Health Score field to understand what urgent actions you may need to take.
 - [CustomersDot Admin](https://customers.gitlab.com/admin/) (see [overview video here](https://youtu.be/G9JuHXqV5LM)): most customers have an account that breaks down their purchases and provides some insight into SaaS usage. Also good for linking purchases to VersionDot usage data
 
 #### **Prospecting tools**
@@ -150,7 +149,7 @@ If you don’t have access to the items below and believe you should, open an [A
 - [DemandBase](/handbook/marketing/account-based-marketing/demandbase/) is used by SDRs who can show you relevant data related to your target prospects. It has a wealth of intent and propensity to buy data that is married with account engagement indicators to create a holistic intent mapping for each account.
 - [Datafox](/handbook/business-technology/tech-stack/#datafox) is used to view relevant account information.
 - [LeanData](/handbook/marketing/marketing-operations/leandata/) is automatically pulled into Salesforce as data that you can use to better understand contacts and accounts. You don’t need to request access.
--[GitLab Propensity Models](https://internal.gitlab.com/handbook/sales/propensity_models/) allow you to dive deep into data provided by our Data Science Team including Propensity to Buy, Propensity to Churn, and Propensity to Expand. You can also find these fields in Salesforce and use them to inform your strategy in your territory. 
+-[GitLab Propensity Models](https://internal.gitlab.com/handbook/sales/propensity_models/) allow you to dive deep into data provided by our Data Science Team including Propensity to Buy, Propensity to Churn, and Propensity to Expand. You can also find these fields in Salesforce and use them to inform your strategy in your territory.
 
 
 Looking for information on the Commercial Sales Organization? View the [Commercial Sales Playbook](/handbook/sales/commercial/) here.

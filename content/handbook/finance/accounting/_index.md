@@ -42,7 +42,7 @@ To amend a customer's account, choose one of the options below from the subscrip
 
 **Basic Assumptions**
 
-- Subscriptions should only be cancelled with 45 days of the start. Exceptions can be made (see [Support Workflows]({{< ref "/handbook/support/workflows" >}}))
+- Subscriptions should only be cancelled with 45 days of the start. Exceptions can be made (see [Support Workflows](/handbook/support/workflows))
 - Subscriptions can be linked across multiple Zuora and SalesForce (SFDC) Accounts, but not SFDC Ultimate Parent Accounts.
 - All Zuora Accounts must be linked to a valid SFDC Account.
 - MRR can change historically due to customer behavior (renewals, cancellations, etc.)

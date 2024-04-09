@@ -17,7 +17,7 @@ Leadership Chats are monthly calls for people leaders at GitLab. Sessions are no
 ### Potential Discussion Topics
 
 1. Challenges faced as a [manager of an all-remote team](/handbook/company/culture/all-remote/being-a-great-remote-manager/)
-1. [Crucial conversations]({{< ref "/handbook/leadership/crucial-conversations" >}}): how to have them, what works, what doesn't
+1. [Crucial conversations](/handbook/leadership/crucial-conversations): how to have them, what works, what doesn't
 1. Work and life balance as a manager
 1. [Professional development]({{< ref "career-development" >}}) as both a manager and for direct reports
 1. Enabling [GitLab culture](/handbook/company/culture/#culture-at-gitlab)
@@ -42,7 +42,7 @@ We hope that managers can find a day or time at least 1x per quarter to attend!
 
 ## Attendance
 
-Leadership Chats are on the GitLab Team calendar. If you don't see the event on your calendar, submit an [access request](/handbook/business-technology/team-member-enablement/onboarding-access-requests/access-requests/#slack-google-groups-1password-vaults-or-groups-access-requests) to be added to the `managers@gitlab.com` email group so you can attend the Leadership Chats. Review the [meeting agenda](https://docs.google.com/document/d/1Hq9CykJn3EvYI5XblntORSIaheCdmyqYsqiHdrlHbHE/edit) to catch up on missed conversations.
+Leadership Chats are on the GitLab Team calendar. If you don't see the event on your calendar, submit an [access request](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/#slack-google-groups-1password-vaults-or-groups-access-requests) to be added to the `managers@gitlab.com` email group so you can attend the Leadership Chats. Review the [meeting agenda](https://docs.google.com/document/d/1Hq9CykJn3EvYI5XblntORSIaheCdmyqYsqiHdrlHbHE/edit) to catch up on missed conversations.
 
 ### How to propose a conversation idea
 

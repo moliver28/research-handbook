@@ -337,7 +337,7 @@ Numbers with four or more digits should include a comma (_2,000; 100,000_). If y
 Generally, avoid abbreviations for large numbers, such as _k_ (meaning “thousand”) and _M_ or _mil_. Use these abbreviations only where space is very limited, such as a callout box with a tight character limit.
 
 #### Currencies
-In contexts where the dollar symbol ($) may refer to non-US currencies, be sure to clearly identify the currency you are writing about (_US$, CA$, AU$_).
+In contexts where currencies are mentioned, be sure to denote them in the format <NUMBER> <CURRENCY_CODE> by using the code from the [ISO 4217 standard](https://en.wikipedia.org/wiki/ISO_4217#Active_codes_(list_one)) (e.g. 10 USD, 15 EUR, 30 CAD, 30,000 JPY, 29.99 CHF).
 
 #### Percentages
 Use % instead of _percent_ at all times, unless the number is spelled out, in which case also spell out _percent_.

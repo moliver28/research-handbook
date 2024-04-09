@@ -223,12 +223,18 @@ summary and corrective actions. The rotation for upcoming milestones is as follo
 
 | Milestone | DRI |
 |---   | ---       |
-| 16.6 | Donald Cook |
-| 16.7 | Kushal Pandya |
-| 16.8 | John Hope |
-| 16.9 | Brandon Labuschagne |
 | 16.10 | Donald Cook |
 | 16.11 | Kushal Pandya |
+| 17.0 | John Hope |
+| 17.1 | Brandon Labuschagne |
+| 17.2 | Donald Cook |
+| 17.3 | Kushal Pandya |
+| 17.4 | Vladimir Shushlin |
+| 17.5 | John Hope |
+| 17.6 | Brandon Labuschagne |
+| 17.7 | Donald Cook |
+| 17.8 | Kushal Pandya |
+| 17.9 | Vladimir Shushlin |
 
 The role of the DRI is to facilitate a psychologically safe environment where team-members
 feel empowered to give feedback with candour. As such they should refrain from participating
@@ -388,6 +394,16 @@ After the quad decides the work item architecture is suitable, the Product Desig
     - Ensure new components and patterns are contributed back to Pajamas.
 1. Solution validation should be conducted as needed to ensure the workflow and usability meets the user needs.
 
+##### Research Process for Work Items
+
+We use the methods and tools in the [UX Research handbook](/handbook/product/ux/ux-research/). 
+
+In addition to these, we're working on gaining an efficiency bonus by using a common screener and building a mini-database of qualified participants aligned to our research needs.
+
+We do a confidence check at different points in the process, particularly before moving a design into the build phase. Sometimes, a design solution is straightforward enough where we’re very confident to move ahead without solution validation. However, there are times when we’re unsure how the design solution will perform in production, thereby resulting in a low level of confidence. When this happens we will do usability testing to build confidence.
+
+
+
 
 #### UX Paper Cuts
 
@@ -421,18 +437,20 @@ The responsibility of the DRI is simply to collect information and to ensure the
 
 | Issue creation (auto) | DRI |
 |---   | ---       |
-| 2024-01-08 | Kushal Pandya |
-| 2024-01-15 | John Hope |
-| 2024-01-22 | Brandon Labuschagne |
-| 2024-01-29 | Donald Cook |
-| 2024-02-05 | Kushal Pandya |
-| 2024-02-12 | John Hope |
-| 2024-02-19 | Brandon Labuschagne |
-| 2024-02-26 | Donald Cook |
 | 2024-03-04 | Kushal Pandya |
 | 2024-03-11 | John Hope |
 | 2024-03-18 | Brandon Labuschagne |
 | 2024-03-25 | Donald Cook |
+| 2024-04-01 | Kushal Pandya |
+| 2024-04-08 | John Hope |
+| 2024-04-15 | Brandon Labuschagne |
+| 2024-04-22 | Donald Cook |
+| 2024-04-29 | Vladimir Shushlin |
+| 2024-05-06 | Kushal Pandya |
+| 2024-05-13 | John Hope |
+| 2024-05-20 | Brandon Labuschagne |
+| 2024-05-27 | Donald Cook |
+| 2024-06-03 | Vladimir Shushlin |
 
 #### Links
 

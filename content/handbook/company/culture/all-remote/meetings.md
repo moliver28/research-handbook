@@ -57,7 +57,7 @@ Much of the same advice for running a good in-person meeting applies to remote m
 
 When you work in a global all-remote company, the usual assumptions about availability are opposite the norm. We have a growing team working in over 65 countries, with many time zones covered, which makes synchronous meetings impractical, burdensome, and inefficient. Anyone who has worked in a corporate environment has likely seen the sarcastic "I Survived Another Meeting That Should Have Been An Email" award. As an all-remote company, we [do not look to a meeting by default]({{< ref "./asynchronous#question-every-meeting" >}}); when they are necessary, we strive to make in-person attendance optional by enabling asynchronous contribution.
 
-In many companies, synchronous meetings are used as a mechanism to create consensus. As you'll read in the [Leadership]({{< ref "/handbook/leadership" >}}) portion of GitLab's handbook, we are not a democratic or consensus driven company. People are encouraged to give their comments and opinions, but in the end one person decides the matter after they have listened to all the feedback.
+In many companies, synchronous meetings are used as a mechanism to create consensus. As you'll read in the [Leadership](/handbook/leadership) portion of GitLab's handbook, we are not a democratic or consensus driven company. People are encouraged to give their comments and opinions, but in the end one person decides the matter after they have listened to all the feedback.
 
 This works because of our values, which leads GitLab to hire individuals who enjoy being a manager of one, a point detailed in our [Efficiency value]({{< ref "values#efficiency" >}}). Team members are empowered to decide whether a sync meeting is the best use of their time, and [set boundaries]({{< ref "./mental-health#be-transparent-about-boundaries" >}}) when needed.
 
@@ -188,7 +188,7 @@ While we can thanks team members within meetings, we do not thank each other for
 
 ### What are the benefits of a remote meeting?
 
-Scheduling a virtual meeting allows you to set the meeting length and invite a limited number of people. You can participate in a remote meeting from [almost anywhere in the world]({{< ref "/handbook/people-group/employment-solutions#country-hiring-guidelines" >}})! If you are working in your garage or basement, be sure to use a green screen behind you and put up a professional background image to present well on screen.
+Scheduling a virtual meeting allows you to set the meeting length and invite a limited number of people. You can participate in a remote meeting from [almost anywhere in the world](/handbook/people-group/employment-solutions#country-hiring-guidelines)! If you are working in your garage or basement, be sure to use a green screen behind you and put up a professional background image to present well on screen.
 
 ### What are the challenges of a remote meeting?
 
@@ -242,7 +242,7 @@ When working in an all-remote company, there is a strong tendency to avoid tradi
 1. Combine asynchronous activities between synchronous meetings.
 1. Take more time than you normally would to explain activities and intent, framing your position with [additional context]({{< ref "./effective-communication" >}}). In traditional offsites, understanding comes from observing others in the room, and this can be more difficult remotely. If you are leading the offsite, encourage people to have [short toes]({{< ref "values#short-toes" >}}) and [assume positive intent]({{< ref "values#assume-positive-intent" >}}) when it comes to being interrupted, as a higher-than-expected amount of back-and-forth may be necessary to achieve understanding.
 1. If possible, spend a full day working together with breaks, and share a remote meal together [coffee-chat]({{< ref "./informal-communication#coffee-chats" >}}) style.
-1. Check your [tools]({{< ref "/handbook/tools-and-tips" >}}) to make sure they can support the synchronous setup you are proposing.
+1. Check your [tools](/handbook/tools-and-tips) to make sure they can support the synchronous setup you are proposing.
 
 All-remote virtual offsites are cost-effective and enable team members to pivot back to [life outside of work]({{< ref "./people#worklife-harmony" >}}) as soon as the meeting concludes. However, there is still great value in [in-person interactions]({{< ref "./in-person" >}}), and leaders should aim to include those opportunities when possible rather than shifting entirely to remote offsites.
 
@@ -274,7 +274,7 @@ For context, Sid joined the Zoom call from San Francisco, while the researchers 
 >
 > Of course there are benefits to colocated meetings — it's easier to interrupt each other, it's easier to see what everyone around the room is thinking, you don't have wireless issues, it's easier to look each other in the eyes, it's easier to break bread before/after the meeting, it's easier to talk a walk or do something fun together.
 >
-> We try to take advantage of them, though. We have [GitLab Contribute](https://about.gitlab.com/events/gitlab-contribute) where we all come together to go on excursions and have informal chats. As an executive group, we [come together every quarter for 2.5 days for high-velocity meetings]({{< ref "/handbook/company/offsite" >}}). Those are augmented with Google Docs, and we allow people to attend remotely if they cannot join in person.
+> We try to take advantage of them, though. We have [GitLab Contribute](https://about.gitlab.com/events/gitlab-contribute) where we all come together to go on excursions and have informal chats. As an executive group, we [come together every quarter for 2.5 days for high-velocity meetings](/handbook/company/offsite). Those are augmented with Google Docs, and we allow people to attend remotely if they cannot join in person.
 >
 > There are benefits, but they aren't as big as people make them out to be.
 >
@@ -320,7 +320,7 @@ In the above [video interview](https://www.youtube.com/watch?v=nn1Mjh7j-1I) betw
 
 ## GitLab Knowledge Assessment: All-Remote Meetings
 
-Complete all knowledge assessments in the [Remote Work Foundation certification]({{< ref "./remote-certification" >}}) to receive the [Remote Foundations Badge in GitLab Learn](https://gitlab.edcast.com/pathways/copy-of-remote-foundations-badge). If you have questions, please reach out to our [Learning & Development team]({{< ref "/handbook/people-group/learning-and-development" >}}) at `learning@gitlab.com`.
+Complete all knowledge assessments in the [Remote Work Foundation certification]({{< ref "./remote-certification" >}}) to receive the [Remote Foundations Badge in GitLab Learn](https://gitlab.edcast.com/pathways/copy-of-remote-foundations-badge). If you have questions, please reach out to our [Learning & Development team](/handbook/people-group/learning-and-development) at `learning@gitlab.com`.
 
 - - -
 

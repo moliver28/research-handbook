@@ -1,7 +1,6 @@
-
 # Vartopia Overview
 
-Vartopia is a partner lead sharing and deal registration system designed to maximize the value of [GitLab partner program](/handbook/resellers/) for channel partners. Vartopia offers multiple module including Prospects, Deal Registration, Account Mapping and Campaign. Partner lead sharing is part of the Prospects module, while deal registration is part of the New Registration and Registrations module. Watch [this video](https://youtu.be/BmmiH_ctALk) for step-by-step instructions on where partners can view, accept, reject, assign and convert leads to deal registration.
+Vartopia is a partner lead sharing and deal registration system designed to maximize the value of [GitLab partner program](/handbook/resellers/) for channel partners. Vartopia offers multiple module including Prospects, Deal Registration, Account Mapping and Campaign. Partner lead sharing is part of the Prospects module, while deal registration is part of the New Registration and Registrations module. Watch [this video](https://vimeo.com/819610456) for step-by-step instructions on where partners can view, accept, reject, assign and convert leads to deal registration.
 
 # Prospects Module
 
@@ -39,6 +38,12 @@ Here are the steps to resolve the sync fail.
 5. `Vartopia Deal Registration System Access` on the account must be `Active`.
 
 If all these are submitted correctly, then submit a Vartopia support ticket with a list of the failed sync and its `Vartopia Prospect Id`. The `Vartopia Prospect Id` (ex. L-555555) is a unique lead number identified populated by SFDC that shows in Vartopia and SFDC. We can use this as a non-PII identifier in both systems.
+
+### Prospects to Deal Registration
+
+We can link the Prospect to the DR so long as it’s in Prospect Share Status = `Accepted`, and there is either a matching domain and/or an exact match on the email address. Partners will be prompted with a pop-up to link the Prospect upon DR creation. When the DR is created, Partner Prospect Status will automatically be updated to `Converted to DR`.
+
+[See](https://youtu.be/ktZikNBMOpk) how this works.
 
 ## Notifications
 
@@ -249,6 +254,27 @@ In comparison to the main process, we are required to create a child campaign pe
 8. Vartopia - when a partner converts the lead to DR, Vartopia will recognize there's a campaign linked to the account, and display a dropdown to select the campaign name.
 9. Salesforce - see the deal registration that's created and update the metrics on the campaign.
 
+### Carahsoft
+
+#### Distributor Marketing Campaign
+
+On the second page of the DR form, we will have a new campaign field called: `Distributor Marketing Campaign` dropdown when the Distributor Account is selected. The campaigns are collected via a smartsheet which Gabby will be responsible for keeping up to date. When a new entry is submitted to the smartsheet, Vartopia is responsible for adding that campaign to the Distributor Marketing Campaign dropdown.
+
+Then, they will no longer need to use the GitLab Marketing Campaign on the deal registration form.
+
+This will allow the Distributor to tie the DR to the campaign, HOWEVER, we’ll still need to use the Partner Placeholder Pubsec reseller account.
+
+This process is still a work in progress, follow along in this [epic](https://gitlab.com/groups/gitlab-com/-/epics/2249) for the next iteration.
+
+#### Value-Add Campaign
+
+The purpose of this use case is to allow Value-Add campaigns to be available in the Distirbutor Marketing Campaign dropdown to track ROI.
+
+1. Gabby - Create a Marketing Ops issue assigned to Salina requesting to have the SFDC campaign created and provide the name of the campaign.
+2. Salina - Create the SFDC campaign, and Salina will provide Gabby with the Salesforce Campaign ID
+3. Gabby - Add Campaign name and info to the [Smartsheet](https://app.smartsheet.com/sheets/Jrr5PhjRjRfH965FqrvCq7GC9p56whHXp22C98m1)
+4. This will allow the Campaign Name to be displayed on the Distributor Marketing Campaign.
+
 # Field Glossary
 
 ## Lead Object
@@ -314,6 +340,13 @@ These are some guidelines to become familiar with when working on a module with 
 - Vartopia should not push change sets to production.
 - Vartopia uses managed flows in their change sets. Thus, we should always ask how it functions or request a demo in Classic, and have a Salesforce App Builder be on the call to inspect the flow to ensure that capabilities won’t break any existing processes before they are deployed.
 - Preempt any change set updates with a managed package upgrade to reduce the chances of any problems or errors.
+- Vartopia uses flows/alerts as part of their managed package intended to notify the partners of every update related to partner leads for the Prospect module ie when the leads are shared, accepted, assigned, rejected, etc. Our partners do not see the value in needing to be updated for every lead and every status change. Ensure the following flows/alerts are turned off before every managed package upgrade: 
+   - Vartopia Prospect Lead Flow
+   - Vartopia Prospect Contact Flow
+   - Prospect Assigned to Sales Rep Workflow on Contact
+   - Prospect Assigned to Sales Rep on Lead
+   - The Salesperson when the Prospect admin has Assigned to the Contact
+   - The Salesperson when the Prospect Admin has Assigned the Lead
 
 # FAQ
 
@@ -348,9 +381,9 @@ When you've selected a number of leads, a button will be unlocked called "Bulk U
 </details>
 
 <details><summary>Do I, as the CAM, have access to Vartopia?</summary>
-Vartopia is not available to administrator nor manufacturer, that being said, only Channel Partners will have access, and CAMs can not get access to Vartopia. You will be able to find the leads share to Partners via these Sisense reports:
+Vartopia is not available to administrator nor manufacturer, that being said, only Channel Partners will have access, and CAMs can not get access to Vartopia. You will be able to find the leads share to Partners via these Tableau reports:
 
-- [Partner Lead Status](https://app.periscopedata.com/app/gitlab:safe-intermediate-dashboard/992265/TD-Partner-Lead-Status)
+- [Partner Lead Status](https://10az.online.tableau.com/#/site/gitlab/views/DraftPartnerMarketingv2/PartnerLeadsContacts?:iid=2)
 </details>
 
 <details><summary>Can Distributors create deal registrations?</summary>

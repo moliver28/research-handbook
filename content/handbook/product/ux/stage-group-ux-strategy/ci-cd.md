@@ -68,7 +68,7 @@ TBA
 
 ### Performance Indicators
 
-#### UX Debt in CI/CD
+#### Deferred UX in CI/CD
 
 {{% sisense dashboard="930769" height="2515" %}}
 
@@ -157,7 +157,7 @@ You can add the following checklist to an issue description to help illustrate t
 
 **Develop & Test Phase**
 - [ ] Product Designer reviewed MRs that include user-facing changes, as per the [Code Review Guidelines](https://docs.gitlab.com/ee/development/code_review.html)
-  - [ ] UX Debt issues have been identified and assigned to a milestone
+  - [ ] Deferred UX issues have been identified and assigned to a milestone
 
 ```
 

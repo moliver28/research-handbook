@@ -53,6 +53,7 @@ This Working Group has the following goals:
 | [Develop a ClickHouse rollout strategy and plan](https://gitlab.com/groups/gitlab-com/-/epics/2077) | 2023-01-05 | | 60% | Sam Goldstein |
 | [Develop Recommendation for ClickHouse Ownership Model](https://gitlab.com/groups/gitlab-com/-/epics/2094) | | | 0% | |
 | [Develop and implement a communication plan for the working group](https://gitlab.com/groups/gitlab-com/-/epics/2078) | 2023-01-18 | | 0% | Nicole Williams |
+| [Complete production readiness through to GA](https://gitlab.com/groups/gitlab-com/-/epics/2316) | 2023-08-04 | | 50% | Nathan Rosandich |
 
 ### Current and Planned Use Cases
 
@@ -67,6 +68,7 @@ This Working Group has the following goals:
 | Facilitator DRI | Sam Goldstein | Director of Engineering, Ops |
 | Co-Facilitator | Nick Nguyen | Senior Engineering Manager, Data Stores |
 | Co-Facilitator | Nicole Williams | Senior Engineering Manager, Monitor & Runner |
+| Co-Facilitator | Nathan Rosandich | Engineering Manager, Govern:Compliance |
 | Functional Lead - Analytics | Mikołaj Wawrzyniak | Staff Backend Engineer, Analytics:Analytics Instrumentation |
 | Functional Lead - Optimize | Adam Hegyi | Staff Backend Engineer, Plan:Optimize |
 | Functional Lead - ModelOps | Mon Ray| Engineering Manager, ModelOps |
@@ -83,7 +85,6 @@ This Working Group has the following goals:
 | Member | Alex Ives | Engineering Manager, Database (PostgreSQL) |
 | Member | Brandon Labuschagne | Engineering Manager, Plam:Optimize |
 | Member | Dylan Griffith | Principal Engineer, Data Stores |
-| Member | Nathan Rosandich | Engineering Manager, Govern:Compliance |
 | Member | João Pereira | Staff Backend Engineer, Package:Container Registry |
 | Member | Haim Snir | Senior Product Manager, Plan:Optimize |
 | Member | Lucas Charles | Staff Backend Engineer, Secure::Static Analysis |

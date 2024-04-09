@@ -30,7 +30,7 @@ Understanding GitLab's strategic priorities lays the foundation for a better und
 
 ## People Compliance Core Competencies & Responsibilities
 
-All Responsibilities are listed in the [People Compliance job family page]({{< ref "/job-families/people-group/people-compliance" >}}), and they can be summarized as follows:
+All Responsibilities are listed in the [People Compliance job family page](/job-families/people-group/people-compliance), and they can be summarized as follows:
 
 1. To identify needs and propose strategies to collaborate and support the enablement of compliant protocols.
 1. Implement compliance initiatives and templates that can be utilised for initiatives.

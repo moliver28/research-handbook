@@ -217,9 +217,9 @@ We have loaded the previous fiscal years worth of influenced conversion data fro
 
 If a region did not have a conversion rate for the campaign type (likely because the region did not run that campaign), then the global conversion rate was used. Also, because our MQLs can "skip" MQL status (meaning an SDR can work a lead BEFORE it's actually hit our MQL scoring threshold), we used the `MQL Inferred Date` field to assume MQLs. We took a snap shot in time data, but the below widgets can be referenced 
 
-Live MQL>SAO regional data [can be found here](https://app.periscopedata.com/app/gitlab:safe-intermediate-dashboard/965060/Field-Marketing-Metrics-(V2---WIP)?widget=13480873&udv=1547451) and live SAO>Won data [can be found here](https://app.periscopedata.com/app/gitlab:safe-intermediate-dashboard/965060/Field-Marketing-Metrics-(V2---WIP)?widget=13480874&udv=1547451).
+Live MQL>SAO regional data [can be found here](https://10az.online.tableau.com/#/site/gitlab/views/DraftFieldMarketingMetrics_v2/KPITrend?:iid=1) and live SAO>Won data [can be found here](https://10az.online.tableau.com/#/site/gitlab/views/DraftFieldMarketingMetrics_v2/KPITrend?:iid=1).
 
-The average deal size by campaign by region can be found [here](https://app.periscopedata.com/app/gitlab/823916/Field-Marketing-Metrics?widget=11036333&udv=1250443) (you'll have to refer back to dashboard to change the region if you want to see a specific regions data) are also loaded for calculation purposes. If there were less than 3 closed deals then we did NOT use that deal size information, but relied on the ASP from the TOPO model to fulfill that deal size.
+The average deal size by campaign by region can be found [here](https://10az.online.tableau.com/#/site/gitlab/views/DraftFieldMarketingMetrics_v2/KPITrend?:iid=13) (you'll have to refer back to dashboard to change the region if you want to see a specific regions data) are also loaded for calculation purposes. If there were less than 3 closed deals then we did NOT use that deal size information, but relied on the ASP from the TOPO model to fulfill that deal size.
 
 A calculation is then done by then taking into account the MQLs, region, segment data and campaign type (specifically the GitLab Issue type) that has been given at the line item level in the details panel.
 

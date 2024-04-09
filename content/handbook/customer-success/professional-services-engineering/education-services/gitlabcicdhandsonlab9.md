@@ -24,8 +24,8 @@ description: "This Hands-On Guide walks you through the lab exercises in the Git
     ```python
     import subprocess
 
-    in = input("Enter your server ip: ")
-    subprocess.run(["ping", in])
+    ip = input("Enter your server ip: ")
+    subprocess.run(["ping", ip])
 
     print("Attempting to connect to the server")
     print("Application authentication was successful")
@@ -77,7 +77,7 @@ description: "This Hands-On Guide walks you through the lab exercises in the Git
 
     ```python
     # main.py Line 4
-    subprocess.run(["ping", in])
+    subprocess.run(["ping", ip])
     ```
 
     > The problem is that these lines use user input to run a system command. In this situation, a user could craft an input that causes the application to execute an unintended command. To resolve this, you can either remove the command, or remove the user input from the command.

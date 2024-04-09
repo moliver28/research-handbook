@@ -12,6 +12,7 @@ description: "How the Developer Relations team measures effectiveness of content
 - [Content Asset Inventory](https://docs.google.com/spreadsheets/d/1WzdX8o9wzuswIPMAYVUURswm2AtwFcVE6XhmHy1lhr8/edit#gid=0)
 - [Youtube2Sheets](https://gitlab.com/gitlab-com/marketing/developer-relations/developer-advocacy/code/youtube2sheets) Script
 - [CommunityApps](https://campaign-manager.gitlab.com/) (Campaign Manager)
+- [DevRel-Infuenced Epic Board](https://gitlab.com/groups/gitlab-com/marketing/developer-relations/-/epic_boards/1056370?label_name[]=DevRel-Influenced)
 
 ## Content Effectiveness
 
@@ -34,7 +35,7 @@ Critical to measuring content effectiveness is ensuring engagement is measurable
 
 The Marketing Campaigns Dashboard uses `utm_budget` to track campaigns and how they lead to touchpoints, lead, MQL (Qualified Leads) and eventually ARRs. This makes it very important to ensure the right `utm_budget` is used for CTAs. If you use the [CommunityApps Campaign Manager](https://campaign-manager.gitlab.com/), the appropriate `utm_budget` is automatically added for you by putting the link under the right team. You can access the Developer Relations team page with this [link](https://campaign-manager.gitlab.com/teams/view/2).
 
-For campaigns we influence, its important to ask for the their UTM or Salesforce campaign names and update the [devrel_influenced_campaigns](https://docs.google.com/spreadsheets/d/1WzdX8o9wzuswIPMAYVUURswm2AtwFcVE6XhmHy1lhr8/edit#gid=1201530981) sheet of the DevRel Content Asset inventory, without this step, the Marketing Campaigns Dashboard will not include the campaign as part of those influenced by Developer Relations.
+For campaigns we influence, its important to ask for the their UTM or Salesforce campaign names and update the [devrel_influenced_campaigns](https://docs.google.com/spreadsheets/d/1WzdX8o9wzuswIPMAYVUURswm2AtwFcVE6XhmHy1lhr8/edit#gid=1201530981) sheet of the DevRel Content Asset inventory, without this step, the Marketing Campaigns Dashboard will not include the campaign as part of those influenced by Developer Relations. To make it easier tracking campaigns the team influences, we use the `DevRel-Influenced` label across the [gitlab-com](https://gitlab.com/gitlab-com) GitLab group.
 
 ### Developer Relations Influenced Campaigns
 
@@ -144,6 +145,7 @@ flowchart LR
 #### Campaigns
 
 - Use the Campaign Manager to generate shortlinks or full campaign links and use them in your campaigns.
+- Add the `DevRel-Influenced` label to the issue or epic of the campaign you are working on.
 - If the campaign belongs to a different team, confirm the UTM or Salesforce Campaign name and update the `devrel_influenced_campaigns` sheet in the Content Inventory accordingly.
 - It is recommended to use campaign links as much as you can on non-GitLab mediums.
 

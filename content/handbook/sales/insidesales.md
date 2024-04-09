@@ -98,7 +98,7 @@ Yes. And once the value crosses over the $50k threshold, SAEs should be looped i
 Loop in the SAE and ASMs and other account team resources (SAs and CSMs). These growth oppotunities should be a collaborative effort between the ISR, SAE, and ASM.
 
 **How should ISRs work with Solution Architects?**
-[Engaging Solution Architects](/handbook/customer-success/solutions-architects/processes/#engaging-an-sa-during-the-sales-cycle) is ultimately the responsibility of the SAE (or ASM). ISRs should work closely with SAEs to ensure the SA qualification criteria is uncovered and there is strategic growth or upgrade potential.
+[Engaging Solution Architects](/handbook/solutions-architects/processes/#engaging-an-sa-during-the-sales-cycle) is ultimately the responsibility of the SAE (or ASM). ISRs should work closely with SAEs to ensure the SA qualification criteria is uncovered and there is strategic growth or upgrade potential.
 
 
 
@@ -107,7 +107,7 @@ Loop in the SAE and ASMs and other account team resources (SAs and CSMs). These 
 1. Get to know your team. Prepare to introduce yourself on the first team call and schedule coffee chats to get to know your teammates around the globe.
 2. Review the [quote configuration process](/handbook/sales/field-operations/order-processing/#quote-configuration) in the Field Operations handbook.
 3. Review the handbook pages linked in the "Resources" section below.
-4. If you are new to GitLab, complete your [onboarding issue](/handbook/people-group/general-onboarding/#completing-onboarding-issue). If you are an internal transfer, complete your [career mobility issue](/handbook/people-group/promotions-transfers/#career-mobility-issue) and [access change request issue](/handbook/business-technology/team-member-enablement/onboarding-access-requests/access-requests/#access-change-request). These will need to be completed and closed out before regions or territories can be assigned.
+4. If you are new to GitLab, complete your [onboarding issue](/handbook/people-group/general-onboarding/#completing-onboarding-issue). If you are an internal transfer, complete your [career mobility issue](/handbook/people-group/promotions-transfers/#career-mobility-issue) and [access change request issue](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/#access-change-request). These will need to be completed and closed out before regions or territories can be assigned.
 5. Get to know your [regional deal desk team](/handbook/sales/field-operations/sales-operations/deal-desk/#deal-desk---a-global-presence). Schedule coffee chats, attend the Deal Desk office hours, or both!
 
 Once you have been assigned a territory:

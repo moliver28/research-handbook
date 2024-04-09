@@ -115,7 +115,7 @@ To be inclusive of time zones and those who may not prefer these types of social
 
 ### Zoom Background Ice-Breaker
 
-The Zoom feature to upload [any background image]({{< ref "/handbook/tools-and-tips/zoom#virtual-background" >}}) of your choice is a fun tool to use for an ice breaker. Managers can ask their team to come to a meeting with a background of their favorite place to vacation, or a place they hope to visit one day, and much more. It’s a great feature that can add some fun to calls and build unity. Spend the first five minutes of a meeting talking about the Zoom background and giving everyone in the meeting a voice.
+The Zoom feature to upload [any background image](/handbook/tools-and-tips/zoom#virtual-background) of your choice is a fun tool to use for an ice breaker. Managers can ask their team to come to a meeting with a background of their favorite place to vacation, or a place they hope to visit one day, and much more. It’s a great feature that can add some fun to calls and build unity. Spend the first five minutes of a meeting talking about the Zoom background and giving everyone in the meeting a voice.
 
 One of our Managers said this about the Zoom Background Ice-Breaker:
 

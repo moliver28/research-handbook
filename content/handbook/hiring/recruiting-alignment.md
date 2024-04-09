@@ -9,29 +9,31 @@ description: "This page is an overview of the search team alignment and the tale
 |--------------------------|-----------------|-------------------------------------|
 | Executive          | Rich Kahn    | Michelle Jubrey  |
 | Executive          | Zach Choquette   | Michelle Jubrey  |
-| Enterprise Sales, AMER | Kevin Rodrigues |Sarah Lynch |
+| Enterprise Sales, AMER | Kevin Rodrigues |Sruthy Menon |
 | Enterprise Sales, EMEA | Joanna Tourne | Lerato Thipe |
 | Customer Success & Solutions Architect | Ornella Miles | Lerato Thipe |
 | Commercial Sales/R&D, EMEA | Ben Cowdry | Lerato Thipe |
-| Sales, AMER | Marcus Carter | Michelle Jubrey |
+| Sales, AMER | Marcus Carter | Jazmin Armstrong |
 | Sales | Kelsey Hart  | Fernando Khubeir |
-| Customer Success, AMER | Barbara Dinoff |  Sarah Lynch |
+| Customer Success, AMER | Barbara Dinoff |  Jazmin Armstrong |
 | All Business, APAC | Yas Priatna  | Lerato Thipe |
-| Marketing/ G&A, Global | Steph Sarff | Michelle Jubrey |
-| Marketing, BDR/SDR/G&A (Global)| Caroline Rebello |  Michelle Jubrey |
-| G&A | Hannah Stewart  | Sarah Lynch |
-| G&A | Jenna VanZutphen  | Fernando Khubeir |
-| G&A | Aiste Juozaponyte  | TBD |
-| Engineering, Development | Sara Currie, Matt Angell, Chux Ugorji | Alice Crosbie |
+| G&A/EBA/Marketing (Leadership and E-Group+ EBA) | Steph Sarff | Michelle Jubrey |
+| G&A/EBA/Marketing (Global Sales Development, FP&A, EBA) | Caroline Rebello |  Michelle Jubrey |
+| G&A/Marketing (Developer Relations, Growth, IT) | Hannah Stewart  | Jazmin Armstrong |
+| G&A/Marketing (Corporate Communications, Data, Legal, People, Product Marketing) | Jenna VanZutphen  | Fernando Khubeir |
+| G&A/Marketing (Accounting, Integrated Marketing, Internal Audit, Marketing Ops, Tax) | Aiste Juozaponyte  | Fernando Khubeir |
+| Engineering, Development | Matt Angell, Chux Ugorji | Alice Crosbie |
+| Engineering, Development | Sara Currie | Jazmin Armstrong |
 | Engineering, Development | Heather Tarver | Fernando Khubeir |
 | Engineering, Development | Joe Guiler, Seema Anand, Anna Kioukis | Teranay Dixon |
 | Engineering, Infrastucture   | Maxx Snow | Teranay Dixon  |
-| Engineering, Infrastucture   | Michelle A. Kemp | Sarah Lynch  |
+| Engineering, Infrastucture   | Michelle A. Kemp | Alice Crosbie  |
 | Engineering, Infrastucture   | Aziz Quadri | Alice Crosbie  |
 | Customer Support | Joanna Michniewicz  |  Alice Crosbie |
 | Product Management | Holly Nesselroad | Fernando Khubeir |
 | Security | Holly Nesselroad | Fernando Khubeir |
 | Design/UX  | Riley Smith | Lerato Thipe  |
+| Emerging Talent  | Justin Smith | Michelle Jubrey  |
 
 
 For urgent requests of the Candidate Experience Specialist team, we encourage you to contact them by also tagging @CES in Slack messages and CC'ing CES@gitlab.com on emails.
@@ -51,7 +53,7 @@ For urgent requests of the Candidate Experience Specialist team, we encourage yo
 | Talent Acquisition (R&D: Infrastructure) | TBA |
 | Talent Acquisition (Executive) | Rich Kahn |
 | Enablement | Marissa Farris |
-| Candidate Experience | Ale Ayala + Marissa Farris |
+| Candidate Experience | Marissa Farris |
 
 ## Talent Acquisition Platform Directly Responsible Individual
 

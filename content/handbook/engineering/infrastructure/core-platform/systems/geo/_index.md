@@ -11,7 +11,7 @@ repositories and projects, or can be part of a Disaster Recovery solution.
 
 ### Team members
 
-{{< team-by-manager-slug manager="juan-silva" >}}
+{{< team-by-manager-slug manager="pjphillips" >}}
 
 ### Stable counterparts
 

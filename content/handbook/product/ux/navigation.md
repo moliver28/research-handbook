@@ -74,3 +74,11 @@ After there is insight into a problem with the navigation, the Product team DRI 
 [Feature flags](https://docs.gitlab.com/ee/operations/feature_flags.html) are a great way for teams to merge changes in smaller batches without negatively impacting the user experience.
 
 When shipping navigation changes behind a feature flag, it is required to present a proposal that considers the future state with a clear, validated vision of the final outcome. We do not merge iterative navigation changes behind a feature flag without having an understanding of the end state.
+
+## Reconciliation process
+
+The navigation proposal process attempts to balance a focus on core workflows and feature visibility, which means sometimes proposal authors may disagree with the Foundations team decision. If you feel like we’ve struck the wrong balance, let’s follow the [manager mention thread process](https://handbook.gitlab.com/handbook/communication/#scaling-merge-requests-through-manager-mention-mrs-formerly-consolidated-mrs). Add a comment to the proposal and:
+
+1. Summarize why the proposal was rejected and your perspective on why this decision is incorrect
+1. Mention your manager and the Foundations PM manager
+1. Request their input on the decision

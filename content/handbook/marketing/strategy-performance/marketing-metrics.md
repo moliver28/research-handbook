@@ -495,6 +495,11 @@ We track marketing influence on channel opportunies as well as deal regisiration
 ### Channel Marketing Tableau Dashboard
 [This Tableau Dashboard](https://10az.online.tableau.com/#/site/gitlab/views/DraftPartnerMarketingv2/PartnerSourcedOpps?:iid=1) is the SSOT for Channel Marketing Reporting. 
 
+Under the `Partner Leads & Contacts` tab, there may be campaigns with Partner Share Status = `No Value`. This is the result of two reasons:
+
+1. Distributor do not receive partner leads, so their status will show as `No Value`.
+2. There may be a sync error, and the sync need to be attended. Create a [Marketing Operations issue](https://gitlab.com/gitlab-com/marketing/marketing-operations/-/issues/new) for investigation.
+
 #### SFDC Report Template - Records Passed to Partners
 
 These reports are used as template for your reference. Please clone and modify the reports based on the campaign name you are wanting to dig into. Reminder that SFDC treats leads and contacts separetely, so you'll need both a leads and a contacts report to see full picture.

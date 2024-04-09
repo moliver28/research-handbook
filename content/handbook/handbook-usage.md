@@ -245,13 +245,13 @@ Being a maintainer gives you access to much more than just the ability to merge.
 
 ### Granting others maintain access
 
-Do not grant people maintainer access without an [Access Request](/handbook/business-technology/team-member-enablement/onboarding-access-requests/access-requests/). As a maintainer you have the ability to grant others maintainer access. Don’t do so without following the Access Request process to garner the appropriate approvals and create the necessary documentation.
+Do not grant people maintainer access without an [Access Request](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/). As a maintainer you have the ability to grant others maintainer access. Don’t do so without following the Access Request process to garner the appropriate approvals and create the necessary documentation.
 
 ### Description Templates for Issues and Merge Requests
 
 The [description templates](https://docs.gitlab.com/ee/user/project/description_templates.html) for issues and merge requests in the various projects are respectively located in the `.gitlab/issue_templates` and `.gitlab/merge_request_templates` directories, and can be edited and changed with a new merge request.
 
-Changes to the default templates in `Default.md` require review by the [Chief of Staff Team to the CEO](/handbook/ceo/chief-of-staff-team/) or the [CEO](/handbook/ceo/). See `.gitlab/CODEOWNERS` for the current list of approvers.
+Changes to the default templates in `Default.md` require review by the [Office of the CEO](/handbook/ceo/office-of-the-ceo/) or the [CEO](/handbook/ceo/). See `.gitlab/CODEOWNERS` for the current list of approvers.
 
 ## The Internal handbook
 

@@ -30,9 +30,7 @@ Senior leadership roles continue to grow as work expands, collaboration occurs a
 
 Organizations should consider hiring a Head of Remote. This may be titled Director of Remote Work, VP of Remote Work, Chief Remote Officer, or a variety of alternatives. Longer-term, this role may evolve into a Head of Workplace Experience, Head of Culture, or similar.
 
-Below is a series of fundamental questions that leaders must answer when transitioning to remote. It is unlikely that an existing team will be capable of directing adequate attention to these needs without backfilling for other responsibilities.
-
-{{< tweet user="darrenmurph" id="1335296679617179651" >}}
+Below is a series of fundamental questions that leaders must answer when transitioning to remote. It is unlikely that an existing team will be capable of directing adequate attention to these needs without backfilling for other responsibilities. You can also take a look at [Remote Work Trends](https://www.beautiful.ai/player/-MN2DyuYlmg6Bh5JA3sn/Remote-Work-Trends).
 
 ## Questions to ask a Head of Remote
 
@@ -197,15 +195,11 @@ For companies who are attempting to articulate what they need in a remote leader
 
 ## Who created the Head of Remote role?
 
-{{< tweet user="andreasklinger" id="1187842851259867136" >}}
-
 Sid Sijbrandij and Darren M. used GitLab to [create](https://gitlab.com/gitlab-com/www-gitlab-com/-/merge_requests/33460) the Head of Remote role on `2019-10-26`. There's a pretty good story behind it, too.
 
 Following a "[Making Remote Work](https://medium.com/@gcvp/going-distributed-choosing-the-right-remote-friendly-team-model-6a04f833267c)" event in San Francisco, which was co-hosted by GitLab and General Catalyst, Darren M. ([`@darrenmurph`](https://twitter.com/darrenmurph)), Sid Sijbrandij ([`@sytses`](https://twitter.com/sytses)), and Andreas Klinger ([`@andreasklinger`](https://twitter.com/andreasklinger)) were discussing Darren's role at GitLab.
 
 At the time, Andreas was the de facto Head of Remote Products at AngelList. After hearing Darren's duties, he informed Sid that Darren's title should be "Head of Remote" to be indicative of his responsibilities. He then [tweeted](https://twitter.com/andreasklinger/status/1187842851259867136) the same sentiment, which is embedded below.
-
-{{< tweet user="andreasklinger" id="1187841403381878785" >}}
 
 Sid went back to his home and [created a merge request on GitLab](https://gitlab.com/gitlab-com/www-gitlab-com/-/merge_requests/33460) which proposed the title change, also [tweeting it](https://twitter.com/sytses/status/1188179157361950720) for the public to follow. Darren later merged the MR, ushering the proposal into reality.
 
@@ -263,10 +257,9 @@ Capgemini Research Institute surveyed 500 organizations and 5,000 employees from
 
 ## In the news
 
-{{< tweet user="darrenmurph" id="1358117706323656707" >}}
-
 The below is an inexhaustive list of news articles covering the growing movement of firms hiring a dedicated leader for remote work. *Some of the articles may require a paid subscription to access*.
 
+1. The Australian: [Why hybrid workplaces bring a whole new set of challenges (reproduction)](https://twitter.com/darrenmurph/status/1358117706323656707)
 1. Forbes: [The Next In-Demand Job Title: Head Of The Future Of Work](https://www.forbes.com/sites/jenamcgregor/2022/01/18/the-next-in-demand-job-title-head-of-the-future-of-work/?sh=776b6d5160b8)
 1. Protocol: [Do you need to hire a 'head of remote?'](https://www.protocol.com/workplace/head-of-remote-darren-murph)
 1. NPR Marketplace: [Why more companies are hiring heads of remote work](https://www.marketplace.org/2021/10/26/why-more-companies-are-hiring-heads-of-remote-work)

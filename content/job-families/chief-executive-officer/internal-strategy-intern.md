@@ -30,8 +30,8 @@ They are the internal strategy consultants of GitLab who move from problem to pr
 
 ## Performance Indicators
 
-- [Meetings shifted from CEO - hours spent in meetings decreases overtime by Chief of Staff to the CEO stepping in, supported by Internal Consultants](/handbook/ceo/chief-of-staff-team/#performance-indicators)
-- [Throughput - Issues or merge requests closed as measurement of projects iterated on](/handbook/ceo/chief-of-staff-team/#performance-indicators)
+- [Meetings shifted from CEO - hours spent in meetings decreases overtime by Chief of Staff to the CEO stepping in, supported by Internal Consultants](/handbook/ceo/office-of-the-ceo/#performance-indicators)
+- [Throughput - Issues or merge requests closed as measurement of projects iterated on](/handbook/ceo/office-of-the-ceo/#performance-indicators)
 
 ## Hiring Process
 

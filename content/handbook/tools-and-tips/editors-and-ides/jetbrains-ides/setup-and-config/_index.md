@@ -79,6 +79,16 @@ and search for `excludeFolder`.
 Alternately, these would be included in the config if you use one of the "copy someone else's config"
 Configuration approaches under [Configuration](#configuration).
 
+## Set up test roots
+
+You should [properly set up the test sources root directories](https://www.jetbrains.com/help/ruby/create-tests.html#mark_test_sources_root).
+
+Ensure that you add both `spec` and `ee/spec` as test roots.
+
+This has several effects, including making that `Cmd-Shift-T` "Go to Test Subject" action work to easily toggle back and forth between the subject file and test file.
+
+You can review existing test roots under `Settings -> Project Structure`.
+
 ## Increase maximum heap size in memory settings
 
 When working with the GitLab project, which is BIG, RubyMine can use a lot of memory when indexing/searching/etc. It's not unusual for memory usage to peak out at **up to 10 gigabytes or more of memory during indexing**, if it is allocated.
@@ -90,9 +100,13 @@ If you have the memory to spare on your workstation, it will help your performac
 
 ## Configuration
 
-### UPDATE 2023=12
+### UPDATE 2024-04
 
-Based on demo previews, it looks like the new [Toolbox Enterprise](https://www.jetbrains.com/toolbox-enterprise/) features will finally provide a viable and easy way to share configuration across a team. Jetbrains has said that the features we need should be available sometime around mid-2024.
+Jetbrains has pointed us to this issue to follow their progress on allowing team settings sharing: [Make Settings Sync/new separate feature suitable for team settings sharing](https://youtrack.jetbrains.com/issue/IDEA-309002)
+
+### UPDATE 2023-12
+
+Based on demo previews, it looks like the new [Toolbox Enterprise](https://www.jetbrains.com/toolbox-enterprise/) features will finally provide a viable and easy way to share configuration across a team. Jetbrains has said that the features we need should be available sometime around mid-2024. However, the additional license cost of this may be prohibitive.
 
 ### UPDATE 2023-11
 

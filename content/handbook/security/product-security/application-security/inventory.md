@@ -10,8 +10,8 @@ Keeping track of all these moving parts can not rely only upon our current under
 Automation is a key aspect of our work, and GitLab is no exception.
 
 The AppSec Inventory is a private GitLab project to identify and track all projects, components, and dependencies important to us.
-The project is available at [https://gitlab.com/gitlab-com/gl-security/engineering-and-research/inventory](https://gitlab.com/gitlab-com/gl-security/engineering-and-research/inventory)
-to GitLab team members. The Inventory is built using this [CLI tool](https://gitlab.com/gitlab-com/gl-security/engineering-and-research/gib/).
+xtThe project is available at [https://gitlab.com/gitlab-com/gl-security/product-security/inventory](https://gitlab.com/gitlab-com/gl-security/product-security/inventory)
+to GitLab team members. The Inventory is built using this [CLI tool](https://gitlab.com/gitlab-com/gl-security/product-security/gib/).
 
 Not all projects are important, and we certainly don't want to monitor projects that are POCs, demos, or tests.
 That's why we need to categorize the projects created by GitLab team members, understand their nature, and make decisions at scale.
@@ -82,7 +82,7 @@ Rules define actions to take, based on the project categories. These actions are
 [Approvals]: https://docs.gitlab.com/ee/api/merge_request_approvals.html
 [Approval Rules]: https://docs.gitlab.com/ee/api/merge_request_approvals.html#get-project-level-rules
 
-These policies are aligned with our [GitLab Projects Baseline Requirements](/handbook/security/gitlab_projects_baseline_requirements.html).
+These policies are aligned with our [GitLab Projects Baseline Requirements](/handbook/security/gitlab_projects_baseline_requirements/).
 
 ### How to categorize projects
 
@@ -91,7 +91,7 @@ Leaves are folders and can be groups or projects, and they're identified by spec
 These files are created automatically when syncing the Inventory.
 
 The tree structure reflects the organization of groups and projects in a GitLab instance, in our case: https://gitlab.com.
-For example, the [GitLab project](https://gitlab.com/gitlab-org/gitlab/) will be located under [`data/gitlab-org/gitlab/`](https://gitlab.com/gitlab-com/gl-security/engineering-and-research/inventory/-/tree/main/data/gitlab-org/gitlab) in the Inventory.
+For example, the [GitLab project](https://gitlab.com/gitlab-org/gitlab/) will be located under [`data/gitlab-org/gitlab/`](https://gitlab.com/gitlab-com/gl-security/product-security/inventory/-/tree/main/data/gitlab-org/gitlab) in the Inventory.
 
 Projects can be categorized by creating a `properties.yml` file in their folder. This file can contain a `categories` array, with the categories of the project.
 
@@ -105,12 +105,12 @@ categories:
 
 Subgroups can be ignored (skipped during synchronization) by adding an `ignore` file into their folder.
 
-Learn more with the [GitLab Inventory Builder Documentation](https://gitlab.com/gitlab-com/gl-security/engineering-and-research/gib/-/blob/main/README.md), and this [example inventory](https://gitlab.com/gitlab-com/gl-security/engineering-and-research/inventory-example).
+Learn more with the [GitLab Inventory Builder Documentation](https://gitlab.com/gitlab-com/gl-security/product-security/gib/-/blob/main/README.md), and this [example inventory](https://gitlab.com/gitlab-com/gl-security/product-security/inventory-example).
 
 #### How to add or update your GitLab Project
 
 1. Note the namespace of your project.
-1. Visit <https://gitlab.com/gitlab-com/gl-security/engineering-and-research/inventory/-/tree/main/data/>
+1. Visit <https://gitlab.com/gitlab-com/gl-security/product-security/inventory/-/tree/main/data/>
 1. Navigate the folder structure to find your project's existing `properties.yml` file.
     1. If your project does not exist, create a file at `data/your-namespace/your-project/properties.yml`.
     1. Projects created in GitLab's namespaces are added automatically on a weekly basis.
@@ -129,7 +129,7 @@ urls:
 
 ### Weekly triage process
 
-A synchronization pipeline runs every week, on Monday mornings. If successful, it will [generate a Merge Request](https://gitlab.com/gitlab-com/gl-security/engineering-and-research/inventory/-/merge_requests) to review the changes.
+A synchronization pipeline runs every week, on Monday mornings. If successful, it will [generate a Merge Request](https://gitlab.com/gitlab-com/gl-security/product-security/inventory/-/merge_requests) to review the changes.
 
 The review aims to:
 

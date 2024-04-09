@@ -49,13 +49,13 @@ The SAE/ISR [creates a Professional Services Only opportunity](/handbook/sales/f
 #### Standard Services Only
 
 If the customer only needs standard services from the service catalog, the SAE/ISR can generate the quote from within the newly created SFDC PS opportunity by:
-1. click `New Quote`.
-1. fill in the required contact information and date fields.
-1. click `next`.
-1. Click the drop down box next to the New Quote Flow and select `Add Add on Products`.
-1. In the Professional Services and Training Row, click the drop down that says `Select Plan` to see the current SKU offerings that can be added to the opportunity.
+1. Click `New Quote`.
+1. Choose the proper billing account. In the _Quote Type_ section Select `New Subscription`. Click `Next`.
+1. On the _Create New Subscription Quote_ screen, update required fields (e.g. _Start Date_) as needed. Click `Next`.
+1. On the _New Quote Flow_ screen, click the drop down box next to the _New Quote Flow_ and select `Add Add on Products`.
+1. In the Professional Services and Training Row, click the drop down that says `Select Plan` to see the current SKU offerings that can be added to the opportunity. Click `Next`. 
 
-After following the above process steps, click `Generate PDF` to obtain an Order Form to share with the customer for signature.  The SAE/ISR should meet with the customer to review the service deliverables, duration, and pricing and should confirm no customizations are needed. Again, they can pull in the SA for assistance if needed.
+After following the above process steps, click `Generate PDF` to obtain an Order Form to share with the customer for signature.  The AE should meet with the customer to review the service deliverables, duration, and pricing and should confirm no customizations are needed. Again, they can pull in the EM for assistance if needed.
 
 #### Custom-Scoped Services
 

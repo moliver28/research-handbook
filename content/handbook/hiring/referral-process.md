@@ -136,7 +136,7 @@ As a way of ensuring a consistent and positive experience with both the candidat
         1. The referral aligns to the role however there are late stage candidates in process already, inform the referral via email and referrer via DM.
             - If we don't prceed with current candidates in final stages, revisit the referral and progress if appropriate.
             - If the role is filled, ensure the referral is rejected and sent the "Position Filled" email template.
-            - If the referred candidate is aligned to a role but we proceed with another candidate, an option is for the Recruiter to setup a networking call to keep hte candidate in mind for future roles.
+            - If the referred candidate is aligned to a role but we proceed with another candidate, an option is for the Recruiter to setup a networking call to keep the candidate in mind for future roles.
     1. **Progress** - candidate is aligned to the role
         1. Move them to *Qualified*
         1. Send application questions to confirm sponsorship requirements, location, EEOC, etc.

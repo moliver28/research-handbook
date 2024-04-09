@@ -15,40 +15,42 @@ MRs with only backend changes sometimes affect the UX (for example, performance 
 
 To help triage, be aware of all MRs in your stage group and ask engineers about which MRs could affect the UX and how. Product Designers often give constructive feedback on any kind of MR, including MRs that *seem* to not affect the UX, so use your best judgment when deciding which MRs you should review.
 
-We utilize the GitLab Roulette for our MR review assignments. Learn more about [how MR reviews are assigned](#how-to-assign-mr-reviews).
+We utilize the GitLab Roulette to assign subject matter experts within the group the MR originates from. Learn more about [how MR reviews are assigned](#how-to-assign-mr-reviews).
 
 ### Benefits
 
-- Evenly distribute MR reviews across the Product Designers in the UX Department in support of our [Product Design MR review volume KPI](/handbook/product/ux/performance-indicators/#product-design-mr-review-volume). This will have a more significant impact on higher usage areas of our product by opening up capacity for those designers to increase time spent on creating design solutions.
-- Create awareness of the end-to-end GitLab product by having designers involved in reviewing work outside of their normal areas. This can lead to holistic solutions and seeing connections between stage groups (and Pajamas) that would otherwise get missed.
-- Improve communication and documentation of design solutions, as we're now relying on another designer to confirm that a solution is developed as intended.
-- Give designers visibility and experience in other areas of the product to potentially discover a new passion or area of interest.
+Designers who are most familiar with the product area and resulting changes are better equipped to:
+
+- Quickly set up the specifications needed to test the change locally.
+- Understand why the change is being made and the context behind the decisions.
+- Provide actionable feedback.
+- Review edge cases and find bugs before code is merged into production.
+
+We encourage designers to work closely with their engineering peers throughout the entire product development lifecycle, from ideation to shipping to production. This strengthens product relationships and discourages a waterfall process.
 
 ## How to assign MR reviews
 
 ### Stage group MRs
 
-The [GitLab Roulette](https://gitlab-org.gitlab.io/gitlab-roulette/) will randomly suggest a designer to review. These MRs should have a well-documented design solution. Your role as a reviewer is to ensure the solution is developed as intended. After you've completed your review, cc the [design DRI of the group](/handbook/product/categories/#devops-stages) for awareness. Additionally, if you have further feedback on a particular UX solution, open a follow-up issue and mention the design DRI.
-  - There may be scenarios where an MR is based on a previous conversation or it proposes a solution that did not have a design associated with it. If this happens, `@ mention` the design DRI to ensure requirements are met. The design DRI should then notify the suggested UX reviewer to complete the MR review when ready.
-      - An example is an MR with the label, `~"Internal hackathon"`. The design solution is likely being solved at the time of development.
+The [GitLab Roulette](https://gitlab-org.gitlab.io/gitlab-roulette/) will suggest the designer who is assigned to the stage group the MR corresponds to. The design DRI will act as reviewer for the MRs of that group. 
+
+If a stage group does not have a designer, we are unable to accomodate MR reviews at this time due to lack of capacity.
 
 ### Community contributions
 
-Community submitted MRs require more context to review and are assigned to the design DRI of the group it impacts ([What if a team doesn't have a designer?](#what-if-a-team-doesnt-have-a-designer)). All UX-related community contributions will generate a Slack message in the `#ux-community-contributions` channel and will be manually assigned until we automate the process.
+Community submitted MRs are assigned to the design DRI of the group it impacts. If a group does not have a designer, it will be reviewed by `@pedroms`.
+
+For all UX-related community contributions, the reviewer roulette will suggest the correct designers automatically. Additionally it will generate a Slack message in the `#ux-community-contributions` channel to spread awareness.
 
 ### Single engineering group MRs
 
-Single Engineer Group (SEG) MRs often require more active collaboration and additional context on the work. UX-related MRs created from a SEG should be reviewed by the design DRI of the group it impacts ([What if a team doesn't have a designer?](#what-if-a-team-doesnt-have-a-designer)).
+Single Engineer Group (SEG) MRs should be reviewed by the design DRI of the group it impacts.
+
+If a SEG MR belongs to a stage group that does not have a designer, we are unable to accomodate MR reviews at this time due to lack of capacity.
 
 ### UX Paper Cuts MRs
 
-MRs created by the UX Paper Cuts team will be handled by the UX Paper Cuts team. If one of the two designers are OOO, then the team will utilize the [GitLab Roulette](https://gitlab-org.gitlab.io/gitlab-roulette/) to help distribute MR reviews across the Product Design subdepartment.
-
-### What if a team doesn't have a designer?
-
-In cases where there is no design DRI to review the MR, you can assign it to [Pedro Moreira da Silva](/handbook/company/team/#pedroms) (`@pedroms`), who's covering for teams without a designer.
-
-For general guidance for teams without a designer, see [Product Processes](/handbook/product/product-processes/product-mgt-operations/pm-operating-procedures/#what-if-your-team-doesnt-have-a-designer).
+MRs created by the UX Paper Cuts team will be handled by the UX Paper Cuts team. If the team is out of office, then the [GitLab Roulette](https://gitlab-org.gitlab.io/gitlab-roulette/) will be utilized to help distribute MR reviews across the Product Design subdepartment.
 
 ## Workload and response times
 
@@ -56,11 +58,15 @@ MR review requests are the [number one priority for Product Designers](/handbook
 
 Balancing MR reviews with other priorities is a challenge, as they can be unpredictable. To avoid disruptions and context-switching, we suggest you block some time every day to review MRs (for example, 30 minutes or 1 hour per day).
 
-If you're struggling with MR reviews, remember to [manage expectations with MR authors](/handbook/engineering/workflow/code-review/#managing-expectation) and let your manager know right away so they can help you.
+If you're struggling with MR reviews, remember to [manage expectations with MR authors](/handbook/engineering/workflow/code-review/#managing-expectation). Before taking up a review, make an estimation of your capacity keeping in mind any upcoming time off. If you are unsure of completing the review before leaving for a time off, work with your manager and team to reassign the MR to another designer.
 
-Before taking up a review, make an estimation of your capacity keeping in mind any upcoming time off. If you are unsure of completing the review before leaving for a time off, spin the roulette again to assign the review to a different designer and [set the appropriate GitLab or Slack status](https://docs.gitlab.com/ee/development/code_review.html#reviewer-roulette) to avoid Danger bot assigning you to more merge requests reviews.
+### Monitoring MR review workload
 
-Community contributions are not assigned for reviews through Danger Bot. Work with your manager to communicate and negotiate with the merge request author if your capacity is limited, or in case of upcoming time off.
+Should you find yourself overloaded with MRs, let your manager know right away so they can help you. You can request assistance from another designer on your team or by asking in the #ux_coworking Slack channel.
+
+Product design managers should escalate and monitor these occurences with UX leadership to determine if they are isolated incidents or indicative of a broader trend. 
+
+To ensure that MR reviews are evenly distributed across designers, we monitor the [GitLab Review Workload Dashboard](https://gitlab-org.gitlab.io/gitlab-roulette/?sortKey=stats.avg30&order=-1&hourFormat24=true&visible=reviewer%7CUX) and [Product Design MR review volume](/handbook/product/ux/performance-indicators/#product-design-mr-review-volume).
 
 ## Reviewing
 
@@ -69,11 +75,10 @@ In general, follow the [Code Review guidelines](https://docs.gitlab.com/ee/devel
 ### Understand the MR
 
 - Check the MR description for the following information. If any are missing, ask the author to complete the description before investing time in the review.
-    - A thorough explanation of the changes.
-    - How you can test the changes.
-    - Link(s) to the related issue(s).
-    - *Before* and *After* screenshots/videos (if appropriate).
-- To reduce waiting time for [previewing the MR in a live environment](#preview-the-mr) (like Gitpod, your local GDK, or even a Review App), start the environment and let it load in the background while you familiarize yourself with the MR and related issue(s).
+   - A thorough explanation of the changes.
+   - How you can test the changes.
+   - Link(s) to the related issue(s).
+   - *Before* and *After* screenshots/videos (if appropriate).
 - Some MRs with the `~"UX"` label may not have a design DRI or proposed designs associated with the change. In these cases, it is important to get as much context as you can about the change. If you are unsure how the changes impact other areas of the product, consider bringing in other designers and your design manager to help evaluate the impact of the proposal.
 
 ### Preview the MR
@@ -172,17 +177,17 @@ Some MRs have additional set up requirements.
       
       </details>
 - Try to find something worth praising the author for, like a thorough MR description or their attention to detail on a certain aspect. But don't make empty praises, only praise them if you recognize the value of what they've done.
-- When there are concerns with an MR, especially for those that did not have a design DRI associated with the proposal, consider the following actions to help progress the review:
+- When there are concerns with an MR, consider the following actions to help progress the review:
    - Iterate instead of revert. Consider coaching and guiding the author of the MR towards an ideal solution.
    - Educate to collaborate. You may have more context of the problem than the author. Express your concerns and thoughts, and ask them how might they adapt their solution to accommodate the concerns.
    - Get a second opinion. When you are uncertain about a change feel free to involve a [quad member](/handbook/product/product-processes/#pm-em-ux-and-set-quad-dris) from your product group, your product design manager, and/or other designers. This can be done directly in the MR or in Slack channels.
-   - Consider creating a follow-up issue to address the concerns of the MR and inform the design DRI of it.
+   - Create a follow-up issue to address the concerns of the MR.
    - If changes are behind a feature flag, but there are concerns about the feature going live, consider creating an issue that blocks the full release of the feature with a list of items that need to be addressed (see this [example](https://gitlab.com/gitlab-org/gitlab/-/issues/398152)).
 
 ### Handoff the MR
 
 - After each review round, you should remove yourself as a reviewer and post a summary comment, letting the author know if changes are required following your review.
-- To address any outstanding UX concerns that deviate from the MVC, you should create follow-up issues and label them as `UX debt` (learn more about this label in [UX labels](/handbook/product/ux/#ux-labels)).
+- To address any outstanding UX concerns that deviate from the MVC, you should create follow-up issues and label them as `Deferred UX` (learn more about this label in [UX labels](/handbook/product/ux/#ux-labels)).
 - If you complete an MR for work that isn't within your specific group, you should consider following up with the original author to discuss their documentation (ex. "This was unclear... In the future, you may want to..."). This can be thought of as a casual retrospective and can be synchronous or asynchronous.
 - When you're confident that the MR meets all requirements you must [approve it](https://docs.gitlab.com/ee/development/code_review.html#getting-your-merge-request-reviewed-approved-and-merged) by hitting the Approved button in the merge request widget. To handoff the MR, see the [responsibility of the reviewer](https://docs.gitlab.com/ee/development/code_review.html#the-responsibility-of-the-reviewer).
 

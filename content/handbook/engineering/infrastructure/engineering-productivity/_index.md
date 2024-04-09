@@ -27,7 +27,17 @@ description: "The Engineering Productivity team increases productivity of GitLab
 
 ### Members
 
-{{< team-by-manager-role "Director of Engineering Productivity" >}}
+| Team Members                                     | Role                                                |
+|------------------------------------------------- | --------------------------------------------------  |
+| {{< member-by-name "Ethan Guo" >}}               | Acting Engineering Manager                          |
+| {{< member-by-name "Alina Mihaila" >}}           | Senior Backend Engineer, Engineering Productivity   |
+| {{< member-by-name "David Dieulivol" >}}         | Senior Backend Engineer, Engineering Productivity   |
+| {{< member-by-name "Jennifer Li" >}}             | Senior Backend Engineer, Engineering Productivity   |
+| {{< member-by-name "Jen-Shin Lin" >}}            | Senior Backend Engineer, Engineering Productivity   |
+| {{< member-by-name "Nao Hashizume" >}}           | Backend Engineer, Engineering Productivity          |
+| {{< member-by-name "Peter Leitzen" >}}           | Staff Backend Engineer, Engineering Productivity    |
+| {{< member-by-name "Rémy Coutable" >}}           | Principal Engineer, Infrastructure                  |
+
 
 ### Stable Counterpart
 
@@ -40,7 +50,7 @@ description: "The Engineering Productivity team increases productivity of GitLab
 ```mermaid
 graph LR
     A[Engineering Productivity Team]
-    
+
     A --> B[Planning & Reporting]
     B --> B1[Weekly team reports<br>Providing teams with an overview of their current, planned & unplanned work]
     click B1 "https://gitlab.com/groups/gitlab-org/quality/engineering-productivity/-/epics/32"
@@ -60,7 +70,7 @@ graph LR
     click F3 "https://gitlab.com/groups/gitlab-org/quality/engineering-productivity/-/epics/28"
     F --> F4[Review apps<br>Providing review apps to explore a merge request changes]
     click F4 "https://gitlab.com/groups/gitlab-org/quality/engineering-productivity/-/epics/33"
-    
+
     A --> D[Maintenance & Security]
     D --> D1[Automated dependency updates<br>Ensuring dependencies are up-to-date]
     click D1 "https://gitlab.com/groups/gitlab-org/quality/engineering-productivity/-/epics/40"
@@ -72,7 +82,7 @@ graph LR
     click D4 "https://gitlab.com/groups/gitlab-org/quality/engineering-productivity/-/epics/38"
     D --> D5[Shared CI/CD components<br>Providing CI/CD components to ensure consistency in all GitLab projects]
     click D5 "https://gitlab.com/groups/gitlab-org/quality/engineering-productivity/-/epics/41"
-    
+
     A --> G[JiHu Support]
     click G "https://gitlab.com/groups/gitlab-org/quality/engineering-productivity/-/epics/35"
 ```
@@ -188,7 +198,7 @@ The Engineering Productivity team recently reviewed (2023-05-19) all our project
 | Review Apps | David, Rémy | [Using review apps in the development of GitLab](https://docs.gitlab.com/ee/development/testing_guide/review_apps.html) |
 | Triage engine, used by GitLab triage operations | Jen-Shin, Rémy | [GitLab Triage](https://gitlab.com/gitlab-org/ruby/gems/gitlab-triage/) |
 | Danger & Dangerfiles (includes Reviewer roulette) for shared Danger rules and plugins | Rémy, Jen-Shin, Peter | [`gitLab-dangerfiles` Ruby gem](https://gitlab.com/gitlab-org/ruby/gems/gitlab-dangerfiles) for shared [Danger](https://docs.gitlab.com/ee/development/dangerbot.html#danger-bot) rules and plugins |
-| JiHu | Jen-Shin | [JiHu Support](https://about.gitlab.com/handbook/ceo/chief-of-staff-team/jihu-support/) |
+| JiHu | Jen-Shin | [JiHu Support](https://about.gitlab.com/handbook/ceo/office-of-the-ceo/jihu-support/) |
 | Development department metrics for measurements of Quality and Productivity | Jenn, Rémy | [Development Department Performance Indicators](https://about.gitlab.com/handbook/engineering/development/performance-indicators/) |
 | RSpec Profiling Statistics for profiling information on RSpec tests in CI | Peter | [rspec_profiling_stats](https://gitlab.com/gitlab-org/rspec_profiling_stats) |
 | RuboCop & shared RuboCop cops | Peter | [`gitLab-styles` Ruby gem](https://gitlab.com/gitlab-org/ruby/gems/gitlab-styles) for shared [RuboCop cops](https://docs.gitlab.com/ee/development/contributing/style_guides.html#ruby-rails-rspec) |

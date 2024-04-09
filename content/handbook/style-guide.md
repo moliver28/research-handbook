@@ -6,7 +6,7 @@ title: "Handbook Style Guide"
 
 GitLab's general communications practices are detailed at [GitLab Communication](/handbook/communication/), but beyond those we do have some channel-specific guidance available. This page is for Handbook-specific guidance that does not necessarily apply to the company overall or to other specific channels, such as [GitLab Documentation](https://docs.gitlab.com/) or the [GitLab Blog](https://about.gitlab.com/blog/).
 
-In the absence of Handbook-specific guidance, you can't go wrong by following GitLab's [Writing Style Guidelines](/handbook/communication/#writing-style-guidelines) and [Documentation Style Guide](https://docs.gitlab.com/ee/development/documentation/styleguide/). The GitLab Documentation site also offers a list of [topic-specific style guides](https://docs.gitlab.com/ee/development/contributing/style_guides.html). If something is not covered in any of those, there's also the [marketing site content style guide]({{< ref "/content/handbook/marketing/brand-and-product-marketing/brand/content-style-guide.md" >}}).
+In the absence of Handbook-specific guidance, you can't go wrong by following GitLab's [Writing Style Guidelines](/handbook/communication/#writing-style-guidelines) and [Documentation Style Guide](https://docs.gitlab.com/ee/development/documentation/styleguide/). The GitLab Documentation site also offers a list of [topic-specific style guides](https://docs.gitlab.com/ee/development/contributing/style_guides.html). If something is not covered in any of those, there's also the [marketing site content style guide](/handbook/marketing/brand-and-product-marketing/brand/content-style-guide.md).
 
 So what is style? Is it aesthetics? Information architecture? Interaction design? Technical implementation conventions? It can be all of these things, but we'll start this style guide with some information about common elements and tasks.
 
@@ -95,5 +95,5 @@ With root-relative URLs same-site links can work properly during local developme
   - [Documentation style Guide](https://docs.gitlab.com/ee/development/documentation/styleguide/)
 - [GitLab style guides](https://docs.gitlab.com/ee/development/contributing/style_guides.html)
 - [Pajamas Design System](https://design.gitlab.com/)
-- [Marketing site content style guide]({{< ref "/content/handbook/marketing/brand-and-product-marketing/brand/content-style-guide.md" >}})
+- [Marketing site content style guide](/handbook/marketing/brand-and-product-marketing/brand/content-style-guide.md)
 - [Blog style guide](/handbook/marketing/brand-and-product-marketing/content/editorial-team/)

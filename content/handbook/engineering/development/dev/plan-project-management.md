@@ -25,10 +25,6 @@ For more details about the vision for this area of the product, see the
 
 Check out our [jobs page](https://about.gitlab.com/jobs/) for current openings.
 
-### Team metrics dashboard
-
-{{% include "includes/engineering/plan/project-management-dashboard.md" %}}
-
 ## Scalability Targets
 
 We're tracking a number of issues that we believe could cause scalability problems in the future.

@@ -16,44 +16,51 @@ CI Catalog GA Epic: [https://gitlab.com/groups/gitlab-org/-/epics/12153](https:/
 
 | Milestone | Dates | Deliverable |
 |---------- | ----- | ----------- |
-|  ~17.0     | 2024-04-13 to 2024-05-10 | CI Catalog GA |
+|  ~17.0     | 2024-04-13 to 2024-05-10 | CI Catalog, Inputs, Components GA |
 
-### Milestone 16.10 (February 10, 2024 - March 8, 2024)
+### Additional Important Notes:
+
+- Awaiting feedback from security on [Threat Model](https://gitlab.com/gitlab-com/gl-security/appsec/threat-models/-/issues/43#note_1764196039) diagrams provided.
+
+### Overall GA progress
+
+- Go-To GA [dashboard](https://epic-dashboard-gitlab-org-tenant-scale-group-4aecf10d1d02154641.gitlab.io/epic_12153)
+
+### Milestone 16.11 (March 16, 2024 - April 12, 2024)
 
 #### Goals:
 
 - Go-To GA efforts
-  - [SM Support](https://gitlab.com/gitlab-org/gitlab/-/issues/434260#note_1783243937) to distribute components for Self managed customers.
-  - [Semantic versioning](https://gitlab.com/gitlab-org/gitlab/-/issues/427286) (Complete)
-  - `~latest` returns [latest](https://gitlab.com/gitlab-org/gitlab/-/issues/442238) semantic version  (In Review)
-  - Inputs Enhancements
-    - Boolean and number [support](https://gitlab.com/gitlab-org/gitlab/-/issues/434826) (Complete) 
-    - Text interpolation with [arrays](https://gitlab.com/gitlab-org/gitlab/-/issues/407176)
-  - `release-cli` pre-GA [tasks](https://gitlab.com/gitlab-org/gitlab/-/issues/442066)
-- CI/CD Catalog UX improvements
-  - [Reorganize information on component detail page](https://gitlab.com/gitlab-org/gitlab/-/issues/438262)
-  - [Add badges for components](https://gitlab.com/gitlab-org/gitlab/-/issues/433443)
-- Telemetry instrumentation for GA
-  - [Implement Tracking for release execution time](https://gitlab.com/gitlab-org/gitlab/-/issues/440474) (Complete)
-  - [Table creation for component tracking usage](https://gitlab.com/gitlab-org/gitlab/-/issues/440382)
-- CI/CD [Components](https://gitlab.com/groups/gitlab-org/-/epics/12336) GA 
+  - [Inputs](https://gitlab.com/groups/gitlab-org/-/epics/12464) for GA
+    - [Change catalog_resource_components.inputs to spec](https://gitlab.com/gitlab-org/gitlab/-/issues/443662) (In-Dev)
+    - ~~[CI Interpolation for arrays](https://gitlab.com/gitlab-org/gitlab/-/issues/407176)~~ (Complete)
+  - [Instrumentation](https://gitlab.com/groups/gitlab-org/-/epics/12415) for GA
+    - [Table creation for component tracking usage](https://gitlab.com/gitlab-org/gitlab/-/issues/440382) (In-Review)
+  - [Release Process Refinements](https://gitlab.com/groups/gitlab-org/-/epics/12338) for GA
+    - `release-cli` pre-GA [tasks](https://gitlab.com/gitlab-org/gitlab/-/issues/442066) (Remaining BE work In-Review)
+    - ~~[Support Self Managed components](https://gitlab.com/gitlab-org/gitlab/-/issues/434260)~~ (Complete)
+  - [Details page](https://gitlab.com/groups/gitlab-org/-/epics/12336) for GA
+    - [Relative URL breaks CI/CD component catalog project reference](https://gitlab.com/gitlab-org/gitlab/-/issues/450914) (FE work In-Review / BE work complete)
+    - ~~[Construct component path from parts (stop fetching it from the database)](https://gitlab.com/gitlab-org/gitlab/-/issues/441666)~~ (Complete)
+    - ~~[Remove the experimental label in the component tab](https://gitlab.com/gitlab-org/gitlab/-/issues/446052)~~ (Complete)
+- CI Catalog UX improvements
+  - ~~[Add badges for components](https://gitlab.com/gitlab-org/gitlab/-/issues/437893)~~ (Complete)
+    - NOTE: Backend [issue](https://gitlab.com/gitlab-org/gitlab/-/issues/451507) remains before badging starts showing up in CI Catalog.
+  - [Reorganize information in the detail](https://gitlab.com/gitlab-org/gitlab/-/issues/438262) (In-Review)
 
-#### Additional Important Notes:
+### Blockers:
 
-- `release-cli` [iterations](https://gitlab.com/groups/gitlab-org/-/epics/12788#iterations) have been defined for pre/post GA work. 
-- Awaiting feedback from security on [Threat Model](https://gitlab.com/gitlab-com/gl-security/appsec/threat-models/-/issues/43#note_1764196039) diagrams provided.
-
-### Milestone 16.11 (March 9, 2024 - April 12, 2024)
-
-#### Goals:
-- Support Self Manage components (carry over)
-- Improve component filtering in the UI -filter by publisher/latest update/popularity
-- CI/CD catalog Upsell opportunity - [https://gitlab.com/gitlab-org/gitlab/-/issues/393326](https://gitlab.com/gitlab-org/gitlab/-/issues/393326)
-- [Inputs](https://gitlab.com/groups/gitlab-org/-/epics/12464) - GA 
+- No blockers at this time.
 
 ### Milestone 17.0 (April 13, 2024 - May 10, 2024)
 
-- [CI/CD Catalog](https://gitlab.com/groups/gitlab-org/-/epics/12153) GA
+- Post-GA implementation work 
+  - [Update include syntax with a variable](https://gitlab.com/gitlab-org/gitlab/-/issues/446050)
+  - [Visibility into where components are used](https://gitlab.com/gitlab-org/gitlab/-/issues/393326) 
+  - [Allow administrators to restrict users from publishing a component to a catalog](https://gitlab.com/gitlab-org/gitlab/-/issues/423015)
+- Streamlining process for badge requests
+  - [Allow service object to create `VerifiedNamespace` record](https://gitlab.com/gitlab-org/gitlab/-/issues/451507)
+    - NOTE: This work needs to be completed before SRE can apply GitLab-maintained badge to gitlab.com/components.
 
 ### Milestone 17.1 (May 11, 2024 - June 14, 2024)
 
@@ -61,6 +68,7 @@ CI Catalog GA Epic: [https://gitlab.com/groups/gitlab-org/-/epics/12153](https:/
 - Release/Publish 2.0 [enhancements](https://gitlab.com/groups/gitlab-org/-/epics/12788) - span multiple milestones
 - Admin [capabilities](https://gitlab.com/groups/gitlab-org/-/epics/12713) in CI/CD Catalog - span multiple milestones
 - Analytics dashboards/Design Sprint [outcomes](https://gitlab.com/groups/gitlab-org/-/epics/12221) - span multiple milestones
+- [Support loading components in batches](https://gitlab.com/gitlab-org/gitlab/-/issues/402993)
 
 ### Milestone 17.2 (June 15, 2024 - July 12, 2024)
 
@@ -81,6 +89,24 @@ CI Catalog GA Epic: [https://gitlab.com/groups/gitlab-org/-/epics/12153](https:/
 <details markdown="1">
 
 <summary markdown="span">Past Milestones</summary>
+
+### February to March (Milestone 16.10)
+
+#### Goals
+
+- Go-To GA efforts
+  - [Support Self Managed component](https://gitlab.com/gitlab-org/gitlab/-/issues/434260#note_1783243937) to distribute components for Self managed customers. (In Verification)
+  - [Semantic versioning](https://gitlab.com/gitlab-org/gitlab/-/issues/427286) (Complete)
+  - Inputs Enhancements
+    - Boolean and number [support](https://gitlab.com/gitlab-org/gitlab/-/issues/434826) (Complete) 
+    - Text interpolation with [arrays](https://gitlab.com/gitlab-org/gitlab/-/issues/407176) (In Verification)
+  - `release-cli` pre-GA [tasks](https://gitlab.com/gitlab-org/gitlab/-/issues/442066) (FE Complete /BE In-Dev)
+- Telemetry instrumentation for GA
+  - [Implement Tracking for release execution time](https://gitlab.com/gitlab-org/gitlab/-/issues/440474) (Complete)
+  - [Table creation for component tracking usage](https://gitlab.com/gitlab-org/gitlab/-/issues/440382) (In-Dev)
+- CI/CD [Components](https://gitlab.com/groups/gitlab-org/-/epics/12336) to GA work
+  - [`~latest` returns latest semantic version](https://gitlab.com/gitlab-org/gitlab/-/issues/442238) (Complete)
+  - [Migrate Versions to follow SemVer convention](https://gitlab.com/gitlab-org/gitlab/-/issues/444303) (Complete)
 
 ### January to February (Milestone 16.9)
 

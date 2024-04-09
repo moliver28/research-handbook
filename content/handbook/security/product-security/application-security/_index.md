@@ -8,7 +8,7 @@ aliases:
 
 ## Application Security Mission
 
-As part of the Product Security sub-department, the application security team's mission is to support the business and ensure that all GitLab products securely manage customer data. We do this by working closely with both engineering and product teams.
+As part of the Product Security department, the application security team's mission is to support the business and ensure that all GitLab products securely manage customer data. We do this by working closely with both engineering and product teams.
 
 ## Contacting us
 
@@ -83,7 +83,7 @@ As part of our [dogfooding effort](/handbook/product/product-processes/#dogfood-
 the [Secure Tools](https://docs.gitlab.com/ee/user/application_security/) are set up on many different GitLab projects (see our [policies]({{< ref "inventory#policies" >}})).
 This list is too dynamic to be included in this page, and is now maintained in the [GitLab AppSec Inventory]({{< ref "inventory" >}}).
 
-Projects without the expected configurations can be found in the [inventory violations list](https://gitlab.com/gitlab-com/gl-security/engineering-and-research/inventory/-/issues) (internal link).
+Projects without the expected configurations can be found in the [inventory violations list](https://gitlab.com/gitlab-com/gl-security/product-security/inventory/-/issues) (internal link).
 
 ## GitLab Inventory
 
@@ -93,6 +93,10 @@ Learn more about the [GitLab AppSec Inventory]({{< ref "inventory" >}}).
 
 Learn how to identify or remediate security issues using real examples with GitLab's [Reproducible Vulnerabilities][11].
 
+## Reproducible Builds
+
+Learn how GitLab is implementing [Reproducable Builds][13] for our build processes.
+
 ## Application Security Automation and Monitoring
 
 Please see the [Application Security Automation and Monitoring page][12]
@@ -101,9 +105,10 @@ Please see the [Application Security Automation and Monitoring page][12]
 [3]: {{< ref "vulnerability-management" >}}
 [4]: {{< ref "stable-counterparts" >}}
 [5]: {{< ref "./runbooks" >}}
-[6]: {{< ref "/job-families/security/application-security" >}}
+[6]: /job-families/security/application-security
 [8]: https://10az.online.tableau.com/#/site/gitlab/views/appsectest2rawdata/AppSec-ApplicationandContainerVulnerabilityDashboard?:iid=4
 [9]: https://docs.google.com/document/d/1Mba9ZhuVr2qBkvR7AqzNTUFMUTapJqiXkPUqc9Gr8io/edit
-[10]: {{< ref "/handbook/security/root-cause-analysis" >}}
+[10]: /handbook/security/root-cause-analysis
 [11]: {{< ref "reproducible-vulnerabilities" >}}
 [12]: {{< ref "application-security-automation-monitoring" >}}
+[13]: {{< ref "reproducible-builds" >}}

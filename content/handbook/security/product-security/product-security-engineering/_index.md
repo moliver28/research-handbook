@@ -5,11 +5,11 @@ description: "The Product Security Engineering team's mission is to create proac
 
 ## Product Security Engineering Mission
 
-As part of the Product Security sub-department, and sibling to the Application Security Team, our mission is to:
+As part of the Product Security department, and sibling to the Application Security sub-department, our mission is to:
 
 - Enhance security along the software development lifecycle by creating ["paved roads"](https://netflixtechblog.com/scaling-appsec-at-netflix-part-2-c9e0f1488bc5)
 - Contribute product-first code that enhances the security of GitLab's software assets
-- Reduces the manual burden of the Application Security team by building automation and product improvements
+- Reduce the manual burden of the Application Security team by building automation and product improvements
 
 ### What we do
 

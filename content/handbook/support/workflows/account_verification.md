@@ -21,7 +21,7 @@ If the user has questions about the email, phone, or credit card verification Gi
 
 ### GitLab Team Members
 
-If the user is a GitLab team member, have them [contact IT Ops]({{< ref "/content/handbook/business-technology/end-user-services/_index.md" >}}).
+If the user is a GitLab team member, have them [contact IT Ops](/handbook/business-technology/end-user-services/_index.md).
 
 ## 2FA removal within GitLab
 
@@ -56,7 +56,7 @@ Do not allow the customer to bring up unrelated topics.
 
 Ensure that the ticket form, category, subcategory, and topic are accurate.
 
-Most SaaS Account categories have [automations]({{< ref "/content/handbook/support/readiness/operations/docs/zendesk/automations.md" >}}) or [triggers]({{< ref "/content/handbook/support/readiness/operations/docs/zendesk/triggers.md" >}}), including 2FA removal.
+Most SaaS Account categories have [automations](/handbook/support/readiness/operations/docs/zendesk/automations.md) or [triggers](/handbook/support/readiness/operations/docs/zendesk/triggers.md), including 2FA removal.
 
 ### Step 1: Checking user eligibility (2FA requests only)
 

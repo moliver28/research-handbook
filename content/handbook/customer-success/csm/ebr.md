@@ -48,7 +48,7 @@ From GitLab, in addition to the account team this may include:
 - Area Sales Manager
 - Sales Area Vice President
 - Other senior leaders, as determined in collaboration with management
-- Subject matter experts for product discussion, as applicable (e.g. [Product Manager](/handbook/product/categories/#devops-stages), [Customer Success Engineer](/handbook/customer-success/csm/cse/), [Solutions Architect](/handbook/customer-success/solutions-architects/), [Field CTO](/job-families/sales/solutions-architect/#field-cto-responsibilties), [Field CISO](/job-families/sales/solutions-architect/#field-security-officer-responsibilities))
+- Subject matter experts for product discussion, as applicable (e.g. [Product Manager](/handbook/product/categories/#devops-stages), [Customer Success Engineer](/handbook/customer-success/csm/cse/), [Solutions Architect](/handbook/solutions-architects/), [Field CTO](/job-families/sales/solutions-architect/#field-cto-responsibilties), [Field CISO](/job-families/sales/solutions-architect/#field-security-officer-responsibilities))
 
 Decisions about who to invite to an EBR are made collectively by the account team with input from their respective managers.
 
@@ -152,7 +152,7 @@ The customer's [success plan](#success-planning) forms the basis of the EBR. Thi
 Throughout the process we should align with the customer on discussion points and details, and ensure we are highlighting their accomplishments as part of the messaging. While the CSM is the [DRI](/handbook/people-group/directly-responsible-individuals/#what-is-a-directly-responsible-individual) for the EBR, it is a collaborative effort between the CSM, the other account team members, *and the customer*. **There should be no surprises in the content of the EBR for anyone involved.**
 {: .alert .alert-gitlab-purple}
 
-If you plan to discuss product information, ensure you align with the right GitLab team members for that discussion as early as possible. This may include a [Product Manager](/handbook/product/categories/#devops-stages), [Customer Success Engineer](/handbook/customer-success/csm/cse/), [Solutions Architect](/handbook/customer-success/solutions-architects/), or other subject matter experts. Give these team members ample time to align on the plan and prepare their portion of the EBR program.
+If you plan to discuss product information, ensure you align with the right GitLab team members for that discussion as early as possible. This may include a [Product Manager](/handbook/product/categories/#devops-stages), [Customer Success Engineer](/handbook/customer-success/csm/cse/), [Solutions Architect](/handbook/solutions-architects/), or other subject matter experts. Give these team members ample time to align on the plan and prepare their portion of the EBR program.
 
 The CSM and their manager will periodically review the EBR as this stage progresses. The CSM Manager ensures that the focus areas are appropriate for the [participants](#intended-participants) and in line with expectations for an EBR.
 

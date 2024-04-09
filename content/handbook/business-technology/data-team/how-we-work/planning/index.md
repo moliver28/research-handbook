@@ -84,13 +84,13 @@ The timeline for Iteration planning is as follows:
 
 ### Quarterly OKR Planning
 
-Data Team OKRs aspire to align with Business Technology OKRs, Finance Division OKRs, and company OKRs, thereby aligning with the OKRs of the Divisions we support. The Data Team also creates OKRs for [Data Platform](/handbook/business-technology/data-team/platform/) infrastructure development and these OKRs may not always map to immediate term Business Partner OKRs. Overall, [OKRs constitute 60-75%](/handbook/business-technology/data-team/how-we-work/#standing-priorities) of the Data Team's Quarterly Capacity, with Production Operations as the only established higher priority.
+Data Team OKRs aspire to align with divisional and company OKRs as well as GitLab Yearlies. The Data Team also creates OKRs for [Data Platform](/handbook/business-technology/data-team/platform/) infrastructure development and these OKRs may not always map to immediate term Business Partner OKRs. Overall, OKRs constitute 60-75% of the Data Team's Quarterly Capacity, with Production Operations as the only established higher priority.
 
-Data Team OKRs are managed with [GitLab Plan](https://about.gitlab.com/direction/plan/) using Epics and Issues using a standard naming scheme and structure and this approach:
+Data Team OKRs are managed with [GitLab Plan](https://about.gitlab.com/direction/plan/) using a combination of Objectives, Key Results, Epics, and Issues using a standard naming scheme and structure and this approach:
 - enables async contributions and planning
 - clearly defines Data Team priorities
 - helps to keep Epic and Issue description content to a manageable level
-- supports the [Rolly Bot](/handbook/business-technology/data-team/how-we-work/#weekly-roll-up-reporting) for regular progress reporting
+- leverages KR health statuses for progress reporting
 
 OKRs across the Data Team are written using GitLab's [How to Write OKRs](/handbook/company/okrs/#how-to-write-okrs) handbook page. The below formulas are used to write OKRs:
 

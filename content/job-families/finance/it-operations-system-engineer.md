@@ -51,11 +51,11 @@ The IT Operations System Administrator is a [grade 6](/handbook/total-rewards/co
 
 ## Performance Indicators (PI)
 
-- [Mean Time between Failures (MTBF)](/handbook/business-technology/metrics/#mean-time-between-failures-mtbf)
-- [Mean Time to Repair (MTTR)](/handbook/business-technology/metrics/#mean-time-to-repair-mttr)
-- [Number of days since last environment audit](/handbook/business-technology/metrics/#number-of-days-since-last-environment-audit)
-- [Cycle Time for IT Support Issue Resolution](/handbook/business-technology/metrics/#cycle-time-for-it-support-issue-resolution)
-- [Customer Satisfaction Survey (CSAT)](/handbook/business-technology/metrics/#customer-satisfaction-survey-csat)
+- [Mean Time between Failures (MTBF)](https://internal.gitlab.com/handbook/it/it-performance-indicators/#mean-time-between-failures-mtbf)
+- [Mean Time to Repair (MTTR)](https://internal.gitlab.com/handbook/it/it-performance-indicators/#mean-time-to-repair-mttr)
+- [Number of days since last environment audit](https://internal.gitlab.com/handbook/it/it-performance-indicators/#number-of-days-since-last-environment-audit)
+- [Cycle Time for IT Support Issue Resolution](https://internal.gitlab.com/handbook/it/it-performance-indicators/#cycle-time-for-it-support-issue-resolution)
+- [Customer Satisfaction Survey (CSAT)](https://internal.gitlab.com/handbook/it/it-performance-indicators/#customer-satisfaction-survey-csat)
 
 ## Hiring Process
 

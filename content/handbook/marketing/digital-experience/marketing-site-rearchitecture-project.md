@@ -4,12 +4,6 @@ title: Core Marketing Site Architecture Plan
 description: Core Marketing Site Changes
 ---
 
-
-
-
-
-
-
 ## Why We Are Proposing This Change
 
 
@@ -21,7 +15,7 @@ After considering [3 different approaches](https://docs.google.com/document/d/1y
 
 ## What We Are Proposing
 1. Making key business driving pages of GitLab's Marketing site build faster, resulting in increased engineering output. Anticipated ROI includes:
-    1. **Pipeline times**: currently we are at about [20 minutes average pipeline time](https://app.periscopedata.com/app/gitlab/561277/WIP:-www.gitlab.com-CI-CD-Pipeline-Metrics). There are some work items that we need to see in the review app (anything requiring a data file), which means it can take **20 minutes to validate a change**.
+    1. **Pipeline times**: currently we are at about 20 minutes average pipeline time. There are some work items that we need to see in the review app (anything requiring a data file), which means it can take **20 minutes to validate a change**.
     1. **Merge train times**: since we work in a shared repository with the handbook that receives so many MRs so often, our work ends up in long merge trains. Looking at a [recent production deploy on `2021-07-23`](https://gitlab.com/gitlab-com/www-gitlab-com/-/merge_requests/86942), this MR took closer to **40 minutes to go live**.
     1. **Development feedback loop**: running the Middleman preview server (our local development environment) by itself can take **3 full minutes to reload changes** to our codebase. We implemented a monkey patch on Middleman to cut that down, and reduced it to 46 seconds. [Benchmarks here](https://gitlab.com/tywilliams/worknotes/-/tree/master/middleman_improvement_profiling). But the monkey patch doesn’t work on data-driven routes, so as we move more and more content into Netlify CMS, we spend more and more time waiting on three-minute refreshes in development. 
 1. Decreasing size of Marketing site repository to ensure stability

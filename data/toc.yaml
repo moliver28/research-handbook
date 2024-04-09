@@ -54,8 +54,8 @@
         url: /handbook/company/pricing
     - name: Creator pairing
       url: /handbook/engineering/development/director-shadow-program
-    - name: Chief of Staff Team to the CEO
-      url: chief-of-staff-team
+    - name: Office of the CEO
+      url: office-of-the-ceo
     - name: Key Reviews
       url: key-review
     - name: Group Conversations
@@ -76,10 +76,8 @@
     url: changelog
   - name: Handbook Roadmap
     url: /handbook/about/roadmap
-  - name: Handbook Support
-    url: /content/handbook/about/support.md
-  - name: Handbook On-Call
-    url: /content/handbook/about/on-call.md
+  - name: Handbook Escalation
+    url: /handbook/about/on-call.md
   - name: Handbook Usage
     url: handbook-usage
   - name: Contribution Guide
@@ -160,7 +158,7 @@
   url: /handbook/engineering/
   links:
   - name: Customer Support Department
-    url: /content/handbook/support/_index.md
+    url: /handbook/support/_index.md
   - name: Development Department
     url: /handbook/engineering/development/
     links:

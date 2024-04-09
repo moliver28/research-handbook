@@ -93,11 +93,13 @@ The following table indexes all of the RAW data sources we are loading into the 
 | [Adaptive](https://www.adaptiveplanning.com/) | Airflow | `adaptive_custom` | x | Finance |  | Yes | Tier 2 |
 | [Adobe / Bizible](https://experienceleague.adobe.com/docs/bizible/using/home.html) | Airflow | `bizible` | `sensitive` | Marketing | 24h / 36h | No | Tier 2 |
 | [Airflow](https://airflow.apache.org/) | Stitch | `airflow_stitch` | `airflow` | Data Team | 24h / 24h | No | Tier 3 |
+| [AWS Billing](https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/billing-what-is.html) | Snowflake external tables | `aws_billing` | `aws_billing` | Engineering | 24h / 24h | No | Tier 2 |
 | [BambooHR](https://www.bamboohr.com/) | Airflow | `bamboohr` | `sensitive` | People | 12h / 24h | No | Tier 2 |
 | [Clari](https://www.clari.com/) | Airflow | `clari` | `clari` | Sales | 24h / 24h | Yes | Tier 2 |
 | [Clearbit](https://clearbit.com/) | x | x | x | x / x |  | No | Tier 3 |
 | [CustomersDot](https://internal.gitlab.com/handbook/enterprise-data/platform/pipelines/#gitlab-customer-dot-database) [ERD](https://gitlab.com/gitlab-org/customers-gitlab-com/-/blob/staging/doc/db_erd.pdf) | pgp | `tap_postgres` | `customers` | Product | 24h / x | No | Tier 1 |
 | [Demandbase](https://www.demandbase.com/) | Snowflake task | `demandbase` | `demandbase` | Marketing | 24h / x | No | Tier 2 |
+| [Elastic Search Billing](https://www.elastic.co/guide/en/cloud/current/Billing_Costs_Analysis.html) | Airflow | `elasticsearch_billing` | `elastic_billing` | Engineering | 24h / 24h | No | Tier 2 |
 | [Facebook_ads](https://www.facebook.com/business/ads) | Fivetran | `facebook_ads` | `facebook_ads` | Marketing | 24h / 48h | No | Tier 3 |
 | [Gainsight Customer Success](https://gitlab.gainsightcloud.com/v1/ui/home) | Fivetran | `gainsight_customer_success` | `gainsight_customer_success` | Customer Success | 24h / 48h | No | Tier 3 |
 | [GitLab.com](https://internal.gitlab.com/handbook/enterprise-data/platform/pipelines/saas-gitlab-com/) | pgp | `tap_postgres` | `gitlab_dotcom` | Product, Engineering | 12h / 55h | No | Tier 1 |
@@ -142,6 +144,7 @@ The following table indexes all of the RAW data sources we are loading into the 
 | [Zuora](https://www.zuora.com/) | Stitch | `zuora_stitch` | `zuora` | Finance | 6h / 24h | Yes | Tier 1 |
 | [Zuora API Sandbox](https://www.zuora.com) | Stitch | `zuora_api_sandbox_stitch` | `Legacy` | Finance | 24h / 24h | Yes | Tier 3 |
 | [Zuora Central Sandbox](https://www.zuora.com/) | Fivetran | `zuora_central_sandbox_fivetran` | `zuora_central_sandbox` | Finance Sandbox | - | Yes | Tier 3 |
+| [Zuora Developer Sandbox](https://www.zuora.com/) | Fivetran | `zuora_dev_sandbox_fivetran` | `TBD` | Finance Sandbox | - | Yes | Tier 3 |
 | [Zuora Data Query](https://knowledgecenter.zuora.com/Zuora_Central_Platform/Query/Data_Query/A_Overview_of_Data_Query#Using_Data_Query)| Airflow | `zuora_query_api`| `zuora_query_api`|Finance | 24h / 48h | Yes | Tier 1 |
 | [Zuora Revenue](https://knowledgecenter.zuora.com/Zuora_Revenue) | Airflow | `zuora_revenue` | `zuora_revenue` | Finance | 24h / 48h | Yes | Tier 1 |
 
@@ -391,6 +394,134 @@ Here are the proper steps for deprovisioning existing user:
 
 For more information, watch this [recorded pairing session](https://youtu.be/-vpH0aSeO9c) (must be viewed as GitLab Unfiltered).
 
+## Snowflake Provisioning Automation
+
+In FY25-Q1, we are moving towards semi-automating the above `Managing Roles for Snowflake` process.
+
+The rest of the section is meant to describe the automated process in more detail.
+Please see the runbook link if you're looking for specific step-by-step instructions to run this process: **WIP**.
+
+The main processes to automate are:
+- create/remove users from Snowflake platform
+- update `roles.yml` which is used by Permifrost to update permissions for roles/users
+
+
+### Automate create/remove users from Snowflake platform
+
+WIP
+
+### Automating roles.yml
+
+On a high level, add/remove users from `roles.yml` via python script, based on the git diff in [`snowflake_usernames.yml`](https://gitlab.com/gitlab-data/analytics/-/blob/master/permissions/snowflake/snowflake_usernames.yml).
+
+The `update_roles_yaml.py` script can be run like so:
+- locally in MR branch
+    - make command: `make update_roles`
+    - like a regular python script, i.e `python .../update_roles_yaml.py`
+- via CI job (WIP)
+
+#### Automating roles.yml: Default vs non-default values
+
+`roles.yml` has 3 main keys:
+- databases
+- users
+- roles
+
+For each new user, a default value is added for 2/3 keys (no default value for databases):
+```yml
+# `roles` default value
+- user1:
+    member_of:
+        - snowflake_analyst
+    warehouses:
+        - dev_xs
+
+# `users` default value
+- user1:
+    can_login: yes
+    member_of:
+        - user1
+
+# `databases`: no default value
+```
+
+For each of the arguments, non-default values can be used instead as well:
+- `--usernames-to-add`: instead of using the git diff, you can pass in usernames like so `--usernames-to-add username1 username2`
+- `--usernames-to-remove`: instead of using the git diff, you can pass in usernames like so `--usernames-to-remove username1 username2`
+- `--databases-template, --roles-template, --users-template`: you can pass in a valid JSON as a string, please see more details in the next section.
+
+#### Automating roles.yml: Custom Template Arguments
+
+This is useful if you have many users that need a value different from the default. One option would be to run with the default values, and then manually update the MR, but depending on the number of users to update, a potentially better option is to pass in a custom values template.
+
+The rest of the section will do two things:
+1. Explain how templates work
+1. For convenience, provide custom templates that represent current values in `roles.yml`
+
+To illustrate how templates work, let's start with an example. This is the default *users template*:
+```json
+{
+  "{{ username }}": {
+    "can_login": true,
+    "member_of": [
+      "{{ username }}"
+    ]
+  }
+}
+```
+
+This is valid JSON, but note that it is **templated**. That is, `{{ username }}` is a Jinja template, and the template will be later rendered to an actual value within the script.
+
+Currently, these are the available template-able values that will be rendered:
+- `{{ username }}`
+- `{{ prod_db }}`
+- `{{ prep_db }}`
+- `{{ prod_schemas }}`
+- `{{ prep_schemas }}`
+- `{{ prod_tables }}`
+- `{{ prep_tables }}`
+
+To use the example template above, you would pass it in as a string like so:
+```
+python ./update_roles_yaml.py \
+--users-template '{"{{ username }}": {"can_login": true, "member_of": ["{{ username }}"]}}'
+```
+
+#### Automating roles.yml: Common Templates
+
+This section is meant to provide custom templates (non-default values) that represent common-occurring values in `roles.yml` that can be copy/pasted for use.
+
+
+- *Default* denotes that this is the template used if not explicitly overridden.
+- *Common* denotes that while the template is not used by default, these values are still commonly used within roles.yml
+
+##### Databases
+
+- Default: None
+- Common: create a personal prep/prod database for each user:
+    ```sh
+    --databases-template '[{"{{ prod_database }}": {"shared": false}}, {"{{ prep_database }}": {"shared": false}}]'
+    ```
+
+##### Roles
+
+- Default:
+    ```sh
+    --roles-template '{"{{ username }}": {"member_of": ["snowflake_analyst"], "warehouses": ["dev_xs"]}}'
+    ```
+- Common- create a role for a data engineer:
+    ```sh
+    --roles-template '{"{{ username }}": {"member_of": ["engineer","restricted_safe"],"warehouses": ["dev_xs","dev_m","loading","reporting"],"owns": {"databases": ["{{ prep_database }}","{{ prod_database }}"],"schemas": ["{{ prep_schemas }}","{{ prod_schemas }}"],"tables": ["{{ prep_tables }}","{{ prod_tables }}"]},"privileges": {"databases": {"read": ["{{ prep_database }}","{{ prod_database }}"],"write": ["{{ prep_database }}","{{ prod_database }}"]},"schemas": {"read": ["{{ prep_schemas }}","{{ prod_schema }}"],"write": ["{{ prep_schemas }}","{{ prod_schema }}"]},"tables": {"read": ["{{ prep_tables }}","{{ prod_tables }}"],"write": ["{{ prep_tables }}","{{ prod_tables }}"]}}}}'
+    ```
+
+##### Users
+
+- Default:
+    ```sh
+    --users-template '{"{{ username }}": {"can_login": true, "member_of": ["{{ username }}"]}}'
+    ```
+- Common: n/a
+
 #### Provisioning permissions to external tables to user roles
 
 Provisioning USAGE permissions for external tables to user roles inside snowflake is not handled by permifrost in the moment. If you have to provision access for an external table to a user role, then it must be granted manually via GRANT command in snowflake(docs)[https://docs.snowflake.com/en/sql-reference/sql/grant-privilege] using a `securityadmin` role. This implies that the user role already has access to the schema and the db in which the external table is located, if not add them to the [roles.yml](https://gitxlab.com/gitlab-data/analytics/-/blob/master/permissions/snowflake/roles.yml).
@@ -401,7 +532,7 @@ When you apply for a Snowflake account via an AR and get access provisioned it t
 
 When you don’t select the right role in Snowflake, you only see the following Snowflake objects:
 
-![object_list](/handbook/business-technology/data-team/platform/object_list_snowsight.png) 
+![object_list](/handbook/business-technology/data-team/platform/object_list_snowsight.png)
 
 Selecting the right role can be done via the GUI.
 When in Snowsight home screen, in the up left corner.
@@ -417,8 +548,8 @@ When in Snowsight in a worksheet, in the up right corner.
 ![select_role](/handbook/business-technology/data-team/platform/select_role2.png)
 
 1. Click on `public`
-2. Select your role 
-  
+2. Select your role
+
 You can set this to your default by running the following:
 
 `ALTER USER <YOUR_USER_NAME> SET DEFAULT_ROLE = '<YOUR_ROLE>'`
@@ -435,7 +566,7 @@ To use our credit consumption effectively, we try to minimize the amount of ware
 | `gainsight_xs`       | This is used for gainsight data pump                                                            | 30                  |
 | `gitlab_postgres`    | This is for extraction jobs that pull from GitLab internal Postgres databases                   | 10                  |
 | `grafana`            | This is exclusively for Grafana to use                                                          | 60                  |
-| `loading`            | This is for our Extract and Load jobs and testing new Meltano loaders                           | 60                  |
+| `loading`            | This is for our Extract and Load jobs and testing new Meltano loaders                           | 120                  |
 | `reporting`          | This is for the BI tool for querying.           | 30*                 |
 | `transforming_xs`    | These are for production dbt jobs                                                               | 180                 |
 | `transforming_s`     | These are for production dbt jobs                                                               | 180                 |
@@ -492,7 +623,7 @@ All databases not defined in our [`roles.yml`](https://gitlab.com/gitlab-data/an
 | prep | No |
 | prod | Yes |
 
-Only the `prod` database should be used in Tableau as this data has been transformed and modeled for business use. Using `raw` and `prep` databases in Tableau could result in incorrect data and or broken queries/dashboards now or in the future. Important to keep in mind that data transformations are checked and tested only for the `prod` database results. This means if dashboards are directly connected to the raw or `prep` database it could break or report wrong data. 
+Only the `prod` database should be used in Tableau as this data has been transformed and modeled for business use. Using `raw` and `prep` databases in Tableau could result in incorrect data and or broken queries/dashboards now or in the future. Important to keep in mind that data transformations are checked and tested only for the `prod` database results. This means if dashboards are directly connected to the raw or `prep` database it could break or report wrong data.
 
 #### Raw
 
@@ -864,7 +995,7 @@ The Qualtrics mailing list data pump process, also known in code as `Qualtrics S
 
 During the process, the Google Sheet is updated to reflect the process' status.  The first column's name is set to `processing` when the process begins, and then is set to `processed` when the mailing list and contacts have been uploaded to Qualtrics.  Changing the column name informs the requester of the process' status, assists in debugging, and ensures that a mailing list is only created once for each spreadsheet.
 
-The end user experience is described on the [UX Qualtrics page](/handbook/product/ux/qualtrics/#distributing-your-survey-to-gitlabcom-users).
+The end user experience is described on the [UX Qualtrics page](/handbook/product/ux/ux-research/surveys/qualtrics/#distributing-your-survey-to-gitlabcom-users).
 
 ##### Debugging to Qualtrics Processes
 

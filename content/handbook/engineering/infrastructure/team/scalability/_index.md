@@ -47,26 +47,6 @@ The following people are members of the [Scalability:Practices team](./practices
 
 {{< team-by-manager-slug "kwanyangu" >}}
 
-### Transition
-
-The group was restructured in November 2023 and was previously formed of the following teams:
-
-#### Scalability:Frameworks
-
-The Frameworks team creates standard ways to use and scale the various services and technologies used at GitLab, with a particular focus on enabling other development teams to support their own growth. This is akin to Platform Engineering.
-
-For example, with Redis, we are creating more and more instances now and it’s at the point where teams should have the ability to know when they need a custom instance, and how to put one in place. Similarly, with Object Storage, this is a component that is widely used but the usage is not consistent. We can help the development teams become more efficient by providing a structure over this storage.
-
-More information on Frameworks is available on the [team page](/handbook/engineering/infrastructure/team/scalability/frameworks.html).
-
-#### Scalability:Projections
-
-This team focuses on observability, forecasting & projection systems that enable development engineering to predict
-system growth for their areas of responsibility. Error Budgets and Stage Group Dashboards are examples of successful
-projects that have provided development teams information about how their code runs on our SaaS platforms.
-
-More information on Projections is available on the [team page](./projections.html).
-
 ## Mission
 
 The **Scalability group** is responsible for GitLab at scale, working on the highest priority scaling items related to our SaaS platforms.

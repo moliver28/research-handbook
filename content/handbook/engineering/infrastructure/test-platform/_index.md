@@ -1,6 +1,6 @@
 ---
 title: "Test Platform Sub-Department"
-description: "Test Platform Sub-Department"
+description: "Test Platform Sub-Department enables successful development and deployment of high quality GitLab software applications by providing innovative build automated solutions, reliable tooling, refined test efficiency, and fostering an environment where Quality is Everyone's responsibility."
 ---
 
 ## Child Pages
@@ -180,7 +180,7 @@ Feel free to reach out to us by opening an issue on the [Quality Team Tasks proj
 
 ### Management team
 
-{{< team-by-manager-role role="Interim Director, Test Platform" team="Manager" >}}
+{{< team-by-manager-role role="Director, Test Platform" >}}
 
 ### Individual contributors
 
@@ -345,18 +345,17 @@ If you need to debug a test failure, please visit our [debugging QA pipeline tes
 The Test Platform Sub-Department follows a regulation processes for ensuring efficient and consistent management of projects with clear guidelines.
 For more information, please visit our [project management page](project-management).
 
-## ChatOps for Quality
+## ChatOps for Test Platform
 
 The Test Platform Sub-Department maintains [ChatOps](https://docs.gitlab.com/ee/development/chatops_on_gitlabcom.html) commands
-for Quality department which provides quick access to various information on Slack. These commands can be run on any Slack channel that has
-the GitLab ChatOps bot such as the [#test-platform](https://slack.com/app_redirect?channel=C3JJET4Q6) and [#chat-ops-test](https://slack.com/app_redirect?channel=CB2S7NNDP) channels.
+for Test Platform sub-department which provides quick access to various information on Slack. These commands can be run on any Slack channel that has the GitLab ChatOps bot such as the [#test-platform](https://slack.com/app_redirect?channel=C3JJET4Q6) and [#chat-ops-test](https://slack.com/app_redirect?channel=CB2S7NNDP) channels.
 
 Commands that are currently available are:
 
 | Command                              | Description |
 | ------------------------------------ | ----------- |
 | `/chatops run quality dri schedule`  | Lists the current schedule for [on-call rotation](oncall-rotation) |
-| `/chatops run quality dri report`    | Show current and previous Quality pipeline triage reports |
+| `/chatops run quality dri report`    | Show current and previous Test Platform pipeline triage reports |
 | `/chatops run quality dri incidents` | Lists currently active and mitigated incidents |
 
 For more information about these commands you can run:

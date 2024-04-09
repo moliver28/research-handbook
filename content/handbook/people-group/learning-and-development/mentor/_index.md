@@ -25,7 +25,7 @@ Team members have multiple options to participate in mentorship at GitLab.
 
 ### Results
 
-In FY23 Q1, mentees in current organized mentorship programs reported the affect their mentorship had business and personal results. 17% of mentees completed the survey.
+In FY23 Q1, 17% of mentees in current organized mentorship programs completed a survey and reported the effects of the mentorship on business and personal results.
 
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSQo5yL0DOCgaAQWwXaIYHfb20pGIxlkzkxBB_xgU-rEsNkNa4U1NxevaCIQRZrgExrSQecEng50Kmy/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
@@ -35,7 +35,7 @@ In FY23 Q1, mentees in current organized mentorship programs reported the affect
 
 1. Be encouraged to prioritize, and be held accountable for, your [career development]({{< ref "career-development" >}})
 1. Learn new skills related to your current role, your future career goals, or an area that you're passionate about
-1. Set and reach clearly outlined [goals]({{< ref "/handbook/company/okrs" >}}).
+1. Set and reach clearly outlined [goals](/handbook/company/okrs).
 
 ### Benefits for the mentor
 
@@ -219,7 +219,7 @@ These resources are meant to provide both mentors and mentees with additional pe
 {{< youtube "u4kTlK5mUHc" >}}
 
 1. The [Engineering department](/handbook/engineering/) outlines [strategies for mentors and mentees](/handbook/engineering/career-development/mentoring/) with suggestions on how to host meetings and set and evaluate goals.
-1. The [Support team]({{< ref "/handbook/support" >}}) has outlined expectations and examples on [Mentorship in Support Engineering]({{< ref "/handbook/support/engineering/mentorship" >}}).
+1. The [Support team](/handbook/support) has outlined expectations and examples on [Mentorship in Support Engineering](/handbook/support/engineering/mentorship).
 1. [Career growth resources at GitLab]({{< ref "career-development" >}})
 1. [Harvard Business Review: What efficient mentorship looks like](https://hbr.org/2020/08/what-efficient-mentorship-looks-like)
 1. [Harvard Business Review: What great mentorship looks like in a hybrid workplace](https://hbr.org/2021/05/what-great-mentorship-looks-like-in-a-hybrid-workplace)
@@ -240,7 +240,7 @@ Is this your first mentorship at GitLab? Maybe it's your first time as a mentor.
 
 ## How to organize an all-remote mentorship program
 
-Consider the following practices and lessons learned by the GitLab team when organizing your own all-remote mentorship program. [Open a Merge Request]({{< ref "/handbook/handbook-usage" >}}) to contribute your own learning to list!
+Consider the following practices and lessons learned by the GitLab team when organizing your own all-remote mentorship program. [Open a Merge Request](/handbook/handbook-usage) to contribute your own learning to list!
 
 1. Share call for applications across multiple channels and do direct outreach to great mentors for the best engagement. Lean on People Business Partners for suggestions of team members who would make great mentors and mentees.
 1. In applications, ask for role, location, and mentorship focus area, along with ideal goals. Use multiple choice questions to easily sort and pair responses.

@@ -93,3 +93,4 @@ To be added once the project is complete
 | Member             | Georgi N. Georgiev | Senior Backend Engineer, Verify                 |
 | Advisor            | Greg Myers         | Security Engineer, Application Security         |
 | Advisor            | Ottilia Westerlund       | Security Engineer, Application Security         |
+| Advisor            | Paul McCarty       | Security Engineer, Red Team                     |

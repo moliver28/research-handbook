@@ -98,12 +98,6 @@ experience = f(perceived performance, task completion)
   {{< tableau/filters "GROUP_LABEL"="code review" >}}
 {{< /tableau >}}
 
-#### MRs and Issues Without Types
-
-In addition to the above dashboard, here are search links to ensure our MRs and Issues have the correct types:
-
-{{< sisense chart="15814629" dashboard="786869" >}}
-
 ### Exploration and experimentation
 
 The Code Review group believes it's important that team members are empowered to explore and experiment with areas of the product that interest them. Sometimes, the best way to get the conversation started is [with a merge request](/handbook/communication/#start-with-a-merge-request).

@@ -24,15 +24,9 @@ To see what training is coming soon, view the [Field Enablement Spotlight issue 
 
 | DATE   | TOPIC | SPEAKERS |
 |--------|--------|--------|
-| Feb 22 | TBD | TBD  |
-| Feb 29 | GitLab University Launch | Learning & Development Team |
-| Mar 7 | Discovering Agile Planning Opportunities | SA Team  |
-| Mar 14 | **No Session - Summit** |  |
-| Mar 21 | Product Marketing Update | Marketing  |
-| Mar 28 | FY25-Q1 Revenue Play: GitLab Dedicated | Marketing  |
 | Apr 4 | FY25-Q1 - Partner Sales Update | Partner Sales Team |
 | Apr 11 | Cloud Licensing Exemptions Update  | Deal Desk Team |
-| Apr 18 | *No session during the last week of the quarter* | N/A |
+| Apr 18 | FY25-Q1 Competitive Update | Marketing |
 | Apr 25 | *No session during the last week of the quarter* | N/A |
 
 
@@ -44,8 +38,12 @@ To see what training is coming soon, view the [Field Enablement Spotlight issue 
 
 | **Date** | **Topic** | **Public or Private** |
 | ------ | ------ | ------ |
+| 2024-03-27 | **[Success Plan Services](https://drive.google.com/file/d/1R3aA-aOMSwoMYAIG8B-plxoS-QJYi76u/view?usp=drive_link)** | Private  |
+| 2024-03-28 | **[FY25-Q1 Revenue Play: GitLab Dedicated](https://drive.google.com/file/d/1qUhi8UKnCmz7B9ItdjrYo_22IJqMI9I3/view?usp=drive_link)** | Private  |
+| 2024-03-07 | **[Discovering Agile Planning Opportunities](https://drive.google.com/file/d/1CIU6H-nTi3IYuGIET3dWfBV8X-m0w-YS/view?usp=drive_link)** | Private  |
+| 2024-02-29 | **[GitLab University Launch](https://drive.google.com/file/d/1C8fg_QMf-2F-QUOKiEj3MFiZvulape_X/view?usp=drive_link)** | Private |
 | 2024-02-15 | **[FY25 Deal Approval Matrix Changes](https://drive.google.com/file/d/1nNuSV6JwmcJfr1htco65czqtjeuU_jlM/view?usp=drive_link)** | Private  |
-| 2024-02-08 | **[Tools to Help You Win: SafeBase](https://drive.google.com/file/d/1QQ931l5ST8fJl8Ce4oNsbNE-Ux3k7CeR/view?usp=drive_link)** | Field Security |
+| 2024-02-08 | **[Tools to Help You Win: SafeBase](https://drive.google.com/file/d/1QQ931l5ST8fJl8Ce4oNsbNE-Ux3k7CeR/view?usp=drive_link)** | Private |
 | 2024-02-01 | **[Tools to Help You Win: ZoomInfo Overview](https://drive.google.com/file/d/1c2iyOWA6RFfNfZeCxEbfaWEI6fs3lp47/view?usp=drive_link)** | Private |
 | 2023-12-14 | **[Code Suggestions GTM Launch Overview](https://drive.google.com/file/d/1NRqKjVdznClZNT2mFqdP7aYHkmSyfyCA/view?usp=drive_link)** | Private |
 | 2023-11-30 | **[Winning with Professional Services: Customer Stories](https://drive.google.com/file/d/1LkNyGpygFHpVY_b-6_nkY3m109lNqmb9/view?usp=drive_link)** | Private |
@@ -214,7 +212,7 @@ To get a calendar invite to the weekly Field Enablement Spotlight, make sure you
 - SDR Team `sdr@`
 - Marketing team `marketing@`
 
-You can [fill out an access request](/handbook/business-technology/team-member-enablement/onboarding-access-requests/access-requests/) to request access to the email group. These groups are invited to the meeting so that each individual person does not need an invite.
+You can [fill out an access request](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/) to request access to the email group. These groups are invited to the meeting so that each individual person does not need an invite.
 
 ## Training Playlist
 

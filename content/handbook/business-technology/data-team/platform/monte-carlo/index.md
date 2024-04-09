@@ -3,16 +3,6 @@ title: "Monte Carlo Guide"
 description: "Monte Carlo (MC) is our Data Observability tool and helps us deliver better results more efficiently."
 ---
 
----
-
-title: "Monte Carlo Guide"
-description: "Monte Carlo (MC) is our Data Observability tool and helps us deliver better results more efficiently."
----
-
-
----
-
-
 ## What and why
 
 [Monte Carlo](https://www.montecarlodata.com/) (MC) is our [Data Observability](https://www.montecarlodata.com/blog-what-is-data-observability/) tool and helps us **deliver better results more efficiently**.

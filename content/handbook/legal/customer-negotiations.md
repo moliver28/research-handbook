@@ -79,8 +79,7 @@ a valid and authorized partner. Once confirmed by Partner Operations, Legal will
 
 ### Export Review in SFDC
 
-1. If an export notice is presented please tag "@legal" in SFDC Chatter for the account and write "Please review for export compliance."
-1. Once cleared in the export compliance tool, updates will reach SFDC in approximately 10-15 minutes.
+1. Please see the instructions under Trade Compliance in the [Internal Handbook page](https://internal.gitlab.com/handbook/sales/sales-operations/#trade-compliance-navex-risk-rate)
 1. Only Legal can clear the accounts that are flagged by the export compliance tool, please do not tag any other groups for assistance with these requests.
 
 #### RFP Process
@@ -192,7 +191,7 @@ Order Form Process for Sales:
 
 ### Request for a Trial or Evaluation Agreement
 
-All customers that desire free access to GitLab Software should be directed to initiate a [free trial](https://gitlab.com/-/trials/new) for access to the GitLab Software, which is subject to and governed by GitLab’s Subscription Agreement.  A free trial is typically used by a customer for internal evaluation, and, as applicable, may also support a more involved [proof of value](/handbook/customer-success/solutions-architects/tools-and-resources/pov/) guided by GitLab.
+All customers that desire free access to GitLab Software should be directed to initiate a [free trial](https://gitlab.com/-/trials/new) for access to the GitLab Software, which is subject to and governed by GitLab’s Subscription Agreement.  A free trial is typically used by a customer for internal evaluation, and, as applicable, may also support a more involved [proof of value](/handbook/solutions-architects/tools-and-resources/pov/) guided by GitLab.
 
 If a customer declines the trial process and is adamant to have a separate Evaluation Agreement, the sales team member or solutions architect should open a Legal Request to request an Evaluation Agreement with Request Form. The Legal Request should first include a request for approval from the Area Sales Manager or higher and also set forth applicable details to fill out the Request Form, such as customer contact information, length of evaluation, number of users, etc.
 

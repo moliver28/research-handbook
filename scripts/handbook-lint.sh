@@ -88,7 +88,7 @@ BROKEN_OWNERSHIP=""
 sed -n '/^.*\[Controlled-Documents\]/,$p' .gitlab/CODEOWNERS | sed "/\[*\]/d" | sed "/^#/d" | sed '/^[[:space:]]*$/d' | sed "/^*/d" > /tmp/CODEOWNERS
 printf "%b" "${bold}Checking if files have broken ownership...${normal}"
 while read LINE; do
-  if ! echo $LINE | grep -qE "@gitlab-com/handbook|@gitlab-com/egroup"; then
+  if ! echo $LINE | grep -qE "@gitlab-com/content-sites|@gitlab-com/egroup"; then
     ERROR_FOUND=true
     FILE=$(echo $LINE | cut -d " " -f 1)
     BROKEN_OWNERSHIP="$BROKEN_OWNERSHIP- $FILE\n"
@@ -205,7 +205,7 @@ fi
 rm /tmp/CODEOWNERS
 
 if [[ $ERROR_FOUND == "true" ]]; then
-  printf "%b" "\n${bold}${red}Linting Failed!${normal}${bold} - There are a number of isses with CODEOWNERS and/on Controlled Documents.${normal}\n\n"
+  printf "%b" "\n${bold}${red}Linting Failed!${normal}${bold} - There are a number of issues with CODEOWNERS and/on Controlled Documents.${normal}\n\n"
   if [[ $MISSING_FILE_ENTRY != "" ]]; then
     printf "%b" "The following files are listed in CODEOWNERS but don't exist in the repo:\n\n"
     printf "%b" "$MISSING_FILE_ENTRY\n"

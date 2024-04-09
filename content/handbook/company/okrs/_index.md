@@ -219,7 +219,7 @@ Executives shift their focus to finalizing OKRs to their team.
 
 This is also the opportunity to create team OKRs in GitLab and add them to the relevant CEO and executive OKR.
 
-Through the quarter, regular updates by the relevant DRI for Company KRs are expected ahead of [E-group monthly touchpoint meetings]({{< relref "../offsite/_index.md#monthly-touch-point-meetings" >}}). Exact dates for when updates are due are shared in the `#okrs` Slack channel with reminders set 7 days and 1 day before the due date.
+Through the quarter, regular updates by the relevant DRI for Company KRs are expected ahead of [E-group monthly touchpoint meetings](../offsite/_index.md#monthly-touch-point-meetings). Exact dates for when updates are due are shared in the `#okrs` Slack channel with reminders set 7 days and 1 day before the due date.
 
 ### Dependency Commitments
 
@@ -343,7 +343,7 @@ If an OKR is related, but does not score towards the Company KR, edit the descri
 
 To allow for division, department, or team objectives to be added as child objectives or KRs, the Company key results should be created as an objective, not as a key result, as GitLab functionality doesn’t allow for a KR to have child OKRs.
 
-The Chief of Staff Team to the CEO does the following:
+The Office of the CEO does the following:
 
 1. Create the Company objective.
 1. Create the Company key results as child objectives of the Company objective.
@@ -364,7 +364,7 @@ To indicate that a division KR should also show progress of a Company KR, add th
 Do this for all OKRs that contribute to company OKRs.
 However, be careful not to link an OKR to multiple Company KRs.
 
-When this method is used, the Chief of Staff Team to the CEO will update the score manually based on the scoring of all related items.
+When this method is used, the Office of the CEO will update the score manually based on the scoring of all related items.
 
 A hypothetical example where division KRs score directly to division objectives, and should also progress a Company KR:
 

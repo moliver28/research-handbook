@@ -12,7 +12,7 @@ Management of the Learning System is a collaborative effort between Education Se
 
 ### Learning & Development
 
-The L&D team uses Thought Industries to support training for GitLab team members, and in some instances, community members. This is achieved in accordance with our [Purpose, Vision, and Mission.]({{< ref "/handbook/people-group/learning-and-development#mission" >}})
+The L&D team uses Thought Industries to support training for GitLab team members, and in some instances, community members. This is achieved in accordance with our [Purpose, Vision, and Mission.](/handbook/people-group/learning-and-development#mission)
 
 ### Education Services
 
