@@ -4,7 +4,6 @@ This page is part of the Sales Development team's handbook [page](https://handbo
 
 ## Rules Of Engagement (RoE)
 
-
 1. Is the MQL from an Existing Account?
  
 **No:** It is worked by the SDR team <br>
@@ -94,36 +93,33 @@ If the related SDR relays information that was not picked up in the new SDR’s 
 
 | Metric                      | Description                                                            |
 |-----------------------------|------------------------------------------------------------------------|
-| Response Time               | Time taken to respond to inbound leads                                 |
-| Lead Qualification Time     | Time taken to qualify inbound leads and route them appropriately        |
-| Follow-Up Frequency         | Frequency and method of follow-up communication with leads             |
-| Meeting Booking Time        | Time taken to schedule discovery or demo meetings                      |
-| Resolution Time             | Time taken to resolve customer inquiries, issues, or complaints        |
-| Handoff Efficiency          | Smoothness of transition of leads between sales development and sales teams |
-| Time to Sequence            | Time taken to initiate a follow-up sequence for a lead                |
-| Tasks Pending               | Number of pending tasks related to lead management                    |
-| Number of Touches per Lead  | Total number of interactions or touches made with each lead            |
-| High Touch vs. Low Touch Usage | Proportion of high-touch (personalized) vs. low-touch (automated) approaches |
-| Two-Way Connections         | Number of meaningful two-way interactions with leads                   |
-| Personalization Level       | Degree of personalization in communication with leads                  |
+| Response Time for leads            | - Net New MQLs: 15 minutes <br> - Inbound Responses: 8 work hours hours                                  |
+| Low vs High Touch Sequence Usage    | - Over 70% of inbound leads enrolled to High Touch sequences.        |
+| Inbound pasks past due per day        | - No more than 10% of tasks pending per day. <br> - 90% of tasks to be properly completed, not skipped. <br>                       |
+| Two way conversations           | - 50 per week.        |
 
-## Outbound Account Management
+
+### Outbound Account Management
+
+In addition to the above, BDR team members are expected to:
 
 | Metric                      | Description                                                            |
 |-----------------------------|------------------------------------------------------------------------|
-| Response Time               | Time taken to respond to outbound account engagements                  |
-| Account Qualification Time  | Time taken to research and qualify outbound accounts                   |
-| Research Quality            | Level of depth and accuracy in the research conducted on target accounts|
-| Usage of Intent Tools       | Frequency and effectiveness of using intent tools for account research |
-| Meeting Booking Time        | Time taken to schedule discovery or demo meetings with target accounts |
-| Resolution Time             | Time taken to resolve customer inquiries or issues raised by accounts  |
-| Handoff Efficiency          | Smoothness of transition of qualified accounts to sales teams          |
-| Time to Sequence            | Time taken to initiate a follow-up sequence for a qualified account     |
-| Tasks Pending               | Number of pending tasks related to account management                  |
-| Number of Touches per Account | Total number of interactions or touches made with each target account  |
-| High Touch vs. Low Touch Usage | Proportion of high-touch (personalized) vs. low-touch (automated) approaches |
-| Two-Way Connections         | Number of meaningful two-way interactions with target accounts         |
-| Personalization Level       | Degree of personalization in communication with target accounts        |
+| Volume of Actively Working Accounts per Quarter               | 100 AWA'd accounts per BDR per Quarter, measured per Actively Working Start Date. |
+| Research Quality            | >70% usage of Intent tools on AWA'd accounts, with high propensity to purchase indicators showed. |
+| Volume of Prospects per Account | 5-10 prospects sequenced per account, whose titles and personas match our ICPs. |
+
+## PTO and Flexible Working
+
+### Sales Development Organization Time Off
+
+In accordance with the [Time Off Policy](https://handbook.gitlab.com/handbook/paid-time-off/#a-gitlab-team-members-guide-to-time-off), you need give your manager a heads up early of your intended time off so that they can help arrange cover for your tasks, if necessary.
+
+We want to help our team members being able to fully unplug from work during their PTO, while not having to worry about their workload or target attainment. Based on this, we have created this PTO Territory Planning Issue that you can use to strategize your work and be aligned to the GitLab value of being a [Manager of One.](https://handbook.gitlab.com/handbook/leadership/#managers-of-one)
+
+To log a PTO Territory Planning request, please go to the Issue list on the SDR GitLab project [here](https://gitlab.com/gitlab-com/marketing/sdr/-/issues/new#) and choose PTO_Coverage_Template from the Description drop-down list.All of these requests are then managed through the board here. and all next steps and guidelines are on the issue description.
+
+
 
 
 
