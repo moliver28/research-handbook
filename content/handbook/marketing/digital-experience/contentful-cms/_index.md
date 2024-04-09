@@ -5,14 +5,9 @@ description: "Editing and creating content using Contentful"
 ---
 
 
-
-## Contentful Guide
-
-The Digital Experience team is currently migrating the [marketing site](https://about.gitlab.com/) to our new CMS tool, Contentful. This work is ongoing throughout FY24Q4 and into the new year, but we are starting to onboard different teams onto Contentful so that they may self-serve their own content changes. 
-
 ## What is Contentful?
 
-Contentful is a Content Management System. It replaces all of the text files in our marketing site (such as events.yml) and replaces them with different Content Entries. Contentful also has a Media Library, where we are moving our images. 
+The Digital Experience team is currently migrating the [marketing site](https://about.gitlab.com/) to our new CMS tool, Contentful. Contentful is a Content Management System - it replaces all of the text files in our marketing site and replaces them with different Content Entries. Contentful also has a Media Library, where we are moving our images. 
 
 ### Contentful terminology
 
@@ -78,10 +73,9 @@ We have various levels of access in Contentful. Most new members that are invite
 - *Creator*: can create and edit all content in a space (aside from `Confidential` content), but cannot publish it.
 - *Publisher*: can create, edit, publish, archive and delete all content in a space (aside from `Confidential` content). This person should be able to administer their own team.
 
-
 ## Resources for learning 
 
-1. [Training Resources for Contentful](/handbook/marketing/digital-experience/contentful-cms/editing-content)
+1. [Editing Content](/handbook/marketing/digital-experience/contentful-cms/editing-content)
 2. [Custom Pages](/handbook/marketing/digital-experience/contentful-cms/custom-pages)
 2. [Solutions Pages](/handbook/marketing/digital-experience/contentful-cms/solutions-pages)
 4. [Caveats and Feature Wishlist](/handbook/marketing/digital-experience/contentful-cms/wishlist)
