@@ -6,7 +6,7 @@ description: "Editing and creating content using Contentful"
 
 
 
-# Contentful Guide
+## Contentful Guide
 
 The Digital Experience team is currently migrating the [marketing site](https://about.gitlab.com/) to our new CMS tool, Contentful. This work is ongoing throughout FY24Q4 and into the new year, but we are starting to onboard different teams onto Contentful so that they may self-serve their own content changes. 
 
@@ -47,6 +47,7 @@ If you'd like to make changes to a page that typically is managed by another tea
 #### Table of page ownership
 
 | Team | Pages/Sections |
+| ------ | ------ |
 | CMSO - Chief of Staff |Company Announcements |
 | Marketing Operations and analytics - Globalization & Localization | Marketing site localization |
 | Integrated Marketing - Digital Strategy | SEO |
@@ -66,6 +67,17 @@ Contentful is great tool for making small updates to the content on any given pa
 - If you are a team that typically manages the content on the page in question, you should feel empowered to make the change and publish your changes. 
 - If you're changing content on a page that typically doesn't belong to you but is an obvious mistake, please also go ahead and publish your changes.
 - If you're making a change on a page that affects the tone of the page and are not an owner, please tag someone from the presiding team in the contentful comments section (or in an issue/MR/slack) prior to publishing your changes. This is not typically the Digital Experience team, but rather the relevant team that owns that content. We have created a rough table of ownership [here](#table-of-page-ownership) to be used as a guide. 
+
+### Roles and Permissions
+
+We have various levels of access in Contentful. Most new members that are invited to the CMS are given Creator access, which allows them to edit content without publishing it. To get upgraded to Publisher access, please [reach out to the digital experience team](#requesting-assistance-from-digital-experience) in slack.
+
+- *Administrator*: has full access to everything in the space.
+- *CMS Administrator*: can create, read, update, publish, and delete all content aside from `Confidential` entries. Can modify space settings, access existing API keys, and can create and update API keys.
+- *Confidential*: can create, edit, publish, archive and delete all content in a space, including `Confidential` content.
+- *Creator*: can create and edit all content in a space (aside from `Confidential` content), but cannot publish it.
+- *Publisher*: can create, edit, publish, archive and delete all content in a space (aside from `Confidential` content). This person should be able to administer their own team.
+
 
 ## Resources for learning 
 
