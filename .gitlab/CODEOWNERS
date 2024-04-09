@@ -51,7 +51,7 @@
 /content/handbook/company/ @sytses @streas @gitlab-com/egroup
 /content/handbook/company/history.md @sytses
 /content/handbook/company/okrs/ @streas
-/content/handbook/company/quote-to-cash.md @justinfarris @ofernandez2 @tgolubeva @courtmeddaugh @alex_martin @vincywilson @jackib @chloeliu @jeromezng @jameslopez @csouthard @rhardarson @isandin @shreyasagarwal @jrabbits @NabithaRao @sbaranidharan @jesssalcido @iweeks @lwhelihan @s_mccauley @annapiaseczna @andrew_murray @msubramanian
+/content/handbook/company/quote-to-cash.md @justinfarris @ofernandez2 @tgolubeva @courtmeddaugh @alex_martin @vincywilson @jackib @chloeliu @jeromezng @jameslopez @csouthard @rhardarson @isandin @shreyasagarwal @jrabbits @NabithaRao @sbaranidharan @iweeks @s_mccauley @annapiaseczna @andrew_murray @msubramanian
 /content/handbook/company/stewardship.md @sytses
 /content/handbook/company/strategy.md @sytses
 /content/handbook/group-conversations.md @streas
@@ -284,30 +284,30 @@
 
 # This is the required approvals LACA section
 [Legal-and-Corporate-Affairs-approval-required]
-/content/handbook/legal/acceptable-use-policy.md @robin @rnalen @ktesh @m_taylor @gitlab-com/egroup
-/content/handbook/legal/agile-planning-terms.md @robin @rnalen @ktesh @m_taylor @gitlab-com/egroup
-/content/handbook/legal/ai-functionality-terms.md @robin @rnalen @ktesh @m_taylor @gitlab-com/egroup
-/content/handbook/legal/api-terms.md @robin @rnalen @ktesh @m_taylor @gitlab-com/egroup
-/content/handbook/legal/data-processing-agreement.md @robin @rnalen @ktesh @m_taylor @gitlab-com/egroup
-/content/handbook/legal/dmca.md @robin @rnalen @ktesh @m_taylor @gitlab-com/egroup
-/content/handbook/legal/education-agreement.md @robin @rnalen @ktesh @m_taylor @gitlab-com/egroup
-/content/handbook/legal/opensource-agreement.md @robin @rnalen @ktesh @m_taylor @gitlab-com/egroup
-/content/handbook/legal/policies/website-terms-of-use.md @robin @rnalen @ktesh @m_taylor @gitlab-com/egroup
-/content/handbook/legal/professional-services-agreement.md @robin @rnalen @ktesh @m_taylor @gitlab-com/egroup
-/content/handbook/legal/reseller-agreement.md @robin @rnalen @ktesh @m_taylor @gitlab-com/egroup
-/content/handbook/legal/subscription-agreement/index.md @robin @rnalen @ktesh @m_taylor @gitlab-com/egroup
-/content/handbook/legal/technology-partner-agreement.md @robin @rnalen @ktesh @m_taylor @gitlab-com/egroup
-/content/handbook/legal/testing-agreement.md @robin @rnalen @ktesh @m_taylor @gitlab-com/egroup
+/content/handbook/legal/acceptable-use-policy.md @robin @ktesh @m_taylor @gitlab-com/egroup
+/content/handbook/legal/agile-planning-terms.md @robin @ktesh @m_taylor @gitlab-com/egroup
+/content/handbook/legal/ai-functionality-terms.md @robin @ktesh @m_taylor @gitlab-com/egroup
+/content/handbook/legal/api-terms.md @robin @ktesh @m_taylor @gitlab-com/egroup
+/content/handbook/legal/data-processing-agreement.md @robin @ktesh @m_taylor @gitlab-com/egroup
+/content/handbook/legal/dmca.md @robin @ktesh @m_taylor @gitlab-com/egroup
+/content/handbook/legal/education-agreement.md @robin @ktesh @m_taylor @gitlab-com/egroup
+/content/handbook/legal/opensource-agreement.md @robin @ktesh @m_taylor @gitlab-com/egroup
+/content/handbook/legal/policies/website-terms-of-use.md @robin @ktesh @m_taylor @gitlab-com/egroup
+/content/handbook/legal/professional-services-agreement.md @robin @ktesh @m_taylor @gitlab-com/egroup
+/content/handbook/legal/reseller-agreement.md @robin @ktesh @m_taylor @gitlab-com/egroup
+/content/handbook/legal/subscription-agreement/index.md @robin @ktesh @m_taylor @gitlab-com/egroup
+/content/handbook/legal/technology-partner-agreement.md @robin @ktesh @m_taylor @gitlab-com/egroup
+/content/handbook/legal/testing-agreement.md @robin @ktesh @m_taylor @gitlab-com/egroup
 /content/job-families/legal-and-corporate-affairs/ @robin
 # The second part of the LACA section is for the legacy agreement pages.
-/content/handbook/legal/ai-functionality-terms-v1.md @robin @rnalen @ktesh @m_taylor @gitlab-com/egroup
-/content/handbook/legal/legacy/legacy-ospa-v1.md @robin @rnalen @ktesh @m_taylor @gitlab-com/egroup
-/content/handbook/legal/legacy/legacy-psa-v1.md @robin @rnalen @ktesh @m_taylor @gitlab-com/egroup
-/content/handbook/legal/legacy/legacy-subscription-agreement-v2.md @robin @rnalen @ktesh @m_taylor @gitlab-com/egroup
-/content/handbook/legal/legacy/legacy-subscription-agreement-v3.md @robin @rnalen @ktesh @m_taylor @gitlab-com/egroup
-/content/handbook/legal/legacy/legacy-subscription-agreement-v4.md @robin @rnalen @ktesh @m_taylor @gitlab-com/egroup
-/content/handbook/legal/testing-agreement-v1.md @robin @rnalen @ktesh @m_taylor @gitlab-com/egroup
-/content/handbook/legal/testing-agreement-v2.md @robin @rnalen @ktesh @m_taylor @gitlab-com/egroup
+/content/handbook/legal/ai-functionality-terms-v1.md @robin @ktesh @m_taylor @gitlab-com/egroup
+/content/handbook/legal/legacy/legacy-ospa-v1.md @robin @ktesh @m_taylor @gitlab-com/egroup
+/content/handbook/legal/legacy/legacy-psa-v1.md @robin @ktesh @m_taylor @gitlab-com/egroup
+/content/handbook/legal/legacy/legacy-subscription-agreement-v2.md @robin @ktesh @m_taylor @gitlab-com/egroup
+/content/handbook/legal/legacy/legacy-subscription-agreement-v3.md @robin @ktesh @m_taylor @gitlab-com/egroup
+/content/handbook/legal/legacy/legacy-subscription-agreement-v4.md @robin @ktesh @m_taylor @gitlab-com/egroup
+/content/handbook/legal/testing-agreement-v1.md @robin @ktesh @m_taylor @gitlab-com/egroup
+/content/handbook/legal/testing-agreement-v2.md @robin @ktesh @m_taylor @gitlab-com/egroup
 
 ^[marketing]
 /content/handbook/journeys.md @akramer @dsteer
@@ -337,16 +337,16 @@
 /content/handbook/marketing/developer-relations/strategic-plans/contributor-program-unification.md @nick_vh @johncoghlan
 /content/handbook/marketing/developer-relations/technical-marketing/ @johncoghlan @csaavedra1 @fjdiaz @iganbaruch
 /content/handbook/marketing/developer-relations/workflows-tools/ @abuango @dnsmichi @johncoghlan @sugaroverflow @warias
-/content/handbook/marketing/digital-experience/ @mpreuss22 @fqureshi @laurenbarker
+/content/handbook/marketing/digital-experience/ @fqureshi @laurenbarker
 /content/handbook/marketing/emergency-response.md @akramer @rkohnke @amy.waller
 /content/handbook/marketing/events/ @akramer
 /content/handbook/marketing/growth/ @akramer @s_awezec @gdoud
 /content/handbook/marketing/growth/engineering/ @kniechajewicz
-/content/handbook/marketing/inbound-marketing/ @akramer @mpreuss22
+/content/handbook/marketing/inbound-marketing/ @akramer
 /content/handbook/marketing/inbound-marketing/search-marketing/ @ncregan @hsmith-watson @akramer
 /content/handbook/marketing/inbound-marketing/search-marketing/analytics.md @akramer
 /content/handbook/marketing/inbound-marketing/search-marketing/seo-strategy.md @akramer @ncregan @hsmith-watson
-/content/handbook/marketing/inbound-marketing/search-marketing/testing.md @mpreuss22 @akramer
+/content/handbook/marketing/inbound-marketing/search-marketing/testing.md @akramer
 /content/handbook/marketing/lifecycle-marketing/ @aklatzkin @dambrold
 /content/handbook/marketing/lifecycle-marketing/agency-verticurl.md @dambrold @aklatzkin @krogel
 /content/handbook/marketing/lifecycle-marketing/emails-nurture/ @aklatzkin @dambrold
@@ -354,12 +354,12 @@
 /content/handbook/marketing/marketing-career-development/ @akramer
 /content/handbook/marketing/marketing-enablement.md  @justinfarris
 /content/handbook/marketing/marketing-operations/ @christinelee @amy.waller
-/content/handbook/marketing/marketing-strategy-and-platforms.md @akramer @christinelee @mpreuss22 @s_awezec
-/content/handbook/marketing/netlifycms.md @laurenbarker @mpreuss22
+/content/handbook/marketing/marketing-strategy-and-platforms.md @akramer @christinelee @s_awezec
+/content/handbook/marketing/netlifycms.md @laurenbarker
 /content/handbook/marketing/plan-fy22.md @lblanchard
 /content/handbook/marketing/plan-fy23.md @lblanchard
 /content/handbook/marketing/project-management-guidelines/ @johncoghlan
-/content/handbook/marketing/readmes/ @akramer @mpreuss22
+/content/handbook/marketing/readmes/ @akramer
 /content/handbook/marketing/sales-development/ @akramer @jlarramendy
 /content/handbook/marketing/sales-plays-cicd/ @dsteer
 /content/handbook/marketing/smb-marketing.md @ikryzeviciene @meilynda @bstallings @warias @dsteer
@@ -460,7 +460,7 @@
 /content/job-families/product/ux-researcher.md @asmolinski2
 
 [product-ai]
-/content/handbook/product/ai/continuity-plan.md @robin @rnalen @ktesh @m_taylor @gitlab-com/egroup @hbenson @dfrhodes @tichen @tmccaslin
+/content/handbook/product/ai/continuity-plan.md @robin @ktesh @m_taylor @gitlab-com/egroup @hbenson @dfrhodes @tichen @tmccaslin
 
 ^[product-dev-flow]
 /content/handbook/product-development-budgeting.md @david @sabrinafarmer @timzallmann @justinfarris @hbenson @mflouton @steve-evangelista
