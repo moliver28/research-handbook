@@ -145,23 +145,15 @@ If the opportunity is for a new group of users in a Large account where sales is
 | Step | Description |
 | ---- | ----------- |
 | **Creating Opportunities:** | |
-| 1. Identify Communications | Identify relevant two-way communications with the prospect, such as email exchanges, call records, or LI messages. Ensure that these are properly logged in SFDC associated with the `person, company, and opportunity records` as needed. To do this, select the specific activity records highlighting your involvement and press `related to`. Afterwards select the corresponding Opportunity and press save.  |
-| 2. Relate Activities | |
-| 3. Verify Sales Organization RoE | - On ZoomInfo or other sources, verify parent/child segmentation and HQ of the company or ultimate user. <br> - If discrepancies exist, communicate with the appropriate personnel for resolution. |
-| 4. Overriding Incorrect Account Assignments | - Navigate to the Lead/Contact Review Admin section in Salesforce to input correct information. <br> - If unsuccessful, communicate with the Sales Dev Director for assistance in updating account records. |
-| **AMER SDR - IQM Standards:** | |
-| **Prior to the IQM** | |
-| 1. Schedule IQM | Schedule IQM within 48 hours of the DC, giving at least 24 hours notice to the AE. Send calendar invite + Zoom link. |
-| 2. AE Review | AE verifies they reviewed the opportunity beforehand. Review the specifics of the call, responsibilities, and send meeting reminders. |
-| 3. Booking Meetings | For booking meetings, use Outreach and Google to get a detailed view. Ask lead to accept while on the phone. Send pre-meeting emails. |
-| **IQM** | |
-| 1. Attend IQM | AE and SDR show up on time or up to 5 minutes beforehand. Cameras on. Location is quiet and indoors for AE and SDR. |
-| 2. Introduction | SDR introduces the call, then AE takes over. Cameras stay on. |
-| **Post IQM** | 
-| 1. Debrief | AE and SDR debrief within 24 hours regarding the opportunity flipping or being disqualified. Reasons are shared in writing via Slack/email and added to Salesforce by the AE. |
-| 2. IQM Notes | SDR adds IQM notes to the Initiative section in the opportunity Title. Include Attendees, Raw Notes, Questions, Summary, and Next Steps. |
-| 3. Opportunity Acceptance | AE must accept/"flip" within 48 hours of the IQM. |
-| **No-show IQM** | |
-| 1. Rebook | SDR’s responsibility to rebook using Outreach rebook sequence. Conduct outreach for 2 weeks. If IQM cannot be rescheduled, AE will unqualify the opportunity. |
+| 1. Identify and Relate Communications | Identify relevant two-way communications with the prospect, such as email exchanges, call records, or LI messages. Ensure that these are properly logged in SFDC associated with the `person, company, and opportunity records` as needed. To do this, select the specific activity records highlighting your involvement and press `related to`. Afterwards select the corresponding Opportunity and press Save.Select specific activity records highlighting your involvement and press `related to` Select the corresponding Opportunity and press Select specific activity records highlighting your involvement and press `related to` Select the corresponding Opportunity and press save. save.   |
+| 3. Verify Sales Organization RoE | - On ZoomInfo, or other established sources if needed, verify the parent/child segmentation and the HQ of the company or ultimate user. <br> - If discrepancies exist, communicate with the appropriate personnel for resolution. |
+| 3a. Overriding Incorrect Account Assignments | - Navigate to the Lead/Contact Review Admin section in Salesforce to input correct information. <br> - If unsuccessful, communicate with the Sales Dev Director for assistance in updating account records. |
+| 5. Schedule IQM | - For booking meetings, use [Outreach Meetings](https://www.outreach.io/resources/blog/meetings-pr) to expedite the experience for prospects. <br> - Make sure to give a 24 hour notice to the AEs. <br> - Having sent a meeting invitation, ask the prospect to accept while on the phone/meeting with them. |
+| 6. AE Review | - Expect AEs to verify that they reviewed the opportunity beforehand. <br> - If needed, review the specifics of the call, responsibilities, and send meeting reminders. |
+| 7. Attending the IQM | - Please make sure that both AE and SDR show up on time or up to 5 minutes beforehand with Cameras on. <br> - Please ensure that the location is quiet and indoors for AE and SDR. |
+| 8. Debrief | - Have a goal for the AE and SDR to debrief within 24 hours regarding the opportunity being flipped or being disqualified. 
+- Ensure that feedback is shared in writing via Slack/email and added to Salesforce by the AE. |
+| 9. IQM Notes | - SDR adds IQM notes to the Initiative section in the opportunity Title. <br> - Include Attendees, Raw Notes, Questions, Summary, and Next Steps. |
+| 10. Rebooking no-shows | The SDR’s responsibility to rebook using the Outreach rebook sequence. Conduct outreach for 2 weeks. If IQM cannot be rescheduled, AE will unqualify the opportunity. |
 | 2. Follow-up | Ongoing follow-up by SDR - 1x cycle/month. Follow-up plan includes email, voicemail, LI message, and invites to webinar/online workshop. |
 
