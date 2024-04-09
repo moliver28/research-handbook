@@ -25,13 +25,18 @@ As owners of the marketing website, the digital experience team handles most lar
 
 ### For Top 10 (most visited/impactful) Pages
 
-Any change to these pages must be reviewed by [Lauren Barker](https://gitlab.com/laurenbarker) and/or [Filza Qureshi](https://gitlab.com/fqureshi). Please tag them in the Contentful comments section prior to publishing any content on these pages, and link to any issues or MRs that may have additional context about the changes. In the future, we may implement a tagging system that blocks most roles from publishing these pages. As we build more pages this list may grow or shrink, but currently includes:
+Any change to these pages must be reviewed by [Lauren Barker](https://gitlab.com/laurenbarker) and/or [Filza Qureshi](https://gitlab.com/fqureshi). Please tag them in the Contentful comments section prior to publishing any content on these pages, and link to any issues or MRs that may have additional context about the changes. 
 
-1. Homepage
-2. Pricing page
-3. Platform Page
-TODO: add to this list
-...
+- [Homepage](https://about.gitlab.com/)
+- [Pricing](https://about.gitlab.com/pricing/)
+
+
+Changes to these pages should be reviewed by a member of the [Digital Experience team](/handbook/marketing/digital-experience/#groups-metrics--team-members):
+
+- [Free Trial](https://about.gitlab.com/free-trial/devsecops/)
+- [Why GitLab](https://about.gitlab.com/why-gitlab/) 
+- [GitLab Duo](https://about.gitlab.com/gitlab-duo/)
+- [Platform](https://about.gitlab.com/platform/)
 
 These pages typically also have design reources, so making any large or visual changes should be handled in an [issue request](https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/-/issues/new#). 
 
