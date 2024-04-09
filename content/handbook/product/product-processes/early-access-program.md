@@ -25,7 +25,7 @@ In a secondary priority, this helps to [cultivate contributions from the Wider C
 3. There must be an optional opt-in to receive marketing communications regarding beta or experimental features. 
 4. Guidance from UX & Product should be followed how this gets implemented for a consistent user experience. We should avoid adding friction.
 
-### Potential agreed upon UX solutions to influence direction
+### Potential UX solutions discussed
 
 * A generic modal that pops up anytime you hit a beta feature toggle vs creating a new place to go opt in before you can toggle the actual feature.
 
