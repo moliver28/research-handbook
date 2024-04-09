@@ -12,8 +12,7 @@ The VP, People is a [grade 12](/handbook/total-rewards/compensation/compensation
 
 - Oversees Talent Acquisition, Talent Management, Talent Development, People Strategy and Engagement, and Risk and Resilience teams.
 - Owns company-wide cultural initiatives and all key team member touchpoints and communications across the team member
-- Drives alignment of People Group priorities with company strategy as well as Leadership and Cultural needs.
-- Represents key People Group projects to E-Group and other key stakeholders as needed for input and alignment.
+- Drives alignment of People Group priorities with company strategy as well as Leadership and Cultural needs
 
 ## Requirements
 
