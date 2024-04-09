@@ -412,12 +412,12 @@ Engineers will:
 
 Because we should not be spending more than 2 hours per issue, we should re-evaluate if more time is needed or if a spike is required based on
 
-1. If the issue is still reproducible, or if it was only affecting a certain time period.
-1. If Support engagement is present in the issue
-1. If the issue is on Gitlab.com or if it's on a self-managed instance
-  # TODO - what if it's a free customer that writes a help ticket asking us to debug something? how much time
+1. If the issue is still reproducible on Gitlab.com. If the cause is not obvious, a good first step is to ask the author for clarifications.
+1. If Support engagement is present in the issue. We can tell if the issue is created by a Gitlab team member or if it has the ~customer label.
+1. If the issue is on Gitlab.com or if it's on a self-managed instance. If this only affects self-managed instance, we can ask for request for help issue instead.
 1. The scope and affect of the issue. If it's only affecting one customer or if it's present for multiple customers
 
+A good general rule is to look at the P* levels. P1 issues should be refined as they'll be immediately worked on in the next milestone. P2 and P3 can spin off spike issues if more time is needed.
 
 #### Weighting Issues
 
