@@ -335,12 +335,12 @@ Works with finance, sales and the PS leadership to ensure effective use and adop
 - Excellent communication and presentation skills
 - Must have incredible attention to detail, be self-starting, and possess strong organizational skills
 
-### Program Manager, Partner Operations
+### Senior Manager Global Services Partners
 
 
-#### Program Manager, Partner Operations [grade 7](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+#### Senior Manager Global Services Partners [grade 7](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
-#### Program Manager, Partner Operations Responsibilities
+#### Senior Manager Global Services Partners Responsibilities
 
 - Strategic Partnership Development
    - Identify, assess, and develop relationships with potential consulting and training partners and subcontractors to expand GitLab's ecosystem, ensuring alignment with GitLab's strategic goals and consulting educational standards.
@@ -363,7 +363,7 @@ Works with finance, sales and the PS leadership to ensure effective use and adop
   - Work closely with various GitLab teams, including Consulting and Education Services and Channel, to ensure cohesive strategy and execution across GitLab's training offerings.
 
 
-#### Program Manager, Partner Operations Requirements
+#### Senior Manager Global Services Partners Requirements
 
 - Bachelor’s degree or the equivalent experience with demonstrated progressive experience in channel programs.
 - Experience in building,managing and automating partner program, preferably in the DevOps space,
