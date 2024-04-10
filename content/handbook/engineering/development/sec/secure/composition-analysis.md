@@ -169,7 +169,7 @@ flowchart LR
 
 #### Maintain a clear & concise issue description
 
-While heavy use of the comment section enables [collarboration](https://handbook.gitlab.com/handbook/company/culture/all-remote/gitlab-for-remote/) between parties, it can be overwhelming when discussions dive deep. When appropriate, summerize discussions and update the issue description to reflect any decisions made in the comments.
+While heavy use of the comment section enables [collarboration](/handbook/company/culture/all-remote/gitlab-for-remote/) between parties, it can be overwhelming when discussions dive deep. When appropriate, summerize discussions and update the issue description to reflect any decisions made in the comments.
 
 
 #### Communicate the status of the epic and its issues as seen here and above
