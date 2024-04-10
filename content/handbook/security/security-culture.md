@@ -2,7 +2,7 @@
 title: "Security Culture Committee"
 ---
 
-## Mission statement
+## Mission Statement
 
 The security department as a part of GitLab should follow and live up to the GitLab [values]({{< ref "values" >}}) and [mission]({{< ref "mission#mission" >}}).
 The [transparency]({{< ref "values#transparency" >}}) value can be especially difficult for a security department to embrace and embody, as due to the confidentiality of their work, security people tend to be secretive and intransparent by default.
