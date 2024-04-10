@@ -436,4 +436,3 @@ The only exceptions to this procedure are those risks that are out of scope (as 
 - External References
     - [NIST SP 800-30 Rev. 1](https://csrc.nist.gov/publications/detail/sp/800-30/rev-1/final)
     - [ISO 31000 Risk Management Methodology](https://www.iso.org/iso-31000-risk-management.html)
-    
