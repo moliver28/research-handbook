@@ -1,6 +1,8 @@
 ---
 
 title: "Sales Development Onboarding"
+description: "This page acts as the main resource for newcoming team members."
+
 ---
 
 ## The Goal of Sales Development Onboarding

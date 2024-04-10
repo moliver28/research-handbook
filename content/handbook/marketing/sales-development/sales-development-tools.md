@@ -1,6 +1,8 @@
 ---
 
 title: "Sales Development Tools and Manager Resources"
+description: "This page outlines all the tools we use in the Sale Dev org."
+
 ---
 # Sales Development Tools
 

@@ -1,6 +1,8 @@
 ---
 
 title: "Tanuki Tech"
+descrption: "Tanuki Tech (short for "Tanuki Instutite of Technology") is the world class sales/technology bootcamp that we are provide for the sales development organization."
+
 ---
 
 
