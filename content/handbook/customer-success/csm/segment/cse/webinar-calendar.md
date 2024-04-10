@@ -16,7 +16,7 @@ Watch previously recorded webinars on our [YouTube Playlist](https://www.youtube
 ---
 # Upcoming Events
 
-We’d like to invite you to our free upcoming webinars and labs in the month of March 2024.
+We’d like to invite you to our free upcoming webinars and labs in the month of April 2024.
 
 If you know someone who might be interested in attending, feel free to share the registration links with them. Everyone is welcome, and we hope to see you there!
 
