@@ -176,9 +176,8 @@ For sends over 100k sending from Marketo, there are several steps to follow to d
      1. [Generic Email Trigger](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/SC6830A1)
      1. [OP-Generic Email Address Scoring](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/SC3441A1ZN)
      1. [OptOuts after 9.10 - Trigger](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#SC17036A1ZN)
-     1. [01a ZoomInfo Enrich - non API leads](hhttps://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/SC39715D4ZN19)
+     1. [01a ZoomInfo Enrich - non API leads](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/SC39715D4ZN19)
      1. [Add to nurture](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/SC21890A1ZN19)
-     1. [Nurture movement](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/SC21912A1)
      1. [Spam catcher](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/SC2929A1)
 1. Set up priority send controller campaign to improve speed of send
 1. If send list is over 250,000, you must update the [smart campaign limits](/handbook/marketing/marketing-operations/marketo/#campaign-limits).
