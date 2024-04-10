@@ -19,7 +19,7 @@ In this lab, you will access the training lab environment. This environment will
 
 1. Select **Provision Training Environment**.
 
-1. The system will provide you with a temporary GitLab username and password. Select **Downlaod Credentials** to download the username and password for later. Please note that if you lose these credentials, you will need to provision a new training environment, and will lose all previous work.
+1. The system will provide you with a temporary GitLab username and password. Select **Download Credentials** to download the username and password for later. Please note that if you lose these credentials, you will need to provision a new training environment, and will lose all previous work.
 
 1. Select **GitLab Dashboard**.
 
