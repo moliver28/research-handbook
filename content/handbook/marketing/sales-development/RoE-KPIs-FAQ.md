@@ -165,7 +165,20 @@ Announcement Channels
 | Ramping 2 | - Timeframe: Month 2 - Parameters: SDR is on 50% quota, leads are set at 100% in Traction, Qualified is off |
 | Ramping 3 | - Timeframe: Month 3 - Parameters: SDR is on 75% quota, leads are set at 100% in Traction, SDR is added to Qualified |
 | Expert    | - Timeframe: Months 4+ - Parameters: SDR is on full quota, leads are set at 100% in Traction, Qualified is on |
-            |   - SDR is now able to create their own Outreach sequences pending approval.               |
+| | - SDR is now able to create their own Outreach sequences pending approval.               |
+
+### Sales Development Credit Matrix
+
+| Products Considered | Who | Order Type | Segment | Opportunities | ASP/pipeline |
+| ---------- | -------- | ------- | --------- | -------------- | ---------------- |
+| GitLab ultimate/premium, Duo | SDR | FO + New Connected | SMB/Comm | 1 (Duo Pro is excluded) | NA |
+| GitLab ultimate/premium, Duo | SDR | FO + New Connected + Growth (new groups) | Enterprise | 2 (GitLab + Duo Pro) | NA |
+| GitLab ultimate/premium, Duo | BDR | FO | Comm/Ent | 2 | FO ASP for GitLab, growth ASP for Duo Pro |
+| GitLab ultimate/premium, Duo | BDR | New Connected + Growth | Comm/Ent | 2 | Growth ASP for GitLab, growth for Duo Pro |
+| Additional seats in current customer department | BDR | Growth | Comm/Ent | 1 | Growth ASP |
+| Tier upgrade | BDR | Growth | Comm/Ent | 1 | Growth ASP |
+| GitLab ultimate/premium, agile planning | everyone | All motions | All segments | 1 (agile planning is excluded) | See above for license ASP |
+| Professional services | everyone | All motions | All segments | 0 | NA |
 
 
 ### Sales Dev Career Path
