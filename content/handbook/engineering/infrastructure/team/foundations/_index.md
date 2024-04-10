@@ -179,6 +179,8 @@ We use priority labels to prioritize our work. OKR work is updated to `priority:
 
 The goal of the team member on interrupt rotation is to purposely plan to have interrupt work for a week so that the rest of the team can have less interrupt work. The [schedule is available in pager duty](https://gitlab.pagerduty.com/schedules#P7Y8O0E).
 
+If a team member is unavailable for more than 2 days of the week they are on triage, they should seek to trade weeks or find coverage for the days they are out.
+
 The team member on rotation is responsible for:
 
 - Checking the [Production Engineering issue tracker](https://gitlab.com/gitlab-com/gl-infra/production-engineering/-/issues/?sort=created_date&state=opened&first_page_size=20) throughout the week and ensuring new issues related to Foundations:
