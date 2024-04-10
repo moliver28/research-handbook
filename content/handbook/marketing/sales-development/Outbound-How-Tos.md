@@ -1,7 +1,7 @@
 ---
 
----
----
+title: Outbound How-Tos
+description: “The purpose of this page is to walk BDR team members through our end-to-end outbound practices.”
 
 ---
 
