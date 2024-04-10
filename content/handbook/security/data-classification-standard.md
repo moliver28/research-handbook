@@ -54,7 +54,6 @@ Restricted and must remain confidential. This is GitLab’s most sensitive data 
 Examples include:
 
 - Customer Data (see definition above in the [Data Classification Definitions section]({{< ref "data-classification-standard#data-classification-definitions" >}}))
-- Vector embeddings derived from red data
 
 Red Data may not be transmitted from an approved Red data source to any other systems or solutions without first obtaining approval from the Privacy and Security teams.  Any Vendors that process Red Data must first undergo a factual and legal analysis that justifies their processing in accordance with our Customer agreements, as well as global privacy and data security laws. For any questions or concerns related to the transmission of Red data between systems, please reach out to @Security-Risk within the #Sec-Assurance channel.
 
@@ -98,7 +97,7 @@ Examples include:
 - General internal company communications
 - Vendor contracts
 - GitLab runbooks/work instructions/manuals/policies/procedures containing data NOT appropriate for [public consumption]({{< ref "confidentiality-levels#not-public" >}})
-- GitLab team member names
+- GitLab Team Member names
 
 #### GREEN{.text-success #green}
 
@@ -149,7 +148,6 @@ Here are the security and privacy controls to apply for each data classification
 | Data owner approval required | Systems must have security controls equal to or greater than the approved system(s) | May be shared internally on a need-to-know basis | Data must be encrypted at rest  if stored on third party system |
 | NDA required |  | Data sharing with non GitLab team members is not allowed unless explicitly approved by data owner and management. Any vendor who is in possession of any form of Personal Data must have appropriate contractual terms that address GitLab data protection requirements (e.g. a Data Processing Agreement) | Electronic storage media must be irretrievably erased, degaussed and/or disposed of in a secure fashion |
 |  |  | Encrypted or otherwise electronically protected when sent to a recipient outside the company | When information is no longer valid or necessary, it should be completely and permanently destroyed in accordance with the Record Retention Policy. |
-|  |  | Email must be marked as confidential |  |
 
 ##### Yellow Classification{style="color: #ffc107"}
 
