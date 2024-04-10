@@ -38,7 +38,7 @@ prepare quality answers before the next session.
 
 ## Security Research
 
-The [Security Research Team]({{< ref "./threat-management/security-research" >}}) is a multi-discipline team that seeks to answer the deep questions: “What can be done to detect malicious dependencies before they are known to be malicious?”; or “What is the attack surface of Kubernetes, and how does it apply to the GitLab Helm Chart?”; or “How can we do lightweight, but effective threat modeling as part of our SDLC?”. We enjoy asking, and answering the questions that need depth to be answered, and working with other teams, inside and outside of security, to apply the findings to GitLab problems. Like any good research organization, we also look to share our findings with the wider security community, be it through responsible disclosure, blog posts, or participation in conferences.
+The [Security Research Team]({{< ref "./product-security/security-research" >}}) is a multi-discipline team that seeks to answer the deep questions: “What can be done to detect malicious dependencies before they are known to be malicious?”; or “What is the attack surface of Kubernetes, and how does it apply to the GitLab Helm Chart?”; or “How can we do lightweight, but effective threat modeling as part of our SDLC?”. We enjoy asking, and answering the questions that need depth to be answered, and working with other teams, inside and outside of security, to apply the findings to GitLab problems. Like any good research organization, we also look to share our findings with the wider security community, be it through responsible disclosure, blog posts, or participation in conferences.
 
 **Schedule / Topics Covered:**
 
