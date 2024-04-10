@@ -73,12 +73,21 @@ After there is insight into a problem with the navigation, the Product team DRI 
 
 1. Before opening an issue, review the [elements and patterns for navigation in Pajamas](https://design.gitlab.com/patterns/navigation). It is worth checking the [direction page](https://about.gitlab.com/direction/manage/foundations/navigation_settings/) to see how your proposal aligns or conflicts with upcoming changes.
 1. Review the [list of navigation changes](/handbook/product/ux/navigation/#what-are-navigation-changes) and what they are to make sure your change qualifies.
-1. The [Product Manager for Foundations](/handbook/product/categories/#foundations-group) is the [DRI](/handbook/people-group/directly-responsible-individuals/#what-is-a-directly-responsible-individual) for navigation changes. Reach out to them to determine whether your proposal needs [full validation](#full-validation) or [limited validation](#limited-validation).
+1. The [Product Manager for Foundations](/handbook/product/categories/#foundations-group) is the [DRI](/handbook/people-group/directly-responsible-individuals/#what-is-a-directly-responsible-individual) for navigation changes. Reach out to them to determine whether your proposal needs [full validation](#full-validation-path) or [limited validation](#limited-validation-path).
 1. You can initiate the review for this process by using the [Navigation Proposal](https://gitlab.com/gitlab-org/gitlab/-/issues/new?issuable_template=Navigation%20Proposals) issue template.
 1. Designers on Foundations will assist the DRI in reviewing the proposal and provide input. The typical turnaround time from the Foundations team will be 1 milestone.
 1. When you have approval and are ready to start implementation, then follow the [GitLab Docs on adding items to the navigation](https://docs.gitlab.com/ee/development/navigation_sidebar.html#adding-page-specific-vue-content).
 
-### Full validation
+### Full validation path
+
+This path is suitable for navigation changes that affect a majority of GitLab users or that introduce new design patterns. Some examples of changes that may need full validation are:
+
+* Launching a Beta or Generally available feature
+* Changes to navigation structure or functionality
+* Removing an existing navigation item
+* Renaming an existing navigation item
+
+The Foundations PM is the DRI for determining if your proposal should follow the full validation path. On this path, we require the following steps be completed and documented as part of the navigation proposal issue.
 
 | Step | Requirement |
 | --- | --- |
@@ -88,7 +97,15 @@ After there is insight into a problem with the navigation, the Product team DRI 
 | Counterpart support | The proposal is supported by product, design, and research counterparts for the related stage group. |
 | Solution validation | Solution validation research is conducted to evaluate a navigation change against other potential solutions. |
 
-### Limited validation
+### Limited validation path
+
+This path is suitable for navigation changes that affect a minority of users or that follow pre-existing design patterns. Some examples of changes that may need limited validation are:
+
+* Experimental features available behind a feature flag
+* New 3rd party integrations that follow the pattern of existing integrations
+* Changes that bring consistency where there is already inconsistency
+
+The Foundations PM is the DRI for determining if your proposal can follow the limited validation path. On this path, we require the following steps be completed and documented as part of the navigation proposal issue.
 
 | Step | Requirement |
 | --- | --- |
