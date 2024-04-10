@@ -106,9 +106,9 @@ Our risk appetite is translated to a tolerance which defines a range in which a 
 
 |Risk Averse|Risk Neutral|Risk Receptive|Risk Seeking|
 |:---------:|:---------:|:---------:|:---------:|
-|1-5|1-10|1-15|1-20|
+|1-5|1-10|11-15|16-20|
 
-Risk scores above 20 (High or Very High risk rating) are considered too risky to be considered within tolerance for any risk appetite. In other words, risks that are rated High and Very High will never be monitored, but must be accepted.
+Risk scores above 20 (High or Very High risk rating) are considered too risky to be considered within tolerance. In other words, risks that are rated High and Very High must be treated.
 
 #### Historical and Current Record of GitLab's Security Risk Appetite
 
@@ -398,7 +398,7 @@ Identified risks are formally tracked via an internal risk register. Given the n
 
 We report on our top 5 risks on a quarterly basis (the Security Risk Quarterly or "SRQ") in alignment with our values. To learn more about the SRQ, please see our YouTube unfiltered video linked [here](https://www.youtube.com/watch?v=sHZr-5SR7yg). The template we've used can be found [here](https://docs.google.com/presentation/d/1uwz8sKnf9sWY9Of_GKPtIU2dDa3i6k6xekZENPW41NY/edit?usp=drive_link) for reference. Additionally, we perform an annual exercise to refresh our Risk Appetite and our Top 5 risks.
 
-### Top 5 Risks
+## Top 5 Risks
 
 The Security Division's "Top 5 Risks" are established annually and are reported upon quarterly as resources allow via the SRQ. Security Leadership leverages these Top 5 Risks when conducting short and long-term strategic planning activities. We intend to support remediation through assisting with treatment activities and performing design and operating effectives assurance testing on key remediation activities.
 
