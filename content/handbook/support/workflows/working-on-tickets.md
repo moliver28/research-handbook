@@ -132,31 +132,30 @@ how to handle them.
 
 ### Assigning and handling tickets which have a different preferred region in your SGG
 
-#### Pathway for handling high priority tickets from a different region
+#### High and normal priority tickets from a different region
 
 If a new ticket is marked as `High Priority` or `Normal Priority` and there's a risk it might breach the FRT SLA time before the preferred region's support is online, take the assignment, send a substantive response to the requester, and then proceed with the steps in [Cross Region handover of tickets and customer calls](/handbook/support/workflows/working-on-tickets/#cross-region-handover-of-tickets-and-customer-calls).
 
-#### Pathway for handling low priority tickets from a different region
+#### Low priority tickets from a different region
 
-1. If a ticket is not marked as `High Priority` or `Normal Priority` and you're confident in your ability to resolve it, follow these steps:
-      - Take assignment of the ticket and prepare the first technical response.
-      - Use the ZD macro `clarify preferred region assignment` as part of the first response.
-      - If the customer responds and confirms the preferred region, proceed with the steps in [Cross Region handover of tickets and customer calls](/handbook/support/workflows/working-on-tickets/#cross-region-handover-of-tickets-and-customer-calls).
-      - If the customer is okay with out-of-region support, continue to offer assistance and regularly assess customer satisfaction and technical progress. Consider a handover if the ticket's priority changes or if the customer becomes frustrated.
-      - If neither of the above scenarios applies, continue to work on the ticket to find a solution.
-1. If a ticket is not marked as `High Priority` or `Normal Priority` and it's at risk of breaching the FRT SLA, and you are not confident in resolving the issue, follow these steps:
-      - Take assignment of the ticket.
-      - Provide a first technical response to the customer.
-      - Proceed with the steps in [Cross Region handover of tickets and customer calls](/handbook/support/workflows/working-on-tickets#cross-region-handover-of-tickets-and-customer-calls).
+If a ticket is marked as `Low Priority` and:
 
-#### Pathway for handling tickets handed over from a different region
+- You're confident in your ability to resolve the ticket:
+      1. Take assignment of the ticket and prepare the first technical response.
+      2. Use the ZD macro `clarify preferred region assignment` as part of the first response.
+      3. If the customer responds and confirms the preferred region, proceed with the steps in [Cross Region handover of tickets and customer calls](/handbook/support/workflows/working-on-tickets/#cross-region-handover-of-tickets-and-customer-calls).
+      4. If the customer is okay with out-of-region support, or does not indicate their preference, continue to work the ticket as normal. Regularly assess customer satisfaction and technical progress. Consider a handover if the ticket's priority changes or if the customer becomes frustrated.
+- The ticket is at risk of breaching the FRT SLA, and you are not confident in resolving the issue:
+      1. Take assignment of the ticket.
+      2. Provide a first technical response to the customer.
+      3. Proceed with the steps in [Cross Region handover of tickets and customer calls](/handbook/support/workflows/working-on-tickets#cross-region-handover-of-tickets-and-customer-calls).
+
+#### Tickets handed over from a different region
 
 1. Set the text field `Handover Status` to the appropriate value, for example if you are based in the EMEA region set the value to `Handed over to EMEA`. This is to ensure that the ticket will be counted as part of your baseline ticket metrics.
 1. Review the `Handover Ticket Summary` entry of the ticket and check the NRT (Next Response Time) SLA.
-   - If you know how to proceed with the ticket:
-      - Introduce yourself to the customer, confirm the handover, and provide the next technical response.
-   - If additional research is necessary prior to providing a technical response:
-      - Introduce yourself to the customer and set clear expectations that further research and a review of the existing information is required before providing the next technical response.
+   - If you know how to proceed with the ticket, introduce yourself to the customer, confirm the handover, and provide the next technical response.
+   - If additional research is necessary provide a technical response, introduce yourself to the customer and set clear expectations that further research and a review of the existing information is required before providing the next technical response.
 
 ## Providing a first response to a ticket
 
