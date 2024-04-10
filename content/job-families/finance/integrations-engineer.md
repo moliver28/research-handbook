@@ -73,7 +73,8 @@ The Senior Integrations Engineer shares the same responsibilities outlined above
 
 ## Manager, Integrations Engineering
 
-The Manager, Integrations Engineering reports to the Senior Manager, Integrations Engineering 
+The Manager, Integrations Engineering reports to the Senior Manager, Integrations Engineering
+
 
 ### Job Grade
 
@@ -106,6 +107,8 @@ The Manager, Integrations Engineering reports to the Senior Manager, Integration
 The Manager, Integrations Engineering is a [grade 8](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
 ### Manager, Robotics Process Automation (RPA) Responsibilities
+
+
 - business Operations: Build, maintain, automate manual & repetitive processes to more efficiently deliver for our business partners. All processes should be documented in the handbook.
 - Technical Delivery: Drive end to end delivery processes with minimal guidance.
 - Project Management: Run medium-sized projects that improve our ability to make better data driven insights or make the company more efficient.
@@ -114,6 +117,8 @@ The Manager, Integrations Engineering is a [grade 8](/handbook/total-rewards/com
 - Ensure that RPA Automations are designed and implemented as reusable building block in alignment Enterprise Architecture & COE
 
 ### Manager, Robotics Process Automation (RPA)
+
+
 - Bachelor’s degree, preferably in Computer Science, Information Technology, Computer Engineering, or related IT discipline; or equivalent experience.
 - 5+ years of Ui Path experience and Strong proficiency in Ui Path Studio, Robots, Orchestrator, Automation Hub and other UI Path products
 - In-depth knowledge of RPA concepts, best practices, design patterns, frameworks & error management
@@ -131,6 +136,7 @@ The Manager, Integrations Engineering is a [grade 8](/handbook/total-rewards/com
 - Exceptional time management and prioritization skills, resilient under pressure, able to meet deadlines and able to work in a constantly changing environment.
 - Exhibit strong security and confidentiality practices with systems that handle sensitive data.
 - Multiple Ui Path certifications highly preferred
+
 
 ## Senior Manager, Integrations Engineering
 
