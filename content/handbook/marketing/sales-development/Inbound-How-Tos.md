@@ -1,7 +1,5 @@
 ---
 
-title: Inbound How-Tos
-description: "The purpose of this page is to quickly walk SDRs through the main inbound processes they'll use."
 
 ---
 

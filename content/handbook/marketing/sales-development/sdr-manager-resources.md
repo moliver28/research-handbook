@@ -1,7 +1,5 @@
 ---
 
-title: "Sales Development Manager Resources"
-description: "This depracated page walks you through all the tools we use in the Sales Dev org."
 
 ---
 
