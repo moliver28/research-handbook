@@ -386,8 +386,8 @@ In the performance of these reviews, deficiencies may be identified that could p
 Deficiencies identified are reviewed in the context of the vendor's greater Security environment and the data transmitted. If a material risk to GitLab data is identified, this will be reported to the Business Owner via the [TPRM Security Notice Process](#tprm-security-notice-process) section below for more information.
 
 ### Introduction of Third Party AI Features
-Something something _don't introduce Orange/Red data, because [rationale]_
-Something something _Security will assess vendors upon notification of these features via additional inquiry or new assmt_
+
+Something something _don't introduce Orange/Red data, because [rationale]_. Something something _Security will assess vendors upon notification of these features via additional inquiry or new assmt_
 
 ### TPRM Security Notice Process
 
