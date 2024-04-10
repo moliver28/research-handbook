@@ -217,15 +217,15 @@ A weight of 5 generally indicates the problem is not clear or a solution should 
 If the problem is well-defined but too large (weight 5 or greater), either:
 
 - Promote the issue to an Epic and break the work into sub-issues. Weight the individual issues if possible.
-- Ping @sean_carroll and @tlinz and outline the reason the issue needed to be promoted to an Epic.
+- Ping the EM and PM and outline the reason the issue needed to be promoted to an Epic.
 
 ###### If the issue SSOT is not clear
 
-- Don't assign a weight, instead add a comment indicating what needs clarification and ping @sean_carroll and @tlinz.
+- Don't assign a weight, instead add a comment indicating what needs clarification and ping the EM and PM.
 
 ##### If the issue needs a spike
 
-- Don't assign a weight, instead add a comment about the need for a spike (and possibly what would be investigated) and ping @sean_carroll / @tlinz.
+- Don't assign a weight, instead add a comment about the need for a spike (and possibly what would be investigated) and ping the EM or PM.
 - Spikes are scheduled with a weight of 2.
 - Spikes are scheduled with a weight of 2 (timeboxed).
 - The ~spike label is added
