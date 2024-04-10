@@ -106,9 +106,9 @@ Our risk appetite is translated to a tolerance which defines a range in which a 
 
 |Risk Averse|Risk Neutral|Risk Receptive|Risk Seeking|
 |:---------:|:---------:|:---------:|:---------:|
-|1-5|1-10|1-15|1-20|
+|1-5|1-10|11-15|16-20|
 
-Risk scores above 20 (High or Very High risk rating) are considered too risky to be considered within tolerance for any risk appetite. In other words, risks that are rated High and Very High will never be monitored, but must be accepted.
+Risk scores above 20 (High or Very High risk rating) are considered too risky to be considered within tolerance. In other words, risks that are rated High and Very High must be treated.
 
 #### Historical and Current Record of GitLab's Security Risk Appetite
 
