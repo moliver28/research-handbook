@@ -80,7 +80,7 @@ The team member on rotation is responsible for:
 - Checking the [Production Engineering issue tracker](https://gitlab.com/gitlab-com/gl-infra/production-engineering/-/issues/?sort=created_date&state=opened&first_page_size=20) throughout the week and ensuring new issues related to Foundations:
   - Have the correct labels (team, priority, workflow, any other applicable category labels)
   - Have a [weight](#issue-weighting).
-  - Are assigned to an appropriate epic if applicable.
+  - Are assigned to an [appropriate epic](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics?state=opened&page=1&sort=start_date_desc&label_name[]=team::Foundations) if applicable.
 - Asking issue authors for more information when needed to understand the scope of work.
 - Raising any `priority::1` or `priority::2` issues and ensuring they have a DRI and are being actively worked on.
 - Completing any issues that come up that can be completed during the week. Size M can be considered depending on the priority.
