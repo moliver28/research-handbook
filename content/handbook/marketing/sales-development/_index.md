@@ -50,22 +50,20 @@ Our Outbound-focused BDRs excel in strategic account planning, research, and del
 | ---------------------------------------------------- | ------------------------------------------------- |
 | **Main Channel - (Global VP - JB Larramendy)**       | [`#sales_dev_global`](https://gitlab.slack.com/messages/C2V1KLY0Z) |
 | **Announcements - (SDR Ops/Enablement - Chris Wang)**| [`#sales_dev_fyi`](https://app.slack.com/client/T02592416/C011P828JRL) |
-| **COMM GLOBAL (Manager - Brian Tabbert)**            | [`#comm_sales_dev_global`](https://gitlab.slack.com/archives/C04NY0G) |
-| **BDR COMM GLOBAL MM (Manager - Brian Tabbert)**     | [`#bdr_global_mm`](https://gitlab.slack.com/archives/C04PAPDVAL9/p16) |
-| **SDR GLOBAL (Manager - Brian Tabbert)**             | [`#sdr_global_inbound`](https://gitlab.slack.com/archives/C03RSSTLLMD/) |
-| **SDR AMER (Manager - Josh Downey)**              | [`#sdr_amer_inbound`](https://gitlab.slack.com/archives/C0322NFAY9W) |
-| **BDR COMM AMER MM (Manager - Christie Park)**       | [`#bdr_amer_mm`](https://app.slack.com/client/T02592416/C014PHFNE2U) |
-| **BDR ENTG AMER WEST & LATAM (Manager - Charlotte Platt)** | [`#bdr_entg_amer_west_latam`](https://gitlab.slack.com/archives/C01) |
-| **BDR ENTG AMER EAST (Manager - Shamit Paul)**       | [`#bdr_entg_amer_east`](https://gitlab.slack.com/archives/C01LK4EFDNW) |
-| **BDR ENTG PUBSEC (Manager - Josh Downey)**          | [`#bdr_entg_amer_pubsec`](https://gitlab.slack.com/archives/C02EBM1F)|
-| **All - EMEA**                                      | [`#sdr_emea`](https://gitlab.slack.com/messages/CCULKLB71) |
+| **All - AMER (Manager - Brian Tabbert)**            | [`#amer_sales_dev`](https://gitlab.enterprise.slack.com/archives/C06J0U9EC8L) |
+| **SDR AMER (Manager - Josh Downey)**              | [`#sdr_amer_inbound`](https://gitlab.enterprise.slack.com/archives/C02EBM1FN00) |
+| **BDR COMM AMER MM (Manager - Christie Park)**       | [`#bdr_amer_comm`](https://gitlab.enterprise.slack.com/archives/C014PHFNE2U) |
+| **BDR ENTG AMER WEST & LATAM (Manager - Charlotte Platt)** | [`#bdr_entg_amer_west_latam`](https://gitlab.enterprise.slack.com/archives/C04R8DN5H8R) |
+| **BDR ENTG AMER EAST (Manager - Shamit Paul)**       | [`#bdr_entg_amer_east`](https://gitlab.enterprise.slack.com/archives/C04QL1YSXGW) |
+| **BDR PUBSEC (Manager - Josh Downey)**          | [`#bdr_amer_pubsec`](https://gitlab.enterprise.slack.com/archives/C04R54N159P)|
+| **All - EMEA (Manager - Elsje Smart)**                                      | [`#sdr_emea`](https://gitlab.slack.com/messages/CCULKLB71) |
 | **SDR EMEA - (Manager - Elsje Smart)**             | [`#sdr_emea_apac_inbound`](https://gitlab.slack.com/archives/C031T0L) |
 | **BDR COMM EMEA MM - (Manager - Elsje Smart)**     | [`#bdr_comm_emea_mm`](https://gitlab.slack.com/archives/C04NA4BQP54) |
 | **BDR ENTG EMEA DACH - (Manager - Christopher Allenfort)** | [`#bdr_entg_emea_dach`](https://gitlab.slack.com/archives/C04NP4VC449) |
 | **BDR ENTG EMEA NEUR META - (Manager - Miguel Nunes)** | [`#bdr_entg_emea_neur_meta`](https://gitlab.slack.com/archives/C04N) |
 | **BDR ENTG EMEA SEUR - (Manager - Tati Fernandez)**   | [`#bdr_entg_emea_seur`](https://gitlab.slack.com/archives/C04NE65S6AE) |
-| **SDR APAC - (Manager - Brian Tabbert)**             | [`#sdr_emea_apac_inbound`](https://gitlab.slack.com/archives/C031T0L) |
-| **BDR ENTG APAC - (Manager - Elsje Smart)**          | [`#bdr_entg_apac`](https://gitlab.slack.com/archives/C0327R1NZBK) |
+| **SDR APAC - (Manager - Robin Falkowski)**             | [`#sdr_emea_apac_inbound`](https://gitlab.slack.com/archives/C031T0L) |
+| **BDR ENTG APAC - (Manager - Robin Falkowski)**          | [`#bdr_entg_apac`](https://gitlab.slack.com/archives/C0327R1NZBK) |
 
 ## Our GitLab Projects
 
