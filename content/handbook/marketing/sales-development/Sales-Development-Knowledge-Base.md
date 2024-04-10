@@ -1,3 +1,10 @@
+---
+
+title: Sales Development
+description: "The purpose of this page is to serve as an in-depth knowledge base for the Sales Development team."
+
+---
+
 ## Sales Development Knowledge Base
 
 This page is part of the Sales Development team's handbook [page](https://handbook.gitlab.com/handbook/marketing/sales-development/) and aims to be the in-depth knowledge base of our org. The content below is sourced from the input of many past team members and is here for you to perfect your inbound and outbound sales development skills. 
