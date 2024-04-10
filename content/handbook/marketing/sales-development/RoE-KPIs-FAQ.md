@@ -1,3 +1,10 @@
+---
+
+title: RoEs, FAQs and KPIs
+description: "The purpose of this page is to clarify common questions about the sales development org's practices."
+
+---
+
 ## Frequently Asked Questions (FAQ) and Rules of Engagement (RoE)
 
 This page is part of the Sales Development team's handbook [page](https://handbook.gitlab.com/handbook/marketing/sales-development/) and aims to help structure the expectations of SDR and BDR roles. Below you'll find the Key Performance Indicators (KPIs) and Service Level Agreements (SLAs) that we've designed to help you get results for customers as efficiently as possible. We additionally provide an explanation of our Rules of Engagement as well as a general Frequently Asked Questions (FAQ) section.
