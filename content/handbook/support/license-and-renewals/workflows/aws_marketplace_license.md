@@ -31,7 +31,7 @@ If the customer needs to go above the 5 users license seats, they would need to 
 1. Confirm whether the customer still have access to the paid features, if not we should unblock them with a 30 days temporary license.
 1. Ask the customer to reach out to <aws-sales@gitlab.com>.
 
-To escalate this request, follow the [ecalate to Sales workflow](/handbook/support/license-and-renewals/workflows/working_with_sales#general-workflow) if there is already an organization for the customer in SFDC. If the SFDC organization does not exist or you have any questions regarding this the purchase through AWS Marketplace, please reach out to the Alliances Partner team in `#partner-programs-ops` slack channel.
+To escalate this request, follow the [ecalate to Sales workflow](/handbook/support/license-and-renewals/workflows/working_with_sales#general-workflow) if there is already an organization for the customer in SFDC. If the SFDC organization does not exist or you have any questions regarding this the purchase through AWS Marketplace, please reach out to the Alliances Partner team in `#cloud-aws` slack channel.
 
 - [Example case 1](https://gitlab.zendesk.com/agent/tickets/199133)
 - [Example case 2](https://gitlab.zendesk.com/agent/tickets/324283)
