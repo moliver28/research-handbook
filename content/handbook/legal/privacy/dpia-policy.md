@@ -1,6 +1,6 @@
 ---
 title: "Data Protection Impact Assessment (DPIA) Policy"
-controlled_document: true
+controlled_document: false
 ---
 
 GitLab is fully committed to protecting the personal data of its customers, employees, suppliers and other stakeholders in accordance with the requirements of the General Data Protection Regulation (GDPR) and other global comprehensive data privacy laws. We take the privacy of personal data very seriously and have initiated a variety of methods and controls to ensure we know what data we collect and hold and that we protect that data appropriately.

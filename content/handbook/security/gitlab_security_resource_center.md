@@ -111,11 +111,10 @@ The following links contain frequently asked security, legal & privacy, and avai
 
 ### Privacy
 
-- [GitLab privacy](/handbook/legal/privacy/)
+- [GitLab Privacy Statement](/handbook/legal/privacy/)
 - [Team Member Privacy Notice](/handbook/legal/privacy/employee-privacy-policy/)
-- [U.S. State Privacy Rights](https://about.gitlab.com/privacy/#us-state-privacy-rights)
-- [Data protection impact assessment (DPIA) policy](/handbook/legal/privacy/dpia-policy/)
-*[Account deletion and data access requests workflow]({{< ref "account_deletion_access_request_workflows" >}})
+- [U.S. State Privacy Rights and Disclosures](https://about.gitlab.com/privacy/us-state-privacy-rights-and-disclosures/)
+- [Account deletion and data access requests workflow]({{< ref "account_deletion_access_request_workflows" >}})
 
 ### Security awareness
 
