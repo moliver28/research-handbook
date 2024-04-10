@@ -173,7 +173,7 @@ Marketing Operations will decide what the best email platform to send from will 
 For sends over 100k sending from Marketo, there are several steps to follow to decrease processing time - especially when leads being uploaded are mostly net-new
 1. Check list over to remove any sanctioned countries and/or GitLab email addresses
 1. Identify common processing campaigns to update with list suppression filters. These trigger off of `person created` which will significantly delay processing time and hold up all other Marketo campaign processes (outside of this program)
-     1. [Generic Email Trigger](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/SC6830A1)
+     1. [Generic Email Trigger](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/SC45139B2ZN19)
      1. [OP-Generic Email Address Scoring](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/SC3441A1ZN)
      1. [OptOuts after 9.10 - Trigger](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#SC17036A1ZN)
      1. [01a ZoomInfo Enrich - non API leads](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/SC39715D4ZN19)
