@@ -123,7 +123,7 @@ The Manager, Integrations Engineering is a [grade 8](/handbook/total-rewards/com
 - 5+ years of Ui Path experience and Strong proficiency in Ui Path Studio, Robots, Orchestrator, Automation Hub and other UI Path products
 - In-depth knowledge of RPA concepts, best practices, design patterns, frameworks & error management
 - Hands-on experience in designing and deploying RPA Solutions with Ui Path.
-- Hands-on Automation experience across enterprise systems: SalesForce, Netsuite, Zuora Billing,Zuora Revenue, Coupa, Zip, Navan, Workday, ADP, eTrade etc. 
+- Hands-on Automation experience across enterprise systems: SalesForce, Netsuite, Zuora Billing,Zuora Revenue, Coupa, Zip, Navan, Workday, ADP, eTrade etc.
 - Experience as UiPath Solution Architect or UiPath Senior Engineer in a mature, large-scale automation center of excellence (COE) Preferred
 - Experience in Agile, CI/CD, DevOps practices and SOX environment
 - Experience in building & enhancing RPA microsoft infrastructure
@@ -131,7 +131,7 @@ The Manager, Integrations Engineering is a [grade 8](/handbook/total-rewards/com
 - Strong proficiency in data querying languages (SQL), programming languages (Python, R), and data visualization tools.
 - Skilled in working with security standards & protocols like SAML,OAuth, etc.
 - Skilled in working with various integration patterns and technologies such as REST, SOAP, JSON, XML, and other data formats
-- Collaborate with peers to write, review, and provide feedback on technical design proposals and participate in and contribute to code/configuration reviews. Partner with Enterprise Apps team for QA to ensure scalable tests, release plans and end user documentation 
+- Collaborate with peers to write, review, and provide feedback on technical design proposals and participate in and contribute to code/configuration reviews. Partner with Enterprise Apps team for QA to ensure scalable tests, release plans and end user documentation
 - Be a self-starter, and thrive in a fast paced environment, customer centric and have the interpersonal skills necessary to manage business and technology relationships.
 - Exceptional time management and prioritization skills, resilient under pressure, able to meet deadlines and able to work in a constantly changing environment.
 - Exhibit strong security and confidentiality practices with systems that handle sensitive data.
