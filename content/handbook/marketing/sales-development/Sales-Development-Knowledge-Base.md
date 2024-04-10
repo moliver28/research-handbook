@@ -1,7 +1,7 @@
 ---
 
 title: Sales Development Knowledge Base
-description: “The purpose of this page is to serve as an in-depth knowledge base for the Sales Development team.”
+description: The purpose of this page is to serve as an in-depth knowledge base for the Sales Development team.
 
 ---
 
