@@ -35,7 +35,7 @@ In GitLab, projects and subgroups help you organize your codebases and effective
 
 ## Task B. Create organizational subgroups
 
-1. _In the lab environment tab_, ensure that you are in your **My Test Group - iu{######}** group.
+1. _In the lab environment tab_, ensure that you are in your **My Test Group - iu{######}** group. You can check this by seeing if your URL matches **ilt.gitlabtraining.cloud/training-users/session-{#######}/iu{######}**.
 
 1. Click the **New Subgroup** button in the top right corner.
 
