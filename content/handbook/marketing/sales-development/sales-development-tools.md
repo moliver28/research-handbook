@@ -284,7 +284,7 @@ The BDR process that we have defined here in GitLab is meant to provide a repeat
 
 The BDR Process is explained step-by-step in the [main SDR handbook page here](/handbook/marketing/revenue-marketing/sdr/#bdr-outbound-process)
 
-For a newcoming manager, we provide the [Manager attention needed baords](/handbook/marketing/sales-development/sales-development-tools/#tracking--monitoring-resources) that will be your main tool in understanding where your team is aligned to our BDR process, and where they need assistance.
+For a newcoming manager, we provide the [Manager attention needed boards](/handbook/marketing/sales-development/sales-development-tools/#tracking--monitoring-resources) that will be your main tool in understanding where your team is aligned to our BDR process, and where they need assistance.
 
 To help structure your usage of the above, you can follow the steps below during your first month at GitLab while [the document here will be your main go-to resource](https://docs.google.com/document/d/18k1_jDHVgNzy2SzcPZ7GAOdJ6zb9i37Z4-V1-dEFKiU/edit#)
 
@@ -347,7 +347,7 @@ To help structure your usage of the above, you can follow the steps below during
 |  **AMER BDR TEAMS**  | [AMER BDR Action Needed](https://gitlab.my.salesforce.com/01ZPL00000069v3) -  [AMER BDR Manager Attention Needed](https://gitlab.my.salesforce.com/01ZPL00000069VF) |
 |  **EMEA BDR TEAMS**  | [EMEA BDR Action Needed](https://gitlab.my.salesforce.com/01Z4M000000soBO) -  [EMEA BDR Manager Attention Needed](https://gitlab.my.salesforce.com/01ZPL0000006ABB) |
 |  **APAC BDR TEAMS**  | [APAC BDR Action Needed](https://gitlab.my.salesforce.com/01ZPL000000bkbl) -  [APAC BDR Manager Attention Needed](https://gitlab.my.salesforce.com/01ZPL000000cUJd) |
-|  **Global SDR Inbound Teams**  | [SDR Global Action Needed](https://gitlab.my.salesforce.com/01Z4M000000soBT) |
+|  **Global SDR Inbound Teams**  | [SDR Global Action Needed](https://gitlab.my.salesforce.com/01Z4M000000soBT) - [SDR Global Manager Attention Needed](https://gitlab.my.salesforce.com/01ZPL000000pryL)  |
 
 ## Sales_Dev_fyi Channel Information
 
