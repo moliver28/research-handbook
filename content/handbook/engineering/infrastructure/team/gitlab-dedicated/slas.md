@@ -62,6 +62,8 @@ The recovery point objective ("Recovery Point Objective" or "RPO") for the Plan 
 
 In order to receive RPO and RTO targets, customers must specify a primary and secondary region upon onboarding and these regions must be supported by GitLab Dedicated. The list of regions that are supported by GitLab Dedicated [can be found here](https://docs.gitlab.com/ee/subscriptions/gitlab_dedicated/#available-aws-regions).
 
+If a customer uses the [Bring your own domain feature](https://docs.gitlab.com/ee/subscriptions/gitlab_dedicated/#bring-your-own-domain), the customer must update its Domain Name System ("DNS") configuration to fully restore the Dedicated service ("DNS Update"). The time required to trigger and complete a DNS Update will not count towards the calculation of RTO under the Plan.
+
 For customers who have only specified a primary region or in cases where a secondary region is not supported by GitLab Dedicated, GitLab will still make a good faith effort to recover pursuant to the Plan, but the RTO and RPO goals of the Plan will not be considered.
 
 GitLab regularly tests the Plan and will take all commercially reasonable efforts to ensure its success within the below RTO/RPO goals.
