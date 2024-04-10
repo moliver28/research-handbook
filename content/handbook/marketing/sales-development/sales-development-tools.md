@@ -1,7 +1,7 @@
 ---
 
-title: “Sales Development Tools and Manager Resources”
-description: “This page walks you through all the tools we use in the Sales Dev org.”
+title: Sales Development Tools and Manager Resources
+description: This page walks you through all the tools we use in the Sales Dev org.
 
 ---
 
