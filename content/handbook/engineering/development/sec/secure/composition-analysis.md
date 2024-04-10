@@ -172,7 +172,7 @@ flowchart LR
 While heavy use of the comment section enables [collarboration](/handbook/company/culture/all-remote/gitlab-for-remote/) between parties, it can be overwhelming when discussions dive deep. When appropriate, summerize discussions and update the issue description to reflect any decisions made in the comments.
 
 
-#### Communicate the status of the epic and its issues as seen here and above
+#### Communicate the status of the epic and its issues
 
 Every issue created has to be attached to the epic that caused it. All issues need to be labeled to reflect their status as [seen here](/handbook/engineering/workflow/#updating-workflow-labels-throughout-development) and [above](#indicating-status-and-raising-risk). Once created, issues should be weighted, assigned, attached to a milestone and be labled `~"deliverable"` / `~"stretch"`.
 
