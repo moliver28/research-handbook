@@ -45,7 +45,7 @@ In addition to the format described in the [platforms project management page](/
 
 \`\`\`
 /epic [current epic]
-/labels ~"group::Production Engineering" ~"Sub-Department::SaaS Platforms" ~"team::ops" ~"workflow-infra::Triage" ~"Reliability::P2" 
+/labels ~"group::Production Engineering" ~"Sub-Department::SaaS Platforms" ~"team::Ops" ~"workflow-infra::Triage" ~"Reliability::P2" 
 \`\`\`
 
 ## References
@@ -83,7 +83,7 @@ Open planned work for our team is located in the [Production Engineering](https:
 - Include the following Labels (update the priority as needed):
 
    ```
-   /labels ~"group::Production Engineering" ~"Sub-Department::SaaS Platforms" ~"team::ops" ~"workflow-infra::Triage" ~"Reliability::P4"
+   /labels ~"group::Production Engineering" ~"Sub-Department::SaaS Platforms" ~"team::Ops" ~"workflow-infra::Triage" ~"Reliability::P4"
    ```
 
 - If there is a service label that is applicable, also apply that.
