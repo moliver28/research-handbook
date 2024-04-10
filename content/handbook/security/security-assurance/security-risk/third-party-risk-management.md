@@ -387,7 +387,7 @@ Deficiencies identified are reviewed in the context of the vendor's greater Secu
 
 ### Introduction of Third Party AI Features
 
-Something something _don't introduce Orange/Red data, because [rationale]_. Something something _Security will assess vendors upon notification of these features via additional inquiry or new assmt_
+Something something *don't introduce Orange/Red data, because [rationale]*. Something something *Security will assess vendors upon notification of these features via additional inquiry or new assmt*
 
 ### TPRM Security Notice Process
 
