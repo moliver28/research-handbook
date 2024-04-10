@@ -385,6 +385,10 @@ In the performance of these reviews, deficiencies may be identified that could p
 
 Deficiencies identified are reviewed in the context of the vendor's greater Security environment and the data transmitted. If a material risk to GitLab data is identified, this will be reported to the Business Owner via the [TPRM Security Notice Process](#tprm-security-notice-process) section below for more information.
 
+### Introduction of Third Party AI Features
+
+Something something *don't introduce Orange/Red data, because [rationale]*. Something something *Security will assess vendors upon notification of these features via additional inquiry or new assmt*
+
 ### TPRM Security Notice Process
 
 Deficiencies identified during a TPRM review are reported to the Business Owner via a [TPRM Security Notice](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-risk-team/third-party-vendor-security-management/-/issues/new?issuable_template=Security%20Notice%20%20Template) within GitLab. This issue contains (1) background information pertinent to the vendor or requisition, (2) a description of the validations performed by the Security Risk team,  and (3) a description of Security deficiencies and resulting risk that may be present to GitLab data shared with the vendor. A "worst case" scenario is included to portray the potential real-world impact of a security incident resulting from the risk. Where possible, TPRM will also include a recommendation for either mitigating or avoiding the identified risk. For deficiencies resulting from a failure in the design of operating effectiveness of a system's Security controls, a Technical Security Validation is completed prior to stakeholder delivery and used to provide greater context within the Security Notice. These items are documented in order to support an informed decision by the business owner.
