@@ -1,9 +1,9 @@
 ---
 title: "Commercial Account Executive Job Family"
 
-
-##: "Commercial Account Executive - Mid-Market"
 ---
+## Commercial Account Executive - Mid-Market 
+
 ### Job Grade
 
 The Commercial Account Executive- Mid-Market is a [grade 7](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
