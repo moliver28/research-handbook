@@ -5,7 +5,6 @@ description: "The purpose of this page is to walk BDR team members through our e
 
 ---
 
-
 ## Business Development Outbound Process
 
 This page is part of the Sales Development team's handbook [page](https://handbook.gitlab.com/handbook/marketing/sales-development/) and aims to break our outbound lead management process into small how-to sections.
