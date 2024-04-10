@@ -84,13 +84,13 @@ Our Outbound-focused BDRs excel in strategic account planning, research, and del
 | Name/Link                                                            | Description                                            |
 |-----------------------------------------------------------------------|--------------------------------------------------------|
 | [1:1 Dashboards - Leads: PUBSEC](https://gitlab.my.salesforce.com/01Z8X000000u7Vy)   | 1:1 dashboard for leads in the PUBSEC segment.          |
-| [1:1 Dashboards - Leads: APAC ENTG](https://gitlab.my.salesforce.com/01Z8X000000u7Vt) | 1:1 dashboard for leads in the APAC ENTG segment.       |
+| [1:1 Dashboards - Leads: COMM APAC](https://gitlab.my.salesforce.com/01ZPL000000YXw1) | 1:1 dashboard for leads in the APAC ENTG segment.       |
 | [1:1 Dashboards - Leads: ENTG EMEA](https://gitlab.my.salesforce.com/01Z8X000000u7Vo) | 1:1 dashboard for leads in the ENTG EMEA segment.       |
 | [1:1 Dashboards - Leads: ENTG EMEA/AMER](https://gitlab.my.salesforce.com/01Z8X000000u7W8) | 1:1 dashboard for leads in the ENTG EMEA/AMER segment.  |
 | [1:1 Dashboards - Leads: COMM EMEA](https://gitlab.my.salesforce.com/01Z8X000000u7Q5)  | 1:1 dashboard for leads in the COMM EMEA segment.       |
 | [1:1 Dashboards - Accounts: EMEA COMM](https://gitlab.my.salesforce.com/01Z8X000000u7O4) | 1:1 dashboard for accounts in the EMEA COMM segment.    |
 | [1:1 Dashboards - Accounts: ENG AMER/LATAM](https://gitlab.my.salesforce.com/01Z8X000000u7Ww) | 1:1 dashboard for accounts in the ENG AMER/LATAM segment. |
-| [1:1 Dashboards - Accounts: ENTG APAC](https://gitlab.my.salesforce.com/01Z8X000000u7Wm)   | 1:1 dashboard for accounts in the ENTG APAC segment.     |
+| [1:1 Dashboards - Accounts: COMM APAC](https://gitlab.my.salesforce.com/01ZPL000000YXxd)   | 1:1 dashboard for accounts in the ENTG APAC segment.     |
 | [1:1 Dashboards - Accounts: ENTG EMEA](https://gitlab.my.salesforce.com/01Z8X000000u7Wr)   | 1:1 dashboard for accounts in the ENTG EMEA segment.     |
 | [1:1 Dashboards - Accounts: PUBSEC](https://gitlab.my.salesforce.com/01Z8X000000u7Wh)     | 1:1 dashboard for accounts in the PUBSEC segment.       |
 | [Watch and Help Action Needed: SDR Global](https://gitlab.my.salesforce.com/01ZPL000000ULrp) | Dashboard outlining items where immediate action is needed in the SDR team.   |
