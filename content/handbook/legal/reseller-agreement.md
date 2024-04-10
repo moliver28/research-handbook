@@ -2,7 +2,7 @@
 title: "Reseller Agreement"
 aliases:
 - /handbook/legal/reseller-agreement.md
-- /handbook/resellers/reseller-agreement/#master-partner-agreement
+- /handbook/resellers/reseller-agreement/
 ---
 
 
