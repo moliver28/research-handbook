@@ -1,7 +1,5 @@
 ---
 
-title: "Sales Development Onboarding"
-description: "This is the main page that newcoming team members should use."
 
 ---
 
