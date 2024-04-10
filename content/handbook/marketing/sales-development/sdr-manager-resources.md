@@ -1,7 +1,7 @@
 ---
 
 title: "Sales Development Manager Resources"
-description: "This page acts as the main resource for SDR/BDR managers."
+description: "This page acts as the main resource for SDR/BDR managers." 
 
 ---
 
