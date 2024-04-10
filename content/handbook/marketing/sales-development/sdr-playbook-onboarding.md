@@ -1,7 +1,7 @@
 ---
 
 title: "Sales Development Onboarding"
-description: "This page acts as the main resource for newcoming team members."
+description: "This page acts as the main resource for newcoming team members." 
 
 ---
 

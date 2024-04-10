@@ -1,7 +1,7 @@
 ---
 
-title: Sales Development Team
-description: "The purpose of this page is to act as the homapage of the sales development org's handbook presence."
+title: Sales Development
+description: "The purpose of this page is to act as the homapage of the sales development org's handbook presence." 
 
 ---
 
