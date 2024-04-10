@@ -15,11 +15,11 @@ For more details about the vision for this area of the product, see the
 
 ### Team members
 
-{{< team-by-manager-role role="Senior Manager, Engineering(.*)Plan" team="[,&] (Plan:Knowledge)" >}}
+{{< team-by-manager-role role="Engineering Manager(.*)Plan:Knowledge" >}}
 
 ### Stable counterparts
 
-{{< stable-counterparts manager-role="Senior Manager, Engineering(.*)Plan" role="Security(.*)Plan|Product Manager(.*)Plan(.*)Group|Group(.*)Plan|Plan:Knowledge" >}}
+{{% stable-counterparts manager-role="Engineering Manager(.)Plan:Knowledge" role="(.)Plan:Knowledge$|Product Manager(.)Plan Stage|Security(.)Plan|Engineering(.)Plan$|Principal(.)Plan$|Group(.*)Plan" %}}
 
 ### Hiring chart
 
