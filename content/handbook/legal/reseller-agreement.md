@@ -1,6 +1,7 @@
 ---
-
 title: "Reseller Agreement"
+aliases:
+- /handbook/resellers/reseller-agreement/
 ---
 
 
