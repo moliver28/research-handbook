@@ -178,21 +178,20 @@ The Staff EBA to the CEO shall ensure that there are separate calendar invites f
 
 #### Next Meeting's Timeline
 
-This section is updated after every Board Meeting by the EBA to the CFO for the next Board Meeting.
+This section is updated after every Board Meeting by the Staff EBA to the CFO for the next Board Meeting.
 
-1. Meeting is scheduled for 2024-03-28.
-1. 2024-02-05 - The Lead Independent Director will reach out to the Board to discuss agenda items.
-1. 2024-02-08 - The Lead Independent Director, CEO, and CFO finalize the agenda. [At least 6 weeks before BoD Meeting]
-1. 2024-03-04 - The CFO adds another reminder to the E-Group during the weekly E-Group call. [A week before pencils down. There will be no additional extensions beyond the due date as it is already extended due to Summit.]
-1. 2024-03-18 - The E-Group has the complete presentation ready by 12pm Pacific time for review by the CLO and CFO. [A week before BoD Meeting materials distribution. This has been shifted due to Summit.]
-1. 2024-03-18 - CEO records any videos for distribution. Staff EBA to the CEO coordinates the recording with the VP of IR and CoS to the CEO. [A week before BoD Meeting materials distribution]
-1. 2024-03-21 - Once approved by the CLO, CFO and CEO, the CFO authorizes the Corporate Paralegal to upload the materials into NBV and attach them to the corresponding NBV Meeting. The CFO then notifies the Board via email that materials are ready for review in NBV 7 days before the meeting. The Corporate Paralegal is responsible for sharing settings on all materials linked in the google doc BOD Agenda. Materials should be shared with the E-Group, the board members, and the outside legal firm. Any exceptions must be confirmed by the CLO and relayed to the Corporate Paralegal before shipping.
-1. 2024-03-21 - The Senior EBA to the CFO is responsible for linking all materials in the google document agendas for each session of the board meeting. Materials should always be linked in the agenda and shared with the appropriate attendees.
-1. 2024-03-21 - The Senior EBA to the CFO ensures that the Introduction and Materials section of the agenda is up to date with the latest attendees and ensures that the agenda document is locked to further questions 24 hours before the meeting is set to begin. Questions can still be raised verbally during the meeting.
-1. 2024-03-28 - Board of Directors Meeting; CFO ensures the meeting runs according to the time allotted.
-1. 2024-04-02 - The E-Group debriefs in the first E-Group Meeting after the Board Meeting.
-1. 2024-04-01 - The CLO ensures that PDF versions of the materials including presentations, exhibits, approved Minutes, and Administrative materials are securely stored in NBV and on Google Drive labeled with the date of the meeting.
-1. 2024-04-01 - The EBA to the CFO updates this section of the Handbook page with the timeline for the next Board meeting in December 2023.
+1. Meeting is scheduled for 2024-06-27.
+1. 2024-05-06 - The Lead Independent Director will reach out to the Board to discuss agenda items.
+1. 2024-05-14 - The Lead Independent Director, CEO, and CFO finalize the agenda. [At least 6 weeks before BoD Meeting]
+1. 2024-06-03 - The CFO adds another reminder to the E-Group during the weekly E-Group call. [A week before pencils down]
+1. 2024-06-13 - The E-Group has the completed all materials by 12pm Pacific time for review by the CLO and CFO. [A week before BoD Meeting materials distribution]
+1. 2024-06-20 - Once approved by the CLO, CFO and CEO, the CFO authorizes the Corporate Paralegal to upload the materials into NBV and attach them to the corresponding NBV Meeting. The CFO then notifies the Board via email that materials are ready for review in NBV 7 days before the meeting. The Staff EBA to the CFO is responsible for sharing settings on all materials linked in the Google doc BOD Agenda. Materials should be shared with the E-Group, the board members, and the outside legal firm. Any exceptions must be confirmed by the CLO and relayed to the Corporate Paralegal before shipping.
+1. 2024-06-20 - The Staff EBA to the CFO is responsible for linking all materials in the Google document agendas for each session of the board meeting. Materials should always be linked in the agenda and shared with the appropriate attendees.
+1. 2024-06-20 - The Staff EBA to the CFO ensures that the Introduction and Materials section of the agenda is up to date with the latest attendees and ensures that the agenda document is locked to further questions 24 hours before the meeting is set to begin. Questions can still be raised verbally during the meeting.
+1. 2024-06-27 - Board of Directors Meeting; CFO ensures the meeting runs according to the time allotted.
+1. 2024-07-01 - The CLO ensures that PDF versions of the materials including presentations, exhibits, approved Minutes, and Administrative materials are securely stored in NBV and on Google Drive labeled with the date of the meeting.
+1. 2024-07-01 - The Staff EBA to the CFO updates this section of the Handbook page with the timeline for the next Board meeting in September 2024.
+1. 2024-07-02 - The E-Group debriefs in the first E-Group Meeting after the Board Meeting.
 
 
 #### Board Materials
