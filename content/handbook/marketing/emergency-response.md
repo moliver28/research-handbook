@@ -5,11 +5,6 @@ description: "GitLab's email response process for marketing emergencies"
 ---
 
 
-
-
-
-
-
 ## Marketing emergency response
 
 At times GitLab needs to communicate a "breaking" change or details related to a high-priority emergency patch. These emails are transactional and are highly targeted to the impacted audience.
@@ -30,12 +25,12 @@ At times GitLab needs to communicate a "breaking" change or details related to a
 Please review the coverage owner closest available per their timezone when deciding who to reach out to. 
 
 | MOPs Team Coverage                          | PT / ET Time Available                 | Coverage Owner: Monday - Friday | Backup: Monday - Friday | Coverage Owner GEO Time |
-|---------------------------------------------|-------------------------------|---------------------------|-------------------------|-------------------|
-| UTC (Emea Working)                          | 11pm - 3am PT / 2am - 6am ET  | Mihai Conteanu            | Gillian Murphy          | 9am - 1pm EET     |
-| UTC (EMEA Working)                          | 3am - 7am PT / 6am - 10am ET  | Gillian Murphy            | Mihai Conteanu          | 11am - 3pm UK     |
-| UTC (Amer-Morning)                          | 7am - 11am PT / 10am - 2pm ET | Jameson Burton            | Bryce Weatherford        | 10am - 2pm ET     |
-| UTC (Amer-Afternoon)                        | 11am - 3pm PT / 2pm - 6pm ET  | Bryce Weatherford           | Jenny Tiemann        | 11am - 3pm PT     |
-| UTC (Amer-Evening)                          | 3pm - 6pm PT / 6pm - 9pm ET   | Bryce Weatherford              | Amy Waller        | 3pm - 6pm PT      |
+|---------------------------------------------|-------------------------------|---------------------------|----------------------|-------------------|
+| UTC (EmEA Working)                          | 11pm - 3am PT / 2am - 6am ET  | Mihai Conteanu            | Gillian Murphy       | 9am - 1pm EET     |
+| UTC (EMEA Working)                          | 3am - 7am PT / 6am - 10am ET  | Gillian Murphy            | Mihai Conteanu       | 11am - 3pm UK     |
+| UTC (Amer-Morning)                          | 7am - 11am PT / 10am - 2pm ET | Jameson Burton            | Bryce Weatherford    | 10am - 2pm ET     |
+| UTC (Amer-Afternoon)                        | 11am - 3pm PT / 2pm - 6pm ET  | Bryce Weatherford         | Jenny Tiemann        | 11am - 3pm PT     |
+| UTC (Amer-Evening)                          | 3pm - 6pm PT / 6pm - 9pm ET   | Bryce Weatherford          | Amy Waller          | 3pm - 6pm PT      |
 
 
 **Typical Team Timezones:**
@@ -161,10 +156,9 @@ The following approvers are needed for the copy and list size:
 
 
 ## Email platform to use
-Marketing Operations will decide what the best email platform to send from will be. The decision is based on many factors, including the ones below.
-- [Marketo](/handbook/marketing/marketing-operations/marketo/): Quickest deployment, but most costly. Can be used for large sends if being sent to customers, but free users should be send via MailJet or Mailgun if the list is over 20k.
-- [MailJet](/handbook/marketing/marketing-operations/mailjet/): Platform for large deployment, marketing can set up and send without engineering help.
-- MailGun: Large lists that need verification. This involves engineering and will add 1 day minimum to send
+Marketing Operations will decide what the best email platform to send from will be. The decision is based on many factors.
+- [Marketo](/handbook/marketing/marketing-operations/marketo/)
+- [Gainsight](/handbook/sales/field-operations/customer-success-operations/gainsight/gainsight-gtm/#gainsight)
 
 # Marketing Operations Set-Up
 - Clone from [incident template](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/EBP9730A1)
