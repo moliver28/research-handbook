@@ -1,5 +1,7 @@
 ---
 title: "Security Architecture"
+aliases:
+- /handbook/security/architecture
 ---
 
 <link rel="stylesheet" type="text/css" href="/stylesheets/biztech.css" />
@@ -55,7 +57,7 @@ cycle of source code:
 
 - [AppSec projects policies]
 
-[AppSec projects policies]: {{< ref "../product-security/application-security/inventory#policies" >}}
+[AppSec projects policies]: {{< ref "../application-security/inventory#policies" >}}
 
 ### InfraSec
 
@@ -448,7 +450,7 @@ aka Fail Safe Defaults.
 
 #### How
 
-- [Threat model]({{< ref "../threat-modeling" >}}) the system, repeat, iterate.
+- [Threat model]({{< ref "../application-security/threat-modeling" >}}) the system, repeat, iterate.
 - Identify central components that
   - share more privileges than the others
   - have more connections to other components
