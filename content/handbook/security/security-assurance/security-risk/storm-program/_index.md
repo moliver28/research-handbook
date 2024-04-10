@@ -398,7 +398,7 @@ Identified risks are formally tracked via an internal risk register. Given the n
 
 We report on our top 5 risks on a quarterly basis (the Security Risk Quarterly or "SRQ") in alignment with our values. To learn more about the SRQ, please see our YouTube unfiltered video linked [here](https://www.youtube.com/watch?v=sHZr-5SR7yg). The template we've used can be found [here](https://docs.google.com/presentation/d/1uwz8sKnf9sWY9Of_GKPtIU2dDa3i6k6xekZENPW41NY/edit?usp=drive_link) for reference. Additionally, we perform an annual exercise to refresh our Risk Appetite and our Top 5 risks.
 
-### Top 5 Risks
+## Top 5 Risks
 
 The Security Division's "Top 5 Risks" are established annually and are reported upon quarterly as resources allow via the SRQ. Security Leadership leverages these Top 5 Risks when conducting short and long-term strategic planning activities. We intend to support remediation through assisting with treatment activities and performing design and operating effectives assurance testing on key remediation activities.
 
