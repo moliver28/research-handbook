@@ -5,7 +5,7 @@ controlled_document: true
 
 ## Purpose
 
-The Data Classification Standard defines data categories and provides a matrix of security and privacy controls for the purposes of determining the level of protection to be applied to GitLab data throughout its lifecycle.
+The Data Classification Standard defines data type and categories and provides the associated Data Classification of each for the purposes of determining the level of protection to be applied to GitLab and Customer data throughout its lifecycle.
 
 ## Scope
 
@@ -16,20 +16,20 @@ The Data Classification Standard applies to all GitLab team members, contractors
 | Role  | Responsibility |
 |-----------|-----------|
 | GitLab Team Members | Responsible for adhering to the requirements outlined in this standard |
-| Data Owners | Responsible for approving exceptions to this standard for their owned data types |
-| Security Management (Code Owners) | Responsible for approving significant changes and exceptions to this standard |
+| Data Owners | Responsible for approving exceptions to this standard for their owned data types. These are generally the Business Owners of a system. |
+| Security and Legal (Code Owners) | Responsible for approving significant changes and exceptions to this standard |
 
 ### GitLab Responsibilities
 
-- GitLab team members, contractors, consultants, vendors and other service providers are required to review and understand this data classification standard, and how to handle data according to the classification levels below unless otherwise noted.
+- GitLab team members, contractors, consultants, vendors and all other service providers acting on behalf of GitLab are required to review and understand this data classification standard, and how to handle data according to the classification levels below unless otherwise noted.
 
-- Data Owners shall determine the classification of data in accordance with this standard. The Data Classification Index (internal only) provides a list of various types of data and their classification level. If you cannot identify the data element or are uncertain of the risk associated with the data and how it should be classified and handled, please contact The Security Compliance Team.
+- Data Owners shall determine the classification of data in accordance with this standard. The Data Classification Index (internal only) provides a list of various types of data and their classification level. If you cannot identify the data element or are uncertain of the risk associated with the data and how it should be classified and handled, please contact the Security Risk team in Slack via @security-risk.
 
-- To maintain our culture of security, transparency and to minimize the risk to our sensitive data and our customers, GitLab team members are encouraged to complete Data Classification Training to help understand the different types of data at GitLab and how to keep it [SAFE](/handbook/legal/safe-framework/). Training is available via [Level Up](https://levelup.gitlab.com/learn/dashboard), GitLab's internal learning platform.
+- To maintain our culture of security, transparency and to minimize the risk to our sensitive data and our customers, GitLab team members are required to complete Data Classification Training to help understand the different types of data at GitLab and how to keep it [SAFE](/handbook/legal/safe-framework/). Training is available via [Level Up](https://levelup.gitlab.com/learn/dashboard), GitLab's internal learning platform.
 
 ### Customer Responsibilities
 
-- GitLab customers are responsible for managing their own data, to include identification and classification according to their own internal requirements. GitLab handles Customer Data internally according to our non-disclosure obligations written in our Mutual Non Disclosure Agreement and the controls identified in this standard.
+- GitLab customers are responsible for managing their own data, to include identification and classification according to their own internal requirements. GitLab handles Customer Data internally according to our non-disclosure obligations written in our Mutual Non Disclosure Agreement and the classifications identified in this standard.
 
 ## Standard
 
