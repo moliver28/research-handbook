@@ -142,7 +142,7 @@ The recommendation is to use public channels even while it may sometimes feel un
 
 | Channel Name | Channel Access (Private/Public) | Description |
 | ------ | ------ | ------ |
-| #alliances | public | Questions regarding alliance partners |
+| #cloud-aws or #cloud-gcp | public | Questions regarding alliance partners |
 | #channel-sales | public | Topics related to channel sales |
 | #partner-programs-ops | public | Topics related to partner programs and operations |
 | #channel-marketing | public | Topics related to channel marketing |
