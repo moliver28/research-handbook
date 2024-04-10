@@ -20,6 +20,8 @@ Please let the Total Rewards team know if you would like to join the scheme via 
  1. Employee ID
  1. Dependent Details if you'd like to add them to the plan (Full Name, DOB, and address).
 
+Team members who join the plan prior to the 24th of the month will have the BIK and deductions reported in full for that month, team members who join after the 24th of the will see deductions and BIK reporting begin the following month. 
+
 Please note that it can take 7 - 10 working days to receive a reply and confirmation from AXA PPP.
 
 FYI Total Rewards team: The UK HR partner's contact information can be found in the Entity and Co-Employer HR Contacts note in the PeopleOps vault in 1Password.
