@@ -151,7 +151,7 @@ __Spikes should follow the above guidelines__:
 1. Be timeboxed in days (using weights)
 1. Containting a list of questions to be answered
 1. Need to be updated with results, gathered data and conclusions
-1. Labeled `~"workflow::refinment"` when writing down the questions & `~"workflow::in dev"` while working to answer the questions
+1. Labeled `~"workflow::refinement"` when writing down the questions & `~"workflow::in dev"` while working to answer the questions
 1. Be attached to the original epic
 
 Examples: 
