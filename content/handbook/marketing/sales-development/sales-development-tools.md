@@ -1,7 +1,10 @@
 ---
 
 title: "Sales Development Tools and Manager Resources"
+description: "This page walks you through all the tools we use in the Sales Dev org."
+
 ---
+
 # Sales Development Tools
 
 This page is to act as your guide to the many tools and best practices that the Sales Development Organization uitlizes.
