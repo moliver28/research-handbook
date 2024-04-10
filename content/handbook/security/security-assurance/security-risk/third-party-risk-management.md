@@ -380,7 +380,7 @@ In the performance of these reviews, deficiencies may be identified that could p
 1. Systems lacking evidence of a recent penetration test
 1. Unresolved deficiencies documented within the penetration test with no apparent remediation plan or expected remediation date
 
-*While Okta SSO integration is GitLab's preferred method of authentication, IT Engineering can review and approve alternative SSO methods (such as Google Oauth) on a case by case basis. 
+*While Okta SSO integration is GitLab's preferred method of authentication, IT Engineering can review and approve alternative SSO methods (such as Google Oauth) on a case by case basis.
 
 Deficiencies identified are reviewed in the context of the vendor's greater Security environment and the data transmitted. If a material risk to GitLab data is identified, this will be reported to the Business Owner via the [TPRM Security Notice Process](#tprm-security-notice-process).
 
