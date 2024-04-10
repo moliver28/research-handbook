@@ -315,7 +315,7 @@ The `#master-broken-mirrors` channel is to be used to identify unique failures f
 ### Broken JiHu validation pipelines
 
 We run JiHu validation pipelines in some of the merge requests, and it can be
-broken at times. When this happens, check [What to do when the validation pipeline failed](../../ceo/chief-of-staff-team/jihu-support/jihu-validation-pipelines.html#what-to-do-when-the-validation-pipeline-failed) for more details.
+broken at times. When this happens, check [What to do when the validation pipeline failed](../../ceo/office-of-the-ceo/jihu-support/jihu-validation-pipelines.html#what-to-do-when-the-validation-pipeline-failed) for more details.
 
 ## Security Issues
 

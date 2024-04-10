@@ -362,7 +362,7 @@ Some merge requests that involve a big decision or change tend to collect a larg
 ```text
 ### Manager Mention MR
 
-This MR is a Manager Mention MR. Contributors should tag their manager when adding a comment. If managers are tagged they should either respond to the question or summarize and tag their manager.
+This MR is a [Manager Mention MR](https://handbook.gitlab.com/handbook/communication/#scaling-merge-requests-through-manager-mention-mrs-formerly-consolidated-mrs). Contributors should tag their manager when adding a comment. If managers are tagged they should either respond to the question or summarize and tag their manager.
 ```
 
 Additionally, add the `~"Manager Mention MR"` label to the merge request. This will make future analytics on Manager Mention merge requests more easily identifiable. It also enables managers to subscribe to the label to be notified when an MR has elected the Manager Mention MR designation.

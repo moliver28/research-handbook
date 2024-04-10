@@ -3,6 +3,9 @@
 title: "Cynthia 'Arty' Ng README"
 description: "Personal readme page for Cynthia 'Arty' Ng, Staff, Strategy & Operations, Office of the CEO, GitLab"
 job: "Staff, Strategy and Operations"
+aliases:
+- /handbook/ceo/office-of-the-ceo/readmes/cynthia-ng/
+- /handbook/ceo/chief-of-staff-team/readmes/cynthia-ng/
 ---
 
 This page is meant to provide a bit of information about me and how I work,

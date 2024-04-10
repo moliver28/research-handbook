@@ -64,16 +64,13 @@ cd handbook
 
 Hugo needs to be run to generate the static files from the handbook markdown content.
 
-> **Note**
->
-> Docker containers are the only supported method where all additional dependencies and runtimes are preinstalled.
-
 You can use the Hugo container to start a locally running instance of the handbook, and verify how your changes look.
 
-The following command starts the Hugo server, using the [`hugomods/hugo` container image](https://hugomods.com/docs/docker/#image-tags). The `exts` container image tag is important, as it provides the required SASS/CSS conversion tools.
+The following command starts the Hugo server, using the [`hugomods/hugo` container image](https://hugomods.com/docs/docker/#image-tags).
+The `exts` container image tag is important, as it provides the required SASS/CSS conversion tools.
 
 ```sh
-docker compose up -d
+docker run --rm -v $(pwd):$(pwd) -w $(pwd) --network host hugomods/hugo:exts hugo server
 ```
 
 This will start the Hugo server listening on `http://localhost:1313`. If that doesn't work, try `http://127.0.0.1:1313`. It may take a couple of minutes to load the first time.
@@ -81,7 +78,7 @@ This will start the Hugo server listening on `http://localhost:1313`. If that do
 You can also start a new container, and run the commands with Hugo manually.
 
 ```sh
-docker compose --profile console run --rm console
+docker run --rm -it -v $(pwd):$(pwd) -w $(pwd) --network host hugomods/hugo:exts sh
 
 hugo server
 
@@ -108,9 +105,9 @@ To render the entire site to disk (and inspect the output in `${PWD}/public`),
 purge the generated files first, and then run Hugo.
 
 ```sh
-rm -rf public/*
+make clean
 
-docker compose run --rm hugo hugo
+docker run --rm -v $(pwd):$(pwd) -w $(pwd) hugomods/hugo:exts hugo
 ```
 
 ### Linting content
