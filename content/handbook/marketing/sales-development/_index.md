@@ -1,3 +1,10 @@
+---
+
+title: Sales Development
+description: "The purpose of this page is to act as the homapage of the sales development org's handbook presence."
+
+---
+
 ## Who we are
 
 Welcome to the Sales Development Organization at GitLab! We are a team designed to drive [results for customers](https://handbook.gitlab.com/handbook/values/#results) through both inbound and outbound strategies. Our structure is designed to maximize efficiency, responsiveness, and creativity in our outreach efforts.

@@ -1,3 +1,11 @@
+
+---
+
+title: Inbound How-Tos
+description: "The purpose of this page is to quickly walk SDRs through the main inbound processes they'll use."
+
+---
+
 ## Sales Development Inbound Process
 
 This page is part of the Sales Development team's handbook [page](https://handbook.gitlab.com/handbook/marketing/sales-development/) and aims to break our inbound lead management process into small how-to sections.
