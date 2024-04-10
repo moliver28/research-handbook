@@ -414,10 +414,6 @@ TPRM partners with GitLab's [Security Research team](/handbook/security/threat-m
 
 Completion of the TSV may be required prior to approval of the associated requisition, depending on factors such as severity of the identified deficiency, sensitivity of data transmitted, and criticality of the system. This approach is taken to facilitate a more informed business decision prior to the introduction or continued presence of data within potentially insecure environments. The Business Owner will be notified of this and can appeal the delay if it may cause a business disruption or lapse in payment to the vendor.
 
-## Exceptions to the TPRM Process
-
-Exceptions to this procedure will be tracked as per the [Information Security Policy Exception Management Process](/handbook/security#information-security-policy-exception-management-process).
-
 ## References
 
 - Parent Policy: [Information Security Policy](/handbook/security)
