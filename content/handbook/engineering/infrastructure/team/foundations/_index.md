@@ -71,27 +71,7 @@ Apply one of the following templates:
   - Slack: `@infra-foundations`
   - GitLab: `@gitlab-org/production-engineering/foundations`
 
-### Triaging requests
-
-We rotate triage duties weekly between team members. The goal of the team member on triage is to purposely plan to have interrupt work for a week so that the rest of the team can have less interrupt work. The [schedule is available in pager duty](https://gitlab.pagerduty.com/schedules#P7Y8O0E).
-
-The team member on rotation is responsible for:
-
-- Checking the [Production Engineering issue tracker](https://gitlab.com/gitlab-com/gl-infra/production-engineering/-/issues/?sort=created_date&state=opened&first_page_size=20) throughout the week and ensuring new issues related to Foundations:
-  - Have the correct labels (team, priority, workflow, any other applicable category labels)
-  - Have a [weight](#issue-weighting).
-  - Are assigned to an [appropriate epic](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics?state=opened&page=1&sort=start_date_desc&label_name[]=team::Foundations) if applicable.
-- Asking issue authors for more information when needed to understand the scope of work.
-- Raising any `priority::1` or `priority::2` issues and ensuring they have a DRI and are being actively worked on.
-- Completing any issues that come up that can be completed during the week. Size M can be considered depending on the priority.
-   - Anything size L or larger (more than 1 week of work) should be made clear that it will need to be scheduled around other work.
-- Responding to alerts in [`#g_infra_foundations_alerts`](https://gitlab.enterprise.slack.com/archives/C04Q7RQC7FF).
-- Working on Renovate MRs posted in [`#g_infra_foundations_notifications`](https://gitlab.enterprise.slack.com/archives/C04RZC5TPPD).
-   - Patch updates with passing pipelines should be merged.
-   - Minor updates should have their changelogs be reviewed before merging.
-   - Major updates should be looked at closely to understand breaking changes before considering merging.
-- Responding to Terraform drifts related to Foundations services posted in [`#infra-terraform-alerts`](https://gitlab.enterprise.slack.com/archives/C06PZQCRUJH).
-- Respond to any Access Requests that need Foundations provisioning.
+We rotate triage duties weekly between team members as part of our [interrupt rotation](#interrupt-rotation). 
 
 ### Priority Levels for Requests
 
@@ -194,6 +174,28 @@ We have Geekbot automated checkins on Mondays and Fridays in the [#g_infra_found
 ### Prioritization of work
 
 We use priority labels to prioritize our work. OKR work is updated to `priority::2` when it is ready to be worked on. As such it is given higher priority than most other work. This means that external requests will be worked in based on their own priority and impact, where only P1 and P2 issues will regularly interrupt OKR work.
+
+### Interrupt Rotation
+
+The goal of the team member on interrupt rotation is to purposely plan to have interrupt work for a week so that the rest of the team can have less interrupt work. The [schedule is available in pager duty](https://gitlab.pagerduty.com/schedules#P7Y8O0E).
+
+The team member on rotation is responsible for:
+
+- Checking the [Production Engineering issue tracker](https://gitlab.com/gitlab-com/gl-infra/production-engineering/-/issues/?sort=created_date&state=opened&first_page_size=20) throughout the week and ensuring new issues related to Foundations:
+  - Have the correct labels (team, priority, workflow, any other applicable category labels)
+  - Have a [weight](#issue-weighting).
+  - Are assigned to an [appropriate epic](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics?state=opened&page=1&sort=start_date_desc&label_name[]=team::Foundations) if applicable.
+- Asking issue authors for more information when needed to understand the scope of work.
+- Raising any `priority::1` or `priority::2` issues and ensuring they have a DRI and are being actively worked on.
+- Completing any issues that come up that can be completed during the week. Size M can be considered depending on the priority.
+   - Anything size L or larger (more than 1 week of work) should be made clear that it will need to be scheduled around other work.
+- Responding to alerts in [`#g_infra_foundations_alerts`](https://gitlab.enterprise.slack.com/archives/C04Q7RQC7FF).
+- Working on Renovate MRs posted in [`#g_infra_foundations_notifications`](https://gitlab.enterprise.slack.com/archives/C04RZC5TPPD).
+   - Patch updates with passing pipelines should be merged.
+   - Minor updates should have their changelogs be reviewed before merging.
+   - Major updates should be looked at closely to understand breaking changes before considering merging.
+- Responding to Terraform drifts related to Foundations services posted in [`#infra-terraform-alerts`](https://gitlab.enterprise.slack.com/archives/C06PZQCRUJH).
+- Respond to any Access Requests that need Foundations provisioning.
 
 ### Project Management
 
