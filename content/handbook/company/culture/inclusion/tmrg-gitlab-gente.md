@@ -39,16 +39,17 @@ To promote advancement, cultural awareness, talent recruitment, retention, and p
 
 ## Upcoming Events
 
+
 - Gente TMRG Monthly Call: Monthly on the first Thursday 6:00pm – 6:25pm UTC [Notes](https://docs.google.com/document/d/12dYSDjiVvFt-c6UO9y350pFbrrK5Iq2o/edit)
 - Gente [Reverse AMA](/handbook/communication/ask-me-anything/#reverse-ask-me-anything) with CEO (Every 3-6 months): [Interest Form](https://docs.google.com/forms/d/19wwWuehn0PDtOwGq3Eh83hUbXWEEsawlhCZ4D-ecP_w/viewform?edit_requested=true)
-- Hispanic Heritage Month – [Issue](https://gitlab.com/gitlab-com/latinx-tmrg/-/issues/86)
 - `#gente-cafecito` [slack channel donut coffee chats](https://gitlab.slack.com/archives/C04NH46BXQU) (every two weeks)
 
 ## Past Events
 
 - Take professional photos even with your cellphone: [Issue](https://gitlab.com/gitlab-com/latinx-tmrg/-/issues/78) [Doc](https://docs.google.com/document/d/14_n0B8Wwk7IMfSO_JLNFEC_ytsEWRWikA0G9Pa8YTyg/edit) [Slides](https://drive.google.com/file/d/1I3bkWFpEAQPPEZMMulolnVypORIJFatl/view)
 - Latinas in Tech Virtual Summit: [Issue](https://gitlab.com/gitlab-com/latinx-tmrg/-/issues/79)
-- Hispanic Heritage month: [Video](https://youtu.be/PLT2KtXZQ8o?si=8JeS-n6SUCaThRWH)
+- Hispanic Heritage Month 2023: [Issue](https://gitlab.com/gitlab-com/latinx-tmrg/-/issues/86)
+- Hispanic Heritage Month 2022: [Video](https://youtu.be/PLT2KtXZQ8o?si=8JeS-n6SUCaThRWH)
 - Book Club: [Issue](https://gitlab.com/gitlab-com/latinx-tmrg/-/issues/19)
 - Look through our [youtube playlist](https://www.youtube.com/playlist?list=PL05JrBw4t0KoBIq6-SQisbcfZKaxxkK8r) to find other past events
 
