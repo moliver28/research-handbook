@@ -96,6 +96,41 @@ The Senior Director, Contracts and Legal Operations is a [grade 11](/handbook/to
 Outstanding interpersonal skills, the ability to interface effectively with business functions across the organization
 - Ability to use GitLab
 
+### Senior Director, Strategy & Operations - Legal & Corporate Affairs
+
+The Senior Director, Strategy & Operations - Legal & Corporate Affairs reports to the [Chief Legal Officer](/job-families/legal-and-corporate-affairs/chief-legal-officer/).
+
+#### Senior Director, Strategy & Operations - Legal & Corporate Affairs Job Grade
+
+The Senior Director, Strategy & Operations - Legal & Corporate Affairs is a [grade 11](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+
+#### An overview of this role
+
+The Senior Director, Legal Operations will be responsible for supporting GitLab’s Legal & Corporate Affairs team with a focus on defining and driving initiatives that improve the Legal & Corporate Affairs team’s efficiency and effectiveness. 
+
+#### What you'll do
+
+- Analyze processes and procedures to increase efficiency across each segment within Legal & Corporate Affairs
+- Create, implement, and maintain improved processes and automation with an emphasis on optimization and mitigation of risk
+- Lead cross-functional projects that further the strategy of the Legal & Corporate Affairs team, which require significant stakeholder engagement and collaboration
+- Manage and implement annual and quarterly budget for headcount, training, and technology stack with clear vision for future growth in line with company goals
+- Support the creation and launch of company-wide training and education
+- Develop, implement, and continually iterate on legal processes to be embedded within company workflows
+
+#### What you'll bring
+
+- Minimum of 10 years experience in in-house legal department operations, or functional equivalent
+- Proven success with annual and quarterly strategic planning and financial management of a high growth team
+- Expertise in planning, organizing and moderating various types of meetings and collaborative assignments, including but not limited to in-person events/off-sites, preparing presentations, agendas, and templates for attendees which drive positive outcomes
+- Strong ability to assist in the drafting and overall management of internal and external facing documentation, which can range from the preparation of Board of Director materials to onboarding for incoming team members
+- Outstanding interpersonal and communication skills, including the ability to interface effectively with business functions across the organization
+- Adept at coordinating action items across multiple teams including Finance, Product & Engineering, Marketing, Sales, and E-Group
+- Demonstrated success hiring, training, managing, developing, and retaining a high functioning team of legal operations professionals
+- Extensive experience in collaborating cross-functionally across the company and with multiple subject matter segments on the Legal & Corporate Affairs team in order to create, implement, and evolve complex business processes and automation of operations to maximize efficiency
+- Highly proficient in sourcing, implementing and managing a myriad of software and legal operations tools and accompanying tech stack, including contract management systems/databases, as well as internal to legal training materials, contract negotiation handbooks, and other tools to ensure consistency and standardization
+- Excellent business judgment and analytical skills, an appetite for intelligent risk and a keen ability to “read the room” in order collaborate, efficiently remove roadblocks and close deals; experience acting as an escalation point 
+- Ability to use GitLab
+
 ### Vice President, Legal Operations
 
 The Vice President, Legal Operations reports to the [Chief Legal Officer](/job-families/legal-and-corporate-affairs/chief-legal-officer/).
