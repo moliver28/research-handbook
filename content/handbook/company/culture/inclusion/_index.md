@@ -52,7 +52,7 @@ Embracing inclusion may increase the **sense of belonging**. Team members become
 
 We believe in empowering team members to get their work done efficiently and collaboratively by establishing clear [DRIs]({{< ref "directly-responsible-individuals" >}}) for all our work. [DRIs do not owe anyone an explanation for their decisions]({{< ref "directly-responsible-individuals#empowering-dris-no-explanation-needed" >}}), but DRIs can still acknowledge input by closing an issue and marking it `Won't Do` or commenting on an issue acknowledging that they have read all the comments.
 
-All team members don't have to agree on the best course of action- we can [disagree, commit, and disagree]({{< ref "values#disagree-commit-and-disagree" >}})- but everyone can contribute and it is on the DRI to acknowledge those.
+All team members don't have to agree on the best course of action- we can [disagree, commit, and disagree]({{< ref "values#disagree-and-commit" >}})- but everyone can contribute and it is on the DRI to acknowledge those.
 Some other ways we actively cultivate a sense of Belonging at GitLab include creating and cultivating allies, welcoming family members in the background of a call, and sharing [negative feedback in 1-1 settings]({{< ref "values#negative-feedback-is-1-1" >}}).
 
 **A good way to look at Diversity, Inclusion & Belonging is:**

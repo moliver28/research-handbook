@@ -282,7 +282,7 @@ These 10 GitLab values support efforts to unblock the wider community and push f
 1. [Short toes](/handbook/values/#short-toes)
 1. [Collaboration is not consensus](/handbook/values/#collaboration-is-not-consensus)
 1. [Bias for action](/handbook/values/#bias-for-action)
-1. [Disagree, commit, and disagree](/handbook/values/#disagree-commit-and-disagree)
+1. [Disagree, commit, and disagree](/handbook/values/#disagree-and-commit)
 1. [Escalate to unblock](/handbook/values/#escalate-to-unblock)
 1. [Cleanup over sign-up](/handbook/values/#cleanup-over-sign-off)
 1. [Minimal viable change](/handbook/values/#minimal-viable-change-mvc)
