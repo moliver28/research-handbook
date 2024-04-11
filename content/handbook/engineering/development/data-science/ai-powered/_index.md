@@ -47,7 +47,13 @@ Our teams are data-driven, support [dogfooding](https://about.gitlab.com/directi
   - For senior leaders, EMs and PMs across the primary AI teams to make sure they have a place to align with each other, we use `#ai-leads`.
   - To include the quads, engineers, designers, testers, infra, our key Marketing stakeholders, etc that are working on AI, we use `#ai-portfolio`. This will help us provide a SSoT avenue for communication so we don’t confuse groups or disseminate information separately.
   - In this way, we will avoid multiple downward communications or conflicting messages,  keep discussions inside issues, and be able to retain autonomy on the roadmap according to Roadmap Review & Revision. 
-- **Blocking work**: Address blocked work or critical responses being needed within a reasonable time to empower team members to drive progress and move forward.
+- **Blocking work**: 
+  - Our teams respond to inquiries with ETA to resolve within the designated time frame below:
+    - High priority - within 1 business day
+    - Medium priority - <= 5 business days
+  - For all inquiries, impact of no/delayed decision needs to be communicated to ensure that team members understand the "why" and context behind the importance (i.e slipped timelines, confidence reduction)
+  - If there are delays, AI Leads should escalate in the `#ai-leads` channel or `#ai-lt` channels, as appropriate
+  - If time frames are missed, then a few sentence [S-B-I reflection statement](/handbook/people-group/guidance-on-feedback/#s-b-i-model) should be shared with your manager to provide context and learning to see if we need to change/optimize the process
 - **Strategy for GitHub**: Communicate clearly our strategy for AI in the DevSecOps space so we can share a sense of urgency to compete and be a leader in the market.
 - **Quad connection**: Ensure that all key team members of the quad are connected and informed (Infra, Quality, Dev, PM, UX) to expand transparency and collaboration as groups.
   - The AI leads have started making weekly team announcements for developments across the groups. These are found [here](https://gitlab.com/gitlab-org/ai-powered/ai-weekly/-/issues/?sort=created_date&state=all&label_name%5B%5D=AI%20Powered%20Weekly%20Updates&first_page_size=20).
