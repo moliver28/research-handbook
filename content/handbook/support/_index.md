@@ -103,7 +103,7 @@ If you go through the responsibilities for each role in Support you can piece to
 
 - Support Engineers help solve customer problems via tickets, merge requests, and other customer facing activities.
 - Managers help solve Support Engineer problems by removing obstacles, joining in on customer facing activities, and working with support engineers to build systems that work to reduce friction and enable results and efficiency.
-- Senior Managers help resolve and avoid scaling problems by addressing team performance to KPIs, prioritizing initiatives and being responsible for the achievement of global results.
+- Senior Leaders help resolve and avoid scaling problems by addressing team performance to KPIs, prioritizing initiatives and being responsible for the achievement of global results.
 - VP of Support helps resolve and avoid company wide problems, by identifying growth and team design challenges, and reporting on progress to the Executives and Board.
 
 This simple list helps to give an easy way to set expectations and align problem solving in different roles.
