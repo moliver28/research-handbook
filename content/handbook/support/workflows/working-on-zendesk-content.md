@@ -28,7 +28,13 @@ Whether you're proposing minor changes directly or something bigger following an
 
 #### Macros
 
-Macros are [deployed immediately](/handbook/support/readiness/operations/docs/change_management/#zendesk-macros-change-management). For information on macros, please see [Zendesk Global Macros](/handbook/support/readiness/operations/docs/zendesk/macros/). If you want to add a new macro, open a STM issue and tag Support Operations as they need to create the macro initially. To change an existing macro, open a MR in the [gitlab-com/support/zendesk-global/macros](https://gitlab.com/gitlab-com/support/zendesk-global/macros) project.
+Macros are [deployed immediately](/handbook/support/readiness/operations/docs/change_management/#zendesk-macros-change-management). For information on macros, please see [Zendesk Global Macros](/handbook/support/readiness/operations/docs/zendesk/macros/).
+
+- If you want to edit the wording of a macro, make an MR to the repo (Zendesk Global or Zendesk US Government).
+- If you want to make non-wording changes (renaming it, add/removing options, etc.), use the [Support Super Form](https://support-super-form-gitlab-com-support-support-op-651f22e90ce6d7.gitlab.io/) 'Edit a Zendesk macro' option.
+- If you want to create a new macro, use the [Support Super Form](https://support-super-form-gitlab-com-support-support-op-651f22e90ce6d7.gitlab.io/) 'Create a Zendesk macro' option.
+- To discuss a macro (but not actually action on anything), use a support-team-meta issue.
+
 
 ## Previewing variable replacement
 

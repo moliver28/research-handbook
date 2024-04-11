@@ -1375,7 +1375,7 @@ Values make and clarify choices. A well-chosen value has a defensible opposite. 
 
 ## What is not a value
 
-- [All-remote](/handbook/company/culture/all-remote/) isn't a value. It is something we do because it helps to [practice our values](/handbook/company/culture/all-remote/values/) of transparency, efficiency, results, and diversity, inclusion & belonging.
+- [All-remote](/handbook/company/culture/all-remote/) isn't a value. It is something we do because it helps to [practice our values](/handbook/company/culture/all-remote/remote-values/) of transparency, efficiency, results, and diversity, inclusion & belonging.
 
 ## Questions from new team members
 
