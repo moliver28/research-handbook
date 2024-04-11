@@ -246,7 +246,7 @@ Open planned work for our team is located in the [Production Engineering](https:
 
 ##### Issue weighting
 
-We dogfood the weight feature in issues and align our weights to t-shirt sizes to make them easy to talk about:
+We dogfood the [weight feature](https://docs.gitlab.com/ee/user/project/issues/issue_weight.html) in issues and align our weights to t-shirt sizes to make them easy to talk about:
 
 - Weight 1 (XS) - A few hours of work. Consider if the work should just be completed now depending on competing priorities.
 - Weight 2 (S) - A day or two of work.
