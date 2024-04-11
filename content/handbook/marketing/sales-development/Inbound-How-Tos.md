@@ -162,4 +162,8 @@ If the opportunity is for a new group of users in a Large account where sales is
 | 9. IQM Notes | - SDR adds IQM notes to the Initiative section in the opportunity Title. <br> - Include Attendees, Raw Notes, Questions, Summary, and Next Steps. |
 | 10. Rebooking no-shows | - The SDR’s responsibility lies only in rebooking no-shows using the [Outreach rebook sequences](https://web.outreach.io/sequences?search=no%20show&sortBy=recent&sortDirection=desc). <Br> - Conduct outreach for 2 weeks. If IQM cannot be rescheduled, AE will unqualify the opportunity. |
 
+### Trial Extensions and Ultimate to Premium Downgrades
 
+To submit a trial extension ticket for a prospect you will navigate [to this internal request form](https://support-super-form-gitlab-com-support-support-op-651f22e90ce6d7.gitlab.io/) and fill it out the form using the **"GitLab L&R internal request for global customers"** option and then select extend a gitlab.com trial. Keep in mind it only works for SaaS and not self-managed. 
+
+You are also able to downgrade a Trial from Ultimate to Premium through the internal request form. You just have to choose "Change existing GitLab.com Trial plan"

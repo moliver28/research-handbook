@@ -24,14 +24,6 @@ If you know someone who might be interested in attending, feel free to share the
 
 ### AMER Time Zone Webinars & Labs
 
-#### Hands-On GitLab CI Lab 
-##### April 10th, 2024 at 9:00-11:00AM PT / 12:00-2:00PM ET
-
-Join us for a hands-on GitLab CI lab and learn how it can fit in your organization!
-
-Learn how to build simple GitLab pipelines and work up to more advanced pipeline structures and workflows, including security scanning and compliance enforcement.
-
-[<button class="btn btn-primary" type="button">Register</button>](https://gitlab.zoom.us/webinar/register/WN_5JolkHESQCOPVIWxYEQjgg#/registration)
 
 ### Jira to GitLab: Helping you transition to planning with GitLab
 ##### April 16th, 2024 at 9:00-10:00AM PT / 12:00-1:00PM ET
@@ -71,26 +63,7 @@ Join us for the AI in DevSecOps webinar where we will explore Artificial Intelli
 
 [<button class="btn btn-primary" type="button">Register</button>](https://gitlab.zoom.us/webinar/register/WN_-kIPWEcnTjOzVrKplN126g#/registration)
 
-### APJ Time Zone Webinars & Labs
-
-### Jira to GitLab: Helping you transition to planning with GitLab
-##### April 11th, 2024 at 10:30-11:30AM India / 12:00-1:00PM Indonesia / 1:00-2:00PM Singapore / 3:00-4:00PM Sydney  
-
-GitLab offers robust team planning capabilities that work directly with the DevOps lifecycle. Keeping teams in a single application offers operational and financial advantages. Many customers inquire about what a transition would look like from Jira Software to GitLab to team planning. This webinar will start to outline the differences in functionality and advantages gained by using GitLab. 
-
-[<button class="btn btn-primary" type="button">Register</button>](https://gitlab.zoom.us/webinar/register/WN_BQP74WAFTtiVOPPzdIup8w#/registration)
-
-
 ### EMEA Time Zone Webinars & Labs
-
-#### Hands-On GitLab CI Lab 
-##### April 10th, 2024 at 9:00-11:00AM UTC / 11:00AM-1:00PM CET
-
-Join us for a hands-on GitLab CI lab and learn how it can fit in your organization!
-
-Learn how to build simple GitLab pipelines and work up to more advanced pipeline structures and workflows, including security scanning and compliance enforcement.
-
-[<button class="btn btn-primary" type="button">Register</button>](https://gitlab.zoom.us/webinar/register/WN_tvijqCrhQSyebWuVslTKcQ#/registration)
 
 ### Jira to GitLab: Helping you transition to planning with GitLab
 ##### April 16th, 2024 at 9:00-10:00AM UTC / 11:00AM-12:00PM CET
