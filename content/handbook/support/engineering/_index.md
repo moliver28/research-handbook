@@ -67,10 +67,10 @@ end of each week with a list of support team contributions merged in the past we
 - [ExplainShell](https://explainshell.com/) - Break down a terminal command
 - [Espanso](https://espanso.org/) - Versatile text expander (a.k.a. text replacer or canned response tool)
 - [Insomnia](https://insomnia.rest/) - Build, debug, and test API queries, and generate the code for them
-- [iTerm2](https://iterm2.com/) - Terminal emulator with robust theming and customization options
+- [iTerm2](https://iterm2.com/) (macOS) - Terminal emulator with robust theming and customization options
 - [LanguageTool](https://languagetool.org/) - Free, **offline** grammar, spelling, and style checker
 - [Obsidian](https://obsidian.md/) - Super customizable markdown notetaking app with tons of themes and addons
-- [Raycast](https://www.raycast.com/) - Omnibox helper with tons of plugins for emoji, clipboard history, unit conversions, calculations, search, a confetti effect, and more
+- [Raycast](https://www.raycast.com/) (macOS) - Omnibox helper with tons of plugins for emoji, clipboard history, unit conversions, calculations, search, a confetti effect, and more
 - [Zed](https://zed.dev/) - Lightweight but powerful IDE 
 - Menu bar clocks (macOS)
   - [iStat Menus](https://bjango.com/mac/istatmenus/) - Robust system monitor for the toolbar, including highly customizable clock options
