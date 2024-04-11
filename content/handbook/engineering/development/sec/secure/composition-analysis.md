@@ -127,7 +127,7 @@ These items must be triaged continuously throughout the milestone which means th
 
 ### Feature DRIs guide 
 
-Engineers from the Composition Analysis group may be assigned as DRIs for an epic, and are expected to represent the DRI's values & responsibilities as highlighted [here](/handbook/people-group/directly-responsible-individuals/).  
+Engineers from the Composition Analysis group may be assigned as DRIs for an epic, and are expected to represent the DRI's values & responsibilities as highlighted [by the people group](/handbook/people-group/directly-responsible-individuals/).  
 
 Being assigned as a DRI for a feature epic will not come as a surprise. Prior to assingment, the engineering manager responsible for the feature epic will suggest the assignment in the weekly 1:1 meeting. This will be a good opportuinity to ask any questions and align mutual expectations. The engineering manager will provdie at least one weeks time to contemplate acceptance of the assignment.
 
@@ -136,7 +136,7 @@ Being assigned as a DRI for a feature epic will not come as a surprise. Prior to
 1. As a DRI the engineer is expected to perform several duties:
     1. Drive the design & development of the feature
     1. Maintain a clear & concise issue description
-    1. Communicate the status of the epic and its issues as [seen here](/handbook/engineering/workflow/#updating-workflow-labels-throughout-development) and [above](#indicating-status-and-raising-risk)
+    1. Communicate the status of the epic and its issues as described in the [engineering workflow guide](/handbook/engineering/workflow/#updating-workflow-labels-throughout-development) and [above](#indicating-status-and-raising-risk)
     1. Collaborate with stakeholders; Product, UX, Community, Sales & Support
 
 
@@ -148,7 +148,7 @@ Upon first accepting the DRI assignment, the first responsibility of the DRI wou
 In most cases, it would not be immediatley clear how an epic could be broken down. To find the best course of action, [spikes](https://www.c-sharpcorner.com/article/what-is-spike-in-agile-software-development2/) need to be initiated.  
 
 __Spikes should follow the above guidelines__:
-1. Be timeboxed in days (using weights)
+1. Be timeboxed in days
 1. Containting a list of questions to be answered
 1. Need to be updated with results, gathered data and conclusions
 1. Labeled `~"workflow::refinement"` when writing down the questions & `~"workflow::in dev"` while working to answer the questions
@@ -174,7 +174,11 @@ While heavy use of the comment section enables [collarboration](/handbook/compan
 
 #### Communicate the status of the epic and its issues
 
-Every issue created has to be attached to the epic that caused it. All issues need to be labeled to reflect their status as [seen here](/handbook/engineering/workflow/#updating-workflow-labels-throughout-development) and [above](#indicating-status-and-raising-risk). Once created, issues should be weighted, assigned, attached to a milestone and be labled `~"deliverable"` / `~"stretch"`.
+Every issue created has to be attached to the epic that caused it. All issues need to be labeled to reflect their status as described in the[engineering workflow guide](/handbook/engineering/workflow/#updating-workflow-labels-throughout-development) and [above](#indicating-status-and-raising-risk). Once created, issues should be weighted, assigned, attached to a milestone and be labled `~"deliverable"` / `~"stretch"`.
+
+##### Weighting guide
+
+Weights are used to signal the complexity of the tasked described in the issue. They are not a hard boundary for time spent. 
 
 ##### Weekly progress report
 
