@@ -2,7 +2,7 @@
 title: "Commercial Account Executive Job Family"
 
 ---
-## Commercial Account Executive - Mid-Market 
+## Commercial Account Executive - Mid-Market
 
 ### Job Grade
 
