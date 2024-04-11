@@ -9,7 +9,7 @@ description: "The TeamOps Sales and Marketing Working Group aims to manage the d
 |:----------------|:--------------------------------------------------------------------------------------------------------------------------------------------------|
 | Date Created    | 2023-03-06                                                                                                                                        |
 | Target End Date | 2023-04-31                                                                                                                                        |
-| Overview        | [Issue](https://gitlab.com/gitlab-com/ceo-chief-of-staff-team/workplace/teamops-fy24-q1/-/issues/3)   |
+| Overview        | [Issue](https://gitlab.com/gitlab-com/office-of-the-ceo/workplace/teamops-fy24-q1/-/issues/3)   |
 | Slack channel   | [#wg_teamops](https://gitlab.slack.com/archives/C050C7WFE1X)   |
 | Google Doc      | [Working Group Agenda](https://drive.google.com/drive/search?q=TeamOps%20Marketing%20Working%20Group%20Agenda%20FY24-Q1) (only accessible from within the company) |
 
@@ -21,7 +21,7 @@ The TeamOps Sales and Marketing Working Group aims to manage the design and kick
 
 [TeamOps](/handbook/teamops/direction/) needs to generate revenue, and requires a cross-functional working group to discuss, and design one more relevant plans.
 
-Please see the [overview issue](https://gitlab.com/gitlab-com/ceo-chief-of-staff-team/workplace/teamops-fy24-q1/-/issues/3) for more information.
+Please see the [overview issue](https://gitlab.com/gitlab-com/office-of-the-ceo/workplace/teamops-fy24-q1/-/issues/3) for more information.
 
 ### Exit Criteria
 

@@ -1,15 +1,6 @@
 ---
-
 title: "Python Guide"
 description: "It is our collective responsibility to enforce this Python Style Guide since our chosen linter does not catch everything."
----
-
-
-
-
-
-
-
 ---
 
 ## Python Guide
@@ -37,8 +28,8 @@ It is difficult to resist writing a python guide without mentioning the `Zen of 
 It is a helpful mental exercise when you want to write outstanding Python without overlooking basic ideas.
 
 ```bash
-╰─$ python3                               
-Python 3.8.6 (v3.8.6:db455296be, Sep 23 2020, 13:31:39) 
+╰─$ python3
+Python 3.8.6 (v3.8.6:db455296be, Sep 23 2020, 13:31:39)
 [Clang 6.0 (clang-600.0.57)] on darwin
 Type "help", "copyright", "credits" or "license" for more information.
 >>> import this
@@ -102,7 +93,7 @@ Probably a couple more of them are count:
 
 ### Specific guidelines
 
-With a good framework definition on the high level of using the proper architectural approach for designing and structuring the `Python` code, now it is time to do a deep dive and leverage details should make the difference between good and the outstanding code.  
+With a good framework definition on the high level of using the proper architectural approach for designing and structuring the `Python` code, now it is time to do a deep dive and leverage details should make the difference between good and the outstanding code.
 
 ### Project setup - Poetry
 
@@ -262,7 +253,7 @@ Ignored variable `_` can be part of unpacking as well:
 ## Bad!
 a, _ , c = [1, 2, 3, 4] # This will raise an error
 
-## Good! This will work (* is going before _)  
+## Good! This will work (* is going before _)
 a, *_ , c = [1, 2, 3, 4]
 
 ## Good!
@@ -345,7 +336,7 @@ print(f"{string1} {string2}")
 # Python Guideline
 ```
 
-As you noticed here, the result is the same, but details make a difference. In the example above, we dealt with strings, but what will gonna happen when we introduce more data types within the same code.  
+As you noticed here, the result is the same, but details make a difference. In the example above, we dealt with strings, but what will gonna happen when we introduce more data types within the same code.
 
 ```python
 
@@ -546,25 +537,25 @@ When starting a `for` loop or `if/else` block, add a new line above the section 
 ## Bad!
 def foo(input_number:int) -> int:
     """
-    Do some simple comparing 
+    Do some simple comparing
     """
     res = input_number
     if res == 2:
          return res
-    else: 
-         return res ** 2   
+    else:
+         return res ** 2
 
 ## Good!
 def bar(input_number:int) -> int:
     """
-    Do some simple comparing 
+    Do some simple comparing
     """
-    
+
     res = input_number
-    
+
     if res == 2:
          return res
-    else: 
+    else:
          return res ** 2
 ```
 
@@ -595,7 +586,7 @@ def bar(some_str: str) -> None:
     """
     Print a string.
     """
-    
+
     print(some_str)
     return
 ```
@@ -658,7 +649,7 @@ def bar(some_str: str) -> None:
 
 ## Better! Have Docstring on a module level.
 """
-This is a Docstrings on a module level. 
+This is a Docstrings on a module level.
 Should be handy to describe a purpose of your module
 """
 
@@ -723,9 +714,9 @@ Ideally, never hardcode the date format using datetime.strptime unless absolutel
 ## Bad !
 datevar = datetime.strptime(tstamp, timestamp_format = "%Y-%m-%dT%H:%M:%S%z")
 
-## Good ! 
+## Good !
 from dateutil import parser as date_parser
- ... 
+ ...
 datevar = date_parser.parse(tstamp)
 ```
 
@@ -820,7 +811,7 @@ try:
 except:
    print("Caught every type of exception")
 
-# Good! 
+# Good!
 while maximum_backoff_sec > (2 ** n):
     try:
         print("Do something")
@@ -934,7 +925,7 @@ def test_example(myfixture):
 # this will also pass as myfixture is reused
 def test_example_additional(myfixture):
     assert type(myfixture) == str
-# test.py::test_example_additional PASSED 
+# test.py::test_example_additional PASSED
 ```
 
 ##### Parametrized Test Functions
@@ -996,9 +987,9 @@ def test_local():
 # will fail, just to recognize what we run
 ╰─$ pytest test.py -m network_access
 ...
-collected 2 items / 1 deselected / 1 selected                                                                                                                                                                                                                                          
+collected 2 items / 1 deselected / 1 selected
 
-test.py F  
+test.py F
 ```
 - run just `local_test` test(s):
 
@@ -1006,9 +997,9 @@ test.py F
 # this will pass
 ╰─$ pytest test.py -m local_test                                                                                                                                                                                                                                                    1 ↵
 ...
-collected 2 items / 1 deselected / 1 selected                                                                                                                                                                                                                                          
+collected 2 items / 1 deselected / 1 selected
 
-test.py .        
+test.py .
 ```
 
 ##### Duration Report
@@ -1038,7 +1029,7 @@ def test_slowest():
 ╰─$ pytest test.py --durations=1
 = test session starts =
 ...
-collected 3 items                                                                                                                                                                                                                                                                      
+collected 3 items
 
 test.py ...                                                                                                                                                                                                                                                                      [100%]
 
@@ -1086,8 +1077,8 @@ def mocked_responses():
     """
     with responses.RequestsMock() as rsps:
     yield rsps
-    
-    
+
+
 # test fake response
 def test_convert_response_to_json(fake_response):
     """
@@ -1168,7 +1159,7 @@ mypy extract/ --ignore-missing-imports
 ##### flake8
 
 Your tool for style guide enforcement:
-[**Flake8**]((https://flake8.pycqa.org/en/latest/)) is a popular lint wrapper for python. Under the hood, it runs three other tools and combines their results: pep8 for checking style. pyflakes for checking syntax. mccabe for checking complexity.
+[**Flake8**](https://flake8.pycqa.org/en/latest/) is a popular lint wrapper for python. Under the hood, it runs three other tools and combines their results: pep8 for checking style. pyflakes for checking syntax. mccabe for checking complexity.
 
 ```bash
 flake8 . --ignore=E203,E501,W503,W605

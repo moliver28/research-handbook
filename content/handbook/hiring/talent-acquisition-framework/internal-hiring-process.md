@@ -60,7 +60,7 @@ Ensure you have met your department specific eligibility requirements:
       - Business Impact  (revenue-dependencies, interim role to perm)
       - Business driven transfers (example of realignments)
       - SDR 12 month in role
-- For any situations where further discussion may be needed, People Connect Leads will go to the department specific [PBP]({{< ref "/handbook/people-group#people-business-partner-alignment-to-division" >}}).
+- For any situations where further discussion may be needed, People Connect Leads will go to the department specific [PBP](/handbook/people-group#people-business-partner-alignment-to-division).
 
 ## Hiring Manager Responsibilities
 

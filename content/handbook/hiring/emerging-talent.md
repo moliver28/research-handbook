@@ -10,7 +10,7 @@ This page outlines the strategy for how we **enable**, **develop**, and **connec
 
 ## Our Mission
 
-Our mission is to **attract**, **acquire**, and **activate** talent to unlock their potential, connecting learning agility with opportunity.
+Our mission is to **attract**, **acquire**, and **activate** talent to unlock their potential, connecting learning agility with employment opportunities.
 
 This is anchored in the belief that building a balanced workforce will enable GitLab to scale effectively and inclusively, and that building a strong foundation today will greatly impact our future growth.
 

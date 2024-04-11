@@ -22,6 +22,7 @@ description: "Contributor Success Team"
 | **Contributing Organization Tracking** | [Contributing Organization Tracking](/handbook/marketing/developer-relations/contributor-success/contributing-org-tracker) |
 | **A Contributor's User Journey** | [User Journey](/handbook/marketing/developer-relations/contributor-success/user-journey) |
 | **Community pairing sessions** | [Community pairing sessions](/handbook/marketing/developer-relations/contributor-success/community-pairing-sessions) |
+| **Innovation Pitch Competition** | [Innovation Pitch Competition](/handbook/marketing/developer-relations/contributor-success/innovation-pitch-competition) |
 
 - - -
 

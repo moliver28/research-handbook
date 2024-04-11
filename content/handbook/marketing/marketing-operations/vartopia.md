@@ -1,6 +1,6 @@
 # Vartopia Overview
 
-Vartopia is a partner lead sharing and deal registration system designed to maximize the value of [GitLab partner program](/handbook/resellers/) for channel partners. Vartopia offers multiple module including Prospects, Deal Registration, Account Mapping and Campaign. Partner lead sharing is part of the Prospects module, while deal registration is part of the New Registration and Registrations module. Watch [this video](https://youtu.be/BmmiH_ctALk) for step-by-step instructions on where partners can view, accept, reject, assign and convert leads to deal registration.
+Vartopia is a partner lead sharing and deal registration system designed to maximize the value of [GitLab partner program](/handbook/resellers/) for channel partners. Vartopia offers multiple module including Prospects, Deal Registration, Account Mapping and Campaign. Partner lead sharing is part of the Prospects module, while deal registration is part of the New Registration and Registrations module. Watch [this video](https://vimeo.com/819610456) for step-by-step instructions on where partners can view, accept, reject, assign and convert leads to deal registration.
 
 # Prospects Module
 
@@ -38,6 +38,12 @@ Here are the steps to resolve the sync fail.
 5. `Vartopia Deal Registration System Access` on the account must be `Active`.
 
 If all these are submitted correctly, then submit a Vartopia support ticket with a list of the failed sync and its `Vartopia Prospect Id`. The `Vartopia Prospect Id` (ex. L-555555) is a unique lead number identified populated by SFDC that shows in Vartopia and SFDC. We can use this as a non-PII identifier in both systems.
+
+### Prospects to Deal Registration
+
+We can link the Prospect to the DR so long as it’s in Prospect Share Status = `Accepted`, and there is either a matching domain and/or an exact match on the email address. Partners will be prompted with a pop-up to link the Prospect upon DR creation. When the DR is created, Partner Prospect Status will automatically be updated to `Converted to DR`.
+
+[See](https://youtu.be/ktZikNBMOpk) how this works.
 
 ## Notifications
 
@@ -247,6 +253,27 @@ In comparison to the main process, we are required to create a child campaign pe
 7. Marketo - import the leads from POP to the child campaign -  leads must already be assigned to partners on import.
 8. Vartopia - when a partner converts the lead to DR, Vartopia will recognize there's a campaign linked to the account, and display a dropdown to select the campaign name.
 9. Salesforce - see the deal registration that's created and update the metrics on the campaign.
+
+### Carahsoft
+
+#### Distributor Marketing Campaign
+
+On the second page of the DR form, we will have a new campaign field called: `Distributor Marketing Campaign` dropdown when the Distributor Account is selected. The campaigns are collected via a smartsheet which Gabby will be responsible for keeping up to date. When a new entry is submitted to the smartsheet, Vartopia is responsible for adding that campaign to the Distributor Marketing Campaign dropdown.
+
+Then, they will no longer need to use the GitLab Marketing Campaign on the deal registration form.
+
+This will allow the Distributor to tie the DR to the campaign, HOWEVER, we’ll still need to use the Partner Placeholder Pubsec reseller account.
+
+This process is still a work in progress, follow along in this [epic](https://gitlab.com/groups/gitlab-com/-/epics/2249) for the next iteration.
+
+#### Value-Add Campaign
+
+The purpose of this use case is to allow Value-Add campaigns to be available in the Distirbutor Marketing Campaign dropdown to track ROI.
+
+1. Gabby - Create a Marketing Ops issue assigned to Salina requesting to have the SFDC campaign created and provide the name of the campaign.
+2. Salina - Create the SFDC campaign, and Salina will provide Gabby with the Salesforce Campaign ID
+3. Gabby - Add Campaign name and info to the [Smartsheet](https://app.smartsheet.com/sheets/Jrr5PhjRjRfH965FqrvCq7GC9p56whHXp22C98m1)
+4. This will allow the Campaign Name to be displayed on the Distributor Marketing Campaign.
 
 # Field Glossary
 

@@ -3,8 +3,6 @@
 title: "Architecture Design Workflow"
 ---
 
-# Architecture Design Workflow
-
 As engineers at GitLab, we lead the **evolution** of software, constantly
 working to find the right balance between proactive work, reactive work, and
 innovation. We strive to determine what work is important and what work is not,

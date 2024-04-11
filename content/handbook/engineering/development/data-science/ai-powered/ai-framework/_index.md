@@ -1,12 +1,12 @@
 ---
 title: AI Framework Group
-description: "The AI Framework group is focused on how to support other product groups at GitLab with the AI Abstraction Layer, and GitLab Duo Chat functionality."
+description: "The AI Framework group is focused on how to support other product groups at GitLab with the AI Abstraction Layer, and GitLab AI feature development."
 aliases: /handbook/engineering/development/data-science/ai-framework
 ---
 
 ## Vision
 
-The AI Framework group is focused on how to support other product groups at GitLab with the AI Abstraction Layer, and GitLab Duo Chat functionality.
+The AI Framework group is focused on how to support other product groups at GitLab with the AI Abstraction Layer, and GitLab AI feature development.
 
 ### 👌 Team OKRs
 
@@ -33,6 +33,7 @@ If you're interested in the team's Objectives and Key Results (OKRs), you can fi
 * Providing essential support for our AI chat system framework.
 * Incorporating support for new AI providers when required.
 * Assisting with the production support and ensuring the readiness of the AI Gateway.
+* LLM inference support, including prompt enginering, response evaluation, fine tuning, evaluation, and more.
 
 ### ☎️ How to reach us
 
@@ -50,7 +51,7 @@ Depending on the context here are the most appropriate ways to reach out to the 
 #### Team Meetings
 
 1. **Weekly Work Assignment Meeting**
-   - **When:** Every Monday, 14:00 PM GMT+1
+   - **When:** Every Monday, alternating between 09:00 AM GMT+1 and 17:00 PM GMT+1
    - **What:** This meeting is dedicated to workload assignment. The Engineering Manager and Product Manager assign work as needed for the entire team.
 
 2. **Bi-Weekly Engineering Sync**
@@ -77,41 +78,32 @@ Each week the team EM provides a Weekly Status update issue which aims to captur
 Our workflow process for our [board](https://gitlab.com/groups/gitlab-org/-/boards/7346017?label_name[]=group%3A%3Aai%20framework) is outlined below.
 
 1. **Open** 📝: This list contains all identified issues. An engineering manager will be assigned if either the Milestone or the label "workflow::ready for development" is missing.
-2. **workflow::solution validation** 🧪: Issues here are undergoing validation to ensure the proposed solution meets the requirements. Once validated, the "ready for development" label is applied.
+2. **workflow::problem validation** 🧪: Issues here are undergoing validation to ensure the proposed solution meets the requirements. Once validated, the "ready for development" label is applied.
 2. **workflow::ready for development** 🎯: Issues that have been prioritized and assigned to a specific milestone are moved to this list and the "ready for development" label is applied.
 3. **workflow::in dev** 👩‍💻: When a developer starts working on an issue, they should move it to this list and apply the "in dev" label.
 4. **workflow::in review** 👀: Once the development work on an issue is complete, it should be moved to this list and the "in review" label should be applied.
 5. **workflow::verification** ✅: After the code and UX review is complete, the issue should be moved to this list and the "verification" label should be applied.
 6. **workflow::complete** 🎉: Once the issue has been verified and everything is working, it should be moved to this list, the "complete" label should be applied, and the issue should be closed.
 
+### 📝 Issue Priority
+
+To ensure that our developers are aware of the priority of their work, we [use three labels](https://gitlab.com/groups/gitlab-org/-/labels?subscribed=&sort=relevance&search=AIF):
+
+- **AIF-Priority::1**: This label is for issues that are of the highest priority. These issues should be addressed first.
+- **AIF-Priority::2**: This label is for issues that are of medium priority. These issues should be addressed after all Priority 1 issues have been resolved.
+- **AIF-Priority::3**: This label is for issues that are of lower priority. These issues should be addressed after all Priority 1 and Priority 2 issues have been resolved.
+
 ### 🔄 Processes
 
-#### Weekly 🗓️
+#### 🗓️ Weekly
 
 1. **Backlog Refinement 📝**: (DRI: PM /EM) Once per week, review all the issues in the **Open** lane. Prioritize them based on their importance, urgency, and input from the team. Identify which issues need discovery work and which can be moved straight into **workflow::ready for development**.
-2. **Discovery Work Assignment 🧪**: (DRI: PM/EM) Move issues that need discovery work into the **workflow::solution validation** lane. These issues are not yet fully defined and need further investigation before they can be developed.
+2. **Discovery Work Assignment 🧪**: (DRI: PM/EM) Move issues that need discovery work into the **workflow::problem validation** lane. These issues are not yet fully defined and need further investigation before they can be developed.
 3. **Ready for Development Assignment 🎯**: (DRI: PM/EM) Move issues that have the necessary details for development into the **workflow::ready for development** lane. These issues are either already assigned to an individual contributor (IC), or if not, are ordered by priority so they can be picked up with ease.
 4. **Progress Check 🔄**: (DRI: Assigned Developer) Check the **workflow::in dev** lane daily to see the status of the ongoing tasks. 
 5. **Review Completed Tasks 👥**: (DRI: Assigned Developer) Review the tasks in the **workflow::in review** lane. Ensure they are moving forward.
 
 **Issues for the AI Framework team are binary: they are categorized as either a discovery issue, requiring further investigation, or an implementation issue, ready for development. This approach helps us maintain a lean and efficient workflow.**
-
-#### Milestone Running Dates 2023 - 2024 📅
-
-| Milestone | Start Date | End Date |
-|-----------|------------|----------|
-| 16.7 | Nov 11, 2023 | Dec 15, 2023 |
-| 16.8 | Dec 16, 2023 | Jan 19, 2024 |
-| 16.9 | Jan 20, 2024 | Feb 16, 2024 |
-| 16.10 | Feb 17, 2024 | Mar 15, 2024 |
-| 16.11 | Mar 16, 2024 | Apr 19, 2024 |
-| 16.12 | Apr 20, 2024 | May 17, 2024 |
-| 17.0 | May 18, 2024 | Jun 21, 2024 |
-| 17.1 | Jun 22, 2024 | Jul 19, 2024 |
-| 17.2 | Jul 20, 2024 | Aug 16, 2024 |
-| 17.3 | Aug 17, 2024 | Sep 20, 2024 |
-| 17.4 | Sep 21, 2024 | Oct 18, 2024 |
-| 17.5 | Oct 19, 2024 | Nov 15, 2024 |
 
 ### 📝 Issue Guidelines
 

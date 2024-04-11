@@ -112,7 +112,7 @@ Guidelines for Priority (Not comprehensive, please build upon)
 
 ### Including Threat Modeling in the review
 
-When [threat modeling]({{< ref "../../threat-modeling" >}}) should be done
+When [threat modeling]({{< ref "./threat-modeling" >}}) should be done
 during the review add the `threat model::needed` label to the original issue or epic and the
 appsec review issue. That way we can track the adoption of threat modeling throughout GitLab. When
 the threat modeling step is done the
@@ -134,7 +134,7 @@ following the conditions below:
 [1]: https://docs.google.com/document/d/15eNKGA3zyZazsJMldqTBFbYMnVUSQSpU14lo22JMZQY/edit
 [2]: https://gitlab.com/gitlab-com/gl-security/appsec/appsec-reviews/issues
 [3]: {{< ref "./_index.md#stable-counterparts" >}}
-[4]: {{< ref "/handbook/security#issue-triage" >}}
+[4]: /handbook/security#issue-triage
 
 ## Internal Application Security Reviews
 

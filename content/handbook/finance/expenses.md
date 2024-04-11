@@ -351,7 +351,7 @@ The company will cover all work-related travel expenses. This includes lodging a
 
 #### Conferences
 
-- All costs associated with attending a conference to represent GitLab are reimbursable and an approved completed [G&D issue]({{< ref "/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development" >}}) will need to be noted in the expense report upon submission. Please refer to the [Growth and Development handbook page]({{< ref "/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development" >}}) for further details and requirements. The reimbursement limits currently denoted in the Growth and Development handbook page do not include the cost of travel to and from the conference, so please ensure you have Manager approval for the cost of the travel.
+- All costs associated with attending a conference to represent GitLab are reimbursable and an approved completed [G&D issue](/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development) will need to be noted in the expense report upon submission. Please refer to the [Growth and Development handbook page](/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development) for further details and requirements. The reimbursement limits currently denoted in the Growth and Development handbook page do not include the cost of travel to and from the conference, so please ensure you have Manager approval for the cost of the travel.
 - Select classification or tag “Growth and Development” in Navan when you create expenses.
 - Needs to have approved G&D Development issue which will be reviewed by AP Admin.
 - No conference expense, with the exception of travel, should be allowed outside of G&D, unless the Team Member is a speaker for an event or required to attend an event for job related responsibilities (i.e. staffing or sales).
@@ -400,7 +400,7 @@ The company will cover all work-related travel expenses. This includes lodging a
 - Baby gifts are not reimbursable, as the GitLab People team already sends team members a congratulatory gift.
 - The cost of the gifts and flowers provided to GitLab Team Members will be allocated to the senders departmental budget. The allowable cost for gifts is up to $125 USD (including shipping) per gift.
 - If you would like to buy holiday gifts for your team, these need to be done personally and should not be expensed.
-- People Managers are to use their own personal card for expense reimbursement. People Managers will need to be sure to use Team MemberGiftsFlowers and the account 6028 in Navan Expense for the expense.
+- People Managers are to use their own personal card for expense reimbursement. People Managers will need to be sure to use Team `EmployeeGiftsFlowers` and the account 6028 in Navan Expense for the expense.
 - For further questions regarding expensing of gifts and flowers, please reach out to the AP team via the #expense-reporting-inquiries Slack channel or through email (expenses@gitlab.com).
 
 {{% panel header="**Coding**" header-bg="green" %}}
@@ -531,22 +531,22 @@ The company will cover all work-related travel expenses. This includes lodging a
 ### Team Building
 
 - To be used for team activities and food/beverages associated with special team events. Amount allowed is dependent on their department budget for the year.
-- In FY24, each EGroup member has been allocated a budget per quarter for FY24-Q2 to FY24-Q4 for team building events.
+- In FY25, each EGroup member has been allocated a budget per quarter for FY25-Q2 to FY25-Q4 for team building events.
 - Each EGroup member can use their discretion when using the budget.
 - The budget should be used within the quarter the funds are allocated and unused funds cannot be moved to a different quarter.
 - This budget should cover leadership offsites, Team Members get togethers, the holiday party and other virtual fun events.
-- In Navan, the Team Member must code any related expense to GL code "Team events & meals" and Classification (under optional details) "FY24 Team Building Budget".
+- In Navan, the Team Member must code any related expense to GL code "Team events & meals" and Classification (under optional details) "FY25 Team Building Budget".
 - The expense needs to be submitted in the same month as the event or if not possible due to the timing of the event, the latest acceptable submission will be before the end of the fiscal quarter that the event took place.
 
 {{% panel header="**Coding**" header-bg="green" %}}
 - **Expense Type / Navan Policy Category:** Team events & meals
-- **Classification:** FY24 Team Building Budget
+- **Classification:** FY25 Team Building Budget
 {{% /panel %}}
 
 ### Training/Tuition
 
 - All costs associated with training or tuition are reimbursable.
-- An approved [completed G&D issue]({{< ref "/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development" >}}) will need to be noted in the expense report upon submission.
+- An approved [completed G&D issue](/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development) will need to be noted in the expense report upon submission.
 - The Growth and Development benefit is managed in partnership by the Total Rewards and Learning and Development team.
 - Select classification or tag “Growth and Development” in Navan when you create expenses.
 - AP Admin needs to review expense for approved issue.
@@ -559,7 +559,7 @@ The company will cover all work-related travel expenses. This includes lodging a
 
 ### VPN Subscription
 
-- Please read [Why We Don't Have A Corporate VPN]({{< ref "/handbook/security#why-we-dont-have-a-corporate-vp" >}}n), and check out our [Personal VPN]({{< ref "personal-vpn" >}}) page regarding usage at GitLab.
+- Please read [Why We Don't Have A Corporate VPN](/handbook/security#why-we-dont-have-a-corporate-vpn), and check out our [Personal VPN]({{< ref "personal-vpn" >}}) page regarding usage at GitLab.
 - Policy is set at $150 per year.
 - Yearly subscription can be submitted in one claim.
 - Monthly subscriptions to be submitted monthly.
@@ -603,7 +603,7 @@ The procedure by which reimbursable expenses are processed varies and is depende
 #### PEO (Professional Employer Organization/ Employer of Record and not a GitLab entity or Branch)
 
 **Global Upside, Remote.com and Papaya Global**
-- The list of Global Upside, Remote & Papaya countries can be found [here]({{< ref "/handbook/people-group/employment-solutions#peo-professional-employer-organization-employer-of-record-and-not-a-gitlab-entity" >}}).
+- The list of Global Upside, Remote & Papaya countries can be found [here](/handbook/people-group/employment-solutions#peo-professional-employer-organization-employer-of-record-and-not-a-gitlab-entity).
 - Team Members must submit their expenses through Navan.
 - All expenses must be submitted and approved by the Accounts Payable team (for out of policy expenses) on or before the 6th of each month to ensure it is included in the current month's payroll.
 
@@ -614,7 +614,7 @@ The procedure by which reimbursable expenses are processed varies and is depende
 
 **CXC Global**
 
-- The list of CXC countries can be found [here]({{< ref "/handbook/people-group/employment-solutions" >}}).
+- The list of CXC countries can be found [here](/handbook/people-group/employment-solutions).
 - Team Members must submit their expenses through Navan.
 - All expenses must be submitted and approved by the Accounts Payable team (for out of policy expenses) on or before the 6th of each month to ensure it is included in the current month's payroll.
 - GitLab Payroll Team will send the approved expense amount to CXC EMEA Payroll to include with the monthly salary.

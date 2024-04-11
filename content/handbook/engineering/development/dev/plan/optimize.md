@@ -202,7 +202,7 @@ Issues labelled `Stretch` are stretch goals for delivering in the current milest
 
 ##### Community contributions
 
-Issues that have previously been agreed upon and labelled as `Community contribution` should be [triaged](/handbook/engineering/quality/issue-triage/) to ensure they have:
+Issues that have previously been agreed upon and labelled as `Community contribution` should be [triaged](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/) to ensure they have:
 
 - A clear [implementation plan](/handbook/engineering/development/dev/create/ide/community-contributions/#treat-wider-community-as-primary-audience).
 - A relevant weight estimate.
@@ -256,17 +256,17 @@ The need for a proof-of-concept MR may signal that parts of our codebase or prod
 
 #### Issue triage
 
-We generally follow the [Issue Triage](/handbook/engineering/quality/issue-triage) guidelines.
+We generally follow the [Issue Triage](/handbook/engineering/infrastructure/engineering-productivity/issue-triage) guidelines.
 
 Expectations by role:
 
 - PM is the DRI for `type::feature`
 - EM is the DRI for `type::bug`
 - UX supports the decision around severity labels for issues with `UX`, `Deferred UX`, and `SUS`
-  - Where the UX severity and PM/EM severity is different, we take the [higher severity of the two](/handbook/engineering/quality/issue-triage/#examples-of-severity-levels).
+  - Where the UX severity and PM/EM severity is different, we take the [higher severity of the two](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#examples-of-severity-levels).
 - Engineers are encouraged to participate
 
-On a weekly basis, we aim to triage as many issues as possible. We strive to perform a [complete triage](/handbook/engineering/quality/issue-triage/#complete-triage) on issues requiring triage.
+On a weekly basis, we aim to triage as many issues as possible. We strive to perform a [complete triage](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#complete-triage) on issues requiring triage.
 
 ### Working on unscheduled issues
 

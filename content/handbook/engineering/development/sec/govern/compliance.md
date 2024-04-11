@@ -17,7 +17,7 @@ The Compliance group's mission is to provide visibility into an organizations co
 ## Top Priorities FY25
 
 - The biggest priority for FY25 is to continue to integrate Compliance Frameworks with Security Policies. Expanding the abilities within the Compliance Center and moving towards removal of Compliance Pipelines.
-- Continue expanding on the Adherence Report by adding more Standards/Checks, while also integrating violations as the other side of the compliance posture (enforcement vs violation). 
+- Continue expanding on the Adherence Report by adding more Standards/Checks, while also integrating violations as the other side of the compliance posture (enforcement vs violation).
 - We are also looking at building customizable checks and the highest priority standards for our customers.
 - Rollout full usage of ClickHouse as the DB for audit events. Unblocking features to give better insights into compliance across the GitLab platform.
 - Provide a standard way for adding new Streaming Audit Event destination types and filtering, then increasing our streaming audit event offering through more 3rd party integrations and filtering options.
@@ -315,7 +315,7 @@ __Verifier: the engineer verifying the issue on .com/production (not the MR auth
 
 1. Verifier: documents findings by commenting on the verification thread on the issue.
 1. Verifier: opens new issues ~"type::bug"  or ~"type::feature" based on fiindings.
-   1. Verifier: sets the severity and/or priority based on [priority](/handbook/engineering/quality/issue-triage/#priority)/[severity](/handbook/engineering/quality/issue-triage/#severity-slos) triage process and the issue type (~"type::bug"  or ~"type::feature").
+   1. Verifier: sets the severity and/or priority based on [priority](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#priority)/[severity](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity-slos) triage process and the issue type (~"type::bug"  or ~"type::feature").
    1. ~"severity::1" / ~"severity::2" to be pulled directly into the milestone with comment added to ping(`@`) the engineering manager.
 1. Verifier: assigns the MR author to newly opened issues.
 1. Verifier: closes the issue and unassigns themself. The issue will automatically get the `~workflow::complete` label added.

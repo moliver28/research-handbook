@@ -33,19 +33,6 @@ Each Product Designer is assigned to an area of our product, called Stage Groups
 
 Information about product categories and links to team members and direction pages can be found [here](/handbook/product/categories/).
 
-### UX Paper Cuts Team
-
-The UX Paper Cuts team is a small team responsible for identifying and fixing small, but impactful, usability issues in the GitLab product. The term "paper cut" refers to a small, seemingly insignificant problem that can cause annoyance or frustration for users. When considered as a collective, these problems can reduce the overall impression users have of the product.
-
-The UX Paper Cuts team continuously improves the user experience by creating merge requests to address these small issues. By focusing on small details, the team helps create a more polished and user-friendly interface, leading to increased user satisfaction, engagement, and, ultimately, a more successful product.
-
-You can find changes made by UX Paper Cuts by following along in the [GitLab Polish Gallery](https://nicolasdular.gitlab.io/gitlab-polish-gallery/), the internal Slack channel `#ux_paper_cuts_mrs`, or by searching the GitLab label [UX Paper Cuts](https://gitlab.com/dashboard/merge_requests?scope=all&state=all&label_name[]=UX%20Paper%20Cuts).
-
-#### Learn more about UX Paper Cuts
-
-- [Planning epic](https://gitlab.com/groups/gitlab-org/-/epics/10026)
-- [Workflow](/handbook/product/ux/product-designer/#ux-paper-cuts-workflow)
-
 ## Learn about UX and see our work
 
 - [YouTube Playlist for UX Showcases](https://www.youtube.com/playlist?list=PL05JrBw4t0Kq89nFXtkVviaIfYQPptwJz)
@@ -76,7 +63,7 @@ Product Designer Tools
 
 Product Design Management
 
-- [Product Design Manager Workflows](/handbook/product/ux/product-design/product-design-manager.html)
+- [Product Design Manager Workflows](/handbook/product/ux/product-design/product-design-manager)
 
 Learning and Development
 
@@ -114,13 +101,11 @@ Going forward, every milestone, we will ask Product Designers and Engineers to v
 
 | Milestone          | Product Designer  | Engineer          |
 | ------------------ | ----------------- | ----------------- |
-| 16.8               | Veethika M         |   Mireya Andres   |
-| 16.9               |                   |                   |
-| 16.10              |                   |                   |
-| 16.11              |                   |                   |
+| 16.8               | Veethika Mishra   |   Mireya Andres   |
 | 17.0               |                   |                   |
-| 17.1               |  Veethika Mishra  |     Miguel Rincon |
-
+| 17.1               |  Veethika Mishra  |   Miguel Rincon   |
+| 17.2               |                   |                   |
+| 17.3               |                   |                   |
 
 {{% details summary="Previous Volunteers" %}}
 | Milestone         | Product Designer  | Engineer          |

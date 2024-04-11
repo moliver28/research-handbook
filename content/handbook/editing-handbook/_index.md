@@ -21,7 +21,7 @@ For how to add yourself to the team page, see the [add yourself to team guide](/
 
 ## Markdown formatting
 
-For how to format markdown in the handbook, see the [markdown style guide]({{< ref "/docs/markdown-guide" >}}),
+For how to format markdown in the handbook, see the [markdown style guide](/docs/markdown-guide),
 which includes how to embed videos.
 
 ## Use the Web IDE to edit the handbook
@@ -231,7 +231,7 @@ For example: `Error: error building site: assemble: "/builds/gitlab-com/content-
 - Line: 1
 - Character: 2
 
-To fix markdown errors, review the message. Alternatively, review the relevant section in the [markdown style guide]({{< ref "/docs/markdown-guide" >}}).
+To fix markdown errors, review the message. Alternatively, review the relevant section in the [markdown style guide](/docs/markdown-guide).
 
 For all other errors, the error message should provide the information necessary to fix it.
 

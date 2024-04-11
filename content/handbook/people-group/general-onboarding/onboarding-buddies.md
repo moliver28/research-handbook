@@ -13,7 +13,7 @@ Not only are buddies helpful to someone that has just started with GitLab, but a
 1. **Check how far the new GitLab team-member has gotten in their onboarding / career mobility issue.** The onboarding / career mobility issue that all new/transitioning GitLab team-members are assigned can be overwhelming at first glance, particularly on the first day of work. Check to see how much, if any, the GitLab team-member has done by the time your call happens, and offer some direction or advice on areas the team member may be having trouble with.
 1. **Suggest helpful handbook pages.** Chances are that you've discovered some particularly helpful pages in the handbook during your time at GitLab. Point them out to the new GitLab team-member, and help them get used to navigating the handbook. Some examples might include:
     - [GitLab's guide for starting a remote role](/handbook/company/culture/all-remote/getting-started/)
-    - [The tools page]({{< ref "/handbook/tools-and-tips" >}})
+    - [The tools page](/handbook/tools-and-tips)
     - [The team page](/handbook/company/team/) that feeds in to the un-audited [internal-only org chart](https://comp-calculator.gitlab.net/org_chart)
     - The Organization chart in Workday, which is our SSoT for organizational structure
     - [The positioning FAQ](https://handbook.gitlab.com/handbook/positioning-faq/)
@@ -53,7 +53,7 @@ This is an example template you can use to introduce yourself to a new team memb
 
 > Hi {Name}, and welcome to GitLab!
 >
-> My name's {Buddy name} and I'm your [Onboarding Buddy]({{< ref "/handbook/people-group/general-onboarding/onboarding-buddies" >}})! I wanted to introduce myself and explain what my role will be in terms of your onboarding. We're really excited to have you join us.
+> My name's {Buddy name} and I'm your [Onboarding Buddy](/handbook/people-group/general-onboarding/onboarding-buddies)! I wanted to introduce myself and explain what my role will be in terms of your onboarding. We're really excited to have you join us.
 >
 > {Talk about some of the things you've worked on at GitLab, a bit about your role and what you do for fun! Link to your personal README if you have one.}
 >
@@ -88,4 +88,4 @@ This is an example template you can use to introduce yourself to a new team memb
 
 ## That's it!
 
-That's all there is to it! Thanks for your help welcoming the newest GitLab team-member to the team and getting them on board. If you have questions that are not answered on this page, please [reach out to the People Connect Team]({{< ref "/handbook/people-group/people-connect" >}})!
+That's all there is to it! Thanks for your help welcoming the newest GitLab team-member to the team and getting them on board. If you have questions that are not answered on this page, please [reach out to the People Connect Team](/handbook/people-group/people-connect)!

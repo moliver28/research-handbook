@@ -14,7 +14,7 @@ Those activities and behaviors include:
 - [Family and Friends first, Work second]({{< ref "values#family-and-friends-first-work-second" >}})
 - [Inclusive language and pronouns]({{< ref "values#inclusive-language--pronouns" >}})
 - [Parental leave]({{< ref "general-and-entity-benefits#parental-leave" >}})
-- [Asynchronous communication and workflows]({{< ref "/handbook/company/culture/all-remote/asynchronous" >}})
+- [Asynchronous communication and workflows](/handbook/company/culture/all-remote/asynchronous)
 
 ## Tips for Companies
 
@@ -98,7 +98,7 @@ Pronouns are a large piece of a person's identity and are often used to communic
 
 ### Be mindful of the times of your meetings
 
-It's important to consider global times and alternating meetings to accommodate regions. Be mindful of families, commitments, observances, holidays, and meeting times that may be out of team members' working hours. Every meeting time won't be perfect for everyone (which is why all meetings [have an agenda]({{< ref "/handbook/company/culture/all-remote/meetings#have-an-agenda" >}})), but making a conscious effort to alternate times is to ensure the same people aren't being excluded. For more, view our [Inclusive Meetings]({{< ref "values#inclusive-meetings" >}}) operating principle.
+It's important to consider global times and alternating meetings to accommodate regions. Be mindful of families, commitments, observances, holidays, and meeting times that may be out of team members' working hours. Every meeting time won't be perfect for everyone (which is why all meetings [have an agenda](/handbook/company/culture/all-remote/meetings#have-an-agenda)), but making a conscious effort to alternate times is to ensure the same people aren't being excluded. For more, view our [Inclusive Meetings]({{< ref "values#inclusive-meetings" >}}) operating principle.
 
 ### Be a Role Model
 
@@ -108,13 +108,13 @@ As a manager, you are in a unique position to model good DIB practices for the r
 
 ### Schedule a Coffee Chat with a Team Member
 
-Understanding GitLab is [fully remote]({{< ref "/handbook/company/culture/all-remote/terminology" >}}), there is an opportunity to get to know team members beyond your geographical location as well as outside of your division. This provides an opportunity to:
+Understanding GitLab is [fully remote](/handbook/company/culture/all-remote/terminology), there is an opportunity to get to know team members beyond your geographical location as well as outside of your division. This provides an opportunity to:
 
 - learn more about other cultures and work divisions
 - cultivate better global communication
 - make progress toward building an inclusive environment
 
-[Coffee chats]({{< ref "/handbook/company/culture/all-remote/informal-communication#coffee-chats" >}}) are suggested during onboarding but you don't need to stop there. It is recommended to continue this action whenever you would like to. Please take a look at our [GitLab team page](/handbook/company/team/) and feel free to select someone for a coffee chat!
+[Coffee chats](/handbook/company/culture/all-remote/informal-communication#coffee-chats) are suggested during onboarding but you don't need to stop there. It is recommended to continue this action whenever you would like to. Please take a look at our [GitLab team page](/handbook/company/team/) and feel free to select someone for a coffee chat!
 
 ### Hold Each Other Accountable
 

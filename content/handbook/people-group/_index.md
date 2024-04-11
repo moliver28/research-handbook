@@ -1,13 +1,29 @@
 ---
 title: People Group
-description: >-
-  The People Group at GitLab supports all GitLab team members through the complete
-  team member lifecycle.
+description: "The People Group at GitLab supports all GitLab team members through the complete team member lifecycle."
+aliases:
+- /handbook/people-group/
+- /handbook/people-group/people-group-vision/
 ---
 
 ## Welcome
 
-Welcome to the People Group handbook! You should be able to find answers to most of your questions here. You can also check out pages related to People Group in the section below. If you can not find what you are looking for please do the following:
+Welcome to the People Group handbook! You should be able to find answers to most of your questions here.
+
+## People Group Vision
+
+The People Group works together to establish a high performance and results driven culture where a diverse and inclusive team can experience a meaningful career.
+
+We support a culture that enables people to do their best work and advance their careers while fully contributing to advancing GitLab’s business results. We hire, promote, and recognize team members who best live our values.
+
+The People Group strategy is to set the [foundation for GitLab’s 3 year strategy](https://internal.gitlab.com/handbook/company/three-year-strategy/) through a focus on attracting and retaining diverse talent, creating a high performance culture with a focus on efficiency and quality results, driving divisional success through talent programs, and cultivating an equitable and inclusive culture.
+
+We’ve published more information about how this vision translates to strategy and OKRs for GitLab team members in this [internal-only presentation](https://docs.google.com/presentation/d/1CIRrqh0aum40L7g4MCMFaTR_mu0jG4gJot8ds6rxUrc/edit#slide=id.g2bff70f3fe6_1_691).
+
+
+## Connect with us
+
+You can also check out pages related to People Group in the section below. If you can not find what you are looking for please do the following:
 
 - [**The People Group**](https://gitlab.com/gitlab-com/people-ops) holds several subprojects to organize the people group; please create an issue in the appropriate subproject or `general` if you're not sure. Please use confidential issues for topics that should only be visible to GitLab team-members. Similarly, if your question can be shared please use a public issue. Tag `@gl-people-connect-team` or `@gl-hiring` so the appropriate team members can follow up.
     - Please note that not all People Group projects can be shared in an issue due to confidentiality. When we cannot be completely transparent, we will share what we can in the issue description, and explain why.
@@ -42,7 +58,7 @@ In critical cases, the [VP, People Operations, Technology & Analytics](/handbook
 
 We trust team members to always use their best judgement when facing any emergency. Team members are encouraged to dial their country's emergency services number for any critical and/or medical emergency. In the case that other team members are aware of a team member's emergency (during a Zoom call for example) and wish to call that country's emergency services on the original team member's behalf, we do not recommend this as only certain People Ops team members have access to team member addresses and we would take on the role of communicating with emergency services, should this extremely rare situation arise.
 
-In the event a team member is in an unsafe situation due to a natural disaster, please see the [Disaster Recovery Plan]({{< ref "/handbook/people-group/incident-response" >}}) page.
+In the event a team member is in an unsafe situation due to a natural disaster, please see the [Disaster Recovery Plan](/handbook/people-group/incident-response) page.
 
 ### How to Report Violations
 
@@ -84,13 +100,13 @@ This table lists the aliases to use, when you are looking to reach a specific gr
 | [Learning and Development](https://gitlab.com/gitlab-com/people-group/Training) | `@gitlab-com/people-group/learning-development` | learning@ gitlab.com | #learninganddevelopment | n/a | [L&D Issue Board](https://gitlab.com/groups/gitlab-com/people-group/learning-development/-/boards/1958538)  |
 | [Talent Acquisition](/handbook/company/team/?department=talent-acquisition) | @gl-talent-acquisition | recruiting@ gitlab.com | @talent-acquisition-team | n/a |  |
 | Employer Branding | No alias yet, @mention the [Senior Talent Brand Manager](/handbook/company/team/#bchurch) | employmentbranding@ gitlab.com | n/a | n/a |  |
-| [Candidate Experience Specialist]({{< ref "/job-families/people-group/candidate-experience" >}}) | @gitlab-com/gl-ces | ces@ gitlab.com | @ces | @ces* |  |
+| [Candidate Experience Specialist](/job-families/people-group/candidate-experience) | @gitlab-com/gl-ces | ces@ gitlab.com | @ces | @ces* |  |
 | Talent Acquisition Operations and Insights | @gl-talent acquisitionops | talentacquisitionops@ gitlab.com | @talent-acquisition-ops | @talent-acquisitionops |  |
 | Sourcing | @gl-sourcingteam | n/a | @sourcingteam | n/a |  |
 
 ## People Group Program Calendar for Managers and Team Members
 
-On [this page]({{< ref "/handbook/people-group/calendars" >}}) you can find our People Manager Calendar and All Team Member Calendar. The goal of these pages is to ensure that team members and People Managers can plan ahead and have an overview of upcoming programs and timelines.
+On [this page](/handbook/people-group/calendars) you can find our People Manager Calendar and All Team Member Calendar. The goal of these pages is to ensure that team members and People Managers can plan ahead and have an overview of upcoming programs and timelines.
 
 ### Communication on People Programs that require action
 
@@ -108,14 +124,14 @@ The goal of the calendar is to include information at least two quarters ahead o
 Please reach out to your aligned People Business Partner (PBP) to engage in the following areas:
 
 - Career development/[Promotions]({{< ref "promotions-transfers" >}})
-- [Succession planning]({{< ref "/handbook/people-group/talent-assessment" >}})
+- [Succession planning](/handbook/people-group/talent-assessment)
 - New organizational structures or re-alignment of team members
-- [Talent Assessment programs]({{< ref "/handbook/people-group/talent-assessment" >}})
+- [Talent Assessment programs](/handbook/people-group/talent-assessment)
 - Team member retention
-- [Team member Engagement tools]({{< ref "/handbook/people-group/talent-assessment#impact-of-being-identified-as-key-talent" >}})
+- [Team member Engagement tools](/handbook/people-group/talent-assessment#impact-of-being-identified-as-key-talent)
 - [Coaching]({{< ref "coaching" >}}) guidance
 - An unbiased third party to discuss issues or problems and possible ideas for next steps
-- [Organizational Design]({{< ref "/handbook/people-group/organizational-design" >}})
+- [Organizational Design](/handbook/people-group/organizational-design)
 
 {{< people-business-partners >}}
 
@@ -178,7 +194,7 @@ All tasks will be assigned via slack in the #pbp-peopleops slack channel. This i
 
 ## People Connect Responsibilities & Response Timeline
 
-Please note that the source of truth for role responsibilites is the job family for the [People Connect Team]({{< ref "/job-families/people-group/people-connect" >}}). The table below is meant to provide a quick overview of some of the core responsibilities for the team.
+Please note that the source of truth for role responsibilites is the job family for the [People Connect Team](/job-families/people-group/people-connect). The table below is meant to provide a quick overview of some of the core responsibilities for the team.
 
 ### People Connect Team
 
@@ -193,7 +209,6 @@ Please note that the source of truth for role responsibilites is the job family 
 | Slack and Email Queries | Within 12 - 24 hours |
 | [Probation Period Notifications]({{< ref "contracts-probation-periods#probation-period" >}}) | Daily (when applicable) |
 | [Determining quarterly winners of the onboarding buddy program]({{< ref "onboarding-buddies" >}}) | Last week of each quarter |
-| [People Connect Shadow Program]({{< ref "people-connect-shadow-program" >}}) | As requested by other team members |
 | [Contract Renewals]({{< ref "contracts-probation-periods#contract-renewals" >}}) | 30 days or more prior to team member's renewal date |
 | [Exit Interviews]({{< ref "offboarding#exit-survey" >}}) | During voluntary offboarding team member's last week |
 | [Administration of the signing of our Code of Business Conduct and Ethics](https://ir.gitlab.com/static-files/7d8c7eb3-cb17-4d68-a607-1b7a1fa1c95d) | Annually in Feb/March |
@@ -288,11 +303,10 @@ If you need support with a specific CultureAmp Survey, please complete this [iss
 ### Other People Group Links
 
 - [People Policy Directory]({{< ref "people-policies" >}})
-- [People Group Vision]({{< ref "people-group-vision" >}})
 - [Underperformance]({{< ref "underperformance" >}})
 - [Visas]({{< ref "visas" >}})
 - [Leadership handbook]({{< ref "leadership" >}})
-- [People Group READMEs]({{< ref "/handbook/people-group/readmes" >}})
+- [People Group READMEs](/handbook/people-group/readmes)
 - [Women in Sales Mentorship Pilot Program]({{< ref "women-in-sales-mentorship-pilot-program" >}})
 - [People Key Performance Indicators]({{< ref "people-success-performance-indicators#key-performance-indicators" >}})
 - [People Performance Indicators]({{< ref "people-success-performance-indicators#regular-performance-indicators" >}})

@@ -120,7 +120,7 @@ for an environment, choose `cny` from the drop down for `stage` at the top.
 ### How do I change a feature flag for canary stage?
 
 As the database (where feature flags are stored) is shared between main and
-canary stage, enabling a feature flag following the normal [chatops process](/handbook/support/workflows/chatops.html#feature-flags))
+canary stage, enabling a feature flag following the normal [chatops process](/handbook/support/workflows/chatops/#feature-flags))
 for the environment will change it for both main and canary stages of an environment.
 
 Some examples for the most commonly used environments are as follows

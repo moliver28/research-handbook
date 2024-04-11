@@ -150,11 +150,11 @@ A nice way to celebrate a team member's new addition to their family is by hosti
 - Consider participating in the [**Your 4th Trimester program**]({{< ref "general-and-entity-benefits#return-to-work-resources" >}}), a 90-day coaching program to help parents transition back to work.
 - Read [GitLab's guide to parenting as a remote worker](/handbook/company/culture/all-remote/parenting/)
 - Consider reaching out to a [Parental Leave Reentry Buddy](#parental-leave-reentry-buddies)
-- Watch the video below from [Crucial Conversations]({{< ref "/handbook/leadership/crucial-conversations" >}}) entitled `How Working Moms can Do it All`:
+- Watch the video below from [Crucial Conversations](/handbook/leadership/crucial-conversations) entitled `How Working Moms can Do it All`:
 
 {{< youtube "IRvsi-zsKvM" >}}
 
-- Watch the video below from [Crucial Conversations]({{< ref "/handbook/leadership/crucial-conversations" >}}) entitled `How Working Moms can Ask for Help at Home`
+- Watch the video below from [Crucial Conversations](/handbook/leadership/crucial-conversations) entitled `How Working Moms can Ask for Help at Home`
 
 {{< youtube "6CHPChKAsBE" >}}
 

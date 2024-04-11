@@ -4,7 +4,7 @@ description: GitLab's Employment Solutions.
 ---
 
 This page contains an overview of how we have scaled team members Globally.
-The DRI for all Employment Solutions is the [Employment Solutions Partner]({{< ref "/job-families/people-group/global-workforce-strategy" >}}). Any changes to any contracts should be requested to the Employment Solutions Partner and will require approval from our Director of Tax & our Director of Legal, Employment.
+The DRI for all Employment Solutions is the [Employment Solutions Partner](/job-families/people-group/global-workforce-strategy). Any changes to any contracts should be requested to the Employment Solutions Partner and will require approval from our Director of Tax & our Director of Legal, Employment.
 
 ## Country Hiring Guidelines
 
@@ -54,23 +54,25 @@ More information related to payroll processes can be found on the [Payroll handb
 Note: In countries with a star (*) hiring is limited to only certain roles, more detail can be found in our internal compensation calculator under [Country Hiring Status](https://comp-calculator.gitlab.net/hiring_status/index), found in the top right menu.
 
 
-| Country                       | Team Member Type(s)               | Entity                                                 | Pay Frequency | Paid By             | Workday Profile (Y/N) |
-|-------------------------------|-----------------------------------|--------------------------------------------------------|---------------|---------------------|------------------------|
-| Australia                     | Employee                          | GitLab PTY Ltd                                         |            12 | GitLab Payroll Dept | Y                      |
-| Belgium *                     | Employee                          | GitLab BV                                              |         13.92 | GitLab Payroll Dept | Y                      |
-| Canada                        | Employee                          | GitLab Canada Corp                                     |            26 | GitLab Payroll Dept | Y                      |
-| Finland *                     | Employee                          | GitLab BV                                              |            12 | GitLab Payroll Dept | Y                      |
-| France *                      | Employee                          | GitLab France S.A.S.                                   |            12 | GitLab Payroll Dept | Y                      |
-| Germany                       | Employee                          | GitLab GmbH                                            |            12 | GitLab Payroll Dept | Y                      |
-| Ireland                       | Employee                          | GitLab Ireland Ltd                                     |            12 | GitLab Payroll Dept | Y                      |
-| Japan                         | Employee                          | GitLab GK                                              |            12 | GitLab Payroll Dept | Y                      |
-| South Korea                   | Employee                          | GitLab Korea Limited                                   |            12 | GitLab Payroll Dept | Y                      |
-| Netherlands                   | Employee                          | GitLab BV                                              |         12.96 | GitLab Payroll Dept | Y                      |
-| New Zealand *                 | Employee                          | GitLab PTY Ltd NZ (Branch of GitLab PTY Ltd Australia) |            12 | GitLab Payroll Dept | Y                      |
-| Singapore                     | Employee                          | GitLab Singapore PTE. LTD                              |            12 | GitLab Payroll Dept | Y                      |
-| United Kingdom   (England, Scotland, Wales, Northern Ireland)             | Employee                          | GitLab UK Ltd                                          |            12 | GitLab Payroll Dept | Y                      |
-| United States                 | Employee                          | GitLab Inc                                             |            24 | GitLab Payroll Dept | Y                      |
-| United States (Public Sector) | Employee                          | GitLab Federal LLC                                     |            24 | GitLab Payroll Dept | Y |
+| Country                                                     | Team Member Type(s) | Entity                                                 | Pay Frequency | Paid By             | Workday Profile (Y/N) |
+|-------------------------------------------------------------|---------------------|--------------------------------------------------------|---------------|---------------------|-----------------------|
+| Australia                                                   | Employee            | GitLab PTY Ltd                                         |            12 | GitLab Payroll Dept | Y                     |
+| Belgium *                                                   | Employee            | GitLab BV                                              |         13.92 | GitLab Payroll Dept | Y                     |
+| Canada                                                      | Employee            | GitLab Canada Corp                                     |            26 | GitLab Payroll Dept | Y                     |
+| Finland *                                                   | Employee            | GitLab BV                                              |            12 | GitLab Payroll Dept | Y                     |
+| France *                                                    | Employee            | GitLab France S.A.S.                                   |            12 | GitLab Payroll Dept | Y                     |
+| Germany                                                     | Employee            | GitLab GmbH                                            |            12 | GitLab Payroll Dept | Y                     |
+| Ireland                                                     | Employee            | GitLab Ireland Ltd                                     |            12 | GitLab Payroll Dept | Y                     |
+| Israel *                                                     | Employee            | Oxeye Security Ltd.                                     |            12 | GitLab Payroll Dept | Y                     |
+| Japan                                                       | Employee            | GitLab GK                                              |            12 | GitLab Payroll Dept | Y                     |
+| Netherlands                                                 | Employee            | GitLab BV                                              |         12.96 | GitLab Payroll Dept | Y                     |
+| New Zealand *                                               | Employee            | GitLab PTY Ltd NZ (Branch of GitLab PTY Ltd Australia) |            12 | GitLab Payroll Dept | Y                     |
+| Singapore                                                   | Employee            | GitLab Singapore PTE. LTD                              |            12 | GitLab Payroll Dept | Y                     |
+| South Korea                                                 | Employee            | GitLab Korea Limited                                   |            12 | GitLab Payroll Dept | Y                     |
+| Spain *                                                     | Employee            | GitLab Iberia S.L.                                     |            12 | GitLab Payroll Dept | Y                     |
+| United Kingdom (England, Scotland, Wales, Northern Ireland) | Employee            | GitLab UK Ltd                                          |            12 | GitLab Payroll Dept | Y                     |
+| United States                                               | Employee            | GitLab Inc                                             |            24 | GitLab Payroll Dept | Y                     |
+| United States (Public Sector)                               | Employee            | GitLab Federal LLC                                     |            24 | GitLab Payroll Dept | Y                     |
 
 ### PEO (Professional Employer Organization/ Employer of Record and not a GitLab entity or Branch)
 

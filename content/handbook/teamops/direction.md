@@ -12,12 +12,12 @@ images:
 
 ## Objectives and Key Results
 
-Although TeamOps has been practiced since the beginning of GitLab, it wasn't consolidated into a replicable framework until 2022. In FY2024, the Chief of Staff Team (CoST) in GitLab built a business model around TeamOps with the following objectives:
+Although TeamOps has been practiced since the beginning of GitLab, it wasn't consolidated into a replicable framework until 2022. In FY2024, the Office of the CEO in GitLab built a business model around TeamOps with the following objectives:
 
 - Internally optimize workforce awareness and universal application of the TeamOps model to standardize organizational behavior
 - Externally monetize and market the TeamOps model through professional services to monetize our non-tech thought leadership
 
-The future of TeamOps as an internal operational and as a revenue model is based on the following principles. (See also: [Workplace Handbook]({{< ref "workplace" >}}), [TeamOps Handbook]({{< ref "/handbook/teamops" >}}))
+The future of TeamOps as an internal operational and as a revenue model is based on the following principles. (See also: [Workplace Handbook]({{< ref "workplace" >}}), [TeamOps Handbook](/handbook/teamops))
 
 - TeamOps is an evolution of the Managing So Everyone Can Contribute (MECC) management model. It is based on the philosophy of using information to stay aligned, instead of shared time or location (proximity).
 - TeamOps is **not** exclusively for remote work or distributed teams, but it does enable more schedule and workplace flexibility for every team structure.

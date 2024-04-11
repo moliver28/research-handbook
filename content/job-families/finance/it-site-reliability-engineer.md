@@ -75,10 +75,10 @@ The Senior IT Site Reliability Engineer has all the same responsibilities as the
 
 ## Performance Indicators
 
-- [Mean Time between Failures (MTBF)](/handbook/business-technology/metrics/#mean-time-between-failures-mtbf)
-- [Mean Time to Repair (MTTR)](/handbook/business-technology/metrics/#mean-time-to-repair-mttr)
-- [Number of days since last environment audit](/handbook/business-technology/metrics/#number-of-days-since-last-environment-audit)
-- [Cycle Time for IT Support Issue Resolution](/handbook/business-technology/metrics/#cycle-time-for-it-support-issue-resolution)
+- [Mean Time between Failures (MTBF)](https://internal.gitlab.com/handbook/it/it-performance-indicators/#mean-time-between-failures-mtbf)
+- [Mean Time to Repair (MTTR)](https://internal.gitlab.com/handbook/it/it-performance-indicators/#mean-time-to-repair-mttr)
+- [Number of days since last environment audit](https://internal.gitlab.com/handbook/it/it-performance-indicators/#number-of-days-since-last-environment-audit)
+- [Cycle Time for IT Support Issue Resolution](https://internal.gitlab.com/handbook/it/it-performance-indicators/#cycle-time-for-it-support-issue-resolution)
 
 ## Career Ladder
 

@@ -1,0 +1,7 @@
+---
+extends: existence
+message: "Do not use Hugo shortcodes for links."
+link: https://gitlab.com/gitlab-com/content-sites/docsy-gitlab/-/blob/main/content/docs/markdown-guide.md?ref_type=heads#relative-links
+level: warning
+raw:
+  - '{{< (rel)?ref'

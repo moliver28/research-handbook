@@ -1,10 +1,9 @@
 ---
 
-title: "Tanuki Tech"
+title: Tanuki Tech
+description: Tanuki Tech (short for Tanuki Instutite of Technology) is the world class sales/technology bootcamp that we are provide for the sales development organization.
+
 ---
-
-
-
 
 ## Tanuki Tech
 
@@ -46,6 +45,11 @@ TT102: The People of Technology
 
 TT103: Introduction to Cold Calls
 > Teaches cold call best practices and what it means to make a cold call here. As part of this class we do two mock calls: one for a director of engineering (target buyer) and one for an application architect (technical influencer).
+>
+> 3 credit hours
+
+TT104: Sales Development Processes (2 Parts)
+> Teaches new Sales Dev Org Members the Basic Tools and Workflows they will need to know in the BDR or SDR roles. In this class, we discuss Salesforce, Outreach, our Data Tools, Organization techniques, and how to create your own messaging. We also provide time for a Q and A for the students to ask any questions they have related to our workflows and processes. 
 >
 > 3 credit hours
 
