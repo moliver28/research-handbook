@@ -125,6 +125,72 @@ These items must be triaged continuously throughout the milestone which means th
         - If the incident isn't resolved in 30 minutes or more, investigate on it.
         - Write down in the insident Slack thread all the steps that were done to resolve it.
 
+### Feature DRIs guide 
+
+Engineers from the Composition Analysis group may be assigned as DRIs for an epic, and are expected to represent the DRI's values & responsibilities as highlighted [by the people group](/handbook/people-group/directly-responsible-individuals/).  
+
+Being assigned as a DRI for a feature epic will not come as a surprise. Prior to assingment, the engineering manager responsible for the feature epic will suggest the assignment in the weekly 1:1 meeting. This will be a good opportuinity to ask any questions and align mutual expectations. The engineering manager will provdie at least one weeks time to contemplate acceptance of the assignment.
+
+#### Important points to consider when contemplating accepting the DRI position:
+1. Being assigned as a DRI empowers the engineer to lead the feature in the direction they believe in and see fit and be a [manager of one](/handbook/leadership/#managers-of-one)
+1. As a DRI the engineer is expected to perform several duties:
+    1. Drive the design & development of the feature
+    1. Maintain a clear & concise issue description
+    1. Communicate the status of the epic and its issues as described in the [engineering workflow guide](/handbook/engineering/workflow/#updating-workflow-labels-throughout-development) and [above](#indicating-status-and-raising-risk)
+    1. Collaborate with stakeholders; Product, UX, Community, Sales & Support
+
+
+#### Responsibility breakdown
+
+#### Drive the design & development
+
+Upon first accepting the DRI assignment, the first responsibility of the DRI would be to break down and refine the epic description into distinct issues.  
+In most cases, it would not be immediatley clear how an epic could be broken down. To find the best course of action, [spikes](https://www.c-sharpcorner.com/article/what-is-spike-in-agile-software-development2/) need to be initiated.  
+
+__Spikes should follow the above guidelines__:
+1. Be timeboxed in days
+1. Containting a list of questions to be answered
+1. Need to be updated with results, gathered data and conclusions
+1. Labeled `~"workflow::refinement"` when writing down the questions & `~"workflow::in dev"` while working to answer the questions
+1. Be attached to the original epic
+
+Examples: 
+1. [Spike: Investigate License DB being unable to detect licenses for a set of Maven Packages](https://gitlab.com/gitlab-org/gitlab/-/issues/439788)
+1. [Spike: Support pypi comparison rules in Composition Analysis tools](https://gitlab.com/gitlab-org/gitlab/-/issues/440196)
+
+__Use mermaid graphs to document & communicate design__
+
+When applicable, use [mermaid flow charts](https://mermaid.js.org/syntax/flowchart.html) to communicate design. Doing this enables vested parties to better understand the feature & spot any issues with it. This is a mutual interest.
+
+```mermaid
+flowchart LR
+    id1(Visual design) ---->|Enables| id2(More collaboration) ---->|Increases| id3(Chances of success)
+```
+
+#### Maintain a clear & concise issue description
+
+While heavy use of the comment section enables [collarboration](/handbook/company/culture/all-remote/gitlab-for-remote/) between parties, it can be overwhelming when discussions dive deep. When appropriate, summerize discussions and update the issue description to reflect any decisions made in the comments.
+
+
+#### Communicate the status of the epic and its issues
+
+Every issue created has to be attached to the epic that caused it. All issues need to be labeled to reflect their status as described in the[engineering workflow guide](/handbook/engineering/workflow/#updating-workflow-labels-throughout-development) and [above](#indicating-status-and-raising-risk). Once created, issues should be weighted, assigned, attached to a milestone and be labled `~"deliverable"` / `~"stretch"`.
+
+##### Weighting guide
+
+Weights are used to signal the complexity of the tasked described in the issue. They are not a hard boundary for time spent. 
+
+##### Weekly progress report
+
+Once a week, the DRI is expected to leave a comment on the epic, detailing the progress made during the week & following steps for the next week. This is a good opportunity to raise any risks or escalate decisions.
+
+
+#### Collaborate with stakeholders; Product, UX, Community, Sales & Support
+
+Sometimes parties will leave comments or questions on progress or just to be kept in the loop. DRIs are expected to provide answers when possible. But remember, the better the issue description & labels, the lower would be the volume of questions. 
+
+
+
 ### Security vulnerabilities triaging process
 
 We are responsible for triaging vulnerabilities reported on 2 sets of projects: the projects maintained by GitLab and the upstream scanner software we might depend on. Though, we have different processes that apply depending on the situation.
