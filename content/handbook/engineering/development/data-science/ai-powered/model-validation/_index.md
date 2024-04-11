@@ -102,7 +102,7 @@ Our team works across GitLab project including:
 
 - Group: `~group::ai model validation`
 
-<!-->
+<!--
 
 ## Team Meetings
 
