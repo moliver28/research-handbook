@@ -85,6 +85,7 @@ GitLab Professional Services measures success through tracking business profitab
 * **Long term profitability target**: 30% gross margin
 * **Project Manager, Program Manager and Engineer Utilization targets**: 70% billable hours
 * **Technical Architect Utilization target**: 55% billable hours
+* **Trainers: FY25Q1 & FY25Q2- 60% billable hours, FY25Q3- 65% billable hours and FY25Q4- 70% billable hours
 
 * **Billable utilization** is time worked on defined scope that will be charged to a customer according to a contractual SOW. 
 
