@@ -42,7 +42,11 @@ The following people are permanent members of the Secure Sub-Department:
 
 Team Page: [Composition Analysis](composition-analysis/)
 
-{{< team-by-manager-role role="Manager(.*)Engineering(.*)Secure:Composition Analysis" team="Engineer" >}}
+{{< team-by-departments departments="Secure:Composition Analysis BE Team"  >}}
+
+{{< team-by-departments departments="Secure:Composition Analysis FE Team" >}}
+
+
 
 ### Static Analysis
 
