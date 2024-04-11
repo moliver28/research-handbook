@@ -196,7 +196,7 @@ Patch validation can be performed in 3 ways.
 
 ### General OS (Ubuntu or other Linux) Version updates
 
-Infrastructure will look to begin OS upgrades for Ubuntu LTS releases 6 months after their release and attempt to maintain all GCP compute instances on an LTS within the last 5 years of release.  When instances are on older OS releases, we leverage [Ubuntu Advantage](https://ubuntu.com/support) to gain an extension on security releases.
+Infrastructure will look to begin OS upgrades for Ubuntu LTS releases 6 months after their release and attempt to maintain all GCP compute instances on an LTS within the last 5 years of release.  We leverage [Ubuntu Pro](https://ubuntu.com/pro) to gain an extension on security updates for older OS releases using their [ESM](https://ubuntu.com/security/esm) service, and [Ubuntu Livepatch](https://ubuntu.com/security/livepatch) to automatically apply Kernel security updates to running systems.
 
 ## Penetration Testing
 
