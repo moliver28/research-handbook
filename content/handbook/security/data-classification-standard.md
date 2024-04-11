@@ -114,7 +114,7 @@ Examples include:
 
 #### Credentials and access tokens are classified at the same level as the data they protect
 
-Credentials such as passwords, personal access tokens, encryption keys, and session cookies derive their importance from the data they protect.
+Credentials such as passwords, personal access tokens, encryption keys, and session cookies derive their classification from the highest classification of the data they protect.
 
 ##### Combinations of data types may result in a higher system classification level
 
