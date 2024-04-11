@@ -304,3 +304,24 @@ Animated GIFs are very useful to illustrate short dynamic processes, which might
 There are a few ways to create animated GIFs, one of them is using [Giphy Capture], a light-weight app for Mac.
 
 Avoid GIFs with a huge file size, they will be difficult to load for users with bad internet connection. In those cases, you can either cut the GIFs in smaller pieces, or record a video, or use a sequential image.
+
+### Localized Blog Posts
+
+We can publish blog posts in langauges other than english. We currently support the folloing langauges: 
+
+| Language | URL structure| 
+|---------|----------|
+| French |`/fr-fr/blog/YERAR/MONTH/DAY/Title/` |
+| German |`/de-de/blog/YERAR/MONTH/DAY/Title/` |
+| Japanese |`/ja-jp/blog/YERAR/MONTH/DAY/Title/` |
+
+
+#### Translating a English blog post to other langauges
+
+Information about how to do that here
+
+#### Publishing a blog post with no English equivalent
+
+Information about how to publish a blog post when English is not the source laugauge. 
+
+For example, and Japanese only blog post.
