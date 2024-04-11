@@ -272,7 +272,7 @@ While diligently pursuing our objectives, we also recognize the significance of 
 
 Team members self-schedule feature development. The manager may assign bugs or other important work directly to a team member.
 
-When severity labels are assigned/changed, we aim to set the issue due date at the same time. If there are bugs with a severity label and without a deadline,
+When severity labels are assigned/changed on a `~type::bug` issue, we aim to set/adjust the issue due date at the same time.
 everyone is encouraged to set the deadline based on the date of the last severity label update and [the SLA for the given severity](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity-slos).
 
 ##### Bug intake process
@@ -285,8 +285,9 @@ following:
 
 - A bias for action on deciding if we will fix a bug or not.
 - A bias for action on scheduling work to fix bugs we've decided to fix.
-- Not maintaining a bug backlog. Instead, all bug reports would have exactly 1
-  of 3 destinations:
+- Not maintaining a bug backlog. 
+
+As a result of the above principle, all bug reports should end up in one of the following destinations:
   - They are verified as a bug we will fix, becoming part of the next
     milestone's planned work as soon as they are `~workflow::ready for
     development`
@@ -294,7 +295,7 @@ following:
   - They are verified as bugs but labeled as `~wontfix` and closed.
 
   - They determined not to be bugs. The `~type::bug` label is removed and the
-    issue is closed.
+    issue is closed, re-triaged as a feature or maintenance issue.
 
 
 ###### Process details
@@ -316,7 +317,7 @@ apply the following process:
   prioritizing when it is.
 
 - Once the reporter has provided the required information, apply the severity
-  and priority labels.
+  and (optionally) priority labels.
 
 - Decide if it is a bug.
 
@@ -324,7 +325,7 @@ apply the following process:
 
 - Decide if we will fix it. This requires partnering with the Product Manager.
 
-- Apply the `~wontfix` label if we won't fix it.
+- Apply the `~wontfix` label if we won't fix it and close the issue with a comment.
 
 - If we will fix it two things happen:
   - Product manager moves the issue up in refinement list.
