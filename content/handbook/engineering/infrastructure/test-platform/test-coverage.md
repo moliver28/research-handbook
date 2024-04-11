@@ -50,8 +50,8 @@ and going up to system level testing with actual environments being built:
 | Latest update stop → GitLab Merge Requests | [16.7.7 → MR in 16.11](https://gitlab.com/gitlab-org/gitlab/-/jobs/6488556764) |
 
 [`db:migrate:multi-version-upgrade`](https://docs.gitlab.com/ee/development/database/dbmigrate:multi-version-upgrade-job.html)
-validates that migrations pass for multi-version upgrade from the latest required upgrade stop to the author’s working branch.
-It allows catching migration error at unit-level without building an environment.
+validates that the migrations pass for multi-version upgrade from the latest required upgrade stop to the author’s working branch.
+It allows catching migration error(s) at unit-level without building an environment.
 Test job runs Database migrations against PostgreSQL dump created from the latest known GitLab version stop with test data.
 
 #### GitLab QA update scenario
