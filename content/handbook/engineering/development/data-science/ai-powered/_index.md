@@ -43,7 +43,7 @@ Our teams are data-driven, support [dogfooding](https://about.gitlab.com/directi
   - Always assign a DRI to create an issue (Ideally, whoever is communicating is the person creating the issue)
   - Make sure the DRI is included especially when things change quickly!
   - Leadership should set explicit expectations. There should be space and time for questions and discussions. Ask for this if you are not getting it, because we will then be responsible for communication moving forward.
-  - There are regular [AI Exec meetings]() where non-MNPI read outs will be shared.
+  - There are regular [AI Exec meetings](https://gitlab.com/gitlab-org/ai-powered/ai-weekly/-/issues) where non-MNPI read outs will be shared.
   - For senior leaders, EMs and PMs across the primary AI teams to make sure they have a place to align with each other, we use `#ai-leads`.
   - To include the quads, engineers, designers, testers, infra, our key Marketing stakeholders, etc that are working on AI, we use `#ai-portfolio`. This will help us provide a SSoT avenue for communication so we don’t confuse groups or disseminate information separately.
   - In this way, we will avoid multiple downward communications or conflicting messages,  keep discussions inside issues, and be able to retain autonomy on the roadmap according to Roadmap Review & Revision. 
