@@ -37,7 +37,7 @@ of the GitLab Support On-Call Guide Handbook page.
 
 ### Support engineers should spend time on work other than L&R work
 
-- ???
+- Support engineers join GitLab with either a strong background in development or sysadmin or support-engineering, or a mix of all of these, and they expect to maintain and develop on those experiences and skills.  The nature of solving L&R problems is challenging and often complex, however it doesn't lend itself well to maintaining many of those hands-on technical skills.  We want to support people's growth and development, and ensure they maintain and improve the relevant skills they bring with them. An over-focus on solving L&R problems causes many of these skills to atrophy. To avoid this, support engineers in APAC should spend no more than 30% of their time on L&R work.
 
 ## Working principles
 
