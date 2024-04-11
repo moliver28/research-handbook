@@ -179,7 +179,7 @@ There may be instances in which the Office of the CEO leaving leads to a project
 
 ## Quarterly Kickoff
 
-The CEO does a Quarterly Kickoff in the first month of each quarter. The Office of the CEO plays a role in creating materials, recording content, and preparing the CEO. Details can be found on the [Assembly page](/handbook/company/gitlab-all-company-meetings/#quarterly-kickoff) of the handbook.
+The CEO does a Quarterly Kickoff in the first month of each quarter. The Office of the CEO plays a role in creating materials, recording content, and preparing the CEO. Details can be found on the [All-Company Meetings page](/handbook/company/gitlab-all-company-meetings/#quarterly-kickoff) of the handbook.
 
 ## E-Group Offsite
 
