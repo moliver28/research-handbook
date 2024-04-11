@@ -198,7 +198,8 @@ If you are relocating away from a location with PEO Employment, you must give no
 
 ##### Relocating **From** The United States
 
-1. If a team member is leaving the US, you will need to [manually terminate the team member in LawLogix](https://internal.gitlab.com/handbook/people-group/people-operations/people-connect/onboarding_process/#team-member-is-no-longer-joining-but-i-9-process-has-started). This will allow the I-9 to be purged at the correct time.
+1. If a team member is leaving the US, you will need to manually terminate the team member in LawLogix. This will allow the I-9 to be purged at the correct time.
+- Log in to LawLogix > search employee > Job Details tab > click: terminate
 1. Set yourself a reminder to [update the Benefit Group](https://docs.google.com/document/d/1MuRjPnvK9PZI2kk58jHnMgC3iUQCzp7xdjsfQpJT37k/edit?usp=sharing) in Workday to `INELIGIBLE` within one week of the relocation effective date. This confirms the end of the team member's US benefits eligiblity and the Total Rewards Team terminates the team member in PlanSource.
 
 #### The Netherlands
