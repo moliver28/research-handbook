@@ -125,44 +125,6 @@ If there is more than one data type residing in a system, the system should be c
 There is currently no internal requirement to label data according to this standard, however labels are encouraged. By labeling data according to classification level, individuals can quickly refer to this policy for proper handing.
 Issues that are confidential must be marked accordingly per our [Communication Handbook Page]({{< ref "communication" >}}). It is up to the data owner to ensure that security and privacy settings are applied as per their own requirements.
 
-#### Security and Privacy Controls
-
-Here are the security and privacy controls to apply for each data classification. Each control listed in the tables is expected to be applied.
-
-##### Red Classification{.text-danger}
-
-| Access| Reproduction | Distribution/ Disclosure | Storage/Disposal |
-|-|-|-|-|
-| Business need-to-know required for approved business functions | All copies of Red data outside of approved system(s) must be pre-approved by both Legal and Security. **Note:** This pre-approval does not extend to team member data classified as ORANGE which cannot be copied to test environments | Do not share publicly | Data must be encrypted at rest and in transit |
-| Manager and data owner approval required | Systems must have security controls equal to or greater than the approved system(s) | Data sharing with internal GitLab team members is authorized by the Data Owner and management after establishing “need-to-know” | Stored or processed on approved GitLab managed systems only unless otherwise approved |
-| Logging and monitoring of access required |  | Data sharing with non GitLab team members is not allowed unless explicitly approved by Legal and Security | Electronic storage media must be irretrievably erased, degaussed and/or disposed of in a secure fashion |
-| Quarterly access reviews required |  | API/Integrations must be approved by Security | When information is no longer valid or necessary, it should be completely and permanently destroyed in accordance with the Record Retention Policy. |
-| NDA required (if disclosed to a 3rd party) |  | Data must be encrypted in transit |  |
-| Background check required |  |  |  |
-
-##### Orange Classification{style="color: #fd7e14"}
-
-| Access| Reproduction | Distribution/ Disclosure | Storage/Disposal |
-|-|-|-|-|
-| Business need-to-know required | May be reproduced for Internal Use only. Team member data classified as ORANGE may not be used in test environments | Do not share publicly | Stored or processed on approved GitLab managed systems only unless otherwise approved |
-| Data owner approval required | Systems must have security controls equal to or greater than the approved system(s) | May be shared internally on a need-to-know basis | Data must be encrypted at rest  if stored on third party system |
-| NDA required |  | Data sharing with non GitLab team members is not allowed unless explicitly approved by data owner and management. Any vendor who is in possession of any form of Personal Data must have appropriate contractual terms that address GitLab data protection requirements (e.g. a Data Processing Agreement) | Electronic storage media must be irretrievably erased, degaussed and/or disposed of in a secure fashion |
-|  |  | Encrypted or otherwise electronically protected when sent to a recipient outside the company | When information is no longer valid or necessary, it should be completely and permanently destroyed in accordance with the Record Retention Policy. |
-
-##### Yellow Classification{style="color: #ffc107"}
-
-| Access| Reproduction | Distribution/ Disclosure | Storage/Disposal |
-|-|-|-|-|
-| Business need-to-know required | May be reproduced for Internal Use only | Do not share publicly | Normal deletion commands or utilities with operating systems are sufficient for online files. |
-| NDA required |  | Can be shared internally and externally in alignment with the Acceptable Use Policy | When information is no longer valid or necessary, it should be completely and permanently destroyed in accordance with the Record Retention Policy. |
-|  |  | Share externally via a secure mechanism (ie password protected zip file, access controlled Google Drive file, etc) |  |
-
-##### Green Classification{.text-success}
-
-| Access| Reproduction | Distribution/ Disclosure | Storage/Disposal |
-|-|-|-|-|
-| Public | Public Information requires no special handling | Public Information requires no special handling | When information is no longer valid or necessary, it should be completely and permanently destroyed in accordance with the Record Retention Policy. |
-
 ## Exceptions
 
 Exceptions to this policy will be tracked as per the [Information Security Policy Exception Management Process]({{< ref "_index.md#information-security-policy-exception-management-process" >}}).
