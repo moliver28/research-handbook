@@ -304,6 +304,79 @@ Works with finance, sales and the PS leadership to ensure effective use and adop
 
 - [more detail required]
 
+### Partner Operations, Professional Services
+
+
+#### Partner Operations, Professional Services Job Grade is a [grade 6](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+
+#### Partner Operations, Professional Services Responsibilities
+
+- Strategic Partnership Development:
+   - Negotiate and finalize partnership agreements, focusing on creating value for both GitLab and its partners.
+- Partnership Management and Optimization:
+   - Facilitate knowledge sharing and best practices between partners, subcontractors, and GitLab teams to enhance the overall quality and impact of consulting and  training.
+   - Responsible for facilitating and onboarding  consulting and training partners
+- Program Development and Execution:
+   - Collaborate with GitLab's Consulting and Education Services team to ensure that training content delivered by partners and subcontractors is up-to-date, effective, and aligned with GitLab's product advancements and educational philosophy.
+   - Oversee the certification process for consulting and training delivered by partners, ensuring it meets GitLab's high standards for quality and relevance.
+   - Ensure that all consulting and training partners and subcontractors operate in compliance with GitLab's policies, industry standards, and regulatory requirements.
+   - Assisting with processing for receiving and integrating feedback from partners on training programs.
+- Market Expansion and Engagement:
+   - Work with marketing and sales teams to develop and execute strategies for promoting GitLab's consulting and training programs through partners, increasing market penetration and customer engagement.
+- Cross-Functional Collaboration:
+   - Work closely with various GitLab teams, including Consulting and Education Services and Channel, to ensure cohesive strategy and execution across GitLab's training offerings.
+
+#### Partner Operations, Professional Services Requirements
+
+- Bachelor’s degree or the equivalent experience with demonstrated progressive experience in channel programs.
+- Excellent communication, analytical and organizational skills.
+- Great project & program management skills, ability to leverage, manage in a virtual environment
+- Strong Google including experience with pivot tables, analyzing and formatting data, use of filters, and creating charts and graphs
+- Excellent communication and presentation skills
+- Must have incredible attention to detail, be self-starting, and possess strong organizational skills
+
+### Senior Solutions Channel Manager 
+
+
+#### Senior Solutions Channel Manager [grade 7](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+
+#### Senior Solutions Channel Manager Responsibilities
+
+- Strategic Partnership Development
+   - Identify, assess, and develop relationships with potential consulting and training partners and subcontractors to expand GitLab's ecosystem, ensuring alignment with GitLab's strategic goals and consulting educational standards.
+   - Negotiate and finalize partnership agreements, focusing on creating value for both GitLab and its partners.
+- Partnership Management and Optimization:
+   - Serve as the primary point of contact for GitLab's consulting training partners and subcontractors, fostering strong, productive relationships.
+   - Regularly evaluate the performance and impact of partners and subcontractors, implementing strategies for continuous improvement and alignment with GitLab's consulting training objectives.
+   - Facilitate knowledge sharing and best practices between partners, subcontractors, and GitLab teams to enhance the overall quality and impact of consulting and  training.
+  - Responsible for facilitating and onboarding  consulting and training partners
+- Program Development and Execution:
+  - Collaborate with GitLab's Consulting and Education Services team to ensure that training content delivered by partners and subcontractors is up-to-date, effective, and aligned with GitLab's product advancements and educational philosophy.
+  - Oversee the certification process for consulting and training delivered by partners, ensuring it meets GitLab's high standards for quality and relevance.
+  - Ensure that all consulting and training partners and subcontractors operate in compliance with GitLab's policies, industry standards, and regulatory requirements.
+  - Establish mechanisms for receiving and integrating feedback from partners on training programs.
+  - Build and automate partner processes via tools and documentation
+- Market Expansion and Engagement:
+  - Conduct market analysis to identify new opportunities for consulting and training partnerships, including industry-specific, geographic, and technological areas where GitLab can expand its training reach.
+  - Work with marketing and sales teams to develop and execute strategies for promoting GitLab's consulting and training programs through partners, increasing market penetration and customer engagement
+- Cross-Functional Collaboration:
+  - Work closely with various GitLab teams, including Consulting and Education Services and Channel, to ensure cohesive strategy and execution across GitLab's training offerings.
+
+
+#### Senior Solutions Channel Manager Requirements
+
+- Bachelor’s degree or the equivalent experience with demonstrated progressive experience in channel programs.
+- Experience in building,managing and automating partner program, preferably in the DevOps space,
+- Experience in Legal contracts and administration experience
+- Excellent communication, analytical and organizational skills.
+- Previous experience enabling partners to deliver services and solutions that grow revenue,
+- Great project & program management skills, ability to leverage, manage in a virtual environment
+- Strong Google including experience with pivot tables, analyzing and formatting data, use of filters, and creating charts and graphs
+- Excellent communication and presentation skills
+- Must have incredible attention to detail, be self-starting, and possess strong organizational skills
+
+
+
 ## Performance Indicator
 
 - [CSAT](https://about.gitlab.com/handbook/support/support-ops/#customer-satisfaction-survey-csat ) >8.0/10
