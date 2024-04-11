@@ -102,7 +102,7 @@ We use the following definitions to determine and track utilization.
 | Available Hours | Total Weekday Hours － Non-Working Hours | 1696 hrs |
 | Quarterly Hour Total | Total Available Hours / 4 | 424 hrs |
 | Program/Project Manager, Engineer Quarterly Target | Quarterly  Hour Total * .7 | 296.8 hrs|
-| Technical Architect | Quarterly  Hour Total * .55 | 266.2 hrs|
+| Technical Architect | Quarterly  Hour Total * .55 | 233.2 hrs|
 
 **Customer Satisfaction (CSAT)**
 This performance indicator measures how satisfied our customers are with their interaction with the GitLab PS team. This is based on survey responses from customers sent at the end of each engagement.  On a scale of 1-5, if the customer submits a 4 or 5, we consider this Customer to be `Satisfied` with the services delivered. 
