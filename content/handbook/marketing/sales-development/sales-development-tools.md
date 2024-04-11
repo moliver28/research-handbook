@@ -501,6 +501,23 @@ The full process for offboarding at GitLab differs based on whether it is volunt
 - At least 200 people enrolled and/or having completed the sequence on a timely manner. 
 - ( Sequence has over 5% reply rate AND No less than 50% negative sentiment rate. ) OR Sequence has over 5% meeting set rate.
 
+### Things to look out for when reviewing a sequence as a Manager. 
+
+- Does the messaging of the sequence follow Command Of the Message? 
+     - Are all emails formatted appropriately with pain-probing questions and value propositions?
+     - Are the relevant value drivers for the personas targeted by this sequence used?
+- Is there a proper mix of automated and manual touches?
+     - Are 1-2 highly personalized emails used for High-Touch sequences?
+     - Are there at least 4 call steps for High-Touch sequences?
+     - For Low-Touch/Awareness campaigns are all touchpoints automated?
+- Are proper Outreach elements used?
+     - Are automated variables used all on all emails?
+     - Are manual personalisation variables used on manual emails?
+- Is the purpose of the sequence clearly articulated on the issue description?
+     - Are there other sequences that are proven to work that could be used instead?
+     - Is there a valid reason for this campaign? Will it contribute to results in terms of SAOs or awareness?
+     - Is the target demographic clearly thought out?
+
 ## Monthly Audit Process
 
 In an effort to increase transparency as well as consistency in terms of credit attribution for opportunities sourced by the Sales Development organization, we will conduct on a monthly basis a full audit of all opportunities giving credit to either a Sales Development or a Business Development Representative. Please do note that SDRs/BDRs that are on their ramping quarter are exempt from being auditors.
