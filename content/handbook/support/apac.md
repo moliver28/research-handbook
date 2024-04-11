@@ -37,7 +37,10 @@ of the GitLab Support On-Call Guide Handbook page.
 
 ### Support engineers should spend time on work other than L&R work
 
-- ???
+- Support engineers are hired into GitLab because they want to primarily work on technical problems
+  our customers face. While L&R problems are challenging, they are not usually deeply technical and
+  an over-focus on these causes technical skills to atrophy. To avoid this, support engineers in
+  APAC should spend no more than 30% of their time on L&R work.
 
 ## Working principles
 
