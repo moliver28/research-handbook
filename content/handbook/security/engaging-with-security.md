@@ -144,7 +144,7 @@ For more *immediate* attention, refer to [Engaging security on-call]({{< ref "en
 Severity and priority labels are set by an application security engineer at the time of triage
 if and only if the issue is [determined to be a vulnerability]({{< ref "./product-security/application-security/vulnerability-management#vulnerability-vs-feature-vs-bug" >}}).
 To identify such issues, the engineer will add the `~bug::vulnerability` label.
-Severity label is determined by CVSS score, using the [GitLab CVSS calculator](https://gitlab-com.gitlab.io/gl-security/appsec/cvss-calculator/).
+Severity label is determined by CVSS score, using the [GitLab CVSS calculator](https://gitlab-com.gitlab.io/gl-security/product-security/appsec/cvss-calculator/).
 If another team member feels that the chosen `~severity` / `~priority` labels
 need to be reconsidered, they are encouraged to begin a discussion on the relevant issue.
 
