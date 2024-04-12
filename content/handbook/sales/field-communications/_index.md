@@ -122,9 +122,9 @@ Once you've reviewed the playbook above and would like to request Field Communic
 1. Submit an issue using this [issue template](https://gitlab.com/gitlab-com/sales-team/field-operations/enablement/-/issues/new?issuable_template=field-announcement-request).
    1. **In an effort to reduce overwhelm and to effectively prioritize information sent to the Field, we require that you complete a Field Announcement request at least three business days prior to your requested send date**.
    1. If your request is urgent and requires immediate action from the Field (i.e system outage, something with an immediate customer impact, etc.), please complete a Field Announcement request as soon as possible and notify a member of the Field Communications team via Slack.
-1. Provide as much context about your announcement as possible, specifically around the urgency, relevancy and what actions are needed from the Field. **Requesters must complete their required sections in full before Field Communications will triage.**
+1. Provide as much context about your announcement as possible, specifically around the urgency, relevancy and what actions are needed from the Field. **Requesters must complete their required sections in full before Field Communications will triage.**Additionally, if your announcement pertains to anything that would impact the Field's ability to quote a product (product or packaging change), please ensure the Deal Desk has reviewed to ensure that any impact to sales systems is appropriately addressed. 
    1. You are not required to include complete copy in your request, but you must provide draft messaging (bullet points are fine). The Field Communications team will work with you to refine your message as appropriate.
-   1. Field Communications will triage the request and apply a placeholder tag Field Announcement::Triage to the issue as quickly as possible. Upon examining the request, they will assign it to a communication tier using one of three tags:
+   1. Field Communications will triage the request and apply a placeholder tag Field Announcement::Triage to the issue as quickly as possible. Upon examining the request, they will assign it to a communication tier using one of these tags:
       - Field Announcement::Tier 1
       - Field Announcement::Tier 2
       - Field Announcement::Tier 3
