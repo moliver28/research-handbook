@@ -17,7 +17,7 @@ The Channel Marketing Program Specialist is a [grade 5](/handbook/total-rewards/
 ### Responsibilities
 
 - Create, maintain and manage our partner marketing services offerings that allow partners to develop integrated demand generation campaigns.  Offerings include: co-branded, dynamic partner microsites, on-prem and SAAS free trial program.
-- Plan, manage, execute and measure the adoption and on-going support of partner trial syndication across partner ecosystem. 
+- Plan, manage, execute and measure the adoption and on-going support of partner trial syndication across partner ecosystem.
 - Develop a global planning and reporting process that is inclusive of adoption and usage of these powerful demand generation tools.
 - Develop standard, repeatable and stable processes that promote and enable operational efficiency.
 - Implement channel marketing initiatives, programs, communication vehicles, to drive increased market adoption and channel revenue goals.
@@ -50,19 +50,20 @@ The Sr. Channel Marketing Program Specialist is a [grade 6](/handbook/total-rewa
 
 ### Responsibilities
 
-This role includes all of the requirements of the previous level, plus: 
+This role includes all of the requirements of the previous level, plus:
 
-- Work cross functionally with the operations and data strategy team to build and iterate on ROI reporting to track the results of demand generation campaigns, giving business guidance to teams as necessary. 
-- Ability to collaborate with 3rd party vendors to drive technical system updates aligned to the need of the channel program. 
-- Monitor and analyze market trends and competitor activities to identify opportunities for growth and improvement in demand generation offerings for partners 
+- Work cross functionally with the operations and data strategy team to build and iterate on ROI reporting to track the results of demand generation campaigns, giving business guidance to teams as necessary.
+- Ability to collaborate with 3rd party vendors to drive technical system updates aligned to the need of the channel program.
+- Monitor and analyze market trends and competitor activities to identify opportunities for growth and improvement in demand generation offerings for partners.
 - Work with Regional Marketing team to create and deliver standardized reporting to sales and marketing leaders to showcase the pipeline impact of global channel marketing efforts.
 
 ### Requirements
-This role includes all of the requirements of the previous level, plus: 
+
+This role includes all of the requirements of the previous level, plus:
 
 - 5+ years of working with marketing, operations, direct or channel sales organizations.
-- Strong understanding and appreciation of channel partners and the ability to create demand generation campaigns for them. 
-- Can take an idea, and with limited guidance build a plan to see idea through. 
+- Strong understanding and appreciation of channel partners and the ability to create demand generation campaigns for them.
+- Can take an idea, and with limited guidance build a plan to see idea through.
 - Proven knowledge of working within GitLab or within an agile environment.
 
 ### Performance Indicators
