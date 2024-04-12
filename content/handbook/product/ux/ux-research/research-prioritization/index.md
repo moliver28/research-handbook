@@ -76,41 +76,34 @@ The last step is to bring the results from the calculator to the quarterly resea
 
 ## About the Research Priority Calculator
 
-The [Research Priority Calculator](https://docs.google.com/spreadsheets/d/1sE-Eia73HnvavfwNMHTJdKrvIkNxP9N3xtzpd4JUalo/copy) (search Research Priority Calculator TEMPLATE in Google Drive to access) is a tool meant to provide recommendations on which research projects to prioritize and what level of support is needed from the UX Researcher. The calculator takes into account the following areas:
+The [Research Priority Calculator](https://docs.google.com/spreadsheets/d/1sE-Eia73HnvavfwNMHTJdKrvIkNxP9N3xtzpd4JUalo/copy) (search Research Priority Calculator TEMPLATE in Google Drive to access) is a tool meant to provide recommendations on which research projects to prioritize and what level of support is needed from the UX Researcher. The calculator takes into account the following areas. Each criteria receives a score according to the table below and then is summed and divided by 30 (total possible score):
 
-| Criteria  | Description|
-| ------ | ------ |
-| Issue     | Link to research issue |
-| Type     | The type of research the project falls into: foundational, problem validation, solution validation. |
-|  Ownership| Can this research be supported someone other than a UX Researcher? |
-| Complexity | Does this project involve multiple studies or methodologies?   |
-| Development | Will this support skill development for the team or refine a process if a UX Researcher is involved?   |
-| Confidence | What level of confidence or knowledge do you have in the proposed solution or area of focus?  |
-| Impact   | How will the results impact GitLab? |
-| Users | How much of the user base will this project consider? Consider the entire user base. |
-| Scope | Does this project align with company, section, stage, or stage group objectives?  |
-| Section or Stage Group | What Section or Stage Group does this project fall under?  |
-| Timeline | When should this research be completed by?   |
-| Status | Status of the project   |
+| Criteria  | Description| Score/Weight |
+| ------ | ------ | ------ |
+| Issue     | Link to research issue | N/A |
+| Type     | The type of research the project falls into: foundational, problem validation, solution validation. | Foundational = 3 <br> Problem Validation = 2 <br> Solution Validation = 1 |
+|  Ownership| Can this research be supported someone other than a UX Researcher? | Yes = 3 <br> Somewhat = 2 <br> No = 1|
+| Design Support | Is this project being requested by a Product team with Product Design support? | Not applicable for this research (study created/led by UXR) = 3 <br> Requesting Product team has Product Designers = 2 <br> Requesting Product team does not have Product Designers = 1 |
+| Complexity | Does this project involve multiple studies or methodologies?   | Yes = 2<br> No = 1<br> I don’t know = 0|
+| Skill Development | Will this support skill development for the team or refine a process if a UX Researcher is involved?   | Yes = 3<br> Somewhat = 2 <br> No = 1|
+| Confidence | What level of confidence or knowledge do you have in the proposed solution or area of focus?  | High = 3 <br> Medium = 2<br> Low = 1|
+| Impact   | What impact does this work aim to have? (UXR impact framework link TBA) | Changes in product strategy / planning = 3<br> Changes to product / design = 2 <br> Knowledge gaps identified / filled = 1 |
+| Users | How much of the user base will this project consider? Consider the entire user base. | All = 3<br> Most = 2<br> Some = 1 |
+| Scope | Does this project align with company, section, stage, or stage group objectives?  | Company = 4<br> Section = 3<br> Stage = 2<br> Stage Group = 1 |
+| Alignment | Does this research connect to company yearlies or objectives and key results (OKRs)? Is this research future-looking or foundational? | Company Yearly = 3 <br> Section / Stage / Stage Group OKR = 2 <br> Foundational / Future Directions = 2 <br> Milestone Planning = 1 <br> None = 1 <br> I don’t know = 0 |
+| Section or Stage Group | What Section or Stage Group does this project fall under?  | N/A |
+| Timeline | When should this research be completed by?   | N/A |
 
-Each criteria receives a score according to the table below and then is summed and divided by 24 (total possible score).
 
-| Criteria  | Score/Weight |
-| ------ | ------ |
-| Type     | Foundational = 3 <br> Problem Validation = 2 <br> Solution Validation = 1 |
-|  Ownership  | Yes = 3 <br> Somewhat = 2 <br> No = 1|
-| Complexity| Yes = 2<br> No = 1<br> I don’t know = 0|
-| Development| Yes = 3<br> Somewhat = 2 <br> No = 1|
-| Confidence | High = 3 <br> Medium = 2<br> Low = 1|
-| Impact   | Influence product strategy = 3<br> Changes to product = 2 <br> Supports a design decision = 1 |
-| Users | All = 3<br> Most = 2<br> Some = 1 |
-| Scope | Company = 4<br> Section = 3<br> Stage = 2<br> Stage Group = 1 |
+
 
 After a score is assigned for each area, the calculator will output a priority score percentage (the higher the percentage, the higher in priority the project is) and support level for each project.
 
 ## About the Researcher Support Level
 
 An output of the Research Priority Calculator includes a Researcher Support Level. This is defined as the level of support the UX Researcher can commit to a given research project. Having a clear delineation of the roles that UX Researchers play in each research project helps everyone understand what is expected of them to execute research and support success.
+
+Note: When creating the quarterly research planning issue, the UX Researcher can adjust the Researcher Support Level (Gold, Silver, Bronze) from the calculation as needed based on the team or project needs.
 
 | Researcher Support Level| Priority Percentage |
 | ------ | ------ |
