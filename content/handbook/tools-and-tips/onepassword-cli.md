@@ -31,7 +31,7 @@ The paths can be obtained by viewing the credential in 1Password, clicking the d
 
 ### Run processes using the secrets
 
-When running processes which need the secrets, run it under the control of 1Password, so it can pass the variables correctly. 
+When running processes which need the secrets, run it under the control of 1Password, so it can pass the variables correctly.
 To do this, prepend `op run --env-file="<path to your env file>" --` to the command you wish to run, and replace any secrets with the relevant variable
 
 So for example
