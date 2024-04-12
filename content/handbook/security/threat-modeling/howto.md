@@ -25,7 +25,7 @@ Let's keep it short and simple here by just taking the initial sentence from our
 
 > Threat modeling is the process of taking established or new procedures, and then assessing it for potential risks.
 
-This is maybe the most high-level and abstract description of threat modeling, now let's put it to some practical use. We take **something**, an established or new process, really this might be anything. Like our own [assessment-tool](https://gitlab.com/gitlab-com/people-group/peopleops-eng/assessment-tool/-/blob/master/threat-model.md), a [stand-alone GitLab instance](https://gitlab.com/gitlab-com/gl-security/security-research/gitlab-standalone-instance/-/tree/master#gitlab-standalone-instance) or maybe a [new piece of infrastructure](https://gitlab.com/gitlab-com/gl-security/appsec/appsec-reviews/-/issues/79) (internal link).
+This is maybe the most high-level and abstract description of threat modeling, now let's put it to some practical use. We take **something**, an established or new process, really this might be anything. Like our own [assessment-tool](https://gitlab.com/gitlab-com/people-group/peopleops-eng/assessment-tool/-/blob/master/threat-model.md), a [stand-alone GitLab instance](https://gitlab.com/gitlab-com/gl-security/security-research/gitlab-standalone-instance/-/tree/master#gitlab-standalone-instance) or maybe a [new piece of infrastructure](https://gitlab.com/gitlab-com/gl-security/product-security/appsec/appsec-reviews/-/issues/79) (internal link).
 
 For the rest of this HowTo let's call the **thing** we're doing a threat model for a **feature** because for GitLab most of the threat modeling which should be done would be on features of the product or features of the infrastructure of our SaaS offering.
 
@@ -115,7 +115,7 @@ Once the initial steps have been done and we have a first set of well thought ou
 
 ### Documenting the Threat Model
 
-The [Stable Counterpart]({{< ref "/handbook/security/product-security/application-security/stable-counterparts" >}}) should document the threat model and the results. The threat model will be added to [the AppSec Threat Models repository](https://gitlab.com/gitlab-com/gl-security/appsec/threat-models)(internal link). This also includes templates for threat modeling that anyone can use in issues or epics.
+The [Stable Counterpart]({{< ref "/handbook/security/product-security/application-security/stable-counterparts" >}}) should document the threat model and the results. The threat model will be added to [the AppSec Threat Models repository](https://gitlab.com/gitlab-com/gl-security/product-security/appsec/threat-models)(internal link). This also includes templates for threat modeling that anyone can use in issues or epics.
 
 ### Ensure Ownership of Threats
 
