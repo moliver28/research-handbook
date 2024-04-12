@@ -10,7 +10,7 @@ GitLab receives vulnerability reports by various pathways, including:
 - Reports or questions that come in from customers through Zendesk.
 - Issues opened on the public issue trackers. The security team can not review
 all new issues and relies on everyone in the company to identify and label
-issues as `~bug::vulnerability` and @-mention `@gitlab-com/gl-security/appsec` on issues.
+issues as `~bug::vulnerability` and @-mention `@gitlab-com/gl-security/product-security/appsec` on issues.
 - Issues reported by automated security scanning tools
 
 For **any** reported vulnerability:
@@ -135,7 +135,7 @@ issue. If necessary, a sanitized issue may need to be created with more
 general discussion and examples appropriate for public disclosure prior to
 release.
 
-For review by the Application Security team, @ mention `@gitlab-com/gl-security/appsec`.
+For review by the Application Security team, @ mention `@gitlab-com/gl-security/product-security/appsec`.
 
 For more *immediate* attention, refer to [Engaging security on-call]({{< ref "engaging-security-on-call" >}}).
 
