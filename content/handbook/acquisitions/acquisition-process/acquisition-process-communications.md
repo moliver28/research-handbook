@@ -3,18 +3,18 @@
 title: "Acquisition Process: Communications"
 ---
 
-Communications is part of our [acquisition process](/handbook/acquisitions/acquisition-process/). The Corporate Development deal lead will set up a dedicated slack channel (format: `#p-project_name-communications`)
+Communications is part of our [acquisition process](/handbook/acquisitions/acquisition-process/). The Corporate Development Champion will set up a dedicated slack channel (format: `#p-project_name-communications`)
 
 1. Key points to consider prior to the closing of the acquisition
-    - If we will make a formal announcement via press release
-    - If we will announce as part of an earnings call
-    - Media strategy (proactive or reactive-only) 
-    - Timing
-    - Key messaging 
-    - When key team members and relevant EBAs are notified
-    - External spokesperson or spokespeople
-    - If an internal and/or external FAQ are/is warranted
-    - DRI for each team mentioned below
+    1. If we will make a formal announcement via press release
+    1. If we will announce as part of an earnings call
+    1. Media strategy (proactive or reactive-only) 
+    1. Timing
+    1. Key messaging 
+    1. When key team members and relevant EBAs are notified
+    1. External spokesperson or spokespeople
+    1. If an internal and/or external FAQ are/is warranted
+    1. DRI for each team mentioned below
 
 2. Assets and owners
 
@@ -25,7 +25,7 @@ Communications is part of our [acquisition process](/handbook/acquisitions/acqui
             1. Product Champion
             1. Product Marketing
             1. Legal
-            1. Corporate Development Deal Lead
+            1. Corporate Development Champion
             1. Acquired Company (review only; final approval is with GitLab)
     1. Press Release
         1. Responsible Team: Communications Team
@@ -34,7 +34,7 @@ Communications is part of our [acquisition process](/handbook/acquisitions/acqui
             1. Product Champion
             1. Product Marketing
             1. Legal
-            1. Corporate Development Deal Lead
+            1. Corporate Development Champion
             1. Finance/Investor Relations
             1. Acquired Company (review only; final approval is with GitLab)
     1. Internal FAQ
@@ -42,9 +42,10 @@ Communications is part of our [acquisition process](/handbook/acquisitions/acqui
         1. Reviewers and Approvers
             1. People Team/Talent Brand & Engagement
             1. Product Champion
+            1. Engineering Champion
             1. Product Marketing
             1. Legal
-            1. Corporate Development Deal Lead
+            1. Corporate Development Champion
     1. Company-wide internal Slack Message
         1. Responsible Team: People Team/Talent Brand & Engagement
         1. Reviewers and Approvers
@@ -52,7 +53,7 @@ Communications is part of our [acquisition process](/handbook/acquisitions/acqui
             1. Product Champion
             1. Product Marketing
             1. Legal
-            1. Corporate Development Deal Lead
+            1. Corporate Development Champion
     1. Field Communications & FAQ
         1. Responsible Team: Field Communications Team
         1. Reviewers and Approvers
@@ -61,7 +62,7 @@ Communications is part of our [acquisition process](/handbook/acquisitions/acqui
             1. Product Marketing
             1. Integrated Marketing
             1. Legal
-            1. Corporate Development Deal Lead
+            1. Corporate Development Champion
     1. #Field-FYI Internal Slack message
         1. Responsible Team: Field Communications Team
         1. Reviewers and Approvers
@@ -69,13 +70,13 @@ Communications is part of our [acquisition process](/handbook/acquisitions/acqui
             1. Product Champion
             1. Product Marketing
             1. Legal
-            1. Corporate Development Deal Lead
+            1. Corporate Development Champion
     1. Website Banner for Acquired Company
         1. Responsible Team: Digital Experience Team
         1. Reviewers and Approvers
             1. Digital Experience Team
             1. Legal
-            1. Corporate Development Deal Lead
+            1. Corporate Development Champion
             1. Acquired Company (review only; final approval is with GitLab)
     1. Corporate Social Posts
         - Responsible Team: Social Team
@@ -83,7 +84,7 @@ Communications is part of our [acquisition process](/handbook/acquisitions/acqui
             1. Communications
             1. Product Champion
             1. Legal
-            1. Corporate Development Deal Lead
+            1. Corporate Development Champion
     1. AMA's
         1. Responsible Team: People Team in collaboration with Product Management
         1. Reviewers and Approvers
