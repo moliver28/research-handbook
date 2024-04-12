@@ -304,12 +304,12 @@ Works with finance, sales and the PS leadership to ensure effective use and adop
 
 - [more detail required]
 
-### Partner Operations, Professional Services
+### Manager Global Services Partners 
 
 
-#### Partner Operations, Professional Services Job Grade is a [grade 6](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+#### Manager GLobal Services Partners Job Grade is a [grade 6](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
-#### Partner Operations, Professional Services Responsibilities
+#### Manager Global Services Partners Responsibilities
 
 - Strategic Partnership Development:
    - Negotiate and finalize partnership agreements, focusing on creating value for both GitLab and its partners.
@@ -325,8 +325,9 @@ Works with finance, sales and the PS leadership to ensure effective use and adop
    - Work with marketing and sales teams to develop and execute strategies for promoting GitLab's consulting and training programs through partners, increasing market penetration and customer engagement.
 - Cross-Functional Collaboration:
    - Work closely with various GitLab teams, including Consulting and Education Services and Channel, to ensure cohesive strategy and execution across GitLab's training offerings.
+-  This role will be required to flex into the PC reponsibilities as needed.
 
-#### Partner Operations, Professional Services Requirements
+#### Manager Global Services Partners Requirements
 
 - Bachelor’s degree or the equivalent experience with demonstrated progressive experience in channel programs.
 - Excellent communication, analytical and organizational skills.
@@ -335,12 +336,12 @@ Works with finance, sales and the PS leadership to ensure effective use and adop
 - Excellent communication and presentation skills
 - Must have incredible attention to detail, be self-starting, and possess strong organizational skills
 
-### Senior Solutions Channel Manager 
+### Senior Manager Global Services Partners  
 
 
-#### Senior Solutions Channel Manager [grade 7](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+#### Senior Manager Global Services Partners [grade 7](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
-#### Senior Solutions Channel Manager Responsibilities
+#### Senior Manager GLobal Services Partners Responsibilities
 
 - Strategic Partnership Development
    - Identify, assess, and develop relationships with potential consulting and training partners and subcontractors to expand GitLab's ecosystem, ensuring alignment with GitLab's strategic goals and consulting educational standards.
@@ -363,7 +364,7 @@ Works with finance, sales and the PS leadership to ensure effective use and adop
   - Work closely with various GitLab teams, including Consulting and Education Services and Channel, to ensure cohesive strategy and execution across GitLab's training offerings.
 
 
-#### Senior Solutions Channel Manager Requirements
+#### Senior Manager Global Services Partners Requirements
 
 - Bachelor’s degree or the equivalent experience with demonstrated progressive experience in channel programs.
 - Experience in building,managing and automating partner program, preferably in the DevOps space,
