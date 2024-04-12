@@ -48,7 +48,7 @@ be sure to get it reassigned if you won't be able to meet the estimated triage t
 following guidelines as necessary:
     - [Request clarification](#if-a-report-is-unclear), from either the reporter or the triage team
     - Verify the report yourself
-- When a report contains externally-hosted static content for reproduction (for example some HTML file triggering a CSRF or a vulnerability exploiting a `postMessage` issue), follow the instructions in [this project](https://gitlab.com/gitlab-com/gl-security/appsec/vuln-repro-static-pages) to re-host it internally
+- When a report contains externally-hosted static content for reproduction (for example some HTML file triggering a CSRF or a vulnerability exploiting a `postMessage` issue), follow the instructions in [this project](https://gitlab.com/gitlab-com/gl-security/product-security/appsec/vuln-repro-static-pages) to re-host it internally
 - Potential, non-bounty outcomes:
     - Report is out-of-scope. If actionable, issues may still be created.
     - Report is a `~"type::feature"` as defined above and would not need to be
@@ -179,7 +179,7 @@ Vulnerabilities behind disabled-by-default feature flags do not need a CVE (use 
 
 ## Triaging deprecated features
 
-Vulnerabilities in deprecated features are triaged normally. [See discussion](https://gitlab.com/gitlab-com/gl-security/appsec/appsec-team/-/issues/336) for more information.
+Vulnerabilities in deprecated features are triaged normally. [See discussion](https://gitlab.com/gitlab-com/gl-security/product-security/appsec/appsec-team/-/issues/336) for more information.
 
 ## Triaging DNS record takeovers
 
@@ -188,7 +188,7 @@ DNS record takeovers typically require multiple teams in order to triage. The wo
 - We import the HackerOne report to the infrastructure repository via `/h1 import $REPORT infrastructure`
 - Engage SIRT via `/security` in Slack. This will allow SIRT to perform their investigatory duties related to this type of attack.
 - Engage `@sre-oncall` in Slack. This notifies the SRE (but does not intiate a PagerDuty ping) on-call of a situation requiring their attention. In the relevant SIRT issue, the responder should be added to the issue by the GitLab SIRT.
-Remediation of this vulnerability happens within the SIRT issue and typically involves deleting the dangling CNAME record. For issues involving MX record takeovers we typically work with our MX SaaS vendor, Mailgun to obtain control of the record. More information on MX record takeovers can be found [here](https://gitlab.com/gitlab-com/gl-security/appsec/appsec-team/-/issues/334).
+Remediation of this vulnerability happens within the SIRT issue and typically involves deleting the dangling CNAME record. For issues involving MX record takeovers we typically work with our MX SaaS vendor, Mailgun to obtain control of the record. More information on MX record takeovers can be found [here](https://gitlab.com/gitlab-com/gl-security/product-security/appsec/appsec-team/-/issues/334).
 
 ## Awards
 
@@ -325,7 +325,7 @@ When that happens, the creation of a new license should be avoided.
 
 ## Questions?
 
-Members of the public can ask questions about our HackerOne bug bounty program here: [https://gitlab.com/gitlab-com/gl-security/appsec/hackerone-questions/](https://gitlab.com/gitlab-com/gl-security/appsec/hackerone-questions/). Note that this repository **is not** the place to discuss or disclose reports and vulnerabilities.
+Members of the public can ask questions about our HackerOne bug bounty program here: [https://gitlab.com/gitlab-com/gl-security/product-security/appsec/hackerone-questions/](https://gitlab.com/gitlab-com/gl-security/product-security/appsec/hackerone-questions/). Note that this repository **is not** the place to discuss or disclose reports and vulnerabilities.
 
 ## HackerOne Triage Team GitLab licenses
 
