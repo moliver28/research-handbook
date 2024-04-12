@@ -202,7 +202,12 @@ These activities are captured as `Campaign Type Details` on the campaign level i
 
 ## Requesting Swag for Channel Events and Awards
 
-Please work with your CMMs in order to identify eligibility for Partner Marketing Kit swag.
+We offer Marketing Kit Swag for Marketing Ready partner, these kits consists of:
+   - Banner stand
+   - Table Cloth
+   - 1000 stickers
+   - 200 Swag items (examples would be: colorful cable set, iPhone stand, bottle opener key chain, etc) 
+Please work with your Channel Marketing Managers to order your Marketing Kits. 
 
 
 ## Concierge Program
