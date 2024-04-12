@@ -56,6 +56,7 @@ The process is comprised of five key stages:
 ### Early Diligence
 
 1. Select [code name](#acquisitions-are-confidential) to use instead of target company name. Update Slack channel: `#project-code_name`.
+   1. Corporate Development Deal Lead to create a dedicated Project for cross-functional collaboration and issue tracking. Make a copy and rename the [New Project Diligence Template](https://gitlab.com/GL-corp-dev/Project-Diligence-Template/test-template) to get started.  
 1. [Form the acquisition team](#acquisition-team) and add the entire team to the channel and documents.
 +1. Confirm internal acquisition champion - every acquisition needs a lead champion; someone who is advocating for the acquisition, helping drive the acquisition rationale and a successful integration process. For most acquisitions that fit our [approach](/handbook/acquisitions/), the champion will be a Product Section lead, at the Director+ level, accompanied by an engineering champion from the GitLab's Engineering team, at the Director+ level, respectively. For other acquisitions, champions may come from other internal functions.
 1. Create a dedicated technical diligence Slack channel `#p-code_name-technical-diligence`. This channel will be the main channel for communication on technical topics with GitLab's development team.
