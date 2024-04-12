@@ -1,0 +1,118 @@
+---
+
+title: "Acquisition Process: Communications"
+---
+
+Communications is part of our [acquisition process](/handbook/acquisitions/acquisition-process/). The Corporate Development deal lead will set up a dedicated slack channel (format: `#p-project_name-communications`)
+
+1. Key points to consider prior to the closing of the acquisition
+    - If we will make a formal announcement via press release
+    - If we will announce as part of an earnings call
+    - Media strategy (proactive or reactive-only) 
+    - Timing
+    - Key messaging 
+    - When key team members and relevant EBAs are notified
+    - External spokesperson or spokespeople
+    - If an internal and/or external FAQ are/is warranted
+    - DRI for each team mentioned below
+
+2. Assets and owners
+
+    1. Blog Post
+        1. Responsible Team: Communications Team
+        1. Reviewers and Approvers
+            1. Communications
+            1. Product Champion
+            1. Product Marketing
+            1. Legal
+            1. Corporate Development Deal Lead
+            1. Acquired Company (review only; final approval is with GitLab)
+    1. Press Release
+        1. Responsible Team: Communications Team
+        1. Reviewers and Approvers
+            1. Communications
+            1. Product Champion
+            1. Product Marketing
+            1. Legal
+            1. Corporate Development Deal Lead
+            1. Finance/Investor Relations
+            1. Acquired Company (review only; final approval is with GitLab)
+    1. Internal FAQ
+        1. Responsible Team: People Team/Talent Brand & Engagement
+        1. Reviewers and Approvers
+            1. People Team/Talent Brand & Engagement
+            1. Product Champion
+            1. Product Marketing
+            1. Legal
+            1. Corporate Development Deal Lead
+    1. Company-wide internal Slack Message
+        1. Responsible Team: People Team/Talent Brand & Engagement
+        1. Reviewers and Approvers
+            1. People Team/Talent Brand & Engagement
+            1. Product Champion
+            1. Product Marketing
+            1. Legal
+            1. Corporate Development Deal Lead
+    1. Field Communications & FAQ
+        1. Responsible Team: Field Communications Team
+        1. Reviewers and Approvers
+            1. Field Communications
+            1. Product Champion
+            1. Product Marketing
+            1. Integrated Marketing
+            1. Legal
+            1. Corporate Development Deal Lead
+    1. #Field-FYI Internal Slack message
+        1. Responsible Team: Field Communications Team
+        1. Reviewers and Approvers
+            1. Field Communications
+            1. Product Champion
+            1. Product Marketing
+            1. Legal
+            1. Corporate Development Deal Lead
+    1. Website Banner for Acquired Company
+        1. Responsible Team: Digital Experience Team
+        1. Reviewers and Approvers
+            1. Digital Experience Team
+            1. Legal
+            1. Corporate Development Deal Lead
+            1. Acquired Company (review only; final approval is with GitLab)
+    1. Corporate Social Posts
+        - Responsible Team: Social Team
+        - Reviewers and Approvers
+            1. Communications
+            1. Product Champion
+            1. Legal
+            1. Corporate Development Deal Lead
+    1. AMA's
+        1. Responsible Team: People Team in collaboration with Product Management
+        1. Reviewers and Approvers
+            1. Communications
+            1. Product Champion
+    1. Media Coverage Report
+        1. Responsible Team: Communications
+    1. Analyst Communications
+        1. Responsible Team: Analyst Relations
+        1. Reviewers and Approvers
+            1. Analyst Relations
+            1. Communications
+3. Run of show and process checklist for day of the announcement
+    1. Adjust company name from code name to real name in all materials (all DRIs for respective materials) 
+    1. Push blog post live (content team) 
+    1. Notify Nasdaq of upcoming press release (comms team)
+    1. Submit release to GlobeNewswire; press release crosses wire with blog post linked within (comms team)
+    1. Post press release on GitLab’s IR site (comms team)
+    1. Post press release on GitLab’s newsroom (comms team)
+    1. Post internal Slack message to #company-fyi Slack channel (corporate development / people team)
+    1. Publish social posts from GitLab and acquired company’s handles (social team + acquired company leadership)
+    1. Issue field communications to team via Slack and upload to HighSpot (field communications team)
+    1. Pitch media if outbound media relations are planned (communications team)
+    1. Push banner live on acquired company’s website (DEX in partnership with acquired company)
+    1. Flag/post GitLab e-group social media commentary (social team + e-group members)
+    1. Host AMA for EMEA and US East Coast team members (people team in partnership with corporate development and product)
+    1. Host second AMA for APJ time zones (people team in partnership with corporate development and product)
+    1. Share media coverage recap with stakeholders, including in acquisition working group and e-group channels (comms team)
+    1. Reach out to relevant analysts, if appropriate (analyst relations)
+    1. Either port to Gitlab or deactivate acquired company’s social channels, depending on volume of followers (social team)
+    1. Retro of announcement and process (corporate development team)
+
