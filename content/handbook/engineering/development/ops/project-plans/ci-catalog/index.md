@@ -20,7 +20,7 @@ CI Catalog GA Epic: [https://gitlab.com/groups/gitlab-org/-/epics/12153](https:/
 
 ### Additional Important Notes:
 
-- Awaiting feedback from security on [Threat Model](https://gitlab.com/gitlab-com/gl-security/appsec/threat-models/-/issues/43#note_1764196039) diagrams provided.
+- Awaiting feedback from security on [Threat Model](https://gitlab.com/gitlab-com/gl-security/product-security/appsec/threat-models/-/issues/43#note_1764196039) diagrams provided.
 
 ### Overall GA progress
 
@@ -119,7 +119,7 @@ CI Catalog GA Epic: [https://gitlab.com/groups/gitlab-org/-/epics/12153](https:/
 - Spikes
   - [Spike issue](https://gitlab.com/gitlab-org/gitlab/-/issues/434260) to distributed components for Self managed customers.
   - [Spike issue](https://gitlab.com/gitlab-org/gitlab/-/issues/438409) to calculate number of times a component is used.
-- [Threat Model](https://gitlab.com/gitlab-com/gl-security/appsec/threat-models/-/issues/43#note_1738526551) diagrams in-progress to be provided to security. - waiting on security feedback.
+- [Threat Model](https://gitlab.com/gitlab-com/gl-security/product-security/appsec/threat-models/-/issues/43#note_1738526551) diagrams in-progress to be provided to security. - waiting on security feedback.
 
 #### Other milestone goals:
 

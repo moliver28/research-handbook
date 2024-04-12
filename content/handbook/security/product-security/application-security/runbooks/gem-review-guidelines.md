@@ -6,8 +6,8 @@ When a new gem is added to our `Gemfile` or when versions are changed in `Gemfil
 
 - First, look to see if the gem is well maintained.
     - Look closer at the gem's code to see if there are any anomalies. This step can be time consuming, so, make sure you balance the time taken to review the gem's code with the urgency of the MR/issue the GitLab developer pinged us on.
-    - The `diffgem` helper function in [gitlab-com/gl-security/appsec/tooling/appsec-command-line-utils](https://gitlab.com/gitlab-com/gl-security/appsec/tooling/appsec-command-line-utils) was created to assist in reviewing gem version changes by showing only the `diff`s for Ruby files. (excluding changes to specs, `json`, `yaml`, and other noise)
-    - [Depscore](https://gitlab.com/gitlab-com/gl-security/appsec/tooling/depscore) if enabled in the project CI/CD will run [checks](https://gitlab.com/gitlab-com/gl-security/appsec/tooling/depscore#the-following-checks-are-carried-out-on-a-newly-introduced-ruby-gem) against the new dependency and comments the result in the MR to help with the Gem review.
+    - The `diffgem` helper function in [gitlab-com/gl-security/product-security/appsec/tooling/appsec-command-line-utils](https://gitlab.com/gitlab-com/gl-security/product-security/appsec/tooling/appsec-command-line-utils) was created to assist in reviewing gem version changes by showing only the `diff`s for Ruby files. (excluding changes to specs, `json`, `yaml`, and other noise)
+    - [Depscore](https://gitlab.com/gitlab-com/gl-security/product-security/appsec/tooling/depscore) if enabled in the project CI/CD will run [checks](https://gitlab.com/gitlab-com/gl-security/product-security/appsec/tooling/depscore#the-following-checks-are-carried-out-on-a-newly-introduced-ruby-gem) against the new dependency and comments the result in the MR to help with the Gem review.
 - Look to see if we are using the latest version of the gem in our code.
 - Read the gem's documentation to see if there are any configurations or usages that should be avoided.
 - Check for security advisories and fixes to evaluate the quality of security fixes
