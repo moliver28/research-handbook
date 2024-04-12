@@ -78,7 +78,7 @@ following guidelines as necessary:
 - If the report relates to information disclosure, follow the [triaging exposed secrets](#triaging-exposed-secrets) process.
 - If the report is valid, in-scope, original, and requires action, security-related documentation change, or if the report needs further investigation by
 the responsible engineering team:
-    - [Calculate the CVSS score](https://gitlab-com.gitlab.io/gl-security/appsec/cvss-calculator/) and post the resulting vector string (e.g.: `AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:L`) as an internal comment on the report, this will be used later when requesting a CVE ID
+    - [Calculate the CVSS score](https://gitlab-com.gitlab.io/gl-security/product-security/appsec/cvss-calculator/) and post the resulting vector string (e.g.: `AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:L`) as an internal comment on the report, this will be used later when requesting a CVE ID
     - Verify and/or set the appropriate Severity in H1, using the CVSS previously calculated
       - Optionally explain the CVSS to the researcher, mention that CVSS scores are validated by a peer, and link to our Awards process to avoid inefficient misunderstandings relating to severity and payouts
     - Verify and/or set the appropriate Weakness in H1
@@ -133,7 +133,7 @@ Exposure of information and secrets is handled a little differently to vulnerabi
   - Update the Timeline section to include the date the secret was leaked, when HackerOne report came in, and when you took any actions.
   - Add any comments to the SIRT issue with context or information that might be helpful.
 - In the H1 report use the reference field to link to the SIRT issue (for example if the incident issue is `https://gitlab.com/gitlab-sirt/incident_XXXX/-/issues/1` the reference should be `gitlab-sirt/incident_XXXX/-/issues/1`)
-- Identify the most appropriate [non-CVSS bounty amount](https://gitlab-com.gitlab.io/gl-security/appsec/cvss-calculator/) and add your initial [suggested bounty](https://docs.hackerone.com/programs/bounties.html#suggesting-bounties) in H1
+- Identify the most appropriate [non-CVSS bounty amount](https://gitlab-com.gitlab.io/gl-security/product-security/appsec/cvss-calculator/) and add your initial [suggested bounty](https://docs.hackerone.com/programs/bounties.html#suggesting-bounties) in H1
 - Use `/h1 bounty REPORT_ID` to create a comment on the Bug Bounty Council issue (this step should not be necessary if `/h1 import` was previously run without the `~no-bounty` option.
 - Support SIRT as required and, if applicable, follow the process for [handling severity::1/priority::1 issues](./handling-s1p1.html)
 - Investigate the location of the exposure, and locations like it, for further exposure.
@@ -159,7 +159,7 @@ Similar to how we handle exposed secrets, we sometimes handle exposed personal d
 - Add information to the SIRT issue.
   - Add any comments to the SIRT issue with context or information that might be helpful.
 - In the H1 report use the reference field to link to the SIRT issue (for example if the incident issue is `https://gitlab.com/gitlab-sirt/incident_XXXX/-/issues/1` the reference should be `gitlab-sirt/incident_XXXX/-/issues/1`
-- Identify the most appropriate [non-CVSS bounty amount](https://gitlab-com.gitlab.io/gl-security/appsec/cvss-calculator/) and add your initial [suggested bounty](https://docs.hackerone.com/programs/bounties.html#suggesting-bounties) in H1
+- Identify the most appropriate [non-CVSS bounty amount](https://gitlab-com.gitlab.io/gl-security/product-security/appsec/cvss-calculator/) and add your initial [suggested bounty](https://docs.hackerone.com/programs/bounties.html#suggesting-bounties) in H1
 - Use `/h1 bounty REPORT_ID` to create a comment on the Bug Bounty Council issue
   - Note that we are importing it using `bounty` only here.
 - Support SIRT as required and, if applicable, follow the process for [handling severity::1/priority::1 issues]({{< ref "handling-s1p1.html" >}})
