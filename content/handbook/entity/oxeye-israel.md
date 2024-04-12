@@ -23,11 +23,11 @@ Currently, GitLab provides the below additional benefits, in addition to mandato
 
 The balance period is from January 1 - December 31st, and any unused PTO will be foreited if not used within the balance period.
 
-Team members with a 5 day working week are entitled to
-    * 16 working days during their first five years of service
-    * 18 working days from the sixth year
-    * 21 working days from their 7th year, and
-    * The eighth year onward one additional day per year of service up to a maximum of 28 working days.
+Team members with a 5 day working week are entitled to:
+- 16 working days during their first five years of service
+- 18 working days from the sixth year
+- 21 working days from their 7th year, and
+- The eighth year onward one additional day per year of service up to a maximum of 28 working days.
 
 Annual leave payment is calculated at the regular salary pay rate.
 
@@ -48,8 +48,9 @@ Team members with one year or more of service are entitled to 26 weeks of matern
 
 Team members who have worked for the company for less than one year are entitled to 15 weeks of maternity leave.
 
-    * A team member may extend their maternity leave entitlement by three weeks in the case of multiple or complicated births.
-    * In the unfortunate circumstance that a mother loses her child after the birth, she may take unpaid maternity leave up to 60 days after the birth.
+- A team member may extend their maternity leave entitlement by three weeks in the case of multiple or complicated births.
+
+- In the unfortunate circumstance that a mother loses her child after the birth, she may take unpaid maternity leave up to 60 days after the birth.
 
 Team members must take at least 7 weeks of maternity leave after the child is born.  After the 7th week of leave, the mother can choose to return to work and transfer the remaining maternity leave period to her spouse.
 
