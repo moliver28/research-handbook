@@ -86,14 +86,14 @@ There are several ways to view current and future schedules:
 
 #### Scheduling PagerDuty rotations
 
-PagerDuty schedules for support should be filled in by DRIs (readiness, support managers, etc) directly on the [Support PagerDuty Worksheet](https://docs.google.com/spreadsheets/d/1FdUzVXCZleopfteC2QxW7LJwyylGWGl9hwXHMPkRHbQ/edit?usp=sharing).
-This sheet's contents will be used by the readiness team to populate the following quarter's on-call shifts in PagerDuty during the first week of the final month of the quarter (Jan, Apr, Jul, Oct). On the first Monday of the second month of a quarter a reminder will be posted in Slack via the [#support_leadership channel](https://gitlab.enterprise.slack.com/archives/C01F9S37AKT) to remind DRIs of the upcoming implementation due date.
+PagerDuty schedules for Support should be filled in by DRIs (readiness, support managers, etc.) directly on the [Support PagerDuty Worksheet](https://docs.google.com/spreadsheets/d/1FdUzVXCZleopfteC2QxW7LJwyylGWGl9hwXHMPkRHbQ/edit?usp=sharing).
+The Readiness Team uses this sheet's contents to populate the following quarter's PagerDuty schedules during the first week of the final month of the quarter (Jan., Apr., Jul., Oct.). On the first Monday of the second month of a quarter the Readiness Team will post in the Slack [#support_leadership channel](https://gitlab.enterprise.slack.com/archives/C01F9S37AKT) a reminder  to the DRIs of the upcoming implementation due date.
 
-Once the readiness team has implemented the next quarter's schedule they will remove the scheduled rows from the sheet and PagerDuty should be considered the SSOT for the next quarter. For dates that exceed the next quarter, the spreadsheet should be considered the SSOT.
+Once the Readiness Team has implemented the next quarter's schedule they remove the scheduled rows from the sheet and PagerDuty becomes the SSOT for the next quarter. For dates that exceed the next quarter, the spreadsheet is the SSOT.
 
 ##### Availability
 
-The spreadsheet's rows are able to be changed by DRIs who can make the schedule up to a year in advance of the current quarter. The schedule is **not** automatically populated and must be completely filled in for each quarter. If, at the time of readiness implementation, there are blank spaces in one of the schedules, then the most relevant regional support director will be responsible for that shift until they find coverage via an overrride.
+DRIs are free to use the spreadsheet to create the schedule in advance for up to one year from the current quarter. The schedule is **not** automatically populated and must be completely filled in for each quarter. If, at the time of Readiness implementation, there are blank spaces in one of the schedules, then the most relevant regional support director will be responsible for that shift until they find coverage and make an override in PagerDuty.
 
 ##### Schedule Changes
 
