@@ -53,19 +53,19 @@ Team members who have worked for the company for less than one year are entitled
 
 Team members must take at least 7 weeks of maternity leave after the child is born.  After the 7th week of leave, the mother can choose to return to work and transfer the remaining maternity leave period to her spouse.
 
-Maternity leave runs concurrently with [GitLab's Parental Leave](https://handbook.gitlab.com/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave).  About 30 days before the expected due date, team members should enter their time away into Time Off by Deel by selecting the label `Parental Leave`.
+Maternity leave runs concurrently with [GitLab's Parental Leave](/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave).  About 30 days before the expected due date, team members should enter their time away into Time Off by Deel by selecting the label `Parental Leave`.
 
 ### Paternity Leave
 
 Paternity leave begins immediately following a partner going into labor and up to 24 hours following the birth, a team member is allowed to be absent from work for up to 5 days as paternity leave. The first three days of this leave will be paid from their accrued annual vacation and the remaining two days will be deducted from their accrued sick leave.
 
-Paternity leave runs concurrently with [GitLab's Parental Leave](https://handbook.gitlab.com/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave) and provides team members with up to 16 weeks of paid leave.  About 30 days before the expected due date, team members should enter their time away into Time Off by Deel by selecting the label `Parental Leave`.
+Paternity leave runs concurrently with [GitLab's Parental Leave](/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave) and provides team members with up to 16 weeks of paid leave.  About 30 days before the expected due date, team members should enter their time away into Time Off by Deel by selecting the label `Parental Leave`.
 
 ### Statutory Parental Leave
 
 If maternity leave is being shared, fathers can take days off after the birth of a child, but these days will be subtracted from the maternity leave.  If maternity leave is not being shared, team members are still eligible for up to 16 weeks of GitLab Parental Leave.
 
-Any statutory Parental leave taken will run concurrently with [GitLab's Parental Leave](https://handbook.gitlab.com/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave).  About 30 days before the expected due date, team members should enter their time away into Time Off by Deel by selecting the label `Parental Leave`.
+Any statutory Parental leave taken will run concurrently with [GitLab's Parental Leave](/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave).  About 30 days before the expected due date, team members should enter their time away into Time Off by Deel by selecting the label `Parental Leave`.
 
 ### Bereavement Leave
 
