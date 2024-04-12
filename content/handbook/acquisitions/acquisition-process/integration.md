@@ -30,6 +30,7 @@ Examples of areas and tasks, some of which are determined by deal structure and 
 
 1. It is important that the new team members know who to contact with questions and it is also important for there to be "one voice" communicating with the new team members. Pre-closing, that "one voice" is the deal lead, and post-closing it is a team comprised of the applicable team members who are the subject matter experts or leads. Using the "one voice" approach helps ensure all communications are coordinated, and the messages are consistent and timely. In the case of pre-closing and closing matters, the deal lead works, as appropriate and permissible, with the target company's CEO and other senior management in communicating with the target company employees as part of the deal announcement.
 1. The deal lead is responsible for working with the target company in connection with coordinating (as appropriate and permissible) communications and messages to the target company's customers. The timing and nature of the communications depends on the structure of the transaction and the terms related to customer communications set forth in the deal documents.
+1. See the [Acquisition Process Communications Handbook Page](/handbook/acquisitions/acquisition-process/acquisition-process-communications/) for further direction. 
 
 ### Strategic Objectives and Performance Tracking
 
