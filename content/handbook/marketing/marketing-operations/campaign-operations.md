@@ -52,6 +52,10 @@ In an effort to avoid manually adding the issues we are working on, Field Market
 #### MktgOps
 Please note there is a 5 business day SLA with MktgOps, so please plan ahead accordingly. The SLA begins on the day after the issue is put into `~MktgOps::00: Triage`. For example, if the issue goes to triage on Tuesday, day 1 is Wednesday, day 5 is the following Tuesday. Day 5 is the earliest deployment/live date available. Please allow for US holidays and Family & Friends days as well. Using the same example, if day 4 is a US holiday, this will push day 5 to Wednesday. 
 
+Anything outside of the standard set-up does not fall under the 5 business day SLA. The most common example of this is the creation of custom forms. For more information about when custom forms are required and the timeline for this work, visit the [Marketo HB page](https://handbook.gitlab.com/handbook/marketing/marketing-operations/marketo/#forms).
+
+If you are planning a program that requires anything outside of the standard set-up, bring MOps in early during your planning process. We can help guide you on the best way to use our available technology to reach your goals and keep your program timeline on track.
+
 #### Field Marketing
 Please see Field Marketing SLAs pertaining to this process [here](/handbook/marketing/field-marketing/#slas).
 
