@@ -79,7 +79,7 @@ All GitLab team members are eligible to apply for the CEO Shadow Program.
 
 #### VP-Directs Shadow Opportunities
 
-[VP-Directs](/handbook/company/structure/#vp-directs-group) are encouraged to do a two week Shadow rotation--optimally within their third or fourth month at GitLab. If they cannot make a full two week rotation, they can ask to do a one week rotation. In this instance, they should work with the Staff EBA to the CEO to coordinate. We'll post the availability of a second, one-week rotation in the #vp-directs Slack channel. We will preserve the broader see one/teach one program structure.
+[VP-Directs](/handbook/company/structure/#vp-directs-group) are encouraged to do a two week Shadow rotation--optimally within their third or fourth month at GitLab. If they cannot make a full two week rotation, they can ask to do a one week rotation. Full attendance will be required during this period. In this instance, they should work with the Staff EBA to the CEO to coordinate. We'll post the availability of a second, one-week rotation in the #vp-directs Slack channel. We will preserve the broader see one/teach one program structure.
 
 CEO Shadow rotations will be reserved for [VP-Directs](/handbook/company/structure/#vp-directs-group) during the week of [E-Group Offsites](/handbook/company/offsite/#schedule). An exception will be made if there is last minute availability as two VP-Directs are not available to serve in this role during this window.
 
