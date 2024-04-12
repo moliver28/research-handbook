@@ -1,9 +1,9 @@
 ---
 
-title: Gitlan Duo - Code Suggestions
+title: Gitlan Duo Chat
 category: GitLab.com
 subcategory: Gitlan Duo
-description: "Workflow for ticket related to GitLab Duo - Code Suggestions"
+description: "Workflow for ticket related to GitLab Duo Chat"
 ---
 
 ## Overview
