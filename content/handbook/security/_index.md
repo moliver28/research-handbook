@@ -172,7 +172,7 @@ Many teams follow a convention of having a GitLab group `team-name-team` with a 
 - [Product Security (@gitlab-com/gl-security/product-security)](https://gitlab.com/gitlab-com/gl-security/product-security/product-security-meta)
     - [gitlab-com/gl-security/engineering-and-research-meta](https://gitlab.com/gitlab-com/gl-security/engineering-and-research-meta) For department wide management and planning issues.
     - [gitlab-com/gl-security/engineering-and-research/automation-team/automation](https://gitlab.com/gitlab-com/gl-security/engineering-and-research/automation-team/automation)
-    - [@gitlab-com/gl-security/appsec](https://gitlab.com/gitlab-com/gl-security/appsec) is the primary group for @'mentioning the Application Security team.
+    - [@gitlab-com/gl-security/product-security/appsec](https://gitlab.com/gitlab-com/gl-security/product-security/appsec) is the primary group for @'mentioning the Application Security team.
 - [Security Operations (@gitlab-com/gl-security/security-operations)](https://gitlab.com/gitlab-com/gl-security/security-operations) Security Operations Department
     - [@gitlab-com/gl-security/security-operations/sirt](https://gitlab.com/gitlab-com/gl-security/security-operations/sirt) is the primary group for @'mentioning the Security Incident Response Team (SIRT).
         - [SIRT (private)](https://gitlab.com/gitlab-com/gl-security/security-operations/sirt/operations) for SIRT issues.
