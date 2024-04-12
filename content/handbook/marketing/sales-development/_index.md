@@ -62,8 +62,8 @@ Our Outbound-focused BDRs excel in strategic account planning, research, and del
 | **BDR ENTG EMEA DACH - (Manager - Christopher Allenfort)** | [`#bdr_entg_emea_dach`](https://gitlab.slack.com/archives/C04NP4VC449) |
 | **BDR ENTG EMEA NEUR META - (Manager - Miguel Nunes)** | [`#bdr_entg_emea_neur_meta`](https://gitlab.slack.com/archives/C04N) |
 | **BDR ENTG EMEA SEUR - (Manager - Tati Fernandez)**   | [`#bdr_entg_emea_seur`](https://gitlab.slack.com/archives/C04NE65S6AE) |
-| **SDR APAC - (Manager - Robin Falkowski)**             | [`#sdr_emea_apac_inbound`](https://gitlab.slack.com/archives/C031T0L) |
-| **BDR ENTG APAC - (Manager - Robin Falkowski)**          | [`#bdr_entg_apac`](https://gitlab.slack.com/archives/C0327R1NZBK) |
+| **SDR APJ - (Manager - Robin Falkowski)**             | [`#sdr_emea_apac_inbound`](https://gitlab.slack.com/archives/C031T0L) |
+| **BDR ENTG APJ - (Manager - Robin Falkowski)**          | [`#apj_sales_dev`](https://gitlab.enterprise.slack.com/archives/C031EGFR5UK) |
 
 ## Our GitLab Projects
 
@@ -82,21 +82,21 @@ Our Outbound-focused BDRs excel in strategic account planning, research, and del
 | Name/Link                                                            | Description                                            |
 |-----------------------------------------------------------------------|--------------------------------------------------------|
 | [1:1 Dashboards - Leads: PUBSEC](https://gitlab.my.salesforce.com/01Z8X000000u7Vy)   | 1:1 dashboard for leads in the PUBSEC segment.          |
-| [1:1 Dashboards - Leads: COMM APAC](https://gitlab.my.salesforce.com/01ZPL000000YXw1) | 1:1 dashboard for leads in the APAC ENTG segment.       |
+| [1:1 Dashboards - Leads: COMM APJ](https://gitlab.my.salesforce.com/01ZPL000000YXw1) | 1:1 dashboard for leads in the APJ ENTG segment.       |
 | [1:1 Dashboards - Leads: ENTG EMEA](https://gitlab.my.salesforce.com/01Z8X000000u7Vo) | 1:1 dashboard for leads in the ENTG EMEA segment.       |
 | [1:1 Dashboards - Leads: ENTG EMEA/AMER](https://gitlab.my.salesforce.com/01Z8X000000u7W8) | 1:1 dashboard for leads in the ENTG EMEA/AMER segment.  |
 | [1:1 Dashboards - Leads: COMM EMEA](https://gitlab.my.salesforce.com/01Z8X000000u7Q5)  | 1:1 dashboard for leads in the COMM EMEA segment.       |
 | [1:1 Dashboards - Accounts: EMEA COMM](https://gitlab.my.salesforce.com/01Z8X000000u7O4) | 1:1 dashboard for accounts in the EMEA COMM segment.    |
 | [1:1 Dashboards - Accounts: ENG AMER/LATAM](https://gitlab.my.salesforce.com/01Z8X000000u7Ww) | 1:1 dashboard for accounts in the ENG AMER/LATAM segment. |
-| [1:1 Dashboards - Accounts: COMM APAC](https://gitlab.my.salesforce.com/01ZPL000000YXxd)   | 1:1 dashboard for accounts in the ENTG APAC segment.     |
+| [1:1 Dashboards - Accounts: COMM APJ](https://gitlab.my.salesforce.com/01ZPL000000YXxd)   | 1:1 dashboard for accounts in the ENTG APJ segment.     |
 | [1:1 Dashboards - Accounts: ENTG EMEA](https://gitlab.my.salesforce.com/01Z8X000000u7Wr)   | 1:1 dashboard for accounts in the ENTG EMEA segment.     |
 | [1:1 Dashboards - Accounts: PUBSEC](https://gitlab.my.salesforce.com/01Z8X000000u7Wh)     | 1:1 dashboard for accounts in the PUBSEC segment.       |
-| [Watch and Help Action Needed: SDR Global](https://gitlab.my.salesforce.com/01ZPL000000ULrp) | Dashboard outlining items where immediate action is needed in the SDR team.   |
-| [Watch and Help Action Needed: PubSec Global](https://gitlab.my.salesforce.com/01ZPL000000UN7F) | Dashboard outlining items where immediate action is needed in the PubSec team. |
-| [Watch and Help Action Needed: APAC BDR](https://gitlab.my.salesforce.com/01ZPL000000bkbl) | Action needed for watch and help for APAC BDR.          |
-| [Watch and Help Action Needed: EMEA BDR](https://gitlab.my.salesforce.com/01Z4M000000soBO) | Action needed for watch and help for EMEA BDR.          |
-| [Watch and Help Action Needed: AMER BDR](https://gitlab.my.salesforce.com/01ZPL00000069v3) | Action needed for watch and help for AMER BDR.        |
-| [Watch and Help Action Needed: SDR Global](https://gitlab.my.salesforce.com/01ZPL000000ULrp) | Action needed for watch and help for SDR Global.        |
+| [Action Needed: SDR Global](https://gitlab.my.salesforce.com/01ZPL000000ULrp) | Dashboard outlining items where immediate action is needed in the SDR team.   |
+| [Action Needed: PubSec Global](https://gitlab.my.salesforce.com/01ZPL000000UN7F) | Dashboard outlining items where immediate action is needed in the PubSec team. |
+| [Action Needed: APJ BDR](https://gitlab.my.salesforce.com/01ZPL000000bkbl) | Dashboard outlining items where immediate action is needed for APJ BDR.          |
+| [Action Needed: EMEA BDR](https://gitlab.my.salesforce.com/01Z4M000000soBO) | Dashboard outlining items where immediate action is needed for EMEA BDR.          |
+| [Action Needed: AMER BDR](https://gitlab.my.salesforce.com/01ZPL00000069v3) | Dashboard outlining items where immediate action is needed for AMER BDR.        |
+| [Action Needed: SDR Global](https://gitlab.my.salesforce.com/01ZPL000000ULrp) | Dashboard outlining items where immediate action is needed for SDR Global.        |
 | [High Level Results Dashboard](https://gitlab.my.salesforce.com/01ZPL000000eQob) | The dashboard we use to glance at our bottom-line results. |
 | [Pipeline Progression Dashboard](https://gitlab.my.salesforce.com/01Z8X000000u6mP) | The dashboard we use to measure the progress, or lack of thereof, of opportunities sourced by our org. |
 | [Global Sales Dev Results Dashboard](https://gitlab.my.salesforce.com/01ZPL000000cNmn) | A more granular dashboard that breaks down attainment further. | 
