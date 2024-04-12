@@ -15,7 +15,7 @@ As part of the Product Security department, the application security team's miss
 Team members can reach the AppSec team by:
 
 - Asking in `#sec-appsec` or mentioning `@appsec-team` on Slack
-- Mentioning `@gitlab-com/gl-security/appsec` on GitLab
+- Mentioning `@gitlab-com/gl-security/product-security/appsec` on GitLab
 - Finding your Stable Counterpart on the [Product sections, stages, groups, and categories](/handbook/product/categories/) page
 - Submit an issue in the [AppSec Team repository](https://gitlab.com/gitlab-com/gl-security/appsec/appsec-team/-/issues)
 - For cross team collaboration improvement opportunities, use [this template for collaboration improvement opportunities](https://gitlab.com/gitlab-com/gl-security/appsec/appsec-team/-/issues/new?issuable_template=cross-team-collaboration-improvement)
