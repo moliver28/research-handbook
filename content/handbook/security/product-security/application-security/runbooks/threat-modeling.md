@@ -5,7 +5,7 @@ description: "This threat modeling process is tailored to GitLab features."
 
 ## :warning: Prioritization Note
 
-[As of 2023-11-02, AppSec is only prioritizing P1 AppSec reviews and threat models](https://gitlab.com/gitlab-com/gl-security/appsec/appsec-team/-/issues/475#note_1632226713). This does not mean P2 or P3 AppSec reviews or threat model requests can't be submitted, but please understand that due to capacity limitations we will only be able to prioritize P1 reviews. Reach out to us in the #sec-appsec Slack channel if you have any questions or concerns.
+[As of 2023-11-02, AppSec is only prioritizing P1 AppSec reviews and threat models](https://gitlab.com/gitlab-com/gl-security/product-security/appsec/appsec-team/-/issues/475#note_1632226713). This does not mean P2 or P3 AppSec reviews or threat model requests can't be submitted, but please understand that due to capacity limitations we will only be able to prioritize P1 reviews. Reach out to us in the #sec-appsec Slack channel if you have any questions or concerns.
 
 ## Using the `threat model` scoped labels
 
@@ -13,7 +13,7 @@ To assist in the creation of threat models the two labels `~threat model::needed
 should be used. Whenever a threat model for a particular issue or epic should be created the Appsec stable
 counterpart will apply the `~threat model::needed` label to the epic or issue. The Appsec stable counterpart
 will also create a dedicated threat modeling issue in the
-[`threat-models`](https://gitlab.com/gitlab-com/gl-security/appsec/threat-models/-/issues/new?issuable_template=Threat%20Model)(internal link) project.
+[`threat-models`](https://gitlab.com/gitlab-com/gl-security/product-security/appsec/threat-models/-/issues/new?issuable_template=Threat%20Model)(internal link) project.
 Within the issue the development and the application security team should collaborate on the creation
 of a threat model. The issue template contains detailed steps to guide through the process.
 
@@ -88,7 +88,7 @@ in a usable way for threat modeling and the involved components wich consume
 or provide data are visible. Such a diagram can now be used and complemented
 with actual threat and security context to form an actual threat model.
 
-More specific instructions and steps are listed in the [review template](https://gitlab.com/gitlab-com/gl-security/appsec/appsec-reviews/-/tree/master/.gitlab/issue_templates/AppSec%20Review.md).
+More specific instructions and steps are listed in the [review template](https://gitlab.com/gitlab-com/gl-security/product-security/appsec/appsec-reviews/-/tree/master/.gitlab/issue_templates/AppSec%20Review.md).
 
 ### Stage IV - Threat Analysis
 
