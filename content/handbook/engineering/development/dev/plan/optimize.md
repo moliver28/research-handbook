@@ -162,6 +162,7 @@ The following is an example of an implementation approach from [https://gitlab.c
 1. *(if feature flag enabled)* Update the `Projects::CreateService` and `Groups::CreateService` to update newly created projects and sub-groups with the main groups setting
 1. *(if feature flag enabled)* Update the Groups API to show the settings value
 1. Tests tests and more tests :muscle:
+1. Create a seed script to generate data
 
 ~frontend
 
@@ -169,6 +170,7 @@ The following is an example of an implementation approach from [https://gitlab.c
 1. Create new Vue app to render the contents of the section
 1. Create new setting and submission process to save the value
 1. Tests tests and more tests :muscle:
+1. Update storybook stories for new and existing components
 ```
 
 The DRI is **highly** recommended to ping a relevant counterpart or domain expert if an issue covers multiple
@@ -303,6 +305,10 @@ Documentation is a crucial part of our [definition of done](https://docs.gitlab.
 #### Data seeding scripts
 
 Features within the Optimize scope require appropriate data in order to verify functionality and test during development. Data seeding scripts should be created and/or updated as part of our development process.
+
+Considerations for data seeding scripts:
+- Ensure scripts are parameterized allowing specification of group or project ID where relevant
+- Ensure scripts can be run repeatedly without failure
 
 ## Meetings
 
