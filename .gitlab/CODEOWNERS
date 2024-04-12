@@ -33,7 +33,6 @@
 
 ^[alliances]
 /content/handbook/alliances/ @chrisweber44 @pattycheung
-/content/job-families/alliances/ @chrisweber44
 
 ^[business-technology]
 /content/handbook/business-technology/ @cmestel
@@ -57,8 +56,6 @@
 /content/handbook/group-conversations.md @streas
 /content/handbook/key-review.md @streas
 /content/handbook/leadership/ @sytses @streas
-/content/job-families/board-of-directors/ @sytses @robin
-/content/job-families/chief-executive-officer @sytses @streas
 
 ^[communication]
 /content/handbook/communication/ @drogozinski @kaylagolden
@@ -101,8 +98,6 @@
 /content/handbook/engineering/metrics/ @meks @lmai1 @rymai
 /content/handbook/engineering/open-source/ @rymai @meks @nick_vh
 /content/handbook/engineering/performance.md @timzallmann
-/content/job-families/engineering/ @sabrinafarmer
-/content/job-families/engineering/incubation/ @bmarnane
 
 ^[Eng-Development-department]
 /content/handbook/engineering/core-development.md @timzallmann @sgoldstein @m_gill @dsatcher
@@ -266,13 +261,15 @@
 /content/handbook/internal-audit/ @bjoshi2 @atoomer
 /content/handbook/spending-company-money.md @brobins
 /content/handbook/tax/ @jgladen
-/content/job-families/finance/ @brobins
 
 ^[Infrastructure-Standards]
 /content/handbook/infrastructure-standards/ @gitlab-com/gl-security/identity/infra
 
 ^[it]
 /content/handbook/it/ @NabithaRao
+
+^[job-families]
+/content/job-families/ @cbednarz @anjali_kaufmann @dparsonage @glucchesi @carlierussell @mwilkins
 
 ^[legal]
 /content/handbook/esg.md @robin @slcline
@@ -298,7 +295,6 @@
 /content/handbook/legal/subscription-agreement/index.md @robin @ktesh @m_taylor @gitlab-com/egroup
 /content/handbook/legal/technology-partner-agreement.md @robin @ktesh @m_taylor @gitlab-com/egroup
 /content/handbook/legal/testing-agreement.md @robin @ktesh @m_taylor @gitlab-com/egroup
-/content/job-families/legal-and-corporate-affairs/ @robin
 # The second part of the LACA section is for the legacy agreement pages.
 /content/handbook/legal/ai-functionality-terms-v1.md @robin @ktesh @m_taylor @gitlab-com/egroup
 /content/handbook/legal/legacy/legacy-ospa-v1.md @robin @ktesh @m_taylor @gitlab-com/egroup
@@ -365,7 +361,6 @@
 /content/handbook/marketing/strategy-performance/allocadia/ @rcallam @emathis @lblanchard
 /content/handbook/marketing/team-member-social-media-policy.md @rchachra @robin @award4
 /content/handbook/marketing/utm-strategy.md @ikryzeviciene @rkohnke @aoetama
-/content/job-families/marketing/ @akramer
 
 ^[Marketing-Brand-and-Product-Marketing]
 /content/handbook/marketing/brand-and-product-marketing/ @akramer @dsteer @rclayman
@@ -436,27 +431,11 @@
 /content/handbook/people-policies/leave-of-absence/ @lyndemeiers @pegan @cgudgenov
 /content/handbook/people-policies/leave-of-absence/us.md @lyndemeiers @pegan @cgudgenov
 /content/handbook/travel/ @wendybarnes @pegan
-/content/job-families/people-group/ @wendybarnes @pegan
-/content/job-families/people-group/candidate-experience.md @sytses @streas @wendybarnes @rallen3
-/content/job-families/people-group/recruiting-operations-insights/ @sytses @streas @wendybarnes @rallen3
 
 ^[product]
 /content/handbook/product/ @david
 /content/handbook/product/fulfillment-guide.md @ofernandez2
 /content/handbook/product/product-processes/product-mgt-operations/board-deck-prep.md @natalie.pinto
-/content/job-families/product/ @david @vkarnes @mflouton @justinfarris @hbenson
-/content/job-families/product/pricing.md @justinfarris
-/content/job-families/product/product-analyst.md @justinfarris @cbraza
-/content/job-families/product/product-design-management.md @vkarnes
-/content/job-families/product/product-designer.md @vkarnes
-/content/job-families/product/product-management-leadership.md @david @hbenson @mflouton @justinfarris
-/content/job-families/product/product-manager.md @david @justinfarris @hbenson @mflouton @joshlambert @fzimmer @jreporter @ofernandez2
-/content/job-families/product/technical-writer.md @susantacker @dianalogan @kpaizee
-/content/job-families/product/technical-writing-manager.md @susantacker @dianalogan @kpaizee
-/content/job-families/product/ux-fullstack-engineer.md @susantacker
-/content/job-families/product/ux-research-manager.md @asmolinski2
-/content/job-families/product/ux-research-operations-coordinator.md @asmolinski2
-/content/job-families/product/ux-researcher.md @asmolinski2
 
 [product-ai]
 /content/handbook/product/ai/continuity-plan.md @robin @ktesh @m_taylor @gitlab-com/egroup @hbenson @dfrhodes @tichen @tmccaslin
@@ -528,7 +507,6 @@
 /content/handbook/sales/training/sales-enablement-sessions/ @ashahrazad1 @jblevins608
 /content/handbook/sales/training/sko/ @kdemarest @kagarrett
 /content/handbook/sales/understand-customer-gitlab-use.md @jakebielecki
-/content/job-families/sales/ @jakebielecki @james_harrison
 
 ^[security]
 /content/handbook/security/ @joshlemos @jlongo_gitlab @plafoucriere @juliedavila
@@ -544,8 +522,6 @@
 /content/handbook/security/threat-management/ @smanzuik @estrike
 /content/handbook/security/threat-management/identity/ @gitlab-com/gl-security/identity
 /content/handbook/security/threat-management/red-team/ @cmoberly
-/content/job-families/security/ @joshlemos @jlongo_gitlab @juliedavila
-/content/job-families/chief-information-security-officer.md @robin @fofungwu
 
 ^[solutions-architects]
 /content/handbook/solutions-architects/ @gitlab-com/customer-success/solutions-architecture/sa-leadership-team
