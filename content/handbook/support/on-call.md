@@ -92,6 +92,7 @@ This sheet's contents will be used by the readiness team to populate the followi
 Once the readiness team has implemented the next quarter's schedule they will remove the scheduled rows from the sheet and PagerDuty should be considered the SSOT for the next quarter. For dates that exceed the next quarter, the spreadsheet should be considered the SSOT.
 
 ##### Availability
+
 The spreadsheet's rows are able to be changed by DRIs who can make the schedule up to a year in advance of the current quarter. The schedule is **not** automatically populated and must be completely filled in for each quarter. If, at the time of readiness implementation, there are blank spaces in one of the schedules, then the most relevant regional support director will be responsible for that shift until they find coverage via an overrride.
 
 ##### Schedule Changes
