@@ -29,7 +29,7 @@ The following rotations are defined:
       - Otherwise contact SIRT and the merge request author to get the merge request removed.
       - Use the `Urgent - SEOC should be paged right away` option if waiting up to 24 hours for a resolution would be too long.
   - First responder to mentions of the following group aliases:
-    - @gitlab-com/gl-security/appsec on GitLab.com
+    - @gitlab-com/gl-security/product-security/appsec on GitLab.com
     - @appsec-team in Slack
   - First responder for issues created needing triage: [~security-triage-appsec issue search](https://gitlab.com/groups/gitlab-org/-/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name%5B%5D=security-triage-appsec)
     - Refer to [this page]({{ ref "engaging-with-security#reproducibility-on-security-issues" }}) to learn about the different labels that we can apply to issues when they're not vulnerabilities
