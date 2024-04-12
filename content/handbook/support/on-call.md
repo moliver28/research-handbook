@@ -97,7 +97,7 @@ DRIs are free to use the spreadsheet to create the schedule in advance for up to
 
 ##### Schedule Changes
 
-To change the days/timings of the schedule, a support team meta issue should be created to discuss the changes with the participants of the shift. Once a decision has been made on the final state of the schedule the support operations team should be mentioned in order to implement the requested changes.
+To make changes to the PagerDuty schedule, create a support team meta issue to discuss the changes with the affected participants. Once you decide on what changes to make, mention the support operations team in the issue to request that they implement those changes.
 
 More details can be found in the Operations Team [Pagerduty change management documentation](https://handbook.gitlab.com/handbook/support/readiness/operations/docs/pagerduty/change_management/).
 
