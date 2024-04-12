@@ -246,10 +246,10 @@ Open planned work for our team is located in the [Production Engineering](https:
 
 ##### Issue weighting
 
-We dogfood the [weight feature](https://docs.gitlab.com/ee/user/project/issues/issue_weight.html) in issues and align our weights to t-shirt sizes to make them easy to talk about:
+We dogfood the [weight feature](https://docs.gitlab.com/ee/user/project/issues/issue_weight.html) in issues. We use a modified Fibonacci sequence (the numbers match roughly with the number of days) and align our weights to t-shirt sizes to make them easy to talk about:
 
-- Weight 1 (XS) - A few hours of work. Consider if the work should just be completed now depending on competing priorities.
-- Weight 2 (S) - A day or two of work.
-- Weight 3 (M) - Up to a week of work.
-- Weight 4 (L) - Over a week of work. This issue should likely be broken down into smaller pieces.
-- Weight 5 (XL) - Several weeks or more of work. This issue will need to be broken down into smaller pieces or promoted to an epic.
+- Fib 1 (XS) - A few hours of work. Consider if the work should just be completed now depending on competing priorities.
+- Fib 2 (S) - A day or two of work.
+- Fib 5 (M) - Up to a week of work.
+- Fib 8 (L) - Over a week of work. This issue should likely be broken down into smaller pieces.
+- Fib 13 (XL) - Several weeks or more of work. This issue will need to be broken down into smaller pieces or promoted to an epic.
