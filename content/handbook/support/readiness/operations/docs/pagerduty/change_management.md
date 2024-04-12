@@ -14,7 +14,7 @@ schedules, please see [shadow schedule changes](#shadow-schedule-changes).
 The process for this can be broken down into 3 sections:
 
 1. [Notify DRIs about the upcoming implementation](#notify-dris-about-the-upcoming-implementation)
-1. [Implemented the changes](#implement-the-changes)
+1. [Implement the changes](#implement-the-changes)
 1. [Rotate the spreadsheet](#rotate-the-spreadsheet)
 
 #### Notify DRIs about the upcoming implementation
