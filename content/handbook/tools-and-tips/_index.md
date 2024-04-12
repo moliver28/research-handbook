@@ -911,9 +911,27 @@ It might be useful to add a Gmail filter that adds a label to any GitLab notific
 1. Check **Also apply filter to matching conversations**.
 1. Click **Create filter**.
 
-##### Apply label when assigned as reviewer on an MR
+##### Apply label when assigned as reviewer
+
+You can create a Gmail filter that adds a label to any GitLab notification email in which you are assigned as a reviewer. To do so, follow these steps:
+
+1. Search for `from:(gitlab@mg.gitlab.com) "(Reviewer) (Firstname Lastname)"`.
+1. Click the down arrow on the right side of the search field.
+1. Click **Create filter with this search**.
+1. Check **Apply the label:** and select a label to add, or create a new one, such as "Assigned".
+1. Check **Also apply filter to matching conversations**.
+1. Click **Create filter**.
 
 ##### Apply label when MR is merged
+
+You can create a Gmail filter that adds a label to any GitLab notification email in which an MR has been merged. To do so, follow these steps:
+
+1. Search for `from:(gitlab@mg.gitlab.com) "Merge Request"+"was merged"`.
+1. Click the down arrow on the right side of the search field.
+1. Click **Create filter with this search**.
+1. Check **Apply the label:** and select a label to add, or create a new one, such as "Assigned".
+1. Check **Also apply filter to matching conversations**.
+1. Click **Create filter**.
 
 ##### Apply label to all GitLab-generated emails
 
