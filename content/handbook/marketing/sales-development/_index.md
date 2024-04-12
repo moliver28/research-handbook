@@ -64,6 +64,7 @@ Our Outbound-focused BDRs excel in strategic account planning, research, and del
 | **BDR ENTG EMEA SEUR - (Manager - Tati Fernandez)**   | [`#bdr_entg_emea_seur`](https://gitlab.slack.com/archives/C04NE65S6AE) |
 | **SDR APJ - (Manager - Robin Falkowski)**             | [`#sdr_emea_apac_inbound`](https://gitlab.slack.com/archives/C031T0L) |
 | **BDR ENTG APJ - (Manager - Robin Falkowski)**          | [`#apj_sales_dev`](https://gitlab.enterprise.slack.com/archives/C031EGFR5UK) |
+| **BDR EGC META NL - (Manager - Carolina Marco Bellver)**          | [`#bdr_emea-egc-meta-nl`](https://gitlab.enterprise.slack.com/archives/C04NA4BQP54) |
 
 ## Our GitLab Projects
 
