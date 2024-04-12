@@ -124,7 +124,7 @@ We took multiple steps to holistically address this vulnerability:
 - GitLab Issue: <https://gitlab.com/gitlab-org/gitlab/-/issues/363293>
 - Patch: <https://gitlab.com/gitlab-org/gitlab/-/commit/e61e9b9434e2198c4c1d5cf6b4531eb4323c3575>
 - Release Post: <https://about.gitlab.com/releases/2022/06/01/critical-security-release-gitlab-15-0-1-released>
-- CVSS and Bounty: [CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:H/I:H/A:N](https://gitlab-com.gitlab.io/gl-security/appsec/cvss-calculator/#vector=CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:H/I:H/A:N&range=new) (8.7 High / $13,950.00)
+- CVSS and Bounty: [CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:H/I:H/A:N](https://gitlab-com.gitlab.io/gl-security/product-security/appsec/cvss-calculator/#vector=CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:H/I:H/A:N&range=new) (8.7 High / $13,950.00)
 - CVE: <https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1948>
 - Learn more about XSS:
   - <https://owasp.org/www-community/attacks/xss/>
@@ -203,7 +203,7 @@ Once you've reproduced the bug, have a go at fixing it locally. Then compare you
 
 - GitLab Issue: <https://gitlab.com/gitlab-org/gitlab/-/issues/340449>
 - Release Post: <https://about.gitlab.com/releases/2021/12/06/security-release-gitlab-14-5-2-released/#regular-expression-denial-of-service-via-user-comments>
-- CVSS and Bounty: [CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L](https://gitlab-com.gitlab.io/gl-security/appsec/cvss-calculator/#vector=CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L&range=old) (4.3 Medium / $610.00 / old bounty range)
+- CVSS and Bounty: [CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L](https://gitlab-com.gitlab.io/gl-security/product-security/appsec/cvss-calculator/#vector=CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L&range=old) (4.3 Medium / $610.00 / old bounty range)
 - CVE: <https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-39933>
 - Learn more about Denial of Service:
   - <https://owasp.org/www-community/attacks/Denial_of_Service>
