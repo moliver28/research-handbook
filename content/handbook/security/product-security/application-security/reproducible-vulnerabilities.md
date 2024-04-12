@@ -116,7 +116,7 @@ We took multiple steps to holistically address this vulnerability:
 
 - We escaped the first and last name in the following patch: <https://gitlab.com/gitlab-org/gitlab/-/commit/e61e9b9434e2198c4c1d5cf6b4531eb4323c3575>
 - We made AppSec required approvers of subsequent changes to the affected files in <https://gitlab.com/gitlab-org/gitlab/-/merge_requests/88419>
-- We added SemGrep rules to detect and comment on MRs which might introduce XSS with <https://gitlab.com/gitlab-com/gl-security/appsec/sast-custom-rules/-/blob/main/appsec-pings/rules.yml#L65-84>
+- We added SemGrep rules to detect and comment on MRs which might introduce XSS with <https://gitlab.com/gitlab-com/gl-security/product-security/appsec/sast-custom-rules/-/blob/main/appsec-pings/rules.yml#L65-84>
 {{% /details %}}
 
 #### Links
@@ -220,7 +220,7 @@ Everyone can contribute to this page - that includes you! You can start by click
 
 First, find an interesting publicly disclosed vulnerability by looking at our [public and closed vulnerability issue list](https://gitlab.com/gitlab-org/gitlab/-/issues/?sort=updated_desc&state=closed&label_name%5B%5D=bug%3A%3Avulnerability&first_page_size=20) or our [security release blog posts](https://about.gitlab.com/releases/categories/releases/). Choose a vulnerability that was fixed in any release *prior* to the latest security release.
 
-Open a Merge Request to this page, mention `@gitlab-com/gl-security/appsec`. It should include:
+Open a Merge Request to this page, mention `@gitlab-com/gl-security/product-security/appsec`. It should include:
 
 - A title and non-revealing summary of the vulnerability
 - Steps to install the vulnerable version
