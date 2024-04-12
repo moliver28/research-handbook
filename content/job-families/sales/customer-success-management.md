@@ -39,9 +39,7 @@ The Customer Success Manager(CSM) role at GitLab is expected to serve and operat
 | [Staff Customer Success Manager](#staff-customer-success-manager) | [Grade 9](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades)
 | [Manager, Customer Success Managers](#manager-customer-success-managers) | [Grade 9](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) |
 | [Senior Manager, Customer Success Managers](#senior-manager-customer-success-managers) | [Grade 9](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) |
-| [Director of Customer Success](#director-of-customer-success) | [Grade 10](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) |
-| [Senior Director of Customer Success](#senior-director-of-customer-success) | [Grade 11](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) |
-| [Vice President of Customer Success](#vice-president-of-customer-success) | [Grade 12](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) |
+
 
 ### Associate Customer Success Manager
 
