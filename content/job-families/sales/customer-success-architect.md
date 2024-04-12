@@ -81,7 +81,7 @@ Includes all responsibilities of the Intermediate Customer Success Architect (CS
 
 #### Senior CSA Requirements
 
-Meets the requirements of the Intermediate Customer Success Architect (CSA) role and the following requirements: 
+Meets the requirements of the Intermediate Customer Success Architect (CSA) role and the following requirements:
 - Understanding of Git and typical branching strategies
 - Knowledge of software development lifecycle and development pipeline
 - Understanding of continuous integration, continuous deployment, DevSecOps
@@ -109,7 +109,7 @@ Includes all responsibilities of the Intermediate and Senior Customer Success Ar
 
 #### Staff CSA Requirements
 
-Meets the requirements of the Intermediate and Senior Customer Success Architect (CSA) roles and the following requirements: 
+Meets the requirements of the Intermediate and Senior Customer Success Architect (CSA) roles and the following requirements:
 - Ability to translate business requirements into business value, and work with sales and marketing to promote value-driven solutions
 - Strong knowledge of Customer Success best practices, with experience defining process and providing enablement programs to promote adoption in CS and across the company
 - Expert in GitLab usage and able to train others in its usage
