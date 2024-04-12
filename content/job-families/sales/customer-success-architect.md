@@ -32,11 +32,34 @@ The CSA (Intermediate) is a job grade [level 6](/handbook/total-rewards/compensa
 
 #### CSA (Intermediate) Responsibilities
 
-- [content to be added]
+- Partner with our customers in taking what was established in the pre-sales command plan, and turning the customers desired positive business outcomes into actionable objectives
+- Know the GitLab platform, our more common best practices, and use cases in order to guide the customer
+- Understand the customer journey and be able to guide them on future adoption
+- Act as the GitLab liaison for GitLab questions, issues, or escalations. Work with GitLab Support, Product Management (i.e., roadmaps), or other teams as needed
+- Own a book of assigned customers, with a focus on increasing adoption, ensuring retention and growth, and overall customer satisfaction
+- Remain knowledgeable and up-to-date on GitLab releases
+- Provide immediate onboarding activities
+- Work with assigned customers to build Customer Success Plans, establishing critical goals, or other key performance indicators and aid the customer in achieving their goals
+- Program manage account escalations
+Provide insights with respect to the availability and applicability of new features in GitLab as relevant
+- Support GitLab Services in identifying and recommending training opportunities
 
 #### CSA (Intermediate) Requirements
 
-- [content to be added]
+- Understanding of Git and typical branching strategies
+- Knowledge of software development lifecycle and development pipeline
+- Understanding of continuous integration, continuous deployment, DevSecOps
+- Prior experience in Customer Success or equivalent history of increasing satisfaction, adoption, and retention
+- Experience partnering with customers to define and achieve business outcomes
+- Familiarity working with customers of sizes relevant to the assigned segment
+- Exceptional verbal, written, organizational, presentation, and communications skills
+- Detailed oriented and analytical
+Strong team player but self-starter
+- Project management experience & skills
+- Strong technical, analytic, and problem-solving skills
+- Alignment with our values, and willingness to work in accordance with those values
+- Ability to travel if needed and comply with the company’s travel policy
+- Demonstrated progressive experience in a related function is required with direct customer advocacy and engagement experience in post-sales or professional services functions
 
 ### Senior Customer Success Architect (CSA)
 
@@ -48,17 +71,26 @@ The Senior CSA is a job grade [level 7](/handbook/total-rewards/compensation/com
 
 #### Senior CSA Responsibilities
 
-- [content to be added]
+Includes all responsibilities of the Intermediate Customer Success Architect (CSA) role and expands on that in the following ways:
+- Establish a trusted/strategic advisor relationship with each assigned customer and drive continued value of our solution and services
+- Assist and provide expert deployment, operational best practices, and establishing a GitLab Center of Excellence
+- Assist in workshops to help customers leverage the full value of GitLab solution
+- Measure and monitor customers’ achievement of critical and key performance indicators, reporting both internally to GitLab account stakeholders and externally to Customer Sponsors and Executives
+- Translate customer product usage data into actionable advice for customers
+- Establish regular touchpoints with assigned customers per the established SLAs, to review progress against strategic and technical objectives
 
 #### Senior CSA Requirements
 
-- [content to be added]
+Meets the requirements of the Intermediate Customer Success Architect (CSA) role and the following requirements: 
+- Understanding of Git and typical branching strategies
+- Knowledge of software development lifecycle and development pipeline
+- Understanding of continuous integration, continuous deployment, DevSecOps
 
 ### Staff Customer Success Architect (CSA)
 
 Market Justification: The business need for an individual contributor Staff CSA role is to have a team member who is a subject matter expert in customer engagement, success planning, and driving platform adoption. In addition to working with the customers in their book of business, they provide guidance and coaching to other CSMs and develop improvements to our customer engagement model. In the market, there are over 20 organizations that typically have 2-3 Staff CSAs.
 
-The Staff CSA reports to the [Manager/Senior Manager/Director, CSM](/handbook.gitlab.com/job-families/sales/customer-success-management/#manager-csm).
+The Staff CSA reports to the [Manager/Senior Manager/Director, CSM](/handbook.gitlab.com/job-families/sales/customer-success-management).
 
 #### Staff CSA Job Grade
 
@@ -66,11 +98,23 @@ The Staff CSA is a job grade [level 9](/handbook/total-rewards/compensation/comp
 
 #### Staff CSA Responsibilities
 
-- [content to be added]
+Includes all responsibilities of the Intermediate and Senior Customer Success Architect (CSA) roles and expands on that in the following ways:
+- Strategize on the overall objectives and long-range goals of the team
+- Provide mentorship for Associate and Intermediate CSMs to help them grow in their technical knowledge and provide premium customer experience
+- Work cross-departmentally to find solutions to complex scenarios and integration issues
+- Demonstrate leadership in new feature and technology adoption and teaching by providing regular enablement and solution overview sessions and documentation for customers and other GitLab team-members
+- Help drive team expertise and technical thought leadership
+- Maintain deep knowledge of the GitLab platform
+- Clearly communicate and drive adoption of complex technical solutions, with constant attention to promoting “boring solutions”
 
 #### Staff CSA Requirements
 
-- [content to be added]
+Meets the requirements of the Intermediate and Senior Customer Success Architect (CSA) roles and the following requirements: 
+- Ability to translate business requirements into business value, and work with sales and marketing to promote value-driven solutions
+- Strong knowledge of Customer Success best practices, with experience defining process and providing enablement programs to promote adoption in CS and across the company
+- Expert in GitLab usage and able to train others in its usage
+- Advanced knowledge of software development lifecycle and development pipeline
+- Advanced project management experience & skills
 
 ### Manager, Customer Success Architects (CSA)
 
@@ -82,11 +126,11 @@ The Manager, CSA is a job grade [level 9](/handbook/total-rewards/compensation/c
 
 #### Manager, CSA Responsibilities
 
-- [content to be added]
+- [content to be added when the need for the role arises]
 
 #### Manager, CSA Requirements
 
-- [content to be added]
+- [content to be added when the need for the role arises]
 
 ### Senior Manager, Customer Success Architects (CSA)
 
@@ -98,11 +142,11 @@ The Senior Manager, CSA is a job grade [level 9](/handbook/total-rewards/compens
 
 #### Senior Manager, CSA Responsibilities
 
-- [content to be added]
+- [content to be added when the need for the role arises]
 
 #### Senior Manager, CSA Requirements
 
-- [content to be added]
+- [content to be added when the need for the role arises]
 
 
 ## Specialties
