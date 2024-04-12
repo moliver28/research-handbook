@@ -832,23 +832,24 @@ It is critical that any reference to asset number in the upload or send from the
 There are a few common errors we see with Content Syndication leads. You can address most of these before sending the first test by working with the vendor to confirm they have the correct values.
     
 - `Employee Bucket` (Employee count): Values [here](https://handbook.gitlab.com/handbook/marketing/marketing-operations/list-import/#required-data-and-recommended-data). These values must be written exactly as shown (using commas and correct spacing).   
-- `State`: We only accept State values for the United States, Canada, and Australia. The vendor must pass blank values for any other country, otherwise SFDC will reject the lead.       
+- `State`: We only accept [State values](/handbook/marketing/marketing-operations/marketo/#standardization-of-country-or-state-values) for the United States, Canada, and Australia. The vendor must pass blank values for any other country, otherwise SFDC will reject the lead.       
 - `Content Syndication Asset`: The values for this field need to be passed exactly as outlined above in step 5. If they are not, the automation on the program will fail.
 - After verifying the common field mistakes above, work with the vendors to submit test leads through DAP.  
 1. After the test lead is submitted, go to Marketo, click on the "Database" tab, and enter the email address of the test record in the search box under "Quick Find". You can always get to this box by clicking on the "Default" folder in the left sidebar. 
-     - If the record was found, that means the pass to Marketo worked properly and you can continue to the next step. If it wasn't found, confirm the email address and search again. If you still do not find the record in the database, confirm with the vendor that they sent the test leads and that their system is properly configured to pass records directly to Marketo.
+     - If the record was found, that means the pass to Marketo worked properly and you can continue to the next step. 
+     - If it was not found, confirm the email address and search again. If you still do not find the record in the database, confirm with the vendor that they sent the test leads and that their system is properly configured to pass records directly to Marketo.
 1. Open the test record in the Marketo database. Go to the `Activity History` tab. If you have done this before and saved your view, select your custom view called "Content Syndication Verification". If this is the first time you are completing this process, click "Filter: None", select "Custom" and set-up a custom view as follows:
      - Under Smart Campaign, select "Change Program Status", "Interesting Moment"
      - Under Salesforce.com, select "Add to SFDC Campaign"
      - Click "Save As" and name the view "Content Syndication verification"
-1. Confirm that the program you are testing is the program that the lead was added to with a status of "Downloaded". You will see this as a "Change Program Status" and it will show the "name of the program" changed from "Not in program" to "Downloaded".
-     - If the record was not added to a program or was added to the wrong one, confirm that the `01 Processing` campaign is activated in the program. If not, activate it and have another test sent through. If the campaign is active, this means the vendor pushed an incorrect ID for the program and you need to follow-up with them directly to correct it.
+1. Confirm that the program you are testing is the program that the lead was added to with a status of "Downloaded". You will see this as a "Change Program Status" and it will show "name of the program" changed from "Not in program" to "Downloaded".
+     - If the record was not added to a program, confirm that the `01 Processing` campaign is activated in the program. If not, activate it and have another test sent through. If the campaign is active or the lead was added to the wrong program, this means the vendor pushed an incorrect ID for the program and you need to follow-up with them directly to correct it.
 1. Confirm that the record was added to the correct SFDC Campaign for the asset that was tested. 
      - If you see an SFDC campaign name, this means the addition to SFDC was successful.
      - If you see an error that looks similar to `"Failed: {Invalid_OR_NULL_FOR_RESTRICTED_PICKLIST}` for the "Add to SFDC Campaign" activity type, this means the record did not push to SFDC. Read the error as it will tell you what was wrong. It is usually either due to a State Value or an incorrect value in Employee Bucket. Have the vendor correct this and push another test lead.
      - If there was no failure but the lead either wasn't added or was added to the wrong campaign, this means that the SFDC campaign was not added to the correct token, the asset was not added to the Flow steps, or the `Content Syndication Asset` field value was incorrect from the vendor. 
 1. Confirm that the correct Interesting Moment was Triggered
-    - If no IM triggered, confirm that the `02 Interesting Moments` campaign is active in the program. If it is, check to make sure that you have all of the assets set-up correctly in the Flow steps. You are likely missing an asset in the flow steps or the format of the `Content Syndication Asset` field was incorrect from the vendor.
+    - If no IM triggered, confirm that the `02 Interesting Moments` campaign is active in the program. If it is active, check to make sure that you have all of the assets set-up correctly in the Flow steps. You are likely missing an asset in the flow steps or the format of the `Content Syndication Asset` field was incorrect from the vendor.
 1. If you need to check the email deployment, change the "Filter" view to Email and confirm that the correct email was sent. In most cases, this should be the Welcome Email without a language specified.
 
 ### Steps to Setup Content Syndication in Marketo and SFDC - Campaigns through Integrate DAP - adding a new asset
@@ -913,6 +914,9 @@ It is critical that any reference to asset number in the Marketo automation belo
 When you do your list upload, you must be sure that the `Asset [number] -` that corresponds to each asset is included in the `Content Syndication Asset` field so the automation will trigger, using the format `Asset [number] -` ("asset number space -"). The recommendation is to populate the `Content Syndication Asset` field using the format `Asset [number] - Name of asset` (example: `Asset 2 - 2023 Global DevSecOps Report: Security & Compliance`). A complete list of current assets with their asset number can be found [here](https://docs.google.com/spreadsheets/d/1PY2_uO2qg4vszSFOBrWXoHfIlNIt2qmjdr6A6fBEtcg/edit#gid=161086184). This also applies if the responses are set directly from the vendor. They must be set-up in the vendor system with the appropriate asset number.
 
 It is critical that any reference to asset number in the upload or send from the vendor uses the format `Asset [number] -` ("asset number space -"). For example `Asset 1 -` and `Asset 12 -`. This allows the automation to select the proper asset since we are using "contains" to trigger the automation. Without the `(space) -` after the asset number, both Asset 12 and Asset 1 will be recorded as Asset 1.
+
+### Step 7: Test the new asset in your Content Syndication programs
+Follow the instructions in Step 6 above to test the new asset. Focus specifically on the `Add to SFDC Campaign` and `Interesting Moments` to QA a new asset.
 
 ## Integrate DAP Closed Loop Feedback
 
