@@ -929,7 +929,7 @@ You can create a Gmail filter that adds a label to any GitLab notification email
 1. Search for `from:(gitlab@mg.gitlab.com) "Merge Request"+"was merged"`.
 1. Click the down arrow on the right side of the search field.
 1. Click **Create filter with this search**.
-1. Check **Apply the label:** and select a label to add, or create a new one, such as "Assigned".
+1. Check **Apply the label:** and select a label to add, or create a new one, such as "Merged".
 1. Check **Also apply filter to matching conversations**.
 1. Click **Create filter**.
 
