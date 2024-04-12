@@ -86,8 +86,7 @@ There are several ways to view current and future schedules:
 
 #### Scheduling PagerDuty rotations
 
-PagerDuty schedules for support should be filled in by DRIs (readiness, support managers, etc) directly on the [Support PagerDuty Worksheet](https://drive.google.com/drive/u/0/search?q=owner:jcolyer%40gitlab.
-com%20title:%22Support%20Pagerduty%20Worksheet%22%20type:spreadsheet). 
+PagerDuty schedules for support should be filled in by DRIs (readiness, support managers, etc) directly on the [Support PagerDuty Worksheet](https://docs.google.com/spreadsheets/d/1FdUzVXCZleopfteC2QxW7LJwyylGWGl9hwXHMPkRHbQ/edit?usp=sharing).
 This sheet's contents will be used by the readiness team to populate the following quarter's on-call shifts in PagerDuty during the first week of the final month of the quarter (Jan, Apr, Jul, Oct). On the first Monday of the second month of a quarter a reminder will be posted in Slack via the [#support_leadership channel](https://gitlab.enterprise.slack.com/archives/C01F9S37AKT) to remind DRIs of the upcoming implementation due date.
 
 Once the readiness team has implemented the next quarter's schedule they will remove the scheduled rows from the sheet and PagerDuty should be considered the SSOT for the next quarter. For dates that exceed the next quarter, the spreadsheet should be considered the SSOT.
@@ -95,9 +94,9 @@ Once the readiness team has implemented the next quarter's schedule they will re
 ##### Availability
 The spreadsheet's rows are able to be changed by DRIs who can make the schedule up to a year in advance of the current quarter. The schedule is **not** automatically populated and must be completely filled in for each quarter. If, at the time of readiness implementation, there are blank spaces in one of the schedules, then the most relevant regional support director will be responsible for that shift until they find coverage via an overrride.
 
-##### Additions, Removals, and Schedule Changes
+##### Schedule Changes
 
-In order to add or remove new particpants, or to change the days/timings of the schedule a support team meta issue should be created to discuss the changes with the participants of the shift. Once a decision has been made on the final state of the schedule the support operations team should be mentioned in order to implement the requested changes.
+To change the days/timings of the schedule, a support team meta issue should be created to discuss the changes with the participants of the shift. Once a decision has been made on the final state of the schedule the support operations team should be mentioned in order to implement the requested changes.
 
 More details can be found in the Operations Team [Pagerduty change management documentation](https://handbook.gitlab.com/handbook/support/readiness/operations/docs/pagerduty/change_management/).
 
