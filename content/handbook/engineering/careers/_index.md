@@ -59,7 +59,13 @@ Career mobility is a part of career development, we support and encourage develo
   - After evaluating the potential readiness of the candidate to meet the expected criteria within a given time period, accept the candidate for an interim period, up to 6 months, and evaluate readiness and impact of level change at the end of the interim period.
 - Transfers between career paths (IC->EM, EM->IC) the person should be moved into an available role on an [interim/acting](/handbook/engineering/careers/#types-of-interim-roles) basis for 4-6 months before the change is made permanent with a promotion/evaluation rationale based on performance
 - All role changes will be reviewed by R&D leadership on a weekly basis. This review will include impact on roadmaps and mitigation of the budget impact if the change requires additional budget to accommodate the request. 
-- All internal transfer candidates should have an aligned transition and communication plan to address impact on the previous team, including finalizing a plan for backfill and completing any milestones that are already underway.
+- All internal transfer candidates should have an aligned transition and communication plan to address impact on the previous team, including finalizing a plan for backfill and completing any milestones that are already underway. 
+
+### Not-applicable roles for internal mobility
+
+We do not support internal mobility for roles that we are working with Emerging Talent. This current includes
+- Associate roles that support emerging talent growth and cultivate early career opportunity.
+- Experimental programs that we specifically work with GitLab’s [Emerging Talent](https://handbook.gitlab.com/handbook/hiring/emerging-talent/) to fill.
 
 ## Individual Contribution vs. Management
 
