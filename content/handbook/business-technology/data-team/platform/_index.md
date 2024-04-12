@@ -101,6 +101,7 @@ The following table indexes all of the RAW data sources we are loading into the 
 | [Demandbase](https://www.demandbase.com/) | Snowflake task | `demandbase` | `demandbase` | Marketing | 24h / x | No | Tier 2 |
 | [Elastic Search Billing](https://www.elastic.co/guide/en/cloud/current/Billing_Costs_Analysis.html) | Airflow | `elasticsearch_billing` | `elastic_billing` | Engineering | 24h / 24h | No | Tier 2 |
 | [Facebook_ads](https://www.facebook.com/business/ads) | Fivetran | `facebook_ads` | `facebook_ads` | Marketing | 24h / 48h | No | Tier 3 |
+| Fivetran_Logs | Fivetran | `N/A` | `N/A` | Data | 24h / 48h | No | Tier 3 |
 | [Gainsight Customer Success](https://gitlab.gainsightcloud.com/v1/ui/home) | Fivetran | `gainsight_customer_success` | `gainsight_customer_success` | Customer Success | 24h / 48h | No | Tier 3 |
 | [GitLab.com](https://internal.gitlab.com/handbook/enterprise-data/platform/pipelines/saas-gitlab-com/) | pgp | `tap_postgres` | `gitlab_dotcom` | Product, Engineering | 12h / 55h | No | Tier 1 |
 | [GitLab Ops DB](https://internal.gitlab.com/handbook/enterprise-data/platform/pipelines/#gitlab-ops-database) | pgp | `tap_postgres` | `gitlab_ops` | Engineering | 6h / x | No | Tier 1 |
