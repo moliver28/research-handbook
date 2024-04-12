@@ -43,6 +43,30 @@ The Channel Marketing Program Specialist is a [grade 5](/handbook/total-rewards/
 
 A successful channel marketing program specialist would consider their next step to be a Channel Marketing Manager, Channel Program Specialist or perhaps Field Marketing Coordinator.
 
+## Senior Channel Marketing Program Specialist
+
+Sr. Channel Marketing Program Specialist
+
+### Job Grade
+
+The Channel Marketing Program Specialist is a [grade 6](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+
+### Responsibilities
+
+- 
+
+### Requirements
+
+- 
+
+### Performance Indicators
+
+- Meet/exceed assigned quarterly OKR
+
+### Career Ladder
+
+A successful channel marketing program specialist would consider their next step to be a Channel Marketing Manager, Channel Program Specialist or perhaps Field Marketing Coordinator.
+
 ## Channel Marketing Manager
 
 Channel Marketing managers work with our channel account managers, field marketing managers, and global channel marketing team driving customer acquisition and revenue growth for GitLab.
