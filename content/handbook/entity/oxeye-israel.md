@@ -11,11 +11,12 @@ Currently, GitLab provides the below additional benefits, in addition to mandato
 
 ### Pension
 
+
 ### Study Fund
 
 ### Meal Card
 
-### Add any other benefits below
+### Accrued Recuperation
 
 ## Leave Policy
 
