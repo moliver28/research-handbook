@@ -913,7 +913,7 @@ It might be useful to add a Gmail filter that adds a label to any GitLab notific
 
 ##### Apply label when assigned as reviewer
 
-You can create a Gmail filter that adds a label to any GitLab notification email in which you are assigned as a reviewer. To do so, follow these steps:
+You can create a Gmail filter that adds a label to any GitLab notification email in which you are assigned as a reviewer:
 
 1. Search for `from:(gitlab@mg.gitlab.com) "(Reviewer) (Firstname Lastname)"`.
 1. Click the down arrow on the right side of the search field.
@@ -924,7 +924,7 @@ You can create a Gmail filter that adds a label to any GitLab notification email
 
 ##### Apply label when MR is merged
 
-You can create a Gmail filter that adds a label to any GitLab notification email in which an MR has been merged. To do so, follow these steps:
+You can create a Gmail filter that adds a label to any GitLab notification email in which an MR has been merged:
 
 1. Search for `from:(gitlab@mg.gitlab.com) "Merge Request"+"was merged"`.
 1. Click the down arrow on the right side of the search field.
