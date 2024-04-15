@@ -77,6 +77,7 @@ Below is a full list of our UX Research team handbook content:
 - [Analyzing survey verbatim](/handbook/product/ux/ux-research/analyzing-survey-verbatim/)
 - [Research insights](/handbook/product/ux/ux-research/research-insights/)
 - [Documenting research insights in Dovetail](/handbook/product/ux/dovetail/)
+- [Product Analytics for UX Research](/handbook/product/ux/ux-research/product-analytics-for-ux-research/)
 
 ### Templates
 
