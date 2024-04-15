@@ -150,7 +150,7 @@ This issue is the single source of truth for all planning related discussions an
 
 ### Milestone Planning Process
 
-1. On the first of the month, an issue will be created using [the Milestone Planning issue template](https://gitlab.com/gitlab-com/gl-security/product-security-engineering/product-security-engineering-team/-/blob/main/.gitlab/issue_templates/milestone_planning.md?ref_type=heads).
+1. On the first of the month, an issue will be created using [the Milestone Planning issue template](https://gitlab.com/gitlab-com/gl-security/product-security-engineering/product-security-engineering-team/-/blob/main/.gitlab/issue_templates/milestone_planning.md?ref_type=heads)
 1. The Product Security Engineering manager will be responsible for completing the checklist items in the Planning Checklist section of the Milestone Planning issue
 1. Product Security Engineering team members will add any work being carried over from the previous Milestone into the Milestone Work table
 1. The Product Security Engineering team will add potential work items to the Parking Lot section, with a brief explanation of why it would be good to include in the Milestone
@@ -159,7 +159,7 @@ This issue is the single source of truth for all planning related discussions an
 1. The Product Security Engineering team will work together to add new items to the Milestone Work table
     1. Each item being added must be refined before it can be formally committed to
     1. Once we have refined and committed to the work, the relevant issue needs to be updated with the Milestone
-1. The Milestone Planning issue should be finalzed at least 3 days before the Milestone Start Date
+1. The Milestone Planning issue should be finalized at least 3 days before the Milestone Start Date
     1. The Product Security Manager will use threads in the Milestone Planning issue to work with each Product Security Engineering team member to finalize their workload
     1. Once finalized, the Planning Issue should be closed
 
