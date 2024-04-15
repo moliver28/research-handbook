@@ -92,7 +92,7 @@ Medical Plan via AXA -- 100% cover for the employee premium and 50% cover for de
 
 Life Insurance plan: Team members will have a life and disability insurance policy. These premiums are also considered a benefit in kind and team members will be taxed on these amounts.
 
-Temporary Medical Allowance: To make up for the transition period and pivot in our proposal, the TR team will be offering a monthly allowance of 140 Euros until December 31, 2024. After this period the allowance will cease. This will apply to any team member that started on the entity prior to July 1, 2024.
+Temporary Medical Allowance: To make up for the transition period and pivot in our proposal, the TR team will be offering a monthly allowance of 140 Euros until December 31, 2024. After this period the allowance will cease. This will apply to any team member that started on the entity prior to July 1, 2023.
 
 ### Spain-Specific Expenses
 
