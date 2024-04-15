@@ -254,6 +254,10 @@
 /content/handbook/engineering/development/dev/create/code-review/backend/ @francoisrose @phikai @kerrizor @marc_shaw @dskim_gitlab @garyh @patrickbajao @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/engineering/development/dev/create/code-review/frontend.md @andr3 @phikai @gitlab-com/egroup @gitlab-com/content-sites
 
+^[entity]
+/content/handbook/entity/ @mpatel8 @hdevlin @sszepietowska @Rkole @lyndemeiers @sarahrogers @cgudgenov
+/content/handbook/entity/iberia-srl-spain.md @mpatel8 @hdevlin @sszepietowska @Rkole @lyndemeiers @sarahrogers @cgudgenov
+
 ^[finance]
 /content/handbook/finance/ @brobins
 /content/handbook/finance/financial-planning-and-analysis/ @cmestel
@@ -414,7 +418,6 @@
 /content/handbook/paid-time-off.md @lyndemeiers
 /content/handbook/stock-options.md @wendybarnes @glucchesi @pegan @cbednarz
 /content/handbook/using-gitlab-at-gitlab.md @wendybarnes @glucchesi @pegan @cbednarz
-/content/handbook/entity/ @mpatel8
 /content/handbook/hiring/ @rallen3 @jdallmar @jakefoster1 @r_kahn
 /content/handbook/labor-and-employment-notices/ @pegan @wendybarnes @cgudgenov @streas @sytses
 /content/handbook/people-group/ @wendybarnes @pegan @cbednarz @rallen3 @mpatel8 @cgudgenov
