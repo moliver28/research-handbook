@@ -350,6 +350,7 @@ To refer to past planning issues, see issues linked to the [[APAC] Holiday Cover
 </table>
 
 - ???
+
 ## Understanding our working hours in relation to Zendesk
 
 The following images visualise the typical working hours in various team member locations in
