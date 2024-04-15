@@ -190,7 +190,7 @@ Should the changes made fall outside the default selection of this job, it can b
 - `EXCLUDE`: Defaults to `None` but will accept any dbt node selection. See the [documentation](https://docs.getdbt.com/reference/node-selection/exclude) for additional details.
 - `FULL_REFRESH`: Defaults to `False` but accepts `True` to re-clone and rebuild any tables that would otherwise run in an incremental state. See the [documentation](https://docs.getdbt.com/reference/commands/run#refresh-incremental-models) for additional details.
 - `VARS`: Defaults to `None` but will accept a comma separated list of quoted key value pairs. e.g. `"key1":"value1","key2":"value2"`.
-- `RAW_DB`: Defaults to `Live` but will accept `Dev`.  Selecting `Dev` will have the job use the branch specific version of the live `RAW` database, only the data that is explicitly loaded will be present.  This is needed when testing models build on extracts that are new in the same branch. 
+- `RAW_DB`: Defaults to `Live` but will accept `Dev`.  Selecting `Dev` will have the job use the branch specific version of the live `RAW` database, only the data that is explicitly loaded will be present.  This is needed when testing models build on extracts that are new in the same branch.
 
 <details markdown="1">
 <summary>Cross-Walk</summary>
@@ -396,7 +396,7 @@ This job updates `roles.yml` automatically based on changes to `snowflake_users.
 
 - To add new user entries to `roles.yml`, add the new username(s) to [`snowflake_users.yml`](https://gitlab.com/gitlab-data/analytics/-/blob/master/permissions/snowflake/snowflake_users.yml?ref_type=heads).
 - Likewise, to remove user entries from `roles.yml`, delete the username(s) from [`snowflake_users.yml`](https://gitlab.com/gitlab-data/analytics/-/blob/master/permissions/snowflake/snowflake_users.yml?ref_type=heads).
-- If no optional arguments are passed into the CI job, it will run with the default arguments described in [Automating roles.yml: Common Templates](https://handbook.gitlab.com/handbook/business-technology/data-team/platform/#automating-rolesyml-common-templates) section of the handbook.
+- If no optional arguments are passed into the CI job, it will run with the default arguments described in [Automating roles.yml: Common Templates](https://handbook.gitlab.com/handbook/business-technology/data-team/platform/#common-custom-templates) section of the handbook.
 
 <details><summary>Further Explanation</summary>
 
