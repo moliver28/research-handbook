@@ -29,10 +29,10 @@ Classifying each type of work helps to distinguish where exactly more capacity o
 
 ### Table
 
-| Label    | Description | 
-| -------- | ------- | 
+| Label    | Description |
+| -------- | ------- |
 | AppSecWorkType::stable counterpart  | Indicates the work was associated to the AppSec stable counterpart duties |
-| TBD | TBD | 
+| TBD | TBD |
 
 #### Who assigns this label and when?
 
