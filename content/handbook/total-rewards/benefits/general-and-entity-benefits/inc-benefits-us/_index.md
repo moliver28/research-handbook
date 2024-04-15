@@ -104,6 +104,8 @@ A QLE is a change in your situation — like getting married, having a baby, etc
 
 Once approved, coverage will be backdated to the date of the event.
 
+Please see the [FSA](https://handbook.gitlab.com/handbook/total-rewards/benefits/general-and-entity-benefits/inc-benefits-us/#flexible-spending-account-fsa-plans-) and [HSA](https://handbook.gitlab.com/handbook/total-rewards/benefits/general-and-entity-benefits/inc-benefits-us/#health-savings-account-hsa) section of the Handbook for details on Mid-Year Qualifying Life Event changes to these plans 
+
 ##### Process for submitting a QLE
 
 1. Log into [PlanSource]({{< ref "inc-benefits-us#logging-into-plansource" >}})
@@ -678,7 +680,7 @@ Team Members can make changes to their HSA contribution throughout the year. Any
 You can also choose to front-load the team member portion of your HSA contributions directly with Wex. Please contact Wex to assist you with this request. If you do choose to front-load your HSA, please be sure to take in to acount GitLab's contributio amount to your front-load calculation, and adjust your HSA deductions in PlanSource to update payroll deductions. GitLab is unable to track your maximum contribution if you fund the HSA outside of your payroll deductions.
 
 
-#### Flexible Spending Account (FSA) Plans ()
+#### Flexible Spending Account (FSA) Plans
 
 FSAs help you pay for eligible out-of-pocket health care and dependent day care expenses on a pretax basis. You determine your projected expenses for the Plan Year and then elect to set aside a portion of each paycheck into your FSA. FSA contributions can only be updated during open enrollment or through a [qualifying life event (QLE)](#qualifying-life-events).
 
@@ -700,6 +702,19 @@ FSAs (and Dependent Care FSAs) are subject to annual testing by the Internal Rev
 ##### FSA Period to Submit Claims
 
 Up to 90 days after the plan year has concluded (also known as the runout period).
+
+##### Mid-Year FSA Contribution Changes
+
+Team Members can only make changes to their FSA contributions during a Qualifying Life Event. You cannot reduce your FSA contributions, you can only increase the FSA during the Qualifying Life Event. 
+
+Note that if you increase the amount of your FSA, you will only be able to use the additional funds for claims that incur on or after the your Qualifying Life Event. See Example Below 
+
+| Scenario                     | Resolution | Example
+|--------------------------|------|------|
+| A participant gets married       | The participant can only increase their election amount.     | A participant originally elected $500. They get married and update their election amount to $2,000 as of the date of the qualifying life event. Note: The participant can only be reimbursed up to $500 for claims with dates of service between the plan effective date and the date of the qualifying life event.|
+
+
+
 
 
 #### Commuter Benefits
