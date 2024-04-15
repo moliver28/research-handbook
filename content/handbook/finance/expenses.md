@@ -113,13 +113,13 @@ The airfare policy in Navan is set up as a “Dynamic Policy” which calculates
 #### Domestic Flights
 
 - **Flights over 5 hours of consecutive flight time** - For domestic flights with a duration greater than 5 hours of consecutive flight time, team members are authorized to book the next class up from standard economy as long as it is below business class.
-- **E-Group and E-Group Selected Travellers** - For domestic flights team members are authorised to book first class.
+- **E-Group and E-Group Selected Travelers** - For domestic flights team members are authorised to book first class.
 
 #### International Flights
 
 - **Flights greater than 5 hours of consecutive flight time** - For international flights with a duration greater than 5 hours of consecutive flight time, team members are authorized to book the next class up from standard economy as long as it is below business class.
 - **Flights exceeding 8 hours of consecutive flight time** - For those who travel frequently, defined as 3 or more trips per quarter internationally on flights of 8 hrs+ continuous flight time (6 flight segments of 8+ hours continuous flight time), for a meeting with customers, a speaking engagement, or representing GitLab at a conference; business class is permitted.
-- **E-Group and E-Group Selected Travellers** - For international flights team members are authorised to book business class.
+- **E-Group and E-Group Selected Travelers** - For international flights team members are authorised to book business class.
 
 #### Frequent Flyer Programs
 
@@ -192,7 +192,7 @@ In the event of an accident resulting in damage to the rental car, the Non-US re
 - The hotel room block's pricing is generally within the bounds of the $300USD/night and in the event it is over that amount, please contact the AP team for an exception to be granted.
 - Conference hotel room blocks or Corporate Events organized blocks will still need to be charged to a personal credit card and then submitted for reimbursement via Navan Expense.
 - Always bring a credit card with you when traveling for company business if you have one. Hotels will generally expect you to have a physical credit card to present upon check-in. This credit card will be kept on file for the duration of your stay. Even if your lodging was pre-paid by the company or by using a company credit card, the Hotel may still require a card to be on file for "incidentals".
-- **E-Group and E-Group Selected Travellers** - approved to book hotels outside of Navan - although Navan should remain as the default. To notify of a booking outside of Navan, the EBA supporting the E-Group member should email details of the booking to expenses@gitlab.com(this will be used for reporting purposes).
+- **E-Group and E-Group Selected Travelers** - approved to book hotels outside of Navan - although Navan should remain as the default. To notify of a booking outside of Navan, the EBA supporting the E-Group member or the Selected Traveler should email details of the booking to expenses@gitlab.com (this will be used for reporting purposes).
 
 #### Additional Hotel Guidelines
 
