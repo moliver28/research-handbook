@@ -662,14 +662,13 @@ More information can be found on the [Government of Manitoba website](https://ww
 
 ## Administrative Details for Benefits Team
 
-### Onboarding & Offboarding in Collage
+<summary>Onboarding OffBoarding In Collage</summary>
 
 1. Total Rewards is tagged in Onboarding & Offboarding issues
 1. Total Rewards will update Collage with new hire information/termination
 1. Team Member receives onboarding notification and enrolls in to the plans
 
-### Updating Payroll with Employer Premium Rates (Monthly)
-
+<summary>Updating Payroll with Employer Premium Rates (Monthly)</summary>
 Prior to the 1st Canada Payroll Cutoff date of the Month, Total Rewards will look up Employer Premium changes Amounts on the Canada Life Website & New Hires since the Last month
 
 New Hires
@@ -712,14 +711,15 @@ Adjustments for Current Team Members
     - Healthcare
     - Dentalcare
 
-### Updating Collage with Employee Salary Changes (Monthly)
+<summary>Updating Collage with Employee Salary Changes (Monthly)</summary>
 
 1. Log on to the Canada Payroll Changes Report
 1. Review the Compensation changes that have occurred in the last 2 months
 1. Log on to Collage
 1. Search for the team member > click their name > Job > Update Employment Info > Update Salary Details > Save
 
-### Checking if Employees are Eligible for Excess LTD Insurance & need underwriting (Quarterly)
+
+<summary>Checking if Employees are Eligible for Excess LTD Insurance & need underwriting (Quarterly)</summary>
 
 1. Log on to Group Net Canada Life
 1. Enrollment tab > request reports> coverage summary> effective date(today’s date)> sort by Employee name
@@ -727,7 +727,9 @@ Adjustments for Current Team Members
 1. Reach out to the team member with the Eligiblity of Insurance Document and instructions so that they can complete their EOI. Notify SC Insurance that the quartelry audit was completed as an fyi.
  - View additional Instructions & email template in the [Quarterly Check for Excess LTD folder](https://drive.google.com/drive/folders/1BCIGQIKJxPOrPHfhdZbnccGEFZTNhh6C?usp=sharing)
 
-### RRSP Process (Semi-monthly)
+
+<summary>RRSP Process (Semi-monthly)</summary>
+
 
 1. Team members create Canada Life account and sign up for RRSP
 1. Total Rewards logs on to Canada Life, approves RRSP requests: Menu > Administrative Functions > Online Enrollments > Search for a list: All Full Time Employees - 01. Add an Enrolment date and Approve the enrolment.
