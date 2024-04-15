@@ -27,8 +27,7 @@ description: "A comprehensive list of all of Field Marketing's epic codes."
 * **Field Marketing Coordinator:** 
 * **Campaign Type:** Conference
 * **Type:** In-Person
-* **Official Name:** 
-* **Date(s):**  
+* **Official Name:**   
 * **Campaign Name (SFDC/Marketo name):**  
 * **Campaign UTM:** (Format: Copy campaign name above and change to all lowercase, no spaces, hyphens, underscores, or special characters and at the end of the UTM, add **fmm** in all lowercase letters - Example UTM - 20210915besteventeverfmm)
 * [ ] [**Salesforce Campaign**]()
@@ -71,7 +70,6 @@ description: "A comprehensive list of all of Field Marketing's epic codes."
 * **Campaign Type:** Conference
 * **Type:** Virtual
 * **Official Name:** 
-* **Date(s):**  
 * **Campaign Name (SFDC/Marketo Name):**  
 * **Campaign UTM:** (Format: Copy campaign name above and change to all lowercase, no spaces, hyphens, underscores, or special characters and at the end of the UTM, add **fmm** in all lowercase letters - Example UTM - 20210915besteventeverfmm)
 * [ ] [**Salesforce Campaign**]()
@@ -113,7 +111,6 @@ description: "A comprehensive list of all of Field Marketing's epic codes."
 * **Campaign Type:** Conference 
 * **Type:** Hybrid
 * **Official Name:** 
-* **Date(s):**  
 * **Campaign Name (SFDC/Marketo name):**  
 * **Campaign UTM:** (Format: Copy campaign name above and change to all lowercase, no spaces, hyphens, underscores, or special characters and at the end of the UTM, add **fmm** in all lowercase letters - Example UTM - 20210915besteventeverfmm)
 * [ ] [**Salesforce Campaign**]()
@@ -155,8 +152,6 @@ description: "A comprehensive list of all of Field Marketing's epic codes."
 * **Field Marketing Coordinator:** 
 * **Campaign Type:** Content Syndication
 * **Content Name:** 
-* **Launch Date:** 
-* **Estimated End Date:** 
 * **Content Type:** (Whitepaper, eBook, Report, Video, or General)
 * **Campaign Name (SFDC/Marketo Name):**    
 * **Campaign UTM:** (Format: Copy campaign name above and change to all lowercase, no spaces, hyphens, underscores, or special characters and at the end of the UTM, add **fmm** in all lowercase letters - Example UTM - 20210915besteventeverfmm)
@@ -189,8 +184,6 @@ description: "A comprehensive list of all of Field Marketing's epic codes."
 * **Field Marketing Coordinator:** 
 * **Campaign Type:** Direct Mail
 * **Tactic Name:** 
-* **Launch Date:** 
-* **Estimated End Date:** 
 * **Campaign Name (SFDC/Marketo Name):**   
 * **Campaign UTM:** (Format: Copy campaign name above and change to all lowercase, no spaces, hyphens, underscores, or special characters and at the end of the UTM, add **fmm** in all lowercase letters - Example UTM - 20210915besteventeverfmm)
 * [ ] [**Salesforce Campaign**]()
@@ -227,7 +220,6 @@ description: "A comprehensive list of all of Field Marketing's epic codes."
 * **Campaign Type:** Executive Roundtable
 * **Type:** (In-Person, Virtual or Hybrid)
 * **Official Name:** 
-* **Date(s):**  
 * **Campaign Name (SFDC/Marketo Name):**  
 * **Campaign UTM:** (Format: Copy campaign name above and change to all lowercase, no spaces, hyphens, underscores, or special characters and at the end of the UTM, add **fmm** in all lowercase letters - Example UTM - 20210915besteventeverfmm)
 * [ ] [**Salesforce Campaign**]()
@@ -263,8 +255,7 @@ description: "A comprehensive list of all of Field Marketing's epic codes."
 * **Field Marketing Coordinator:** 
 * **Campaign Type:** Owned Event
 * **Type:** (In-Person, Virtual or Hybrid)
-* **Official Name:** 
-* **Date(s):**  
+* **Official Name:**  
 * **Campaign Name (SFDC/Marketo Name):**  
 * **Campaign UTM:** (Format: Copy campaign name above and change to all lowercase, no spaces, hyphens, underscores, or special characters and at the end of the UTM, add **fmm** in all lowercase letters - Example UTM - 20210915besteventeverfmm)
 * [ ] [**Salesforce Campaign**]()
@@ -300,7 +291,6 @@ description: "A comprehensive list of all of Field Marketing's epic codes."
 * **Field Marketing Coordinator:** 
 * **Campaign Type:** Sponsored Webcast
 * **Official Name:** 
-* **Date(s):**  
 * **Campaign Name (SFDC/Marketo Name):**  
 * **Campaign UTM:** (Format: Copy campaign name above and change to all lowercase, no spaces, hyphens, underscores, or special characters and at the end of the UTM, add **fmm** in all lowercase letters - Example UTM - 20210915besteventeverfmm)
 * [ ] [**Salesforce Campaign**]()
@@ -335,8 +325,6 @@ description: "A comprehensive list of all of Field Marketing's epic codes."
 * **Field Marketing Coordinator:** 
 * **Campaign Type:** Survey
 * **Tactic Name:** 
-* **Launch Date:** 
-* **Estimated End Date:** 
 * **Campaign Name (SFDC/Marketo Name):**  
 * **Campaign UTM:** (Format: Copy campaign name above and change to all lowercase, no spaces, hyphens, underscores, or special characters and at the end of the UTM, add **fmm** in all lowercase letters - Example UTM - 20210915besteventeverfmm)
 * [ ] [**Salesforce Campaign**]()
@@ -371,7 +359,6 @@ description: "A comprehensive list of all of Field Marketing's epic codes."
 * **Campaign Type:** Vendor Arranged Meetings
 * **Type:** (In-Person, Virtual or Hybrid)
 * **Official Name:** 
-* **Date(s):**  
 * **Campaign Name (SFDC/Marketo Name):**  
 * **Campaign UTM:** (Format: Copy campaign name above and change to all lowercase, no spaces, hyphens, underscores, or special characters and at the end of the UTM, add **fmm** in all lowercase letters - Example UTM - 20210915besteventeverfmm)
 * [ ] [**Salesforce Campaign**]()
@@ -417,7 +404,6 @@ description: "A comprehensive list of all of Field Marketing's epic codes."
 * **Campaign Type:** Workshop
 * **Type:** (In-Person, Virtual or Hybrid)
 * **Official Name:** 
-* **Date(s):**  
 * **Campaign Name (SFDC/Marketo Name):**  
 * **Campaign UTM:** (Format: Copy campaign name above and change to all lowercase, no spaces, hyphens, underscores, or special characters and at the end of the UTM, add **fmm** in all lowercase letters - Example UTM - 20210915besteventeverfmm)
 * [ ] [**Salesforce Campaign**]()
@@ -467,7 +453,6 @@ Utilize the [Workshop/Webcast SLA Workback Schedule](https://docs.google.com/spr
 * **Field Marketing Coordinator:** 
 * **Campaign Type:** Webcast
 * **Official Name:** 
-* **Date(s):**  
 * **Campaign Name (SFDC/Marketo Name):**  
 * **Campaign UTM:** (Format: Copy campaign name above and change to all lowercase, no spaces, hyphens, underscores, or special characters and at the end of the UTM, add **fmm** in all lowercase letters - Example UTM - 20210915besteventeverfmm)
 * [ ] [**Salesforce Campaign**]()
