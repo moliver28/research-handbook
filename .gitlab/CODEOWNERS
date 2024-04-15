@@ -255,7 +255,7 @@
 /content/handbook/engineering/development/dev/create/code-review/frontend.md @andr3 @phikai @gitlab-com/egroup @gitlab-com/content-sites
 
 ^[entity]
-/content/handbook/entity/iberia-srl-spain.md @hdevlin @sszepietowska @Rkole @lyndemeiers @sarahrogers @cgudgenov
+/content/handbook/entity/ @hdevlin @sszepietowska @Rkole @lyndemeiers @sarahrogers @cgudgenov
 
 ^[finance]
 /content/handbook/finance/ @brobins
