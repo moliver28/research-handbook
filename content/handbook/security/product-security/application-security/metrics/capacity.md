@@ -40,13 +40,13 @@ The AppSec Engineer responsible for the task is expected to assign this label to
 
 ## Effort Classification
 
-The effort classification is an estimate of the level of effort it took to resolve a task, not the amount of time. 
+The effort classification is an estimate of the level of effort it took to resolve a task, not the amount of time.
 
 ### Table
 
 | Label    | Description | Example |
 | -------- | ------- | ------- |
-| AppSecWeight::trivial | | | 
+| AppSecWeight::trivial | | |
 | AppSecWeight::small  | | | 
 | AppSecWeight::medium | | | 
 | AppSecWeight::large | | | 
