@@ -62,8 +62,8 @@ Career mobility is a part of career development, we support and encourage develo
 - All internal transfer candidates should have an aligned transition and communication plan to address impact on the previous team, including finalizing a plan for backfill and completing any milestones that are already underway. 
 
 ### Out of Scope for Internal Mobility
-Emerging Talent, this currently includes:
-- FY25 Intern or Associate roles.
+Emerging Talent, this includes:
+- Internships and Associate roles.
   - For more information about Emerging Talent, please see [this](https://handbook.gitlab.com/handbook/hiring/emerging-talent/) handbook page for an overview.
   - Members of GitLab's leadership team, see [this](https://internal.gitlab.com/handbook/people-group/talent-acquisition/emerging-talent/hosting-an-emerging-talent-program/) page for considerations when hosting an Emerging Talent program.
 
