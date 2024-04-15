@@ -190,14 +190,14 @@ A full breakdown of this sections content files can be viewed on our [Migration 
 
 A full breakdown of this sections content files can be viewed on our [Migration details page](/handbook/about/migration-details/#support)
 
-#### CEO and CoST Team
+#### CEO and Office of the CEO
 
 **Completed:** {{% migration-finish-date section="ceo-and-cost-team" %}}
 
 **Content to move:**
 
 - [x] CEO pages
-- [x] CoST Team Pages
+- [x] Office of the CEO Pages
 
 A full breakdown of this sections content files can be viewed on our [Migration details page](/handbook/about/migration-details/#ceo-and-cost-team)
 
