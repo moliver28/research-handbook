@@ -667,11 +667,19 @@ More information can be found on the [Government of Manitoba website](https://ww
 
 ## Administrative Details for Benefits Team
 
+</details>
+
+<details markdown="1">
+
 <summary>Onboarding OffBoarding In Collage</summary>
 
 1. Total Rewards is tagged in Onboarding & Offboarding issues
 1. Total Rewards will update Collage with new hire information/termination
 1. Team Member receives onboarding notification and enrolls in to the plans
+
+</details>
+
+<details markdown="1">
 
 <summary>Updating Payroll with Employer Premium Rates (Monthly)</summary>
 Prior to the 1st Canada Payroll Cutoff date of the Month, Total Rewards will look up Employer Premium changes Amounts on the Canada Life Website & New Hires since the Last month
@@ -716,6 +724,10 @@ Adjustments for Current Team Members
     - Healthcare
     - Dentalcare
 
+</details>
+
+<details markdown="1">
+
 <summary>Updating Collage with Employee Salary Changes (Monthly)</summary>
 
 1. Log on to the Canada Payroll Changes Report
@@ -723,6 +735,10 @@ Adjustments for Current Team Members
 1. Log on to Collage
 1. Search for the team member > click their name > Job > Update Employment Info > Update Salary Details > Save
 
+
+</details>
+
+<details markdown="1">
 
 <summary>Checking if Employees are Eligible for Excess LTD Insurance & need underwriting (Quarterly)</summary>
 
@@ -733,6 +749,10 @@ Adjustments for Current Team Members
 
 - View additional Instructions & email template in the [Quarterly Check for Excess LTD folder](https://drive.google.com/drive/folders/1BCIGQIKJxPOrPHfhdZbnccGEFZTNhh6C?usp=sharing)
 
+
+</details>
+
+<details markdown="1">
 
 <summary>RRSP Process (Semi-monthly)</summary>
 
