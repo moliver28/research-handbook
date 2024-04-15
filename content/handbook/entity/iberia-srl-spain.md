@@ -11,7 +11,7 @@ GitLab Iberia s.r.l has a registered address at Avenida Concha Espina 39B, 28016
 
 ### Employment Contracts
 
-GitLab’s Team Member contract templates, including for Spain, [are listed here](https://internal.gitlab.com/handbook/people-group/people-operations/people-connect/employment_contracts/#spain) _for reference only_ and are viewable by *anyone in GitLab* (they are internal only). The DRI for all GitLab Team Member contracts is the People Connect Team. Any changes to any contracts should be requested through People Connect and will require approval from our Senior Director of Legal, Employment.
+GitLab’s Team Member contract templates, including for [Spain](https://internal.gitlab.com/handbook/people-group/people-operations/people-connect/employment_contracts/#spain) are listed for reference only and are viewable by **anyone in GitLab** (they are internal only). The DRI for all GitLab Team Member contracts is the People Connect Team. Any changes to any contracts should be requested through People Connect and will require approval from our Senior Director of Legal, Employment.
 
 Contract copies are lodged with the Spanish Labour Inspectorate by the payroll provider (Papaya) as required. Contact nonuspayroll@gitlab.com if you have any queries.
 
@@ -45,7 +45,7 @@ As of May 1, 2024 each GitLab Spain team member will be required to log their da
 
 #### Daily Work Time
 
-In principle, employees have their eight-hour day for a standard working week of 40 hours, typically spread over five days. The maximum normal working hours per day is 9 hours (including one hour of rest/lunch). 
+In principle, employees have their eight-hour day for a standard working week of 40 hours, typically spread over five days. The maximum normal working hours per day is 9 hours (including one hour of rest/lunch).
 
 #### Break Policy
 
@@ -53,8 +53,7 @@ At or before 6 hours of consecutive work, a break must be taken of at least 15 m
 
 #### Rest Policy
 
-Between work days, team members are entitled to an uninterrupted rest period of 12 hours. Additionally team members are entitled to a 
-weekly rest period of 1.5 uninterrupted days (usually taken on weekends).
+Between work days, team members are entitled to an uninterrupted rest period of 12 hours. Additionally team members are entitled to a weekly rest period of 1.5 uninterrupted days (usually taken on weekends).
 
 #### Overtime
 
