@@ -50,7 +50,7 @@ The CEO's Quarterly Kickoff Slides usually cover:
 - Marathon Slide (as needed)
 - Reiterate how all elements of [cadence fit together](/handbook/company/yearlies/#cadence) including any new or changed elements of hierarchy such as new OKRs.
 
-The Quarterly Kickoff is a [CoST](/handbook/ceo/office-of-the-ceo/) initiative.
+The Quarterly Kickoff is an [Office of the CEO](/handbook/ceo/office-of-the-ceo/) initiative.
 
 ### Timeline for the Quarterly Kickoff
 
