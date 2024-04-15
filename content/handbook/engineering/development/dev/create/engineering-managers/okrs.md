@@ -21,11 +21,11 @@ GitLab OKRs allow us to align our work to the overall GitLab objectives. All Cre
 
 Team OKRs
 
-* [Code Review](https://gitlab.com/gitlab-com/www-gitlab-com/-/issues?scope=all&utf8=✓&state=all&label_name[]=OKR&label_name[]=group%3A%3Acode%20review).
-* [Ecosystem](https://gitlab.com/gitlab-com/www-gitlab-com/-/issues?scope=all&utf8=✓&state=all&label_name[]=OKR&label_name[]=group%3A%3Aecosystem).
-* [IDE](https://gitlab.com/gitlab-com/www-gitlab-com/-/issues?scope=all&utf8=✓&state=all&label_name[]=OKR&label_name[]=group%3A%3Aide).
-* [Gitaly](https://gitlab.com/gitlab-com/www-gitlab-com/-/issues?scope=all&utf8=✓&state=all&label_name[]=OKR&label_name[]=group%3A%3Agitaly).
-* [Source Code](https://gitlab.com/gitlab-com/www-gitlab-com/-/issues?scope=all&utf8=✓&state=all&label_name[]=OKR&label_name[]=group%3A%3Asource%20code).
+* [Code Creation](https://gitlab.com/gitlab-com/gitlab-OKRs/-/issues/?sort=updated_desc&state=all&label_name%5B%5D=OKR&label_name%5B%5D=group%3A%3Acode%20creation&first_page_size=100)
+* [Code Review](https://gitlab.com/gitlab-com/gitlab-OKRs/-/issues/?sort=updated_desc&state=all&label_name%5B%5D=OKR&label_name%5B%5D=group%3A%3Acode%20review&first_page_size=100)
+* [Editor Extensions](https://gitlab.com/gitlab-com/gitlab-OKRs/-/issues/?sort=updated_desc&state=all&label_name%5B%5D=OKR&label_name%5B%5D=group%3A%3Aeditor%20extensions&first_page_size=100)
+* [IDE](https://gitlab.com/gitlab-com/gitlab-OKRs/-/issues/?sort=updated_desc&state=all&label_name%5B%5D=OKR&label_name%5B%5D=group%3A%3Aide&first_page_size=100)
+* [Source Code](https://gitlab.com/gitlab-com/gitlab-OKRs/-/issues/?sort=updated_desc&state=all&label_name%5B%5D=OKR&label_name%5B%5D=group%3A%3Asource%20code&first_page_size=100)
 
 ## OKR Authors
 
