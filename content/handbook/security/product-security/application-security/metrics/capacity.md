@@ -47,9 +47,9 @@ The effort classification is an estimate of the level of effort it took to resol
 | Label    | Description | Example |
 | -------- | ------- | ------- |
 | AppSecWeight::trivial | | |
-| AppSecWeight::small  | | | 
-| AppSecWeight::medium | | | 
-| AppSecWeight::large | | | 
+| AppSecWeight::small  | | |
+| AppSecWeight::medium | | |
+| AppSecWeight::large | | |
 
 #### Who assigns this label and when?
 
