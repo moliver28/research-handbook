@@ -239,6 +239,44 @@ description: "A comprehensive list of all of Field Marketing's epic codes."
 /confidential
 ```
 
+## Meeting Setting
+
+```
+<!-- Name this epic: Name of Event - Date of Event -->
+
+## [Main Issue]()
+
+## [Copy Document]() - [template](https://docs.google.com/document/d/1j43mf7Lsq2AXoNwiygGAr_laiFzmokNCfMHi7KNLjuA/edit)
+
+## [Landing Page]() - `to be added when live` 
+
+## Key Details 
+* **Field Marketing Manager:** 
+* **Field Marketing Coordinator:** 
+* **Campaign Type:** Owned Event
+* **Type:** (In-Person, Virtual or Hybrid)
+* **Official Name:**  
+* **Campaign Name (SFDC/Marketo Name):**  
+* **Campaign UTM:** (Format: Copy campaign name above and change to all lowercase, no spaces, hyphens, underscores, or special characters and at the end of the UTM, add **fmm** in all lowercase letters - Example UTM - 20210915besteventeverfmm)
+* [ ] [**Salesforce Campaign**]()
+* [ ] [**Marketo Program**]()
+
+## Sub-Issue Creation
+* [ ] [Program Tracking](https://gitlab.com/gitlab-com/marketing/field-marketing/-/issues/new?issuable_template=program-tracking) - FMC creates, assigns to FMC
+* [ ] [Write Copy Issue](https://gitlab.com/gitlab-com/marketing/field-marketing/-/issues/new?issuable_template=write-copy) - FMC creates, assigns to FMM
+* [ ] [Marketo Landing Page & Automation Issue](https://gitlab.com/gitlab-com/marketing/field-marketing/-/issues/new?issuable_template=request_mkto_landing_page) - FMC creates, assigns FMM (issue will be triaged)
+* [ ] [Email Invitation Issue](https://gitlab.com/gitlab-com/marketing/field-marketing/-/issues/new?issuable_template=request_email_invite) - FMC creates one for each invitation requested, assigns to FMM (issue will be triaged)
+* [ ] [Email Reminder Issue](https://gitlab.com/gitlab-com/marketing/field-marketing/-/issues/new?issuable_template=request_email_reminder) - FMC creates, assigns to FMM (issue will be triaged)
+* [ ] [Follow Up Email issue](https://gitlab.com/gitlab-com/marketing/field-marketing/-/issues/new?issuable_template=request_email_followup) - FMC creates, assigns to FMM (issue will be triaged)
+* [ ] [List Clean and Upload](https://gitlab.com/gitlab-com/marketing/marketing-operations/-/issues/new?issuable_template=event-clean-upload-list) - FMC creates, assigns to FMM
+* [ ] [Optional: ABM Request for LinkedIn Ads](https://gitlab.com/gitlab-com/marketing/account-based-strategy/account-based-marketing/-/issues/new?issuable_template=abm_fieldmarketing_campaign_request) - FMM creates, assigns based on template instructions
+* [ ] [Optional: FM Pathfactory Asset Upload and Track Creation Issue](https://gitlab.com/gitlab-com/marketing/field-marketing/-/issues/new?issuable_template=Pathfactory_Request_Template) - FMM creates, assigns to FMC
+
+
+/label ~"mktg-status::wip" ~"Meeting Setting" ~"Field Marketing" 
+/confidential
+```
+
 ## Owned Events
 
 ```
