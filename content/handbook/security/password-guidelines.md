@@ -4,7 +4,8 @@ title: GitLab Password Guidelines
 <!-- markdownlint-disable MD051 -->
 ## Passwords at GitLab
 
-Passwords are one of the primary mechanisms that protect GitLab information systems and other resources from unauthorized use. GitLab's [password standard]({{< ref "password-standard" >}}) is based, in part, on the recommendations by [NIST 800-63B](https://pages.nist.gov/800-63-3/sp800-63b.html). The password standard sets the requirements for constructing secure passwords and ensuring proper password management. GitLab utlizes 1Password for password management.
+Passwords are one of the primary mechanisms that protect GitLab information systems and other resources from unauthorized use. GitLab's [password standard]({{< ref "password-standard" >}}) is based, in part, on the recommendations by [NIST 800-63B](https://pages.nist.gov/800-63-3/sp800-63b.html).
+The password standard sets the requirements for constructing secure passwords and ensuring proper password management. GitLab utilizes 1Password for password management.
 
 
 ## 1Password
@@ -14,7 +15,7 @@ Passwords are one of the primary mechanisms that protect GitLab information syst
 
 
 **Important:** Any personal Passwords stored in your GitLab vault will be inaccessible upon separation with GitLab. Please use the complimentry 1Passsword Families membership subscription that comes with your business account to store any personal passwords. This account will stay with you even in the event that you stop working with GitLab.
- For more inforamtion on how to redeem your free subscription, please follow the steps outlined in [this article](https://support.1password.com/link-family/).
+ For more information on how to redeem your free subscription, please follow the steps outlined in [this article](https://support.1password.com/link-family/).
 
 
 Ideally you memorize one strong password - hence the name - and let 1Password generate and manage strong, unique passwords
@@ -239,12 +240,20 @@ More information is available [in the official documentation](https://developer.
 
 ### CLI integration
 
+During development it is often necessary to use test secrets locally on your development machine.
+Even though these secrets are limited in their access it's still best practice to avoid writing them unencrypted to disk.
+Manually loading them into environment variables or using them for CLI commands directly also risks them being written to disk as part of your shell history.
+As an alternative, 1Password has a CLI utility which can help manage local secrets securely.
+
 [1Password CLI integration](https://developer.1password.com/docs/cli) supports secure
 handling of secrets used in command line tools, config files, and scripts executed on your laptop.
 To setup the CLI integration, follow the [getting started guide](https://developer.1password.com/docs/cli/get-started/).
 
 It is recommended to store secrets such as [personal access tokens](https://docs.gitlab.com/ee/user/profile/personal_access_tokens.html)
-in 1Password. Avoid storing secrets in unencrypted files.
+in 1Password. Avoid storing secrets in unencrypted files or using them directly
+on the CLI. Many shells write a command history to disk and where the secret is
+used literally on the command line this will be written to the command history
+unencrypted.
 
 Example for configuring [glab](https://gitlab.com/gitlab-org/cli) with 1Password CLI (requires 1password version 8 or higher):
 
@@ -254,30 +263,44 @@ Example for configuring [glab](https://gitlab.com/gitlab-org/cli) with 1Password
   <img src="../1pass-pat-setup.png" alt="Save login" width="600"/>
 </div>
 
-- Store a secret reference to the access token in an `.env` file:
+- Store a secret reference to the access token in an `.env` file.
+
+The environment variable name goes before the equals sign, and the path to the secret in 1Password goes after.
+You can store multiple variable secret pairs per file when you need to use
+secrets together.
+The paths can be obtained by viewing the credential in th 1Password GUI, clicking the dropdown menu and selecting "Copy Secret Reference".
+
 
 ```sh
 ## format is op://vault-name/item-name/[section-name/]field-name
 echo "GITLAB_TOKEN=op://Private/GitLab/pat/api" > $HOME/.gitlab-pat.env
 ```
 
-- Define an alias in your shell profile to invoke `glab` with the PAT
+- Run processes using the secrets
 
-```sh
-alias glab="op run --env-file=$HOME/.gitlab-pat.env -- glab"
-```
+When running processes which need the secrets, run it under the control of 1Password, so it can pass the variables correctly.
+To do this, prepend `op run --env-file="<path to your env file>" --` to the command you wish to run, and replace any secrets with the relevant variable
 
-- To verify the configuration, run `glab api version`. This should print
-the version of gitlab.com if the configuration succeeded.
+So for example
 
-```sh
+```shell
 glab api version
-{"version":"15.4.0-pre","revision":"3e84f577d51"}
 ```
+
+would become:
+
+```shell
+op run --env-file=$HOME/.gitlab-pat.env -- glab api version
+```
+
+Where the process is interactive or has dynamic output (progress bars, etc) you may need to disable masking to make the display work correctly. You can do this by adding `--no-masking`
+
+Manually adding `op run` every time for common tasks is cumbersome, so check out
+the [tools and tips]({{< ref "/tools-and-tips/onepassword-cli" >}}) section for more more user-friendly configurations.
+
 
 ### Several accounts and unlocking the app
 
-Please refer to [1Password FAQ](https://support.1password.com/faq/#i-have-several-accounts-and-vaults-which-password-do-i-use-to-unlock-1password).
 
 If you are planning to use both the GitLab team account and a separate
 individual account you should first add your separate individual account to the
