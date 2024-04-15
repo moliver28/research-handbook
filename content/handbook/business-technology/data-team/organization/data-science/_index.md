@@ -252,7 +252,7 @@ Our current platform consists of:
 - [JupyterLab](/handbook/business-technology/data-team/platform/jupyter-guide/) for model training, tuning, and selection
 - [GitLab](https://gitlab.com/) for collaboration, project versioning, and score code management, [experiment tracking](/handbook/engineering/development/incubation/mlops/ml_experiment_tracking.html), and [CI/CD](https://docs.gitlab.com/ee/ci/)
 -[GitLab CI](https://handbook.gitlab.com/handbook/business-technology/data-team/platform/ci-for-ds-pipelines/#our-approach-to-using-cicd-for-data-science) for automation and orchestration
-- Monte Carlo for drift detection
+- [Monte Carlo](https://getmontecarlo.com/) for drift detection
 - Tableau Server for model monitoring and on-going performance evaluation
 - [Feast](https://docs.feast.dev/) as a an open-source Feature Store for Machine Learning models
 
