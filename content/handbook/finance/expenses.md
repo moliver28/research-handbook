@@ -345,8 +345,8 @@ The company will cover all work-related travel expenses. This includes lodging a
 
 {{% panel header="**Coding**" header-bg="green" %}}
 - **Expense Type / Navan Policy Category:** Other
-- **GL Code NON-COGS:** 6076 - Co Working Space
-- **GL Code COGS:** 5076 - Co Working Space COGS
+- **GL Code NON-COGS:** 6076 - Coworking Space
+- **GL Code COGS:** 5076 - Coworking Space COGS
 {{% /panel %}}
 
 #### Conferences
