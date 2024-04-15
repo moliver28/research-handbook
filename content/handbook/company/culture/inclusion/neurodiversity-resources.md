@@ -30,9 +30,9 @@ canonical_path: "/company/culture/inclusion/neurodiversity-resources/"
 
 ```mermaid
 graph TD
-A[Has you manager commented on traits related to your neurodiversity in relation to your performance?]
+A[Has your manager commented on traits related to your neurodiversity in relation to your performance?]
 A-->|Yes| B[Have you requested work accomodations for your specific neurodiversity to mitigate performance issues? ]
-A-->|No| C[May not need to disclose at this time]
+A-->|No| C[You may not need to disclose at this time]
 B-->|Yes| D[Have these claims been supported by your manager?]
 B-->|No| E[Consider making a request for accomodation without disclosure if you do not feel comfortable]
 D-->|Yes| F[You can stop here if your goals is to get accomodations for your Neurodiversity. Do you still want to disclose?]
