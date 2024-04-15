@@ -72,7 +72,10 @@ E.g. `@jenny` as it can create a message that distracts others.
 
 ### Change Group DMs to Private Channels
 
-If you are in a group direct message with multiple people, you can [change it to a private channel](https://get.slack.help/hc/en-us/articles/217555437-Move-group-DMs-to-a-private-channel), in order to avoid extra pings and allow additional team members to be added or removed to the channel.
+If you are in a group direct message with multiple people, you can [change it to a private channel](https://get.slack.help/hc/en-us/articles/217555437-Move-group-DMs-to-a-private-channel), in order to avoid extra pings and allow additional team members to be added or removed to the channel.  In Slack Enterprise Grid, if you start a group DM and then it is converted to a channel, the channel ends up in “all workspaces”. “All workspace” channels have [no retention limit](https://gitlab.com/gitlab-com/it/security/issue-tracker/-/issues/66), which contradicts our policy of [90 day retention](/handbook/communication/#slack). To remediate this, we have a script that will daily move the channels into our main GitLab workspace. If you are in an affected channel, you will receive a message from Slackbot that states:
+
+`"Slack Owner has removed #<channel> from all other “GitLab” workspaces using the channel management tool. Only people from “GitLab” can access the channel now. Learn more.”``
+
 
 ## Managing noise and creating focus in Slack
 
