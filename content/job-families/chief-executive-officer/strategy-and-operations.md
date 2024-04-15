@@ -241,7 +241,7 @@ dependencies to achieve project goals
 
 ## Performance Indicators
 
-- [Throughput - Issues or merge requests closed as measurement of projects iterated on](/handbook/ceo/office-of-the-ceo/performance-indicators/#throughput-for-the-office=of=the-ceo)
+- [Throughput - Issues or merge requests closed as measurement of projects iterated on](/handbook/ceo/office-of-the-ceo/performance-indicators/#throughput-for-the-office-of-the-ceo)
 
 In addition, we are exploring [additional ways to measure performance](/handbook/ceo/office-of-the-ceo/#measuring-results).
 
