@@ -95,17 +95,26 @@ Repository X Ray report is generated as shown on following diagram:
 
 ```mermaid
 sequenceDiagram
-    actor USR as User
-    participant IDE
-    participant GLR as GitLab Rails
-    participant RN as GitLab Runner
-    participant PG as GitLab PostgreSQL DB
+   actor USR as User
+   participant RN as GitLab Runner
 
-    USR->>+GLR: commits changes to Gemfile.lock
-    GLR->>RN: triggers Repository X Ray CI scanner job
-    RN->>GLR: Repository X Ray report
-    GLR->>GLR: triggers Repository X Ray ingestion job
-    GLR->>-PG: upserts xray_reports record
+
+   participant GLR as GitLab Rails
+   participant PG as GitLab PostgreSQL DB
+   participant AIGW as AI Gateway
+
+
+   USR->>GLR: commits changes <br> to a package manager file <br>eg. Gemfile.lock
+   GLR->>+RN: triggers Repository X Ray CI scanner job
+   loop for each batch of packages
+       RN->>GLR: Request packages description by AI
+       GLR->>AIGW: Forward request for packages description
+       AIGW->>GLR: Packages description
+       GLR->>RN: Forwards packages description
+   end
+   RN->>-GLR: Repository X Ray report
+   GLR->>+GLR: triggers Repository X Ray ingestion background job
+   GLR->>-PG: upserts xray_reports record
 ```
 
 Components pictured on diagram are as follow:
@@ -113,7 +122,6 @@ Components pictured on diagram are as follow:
 1. [GitLab Runner](https://docs.gitlab.com/runner/) - an application that works with GitLab CI/CD to run jobs in a pipeline.
 1. GitLab PostgreSQL DB - relational database engine storing GitLab operational data
 1. [Repository X Ray CI scanner](https://gitlab.com/gitlab-org/code-creation/repository-x-ray) - a golang program designed to be executed inside CI/CD job that scans repository files in search of package manager config file like: Gemfile.lock, or package.json, and process their content to build additional data used as Code Suggestion context.
-
 
 Existing Repository X Ray reports are being included into code generation requests as shown in diagram at [code generation](#code-generation) paragraph.
 
