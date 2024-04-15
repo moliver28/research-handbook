@@ -350,3 +350,12 @@ To refer to past planning issues, see issues linked to the [[APAC] Holiday Cover
 </table>
 
 - ???
+
+## Understanding our working hours in relation to Zendesk
+
+The following images visualise the typical working hours in various team member locations in
+relation to SLA timers and [APAC regional business hours](https://about.gitlab.com/support/#effect-on-support-hours-if-a-preferred-region-for-support-is-chosen)
+in Zendesk. Pay attention to the months shown in each section - the difference is due to some
+countries observing daylight savings time.
+
+![APAC Working hours](./assets/APACWorkingHours.png)
