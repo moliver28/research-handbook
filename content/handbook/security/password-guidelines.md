@@ -241,9 +241,9 @@ More information is available [in the official documentation](https://developer.
 ### CLI integration
 
 During development it is often necessary to use test secrets locally on your development machine.
-Even though these secrets are limited in their access it's still best practice to avoid writing them unencrypted to disk.
+Even though these secrets have a limited scope of access, it's still best practice to avoid writing them unencrypted to disk.
 Manually loading them into environment variables or using them for CLI commands directly also risks them being written to disk as part of your shell history.
-As an alternative, 1Password has a CLI utility which can help manage local secrets securely.
+For a more secure approach, use 1Password's CLI utility which can help manage local secrets securely.
 
 [1Password CLI integration](https://developer.1password.com/docs/cli) supports secure
 handling of secrets used in command line tools, config files, and scripts executed on your laptop.
