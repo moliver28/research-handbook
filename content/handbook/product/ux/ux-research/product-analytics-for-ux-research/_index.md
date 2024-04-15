@@ -83,14 +83,14 @@ _No. Our Snowplow user identifiers are anonymized, while our GitLab.com user ide
 
 [PDI How to work with us](https://handbook.gitlab.com/handbook/product/product-analysis/#working-with-us) is a great resource on how to open up a product data insight request.
 
-1. Get access to:
+1. **Get access to:**
   - The right tools (usually Tableau online is sufficient)
   - The data (do you need SAFE access)
-2. Determine the set of questions you’re trying to answer, including:
+2. **Determine the set of questions you’re trying to answer, including:**
   - Which user criteria / segment?
   - Which metrics?
   - Which components or features (if applicable)?
-3. Check with your PM (and/or your PDI counterpart) to determine: 
+3. **Check with your PM (and/or your PDI counterpart) to determine:** 
   - Is this tracked today?
     - This can be difficult to determine, try asking in #data or by working with your PM and PDI counterpart.
     - If not, consider reaching out to the Analytics Instrumentation team or ask in #data.
@@ -120,18 +120,17 @@ _No. Our Snowplow user identifiers are anonymized, while our GitLab.com user ide
 
 Some terminology used in product analytics dashboards:
 
-- *AMAU* - Action Monthly Active Users (Unique MAU which engaged with a specific feature)
-- *CMAU* - Estimated Combined Monthly Active Users (Sum of SMAUs across all stages)
-- *GMAU* - Group Monthly Active Users (Unique MAU using features within a specific group)
-- *SMAU* - Stage Monthly Active Users (Unique MAU that used features within a stage)
-- *Section MAU* - Section Monthly Active Users
-- *UMAU* - Unique Monthly Active Users
-- *DAU/WAU* - Daily/Weekly Active Users
-
-- *PI* - Performance Indicator
-- *PPI* - Primary Performance Indicator (some stages/groups may prefer a different metric than MAU)
-- *SpU* - Stages per user
-- *SpO* - Stages per organization
+- **AMAU** - Action Monthly Active Users (Unique MAU which engaged with a specific feature)
+- **CMAU** - Estimated Combined Monthly Active Users (Sum of SMAUs across all stages)
+- **GMAU** - Group Monthly Active Users (Unique MAU using features within a specific group)
+- **SMAU** - Stage Monthly Active Users (Unique MAU that used features within a stage)
+- **Section MAU** - Section Monthly Active Users
+- **UMAU** - Unique Monthly Active Users
+- **DAU/WAU** - Daily/Weekly Active Users
+- **PI** - Performance Indicator
+- **PPI** - Primary Performance Indicator (some stages/groups may prefer a different metric than MAU)
+- **SpU** - Stages per user
+- **SpO** - Stages per organization
 
 For more information (or if something’s not listed above):
 - [Data catalog metrics and terms index (internal)](https://internal.gitlab.com/handbook/enterprise-data/data-catalog/#metrics-and-terms-index)
