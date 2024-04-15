@@ -304,12 +304,12 @@ Works with finance, sales and the PS leadership to ensure effective use and adop
 
 - [more detail required]
 
-### Manager Global Services Partners 
+### Global Services Partners Manager 
 
 
-#### Manager GLobal Services Partners Job Grade is a [grade 6](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+#### Global Services Partners Manager Job Grade is a [grade 6](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
-#### Manager Global Services Partners Responsibilities
+#### Global Services Partners Manager Responsibilities
 
 - Strategic Partnership Development:
    - Negotiate and finalize partnership agreements, focusing on creating value for both GitLab and its partners.
@@ -327,7 +327,7 @@ Works with finance, sales and the PS leadership to ensure effective use and adop
    - Work closely with various GitLab teams, including Consulting and Education Services and Channel, to ensure cohesive strategy and execution across GitLab's training offerings.
 -  This role will be required to flex into the PC reponsibilities as needed.
 
-#### Manager Global Services Partners Requirements
+#### Global Services Partners Manager Partners Requirements
 
 - Bachelor’s degree or the equivalent experience with demonstrated progressive experience in channel programs.
 - Excellent communication, analytical and organizational skills.
@@ -336,12 +336,12 @@ Works with finance, sales and the PS leadership to ensure effective use and adop
 - Excellent communication and presentation skills
 - Must have incredible attention to detail, be self-starting, and possess strong organizational skills
 
-### Senior Manager Global Services Partners  
+### Senior Global Services Partners Manager  
 
 
-#### Senior Manager Global Services Partners [grade 7](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+#### Senior Global Services Partners Manager [grade 7](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
-#### Senior Manager GLobal Services Partners Responsibilities
+#### Senior Global Services Partners Manager Responsibilities
 
 - Strategic Partnership Development
    - Identify, assess, and develop relationships with potential consulting and training partners and subcontractors to expand GitLab's ecosystem, ensuring alignment with GitLab's strategic goals and consulting educational standards.
@@ -364,7 +364,7 @@ Works with finance, sales and the PS leadership to ensure effective use and adop
   - Work closely with various GitLab teams, including Consulting and Education Services and Channel, to ensure cohesive strategy and execution across GitLab's training offerings.
 
 
-#### Senior Manager Global Services Partners Requirements
+#### Senior Global Services Partners Manager Requirements
 
 - Bachelor’s degree or the equivalent experience with demonstrated progressive experience in channel programs.
 - Experience in building,managing and automating partner program, preferably in the DevOps space,
