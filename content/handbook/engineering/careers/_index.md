@@ -61,11 +61,12 @@ Career mobility is a part of career development, we support and encourage develo
 - All role changes will be reviewed by R&D leadership on a weekly basis. This review will include impact on roadmaps and mitigation of the budget impact if the change requires additional budget to accommodate the request. 
 - All internal transfer candidates should have an aligned transition and communication plan to address impact on the previous team, including finalizing a plan for backfill and completing any milestones that are already underway. 
 
-### Not-applicable roles for internal mobility
+### Out of Scope for Internal Mobility
+Emerging Talent, this currently includes:
+- FY25 Intern or Associate roles.
+  - For more information about Emerging Talent, please see [this](https://handbook.gitlab.com/handbook/hiring/emerging-talent/) handbook page for an overview.
+  - Members of GitLab's leadership team, see [this](https://internal.gitlab.com/handbook/people-group/talent-acquisition/emerging-talent/hosting-an-emerging-talent-program/) page for considerations when hosting an Emerging Talent program.
 
-We do not support internal mobility for roles that we are working with Emerging Talent. This current includes
-- Associate roles that support emerging talent growth and cultivate early career opportunity.
-- Experimental programs that we specifically work with GitLab’s [Emerging Talent](https://handbook.gitlab.com/handbook/hiring/emerging-talent/) to fill.
 
 ## Individual Contribution vs. Management
 
