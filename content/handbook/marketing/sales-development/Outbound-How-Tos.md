@@ -9,7 +9,7 @@ description: The purpose of this page is to walk BDR team members through our en
 
 This page is part of the Sales Development team's handbook [page](https://handbook.gitlab.com/handbook/marketing/sales-development/) and aims to break our outbound lead management process into small how-to sections.
 
-While the contents below are meant to get you up to speed quickly, we also have a wealth of resources for team members that are looking to perfect their craft [here](https://handbook.gitlab.com/handbook/marketing/sales-development-knowledge-base/).
+While the contents below are meant to get you up to speed quickly, we also have a wealth of resources for team members that are looking to perfect their craft [here](https://handbook.gitlab.com/handbook/marketing/sales-development/sales-development-knowledge-base/).
 
 ## SFDC Views
 
