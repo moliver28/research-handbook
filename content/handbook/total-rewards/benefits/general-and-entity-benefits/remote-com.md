@@ -500,7 +500,9 @@ Below is the information related to Italy's statutory leave policies.  Please no
 
 ## Switzerland
 
-All of the benefits listed below are administered and managed by [Remote](https://remote.com/)
+All of the benefits listed below are administered and managed by [Remote](https://remote.com/).
+
+Note that pensionable salary includes base salary and commissions. Remote will use the estimated commissions on your monthly payslip. At the end of the year, Remote Payroll will conduct a reconciliation and re-declare pensionable salary based on actual earnings.
 
 The social security obligations through Remote are divided between the employee and the employer, with each party contributing their respective shares:
 
