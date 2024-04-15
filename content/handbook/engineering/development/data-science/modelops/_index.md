@@ -1,6 +1,6 @@
 ---
 title: ModelOps
-description: "The ModelOps stage is focused on providing AI/ML features in GitLab's DevSecOps platform."
+description: "The ModelOps stage aims to empower GitLab customers to build and integrate data science workloads within GitLab."
 ---
 
 ## Vision
@@ -13,20 +13,23 @@ while maintaining [our values](/handbook/values/) and [unique way of working](/h
 Drive results through iterative development as we add ModelOps teams to the stage, and feature to the product.
 Our teams are data-driven, support [dogfooding](https://about.gitlab.com/direction/dogfooding/), and [collaboration](/handbook/values/#collaboration) within GitLab and the wider community.
 
-## ModelOps: MLOps
+## Teams
+
+- [MLOps](./mlops/) - building on prior work from within the stage and [Incubation Engineering](/handbook/engineering/development/incubation/).
+- DataOps - currently not staffed, a future team to focus on supporting data workloads that power modern software applications built with GitLab.
 
 ### Team members
 
-The following people are permanent members of the Model Validation Group:
+The following people are permanent members of the ModelOps Stage:
 
-| Who                                               | Role                     |
-|---------------------------------------------------|--------------------------|
-| [Monmayuri Ray](/handbook/company/team/#mray2020)      | Engineering Manager      |
-| [Alper Akgun](/handbook/company/team/#alperakgun) | Staff Fullstack Engineer |
+| Who                                               | Role                 |
+|---------------------------------------------------|----------------------|
+| [Phil Calder](/handbook/company/team/#pcalder)    | Director of Engineer |
+| [Monmayuri Ray](/handbook/company/team/#mray2020) | Engineering Manager  |
 
 ## How to contact us
 
 - Tag a team member in a merge request or issue
-- Post a message in the #g_ai_model_validation Slack channel (internal only)
+- Post a message in the #s_modelops Slack channel (internal only)
 
 
