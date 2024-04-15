@@ -9,7 +9,7 @@ AppSec manages [a wide range of tasks with a high volume of work](https://gitlab
 
 ### What decisions does this data help us make?
 
-Collecting this data helps inform decisions involving the team's capacity and headcount needs. 
+Collecting this data helps inform decisions involving the team's capacity and headcount needs.
 
 ### Where are the charts that are based on this data?
 
