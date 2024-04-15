@@ -133,6 +133,51 @@ The Product Security Engineering team defaults to using the namespaces of the st
 - For AppSec related work, we use the [AppSec tooling namespace](https://gitlab.com/gitlab-com/gl-security/appsec/tooling) unless there is a compelling reason not to
 - For our team's repositories, we use the [Product Security Engineering tooling namespace](https://gitlab.com/gitlab-com/gl-security/product-security-engineering/tooling)
 
+## Milestone Planning
+
+The Product Security Engineering team plans its work on a cadence based around [GitLab Product Milestones](https://handbook.gitlab.com/handbook/product/milestones/). This section describes the planning process that we use to determine what work will be completed for each Milestone.
+
+### Milestone Planning Issue
+
+On the 1st of each month, a [Milestone Planning issue](https://gitlab.com/gitlab-com/gl-security/product-security-engineering/product-security-engineering-team/-/issues/?label_name[]=Milestone Planning) is created in the Product Security Engineering team repository. The purpose of this issue is to:
+
+* Identify potential work to perform
+* Identify refinement gaps and determine how to address them
+* Determine what work we're committing to for the upcoming Milestone
+* Set and communicate priority for the work we've decided to take on
+
+This issue is the single source of truth for all planning related discussions and decisions related to the upcoming Milestone.
+
+### Milestone Planning Process
+
+1. On the first of the month, an issue will be created using [the Milestone Planning issue template](https://gitlab.com/gitlab-com/gl-security/product-security-engineering/product-security-engineering-team/-/blob/main/.gitlab/issue_templates/milestone_planning.md?ref_type=heads).
+1. The Product Security Engineering manager will be responsible for completing the checklist items in the Planning Checklist section of the Milestone Planning issue
+1. Product Security Engineering team members will add any work being carried over from the previous Milestone into the Milestone Work table
+1. The Product Security Engineering team will add potential work items to the Parking Lot section, with a brief explanation of why it would be good to include in the Milestone
+    1. Team members can add discussion threads to discuss potential work to pull into the Milestone
+    1. Both individual team members and the Product Security Engineering manager can add items to this list
+1. The Product Security Engineering team will work together to add new items to the Milestone Work table
+    1. Each item being added must be refined before it can be formally committed to
+    1. Once we have refined and committed to the work, the relevant issue needs to be updated with the Milestone
+1. The Milestone Planning issue should be finalzed at least 3 days before the Milestone Start Date
+    1. The Product Security Manager will use threads in the Milestone Planning issue to work with each Product Security Engineering team member to finalize their workload
+    1. Once finalized, the Planning Issue should be closed
+
+### Milestone Planning responsibilities
+
+Product Security Engineering team members are responsible for:
+
+- Evaluating and communicating their capacity for the Milestone (based on PTO and other factors)
+- Adding work that is being carried over into the Milestone Work table
+- Adding potential work items to the Parking Lot and being involved in discussions around what work we should pull into the Milestone
+- Collaborating with the Product Security Engineering manager to finalize the set of work being committed to for the Milestone
+
+The Product Security Engineering manager is responsible for:
+
+- Creating, updating, and maintaining the Milestone Planning issue
+- Collaborating with Product Security Engineering team members to discuss potential work, identify refinement gaps, and assemble the Milestone Work table
+- Coordinating the finalization of the Milestone Planning issue
+
 ## References
 
 This new team is still in the formation process. For more context, team members can refer to these internal links:
