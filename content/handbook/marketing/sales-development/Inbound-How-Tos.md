@@ -9,7 +9,7 @@ description: The purpose of this page is to quickly walk SDRs through the main i
 
 This page is part of the Sales Development team's handbook [page](https://handbook.gitlab.com/handbook/marketing/sales-development/) and aims to break our inbound lead management process into small how-to sections.
 
-While the contents below are meant to get you up to speed quickly, we also have a wealth of resources for team members that are looking to perfect their craft [here](https://handbook.gitlab.com/handbook/marketing/sales-development-knowledge-base/).
+While the contents below are meant to get you up to speed quickly, we also have a wealth of resources for team members that are looking to perfect their craft [here](https://handbook.gitlab.com/handbook/marketing/sales-development/sales-development-knowledge-base/).
 
 
 ## Where to find your leads
@@ -21,7 +21,7 @@ To find and access your leads, please:
  1. Navigate to SFDC's homepage 
  2. Click on the `Leads` tab.  
  
- You will find the lead views below. These views are split per use-case for your convenience. The KPIs for managing these leads are thoroughly outlined in our [SLAs page](https://handbook.gitlab.com/handbook/marketing/roe-kpis-slas). 
+ You will find the lead views below. These views are split per use-case for your convenience. The KPIs for managing these leads are thoroughly outlined in our [SLAs page](https://handbook.gitlab.com/handbook/marketing/sales-development/roe-kpis-faq/). 
 
 ### SDR Lead Views
 
@@ -34,7 +34,7 @@ To find and access your leads, please:
 
 ### Lead and Database Management
 
-As part of your SDR responsibilities, you are expected to perform due diligence on each lead you receive. This includes checking the database for duplicate records, as well as referencing against our [RoE](https://handbook.gitlab.com/handbook/marketing/roe-kpis-slas).
+As part of your SDR responsibilities, you are expected to perform due diligence on each lead you receive. This includes checking the database for duplicate records, as well as referencing against our [RoE](https://handbook.gitlab.com/handbook/marketing/sales-development/roe-kpis-faq/).
 
 
 | Step | Action                                                                                                                                  |
