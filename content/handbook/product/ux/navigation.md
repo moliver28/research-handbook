@@ -46,7 +46,7 @@ Therefore, we **do not add new items** to:
 
 There are two main questions we need to answer for navigation changes:
 
-1. Does this navigation proposal facilitate one of our primary JTBDs? Which job?
+1. Does this navigation proposal facilitate one of our [primary JTBDs](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/jtbd.yml?ref_type=heads)? Which job?
 1. How does this change improve the workflow for users attempting to complete that job?
 
 There are many different types of [Problem Validation research](/handbook/product/ux/ux-research/problem-validation-and-methods/) that could be done to learn about areas of opportunity for our navigation. The specific type of research performed should be based on the research questions and goals of the study. The following research methods and frameworks are some examples of ways research can be used to justify a new addition to the existing GitLab navigation:
