@@ -296,7 +296,7 @@ op run --env-file=$HOME/.gitlab-pat.env -- glab api version
 Where the process is interactive or has dynamic output (progress bars, etc) you may need to disable masking to make the display work correctly. You can do this by adding `--no-masking`
 
 Manually adding `op run` every time for common tasks is cumbersome, so check out
-the [tools and tips]({{< ref "/tools-and-tips/onepassword-cli" >}}) section for more more user-friendly configurations.
+the [tools and tips]({{< ref "../tools-and-tips/onepassword-cli" >}}) section for more more user-friendly configurations.
 
 
 ### Several accounts and unlocking the app

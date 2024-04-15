@@ -5,7 +5,7 @@ description: "Secure secrets handling for local development"
 
 Secrets used on laptops need to be stored and used securely. The reasons for
 this and basic concepts are discussed
-on the [1Password page]({{< ref "/security/password-guidelines" >}}).
+on the [1Password page]({{< ref "../security/password-guidelines" >}}).
 It's recommended to read that first if you haven't done so yet.
 This page covers user-friendly ways to integrate these basic principles into your workflow.
 
