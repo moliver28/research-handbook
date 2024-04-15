@@ -10,10 +10,10 @@ The main problem to solve is knowing that other team members have had a chance t
 
 ### `needs-eyes` Label
 
-In order to point other AppSec team members we use the [`needs-eyes` label under `https://gitlab.com/gitlab-com/gl-security/appsec/`](https://gitlab.com/groups/gitlab-com/gl-security/appsec/-/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name%5B%5D=needs-eyes)
+In order to point other AppSec team members we use the [`needs-eyes` label under `https://gitlab.com/gitlab-com/gl-security/product-security/appsec/`](https://gitlab.com/groups/gitlab-com/gl-security/product-security/appsec/-/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name%5B%5D=needs-eyes)
 
-- Technical issues which need eyes should be create as meta-issues under [gitlab-com/gl-security/appsec/appsec-reviews](https://gitlab.com/gitlab-com/gl-security/appsec/appsec-reviews)
-- Non-technical should be created under [gitlab-com/gl-security/appsec/appsec-team](https://gitlab.com/gitlab-com/gl-security/appsec/appsec-team/)
+- Technical issues which need eyes should be create as meta-issues under [gitlab-com/gl-security/product-security/appsec/appsec-reviews](https://gitlab.com/gitlab-com/gl-security/product-security/appsec/appsec-reviews)
+- Non-technical should be created under [gitlab-com/gl-security/product-security/appsec/appsec-team](https://gitlab.com/gitlab-com/gl-security/product-security/appsec/appsec-team/)
 
 Within the labeled issues any asynchronous discussion can take place. If a team member has read the issue but has no further input it should be marked acknowledged by a ✔️ emoji reaction.
 

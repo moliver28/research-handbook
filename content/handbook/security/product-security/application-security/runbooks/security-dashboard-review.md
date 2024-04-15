@@ -20,7 +20,7 @@ The following is a list of security dashboards that need to be reviewed:
 - [GitLab Shell](https://gitlab.com/gitlab-org/gitlab-shell/-/security/vulnerability_report)
 - [k8s-workloads](https://gitlab.com/groups/gitlab-com/gl-infra/k8s-workloads/-/security/vulnerability_report)
 - [Version](https://gitlab.com/gitlab-services/version-gitlab-com/-/security/vulnerability_report)
-- [UBI images](https://gitlab.com/gitlab-com/gl-security/appsec/container-scanners/-/security/vulnerability_report/)
+- [UBI images](https://gitlab.com/gitlab-com/gl-security/product-security/appsec/container-scanners/-/security/vulnerability_report/)
 - [release-cli](https://gitlab.com/gitlab-org/release-cli/-/security/vulnerability_report/)
 - [vscode-extension](https://gitlab.com/gitlab-org/gitlab-vscode-extension/-/security/vulnerability_report)
 - [Customers](https://gitlab.com/gitlab-org/customers-gitlab-com/-/security/vulnerability_report)
