@@ -27,6 +27,7 @@ For any questions relating to benefits, please reach out to [Total Rewards](/han
 - [GitLab Korea LTD]({{< ref "korea-ltd-benefits" >}})
 - [GitLab France S.A.S.]({{< ref "france-sas" >}})
 - [GitLab Singapore Pte Ltd]({{< ref "singapore-pte-ltd" >}})
+- [GitLab Iberia s.r.l Spain](/handbook/entity/iberia-srl-spain.md)
 - [Remote Technology (Brazil,Denmark, Spain, Italy, Switzerland, South Africa, Mexico, Hungary, Sweden and Austria)]({{< ref "remote-com" >}})
 - [Papaya Global (UAE, Italy)]({{< ref "papaya-global" >}})
 
