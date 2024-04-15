@@ -1,13 +1,22 @@
 ---
 title: "GitLab Iberia s.r.l. Spain"
 description: "Information and Benefits for GitLab Spain"
+controlled_document: true
 ---
 
 This Handbook is for team members employed by GitLab Iberia s.r.l and includes (we hope!), all the information you might want or need. If there's anything we don't have here, that you think should be included, please feel free to make a suggestion.
 
-### Entity Information
+## Scope
 
-GitLab Iberia s.r.l has a registered address at Avenida Concha Espina 39B, 28016 Madrid.
+These standards apply to all GitLab team members hired through GitLab Iberia s.r.l., which has a registered address at Avenida Concha Espina 39B, 28016 Madrid.
+
+## Roles & Responsibilities:
+
+| Role  | Responsibility |
+|-----------|-----------|
+| GitLab Team Members | Responsible for understanding and following the requirements in this document |
+| People, Legal, Payroll, Total Rewards, Absence | Responsible for implementing and executing this document |
+| People, Legal, Payroll, Total Rewards, Absence (Code Owners) | Responsible for approving changes to this document |
 
 ### Employment Contracts
 
