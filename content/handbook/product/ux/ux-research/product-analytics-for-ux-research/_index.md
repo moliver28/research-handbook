@@ -13,12 +13,12 @@ To efficiently get to the usage data you need to conduct research, it’s import
 
 #### Tools
 
-_In order of most to least relevant to UX Researchers_
+_In order of most to least relevant to UX Researchers:_
 
-- *Tableau* - the business intelligence analytics tool we use as a ‘frontend’ to analyze and visualize data from Snowflake and Service Ping.
-- *Snowflake* - a cloud-based data warehousing platform primarily used for storing and analyzing structured data (i.e., the thing that stores the event data).
-- *Service Ping* - an event tracking tool GitLab built to perform event tracking on self-managed instances (i.e., the thing that tracks events on GitLab self managed).
-- *Snowplow* - an open-source event tracking platform used for collecting, processing, and enriching event-level data from various sources (i.e., the thing that tracks the events on GitLab.com).
+- **Tableau** - the business intelligence analytics tool we use as a ‘frontend’ to analyze and visualize data from Snowflake and Service Ping.
+- **Snowflake** - a cloud-based data warehousing platform primarily used for storing and analyzing structured data (i.e., the thing that stores the event data).
+- **Service Ping** - an event tracking tool GitLab built to perform event tracking on self-managed instances (i.e., the thing that tracks events on GitLab self managed).
+- **Snowplow** - an open-source event tracking platform used for collecting, processing, and enriching event-level data from various sources (i.e., the thing that tracks the events on GitLab.com).
 
 #### Useful Links
 
@@ -86,11 +86,11 @@ Is it possible to associate user level behavior in our GitLab.com data to our Sn
 1. Get access to:
   - The right tools (usually Tableau online is sufficient)
   - The data (do you need SAFE access)
-1. Determine the set of questions you’re trying to answer, including:
+2. Determine the set of questions you’re trying to answer, including:
   - Which user criteria / segment?
   - Which metrics?
   - Which components or features (if applicable)?
-1. Check with your PM (and/or your PDI counterpart) to determine: 
+3. Check with your PM (and/or your PDI counterpart) to determine: 
   - Is this tracked today?
     - This can be difficult to determine, try asking in #data or by working with your PM and PDI counterpart.
     - If not, consider reaching out to the Analytics Instrumentation team or ask in #data.
@@ -120,18 +120,18 @@ Is it possible to associate user level behavior in our GitLab.com data to our Sn
 
 Some terminology used in product analytics dashboards:
 
-*AMAU* - Action Monthly Active Users (Unique MAU which engaged with a specific feature)
-*CMAU* - Estimated Combined Monthly Active Users (Sum of SMAUs across all stages)
-*GMAU* - Group Monthly Active Users (Unique MAU using features within a specific group)
-*SMAU* - Stage Monthly Active Users (Unique MAU that used features within a stage)
-*Section MAU* - Section Monthly Active Users
-*UMAU* - Unique Monthly Active Users
-*DAU/WAU* - Daily/Weekly Active Users
+- *AMAU* - Action Monthly Active Users (Unique MAU which engaged with a specific feature)
+- *CMAU* - Estimated Combined Monthly Active Users (Sum of SMAUs across all stages)
+- *GMAU* - Group Monthly Active Users (Unique MAU using features within a specific group)
+- *SMAU* - Stage Monthly Active Users (Unique MAU that used features within a stage)
+- *Section MAU* - Section Monthly Active Users
+- *UMAU* - Unique Monthly Active Users
+- *DAU/WAU* - Daily/Weekly Active Users
 
-*PI* - Performance Indicator
-*PPI* - Primary Performance Indicator (some stages/groups may prefer a different metric than MAU)
-*SpU* - Stages per user
-*SpO* - Stages per organization
+- *PI* - Performance Indicator
+- *PPI* - Primary Performance Indicator (some stages/groups may prefer a different metric than MAU)
+- *SpU* - Stages per user
+- *SpO* - Stages per organization
 
 For more information (or if something’s not listed above):
 - [Data catalog metrics and terms index (internal)](https://internal.gitlab.com/handbook/enterprise-data/data-catalog/#metrics-and-terms-index)
