@@ -7,15 +7,15 @@ description: How to find, select, assign and begin work on support tickets
 ## Introduction
 
 The focus of this page is to be a guide for Support Engineers in
-[finding](#views-to-use-in-our-sgg-system),
-[selecting](#selecting-tickets), [assigning](#assigning-tickets) and
+[finding](#views-to-use),
+[selecting](#selecting-new-tickets), [assigning](#assigning-tickets) and
 [beginning work](#providing-a-first-response-to-a-ticket) on support tickets.
 For information about working on tickets successfully in the Support Global
 Groups environment, please read the
 [SE Responsibilities and Priorities](/handbook/support/support-global-groups/#se-responsibilities-and-priorities)
 topic on the main Support Global Groups page.
 
-## Views to use in our SGG system
+## Views to use
 
 The views within Zendesk are arranged as follows:
 
@@ -23,28 +23,24 @@ The views within Zendesk are arranged as follows:
 |------|---------|
 | [My Assigned Tickets](https://gitlab.zendesk.com/agent/filters/360062369834) | Use this view to manage all of your assigned tickets that are not yet in a `Closed` state. |
 | SGG: [group name] | You'll see an alphabetical list of group views here. Each view shows all the non-solved, non-pending tickets for its group. |
+| Assigned Support Engineer Tickets | A view for tickets from organizations who have an ASE (Assigned Support Engineer). |
+| L&R | Used by support engineers who work on Licensing & Renewals tickets |
+| All FRT and Emergencies | A view of all New tickets needing a first response. This can be used in times of [reduced capacity](#reduced-capacity) |
+| Global FRT's | Visible only to APAC, this functions similarly to the All FRT and Emergencies view and is frequently used by APAC to flex across SGGs to ensure adequate coverage |
 
-## Selecting tickets
 
-Support Engineers should make decisions about what to work on based on the SGG
+## Selecting new tickets
+
+Support Engineers working in SGGs should make decisions about what to work on based on the SGG
 description of [prioritizing work](/handbook/support/support-global-groups/#prioritizing-work).
 Through that process you may:
 
 1. Select a new, unassigned ticket in your group's view using the following approach:
 
-   a. Prioritize paid High priority tickets in your SGG FRT stage view first, even if it is further down the line from “next-to-breach”.
+   a. Prioritize the highest `Ticket Weight` tickets in your FRT stage view first, even if it is not necessarily the next-to-breach. The `Ticket Weight` field does not appear in the view, however the view is sorted by this field, ensuring that the highest priority ticket is at the top of the view.
 
-   NOTE: Free user tickets submitted as High priority are the exception. All free user tickets should be prioritized last.
+   b. If there are no FRT stage tickets that are breached or due to breach in the next 4 hours, work with your group to assign any *unassigned* NRTs, with emphasis on those where the customer has set a preferred region that aligns with your region.
 
-   b. If there aren’t any new High priority tickets, work with your group to assign any *unassigned* High NRT’s.
-
-   c. If all High NRT's are assigned, focus on your assigned High priority NRTs.
-
-   d. If all High priority tickets are addressed, help with Normal or Low priority tickets that are at risk of breaching.
-
-   e. If all Normal or Low priority tickets at risk of breach are addressed, help with already breached FRTs, starting from the longest breached ticket.
-
-   f. If the next Normal or Low priority ticket to breach is > 4 hours, focus on your NRTs, your group's NRTs, including unassigned tickets which have the `Handover Status` field set to `Needs Handover`, and finally free user tickets (tickets with no SLA).
 
    Proceed to
    [ticket assignment](#assigning-tickets)
@@ -70,7 +66,7 @@ We will expect Support Engineers to proactively claim ownership of any unassigne
 
 When you begin work on a new ticket, as your first step please assign the ticket
 to yourself using the `take it` button, then click on 'Submit as Open/Pending' to ensure it's assigned to you.
-In the SGG environment, that shouldn't prevent anybody from collaborating with you on the ticket. What it ***will*** do
+In the SGG environment, that doesn't prevent anybody from collaborating with you on the ticket. What it **will** do
 is signal that you're the DRI for providing a great customer experience, as the
 ticket progresses towards `Status: Solved`. This enables other team members
 seeking to assign themselves New ticket/s from the queue, to move on to reviewing
@@ -90,7 +86,7 @@ meet [other responsibilities](/handbook/support/support-global-groups/#se-respon
 While some people might maintain three to ten open, pending and on-hold tickets
 in their
 [My Assigned Tickets](https://gitlab.zendesk.com/agent/filters/360062369834)
-view, others might comfortably maintain closer to twenty tickets. Each person
+view, others might comfortably maintain twenty or more tickets. Each person
 will need to find the right ticket load for themself.
 
 ### Helping with a first response without taking assignment
@@ -103,13 +99,13 @@ then looking for another person in your group who can take the ticket, and even
 offering to pair with them.
 
 If you send out a first response to avoid a ticket from breaching but do not
-have the capacity to take assign it to yourself, consider adding an internal note clearly
+have the capacity to assign it to yourself, add an internal note clearly
 stating that you are not assigning the ticket. There's no need to justify why
 you aren't taking assignment. This clarity will help ensure that someone else
 will assume responsibility for moving the ticket forward.  
 In order to minimize the mental effort necessary for the next engineer to catch
-up with the ticket, consider adding summary of the problem and as much helpful
-information and relevant links as you're able to muster to this internal note
+up with the ticket, add a summary of the problem and as much helpful
+information and relevant links you can include in this internal note
 in case your first response doesn't speak for itself.
 Additionally consider communicating this in your SGG Slack channel, stating that the ticket needs an assignee
 to get more attention and speed up the process of finding an assignee.
@@ -134,7 +130,7 @@ how to handle them.
 
 #### Pathway for handling high priority tickets from a different region
 
-If a new ticket is marked as `High Priority` or `Normal Priority` and there's a risk it might breach the FRT SLA time before the preferred region's support is online, take the assignment, send a substantive response to the requester, and then proceed with the steps in [Cross Region handover of tickets and customer calls](/handbook/support/workflows/working-on-tickets/#cross-region-handover-of-tickets-and-customer-calls).
+If a new ticket is marked as having a Preferred Region different to your own, marked as `High Priority` or `Normal Priority` and there's a risk it might breach the FRT SLA time before the preferred region's support is online, take the assignment, send a substantive response to the requester, and then proceed with the steps in [Cross Region handover of tickets and customer calls](/handbook/support/workflows/working-on-tickets/#cross-region-handover-of-tickets-and-customer-calls).
 
 #### Pathway for handling low priority tickets from a different region
 
@@ -218,7 +214,7 @@ Cross Region Handover requests are async by nature, which can make it difficult 
 
 ### Preparing a ticket for Handover
 
-To request a handover of any ticket, even a low-priority one, to a different region, use and complete the [ZenDesk macro named `Handover Ticket Summary`](https://gitlab.com/gitlab-com/support/zendesk-global/macros/-/blob/master/active/General/Handover%20Ticket%20Summary.md?ref_type=heads).
+To request a handover of any ticket to a different region, use and complete the [Zendesk macro named `Handover Ticket Summary`](https://gitlab.com/gitlab-com/support/zendesk-global/macros/-/blob/master/active/General/Handover%20Ticket%20Summary.md?ref_type=heads).
 If you don't use the macro, the ticket will be considered to have been improperly prepared for handover and will be reassigned to the requestor.
 
 Once you save the ticket in the `Open` state, the macro will also:

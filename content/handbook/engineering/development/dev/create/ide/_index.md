@@ -55,7 +55,7 @@ Depending on the context here are the most appropriate ways to reach out to the 
 
 **❗️Important**: For every meeting, the [IDE group's meeting document][gdoc] should be used, and filled with the meeting notes, as well as references to any other sync meeting agendas/notes/recordings which have recently occurred. This will make it easier for people to find any meeting notes.
 
-These are regular meetings in which most team members will participate. Below is our schedule:
+These are regular meetings in which most team members will participate. Also, please note that sync meeting schedules are flexible and can be moved to accomodate required participants.  Below is our schedule:
 
 #### Quarterly Strategy and OKR Planning Meeting
 
@@ -84,8 +84,8 @@ These are regular meetings in which most team members will participate. Below is
 
 #### Iteration Planning Meeting (IPM)
 
-- **When:** Every Wednesday, alternating between APAC and EMEA time zones.
-- **What:** In this weekly meeting, we will review the team's backlog and the current iteration status. We'll estimate and prioritize work for the next one or two iterations. The meeting will alternate between APAC and EMEA time zones to accommodate different regions. For more information, see ["Iteration Planning Meeting"](#-iteration-planning-meeting).
+- **When:** Biweekly on Wednesday, alternating between APAC and EMEA time zones.
+- **What:** In this meeting, we will review the team's backlog and the current iteration status. We'll estimate and prioritize work for the next one or two iterations. The meeting will alternate between APAC and EMEA time zones to accommodate different regions. For more information, see ["Iteration Planning Meeting"](#-iteration-planning-meeting).
 
 ## 📦 Group Processes
 <span id="-team-processes" data-message="alias anchor for old links"></span>

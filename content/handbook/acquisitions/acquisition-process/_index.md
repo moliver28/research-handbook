@@ -207,7 +207,8 @@ The integration process is outlined in our [acquisition integration page](/handb
 
 The primary acquisition team is designed as a compact unit, and will consist of the following GitLab functional team members:
 
-1. Corporate Development Champion - acquisition lead
+1. Corporate Development Champion - VP of Corporate Development
+    1. Corp. Dev. Manager
 1. Product Champion - [Product Section Leader](/handbook/product/product-leadership/#general-product-organizational-structure) (reporting to the Chief Product Officer)
    1. Product Manager
 1. Engineering Champion - Dir. Engineering
