@@ -5,7 +5,7 @@ description: "This page provides useful information and best practices for team 
 
 This page aims to serve as a resource for team members interested in leveraging data we collect about GitLab usage in order to perform or inform user experience research. It provides background information on what GitLab’s internal structures are, what data is available and where, and some best practices and tips to help team members get started. 
 
-This page is meant as a shortcut for people doing UX Research, and only scratches the surface of GitLab’s capabilities with data. For more in-depth information, see the [Data team’s handbook](https://handbook.gitlab.com/handbook/business-technology/data-team/).
+While the information here is meant as a shortcut for people doing UX Research, it only scratches the surface of GitLab’s capabilities with data. For more in-depth information, see the [Data team’s handbook](https://handbook.gitlab.com/handbook/business-technology/data-team/).
 
 ## Understanding the Product Analytics Landscape
 
@@ -62,7 +62,7 @@ As mentioned above, the analytics instrumentation team has efforts underway to g
 
 Is it possible to associate user level behavior in our GitLab.com data to our Snowplow events (i.e., can we track a single user’s behavior)? ([Source](https://handbook.gitlab.com/handbook/product/product-analysis/data-model-cheat-sheet/#faqs-1))
 
-    No. Our Snowplow user identifiers are anonymized, while our GitLab.com user identifiers are not. However, it is possible to join Snowplow and GitLab.com data at the namespace (group/project) level (i.e., track more broadly).
+_No. Our Snowplow user identifiers are anonymized, while our GitLab.com user identifiers are not. However, it is possible to join Snowplow and GitLab.com data at the namespace (group/project) level (i.e., track more broadly)._
 
 #### Common metrics and segments that GitLab tracks
 
