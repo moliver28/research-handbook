@@ -57,6 +57,7 @@ We envision a Field organization that has easy and intuitive access to the infor
 | Misty Martin-Zimmerman | Sr Program Manager, AMER Commercial Enablement | IC |
 | Amelia Zaglul | Sr. Program Manager, Executive Sponsorship Program & Field Events | IC |
 | Omnia Radwan | Associate Program Manager, Customer Success / Solutions Architect Enablement | IC |
+| Tess Dutton | Program Manager, Field Enablement | IC |
 
 ### How We Measure Success
 
