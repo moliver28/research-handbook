@@ -141,10 +141,10 @@ The Product Security Engineering team plans its work on a cadence based around [
 
 On the 1st of each month, a [Milestone Planning issue](https://gitlab.com/gitlab-com/gl-security/product-security-engineering/product-security-engineering-team/-/issues/?label_name[]=Milestone Planning) is created in the Product Security Engineering team repository. The purpose of this issue is to:
 
-* Identify potential work to perform
-* Identify refinement gaps and determine how to address them
-* Determine what work we're committing to for the upcoming Milestone
-* Set and communicate priority for the work we've decided to take on
+- Identify potential work to perform
+- Identify refinement gaps and determine how to address them
+- Determine what work we're committing to for the upcoming Milestone
+- Set and communicate priority for the work we've decided to take on
 
 This issue is the single source of truth for all planning related discussions and decisions related to the upcoming Milestone.
 
