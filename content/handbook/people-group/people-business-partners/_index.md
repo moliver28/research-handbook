@@ -37,19 +37,19 @@ Please reach out to your aligned People Business Partner (PBP) to engage in the 
 
 Remaining Divisions : Departments:  
 
-CEO : CEO
-Sales : Business Development and Strategic Partnerships
-Sales : Consulting Delivery
-Sales : eCommerce
-Sales : Education Delivery
-Sales : Education Services
-Sales : Enablement
-Sales : ENTR
-Sales : MM
-Sales : Practive Management
-Sales : PubSec
-Sales : SA
-Sales : SMB
+- CEO : CEO
+- Sales : Business Development and Strategic Partnerships
+- Sales : Consulting Delivery
+- Sales : eCommerce
+- Sales : Education Delivery
+- Sales : Education Services
+- Sales : Enablement
+- Sales : ENTR
+- Sales : MM
+- Sales : Practive Management
+- Sales : PubSec
+- Sales : SA
+- Sales : SMB
 
 
 
