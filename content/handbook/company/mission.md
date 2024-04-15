@@ -26,7 +26,7 @@ To ensure that **everyone can contribute with GitLab** we allow anyone to create
 
 ### Everyone can contribute and co-create with GitLab, the application{#contribute-to-gitlab-application}
 
-We actively welcome contributors **enable everyone to contribute and co-create with GitLab, the application**. When **everyone can contribute and co-create**, users become contributors and we greatly
+We actively welcome contributors to **enable everyone to contribute and co-create with GitLab, the application**. When **everyone can contribute and co-create**, users become contributors and we greatly
 increase the rate of innovation to benefit customers and users. There is also an open dialogue between GitLab and our customers, partners, and the community so that we can also better identify what they need. That way we can not only build a solution for them, but bring that solution to the world.
 
 We think that it is logical that our collaboration tools are a collaborative
