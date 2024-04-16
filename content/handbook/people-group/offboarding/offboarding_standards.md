@@ -34,11 +34,11 @@ Should the effective date fall on a day which People Connect is unable to suppor
 
 ### Offboarding Assignments
 
-Per the People Connect Rotation, the offboarding will be assigned directly in the [offboarding tracker](https://docs.google.com/spreadsheets/d/1Z45eOZ2rCRIKgGae3eOKQ8lhIbAPikSs5gLz3V8Kh9U/edit?ts=5e7a2c42#gid=989170380).
+Per the People Connect Rotation, the offboarding will be assigned directly in the Offboarding Issue. 
 
 ### Creating the Offboarding Issue
 
-Offboarding issues are created [automatically](/handbook/people-group/engineering/offboarding#scheduled-offboarding-issue-creation) using the data that is populated by the offboarding form. **It is essential that the date and time inserted in the tracker is accurate as this will be the time at which the employment bot will open the offboarding issue**
+Offboarding issues are created [automatically](/handbook/people-group/engineering/offboarding#scheduled-offboarding-issue-creation) using the data that is populated by Workday. 
 
 The assigned People Connect team member will be automatically added to the list of assignees once the offboarding issue is created.
 
