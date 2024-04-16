@@ -339,7 +339,7 @@ to verify that the behavior is actually a bug.
 If it's not clear that the reported behavior is a bug, partner with the product
 manager.
 
-##### Deciding to not to fix a bug
+##### Deciding not to fix a bug
 
 In each case we will need to partner with the product manager and compare the
 effort required to the value delivered. This is then also taken into
