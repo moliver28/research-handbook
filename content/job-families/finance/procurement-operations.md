@@ -99,22 +99,22 @@ The Travel and Expense Manager is a [grade 7](/handbook/total-rewards/compensati
 - Analyze data to identify opportunities for cost savings and process improvements
 - Provide timely reporting on KPI’s, spend, savings, and other travel and expense metrics to internal stakeholders including executive leadership
 - Deliver reporting and analysis to support executives and finance teams in managing travel and expense budgets and achieving goals
-- Manage communications and change management related to program enhancements, policy changes, non-compliance, etc. 
+- Manage communications and change management related to program enhancements, policy changes, non-compliance, etc.
 - Work closely with Expense auditing team to ensure T&E auditing and other program support is delivered in line with agreed policies, processes and SLAs
 - Negotiate the most cost effective global/regional/local arrangements with airlines, travel agencies, hotels,  car rental companies and corporate cards to ensure the company receives the best possible quality of products and services at the lowest possible cost
 - Maintain relationships with suppliers to ensure best-in-class service and competitive pricing
 
-#### Procurement Category Manager (Intermediate) Requirements
+#### Travel and Expense Manager (Intermediate) Requirements
 
 - 7+ years experience as a Global Travel Manager, or relevant Travel industry experience
-- Strong knowledge of industry leading travel and expense systems 
+- Strong knowledge of industry leading travel and expense systems
 - Proficiency in corporate card program trends and best practices
 - Experience with the design and implementation of corporate travel and expense programs
-- Proven track record of achieving travel category savings via sourcing, demand management and/or policy compliance  
+- Proven track record of achieving travel category savings via sourcing, demand management and/or policy compliance
 - Excellent negotiation skills with the ability to manage and develop supplier relationships.
 - Experience working with and servicing a global team
-- Top level customer service and communications skills 
-- Strong leadership, project management, and organization skills 
+- Top level customer service and communications skills
+- Strong leadership, project management, and organization skills
 - Demonstrated ability to influence and lead others while also working independently in a fast-paced work environment
 - Excellent judgment with ability to maintain high degree of confidentiality as it relates to sensitive financial transactions
 - Bachelor’s degree preferred
