@@ -4,7 +4,7 @@ title: Individual Use Software
 
 ## Individual Use Software Overview
 
-Individual use software is characterized as software essential for executing job responsibilities and that is distinct from the existing tools and platforms already owned or accessible to your team. 
+Individual use software is characterized as software essential for executing job responsibilities and that is distinct from the existing tools and platforms already owned or accessible to your team.
 
 An individual's annual expenditure on Individual Use software should not surpass $5,000. Should the cost of your software exceed this threshold, or if multiple people on your team need access, please follow the [Procurement process](https://handbook.gitlab.com/handbook/finance/procurement/#how-to-start-the-procurement-process) for submitting a new purchase request. Note that **all software purchases charged to either personal or corporate credit cards will be DENIED for reimbursement.** You must follow the process below to cover your software purchases, which will be paid via Navan virtual card once all necessary approvals are obtained and documented.
 
@@ -22,9 +22,9 @@ Please consider whether one of our existing vendors may be able to service your 
 
 ## What Happens When I Request Individual Use Software?
 
-- Upon receipt, Procurement will open a GitLab Issue based on your responses and will route for the necessary approvals, including your manager, Security, and Privacy. Once the Issue is opened, please attach any relevant contracts, backups, or documents. 
+- Upon receipt, Procurement will open a GitLab Issue based on your responses and will route for the necessary approvals, including your manager, Security, and Privacy. Once the Issue is opened, please attach any relevant contracts, backups, or documents.
 - Reviews may take several weeks, depending on the level of risk involved with your software of choice, the depth of review needed, and vendor responsiveness.
-- Once all necessary parties have approved your software request, Procurement will issue you a virtual one-time use credit card via email to purchase the approved software license at the approved price. 
+- Once all necessary parties have approved your software request, Procurement will issue you a virtual one-time use credit card via email to purchase the approved software license at the approved price.
 - After you have purchased your software with the virtual credit card, please forward a copy of your receipt to ap@gitlab.com as confirmation if there are no other contracts or backup documents.
 - If you have any questions, please reach out to the Procurement team through the #procurement Slack channel.
 
