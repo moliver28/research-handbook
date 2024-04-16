@@ -131,19 +131,19 @@ If a Security Notice was documented at the time of the previous assessment, inqu
 
 #### Material Changes to Services Offered or Vendor's Security Environments
 
-In-scope requisitions related to vendors within the [**Approval Window**](#tprm-approval-windows) of their previous assessment will be reviewed by the TPRM Engineer to determine whether a material change has occurred to the services provided. Material changes introduce new potential risks and may require performance of a new TPRM assessment, examples of which include:
+In-scope requisitions related to vendors within the [**Approval Window**](#tprm-approval-windows) of their previous assessment will be reviewed by the TPRM Engineer to determine whether a material change has occurred to the service provided. Material changes introduce new potential risks and may require a new TPRM assessment, examples include:
 
-- **Change in data classification**, such as going from Yellow to Orange data classification.
-- **Addition of a new system not in the scope of the previous review.** For example, vendor XYZ was reviewed for procurement of their **Billing** system, but a new request has come in for the purchase of their **Revenue** system.
-- **Change of location where data is stored or transmitted**, such as migrating data from a GitLab-hosted environment to a vendor's SaaS solution.
-- **Addition of new contractors that are not subject to the vendor's security controls.**
-- **Introduction of new AI functionality within a system resulting in the addition of a new subprocessor.**
+1. **Change in data classification**, such as going from Yellow to Orange data classification.
+1. **Addition of a new system not in the scope of the previous review.** For example, vendor XYZ was reviewed for procurement of their **Billing** system, but a new request has come in for the purchase of their **Revenue** system.
+1. **Change of location where data is stored or transmitted**, such as migrating data from a GitLab-hosted environment to a vendor's SaaS solution.
+1. **Addition of new contractors that are not subject to the vendor's security controls**.
+1. **Introduction of new AI functionality within a system resulting in the addition of a new sub-processor**.
 
-Prior to launching a new review, diligence should be performed to determine whether the previous review provides assurance over the new system. This can be completed by reviewing the previously-provided documentation for coverage or by performing inquiry with the vendor directly. If sufficient assurance does not exist, or the change is believed to introduce additional risk to GitLab, the Security Risk team may require the completion of a new TPRM review prior to approving the requisition.
+Prior to launching a new review, determine whether the previous review provides assurance over the new service/system. This can be completed by reviewing the previously-provided documentation for coverage or by asking the vendor directly. If sufficient assurance does not exist, or the change is believed to introduce additional risk to GitLab, the Security Risk team may need to complete a new TPRM review prior to approving the requisition.
 
-Vendors occasionally implement changes between contracting cycles that could introduce previously unidentified risks, such as the introduction of new AI features and/or sub-service providers. Stakeholders are encouraged to notify the Security Risk team upon becoming aware of these changes, and if necessary may be directed not to allow, utilize, or enable such functionality until a new assessment has been completed. Upon notification of such changes, the Security Risk team will follow the above procedures to determine whether a new review is necessary.
+Vendors occasionally implement changes between contracting cycles that could introduce previously unidentified risks, such as the introduction of new AI features and/or [subservice providers](https://www.schellman.com/blog/soc-examinations/subservice-organizations-vs-vendors-within-soc). Team members should notify the Security Risk team when these changes occur, and if necessary may be directed not to allow, utilize, or enable such functionality until a new assessment has been completed. Upon notification of such changes, the Security Risk team will follow the above procedures to determine whether a new review is necessary.
 
-**Note:** Circumstances may exist outside of those defined above that could necessitate further review. TPRM Engineers are encouraged to use professional discretion in identifying these circumstances and perform additional review or validation as needed.
+**Note:** Circumstances may exist outside of those defined above that could necessitate further review. TPRM Engineers should use professional discretion in identifying these circumstances and perform additional review or validation as needed.
 
 ### Acceptable Third-Party Attestations
 
