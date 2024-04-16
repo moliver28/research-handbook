@@ -170,7 +170,9 @@ If any team member, at any time, could simply ask *"Hey, this looks suspicious. 
 
 We have private Slack channels in place where designated team members can ask the Red Team if a certain activity belongs to them. This helps us to provide realistic opportunities to practice detection and response without escalating too far. For example, we would not want an emulated attack to affect production operations or escalate to third parties.
 
-You can read more about this process in the ["deconfliction" section]({{< ref "red-team-roe#deconfliction-process" >}}) of our rules of engagement.
+Managers at GitLab can also [submit a "Red Team Disclosure Request"](https://gitlab.com/gitlab-com/gl-security/threatmanagement/redteam/redteam-internal/red-team-operations/-/issues/new?issuable_template=request-for-disclosure) at any time. If the request contains evidence related to an ongoing Red Team operation, we will discuss next steps in the Slack channels mentioned above.
+
+You can read more about this process in the ["Requests for Disclosure" section]({{< ref "red-team-roe#requests-for-disclosure" >}}) of our rules of engagement.
 
 ### How the Red Team will respond to this question
 
