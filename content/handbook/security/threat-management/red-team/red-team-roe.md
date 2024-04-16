@@ -142,7 +142,8 @@ During a [stealth operation](#stealth-operations), the Red Team may:
   - Creating fake identities and using them to engage with team members over GitLab-managed channels like email, Slack, Zoom, GitLab.com issues and merge requests, etc.
   - Creating web sites that appear to be legitimate copies of items in our tech stack, sending the URLs to team members over those GitLab-managed channels, collecting credentials entered into those sites and attempting to re-use them in the legitimate application.
   - Sending calendar invites and meeting requests over those GitLab-managed channels, and speaking over voice or video call with team members who join those meetings or call the provided numbers.
-- Execute supply-chain related attack techniques like dependency confusion, pipeline injections, and malicious code commits.
+- Other forms of social engineering that impersonate GitLab team members, vendors, customers, partners, etc. and are directed towards GitLab owned or managed services such as email, authentication providers, job postings, etc. where the social engineering attempts do not directly target personal devices or services.
+Execute supply-chain related attack techniques like dependency confusion, pipeline injections, and malicious code commits.
 
 If you are a team member at GitLab and suspect you have uncovered a stealth red team operation in the course of your daily work, please refer to our deconfliction process mentioned in the "[Is This Red Team?]({{< ref "_index.md/#is-this-the-red-team" >}})" section.
 
