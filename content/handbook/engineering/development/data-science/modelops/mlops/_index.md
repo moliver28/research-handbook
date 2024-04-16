@@ -26,6 +26,6 @@ The following people are permanent members of the Model Validation Group:
 ## How to contact us
 
 - Tag a team member in a merge request or issue
-- Post a message in the #g_mlops Slack channel (internal only)
+- Post a message in the [#g_mlops](https://gitlab.enterprise.slack.com/archives/C01ESHPNHS9) Slack channel (internal only)
 
 
