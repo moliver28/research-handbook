@@ -12,7 +12,9 @@ These go directly to us. Currently, we have 6 problem types:
 - [First time setup](#first-time-setup)
 - [Manage my organization's contacts](#manage-my-organizations-contacts)
 - [Shared organization requests](#shared-organization-requests)
+- [Contact management project setup/questions](#setup-a-contact-management-project)
 - [Support portal issues](#support-portal-issues)
+- [Support portal questions](#support-portal-questions)
 - [Other](#other)
 
 ## Always check if the user is authenticated
@@ -143,6 +145,40 @@ If they have not, point them to trying all that out first.
 
 If they have, you will need to analyze the details of what is sent to determine
 next steps.
+
+## Support Portal Questions
+
+This is specifically related to questions related with information related to
+Support Portal related inquiries like how to change Name or Profile Picture etc.
+This information is publicly available on https://about.gitlab.com/support/portal/
+
+#### Adding Secondary Email
+
+Sometimes a customer will raise issue stating they want to add a secondary
+email to their support portal account. Secondary emails are used to tie
+submitted tickets to a specific account, although only the primary email address
+will be used as the submitter (and thus receive notifications).
+
+To add a secondary email to a support portal account, we need following
+information:
+
+- For GitLab.com Users:
+  - The GitLab.com account associated to the requester's email address should
+    have listed the secondary email as verified. You can check this via the User
+    Lookup app. To add secondary email to GitLab.com account, they can follow this
+    [documentation](https://docs.gitlab.com/ee/user/profile/#add-emails-to-your-user-profile)
+- For Self Managed and GitLab Dedicated Users:
+  - The ticket needs to be submitted from the email address they wish to have
+    added to their existing profile
+  - The customer will need to provide proof of support entitlement again via
+    this secondary email address
+  - The customer will need to CC the primary email address of the support portal
+    account and have that email reply on the ticket confirming the request to
+    add the secondary email address to their support portal account.
+- For Partners:
+  - Most Partners do not have paid subscription. If they have a paid
+    subscription, follow the above as per their subscription selection i.e.
+    GitLab.com or Self Managed.
 
 ## Other
 

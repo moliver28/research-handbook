@@ -137,6 +137,12 @@ If an account was deleted by an admin, try searching with these filters:
 
 Observe the results. There should be only one result if the account that was filtered for was deleted within the specified timeframe.
 
+If you suspect an account was deleted by the cron job that deletes [unconfirmed accounts](https://docs.gitlab.com/ee/user/gitlab_com/#email-confirmation), try searching with these filters:
+
+1. Change to the `pubsub-sidekiq-inf-gprd*` index.
+1. Add a positive filter on `json.meta.user` for the username of the user. (Alternatively, you can use `json.args.keyword` and use the User ID of the user if you have that).
+1. Add a positive filter on `json.class` for `DeleteUserWorker`.
+
 #### Disable Two Factor Authentication
 
 - [Quick link to search](https://log.gprd.gitlab.net/goto/5598ea40-a651-11ed-9f43-e3784d7fe3ca)
@@ -203,7 +209,7 @@ In cases where the SCIM provisioned account is deleted:
 1. Go to the [Correlation Dashboard](#correlation-dashboard) and search for the relevant `correlation_id`.
 1. In the results, look for records in the `Correlation Dashboard - Web` section, and an entry with `elasticsearch` as `json.subcomponent`. In that entry, find the `user_id` in `json.tracked_items_encoded` in the format of `[[numbers,"User <user_id> user_<user_id>"]]`.
 
-If the user was deleted due to an unconfirmed email, you can use the deleted `user_id` as a value for `json.args.keyword` when searching `pubsub-sidekiq-inf-gprd*`. The results should show an entry with `json.class` `DeleteUserWorker`.
+To investigate if the user was deleted due to an unconfirmed email, follow the [Deleted User](#deleted-user) procedure.
 
 #### Searching for Deleted Container Registry tags
 
