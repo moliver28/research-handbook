@@ -32,7 +32,7 @@ Please reach out to your aligned People Business Partner (PBP) to engage in the 
 | Giuliana Lucchesi | Product | Product Management, UX  |
 | Giuliana Lucchesi | Security | Security   |
 | Jess Durbin       | Engineering | Core Development, Expansion  |
-| Kristina Bullock  | Engineering | CTO, Customer Support, Infrastructure |
+| Kristina Bullock  | Engineering | CTO, Customer Support, Core Infrastructure |
 | Lauren Tepper     | Sales | Commercial Sales, Field Operations, Field Ops - Child   |
 
 Remaining Divisions : Departments:  
