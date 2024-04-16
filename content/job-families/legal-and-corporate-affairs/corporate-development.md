@@ -52,15 +52,16 @@ The Corporate Development Manager is a [grade 8](/handbook/total-rewards/compens
 
 Prospecting:
 
-- Develop relationships with tech incubators, investors, and other sources of acquisition targets
+- Establish relationships with tech incubators, early stage investors, and other sources of acquisition targets
 - Validate targets’ fit for GitLab’s product roadmap, terms and other criteria quickly and with little information
 - Develop a strategy and execution plan for the product areas you will be leading, prioritizing prospects accordingly
 
 Deal execution:
 
 - Support acquisitions engagements start to finish, from qualifying targets, through closing and integration
-- Support the Sr. Director of Corporate Development in deal terms negotiation
+- Support the VP of Corporate Development in deal terms negotiation and key areas of the deal
 - Lead the cross-functional due-diligence process
+- Prepare business cases and other deal materials supporting the acquisitions
 - Work to establish valuations and ROI potential for deals by building financial models and conducting valuation analysis
 
 Integration:
@@ -95,17 +96,18 @@ The Senior Corporate Development Manager is a [grade 9](/handbook/total-rewards/
 
 Prospecting:
 
-- Develop relationships with tech incubators, investors, and other sources of acquisition targets
+- Establish relationships with tech incubators, early stage investors, and other sources of acquisition targets
 - Validate targets’ fit for GitLab’s product roadmap, terms and other criteria quickly and with little information
 - Establish strategy and execution plan for the product areas you will be leading, prioritizing prospects accordingly
 - Own the pipeline of opportunities - generate prospects and lead sourcing efforts
 
 Deal execution:
 
-- Lead acquisitions engagements start to finish, from qualifying targets, through closing and integration
+- Lead acquisition process start to finish, from qualifying targets, through closing and integration
 - Lead the cross-functional due-diligence process
-- Support the Sr. Director of Corporate Development in deal terms negotiation
-- Act as a subject matter expert on valuation and deal structuring
+- Prepare business cases and other deal materials supporting the acquisitions
+- Support the VP of Corporate Development in deal terms negotiation and key areas of the deal
+- Act as a subject matter expert on valuations and revenue modeling
 
 Integration:
 
@@ -261,7 +263,7 @@ The VP of Corporate Development is a [grade 12](/handbook/total-rewards/compensa
 Candidates for this position can expect the hiring process to follow the order below. Please keep in mind that candidates can be declined from the position at any stage of the process. To learn more about someone who may be conducting the interview, find their job title on our team page.
 
 - Selected candidates will be invited to schedule a 30 minute screening call with one of our Global Recruiters.
-- Candidates will then be invited to schedule an interview with the Hiring Manager (Sr. Director of Corporate Development).
+- Candidates will then be invited to schedule an interview with the Hiring Manager (VP of Corporate Development).
 - Candidates will then be invited to schedule an interview with the Director of Product (Section leader).
 - Next, candidates will be invited to schedule an interview with the Senior Director of Legal, Corporate.
 - Next, candidates may be invited to schedule an interview with the Chief Legal Officer (as applicable).
