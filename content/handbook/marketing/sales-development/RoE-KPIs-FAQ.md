@@ -180,6 +180,9 @@ Announcement Channels
 | GitLab ultimate/premium, agile planning | everyone | All motions | All segments | 1 (agile planning is excluded) | See above for license ASP |
 | Professional services | everyone | All motions | All segments | 0 | NA |
 
+### Company Address Based Routing Information 
+
+In **[this video](https://www.youtube.com/watch?v=QT-oOceFU6k&ab_channel=GitLabUnfiltered)**, a member of the Marketing Ops team goes over the Company address fields and how they are used for Accounting Routing and Opp assignment. 
 
 ### Sales Dev Career Path
 
