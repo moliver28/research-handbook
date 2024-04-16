@@ -139,7 +139,7 @@ In-scope requisitions related to vendors within the [**Approval Window**](#tprm-
 - **Addition of new contractors that are not subject to the vendor's security controls.**
 - **Introduction of new AI functionality within a system resulting in the addition of a new subprocessor.**
 
-Prior to launching a new review, diligence should be performed to determine whether the previous review provides assurance over the new system. This can be completed by reviewing the previously-provided documentation for coverage or by performing inquiry with the vendor directly. If sufficient assurance does not exist, or the change is believed to introduce additional risk to GitLab, the Security Risk team may require the completion of a new TPRM review prior to approving the requisition. 
+Prior to launching a new review, diligence should be performed to determine whether the previous review provides assurance over the new system. This can be completed by reviewing the previously-provided documentation for coverage or by performing inquiry with the vendor directly. If sufficient assurance does not exist, or the change is believed to introduce additional risk to GitLab, the Security Risk team may require the completion of a new TPRM review prior to approving the requisition.
 
 Vendors occasionally implement changes between contracting cycles that could introduce previously unidentified risks, such as the introduction of new AI features and/or sub-service providers. Stakeholders are encouraged to notify the Security Risk team upon becoming aware of these changes, and if necessary may be directed not to allow, utilize, or enable such functionality until a new assessment has been completed. Upon notification of such changes, the Security Risk team will follow the above procedures to determine whether a new review is necessary.
 
@@ -390,10 +390,6 @@ In the performance of these reviews, deficiencies may be identified that could p
 *While Okta SSO integration is GitLab's preferred method of authentication, IT Engineering can review and approve alternative SSO methods (such as Google Oauth) on a case by case basis.
 
 Deficiencies identified are reviewed in the context of the vendor's greater Security environment and the data transmitted. If a material risk to GitLab data is identified, this will be reported to the Business Owner via the [TPRM Security Notice Process](#tprm-security-notice-process).
-
-### Introduction of Third Party AI Features
-
-Something something *don't introduce Orange/Red data, because [rationale]*. Something something *Security will assess vendors upon notification of these features via additional inquiry or new assmt*
 
 ### TPRM Security Notice Process
 
