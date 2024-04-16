@@ -23,14 +23,14 @@ Please reach out to your aligned People Business Partner (PBP) to engage in the 
 
 | Contact | Division | Department |
 |-------------------|--|----------|
-| Anjali Kaufmann   | People Goup | DIB, Engagement, PBPs, People Operations, Talent Acquisition, Total Rewards  |
-| Anjali Kaufmann   | Legal | Corporate Affairs, Legal  |
-| Anjali Kaufmann   | Finance | Accounting, Corporate IT, Data, Enterprise Applications, Finance, Internal Audit, Procurement, Tax  |
+| Anjali Kaufmann   | People Goup | CPO, DIB, Engagement, PBPs, People Operations, Talent Acquisition, Total Rewards  |
+| Anjali Kaufmann   | Legal | CLO, Corporate Affairs, Legal  |
+| Anjali Kaufmann   | Finance | CFO, Accounting, Corporate IT, Data, Enterprise Applications, Finance, Internal Audit, Procurement, Tax  |
 | Carlie Russell    | Sales | Alliances and Channel, CSM, Customer Success  |
 | Carolyn Bednarz   | Sales | CRO, Enterprise Sales |
 | Denise Parsonage  | Marketing | Account-Based Marketing, Brand Campaigns, Brand Design, Campaigns, CMO Executive, Communications, Community Relations, Content Marketing, Corporate Events, Digital Experience, Digital Marketing, Field Marketing, Growth, Marketing Ops, Marketing Strategy and Analytics, Partner Marketing, Product Marketing, Sales Development, Search Marketing |
-| Giuliana Lucchesi | Product | Product Management, UX  |
-| Giuliana Lucchesi | Security | Security   |
+| Giuliana Lucchesi | Product | CPO, Product Management, UX  |
+| Giuliana Lucchesi | Security | CISO, Security   |
 | Jess Durbin       | Engineering | Core Development, Expansion  |
 | Kristina Bullock  | Engineering | CTO, Customer Support, Core Infrastructure |
 | Lauren Tepper     | Sales | Commercial Sales, Field Operations, Field Ops - Child   |
