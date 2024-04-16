@@ -1,7 +1,7 @@
 ---
-title: GitLab Environmental, Social, and Governance
+title: "Environmental, Social, and Governance Vision and Policies"
 description: "An overview of corporate sustainability at GitLab."
-canonical_path: "/handbook/esg/"
+canonical_path: "/handbook/esg/_index.md"
 weight: -10
 ---
 
