@@ -141,10 +141,9 @@ New requisitions entered for vendors within the [**Approval Window**](#tprm-appr
 
 Prior to launching a new review, dilligence should be performed to determine whether the previous review provides assurance over the new system. This can be completed by reviewing the previously-provided documentation for coverage, or by performing inquiry with the vendor directly. If sufficient assurance does not exist, or the change is believed to introduce additional risk to GitLab, the Security Risk team may require the completion of a new TPRM review prior to approving the requisition. If a material change has not occured, and the approval window requirement is met, the requisition may be approved without the need for a new assessment.
 
-Vendors occasionally implement changes between contracting cycles that could introduce previously unidentified risks, such as the introduction of new AI features or sub-service providers. Stakeholders are encouraged to notify the Security Risk team upon notification of these changes, and if necessary may be directed not to allow, utilize, or enable such functionality until a new assessment has been completed. Upon notification such changes, the Security Risk team will follow the above procedures to determine whether a new review is necessary. 
+Vendors occasionally implement changes between contracting cycles that could introduce previously unidentified risks, such as the introduction of new AI features or sub-service providers. Stakeholders are encouraged to notify the Security Risk team upon notification of these changes, and if necessary may be directed not to allow, utilize, or enable such functionality until a new assessment has been completed. Upon notification such changes, the Security Risk team will follow the above procedures to determine whether a new review is necessary.
 
 **Note:** Circumstances may exist outside of those defined above that could necessitate further review. TPRM Engineers are encouraged to use professional discretion in identifying these circumstances and perform additional review or validation as needed.
-
 
 ### Acceptable Third-Party Attestations
 
