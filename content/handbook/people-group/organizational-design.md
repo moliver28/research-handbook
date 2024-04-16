@@ -1,9 +1,11 @@
 ---
-title: Organizational Design Health and Capability Reviews
-description: "Review of organizational health metrics and capability on a regular cadence is a key tenent of respsonsible growth."
+title: Organizational Design
+description: "Provide an overview of key processes and principles related to our approach to Organizational Design."
+
 ---
 
-## Introduction
+
+## Organizational Health and Capability Reviews
 
 To further our principles of responsible growth, we review organizational health metrics and capability on a regular cadence.
 
@@ -11,7 +13,7 @@ In addition to ongoing company level review and People Group KPIs, People Busine
 
 You can review more on our organizational structure on this [handbook page](/handbook/company/team/structure)
 
-## Cadence of Division Level Organizational Health Reviews
+### Cadence of Division Level Organizational Health Reviews
 
 Throughout the year, People Business Partners (PBPs) can access organizational health data at the Division level (and in some cases Department level) in Tableau through [People Dashboards](/handbook/people-group/people-ops-tech-analytics/people-analytics/people-tableau/) managed by the [People Analytics team](/handbook/people-group/people-ops-tech-analytics/people-analytics/).
 
@@ -43,30 +45,61 @@ Wherever possible, we leverage external benchmark data to analyze organizational
 
 We review data for a Peer Group and against the Industry. "Peer Group" is a group of similar companies, and "Industry" is the Software Products & Services industry.
 
-## Making an Organizational Change
 
-At times, the business needs require us to make changes to our organizational design or structure. PBPs support senior leaders in making these changes by providing data driven insight, talent expertise, and business partnership during the org change decision making process, supporting the execution and communications associated with the change, and ensuring key goals of the change are clear and accomplished.
+## Organizational Design Planning Playbook
 
-In the spirit of results and ongoing improvement, we seek to put measures on the success of an organizational change. Together the e-group leader or exec sponsor of the org change and the PBP partner to score the following metrics (Likert scale) in two phases: phase 1 is immediately after the organizational change becomes effective to measure the process, alignment, collaboration, and transparency fo the process, and phase 2 is two quarters **after** the change effective date to measure whether the desired business results where achieved.
+At GitLab, a high-performance culture underpins our strategy. Having the right team structure in place enables teams to act with urgency, collaborate effectively, and deliver results for our customers. At times, we need to reevaluate how a team is set up and make structural changes that unlock higher-quality results.
 
-### Phase 1
+The purpose of this playbook is to enable leaders at GitLab to make thoughtful and strategic organizational design decisions. It’s intended to be used by people leaders in partnership with their aligned People Business Partner (PBP). 
 
-These questions should be discussed immediately after the effective date of the organizational changes.
+Generally, there are 5 phases when making an organizational change:  
+1. Planning and alignment on goals 
+2. Specific org design decisions
+3. Communication of changes
+4. Execution of changes in relevant systems
+5. Measuring success
 
-1. Collaboration: Were our systems (I.E. HRIS, Greenhouse) updated in a timely fashion?
-1. Collaboration: Were the stakeholders informed and aligned appropriately? Did we have the engagement and action required from stakeholders to effectively execute?
-1. Efficiency: Was the comms cascade clear and executed on time?
-1. Transparency: Was the business reason for the change understood by all impacted team members, both leaders and IC’s?
 
-### Phase 2
+### Planning
 
-These questions should be discussed two quarters after the effective date of the organizational changes.
+When considering making organizational changes, consider how your new organizational design contributes to the overall company strategy, how it will accelerate or drive improved business results, and how it aligns with our values. 
 
-1. Results: Did we meet the goal of the organizational change? Did the change produce the expected value?
-1. Iteration: In retrospect, is there anything we would have done differently or should have considered before making this change?
-1. Iteration: In retrospect, would we have made the same change now?
+It is important to engage the aligned PBP early in the process to ensure the change is executed effectively and decisions are made in a fair and compliant manner. You should also identify a DRI who will be responsible for the execution of the change as part of the planning phase. 
 
-Note, this measurement system is new in FY'25 and may evolve as we determine usefulness.
+Some questions you can consider to aid in this planning process include:
+
+1. What are your org design principles (i.e. what are you optimizing your team structure for)?
+    - Use a [SWOT analysis](https://docs.google.com/presentation/d/1Ao9R0ILsBLVJDd7_smFOW5ClNR9McXo1JToeX-cC6Ec/edit#slide=id.g2aeb7e9339e_0_145) to  assess strengths, weaknesses, opportunities, and threats in the current org structure which may highlight opportunity areas to address. 
+    - Visualize the current and future org structure (for example in a Google Slide presentation or a Lucid chart). This will also be useful with stakeholders and may unlock items that need to be addressed in change management.  
+    - Examples of org design principles: Faster collaboration by realigning teams that work together frequently or rely on each other to deliver results
+
+2. What risks exist if you make a change to a new org design?
+    - Consider these identified risks in the change management plan to proactively alleviate the impact. For example, if retention is a concern, consider targeted engagement strategies including 1:1s and engaging with the team member on a development plan. 
+
+3. What risks exist if we do not make the recommended changes?
+    - Change can be difficult to navigate, but sometimes, not iterating is detrimental. Weigh the pros and cons to make a thoughtful decision.
+
+4. What improvements do you expect?
+    - Examples: Faster delivery of projects? Higher quality results due to better collaboration? Increased visibility to customer needs? These identified improvements will be helpful to articulate when communicating changes. These also will be important success criteria to measure after the implementation of the organizational change.
+
+5. What needs to happen to achieve this org design?
+    - Work with your People Business Partner to think about the change management process, tactical and strateigic steps required, and any other deliverables. This helps you narrow in on an appropriate time frame for execution. 
+
+#### Define Goals
+
+Now that you have determined an organizational change is required and have a strategy in place, it’s helpful to ensure the goals of the organizational change are clear and aligned to our CREDIT values. Defining goals is critical to accomplish two core objectives:
+
+1. Supports the change process: Consider that you will need to bring others along on this journey. Effective change management requires all those impacted to understand why the change was made, what the change entails, and why the change helps us build a foundation for high performance through an optimal team structure. Defining goals up front also enables us to measure success in the future. 
+
+2. Objective decision making: Ensuring you have a northstar or clearly defined goals in place help ensure fairness and consistency in decision making, enable a stronger communication plan, and help you measure the success of the org change following the event. 
+
+### Org Design Decisions
+
+### Communication
+
+### Execution
+
+### Measuring Success
 
 
 ## Single Points of Failure (SPOF)
