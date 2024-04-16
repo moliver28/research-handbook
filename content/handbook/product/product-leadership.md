@@ -47,7 +47,7 @@ The [Monthly Kick-Off](https://about.gitlab.com/direction/kickoff/#overview) is 
 | 2024-01-18 | Omar Fernandez | [16.9 Release Kick Off](https://gitlab.com/gitlab-com/Product/-/issues/13036) |
 | 2024-02-16 | Mike Flouton | [16.10 Release Kick Off](https://gitlab.com/gitlab-com/Product/-/issues/13116) |
 | 2024-03-18 | Justin Farris | [16.11 Release Kick Off](https://gitlab.com/gitlab-com/Product/-/issues/13212)
-| 2024-04-18 | Hillary Benson | [16.12 Release Kick Off](https://gitlab.com/gitlab-com/Product/-/issues/13279) | 
+| 2024-04-18 | Hillary Benson | [17.0 Release Kick Off](https://gitlab.com/gitlab-com/Product/-/issues/13279) | 
 | 2024-05-20 | Steve Evangelista | To be added | 
 | 2024-06-18 | Mike Flouton | To be added | 
 | 2024-07-18 | Justin Farris | To be added | 
