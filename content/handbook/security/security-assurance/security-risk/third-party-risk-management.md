@@ -115,16 +115,7 @@ graph TB
 
 ### TPRM Assessment Requirements
 
-The following table defines the procedures followed by TPRM engineers for vendors accessing or being transmitted different [classifications of GitLab data]({{< ref "data-classification-standard" >}}). The below procedures are initiated by the [Procurement](/handbook/finance/procurement/#--what-is-the-procurement-process-at-gitlab) process and are followed in all instances where applicable vendors have not been reviewed within the established approval windows defined below.
-
-If a vendor has been reviewed and approved within the preceding 12-24 months (as defined within the [**TPRM Approval Windows** section](#tprm-approval-windows)) of a new procurement request, the TPRM Engineer will review the requisition to determine if a material change has occurred to the services provided. Material changes may require performance of a new Security review, and may include:
-
-- Change in data classification (e.g., going from Yellow to Orange data classification)
-- New system from vendor not previously reviewed (e.g., we've reviewed XYZ for the purchase of their Billing system, but a new request has come in for the purchase of their Revenue system)
-- Change of location where data is stored or accessed from (e.g., moving data from GitLab-hosted app to vendor-hosted SaaS)
-- New contractor from a vendor that is not responsible for their contractor's security controls
-
-Circumstances may exist outside of those defined above that could necessitate further review. TPRM Engineers are encouraged to use professional discretion in identifying these circumstances and performing additional Security review or validation as needed.
+The following table defines the procedures followed by TPRM engineers for vendors accessing or being transmitted different [classifications of GitLab data]({{< ref "data-classification-standard" >}}). The below procedures are initiated during the [Procurement](/handbook/finance/procurement/#--what-is-the-procurement-process-at-gitlab) process and are followed in all instances where applicable vendors have not been reviewed within the approval windows defined below.
 
 If a Security Notice was documented at the time of the previous assessment, inquiry should be performed with the vendor or relevant stakeholder to determine the current status of the identified risk(s). Any updates should be documented within the Security Notice Issue. This can be performed in tandem with the requisition or after its approval.
 
@@ -137,6 +128,22 @@ If a Security Notice was documented at the time of the previous assessment, inqu
 |Yellow/Green     | N/A |  N/A |  N/A |     No | N/A  | N/A  |
 
 
+
+#### Material Changes
+
+New requisitions entered for vendors within the [**Approval Window**](#tprm-approval-windows) of their previous assessment will be reviewed by the TPRM Engineer to determine whether a material change has occurred to the services provided. Material changes introduce new potential risks and may require performance of a new TPRM assessment, examples of which include:
+
+- **Change in data classification**, such as going from Yellow to Orange data classification.
+- **Addition of a new system not in the scope of the previous review.** For example, vendor XYZ was reviewed for procurement of their **Billing** system, but a new request has come in for the purchase of their **Revenue** system.
+- **Change of location where data is stored or transmitted**, such as migrating data from a GitLab-hosted environment to a vendor's SaaS solution.
+- **Addition of new contractors that are not subject to the vendor's security controls.**
+- **Introduction of new AI functionality within a system.**
+
+Prior to launching a new review, dilligence should be performed to determine whether the previous review provides assurance over the new system. This can be completed by reviewing the previously-provided documentation for coverage or by performing inquiry with the vendor directly. If sufficient assurance does not exist, or the change is believed to introduce additional risk to GitLab, the Security Risk team may require the completion of a new TPRM review prior to approving the requisition. If a material change has not occured, and the approval window requirement is met, the requisition may be approved without the need for a new assessment.
+
+Vendors occasionally implement changes between contracting cycles that could introduce previously unidentified risks, such as the introduction of new AI features or sub-service providers. Stakeholders are encouraged to notify the Security Risk team upon becoming aware of these changes, and if necessary may be directed not to allow, utilize, or enable such functionality until a new assessment has been completed. Upon notification such changes, the Security Risk team will follow the above procedures to determine whether a new review is necessary.
+
+**Note:** Circumstances may exist outside of those defined above that could necessitate further review. TPRM Engineers are encouraged to use professional discretion in identifying these circumstances and perform additional review or validation as needed.
 
 ### Acceptable Third-Party Attestations
 
@@ -383,6 +390,10 @@ In the performance of these reviews, deficiencies may be identified that could p
 *While Okta SSO integration is GitLab's preferred method of authentication, IT Engineering can review and approve alternative SSO methods (such as Google Oauth) on a case by case basis.
 
 Deficiencies identified are reviewed in the context of the vendor's greater Security environment and the data transmitted. If a material risk to GitLab data is identified, this will be reported to the Business Owner via the [TPRM Security Notice Process](#tprm-security-notice-process).
+
+### Introduction of Third Party AI Features
+
+Something something *don't introduce Orange/Red data, because [rationale]*. Something something *Security will assess vendors upon notification of these features via additional inquiry or new assmt*
 
 ### TPRM Security Notice Process
 
