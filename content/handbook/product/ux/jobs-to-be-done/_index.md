@@ -3,12 +3,12 @@ title: Jobs to be Done at GitLab
 description: >-
   JTBD is a framework for viewing products and solutions in terms of jobs
   customers want to achieve. It's about understanding the goals that people want
-  to accomplish.
+  to accomplish. Places a focus on the problem the user is trying to solve, not the solution. It tells you very clearly and specifically; **What problem are you trying to solve?**
 ---
 
 Jobs to be Done (JTBD) is a framework for viewing products and solutions from the user's perspective. It's about understanding what people want to achieve so we can build a better solution that reflects those desires. The purpose of these materials is to empower GitLab team members to uncover user needs, identify strategic opportunities, validate existing plans, and open the door to innovation.
 
-Much of what follows on this page and our other JTBD pages (Playbook, Deep Dive) borrows heavily from [Jim Kalbach](https://www.jtbdtoolkit.com/) and his book, “[The Jobs to be Done Playbook](https://www.amazon.com/Jobs-Be-Done-Playbook-Organization/dp/1933820683)”. 
+Much of what follows on this page and our other JTBD pages ([Playbook](/handbook/product/ux/jobs-to-be-done/jtbd-playbook/), [Beyond the Playbook](/handbook/product/ux/jobs-to-be-done/jtbd-beyond-the-playbook/)) borrows heavily from [Jim Kalbach](https://www.jtbdtoolkit.com/) and his book, “[The Jobs to be Done Playbook](https://www.amazon.com/Jobs-Be-Done-Playbook-Organization/dp/1933820683)”. 
 
 This page covers the 'what' of Jobs to be Done. To skip to the 'how', or the _practice_ of doing Jobs to be Done research, head over to the [playbook](/handbook/product/ux/jobs-to-be-done/jtbd-playbook).
 
@@ -16,16 +16,70 @@ Note: the previous single source of truth for all the JTBD at GitLab ([a yml fil
 
 ## Anatomy of a JTBD Canvas
 
-A Job to be Done Canvas is a way to arrange all of the elements of a [main job](#main-job-where-do-you-want-to-innovate) in an easy to read format, well-suited for iteration, sharing, and documentation. We use canvases throughout our [JTBD playbook](/handbook/product/ux/jobs-to-be-done/jtbd-playbook), as part of our [FigJam template](https://www.figma.com/file/Z4lsAOLH1ANN3pstQFYgSk/Jobs-to-be-done----Playbook-Template?type=whiteboard&node-id=0%3A1&t=7nzgsnW0igvXKwjr-1).
-Each canvas has a number of different sections which combine to provide a **holistic picture of a main job and its job performer**. It can be a bit daunting, so here’s a breakdown of each part:
+A Job to be Done Canvas is a way to arrange all of the elements of a [Job Performer's](/handbook/product/ux/jobs-to-be-done/#job-performer-who-do-you-want-to-innovate-for) [Main Job](#main-job-where-do-you-want-to-innovate) in an easy to read format, well-suited for iteration, sharing, and documentation. We use canvases throughout our [JTBD playbook](/handbook/product/ux/jobs-to-be-done/jtbd-playbook), as part of our [FigJam template](https://www.figma.com/file/Z4lsAOLH1ANN3pstQFYgSk/Jobs-to-be-done----Playbook-Template?type=whiteboard&node-id=0%3A1&t=7nzgsnW0igvXKwjr-1).
+Each canvas has a number of different sections which combine to provide a **holistic picture of a Job Performer's Main Job**. It can be a bit daunting, so here’s an explanation of each section:
 
 ![JTBD canvas](JTBD_Canvas.png)
 
+### **The Domain:** Where do you want to innovate?
+
+To innovate effectively, start by ensuring you're working in the right area of your Stage Group. Deciding this up front will help determine Who you're going to innovate for and then what they're trying to get done.
+
+### **Job Performer:** Who do you want to innovate for?
+
+Once it's clear what domain you want to work in you'll need to identify and understand the specific Job Performer for the task, emphasizing that it refers to the person executing the job. Focus your research on one Job Performer at a time and align it with the Main Job, ensuring a clear and straightforward approach. A Job Performer is rarely the same as someone’s job title.
+
+What goes into a Job Performer:
+
+- Describe an individual, not a job title
+- Don’t use AND or OR
+- Keep it high-level/generic, not a persona or market segment
+- Who is performing the job we want to go after?
+- Keep it simple and straightforward, moving back and forth between the Job Performer and the target job to define each, as needed.
+
+Good exmaples:
+
+- New home buyer
+- Author
+- Code reviewer
+
+Bad examples:
+
+- Millionaire real estate investor (being a millionaire real estate investor is a relevant circumstance to how the job gets done, and what kind of homes they would be looking for, but this doesn’t describe the Main Job that’s getting done – this person could be buying, selling, renovating, etc.)
+- Steven King (Job Performers are not a specific person)
+- Software Engineer (job title, not a Job Performer)
+
+### Note: Job Performers vs. Personas
+
+A common area of confusion is the difference between a Job Performer and a [user persona](/handbook/product/personas/#user-personas). In short, a persona is more or less at the level of a job title, a Software Developer, for instance. However, a software developer may take on a number of different Main Jobs as part of their role (writing code, reviewing code, maintaining infrastructure, and so on). Similarly, other job titles or personas may also do the Main Jobs we look at in JTBD (an engineering manager may also review code, for example). 
+
+Both personas and Job Performers are useful constructs in helping to understand and improve your product, but it is important not to conflate the two. Job Performers in the JTBD framework don’t correspond to job titles (some exceptions may apply) - they tend to live ‘closer’ to the Main Job we’re investigating. For instance, we might have a dozen personas that each ‘review code’ as part of their jobs - but if the experience of reviewing code is the one we’re focused on we only need to have one Job Performer - a ‘Code Reviewer’ - that encapsulates what all of these different personas have to go through in order to do that part of their jobs.
+
+### **Related Job Performers (optional):** Who affects our Job Performer when doing their job?
+
+It may help to think about the other actors or Job Performers that relate to your Domain in order to help in selecting a Job Performer to build your canvas around. Consider, who are all of the potential Job Performers within your Domain performing tasks? Once you've select the primary Job Performer you want to innovate for, move the remaining Job Performers to the Related Job Performers section, if you deem it necesary, you can build canvases around them at a later date.
+
 ### **Main Job:** Where do you want to innovate?
 
-The main job serves as the central focus for innovation efforts. It represents a goal and has specific criteria. It should be formulated using **action verbs**, without references to technology, solutions, or methods, and avoid complex combinations. It follows a pattern of 'verb + object + (optional) clarifier'. The level of granularity for the main job can vary, depending on the innovation's purpose and feasibility. If the main job isn’t obvious, move to the related jobs field on the canvas to explore the domain.
+The Main Job serves as the central focus for innovation efforts. It represents a goal and has specific criteria. What is the Job Performer trying to get done in the selected Domain? Main Jobs should be timeless and as unchanging as possible. It should be expressed in functional terms, like a utilitarian goal. It’s an act that should be performed and have a clear end state… the “done” part of JTBD. It is not what your company needs to do to deliver a service. Always think in terms of the Job Performer’s perspective. The level of granularity for the Main Job can vary, depending on the innovation's purpose and feasibility.
 
-Main jobs hint at a task that can be completed, for example:
+What goes into a Main Job:
+
+- Discrete functional, utilitarian goals independent of a solution
+- Begin with a Verb so it’s action-oriented.
+- Should have a clear end state (done part of JTBD)
+- Are singular (avoid ANDs or ORs)
+- Are technology or solution agnostic
+- Specific but broad enough to allow for innovative solutions.
+- Clarifiers/Qualifiers (optional) can be added to the Job in order to narrow the scope as well.
+- Do NOT include adjectives (those are more Outcomes)
+- How would people have gotten this done 30 years ago?
+- Format: [verb] + [object] + [(optional) qualifiers/clarifier] (try putting an “I want to…” to get the ball rolling, then remove the “I want to”)
+    - **Verb**: Action that describes what the JP is trying to accomplish. Verb choice is crucial as it sets the stage for the kind of activity or outcome the JP is looking for.
+    - **Object**: The target of the Verb Action. Clarify what is the verb acting upon that provides a focus for the job, making it clear what the outcome should affect.
+    - **Clarifier/Qualifier**: Adds specificity, adding context, conditions or purpose that helps refine the job. It can be critical for distinguishing between similar jobs or for highlighting unique aspects of the job that are particularly relevant to theJP's situation or needs.
+
+Good examples:
 
 - Buy (verb) a new home (object) within 10 minutes of my work (clarifier)
 - Write (verb) a book (object)
@@ -34,58 +88,34 @@ Main jobs hint at a task that can be completed, for example:
 Bad examples:
 
 - Purchase the house at 123 Main Street for less than asking. (Too specific)
-- Be a best selling author (Aspirational goal, but not a main job)
+- Be a best selling author (Aspirational goal, but not a Main Job)
 
-### **Job Performer:** Who do you want to innovate for?
+### **Related Jobs:** What else is the Job Performer trying to get done?
 
-To innovate effectively, start by identifying and understanding the specific job performer for the task, emphasizing that it refers to the person executing the job. Focus your research on one job performer at a time and align it with the main job, ensuring a clear and straightforward approach. A job performer is rarely the same as someone’s job title.
+When considering which job to innovate on, it may help to think about the other goals the selected Job Performer may have within the Domain – known as Related Jobs. These Related Jobs are distinct objectives, each with its own distinct phases, and should be formulated at a similar level of detail for comparison, typically numbering between 3 to 6 per Job Performer. Once you've select the primary Main Job you want to innovate for, move the remaining Jobs to the Related Jobs section, if you deem it necesary, you can build canvases around them at a later date.
 
-For the examples above, our job performers would be:
+### **Aspirations:** What does the Job Performer aspire to become by achieving the Main Job?
 
-- New home buyer
-- Author
-- Code reviewer
+Aspirations represent the "be" goals of the Job Performer, signifying their desire for personal growth or transformation while completing the job. These aspirations should be derived from conversations with Job Performers and are placed at the top of the canvas as they hold a hierarchical position above the Main Job. Typically, there are 1 to 3 Aspirations associated with any Main Job. For instance, in the context of a real estate organization, potential top-down elements for innovation related to "home ownership" could include:
 
-Bad examples:
+- Job Performer: New homeowner
+- Target job: Acquire a new home
+- Related jobs: Finance a new home, Move homes, Sell old home
+- Aspirations: Be happy with home life, Be part of a local community
 
-- Millionaire real estate investor (being a millionaire real estate investor is a relevant circumstance to how the job gets done, and what kind of homes they would be looking for, but this doesn’t describe the main job that’s getting done – this person could be buying, selling, renovating, etc.)
-- Steven King (job performers are not a specific person)
-- Software Engineer (job title, not a job performer)
+### **Job Steps:** How does the Job Performer get the job done?
 
+Job steps detail the sequential, functinoal process through which a Job Performer accomplishes their Main Job, forming a chronological job map. Job Steps are a series of objectives the Job Performer has to get done to achieve the outcome they’re looking for, not tasks, which are too granular.
 
-### Note: Job Performers vs. Personas
+What goes into a Job Step:
 
-A common area of confusion is the difference between a job performer and a [user persona](/handbook/product/personas/#user-personas). In short, a persona is more or less at the level of a job title, a Software Developer, for instance. However, a software developer may take on a number of different main jobs as part of their role (writing code, reviewing code, maintaining infrastructure, and so on). Similarly, other job titles or personas may also do the main jobs we look at in JTBD (an engineering manager may also review code, for example). 
+- Begins with an action verb, in the first person
+- Avoids using "ANDs" or "ORs"
+- Are solutoin or product agnostic
+- Are broken into top level Stages the Job Performer needs to accomplish moving left to right as they are done.
+    - Each Stage is comprised of vertical stacks which are sub-steps the Job Performer needs to accomplish moving top to bottom before moving to the next stage.
 
-Both personas and job performers are useful constructs in helping to understand and improve your product, but it is important not to conflate the two. Job performers in the JTBD framework don’t correspond to job titles (some exceptions apply) - they tend to live ‘closer’ to the main job we’re investigating. For instance, we might have a dozen personas that each ‘review code’ as part of their jobs - but if the experience of reviewing code is the one we’re focused on we only need to have one job performer - a ‘code reviewer’ - that encapsulates what all of these different personas have to go through in order to do that part of their jobs.
-
-
-### **Outcomes:** How does the job performer measure the success of getting the job done?
-
-Outcomes represent how the job performer gauges the success of completing the main job and are often subjective. An outcome statement is a sentence with a specific formula:
-
-1. A verb indicating a **direction** of change (e.g., minimize, reduce, decrease).
-2. A unit of **measure**, often time, effort, or likelihood.
-3. Qualifiers that make the outcome statement **specific** and **relevant** to the target job.
-
-For example:
-
-- **Minimize** (_direction_) the **time** it takes (_measure_) to identify a potential new home (_qualifiers_)
-- **Reduce** the **number of compromises** made when deciding on a new home
-- **Minimize** the **distance** to the place of employment
-
-These outcome statements provide insights into the job performer's criteria for success in accomplishing the job.
-
-Bad examples:
-
-- Find the best home quickly (Why? No verb indicating direction, ‘best’ is not specific enough to be useful.)
-- Have the most attractive house on the street (Why? No direction, ‘most attractive’ is not a good unit of measure.)
-
-### **Job Steps:** How does the job performer get the job done?
-
-Job steps detail the sequential process through which a job performer accomplishes their task, forming a chronological job map. These steps typically begin with a first-person action verb, exclude references to technology, solutions, or methods, and avoid using "ANDs" or "ORs" for conciseness. Being product agnostic is critical to understanding the core of a job, and not simply how your users use your product.
-
-For example:
+Good examples:
 - Decide where to look for a new home
 - Determine selection criteria
 - Seek new homes
@@ -94,62 +124,76 @@ For example:
 Bad example:
 - Ask Richard what neighborhoods are popular to live in (Who’s Richard? Does everyone who does this job have a Richard? Too specific.)
 
-### **Emotional and Social Aspects:** How does the job performer feel while doing the job? How do they want to be perceived while doing the job?
+### **Outcomes:** How does the Job Performer measure the success of getting the job done?
 
-When considering the emotional and social aspects of the job, explore how the job performer feels during the task and how they aim to be perceived. These are sort of the ‘experiential’ side of the job, as opposed to the functional aspect of the job. It’s important to solve for the functional side of the job first (without it you’re not really solving the core unmet need), and then consider the emotional and social aspects afterwards.
+Outcomes represent how the Job Performer gauges the success of completing the Main Job and are often subjective. You can have between 50 to 100 Outcome statements for any give Main Job. 
 
-Understanding the emotional and social aspects of the job helps to determine how potential solutions could be delivered, and how to ensure the job performer’s needs are met.
+What goes into an Outcome statement:
 
-Emotional aspects typically start with "feel" or "avoid feeling," while social aspects often begin with "appear as" or "avoid appearing as." For example:
+1. They begin with a verb indicating a **direction** of change (e.g., minimize, reduce, decrease, or maximize, increase).
+2. Contains something the Job Performer wants to change in the form of a unit of **measure** (e.g. time, effort, or likelihood).
+3. And end with qualifiers/clarifiers that make the outcome statement **specific** and **relevant** to the Main Job.
+- Avoid ANDs or ORs (they need to be singular), and be technology/solution agnostic
 
-Emotional Aspects:
+Good examples:
+
+- **Minimize** (_direction_) the **time** it takes (_measure_) to identify a potential new home (_qualifiers_)
+- **Reduce** the **number of compromises** made when deciding on a new home
+- **Minimize** the **distance** to the place of employment
+
+These outcome statements provide insights into the Job Performer's criteria for success in accomplishing the Main Job.
+
+Bad examples:
+
+- Find the best home quickly (Why? No verb indicating direction, ‘best’ is not specific enough to be useful.)
+- Have the most attractive house on the street (Why? No direction, ‘most attractive’ is not a good unit of measure.)
+
+### **Emotional and Social Aspects:** How does the Job Performer feel while doing the job? How do they want to be perceived while doing the job?
+
+When considering the emotional and social aspects of the job, explore how the Job Performer feels and how they want to be perceived while doing the Main Job . These are sort of the ‘experiential’ side of the job, as opposed to the functional aspect of the job.
+
+Understanding the emotional and social aspects of the job helps to determine how potential solutions could be delivered, and how to ensure the Job Performer’s needs are met.
+
+What goes into an Emotional aspect:
+
+- Begin with words "feel" or "avoid feeling"
+- Indicate an emotion
+- Avoid ANDs or ORs (they need to be singular), and be technology/solution agnostic.
+
+Good Emotional Aspect examples:
 - Feel in control of the home acquisition process
 - Avoid feeling uncertain about new home selection
 
-Social Aspects:
+What goes into an Social aspect:
+
+- Begin with words "appear as" (looks like) or "avoid appearing as." (avoid looking like)
+- Indicate a social implications or perceptions of what others think of them
+- Avoid ANDs or ORs (they need to be singular), and be technology/solution agnostic.
+
+Good Social Aspect examples:
 - Appear as a good future neighbor
 - Avoid appearing unknowledgeable about the new home acquisition process
 
-These aspects can vary widely and provide insights into the job performer's emotional and social motivations and challenges, which can be crucial in determining how potential solutions ought to be delivered. For example, if a programmer is worried about appearing fast to his coworkers, we can design a solution that includes lots of time-saving features (code completion, AI summarization, other automatic actions, and so on). 
+These aspects can vary widely and provide insights into the Job Performer's emotional and social motivations and challenges, which can be crucial in determining how potential solutions ought to be delivered. For example, if a programmer is worried about appearing fast to his coworkers, we can design a solution that includes lots of time-saving features (code completion, AI summarization, other automatic actions, and so on).
 
-### **Circumstances:** What are the factors or conditions that make a difference in how the job gets done?
+### **Job Differentiators:** What are the factors or conditions that make a difference in how the job gets done?
 
-Circumstances are the factors that influence how the job gets done. They often encompass time, manner, or place, among other characteristics. Circumstances are introduced with the word "if", indicate a range of options, and use "versus/vs." when applicable. For our real estate example, circumstances might include:
+Job Differentiators are the factors or circumstances that influence how the job gets done. They often encompass time, manner, or place, among other characteristics. Job Differentiators are introduced with the word "if", indicate a range of options, and use "versus/vs." when applicable to show a comparison. 
 
-- If the job performer is single vs. married
-- If the job performer has young children or not
+What goes into a Job Differentiators:
+- Begins with words like _if_
+- Should show a range of options with Versus/Vs
+- Avoid ANDs or ORs (they need to be singular), and be technology/solution agnostic.
+
+Good Job Differentiators examples:
+
+- If the Job Performer is single vs. married
+- If the Job Performer has young children or not
 - If the potential new home is local (within driving distance) vs. far away from the current location
 
-Additionally, you can qualify the main job in order to narrow its scope, such as "get energy **in the morning**" or "get energy **in the afternoon at work.**" These are often called _job differentiators_, and provide a more focused perspective on the target job.
+Additionally, you can qualify the Main Job in order to narrow its scope, such as "get energy **in the morning**" or "get energy **in the afternoon at work.**" These are often called _job differentiators_, and provide a more focused perspective on the target job.
 
-### **Related Jobs:** What else is the job performer trying to get done?
-
-When considering innovation, it's essential to explore the additional goals that job performers have within the domain – known as related jobs. These related jobs are distinct objectives, each with its own distinct phases, and should be formulated at a similar level of detail for comparison, typically numbering between 3 to 6 per job performer. For our aspiring homeowners, related jobs may include:
-
-- Finance a new home 
-- Move homes
-- Sell old home
-
-### **Aspirations:** What does the job performer aspire to become by doing the job?
-
-Aspirations represent the "be" goals of the job performer, signifying their desire for personal growth or transformation while completing the job. These aspirations should be derived from conversations with job performers and are placed at the top of the canvas as they hold a hierarchical position above the target job. Typically, there are 1 to 3 aspirations associated with any target job. For instance, in the context of a real estate organization, potential top-down elements for innovation related to "home ownership" could include:
-
-- Job performer: New homeowner
-- Target job: Acquire a new home
-- Related jobs: Finance a new home, Move homes, Sell old home
-- Aspirations: Be happy with home life, Be part of a local community
-
-### **Actors (optional):** Who affects our job performer when doing their job?
-
-It may help to think about the other actors or job performers that relate to your main job performer. Who does the job performer interact with in the course of performing their tasks? Where does information (or responsibility) reside before or after the main job? The related job performers or actors are often those performing the related jobs.
-
-So, if the related jobs are: Finance a new home, Move homes, Sell old home
-
-The related job performers might be: Mortgage broker, Real Estate Agent, Mover
-
-
-
-## Main jobs to micro jobs
+## Main Jobs to micro jobs
 
 When talking about Jobs to be Done, we’re often talking about different levels of jobs. It’s important to note the differences in terminology between these levels so that you and your stakeholders can communicate effectively.
 
@@ -158,25 +202,25 @@ When talking about Jobs to be Done, we’re often talking about different levels
 
 ### Main Jobs
 
-A main job is a means to an end. It's an act that will be performed and should have a clear end state (the "done" part of JTBD). That is why we write jobs in the pattern Verb + Object + Clarifier when writing job statements.
+A Main Job is a means to an end. It's an act that will be performed and should have a clear end state (the "done" part of JTBD). That is why we write jobs in the pattern Verb + Object + Clarifier when writing job statements.
 
 Example: Buy a new home
 
 
 ### Small jobs
 
-Small Jobs are more practical and correspond to a process or workflow. They answer the question, "How does the job get done?" in the context of the main Job and moves the user closer to accomplishing their goal.
+Small Jobs are more practical and correspond to a process or workflow. They answer the question, "How does the job get done?" in the context of the Main Job and moves the user closer to accomplishing their goal.
 
 Example: Put in an offer on a house 
 
 
 ### Micro-jobs
 
-Micro-jobs are the small tasks a user may undergo to accomplish their small job and main job. Micro-jobs should be self-explanatory and easy to understand without much context.
+Micro-jobs are the small tasks a user may undergo to accomplish their small job and Main Job. Micro-jobs should be self-explanatory and easy to understand without much context.
 
 Example: Decide how much you’re going to offer in relation to the asking price.
 
-It’s important to be able to identify and correctly place jobs at the right altitude as you work through the Jobs to be Done process. It will help keep you focused on the main job and allow you to quickly incorporate (or discard) new information that you hear during interviews into your [job steps](#job-steps-how-does-the-job-performer-get-the-job-done).
+It’s important to be able to identify and correctly place jobs at the right altitude as you work through the Jobs to be Done process. It will help keep you focused on the Main Job and allow you to quickly incorporate (or discard) new information that you hear during interviews into your [job steps](#job-steps-how-does-the-job-performer-get-the-job-done).
 
 
 
@@ -188,7 +232,7 @@ It’s important to be able to identify and correctly place jobs at the right al
 
 Using our examples, we can produce a JTBD hierarchy, confirming we operate at the right altitude.
 
-- **Main job**: Maintain an acceptable level of risk in my organizations assets.
+- **Main Job**: Maintain an acceptable level of risk in my organizations assets.
 - **Small job**: Prioritize business-critical vulnerabilities in my assets.
 - **Micro jobs**: Review the most recent risks detected in my assets; Refine the list of risks by relevancy; Refine the list of risks by impact.
 
@@ -215,7 +259,7 @@ Read "[What is and isn't a JTBD](/handbook/product/ux/jobs-to-be-done/deep-dive/
 - **Job story**: When I am on triage rotation, I want to address business-critical risks in my organization's assets, so I can minimize the likelihood of a security incident.
 - **User story**: As a Security Analyst, I want to address vulnerabilities in my applications, So that I can ensure there are no unattended risks.
 
-Job stories offer a higher-level view of the main objective. However, when written at a lower altitude, they can serve the same function as user stories, guiding your solutions while keeping the main job, circumstances, and need in mind.
+Job stories offer a higher-level view of the main objective. However, when written at a lower altitude, they can serve the same function as user stories, guiding your solutions while keeping the Main Job, circumstances, and need in mind.
 
 If you want a detailed breakdown of each segment of the JTBD, learn more about the [structure of a JTBD](/handbook/product/ux/jobs-to-be-done/deep-dive/#how-do-i-structure-a-jtbd). -->
 
@@ -226,7 +270,7 @@ title: "Mapping Jobs to be Done (JTBD)"
 description: "How do I create a job map? How do I validate a JTBD?"
 ---
 
-The Main Job is a process that you can sequence chronologically into a Job Map. A Job Map reveals the process of completing the job from the executor’s point of view, not the buyer or customer perspective. The intent is to illustrate what the job performer is striving to get done at each stage in executing a job.
+The Main Job is a process that you can sequence chronologically into a Job Map. A Job Map reveals the process of completing the job from the executor’s point of view, not the buyer or customer perspective. The intent is to illustrate what the Job Performer is striving to get done at each stage in executing a job.
 
 ## What a Job Map is not
 
@@ -236,11 +280,11 @@ It’s also not about mapping tasks or physical activities, but about creating a
 
 ## How to create a Job Map
 
-From your interviews, create a sequence of stages in a visual representation that shows underlying patterns of intent. As you map, think about what the job performer’s subgoals are and the phases of intent that unfold as the job gets done. There is a [template in FigJam](https://www.figma.com/file/M8w3pkidNUAUIQrQALifFS/JTBD-Template?type=whiteboard&t=HXmKttyxz1lwX9B8-6) that you can use for this. The template uses the eight standard phases from Tony Ulwick’s [Outcome-Driven Innovation (ODI) method](https://jobs-to-be-done.com/outcome-driven-innovation-odi-is-jobs-to-be-done-theory-in-practice-2944c6ebc40e).
+From your interviews, create a sequence of stages in a visual representation that shows underlying patterns of intent. As you map, think about what the Job Performer’s subgoals are and the phases of intent that unfold as the job gets done. There is a [template in FigJam](https://www.figma.com/file/M8w3pkidNUAUIQrQALifFS/JTBD-Template?type=whiteboard&t=HXmKttyxz1lwX9B8-6) that you can use for this. The template uses the eight standard phases from Tony Ulwick’s [Outcome-Driven Innovation (ODI) method](https://jobs-to-be-done.com/outcome-driven-innovation-odi-is-jobs-to-be-done-theory-in-practice-2944c6ebc40e).
 
 Each stage should have a purpose and be formulated as a functional job. Avoid including emotional and social aspects in the stage labels, and avoid bringing in adjectives and qualifiers that indicate a need, like “quickly” or “accurately.” Strive to make the stages as universal and stable as possible without reference to the means of execution. Jobs are separate from solutions.
 
-Consider these job stages as more of a guideline than a prescriptive model. The point is to remember to cover all types of stages involved in executing the main job&mdash;before, during, and after. Modify the names of the stages as needed to describe your particular Main Job, but keep them short (ideally expressed as single-word verbs). The table below reflects some common verbs for each of the stage types in the universal job map.
+Consider these job stages as more of a guideline than a prescriptive model. The point is to remember to cover all types of stages involved in executing the Main Job&mdash;before, during, and after. Modify the names of the stages as needed to describe your particular Main Job, but keep them short (ideally expressed as single-word verbs). The table below reflects some common verbs for each of the stage types in the universal job map.
 
 | Stage      | Description                                            | Common Verbs                           |
 | ---------- | ------------------------------------------------------ | -------------------------------------- |
@@ -262,7 +306,7 @@ Consider these job stages as more of a guideline than a prescriptive model. The 
 
 You might end up with fewer or more stages than eight. It’s also possible to include a loop for interaction or even a branch in the flow. The diagram you create should stand as a clear model for describing the process of performing the job that everyone in your organization can relate to.
 
-Ideally, you will validate this job map with job performers. Talk through it with them. If the labels and/or divisions between stages need a great deal of explanation or seem to be confusing, rework them until it’s simple enough to be self-explanatory.
+Ideally, you will validate this job map with Job Performers. Talk through it with them. If the labels and/or divisions between stages need a great deal of explanation or seem to be confusing, rework them until it’s simple enough to be self-explanatory.
 
 ### Step 2 - Put the job map to use
 
@@ -329,26 +373,26 @@ A core strength of JTBD is its structure, which clearly separates out various as
 
 ### *Who* is the focus of a JTBD?
 
-When writing a JTBD, focus on the **job performer**. In other words, write it from the perspective of an end user who is trying to do the job. Conversely, do not write a JTBD from the perspective of what GitLab (or the business stakeholder) wants to achieve.
+When writing a JTBD, focus on the **Job Performer**. In other words, write it from the perspective of an end user who is trying to do the job. Conversely, do not write a JTBD from the perspective of what GitLab (or the business stakeholder) wants to achieve.
 
 Other functions within the job ecosystem to consider include the following:
 
 - **Approver:** Someone who authorizes the acquisition of a solution
 - **Reviewer:** Someone who examines a solution for appropriateness
 - **Technician:** The person who integrates a solution and gets it working
-- **Manager:** Someone who oversees a job performer while performing the job
+- **Manager:** Someone who oversees a Job Performer while performing the job
 - **Audience:** People who consume the output of performing the job
-- **Assistant:** A person who aids and supports the job performer in getting the job done
+- **Assistant:** A person who aids and supports the Job Performer in getting the job done
 
 Note that these different roles don’t refer to job titles. Instead, they represent different functional actors within the context of getting a job done.
 
-### *What* does the job performer want to accomplish (independent of your solution)?
+### *What* does the Job Performer want to accomplish (independent of your solution)?
 
-The aim of the job performer is not to interact with your company but to get something done. Because they don’t mention solutions or technology, jobs should be as timeless and unchanging as possible. Strive to frame jobs in a way that makes them stable, even as technology changes.
+The aim of the Job Performer is not to interact with your company but to get something done. Because they don’t mention solutions or technology, jobs should be as timeless and unchanging as possible. Strive to frame jobs in a way that makes them stable, even as technology changes.
 
 #### Is a Job Performer the same as a User Persona?
 
-No, a user persona represents a person in an organization with a particular job title. That persona may have 3-4 main jobs, which can be expressed using the JTBD framework.  Similarly, the role of job performer can be taken by more than one user persona.
+No, a user persona represents a person in an organization with a particular job title. That persona may have 3-4 Main Jobs, which can be expressed using the JTBD framework.  Similarly, the role of Job Performer can be taken by more than one user persona.
 
 While using the JTBD framework, a user's job title or personal details are not as crucial as their capability to successfully carry out the job process. As a result, the two frameworks do have some overlap but are not designed to fit together perfectly. The following visual Venn diagram may be helpful in understanding this overlap.
 
@@ -356,9 +400,9 @@ While using the JTBD framework, a user's job title or personal details are not a
 
 ### *How* will the job get done? (objective of the JTBD)
 
-The process follows job performers as they move through different goal stages in order to accomplish their goal.
+The process follows Job Performers as they move through different goal stages in order to accomplish their goal.
 
-- Understanding the process of the job performer’s intent is key to JTBD.
+- Understanding the process of the Job Performer’s intent is key to JTBD.
 - You can illustrate the job in a chronological map using a sequence of stages, such as Beginning, Middle, and End.
 - Each stage can contain multiple user stories. Be careful not to get into the tasks/physical activities just yet.
 - Because the job has to be “done,” be sure to formulate the job in a way that has an end state.
@@ -366,11 +410,11 @@ The process follows job performers as they move through different goal stages in
 
 ### *Why* does the performer act in a certain way? What are their requirements or intended outcomes during the job process?
 
-Why do the job performers act the way they do while getting a job done? Their actions might be tied to achieving specific outcomes, such as producing a specific report. Their actions might also be tied to requirements or processes to which they must adhere.
+Why do the Job Performers act the way they do while getting a job done? Their actions might be tied to achieving specific outcomes, such as producing a specific report. Their actions might also be tied to requirements or processes to which they must adhere.
 
 In JTBD, a need is seen in relation to getting the job done. Needs aren’t demands from a solution, but an individual’s requirements for getting a job done. Needs aren’t aspirations, either, which are above the job in terms of abstraction.
 
-Example: If a main job is defined as *file taxes*, their need may be to *minimize the time it takes to gather documents or maximize the likelihood of getting a return*.
+Example: If a Main Job is defined as *file taxes*, their need may be to *minimize the time it takes to gather documents or maximize the likelihood of getting a return*.
 
 Example: Expressions like “have financial peace of mind” or “provide for my family” are motivations beyond getting the job. These are important aspects to consider later, but not needs related to reaching the objective of filing taxes.
 
@@ -405,9 +449,9 @@ JTBDs are difficult to get right can take some time to refine. Below is an examp
 
 Version 1: When new features are added to a product, I want to know if and how those changes impact performance so that I can ensure my product works as expected for users.
 
-- "When new features are added to a product" - Make sure to describe the circumstances the job performer is in when they need to get the job done. New features being added is not an isolated act.
-- "I want to know if and how those changes impact performance" - This job can be a bit more specific (instead of using "if and how"). It will be easier to validate when you focus on one aspect of the need/outcome for the job performer.
-- "so that I can ensure my product works as expected for users" -  How can you make the outcome for the job performer more specific? Why is it important that the product works as expected? What is the desired end state and/or feeling that a job performer has for doing this job? Make sure to describe the circumstances that the job performer is in when they need to get the job done.
+- "When new features are added to a product" - Make sure to describe the circumstances the Job Performer is in when they need to get the job done. New features being added is not an isolated act.
+- "I want to know if and how those changes impact performance" - This job can be a bit more specific (instead of using "if and how"). It will be easier to validate when you focus on one aspect of the need/outcome for the Job Performer.
+- "so that I can ensure my product works as expected for users" -  How can you make the outcome for the Job Performer more specific? Why is it important that the product works as expected? What is the desired end state and/or feeling that a Job Performer has for doing this job? Make sure to describe the circumstances that the Job Performer is in when they need to get the job done.
 
 Version 2: When I or my teammate is making a code change to our product, I want to know if the change introduces a latency for my end users so that I can ensure users are satisfied with the performance of the product and continue to use it
 
@@ -416,8 +460,8 @@ Version 2: When I or my teammate is making a code change to our product, I want 
 
 Final version: When a code change is made, I want to know if the change introduces a latency for my end users so that I can meet the quality standards of performance response time to maintain usability for our end users.
 
-- [x] Describe specific circumstances that the job performer is in when they need to get the job done.
-- [x] Focus on one specific goal or aspect that the job performer needs to complete when writing out the job statement so that it makes it easier to validate in the future.
-- [x] Focus the outcome of the job statement around the desired end state or feeling for the job performer as well as the reason why completing the job is so important. Ensure the outcome is something that is measurable and can be used to validate the job statement.
+- [x] Describe specific circumstances that the Job Performer is in when they need to get the job done.
+- [x] Focus on one specific goal or aspect that the Job Performer needs to complete when writing out the job statement so that it makes it easier to validate in the future.
+- [x] Focus the outcome of the job statement around the desired end state or feeling for the Job Performer as well as the reason why completing the job is so important. Ensure the outcome is something that is measurable and can be used to validate the job statement.
  
   -->
