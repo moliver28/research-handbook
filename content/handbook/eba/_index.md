@@ -205,7 +205,7 @@ To view members of Google Groups, reference the [Google Workspace group member r
 ## Company Mail
 
 - GitLab uses a domestic enterprise mail service called Stable to retrieve mail from our UPS box to then be scanned and routed to the appropriate recipients.
-- Routing rules and points of contact can be found [here](https://docs.google.com/document/d/1-41U8Fhqpjb6bAn6tutWHWZgZsz41tklfs7E1kjSLOo/edit?usp=sharing).
+- Routing rules and distribution guidelines can be found [here](https://docs.google.com/document/d/1-41U8Fhqpjb6bAn6tutWHWZgZsz41tklfs7E1kjSLOo/edit?usp=sharing).
 - Address: 268 Bush St. #350 San Francisco, CA 94104
 
 ## OKRs
