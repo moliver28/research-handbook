@@ -318,10 +318,12 @@ We can publish blog posts in langauges other than english. We currently support 
 
 #### Translating a English blog post to other langauges
 
-Information about how to do that here
+Translating an English blog post to another language is as straightforward as updating the post in English. Contentful offers a feature called "Field level localization," which allows us to specify the fields on the blog post that we want to translate. In the right-hand navigation while on a blog post, there's a section labeled "Localization." By selecting locales in that section, we can show or hide localized fields based on the currently selected locales. Once these fields have been completed, simply hit publish, and the changes will go live on production in approximately five minutes.
+
+It's important to note that while we wait for Contentful to release locale-specific publishing (spring 2024), any draft content, regardless of language, will also be published.
 
 #### Publishing a blog post with no English equivalent
 
-Information about how to publish a blog post when English is not the source laugauge. 
+Publishing a blog post without an English equivalent follows the same process as "Translating an English blog post to other languages," with one minor difference. Contentful mandates that required fields cannot be left empty in English. To circumvent this requirement, a '#' character can be inserted into the English Title and Blog Body fields. This informs our system that the English blog post does not exist and should not generate a webpage for it.
 
-For example, and Japanese only blog post.
+Contentful is currently developing a solution to address this workaround, which is expected to be available by fall 2024.
