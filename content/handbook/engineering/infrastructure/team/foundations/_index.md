@@ -189,8 +189,8 @@ The team member on rotation is responsible for:
   - Are assigned to an [appropriate epic](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics?state=opened&page=1&sort=start_date_desc&label_name[]=team::Foundations) if applicable.
 - Asking issue authors for more information when needed to understand the scope of work.
 - Raising any `priority::1` or `priority::2` issues and ensuring they have a DRI and are being actively worked on.
-- Completing any issues that come up that can be completed during the week. Size M can be considered depending on the priority.
-   - Anything size L or larger (more than 1 week of work) should be made clear that it will need to be scheduled around other work.
+- Completing any issues that come up that can be completed during the week. Weight 5 issues can be considered depending on the priority.
+   - Anything weight 8 or larger (more than 1 week of work) should be made clear that it will need to be scheduled around other work.
 - Responding to alerts in [`#g_infra_foundations_alerts`](https://gitlab.enterprise.slack.com/archives/C04Q7RQC7FF).
 - Working on Renovate MRs posted in [`#g_infra_foundations_notifications`](https://gitlab.enterprise.slack.com/archives/C04RZC5TPPD).
    - Patch updates with passing pipelines should be merged.
