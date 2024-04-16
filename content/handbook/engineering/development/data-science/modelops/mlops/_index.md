@@ -7,7 +7,9 @@ description: "The MLOps team aims to empower GitLab customers to build and integ
 
 Our product [vision](https://about.gitlab.com/direction/modelops/mlops/#vision) is to augment GitLab such that Data Scientist and ML Engineers work together in GitLab to build, experiment, deploy, monitor and keep models secure and up-to-date. Their processes are governable, reproducible, automated, collaborative, scalable, and monitored.
 
-## Mission
+## Team 
+
+### Mission
 
 We exist to bring Data Scientist and ML Engineers into GitLab to collaborate and contribute! 
 
@@ -23,9 +25,16 @@ The following people are permanent members of the Model Validation Group:
 | [Alper Akgun](/handbook/company/team/#alperakgun) | Staff Fullstack Engineer |
 | [Kevin Chu](/handbook/company/team/#kevinchu) | Product Manager |
 
-## How to contact us
+### How to contact us
 
 - Tag a team member in a merge request or issue
 - Post a message in the [#g_mlops](https://gitlab.enterprise.slack.com/archives/C01ESHPNHS9) Slack channel (internal only)
+
+## Performance Indicators
+
+[TBD]
+
+We will add relevant and publically shareable information here.
+
 
 
