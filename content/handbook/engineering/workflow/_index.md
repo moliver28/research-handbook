@@ -63,14 +63,16 @@ There are two phases for fixing a broken `master` incident which have a target S
 | [Triage](#triage-broken-master) | 4 hours from the initial broken `master` incident creation until assignment | group labelled on the incident |
 | [Resolution](#resolution-of-broken-master) | 4 hours from assignment to DRI until incident is resolved | Merge request author or team of merge request author or dev on-call engineer |
 
-Note: if an incident occurs when no triage DRI is expected to be online, the SLO is allowed to be missed. The next available group member should ensure all incidents that have missed their SLAs are triaged. For an incident that becomes a blocker for MRs and deployments, the team member being impacted should refer to the [broken `master` escalation](#broken-master-escalation) steps to request help from the current [engineer on-call](/handbook/engineering/infrastructure/incident-management/#who-is-the-current-eoc).
+Note: Untriaged incidents are negatively impacting master pipeline stability and development velocity. Any untriaged incident will be automatically escalated to dev-on-call within 30 minutes of inactivity, following a Slack reminder to the attributed channel, to ensure the triage SLO is met. Before escalation, if an incident becomes a blocker for MRs and deployments, the team member being impacted should refer to the [broken `master` escalation](#broken-master-escalation) steps to request help from the current [engineer on-call](/handbook/engineering/infrastructure/incident-management/#who-is-the-current-eoc) as early as needed.
 
 
 Additional details about the phases are listed below.
 
 ### Broken `master` escalation
 
-If a broken `master` is blocking your team (such as creating a security release) then you should:
+As mentioned above, broken `master` incidents are automatically escalated unless it is triaged by a triage DRI within 30 minutes.
+
+If a broken `master` is blocking your team before auto-escalation (such as creating a security release) then you should:
 
 1. See if there is a non-resolved [broken `master` incident](https://gitlab.com/gitlab-org/quality/engineering-productivity/master-broken-incidents/-/issues) with a DRI assigned and check discussions there.
 1. Check discussions on the failure notification in the triage DRI's group Slack channel to see if anyone is investigating the incident you are looking at. See [Triage broken master](#triage-broken-master) for information on who the triage DRI is.
