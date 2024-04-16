@@ -204,20 +204,9 @@ To view members of Google Groups, reference the [Google Workspace group member r
 
 ## Company Mail
 
-The mail is forwarded weekly to the CFO's Sr. EBA and will be distributed accordingly.
-
-- Mail addressed to Sytse 'Sid' Sijbrandij - contact the EBA to CEO for next steps.
-- Incoming checks for deposit - scan and email to the PAO, Controller, Director of Revenue and Sr. Billing Manager; then send for deposit.
-- Mail from Comerica - scan and email to the Controller and Sr. Billing Manager.
-- Mail addressed to Legal - contact the CLO for next steps.
-- Mail related to tax documents - scan and email to the PAO, Director of Tax and Controller.
-- Mail related to employment, payroll, workers compensation, court orders - mail to designated Payroll Specialist.
-- Mail related to unemployment claims - scan and email to the [designated People Connect Team member](/handbook/people-group/offboarding/#us-unemployment-claim-management) at `people-connect@gitlab.com`.
-- Mail addressed to AP - scan and email to ap@gitlab.com.
-- Mail addressed to Meltano - scan and email to the contact person as listed in the Company Mail doc.
-- All human resources related documents will be sent to a designated team member on the People Group Team.
-- The Sr. EBA to the CFO is responsible for all remaining mail, which will be dispersed accordingly to specific individuals.
-- More information can be found [here](https://docs.google.com/document/d/1EwaqZpivB2b7tozZNV6iaFzIpNePIM4HsLbk62Ym0lQ/edit#).
+- GitLab uses a domestic enterprise mail service called Stable to retrieve mail from our UPS box to then be scanned and routed to the appropriate recipients.
+- Routing rules and distribution guidelines can be found [here](https://docs.google.com/document/d/1-41U8Fhqpjb6bAn6tutWHWZgZsz41tklfs7E1kjSLOo/edit?usp=sharing).
+- Address: 268 Bush St. #350 San Francisco, CA 94104
 
 ## OKRs
 
