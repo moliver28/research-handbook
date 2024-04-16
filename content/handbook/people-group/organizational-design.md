@@ -89,9 +89,9 @@ Some questions you can consider to aid in this planning process include:
 
 Now that you have determined an organizational change is required and have a strategy in place, it’s helpful to ensure the goals of the organizational change are clear and aligned to our CREDIT values. Defining goals is critical to accomplish two core objectives:
 
-1. Supports the change process: Consider that you will need to bring others along on this journey. Effective change management requires all those impacted to understand why the change was made, what the change entails, and why the change helps us build a foundation for high performance through an optimal team structure. Defining goals up front also enables us to measure success in the future. 
+1. **Supporting the change management process**: Consider that you will need to bring others along on this journey. Effective change management requires all those impacted to understand why the change was made, what the change entails, and why the change helps us build a foundation for high performance through an optimal team structure. Defining goals up front also enables us to measure success in the future. 
 
-2. Objective decision making: Ensuring you have a northstar or clearly defined goals in place help ensure fairness and consistency in decision making, enable a stronger communication plan, and help you measure the success of the org change following the event. 
+2. **Objective decision making**: Ensuring you have a northstar or clearly defined goals in place help ensure fairness and consistency in decision making, enable a stronger communication plan, and help you measure the success of the org change following the event. 
 
 ### Org Design Decisions
 
