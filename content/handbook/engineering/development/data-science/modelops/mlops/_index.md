@@ -30,6 +30,22 @@ The following people are permanent members of the Model Validation Group:
 - Tag a team member in a merge request or issue
 - Post a message in the [#g_mlops](https://gitlab.enterprise.slack.com/archives/C01ESHPNHS9) Slack channel (internal only)
 
+### How we work together
+
+We are a small team and as we ramp up in a greenfield space favor tight connections and coordinations over rigid prescribed processes. 
+
+To keep others informed, we aim to:
+
+On a weekly basis:
+
+1. Publish a [weekly report](https://gitlab.com/gitlab-org/modelops/mlops/announcements/-/issues) highlighting our accomplishments, focus, discussion, and other relevant progress.
+
+On a monthly basis:
+
+1. Publish our plans for the upcoming milestone
+1. Update our ever-green [MLOps Direction page](https://about.gitlab.com/direction/modelops/mlops/)
+1. Include any shipped features in the [GitLab Release Post](https://handbook.gitlab.com/handbook/marketing/blog/release-posts/)
+
 ## Performance Indicators
 
 [TBD]
