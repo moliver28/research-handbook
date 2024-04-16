@@ -151,7 +151,7 @@ At this time, the Red Team **will not**:
 - Attempt to access resources inside a GitLab team member's home (wireless networks, non-GitLab machines, etc).
 - Attempt to access the camera or microphone on any device without explicit permission from its owner.
 - Attempt to socially engineer team members via channels not managed by GitLab (such as social networks, personal email addresses, etc).
-- Directly call or SMS team member's personal phone numbers.
+- Directly call or SMS team member's personal phone numbers, except in the case where team members explicitly opt-in and actively provide their contact information on a volunteer basis.
 - Attempt to access the web browsing history of any team member.
 - Attempt to gain access to anything that is not strictly work-related and managed/owned by GitLab.
 
