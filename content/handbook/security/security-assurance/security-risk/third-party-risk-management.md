@@ -135,13 +135,13 @@ New requisitions entered for vendors within the [**Approval Window**](#tprm-appr
 
 - **Change in data classification**, such as going from Yellow to Orange data classification.
 - **Addition of a new system not in the scope of the previous review.** For example, vendor XYZ was reviewed for procurement of their **Billing** system, but a new request has come in for the purchase of their **Revenue** system.
-- **Change of location where data is stored or transmitted**, such as migrating data from a GitLab-hosted app to a vendor-hosted SaaS solution.
+- **Change of location where data is stored or transmitted**, such as migrating data from a GitLab-hosted environment to a vendor's SaaS solution.
 - **Addition of new contractors that are not subject to the vendor's security controls.**
-- **Introduction of AI functionality within a system.**
+- **Introduction of new AI functionality within a system.**
 
-Prior to launching a new review, dilligence should be performed to determine whether the previous review provides assurance over the new system. This can be completed by reviewing the previously-provided documentation for coverage, or by performing inquiry with the vendor directly. If sufficient assurance does not exist, or the change is believed to introduce additional risk to GitLab, the Security Risk team may require the completion of a new TPRM review prior to approving the requisition. If a material change has not occured, and the approval window requirement is met, the requisition may be approved without the need for a new assessment.
+Prior to launching a new review, dilligence should be performed to determine whether the previous review provides assurance over the new system. This can be completed by reviewing the previously-provided documentation for coverage or by performing inquiry with the vendor directly. If sufficient assurance does not exist, or the change is believed to introduce additional risk to GitLab, the Security Risk team may require the completion of a new TPRM review prior to approving the requisition. If a material change has not occured, and the approval window requirement is met, the requisition may be approved without the need for a new assessment.
 
-Vendors occasionally implement changes between contracting cycles that could introduce previously unidentified risks, such as the introduction of new AI features or sub-service providers. Stakeholders are encouraged to notify the Security Risk team upon notification of these changes, and if necessary may be directed not to allow, utilize, or enable such functionality until a new assessment has been completed. Upon notification such changes, the Security Risk team will follow the above procedures to determine whether a new review is necessary.
+Vendors occasionally implement changes between contracting cycles that could introduce previously unidentified risks, such as the introduction of new AI features or sub-service providers. Stakeholders are encouraged to notify the Security Risk team upon becoming aware of these changes, and if necessary may be directed not to allow, utilize, or enable such functionality until a new assessment has been completed. Upon notification such changes, the Security Risk team will follow the above procedures to determine whether a new review is necessary.
 
 **Note:** Circumstances may exist outside of those defined above that could necessitate further review. TPRM Engineers are encouraged to use professional discretion in identifying these circumstances and perform additional review or validation as needed.
 
