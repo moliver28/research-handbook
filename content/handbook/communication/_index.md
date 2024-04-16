@@ -1270,11 +1270,11 @@ For additional questions, please address in the [issue](https://gitlab.com/gitla
 
 To use the "Slack Down!" group chat on Zoom:
 
-1. In the Zoom desktop app go to the *Contacts* tab
+1. In the Zoom desktop app go to the `Team Chat` tab
 1. Click `+`
-1. Click "Join a Channel"
-1. Search "Slack down!"
-1. Click "Join"
+1. Click `Join a Channel`
+1. Search `Slack down!`
+1. Click `Join``
 
 Once service is restored, go back to Slack.
 
