@@ -75,7 +75,7 @@ After there is insight into a problem with the navigation, the Product team DRI 
 1. Review the [list of navigation changes](/handbook/product/ux/navigation/#what-are-navigation-changes) and what they are to make sure your change qualifies.
 1. The [Product Manager for Foundations](/handbook/product/categories/#foundations-group) is the [DRI](/handbook/people-group/directly-responsible-individuals/#what-is-a-directly-responsible-individual) for navigation changes. Reach out to them to determine whether your proposal needs [full validation](#full-validation-path) or [limited validation](#limited-validation-path).
 1. You can initiate the review for this process by using the [Navigation Proposal](https://gitlab.com/gitlab-org/gitlab/-/issues/new?issuable_template=Navigation%20Proposals) issue template.
-1. Designers on Foundations will assist the DRI in reviewing the proposal and provide input. The typical turnaround time from the Foundations team will be 1 milestone.
+1. Designers on Foundations will assist the DRI by reviewing the proposal and providing input. The typical turnaround time from the Foundations team will be 1 milestone. After providing feedback, it is the responsibility of the DRI to move the proposal forward and seek additional feedback as needed.
 1. When you have approval and are ready to start implementation, then follow the [GitLab Docs on adding items to the navigation](https://docs.gitlab.com/ee/development/navigation_sidebar.html#adding-page-specific-vue-content).
 
 ### Full validation path
