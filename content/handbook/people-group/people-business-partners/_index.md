@@ -38,7 +38,6 @@ Please reach out to your aligned People Business Partner (PBP) to engage in the 
 
 Remaining Divisions : Departments:  
 
-- CEO : CEO
 - Sales : Business Development and Strategic Partnerships
 - Sales : Consulting Delivery
 - Sales : eCommerce
