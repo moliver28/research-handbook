@@ -136,6 +136,28 @@ Our team hosts the Channel Partner webinar using On24. Details on how this opera
 
 - [Marketo Program set up](/handbook/marketing/marketing-operations/on24/#connecting-on24-web-events-to-marketo-programs)
 
+## MDF Program Introduction 
+GitLab Marketing Ready partners have access to the proposal-based GitLab Marketing Development Funds (MDF) Program. These funds are intended to support our partners' demand generation efforts.
+
+#### MDF Investment Objectives:
+- Demand Generation
+      - The objective of these activities is to gain net-new end-user customers for you and GitLab. Examples of eligible activities include seminars, workshops, telemarketing or email marketing campaigns, participation in tradeshows, exhibitions, and direct mail.
+      - Eligible costs may include mailing costs, fulfillment items, lead qualification, distribution, venue costs, food and beverages (excluding alcoholic beverages), speakers’ fees, management costs, and lead capturing costs. 
+      - GitLab supports a limited number of partners in the selected regions, please check your eligibility with your regional [Partner Account Manager](https://partners.gitlab.com/English/?ReturnUrl=/prm/English/c/marketing-contact-cam) and [Channel Marketing Manager](https://handbook.gitlab.com/handbook/marketing/channel-marketing/#meet-the-team).
+
+- To be considered for funding support you must:
+      - Be a Marketing Ready GitLab Partner. Marketing ready means:
+         - partner has an approved business plan with GitLab
+         - has a list of focus accounts mapped with GitLab
+         - has a dedicated person who manages leads sent to the partner by GitLab (Partner Prospect Admin)
+         - acknowledges the [lead passing and recall process](https://handbook.gitlab.com/handbook/marketing/marketing-operations/vartopia/#partner-recall)
+         - has a dedicated marketing responsible person to work on the join activities with GitLab
+         - has regular calls with the GitLab Channel Marketing Manager
+         - acknowledges the [MDF Policy](https://handbook.gitlab.com/handbook/resellers/channel-program-guide/mdf/) and requirements for MDF process (Requests and Claims)
+      - Comply with GitLab [Proof of Performance (POP)](https://handbook.gitlab.com/handbook/resellers/channel-program-guide/mdf/#funds-reimbursement-requirements) requirements for the activity
+      - Meet minimum required MDF request amount of $1,000 USD
+      - GitLab will cover up to 50% of the total cost of the activity
+
 ## Requesting MDF funds
 - Marketing Ready Channel partners with marketing plans in place will submit [MDF proposals through the Partner Portal](https://partners.gitlab.com/English/Partner/SFDC/MDF2/Request/Create), and GitLab approvers will be notified of the request via email.
     - The MDF proposal will go through 2 levels of approvals
@@ -177,14 +199,30 @@ Details are listed out in the [MDF handbook](/handbook/resellers/Channel-Program
 
 These activities are captured as `Campaign Type Details` on the campaign level in Salesforce.com for `Partner - MDF` [Campaign Type](/handbook/marketing/marketing-operations/campaigns-and-programs/#campaign-type--progression-status) only.
 
+
 ## Requesting Swag for Channel Events and Awards
 
-CMMs can now order swag for approved co-marketing events or other approved awards through Channel Marketing’s partner swag portal.  Please allow 10-15 business days for the approval and processing of your request plus additional shipping time. The event start date cannot be within 3 weeks of the request as items may not arrive in time. Please allow plenty of time for the Swag to be delivered.
+We offer Marketing Kit Swag for Marketing Ready partner, these kits consists of:
+   - Banner stand
+   - Table Cloth
+   - 1000 stickers
+   - 200 Swag items (examples would be: colorful cable set, iPhone stand, bottle opener key chain, etc) 
+Please work with your Channel Marketing Managers to order your Marketing Kits. 
 
-**Please follow the following steps to get your swag ordered**
-1. Reach out to your Channel Marketing Managers
-2. Have the following information ready: date of the event, contact information and shipping address
-3. CMMs will coordinate with the PAM/PTM/Parnter directly to get the items shipped
+
+## Concierge Program
+The Partner Concierge Program was created to help support partners to promote campaigns in their social channels by using a through-channel marketing automation platform to empower partners to market to their customers using co-branded campaigns.
+The tool is known as TCMA Demand Generation and it will be known for Partners as the Marketing Center within the Partner Portal.
+Partners will have a monthly meeting with the Program’s Manager and receive a customized content calendar that best suits their needs. 
+In the Marketing Center, Partners will have access to real time reporting.
+
+##### Key Features:
+Social Syndication - SMARTlink technlogy directs each call to action to the relevant Showcase page that belongs to the partner whose post generated the demand.
+Lead Management - gives your partners the ability to manage all the leads generated within the TCMA system via our simple dashboard.
+
+##### How to Participate:
+Reach out to partner-marketing@gitlab.com with the subject line: Partner Concierge Program and we will respond within 1 business day to schedule an introductory meeting.
+
 
 ## Partner Instant Marketing Campaign
 
