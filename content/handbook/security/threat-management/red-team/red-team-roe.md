@@ -141,7 +141,7 @@ During a [stealth operation](#stealth-operations), the Red Team may:
 - Exploit vulnerabilities and abuse insecure configurations in any system owned and managed by GitLab.
 - Attempt digital social engineering (email, Slack, GitLab issues, etc) and attacks on the software supply chain.
 
-If you are a team member at GitLab and suspect you have uncovered a stealth red team operation in the course of your daily work, please refer to the "[Is This Red Team?]({{< ref "_index.md/#is-this-the-red-team" >}})" section.
+If you are a team member at GitLab and suspect you have uncovered a stealth red team operation in the course of your daily work, please first report this to your manager and refer to the "[Is This Red Team?]({{< ref "_index.md/#is-this-the-red-team" >}})" section.
 
 At this time, the Red Team **will not**:
 
