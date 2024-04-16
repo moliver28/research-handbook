@@ -88,11 +88,6 @@ Open planned work for our team is located in the [Production Engineering](https:
 
 - If there is a service label that is applicable, also apply that.
 
-### Corrective Actions and Security Issues
-
-`~Severity::1`/`~Severity::2` Corrective Actions and `~reliability::P1`/`~reliability::P2` Security issues are, by default, prioritized over all other types work.
-``By default,`~Severity::1`/`~Severity::2` Corrective Actions and `~reliability::P1`/`~reliability::P2` Security issues are prioritized over all other issue types.
-
 ### Processes
 
 #### Monthly Availability Updates
