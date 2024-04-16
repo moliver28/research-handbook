@@ -138,7 +138,12 @@ During a [stealth operation](#stealth-operations), the Red Team may:
 - Authenticate as any team member using credential data discovered on any GitLab-managed resource (passwords, access tokens, SSH keys, etc).
 - Attempt to gain access to any resource in GitLab's cloud environments, and use those resources to escalate privileges and move laterally in the cloud.
 - Exploit vulnerabilities and abuse insecure configurations in any system owned and managed by GitLab.
-- Attempt digital social engineering (email, Slack, GitLab issues, etc) and attacks on the software supply chain.
+- Conduct social engineering using techniques like:
+  - Creating fake identities and using them to engage with team members over GitLab-managed channels like email, Slack, Zoom, GitLab.com issues and merge requests, etc.
+  - Creating web sites that appear to be legitimate copies of items in our tech stack, sending the URLs to team members over those GitLab-managed channels, collecting credentials entered into those sites and attempting to re-use them in the legitimate application.
+  - Sending calendar invites and meeting requests over those GitLab-managed channels, and speaking over voice or video call with team members who join those meetings or call the provided numbers.
+- Other forms of social engineering that impersonate GitLab team members, vendors, customers, partners, etc. and are directed towards GitLab owned or managed services such as email, authentication providers, job postings, etc. where the social engineering attempts do not directly target personal devices or services.
+Execute supply-chain related attack techniques like dependency confusion, pipeline injections, and malicious code commits.
 
 If you are a team member at GitLab and suspect you have uncovered a stealth red team operation in the course of your daily work, please refer to our deconfliction process mentioned in the "[Is This Red Team?]({{< ref "_index.md/#is-this-the-red-team" >}})" section.
 
@@ -146,8 +151,8 @@ At this time, the Red Team **will not**:
 
 - Attempt to access resources inside a GitLab team member's home (wireless networks, non-GitLab machines, etc).
 - Attempt to access the camera or microphone on any device without explicit permission from its owner.
-- Attempt to socially engineer team members via phone calls.
 - Attempt to socially engineer team members via channels not managed by GitLab (such as social networks, personal email addresses, etc).
+- Directly call or SMS team member's personal phone numbers, except in the case where team members explicitly opt-in and actively provide their contact information on a volunteer basis.
 - Attempt to access the web browsing history of any team member.
 - Attempt to gain access to anything that is not strictly work-related and managed/owned by GitLab.
 
