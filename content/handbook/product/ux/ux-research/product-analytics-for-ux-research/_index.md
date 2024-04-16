@@ -30,7 +30,7 @@ _In order of most to least relevant to UX Researchers:_
 - [DBT](https://dbt.gitlabdata.com/#!/overview) (Explains the underlying code and column definitions of all GitLab data sets)
 
 ![Simplified usage data stack](datastack_simple.png)
-Simplified usage data stack, based on our [data stack](https://handbook.gitlab.com/handbook/business-technology/data-team/platform/#i-classfas-fa-cubes-fa-fw-stylecolorrgb25210938-font-size85em-aria-hiddentrueiour-data-stack)
+The above illustration shows a simplified version of GitLab's usage data stack, based on [this document.](https://handbook.gitlab.com/handbook/business-technology/data-team/platform/#i-classfas-fa-cubes-fa-fw-stylecolorrgb25210938-font-size85em-aria-hiddentrueiour-data-stack)
 
 #### Getting Access
 Complete an [access request to use Tableau](https://handbook.gitlab.com/handbook/business-technology/data-team/platform/tableau/#tableau-online-access). Some UX Researchers have Explorer roles, and some have Viewer roles - if you want to see the differences in capabilities between the two roles, [check this handbook page](https://handbook.gitlab.com/handbook/business-technology/data-team/platform/tableau/#capabilities). 
