@@ -52,7 +52,7 @@ The Senior Procurement Operations Analyst is a [grade 6](/handbook/total-rewards
 
 - Extends the Procurement Operations Analyst (Intermediate) requirements
 
-### Procurement Category Manager
+
 
 #### Procurement Category Manager (Intermediate) Job Grade
 
@@ -85,6 +85,40 @@ The Procurement Category Manager is a [grade 7](/handbook/total-rewards/compensa
 - You share our values, and work in accordance with those values
 - Proficient in Google Docs
 - Ability to use GitLab
+
+#### Travel and Expense Manager (Intermediate) Job Grade
+
+The Travel and Expense Manager is a [grade 7](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+
+#### Travel and Expense Manager (Intermediate) Responsibilities
+
+- Lead and manage GitLab’'s corporate travel and expense programs and policies, including preferred travel vendors, travel management company, expense management partner, and company credit card program
+- Manage day-to-day operations of the travel program, including working with travel security platform and updating and maintaining the travel policy and information page in the GitLab Handbook
+- Implement processes and reporting to drive policy compliance
+- Measure and benchmark program performance to identify further opportunities for improvement
+- Analyze data to identify opportunities for cost savings and process improvements
+- Provide timely reporting on KPI’s, spend, savings, and other travel and expense metrics to internal stakeholders including executive leadership
+- Deliver reporting and analysis to support executives and finance teams in managing travel and expense budgets and achieving goals
+- Manage communications and change management related to program enhancements, policy changes, non-compliance, etc.
+- Work closely with Expense auditing team to ensure T&E auditing and other program support is delivered in line with agreed policies, processes and SLAs
+- Negotiate the most cost effective global/regional/local arrangements with airlines, travel agencies, hotels,  car rental companies and corporate cards to ensure the company receives the best possible quality of products and services at the lowest possible cost
+- Maintain relationships with suppliers to ensure best-in-class service and competitive pricing
+
+#### Travel and Expense Manager (Intermediate) Requirements
+
+- 7+ years experience as a Global Travel Manager, or relevant Travel industry experience
+- Strong knowledge of industry leading travel and expense systems
+- Proficiency in corporate card program trends and best practices
+- Experience with the design and implementation of corporate travel and expense programs
+- Proven track record of achieving travel category savings via sourcing, demand management and/or policy compliance
+- Excellent negotiation skills with the ability to manage and develop supplier relationships.
+- Experience working with and servicing a global team
+- Top level customer service and communications skills
+- Strong leadership, project management, and organization skills
+- Demonstrated ability to influence and lead others while also working independently in a fast-paced work environment
+- Excellent judgment with ability to maintain high degree of confidentiality as it relates to sensitive financial transactions
+- Bachelor’s degree preferred
+
 
 ### Manager, Procurement
 
