@@ -114,6 +114,7 @@
 /content/handbook/engineering/development/data-science/ai-powered/custom-models @oregand @m_gill @timzallmann @sean_carroll
 /content/handbook/engineering/development/data-science/ai-powered/duo-chat @juan-silva @m_gill @timzallmann
 /content/handbook/engineering/development/data-science/ai-powered/model-validation @mray2020 @pcalder
+/content/handbook/engineering/development/data-science/modelops/ @bmarnane @pcalder @mray2020
 /content/handbook/engineering/development/database.md @alexives
 /content/handbook/engineering/development/dev/ @timzallmann
 /content/handbook/engineering/development/dev/create/ @dsatcher
@@ -418,6 +419,7 @@
 /content/handbook/hiring/ @rallen3 @jdallmar @jakefoster1 @r_kahn
 /content/handbook/labor-and-employment-notices/ @pegan @wendybarnes @cgudgenov @streas @sytses
 /content/handbook/people-group/ @wendybarnes @pegan @cbednarz @rallen3 @mpatel8 @cgudgenov
+/content/handbook/people-group/people-business-partners/_index.md @cbednarz @anjali_kaufmann
 /content/handbook/people-group/celebrations.md @wendybarnes @mpatel8
 /content/handbook/people-group/contracts-probation-periods.md @mpatel8 @shensiek @alex_venter @Mowry @nutaurus
 /content/handbook/people-group/employment-branding/ @drogozinski @cchiodo @rallen3
@@ -532,10 +534,12 @@
 
 ^[security]
 /content/handbook/security/ @joshlemos @jlongo_gitlab @plafoucriere @juliedavila
-/content/handbook/security/architecture/ @plafoucriere
 /content/handbook/security/identity/ @gitlab-com/gl-security/identity
-/content/handbook/security/product-security/ @juliedavila @jritchey
+/content/handbook/security/product-security/ @juliedavila
 /content/handbook/security/product-security/infrastructure-security.md @juliedavila
+/content/handbook/security/product-security/application-security/ @jritchey
+/content/handbook/security/product-security/architecture/ @plafoucriere
+/content/handbook/security/product-security/security-research/ @estrike
 /content/handbook/security/security-assurance/ @tdilbeck @corey-oas @jlongo_gitlab @lcoleman @cynthiamiller
 /content/handbook/security/security-operations/ @jfuentes2
 /content/handbook/security/security-operations/security-logging/ @mcoons
@@ -672,8 +676,8 @@
 /content/handbook/security/security-operations/secops-oncall.md @joshlemos @jlongo_gitlab @jfuentes2 @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/security/security-operations/sirt/sec-incident-response.md @joshlemos @jfuentes2 @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/security/security-operations/sirt/security-incident-communication-plan.md @joshlemos @jfuentes2 @gitlab-com/egroup @gitlab-com/content-sites
-/content/handbook/security/threat-management/vulnerability-management/ @smanzuik @estrike @gitlab-com/egroup @gitlab-com/content-sites
-/content/handbook/security/threat-management/vulnerability-management/encryption-policy.md @smanzuik @estrike @gitlab-com/egroup @gitlab-com/content-sites
+/content/handbook/security/product-security/vulnerability-management/ @juliedavila @estrike @gitlab-com/egroup @gitlab-com/content-sites
+/content/handbook/security/product-security/vulnerability-management/encryption-policy.md @juliedavila @estrike @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/security/token-management-standard.md @joshlemos @jlongo_gitlab @juliedavila @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/security/security-assurance/security-and-technology-policies-management.md @tdilbeck @corey-oas @lcoleman @jlongo_gitlab @cynthiamiller @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/security/software-development-lifecycle-policy.md @jlongo_gitlab @joshlemos @juliedavila @gitlab-com/egroup @gitlab-com/content-sites

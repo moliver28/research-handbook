@@ -83,6 +83,8 @@ These demos are meant for anyone in the CS org to use when they get asked a ques
 
 - [Code Suggestions Python Demo](https://gitlab.com/gitlab-learn-labs/webinars/ai/code-suggestions-python-demo): This demo takes the basic Simply Simple Notes application and shows how you can use code suggestions to quickly finish a restful API and rewrite an insecure application
 
+- [GitLab Duo Java Demo](https://gitlab.com/gitlab-learn-labs/webinars/ai/just-a-web-app-gitlab-duo): This demo takes the simple application and shows how you can use the full potential of GitLab Duo to quickly remediate vulnerabilities and generate code faster.
+
 #### [Analytics](https://gitlab.com/gitlab-learn-labs/webinars/analytics)
 
 - [DORA Metrics Demo](https://gitlab.com/gitlab-learn-labs/webinars/analytics/dora-metrics-demo): This demo is meant to show how you can take advantage of the built in DORA metrics that GitLab collects as well as the VSA dashboard

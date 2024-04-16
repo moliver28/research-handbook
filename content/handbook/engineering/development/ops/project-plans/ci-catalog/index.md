@@ -18,55 +18,38 @@ CI Catalog GA Epic: [https://gitlab.com/groups/gitlab-org/-/epics/12153](https:/
 |---------- | ----- | ----------- |
 |  ~17.0     | 2024-04-13 to 2024-05-10 | CI Catalog, Inputs, Components GA |
 
-### Additional Important Notes:
-
-- Awaiting feedback from security on [Threat Model](https://gitlab.com/gitlab-com/gl-security/appsec/threat-models/-/issues/43#note_1764196039) diagrams provided.
-
 ### Overall GA progress
 
 - Go-To GA [dashboard](https://epic-dashboard-gitlab-org-tenant-scale-group-4aecf10d1d02154641.gitlab.io/epic_12153)
 
-### Milestone 16.11 (March 16, 2024 - April 12, 2024)
+### Milestone 17.0 (April 13, 2024 - May 10, 2024)
 
-#### Goals:
-
-- Go-To GA efforts
-  - [Inputs](https://gitlab.com/groups/gitlab-org/-/epics/12464) for GA
-    - [Change catalog_resource_components.inputs to spec](https://gitlab.com/gitlab-org/gitlab/-/issues/443662) (In-Dev)
-    - ~~[CI Interpolation for arrays](https://gitlab.com/gitlab-org/gitlab/-/issues/407176)~~ (Complete)
-  - [Instrumentation](https://gitlab.com/groups/gitlab-org/-/epics/12415) for GA
-    - [Table creation for component tracking usage](https://gitlab.com/gitlab-org/gitlab/-/issues/440382) (In-Review)
+- Finish remaining Go-To GA efforts
+  - [Remove beta label for CI/CD Catalog](https://gitlab.com/gitlab-org/gitlab/-/issues/454306)
   - [Release Process Refinements](https://gitlab.com/groups/gitlab-org/-/epics/12338) for GA
-    - `release-cli` pre-GA [tasks](https://gitlab.com/gitlab-org/gitlab/-/issues/442066) (Remaining BE work In-Review)
-    - ~~[Support Self Managed components](https://gitlab.com/gitlab-org/gitlab/-/issues/434260)~~ (Complete)
+    - `release-cli` pre-GA [tasks](https://gitlab.com/gitlab-org/gitlab/-/issues/442066)
   - [Details page](https://gitlab.com/groups/gitlab-org/-/epics/12336) for GA
-    - [Relative URL breaks CI/CD component catalog project reference](https://gitlab.com/gitlab-org/gitlab/-/issues/450914) (FE work In-Review / BE work complete)
-    - ~~[Construct component path from parts (stop fetching it from the database)](https://gitlab.com/gitlab-org/gitlab/-/issues/441666)~~ (Complete)
-    - ~~[Remove the experimental label in the component tab](https://gitlab.com/gitlab-org/gitlab/-/issues/446052)~~ (Complete)
-- CI Catalog UX improvements
-  - ~~[Add badges for components](https://gitlab.com/gitlab-org/gitlab/-/issues/437893)~~ (Complete)
-    - NOTE: Backend [issue](https://gitlab.com/gitlab-org/gitlab/-/issues/451507) remains before badging starts showing up in CI Catalog.
-  - [Reorganize information in the detail](https://gitlab.com/gitlab-org/gitlab/-/issues/438262) (In-Review)
+    - [Relative URL breaks CI/CD component catalog project reference](https://gitlab.com/gitlab-org/gitlab/-/issues/450914)
+    - [Fix images not rendering on ReadMe tab](https://gitlab.com/gitlab-org/gitlab/-/issues/455516)
+- Finishing remaining badges work
+  - [Set verification_level on publish and fix enum mismatch](https://gitlab.com/gitlab-org/gitlab/-/issues/455530)
+  - [Allow service object to create `VerifiedNamespace` record](https://gitlab.com/gitlab-org/gitlab/-/issues/451507)
+    - NOTE: This is minimally needed to allow Support/SRE to apply badges for GitLab components and partners now.
+  - [Create API to support future requests for badge additions](https://gitlab.com/gitlab-org/gitlab/-/issues/451509)
+- Start Post-GA implementation work 
+  - [Update include syntax with a variable](https://gitlab.com/gitlab-org/gitlab/-/issues/446050)
+  - [Allow interpolation to use local context data](https://gitlab.com/gitlab-org/gitlab/-/issues/438275)
 
 ### Blockers:
 
 - No blockers at this time.
-
-### Milestone 17.0 (April 13, 2024 - May 10, 2024)
-
-- Post-GA implementation work 
-  - [Update include syntax with a variable](https://gitlab.com/gitlab-org/gitlab/-/issues/446050)
-  - [Visibility into where components are used](https://gitlab.com/gitlab-org/gitlab/-/issues/393326) 
-  - [Allow administrators to restrict users from publishing a component to a catalog](https://gitlab.com/gitlab-org/gitlab/-/issues/423015)
-- Streamlining process for badge requests
-  - [Allow service object to create `VerifiedNamespace` record](https://gitlab.com/gitlab-org/gitlab/-/issues/451507)
-    - NOTE: This work needs to be completed before SRE can apply GitLab-maintained badge to gitlab.com/components.
 
 ### Milestone 17.1 (May 11, 2024 - June 14, 2024)
 
 #### Goals:
 - Release/Publish 2.0 [enhancements](https://gitlab.com/groups/gitlab-org/-/epics/12788) - span multiple milestones
 - Admin [capabilities](https://gitlab.com/groups/gitlab-org/-/epics/12713) in CI/CD Catalog - span multiple milestones
+  - [Allow administrators to restrict users from publishing a component to a catalog](https://gitlab.com/gitlab-org/gitlab/-/issues/423015)
 - Analytics dashboards/Design Sprint [outcomes](https://gitlab.com/groups/gitlab-org/-/epics/12221) - span multiple milestones
 - [Support loading components in batches](https://gitlab.com/gitlab-org/gitlab/-/issues/402993)
 
@@ -89,6 +72,28 @@ CI Catalog GA Epic: [https://gitlab.com/groups/gitlab-org/-/epics/12153](https:/
 <details markdown="1">
 
 <summary markdown="span">Past Milestones</summary>
+
+### March to April (Milestone 16.11)
+
+#### Goals:
+
+- Go-To GA efforts
+  - [Inputs](https://gitlab.com/groups/gitlab-org/-/epics/12464) for GA (Complete)
+    - ~~[Change catalog_resource_components.inputs to spec](https://gitlab.com/gitlab-org/gitlab/-/issues/443662)~~ (Complete)
+    - ~~[CI Interpolation for arrays](https://gitlab.com/gitlab-org/gitlab/-/issues/407176)~~ (Complete)
+  - [Instrumentation](https://gitlab.com/groups/gitlab-org/-/epics/12415) for GA (Complete)
+    - ~~[Table creation for component tracking usage](https://gitlab.com/gitlab-org/gitlab/-/issues/440382)~~ (Complete)
+  - [Release Process Refinements](https://gitlab.com/groups/gitlab-org/-/epics/12338) for GA
+    - `release-cli` pre-GA [tasks](https://gitlab.com/gitlab-org/gitlab/-/issues/442066) (In-Verification)
+    - ~~[Support Self Managed components](https://gitlab.com/gitlab-org/gitlab/-/issues/434260)~~ (Complete)
+  - [Details page](https://gitlab.com/groups/gitlab-org/-/epics/12336) for GA
+    - [Relative URL breaks CI/CD component catalog project reference](https://gitlab.com/gitlab-org/gitlab/-/issues/450914) (FE work In-Review / BE work complete)
+    - ~~[Construct component path from parts (stop fetching it from the database)](https://gitlab.com/gitlab-org/gitlab/-/issues/441666)~~ (Complete)
+    - ~~[Remove the experimental label in the component tab](https://gitlab.com/gitlab-org/gitlab/-/issues/446052)~~ (Complete)
+- CI Catalog UX improvements
+  - ~~[Add badges for components](https://gitlab.com/gitlab-org/gitlab/-/issues/437893)~~ (Complete)
+    - NOTE: Backend [issue](https://gitlab.com/gitlab-org/gitlab/-/issues/451507) remains before badging starts showing up in CI Catalog.
+  - [Reorganize information in the detail](https://gitlab.com/gitlab-org/gitlab/-/issues/438262) (In-Review)
 
 ### February to March (Milestone 16.10)
 

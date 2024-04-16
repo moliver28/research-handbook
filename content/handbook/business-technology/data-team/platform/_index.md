@@ -101,6 +101,7 @@ The following table indexes all of the RAW data sources we are loading into the 
 | [Demandbase](https://www.demandbase.com/) | Snowflake task | `demandbase` | `demandbase` | Marketing | 24h / x | No | Tier 2 |
 | [Elastic Search Billing](https://www.elastic.co/guide/en/cloud/current/Billing_Costs_Analysis.html) | Airflow | `elasticsearch_billing` | `elastic_billing` | Engineering | 24h / 24h | No | Tier 2 |
 | [Facebook_ads](https://www.facebook.com/business/ads) | Fivetran | `facebook_ads` | `facebook_ads` | Marketing | 24h / 48h | No | Tier 3 |
+| Fivetran_Logs | Fivetran | `N/A` | `N/A` | Data | 24h / 48h | No | Tier 3 |
 | [Gainsight Customer Success](https://gitlab.gainsightcloud.com/v1/ui/home) | Fivetran | `gainsight_customer_success` | `gainsight_customer_success` | Customer Success | 24h / 48h | No | Tier 3 |
 | [GitLab.com](https://internal.gitlab.com/handbook/enterprise-data/platform/pipelines/saas-gitlab-com/) | pgp | `tap_postgres` | `gitlab_dotcom` | Product, Engineering | 12h / 55h | No | Tier 1 |
 | [GitLab Ops DB](https://internal.gitlab.com/handbook/enterprise-data/platform/pipelines/#gitlab-ops-database) | pgp | `tap_postgres` | `gitlab_ops` | Engineering | 6h / x | No | Tier 1 |
@@ -396,81 +397,77 @@ For more information, watch this [recorded pairing session](https://youtu.be/-vp
 
 ## Snowflake Provisioning Automation
 
-In FY25-Q1, we are moving towards semi-automating the above `Managing Roles for Snowflake` process.
+In FY25-Q1, we are moving towards semi-automating the above `Managing Roles for Snowflake` process, [OKR epic](https://gitlab.com/groups/gitlab-data/-/epics/1128). This will enable **all GitLab Team Members** to create a Snowflake user themselves with minimal support by the Data Platform Team. This will speed up the provisioning process and shorten the time a GitLab Team member can get access to Snowflake. 
+
+All GitLab Team Members are encouraged to open a MR following this [runbook](https://gitlab.com/gitlab-data/runbooks/-/blob/main/snowflake_provisioning_automation/snowflake_provisioning_automation.md) if they need access to Snowflake.
+
+High-level description of the process: 
+1. Open an Access Request and get the approvals in place
+1. Open an MR
+1. Run CI pipeline
+1. Review from Data Platform Team codeowner. 
 
 The rest of the section is meant to describe the automated process in more detail.
-Please see the runbook link if you're looking for specific step-by-step instructions to run this process: **WIP**.
-
-The main processes to automate are:
-- create/remove users from Snowflake platform
-- update `roles.yml` which is used by Permifrost to update permissions for roles/users
 
 
-### Automate create/remove users from Snowflake platform
+The main processes that have been automated are:
+1. create/remove users from Snowflake platform
+1. update `roles.yml` which is used by Permifrost to update Snowflake role/user permissions
 
-WIP
+Both of these processes will be made accessible via CI jobs so that the user can potentially self-serve, requiring just MR review/approval from a data engineer.
 
-### Automating roles.yml
+Both CI jobs follow a common pattern, the end user simply has to add/remove users from within the [`snowflake_usernames.yml`](https://gitlab.com/gitlab-data/analytics/-/blob/master/permissions/snowflake/snowflake_usernames.yml) file, and the CI job will run based on the changes to the file.
 
-On a high level, add/remove users from `roles.yml` via python script, based on the git diff in [`snowflake_usernames.yml`](https://gitlab.com/gitlab-data/analytics/-/blob/master/permissions/snowflake/snowflake_usernames.yml).
+### 1) Automate creating users/roles in Snowflake platform
 
-The `update_roles_yaml.py` script can be run like so:
-- locally in MR branch
-    - make command: `make update_roles`
-    - like a regular python script, i.e `python .../update_roles_yaml.py`
-- via CI job (WIP)
+Prior to running Permifrost, the users/roles need to be first created in Snowflake.
 
-#### Automating roles.yml: Default vs non-default values
+The `snowflake_provisioning_snowflake_users` CI job allows the user to create these users/roles in Snowflake.
 
-`roles.yml` has 3 main keys:
-- databases
-- users
-- roles
+See the [CI jobs page](https://handbook.gitlab.com/handbook/business-technology/data-team/platform/ci-jobs/#snowflake_provisioning_snowflake_users) for more information on the available arguments and default values.
 
-For each new user, a default value is added for 2/3 keys (no default value for databases):
-```yml
-# `roles` default value
-- user1:
-    member_of:
-        - snowflake_analyst
-    warehouses:
-        - dev_xs
+### 2) Automating roles.yml
 
-# `users` default value
-- user1:
-    can_login: yes
-    member_of:
-        - user1
+Once the users/roles have been created in Snowflake, `roles.yml` needs to be updated to reflect the desired permissions.
 
-# `databases`: no default value
-```
+The `snowflake_provisioning_roles_yaml` CI job allows the end user to automatically update `roles.yml` with the desired permissions.
 
-For each of the arguments, non-default values can be used instead as well:
-- `--usernames-to-add`: instead of using the git diff, you can pass in usernames like so `--usernames-to-add username1 username2`
-- `--usernames-to-remove`: instead of using the git diff, you can pass in usernames like so `--usernames-to-remove username1 username2`
-- `--databases-template, --roles-template, --users-template`: you can pass in a valid JSON as a string, please see more details in the next section.
+See the [CI jobs page](https://handbook.gitlab.com/handbook/business-technology/data-team/platform/ci-jobs/#snowflake_provisioning_roles_yaml) for more information on the available arguments and default values.
 
-#### Automating roles.yml: Custom Template Arguments
+Furthermore, the next section provides additional details on optional **templated** arguments within `snowflake_provisioning_roles_yaml` CI job:
+
+<details><summary>Optional Templated Arguments</summary>
+
+##### Custom Templates
 
 This is useful if you have many users that need a value different from the default. One option would be to run with the default values, and then manually update the MR, but depending on the number of users to update, a potentially better option is to pass in a custom values template.
 
 The rest of the section will do two things:
 1. Explain how templates work
-1. For convenience, provide custom templates that represent current values in `roles.yml`
+1. For convenience, provide custom templates that represent common values currently used in `roles.yml`
 
-To illustrate how templates work, let's start with an example. This is the default *users template*:
+To illustrate how templates work, let's start with an example. This is the default *roles template*:
 ```json
 {
   "{{ username }}": {
-    "can_login": true,
     "member_of": [
-      "{{ username }}"
+      "snowflake_analyst"
+    ],
+    "warehouses": [
+      "dev_xs"
     ]
   }
 }
 ```
 
 This is valid JSON, but note that it is **templated**. That is, `{{ username }}` is a Jinja template, and the template will be later rendered to an actual value within the script.
+
+Now, an example of when we want to override the default value above. What happens if for the next batch of users, we want them to also have `dev_m` warehouse?
+
+Within the CI job, we could pass in a custom template to override the default value like so:
+```
+ROLES_TEMPLATE: {"{{username}}": {"member_of": ["snowflake_analyst"],"warehouses": ["dev_xs", "dev_m"]}}
+```
 
 Currently, these are the available template-able values that will be rendered:
 - `{{ username }}`
@@ -481,46 +478,53 @@ Currently, these are the available template-able values that will be rendered:
 - `{{ prod_tables }}`
 - `{{ prep_tables }}`
 
-To use the example template above, you would pass it in as a string like so:
-```
-python ./update_roles_yaml.py \
---users-template '{"{{ username }}": {"can_login": true, "member_of": ["{{ username }}"]}}'
-```
-
-#### Automating roles.yml: Common Templates
+#### Common Custom Templates
 
 This section is meant to provide custom templates (non-default values) that represent common-occurring values in `roles.yml` that can be copy/pasted for use.
-
 
 - *Default* denotes that this is the template used if not explicitly overridden.
 - *Common* denotes that while the template is not used by default, these values are still commonly used within roles.yml
 
 ##### Databases
 
-- Default: None
-- Common: create a personal prep/prod database for each user:
+- Default: None, no databases are added
+- Common: CI job argument to create a personal prep/prod database for each user:
     ```sh
-    --databases-template '[{"{{ prod_database }}": {"shared": false}}, {"{{ prep_database }}": {"shared": false}}]'
+    DATABASES_TEMPLATE: [{"{{ prod_database }}": {"shared": false}}, {"{{ prep_database }}": {"shared": false}}]
     ```
 
 ##### Roles
 
 - Default:
     ```sh
-    --roles-template '{"{{ username }}": {"member_of": ["snowflake_analyst"], "warehouses": ["dev_xs"]}}'
+    ROLES_TEMPLATE: {"{{ username }}": {"member_of": ["snowflake_analyst"], "warehouses": ["dev_xs"]}}
     ```
-- Common- create a role for a data engineer:
+- Common- CI job argument to create a role for a data engineer:
     ```sh
-    --roles-template '{"{{ username }}": {"member_of": ["engineer","restricted_safe"],"warehouses": ["dev_xs","dev_m","loading","reporting"],"owns": {"databases": ["{{ prep_database }}","{{ prod_database }}"],"schemas": ["{{ prep_schemas }}","{{ prod_schemas }}"],"tables": ["{{ prep_tables }}","{{ prod_tables }}"]},"privileges": {"databases": {"read": ["{{ prep_database }}","{{ prod_database }}"],"write": ["{{ prep_database }}","{{ prod_database }}"]},"schemas": {"read": ["{{ prep_schemas }}","{{ prod_schema }}"],"write": ["{{ prep_schemas }}","{{ prod_schema }}"]},"tables": {"read": ["{{ prep_tables }}","{{ prod_tables }}"],"write": ["{{ prep_tables }}","{{ prod_tables }}"]}}}}'
+    ROLES_TEMPLATE: {"{{ username }}": {"member_of": ["engineer","restricted_safe"],"warehouses": ["dev_xs","dev_m","loading","reporting"],"owns": {"databases": ["{{ prep_database }}","{{ prod_database }}"],"schemas": ["{{ prep_schemas }}","{{ prod_schemas }}"],"tables": ["{{ prep_tables }}","{{ prod_tables }}"]},"privileges": {"databases": {"read": ["{{ prep_database }}","{{ prod_database }}"],"write": ["{{ prep_database }}","{{ prod_database }}"]},"schemas": {"read": ["{{ prep_schemas }}","{{ prod_schema }}"],"write": ["{{ prep_schemas }}","{{ prod_schema }}"]},"tables": {"read": ["{{ prep_tables }}","{{ prod_tables }}"],"write": ["{{ prep_tables }}","{{ prod_tables }}"]}}}}
     ```
 
 ##### Users
 
 - Default:
     ```sh
-    --users-template '{"{{ username }}": {"can_login": true, "member_of": ["{{ username }}"]}}'
+    USERS_TEMPLATE: {"{{ username }}": {"can_login": true, "member_of": ["{{ username }}"]}}
     ```
-- Common: n/a
+- Common: N/A. There are no other templates that we currently use for users
+
+</details>
+
+#### Automating roles.yml: Project Access Token
+
+The `snowflake_provisioning_roles_yaml` CI job runs `update_roles_yaml.py` which updates `roles.yml` file.
+
+The changes to `roles.yml` within the CI job are **pushed back to the branch/MR**.
+
+In order to push to the repo from within the CI pipeline, a [Project Access Token](https://docs.gitlab.com/ee/user/project/settings/project_access_tokens.html) (PAT) is needed, more info pushing to the remote repo in this [StackOverflow answer](https://stackoverflow.com/a/73394648).
+
+The PAT is named `snowflake_provisioning_automation` and was created in the ['GitLab Data Team' project](https://gitlab.com/gitlab-data/analytics), using the analyticsapi@gitlab.com account.
+
+The PAT value is saved within 1Pass, and also as a CI environment variable so that it can be used by the GitLab runner.
 
 #### Provisioning permissions to external tables to user roles
 

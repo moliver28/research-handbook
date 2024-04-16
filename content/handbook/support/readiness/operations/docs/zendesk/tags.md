@@ -722,9 +722,10 @@ So an example:
 <details>
 <summary>Other Notable Tags</summary>
 
-| Tag                              | What it means |
-|----------------------------------|---------------|
-| `partner_customer`               | Indicates the account is a customer of an Alliance partner and not eligible for support |
-| `star_submitted`                 | Indicates a STAR has been submitted on the ticket |
+| Tag                          | What it means                                                                           |
+|------------------------------|-----------------------------------------------------------------------------------------|
+| `partner_customer`           | Indicates the account is a customer of an Alliance partner and not eligible for support |
+| `star_submitted`             | Indicates a STAR has been submitted on the ticket                                       |
+| `submitted_via_gitlab_email` | Signifies the ticket is submitted by a GitLab Team Member to Support Team               |
 
 </details>

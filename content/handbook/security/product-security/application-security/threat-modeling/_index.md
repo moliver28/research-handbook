@@ -1,6 +1,8 @@
 ---
 title: "Threat Modeling"
 description: "The threat modeling process, and the framework used by the GitLab Security Team."
+aliases:
+- /handbook/security/threat-modeling/
 ---
 
 Threat modeling is the process of taking established or new procedures, and then assessing it for potential risks. For most tech companies, this usually involves code and coding changes. However this process can be adapted to any situation where there is a potential risk, and is something that many of us do every day. Choosing the longer well-lit walk to your car as opposed to the short cut through the darkened alley. Looking both ways before crossing the street. This is something we often do by instinct.

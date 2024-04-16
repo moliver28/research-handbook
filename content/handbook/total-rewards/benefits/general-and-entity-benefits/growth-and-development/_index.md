@@ -18,13 +18,14 @@ The Growth and Development fund is managed by the [Learning and Development team
 To be eligible for the Growth and Development Fund, you must meet the following criteria:
 
 - Team members who are full-time and have been employed for three months can participate in this fund.
+- Team members should be meeting performance expectations in their current role. (Not on a Performance Improvement Plan, or receiving remedial coaching regarding underperformance)
 - If you are a part-time GitLab team member, you may still be eligible to participate in this fund but your reimbursement might be reduced.
 - Team members who are currently on "leave" status will not be eligible to use the growth and development fund.
-- Team members who are meeting performance expectations in their current role. (Should not be on a Performance Improvement Plan, or receiving remedial coaching regarding underperformance)
+
 
 ## How to Apply for the Growth and Development Fund
 
-Here is a step by step guide on G&D applications:
+Here is a step by step guide on how to apply for G&D applications:
 
 **Step 1:** Have a [career development conversation](/handbook/people-group/learning-and-development/career-development/#what-is-career-development) with your manager to discuss the learning opportunity. It's important to discuss timing, team member capacity, and application timeline for both the program and fund processing. This conversation should allow time for you to apply for the program and your manager to ensure team capacity.
 
@@ -58,11 +59,11 @@ Before attempting to claim reimbursement, please ensure you've read through and 
 - Claim your expenses via [Navan Expense](/handbook/finance/expenses/#-introduction):
   - In your Navan Expense report, choose the Expense type `G&D (Growth and Development)`.
   - Include a screenshot of your approved Growth & Development issue & add a link to the issue to the description.
-    - If reimbursing for an Academic or Course/Certificate program, include a screenshot of your final grade report/transcript/certificate (see)
+  - If reimbursing for an Academic or Course/Certificate program, include a screenshot of your final grade report/transcript/certificate.
   - Please make sure the issue matches your Navan Expense claim amount. Your Navan Expense claim will be audited against the Growth & Development issue amount.
 - Please claim conference and workshop meals and lodging per receipt via [Navan Expense](/handbook/finance/expenses/#-introduction). Travel should be expensed in a separate Navan claim, as detailed [here](/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development/#workshops-and-conferences). When submitting your travel claim, please add a link to your G&D issue in the description.
 
-You may close the issue once you have received reimbursement for the program.
+Please go back and close your G&D issue once you have received reimbursement for the program.
 
 ### Notes on Reimbursement
 
@@ -89,7 +90,7 @@ If you voluntarily terminate employment with GitLab prior to completing twelve c
 
 The Growth and Development policy is meant to further team members' learning and growth. Company-directed learning opportunities, such as mandatory conferences or training that are required to fulfill their job duties, are not within the scope of the Growth and Development policy and should be budgeted for outside the policy. Such expenses will not be deducted from the team member's annual Growth and Development limit and should be paid for by GitLab rather than reimbursed to the team member.
 
-### Tax Implications
+## Tax Implications
 
 In some countries, the Growth and Development Fund may be considered as taxable income and can be (partially) exempted from personal income taxes or subject to employer withholding taxes. Check [the tax table]({{< ref "tax" >}}) for any tax implications in your country.
 

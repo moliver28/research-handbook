@@ -59,4 +59,4 @@ The agenda for each E-Group Weekly has a single section for each meeting. Each a
 1. TODO: may not require significant discussion time, but there is an ask for all or a subset of E-Group team members
 1. DISCUSS: cover in this meeting
 
-The CoST to the CEO will order agenda topics. FYIs and TODOs will usually appear at the start of a meeting.
+The Office of the CEO will order agenda topics. FYIs and TODOs will usually appear at the start of a meeting.

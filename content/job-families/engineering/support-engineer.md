@@ -164,15 +164,18 @@ A Senior Support Engineer may be interested in exploring Support Management as a
 The Staff Support Engineer is a [grade 8](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades). Promotion to the Staff level is based on [merit and company need](/handbook/engineering/careers/#support-department).
 
 A Senior Support Engineer will be promoted to Staff Support Engineer when they have
-demonstrated significant leadership and impact; typically around resolving customer issues. This may
-involve any type of consistent performance above and beyond the senior level. For example, a Staff Support Engineer might:
+demonstrated significant leadership and impact; typically around resolving customer issues. A Staff engineer displays attributes such as:
 
-- regularly submit merge requests for customer reported/requested GitLab bugs and feature proposals.
-- work across functional groups to deliver on projects relating to customer experience and success.
-- write in-depth documentation and clarify community communications that share knowledge and radiate GitLab's technical strengths.
-- possess the ability to create innovative solutions that push GitLab's technical abilities ahead of the curve.
-- identify significant projects that result in substantial cost savings or revenue increases.
-- define and solve important architectural issues based on their extensive customer knowledge.
+- **Global Impact and Technical Leadership**: Staff Support Engineers possess robust expertise, impacting operations at a global scale. They manage significant projects and incidents that not only reduce workload and increase support team efficiency but also directly enhance customer experiences at scale. Their work significantly influences customer satisfaction and loyalty through improved product features and support strategies.
+
+- **Complex Problem-Solving**: Staff Support Engineers are known for their ability to develop simple solutions to complex problems, tackling major architectural and customer-related issues. Identify and drive significant projects that result in substantial cost savings or revenue increases, or relate to wider initiatives involving other teams beyond Support.
+
+- **Mentorship and Skill Development**: Staff Support Engineers are vital in intentionally imparting their extensive knowledge to Support Engineers at all levels through mentoring and training strategies for the global team. Staff Support Engineers are someone who grows Seniors into even better leaders and someone who sheds light on opportunities for intermediate Support Engineers to grow, too. Staff Support Engineers also provide targeted, in-the-moment training on specific issues, operating effectively at both the micro and macro levels to enhance individual and team skills.
+
+- **Strategic Involvement and Customer Advocacy**: They play a strategic role by being the voice of the customer within broader product and engineering teams, contributing to cross-functional projects, and focusing on customer-centric problem solving.
+
+- **Proactive Organizational Leadership and Impact**: Staff Support Engineers exhibit proactive, visible technical leadership in addressing complex issues and significantly impacting both the team and customers. This includes engagement with leaders within customer organizations, particularly during escalations and proactive engagements that involve Support. They actively contribute to discussions, and influence decisions. They also steer product development by communicating customer needs and priorities, and from work with customers they anticipate product limitations.
+
 
 ## Career Ladder
 
