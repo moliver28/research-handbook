@@ -38,7 +38,7 @@ This Working Group has the following goals:
 | Criteria                                                                                      | Start Date | Completed Date | Progress | DRI             |
 | --------------------------------------------------------------------------------------------- | ---------- | -------------- | -------- | --------------- |
 | [Add axe-core checks to feature specs](https://gitlab.com/groups/gitlab-org/-/epics/11126)    | 15-08-2023 |                | 20%      | `@psjakubowska` |
-| [Add axe-core checks to components specs](https://gitlab.com/groups/gitlab-org/-/epics/11127) |            |                | 33%      | `@rchanila`     |
+| [Add axe-core checks to components specs](https://gitlab.com/groups/gitlab-org/-/epics/11127) | 16-04-2024 |                | 42%      | `@rchanila`     |
 | Address accessibility violations                                                              |            |                | 0%       | `@you?`         |
 | Validate existing accessibility issues                                                        |            |                | 0%       | `@you?`         |
 
