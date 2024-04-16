@@ -23,7 +23,7 @@ To create an issue for yourself with one of the module templates:
 
 ## Support hybrid model
 
-The hybrid model is a structured training plan that will prepare you to work on both [SaaS](https://docs.gitlab.com/ee/subscriptions/gitlab_com/) and [self-managed](https://docs.gitlab.com/ee/subscriptions/self_managed/) support issues. The ultimate goal is to split your time roughly 50%/50% between the two. You may find these [checkpoints](/handbook/support/training/onboarding_hybrid_path_checkpoints) helpful while working through the hybrid model path.
+The hybrid model is a structured training plan that will prepare you to work on [SaaS](https://docs.gitlab.com/ee/subscriptions/gitlab_com/), [self-managed](https://docs.gitlab.com/ee/subscriptions/self_managed/), and [GitLab Dedicated](https://docs.gitlab.com/ee/subscriptions/gitlab_dedicated/) support issues. The ultimate goal is to split your time roughly 50%/50% between the two. You may find these [checkpoints](/handbook/support/training/onboarding_hybrid_path_checkpoints) helpful while working through the hybrid model path.
 
 <div class="x-scrollable">
 <div style="width: 1800px;">
@@ -118,6 +118,7 @@ The GitLab Support pathway covers all platforms that we offer. In completing the
 | [GitLab-com SaaS Basics](https://gitlab.com/gitlab-com/support/support-training/-/issues/new?issuable_template=GitLab-com%20SaaS%20Basics) | 2 Weeks | Understand the basics to answer GitLab.com (SaaS) product related tickets |
 | [GitLab Installation & Administration Basics](https://gitlab.com/gitlab-com/support/support-training/issues/new?issuable_template=GitLab%20Installation%20and%20Administration%20Basics) | 1 Week | Understand the different ways in which GitLab can be installed and managed |
 | [Self-Managed Support Basics](https://gitlab.com/gitlab-com/support/support-training/issues/new?issuable_template=Self-Managed%20Basics) | 2 Weeks | Understand the basics to answer Self Managed product related tickets |
+| [GitLab Dedicated Basics](https://docs.gitlab.com/ee/subscriptions/gitlab_dedicated/) | 1 Week | Understand the basics to answer GitLab dedicated related tickets |
 
 When these modules are complete:
 
