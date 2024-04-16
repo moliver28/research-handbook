@@ -77,9 +77,11 @@ Hear what [our CEO has to say about the CEO Shadow Program](https://www.youtube.
 
 All GitLab team members are eligible to apply for the CEO Shadow Program.
 
-Exceptions to eligibility:
+#### VP-Directs Shadow Opportunities
 
-CEO Shadow rotations will be reserved for [Functional Leaders](/handbook/company/structure.md#functional-leaders) during the week of [E-Group Offsites](/handbook/company/offsite/#schedule). An exception will be made if there is last minute availability as two functional leaders are not available to serve in this role during this window.
+[VP-Directs](/handbook/company/structure/#vp-directs-group) are encouraged to do a two week Shadow rotation--optimally within their third or fourth month at GitLab. If they cannot make a full two week rotation, they can ask to do a one week rotation. Full attendance will be required during this period. In this instance, they should work with the Staff EBA to the CEO to coordinate. We'll post the availability of a second, one-week rotation in the #vp-directs Slack channel. We will preserve the broader see one/teach one program structure.
+
+CEO Shadow rotations will be reserved for [VP-Directs](/handbook/company/structure/#vp-directs-group) during the week of [E-Group Offsites](/handbook/company/offsite/#schedule). An exception will be made if there is last minute availability as two VP-Directs are not available to serve in this role during this window.
 
 **Note:** At this time, all shadow rotations are fully remote. Learn more about what to expect from a [remote shadow rotation](#remote-shadow-rotations).
 
@@ -130,7 +132,7 @@ For those with regular commitments, look for shorter weeks or timezone variation
 | 2024-04-01 | 2024-04-05 | [Jeremy Wagner](https://gitlab.com/jeremywagner) - Sr Solutions Architect | [Miracle Banks](https://gitlab.com/miraclebanks) - Full Stack Engineer | REMOTE - PT |
 | 2024-04-08 | 2024-04-12 | [Karen Kwentus](https://gitlab.com/kkwentus1) - Sr Solutions Architect | [Jeremy Wagner](https://gitlab.com/jeremywagner) - Sr Solutions Architect | REMOTE - PT - Light Shadow week due to travel |
 | 2024-04-15 | 2024-04-19 | NO SHADOW | NO SHADOW | CEO OOO |
-| 2024-04-22 | 2024-04-26 | OPEN  | [Karen Kwentus](https://gitlab.com/kkwentus1) - Sr Solutions Architect | REMOTE - PT |
+| 2024-04-22 | 2024-04-26 | Kelsey Turcotte  | [Karen Kwentus](https://gitlab.com/kkwentus1) - Sr Solutions Architect | REMOTE - PT |
 | 2024-04-29 | 2024-05-03 | [Indre Kryzeviciene](https://gitlab.com/ikryzeviciene) - Staff Marketing Campaigns Manager | OPEN  | REMOTE - PT, MON - THURS |
 | 2024-05-06 | 2024-05-10 | OPEN | [Indre Kryzeviciene](https://gitlab.com/ikryzeviciene) - Staff Marketing Campaigns Manager | REMOTE - PT, MON, FRI |
 | 2024-05-13 | 2024-05-17 | [Djordje Micovic](https://gitlab.com/dmicovic) - Staff Data Analyst, Marketing Analytics | OPEN | REMOTE - PT, MON - TUES |

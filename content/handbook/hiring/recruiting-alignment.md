@@ -16,7 +16,7 @@ description: "This page is an overview of the search team alignment and the tale
 | Sales, AMER | Marcus Carter | Jazmin Armstrong |
 | Sales | Kelsey Hart  | Fernando Khubeir |
 | Customer Success, AMER | Barbara Dinoff |  Jazmin Armstrong |
-| All Business, APAC | Yas Priatna  | Lerato Thipe |
+| All Business, APAC | Yas Priatna  | Lerato Thipe & Sruthy Menon |
 | G&A/EBA/Marketing (Leadership and E-Group+ EBA) | Steph Sarff | Michelle Jubrey |
 | G&A/EBA/Marketing (Global Sales Development, FP&A, EBA) | Caroline Rebello |  Michelle Jubrey |
 | G&A/Marketing (Developer Relations, Growth, IT) | Hannah Stewart  | Jazmin Armstrong |

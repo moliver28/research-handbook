@@ -99,7 +99,7 @@ A failed pull will look like the following in Kibana.
 
 #### `gitlab-ci-token` Pulls
 
-The `gitlab-ci-token` user is exempted from [rate-limitting](https://docs.gitlab.com/ee/user/gitlab_com/#git-and-container-registry-failed-authentication-ban).
+The `gitlab-ci-token` user is exempted from [rate-limiting](https://docs.gitlab.com/ee/user/gitlab_com/#git-and-container-registry-failed-authentication-ban).
 
 ### LFS
 

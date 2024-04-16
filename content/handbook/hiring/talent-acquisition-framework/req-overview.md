@@ -113,12 +113,10 @@ During the screening stage, it is important we capture the following information
 1. **Salary expectations**
      - Instructions: This information is captured in the Screening call Scorecard as a *Private Note*.
 If at any time during the interview process a candidate is declined due to compensation, you must add compensation information to the profile as this is used for reporting purposes. To do so, navigate to the `Private` tab in the candidate's profile > Navigate to the `Other Details` section > Fill out the `Currency` and `Compensation Expectations` fields.
-1. **Are you eligible to work where you are located?**
-     - Instructions: This information is captured in the Screening call Scorecard.
+1. **It is the Recruiter's obligation to check the candidates right to work in the country they are applying to before going further in the process**
+     - Instructions: This information is captured in the Screening call Scorecard.If a candidate requires any form of visa sponsorship, the Recruiter will let the candidate know that we are not able to move forward in the process per our [Visa policy](https://handbook.gitlab.com/handbook/people-group/visas/).
 1. **Are you subject to any employment agreements and/or post-employment restrictions with your current employer or a past employer?**
      - Instructions: This information is captured in the Screening call Scorecard.
-1. **R&D Talent Acquisition Only: Values Screening**
-     - Instructions: Asks the questions for the 3 values identified in the screening call > Navigate to the `Details` tab in the candidate's profile > Navigate to the `Additional Details` section > Select Yes or No on Did the candidate pass the values screening?
 
 #### Assessment
 

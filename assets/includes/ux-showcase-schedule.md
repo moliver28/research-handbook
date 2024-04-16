@@ -1,6 +1,5 @@
 | Date       | Host                 | Presenter 1            | Presenter 2            | Presenter 3            |
 |------------|----------------------|------------------------|------------------------|------------------------|
-| 2024-04-03 | Justin Mandell       | Julia Miocene          | Amelia Bauerly         | Nick Brandt            |
 | 2024-04-17 | Chris Micek          | Austin Regnery         | Taylor Vanderhelm      | Sunjung Park           |
 | 2024-05-01 | Andy Volpe           | Gina Doyle             | Camellia X Yang        |                        |
 | 2024-05-15 | Emily Sybrant        | Nick Leonard           | Becka Lippert          |                        |

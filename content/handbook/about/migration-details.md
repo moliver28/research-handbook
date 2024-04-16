@@ -503,7 +503,7 @@ support/channels/index.html.md
 support/index.html.md.erb
 ```
 
-### CEO and CoST
+### CEO and Office of the CEO
 
 - **Total Pages:** 14
 - **Total Markdown Pages:** 12

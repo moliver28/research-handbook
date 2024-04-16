@@ -18,7 +18,7 @@ Support Engineers that work on Licensing and Renewal (L&R) tickets should apply 
 
 ### The workflow
 
-1. Check the main L&R view and work on the next-to-breach ticket:
+1. Check the main L&R view and work on the top ticket in the view. The tickets are ordered by `Ticket Weight`, which takes into account several fields to determine priority order.
 1. Take assignment of the ticket if it is currently unassigned
 1. Write your public reply
 1. **If the ticket is an Internal Request**, review whether the [Priority](/handbook/support/internal-support/#internal-request-slo) is appropriate. If it is not, set the `Priority` field to the appropriate value and notify the requester of the change and of your reasoning. (A macro for this may soon be available)

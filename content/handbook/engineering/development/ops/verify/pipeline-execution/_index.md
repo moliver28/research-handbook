@@ -3,6 +3,8 @@ title: "Verify:Pipeline Execution Group"
 description: "The GitLab team page for the Pipeline Execution Group."
 ---
 
+This team maps to [Verify](/handbook/product/categories/#verify-stage) DevOps stage and supports the Continuous Integration [use case](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/ci/).
+
 ## Vision
 
 For an understanding of what this team is going to be working on take a look at [the product
@@ -13,15 +15,13 @@ vision](https://about.gitlab.com/direction/verify/). This team is responsible fo
 
 ## Mission
 
-The Verify:Pipeline Execution Group is focused on supporting the functionality with respect to
-Continuous Integration [use case](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/ci/). A key focus for the PE group is delivering features that achieve the outcome we track in our performance indicator.
+Make software development easier, faster, and more reliable by creating and supporting a Continuous Integration product that is performant, scalable, and lovable.
 
-This team maps to [Verify](/handbook/product/categories/#verify-stage) DevOps stage.
+The Verify:Pipeline Execution Group is focused on supporting the functionality with respect to
+[Continuous Integration](https://about.gitlab.com/solutions/continuous-integration/). A key focus for the PE group is delivering features that achieve the outcome we track in our performance indicator.
+
 
 ## Driving Factors
-
-Our focus is on improving our performance, scalability, and developer efficiency with our engineering driven efforts.
-We will also continue to address Customer Experience through our quality initiatives. Key aspects of each of these areas are outlined below.
 
 ### Performance
 
@@ -48,6 +48,7 @@ We will also continue to address Customer Experience through our quality initiat
   - Ensuring that customer issues are resolved in a timely manner.
   - Addressing SUSImpacting issues in a timely manner.
   - Ensuring reliable and accurate documentation is available.
+
 
 ## Performance Indicator
 
