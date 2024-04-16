@@ -118,7 +118,7 @@ The GitLab Support pathway covers all platforms that we offer. In completing the
 | [GitLab-com SaaS Basics](https://gitlab.com/gitlab-com/support/support-training/-/issues/new?issuable_template=GitLab-com%20SaaS%20Basics) | 2 Weeks | Understand the basics to answer GitLab.com (SaaS) product related tickets |
 | [GitLab Installation & Administration Basics](https://gitlab.com/gitlab-com/support/support-training/issues/new?issuable_template=GitLab%20Installation%20and%20Administration%20Basics) | 1 Week | Understand the different ways in which GitLab can be installed and managed |
 | [Self-Managed Support Basics](https://gitlab.com/gitlab-com/support/support-training/issues/new?issuable_template=Self-Managed%20Basics) | 2 Weeks | Understand the basics to answer Self Managed product related tickets |
-| [GitLab Dedicated Basics](https://docs.gitlab.com/ee/subscriptions/gitlab_dedicated/) | 1 Week | Understand the basics to answer GitLab Dedicated related tickets |
+| [GitLab Dedicated Basics](https://gitlab.com/gitlab-com/support/support-training/-/issues/new?issuable_template=GitLab%20Dedicated) | 1 Week | Understand the basics to answer GitLab Dedicated related tickets |
 
 When these modules are complete:
 
