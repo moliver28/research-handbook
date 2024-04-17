@@ -122,8 +122,7 @@ If there is more than one data type residing in a system, the system should be c
 
 ##### Labeling
 
-There is currently no internal requirement to label data according to this standard, however labels are encouraged. By labeling data according to classification level, individuals can quickly refer to this policy for proper handing.
-Issues that are confidential must be marked accordingly per our [Communication Handbook Page]({{< ref "communication" >}}). It is up to the data owner to ensure that security and privacy settings are applied as per their own requirements.
+There is currently no internal requirement to label data according to this standard, however labels are encouraged. By labeling data according to classification level, individuals can quickly refer to this policy for proper handling.
 
 ## Exceptions
 
