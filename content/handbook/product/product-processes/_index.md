@@ -509,7 +509,7 @@ See [this page](/handbook/product/cross-stage-features/) for details on working 
 
 #### Making changes to stages, groups, or categories
 
-Documentation on how to make changes to stages, groups, and categories, as well as what approvals are required, can be found in our [website handbook page](/handbook/marketing/digital-experience/website/#working-with-stages-groups-and-categories).
+Documentation on how to make changes to stages, groups, and categories, as well as what approvals are required, can be found in our [handbook page](/handbook/product/categories/#changes).
 
 #### Managing creation and transition of groups, stages, and categories
 
@@ -1218,7 +1218,7 @@ The category epic should include:
 - A link to a search query which can be used to find all issues with the category label
 
 Maturity plans adhering to the [maturity framework](https://about.gitlab.com/direction/maturity/) are
-highly encouraged - but not required - for [non-marketing categories](/handbook/marketing/digital-experience/website/#category-attributes).
+highly encouraged - but not required - for non-marketing categories.
 
 For specifics of how the category strategy page should look, see the [category strategy template](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/doc/templates/product/category_strategy_template.html.md).
 
@@ -1803,14 +1803,14 @@ See [issue template](https://gitlab.com/gitlab-com/Product/-/blob/main/.gitlab/i
 ### Competition Channel
 
 When someone posts information in the `#competition` channel that warrants
-creating an issue and/or [a change in `features.yml`](/handbook/marketing/digital-experience/website/#adding-features-to-webpages), follow this
+creating an issue and/or a change in `features.yml`, follow this
 procedure:
 
 - Create a thread on the item by posting `I'm documenting this`
 - Either do the following yourself, or [link](#competition-channel)
 to this paragraph for the person picking this up to follow
 - If needed: create an issue
-- [Add the item to the `features.yml`](/handbook/marketing/digital-experience/website/#adding-features-to-webpages)
+- Add the item to the `features.yml`
 - If GitLab does not have this feature yet, link to the issue you created
 - Finish the thread with a link to the commit and issue
 
