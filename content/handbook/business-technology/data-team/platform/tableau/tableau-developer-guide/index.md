@@ -456,7 +456,7 @@ The way to make sure users can always access the data within a workbook, is to c
 <summary><b> In Desktop </b></summary>
 
 **Publishing a Data Source From Desktop**
-```
+
 If you are publishing a data source from Desktop to the Cloud/Online to be a Tableau Published Data Source, you will get the following window:
 
 ![](images/data-window.png)
@@ -464,10 +464,10 @@ If you are publishing a data source from Desktop to the Cloud/Online to be a Tab
 Select the "Edit" button under "Authentication". It will bring you to the following pop-up. Choose your <rolename> to embed.
 
 ![](images/authentication.png)
-```
+
 
 **Publishing a Workbook With a Local Connection**
-```
+
 A workbook with a local connection is one whose data source is living inside of the workbook, and is not a separately published Tableau Data Source which you can search Tableau Online for. When you try to publish a workbook with a local connection, you will see the following window:
 
 ![](images/window-local.png)
@@ -475,14 +475,13 @@ A workbook with a local connection is one whose data source is living inside of 
 Select "Edit" under "Data Sources" and find "Authentication". Choose to embed your <rolename>.
 
 ![](images/auth-local.png)
-```
 
 </details>
 
 <summary><b> In Cloud/Online </b></summary>
 
 **Publishing in Cloud/Online**
-```
+
 If you are editing a data source in Cloud/ Tableau Online/ your web browser (all the same thing), in order to make sure your credentials are embedded, find "Publish As":
 
 ![](images/publish-as.png)
@@ -490,7 +489,6 @@ If you are editing a data source in Cloud/ Tableau Online/ your web browser (all
 In the following window, be sure to check the box for 'Embed Credentials'.
 
 ![](images/cloud-embed.png)
-```
 
 </details>
 
