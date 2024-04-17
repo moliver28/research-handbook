@@ -6,7 +6,7 @@ description: "Everything you need to know about suggesting and publishing a post
 
 Welcome to the GitLab Blog handbook! The [GitLab Blog](https://about.gitlab.com/blog/) is managed by the Content Marketing team. The managing editor of the blog is Sandra Gittlen (@sgittlen).
 
-## What is a blog post
+## What is a blog post?
 
 At GitLab, blog posts largely focus on sharing helpful information with the audience ([DevSecOps professionals](/handbook/product/personas/)). When you suggest or write a blog post, always consider what it offers the reader. If the post is more internal-focused or a personal essay of sorts, it is likely not a fit for the blog (but could go on your personal LinkedIn page).
 
@@ -305,9 +305,9 @@ There are a few ways to create animated GIFs, one of them is using [Giphy Captur
 
 Avoid GIFs with a huge file size, they will be difficult to load for users with bad internet connection. In those cases, you can either cut the GIFs in smaller pieces, or record a video, or use a sequential image.
 
-### Localized Blog Posts
+## Localizing blog posts in Contentful
 
-We can publish blog posts in langauges other than english. We currently support the folloing langauges: 
+We can publish blog posts in languages other than English. We currently support the following languages: 
 
 | Language | URL structure| 
 |---------|----------|
@@ -316,14 +316,14 @@ We can publish blog posts in langauges other than english. We currently support 
 | Japanese |`/ja-jp/blog/YERAR/MONTH/DAY/Title/` |
 
 
-#### Translating a English blog post to other langauges
+### Translating an English-language blog post to other languages
 
-Translating an English blog post to another language is as straightforward as updating the post in English. Contentful offers a feature called "Field level localization," which allows us to specify the fields on the blog post that we want to translate. In the right-hand navigation while on a blog post, there's a section labeled "Localization." By selecting locales in that section, we can show or hide localized fields based on the currently selected locales. Once these fields have been completed, simply hit publish, and the changes will go live on production in approximately five minutes.
+Translating an English-language blog post into another language is straightforward. Contentful offers a feature called "Field level localization," which allows us to specify the fields on the blog post that we want to translate. In the right-hand navigation while on a blog post, there's a "Localization" section. By selecting locales in that section, we can show or hide localized fields based on the currently selected locales. Once these fields have been completed, simply click "Publish" and the changes will go live on production in approximately five minutes.
 
-It's important to note that while we wait for Contentful to release locale-specific publishing (spring 2024), any draft content, regardless of language, will also be published.
+It's important to note that while we wait for Contentful to release locale-specific publishing (Spring 2024), any draft content, regardless of language, will also be published.
 
-#### Publishing a blog post with no English equivalent
+### Publishing a blog post with no English-language equivalent
 
-Publishing a blog post without an English equivalent follows the same process as "Translating an English blog post to other languages," with one minor difference. Contentful mandates that required fields cannot be left empty in English. To circumvent this requirement, a '#' character can be inserted into the English Title and Blog Body fields. This informs our system that the English blog post does not exist and should not generate a webpage for it.
+Publishing a blog post without an English-language equivalent follows the same process as "Translating an English blog post to other languages," with one minor difference. Contentful mandates that required fields cannot be left empty in English. To circumvent this requirement, a '#' character can be inserted into the English Title and Blog Body fields. This informs our system that the English-language blog post does not exist and should not generate a web page for it.
 
-Contentful is currently developing a solution to address this workaround, which is expected to be available by fall 2024.
+Contentful is currently developing a solution to address this workaround, which is expected to be available by Fall 2024.
