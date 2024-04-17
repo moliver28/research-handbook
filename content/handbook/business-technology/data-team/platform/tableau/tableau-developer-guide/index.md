@@ -479,6 +479,21 @@ Select "Edit" under "Data Sources" and find "Authentication". Choose to embed yo
 
 </details>
 
+<summary><b> In Cloud/Online </b></summary>
+
+**Publishing in Cloud/Online**
+```
+If you are editing a data source in Cloud/ Tableau Online/ your web browser (all the same thing), in order to make sure your credentials are embedded, find "Publish As":
+
+![](images/publish-as.png)
+
+In the following window, be sure to check the box for 'Embed Credentials'.
+
+![](images/cloud-embed.png)
+```
+
+</details>
+
 
 ## Embedding in the Handbook
 
