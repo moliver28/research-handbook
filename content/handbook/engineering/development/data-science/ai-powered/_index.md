@@ -60,7 +60,7 @@ Our teams are data-driven, support [dogfooding](https://about.gitlab.com/directi
 
 # Stage Meetings
 
-Although we have a bias for asynchronous communication, synchronous meetings are necessary and should adhere to our [communication guidelines](/handbook/communication/#video-calls). Some regular meetings that take place in Manage are:
+Although we have a bias for asynchronous communication, synchronous meetings are necessary and should adhere to our [communication guidelines](/handbook/communication/#video-calls). Some regular meetings that take place for all AI teams are:
 
 | Frequency | Meeting               | DRI         | Possible topics                 |
 |-----------|-----------------------|-------------|---------------------------------|
