@@ -4,7 +4,6 @@ description: "Provide an overview of key processes and principles related to our
 
 ---
 
-
 ## Organizational Health and Capability Reviews
 
 To further our principles of responsible growth, we review organizational health metrics and capability on a regular cadence.
@@ -53,10 +52,10 @@ At GitLab, a high-performance culture underpins our strategy. Having the right t
 The purpose of this playbook is to enable leaders at GitLab to make thoughtful and strategic organizational design decisions. It’s intended to be used by people leaders in partnership with their aligned People Business Partner (PBP). 
 
 Generally, there are 5 phases when making an organizational change:  
-1. Planning and alignment on goals 
-2. Specific org design decisions
+1. Planning and goal definition and alignment
+2. Org design decisions
 3. Communication of changes
-4. Execution of changes in relevant systems
+4. Execution of changes 
 5. Measuring success
 
 
@@ -68,32 +67,70 @@ It is important to engage the aligned PBP early in the process to ensure the cha
 
 Some questions you can consider to aid in this planning process include:
 
-1. What are your org design principles (i.e. what are you optimizing your team structure for)?
-    - Use a [SWOT analysis](https://docs.google.com/presentation/d/1Ao9R0ILsBLVJDd7_smFOW5ClNR9McXo1JToeX-cC6Ec/edit#slide=id.g2aeb7e9339e_0_145) to  assess strengths, weaknesses, opportunities, and threats in the current org structure which may highlight opportunity areas to address. 
-    - Visualize the current and future org structure (for example in a Google Slide presentation or a Lucid chart). This will also be useful with stakeholders and may unlock items that need to be addressed in change management.  
-    - Examples of org design principles: Faster collaboration by realigning teams that work together frequently or rely on each other to deliver results
 
-2. What risks exist if you make a change to a new org design?
-    - Consider these identified risks in the change management plan to proactively alleviate the impact. For example, if retention is a concern, consider targeted engagement strategies including 1:1s and engaging with the team member on a development plan. 
+| Question | Process |
+| ------ | ------ |
+|  What are your org design principles (i.e. what are you optimizing your team structure for)?      |   - Use a [SWOT analysis](https://docs.google.com/presentation/d/1Ao9R0ILsBLVJDd7_smFOW5ClNR9McXo1JToeX-cC6Ec/edit#slide=id.g2aeb7e9339e_0_145) to  assess strengths, weaknesses, opportunities, and threats in the current org structure which may highlight opportunity areas to address.<br> - Visualize the current and future org structure (for example in a Google Slide presentation or a Lucid chart). This will also be useful with stakeholders and may unlock items that need to be addressed in change management.<br> - Examples of org design principles: Faster collaboration by realigning teams that work together frequently or rely on each other to deliver results    |
+|   What risks exist if you make a change to a new org design?     |   Consider these identified risks in the change management plan to proactively alleviate the impact. For example, if retention is a concern, consider targeted engagement strategies including 1:1s and engaging with the team member on a development plan.      |
+| What risks exist if we do not make the recommended changes? | Change can be difficult to navigate, but sometimes, not iterating is detrimental. Weigh the pros and cons to make a thoughtful decision | 
+| What improvements do you expect? | Examples: Faster delivery of projects? Higher quality results due to better collaboration? Increased visibility to customer needs? These identified improvements will be helpful to articulate when communicating changes. These also will be important success criteria to measure after the implementation of the organizational change. | 
+| What needs to happen to achieve this org design? | Work with your People Business Partner to think about the change management process, tactical and strateigic steps required, and any other deliverables. This helps you narrow in on an appropriate time frame for execution.  | 
 
-3. What risks exist if we do not make the recommended changes?
-    - Change can be difficult to navigate, but sometimes, not iterating is detrimental. Weigh the pros and cons to make a thoughtful decision.
 
-4. What improvements do you expect?
-    - Examples: Faster delivery of projects? Higher quality results due to better collaboration? Increased visibility to customer needs? These identified improvements will be helpful to articulate when communicating changes. These also will be important success criteria to measure after the implementation of the organizational change.
+ 
 
-5. What needs to happen to achieve this org design?
-    - Work with your People Business Partner to think about the change management process, tactical and strateigic steps required, and any other deliverables. This helps you narrow in on an appropriate time frame for execution. 
-
-#### Define Goals
+##### Define Goals
 
 Now that you have determined an organizational change is required and have a strategy in place, it’s helpful to ensure the goals of the organizational change are clear and aligned to our CREDIT values. Defining goals is critical to accomplish two core objectives:
 
-1. **Supporting the change management process**: Consider that you will need to bring others along on this journey. Effective change management requires all those impacted to understand why the change was made, what the change entails, and why the change helps us build a foundation for high performance through an optimal team structure. Defining goals up front also enables us to measure success in the future. 
+**1. Supporting the change management process:** Consider that you will need to bring others along on this journey. Effective change management requires all those impacted to understand why the change was made, what the change entails, and why the change helps us build a foundation for high performance through an optimal team structure. Defining goals up front also enables us to measure success in the future. 
 
-2. **Objective decision making**: Ensuring you have a northstar or clearly defined goals in place help ensure fairness and consistency in decision making, enable a stronger communication plan, and help you measure the success of the org change following the event. 
+**2. Objective decision making:** Ensuring you have a northstar or clearly defined goals in place help ensure fairness and consistency in decision making, enable a stronger communication plan, and help you measure the success of the org change following the event. 
+
+##### Define Success Criteria
+
+To be able to effectively measure the success of an organizational change, the success criteria for the change *should be defined before the change goes into effect* and align with the goals for the change. This helps us reflect back on the impact of our decisions to ensure we are consistently learning from and iterating appropriately.
 
 ### Org Design Decisions
+
+There are several key elements to consider when thinking through org design decisions and their impact in the near and long term. Key areas to think through include:
+
+**Roles and responsibilities**
+
+Once you have a clear vision of where you need to reprioritize resources to meet your business goals it’s time to consider who in the team is best equipped to deliver in these roles. PBPs can work closely with you to understand the business goals and roles and determine a fair and objective framework to make decisions about roles and responsibilities. 
+
+**Compliance**
+
+It is imperative that we consider local requirements specific to each team member's location if job duties may be changing. PBPs collaborate with Team Member Relations and Legal to ensure that anytime a team member’s current role is impacted, we are doing so in compliance with local regulations. Gathering these requirements up front is critical.
+
+**Scope and Job Levels**
+
+When considering scope and associated job levels, the (GitLab Job Frameworks) [https://docs.google.com/spreadsheets/d/1FX4NBwF099uMBm7mGBtf1orIJZuHEjtiEa3jSbg9jJs/edit#gid=0] provide general guidelines to ensure the scope of a team member’s role is aligned to their contributions and impact
+
+**Organizational Shape**
+
+A diverse mix of roles at all levels and a healthy span of control for people managers are key to an efficient team structure. As needed, PBPs can work with Total Rewards to review annual benchmark data related to job level distribution and span of control at a division level to check if there are ways to consider optimizing the team structure.  
+
+**Stakeholders**
+
+In partnership with your PBP, compile a list of stakeholders that need to be either consulted or informed about this change. 
+
+Team Members who need to be consulted should have input on the change at some point in the planning and decision-making phases, and Team Members who need to be informed should only be made aware of the change as part of the communication cascade following decision-making.  In the planning and decision-making phases, it may not be possible to be completely transparent depending on the nature of the project. Align with your PBP on who should be consulted, how, and when.
+
+Once you have identified your stakeholders, you can put together a timeline that will include when and how they will be consulted or informed of the change. Utilize the section below phase 3 “Communication" as a resource for that part of the process. 
+
+**Timing of execution**
+
+Depending on the scale of the realignment or reorganization that you are implementing, consider the tradeoffs between the disruption that occurs when making any changes to team members’ roles or focus areas and the benefit of reprioritizing a team member’s work. There are a few key elements to consider when thinking through timing and whether or not it makes sense to move forward with an organizational change. 
+
+- **Frequency**: Realignments and organization structural changes can be disruptive for team members and impact results in the short term as team members settle into new roles/teams, engage with new stable counterparts, managers, etc.  Frequent realignment may create more churn than benefit. When possible, taking a holistic review of the team and considering other upcoming changes that may be needed can help consolidate the amount of time needed to refocus the team.
+- **Disruption To Deliverables**: It is important to consider the impact the change could have on our Customers, milestones, and our ability to achieve results. For example: 
+    - _In Sales_, if you are planning the change to happen towards the end of the quarter, will it take away from the Sales team’s ability to achieve or exceed their number, and potential impact to quota. If changes will impact anything related to commissions, they will need to go into effect on the 1st or 16th of the month. 
+    - _In R&D_, consideration should also be given to impacts on [product category maturity](https://about.gitlab.com/direction/maturity/) commitments for teams with team members that are moving to new groups. When possible, change should respect the [Product Development Timeline](https://handbook.gitlab.com/handbook/engineering/workflow/#product-development-timeline) to allow impacted teams to complete existing work and ensure smooth and efficient transitions.
+- **Talent Program Timeline**: During company-wide programs such as Talent Assessment and Annual Compensation Review, Workday is frozen for processing new changes. Be aware that processing manager changes during these programs may be delayed. Additionally, if someone is changing managers during a process where the manager’s insight into prior year performance is integral, it can create additional work as a new manager steps in mid-cycle.  
+
+
+
 
 ### Communication
 
