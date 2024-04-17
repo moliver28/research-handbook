@@ -35,7 +35,7 @@ Steps to uplevel triaging process:
 | People Analytics Triage | `@PeopleAnalyticsTriage` | People Group Analytics Team, G&A Data Fusion Team |
 | Engineering Analytics Triage | `@EngineeringAnalyticsTriage` | Engineering Analytics Team, G&A Data Fusion Team |
 | Data Platform Triage | `@DataPlatformTriage`   | Data Platform Team |
-| Data Collaboration Triage | `@DataCollaborationTriage`   | Data Collaboration Team |
+| Tableau Triage | `@TableauTriage`   | Enterprise Analytics & Insights Team |
 
 ### Enterprise Data GitLab Projects
 
@@ -66,7 +66,8 @@ Steps to uplevel triaging process:
 | `@EngineeringAnalyticsTriage` | Engineering Analytics |  |  | `@Raul Rendon` | |  `@lily` | 
 |                   | Engineering Data Fusion |  | `@Peter Empey`  | `@lisvinueza` |  |     |     |
 | `@DataPlatformTriage` | Data Platform | | Weekly rotation | Weekly rotation | Weekly rotation | Weekly rotation | Weekly rotation |
-| `@DataCollaborationTriage` | Data Collaboration |  |  |  |   | | | 
+| `@TableauTriage` | Analytics & Insights |  | `@Peter Empey`  | Weekly rotation | Weekly rotation  | Weekly rotation | Weekly rotation | 
+
 
 #### Data Platform weekly rotation schedule
 
@@ -80,6 +81,10 @@ The Data Platform Team will run on a weekly rotation schedule moving forward. Th
 Before the start of the quarter the Data Platform Team aligns on the weekly rotation schedule via an issue follewed by updating the Data Team calendar.
 
 Because of public holidays or unforeseen circumstances (Family and Friends day excluded, on these days we do not perform triage), the schedule can change throughout the quarter where there is still a possibility to handover a single day amongst Data Platform Team members. These changes are arranged between team members and are reflected in the Data Team calendar. This means that the Data Team calendar is the single source of truth.
+
+#### Tableau weekly rotation schedule
+
+For days that show `Weekly rotation` on the Tableau triage schedule, i.e. Tuesday - Friday, the triage responsibilities will be rotated between Enterprise Data Analysts. 
 
 ### Enterprise Data Program Triage Instructions
 
@@ -115,6 +120,9 @@ Data triagers are the first responders to requests and problems for the Data Pro
     - Monte Carlo incidents are posted in the `#data-pipelines` Slack channel (except schema changes). Because Monte Carlo only initially notifies an incident, checking the Monte Carlo Incident page is needed to avoid missing any incidents. **Schema changes** are filtered out using [this link](https://getmontecarlo.com/incidents?include-normalized=false&types=freshness_anomaly%2Cvolume_anomaly%2Cdimension_anomaly%2Cfield_metrics_anomaly%2CDBT_ERRORS%2Cfreshness_sli_rule_breach%2Cvolume_sli_rule_breach%2Csql_rule_breach), because these don't require action (and are also not reported in the Slack channel). **All Monte Carlo incidents need to be given an appropriate resolution status or linked to an assigned GitLab issue end of day.**
       - Note: Currently there is a large backlog of unclassified incidents in MonteCarlo. We currently focus only on the last 7 days.
 - The Analytics Engineer triager is primarily responsible for resolving `dbt-test` and `dbt-run` errors. Issues created from these errors should use the [AE Triage Errors issue template](https://gitlab.com/gitlab-data/analytics/issues/new?issuable_template=Triage%20Errors%20AE).
+- The Tableau triager is primarily responsible for acting as the primary owner of responses to ad hoc questions in the #data-tableau channel (others will continue to pitch in, but the person on triage will be the DRI) and facilitating Tableau Office Hours that week
+
+We will iterate on triage responsibilities to include additional activities such as extract refresh failure review, job failure review, etc. as the team expands.
 - For more information on responsibilities of a triager watch the [Data Engineer triage training session video](https://www.youtube.com/watch?v=0eGpgaQgEGg).
 
 ```
