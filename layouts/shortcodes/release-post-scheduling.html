@@ -8,6 +8,7 @@
               <th>Structural check</th>
               <th>Technical Advisor</th>
               <th>Social</th>
+              <th>PLT Member</th>
           </tr>
       </thead>
       <tbody>
@@ -69,6 +70,22 @@
               </td>
               <td>
                   {{- with .social }}
+                  {{- with (index (where site.Data.public.team "gitlab" "eq" .) 0) }}
+                      {{- partial "member/with-team-link" . }}
+                  {{- else }}
+                      {{- if eq . "--"}}
+                      <a href="https://gitlab.slack.com/archives/C3TRESYPJ" title="Ping @social on Slack" target="slack"><img src="/images/slack-mark.png" style="padding:4px" alt="Slack Logo" class="avatar" height="40" width="40"> @social on Slack</a>
+                    {{- else if not (eq . "tbd") }}
+                      <a href="https://gitlab.com/{{ . }}">
+                      <img class="avatar" src="https://about.gitlab.com/images/gitlab-logo-extra-whitespace.png" width="90" height="90" alt="{{ . }}">@{{.}}
+                    </a>
+                    {{- end }}
+                  {{- end }}
+                {{- end }}
+
+              </td>
+              <td>
+                  {{- with .PLT-member }}
                   {{- with (index (where site.Data.public.team "gitlab" "eq" .) 0) }}
                       {{- partial "member/with-team-link" . }}
                   {{- else }}
