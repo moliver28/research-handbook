@@ -13,7 +13,7 @@ title: "IT Global Logistics Analyst"
 - Create, maintain and approve invoices POs for global logistics
 - Maintain the asset management tool to include all assets and users
 - Keep record of all assets ordered each month/quarter/year including: Vendor managed assets and VC purchased assets
-- Keep record of all assets retained, break/fix, lost or stolen, E-wasted 
+- Keep record of all assets retained, break/fix, lost or stolen, E-wasted
 - Coordinate reverse logistics operations for each region
 - Analyze data regarding assets within our endpoint management system
 - Work with other teams to keep records up to date (Finance, Security, People Ops)
