@@ -120,7 +120,7 @@ Once your issue description is completely filled out, Legal will review all the 
 
 ### Hosting the Promotional Game Rules
 
-Any promotional game sponsored by GitLab must be accompanied by Official Rules. Once legal has drafted and provided these to you, you will need to [create a new page](/handbook/marketing/digital-experience/website/#creating-new-pages) under the [GitLab Sweepstakes](https://about.gitlab.com/community/sweepstakes/) page and add a link to the [list of Current promotional games](https://about.gitlab.com/community/sweepstakes/#current). Once you have added the rules for your promotional game, link to these from the landing page of your entry form or promotion.
+Any promotional game sponsored by GitLab must be accompanied by Official Rules. Once legal has drafted and provided these to you, you will need to create a new page under the [GitLab Sweepstakes](https://about.gitlab.com/community/sweepstakes/) page and add a link to the [list of Current promotional games](https://about.gitlab.com/community/sweepstakes/#current). Once you have added the rules for your promotional game, link to these from the landing page of your entry form or promotion.
 
 Abbreviated Rules, with a link to the full Official Rules, must be present wherever there's a mention of the promotion or prizes. Abbreviated Rules will be provided by legal.
 

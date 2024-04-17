@@ -147,7 +147,7 @@ Examples of how we engage with analysts include:
 - **Blog posts and PR:** will follow the [Request for Announcement process](/handbook/marketing/corporate-communications/#requests-for-external-announcements) to determine if this is a Level 1 or Level 2 announcement, get blogs and press releases started
 - **Landing page:** If reprints will be contracted, then AR will initiate a Landing Page with the [gated content request issue](https://gitlab.com/gitlab-com/marketing/digital-marketing-programs/issues/new#?issuable_template=gated-content-request-analysts-mpm)
 - PMM writes and submits a blog post on the report - following the [blog process for time sensitive announcements](/handbook/marketing/blog/)
-- AR will follow the process to [create a new web page](/handbook/marketing/digital-experience/website/#creating-a-new-page). Once that page is created:
+- AR will follow the process to create a new web page. Once that page is created:
     - AR adds the preliminary analyst information to the top section.
     - PM/PMM adds content on the GitLab response
     - AR gets the webpage link to the industry analyst firm for citations approval

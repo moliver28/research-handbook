@@ -71,7 +71,7 @@ All content is stored in the [/content](https://gitlab.com/gitlab-com/marketing/
 
 ### How to Add a New Webpage
 
-1. Check if the new page is part of our [Site Architecture Plan](https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/-/issues/336). These are the only pages that will exist in the Buyer Experience repository. For all other pages, please head over to the [www-gitlab-com repository instructions](/handbook/marketing/digital-experience/website/#creating-new-pages) and add your page to the old static site. 
+1. Check if the new page is part of our [Site Architecture Plan](https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/-/issues/336). These are the only pages that will exist in the Buyer Experience repository. 
 1. If your page is part of an existing neighbourhood (i.e. `/solutions/`, `/partners/`, `/topics/`) the components will already be built for you. If it is a completely new page, please request support from the Digital Experience Team via this [issue template](https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/-/issues/new#). 
 1. Add the content of your page into the [/content](https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/-/tree/main/content) folder in a `.yml` file. Please follow existing indentation and convention.
 1. Create an MR, and tag both an Engineer and a Designer on the [Digital Experience Team](/handbook/marketing/digital-experience/#team) as a `Reviewer`. Only the Digital Experience Team will be able to merge. 
