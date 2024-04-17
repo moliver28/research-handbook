@@ -30,6 +30,7 @@ See the [architecture documentation around components](https://docs.gitlab.com/e
 #### Setting up a RubyMine "Ruby" Run Configuration with puma using default socket binding
 
 1. Make sure you have done `gdk stop rails-web` before each debugging session (and `gdk start rails-web` when you are done debugging)
+1. In RubyMine, open the gitlab repo directory from `/path/to/gdk/gitlab` (Cloning gitlab and running it from a different directory won't work out of the box)
 1. Go to `Run -> Edit Configurations` to set up a Rails Run/Debug config like this in RubyMine:
     - Name: `GitLab: rails-web`
     - Configuration:
