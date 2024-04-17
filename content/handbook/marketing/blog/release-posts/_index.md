@@ -460,7 +460,7 @@ make sure that:
 - All primary features are accompanied by their images.
 - All new and/or primary features are added to [`data/features.yml`](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/features.yml) *with a screenshot accompanying the feature (if the feature is visible in the UI)*.
   - All images are optimized according to the [image guidelines](#images) **and** smaller than 150KB.
-  - Keep in mind the [`features.yml`](/handbook/marketing/digital-experience/website/#adding-features-to-webpages) is the SSOT for displaying features across `about.gitlab.com`.
+  - Keep in mind the `features.yml` is the SSOT for displaying features across `about.gitlab.com`.
 - All features should have a clear value driver.
 
 As noted in the [Release Post Item template](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/.gitlab/merge_request_templates/Release-Post-Item.md):

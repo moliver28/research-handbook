@@ -373,7 +373,6 @@ This front page of the Marketing Handbook is intended to serve as the external f
 <!-- HANDBOOKS -->
 [CMO Handbook]: /handbook/marketing/cmo
 [Blog Handbook]: /handbook/marketing/blog/
-[Website]: /handbook/marketing/digital-experience/website/
 [Brand and Product Marketing]: /handbook/marketing/brand-and-product-marketing/
 [Brand]: /handbook/marketing/brand-and-product-marketing/brand/
 [Product and Solution Marketing]: /handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/
@@ -389,7 +388,6 @@ This front page of the Marketing Handbook is intended to serve as the external f
 [Inbound Marketing]: /handbook/marketing/inbound-marketing/
 [Integrated Marketing]: /handbook/marketing/integrated-marketing/
 [Digital Experience]: /handbook/marketing/digital-experience/
-[Marketing Website]: /handbook/marketing/digital-experience/website/
 [Global Content]: /handbook/marketing/brand-and-product-marketing/content/
 [Editorial]: /handbook/marketing/brand-and-product-marketing/content/editorial-team/
 [Developer Relations]: /handbook/marketing/developer-relations/
