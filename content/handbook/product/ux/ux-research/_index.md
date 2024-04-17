@@ -1,9 +1,9 @@
 ---
 title: "UX Research at GitLab"
-description: "The goal of UX Research at GitLab is to connect with GitLab users all around the world and gather insight into their behaviors, motivations, and goals."
+description: "At GitLab, UX research helps team members make informed decisions through insights. "
 ---
 
-The goal of UX research at GitLab is to connect with GitLab users all around the world and gather insight into their behaviors, motivations, and goals. We use these insights to inform and strengthen product and design decisions.
+We connect with GitLab users all around the world and gather insight into their behaviors, motivations, and goals. We use these insights to inform and strengthen product and design decisions.
 
 {{< youtube "EQ750KX_6nU" >}}
 
