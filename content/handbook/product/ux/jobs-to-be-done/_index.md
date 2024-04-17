@@ -42,6 +42,7 @@ Good exmaples:
 - New home buyer
 - Author
 - Code reviewer
+- Code reviewer
 
 Bad examples:
 
