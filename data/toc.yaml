@@ -252,9 +252,6 @@
           url: /handbook/marketing/integrated-marketing/digital-strategy
         - name: Digital Experience
           url: /handbook/marketing/digital-experience
-          links:
-            - name: Marketing Site
-              url: /handbook/marketing/digital-experience/website
     - name: Sales Development
       url: /handbook/marketing/sales-development
     - name: Marketing Strategy, Ops, & Analytics
