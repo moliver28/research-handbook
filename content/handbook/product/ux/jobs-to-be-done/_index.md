@@ -93,7 +93,7 @@ Bad examples:
 
 ### **Related Jobs:** What else is the Job Performer trying to get done?
 
-When considering which job to innovate on, it may help to think about the other goals the selected Job Performer may have within the Domain – known as Related Jobs. These Related Jobs are distinct objectives, each with its own distinct phases, and should be formulated at a similar level of detail for comparison, typically numbering between 3 to 6 per Job Performer. Once you've select the primary Main Job you want to innovate for, move the remaining Jobs to the Related Jobs section, if you deem it necesary, you can build canvases around them at a later date.
+When considering which job to innovate on, it may help to think about the other goals the selected Job Performer may have within the Domain – known as Related Jobs. These Related Jobs are distinct objectives, each with its own unique phases, and should be formulated at a similar level of detail for comparison, typically numbering between 3 to 6 per Job Performer. Once you've selected the primary Main Job you want to innovate for, move the remaining Jobs to the Related Jobs section; if you deem it necessary, you can build canvases around them at a later date.
 
 ### **Aspirations:** What does the Job Performer aspire to become by achieving the Main Job?
 
