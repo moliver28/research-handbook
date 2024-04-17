@@ -90,6 +90,7 @@ Bad examples:
 
 - Purchase the house at 123 Main Street for less than asking. (Too specific)
 - Be a best selling author (Aspirational goal, but not a Main Job)
+- Review Merge Requests efficiently (references a specific technology [merge request], uses an adjective [efficiently]) 
 
 ### **Related Jobs:** What else is the Job Performer trying to get done?
 
