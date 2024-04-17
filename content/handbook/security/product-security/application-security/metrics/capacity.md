@@ -20,10 +20,6 @@ TBD
 
 At the beginning of each milestone (monthly), it's the responsibility of AppSec team management to lead the review of these metrics with both the AppSec team and ProdSec leadership.
 
-### When are these metrics reviewed?
-
-TBD
-
 ## Type of Work Classification
 
 Classifying each type of work helps to distinguish where exactly more capacity or other changes may be necessary.
