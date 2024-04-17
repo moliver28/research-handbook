@@ -23,7 +23,7 @@ To create an issue for yourself with one of the module templates:
 
 ## Support hybrid model
 
-The hybrid model is a structured training plan that will prepare you to work on [SaaS](https://docs.gitlab.com/ee/subscriptions/gitlab_com/), [self-managed](https://docs.gitlab.com/ee/subscriptions/self_managed/), and [GitLab Dedicated](https://docs.gitlab.com/ee/subscriptions/gitlab_dedicated/) support issues. You may find these [checkpoints](/handbook/support/training/onboarding_hybrid_path_checkpoints) helpful while working through the hybrid model path.
+The hybrid model is a structured training plan that will prepare you to work on [GitLab.com](https://docs.gitlab.com/ee/subscriptions/gitlab_com/), [self-managed](https://docs.gitlab.com/ee/subscriptions/self_managed/), and [GitLab Dedicated](https://docs.gitlab.com/ee/subscriptions/gitlab_dedicated/) support issues. You may find these [checkpoints](/handbook/support/training/onboarding_hybrid_path_checkpoints) helpful while working through the hybrid model path.
 
 <div class="x-scrollable">
 <div style="width: 1800px;">
