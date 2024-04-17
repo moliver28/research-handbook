@@ -102,7 +102,7 @@ There is an [interview guide](https://www.figma.com/file/Z4lsAOLH1ANN3pstQFYgSk/
 
 ## Step 3: Complete the Map
 
-From the various interview canvases, create a single, synthesized canvas that best represents the Main Job as you understand it. Think of it somewhat like the Venn diagram of your participants. This means that the elements you heard most often, or you have high confidence in, should be included. Meanwhile, outliers, tangents, or uncommon circumstances should be excluded. We recommend consulting with a UX Researcher when performing this step, as some experience in qualitative [data synthesis](https://handbook.gitlab.com/handbook/product/ux/ux-research/analyzing-research-data/) is helpful.
+From the various interview canvases, create a single synthesized canvas that best represents the Main Job as you understand it. Think of it somewhat like the Venn diagram of your participants. This means that the elements you hear most often or have high confidence in should be included. Meanwhile, outliers, tangents, or uncommon circumstances should be excluded. We recommend consulting with a UX Researcher when performing this step, as some experience in qualitative [data synthesis](https://handbook.gitlab.com/handbook/product/ux/ux-research/analyzing-research-data/) is helpful.
 
 
 ## Step 4: Construct Outcome Statements
