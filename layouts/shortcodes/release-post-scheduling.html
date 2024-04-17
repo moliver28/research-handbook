@@ -85,7 +85,7 @@
 
               </td>
               <td>
-                  {{- with .PLT-member }}
+                  {{- with .PLT_member }}
                   {{- with (index (where site.Data.public.team "gitlab" "eq" .) 0) }}
                       {{- partial "member/with-team-link" . }}
                   {{- else }}
