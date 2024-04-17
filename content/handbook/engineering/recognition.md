@@ -79,7 +79,7 @@ Considerations include:
 
 ### Engineering Quarterly Achievers Timeline
 
-1. 4 Weeks prior to quarter start, a call for nominations goes out in the Engineering Week in Review, and Slack. See [Communicating](#communicating) for the list of channels.
+1. 2 Weeks prior to quarter start, a call for nominations goes out in the Engineering Week in Review, and Slack. See [Communicating](#communicating) for the list of channels.
 1. Engineering Quarterly Achievers finalized within the first week of the new quarter by CTO leadership
 1. Engineering Quarterly Achievers announced and recognized in the first Engineering All-Hands of the quarter
 1. Engineering Quarterly Achievers Chat held within the quarter
