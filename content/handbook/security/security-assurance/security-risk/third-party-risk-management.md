@@ -131,7 +131,7 @@ If a Security Notice was documented at the time of the previous assessment, inqu
 
 #### Material Changes to Services Offered or Vendor's Security Environments
 
-In-scope requisitions related to vendors within the [**Approval Window**](#tprm-approval-windows) of their previous assessment will be reviewed by the TPRM Engineer to determine whether a material change has occurred to the service provided. Material changes introduce new potential risks and may require a new TPRM assessment, examples include:
+In-scope requisitions related to vendors within the [**Approval Window**](#tprm-approval-windows) of their previous assessment will be reviewed by the TPRM Engineer to determine whether a material change has occurred to the service(s) provided. Material changes introduce new potential risks and may require a new TPRM assessment, examples include:
 
 1. **Change in data classification**, such as going from Yellow to Orange data classification.
 1. **Addition of a new system not in the scope of the previous review.** For example, vendor XYZ was reviewed for procurement of their **Billing** system, but a new request has come in for the purchase of their **Revenue** system.
@@ -139,11 +139,11 @@ In-scope requisitions related to vendors within the [**Approval Window**](#tprm-
 1. **Addition of new contractors that are not subject to the vendor's security controls**.
 1. **Introduction of new AI functionality within a system resulting in the addition of a new sub-processor**.
 
-Prior to launching a new review, determine whether the previous review provides assurance over the new service/system. This can be completed by reviewing the previously-provided documentation for coverage or by asking the vendor directly. If sufficient assurance does not exist, or the change is believed to introduce additional risk to GitLab, the Security Risk team may need to complete a new TPRM review prior to approving the requisition.
+Prior to launching a new review, determine whether the previous review provides assurance over the new service or system. This can be completed by reviewing the previously-provided documentation for coverage or by asking the vendor directly. If sufficient assurance does not exist, or the change is believed to introduce additional risk to GitLab, the Security Risk team may need to complete a new TPRM review prior to approving the requisition.
 
 Vendors occasionally implement changes between contracting cycles that could introduce previously unidentified risks, such as the introduction of new AI features and/or [subservice providers](https://www.schellman.com/blog/soc-examinations/subservice-organizations-vs-vendors-within-soc). Team members should notify the Security Risk team when these changes occur, and if necessary may be directed not to allow, utilize, or enable such functionality until a new assessment has been completed. Upon notification of such changes, the Security Risk team will follow the above procedures to determine whether a new review is necessary.
 
-**Note:** Circumstances may exist outside of those defined above that could necessitate further review. TPRM Engineers should use professional discretion in identifying these circumstances and perform additional review or validation as needed.
+**Note:** Circumstances may exist outside of those defined above that could necessitate further review. TPRM Engineers should use professional discretion in identifying these circumstances and perform additional review or validation as needed. Questions or concerns regarding the materiality of a change or the appropriate approval window should be escalated to the Security Risk Team within the #Sec-Assurance-Team channel.
 
 ### Acceptable Third-Party Attestations
 
@@ -282,7 +282,7 @@ The Security Risk team has established approval windows dictating the lifecycle 
 - **Red and Orange Vendors:** Vendors being transmitted Red or Orange data are subject to a 12-month approval window from the previous assessment, with the exception of Low Risk Orange Vendors defined below.
 - **Low-Risk Orange Vendors:** Vendors receiving Orange data elements limited to GitLab Team Member physical addresses and phone numbers are subject to a 24-month approval window. An example may be a SWAG provider that receives GitLab employee names and addresses for the purposes of delivering shipments. The transmission of this type of GitLab Team Member personal data presents a low level of risk and does not present a Security Risk that could impact GitLab customers.
 
-Requisitions must be reviewed to determine whether a scope change has occurred since the previous assessment that could indicate a material change in the data transmitted to the vendor. Examples of material changes are defined in the above [TPRM Assessment Requirements](/handbook/security/security-assurance/security-risk/third-party-risk-management/#tprm-assessment-requirements) section and may result in the need to perform a new review regardless of the above-defined approval windows. Questions or concerns regarding the materiality of a change or the appropriate approval window should be escalated to the Security Risk Team within the #Sec-Assurance-Team channel.
+Requisitions must be reviewed to determine whether a scope change has occurred since the previous assessment that could indicate a material change in the data transmitted to the vendor. See the [Material Changes to Services Offered or Vendor's Security Environments](/handbook/security/security-assurance/security-risk/third-party-risk-management/#material-changes-to-services-offered-or-vendors-security-environments) section for guidance.
 
 ### Tech Stack Additions and New System Onboarding
 
