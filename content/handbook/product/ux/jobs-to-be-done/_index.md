@@ -106,7 +106,7 @@ Aspirations represent the "be" goals of the Job Performer, signifying their desi
 
 ### **Job Steps:** How does the Job Performer get the job done?
 
-Job steps detail the sequential, functinoal process through which a Job Performer accomplishes their Main Job, forming a chronological job map. Job Steps are a series of objectives the Job Performer has to get done to achieve the outcome they’re looking for, not tasks, which are too granular.
+Job steps detail the sequential, functional process through which a Job Performer accomplishes their Main Job, forming a chronological job map. Job Steps are a series of objectives the Job Performer has to get done to achieve the outcome they’re looking for, not tasks, which are too granular.
 
 What goes into a Job Step:
 
