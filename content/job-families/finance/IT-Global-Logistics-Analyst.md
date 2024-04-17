@@ -10,11 +10,9 @@ title: "IT Global Logistics Analyst"
 - Building and maintaining relationships with global vendors
 - Maintaining and expanding e-commerce stores functionality for Apple
 - Maintain, inform, and update current information regarding assets in each region
-- Create, maintain and approve invoices POs for global logistics 
+- Create, maintain and approve invoices POs for global logistics
 - Maintain the asset management tool to include all assets and users
-- Keep record of all assets ordered each month/quarter/year including:
-    * Vendor managed assets
-    * VC purchased assets
+- Keep record of all assets ordered each month/quarter/year including: Vendor managed assets and VC purchased assets
 - Keep record of all assets retained, break/fix, lost or stolen, E-wasted 
 - Coordinate reverse logistics operations for each region
 - Analyze data regarding assets within our endpoint management system
@@ -34,7 +32,7 @@ title: "IT Global Logistics Analyst"
 - Hands-on experience supporting Mac and or Linux
 - Experience working with Git
 - Ability to use GitLab for merge requests
-- Customer service centric 
+- Customer service centric
 - Excellent communication skills both written and verbal
 
 
@@ -65,7 +63,7 @@ The Senior IT Global Logistics Analystis a [grade 7](/handbook/total-rewards/com
 - Extends that of theIT Global Logistics Analyst (Intermediate) responsibilities
 - Mentoring and developing a team of IT Global Logistics Analyst
 - Leadership and mentoring skills
-- Coordinates automation for reporting and analytics 
+- Coordinates automation for reporting and analytics
 - Act as escalation point for IT Global Logistics team
 - Collaborate closely with Security and IT teams
 - Have strong capability in setting priorities, meeting deadlines and make time sensitive decisions with limited information
@@ -104,4 +102,4 @@ Candidates for this position can expect the hiring process to follow the order b
 - Candidates will then be invited to schedule a third interview with the End User Services Manager
 - Finally, candidates may be asked to interview with VP or higher in Security
 
-Additional details about our process can be found on our [hiring page](/handbook/hiring/).
+Additional details about our process can be found on our [hiring page](/handbook/hiring/)
