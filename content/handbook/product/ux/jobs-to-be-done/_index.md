@@ -113,7 +113,7 @@ What goes into a Job Step:
 
 - Begins with an action verb, in the first person
 - Avoids using "ANDs" or "ORs"
-- Are solutoin or product agnostic
+- Are solution or product agnostic
 - Are broken into top level Stages the Job Performer needs to accomplish moving left to right as they are done.
     - Each Stage is comprised of vertical stacks which are sub-steps the Job Performer needs to accomplish moving top to bottom before moving to the next stage.
 
