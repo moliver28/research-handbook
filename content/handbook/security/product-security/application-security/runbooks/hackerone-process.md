@@ -48,7 +48,7 @@ be sure to get it reassigned if you won't be able to meet the estimated triage t
 following guidelines as necessary:
     - [Request clarification](#if-a-report-is-unclear), from either the reporter or the triage team
     - Verify the report yourself
-- When a report contains externally-hosted static content for reproduction (for example some HTML file triggering a CSRF or a vulnerability exploiting a `postMessage` issue), follow the instructions in [this project](https://gitlab.com/gitlab-com/gl-security/appsec/vuln-repro-static-pages) to re-host it internally
+- When a report contains externally-hosted static content for reproduction (for example some HTML file triggering a CSRF or a vulnerability exploiting a `postMessage` issue), follow the instructions in [this project](https://gitlab.com/gitlab-com/gl-security/product-security/appsec/vuln-repro-static-pages) to re-host it internally
 - Potential, non-bounty outcomes:
     - Report is out-of-scope. If actionable, issues may still be created.
     - Report is a `~"type::feature"` as defined above and would not need to be
@@ -78,7 +78,7 @@ following guidelines as necessary:
 - If the report relates to information disclosure, follow the [triaging exposed secrets](#triaging-exposed-secrets) process.
 - If the report is valid, in-scope, original, and requires action, security-related documentation change, or if the report needs further investigation by
 the responsible engineering team:
-    - [Calculate the CVSS score](https://gitlab-com.gitlab.io/gl-security/appsec/cvss-calculator/) and post the resulting vector string (e.g.: `AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:L`) as an internal comment on the report, this will be used later when requesting a CVE ID
+    - [Calculate the CVSS score](https://gitlab-com.gitlab.io/gl-security/product-security/appsec/cvss-calculator/) and post the resulting vector string (e.g.: `AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:L`) as an internal comment on the report, this will be used later when requesting a CVE ID
     - Verify and/or set the appropriate Severity in H1, using the CVSS previously calculated
       - Optionally explain the CVSS to the researcher, mention that CVSS scores are validated by a peer, and link to our Awards process to avoid inefficient misunderstandings relating to severity and payouts
     - Verify and/or set the appropriate Weakness in H1
@@ -135,7 +135,7 @@ the responsible engineering team:
   - [ ] Update the Timeline section to include the date the secret was leaked, when HackerOne report came in, and when you took any actions.
   - [ ] Add any comments to the SIRT issue with context or information that might be helpful.
 - [ ] In the H1 report use the reference field to link to the SIRT issue (for example if the incident issue is `https://gitlab.com/gitlab-sirt/incident_XXXX/-/issues/1` the reference should be `gitlab-sirt/incident_XXXX/-/issues/1`)
-- [ ] Identify the most appropriate [non-CVSS bounty amount](https://gitlab-com.gitlab.io/gl-security/appsec/cvss-calculator/) and add your initial [suggested bounty](https://docs.hackerone.com/programs/bounties.html#suggesting-bounties) in H1
+- [ ] Identify the most appropriate [non-CVSS bounty amount](https://gitlab-com.gitlab.io/gl-security/product-security/appsec/cvss-calculator/) and add your initial [suggested bounty](https://docs.hackerone.com/programs/bounties.html#suggesting-bounties) in H1
 - [ ] Use `/h1 bounty REPORT_ID` to create a comment on the Bug Bounty Council issue (this step should not be necessary if `/h1 import` was previously run without the `~no-bounty` option.)
 - [ ] Support SIRT as required and, if applicable, follow the process for [handling severity::1/priority::1 issues](./handling-s1p1.html)
 - [ ] Investigate the location of the exposure, and locations like it, for further exposure.
@@ -170,7 +170,7 @@ Exposure of information and secrets is handled a little differently to vulnerabi
   - Update the Timeline section to include the date the secret was leaked, when HackerOne report came in, and when you took any actions.
   - Add any comments to the SIRT issue with context or information that might be helpful.
 - In the H1 report use the reference field to link to the SIRT issue (for example if the incident issue is `https://gitlab.com/gitlab-sirt/incident_XXXX/-/issues/1` the reference should be `gitlab-sirt/incident_XXXX/-/issues/1`)
-- Identify the most appropriate [non-CVSS bounty amount](https://gitlab-com.gitlab.io/gl-security/appsec/cvss-calculator/) and add your initial [suggested bounty](https://docs.hackerone.com/programs/bounties.html#suggesting-bounties) in H1
+- Identify the most appropriate [non-CVSS bounty amount](https://gitlab-com.gitlab.io/gl-security/product-security/appsec/cvss-calculator/) and add your initial [suggested bounty](https://docs.hackerone.com/programs/bounties.html#suggesting-bounties) in H1
 - Use `/h1 bounty REPORT_ID` to create a comment on the Bug Bounty Council issue (this step should not be necessary if `/h1 import` was previously run without the `~no-bounty` option.
 - Support SIRT as required and, if applicable, follow the process for [handling severity::1/priority::1 issues](./handling-s1p1.html)
 - Investigate the location of the exposure, and locations like it, for further exposure.
@@ -196,7 +196,7 @@ Similar to how we handle exposed secrets, we sometimes handle exposed personal d
 - Add information to the SIRT issue.
   - Add any comments to the SIRT issue with context or information that might be helpful.
 - In the H1 report use the reference field to link to the SIRT issue (for example if the incident issue is `https://gitlab.com/gitlab-sirt/incident_XXXX/-/issues/1` the reference should be `gitlab-sirt/incident_XXXX/-/issues/1`
-- Identify the most appropriate [non-CVSS bounty amount](https://gitlab-com.gitlab.io/gl-security/appsec/cvss-calculator/) and add your initial [suggested bounty](https://docs.hackerone.com/programs/bounties.html#suggesting-bounties) in H1
+- Identify the most appropriate [non-CVSS bounty amount](https://gitlab-com.gitlab.io/gl-security/product-security/appsec/cvss-calculator/) and add your initial [suggested bounty](https://docs.hackerone.com/programs/bounties.html#suggesting-bounties) in H1
 - Use `/h1 bounty REPORT_ID` to create a comment on the Bug Bounty Council issue
   - Note that we are importing it using `bounty` only here.
 - Support SIRT as required and, if applicable, follow the process for [handling severity::1/priority::1 issues]({{< ref "handling-s1p1.html" >}})
@@ -216,7 +216,7 @@ Vulnerabilities behind disabled-by-default feature flags do not need a CVE (use 
 
 ## Triaging deprecated features
 
-Vulnerabilities in deprecated features are triaged normally. [See discussion](https://gitlab.com/gitlab-com/gl-security/appsec/appsec-team/-/issues/336) for more information.
+Vulnerabilities in deprecated features are triaged normally. [See discussion](https://gitlab.com/gitlab-com/gl-security/product-security/appsec/appsec-team/-/issues/336) for more information.
 
 ## Triaging DNS record takeovers
 
@@ -225,7 +225,7 @@ DNS record takeovers typically require multiple teams in order to triage. The wo
 - We import the HackerOne report to the infrastructure repository via `/h1 import $REPORT infrastructure`
 - Engage SIRT via `/security` in Slack. This will allow SIRT to perform their investigatory duties related to this type of attack.
 - Engage `@sre-oncall` in Slack. This notifies the SRE (but does not intiate a PagerDuty ping) on-call of a situation requiring their attention. In the relevant SIRT issue, the responder should be added to the issue by the GitLab SIRT.
-Remediation of this vulnerability happens within the SIRT issue and typically involves deleting the dangling CNAME record. For issues involving MX record takeovers we typically work with our MX SaaS vendor, Mailgun to obtain control of the record. More information on MX record takeovers can be found [here](https://gitlab.com/gitlab-com/gl-security/appsec/appsec-team/-/issues/334).
+Remediation of this vulnerability happens within the SIRT issue and typically involves deleting the dangling CNAME record. For issues involving MX record takeovers we typically work with our MX SaaS vendor, Mailgun to obtain control of the record. More information on MX record takeovers can be found [here](https://gitlab.com/gitlab-com/gl-security/product-security/appsec/appsec-team/-/issues/334).
 
 ## Awards
 
@@ -362,7 +362,7 @@ When that happens, the creation of a new license should be avoided.
 
 ## Questions?
 
-Members of the public can ask questions about our HackerOne bug bounty program here: [https://gitlab.com/gitlab-com/gl-security/appsec/hackerone-questions/](https://gitlab.com/gitlab-com/gl-security/appsec/hackerone-questions/). Note that this repository **is not** the place to discuss or disclose reports and vulnerabilities.
+Members of the public can ask questions about our HackerOne bug bounty program here: [https://gitlab.com/gitlab-com/gl-security/product-security/appsec/hackerone-questions/](https://gitlab.com/gitlab-com/gl-security/product-security/appsec/hackerone-questions/). Note that this repository **is not** the place to discuss or disclose reports and vulnerabilities.
 
 ## HackerOne Triage Team GitLab licenses
 
