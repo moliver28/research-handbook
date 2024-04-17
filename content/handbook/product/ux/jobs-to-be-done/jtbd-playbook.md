@@ -83,7 +83,7 @@ To help you determine which Aspirations you want to focus on for this JP’s Job
 
 # Investigation Interviews
 
-The goal of this phase in the process is to understand the Main Job by performing qualitative interviews with representative Job Performers in order to understand and be able to fill in the bottom half of the JTBD Canvas: The Job Steps (Job Map), the Emotional & Social Aspects, the Outcomes, and the Job Differentiators.
+The goal of this phase is to understand the Main Job by conducting qualitative interviews with representative Job Performers. This will help us understand and fill in the bottom half of the JTBD Canvas: the job steps (Job Map), the Emotional and social Aspects, the Outcomes, and the Job Differentiators.
 
 ## Step 2: Conduct Interviews
 
