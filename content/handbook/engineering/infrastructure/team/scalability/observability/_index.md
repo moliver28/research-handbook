@@ -110,32 +110,6 @@ Refer to the Scalability group [issue boards section](/handbook/engineering/infr
 | Issues where we are investigating the work to be done. | Issues that will be built next, or are actively in development. |
 | ![Triage](../img/label-triage.png)	<br/>![Proposal](../img/label-proposal.png) <br/>![Ready](../img/label-ready.png) | ![Ready](../img/label-ready.png) <br/>![In Progress](../img/label-in_progress.png) <br/>![Under Review](../img/label-under_review.png) <br/>![Verify](../img/label-verify.png) <br/>![Done](../img/label-done.png)|
 
-
-### Group call
-
-We hold a weekly, 30 minutes group call at alternating times to facilitate a synchronous conversation across members of the group.
-While attendance is optional, joining the call if you can and otherwise catching up on the recording is encouraged.
-
-The purpose of the call is to have a space and time for the group to
-* discuss team-level concerns,
-* facilitate organisation of work across team members,
-* chat about any impediments to resolve those quicker,
-* and generally have a space and time to hang out as a team and socialize.
-
-While we emphasize on collaborating async, we embrace the opportunity for synchronous conversation.
-
-However, the call is **not meant to be used**
-* to provide regular status updates (as those are expected to be given async),
-* make decisions without async collaboration.
-
-The non-social part of the group call will be recorded and uploaded to Google Drive automatically.
-
-The agenda of the call can be found in this [Google Doc](https://docs.google.com/document/d/1i59l3MwUcLo74CzZGxwF29DHzkhk8mpHgrz26zyb4WY) (internal link).
-As usual, the agenda can be used to collaborate async and in advance to any calls happening.
-
-The timing of the call follows the time of the Scalability demo call, which happens at three different times across three weeks.
-The group call is scheduled to start 30 minutes before the demo call.
-
 ### Updates in Slack
 
 In order to stay informed with everyone's immediate topics, we post regular status updates in our Slack channel.
