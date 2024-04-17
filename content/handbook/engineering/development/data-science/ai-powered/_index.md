@@ -43,7 +43,7 @@ Our teams are data-driven, support [dogfooding](https://about.gitlab.com/directi
   - Always assign a DRI to create an issue (Ideally, whoever is communicating is the person creating the issue)
   - Make sure the DRI is included especially when things change quickly!
   - Leadership should set explicit expectations. There should be space and time for questions and discussions. Ask for this if you are not getting it, because we will then be responsible for communication moving forward.
-  - There are regular [AI Exec meetings](https://gitlab.com/gitlab-org/ai-powered/ai-weekly/-/issues) where non-MNPI read outs will be shared.
+  - There are weekly AI Exec meetings where non-MNPI read outs will be shared. Read outs and feedback from leadership will be included in the AI Monthly.
   - For senior leaders, EMs and PMs across the primary AI teams to make sure they have a place to align with each other, we use `#ai-leads`.
   - To include the quads, engineers, designers, testers, infra, our key Marketing stakeholders, etc that are working on AI, we use `#ai-portfolio`. This will help us provide a SSoT avenue for communication so we don’t confuse groups or disseminate information separately.
   - In this way, we will avoid multiple downward communications or conflicting messages,  keep discussions inside issues, and be able to retain autonomy on the roadmap according to Roadmap Review & Revision. 
@@ -57,5 +57,13 @@ Our teams are data-driven, support [dogfooding](https://about.gitlab.com/directi
 - **Strategy for GitHub**: Communicate clearly our strategy for AI in the DevSecOps space so we can share a sense of urgency to compete and be a leader in the market.
 - **Quad connection**: Ensure that all key team members of the quad are connected and informed (Infra, Quality, Dev, PM, UX) to expand transparency and collaboration as groups.
   - The AI leads have started making weekly team announcements for developments across the groups. These are found [here](https://gitlab.com/gitlab-org/ai-powered/ai-weekly/-/issues/?sort=created_date&state=all&label_name%5B%5D=AI%20Powered%20Weekly%20Updates&first_page_size=20).
+
+# Stage Meetings
+
+Although we have a bias for asynchronous communication, synchronous meetings are necessary and should adhere to our [communication guidelines](/handbook/communication/#video-calls). Some regular meetings that take place for all AI teams are:
+
+| Frequency | Meeting               | DRI         | Possible topics                 |
+|-----------|-----------------------|-------------|---------------------------------|
+| Monthly   | AI Monthly            | Michelle Gill & Taylor McCaslin     | Roadmap review, leadership feedback, direction & strategy |
 
 ## Stage Groups
