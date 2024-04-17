@@ -453,6 +453,8 @@ When you are publishing a workbook or data source, there are a few Authenticatio
 
 The way to make sure users can always access the data within a workbook, is to choose the non-default authentication option.
 
+<details markdown=1>
+
 <summary><b> In Desktop </b></summary>
 
 **Publishing a Data Source From Desktop**
@@ -477,6 +479,8 @@ Select "Edit" under "Data Sources" and find "Authentication". Choose to embed yo
 ![](images/auth-local.png)
 
 </details>
+
+<details markdown=1>
 
 <summary><b> In Cloud/Online </b></summary>
 
