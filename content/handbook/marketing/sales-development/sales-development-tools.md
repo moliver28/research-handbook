@@ -25,7 +25,7 @@ This page is to act as your guide to the many tools and best practices that the 
 
 #### BDR Lead Views
 
-* **FY25 B1 - My Leads, Action Neeeded** - Includes any leads that we have committed to follow up on ASAP. These are our highest converting leads and are a mix between High Priority and[MQL’s](/handbook/marketing/marketing-operations/marketo/#mql-and-lead-scoring) PTP is now part of our scoring so there may be leads in there that have MQLd due to PTP so you'll have to click into the lead to see more. High Priority leads belong to a High Priority campaign - you can find which one at the bottom of the page in the campaigns section.
+* **FY25 B1 - My Leads, Action Neeeded** - Includes any leads that we have committed to follow up on ASAP. These are our highest converting leads and are a mix between High Priority and[MQL’s](/handbook/marketing/marketing-operations/marketo/#mql-and-lead-scoring) PTP is now part of our scoring so there may be leads in there that have MQLd due to PTP so you'll have to click into the lead to see more. **High Priority leads belong to a High Priority campaign** - you can find which one at the bottom of the page in the campaigns section.
 * **FY25 B2 - AWA leads w/ LIM** - Includes leads in your name and that match to your Actively Working Accounts. It's best to sort these by Last Interesting Moment Date and consider the Lead Classification Score when deciding which to sequence. We do not surface leads that were sequenced in the last 14 days.
 * **FY25 B3 - Change Owner AWA's (Clone)** - These leads are now in your name automatically (not leads you've necessarily chosen and moved into your name, the old B3 view had to be cloned which is no longer needed). This view however allows you to see leads that may not have been moved into your name because at the time, they did not meet criteria. These could be bc: the leads were in lead statuses of: Accepted, MQL, or Qualifying when you moved the account into Actively Working since leads with those statuses should stay with the owner. Leads that were in disqualified or ineligible are also not moved into your name. This view will allow you to get eyes on any leads that are not in your name. You then can review any LIM dates and decide to put leads into your name if no one is reaching out. Keep sorted by LIM Date.
 * **FY25 B4 - My HT Leads W/ Phone** - This view should be used when either you do not have enough daily call tasks in Outreach to hit your daily KPI or when your team wants to do a call blitz etc. It allows you to easily pull into Outreach and create additional call tasks for your leads currently in high touch sequences.
@@ -59,7 +59,7 @@ This page is to act as your guide to the many tools and best practices that the 
  A user created series of touchpoints (calls, emails, LinkedIn) in order to communicate with a prospect and automate the user's workflow
 
 * **Primary Sequence:** a sequence created by SDR leadership that should be used by all reps to follow up with inbound leads
-* High touch and low touch sequences: a high touch sequence should be used for higher-quality leads. High touch sequences require you to add in more personalization and have more touch points across a longer period of time, including phone calls and LinkedIn Connect requests. Low touch sequences are typically automated and run for a shorter period of time. We define higher quality leads based on the volume of inbound you have to manage as well as whether the lead has has 1-2 of the following for MM/Large accounts:
+* **High Touch and Low Touch sequences:** a high touch sequence should be used for higher-quality leads. High touch sequences require you to add in more personalization and have more touch points across a longer period of time, including phone calls and LinkedIn Connect requests. Low touch sequences are typically automated and run for a shorter period of time. We define higher quality leads based on the volume of inbound you have to manage as well as whether the lead has has 1-2 of the following for MM/Large accounts:
     * Valid company email domain or company name
     * Phone number
     * Title related to our buying/influencer personas
@@ -181,6 +181,8 @@ Call and demo recording software. [Chorus](https://www.chorus.ai/) tracks keywor
 ## Crayon Competitive Messaging Resources
 
 [Crayon](https://app.crayon.co/intel/gitlab/battlecards/) hosts competitive messaging resources that are maintained by GitLab's product marketing team. 
+
+This is where you can find messaging related to GitLab vs some of our competiors such as GitHub, Atlassian, and Azure DevOps
 
 # Sales Dev Manager Resources
 
