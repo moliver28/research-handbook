@@ -17,7 +17,7 @@ TBD
 
 ### How often are these metrics reviewed?
 
-TBD
+At the beginning of each milestone (monthly), it's the responsibility of AppSec team management to lead the review of these metrics with both the AppSec team and ProdSec leadership.
 
 ### When are these metrics reviewed?
 
