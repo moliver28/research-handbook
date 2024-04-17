@@ -672,5 +672,6 @@
 /content/handbook/security/security-operations/sirt/security-incident-communication-plan.md @joshlemos @jfuentes2 @gitlab-com/egroup @gitlab-com/handbook
 /content/handbook/security/threat-management/vulnerability-management/ @smanzuik @estrike @gitlab-com/egroup @gitlab-com/handbook
 /content/handbook/security/threat-management/vulnerability-management/encryption-policy.md @smanzuik @estrike @gitlab-com/egroup @gitlab-com/handbook
+/content/handbook/security/threat-management/vulnerability-management/runbooks @smanzuik @estrike @gitlab-com/egroup @gitlab-com/handbook
 /content/handbook/security/token-management-standard.md @joshlemos @jlongo_gitlab @juliedavila @gitlab-com/egroup @gitlab-com/handbook
 /content/handbook/security/security-assurance/security-and-technology-policies-management.md @tdilbeck @corey-oas @lcoleman @jlongo_gitlab @cynthiamiller @gitlab-com/egroup @gitlab-com/handbook
