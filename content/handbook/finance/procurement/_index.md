@@ -8,6 +8,14 @@ The Procurement team manages GitLab’s [Supplier Lifecycle](#vendor-lifecycle-m
 
 <a href="https://docs.google.com/presentation/d/1p4TVSjwa79zbVs-7iDZ3_YrR8WQgB7jC7ZC_iKyUq3Y/edit#slide=id.g127b84edaab_0_0"><img src="process2.png" alt="Procurement process"></a>
 
+### Who is the Procurement Team?
+
+- Rendi Miller, Sr. Director
+- Ashley Abbate, Procurement Category Manager
+- Adrienne Ruhaak, Procurement Category Manager
+- Anam Shaikh, Sr. Procurement Operations Analyst
+- Dasha Yarmusik, Sr. Procurement Operations Analyst
+
 ### Procurement Team Alignment
 
 Division alignment for spend over >$25k USD / year:
