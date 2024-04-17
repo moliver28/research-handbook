@@ -7,7 +7,7 @@ All elearning courses at GitLab will utilize the Handbook as the Single Source o
 
 ![gitlab-learning-content-diagram](gitlab-learning-content-diagram.png)
 
-All our available learning material can be found on [Level Up](https://levelup.gitlab.com/learn/dashboard). 
+All our available learning material can be found on [Level Up](https://levelup.gitlab.com/learn/dashboard).
 
 ## Examples
 
