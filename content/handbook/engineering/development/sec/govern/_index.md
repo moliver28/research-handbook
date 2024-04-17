@@ -12,21 +12,22 @@ To support GitLab's product vision through alignment with the [Govern stage](htt
 ## Groups
 
 - [Authentication](authentication/)
+  - [Authentication Priorities](https://about.gitlab.com/direction/govern/authentication/#priorities) 
+  - [Authentication Direction](https://about.gitlab.com/direction/govern/authentication/)
 - [Authorization](authorization/) and [Anti-abuse](anti-abuse/)
+  - [Authorization Priorities](https://about.gitlab.com/direction/govern/authorization/#priorities) 
+  - [Anti-abuse Priorities](https://about.gitlab.com/direction/govern/anti-abuse/#priorities)
 - [Compliance](compliance/)
+  - [Compliance Priorities](https://about.gitlab.com/direction/govern/compliance/tactical-priorities.html#priorities)
+  - [Compliance Direction](https://about.gitlab.com/direction/govern/compliance/)
 - [Security Policies](security-policies/)
+  - [Security Policies Priorities](https://about.gitlab.com/direction/govern/security_policies/#priorities)
 - [Threat Insights](threat-insights/)
-
-## Priorities
+  - [Threat Insights 16.x ](https://about.gitlab.com/direction/govern/threat_insights/16_threat_insights_priorities.html#priorities)
+  - [Threat Insights 17.x ](https://about.gitlab.com/direction/govern/threat_insights/17_threat_insights_priorities.html)
+  - [Threat Insights Direction](https://about.gitlab.com/direction/govern/threat_insights/)
 
 Group priorities are reviewed collaboratively with product counterparts and published on the Govern direction pages
-
-- [Anti-abuse](https://about.gitlab.com/direction/govern/anti-abuse/#priorities)
-- [Authentication](https://about.gitlab.com/direction/govern/authentication/#priorities)
-- [Authorization](https://about.gitlab.com/direction/govern/authorization/#priorities)
-- [Compliance](https://about.gitlab.com/direction/govern/compliance/tactical-priorities.html#priorities)
-- [Security Policies](https://about.gitlab.com/direction/govern/security_policies/#priorities)
-- [Threat Insights](https://about.gitlab.com/direction/govern/threat_insights/16_threat_insights_priorities.html#priorities)
 
 
 ## Sub-department development people leaders
