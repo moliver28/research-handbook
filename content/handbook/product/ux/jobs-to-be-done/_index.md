@@ -127,7 +127,7 @@ Bad example:
 
 ### **Outcomes:** How does the Job Performer measure the success of getting the job done?
 
-Outcomes represent how the Job Performer gauges the success of completing the Main Job and are often subjective. You can have between 50 to 100 Outcome statements for any give Main Job. 
+Outcomes represent how the Job Performer gauges the success of completing the Main Job and are often subjective. You can have between 50 to 100 Outcome statements for any given Main Job. 
 
 What goes into an Outcome statement:
 
