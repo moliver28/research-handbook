@@ -44,13 +44,16 @@ Product Manager: [@susie.bee](https://gitlab.com/susie.bee)
 
 #### Organisational Labels
 
-Issues owned by the Custom Models group should have these labels:
+Issues owned by the Custom Models group should have these labels, as appropriate:
 
 - `~"group::custom models"`
 - `~"devops::ai-powered"`
 - `~"section::dev"`
+- `~"category::model personalization"`
+- `~"category::self-hosted model deployment"`
 
-In additional issues should contain the relevant `~type:` and subtype labels.
+
+In addition, issues should contain the relevant `~type:` and subtype labels.
 
 ## Team Milestone Planning Process
 
