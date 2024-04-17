@@ -26,7 +26,7 @@ If your team wants to conduct in-depth Jobs to be Done research (going through t
 
 ## Step 1: Define your Domain, Pick your Job Performer, and Main Job, and start an assumptive JTBD Canvas
 
-Gather your counterparts together in a sync workshop that should take about an hour of sync time to complete. At a minimum, this team should be comprised of the Product Design DRI and Product Manager. Engineering counterparts are a great addition to round out the perspectives and points of view. You'll gather together on a zoom call, focusing on the [FigJam JTBD Template]((https://www.figma.com/file/Z4lsAOLH1ANN3pstQFYgSk/Jobs-to-be-done----Playbook-Template?type=whiteboard&node-id=0%3A1&t=oMR9VPNke7aIfCoU-1)) that was created earlier.
+Gather your counterparts together in a sync workshop that should take about an hour of sync time to complete. At a minimum, this team should be comprised of the Product Design DRI and Product Manager. Engineering counterparts are a great addition to round out the perspectives and points of view. You'll gather together on a Zoom call, focusing on the [FigJam JTBD Template](https://www.figma.com/file/Z4lsAOLH1ANN3pstQFYgSk/Jobs-to-be-done----Playbook-Template?type=whiteboard&node-id=0%3A1&t=oMR9VPNke7aIfCoU-1) that was created earlier.
 
 ### Exercise 1: Brainstorm potential domains [set timer for 10 minutes]:
 
