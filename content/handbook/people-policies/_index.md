@@ -41,7 +41,7 @@ GitLab currently contracts with Sterling Talent Solutions to provide background 
 
 In the event the background screening is not available on the scheduled hire date due to delays in processing, GitLab will run the background screening as soon as possible. The same adjudication guidelines will apply to current employees as they do with prospective employees. The Senior Background Check Specialist will monitor background screenings for completion and accuracy and will follow up accordingly regarding any concerns or issues.
 
-GitLab does not currently require background check re-screening for current employees. Current employees may opt-in for additional background screenings if requested to work with specific customers. 
+GitLab does not currently require subsequent background screenings, or re-screenings, for current employees beyond obaording/pre-hire requirements. Current employees may opt-in for additional background screenings if requested to work with specific customers.
 
 The Candidate Experience Specialists will [initiate](/handbook/hiring/talent-acquisition-framework/coordinator/#background-screenings) all employment verifications and background screenings for candidates. The Senior Background Check Specialist will initiate any applicable retroactive background screenings or requested enhanced background screenings for current team members.
 
