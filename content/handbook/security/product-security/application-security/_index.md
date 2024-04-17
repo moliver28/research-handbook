@@ -15,10 +15,10 @@ As part of the Product Security department, the application security team's miss
 Team members can reach the AppSec team by:
 
 - Asking in `#sec-appsec` or mentioning `@appsec-team` on Slack
-- Mentioning `@gitlab-com/gl-security/appsec` on GitLab
+- Mentioning `@gitlab-com/gl-security/product-security/appsec` on GitLab
 - Finding your Stable Counterpart on the [Product sections, stages, groups, and categories](/handbook/product/categories/) page
-- Submit an issue in the [AppSec Team repository](https://gitlab.com/gitlab-com/gl-security/appsec/appsec-team/-/issues)
-- For cross team collaboration improvement opportunities, use [this template for collaboration improvement opportunities](https://gitlab.com/gitlab-com/gl-security/appsec/appsec-team/-/issues/new?issuable_template=cross-team-collaboration-improvement)
+- Submit an issue in the [AppSec Team repository](https://gitlab.com/gitlab-com/gl-security/product-security/appsec/appsec-team/-/issues)
+- For cross team collaboration improvement opportunities, use [this template for collaboration improvement opportunities](https://gitlab.com/gitlab-com/gl-security/product-security/appsec/appsec-team/-/issues/new?issuable_template=cross-team-collaboration-improvement)
 
 ## Application Security Roadmap
 
@@ -30,7 +30,7 @@ Please see the [Application Security Job Family page][6].
 
 ## Useful resources for AppSec engineers
 
-- [The AppSec private group that contains other private subgroups and projects](https://gitlab.com/gitlab-com/gl-security/appsec)
+- [The AppSec private group that contains other private subgroups and projects](https://gitlab.com/gitlab-com/gl-security/product-security/appsec)
 - [The `appsec-lab` group on Staging. This has an Ultimate license.](https://staging.gitlab.com/appsec-lab)
 - [Bug bounty council search](https://gitlab.com/gitlab-com/gl-security/engineering/-/issues?label_name%5B%5D=Bug+Bounty+Council)
 - [Upcoming security release](https://gitlab.com/gitlab-org/gitlab/-/issues?sort=created_date&state=opened&label_name%5B%5D=upcoming+security+release)

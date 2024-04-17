@@ -14,7 +14,7 @@ Check if the related confidential security issue has the label `~"security-fix-i
 
 ## Who can I contact if my Stable Counterpart is out of office?
 
-In GitLab, @ mention `@gitlab-com/gl-security/appsec` and the AppSec engineer on rotation will respond. In Slack, reach out on `#sec-appsec`.
+In GitLab, @ mention `@gitlab-com/gl-security/product-security/appsec` and the AppSec engineer on rotation will respond. In Slack, reach out on `#sec-appsec`.
 
 ## I ran a scan on 3rd party images used by GitLab and found vulnerabilities on them. Can they be updated?
 
