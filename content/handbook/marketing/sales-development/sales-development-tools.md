@@ -59,7 +59,7 @@ This page is to act as your guide to the many tools and best practices that the 
  A user created series of touchpoints (calls, emails, LinkedIn) in order to communicate with a prospect and automate the user's workflow
 
 * **Primary Sequence:** a sequence created by SDR leadership that should be used by all reps to follow up with inbound leads
-* High touch and low touch sequences: a high touch sequence should be used for higher-quality leads. High touch sequences require you to add in more personalization and have more touch points across a longer period of time, including phone calls and LinkedIn Connect requests. Low touch sequences are typically automated and run for a shorter period of time. We define higher quality leads based on the volume of inbound you have to manage as well as whether the lead has has 1-2 of the following for MM/Large accounts:
+* **High Touch and Low Touch sequences:** a high touch sequence should be used for higher-quality leads. High touch sequences require you to add in more personalization and have more touch points across a longer period of time, including phone calls and LinkedIn Connect requests. Low touch sequences are typically automated and run for a shorter period of time. We define higher quality leads based on the volume of inbound you have to manage as well as whether the lead has has 1-2 of the following for MM/Large accounts:
     * Valid company email domain or company name
     * Phone number
     * Title related to our buying/influencer personas
@@ -181,6 +181,8 @@ Call and demo recording software. [Chorus](https://www.chorus.ai/) tracks keywor
 ## Crayon Competitive Messaging Resources
 
 [Crayon](https://app.crayon.co/intel/gitlab/battlecards/) hosts competitive messaging resources that are maintained by GitLab's product marketing team. 
+
+This is where you can find messaging related to GitLab vs some of our competiors such as GitHub, Atlassian, and Azure DevOps
 
 # Sales Dev Manager Resources
 
