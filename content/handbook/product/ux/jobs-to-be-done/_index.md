@@ -131,10 +131,10 @@ Outcomes represent how the Job Performer gauges the success of completing the Ma
 
 What goes into an Outcome statement:
 
-1. They begin with a verb indicating a **direction** of change (e.g., minimize, reduce, decrease, or maximize, increase).
-2. Contains something the Job Performer wants to change in the form of a unit of **measure** (e.g. time, effort, or likelihood).
-3. And end with qualifiers/clarifiers that make the outcome statement **specific** and **relevant** to the Main Job.
-- Avoid ANDs or ORs (they need to be singular), and be technology/solution agnostic
+1. They begin with a verb indicating a **direction** of change (e.g., minimize, reduce, decrease, maximize, increase).
+2. Contains something the Job Performer wants to change as a unit of **measure** (e.g., time, effort, or likelihood).
+3. They end with qualifiers/clarifiers that make the outcome statement **specific** and **relevant** to the Main Job.
+- Avoid ANDs or ORs (they need to be singular), and remain technology/solution agnostic
 
 Good examples:
 
