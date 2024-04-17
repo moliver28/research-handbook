@@ -24,6 +24,10 @@ To be effective, these need to be customized to the individuals we call as per t
 - Individual’s Role and Responsibilities
 - Business’ Needs and Objectives
 
+### Call Scripts
+
+You can find three examples of our cold call scripts in the description of the [BDR 101 Level Up Course](https://university.gitlab.com/learn/course/bdr101-outbound-cold-calling/bdr101-outbound-calls/f50b8a1c-712b-44e7-a30f-2ddbbc835ccf?client=internal-team-members&page=5)
+
 The main documentation may be [found here](https://docs.google.com/document/d/1D3iV_WW5fRidRN5H8-3SZVAAr3ffEvjxUC6cW5SFXDM/edit) and the library of resources [here](https://drive.google.com/drive/folders/1VhxVwy4DoEvFco_wXeOLb0DLtVIfo7wQ).
 
 ### Up-Front Contract
