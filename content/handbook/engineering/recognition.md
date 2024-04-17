@@ -52,6 +52,7 @@ In total, 14 team members from across the Engineering organization will be recog
 1. **Software Efficiency Award** - awarded to individuals who implement an abstraction, pattern, or library that makes future development efforts much more efficient
 1. **Proactive Avoidance Award** - awarded to individuals who raise concerns about things *before* they become disastrous incidents
 1. **Security Improvement Award** - awarded to individuals who implement security features or defense in depth pattern to provide a more secure DevSecOps enviornment for everyone
+1. **Hiring Efficiency Award** - awarded to individuals who made a significant contribution to hiring efforts
 
 #### Engineering Excellence
 
