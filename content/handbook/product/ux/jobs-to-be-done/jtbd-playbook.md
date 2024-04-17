@@ -87,7 +87,7 @@ The goal of this phase is to understand the Main Job by conducting qualitative i
 
 ## Step 2: Conduct Interviews
 
-Recruit 5-10 external participants who represent the selected Job Performer of the Main Job you're investigating. It’s recommended to have a moderator and a notetaker, where the notetaker is in charge of filling out the Job Steps on your JTBD Interview Participant Canvases while the participant and moderator are talking. This will be shown to your participant twoards the end of the interview to ensure that we've interpreted what we heard accurately. 
+Recruit 5-10 external participants representing the selected Job Performer of the Main Job you're investigating. It’s recommended to have a moderator and a notetaker, who is in charge of filling out the Job Steps on your JTBD Interview Participant Canvases while the participant and moderator are talking. This will be shown to your participant toward the end of the interview to ensure that we've interpreted what we heard accurately. 
 
 We recommend booking 60 minute interviews. If you see a lot of variance in jobs, talk to more participants until patterns start to become evident.
 
