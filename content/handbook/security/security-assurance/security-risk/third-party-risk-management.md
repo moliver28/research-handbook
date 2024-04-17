@@ -343,7 +343,7 @@ Vendors within the above populations are assessed in alignment with our Red vend
 
 #### Change Requests
 
-Change requests relating to previously-approved requisitions will be reviewed by the on-call Engineer to determine whether a material change is being requested to the scope of services or the timeframe of the services provided. Changes requested specific to the cost of services and that do not present a material change impacting Security can be approved based on inheritance of approval from the parent requisition.
+Change requests relating to previously-approved requisitions will be reviewed by the on-call Engineer to determine whether a [material change](/handbook/security/security-assurance/security-risk/third-party-risk-management/#material-changes-to-services-offered-or-vendors-security-environments) is being requested to the scope of services or the timeframe of the services provided. Changes requested specific to the cost of services and that do not present a material change impacting Security can be approved based on inheritance of approval from the parent requisition.
 
 *For example: We performed a TPRM assessment for Vendor X which was completed on December 31, 2021, resulting in a 12 month coverage period lasting to December 31, 2022. A change request was created in January 2023 (outside of coverage period) related to overage charges for services provided during November 2022 (within coverage period). This example change request can be approved without a new TPRM assessment.*
 
