@@ -67,18 +67,17 @@ The Main Job serves as the central focus for innovation efforts. It represents a
 What goes into a Main Job:
 
 - Discrete functional, utilitarian goals independent of a solution
-- Begin with a Verb so it’s action-oriented.
+- Begin with a Verb so it’s action-oriented
 - Should have a clear end state (done part of JTBD)
 - Are singular (avoid ANDs or ORs)
 - Are technology or solution agnostic
-- Specific but broad enough to allow for innovative solutions.
-- Clarifiers/Qualifiers (optional) can be added to the Job in order to narrow the scope as well.
+- Specific but broad enough to allow for innovative solutions
 - Do NOT include adjectives (those are more Outcomes)
-- How would people have gotten this done 30 years ago?
+- Ask, "How would people have gotten this done 30 years ago?"
 - Format: [verb] + [object] + [(optional) qualifiers/clarifier] (try putting an “I want to…” to get the ball rolling, then remove the “I want to”)
-    - **Verb**: Action that describes what the JP is trying to accomplish. Verb choice is crucial as it sets the stage for the kind of activity or outcome the JP is looking for.
-    - **Object**: The target of the Verb Action. Clarify what is the verb acting upon that provides a focus for the job, making it clear what the outcome should affect.
-    - **Clarifier/Qualifier**: Adds specificity, adding context, conditions or purpose that helps refine the job. It can be critical for distinguishing between similar jobs or for highlighting unique aspects of the job that are particularly relevant to theJP's situation or needs.
+    - **Verb**: Action that describes what the Job Performer is trying to accomplish. Verb choice is crucial as it sets the stage for the activity or outcome the Job Performer seeks.
+    - **Object**: The target of the Verb Action. Clarifies what the verb is acting upon and provides a focus for the job.
+    - **Clarifier/Qualifier**: This adds specificity, context, conditions, or purpose that helps refine the job. It can be critical for distinguishing between similar jobs or highlighting unique aspects of the job that are particularly relevant to the Job Performer's situation or needs.
 
 Good examples:
 
