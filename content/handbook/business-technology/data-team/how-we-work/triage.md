@@ -35,7 +35,7 @@ Steps to uplevel triaging process:
 | People Analytics Triage | `@PeopleAnalyticsTriage` | People Group Analytics Team, G&A Data Fusion Team |
 | Engineering Analytics Triage | `@EngineeringAnalyticsTriage` | Engineering Analytics Team, G&A Data Fusion Team |
 | Data Platform Triage | `@DataPlatformTriage`   | Data Platform Team |
-| Data Collaboration Triage | `@DataCollaborationTriage`   | Data Collaboration Team |
+| Tableau Triage | `@TableauTriage`   | Enterprise Analytics & Insights Team |
 
 ### Enterprise Data GitLab Projects
 
