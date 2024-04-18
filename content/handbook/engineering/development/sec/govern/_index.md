@@ -82,7 +82,7 @@ The Govern stage engineering department leaders meet weekly to discuss stage and
 
 Meetings have an agenda and are async-first, where the aim is to resolve discussions async and leave time in the meeting to deep dive into topics that require more discussion.
 
-The [Govern Sub-department Board](https://gitlab.com/gitlab-com/govern-sub-department/-/boards/4833026) to better organize our discussions.
+We use the [Govern Sub-department Board](https://gitlab.com/gitlab-com/govern-sub-department/-/boards/4833026) to better organize our discussions.
 
 ### Weekly updates
 
