@@ -13,8 +13,8 @@ GitLab employees and managers need to make conscious, careful, and informed choi
 
 ## Definitions
 
-Objectives are what you want to accomplish
-Key results are how you will accomplish the objectives
+- Objectives are what you want to accomplish
+- Key results are how you will accomplish the objectives
 
 ## Writing Effective OKRs
 
