@@ -24,17 +24,6 @@ If you know someone who might be interested in attending, feel free to share the
 
 ### AMER Time Zone Webinars & Labs
 
-#### Hands-on Lab: Security and Compliance in GitLab
-##### April 17th, 2024 at 9:00-11:00AM PT / 12:00-2:00PM ET
-
-In this lab we will focus on how you can secure your application with GitLab. 
-
-We will first take a look at how to apply scanners to your CICD pipelines in a hands-on exercise so that any vulnerabilities are caught as soon as the code is committed. 
-
-Next, we will look at compliance frameworks and pipelines to show how you can ensure no one within your development teams is cutting corners and exposing your application.
-
-[<button class="btn btn-primary" type="button">Register</button>](https://gitlab.zoom.us/webinar/register/WN_z3yMsYLQTpqiDzAC0RcbsQ#/registration)
-
 #### Hands-On Advanced GitLab CI Lab 
 ##### April 24th, 2024 at 9:00-11:00AM PT / 12:00-2:00PM ET
 
@@ -56,17 +45,6 @@ Join us for the AI in DevSecOps webinar where we will explore Artificial Intelli
 [<button class="btn btn-primary" type="button">Register</button>](https://gitlab.zoom.us/webinar/register/WN_-kIPWEcnTjOzVrKplN126g#/registration)
 
 ### EMEA Time Zone Webinars & Labs
-
-#### Hands-on Lab: Security and Compliance in GitLab
-##### April 17th, 2024 at 9:00-11:00AM UTC / 11:00AM-1:00PM CET
-
-In this lab we will focus on how you can secure your application with GitLab. 
-
-We will first take a look at how to apply scanners to your CICD pipelines in a hands-on exercise so that any vulnerabilities are caught as soon as the code is committed. 
-
-Next, we will look at compliance frameworks and pipelines to show how you can ensure no one within your development teams is cutting corners and exposing your application.
-
-[<button class="btn btn-primary" type="button">Register</button>](https://gitlab.zoom.us/webinar/register/WN_-VO1nxj9Sl-rX7pYaiZPng#/registration)
 
 #### Hands-On Advanced GitLab CI Lab 
 ##### April 24th, 2024 at 9:00-11:00AM UTC / 11:00AM-1:00PM CET

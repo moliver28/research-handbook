@@ -55,7 +55,7 @@ We are a global team, and we know there are sustainability initiatives and offer
 ## Renewable Energy
 
 1. Consider installing solar panels on your roof. Check out this [Step by Step Guide](https://www.energy.gov/eere/solar/articles/walk-me-through-it-step-step-guide-consumers-going-solar) for homeowners considering solar. Assess your roof’s solar potential using [Project Sunroof](https://sunroof.withgoogle.com/).  Don’t own a home? Here are [some ideas](https://greenerideal.com/guides/solar-for-renters-a-guide-on-using-solar-energy-without-owning-a-home/#:~:text=Renters%20can%20take%20advantage%20of%20solar%20energy%20without%20owning%20a,contribute%20to%20a%20cleaner%20environment.) for how renters can benefit from solar power.
-2. Check to see if your local utility offers a ‘green power’ or ‘green tariffs’’ or something similar. Many utilities make it easy for customers to support green energy. Here’s a U.S. example for reference: [Seattle City Light Green Up Program](https://www.seattle.gov/city-light/residential-services/home-energy-solutions/renewable-energy-credits).
+2. Check to see if your local utility offers a ‘green power’ or ‘green tariffs’ program. Many utilities make it easy for customers to support green energy. Here’s a U.S. example for reference: [Seattle City Light Green Up Program](https://www.seattle.gov/city-light/residential-services/home-energy-solutions/renewable-energy-credits).
 
 ## Calculate Your Personal Carbon Footprint
 

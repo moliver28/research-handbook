@@ -13,7 +13,7 @@ Join the [#gitlab-germany channel](https://gitlab.slack.com/archives/CCLBN72TW) 
 
 ## Eye Exam and Glasses Reimbursement
 
-Under The Occupational Health and Saftey Act, employers must provide computer glasses when medically necessary to preform the job. If an eye exam determines that a team member needs glasses solely and exclusively for VDU (visual display unit i.e. computer screen) use, GitLab will reimburse towards the cost of a basic pair of frames and lenses (i.e. not designer frames) up to 150 Euro.
+Under The Occupational Health and Saftey Act, employers must provide computer glasses when medically necessary to perform the job. If an eye exam determines that a team member needs glasses solely and exclusively for VDU (visual display unit i.e. computer screen) use, GitLab will reimburse towards the cost of a basic pair of frames and lenses (i.e. not designer frames) up to 150 Euro.
 
 The team member needs to provide documentation (a prescription) from the optician that confirms if the lenses are specifically required for reading a display screen only and not required for general day to day use.
 
