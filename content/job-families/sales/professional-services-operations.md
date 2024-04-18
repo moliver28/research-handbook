@@ -304,7 +304,7 @@ Works with finance, sales and the PS leadership to ensure effective use and adop
 
 - [more detail required]
 
-### Global Services Partners Manager 
+### Global Services Partners Manager
 
 #### Global Services Partners Manager Job Grade is a [grade 6](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
