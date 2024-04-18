@@ -306,7 +306,6 @@ Works with finance, sales and the PS leadership to ensure effective use and adop
 
 ### Global Services Partners Manager 
 
-
 #### Global Services Partners Manager Job Grade is a [grade 6](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
 #### Global Services Partners Manager Responsibilities
@@ -325,7 +324,7 @@ Works with finance, sales and the PS leadership to ensure effective use and adop
    - Work with marketing and sales teams to develop and execute strategies for promoting GitLab's consulting and training programs through partners, increasing market penetration and customer engagement.
 - Cross-Functional Collaboration:
    - Work closely with various GitLab teams, including Consulting and Education Services and Channel, to ensure cohesive strategy and execution across GitLab's training offerings.
--  This role will be required to flex into the PC reponsibilities as needed.
+- This role will be required to flex into the PC reponsibilities as needed.
 
 #### Global Services Partners Manager Partners Requirements
 
@@ -350,7 +349,7 @@ Works with finance, sales and the PS leadership to ensure effective use and adop
    - Serve as the primary point of contact for GitLab's consulting training partners and subcontractors, fostering strong, productive relationships.
    - Regularly evaluate the performance and impact of partners and subcontractors, implementing strategies for continuous improvement and alignment with GitLab's consulting training objectives.
    - Facilitate knowledge sharing and best practices between partners, subcontractors, and GitLab teams to enhance the overall quality and impact of consulting and  training.
-  - Responsible for facilitating and onboarding  consulting and training partners
+   - Responsible for facilitating and onboarding  consulting and training partners
 - Program Development and Execution:
   - Collaborate with GitLab's Consulting and Education Services team to ensure that training content delivered by partners and subcontractors is up-to-date, effective, and aligned with GitLab's product advancements and educational philosophy.
   - Oversee the certification process for consulting and training delivered by partners, ensuring it meets GitLab's high standards for quality and relevance.
