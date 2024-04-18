@@ -507,20 +507,37 @@ You can bulk edit tickets by:
 
 ![ZD Bulk Update View](/images/support/zd-bulk-update.png)
 
-## US Government Support Emergencies
+## US Government On-call
 
-US Government on-call support is provided 7 days a week between the hours of 0500 and 1700 Pacific Time.
+US Government on-call support is provided 7 days a week between the hours of 0500 and 1700 Pacific Time for [severity one](https://about.gitlab.com/support/definitions/#severity-1) issues that arise with premium and ultimate customers who have purchased 12x5 US Gov support. Customers who have opted for the 24x7 ultimate for high and emergency coverage can page at any time.
 
-The current on-call schedule can be viewed in [PagerDuty](https://gitlab.pagerduty.com/schedules#P89ZYHZ)(Internal Link), or in the [Support Team on-call page](https://gitlab-com.gitlab.io/support/team/oncall.html)(GitLab Employees only). The schedule is currently split into two, 6 hour shifts, an AM and a PM shift. The AM shift starts at 0500 Pacific Time and runs until 1100 Pacific Time. The PM shift starts at 1100 Pacific Time and runs until 1700 Pacific Time.
+The current on-call schedule can be viewed in [PagerDuty](https://gitlab.pagerduty.com/schedules#P89ZYHZ)(Internal Link), or in the [Support Team on-call page](https://gitlab-com.gitlab.io/support/team/oncall.html)(GitLab Employees only). The schedule is currently split into three, 8 hour shifts which roughly correlate with the dayshift, evening, and overnight team member hours:
+
+- Dayshift: 05:00 - 13:00 PT
+- Evenings: 13:00 - 21:00 PT
+- Overnight: 21:00 - 05:00 PT
 
 Customers are permitted to submit emergencies via email or via the emergency form in the US Government support portal.
 
 #### Emergencies outside on-call hours
 
-If a customer submits an emergency case outside the [working hours of Government Support](https://about.gitlab.com/support/us-government-support/#hours-of-operation) the following will occur:
+If a non-24x7 eligible customer submits an emergency case outside the [working hours of Government Support](https://about.gitlab.com/support/us-government-support/#hours-of-operation) the following will occur:
 
 - A slack notification will trigger in the #spt_us-government channel alerting the team to an off hours emergency and indicating follow-up is needed at the start of business hours
 - The `Off hours emergency request` trigger will inform the ticket submitter that it is after hours and give them the option to either create an emergency case in Global support or wait for US Government support to follow-up at the next start of business hours.
+
+##### Responding to after hours emergencies
+
+Team members who are working after the 12x5 hours may opt to provide support for customers who are having a production incident at the engineer's own discretion. When addressing these it is important to ensure the following is clear with the customer:
+
+   - They are not entitled to 24x7 support based on their subscription
+   - Emergency support is being provided as a one off exception based on the engineer's availability and future after hours support is not guaranteed
+
+The responding engineer should also add their manager as a follower and indicate in an internal note that after hours support is being provided. This will help ensure the appropriate follow-up occurs with the customer's account team.
+
+#### US Gov Emergencies in Global
+
+US Government customers with 12x5 support packages are permitted to use the global support portal for after hours emergencies if their organization's policies permit interacting and sharing information with non-US citizens. The US Gov support team **cannot confirm or deny** whether a specific case belongs to a user or organization entitled to US Government support. There is no requirement or restriction on who can reply to emergencies filed in the global support portal. If a user asks for a US citizen please remind them they are using the global support portal where US citizenship is not guaranteed and let them know if that is a requirement they should use the US Government Support portal for future communication instead.
 
 ## GitLab Dedicated Emergencies
 
