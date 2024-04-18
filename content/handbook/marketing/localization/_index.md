@@ -62,6 +62,10 @@ We use Slack internally as a communication tool. The Localization channels are a
 
 Localized campaigns currently follow the [integrated campaign process](/handbook/marketing/campaigns/#campaign-planning). The Integrated Marketing team is responsible for content localization for integrated campaigns. 
 
+### Translating content for Field Events
+
+Content localization requests should align to the Integrated Campaigns and be submitted at the beggining of each quarter (post quartely planning session & FMM/Campaign QBRs). The purpose of streamlined process is to minimise the ad-hoc requests throughout the quarter. Any requests outside of quarterly planning should be submitted directly to the localization team, following a standard process and managed by the Field Marketing Team. 
+
 ### Language preference segmentation
 
 In order to offer content and events in preferred languages where available, we have a `Language Preference` Segmentation created in Marketo. Only Marketing Ops can edit these segments. Available languages for this segmentation can be found on the [Marketo page](/handbook/marketing/marketing-operations/marketo/#segmentations). A person will be added to a `Language Preference` segment if they complete a form on our website or respond to a campaign that was offered in one of the available languages.
