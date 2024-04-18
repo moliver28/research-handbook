@@ -54,7 +54,6 @@ You should then employ the following workflows for:
       - Normal FRT84h, NRT 24h
       - Low FRT 8h, NRT 24h
    - During periods of reduced operational capacity, such as holidays or company events, the Support team will prioritize handling all incoming tickets through the special ‘All FRT and Emergencies’ and ‘All NRT’ views, with each engineer expected to take ownership of any unassigned tickets they address.
-   - 
 
 ## First Response and Ongoing Communication
 
@@ -82,11 +81,11 @@ By following these steps, you ensure a structured approach to ticket handling th
 
 The Slack Handover Form is designated for tickets with high weight values, streamlining the process for urgent transfers and allowing Support Engineers to manage lower-priority tickets autonomously. To ensure a smooth handover, follow these steps:
 
-   - ** Select the Appropriate Form:** Choose a handover form from the Handovers folder in your SGG channel, based on the ticket's target region (e.g., Handover to EMEA).
-   - ** Complete the Form:** Fill in all required fields and submit the form.
-   - ** Communication:** Upon submission, a notification will be sent to your group’s Slack channel, alerting the regional group handle.
-   - ** Reminder:** You’ll receive a private Slack reminder to use the mandatory Handover Ticket Summary macro.
-   - ** Tracking:** All handover requests are logged in the #spt_handover-log channel for tracking purposes.
+   - **Select the Appropriate Form:** Choose a handover form from the Handovers folder in your SGG channel, based on the ticket's target region (e.g., Handover to EMEA).
+   - **Complete the Form:** Fill in all required fields and submit the form.
+   - **Communication:** Upon submission, a notification will be sent to your group’s Slack channel, alerting the regional group handle.
+   - **Reminder:** You’ll receive a private Slack reminder to use the mandatory Handover Ticket Summary macro.
+   - **Tracking:** All handover requests are logged in the #spt_handover-log channel for tracking purposes.
 
 #### Handling Tickets Handed Over from Another Region
 
