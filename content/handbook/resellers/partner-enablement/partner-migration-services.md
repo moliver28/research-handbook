@@ -18,7 +18,7 @@ GitLab encourages our GitLab Partners to engage in technical services such as mi
 For a short technical overview of available paths to importing or migrating to GitLab, see [Import and migrate groups and projects](https://docs.gitlab.com/ee/user/project/import/).
  
 # Overview of common migration steps for GitLab Partners
-#### For the links in this section, login to our [GitLab Partner Portal](https://partners.gitlab.com/) first, then click these inline with the text links:
+_For the links in this section, login to our [GitLab Partner Portal](https://partners.gitlab.com/) first, then click links:_
 
 GitLab Partners who are successful at performing customer-facing migrations often take this example path in client engagement:
 1. Scope/size the migration. How many users? How many code repositories? Will the group structure remain intact, or is the migration an opportunity to 'clean up unused projects' within GitLab? Would a [GitLab Optimization Services](https://partners.gitlab.com/prm/English/s/assets?collectionId=55025&id=459892&renderMode=Collection) be a better first step?
