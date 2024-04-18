@@ -103,7 +103,7 @@ After a score is assigned for each area, the calculator will output a priority s
 
 An output of the Research Priority Calculator includes a Researcher Support Level. This is defined as the level of support the UX Researcher can commit to a given research project. Having a clear delineation of the roles that UX Researchers play in each research project helps everyone understand what is expected of them to execute research and support success.
 
-Note: When creating the quarterly research planning issue, the UX Researcher can adjust the Researcher Support Level (Gold, Silver, Bronze) from the calculation as needed based on the team or project needs.
+**Note: When creating the quarterly research planning issue, the UX Researcher can adjust the Researcher Support Level (Gold, Silver, Bronze) from the calculation as needed based on the team or project needs.**
 
 | Researcher Support Level| Priority Percentage |
 | ------ | ------ |
