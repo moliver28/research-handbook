@@ -89,7 +89,7 @@ This results in a lower rate of involuntary attrition than comparable companies,
 - Requiring two "strong yes" votes from the interview team to make an offer
 - Requiring that candidates demonstrate all documented must-have criteria for the role
 - Requiring that candidates demonstrate a simple majority of all nice-to-have criteria for the role
-- Requiring that hiring managers write a "justification" scorecard that outlines the candidate's strengths, outlines their weaknesses, and articulates a plan for making them successfully
+- Requiring that hiring managers write a "justification" scorecard that outlines the candidate's strengths, outlines their weaknesses, and articulates a plan for making them successful
 - Requiring that hiring managers fill out a retrospection document for all unsuccessful hires
 
 ## Options For Remediation
@@ -139,4 +139,4 @@ Managers need to be aware and take into consideration both skill-based and will-
 
 ### Letting Someone Go
 
-This should be discussed with Team Member Relations before any action is taken to ensure the process is compliant with local laws and regulations. As soon as it becomes transparent that a Team Member will be off-boarded from the company, we recommend that this is addressed immediately. The team member is entitled to know where they stand. Delaying the conversation causes problems with confidentiality (the Team Member may realize in another way, that they will be exiting the company) and can potentially escalate the issues for the team member, the manager and the wider team (working relationships could  be greatly affected).
+This should be discussed with Team Member Relations before any action is taken to ensure the process is compliant with local laws and regulations. As soon as it becomes apparent that a Team Member will be off-boarded from the company, we recommend that this is addressed immediately. The team member is entitled to know where they stand. Delaying the conversation causes problems with confidentiality (the Team Member may realize in another way, that they will be exiting the company) and can potentially escalate the issues for the team member, the manager and the wider team (working relationships could  be greatly affected).
