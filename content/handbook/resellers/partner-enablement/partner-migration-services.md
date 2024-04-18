@@ -11,13 +11,11 @@ title: "Channel Partner Migration Services"
 <link rel="stylesheet" type="text/css" href="/stylesheets/biztech.css" />
 
 
-# Partner Migration Services
-
-GitLab encourages our GitLab Partners to engage in technical services such as migrating to GitLab. This page attempts to provide an overview of different sources of data that can be transferred to various GitLab destinations. For deeper technical understanding, engineers should enroll and learn from the GitLab University [GitLab Certified Migration Services Specialist Learning Path.](https://university.gitlab.com/learning-paths/gitlab-certified-migration-services-specialist-learning-path)
+GitLab encourages our GitLab Partners to engage in and lead technical services such as migrating to GitLab. This page provides an overview of different sources of data that can be transferred to various GitLab destinations. For deeper technical understanding, engineers should enroll and learn from the GitLab University [GitLab Certified Migration Services Specialist Learning Path.](https://university.gitlab.com/learning-paths/gitlab-certified-migration-services-specialist-learning-path)
  
 For a short technical overview of available paths to importing or migrating to GitLab, see [Import and migrate groups and projects](https://docs.gitlab.com/ee/user/project/import/).
  
-# Overview of common migration steps for GitLab Partners
+# Common migration steps for GitLab Partners
 _For the links in this section, login to our [GitLab Partner Portal](https://partners.gitlab.com/) first, then click links:_
 
 GitLab Partners who are successful at performing customer-facing migrations often take this example path in client engagement:
