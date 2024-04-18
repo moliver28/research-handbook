@@ -384,7 +384,22 @@ We use Fibonacci Series for weights and limit the highest number to 8. The defin
 
 ## Performance Indicators
 
-TBA
+The Executive Summary of all KPIs can be found [here](https://handbook.gitlab.com/handbook/engineering/infrastructure/performance-indicators/#executive-summary).
+
+Test Platform owns and maintains the following:
+
+### Key Performance Indicators
+
+- [S1 Open Customer Bug Age (OCBA)](https://handbook.gitlab.com/handbook/engineering/infrastructure/performance-indicators/#s1-open-customer-bug-age-ocba)
+- [S2 Open Customer Bug Age (OCBA)](https://handbook.gitlab.com/handbook/engineering/infrastructure/performance-indicators/#s2-open-customer-bug-age-ocba)
+- [Team Member Retention](https://handbook.gitlab.com/handbook/engineering/infrastructure/performance-indicators/#quality-team-member-retention)
+
+### Regular Performance Indicators
+
+- [Average duration of end-to-end test suite](https://handbook.gitlab.com/handbook/engineering/infrastructure/performance-indicators/#average-duration-of-end-to-end-test-suite)
+- [Average age of quarantined end-to-end tests](https://handbook.gitlab.com/handbook/engineering/infrastructure/performance-indicators/#average-age-of-quarantined-end-to-end-tests)
+- [S1 Open Bug Age (OBA)](https://handbook.gitlab.com/handbook/engineering/infrastructure/performance-indicators/#s1-open-bug-age-oba)
+- [S2 Open Bug Age (OBA)](https://handbook.gitlab.com/handbook/engineering/infrastructure/performance-indicators/#s2-open-bug-age-oba)
 
 ## Learning Resources
 
