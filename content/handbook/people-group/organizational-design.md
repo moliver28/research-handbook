@@ -47,7 +47,7 @@ We review data for a Peer Group and against the Industry. "Peer Group" is a grou
 
 ## Organizational Design Planning Playbook
 
-At GitLab, a high-performance culture underpins our strategy. Having the right team structure in place enables teams to act with urgency, collaborate effectively, and deliver results for our customers. At times, we need to reevaluate how a team is set up and make structural changes that unlock higher-quality results. Our organizational health and capability review process is a data point that can aid organizational design planning strategy. 
+At GitLab, a high-performance culture underpins our strategy. Having the right team structure in place enables teams to act with urgency, collaborate effectively, and deliver results for our customers. At times, we need to reevaluate how a team is set up and make structural changes that unlock higher-quality results. Our organizational health and capability review process is a data point that can aid organizational design planning strategy.
 
 The purpose of this playbook is to enable leaders at GitLab to make thoughtful and strategic organizational design decisions. It’s intended to be used by people leaders in partnership with their aligned People Business Partner (PBP).
 
@@ -85,11 +85,11 @@ Now that you have determined an organizational change is required and have a str
 
 **2. Objective decision making:** Ensuring you have a northstar or clearly defined goals in place help ensure fairness and consistency in decision making, enable a stronger communication plan, and help you measure the success of the org change following the event.
 
-##### Phase 2: Define Success Criteria
+##### Define Success Criteria
 
 To be able to effectively measure the success of an organizational change, the success criteria for the change *should be defined before the change goes into effect* and align with the goals for the change. This helps us reflect back on the impact of our decisions to ensure we are consistently learning from and iterating appropriately.
 
-### Decision Making
+### Phase 2: Decision Making
 
 There are several key elements to consider when thinking through org design decisions and their impact in the near and long term. Key areas to think through include:
 
@@ -130,7 +130,7 @@ Depending on the scale of the realignment or reorganization that you are impleme
 
 ### Phase 3: Communication
 
-Enabling team members to refocus on their work quickly and effectively after an organizational change is supported by having a thorough and thoughtful communication plan. Resources to aid in communication that are available include: 
+Enabling team members to refocus on their work quickly and effectively after an organizational change is supported by having a thorough and thoughtful communication plan. Resources to aid in communication that are available include:
 
 1. [Leading Through Change: Guidance For Managers](https://docs.google.com/presentation/d/1maWy0CEu7-PqGtxPnppMBl8NyE1cmktNmN7HuQtSibw/edit#slide=id.g123a13deda8_0_405): A refresh for managers on how to support team members through change
 2. [Realignment Communication Plan](https://docs.google.com/document/d/11Q6BIniQK8lGUvkpBKuGFxv9WtyBEKGwUMs1LUTd0es/edit#heading=h.dzhtklppkb8): A communication plan template to help structure comms cascades for realignments
@@ -171,36 +171,36 @@ A key part of communication and change management is providing diverse opportuni
 
 ##### Iteration
 
-Remember to remain open to feedback on the proposed change. It is important to remain iterative based on new information presented through feedback or retrospectives and as business opjectives shift and priorities change. 
+Remember to remain open to feedback on the proposed change. It is important to remain iterative based on new information presented through feedback or retrospectives and as business opjectives shift and priorities change.
 
 ##### Transparency
 
-A key piece of transparency is ensuring the “why” is clear. A thoughtful planning and decision-making process should result in identifying themes that are useful to share to help team members understand the change. Work with your PBP to ensure you remain compliant when communicating any changes that impact team members. 
+A key piece of transparency is ensuring the “why” is clear. A thoughtful planning and decision-making process should result in identifying themes that are useful to share to help team members understand the change. Work with your PBP to ensure you remain compliant when communicating any changes that impact team members.
 
 ### Phase 4: Execution
 
-The following information will help you execute the changes in the appropriate systems to reflect the new organizational structure. 
+The following information will help you execute the changes in the appropriate systems to reflect the new organizational structure.
 
-Throughout the different phases summarized above, the aligned PBP will partner with you to understand the scope of the impact of the change, such as: 
+Throughout the different phases summarized above, the aligned PBP will partner with you to understand the scope of the impact of the change, such as:
 
 - Is there any team member compensation impact?
 - Are there any other budgetary impacts or headcount trade-offs?
 - Is there any job title impact? (not job title specialty, but job title I.E. Frontend Engineer changed to Backend Engineer)
 - Are any team members changing managers?
 - Is the change intended to be temporary or permanent?
-- How many team members are being impacted by this change? 
+- How many team members are being impacted by this change?
 
-Depending on the scope and type of impact, the PBP will advise on the exact steps to take and which groups to collaborate with (such as Legal, PeopleConnect, FP&A, etc.) to update appropriate systems. For example, a change impacting a large number of team members (10+ people) is best entered into Workday [in partnership with our People Operations team](https://internal.gitlab.com/handbook/people-group/people-operations/people-connect/people_connect_team/#workday-process-roles--responsibilities). For smaller changes (less than 10 people), the current manager should follow the standard process for [updating job information in Workday](https://handbook.gitlab.com/handbook/people-group/promotions-transfers/#manager-self-service-in-workday-job-information-change). 
+Depending on the scope and type of impact, the PBP will advise on the exact steps to take and which groups to collaborate with (such as Legal, PeopleConnect, FP&A, etc.) to update appropriate systems. For example, a change impacting a large number of team members (10+ people) is best entered into Workday [in partnership with our People Operations team](https://internal.gitlab.com/handbook/people-group/people-operations/people-connect/people_connect_team/#workday-process-roles--responsibilities). For smaller changes (less than 10 people), the current manager should follow the standard process for [updating job information in Workday](https://handbook.gitlab.com/handbook/people-group/promotions-transfers/#manager-self-service-in-workday-job-information-change).
 
 It is important to ensure that appropriate communications are in place before changes are reflected in Workday so team members and managers do not learn about changes through Workday updates.
 
-There may also be additional documentation that will need to be shared with the team member confirming the change, in compliance with local regulations. People Connect can provide any required documentation related to a role change. We have [this template](https://docs.google.com/spreadsheets/d/1Yf9GgmaJVE3fDNR7JrEk5Q4tbyFtwcqDnfulJHRbyKM/edit#gid=433813408) as a resource to document changes, impact, and additional documentation required available as a resource if needed. 
+There may also be additional documentation that will need to be shared with the team member confirming the change, in compliance with local regulations. People Connect can provide any required documentation related to a role change. We have [this template](https://docs.google.com/spreadsheets/d/1Yf9GgmaJVE3fDNR7JrEk5Q4tbyFtwcqDnfulJHRbyKM/edit#gid=433813408) as a resource to document changes, impact, and additional documentation required available as a resource if needed.
 
 **For R&D:** We have a process outlined for our various [Global Prioritization](https://handbook.gitlab.com/handbook/product/product-processes/#prioritize-global) team member alignment changes outlined in addition to [Engineering Allocations](https://handbook.gitlab.com/handbook/product/product-processes/#engineering-allocation) on the Product Processes page.
 
 ### Phase 5: Measuring Success
 
-Shortly after the change has been executed, you are encouraged to take the time to reflect on what went well, what could have been done differently, and what you learned from the process to enable you to iterate on future change programs for your organization. 
+Shortly after the change has been executed, you are encouraged to take the time to reflect on what went well, what could have been done differently, and what you learned from the process to enable you to iterate on future change programs for your organization.
 
 In the spirit of results and ongoing improvement, we seek to measure organizational change's success. Together the e-group leader or exec sponsor of the org change and the PBP partner score the following metrics (Likert scale) in two phases: phase 1 is immediately after the organizational change becomes effective to measure the process, alignment, collaboration, and transparency of the process, and phase 2 is two quarters **after** the change effective date to measure whether the desired business results where achieved.
 
@@ -216,7 +216,7 @@ These questions should be discussed immediately after the effective date of the 
 
 ##### Phase 2
 
-These questions should be discussed two quarters after the effective date of the organizational changes. In addition to the formal scoring, we recommend checking in on key impacted team members in the following months and quarters after the change to ensure they continue to remain motivated and engaged. 
+These questions should be discussed two quarters after the effective date of the organizational changes. In addition to the formal scoring, we recommend checking in on key impacted team members in the following months and quarters after the change to ensure they continue to remain motivated and engaged.
 
 - Results: Did we meet the goal of the organizational change? Did the change produce the expected value?
 - Iteration: In retrospect, is there anything we would have done differently or should have considered before making this change?
