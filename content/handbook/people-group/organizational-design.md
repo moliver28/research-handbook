@@ -10,7 +10,7 @@ To further our principles of responsible growth, we review organizational health
 
 In addition to ongoing company level review and People Group KPIs, People Business Partners provide insights and recommendations to senior leaders based on organizational health metrics at a Division level.  A holistic review of organizational health metrics such as growth rate, turnover, promotion rate, engagement data, organizational shape, span of control, [Single Points of Failure](/handbook/people-group/talent-assessment/#key-talent-and-single-points-of-failure-spof) and DIB metrics support leaders in making data-driven talent decisions, such as organizational design, budget planning, and headcount planning.
 
-You can review more on our organizational structure on this [handbook page](/handbook/company/team/structure)
+You can review more on our organizational structure on this [handbook page](/handbook/company/team/structure).
 
 ### Cadence of Division Level Organizational Health Reviews
 
@@ -54,12 +54,12 @@ The purpose of this playbook is to enable leaders at GitLab to make thoughtful a
 Generally, there are 5 phases when making an organizational change:
 
 1. Planning and goal definition and alignment
-2. Org design decisions
+2. Decision making
 3. Communication of changes
 4. Execution of changes
 5. Measuring success
 
-### Planning
+### Phase 1: Planning
 
 When considering making organizational changes, consider how your new organizational design contributes to the overall company strategy, how it will accelerate or drive improved business results, and how it aligns with our values.
 
@@ -85,7 +85,7 @@ Now that you have determined an organizational change is required and have a str
 
 **2. Objective decision making:** Ensuring you have a northstar or clearly defined goals in place help ensure fairness and consistency in decision making, enable a stronger communication plan, and help you measure the success of the org change following the event.
 
-##### Define Success Criteria
+##### Phase 2: Define Success Criteria
 
 To be able to effectively measure the success of an organizational change, the success criteria for the change *should be defined before the change goes into effect* and align with the goals for the change. This helps us reflect back on the impact of our decisions to ensure we are consistently learning from and iterating appropriately.
 
@@ -128,7 +128,7 @@ Depending on the scale of the realignment or reorganization that you are impleme
 - **Talent Program Timeline**: During company-wide programs such as Talent Assessment and Annual Compensation Review, Workday is frozen for processing new changes. Be aware that processing manager changes during these programs may be delayed. Additionally, if someone is changing managers during a process where the manager’s insight into prior year performance is integral, it can create additional work as a new manager steps in mid-cycle.
 
 
-### Communication
+### Phase 3: Communication
 
 Enabling team members to refocus on their work quickly and effectively after an organizational change is supported by having a thorough and thoughtful communication plan. Resources to aid in communication that are available include: 
 
@@ -177,7 +177,7 @@ Remember to remain open to feedback on the proposed change. It is important to r
 
 A key piece of transparency is ensuring the “why” is clear. A thoughtful planning and decision-making process should result in identifying themes that are useful to share to help team members understand the change. Work with your PBP to ensure you remain compliant when communicating any changes that impact team members. 
 
-### Execution
+### Phase 4: Execution
 
 The following information will help you execute the changes in the appropriate systems to reflect the new organizational structure. 
 
@@ -198,7 +198,7 @@ There may also be additional documentation that will need to be shared with the 
 
 **For R&D:** We have a process outlined for our various [Global Prioritization](https://handbook.gitlab.com/handbook/product/product-processes/#prioritize-global) team member alignment changes outlined in addition to [Engineering Allocations](https://handbook.gitlab.com/handbook/product/product-processes/#engineering-allocation) on the Product Processes page.
 
-### Measuring Success
+### Phase 5: Measuring Success
 
 Shortly after the change has been executed, you are encouraged to take the time to reflect on what went well, what could have been done differently, and what you learned from the process to enable you to iterate on future change programs for your organization. 
 
