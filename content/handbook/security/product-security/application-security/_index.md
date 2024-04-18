@@ -97,6 +97,10 @@ Learn how to identify or remediate security issues using real examples with GitL
 
 Learn how GitLab is implementing [Reproducable Builds][13] for our build processes.
 
+## Milestone Planning
+
+The GitLab Application Security team plans work based around Milestones, see [this page for a description of that process][14]
+
 ## Application Security Automation and Monitoring
 
 Please see the [Application Security Automation and Monitoring page][12]
@@ -112,3 +116,4 @@ Please see the [Application Security Automation and Monitoring page][12]
 [11]: {{< ref "reproducible-vulnerabilities" >}}
 [12]: {{< ref "application-security-automation-monitoring" >}}
 [13]: {{< ref "reproducible-builds" >}}
+[14]: {{< ref "milestone-planning" >}}
