@@ -242,7 +242,7 @@ For any domain, you might end up with 3 to 5 Job Stories covering the data and i
 ### Job Story Format
 
 1. **When I** ___________ [am at this Job Step] + [under these conditions-Job Differentiators],
-2. **I want** ____________ [this New Ability, customer imperative or demand the JP has on the solution],
+2. **I want** ____________ [this New Ability, customer imperative or demand the Job Performer has on the solution],
 3. **So I can** __________ [reach these Outcomes] + [and have these Emotional/Social Aspects].
 
 #### Line 1
@@ -257,9 +257,9 @@ For any domain, you might end up with 3 to 5 Job Stories covering the data and i
 
 #### Line 2
 
-- This doesn’t come directly from your Job Canvas but is still derived from your knowledge of your Job Performers and their Top Jobs, which are derived from your research data.
-- You’ll need to get creative by considering what you’ve learned about your Job Performer and this Top Job; consider what “superpower” an ideal solution might grant your Job Performer.
-- This is a specific, aspirational, even a little ambitious statement of what the Job Performer wants to achieve from completing this Top Job. What capabilities are missing from the Job Performer's current tools?
+- This doesn’t come directly from your Job Canvas but is still derived from your knowledge of your Job Performers and their Main Jobs, which are derived from your research data.
+- You’ll need to get creative by considering what you’ve learned about your Job Performer and this Main Job; consider what “superpower” an ideal solution might grant your Job Performer.
+- This is a specific, aspirational, even a little ambitious statement of what the Job Performer wants to achieve from completing this Main Job. What capabilities are missing from the Job Performer's current tools?
 
 ### Qualities of a Job Story
 
