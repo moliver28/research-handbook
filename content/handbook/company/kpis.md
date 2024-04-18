@@ -102,10 +102,6 @@ GitLab team members can access and update all Product performance indicators wit
 
 {{< kpi "Infrastructure Department" >}}
 
-### Quality Department KPIs
-
-{{< kpi "Quality Department" >}}
-
 ### UX Department KPIs
 
 {{< kpi "UX Department" >}}
