@@ -236,7 +236,7 @@ Note that we are in the process of automating issue creation for every time a cr
 1. Repeat the retry command as needed. If this causes the failed job(s) to pass, close the issue. If not, either fix the root cause manually and retry again, or create a new related issue to track the root cause.
 1. If you managed to mitigate the problem and make the pipeline pass, but the issue could comeback in the future, then:
    - Write a comment explaining which actions did you take to mitigate it.
-   - Check if there's an existing follow-up issue to investigate/implement a definitive fix for the problem, and link it to this pipeline issue failure. If such an follow-up issue does not yet exist, create one and link it.
+   - Check if there's an existing follow-up issue to investigate/implement a definitive fix for the problem, and link it to this pipeline issue failure. If such a follow-up issue does not yet exist, create one and link it.
    - If you had to restart a release which had already been stopped, after you fix the pipeline, manually stop the environment with `@gitlab-bot retry_job <job-id of stop-review-*>`. This is necessary because that job won't be automatically re-triggered, and dangling releases can cause ELBs quota exhaustion. See chart issue [#5326](https://gitlab.com/gitlab-org/charts/gitlab/-/issues/5326).
 1. Failures requiring follow up issue(s) to fix pipelines that are still in a broken state should also be noted to increase team awareness. Those issues should be labeled with `Broken Pipeline`.
 1. Failures caused by upstream failure should be labeled with [`Upstream bug`](https://gitlab.com/groups/gitlab-org/-/labels?search=upstream+bug) and linked with the related upstream issue.
