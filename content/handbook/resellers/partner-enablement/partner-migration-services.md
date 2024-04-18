@@ -13,7 +13,9 @@ title: "Channel Partner Migration Services"
 
 # Partner Migration Services
 
-To learn about GitLab migrations, start with GitLab's technical documentation titled [Import and migrate groups and projects](https://docs.gitlab.com/ee/user/project/import/). Depending on the source Git provider, size/scope of the migration and the importance of the preservation of the migrated artifacts, carefully consider each option given each option's limitations/benefits.
+GitLab encourages our GitLab Partners to engage in technical services such as migrating to GitLab. This page attempts to provide an overview of different sources of data that can be transferred to various GitLab destinations. For deeper technical understanding, engineers should enroll and learn from the GitLab University [GitLab Certified Migration Services Specialist Learning Path.](https://university.gitlab.com/learning-paths/gitlab-certified-migration-services-specialist-learning-path)
+ 
+To learn about GitLab migrations, start with GitLab's technical documentation primer titled [Import and migrate groups and projects](https://docs.gitlab.com/ee/user/project/import/). Depending on the source Git provider, size/scope of the migration and the importance of the preservation of the migrated artifacts, carefully consider each option given each option's limitations/benefits.
 
 The GitLab Channel Partner Program provides the following [GitLab Channel Service Packages](https://partners.gitlab.com/prm/English/c/Channel_Service_Packages) to our partners in order to construct your own Services Packages in our [GitLab Partner Portal](https://partners.gitlab.com), including our Migration Quickstart Services Offering.
 
