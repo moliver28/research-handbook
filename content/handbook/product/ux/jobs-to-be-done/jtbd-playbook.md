@@ -108,26 +108,40 @@ It's recommended to continue your collaboartion with your Section's UX Researche
 ## Step 2: Complete the Job Map
 
 The process you follow when building your Job Map will depend on how you were able to conduct your interviews. Please select the option below that aligns with the process you were able to follow:
-
 ### Job Mapping during interviews
 
-If you were able to interview in pairs where you were building and validating the Job Map as you heard it then you might have an easier time of synthesizing it all together into a singular Job Map for your final JTBD Canvas. To achieve a single, synthesized Job Map we recommend you follow these steps:
+It is highly recommended that interviews be conducted in pairs. This allows you to construct and validate the job map while the participant explains their process for getting the job done. This will make synthesis much easier than if you were to build out the job maps while analyzing the interview data. Another benefit to interviewing in pairs is that you can review the map you build with the participant, catching any errors in ordering or steps in the process they may have left out. To achieve a single, synthesized Job Map, we recommend you follow these steps:
 
-1. Process TBD soon
+1. In your FigJam, create a dedicated space away from your assumptive canvas with enough room to capture multiple job maps and away from any job maps from interview prior. 
+2. Starting with a blank slate, capture every step the participant mentions on a sticky. 
+    1. Try to maintain a chronological order. 
+    2. At this point, don't worry about the job stages, small jobs, or even the beginning, middle, or end buckets of the job map. All we care about are the individual steps.
+3. Once the interviewer has completed the job steps phase, share your screen with the participant and walk them through the map you created. This gives them an opportunity to hear and see what they said, adding a level of verification to the process. 
+4. Make adjustments based on the participant's feedback if necessary. 
+5. After each interview: 
+    1. Rewrite each Job Step the participant mentioned, ensuring it is functional, beginning with an action verb, in the first person, doesn't include ANDs or ORs, and is technology/solution agnostic.
+6. After all the interviews are complete: 
+    1. Bring all your job maps near one another to help look for commonalities. 
+    2. Start creating a unified Job map in an open area by adding the category labels **Beginning**, **Middle**, and **End**. These labels will be used to orient the workflow and organize the Job Steps in the order of job completion. 
+    3. Move your sticky notes into the category that aligns most closely with the timing the user would perform this step to get the job done. Ask yourself, does this Job Step happen before this one, does this one happen after, etc? Look for any duplications and combine them as needed.
+    4. Organize your sticky notes into related vertical stacks for each category. Think of these stacks as related steps the Job Performer would get done, moving vertically down the stack (top to bottom), before they can move on to the next stacked step.
+    5. There will be some give-and-take, such as deciding when a vertical stack is completed and when a new one should be created for the following stage.
+7. Finally, add representative Stage names or modes of operation above each Stack, under the Beginning, Middle, and End categories. You can do this as you develop your stacked steps as well as it's likely you'll start to see appropriate Stage names as you progress through the above process. 
+    1. These Stages should represent high-level single-word verbs that describe the step or stage the Job Performer is in during that Job Step.
 
 ### Job Mapping after all interviews were completed
 
-If you do not have job maps pre-constructed from your participents during the interviews; then you will need to synthesize all of your data across each interview, building up your Job Map as you go. Bringing it all together into a singular Job Map for your final JTBD Canvas. To achieve a single, synthesized Job Map we recommend you follow these steps:
+If you do not have job maps pre-constructed by your participants during the interviews, you will need to synthesize all of your data across each interview, building up your Job Map as you go. Bringing it all together into a singular Job Map for your final JTBD Canvas. To achieve a single, synthesized Job Map, we recommend you follow these steps:
 
-1. In your FigJam, begin reviewing your interview notes and videos. Create new sticky notes for every reference you hear to a step the user does to get the job done. 
+1. In your FigJam, begin reviewing your interview notes and videos. Create new sticky notes for every reference you hear about a step the user takes to get the job done. 
 2. When you've gone through every participant, organize your sticky notes to ensure there aren’t any repeated ideas, merging duplicates as you go.
-3. Rewrite each Job Step ensuring they are functional, beginning with an action verb, in the first person, don't include ANDs or ORs, and are technology/solution agnostic.
-4. Now, in an open area of your FigJam, near the Job Step sticky notes you just created, add categories horizontally in an open area labeled, **Beginning**, **Middle**, and **End**, which will be used to orient the workflow and organize the Job Steps in the order of job completion. 
-5. Move your sticky notes into the category that aligns most closely with the timing the user would perform this step to get the job done. Asking yourself, does this Job Step happen before this one, does this one happen after, etc.
+3. Rewrite each Job Step, ensuring it is functional, beginning with an action verb, in the first person, doesn't include ANDs or ORs, and is technology/solution agnostic.
+4. Now, in an open area of your FigJam, near the Job Step sticky notes you just created, add categories horizontally in an open area labeled **Beginning**, **Middle**, and **End**, which will be used to orient the workflow and organize the Job Steps in the order of job completion. 
+5. Move your sticky notes into the category that aligns most closely with the timing the user would perform this step to get the job done. Ask yourself, does this Job Step happen before this one, does this one happen after, etc?
     1. Continue to look for any duplications you may have missed and combine them as needed.
 6. Organize your sticky notes into related vertical stacks for each category. Think of these stacks as related steps the Job Performer would get done, moving vertically down the stack (top to bottom), before they can move on to the next stacked step.
-    1. There will be some give and take when doing this to decide when a vertical stack is completed and a new one should be created for the following stage.
-7. Finally, add representative Stage names or modes of operation above each Stack, under the Beginning, Middle, and End categories. You can do this as you develop your stacked steps as well as it's likely you'll start to see appropriate Stage names as you are progressing through the above process. 
+    1. There will be some give-and-take, such as deciding when a vertical stack is completed and when a new one should be created for the following stage.
+7. Finally, add representative Stage names or modes of operation above each Stack, under the Beginning, Middle, and End categories. You can do this as you develop your stacked steps as well as it's likely you'll start to see appropriate Stage names as you progress through the above process. 
     1. These Stages should represent high-level single-word verbs that describe the step or stage the Job Performer is in during that Job Step.
 
 ## Step 3: Synthesize Outcomes
