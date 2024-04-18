@@ -224,7 +224,64 @@ Example: Decide how much you’re going to offer in relation to the asking price
 It’s important to be able to identify and correctly place jobs at the right altitude as you work through the Jobs to be Done process. It will help keep you focused on the Main Job and allow you to quickly incorporate (or discard) new information that you hear during interviews into your [job steps](#job-steps-how-does-the-job-performer-get-the-job-done).
 
 
+## Job Stories 
+([reference article](https://jtbdtoolkit.medium.com/job-stories-revisited-13ad0b54eb3c) by JTBD Toolkit)
 
+Job Stories should be created to synthesize and summarize your data from your Job Canvas to help bring it all together. The goal is to avoid leading designers with a preconceived solution to better align development with the company’s vision and strategy by encapsulating the customer pain point to address in a Job Story that will aid in innovative solution creation.
+
+Job Stories emphasize the situation and context over the individual. Ultimately Job Stories bring together your top insights to one place and summarize them. Good Job Stories describe the pain points that you’re going after and help you empathize with the Job Performer.
+
+**Paint points must:**
+- Express a need, not a solution
+- Be concrete, not abstract
+- Be measured quantitatively, not anecdotal
+
+The story part of Job Stories implies its connection to narrative story telling. While this is a more creative aspect of the JTBD framework, it should still align coherently with each of the elements selected from your JTBD Canvas to build your Job Stories. Meaning, the Job Story you build should still make logical sense when pieced together from the most important aspects of your JTBD Canvas.
+
+For any one domain you might end up with 3-5 Job Stories that cover the data and insights that you've gathered.
+
+### Job Story Format
+
+1. **When I** ___________ [am at this Job Step] + [under these conditions-Job Differentiators],
+2. **I want** ____________ [this New Ability, customer imperative or demand the JP has on the solution],
+3. **So I can** __________ [reach these Outcomes] + [and have these Emotional/Social Aspects].
+
+#### Line 1
+
+- Job Step: During your Job Mapping workshop you voted on the most important Job Steps in the map. Typically 1 or 2 of them came out of that voting session as being important to focus on. You will use those to create your Job Stories.
+- Job Differentiators: During your Job Differentiator workshop you voted on the most important Job Differentiators to come out of your research and moved them to your canvas. Use the Job Differentiators to create your Job Stories.
+
+#### Line 3
+
+- Outcomes: During your review of your research data you performed quantitative research to learn how your JPs prioritize the outcomes you’ve found. Use these prioritized Outcomes to create your Job Stories.
+- Emotional/Social Aspects: During your Emotional and Social Aspects workshop you voted on the most important Emotional and Social Aspects to come out of your research and moved them to your canvas. Use the Job Differentiators to create your Job Stories.
+
+#### Line 2
+
+- This doesn’t come directly from your Job Canvas, but it is still derived from your knowledge of your JP and their TJ, which is derived from your research data.
+- You’ll need to get creative by thinking back to what you’ve learned about your JP and this TJ; consider what “superpower” an ideal solution might grant your JP.
+- This is a specific, aspirational, that’s even a little ambitious, statement of what the JP wants to get out of completing this TJ. What capabilities are missing from the JPs current tools.
+
+### Qualities of a Job Story
+
+- **Evidence-based**: Job Stories are derived from data and Job Canvases, they aren’t created from off the cuff when you first hear about a new, potential, pain point from a customer.
+- **Specific about the pain point**: Job Stories aren’t vague, they are specific and precise in their narrative about the pain point they’re addressing.
+- **Empathy-building**: The first line of a Job story should contextualize the scenario to foster empathy.
+- **Aspirational**: Line 2 of a Job Story is the literal central element. It’s the customer imperative, the goal that drives the solution forward. Ambitious, but achievable.
+- **Self-evident**: A good Job Story should be able to stand on its own, representing and summarizing a solidly researched Job Canvas.
+
+### How to use Job Stories
+
+- **To generate HMW statements**: Use the Job Story as a springboard by turning them into How Might We (HMW) statements to guide explorations.
+- **To define a Design Sprint challenge**: Use the Job Story to articulate the focus or challenge statement of the Design Sprint.
+- **To create a testable hypothesis for an MVP**: Lean’s MVP model requires that a hypothesis statement be created that will be validated against the proposed solution. Here’s a framework that can be format:
+    - We believe that [job performers] 
+    - Will achieve [desired outcome] 
+    - While performing [job step] 
+    - Using [proposed solution]. 
+    - Success will be evidenced by [specific measure].
+- **Incorporate them into issues**: Add them into an issues description as a heuristic to measure the solution against and to aid in making design decisions.
+- **Usability testing success criteria**: Validate whether the solution being tested successfully achieves the Job Story.
 
 
 <!-- OLD CONTENT - from deleted pages -- may be re-incorporated, so keeping it here for now
