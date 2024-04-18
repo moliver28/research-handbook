@@ -22,7 +22,7 @@ With that in mind, the process as defined here will begin with a partial assumpt
 
 If your team wants to conduct in-depth Jobs to be Done research (going through the whole playbook), create an issue in the [UX Research Project](https://gitlab.com/gitlab-org/ux-research/-/issues) and use the **[discover-jtbd](https://gitlab.com/gitlab-org/ux-research/-/blob/master/.gitlab/issue_templates/discover-jtbd.md)** issue template. Fill out the issue as best as you can, then tag the UX Researcher for your stage (or whomever will be driving the research). If you need a DRI to drive JTBD research for your team, head over to the `#ux_research` Slack channel to see if there is anyone available to help. Once you have an issue and a DRI, you're ready to roll!
 
-# Workhop 1: Scope Definition
+# Workshop 1: Scope Definition
 
 ## Step 1: Define your Domain, Pick your Job Performer, and Main Job, and start an assumptive JTBD Canvas
 
