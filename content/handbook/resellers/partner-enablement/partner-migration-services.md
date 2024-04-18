@@ -83,3 +83,7 @@ GitLab Professional Services team has a [full service catalog of offerings avaia
 The [GitLab Professional Services Migration Package](https://drive.google.com/file/d/1SK4iEg3XKx2nBWNo7xDlBbjLfOe1cFhB/view) is one popular offering.
 
 Our [GitLab Partner Portal](https://partners.gitlab.com/English/) has [Channel Service Packages](https://partners.gitlab.com/prm/English/c/Channel_Service_Packages) that many partners choose to deliver as paid offerings. The link above includes Service Names, Data Sheets, Statement of Works (SOWs), Project Plans, Delivery Kits. The table also outlines GitLabs expectations for the certicications held by our partners under the `Aligned Partner Certification` column.
+
+
+
+
