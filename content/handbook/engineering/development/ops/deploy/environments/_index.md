@@ -305,7 +305,7 @@ Problem:
 
 Best practices for managing multi-part bug issues:
   - The original bug issue should be promoted to an epic.
-  - The original DRI becomes the overall bug epic DRI (note this on the epic)
+  - The original DRI becomes the overall bug epic DRI (note this on the epic).
   - New sub issues representing each part of the work should be created on the
     epic.
   - The new issues should be noted as blocking the epic.
