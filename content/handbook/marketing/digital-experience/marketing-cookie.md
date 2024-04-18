@@ -13,6 +13,8 @@ This cookie determined if a user has an active sesssion within the GitLab produc
 
 For more information, read the [docs on that](https://docs.gitlab.com/ee/user/profile/#cookies-used-for-sign-in).
 
+Note that this cookie can sometimes not show up for GitLab team members. This does not affect production. Make sure to check with Marketing analytics to see the user breakdown between authenticated and non-authenticated users.
+
 ## Related MRs
 
 * Updating marketing cookie: https://gitlab.com/gitlab-org/gitlab/-/merge_requests/131072
