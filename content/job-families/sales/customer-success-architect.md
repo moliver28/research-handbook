@@ -90,7 +90,7 @@ Meets the requirements of the Intermediate Customer Success Architect (CSA) role
 
 Market Justification: The business need for an individual contributor Staff CSA role is to have a team member who is a subject matter expert in customer engagement, success planning, and driving platform adoption. In addition to working with the customers in their book of business, they provide guidance and coaching to other CSMs and develop improvements to our customer engagement model. In the market, there are over 20 organizations that typically have 2-3 Staff CSAs.
 
-The Staff CSA reports to the [Manager/Senior Manager/Director, CSM](/handbook.gitlab.com/job-families/sales/customer-success-management).
+The Staff CSA reports to the [Manager/Senior Manager/Director, CSM](/handbook.gitlab.com/job-families/sales/customer-success-management/).
 
 #### Staff CSA Job Grade
 
