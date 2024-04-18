@@ -89,7 +89,7 @@ Now that you have determined an organizational change is required and have a str
 
 To be able to effectively measure the success of an organizational change, the success criteria for the change *should be defined before the change goes into effect* and align with the goals for the change. This helps us reflect back on the impact of our decisions to ensure we are consistently learning from and iterating appropriately.
 
-### Org Design Decisions
+### Decision Making
 
 There are several key elements to consider when thinking through org design decisions and their impact in the near and long term. Key areas to think through include:
 
@@ -199,6 +199,31 @@ There may also be additional documentation that will need to be shared with the 
 **For R&D:** We have a process outlined for our various [Global Prioritization](https://handbook.gitlab.com/handbook/product/product-processes/#prioritize-global) team member alignment changes outlined in addition to [Engineering Allocations](https://handbook.gitlab.com/handbook/product/product-processes/#engineering-allocation) on the Product Processes page.
 
 ### Measuring Success
+
+Shortly after the change has been executed, you are encouraged to take the time to reflect on what went well, what could have been done differently, and what you learned from the process to enable you to iterate on future change programs for your organization. 
+
+In the spirit of results and ongoing improvement, we seek to measure organizational change's success. Together the e-group leader or exec sponsor of the org change and the PBP partner score the following metrics (Likert scale) in two phases: phase 1 is immediately after the organizational change becomes effective to measure the process, alignment, collaboration, and transparency of the process, and phase 2 is two quarters **after** the change effective date to measure whether the desired business results where achieved.
+
+##### Phase 1
+
+These questions should be discussed immediately after the effective date of the organizational changes.
+
+- Collaboration: Were our systems (I.E. HRIS, Greenhouse) updated in a timely fashion?
+- Collaboration: Were the stakeholders informed and aligned appropriately? Did we have the engagement and action required from stakeholders to effectively execute?
+- Efficiency: Was the comms cascade clear and executed on time?
+- Transparency: Was the business reason for the change understood by all impacted team members, both leaders and IC’s?
+
+
+##### Phase 2
+
+These questions should be discussed two quarters after the effective date of the organizational changes. In addition to the formal scoring, we recommend checking in on key impacted team members in the following months and quarters after the change to ensure they continue to remain motivated and engaged. 
+
+- Results: Did we meet the goal of the organizational change? Did the change produce the expected value?
+- Iteration: In retrospect, is there anything we would have done differently or should have considered before making this change?
+- Iteration: In retrospect, would we have made the same change now?
+
+Note, this measurement system is new in FY'25 and may evolve as we determine usefulness.
+
 
 
 ## Single Points of Failure (SPOF)
