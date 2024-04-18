@@ -37,10 +37,10 @@ We take a customer-centric approach to educating prospects on how GitLab enables
 
 Our team leads the GitLab's digital marketing platform, or simply the “Marketing Site" refers to `https://about.gitlab.com`. 
 **We own the following repositories:** 
-- Buyer Experience
-- Blog
-- Navigation
-- Slippers Design System  
+- [Buyer Experience](https://gitlab.com/gitlab-com/marketing/digital-experience)
+- [GitLab Blog](https://gitlab.com/gitlab-com/marketing/digital-experience/gitlab-blog)
+- [Navigation](Navigation)
+- [Slippers Design System](https://gitlab.com/gitlab-com/marketing/digital-experience/slippers-ui) 
 
 **Our team strengths & core capabilities:** 
 - Engineering and UX desing for about.gitlab.com
@@ -48,16 +48,17 @@ Our team leads the GitLab's digital marketing platform, or simply the “Marketi
 - Speed and delivery 
 - Customer journey maps
 
-**Our team supports: **
+**Our team supports:**
 - HTML email templates
 - PathFactory
 - Marketo
 - learn.gitlab.com
-- www-gitlab-com
+- [www-gitlab-com](https://gitlab.com/gitlab-com/www-gitlab-com)
+- Globalization
 
 **We do not support:**
-- Handbook
-- Internal handbook
+- [Handbook](https://gitlab.com/gitlab-com/content-sites/handbook)
+- [Internal handbook](https://gitlab.com/gitlab-com/content-sites/internal-handbook)
 - Content copwriting or edits
 - Cloudflare server infrastructure 
 
