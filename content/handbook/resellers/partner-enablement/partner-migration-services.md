@@ -15,13 +15,22 @@ title: "Channel Partner Migration Services"
 
 GitLab encourages our GitLab Partners to engage in technical services such as migrating to GitLab. This page attempts to provide an overview of different sources of data that can be transferred to various GitLab destinations. For deeper technical understanding, engineers should enroll and learn from the GitLab University [GitLab Certified Migration Services Specialist Learning Path.](https://university.gitlab.com/learning-paths/gitlab-certified-migration-services-specialist-learning-path)
  
-To learn about GitLab migrations, start with GitLab's technical documentation primer titled [Import and migrate groups and projects](https://docs.gitlab.com/ee/user/project/import/). Depending on the source Git provider, size/scope of the migration and the importance of the preservation of the migrated artifacts, carefully consider each option given each option's limitations/benefits.
+For a short technical overview of available paths to importing or migrating to GitLab, see [Import and migrate groups and projects](https://docs.gitlab.com/ee/user/project/import/).
+ 
+# Overview of common migration steps for GitLab Partners
+#### For the links in this section, login to our [GitLab Partner Portal](https://partners.gitlab.com/) first, then click these inline with the text links:
 
-The GitLab Channel Partner Program provides the following [GitLab Channel Service Packages](https://partners.gitlab.com/prm/English/c/Channel_Service_Packages) to our partners in order to construct your own Services Packages in our [GitLab Partner Portal](https://partners.gitlab.com), including our Migration Quickstart Services Offering.
+GitLab Partners who are successful at performing customer-facing migrations often take this example path in client engagement:
+1. Scope/size the migration. How many users? How many code repositories? Will the group structure remain intact, or is the migration an opportunity to 'clean up unused projects' within GitLab? Would a [GitLab Optimization Services](https://partners.gitlab.com/prm/English/s/assets?collectionId=55025&id=459892&renderMode=Collection) be a better first step?
+1. Understand the customer's business; what artifacts are needed to be migrated? Is an audit-compliance history of users, issues, merge requests important to the business? Is just migrating the git code repository sufficient?
+1. Is the import source of data healthy, or would a [Readiness Assessment](https://handbook.gitlab.com/handbook/customer-success/professional-services-engineering/engagement-mgmt/scoping-information/readiness/) help provide the health of the GitLab source? Are some git repositories not able to be cloned, or need to be cleaned up? Any large code repositories with a long-lived history?
+1. Are there other consultative considerations like access control, Single-Sign-On (SSO) that need to be configured as part of the migration and adoption towards GitLab or GitLab.com?
+ 
+After having a technical scoping/sizing conversation with your customer, GitLab Partners find our [GitLab Channel Service Packages](https://partners.gitlab.com/prm/English/c/Channel_Service_Packages) helpful. These contain templated Data Sheets, Statements of Work (SOWs) and Project Plans.
 
 ## From other DevOps platforms to GitLab
 
-To migrate projects from systems other than GitLab, please review the list of [Supported import sources](https://docs.gitlab.com/ee/user/project/import/#supported-import-sources).
+To migrate projects from systems other than GitLab, please review the list of [Supported import sources](https://docs.gitlab.com/ee/user/project/import/#supported-import-sources) and [Other Import Sources](https://docs.gitlab.com/ee/user/project/import/#other-import-sources) (anchor link on the same page).
 
 Migrating pipelines from other systems, [such as Jenkins](https://docs.gitlab.com/ee/ci/migration/jenkins.html), is a value-add manual development process. We encourage our partners to scope by understanding the number of pipelines, current pipeline performance, [envirnonmental variables](https://docs.gitlab.com/ee/ci/variables/) and secrets used. Some partners find a time and materials style contract to be helpful when consulting on developing pipelines between other sources sytems and [GitLab's pipeline syntax.](https://docs.gitlab.com/ee/ci/)
 
