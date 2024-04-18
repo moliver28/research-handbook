@@ -47,11 +47,12 @@ We review data for a Peer Group and against the Industry. "Peer Group" is a grou
 
 ## Organizational Design Planning Playbook
 
-At GitLab, a high-performance culture underpins our strategy. Having the right team structure in place enables teams to act with urgency, collaborate effectively, and deliver results for our customers. At times, we need to reevaluate how a team is set up and make structural changes that unlock higher-quality results.
+At GitLab, a high-performance culture underpins our strategy. Having the right team structure in place enables teams to act with urgency, collaborate effectively, and deliver results for our customers. At times, we need to reevaluate how a team is set up and make structural changes that unlock higher-quality results. Our organizational health and capability review process is a data point that can aid organizational design planning strategy. 
 
 The purpose of this playbook is to enable leaders at GitLab to make thoughtful and strategic organizational design decisions. It’s intended to be used by people leaders in partnership with their aligned People Business Partner (PBP).
 
 Generally, there are 5 phases when making an organizational change:
+
 1. Planning and goal definition and alignment
 2. Org design decisions
 3. Communication of changes
@@ -127,9 +128,54 @@ Depending on the scale of the realignment or reorganization that you are impleme
 - **Talent Program Timeline**: During company-wide programs such as Talent Assessment and Annual Compensation Review, Workday is frozen for processing new changes. Be aware that processing manager changes during these programs may be delayed. Additionally, if someone is changing managers during a process where the manager’s insight into prior year performance is integral, it can create additional work as a new manager steps in mid-cycle.
 
 
-
-
 ### Communication
+
+Enabling team members to refocus on their work quickly and effectively after an organizational change is supported by having a thorough and thoughtful communication plan. Resources to aid in communication that are available include: 
+
+1. [Leading Through Change: Guidance For Managers](https://docs.google.com/presentation/d/1maWy0CEu7-PqGtxPnppMBl8NyE1cmktNmN7HuQtSibw/edit#slide=id.g123a13deda8_0_405): A refresh for managers on how to support team members through change
+2. [Realignment Communication Plan](https://docs.google.com/document/d/11Q6BIniQK8lGUvkpBKuGFxv9WtyBEKGwUMs1LUTd0es/edit#heading=h.dzhtklppkb8): A communication plan template to help structure comms cascades for realignments
+
+The following principles aligned to our CREDIT values aid in a smooth and successful announcement of an organizational change.
+
+##### Collaboration
+
+It is important to consider a full list of team members who may need to be consulted or informed. A strong communication plan helps team members know how to collaborate in the new team structure and minimize delays in productivity. Effectively cascading the message is a critical part of communication and ensuring ongoing effective collaboration. Key touchpoints for effective message cascading to include in [communication plans](https://docs.google.com/document/d/11Q6BIniQK8lGUvkpBKuGFxv9WtyBEKGwUMs1LUTd0es/edit#heading=h.dzhtklppkb8) are:
+
+- Directly impacted team members should be informed before peers learn of the change
+- Executive or senior leadership team as appropriate
+- Direct or indirect stakeholders or collaborators including FP&A if appropriate
+- People managers who may receive questions should understand what is happening, why, and how it affects their team. This group may be informed in advance of a broader message to ensure they’re prepared to support their teams. For larger changes, the PBP may recommend a manager information guide (aka FAQ) is prepared and shared with the appropriate audience
+- The changes may be relevant to or impact other Divisions. Communicate the vision, timeline, and actions related to the change to cross-functional teams (I.E. Product and Engineering alignment).
+
+##### Results
+
+It is key to communicate the goals of the change and what success looks like. This should be tied back to the defined goals, objectives, and measurements of success from the planning and decision phases of the process.
+
+##### Efficiency
+
+Choosing the right type of communication vehicle is important to consider is driving the right outcome. Options to consider include:
+
+- 1:1 sync calls: Directly impacted team members and stakeholders who may have complex questions
+- Team calls: Sharing the change with a broader audience who may be affected by the change but aren’t directly moving to a new team or manager
+- Slack: Broader updates for transparency and awareness
+
+
+##### Diversity, Inclusion, and Belonging
+
+A key part of communication and change management is providing diverse opportunities for team members to ask questions in a setting that is comfortable for them. Options to consider include:
+
+- AMAs: useful for generally applicable questions for a larger-scale change
+- 1:1s/Coffee Chats: leaders may decide to do coffee chats or 1:1s to check in on team members following a change. For some, this is a more accessible place to ask questions.
+- PBP Presence: It’s helpful to include PBPs in announcements so team members who feel more comfortable going to a PBP know who the appropriate person is
+
+
+##### Iteration
+
+Remember to remain open to feedback on the proposed change. It is important to remain iterative based on new information presented through feedback or retrospectives and as business opjectives shift and priorities change. 
+
+##### Transparency
+
+A key piece of transparency is ensuring the “why” is clear. A thoughtful planning and decision-making process should result in identifying themes that are useful to share to help team members understand the change. Work with your PBP to ensure you remain compliant when communicating any changes that impact team members. 
 
 ### Execution
 
