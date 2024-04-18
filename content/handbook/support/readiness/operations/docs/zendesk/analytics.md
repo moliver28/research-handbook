@@ -48,3 +48,12 @@ If you find any issues in Zendesk Data quality or scheduling inside Snowflake, y
 can open an issue [here](https://gitlab.com/gitlab-data/analytics/-/issues/new) using `Data Quality Problem`
 issue template or contact Data team on slack via #data.
 
+## Disclaimer Note
+
+Support uses Zendesk Explore for SSOT instead of Tableau. We do that because of the following reasons:
+
+1. Zendesk Explore refresh data on Hourly basis unlike Tableau which refreshes only at 04:00 AM UTC so no data lag.
+1. Zendesk Explore has some built-in metrics which are unavailable in Tableau.
+1. Zendesk Explore reflects Data on event based updates. For example, priority switching is almost directly reportable in Zendesk Explore.
+
+Due to aforementioned reasons, if you need a report based on Support Metrics or based on real-time support analytics, please contact #support_operations on Slack.
