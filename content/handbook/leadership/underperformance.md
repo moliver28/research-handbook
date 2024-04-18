@@ -9,10 +9,6 @@ We want all our team members to be successful! We continuously strive  to mainta
 
 In all cases, we want a manager who asks the question "Is this the best person I could hire today?" to respond with a "Yes".
 
-## Training Video
-
-{{< youtube "nRJHvzXwXBU" >}}
-
 ## Managing Underperformance Handbook Learning Session
 
 Managing and identifying underperformance can be one of the most difficult responsibilities of a manager, but it's also one of the most important. As a people leader, fairness and transparency is essential with all team members, as is addressing performance or conduct concerns  in a timely and structured way. During a [CEO Handbook Learning Session](/handbook/people-group/learning-and-development/learning-initiatives/#ceo-handbook-learning-sessions), GitLab CEO, Sid, and the Learning and Development team discuss what underperformance is, how managing it aligns to our values, and the impact it can have on teams. You will be introduced to the signs to look for to identify underperformance, and we cover tips team members and managers can implement along the way.
@@ -75,11 +71,10 @@ Tell your manager immediately if there are circumstances in your life that cause
 
 Looping in [Team Member Relations](/handbook/people-group/) early is essential. Team Member Relations can offer support, guidance, coaching, and partner with Legal to ensure compliance. Please be sure to align with your TMR Partner prior to delivering any formal action plan to team members. Formal action can include a Written Performance Letter, Verbal Warning, Written Warning, and a Performance Improvement Plan. Managers will partner with the team member relations group in the creation and delivery of any formal action.
 
-**Important**: While it’s never too early to involve Team Member Relations, if there are performance concerns without sustained improvement with informal manager lead coaching in place for 1 month or more, the TMR team should be looped in. Reaching out to the TMR team is critical to managing underperformance, and not doing so within a reasonable timeframe ultimately impacts the manager's performance. Connecting with the TMR team ensures that feedback is being delivered in accordance with our [guidance for giving feedback](/handbook/people-group/guidance-on-feedback/) and  in accordance with local labor law and regulations in the location of each individual. See the `underperformance management related to manager performance` section below for more detail.
-
+**Important**: While it’s never too early to involve Team Member Relations, if there are performance concerns without sustained improvement following manager led coaching over the course of at least 1 month, loop in the TMR team.  Reaching out to the TMR team is critical to managing underperformance, and not doing so within a reasonable timeframe ultimately impacts the manager's performance. Connecting with the TMR team ensures that feedback is being delivered in accordance with our [guidance for giving feedback](/handbook/people-group/guidance-on-feedback/) and within applicable local labor laws and regulations.  
 ### Manager: Identify And Take Action As Early As Possible
 
-The important thing to remember as a manager is to immediately address signs of underperformance. Taking action sooner allows more time for coaching to be effective and successful.  In the early stage of the process it is important to identify the reasons why team members might not be meeting expectations for their role. We do this by reviewing previous performance history, ensuring the team member has been taking sufficient PTO (Paid Time Off) and also to check in with the team member that all is well with their personal circumstances and give them the opportunity to discuss this with you should they choose to share, so we can support.
+The important thing to remember as a manager is to immediately address signs of underperformance. Taking action sooner allows more time for coaching to be effective and successful.  In the early stage of the process it is important to identify the reasons why team members might not be meeting expectations for their role. We do this by reviewing previous performance history, ensuring the team member has been taking sufficient PTO (Paid Time Off) and also checking in to ensure all is well in their personal life and providing appropriate support when needed.
 
 ### Immediately Discuss With The Manager's Manager
 
@@ -99,16 +94,8 @@ This results in a lower rate of involuntary attrition than comparable companies,
 
 ## Options For Remediation
 
-Remediation options will vary based on the identified  underperformance being  skill-based or will-based (and also in line with local applicable law and regulations. However, as a best practice and to provide a consistent experience for all team members the following remediation process is recommended.
-
-**It is important to note that there is no requirement for these options to be considered or presented consecutively.**
-
-### Performance Remediation
-
-- [Coaching]({{< ref "underperformance#coaching" >}})
-- [Written Performance Letter]({{< ref "underperformance#written-performance-letter" >}}) or [Performance Improvement Plan (PIP)]({{< ref "underperformance#performance-improvement-plan-pip" >}})
-- [Letting Someone Go]({{< ref "underperformance#letting-someone-go" >}})
-
+Remediation options will vary based on whether the identified underperformance is due to a skill-based or will-based issue (and also in line with local applicable laws and regulations).
+The expectation is that all team members are provided coaching and feedback prior to the decision to exit the team member.  However, it is important to note that in many cases we will not offer formal performance remediation or PIPs and will move to a separation with the team member if performance has not improved after documented coaching and feedback sessions.  This is due to the critical impact of underperformance on the team and on the organization and allows us to maintain our results focused and high performing culture.
 ## Coaching
 
 [Coaching]({{< ref "coaching" >}}) is the preferred option to deal with underperformance and is the first step in addressing performance issues.
@@ -132,107 +119,13 @@ Underperformance feedback should be included on your [1-1 agenda]({{< ref "sugge
 
 There may be extenuating circumstances that need to be taken into consideration during the performance management process.  This is an area where the Team Member Relations Team can provide a sounding board or a needed perspective.
 
-## Written Performance Letter
+## Written Performance Letters and Performance Improvement Plans
 
-A Written Performance Letter is used to bring attention to performance issues or ongoing deficiencies previously addressed by your manager. Team members should already be aware of the performance issues due to ongoing coaching in your 1x1's with your manager and the follow-up coaching emails. The Written Performance Letter will identify development areas/gaps, outline what success looks like, and specific action/deliverables and due dates. The Written Performance Letter is not a Performance Improvement Plan (PIP), it is a documented coaching mechanism to help provide the team member with clear guidance to immediately improve performance.
-Team Member Relations will send the Written Performance Letter to the team member and manager to review and sign via DocuSign. Once signed the team member relations specialist will save the documentation to the team member's Workday profile. There may be times when a team member will not sign a written performance letter, in which case that will be noted on the document and stored in Workday. The written performance letter will remain in Workday for the requisite time, as required by applicable local law.
-Before issuing a Written Performance Letter the manager should reach out to Team Members Relations who can provide the appropriate template and partner with the manager on both creating and delivering the letter to the team member.
+In some cases, a Written Performance Letter or Performance Improvement Plan may be considered as an option for performance remediation (and could be a requirement depending on local legislation).  Managers should work with Team Member Relations to understand the use of these tools and any statutory requirements based on the location.
 
-### Communication During Underperformance Remediation
+### Compensation Impact
 
-It is important that the Team Member Relations team and management are closely connected during the underperformance management process.
-
-An effective method to ensure all parties are kept up to date can be a private slack channel including the direct manager, manager's manager, the [People Business Partner](/handbook/people-group/#people-business-partner-alignment-to-division), and the [Team Member Relations Specialist](/handbook/people-group/). Additional layers of leadership can/should be added if the situation escalates.
-
-While the coaching period is ongoing, ideally the direct Manager provides weekly async updates to the private slack channel, thus keeping everyone in the loop transparently.
-
-## Performance Improvement Plan (PIP)
-
-#### Not The First Step To Letting Someone Go
-
-Many companies use a PIP for most involuntary offboarding, as documented support for releasing a team member.
-At GitLab we think that giving someone a plan while you intend to let them go is a bad experience for the team member, their manager, and the rest of the team.
-
-A PIP at GitLab is not used to "check the box;" a PIP is a genuine opportunity to help clarify underperformance and areas of focus.
-You should only offer a PIP if you are confident that the team member can successfully complete it. The team member should also be committed to successfully completing their Performance Improvement Plan for the duration. It is imperative that the higher standard of performance achieved  during the PIP process is sustained by the Team Member once the plan timeframe has completed. A PIP will not be successful unless both the team member and the manager believes the team member can succeed.
-
-#### SMART Goals
-
-As part of the PIP the manager will work with the team member to define SMART goals. SMART goals allow both the manager and team member to define requirements, track progress, and improve communication of expectations for success during the PIP period.
-
-**SMART** is an acronym that can be used in creating the PIP requirements. Clear and reachable goals should meet the following criteria:
-
-- **Specific:** Specifically define what you expect the team member to do/deliver. Avoid generalities and use action verbs as much as possible.
-- **Measurable:** You should be able to measure whether the team member is meeting the goals, or not. Identify how you will measure success - usually stated in terms of quantity, quality, timeliness or cost (e.g. increase by 25%).
-- **Achievable:** Make sure that accomplishing the goal is within the team member's realm of authority and capabilities. While considering whether a goal is actionable/achievable, you also need to consider the team member's total set of goals. While each individual goal may be achievable, overall, you may be assigning the team member more goals than they can reasonably be expected to successfully complete.
-- **Realistic:** Can the team member realistically achieve the objectives with the resources available? Ensure the goal is practical, results-oriented and within the team member's realm of authority and capabilities. Also, Relevant: Where appropriate, link the goal to a higher-level departmental or organizational goal, and ensure that the team member understands how their goal and actions contribute to the attainment of the higher-level goal. This gives the team member a context for their work.
-- **Time-bound:** When does the objective need to be completed? Specify when the goal needs to be completed (e.g. by the end of the quarter, or every month).
-
-**Sample SMART Goals:**
-
-Bad SMART Goal: "Improve overall qualified sales lead".
-
-Good SMART Goal: "In May, June and July, Jane Doe must have an increase of 20% in overall qualified sales leads entered into Salesforce.com"
-
-Bad SMART Goal: "Increase Fix defects"
-
-Good SMART Goal: "Fix at least 8 defects. Must be fixed with code changes, not closing as "Won't Fix, "Not Reproducible". All defects must be dev completed/merged by end of business Monday, Jan. 1st, 2018".
-
-#### CREDIT Values Applied To The PIP
-
-Our values should be top of mind in administering a PIP.
-
-- **Collaboration**: The PIP is an opportunity for manager and the team member to work together towards the desired outcome. Pay attention to the timeline and collaborate on the next steps after each milestone is achieved.
-- **Results**: The goal of the PIP is to see results, that could be an improvement in performance and/or changed behavior. Did productivity increase? Are assigned projects being completed on time? Is there an increase in the Sales pipeline? Those results must also be attainable and measurable.
-- **Efficiency**: The manager provides the support needed for the team member to achieve the required results but the ownership and accountability lies with the team member to drive their own performance. The PIP ensures that the team members will correct specific issues identified in a timely manner, under a managed process, showing specific results. Timely manner is dependent on the timeline agreed to by both the Manager and the team member. Typically, a PIP could last 2-4 weeks depending on the role and circumstances.
-- **Diversity**: As part of our efforts to foster an environment where everyone can thrive, the PIP should be viewed as a valuable tool designed to address individual behavior. Since each team member is unique, Managers should be mindful that they continue to acknowledge and adjust for diversity of thoughts, differences in communication style and learning preference while following the PIP.
-- **Iteration**: Change is expected during the PIP. So small and consistent changes, or iterations, that move the team member toward the final required change should be expected. Positive, effective changes that continue after the PIP should also be encouraged. Improvement must be maintained.
-- **Transparency**: Have regular and honest communication during the PIP. As a manager, set expectations around communication upfront. As a team member, share challenges as they come up. If things are not going well and either party wishes to end the PIP early, be open about that and discuss a mutual separation and any related severance.
-
-#### Experience
-
-It is important to remember that the root cause of issues can be a variety of things, PIPs are not intended to be a negative document. They are an opportunity for the manager and the team member to work together to get the team member back on track. We have an example of this to share here, it is anonymized in line with keeping job feedback private as per the [General Guidelines](/handbook);
-
-**GitLab team member:**
-
-"Although nobody wants to be put on a PIP, for me it ended up ultimately being a positive experience. My initial introduction to the plan was a shock and a serious blow to my self-confidence, but the process was presented in a fair and open way with clearly defined steps and goals. The document presented an attitude of wanting to help me improve and thrive, not a pretext to send me out the door. This helped me shape my attitude going through the process. As it turns out I had several blind spots in my communication and time management skills that needed to be remedied, and over the course of the PIP with weekly updates with my manager and some personal efforts in activity logging I was able to improve in both of these areas".
-
-**Manager:**
-
-"For me as a manager, I want to be honest and open with people. I never feel good about telling people they are not meeting the standard. At the same time I really want people to improve. With the PIP we were able to clearly talk about the work that needed to be done to, make them improve and get them where we needed them to be. In this case, the underperformance was not a lack of skills. We merely needed to redirect their focus".
-
-#### PIP Process
-
-The intention of a PIP is to support the team member while working to improve performance and to make clear that immediate and sustained improvement is required.
-
-A performance improvement plan includes the following:
-
-- Evaluation of current work
-- Clear direction including metrics and concrete goals, to improve (e.g. finish X before Y)
-- Resources/coaching necessary to achieve goals,
-
-1. Here is a [basic PIP template](https://docs.google.com/document/d/1BMufROj-Oalz5DIXWSjzTLCnvADEUZi7osJuhaFYvHw/edit?usp=sharing) which will provide a good start to creating the document. For an alternative format, you can use this [alternative template](https://docs.google.com/document/d/1c1LGzd83nvXU-JcknuXO72lQjHROPykWVglfPZpZ6kY/edit) Whichever template you choose, it should be customized to fit the particular situation.
-    - Once the [PIP is documented](https://docs.google.com/document/d/1BMufROj-Oalz5DIXWSjzTLCnvADEUZi7osJuhaFYvHw/edit?usp=sharing) schedule a call with the team member outside of the regular 1-1
-    - Present the PIP to them on the call and go through it with them. Read it verbatim and don't deviate from it or think of other things to add during the call
-    - Re-iterate that you want them to improve and you're there to support them. You will be checking their progress each week (or day if really necessary)
-    - Ask them if they have any questions
-    - Inform the Team Member Relations Specialist (TMR) that the PIP conversation has taken place and the document have been sent to the team member.
-    - Once the PIP has been presented to the team member the TMR will upload in Hellosign and send for the team members signature. Signing the document does not mean a team member agrees with the PIP but acknowledges that the PIP conversation between the manager and team member has occurred.
-    - Once the PIP is signed and returned, the team member relations specialist will upload the PIP to the team member Workday file.
-    - The TMR will track the start and end of PIPs in Workday.
-1. Typically, a team member gets time (2-4 weeks depending on the role and circumstances) to demonstrate improvement and meet specific goals, outlined in the PIP. By design, a PIP is expected to support a successful and sustained improvement in performance.
-    - If sufficient improvement is not made, the PIP may end early and we move to next steps in termination (steps may vary by country).
-    - If sufficient improvement is not made but progress is headed in the right direction, a PIP may be extended at the discretion of the manager.
-1. If a team member showed great improvement during the PIP period and has met all expectations as set out in the PIP at the end of the review period, the PIP will close successfully. After the evaluation, the TMR will stage the letter of completion in DocuSign for the manager to sign. A template of this letter can be found in the 'PBP Resources' folder. The team member will receive a copy of the signed letter of completion.
-    - If a team member shows performance that falls to an unsatisfactory level during a six-month period following the end of your PIP, appropriate action may be taken, up to and including possible offboarding.
-1. If the team member has not shown sufficient improvement and has not met all expectations as set out in the PIP document, the team member is separated or their contract is canceled. It is not necessary to create a second PIP for the same performance issues within a reasonable period of time and after informing the team member that the unacceptable performance has resurfaced in writing (an email is fine).
-1. To begin the offboarding process, the manager align with the Team Member Relations Specialist and forward a recommendation for offboarding to their Executive team member and People Business Partner including the history of the PIP and the recurring performance issues. If a team member does need to be let go, work with Team Member Relations Specialist to follow the process for [involuntary offboarding](/handbook/people-group/offboarding/#involuntary-offboarding).
-
-***The PIP process is between a manager and their direct report. Information shared in a PIP should be kept confidential by both participants. If underperformance becomes a reason for offboarding, the individual should not be taken by surprise, but others at the company might be.***
-
-#### PIP Compensation Impact
-
-It is important to note that when a PIP is active, the team member is not eligible for compensation increases from the [annual compensation review](/handbook/total-rewards/compensation/compensation-review-cycle/) or the [annual refresh grant program](/handbook/stock-options/#refresh-grants).
+It is important to note that the team member may not be eligible for compensation increases from the [annual compensation review](/handbook/total-rewards/compensation/compensation-review-cycle/) or the [annual refresh grant program](/handbook/stock-options/#refresh-grants) if they are being actively performance managed.
 
 ### Internal Applications and Transfers during underperformance remediation
 
@@ -247,9 +140,3 @@ Managers need to be aware and take into consideration both skill-based and will-
 ### Letting Someone Go
 
 This should be discussed with Team Member Relations before any action is taken to ensure the process is compliant with local laws and regulations. As soon as it becomes transparent that a Team Member will be off-boarded from the company, we recommend that this is addressed immediately. The team member is entitled to know where they stand. Delaying the conversation causes problems with confidentiality (the Team Member may realize in another way, that they will be exiting the company) and can potentially escalate the issues for the team member, the manager and the wider team (working relationships could  be greatly affected).
-
-### Underperformance in Senior Leadership
-
-Regardless of your level in the organization, the expectation is that all team members are provided with both coaching and feedback prior to a decision to exit the team member. Actionable feedback is critical to consistent development at GitLab at all levels and these conversations should happen real time as a best practice across all areas of business within the organization.
-However, for Director and more senior roles we are unlikely to offer a formal performance remediation plan or place a Director on a formal PIP.  If, after documented coaching and feedback sessions, it is evident that performance has not improved GitLab would move to a separation with the team member.
-We do this because their continued underperformance has a critical impact on the team and the rest of the organization.
