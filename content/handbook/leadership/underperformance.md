@@ -95,7 +95,7 @@ This results in a lower rate of involuntary attrition than comparable companies,
 
 ## Options For Remediation
 
-Remediation options will vary based on the identified  underperformance being  skill-based or will-based (and also in line with local applicable law and regulations). 
+Remediation options will vary based on the identified  underperformance being  skill-based or will-based (and also in line with local applicable law and regulations).
 The expectation is that all team members are provided coaching and feedback prior to the decision to exit the team member.  However, it is important to note that in many cases we will not offer formal performance remediation or PIPs and will move to a separation with the team member if performance has not improved after documented coaching and feedback sessions.  This is due to the critical impact of underperformance on the team and organization and allows us to maintain our results focused and high performing culture.
 
 ## Coaching
@@ -122,6 +122,7 @@ Underperformance feedback should be included on your [1-1 agenda]({{< ref "sugge
 There may be extenuating circumstances that need to be taken into consideration during the performance management process.  This is an area where the Team Member Relations Team can provide a sounding board or a needed perspective.
 
 ## Written Performance Letters and Performance Improvement Plans
+
 In some cases, a Written Performance Letter or Performance Improvement Plan may be considered as an option for performance remediation (and could be a requirement depending on local legislation).  Managers should work with Team Member Relations to understand the statutory requirements of each location.
 
 ### Compensation Impact
