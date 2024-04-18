@@ -89,7 +89,7 @@ The [Research Priority Calculator](https://docs.google.com/spreadsheets/d/1sE-Ei
 | Confidence | What level of confidence or knowledge do you have in the proposed solution or area of focus?  | High = 3 <br> Medium = 2<br> Low = 1|
 | Impact   | What impact does this work aim to have? (UXR impact framework link TBA) | Changes in product strategy / planning = 3<br> Changes to product / design = 2 <br> Knowledge gaps identified / filled = 1 |
 | Users | How much of the user base will this project consider? Consider the entire user base. | All = 3<br> Most = 2<br> Some = 1 |
-| Scope | Does this project align with company, section, stage, or stage group objectives?  | Company = 4<br> Section = 3<br> Stage = 2<br> Stage Group = 1 |
+| Scope | Does this project align with company, section, stage, or stage group goals?  | Company = 4<br> Section = 3<br> Stage = 2<br> Stage Group = 1 |
 | Alignment | Does this research connect to company yearlies or objectives and key results (OKRs)? Is this research future-looking or foundational? | Company Yearly = 3 <br> Section / Stage / Stage Group OKR = 2 <br> Foundational / Future Directions = 2 <br> Milestone Planning = 1 <br> None = 1 <br> I don’t know = 0 |
 | Section or Stage Group | What Section or Stage Group does this project fall under?  | N/A |
 | Timeline | When should this research be completed by?   | N/A |
