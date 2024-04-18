@@ -14,7 +14,7 @@ For more context, please review [this video (internal)](https://drive.google.com
 
 ## Hiring Practices
 
-Please reference our [internal hiring repository](https://giforab.com/gitlab-com/people-group/hiring-processes/-/tree/master/Engineering) for internal best practices and guidelines.
+Please reference our [internal hiring repository](https://gitlab.com/gitlab-com/people-group/hiring-processes/-/tree/master/Engineering) for internal best practices and guidelines.
 
 ### R&D New Headcount GHPID Request, Backfill & Transfer Process
 
