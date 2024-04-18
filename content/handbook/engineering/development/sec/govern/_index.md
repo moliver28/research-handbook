@@ -88,9 +88,7 @@ We use the [Govern Sub-department Board](https://gitlab.com/gitlab-com/govern-su
 The Govern development teams provide [weekly status updates](https://gitlab.com/groups/gitlab-com/-/epics/2126) using an issue template and CI scheduled job.
 As priorities change, engineering managers update the template to include areas of interest.
 
-An example template highlighting priorities, opportunities, risks, and security and availability concerns is:
-
-Weekly update template can be found [here](https://gitlab.com/gitlab-com/govern-sub-department/-/blob/main/.gitlab/issue_templates/govern_stage_weekly_update.md).
+The template highlights priorities, opportunities, risks, and security and availability concerns [here](https://gitlab.com/gitlab-com/govern-sub-department/-/blob/main/.gitlab/issue_templates/govern_stage_weekly_update.md).
 
 ### Quarterly review updates
 
