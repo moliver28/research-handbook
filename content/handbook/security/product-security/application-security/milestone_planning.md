@@ -3,7 +3,7 @@ title: "Milestone Planning"
 description: "Learn how the GitLab Application Security team does Milestone Planning"
 ---
 
-# Milestone Planning
+## Milestone Planning
 
 The Application Security team plans its work on a cadence based around GitLab Product Milestones. This enables us to be intentional about the work we do, while also providing insights into our capacity, velocity, and current projects.
 
