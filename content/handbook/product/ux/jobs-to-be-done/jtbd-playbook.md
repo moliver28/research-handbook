@@ -245,7 +245,7 @@ If all the scores on your survey are less than 10, that’s great - but remember
 
 # Generate Job Stories
 
-Now that you have a completed JTBD Canvas you can use it to create Job Stories. Job Stories help synthesize and summarize all of the great informaiotn you just put together on your JTBD Canvas. You might end up creating between 3 - 5 Job Sotires to cover the data and insights you gathered and voted on as being the most important aspect of your JTBD Canvas. Bear in mind that good Job Stories describe the pain points that you’re going after and help you empathize with the Job Performer.
+Now that you have a completed JTBD Canvas you can use it to create Job Stories. Job Stories help synthesize and summarize all of the great information you just put together on your JTBD Canvas. You might end up creating between 3 - 5 Job Stories to cover the data and insights you gathered and voted on as being the most important aspect of your JTBD Canvas. Bear in mind that good Job Stories describe the pain points that you’re going after and help you empathize with the Job Performer.
 
 To learn more about what Job Stories are, how to write them, and how you can use them to generate design solutions check the [handbook section](/handbook/product/ux/jobs-to-be-done/#job-stories).
 
