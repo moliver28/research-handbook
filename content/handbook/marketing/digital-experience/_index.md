@@ -17,50 +17,51 @@ We take a customer-centric approach to educating prospects on how GitLab enables
 ## Team Members
 
 | Role | Name |
-| ------- |  -------  |                                                                 |
-|  Senior Product Design | [Tina Lise Ng](https://gitlab.com/Tinaliseng) | \
-|  Senior Product Design** |[Trevor Storey](https://gitlab.comtrevor-storey) |  
-|  Product Design [Carrie Tsang](https://gitlab.com/ctsang-ext) | 
-| Senior Frontend Engineer| [Megan Filo](https://gitlab.com/meganfilo) | 
-|Frontend Engineer | [Javi Garcia](https://gitlab.com/jgarc)| 
-| Senior Frontend Engineer | [Laura Duggan](https://gitlab.com/lduggan) | 
-| Senior Frontend Engineer | [Marg Mañunga](https://gitlab.com/mmanunga-ext)
-| Frontend Engineer |  [Miguel Duque](https://gitlab.com/mduque-ext) | 
-| Senior Frontend Engineer | [Nathan Dubord](https://gitlab.com/ndubord) | 
-| Fullstack Engineer |  [Miracle Banks](https://gitlab.com/miraclebanks) | 
-| Senior Fullstack Engineer | [John Arias](https://gitlab.com/jariasc-ext) | 
-Senior Fullstack Engineer | [Mateo Penagos](https://gitlab.com/mpenagos-ext) | 
-| Senior Product Manager | [Filza Qureshi](https://gitlab.com/fqureshi)|  
-| Engineering Manager | [Lauren Barker](https://gitlab.com/laurenbarker)  |
+|--|--|
+| Senior Product Designer | [Tina Lise Ng](https://gitlab.com/Tinaliseng) |
+| Senior Product Designer |[Trevor Storey](https://gitlab.comtrevor-storey) |
+| Product Design | [Carrie Tsang](https://gitlab.com/ctsang-ext) |
+| Senior Frontend Engineer| [Megan Filo](https://gitlab.com/meganfilo) |
+| Frontend Engineer | [Javi Garcia](https://gitlab.com/jgarc)|
+| Senior Frontend Engineer | [Laura Duggan](https://gitlab.com/lduggan) |
+| Senior Frontend Engineer | [Marg Mañunga](https://gitlab.com/mmanunga-ext) |
+| Frontend Engineer | [Miguel Duque](https://gitlab.com/mduque-ext) |
+| Senior Frontend Engineer | [Nathan Dubord](https://gitlab.com/ndubord) |
+| Fullstack Engineer | [Miracle Banks](https://gitlab.com/miraclebanks) |
+| Senior Fullstack Engineer | [John Arias](https://gitlab.com/jariasc-ext) |
+| Senior Fullstack Engineer | [Mateo Penagos](https://gitlab.com/mpenagos-ext) |
+| Senior Product Manager | [Filza Qureshi](https://gitlab.com/fqureshi)|
+| Engineering Manager | [Lauren Barker](https://gitlab.com/laurenbarker) |
 
 ## Scope
 
-Our team leads the GitLab's digital marketing platform, or simply the “Marketing Site" refers to `https://about.gitlab.com`. We own the following repositories: 
+Our team leads the GitLab's digital marketing platform, or simply the “Marketing Site" refers to `https://about.gitlab.com`. 
+**We own the following repositories:** 
 - Buyer Experience
 - Blog
 - Navigation
 - Slippers Design System  
 
-Ou team strengths & core capabilities: 
+**Our team strengths & core capabilities:** 
 - Engineering and UX desing for about.gitlab.com
 - Cross collaboration 
 - Speed and delivery 
 - Customer journey maps
 
-Our team supports: 
+**Our team supports: **
 - HTML email templates
 - PathFactory
 - Marketo
 - learn.gitlab.com
 - www-gitlab-com
 
-We do not support:
-- handbook
-- internal handbook
+**We do not support:**
+- Handbook
+- Internal handbook
 - Content copwriting or edits
 - Cloudflare server infrastructure 
 
-Teams we work closely with: 
+**Teams we work closely with:** 
 - SEO
 - Analytics
 - Product Marketing
@@ -332,11 +333,11 @@ For any Digital Experience analytics request, please create an issue within the 
 8. Send a thank you message to the Sales team members who hosted you.
 9. Once all shadows are completed, share your notes and insights with the team.
 
-### Team Shadow Expectations
+#### Team Shadow Expectations
 
 Whoever gets closest to the customer wins. With this in mind, the Digital Experience team is expected to shadow Sales calls regularly.
 
-# Contact Us
+## Contact Us
 
 ### Slack Group
 
