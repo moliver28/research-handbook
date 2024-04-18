@@ -78,7 +78,6 @@ The following members of other functional teams are our stable counterparts:
 ## Govern staff meeting
 
 The Govern stage engineering department leaders meet weekly to discuss stage and group topics in the `Govern staff meeting`. This meeting is open to all team members and is published on the Govern stage calendar.
- 
 
 Meetings have an agenda and are async-first, where the aim is to resolve discussions async and leave time in the meeting to deep dive into topics that require more discussion.
 
