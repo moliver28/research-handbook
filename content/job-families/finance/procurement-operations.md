@@ -86,11 +86,11 @@ The Procurement Category Manager is a [grade 7](/handbook/total-rewards/compensa
 - Proficient in Google Docs
 - Ability to use GitLab
 
-#### Travel and Expense Manager (Intermediate) Job Grade
+#### Sr. Travel and Expense Manager Job Grade 7
 
-The Travel and Expense Manager is a [grade 7](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+The Sr. Travel and Expense Manager is a [grade 7](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
-#### Travel and Expense Manager (Intermediate) Responsibilities
+#### Sr. Travel and Expense Manager Responsibilities
 
 - Lead and manage GitLab’'s corporate travel and expense programs and policies, including preferred travel vendors, travel management company, expense management partner, and company credit card program
 - Manage day-to-day operations of the travel program, including working with travel security platform and updating and maintaining the travel policy and information page in the GitLab Handbook
@@ -104,9 +104,9 @@ The Travel and Expense Manager is a [grade 7](/handbook/total-rewards/compensati
 - Negotiate the most cost effective global/regional/local arrangements with airlines, travel agencies, hotels,  car rental companies and corporate cards to ensure the company receives the best possible quality of products and services at the lowest possible cost
 - Maintain relationships with suppliers to ensure best-in-class service and competitive pricing
 
-#### Travel and Expense Manager (Intermediate) Requirements
+#### Sr. Travel and Expense Manager Requirements
 
-- 7+ years experience as a Global Travel Manager, or relevant Travel industry experience
+- 5 - 7 years experience as a Global Travel Manager, or relevant Travel industry experience
 - Strong knowledge of industry leading travel and expense systems
 - Proficiency in corporate card program trends and best practices
 - Experience with the design and implementation of corporate travel and expense programs
