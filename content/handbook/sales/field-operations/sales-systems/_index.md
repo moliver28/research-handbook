@@ -80,15 +80,19 @@ Below is a list of the different technical skill sets found on the Sales System 
 
 | Team / Lane                 | Main Approver                                                | Backup Approver                                                 |
 |-----------------------------|--------------------------------------------------------------|-----------------------------------------------------------------|
-| QTC                         | Jesse Rabbits - Director, Quote to Cash                      | James Harrison - Senior Director, Sales Operations              |
-| Territory Management        | Melia Vilain - Senior Manager, Sales Strategy                | Jake Bielecki - VP, Sales Strategy & Analytics                  |
-| Channel Operations          | TBD | TBD                            |
-| Customer Success Operations | TBD | TBD                             |
-| Sales Operations            | Katrina Gavalas - Director, Sales Operations                 | James Harrison - Senior Director, Sales Operations              |
-| Marketing Operations        | Amy Waller - Senior Manager, Marketing Operations            | Christine Lee - Senior Director, Marketing Strategy & Platforms |
-| Sales Dev Operations        | Ramona Elliott - Director, Sales Development Operations      | Jean-Baptiste Larramendy - VP, Sales Development                |
-| Sales Compensation          | Lisa Puzar - Senior Manager, Sales Commissions               | James Harrison - Senior Director, Sales Operations              |
-| Legal                       | Rob Nalen - VP, Legal Operations                             | Robin Schulman - Chief Legal Officer                            |
+| Quote To Cash               | Director, Quote to Cash                     | Senior Director, Sales Operations                |
+| Territory Management        | Director, Sales Operations                  | Senior Director, Sales Operations                |
+| Partner Operations          | Sales Operations                            | Sales Operations                                 |
+| Customer Success Operations | Senior Director, CS Strategy & Operations   | VP of Field Operations                           |
+| Sales Operations            | Director, Sales Operations                  | Senior Director, Sales Operations                |
+| Deal Desk                   | Sr. Director, Deal Desk                     | Senior Director, Sales Operations                |
+| Professional Services       | Director, Professional Services             | VP of Professional Services & Education          |
+| Marketing Operations        | Director, Marketing Operations              | Senior Director, Marketing Strategy & Platforms  |
+| Sales Dev Operations        | Director, Sales Development Operations      | VP, Sales Development                            |
+| Sales Compensation          | Director, Sales Commissions                 | Senior Director, Sales Operations                |
+| Legal                       | Legal Compliance and Ethics                 | Senior Director, Legal, Corporate and Compliance |
+| Sales Systems               | Senior Manager, Sales Systems               | Senior Director, Enterprise Applications         |
+| Fulfillment                 | Director of Product, Fulfillment            | VP, Product Management                           |
 
 #### [Systems Owner] Systems Owner Sign-off :- Salesforce CRM System Owners should provide the signoff. The signoff matrix is an below,
 
