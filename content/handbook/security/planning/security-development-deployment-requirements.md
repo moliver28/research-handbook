@@ -95,7 +95,7 @@ Examples of different data types:
 
 ## Vulnerability and Patch Management
 
-1. Resources MUST be covered by the [Security Vulnerability Management]({{< ref "../threat-management/vulnerability-management" >}}) process.
+1. Resources MUST be covered by the [Security Vulnerability Management]({{< ref "../product-security/vulnerability-management" >}}) process.
 
 ## Change Management and Tracking
 

@@ -1,3 +1,10 @@
+---
+
+title: RoEs, FAQs and KPIs
+description: The purpose of this page is to clarify common questions about the sales development org’s practices.
+
+---
+
 ## Frequently Asked Questions (FAQ) and Rules of Engagement (RoE)
 
 This page is part of the Sales Development team's handbook [page](https://handbook.gitlab.com/handbook/marketing/sales-development/) and aims to help structure the expectations of SDR and BDR roles. Below you'll find the Key Performance Indicators (KPIs) and Service Level Agreements (SLAs) that we've designed to help you get results for customers as efficiently as possible. We additionally provide an explanation of our Rules of Engagement as well as a general Frequently Asked Questions (FAQ) section.
@@ -158,8 +165,24 @@ Announcement Channels
 | Ramping 2 | - Timeframe: Month 2 - Parameters: SDR is on 50% quota, leads are set at 100% in Traction, Qualified is off |
 | Ramping 3 | - Timeframe: Month 3 - Parameters: SDR is on 75% quota, leads are set at 100% in Traction, SDR is added to Qualified |
 | Expert    | - Timeframe: Months 4+ - Parameters: SDR is on full quota, leads are set at 100% in Traction, Qualified is on |
-            |   - SDR is now able to create their own Outreach sequences pending approval.               |
+| | - SDR is now able to create their own Outreach sequences pending approval.               |
 
+### Sales Development Credit Matrix
+
+| Products Considered | Who | Order Type | Segment | Opportunities | ASP/pipeline |
+| ---------- | -------- | ------- | --------- | -------------- | ---------------- |
+| GitLab ultimate/premium, Duo | SDR | FO + New Connected | SMB/Comm | 1 (Duo Pro is excluded) | NA |
+| GitLab ultimate/premium, Duo | SDR | FO + New Connected + Growth (new groups) | Enterprise | 2 (GitLab + Duo Pro) | NA |
+| GitLab ultimate/premium, Duo | BDR | FO | Comm/Ent | 2 | FO ASP for GitLab, growth ASP for Duo Pro |
+| GitLab ultimate/premium, Duo | BDR | New Connected + Growth | Comm/Ent | 2 | Growth ASP for GitLab, growth for Duo Pro |
+| Additional seats in current customer department | BDR | Growth | Comm/Ent | 1 | Growth ASP |
+| Tier upgrade | BDR | Growth | Comm/Ent | 1 | Growth ASP |
+| GitLab ultimate/premium, agile planning | everyone | All motions | All segments | 1 (agile planning is excluded) | See above for license ASP |
+| Professional services | everyone | All motions | All segments | 0 | NA |
+
+### Company Address Based Routing Information 
+
+In **[this video](https://www.youtube.com/watch?v=QT-oOceFU6k&ab_channel=GitLabUnfiltered)**, a member of the Marketing Ops team goes over the Company address fields and how they are used for Accounting Routing and Opp assignment. 
 
 ### Sales Dev Career Path
 

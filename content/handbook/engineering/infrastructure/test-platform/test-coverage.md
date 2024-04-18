@@ -1,18 +1,12 @@
 ---
 
 title: "Test Coverage"
-description: "The Quality Department has coverage to support testing particular scenarios."
+description: "The Test Platform Department has coverage to support testing particular scenarios."
 ---
-
-
-
-
-
-
 
 ### Offline environments / Airgapped GitLab QA scenario
 
-The Quality Department has a GitLab QA scenario that supports [offline environment / air-gapped](https://docs.gitlab.com/ee/user/application_security/offline_deployments) testing.
+The Test Platform Department has a GitLab QA scenario that supports [offline environment / air-gapped](https://docs.gitlab.com/ee/user/application_security/offline_deployments) testing.
 The [scenario](https://gitlab.com/gitlab-org/gitlab-qa/-/blob/master/lib/gitlab/qa/scenario/test/instance/airgapped.rb) `Test::Instance::Airgapped` is part of [GitLab QA](https://gitlab.com/gitlab-org/gitlab-qa/-/blob/master/docs/what_tests_can_be_run.md#testinstanceairgapped)
 test scenarios. The suite runs against a test environment including [Gitaly Cluster](https://docs.gitlab.com/ee/administration/gitaly/) which have been configured using `iptables` to drop traffic other than specific ports which allow our test access to the test instances.
 
@@ -26,8 +20,8 @@ where test states such as failures can be filtered on.
 Nightly pipelines are visible at the
 [`gitlab-org/gitlab` nightly schedule pipelines](https://gitlab.com/gitlab-org/gitlab/-/pipeline_schedules) page (internal only).
 The offline environment / airgapped test job names are `ce:airgapped` and `ee:airgapped`.
-This is one of the [pipelines monitored by the Quality Engineering team](/handbook/engineering/infrastructure/test-platform/debugging-qa-test-failures/#qa-test-pipelines) as part of the
-[Quality Department pipeline triage on-call rotation](/handbook/engineering/infrastructure/test-platform/oncall-rotation/).
+This is one of the [pipelines monitored by the Test Platform team](/handbook/engineering/infrastructure/test-platform/debugging-qa-test-failures/#qa-test-pipelines) as part of the
+[Test Platform Department pipeline triage on-call rotation](/handbook/engineering/infrastructure/test-platform/oncall-rotation/).
 
 #### Other reference guides
 
@@ -39,9 +33,35 @@ Instructions for working with secure scanners can be found in the [Offline envir
 
 ### GitLab Upgrades
 
+The goal of GitLab Upgrades test coverage is to ensure that a customer following the [upgrade path](https://docs.gitlab.com/ee/update/index.html#upgrade-paths) will be successful.
+
+To achieve the best coverage, Test Platform follows the [Test Pyramid approach](https://docs.gitlab.com/ee/development/testing_guide/testing_levels.html)
+by shifting left to unit tests without build environments in merge requests
+and going up to system level testing with actual environments being built:
+
+1. Lower level testing - [Multi-version migration upgrade jobs](#multi-version-migration-upgrade-jobs)
+1. System level testing - [Single-node/Docker upgrades](#gitlab-qa-update-scenario)
+1. System level testing - [Multi-node/Self-Managed upgrades](#upgrade-tester)
+
+#### Multi-version migration upgrade jobs
+
+| Upgrade path scenarios                     | Example             |
+|--------------------------------------------|---------------------|
+| Latest update stop → GitLab Merge Requests | [16.7.7 → MR in 16.11](https://gitlab.com/gitlab-org/gitlab/-/jobs/6488556764) |
+
+[`db:migrate:multi-version-upgrade`](https://docs.gitlab.com/ee/development/database/dbmigrate:multi-version-upgrade-job.html)
+validates that the migrations pass for multi-version upgrade from the latest required upgrade stop to the author’s working branch.
+It allows catching migration error(s) at unit-level without building an environment.
+Test job runs Database migrations against PostgreSQL dump created from the latest known GitLab version stop with test data.
+
 #### GitLab QA update scenario
 
-The Quality Department has a [`Test::Omnibus::UpdateFromPrevious`](https://gitlab.com/gitlab-org/gitlab-qa/-/blob/master/docs/what_tests_can_be_run.md#testomnibusupdatefromprevious-full-image-address-current_version-majorminor)
+| Upgrade path scenarios                                  | Example             |
+|---------------------------------------------------------|---------------------|
+| Latest update stop in previous major → GitLab `master`  | [15.11.13 → 16.1.6 → 16.3.7 → 16.7.7 → 16.11 pre](https://gitlab.com/gitlab-org/gitlab/-/jobs/6539783636#L351) |
+| Current GitLab stable release → GitLab `master`        | [16.10.1 → 16.11 pre](https://gitlab.com/gitlab-org/gitlab/-/jobs/6539783632#L350) |
+
+The Test Platform Department has a [`Test::Omnibus::UpdateFromPrevious`](https://gitlab.com/gitlab-org/gitlab-qa/-/blob/master/docs/what_tests_can_be_run.md#testomnibusupdatefromprevious-full-image-address-current_version-majorminor)
 GitLab QA scenario that verifies update from the previous (major or minor) version to the current GitLab version ([scenario code](https://gitlab.com/gitlab-org/gitlab-qa/-/blob/master/lib/gitlab/qa/scenario/test/omnibus/update_from_previous.rb)).
 
 ##### Test run schedule
@@ -66,6 +86,12 @@ Detailed process is described on [Performance and Scalability](https://docs.gitl
 
 #### Upgrade Tester
 
+| Upgrade path scenarios               | Example                                                                                                                                          |
+|--------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|
+| Latest update stop → GitLab Nightly | [16.7.7 → nightly](https://gitlab.com/gitlab-org/quality/upgrade-tester/-/pipelines/1234507969)                                                 |
+| Latest GitLab release → GitLab Nightly | [16.10.1 → nightly](https://gitlab.com/gitlab-org/quality/upgrade-tester/-/pipelines/1240098663)
+| Custom path scenarios                | [15.0.0, 15.0.5, 15.4.6, 15.11.13, 16.1.6, 16.3.7, 16.7.7, 16.10.0](https://gitlab.com/gitlab-org/quality/upgrade-tester/-/pipelines/1238546334) |
+
 Focused on building and testing different upgrade paths using the [Reference Architectures](https://docs.gitlab.com/ee/administration/reference_architectures), the Upgrade Tester pipelines build and upgrade environments starting at a specified version and ending at either the latest nightly package or a specific version. For each upgrade the path used to upgrade differs depending on the start and end versions used. For example, when starting with version 16.0.0 the upgrade path would be
 `16.0.0, 16.1.6, 16.3.7, 16.7.7, nightly`.
 
@@ -73,5 +99,5 @@ More information can be found within the [Upgrade Tester project](https://gitlab
 
 #### Work in progress
 
-Quality team is working on improving GitLab upgrades coverage and this effort is
-tracked in [epic#9201](https://gitlab.com/groups/gitlab-org/-/epics/9201).
+Test Platform team is working on improving GitLab upgrades coverage and this effort is
+tracked in [epic#12458](https://gitlab.com/groups/gitlab-org/-/epics/12458).

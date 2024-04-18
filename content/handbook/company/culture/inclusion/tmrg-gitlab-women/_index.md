@@ -96,7 +96,6 @@ If you have a resource you'd like to include, please open a merge request and co
 | [CEO Shadow Program](/handbook/ceo/shadow)| The goal of the CEO Shadow Program is to give current and future directors and senior leaders at GitLab an overview of all aspects of the company |
 | [Women in the Workplace Study Webinar](https://www.hracuity.com/webinar/leaninstudy-2020?utm_campaign=Content%20%7C%20Webinar%20%7C%20LeanIn&utm_medium=email&_hsmi=98577248&_hsenc=p2ANqtz-8kbiJWLM1fyvHgX1E15FQtDxjVDla2B4C3p2G7wSvpUQMJizBBdpFhEpmhEdG7PeYR-ekzWWPWhWK9EfpXoZwk5m6dWQ&utm_content=98577248&utm_source=hs_email) | A webinar from Lean In discussing the unique impact that COVID-19 has had on women of different races and ethnicities, working mothers, women in senior leadership and women with disabilities |
 | [The Harvard Gazette - Women less inclined to self-promote than men, even for a job](https://news.harvard.edu/gazette/story/2020/02/men-better-than-women-at-self-promotion-on-job-leading-to-inequities/) | Study finds female workers’ deep discomfort over touting skills, experience adds to gender gap in promotions, pay |
-| [People Connect Shadow Program]({{< ref "people-connect-shadow-program" >}})| The program allows for anyone to get an understanding of the People Connect responsibilities and allows for collaboration and iteration. |
 | [Stanford Continuing Studies Department](https://continuingstudies.stanford.edu/) | Standford offers many continuing education programs in multiple diciplines including leadership, writing, and professional/personal development |
 
 

@@ -47,7 +47,7 @@
 /content/handbook/only-healthy-constraints.md @sytses
 /content/handbook/board-meetings/ @sytses @streas
 /content/handbook/ceo/ @sytses
-/content/handbook/ceo/shadow.md @jrotenberry @gitlab-com/ceo-chief-of-staff-team
+/content/handbook/ceo/shadow.md @jrotenberry @gitlab-com/office-of-the-ceo
 /content/handbook/company/ @sytses @streas @gitlab-com/egroup
 /content/handbook/company/history.md @sytses
 /content/handbook/company/okrs/ @streas
@@ -76,13 +76,13 @@
 /content/handbook/company/culture/inclusion/tmrg-global-voices.md @eliran.mesika @twoodham @marin
 /content/handbook/company/culture/internal-feedback.md @wendybarnes @mwilkins
 
-^[chief-of-staff-team]
-/content/handbook/ceo/chief-of-staff-team/ @streas @gitlab-com/ceo-chief-of-staff-team
-/content/handbook/ceo/chief-of-staff-team/readmes/cynthia-ng.md @cynthia
-/content/handbook/ceo/chief-of-staff-team/readmes/dtuan.md @dtuan
-/content/handbook/ceo/chief-of-staff-team/readmes/ipedowitz.md @ipedowitz
-/content/handbook/ceo/chief-of-staff-team/readmes/streas.md @streas
-/content/handbook/ceo/chief-of-staff-team/readmes/yyugitlab.md @yyugitlab
+^[office-of-the-ceo]
+/content/handbook/ceo/office-of-the-ceo/ @streas @gitlab-com/office-of-the-ceo
+/content/handbook/ceo/office-of-the-ceo/readmes/cynthia-ng.md @cynthia
+/content/handbook/ceo/office-of-the-ceo/readmes/dtuan.md @dtuan
+/content/handbook/ceo/office-of-the-ceo/readmes/ipedowitz.md @ipedowitz
+/content/handbook/ceo/office-of-the-ceo/readmes/streas.md @streas
+/content/handbook/ceo/office-of-the-ceo/readmes/yyugitlab.md @yyugitlab
 
 ^[customer-success]
 /content/handbook/customer-success/ @spatching @christiaanconover @mrleutz
@@ -114,12 +114,13 @@
 /content/handbook/engineering/development/data-science/ai-powered/custom-models @oregand @m_gill @timzallmann @sean_carroll
 /content/handbook/engineering/development/data-science/ai-powered/duo-chat @juan-silva @m_gill @timzallmann
 /content/handbook/engineering/development/data-science/ai-powered/model-validation @mray2020 @pcalder
+/content/handbook/engineering/development/data-science/modelops/ @bmarnane @pcalder @mray2020
 /content/handbook/engineering/development/database.md @alexives
 /content/handbook/engineering/development/dev/ @timzallmann
 /content/handbook/engineering/development/dev/create/ @dsatcher
 /content/handbook/engineering/development/dev/create/code-creation/ @mnohr
 /content/handbook/engineering/development/dev/create/editor-extensions.md @dashaadu @kisha.mavryck
-/content/handbook/engineering/development/dev/create/ide/ @oregand
+/content/handbook/engineering/development/dev/create/ide/ @adebayo_a
 /content/handbook/engineering/development/dev/manage/ @wortschi @m_gill @mksionek
 /content/handbook/engineering/development/dev/manage/foundations/ @samdbeckham @tauriedavis
 /content/handbook/engineering/development/dev/manage/import-and-integrate/ @wortschi
@@ -348,7 +349,6 @@
 /content/handbook/marketing/inbound-marketing/search-marketing/seo-strategy.md @akramer @ncregan @hsmith-watson
 /content/handbook/marketing/inbound-marketing/search-marketing/testing.md @akramer
 /content/handbook/marketing/lifecycle-marketing/ @aklatzkin @dambrold
-/content/handbook/marketing/lifecycle-marketing/agency-verticurl.md @dambrold @aklatzkin @krogel
 /content/handbook/marketing/lifecycle-marketing/emails-nurture/ @aklatzkin @dambrold
 /content/handbook/marketing/localization/ @djsulliv
 /content/handbook/marketing/marketing-career-development/ @akramer
@@ -419,6 +419,7 @@
 /content/handbook/hiring/ @rallen3 @jdallmar @jakefoster1 @r_kahn
 /content/handbook/labor-and-employment-notices/ @pegan @wendybarnes @cgudgenov @streas @sytses
 /content/handbook/people-group/ @wendybarnes @pegan @cbednarz @rallen3 @mpatel8 @cgudgenov
+/content/handbook/people-group/people-business-partners/_index.md @cbednarz @anjali_kaufmann
 /content/handbook/people-group/celebrations.md @wendybarnes @mpatel8
 /content/handbook/people-group/contracts-probation-periods.md @mpatel8 @shensiek @alex_venter @Mowry @nutaurus
 /content/handbook/people-group/employment-branding/ @drogozinski @cchiodo @rallen3
@@ -533,10 +534,12 @@
 
 ^[security]
 /content/handbook/security/ @joshlemos @jlongo_gitlab @plafoucriere @juliedavila
-/content/handbook/security/architecture/ @plafoucriere
 /content/handbook/security/identity/ @gitlab-com/gl-security/identity
-/content/handbook/security/product-security/ @juliedavila @jritchey
+/content/handbook/security/product-security/ @juliedavila
 /content/handbook/security/product-security/infrastructure-security.md @juliedavila
+/content/handbook/security/product-security/application-security/ @jritchey
+/content/handbook/security/product-security/architecture/ @plafoucriere
+/content/handbook/security/product-security/security-research/ @estrike
 /content/handbook/security/security-assurance/ @tdilbeck @corey-oas @jlongo_gitlab @lcoleman @cynthiamiller
 /content/handbook/security/security-operations/ @jfuentes2
 /content/handbook/security/security-operations/security-logging/ @mcoons
@@ -584,7 +587,7 @@
 /content/handbook/total-rewards/compensation/ @shristikauffman @mwilkins @franzrivera
 
 [values]
-/content/handbook/values/ @sytses @streas @drogozinski @rallen3 @gitlab-com/ceo-chief-of-staff-team @gitlab-com/egroup @gitlab-com/content-sites
+/content/handbook/values/ @sytses @streas @drogozinski @rallen3 @gitlab-com/office-of-the-ceo @gitlab-com/egroup @gitlab-com/content-sites
 
 ^[working-groups]
 /content/handbook/company/working-groups/ @gitlab-com/egroup
@@ -600,7 +603,7 @@
 
 ## Please keep the required handbook sections near the end
 [CODEOWNERS]
-/.gitlab/ @gitlab-com/ceo-chief-of-staff-team @gitlab-com/content-sites @gitlab-com/egroup
+/.gitlab/ @gitlab-com/office-of-the-ceo @gitlab-com/content-sites @gitlab-com/egroup
 
 [handbook-operations]
 /.editorconfig @gitlab-com/content-sites @gitlab-com/content-sites/handbook-backend
@@ -641,7 +644,6 @@
 /content/handbook/engineering/infrastructure/production/architecture/ @marin @meks @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/finance/expenses.md @brobins @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/legal/anti-retaliation-policy.md @robin @gitlab-com/egroup @gitlab-com/content-sites
-/content/handbook/legal/privacy/dpia-policy.md @robin @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/people-group/acceptable-use-policy.md @wendybarnes @akramer @emilyplotkin @pegan @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/people-group/offboarding/offboarding_standards.md @wendybarnes @mpatel8 @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/people-policies/_index.md @cgudgenov @emilyplotkin @pegan @wendybarnes @gitlab-com/egroup @gitlab-com/content-sites
@@ -674,10 +676,10 @@
 /content/handbook/security/security-operations/secops-oncall.md @joshlemos @jlongo_gitlab @jfuentes2 @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/security/security-operations/sirt/sec-incident-response.md @joshlemos @jfuentes2 @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/security/security-operations/sirt/security-incident-communication-plan.md @joshlemos @jfuentes2 @gitlab-com/egroup @gitlab-com/content-sites
-/content/handbook/security/threat-management/vulnerability-management/ @smanzuik @estrike @gitlab-com/egroup @gitlab-com/content-sites
-/content/handbook/security/threat-management/vulnerability-management/encryption-policy.md @smanzuik @estrike @gitlab-com/egroup @gitlab-com/content-sites
+/content/handbook/security/product-security/vulnerability-management/ @juliedavila @estrike @gitlab-com/egroup @gitlab-com/content-sites
+/content/handbook/security/product-security/vulnerability-management/encryption-policy.md @juliedavila @estrike @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/security/token-management-standard.md @joshlemos @jlongo_gitlab @juliedavila @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/security/security-assurance/security-and-technology-policies-management.md @tdilbeck @corey-oas @lcoleman @jlongo_gitlab @cynthiamiller @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/security/software-development-lifecycle-policy.md @jlongo_gitlab @joshlemos @juliedavila @gitlab-com/egroup @gitlab-com/content-sites
 ### This is not a controlled doc however it mentions how to make a page a controlled doc, so this line is required for validation. See issue#213 for excluding this.
-/content/handbook/editing-handbook/frontmatter.md @gitlab-com/ceo-chief-of-staff-team @gitlab-com/egroup @gitlab-com/content-sites
+/content/handbook/editing-handbook/frontmatter.md @gitlab-com/office-of-the-ceo @gitlab-com/egroup @gitlab-com/content-sites

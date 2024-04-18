@@ -358,7 +358,7 @@ Please note the below steps reference how to manually enter bills into NetSuite.
 
 **Billable Expenses**
 
-If you have an expense report that can be billed back to a customer please make sure to check the "billable" flag in Expensify along with tagging the customer name under the "customer" field in Expensify.
+If you have an expense report that can be billed back to a customer please make sure to check the "billable" flag in Navan along with tagging the customer name under the "customer" field in Navan.
 
 #### Processing payment for invoices in Coupa
 
@@ -440,22 +440,22 @@ Due to the limited number of licenses available for Coupa, it is recommended tha
 
 Please refer to GitLab's [Expense Policy]({{< ref "../expenses" >}}) for further details.
 
-### Team Member Reimbursements - Expensify
+### Team Member Reimbursements - Navan
 
-#### Processing Expensify Reports
+#### Processing Navan Reports
 
-1. Expensify will auto sync and record expense reports into NetSuite once the report is "final approved".  "Final approved" means it has been approved by the team member's manager and completed an audit review by an Accounts Payable analyst or our external contractor, Montgomery Pacific (Montpac).
+1. Navan will auto sync and record expense reports into NetSuite once the report is "final approved".  "Final approved" means it has been approved by the team member's manager and completed an audit review by an Accounts Payable analyst or our external contractor, Montgomery Pacific (Montpac).
 1. Accounts payable will do a daily check to ensure all reports which are "final approved" are successfully synced.  If any errors arise, AP will work out the errors until the report syncs into NetSuite.
 
 #### Billable Expenses
 
-- If you have an expense report that can be billed back to a customer please make sure to check the "billable" flag in Expensify along with tagging the customer name under the "customer" field in Expensify.
+- If you have an expense report that can be billed back to a customer please make sure to check the "billable" flag in Navan along with tagging the customer name under the "customer" field in Navan.
 
-#### Paying Expensify Reports
+#### Paying Navan Reports
 
-1. Team members in a US expense policy will be automatically reimbursed through Expensify after their report is "final approved" within 1-4 business days.
-    - The team member must set up their bank account in Expensify.
-    - Once an team member is reimbursed, Expensify will auto sync the payment to the expense record to mark the report as reimbursed.
+1. Team members in a US expense policy will be automatically reimbursed through Navan after their report is "final approved" within 1-4 business days.
+    - The team member must set up their bank account in Navan.
+    - Once an team member is reimbursed, Navan will auto sync the payment to the expense record to mark the report as reimbursed.
     - This will feed into NetSuite to show the bill as fully paid as well.
 1. Team memebers in a country paid through PEO will also receive expense reimbursement through their same payroll PEO payments each month.
     - **Please Note:**  The timing of reimbursement can vary if you are being reimbursed directly from payroll, CXC, SafeGuard, Global PEO, Remote and/or iiPay.
@@ -464,9 +464,9 @@ Please refer to GitLab's [Expense Policy]({{< ref "../expenses" >}}) for further
     - Expense report must have been "final approved" no later than EOD Tuesday of that same week.
     - Any report "final approved" on Wednesday to Friday of that week will be reimbursed the following week.
     - Once an employee is reimbursed, AP will create the payment in NetSuite against the record to close the report as paid.
-    - AP will manually mark the expense reports as "Reimbursed" in Expensify once they are confirmed to the payroll provider or batched to Tipalti.
+    - AP will manually mark the expense reports as "Reimbursed" in Navan once they are confirmed to the payroll provider or batched to Tipalti.
 
-##### Paying Expensify Reports in Tipalti
+##### Paying Navan Reports in Tipalti
 
 **Entites included: GmbH, BV, PTY LTD, Ireland, IT BV and GK.**
 
@@ -480,11 +480,11 @@ Please refer to GitLab's [Expense Policy]({{< ref "../expenses" >}}) for further
 
 1. Average days to action <= 3 business days
 
-    Number of days from when an team member's manager approves report to when AP analyst does final approval for payment or responds to team member in Expensify if there is a concern. (Approval for payment is not the reimbursement date.) This is calculated on a calendar month basis. The target for this is currently three business days.
+    Number of days from when an team member's manager approves report to when AP analyst does final approval for payment or responds to team member in Navan if there is a concern. (Approval for payment is not the reimbursement date.) This is calculated on a calendar month basis. The target for this is currently three business days.
 
-1. Time to get a new team member set up in Expensify < 3 business days
+1. Time to get a new team member set up in Navan < 3 business days
 
-    Have new team member set up in Expensify within 3 business days from team member start date.
+    Have new team member set up in Navan within 3 business days from team member start date.
 
 
 ### Travel and Expense Guidelines
@@ -502,7 +502,7 @@ Even if this causes a bit more disruption in the short term, it will help us ens
 
 ### Non-Reimbursable Expenses
 
-In order to purchase goods and services on behalf of the company, you should first [consult the Signature Authorization Matrix]({{< ref "../authorization-matrix" >}}) to determine the approval requirements. Note that this **does not** include travel expenses and other incidentals. These expenses should be self-funded then submitted for reimbursement within Expensify, or in the case of independent contractors, included in invoices to the company (per the guidelines above).
+In order to purchase goods and services on behalf of the company, you should first [consult the Signature Authorization Matrix]({{< ref "../authorization-matrix" >}}) to determine the approval requirements. Note that this **does not** include travel expenses and other incidentals. These expenses should be self-funded then submitted for reimbursement within Navan, or in the case of independent contractors, included in invoices to the company (per the guidelines above).
 
 If further approval is not required, then proceed to the Procurement ["What are you buying" page]({{< ref "../procurement#-what-are-you-buying" >}}) for further instructions on the purchasing process at GitLab. Once those procedures are complete, have your vendor send their invoice to Accounts Payable: *ap@gitlab.com*.  Most importantly, the team member making the purchase request is ultimately responsible for final review and approval of the invoices. Final review and approval are critical process controls that help ensure we do not make erroneous payments to vendors. All original invoices and payment receipts must be sent to Accounts Payable.
 
@@ -511,7 +511,7 @@ If further approval is not required, then proceed to the Procurement ["What are 
 If you would like to track spend for a particular campaign, project and/or event you can do that through expense tag, also known as classes in NetSuite.  If you would like to request an expense tag/class to be set up please open [this tracker](https://docs.google.com/spreadsheets/d/1wBqvCvmou4afnb0p8lBXVvFmsl-j0IehS7GdfJybGzg/edit?usp=sharing) and enter the information required for the General Ledger (GL) team to create the tag.
 
 - The GL team will create the tags at the end of each day.
-- The tag is created in Netsuite and syncs with Expensify and Coupa.
+- The tag is created in Netsuite and syncs with Navan and Coupa.
 - Requisitions can be saved for later, while you complete the tag creation process.
 
 **Create Classes In NetSuite:**
@@ -521,9 +521,9 @@ If you would like to track spend for a particular campaign, project and/or event
 1. Under subsidiaries highlight GitLab Inc and check the box that states "Include in Children"
 1. Save
 
-Expensify will auto-sync any new "expense tags" on a daily basis, but if the Expensify admin wants to manually sync they can do so by following these steps:
+Navan will auto-sync any new "expense tags" on a daily basis, but if the Navan admin wants to manually sync they can do so by following these steps:
 
-**Import new Classes/Tags In Expensify:**
+**Import new Classes/Tags In Navan:**
 
 1. Go to the Admin page and click on the *Policies* tab.
 1. Select a policy and find the *Connections* subtab. The NetSuite connector is located on this page.
@@ -547,9 +547,9 @@ Please see the [campaign expense guidelines in the Marketing handbook](/handbook
 
 (Previously GitLab Summit)
 
-Tracking expenses for company Contributes enables us to analyze our spend and find opportunities to iterate, and in turn, improve subsequent Contributes. To enable tracking we create an expense tag that will allow GitLab team-members to tag Contribute related expenses in Expensify. This should be done prior to the announcement of each Contribute.
+Tracking expenses for company Contributes enables us to analyze our spend and find opportunities to iterate, and in turn, improve subsequent Contributes. To enable tracking we create an expense tag that will allow GitLab team-members to tag Contribute related expenses in Navan. This should be done prior to the announcement of each Contribute.
 
-- To categorize an expense under an expense tag to track a specific marketing campaign, contribute expense and/or any special project you will do this under the "classifications" tag in Expensify.
+- To categorize an expense under an expense tag to track a specific marketing campaign, contribute expense and/or any special project you will do this under the "classifications" tag in Navan.
 
 
 ## Property, Plant and Equipment

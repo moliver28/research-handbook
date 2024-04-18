@@ -1,8 +1,15 @@
+---
+
+title: Sales Development
+description: "The purpose of this page is to act as the homapage of the sales development org's handbook presence."
+
+---
+
 ## Who we are
 
 Welcome to the Sales Development Organization at GitLab! We are a team designed to drive [results for customers](https://handbook.gitlab.com/handbook/values/#results) through both inbound and outbound strategies. Our structure is designed to maximize efficiency, responsiveness, and creativity in our outreach efforts.
 
-#### Sales Development Representatives (SDRs) - Inbound Focused
+**1. Sales Development Representatives (SDRs) - Inbound Focused**
 
 **Key Attributes:**
 
@@ -15,7 +22,7 @@ Welcome to the Sales Development Organization at GitLab! We are a team designed 
 
 Our Inbound-focused SDRs are known for their swift response times, ensuring global coverage and alignment with marketing initiatives. They operate with defined and prescriptive inbound processes, utilizing round-robin assignment rules. Additionally, the SDR team serves as a talent incubator for our Business Development Representatives (BDRs).
 
-#### Business Development Representatives (BDRs) - Outbound Focused
+**2. Business Development Representatives (BDRs) - Outbound Focused**
 
 **Key Attributes:**
 
@@ -43,22 +50,21 @@ Our Outbound-focused BDRs excel in strategic account planning, research, and del
 | ---------------------------------------------------- | ------------------------------------------------- |
 | **Main Channel - (Global VP - JB Larramendy)**       | [`#sales_dev_global`](https://gitlab.slack.com/messages/C2V1KLY0Z) |
 | **Announcements - (SDR Ops/Enablement - Chris Wang)**| [`#sales_dev_fyi`](https://app.slack.com/client/T02592416/C011P828JRL) |
-| **COMM GLOBAL (Manager - Brian Tabbert)**            | [`#comm_sales_dev_global`](https://gitlab.slack.com/archives/C04NY0G) |
-| **BDR COMM GLOBAL MM (Manager - Brian Tabbert)**     | [`#bdr_global_mm`](https://gitlab.slack.com/archives/C04PAPDVAL9/p16) |
-| **SDR GLOBAL (Manager - Brian Tabbert)**             | [`#sdr_global_inbound`](https://gitlab.slack.com/archives/C03RSSTLLMD/) |
-| **SDR AMER (Manager - Josh Downey)**              | [`#sdr_amer_inbound`](https://gitlab.slack.com/archives/C0322NFAY9W) |
-| **BDR COMM AMER MM (Manager - Christie Park)**       | [`#bdr_amer_mm`](https://app.slack.com/client/T02592416/C014PHFNE2U) |
-| **BDR ENTG AMER WEST & LATAM (Manager - Charlotte Platt)** | [`#bdr_entg_amer_west_latam`](https://gitlab.slack.com/archives/C01) |
-| **BDR ENTG AMER EAST (Manager - Shamit Paul)**       | [`#bdr_entg_amer_east`](https://gitlab.slack.com/archives/C01LK4EFDNW) |
-| **BDR ENTG PUBSEC (Manager - Josh Downey)**          | [`#bdr_entg_amer_pubsec`](https://gitlab.slack.com/archives/C02EBM1F)|
-| **All - EMEA**                                      | [`#sdr_emea`](https://gitlab.slack.com/messages/CCULKLB71) |
+| **All - AMER (Manager - Brian Tabbert)**            | [`#amer_sales_dev`](https://gitlab.enterprise.slack.com/archives/C06J0U9EC8L) |
+| **SDR AMER (Manager - Josh Downey)**              | [`#sdr_amer_inbound`](https://gitlab.enterprise.slack.com/archives/C02EBM1FN00) |
+| **BDR COMM AMER MM (Manager - Christie Park)**       | [`#bdr_amer_comm`](https://gitlab.enterprise.slack.com/archives/C014PHFNE2U) |
+| **BDR ENTG AMER WEST & LATAM (Manager - Charlotte Platt)** | [`#bdr_entg_amer_west_latam`](https://gitlab.enterprise.slack.com/archives/C04R8DN5H8R) |
+| **BDR ENTG AMER EAST (Manager - Shamit Paul)**       | [`#bdr_entg_amer_east`](https://gitlab.enterprise.slack.com/archives/C04QL1YSXGW) |
+| **BDR PUBSEC (Manager - Josh Downey)**          | [`#bdr_amer_pubsec`](https://gitlab.enterprise.slack.com/archives/C04R54N159P)|
+| **All - EMEA (Manager - Elsje Smart)**                                      | [`#sdr_emea`](https://gitlab.slack.com/messages/CCULKLB71) |
 | **SDR EMEA - (Manager - Elsje Smart)**             | [`#sdr_emea_apac_inbound`](https://gitlab.slack.com/archives/C031T0L) |
 | **BDR COMM EMEA MM - (Manager - Elsje Smart)**     | [`#bdr_comm_emea_mm`](https://gitlab.slack.com/archives/C04NA4BQP54) |
 | **BDR ENTG EMEA DACH - (Manager - Christopher Allenfort)** | [`#bdr_entg_emea_dach`](https://gitlab.slack.com/archives/C04NP4VC449) |
 | **BDR ENTG EMEA NEUR META - (Manager - Miguel Nunes)** | [`#bdr_entg_emea_neur_meta`](https://gitlab.slack.com/archives/C04N) |
 | **BDR ENTG EMEA SEUR - (Manager - Tati Fernandez)**   | [`#bdr_entg_emea_seur`](https://gitlab.slack.com/archives/C04NE65S6AE) |
-| **SDR APAC - (Manager - Brian Tabbert)**             | [`#sdr_emea_apac_inbound`](https://gitlab.slack.com/archives/C031T0L) |
-| **BDR ENTG APAC - (Manager - Elsje Smart)**          | [`#bdr_entg_apac`](https://gitlab.slack.com/archives/C0327R1NZBK) |
+| **SDR APJ - (Manager - Robin Falkowski)**             | [`#sdr_emea_apac_inbound`](https://gitlab.slack.com/archives/C031T0L) |
+| **BDR ENTG APJ - (Manager - Robin Falkowski)**          | [`#apj_sales_dev`](https://gitlab.enterprise.slack.com/archives/C031EGFR5UK) |
+| **BDR EGC META NL - (Manager - Carolina Marco Bellver)**          | [`#bdr_emea-egc-meta-nl`](https://gitlab.enterprise.slack.com/archives/C04NA4BQP54) |
 
 ## Our GitLab Projects
 
@@ -77,38 +83,28 @@ Our Outbound-focused BDRs excel in strategic account planning, research, and del
 | Name/Link                                                            | Description                                            |
 |-----------------------------------------------------------------------|--------------------------------------------------------|
 | [1:1 Dashboards - Leads: PUBSEC](https://gitlab.my.salesforce.com/01Z8X000000u7Vy)   | 1:1 dashboard for leads in the PUBSEC segment.          |
-| [1:1 Dashboards - Leads: APAC ENTG](https://gitlab.my.salesforce.com/01Z8X000000u7Vt) | 1:1 dashboard for leads in the APAC ENTG segment.       |
+| [1:1 Dashboards - Leads: COMM APJ](https://gitlab.my.salesforce.com/01ZPL000000YXw1) | 1:1 dashboard for leads in the APJ ENTG segment.       |
 | [1:1 Dashboards - Leads: ENTG EMEA](https://gitlab.my.salesforce.com/01Z8X000000u7Vo) | 1:1 dashboard for leads in the ENTG EMEA segment.       |
-| [1:1 Dashboards - Leads: ENTG EMEA/AMER](https://gitlab.my.salesforce.com/01Z8X000000u7W8) | 1:1 dashboard for leads in the ENTG EMEA/AMER segment.  |
+| [1:1 Dashboards - Leads: ENTG AMER/LATAM](https://gitlab.my.salesforce.com/01Z8X000000u7W8) | 1:1 dashboard for leads in the ENTG AMER/LATAM segment.  |
 | [1:1 Dashboards - Leads: COMM EMEA](https://gitlab.my.salesforce.com/01Z8X000000u7Q5)  | 1:1 dashboard for leads in the COMM EMEA segment.       |
 | [1:1 Dashboards - Accounts: EMEA COMM](https://gitlab.my.salesforce.com/01Z8X000000u7O4) | 1:1 dashboard for accounts in the EMEA COMM segment.    |
 | [1:1 Dashboards - Accounts: ENG AMER/LATAM](https://gitlab.my.salesforce.com/01Z8X000000u7Ww) | 1:1 dashboard for accounts in the ENG AMER/LATAM segment. |
-| [1:1 Dashboards - Accounts: ENTG APAC](https://gitlab.my.salesforce.com/01Z8X000000u7Wm)   | 1:1 dashboard for accounts in the ENTG APAC segment.     |
+| [1:1 Dashboards - Accounts: COMM APJ](https://gitlab.my.salesforce.com/01ZPL000000YXxd)   | 1:1 dashboard for accounts in the ENTG APJ segment.     |
 | [1:1 Dashboards - Accounts: ENTG EMEA](https://gitlab.my.salesforce.com/01Z8X000000u7Wr)   | 1:1 dashboard for accounts in the ENTG EMEA segment.     |
 | [1:1 Dashboards - Accounts: PUBSEC](https://gitlab.my.salesforce.com/01Z8X000000u7Wh)     | 1:1 dashboard for accounts in the PUBSEC segment.       |
-| [Watch and Help Action Needed: SDR Global](https://gitlab.my.salesforce.com/01ZPL000000ULrp) | Dashboard outlining items where immediate action is needed in the SDR team.   |
-| [Watch and Help Action Needed: PubSec Global](https://gitlab.my.salesforce.com/01ZPL000000UN7F) | Dashboard outlining items where immediate action is needed in the PubSec team. |
-| [Watch and Help Action Needed: APAC BDR](https://gitlab.my.salesforce.com/01ZPL000000bkbl) | Action needed for watch and help for APAC BDR.          |
-| [Watch and Help Action Needed: EMEA BDR](https://gitlab.my.salesforce.com/01Z4M000000soBO) | Action needed for watch and help for EMEA BDR.          |
-| [Watch and Help Action Needed: AMER BDR](https://gitlab.my.salesforce.com/01ZPL00000069v3) | Action needed for watch and help for AMER BDR.        |
-| [Watch and Help Action Needed: SDR Global](https://gitlab.my.salesforce.com/01ZPL000000ULrp) | Action needed for watch and help for SDR Global.        |
+| [Action Needed: SDR Global](https://gitlab.my.salesforce.com/01ZPL000000ULrp) | Dashboard outlining items where immediate action is needed in the SDR team.   |
+| [Action Needed: PubSec Global](https://gitlab.my.salesforce.com/01ZPL000000UN7F) | Dashboard outlining items where immediate action is needed in the PubSec team. |
+| [Action Needed: APJ BDR](https://gitlab.my.salesforce.com/01ZPL000000bkbl) | Dashboard outlining items where immediate action is needed for APJ BDR.          |
+| [Action Needed: EMEA BDR](https://gitlab.my.salesforce.com/01Z4M000000soBO) | Dashboard outlining items where immediate action is needed for EMEA BDR.          |
+| [Action Needed: AMER BDR](https://gitlab.my.salesforce.com/01ZPL00000069v3) | Dashboard outlining items where immediate action is needed for AMER BDR.        |
+| [Action Needed: SDR Global](https://gitlab.my.salesforce.com/01ZPL000000ULrp) | Dashboard outlining items where immediate action is needed for SDR Global.        |
 | [High Level Results Dashboard](https://gitlab.my.salesforce.com/01ZPL000000eQob) | The dashboard we use to glance at our bottom-line results. |
 | [Pipeline Progression Dashboard](https://gitlab.my.salesforce.com/01Z8X000000u6mP) | The dashboard we use to measure the progress, or lack of thereof, of opportunities sourced by our org. |
 | [Global Sales Dev Results Dashboard](https://gitlab.my.salesforce.com/01ZPL000000cNmn) | A more granular dashboard that breaks down attainment further. | 
+| [6Sense 6QA Automation Dashboard](https://gitlab.my.salesforce.com/01ZPL000000kAPN) | This dashboard visualizes all the accounts that were automatically imported to SFDC via our 6Sense Automation. | 
 
 
 ## The pages we frequently use
-
-### The main resources
-
-| Resource | Description |
-| :------: | :---------: |
-| [Sales Development Org Onboarding page](/handbook/marketing/sales-development/sdr-playbook-onboarding/) | Comprehensive onboarding guide for new members of the Sales Development Org. |
-| [Tanuki Tech](/handbook/marketing/sales-development/tanuki-tech/) | Information about Tanuki Tech, a tool or process related to Sales Development. |
-| [Inbound How-Tos](https://handbook.gitlab.com/handbook/marketing/sales-development/inbound-how-tos/) | The quick guide to get you up to speed with our inbound processes. |
-| [Outbound How-Tos](https://handbook.gitlab.com/handbook/marketing/sales-development/outbound-how-tos/) | The quick guide to get you knowledgeable into our Outbound methodology. |
-| [RoEs, FAQs and KPIs](https://handbook.gitlab.com/handbook/marketing/sales-development/roe-kpis-faq) | The page that answers any question you might have on rules of engagement, team member expectations or other common questions. |
-| [The Sales Dev Knowledge Base](https://handbook.gitlab.com/handbook/marketing/sales-development/sales-development-knowledge-base) | The page that accummulates all the knowledge generated by team members past and new, enter at your own peril. |  
 
 ### The complementary Resources
 
@@ -139,3 +135,5 @@ Our Outbound-focused BDRs excel in strategic account planning, research, and del
 | [HighSpot](https://gitlab.highspot.com/signin) | Our go-to resource for competitive intelligence and all types of helpful collateral. |
 | [GitLab Use Cases](https://about.gitlab.com/customers/) | Where we go to reference how we make our customers sucessful |
 | [Sales Dev Onboarding Checklist](https://docs.google.com/spreadsheets/d/1gc7a2E-ziRfjYukSzozDC5M0f2yq-CgBv5GMQgTYHJM/edit?usp=drive_web&ouid=117649236165967789679) | Go-to resource for all training material newcomers will need |
+
+### The Main Resources

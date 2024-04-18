@@ -12,7 +12,7 @@ The Expense Specialist is a [grade 5](/handbook/total-rewards/compensation/compe
 
 #### Responsibilities
 
-- Audit expense reports for all team members, comparing details and support submitted with GitLab Reimbursement policy and making an independent judgment on approval/denial of submitted expenses through Expensify (expense management system).
+- Audit expense reports for all team members, comparing details and support submitted with GitLab Reimbursement policy and making an independent judgment on approval/denial of submitted expenses through Navan (expense management system).
 - Resolve issues directly with team members and/or their managers related to non-compliant expense reimbursement submissions.
 - Compile, analyze, and report expense reimbursement data to assess accuracy, completeness, and conformance to standards and policies.
 - Develop and improve processes and procedures on how to manage T&E
@@ -21,7 +21,7 @@ The Expense Specialist is a [grade 5](/handbook/total-rewards/compensation/compe
 #### Requirements
 
 - Minimum 2-4 years related accounting/accounts payable/expense reporting experience
-- Strong proficiency in Expensify or other similar Expense Management Tools  Proficient in Google sheet (pivot tables and vlookups, etc.).
+- Strong proficiency in Navan or other similar Expense Management Tools  Proficient in Google sheet (pivot tables and vlookups, etc.).
 - Understanding of VAT reclaim (Germany, United Kingdom, Netherlands)
 - Intermediate proficiency with Google Workspace.
 - Excellent interpersonal and written communication skills.
@@ -33,7 +33,7 @@ The Expense Specialist is a [grade 5](/handbook/total-rewards/compensation/compe
 #### Performance Indicators
 
 - [Average days to action](/handbook/finance/accounting/#8-employee-reimbursements---expensify)
-- [Time to get a new employee set up in Expensify](/handbook/finance/accounting/#8-employee-reimbursements---expensify)
+- [Time to get a new employee set up in Navan](/handbook/finance/accounting/#8-employee-reimbursements---expensify)
 
 ### Career Ladder
 

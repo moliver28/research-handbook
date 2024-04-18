@@ -421,54 +421,7 @@ Below is a list of some of the resources that you can use to contribute to the d
 
 ## UX Paper Cuts workflow
 
-### General workflow
-
-One of our goals is to deliver changes as efficiently as possible. With that in mind:
-- Try to review ~"UX Paper Cuts" MRs assigned to you as soon as you can
-- Keep your merge requests small and focused
-  - If you have a larger initiative in mind, plan on breaking it into smaller MRs
-  - Cross-link each MR if they're related
-
-### Milestone theme work
-
-Each milestone we focus on a specific area of the product (previous milestone themes include Merge request UI, AI feature polish, and labels & lists). Focusing on smaller areas like this maximizes the impact of our changes. Each milestone planning issue will include a list of ideas and issues we think we can work on.
-- Look at list in description; if you see one you'd like to work on, assign yourself
-- In your merge request:
-  - Link MR back to the issue
-  - Add labels `~"group::ux paper cuts"` `~"UX Paper Cuts"` `~frontend ~UX` `~"type::maintenance"` `~"maintenance::usability"` `~"severity::4"` _(adjust to use correct severity number)_
-- Assign a paper cuts designer to review ~"UX"
-- Use reviewer roulette for developer reviews
-
-### Other fixes
-
-- If you want to fix something that's _not_ on the list, feel free! Just link the MR back to milestone planning issue
-- Look at Slack channel #is-this-known for recent bugs
-
-### Useful links & tips
-
-- [Open UX Paper Cuts MRs](https://gitlab.com/gitlab-org/gitlab/-/merge_requests?scope=all&state=opened&label_name%5B%5D=UX%20Paper%20Cuts)
-- All available [utility classes](https://unpkg.com/browse/@gitlab/ui@64.10.1/src/scss/utilities.scss)
-- You can speed up your workflow a bit by creating [comment templates](https://docs.gitlab.com/ee/user/profile/comment_templates.html) for commonly used actions, like assigning a reviewer or approving an MR  (for example, you could create an "Approve" comment template including the `/approve`, `/remove_reviewer`, and `/unsubscribe` quick actions)
-
-### For help
-
-- Try pinging the developers on your MR suggested by reviewer roulette
-- People are super helpful in Slack channels `#g_manage_foundations` and `#gitlab-ui`
-
-### Suggesting Paper Cuts to the team
-
-The Paper Cuts team welcomes suggestions as an input to their planning.
-
-When there is a problem you think may be a good fit for the Paper Cuts team:
-
-- If an issue already exists:
-    1. Add the `~"UX Paper Cuts"` label and a group label appropriate to the functionality affected.
-    1. Leave a brief comment on the issue explaining why it may be a good fit for Paper Cuts work.
-- If an issue does not exist:
-    1. Mention the problem in the [Paper cuts possibilities & requests](https://gitlab.com/gitlab-org/gitlab/-/issues/417911) issue for discussion.
-
-UX Paper Cuts team members will triage existing issues and ideas mentioned in the possibilities and requests discussion and incorporate actionable changes as they plan their work.
-Issues that are not good candidates for Paper Cuts work will have the `~"UX Paper Cuts"` label removed and a Paper Cuts team member will leave a brief comment on why the issue is not a good fit.
+See [UX Paper Cuts Direction Page](https://about.gitlab.com/direction/ux-paper-cuts).
 
 ## Approach to communication
 

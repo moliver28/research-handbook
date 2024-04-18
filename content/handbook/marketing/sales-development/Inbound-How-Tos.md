@@ -1,8 +1,15 @@
+---
+
+title: Inbound How-Tos
+description: The purpose of this page is to quickly walk SDRs through the main inbound processes they’ll use.
+
+---
+
 ## Sales Development Inbound Process
 
 This page is part of the Sales Development team's handbook [page](https://handbook.gitlab.com/handbook/marketing/sales-development/) and aims to break our inbound lead management process into small how-to sections.
 
-While the contents below are meant to get you up to speed quickly, we also have a wealth of resources for team members that are looking to perfect their craft [here](https://handbook.gitlab.com/handbook/marketing/sales-development-knowledge-base/).
+While the contents below are meant to get you up to speed quickly, we also have a wealth of resources for team members that are looking to perfect their craft [here](https://handbook.gitlab.com/handbook/marketing/sales-development/sales-development-knowledge-base/).
 
 
 ## Where to find your leads
@@ -14,7 +21,7 @@ To find and access your leads, please:
  1. Navigate to SFDC's homepage 
  2. Click on the `Leads` tab.  
  
- You will find the lead views below. These views are split per use-case for your convenience. The KPIs for managing these leads are thoroughly outlined in our [SLAs page](https://handbook.gitlab.com/handbook/marketing/roe-kpis-slas). 
+ You will find the lead views below. These views are split per use-case for your convenience. The KPIs for managing these leads are thoroughly outlined in our [SLAs page](https://handbook.gitlab.com/handbook/marketing/sales-development/roe-kpis-faq/). 
 
 ### SDR Lead Views
 
@@ -27,7 +34,7 @@ To find and access your leads, please:
 
 ### Lead and Database Management
 
-As part of your SDR responsibilities, you are expected to perform due diligence on each lead you receive. This includes checking the database for duplicate records, as well as referencing against our [RoE](https://handbook.gitlab.com/handbook/marketing/roe-kpis-slas).
+As part of your SDR responsibilities, you are expected to perform due diligence on each lead you receive. This includes checking the database for duplicate records, as well as referencing against our [RoE](https://handbook.gitlab.com/handbook/marketing/sales-development/roe-kpis-faq/).
 
 
 | Step | Action                                                                                                                                  |
@@ -155,4 +162,8 @@ If the opportunity is for a new group of users in a Large account where sales is
 | 9. IQM Notes | - SDR adds IQM notes to the Initiative section in the opportunity Title. <br> - Include Attendees, Raw Notes, Questions, Summary, and Next Steps. |
 | 10. Rebooking no-shows | - The SDR’s responsibility lies only in rebooking no-shows using the [Outreach rebook sequences](https://web.outreach.io/sequences?search=no%20show&sortBy=recent&sortDirection=desc). <Br> - Conduct outreach for 2 weeks. If IQM cannot be rescheduled, AE will unqualify the opportunity. |
 
+### Trial Extensions and Ultimate to Premium Downgrades
 
+To submit a trial extension ticket for a prospect you will navigate [to this internal request form](https://support-super-form-gitlab-com-support-support-op-651f22e90ce6d7.gitlab.io/) and fill it out the form using the **"GitLab L&R internal request for global customers"** option and then select extend a gitlab.com trial. Keep in mind it only works for SaaS and not self-managed. 
+
+You are also able to downgrade a Trial from Ultimate to Premium through the internal request form. You just have to choose "Change existing GitLab.com Trial plan"

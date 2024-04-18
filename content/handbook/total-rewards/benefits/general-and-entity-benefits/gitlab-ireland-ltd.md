@@ -50,7 +50,7 @@ The team member needs to provide documentation (a prescription) from the opticia
 
 If you are enrolled in the VHI Medical plan, please submit any eligible claims through the plan first, any out of pocket cost not covered by the plan can be reimbursed up to the max amount in accordance to the Vision policy
 
-Please submit your receipts via expensify and prescription to Total Rewards.
+Please submit your receipts via navan and prescription to Total Rewards.
 
 ## Pension
 

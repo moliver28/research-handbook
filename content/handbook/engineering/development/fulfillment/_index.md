@@ -35,9 +35,9 @@ In addition to the [Fulfillment Product Direction](https://about.gitlab.com/dire
 
 {{< members-by-role role="Engineering Manager, Fulfillment|Director of Engineering, Fulfillment" >}}
 
-### Fulfillment:Billing and Subscription Management Team
+### Fulfillment:Subscription Management Team
 
-{{< members-by-role role="Fulfillment:Billing and Subscription Management Team" >}}
+{{< members-by-role role="Fulfillment:Subscription Management Team" >}}
 
 ### Fulfillment:Purchase Team
 
@@ -59,7 +59,7 @@ In addition to the [Fulfillment Product Direction](https://about.gitlab.com/dire
 
 The following members of other functional teams are our stable counterparts.
 
-{{< stable-counterparts role="Fulfillment|Fulfillment:" manager-role="Senior Engineering Manager, Fulfillment, Interim Strategy and Operations Lead, China|Fullstack Engineering Manager, Fulfillment:Fulfillment Platform|Fullstack Engineering Manager, Fulfillment:Provision|Fullstack Engineering Manager, Fulfillment:Utilization" manager-role="Backend Engineering Manager, Gitaly|Fullstack Engineering Manager (Interim), Fulfillment:Purchase|Fullstack Engineering Manager, Fulfillment:Billing and Subscription Management Team" >}}
+{{< stable-counterparts role="Fulfillment|Fulfillment:" manager-role="Senior Engineering Manager, Fulfillment, Interim Strategy and Operations Lead, China|Fullstack Engineering Manager, Fulfillment:Fulfillment Platform|Fullstack Engineering Manager, Fulfillment:Provision|Fullstack Engineering Manager, Fulfillment:Utilization" manager-role="Backend Engineering Manager, Gitaly|Fullstack Engineering Manager (Interim), Fulfillment:Purchase|Fullstack Engineering Manager, Fulfillment:Subscription Management Team" >}}
 
 ### Fulfillment Security
 
@@ -87,7 +87,7 @@ The Sales & Go-To-Market stable counterpart will serve as the GTM DRI for strate
 
 {{< member-and-role-by-gitlab jlyttle mdunninger kslaats >}}
 
-### Chief of Staff Team to the CEO
+### Office of the CEO
 
 {{< member-and-role-by-gitlab "ipedowitz" >}}
 
@@ -372,7 +372,7 @@ Best practices
 
 - To manage workload, designers should generally be assigned to no more than one large and 1 small/medium project at a time, or 3-4 small/medium projects (or the equivalent in issue weights).
 - Designers should use their best judgement and collaborate with their teams to decide which meetings to attend. Designers aren't expected to attend team sync meetings for multiple teams at the same time.
-- Product Designers should be assigned [UX MR reviews](/handbook/product/ux/product-designer/mr-reviews/) for the projects they're supporting. 
+- Product Designers should be assigned [UX MR reviews](/handbook/product/ux/product-designer/mr-reviews/) for the projects they're supporting.
   - If UX review is needed on an MR that is part of a project without an assigned designer, post the request in the #s_fulfillment_ux Slack channel. UX MR review requests in the Slack channel will be picked up based on bandwidth.
 
 #### UX issue management and weights
@@ -465,7 +465,6 @@ The following calculations can help inform this %.
 
 Open this page and filter for your epic: https://gitlab.com/groups/gitlab-org/-/issues/?sort=created_date&state=all&first_page_size=100
 
-```javascript
 // Numerator: Calculate total weight of closed issues (use `defaultWeight` for issues without weight)
 let defaultWeight = 0;
 [...document.querySelectorAll('.issue.closed')].reduce((memo, el) => {
@@ -484,7 +483,6 @@ let defaultWeight = 0;
 [...document.querySelectorAll('.issue')].filter(el => {
     return !el.classList.contains('closed') && !el.querySelector('.issuable-weight');
 }).length;
-```
 -->
 
 3. **Status**: `On Track or Behind` (this is determined based on your how your % complete is trending to your key dates -- are you far enough along to hit your key dates?)
@@ -904,7 +902,7 @@ This table lists recurring activities that are part of [working groups and cross
 
 | Activity                                                                                                                           | Cadence       | Type | Teams Involved                                                              |
 |------------------------------------------------------------------------------------------------------------------------------------|---------------|------|-----------------------------------------------------------------------------|
-| [Purchasing Reliability Working Group](https://docs.google.com/document/d/1m6sozlyvEIEKcEIPF2_nujrYTOV3IPpx_jaPXD1hPpU/edit)       | Weekly        | Sync | Fulfillment Engineering, Infrastructure, IT, CEO, CoST                      |
+| [Purchasing Reliability Working Group](https://docs.google.com/document/d/1m6sozlyvEIEKcEIPF2_nujrYTOV3IPpx_jaPXD1hPpU/edit)       | Weekly        | Sync | Fulfillment Engineering, Infrastructure, IT, CEO, Office of the CEO                      |
 | [GTM Product Usage Data Working Group](https://docs.google.com/document/d/1riUXq1GdavnSWJklrebBeZnzcAl6XATyLod9tR6-AlQ/edit)       | Weekly        | Sync | Fulfillment PMs, Analytics Instrumentation, Data, Customer Success, Sales        |
 | [GitLab Order to Cash Technical Fusion Team](https://docs.google.com/document/d/17tJraRunjge5nI-qBEjWlhcKWYLXwGW4uhhu-Sf5464/edit) | Weekly        | Sync | Fulfillment PMs, Fulfillment Engineering, EntApps, Sales Systems            |
 | [Data & Analytics Program for R&D Teams](https://docs.google.com/document/d/1CRIGdNATvRAuBsYnhpEfOJ6C64B7j8hPAI0g5C8EdlU/edit)     | Every 2 Weeks | Sync | Fulfillment PMs, Analytics Instrumentation, Growth, Data                         |

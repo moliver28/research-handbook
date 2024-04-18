@@ -69,12 +69,11 @@ Navigate to career development resources located throughout the GitLab handbook:
 <div class="flex-row" markdown="0">
   <div>
     <a href="/handbook/ceo/shadow" class="btn btn-primary" style="margin:5px;">CEO Shadow</a>
-    <a href="{{< ref "chief-of-staff-team#chief-of-staff-shadow" >}}" class="btn btn-primary" style="margin:5px;">Chief of Staff to CEO Shadow</a>
+    <a href="{{< ref "office-of-the-ceo#chief-of-staff-shadow" >}}" class="btn btn-primary" style="margin:5px;">Chief of Staff to CEO Shadow</a>
     <a href="https://about.gitlab.com/handbook/finance/growth-and-development/cfo-shadow-program/" class="btn btn-primary" style="margin:5px;">CFO Shadow</a>
     <a href="https://about.gitlab.com/handbook/marketing/cmo-shadow/" class="btn btn-primary" style="margin:5px;">CMO Shadow</a>
     <a href="https://about.gitlab.com/handbook/engineering/development/shadow/director-shadow-program.html" class="btn btn-primary" style="margin:5px;">Development Director Shadow</a>
     <a href="https://about.gitlab.com/handbook/engineering/fellow/shadow/" class="btn btn-primary" style="margin:5px;">Engineering Fellow</a>
-    <a href="{{< ref "people-connect-shadow-program" >}}" class="btn btn-primary" style="margin:5px;">People Connect Team Shadow</a>
     <a href="{{< ref "security-shadow" >}}" class="btn btn-primary" style="margin:5px;">Security Team Shadow</a>
     <a href="https://gitlab.com/gitlab-com/support/support-team-meta/-/blob/master/.gitlab/issue_templates/Support%20Shadow%20Program.md" class="btn btn-primary" style="margin:5px;">Support Team Shadow</a>
   </div>

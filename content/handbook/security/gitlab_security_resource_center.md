@@ -111,11 +111,10 @@ The following links contain frequently asked security, legal & privacy, and avai
 
 ### Privacy
 
-- [GitLab privacy](/handbook/legal/privacy/)
+- [GitLab Privacy Statement](/handbook/legal/privacy/)
 - [Team Member Privacy Notice](/handbook/legal/privacy/employee-privacy-policy/)
-- [U.S. State Privacy Rights](https://about.gitlab.com/privacy/#us-state-privacy-rights)
-- [Data protection impact assessment (DPIA) policy](/handbook/legal/privacy/dpia-policy/)
-*[Account deletion and data access requests workflow]({{< ref "account_deletion_access_request_workflows" >}})
+- [U.S. State Privacy Rights and Disclosures](https://about.gitlab.com/privacy/us-state-privacy-rights-and-disclosures/)
+- [Account deletion and data access requests workflow]({{< ref "account_deletion_access_request_workflows" >}})
 
 ### Security awareness
 
@@ -130,12 +129,12 @@ The following links contain frequently asked security, legal & privacy, and avai
 
 ### Threat modeling
 
-- [Threat modeling at GitLab]({{< ref "./threat-modeling" >}})
-- [Threat modeling How To Guide]({{< ref "./threat-modeling/howto" >}})
+- [Threat modeling at GitLab]({{< ref "./product-security/application-security/threat-modeling" >}})
+- [Threat modeling How To Guide]({{< ref "./product-security/application-security/threat-modeling/howto" >}})
 - [Application security threat modeling process]({{< ref "./product-security/application-security/runbooks/threat-modeling" >}})
 
 ### Vulnerability management
 
-- [Vulnerability management standard]({{< ref "./threat-management/vulnerability-management" >}})
+- [Vulnerability management standard]({{< ref "./product-security/vulnerability-management" >}})
 - [Application vulnerability management procedure]({{< ref "./product-security/application-security/vulnerability-management" >}})
-- [Infrastructure vulnerability management procedure]({{< ref "./threat-management/vulnerability-management/Infrastructure-vulnerability-procedure" >}})
+- [Infrastructure vulnerability management procedure]({{< ref "./product-security/vulnerability-management/Infrastructure-vulnerability-procedure" >}})

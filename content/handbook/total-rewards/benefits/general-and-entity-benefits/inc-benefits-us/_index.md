@@ -104,6 +104,8 @@ A QLE is a change in your situation — like getting married, having a baby, etc
 
 Once approved, coverage will be backdated to the date of the event.
 
+Please see the [FSA](https://handbook.gitlab.com/handbook/total-rewards/benefits/general-and-entity-benefits/inc-benefits-us/#flexible-spending-account-fsa-plans-) and [HSA](https://handbook.gitlab.com/handbook/total-rewards/benefits/general-and-entity-benefits/inc-benefits-us/#health-savings-account-hsa) section of the Handbook for details on Mid-Year Qualifying Life Event changes to these plans.
+
 ##### Process for submitting a QLE
 
 1. Log into [PlanSource]({{< ref "inc-benefits-us#logging-into-plansource" >}})
@@ -212,6 +214,8 @@ Coverage will be provided for the following services:
 - Testing performed specifically to determine the cause of infertility.
 - Treatment and/or procedures performed specifically to restore fertility (e.g. procedures to correct an infertility condition).
 - Artificial Insemination, In-vitro, GIFT, ZIFT, etc.
+
+Coverage will includes treatment and/or procedures performed to enable conception with or without an infertility condition. Coverage for Artificial Insemination/Intrauterine insemination will be available regardless of an infertility condition (e.g. In Vitro, GIFT, ZIFT, etc.).
 
 See the [HDHP](https://drive.google.com/file/d/1zAQExWPX3Bm131RdZQaFqMY-K1RdfMlR/view?usp=sharing), [PPO](https://drive.google.com/file/d/1O9LW50Wa7Dq6C9SRoEiCR422XK-0_2ZB/view?usp=sharing),Summary Plan Descriptions for more details.
 
@@ -646,6 +650,8 @@ The 401(k) Committee meets on a regular cadence with Fidelity to review how the 
 
 If you are enrolled in a Health Savings Account (HSA), Flexible Spending Account (FSA), Dependent Care Flexible Spending Account (DCFSA) or commuter benefits, the funds are held through WEX (Discovery Benefits). After your benefit enrollment effective start date, [create an account with WEX (Discovery)](https://benefitslogin.wexhealth.com/Login.aspx?ReturnUrl=%2f) to manage your funds. You will only receive one debit card upon enrollment. To obtain a second card (for a dependent, etc.) you will need to login to your account on WEX (Discovery) or call and they will send one to your home of record.
 
+Wex Contact:  866-451-3399; customerservice@wexhealth.com; www.wexinc.com
+
 #### Health Savings Account (HSA)
 
 GitLab contributes $100 per month for those enrolled in the HSA under Individual cover, and $125 per month under team member + dependent(s) cover. You must be enrolled in the HDHP plan in order to contribute to the HSA.
@@ -665,13 +671,18 @@ You can use your HSA to save for retirement. At age 65, you can use the funds fo
 
 If you would like to transfer your HSA from a previous account, please contact WEX (Discovery) and request a HSA Transfer funds form. On the form you will put your old HSA provider’s account number and any other required personal information. You will then submit the form to WEX (Discovery), and they will get in contact with your old HSA provider and process the transfer of funds. You can reach WEX (Discovery) at 866.451.3399 or `customerservice@discoverybenefits.com`.
 
-If you would like to adjust your HSA contributions please log into [PlanSource](https://benefits.plansource.com/).
-
 HSAs roll over completely year-to-year and are 'owned' by the team member. If you leave GitLab and would like to keep your HSA account, GitLab will no longer be responsible for the administration fee. The account holder will become responsible for the $2.50 per month admin fee.
 
 Domestic Partner Reimbursements: If the team member is not legally married to their domestic partner, the domestic partner's expenses are not eligible for disbursement from the HSA. However, if the domestic partner is covered under the family HDHP through the team member, the domestic partner can open their own HSA and contribute up to the full family contribution maximum. The team member may also contribute up to the full family contribution maximum to their own HSA.
 
-#### Flexible Spending Account (FSA) Plans ()
+##### Mid-Year HSA Contribution Change
+
+Team Members can make changes to their HSA contribution throughout the year. Any changes will be reflected as of the 1st of the following month. You can make these changes via the [Qualifying Life Event Process](https://handbook.gitlab.com/handbook/total-rewards/benefits/general-and-entity-benefits/inc-benefits-us/#process-for-submitting-a-qle). Select "Mid-Year HSA Contribution" under event type.
+
+You can also choose to front-load the team member portion of your HSA contributions directly with Wex. Please contact Wex to assist you with this request. If you do choose to front-load your HSA, please be sure to take in to acount GitLab's contributio amount to your front-load calculation, and adjust your HSA deductions in PlanSource to update payroll deductions. GitLab is unable to track your maximum contribution if you fund the HSA outside of your payroll deductions.
+
+
+#### Flexible Spending Account (FSA) Plans
 
 FSAs help you pay for eligible out-of-pocket health care and dependent day care expenses on a pretax basis. You determine your projected expenses for the Plan Year and then elect to set aside a portion of each paycheck into your FSA. FSA contributions can only be updated during open enrollment or through a [qualifying life event (QLE)](#qualifying-life-events).
 
@@ -693,6 +704,19 @@ FSAs (and Dependent Care FSAs) are subject to annual testing by the Internal Rev
 ##### FSA Period to Submit Claims
 
 Up to 90 days after the plan year has concluded (also known as the runout period).
+
+##### Mid-Year FSA Contribution Changes
+
+Team Members can only make changes to their FSA contributions during a Qualifying Life Event. You cannot reduce your FSA contributions, you can only increase the FSA during the Qualifying Life Event.
+
+Note that if you increase the amount of your FSA, you will only be able to use the additional funds for claims that incur on or after the your Qualifying Life Event. See Example Below:
+
+| Scenario                     | Resolution | Example
+|--------------------------|------|------|
+| A participant gets married       | The participant can only increase their election amount.     | A participant originally elected $500. They get married and update their election amount to $2,000 as of the date of the qualifying life event. Note: The participant can only be reimbursed up to $500 for claims with dates of service between the plan effective date and the date of the qualifying life event.|
+
+
+
 
 
 #### Commuter Benefits

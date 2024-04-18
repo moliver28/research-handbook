@@ -181,7 +181,7 @@ Should you need to reschedule, please @ mention the EBA to the CEO in the `#eba-
 
 **Six Mondays** before the start of the fiscal quarter, the CEO and Chief of Staff (CoS) to the CEO initiate the OKR process.
 
-The CoS to the CEO creates a Google Doc for E-Group alignment and shares initial suggestions with the CEO. The CEO and CoS to the CEO discuss and modify these initial suggestions. This document is shared with E-Group in the [E-Group Weekly](/handbook/e-group-weekly/) which is **five weeks** before the start of the coming quarter. E-Group is encouraged to offer feedback in the E-Group Weekly, directly within the Google Doc, or in meetings with the CEO or CoST.
+The CoS to the CEO creates a Google Doc for E-Group alignment and shares initial suggestions with the CEO. The CEO and CoS to the CEO discuss and modify these initial suggestions. This document is shared with E-Group in the [E-Group Weekly](/handbook/e-group-weekly/) which is **five weeks** before the start of the coming quarter. E-Group is encouraged to offer feedback in the E-Group Weekly, directly within the Google Doc, or in meetings with the CEO or Office of the CEO.
 
 **Four Mondays** before the start of the quarter, the CoS to the CEO will share the company OKRs draft with E-Group.
 
@@ -240,7 +240,7 @@ GitLab entries should include the following fields:
 
 ### The quarter begins
 
-The Chief of Staff to the CEO takes company OKRs and updates the OKR handbook page for the current quarter to be active. Each objective and KR should include the related GitLab link. The CoST for the CEO should also create the handbook page for the following quarter and document the OKR process timeline.
+The Chief of Staff to the CEO takes company OKRs and updates the OKR handbook page for the current quarter to be active. Each objective and KR should include the related GitLab link. The Office of the CEO should also create the handbook page for the following quarter and document the OKR process timeline.
 
 The CoS to the CEO shares the handbook update MR in the #okr channel in Slack and @ mentioned e-group. .
 
@@ -343,7 +343,7 @@ If an OKR is related, but does not score towards the Company KR, edit the descri
 
 To allow for division, department, or team objectives to be added as child objectives or KRs, the Company key results should be created as an objective, not as a key result, as GitLab functionality doesn’t allow for a KR to have child OKRs.
 
-The Chief of Staff Team to the CEO does the following:
+The Office of the CEO does the following:
 
 1. Create the Company objective.
 1. Create the Company key results as child objectives of the Company objective.
@@ -364,7 +364,7 @@ To indicate that a division KR should also show progress of a Company KR, add th
 Do this for all OKRs that contribute to company OKRs.
 However, be careful not to link an OKR to multiple Company KRs.
 
-When this method is used, the Chief of Staff Team to the CEO will update the score manually based on the scoring of all related items.
+When this method is used, the Office of the CEO will update the score manually based on the scoring of all related items.
 
 A hypothetical example where division KRs score directly to division objectives, and should also progress a Company KR:
 

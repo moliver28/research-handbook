@@ -86,7 +86,7 @@ To be defined by each group on a quarterly basis.
 | **Engineering**<br>[Megan Filo](https://gitlab.com/meganfilo) <sub><sup> Lead</sub></sup> <br> [Javi Garcia](https://gitlab.com/jgarc)<br>[Laura Duggan](https://gitlab.com/lduggan)  <br> [Marg Mañunga](https://gitlab.com/mmanunga-ext)<br> [Miguel Duque](https://gitlab.com/mduque-ext) | **Engineering**<br>[Nathan Dubord](https://gitlab.com/ndubord)  <sub><sup> Lead</sub></sup><br> [Miracle Banks](https://gitlab.com/miraclebanks)<br>[John Arias](https://gitlab.com/jariasc-ext)<br>[Tieme Akamine](https://gitlab.com/takamine-ext)<br> [Mateo Penagos](https://gitlab.com/mpenagos-ext) | 
 | **Product Manager**<br>[Filza Qureshi](https://gitlab.com/fqureshi)|    **Product Manager**<br>[Filza Qureshi](https://gitlab.com/fqureshi)|   
 | **Engineering Manager**<br>[Lauren Barker](https://gitlab.com/laurenbarker)  |  **Engineering Manager**<br> [Lauren Barker](https://gitlab.com/laurenbarker)   | 
-| **Director**<br>[Michael Preuss](https://gitlab.com/mpreuss22)|  **Director**<br>[Michael Preuss](https://gitlab.com/mpreuss22)| 
+
 
 ## Scope
 
@@ -115,7 +115,7 @@ We start iteration a Monday. The following Wednesday is async release day, altho
 
 - [Current DEX Group Conversion Iteration Board](https://gitlab.com/groups/gitlab-com/marketing/digital-experience/-/boards/7320189?iteration_id=Current&label_name[]=dex-group%3A%3Aconversion)
 - [Current DEX Group Optimization Iteration Board](https://gitlab.com/groups/gitlab-com/marketing/digital-experience/-/boards/5955968?iteration_id=Current&label_name[]=dex-group%3A%3Aoptimization)
-- [Current DEX Group Leaderhip Iteration Board](https://gitlab.com/groups/gitlab-com/marketing/digital-experience/-/boards/7320197)
+
 ### Labels and Workflow Boards
 
 We use issue boards to track issue progress throughout a iteration. Issue boards should be viewed at the highest group level for visibility into all nested projects in a group.
@@ -429,10 +429,6 @@ Watch our team in action on YouTube!
 
 [Digital Experience](https://www.youtube.com/playlist?list=PL05JrBw4t0KrakNGW0ruM5UL7DDlrMBba)
 
-## Digital Experience Shadow Program
-
-We're piloting a new Shadow program, details here: [Digital Experience Shadow Program](/handbook/marketing/digital-experience/digital-experience-shadow-program/)
-
 # Requesting Support
 
 Our team works from a quarterly plan, for example: [FY22Q3](https://gitlab.com/groups/gitlab-com/marketing/inbound-marketing/-/epics/385) and [FY22Q4](https://gitlab.com/groups/gitlab-com/marketing/digital-experience/-/epics/3). Our quarterly plan is developed with the intention to put us 30% beyond our capacity which is [GitLab policy](/handbook/company/okrs/#okrs-are-stretch-goals-by-default).
@@ -508,6 +504,9 @@ We love collaborating on work that drives our North Star and supporting metrics.
 
 <details>
     <summary>Previous <b>Quarterly Plans & OKRs</b></summary>
+    <li><a href="https://gitlab.com/groups/gitlab-com/marketing/digital-experience/-/epics/367">FY25Q1 Digital Experience Quarterly Plan & OKRs</a></li>
+    <li><a href="https://gitlab.com/groups/gitlab-com/marketing/digital-experience/-/epics/342">FY24Q24 Digital Experience Quarterly Plan & OKRs</a></li>
+    <li><a href="https://gitlab.com/groups/gitlab-com/marketing/digital-experience/-/epics/309">FY24Q3 Digital Experience Quarterly Plan & OKRs</a></li>
     <li><a href="https://gitlab.com/groups/gitlab-com/marketing/digital-experience/-/epics/251">FY24Q2 Digital Experience Quarterly Plan & OKRs</a></li>
     <li><a href="https://gitlab.com/groups/gitlab-com/marketing/digital-experience/-/epics/210">FY24Q1 Digital Experience Quarterly Plan & OKRs</a></li>
     <li><a href="https://gitlab.com/groups/gitlab-com/marketing/digital-experience/-/epics/175">FY23Q4 Digital Experience Quarterly Plan & OKRs</a></li>

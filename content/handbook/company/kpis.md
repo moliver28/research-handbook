@@ -52,9 +52,9 @@ These KPIs are determined by a combination of their stand alone importance to th
 1. [12 Month Team Member Voluntary Retention](/handbook/people-group/people-success-performance-indicators/#team-member-voluntary-retention-rolling-12-months) (lagging)
 1. [Unique Wider Community Contributors per Month](/handbook/marketing/developer-relations/performance-indicators/#unique-wider-community-contributors-per-month) (lagging)
 
-## CoST to the CEO KPIs
+## Office of the CEO KPIs
 
-{{< kpi "Chief of Staff Team" >}}
+{{< kpi "Office of the CEO" >}}
 
 ## Sales KPIs
 
