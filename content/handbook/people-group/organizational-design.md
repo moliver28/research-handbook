@@ -179,6 +179,25 @@ A key piece of transparency is ensuring the “why” is clear. A thoughtful pla
 
 ### Execution
 
+The following information will help you execute the changes in the appropriate systems to reflect the new organizational structure. 
+
+Throughout the different phases summarized above, the aligned PBP will partner with you to understand the scope of the impact of the change, such as: 
+
+- Is there any team member compensation impact?
+- Are there any other budgetary impacts or headcount trade-offs?
+- Is there any job title impact? (not job title specialty, but job title I.E. Frontend Engineer changed to Backend Engineer)
+- Are any team members changing managers?
+- Is the change intended to be temporary or permanent?
+- How many team members are being impacted by this change? 
+
+Depending on the scope and type of impact, the PBP will advise on the exact steps to take and which groups to collaborate with (such as Legal, PeopleConnect, FP&A, etc.) to update appropriate systems. For example, a change impacting a large number of team members (10+ people) is best entered into Workday [in partnership with our People Operations team](https://internal.gitlab.com/handbook/people-group/people-operations/people-connect/people_connect_team/#workday-process-roles--responsibilities). For smaller changes (less than 10 people), the current manager should follow the standard process for [updating job information in Workday](https://handbook.gitlab.com/handbook/people-group/promotions-transfers/#manager-self-service-in-workday-job-information-change). 
+
+It is important to ensure that appropriate communications are in place before changes are reflected in Workday so team members and managers do not learn about changes through Workday updates.
+
+There may also be additional documentation that will need to be shared with the team member confirming the change, in compliance with local regulations. People Connect can provide any required documentation related to a role change. We have [this template](https://docs.google.com/spreadsheets/d/1Yf9GgmaJVE3fDNR7JrEk5Q4tbyFtwcqDnfulJHRbyKM/edit#gid=433813408) as a resource to document changes, impact, and additional documentation required available as a resource if needed. 
+
+**For R&D:** We have a process outlined for our various [Global Prioritization](https://handbook.gitlab.com/handbook/product/product-processes/#prioritize-global) team member alignment changes outlined in addition to [Engineering Allocations](https://handbook.gitlab.com/handbook/product/product-processes/#engineering-allocation) on the Product Processes page.
+
 ### Measuring Success
 
 
