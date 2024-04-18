@@ -103,7 +103,7 @@ It is imperative that we consider local requirements specific to each team membe
 
 **Scope and Job Levels**
 
-When considering scope and associated job levels, the (GitLab Job Frameworks) [https://docs.google.com/spreadsheets/d/1FX4NBwF099uMBm7mGBtf1orIJZuHEjtiEa3jSbg9jJs/edit#gid=0] provide general guidelines to ensure the scope of a team member’s role is aligned to their contributions and impact
+When considering scope and associated job levels, the [GitLab Job Frameworks](https://docs.google.com/spreadsheets/d/1FX4NBwF099uMBm7mGBtf1orIJZuHEjtiEa3jSbg9jJs/edit#gid=0) provide general guidelines to ensure the scope of a team member’s role is aligned to their contributions and impact
 
 **Organizational Shape**
 
@@ -123,8 +123,8 @@ Depending on the scale of the realignment or reorganization that you are impleme
 
 - **Frequency**: Realignments and organization structural changes can be disruptive for team members and impact results in the short term as team members settle into new roles/teams, engage with new stable counterparts, managers, etc.  Frequent realignment may create more churn than benefit. When possible, taking a holistic review of the team and considering other upcoming changes that may be needed can help consolidate the amount of time needed to refocus the team.
 - **Disruption To Deliverables**: It is important to consider the impact the change could have on our Customers, milestones, and our ability to achieve results. For example:
-    - _In Sales_, if you are planning the change to happen towards the end of the quarter, will it take away from the Sales team’s ability to achieve or exceed their number, and potential impact to quota. If changes will impact anything related to commissions, they will need to go into effect on the 1st or 16th of the month.
-    - _In R&D_, consideration should also be given to impacts on [product category maturity](https://about.gitlab.com/direction/maturity/) commitments for teams with team members that are moving to new groups. When possible, change should respect the [Product Development Timeline](https://handbook.gitlab.com/handbook/engineering/workflow/#product-development-timeline) to allow impacted teams to complete existing work and ensure smooth and efficient transitions.
+    - *In Sales*, if you are planning the change to happen towards the end of the quarter, will it take away from the Sales team’s ability to achieve or exceed their number, and potential impact to quota. If changes will impact anything related to commissions, they will need to go into effect on the 1st or 16th of the month.
+    - *In R&D*, consideration should also be given to impacts on [product category maturity](https://about.gitlab.com/direction/maturity/) commitments for teams with team members that are moving to new groups. When possible, change should respect the [Product Development Timeline](https://handbook.gitlab.com/handbook/engineering/workflow/#product-development-timeline) to allow impacted teams to complete existing work and ensure smooth and efficient transitions.
 - **Talent Program Timeline**: During company-wide programs such as Talent Assessment and Annual Compensation Review, Workday is frozen for processing new changes. Be aware that processing manager changes during these programs may be delayed. Additionally, if someone is changing managers during a process where the manager’s insight into prior year performance is integral, it can create additional work as a new manager steps in mid-cycle.
 
 
