@@ -114,7 +114,6 @@ Each Objective and Key Result should have an assignee who is DRI for providing s
 
 OKRs can be changed or closed during the quarter if they are completed, or as our goals change. This ensures we are focusing on areas that are revelant to our current and future priorities.
 
-
 ## Skills
 
 Because we have a wide range of domains to cover, it requires a lot of different expertise and skills:
