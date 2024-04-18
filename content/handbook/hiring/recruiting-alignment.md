@@ -9,13 +9,12 @@ description: "This page is an overview of the search team alignment and the tale
 |--------------------------|-----------------|-------------------------------------|
 | Executive          | Rich Kahn    | Michelle Jubrey  |
 | Executive          | Zach Choquette   | Michelle Jubrey  |
-| Enterprise Sales, AMER | Kevin Rodrigues |Sruthy Menon |
+| Enterprise & Commercial Sales, AMER | Kevin Rodrigues |Sruthy Menon |
 | Enterprise Sales, EMEA | Joanna Tourne | Lerato Thipe |
-| Customer Success & Solutions Architect | Ornella Miles | Lerato Thipe |
+| Customer Success & Solutions Architects, EMEA | Ornella Miles | Lerato Thipe |
 | Commercial Sales/R&D, EMEA | Ben Cowdry | Lerato Thipe |
-| Sales, AMER | Marcus Carter | Jazmin Armstrong |
-| Sales | Kelsey Hart  | Fernando Khubeir |
-| Customer Success, AMER | Barbara Dinoff |  Jazmin Armstrong |
+| Global Services & Field Operations | Kelsey Hart  | Fernando Khubeir |
+| Customer Success & Solutions Architects, AMER | Barbara Dinoff |  Jazmin Armstrong |
 | All Business, APAC | Yas Priatna  | Lerato Thipe & Sruthy Menon |
 | G&A/EBA/Marketing (Leadership and E-Group+ EBA) | Steph Sarff | Michelle Jubrey |
 | G&A/EBA/Marketing (Global Sales Development, FP&A, EBA) | Caroline Rebello |  Michelle Jubrey |
@@ -25,7 +24,7 @@ description: "This page is an overview of the search team alignment and the tale
 | Engineering, Development | Matt Angell, Chux Ugorji | Alice Crosbie |
 | Engineering, Development | Sara Currie | Jazmin Armstrong |
 | Engineering, Development | Heather Tarver | Fernando Khubeir |
-| Engineering, Development | Joe Guiler, Seema Anand, Anna Kioukis | Teranay Dixon |
+| Engineering, Development | Joe Guiler, Seema Anand | Teranay Dixon |
 | Engineering, Infrastucture   | Maxx Snow | Teranay Dixon  |
 | Engineering, Infrastucture   | Michelle A. Kemp | Alice Crosbie  |
 | Engineering, Infrastucture   | Aziz Quadri | Alice Crosbie  |
