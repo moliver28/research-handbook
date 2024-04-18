@@ -114,7 +114,7 @@ The process is comprised of five key stages:
             1. Start discussing the technical aspects of a potential path for the integration
         1. Internal notes of the call should be recorded in the Technical Evaluation Google Doc
 1. Early People-Ops review
-    1. The Corporate Development Deal Process Manager will create a new Slack channel topic of `#p-code_name-people` and include the People-ops Champion (VP of People-Ops) and a Talent Acquisition Lead. The People-ops Champion may request that the Corporate Development Champion and Process Manager bring in designated People-ops team-members as needed.  
+    1. The Corporate Development Deal Process Manager will create a new Slack channel topic of `#p-code_name-people` and include the People-ops Champion (VP of People-Ops) and a Talent Acquisition Lead. The People-ops Champion may request that the Corporate Development Champion and Deal Process Manager bring in designated People-ops team-members as needed.  
         1. Resume review - Review of all employee resumes
             1. Set your own LinkedIn profile to [private mode viewing](https://www.linkedin.com/help/linkedin/answer/a564182/private-mode-viewers-of-profiles?lang=en) when reviewing target employee profiles. Private mode viewing will prevent target employees from being alerted to GitLab's examination of their LinkedIn profiles.
         1. Compensation review - to identify any gaps and possible flags led by the HR Business Partner
@@ -132,7 +132,7 @@ The process is comprised of five key stages:
     1. Barriers for implementation
     1. Deal Milestones:
         1. We aim to set 3 milestones at 2, 4 and 6 months from joining GitLab, to provide a concise set of goals which should cover the bulk of our product interest in the target company
-        1. Milestones should be articulated as objectives as opposed to tasks. The structure of defining milestones should resemble that of OKRs, with each milestone having an objective and then a few key results which will are required to achieve the objective. This will help target companies focus on driving the objectives and not be tied to, and concerned with, a specific task as changes are likely to occur once integration work starts. The milestones outline the objectives to facilitate the work required in achieving the roadmap advancement the deal was identified with delivering. Each milestone should be broken down to the keys required to complete in order to achieve success for the milestone's objective.
+        1. Milestones should be articulated as objectives as opposed to tasks. The structure of defining milestones should resemble that of OKRs, with each milestone having an objective and then a few key results which will be required to achieve the objective. This will help target companies focus on driving the objectives and not be tied to, and concerned with, a specific task as changes are likely to occur once integration work starts. The milestones outline the objectives to facilitate the work required in achieving the roadmap advancement the deal was identified with delivering. Each milestone should be broken down to the keys required to complete in order to achieve success for the milestone's objective.
         1. First milestone shipped within 60 days of joining GitLab:
             1. Accounting for 3 weeks of onboarding, targets will ship the first milestone 5 weeks following the end of the onboarding period
             1. Critical to adopting our culture and successful future integration of the target's engineering team in GitLab
@@ -148,30 +148,30 @@ The process is comprised of five key stages:
         1. Complete executive summary (with link to term sheet draft) including budget and headcount allocation for the acquisition
         1. Complete business case templates (see Corp Dev shared drive for both - GitLab internal-only) including Deal Milestones
         1. Complete term sheet ([template](https://docs.google.com/document/d/1_G2bXxhMe_qXrF8LdZcXwsCcIs1GJAS1-v42U2MV8a4/edit)) draft with proposed details (asset payment, retention bonuses, Deal Milestones, closing schedule, customer termination and closing conditions) filled in.
-    1. Functional approvals: The corporate development acquisition lead, Product and Engineering champions will present the business case for acquisition to the CPO, CTO and CRO. They will review to approve the items listed in the Champions' approval (complete: executive summary, business case, term sheet)
-    1. CEO, CFO and CLO approvals: The corporate development acquisition lead, Product and Engineering champions will present the business case for acquisition to the CEO, CFO and CLO. This meeting will also capture the **explicit approval** of the term sheet to start negotiations.
+    1. Functional approvals: The Corporate Development, Product and Engineering Champions will present the business case for acquisition to the CPO, CTO and CRO. They will review to approve the items listed in the Champions' approval (complete: executive summary, business case, term sheet)
+    1. CEO, CFO and CLO approvals: The Corporate Development, Product and Engineering Champions will present the business case for acquisition to the CEO, CFO and CLO. This meeting will also capture the **explicit approval** of the term sheet to start negotiations.
         1. Approval of term sheet to start negotiations will be tracked in a [term
         sheet approval issue](<https://gitlab.com/gitlab-com/corporate-development/issues/new?issuable_template=term_sheet_approval>). We don't include any financial and milestone information in the approval tracking issue for confidentiality reasons.
 1. Term Sheet:
-    1. Once the terms to start negotiations have been approved, the corporate development acquisition lead will reach out to the target company to share the offer and term sheet.
+    1. Once the terms to start negotiations have been approved, the Corporate Development Deal Champion will reach out to the target company to share the offer and term sheet.
     1. Once an agreement on terms with the target has been reached, the term sheet (with any changes) will be brought forward for approval from: CLO, CFO, CEO (in that order). These approvals will be captured in the term sheet approval issue.
-    1. Once all approvals have been obtained, the corporate development acquisition lead will stage the term sheet for signing on DocuSign for target CEO and GitLab CEO (in that order). Add CLO, CFO, and CPO on Cc on the agreement.
+    1. Once all approvals have been obtained, the Corporate Development Champion will stage the term sheet for signing on DocuSign for target CEO and GitLab CEO (in that order). Add CLO, CFO, and CPO on Cc on the agreement.
         1. Approval tracking will be tracked on the term sheet approval issue mentioned earlier. Any changes to previously-approved terms need to be reviewed and approved once more by the following: Product champion, Engineering champion, CPO, CTO, CLO, CFO, CEO. The changes should be referenced on the term sheet approval tracking issue *before* seeking approvals.
 
 ### Confirmatory Due Diligence
 
-1. To kick-off the Due Diligence stage, the corporate development acquisition lead emails the target company CEO with the following clarifications and information requests:
+1. To kick-off the Due Diligence stage, the Corporate Development Deal Process Manager emails the target company CEO with the following clarifications and information requests:
     1. All employees and their profiles will be reviewed by the GitLab team
     1. The employees who will be invited for interviews will go through GitLab's standard interview process
     1. Key employees who were interviewed during the Early Diligence stage may go through further interview rounds as determined by the GitLab team to qualify for a role at GitLab
     1. All employees must identify an open vacancy at GitLab which they think best matches their professional profile. This will be shared in a spreadsheet gathered by the target's CEO.
-1. The acquisition lead will create an engagement debrief and lessons learned document and share it with the team for on-demand capturing of insights.
+1. The Corporate Development Deal Process Manager will create an engagement debrief and lessons learned document and share it with the team for on-demand capturing of insights.
 1. Document who is read-in on the project and work with GitLab Legal to circulate a Read-in Acknowledgement form to sign and return.
 1. Complete [Technical diligence](https://internal.gitlab.com/handbook/corporate-development/acquisition-process-technical-diligence/)
 1. Complete financial diligence
-1. Legal diligence - Once both the technical and the financial diligence have been completed and signed off by the Engineering champion and Finance acquisition team member, respectively, the acquisition lead will contact legal to start the legal diligence. Legal will tag the relevant owners for each of the diligence tasks in the (template diligence table (see Corp Dev shared drive - GitLab internal-only) in the main acquisition doc.
+1. Legal diligence - Once both the technical and the financial diligence have been completed and signed off by the Engineering champion and Finance acquisition team member, respectively, the Corporate Development Deal Process Manager will contact legal to start the legal diligence. Legal will tag the relevant owners for each of the diligence tasks in the (template diligence table (see Corp Dev shared drive - GitLab internal-only) in the main acquisition doc.
 1. The progress of the diligence will be synced on a regular stand-up call with the acquisition team
-1. The corporate development acquisition lead and the legal lead negotiate the definitive deal documentation with the target company CEO and legal team
+1. The Corporate Development Champion and the legal lead negotiate the definitive deal documentation with the target company CEO and legal team
 1. Final review and approval:
     1. Conclusive call - Final internal review call with the acquisition team to recap the acquisition as a whole, review the acquisition agreement and present a final recommendation. This meeting will also capture the **explicit approval** of the acquisition agreement from the CLO, CFO and CEO. Approvals from the call as well as additional required approvals will be tracked using the definitive agreement approval [issue template](https://gitlab.com/gitlab-com/corporate-development/issues/new?issuable_template=definitive_agreement_approval).
     1. BoD approval:
@@ -179,14 +179,14 @@ The process is comprised of five key stages:
         1. A board package will be shared with the BoD members before requesting their approval. It should include:
             1. Executive summary email:
                 1. Will be sent to the BoD members by the CEO
-                1. The acquisition lead will create a 1-2 page executive summary email message. It should include a high level coverage of the following topics:
+                1. The Corporate Development Champion and Deal Process Manager will create a 1-2 page executive summary email message. It should include a high level coverage of the following topics:
                     1. Deal details and rationale (including roadmap acceleration, projected revenue gain)
                     1. Expertise of team joining
                     1. Key terms for the APA and any additional costs
                     1. Diligence conducted: legal, tax, financial, technical, people
                     1. Known risks, indemnification conditions as well as representations and warranties
             1. Link to final version of APA
-1. The corporate development acquisition lead will coordinate the signing and closing of the deal
+1. The Corporate Development Champion will coordinate the signing and closing of the deal
 
 ### [Integration](/handbook/acquisitions/acquisition-process/integration/)
 
@@ -201,15 +201,15 @@ The integration process is outlined in our [acquisition integration page](/handb
     1. Set time for an **optional** live sync
     1. Solicit feedback on all related acquisition channels
     1. Once sync has completed, continue with the steps below.
-1. The corporate development acquisition lead will archive all slack channels associated with the acquisition.
-1. In accordance with the signed NDA, the GitLab corporate development acquisition lead, and all other deal participants in possession of preliminary and confirmatory deal diligence materials, will make best effort to remove the materials from GitLab's internal drives and repositories.
+1. The Corporate Development Deal Process Manager will archive all slack channels associated with the acquisition.
+1. In accordance with the signed NDA, the GitLab Corporate Development Champion and Deal Process Manager, and all other deal participants in possession of preliminary and confirmatory deal diligence materials, will make best effort to remove the materials from GitLab's internal drives and repositories.
 
 ## Acquisition Team
 
 The primary acquisition team is designed as a compact unit, and will consist of the following GitLab functional team members:
 
 1. Corporate Development Champion - VP of Corporate Development
-    1. Corp. Dev. Manager
+    1. Corporate Development Deal Process Manager - Corporate Development Manager
 1. Product Champion - [Product Section Leader](/handbook/product/product-leadership/#general-product-organizational-structure) (reporting to the Chief Product Officer)
    1. Product Manager
 1. Engineering Champion - Dir. Engineering
@@ -250,10 +250,10 @@ To ensure confidentiality during the acquisition process, we assign [code names]
 To maintain confidentiality, we follow the following guidelines:
 
 1. When creating a new acquisition slack channel:
-    1. Set the channel topic to: "This channel is confidential. Please confirm with acquisition lead `name here` before inviting people to the channel or related docs."
+    1. Set the channel topic to: "This channel is confidential. Please confirm with Corporate Development Champion or Deal Process Manager `name here` before inviting people to the channel or related docs."
     1. Set the channel description to: "Please review our [acquisition handbook and process](/handbook/acquisitions/acquisition-process/) to familiarize yourself with our approach to acquisitions. Please review the confidentiality section of the process and our guidelines".
 1. We strive to keep the number of people involved in an acquisition as small as possible to reduce legal exposure and maintain a low potential risk of deal and information disclosure. If more members are required to be brought into the acquisition for a discussion limited to a specific topic, and do not need to be involved with the wider engagement, we create dedicated, single-topic channel, and add the relevant parties to it.
-1. If you're part of an acquisition Slack channel, Google Doc, or other internal GitLab discussion and would like to invite another GitLab team member to one of those, please confirm with the acquisition lead before doing so.
+1. If you're part of an acquisition Slack channel, Google Doc, or other internal GitLab discussion and would like to invite another GitLab team member to one of those, please confirm with the Corporate Development Champion or Deal Process Manager before doing so.
 1. We collect all notes on an acquisition in the main acquisition doc shared on the topic of the acquisition's slack channel. If you must create a new document, make sure it is set to invite-only and add the relevant people manually. That document needs to be kept inside the acquisition G-Drive folder on the Corporate Development Shared Drive.
 1. Everyone involved in the project should use the code name in place of the actual company name in all communication about the deal until it is publicly announced.
 
