@@ -20,45 +20,45 @@ With that in mind, the process as defined here will begin with a partial assumpt
 
 ## Open a JTBD issue
 
-If your team wants to conduct in-depth Jobs to be Done research (going through the whole playbook), create an issue in the [UX Research Project](https://gitlab.com/gitlab-org/ux-research/-/issues) and use the **[discover-jtbd](https://gitlab.com/gitlab-org/ux-research/-/blob/master/.gitlab/issue_templates/discover-jtbd.md)** issue template. Fill out the issue as best as you can, then tag the UX Researcher for your stage (or whomever will be driving the research). If you need a DRI to drive JTBD research for your team, head over to the `#ux_research` Slack channel to see if there is anyone available to help. Once you have an issue and a DRI, you're ready to roll!
+If your team wants to conduct in-depth Jobs to be Done research (going through the whole playbook), create an issue in the [UX Research Project](https://gitlab.com/gitlab-org/ux-research/-/issues) and use the **[discover-jtbd](https://gitlab.com/gitlab-org/ux-research/-/blob/master/.gitlab/issue_templates/discover-jtbd.md)** issue template. Fill out the issue as best as you can, then tag the UX Researcher for your stage (or whoever will be driving the research). If you need a DRI to drive JTBD research for your team, head over to the `#ux_research` Slack channel to see if anyone is available to help. Once you have an issue and a DRI, you're ready to roll!
 
 # Workshop 1: Scope Definition
 
-## Start an assumptive JTBD Canvas to define your Domain, Job Performer, and Main Job
+## Step 1: Start an assumptive JTBD Canvas to define your Domain, Job Performer, and Main Job
 
-Gather your counterparts together in a sync workshop that should take about an hour of sync time to complete. At a minimum, this team should be comprised of the Product Design DRI and Product Manager. Engineering counterparts are a great addition to round out the perspectives and points of view and your Section's UX Researcher would be a great addition as well. You'll gather together on a Zoom call, focusing on the [FigJam JTBD Template](https://www.figma.com/file/Z4lsAOLH1ANN3pstQFYgSk/Jobs-to-be-done----Playbook-Template?type=whiteboard&node-id=0%3A1&t=oMR9VPNke7aIfCoU-1) that was created earlier.
+Gather your counterparts together in a sync workshop that should take about an hour of sync time to complete. At a minimum, this team should be comprised of the Product Design DRI and Product Manager. Engineering counterparts are a great addition to round out the perspectives and points of view, and your Section's UX Researcher would also be a great addition. You'll gather together on a Zoom call, focusing on the [FigJam JTBD Template](https://www.figma.com/file/Z4lsAOLH1ANN3pstQFYgSk/Jobs-to-be-done----Playbook-Template?type=whiteboard&node-id=0%3A1&t=oMR9VPNke7aIfCoU-1) that was created earlier.
 
 ### Exercise 1: Brainstorm potential domains [set timer for 10 minutes]:
 
-The first step in the JTBD playbook is to select the Domain area you're going to be working in. Sections, Stage Groups or Categories may be good starting point to determine which area you want to define a JTBD canvas for. In an open area of the FigJam begin by creating new sticky notes for each of the areas within your Group that you might want to develop a JTBD Canvas in. Consider: where do you want to innovate?
+The first step in the JTBD playbook is to select the Domain area in which you will be working. Sections, Stage Groups, or Categories may be a good starting point for determining which area you want to define a JTBD canvas for. In an open area of the FigJam begin by creating new sticky notes for each of the areas within your Group that you might want to develop a JTBD Canvas in. Consider: where do you want to innovate?
 
 #### Select a domain [set timer for 5 minutes]
 
-Looking at the stick notes,briefly discuss each, and select one. Because you are very familiar with your work area you should be able to hone in on a Domain rather quickly. Copy the Domain into the text area provided at the top of the JTBD Canvas. You can keep the unselected Domain areas in this open area in case you want to reference them later to explore additional JTBD Canvases for different Domain areas.
+Looking at the sticky notes, briefly discuss each, and select one. Because you are very familiar with your work area, you should be able to hone in on a Domain rather quickly. Copy the Domain into the text area provided at the top of the JTBD Canvas. You can keep the unselected Domain areas in this open area in case you want to reference them later to explore additional JTBD Canvases for different Domain areas.
 
 ### Exercise 2: Brainstorm Job Performers [set timer for 10 minutes]
 
-Now that you know what Domain area you want to work in, it's time to zoom in on the [Job Performer](/handbook/product/ux/jobs-to-be-done/#job-performer-who-do-you-want-to-innovate-for). Below the area where you were exploring Domains, consider: who are you innovating for? Who are the actors or stakeholders in our Domain/field? Get as many relevant Job Performers written out on individual sticky notes as possible.
+Now that you know what Domain area you want to work in, it's time to zoom in on the [Job Performer](/handbook/product/ux/jobs-to-be-done/#job-performer-who-do-you-want-to-innovate-for). Below the area where you were exploring Domains, consider; Who are you innovating for? Who are the actors or stakeholders in our Domain/field? Get as many relevant Job Performers written on individual sticky notes as possible.
 
 #### Select a Job Performer via Note & Vote [set timer for 5 minutes]
 
-To help you determine which Job Performer you want to focus on for this Job Canvas, bear in mind the following questons: Where is there a need in our market? Who are we passionate about serving? What’s relevant or core to our business strategy?
+To help you determine which Job Performer you want to focus on for this Job Canvas, consider the following questions: Where is there a need in our market? Who are we passionate about serving? What’s relevant or core to our business strategy?
 
 - Provide each workshopper with some "Target" stickers from FigJam's sticker set.
     - If < 3 participants: Each participant gets 2 stickers to vote with. You can vote on the same item.
     - If > 3 participants: Each participant gets 1 sticker to vote with.
 - Move the selected Job Performer to the Job Canvas’s Job Performer section. 
-- You can keep the unselected Job Performers in this open area in case you want to reference them later to explore additional JTBD Canvases for different Job Performers.
+- You can keep the unselected Job Performers in this open area if you want to reference them later to explore additional JTBD Canvases for different Job Performers.
 
 ### Exercise 3: Brainstorm Main Jobs [set timer for 15 minutes]
 
-Next up is to select the [Main Job](/handbook/product/ux/jobs-to-be-done/#main-job-where-do-you-want-to-innovate) you want to focus on for this JTBD Canvas. The Job Performer and Main Job are closely related and will end up being the focus for the rest of this canvas. 
+Next, select the [Main Job](/handbook/product/ux/jobs-to-be-done/#main-job-where-do-you-want-to-innovate) you want to focus on for this JTBD Canvas. The Job Performer and Main Job are closely related and will ultimately be the focus of the rest of this canvas. 
 
-Again in an open area of the FigJam, consider the following: What are all of the Jobs our selected Job Performer is trying to get done in our Domain/Field? List them all on individual sticky notes. Consider what the primary task or objective is that the Job Performer is trying to accomplish (get done) or an activity they’re trying to complete.
+Again, in an open area of the FigJam, consider the following: What are all of the Jobs our selected Job Performer is trying to get done in our Domain/Field? List them all on individual sticky notes. Consider what the primary task or objective is that the Job Performer is trying to accomplish (get done) or an activity they’re trying to complete.
 
 #### Select a Main Job via Note & Vote [set timer for 5 minutes]
 
-To help you determine which Main Job you want to focus on for this Job Performer’s Job Canvas, ask: What’s worth going after? What are we passionate about? Which can we best support? What’s relevant or core to our business/strategy? What is the primary task or objective that the JP is trying to accomplish (get done)?
+To help you determine which Main Job you want to focus on for this Job Performer’s Job Canvas, ask: What’s worth going after? What are we passionate about? Which can we best support? What’s relevant or core to our business/strategy? What is the primary task or objective that the Job Performer is trying to accomplish (get done)?
 
 - Provide each workshopper with some "Target" stickers from FigJam's sticker set.
     - If < 3 participants: Each participant gets 2 stickers to vote with. You can vote on the same item.
