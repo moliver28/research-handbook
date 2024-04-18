@@ -139,43 +139,6 @@ Finally, rewrite each potential outcome converting them into a properly formatte
 
 Note: Your Main Job can have between 50 - 100 Outcome Statements which will be validated through an Outcome Opportunity Score survey which can be done in parrallel with the rest of your JTBD Canvas work.
 
-### Outcome Opportunity Scores Survey
-
-Once you have Outcome Statements written, you can construct an Outcome Opportunity Score survey. It is recommended that you work with your Section's UX Researcher when constructing and delivering this survey.
-
-This survey asks two questions about each of your Outcome Statements: 
-
-1. How _important_ is this (outcome) to you?
-2. How well is this (outcome) currently being _satisfied_?
-
-It's important that your survey participants are reprensetitive of your Job Perfomer so you’ll want to be careful to screen out any participants who don’t perform the Main Job you’re researching. Try to get close to 50 qualified responses to ensure a reasonable amount of confidence in your scoring.
-
-There is a [template in Qualtrics](https://gitlab.eu.qualtrics.com/survey-builder/LS_2l5ektxWK1wFRuC/edit?ContextLibraryID=GR_6ziMa2ooJx4Y6SF) to help you get started. (Under Library->UX Research & Product->Templates->Opportunity Score Template).
-
-Note: Remember to recruit both GitLab and non-GitLab users, and be able to easily segment them for your analysis.
-
-At GitLab, we use a 10 point scale, labeled at each end as ‘very low’ (1) and ‘very high’ (10).
-
-Using the scores for importance and satisfaction, we can calculate an opportunity score:
-
-![JTBD Opportunity Score](/handbook/product/ux/jobs-to-be-done/JTBD_OpportunityScore.png)
-
-1. The importance score minus the satisfaction score is your ‘satisfaction gap’.
-2. Add the satisfaction gap to your original importance score to get the final opportunity score.
-
-[This spreadsheet template](https://docs.google.com/spreadsheets/d/109GZqTYPpOLpHLj-gwV_ldMFwIKa9MaaLPyLJ4kdoQs/edit?usp=sharing) offers a step by step guide to exporting data from a Qualtrics survey and generating a ranked list of outcome statements with opportunity scores.
-
-[Opportunity scores](https://medium.com/uxr-microsoft/what-is-the-opportunity-score-and-how-to-obtain-it-bb81fcbf79b7) run from 0-20. Generally, anything above a 10 is worth looking at closely, and anything over 15 is a critical opportunity that needs to be addressed as soon as possible. 
-
-If all the scores on your survey are less than 10, that’s great - but remember, any score above a zero indicates some room for improvement, so it’s still wise to look at your top scores. Conversely, if you have dozens of outcome statements above a 10, prioritize those with the highest scores. 
-
-| Opportunity Score | Severity | 
-| ----- | ----------- | 
-| 16-20 | Act immeditately - house is on fire! | 
-| 10-15 | Prioritize as soon as possible | 
-| 7-9  | Keep on eye on   | 
-| 6 or below | Probably not a priority right now | 
-
 ## Step 5: Synthesize Emotional and Social Aspects
 
 ### Emotional Aspects
@@ -183,7 +146,6 @@ If all the scores on your survey are less than 10, that’s great - but remember
 Now you will gather together all of the Emotional Aspect Statements from your interviews and then rewrite them into properly formatted Emotional Aspect Statements. Parse your notes looking for references to emotion-like statements that are referencing how the Job Performer _feels_ while doing the Main Job. Add a sticky for every potential emotion you find. Organize them to ensure there aren’t any repeated ideas, merging duplicates as you go. 
 
 Finally, rewrite each potential Emotion Aspect Statement converting them into properly formatted Emotion Statements. Check the [handbook section](/handbook/product/ux/jobs-to-be-done/#emotional-and-social-aspects-how-does-the-job-performer-feel-while-doing-the-job-how-do-they-want-to-be-perceived-while-doing-the-job) for more on how to construct an Emotional Aspect Statement.
-
 
 ### Social Aspects
 
@@ -236,14 +198,52 @@ To help you determine which Emotional Aspect statements are the most important a
 
 Repeat the same process you just performed for the Emotional Aspect Statements for the Social Aspect Statements. Move the top voted Social Aspect Statements to the appropriate space on the JTBD Canvas.
 
-
 ## Exercise 4: Select Job Differentiator Statements [set timer for 5 minutes]
 
 Repeat the same process you just performed for the Emotional and Social Aspect Statements for the Job Differentiator Statements. Move the top voted Job Differentiator Statements to the appropriate space on the JTBD Canvas.
 
 🎉🥳 Congratultations you have successuflly created a validated JTBD Canvas! 🥳🎉
 
-## Step 8: Generate Job Stories
+## Step 8: Outcome Opportunity Scores Survey
+
+Now that you have your JTBD Canvas filled in completely, and you have decided on the most important areas to focus on for each section but the Outcome Statements, you need to run an Outcome Opportunity Scores Survey to determine which of these are the most important to your Job Performer for this Main Job. 
+
+To do this you need to construct an Outcome Opportunity Score survey. It is recommended that you work with your Section's UX Researcher when constructing and delivering this survey.
+
+This survey asks two questions about each of your Outcome Statements: 
+
+1. How _important_ is this (outcome) to you?
+2. How well is this (outcome) currently being _satisfied_?
+
+It's important that your survey participants are reprensetitive of your Job Perfomer so you’ll want to be careful to screen out any participants who don’t perform the Main Job you’re researching. Try to get close to 50 qualified responses to ensure a reasonable amount of confidence in your scoring.
+
+There is a [template in Qualtrics](https://gitlab.eu.qualtrics.com/survey-builder/LS_2l5ektxWK1wFRuC/edit?ContextLibraryID=GR_6ziMa2ooJx4Y6SF) to help you get started. (Under Library->UX Research & Product->Templates->Opportunity Score Template).
+
+Note: Remember to recruit both GitLab and non-GitLab users, and be able to easily segment them for your analysis.
+
+At GitLab, we use a 10 point scale, labeled at each end as ‘very low’ (1) and ‘very high’ (10).
+
+Using the scores for importance and satisfaction, we can calculate an opportunity score:
+
+![JTBD Opportunity Score](/handbook/product/ux/jobs-to-be-done/JTBD_OpportunityScore.png)
+
+1. The importance score minus the satisfaction score is your ‘satisfaction gap’.
+2. Add the satisfaction gap to your original importance score to get the final opportunity score.
+
+[This spreadsheet template](https://docs.google.com/spreadsheets/d/109GZqTYPpOLpHLj-gwV_ldMFwIKa9MaaLPyLJ4kdoQs/edit?usp=sharing) offers a step by step guide to exporting data from a Qualtrics survey and generating a ranked list of outcome statements with opportunity scores.
+
+[Opportunity scores](https://medium.com/uxr-microsoft/what-is-the-opportunity-score-and-how-to-obtain-it-bb81fcbf79b7) run from 0-20. Generally, anything above a 10 is worth looking at closely, and anything over 15 is a critical opportunity that needs to be addressed as soon as possible. 
+
+If all the scores on your survey are less than 10, that’s great - but remember, any score above a zero indicates some room for improvement, so it’s still wise to look at your top scores. Conversely, if you have dozens of outcome statements above a 10, prioritize those with the highest scores. 
+
+| Opportunity Score | Severity | 
+| ----- | ----------- | 
+| 16-20 | Act immeditately - house is on fire! | 
+| 10-15 | Prioritize as soon as possible | 
+| 7-9  | Keep on eye on   | 
+| 6 or below | Probably not a priority right now | 
+
+## Step 9: Generate Job Stories
 
 Now that you have a completed JTBD Canvas you can use it to create Job Stories. Job Stories help synthesize and summarize all of the great informaiotn you just put together on your JTBD Canvas. You might end up creating between 3 - 5 Job Sotires to cover the data and insights you gathered and voted on as being the most important aspect of your JTBD Canvas. Bear in mind that good Job Stories describe the pain points that you’re going after and help you empathize with the Job Performer.
 
