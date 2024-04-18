@@ -277,6 +277,48 @@ In addition to the self-scheduling of feature development, the manager will from
 On top of the official issue-triaging process, when severity labels are assigned/changed, we aim to set the issue due date at the same time. If there are bugs with a severity label and without a deadline,
 everyone is encouraged to set the deadline based on the date of the last severity label update and [the SLA for the given severity](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity-slos).
 
+##### Best practices for managing bug issues
+
+Goals:
+  - Effectively track and label bug related issues.
+  - Ensure bug Due Dates are not missed due to a lack of DRIs on sub issues.
+  - Ensure the team is aware that help is needed in a specific area on a bug
+    that already has an overall DRI.
+
+Context:
+  - Single part bug issues
+    - Some bugs only require a single cohesive effort to resolve. For example an
+      isolated backend fix that requires no database or frontend changes. In
+      these cases, the DRI of the bug issue is the person doing the work, and
+      only one issue is needed.
+
+  - Multi-part bug issues
+    - In other cases, a bug issue may result in work across frontend, backend,
+      and database. This can result multiple engineers working separately as
+      DRIs of individual issues that all contributing to solving the bug.
+      Multiple issues are needed.
+
+Problem:
+  - Without a clear structure of issues for multi-part bugs, it's difficult for
+    the team to know how to help and how to plan. This difficulty can negatively
+    impact our say-do ratio.
+
+Best practices for managing multi-part bug issues:
+  - The original bug issue should be promoted to an epic.
+  - The original DRI becomes the overall bug epic DRI (note this on the epic)
+  - New sub issues representing each part of the work should be created on the
+    epic.
+  - The new issues should be noted as blocking the epic.
+  - Except for severity and priority, Labels should be copied over.
+  - Due dates should keep in mind the due date of the epic, which is based on
+    severity and priority.
+  - Deliverable should be applied in accordance with the deliverability of the
+    epic.
+  - DRI can use the Milestone Planning issue and/or reach out to relevant team
+    members to ask if there's availability within the Due Date. cc your
+    engineering manager so they can give a high level thumbs up/thumbs down
+    regarding the change in priority.
+
 #### Say-do ratio
 
 Our team keeps track of their commitment with `say-do` ratios, two metrics are important: **say-do** and **reprioritized say-do**
