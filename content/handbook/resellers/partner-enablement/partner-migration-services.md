@@ -20,7 +20,7 @@ _For the links in this section, login to our [GitLab Partner Portal](https://par
 
 GitLab Partners who are successful at performing customer-facing migrations often take this example path in client engagement:
 1. Scope/size the migration. How many users? How many code repositories? Will the group structure remain intact, or is the migration an opportunity to 'clean up unused projects' within GitLab? Would a [GitLab Partner Led Optimization Service](https://partners.gitlab.com/prm/English/s/assets?collectionId=55025&id=459892&renderMode=Collection) be a better first step?
-1. Understand the customer's business; what artifacts are needed to be migrated? Is an audit-compliance history of users, issues, merge requests important to the business? Is just migrating the git code repository sufficient?
+1. Understand the customer's business; what artifacts are needed to be migrated? Is an audit-compliance history of users, issues, merge requests important to the business? Or is migrating just the git code repository sufficient? What data is your customer sensitive to migrating?
 1. Is the import source of data healthy, or would a [Readiness Assessment](https://handbook.gitlab.com/handbook/customer-success/professional-services-engineering/engagement-mgmt/scoping-information/readiness/) help provide the health of the GitLab source? Are some git repositories not able to be cloned, or need to be cleaned up? Any large code repositories with a long-lived history?
 1. Are there other consultative considerations like access control, Single-Sign-On (SSO) that need to be configured as part of the migration and adoption towards GitLab or GitLab.com?
  
