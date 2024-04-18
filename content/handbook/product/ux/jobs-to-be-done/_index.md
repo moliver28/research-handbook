@@ -263,24 +263,24 @@ For any domain, you might end up with 3 to 5 Job Stories covering the data and i
 
 ### Qualities of a Job Story
 
-- **Evidence-based**: Job Stories are derived from data and Job Canvases, they aren’t created from off the cuff when you first hear about a new, potential, pain point from a customer.
-- **Specific about the pain point**: Job Stories aren’t vague, they are specific and precise in their narrative about the pain point they’re addressing.
+- **Evidence-based**: Job Stories are derived from data and Job Canvases; they aren’t created off the cuff when you first hear about a new potential pain point from a customer.
+- **Specific about the pain point**: Job Stories aren’t vague; they are specific in their narrative about the pain point they’re addressing.
 - **Empathy-building**: The first line of a Job story should contextualize the scenario to foster empathy.
-- **Aspirational**: Line 2 of a Job Story is the literal central element. It’s the customer imperative, the goal that drives the solution forward. Ambitious, but achievable.
+- **Aspirational**: Line 2 of a Job Story is the literal central element. It’s the customer imperative, the goal that drives the solution forward. Ambitious but achievable.
 - **Self-evident**: A good Job Story should be able to stand on its own, representing and summarizing a solidly researched Job Canvas.
 
 ### How to use Job Stories
 
 - **To generate HMW statements**: Use the Job Story as a springboard by turning them into How Might We (HMW) statements to guide explorations.
 - **To define a Design Sprint challenge**: Use the Job Story to articulate the focus or challenge statement of the Design Sprint.
-- **To create a testable hypothesis for an MVP**: Lean’s MVP model requires that a hypothesis statement be created that will be validated against the proposed solution. Here’s a framework that can be format:
+- **To create a testable hypothesis for an MVP**: Lean’s MVP model requires creating a hypothesis statement that will be validated against the proposed solution. Here’s a framework that can be formatted:
     - We believe that [job performers] 
     - Will achieve [desired outcome] 
     - While performing [job step] 
     - Using [proposed solution]. 
     - Success will be evidenced by [specific measure].
-- **Incorporate them into issues**: Add them into an issues description as a heuristic to measure the solution against and to aid in making design decisions.
-- **Usability testing success criteria**: Validate whether the solution being tested successfully achieves the Job Story.
+- **Incorporate them into issues**: Add them into the description of an issue as a heuristic to measure the solution against and to aid in making design decisions.
+- **Usability testing success criteria**: Validate whether the solution successfully achieves the Job Story.
 
 
 <!-- OLD CONTENT - from deleted pages -- may be re-incorporated, so keeping it here for now
