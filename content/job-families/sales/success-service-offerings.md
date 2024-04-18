@@ -48,6 +48,7 @@ The Senior Success Services Offerings Manager (Sr. SSOM) is responsible for driv
 The Sr. SSOM reports to the Manager/Senior Manager/Director, SSOM.
 
 ### Sr. SSOM Responsibilities:
+
 - Strategic Planning: Develop and execute a long-term regional strategy for Success Services offerings, considering market trends, customer needs, and global alignment.
 - Innovation and Development: Drive the ideation, design, and implementation of new and enhanced service offerings tailored to regional requirements.
 - Cross-functional Leadership: Provide guidance and mentorship to regional customer success, sales, and support teams to optimize service delivery and customer outcomes.
@@ -57,6 +58,7 @@ The Sr. SSOM reports to the Manager/Senior Manager/Director, SSOM.
 - Thought Leadership: Represent the company as a thought leader at regional industry events, conferences, and customer meetings.
 
 ### Sr. SSOM Requirements:
+
 - Bachelor's degree in Business, Technology, or a related field. Master's degree preferred.
 - Proven experience in customer success, service delivery, or account management within the region, with a track record of leadership and strategic planning.
 - Deep understanding of DevOps, software development lifecycle
@@ -87,6 +89,7 @@ The Manager, Success Services Offerings Managers (Manager, SSOM) is a leader res
 The Manager, SSOM reports to the Director, Success Services Offerings.
 
 ### Manager, SSOM Responsibilities:
+
 - Team Leadership: Provide leadership, guidance, and mentorship to a team of SSOMs and Sr. SSOMs, fostering a culture of innovation, collaboration, and customer-centricity.
 - Cross-functional Collaboration: Foster strong partnerships with regional leaders in sales, customer success, support, and product development to drive seamless execution and optimization of service offerings.
 - Executive Engagement: Engage with C-level customers and stakeholders to understand their strategic objectives, gather feedback, and ensure the highest level of customer satisfaction and loyalty.
@@ -94,6 +97,7 @@ The Manager, SSOM reports to the Director, Success Services Offerings.
 - Performance Tracking: Monitor and report on key performance indicators for regional service offerings, identifying trends and areas for improvement.
 
 ### Manager, SSOM Requirements:
+
 - Bachelor's degree in Business, Technology, or a related field. Master's degree or MBA highly preferred.
 - Proven track record of leadership and strategic management in customer success, service delivery, or account management within the region.
 - Expertise in DevOps, software development lifecycle, and related technologies.
@@ -124,6 +128,7 @@ The Sr. Manager SSOM is a strategic executive responsible for overseeing and dri
 The Sr. Manager SSOM reports to the Director, Success Services Offerings.
 
 ### Sr. Manager SSOM Responsibilities:
+
 - Regional Vision and Strategy: Develop and execute a comprehensive regional strategy for Success Services offerings, aligned with global objectives and responsive to regional market dynamics.
 - Team Leadership: Provide leadership, guidance, and mentorship to a team of SSOMs and Sr. SSOMs, fostering a culture of innovation, collaboration, and customer-centricity.
 - Portfolio Management: Oversee the regional service offering portfolio, making strategic decisions on investments, resource allocation, and product lifecycle management.
@@ -135,6 +140,7 @@ The Sr. Manager SSOM reports to the Director, Success Services Offerings.
 - Global Alignment: Collaborate with global leadership to share best practices, contribute to global strategies, and ensure regional alignment with company-wide objectives.
 
 ### Sr. Manager SSOM Requirements:
+
 - Bachelor's degree in Business, Technology, or a related field. Master's degree or MBA highly preferred.
 - Proven track record of leadership and strategic management in customer success, service delivery, or account management within the region.
 - Expertise in DevOps, software development lifecycle, and related technologies.
