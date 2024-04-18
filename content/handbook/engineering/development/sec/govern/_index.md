@@ -145,6 +145,13 @@ When a team-member takes some time off, it is important that their work is still
 
 Keep in mind that, while we strongly recommend following this process when taking some time off, it might not be relevant all the time. For example, if our time-off period is going to be short and/or our active MRs are minor enough, it might make sense to ignore these recommendations and follow up when we're back.
 
+## Govern staff meeting
+
+The Govern stage engineering department leaders meet every two weeks to discuss stage and group topics in the `Govern staff meeting`,
+and optionally every week in the `Expansion Development` staff  and `Secure/Govern senior leaders development` staff meetings.
+
+Meetings have an agenda and are async-first, where the aim is to resolve discussions async and leave time in the meeting to deep dive into topics that require more discussion.
+
 ## Weekly updates
 
 The Govern development teams provide [weekly status updates](https://gitlab.com/groups/gitlab-com/-/epics/2126) using an issue template and CI scheduled job.
@@ -162,13 +169,19 @@ We aim to foster collaboration and communication between engineering managers in
 
 Quarterly review update template can be found [here](https://gitlab.com/gitlab-com/govern-sub-department/-/blob/main/.gitlab/issue_templates/govern_stage_quarterly_review.md)).
 
-## Govern staff meeting
+## OKR planning
 
-The Govern stage engineering department leaders meet every two weeks to discuss stage and group topics in the `Govern staff meeting`,
-and optionally every week in the `Expansion Development` staff  and `Secure/Govern senior leaders development` staff meetings.
+Our OKRs are a mixture of top down, aligned with Company-wide, Product, or Engineering Division OKRs, and bottom up engineering-led initiatives driven by our team members in Govern. Any team member can propose an OKR for Govern by creating a [proposal issue](https://gitlab.com/gitlab-com/gitlab-OKRs/-/issues/?sort=created_date&state=opened&label_name%5B%5D=Sub-Department%3A%3AGovern&type%5B%5D=issue&search=Govern%20%28proposal%29&first_page_size=100) in our internal OKR project. The issue can be used to collaborate and discuss the proposal. When we are ready to commit, we can create or align to an existing Objective, and add specific key results to track through the quarter.
 
-Meetings have an agenda and are async-first, where the aim is to resolve discussions async and leave time in the meeting to deep dive into topics that require more discussion.
+- `Sub-Department::Govern` - for top-level sub-department Objectives.
+- `devops::govern` - for Objectives and key results for the stage, and stage groups
+- `group::` - for Objectives and key results for a specific group
 
+Each Objective and Key Result should have an assignee who is DRI for providing status updates throughout the quarter. Regular updates are preferred. At a minmum these should be updated
+- By end of day, the second friday of every month
+- Ay the end of the quarter 
+
+OKRs can be changed or closed during the quarter if they are completed, or as our goals change. This ensures we are focusing on areas that are revelant to our current and future priorities.
 
 ## Links and resources
 
