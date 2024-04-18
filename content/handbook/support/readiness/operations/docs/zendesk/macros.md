@@ -173,12 +173,12 @@ team.
 #### Zendesk Global
 
 - [Support managed content project](https://gitlab.com/gitlab-com/support/zendesk-global/macros)
-- [Sync repo project](https://gitlab.com/gitlab-support-readiness/zendesk-global/macros)
+- [Sync repo project](https://gitlab.com/gitlab-com/support/zendesk-global/macros)
 
 #### Zendesk US Government
 
 - [Support managed content project](https://gitlab.com/gitlab-com/support/zendesk-us-government/macros)
-- [Sync repo project](https://gitlab.com/gitlab-support-readiness/zendesk-us-government/macros)
+- [Sync repo project](https://gitlab.com/gitlab-com/support/zendesk-us-government/macros)
 
 ## Naming standards
 
