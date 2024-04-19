@@ -95,6 +95,10 @@ If your backport is a security fix and covered by the maintenance policy, please
 
 For anything outside of the maintenance policy, please follow [the exception process](/handbook/engineering/releases/backports/#what-if-my-backport-is-not-covered-by-the-maintenance-policy)
 
+### What should Product Managers consider when approving a Backport?
+
+Backports require multiple engineers to apply a fix through multiple versions. This process is time intensive and should only be pursued in cases when there is significant risk to customers or putting a strategic customer account at risk.
+
 ### Common Backporting Issues and Considerations
 
 
