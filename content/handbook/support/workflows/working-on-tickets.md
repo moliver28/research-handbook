@@ -9,7 +9,7 @@ description: How to find, select, and begin work on support tickets
 This page helps guide Support Engineers (SEs) to [find](#zendesk-views),
 [select](#selecting-new-tickets), and [work](#first-response-and-ongoing-communication)
 support tickets. For information about working on tickets successfully in the
-Support Global Groups environment, please read the[SE Responsibilities and Priorities](/handbook/support/support-global-groups/#se-responsibilities-and-priorities)
+Support Global Groups environment, please read the [SE Responsibilities and Priorities](/handbook/support/support-global-groups/#se-responsibilities-and-priorities)
 topic on the main Support Global Groups page.
 
 ## Zendesk views
@@ -70,7 +70,7 @@ flowchart TD
    - Aim to adhere to the support ticket SLAs:
       - Urgent FRT 4h, NRT 4h
       - High FRT 4h, NRT 4h
-      - Normal FRT84h, NRT 24h
+      - Normal FRT 24h, NRT 24h
       - Low FRT 8h, NRT 24h
    - During periods of reduced operational capacity, such as holidays or company
      events, the Support team will prioritize handling all incoming tickets
@@ -109,7 +109,7 @@ that can save time and enhance customer satisfaction.
 
 ## Handling tickets from different regions
 
-Where possible, respect the customers specified preferred region for ticket
+Where possible, respect the customer's specified preferred region for ticket
 handling. Exceptions should be made only when a ticket is close to breaching
 FRT SLA, has been escalated/STAR'ed requiring immediate attention regardless of
 region or if the customer has specifically requested it to be handled outside of
@@ -198,7 +198,7 @@ guidelines are accurate.
 #### What if I can't meet baseline?
 
 There will be times when you may be leading an escalation, working through
-challenging tickets or focus on non-ticket work and you cannot take on new
+challenging tickets, or focusing on non-ticket work, and you cannot take on new
 ticket assignment. This is okay! The key is to make sure you have coordinated
 with your SGG and Manager so they are aware of the risks to our team.
 
