@@ -21,7 +21,7 @@ GitLab provides various tools for tracking and managing projects. In this lab, y
 
 1. Select **Provision Training Environment**.
 
-> Note: The login details for accessing the environment are slightly different between self-paced training and intstuctor-led training. Please follow the instructions that suit your needs. 
+> Note: The login details for accessing the environment are slightly different between self-paced training and instructor-led training. Please follow the instructions that suit your needs. 
 
 ### Self-Paced Training:
 
