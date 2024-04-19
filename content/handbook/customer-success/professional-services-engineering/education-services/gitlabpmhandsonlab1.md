@@ -19,9 +19,11 @@ In this lab, you will access the training lab environment. This environment will
 
 1. Select **Provision Training Environment**.
 
-1. The system then prompts you for your **GitLab.com** username. Enter your GitLab.com user in the field provided. Select **Provision Training Environment**.
+> Note: The login details for accessing the environment are slightly different between self-paced training and instructor-lead training. Please follow the instructions that suit your needs. 
 
-1. On the confirmation page, locate the `Your GitLab Credentials` section. Read this section carefully, noting the credential information provided and the expiration date. Your access to this group and all of the projects that you create is ephemeral and will be deleted after the expiration date.
+### Self-Paced Training:
+
+1. The system then prompts you for your **GitLab.com** username. Enter your GitLab.com user (excluding the leading @ sign) in the field provided. Select **Provision Training Environment**.
 
 1. Select **My Group** at the bottom of the page.
 
@@ -29,7 +31,23 @@ In this lab, you will access the training lab environment. This environment will
 
 1. You will be redirected to a **My Test Group** group that provides a sandbox for you to perform training lab steps in.
 
-> This group has a GitLab Ultimate license to see all of the features while your personal username namespace requires a paid subscription or a free trial to access all of the features.
+    > This group has a GitLab Ultimate license to see all of the features while your personal username namespace requires a paid subscription or a free trial to access all of the features.
+
+1. From your **My Test Group** training subgroup, click the **New project** button.
+
+1. Continue to Task B.
+
+### Instructor-Lead Training:
+
+1. On the confirmation page, locate the `Your GitLab Credentials` section. Read this section carefully, noting the credential information provided and the expiration date. Your access to this group and all of the projects that you create is ephemeral and will be deleted after the expiration date.
+
+1. Click the **Download Credentials** button to download your temporary GitLab credentials.
+
+1. Click on **GitLab Dashboard** or the GitLab URL.
+
+1. Login with your temporary GitLab Credentials.
+  
+    > This group your temporary account has been created in has a GitLab Ultimate license to see all of the features available.
 
 ## Suggestions?
 
