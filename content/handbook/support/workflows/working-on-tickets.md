@@ -6,10 +6,10 @@ description: How to find, select, assign and begin work on support tickets
 
 ## Introduction
 
-The focus of this page is to be a guide for Support Engineers in
-[finding](#views-to-use),
-[selecting](#selecting-new-tickets), [assigning](#assigning-tickets) and
-[beginning work](#providing-a-first-response-to-a-ticket) on support tickets.
+This page helps guide Support Engineers (SEs) to
+[find](#views-to-use),
+[select](#selecting-new-tickets), and
+[work](#providing-a-first-response-to-a-ticket) support tickets.
 For information about working on tickets successfully in the Support Global
 Groups environment, please read the
 [SE Responsibilities and Priorities](/handbook/support/support-global-groups/#se-responsibilities-and-priorities)
