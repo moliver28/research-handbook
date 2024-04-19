@@ -25,7 +25,7 @@ This page is part of the Sales Development team's handbook [page](https://handbo
 
 **Yes:** It is worked by the BDR Assigned. <br>
 
-**No:** Check to see if there are leads related to the account that have activity using this report
+**No:** Check to see if there are leads related to the account that have activity using [this report](https://gitlab.my.salesforce.com/00O8X000008RfvU)
 When you modify this report based on company name and email domain, do you see any activity in the last 30 days? <br>
 **Yes:** It is worked by the BDR Assigned <br>
 **No:** It is worked by the SDR Team.
