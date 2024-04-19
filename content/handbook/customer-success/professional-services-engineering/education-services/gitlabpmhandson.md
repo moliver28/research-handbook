@@ -7,20 +7,18 @@ description: "This Hands-On Guide walks you through the lab exercises used in th
 
 ## Lab Guides
 
-> **We are transitioning to the latest version of this course.** If your group URL starts with `https://spt.gitlabtraining.cloud`, please use the v15 instructions.
-
-| Lab Guide | Version 15 | Version 16 |
-|-----------|------------|------------|
-| Lab 1: Access the GitLab training environment | [v15 Lab Guide](https://gitlab.com/gitlab-com/content-sites/handbook/-/tree/d14ee71aeac2054c72ce96e8b35ba2511f86a7ca/content/handbook/customer-success/professional-services-engineering/education-services/gitlabpmhandsonlab1.md) | [v16 Lab Guide](https://handbook.gitlab.com/handbook/customer-success/professional-services-engineering/education-services/gitlabpmhandsonlab1/) |
-| Lab 2: Create an organizational structure in GitLab | [v15 Lab Guide](https://gitlab.com/gitlab-com/content-sites/handbook/-/tree/d14ee71aeac2054c72ce96e8b35ba2511f86a7ca/content/handbook/customer-success/professional-services-engineering/education-services/gitlabpmhandsonlab2.md) | [v16 Lab Guide](https://handbook.gitlab.com/handbook/customer-success/professional-services-engineering/education-services/gitlabpmhandsonlab2/) |
-| Lab 3: Use GitLab planning tools | [v15 Lab Guide](https://gitlab.com/gitlab-com/content-sites/handbook/-/tree/d14ee71aeac2054c72ce96e8b35ba2511f86a7ca/content/handbook/customer-success/professional-services-engineering/education-services/gitlabpmhandsonlab3.md) | [v16 Lab Guide](https://handbook.gitlab.com/handbook/customer-success/professional-services-engineering/education-services/gitlabpmhandsonlab3/) |
-| Lab 4: Create issues | [v15 Lab Guide](https://gitlab.com/gitlab-com/content-sites/handbook/-/tree/d14ee71aeac2054c72ce96e8b35ba2511f86a7ca/content/handbook/customer-success/professional-services-engineering/education-services/gitlabpmhandsonlab4.md) | [v16 Lab Guide](https://handbook.gitlab.com/handbook/customer-success/professional-services-engineering/education-services/gitlabpmhandsonlab4/) |
-| Lab 5: Organize and manage issues | [v15 Lab Guide](https://gitlab.com/gitlab-com/content-sites/handbook/-/tree/d14ee71aeac2054c72ce96e8b35ba2511f86a7ca/content/handbook/customer-success/professional-services-engineering/education-services/gitlabpmhandsonlab5.md) | [v16 Lab Guide](https://handbook.gitlab.com/handbook/customer-success/professional-services-engineering/education-services/gitlabpmhandsonlab5/) |
-| Lab 6: Use a merge request to review and merge code | [v15 Lab Guide](https://gitlab.com/gitlab-com/content-sites/handbook/-/tree/d14ee71aeac2054c72ce96e8b35ba2511f86a7ca/content/handbook/customer-success/professional-services-engineering/education-services/gitlabpmhandsonlab6.md) | [v16 Lab Guide](https://handbook.gitlab.com/handbook/customer-success/professional-services-engineering/education-services/gitlabpmhandsonlab6/) |
-| Lab 7: Create and customize issue boards | [v15 Lab Guide](https://gitlab.com/gitlab-com/content-sites/handbook/-/tree/d14ee71aeac2054c72ce96e8b35ba2511f86a7ca/content/handbook/customer-success/professional-services-engineering/education-services/gitlabpmhandsonlab7.md) | [v16 Lab Guide](https://handbook.gitlab.com/handbook/customer-success/professional-services-engineering/education-services/gitlabpmhandsonlab7/) |
-| Lab 8: Create and manage a Kanban board| [v15 Lab Guide](https://gitlab.com/gitlab-com/content-sites/handbook/-/tree/d14ee71aeac2054c72ce96e8b35ba2511f86a7ca/content/handbook/customer-success/professional-services-engineering/education-services/gitlabpmhandsonlab8.md) | [v16 Lab Guide](https://handbook.gitlab.com/handbook/customer-success/professional-services-engineering/education-services/gitlabpmhandsonlab8/) |
-| Lab 9: Create and manage a Scrum board | [v15 Lab Guide](https://gitlab.com/gitlab-com/content-sites/handbook/-/tree/d14ee71aeac2054c72ce96e8b35ba2511f86a7ca/content/handbook/customer-success/professional-services-engineering/education-services/gitlabpmhandsonlab9.md) | [v16 Lab Guide](https://handbook.gitlab.com/handbook/customer-success/professional-services-engineering/education-services/gitlabpmhandsonlab9/) |
-| Lab 10: Create and manage a Waterfall board | [v15 Lab Guide](https://gitlab.com/gitlab-com/content-sites/handbook/-/tree/d14ee71aeac2054c72ce96e8b35ba2511f86a7ca/content/handbook/customer-success/professional-services-engineering/education-services/gitlabpmhandsonlab10.md) | [v16 Lab Guide](https://handbook.gitlab.com/handbook/customer-success/professional-services-engineering/education-services/gitlabpmhandsonlab10/) |
+| Lab Name | Lab Link |
+|-----------|------------|
+| Access the GitLab training environment | [Lab 1 Link](https://handbook.gitlab.com/handbook/customer-success/professional-services-engineering/education-services/gitlabpmhandsonlab1/) |
+| Create an organizational structure in GitLab | [Lab 2 Link](https://handbook.gitlab.com/handbook/customer-success/professional-services-engineering/education-services/gitlabpmhandsonlab2/) |
+| Use GitLab planning tools | [Lab 3 Link](https://handbook.gitlab.com/handbook/customer-success/professional-services-engineering/education-services/gitlabpmhandsonlab3/) |
+| Create issues |  [Lab 4 Link](https://handbook.gitlab.com/handbook/customer-success/professional-services-engineering/education-services/gitlabpmhandsonlab4/) |
+|  Organize and manage issues | [Lab 5 Link](https://handbook.gitlab.com/handbook/customer-success/professional-services-engineering/education-services/gitlabpmhandsonlab5/) |
+| Use a merge request to review and merge code | [Lab 6 Link](https://handbook.gitlab.com/handbook/customer-success/professional-services-engineering/education-services/gitlabpmhandsonlab6/) |
+| Create and customize issue boards |  [Lab 7 Link](https://handbook.gitlab.com/handbook/customer-success/professional-services-engineering/education-services/gitlabpmhandsonlab7/) |
+| Create and manage a Kanban board | [Lab 8 Link](https://handbook.gitlab.com/handbook/customer-success/professional-services-engineering/education-services/gitlabpmhandsonlab8/) |
+| Create and manage a Scrum board |  [Lab 9 Link](https://handbook.gitlab.com/handbook/customer-success/professional-services-engineering/education-services/gitlabpmhandsonlab9/) |
+|  Create and manage a Waterfall board | [Lab 10 Link](https://handbook.gitlab.com/handbook/customer-success/professional-services-engineering/education-services/gitlabpmhandsonlab10/) |
 
 ## Quick links
 
