@@ -1,16 +1,6 @@
 ---
-
 title: "Core Team"
 ---
-
-
-
-
-
-
-
-
-
 
 ## Becoming a Core Team member
 
@@ -74,7 +64,7 @@ Core Team members are granted [access to the GitLab team's Slack instance](/hand
 A list of the up-to-date channels the Core should/have access to can be found in the [Core Team and Slack](https://docs.google.com/spreadsheets/d/1kohQBbvk2JSl3DXrmF5TDsWVoAMi_yujFWzzAP6vq2M/edit#gid=0) Google Sheets and in the list below:
 
 <style>
-.display-inline-block {
+details summary * {
   display: inline-block;
 }
 </style>
@@ -84,7 +74,6 @@ A list of the up-to-date channels the Core should/have access to can be found in
 <summary>
 
 #### Slack channels Core Team can access
-{: .display-inline-block}
 
 </summary>
 
@@ -109,6 +98,7 @@ A list of the up-to-date channels the Core should/have access to can be found in
 - frontend
 - frontend_maintainers
 - frontend_pairs
+- g_engineering_productivity
 - g_observability
 - g_pipeline-security
 - g_project-management
@@ -151,7 +141,6 @@ A list of the up-to-date channels the Core should/have access to can be found in
 <summary>
 
 #### Slack channels Core Team cannot access
-{: .display-inline-block}
 
 </summary>
 
