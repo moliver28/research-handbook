@@ -11,25 +11,25 @@ Currently, GitLab provides the below additional benefits, in addition to mandato
 
 ### Pension
 
-All Israel Team members are enrolled in the Pension Arrangement. In general the Pension Plan contributions are outlined below, however please refer to your employment agreement for specific details. 
+All Israel Team members are enrolled in the Pension Arrangement. In general the Pension Plan contributions are outlined below, however please refer to your employment agreement for specific details.
 
-- Team Members contribute 6% through payroll deductions. Team Members have the option to increase their payroll deductions if they choose, up to 7% max. 
+- Team Members contribute 6% through payroll deductions. Team Members have the option to increase their payroll deductions if they choose, up to 7% max.
 - Gitlab contributes up to 6.5% (includes disability) and 8.33% (severance pay).There are special cases where this may vary, please refer to your employee contract for specfics.
 - You can elect and personalize your plan via Shaldan or your private insurance agency.
-- Employer contributions are based on your eligible earnings, the definition of eligible earning is Base salary and overtime. 
+- Employer contributions are based on your eligible earnings, the definition of eligible earning is Base salary and overtime.
 
-#### Enrollment & Administration of the Pension Plan.
+#### Enrollment & Administration of the Pension Plan
  
 During onboarding Total Rewards team will connect team members with our broker, Shaldan, to set up their pension arrangement. Shaldan will work with the Payroll accountant who will deduct the employee contributions and fund the pensions appropriately.
 
-Shaldan is the operating agent who is responsible for ensuring funds are received by the pension accounts. 
+Shaldan is the operating agent who is responsible for ensuring funds are received by the pension accounts.
  
-When team members leave GitLab, they will need to connect with Shaldan to assist payroll in generating a form that will contain the amount of Severance payto fill out form 161. 
+When team members leave GitLab, they will need to connect with Shaldan to assist payroll in generating a form that will contain the amount of Severance payto fill out form 161.
 
 
 ### Study Fund
 
-A Study Fund (Keren Hishtalmut) is a savings instrument in Israel with special tax benefits. Team Members can use the fund to save for education expenses, and other financial goals beyond education. 
+A Study Fund (Keren Hishtalmut) is a savings instrument in Israel with special tax benefits. Team Members can use the fund to save for education expenses, and other financial goals beyond education.
 
 Team Member contribution to the study fund is 2.5% of base salary + overtime, which is deducted on a monthly basis. GitLab contributes 7.5% of base salary + overtime to the study fund.
 
@@ -38,20 +38,20 @@ Team Member contribution to the study fund is 2.5% of base salary + overtime, wh
 
 Israel Team Members are granted a meal allowance of up to NIS 900 per month. Vouchers are managed through Cibus. Team members will receive a debit card to use the benefit.
 
-The People-Connect Team will assist Payroll in the administration of this benefit. 
+The People-Connect Team will assist Payroll in the administration of this benefit.
 
 ### Accrued Recuperation
 
-Accrued Recuperation is an Israel entitlement meant to help fund expenses that encourage recuperation and recovery. Gitlab will pay the Accrued Recuperation payment in July, in accordance with applicable Israel law. The pay is subject to completion of one year of employment. 
+Accrued Recuperation is an Israel entitlement meant to help fund expenses that encourage recuperation and recovery. Gitlab will pay the Accrued Recuperation payment in July, in accordance with applicable Israel law. The pay is subject to completion of one year of employment.
 
 ### Gifts
 
-As customary in Israel, GitLab offers monetary gifts to team members during major holidays (Passover and Rosh Hashannah) and during major life events, such as birth of a child, or marriage. These gifts will be provided via gift card and reported as taxabile income. 
+As customary in Israel, GitLab offers monetary gifts to team members during major holidays (Passover and Rosh Hashannah) and during major life events, such as birth of a child, or marriage. These gifts will be provided via gift card and reported as taxabile income.
 
-The People-Connect Team will administer this benefit. 
+The People-Connect Team will administer this benefit.
 
 
-### Medical 
+### Medical
 
 GitLab does not plan to offer Private Health Insurance at this time because all the Israel team members will be covered by a statutory benefit through Kupat Holim. This health insurance scheme covers all the team members and their family members.
 
