@@ -9,7 +9,7 @@ description: How to find, select, and begin work on support tickets
 This page helps guide Support Engineers (SEs) to
 [find](#zendesk-views),
 [select](#selecting-new-tickets), and
-[work](#First-response-and-ongoing-communication) support tickets.
+[work](#first-response-and-ongoing-communication) support tickets.
 For information about working on tickets successfully in the Support Global
 Groups environment, please read the
 [SE Responsibilities and Priorities](/handbook/support/support-global-groups/#se-responsibilities-and-priorities)
