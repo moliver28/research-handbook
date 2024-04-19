@@ -214,7 +214,7 @@ To complete this mapping, product priority-based epics should be created in [git
 /label ~"type::feature"
 ```
 
-Timeboxed by the duration of this meeting, the team will attempt to create as many child epics and issues for each of these current release milestone product epics as placeholders for eventual refinement. This is a great time for the team to discuss high-level archtectural directions, high-level implementation plans, and high-level needs for accomplishing this priorities throughout the next month. All issues created should receive the following milestone and labels:
+Timeboxed by the duration of this meeting, the team will attempt to create as many child epics and issues for each of these current release milestone product epics as placeholders for eventual refinement. This is a great time for the team to discuss high-level architectural directions, implementation plans, and needs for accomplishing these priorities throughout the next month. All issues created should receive the following milestone and labels:
 
 ```
 /milestone {from mapping}
