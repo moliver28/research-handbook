@@ -7,9 +7,9 @@ description: How to find, select, and begin work on support tickets
 ## Introduction
 
 This page helps guide Support Engineers (SEs) to
-[find](#views-to-use),
+[find](#zendesk-views),
 [select](#selecting-new-tickets), and
-[work](#providing-a-first-response-to-a-ticket) support tickets.
+[work](#First-response-and-ongoing-communication) support tickets.
 For information about working on tickets successfully in the Support Global
 Groups environment, please read the
 [SE Responsibilities and Priorities](/handbook/support/support-global-groups/#se-responsibilities-and-priorities)
@@ -25,7 +25,7 @@ The default views in Zendesk for Support Engineers (SEs).
 | SGG: [group name] | An alphabetical list of group views. Each view shows all tickets in an SGG that are not `Pending`, `Solved`, or `Closed`, sorted by ticket weight. |
 | Assigned Support Engineer Tickets | Tickets from organizations that have an Assigned Support Engineer (ASE). |
 | L&R | Licensing & Renewals tickets |
-| All FRT and Emergencies | `New` tickets in the FRT stage. For use with [reduced capacity](#reduced-capacity) periods, or as needed. |
+| All FRT and Emergencies | `New` tickets in the FRT stage. To be used in periods of reduced capacity, or as needed. |
 | Global FRT's | Visible only to APAC, this functions similarly to the All FRT and Emergencies view and is frequently used by APAC to flex across SGGs to ensure adequate coverage |
 
 
@@ -116,8 +116,7 @@ Engage a CSM or AM for reasons such as discussing architecture, professional ser
 
 ### Helping with a ticket that has an Assigned Support Engineer
 
-Some customers have an Assigned Support Engineer (ASE) that will own their tickets. This will be apparent from the org note in the ticket. For such customers, see
-[the ASE workflow](assigned-support-engineer/working-on-ase-tickets.html).
+Some customers have an Assigned Support Engineer (ASE) that will own their tickets. This will be apparent from the org note in the ticket. For such customers, see [the ASE workflow](assigned-support-engineer/working-on-ase-tickets.html).
 
 ## FAQ
 
