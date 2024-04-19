@@ -67,11 +67,11 @@ During an internship at GitLab:
 
 ### You've got the technical acumen
 
-- you have knowledge of DevOps methodologies and you appreciate the value technologies like Kubernetes bring to the software deployment and development process.
-- you’re able to communicate complex technical topics to customers and coworkers of varying technical skill levels.
-- you have Ruby on Rails knowledge or you're proficient in working with another MVC framework (Django, Laravel or others) and will be able to pick up Rails quickly.
-- you’re experienced with Git and CI/CD.
-- you have some Linux systems administration knowledge.
+- you have a high level understanding of how software is built and delivered using DevOps
+- you’re a strong communicator
+- you have some experience programming
+- you're familiar with the concepts of source control
+- you have some experience using Linux
 
 ### You'll be able to thrive at GitLab
 
