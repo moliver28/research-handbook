@@ -114,6 +114,37 @@ func TestRandomGitlab(t *testing.T) {
 
 1. Select **Go to Project** to return to your project.
 
+## Task C. Run tests in a CI/CD pipeline
+
+1. Navigate to **Build > Pipeline editor**.
+
+1. In the `stages` section, add a new stage called `test`.
+
+1. Under the `main app` job create a new job called `test` 
+
+1. Add the `go test` command to run the tests. Your `.gitlab-ci.yml` file will look like the following: 
+
+```yml
+stages:
+  - build
+  - test
+
+default:
+  image: golang:latest
+
+build app:
+  stage: build
+  script: 
+    - go get github.com/common-nighthawk/go-figure
+    - go run main.go
+
+test:
+  stage: test
+  script:
+    - go get github.com/common-nighthawk/go-figure
+    - go test ./...
+```
+
 ## Lab Guide Complete
 
 You have completed this lab exercise. You can view the other [lab guides for this course](/handbook/customer-success/professional-services-engineering/education-services/devsecopswithduo).
