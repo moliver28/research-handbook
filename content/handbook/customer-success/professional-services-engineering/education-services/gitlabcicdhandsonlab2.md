@@ -6,8 +6,6 @@ description: "This Hands-On Guide walks you through the lab exercises in the Git
 
 > Estimate time to complete: 15 - 20 minutes
 
-> **We are transitioning to the latest version of this course.**  If your group URL starts with `https://spt.gitlabtraining.cloud`, please use the [Version 15.x instructions](https://gitlab.com/gitlab-com/content-sites/handbook/-/blob/d14ee71aeac2054c72ce96e8b35ba2511f86a7ca/content/handbook/customer-success/professional-services-engineering/education-services/gitlabcicdhandsonlab2.md).
-
 
 ## Objectives
 
@@ -15,7 +13,7 @@ In this lab, you'll enabled CI/CD for a GitLab project. After creating your firs
 
 > Note: Parts **D** through **F** in this exercise require admin rights to your local machine. If you are unable to install GitLab Runner locally, you may skip parts D through F and use the training environment's shared runners instead.
 
-### Task A. Log into GitLab and create a project
+## Task A. Access your Lab Environment
 
 1. Navigate to [**https://gitlabdemo.com/invite**](https://gitlabdemo.com/invite) in a web browser.
 
@@ -23,17 +21,51 @@ In this lab, you'll enabled CI/CD for a GitLab project. After creating your firs
 
 1. Select **Provision Training Environment**.
 
-1. The system then prompts you for your **GitLab.com** username. Enter your GitLab.com user in the field provided. Click **Provision Training Environment**.
+    > Note: The login details for accessing the environment are slightly different between self-paced training and instructor-led training. Please follow the instructions that suit your needs. 
 
-1. On the confirmation page, locate the `Your GitLab Credentials` section. Read this section carefully, noting the credential information provided and the expiration date. Your access to this group and all of the projects that you create is ephemeral and will be deleted after the expiration date.
+### Self-Paced Training:
+
+1. For self-paced courses, you will need your **GitLab.com** username. To find your username, navigate to [Gitlab](https://gitlab.com).
+
+1. In the left sidebar, select your profile image.
+
+1. In the resulting dropdown, you will see a value starting with `@`. This is your GitLab username.
+
+1. After inputting your invitation code, the portal prompts you for your **GitLab.com** username. Enter your GitLab.com user (excluding the leading `@` sign) in the field provided. 
+
+1. Select **Provision Training Environment**.
 
 1. Select **My Group** at the bottom of the page.
 
-1. Sign in with your existing GitLab.com credentials.
+1. Sign in with your GitLab.com credentials.
 
 1. You will be redirected to a **My Test Group** group that provides a sandbox for you to perform training lab steps in.
-    
-    > Note: This group has a GitLab Ultimate license to see all of the features while your personal username namespace requires a paid subscription or a free trial to access all of the features.
+
+    > This group has a GitLab Ultimate license to see all of the features while your personal username namespace requires a paid subscription or a free trial to access all of the features.
+
+    > If you receive a 404 error when accessing your group, it is likely due to the username input during the lab provisioning. Double check your GitLab username to make sure it is entered correctly.
+
+1. From your **My Test Group** training subgroup, click the **New project** button.
+
+1. Continue to Task B.
+
+### Instructor-Lead Training:
+
+1. On the confirmation page, locate the `Your GitLab Credentials` section. Read this section carefully, noting the credential information provided and the expiration date. Your access to this group and all of the projects that you create is ephemeral and will be deleted after the expiration date.
+
+1. Click the **Download Credentials** button to download your temporary GitLab credentials.
+
+1. Click on **GitLab Dashboard** or the GitLab URL.
+
+1. Login with your temporary GitLab Credentials.
+  
+    > This group your temporary account has been created in has a GitLab Ultimate license to see all of the features available.
+
+1. Click on the '**Create a project tile**.
+
+    > Note: From this point forward, both the self-paced training and the instructor-lead training can follow the same instructions.
+
+# Task B: Create a Project
 
 1. From the **My Test Group** training subgroup, click the **New project** button.
 
@@ -55,7 +87,7 @@ In this lab, you'll enabled CI/CD for a GitLab project. After creating your firs
 
 1. Click the **Create project** button.
 
-### Task B. Add a `.gitlab-ci.yml` File 
+### Task C. Add a `.gitlab-ci.yml` File 
 
 > To use GitLab CI/CD, you start with a `.gitlab-ci.yml` file at the root of your project. The `.gitlab-ci.yml` file contains the configurations for your CI/CD pipeline. In this section, you will create a simple `gitlab-ci.yml` file.
 
@@ -104,7 +136,7 @@ In this lab, you'll enabled CI/CD for a GitLab project. After creating your firs
 
 This file defines two stages: `build` and `test`. The `build1` job executes during the `build` stage, running all of the commands in `script`. The `test1` job executes during the `test` stage, running all of the commands in `script`.
 
-### Task C. View a Pipeline’s Status, Stages, Jobs, and GitLab Runner
+### Task D. View a Pipeline’s Status, Stages, Jobs, and GitLab Runner
 
 > When you commit your `.gitlab-ci.yml` file, a pipeline is created. A pipeline comprises of jobs and stages. In the previous section, you defined two stages: `build` and `test`. Each of these stages contained jobs, which were defined in `script`. In this section, you will view the pipeline created from your `.gitlab-ci.yml` file.
 
@@ -118,7 +150,7 @@ This file defines two stages: `build` and `test`. The `build1` job executes duri
 
     > Hint: it’s listed near the top of each job’s output.
 
-### Task D. Prepare to Install GitLab Runner Locally
+### Task E. Prepare to Install GitLab Runner Locally
 
 > Jobs are executed by `runners`. If your project is hosted on `GitLab.com`, various SaaS runners are provided to build, test, and deploy your application on different environments. In some cases, you may want to host your own runners. Sections D, E, and F will outline the process of installing and registering a runner on your GitLab instance.
 
@@ -145,7 +177,7 @@ This file defines two stages: `build` and `test`. The `build1` job executes duri
 
 1. If the command gives an output like: `gitlab-runner: Service is running`, then you already have a runner installed on your system. If a runner is already installed on your system, skip to Part F below. If the command throws an error, continue with the next section.
 
-### Task E. Install the GitLab Runner Binary on your Computer
+### Task F. Install the GitLab Runner Binary on your Computer
 
 > This section outlines the steps required to install a GitLab runner on your computer. Follow only the instructions that match the operating system you’re using.
 
@@ -210,7 +242,7 @@ If you see `Service is running` in the output, the gitlab-runner service is work
     
 If you see `Service is running` in the output, the gitlab-runner service is working as expected.
 
-### Task F. Register a Specific Runner Dedicated to your Project
+### Task G. Register a Specific Runner Dedicated to your Project
 
 > At this point, you have installed a runner on your system. To allow GitLab to use this runner for CI/CD jobs, you need to register the runner in the UI.
 
