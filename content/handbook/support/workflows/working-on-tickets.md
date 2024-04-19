@@ -19,7 +19,7 @@ The default views in Zendesk for Support Engineers (SEs).
 | Name | Purpose |
 |------|---------|
 | [My Assigned Tickets](https://gitlab.zendesk.com/agent/filters/360062369834) | Tickets assigned to you that are not `Solved` or `Closed`. |
-| SGG: [group name] | An alphabetical list of group views. Each view shows all tickets in an SGG that are not `Pending`, `Solved`, or `Closed`, sorted by ticket weight. |
+| SGG: _group name_ | An alphabetical list of group views. Each view shows all tickets in an SGG that are not `Pending`, `Solved`, or `Closed`, sorted by ticket weight. |
 | Assigned Support Engineer Tickets | Tickets from organizations that have an Assigned Support Engineer (ASE). |
 | L&R | Licensing & Renewals tickets |
 | All FRT and Emergencies | `New` tickets in the FRT stage. To be used in periods of reduced capacity, or as needed. |
