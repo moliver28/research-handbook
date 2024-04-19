@@ -3,6 +3,8 @@ title: Navigation inventory
 summary: A complete inventory of the GitLab product navigation
 ---
 
+<!--more-->
+
 ## Product contexts
 
 {{% navigation-inventory %}}
