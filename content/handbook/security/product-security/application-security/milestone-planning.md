@@ -22,7 +22,7 @@ This issue is the single source of truth for all planning related discussions an
 
 ## Milestone Planning Process
 
-1. On the first of the month, an issue will be created using [the Milestone Planning issue template](https://gitlab.com/gitlab-com/gl-security/product-security/appsec/appsec-team/-/issues/new?issuable_template=milestone_planning)
+1. On the first of the month, an Application Security manager will create an issue from [the Milestone Planning issue template](https://gitlab.com/gitlab-com/gl-security/product-security/appsec/appsec-team/-/issues/new?issuable_template=milestone_planning)
 1. An Application Security manager will be responsible for completing the checklist items in the Planning Checklist section of the Milestone Planning issue
 1. Application Security team members will add any work being carried over from the previous Milestone into the Milestone Work table
 1. The Application Security team will add potential work items to the Parking Lot section, with a brief explanation of why it would be good to include in the Milestone
