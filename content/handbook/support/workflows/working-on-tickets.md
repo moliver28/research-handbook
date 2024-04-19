@@ -1,5 +1,5 @@
 ---
-title: Working on Tickets
+title: Working on tickets
 category: Handling tickets
 description: How to find, select, and begin work on support tickets
 ---
