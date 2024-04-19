@@ -77,7 +77,7 @@ By following these steps, you ensure a structured approach to ticket handling th
    - Set the Zendesk Form Field `Handover Status` to `Need Handover`.
    - CC yourself on the ticket and save the ticket to the `Open State`
 
-#### Using the Cross Region Handover Form
+#### Using the cross region handover form
 
 The Slack Handover Form is designated for tickets with high weight values, streamlining the process for urgent transfers and allowing Support Engineers to manage lower-priority tickets autonomously. To ensure a smooth handover, follow these steps:
 
