@@ -170,7 +170,7 @@ The on-call spreadsheet(internal only) can be found by searching [Google Drive f
 
 #### Eligibility
 
-All backend and fullstack engineers within Core Development, Expansion Development, or Enablement who have been with the company for at least 3 months, with the exception of team members in:
+All backend and fullstack engineers within Core Development, Expansion Development, or Core Platform who have been with the company for at least 3 months, with the exception of team members in:
 - ModelOps: AI Model Validation
 - Secure: Composition Analysis
 - Distribution: Build
