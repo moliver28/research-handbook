@@ -75,7 +75,6 @@ You will get a response similar to this:
 package main
 
 import (
-    "fmt"
     "github.com/common-nighthawk/go-figure"
 )
 
@@ -108,6 +107,32 @@ func main() {
 1. Select **Save changes**.
 
 1. Note that at the bottom of the MR description, there is now an outline of the changes included in the MR.
+
+## Task F. Root Cause Analysis
+
+> Uh-oh! You may have noticed that our pipeline failed.
+
+1. From the MR, click on the most recent pipeline run that failed. 
+
+1. Click on the job that failed.
+
+1. At the top of the output of the job click the button that says **Root cause analysis**.
+
+1. This will generate a explaination on why the job failed an example fix. It will say something along the lines of a missing module. Try to implement the suggested fix in your `.gitlab-ci.yml` file by adding an additional `go` command in the `build app` job. Your configuration file should look like the file below: 
+
+```yml
+stages:
+  - build
+
+default:
+  image: golang:latest
+
+build app:
+  stage: build
+  script: 
+    - go get github.com/common-nighthawk/go-figure
+    - go run main.go
+```
 
 ## Lab Guide Complete
 
