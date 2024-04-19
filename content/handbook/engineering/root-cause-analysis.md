@@ -2,13 +2,13 @@
 title: Root Cause Analysis
 ---
 
-At GitLab [transparency](/handbook/values/#transparency) is one of our core values, as it helps create an open and honest working environment and service, which it turn accelerates growth and innovation. We treat a root cause analysis (RCA) as an opportunity to be transparent amongst our organization and community by investigating what went well and what didn't after working on a project, incident, or issue. This page defines an RCA, the benefits of completing them, and how to complete a successful RCA here at GitLab.
+At GitLab [transparency](/handbook/values/#transparency) is one of our core values, as it helps create an open and honest working environment and service, which in turn accelerates growth and innovation. We treat a root cause analysis (RCA) as an opportunity to be transparent amongst our organization and community by investigating what went well and what didn't after working on a project, incident, or issue. This page defines an RCA, the benefits of completing them, and how to complete a successful RCA here at GitLab.
 
 Any GitLab team-member can perform an RCA on issues they're responsible for, as there is no wrong time to learn from our mistakes and successes.
 
 ## What is a Root Cause Analysis?
 
-A Root Cause Analysis (RCA) is the process of finding the source of failures and accomplishments after completing a project. While RCAs are common after incidents, they do not only fit into this model of incident management. An RCA can be done after any project; whether it was technical or non-technical. While a RCA can be done in any manner, there is a template that has consolidated input from multiple teams to develop an [issue template](https://gitlab.com/gitlab-org/gitlab/-/blob/master/.gitlab/issue_templates/rca.md). As well as Engineering, Customer Success provides a great overview of their [RCA process](/handbook/customer-success/professional-services-engineering/workflows/internal/root-cause-analysis.html).
+A Root Cause Analysis (RCA) is the process of finding the source of failures and accomplishments after completing a project. While RCAs are common after incidents, they do not only fit into this model of incident management. An RCA can be done after any project; whether it was technical or non-technical. While a RCA can be done in any manner, there is a template that has consolidated input from multiple teams to develop an [issue template](https://gitlab.com/gitlab-org/gitlab/-/blob/master/.gitlab/issue_templates/rca.md). As well as Engineering, Customer Success provides a great overview of their [RCA process](../customer-success/professional-services-engineering/workflows/internal/root-cause-analysis).
 
 Your process may be different - but the RCA template is a great starting point.
 
@@ -26,7 +26,9 @@ To perform an RCA simply leverage the template provided below and open an issue 
 
 Please reference [the RCA template](https://gitlab.com/gitlab-org/gitlab/-/blob/master/.gitlab/issue_templates/rca.md) for a step-by-step overview of questions to answer in an RCA.
 
-For a more in-depth overview of an established RCA process, please review [this handbook page](/handbook/customer-success/professional-services-engineering/workflows/internal/root-cause-analysis.html).
+Unplanned upgrade stop has a [special template for conducting Root Cause Analysis](https://gitlab.com/gitlab-org/gitlab/-/blob/master/.gitlab/issue_templates/rca_upgrade_stop.md). Please refer to [Unplanned upgrade stop](./unplanned-upgrade-stop) page to learn more.
+
+For a more in-depth overview of an established RCA process, please review [this handbook page](../customer-success/professional-services-engineering/workflows/internal/root-cause-analysis).
 
 ### Communicate your findings
 
