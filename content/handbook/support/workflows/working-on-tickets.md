@@ -23,7 +23,7 @@ The views within Zendesk are arranged as follows:
 |------|---------|
 | [My Assigned Tickets](https://gitlab.zendesk.com/agent/filters/360062369834) | Tickets assigned to you that are not `Solved` or `Closed`. |
 | SGG: [group name] | An alphabetical list of group views. Each view shows all tickets in an SGG that are not `Pending`, `Solved`, or `Closed`, sorted by ticket weight. |
-| Assigned Support Engineer Tickets | A view for tickets from organizations who have an ASE (Assigned Support Engineer). |
+| Assigned Support Engineer Tickets | Tickets from organizations that have an Assigned Support Engineer (ASE). |
 | L&R | Used by support engineers who work on Licensing & Renewals tickets |
 | All FRT and Emergencies | A view of all New tickets needing a first response. This can be used in times of [reduced capacity](#reduced-capacity) |
 | Global FRT's | Visible only to APAC, this functions similarly to the All FRT and Emergencies view and is frequently used by APAC to flex across SGGs to ensure adequate coverage |
