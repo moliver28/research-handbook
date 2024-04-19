@@ -1,16 +1,6 @@
 ---
-
 title: "Core Team"
 ---
-
-
-
-
-
-
-
-
-
 
 ## Becoming a Core Team member
 
@@ -109,6 +99,7 @@ A list of the up-to-date channels the Core should/have access to can be found in
 - frontend
 - frontend_maintainers
 - frontend_pairs
+- g_engineering_productivity
 - g_observability
 - g_pipeline-security
 - g_project-management
