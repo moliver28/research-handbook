@@ -186,6 +186,28 @@ Once a claim is submitted MDF Program Owner receives an automated email.
 - SFDC: CMPM to add `[CANCELED]` to the campaign name and select `Aborted` in the `Campaign Status` dropdown. Also, unlink the `Partner Account` and unsync to `Vartopia`.
 - Marketo: CMPM to delete Marketo program.
 
+
+## FY25 Q2 GitLab Biz Development team to prospect leads from MDF Campaigns
+
+Exciting offering for our partners who are running MDF campaigns with us in FY25 Q2 (May 1, 2024 - July 31, 2024).
+
+At the partners election, GitLab’s in-house prospecting experts(the GitLab BDR team) will work on your behalf to surface joint opportunities from agreed MDF campaigns, allowing you and your teams to focus on the deal progression and beyond. 
+
+Even though the GitLab BDR team will be working to surface the opportunity for you, you will still be entitled to your pricing and discounts as listed in the partner portal. 
+
+#### The fine print: 
+The GitLab BDR team will only work the leads from qualified MDF campaigns based on the following criteria: 
+Leads which have scored enough points to be considered a GitLab marketing qualified lead (MQL). 
+
+Are from an actively working account - regardless of how many points they have gathered [and/or] are from a group of accounts called `Actively Working Accounts` which is a set of accounts the BDR team has a specific outbound prospecting strategy for.   
+
+The GitLab BDR team will inform you on the records we have worked & send back to you the leads which did not meet the above criteria for your own nurturing. 
+ 
+### How to enroll 
+If you are a partner running a Q2 MDF campaign, your CMM will be reaching out to you to discuss this value add offering. This is a completely optional offering. 
+
+
+
 ## Contact us
 
 For more information on marketing development funds, please email us at partner-marketing@gitlab.com
