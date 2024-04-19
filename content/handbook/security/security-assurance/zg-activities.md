@@ -1,10 +1,10 @@
 ---
-title: "Security Assurance - ZenGRC Activities"
+title: "Security Assurance - Hyperproof Activities"
 ---
 
 ## Purpose
 
-This page provides an overview of the various ZenGRC Activities that are carried out by the [Security Assurance]({{< ref "security-assurance" >}}) sub department. Additionally, this page will also provide information on when stakeholders outside of the Security Assurance sub department may engage with ZenGRC.
+This page provides an overview of the various Hyperproof Activities that are carried out by the [Security Assurance]({{< ref "security-assurance" >}}) sub department. Additionally, this page will also provide information on when stakeholders outside of the Security Assurance sub department may engage with Hyperproof.
 
 ## Field Security Activities
 
