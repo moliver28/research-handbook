@@ -44,7 +44,7 @@ CI/CD is a continuous method of software development, where you continuously bui
 
 1. Click on the name of a job with either a **Succeeded** or a **Running** status to see the output from the jobs.
 
-    > Note: Each job runs in an environment independent of all other jobs.
+    >  Each job runs in an environment independent of all other jobs.
 
 ## Lab Guide Complete
 

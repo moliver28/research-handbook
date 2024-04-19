@@ -19,7 +19,7 @@ GitLab provides various tools for tracking and managing projects. In this lab, y
 
 1. Select **Provision Training Environment**.
 
-    > Note: The login details for accessing the environment are slightly different between self-paced training and instructor-lead training. Please follow the instructions that suit your needs. 
+    >  The login details for accessing the environment are slightly different between self-paced training and instructor-led training. Please follow the instructions that suit your needs. 
 
 ### Self-Paced Training:
 
@@ -47,7 +47,7 @@ GitLab provides various tools for tracking and managing projects. In this lab, y
 
 1. Continue to Task B.
 
-### Instructor-Lead Training:
+### instructor-led Training:
 
 1. On the confirmation page, locate the `Your GitLab Credentials` section. Read this section carefully, noting the credential information provided and the expiration date. Your access to this group and all of the projects that you create is ephemeral and will be deleted after the expiration date.
 
@@ -61,7 +61,7 @@ GitLab provides various tools for tracking and managing projects. In this lab, y
 
 1. Click on the '**Create a project tile**.
 
-    > Note: From this point forward, both the self-paced training and the instructor-lead training can follow the same instructions.
+    >  From this point forward, both the self-paced training and the instructor-led training can follow the same instructions.
 
 ## Task B. Create a project
 
@@ -95,7 +95,7 @@ GitLab provides various tools for tracking and managing projects. In this lab, y
 
 1. The description is an optional section, but feel free to type in your own description for this issue.
 
-    > Note: In the description section, there is a dropdown to select a template. It is possible to create templates to help standardize issue descriptions. To learn more about issue templates, click [here](https://docs.gitlab.com/ee/user/project/description_templates.html).
+    >  In the description section, there is a dropdown to select a template. It is possible to create templates to help standardize issue descriptions. To learn more about issue templates, click [here](https://docs.gitlab.com/ee/user/project/description_templates.html).
 
 1. Using the **Assignees** dropdown, assign the issue to yourself by clicking on the dropdown, and then clicking on your username.
 

@@ -11,7 +11,7 @@ description: "This Hands-On Guide walks you through the lab exercises in the Git
 
 In this lab, you'll enabled CI/CD for a GitLab project. After creating your first `.gitlab-ci.yml` file, you will explore the CI/CD pipeline to better understand jobs and stages. Finally, you will learn how to install, run, and register a runner with a GitLab instance.
 
-> Note: Parts **D** through **F** in this exercise require admin rights to your local machine. If you are unable to install GitLab Runner locally, you may skip parts D through F and use the training environment's shared runners instead.
+>  Parts **D** through **F** in this exercise require admin rights to your local machine. If you are unable to install GitLab Runner locally, you may skip parts D through F and use the training environment's shared runners instead.
 
 ## Task A. Access your Lab Environment
 
@@ -21,7 +21,7 @@ In this lab, you'll enabled CI/CD for a GitLab project. After creating your firs
 
 1. Select **Provision Training Environment**.
 
-    > Note: The login details for accessing the environment are slightly different between self-paced training and instructor-led training. Please follow the instructions that suit your needs. 
+    >  The login details for accessing the environment are slightly different between self-paced training and instructor-led training. Please follow the instructions that suit your needs. 
 
 ### Self-Paced Training:
 
@@ -49,7 +49,7 @@ In this lab, you'll enabled CI/CD for a GitLab project. After creating your firs
 
 1. Continue to Task B.
 
-### Instructor-Lead Training:
+### instructor-led Training:
 
 1. On the confirmation page, locate the `Your GitLab Credentials` section. Read this section carefully, noting the credential information provided and the expiration date. Your access to this group and all of the projects that you create is ephemeral and will be deleted after the expiration date.
 
@@ -63,7 +63,7 @@ In this lab, you'll enabled CI/CD for a GitLab project. After creating your firs
 
 1. Click on the '**Create a project tile**.
 
-    > Note: From this point forward, both the self-paced training and the instructor-lead training can follow the same instructions.
+    >  From this point forward, both the self-paced training and the instructor-led training can follow the same instructions.
 
 # Task B: Create a Project
 
@@ -73,13 +73,13 @@ In this lab, you'll enabled CI/CD for a GitLab project. After creating your firs
 
 1. In the **Project name** text box, enter `CICD Demo`.
 
-    > Note: The project slug will automatically populate. You can change this to a shorter string if desired for your own project. Leave it at the default for this lab.
+    >  The project slug will automatically populate. You can change this to a shorter string if desired for your own project. Leave it at the default for this lab.
 
 1. In the Project URL field, click the dropdown for the second half of the URL to make sure it’s pointing to a group name (starts with gitlab-learn-labs/*) and not a username. You should create this project inside a group, not directly in your user’s namespace.
 
 1. Under **Visibility Level**, ensure **Private** is selected.
 
-    > Note: Since the parent group above your group is private, all child groups and projects below will be private. You can learn more about project visibility levels in the [documentation](https://docs.gitlab.com/ee/user/public_access.html).
+    >  Since the parent group above your group is private, all child groups and projects below will be private. You can learn more about project visibility levels in the [documentation](https://docs.gitlab.com/ee/user/public_access.html).
 
 1. Check **Initialize repository with a README**.
 
@@ -109,7 +109,7 @@ In this lab, you'll enabled CI/CD for a GitLab project. After creating your firs
       - test
     ```
 
-    > Note:  Keep in mind that YAML files should be indented with two spaces. Your web IDE may try to use a tab with 4 spaces. Simply use the backspace to set 2 spaces if you are not copying and pasting the examples.
+    >   Keep in mind that YAML files should be indented with two spaces. Your web IDE may try to use a tab with 4 spaces. Simply use the backspace to set 2 spaces if you are not copying and pasting the examples.
 
 1. Set the commit message to `Creating a simple .gitlab-ci.yml file`, and set the **Target Branch** to `main`.
 
@@ -144,7 +144,7 @@ This file defines two stages: `build` and `test`. The `build1` job executes duri
 
 1. Click the status icon of the top row to see the details of the most recent pipeline. You’ll see columns representing the pipeline’s stages, and widgets representing jobs within each stage.
 
-> Note: The order of execution for stages generally reads left to right. In this example, the `build` stage is the leftmost column, since it is the first stage to execute.
+>  The order of execution for stages generally reads left to right. In this example, the `build` stage is the leftmost column, since it is the first stage to execute.
 
 1. Click each of the two jobs to see the output in a web terminal. Identify the gitlab-runner for each job 
 
@@ -287,7 +287,7 @@ If you see `Service is running` in the output, the gitlab-runner service is work
         ```
 
 
-> Note: If your runner is registered correctly, you should see an output like this: </br>`gitlab-runner run Executor=shell Token=your-gl-token URL=https://gitlab.com`
+>  If your runner is registered correctly, you should see an output like this: </br>`gitlab-runner run Executor=shell Token=your-gl-token URL=https://gitlab.com`
   
 11. If you’re on Windows, follow these additional instructions to configure your gitlab-runner to use the right command to start PowerShell:
     1. Open `C:\GitLab-Runner\config.toml` in a text editor.
