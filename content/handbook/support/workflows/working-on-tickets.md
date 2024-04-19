@@ -1,7 +1,7 @@
 ---
 title: Working on Tickets
 category: Handling tickets
-description: How to find, select, assign and begin work on support tickets
+description: How to find, select, and begin work on support tickets
 ---
 
 ## Introduction
