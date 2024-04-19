@@ -44,7 +44,7 @@ You should then employ the following workflows for:
    - Ensure every response is linked to an assigned ticket.
    - Please Note that the SLA clock continues to run until you’ve sent a public response to the user.
 
-## Managing Ticket Load
+## Managing ticket load
 
    - Regularly review your open, pending, and on-hold tickets in your [My Assigned Tickets](https://gitlab.zendesk.com/agent/filters/360062369834) view to maintain a balance workload, as well as align with [other respsonisbilites](https://handbook.gitlab.com/handbook/support/support-global-groups/#se-responsibilities-and-priorities) to ensure customer satisfaction.
    - Aim for a manageable number of tickets, adjusting based on daily demands and personal capacity.
