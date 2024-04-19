@@ -86,16 +86,62 @@ Considerations include:
 1. CEO, CTO, and CPO to congratulate and inquire about key learnings from achievers on call
 1. CEO, CTO, and CPO to pull out 2-3 of the most impactful key learnings and share with the larger team in a Slack post (either `#ceo` or `#cto`) after the call
 
-### Engineering Quarterly Achievers Process
+#### Engineering Quarterly Achievers Nominations
 
-#### Accepting Nominations
+Prior to the start of the quarter, a call for nominations will go out. You may nominate as many people as you wish, provided they meet the [selection criteria](#selection-criteria).
+
+## Engineering Quarterly Achievers Past Winners
+
+### FY24-Q4
+
+| Quarter | Category | Award | Winner |
+| --- | --- | --- | --- |
+| FY24-Q4 | Efficiency | Best Blueprint Proposal | Samil Hiltunen |
+| FY24-Q4 | Efficiency | Cost Savings | Rehab Hassanein |
+| FY24-Q4 | Efficiency | Software Efficiency | Adam Hegyi |
+| FY24-Q4 | Efficiency | Proactive Avoidance | Marius Bobin |
+| FY24-Q4 | Excellence | Engineering Excellence | Jason Plum |
+| FY24-Q4 | Excellence | Excellence Under Pressure | Corinna Gogolok |
+| FY24-Q4 | Excellence | Testing Excellence | **Not Awarded** |
+| FY24-Q4 | Excellence | Most Impactful MR or Doc Update | Simon Street |
+| FY24-Q4 | Excellence | Everyone-can-contribute | John Lyttle |
+| FY24-Q4 | Customer Results | Customer Centered Individual | Daphne Kua |
+| FY24-Q4 | Customer Results | Customer Kudos | Suleimi Ahmed |
+| FY24-Q4 | Customer Results | Performance and Stability | Brie Carranza & Matthew Badeau |
+| FY24-Q4 | Customer Results | Contribution to Sales or Renewal | Gerardo Gutierrez |
+
+
+### FY25-Q1
+
+| Quarter | Category | Award | Winner |
+| --- | --- | --- | --- |
+| FY25-Q1 | Efficiency | Best Blueprint Proposal | **Not Awarded** |
+| FY25-Q1 | Efficiency | Cost Savings | Tomasz Maczukin |
+| FY25-Q1 | Efficiency | Software Efficiency | **Not Awarded** |
+| FY25-Q1 | Efficiency | Proactive Avoidance | Andreas Brandl |
+| FY25-Q1 | Efficiency | Security Improvement | David Fernandez |
+| FY25-Q1 | Excellence | Engineering Excellence | **Not Awarded** |
+| FY25-Q1 | Excellence | Excellence Under Pressure | Matt Smiley |
+| FY25-Q1 | Excellence | Testing Excellence | Mark Lapierre |
+| FY25-Q1 | Excellence | Most Impactful MR or Doc Update | **Not Awarded** |
+| FY25-Q1 | Excellence | Everyone-can-contribute | John Skarbek |
+| FY25-Q1 | Customer Results | Customer Centered Individual | Samir Hafez |
+| FY25-Q1 | Customer Results | Customer Kudos | Jio Castillo |
+| FY25-Q1 | Customer Results | Performance and Stability | Sylvester Chin |
+| FY25-Q1 | Customer Results | Contribution to Sales or Renewal | Cameron Swords |
+
+---
+
+## Engineering Quarterly Achievers Process
+
+### Accepting Nominations
 
 1. Create a copy of the `Engineering Quarterly Achievers Nomination Form - Template` in the [`Awards [Quarterly]` folder](https://drive.google.com/drive/search?q=type:folder%20%22achievers%20quarterly%22) on Drive. If you do not have access, ask the CTO's EBA for access.
 1.  Make sure to add any new categories.
 1. In the "Responses" tab, click "Link to Sheets" to collect responses in a Google Sheet rather than in the form itself.
 1. In the "Responsess" tab, toggle "Accepting responses" on, and toggle it off when nominations close.
 
-##### Communicating
+#### Communicating
 
 1. Create a Field Operations - Enablement issue ([example](https://gitlab.com/gitlab-com/sales-team/field-operations/enablement/-/issues/2394)) to get permission to post in `#field-fyi` for the "Contribution to Sales or Renewal" Award.
    - Consider posting a pre-filled link that selects that specific award.
@@ -103,7 +149,7 @@ Considerations include:
 1. Make a Slack post in `#engineering-fyi`. Cross-post in `#cto`, and `#eng-managers`.
 1. Consider posting reminders 1 week, and 1 day before due date.
 
-#### Selecting Winners
+### Selecting Winners
 
 1. Pull the raw data from the nominations sheet and put it in a copy of `Engineering Quarterly Achievers Nominees Selection - TEMPLATE`. It's easier to collaborate on a Google Doc than a Google Sheet.
    - You can consider using `process-quarterly-achievers.rb` to process the data.
@@ -113,13 +159,9 @@ Considerations include:
    - Empower them to make decisions
    - Direct them to update the deck with names, photos and speaker notes that highlight the nomination.
 
-#### Announce Winners
+### Announce Winners
 
 In the next All-Hands, announce winners! Wooo! You're done until next quarter.
 
 
 
-
-#### Engineering Quarterly Achievers Nominations
-
-Prior to the start of the quarter, a call for nominations will go out. You may nominate as many people as you wish, provided they meet the [selection criteria](#selection-criteria).
