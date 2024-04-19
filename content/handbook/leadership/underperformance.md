@@ -72,6 +72,7 @@ Tell your manager immediately if there are circumstances in your life that cause
 Looping in [Team Member Relations](/handbook/people-group/) early is essential. Team Member Relations can offer support, guidance, coaching, and partner with Legal to ensure compliance. Please be sure to align with your TMR Partner prior to delivering any formal action plan to team members. Formal action can include a Written Performance Letter, Verbal Warning, Written Warning, and a Performance Improvement Plan. Managers will partner with the team member relations group in the creation and delivery of any formal action.
 
 **Important**: While it’s never too early to involve Team Member Relations, if there are performance concerns without sustained improvement following manager led coaching over the course of at least 1 month, loop in the TMR team.  Reaching out to the TMR team is critical to managing underperformance, and not doing so within a reasonable timeframe ultimately impacts the manager's performance. Connecting with the TMR team ensures that feedback is being delivered in accordance with our [guidance for giving feedback](/handbook/people-group/guidance-on-feedback/) and within applicable local labor laws and regulations.  
+
 ### Manager: Identify And Take Action As Early As Possible
 
 The important thing to remember as a manager is to immediately address signs of underperformance. Taking action sooner allows more time for coaching to be effective and successful.  In the early stage of the process it is important to identify the reasons why team members might not be meeting expectations for their role. We do this by reviewing previous performance history, ensuring the team member has been taking sufficient PTO (Paid Time Off) and also checking in to ensure all is well in their personal life and providing appropriate support when needed.
@@ -96,6 +97,7 @@ This results in a lower rate of involuntary attrition than comparable companies,
 
 Remediation options will vary based on whether the identified underperformance is due to a skill-based or will-based issue (and also in line with local applicable laws and regulations).
 The expectation is that all team members are provided coaching and feedback prior to the decision to exit the team member.  However, it is important to note that in many cases we will not offer formal performance remediation or PIPs and will move to a separation with the team member if performance has not improved after documented coaching and feedback sessions.  This is due to the critical impact of underperformance on the team and on the organization and allows us to maintain our results focused and high performing culture.
+
 ## Coaching
 
 [Coaching]({{< ref "coaching" >}}) is the preferred option to deal with underperformance and is the first step in addressing performance issues.
