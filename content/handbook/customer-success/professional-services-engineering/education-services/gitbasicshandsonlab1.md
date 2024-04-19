@@ -5,8 +5,6 @@ description: "This Hands-On Guide walks you through the lab exercises used in th
 
 > Estimated time to complete: 30 minutes
 
-> **We are transitioning to the latest version of this course.**  If your group URL starts with `https://spt.gitlabtraining.cloud`, please use the [Version 15.x instructions](https://gitlab.com/gitlab-com/content-sites/handbook/-/blob/d14ee71aeac2054c72ce96e8b35ba2511f86a7ca/content/handbook/customer-success/professional-services-engineering/education-services/gitbasicshandsonlab1.md).
-
 ## Objectives
 
 A GitLab Project is a repository where you can store your code, as well as supplemental files such as configuration files. You can also use projects to track issues, plan work, collaborate on code, and continuously build, test, and use built-in CI/CD to deploy your app. You can find out more information about GitLab projects in the [documentation](https://docs.gitlab.com/ee/user/project/organize_work_with_projects.html)

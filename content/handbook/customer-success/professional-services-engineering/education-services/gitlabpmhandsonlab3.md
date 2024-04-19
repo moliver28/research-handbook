@@ -5,7 +5,6 @@ description: "This Hands-On Guide walks you through the lab exercises used in th
 
 > Estimated time to complete: 45-60 minutes
 
-> You are viewing the latest Version 16.x instructions. If your group URL starts with https://spt.gitlabtraining.cloud, please use the [Version 15.x instructions](https://gitlab.com/gitlab-com/content-sites/handbook/-/blob/d14ee71aeac2054c72ce96e8b35ba2511f86a7ca/content/handbook/customer-success/professional-services-engineering/education-services/gitlabpmhandsonlab3.md).
 
 ## Objectives
 
