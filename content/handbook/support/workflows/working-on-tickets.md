@@ -39,13 +39,13 @@ You should then employ the following workflows for:
    - Next, work collaboratively to address unassigned NRT tickets, ensuring respect for the customer preferred regional preference.
    - You should folllow the tickets workflow, as shown in the flowchart below.
 
-   ```mermaid
-   flowchart TD
-      A[Check queue] -->B(Take care of FRT)
-      B --> C(Take care of hand-off)
-      C --> D(Take care of NRT)
-      D-->A
-   ```
+```mermaid
+flowchart TD
+  A[Check queue] -->B(Take care of FRT)
+  B --> C(Take care of hand-off)
+  C --> D(Take care of NRT)
+  D-->A
+```
 
  Assigning Tickets:
    - Assign tickets to yourself using the "Take It" button and update status to 'Open/Pending'.
