@@ -8,7 +8,7 @@ title: Navigation inventory
 
 ## Missing a nav item?
 
-Open an issue in gitlab-org/gitlab describing the context, group, and name of the missing item. Include instructions on how to enable that item in the nav (e.g. set up X integration or enable Y setting). Add the ~"group::foundations" label and we'll pick it up in our next issue triage cycle.
+Open an issue in [gitlab-org/gitlab](https://gitlab.com/gitlab-org/gitlab) describing the context, group, and name of the missing item. Include instructions on how to enable that item in the nav (e.g. set up X integration or enable Y setting). Add the ~"group::foundations" label and we'll pick it up in our next issue triage cycle.
 
 ## Updating this page
 
