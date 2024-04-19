@@ -15,9 +15,9 @@ Groups environment, please read the
 [SE Responsibilities and Priorities](/handbook/support/support-global-groups/#se-responsibilities-and-priorities)
 topic on the main Support Global Groups page.
 
-## Views to use
+## Zendesk views
 
-The views within Zendesk are arranged as follows:
+The default views in Zendesk for Support Engineers (SEs).
 
 | Name | Purpose |
 |------|---------|
