@@ -1,5 +1,6 @@
 ---
-title: "Success Services"
+title: "Success Services Management"
+Description: "The Success Services Management team ensures our paid success offering is impactful for our cusotmers and that the field teams are supported in selling and delivering it."
 
 ---
 
