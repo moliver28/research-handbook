@@ -89,12 +89,10 @@ default:
 build app:
   stage: build
   script: 
-    - go build main.go
-  artifacts:
-    paths:
-      - main
+    - go run main.go
+
 ```
-This `.gitlab-ci.yml` file has one stage `build` with a job `build app` that runs as part of the stage. This job takes our smaall `main.go` file and builds a binary which is then saved as an artifact. 
+This `.gitlab-ci.yml` file has one stage `build` with a job `build app` that runs as part of the stage. This job runs our main.go app. You can view the ouptut of the job to view the executed code. 
 ## Lab Guide Complete
 
 You have completed this lab exercise. You can view the other [lab guides for this course](/handbook/customer-success/professional-services-engineering/education-services/devsecopswithduo).
