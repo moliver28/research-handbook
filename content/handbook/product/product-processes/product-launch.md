@@ -85,6 +85,8 @@ The Program Manager should begin coordinating efforts and identifying the releva
 
 These meetings are a chance for the various stakeholders and Subject Matter Experts (SMEs) in the organization to raise risks/issues sooner rather than later. The SME may ask questions that you can’t answer yet; that’s an opportunity for further discussion later in the project. For stakeholders this is a chance to understand what will be expected of them in the coming weeks/months.
 
+We acknowledge that synchronous meetings aren't GitLab's ideal way of working, however in cases of complex cross-functional projects it can be challenging to make decisions and keep teams aligned without synchronous check-points. Our suggestion is to approach these meetings as "advised, but optional." The project leads can use their own judgement to decide if a given meeting is necessary for their project and whether it can be optional for some members of the larger team.
+
 ### Step 5: Organize logistics
 
 The Program Manager should ensure that the team is set up for success. The following resources are valuable, but not mandatory. We recommend creating a [Single Source of Truth (SSOT)](https://handbook.gitlab.com/handbook/values/#single-source-of-truth) with a link out to the following resources/information:
@@ -98,7 +100,7 @@ The Program Manager should ensure that the team is set up for success. The follo
 
 ## Phase 2: Project Execution and Launch
 
-This phase of the NPI project is generally handled by the stakeholder teams. They are subject matter experts in their own tasks / needs and can be trusted to manage their work accordingly. You can see more about what each team does in this process here. These stakeholders will create the relevant artifacts necessary for their function. For example: GTM plans, marketing message and vision, partner plans, enablement materials, sales projections, gross margin projections including hosting/infrastructure costs, support/PS costs, etc.
+This phase of the NPI project is generally handled by the stakeholder teams. They are subject matter experts in their own tasks / needs and can be trusted to manage their work accordingly. These stakeholders will create the relevant artifacts necessary for their function. For example: GTM plans, marketing message and vision, partner plans, enablement materials, sales projections, gross margin projections including hosting/infrastructure costs, support/PS costs, etc.
 
 The Program Manager and DRI should be continually working with teams to ensure that work is on track against the defined timeline. The Program Manager should also partner with teams to facilitate decision making and problem solving where needed. NPI projects can be highly complex and the teams will need to discuss challenges regularly.
 
@@ -108,7 +110,7 @@ In the future this section will include detailed project plan templates for team
 
 ## Phase 3: Feedback
 
-Once the new feature or service has launched, the Business Owner and Program Manager should organize a retrospective. This will inform future NPI projects so we can continue to iterate and improve.
+Once the new feature or service has launched, the Business Owner and Program Manager should organize a [retrospective](https://handbook.gitlab.com/handbook/engineering/management/group-retrospectives/). This will inform future NPI projects so we can continue to iterate and improve.
 
 Teams should also follow up post-launch with input on customer perspective/feedback, as needed.
 
