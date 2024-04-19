@@ -53,7 +53,10 @@ Previously nominated committee members (FY22):
 - [Liz Coleman](https://gitlab.com/lcoleman)
 - [Philippe Lafoucrière](https://gitlab.com/plafoucriere)
 
-Each nominated member completes a single six-month term aligning with the GitLab fiscal calendar, and ideally will not serve consecutive terms. New members are nominated and appointed using the process below.
+
+### Participation
+
+ Participation in the committe is voluntary. The committee's goal is to have at least one team member from each sub-department within Security represented. In order to participate in the committee, please post in the #security-culture slack channel and express your interest. Length of participation in the committee is at least 1 year in order to the committee to make a meaningful impact.
 
 ### Meetings
 
