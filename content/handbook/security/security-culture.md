@@ -2,7 +2,7 @@
 title: "Security Culture Committee"
 ---
 
-## Mission statement
+## Mission Statement
 
 The security department as a part of GitLab should follow and live up to the GitLab [values]({{< ref "values" >}}) and [mission]({{< ref "mission#mission" >}}).
 The [transparency]({{< ref "values#transparency" >}}) value can be especially difficult for a security department to embrace and embody, as due to the confidentiality of their work, security people tend to be secretive and intransparent by default.
@@ -24,7 +24,7 @@ The committee should draft the ways to reach these goals for an open, approachab
 
 ## Participation
 
-Current (September 2023 - February 2024) nominated committee members:
+Current (September 2023 - Present) committee members:
 - [Madeline Lake](https://gitlab.com/madlake)
 - [Janina Roppelt](https://gitlab.com/jroppelt)
 - [Greg Myers](https://gitlab.com/greg)
@@ -53,7 +53,10 @@ Previously nominated committee members (FY22):
 - [Liz Coleman](https://gitlab.com/lcoleman)
 - [Philippe Lafoucrière](https://gitlab.com/plafoucriere)
 
-Each nominated member completes a single six-month term aligning with the GitLab fiscal calendar, and ideally will not serve consecutive terms. New members are nominated and appointed using the process below.
+
+### Participation
+
+ Participation in the committe is voluntary. The committee's goal is to have at least one team member from each sub-department within Security represented. In order to participate in the committee, please post in the #security-culture slack channel and express your interest. Length of participation in the committee is at least 1 year in order to the committee to make a meaningful impact.
 
 ### Meetings
 
