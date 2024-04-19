@@ -11,9 +11,6 @@ of Zendesk. What it does and how it does it varies greatly from application to
 application. Applications can be run in a great many places, but the traditional
 locations are:
 
-Applications can be run in a great many places, but the traditional locations
-are:
-
 - [Ticket sidebar](https://developer.zendesk.com/apps/docs/support-api/ticket_sidebar)
 - [User sidebar](https://developer.zendesk.com/apps/docs/support-api/user_sidebar)
 - [Organization sidebar](https://developer.zendesk.com/apps/docs/support-api/organization_sidebar)
