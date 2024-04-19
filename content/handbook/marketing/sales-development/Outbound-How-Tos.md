@@ -45,6 +45,40 @@ Contact ownership is based on the BDR Assigned and Account owner fields. If you 
 | B5 - Mvd to "WorkedinFY" this week (Clone)  | Show Worked in FY accounts with a recent Recycle Date.                                                                                             |
 
 
+## Opportunity Credit
+
+Qualification criteria is a minimum set of characteristics that a lead must have in order to be passed to sales and become a Sales Accepted Opportunity (SAO), these are split into [Inbound and Outbound Criteria.](https://handbook.gitlab.com/handbook/sales/field-operations/gtm-resources/#opportunities)
+
+As a BDR, you will work to connect with inbound/outbound leads that you get a response from to obtain the applicable information required. This information is tracked on the qualification criteria on the `LEAD, CONTACT, and OPPORTUNITY` objects in Salesforce. In order to obtain an SAO, you will need to have the `required information` filled out on the opportunity including documented 2-way communication on the Contacts in the Opportunity. Professional Services opportunities are not credited to sales development, these need to be passed straight to the account AEs for them to qualify.
+
+**When do I create an Opportunity?**
+
+1. **You have scheduled time with AE/SAE to speak with the prospect:**
+If you are scheduling time with an AE/SAE to speak to the prospect based on a qualifying conversation you have had with the prospect, an opportunity needs to be created and placed in stage 0. On the opportunity, all “required qualification” fields need to be filled in.
+
+2. **You have obtained a commitment/willigness from a prospect to discuss further.**
+If you have a meaningful two-way communication with a prospect, but have not had the required qualification criteria to move to the Sales team, you can create an opportunity under your name so that you better track your warm conversations. These opportunities may also be used for better collaboration with your team, as they can be reviewed and brain-stormed upon during team meetings.
+
+**Who owns the opportunity at this point?**
+
+**1. You have scheduled time with AE/SAE to speak with the prospect.**
+When you have entered the qualification criteria onto the opportunity, and have received calendar confirmation from all parties for the intro call with sales, you will change ownership to the AE/SAE. After you have saved opp owner, you will add yourself to the BDR field. The opportunity will remain in stage 0.
+
+**2.You have obtained a commitment/willigness from a prospect to discuss further.**
+At this point, the opportunity will be in your ownership but you can not have yourself listed in the Business Development Representative field. There is a validation rule that will not allow the opp owner and the SDR/BDR representative field to be the same member.
+
+**When will it be credited as an S1 Opportunity?**
+
+After the AE/SAL meets with the prospect to verify and supplement qualification criteria, they will move the opportunity into Stage 1 Discovery. The AE/SAL is expected to move the opportunity into the correct stage within 48 hours of the meeting reflected in the “Next Step” date field.
+
+If an opportunity has incorrect data after it has moved into Stage 1 - Discovery, please Chatter your manager about the required changes, they will then Chatter someone from Sales Dev Operations (Ramona, Panos, Ed) once final changes are agreed upon. No one else from Sales Dev can edit opportunities once they are in Stage 1, so please try and ensure you have all the information on the opportunity before you ask the AE/SAL to accept it.
+
+If the opportunity is for a new group of users in a Large account where sales is working on a large “central” opportunity, then your opportunity should be merged to that opportunity for you to get credit for the users you have brought to the deal. See under [Stage 8](https://handbook.gitlab.com/handbook/sales/field-operations/gtm-resources/#opportunity-stages) in the Sales Go To Market Handbook.
+
+### Opportunity Creation Workflow
+
+![Opp-Creation-Workflow](/handbook/marketing/sales-development/FY24OpportunityCreationWorkflow.png)
+
 ## BDR FO Outbound Process
 
 BDR outbound lead generation is done by prospecting to companies and individuals who could be a great fit for our product. Prospecting is the process of finding and developing new business through searching for potential customers with the end goal of moving these people through the sales funnel until they eventually convert into customers.
