@@ -5,8 +5,6 @@ description: "This Hands-On Guide walks you through the lab exercises in the Git
 
 > Estimated time to complete: 15 - 20 minutes
 
-> **We are transitioning to the latest version of this course.** If your group URL starts with `https://spt.gitlabtraining.cloud`, please use the [Version 15.x instructions](https://gitlab.com/gitlab-com/content-sites/handbook/-/blob/d14ee71aeac2054c72ce96e8b35ba2511f86a7ca/content/handbook/customer-success/professional-services-engineering/education-services/gitlabcicdhandsonlab9alt.md).
-
 ## Objectives
 
 > Code quality scans allow you to analyze your source code for quality and complexity. The goal of a code quality scan is to keep your project's code simple, readable, and easier to maintain. In this lab, you will learn how to enable and view a code quality scan in your project. To learn more about code quality scans, click [here](https://docs.gitlab.com/ee/ci/testing/code_quality.html).
