@@ -199,7 +199,7 @@ timeline
   section M12 <br> Milestone Planning Sync
 ```
 
-Two weeks before a release milestone is kicked off, our bot will automatically create an monthly release planning issue for the group and schedule a calendar event.
+Two weeks before a release milestone is kicked off, our bot will automatically create a monthly release planning issue for the group and schedule a calendar event.
 
 On the date of a release milestone kick-off, we will review the list of [Dynamic Analysis Group direction priorities](https://about.gitlab.com/direction/secure/dynamic-analysis/#priorities) with product.
 
