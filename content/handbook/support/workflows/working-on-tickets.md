@@ -71,7 +71,7 @@ By following these steps, you ensure a structured approach to ticket handling th
 
    - Where possible respect the customers specified  preferred region for ticket handling. Exceptions should be made only when a ticket is close to breaching FRT SLA,  has been escalated/STAR'ed requiring immediate attention regardless of region or if the customer has specifically requested it to be handled outside of region.
 
-#### Preparing a Ticket for Handover
+#### Preparing a ticket for handover
 
    - Utilize the Zendesk [Zendesk macro named `Handover Ticket Summary`](https://gitlab.com/gitlab-com/support/zendesk-global/macros/-/blob/master/active/General/Handover%20Ticket%20Summary.md?ref_type=heads) to ensure all necessary information is included and the ticket is unassigned.
    - Set the Zendesk Form Field `Handover Status` to `Need Handover`.
