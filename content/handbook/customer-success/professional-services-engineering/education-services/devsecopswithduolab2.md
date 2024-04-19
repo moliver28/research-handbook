@@ -69,6 +69,32 @@ You have now created a simple hello world program in Go! In the next section, yo
 
 1. Select `Go to Project` to return to your GitLab repository.
 
+## Task D. Add a `.gitlab-ci.yml` File
+
+> The last step of this lab is to create a `.gitlab-ci.yml` file to build our Go application. 
+
+1. In the project repository, create a new file in the main branch by clicking **(+) > This directory > New file.**
+
+1. In the **Filename** field, type `.gitlab-ci.yml`.
+
+1. Copy the yaml below into the file. 
+
+```yml
+stages:
+  - build
+
+default:
+  image: golang:latest
+
+build app:
+  stage: build
+  script: 
+    - go build main.go
+  artifacts:
+    paths:
+      - main
+```
+This `.gitlab-ci.yml` file has one stage `build` with a job `build app` that runs as part of the stage. This job takes our smaall `main.go` file and builds a binary which is then saved as an artifact. 
 ## Lab Guide Complete
 
 You have completed this lab exercise. You can view the other [lab guides for this course](/handbook/customer-success/professional-services-engineering/education-services/devsecopswithduo).
