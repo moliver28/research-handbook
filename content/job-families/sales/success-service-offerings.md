@@ -169,7 +169,7 @@ The Sr. Manager RSSM is a job grade level 9.
 
 The next steps for the Sr. Manager RSSM Job Family would be to move to a Director, Success Services job family.
 
-## Director, Success Services 
+## Director, Success Services
 
 The Director, Success Services is a strategic leader, blending technical acumen with a customer-centric approach. They are accountable for shaping, developing, and delivering our innovative paid success plan offerings and service designs, focusing on exceeding the evolving needs of our customers. The director role involves coordinating with various internal and external stakeholders to set a long-term vision and strategy for our Service offerings, ensuring they align with company goals and drive customer value and business growth.
 
