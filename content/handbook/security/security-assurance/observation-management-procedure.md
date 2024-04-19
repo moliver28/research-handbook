@@ -5,7 +5,7 @@ controlled_document: true
 
 ## Purpose
 
-The Observation Management Program at GitLab is used to identify, track, remediate and provide a risk ratings of identified findings, exceptions or deficiencies for any Tier 3 information system risks that are identified as an output of compliance operations or other mechanisms by team members, such as self-identification of a system specific risk.
+The Observation Management Program at GitLab is used to identify, track, remediate and provide a risk rating for identified findings, exceptions or deficiencies for any Tier 3 information system risks that are identified as an output of compliance operations or other mechanisms by team members, such as self-identification of a system specific risk.
 
 This procedure details the creation process for observations.
 
@@ -35,10 +35,9 @@ Tier 3 risks or observations identified at the information system or business pr
 
 ```mermaid
 graph TD;
-  A[Identified] --> B[Assigned];
-  B --> C[Remediation in progress];
-  B --> D[Ignored or Invalid];
-  C --> F[Resolved];
+  A[Not Started] --> B[In Progress];
+  B --> C[Remediated];
+  B --> D[Accepted];
 ```
 
 ### Identifying Observations
@@ -54,7 +53,7 @@ Observations can be identified through the following channels:
 
 ### Assigning Observations
 
-The observation identifier is responsible for opening an observation in [ZenGRC]({{< ref "zg-activities" >}}). The observation identifier fills out all necessary observation information, remediation recommendations and submits the observation to the Remediation Owner for validation. The Observation Manager is responsible for managing the observation through the observation lifecycle. This includes validating the observation with the Remediation Owner, tracking all remediation progress and updating the associated ZenGRC issue with current information and status updates. Each observation has both a GitLab Issue (for Remediation Owners) and a mirrored ZenGRC Issue (for Observation Managers). Each observation will be assigned a [risk rating]({{< ref "observation-management-procedure#observation-risk-ratings" >}}), which should drive the priority of remediation.
+The observation identifier is responsible for opening an observation in the [Observation Management Project](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-compliance-commercial-and-dedicated/observation-management). The observation identifier fills out all necessary observation information, remediation recommendations and submits the observation to the Remediation Owner for validation. The Observation Manager is responsible for managing the observation through the observation lifecycle. This includes validating the observation with the Remediation Owner, tracking all remediation progress and updating the associated GitLab issue with current information and status updates. Each observation will be assigned a [risk rating]({{< ref "observation-management-procedure#observation-risk-ratings" >}}), which should drive the priority of remediation.
 
 **See the associated runbooks below for detailed instructions on how to open and assign a new observation based on observation type:**
 
@@ -79,7 +78,7 @@ Tier 3 information system risk ratings are based off the formula below.
 
 #### Step 1: Define likelihood based on the below criteria and likelihood table
 
-At GitLab, observations will be rated based on the likelihood the observation has recurring and/or the frequency that the control has seen observations. The criteria used to assess this likelihood can be found in the Likelihood Table below. There are two different definitions for each likelihood rating level, "control observation" and "information system risk (tier 3)". These definitions delineate the factors that may be considered when thinking of an individual observation from a control perspective and an information system risk perspective. Each should be considered when determining the likelihood of an observation occurring.
+At GitLab, observations will be rated based on the likelihood the observation has of recurring and/or the frequency of observations by control. The criteria used to assess this likelihood can be found in the Likelihood Table below. There are two different definitions for each likelihood rating level, "control observation" and "information system risk (tier 3)". These definitions delineate the factors that may be considered when thinking of an individual observation from a control perspective and an information system risk perspective. Each should be considered when determining the likelihood of an observation occurring.
 
 - **Control Observation**: This criteria is utilized to rate observations identified as an output of control testing (e.g. where control testing performed internally by Security Compliance has failed). The assumption of the Likelihood Table is to consider observations individually rather than in aggregate (i.e if 2 similar observations occur against a single test of a sample of 25, the failure rate is 8% and would be scored a 3. The control does not need to be tested multiple times in the current year or prior 9 months with an observation each time to meet the requirement for a score of 3).
 - **Information System Risk (Tier 3)**: This criteria is utilized to score the likelihood of an information system being exploited (e.g. insufficient encryption mechanisms for the storage of data within `[System Name]` result in the unintentional exposure/leakage of this information to the public).
@@ -203,7 +202,7 @@ In addition to applying a qualitative scoring factor for likelihood, all observa
 
 #### Step 3: Determine risk rating based on likelihood and impact scores defined in steps 1 and 2
 
-In order to arrive at a final observation risk rating, the likelihood and impact scores of an observation are multiplied together. The final score determined will determine whether or not the observation is a LOW, MODERATE, or HIGH risk observation using the Observation Risk Rating Table
+In order to arrive at a final observation risk rating, the likelihood and impact scores of an observation are multiplied together. The final score determined will determine whether or not the observation is a LOWEST, LOW, MEDIUM, HIGH, or HIGHEST risk observation using the Observation Risk Rating Table
 
 ##### Observation Risk Rating Table
 
