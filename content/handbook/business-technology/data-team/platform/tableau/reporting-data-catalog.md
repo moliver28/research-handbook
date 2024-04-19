@@ -57,12 +57,12 @@ We weighed these pros & cons when we were designing the Landing Page and decided
 
 The Collection owners for each of the Landing Page sections are as follows:
 
-- Financial Reporting: 	@Vikas Agrawal
-- Customer Intelligence: @jonglee1218
+- Financial Reporting: 	`@Vikas Agrawal`
+- Customer Intelligence: `@jonglee1218`
 - GTM Funnel: 
 - Product Usage:
-- People Analytics:
-- Sections TBD - need input from functional teams
+- People Analytics: `@Shane McCormack`
+- All SECTIONS TBD - need input from functional teams. Likely one for Engineering and potentially one for Field Team Performance Reporting (i.e. on the Manager & Individual level)?
 
 ## Datasources
 
