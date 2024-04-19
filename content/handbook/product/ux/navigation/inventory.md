@@ -1,5 +1,6 @@
 ---
 title: Navigation inventory
+summary: A complete inventory of the GitLab product navigation
 ---
 
 ## Product contexts
