@@ -67,7 +67,7 @@ When starting work on a ticket, prioritize these steps to effectively address th
 
 By following these steps, you ensure a structured approach to ticket handling that can save time and enhance customer satisfaction.
 
-## Handling Tickets from Different Regions
+## Handling tickets from different regions
 
    - Where possible respect the customers specified  preferred region for ticket handling. Exceptions should be made only when a ticket is close to breaching FRT SLA,  has been escalated/STAR'ed requiring immediate attention regardless of region or if the customer has specifically requested it to be handled outside of region.
 
