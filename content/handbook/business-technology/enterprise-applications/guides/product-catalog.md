@@ -131,8 +131,12 @@ In the issue template, three asterisks are considered a "non-standard" configura
 - This is required to configure the SKU and properly recognize revenue
 
 **Taxation Requirements**
-- Assign Fang Wang and Sally Tian `@fwanggitlab` and `@stian13` for input on the Taxation section and include a service description to help them identify the correct tax code to use
+- Assign Sally Tian `@stian13` for input on the Taxation section and include a service description to help them identify the correct tax code to use
 - This is required to configure the SKU and properly collect sales tax
+
+**Data Requirements**
+- Assign Sushma N `@snalamaru` and Israel Weeks `@iweeks` for input on the Product Tier, Delivery, and Deployment fields for this offering based on the definitions in the [GitLab Handbook](https://handbook.gitlab.com/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/tiers/)
+- This is required to configure the SKU and ensure data integrity
 
 
 ### Step 2. Cross-functional Approval For Pricing and Non-Standard Requests
