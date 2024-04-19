@@ -37,7 +37,7 @@ You should then employ the following workflows for:
  Choosing Tickets:
    - Focus on handling tickets from the top down in your First Response Time (FRT) stage view, as they are sorted by `Ticket Weight` to highlight the highest-priority issues first. This approach ensures that you address the most critical tickets promptly. Additionally, keep an eye on tickets that are nearing their SLA deadlines to prevent any breaches. Please note, while the Ticket Weight field itself isn’t visible in the view, it is used to order the tickets, ensuring that those with the highest priority appear at the top.
    - Next, work collaboratively to address unassigned NRT tickets, ensuring respect for the customer preferred regional preference.
-   - You should folllow the tickets workflow, as shown in the flowchart below. 
+   - You should folllow the tickets workflow, as shown in the flowchart below.
 
    ```mermaid
    flowchart TD
