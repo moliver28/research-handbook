@@ -19,7 +19,7 @@ In this lab, you will access the training lab environment. This environment will
 
 1. Select **Provision Training Environment**.
 
-> Note: The login details for accessing the environment are slightly different between self-paced training and intstuctor-led training. Please follow the instructions that suit your needs. 
+> Note: The login details for accessing the environment are slightly different between self-paced training and instructor-led training. Please follow the instructions that suit your needs. 
 
 ### Self-Paced Training:
 
