@@ -201,11 +201,12 @@ Leads which have scored enough points to be considered a GitLab marketing qualif
 
 Are from an actively working account - regardless of how many points they have gathered [and/or] are from a group of accounts called `Actively Working Accounts` which is a set of accounts the BDR team has a specific outbound prospecting strategy for.   
 
-The GitLab BDR team will inform you on the records we have worked & send back to you the leads which did not meet the above criteria for your own nurturing. 
+The GitLab BDR team will inform you on the records we have worked & send back to you the leads which did not meet the above criteria for your own nurturing.
+
+Any leads converted into opportunities will have a SQS of Partner Generated but the xDR generated checkbox on the opportunity should be checked in order to credit the opp to both teams.
  
 ### How to enroll 
 If you are a partner running a Q2 MDF campaign, your CMM will be reaching out to you to discuss this value add offering. This is a completely optional offering. 
-
 
 
 ## Contact us
