@@ -54,11 +54,11 @@ The Senior Procurement Operations Analyst is a [grade 6](/handbook/total-rewards
 
 
 
-#### Procurement Category Manager (Intermediate) Job Grade
+#### Procurement Category Manager Job Grade
 
 The Procurement Category Manager is a [grade 7](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
-#### Procurement Category Manager (Intermediate) Responsibilities
+#### Procurement Category Manager Responsibilities
 
 - Drive year-over-year cost reduction and cost avoidance for indirect suppliers
 - Develop and implement procurement strategies to optimize business needs with suppliers across all indirect categories of spend.
