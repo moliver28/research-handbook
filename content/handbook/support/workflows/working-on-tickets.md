@@ -35,9 +35,17 @@ Support Engineers working in SGGs should make decisions about what to work on ba
 You should then employ the following workflows for:
 
  Choosing Tickets:
-   - Prioritize tickets based on Ticket Weight in your FRT stage view to focus on high-priority issues, while also ensuring you take on tickets close to breaching FRT to maintain service level agreements. Please note that  the Ticket Weight field isn't visible, the view is sorted by it to ensure top-priority tickets are displayed first.
+   - Focus on handling tickets from the top down in your First Response Time (FRT) stage view, as they are sorted by `Ticket Weight` to highlight the highest-priority issues first. This approach ensures that you address the most critical tickets promptly. Additionally, keep an eye on tickets that are nearing their SLA deadlines to prevent any breaches. Please note, while the Ticket Weight field itself isn’t visible in the view, it is used to order the tickets, ensuring that those with the highest priority appear at the top.
    - Next, work collaboratively to address unassigned NRT tickets, ensuring respect for the customer preferred regional preference.
-   - You should folllow the tickets workflow, as shown below <insert Ronnies image>
+   - You should folllow the tickets workflow, as shown in the flowchart below. 
+
+   ```mermaid
+   flowchart TD
+      A[Check queue] -->B(Take care of FRT)
+      B --> C(Take care of hand-off)
+      C --> D(Take care of NRT)
+      D-->A
+   ```
 
  Assigning Tickets:
    - Assign tickets to yourself using the "Take It" button and update status to 'Open/Pending'.
@@ -123,10 +131,8 @@ appropriate baseline](/handbook/support/support-engineer-responsibilities/#ticke
 - **SaaS Accounts: 8 tickets**
 - **L&R: 24 tickets**
 
-The aim is to ensure equitable ticket distribution among team members. These
-numbers are based on ticket volume, number of SEs, and average PTO (15%). We
-will continue to monitor ticket volume and number of SEs to make sure the above
-guidelines are accurate.
+The aim is to ensure equitable ticket distribution among team members. These numbers are based on ticket volume, number of SEs, and average PTO (15%). We
+will continue to monitor ticket volume and number of SEs to make sure the above guidelines are accurate.
 
 #### What if I can't meet baseline?
 
@@ -134,61 +140,36 @@ There will be times when you may be leading an escalation, working through chall
 
 ### 2. What can I do when I'm stuck and I really need help?
 
-   Follow the [how to get help workflow](/handbook/support/workflows/how-to-get-help/)
-   for guidance on this. Reach out to a manager for guidance if you are still
-   stuck.
+   Follow the [how to get help workflow](/handbook/support/workflows/how-to-get-help/) for guidance on this. Reach out to a manager for guidance if you are still stuck.
 
 ### 3. I'm going to be absent, what do I do with my assigned tickets?
 
-   Please see the [Support Team Member Time Off page](/handbook/support/support-time-off/)
-   for a full description of this situation.
+   Please see the [Support Team Member Time Off page](/handbook/support/support-time-off/) for a full description of this situation.
 
 ### 4. The customer is absent and wants to keep the ticket open until they're back
 
-   The best course of action in this case is to acknowledge the customer's wish with a public response
-   and then set the ticket to **On-Hold** *and* change it to type **Task** with a reminder for yourself
-   to check in with the customer x days after their planned return.
-   This way, the ticket will permanently stay **On-Hold** for the duration of the customer's absence. See
-   [Behavior of `On-Hold` tickets](/handbook/support/workflows/zendesk-ticket-basics/#behavior-of-on-hold-tickets)
-   for details.
+   The best course of action in this case is to acknowledge the customer's wish with a public response and then set the ticket to **On-Hold** *and* change it to type **Task** with a reminder for yourself to check in with the customer x days after their planned return. This way, the ticket will permanently stay **On-Hold** for the duration of the customer's absence. See [Behavior of `On-Hold` tickets](/handbook/support/workflows/zendesk-ticket-basics/#behavior-of-on-hold-tickets) for details.
 
 ### 5. May I reassign a ticket to someone else?
 
    There are some situations in which it is appropriate to reassign a ticket:
 
-   1. If you'll be absent, follow the guidance given on the
-      [Support Team Member Time Off page](/handbook/support/support-time-off/).
-   1. If you've determined that specific expertise outside your own is required
-      to resolve the ticket, pair with an expert so that you can get the ticket
-      resolved and learn in the process. If that person determines that they
-      need to take the lead due to the advanced or complex nature of the
-      problem, then:
+   1. If you'll be absent, follow the guidance given on the [Support Team Member Time Off page](/handbook/support/support-time-off/).
+   1. If you've determined that specific expertise outside your own is required to resolve the ticket, pair with an expert so that you can get the ticket
+      resolved and learn in the process. If that person determines that they need to take the lead due to the advanced or complex nature of the problem, then:
 
-      1. send a message to the customer informing them that you’ve asked
-         another support engineer with relevant expertise to take the ticket,
-         that you’ve reviewed the ticket with that engineer, and that you'll
-         stay involved in order to help in any way you can
-      1. assign the ticket to the expert
+      1. Send a message to the customer informing them that you’ve asked another support engineer with relevant expertise to take the ticket, that you’ve reviewed the ticket with that engineer, and that you'll stay involved in order to help in any way you can
+      1. Sssign the ticket to the expert
 
-   1. If you've become overloaded with tickets, you may look to find one or more
-      other SEs to take some of your tickets. Start with your Support Global
-      Group, and then look to the larger team if necessary. Be sure you
-      discuss each ticket before reassigning it to gain agreement and so that
-      the other support engineers don't have to start from scratch. Then add an
-      internal note stating the reassignment agreement **and** add a public
-      meessage informing the user that you’ve asked another support engineer to
-      take the ticket due to your time constraints.
+   1. If you've become overloaded with tickets, you may look to find one or more other SEs to take some of your tickets. Start with your Support Global Group, and then look to the larger team if necessary. Be sure you discuss each ticket before reassigning it to gain agreement and so that the other support engineers don't have to start from scratch. Then add an internal note stating the reassignment agreement **and** add a public meessage informing the user that you’ve asked another support engineer to take the ticket due to your time constraints.
 
 ### 6. A customer has confirmed a ticket can be closed but the ticket has no assignee - what should I do?
 
-   This should only happen on rare occasions since in the SGG system all tickets
-   should be assigned from the time the first response is made. When it does
+   This should only happen on rare occasions since in the SGG system all tickets should be assigned from the time the first response is made. When it does
    happen, please:
 
-   1. inform the customer that you are changing the ticket status to solved
-   1. assign the ticket to the engineer who provided the solution, or if you
-      can't make that determination, assign it to an engineer who has
-      significantly contributed to the ticket throughout its life cycle
+   1. Inform the customer that you are changing the ticket status to solved
+   1. Assign the ticket to the engineer who provided the solution, or if you can't make that determination, assign it to an engineer who has significantly contributed to the ticket throughout its life cycle
 
 ### 7. How many issues or incidents should I handle in a single support ticket?
 
