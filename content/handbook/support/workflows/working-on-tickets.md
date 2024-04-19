@@ -87,7 +87,7 @@ The Slack Handover Form is designated for tickets with high weight values, strea
    - **Reminder:** You’ll receive a private Slack reminder to use the mandatory Handover Ticket Summary macro.
    - **Tracking:** All handover requests are logged in the #spt_handover-log channel for tracking purposes.
 
-#### Handling Tickets Handed Over from Another Region
+#### Working tickets handed over from another region
 
    - Update the `Handover Status` text field to reflect the receiving region, e.g., if you are in the EMEA region, set it to `Handed over to EMEA` to ensure accurate metric tracking.
    - Review the `Handover Ticket Summary` and the Next Response Time (NRT) SLA.
