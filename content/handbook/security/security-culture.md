@@ -24,7 +24,7 @@ The committee should draft the ways to reach these goals for an open, approachab
 
 ## Participation
 
-Current (September 2023 - February 2024) nominated committee members:
+Current (September 2023 - Present) committee members:
 - [Madeline Lake](https://gitlab.com/madlake)
 - [Janina Roppelt](https://gitlab.com/jroppelt)
 - [Greg Myers](https://gitlab.com/greg)
