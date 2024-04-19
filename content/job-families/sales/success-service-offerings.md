@@ -8,16 +8,20 @@ Description: "The Success Services Management team ensures our paid success offe
 
 The Success Services Management team ensures our paid success offering is impactful for our customers and that the field teams are supported in selling and delivering it.
 
-The Success Services Manager (SSM) role at GitLab is expected to serve and operate in the following ways and have product and domain knowledge.  The depth of knowledge in each area will progress within the SSM career ladder.
+### Performance Indicators
+
+As with all roles in the Sales Department, the Solutions Architect participates in a subset of the [Sales KPIs](https://internal-handbook.gitlab.io/handbook/company/performance-indicators/sales/#kpi-summary). Key priorities of these roles are to drive new (i.e., new logos) and growth bookings and contribute to sales efficiency.
+
+## Levels
 
 
-## Success Services Manager (SSM)
+## Success Services Manager (Intermediate) 
 
 The Success Services Manager is responsible for driving the success and adoption of our paid success plan offerings and services within a designated region (EMEA, AMER or APJ). This role involves working closely with their peers to tailor our global offerings to the unique needs of their region's customers, ensuring high customer satisfaction, retention, and growth. The role will collaborate with sales, customer success, and support teams to deliver exceptional service and drive business outcomes.  The role is considered a sales overlay role to drive customer adoption of Success Services.
 
-The SSM reports to the Manager/Senior Manager, SSM
+The Success Services Manager reports to the Manager/Senior Manager, Success Services
 
-### SSM Responsibilities:
+### Success Services Manager Responsibilities:
 
  - Customer Engagement: Work closely with customer success and support teams to ensure effective service delivery and customer satisfaction.
  - Sales Enablement: Collaborate with sales teams to develop and deliver compelling service offerings, value propositions, and commercial collateral. Explain GitLab Services value proposition, catalog of service offerings, and methodologies.
@@ -27,7 +31,7 @@ The SSM reports to the Manager/Senior Manager, SSM
  - Team Collaboration: Foster strong collaboration with global service offering teams to share insights, best practices, and ensure global alignment.
  - Stakeholder Management: Build and maintain strong relationships with key stakeholders, including customers, partners, and internal teams.
 
-### SSM Requirements:
+### Success Services Manager Requirements:
 
  - Bachelor's degree in Business, Technology, or a related field.
  - 3+ years proven experience in customer success, service delivery, or account management within the region.
@@ -38,26 +42,26 @@ The SSM reports to the Manager/Senior Manager, SSM
  - Strong problem-solving skills and ability to adapt to changing customer needs.
  - Willingness to travel as required.
 
-### SSM Job Grade
+### Success Services Manager Job Grade
 
-The SSM is a job grade level 6.
+The Success Services Manager is a job grade [level 6](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
-### SSM Performance Indicators
+### Success Services Manager Performance Indicators
 
 - [(AMER, EMEA or APJ) Services bookings and revenue per agreed plan](handbook/sales/#performance-indicators)
 - Customer Satisfaction
 
-### SSM Career Ladder
+### Success Services Manager Career Ladder
 
-The next steps for the Success Services Manager (SSM) Job Family would be to move to a Senior Success Services Manager (Sr. SSM) job family.
+The next steps for the Success Services Manager (Success Services Manager) Job Family would be to move to a Senior Success Services Manager (Sr. Success Services Manager) job family.
 
-## Senior Success Services Manager (Sr. SSM)
+## Senior Success Services Manager (Sr. Success Services Manager)
 
-The Senior Success Services Manager (Sr. SSM) is responsible for driving the success, adoption, and continuous improvement of our paid success plan offerings and services within a designated region (EMEA, AMER, or APJ). This role builds upon the foundation of the Success Services Manager (SSM) position, with a heightened focus on strategic planning, innovation, and cross-functional leadership. Additionally, they support and mentor others in the SSM role.
+The Senior Success Services Manager (Sr. Success Services Manager) is responsible for driving the success, adoption, and continuous improvement of our paid success plan offerings and services within a designated region (EMEA, AMER, or APJ). This role builds upon the foundation of the Success Services Manager (Success Services Manager) position, with a heightened focus on strategic planning, innovation, and cross-functional leadership. Additionally, they support and mentor others in the Success Services Manager role.
 
-The Sr. SSM reports to the Manager/Senior Manager/Director, SSM.
+The Sr. Success Services Manager reports to the Manager/Senior Manager/Director, Success Services Manager.
 
-### Sr. SSM Responsibilities:
+### Sr. Success Services Manager Responsibilities:
 
 - Strategic Planning: Develop and execute a long-term strategy for Success Services, considering market trends, customer needs, and global alignment.
 - Innovation and Development: Drive the ideation, design, and implementation of new and enhanced service offerings tailored to requirements.
@@ -68,7 +72,7 @@ The Sr. SSM reports to the Manager/Senior Manager/Director, SSM.
 - Change Management: Lead change management initiatives related to service offerings, ensuring smooth transitions and adoptions.
 - Thought Leadership: Represent the company as a thought leader at industry events, conferences, and customer meetings.
 
-### Sr. SSM Requirements:
+### Sr. Success Services Manager Requirements:
 
 - Bachelor's degree in Business, Technology, or a related field. Master's degree preferred.
 - 5+ years proven experience in customer success, service delivery, or account management within the region, with a track record of leadership and strategic planning.
@@ -80,35 +84,35 @@ The Sr. SSM reports to the Manager/Senior Manager/Director, SSM.
 - Extensive experience with customer success metrics, KPIs, and reporting.
 - Willingness to travel frequently within the region and occasionally globally.
 
-### Sr. SSM Job Grade
+### Sr. Success Services Manager Job Grade
 
-The Sr. SSM is a job grade level 7.
+The Sr. Success Services Manager is a job grade level 7.
 
-### Sr. SSM Performance Indicators
+### Sr. Success Services Manager Performance Indicators
 
 - [(AMER, EMEA or APJ) Services bookings and revenue per agreed plan](handbook/sales/#performance-indicators)
 - Successful launch and adoption of new service offerings
 - Customer Satisfaction
 
-### Sr. SSM  Career Ladder
+### Sr. Success Services Manager  Career Ladder
 
-The next steps for the Success Services Manager (SSM) Job Family would be to move to a Senior Success Services Manager (Sr. SSM) job family, Customer Success job family or other management level role within Customer Success.
+The next steps for the Success Services Manager (Success Services Manager) Job Family would be to move to a Senior Success Services Manager (Sr. Success Services Manager) job family, Customer Success job family or other management level role within Customer Success.
 
-## Manager, Success Services Managers (Manager, SSM)
+## Manager, Success Services Managers (Manager, Success Services Manager)
 
-The Manager, Success Services Managers (Manager, SSM) is a leader responsible for overseeing and driving the success, growth, and innovation of our paid success plan offerings and services within a designated region (EMEA, AMER, or APJ). This role provides leadership and guidance to a team of Success Services Managers (SSMs) and Senior Success Services Managers (Sr. SSMs), ensuring alignment with global strategies while tailoring offerings to meet customer needs. The Manager, SSM collaborates closely with the Global Director of Success Services to contribute to the overall vision and direction of the company's service offering portfolio.
+The Manager, Success Services Managers (Manager, Success Services Manager) is a leader responsible for overseeing and driving the success, growth, and innovation of our paid success plan offerings and services within a designated region (EMEA, AMER, or APJ). This role provides leadership and guidance to a team of Success Services Managers (Success Services Managers) and Senior Success Services Managers (Sr. Success Services Managers), ensuring alignment with global strategies while tailoring offerings to meet customer needs. The Manager, Success Services Manager collaborates closely with the Global Director of Success Services to contribute to the overall vision and direction of the company's service offering portfolio.
 
-The Manager, SSM reports to the Director, Success Services.
+The Manager, Success Services Manager reports to the Director, Success Services.
 
-### Manager, SSM Responsibilities:
+### Manager, Success Services Manager Responsibilities:
 
-- Team Leadership: Provide leadership, guidance, and mentorship to a team of SSMs and Sr. SSMs, fostering a culture of innovation, collaboration, and customer-centricity.
+- Team Leadership: Provide leadership, guidance, and mentorship to a team of Success Services Managers and Sr. Success Services Managers, fostering a culture of innovation, collaboration, and customer-centricity.
 - Cross-functional Collaboration: Foster strong partnerships with leaders in sales, customer success, support, and product development to drive seamless execution and optimization of service offerings.
 - Executive Engagement: Engage with C-level customers and stakeholders to understand their strategic objectives, gather feedback, and ensure the highest level of customer satisfaction and loyalty.
 - Financial Management: Manage budgets, forecasting, and resource allocation to ensure the financial success and sustainability of service offerings.
 - Performance Tracking: Monitor and report on key performance indicators for service offerings, identifying trends and areas for improvement.
 
-### Manager, SSM Requirements:
+### Manager, Success Services Manager Requirements:
 
 - Bachelor's degree in Business, Technology, or a related field. Master's degree or MBA highly preferred.
 - Proven track record of leadership and strategic management in customer success, service delivery, or account management within the region.
@@ -119,30 +123,30 @@ The Manager, SSM reports to the Director, Success Services.
 - Extensive experience with customer success metrics, KPIs, and reporting, with a focus on driving business outcomes.
 - Willingness to travel frequently within the region and globally as required.
 
-### Manager, SSM Job Grade
+### Manager, Success Services Manager Job Grade
 
-The Manager, SSM is a job grade level 8.
+The Manager, Success Services Manager is a job grade level 8.
 
-### Manager, SSM Performance Indicators
+### Manager, Success Services Manager Performance Indicators
 
 - [Services bookings and revenue per agreed plan](handbook/sales/#performance-indicators)
 - Successful launch and adoption of new service offerings
 - Customer Satisfaction
 
-### Manager, SSM Career Ladder
+### Manager, Success Services Manager Career Ladder
 
-The next steps for the Manager, SSM Job Family would be to move to a Snr Manager, SSM job family.
+The next steps for the Manager, Success Services Manager Job Family would be to move to a Snr Manager, Success Services Manager job family.
 
-## Senior Manager, Success Services Managers (Sr. Manager SSM)
+## Senior Manager, Success Services Managers (Sr. Manager Success Services Manager)
 
-The Sr. Manager SSM is a strategic executive responsible for overseeing and driving the success, growth, and innovation of our paid success plan offerings and services within a designated region (EMEA, AMER, or APJ). This builds on the expectations of the Manager, SSM role, continuing to provide leadership and guidance to a team of Success Services Managers (SSMs) and Senior Success Services Managers (Sr. SSMs), whilst increasing the focus on Strategic alignment and localized innovations and learnings of the current services. The Sr. Manager SSM collaborates closely with the Global Director of Success Services to contribute to the overall vision and direction of the company's service offering portfolio.
+The Sr. Manager Success Services Manager is a strategic executive responsible for overseeing and driving the success, growth, and innovation of our paid success plan offerings and services within a designated region (EMEA, AMER, or APJ). This builds on the expectations of the Manager, Success Services Manager role, continuing to provide leadership and guidance to a team of Success Services Managers (Success Services Managers) and Senior Success Services Managers (Sr. Success Services Managers), whilst increasing the focus on Strategic alignment and localized innovations and learnings of the current services. The Sr. Manager Success Services Manager collaborates closely with the Global Director of Success Services to contribute to the overall vision and direction of the company's service offering portfolio.
 
-The Sr. Manager SSM reports to the Director, Success Services.
+The Sr. Manager Success Services Manager reports to the Director, Success Services.
 
-### Sr. Manager SSM Responsibilities:
+### Sr. Manager Success Services Manager Responsibilities:
 
 - Vision and Strategy: Develop and execute a comprehensive strategy for Success Services, aligned with global objectives and responsive to market dynamics.
-- Team Leadership: Provide leadership, guidance, and mentorship to a team of SSMs and Sr. SSMs, fostering a culture of innovation, collaboration, and customer-centricity.
+- Team Leadership: Provide leadership, guidance, and mentorship to a team of Success Services Managers and Sr. Success Services Managers, fostering a culture of innovation, collaboration, and customer-centricity.
 - Portfolio Management: Oversee the service offering portfolio, making strategic decisions on investments, resource allocation, and product lifecycle management.
 - Cross-functional Collaboration: Foster strong partnerships with leaders in sales, customer success, support, and product development to drive seamless execution and optimization of service offerings.
 - Executive Engagement: Engage with C-level customers and stakeholders to understand their strategic objectives, gather feedback, and ensure the highest level of customer satisfaction and loyalty.
@@ -151,7 +155,7 @@ The Sr. Manager SSM reports to the Director, Success Services.
 - Global Thought Leadership: Represent the company as a global thought leader, speaking at industry events, publishing insights, and engaging with key influencers and decision-makers.
 - Global Alignment: Collaborate with global leadership to share best practices, contribute to global strategies, and ensure alignment with company-wide objectives.
 
-### Sr. Manager SSM Requirements:
+### Sr. Manager Success Services Manager Requirements:
 
 - Bachelor's degree in Business, Technology, or a related field. Master's degree or MBA highly preferred.
 - Proven track record of leadership and strategic management in customer success, service delivery, or account management within the region.
@@ -164,19 +168,19 @@ The Sr. Manager SSM reports to the Director, Success Services.
 - Extensive experience with customer success metrics, KPIs, and reporting, with a focus on driving business outcomes.
 - Willingness to travel frequently within the region and globally as required.
 
-### Sr. Manager SSM Job Grade
+### Sr. Manager Success Services Manager Job Grade
 
-The Sr. Manager SSM is a job grade level 9.
+The Sr. Manager Success Services Manager is a job grade level 9.
 
-### Sr. Manager SSM Performance Indicators
+### Sr. Manager Success Services Manager Performance Indicators
 
 - [Services bookings and revenue per agreed plan](handbook/sales/#performance-indicators)
 - Successful launch and adoption of new service offerings
 - Customer Satisfaction
 
-### Sr. Manager SSM Career Ladder
+### Sr. Manager Success Services Manager Career Ladder
 
-The next steps for the Sr. Manager SSM Job Family would be to move to a Director, Success Services job family.
+The next steps for the Sr. Manager Success Services Manager Job Family would be to move to a Director, Success Services job family.
 
 ## Director, Success Services
 
