@@ -1,5 +1,5 @@
 --
-title: "Accounting"
+title: "International Accounting"
 ---
 
 ## International Accountant
@@ -25,6 +25,7 @@ The International Accountant is a [grade 6](/handbook/total-rewards/compensation
 - Proficient with Excel, GSuite and Slack
 - You share our [values](/handbook/values/), and work in accordance with those values.
 
+- Ability to use GitLab
 
 ---
 title: "Accounting"
