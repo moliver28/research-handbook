@@ -38,6 +38,7 @@ The RSSM is a job grade level 6.
 ### RSSM Performance Indicators
 
 - [Regional (AMER, EMEA or APJ) Services bookings and revenue per agreed plan](handbook/sales/#performance-indicators)
+- Customer Satisfaction
 
 ### RSSM Career Ladder
 
@@ -80,6 +81,7 @@ The Sr. RSSM is a job grade level 7.
 
 - [Regional (AMER, EMEA or APJ) Services bookings and revenue per agreed plan](handbook/sales/#performance-indicators)
 - Successful launch and adoption of new service offerings
+- Customer Satisfaction
 
 ### Sr. RSSM  Career Ladder
 
@@ -118,7 +120,7 @@ The Manager, RSSM is a job grade level 8.
 
 - [Services bookings and revenue per agreed plan](handbook/sales/#performance-indicators)
 - Successful launch and adoption of new service offerings
-- Team Retention
+- Customer Satisfaction
 
 ### Manager, RSSM Career Ladder
 
@@ -163,7 +165,7 @@ The Sr. Manager RSSM is a job grade level 9.
 
 - [Services bookings and revenue per agreed plan](handbook/sales/#performance-indicators)
 - Successful launch and adoption of new service offerings
-- Team Retention
+- Customer Satisfaction
 
 ### Sr. Manager RSSM Career Ladder
 
