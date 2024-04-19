@@ -126,10 +126,9 @@ Let's take a detailed look at the repository (**Code -> Repository**):
      - <img src="new_branch.png" width="500">
 1. First let's make sure the `build-ds-image` will get triggered, which will build the container our model will run in. This job of the pipeline is only activated when changes are detected in **Dockerfile** or **requirements.txt**. So let's make a change:
      - Edit **Dockerfile**, replacing the maintainer value with your GitLab handle and commit the change to your branch. ![Edit Dockerfile](edit_dockerfile.png)
-1. If running from a Free account:
-     - GPU runners are available at the Premium and Ultimate tiers. If using a Free account, also edit `.gitlab-ci.yml` to switch to a shared CPU runner
-     - Change the `train-commit-activated` `tag:` from `saas-linux-medium-amd64-gpu-standard` to `saas-linux-small-amd64`. This can also be used to scale up or down the runner as needed.
-     - Under `script`, change `papermill -p is_local_development False -p tree_method 'gpu_hist' $notebookName -` to `papermill -p is_local_development False $notebookName -`. This defaults the notebook to using CPU rather than GPU. ![Edit CI](edit_ci.png)
+1. Configure your runners:
+     - GPU runners are available at the Premium and Ultimate tiers. If enabled, edit `.gitlab-ci.yml` and change the value of `TRAIN_RUNNER` to GPU runner (i.e. `saas-linux-medium-amd64-gpu-standard`). 
+     - The default `saas-linux-small-amd64` will work for all account types.
 1. Edit **config.yaml**
      - Change `n_trials` to a new value between `10` and `20`.
      - For the commit message enter `train notebooks/training_example.ipynb`. This will tell the GitLab that you want to execute the training CI pipeline on the **training_example.ipynb** notebook found in the notebooks directory. Commit the change. ![Edit Config](edit_config.png)
