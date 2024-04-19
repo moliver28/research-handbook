@@ -294,6 +294,8 @@ Demo Link - see https://handbook.gitlab.com/handbook/engineering/infrastructure/
 1.
 </details>
 
+/label ~"team::Switchboard" ~"workflow-infra::Triage" 
+
 ```
 </details>
 
