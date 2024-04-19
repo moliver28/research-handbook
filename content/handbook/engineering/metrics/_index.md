@@ -120,6 +120,22 @@ The Engineering Manager for each team is ultimately responsible for ensuring tha
 
 Classifying work types may require context. All work to deliver a feature with security, performance and quality meeting the [definition of done](https://docs.gitlab.com/ee/development/contributing/merge_request_workflow.html#mr-merge) should be classified as feature work. For example if you are anticipating the performance needs of a feature and implement an application limit as part of the introduction of that feature it should be classified as `feature:addition`. If you discovered an issue scaling an existing feature and implemented an application limit that issue would likely start as a bug and the associated MR would be classified as `bug:performance`.
 
+#### More examples of classifications
+
+Below are additional examples to guide you when questions arise about classifying your MRs. These edge cases are designed to help clarify the distinctions between categories, ensuring that each piece of work is accurately captured. Refer to these scenarios to better understand how to categorize tasks that may not fit neatly into standard classifications.
+
+- `~"type::feature"`
+	- An addition made to an available feature that was not part of the original acceptance criteria
+	- A change made to a feature that was **not** available to all users through a feature flag
+	- Additions to an API
+	- Iterative MRs created to complete a full feature
+- `~"type::bug"`
+	- Missing functionality that was part of original acceptance criteria
+- `~"type::maintenance"`
+	- Upgrade of a dependency
+	- Bumping a version without code changes
+	- Docs only update
+
 ### Type labels on merged MRs
 
 As of %16.7, with certain [internal projects](https://gitlab.com/gitlab-com/Product/-/issues/12779), type labels are locked once an associated MR is merged. More details can be found in the [feature implementation issue](https://gitlab.com/gitlab-org/gitlab/-/issues/408676).
