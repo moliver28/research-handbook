@@ -98,6 +98,7 @@ Switchboard team process to refine epics:
 1. Identify any missing requirements
    - All team members ask questions in the comments of this issue to drive out any edge cases
 1. DRI labels the epic as ~"workflow-infra::Ready"
+1. DRI ensures Epic Kick-Off is complete - see [Epic Template](#epic_template)
 1. Assign Due Date & Start Date
    - DRI, EM & PM work together to assign due date based on team capacity, external deadlines and amount of work involved
 1. DRI identifies at least one demo that will be delivered with the epic and adds a brief outline to the epic description (see [Switchboard Demos](#switchboard_demos)).
@@ -217,4 +218,82 @@ There are two groups for Switchboard, [Reviewers and Maintainers](https://gitlab
 * When a team member is fully onboarded and feel confident in their knowledge of the codebase they are invited to the Maintainer group.
 
 
+#### Epic Template
+
+<details><summary>Epic Template</summary>
+
+```
+DRI:
+
+### Participants
+*
+
+### Problem to solve
+
+Video Walkthrough from Product:
+
+### Intended users
+
+
+### User experience goal
+
+
+### Proposal
+
+
+### Open Questions
+
+
+### Further details
+
+
+### Permissions and Security
+
+
+### Documentation
+
+* Publicly Accessible Documentation:
+
+### Epic Kick-Off
+* [ ] Video walkthrough from Product outlining expectations
+* [ ] DRI identified
+* [ ] Roll out plan agreed
+* [ ] External customer communication plan defined
+* [ ] Copy Defined and Agreed with Technical Writer
+* [ ] UX Defined and Agreed with UX Designer
+* [ ] Documentation Requirements captured in an issue
+* [ ] Outstanding Questions
+
+### Roll out Plan
+
+<!--
+If visible to external customers
+    - Is external communication required?
+    - Will this be rolled out in pieces as implemented or available internally first?
+-->
+
+### Links / references
+
+*
+
+### Demo Description
+
+Demo Link - see https://handbook.gitlab.com/handbook/engineering/infrastructure/team/gitlab-dedicated/switchboard/#switchboard-demos
+
+---
+
+### Status YYYY-MM-DD
+
+1.
+
+<details>
+<summary>Previous status updates</summary>
+
+### Status YYYY-MM_DD
+
+1.
+</details>
+
+```
+</details>
 
