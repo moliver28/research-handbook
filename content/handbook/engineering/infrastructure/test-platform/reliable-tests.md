@@ -172,7 +172,10 @@ for issue link.
 - **Reliable Tests**: Run as part of
   the [release process across staging, canary, and production](/handbook/engineering/infrastructure/test-platform/debugging-qa-test-failures/#qa-test-pipelines)
   in the `qa-reliable` jobs.
-- **Blocking Tests**: Executed in MRs and master in `gdk-qa-blocking` jobs for ongoing quality assurance.
+- **Blocking Tests**: 
+  - Executed in MRs and master in `gdk-qa-blocking` jobs for ongoing quality assurance.
+  - Also executed in `gdk-qa-blocking-ff-inverse` jobs in MRs that include feature flag changes to validate the tests in both feature flag states.
+
 
 ## Future Iterations
 

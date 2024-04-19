@@ -69,6 +69,15 @@ Like [Single Engineer groups](/handbook/engineering/incubation/), each Product S
 - New projects should follow the ["Creating a new project"](/handbook/engineering/gitlab-repositories/#creating-a-new-project) engineering guidance
 - Unless the effort is AppSec automation, the workflow ends by handing over the feature to a Product team
 
+#### Refinement Cadence
+
+Product Security Engineering team members are responsible for performing refinement on issues that we may potentially take on. We aim to do refinement on a regular basis, which helps to ensure our Milestone Planning process is smooth and efficient.
+
+It is expected that Product Security Engineering team members will do refinement tasks throughout the milestone. It is up to the individual to decide how they want to accomplish this, some ideas include:
+
+- Setting aside a specific amount of time per week on the calendar to perform refinement
+- Refining issues in-between major context switches, for example after submitting a merge request for review but before picking up the next piece of work
+
 #### Step-by-step refinement process
 
 Below is a step-by-step process for team members to walk through when refining backlog issues. We try our best to adhere to [existing GitLab development team standards](https://handbook.gitlab.com/handbook/product-development-flow/), so that the work can be picked up by anyone.
@@ -76,6 +85,7 @@ Below is a step-by-step process for team members to walk through when refining b
 1. Choose an issue to refine
     1. Unrefined issues are labeled `~workflow::validation backlog` (or perhaps have no `~workflow::` label)
     1. You may also consider refining an issue labeled `~ProdSecEng Candidate`
+    1. If possible, timebox refinement to at most 1 hour per issue
 1. Get an understanding of what the issue is trying to accomplish
     1. You may need to ask questions of the person who created the issue or the relevant teams
     1. Ensure there is a clear definition of done for this particular set of work

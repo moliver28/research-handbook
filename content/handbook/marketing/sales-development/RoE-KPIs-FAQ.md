@@ -25,7 +25,7 @@ This page is part of the Sales Development team's handbook [page](https://handbo
 
 **Yes:** It is worked by the BDR Assigned. <br>
 
-**No:** Check to see if there are leads related to the account that have activity using this report
+**No:** Check to see if there are leads related to the account that have activity using [this report](https://gitlab.my.salesforce.com/00O8X000008RfvU)
 When you modify this report based on company name and email domain, do you see any activity in the last 30 days? <br>
 **Yes:** It is worked by the BDR Assigned <br>
 **No:** It is worked by the SDR Team.
@@ -100,6 +100,12 @@ If the related SDR relays information that was not picked up in the new SDR’s 
 **A:** SDRs get credit for opportunities where the SDR had meaningful two way communication with a prospect 60 days before they bought GitLab through our website. The best way to search for a web direct opportunity is to use [this report](https://gitlab.my.salesforce.com/00O4M000004dkX4). First, set the date range to the time you think the prospect would have bought. Next, find the opportunity that is tied to your prospect’s account. Then follow the process to request SAO credit.
 Note: Sometimes someone else from your prospect’s company actually made the GitLab purchase, leading to the opportunity being related to them instead
 
+**Q:** How do I request credit for a web direct opportunity? <br> 
+**A:** On the opportunity record in Salesforce, compose a new Chatter message that includes the following:
+1. Tag a member of the Operations Team (Ramona Elliott or Ed Bao) or the Director of Global Commercial Sales Development (Brian Tabbert). **Do not tag Sales Support Yourself**
+2. Include a link to the record in Salesforce that shows your related two-way activity in the past 60 days. If your related activity is a phone call, you must have entered the details of the phone call into the Qualification Notes field on the lead record at the time of the call in order for it to be considered. Qualification Notes entered after the Web Direct opportunity has been created will not be considered for credit.
+3. Explain how you influenced their decision to purchase GitLab (helped with evaluation, uncovered a need, provided value, etc)
+The Operations team and/or Director will review the information and decide whether SAO credit is warranted. If confirmed, they will Chatter Sales Support to add you to the opportunity. If rejected, they will communicate to you the reasoning for their decision.
 
 ### RoE Common Questions
 
@@ -179,6 +185,60 @@ Announcement Channels
 | Tier upgrade | BDR | Growth | Comm/Ent | 1 | Growth ASP |
 | GitLab ultimate/premium, agile planning | everyone | All motions | All segments | 1 (agile planning is excluded) | See above for license ASP |
 | Professional services | everyone | All motions | All segments | 0 | NA |
+
+### Sales Development Org Compensation Breakdown
+| ------------------------------------------------ |
+| **Quota Components Depending on Sales Segment** |
+| [Sales Accepted Opportunities (SAOs)](/https://about.gitlab.com/handbook/marketing/sales-development/#qualification-criteria-and-saos) |
+| [ARR](/handbook/sales/sales-term-glossary/arr-in-practice) pipeline component |
+| 2-way communication must be documented on the Contact in the Opportunity to receive credit. Opportunities missing this documentation will not be considered for compensation and will not retire quota. |
+| For BDRs and SDRs who have SAO/ARR goals, compensation is based on the SAO attainment. ARR attainment is a qualifier for accelerator payments. Our aim is to land net new logos and expand to new customer business units, SAOs being our quantity metric and ARR our quality metric. Our mission is to create good qualified pipeline for the company. SAO credit is given for licenses and not for PS Opportunities (for training, for example) nor pipeline minutes. |
+| **Team Member OTE (SDR/MM BDR, APAC BDR, & Pub Sec)** |
+| 70% Base Pay |
+| 30% Variable Pay: |
+| - 100% Individual SAO Quota: |
+|   - No floor or ceiling |
+|   - Accelerator x 1.5 after meeting 100% of target |
+|   - 1.3 x High LAM New Logo Kicker for APAC/Pub Sec BDRs |
+| **Team Member OTE (ENT BDR Strategic)** |
+| 70% Base Pay |
+| 30% Variable Pay: |
+| - 80% Individual Quota: |
+|   - 20% Growth SAOs |
+|   - 60% First Order SAOs |
+|   - 1.3 x High LAM New Logo Kicker |
+|   - No floor or ceiling |
+|   - Accelerator x 1.75 after meeting 100% of target of either SAO type for that type |
+| - 20% Pooled Net ARR Bookings: |
+|   - 75% Floor |
+|   - Ceiling of 140% |
+|   - Accelerator x 1.25 from 100% to 140% |
+| **Team Member OTE (ENT BDR Major)** |
+| 70% Base Pay |
+| 30% Variable Pay: |
+| - 80% Individual Quota: |
+|   - 50% SAOs |
+|   - 1.3 x High LAM New Logo Kicker |
+|   - No floor or ceiling |
+|   - Accelerator x 1.75 after meeting 100% of SAO target |
+|   - 30% Net ARR Pipeline |
+|   - No floor with a 200% ceiling, no accelerator |
+| - 20% Pooled Net ARR Bookings: |
+|   - 75% Floor |
+|   - Ceiling of 140% |
+|   - Accelerator x 1.25 from 100% to 140% |
+| **Results** |
+| - ARR won from opportunities BDR sources |
+| **Activity** |
+| - Number of opportunities created |
+| - Number of calls made |
+| - Number of personalized emails sent |
+| - LinkedIn InMails |
+| - Qualified Engagements |
+| - Number of leads accepted and worked |
+| **Daily outbound metrics** |
+| - We aim for 45 touchpoints per day using the various methods above. This is a broad expectation and may vary per team given the segment, functionality, and strategy of the team manager. |
+
 
 ### Company Address Based Routing Information 
 

@@ -29,7 +29,7 @@ The general process for promotions is:
 ## Promotion Document
 
 The promotion document template can be found in the
-[Promotiom document section of the Promotions and Transfers handbook page](/handbook/people-group/promotions-transfers/#promotion-document). This section of the handbook provides a lot of guidance on how to complete your document. Spend some time reading through it before you begin your document. You can refer to [completed Support team promotion documents](https://handbook.gitlab.com/handbook/support/workflows/team/promotions/#completed-promotion-documents) to see examples of what to include in each section of the document.
+[Promotion document section of the Promotions and Transfers handbook page](/handbook/people-group/promotions-transfers/#promotion-document). This section of the handbook provides a lot of guidance on how to complete your document. Spend some time reading through it before you begin your document. You can refer to [completed Support team promotion documents](https://handbook.gitlab.com/handbook/support/workflows/team/promotions/#completed-promotion-documents) to see examples of what to include in each section of the document.
 
 Business Results and Business Justifications section should closely align with
 the expected competencies for the role as laid out in:

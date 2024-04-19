@@ -824,7 +824,7 @@ Should you prefer to continue to contribute to an issue under active development
   - [Secondary features (improvements)](#improvements)
   - [Illustrations](#illustrations) (screenshots, gifs, or videos)
   accompanying their respective features
-- [Usability improvements, performance improvements and bug fixes](#usability-improvements-performance-improvements-and-bug-fixes)
+- [UI improvements, performance improvements and bug fixes](#ui-improvements-performance-improvements-and-bug-fixes)
 - [Omnibus improvements](#omnibus-improvements) (added as a secondary feature)
 - [Important notes on upgrading](#important-notes-on-upgrading) (optional)
 - [Deprecations and removals](#deprecations-and-other-planned-breaking-change-announcements)
@@ -1110,13 +1110,13 @@ Upgrade warnings should be added to the release post **only to describe importan
 If there's no relevant info to a given release, do not add this section
 to the post.
 
-### Usability improvements, performance improvements, and bug fixes
+### UI improvements, performance improvements, and bug fixes
 
-The release post will link directly to closed issues for the relevant milestone filtered by the following labels:
+The release post will link directly to closed issues or merge requests for the relevant milestone filtered by the following labels:
 
 - Bug fixes: `type::bug` `workflow::complete` `workflow::verification` `workflow::production`
 - Performance improvements: `bug::performance` `workflow::complete` `workflow::verification` `workflow::production`
-- Usability improvement: `SUS::impacting` `workflow::complete` `workflow::verification` `workflow::production`
+- UI improvements: `UI polish` `Beautifying our UI` `UX Paper Cuts`
 
 `workflow::verification` and `workflow::production` are being included while we adopt the [addition of the `workflow::complete` label](/handbook/product-development-flow/#required-labels-2). `workflow::complete` is the desired label to indicate an issue is considered by users to be delivered.
 
