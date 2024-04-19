@@ -55,7 +55,7 @@ You should then employ the following workflows for:
       - Low FRT 8h, NRT 24h
    - During periods of reduced operational capacity, such as holidays or company events, the Support team will prioritize handling all incoming tickets through the special ‘All FRT and Emergencies’ and ‘All NRT’ views, with each engineer expected to take ownership of any unassigned tickets they address.
 
-## First Response and Ongoing Communication
+## First response and ongoing communication
 
 When starting work on a ticket, prioritize these steps to effectively address the customer's needs and streamline the resolution process:
    - **Confirm Understanding:** Begin by confirming in the first reponse your understanding of the customer's situation, needs, and the problem or question they need resolved. If unsure, request clarification or propose a brief meeting to discuss details.
