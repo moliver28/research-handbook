@@ -6,6 +6,7 @@ description: How to launch a product or service at GitLab.
 {{% include "includes/product-handbook-links.md" %}}
 
 ## Context
+
 Launching a product or service at GitLab involves coordination across a wide range of teams. Launching products smoothly is a critical part of delivering value to the customer, ensuring a positive customer experience, and positioning us to meet our financial targets. Our ability to efficiently manage the New Product Introduction (NPI) process will become increasingly important as we bring new products to market more frequently. To ensure that we launch new product offerings, service offerings, or SKUs effectively; we require a set of steps that happen in phases.
 
 To launch features into our existing product set and tiers, use [this process](https://handbook.gitlab.com/handbook/product/tiering-guidance-for-features/) instead.
@@ -59,11 +60,11 @@ The project should have both a DRI and a Program Manager. **The DRI** drives the
 
 ### Step 2: Write up the details of the product or service
 
-The DRI should create a business plan based on an NPI Planning Info Sheet to communicate how you’ve defined the specific product or service that is being launched. At this point in the project you may not have all the details - use this resource as a starting point to help you and your stakeholders understand what still needs to be resolved cross-functionally over the course of the project.
+The DRI should create a business plan based on an NPI Planning Info Sheet (template not finalized, to be linked once done) to communicate how you’ve defined the specific product or service that is being launched. At this point in the project you may not have all the details - use this resource as a starting point to help you and your stakeholders understand what still needs to be resolved cross-functionally over the course of the project.
 
 Ideally at this point you will already know the pricing structure, but if not, a conversation with the Pricing Committee is needed:
 
-1. Contact Justin Farris's [EBA](https://handbook.gitlab.com/handbook/eba/#:~:text=Jennifer%20Garcia%0AEBA-,Justin%20Farris,-(VP%20of%20Product) to schedule time with the Pricing Committee (currently Sean Hall and Justin Farris)
+1. Contact Justin Farris's [EBA](https://handbook.gitlab.com/handbook/eba/#:~:text=Jennifer%20Garcia%0AEBA-,Justin%20Farris) to schedule time with the Pricing Committee (currently Sean Hall and Justin Farris)
 1. Pricing will review the product or services brief and follow up within a week for any clarifying questions, and suggest the right level of research needed to arrive at a recommendation.
 1. Pricing team will conduct required research following our process, and pricing principles. Depending on the complexity of the offer, and potential market size this research could take a couple of weeks, up to a few months to complete.
 1. Pricing team will make a recommendation of what business model the product/service should have (e.g. fixed fee, subscription, consumptive, add-on, new tier), and recommend a price point or range to consider for the offering
