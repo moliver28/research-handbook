@@ -79,6 +79,7 @@ The NPI SteerCo will advise on whether there are available resources to complete
 Once the NPI SteerCo has given your project the go-ahead, it’s time to get the rest of the stakeholders aligned. Reminder: there are many steps required to deliver a net new SKU; this isn't a process for processes-sake. We’ve learned through multiple NPI projects that this kind of work can’t be completed efficiently without clear communication and transparency in the process (NPI's might be [limited access](https://handbook.gitlab.com/handbook/communication/confidentiality-levels/#limited-access) in which case, details would not be open to all team members only those that need-to-know).
 
 The Program Manager should begin coordinating efforts and identifying the relevant stakeholders across the organization. We recommend hosting the following meetings as soon as possible in order to kickoff the project:
+
 1. Stakeholder kickoff (process-focused): Meeting with all NPI stakeholders to launch the process: share overview of timeline, milestones, what success looks like, expected challenges.
 2. Product review (product-focused): Product Manager to present overview to all stakeholder teams. This is a deeper dive than stakeholder kickoff, and more focused on the product. GTM teams use this information for additional due diligence & clarity, and as an input to start developing their own strategies and roadmaps. (e.g. Deal Desk may have questions around usage boundaries, approval processes for non-standard steps, etc.)
 
