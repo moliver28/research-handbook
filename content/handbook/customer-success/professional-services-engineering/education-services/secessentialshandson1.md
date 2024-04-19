@@ -30,7 +30,15 @@ Please take time to understand any code that you are asked to copy and paste in 
 
 ### Self-Paced Training:
 
-1. The system then prompts you for your **GitLab.com** username. Enter your GitLab.com user (excluding the leading @ sign) in the field provided. Select **Provision Training Environment**.
+1. For self-paced courses, you will need your **GitLab.com** username. To find your username, navigate to [Gitlab](https://gitlab.com).
+
+1. In the left sidebar, select your profile image.
+
+1. In the resulting dropdown, you will see a value starting with `@`. This is your GitLab username.
+
+1. After inputting your invitation code, the portal prompts you for your **GitLab.com** username. Enter your GitLab.com user (excluding the leading `@` sign) in the field provided. 
+
+1. Select **Provision Training Environment**.
 
 1. Select **My Group** at the bottom of the page.
 
@@ -39,6 +47,8 @@ Please take time to understand any code that you are asked to copy and paste in 
 1. You will be redirected to a **My Test Group** group that provides a sandbox for you to perform training lab steps in.
 
     > This group has a GitLab Ultimate license to see all of the features while your personal username namespace requires a paid subscription or a free trial to access all of the features.
+
+    > If you receive a 404 error when accessing your group, it is likely due to the username input during the lab provisioning. Double check your GitLab username to make sure it is entered correctly.
 
 1. From your **My Test Group** training subgroup, click the **New project** button.
 

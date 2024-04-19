@@ -5,8 +5,6 @@ description: "This Hands-On Guide walks you through the lab exercises used in th
 
 > Estimated time to complete: 30 minutes
 
-> **We are transitioning to the latest version of this course.**  If your group URL starts with `https://spt.gitlabtraining.cloud`, please use the [Version 15.x instructions](https://gitlab.com/gitlab-com/content-sites/handbook/-/blob/d14ee71aeac2054c72ce96e8b35ba2511f86a7ca/content/handbook/customer-success/professional-services-engineering/education-services/gitbasicshandsonlab1.md).
-
 ## Objectives
 
 A GitLab Project is a repository where you can store your code, as well as supplemental files such as configuration files. You can also use projects to track issues, plan work, collaborate on code, and continuously build, test, and use built-in CI/CD to deploy your app. You can find out more information about GitLab projects in the [documentation](https://docs.gitlab.com/ee/user/project/organize_work_with_projects.html)
@@ -21,11 +19,19 @@ GitLab provides various tools for tracking and managing projects. In this lab, y
 
 1. Select **Provision Training Environment**.
 
-> Note: The login details for accessing the environment are slightly different between self-paced training and instructor-lead training. Please follow the instructions that suit your needs. 
+    > Note: The login details for accessing the environment are slightly different between self-paced training and instructor-lead training. Please follow the instructions that suit your needs. 
 
 ### Self-Paced Training:
 
-1. The system then prompts you for your **GitLab.com** username. Enter your GitLab.com user (excluding the leading @ sign) in the field provided. Select **Provision Training Environment**.
+1. For self-paced courses, you will need your **GitLab.com** username. To find your username, navigate to [Gitlab](https://gitlab.com).
+
+1. In the left sidebar, select your profile image.
+
+1. In the resulting dropdown, you will see a value starting with `@`. This is your GitLab username.
+
+1. After inputting your invitation code, the portal prompts you for your **GitLab.com** username. Enter your GitLab.com user (excluding the leading `@` sign) in the field provided. 
+
+1. Select **Provision Training Environment**.
 
 1. Select **My Group** at the bottom of the page.
 
@@ -34,6 +40,8 @@ GitLab provides various tools for tracking and managing projects. In this lab, y
 1. You will be redirected to a **My Test Group** group that provides a sandbox for you to perform training lab steps in.
 
     > This group has a GitLab Ultimate license to see all of the features while your personal username namespace requires a paid subscription or a free trial to access all of the features.
+
+    > If you receive a 404 error when accessing your group, it is likely due to the username input during the lab provisioning. Double check your GitLab username to make sure it is entered correctly.
 
 1. From your **My Test Group** training subgroup, click the **New project** button.
 
@@ -53,9 +61,7 @@ GitLab provides various tools for tracking and managing projects. In this lab, y
 
 1. Click on the '**Create a project tile**.
 
-
-
-> Note: From this point forward, both the self-paced training and the instructor-lead training can follow the same instructions.
+    > Note: From this point forward, both the self-paced training and the instructor-lead training can follow the same instructions.
 
 ## Task B. Create a project
 
