@@ -1,11 +1,17 @@
 ---
 title: "Success Services Management"
-Description: "The Success Services Management team ensures our paid success offering is impactful for our cusotmers and that the field teams are supported in selling and delivering it."
+Description: "The Success Services Management team ensures our paid success offering is impactful for our customers and that the field teams are supported in selling and delivering it."
 
 ---
 
+## Success Services Management 
 
-## Success Services Manager (SSM)[](url)
+The Success Services Management team ensures our paid success offering is impactful for our customers and that the field teams are supported in selling and delivering it.
+
+The Success Services Manager (SSM) role at GitLab is expected to serve and operate in the following ways and have product and domain knowledge.  The depth of knowledge in each area will progress within the SSM career ladder.
+
+
+## Success Services Manager (SSM)
 
 The Success Services Manager is responsible for driving the success and adoption of our paid success plan offerings and services within a designated region (EMEA, AMER or APJ). This role involves working closely with their peers to tailor our global offerings to the unique needs of their region's customers, ensuring high customer satisfaction, retention, and growth. The role will collaborate with sales, customer success, and support teams to deliver exceptional service and drive business outcomes.  The role is considered a sales overlay role to drive customer adoption of Success Services.
 
