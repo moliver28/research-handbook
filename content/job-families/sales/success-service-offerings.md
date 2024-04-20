@@ -72,6 +72,12 @@ The Senior CSA is a job grade [level 7](/handbook/total-rewards/compensation/com
 
 The Director, Success Services is a strategic leader, blending technical acumen with a customer-centric approach. They are accountable for shaping, developing, and delivering our innovative paid success plan offerings and service designs, focusing on exceeding the evolving needs of our customers. The director role involves coordinating with various internal and external stakeholders to set a long-term vision and strategy for our Service offerings, ensuring they align with company goals and drive customer value and business growth.
 
+The Director, Success Services reports to the VP, Customer Success 
+
+#### Director, Success Services Job Grade
+
+The Director, Success Services is a job grade [level 10](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+
 ### Director, Success Services Responsibilities:
 
  - Strategic Leadership: Develop and articulate a clear vision for paid success plan offerings, ensuring alignment with company goals and customer needs.
