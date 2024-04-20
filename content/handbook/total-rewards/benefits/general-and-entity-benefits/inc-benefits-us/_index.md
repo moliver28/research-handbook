@@ -170,7 +170,7 @@ Cigna plans are available to team members located in all US states, with the exc
 
 In Network:
 
-| Plan Details               | [2024 Cigna HDHP - HSA](https://drive.google.com/file/d/1N80QyfcQuJhBpSmEXEVXlK0af_4qziGE/view?usp=sharing) <br>  [Lean about this plan here](https://gitlab.com/gitlab-com/content-sites/handbook/-/blob/0e31cb757a15eb669636bc33d41a9abd0c17fcfd/content/handbook/total-rewards/benefits/general-and-entity-benefits/inc-benefits-us/_index.md#:~:text=2024%20High%20Deductible%20(HDHP)%20%26%20HSA%20Deep%20dive%20Webinar) | [2024 Cigna EPO (PPO $0)**](https://drive.google.com/file/d/12VZeqYPUlh2m8UWanEOGT3WroQsotuXh/view?usp=sharing)  | [2024 Cigna PPO 500***](https://drive.google.com/file/d/18GAbC5h1Rr2iC1RjNG_8Y-tWbh2IwH7q/view?usp=sharing)|
+| Plan Details               | [2024 Cigna HDHP - HSA](https://drive.google.com/file/d/1N80QyfcQuJhBpSmEXEVXlK0af_4qziGE/view?usp=sharing) <br>  [Webinar on this plan here](https://drive.google.com/file/d/1DEvMLEdiR793GXKGcUzt8F6lweJVMYVb/view?usp=sharing) | [2024 Cigna EPO (PPO $0)**](https://drive.google.com/file/d/12VZeqYPUlh2m8UWanEOGT3WroQsotuXh/view?usp=sharing)  | [2024 Cigna PPO 500***](https://drive.google.com/file/d/18GAbC5h1Rr2iC1RjNG_8Y-tWbh2IwH7q/view?usp=sharing)|
 |:---------------------------|:----------------------:|:------------------:|:-----------------:|
 | Deductible (Single/Family) | $2,000 / 3,200     | $0 / $0            | $500 / $1,000     |
 | Out of Pocket Max (Single/Family)    | $4,000 / $8,000        | $2,500 / $5,000    | $3,000 / $6,000   |
