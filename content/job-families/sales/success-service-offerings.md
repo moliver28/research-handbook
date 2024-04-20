@@ -10,7 +10,7 @@ The Success Services Management team ensures our paid success offering is impact
 
 ### Performance Indicators
 
-As with all roles in the Sales Department, the Solutions Architect participates in a subset of the [Sales KPIs](https://internal-handbook.gitlab.io/handbook/company/performance-indicators/sales/#kpi-summary). Key priorities of these roles are to drive new (i.e., new logos) and growth bookings and contribute to sales efficiency.
+As with all roles in the Sales Department, the Success Services Management team participates in a subset of the [Sales KPIs](https://internal-handbook.gitlab.io/handbook/company/performance-indicators/sales/#kpi-summary). Key priorities of these roles are to meet success plan services revenue targets, and to contribute to meeting our growth ARR and renewal targets.
 
 ## Levels
 
@@ -57,32 +57,18 @@ The next steps for the Success Services Manager (Success Services Manager) Job F
 
 ## Senior Success Services Manager (Sr. Success Services Manager)
 
-The Senior Success Services Manager (Sr. Success Services Manager) is responsible for driving the success, adoption, and continuous improvement of our paid success plan offerings and services within a designated region (EMEA, AMER, or APJ). This role builds upon the foundation of the Success Services Manager (Success Services Manager) position, with a heightened focus on strategic planning, innovation, and cross-functional leadership. Additionally, they support and mentor others in the Success Services Manager role.
+[content to be added when the need for the role arises]
 
-The Sr. Success Services Manager reports to the Manager/Senior Manager/Director, Success Services Manager.
 
 ### Sr. Success Services Manager Responsibilities:
 
-- Strategic Planning: Develop and execute a long-term strategy for Success Services, considering market trends, customer needs, and global alignment.
-- Innovation and Development: Drive the ideation, design, and implementation of new and enhanced service offerings tailored to requirements.
-- Cross-functional Leadership: Provide guidance and mentorship to customer success, sales, and support teams to optimize service delivery and customer outcomes.
-- Customer Engagement: Work closely with customer success and support teams to ensure effective service delivery and customer satisfaction.
-- Pipeline Management: Collaborate with sales teams to drive sales pipeline of Success Services SKUs.
-- Performance Optimization: Analyze performance data, identify trends, and implement data-driven improvements to service offerings and processes.
-- Change Management: Lead change management initiatives related to service offerings, ensuring smooth transitions and adoptions.
-- Thought Leadership: Represent the company as a thought leader at industry events, conferences, and customer meetings.
+[content to be added when the need for the role arises]
+
 
 ### Sr. Success Services Manager Requirements:
 
-- Bachelor's degree in Business, Technology, or a related field. Master's degree preferred.
-- 5+ years proven experience in customer success, service delivery, or account management within the region, with a track record of leadership and strategic planning.
-- 5+ years of deep understanding of DevOps, software development lifecycle
-- Expert knowledge of market dynamics, cultural nuances, and business practices.
-- Exceptional communication and presentation skills, with the ability to engage and influence senior-level stakeholders.
-- Strong analytical and problem-solving skills, with the ability to derive insights from complex data.
-- Proven ability to lead and mentor cross-functional teams and drive change management initiatives.
-- Extensive experience with customer success metrics, KPIs, and reporting.
-- Willingness to travel frequently within the region and occasionally globally.
+[content to be added when the need for the role arises]
+
 
 ### Sr. Success Services Manager Job Grade
 
@@ -90,9 +76,8 @@ The Sr. Success Services Manager is a job grade level 7.
 
 ### Sr. Success Services Manager Performance Indicators
 
-- [(AMER, EMEA or APJ) Services bookings and revenue per agreed plan](handbook/sales/#performance-indicators)
-- Successful launch and adoption of new service offerings
-- Customer Satisfaction
+[content to be added when the need for the role arises]
+
 
 ### Sr. Success Services Manager  Career Ladder
 
@@ -111,6 +96,7 @@ The Manager, Success Services Manager reports to the Director, Success Services.
 - Executive Engagement: Engage with C-level customers and stakeholders to understand their strategic objectives, gather feedback, and ensure the highest level of customer satisfaction and loyalty.
 - Financial Management: Manage budgets, forecasting, and resource allocation to ensure the financial success and sustainability of service offerings.
 - Performance Tracking: Monitor and report on key performance indicators for service offerings, identifying trends and areas for improvement.
+
 
 ### Manager, Success Services Manager Requirements:
 
