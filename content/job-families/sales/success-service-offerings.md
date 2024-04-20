@@ -56,19 +56,19 @@ The Senior Success Services Manager reports to the Director, Success Services
 The Senior Success Services Manager is a job grade [level 7](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
 
-### Sr. Success Services Manager Responsibilities:
+### Senior Success Services Manager Responsibilities:
 
 [content to be added when the need for the role arises]
 
 
-### Sr. Success Services Manager Requirements:
+### Senior Success Services Manager Requirements:
 
 [content to be added when the need for the role arises]
 
 
 
 
-## Director, Success Services
+### Director, Success Services
 
 The Director, Success Services is a strategic leader, blending technical acumen with a customer-centric approach. They are accountable for shaping, developing, and delivering our innovative paid success plan offerings and service designs, focusing on exceeding the evolving needs of our customers. The director role involves coordinating with various internal and external stakeholders to set a long-term vision and strategy for our Service offerings, ensuring they align with company goals and drive customer value and business growth.
 
