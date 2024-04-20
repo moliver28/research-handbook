@@ -109,6 +109,7 @@ The Director, Success Services is a job grade [level 10](/handbook/total-rewards
 - Pipeline and Revenue created
 - Customer Satisfaction
 - Renewal of Service
+- [Customer adoption metrics](/handbook/customer-success/csm/)
 
 
 ## Career Ladder
