@@ -11,7 +11,7 @@ The Success Services Management team combines technical expertise with a custome
 ## Levels
 
 
-### Success Services Manager (Intermediate) 
+### Success Services Manager (Intermediate)
 
 The Success Services Manager (Intermediate) reports to the Director, Success Services
 
