@@ -19,18 +19,15 @@ The Success Services Manager (Intermediate) reports to the Manager/Senior Manage
 
 The SSM (Intermediate) is a job grade [level 6](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
-The Success Services Manager is responsible for driving the success and adoption of our paid success plan offerings and services within a designated region (EMEA, AMER or APJ). This role involves working closely with their peers to tailor our global offerings to the unique needs of their region's customers, ensuring high customer satisfaction, retention, and growth. The role will collaborate with sales, customer success, and support teams to deliver exceptional service and drive business outcomes.  The role is considered a sales overlay role to drive customer adoption of Success Services.
-
-The Success Services Manager reports to the Manager/Senior Manager, Success Services
 
 #### Success Services Manager Responsibilities:
 
+ - Drive the success and adoption of our paid success plan offerings and services within a designated region (EMEA, AMER or APJ)
  - Customer Engagement: Work closely with customer success and support teams to ensure effective service delivery and customer satisfaction.
  - Sales Enablement: Collaborate with sales teams to develop and deliver compelling service offerings, value propositions, and commercial collateral. Explain GitLab Services value proposition, catalog of service offerings, and methodologies.
  - Pipeline Management: Collaborate with sales teams to drive sales pipeline of Success Services SKUs.
  - Performance Tracking: Monitor and report on key performance indicators for service offerings, identifying trends and areas for improvement.
  - Continuous Improvement: Drive continuous improvement of service offerings based on customer feedback, performance data, and best practices.
- - Team Collaboration: Foster strong collaboration with global service offering teams to share insights, best practices, and ensure global alignment.
  - Stakeholder Management: Build and maintain strong relationships with key stakeholders, including customers, partners, and internal teams.
 
 ### Success Services Manager Requirements:
