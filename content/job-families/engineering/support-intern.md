@@ -38,7 +38,7 @@ When you’re not tackling difficult customer challenges, you may get to work on
 - added functionality to [ChatOps](https://docs.gitlab.com/ee/ci/chatops/) to make it easier to identify user accounts on GitLab.com
 - written a [Chrome Extension to route downloads from Zendesk tickets into organized folders](https://gitlab.com/gitlab-com/support/toolbox/zd-dl-router)
 - … [done even more](https://gitlab.com/gitlab-com/support/toolbox?sort=latest_activity_desc)!
-All interns will be responsible for completing a final project at the end of their internship. This could be an opportunity to improve support, the product, or a [Stage](/handbook/product/categories/#hierarchy). Interns will share a virtual poster and present to Engineering executives. 
+All interns will be responsible for completing a final project at the end of their internship. This could be an opportunity to improve support, the product, or a [Stage](/handbook/product/categories/#hierarchy). Interns will share a virtual poster and present to Engineering executives.
 ### Why are GitLab Engineering Interns placed in Customer Support?
 
 Products exist to serve customer needs, customer support exists for times when those needs aren't being met by the product or its documentation.
