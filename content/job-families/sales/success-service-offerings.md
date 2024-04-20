@@ -11,7 +11,7 @@ The Success Services Management team combines technical expertise with a custome
 ## Levels
 
 
-## Success Services Manager (Intermediate) 
+### Success Services Manager (Intermediate) 
 
 The Success Services Manager (Intermediate) reports to the Director, Success Services
 
@@ -46,14 +46,14 @@ The SSM (Intermediate) is a job grade [level 6](/handbook/total-rewards/compensa
  - Willingness to travel as required - up to 25%.
 
 
-## Senior Success Services Manager
+### Senior Success Services Manager
 
 
 The Senior Success Services Manager reports to the Director, Success Services
 
-#### Senior CSA Job Grade
+#### Senior Success Services Manager Job Grade
 
-The Senior CSA is a job grade [level 7](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+The Senior Success Services Manager is a job grade [level 7](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
 
 ### Sr. Success Services Manager Responsibilities:
