@@ -3,7 +3,7 @@ title: "Success Services Management"
 Description: "The Success Services Management team ensures our paid success offering is impactful for our customers and that the field teams are supported in selling and delivering it."
 ---
 
-## Success Services Management 
+## Success Services Management
 
 The Success Services Management team combines technical expertise with a customer-centric approach to shape, develop, and deliver innovative paid success plan offerings and service designs. This team is responsible for ensuring the effectiveness and impact of GitLab's paid success offerings while supporting field teams in selling and delivering these services. The team focuses on meeting success plan services revenue targets and contributing to the company's growth ARR and renewal targets.
 
