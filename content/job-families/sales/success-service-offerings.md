@@ -92,13 +92,16 @@ The Director, Success Services is a job grade [level 10](/handbook/total-rewards
 
 ### Director, Success Services Requirements:
 
- - Bachelor's degree in Business, Design, Technology, or a related field.
- - Deep experience in product/services design in a software or technology environment.
- - Understanding of DevOps, software development lifecycle
- - Proven track record in leading cross-functional teams and large-scale projects.
- - Exceptional communication, presentation, interpersonal, and training skills.
- - Experience with agile methodologies, design thinking, and customer success metrics.
- - High organizational skills and ability to manage multiple projects and deadlines.
+- Proven track record of building and maintaining strong relationships with sales teams and customers to drive revenue growth and customer satisfaction.
+- Deep understanding of the DevOps landscape, software development lifecycle, and the challenges faced by organizations adopting DevOps practices.
+- Excellent communication and interpersonal skills, with the ability to effectively collaborate with cross-functional teams, including sales, product management, engineering, and marketing.
+- Strong leadership and people management skills, with experience in building, mentoring, and managing high-performing teams.
+- Data-driven and analytical mindset, with the ability to leverage customer insights, usage metrics, and feedback to identify opportunities for improving services and reducing time to value.
+- Skilled in creating and delivering compelling presentations and demonstrations to showcase the value of success services to potential customers.
+- Ability to think strategically and execute tactically, balancing short-term wins with long-term objectives.
+- Strong project management skills, with the ability to prioritize and manage multiple initiatives simultaneously.
+- Experience in defining and tracking key performance indicators (KPIs) related to customer adoption
+
 
 
 ## Performance Indicators
@@ -130,8 +133,4 @@ Candidates for this position can expect the hiring process to follow the order b
 Additional details about our process can be found on our [hiring page](/handbook/hiring/).
 
 
-### Success Services Manager Performance Indicators
-
-- [(AMER, EMEA or APJ) Services bookings and revenue per agreed plan](handbook/sales/#performance-indicators)
-- Customer Satisfaction
 
