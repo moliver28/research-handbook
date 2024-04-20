@@ -41,6 +41,7 @@ When you’re not tackling difficult customer challenges, you may get to work on
 All interns will be responsible for completing a final project at the end of their internship. This could be an opportunity to improve support, the product, or a [Stage](/handbook/product/categories/#hierarchy). Interns will share a virtual poster and present to Engineering executives.
 ### Why are GitLab Engineering Interns placed in Customer Support?
 
+
 Products exist to serve customer needs, customer support exists for times when those needs aren't being met by the product or its documentation.
 
 Developing an empathy for and understanding of customer pain points is a career accelerator. No matter where you intend to go in your career, even outside of Engineering, getting [Results for Customers](/handbook/values/#results)
