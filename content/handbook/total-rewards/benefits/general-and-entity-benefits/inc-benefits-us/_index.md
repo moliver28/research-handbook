@@ -109,7 +109,11 @@ Once approved, coverage will be backdated to the date of the event.
 
 Please see the [FSA](https://handbook.gitlab.com/handbook/total-rewards/benefits/general-and-entity-benefits/inc-benefits-us/#flexible-spending-account-fsa-plans-) and [HSA](https://handbook.gitlab.com/handbook/total-rewards/benefits/general-and-entity-benefits/inc-benefits-us/#health-savings-account-hsa) section of the Handbook for details on Mid-Year Qualifying Life Event changes to these plans.
 
-##### Process for submitting a QLE
+</details>
+
+<details markdown="1">
+
+<summary>Process for submitting a Qualifying Life Event</summary>
 
 1. Log into [PlanSource]({{< ref "inc-benefits-us#logging-into-plansource" >}})
 1. Select `Update your current Benefits`.
@@ -130,9 +134,13 @@ If your Qualifying Life Event requires documentation the steps below will follow
 1. Upload the documentation in to PlanSource.
 1. Once submitted the Total Rewards Team will review your request and documentation for approval.
 
+</details>
+
+## Group Medical Coverage
 GitLab offers plans from Cigna, as well as additional Kaiser options for residents of California. Hawaii residents are offered Kaiser options for medical plan enrollment. For those who actively waive medical coverage, GitLab offers a medical allowance.
 
 If you do not enroll in a plan within your benefits election period, you will automatically be enrolled in the High Deductible Health Plan (HDHP), with no HSA.
+
 
 GitLab has confirmed that our medical plans are CREDITABLE. page 10 of the [2023 Annual Notice](https://drive.google.com/file/d/1ku6hO8_ckJL49MLqOfFchIq_L4GblksZ/view?usp=sharing) and page 9 of the [2024 Annual Notice](https://drive.google.com/file/d/1fB5r88VUiydWz3pFk76DFK3h5DTyVaDw/view?usp=sharing) of the If you or your dependents are Medicare eligible or are approaching Medicare eligibility, you will need this notice to confirm your status when enrolling for Medicare Part D. For more information about Medicare prescription drug coverage:
 
@@ -141,6 +149,10 @@ GitLab has confirmed that our medical plans are CREDITABLE. page 10 of the [2023
 - Call 1-800-MEDICARE (1-800-633-4227). TTY users should call 1-877-486-2048.
 
 Please see the [2024 Annual Notice](https://drive.google.com/file/d/1fB5r88VUiydWz3pFk76DFK3h5DTyVaDw/view?usp=sharing) for all of GitLab’s notices surrounding the Health and Welfare plans & contacts
+
+## PlanSelect Tool
+
+**Need help selecting a plan? Check out the [PlanSelect Tool](https://gitlab.com/gitlab-com/content-sites/handbook/-/blob/0e31cb757a15eb669636bc33d41a9abd0c17fcfd/content/handbook/total-rewards/benefits/general-and-entity-benefits/inc-benefits-us/_index.md#:~:text=Need%20help%20selecting%20a%20plan%3F%20Check%20out%20the%20PlanSelect%20Tool%20to%20help%20you%20find%20a%20plan%20that%20best%20suits%20your%20needs.%20You%20can%20also%20reach%20out%20to%20the%20Cigna%20One%20Guide%20Service%20to%20walk%20through%20the%20GitLab%20Cigna%20plans%20available.) to help you find a plan that best suits your needs. You can also reach out to the [Cigna One Guide Service](https://gitlab.com/gitlab-com/content-sites/handbook/-/blob/0e31cb757a15eb669636bc33d41a9abd0c17fcfd/content/handbook/total-rewards/benefits/general-and-entity-benefits/inc-benefits-us/_index.md#:~:text=Need%20help%20selecting%20a%20plan%3F%20Check%20out%20the%20PlanSelect%20Tool%20to%20help%20you%20find%20a%20plan%20that%20best%20suits%20your%20needs.%20You%20can%20also%20reach%20out%20to%20the%20Cigna%20One%20Guide%20Service%20to%20walk%20through%20the%20GitLab%20Cigna%20plans%20available.) to walk through the GitLab Cigna plans available.
 
 ## Medical Allowance
 
@@ -151,9 +163,6 @@ If you do not enroll in a plan within your benefits election period, you will au
 
 ## Cigna Medical Plans
 
-### Cigna 2024 Calendar Year Plans
-
-Below are the details for the 2024 Calendar Year. For details of the 2023 plan, please refer to [**2023 Calendar Year**](https://gitlab.com/gitlab-com/content-sites/handbook/-/blob/5b8646cc905cb0aad9890c38ab4636f17ff3d5ef/content/handbook/total-rewards/benefits/general-and-entity-benefits/inc-benefits-us/_index.md)
 
 **Coverages:**
 
@@ -161,7 +170,7 @@ Cigna plans are available to team members located in all US states, with the exc
 
 In Network:
 
-| Plan Details               | [2024 Cigna HDHP - HSA](https://drive.google.com/file/d/1N80QyfcQuJhBpSmEXEVXlK0af_4qziGE/view?usp=sharing)| [2024 Cigna EPO (PPO $0)**](https://drive.google.com/file/d/12VZeqYPUlh2m8UWanEOGT3WroQsotuXh/view?usp=sharing)  | [2024 Cigna PPO 500***](https://drive.google.com/file/d/18GAbC5h1Rr2iC1RjNG_8Y-tWbh2IwH7q/view?usp=sharing)|
+| Plan Details               | [2024 Cigna HDHP - HSA](https://drive.google.com/file/d/1N80QyfcQuJhBpSmEXEVXlK0af_4qziGE/view?usp=sharing) <br>  [Lean about this plan here](https://gitlab.com/gitlab-com/content-sites/handbook/-/blob/0e31cb757a15eb669636bc33d41a9abd0c17fcfd/content/handbook/total-rewards/benefits/general-and-entity-benefits/inc-benefits-us/_index.md#:~:text=2024%20High%20Deductible%20(HDHP)%20%26%20HSA%20Deep%20dive%20Webinar) | [2024 Cigna EPO (PPO $0)**](https://drive.google.com/file/d/12VZeqYPUlh2m8UWanEOGT3WroQsotuXh/view?usp=sharing)  | [2024 Cigna PPO 500***](https://drive.google.com/file/d/18GAbC5h1Rr2iC1RjNG_8Y-tWbh2IwH7q/view?usp=sharing)|
 |:---------------------------|:----------------------:|:------------------:|:-----------------:|
 | Deductible (Single/Family) | $2,000 / 3,200     | $0 / $0            | $500 / $1,000     |
 | Out of Pocket Max (Single/Family)    | $4,000 / $8,000        | $2,500 / $5,000    | $3,000 / $6,000   |
@@ -178,7 +187,7 @@ In Network:
 | Rx Plan^                   | [2024 Standard 3-tier](https://drive.google.com/file/d/1yFWmDQFreGvjmUSmSTK9YKfb-1s_UaJ7/view?usp=sharing) | [2024 Standard 3-tier](https://drive.google.com/file/d/1yFWmDQFreGvjmUSmSTK9YKfb-1s_UaJ7/view?usp=sharing) | [2024 Standard 3-tier](https://drive.google.com/file/d/1yFWmDQFreGvjmUSmSTK9YKfb-1s_UaJ7/view?usp=sharing)  |
 | Summary Plan Descriptions  | [2024 HDHP](https://drive.google.com/file/d/1N80QyfcQuJhBpSmEXEVXlK0af_4qziGE/view?usp=sharing)| [2024 EPO](https://drive.google.com/file/d/12VZeqYPUlh2m8UWanEOGT3WroQsotuXh/view?usp=sharing)   |   [2024 PPO](https://drive.google.com/file/d/18GAbC5h1Rr2iC1RjNG_8Y-tWbh2IwH7q/view?usp=sharing) <BR> [2024 PPO UTAH](https://drive.google.com/file/d/1b-fmCiwDungC9qgDoWeQAqm8gqEr2BX1/view?usp=sharing) |
 
-\*\* In order for the EPO plan to be compliant in all states, it has been set up as a PPO plan with bad out-of-networks benefits including a deductible of $10k/$20k, an Out of Pocket Max of $20k/$40k, and a coinsurance of 50%. **Please do not enroll in this plan if you are intending to use the out-of-networks benefits and instead review the Cigna PPO 500 or Cigna HSA plans.**. Please note that there is no infertility covered under the EPO plan as well, [see here](/handbook/total-rewards/benefits/general-and-entity-benefits/inc-benefits-us/#cigna-infertility-services) for more details on the infertility benefits.
+\*\* In order for the EPO plan to be compliant in all states, it has been set up as a PPO plan with bad out-of-networks benefits including a deductible of $10k/$20k, an Out of Pocket Max of $20k/$40k, and a coinsurance of 50%. **Please do not enroll in this plan if you are intending to use the out-of-networks benefits and instead review the Cigna PPO 500 or Cigna HSA plans.** Note that there is no infertility covered under the EPO plan.
 
 \*\*\* Cigna will provide an extended network PPO Plan for Utah team members which will include the Intermountain Healthcare System.
 
@@ -190,14 +199,14 @@ Accredo is Cigna's specialty pharmacy. For more information on managing your spe
 
 #### *2024 Rates*: The following costs are monthly rates which would be deducted from your paycheck.
 
-| Tier                     | HDHP-HSA | EPO  | PPO  |
+| Tier                     | HDHP-HSA* | EPO  | PPO  |
 |--------------------------|:---:|:----:|:----:|
 | Team Member Only         | $0  | $92   | $88   |
 | Team Member + Spouse     | $38  | $358 | $346 |
 | Team Member + Child(ren) | $28  | $294 | $282 |
 | Family                   | $62  | $548 | $528 |
 
-Note: For the **HSA**, GitLab will contribute $100 per month for individuals and $125 per month for team members + dependent(s) cover. For residents of California, Alabama, and New Jersey this additional contribution is taxable on the state level.
+*Note: For the **HSA**, GitLab will contribute $100 per month for individuals and $125 per month for team members + dependent(s) cover. For residents of California, Alabama, and New Jersey this additional contribution is taxable on the state level.
 
 Watch the [2024 High Deductible (HDHP) & HSA Deep dive Webinar](https://drive.google.com/file/d/1DEvMLEdiR793GXKGcUzt8F6lweJVMYVb/view?usp=sharing) to learn more about this health plan and the tax advantages of enrolling in the HDHP plan with an HSA.
 
@@ -368,7 +377,7 @@ For out-of-network services: 365 days from Date of Service.
 
 <details markdown="1">
 
-<summary>Infertility Services/summary>
+<summary>Infertility Services</summary>
 
 Kaiser California is covered for infertility services at 50% co-insurance. Coverage includes services for diagnosis and treatment of infertility. Coverage does not include conception by artificial means (IVF/GIFT/ZIFT/etc). Please check with the WTW Benefits Helpline `877-409-9288` or `GitLab@willistowerswatson.com` for more information.
 
@@ -579,7 +588,7 @@ $20.90 per month
 
 <details markdown="1">
 
-<summary>ARAG</summary>
+<summary>ARAG Resources</summary>
 
 - [Mobile Arag Legal App Flyer](https://drive.google.com/file/d/1MGpQ6C-uNwRZS3VrUkuTZ4d6vkIqNmOk/view?usp=sharing)
 - [Common Legal Needs ARAG can assist with](https://drive.google.com/file/d/1bFdnlVxmIzJ5Rixu94643AjwkZD-7OrB/view?usp=sharing)
@@ -847,7 +856,7 @@ We will post the update contributions for 2024 once the IRS publishes them.
 
 <details markdown="1">
 
-<summary>Commuter Benefits Period to Submit Claims/summary>
+<summary>Commuter Benefits Period to Submit Claims</summary>
 
 For active employees: Up to 180 days after plan year has concluded (also known as the runout period).
 
