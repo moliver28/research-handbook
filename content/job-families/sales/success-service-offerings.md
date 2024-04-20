@@ -1,27 +1,29 @@
 ---
 title: "Success Services Management"
 Description: "The Success Services Management team ensures our paid success offering is impactful for our customers and that the field teams are supported in selling and delivering it."
-
 ---
 
 ## Success Services Management 
 
-The Success Services Management team ensures our paid success offering is impactful for our customers and that the field teams are supported in selling and delivering it.
+The Success Services Management team combines technical expertise with a customer-centric approach to shape, develop, and deliver innovative paid success plan offerings and service designs. This team is responsible for ensuring the effectiveness and impact of GitLab's paid success offerings while supporting field teams in selling and delivering these services. The team focuses on meeting success plan services revenue targets and contributing to the company's growth ARR and renewal targets.
 
-### Performance Indicators
-
-As with all roles in the Sales Department, the Success Services Management team participates in a subset of the [Sales KPIs](https://internal-handbook.gitlab.io/handbook/company/performance-indicators/sales/#kpi-summary). Key priorities of these roles are to meet success plan services revenue targets, and to contribute to meeting our growth ARR and renewal targets.
 
 ## Levels
 
 
-## Success Services Manager (Intermediate) 
+## Success Services Manager (Success Services Manager) (Intermediate) 
+
+The Success Services Manager (Intermediate) reports to the Manager/Senior Manager/Director, Success Services
+
+#### Success Services Manager (Intermediate) Job Grade
+
+The SSM (Intermediate) is a job grade [level 6](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
 The Success Services Manager is responsible for driving the success and adoption of our paid success plan offerings and services within a designated region (EMEA, AMER or APJ). This role involves working closely with their peers to tailor our global offerings to the unique needs of their region's customers, ensuring high customer satisfaction, retention, and growth. The role will collaborate with sales, customer success, and support teams to deliver exceptional service and drive business outcomes.  The role is considered a sales overlay role to drive customer adoption of Success Services.
 
 The Success Services Manager reports to the Manager/Senior Manager, Success Services
 
-### Success Services Manager Responsibilities:
+#### Success Services Manager Responsibilities:
 
  - Customer Engagement: Work closely with customer success and support teams to ensure effective service delivery and customer satisfaction.
  - Sales Enablement: Collaborate with sales teams to develop and deliver compelling service offerings, value propositions, and commercial collateral. Explain GitLab Services value proposition, catalog of service offerings, and methodologies.
@@ -33,18 +35,17 @@ The Success Services Manager reports to the Manager/Senior Manager, Success Serv
 
 ### Success Services Manager Requirements:
 
- - Bachelor's degree in Business, Technology, or a related field.
- - 3+ years proven experience in customer success, service delivery, or account management within the region.
- - Understanding of DevOps, software development lifecycle
- - Excellent communication skills in English, with proficiency in additional languages a bonus.
- - Proven ability to collaborate with cross-functional teams and manage multiple projects.
+ - Proven experience in customer success services or professional services, preferably in DevOps or a similar technical domain.
+ - Strong understanding of the DevOps methodology, software development lifecycle, and related technologies
+ - Ability to develop and maintain strong relationships with customers, understanding their needs, and identifying opportunities to improve their experience and time to value
+ - Excellent communication and interpersonal skills, with the ability to collaborate effectively with sales teams, customers, and internal stakeholders.
+ - Data-driven mindset with the ability to analyze customer data, identify trends, and make data-informed decisions to optimize success services and improve customer time to value.
  - Experience with customer success metrics, KPIs, and reporting.
- - Strong problem-solving skills and ability to adapt to changing customer needs.
- - Willingness to travel as required.
+ - Strong problem-solving skills and the ability to think creatively to develop innovative solutions that address customer challenges and improve their experience.
+ - Experience in creating and delivering compelling presentations, demonstrations, and training sessions to showcase the value of success services and educate customers on best practices.
+ - Collaborative and team-oriented mindset, with the ability to work closely with cross-functional teams, including product management, engineering, and marketing, to align success services with company goals and objectives.
+ - Willingness to travel as required - up to 25%.
 
-### Success Services Manager Job Grade
-
-The Success Services Manager is a job grade [level 6](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
 ### Success Services Manager Performance Indicators
 
