@@ -36,6 +36,17 @@ Migrating pipelines from other systems, [such as Jenkins](https://docs.gitlab.co
 
 In case of migrating from one self-managed GitLab server to another, the best way usually is to do a [full backup](https://docs.gitlab.com/ee/administration/backup_restore/#migrate-to-a-new-server) at the source instance and then a restore at the target instance. Step by step diretions are available on our [Migrate to a new server] docs page. The full architecture and how GitLab performs backups of all GitLab compentents is available on our [Back up and restore GitLab](https://docs.gitlab.com/ee/administration/backup_restore/#migrate-to-a-new-server) docs page.
 
+
+## Air-gapped environments
+
+GitLab can be installed and operated in [offline environments](https://docs.gitlab.com/ee/user/application_security/offline_deployments/). This setup makes migration projects more complex.
+
+- Direct transfer doesn't support this. Project/export import is a workaround and it will likely stay as such. See the GitLab issue titled [Direct transfer - Support for air-gapped solutions](https://gitlab.com/groups/gitlab-org/-/epics/8985) and [Maintain project and group file-based import/export as a workaround for migrations over air-gapped networks and to serve other use cases
+](https://gitlab.com/gitlab-org/gitlab/-/issues/363406) for nuanced technical details on performing this. 
+
+- Congregate does support this. See [Support air-gapped environment migrations](https://gitlab.com/groups/gitlab-org/professional-services-automation/tools/migration/-/epics/116) and [Migrating data in an air gapped environment](https://gitlab.com/gitlab-org/professional-services-automation/tools/migration/congregate/-/blob/master/runbooks/airgapped-migration-usage.md) 
+
+
 ## From GitLab self-managed to GitLab SaaS or the other way around
 
 There are three different options for these migrations.
@@ -76,13 +87,6 @@ For cases what direct transfer can't or won't cover. A good example would be air
 
 - [Group import and export API](https://docs.gitlab.com/ee/api/group_import_export.html)
 
-## Air-gapped environments
-
-GitLab can be installed and operated in [offline environments](https://docs.gitlab.com/ee/user/application_security/offline_deployments/). This setup makes migration projects more complex.
-
-- Direct transfer doesn't support this. Project/export import is a workaround and it will likely stay as such. More info [here](https://gitlab.com/groups/gitlab-org/-/epics/8985) and [here](https://gitlab.com/gitlab-org/gitlab/-/issues/363406).
-
-- Congregate does support this. More info [here](https://gitlab.com/groups/gitlab-org/professional-services-automation/tools/migration/-/epics/116) and [here](https://gitlab.com/gitlab-org/professional-services-automation/tools/migration/congregate/-/blob/master/runbooks/airgapped-migration-usage.md).
 
 
 # GitLab Professional Migration Services
