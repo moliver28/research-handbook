@@ -554,6 +554,8 @@ One can download Tableau Desktop using the links below, or follow the link from 
 - [Tableau Desktop Releases Download](https://www.tableau.com/support/releases)
 - [Tableau Prep Builder Releases Download](https://www.tableau.com/support/releases/prep)
 
+Do you want to automatically download the latest version of Tableau Desktop for Mac? [Click here](https://www.tableau.com/downloads/desktop/mac).
+
 ### Tableau Desktop vs. Tableau Cloud
 
 Tableau offers two ways to create / edit workbooks and data sources, either via the Desktop client or Cloud (web) version. However, we recommend to develop in Desktop, as this version will have full functionality for editing and development.
