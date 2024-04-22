@@ -103,11 +103,13 @@ In other words, Auto DevOps is an alternative to writing and using your own `.gi
 
     > When your pipeline completes, it may display a **warning** status. The warning is due to the `dast` scan not being configured. For this example, it is ok to proceed with this warning, since we will not use `dast`.
 
-> There are three stages that are in the Auto DevOps pipeline, and this lab will explain them below:
+1. Select your merge request pipeline
 
-1. The **build** stage creates a build of the application using an existing Dockerfile or Heroku buildpacks. The resulting Docker image is pushed to the **Container Registry**, and tagged with the commit SHA or tag. Once the build stage is completed, navigate to **Deploy > Container Registry** to see your application.
+1. In the pipeline details, you will see three stages associated with the Auto DevOps pipeline:
 
-1. The **test** stage runs various tests on your application code to ensure it is secure and high quality. A few of the jobs are explained below:
+- The **build** stage, which creates a build of the application using an existing Dockerfile or Heroku buildpacks. The resulting Docker image is pushed to the **Container Registry**, and tagged with the commit SHA or tag. Once the build stage is completed, navigate to **Deploy > Container Registry** to see your application.
+
+- The **test** stage, which runs various tests on your application code to ensure it is secure and high quality. A few of the jobs are explained below:
 
     * The License Compliance scan will scan to detect any new licenses added to the project. Select **Full report** in the License Compliance section to see the scan details. After viewing the report, return to the pipeline.
 
@@ -115,7 +117,7 @@ In other words, Auto DevOps is an alternative to writing and using your own `.gi
 
     * The Security Scanning section will check if any new vulnerabilities have been introduced in the code. Select **View all pipeline findings** in the Security Scanning section to see the scan details.
 
-1. the **dast** uses a running version of your application to check if there are any known vulnerabilities that it can find by running API calls on your application. Since we did not configure a live environment for the DAST job to scan, we do not need to worry about this job.
+- The **dast** stage, which uses a running version of your application to check if there are any known vulnerabilities that it can find by running API calls on your application. Since we did not configure a live environment for the DAST job to scan, we do not need to worry about this job.
 
 ## Lab Guide Complete
 
