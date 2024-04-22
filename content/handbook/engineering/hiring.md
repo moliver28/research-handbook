@@ -6,7 +6,7 @@ title: Engineering Hiring
 
 Hiring is a cornerstone of success for our engineering organization, contributing to our growth and our ability to drive results for our customers. As such, it's not just a responsibility but fundamental to every engineer's contribution to GitLab. It should be deeply ingrained in every engineer's role at GitLab, regardless of their seniority. 
 
-By actively participating in recruitment efforts, engineers help shape their team culture, elevate technical standards, and ensure a continuous influx of diverse perspectives and skillsets. Hiring well allows GitLab to grow responsibly, delivers a much larger impact than any other individual contribution, and indirectly impacts everyone's success and opportunities within Engineering.
+By actively participating in recruitment efforts, engineers help shape their team culture, elevate technical standards, and ensure a continuous influx of diverse perspectives and skillsets. Contributing to hiring efforts allows GitLab to grow responsibly and affects our collective success within Engineering.
 
 Interviewing is a skill, and takes up a significant amount of time and effort to facilitate and improve upon. We should recognize and appreciate the efforts we take to contribute to scaling the engineering organization.
 
