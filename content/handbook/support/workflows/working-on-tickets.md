@@ -110,10 +110,12 @@ that can save time and enhance customer satisfaction.
 ## Handling tickets from different regions
 
 Where possible, respect the customer's specified preferred region for ticket
-handling. Exceptions should be made only when a ticket is close to breaching
-FRT SLA, has been escalated/STAR'ed requiring immediate attention regardless of
-region or if the customer has specifically requested it to be handled outside of
-region.
+handling. Exceptions should be made only under the following conditions:
+
+- If a ticket is close to breaching FRT SLA.
+- The ticket has been escalated/STAR'ed, requiring immediate attention regardless of region.
+- The customer has specifically requested it to be handled outside of region.
+
 
 #### Preparing a ticket for handover
 
