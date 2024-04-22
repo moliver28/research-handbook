@@ -160,7 +160,9 @@ This issue is the single source of truth for all planning related discussions an
 
 ### Milestone Planning Process
 
-1. On the first of the month, an issue will be created using [the Milestone Planning issue template](https://gitlab.com/gitlab-com/gl-security/product-security-engineering/product-security-engineering-team/-/issues/new?issuable_template=milestone_planning)
+1. An issue will be created using [the Milestone Planning issue template](https://gitlab.com/gitlab-com/gl-security/product-security-engineering/product-security-engineering-team/-/issues/new?issuable_template=milestone_planning)
+    1. The issue will be created immediately after planning is finished for the current Milestone
+    1. Throughout the current Milestone, Product Security Engineering team members can add work to the upcoming Milestone's Parking Lot
 1. The Product Security Engineering manager will be responsible for completing the checklist items in the Planning Checklist section of the Milestone Planning issue
 1. Product Security Engineering team members will add any work being carried over from the previous Milestone into the Milestone Work table
 1. The Product Security Engineering team will add potential work items to the Parking Lot section, with a brief explanation of why it would be good to include in the Milestone
@@ -172,7 +174,7 @@ This issue is the single source of truth for all planning related discussions an
     1. Once we have refined and committed to the work, the relevant issue needs to be updated with the Milestone and Assignee(s)
 1. The Milestone Planning issue should be finalized at least 3 days before the Milestone Start Date
     1. The Product Security Manager will use threads in the Milestone Planning issue to work with each Product Security Engineering team member to finalize their workload
-    1. Once finalized, the Planning Issue should be closed
+    1. Once finalized, the Planning Issue should be closed and an issue for the next Milestone should be opened
 
 ### Milestone Planning responsibilities
 
@@ -188,10 +190,3 @@ The Product Security Engineering manager is responsible for:
 - Creating, updating, and maintaining the Milestone Planning issue
 - Collaborating with Product Security Engineering team members to discuss potential work, identify refinement gaps, and assemble the Milestone Work table
 - Coordinating the finalization of the Milestone Planning issue
-
-## References
-
-This new team is still in the formation process. For more context, team members can refer to these internal links:
-
-- [Our transition issues in `gitlab-com/gl-security/product-security-engineering/product-security-engineering-team/`](https://gitlab.com/groups/gitlab-com/gl-security/-/issues/?sort=created_date&state=opened&label_name%5B%5D=AppSec%3A%3ATransition&first_page_size=20)
-- [The announcement Google Doc](https://docs.google.com/document/d/19NO6S02fMF3FZWkrptpXEFp6x2g6L9fro4qYUuITOsw/edit)
