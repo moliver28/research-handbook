@@ -48,14 +48,15 @@ The SMB Advocate Team Lead reports to the Digital SMB Regional Manager.
 The SMB Advocate Team Lead is a grade 6.
 
 ### SMB Advocate Team Lead Responsibilities
-The SMB Advocate Team Lead role extends the responsibilities of the SMB Advocate role, with the addition of new official responsibilities that support the productivity of the Advocate team as a whole. These are:
-- Priority onboarding buddy for new starters
+The SMB Advocate Team Lead role extends the responsibilities of the SMB Advocate role, with the addition of new official responsibilities that support the productivity of the Advocate team as a whole and representing our SMB customers. These are:
+- Help design and run the onboarding process for new starters
 - Help support/coach colleagues and run team enablement sessions
 - Cover team manager’s absence, on request for some specific tasks (team meetings, forecasts and team weekly check-ins)
-- Participate in cross-functional initiatives with impact on team’s performance
+- Participate in cross-functional initiatives to drive the SMB strategy, and represent the SMB Advocate team
 - Meet with fellow SMB Advocate Team Leads to develop global initiatives
+- Amplify the voice of the customer and encourage a culture of customer-centricity
 - Participate in the recruitment process of new team members
-- Support initiatives to develop team bonding and identity
+- Support team-bonding and identity-building initiatives, while encouraging team participation and contribution
 - Be a subject matter expert in at least one core skill of the SMB Advocate role (“core skills to be added to HB”)
 
 ### SMB Advocate Team Lead Requirements
