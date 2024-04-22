@@ -52,6 +52,28 @@ The `Partner Prospect Admin` will receive an email notification when leads are s
 - [Free Trial](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/SC33938B2ZN19)
 - [List Import](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/SC34955C3ZN19)
 
+## Prospects Module for Carahsoft
+
+We allow Carahsoft access to the Prospects module through the `Partner Placeholder Pubsec` partner account, which will allow them to receive leads from joint GitLab - Partner marketing campaigns. 
+
+To access the Prospect module, Carahsoft will log into the Partner Placeholder PubSec profile from Impartner, then SSO into Vartopia. The access to the Prospects module is limited to only Marketing users. Should the Sales users wish to create a Deal Registration, they will have to create the deal through their log in to the Distributor account.
+
+In short, only Marketing will use the Prospects through the Partner Placeholder Pubsec, and Sales will continue to create deal registration through the Distributor profile for Carahsoft.
+
+### Internal Process
+
+1. Account - Add marketing email alias  to the Prospect Admin
+2. Campaign/Marketo Setup Process will remain the same in Allocadia, Salesforce, and Marketo.
+3. Attribution - add campaign to smartsheet so it's displayed in the Distributor Marketing Campaign dropdown.
+4. List Import/UTM - when importing the list the CRM Partner ID needs to be assigned to Partner Placeholder PubSec (Account ID (18) = `0014M00001sDPJWQA4`)
+
+### External Process for Carahsoft
+
+1. Log into the Partner Portal using marketing email alias 
+2. Access Vartopia via Deal tabs
+3. Click on Prospects to receive shared leads
+4. Bulk accepts leads so they can be links from Prospect to DR, when DR is created.
+
 ## Partner Recall 
 
 The first phase of the recall process is live in the “Prospects” module in the [GitLab Partner Portal](https://partners.gitlab.com/). The recall process is built to be able to pull back leads that are not being actioned. 
