@@ -361,6 +361,8 @@ A curated list of external resources for improving open source community relatio
 
 - [The privilege of free time in Open Source](https://dri.es/the-privilege-of-free-time-in-open-source)
 
+- [Good first issues don't exist](https://opensauced.pizza/blog/good-first-issues-dont-exist)
+
 ## Community Office Hours
 
 Contributor Success champions community office hours as a mechanism of engaging the wider community.
