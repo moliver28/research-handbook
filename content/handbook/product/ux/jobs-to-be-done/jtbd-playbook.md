@@ -22,25 +22,25 @@ With that in mind, the process as defined here will begin with a partial assumpt
 
 If your team wants to conduct in-depth Jobs to be Done research (going through the whole playbook), create an issue in the [UX Research Project](https://gitlab.com/gitlab-org/ux-research/-/issues) and use the **[discover-jtbd](https://gitlab.com/gitlab-org/ux-research/-/blob/master/.gitlab/issue_templates/discover-jtbd.md)** issue template. Fill out the issue as best as you can, then tag the UX Researcher for your stage (or whoever will be driving the research). If you need a DRI to drive JTBD research for your team, head over to the `#ux_research` Slack channel to see if anyone is available to help. Once you have an issue and a DRI, you're ready to roll!
 
-# Workshop 1: Scope Definition
+## Workshop 1: Scope Definition
 
-## Step 1: Start an assumptive JTBD Canvas to define your Domain, Job Performer, and Main Job
+### Step 1: Start an assumptive JTBD Canvas to define your Domain, Job Performer, and Main Job
 
 Gather your counterparts together in a sync workshop that should take about an hour of sync time to complete. At a minimum, this team should be comprised of the Product Design DRI and Product Manager. Engineering counterparts are a great addition to round out the perspectives and points of view, and your Section's UX Researcher would also be a great addition. You'll gather together on a Zoom call, focusing on the [FigJam JTBD Template](https://www.figma.com/file/Z4lsAOLH1ANN3pstQFYgSk/Jobs-to-be-done----Playbook-Template?type=whiteboard&node-id=0%3A1&t=oMR9VPNke7aIfCoU-1) that was created earlier.
 
-### Exercise 1: Brainstorm potential domains [set timer for 10 minutes]:
+#### Exercise 1: Brainstorm potential domains [set timer for 10 minutes]:
 
 The first step in the JTBD playbook is to select the Domain area in which you will be working. Sections, Stage Groups, or Categories may be a good starting point for determining which area you want to define a JTBD canvas for. In an open area of the FigJam begin by creating new sticky notes for each of the areas within your Group that you might want to develop a JTBD Canvas in. Consider: where do you want to innovate?
 
-#### Select a domain [set timer for 5 minutes]
+**Select a domain [set timer for 5 minutes]**
 
 Looking at the sticky notes, briefly discuss each, and select one. Because you are very familiar with your work area, you should be able to hone in on a Domain rather quickly. Copy the Domain into the text area provided at the top of the JTBD Canvas. You can keep the unselected Domain areas in this open area in case you want to reference them later to explore additional JTBD Canvases for different Domain areas.
 
-### Exercise 2: Brainstorm Job Performers [set timer for 10 minutes]
+#### Exercise 2: Brainstorm Job Performers [set timer for 10 minutes]
 
 Now that you know what Domain area you want to work in, it's time to zoom in on the [Job Performer](/handbook/product/ux/jobs-to-be-done/#job-performer-who-do-you-want-to-innovate-for). Below the area where you were exploring Domains, consider; Who are you innovating for? Who are the actors or stakeholders in our Domain/field? Get as many relevant Job Performers written on individual sticky notes as possible.
 
-#### Select a Job Performer via Note & Vote [set timer for 5 minutes]
+**Select a Job Performer via Note & Vote [set timer for 5 minutes]**
 
 To help you determine which Job Performer you want to focus on for this Job Canvas, consider the following questions: Where is there a need in our market? Who are we passionate about serving? What’s relevant or core to our business strategy?
 
@@ -50,13 +50,13 @@ To help you determine which Job Performer you want to focus on for this Job Canv
 - Move the selected Job Performer to the Job Canvas’s Job Performer section. 
 - You can keep the unselected Job Performers in this open area if you want to reference them later to explore additional JTBD Canvases for different Job Performers.
 
-### Exercise 3: Brainstorm Main Jobs [set timer for 15 minutes]
+#### Exercise 3: Brainstorm Main Jobs [set timer for 15 minutes]
 
 Next, select the [Main Job](/handbook/product/ux/jobs-to-be-done/#main-job-where-do-you-want-to-innovate) you want to focus on for this JTBD Canvas. The Job Performer and Main Job are closely related and will ultimately be the focus of the rest of this canvas. 
 
 Again, in an open area of the FigJam, consider the following: What are all of the Jobs our selected Job Performer is trying to get done in our Domain/Field? List them all on individual sticky notes. Consider what the primary task or objective is that the Job Performer is trying to accomplish (get done) or an activity they’re trying to complete.
 
-#### Select a Main Job via Note & Vote [set timer for 5 minutes]
+**Select a Main Job via Note & Vote [set timer for 5 minutes]**
 
 To help you determine which Main Job you want to focus on for this Job Performer’s Job Canvas, ask: What’s worth going after? What are we passionate about? Which can we best support? What’s relevant or core to our business/strategy? What is the primary task or objective that the Job Performer is trying to accomplish (get done)?
 
@@ -66,13 +66,13 @@ To help you determine which Main Job you want to focus on for this Job Performer
 - Move the selected Main Job to the JTBD Canvas’s Main Job section 
 - Move the unselected Main Jobs to the Related Jobs section as these can be investigated in separate JTBD Canvases/research later.
 
-### Exercise 4: Brainstorm Aspirations [set timer for 15 minutes]
+#### Exercise 4: Brainstorm Aspirations [set timer for 15 minutes]
 
 Finally, this will be the last exercise for this workshop to consider what does our Job Performer aspire to become after completing this Main Job. 
 
 One last time, in an open area of the FigJam, consider: What are all of the aspirations our selected Job Performer is wanting to become after achieving our Main Job? What are they dreaming about becoming when they achieve or complete the Main Job? List the all of the aspirations you can think of on individual sticky notes. Continue to ask Why to ensure you’re at the highest, aspirational level.
 
-#### Select an Aspiration via Note & Vote [set timer for 5 minutes]
+**Select an Aspiration via Note & Vote [set timer for 5 minutes]**
 
 To help you determine which Aspirations you want to focus on for this JP’s Job Canvas, ask: What’s worth going after? What are we passionate about? Which can we best support? What’s relevant or core to our business/strategy?
 
@@ -81,11 +81,11 @@ To help you determine which Aspirations you want to focus on for this JP’s Job
     - If > 3 participants: Each participant gets 3 sticker to vote with.
 - Select the top 3 voted Aspirations and move them to the JTBD Canvas’s Aspirations ssection leaving the unselected aspirations behind for consideraton later, if necessary.
 
-# Pre-Workshop 2: Investigation Interviews & Interview Synthesis
+## Pre-Workshop 2: Investigation Interviews & Interview Synthesis
 
 The goal of this phase is to understand the Main Job by conducting qualitative interviews with representative Job Performers. This will help us understand and fill in the bottom half of the JTBD Canvas: the job steps (Job Map), the Emotional and social Aspects, the Outcomes, and the Job Differentiators.
 
-## Step 1: Conduct Interviews
+### Step 1: Conduct Interviews
 
 Recruit 5-10 external participants representing the selected Job Performer of the Main Job you're investigating. It’s recommended to have a moderator and a notetaker, who is in charge of filling out the Job Steps on your JTBD Interview Participant Canvases while the participant and moderator are talking. This will be shown to your participant toward the end of the interview to ensure that we've interpreted what we heard accurately. 
 
@@ -98,17 +98,17 @@ There is an [interview guide](https://www.figma.com/file/Z4lsAOLH1ANN3pstQFYgSk/
 - What are [Related jobs](/handbook/product/ux/jobs-to-be-done/#related-jobs-what-else-is-the-job-performer-trying-to-get-done)? 
 - What are the [Job Differentiators](/handbook/product/ux/jobs-to-be-done/#circumstances-what-are-the-factors-or-condictions-that-make-a-difference-in-how-the-job-gets-done)?
 
-# Synthesize and Complete the JTBD Canvas
+### Step 2: Synthesize and Complete the JTBD Canvas
 
 Now that you have completed your interviews, it's time to go through your notes and sythesize it all together to complete your JTBD Canvas. Think of it somewhat like the Venn diagram of your participants. This means that the elements you hear most often or have high confidence in should be included. Meanwhile, outliers, tangents, or uncommon circumstances should be excluded. 
 
 It's recommended to continue your collaboartion with your Section's UX Researcher to help speed this process up, as some experience in qualitative [data synthesis](https://handbook.gitlab.com/handbook/product/ux/ux-research/analyzing-research-data/) is helpful.
 
-
-## Step 2: Complete the Job Map
+**Complete the Job Map**
 
 The process you follow when building your Job Map will depend on how you were able to conduct your interviews. Please select the option below that aligns with the process you were able to follow:
-### Job Mapping during interviews
+
+#### Job Mapping during interviews
 
 It is highly recommended that interviews be conducted in pairs. This allows you to construct and validate the job map while the participant explains their process for getting the job done. This will make synthesis much easier than if you were to build out the job maps while analyzing the interview data. Another benefit to interviewing in pairs is that you can review the map you build with the participant, catching any errors in ordering or steps in the process they may have left out. To achieve a single, synthesized Job Map, we recommend you follow these steps:
 
@@ -129,7 +129,7 @@ It is highly recommended that interviews be conducted in pairs. This allows you 
 7. Finally, add representative Stage names or modes of operation above each Stack, under the Beginning, Middle, and End categories. You can do this as you develop your stacked steps as well as it's likely you'll start to see appropriate Stage names as you progress through the above process. 
     1. These Stages should represent high-level single-word verbs that describe the step or stage the Job Performer is in during that Job Step.
 
-### Job Mapping after all interviews were completed
+#### Job Mapping after all interviews were completed
 
 If you do not have job maps pre-constructed by your participants during the interviews, you will need to synthesize all of your data across each interview, building up your Job Map as you go. Bringing it all together into a singular Job Map for your final JTBD Canvas. To achieve a single, synthesized Job Map, we recommend you follow these steps:
 
@@ -144,7 +144,7 @@ If you do not have job maps pre-constructed by your participants during the inte
 7. Finally, add representative Stage names or modes of operation above each Stack, under the Beginning, Middle, and End categories. You can do this as you develop your stacked steps as well as it's likely you'll start to see appropriate Stage names as you progress through the above process. 
     1. These Stages should represent high-level single-word verbs that describe the step or stage the Job Performer is in during that Job Step.
 
-## Step 3: Synthesize Outcomes
+### Step 3: Synthesize Outcomes
 
 Continuing with your interview syntheses, move on to gathering together outcome statements from those interviews and then rewriting them into properly formatted Outcome Statements. Parse your notes looking for references to how the Job Performer would measure the success of completing the Main Job. Add a sticky for every potential outcome. Organize them to ensure there aren’t any repeated ideas, merging duplicates as you go. 
 
@@ -152,37 +152,37 @@ Finally, rewrite each potential outcome converting them into a properly formatte
 
 Note: Your Main Job can have between 50 - 100 Outcome Statements which will be validated through an Outcome Opportunity Score survey which can be done in parrallel with the rest of your JTBD Canvas work.
 
-## Step 4: Synthesize Emotional and Social Aspects
+### Step 4: Synthesize Emotional and Social Aspects
 
-### Emotional Aspects
+#### Emotional Aspects
 
 Now you will gather together all of the Emotional Aspect Statements from your interviews and then rewrite them into properly formatted Emotional Aspect Statements. Parse your notes looking for references to emotion-like statements that are referencing how the Job Performer _feels_ while doing the Main Job. Add a sticky for every potential emotion you find. Organize them to ensure there aren’t any repeated ideas, merging duplicates as you go. 
 
 Finally, rewrite each potential Emotion Aspect Statement converting them into properly formatted Emotion Statements. Check the [handbook section](/handbook/product/ux/jobs-to-be-done/#emotional-and-social-aspects-how-does-the-job-performer-feel-while-doing-the-job-how-do-they-want-to-be-perceived-while-doing-the-job) for more on how to construct an Emotional Aspect Statement.
 
-### Social Aspects
+#### Social Aspects
 
 Next you will gather together all of the Social Aspect Statements from your interviews and then rewrite them into properly formatted Social Aspect Statements. Parse your notes looking for references to social-like statements that are referencing how the Job Performer _wants to be perceived_ while doing the Main Job. Add a sticky for every potential social/perception you find. Organize them to ensure there aren’t any repeated ideas, merging duplicates as you go. 
 
 Finally, rewrite each potential social statement converting them into properly formatted Social Statements. Check the [handbook section](/handbook/product/ux/jobs-to-be-done/#emotional-and-social-aspects-how-does-the-job-performer-feel-while-doing-the-job-how-do-they-want-to-be-perceived-while-doing-the-job) for more on how to construct an Emotional Aspect Statement.
 
-## Step 5: Synthesize Job Differentiators
+### Step 5: Synthesize Job Differentiators
 
 Now for the final step before your second and last workshop. Gather together all of the Job Differentiators from your interviews and then rewrite them into properly formatted Job Differentiators. Parse you notes looking for references to differentiator-like statements that are referencing any key factors that _make a difference_ on how the Job Performer will get the Main Job done. Look for specific factors that make a difference. Add a sticky for every potential job differentiator you find. Organize them to ensure there aren’t any repeated ideas, merging duplicates as you go. 
 
 Finally, rewrite each potential Job Differentiators converting them into properly formatted Job Differentiators. Check the [handbook section](/handbook/product/ux/jobs-to-be-done/#job-differentiators-what-are-the-factors-or-conditions-that-make-a-difference-in-how-the-job-gets-done) for more on how to construct an Emotional Aspect Statement.
 
-# Workhop 2: Map and Prioritize
+## Workshop 2: Map and Prioritize
 
-## Select Important Job Step(s), Emotional & Social Aspects, and Job Differentiators
+**Select Important Job Step(s), Emotional & Social Aspects, and Job Differentiators**
 
 Once again you will need to gather your counterparts together in a sync workshop that should take about an hour of sync time to complete. Again, at a minimum, this team should be comprised of the Product Design DRI and Product Manager. Engineering counterparts are a great addition to round out the perspectives and points of view and your Section's UX Researcher would be a great addition as well. You'll gather together on a Zoom call, focusing on the FigJam JTBD Canvas you have been working on.
 
-## Exercise 1: Review Job Map Select a Job Step(s) [set timer for 15 minutes]
+### Exercise 1: Review Job Map Select a Job Step(s) [set timer for 15 minutes]
 
 Share the Job Map with your team, read through it to ensure everyone understands the steps necessary to get the Main Job done and to confirm that it’s been accurately arranged and phrased. Make any adjustments as necessary, but be sure you’re referencing the interview data and not going off of gut instinct. Don’t forget, the interviews were performed for a reason.
 
-### Select a Job Step(s) via Note & Vote [set timer for 10 minutes]
+**Select a Job Step(s) via Note & Vote [set timer for 10 minutes]**
 
 To help you determine which areas of the Job Map are the most important areas to focus on to affect change for this JobPerformer’s JTBD Canvas, ask: What’s the most important step that’s the hardest to get done? What’s the most critical step?
 
@@ -194,11 +194,11 @@ To help you determine which areas of the Job Map are the most important areas to
 - Select and highlight, circle, or outline the top voted Job Step that you are going to innovate on.
 - Copy your Job Map over to your canvas on the right, including the voted on and circled top voted items.
 
-## Exercise 2: Select Emotional Aspect Statements [set timer for 5 minutes]
+### Exercise 2: Select Emotional Aspect Statements [set timer for 5 minutes]
 
 Share the Emotional Aspect stickies with your team, have everyone read through and understand them.
 
-### Select Emotional Aspect Statements via Note & Vote [set timer for 5 minutes]
+**Select Emotional Aspect Statements via Note & Vote [set timer for 5 minutes]**
 
 To help you determine which Emotional Aspect statements are the most important areas to focus on to affect change for this JobPerformer’s JTBD Canvas, ask: What’s worth going after? What are we passionate about? Which can we best support? What’s relevant or core to our business/strategy?
 
@@ -208,17 +208,17 @@ To help you determine which Emotional Aspect statements are the most important a
 - Arrange the voted on stickies in a pyramid with the top voted stickies at the top and lowest at the bottom.
 - Discuss the top voted upon items and confirm that the team agrees/aligns on the top voted Emotional Aspect Statements and move them to the appropriate space on the JTBD Canvas.
 
-## Exercise 3: Select Social Aspect Statements [set timer for 10 minutes]
+### Exercise 3: Select Social Aspect Statements [set timer for 10 minutes]
 
 Repeat the same process you just performed for the Emotional Aspect Statements for the Social Aspect Statements. Move the top voted Social Aspect Statements to the appropriate space on the JTBD Canvas.
 
-## Exercise 4: Select Job Differentiator Statements [set timer for 5 minutes]
+### Exercise 4: Select Job Differentiator Statements [set timer for 5 minutes]
 
 Repeat the same process you just performed for the Emotional and Social Aspect Statements for the Job Differentiator Statements. Move the top voted Job Differentiator Statements to the appropriate space on the JTBD Canvas.
 
 🎉🥳 Congratultations you have successuflly created a validated JTBD Canvas! 🥳🎉
 
-# Outcome Opportunity Scores Survey
+## Outcome Opportunity Scores Survey
 
 Now that you have your JTBD Canvas filled in completely, and you have decided on the most important areas to focus on for each section but the Outcome Statements, you need to run an Outcome Opportunity Scores Survey to determine which of these are the most important to your Job Performer for this Main Job. 
 
@@ -257,13 +257,13 @@ If all the scores on your survey are less than 10, that’s great - but remember
 | 7-9  | Keep on eye on   | 
 | 6 or below | Probably not a priority right now | 
 
-# Generate Job Stories
+## Generate Job Stories
 
 Now that you have a completed JTBD Canvas you can use it to create Job Stories. Job Stories help synthesize and summarize all of the great information you just put together on your JTBD Canvas. You might end up creating between 3 - 5 Job Stories to cover the data and insights you gathered and voted on as being the most important aspect of your JTBD Canvas. Bear in mind that good Job Stories describe the pain points that you’re going after and help you empathize with the Job Performer.
 
 To learn more about what Job Stories are, how to write them, and how you can use them to generate design solutions check the [handbook section](/handbook/product/ux/jobs-to-be-done/#job-stories).
 
-### The Job Story Fomula
+## The Job Story Fomula
 
 When I ___________ [am at this Job Step] + [under these conditions-Job Differentiators],
 I want ____________ [this New Ability, customer imperative or demand the JP has on the solution],
