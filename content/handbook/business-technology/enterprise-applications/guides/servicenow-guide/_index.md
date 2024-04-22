@@ -1,9 +1,7 @@
 ---
-title: "HelpLab End Users Guide"
-description: "HelpLab End Users Guide"
+title: "HelpLab Information Guide"
+description: "HelpLab Information Guide"
 ---
-
-## HelpLab Information Guide
 
 ## What is HelpLab
 
