@@ -1,5 +1,5 @@
 ---
-title: "People Leadership"
+title: "Talent Leadership"
 ---
 
 ## VP, People
