@@ -149,7 +149,9 @@ Note on timelines: The campaigns team is focused on campaign strategy, execution
 
 #### Request Issue Templates
 <!-- DO NOT CHANGE THIS ANCHOR -->
-Below are the issue templates to make a lifecycle request. For processes, please see our [processes handbook page](/handbook/marketing/lifecycle-marketing/email-processes-requests).
+Below are the issue templates to make a lifecycle request for nurture or demand generation emails. For processes, please see our [processes handbook page](/handbook/marketing/lifecycle-marketing/email-processes-requests).
+
+Please note these issue templates are not to be used for operational emails (emergency / security incidents) or otherwise non-demand generation emails (product updates or alerts). The processes for these emails can be found [here](https://handbook.gitlab.com/handbook/marketing/marketing-operations/email-management/#request-non-demand-generation-emails). 
 
 - [lifecycle-add-to-nurture](https://gitlab.com/gitlab-com/marketing/demand-generation/campaigns/-/issues/new?issuable_template=lifecycle-add-to-nurture)
 - [request-email-followup](https://gitlab.com/gitlab-com/marketing/demand-generation/campaigns/-/issues/new?issuable_template=request-email-followup) 
