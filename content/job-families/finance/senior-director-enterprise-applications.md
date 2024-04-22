@@ -4,7 +4,7 @@ title: Enterprise Applications
 
 ## CRM Systems, Manager & SFDC Architect
 
-The CRM Systems, Manager (SFDC Architect) reports to the CRM Systems, Director and leads a team of highly-collaborative and results-oriented teams tasked with delivering global, high value Enterprise applications across the company. The Manager has the skills, experience, drive and passion to ensure that GitLab has the appropriate IT applications to achieve/exceed corporate objectives; to ensure business alignment with team members and sponsors; and to anticipate the needs of the business and scale the team to stay ahead of the curve. This role involves defining the business and technology architectures, guiding large project deliveries, and ensuring the successful integration of Salesforce within our organization. The ideal candidate would have a profound knowledge of top of the funnel Marketing Technology, CPQ, CLM, License Management, Billing, and ERP, best practices in engineering, and enterprise architecture standards. complemented by robust leadership and communication abilities. 
+The CRM Systems, Manager (SFDC Architect) reports to the CRM Systems, Director and leads a team of highly-collaborative and results-oriented teams tasked with delivering global, high value Enterprise applications across the company. The Manager has the skills, experience, drive and passion to ensure that GitLab has the appropriate IT applications to achieve/exceed corporate objectives; to ensure business alignment with team members and sponsors; and to anticipate the needs of the business and scale the team to stay ahead of the curve. This role involves defining the business and technology architectures, guiding large project deliveries, and ensuring the successful integration of Salesforce within our organization. The ideal candidate would have a profound knowledge of top of the funnel Marketing Technology, CPQ, CLM, License Management, Billing, and ERP, best practices in engineering, and enterprise architecture standards. complemented by robust leadership and communication abilities.
 
 ### Job Grade
 
@@ -12,7 +12,7 @@ CRM Systems, Manager is a [grade 8](https://handbook.gitlab.com/handbook/total-r
 
 ### Responsibilities
 
-- Business Partnership: Works with leadership within the cross-functional team and assists in roadmap planning. 
+- Business Partnership: Works with leadership within the cross-functional team and assists in roadmap planning.
 - Salesforce Architecture & Foundations: Ascertain and communicate the company's Salesforce requirements. Craft business and technology architecture in sync with our organizational objectives. Supervise the design and deployment of solutions, adhering to Salesforce best practices guidelines.
 - User Experience & Platform Engagement: Propel user experience and design strategies throughout the enterprise to foster platform adoption.
 - Technical & Functional Guidance: Work Closely with Business stakeholders, understand requirements and translate them to actionable solutions. Offer counsel and mentorship to Salesforce team members on technical and functional delivery.
@@ -29,8 +29,8 @@ CRM Systems, Manager is a [grade 8](https://handbook.gitlab.com/handbook/total-r
 
 - Bachelor’s degree in Computer Science, Information Technology, or a related discipline. A Master’s degree is advantageous.
 - 5-7 years of experience implementing, configuring, customizing and integrating SaaS software for Lead to Cash Eg: Salesforce, Zuora Billing, Zuora Revenue, DocuSign CLM, Netsuite, Xactly etc.
-- Application specific skills : 
-    - Salesforce : Development experience with advanced Salesforce.com development tools and techniques (e.g. LWC, Apex Class, Triggers, Aura Components,  Lightning Design System (LDS), Visualforce Pages, JavaScript, SOAP and REST APIs, SOQL, SOSL, Platform Events, Flows, 
+- Application specific skills :
+    - Salesforce : Development experience with advanced Salesforce.com development tools and techniques (e.g. LWC, Apex Class, Triggers, Aura Components,  Lightning Design System (LDS), Visualforce Pages, JavaScript, SOAP and REST APIs, SOQL, SOSL, Platform Events, Flows,
       Profiles, Roles, Lightning Pages etc.,)
     - Billing Systems: CPQ, Billing, Revenue (Zuora, NetSuite, etc.)
     - CLM: DocuSign CLM, Ironclad
