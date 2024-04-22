@@ -53,10 +53,10 @@ This Working Group has the following goals:
 1. Develop a Rollout Strategy and Plan (e.g. feature flags, would customers ever want to disable/remove it, etc.).
     1. SaaS rollout strategy for identified use cases.
     1. Lay the groundwork to add ClickHouse to [our reference architectures](https://docs.gitlab.com/ee/administration/reference_architectures) through self-managed support.
-        - Packaging ClickHouse for our self-managed installations.
-        - Research and understand the component costs and maintenance requirements of running a ClickHouse instance.
-        - Determine the scale and deployment targets where adding ClickHouse makes sense.
-        - Consider an abstraction layer to interacting with ClickHouse or alternatives.
+        * Packaging ClickHouse for our self-managed installations.
+        * Research and understand the component costs and maintenance requirements of running a ClickHouse instance.
+        * Determine the scale and deployment targets where adding ClickHouse makes sense.
+        * Consider an abstraction layer to interacting with ClickHouse or alternatives.
 1. Develop and implement a communication plan for the outcomes of the working group.
 
 #### Exit Criteria Progress
@@ -72,8 +72,8 @@ This Working Group has the following goals:
 
 ### Current and Planned Use Cases
 
-- [Current status of ClickHouse and GitLab’s implementation](https://gitlab.com/gitlab-com/ops-sub-department/ops-engineering-management/-/issues/205)
-- [ClickHouse Use Cases](https://gitlab.com/gitlab-org/gitlab/-/issues/384184)
+* [Current status of ClickHouse and GitLab’s implementation](https://gitlab.com/gitlab-com/ops-sub-department/ops-engineering-management/-/issues/205)
+* [ClickHouse Use Cases](https://gitlab.com/gitlab-org/gitlab/-/issues/384184)
 
 ### Roles and Responsibilities
 
