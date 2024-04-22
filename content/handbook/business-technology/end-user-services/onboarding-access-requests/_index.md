@@ -257,7 +257,7 @@ Retained laptops must be [wiped](#laptop-wipe).
 
 If the departing team member opts not to retain or [donate](#laptop-donations) their laptop, they can return them to GitLab. See the [returning old/offboarded laptops](#laptop-recyclereturn) section for details.
 
-**If the team member is under an active Legal Hold or possesses material related to an active Company investigation, they must comply with the notice requirements. Failure to comply with an active Legal Hold may expose the team member or the Company to adverse consequences, including civil or criminal penalties and sanctions. Their obligation to follow the procedures outlined in the notice continues until the hold is lifted, even if they depart the Company. If the team memeber departs the Company, all Company devices and any material they're holding in accordance with any active Legal Hold Notice or active Company investigation should be turned over upon their departure.**
+**If the team member is under an active Legal Hold or possesses material related to an active Company investigation, they must comply with the notice requirements. Failure to comply with an active Legal Hold may expose the team member or the Company to adverse consequences, including civil or criminal penalties and sanctions. Their obligation to follow the procedures outlined in the notice continues until the hold is lifted, even if they depart the Company. If the team member departs the Company, all Company devices and any material they're holding in accordance with any active Legal Hold Notice or active Company investigation should be turned over upon their departure.**
 
 ### Laptop Recycle/Return
 
