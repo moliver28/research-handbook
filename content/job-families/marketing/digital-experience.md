@@ -161,7 +161,7 @@ The Director, Digital Experience is a [grade 10](/handbook/total-rewards/compens
 - Skilled in balancing technical needs and requirements with business objectives and parameters and consulting with stakeholders on shaping and scoping key initiatives
 - Deep technical expertise and practical experience in web development and related web technologies, including HTML, CSS, and JavaScript
 - Experience with major CMS platforms, UI and design, analytics and monitoring tools (e.g. Contentful, Figma, Quantum Metric)
-- Experience in fostering a testing and iterative team environment and orientation;  analyzing and reporting on website performance to a range of audiences, including marketing counterparts and business stakeholders, 
+- Experience in fostering a testing and iterative team environment and orientation;  analyzing and reporting on website performance to a range of audiences, including marketing counterparts and business stakeholders
 - Extensive team management skills, including career development and coaching engineering team leads and people managers
 - Experience partnering cross-functionally across marketing, internal stakeholders, vendors and agency partners
 - You share our [values](/handbook/values/), and work in accordance with those values.
@@ -181,7 +181,7 @@ The Digital Experience Management job family career ladder is yet to be defined.
 
 ## Hiring Process
 
-- Candidates for this position can expect the hiring process to follow the order below. Please keep in mind that candidates can be declined from the position at any stage of the process. 
+- Candidates for this position can expect the hiring process to follow the order below. Please keep in mind that candidates can be declined from the position at any stage of the process.
 
 - Qualified candidates will be invited to schedule a screening call with one of our Global Recruiters
 - Candidates will be invited to schedule an interview with the VP, Integrated Marketing
