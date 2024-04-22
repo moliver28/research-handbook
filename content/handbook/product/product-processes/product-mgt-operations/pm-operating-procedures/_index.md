@@ -207,7 +207,7 @@ As DRIs, it is important to consider the input from other team members and to kn
 
 In the event that a decision is made to build something that is less polished, has a lesser user experience, or otherwise doesn't live up to our standards of where we want this UI to end up the team should generate follow-up [Deferred UX](/handbook/product/ux/performance-indicators/#deferred-ux) issues to be addressed in the next upcoming milestone(s).
 
-If a quad member remains concerned and in strong disagreement with the decision made by the PM DRI, the quad member should exercise our [disagree, commit, and disagree value](/handbook/values/#disagree-commit-and-disagree), by initiating an [escalation](/handbook/leadership/#effective-escalations) to bring in management layers above into the decision.
+If a quad member remains concerned and in strong disagreement with the decision made by the PM DRI, the quad member should exercise our [disagree, commit, and disagree value](/handbook/values/#disagree-and-commit), by initiating an [escalation](/handbook/leadership/#effective-escalations) to bring in management layers above into the decision.
 
 Results are the most important aspect to consider for the business and our users. If there is a perceived risk to potentially harm the business financially, reduce customer satisfaction or value, or lead to legal trouble, teammates are empowered to seek an alternative perspective for the product decision. Within the Product Division, we recommend escalating first to the management layer immediately above where the disagreement is happening for input and further escalating to PLT and ultimately the Chief Product Officer.
 

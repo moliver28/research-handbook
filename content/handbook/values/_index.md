@@ -135,7 +135,7 @@ We blame circumstances for our own mistakes, but individuals for theirs.
 This double standard is called the [Fundamental Attribution Error](https://en.wikipedia.org/wiki/Fundamental_attribution_error).
 In order to mitigate this bias, you should always [assume positive intent](https://www.collaborativeway.com/general/a-ceos-advice-assume-positive-intent/) in your interactions with others, respecting their expertise and giving them grace in the face of what you might perceive as mistakes.
 
-When [disagreeing](#disagree-commit-and-disagree), folks sometimes argue against the weakest points of an argument, or an imaginary argument (e.g. ["straw man"](https://en.wikipedia.org/wiki/Straw_man)). Assume the points are presented in good faith, and instead try to argue against the strongest version of your opponent’s position. We call this arguing against a "steel" position, instead of a "straw" one. This concept is borrowed from [argue the "steel man"](https://constantrenewal.com/steel-man) technique.
+When [disagreeing](#disagree-and-commit), folks sometimes argue against the weakest points of an argument, or an imaginary argument (e.g. ["straw man"](https://en.wikipedia.org/wiki/Straw_man)). Assume the points are presented in good faith, and instead try to argue against the strongest version of your opponent’s position. We call this arguing against a "steel" position, instead of a "straw" one. This concept is borrowed from [argue the "steel man"](https://constantrenewal.com/steel-man) technique.
 
 A "steel" position should be against the absolute most effective version of your opponent’s position — potentially even more compelling than the one they presented. A good "steel" position is one where the other person feels you've represented their position well, even if they still disagree with your assumptions or conclusion.
 
@@ -221,7 +221,7 @@ Don't display surprise when people say they don't know something, as it is impor
 When collaborating, it is always important to stay above radar and work [transparently](#transparency), but collaboration is [not consensus](/handbook/leadership/#making-decisions) and disagreement is part of collaboration.
 You don't need to ask people for their input, and they shouldn't ask you "Why didn't you ask me?"
 You don't have to wait for people to provide input, if you did ask them.
-You don't need to have everyone agreeing to the same thing - they can [disagree, commit, and disagree](#disagree-commit-and-disagree). [Two-way doors decisions](#make-two-way-door-decisions) can be reversed as part of [disagree, commit, and disagree](#disagree-commit-and-disagree), while one-way door decisions benefit from more input. Recognize these reversible two-way door decisions for when less input is required to iterate faster.
+You don't need to have everyone agreeing to the same thing - they can [disagree, commit, and disagree](#disagree-and-commit). [Two-way doors decisions](#make-two-way-door-decisions) can be reversed as part of [disagree, commit, and disagree](#disagree-and-commit), while one-way door decisions benefit from more input. Recognize these reversible two-way door decisions for when less input is required to iterate faster.
 We believe in permissionless innovation—you don't need to involve people, but everyone can contribute.
 This is core to how we [iterate](#iteration), since we want smaller teams moving quickly rather than large teams achieving consensus slowly.
 
@@ -379,7 +379,7 @@ Time gained or lost has compounding effects. Try to get the results as fast as p
 
 It's important that we keep our focus on action, and don't fall into the trap of analysis paralysis or sticking to a slow, quiet path without risk. Decisions should be thoughtful, but delivering fast results requires the fearless acceptance of occasionally making mistakes; our bias for action also allows us to course correct quickly. Try to get results as fast as possible, but without compromising our other values and ways of working
 
-##### Disagree, commit, and advocate
+##### Disagree, commit, and advocate {#disagree-and-commit}
 
 When a decision is in place, we expect people to commit to executing it. Any past decisions and guidelines are open to questioning as long as you act in accordance with them until they are changed. This is [a common principle](https://ryanestis.com/leadership/disagree-and-commit-to-get-things-done/).
 Every decision can be changed;

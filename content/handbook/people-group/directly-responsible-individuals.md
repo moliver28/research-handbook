@@ -14,7 +14,7 @@ The DRI might be a manager or team leader, they might even be an executive.
 Or, they may themselves be individually responsible for fulfilling all the needs of their project.
 The selection of a DRI and their specific role will vary based on their own skillset and the requirements of their assigned task.
 What's most important is that they're empowered.
-We may [disagree, commit, and disagree]({{< ref "values#disagree-commit-and-disagree" >}}), but we all have to achieve results on every decision while it stands, even when if trying to have it changed.
+We may [disagree, commit, and disagree]({{< ref "values#disagree-and-commit" >}}), but we all have to achieve results on every decision while it stands, even when if trying to have it changed.
 
 While the DRI is the individual who is ultimately held accountable for the success or failure of any given project, they are not necessarily the individual that does the tactical project work. The DRI should **consult and collaborate** with all teams and stakeholders involved to ensure they have all relevant context, to gather input/feedback from others, and to divide action items and tasks amongst those involved.
 
