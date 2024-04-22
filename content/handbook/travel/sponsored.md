@@ -15,7 +15,7 @@ Sponsored travel is travel usually to a customer site that is sponsored by the c
 Travelers are expected to choose lodging that meets the traveler's schedule and business needs. Receipts are required for all lodging.
 
 **Domestic or International Lodging**
-Departments will reimburse travelers for actual expenses up to 100% of the lodging rate for the destination city, as referenced on the [US Government General Services Administration (GSA) website](http://www.gsa.gov/portal/category/21287) for domestic lodging and the [U.S. Department of State website](http://aoprals.state.gov/web920/per_diem.asp) for international lodging.
+Departments will reimburse travelers for actual expenses up to 100% of the lodging rate for the destination city, as referenced on the [US Government General Services Administration (GSA) website](https://www.gsa.gov/travel/plan-book/per-diem-rates?gsaredirect=portalcategory) for domestic lodging and the [U.S. Department of State website](http://aoprals.state.gov/web920/per_diem.asp) for international lodging.
 
 GitLab recognizes there could be some situations where a lodging rate falls outside of GitLab's guidelines. The traveler must obtain pre-approval from the appropriate authorized approver through a [NexTravel](https://www.nextravel.com) account.  Out of policy lodging must be booked and approved through NexTravel. If the traveler does not obtain prior approval, the department may limit the reimbursement to the GSA per diem rate.
 
