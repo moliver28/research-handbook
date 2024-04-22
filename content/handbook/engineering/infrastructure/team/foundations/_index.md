@@ -113,7 +113,7 @@ For more context, see the related [discussion issue](https://gitlab.com/gitlab-c
 
 ## Team Members
 
-{{< team-by-manager-slug "sabrams" >}}
+{{< team-by-manager-slug "steve-abrams" >}}
 
 ## Key Technical Skills
 
