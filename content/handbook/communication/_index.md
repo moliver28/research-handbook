@@ -1214,7 +1214,7 @@ Earlier in our history, 50% of all communication *was* in public channels.
 
 **Note:** Some of these charts require data from a sheetload file that needs to be manually updated. To self-serve data for a chart with missing data, please visit Slack's [workspace administration page](https://slack.com/intl/en-gb/help/articles/218407447-View-your-Slack-analytics-dashboard#pro-and-business+-1). It provides guidance on how to access Slack's analytics dashboard for a particular workspace. If this data is required in the charts below, you can ping the #data channel for a refresh. If this becomes a common request, we may choose for the manual step to become regularly scheduled.
 
-{{< tableau height="700px" url="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/GitLabSlack/ofMessagesnotDMsRolling3Months" />}}
+{{< tableau height="700px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/GitLabSlack/ofMessagesnotDMsRolling3Months" />}}
 
 ### Use public channels
 
