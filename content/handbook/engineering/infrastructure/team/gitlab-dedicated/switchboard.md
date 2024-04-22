@@ -158,6 +158,24 @@ The epic [DRI](/handbook/people-group/directly-responsible-individuals/) is resp
  Team members are encouraged to time demos to be delivered shortly before the fortnightly Switchboard Team Syncs whenever possible so that any synchronous Q&A can happen during already reserved time.
 Team members may choose to create additional demos to share progress or delivery milestones.
 
+#### Issue Templates
+
+Switchboard maintains the following issue templates:
+
+| Template                                    | User                    | Use case                                                                                                                              | Further Details                                                                                                                     |
+|---------------------------------------------|-------------------------|---------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------|
+| `switchboard_bug.md`                        | GitLab team members     | Reporting a bug in the Switchboard application                                                                                        | Usually used by EA and Switchboard team members                                                                                     |
+| `feature_proposal_switchboard.md`           | GitLab team members     | Proposing a new feature                                                                                                               | Usually used by Switchboard team members. Could possibly be replaced by Epic template or updated to ensure more fields are optional |
+| `switchboard-feedback.md`                   | GitLab team members     | This is used to make suggestions and provide feedback to Switchboard. It feeds into the EA Requests epic which the EM & PM prioritise | This template is used regularly by EA team members and provides value                                                               |
+| `switchboard_tenant_model_schema_update.md` | EA team members         | Tenant Model Schema Updates                                                                                                           |                                                                                                                                     |
+| `switchboard_tenant_onboarding_request.md`  | Onboarding DRI          | Kicks off the Dedicated onboarding process                                                                                            | Generally used by Dedicated PMs                                                                                                     |
+| `create_onboarding_tenant_model_request.md` | Onboarding DRI          | Used to track the creation of the OnboardingTenant in preparation for onboarding a new Dedicated customer                             | Generally used by Dedicated PMs                                                                                                     |
+| `request_for_switchboard_help.md`           | Support Engineers       | Highlight an issue and request help from Switchboard team members                                                                     |                                                                                                                                     |
+| `switchboard_team_member_onboarding.md`     | Switchboard EM          | Onboard a new team member to the Switchboard team                                                                                     |                                                                                                                                     |
+| `switchboard_internal_issue.md`             | Switchboard team member | This template is used by DRIs to create issues in pre-existing well-defined epics                                                     |                                                                                                                                     |
+
+
+
 ### Merge Request Review Guidelines
 
 We specifically adhere to the [GitLab Code Review Guidelines](#gitlab-code-review-guidelines) and follow
