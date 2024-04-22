@@ -48,16 +48,18 @@ The AppSec Engineer responsible for the task is expected to assign this label to
 
 ## Effort Classification
 
-The effort classification is an estimate of the level of effort it took to resolve a task, not the amount of time.
+The effort classification is an estimate of the level of effort required to resolve a task, not the amount of actual time spent. The `Estimation Guide` serves as a reference point and is purely a guideline.
 
 ### Table
 
-| Label    | Description | Example |
-| -------- | ------- | ------- |
-| AppSecWeight::trivial | | |
-| AppSecWeight::small  | | |
-| AppSecWeight::medium | | |
-| AppSecWeight::large | | |
+| Label    | Classification | Description | Estimation Guide | Example |
+| -------- | ------- | ------- | ------- | ------- |
+| AppSecWeight::1 | Trivial | Very little effort required | Immediate or near immediate change to resolve the issue | Trivial documentation update |
+| AppSecWeight::2  | Small | Straight forward change, minimal investigation | ~0.5 - 1 days  | |
+| AppSecWeight::3 | Medium | Some investigation and/or collaboration needed  | ~1-3 days |
+| AppSecWeight::5 | Large | Signficant investigation and collaboration needed | ~3-5 days | |
+| AppSecWeight::8 | XLarge | Very complex and requires a major portion of the milestone to resolve | ~5-10 days | |
+| AppSecWeight::13 | Needs Refinement | The issue is overly complex and needs to be promoted to an Epic or broken down into smaller issues | |
 
 #### Who assigns this label and when?
 
