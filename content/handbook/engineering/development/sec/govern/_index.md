@@ -107,7 +107,7 @@ Labels:
 - `devops::govern` - for Objectives and key results for the stage, and stage groups
 - `group::` - for Objectives and key results for a specific group
 
-Each Objective and Key Result should have an assignee who is DRI for providing status updates throughout the quarter. Regular updates are preferred. At a minmum these should be updated
+Each Objective and Key Result should have an assignee who is DRI for providing status updates throughout the quarter. Regular updates are preferred. At a minimum these should be updated
 - By end of day, the second friday of every month
 - Ay the end of the quarter 
 
