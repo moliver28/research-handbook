@@ -1,7 +1,6 @@
 ---
 title: "ClickHouse Working Group"
 description: "Learn more about the ClickHouse Datastore Working Group attributes, goals, roles and responsibilities."
-status: active
 ---
 
 ## Attributes
@@ -9,7 +8,7 @@ status: active
 | Property        | Value           |
 |-----------------|-----------------|
 | Date Created    | 2022-12-01 |
-| Target End Date | 2024-12-31 |
+| End Date | 2024-04-25 |
 | Slack           | #f_clickhouse (only accessible from within the company) |
 | Google Doc      | [Agenda](https://docs.google.com/document/d/1ZZ7fE7s18Yxww9wp0-lO7mFxJmwop3pWvqINCQPNubA/edit#) (only accessible from within the company) |
 | Epic            | [Link](https://gitlab.com/groups/gitlab-com/-/epics/2070) |
@@ -24,6 +23,22 @@ In FY23 ClickHouse was selected as GitLab's standard datastore for features with
 In FY23-Q2 the Monitor:Observability team developed and shipped a [ClickHouse data platform](https://gitlab.com/groups/gitlab-org/-/epics/7772) to store and query data for Error Tracking and other observability features.  Other teams have also begun to incorporate ClickHouse into their current or planned architectures.
 
 We want ensure teams can efficiently leverage the ClickHouse data platform when developing new features and that we can maintain and support this functionality effectively for SaaS and self-managed customers.
+
+### WG Exit
+
+In April 2024 the ClickHouse Working Group was closed out.  The group made major progress introducing ClickHouse to GitLab’s architecture to support GitLab’s analytics and monitoring features.
+
+* Enabled usage of ClickHouse Cloud with GitLab, including security and legal approval for storing customer RED data and production readiness reviews.
+* Consolidated our multiple ClickHouse hosting setups into ClickHouse Cloud, reducing operational load for our teams and improving reliability.
+* Released multiple features that would not have been possible without ClickHouse’s capabilities.
+* Fixed features such as Contributor Analytics which were no longer performant on GitLab.com.
+* Developed documentation and tooling for using ClickHouse in GitLab’s development process.
+
+Due to the overlap with the recently created [Product Usage Data Architecture Working Group](https://internal.gitlab.com/handbook/company/internal-working-groups/product-usage-data-architecture/), the decision was made to wind down the ClickHouse group, and roll those concerns into that group’s work defining the architecture for analytical features.
+
+
+
+
 
 ### Exit Criteria
 
