@@ -213,7 +213,7 @@ To help structure your usage of the above, you can follow the steps below during
 
 | Action | Benefit |
 | ------ | ------- |
-| Clone the W&H Dashboard and edit each report to be exclusive to your team's names | Gives you a SSoT that you and your team can easily reference |
+| Clone the Action Needed Dashboard and edit each report to be exclusive to your team's names | Gives you a SSoT that you and your team can easily reference |
 | Review the dashboard with your team, and discuss how the data on it connect to the [BDR KPIs](/handbook/marketing/revenue-marketing/sdr/#sdrbdr-roe-and-inbound-lead-management) | Allows you to understand your team's level of maturity and each team member's current level of alignment to existing processes |
 | Take note of any discrepancies or points of feedback from the team, either transcribe them to 1:1s for individual conversations or to the SDR Issue board for org-wide improvements | Enables you to filter between discrepancies that are caused because of a team member's lack of diligence that should be improved upon by the individual OR for discrepancies that were caused by an org-wide operational shortcoming that should be improved upon on a global scale. |
 | Set realistic expectations with the team about adherance to org KPIs and set a review mechanism to go over them on a reccuring basis | Helps maintain a repeatable structure of accountability for your entire team |
