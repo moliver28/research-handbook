@@ -141,7 +141,7 @@ The Senior Manager, Digital Experience is a [grade 9](/handbook/total-rewards/co
 
 ### Director, Digital Experience
 
-The Director, Digital Experience reports to the VP, Marketing Strategy and Platforms. The Product Manager (Marketing), Engineering Manager, and Digital Experience Operations Manager report to the Director, Digital Experience.
+The Director, Digital Experience reports to the VP, Integrated Marketing. The Product Manager (Marketing), Engineering Manager, and Digital Experience Operations Manager report to the Director, Digital Experience.
 
 #### Director, Digital Experience Job Grade
 
@@ -181,7 +181,7 @@ The Digital Experience Management job family career ladder is yet to be defined.
 
 ## Hiring Process
 
-- Candidates for this position can expect the hiring process to follow the order below. Please keep in mind that candidates can be declined from the position at any stage of the process. To learn more about someone who may be conducting the interview, find their job title on our team page.
+- Candidates for this position can expect the hiring process to follow the order below. Please keep in mind that candidates can be declined from the position at any stage of the process. 
 
 - Qualified candidates will be invited to schedule a screening call with one of our Global Recruiters
 - Candidates will be invited to schedule an interview with the VP, Integrated Marketing
