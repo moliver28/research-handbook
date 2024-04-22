@@ -33,13 +33,14 @@ Classifying each type of work helps to distinguish where exactly more capacity o
 | AppSecWorkType::JihuMRreview | Indicates the work was associated to the AppSec JiHu merge request reviews duties |
 | AppSecWorkType::AppSecReview | Indicates the work was associated to the AppSec reviews duties |
 | AppSecWorkType::okr | Indicates the work was associated to the AppSec OKR/KR duties |
-| AppSecWorkType::SecurityRelease | Indicates the work was associated to the AppSec Security release task issue duties |
+| AppSecWorkType::SecurityReleaseRotation | Indicates the work was associated to the AppSec Security release task issue duties |
 | AppSecWorkType::VulnFixVerification | Indicates the work was associated to the AppSec stable counterpart duties |
-| AppsecWorkType::HackerOne | Indicates the work was associated to the AppSec HackerOne duties |
-| AppsecWorkType::FieldSecurity | Indicates the work was associated to the request from Field Security (example: customer scan review requests) |
-| AppsecWorkType::FedAppSecVAT | Indicates the work was associated to the AppSec Federal AppSec VAT duties |
-| AppsecWorkType::FedAppSecRelCert | Indicates the work was associated to the AppSec Federal AppSec release certification and merge monitor review duties |
-| AppsecWorkType::SecurityMRReview | Indicates the work was associated to the AppSec merge request security reviews (non stable counterpart MR reviews) duties |
+| AppSecWorkType::HackerOneRotation | Indicates the work was associated to the AppSec HackerOne duties |
+| AppSecWorkType::FieldSecurity | Indicates the work was associated to the request from Field Security (example: customer scan review requests) |
+| AppSecWorkType::VATRotation | Indicates the work was associated to the AppSec Federal AppSec VAT duties |
+| AppSecWorkType::FedAppSecRelCert | Indicates the work was associated to the AppSec Federal AppSec release certification and merge monitor review duties |
+| AppSecWorkType::SecurityMRReview | Indicates the work was associated to the AppSec merge request security reviews (non stable counterpart MR reviews) duties |
+| AppSecWorkType::TriageRotation | Indicates the work was associated to the AppSec Triage Rotation |
 
 #### Who assigns this label and when?
 
