@@ -9,3 +9,9 @@ The Secret Detection group was split from Static Analysis [on 2024-03-05](https:
 The Secret Detection group maintains the following feature categories for customer software repositories:
 - [Secret Detection](https://about.gitlab.com/direction/secure/secret-detection/secret-detection/)
 - [Code Quality](https://about.gitlab.com/direction/secure/secret-detection/code_quality/)
+
+### Observability
+
+#### Runbooks
+
+The process for monitoring, responding to, and mitigating incidents is documented within our [Secret Detection Runbooks](runbooks/) page.
