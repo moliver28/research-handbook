@@ -5,8 +5,6 @@ description: "This Hands-on Guide walks you through the lab exercises used in th
 
 > Estimated time to complete: 30 minutes
 
-> **We are transitioning to the latest version of this course.**  If your group URL starts with `https://spt.gitlabtraining.cloud`, please use the [Version 15.x instructions](https://gitlab.com/gitlab-com/content-sites/handbook/-/blob/d14ee71aeac2054c72ce96e8b35ba2511f86a7ca/content/handbook/customer-success/professional-services-engineering/education-services/gitbasicshandsonlab5.md).
-
 ## Objectives
 
 GitLab Auto DevOps is a collection of pre-configured features and integrations that work together to support your software delivery process. Auto DevOps detects your programming language and uses CI/CD templates to create and run default pipelines to build and test your application. Then, you can configure deployments to deploy your apps to staging and production, and set up Review Apps to preview your changes per branch. See the [documentation](https://docs.gitlab.com/ee/topics/autodevops/) to learn more.
