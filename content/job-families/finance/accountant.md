@@ -9,6 +9,7 @@ title: "International Accounting"
 The International Accountant is a [grade 6](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
 ### Responsibilities
+
 - Supporting all aspects of international statutory accounting operations together with some US GAAP responsibilities
 - Engage with external service providers to ensure maintenance of local accountign records and preparation of high quality statutory financial statements
 - Ensuring changes to local accounting requirements are captured, understood and operationalised
