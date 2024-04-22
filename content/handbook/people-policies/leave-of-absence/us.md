@@ -7,11 +7,11 @@ These GitLab and US-specific leave policies are intended to provide team members
 
 This page is designed to educate our team members about the different US-specific leave types available, how a team member can expect to be paid, and if their job is protected. These leave programs are coordinated and run concurrently with the [Family Medical Leave Act](https://www.dol.gov/sites/dolgov/files/WHD/legacy/files/fmlaen.pdf) or (FMLA), and other State leave programs team members are eligible for.
 
-Taking time away can be confusing, so your Absence Managment team is here and available to help before, during, or after your leave. If you have any questions related to your time away after reviewing this page, please contact leaves@domain to discuss or request a 1:1 with the Absence Management team.
+Taking time away can be confusing, so your Absence Managment team is here and available to help before, during, or after your leave. If you have any questions related to your time away after reviewing this page, please contact leaves@gitlab.com to discuss or request a 1:1 with the Absence Management team.
 
 ## Which leave is right for me?
 
-Below are the GitLab and US-specific leave policies available to US team members, as well as common examples of how each leave may be used. This list may not be all inclusive, so if you have questions regarding which leave may be right for you please contact leaves@domain.
+Below are the GitLab and US-specific leave policies available to US team members, as well as common examples of how each leave may be used. This list may not be all inclusive, so if you have questions regarding which leave may be right for you please contact leaves@gitlab.com.
 
 | Leave Program | Description | Eligibility |
 |:---:|:---:|:---:|
@@ -52,7 +52,7 @@ If you live in a state where disability or paid family leave benefits are availa
 
 ## What Happens Next?
 
-Team members can use this [checklist](https://docs.google.com/document/d/1NCf6NcDkSn5TlBcPLnP0eyjxIWOQ5lVfRVR_cvdZ9zI/edit?usp=sharing) as a reference for what steps to complete before, during, and after you return from leave. For questions specific to your leave or pay, please contact `leaves@domain`. *This checklist is currently in its first iteration. Please continue to check back for updates.*
+Team members can use this [checklist](https://docs.google.com/document/d/1NCf6NcDkSn5TlBcPLnP0eyjxIWOQ5lVfRVR_cvdZ9zI/edit?usp=sharing) as a reference for what steps to complete before, during, and after you return from leave. For questions specific to your leave or pay, please contact `leaves@gitlab.com`. *This checklist is currently in its first iteration. Please continue to check back for updates.*
 
 ### State-Specific Leaves
 
@@ -66,7 +66,7 @@ Team members must have 12 months of continuous service and 1250 hours worked in 
 
 #### How to Apply:
 
-Any medical related absence (for yourself or a family member) requiring you to be away from work for at least 3 but no more than 5 days (either continuously or non-continuous but related to the same condition) must be reported to leaves@domain. You will be contacted within 24-48 business hours (whenever possible) and provided with information regarding your request.  If approved, please submit your time away via Time Off by Deel request utilizing the `Out Sick` option.
+Any medical related absence (for yourself or a family member) requiring you to be away from work for at least 3 but no more than 5 days (either continuously or non-continuous but related to the same condition) must be reported to leaves@gitlab.com. You will be contacted within 24-48 business hours (whenever possible) and provided with information regarding your request.  If approved, please submit your time away via Time Off by Deel request utilizing the `Out Sick` option.
 
 #### Payroll Processing During FMLA
 
@@ -76,7 +76,7 @@ The Absence Management team will review the team members eligibility for Short-T
 
 GitLab will grant time off to eligible team members in accordance with the requirements of the California Family Rights Act (“CFRA”) and the federal Family and Medical Leave Act (Fed-FMLA). Where both the CFRA and Fed-FMLA apply, the leave provided by each will count against the team member’s entitlement under both laws and must be taken concurrently. A team member who is eligible for leave under only one of these laws will receive benefits in accordance with that law only. In any case, team members will be eligible for the most generous benefits available under applicable law.
 
-The following policy addresses team member rights under the CFRA only. Team members should refer to [GitLab’s Team Member Handbook](#the-family-medical-leave-act-fmla) for additional detail regarding the Fed-FMLA. All questions concerning this policy should be directed to leaves@domain.
+The following policy addresses team member rights under the CFRA only. Team members should refer to [GitLab’s Team Member Handbook](#the-family-medical-leave-act-fmla) for additional detail regarding the Fed-FMLA. All questions concerning this policy should be directed to leaves@gitlab.com.
 
 **Team Member Eligibility**
 
@@ -116,24 +116,24 @@ Intermittent or reduced schedule leave may also be taken for absences where the 
 
 Leave due to military exigencies may also be taken on an intermittent or reduced leave schedule basis.
 
-Leave taken intermittently may be taken in increments of no less than one hour. Team members who take leave intermittently or on a reduced work schedule basis for planned medical treatment must make a reasonable effort to schedule the leave so as not to unduly disrupt the Company's operations. Please contact leaves@domain prior to scheduling medical treatment. If CFRA Leave is taken intermittently or on a reduced schedule basis due to planned medical treatment, the Company may require team members to transfer temporarily to an available alternative position with an equivalent pay rate and benefits, including a part-time position, to better accommodate recurring periods of leave.
+Leave taken intermittently may be taken in increments of no less than one hour. Team members who take leave intermittently or on a reduced work schedule basis for planned medical treatment must make a reasonable effort to schedule the leave so as not to unduly disrupt the Company's operations. Please contact leaves@gitlab.com prior to scheduling medical treatment. If CFRA Leave is taken intermittently or on a reduced schedule basis due to planned medical treatment, the Company may require team members to transfer temporarily to an available alternative position with an equivalent pay rate and benefits, including a part-time position, to better accommodate recurring periods of leave.
 
 If a team member using intermittent leave or working a reduced schedule finds it physically impossible to start or stop work mid-way through a shift in order to take CFRA leave and is therefore forced to be absent for the entire shift, the entire period will be counted against the team member’s CFRA entitlement. However, if there are other aspects of work that the team member is able to perform that are not physically impossible, then the team member will be permitted to return to work, thereby reducing the amount of time to be charged to the team member’s CFRA entitlement.
 
-CFRA leave for Bonding Leave does not have to be taken in one continuous period of time, but the minimum duration is two weeks. However, the Company will grant a request for CFRA leave lasting less than two weeks' twice during the 12-week period. **Additional requests for Bonding Leave lasting less than two weeks may be directed to the Absence Management team (leaves@domain)** and will be considered on a case-by-case basis depending on the needs of the Company. If the request is granted, the Company may require the team member to transfer temporarily to an available alternative position. Bonding Leave must be concluded within one year of the birth or placement of the child.
+CFRA leave for Bonding Leave does not have to be taken in one continuous period of time, but the minimum duration is two weeks. However, the Company will grant a request for CFRA leave lasting less than two weeks' twice during the 12-week period. **Additional requests for Bonding Leave lasting less than two weeks may be directed to the Absence Management team (leaves@gitlab.com)** and will be considered on a case-by-case basis depending on the needs of the Company. If the request is granted, the Company may require the team member to transfer temporarily to an available alternative position. Bonding Leave must be concluded within one year of the birth or placement of the child.
 
 **Requesting Leave**
 
-Team members who wish to take planned family or medical leave must notify leaves@domain with reasonable promptness when they become aware of the need for leave and should identify the planned dates of the leave. The Company may require team members to provide written notice of the need for leave, except where written notice is not possible because of the need for immediate health care consultation or treatment.
+Team members who wish to take planned family or medical leave must notify leaves@gitlab.com with reasonable promptness when they become aware of the need for leave and should identify the planned dates of the leave. The Company may require team members to provide written notice of the need for leave, except where written notice is not possible because of the need for immediate health care consultation or treatment.
 
-When the need for the leave is foreseeable (such as for the expected birth or placement of a child) team members must, if possible, provide at least 30 days' advance notice. For events that are unforeseeable, team members should notify the Company (at least verbally) as soon as they learn of the need for leave. Employees should provide notice by emailing leaves@domain.
+When the need for the leave is foreseeable (such as for the expected birth or placement of a child) team members must, if possible, provide at least 30 days' advance notice. For events that are unforeseeable, team members should notify the Company (at least verbally) as soon as they learn of the need for leave. Employees should provide notice by emailing leaves@gitlab.com.
 
 Team members who need CFRA leave that is foreseeable due to a planned medical treatment should make reasonable efforts to schedule leave to avoid disruption to Company operations.
 In addition to other notice provisions, team members requesting leave for CFRA qualifying reasons must respond to any questions designed to determine whether an absence is potentially qualifying for leave under this policy. Failure to respond to permissible inquiries regarding the leave request may result in denial of CFRA leave protections
 
 **Certification of Health Care Provider**
 
-When the leave relates to medical issues (i.e., the serious health condition of a team member or family member), team members will be required to provide a medical certification within 15 calendar days of the Company's request, unless it is not practicable to do so. Certification forms are available from the Absence Management Team (leaves@domain). Team members on CFRA leave for their own or a family member's serious health condition may be required to provide a recertification when the original certification expires, if additional leave is requested.
+When the leave relates to medical issues (i.e., the serious health condition of a team member or family member), team members will be required to provide a medical certification within 15 calendar days of the Company's request, unless it is not practicable to do so. Certification forms are available from the Absence Management Team (leaves@gitlab.com). Team members on CFRA leave for their own or a family member's serious health condition may be required to provide a recertification when the original certification expires, if additional leave is requested.
 
 At the Company's expense, the Company may also require a second medical opinion regarding a team member's own serious health condition. Team members are expected to cooperate with the Company in obtaining additional medical opinions that the Company may require.
 
@@ -179,7 +179,7 @@ A team member who fraudulently obtains CFRA Leave from the Company is not protec
 
 The Company takes its CFRA leave obligations very seriously and will not interfere with, restrain or deny the exercise of any rights provided by the CFRA. We will not terminate or discriminate against any individual for exercising their right to family and medical leave under the CFRA or for giving information or testimony regarding their own or another person’s leave in an inquiry or proceeding related to rights under the CFRA. If a team member believes that their CFRA rights have been violated in any way, they should immediately report the matter to Team Member Relations.
 
-Team members should contact leaves@domain as to any CFRA questions they may have.
+Team members should contact leaves@gitlab.com as to any CFRA questions they may have.
 
 ### New York Paid Family Leave (NYPFL)
 
@@ -250,7 +250,7 @@ A family member includes:  Spouse, Domestic Partner, child and stepchild, Parent
 
 **Paid Family Leave Process and Contacts**
 
-At GitLab, requests for Paid Family Leave forms and forms submissions should be directed to the Absence Management Team (leaves@domain).  Our Paid Family Leave carrier is NYLife.
+At GitLab, requests for Paid Family Leave forms and forms submissions should be directed to the Absence Management Team (leaves@gitlab.com).  Our Paid Family Leave carrier is NYLife.
 
 **Disputes**
 
@@ -304,7 +304,7 @@ Military leave runs concurrently with GitLab PTO. Team members on unpaid militar
 
 **Health Care Continuation**
 
-During a military leave of less than 31 days, a team member is entitled to continued group health plan coverage under the same conditions as if the employee had continued to work. For military leaves of more than 30 days, an employee may elect to continue their health coverage in accordance with USERRA and COBRA. For additional information on health care continuation contact the Absence Management team `leaves@domain`.
+During a military leave of less than 31 days, a team member is entitled to continued group health plan coverage under the same conditions as if the employee had continued to work. For military leaves of more than 30 days, an employee may elect to continue their health coverage in accordance with USERRA and COBRA. For additional information on health care continuation contact the Absence Management team `leaves@gitlab.com`.
 
 **Notification of Supervisor/Manager**
 
@@ -312,8 +312,8 @@ Team members needing **3 or more consecutive business days** away from work due 
 
 Team Members should report their Military Service in Time Off by Deel by selecting the `Mandatory Civilian Service` option.
 
-- Note: For absences resulting in more than 3 consecutive business days away from work, team members will need to provide a copy of your orders as soon as you receive them. Please email your orders to leaves@domain.
+- Note: For absences resulting in more than 3 consecutive business days away from work, team members will need to provide a copy of your orders as soon as you receive them. Please email your orders to leaves@gitlab.com.
 
 **No Retaliation**
 
-Team members who request military leave will not be retaliated against or penalized in any manner. Any team member who believes they have been retaliated against in violation of this policy should notify the Absence Management team (leaves@domain) immediately.
+Team members who request military leave will not be retaliated against or penalized in any manner. Any team member who believes they have been retaliated against in violation of this policy should notify the Absence Management team (leaves@gitlab.com) immediately.

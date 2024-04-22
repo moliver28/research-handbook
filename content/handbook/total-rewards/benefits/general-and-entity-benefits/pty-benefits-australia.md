@@ -497,7 +497,7 @@ Partner Leave
 - To initiate your parental leave, submit your time off by selecting the `Parental Leave` category in Time Off by Deel at least 30 days before your leave starts.
     - Please familiarize yourself with [GitLab's Parental Leave policy]({{< ref "general-and-entity-benefits#parental-leave" >}}).
 - To apply for government-funded Parental Leave pay, please submit your application via [IRD](https://www.ird.govt.nz/paid-parental-leave/apply).
-   - If there is anything GitLab needs to provide, please let the Absence Management team know by emailing leaves@domain
+   - If there is anything GitLab needs to provide, please let the Absence Management team know by emailing leaves@gitlab.com
 - If you are [eligible]({{< ref "general-and-entity-benefits#parental-leave" >}}), GitLab will supplement the government-funded payment to ensure that you receive 100% pay for up to 16 weeks of your Parental Leave.
 
 #### Other Types of Leave

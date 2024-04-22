@@ -7,7 +7,7 @@ description: "GitLab's Company-wide Leave of Absence policies."
 
 GitLab's leave policies are intended to provide team members time away from work to care for themselves as they recover from a serious health condition, care for a family member recovering from a serious health condition, to bond with a newborn or a newly placed child for adoption, to serve in the military, etc.
 
-Your Absence Managment team is here to help before, during, or after your leave. If you have any questions related to your time away after reviewing this page, please contact `leaves@domain` to discuss or request a 1:1 with the Absence Management team.
+Your Absence Managment team is here to help before, during, or after your leave. If you have any questions related to your time away after reviewing this page, please contact `leaves@gitlab.com` to discuss or request a 1:1 with the Absence Management team.
 
 This page is designed to educate our team members about the different GitLab-specific leave policies available.  Whenever allowed by law these leave programs are coordinated and run concurrently any entity specific leaves a team member may be eligible for. To find any entity-specific leave programs you may be eligible for, please click on the link below.
 

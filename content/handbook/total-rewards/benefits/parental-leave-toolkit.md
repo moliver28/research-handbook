@@ -7,13 +7,13 @@ description: "Leave Tool Kit for Managers and Team Members"
 
 GitLab supports all our team members time away needs by offering multiple leave types in compliance with all applicable federal, state, and laws.  At GitLab, we want to support our team members throughout their journey here which includes both the ‘highs’ and the ‘lows’. This includes offering several different leave programs (medical, parental, etc.) to support time away from work, and other resources to support overall wellbeing, because taking time away from work can be stressful, exciting, and everything in-between.
 
-As a manager, your team members(s) may come to you with questions, concerns, and/or requests for additional support and guidance.  These resources are intended to highlight which areas in the leave of absence process you are responsible for, and how you can best support your team members throughout the life-cycle of their leave.  No two leaves are ever the same, so there may not always be a “one-size-fits-all” solution. Some leave situations can be exciting and planned for (i.e. Parental Leave) while others may not be able to be planned for and/or may be serious for the team member or their family member.  As a Manager it is important you approach each situation with empathy and kindness, and understand how to best support your team member.  The resources included in these pages are intended to equip you with the information you need to support your team members through the entire life-cycle of their leave.  If you have any questions or need any additional assistance, please contact leaves@domain.
+As a manager, your team members(s) may come to you with questions, concerns, and/or requests for additional support and guidance.  These resources are intended to highlight which areas in the leave of absence process you are responsible for, and how you can best support your team members throughout the life-cycle of their leave.  No two leaves are ever the same, so there may not always be a “one-size-fits-all” solution. Some leave situations can be exciting and planned for (i.e. Parental Leave) while others may not be able to be planned for and/or may be serious for the team member or their family member.  As a Manager it is important you approach each situation with empathy and kindness, and understand how to best support your team member.  The resources included in these pages are intended to equip you with the information you need to support your team members through the entire life-cycle of their leave.  If you have any questions or need any additional assistance, please contact leaves@gitlab.com.
 
 ### To-Do List:
 
 #### Before the Leave Begins: Your team member informs you they need a leave or more information
 
-1. If Applicable: Your team member may inform you that their physician recommended restrictions or requests accommodations to be able to perform the essential functions of their job before their leave starting. Please contact leaves@domain and the Absence Management Team can assist you with this request.
+1. If Applicable: Your team member may inform you that their physician recommended restrictions or requests accommodations to be able to perform the essential functions of their job before their leave starting. Please contact leaves@gitlab.com and the Absence Management Team can assist you with this request.
 1. Arrange Out of Office Coverage: This may vary for work functions (i.e sales, etc), so consider asking your team member to create a Leave Plan documenting projects in progress, pending TODO items, ongoing responsibilities, important meetings, etc. via either a Google Doc or an Issue.
    - Pro-Tips:
        - Consider what happens if the person needs to leave earlier than planned due to medical issues.
@@ -26,7 +26,7 @@ As a manager, your team members(s) may come to you with questions, concerns, and
 
 Some situations require a team member to start their leave immediately.  Hearing that you will support them throughout their leave, and asking how they need your support as they begin their leave will mean a lot and possibly help ease any stress the team member has about beginning their leave.
 
-1. If your team member has not already reported their need for a leave to the Absence Management Team, please ask them to email leaves@domain.
+1. If your team member has not already reported their need for a leave to the Absence Management Team, please ask them to email leaves@gitlab.com.
 1. Continually update the team member's Leave Plan with any significant changes or events, project progress and updates, etc. to fill them in on once they are back. For example, it may helpful to link to the specific Group Conversations that pertain to their role for ease in finding these resources upon return.
    - Remember to have check-ins with any team member assuming additional responsibilities during the team member's leave:
        - Are there deadlines they are up against?  Do they need your support?  Are they still excited about these extra responsibilities, or do they need additional support from you or other team members?
@@ -55,8 +55,8 @@ Welcome them back!  Whether your team member was gone for several months, or jus
     - We want our team members to ease back into working, so jumping back into projects or taking on new projects may not be the right choice. Instead they should plan to reconnect with their team, and other cross-functional partners.
     - Be prepared to discuss any other questions/concerns that your team member may have upon return.
     - Share team/org changes
-1. Your team member may provide you with a Return to Work note upon their return from leave.  Please forward any return to work notes received to leaves@domain.
-1. If Applicable:  If your team member informs you they have restrictions, and is requesting accommodations to be able to perform their job, please contact leaves@domain and the Absence Management Team will assist.
+1. Your team member may provide you with a Return to Work note upon their return from leave.  Please forward any return to work notes received to leaves@gitlab.com.
+1. If Applicable:  If your team member informs you they have restrictions, and is requesting accommodations to be able to perform their job, please contact leaves@gitlab.com and the Absence Management Team will assist.
 1. Team members may block off time on their calendars.  Please be respectful of these calendar blocks.
 1. Check-in routinely with your team members to ensure they are receiving the appropriate level of support as they transition back to work recognizing that there will be a period of readjustment and personal and professional reflection.
     - Check-ins should be done on a regular cadence: 1st day, 1st week, 2 weeks, 1 month, 2-3 months, etc.
@@ -84,7 +84,7 @@ Responsibilities may include but are not limited to:
     - Make it fun!  Returning to work can be stressful, so coffee chats are a great time to step away from work and talk about something else.
 1. Be available to help your team member navigate through any company or departmental changes that occurred while on leave.
 
-*Future iterations are still being considered, and will be added to this section as the program evolves. If you have any feedback regarding this program, please contact `leaves@domain` or share in the `#people-connect` Slack channel.*
+*Future iterations are still being considered, and will be added to this section as the program evolves. If you have any feedback regarding this program, please contact `leaves@gitlab.com` or share in the `#people-connect` Slack channel.*
 
 ### What Makes a Successful Reentry Buddy
 
@@ -101,7 +101,7 @@ Visit the [GitLab Team page](/handbook/company/team/) and search for 'Parental L
 
 ### Volunteer to Become a Parental Leave Reentry Buddy
 
-1. Contact `leaves@domain` or post in the `#people-connect` Slack channel if you're interested in becoming a Parental Leave Reentry buddy or would like more information.
+1. Contact `leaves@gitlab.com` or post in the `#people-connect` Slack channel if you're interested in becoming a Parental Leave Reentry buddy or would like more information.
 
 ### Adding Parental Leave Reentry Buddy to your GitLab Profile
 
@@ -160,7 +160,7 @@ A nice way to celebrate a team member's new addition to their family is by hosti
 
 ## Parental Leave Policy Feedback
 
-If you have any feedback about your parental leave experience for the People group to review you can always email `leaves@domain` or open an issue using our [Parental Feedback Issue Template](https://gitlab.com/gitlab-com/people-group/total-rewards/-/issues/new?issue%5Bassignee_id%5D=&issue%5Bmilestone_id%5D=).
+If you have any feedback about your parental leave experience for the People group to review you can always email `leaves@gitlab.com` or open an issue using our [Parental Feedback Issue Template](https://gitlab.com/gitlab-com/people-group/total-rewards/-/issues/new?issue%5Bassignee_id%5D=&issue%5Bmilestone_id%5D=).
 
 ----
 
