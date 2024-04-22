@@ -39,13 +39,13 @@ In Elevate, participants will:
 
 Elevate is organized into 5 learning modules. Read more about the skills covered in each module below:
 
-![visual displaying the content in each elevate module](../elevatemodules.png)
+![visual displaying the content in each elevate module](/handbook/people-group/learning-and-development/elevate-programs/images/elevatemodules.png)
 
 We've put together a Level Up course available to all GitLab Team Members, to share the self-paced training content for each Elevate module. You can check it out here: [Elevate Learning Materials](https://levelup.gitlab.com/access/saml/login/internal-team-members?returnTo=https://levelup.gitlab.com/learn/learning-path/elevate-learning-materials)
 
 ## Time Commitment
 
-![visual displaying the module path for learners in the Elevate program](../elevatepath.png)
+![visual displaying the module path for learners in the Elevate program](/handbook/people-group/learning-and-development/elevate-programs/images/elevatepath.png)
 
 Elevate runs for a total of 6 months and is organized into 5 learning modules. In each module, participants spend a total of 3-4 hours in the following learning activities:
 
