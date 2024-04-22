@@ -157,7 +157,7 @@ Content guidelines across the industry support avoiding FAQs:
 
 1. https://www.plainlanguage.gov/guidelines/web/avoid-faqs/
 1. https://digital.gov/2015/04/27/are-faqs-still-relevant/
-1. https://content-guide.18f.gov/our-approach/structure-the-content/
+1. https://guides.18f.gov/content-guide/our-approach/structure-the-content/
 1. https://gds.blog.gov.uk/2013/07/25/faqs-why-we-dont-have-them/
 1. https://thegood.com/insights/faq-pages/
 1. https://alistapart.com/article/no-more-faqs-create-purposeful-information-for-a-more-effective-user-experi/
