@@ -77,12 +77,12 @@ To reflect this, we have structured the Security Division around four key tenets
             <li><a href="{{< ref "./security-operations/sirt" >}}">Security Incident Response Team (SIRT)</a></li>
             <li><a href="{{< ref "./security-operations/trustandsafety" >}}">Trust and Safety</a></li>
             <li><a href="{{< ref "./security-operations/security-logging" >}}">Security Logging</a></li>
+            <li><a href="{{< ref "./security-operations/red-team" >}}">Red Team</a></li>
         </ul>
       </td>
       <td>
         <ul>
             <li><a href="{{< ref "./threat-management/identity" >}}">Identity Engineering, Infra, and Ops</a></li>
-            <li><a href="{{< ref "./threat-management/red-team" >}}">Red Team</a></li>
         </ul>
       </td>
       <td>
