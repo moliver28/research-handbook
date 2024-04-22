@@ -170,7 +170,9 @@ To assist in building email target lists, MktgOps has developed a series of Mark
 **FY24-Q1**: In Q1 of FY24, we will share out how we will continue to scale the email review process.
 
 Email workflow:
-First step in requesting an email from lifecycle begins by creating an issue using the appropriate [issue template](/handbook/marketing/lifecycle-marketing/#request-issue-templates) in GitLab.
+First step in requesting an email from lifecycle for demand generation (promoting an event, asset, product launch, etc.) begins by creating an issue using the appropriate [issue template](/handbook/marketing/lifecycle-marketing/#request-issue-templates) in GitLab. 
+
+*Please see the marketing operations handbook to request an [operational or non-demand generation email](https://handbook.gitlab.com/handbook/marketing/marketing-operations/email-management/#request-non-demand-generation-emails).*
 
 ### Team variations to QA process
 <!-- DO NOT CHANGE THIS ANCHOR -->
