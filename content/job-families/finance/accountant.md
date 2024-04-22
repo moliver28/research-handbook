@@ -21,6 +21,7 @@ The International Accountant is a [grade 6](/handbook/total-rewards/compensation
 - Critically evaluate current systems and processes and act as a driver for identifying and implementing new initiatives
 
 ### Requirements
+
 - International statutory experience, ideally in a multinational environment
 - Self-starter with the ability to work remotely and independently and interact with various teams when needed
 - Proficient with Excel, GSuite and Slack
