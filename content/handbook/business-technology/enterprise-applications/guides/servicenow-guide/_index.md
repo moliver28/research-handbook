@@ -15,9 +15,9 @@ The solution combines the #people-connect, #stock-admin, #expense-reporting-inqu
 
 Additionally, this solution supports our continued emphasis on keeping team members' sensitive information secure and confidential. When you reach out for support, you will know that it's being handled with the utmost care to maintain your privacy.
 
-## When did it go LIVE?
+## When is it going to be LIVE?
 
-ServiceNow (aka HelpLab) went live on 2024-04-24.
+ServiceNow (aka HelpLab) is going to be live on 2024-04-24.
 
 ## What teams are available in HelpLab?
 
