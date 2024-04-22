@@ -172,7 +172,7 @@ Now for the final step before your second and last workshop. Gather together all
 
 Finally, rewrite each potential Job Differentiators converting them into properly formatted Job Differentiators. Check the [handbook section](/handbook/product/ux/jobs-to-be-done/#job-differentiators-what-are-the-factors-or-conditions-that-make-a-difference-in-how-the-job-gets-done) for more on how to construct an Emotional Aspect Statement.
 
-## Workhop 2: Map and Prioritize
+## Workshop 2: Map and Prioritize
 
 **Select Important Job Step(s), Emotional & Social Aspects, and Job Differentiators**
 
