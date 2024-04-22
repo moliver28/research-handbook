@@ -69,7 +69,7 @@ In short, only Marketing will use the Prospects through the Partner Placeholder 
 
 ### External Process for Carahsoft
 
-1. Log into the Partner Portal using a unique email address
+1. Log into the Partner Portal using marketing email alias 
 2. Access Vartopia via Deal tabs
 3. Click on Prospects to receive shared leads
 4. Bulk accepts leads so they can be links from Prospect to DR, when DR is created.
