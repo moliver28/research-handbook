@@ -29,4 +29,3 @@ Our department consists of:
 
 - [GitLab Security Department Group (GitLab)](https://gitlab.com/gitlab-com/gl-security)
 - [GitLab Security Operations Sub-department Group (GitLab)](https://gitlab.com/gitlab-com/gl-security/security-operations)
-- [GitLab "Purple Team" processes & procedures]({{< ref "purple-teaming" >}})
