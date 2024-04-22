@@ -5,19 +5,14 @@ title: "Production Engineering Foundations Team"
 
 ## Mission
 
-The mission of the Production Engineering Foundations team at GitLab is to Build, Run and Own the lifecycle of the core infrastructure for GitLab Saas instances.
-
-The team is focused on owning the reliability, scalability, and security of the core infrastructure. We seek to reduce the effort required to provide our core infrastructure services, and to enable other teams to self-serve core infrastructure that allows them to more efficiently and effectively run their services for GitLab.com.
-
-Given the integral nature of the services we own, the team is committed to close collaboration with other teams - for example Delivery, Scalability, Dedicated, InfraSec and others - to ensure alignment and coordination of efforts.
-
-We endeavor to contribute the lessons we learn from running at-scale production systems back to the product teams, and advocate for GitLab to contain features that would allow us to DogFood.
+The mission of the Production Engineering Foundations team at GitLab is to own the lifecycle of the core infrastructure for GitLab Saas instances and services. We seek to reduce the effort required to provide our core infrastructure services, and to enable other teams to self-serve core infrastructure that allows them to more efficiently and effectively run their services across all GitLab offerings.
 
 ## Vision
 
-The Foundations Team supports the rest of Infrastructure and Development by providing the resources that other teams build upon.
+The Foundations teams North Star consists of two pieces:
 
-We envision providing services that are delightfully simple for other teams to understand and use, through opinionated and clear interfaces, automation and excellent documentation.
+1. **Creating a platform that drives vertical ownership of engineering services.** We will to this by providing the rest of engineering the resources and tools needed for them to manage their infrastructure and core services in a way that makes it easy for other teams to adopt the best practices and conventions as defined by our team. By pushing towards centralized sets of tooling for all GitLab instances and all services to work from, we will create a culture of scalablility for the future of GitLab infrastructure.
+1. **Sustainable toil.** Toil is a given in SRE work. We will adopt processes and policies that create a balance between what can be automated and what can be done manually so as GitLab grows, the toil involved in running it is maintained at a reasonable level for the team. 
 
 ## Responsibilities
 
