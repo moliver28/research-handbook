@@ -47,7 +47,7 @@ GitLab provides various tools for tracking and managing projects. In this lab, y
 
 1. Continue to Task B.
 
-### instructor-led Training:
+### Instructor-led Training:
 
 1. On the confirmation page, locate the `Your GitLab Credentials` section. Read this section carefully, noting the credential information provided and the expiration date. Your access to this group and all of the projects that you create is ephemeral and will be deleted after the expiration date.
 

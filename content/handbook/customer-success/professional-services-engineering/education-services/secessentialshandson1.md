@@ -26,7 +26,7 @@ Please take time to understand any code that you are asked to copy and paste in 
 
 1. Select **Provision Training Environment**.
 
-> Note: The login details for accessing the environment are slightly different between self-paced training and intstuctor-led training. Please follow the instructions that suit your needs. 
+> Note: The login details for accessing the environment are slightly different between self-paced training and instructor-led training. Please follow the instructions that suit your needs. 
 
 ### Self-Paced Training:
 
@@ -54,7 +54,7 @@ Please take time to understand any code that you are asked to copy and paste in 
 
 1. Continue to Task B.
 
-### Instructor-Lead Training:
+### Instructor-Led Training:
 
 1. On the confirmation page, locate the `Your GitLab Credentials` section. Read this section carefully, noting the credential information provided and the expiration date. Your access to this group and all of the projects that you create is ephemeral and will be deleted after the expiration date.
 
