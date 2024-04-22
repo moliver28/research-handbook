@@ -87,7 +87,8 @@ These issues must be labeled with the appropriate AppSecRotation label:
 
 | Rotation | Label |
 | --- | --- |
-| HackerOne | `AppSecRotation::HackerOne` |
-| Triage | `AppSecRotation::Triage` |
-| Security Release | `AppSecRotation::Release` |
-| Federal AppSec VAT | `AppSecRotation::VAT` |
+| HackerOne | `AppSecWorkType::HackerOneRotation` |
+| Triage | `AppSecWorkType::TriageRotation` |
+| Security Release | `AppSecWorkType::ReleaseRotation` |
+| Federal AppSec VAT | `AppSecWorkType::VATRotation` |
+
