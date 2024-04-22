@@ -32,7 +32,7 @@ Key features of this call include:
 
 - 30-minute call
 - Held within first two months of new quarter
-- CEO, CFO, CTO and/or CProdO attendance required
+- CEO, CTO and/or CProdO attendance required
 - Not recorded
 
 ### Engineering Quarterly Achiever's Recognition Dinner
