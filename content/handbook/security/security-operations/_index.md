@@ -16,6 +16,7 @@ Our department consists of:
  - [Director, Security Operations](security-leadership/#director-security-operations) - [Joaquin Fuentes](https://gitlab.com/jfuentes2)
  - [Security Incident Response Team (SIRT)]({{< ref "sirt" >}}) - Security detection engineering and incident response
  - [Trust & Safety]({{< ref "trustandsafety" >}}) - Prevention and mitigation of abuse of the GitLab.com platform
+ - [Red Team]({{< ref "red-team" >}}) - Adversary emulation
 
 
 ## Contacting Security Operations
@@ -28,4 +29,3 @@ Our department consists of:
 
 - [GitLab Security Department Group (GitLab)](https://gitlab.com/gitlab-com/gl-security)
 - [GitLab Security Operations Sub-department Group (GitLab)](https://gitlab.com/gitlab-com/gl-security/security-operations)
-- [GitLab "Purple Team" processes & procedures]({{< ref "purple-teaming" >}})

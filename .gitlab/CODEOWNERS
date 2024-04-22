@@ -545,7 +545,7 @@
 /content/handbook/security/security-operations/security-logging/ @mcoons
 /content/handbook/security/threat-management/ @smanzuik @estrike
 /content/handbook/security/threat-management/identity/ @gitlab-com/gl-security/identity
-/content/handbook/security/threat-management/red-team/ @cmoberly
+/content/handbook/security/security-operations/red-team/ @cmoberly
 /content/job-families/security/ @joshlemos @jlongo_gitlab @juliedavila
 /content/job-families/chief-information-security-officer.md @robin @fofungwu
 
