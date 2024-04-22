@@ -62,7 +62,7 @@ In short, only Marketing will use the Prospects through the Partner Placeholder 
 
 ### Internal Process
 
-1. Account - Add unique email address to the Prospect Admin
+1. Account - Add marketing email alias  to the Prospect Admin
 2. Campaign/Marketo Setup Process will remain the same in Allocadia, Salesforce, and Marketo.
 3. Attribution - add campaign to smartsheet so it's displayed in the Distributor Marketing Campaign dropdown.
 4. List Import/UTM - when importing the list the CRM Partner ID needs to be assigned to Partner Placeholder PubSec (Account ID (18) = `0014M00001sDPJWQA4`)
