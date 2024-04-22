@@ -290,7 +290,7 @@ Context:
     - Some bugs only require a single cohesive effort to resolve. For example an
       isolated backend fix that requires no database or frontend changes. In
       these cases, the DRI of the bug issue is the person doing the work, and
-      only one issue is needed.
+      all work is tracked in the bug report issue.
 
   - Multi-part bug issues
     - In other cases, a bug issue may result in work across frontend, backend,
