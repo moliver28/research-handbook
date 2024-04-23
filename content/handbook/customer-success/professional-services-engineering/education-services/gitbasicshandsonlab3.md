@@ -5,8 +5,6 @@ description: "This Hands-On Guide walks you through the lab exercises used in th
 
 > Estimated time to complete: 40 minutes
 
-> **We are transitioning to the latest version of this course.**  If your group URL starts with `https://spt.gitlabtraining.cloud`, please use the [Version 15.x instructions](https://gitlab.com/gitlab-com/content-sites/handbook/-/blob/d14ee71aeac2054c72ce96e8b35ba2511f86a7ca/content/handbook/customer-success/professional-services-engineering/education-services/gitbasicshandsonlab3.md).
-
 ## Objectives
 
 In this lab we will use GitLab to create a project, an issue, and a merge request. We will also use the built-in GitLab Web IDE to edit files, and verify our merge request. GitLab provides a comprehensive UI that allows users to manage their repositories much easier than using Git alone. GitLab also includes a variety of features the Git language itself does not support, such as inline commenting on merge requests. You can learn more on the [GitLab features page](https://about.gitlab.com/features/).

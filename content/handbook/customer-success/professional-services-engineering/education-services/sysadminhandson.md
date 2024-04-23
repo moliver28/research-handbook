@@ -5,20 +5,18 @@ description: "This hands-on guide is designed to walk you through the lab exerci
 
 # GitLab System Administration
 
-> **We are transitioning to the latest version of this course.** You are using v16 if your group URL is `https://gitlab.com/gitlab-learn-labs/...`. If your group URL starts with `https://spt.gitlabtraining.cloud`, please use the v15 instructions.
-
 ## GitLab System Administration Labs
 
-| Lab Guide | Version 15 | Version 16 |
-|-----------|------------|------------|
-| Lab 1- Install GitLab | [v15 Lab Guide](https://gitlab.com/gitlab-com/content-sites/handbook/-/blob/d14ee71aeac2054c72ce96e8b35ba2511f86a7ca/content/handbook/customer-success/professional-services-engineering/education-services/sysadminhandsonlab1.md) | [v16 Lab Guide](/handbook/customer-success/professional-services-engineering/education-services/sysadminhandsonlab1) |
-| Lab 2- Use GitLab administration commands | [v15 Lab Guide](https://gitlab.com/gitlab-com/content-sites/handbook/-/blob/d14ee71aeac2054c72ce96e8b35ba2511f86a7ca/content/handbook/customer-success/professional-services-engineering/education-services/sysadminhandsonlab2.md) | [v16 Lab Guide](/handbook/customer-success/professional-services-engineering/education-services/sysadminhandsonlab2) |
-| Lab 3- Configure GitLab runners | [v15 Lab Guide](https://gitlab.com/gitlab-com/content-sites/handbook/-/blob/d14ee71aeac2054c72ce96e8b35ba2511f86a7ca/content/handbook/customer-success/professional-services-engineering/education-services/sysadminhandsonlab3.md) | [v16 Lab Guide](/handbook/customer-success/professional-services-engineering/education-services/sysadminhandsonlab3) |
-| Lab 4- Backup and restore GitLab | [v15 Lab Guide](https://gitlab.com/gitlab-com/content-sites/handbook/-/blob/d14ee71aeac2054c72ce96e8b35ba2511f86a7ca/content/handbook/customer-success/professional-services-engineering/education-services/sysadminhandsonlab4.md) | [v16 Lab Guide](/handbook/customer-success/professional-services-engineering/education-services/sysadminhandsonlab4) |
-| Lab 5- Implement sign-up restrictions | [v15 Lab Guide](https://gitlab.com/gitlab-com/content-sites/handbook/-/blob/d14ee71aeac2054c72ce96e8b35ba2511f86a7ca/content/handbook/customer-success/professional-services-engineering/education-services/sysadminhandsonlab5.md) | [v16 Lab Guide](/handbook/customer-success/professional-services-engineering/education-services/sysadminhandsonlab5) |
-| Lab 6- Manage GitLab logs | [v15 Lab Guide](https://gitlab.com/gitlab-com/content-sites/handbook/-/blob/d14ee71aeac2054c72ce96e8b35ba2511f86a7ca/content/handbook/customer-success/professional-services-engineering/education-services/sysadminhandsonlab6.md) | [v16 Lab Guide](/handbook/customer-success/professional-services-engineering/education-services/sysadminhandsonlab6) |
-| Lab 7- Configure instance monitoring | [v15 Lab Guide](https://gitlab.com/gitlab-com/content-sites/handbook/-/blob/d14ee71aeac2054c72ce96e8b35ba2511f86a7ca/content/handbook/customer-success/professional-services-engineering/education-services/sysadminhandsonlab7.md) | [v16 Lab Guide](/handbook/customer-success/professional-services-engineering/education-services/sysadminhandsonlab7) |
-| Lab 8- Troubleshoot GitLab | [v15 Lab Guide](https://gitlab.com/gitlab-com/content-sites/handbook/-/blob/d14ee71aeac2054c72ce96e8b35ba2511f86a7ca/content/handbook/customer-success/professional-services-engineering/education-services/sysadminhandsonlab8.md) | [v16 Lab Guide](/handbook/customer-success/professional-services-engineering/education-services/sysadminhandsonlab8) |
+| Lab Name | Lab Link |
+|-----------|------------|
+| Install GitLab | [Lab Link](/handbook/customer-success/professional-services-engineering/education-services/sysadminhandsonlab1) |
+| Use GitLab administration commands | [Lab Link](/handbook/customer-success/professional-services-engineering/education-services/sysadminhandsonlab2) |
+| Configure GitLab runners |  [Lab Link](/handbook/customer-success/professional-services-engineering/education-services/sysadminhandsonlab3) |
+| Backup and restore GitLab |[Lab Link](/handbook/customer-success/professional-services-engineering/education-services/sysadminhandsonlab4) |
+| Implement sign-up restrictions |  [Lab Link](/handbook/customer-success/professional-services-engineering/education-services/sysadminhandsonlab5) |
+| Manage GitLab logs |  [Lab Link](/handbook/customer-success/professional-services-engineering/education-services/sysadminhandsonlab6) |
+| Configure instance monitoring | [Lab Link](/handbook/customer-success/professional-services-engineering/education-services/sysadminhandsonlab7) |
+| Troubleshoot GitLab |  [Lab Link](/handbook/customer-success/professional-services-engineering/education-services/sysadminhandsonlab8) |
 
 
 ## Quick links
