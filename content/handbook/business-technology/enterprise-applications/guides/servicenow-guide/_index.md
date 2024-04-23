@@ -94,7 +94,7 @@ Watch the following tutorial to learn how to use the Tim T. Anuki effectively:
   <iframe src="https://www.youtube.com/embed/_-uf6Gg6Knw" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
 
-**Notes:** To access the video, please use the [GitLab Unfiltered account](/handbook/marketing/marketing-operations/youtube/#unable-to-view-a-video-on-youtube). You can also find it by searching for `HelpLab - Introducing Tim T. Anuki` under [GitLab Unfiltered content](https://studio.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A/videos).
+**Notes:** To access the video, please use the [GitLab Unfiltered account](/handbook/marketing/marketing-operations/youtube/#unable-to-view-a-video-on-youtube). You can also watch it by [clicking here](https://youtu.be/_-uf6Gg6Knw).
 
 ## How do I set up the HelpLab app in Slack?
 
