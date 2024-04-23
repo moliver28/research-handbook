@@ -66,6 +66,16 @@ We have dedicated Slack channels for the Product Analytics group:
 
 We base our workflow on the company's [Product Development Flow](https://handbook.gitlab.com/handbook/product-development-flow/). Any modifications or clarifications on how we apply the workflow are detailed below.
 
+### Milestone planning
+
+During milestone planning it is the responsibility of the PM to add one of the five scoped goal labels to the epics associated to set clear expectations for the milestone.  Issues created from those epics should be in line with the goal. The PM will attempt to generate clear, achieveable epics for each milestone:
+
+* `goal::design` - design work completed
+* `goal::planning` - implementation plan created and if needed reviewed and approved
+* `goal::development` - development has begun and either has in dev or in review workflow
+* `goal::complete` - development complete and issue verified
+* `goal::stretch` - added as a stretch goal, no expectation to start
+
 ### Estimation
 
 We estimate issues async and aim to provide an initial estimate (weight) for all issues scheduled for an upcoming milestone. Engineering are responsible for estimating issues at the `~workflow::solution validation` stage and issues require a weight and milestone before proceeding to `~workflow::scheduling`. They are used by engineering and product management to most effectively decide which issues are picked for a particular milestone.
@@ -82,3 +92,7 @@ Weight estimates are just that: estimates. They _do not equate_ to time spent, b
 | 5 | A more complex change that will impact multiple areas of the codebase, there may also be some refactoring involved. Requirements are understood but you feel there are likely to be some gaps along the way. |
 | 8 | A complex change, that will involve much of the codebase or will require lots of input from others to determine the requirements. |
 | 13| A significant change that may have dependencies (other teams or third-parties) and we likely still don't understand all of the requirements. It's unlikely we would commit to this in a milestone, and the preference would be to further clarify requirements and/or break in to smaller Issues. |
+
+### Feature flags
+
+Engineering is responsible for maintaining an up to date [list of active feature flags](https://gitlab.com/gitlab-org/gitlab-development-kit/-/blob/main/doc/howto/product_analytics.md#feature-flags) and their statuses.
