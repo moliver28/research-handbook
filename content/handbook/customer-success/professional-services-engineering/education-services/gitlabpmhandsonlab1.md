@@ -3,6 +3,8 @@ title: "GitLab Project Management - Hands-On Lab: Access The Gitlab Training Env
 description: "This Hands-On Guide walks you through the lab exercises used in the GitLab Project Management course."
 ---
 
+> Estimated time to complete: 5 to 10 minutes
+
 ## Objectives
 
 In this lab, you will access the training lab environment. This environment will allow you to try all of the GitLab Ultimate features, providing you with an environment to follow along with all of the lab steps.
