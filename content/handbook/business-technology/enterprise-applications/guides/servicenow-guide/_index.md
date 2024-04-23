@@ -32,7 +32,7 @@ HelpLab is available via Okta. To access the platform:
 
 ## How do I use HelpLab?
 
-There are two ways for team members to use HelpLab: 1 - the HelpLab app in Slack and 2 - HelpLab Portal in Okta.
+There are two ways for team members to use HelpLab: 1 - the HelpLab app in Slack and 2 - HelpLab Portal via Okta.
 
 ### Create a ticket / request via the HelpLab Portal
 
@@ -75,6 +75,38 @@ We are excited to introduce HelpLab App in Slack and help you find pertinent Han
 We want to make getting help easy and fast. We want to get away from having to find the right #slack_channel. We also understand that at times, the help topic might be sensitive. 
 
 It’s available on-demand just by using the Slack App to contact us. It will help route your question to the right team, check the status of the recent requests, find related Handbook articles, and help create the request so that our experts can follow up.
+
+## Who is Tim T. Anuki?
+
+Tim T. Anuki is a Virtual Agent in Slack. 
+
+## What does Tim T. Anuki do?
+
+We want to make getting help easy and fast. We want to get away from having to find the right #slack_channel. We also understand that at times, the help topic might be sensitive.
+
+Tim T. Anuki it’s available on-demand just by using the HelpLab Slack app. It will help route your question to the right team, check the status of the recent requests, find related Handbook articles, and help create the request so that our experts can follow up.
+
+## How do I use Tim T. Anuki?
+
+TBD
+
+## How do I set up the HelpLab app in Slack?
+
+1. Open your Slack App.
+1. Navigate to and expand the `Apps` section in the left side navigation bar.
+1. Select `+ Add apps`.
+
+![helplab5](/handbook/business-technology/enterprise-applications/guides/servicenow-guide/helplab5.png)
+
+1. Enter `Now Virtual Agent` in the Search.
+1. Select `ServiceNow for Slack` app.
+
+![helplab6](/handbook/business-technology/enterprise-applications/guides/servicenow-guide/helplab6.png)
+
+**NOTE:** The app name will automatically change to `HelpLab`.
+
+![helplab7](/handbook/business-technology/enterprise-applications/guides/servicenow-guide/helplab7.png)
+
 
 ## How can I help improve the Handbook Search?
 
