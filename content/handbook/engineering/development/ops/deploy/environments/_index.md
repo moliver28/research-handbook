@@ -270,7 +270,7 @@ While diligently pursuing our objectives, we also recognize the significance of 
 
 #### Bug fixing and prioritized work
 
-Team members self-schedule feature development. The manager may assign bugs or other important work directly to a team member.
+Team members self-schedule feature development. The EM may assign bugs or other important work directly to a team member.
 
 When severity labels are assigned/changed on a `~type::bug` issue, we aim to set/adjust the issue due date at the same time.
 everyone is encouraged to set the deadline based on the date of the last severity label update and [the SLA for the given severity](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity-slos).
@@ -316,7 +316,7 @@ apply the following process:
   using feature x". This may not always be available but it helps in
   prioritizing when it is.
 
-- Once the reporter has provided the required information, apply the severity
+- Once the reporter has provided the required information, apply the [severity](https://handbook.gitlab.com/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#priority)
   and (optionally) priority labels.
 
 - Decide if it is a bug.
