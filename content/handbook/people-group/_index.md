@@ -88,7 +88,7 @@ This table lists the aliases to use, when you are looking to reach a specific gr
 
 | Subgroup | GitLab handle | Email | Slack Group handle/channel | Greenhouse | Issue tracker |
 | -------- | ------------- | ----- | -------------------------- | ---------- | ------------- |
-| [People Business Partners](https://gitlab.com/gitlab-com/people-group/General) | @gl-peoplepartners, *Please add the `pbp-attention` label to any issue or MR that requires PBP review, collaboration, or feedback* | peoplepartners@ gitlab.com | @peoplepartners | n/a |  |
+| [People Business Partners](https://handbook.gitlab.com/handbook/people-group/people-business-partners/) | @gl-peoplepartners, *Please add the `pbp-attention` label to any issue or MR that requires PBP review, collaboration, or feedback* | peoplepartners@ gitlab.com | @peoplepartners | n/a |  |
 | [Total Rewards](https://gitlab.com/gitlab-com/people-group/total-rewards) | @gl-total-rewards | total-rewards@ gitlab.com | #people-connect | n/a |  |
 | [People Compliance Partner](https://gitlab.com/gitlab-com/people-group/compliance) | TBA | TBA | TBA | n/a |  |
 | [People Connect Team](https://internal.gitlab.com/handbook/people-group/people-operations/people-connect/) | @gl-people-connect-team | people-connect@ gitlab.com | @people-connect-team | n/a |  |
@@ -119,49 +119,6 @@ Also with sharing the calendars in the news letters People Business Partners and
 
 The goal of the calendar is to include information at least two quarters ahead of the current quarter. For questions about the updates to the calendars you can always reach out to People Connect.
 
-## People Business Partner Alignment to Division
-
-Please reach out to your aligned People Business Partner (PBP) to engage in the following areas:
-
-- Career development/[Promotions]({{< ref "promotions-transfers" >}})
-- [Succession planning](/handbook/people-group/talent-assessment)
-- New organizational structures or re-alignment of team members
-- [Talent Assessment programs](/handbook/people-group/talent-assessment)
-- Team member retention
-- [Team member Engagement tools](/handbook/people-group/talent-assessment#impact-of-being-identified-as-key-talent)
-- [Coaching]({{< ref "coaching" >}}) guidance
-- An unbiased third party to discuss issues or problems and possible ideas for next steps
-- [Organizational Design](/handbook/people-group/organizational-design)
-
-{{< people-business-partners >}}
-
-**If you would like People Business Partners' input, collaboration, or feedback on an issue or MR, please add the `pbp-attention` label, which will flag the issue for triaging on our People Business Partner issue board.** See the [People Business Partner Issue Board](#people-business-partner-issue-board) section below for more information on our triaging and lableing process.
-
-### People Business Partner Issue Board
-
-The People Business Partners (PBPs) have an [issue board](https://gitlab.com/groups/gitlab-com/-/boards/1898818?scope=all&utf8=%E2%9C%93&state=opened) to track collaboration on issues across GitLab.com to keep us efficient and collaborative with other teams.
-
-We utilize labels for triaging amongst the PBPs, and to indicate to other teams the level of priority for the PBPs and the status (doing, done, etc.)
-
-#### Triaging and Labeling Flow
-
-1. `pbp-attention` label is added by team member/group seeking input, collaboration, or feedback on an issue or MR. This will flag the issue for triaging on our People Business Partner issue board. *Note: While MRs will not appear on our board, we ask that the `pbp-attention` label is added regardless for analytics purposes.*
-1. The PBP team will triage the issue in accordance of PBP priority. Each scoped label will have one PBP DRI, *plus* the additional number of PBP reviewers indicated depending on the level of priority.
-1. The PBP who is the DRI will indicate they are the DRI by tagging themselves in the issue.
-    - `pbp::low` 1 PBP DRI with 1 additional reviewer
-    - `pbp::medium` 1 PBP DRI with 2 additional PBP reviewers
-    - `pbp::high` 1 PBP DRI with 3 additional PBP reviewers (at least one should be at the Director level)
-1. If the issue is coming from another team seeking PBP collaboration, the PBP team will add the label of the other team for analytics purposes.
-    - `pbp-DIB` (Diversity, Inclusion, & Belonging)
-    - `pbp-LD` (Learning & Development)
-    - `pbp-TR` (Total Rewards)
-    - `pbp-legal`
-    - `pbp-peopleops`
-    - `pbp-talent-acquisition`
-    - `pbp-other`
-1. The PBP team will add the `pbp-done` label when PBP action is complete.
-
-You may reference the [GitLab.com labels](https://gitlab.com/groups/gitlab-com/-/labels?utf8=%E2%9C%93&subscribed=&search=pbp) for an overview of all labels included in the PBP issue board triaging and labeling process.
 
 ## Support provided by the Legal, Employment team to the People Group
 
