@@ -6,40 +6,36 @@ description: Process for Contributor Success to select GitLab MVPs
 
 ## GitLab MVP
 
-Each release post GitLab recognizes a community contributor as the MVP ("Most Valuable Person") for the release. Beginning with the 15.9 release, the Contributor Success team took over the nomination and selection process for the GitLab MVP. These community contributors are recognized within the GitLab release post and across Slack and Discord. MVPs also receive a GitLab swag pack in celebration of their contribution.
+Each month GitLab recognizes one or more community contributors as GitLab MVPs ("Most Valuable Persons") to be featured in the GitLab release post. Beginning with the 15.9 release, the Contributor Success team took over the nomination and selection process for GitLab MVPs. Starting in 17.0, the team introduced a rolling nomination process so that contributors could be nominated and supported at any time. The GitLab MVPs are recognized within the GitLab release post and across Slack and Discord. MVPs also receive an achievement badge for their profile and a GitLab swag pack or tree planting option in celebration of their contribution.
 
 - Hall of fame list of [GitLab MVPs](https://about.gitlab.com/community/mvp/)
 - [Release posts](https://about.gitlab.com/releases/categories/releases/) on GitLab blog
 
 ## Workflow for selecting GitLab MVP
 
-1. A [nomination issue](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/.gitlab/issue_templates/release-post-mvp-nominations.md) is automatically generated on 3rd of the month.
-1. Link the nomination issue in the `#whats-happening-at-gitlab` Slack channel.
-   ```md
-   :mega: Time to Nominate the __RELEASE_VERSION__ :letter_m: :letter_v: :letter_p: :mega:
-
-   Please spread the word and add your nominations for the next :mvpcrown:  MVP :mvpcrown:  in __INSERT_MVP_NOMINATION_ISSUE__
-   @contributor-success-team will make a selection on the __INSERT_SECOND_THURSDAY_OF_THE_MONTH__. Nominating an MVP could be your act of kindness of the day. It is also helpful to level up yourselves and the nominated contributor.
+1. A [rolling GitLab MVP Nominations issue](https://gitlab.com/search?search=%22GitLab+MVP+Nominations%22&nav_source=navbar&project_id=39971471&group_id=65123486&scope=issues)
+is used for the entire major release cycle (for example 17.0 through 17.11). Community contributors can be added to this issue at anytime.
+1. Use the [`mvp_workflow_tracker.md` issue template](https://gitlab.com/gitlab-org/developer-relations/contributor-success/team-task/-/blob/main/.gitlab/issue_templates/mvp_workflow_tracker.md?ref_type=heads) to create an issue with a checklist of steps to follow during the selection process.
+1. Select one or more [eligible MVPs](/handbook/marketing/developer-relations/contributor-success/mvp-process.html#mvp-eligibility) from the nomination issue.
+   - Selections should be chosen based on contribution and community impact, nomination comments and emoji votes.
+   - Selections should be completed at least 10 calendar days before the [release date](https://about.gitlab.com/releases/).
+1. Make a new thread in the nominations issue announcing the MVP(s).
+   - Be sure to ping and thank the nominators and anyone who added supportive comments for the nominees.
+   - Add the MVP(s) to the table in the top level description of the issue.
    ```
-1. Share the post in `#release-post`, `#developer-relations`, `#mr-coaching`, and `#core`.
-1. Link the nomination issue in the `#announcements` Discord channel.
-1. Encourage team members and the wider community to vote by sharing reminders in the above Slack and Discord channels.
-   - Complete by the Monday before the MVP is selected.
-1. Select the MVP in the nomination issue by choosing the [eligible nominee](/handbook/marketing/developer-relations/contributor-success/mvp-process.html#mvp-eligibility) with the most votes
-   - Votes are cast as :thumbsup: emoji under the nominee thread in the issue. Other emoji are not counted, but if a vote is close please remind voters they must use the :thumbsup: to vote.
-   - Complete by the second Thursday of the month.
-   - If no MVP nominations have been added to the MVP issue by the second Thursday of the month, resend reminders to the Slack/Discord channels by sharing the original solicitation posts again. Ping the channel and note the lack of nominations and due date. E.g. in #developer-relations:
-      ```md
-      @devrel-team - We only have one (or none) MVP nomination. I’m going to wait until the end of the day, 12pm UTC for other nominations. Please nominate a community contributor that delivered something great for X-Y!
-      ```
-1. From the current release branch, draft a merge request for adding the new MVP
+   :tada: Congratulations to our X.Y :letter_m: :letter_v: :letter_p: winner(s) X https://gitlab.com/x
+   Note about X's contribution(s).
+
+   A huge thank you to A B and C for nominating MVPs and X Y and Z for adding support.
+   ```
+1. From the current release branch, draft a merge request for adding the new MVP(s)
    - The first step is switching to the current release branch `release-x-y` in the `www-gitlab-org` project. Using the 15.8 release as an example, navigate to the current release branch directly on GitLab by selecting the `release-15-8` branch from the dropdown menu. If working locally, checkout the `release-15-8` branch.
    - Navigate to the `mvp.yml` file inside the current release folder under `data/release_posts/x_y`. In this example it would be the `15_8` folder which has a placeholder `mvp.yml` file inside.
    - Begin drafting the merge request by updating the new MVP name and user handle. Remove the placeholder text for the write-up blurb. Commit the changes on a new branch. When creating the merge request on GitLab make sure your branch is targeting the current release branch `release-x-y` and not targeting `master`.
-   - Follow the steps to collaborate the [MVP write-up blurb](#mvp-write-up-blurb)
-   - Update the [data/mvps.yml](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/mvps.yml) file from your existing merge request
-   - Add release version, MVP name, user handle, release post date and release post URL
-   - Assign another Contributor Success team member to review/merge and double check the merge request is targeting the correct release branch
+   - Follow the steps to collaborate the [MVP write-up blurb](#mvp-write-up-blurb).
+   - Update the [data/mvps.yml](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/mvps.yml) file from your existing merge request.
+   - Add release version, MVP name, user handle, release post date and release post URL.
+   - Assign another Contributor Success team member to review/merge and double check the merge request is targeting the correct release branch.
    - Ping the [release post manager](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/release_post_managers.yml) into the MR for awareness.
    - Merge by the Tuesday of release week.
 1. Award the MVP winner with the MVP achievement using the `MVP Achievements` group access token from the Contributor Success vault.\
@@ -52,24 +48,26 @@ Each release post GitLab recognizes a community contributor as the MVP ("Most Va
    -d '{"query":"mutation{achievementsAward(input:{achievementId: \"gid://gitlab/Achievements::Achievement/53\" userId: \"gid://gitlab/User/<user_id>\"}){errors}}"}' \
    https://gitlab.com/api/graphql
    ```
-1. Link to the decision (the nomination issue) in the `#whats-happening-at-gitlab` Slack channel.
-   ```md
-   :tada: Congratulations to our 16.4 :letter_m: :letter_v: :letter_p: winner X https://gitlab.com/x
-   Note about X's contribution(s).
-
-   A huge thank you to A B and C for nominating MVPs and X Y and Z for voting.
-   https://gitlab.com/gitlab-com/www-gitlab-com/-/issues/x
+   NOTE: To find a userId from a username:
+   ```shell
+    curl --request GET 'https://gitlab.com/api/v4/users?search=<user_name>' \
+    -H "Authorization: Bearer $(op read 'op://Contributor Success Team/GitLab MVP Achievements Group Access Token/password')" \
    ```
-1. Share the post in `#release-post`, `#developer-relations`, `#mr-coaching`, and `#core`.
-1. Link to the decision (the nomination issue) in the `#announcements` Discord channel.
-   In the Discord message, thank any wider community members who participated.
 1. Follow the steps for [Sending MVP Appreciation Gifts](#sending-mvp-appreciation-gifts).
+1. After release post goes live, link the MVP section of the release post in Slack `#whats-happening-at-gitlab` channel along with a reminder to add new nominations.
+   ```md
+   :mega: Check out our latest GitLab MVPs X & Y in the X.Y release post!
+   You can nominate community contributors in the rolling nominations issue that covers releases 17.0 through 17.11 here: https://gitlab.com/gitlab-org/developer-relations/contributor-success/team-task/-/issues/490
+   Please add any community contributors throughout the year whenever you see a helpful contribution. Your support now will help them when they make future contributions to GitLab too!
+   ```
+1. Forward the message to `#developer-relations`, `#mr-coaching`, and `#core`
+1. Share the message in the Discord `#announcements` channel and thank any wider community members who added nomoinations or support.   
 
 ### MVP Eligibility
 
-- The Contributor Success team will make the final choice on the GitLab MVP within the nomination issue and should not wait for consensus.
-- While there is usually one MVP per release post, we would consider more.
-- A contributor is eligible to be MVP once per major release cycle. For example, if they are MVP during any 13.* milestone, they cannot be an MVP again until the 14.0 milestone.
+- The Contributor Success team will make the final choice on the GitLab MVP(s).
+- The team will consider one or more MVPs as appropriate.
+- A contributor is eligible to be MVP once per major release cycle. For example, if they are MVP during any 17.* milestone, they cannot be an MVP again until the 18.0 milestone.
 - A quick way to check past MVPs is to view [`/data/mvps.yaml`.](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/mvps.yml).
 - Contributors may be nominated whether they have contributed to the current release cycle or not. Contributors are recognized for previous and ongoing contributions to GitLab.
   - E.g. See the [15.8 MVP](https://about.gitlab.com/releases/2023/01/22/gitlab-15-8-released/#mvp) selected for prior release work and the [15.7 MVP](https://about.gitlab.com/releases/2022/12/22/gitlab-15-7-released/#mvp) selected for steady contributions.
@@ -96,11 +94,11 @@ Hi **{MVP_WINNER}** :wave:
 Congrats on being selected as GitLab's **{X.Y}** MVP!
 
 We are working on a write-up for you that will be included in the **{X.Y}** release post. For reference you can check out our past [MVPs list](https://about.gitlab.com/community/mvp/) and here are a few notable examples:
+- https://about.gitlab.com/releases/2024/04/18/gitlab-16-11-released/#mvp
+- https://about.gitlab.com/releases/2024/03/21/gitlab-16-10-released/#mvp
+- https://about.gitlab.com/releases/2024/02/15/gitlab-16-9-released/#mvp
+- https://about.gitlab.com/releases/2023/07/22/gitlab-16-2-released/#mvp
 - https://about.gitlab.com/releases/2023/02/22/gitlab-15-9-released/#mvp
-- https://about.gitlab.com/releases/2022/10/22/gitlab-15-5-released/#mvp
-- https://about.gitlab.com/releases/2022/03/22/gitlab-14-9-released/#mvp
-- https://about.gitlab.com/releases/2022/02/22/gitlab-14-8-released/#mvp
-- https://about.gitlab.com/releases/2021/05/22/gitlab-13-12-released/#mvp
 
 Please let us know if there are any details you would like us to highlight about yourself, your work or your contributions to the GitLab community.
 
