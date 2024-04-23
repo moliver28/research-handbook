@@ -35,7 +35,7 @@ The next step in the People Leadership job family is to move to the [Chief Peopl
 
 The Senior Director, People Strategy & Engagement is a [grade 11](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
-## Responsibilities
+## Sr Director, People Strategy & Engagement Responsibilities
 
 - Own and maintain People Group strategy documentation and enablement, working across the People Group to ensure strategy and direction is understood and departmental priorities match with divisional goals/OKRs.
 - Align all key team member touchpoints and communications across the team member journey with various teams within the People Group for consistency in messaging and assurance that they are in line with our culture and values.
@@ -43,7 +43,7 @@ The Senior Director, People Strategy & Engagement is a [grade 11](/handbook/tota
 - Engage with appropriate cross-functional teams and external partners to help bring People Group programs to life in creative and innovative ways to maintain high levels of internal engagement.
 - Oversee teams responsible for People Communications & Engagement, Talent Brand, and other team member touchpoints to ensure alignment across teams.
 
-## Requirements
+## Sr Director, People Strategy & Engagement Requirements
 
 - Experience working across different hiring cultures and communities and comfortable working in a truly global role
 - Leadership experience (both direct and indirect)
