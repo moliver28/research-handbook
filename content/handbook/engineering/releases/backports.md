@@ -95,9 +95,9 @@ If your backport is a security fix and covered by the maintenance policy, please
 
 For anything outside of the maintenance policy, please follow [the exception process](/handbook/engineering/releases/backports/#what-if-my-backport-is-not-covered-by-the-maintenance-policy)
 
-### What should Product Managers consider when approving a Backport?
+### What should Product Managers consider when approving a backport?
 
-Backports require multiple engineers to apply a fix through multiple versions. This process is time intensive and should only be pursued in cases when there is significant risk to customers or putting a strategic customer account at risk.
+Backports require multiple engineers to apply a fix through multiple versions and are time intensive. When reviewing a backport requrest, product managers should consult our [backport policy](https://docs.gitlab.com/ee/policy/maintenance.html#backporting-to-older-releases) to ensure that the backport proposal meets the criteria. Product managers should ensure that the severity, priority, customer impact and the potential risks associated with not backporting are properly documented before approval.
 
 ### Common Backporting Issues and Considerations
 
