@@ -16,7 +16,7 @@ View the [CSME Handbook homepage](/handbook/customer-success/csm/) for additiona
 ---
 **Overview**
 
-As a CSE, your onboarding experience will be a blended learning experience that includes virtual synchronous meetings, a [self-paced role-based learning path](https://levelup.gitlab.com/access/saml/login/internal-team-members?returnTo=https://university.gitlab.com/learn/learning-path/scale-customer-success-engineer-cse-onboarding) on GitLab University, and a hands-on virtual workshop called [Sales Quick Start](https://handbook.gitlab.com/handbook/sales/onboarding/) (SQS). 
+As a Customer Success Engineer (CSE), your onboarding experience will be a blended learning experience that includes virtual synchronous meetings, a [self-paced role-based learning path](https://levelup.gitlab.com/access/saml/login/internal-team-members?returnTo=https://university.gitlab.com/learn/learning-path/scale-customer-success-engineer-cse-onboarding) on GitLab University, and a hands-on virtual workshop called [Sales Quick Start](https://handbook.gitlab.com/handbook/sales/onboarding/) (SQS). 
 
 Your role based learning path is highlighted in this [role-specific onboarding guide](https://docs.google.com/document/d/1jY0YnL7whNVVK_VeoxRPjn-Iloj8_Su_3YOx0X1bKtw/edit?usp=sharing). Please make a copy of this document and check off items as you complete them.
 
@@ -146,7 +146,7 @@ In order to be considered as having graduated from your CSE onboarding journey, 
 
 **Continuous Onboarding**
 
-For high level information on enablement initiatives for the Customer Success Manager/Engineer teams, please refer to the [CSME Enablement Corner](https://docs.google.com/document/d/1xyaxc37iCDtfeabo2NXCRV31pNOdvieXoVDxJw_aXoM/edit). Additionally, please be sure to check out the [CSME Development Handbook](https://handbook.gitlab.com/handbook/customer-success/csm/csm-development/) page. 
+For high level information on enablement initiatives for the Customer Success Manager/Engineer teams, please refer to the [CS Enablement Corner](https://docs.google.com/document/d/1xyaxc37iCDtfeabo2NXCRV31pNOdvieXoVDxJw_aXoM/edit). Additionally, please be sure to check out the [CS Development Handbook](https://handbook.gitlab.com/handbook/customer-success/csm/csm-development/) page. 
 
 Be sure to join the [Customer Success Skills Exchange](https://handbook.gitlab.com/handbook/sales/training/customer-success-skills-exchange/) and [Field Enablement Spotlight](https://handbook.gitlab.com/handbook/sales/training/sales-enablement-sessions/#field-enablement-spotlight-sessions) sessions. 
 
