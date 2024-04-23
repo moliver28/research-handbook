@@ -1,6 +1,6 @@
 ---
 aliases: /handbook/legal/ESG/Team-Member-Sustainability-Guide
-title: "Team Member Sutainability Guide"
+title: "Team Member Sustainability Guide"
 description: "GitLab's Team Member Sustainability Guide"
 
 ---
