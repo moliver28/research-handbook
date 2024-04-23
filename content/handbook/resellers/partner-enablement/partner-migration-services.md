@@ -44,7 +44,7 @@ GitLab can be installed and operated in [offline environments](https://docs.gitl
 - Direct transfer doesn't support this. Project/export import is a workaround and it will likely stay as such. See the GitLab issue titled [Direct transfer - Support for air-gapped solutions](https://gitlab.com/groups/gitlab-org/-/epics/8985) and [Maintain project and group file-based import/export as a workaround for migrations over air-gapped networks and to serve other use cases
 ](https://gitlab.com/gitlab-org/gitlab/-/issues/363406) for nuanced technical details on performing this. 
 
-- Congregate does support this. See [Support air-gapped environment migrations](https://gitlab.com/groups/gitlab-org/professional-services-automation/tools/migration/-/epics/116) and [Migrating data in an air gapped environment](https://gitlab.com/gitlab-org/professional-services-automation/tools/migration/congregate/-/blob/master/runbooks/airgapped-migration-usage.md) 
+- Congregate, an open source command line interface (CLI) migration tool from Gitlab, does support Air-gapped environments. See [Support air-gapped environment migrations](https://gitlab.com/groups/gitlab-org/professional-services-automation/tools/migration/-/epics/116) and [Migrating data in an air gapped environment](https://gitlab.com/gitlab-org/professional-services-automation/tools/migration/congregate/-/blob/master/runbooks/airgapped-migration-usage.md) 
 
 
 ## From GitLab self-managed to GitLab SaaS or the other way around
