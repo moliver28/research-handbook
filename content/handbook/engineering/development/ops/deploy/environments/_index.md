@@ -303,18 +303,9 @@ As a result of the above principle, all bug reports should end up in one of the 
 When a `~group::environments` issue is created with the `~type::bug` label,
 apply the following process:
 
-- From the reporter, ask for clear and concrete steps to reproduce the issue
-  with a minimal setup and example input/output directly on the issue along with
-  the expected input/output.
-
-- From the reporter, ask for a link to relevant documentation (if available) that
-  support the idea that the behavior is unexpected. If no documentation exists,
-  then we need an explanation of why the reporter expects a different result.
-
-- If the reporter is a GitLab team member, ask if we have something that shows
-  an idea of how many users are impacted, or broader category like "all customer
-  using feature x". This may not always be available but it helps in
-  prioritizing when it is.
+- Ask the reporter for detailed steps to reproduce the problem, including minimal setup and expected versus actual outputs.
+- Request relevant documentation to validate the unexpected behavior, or an explanation if no documentation exists.
+- If the reporter is a GitLab team member, inquire if there are any insights on the impact of the issue, such as the number of users affected or specific features involved, to help prioritize the resolution.
 
 - Once the reporter has provided the required information, apply the [severity](https://handbook.gitlab.com/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#priority)
   and (optionally) priority labels.
@@ -325,7 +316,7 @@ apply the following process:
 
 - Decide if we will fix it. This requires partnering with the Product Manager.
 
-- Apply the `~wontfix` label if we won't fix it and close the issue with a comment.
+- Apply the `~wontfix` label if we won't fix it and close the issue with  -comment_template_to_be_defined-.
 
 - If we will fix it two things happen:
   - Product manager moves the issue up in refinement list.
