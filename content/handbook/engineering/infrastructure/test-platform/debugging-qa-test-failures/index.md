@@ -657,7 +657,7 @@ If a test is failing and you have good reason to quarantine it quickly you can [
 
 You should use fast quarantine to unblock deployment pipelines and MRs if the failure is disruptive and you've ruled out bugs as the cause of the failure (e.g., you've identified that the test is stale, or flaky).
 
-> **Note**: Failing `:blocking` or `:smoke` tests in the `e2e: test-on-gdk` child pipeline will block MR pipelines as well as scheduled master pipelines. Failures of those tests are good candidates for fast quarantine.
+> **Note**: Failing `blocking` job in the `e2e: test-on-gdk` child pipeline will block MR pipelines as well as scheduled master pipelines. Failures of those tests are good candidates for fast quarantine.
 
 After fast quarantining, please follow the long-term quarantine process below.
 
