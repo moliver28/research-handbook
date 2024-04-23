@@ -5,8 +5,6 @@ description: "This hands-on lab guide is designed to walk you through the lab ex
 
 > Estimated time to complete: 30 minutes
 
-> **You are viewing the latest Version 16.x instructions.** If you are using `https://spt.gitlabtraining.cloud`, please use the [Version 15.x instructions](https://gitlab.com/gitlab-com/content-sites/handbook/-/blob/d14ee71aeac2054c72ce96e8b35ba2511f86a7ca/content/handbook/customer-success/professional-services-engineering/education-services/sysadminhandson7.md).
-
 ### Task A. Access the Prometheus Service
 
 1. GitLab's Prometheus server can be reached via TCP port 9090. Unfortunately, the training environment currently blocks inbound traffic to that port. As a workaround, you can open an SSH tunnel as follows.

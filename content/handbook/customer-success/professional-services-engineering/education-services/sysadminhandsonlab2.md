@@ -5,8 +5,6 @@ description: "This hands-on lab guide is designed to walk you through the lab ex
 
 > Estimated time to complete: 30 minutes
 
-> **You are viewing the latest Version 16.x instructions.** If you are using `https://spt.gitlabtraining.cloud`, please use the [Version 15.x instructions](https://gitlab.com/gitlab-com/content-sites/handbook/-/blob/d14ee71aeac2054c72ce96e8b35ba2511f86a7ca/content/handbook/customer-success/professional-services-engineering/education-services/sysadminhandson2.md).
-
 ### Task A. Run basic service status commands
 
 1. From a terminal prompt, SSH into your training virtual machine if not already logged in.

@@ -3,7 +3,6 @@ title: "GitLab CI/CD - Hands-On Lab: Defining Stages, Jobs, and Runners"
 description: "This Hands-On Guide walks you through the lab exercises in the GitLab CI/CD course."
 ---
 
-
 > Estimate time to complete: 15 - 20 minutes
 
 
