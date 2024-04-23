@@ -11,7 +11,7 @@ The International Accountant is a [grade 6](/handbook/total-rewards/compensation
 ### Responsibilities
 
 - Supporting all aspects of international statutory accounting operations together with some US GAAP responsibilities
-- Engage with external service providers to ensure maintenance of local accountign records and preparation of high quality statutory financial statements
+- Engage with external service providers to ensure maintenance of local accounting records and preparation of high quality statutory financial statements
 - Ensuring changes to local accounting requirements are captured, understood and operationalised
 - Engage with local auditors, ensuring local statutory audits are executed on time and within budget while also helping to navigating any audit complexities as they arise
 - Supporting the  US GAAP to STAT GAAP reconciliation process
