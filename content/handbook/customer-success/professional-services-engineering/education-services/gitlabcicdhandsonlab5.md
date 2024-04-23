@@ -25,6 +25,17 @@ To customize your CI/CD process, you can define your own environment variables. 
 1. Paste the following snippet at the end of the file, with an empty line between the file's previous content and the snippet's content.
 
     ```yml
+    environment echoes:
+      stage: build
+      script:
+        - echo "Who am I running as..."
+        - whoami
+        - echo "Where am I..."
+        - pwd
+        - ls -al
+        - echo "Here's what is available in our environment..."
+        - env
+
     environment variables:
       stage: build
       script:

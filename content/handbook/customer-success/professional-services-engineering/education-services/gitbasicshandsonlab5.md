@@ -21,7 +21,7 @@ In other words, Auto DevOps is an alternative to writing and using your own `.gi
 
 1. Click the **Use template** button next to **NodeJS Express**.
 
-1. In the **Project name** field, enter `Auto DevOps-test`
+1. In the **Project name** field, enter `Auto DevOps Test Project`
 
 1. Make sure the **Visibility Level** is **Private**, and then click the **Create project** button.
 
@@ -85,30 +85,6 @@ In other words, Auto DevOps is an alternative to writing and using your own `.gi
 
 1. Click on the **Commit changes** button.
 
-After you commit these changes, a pipeline will run, and the test stage will fail. This is because the test cases no longer match the contents of the index file. To ensure that the tests in our pipeline run successfully, we will also need to update our tests to match the new index file. 
-
-1. In the list of repository files, click the `test` directory and then the `test.js` file.
-
-1. Click **Edit > Edit single file** and modify the line `.expect(/Welcome to Express/, done)` to `.expect(/GitLab welcomes you to Express/, done)`. After completing the edits, your code will look like this:
-
-    ```js
-    const request = require('supertest');
-    const app = require('../app');
-
-    describe('App', function() {
-      it('has the default page', function(done) {
-        request(app)
-        .get('/')
-        .expect(/GitLab welcomes you to Express/, done);
-      });
-    });
-    ```
-1. For **Commit message**, type `Update welcome message test`
-
-1. Leave **Target branch** set to `new-feature`
-
-1. Click on the **Commit changes** button.
-
 1. Once the change have been committed, click on the  **Create merge request** button.
 
 1. Click the **Mark as draft** checkbox to set the merge request to draft.
@@ -121,23 +97,27 @@ After you commit these changes, a pipeline will run, and the test stage will fai
 
 1. To mark the merge request ready to merge, click the **Mark as ready** button. This removes `Draft:` from your MR’s title.
 
-    > Note: You now have an active merge request for merging the `new-feature` branch into the `master` branch. The page you are on shows the details of that merge request, including the status of the last pipeline that was run on the `new-feature` branch (you might have to refresh the page to see the pipeline status). GitLab will run a new pipeline every time you commit to the `new-feature` branch.
+    >  You now have an active merge request for merging the `new-feature` branch into the `master` branch. The page you are on shows the details of that merge request, including the status of the last pipeline that was run on the `new-feature` branch (you might have to refresh the page to see the pipeline status). GitLab will run a new pipeline every time you commit to the `new-feature` branch.
 
 1. The Auto DevOps pipeline automatically executes with your merge request. This pipeline contains various stages and jobs. As the pipeline runs, you will see new sections appear inside of your MR. Once the pipeline completes, refresh the page to see the results.
 
-    > Note: When your pipeline completes, it may display a **warning** status. The warning is due to the `dast` scan not being configured. For this example, it is ok to proceed with this warning, since we will not use `dast`.
+    > When your pipeline completes, it may display a **warning** status. The warning is due to the `dast` scan not being configured. For this example, it is ok to proceed with this warning, since we will not use `dast`.
 
-1. Note the license compliance, code quality, and security scanning sections in the merge request.
+1. Select your merge request pipeline
 
-1. The license compliance scan will scan to detect any new licenses added to the project. Click **Full report** in the license compliance section to see the scan details. After viewing the report, return to the MR.
+1. In the pipeline details, you will see three stages associated with the Auto DevOps pipeline:
 
-1. The code quality scan will scan to detect if the code quality has changed between the main and the merge request code. If any code quality issues exist, they will be flagged in this section.
+- The **build** stage, which creates a build of the application using an existing Dockerfile or Heroku buildpacks. The resulting Docker image is pushed to the **Container Registry**, and tagged with the commit SHA or tag. Once the build stage is completed, navigate to **Deploy > Container Registry** to see your application.
 
-1. The security scanning section will check if any new vulnerabilities have been introduced in the code. Click **View all pipeline findings** in the security scanning section to see the scan details.
+- The **test** stage, which runs various tests on your application code to ensure it is secure and high quality. A few of the jobs are explained below:
 
-1. In the left-hand navigation pane, click **Deploy > Container Registry**. You should see the Docker container that the Auto DevOps pipeline created as a part of its build process.
+    * The License Compliance scan will scan to detect any new licenses added to the project. Select **Full report** in the License Compliance section to see the scan details. After viewing the report, return to the pipeline.
 
-    > Auto Devops provides many other features for CI/CD. For my details, click [here](https://docs.gitlab.com/ee/topics/autodevops/).
+    * The Code Quality scan will scan to detect if the code quality has changed between the main and the merge request code. If any code quality issues exist, they will be flagged in this section.
+
+    * The Security Scanning section will check if any new vulnerabilities have been introduced in the code. Select **View all pipeline findings** in the Security Scanning section to see the scan details.
+
+- The **dast** stage, which uses a running version of your application to check if there are any known vulnerabilities that it can find by running API calls on your application. Since we did not configure a live environment for the DAST job to scan, we do not need to worry about this job.
 
 ## Lab Guide Complete
 

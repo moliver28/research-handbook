@@ -113,19 +113,7 @@ For more context, see the related [discussion issue](https://gitlab.com/gitlab-c
 
 ## Team Members
 
-<!-- Uncomment and remove the manual table below -->
-<!-- when permanent manager has been set for the team -->
-<!-- {{< team-by-manager-slug "sabrams" >}} -->
-
-| Name | Role |
-| ---- | ---- |
-| [Steve Abrams](https://handbook.gitlab.com/handbook/company/team/#steve-abrams) | [Acting Engineering Manager](https://handbook.gitlab.com/job-families/engineering/infrastructure/engineering-management/#manager-engineering-scalability) |
-| [Marcel Chacon](https://handbook.gitlab.com/handbook/company/team/#mchacon3) | [Senior Site Reliability Engineer](https://handbook.gitlab.com/job-families/engineering/infrastructure/site-reliability-engineer/) |
-| [Pierre Guinoiseau](https://handbook.gitlab.com/handbook/company/team/#pguinoiseau) | [Senior Site Reliability Engineer](https://handbook.gitlab.com/job-families/engineering/infrastructure/site-reliability-engineer/) |
-| [Milad Irannejad](https://handbook.gitlab.com/handbook/company/team/#miladx) | [Senior Site Reliability Engineer](https://handbook.gitlab.com/job-families/engineering/infrastructure/site-reliability-engineer/) |
-| [Jack Stephenson](https://handbook.gitlab.com/handbook/company/team/#jcstephenson) | [Senior Site Reliability Engineer](https://handbook.gitlab.com/job-families/engineering/infrastructure/site-reliability-engineer/) |
-| [Sarah Walker](https://handbook.gitlab.com/handbook/company/team/#swalker) | [Site Reliability Engineer](https://handbook.gitlab.com/job-families/engineering/infrastructure/site-reliability-engineer/) |
-| [Adeline Yeung](https://handbook.gitlab.com/handbook/company/team/#ayeung) | [Site Reliability Engineer](https://handbook.gitlab.com/job-families/engineering/infrastructure/site-reliability-engineer/) |
+{{< team-by-manager-slug "steve-abrams" >}}
 
 ## Key Technical Skills
 

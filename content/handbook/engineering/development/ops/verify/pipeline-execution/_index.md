@@ -239,6 +239,7 @@ At the end of the milestone, any issues that are still ongoing, may be transitio
 This team member will have the following responsibilities for the milestone and will have a small ~Deliverable task:
 
 1. Ensure that all Verify-P* issues are assigned to team members for refinement throughout the milestone. You may assign issues directly to or tag fellow team members for weighting. You may also defer to the EM, ensuring they know there are issues that need to be assigned.
+1. Ensure that the issues in the next milestone's planning issue are weighted
 1. Follow-up with team members if refinement does not appear to be making progress. You may redirect this to the EM if you prefer.
 1. [Optional] Organize and host a weekly refinement swarm meeting where team members can refine issues as a group.
     1. This is an excellent opportunity to tackle the refinement of some of our more challenging issues and refinement spikes.
@@ -259,15 +260,16 @@ This team member will have the following responsibilities for the milestone in a
 
 | Milestone | Front-line Responder | Refinement Coordinator | Community Coordinator |
 | --------- | -------------------- | ---------------------- | --------------------- |
-| 16.8 | Marius | Panos | Max |
-| 16.9 | Max | Tian | Allison |
-| 16.10 | José | Hordur | Tian |
 | 16.11 | Panos | Max | José |
 | 17.0 | Tian | Marius | Panos |
 | 17.1 | Drew | Payton | Hordur |
 | 17.2 | Allison | Drew | Marius |
 | 17.3 | Payton | José | Drew |
 | 17.4 | Hordur | Allison | Payton |
+| 17.5 | Marius | Panos | Max |
+| 17.6 | Max | Tian | Allison |
+| 17.7 | José | Hordur | Tian |
+
 
 ## Stable Counterparts
 
@@ -376,9 +378,9 @@ Our planning timeline follows the [GitLab Product Development timeline](/handboo
 
 *side note: we prefer [using Refining over Grooming](/handbook/communication/top-misused-terms)*
 
-Engineers are expected to allocate approximately 4 hours each milestone to refine and weight issues on the [`~needs weight` board][needs-weight-board].
+Engineers are expected to allocate approximately 6 hours each milestone to refine and weight issues on the [`~needs weight` board][needs-weight-board].
 
-The purpose of refining an issue is to ensure the problem statement is clear enough to provide a rough effort sizing estimate; the intention is not to provide **solution validation** during refinement. When refining issues, engineers should timebox the activity to no more than 1 hour per issue. If an issue is complex and will require more research, we should track that effort in a refinement "~spike" to ensure we account for it in milestone planning. The "~spike" should be linked as blocking the original issue and outline the outcomes expected and a timebox for the effort should be specified. The original issue should be labelled as "~workflow::blocked".
+The purpose of refining an issue is to ensure the problem statement is clear enough to provide a rough effort sizing estimate; the intention is not to provide **solution validation** during refinement. When refining issues, engineers should timebox the activity to no more than 2 hours per issue. If an issue is complex and will require more research, we should track that effort in a refinement "~spike" to ensure we account for it in milestone planning. The "~spike" should be linked as blocking the original issue and outline the outcomes expected and a timebox for the effort should be specified. The original issue should be labelled as "~workflow::blocked".
 
 Engineering uses the [following handbook guidance for determining weights](#weighting-issues). If any issue needs any additional `~frontend ~backend ~Quality ~UX ~documentation` reviews, they are assigned to the respective individual(s).
 
@@ -406,6 +408,17 @@ Engineers will:
    * ~"workflow::blocked" if more investigation and research is needed. Create a [refinement "~spike" issue](https://gitlab.com/gitlab-org/gitlab/-/issues/new?issuable_template=Pipeline%20Execution%20Refinement%20Spike) and ping the PM and EM.
 1. Remove the "~needs weight" label if weighting was completed.
 1. Unassign themselves from the issue when they are done refining and weighting the issue.
+
+##### Timeboxing Issue Refinement
+
+Because we should not be spending more than 2 hours per issue, we should re-evaluate if more time is needed or if a spike is required based on
+
+1. If the issue is still reproducible on Gitlab.com. If the cause is not obvious, a good first step is to ask the author for clarifications.
+1. If Support engagement is present in the issue. We can tell if the issue is created by a Gitlab team member or if it has the ~customer label.
+1. If the issue is on Gitlab.com or if it's on a self-managed instance. If this only affects self-managed instance, we can ask for request for help issue instead.
+1. The scope and affect of the issue. If it's only affecting one customer or if it's present for multiple customers
+
+A good general rule is to look at the P* levels. P1 issues should be refined as they'll be immediately worked on in the next milestone. P2 and P3 can spin off spike issues if more time is needed.
 
 #### Weighting Issues
 

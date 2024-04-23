@@ -11,7 +11,7 @@ A GitLab Project is a repository where you can store your code, as well as suppl
 
 GitLab provides various tools for tracking and managing projects. In this lab, you will learn how to create a project, create an issue, create labels at a project level, and apply quick actions to an issue.
 
-## Task A. Access your Training Group Create a project
+## Task A. Access your Training Group
 
 1. Navigate to [**https://gitlabdemo.com/invite**](https://gitlabdemo.com/invite) in a web browser.
 
@@ -19,9 +19,19 @@ GitLab provides various tools for tracking and managing projects. In this lab, y
 
 1. Select **Provision Training Environment**.
 
-1. The system then prompts you for your **GitLab.com** username. Enter your GitLab.com user (excluding the leading @ sign) in the field provided. Select **Provision Training Environment**.
+    >  The login details for accessing the environment are slightly different between self-paced training and instructor-led training. Please follow the instructions that suit your needs. 
 
-1. On the confirmation page, locate the `Your GitLab Credentials` section. Read this section carefully, noting the credential information provided and the expiration date. Your access to this group and all of the projects that you create is ephemeral and will be deleted after the expiration date.
+### Self-Paced Training:
+
+1. For self-paced courses, you will need your **GitLab.com** username. To find your username, navigate to [Gitlab](https://gitlab.com).
+
+1. In the left sidebar, select your profile image.
+
+1. In the resulting dropdown, you will see a value starting with `@`. This is your GitLab username.
+
+1. After inputting your invitation code, the portal prompts you for your **GitLab.com** username. Enter your GitLab.com user (excluding the leading `@` sign) in the field provided. 
+
+1. Select **Provision Training Environment**.
 
 1. Select **My Group** at the bottom of the page.
 
@@ -31,7 +41,29 @@ GitLab provides various tools for tracking and managing projects. In this lab, y
 
     > This group has a GitLab Ultimate license to see all of the features while your personal username namespace requires a paid subscription or a free trial to access all of the features.
 
+    > If you receive a 404 error when accessing your group, it is likely due to the username input during the lab provisioning. Double check your GitLab username to make sure it is entered correctly.
+
 1. From your **My Test Group** training subgroup, click the **New project** button.
+
+1. Continue to Task B.
+
+### Instructor-led Training:
+
+1. On the confirmation page, locate the `Your GitLab Credentials` section. Read this section carefully, noting the credential information provided and the expiration date. Your access to this group and all of the projects that you create is ephemeral and will be deleted after the expiration date.
+
+1. Click the **Download Credentials** button to download your temporary GitLab credentials.
+
+1. Click on **GitLab Dashboard** or the GitLab URL.
+
+1. Login with your temporary GitLab Credentials.
+  
+    > This group your temporary account has been created in has a GitLab Ultimate license to see all of the features available.
+
+1. Click on the '**Create a project tile**.
+
+    >  From this point forward, both the self-paced training and the instructor-led training can follow the same instructions.
+
+## Task B. Create a project
 
 1. Select the **Create blank project** tile.
 
@@ -49,7 +81,7 @@ GitLab provides various tools for tracking and managing projects. In this lab, y
 
 1. Select **Create project**.
 
-## Task B. Create an issue
+## Task C. Create an issue
 
 > Issues are a core building block in GitLab that enable collaboration, discussions, planning and tracking of work. Issues belong to **Project** and **not** a Group. When viewing issues at the group-level, you can see all of the issues that have been created across all of the projects in that group. You can read more about them [here](https://docs.gitlab.com/ee/user/project/issues/).
 
@@ -63,7 +95,7 @@ GitLab provides various tools for tracking and managing projects. In this lab, y
 
 1. The description is an optional section, but feel free to type in your own description for this issue.
 
-    > Note: In the description section, there is a dropdown to select a template. It is possible to create templates to help standardize issue descriptions. To learn more about issue templates, click [here](https://docs.gitlab.com/ee/user/project/description_templates.html).
+    >  In the description section, there is a dropdown to select a template. It is possible to create templates to help standardize issue descriptions. To learn more about issue templates, click [here](https://docs.gitlab.com/ee/user/project/description_templates.html).
 
 1. Using the **Assignees** dropdown, assign the issue to yourself by clicking on the dropdown, and then clicking on your username.
 
@@ -85,7 +117,7 @@ GitLab provides various tools for tracking and managing projects. In this lab, y
 
 2. Click the **Create issue** button.
 
-## Task C. Create custom labels
+## Task D. Create custom labels
 
 > Labels allow you to organize and tag your work. Using labels will make it easier for you to track issues you are interested in using features like dynamic filtering. Some examples of using labels include: categorizing epics, issues, and merge requests using colors and descriptive titles like bug, feature request, or docs. You can read more about labels in the [documentation](https://docs.gitlab.com/ee/user/project/labels.html).
 
@@ -107,7 +139,7 @@ GitLab provides various tools for tracking and managing projects. In this lab, y
 
 1. You now have 3 labels that are now available for you to assign to any issue, merge request, or epic in your project.
 
-## Task D. Assign labels to an issue
+## Task E. Assign labels to an issue
 
 1. Navigate to **Plan > Issues**.
 
@@ -121,7 +153,7 @@ GitLab provides various tools for tracking and managing projects. In this lab, y
 
    > The labels won't apply to the issue until you click away from the labels section to close the multiselect box.
 
-## Task E. Use a quick action
+## Task F. Use a quick action
 
 > A **quick action** is a text-based shortcut for common actions that are usually done by selecting buttons or dropdowns in the GitLab user interface. You can enter these commands in the description or comment for issues, epics, merge requests, and commits.
 >

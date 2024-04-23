@@ -129,3 +129,9 @@ module:
     disable: false
   - path: github.com/google/docsy/dependencies
     disable: false
+
+# Ignore build errors
+ignoreErrors:
+  # Do not fail to build when we fail to fetch a tweet
+  # https://gitlab.com/gitlab-com/content-sites/handbook/-/issues/178
+  - error-tweet-failed
