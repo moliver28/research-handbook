@@ -48,21 +48,11 @@ Job Policy patterns allow the pipeline to control when and if jobs run using the
       rules:
         - if: '$CI_COMMIT_REF_NAME == "main"'
           when: never
-        - if: '$CI_COMMIT_TAG'
+        - if: '$LOG_ENVIRONMENT'
           when: never
         - when: always
       environment:
         name: review/$CI_COMMIT_REF_NAME
-
-    deploy release:
-      stage: deploy
-      script:
-        - echo "Deploy to a production environment"
-      rules:
-        - if: '$CI_COMMIT_REF_NAME != "main" && $CI_COMMIT_TAG'
-          when: manual
-      environment:
-        name: production
 
     deploy staging:
       stage: deploy
@@ -74,6 +64,16 @@ Job Policy patterns allow the pipeline to control when and if jobs run using the
         - when: never
       environment:
         name: staging
+
+    deploy release:
+      stage: deploy
+      script:
+        - echo "Deploy to a production environment"
+      rules:
+        - if: '$CI_COMMIT_REF_NAME != "main" && $LOG_ENVIRONMENT != null'
+          when: manual
+      environment:
+        name: production
     ```
 
 1. At the top of `.gitlab-ci.yml`, in the `stages` section, add the `review` and `deploy` stages.
@@ -81,11 +81,15 @@ Job Policy patterns allow the pipeline to control when and if jobs run using the
 1. In full, you will have the following `.gitlab-ci.yml` file upon completion:
 
     ```yml
-    stages:
+   stages:
       - test
       - build
       - review
       - deploy
+
+    stages:
+      - test
+      - build
 
     test job:
       stage: test
@@ -96,7 +100,7 @@ Job Policy patterns allow the pipeline to control when and if jobs run using the
       stage: build
       script:
         - echo "I am a build image!"
-
+        
     deploy review:
       stage: review
       script:
@@ -104,21 +108,11 @@ Job Policy patterns allow the pipeline to control when and if jobs run using the
       rules:
         - if: '$CI_COMMIT_REF_NAME == "main"'
           when: never
-        - if: '$CI_COMMIT_TAG'
+        - if: '$LOG_ENVIRONMENT'
           when: never
         - when: always
       environment:
         name: review/$CI_COMMIT_REF_NAME
-
-    deploy release:
-      stage: deploy
-      script:
-        - echo "Deploy to a production environment"
-      rules:
-        - if: '$CI_COMMIT_REF_NAME != "main" && $CI_COMMIT_TAG'
-          when: manual
-      environment:
-        name: production
 
     deploy staging:
       stage: deploy
@@ -130,6 +124,16 @@ Job Policy patterns allow the pipeline to control when and if jobs run using the
         - when: never
       environment:
         name: staging
+
+    deploy release:
+      stage: deploy
+      script:
+        - echo "Deploy to a production environment"
+      rules:
+        - if: '$CI_COMMIT_REF_NAME != "main" && $LOG_ENVIRONMENT != null'
+          when: manual
+      environment:
+        name: production
     ```
 
 1. In the **Commit message** field, type `Add CI structure job definitions`, ensure the **Target Branch** is set to `main`, and click **Commit changes**.
