@@ -36,19 +36,19 @@ The Quarterly MVP (most valuable person) program recognizes Field team members w
 The program recognizes one MVP per region/team (7 total) and one "United Win" (cross-functional account team) each quarter.
 
 1. Global Enterprise Champion
-   1. Teams for consideration: ENT AMER, PubSec, EMEA and APJ
+   1. Eligible teams: ENT AMER, PubSec, EMEA and APJ
 1. Global Commercial & SMB Champion
-   1. Teams for consideration: COMM (MM) AMER, EMEA and APJ + Global Digital SMB
+   1. Eligible teams: COMM (MM) AMER, EMEA and APJ + Global Digital SMB
 1. Customer Results Champion (Post-Sales)
-   1. Teams for consideration: CSM + Renewals and ProServ
+   1. Eligible teams: CSM + Renewals and ProServ
 1. Technical Sales Superstar
-   1. Teams for consideration: Solution Architects and Field CTOs
+   1. Eligible teams: Solution Architects and Field CTOs
 1. Partner MVP
-   1. Teams for consideration: Internal partner team
+   1. Eligible teams: Internal partner team
 1. RSOE (Revenue Strategy, Operations & Enablement) MVP
-   1. Teams for consideration: Internal RSOE team
+   1. Eligible teams: Internal RSOE team
 1. Cross-Functional MVP
-   1. Teams for consideration: Any team outside of the Sales division (ex. Product, Marketing, Legal, Finance, etc.)
+   1. Eligible teams: Any team outside of the Sales division (ex. Product, Marketing, Legal, Finance, etc.)
 
 MVPs and the United Win account team are recognized by the CRO on the WW Field Org Call and they can enjoy a recognition dinner to celebrate their accomplishments with family and friends. Note: Field Communications work with the United Win account team to identify key cross-functional players in the win that should qualify for the recognition dinner.
 
