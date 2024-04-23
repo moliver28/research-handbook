@@ -3,6 +3,8 @@ title: "GitLab CI/CD - Hands-On Lab: Understanding the Basics of Pipelines"
 description: "This Hands-On Guide walks you through the lab exercises in the GitLab CI/CD course."
 ---
 
+> Estimate time to complete: 15 - 20 minutes
+
 ## Objectives
 
 CI/CD is a continuous method of software development, where you continuously build, test, deploy, and monitor iterative code changes. To achieve these tasks, GitLab uses various different components. The objective of this lab is to familiarize yourself with the GitLab Pipeline UI, as well as the jobs and stages that make up a pipeline.
