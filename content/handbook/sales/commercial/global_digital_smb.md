@@ -75,24 +75,26 @@ Inbound Request - These occur when a customer hand raises, and requests assistan
 - SDR Created
 
 Churn & Contraction Mitigation - These occur when the account in question has exhibited signs of low usage/ adoption. The cases are labeled as Medium Priority. 
-- Underutilization
-- High PtC
+
 - Auto Renew recently turned off
+- Renewal with Payment Failure
 
 Expansion Opportunities - These occur when the account in question has exhibited signs of growth, and that they are likely to expand. The cases are labeled as Medium Priority.  
 - FO Opp
 - FO Opp (Startup)
-- High PtE
-- 6Sense Growth Signal
-- Overage with QSRs turned off
+- QSRs with Payment Failure
 - Customer MQL
+- Duo Trial Started
 
 Urgent Renewal & TRX Support - These are created when a situation exists that means the renewal must be processed by an Advocate. The cases are labeled as Medium Priority. 
 - PO Renewal (includes partner & alliance renewals)
 - EoA Renewal w/ >25 users
 - Multiyear Renewal
+- Renewal Risk: Will Churn
 - Auto Renewal due to fail
-- Overdue Renewals
+- Free User Limit Sales-Assist
+- Renewal with Duo
+- Missing Renewal Opportunity Case
 
 High Value - These are only created for the highest spending accounts in the segment. 
 - High Value Account
