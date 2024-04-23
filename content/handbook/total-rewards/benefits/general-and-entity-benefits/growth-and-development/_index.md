@@ -52,8 +52,6 @@ Once the manager has approved, there is no further action to be taken by the man
 
 **Step 4:** Claim for reimbursement:
 
-Once the appropriate approvals are provided on the Growth and Development issue, proceed with processing your G&D application. **You do not have to wait for approval or further action from the Learning and Development team.**
-
 Before attempting to claim reimbursement, please ensure you've read through and understand the [Notes on Reimbursement](/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development/#notes-on-reimbursement) section below.
 
 - Claim your expenses via [Navan Expense](/handbook/finance/expenses/#-introduction):
@@ -63,7 +61,7 @@ Before attempting to claim reimbursement, please ensure you've read through and 
   - Please make sure the issue matches your Navan Expense claim amount. Your Navan Expense claim will be audited against the Growth & Development issue amount.
 - Please claim conference and workshop meals and lodging per receipt via [Navan Expense](/handbook/finance/expenses/#-introduction). Travel should be expensed in a separate Navan claim, as detailed [here](/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development/#workshops-and-conferences). When submitting your travel claim, please add a link to your G&D issue in the description.
 
-Please go back and close your G&D issue once you have received reimbursement for the program.
+Please close your G&D issue once you have received reimbursement for the program.
 
 ### Notes on Reimbursement
 
