@@ -144,6 +144,7 @@ There are three other workflow labels of importance:
 | ![Cancelled](img/label-cancelled.png) | Work in the issue is being abandoned due to external factors or decision to not resolve the issue. After applying this label, issue will be closed. |
 | ![Stalled](img/label-stalled.png) | Work is not abandoned but other work has higher priority. After applying this label, team Engineering Manager is mentioned in the issue to either change the priority or find more help. |
 | ![Blocked](img/label-blocked.png) | Work is blocked due external dependencies or other external factors. Where possible, a [blocking issue](https://docs.gitlab.com/ee/user/project/issues/related_issues.html) should also be set. After applying this label, issue will be regularly triaged by the team until the label can be removed. |
+| ![Ongoing](img/label-ongoing.png) | This is generally applied to epics that have ongoing work. For example tracking team meta work, or "keeping the lights on" work for a given year. There is not distict exit criteria and the epic or issue is timeboxed with an assigned due date. |
 
 ### Priority labels
 
