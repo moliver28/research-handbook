@@ -96,10 +96,9 @@ Below is a list of the different technical skill sets found on the Sales System 
 
 #### [Systems Owner] Systems Owner Sign-off :- Salesforce CRM System Owners should provide the signoff. The signoff matrix is an below,
 
-| Main Approver               |Backup Approver (if Jack Brennan or Sheela Viswanathan are unavailable)                                               | Backup Approver (if Jack Brennan or Sheela Viswanathan and Al Champagne are unavailable)                                                |
+| Main Approver               |Backup Approver (if Sheela Viswanathan is unavailable)                                               | Backup Approver (if Sheela Viswanathan and Al Champagne are unavailable)                                                |
 |-----------------------------|--------------------------------------------------------------|-----------------------------------------------------------------|
-| Jack Brennan - Senior Director, Sales Systems
-or
+| 
 Sheela Viswanathan - Senior Manager, Sales Systems  |Al Champagne - Senior Director, Enterprise Applications | Nabitha Rao - VP, IT  |
 
 #### [Systems DRI] Add the correct `SalesSystems::Deployed - #` GitLab Label :- Once the issue has been deployed, the issue should be tagged with one of the following deploy label following the [SDLC - Software Development Life Cycle](/handbook/sales/field-operations/sales-systems/#salesforcecom-change-management-processes-and-sdlc-software-development-life-cycle) by the sales systems team member assigned to the issue.
