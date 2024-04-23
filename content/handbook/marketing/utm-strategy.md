@@ -55,9 +55,12 @@ UTMs should **always** be used when linking to:
 * learn.gitlab.com
 * pages.gitlab.com
 * ir.gitlab.com
-* When UTMs are not Needed:
-* When the link directs to a page on the same domain
+* 
+**When UTMs are not Needed:**
 * When linking to a non GitLab web property (Eg: Youtube, Linkedin, etc..)
+* When the link directs to the page on the same domain: *gitlab.com. Google Analytics is setup across multiple gitlab.com subdomains, which includes about.gitlab.com and learn.gitlab.com. When a visitor navigates between about to learn (or vice versa), the client ID and session ID would remain the same, so we  know it's the same visitor in the same session.
+When UTMs are added to a *gitlab.com link on a *gitlab.com page, there's a possibility that GA will count a new session. If that user converts by submitting a form, then the conversion would be attributed to the last non-direct source. In the example you provided, the conversion will be PathFactory instead of the original Google Organic, since PF was the last UTM before conversion.
+* It is therefore recommended to remove UTMs from all internal *gitlab.com links, unless if there's a reason to keep them.
 
 
 ## How to create UTMs
@@ -161,7 +164,8 @@ Encoding more data on the UTM campaign directly transfers that information to Bi
 | Parameter | Required / Optional | Examples |			
 |---------------------------|----------------------|----------------------|			
 | Content offer | Optional (if not applicable, use x) | devguideappsec |			
-| Asset type | Optional (if not applicable, use x) | ebook |			
+| Asset type | Optional (if not applicable, use x) | ebook |
+| Industry (vertical) | Optional (if not applicable, use x) | telco |			
 
 **Asset Type** values (available as picklist in the UTM builder googlesheet):
 * ebook = Gated ebooks
