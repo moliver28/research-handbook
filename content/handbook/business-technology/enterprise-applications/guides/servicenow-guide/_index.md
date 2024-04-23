@@ -1,6 +1,5 @@
 ---
 title: "HelpLab Information Guide"
-description: "HelpLab Information Guide"
 ---
 
 ## What is HelpLab
@@ -31,11 +30,11 @@ HelpLab is available via Okta. To access the platform:
 1. Click on the HelpLab button.
    - A new tab should open with your user logged in.
 
-## How do I use ServiceNow?
+## How do I use HelpLab?
 
 There are two ways for team members to use HelpLab: 1 - the HelpLab app in Slack and 2 - HelpLab Portal in Okta.
 
-### Create a ticket / request via HelpLab Portal
+### Create a ticket / request via the HelpLab Portal
 
 1. Log in to HelpLab via Okta.
 1. Navigate to the main menu at the top and browse through the menu options to find the team you'd like to request assistance from.
@@ -50,13 +49,14 @@ There are two ways for team members to use HelpLab: 1 - the HelpLab app in Slack
 
 ### Add a team member to your ticket / request in the HelpLab Portal
 
-After submitting your request, you have the option to add team members, such as your manager, to the watch list. Adding team members to the watch list ensures that they receive notifications and have visibility into the case. This feature is useful if there's anybody who needs to have visibility to the case's progress or if additional stakeholders should be informed about updates or resolutions.
+After submitting your request, you have the option to add team members, such as your manager, to the `watch list`. Adding team members to the watch list ensures that they receive notifications and have visibility into the case. This feature is useful if there's anybody who needs to have visibility to the case's progress or if additional stakeholders should be informed about updates or resolutions.
 
 ![helplab2](/handbook/business-technology/enterprise-applications/guides/servicenow-guide/helplab2.png)
 
-**IMPORTANT**: Please note that the watch list functionality is only available via the Portal and not in Slack.
 
-### Track & manage open requests
+**IMPORTANT**: Please note that the watch list functionality is only available via the HelpLab Portal and cannot be used via the Slack app.
+
+### Track & manage open requests via the HelpLab Portal
 
 Navigate to the "My Requests" section.
 
@@ -64,7 +64,7 @@ Navigate to the "My Requests" section.
 
 Here, you will see a list of all your open requests along with their current state and any updates. Click on a specific request to view more details, such as progress updates and comments.
 
-You can also filter by `Open` or `Closed` requests or search for specific requests using the seach bar to quickly locate the request you want to track. If you have submitted a request using the HelpLab app in Slack, you can track its progress by checking for updates in the corresponding Slack channel where you initiated the request.
+You can also filter by `Open` or `Closed` requests or search for specific requests using the seach bar to quickly locate the request you want to track. If you have submitted a request using the HelpLab app in Slack, you can track its progress here as well.
 
 ![helplab4](/handbook/business-technology/enterprise-applications/guides/servicenow-guide/helplab4.png)
 
