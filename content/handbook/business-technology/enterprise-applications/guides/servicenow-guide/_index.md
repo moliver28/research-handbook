@@ -90,9 +90,7 @@ Tim T. Anuki it’s available on-demand just by using the HelpLab Slack app. It 
 
 Watch the following tutorial to learn how to use the Tim T. Anuki effectively:
 
-<figure class="video_container">
-  <iframe src="https://www.youtube.com/embed/_-uf6Gg6Knw" frameborder="0" allowfullscreen="true"> </iframe>
-</figure>
+<iframe width="1098" height="710" src="https://www.youtube.com/embed/_-uf6Gg6Knw" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 **Notes:** To access the video, please use the [GitLab Unfiltered account](/handbook/marketing/marketing-operations/youtube/#unable-to-view-a-video-on-youtube). You can also find it by searching for `HelpLab - Introducing Tim T. Anuki` under [GitLab Unfiltered content](https://studio.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A/videos).
 
