@@ -133,6 +133,16 @@ The end-to-end process consists on the following stages:
 Details of the patch release lifecycle can be found on the [patch release documentation], including the
 [patch release runbook for GitLab engineers] and the [patch release runbook for release managers].
 
+### Patch release information dashboard
+
+GitLab team members can view the [internal Grafana dashboard "Release Information"](https://dashboards.gitlab.net/d/delivery-release_info/delivery3a-release-information?orgId=1) for the following information about the active patch release:
+
+* Active patch release versions (stable version + 2 backport versions)
+* Expected release date
+* Current status of the patch release
+
+The metrics used to display this information are updated automatically throughout the [patch release process](#patch-release-process).
+
 ## Security releases
 
 The [security release processes](/handbook/engineering/releases/security-releases/#security-release-process) are used to prepare and publish packages containing vulnerability fixes. For more details about the release overview and the release processes, see the [security release](/handbook/engineering/releases/security-releases/) page.
