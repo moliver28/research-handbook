@@ -25,8 +25,7 @@ The International Accountant is a [grade 6](/handbook/total-rewards/compensation
 - International statutory experience, ideally in a multinational environment
 - Self-starter with the ability to work remotely and independently and interact with various teams when needed
 - Proficient with Excel, GSuite and Slack
-- You share our [values](/handbook/values/), and work in accordance with those values.
-
+- You share our [values](/handbook/values/), and work in accordance with those values
 - Ability to use GitLab
 
 ---
