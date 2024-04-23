@@ -23,7 +23,7 @@ description: "This page is an overview of the search team alignment and the tale
 | G&A/Marketing (Accounting, Integrated Marketing, Internal Audit, Marketing Ops, Tax) | Aiste Juozaponyte  | Fernando Khubeir |
 | Engineering, Development | Matt Angell, Chux Ugorji | Alice Crosbie |
 | Engineering, Development | Sara Currie | Jazmin Armstrong |
-| Engineering, Development | Heather Tarver | Fernando Khubeir |
+| Engineering, Development | Heather Tarver | Teranay Dixon |
 | Engineering, Development | Joe Guiler, Seema Anand | Teranay Dixon |
 | Engineering, Infrastucture   | Maxx Snow | Teranay Dixon  |
 | Engineering, Infrastucture   | Michelle A. Kemp | Alice Crosbie  |
