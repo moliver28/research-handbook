@@ -1,7 +1,7 @@
 ---
 
 title: RoEs, FAQs and KPIs
-description: The purpose of this page is to clarify common questions about the sales development org’s practices.
+description: Use this page to clarify any questions or expectations around Rules of Engagement (RoE), Key Performance Indicators (KPIs) or Service Level Agreements (SLAs).  
 
 ---
 
