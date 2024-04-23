@@ -77,6 +77,13 @@ Looping in [Team Member Relations](/handbook/people-group/) early is essential. 
 
 The important thing to remember as a manager is to immediately address signs of underperformance. Taking action sooner allows more time for coaching to be effective and successful.  In the early stage of the process it is important to identify the reasons why team members might not be meeting expectations for their role. We do this by reviewing previous performance history, ensuring the team member has been taking sufficient PTO (Paid Time Off) and also checking in to ensure all is well in their personal life and providing appropriate support when needed.
 
+As you begin to coach, refer to resources in the handbook and from Elevate for support.
+1. [The GROW coaching model](As managers begin to coach, refer to important coaching resources in the handbook, also taught in Elevate:
+)
+2. [Managing your Inner Fixer](https://handbook.gitlab.com/handbook/leadership/coaching/#managing-your-inner-fixer)
+3. [The Trust Equation](https://handbook.gitlab.com/handbook/leadership/coaching/#the-trust-equation)
+4. [Essential Coaching Skills](https://handbook.gitlab.com/handbook/leadership/coaching/#essential-coaching-skills)
+
 ### Immediately Discuss With The Manager's Manager
 
 Taking early action to address underperformance is an essential manager skill and one of the most important ways to improve results. As a people leader, it is best practice to inform your manager as a priority when you've identified possible underperformance and [always tell us the bad news promptly]({{< ref "structure#management-group" >}}). When a manager informs their leader, they can work together to ensure that underperformance is identified and that appropriate and agreed action is taken to address it.
