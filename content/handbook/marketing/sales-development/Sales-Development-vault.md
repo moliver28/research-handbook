@@ -1,7 +1,7 @@
 ---
 
-title: Sales Development Knowledge Base
-description: The purpose of this page is to serve as an in-depth knowledge base for the Sales Development team.
+title: Sales Development Vault
+description: Use this page to find all the other complementary processes we use in the Sales Development org, like creating a new sequence or booking time off. Additionally, research all the additional knowledge that we've documented that can help you perfect your craft.
 
 ---
 
