@@ -68,7 +68,7 @@ We base our workflow on the company's [Product Development Flow](https://handboo
 
 ### Milestone planning
 
-During milestone planning it is the responsibility of the issue scheduler to add one of the five scoped goal labels to set clear expectations for the milestone:
+During milestone planning it is the responsibility of the PM to add one of the five scoped goal labels to the epics associated to set clear expectations for the milestone.  Issues created from those epics should be in line with the goal. The PM will attempt to generate clear, achieveable epics for each milestone:
 
 * `goal::design` - design work completed
 * `goal::planning` - implementation plan created and if needed reviewed and approved
