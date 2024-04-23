@@ -29,16 +29,6 @@ Our features identify vulnerabilities in different ways than GitLab’s other se
 
 API Security, DAST, and Fuzzing are Ultimate features. Increasing adoption of these features helps improve customer retention, and helps drive revenue for GitLab Ultimate.
 
-### Metrics we Love
-
-- **Cumulative Flow Diagram** - Kanban Progress (Team Metric)
-
-- **Vulnerabilities Resolved** - Number of Vulnerabilities Customers have Resolved with DAST (Retention Metric)
-
-- **False Positive Rate** - Customer Test Result Feedback (Accuracy Metric)
-
-- **Monthly Active Users** - Running DAST, API Security, and Fuzzing Tests (Growth Metric)
-
 ### Important DAST Repositories
 
 | Repo | Purpose |
