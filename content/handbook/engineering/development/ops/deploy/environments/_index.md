@@ -268,14 +268,82 @@ While diligently pursuing our objectives, we also recognize the significance of 
 1. **Maximum issue size**: To rule out likely surprises and extra investigation, only issues with [weight 1-2](#issue-weighting) are acceptable for "~Environments::EngineeringChoice".
 1. **Tracking in Milestone Planning**: Progress and choices under the "~Environments::EngineeringChoice" category will be monitored and recorded in a specific section of the Milestone Planning issue.
 
-#### Bug fixing and priortized work
+#### Bug fixing and prioritized work
 
-In every milestone plan, we compile a list of bugs due in the coming milestone based on the severity SLA.
+Team members self-schedule feature development. The EM may assign bugs or other important work directly to a team member.
 
-In addition to the self-scheduling of feature development, the manager will from time to time assign bugs, or other work deemed important, directly to a team member.
-
-On top of the official issue-triaging process, when severity labels are assigned/changed, we aim to set the issue due date at the same time. If there are bugs with a severity label and without a deadline,
+When severity labels are assigned/changed on a `~type::bug` issue, we aim to set/adjust the issue due date at the same time.
 everyone is encouraged to set the deadline based on the date of the last severity label update and [the SLA for the given severity](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity-slos).
+
+##### Bug intake process
+
+###### High level
+
+The goal of our bug intake process is to deliver the best result for the
+customer while aligning with our CREDIT values. From a high level we value the
+following:
+
+- A bias for action on deciding if we will fix a bug or not.
+- A bias for action on scheduling work to fix bugs we've decided to fix.
+- Not maintaining a bug backlog. 
+
+As a result of the above principle, all bug reports should end up in one of the following destinations:
+  - They are verified as a bug we will fix, becoming part of the next
+    milestone's planned work as soon as they are `~workflow::ready for
+    development`
+
+  - They are verified as bugs but labeled as `~wontfix` and closed.
+
+  - They determined not to be bugs. The `~type::bug` label is removed and the
+    issue is closed, re-triaged as a feature or maintenance issue.
+
+
+###### Process details
+
+When a `~group::environments` issue is created with the `~type::bug` label,
+apply the following process:
+
+- Ask the reporter for detailed steps to reproduce the problem, including minimal setup and expected versus actual outputs.
+- Request relevant documentation to validate the unexpected behavior, or an explanation if no documentation exists.
+- If the reporter is a GitLab team member, inquire if there are any insights on the impact of the issue, such as the number of users affected or specific features involved, to help prioritize the resolution.
+
+- Once the reporter has provided the required information, apply the [severity](https://handbook.gitlab.com/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#priority)
+  and (optionally) priority labels.
+
+- Decide if it is a bug.
+
+- Communicate that through labels, and a summary comment.
+
+- Decide if we will fix it. This requires partnering with the Product Manager.
+
+- Apply the `~wontfix` label if we won't fix it and close the issue with  -comment_template_to_be_defined-.
+
+- If we will fix it two things happen:
+  - Product manager moves the issue up in refinement list.
+  - Fixing it becomes part of the current or next milestones planned work.
+
+##### Deciding if a reported behavior is a bug
+
+Anyone can create an issue and apply the `~type::bug` label. It's up to our team
+to verify that the behavior is actually a bug.
+
+If it's not clear that the reported behavior is a bug, partner with the product
+manager.
+
+##### Deciding not to fix a bug
+
+In each case we will need to partner with the product manager and compare the
+effort required to the value delivered. This is then also taken into
+consideration alongside other objectives.
+
+Engineers can partner well with the product manager thinking through this loose
+criteria:
+
+- What are the severity and priority labels saying about the impact of this bug?
+- How much effort does this bug require to fix?
+- How much risk is involved in fixing this bug?
+- Is this bug part of something that will be deprecated soon?
+- Are there existing workarounds to mitigate the undesired behavior?
 
 #### Say-do ratio
 
@@ -355,7 +423,7 @@ addressed, or scheduled for work. Additional issues should be created and added 
 rake tasks, database migrations, or other tasks that need to be run, they need to see those through to being
 run on the production systems with the help of the Site Reliability counterpart.
 
-This places a lot of responsibility with the DRI, but the PM and EM are always there to support them. This ownerships
+This places a lot of responsibility with the DRI, but the PM and EM are always there to support them. This ownership
 removes bottlenecks and situations where only the PM or EM is able to advance an idea. In addition, the best people
 to decide on how to implement an issue are often the people who will actually perform the work.
 
