@@ -1,7 +1,7 @@
 ---
 
 title: Sales Development Onboarding
-description: This is the main page that newcoming team members should use.
+description: This is the main page that newcoming team members should use to familiarize themselves with GitLab and how we work.
 
 ---
 

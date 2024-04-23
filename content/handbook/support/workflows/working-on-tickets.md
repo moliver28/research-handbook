@@ -67,11 +67,11 @@ flowchart TD
       [other responsibilities](https://handbook.gitlab.com/handbook/support/support-global-groups/#se-responsibilities-and-priorities).
    - Aim for a manageable number of tickets, adjusting based on daily demands
      and personal capacity.
-   - Aim to adhere to the support ticket SLAs:
-      - Urgent FRT 4h, NRT 4h
+   - Aim to adhere to the support ticket SLA/SLOs:
+      - Urgent FRT 30m, NRT 4h
       - High FRT 4h, NRT 4h
-      - Normal FRT 24h, NRT 24h
-      - Low FRT 8h, NRT 24h
+      - Normal FRT 8h, NRT 24h
+      - Low FRT 24h, NRT 72h
    - During periods of reduced operational capacity, such as holidays or company
      events, the Support team will prioritize handling all incoming tickets
      through the special ‘All FRT and Emergencies’ and ‘All NRT’ views, with
