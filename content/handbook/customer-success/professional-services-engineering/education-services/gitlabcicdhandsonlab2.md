@@ -3,6 +3,9 @@ title: "GitLab CI/CD - Hands-On Lab: Defining Stages, Jobs, and Runners"
 description: "This Hands-On Guide walks you through the lab exercises in the GitLab CI/CD course."
 ---
 
+> Estimate time to complete: 15 - 20 minutes
+
+
 ## Objectives
 
 In this lab, you'll enabled CI/CD for a GitLab project. After creating your first `.gitlab-ci.yml` file, you will explore the CI/CD pipeline to better understand jobs and stages. Finally, you will learn how to install, run, and register a runner with a GitLab instance.
