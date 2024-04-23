@@ -88,7 +88,13 @@ Tim T. Anuki it’s available on-demand just by using the HelpLab Slack app. It 
 
 ## How do I use Tim T. Anuki?
 
-TBD
+Watch the following tutorial to learn how to use the Tim T. Anuki effectively:
+
+<figure class="video_container">
+  <iframe src="https://www.youtube.com/embed/_-uf6Gg6Knw" frameborder="0" allowfullscreen="true"> </iframe>
+</figure>
+
+**Notes:** To access the video, please use the [GitLab Unfiltered account](/handbook/marketing/marketing-operations/youtube/#unable-to-view-a-video-on-youtube). You can also find it by searching for `HelpLab - Introducing Tim T. Anuki` under [GitLab Unfiltered content](https://studio.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A/videos).
 
 ## How do I set up the HelpLab app in Slack?
 
@@ -117,4 +123,4 @@ pointed back to the Handbook article. Our goal is to have the Virtual Agent solv
 
 ## HelpLab Support
 
-TBD
+For immediate support following the launch, for any HelpLab related issues, the best way to reach is by sending a message to the #it_help Slack channel. The dedicated support team will closely monitor this channel and promptly address any problems or questions you may have.
