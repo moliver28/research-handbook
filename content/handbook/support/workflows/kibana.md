@@ -225,11 +225,9 @@ Kibana is not typically used to locate `5XX` errors, but there are times where t
 1. Obtain the full URL the user was visiting when the error occurred.
 1. [Log in to Kibana](https://log.gitlab.net/app/kibana#).
 1. Select the correct time filter (top right) - e.g last 30 minutes, 24 hours, or 7 days.
-1. Use the search field to narrow down the results. For example you can search the `gitlab-ee` project for any mention of `error` using the following query:
-
-```plaintext
-"gitlab-ee" AND "error"
-```
+1. In the search field, type `json.path : "the_path_after_gitlab.com_from_the_URL"`
+1. Choose relevant fields from the sidebar. For a `500` error, you want to filter for `json.status` and choose `is`, then enter `500`.
+1. Continue to use relevant fields from the list on the sidebar to narrow down the search.
 
 It's recommended to apply a **Negative Filter** to the `gitlab_error.log` and `gitlab_access.log` log files. These two generate a large amount of noise and may not be relevant to your search.
 
