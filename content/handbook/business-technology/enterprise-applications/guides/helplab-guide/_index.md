@@ -37,7 +37,7 @@ HelpLab is available via Okta. To access the platform:
 1. Log in to HelpLab via Okta.
 1. Navigate to the main menu at the top and browse through the menu options to find the team you'd like to request assistance from.
 
-![helplab1](/handbook/business-technology/enterprise-applications/guides/servicenow-guide/helplab1.png)
+![helplab1](/handbook/business-technology/enterprise-applications/guides/helplab-guide/helplab1.png)
 
 1. Once you've identified the team you need assistance from, look for the topics or categories related to your question or issue.
    - If you're unsure which topic to select, or if your request doesn't fit into any specific category, consider opening a `General Request` available under each team. This option allows you to provide a brief description of your issue or question without selecting a specific topic.
@@ -49,20 +49,20 @@ HelpLab is available via Okta. To access the platform:
 
 After submitting your request, you have the option to add team members, such as your manager, to the `watch list`. Adding team members to the watch list ensures that they receive notifications and have visibility into the case. This feature is useful if there's anybody who needs to have visibility to the case's progress or if additional stakeholders should be informed about updates or resolutions.
 
-![helplab2](/handbook/business-technology/enterprise-applications/guides/servicenow-guide/helplab2.png)
+![helplab2](/handbook/business-technology/enterprise-applications/guides/heplab-guide/helplab2.png)
 
 
 ### Track & manage open requests
 
 Navigate to the "My Requests" section.
 
-![helplab3](/handbook/business-technology/enterprise-applications/guides/servicenow-guide/helplab3.png)
+![helplab3](/handbook/business-technology/enterprise-applications/guides/helplab-guide/helplab3.png)
 
 Here, you will see a list of all your open requests along with their current state and any updates. Click on a specific request to view more details, such as progress updates and comments.
 
 You can also filter by `Open` or `Closed` requests or search for specific requests using the seach bar to quickly locate the request you want to track. If you have submitted a request using the HelpLab app in Slack, you can track its progress here as well.
 
-![helplab4](/handbook/business-technology/enterprise-applications/guides/servicenow-guide/helplab4.png)
+![helplab4](/handbook/business-technology/enterprise-applications/guides/helplab-guide/helplab4.png)
 
 ## HelpLab Support
 
