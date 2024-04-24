@@ -64,7 +64,11 @@ If the customer's subscription or trial/temp license has expired, and they requi
 
 #### Self-Managed
 
-When customers with a Self Managed subscription that includes a cloud license is cancelled, the cancellation is directly synced with the customer's instance, leading to an immediate cutoff of paid features. To continue using the instance with free features, customers need to manually remove the canceled license. This functionality aligns with its intended design, but lacks a safeguard against unintended disruptions, particularly during contract resets. In such cases, canceling one subscription to switch to another under revised terms leads to temporary loss of paid features until the new activation code is uploaded. To mitigate this risk, it's advised that the new subscription be set up and activated before canceling the original one. Additionally, there's an ongoing discussion in this [issue](https://gitlab.com/gitlab-org/fulfillment/meta/-/issues/1818) about possibly preventing automatic license cancellation in these scenarios to avoid service interruptions.
+When customers on **GitLab version 16.9 and newer** and a **cloud license activated subscription** is cancelled, the cancellation is directly synced with the customer's instance, leading to an immediate cutoff of paid features. To continue using the instance with free features, customers need to manually remove the canceled license via the [UI](https://docs.gitlab.com/ee/administration/license_file.html#remove-a-license), [License API](https://docs.gitlab.com/ee/api/license.html#delete-a-license) or [console](https://docs.gitlab.com/ee/administration/license_file.html#remove-licenses). 
+
+This functionality aligns with its intended design, but lacks a safeguard against unintended disruptions, particularly during contract resets. In such cases, canceling one subscription to switch to another under revised terms leads to temporary loss of paid features until the new activation code is uploaded. To mitigate this risk, it's advised that the new subscription be set up and activated before canceling the original one. 
+
+**NOTE:** There is an ongoing discussion in this [issue](https://gitlab.com/gitlab-org/fulfillment/meta/-/issues/1818) about possibly preventing automatic license cancellation in these scenarios to avoid service interruptions.
 
 #### GitLab.com
 
