@@ -66,7 +66,7 @@ If the customer's subscription or trial/temp license has expired, and they requi
 
 When a **cloud license activated subscription** is canceled on **GitLab version 16.9 or newer**, the cancelation immediately synchronizes with the customer's instance, causing it to be put into read-only mode. To allow the use in the instance of free features, the customer will need to manually remove the canceled license via the [UI](https://docs.gitlab.com/ee/administration/license_file.html#remove-a-license), [License API](https://docs.gitlab.com/ee/api/license.html#delete-a-license) or [console](https://docs.gitlab.com/ee/administration/license_file.html#remove-licenses).
 
-This functionality aligns with its intended design, but lacks a safeguard against unintended disruptions, particularly during contract resets. In such cases,canceling one subscription to switch to another under revised terms leads to temporary loss of paid features until the new activation code is uploaded. To mitigate this risk, it's advised that the new subscription be set up and activated before canceling the original one.
+This functionality aligns with its intended design, but lacks a safeguard against unintended disruptions, particularly during contract resets. In such cases, canceling one subscription to switch to another under revised terms leads to temporary loss of paid features until the new activation code is uploaded. To mitigate this risk, it's advised that the new subscription be set up and activated before canceling the original one.
 
 **NOTE:** There is an ongoing discussion in this [issue](https://gitlab.com/gitlab-org/fulfillment/meta/-/issues/1818) about possibly preventing automatic license cancellation in these scenarios to avoid service interruptions.
 
