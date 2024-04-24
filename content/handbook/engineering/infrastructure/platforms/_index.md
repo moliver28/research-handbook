@@ -51,11 +51,12 @@ In an effort to enhance the tracking and resolution of requests directed to the 
 
 #### Workflow Overview
 
-- **Acknowledgement**: An agent responds with the acknowledged emoji (👀 in our case) to acknowledge a Slack message in the Infrastructure Lounge channel.
+- **Acknowledgement**: An agent responds with the `acknowledged_emoji` (👀 in our case) to acknowledge a Slack message in the Infrastructure Lounge channel.
 - **Issue Creation**: The Slack bot then creates an issue with the acknowledging agent assigned to it.
 - **Thread Attachment**: The Slack thread corresponding to the message is also posted on the created GitLab issue.
 - **Label Assignment**: Agents can further categorize issues by adding label emojis (`ops`, `foundations`, `scalability-observability` or `scalability-practices`) in the Slack message. This action automatically assigns the issue to the respective team: Ops, Foundations, Scalability-Observability or Scalability-Practices.
 - **Project Tracking**: These converted issues are tracked under a dedicated project hosted at [Infrastructure Lounge Slack Issue Tracker](https://gitlab.com/gitlab-com/gl-infra/infrastructure-lounge-slack-issue-tracker).
+- **Issue Closure**: Agents/Requester can close the issue when resolved by adding any of the `resolved_emojis` (`green-circle-check`,`white_check_mark`or `checked`in our case)
 
 #### Configuration
 
