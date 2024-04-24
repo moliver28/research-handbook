@@ -21,8 +21,9 @@ Everyone can contribute - See something you'd like to discuss or iterate on? Sta
 UTM parameters are specific text strings appended to the URLs, used to facilitate performance tracking in Tableau dashboards through [Bizible Touchpoints](/handbook/marketing/marketing-operations/bizible/#bizible-touchpoints) & other web analytics tools.
 
 Example url: 
-
-<https://page.gitlab.com/resources-ebook-beginners-guide-devops-fr.html?utm_medium=email&utm_source=marketo&utm_campaign=2024_01_20_emea_dmp_webcast_autosd_fr_beginnersguidedevops&utm_content=devguideappsec_ebook&utm_partner_id=gcp>
+```
+https://page.gitlab.com/resources-ebook-beginners-guide-devops-fr.html?utm_medium=email&utm_source=marketo&utm_campaign=2024_01_20_emea_dmp_webcast_autosd_fr_beginnersguidedevops&utm_content=devguideappsec_ebook&utm_partner_id=gcp
+```
 
 The UTM parameters are everything that comes after the question mark:
 
@@ -54,14 +55,11 @@ UTMs should **always** be used when linking to:
 * gitlab.com (trial and registration pages only)
 * learn.gitlab.com
 * pages.gitlab.com
-* ir.gitlab.com
-* 
-**When UTMs are not Needed:**
-* When linking to a non GitLab web property (Eg: Youtube, Linkedin, etc..)
-* When the link directs to the page on the same domain: *gitlab.com. Google Analytics is setup across multiple gitlab.com subdomains, which includes about.gitlab.com and learn.gitlab.com. When a visitor navigates between about to learn (or vice versa), the client ID and session ID would remain the same, so we  know it's the same visitor in the same session.
-When UTMs are added to a *gitlab.com link on a *gitlab.com page, there's a possibility that GA will count a new session. If that user converts by submitting a form, then the conversion would be attributed to the last non-direct source. In the example you provided, the conversion will be PathFactory instead of the original Google Organic, since PF was the last UTM before conversion.
-* It is therefore recommended to remove UTMs from all internal *gitlab.com links, unless if there's a reason to keep them.
+* docs.gitlab.com
 
+**When UTMs are NOT Needed:**
+* When linking to a non GitLab web property (Eg: Youtube, Linkedin, etc..)
+* Internal links with the same gitlab.com domain. For instance, linking to learn.gitlab.com from an about.gitlab.com webpage. Google Analytics is set up for cross-domain tracking. If UTMs are detected within an internal gitlab.com link, a new session will be counted, and conversion attribution will be overridden by the new UTM parameter values. The original source will not receive proper credit.
 
 ## How to create UTMs
 
