@@ -254,7 +254,7 @@ project.
 for GitLab EE.
 - For critical security releases, refer to [Critical Security Releases](https://gitlab.com/gitlab-org/release/docs/blob/master/general/security/process.md#critical-security-releases) in `release/docs`.
 
-### <i class="fas fa-book" style="color:rgb(110,73,203)" aria-hidden="true">Resources</i> 
+### <i class="fas fa-book" style="color:rgb(110,73,203)" aria-hidden="true">Resources</i>
 
 
 
