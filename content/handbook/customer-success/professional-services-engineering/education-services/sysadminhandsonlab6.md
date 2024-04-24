@@ -131,13 +131,13 @@ sudo grep -n '_format' /etc/gitlab/gitlab.rb
 #     format: 'json',
 #     sentry_dsn: 'https://<key>:<secret>@sentry.io/<project>',
 #     sentry_environment: 'production',
-#   },
+# },
 ```
 
-4. Remove the comment in front of `format: 'json'`. Change the `format` property to `format: text`. Remove the comma following the `format` line. The end result will look similar to below:
+4. Remove the comment in front of `format: 'json'`, `gitaly['configuration]` and the final `}` character. Change the `format` property to `format: text`. Remove the comma following the `format` line. The end result will look similar to below:
 
 ```bash
-# gitaly['configuration'] = {
+gitaly['configuration'] = {
 ...
 #   logging: {
 #     dir: "/var/log/gitlab/gitaly",
@@ -145,7 +145,7 @@ sudo grep -n '_format' /etc/gitlab/gitlab.rb
       format: 'text'
 #     sentry_dsn: 'https://<key>:<secret>@sentry.io/<project>',
 #     sentry_environment: 'production',
-#   },
+},
 ```
 
 5. Reconfigure to apply the change.
