@@ -59,24 +59,6 @@ If a customer requires a Legacy License or an Offline License **post-sale**, the
 
 If the customer's subscription or trial/temp license has expired, and they require access during the approval process, the account manager must [open an Internal Request with Support](https://support-super-form-gitlab-com-support-support-op-651f22e90ce6d7.gitlab.io/). Use either the **GitLab Support Internal Requests for Global customers** or **GitLab Support Internal Requests for Federal customers** request option and then select **Extend an (almost) expired subscription** in the **Self Managed** section. The support engineer should [provide the customer with a trial license](/handbook/support/license-and-renewals/workflows/self-managed/trials/) until post-sales opt-out approval is received and handled in the related Internal Request.
 
-
-### Consequences of Cloud License Cancellation
-
-#### Self-Managed
-
-When a **cloud license activated subscription** is canceled on **GitLab version 16.9 or newer**, the cancelation immediately synchronizes with the customer's instance, causing it to be put into read-only mode. To allow the use in the instance of free features, the customer will need to manually remove the canceled license via the [UI](https://docs.gitlab.com/ee/administration/license_file.html#remove-a-license), [License API](https://docs.gitlab.com/ee/api/license.html#delete-a-license) or [console](https://docs.gitlab.com/ee/administration/license_file.html#remove-licenses).
-
-This functionality aligns with its intended design, but lacks a safeguard against unintended disruptions, particularly during contract resets. In such cases, canceling one subscription to switch to another under revised terms leads to temporary loss of paid features until the new activation code is uploaded. To mitigate this risk, it's advised that the new subscription be set up and activated before canceling the original one.
-
-**NOTE:** There is an ongoing discussion in this [issue](https://gitlab.com/gitlab-org/fulfillment/meta/-/issues/1818) about possibly preventing automatic license cancellation in these scenarios to avoid service interruptions.
-
-#### GitLab.com
-
-Similar to Self-Managed, canceling a subscription on gitlab.com will downgrade it to the free tier. However, when it comes to contract resets and billing entity changes, customers on GitLab.com will not be reverted to the free tier. Account Executives can use the [contract reset process](https://handbook.gitlab.com/handbook/sales/field-operations/sales-operations/deal-desk/#contract-reset), which includes transferring a customer's namespaces to the new subscription before performing the contract reset, effectively eliminating any potential disruptions.
-
-
-
-
 #### How to process a Cloud Licensing exemption internal request
 
 1. Click on the `Chattr with approval` link then:
