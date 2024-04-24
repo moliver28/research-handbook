@@ -87,10 +87,6 @@ Job Policy patterns allow the pipeline to control when and if jobs run using the
       - review
       - deploy
 
-    stages:
-      - test
-      - build
-
     test job:
       stage: test
       script:
