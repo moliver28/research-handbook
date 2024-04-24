@@ -102,13 +102,13 @@ The Senior Data Engineer is a [grade 7](/handbook/total-rewards/compensation/com
 
 The Staff Data Engineer role extends the [Senior Data Engineer](#responsibilities) role.
 
-### Job Grade
+### Staff Data Engineer Job Grade
 
 The Staff Data Engineer is a [grade 8](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
 Business Justification: The staff level requires deep technical and functional knowledge that contributes to the overall direction and impacts multiple teams, including working directly with external stakeholders. Market data outlines that a significant number of organizations have approximately 3-4 staff level individual contributors.
 
-### Responsibilities
+### Staff Data Engineer Responsibilities
 
 - All requirements of a Senior Data Engineer
 - Ship large features and foundational improvements with minimal guidance and support from other team members
@@ -125,28 +125,29 @@ Business Justification: The staff level requires deep technical and functional k
 
 The Prinicipal Data Engineer role extends the [Staff Data Engineer](#responsibilities) role.
 
-### Job Grade
+### Prinicipal Data Engineer Job Grade
 
 The Prinicipal Data Engineer is a [grade 9](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
-Business Justification: 
+Business Justification:
 
-### Responsibilities
+
+### Prinicipal Data Engineer Responsibilities
 
 - All requirements of a Staff Data Engineer
 - Helps team members understand their organization’s domain and technology through clear and effective communication.
 - Makes responsible decisions and evaluates tradeoffs impacting data systems and analytics capabilities across the Enterprise Data Platform.
 - Improves data architecture and system design through engagement with architecture review processes.
 - Exhibits a deep understanding of data pipelines, models, and analytics tools, how customers use them, and how they fit into the larger business.
-- Identifies effective solutions to intricate data challenges that span multiple domains, articulating their benefits to stakeholders in a clear and compelling manner. 
-- Unblocks and enables team members to work with data across departments. 
+- Identifies effective solutions to intricate data challenges that span multiple domains, articulating their benefits to stakeholders in a clear and compelling manner.
+- Unblocks and enables team members to work with data across departments.
 - Participates in processes which address complex technical challenges, such as the Architecture Design Process, as a DRI and as a coach.
 - Advises on resourcing requirements and provides feedback on promotions into technical leadership roles.
 - Has broad data engineering skills with specialized expertise in several areas like streaming, warehousing, ML infrastructure.
-- Blends technical and product strategy to increase the productivity of analytics efforts. 
-- Represents data and analytics teams as a domain expert when interfacing with other departments. 
+- Blends technical and product strategy to increase the productivity of analytics efforts.
+- Represents data and analytics teams as a domain expert when interfacing with other departments.
 - Reaches beyond immediate needs, independently considering the longer-term, and always looks beyond for ways to have a broad impact.
-- Addresses cross-functional challenges related to data quality, security, compliance and accessibility. 
+- Addresses cross-functional challenges related to data quality, security, compliance and accessibility.
 - Able to take on cross-team complex requirements and decompose them into a proposal of small deliverables.
 - Engages in processes like the Architecture Design Process to contribute to their organization’s most challenging technical initiatives.
 
