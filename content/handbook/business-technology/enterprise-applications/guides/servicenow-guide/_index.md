@@ -16,12 +16,11 @@ Additionally, this solution supports our continued emphasis on keeping team memb
 
 ## When is it going to be LIVE?
 
-ServiceNow (aka HelpLab) is going to be live on 2024-04-24.
+ServiceNow (aka HelpLab) is going to be live on 2024-04-25.
 
 ## What teams are available in HelpLab?
 
 [People Connect](https://handbook.gitlab.com/handbook/people-group/people-ops-tech-analytics/), [People Technology and Analytics](https://handbook.gitlab.com/job-families/people-group/people-systems-and-analytics/), [Team Member Relations](https://handbook.gitlab.com/handbook/people-group/team-member-relations/), [Stock Admin](https://handbook.gitlab.com/job-families/finance/stock-administrator/), [Expenses](https://handbook.gitlab.com/handbook/finance/accounts-payable/), [Payroll (US & Non-US)](https://internal.gitlab.com/handbook/finance/payroll/), and [IT services](https://handbook.gitlab.com/handbook/business-technology/end-user-services/) are offered through HelpLab.
-
 
 ## How do I use HelpLab?
 
@@ -33,7 +32,7 @@ HelpLab is available via Okta. To access the platform:
 1. Click on the HelpLab button.
    - A new tab should open with your user logged in.
 
-### Create a ticket / request via the HelpLab Portal
+### Create a ticket / request
 
 1. Log in to HelpLab via Okta.
 1. Navigate to the main menu at the top and browse through the menu options to find the team you'd like to request assistance from.
@@ -46,14 +45,14 @@ HelpLab is available via Okta. To access the platform:
 1. Review your request to ensure accuracy and completeness.
 1. Click on the "Submit" button to send your request to the relevant team for processing.
 
-### Add a team member to your ticket / request in the HelpLab Portal
+### Add a team member to your ticket / request
 
 After submitting your request, you have the option to add team members, such as your manager, to the `watch list`. Adding team members to the watch list ensures that they receive notifications and have visibility into the case. This feature is useful if there's anybody who needs to have visibility to the case's progress or if additional stakeholders should be informed about updates or resolutions.
 
 ![helplab2](/handbook/business-technology/enterprise-applications/guides/servicenow-guide/helplab2.png)
 
 
-### Track & manage open requests via the HelpLab Portal
+### Track & manage open requests
 
 Navigate to the "My Requests" section.
 
