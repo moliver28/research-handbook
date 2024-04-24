@@ -54,10 +54,6 @@ For more information on messaging The DevOps Platform, please see the [DevOps Pl
 
 The [company overview](/handbook/company/#about-us) can be found here.
 
-### Press release boilerplate
-
-The [press release boilerplate](/press/press-kit/#boilerplate) can be found here.
-
 ### Standard Email introduction text
 
 GitLab makes it easier for companies to achieve software excellence so that they can unlock great software for their customers by reducing the cycle time between having an idea and seeing it in production. GitLab does this with The DevOps platform, which combines the ability to develop, secure, and operate software in a single application that is easier to use and leads to faster cycle times. GitLab is fundamentally changing the way Development, Security, and Ops teams collaborate. GitLab helps teams accelerate software delivery from weeks to minutes, reduce development costs, and reduce the risk of application vulnerabilities while increasing developer productivity. An estimated 30 million users across the globe trust GitLab to deliver great software at new speeds.
