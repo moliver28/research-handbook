@@ -31,7 +31,7 @@ Embracing asynchronous communication and learning to use it effectively requires
 
 If you see something that concerns you in Slack, Issues, Merge Requests, Video, Emails or any other forum, we encourage you to respectfully say something directly to the individual in a 1:1 format. 
 
-If there is an issue to raise regarding someone’s communication or conduct, team member’s should follow the process for [raising communication concerns](/handbook/people-group/team-member-relations/#raising-communication-concerns) by sharing their concern with their manager or, if preferred, email Team Member Relations (teammemberrelations@gitlab.com) directly. 
+If there is an issue to raise regarding someone’s communication or conduct, team members should follow the process for [raising communication concerns](/handbook/people-group/team-member-relations/#raising-communication-concerns) by sharing their concern with their manager or, if preferred, email Team Member Relations (teammemberrelations@gitlab.com) directly. 
 
 ### Asynchronous communication
 
