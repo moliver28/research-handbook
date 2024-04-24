@@ -57,7 +57,7 @@ description: "This Hands-On Guide walks you through the lab exercises in the Git
     # TODO: should we refactor this file?
     ```
 
-  > Note: This code starts by defining a single stage named `test`. Next, a single job is defined named `test-job`, which runs as a part of the `test` stage. The `include` section enables code quality scanning by including the code quality template. Finally, the `TODO` command is added as an example of code that is flagged as a code quality problem.
+  > This code starts by defining a single stage named `test`. Next, a single job is defined named `test-job`, which runs as a part of the `test` stage. The `include` section enables code quality scanning by including the code quality template. Finally, the `TODO` command is added as an example of code that is flagged as a code quality problem.
 
 1. In the **Commit message** field, type `Add CI/CD configuration file that includes code quality scanning`.
 

@@ -32,7 +32,7 @@ The `.gitlab-ci.yml` file allows you to define the stages and jobs for your CI/C
         - echo "I am a build image!"
     ```
 
-    > Note: the pipeline logic will be almost identical to what you had previously, just the job names and echo statements will change slightly.
+    > The pipeline logic will be almost identical to what you had previously, just the job names and echo statements will change slightly.
 
 1. In the **Commit message** field, type `Add CI starter`, set the **Target Branch** to `main`, and click **Commit changes**.
 

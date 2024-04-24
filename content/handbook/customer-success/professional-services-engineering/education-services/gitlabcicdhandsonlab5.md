@@ -16,7 +16,7 @@ To customize your CI/CD process, you can define your own environment variables. 
 
 > There are two types of inline variables we will explore in this section: global inline variables and job scoped inline variables. These variables are defined only for the `.gitlab-ci.yml` file they are declared in.
 
-> Note: Variables in GitLab CI/CD have a precedence, which means variables at a higher 'level' will override the values of a lower 'level'. This can lead to unintended results, so re-use of variable names should be monitored carefully. For more information, click [here](https://docs.gitlab.com/ee/ci/variables/#cicd-variable-precedence).
+> Variables in GitLab CI/CD have a precedence, which means variables at a higher 'level' will override the values of a lower 'level'. This can lead to unintended results, so re-use of variable names should be monitored carefully. For more information, click [here](https://docs.gitlab.com/ee/ci/variables/#cicd-variable-precedence).
 
 1. Open your **CICD Demo** project from previous labs.
 
@@ -95,7 +95,7 @@ To customize your CI/CD process, you can define your own environment variables. 
       INLINE_GLOBAL_VARIABLE: "I'm an inline variable set at the global level of the CI/CD configuration file"
     ```
 
-    > Note: A variable declared at the top level is globally available. In this example, all jobs can use the `INLINE_GLOBAL_VARIABLE` variable.
+    > A variable declared at the top level is globally available. In this example, all jobs can use the `INLINE_GLOBAL_VARIABLE` variable.
 
 1. Inside the `environment variables` job, just below that job's `stage: build` line (but before the `script` line), paste the following to declare a local inline variable. The `variables` keyword should be at the same indentation as that job's `stage` amd `script` keywords.
 
@@ -104,7 +104,7 @@ To customize your CI/CD process, you can define your own environment variables. 
       INLINE_LOCAL_VARIABLE: "I'm an inline variable set at the job level of the CI/CD configuration file"
     ```
 
-    > Note: Since this variable inside a job, it is only accessible by the job. For this example, `INLINE_LOCAL_VARIABLE` is only accessible in the `environment variables` job.
+    > Since this variable inside a job, it is only accessible by the job. For this example, `INLINE_LOCAL_VARIABLE` is only accessible in the `environment variables` job.
 
 1. At this point, your `.gitlab-ci.yml` file will look like this: 
 
@@ -151,7 +151,7 @@ To customize your CI/CD process, you can define your own environment variables. 
         - echo $INLINE_LOCAL_VARIABLE
     ```
 
-    > Note: When defining variables, watch your indentation. Global variables must be indented by 2 spaces, and must be immediately under a flush-left `variables` keyword that is outside any job definition. Local variables must be indented 4 spaces, and must be immediately under a `variables` keyword that is indented 2 spaces and is within a job definition.
+    > When defining variables, watch your indentation. Global variables must be indented by 2 spaces, and must be immediately under a flush-left `variables` keyword that is outside any job definition. Local variables must be indented 4 spaces, and must be immediately under a `variables` keyword that is indented 2 spaces and is within a job definition.
 
 1. In the **Commit message** field, type `Add custom variables`, ensure the **Target Branch** set to `main`, and click **Commit changes**.
 
@@ -171,13 +171,13 @@ To customize your CI/CD process, you can define your own environment variables. 
 
 1. Leave all other options at their defaults and click **Add variable**.  
 
-    > Note: This is a group level variable, meaning it is accessible to any projects inside of **My Test Group**.
+    > This is a group level variable, meaning it is accessible to any projects inside of **My Test Group**.
 
 1. Navigate to your project by clicking your **My Test Group** in the breadcrumbs at the top of the page, and then clicking on the `CICD Demo` project.
 
 1. Repeat steps 2 to 6, entering `project_level_variable` in the **Key** field and `I'm a variable set at the project level` in the **Value** field. 
 
-    > Note: This is a project level variable, meaning it is accessible only inside the current project.
+    > This is a project level variable, meaning it is accessible only inside the current project.
 
 1. Setting variables does not trigger a pipeline run, so click **Build > Pipelines** in the left navigation pane, click the **Run Pipeline** button, and click the second **Run Pipeline** button.
 
