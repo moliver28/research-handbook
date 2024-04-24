@@ -10,6 +10,17 @@ canonical_path: "/job-families/engineering/support-engineer/"
 
 This position is 100% remote.
 
+## Customer Support Representative
+
+### Job Grade
+
+The Customer Support Representative is a [Grade 5](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+
+For a Customer Support Representative role we expect:
+- Someone who's been in a previous customer facing role, whether in a technical or non-technical company, and thrives on supporting other people
+- Someone who is able to understand process workflow and communicate via written word and video conferencing
+
+As we evolve our handbook and adopt a career matrix approach, you can read more about a Customer Support Representative on our [Customer Support Representative Career Matrix Page](https://handbook.gitlab.com/handbook/engineering/careers/matrix/support/CSR/) which covers more of the details you see in the roles below.
 
 ## Associate Support Engineer
 

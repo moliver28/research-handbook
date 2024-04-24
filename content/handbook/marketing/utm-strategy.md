@@ -21,8 +21,9 @@ Everyone can contribute - See something you'd like to discuss or iterate on? Sta
 UTM parameters are specific text strings appended to the URLs, used to facilitate performance tracking in Tableau dashboards through [Bizible Touchpoints](/handbook/marketing/marketing-operations/bizible/#bizible-touchpoints) & other web analytics tools.
 
 Example url: 
-
-<https://page.gitlab.com/resources-ebook-beginners-guide-devops-fr.html?utm_medium=email&utm_source=marketo&utm_campaign=2024_01_20_emea_dmp_webcast_autosd_fr_beginnersguidedevops&utm_content=devguideappsec_ebook&utm_partner_id=gcp>
+```
+https://page.gitlab.com/resources-ebook-beginners-guide-devops-fr.html?utm_medium=email&utm_source=marketo&utm_campaign=2024_01_20_emea_dmp_webcast_autosd_fr_beginnersguidedevops&utm_content=devguideappsec_ebook&utm_partner_id=gcp
+```
 
 The UTM parameters are everything that comes after the question mark:
 
@@ -54,11 +55,11 @@ UTMs should **always** be used when linking to:
 * gitlab.com (trial and registration pages only)
 * learn.gitlab.com
 * pages.gitlab.com
-* ir.gitlab.com
-* When UTMs are not Needed:
-* When the link directs to a page on the same domain
-* When linking to a non GitLab web property (Eg: Youtube, Linkedin, etc..)
+* docs.gitlab.com
 
+**When UTMs are NOT Needed:**
+* When linking to a non GitLab web property (Eg: Youtube, Linkedin, etc..)
+* Internal links with the same gitlab.com domain. For instance, linking to learn.gitlab.com from an about.gitlab.com webpage. Google Analytics is set up for cross-domain tracking. If UTMs are detected within an internal gitlab.com link, a new session will be counted, and conversion attribution will be overridden by the new UTM parameter values. The original source will not receive proper credit.
 
 ## How to create UTMs
 
@@ -161,7 +162,8 @@ Encoding more data on the UTM campaign directly transfers that information to Bi
 | Parameter | Required / Optional | Examples |			
 |---------------------------|----------------------|----------------------|			
 | Content offer | Optional (if not applicable, use x) | devguideappsec |			
-| Asset type | Optional (if not applicable, use x) | ebook |			
+| Asset type | Optional (if not applicable, use x) | ebook |
+| Industry (vertical) | Optional (if not applicable, use x) | telco |			
 
 **Asset Type** values (available as picklist in the UTM builder googlesheet):
 * ebook = Gated ebooks

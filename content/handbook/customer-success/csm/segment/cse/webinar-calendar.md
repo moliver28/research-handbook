@@ -8,7 +8,6 @@ aliases:
 # On this page
 
 
-
 View the [CSM Handbook homepage](/handbook/customer-success/csm/) for additional CSM/CSE-related handbook pages.
 
 Watch previously recorded webinars on our [YouTube Playlist](https://www.youtube.com/playlist?list=PL05JrBw4t0Kpczt4pRtyF147Uvn2bGGvq).
@@ -16,7 +15,7 @@ Watch previously recorded webinars on our [YouTube Playlist](https://www.youtube
 ---
 # Upcoming Events
 
-We’d like to invite you to our free upcoming webinars and labs in the month of April 2024.
+We’d like to invite you to our free upcoming webinars and labs in the month of April 2024. For May events, please check out our new webinar and labs [registration page here](https://university.gitlab.com/pages/gitlab-user-webinars)!
 
 If you know someone who might be interested in attending, feel free to share the registration links with them. Everyone is welcome, and we hope to see you there!
 
@@ -66,6 +65,6 @@ Join us for the AI in DevSecOps webinar where we will explore Artificial Intelli
 
 [<button class="btn btn-primary" type="button">Register</button>](https://gitlab.zoom.us/webinar/register/WN__PRkLukaTyqA1uwpoe9OwA#/registration)
 
+## May 2024
 
-
-Check back later for more webinars & labs! 
+Please check out our new webinar and labs event [registration page here](https://university.gitlab.com/pages/gitlab-user-webinars). We are looking forward to hosting you for some - or all - of our May events!

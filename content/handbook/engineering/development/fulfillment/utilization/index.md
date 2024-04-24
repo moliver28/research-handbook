@@ -15,7 +15,7 @@ The Utilization group manages the [Utilization category](/handbook/product/categ
 
 ## Team members
 
-{{< team-by-manager-role role="Fullstack Engineering Manager, Fulfillment:Utilization" team="[,&] Fulfillment" >}}
+{{% team-by-departments "Fulfillment:Utilization Team" %}}
 
 ## Stable counterparts
 

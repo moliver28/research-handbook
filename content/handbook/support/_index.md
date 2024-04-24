@@ -121,7 +121,7 @@ We review these KPIs weekly in the [Support Week-in-Review](/handbook/support/#s
 In service of achieving our KPIs and OKRs, there are three key pillars that we must balance to achieve success:
 
 - People: Continue to hire excellent engineers and managers, at the right time, and the right places. Support our existing engineers and work with each team member towards realizing their full potential through professional development and smart tooling.
-- Process: Iterate on existing processes and develop new, simplified processes that enable global scaling
+- Process: Iterate on existing processes and develop new, simplified processes that enable global scaling.
 - Performance: People understand how their contributions help the global team attain our results, with guidance on what these contributions look like in practice.
 
 At various times it's easy to over-optimize on one of the pillars to solve a problem, but considering all three is key to avoiding short-sighted decision making.

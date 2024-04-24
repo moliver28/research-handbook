@@ -165,14 +165,14 @@ Once the NDA has been returned, upload the document in the "details" section of 
 
 ### Background Screenings
 
-GitLab will obtain references and complete a criminal [records check]({{< ref "people-policies#background-checks" >}}) with employment verifications.
+GitLab will obtain references and complete a criminal [records check](/handbook/people-group/contracts-probation-periods/#background-screenings) with employment verifications.
 
 - If the candidate is located in Belgium and the role is not Grade 9 or higher, the CES or Recruiter (whoever kicks off the reference check process) should send the job requisition to the legal team via the #legal Slack channel during Reference/Background screening phase to determine whether or not the role is a position of trust.
 - The recruiter should select "Email the team" and send the "CES Start Contract Request" email to CES* to initiate the offer letter and background screening processes after the verbal offer has been made.
-- The Candidate Experience Specialist will [initiate a background screening]({{< ref "people-policies#background-checks" >}}) and start the contract process for the candidate.
+- The Candidate Experience Specialist will [initiate a background screening](/handbook/people-group/contracts-probation-periods/#background-screenings) and start the contract process for the candidate.
 - Background screening results will be received by the Senior Background Check Specialist and escalated to Team Member Relations and Legal where appropriate
 
-For additional information on reviewing Background screenings see [this page]({{< ref "people-policies#background-checks" >}}).
+For additional information on reviewing Background screenings see [this page](/handbook/people-group/contracts-probation-periods/#background-screenings).
 
 #### Initiating a Background Screening through Greenhouse
 
