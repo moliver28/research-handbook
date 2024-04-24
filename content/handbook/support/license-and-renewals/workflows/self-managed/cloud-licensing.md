@@ -72,7 +72,7 @@ This functionality aligns with its intended design, but lacks a safeguard agains
 
 #### GitLab.com
 
-Similar to Self-Managed, cancelling a subscription will also downgrade a GitLab.com subscription to the free tier. However, when it comes to contract resets and billing entity changes, customers on GitLab.com will no longer be reverted to the free tier. Account Executives can now use the updated [contract reset process](https://handbook.gitlab.com/handbook/sales/field-operations/sales-operations/deal-desk/#contract-reset), which includes transferring a customer's namespaces to the new subscription before performing the contract reset, effectively mitigating any potential disruptions.
+Similar to Self-Managed, canceling a subscription on gitlab.com will downgrade it to the free tier. However, when it comes to contract resets and billing entity changes, customers on GitLab.com will not be reverted to the free tier. Account Executives can use the [contract reset process](https://handbook.gitlab.com/handbook/sales/field-operations/sales-operations/deal-desk/#contract-reset), which includes transferring a customer's namespaces to the new subscription before performing the contract reset, effectively eliminating any potential disruptions.
 
 
 
