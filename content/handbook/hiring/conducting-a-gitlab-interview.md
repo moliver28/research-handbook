@@ -176,9 +176,9 @@ The scoring definitions for GitLab’s Engineering Division are defined differen
   - The candidate demonstrated unwillingness to learn our Efficiency, Iteration, or Transparency values
 
   **Scorecards for Shadow Interviewers**
-  If you are shadowing an interview, we encourage the shadowing team member to collect feedback in addition to the interviewer during these sessions. This is a great opportunity to add your feedback and compare notes with the Recruiting team and/or the interviewer you're shadowing. Notes (both from the interviewer and shadow trainee) should only be taken in our ATS, Greenhouse. As an interview training best practice, we recommend that a debrief meeting occur between the interviewer and shadow trainee after the interview to compare feedback notes (ideally in a sync meeting).
+If you are shadowing an interview, we encourage the shadowing team member to collect feedback in addition to the interviewer during these sessions. This is a great opportunity to add your feedback and compare notes with the Recruiting team and/or the interviewer you're shadowing. Notes (both from the interviewer and shadow trainee) should only be taken in our ATS, Greenhouse. As an interview training best practice, we recommend that a debrief meeting occur between the interviewer and shadow trainee after the interview to compare feedback notes (ideally in a sync meeting).
     
-  Only one official scorecard should be submitted by the main interviewer. Even if you receive multiple prompts and reminders from Greenhouse as a shadow interviewer, please ignore. The recruitment team will cancel these reminders typically with 24-48 hours of an interview finishing up.
+Only one official scorecard should be submitted by the main interviewer. Even if you receive multiple prompts and reminders from Greenhouse as a shadow interviewer, please ignore. The recruitment team will cancel these reminders typically with 24-48 hours of an interview finishing up.
     
 More info on [engineering hiring practices](https://about.gitlab.com/handbook/engineering/#hiring-practices).
 
