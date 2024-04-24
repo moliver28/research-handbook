@@ -17,7 +17,7 @@ GitLab Duo extends beyond just code generation. GitLab Duo can support you throu
 
 1. Select **Edit > Edit in pipeline editor**
 
-1. Add the following code to the file:
+1. Remove all previous yaml and add the following code. Your `.gitlab-ci.yml` should look as follows:
 
 ```
 stages:
