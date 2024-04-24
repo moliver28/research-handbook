@@ -51,6 +51,12 @@ GitLab Duo allows you to use AI-assisted features across GitLab. To get started 
 
 1. A new chat window will appear on the right side of the screen. Try asking some questions and see how the GitLab Duo responds!
 
+Here are a few demo questions you can ask Duo:
+
+- `How do I move an issue from one project to another?`
+- `What is a merged results pipeline?`
+- `What is an example of a simple python function?`
+
 ## Lab Guide Complete
 
 You have completed this lab exercise. You can view the other [lab guides for this course](/handbook/customer-success/professional-services-engineering/education-services/devsecopswithduo).
