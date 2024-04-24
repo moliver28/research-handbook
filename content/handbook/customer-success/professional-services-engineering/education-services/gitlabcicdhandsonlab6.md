@@ -174,17 +174,17 @@ Your `deploy review` job should be the only job that should be running.
 
 ### Task B2: Running the `deploy release` Job
 
-1. Open your `.gitlab-ci.yml` file and review the rules specified in the deploy release `rules` section. It will only run when A) The branch name (represented by `$COMMIT_REF_NAME`) is not equal to `main`, and B) there is a tag on the branch (represented by `$COMMIT_REF_TAG`)
+1. Open your `.gitlab-ci.yml` file and review the rules specified in the deploy release `rules` section. It will only run when A) The branch name (represented by `$COMMIT_REF_NAME`) is not equal to `main`, and B) the variable `$LOG_ENVIRONMENT` needs to be set. 
 
-1. We will need to make a tag for this job to run. To make a tag, click on **Code > Tags**.
+1. We will need to make a variable for this job to run. In the left-hand navigation pane, click **Settings > CI/CD**
 
-1. Click on the **New tag** button.
+1. In the **Variables** section, click the **Expand** button.
 
-1. Type in `1.0` into the **Tag name** section.
+1. Click **Add Variable**. Enter `LOG_ENVIRONMENT` in the **Key** dialog box. *Hint: watch your spelling, capitalization, and underscores!* 
 
-1. Change the **Create from** option to display **Dev** instead.
+1. Type `Specifies if we should send logs to our logging system.` in the **Value** dialog box.
 
-1. Click the **Create tag** button.
+1. Leave all other options at their defaults and click **Add variable**.  
 
 1. Click on **Build > Pipelines**.
 
