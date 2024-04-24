@@ -13,7 +13,7 @@ title: "Board of Directors and Corporate Governance"
 ### Audit Committee
 
 - **Chairperson:** Karen Blasing
-- **Members:**  Mark Porter, Sunny Bedi
+- **Members:**  Sunny Bedi
 - **Management DRI:** Chief Financial Officer
 - **Internal Management Members:** Chief Legal Officer, Chief Executive Officer
 
