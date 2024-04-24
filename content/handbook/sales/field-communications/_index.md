@@ -16,7 +16,6 @@ This team is responsible for creating effective, timely, and easily consumable c
 
 For more information about the Field Enablement team, visit the [team handbook page.](/handbook/sales/field-operations/field-enablement/)
 
-## How to work with us
 
 1. Review this page for information about our Field Communications programs, channels and processes.
 2. Engage the Field Communications team by submitting a [Field Announcement Request](/handbook/sales/field-communications/#requesting-field-announcements)
