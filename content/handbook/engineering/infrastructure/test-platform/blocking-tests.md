@@ -143,6 +143,7 @@ The `:blocking` tag cannot be removed from a test. Such a test can only be quara
 
 ## Future Iterations
 
+- Make reliable orchestrated tests block
 - Automate the process of de-quarantining the tests that have been consistently
   passing. ([Issue link](https://gitlab.com/gitlab-org/quality/quality-engineering/team-tasks/-/issues/1918#phase-3-automate-de-quarantining-update-process-and-docs-okr))
   MR. ([Issue link](https://gitlab.com/gitlab-org/quality/quality-engineering/team-tasks/-/issues/2516))
