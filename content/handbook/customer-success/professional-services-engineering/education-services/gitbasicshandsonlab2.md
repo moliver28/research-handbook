@@ -15,7 +15,7 @@ In this lab you will practice using a repository on your local computer and lear
 
 Please take time to understand any code that you are asked to copy and paste in any lab. Ask your instructor to explain any code that’s not clear.
 
-> Note: Many of the Git commands used in this lab are summarized in GitLab’s helpful [git cheat sheet](
+> Many of the Git commands used in this lab are summarized in GitLab’s helpful [git cheat sheet](
   https://about.gitlab.com/images/press/git-cheat-sheet.pdf). This lab will require you to be able to use your local computer to have SSH access to the internet. Please make sure your machine has the required permissions.
 
 ## Task A. Verify that Git is installed locally
@@ -47,11 +47,11 @@ Please take time to understand any code that you are asked to copy and paste in 
 
 3. The first prompt will ask you where you would like to save your SSH key. Take note of the location that the command is saving the key to. By default, the path will be `~/.ssh`, and the default name will be `id_rsa`. Press <kbd>Enter</kbd> to accept the default key location and name.
 
-    > Note: If preferred, you can also provide a custom file path and key name for this step.
+    > If preferred, you can also provide a custom file path and key name for this step.
 
 4. The second prompt will ask you to set a password for the key file. Press <kbd>Enter</kbd> to use a blank passphrase for the local key file.
 
-    > Note: To keep the steps simple, we are opting to not set a password for the key file. Blank passphrases are not generally considered best practices. You can set a passphrase if desired.
+    > To keep the steps simple, we are opting to not set a password for the key file. Blank passphrases are not generally considered best practices. You can set a passphrase if desired.
 
 ## Task C. Add an SSH key to your GitLab profile
 
@@ -77,7 +77,7 @@ Please take time to understand any code that you are asked to copy and paste in 
     cd ~\.ssh
     ```
 
-    > Note: By default, the key will be saved in the `~/.ssh` directory. If you saved the key to a different directory, you will need to `cd` to that directory instead.
+    > By default, the key will be saved in the `~/.ssh` directory. If you saved the key to a different directory, you will need to `cd` to that directory instead.
 
 1. You should see two key files: a public key (ex. `id_rsa.pub`) and a private key (ex. `id_rsa`). The public key ends with `.pub` and is what you need to share with GitLab.
 
@@ -178,7 +178,7 @@ If the command completes with a welcome message instead of an error, your SSH ke
     git status
     ```
 
-    > Note: You'll see `nothing to commit, working tree clean` in the output, which means the files in this directory have the same contents as the versions of these files that are stored in Git.
+    > You'll see `nothing to commit, working tree clean` in the output, which means the files in this directory have the same contents as the versions of these files that are stored in Git.
 
 ## Task E. Work on a branch
 
