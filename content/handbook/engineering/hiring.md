@@ -10,7 +10,7 @@ By actively participating in recruitment efforts, engineers help shape their tea
 
 Interviewing is a skill, and takes up a significant amount of time and effort to facilitate and improve upon. We should recognize and appreciate the efforts we take to contribute to scaling the engineering organization.
 
-For more context, please review [this video (internal)](https://drive.google.com/file/d/1OqjfT4MvUWXjtC6Ock1qBLNHV1E-9CXe/view) on the importance of hiring within Engineering at GitLab.
+For more context, please review [a recent Engineering All-Hands (internal)](https://drive.google.com/file/d/1OqjfT4MvUWXjtC6Ock1qBLNHV1E-9CXe/view) emphasizing the importance of contributing to hiring efforts within Engineering.
 
 ## Hiring Practices
 
