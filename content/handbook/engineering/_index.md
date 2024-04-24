@@ -42,6 +42,7 @@ Work in the 40% time budget should be coordinated and prioritized by the enginee
 - Improvements and upgrades to our toolchain in order to boost efficiency.
 - Codebase improvements: Removing technical debt, updating or replacing outdated dependencies, and enhancing logging and monitoring capabilities.
 - Constructing proof-of-concept models for thorough exploration of new technologies, enhancements, and potential new feature development.
+- Work on improvements and feature enhancements to the product, in the sense of internal community contributions, that would increase our internal engineering productivity by focusing on ready-to-go items that are currently assigned a low priority in the backlog.
 
 ### Community Contributions
 
