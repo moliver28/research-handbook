@@ -36,8 +36,7 @@ Migrating pipelines from other systems, [such as Jenkins](https://docs.gitlab.co
 
 ## From GitLab self-managed to GitLab self-managed
 
-In case of migrating from one self-managed GitLab server to another, the best way usually is to do a [full backup](https://docs.gitlab.com/ee/administration/backup_restore/#migrate-to-a-new-server) at the source instance and then a restore at the target instance. Step by step diretions are available on our [Migrate to a new server] docs page. The full architecture and how GitLab performs backups of all GitLab compentents is available on our [Back up and restore GitLab](https://docs.gitlab.com/charts/architecture/backup-restore.html) docs page.
-
+In case of migrating from one self-managed GitLab server to another, the best way usually is to do a [full backup](https://docs.gitlab.com/ee/administration/backup_restore/) at the source instance and then a restore at the target instance. Step by step diretions are available on our [Migrate to a new server](https://docs.gitlab.com/ee/administration/backup_restore/migrate_to_new_server.html) docs page. 
 
 ## Air-gapped environments
 
