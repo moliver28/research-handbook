@@ -65,6 +65,6 @@ Join us for the AI in DevSecOps webinar where we will explore Artificial Intelli
 
 [<button class="btn btn-primary" type="button">Register</button>](https://gitlab.zoom.us/webinar/register/WN__PRkLukaTyqA1uwpoe9OwA#/registration)
 
+## May 2024
 
-
-Check back later for more webinars & labs! 
+Please check out our new webinar and labs event [registration page here](https://university.gitlab.com/pages/gitlab-user-webinars). We are looking forward to hosting you for some - or all - of our May events!
