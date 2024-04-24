@@ -138,8 +138,11 @@ Details of the patch release lifecycle can be found on the [patch release docume
 GitLab team members can view the [internal Grafana dashboard "Release Information"](https://dashboards.gitlab.net/d/delivery-release_info/delivery3a-release-information?orgId=1) for the following information about the active patch release:
 
 * Active patch release versions (stable version + 2 backport versions)
-* Expected release date
+* Upcoming patch release date
 * Current status of the patch release
+  * Open: Bug fixes and MRs associated with security issues labelled `security-target` are expected to be included in the next patch release.
+  * Warning: Signals that teams should get bug and security fixes ready to merge.
+  * Closed: Default branch MRs have been merged, no further bug or security fixes will be included.
 
 The metrics used to display this information are updated automatically throughout the [patch release process](#patch-release-process).
 
