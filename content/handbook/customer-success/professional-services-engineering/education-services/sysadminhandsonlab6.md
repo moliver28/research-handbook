@@ -120,14 +120,33 @@ sudo grep -n '_format' /etc/gitlab/gitlab.rb
 
 2. Run `sudo gitlab-ctl tail gitaly/current` to see the current JSON output for Gitaly logging.
 
-3. Change Gitaly's log format from JSON to text formatting. As before, modify the line `sed` edits accordingly using the line number from the grep output.
+3. Change Gitaly's log format from JSON to text formatting. In your preferred text editor, locate the line `gitaly['configuration]`. Inside this configuration object, you will see a logging configuration similar to below:
 
 ```bash
-sudo sed -i '1234s/json/text/' /etc/gitlab/gitlab.rb
-sudo sed -i '1234s/#//' /etc/gitlab/gitlab.rb
+# gitaly['configuration'] = {
+...
+#   logging: {
+#     dir: "/var/log/gitlab/gitaly",
+#     level: 'warn',
+#     format: 'json',
+#     sentry_dsn: 'https://<key>:<secret>@sentry.io/<project>',
+#     sentry_environment: 'production',
+# },
 ```
 
-4. Re-run the `grep` command from Step 1 to verify the line was modified as intended. The line should now read `gitaly['logging_format'] = "text"`.
+4. Remove the comment in front of `format: 'json'`, `gitaly['configuration]` and the final `}` character. Change the `format` property to `format: text`. Remove the comma following the `format` line. The end result will look similar to below:
+
+```bash
+gitaly['configuration'] = {
+...
+#   logging: {
+#     dir: "/var/log/gitlab/gitaly",
+#     level: 'warn',
+      format: 'text'
+#     sentry_dsn: 'https://<key>:<secret>@sentry.io/<project>',
+#     sentry_environment: 'production',
+},
+```
 
 5. Reconfigure to apply the change.
 
