@@ -18,7 +18,7 @@ There are some variables at play here. For instance, in cases where you simply w
 
 - **High Confidence/Verified**: JTBD Canvas has been verified through Job Performer interviews. 
 - **Med Confidence/Somehwat Assumptive**: Assumptive JTBD Canvas, created based on existing, high level of knowledge of your domain area.
-- **Low Confidence/Assumptive**: Assuptive JTBD Canvas, created based on a low level of knowledge of your domain area.
+- **Low Confidence/Assumptive**: Assumptive JTBD Canvas, created based on knowledge of domain area without user research.
 
 With that in mind, the process as defined here will begin with a partial assumptive canvas the way that Jim Kalbach works when leading workhops on the JTBD process.
 
