@@ -39,7 +39,7 @@ Our team leads the GitLab's digital marketing platform, or simply the “Marketi
 **We own the following repositories:** 
 - [Buyer Experience](https://gitlab.com/gitlab-com/marketing/digital-experience)
 - [GitLab Blog](https://gitlab.com/gitlab-com/marketing/digital-experience/gitlab-blog)
-- [Navigation](Navigation)
+- [Navigation](https://gitlab.com/gitlab-com/marketing/digital-experience/navigation)
 - [Slippers Design System](https://gitlab.com/gitlab-com/marketing/digital-experience/slippers-ui) 
 
 **Our team strengths & core capabilities:** 
