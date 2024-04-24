@@ -25,22 +25,28 @@ GitLab Duo extends beyond just code generation. GitLab Duo can support you throu
 
 1. Press enter and note the small Tanuki icon that appears in the code margin. Wait until code appears. Once you see code, press Tab.
 
+1. Call your new function in the `main()` function as part of the new `myFigure` object.
+
 1. After doing this, your code should look similar to this:
 
 ```
 package main
 
-import "fmt"
+import (
+    "github.com/common-nighthawk/go-figure"
+)
 
-// write a function called random_gitlab that pulls a random word from a list and returns it as a string.
+// write a function called random_gitlab that pulls a random word from a list and returns it as a string
+
+var words = []string{"gitlab", "repository", "commit", "branch", "merge", "issue", "pipeline"}
 
 func random_gitlab() string {
-  words := []string{"hello", "world", "random", "gitlab"}
-  return words[rand.Intn(len(words))] 
+    return words[rand.Intn(len(words))]
 }
 
 func main() {
-  fmt.Println("hello world") 
+    myFigure := figure.NewFigure(random_gitlab(), "", true)
+    myFigure.Print()
 }
 ```
 
@@ -53,18 +59,22 @@ func main() {
 ```
 package main
 
-import "fmt"
-import "math/rand"
+import (
+    "github.com/common-nighthawk/go-figure"
+	"math/rand"
+)
 
-// write a function called random_gitlab that pulls a random word from a list and returns it as a string.
+// write a function called random_gitlab that pulls a random word from a list and returns it as a string
+
+var words = []string{"gitlab", "repository", "commit", "branch", "merge", "issue", "pipeline"}
 
 func random_gitlab() string {
-  words := []string{"hello", "world", "random", "gitlab"}
-  return words[rand.Intn(len(words))] 
+    return words[rand.Intn(len(words))]
 }
 
 func main() {
-  fmt.Println("hello world") 
+    myFigure := figure.NewFigure(random_gitlab(), "", true)
+    myFigure.Print()
 }
 ```
 
@@ -108,6 +118,14 @@ func TestRandomGitlab(t *testing.T) {
 
 1. To add the tests to your project, create a new file named `gitlabrandom_test.go`.
 
+1. At the top of the file include the following:
+
+```go
+package main
+
+import "testing"
+```
+
 1. Paste the generated tests.
 
 1. Select Source Control, then select **Commit to main**
@@ -144,6 +162,7 @@ test:
     - go get github.com/common-nighthawk/go-figure
     - go test ./...
 ```
+You should now have a pipeline that passed the tests. If a job failed, feel free to use Root Cause Analysis to troubleshoot any errors.
 
 ## Lab Guide Complete
 
