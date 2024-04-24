@@ -149,7 +149,7 @@ Job Policy patterns allow the pipeline to control when and if jobs run using the
 
 ### Task B1: Running the `deploy review` Job:
 
-1. Review the rules specified in the deploy review's `rules` section. It will only run when A) The branch name (represented by `$COMMIT_REF_NAME`) is not equal to `main`, and B) there is no tag on the branch (represented by `$COMMIT_REF_TAG`). 
+1. Review the rules specified in the deploy review's `rules` section. It will only run when A) The branch name (represented by `$CI_COMMIT_REF_NAME`) is not equal to `main`, and B) there is no tag on the branch (represented by `$CI_COMMIT_TAG`). 
 
     > Note: a variable used with an if keyword on its own is checking if said variable has any value associated with it. If it has any value, regardless of what that value is, the statement is true. This includes values that would be considered false in other programming languages, such as `False`. If there is no value, the statement is false. A variable with whitespace as its value is considered false as well.
 
@@ -171,7 +171,7 @@ Your `deploy review` job should be the only job that should be running.
 
 ### Task B2: Running the `deploy release` Job
 
-1. Open your .gitlab-ci.yml file and review the rules specified in the deploy release rules section. It will only run when A) The branch name (represented by $COMMIT_REF_NAME) is not equal to main, and B) there is a tag on the branch (represented by $COMMIT_REF_TAG)
+1. Open your .gitlab-ci.yml file and review the rules specified in the deploy release rules section. It will only run when A) The branch name (represented by `$CI_COMMIT_REF_NAME`) is not equal to main, and B) there is a tag on the branch (represented by `$CI_COMMIT_TAG`)
 
 1. We will need to make a tag for this job to run. To make a tag, click on **Code > Tags.**
 
@@ -197,7 +197,7 @@ Your `deploy review` job should be the only job that should be running.
 
 ### Task B3: Running the `deploy staging` job
 
-1. Open your `.gitlab-ci.yml` file and review the rules specified in the deploy release `rules` section. It will only run when A) The branch name (represented by `$COMMIT_REF_NAME`) is equal to `main`.
+1. Open your `.gitlab-ci.yml` file and review the rules specified in the deploy release `rules` section. It will only run when A) The branch name (represented by `$CI_COMMIT_REF_NAME`) is equal to `main`.
 
 1. In the top left corner, click on the button that says **Dev**, and set the option to be **main** instead.
 
