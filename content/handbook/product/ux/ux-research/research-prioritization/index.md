@@ -51,7 +51,7 @@ The UX Researcher and Product Manager will use the [Research Priority Calculator
 1. UX Researcher: Make a copy of the calculator template and create line items for each research project identified in the quarterly planning issue and include any projects from the previous quarter that still require work.
 1. UX Researcher or Product Managers: Fill in the values for each of the columns in the calculator to get a sense of the scores for the projects.
 1. UX Researcher + Product Managers/Group Product Managers/Section Product Managers: Discuss the recommendations given by the calculator and adjust column selections, as needed (for example: if there is a new/interim Product Manager or Product Designer, Bronze projects may be listed as Silver projects to help them onboard and we prioritize the project slightly higher based on the Skill Development criteria). Consider the timeframe in which the research needs to be delivered. While this is not a criteria in the calculator, it should be considered in the final prioritization. It can be helpful to have this discussion with the Product Director instead of Group Product Managers if a UX Researcher covers stages with different Group Product Managers.
-
+1. UX Researcher: Determine the appropriate cutoff for work that can or cannot be completed during the quarter. Communicate which projects **will not be prioritized** this quarter to the affected stakeholders within the research planning issue.
 For more details on the calculator, see [about the research priority calculator](/handbook/product/ux/ux-research/research-prioritization/#about-the-research-priority-calculator).
 
 
