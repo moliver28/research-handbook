@@ -3,8 +3,7 @@ title: "Team Member Relations at GitLab"
 description: "The Team Member Relations team at GitLab ensures that team members feel safe and have a point of contact for all confidential discussions."
 ---
 
-## Team Member Relations 
-
+## Team Member Relations
 The Team Member Relations team is responsible for facilitiating and resolving all people matter related team member issues. They will also assist in creating and informing team members of policies that are fair and consistent for all GitLab team members. As part of the People group the Team Member Relations team works with both the manager and team member in an intermediary function to understand and help resolve workplace issues. The Team Member Relations team can also help coach and advise managers and team members on policies and processes.
 
 Team member relation issues can range from simple coaching questions to serious code of conduct violations. We classify these different level of team member cases by tiers. Example of issues/cases by tier level:
@@ -59,7 +58,7 @@ For urgent requests that need immediate attention please ask for urgent assistan
 
 An urgent request would be something that needs immediate attention like team members safety or a code of conduct violation.
 
-## Raising Communication Concerns 
+## Raising Communication Concerns
 
 1. We ask all GitLab team members to follow our [Effective & Responsible Communication Guidelines] (https://handbook.gitlab.com/handbook/communication/#effective--responsible-communication-guidelines). 
    - These guidelines highlight the expectation that everyone assumes positive intent, exercises kindness, and expresses your thoughts responsibly and inclusively. 
