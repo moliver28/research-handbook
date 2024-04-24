@@ -120,7 +120,7 @@ sudo grep -n '_format' /etc/gitlab/gitlab.rb
 
 2. Run `sudo gitlab-ctl tail gitaly/current` to see the current JSON output for Gitaly logging.
 
-3. Change Gitaly's log format from JSON to text formatting. In your preferred text editor, locate the line `gitaly['configuration]`. Inside this configuraion object, you will see a logging configuration similar to below:
+3. Change Gitaly's log format from JSON to text formatting. In your preferred text editor, locate the line `gitaly['configuration]`. Inside this configuration object, you will see a logging configuration similar to below:
 
 ```bash
 # gitaly['configuration'] = {
