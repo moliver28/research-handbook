@@ -51,8 +51,28 @@ This [SQS 2023 Agenda sheet](https://docs.google.com/spreadsheets/d/1f64fZCKbrz7
 | Apr 26, 2024 | 12:00p ET | 12:50p ET | Mock Discovery Call 2 (AMER) | 
 
 
+### SQS 39 - June 2024
 
+- Workshop times quoted are United States Eastern Daylight Time (Atlanta, Georgia) (UTC -4)
 
+| DATE | START TIME | END TIME | ACTIVITY | SME ASSIGNED |
+|------|------------|----------|----------|--------------|
+| May 15, 2024 | 10:30a ET | 11:20a ET | Welcome Call | Field Enablement Team |
+| Jun 3, 2024 | 10:30a ET | 11:50a ET | Command of the Message: Essential Questions Exercise | Field Enablement Team |
+| Jun 4, 2024 | 10:30a ET | 11:50a ET | Command of the Message: Value Card Exercise | Field Enablement Team |
+| Jun 5, 2024 | 10:30a ET | 11:50a ET | Command of the Message: Discovery Question Exercise | Field Enablement Team |
+| Jun 6, 2024 | 10:30a ET | 11:50a ET | Command of the Message: Differentiator Exercise | Field Enablement Team  |
+| Jun 7, 2024 | 10:30a ET | 11:50a ET | Command of the Message: MEDDPPICC & Breakout Call Prep | Field Enablement Team |
+| Jun 10, 2024 | 10:30a ET | 10:55a ET | Operational Excellence: Into to Gitlab Field Security | Field Security Team |
+| Jun 10, 2024 | 11:00a ET | 11:50a ET | Solution Focus: Intro to Competition | Marketing Team |
+| Jun 11, 2024 | 10:30a ET | 10:55a ET | Operational Excellence: Intro to GitLab Legal | Legal Team  |
+| Jun 11, 2024 | 11:00a ET | 11:50a ET | Discussion: Professional Services | Professional Services Team |
+| Jun 12, 2024 | 10:30a ET | 11:20a ET | Customer Focus: Customer Success Management Overview | CS Team  |
+| Jun 13, 2024 | 10:30a ET | 10:55a ET | Intro to Sales Ops + Deal Desk |  RSOE Team  |
+| Jun 13, 2024 | 11:00a ET | 11:50a ET | Operational Excellence: Working with Sales Dev | Makerting Enablement |
+| Jun 17, 2024 | 10:30a ET | 11:50a ET | Intro to Partner Sales | Partner Team |
+| Jun 18, 2024 | 10:00a ET | 10:50a ET | Mock Discovery Call 1 (EMEA) | Mock Customers |
+| Jun 19, 2024 | 12:00p ET | 12:50p ET | Mock Discovery Call 2 (AMER) | Mock Customers |
 
 
 
