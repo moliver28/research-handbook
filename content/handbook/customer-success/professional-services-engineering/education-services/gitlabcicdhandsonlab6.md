@@ -59,7 +59,7 @@ Job Policy patterns allow the pipeline to control when and if jobs run using the
       script:
         - echo "Deploy to a production environment"
       rules:
-        - if: '$CI_COMMIT_TAG' =~ /^v.*/
+        - if: $CI_COMMIT_TAG =~ /^v.*/
           when: manual
       environment:
         name: production
