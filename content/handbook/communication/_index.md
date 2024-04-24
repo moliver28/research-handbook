@@ -29,7 +29,9 @@ Embracing asynchronous communication and learning to use it effectively requires
 
 ### Everyone is a moderator
 
-If you see something that concerns you in Slack, Issues, Merge Requests, Video, Emails or any other forum, we encourage you to respectfully say something directly to the individual in a 1:1 format. If you are not comfortable reaching out to the individual directly, please reach out to your direct manager or People Business Partner to discuss.
+If you see something that concerns you in Slack, Issues, Merge Requests, Video, Emails or any other forum, we encourage you to respectfully say something directly to the individual in a 1:1 format. 
+
+If there is an issue to raise regarding someone’s communication or conduct, team members should follow the process for [raising communication concerns](/handbook/people-group/team-member-relations/#raising-communication-concerns) by sharing their concern with their manager or, if preferred, email Team Member Relations (teammemberrelations@gitlab.com) directly. 
 
 ### Asynchronous communication
 
