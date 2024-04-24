@@ -54,7 +54,7 @@ The Frontend Engineer (Intermediate) is a [grade 6](/handbook/total-rewards/comp
 
 ### Senior Frontend Engineer
 
-The Senior Frontend Engineer reports to the Engineering Manager, Digital Experience. 
+The Senior Frontend Engineer reports to the Engineering Manager, Digital Experience.
 
 #### Senior Frontend Engineer Job Grade
 
@@ -64,10 +64,9 @@ The Senior Frontend Engineer is a [grade 7](/handbook/total-rewards/compensation
 
 - Code and implement high quality technical and engineering work for complex web projects, including troubleshooting and problem solving, communicating with stakeholders and team members, reporting on outcomes.
 - Lead and scope major cross-functional projects; including defining business needs, navigating sometimes conflicting priorities to deliver the best business outcomes and making recommendations on the best course of action.
-- Initiate longer-term initiatives that will impact the efficiency of the team, the quality of output and reducing technical debt, including introducing new processes and solutions. 
+- Initiate longer-term initiatives that will impact the efficiency of the team, the quality of output and reducing technical debt, including introducing new processes and solutions.
 - Mentor more junior teammates on engineering and web development best practices, complex problem solving and modeling stakeholder engagement.
 - Provide technical and functional knowledge representing Digital Experience and web development as a subject-matter expert with stakeholders across organizations.
-
 
 ### Senior Frontend Engineer Requirements
 
@@ -75,25 +74,23 @@ The Senior Frontend Engineer is a [grade 7](/handbook/total-rewards/compensation
 - Advanced technical expertise and proficiency in web development and related web technologies, including HTML, CSS, and JavaScript
 - Demonstrated capacity to clearly and concisely communicate about technical, architectural, and/or organizational problems and propose solutions
 - Demonstrated ability to solve performance and optimization problems and an orientation to improvement and iteration; modeling a service-focused, solution-oriented mindset
-- Proficiency working in a highly agile, intensely iterative software development process
+- Proficiency working in a highly agile, [intensely iterative](https://handbook.gitlab.com/handbook/values/#iteration) software development process
 
 ### Staff Frontend Engineer
 
-The Staff Frontend Engineer reports to the Engineering Manager, Digital Experience. 
+The Staff Frontend Engineer reports to the Engineering Manager, Digital Experience.
 
 #### Staff Frontend Engineer Job Grade
 
-The Senior Frontend Engineer is a [grade 8](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+The Staff Frontend Engineer is a [grade 8](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
 ### Staff Frontend Engineer Responsibilities
 
 - Code and implement high quality technical and engineering work for complex web projects, including troubleshooting and problem solving, communicating with stakeholders and team members, reporting on outcomes.
 - Lead and scope major cross-functional projects; including defining business needs, navigating sometimes conflicting priorities to deliver the best business outcomes and making recommendations on the best course of action.
-- Initiate longer-term initiatives that will impact the efficiency of the team, the quality of output and reducing technical debt, architectural initiatives and including introducing new processes and solutions. 
+- Initiate longer-term initiatives that will impact the efficiency of the team, the quality of output and reducing technical debt, architectural initiatives and including introducing new processes and solutions.
 - Mentor more junior teammates on engineering and web development best practices, documentation, complex problem solving and modeling stakeholder engagement.
 - Provide technical and functional knowledge representing Digital Experience and web development as a subject-matter expert with stakeholders across organizations.
-
-
 
 ### Staff Frontend Engineer Requirements
 
@@ -116,27 +113,23 @@ The Manager, Engineering is a [grade 8](/handbook/total-rewards/compensation/com
 
 #### Manager, Engineering Responsibilities
 
-- Seek to build out a great team
-- Make your team happy and successful
-- Improve processes to make your team more effective
-- Hold regular 1:1's with all members of your team
-- Plan and execute long term strategies that benefit the team and the Marketing Site
-- Conduct code reviews, and make technical contributions to Marketing Site architecture
-- Get involved in solving bugs and delivering small features
-- Foster technical decision making on the team, and make final decisions when necessary
-- Discern engineering metrics and seek to improve them
+- Lead a high-performing team of engineers to implement and bring GitLab’s web strategy to life through quality, on-time coding and development
+- Code and implement high quality technical and engineering work for complex web projects, including troubleshooting and problem solving, communicating with stakeholders and team members, reporting on outcomes.
+- Lead and scope major cross-functional projects; including defining business needs, navigating sometimes conflicting priorities to deliver the best business outcomes and making recommendations on the best course of action.
+- Initiate longer-term initiatives that will impact the efficiency of the team, the quality of output and reducing technical debt, - including introducing new processes and solutions. 
+- Coach team on engineering and web development best practices, complex problem solving and modeling stakeholder engagement.
+- Provide technical and functional knowledge representing Digital Experience and web development as a subject-matter expert with stakeholders across organizations.
+
 
 #### Manager, Engineering Requirements
 
-- Collaborate effectively with others
-- Ability to achieve consensus amongst stakeholders
-- 5 years or more experience related to the responsibilities listed above.
-- 2 years or more experience in a leadership role with current technical experience
-- You have an expert comprehension of core web and browser concepts (eg. how does JavaScript handle asynchronous code)
-- You have in-depth experience with CSS, HTML, JavaScript, and Modern Web Development
-- You have excellent written and verbal communication skills
-- Our [values](/handbook/values/) of collaboration, results, efficiency, diversity, iteration, and transparency resonate with you
-- Ability to use GitLab
+- 10+ years in a web development/ engineering role in a B2B or enterprise software marketing organization; 5+ years experience managing a team of engineers
+- Advanced technical expertise and proficiency in web development and related web technologies, including HTML, CSS, and JavaScript
+- Experience leading cross-functional initiatives and partnering with stakeholders outside of Engineering, including Marketing, Product and leadership teams
+- Demonstrated capacity to clearly and concisely communicate about complex technical, architectural, and/or organizational problems and propose solutions
+- Demonstrated ability to coach and lead a team of direct reports, including hiring, development and growth  and driving a culture of high performance
+- Experience with diagnosing and solving  performance and optimization problems and an orientation to improvement and iteration; modeling a service-focused, solution-oriented mindset
+- Experience lading team to work  in a highly agile, [intensely iterative](https://handbook.gitlab.com/handbook/values/#iteration0) software development process
 
 ## Nice-to-haves
 
@@ -149,10 +142,9 @@ The Manager, Engineering is a [grade 8](/handbook/total-rewards/compensation/com
 
 - Project planning accuracy, project (on-time) delivery, cycle times
 - Lead time on changes
-- Velocity 
+- Velocity
 - Quality and reliability, # of incidents
 - Time to recover (bugs, errors, code fails)
-
 
 ## Career Ladder
 
