@@ -446,6 +446,57 @@ The Year over Year change was <AGG(Sales YoY)><ATTR(QoQ Label)><AGG(Sales QoQ)><
 
 The output of this tooltip would look like this: ![](images/image-13.png)![](images/image-14.png)
 
+## Connection Types in Workbooks
+When you are publishing a workbook or data source, there are a few Authentication options. The default options will allow you to publish your work, but you will soon be getting:
+1. Messages from users that the OAuth token has expired and they are unable to access a workbook
+1. If you schedule an extract, you will get emails that the extract has failed.
+
+The way to make sure users can always access the data within a workbook, is to choose the non-default authentication option.
+
+<details markdown=1>
+
+<summary><b> In Desktop </b></summary>
+
+**Publishing a Data Source From Desktop**
+
+If you are publishing a data source from Desktop to the Cloud/Online to be a Tableau Published Data Source, you will get the following window:
+
+![](images/data-window.png)
+
+Select the "Edit" button under "Authentication". It will bring you to the following pop-up. Choose your <rolename> to embed.
+
+![](images/authentication.png)
+
+
+**Publishing a Workbook With a Local Connection**
+
+A workbook with a local connection is one whose data source is living inside of the workbook, and is not a separately published Tableau Data Source which you can search Tableau Online for. When you try to publish a workbook with a local connection, you will see the following window:
+
+![](images/window-local.png)
+
+Select "Edit" under "Data Sources" and find "Authentication". Choose to embed your <rolename>.
+
+![](images/auth-local.png)
+
+</details>
+
+<details markdown=1>
+
+<summary><b> In Cloud/Online </b></summary>
+
+**Publishing in Cloud/Online**
+
+If you are editing a data source in Cloud/ Tableau Online/ your web browser (all the same thing), in order to make sure your credentials are embedded, find "Publish As":
+
+![](images/publish-as.png)
+
+In the following window, be sure to check the box for 'Embed Credentials'.
+
+![](images/cloud-embed.png)
+
+</details>
+
+
 ## Embedding in the Handbook
 
 In order for views from workbooks to be embedded and viewable in the handbook, public or internal, the workbook and their data sources must be prepared in a specific way. To be embedded in the public handbook the workbook and relevant datasource must be copied from the [internal GitLab Tableau](https://10az.online.tableau.com/#/site/gitlab) site to the [public GitLab Tableau](https://us-west-2b.online.tableau.com/#/site/gitlabpublic) site. To facilitate correct viewing of embedded views and the synchronization of content to the public site, workbooks must be set up in a specific way and given a specific tag.  Views that are meant to be embedded on the internal site do not need to be in a specific project, but should still meet the set up guidelines.
