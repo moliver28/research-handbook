@@ -62,7 +62,7 @@ The Risk Management and Dispute Resolution team addresses dispute resolution acr
 - [Anti-Fraud Policy](/handbook/legal/anti-fraud-policy/)
 - [Anti-Harassment Policy](/handbook/anti-harassment/)
 - [Anti-Retaliation Policy](/handbook/legal/anti-retaliation-policy/)
-- [Code of Business Conduct and Ethics](https://ir.gitlab.com/static-files/7d8c7eb3-cb17-4d68-a607-1b7a1fa1c95d)
+- [Code of Business Conduct and Ethics](handbook/legal/policies/GitLab_-_Code_of_Business_Conduct___Ethics.pdf)
 - [Corporate Communication Policy](/handbook/legal/corporate-communications/)
 - [Employee Privacy Policy](/handbook/legal/privacy/employee-privacy-policy/)
 - [GitLab Terms of Service](https://about.gitlab.com/terms/)
