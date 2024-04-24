@@ -20,6 +20,7 @@ title: "GitLab tiers"
 1. License: open source vs. source-available, for example moving a feature from a source-available tier to an open-source tier.
 1. [Distribution](#history-of-ce-and-ee-distributions): self-managed CE vs. EE, for example you can have a EE distribution but in the Free tier.
 1. Version: the [release of GitLab](https://about.gitlab.com/releases/), for example asking what version a user is on.
+1. [Product Category](https://internal.gitlab.com/handbook/sales/deal-desk/product_category/_productcategory/): An internal field that identifies the primary product sold on an opportunity. 
 
 ## Types of Users
 
