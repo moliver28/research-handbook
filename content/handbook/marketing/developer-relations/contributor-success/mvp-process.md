@@ -6,7 +6,7 @@ description: Process for Contributor Success to select GitLab MVPs
 
 ## GitLab MVP
 
-Each month GitLab recognizes one or more community contributors as GitLab MVPs ("Most Valuable Persons") to be featured in the GitLab release post. Beginning with the 15.9 release, the Contributor Success team took over the nomination and selection process for GitLab MVPs. Starting in 17.0, the team introduced a rolling nomination process so that contributors could be nominated and supported at any time. The GitLab MVPs are recognized within the GitLab release post and across Slack and Discord. MVPs also receive an achievement badge for their profile and a GitLab swag pack or tree planting option in celebration of their contribution.
+Each month GitLab recognizes one or more community contributors as GitLab MVPs ("Most Valuable Persons") to be featured in the GitLab release post. Nominations are a rolling process so that contributors can be nominated and supported at anytime. The GitLab MVPs are recognized within the GitLab release post and across Slack and Discord. MVPs also receive an achievement badge for their profile and a GitLab swag pack or tree planting option in celebration of their contribution.
 
 - Hall of fame list of [GitLab MVPs](https://about.gitlab.com/community/mvp/)
 - [Release posts](https://about.gitlab.com/releases/categories/releases/) on GitLab blog
