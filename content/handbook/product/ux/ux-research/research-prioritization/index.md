@@ -83,7 +83,7 @@ The [Research Priority Calculator](https://docs.google.com/spreadsheets/d/1sE-Ei
 | Issue     | Link to research issue | N/A |
 | Type     | The type of research the project falls into: foundational, problem validation, solution validation. | Foundational = 3 <br> Problem Validation = 2 <br> Solution Validation = 1 |
 |  Ownership| Can this research be supported someone other than a UX Researcher? | Yes = 3 <br> Somewhat = 2 <br> No = 1|
-| Design Support | Is this project being requested by a Product team with Product Design support? | Not applicable for this research (study created/led by UXR) = 3 <br> Requesting Product team has Product Designers = 2 <br> Requesting Product team does not have Product Designers = 1 |
+| Design Support | Is this project being requested by a Product team with Product Design support? | Not applicable for this research (study created/led by UX Research) = 3 <br> Requesting Product team has Product Designers = 2 <br> Requesting Product team does not have Product Designers = 1 |
 | Complexity | Does this project involve multiple studies or methodologies?   | Yes = 2<br> No = 1<br> I don’t know = 0|
 | Skill Development | Will this support skill development for the team or refine a process if a UX Researcher is involved?   | Yes = 3<br> Somewhat = 2 <br> No = 1|
 | Confidence | What level of confidence or knowledge do you have in the proposed solution or area of focus?  | High = 3 <br> Medium = 2<br> Low = 1|
