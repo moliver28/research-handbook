@@ -513,7 +513,6 @@ The process for creating and sending an agreement is as follows:
 1. Click *Upload* to place new hire’s statement of work in this folder
 1. Inform the Global Upside team (gitlabHR@globalpeoservices.com) of any new hires by sending email template *Email to Global Upside* under “Email the Team” in Greenhouse to let them know that a new SOW was uploaded into Egnyte and the employee’s name.
 1. The Candidate Experience Specialist should add the candidate to the [PEO Tracking Sheet](https://docs.google.com/spreadsheets/d/1gSOVTJ1Yv-YsSaliJwKVf-1H0vBZXxb5NWFiqCwT-uo/edit#gid=0) and keep track of communication between GitLab.
-1. For candidates from Costa Rica, you will be asked to provide a translation of the job description in Spanish. In this case, you should reach out to the appropriate person in the [Localization](/handbook/marketing/localization/) page.
 1. Once Global Upside has drafted up the contract, they will place it in Egnyte and email the CES to review and approve.
     -CES should double-check that the contract reflects all the correct information that we sent to them.
 1. Once the contract is signed by the new hire, Global Upside will notify the CES.
