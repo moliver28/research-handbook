@@ -5,7 +5,7 @@ title: "Audit Committee"
 ## Audit Committee Composition
 
 - **Chairperson:** Karen Blasing
-- **Members:** Sunny Bedi, Mark Porter
+- **Members:** Sunny Bedi
 - **Management DRI:** Chief Financial Officer
 
 ## Audit Committee Charter
