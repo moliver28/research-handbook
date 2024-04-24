@@ -113,7 +113,7 @@ Therefore, to predict where your tests might be, first you need to know which sc
 specifically exclude with
 [:except](https://docs.gitlab.com/ee/development/testing_guide/end_to_end/rspec_metadata_tests.html) metadata.
 
-**Note:** Some tests that are tagged with `:smoke` or `:reliable` metadata are already automatically run in
+**Note:** Some tests that are tagged with `:smoke` metadata are already automatically run in
 review-app pipeline - that is automatically triggered under `review` stage of your MR pipeline -
 [Example review-app downstream pipeline](https://gitlab.com/gitlab-org/gitlab/-/pipelines/767219112).
 These tests are considered blocking if they fail.
