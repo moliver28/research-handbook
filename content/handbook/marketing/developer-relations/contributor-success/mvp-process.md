@@ -66,7 +66,7 @@ is used for the entire major release cycle (for example 17.0 through 17.11). Com
 ### MVP Eligibility
 
 - The Contributor Success team will make the final choice on the GitLab MVP(s).
-- The team will consider one or more MVPs as appropriate.
+- The Contributor Success team will consider one or more MVPs as appropriate.
 - A contributor is eligible to be MVP once per major release cycle. For example, if they are MVP during any 17.* milestone, they cannot be an MVP again until the 18.0 milestone.
 - A quick way to check past MVPs is to view [`/data/mvps.yaml`.](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/mvps.yml).
 - Contributors may be nominated whether they have contributed to the current release cycle or not. Contributors are recognized for previous and ongoing contributions to GitLab.
