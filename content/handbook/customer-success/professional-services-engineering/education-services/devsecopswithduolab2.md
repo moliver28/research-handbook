@@ -17,7 +17,7 @@ To get started with GitLab Duo, we will test out some of the basic code generati
 
 1. Select Edit > Web IDE
 
-1. In the Web IDE, locate the GitLab Duo icon. This icon will be the last item in the left side bar, showing the GitLab icon.
+1. In the Web IDE, locate the GitLab Duo Chat icon. This icon will be the last item in the left side bar, showing the GitLab icon.
 
 1. In the chat text input, enter the text `how do I create a hello world go program?`
 
@@ -93,6 +93,8 @@ build app:
 
 ```
 This `.gitlab-ci.yml` file has one stage `build` with a job `build app` that runs as part of the stage. This job runs our main.go app. You can view the ouptut of the job to view the executed code. 
+
+Again, feel free to highlight the yaml and use `/explain` in GitLab Duo chat to explain the CI pipeline! 
 ## Lab Guide Complete
 
 You have completed this lab exercise. You can view the other [lab guides for this course](/handbook/customer-success/professional-services-engineering/education-services/devsecopswithduo).
