@@ -63,9 +63,9 @@ An urgent request would be something that needs immediate attention like team me
 
 1. We ask all GitLab team members to follow our [Effective & Responsible Communication Guidelines](/handbook/communication/#effective--responsible-communication-guidelines).
    - These guidelines highlight the expectation that everyone assumes positive intent, exercises kindness, and expresses your thoughts responsibly and inclusively.
-1. If there is an issue to raise regarding someone’s communication or conduct, team member’s should raise their concern with their manager or, if preferred, email Team Member Relations (teammemberrelations@gitlab.com) directly.
-1. Managers can email Team Member Relations (teammemberrelations@gitlab.com) to express concerns with a team member’s communication if they believe intervention is needed.
-   - If a team member is in violation of the effective & responsible communication guidelines, disciplinary action could be taken.
+2. If there is an issue to raise regarding someone’s communication or conduct, team member’s should raise their concern with their manager or, if preferred, email Team Member Relations (teammemberrelations@gitlab.com) directly.
+3. Managers can email Team Member Relations (teammemberrelations@gitlab.com) to express concerns with a team member’s communication if they believe intervention is needed.
+   - If a team member is in violation of the effective & responsible communication guidelines, the Team Member Relations team will reach out to the manager and disciplinary action could be taken.
 
 ## Team Member Relations Philosophy
 
