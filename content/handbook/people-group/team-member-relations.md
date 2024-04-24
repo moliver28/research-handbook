@@ -4,6 +4,7 @@ description: "The Team Member Relations team at GitLab ensures that team members
 ---
 
 ## Team Member Relations
+
 The Team Member Relations team is responsible for facilitiating and resolving all people matter related team member issues. They will also assist in creating and informing team members of policies that are fair and consistent for all GitLab team members. As part of the People group the Team Member Relations team works with both the manager and team member in an intermediary function to understand and help resolve workplace issues. The Team Member Relations team can also help coach and advise managers and team members on policies and processes.
 
 Team member relation issues can range from simple coaching questions to serious code of conduct violations. We classify these different level of team member cases by tiers. Example of issues/cases by tier level:
@@ -49,7 +50,7 @@ The Team Member Relations team will reach out within 24 hours from when the requ
 
 GitLab also offers a [Harassment Complaint Form](https://docs.google.com/document/d/1Xk5SXvh2kpO-w-TdykiczjhXNrEBjbMwDQHEt6lMhIk/edit?usp=sharing) that any team member may use to document any instance of any type of workplace harassment. Simply copy the form, fill it out with your information and send it to our Team Member Relations Specialist at `teammemberrelations@gitlab.com`.
 
-Team members and the TMR should both respond to questions or queries via slack or email within 24 hours to continue making progress on the issue and get to a timely resolution. 
+Team members and the TMR should both respond to questions or queries via slack or email within 24 hours to continue making progress on the issue and get to a timely resolution.
 
 For urgent requests that need immediate attention please ask for urgent assistance by sending a message marked URGENT to `teammemberrelations@gitlab.com` and in the #people-connect Slack channel. If you do not receive support in a timely manner, below is the escalation path:
 
@@ -60,11 +61,11 @@ An urgent request would be something that needs immediate attention like team me
 
 ## Raising Communication Concerns
 
-1. We ask all GitLab team members to follow our [Effective & Responsible Communication Guidelines] (https://handbook.gitlab.com/handbook/communication/#effective--responsible-communication-guidelines). 
-   - These guidelines highlight the expectation that everyone assumes positive intent, exercises kindness, and expresses your thoughts responsibly and inclusively. 
-2. If there is an issue to raise regarding someone’s communication or conduct, team member’s should raise their concern with their manager or, if preferred, email Team Member Relations (teammemberrelations@gitlab.com) directly.
-3. Managers can email Team Member Relations (teammemberrelations@gitlab.com) to express concerns with a team member’s communication if they believe intervention is needed. 
-4. If a team member is in violation of the effective & responsible communication guidelines, disciplinary action could be taken.
+1. We ask all GitLab team members to follow our [Effective & Responsible Communication Guidelines](/handbook/communication/#effective--responsible-communication-guidelines).
+   - These guidelines highlight the expectation that everyone assumes positive intent, exercises kindness, and expresses your thoughts responsibly and inclusively.
+1. If there is an issue to raise regarding someone’s communication or conduct, team member’s should raise their concern with their manager or, if preferred, email Team Member Relations (teammemberrelations@gitlab.com) directly.
+1. Managers can email Team Member Relations (teammemberrelations@gitlab.com) to express concerns with a team member’s communication if they believe intervention is needed.
+   - If a team member is in violation of the effective & responsible communication guidelines, disciplinary action could be taken.
 
 ## Team Member Relations Philosophy
 
