@@ -20,7 +20,7 @@ You can watch a [short demo of this process](https://youtu.be/6Wb1f-c1_og) to se
 
 ### Project Ownership
 
-Each project has an owner who is responsible for delivering the project. 
+Each project has an owner who is responsible for delivering the project.
 
 The owner needs to:
 1. Update the status block in the epic description each week.
