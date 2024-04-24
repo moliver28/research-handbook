@@ -28,6 +28,22 @@ AMAs do not need to have a host, but there should be a person or people availabl
 
 Occasionally an AMA might be held for a smaller audience. It is encouraged for all AMAs to be open to the full company whenever possible. Occasionally an AMA may not make sense to be sent to the whole company. In those instances, it is still encouraged to add the calendar invitation to the GitLab Team Meetings Calendar as sometimes team members may want to join a call that may not be directly directly applicable to them. Whenever creating an AMA for a smaller group, be sure to invite the team directly in the calendar invite.
 
+### AMA Kick off (best practices when starting an AMA)
+
+This guidance is primarily for the person or people who will be answering questions at a given AMA.
+
+Using the first 1-2 minutes of an AMA to ensure the audience understands how the time will be used has shown to lead to more engaging AMAs. Follow these steps to set your AMA up for success:
+
+- The person or people responsible for answering questions should start by introducing themself and their role at GitLab.
+- The person responsible for answering questions should share a brief explanation about *why* this AMA is being hosted.
+    - If multiple people will be responding to questions, identify one person to introduce *why* this AMA is being hosted.
+- The person responsible for answering questions should explain how and where questions can be asked by the audience.
+    - For most AMAs, questions will be asked in an agenda doc, if this is the case please share that questions can also be asked in the Zoom chat if the agenda doc cannot be accessed.
+    - If sli.do or another platform is being used to ask questions, this should be noted.
+- If there is additional context the audience should be aware of to fully participate in the AMA or any documents that provide additional information that the audience should know about, it's a good practice to highlight these things up front.
+- After that, onto the first question!
+
+
 ### Agenda document recommendations
 
 A lot of team members attend AMAs which can lead to the agenda document becoming overloaded. Since this can mean that notes can't be taken for the discussion, it's recommended that team members add their questions to the document and then close the document unless they're actively taking notes.
