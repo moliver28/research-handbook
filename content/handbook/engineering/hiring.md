@@ -2,6 +2,16 @@
 title: Engineering Hiring
 ---
 
+## Overview
+
+Hiring is a cornerstone of success for our engineering organization, contributing to our growth and our ability to drive results for our customers. As such, it's not just a responsibility but fundamental to every engineer's contribution to GitLab. It should be deeply ingrained in every engineer's role at GitLab, regardless of their seniority. 
+
+By actively participating in recruitment efforts, engineers help shape their team culture, elevate technical standards, and ensure a continuous influx of diverse perspectives and skillsets. Contributing to hiring efforts allows GitLab to grow responsibly and affects our collective success within Engineering.
+
+Interviewing is a skill, and takes up a significant amount of time and effort to facilitate and improve upon. We should recognize and appreciate the efforts we take to contribute to scaling the engineering organization.
+
+For more context, please review [a recent Engineering All-Hands (internal)](https://drive.google.com/file/d/1OqjfT4MvUWXjtC6Ock1qBLNHV1E-9CXe/view) emphasizing the importance of contributing to hiring efforts within Engineering.
+
 ## Hiring Practices
 
 Please reference our [internal hiring repository](https://gitlab.com/gitlab-com/people-group/hiring-processes/-/tree/master/Engineering) for internal best practices and guidelines.
