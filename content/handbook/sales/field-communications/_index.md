@@ -12,7 +12,7 @@ description: "The Field Communications team is responsible for creating effectiv
 
 ## Welcome to the Field Communications Page
 
-This team is responsible for creating effective, timely, and easily consumable communications with the Field team (Sales, Customer Success, Channel, Alliances, Revenue Strategy, Operations & Enablement). Our goal is to help the field sell better, faster, and smarter with communication programs that keep them better informed of organizational/business updates that impact their roles, as well as useful resources that will enable day-to-day work.
+This team is responsible for creating effective, timely, and easily consumable communications with the Field team (Sales, Customer Success, Channel, Alliances, Revenue Strategy, Operations & Enablement). Our goal is to help the field sell test, faster, and smarter with communication programs that keep them better informed of organizational/business updates that impact their roles, as well as useful resources that will enable day-to-day work.
 
 For more information about the Field Enablement team, visit the [team handbook page.](/handbook/sales/field-operations/field-enablement/)
 
