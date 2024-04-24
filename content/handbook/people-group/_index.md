@@ -103,6 +103,7 @@ This table lists the aliases to use, when you are looking to reach a specific gr
 | [Candidate Experience Specialist](/job-families/people-group/candidate-experience) | @gitlab-com/gl-ces | ces@ gitlab.com | @ces | @ces* |  |
 | Talent Acquisition Operations and Insights | @gl-talent acquisitionops | talentacquisitionops@ gitlab.com | @talent-acquisition-ops | @talent-acquisitionops |  |
 | Sourcing | @gl-sourcingteam | n/a | @sourcingteam | n/a |  |
+| [People Analytics](/handbook/people-group/people-ops-tech-analytics/people-analytics/) | No alias, create issues for People Analytics [here](https://gitlab.com/gitlab-com/people-group/people-analytics/general/-/issues/?sort=updated_desc&state=opened&first_page_size=100) | n/a | @peopleanalyticstriage | n/a | [People Analytics Issue Board](https://gitlab.com/gitlab-com/people-group/people-analytics/general/-/boards/5251608) |
 
 ## People Group Program Calendar for Managers and Team Members
 
