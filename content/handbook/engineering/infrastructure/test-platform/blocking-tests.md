@@ -80,7 +80,7 @@ flowchart TD
     failure_issue_created[Failure issue created]
     test_session_report[Failure issue surfaces on\ntest session report and Slack]
     manual_triage_flow[Manual Triage Flow]
-    blocking_check{Failed test is blocking?}
+    blocking_check{Failed test\nis blocking?}
     nightly_or_master_check{Failure is\non master\nor nightly\npipeline?}
     surface_on_relaible_report[Failure issue surfaces\non reliable test report]
     one_percent_failure_check{Test failed\nin more than\n1% of runs?}
