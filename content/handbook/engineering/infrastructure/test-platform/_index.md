@@ -318,11 +318,11 @@ Please note that the borrow request might not guarantee 100% allocation to the r
 
 The list of all SET borrow requests can be seen [here](https://gitlab.com/gitlab-com/Product/-/issues/?label_name%5B%5D=SET%20Borrow).
 
-### Reliable tests
+### Blocking tests
 
-Reliable tests have met stricter reliability criteria than other tests in our test suite. When a failure is seen in a reliable test, it's less likely to be flakiness and more likely to be a true issue.
+Blocking tests have met stricter reliability criteria than other tests in our test suite. When a failure is seen in a blocking test, it's less likely to be flakiness and more likely to be a true issue.
 
-For more information, please visit our [reliable tests page](reliable-tests).
+For more information, please visit our [blocking tests page](blocking-tests).
 
 ### Risk mapping
 
