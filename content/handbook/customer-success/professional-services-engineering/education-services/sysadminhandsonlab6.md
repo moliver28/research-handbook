@@ -127,7 +127,18 @@ sudo sed -i '1234s/json/text/' /etc/gitlab/gitlab.rb
 sudo sed -i '1234s/#//' /etc/gitlab/gitlab.rb
 ```
 
-4. Re-run the `grep` command from Step 1 to verify the line was modified as intended. The line should now read `gitaly['logging_format'] = "text"`.
+4. Re-run the `grep` command from Step 1 to verify the line was modified as intended. The line should now read: 
+```bash
+# gitaly['configuration'] = {
+...
+#   logging: {
+#     dir: "/var/log/gitlab/gitaly",
+#     level: 'warn',
+#     format: 'json',
+#     sentry_dsn: 'https://<key>:<secret>@sentry.io/<project>',
+#     sentry_environment: 'production',
+#   },
+```
 
 5. Reconfigure to apply the change.
 
