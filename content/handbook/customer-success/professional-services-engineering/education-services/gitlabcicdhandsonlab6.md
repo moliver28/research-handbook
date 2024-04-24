@@ -48,11 +48,21 @@ Job Policy patterns allow the pipeline to control when and if jobs run using the
       rules:
         - if: '$CI_COMMIT_REF_NAME == "main"'
           when: never
-        - if: '$LOG_ENVIRONMENT'
+        - if: '$CI_COMMIT_TAG'
           when: never
         - when: always
       environment:
         name: review/$CI_COMMIT_REF_NAME
+
+    deploy release:
+      stage: deploy
+      script:
+        - echo "Deploy to a production environment"
+      rules:
+        - if: '$CI_COMMIT_TAG' =~ /^v.*/
+          when: manual
+      environment:
+        name: production
 
     deploy staging:
       stage: deploy
@@ -64,16 +74,6 @@ Job Policy patterns allow the pipeline to control when and if jobs run using the
         - when: never
       environment:
         name: staging
-
-    deploy release:
-      stage: deploy
-      script:
-        - echo "Deploy to a production environment"
-      rules:
-        - if: '$CI_COMMIT_REF_NAME != "main" && $LOG_ENVIRONMENT != null'
-          when: manual
-      environment:
-        name: production
     ```
 
 1. At the top of `.gitlab-ci.yml`, in the `stages` section, add the `review` and `deploy` stages.
@@ -104,11 +104,22 @@ Job Policy patterns allow the pipeline to control when and if jobs run using the
       rules:
         - if: '$CI_COMMIT_REF_NAME == "main"'
           when: never
-        - if: '$LOG_ENVIRONMENT'
+        - if: '$CI_COMMIT_TAG'
           when: never
         - when: always
       environment:
         name: review/$CI_COMMIT_REF_NAME
+
+    deploy release:
+      stage: deploy
+      script:
+        - echo "Deploy to a production environment"
+      rules:
+        - if: '$CI_COMMIT_TAG' =~ /^v.*/
+          when: manual
+      environment:
+        name: production
+
 
     deploy staging:
       stage: deploy
@@ -120,16 +131,6 @@ Job Policy patterns allow the pipeline to control when and if jobs run using the
         - when: never
       environment:
         name: staging
-
-    deploy release:
-      stage: deploy
-      script:
-        - echo "Deploy to a production environment"
-      rules:
-        - if: '$CI_COMMIT_REF_NAME != "main" && $LOG_ENVIRONMENT != null'
-          when: manual
-      environment:
-        name: production
     ```
 
 1. In the **Commit message** field, type `Add CI structure job definitions`, ensure the **Target Branch** is set to `main`, and click **Commit changes**.
@@ -170,27 +171,29 @@ Your `deploy review` job should be the only job that should be running.
 
 ### Task B2: Running the `deploy release` Job
 
-1. Open your `.gitlab-ci.yml` file and review the rules specified in the deploy release `rules` section. It will only run when A) The branch name (represented by `$COMMIT_REF_NAME`) is not equal to `main`, and B) the variable `$LOG_ENVIRONMENT` needs to be set. 
+1. Open your .gitlab-ci.yml file and review the rules specified in the deploy release rules section. It will only run when A) The branch name (represented by $COMMIT_REF_NAME) is not equal to main, and B) there is a tag on the branch (represented by $COMMIT_REF_TAG)
 
-1. We will need to make a variable for this job to run. In the left-hand navigation pane, click **Settings > CI/CD**
+1. We will need to make a tag for this job to run. To make a tag, click on **Code > Tags.**
 
-1. In the **Variables** section, click the **Expand** button.
+1. Click on the **New tag** button.
 
-1. Click **Add Variable**. Enter `LOG_ENVIRONMENT` in the **Key** dialog box. *Hint: watch your spelling, capitalization, and underscores!* 
+1. Type in `v1.0` into the Tag name section.
 
-1. Type `Specifies if we should send logs to our logging system.` in the **Value** dialog box.
+1. Change the **Create from** option to display Dev instead.
 
-1. Leave all other options at their defaults and click **Add variable**.  
+1. Click the **Create tag** button.
 
 1. Click on **Build > Pipelines**.
 
 1. Click on the **Run Pipeline** button.
 
-1. Under **Run for branch name or tag**, make sure **Dev** is selected.
+1. Under Run for branch name or tag, make sure **Dev** is selected.
 
 1. Click on the **Run Pipeline** button.
 
-1. Your `deploy release` job should be the only job available. Since the job has been set to `manual`, it will not run until you explicitly start it. Click on the arrow next to the job to start the job.
+1. Your deploy release job should be the only job available. Since the job has been set to manual, it will not run until you explicitly start it. Click on the arrow next to the job to start the job.
+
+
 
 ### Task B3: Running the `deploy staging` job
 
