@@ -133,6 +133,7 @@ build app:
     - go get github.com/common-nighthawk/go-figure
     - go run main.go
 ```
+This will fix the pipeline and in the output you should see a fun version of hello world printed in the job log!
 
 ## Lab Guide Complete
 
