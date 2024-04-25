@@ -191,7 +191,7 @@ In addition to the above when a change is being proposed to the UI the following
 1. If there is new copy add the Technical Writer as a reviewer and this will be blocking (copy should ideally be agreed on the issue)
 1. Cc the UX Designer on the MR and when they ready to be core reviewer this will be communicated to the team
 
-
+ **Note:** If significant discussion ends up being needed for a UI change (internal or customer facing) after the MR has been opened, that discussion should be moved back to the issue to resolve and the MR marked as blocked. These discussions will be high priority to resolve and the issue should be assigned to the PM and Designer until progress on the MR can resume.
 Notes:
 - It is our intention to move towards a typical 'reviewers and maintainers' approach which would require two reviews as soon as we have the team members to support this.
 - Merge requests should be approved based on the [approval guidelines](#approval_guidelines).
