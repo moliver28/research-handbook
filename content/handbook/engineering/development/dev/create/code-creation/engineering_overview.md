@@ -12,7 +12,6 @@ Below, we detail each component's role in this ecosystem, describe the flow of d
 
 ## Code Suggestions Technical Overview
 
-This page outlines different components involved in the Code Suggestion features implementation and provides high level overview of the features implementation.
 
 In most general sense Code Suggestions feature follow sequence as described on a diagaram below
 
