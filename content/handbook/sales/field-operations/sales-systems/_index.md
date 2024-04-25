@@ -184,7 +184,7 @@ Before a Milestone is closed perform the following steps:
 
 Please seek explicite and documented approval from the Senior Director of Sales Systems for any of the non-standard situations:
 
-1. A deploy during a designated black out period.
+1. A deploy during a designated block out period.
 1. The need to self deploy a non-invasive change.
 1. The need to create a non-invasive formula field in production for time sensitive triage of a critical issue.
 
