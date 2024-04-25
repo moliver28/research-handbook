@@ -66,6 +66,10 @@ Here are other groups within GitLab that we work closely with:
 - [Custom Models](https://handbook.gitlab.com/handbook/engineering/development/data-science/ai-powered/custom-models/)
 - [Duo Chat](https://handbook.gitlab.com/handbook/engineering/development/data-science/ai-powered/duo-chat/)
 
+### ModelOps Stage
+
+- [ModelOps Stage](https://handbook.gitlab.com/handbook/engineering/development/data-science/modelops/)
+- [MLOps](https://handbook.gitlab.com/handbook/engineering/development/data-science/modelops/mlops/)
 
 ## Core Responsibilities
 
