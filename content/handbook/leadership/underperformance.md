@@ -25,6 +25,10 @@ Managing a team member who is underperforming is one of the more challenging asp
 GitLab uses the skill-based and will-based performance model to identify the root cause of the team members' underperformance and to determine the suitable remediation plan. The remediation plan  will be based on the type of performance issue.
 The Team Member Relations team is here to assist you in identifying the cause of the performance issue and can walk you through the performance management process that applies best to the situation. Below are definitions of skills-based and will-based concerns as well as the typical remediation plans. As with all situations, there may be unique circumstances that require unique remediation plans.
 
+### Inform the Team Member Relations Team
+
+Looping in [Team Member Relations](/handbook/people-group/) early is essential. Team Member Relations can offer support, guidance, coaching, and partner with Legal to ensure compliance throughout all stages of the performance management process.  Reaching out to the TMR team is critical to managing underperformance, and not doing so within a reasonable timeframe ultimately impacts the manager's performance. Connecting with the TMR team ensures that feedback is being delivered in accordance with our [guidance for giving feedback](/handbook/people-group/guidance-on-feedback/) and within applicable local labor laws and regulations. 
+
 ## Warning Signs/Patterns of Underperformance
 
 How do you know if a team member isn't reaching their goals? Below are some common warning signs and patterns of underperformance as it relates to not meeting the expectations of the role.
@@ -62,16 +66,9 @@ Team members who have the skills necessary to succeed in their current role but 
 
 If a manager or any team member witnesses or is made aware of any team member behavior that violates our [Code of Conduct](https://ir.gitlab.com/static-files/7d8c7eb3-cb17-4d68-a607-1b7a1fa1c95d) they should immediately reach out to Team Member Relations at `teammemberrelations@gitlab.com`.
 
-
 ### Team Member: Discuss Circumstances Immediately With Your Manager
 
 Tell your manager immediately if there are circumstances in your life that cause you to be less effective. It isn't required to give details if you prefer not to. Tell your manager when it started, to what extent it hinders your work, and what your forecast is for your circumstances to improve. When you delay this conversation until your manager identifies underperformance you've lost trust that would be helpful during this period.  Team Member Relations can also be a resource for team members experiencing circumstances that are affecting their performance.
-
-### Loop in the Team Member Relations Partner
-
-Looping in [Team Member Relations](/handbook/people-group/) early is essential. Team Member Relations can offer support, guidance, coaching, and partner with Legal to ensure compliance. Please be sure to align with your TMR Partner prior to delivering any formal action plan to team members. Formal action can include a Written Performance Letter, Verbal Warning, Written Warning, and a Performance Improvement Plan. Managers will partner with the team member relations group in the creation and delivery of any formal action.
-
-**Important**: While it’s never too early to involve Team Member Relations, if there are performance concerns without sustained improvement following [manager led coaching](https://handbook.gitlab.com/handbook/leadership/coaching/) over the course of at least 1 month, loop in the TMR team.  Reaching out to the TMR team is critical to managing underperformance, and not doing so within a reasonable timeframe ultimately impacts the manager's performance. Connecting with the TMR team ensures that feedback is being delivered in accordance with our [guidance for giving feedback](/handbook/people-group/guidance-on-feedback/) and within applicable local labor laws and regulations.  
 
 ### Manager: Identify And Take Action As Early As Possible
 
