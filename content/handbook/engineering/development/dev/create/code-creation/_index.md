@@ -50,6 +50,23 @@ The following members of other functional teams are our stable counterparts:
 | AppSec            | [TBD](https://handbook.gitlab.com/handbook/security/product-security/application-security/stable-counterparts/) |
 
 
+## Partner Groups
+
+Here are other groups within GitLab that we work closely with:
+
+### Create Stage
+
+- [Editor Extensions](https://handbook.gitlab.com/handbook/engineering/development/dev/create/editor-extensions/)
+
+### AI Powered Stage
+
+- [AI Powered Stage](https://handbook.gitlab.com/handbook/engineering/development/data-science/ai-powered)
+- [AI Framework](https://handbook.gitlab.com/handbook/engineering/development/data-science/ai-powered/ai-framework/)
+- [AI Model Validation](https://handbook.gitlab.com/handbook/engineering/development/data-science/ai-powered/model-validation/)
+- [Custom Models](https://handbook.gitlab.com/handbook/engineering/development/data-science/ai-powered/custom-models/)
+- [Duo Chat](https://handbook.gitlab.com/handbook/engineering/development/data-science/ai-powered/duo-chat/)
+
+
 ## Core Responsibilities
 
 A lot of the terms we use in this area sound similiar and can be confusing at first. Here are the basic basic terms:
