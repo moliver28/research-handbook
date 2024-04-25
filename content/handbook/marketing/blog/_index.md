@@ -311,7 +311,7 @@ Here's a set of recommendations when creating an `Author`s entry in the CMS. Ple
 
 ##### `Name` field
 
-This is a required field 
+This is a required field.
 
 1. Authors name should be a combination of first and last name only, including composed names. Please avoid adding a job description (use the `Role` field for this task) or alpha-numeric combinations into this field. 
 1. No double authors (eg. `/authors/<author1>-<author2>`). We can add multiple single `Author`s to `BlogPost`s. We should create individual `Authors` and then add them all to other content types as a one-to-many relationship.
