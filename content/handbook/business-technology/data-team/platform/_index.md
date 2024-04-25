@@ -117,6 +117,7 @@ The following table indexes all of the RAW data sources we are loading into the 
 | [Handbook MR Data](https://gitlab.com/gitlab-data/analytics/-/blob/master/dags/extract/handbook_mrs_extract.py) | Airflow | `handbook` | `handbook` | Multiple | 24h / 24h | No | Tier 2 |
 | [Handbook Git Log Data](https://gitlab.com/gitlab-data/analytics/-/blob/master/dags/extract/values_page_extract.py) | Airflow | `handbook` | `handbook` | Multiple | 1w / 1m | No | Tier 2 |
 | Iterable | Fivetran | `iterable` | n/a | Multiple | 24h / 48h | No | Tier 3 |
+| Just Global Campaigns | Snowflake task | `just_global_campaigns` | just_global_campaigns | Marketing | 7d / 14d | No | Tier 3 |
 | [Level Up/Thought Industries](https://api.thoughtindustries.com/#thought-industries-api) | Airflow | `level_up` | `level_up` | People | 24h / 24h | No | Tier 3 |
 | [LinkedIn ads](https://business.linkedin.com/marketing-solutions/ads) | Fivetran | `linkedin_ads` | `n/a` | Marketing | 24h / 48h | No | Tier 3 |
 | [Marketo](https://www.marketo.com/software/marketing-automation/) | Fivetran | `marketo` | x | Marketing | 24h / 24h | No | Tier 2 |
@@ -397,15 +398,15 @@ For more information, watch this [recorded pairing session](https://youtu.be/-vp
 
 ## Snowflake Provisioning Automation
 
-In FY25-Q1, we are moving towards semi-automating the above `Managing Roles for Snowflake` process, [OKR epic](https://gitlab.com/groups/gitlab-data/-/epics/1128). This will enable **all GitLab Team Members** to create a Snowflake user themselves with minimal support by the Data Platform Team. This will speed up the provisioning process and shorten the time a GitLab Team member can get access to Snowflake. 
+In FY25-Q1, we are moving towards semi-automating the above `Managing Roles for Snowflake` process, [OKR epic](https://gitlab.com/groups/gitlab-data/-/epics/1128). This will enable **all GitLab Team Members** to create a Snowflake user themselves with minimal support by the Data Platform Team. This will speed up the provisioning process and shorten the time a GitLab Team member can get access to Snowflake.
 
 All GitLab Team Members are encouraged to open a MR following this [runbook](https://gitlab.com/gitlab-data/runbooks/-/blob/main/snowflake_provisioning_automation/snowflake_provisioning_automation.md) if they need access to Snowflake.
 
-High-level description of the process: 
+High-level description of the process:
 1. Open an Access Request and get the approvals in place
 1. Open an MR
 1. Run CI pipeline
-1. Review from Data Platform Team codeowner. 
+1. Review from Data Platform Team codeowner.
 
 The rest of the section is meant to describe the automated process in more detail.
 

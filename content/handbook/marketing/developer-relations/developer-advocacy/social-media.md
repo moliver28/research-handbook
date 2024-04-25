@@ -25,7 +25,7 @@ Topics:
 
 ### UTM Tracking
 
-Developer Advocates at GitLab are encouraged to add [UTMs for URL tagging and tracking](/handbook/marketing/developer-relations/developer-advocacy/#utms-for-url-tagging-and-tracking) to provide analytics and insights on how well content shares are performing. This method helps to verify [KPI metrics](/handbook/marketing/developer-relations/developer-advocacy/metrics/).
+Developer Advocates at GitLab are encouraged to add [UTMs for URL tagging and tracking](/handbook/marketing/developer-relations/developer-advocacy/#utms-for-url-tagging-and-tracking) to provide analytics and insights on how well content shares are performing. This method helps to verify [KPI metrics](/handbook/marketing/developer-relations/content-effectiveness/).
 
 ## Target Platforms
 
@@ -237,7 +237,7 @@ General topics
 
 ## Analytics
 
-Please see [Metrics Collection & Analysis](/handbook/marketing/developer-relations/developer-advocacy/metrics/) for our methods and tools.
+Please see [Content Effectivness](/handbook/marketing/developer-relations/content-effectiveness/) for our methods and tools.
 
 ## Thought Leadership Strategy
 
