@@ -305,6 +305,34 @@ There are a few ways to create animated GIFs, one of them is using [Giphy Captur
 
 Avoid GIFs with a huge file size, they will be difficult to load for users with bad internet connection. In those cases, you can either cut the GIFs in smaller pieces, or record a video, or use a sequential image.
 
+#### Creating `Author`s entries in the CMS
+
+Here's a set of recommendations when creating an `Author`s entry in the CMS. Please add more if you see fit.
+
+##### `Name` field
+
+This is a required field 
+
+1. Authors name should be a combination of first and last name only, including composed names. Please avoid adding a job description (use the `Role` field for this task) or alpha-numeric combinations into this field. 
+1. No double authors (eg. `/authors/<author1>-<author2>`). We can add multiple single `Author`s to `BlogPost`s. We should create individual `Authors` and then add them all to other content types as a one-to-many relationship.
+1. Same as above, no multiple authors for a single blogpost (eg. `/authors/<author1>-<author2>-<author3>-and-<author4>`)
+
+##### `Role` field
+
+Current working position or job description.
+
+##### `Bio` field
+
+Biography.
+
+##### `GitLab handle` field
+
+It corresponds to Author's GitLab username in lower case format. This field has to be unique 
+
+##### Social media handles fields
+
+Optional fields for social media handles.
+
 ## Localizing blog posts in Contentful
 
 We can publish blog posts in languages other than English. We currently support the following languages: 
