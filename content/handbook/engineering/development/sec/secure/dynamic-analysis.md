@@ -203,33 +203,25 @@ timeline
   section M12 <br> Milestone Planning Sync
 ```
 
-Two weeks before a release milestone is kicked off, our [Hallway Monitor Bot](https://gitlab.com/gitlab-org/secure/tools/gitlab-bot-hall-monitor) will automatically create a monthly release planning issue for the group and schedule a calendar event. This issue serves as the Kanban backlog for the milestone, aligning PM priorities with the EM and all of the ICs. The issue is divided into three sections:
+Two weeks before a release milestone is kicked off, our [Hallway Monitor Bot](#hallway-monitor-bot) will automatically create a monthly release planning issue for the group and schedule a calendar event. This issue serves as the Kanban backlog for the milestone, aligning PM priorities with the EM and all of the ICs. The issue is divided into three sections:
 
-- **Work to be Released**
-- **Work to Start/Continue**
-- **Work to Blueprint**
+- **Work to Release** - all work that we are committing to release during this milestone
+- **Work to Start/Continue** - new work being brought in or existing work rolling over from a previous milestone
+- **Work to Blueprint** - work that needs high-level planning and breakdown this milestone before development work in the next milestone
 
-On the date of a release milestone kick-off, we will review the list of [Dynamic Analysis Group direction priorities](https://about.gitlab.com/direction/secure/dynamic-analysis/#priorities) with product and ensure all of these priorities are reflected in the monthly release planning issue.
+On the date of a release milestone kick-off, we will review the list of [Dynamic Analysis Group direction priorities](https://about.gitlab.com/direction/secure/dynamic-analysis/#priorities) with product and ensure all of the priorities for the current milestone are reflected in the monthly release planning issue in the "Work to Release" and "Work to Start/Continue" sections. Medium to large sized bodies of work identified for the next milestone by our PM should be added to the "Work to Blueprint" section for high-level blueprinting and breakdown of the work for pick-up in the next milestone.
 
-Product sets all of our high-level priorities and the output from this meeting will be an MR update to this page with a direct mapping of each priority to a group epic and any updates to the targeted milestone to ensure accuracy. These product priority-based epics will exist alongside our comprehensive [list of all Dynamic Analysis Group epics](https://gitlab.com/groups/gitlab-org/-/epics?state=opened&page=1&sort=start_date_desc&label_name%5B%5D=group::dynamic+analysis&label_name%5B%5D=Category:DAST).
+Product sets all of our high-level priorities, and in addition to the above, another output from this kick-off meeting can be an MR update to direction page with an updated mapping of each priority to a group issue/epic and/or targeted milestone. This process allows for the EM and ICs to give direct feedback to our PM for how we'd like to organize the work and which milestone we think we can get to future roadmap items.
 
-To complete this mapping, product priority-based epics should be created in [gitlab-org/-/epics](https://gitlab.com/groups/gitlab-org/-/epics?label_name[]=Category:DAST&label_name[]=group::dynamic+analysis&page=1&sort=start_date_desc&state=opened) with the same title of the priority and the following labels. The `type::feature` label is what distinguishes a product priority from other group epic work.
+All product priority-based issues will exist alongside our comprehensive [list of all Dynamic Analysis Group issues](https://gitlab.com/groups/gitlab-org/-/issues/?sort=created_date&state=opened&label_name%5B%5D=group%3A%3Adynamic%20analysis&label_name%5B%5D=Category%3ADAST&first_page_size=20). All product priority-based epics will exist alongside our comprehensive [list of all Dynamic Analysis Group epics](https://gitlab.com/groups/gitlab-org/-/epics?state=opened&page=1&sort=start_date_desc&label_name%5B%5D=group::dynamic+analysis&label_name%5B%5D=Category:DAST).
+
+To complete this mapping, product priority-based issues or epics should be created in `gitlab-org/gitlab` or `gitlab-org` (respectively) with the same title of the priority and the following labels. The `type::feature` label is what distinguishes a product priority from other group epic work.
 
 ```
 /label ~"section::sec"
 /label ~"devops::secure"
 /label ~"group::dynamic analysis"
 /label ~"type::feature"
-```
-
-Timeboxed by the duration of this meeting, the team will attempt to create as many child epics and issues for each of these current release milestone product epics as placeholders for eventual refinement. This is a great time for the team to discuss high-level architectural directions, implementation plans, and needs for accomplishing these priorities throughout the next month. All issues created should receive the following milestone and labels:
-
-```
-/milestone {from mapping}
-/label ~"section::sec"
-/label ~"devops::secure"
-/label ~"group::dynamic analysis"
-/label `~workflow::planning breakdown`
 ```
 
 #### Important Links
@@ -315,6 +307,18 @@ An issue is considered handed off into the development team when it is given the
 | `~workflow::complete` | Code is verified, the work is complete, and the issue is closed. |
 
 Issues worked by this team are backend-centric and are typically in one the above repos, [vendored templates](https://gitlab.com/gitlab-org/gitlab/-/tree/master/lib/gitlab/ci/templates/Security), and GitLab's [Rails monolith](https://gitlab.com/gitlab-org/gitlab). At times, issues can require support from Secure's frontend team if UI changes are required. We will require more notice for initiatives like these.
+
+#### Blueprinting
+
+Timeboxed by the duration of this meeting, the team will attempt to create as many child epics and issues for each of these current release milestone product issues/epics as placeholders for eventual refinement. This is a great time for the team to discuss high-level architectural directions, implementation plans, and needs for accomplishing these priorities throughout the next month. All issues created should receive the following milestone and labels:
+
+```
+/milestone {from mapping}
+/label ~"section::sec"
+/label ~"devops::secure"
+/label ~"group::dynamic analysis"
+/label `~workflow::planning breakdown`
+```
 
 #### Issue breakdown
 
