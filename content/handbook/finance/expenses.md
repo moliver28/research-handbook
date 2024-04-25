@@ -595,9 +595,8 @@ The procedure by which reimbursable expenses are processed varies and is depende
 ### Legal entities
 
 - Team Members must submit their expenses through Navan.
-- Expenses for GitLab Inc, GitLab Federal, GitLab Ltd (UK), GitLab BV (Belgium and Netherlands), GitLab GmbH (Germany), GitLab PTY Ltd (Australia and New Zealand), GitLab GK (Japan) GitLab LTD (Ireland), GitLab Korea Limited and GitLab Singapore PTE. LTD. are reimbursed via Navan within 7 business days for the expenses within policy or after approval by the Accounts Payable team (for out of policy expenses).
+- Expenses for GitLab Inc, GitLab Federal, GitLab Canada Corp, GitLab Ltd (UK), GitLab BV (Belgium and Netherlands), GitLab GmbH (Germany), GitLab PTY Ltd (Australia and New Zealand), GitLab GK (Japan) GitLab LTD (Ireland), GitLab Korea Limited and GitLab Singapore PTE. LTD. are reimbursed via Navan within 7 business days for the expenses within policy or after approval by the Accounts Payable team (for out of policy expenses).
 - The Team Member's bank account must be set up in Navan in order for payment to complete.
-- Expenses for GitLab Canada Corp must be submitted and approved by the Accounts Payable team (for out of policy expenses) before the 1st day of each payroll period.
 - Expenses for GitLab France S.A.S and GitLab BV Finland must be submitted and approved by the Accounts Payable team (for out of policy expenses) on or before the 6th of each month to ensure it is included in the current month’s payroll.
 
 #### PEO (Professional Employer Organization/ Employer of Record and not a GitLab entity or Branch)
