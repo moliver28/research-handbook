@@ -14,6 +14,9 @@ Support with technical questions. Under certain circumstances, Sales or Customer
 Success team members may wish to request a period of free support for a prospect
 or customer.
 
+[You can access the Super Support Form here.](https://support-super-form-gitlab-com-support-support-op-651f22e90ce6d7.gitlab.io/)
+Ensure you are logged in to your GitLab.com account before accessing the form.
+
 ## Support Readiness Related Requests
 
 #### Modifications to a Zendesk Organization
