@@ -328,4 +328,6 @@ The customer must add Compute Minutes via the same procurement path as the origi
 1. Work with your GitLab Sales Rep to obtain a quote for additional Compute Minutes.
 2. Request that the GitLab Sales Rep submit an internal support ticket to provide additional Compute Minutes so the customer can get back online while the quote and order process is being completed.
 
+For additional information, the Support team's process can be found [here](https://handbook.gitlab.com/handbook/support/license-and-renewals/workflows/saas/compute_minutes/#process-for-authorising-additional-compute-minutes-for-customers-as-an-act-of-goodwill).
+
 </details>
