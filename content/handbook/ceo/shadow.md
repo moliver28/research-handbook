@@ -12,9 +12,9 @@ Unless you're joining the program during one of our [remote rotations](#remote-s
 
 ### Goal
 
-The goal of the CEO Shadow Program is to give team members and [eligible individuals](#eligibility) an overview of all aspects of the [company](/handbook/company/). This transparency enables CEO Shadow participants to better engage and collaborate cross-functionally, as well as better perform [global optimizations]({{< ref "values#global-optimization" >}}).
+The goal of the CEO Shadow Program is to give team members and [eligible individuals](#eligibility) an overview of all aspects of the [company](/handbook/company/). This transparency enables CEO Shadow participants to better engage and collaborate cross-functionally, as well as better perform [cross-functional optimizations]({{< ref "values#cross-functional-optimization" >}}).
 
-As a CEO Shadow, you'll gain this context through the [meetings you attend](#meetings--events) and while [completing]({{< ref "values#bias-for-action" >}}) short-term [tasks](#tasks) from across the company.
+As a CEO Shadow, you'll gain this context through the [meetings you attend](#meetings--events) and while [completing]({{< ref "values#operate-with-a-bias-for-action" >}}) short-term [tasks](#tasks) from across the company.
 The program also creates opportunities for the CEO to build relationships with team members across the company and to identify challenges and opportunities earlier.
 The shadows will also often connect with one another, developing new cross-functional relationships.
 
