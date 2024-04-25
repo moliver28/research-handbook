@@ -19,7 +19,6 @@ All Israel Team members are enrolled in the Pension Arrangement. In general the 
 - Employer contributions are based on your eligible earnings, the definition of eligible earning is Base salary and overtime.
 
 #### Enrollment & Administration of the Pension Plan
- 
 During onboarding Total Rewards team will connect team members with our broker, Shaldan, to set up their pension arrangement. Shaldan will work with the Payroll accountant who will deduct the employee contributions and fund the pensions appropriately.
 
 Shaldan is the operating agent who is responsible for ensuring funds are received by the pension accounts.
