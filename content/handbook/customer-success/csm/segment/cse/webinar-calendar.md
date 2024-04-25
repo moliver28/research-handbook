@@ -23,18 +23,6 @@ If you know someone who might be interested in attending, feel free to share the
 
 ### AMER Time Zone Webinars & Labs
 
-#### Hands-On Advanced GitLab CI Lab 
-##### April 24th, 2024 at 9:00-11:00AM PT / 12:00-2:00PM ET
-
-Join us for a hands-on lab where we will go into advanced GitLab CI capabilities that allow customers to simplify pipeline yml code and optimize the execution time of pipelines.
-
-We will cover:
-- Storing build resources in GitLab registries
-- Managing artifacts, dependencies, and environment variables between jobs
-- Running a job multiple times in parallel with different variables
-- Triggering downstream pipelines
-
-[<button class="btn btn-primary" type="button">Register</button>](https://gitlab.zoom.us/webinar/register/WN_D_pFLbsvRS-bLD0p7ut24g#/registration)
 
 #### AI in DevSecOps - GitLab Webinar
 ##### April 30th, 2024 at 9:00-10:00AM Pacific Time / 12:00-1:00PM Eastern Time
@@ -44,19 +32,6 @@ Join us for the AI in DevSecOps webinar where we will explore Artificial Intelli
 [<button class="btn btn-primary" type="button">Register</button>](https://gitlab.zoom.us/webinar/register/WN_-kIPWEcnTjOzVrKplN126g#/registration)
 
 ### EMEA Time Zone Webinars & Labs
-
-#### Hands-On Advanced GitLab CI Lab 
-##### April 24th, 2024 at 9:00-11:00AM UTC / 11:00AM-1:00PM CET
-
-Join us for a hands-on lab where we will go into advanced GitLab CI capabilities that allow customers to simplify pipeline yml code and optimize the execution time of pipelines.
-
-We will cover:
-- Storing build resources in GitLab registries
-- Managing artifacts, dependencies, and environment variables between jobs
-- Running a job multiple times in parallel with different variables
-- Triggering downstream pipelines
-
-[<button class="btn btn-primary" type="button">Register</button>](https://gitlab.zoom.us/webinar/register/WN_OQNV9scJSIaelQkXl5mbnw#/registration)
 
 #### AI in DevSecOps - GitLab Webinar
 ##### April 30th, 2024 at at 9:00-10:00AM UTC / 11:00AM-12:00PM CET
