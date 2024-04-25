@@ -3,10 +3,10 @@
 ## Why is this change being made?
 
 > :bulb: **Provide a detailed answer to the question on *why* this change is being proposed, in accordance with our value of [Transparency][transparency].**
->
-> Please add the details saying [why, not just what][say-why-not-just-what] in this section. Example: `We have discussed the topic in Slack - (copy of Slack conversation). The current process is not efficient, this MR makes the description of X more clear, and helps move Y forward.`
 
-CHANGEME
+<!-- Example: `We have discussed the topic in Slack - (copy of Slack conversation). The current process is not efficient, this MR makes the description of X more clear, and helps move Y forward.` -->
+
+CHANGEME - add the details saying [why, not just what][say-why-not-just-what].
 
 ## Author and Reviewer Checklist
 
@@ -25,12 +25,6 @@ CHANGEME
    - [ ] Division: If the update affects your division, share the MR in your division Slack channel
    - [ ] Company: If the update affects all (or the majority of) GitLab team members, post an update in [#whats-happening-at-gitlab][whats-happening-at-gitlab-slack] linking to this MR
       - For high-priority company-wide announcements work with the [internal communications][internal-communications] team to post the update in [#company-fyi][company-fyi-slack] and align on a plan to circulate in additional channels like the ["While You Were Iterating" Newsletter][engagement-channels]
-
-
-## Commits
-
-%{all_commits}
-
 
 <!-- Quick actions for assignment, labels, review requests. Please update them as needed. -->
 
