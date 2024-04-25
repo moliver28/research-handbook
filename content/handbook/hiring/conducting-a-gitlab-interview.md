@@ -177,11 +177,8 @@ The scoring definitions for GitLab’s Engineering Division are defined differen
 
   **Scorecards for Shadow Interviewers**
 
-    If you are shadowing an interview, we encourage the shadowing team member to collect feedback in addition to the interviewer during these sessions. This is a great opportunity to add your feedback and compare notes with the Recruiting team and/or the interviewer you're shadowing. Notes (both from the interviewer and shadow trainee) should only be taken in our ATS, Greenhouse. As an interview training best practice, we recommend that a debrief meeting occur between the interviewer and shadow trainee after the interview to compare feedback notes (ideally in a sync meeting).
-    
-    Only one official scorecard should be submitted by the main interviewer. Even if you receive multiple prompts and reminders from Greenhouse as a shadow interviewer, please ignore. The recruitment team will cancel these reminders typically with 24-48 hours of an interview finishing up.
-    
-   
+   If you are shadowing an interview, part of this process should be taking notes and writing feedback in addition to the interviewer. Take notes using the scorecard just like you would if you were leading, but do not submit the scorecard because you are still considered to be in training during this period. As an interview training best practice, we recommend that a debrief meeting occur between the interviewer and shadow trainee after the interview to compare feedback notes (ideally in a sync meeting).
+   Only one official scorecard should be submitted by the main interviewer. Even if you receive multiple prompts and reminders from Greenhouse as a shadow interviewer, please ignore.
 
 More info on [engineering hiring practices](https://about.gitlab.com/handbook/engineering/#hiring-practices).
 
