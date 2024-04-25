@@ -269,7 +269,7 @@ Video Walkthrough from Product:
 <!--
 If visible to external customers
     - Is external communication required?
-    - Will this be rolled out in pieces as implemented or available internally first?
+    - Will this be rolled out to customers in pieces as implemented or available internally first?
 -->
 
 ### Links / references
