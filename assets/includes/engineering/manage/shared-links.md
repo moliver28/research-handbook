@@ -1,5 +1,5 @@
 - Stage links
   - Discussions and issues are located at [`gitlab-org/manage`](https://gitlab.com/gitlab-org/manage/)
   - General Slack [#s_manage](https://gitlab.slack.com/messages/CBFCUM0RX)
-  - Social channel [#manage-social](https://gitlab.slack.com/archives/GSEL4S98S)
+  - Social channel [#pikachus-social](https://gitlab.slack.com/archives/GSEL4S98S)
   - Engineering Manager Slack [#s_manage_ems](https://gitlab.slack.com/archives/C01VAATSWNP)
