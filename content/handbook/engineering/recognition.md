@@ -134,6 +134,7 @@ Prior to the start of the quarter, a call for nominations will go out. You may n
 
 ## Engineering Quarterly Achievers Process
 
+This process is followed by a delegate of the CTO Leads team at least 2 weeks before the end of the quarter, and is completed before the first all hands of the quarter.
 ### Accepting Nominations
 
 1. Create a copy of the `Engineering Quarterly Achievers Nomination Form - Template` in the [`Awards [Quarterly]` folder](https://drive.google.com/drive/search?q=type:folder%20%22achievers%20quarterly%22) on Drive. If you do not have access, ask the CTO's EBA for access.
@@ -143,7 +144,7 @@ Prior to the start of the quarter, a call for nominations will go out. You may n
 
 #### Communicating
 
-1. Create a Field Operations - Enablement issue ([example](https://gitlab.com/gitlab-com/sales-team/field-operations/enablement/-/issues/2394)) to get permission to post in `#field-fyi` for the "Contribution to Sales or Renewal" Award.
+1. Create a Field Operations - Enablement issue ([example](https://gitlab.com/gitlab-com/sales-team/field-operations/enablement/-/issues/2394)) to get permission to post in `#field-fyi` for the "Contribution to Sales or Renewal" Award. This should be completed at least 2 weeks prior to launching the nomination period.
    - Consider posting a pre-filled link that selects that specific award.
 1. In the Engineering Week in Review, add a note that nominations are open with a link to the form.
 1. Make a Slack post in `#engineering-fyi`. Cross-post in `#cto`, and `#eng-managers`.
@@ -155,13 +156,13 @@ Prior to the start of the quarter, a call for nominations will go out. You may n
    - You can consider using `process-quarterly-achievers.rb` to process the data.
 1. Make a copy of the `Engineering Quarterly Achievers All Hands Deck - TEMPLATE`
 1. Follow the instructions in the template:
-   - Choose DRIs for each area
-   - Empower them to make decisions
-   - Direct them to update the deck with names, photos and speaker notes that highlight the nomination.
+   - Choose DRIs for each area from among CTO Leads
+   - Empower CTO Leads to make decisions
+   - Direct CTO Leads to update the deck with names, photos and speaker notes that highlight the nomination.
 
 ### Announce Winners
 
-In the next All-Hands, announce winners! Wooo! You're done until next quarter.
+For the next All-Hands, incorporate the final slides into primary deck! After All-hands, update this page with names of winners. Wooo! You're done until next quarter.
 
 
 
