@@ -3,9 +3,8 @@ title: "GitLab Project Management - Hands-On Lab Overview"
 description: "This Hands-On Guide walks you through the lab exercises used in the GitLab Project Management course."
 ---
 
-# GitLab Project Management
 
-## Lab Guides
+## GitLab Project Management Lab Guides
 
 | Lab Name | Lab Link |
 |-----------|------------|
