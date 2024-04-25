@@ -142,6 +142,7 @@ Encoding more data on the UTM campaign directly transfers that information to Bi
 
 #### Current GTM UTMs 
 
+* speedsecurity = Trading off Speed for Security
 * devsecopsplat = DevSecOps Platform GTM
 * autosd = Automated Software Delivery GTM
 
@@ -163,7 +164,9 @@ Encoding more data on the UTM campaign directly transfers that information to Bi
 |---------------------------|----------------------|----------------------|			
 | Content offer | Optional (if not applicable, use x) | devguideappsec |			
 | Asset type | Optional (if not applicable, use x) | ebook |
-| Industry (vertical) | Optional (if not applicable, use x) | telco |			
+| Industry (vertical) | Optional (if not applicable, use x) | telco |		
+
+Example: utm_content=seccspackage_ebook_fs
 
 **Asset Type** values (available as picklist in the UTM builder googlesheet):
 * ebook = Gated ebooks
