@@ -268,7 +268,10 @@ Video Walkthrough from Product:
 
 <!--
 If visible to external customers
-    - Is external communication required?
+    - What communication is required ahead of release?
+      - Internal communication to account teams
+      - Customer communication in release post
+      - Sign off from account teams before release - this should be reserved for features with the potential to be disruptive to users
     - Will this be rolled out to customers in pieces as implemented or available internally first?
 -->
 
