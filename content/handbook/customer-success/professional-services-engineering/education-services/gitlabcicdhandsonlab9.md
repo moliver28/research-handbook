@@ -1,6 +1,6 @@
 ---
 title: "GitLab CI/CD - Hands-On Lab: Security Scanning"
-description: "This Hands-On Guide walks you through the lab exercises in the GitLab CI/CD course."
+description: "This Hands-On Guide walks you through using SAST to finding and fixing a security flaw in the code."
 ---
 
 > Estimate time to complete: 15 - 20 minutes
