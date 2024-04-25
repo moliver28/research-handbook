@@ -520,7 +520,7 @@ The company will cover all work-related travel expenses. This includes lodging a
 
 - No software subscriptions are reimbursable.
 - Team Members that would like to purchase software will need to go through the Procurement process.
-- Please follow the Guidance from the [Individual Use Software Handbook Page](/handbook/finance/procurement/personal-use-software/).
+- Please follow the Guidance from the [Individual Use Software Handbook Page](/handbook/finance/procurement/individual-use-software/).
 
 ### Swag
 
