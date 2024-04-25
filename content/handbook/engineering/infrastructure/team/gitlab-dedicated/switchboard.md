@@ -262,7 +262,7 @@ Video Walkthrough from Product:
 * [ ] Copy Defined and Agreed with Technical Writer
 * [ ] UX Defined and Agreed with UX Designer
 * [ ] Documentation Requirements captured in an issue
-* [ ] Outstanding Questions
+* [ ] Outstanding Questions captured in threads for resolution
 
 ### Roll out Plan
 
