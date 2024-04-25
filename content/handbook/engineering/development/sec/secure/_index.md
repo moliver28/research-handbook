@@ -64,7 +64,7 @@ Team Page: [Dynamic Analysis](dynamic-analysis/)
 
 Team Page: [Vulnerability Research](vulnerability-research/)
 
-{{< team-by-manager-slug manager="waynehaber" team="Vulnerability Research" >}}
+{{< team-by-manager-slug manager="thomaswoodham" team="Secure:Vulnerability Research" >}}
 
 ## Stable Counterparts
 
