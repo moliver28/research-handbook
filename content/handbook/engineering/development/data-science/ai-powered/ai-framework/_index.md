@@ -97,11 +97,13 @@ To ensure that our developers are aware of the priority of their work, we [use t
 
 #### 🗓️ Weekly
 
-1. **Backlog Refinement 📝**: (DRI: PM /EM) Once per week, review all the issues in the **Open** lane. Prioritize them based on their importance, urgency, and input from the team. Identify which issues need discovery work and which can be moved straight into **workflow::ready for development**.
-2. **Discovery Work Assignment 🧪**: (DRI: PM/EM) Move issues that need discovery work into the **workflow::problem validation** lane. These issues are not yet fully defined and need further investigation before they can be developed.
-3. **Ready for Development Assignment 🎯**: (DRI: PM/EM) Move issues that have the necessary details for development into the **workflow::ready for development** lane. These issues are either already assigned to an individual contributor (IC), or if not, are ordered by priority so they can be picked up with ease.
-4. **Progress Check 🔄**: (DRI: Assigned Developer) Check the **workflow::in dev** lane daily to see the status of the ongoing tasks. 
-5. **Review Completed Tasks 👥**: (DRI: Assigned Developer) Review the tasks in the **workflow::in review** lane. Ensure they are moving forward.
+1. **Open 🆕**: (DRI: PM) Capture and list new issues as they arrive. This stage serves as the initial holding area where issues await further classification and prioritization.
+2. **Workflow Design ✍️**: (DRI: Designer) Move issues into this lane for design refinement. Focus on detailing user experience and interface design. Essential for aligning the visual and functional aspects of the solution with user needs.
+3. **Workflow Refinement 🔧**: (DRI: Engineering Lead) Issues undergo technical refinement here. Engineers review and adjust the technical aspects to ensure feasibility and adherence to technical standards.
+4. **Workflow Ready for Development 🎯**: (DRI: PM/EM) Transition issues that have completed the refinement process here. They are fully specced and ready for developers to start coding.
+5. **Workflow in Development 💻**: (DRI: Assigned Developer) Coding and implementation of workflows happen in this stage. Developers build out the features and functionalities as specified.
+6. **Workflow in Review 🔍**: (DRI: QA/Reviewer) Conduct thorough reviews and testing of completed workflows. This includes code reviews and usability testing to ensure quality and functionality before final deployment.
+
 
 **Issues for the AI Framework team are binary: they are categorized as either a discovery issue, requiring further investigation, or an implementation issue, ready for development. This approach helps us maintain a lean and efficient workflow.**
 
