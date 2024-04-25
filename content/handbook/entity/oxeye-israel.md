@@ -22,7 +22,6 @@ All Israel Team members are enrolled in the Pension Arrangement. In general the 
 During onboarding Total Rewards team will connect team members with our broker, Shaldan, to set up their pension arrangement. Shaldan will work with the Payroll accountant who will deduct the employee contributions and fund the pensions appropriately.
 
 Shaldan is the operating agent who is responsible for ensuring funds are received by the pension accounts.
- 
 When team members leave GitLab, they will need to connect with Shaldan to assist payroll in generating a form that will contain the amount of Severance payto fill out form 161.
 
 
