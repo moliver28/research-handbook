@@ -49,7 +49,7 @@ HelpLab is available via Okta. To access the platform:
 
 After submitting your request, you have the option to add team members, such as your manager, to the `watch list`. Adding team members to the watch list ensures that they receive notifications and have visibility into the case. This feature is useful if there's anybody who needs to have visibility to the case's progress or if additional stakeholders should be informed about updates or resolutions.
 
-![helplab2](/handbook/business-technology/enterprise-applications/guides/heplab-guide/helplab2.png)
+![helplab2](/handbook/business-technology/enterprise-applications/guides/helplab-guide/helplab2.png)
 
 
 ### Track & manage open requests
