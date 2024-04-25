@@ -105,6 +105,12 @@ We use the following definitions to determine and track utilization.
 | Program/Project Manager, Engineer Quarterly Target | Quarterly  Hour Total * .7 | 296.8 hrs|
 | Technical Architect | Quarterly  Hour Total * .55 | 233.2 hrs|
 
+### What is a billable hour?
+
+In simplest terms, any work done on behalf of advancing the customer engagement is considered "billable time". This includes white board time, research into features or tools, and discussion with other internal GitLab engineering teams.
+
+When in doubt, consult with the Program/Project Manager assigned or a Delivery Manager for guidance. For specific tools enablement, engineers should log time against the engagement, uncheck the "Billable" box for the time entry (in Kantata), and add a note to explain the work.
+
 **Customer Satisfaction (CSAT)**
 This performance indicator measures how satisfied our customers are with their interaction with the GitLab PS team. This is based on survey responses from customers sent at the end of each engagement.  On a scale of 1-5, if the customer submits a 4 or 5, we consider this Customer to be `Satisfied` with the services delivered. 
 
