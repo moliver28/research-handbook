@@ -202,8 +202,6 @@ Once you obtain this information you should open an issue in our [Reliability tr
 
 Note that IP addresses may be blocked if they are identified as being from a [current US embargoed country](https://home.treasury.gov/policy-issues/financial-sanctions/sanctions-programs-and-country-information) as per [our Terms of Use](/handbook/legal/subscription-agreement/). Blocks are done automatically through CloudFlare's GeoLocation block methods and cannot be changed. You can [enter an IP address](https://www.maxmind.com/en/geoip2-precision-demo) to determine how it is classified and verify against [the list of countries](/handbook/legal/trade-compliance/). A user can consider [requesting a data correction](https://support.maxmind.com/geoip-data-correction-request/) of their IP address but it is not guaranteed and GitLab has no control over this process.
 
-## Applying for an exception
+## Applying for an exception (Deprecated)
 
-If a customer has concerns about being rate limited, work with them as much as possible to lower their traffic from a single IP address.
-
-In rare cases, all traffic must be routed through a single IP address. If this is a concern for the customer, please work with a support manager to consider opening an [issue in the reliability tracker](https://gitlab.com/gitlab-com/gl-infra/reliability/-/issues) to ask for an exception.
+Foundations team is no longer accepting new IP allowlist requests. Please add requests to [this issue](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/6033).
