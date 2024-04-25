@@ -6,7 +6,7 @@ description: "This Hands-On Guide walks you through the lab exercises in the Git
 
 > Estimate time to complete: 15 - 20 minutes
 
-> **We are transitioning to the latest version of this course.** If your group URL starts with `https://spt.gitlabtraining.cloud`, please use the [Version 15.x instructions](https://gitlab.com/gitlab-com/content-sites/handbook/-/blob/d14ee71aeac2054c72ce96e8b35ba2511f86a7ca/content/handbook/customer-success/professional-services-engineering/education-services/gitlabcicdhandsonlab5.md).
+
 
 ## Objectives
 
@@ -25,6 +25,17 @@ To customize your CI/CD process, you can define your own environment variables. 
 1. Paste the following snippet at the end of the file, with an empty line between the file's previous content and the snippet's content.
 
     ```yml
+    environment echoes:
+      stage: build
+      script:
+        - echo "Who am I running as..."
+        - whoami
+        - echo "Where am I..."
+        - pwd
+        - ls -al
+        - echo "Here's what is available in our environment..."
+        - env
+
     environment variables:
       stage: build
       script:

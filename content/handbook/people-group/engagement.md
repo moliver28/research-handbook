@@ -181,18 +181,18 @@ In addition, Managers can create an Engagement Survey Action Issue that links to
 - [Legal & Corporate Affairs](https://gitlab.com/groups/gitlab-com/-/epics/2223)
 - [CISO](https://gitlab.com/groups/gitlab-com/-/epics/2196)
 
-### Pre-Summit Pulse Survey Overview
+### Summit Pulse Surveys Overview
 
 The goal of the Summit is to build trust through social connections. This trust should lead to higher individual and team motivation, leading to higher productivity and retention. Higher trust between individuals and teams fuels collaboration and leads to stronger results.
 
 To best determine how effective we are at achieving the goal of Summit is to gauge team member perceptions before and after the event.
 
-#### We will run two surveys:
+#### We ran two surveys:
 
-- Pre-Summit: Scheduled from January 9, 2024 to January 19 2024
-- Post-Summit: To be scheduled in March 2024 (Exact dates TBD)
+- Pre-Summit: January 9, 2024 to January 19, 2024
+- Post-Summit: March 15, 2024 to April 5, 2024
 
-This will help us gain valuable insights into any shifts in sentiments among team members, allowing us to assess the true impact of the summit, satisfaction and engagement.
+This will helped us gain valuable insights into any shifts in sentiments among team members, allowing us to assess the true impact of the summit, satisfaction and engagement.
 This is an abbreviated version of our engagement survey, and it also includes a few Summit related questions.
 
 ### Survey Confidentiality
@@ -201,19 +201,14 @@ In an effort to ensure team member confidentiality is upheld, only managers with
 
 ### Survey Results
 
-A link to survey results will be added at the conclusion of each survey.
-
-- Pre-Summit results: To be added
-- Post-Summit results: To be added
-
-
+Team members can access Summit Pulse Survey results [here](https://docs.google.com/presentation/d/1OPOwu9JZxq4CoAiUAOMPZ-yXH99TPMPXObfzVMIWlto/edit#slide=id.g1d24c3e4ddd_5_252)
 
 
 
 
 <details>
   <summary markdown="span">Previous Years</summary>
-  
+
 ### FY'23 Pulse Engagement Survey
 
 #### FY'23 Pulse Engagement Survey Timeline
@@ -499,7 +494,7 @@ Bar those who joined on or after 2020-11-01 the survey was extended to all GitLa
 
 #### Benchmarking and Reporting
 
-The FY21 survey was benchmarked against New Tech 1,000+ 2020 in addition to being reviewed against the preceding years results. Preliminary reports were released on 2021-01-08 painting a broad overview afterwhich individual divisional reviews will take place in collaboration with the [People Business Partners (PBPs)]({{< ref "/job-families/people-group/people-business-partner" >}}) and respective Group Leaders.
+The FY21 survey was benchmarked against New Tech 1,000+ 2020 in addition to being reviewed against the preceding years results. Preliminary reports were released on 2021-01-08 painting a broad overview afterwhich individual divisional reviews will take place in collaboration with the [People Business Partners (PBPs)](/job-families/people-group/people-business-partner) and respective Group Leaders.
 
 #### Company Results (Overall)
 
@@ -558,7 +553,7 @@ Bar those who joined on or after 2019-10-01 the survey was extended to all GitLa
 
 #### Benchmarking and Reporting
 
-The FY20 survey was benchmarked against New Tech Size >500 2019 in addition to being reviewed against the preceding years results. Preliminary reports were released in the week of 2019-11-07 painting a broad overview afterwhich individual divisional reviews will take place in collaboration with the [People Business Partners (PBPs)]({{< ref "/job-families/people-group/people-business-partner" >}}) and respective Group Leaders.
+The FY20 survey was benchmarked against New Tech Size >500 2019 in addition to being reviewed against the preceding years results. Preliminary reports were released in the week of 2019-11-07 painting a broad overview afterwhich individual divisional reviews will take place in collaboration with the [People Business Partners (PBPs)](/job-families/people-group/people-business-partner) and respective Group Leaders.
 
 #### Company Results (Overall)
 
@@ -612,7 +607,7 @@ Bar those who joined on or after 2018-08-17 the survey was extended to all GitLa
 
 #### Benchmarking and Reporting
 
-The FY19 survey was benchmarked against 2018 New Tech Size - Large Companies (500+). Preliminary reports were released in the week of 2018-11-06 painting a broad overview afterwhich individual divisional reviews will take place in collaboration with the [People Business Partners (PBPs)]({{< ref "/job-families/people-group/people-business-partner" >}}) and respective Group Leaders.
+The FY19 survey was benchmarked against 2018 New Tech Size - Large Companies (500+). Preliminary reports were released in the week of 2018-11-06 painting a broad overview afterwhich individual divisional reviews will take place in collaboration with the [People Business Partners (PBPs)](/job-families/people-group/people-business-partner) and respective Group Leaders.
 
 #### Company Results (Overall)
 

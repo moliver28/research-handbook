@@ -13,7 +13,7 @@ The purpose of this document is to outline the procedural change management step
 This document applies to systems and applications owned by Security and processes owned by Security Departments.
 
 {{% note %}}
-Changes related to user access and authorization should continue to be handled via the [access request](/handbook/business-technology/team-member-enablement/onboarding-access-requests/access-requests/) process.
+Changes related to user access and authorization should continue to be handled via the [access request](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/) process.
 {{% /note %}}
 
 Security has defined the following types of changes:
@@ -85,13 +85,13 @@ Technical Owner approval is dependent upon the system or application already exi
 
 ## Procedure
 
-To submit a security change request, use one of the buttons below to create a change request issue.
+To submit a security change request, use one of the links below to create a change request issue:
 
-<div class="flex-row" markdown="0" style="height:80px">
-       <a href="https://gitlab.com/gitlab-com/gl-security/security-change-management/-/issues/new?issuable_template=standard_change_template" class="btn btn-purple-inv" style="width:20%;height:100%;margin:1px;display:flex;justify-content:center;align-items:center;">Standard <br /> Change Request</a>
-       <a href="https://gitlab.com/gitlab-com/gl-security/security-change-management/-/issues/new?issuable_template=comprehensive_change_template" class="btn btn-purple-inv" style="width:20%;height:100%;margin:1px;display:flex;justify-content:center;align-items:center;">Comprehensive <br /> Change Request</a>
-       <a href="https://gitlab.com/gitlab-com/gl-security/security-change-management/-/issues/new?issuable_template=emergency_change_template" class="btn btn-purple-inv" style="width:20%;height:100%;margin:1px;display:flex;justify-content:center;align-items:center;">Emergency <br /> Change Request</a>
-</div>
+[Standard Change Request](https://gitlab.com/gitlab-com/gl-security/security-change-management/-/issues/new?issuable_template=standard_change_template)
+
+[Comprehensive Change Request](https://gitlab.com/gitlab-com/gl-security/security-change-management/-/issues/new?issuable_template=comprehensive_change_template)
+
+[Emergency Change Request](https://gitlab.com/gitlab-com/gl-security/security-change-management/-/issues/new?issuable_template=emergency_change_template)
 
 Follow the instructions in the appropriate issue template to:
 

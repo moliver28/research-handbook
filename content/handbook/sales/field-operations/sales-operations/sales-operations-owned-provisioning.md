@@ -34,7 +34,7 @@ Below are instructions on how to provision new users within various Sales-owned 
 
 ### Single Person or Bulk Access Request
 
-1. The user will manually create a [single person or bulk AR](/handbook/business-technology/team-member-enablement/onboarding-access-requests/access-requests/#singlebulk-access-requests-instructions)
+1. The user will manually create a [single person or bulk AR](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/#singlebulk-access-requests-instructions)
 1. In the instructions, they are directed to the Tech Stack doc with the following tasks:
    - Add the SalesOpsAR::Action Needed label
    - Leave the assignee blank

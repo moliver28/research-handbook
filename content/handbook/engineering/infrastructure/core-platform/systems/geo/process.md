@@ -328,33 +328,34 @@ Process summary:
 
 ##### Schedule
 
-| Month     | Name |
-| -------   | ---- |
-| **2023**  |      |
-| November  | [`@jtapiab`](https://gitlab.com/jtapiab) |
-| October   | [`@aakriti.gupta`](https://gitlab.com/aakriti.gupta) |
-| September | [`@brodock`](https://gitlab.com/brodock) |
-| August     | [`@dbalexandre`](https://gitlab.com/dbalexandre) |
-| July     | [`@vsizov`](https://gitlab.com/vsizov) |
-| June     | [`@mkozono`](https://gitlab.com/mkozono) |
-| May     | [`@ibaum`](https://gitlab.com/ibaum) |
-| April  | [`@jtapiab`](https://gitlab.com/jtapiab) |
-| March     | [`@aakriti.gupta`](https://gitlab.com/aakriti.gupta) |
-| February  | [`@brodock`](https://gitlab.com/brodock) |
-| January   | [`@brodock`](https://gitlab.com/brodock) (missed) |
-| **2022**  |      |
-| December  | [`@vsizov`](https://gitlab.com/vsizov) |
-| November  | -- |
-| October   | [`@dbalexandre`](https://gitlab.com/dbalexandre) |
-| September | [`@brodock`](https://gitlab.com/brodock) |
-| August    | [`@jbobadilla-ext`](https://gitlab.com/jbobadilla-ext) |
-| July      | [`@cat`](https://gitlab.com/cat) |
-| June      | [`@dbalexandre`](https://gitlab.com/dbalexandre) |
-| May       | [`@mkozono`](https://gitlab.com/mkozono) |
-| April     | @ibaum |
-| March     | @cat |
-| February  | @dbalexandre |
-| January   | @mkozono |
+| Month     | Name                                                   |
+| --------- | ------------------------------------------------------ |
+| **2024**  |                                                        |
+| December  |  [`@aakriti.gupta`](https://gitlab.com/aakriti.gupta)  |             
+| November  | [`@kyetter`](https://gitlab.com/kyetter)               |
+| October   | [`@dbalexandre`](https://gitlab.com/dbalexandre)       |
+| September | [`@ibaum`](https://gitlab.com/ibaum)                   |
+| August    | [`@mkozono`](https://gitlab.com/mkozono)               |
+| July      | [`@kyetter`](https://gitlab.com/kyetter)               |
+| June      |  [`@aakriti.gupta`](https://gitlab.com/aakriti.gupta)  |           
+| May       | [`@dbalexandre`](https://gitlab.com/dbalexandre)       |
+| April     | [`@ibaum`](https://gitlab.com/ibaum)                   |
+| March     | [`@brodock`](https://gitlab.com/brodock)               |
+| February  | N/A                                                    |
+| January   | [`@mkozono`](https://gitlab.com/mkozono)               |
+| **2023**  |                                                        |
+| December  | [`@ibaum`](https://gitlab.com/ibaum)                   |
+| November  | [`@jtapiab`](https://gitlab.com/jtapiab)               |
+| October   | [`@aakriti.gupta`](https://gitlab.com/aakriti.gupta)   |
+| September | [`@brodock`](https://gitlab.com/brodock)               |
+| August    | [`@dbalexandre`](https://gitlab.com/dbalexandre)       |
+| July      | [`@vsizov`](https://gitlab.com/vsizov)                 |
+| June      | [`@mkozono`](https://gitlab.com/mkozono)               |
+| May       | [`@ibaum`](https://gitlab.com/ibaum)                   |
+| April     | [`@jtapiab`](https://gitlab.com/jtapiab)               |
+| March     | [`@aakriti.gupta`](https://gitlab.com/aakriti.gupta)   |
+| February  | [`@brodock`](https://gitlab.com/brodock)               |
+| January   | [`@brodock`](https://gitlab.com/brodock) (missed)      |
 
 ## Retrospectives
 

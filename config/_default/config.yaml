@@ -110,7 +110,6 @@ security:
     getenv: [ "^HUGO_", "PERISCOPE_EMBED_API_KEY", "PRODUCT_ANALYTICS_APP_KEY", "PRODUCT_ANALYTICS_HOST" ]
 
 canonifyURLs: true
-enableGitInfo: true
 pluralizeListTitles: false
 enableEmoji: true
 
@@ -119,9 +118,10 @@ theme:
 - github.com/google/docsy
 
 module:
+  proxy: https://proxy.golang.org
   hugoVersion:
     extended: true
-    min: 0.95
+    min: 0.111
   imports:
   - path: gitlab.com/gitlab-com/content-sites/docsy-gitlab
     disable: false
@@ -129,3 +129,9 @@ module:
     disable: false
   - path: github.com/google/docsy/dependencies
     disable: false
+
+# Ignore build errors
+ignoreErrors:
+  # Do not fail to build when we fail to fetch a tweet
+  # https://gitlab.com/gitlab-com/content-sites/handbook/-/issues/178
+  - error-tweet-failed

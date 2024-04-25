@@ -1,25 +1,27 @@
 ---
-title: 'Create:IDE Team'
+title: 'Create:IDE Group'
 description: >-
-  The IDE Team is part of the Create Stage. We focus on multiple categories:
+  The IDE Group is part of the Create Stage. We focus on multiple categories:
   Remote Development and the Web IDE.
 ---
 
 ## Overview
 
-The team is part of [Create Stage][hb-create] in the [Dev Sub-department][hb-dev]. We focus on multiple [categories][hb-categories]: `Remote Development` and the `Web IDE`.
+The group is part of [Create Stage][hb-create] in the [Dev Sub-department][hb-dev]. We focus on multiple [categories][hb-categories]: `Remote Development` and the `Web IDE`.
 
-### 👌 Team OKRs
+### 👌 Group OKRs
+<span id="-team-okrs" data-message="alias anchor for old links"></span>
 
-If you're interested in the team's Objectives and Key Results (OKRs), you can find them on [GitLab](https://gitlab.com/gitlab-com/gitlab-OKRs/-/issues/?sort=title_asc&state=opened&label_name%5B%5D=group%3A%3Aide&first_page_size=20).
+If you're interested in the group's Objectives and Key Results (OKRs), you can find them on [GitLab](https://gitlab.com/gitlab-com/gitlab-OKRs/-/issues/?sort=title_asc&state=opened&label_name%5B%5D=group%3A%3Aide&first_page_size=20).
 
-### 🤴 Team Principles
+### 🤴 Group Principles
+<span id="-team-principles" data-message="alias anchor for old links"></span>
 
-[Create:IDE Principles][principles]: What Are the Create:IDE Team Principles?
+[Create:IDE Principles][principles]: What Are the Create:IDE Group Principles?
 
 ### 🚀 Team Members
 
-The following people are permanent members of the IDE Engineering Team:
+The following people are permanent members of the IDE Engineering Group:
 
 **Engineering Manager & Engineers**
 
@@ -29,7 +31,8 @@ The following people are permanent members of the IDE Engineering Team:
 
 {{< stable-counterparts role="Create:IDE" manager-role="Engineering Manager(.*)Create:IDE" >}}
 
-### ☕ Team Category DRIs
+### ☕ Category DRIs
+<span id="-team-category-dris" data-message="alias anchor for old links"></span>
 
 | Category                 | DRI                                     |
 |--------------------------|-----------------------------------------|
@@ -43,16 +46,21 @@ Depending on the context here are the most appropriate ways to reach out to the 
 - Slack Channel: [`#g_create_ide`][slack]
 - Slack Groups: `@create-ide-team` (entire team) and `@create-ide-engs` (just engineers)
 
-### 📆 Team Meetings
+### Group Metrics Dashboards
 
-**❗️Important**: For every meeting, the [IDE team's meeting document][gdoc] should be used, and filled with the meeting notes, as well as references to any other sync meeting agendas/notes/recordings which have recently occurred. This will make it easier for people to find any meeting notes.
+[Create::IDE Group Metrics Tableau Workbook](https://10az.online.tableau.com/#/site/gitlab/workbooks/2067787/views)
 
-These are regular meetings in which most team members will participate. Below is our schedule:
+### 📆 Group Meetings
+<span id="-team-meetings" data-message="alias anchor for old links"></span>
+
+**❗️Important**: For every meeting, the [IDE group's meeting document][gdoc] should be used, and filled with the meeting notes, as well as references to any other sync meeting agendas/notes/recordings which have recently occurred. This will make it easier for people to find any meeting notes.
+
+These are regular meetings in which most team members will participate. Also, please note that sync meeting schedules are flexible and can be moved to accomodate required participants.  Below is our schedule:
 
 #### Quarterly Strategy and OKR Planning Meeting
 
 - **When:** Once every quarter.
-- **What:** In this meeting, we will discuss and align our team's strategic goals and objectives. We'll go over our progress on OKRs and define the next steps to achieve them.
+- **What:** In this meeting, we will discuss and align our group's strategic goals and objectives. We'll go over our progress on OKRs and define the next steps to achieve them.
 
 #### Think Big Sessions / Optional Sync Call
 
@@ -67,45 +75,28 @@ These are regular meetings in which most team members will participate. Below is
 #### Retro Meeting
 
 - **When:** Every fourth Thursday of the month.
-- **What:** In this monthly meeting, we'll go over the feedback from our asynchronous team retro and identify action items and next steps. Our goal is to improve team efficiency by learning from our past mistakes and successes.
+- **What:** In this monthly meeting, we'll go over the feedback from our asynchronous group retro and identify action items and next steps. Our goal is to improve efficiency by learning from our past mistakes and successes.
 
 #### Pre-Iteration Planning Meeting
-
-**NOTE: This meeting is specific to the Remote Development category planning - see [Remote Development Planning Process](#-remote-development-planning-process)**
 
 - **When:** Every Wednesday, alternating between APAC and EMEA time zones.
 - **What:** The goal of the Pre-IPM meeting is for the team leaders to collaborate on preparing all issues which are to be prioritized for the upcoming iteration(s), so they are ready for the wider team to discuss and estimate in the next IPM. For more information, see ["Pre-Iteration Planning Meeting"](#-pre-iteration-planning-meeting).
 
 #### Iteration Planning Meeting (IPM)
 
-**NOTE: This meeting is specific to the Remote Development category planning - see [Remote Development Planning Process](#-remote-development-planning-process)**
+- **When:** Biweekly on Wednesday, alternating between APAC and EMEA time zones.
+- **What:** In this meeting, we will review the team's backlog and the current iteration status. We'll estimate and prioritize work for the next one or two iterations. The meeting will alternate between APAC and EMEA time zones to accommodate different regions. For more information, see ["Iteration Planning Meeting"](#-iteration-planning-meeting).
 
-- **When:** Every Wednesday, alternating between APAC and EMEA time zones.
-- **What:** In this weekly meeting, we will review the team's backlog and the current iteration status. We'll estimate and prioritize work for the next one or two iterations. The meeting will alternate between APAC and EMEA time zones to accommodate different regions. For more information, see ["Iteration Planning Meeting"](#-iteration-planning-meeting).
-
-## 📦 Team Processes
+## 📦 Group Processes
+<span id="-team-processes" data-message="alias anchor for old links"></span>
 
 ### 🖖 Weekly EM Updates
 
-Each week the team EM provides a Weekly Status update issue which aims to capture the most important items for the team to be aware of. These can be found [here](https://gitlab.com/gitlab-com/create-stage/ide/-/issues/?sort=title_asc&state=all&label_name%5B%5D=Weekly%20Team%20Announcements&first_page_size=20).
-
-### 📄 Milestone Planning
-
-Every month, we create a Milestone Planning issue that serves as the single source of truth (SSoT) for the current milestone.
-
-This issue provides us with a centralized location to discuss our upcoming milestone work, plan for feature, bug, and maintenance tasks, and provides us with the necessary flexibility to iterate mid-milestone if required.
-
-Populate the milestone planning issue with issues from the prioritized boards placed in the ~"workflow::ready for development" column. Feel free to add maintenance issues that aren’t directly related to the group as well.
-
-Move the issues assigned to the current milestone to the ~"workflow:: in dev" column. Also, assign the ~"Deliverable" label and assign the target milestone.
-
-You can find all milestone planning issues in the [IDE team’s project](https://gitlab.com/gitlab-com/create-stage/ide/-/issues/?sort=created_date&state=all&label_name%5B%5D=Planning%20Issue&first_page_size=40).
-
-The layout for these Milestone issues are automated and can be found [here](https://gitlab.com/gitlab-com/create-stage/ide/-/blob/main/.gitlab/issue_templates/planning_issue.md).
+Each week the group EM provides a Weekly Status update issue which aims to capture the most important items for the team to be aware of. These can be found [here](https://gitlab.com/gitlab-com/create-stage/ide/-/issues/?sort=title_asc&state=all&label_name%5B%5D=Weekly%20Team%20Announcements&first_page_size=20).
 
 ### 😷 Issue Workflow Hygiene
 
-In the Create:IDE team we leverage an automatic issue hygiene system via the [triage bot](https://gitlab.com/gitlab-org/quality/triage-ops/-/tree/master/policies/groups/gitlab-org/ide). This helps to ensure issues and label hygiene are respected, currently, our rules are:
+In the Create:IDE group we leverage an automatic issue hygiene system via the [triage bot](https://gitlab.com/gitlab-org/quality/triage-ops/-/tree/master/policies/groups/gitlab-org/ide). This helps to ensure issues and label hygiene are respected, currently, our rules are:
 
 ### 🌉 Architecture Plans vs. Iteration Plans
 
@@ -131,72 +122,24 @@ These guidelines apply to all issues we use for planning and scheduling work wit
 
 It's okay to create specific engineering-driven implementation issues for more complex features. These would be called **Child Issues** and they should always link back to their parent. If one issue would spawn many child issues, consider creating an Epic.
 
-### 🤖 Category-Specific Planning Processes
+## 🤖 Planning Process
+<span id="-category-specific-planning-processes" data-message="alias anchor for old links"></span>
 
-Currently, our team has two primary planning processes: one for Remote Development category, and another for the Web IDE category.
-
-The Remote Development team has decided to use an alternate process for the following reasons:
+The IDE group has decided to use an alternate planning process for the following reasons:
 
 1. Remote Development is a large, greenfield category, with many engineering, infrastructure, and technical concerns and unknowns which will continue to evolve and change as the category matures.
 1. The Remote Development category is also currently receiving much attention as part of of GitLab's competitive strategy, and thus has greater internal and external expectations for accurate estimates of feature delivery and timelines.
 1. In order to meet this need for more accurate and realistic planning and delivery estimates, the Remote Development category team has decided to modify parts of the [Plan](/handbook/product-development-flow/#build-phase-1-plan) and [Build & Test](/handbook/product-development-flow/#build-phase-2-develop--test) phases of the GitLab Product Development Flow to a more lightweight velocity-based estimation and planning process inspired by the widely-used and popular [XP](https://www.amazon.com/Extreme-Programming-Explained-Embrace-Change/dp/0321278658) and [Scrum](https://www.scrum.org/resources/blog/agile-metrics-velocity) methodologies. The goal is to provide accurate delivery estimates based on ["Yesterday's Weather"](https://gitlab.com/gitlab-com/www-gitlab-com/uploads/283f165896e2851bdc324f790d9c90e4/Screen_Shot_2023-03-27_at_6.16.51_PM.png) historical velocity analysis.
-1. To better support the use of these methodologies,the Remote Development team has committed to dogfooding the [Iterations feature](https://docs.gitlab.com/ee/user/group/iterations/index.html), and following the [documented process for running agile iterations](https://docs.gitlab.com/ee/tutorials/agile_sprint.html) where possible.
+1. To better support the use of these methodologies, the IDE group has committed to dogfooding the [Iterations feature](https://docs.gitlab.com/ee/user/group/iterations/index.html), and following the [documented process for running agile iterations](https://docs.gitlab.com/ee/tutorials/agile_sprint.html) where possible.
 1. However, due to existing limitations of the Iterations and Boards features in fully supporting these methodologies, we will also experiment with new and alternate tools and processes, with the goal of informing and potentially contributing back to improve GitLab's support for them. More details will be shared as this effort evolves.
 
-The Web IDE is a significantly different feature, and does not share many of these same concerns or desires, therefore it will still use a workflow closer to the standard [GitLab Product Development Flow](https://about.gitlab.com/handbook/product-development-flow). See [this comment thread](https://gitlab.com/gitlab-com/www-gitlab-com/-/merge_requests/118896#note_1330391062) for more context and discussion around this decision.
+Even though the Web IDE category does not have all these constraints (e.g. it is based on VS Code and is not greenfield code, and has fewer unknowns), the Web IDE category will follow a similar process in order reduce the cognitive overhead of the entire group.
 
-See the sections below for details on each category's specific planning processes.
+### Planning Process Overview
+<span id="-remote-development-planning-process" data-message="alias anchor for old links"></span>
+<span id="remote-development-planning-process-overview" data-message="alias anchor for old links"></span>
 
-## 🤖 Web IDE Planning Process
-
-The Web IDE still usees the default milestone planning process which is loosely based in the [Plan](/handbook/product-development-flow/#build-phase-1-plan) and
-[Develop & Test](/handbook/product-development-flow/#build-phase-2-develop--test) phases
-of the product development workflow. We recommend reading these references for a better understanding of this workflow.
-
-These categories have prioritized boards that are populated during
-[Milestone Planning](#-milestone-planning):
-
-- [Web IDE Prioritized Board](https://gitlab.com/groups/gitlab-org/-/boards/5288010?milestone_title=Upcoming&label_name[]=Category%3AWeb%20IDE&label_name[]=Deliverable)
-
-Each column on the board represents a phase of the development workflow:
-
-- The open lane is populated with issues labeled with the `~Category:[Category]` and `~Deliverable` labels. These labels signal that the issue is deemed a priority by the team.
-- `workflow::ready for development` contains issues that are ready to pick in an upcoming milestone.
-- `workflow::refinement` contains issues that require more investigation or to break them down into smaller units of work that can be delivered in a single milestone.
-- `workflow::in dev` contains ongoing work.
-- `workflow::complete` contains completed work.
-
-The following diagram visualizes the milestone planning and delivery process:
-
-```mermaid
-graph
-
-classDef workflowLabel fill:#428BCA,color:#fff;
-classDef issueCreateLabel fill:#6aa84f,color:#fff;
-
-  A(Issue Created):::issueCreateLabel
-  B(WebIDE or VSCode Prioritized):::workflowLabel
-  C{Issue needs refinement?}:::workflowLabel
-  D(workflow::refinement):::workflowLabel
-  E(workflow::ready for development):::workflowLabel
-  F(workflow::in dev):::workflowLabel
-  G(workflow::complete):::workflowLabel
-
-  A -- Reviewed by EM, PM, Design, and end leads --> B
-  B --> C
-  C -- Yes --> D
-  D -- tech spike, break down issue, etc. --> C
-  C -- No --> E
-  E -- Schedule for current milestone --> F
-  F -- Approved and merge --> G
-  G --> CLOSE
-```
-
-## 🤖 Remote Development Planning Process
-
-### Remote Development Planning Process Overview
-
-For the reasons [described above](#-category-specific-planning-processes), the Remote Development category team has decided to modify parts of the [Plan](/handbook/product-development-flow/#build-phase-1-plan) and [Build & Test](/handbook/product-development-flow/#build-phase-2-develop--test) phases of the GitLab Product Development Flow to a more lightweight velocity-based estimation and planning process inspired by the widely-used and popular [XP](https://www.amazon.com/Extreme-Programming-Explained-Embrace-Change/dp/0321278658) and [Scrum](https://www.scrum.org/resources/blog/agile-metrics-velocity) methodologies.
+The IDE group has modified parts of the [Plan](/handbook/product-development-flow/#build-phase-1-plan) and [Build & Test](/handbook/product-development-flow/#build-phase-2-develop--test) phases of the GitLab Product Development Flow to a more lightweight velocity-based estimation and planning process inspired by the widely-used and popular [XP](https://www.amazon.com/Extreme-Programming-Explained-Embrace-Change/dp/0321278658) and [Scrum](https://www.scrum.org/resources/blog/agile-metrics-velocity) methodologies.
 
 The crux of these changes is focused around the following process phases:
 
@@ -208,18 +151,37 @@ These components allow us to provide realistic velocity-based estimates based on
 
 **IMPORTANT: note that these process changes do not represent a full adoption of XP or Scrum methodologies. Instead, they are a minimal and lightweight process "inspired" by XP and Scrum. The primary goal is to allow the team to provide realistic planning and delivery estimates to leadership based on accurate velocity measurements. The Pre-IPM and IPM processes are the minimal components which allow us to meet that goal.**
 
+### Custom workflow labels
+
+To facilitate the IDE group's specific planning process, we make use of custom workflow scoped labels under `~rd-workflow::` or `~webide-workflow::`.
+These custom workflow labels are necessary to work around [current limitations of GitLab iterations and boards in implementing this process](https://gitlab.com/cwoolley-gitlab/gl-velocity-board-extension#why-doesnt-standard-gitlab-support-this).
+
+The Web IDE category uses the separate set of `~webide-workflow::` scoped labels, because this makes management of boards and workflows easier, especially in the case of issues which may have both categories' labels applied.
+
 ### GitLab Velocity Board Chrome Extension
 
 To facilitate this process, especially around calculating emergent iterations based on velocity, we will use the
 [GitLab Velocity Board Chrome Extension](https://gitlab.com/cwoolley-gitlab/gl-velocity-board-extension).
 
 See [this video](https://www.youtube.com/watch?v=XcHpLhs7Fl0) for an overview of the extension, and also for an explanation of
-this general process, and why we need to use an extension to support it rather than the current  standard GitLab Iteration and Board features.
+this general process, and why we need to use an extension to support it rather than the current standard GitLab Iteration and Board features.
 
 This extension is in support of a [GitLab OKR](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/2085) for Create.
 We plan to continue iterating in this area, with the goal of eventually having GitLab directly support this workflow.
 
-### Remote Development Iteration Planning Report
+### Wider Board Columns
+
+The default width of lists on boards can make the board harder to use, since you see fewer items and have to scroll more.
+
+There is [an open issue to address this](https://gitlab.com/gitlab-org/gitlab/-/issues/15927). In the meantime, though, you can use the following javascript bookmarklet suggested in [this comment on the issue](https://gitlab.com/gitlab-org/gitlab/-/issues/15927#note_214871708), which will make the lists take up the full board width. Just make a bookmark named "Wider board lists" with this as the link:
+
+```text
+javascript:(function(){var el=document.getElementsByClassName('boards-list');for(i=0;i<el.length;++i){el[i].style.padding=0;el[i].style.display='table';}el=document.getElementsByClassName('board');for(i=0;i<el.length;++i){el[i].style.padding=0;el[i].style.border='0';el[i].style.display='table-cell';}el=document.getElementsByClassName('board-inner');for(i=0;i<el.length;++i){el[i].style.padding=0;el[i].style.border='0';}})();
+```
+
+### Iteration Planning Report
+
+TODO: We need to create a Web IDE version of this report and link it in the category slack channel - there is [an issue for this](https://gitlab.com/gitlab-org/gitlab/-/issues/452218).
 
 In addition to the Velocity Board chrome extension, there is a [Remote Development Iteration Planning Report](https://gitlab-org.gitlab.io/remote-development/remote-development-team-automation/remote-development-iteration-planning-report-latest.html) which is automatically published every 6 hours.
 
@@ -229,15 +191,15 @@ The pipeline to generate it can also be run [directly from CI](https://gitlab.co
 
 ### Process Phases
 
-NOTE: All issues in this process _must_ be assigned the `~Category:Remote Development` label, _even if they are also assigned another category label_. Otherwise the board and velocity calculation tools will not work properly.
+NOTE: All issues in this process _must_ be assigned the `~Category:Remote Development` or `~Category:Web IDE` label, _even if they are also assigned another category label_. Otherwise the board and velocity calculation tools will not work properly.
 
 ```mermaid
 graph TD;
-  S['Category:Remote Developent' issue created] -->|New issue is added to an epic, and 'rd-workflow::unprioritized' label is applied| V[High Level Validation and Planning]
+  S[issue created] -->|New issue is added to an epic, and '(rd|webide)-workflow::unprioritized' label is applied| V[High Level Validation and Planning]
   V -->|'Next 1-3 Releases' milestone is applied to higher-priority issues| R[Pre-IPM - Async Refinement]
-  R -->|Unprioritized issues with 'Next 1-3 Releases' milestone are refined| P[Pre-IPM - Sync prioritization]
-  P -->|Refined issues are prioritized into 'rd-workflow::prioritized'| I[IPM]
-  I -->|'rd-workflow::prioritized' issues are discussed and estimated by the entire team| N[Next]
+  R -->|Unprioritized issues with 'Next 1-3 Releases' milestone are assigned for refinement| P[Pre-IPM - Sync prioritization]
+  P -->|Refined issues are prioritized into '(rd|webide)-workflow::prioritized'| I[IPM]
+  I -->|'(rd|webide)-workflow::prioritized' issues are discussed and estimated by the entire team| N[Next]
   N -->|Issue is assigned to a specific release based on its calculated iteration| E[Development proceeds for issue]
 ```
 
@@ -248,10 +210,10 @@ graph TD;
 **TL;DR: Assign the [`Next 1-3 releases` milestone](https://gitlab.com/groups/gitlab-org/-/milestones/48#tab-issues) milestone to all issues that should be refined and prioritized in the next Pre-IPM meeting(s).**
 
 1. All higher-priority issues should be [contained in the category epic or one of its sub-epics](https://gitlab.com/groups/gitlab-org/-/epics/7419)
-1. They should all have the `~rd-workflow::unprioritized` label assigned.
+1. They should all have the `~(rd|webide)-workflow::unprioritized` label assigned.
 1. All higher-priority issues should be assigned to the **[`Next 1-3 releases` milestone](https://gitlab.com/groups/gitlab-org/-/milestones/48#tab-issues)**.
 1. Issues which are not a priority to finish within the `%"Next 1-3 releases"` may have the `%"Next 4-7 releases"` or `%"Next 7-13 releases"` release applied, or alternately, they can be assigned to `%Backlog` or `%Awaiting Further Demand`.
-1. Issues in `~rd-workflow::unprioritized` MUST NOT be left without a release applied. This should be enforced by automation. Use [this issue search to identify Remote Development issues which are missing a milestone](https://gitlab.com/groups/gitlab-org/-/issues/?sort=created_asc&state=opened&label_name%5B%5D=Category%3ARemote%20Development&milestone_title=None&first_page_size=100)
+1. Issues in `~(rd|webide)-workflow::unprioritized` MUST NOT be left without a release applied. This should be enforced by automation. Use [this issue search to identify Remote Development issues which are missing a milestone](https://gitlab.com/groups/gitlab-org/-/issues/?sort=created_asc&state=opened&label_name%5B%5D=Category%3ARemote%20Development&milestone_title=None&first_page_size=100)
 
 **Explanation:**
 
@@ -261,7 +223,7 @@ In addition to validating features, this process can also result in Engineering 
 
 There may be concerns about over-committing too many issues to the `%"Next 1-3 releases"` release. However:
 
-1. If we are being healthy and diligent about following the Pre-IPM process **_every week_** as defined, we should be reviewing **_ALL_** issues which have the `%"Next 1-3 releases"` during every Pre-IPM, and moving them to `~"rd-workflow::prioritized"` .
+1. If we are being healthy and diligent about following the Pre-IPM process **_every week_** as defined, we should be reviewing **_ALL_** issues which have the `%"Next 1-3 releases"` during every Pre-IPM, and moving them to `~"(rd|webide)-workflow::prioritized"` .
 1. If we don't get to them one week, we should decide how to deal with it - either agree to do them async in the next week, schedule an extra Pre-IPM, or commit to ensuring we finish reviewing them in next week's Pre-IPM.
 1. Then, during the weekly IPM, per the process defined above, these issues will be weighted and prioritized, and have their release changed from `%"Next 1-3 releases"` to a specific release, depending on what iteration they fall into (and we can always give ourselves a "buffer" by assuming, for our purposes, that only things slated to be completed by a certain time will be likely to be in the release, e.g., everything slated to be completed in the 2nd iteration of the month, which is a ~1+ week buffer before the actual release is cut).
 
@@ -272,17 +234,19 @@ See the [following discussion thread](https://gitlab.com/gitlab-org/create-stage
 **TL;DR:**
 
 - **Async phase - Refinement:**
-  - **Engineering Manager: Assign someone to refine each unrefined `rd-workflow::unprioritized` issue which has the `%"Next 1-3 releases"` milestone using the [Remote Development issue template](https://gitlab.com/gitlab-org/gitlab/-/blob/master/.gitlab/issue_templates/Remote%20Development%20Group%20-%20issue.md)**
+  - **Engineering Manager: Assign someone to refine each unrefined `(rd|webide)-workflow::unprioritized` issue which has the `%"Next 1-3 releases"` milestone using the [Remote Development issue template](https://gitlab.com/gitlab-org/gitlab/-/blob/master/.gitlab/issue_templates/Remote%20Development%20Group%20-%20issue.md)**
   - **Refinement Assignees: Adequately refine the issue using the [Remote Development issue template](https://gitlab.com/gitlab-org/gitlab/-/blob/master/.gitlab/issue_templates/Remote%20Development%20Group%20-%20issue.md), then apply the `refined` label**
-- **Sync phase - Prioritization: Product and Engineering leaders meet to appropriately prioritize each `refined` issue into the `rd-workflow::prioritized` lane on the Iteration Planning board.**
+- **Sync phase - Prioritization: Product and Engineering leaders meet to appropriately prioritize each `refined` issue into the `(rd|webide)-workflow::prioritized` lane on the Iteration Planning board.**
 
 ##### Async Phase of Pre-IPM Process - Refinement
 
 1. Identify all issues which:
-   1. Have the `~"rd-workflow::unprioritized"` **AND**
+   1. Have the `~"(rd|webide)-workflow::unprioritized"` **AND**
    1. Have the `%"Next 1-3 releases"` milestone applied (optionally include additional milestones for next `3-4`/`4-7` releases, if these are being used) **AND**
    1. Do **NOT** yet have the `~refined` label
-1. This can be done by a [direct search for `Label is ~rd-workflow::unprioritized` and `Milestone is %Next 1-3 releases` and `Label is not one of ~refined`](https://gitlab.com/groups/gitlab-org/-/issues/?sort=created_asc&state=opened&label_name%5B%5D=rd-workflow%3A%3Aunprioritized&milestone_title=Next%201-3%20releases&not%5Blabel_name%5D%5B%5D=refined&first_page_size=100)
+1. This can be done by a direct search:
+   1. Remote Development: [direct search for `Label is ~rd-workflow::unprioritized` and `Milestone is %Next 1-3 releases` and `Label is not one of ~refined`](https://gitlab.com/groups/gitlab-org/-/issues/?sort=created_asc&state=opened&label_name%5B%5D=rd-workflow%3A%3Aunprioritized&milestone_title=Next%201-3%20releases&not%5Blabel_name%5D%5B%5D=refined&first_page_size=100)
+   1. Web IDE: [direct search for `Label is ~webide-workflow::unprioritized` and `Milestone is %Next 1-3 releases` and `Label is not one of ~refined`](https://gitlab.com/groups/gitlab-org/-/issues/?sort=created_asc&state=opened&label_name%5B%5D=webide-workflow%3A%3Aunprioritized&milestone_title=Next%201-3%20releases&not%5Blabel_name%5D%5B%5D=refined&first_page_size=20).
 1. Assign each of these issues to an appropriate team member to be refined, and leave a comment on the issue mentioning the team member and linking to
    [Async Phase of Pre-IPM Process - Refinement](#async-phase-of-pre-ipm-process---refinement)
    This selection process can be whatever works for the team, but in general issues should be refined by someone who has the knowledge and availability
@@ -296,11 +260,11 @@ See the [following discussion thread](https://gitlab.com/gitlab-org/create-stage
 
 ##### Sync Phase of Pre-IPM Process - Prioritization
 
-1. During each Pre-IPM meeting, we will _temporarily_ [filter the Iteration Planning board on the `~refined` label](https://gitlab.com/groups/gitlab-org/-/boards/5283620?label_name[]=Category%3ARemote%20Development&label_name[]=refined),
-   so that only refined issues appear in the `~"rd-workflow::unprioritized"` list. _Make sure you don't save this filter to the defualt board settings_
-1. The goal of each Pre-IPM sync meeting will be to prioritize all of these issues into the `~"rd-workflow::prioritized"` list, based on their
-   relative importance, whether they are blocking other issues, etc. They are prioritized by dragging them into the appropriate order in the `~"rd-workflow::prioritized"` list, with the highest-priority issues being at the top, and the lowest-priority issues being at the bottom.
-1. After an issue has been moved to the `~"rd-workflow::prioritized"` list, it should be assigned to the **current `Iteration` of the `Iteration Cadence`**.
+1. During each Pre-IPM meeting, we will _temporarily_ filter the Iteration Planning board on the `~refined` label,
+   so that only refined issues appear in the `~"(rd|webide)-workflow::unprioritized"` list. _Make sure you don't save this filter to the defualt board settings_
+1. The goal of each Pre-IPM sync meeting will be to prioritize all of these issues into the `~"(rd|webide)-workflow::prioritized"` list, based on their
+   relative importance, whether they are blocking other issues, etc. They are prioritized by dragging them into the appropriate order in the `~"(rd|webide)-workflow::prioritized"` list, with the highest-priority issues being at the top, and the lowest-priority issues being at the bottom.
+1. After an issue has been moved to the `~"(rd|webide)-workflow::prioritized"` list, it should be assigned to the **current `Iteration` of the `Iteration Cadence`**.
    We will eventually create an automation for this, but for now it must be done manually. The easiest way to do this is to search for `RD` in the `Iteration` field,
    and pick the top-most iteration. Then, the `Iteration Cadence` feature functionality will handle automatically rolling over any incomplete issues to the next
    iteration once the current iteration ends. Do _NOT_ assign it to a future iteration, only the current iteration. We do this because of limitations in the
@@ -317,7 +281,7 @@ During the Pre-IPM, the team will collaborate on creating/refining, organizing, 
 If a single piece of work spans multiple projects/repos, there should be be a separate issue created for each MR in each repo. We cannot use the [tasks feature](https://docs.gitlab.com/ee/user/tasks.html#set-task-weight), because boards cannot display individual
 tasks.
 
-**QUESTION: Why isn't there a `~rd-workflow::refined` phase instead of using the `~refined` label?**
+**QUESTION: Why isn't there a `~(rd|webide)-workflow::refined` phase instead of using the `~refined` label?**
 
 For a few reasons:
 
@@ -335,9 +299,9 @@ For a few reasons:
 
 **TL;DR: _As a team_, briefly discuss then estimate each prioritized issue.**
 
-1. In each the IPM meeting, all newly prioritized issues in the `~"rd-workflow::prioritized"` lane of the [Iteration Planning](https://gitlab.com/groups/gitlab-org/-/boards/5283620?label_name[]=Category%3ARemote%20Development) board are reviewed by the team. The board should be unfiltered other than the standard `~"Category:Remote Development"` label.
+1. In each the IPM meeting, all newly prioritized issues in the `~"(rd|webide)-workflow::prioritized"` lane of the [Remote Development Iteration Planning board](https://gitlab.com/groups/gitlab-org/-/boards/5283620) or [Web IDE Iteration Planning board](https://gitlab.com/groups/gitlab-org/-/boards/7440987) are reviewed by the team. The board should be unfiltered other than the standard `~"Category:Remote Development"` or `~"Category:Web IDE"` label.
 1. For each newly-prioritized issue, the facilitator reads the description, and the team **_briefly_** discusses the issue. If there are no blocking concerns/risks raised, the team collectively estimates the issue with rock-paper-scissors fibonacci scale, and the collectively agreed weight is assigned.
-    1. If the discussion for a single issue goes on longer than 5-10 minutes or turns into an extended debate/discussion, this is an indicator that the issue has not been adequately refined, and should go back to the ~"rd-workflow::unprioritized" list, and potentially have another issue immediately created and prioritized to do further investigation/refinement, if the refinement scope may be significant.
+    1. If the discussion for a single issue goes on longer than 5-10 minutes or turns into an extended debate/discussion, this is an indicator that the issue has not been adequately refined, and should go back to the `~"(rd|webide)-workflow::unprioritized"` list, and potentially have another issue immediately created and prioritized to do further investigation/refinement, if the refinement scope may be significant.
 1. Issues which are prioritized in the upcoming 1-2 iterations should be assigned to individual(s) at this point, to ensure it gets worked on and not lost.
 
 **Explanation:**
@@ -346,7 +310,7 @@ The "Iteration Planning Meeting", or "IPM" meeting is a weekly process where a t
 
 The goal of the IPM is to ensure all issues for the upcoming iteration have been discussed, and [estimated with weights as a team](#-what-weights-to-use). Then, each issue will be worked on, and if there are commits to be made as part of the work, there should be a 1-to-1 relationship between the issue and MR.
 
-The iteration cycle is one week long, and the team maintains one board for tracking their progress - [the Iteration Planning board](https://gitlab.com/groups/gitlab-org/-/boards/5283620?label_name[]=Deliverable&label_name[]=Category%3ARemote%20Development).
+The iteration cycle is one week long, and each category team maintains a separate dedicated board for tracking their progress - [the Remote Development Iteration Planning board](https://gitlab.com/groups/gitlab-org/-/boards/5283620) and [the Web IDE Iteration Planning board](https://gitlab.com/groups/gitlab-org/-/boards/7440987).
 
 #### 4. Assigning prioritized issues to specific releases based on calculated iterations
 
@@ -362,11 +326,11 @@ Then, based on the dates of calculated iterations, we can reassign the issues fr
 
 1. Product and Design work together to identify a new feature requirement.
 1. An issue is created using the [Remote Development issue template](https://gitlab.com/gitlab-org/gitlab/-/blob/master/.gitlab/issue_templates/Remote%20Development%20Group%20-%20issue.md). The correct labels are automatically applied by the template,
-   so the issue shows up in the `~"rd-workflow::unprioritized` list of the Iteration Planning board.
+   so the issue shows up in the `~"(rd|webide)-workflow::unprioritized` list of the Iteration Planning board.
    Note that the issue description may be incomplete/unrefined and high-level at this point.
 1. Product decides the issue is a high priority, so they apply the `%"Next 1-3 Releases"` milestone to signal this.
 1. As part of the async Pre-IPM process, someone is assigned to refine the issue, by finishing filling out the issue template, then applying the `~refined` label
-1. As part of the sync Pre-IPM meeting, product and engineering leadership move the refined issue to the `~rd-workflow::prioritized` list,
+1. As part of the sync Pre-IPM meeting, product and engineering leadership move the refined issue to the `~(rd|webide)-workflow::prioritized` list,
    in the appropriate position based on its priority relative to other issues.
 1. In the sync IPM meeting, the wider team discusses and estimates the issue, and it is assigned to whoever will do the work.
 1. Once the priority and weight are determined, the current velocity will tell us what iteration the issue should be completed in, and a specific
@@ -374,25 +338,18 @@ Then, based on the dates of calculated iterations, we can reassign the issues fr
 1. The assignee opens an MR for the issue, ensures that the issue and MR are cross-referenced on the first lines of their descriptions, and
    begins work on the MR.
 1. When the work is completely done - i.e., the MR is reviewed and merged, the feature is verified and tested in production, etc.,
-   then the issue is closed, and moved to the `~rd-workflow::done` list.
+   then the issue is closed, and moved to the `~(rd|webide)-workflow::done` list.
 
-### 1-to-1 Relationship of Issues to MRs
+### Relationship of Issues to MRs
+<span id="1-to-1-relationship-of-issues-to-mrs" data-message="alias anchor for old links"></span>
 
 We want to enforce that:
 
-1. Every MRs is only associated with a single issue
-1. No issue can have more than 1 MR associated with it
+1. Every MR is owned by a weighted issue
 
 This is in order to facilitate accurate and granular velocity calculations and issue prioritization under this process.
 The merge request is the atomic unit of deliverable work in most cases, so it must be represented in the prioritization
-and calculations by being associated with one and only one issue.
-
-If boards and epics allowed MRs to be added and estimated as well as issues, this would not be necessary - for feature/maintenance
-involving an MR, we could have the MR directly represent the full lifecycle of the discussion and implementation, and not
-have an issue at all.
-
-We also cannot rely on the Crosslinking Issues feature (https://docs.gitlab.com/ee/user/project/issues/crosslinking_issues.html),
-because this shows ALL linked MRs that have mentioned the issue anywhere, and cannot enforce this 1-1 relationship.
+and calculations by being owned by one and only one issue.
 
 In order to enforce this via triage-ops automations
 (https://about.gitlab.com/handbook/engineering/development/dev/create/ide/#automations-for-remote-development-workflow),
@@ -400,11 +357,28 @@ the first line of the issue should have the format: `MR: <...>`:
 
 1. For new issues, the first description line should be: `MR: Pending`
 1. Once an MR is created for the issue and work is started, the first description line of the issue should be: `MR: <MR link with trailing +>`,
-   and the first description line of the MR should be `Issue: <Issue link with trailing +>`
+   and the first description line of the MR should be `Issue: <Issue link with trailing +>`.
+1. If the work for an issue was iteratively split into multiple MR's, the first description line of the issue should be:
+   ```
+   MR:
+     - <MR link with trailing +>
+     - <MR link with trailing +>
+   ```
+   Each description line of the MR's in this list should be `Issue: <Issue link with trailing +>`. **Please note:** If breaking out an issue's implementation
+   into multiple MR's unexpectedly increases the scope of the work, please consider creating a new weighted and prioritized issue to
+   capture the extra scope. This is important in order to accurately reflect scope increases, and their impact on reporting and velocity.
 1. If there is _NO MR_ associated with this issue, the first line should be: `MR: No MR`.
    However, this should be rare, because most issues should have some sort of committed deliverable, even if it is only
    a documentation addition or update. If it is an issue which represents a larger piece of work split across smaller issues,
    then it should be promoted to an epic.
+
+**QUESTION: Why does every MR need a backing issue?**
+
+- If boards and epics allowed MRs to be added and estimated as well as issues, this would not be necessary - for feature/maintenance
+involving an MR, we could have the MR directly represent the full lifecycle of the discussion and implementation, and not
+have an issue at all.
+- We also cannot rely on the Crosslinking Issues feature (https://docs.gitlab.com/ee/user/project/issues/crosslinking_issues.html),
+because this shows ALL linked MRs that have mentioned the issue anywhere, and cannot enforce this 1-1 relationship.
 
 ### 📝 Ad-Hoc Work
 
@@ -422,7 +396,7 @@ To assign weights to issues effectively, it's important to remember that issue w
     - Making CSS or UI adjustments.
     - Minor code changes to one or two files, which require tests to be written or updated.
 - **Weight 2:** For more involved issues which are still straightforward without much risk or complexity, but may involve touching multiple areas of the code, and updating multiple tests.
-- **Weight 3:** For larger issues which may have some unforeseen complexity or risk, or require more extensive changes, but is still not large enough to warrant  [breaking down into smaller separate issues](#-breaking-down-large-issues).
+- **Weight 3:** For larger issues which may have some unforeseen complexity or risk, or require more extensive changes, but is still not large enough to warrant [breaking down into smaller separate issues](#-breaking-down-large-issues).
 - **Weight 5:** Normally, this weight should be avoided, and indicate that the issue ideally [should be broken down into smaller separate issues](#-breaking-down-large-issues). However, in some cases a issue with a weight of 5 might still be prioritized. For example, if there is a large amount of manual updates to be made which will require a large amount of effort, but doesn't necessarily involve significant risk or uncertainty.
 - **Weight 8/13+:** Weights above 5 are used to clearly indicate work that is not yet ready to be assigned for implementation, and _must_ be broken down because it is too large in scope to start implementing, and/or still has too many unknowns/risks. This weight is temporarily assigned to "placeholder" issues to capture the scope of the effort in our velocity-based capacity planning calculations. For more information, see ["Breaking Down Large Issues"](#-breaking-down-large-issues).
 
@@ -438,9 +412,10 @@ Some issues are large in scope to start implementing, and/or still has too many 
     1. The `~blocked` label can be applied so it is clear that this issue should is not ready for development. Unfortunately, we must still apply the `~Deliverable` label to this issue, because that is the only way we can associate it with the Iteration Cadence for velocity calculations.
 1. Once the investigation and breakdown into smaller issues is complete, then the weight can be removed and the issue closed.
 
-### 🍨 Handling Remote Development Issues Outside the Process
+### 🍨 Handling Issues Outside the Process
+<span id="-handling-remote-development-issues-outside-the-process" data-message="alias anchor for old links"></span>
 
-For certain scenarios, we handle remote development (RD) issues differently, categorizing them under the `rd-workflow::ignored` label. These categories include:
+Certain `group::ide` issues may be categorized under the `(rd|webide)-workflow::ignored` label. These categories include:
 
 1. **QA-Owned Issues:**
    - Issues owned by QA that may not require the standard remote development process.
@@ -517,7 +492,9 @@ Other more complex automations may be set up in the
 
 Ideally we should automate as much of the [Remote Development Planning Process](#-remote-development-planning-process) workflow as possible.
 
-We have the following automation goals for the Remote Development Workflow. Unless otherwise noted, these rules are all defined in the  [triage-ops `policies/groups/gitlab-org/ide/remote-development-workflow.yml` config files](https://gitlab.com/gitlab-org/quality/triage-ops/-/blob/master/policies/groups/gitlab-org/ide/remote-development))
+We have the following automation goals for this Workflow. Unless otherwise noted, these rules are all defined in the [triage-ops `policies/groups/gitlab-org/ide/remote-development-workflow.yml` config files](https://gitlab.com/gitlab-org/quality/triage-ops/-/blob/master/policies/groups/gitlab-org/ide/remote-development).
+
+TODO: None of these are set up for the Web IDE category and `webide-workflow::*` labels yet - there is [an issue for this](https://gitlab.com/gitlab-org/gitlab/-/issues/452218).
 
 | ID | Goal | Automation | Link(s) to implementation |
 | --- | --- | --- | --- |

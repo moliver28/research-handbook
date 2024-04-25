@@ -1,8 +1,8 @@
 ---
 
 title: "Simon Street's README"
-description: "Personal readme page for Simon Street, Support Engineer, GitLab"
-job: "Support Engineer (EMEA)"
+description: "Personal readme page for Simon Street, Senior Support Engineer, GitLab"
+job: "Senior Support Engineer (EMEA)"
 ---
 
 ## Simon's README
@@ -13,7 +13,7 @@ job: "Support Engineer (EMEA)"
 
 Hello! This page is intended to give you a little bit of information about me.
 
-I started at GitLab in March 2022 as a [Support Engineer](/job-families/engineering/support-engineer/). I live in Bedfordshire, England, UK.
+I started at GitLab in March 2022 as a [Support Engineer](/job-families/engineering/support-engineer/). I live in Bedfordshire, England, UK. In Feburary 2024 I was promoted to Senior Support Enginner.
 
 All of my working life has been in tech having started out replacing computers on lease cycles in a primally [Novell NetWare](https://en.wikipedia.org/wiki/NetWare) environment before moving on to a desktop support role at a small stage/projection equipment hire company.
 

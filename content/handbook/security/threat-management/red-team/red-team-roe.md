@@ -46,10 +46,11 @@ The logistics phase will define detailed rules for each specific operation. The 
 - Approval is required from the Senior Manager of Threat Management.
 - Approval is required from everyone defined as a "trusted participant" in the logistics phase.
 
-### Deconfliction Process
+### Requests for Disclosure
 
 - Active stealth operations will have a dedicated Slack channel where all trusted participants are invited.
-- The private `#is-this-the-redteam` channel is always available for Security Directors and above to inqure about Red Team activities.
+- The private `#is-this-the-redteam` channel is always available for Security Directors and above to inquire about Red Team activities.
+- Managers and above can [submit an issue using this template](https://gitlab.com/gitlab-com/gl-security/threatmanagement/redteam/redteam-internal/red-team-operations/-/issues/new?issuable_template=request-for-disclosure) to request disclosure of Red Team activities. This template contains details on how these issues are handled.
 - If team members ask whether a specific activity or IoC belongs to the Red Team outside of these designated channels, we will follow the process documented in ["Is This The Red Team?"]({{< ref "_index.md#is-this-the-red-team" >}}).
 - If asked in one of the designated Slack channels, the following will happen:
   - Any ongoing stealth activities will be paused until a definitive answer can be provided.
@@ -65,7 +66,7 @@ The logistics phase will define detailed rules for each specific operation. The 
 
 At GitLab, our Red Team and Blue Team have a long history of working collaboratively towards a common goal. Despite playing roles that are adversarial in nature, we want to maintain a very high level of trust and respect between the teams.
 
-We define some specific rules below, but in general we want to remember to always be kind and compassionate in our work. If something feels like it conflicts with [GitLab's values]({{< ref "/handbook/values" >}}), we need to re-evaluate exactly what we are doing and why we are doing it.
+We define some specific rules below, but in general we want to remember to always be kind and compassionate in our work. If something feels like it conflicts with [GitLab's values](/handbook/values), we need to re-evaluate exactly what we are doing and why we are doing it.
 
 - The Red Team will not intentionally distract or mislead SIRT using official company communication channels under the team's legitimate user accounts.
 - The Red Team will make an effort to avoid triggering on-call incidents outside of normal business hours. In general, this means not conducting attack techniques during hours when it is a weekend or holiday globally.
@@ -140,7 +141,7 @@ During a [stealth operation](#stealth-operations), the Red Team may:
 - Exploit vulnerabilities and abuse insecure configurations in any system owned and managed by GitLab.
 - Attempt digital social engineering (email, Slack, GitLab issues, etc) and attacks on the software supply chain.
 
-If you are a team member at GitLab and suspect you have uncovered a stealth red team operation in the course of your daily work, please refer to our deconfliction process mentioned in the "[Is This Red Team?]({{< ref "_index.md/#is-this-the-red-team" >}})" section.
+If you are a team member at GitLab and suspect you have uncovered a stealth red team operation in the course of your daily work, please first report this to your manager and refer to the "[Is This Red Team?]({{< ref "_index.md/#is-this-the-red-team" >}})" section.
 
 At this time, the Red Team **will not**:
 

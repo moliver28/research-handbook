@@ -10,7 +10,7 @@ The Procurement team manages GitLab’s [Supplier Lifecycle](#vendor-lifecycle-m
 
 ### Procurement Team Alignment
 
-Division alignment for spend over >$25k USD:
+Division alignment for spend over >$25k USD / year:
 
 - Marketing - Ashley Abbate
 - Sales - Ashley Abbate
@@ -358,7 +358,7 @@ The planning stages for events of this size should be completed at least 18-24 m
 #### Other Services
 
 - [Home Office and Supplies]({{< ref "./office-equipment-supplies" >}})
-- [Individual Use Software]({{< ref "./personal-use-software" >}})
+- [Individual Use Software]({{< ref "./individual-use-software" >}})
 - [RFP and Vendor Selection Process](https://internal.gitlab.com/handbook/finance/procurement/)
 - [Vendor Terms and Conditions]({{< ref "./vendor-guidelines" >}})
 - [Non-Disclosure Agreement (NDA)](/handbook/legal/NDA/#)

@@ -18,7 +18,7 @@ The Zapier subscription runs on the [Team plan](https://zapier.com/app/billing/p
 ### Zapier access
 
 - URL: [https://zapier.com](https://zapier.com)
-- Account: search for the shared Zapier account in 1Password's `Zapier` vault. Please file an [access request](/handbook/business-technology/team-member-enablement/onboarding-access-requests/access-requests/) if you cannot access that vault.
+- Account: search for the shared Zapier account in 1Password's `Zapier` vault. Please file an [access request](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/) if you cannot access that vault.
 
 Once logged in, you can access, edit and create Zaps in the [Developer Relations](https://zapier.com/app/zaps/folder/275996) folder
 
@@ -83,3 +83,13 @@ More API URL examples:
 The [`gitlab-blog`](https://forum.gitlab.com/u/gitlab-blog/summary) user is used to automatically post new [GitLab blogs](https://about.gitlab.com/blog/) as a new topic to the [Community](https://forum.gitlab.com/c/community/39) category.  This process is controlled through [Zapier](https://zapier.com/app/editor/148450001).  Zapier reads the blog RSS feed at `https://about.gitlab.com/atom.xml` and posts a new topic using the admin API key and `gitlab-blog` user for each new entry there.
 
 The `gitlab-blog` credentials and admin API key are stored in the 1Password Marketing vault. Admins can directly edit the user in Discourse without login.
+
+## Troubleshooting
+
+### Slack message misses data from Hacker News
+
+Open the Zap, and inspect the `Send Channel Message in Slack` action. If the `Message Text` section contains placeholder variables with errors, inspect the data source. It may happen that the data retrieval in Zapier was broken in a step before, for example in `Retrieve Polls in Webhooks by Zapier`.
+
+Example: The [Open Core Hacker News frontpage Zap](https://zapier.com/editor/159764533/published/159764535/setup) does not provide data fields, and refreshing the fields for the URL `https://hn.algolia.com/api/v1/search?&query="open+core"&tags=front_page` does not bring up any result records to continue. 
+
+Fix: Temporarily change the search to a value which is currently on the [Hacker News front page](https://news.ycombinator.com/), and refresh the fields in Zapier. Fix the Slack message variable placeholders, and publish the Zap. Immediately edit the Zap again, and change the search query to the original value (`open+core`). 

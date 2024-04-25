@@ -103,7 +103,7 @@ From converging on real-time critical events with SIRT, exploiting vulnerabiliti
 
 The goal of the CEO Shadow Program is to give current and future [directors and senior leaders](/handbook/company/structure/) at GitLab an overview of all aspects of the [company](/handbook/company/).
 
-### [Chief of Staff to the CEO Shadow Program](/handbook/ceo/chief-of-staff-team/#chief-of-staff-shadow)
+### [Chief of Staff to the CEO Shadow Program](/handbook/ceo/office-of-the-ceo/#chief-of-staff-shadow)
 
 The Chief of Staff to the CEO may occasionally have a Chief of Staff to the CEO Shadow, a GitLab team member who will participate in a specific project or initiative for a fixed period of time.
 

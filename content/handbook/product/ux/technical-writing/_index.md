@@ -197,6 +197,7 @@ The number of pages in the five primary repositories (GitLab, Omnibus, Charts, O
 
 | Date          | # of pages | Increase from previous quarter |
 |---------------|------------| ------------|
+| Mar  2024     | 2,308      | 5 %         |
 | Dec  2023     | 2,201      | 5 %         |
 | Sept 2023     | 2,088      | 8 %         |
 | Jun 2023      | 1,993      | 5 %         |
@@ -207,13 +208,14 @@ The number of pages in the five primary repositories (GitLab, Omnibus, Charts, O
 | Jan 2022      | 1,562      | -           |
 | May 2020      | 1,165      | -           |
 
-**Change between May 2020 and Dec 2023:** 1036 more pages (an 89% increase)
+**Change between May 2020 and Mar 2024:** 1,143 more pages (a 98% increase)
 
 The number of words in these repositories:
 
 | Date          | Word count | Increase from previous quarter |
 |---------------|------------| ------------|
-| Dec  2023     | 2,990,400  | 5 %        |
+| Mar  2024     | 3,183,647  | 6 %         |
+| Dec  2023     | 2,990,400  | 5 %         |
 | Sept 2023     | 2,842,399  | 5 %         |
 | Jun 2023      | 2,701,888  | 6 %         |
 | Mar 2023      | 2,546,466  | 6 %         |
@@ -223,7 +225,7 @@ The number of words in these repositories:
 | Jan 2022      | 2,017,183  | -           |
 | May 2020      | 1,190,371  | -           |
 
-**Change between May 2020 and Dec 2023:** 1,800,029 more words (a 151% increase)
+**Change between May 2020 and Mar 2024:** 1,993,276 more words (a 167% increase)
 
 The word count has more than doubled in this timeframe.
 
@@ -290,6 +292,7 @@ that need to be regularly completed:
 
 Schedule for Docs project maintenance tasks:
 
+- May, 2024: {{< member-by-name "Lorena Ciutacu" >}}
 - April, 2024: {{< member-by-name "Lysanne Pinto" >}}
 - March, 2024: {{< member-by-name "Amy Qualls" >}}
 - February, 2024: {{< member-by-name "Marcel Amirault" >}}
@@ -302,7 +305,6 @@ Schedule for Docs project maintenance tasks:
 - July, 2023: {{< member-by-name "Diana Logan" >}}
 - June, 2023: {{< member-by-name "Ashraf Khamis" >}}
 - May, 2023: {{< member-by-name "Fiona Neill" >}}
-- April, 2023: {{< member-by-name "Lorena Ciutacu" >}}
 
 ## Reviews
 

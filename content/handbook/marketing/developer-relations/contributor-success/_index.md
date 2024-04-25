@@ -22,6 +22,7 @@ description: "Contributor Success Team"
 | **Contributing Organization Tracking** | [Contributing Organization Tracking](/handbook/marketing/developer-relations/contributor-success/contributing-org-tracker) |
 | **A Contributor's User Journey** | [User Journey](/handbook/marketing/developer-relations/contributor-success/user-journey) |
 | **Community pairing sessions** | [Community pairing sessions](/handbook/marketing/developer-relations/contributor-success/community-pairing-sessions) |
+| **Innovation Pitch Competition** | [Innovation Pitch Competition](/handbook/marketing/developer-relations/contributor-success/innovation-pitch-competition) |
 
 - - -
 
@@ -359,6 +360,8 @@ A curated list of external resources for improving open source community relatio
 - [The secrets to onboarding new open source contributors](https://github.com/readme/featured/contributor-onboarding)
 
 - [The privilege of free time in Open Source](https://dri.es/the-privilege-of-free-time-in-open-source)
+
+- [Good first issues don't exist](https://opensauced.pizza/blog/good-first-issues-dont-exist)
 
 ## Community Office Hours
 

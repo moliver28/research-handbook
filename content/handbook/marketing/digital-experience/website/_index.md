@@ -6,17 +6,7 @@ description: >-
   Team and anyone can contribute.
 ---
 
-
-
-
-
-
-
-GitLab's Marketing Site (about.gitlab.com) is led by the [Digital Experience Team](/handbook/marketing/digital-experience) and anyone can contribute.
-
-The [DRI](/handbook/people-group/directly-responsible-individuals/) for the Marketing Site is [Michael Preuss](https://gitlab.com/mpreuss22), and internal GitLab team members can drop questions in Slack at #digital-experience-team
-
-The Digital Experience team is migrating GitLab's Marketing Site to the [Buyer Experience Repository](/handbook/marketing/digital-experience/buyer-experience-repository).
+GitLab's Marketing Site (about.gitlab.com) is led by the [Digital Experience Team](/handbook/marketing/digital-experience) and anyone can contribute. Internal GitLab team members can drop questions in Slack at #digital-experience-team
 
 ## Objectives
 
@@ -183,18 +173,14 @@ If you are an engineer, be sure to check out our [developer docs in Buyer Experi
 
 Pages are built in the code under [/pages/](https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/-/tree/main/pages?ref_type=heads), and they fetch content from Contentful. Documentation coming soon.
 
-
 #### As a Non-engineer
 
 To create a new page, work with the Digital Experience team by creating an issue in the [Buyer Experience repo](https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/-/issues/new#)
-
-
 
 ### Updating an existing page
 
 1. To edit the existing content of a page, check out our Contentful CMS documentation.
 1. To add a visual component or section to a page, please fill out an [issue](https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/-/issues/new#) for the Digital Experience team.
-
 
 ### Optimize images
 
@@ -203,13 +189,24 @@ When adding an image to a webpage, be sure that you optimize the image first.
 1. Select the image you'd like to add to a page and save a copy to your computer.
 1. Add your local copy to [ImageOptim](https://imageoptim.com/howto.html) and optimize the image for the web.
 
-
-
 ### Working with Stages, Groups, and Categories
 
 [Categories and stages](/handbook/product/categories/) are defined in the product handbook. Stages are stored in [`data/stages.yml`](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/data/stages.yml) and categories are stored in [`data/categories.yml`](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/data/categories.yml) as the single source of truth for engineering and marketing.
 
-These two files power various parts of the website including the [homepage](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/sites/uncategorized/source/includes/home/sdlc.html.haml), [product pages](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/source/product/index.html.haml), and [product categories handbook](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/source/includes/product/_categories.erb).
+These two files power various parts of the website:
+
+- [homepage](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/sites/uncategorized/source/includes/home/sdlc.html.haml)
+- [product pages](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/source/product/index.html.haml)
+- [product categories handbook](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/source/includes/product/_categories.erb)
+- [feature page](https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/-/blob/main/pages/features/index.vue)
+- [platform page](https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/-/blob/main/pages/platform.vue)
+
+Note: The [categories table](https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/-/blob/main/components/common/categories-table.vue) on the [platform page](https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/-/blob/main/pages/platform.vue) is populated by [`data/categories.yml`](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/data/categories.yml) for each feature which has the `marketing` key set to True. When clicking on a feature in the table, you are redirected in the following orders:
+
+1. `marketing_page` key: Points to the appropriate marketing or solution page
+2. `feature_page` key: Points to the appropriate section of the [feature page](https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/-/blob/main/pages/features/index.vue)
+3. `documentation` key: Points to the appropriate documentation for the feature
+4. `direction` key (planned maturity only): Points to the appropriate direction page
 
 They are also used by the automated triage operation ["Stage and group labels inference from category labels"](/handbook/engineering/infrastructure/engineering-productivity/triage-operations/).
 

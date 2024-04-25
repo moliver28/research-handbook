@@ -24,27 +24,25 @@ These standards apply to all GitLab team-members, contractors, advisors, and con
 
 ### Notice of Offboarding
 
-Once the termination process has been approved and completed in Workday either by the departing team members [Direct Manager](https://docs.google.com/document/d/1Fr1G1i1kssfADgDf3D6LbZHR8RZmWKZYDNV8AfduZ1c/edit) (Voluntary) or by [Team Member Relations](https://docs.google.com/document/d/1nMokz03AiUQtb0XV5zpD9CjaQKcX5Lu8p5ASZy3cJVA/edit) (Involuntary) either a People Connect (Voluntary) or Team Member Relations (Involuntary) team member will submit an [Offboarding Workflow Form](https://docs.google.com/forms/d/e/1FAIpQLScBBnV7bKKVkqfTk9Aq9sfSB_r85SKTxt0_mC6RhbRwU3DtSA/viewform).  In the instance of a Voluntary Termination this process will follow the [resignation process](https://docs.google.com/document/d/1AVHHBKd6dtyn0DOl4_UydbdEhectLpH5aMh17r9Sg_4/edit) initiated by the team member directly in Workday.
+Once the termination process has been approved and completed in Workday either by the departing team member's [Direct Manager](https://docs.google.com/document/d/1Fr1G1i1kssfADgDf3D6LbZHR8RZmWKZYDNV8AfduZ1c/edit) (Voluntary) or by [Team Member Relations](https://docs.google.com/document/d/1nMokz03AiUQtb0XV5zpD9CjaQKcX5Lu8p5ASZy3cJVA/edit) (Involuntary), automations in place will detect the new offboarding and attempt to open the issue, if within a valid offboarding window for the specified day. In the instance of a Voluntary Termination, this process will follow the [resignation process](https://docs.google.com/document/d/1AVHHBKd6dtyn0DOl4_UydbdEhectLpH5aMh17r9Sg_4/edit) initiated by the team member directly in Workday.
 
-This will populate the tracker through which various offboarding automations are triggered in addition to notifying IT Operations; Payroll and other Stakeholders of the team members temination particulars such as the effective date, information about garden leave if applicable and the time at which access to GitLab systems should be terminated in the #offboarding channel.
+In alignment with the needs of both People Connect and IT Operations, offboardings will kick off at a specific time, based on a **team members' local timezone** in Slack. For offboardings scheduled for Monday-Thursday, this will be at 1600 hrs / 4:00pm local time, and on Fridays would be opened at 1200 hrs / 12:00pm local time.
 
-In alignment with the needs of both People Connect and IT Operations, offboardings will kick off at 16:00pm in the team members regional timezone (EMEA, JAPAC, and NORAM) and 12:00pm in their regional timezone on Friday at which point de-provisioning will commence.
-
-**Note:** In instances where team members require de-provisioning initiated at outside of those documented above they should reach out to People Connect via direct message or people-connect@gitlab.com to arrange an alternate time.
+**Note:** In instances where team members require deprovisioning initiated outside of these times, team members or their manager should reach out to People Connect via direct message or people-connect@gitlab.com to arrange an alternate time.
 
 Should the effective date fall on a day which People Connect is unable to support e.g. a Family and Friends Day or Global Holiday, People Connect will reach out to the People Business Partner to discuss alternate offboarding options.
 
 ### Offboarding Assignments
 
-Per the People Connect Rotation the offboarding will be assigned directly in the [offboarding tracker](https://docs.google.com/spreadsheets/d/1Z45eOZ2rCRIKgGae3eOKQ8lhIbAPikSs5gLz3V8Kh9U/edit?ts=5e7a2c42#gid=989170380).
+Per the People Connect Rotation, the offboarding will be assigned directly in the Offboarding Issue.
 
 ### Creating the Offboarding Issue
 
-Offboarding issues are created [automatically]({{< ref "/handbook/people-group/engineering/offboarding#scheduled-offboarding-issue-creation" >}}) using the data that is populated by the offboarding form. **It is essential that the date and time inserted in the tracker is accurate as this will be the time at which the employment bot will open the offboarding issue**
+Offboarding issues are created [automatically](/handbook/people-group/engineering/offboarding#scheduled-offboarding-issue-creation) using the data that is populated by Workday.
 
-The assigned People Connect member will be automatically added to the list of assignees once the offboarding issue is created.
+The assigned People Connect team member will be automatically added to the list of assignees once the offboarding issue is created.
 
-Many teams work to deprovision access including the IT Operations, this should be regarded as urgent and all tasks expected to be completed in 5 working days with the exception of [laptop returns](/handbook/business-technology/team-member-enablement/onboarding-access-requests/#returning-oldoffboarded-laptops), which can take 2 - 4 weeks.
+Many teams work to deprovision access including the IT Operations, this should be regarded as urgent and all tasks expected to be completed within 5 working days, with the exception of [laptop returns](/handbook/business-technology/end-user-services/onboarding-access-requests/#returning-oldoffboarded-laptops), which can take 2-4 weeks.
 
 Note: If the team member is temporarily transitioning to a [contractor or consultant role](/handbook/business-technology/end-user-services/onboarding-access-requests/temporary-service-providers/), please proceed with the full offboarding process and create a separate onboarding issue to grant only specific temporary access for what they would need to fulfill their contractual obligations.
 
@@ -62,7 +60,7 @@ In the event that the offboarding issue is not automatically opened or an urgent
 
 IT Ops will follow the below steps to set up an auto-response that notifies the sender that the team member they are trying to reach is no longer with GitLab and who to contact.
 
-1. Navigate to Google admin portal and search for the email account.
+1. Navigate to the Google admin portal and search for the email account.
 1. Unsuspend the account, reset sign in cookies, reset password, do not email the password.
 1. Move account into the Former Team Memebers Organizational Unit.
 1. Use GAM to set a Out of Office Message on the account
@@ -74,8 +72,7 @@ The Out of Office message will stay on the account for 90 days, aftewards ITOPs 
 
 - Bots
 
-IT Ops check if the team member has created any bots before disabling the account. Go to [Slack](https://gitlab.slack.com/apps/manage) or on your admin Slack profile click Menu >> Configure Apps >> Custom Integrations >> Bots and search through the bots' list for the team member.
-If a bot exists, please DM the manager to confirm if the bot should be removed.
+IT Ops check if the team member has created any bots before disabling the account. Go to [Slack](https://gitlab.slack.com/apps/manage) or on your admin Slack profile click Menu >> Configure Apps >> Custom Integrations >> Bots and search through the bots' list for the team member. If a bot exists, please DM the manager to confirm if the bot should be removed.
 
 #### Team Page
 
@@ -93,13 +90,13 @@ The People Connect Team member will need to complete:
 - Remove the team members ReadMe
    - If the ReadMe is in a private project, request assistance from the IT Ops team to delete (you can tag them in the team page MR and private Slack channel)
 - Check for hardcoded references
-   - The People Connect Specialist handling the offboarding should check to see whether the offboarded team members name is listed on any other public Handbook pages. This can be done by doing a Google search for the team members name and "GitLab" - this should pull up results that reflect any association with the team members name and GitLab (including a ReadMe).
+   - The People Connect team member handling the offboarding should check to see whether the offboarded team members name is listed on any other public Handbook pages. This can be done by doing a Google search for the team members name and "GitLab" - this should pull up results that reflect any association with the team members name and GitLab (including a ReadMe).
 
 ### Offboarding Compliance
 
 The People Connect Team ensures all offboarding issues are opened within each week of the offboarding date and once all tasks have been completed by the relevant Team Member(s) and/or Departments, the People Connect Team will close the offboarding issue. On a quarterly basis the People Connect Team  will audit all open offboarding issues and ping the relevant Departments within the offboarding issue to call for tasks to be completed.
 
-All offboarding tasks by all Departments need to be completed within 5 days of the offboarding date. For systems that are more critical and time sensitive, these will be completed within the first 24 hours (example 1Password, Slack) by the relevant Departments. Information about application & system deprovisioners can be found on the [Tech Stack Applications handbook page](/handbook/business-technology/tech-stack-applications/).
+All offboarding tasks by all Departments need to be completed within 5 days of the offboarding date. For systems that are more critical and time sensitive, these will be completed within the first 24 hours (example 1Password, Slack) by the relevant Departments. Information about application & system deprovisioners can be found on the [Tech Stack Applications handbook page](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/tech_stack.yml).
 
 To ensure a successful completion of the offboarding issue, it is important that all tasks are checked off, whether the system/tool is applicable to the offboarding team member or not. Checking the box indicates one of the following:
 
@@ -114,4 +111,4 @@ Exceptions to this policy must be approved by People Connect.
 
 - [Information Security Parent Policy](/handbook/security/)
 - [GitLab Offboarding](/handbook/people-group/offboarding/)
-- [GitLab Offboarding FAQ](/handbook/people-group/offboarding/faq.html)
+- [GitLab Offboarding FAQ](/handbook/people-group/offboarding/faq/)

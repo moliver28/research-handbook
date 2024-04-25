@@ -6,7 +6,7 @@ description: "Information about GitLab's People Group Engineering team and its p
 ## Overview
 
 As GitLab continues to scale, our need for tools and automation to manage our growth expands
-along with it. To help the People Group, we have a People Group Engineering team, that consists out of [People Group Fullstack Engineers]({{< ref "/job-families/people-group/people-ops-fullstack-engineer" >}}) to make our team more efficient and improve the effectiveness of our core [People Group]({{< ref "/handbook/people-group" >}}).
+along with it. To help the People Group, we have a People Group Engineering team, that consists out of [People Group Fullstack Engineers](/job-families/people-group/people-ops-fullstack-engineer) to make our team more efficient and improve the effectiveness of our core [People Group](/handbook/people-group).
 
 Responsibilities include (but are not limited to):
 
@@ -21,21 +21,21 @@ Quick navigation to some of our other pages.
 
 | **Page** | **Description** |
 |---|---|
-| [Career Mobility]({{< ref "/handbook/people-group/engineering/career-mobility" >}}) | Our automation flow on how we streamile on processes. |
-| [Employment Issues]({{< ref "/handbook/people-group/engineering/employment-issues" >}}) | Information regarding our onboarding and offboarding issue automations. |
-| [GH <=> BHR Sync]({{< ref "/handbook/people-group/engineering/gh-bhr-sync" >}}) | Our automation for syncing Greenhouse candidates to our HRIS system. |
-| [Nominator Bot]({{< ref "/handbook/people-group/engineering/nominatorbot" >}}) | Information regarding our custom Slack app, how to use it, FAQ's, and engineer guides. |
-| [Offboarding]({{< ref "/handbook/people-group/engineering/offboarding" >}}) | Our `offboarding` automation flow and everything you may need to know regarding this. |
-| [Onboarding]({{< ref "/handbook/people-group/engineering/onboarding" >}}) | Our `onboarding` automation flow and everything you may need to know regarding this. |
-| [People Connect Bot]({{< ref "/handbook/people-group/engineering/people-connect-bot" >}}) | Information regarding our custom Slack app for our Service Desk integration. |
-| [Internal Handbook]({{< ref "/handbook/people-group/engineering/pops-internal-handbook" >}}) | Our People Group Engineering internal handbook. |
-| [Slack Integrations]({{< ref "/handbook/people-group/engineering/slack-integrations" >}}) | Information on some of our slack integrations like birthday announcments, PTO, etc. |
-| [Miscellaneous]({{< ref "/handbook/people-group/engineering/miscellaneous" >}}) | Some extra information regarding PTO, sensitive data, accruals, and more. |
+| [Career Mobility](/handbook/people-group/engineering/career-mobility) | Our automation flow on how we streamile on processes. |
+| [Employment Issues](/handbook/people-group/engineering/employment-issues) | Information regarding our onboarding and offboarding issue automations. |
+| [GH <=> BHR Sync](/handbook/people-group/engineering/gh-bhr-sync) | Our automation for syncing Greenhouse candidates to our HRIS system. |
+| [Nominator Bot](/handbook/people-group/engineering/nominatorbot) | Information regarding our custom Slack app, how to use it, FAQ's, and engineer guides. |
+| [Offboarding](/handbook/people-group/engineering/offboarding) | Our `offboarding` automation flow and everything you may need to know regarding this. |
+| [Onboarding](/handbook/people-group/engineering/onboarding) | Our `onboarding` automation flow and everything you may need to know regarding this. |
+| [People Connect Bot](/handbook/people-group/engineering/people-connect-bot) | Information regarding our custom Slack app for our Service Desk integration. |
+| [Internal Handbook](/handbook/people-group/engineering/pops-internal-handbook) | Our People Group Engineering internal handbook. |
+| [Slack Integrations](/handbook/people-group/engineering/slack-integrations) | Information on some of our slack integrations like birthday announcments, PTO, etc. |
+| [Miscellaneous](/handbook/people-group/engineering/miscellaneous) | Some extra information regarding PTO, sensitive data, accruals, and more. |
 
 ### Working with us
 
 If you'd like to request engineering assistance with an issue, bug fixes, urgent requests related to People Group processes
-or tools ([like BambooHR]({{< ref "/handbook/people-group#using-bamboohr" >}})) or anything relating to People Group Engineering, please start by
+or tools ([like BambooHR](/handbook/people-group#using-bamboohr)) or anything relating to People Group Engineering, please start by
 [creating an issue](https://gitlab.com/gitlab-com/people-group/peopleops-eng/people-group-engineering/-/issues/new)
 in the People Group Engineering project. All issues are reviewed and prioritised to a specific team through our [kanban board](https://gitlab.com/groups/gitlab-com/people-group/peopleops-eng/-/boards/2641488). If you require general support with MR's, kindly collaborate with all of GitLab team members in [`#mr-buddies`](https://gitlab.slack.com/archives/CLM8K5LF4) in slack.
 
@@ -147,9 +147,9 @@ We've build several automations and tools to support our People Group. In the fo
 ### Team member's employment
 
 - [Greenhouse <> BambooHR Sync]({{< ref "gh-bhr-sync" >}})
-- [Onboarding Automations]({{< ref "/handbook/people-group/engineering/onboarding" >}})
-- [Career Mobility Automations]({{< ref "/handbook/people-group/engineering/career-mobility" >}})
-- [Offboarding Automations]({{< ref "/handbook/people-group/engineering/offboarding" >}})
+- [Onboarding Automations](/handbook/people-group/engineering/onboarding)
+- [Career Mobility Automations](/handbook/people-group/engineering/career-mobility)
+- [Offboarding Automations](/handbook/people-group/engineering/offboarding)
 
 ### Supportive tools for People Group
 
@@ -161,8 +161,8 @@ We've build several automations and tools to support our People Group. In the fo
 
 ### Uncategorized
 
-- [Smaller syncs]({{< ref "/handbook/people-group/engineering/miscellaneous" >}})
-- [Slack Integrations]({{< ref "/handbook/people-group/engineering/slack-integrations" >}})
+- [Smaller syncs](/handbook/people-group/engineering/miscellaneous)
+- [Slack Integrations](/handbook/people-group/engineering/slack-integrations)
 
 ## Data
 

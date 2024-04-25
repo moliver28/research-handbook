@@ -34,6 +34,8 @@ Below is a full list of our UX Research team handbook content:
      - [Survey question scales](/handbook/product/ux/ux-research/surveys/survey-question-scales/)
      - [Sample sizes for surveys](/handbook/product/ux/ux-research/surveys/sample-sizes-for-surveys/)
      - [Piloting your survey](/handbook/product/ux/ux-research/surveys/piloting-your-survey/)
+     - [Qualtrics Tips and Tricks](/handbook/product/ux/ux-research/surveys/qualtrics/)
+     - [How to identify low quality data when designing and reviewing your survey](/handbook/product/ux/ux-research/surveys/how-to-identify-low-quality-data-when-designing-and-reviewing-your-survey)
 - [Jobs to be Done](/handbook/product/ux/jobs-to-be-done/)
 - [Longitudinal studies](/handbook/product/ux/ux-research/longitudinal-studies/)
 - [Diary studies](/handbook/product/ux/ux-research/diary-studies/)
@@ -75,6 +77,7 @@ Below is a full list of our UX Research team handbook content:
 - [Analyzing survey verbatim](/handbook/product/ux/ux-research/analyzing-survey-verbatim/)
 - [Research insights](/handbook/product/ux/ux-research/research-insights/)
 - [Documenting research insights in Dovetail](/handbook/product/ux/dovetail/)
+- [Product Analytics for UX Research](/handbook/product/ux/ux-research/product-analytics-for-ux-research/)
 
 ### Templates
 
@@ -95,7 +98,6 @@ Below is a full list of our UX Research team handbook content:
 ### UX Research training
 
 - [Interview Carousel - Becoming a better interviewer 15 minutes at a time](/handbook/product/ux/ux-research/interview-carousel/)
-- [Qualtrics tips and tricks](/handbook/product/ux/qualtrics/)
 - [UX Research shadowing](/handbook/product/ux/ux-research/research-shadowing/)
 - [When to conduct UX Research training (internal LevelUp course)](https://levelup.gitlab.com/learn/course/when-to-conduct-ux-research)
 

@@ -31,7 +31,7 @@ To see what training is coming soon, view the [Customer Success Skills Exchange 
 
 To get a calendar invite to the weekly CS Skills Exchange, make sure you are added to the sales-cs email group
 
-You can [fill out an access request](/handbook/business-technology/team-member-enablement/onboarding-access-requests/access-requests/) to request access to the email group. These groups are invited to the meeting so that each individual person does not need an invite.
+You can [fill out an access request](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/) to request access to the email group. These groups are invited to the meeting so that each individual person does not need an invite.
 
 
 ### Training Playlist

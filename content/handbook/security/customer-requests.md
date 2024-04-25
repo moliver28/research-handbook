@@ -7,7 +7,7 @@ We at GitLab are committed to helping our customers succeed. When a GitLab.com c
 
 ## What type of assistance can GitLab provide to customers if they experience a security incident?
 
-If a GitLab.com customer determines that the information available through the [Audit Events](https://docs.gitlab.com/ee/administration/audit_events.html) feature doesn't provide suffcient information about activities taken on the customer's account, GitLab may provide reasonable assistance by performing additional log-dives under certain [conditions and requirements](#conditions-and-requirements).
+If a GitLab.com customer determines that the information available through the [Audit Events](https://docs.gitlab.com/ee/administration/audit_events.html) feature doesn't provide sufficient information about activities taken on the customer's account, GitLab may provide reasonable assistance by performing additional log-dives under certain [conditions and requirements](#conditions-and-requirements).
 
 ## To whom does this apply?
 
@@ -25,10 +25,10 @@ GitLab's Security Incident Response Team handles complex, extensive requests. In
 ## Process outline
 
 1. Customer contacts GitLab Support or CSM with a request that meets the required [conditions and requirements](#conditions-and-requirements).
-1. GitLab GitLab Support or CSM creates a `confidential` issue [in the SIRT tracker](https://gitlab.com/gitlab-com/gl-security/security-operations/sirt/operations/-/issues/) using the `information_request` template. The author of the issue ensures that the request contains all [required information](#conditions-and-requirements).
-1. The author tags  `@gitlab-com/gl-security/sirt` on the issue. The requesting customer **must not** be added to the issue.
+1. GitLab Support or CSM triggers the workflow from Slack with the command `/security` to automatically create a confidential SIRT issue.
+1. This newly created SIRT issue tags `@gitlab-com/gl-security/sirt` directly. The requesting customer **must not** be added to the issue.
 1. Approval from GitLab Legal `@lasayers` should only be requested if an exception is required.
-1. GitLab GitLab Support or CSM verifies that the requesting customer complies with our [conditions and requirements](#conditions-and-requirements) for the request.
+1. GitLab Support or CSM verifies that the requesting customer complies with our [conditions and requirements](#conditions-and-requirements) for the request.
 1. The relevant team (either GitLab Support or GitLab Security) starts working on the case, depending on the type of requests. The issue is updated with every new finding.
 1. GitLab Support or CSM provides status updates to the customer based on the updates captured in the issue on a 12-hour/business day best-effort cadence.
 1. Once the requested artefacts (i.e. log entries) are collected, GitLab Security and GitLab Legal review them.

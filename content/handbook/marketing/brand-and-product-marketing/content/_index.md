@@ -95,13 +95,11 @@ Quick links
 
 *   [GitLab blog handbook](https://handbook.gitlab.com/handbook/marketing/blog/)
     
-*   Gated content process
+*   [Gated content process](https://handbook.gitlab.com/handbook/marketing/demand-generation/campaigns/content-in-campaigns/)
     
 *   [GitLab Content Style Guide](https://handbook.gitlab.com/handbook/marketing/brand-and-product-marketing/brand/content-style-guide/#brand-voice) 
-    
-*   Content library (on-page link)
-    
-*   How to work with us (on-page link) 
+        
+*   [How to work with us](https://handbook.gitlab.com/handbook/marketing/brand-and-product-marketing/content/#requesting-support)
     
 
 What is Content Strategy & Ops?
@@ -155,7 +153,7 @@ To create this content, **our team operates as both an editorial newsroom and in
 *   Reviewing customer-facing emails and other communications
     
 
-Learn more about the content types we work on on-page LINK >>>Learn more about requesting support on-page LINK >>>>>
+[Learn more about requesting support](https://handbook.gitlab.com/handbook/marketing/brand-and-product-marketing/content/#requesting-support)
 
 While the Content Strategy & Ops team produces a large amount of content, we are by no means the only content creators at GitLab. If you would like to collaborate with us on a content project, read more below! 
 
@@ -176,7 +174,7 @@ While the Content Strategy & Ops team produces a large amount of content, we are
     
     *   Examples: Quick-turn requests with minimal effort and few to no additional reviewers—updated wording on a landing page, email copy, small tweaks or repackaging of existing content 
         
-    *   If you have an immediate request that requires review by multiple stakeholders, follow this workflow. (On-page link to VP-level request>>) 
+    *   If you have an immediate request that requires review by multiple stakeholders, [follow the VP-level request workflow](https://handbook.gitlab.com/handbook/marketing/brand-and-product-marketing/content/#what-is-content-strategy--ops).
         
 *   Always-on Programs
     
@@ -225,7 +223,7 @@ _Need help finding relevant content to use in an email or to send to a customer?
 
 #### Blog post
 
-A post on the GitLab blog can educate, entertain, tell a story, take an opinionated stance, etc. A blog post is dated, so it only reflects thoughts, ideas, and processes from a specific period of time. For communicating long-term/evergreen ideas or processes, consider using a [topic page](https://handbook.gitlab.com/handbook/marketing/brand-and-product-marketing/content/content-marketing/#topic-page) or SEO page instead. A blog also can and should be repurposed as a web article/cluster page
+A post on the GitLab blog can educate, entertain, tell a story, take an opinionated stance, etc. A blog post is dated, so it only reflects thoughts, ideas, and processes from a specific period of time. For communicating long-term/evergreen ideas or processes, consider using a topic page or SEO page instead. A blog also can and should be repurposed as a web article/cluster page
 
 Visit the blog handbook to learn more about the [blog publishing process](https://handbook.gitlab.com/handbook/marketing/blog/).
 
@@ -270,7 +268,7 @@ An infographic is an illustrated overview of a topic or process, and is typicall
 
 #### Topic page
 
-A topic page is a high-level explanatory “pillar” page dedicated to a specific topic, such as [version control](https://handbook.gitlab.com/topics/version-control/), [DevSecOps](https://handbook.gitlab.com/topics/devsecops/), or [continuous integration](https://handbook.gitlab.com/topics/ci-cd/). Topic pages should explain what the subject is, why it is important, and explain the basic concepts of the subject. Topic pages should include links to additional related resources, such as blogs, web articles, videos, and case studies, as well as at least one CTA to a gated asset. Other SEO pages also include educational, informational content, designed to support topic pages using keywords and search terms. They are similar to blogs in length, but differ in that they are not dated and the content is evergreen (see [more about blog posts](https://handbook.gitlab.com/handbook/marketing/brand-and-product-marketing/content/content-marketing/#blog-post)).
+A topic page is a high-level explanatory “pillar” page dedicated to a specific topic, such as [version control](https://handbook.gitlab.com/topics/version-control/), [DevSecOps](https://handbook.gitlab.com/topics/devsecops/), or [continuous integration](https://handbook.gitlab.com/topics/ci-cd/). Topic pages should explain what the subject is, why it is important, and explain the basic concepts of the subject. Topic pages should include links to additional related resources, such as blogs, web articles, videos, and case studies, as well as at least one CTA to a gated asset. Other SEO pages also include educational, informational content, designed to support topic pages using keywords and search terms. They are similar to blogs in length, but differ in that they are not dated and the content is evergreen (see [more about blog posts](https://handbook.gitlab.com/handbook/marketing/blog/)).
 
 **Examples:**
 

@@ -213,7 +213,7 @@ Members of the management group are expected to demonstrate leadership in the wa
 
 #### Board Members
 
-[Board Members]({{< ref "/job-families/board-of-directors/board_member" >}}) serve on the GitLab board and participate in board meetings and board committees, as well as other responsibilities.
+[Board Members](/job-families/board-of-directors/board_member) serve on the GitLab board and participate in board meetings and board committees, as well as other responsibilities.
 
 ## CEO Skips
 
@@ -233,7 +233,7 @@ As an example, the [Functional Leaders meets after every e-group offsite](/handb
 
 ## Directs-Group
 
-Directs-Group is a group made up of a senior leader from each function. These leaders operate as extensions of E-Group and support key initiatives within a six to nine month rotation. The CoST to the CEO is responsible for organizing and orienting this group in collaboration with the cohorts E-Group Sponsor.
+Directs-Group is a group made up of a senior leader from each function. These leaders operate as extensions of E-Group and support key initiatives within a six to nine month rotation. The Office of the CEO is responsible for organizing and orienting this group in collaboration with the cohorts E-Group Sponsor.
 
 ### Directs-Group Program Objectives
 
@@ -251,7 +251,7 @@ Directs-Group is a group made up of a senior leader from each function. These le
 
 ### Directs-Group Selection Process
 
-1. The CoST to the CEO kicks off the selection process three months in advance of every cohort end date to allow adequate time for Directs-Group identification and onboarding in advance of first E-Group Offsite and appropriate transition from one Directs group to another.
+1. The Office of the CEO kicks off the selection process three months in advance of every cohort end date to allow adequate time for Directs-Group identification and onboarding in advance of first E-Group Offsite and appropriate transition from one Directs group to another.
 1. Each E-Group member identifies first and second choice candidates. E-Group will discuss if TMRG criteria is not met within first choice candidate selections.
 1. Candidates will be identified and notified at least 45 days before the start of the new cohort in which they would serve in the role.
 1. If a candidate declines their nomination, the function leader can nominate a new candidate for consideration.
@@ -485,7 +485,7 @@ The [MR](https://gitlab.com/gitlab-com/www-gitlab-com/-/merge_requests/66180) de
 
 ### Working Groups
 
-A [working group]({{< ref "/handbook/company/working-groups" >}}) is a specific type of group that assembles for a period of time to accomplish a business goal. Working groups have defined responsibilities and meet regularly. Ideally a working group can disband when the goal is complete to avoid accrued bureaucracy.
+A [working group](/handbook/company/working-groups) is a specific type of group that assembles for a period of time to accomplish a business goal. Working groups have defined responsibilities and meet regularly. Ideally a working group can disband when the goal is complete to avoid accrued bureaucracy.
 
 ### Middle Management
 

@@ -16,4 +16,4 @@ The [Provision tracking system](https://gitlab.com/groups/gitlab-org/-/epics/830
 1. In such situations the Support Engineer should [open a ticket on behalf of the customer](/handbook/support/workflows/working-on-tickets#8-how-can-i-open-a-new-ticket-on-behalf-of-a-customer) to inform them of the issue and offer them a solution or workaround if one is available. The Support Engineer can communicate if required with the Provisioning submitter via the raised Zendesk ticket.
 1. If required, the Support Engineer can also submit a new bug issue, update (requesting higher prioritization or feedback) an existing issue or create a new feature request as outlined in the GitLab handbook section [Managing Product Issues][def]
 
-[def]: https://about.gitlab.com/handbook/support/license-and-renewals/workflows/managing_product_issues.html
+[def]: https://about.gitlab.com/handbook/support/license-and-renewals/workflows/managing_product_issues/

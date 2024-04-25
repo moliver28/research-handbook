@@ -23,10 +23,16 @@ On-Call scheduling for Trust & Safety is organized in Pager Duty within the `Tru
 
 Standard handoff times are as scheduled. However, team members are empowered to agree on a temporary modified handoff schedule as long as all those involved agree and the team is notified about changes.
 
-SIRT
+SIRT (November - April)
 - 23:00 to 07:00 UTC –> APAC - 8 hours
 - 07:00 to 15:00 UTC –> EMEA - 8 hours
 - 15:00 to 23:00 UTC –> AMER - 8 hours
+
+SIRT (April - November)
+- 23:00 to 07:00 UTC –> APAC - 8 hours
+- 07:00 to 15:00 UTC –> EMEA - 8 hours
+- 15:00 to 23:00 UTC –> AMER - 8 hours
+
 SIRT times are reflected in the [SIRT Handoffs](https://calendar.google.com/calendar/u/0?cid=Y18zZDBwampnN3N1bDlib2VrczIxbzRxc2RjNEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t) calendar. In case both parties agree to change the time, this should be reflected in the calendar at least 24 hours prior to the handoff. This allows other team members the ability to adequately plan their schedules the night before. Changing the meeting time counts as a notification.
 
 Trust and Safety

@@ -72,20 +72,23 @@ Updates are being tracked in [&11777](https://gitlab.com/groups/gitlab-org/-/epi
 
 ### Roles and Responsibilities
 
-|Working Group Role|Person|Title|
-|---|---|---|
-|Facilitator|[Kushal Pandya](/handbook/company/team/#kushalpandya)|Fullstack Engineering Manager, Plan:Product Planning|
-|Member|[Donald Cook](/handbook/company/team/#donaldcook)|Fullstack Engineering Manager, Plan:Project Management|
-|Member|[Gabe Weaver](/handbook/company/team/#gweaver)|Senior Product Manager, Plan:Project Management|
-|Member|[Amanda Rueda](/handbook/company/team/#gweaver)|Senior Product Manager, Plan:Product Planning|
-|Member|[Jan Provaznik](/handbook/company/team/#jprovaznik)|Staff Backend Engineer, Plan:Product Planning|
-|Member|[Heinrich Lee Yu](/handbook/company/team/#engwan)|Staff Backend Engineer, Plan:Project Management|
-|Member|[Adam Hegyi](/handbook/company/team/#ahegyi)|Staff Backend Engineer, Plan:Optimize|
-|Member|[Felipe Artur](/handbook/company/team/#felipe_artur)|Senior Backend Engineer, Plan:Optimize|
-|Member|[Eugenia Grieff](/handbook/company/team/#egrieff)|Senior Backend Engineer, Plan:Product Planning|
-|Member|[Coung Ngo](/handbook/company/team/#cngo)|Senior Frontend Engineer, Plan:Project Management|
-|Member|[Florie Guibert](/handbook/company/team/#fguibert)|Senior Frontend Engineer, Plan:Product Planning|
-|Member|[Mario Celi](/handbook/company/team/#mcelicalderonG)|Backend Engineer, Plan:Project Management|
-|Member|[Alexandru Croitor](/handbook/company/team/#acroitor)|Senior Backend Engineer, Plan:Project Management|
-|Member|[Rajan Mistry](/handbook/company/team/#ramistry)|Frontend Engineer, Plan:Product Planning|
-|Member|[Jacki Bauer](/handbook/company/team/#jackib)|Product Design Manager, Plan|
+| Working Group Role | Work Stream/Specialism(s) | Person | Title |
+|---|---|---|---|
+|Facilitator & Functional Lead| Backfilling (3) | [Alexandru Croitor](/handbook/company/team/#acroitor)|Senior Backend Engineer, Plan:Project Management|
+|Functional Lead| Q4 Facilitator | [Kushal Pandya](/handbook/company/team/#kushalpandya)|Fullstack Engineering Manager, Plan:Product Planning|
+|Functional Lead| Feature Parity (1) | [Eugenia Grieff](/handbook/company/team/#egrieff)|Senior Backend Engineer, Plan:Product Planning|
+|Functional Lead| Syncing (2) | [Felipe Artur](/handbook/company/team/#felipe_artur)|Senior Backend Engineer, Plan:Optimize|
+|Functional Lead| Delegation (4) | [Nicolas Dular](/handbook/company/team/#nicolasdular)|Staff Backend Engineer, Plan:Product Planning|
+|Functional Lead| Create legacy epics for WI epics (5) | [Mario Celi](/handbook/company/team/#mcelicalderonG)|Backend Engineer, Plan:Project Management|
+|Functional Lead| Customer Pilot (6) | [Heinrich Lee Yu](/handbook/company/team/#engwan)|Staff Backend Engineer, Plan:Project Management|
+|Member| | [Kassio Borges](/handbook/company/team/#kassioborges)|Staff Backend Engineer, Plan:Knowledge|
+|Member| | [Himanshu Kapoor](/handbook/company/team/#himkp)|Senior Frontend Engineer, Plan:Knowledge|
+|Member| | [Adam Hegyi](/handbook/company/team/#ahegyi)|Staff Backend Engineer, Plan:Optimize|
+|Member| | [Coung Ngo](/handbook/company/team/#cngo)|Senior Frontend Engineer, Plan:Project Management|
+|Member| | [Florie Guibert](/handbook/company/team/#fguibert)|Senior Frontend Engineer, Plan:Product Planning|
+|Member| | [Rajan Mistry](/handbook/company/team/#ramistry)|Frontend Engineer, Plan:Product Planning|
+|Member| | [Abhilash Kotte](/handbook/company/team/#akotte)|Sr Full Stack Engineer, Plan:Product Planning|
+|Member| | [Donald Cook](/handbook/company/team/#donaldcook)|Fullstack Engineering Manager, Plan:Project Management|
+|Member| | [Gabe Weaver](/handbook/company/team/#gweaver)|Senior Product Manager, Plan:Project Management|
+|Member| | [Amanda Rueda](/handbook/company/team/#gweaver)|Senior Product Manager, Plan:Product Planning|
+|Member| | [Jacki Bauer](/handbook/company/team/#jackib)|Product Design Manager, Plan|

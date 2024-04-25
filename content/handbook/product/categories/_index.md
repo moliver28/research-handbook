@@ -236,6 +236,7 @@ When changing the name of a group, make sure to go through the following steps:
 - Share MR in #product, #development, #g_engineering_analytics and relevant #s_, #g_, and #f_ Slack channels
 - Review direction pages, groups, projects, epics, issues, templates and documentation to ensure the name change is applied consistently.
 - Rename Slack channels to reflect the new group name
+- Update the event and metric definitions belonging to the group by following [this guide](https://docs.gitlab.com/ee/development/internal_analytics/metrics/metrics_lifecycle.html#group-name-changes)
 
 ### Changing category name
 

@@ -490,10 +490,16 @@ We track marketing influence on channel opportunies as well as deal regisiration
 | Partner Recall Leads  & Contacts                        | Salesforce | This report captures the partner leads that have been recalled in the current FY.                                                                                                                                                            | [🖇️ Leads](https://gitlab.my.salesforce.com/00O8X000008muTH)  [🖇️ Contacts](https://gitlab.my.salesforce.com/00O8X000008muWG)                                                                        |
 | MDF Funds Request with Funds Claim                       | Salesforce | This report captures a list of the current FY Funds Requests received and their respected. claims                                                                                                                                                            | [🖇️](https://gitlab.my.salesforce.com/00OPL0000002ILp)                                                                               |
 | MDF Funds Request with Partner Account                       | Salesforce | This report captures a list of the current FY Funds Requests with Partner Account name filtered by status.                                                                                                                                                            | [🖇️](https://gitlab.my.salesforce.com/00OPL0000002IP3)                                                                               |
+| Instant Marketing Campaigns Asset Report                       | Impartner | This report captures views, downloads, shares and cobrands of our Instant Marketing Campaigns and assets.                                                                                                                                                             | [🖇️](https://prod.impartner.live/en/s/channel-intel/dashboard/65e60883f43d1e0033b33d6e)                                                                               |
 
 
 ### Channel Marketing Tableau Dashboard
 [This Tableau Dashboard](https://10az.online.tableau.com/#/site/gitlab/views/DraftPartnerMarketingv2/PartnerSourcedOpps?:iid=1) is the SSOT for Channel Marketing Reporting. 
+
+Under the `Partner Leads & Contacts` tab, there may be campaigns with Partner Share Status = `No Value`. This is the result of two reasons:
+
+1. Distributor do not receive partner leads, so their status will show as `No Value`.
+2. There may be a sync error, and the sync need to be attended. Create a [Marketing Operations issue](https://gitlab.com/gitlab-com/marketing/marketing-operations/-/issues/new) for investigation.
 
 #### SFDC Report Template - Records Passed to Partners
 

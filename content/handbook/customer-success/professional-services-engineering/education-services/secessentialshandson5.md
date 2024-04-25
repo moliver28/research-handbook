@@ -3,8 +3,6 @@ title: "GitLab Security Essentials - Hands-On Lab: Enable and Configure Coverage
 description: "This hands-on guide walks you through the lab exercises used in the GitLab Security Essentials course."
 ---
 
-> You are viewing the latest Version 16.x instructions. If your group URL starts with https://spt.gitlabtraining.cloud, please use the [Version 15.x instructions](https://gitlab.com/gitlab-com/content-sites/handbook/-/blob/d14ee71aeac2054c72ce96e8b35ba2511f86a7ca/content/handbook/customer-success/professional-services-engineering/education-services/secessentialshandson5.md)
-
 > Estimated time to complete: 15 to 20 minutes
 
 ## Objectives
@@ -117,10 +115,10 @@ flowchart TD
     ```yml
     fuzz-test-is-third-byte-zero:
       extends: .fuzz_base  # This anchor is defined in the template included above.
-      image: python:3.6    # This image must be able to run the code-under-test.
+      image: python:latest    # This image must be able to run the code-under-test.
       script:
         # Install the fuzz engine from a GitLab-hosted PyPi repo.
-        - pip install pythonfuzz
+        - pip install --extra-index-url https://gitlab.com/api/v4/projects/19904939/packages/pypi/simple pythonfuzz
 
         # Run a language-agnostic binary, specifying the type of fuzz engine,
         # the root of the project, and the fuzz target.

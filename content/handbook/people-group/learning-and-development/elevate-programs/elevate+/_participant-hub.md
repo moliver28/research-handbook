@@ -10,11 +10,12 @@ This handbook page will serve as your Elevate+ homebase. Here, you'll find impor
 
 ## Quick Links
 
-Navigate to frequently used links for Eleate+ below:
+Navigate to frequently used links for Elevate+ below:
 
 <div class="flex-row" markdown="0">
   <div>
-    <a href= "https://gitlab.com/gitlab-people-elevate/elevate-plus-round-1/-/boards" class="btn btn-primary" style="width:200px;margin:5px;">Intersession Work</a>
+    <a href= "https://gitlab.com/gitlab-people-elevate/elevate-plus-round-1/-/boards">Intersession Work - Cohorts 1, 2, and 3</a>
+    <a href= "https://gitlab.com/gitlab-people-elevate/elevate-plus-round-2/-/boards">Intersession Work - Cohorts 4, 5, and 6</a>
     <a href= "https://handbook.gitlab.com/handbook/people-group/learning-and-development/elevate-programs/elevate+/" class="btn btn-primary" style="width:200px;margin:5px;">Elevate+ Overview Handbook Page</a>
   </div>
 </div>

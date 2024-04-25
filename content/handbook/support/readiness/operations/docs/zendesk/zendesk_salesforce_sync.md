@@ -118,53 +118,35 @@ This first gathers the data from Salesforce. This is done via the following SOQL
 
 ```sql
 SELECT
-  Account.Account_ID_18__c,
-  Account.Name,
-  Account.CARR_This_Account__c,
-  Account.Ultimate_Parent_Sales_Segment_Employees__c,
-  Account.Account_Owner_Calc__c,
-  Account.Number_of_Licenses_This_Account__c,
-  Account.Type,
-  Account.Technical_Account_Manager_Name__c,
-  Account.GS_Health_Score_Color__c,
-  Account.Next_Renewal_Date__c,
-  Account.Restricted_Account__c,
+  Account_ID_18__c,
+  Name,
+  Ultimate_Parent_Sales_Segment_Employees__c,
+  Account_Owner_Calc__c,
+  Technical_Account_Manager_Name__c,
+  GS_Health_Score_Color__c,
+  Restricted_Account__c,
   Solutions_Architect_Lookup__r.Name,
-  (SELECT
-     Current_Subscription_Status__c,
-     Current_Term_End_Date__c,
-     Current_Term_Start_Date__c,
-     Entitled_Seats__c,
-     Product_Tier_Name_Short__c,
-     Plan_Name__c
-   FROM Customer_Subscriptions__r
-   WHERE Current_Subscription_Status__c = 'Active'),
-  (SELECT
-     Name,
-     Zuora__Status__c,
-     Zuora__SubscriptionEndDate__c,
-     Zuora__SubscriptionStartDate__c,
-     Support_Level__c,
-     Zuora__OpportunityName__c,
-     Zuora__SubscriptionNumber__c
-   FROM Zuora__Subscriptions__r
-   WHERE Zuora__Status__c = 'Active'),
-  (SELECT
-     Name,
-     Zuora__SoldToWorkEmail__c
-   FROM Zuora__R00N40000001kyLcEAI__r
-   WHERE IsDeleted = false)
+  (
+    SELECT
+      Id,
+      Name,
+      Zuora__ProductName__c,
+      Zuora__EffectiveEndDate__c,
+      Zuora__Quantity__c,
+      Zuora__TotalContractValue__c,
+      Subscription_Status__c
+    FROM Zuora__R00N40000001lGjTEAU__r
+  )
 FROM Account
 WHERE
-  Type IN ('Customer', 'Former Customer')
-  AND (
+  (
+    Account_Demographics_Territory__c LIKE 'PUBSEC%' AND
+    Account_Demographics_Territory__c != 'PUBSEC_' AND
     (
-      Account_Demographics_Territory__c LIKE 'PUBSEC%'
-      AND Account_Demographics_Territory__c != 'PUBSEC_'
-      AND (NOT Account_Demographics_Territory__c LIKE '%SLED%')
+      NOT Account_Demographics_Territory__c LIKE '%SLED%'
     )
-    OR Support_Instance__c = 'federal-support'
-  )
+  ) OR
+  Support_Instance__c = 'federal-support'
 ```
 
 </details>
@@ -198,22 +180,27 @@ This first gathers the data from Salesforce. This is done via the following SOQL
 
 ```sql
 SELECT
-  Contact.Name,
-  Contact.Email,
+  Name,
+  Email,
   Account.Account_ID_18__c,
-  Account.Name,
-  Contact.Inactive_Contact__c
+  Account.Name
 FROM Contact
 WHERE
-  Contact.Inactive_Contact__c = false
-  AND Account.Type IN ('Customer', 'Former Customer')
-  AND (
+  Inactive_Contact__c = false AND
+  Name != '' AND
+  Email != '' AND
+  (
+    NOT Email LIKE '%gitlab.com'
+  ) AND
+  (
     (
-      Account.Account_Demographics_Territory__c LIKE 'PUBSEC%'
-      AND Account.Account_Demographics_Territory__c != 'PUBSEC_'
-      AND (NOT Account.Account_Demographics_Territory__c LIKE '%SLED%')
-    )
-    OR Account.Support_Instance__c = 'federal-support'
+      Account.Account_Demographics_Territory__c LIKE 'PUBSEC%' AND
+      Account.Account_Demographics_Territory__c != 'PUBSEC_' AND
+      (
+        NOT Account.Account_Demographics_Territory__c LIKE '%SLED%'
+      )
+    ) OR
+    Account.Support_Instance__c = 'federal-support'
   )
 ```
 

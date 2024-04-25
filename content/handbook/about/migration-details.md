@@ -503,7 +503,7 @@ support/channels/index.html.md
 support/index.html.md.erb
 ```
 
-### CEO and CoST
+### CEO and Office of the CEO
 
 - **Total Pages:** 14
 - **Total Markdown Pages:** 12
@@ -1645,7 +1645,6 @@ people-group/employment-branding/index.html.md
 people-group/employment-branding/awards-process/index.html.md
 people-group/employment-branding/content-library/index.html.md
 people-group/employment-branding/glassdoor-escalation/index.html.md
-people-group/people-connect-shadow-program/index.html.md
 people-group/celebrations/index.html.md
 people-group/frequent-requests/index.html.md
 people-group/contracts-probation-periods/index.html.md.erb
@@ -3279,7 +3278,6 @@ engineering/development/enablement/systems/index.html.md.erb
 engineering/development/enablement/index.html.md.erb
 engineering/development/onboarding/manager/index.html.md
 engineering/development/analytics/product-intelligence/gitlab_com_performance_dashboard.html.md.erb
-engineering/development/analytics/product-intelligence/event_system_draft.html.md.erb
 engineering/development/analytics/product-intelligence/index.html.md.erb
 engineering/development/analytics/product-analytics/index.html.md.erb
 engineering/development/index.html.md.erb

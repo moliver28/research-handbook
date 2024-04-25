@@ -10,7 +10,7 @@ GitLab receives vulnerability reports by various pathways, including:
 - Reports or questions that come in from customers through Zendesk.
 - Issues opened on the public issue trackers. The security team can not review
 all new issues and relies on everyone in the company to identify and label
-issues as `~bug::vulnerability` and @-mention `@gitlab-com/gl-security/appsec` on issues.
+issues as `~bug::vulnerability` and @-mention `@gitlab-com/gl-security/product-security/appsec` on issues.
 - Issues reported by automated security scanning tools
 
 For **any** reported vulnerability:
@@ -136,7 +136,7 @@ issue. If necessary, a sanitized issue may need to be created with more
 general discussion and examples appropriate for public disclosure prior to
 release.
 
-For review by the Application Security team, @ mention `@gitlab-com/gl-security/appsec`.
+For review by the Application Security team, @ mention `@gitlab-com/gl-security/product-security/appsec`.
 
 For more *immediate* attention, refer to [Engaging security on-call]({{< ref "engaging-security-on-call" >}}).
 
@@ -145,7 +145,7 @@ For more *immediate* attention, refer to [Engaging security on-call]({{< ref "en
 Severity and priority labels are set by an application security engineer at the time of triage
 if and only if the issue is [determined to be a vulnerability]({{< ref "./product-security/application-security/vulnerability-management#vulnerability-vs-feature-vs-bug" >}}).
 To identify such issues, the engineer will add the `~bug::vulnerability` label.
-Severity label is determined by CVSS score, using the [GitLab CVSS calculator](https://gitlab-com.gitlab.io/gl-security/appsec/cvss-calculator/).
+Severity label is determined by CVSS score, using the [GitLab CVSS calculator](https://gitlab-com.gitlab.io/gl-security/product-security/appsec/cvss-calculator/).
 If another team member feels that the chosen `~severity` / `~priority` labels
 need to be reconsidered, they are encouraged to begin a discussion on the relevant issue.
 
@@ -167,7 +167,7 @@ security researchers use when choosing to engage with the security team, either
 directly or through our [HackerOne Bug Bounty Program]({{< ref "./product-security/application-security/runbooks/hackerone-process.md" >}}").
 
 Vulnerabilities must be mitigated and remediated according to specific timelines.
-The timelines are specified in the [Vulnerability Management handbook]({{< ref "./threat-management/vulnerability-management/#remediation-slas" >}}) (a [controlled document]({{< ref "./controlled-document-procedure" >}})).
+The timelines are specified in the [Vulnerability Management handbook]({{< ref "./product-security/vulnerability-management/#remediation-slas" >}}) (a [controlled document]({{< ref "./controlled-document-procedure" >}})).
 
 If a better understanding of an issue leads us to discover the severity has changed, recalculate the time to remediate from the date the issue was opened. If that date is in the past, the issue must be remediated on or before the next security release.
 
@@ -177,7 +177,7 @@ For `~security` issues with the `~bug::vulnerability` label and a severity of `~
 which is the target date of when fixes should be ready for release.
 This due date should account for the `Time to remediate` times above, as well as
 monthly security releases on the 28th of each month. For example, suppose today is October 1st, and
-a new `severity::2` `~security` issue is opened. It must be addressed in a security release [within 30 days]({{< ref "./threat-management/vulnerability-management#remediation-slas" >}}),
+a new `severity::2` `~security` issue is opened. It must be addressed in a security release [within 30 days]({{< ref "./product-security/vulnerability-management#remediation-slas" >}}),
 which is October 31st. So therefore, it must catch the October 28th security release.
 Furthermore, the [Security Release Process deadlines](https://gitlab.com/gitlab-org/release/docs/blob/master/general/security/process.md#release-deadlines)
 say that all merge requests associated with the fix must be ready 48 hours before the due date of the security release, which would be October 26th. So the due date in this example must be October 26th.

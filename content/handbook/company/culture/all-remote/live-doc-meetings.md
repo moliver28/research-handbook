@@ -43,6 +43,7 @@ If you determine that a meeting is needed to move a project forward, address a b
 1. Follow GitLab's [smart notetaking guidance]({{< ref "communication#smart-note-taking-in-meetings" >}}) by taking notes inline with the agenda rather than using a separate "notes" section. Real-time note-taking by multiple participants is encouraged.
 1. If you're not talking in the meeting, at any given time, help take notes. If there isn’t a note taker listed in the document at the start of the meeting, people should self-note-take. Consider asking other people to write down the answers in real-time to allow the person who asked the question to focus on the answer. The person asking the question can touch up the answer when the conversation has moved on to something less relevant to them.
 1. Notes should be properly indented and structured to follow the conversation's flow.
+1. Notes do not have to be verbatim, but they should capture key points made and be clear on any decisions or next steps.
 1. Preface questions and answers with the participant's name, giving context to the origin.
 
 ### Inclusion and transparency in meetings
@@ -51,7 +52,7 @@ If you determine that a meeting is needed to move a project forward, address a b
 1. Always ask if the name preceding the question would like to verbalize; if they wish not to, or are otherwise unavailable, the meeting host should verbalize on their behalf.
 1. Reenact questions in the list by verbalizing them even if they were already asked and answered in the shared document. Hearing the question and answer allows everyone to think about it and respond to it. It might also happen that when verbalizing the question or answer more context is given since most people can talk faster and with less effort than they can type. Another advantage if you're recording the meeting is that the recording contains everything.
 1. Unless the meeting contains [Not Public]({{< ref "confidentiality-levels#not-public" >}}) information, record the meeting to share with those who cannot attend live and consider livestreaming for maximum transparency and feedback potential.
-1. If a portion of a meeting does not pertain to you, [it's OK to look away]({{< ref "./meetings#9-its-ok-to-look-away" >}}). You are the [manager of your own time and attention]({{< ref "/handbook/leadership#managers-of-one" >}}).
+1. If a portion of a meeting does not pertain to you, [it's OK to look away]({{< ref "./meetings#9-its-ok-to-look-away" >}}). You are the [manager of your own time and attention](/handbook/leadership#managers-of-one).
 
 ## Q: What are the benefits of live doc meetings?
 
@@ -85,7 +86,7 @@ Here is a [sample template for a live doc meeting](https://docs.google.com/docum
 
 ## Q: What is meant by 'live document'?
 
-A live document is a document that may continually be edited and updated. Examples could include a shared Google doc, whiteboard being used by a team for collaboration, or [GitLab's handbook]({{< ref "/handbook" >}}).
+A live document is a document that may continually be edited and updated. Examples could include a shared Google doc, whiteboard being used by a team for collaboration, or [GitLab's handbook](/handbook).
 
 ## Q: How can I participate in a live doc meeting?
 

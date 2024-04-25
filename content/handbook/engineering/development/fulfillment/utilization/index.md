@@ -15,7 +15,7 @@ The Utilization group manages the [Utilization category](/handbook/product/categ
 
 ## Team members
 
-{{< team-by-manager-role role="Fullstack Engineering Manager, Fulfillment:Utilization" team="[,&] Fulfillment" >}}
+{{% team-by-departments "Fulfillment:Utilization Team" %}}
 
 ## Stable counterparts
 
@@ -50,6 +50,34 @@ All team members are encouraged to add topics to the [weekly agenda](https://doc
 #### Engineers
 
 Engineers are responsible for providing async issue updates on active, assigned issues when progress is made. Following the [template and guidance](/handbook/engineering/development/fulfillment/#weekly-async-issue-updates) for async updates for the entire Fulfillment Sub-department, updates should be made at least weekly. These updates help keep collaborators, stakeholders, and community contributors informed on the progress of an issue.
+
+In addition to weekly issue updates, we ask that engineeering DRIs also provide a weekly status update for the bodies of work where they're focussed. 
+
+- **When**: We aim to provide these updates every Tuesday 
+- **Who**: Anyone who is listed as a DRI against our current milestone priority projects
+- **What**: The updates should include accomplishments, any blockers and a sense of how the work is progressing against the timeline. As an added bonus, a link to a demo that has been posted in the #s_fulfillment_demo Slack channel would also be beneficial.
+- **Where**: Please provide them in the comments of the primary/parent epic of your work and tag Alex and Chase when you do so.
+
+An example template to use in these updates looks like:
+
+```markdown
+# BE Weekly Update YYYY-MM-DD
+
+* **Timeline Confidence**: :thumbsup:
+* **% Complete**: X% (Y weight closed / Z total weight)
+* **Blockers**: None
+* **Accomplishments**:
+  * 3 MRs created 
+  * 1 issue closed
+
+cc/ @alex_martin @csouthard 
+```
+
+Initially we are using the following formula for `% Complete`, rounded down to the nearest multiple of 5:
+
+```markdown
+(issue weight closed / total issue weight) * 100
+```
 
 #### Engineering Manager
 

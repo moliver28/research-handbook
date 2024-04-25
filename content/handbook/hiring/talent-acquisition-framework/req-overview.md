@@ -14,7 +14,7 @@ The communicated Talent Acquisition Process Framework specifically focuses on ap
 - **[Hiring Manager]({{< ref "./hiring-manager" >}}):** The Hiring Manager is the individual who is hiring for the particular REQ. In most situations, the person hired into this REQ will report into this individual.
 - **Hiring Team:** The Hiring Team is a group of people the Hiring Manager asks to be involved in the interview process. The Hiring Team will assess candidates for a given req based on what is defined in the [REQ Kick-off Issue](https://gitlab.com//gl-talent-acquisition/req-intake/-/issues) and the [Hiring Repo](https://gitlab.com/gitlab-com/people-group/hiring-processes/-/tree/master).
 - **Recruiter:** The Recruiter is the main point of contact for the Hiring Manager, Hiring Team, and all candidates associated with the REQ. The Recruiter will directly source for prospects as well as partner with their Sourcer and Candidate Experience Specialist throught the process. For more information on what role a Recruiter may play, please visit the Recruiter Job Family.
-- **[Candidate Experience Specialist (CES)]({{< ref "./coordinator" >}}):** The CES partners with the Recruiter and Sourcer on all scheduling, background check, references and offer needs. For more information on what role a CES may play, please visit the [CES Job Family]({{< ref "/job-families/people-group/candidate-experience" >}}).
+- **[Candidate Experience Specialist (CES)]({{< ref "./coordinator" >}}):** The CES partners with the Recruiter and Sourcer on all scheduling, background check, references and offer needs. For more information on what role a CES may play, please visit the [CES Job Family](/job-families/people-group/candidate-experience).
 
 ### **Step 1: Identify hiring need**
 
@@ -113,12 +113,10 @@ During the screening stage, it is important we capture the following information
 1. **Salary expectations**
      - Instructions: This information is captured in the Screening call Scorecard as a *Private Note*.
 If at any time during the interview process a candidate is declined due to compensation, you must add compensation information to the profile as this is used for reporting purposes. To do so, navigate to the `Private` tab in the candidate's profile > Navigate to the `Other Details` section > Fill out the `Currency` and `Compensation Expectations` fields.
-1. **Are you eligible to work where you are located?**
-     - Instructions: This information is captured in the Screening call Scorecard.
+1. **It is the Recruiter's obligation to check the candidates right to work in the country they are applying to before going further in the process**
+     - Instructions: This information is captured in the Screening call Scorecard.If a candidate requires any form of visa sponsorship, the Recruiter will let the candidate know that we are not able to move forward in the process per our [Visa policy](https://handbook.gitlab.com/handbook/people-group/visas/).
 1. **Are you subject to any employment agreements and/or post-employment restrictions with your current employer or a past employer?**
      - Instructions: This information is captured in the Screening call Scorecard.
-1. **R&D Talent Acquisition Only: Values Screening**
-     - Instructions: Asks the questions for the 3 values identified in the screening call > Navigate to the `Details` tab in the candidate's profile > Navigate to the `Additional Details` section > Select Yes or No on Did the candidate pass the values screening?
 
 #### Assessment
 
@@ -151,7 +149,7 @@ If you would like the Hiring Manager to receive an email when the form has been 
 
 During this time, you will also submit your offer for approvals.
 
-If the candidate for the position is internal, you should wait until you've presented an offer to merge the applicants' profiles. Please visit the [Candidate Hygiene Instructions]({{< ref "/handbook/hiring#interview-stages" >}}) for details.
+If the candidate for the position is internal, you should wait until you've presented an offer to merge the applicants' profiles. Please visit the [Candidate Hygiene Instructions](/handbook/hiring#interview-stages) for details.
 
 If there are any special circumstances regarding a known relocation for the candidate, this information should be included in the Compensation Details. Details should include originating location and salary, as well as the new location and new salary details to ensure it is communicated as part of the approval.
 

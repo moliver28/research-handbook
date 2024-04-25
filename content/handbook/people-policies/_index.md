@@ -20,6 +20,10 @@ These policies apply to all GitLab team members, contractors, advisors, and cont
 | PeopleOps | Responsible for implementing and executing these policies |
 | Legal & PeopleOps Management (Code Owners) | Responsible for approving significant changes and exceptions to these policies |
 
+## Translations
+
+There are translations available of many of our policies, for reference purposes, currently in Dutch, French and German, with further additions planned during FY25. They can be accessed [here](https://drive.google.com/drive/folders/1ZYIAuqGcIpaYVg8hMVDneK1FJg1b8zkN?usp=drive_link).
+
 ## General Employment Practices
 
 ### Open Door Policy
@@ -28,32 +32,6 @@ We encourage communication between team members at all levels of the organizatio
 
 If your manager cannot help you or answer your questions, your questions will be referred to someone who can. If you feel your particular question, concern, or suggestion cannot be discussed with your manager, you are encouraged to contact your manager's manager, your assigned People Business Partner or Team Member Relations. It is important to remember that a team member who takes these steps will not be subject to retaliation. You can expect to be treated fairly and with respect.
 
-### Background Screenings
-
-GitLab uses appropriate controls to ensure that its assets and its customer relationships and information are protected. To reduce these risks, GitLab will obtain and review background information of covered prospective, and, as applicable, current team members as allowed by local law.
-Contractors will also be required to complete a background screening per GitLab's [Third Party Risk Management Policy]({{< ref "third-party-risk-management#independent-contractors" >}}) and as allowed by local law. GitLab will run background screenings for independent contractors that are hired directly, but otherwise, will defer to each contractor's hiring agency's background screening policies and processes. GitLab will complete a background screening for contractors employed by agencies that do not conduct their own background screenings.
-
-GitLab currently contracts with Sterling Talent Solutions to provide background screenings. For all candidates being considered for a position at GitLab, an employment history for the last 5 years and/or the three most recent employers will be verified in accordance with applicable local law (if applicable local law limits the review of employment history to fewer years and/or employers, then GitLab follows local law) and screening will be performed against various denied party lists including but not limited to the Office of Foreign Asset Control's Specially Designated Nationals and Blocked Persons List. In jurisdictions where criminal records may be reviewed, criminal records will be requested. Additional screenings may include, where applicable and in accordance with local law, a search against the U.S. Department of Health and Human Services Office of Inspector General's List of Excluded Individuals/Entities and/or screening for financial related offenses and credit checks, when relevant to the position. GitLab may use the returned background information to make decisions regarding employment, where allowed by local law. No background screening will be run until a conditional offer has been made, unless local law explicitly requires otherwise.
-
-In the event the background screening is not available on the scheduled hire date due to delays in processing, GitLab will run the background screening as soon as possible. The same adjudication guidelines will apply to current employees as they do with prospective employees. The Senior Background Check Specialist will monitor background screenings for completion and accuracy and will follow up accordingly regarding any concerns or issues.
-
-The Candidate Experience Specialists will [initiate](/handbook/hiring/talent-acquisition-framework/coordinator/#background-screenings) all employment verifications and background screenings for candidates. The Senior Background Check Specialist will initiate any applicable retroactive background screenings or requested enhanced background screenings for current team members.
-
-Please contact the Senior Background Check Specialist at backgroundchecks@gitlab.com regarding any questions.
-
-#### Disclosure and Authorization
-
-Candidates (and, as applicable, current team members) will receive an email to fill out the background screening application. The application will ask for personal and professional information. The application process includes signing a disclosure and a consent form which explains the rights of an individual undergoing a background screening. The application process is designed to take less than fifteen minutes to complete.
-
-To prepare for the employment verification for those candidates being considered for Director level positions or higher, candidates should gather each previous employer's name and address, position title held, employment start and end dates, manager’s name and title, their phone number, and email address. Details for a Human Resources contact can be entered instead of a manager's contact details. Occasionally, and where permitted by law, Sterling will reach out to the candidate to retrieve additional information, such as backup documentation to act as proof of previous employment or picture IDs. Proof of employment can typically be provided in various ways, such as tax returns (e.g. W2s), pay stubs, LLC documentation, official company registrations, etc. In certain circumstances, the Senior Background Check Specialist may also reach out to candidates and/or team members for additional documentation.
-
-Background screenings will act as an additional mechanism of transparency and will help to build trust with our clients.
-
-#### Review Criteria for Candidates and Team Members
-
-Reviews of the background screening are conducted by the Senior Background Check Specialist in accordance with the applicable law of the candidate’s jurisdiction. The Senior Background Check Specialist will first review the report for omissions, inaccuracies, and/or discrepancies with employment, including, but not limited to, dates of employment, employer names, or positions held. If the report includes discrepancies related to employment, the Senior Background Check Specialist will take the necessary steps to investigate and adjudicate the discrepancies and/or reach out to Team Member Relations for additional support and collaboration. The Senior Background Check Specialist and Team Member Relations may escalate the report, as necessary, to the Legal Employment team. Employment decisions based on the employment verification portions of the background screening report shall be finalized before any review of the criminal records information takes place.
-
-If criminal record information has been provided, then it will be adjudicated in accordance with applicable local law. Generally, and subject to local law, criminal records are reviewed to determine if criminal convictions have a direct connection with an applicant’s ability to fulfill the job duty with competence and integrity, while also considering the safety and/or security of GitLab team members, customers, vendors, and/or overall business. Decisions are made that are job related and consistent with business necessity. Arrest records are not considered during the adjudication process, nor is any criminal conviction information that is prohibited from being reviewed by applicable local law.
 
 ### Romantic and Family Relationships at Work
 
@@ -92,7 +70,7 @@ Team members also have obligations to protect the personal and sensitive informa
 
 ### Exceptions
 
-Exceptions to this procedure will be tracked as per the [Information Security Policy Exception Management Process]({{< ref "/handbook/security#information-security-policy-exception-management-process" >}}). For reference see the [Parent Policy: Information Security Policy]({{< ref "/handbook/security" >}}).
+Exceptions to this procedure will be tracked as per the [Information Security Policy Exception Management Process](/handbook/security#information-security-policy-exception-management-process). For reference see the [Parent Policy: Information Security Policy](/handbook/security).
 
 ### Anti-Harassment
 
@@ -108,7 +86,7 @@ Please see the [Complaint Procedure](/handbook/people-group/#how-to-report-viola
 
 ### Social Responsibility
 
-Please see our [Environmental, Social, and Governance]({{< ref "/handbook/esg" >}}) page.
+Please see our [Environmental, Social, and Governance](/handbook/esg) page.
 
 ### Personal Appearance
 
@@ -140,7 +118,7 @@ In general, please consider the following recommendations to ensure safety when 
 1. Try not to draw attention. People who appear to be from out of town are more vulnerable to crimes. Try to respect the culture you are visiting by blending in. Consider protective clothing to avoid pickpockets or other theft. Do not flash money or credit cards unnecessarily.
 1. Make copies of important documents. Consider carrying hard copies of important documents (passport, driver's license) in a separate location in the event your documents are misplaced or stolen.
 1. Keep friends and family updated. No matter whether you’re going on an overnight jaunt or a week-long international journey, it’s always a good idea to let friends or family know your plans. Before you leave, send a copy of your itinerary to a few trusted people who can keep tabs on your whereabouts. Check in regularly with your contacts so they know you’re where you’re supposed to be.
-1. Be wary of public Wi-Fi. Be aware that hackers can steal sensitive information in the public forum. Use a VPN or other secure access if you plan to access sensitive data. More information on [VPN usage at GitLab]({{< ref "/handbook/security#why-we-dont-have-a-corporate-vpn" >}}) and the [Personal VPN]({{< ref "personal-vpn" >}}) page.
+1. Be wary of public Wi-Fi. Be aware that hackers can steal sensitive information in the public forum. Use a VPN or other secure access if you plan to access sensitive data. More information on [VPN usage at GitLab](/handbook/security#why-we-dont-have-a-corporate-vpn) and the [Personal VPN]({{< ref "personal-vpn" >}}) page.
 1. Safeguard your hotel. Lock and deadbolt the door while you are in the room. Ensure the door is locked when you leave. Keep the windows closed. Try to give the impression that you’re in your room even when you’re away, such as placing the Do Not Disturb sign on the outside of your door and keeping the blinds or windows closed. Don’t let any strangers into your room, even if they say they work for the hotel. You can always call the front desk to check whether someone was ordered by hotel staff to come to your room.
 1. Be aware of your surroundings. Always keep an eye on your personal belongings and use good judgment when talking to strangers. A big part of the joy of traveling is the opportunities it affords to meet new people and learn about their cultures. But if someone near you is acting suspiciously, or if you feel uncomfortable, leave the area immediately. Trust your instincts.
 1. Adhere to any recommended safety recommendations made by the GitLab group. For all large self-hosted events we (jointly completed by our internal security team and our contracted security agency) will do a full risk assessment before we converge. It will be up to employees to read said risk assessment and adhere to recommendations outlined.
@@ -214,7 +192,8 @@ Any questions or concerns? Please feel free to contact the People Connect team i
 
 ## Other People Policies
 
-- [Contracts, Probation Periods, and PIAA](/handbook/people-group/contracts-probation-periods/#piaa-proprietary-information-and-assignment-agreement)
+- [Backgound Screenings](/handbook/people-group/contracts-probation-periods/#background-screenings)
+- [Contracts, Background Screenings, Probation Periods, and PIAA](/handbook/people-group/contracts-probation-periods/#piaa-proprietary-information-and-assignment-agreement)
 - [Outside Employment and Activities](/handbook/people-group/contracts-probation-periods/#outside-employment-paid-or-unpaid-projects-and-potentially-conflicting-activities)
 - [Paid Time Off]({{< ref "paid-time-off" >}})
 - [General Benefits](/handbook/total-rewards/benefits/general-and-entity-benefits/)

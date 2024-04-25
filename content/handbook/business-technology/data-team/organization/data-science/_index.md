@@ -4,7 +4,7 @@ title: "Data Science Handbook"
 description: "GitLab Data Science Team Handbook"
 ---
 
- 
+
 
 
 
@@ -251,9 +251,20 @@ Our current platform consists of:
 - the [Enterprise Data Warehouse](/handbook/business-technology/data-team/platform/) for storing raw and normalized source data as well as final model output for consumption by downstream consumers
 - [JupyterLab](/handbook/business-technology/data-team/platform/jupyter-guide/) for model training, tuning, and selection
 - [GitLab](https://gitlab.com/) for collaboration, project versioning, and score code management, [experiment tracking](/handbook/engineering/development/incubation/mlops/ml_experiment_tracking.html), and [CI/CD](https://docs.gitlab.com/ee/ci/)
-- [Airflow](/handbook/business-technology/data-team/platform/infrastructure/#airflow) for automation and orchestration
-- Monte Carlo for drift detection
+-[GitLab CI](https://handbook.gitlab.com/handbook/business-technology/data-team/platform/ci-for-ds-pipelines/#our-approach-to-using-cicd-for-data-science) for automation and orchestration
+- [Monte Carlo](https://getmontecarlo.com/) for drift detection
 - Tableau Server for model monitoring and on-going performance evaluation
+- [Feast](https://docs.feast.dev/) as a an open-source Feature Store for Machine Learning models
+
+
+### Feast: Feature Store Implementation
+
+We are using Feast as an open-source Feature Store for our machine learning models.
+Configuration can be found on the Feast project repository, updating the feature store is done via GitLab CI/CD and the web UI is published in a VM on GCP.
+
+You can find more details on this implementation on the [Feast - Feature Store Implementation](https://internal.gitlab.com/handbook/enterprise-data/platform/data-science/) Internal handbook section.
+
+
 
 ### CI/CD Pipelines for Data Science
 

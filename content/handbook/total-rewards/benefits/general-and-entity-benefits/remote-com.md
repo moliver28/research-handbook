@@ -51,7 +51,7 @@ Team Members in Brazil are entitled to a statutory minimum of 30 calendar days o
 
 In addition, team members must be paid 1/3rd of a month’s salary as holiday bonus.
 
-To ensure all statutory annual leave is tracked appropriately, please enter all requested into Time Off by Deel by selecting the `Vacation` option.
+To ensure all statutory annual leave is tracked appropriately, please enter all requested into Time Off by Deel by selecting the `Vacation` option, at least one month prior to the leave being taken (this is ensure accuracy and reporting for statutory compliance).
 
 ### Statutory Pregnancy & Maternity leave
 

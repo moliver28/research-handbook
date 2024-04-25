@@ -25,7 +25,7 @@ By providing a seed file which contains the representation of data to be created
 
 ### Demoing GitLab
 
-[Solutions Architects](/handbook/customer-success/solutions-architects/tools-and-resources/#data-seeding-demo-data) can create seed files, which demonstrate specific pieces of GitLab that they would like to showcase to customers.
+[Solutions Architects](/handbook/solutions-architects/tools-and-resources/#data-seeding-demo-data) can create seed files, which demonstrate specific pieces of GitLab that they would like to showcase to customers.
 
 This capability can be most helpful when demoing parts of the UI that rely on data that is time-sensitive or process-intensive to get data loaded.
 

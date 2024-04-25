@@ -28,7 +28,7 @@ i.e. Record is put into `Registered` cannot be moved backwards to `Waitlisted`
 
 #### Conference
 
-Any event  that we have paid to sponsor, have a booth/presence and are sending representatives from GitLab (example: AWS re:Invent, DevOps Enterprise Summit). This also includes any virtual event that we sponsor and/or participate in that we do not own the registration but will generate a list of attendees, engagement.
+Any event that we have paid to sponsor, have a booth/presence and are sending representatives from GitLab (example: AWS re:Invent, DevOps Enterprise Summit). This also includes any virtual event that we sponsor and/or participate in that we do not own the registration but will generate a list of attendees, engagement.
 
 In a virtual conference, GitLab will pay a sponsorship fee to receive a virtual booth and sometimes a speaking session slot or panel presence. Presence of a virtual booth is a requirement due to success criteria. [Read more](/handbook/marketing/virtual-events/external-virtual-events/#virtual-conferences).
 
@@ -408,6 +408,7 @@ If this is to set up a program that involves a channel partner, you must also fo
 ##### Other Tactic Marketo Templates
 - Conference - `Virtual`: [YYYYMMDD_YYYYMMDD_Vendor_VirtualConfName1 (Virtual Conference Template)](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/ME7624A1)
 - Conference - `In person`: [skip to specific setup details here](/handbook/marketing/marketing-operations/campaigns-and-programs/#steps-to-setup-in-person-conferences)
+- Conference - Meetings (FM led) `In person`: [skip to specific setup details here](/handbook/marketing/marketing-operations/campaigns-and-programs/#steps-to-setup-in-person-conference-meetings)
 - Content Syndicaton: [skip to specific setup details here](/handbook/marketing/marketing-operations/campaigns-and-programs/#steps-to-setup-content-syndication-in-marketo-and-sfdc)
 - Direct Mail: [YYYYMMDD_DirectMail_Template](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/PG5392A1)
     - Direct Mail not needing a Marketo Program: [skip to specific setup detais here](/handbook/marketing/marketing-operations/campaigns-and-programs/#steps-to-setup-direct-mail-campaigns)
@@ -617,7 +618,7 @@ This is an _optional_ feature only available for the `Owned Event` program templ
    - If you are scheduling in person meetings, be sure to update the `reply email` token. This is used in the confirmation email. You need to add the correct email address for cancellations or special accomodations, and update the subject to something descriptive. Keep the `%20` between each word in the subject so the subject populates correctly.
 
 ### Step 4: Activate Marketo smart campaign
-- `00 Send Sales-Driven Invite` (optional) can be turned on and scheduled to send on a reoccurring basis if sales and XDRs are going to be inviting people to the conference. This is not required on all campaigns, and Verticurl will activate after building the Sales-Driven email. After scheduling, Sales can add someone to the campaign in SFDC and that person will be automatically sent an email invite. There is a separate email for sales invites listed in the `email` folder
+- `00 Send Sales-Driven Invite` (optional) can be turned on and scheduled to send on a reoccurring basis if sales and XDRs are going to be inviting people to the conference. This is not required on all campaigns and should be activated after building the Sales-Driven email. After scheduling, Sales can add someone to the campaign in SFDC and that person will be automatically sent an email invite. There is a separate email for sales invites listed in the `email` folder
 - `01 Manual upload processing` this will be activated by MOps if a manual upload is required. If you upload using the self-service process, this is not required.
 - `02 Add as Marketing Invited` should only be used if XDRs are planning to follow up and drive attendance to the event. This should be scheduled AFTER the first email invite is scheduled to send. It will update everyone who had the email invite sent to them as `Marketing Invited`. They will be updated in the campaign and visible in SFDC. **Do not use this unless there is planned event drivers**
 - `03 Interesting Moments` Activate this campaign. This should be turned on before any lists are uploaded.
@@ -646,6 +647,57 @@ These steps are not yet configured. If you are planning to do this for your next
     - Click Save
 - Add the Marketo program link and SFDC campaign link to the epic.
 - If the program is being ran by Digital Marketing, add the SFDC campaign under the parent campaign `Demand Gen Pulishers/Sponsorships`
+
+**If utilizing Allocadia, follow these [steps](/handbook/marketing/marketing-operations/campaigns-and-programs/#step-8-update-the-salesforce-campaign---using-allocadia).**
+
+## Steps to Setup in-person Conference Meetings
+The instructions below are designed for meetings led by Field Marketing at large conferences.
+
+### Step 1: [Clone this program](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/ME17801A1)
+
+- Use format `YYYYMMDD_Conference_Meetings_FM_Template`
+
+### Step 2: Sync to Salesforce
+
+- At the program main screen in Marketo, where it says `Salesforce Sync` with "not set", click on "not set"
+    - Click "Create New." The program will automatically populate the campaign tag, so you do not need to edit anything.
+    - If you are a user of Allocadia, you will need to add the Allocadia ID sub-category ID to the `Description` field.
+    - Click "Save"
+
+### Step 3: Update Marketo tokens
+
+- Update all tokens as they feed the email and interesting moments. Don't skip the epic token because it is included in the internal alert.
+     - Be sure to update the `reply email` token. This is used in the confirmation email. You need to add the correct email address for cancellations or special accomodations, and update the subject to something descriptive. Keep the `%20` between each word in the subject so the subject populates correctly.
+
+### Step 4: Activate Marketo smart campaign
+- `00 Send Sales-Driven Invite` (optional) can be turned on and scheduled to send on a reoccurring basis if sales and XDRs are going to be inviting people to the conference. This is not required and the email needs to be updated before scheduling. After scheduling, Sales can add someone to the campaign in SFDC and that person will be automatically sent an email invite. There is a separate email for sales invites listed in the `email` folder
+- `01 Manual upload processing` this will be activated by MOps if a manual upload is required. If you upload using the self-service process, this is not required.
+- `02 Add as Marketing Invited` should only be used if XDRs are planning to follow up and drive attendance to the event. This should be scheduled AFTER the first email invite is scheduled to send. It will update everyone who had the email invite sent to them as `Marketing Invited`. They will be updated in the campaign and visible in SFDC. **Do not use this unless there is planned event drivers**
+- `03 Interesting Moments` Activate this campaign. This should be turned on before any lists are uploaded.
+- `01a Meeting Request Processing` Activate this campaign if you have a landing page. Do not activate it if you are only uploading leads.
+
+### Step 4b. Set-up Asset Expiration
+- Right click the Marketo program to open the program menu and select `Set local asset expiration`. Please note, this will not work without the correct permissions.
+- A menu with all expiration capable assets will be shown as a segmented list. Example assets that can appear are `landing pages`, `active trigger campaigns` and `Reocurring batch campaigns`.
+- Use the asset checkboxes to select all assets you wish to set an expiration for and select `set expiration` when ready. Assets that should be expired are `landing pages`, `active trigger campaigns` and `Reocurring batch campaigns`. Set your date and time and then submit.
+  - Prioritize setting expirations on  `smart campaigns`.
+  - Be mindful of which smart campaigns are set to expire and when because such an event will disable program registation flows.
+- To remove expirations at a later date, right click on the program to return to the capable assets and submit changes.
+
+### Step 5: Update the Salesforce campaign
+
+- Now go to Salesforce.com and check the [All Campaigns by create date](https://gitlab.my.salesforce.com/701?fcf=00B4M000004oVF9) view. Sort by create date and your campaign should appear at the top. You may also search for your campaign tag in the search box. Select the campaign.
+    - Change the `Campaign Owner` to your name
+    - Click on the `Parent Campaign` lookup, change the dropdown to `All Campaigns` then find the parent campaign for the conference the meetings are being held at. Select this campaign. This associates your meeting campaign to the main conference campaign in the hierarchy.
+    - Update the event epic
+    - Update the description
+    - Update the budget holder to `fmm`
+    - Update `Budgeted Cost` - If cost is $0 list `1` in the `Budgeted Cost` field. - NOTE there needs to be at least a 1 value here for ROI calculations, otherwise, when you divide the pipeline by `0` you will always get `0` as the pipe2spend calculation.
+    - Update `Region` and `Subregion` if you have the data available
+    - Be sure to update all other relevant fields for your campaign
+    - Click Save
+
+- Add the Marketo program link and SFDC campaign link to the epic.
 
 **If utilizing Allocadia, follow these [steps](/handbook/marketing/marketing-operations/campaigns-and-programs/#step-8-update-the-salesforce-campaign---using-allocadia).**
 
@@ -748,8 +800,7 @@ This is the recommended template. Note that this program has the asset titles an
 - If you used the program template with the {{my.Assetx-Title}} and {{my.Assetx-Type}} prepopulated, complete the {{my.Assetx-sfdc_campaign}} for each asset.
 - In order to complete the {{my.Assetx-sfdc_campaign}}, the campaigns must be created in SFDC first and the campaign in SFDC must be marked as `Active`. This token will validate the campaign exists in SFDC in order to populate. Pay close attention to the asset number you are populating. The tokens are not in order.
 - If you used the program template without tokens pre-populated, complete each {{my.Assetx-Title}}, {{my.Assetx-Type}}, and {{my.Assetx-sfdc_campaign}}. Be sure to reference the [existing asset list](https://docs.google.com/spreadsheets/d/1PY2_uO2qg4vszSFOBrWXoHfIlNIt2qmjdr6A6fBEtcg/edit#gid=161086184) when you complete the tokens. Do not include the `Asset [number] -` in the token value. If you are not using a specific asset (for example, you aren't using Asset 4 in your program), skip that token. You will delete it from the automation later.
-     - For {{my.Assetx-Type}}, the only available options are `Whitepaper`, `eBook`, `Report`, `Video`, or `General`
-         - If you add a Content Type value other than the above, the record will hit an error when syncing to Salesforce because these are the only currently available picklist items for `Initial Source`
+     - For {{my.Assetx-Type}}, the options are `Whitepaper`, `eBook`, `Report`, `Video`, or `General`
 - Complete the `{{campaign owner email}}, {{region}}, and {{vendor}} tokens.
 
 ### Step 4: Modify & Activate Marketo smart campaigns
@@ -769,12 +820,37 @@ It is critical that any reference to asset number in Marketo automation (not tok
      - **Flow** (confirm that program references match the Marketo program name): `Step 2 - Add to List`- Delete any assets you are not using from the asset list. This will cause any responses that come in with that asset number to go into the error list and you can manually add them to the correct SFDC campaign.
           - `Step 5 - Add to SFDC Campaign - Delete the selection for any assets you are not using for this Region/Vendor by clicking the X next to the relevant Choice. Confirm that you are deleting the choice referencing the correct asset. If you do not delete the choices for unused campaigns, the responses will be added to the template campaign in SFDC. Note that it is not obvious when the selection deletes. Please confirm that the asset number you are deleting is correct before you click again.
       - **Schedule**: No changes. This will be activated by MOps if it is required. It will only be used on a manual upload and is not necessary if you use the self-service upload process.
+- `Not added to SFDC` - This isn't a campaign to activate, but this report will help you track issues with leads being added to SFDC.
+    - **Smart List**: In filter 2 - `Member of SFDC Campaign` add the specific SFDC campaigns for this program. Click on green plus sign, then start typing. A list of SFDC campaigns will come up and you can click on them to add them to the list. Click OK.
 
 ### Step 5: Important information for content syndication list uploads
 When you do your list upload, you must be sure that the `Asset [number] -` that corresponds to each asset is included in the `Content Syndication Asset` field so the automation will trigger, using the format `Asset [number] -` ("asset number space -"). The recommendation is to populate the `Content Syndication Asset` field using the format `Asset [number] - Name of asset` (example: `Asset 2 - 2023 Global DevSecOps Report: Security & Compliance`). A complete list of current assets with their asset number can be found [here](https://docs.google.com/spreadsheets/d/1PY2_uO2qg4vszSFOBrWXoHfIlNIt2qmjdr6A6fBEtcg/edit#gid=161086184). This also applies if the responses are set directly from the vendor. They must be set-up in the vendor system with the appropriate asset number.
 
 It is critical that any reference to asset number in the upload or send from the vendor uses the format `Asset [number] -` ("asset number space -"). For example `Asset 1 -` and `Asset 12 -`. This allows the automation to select the proper asset since we are using "contains" to trigger the automation. Without the `(space) -` after the asset number, both Asset 12 and Asset 1 will be recorded as Asset 1.
 
+### Step 6: Test lead flow into your Content Syndication programs
+There are a few common errors we see with Content Syndication leads. You can address most of these before sending the first test by working with the vendor to confirm they have the correct values.
+    
+- `Employee Bucket` (Employee count): Values [here](https://handbook.gitlab.com/handbook/marketing/marketing-operations/list-import/#required-data-and-recommended-data). These values must be written exactly as shown (using commas and correct spacing).   
+- `State`: We only accept [State values](/handbook/marketing/marketing-operations/marketo/#standardization-of-country-or-state-values) for the United States, Canada, and Australia. The vendor must pass blank values for any other country, otherwise SFDC will reject the lead.       
+- `Content Syndication Asset`: The values for this field need to be passed exactly as outlined above in step 5. If they are not, the automation on the program will fail.
+- After verifying the common field mistakes above, work with the vendors to submit test leads through DAP.  
+1. After the test lead is submitted, go to Marketo, click on the "Database" tab, and enter the email address of the test record in the search box under "Quick Find". You can always get to this box by clicking on the "Default" folder in the left sidebar. 
+     - If the record was found, that means the pass to Marketo worked properly and you can continue to the next step. 
+     - If it was not found, confirm the email address and search again. If you still do not find the record in the database, confirm with the vendor that they sent the test leads and that their system is properly configured to pass records directly to Marketo.
+1. Open the test record in the Marketo database. Go to the `Activity History` tab. If you have done this before and saved your view, select your custom view called "Content Syndication Verification". If this is the first time you are completing this process, click "Filter: None", select "Custom" and set-up a custom view as follows:
+     - Under Smart Campaign, select "Change Program Status", "Interesting Moment"
+     - Under Salesforce.com, select "Add to SFDC Campaign"
+     - Click "Save As" and name the view "Content Syndication verification"
+1. Confirm that the program you are testing is the program that the lead was added to with a status of "Downloaded". You will see this as a "Change Program Status" and it will show "name of the program" changed from "Not in program" to "Downloaded".
+     - If the record was not added to a program, confirm that the `01 Processing` campaign is activated in the program. If not, activate it and have another test sent through. If the campaign is active or the lead was added to the wrong program, this means the vendor pushed an incorrect ID for the program and you need to follow-up with them directly to correct it.
+1. Confirm that the record was added to the correct SFDC Campaign for the asset that was tested. 
+     - If you see an SFDC campaign name, this means the addition to SFDC was successful.
+     - If you see an error that looks similar to `"Failed: {Invalid_OR_NULL_FOR_RESTRICTED_PICKLIST}` for the "Add to SFDC Campaign" activity type, this means the record did not push to SFDC. Read the error as it will tell you what was wrong. It is usually either due to a State Value or an incorrect value in Employee Bucket. Have the vendor correct this and push another test lead.
+     - If there was no failure but the lead either wasn't added or was added to the wrong campaign, this means that the SFDC campaign was not added to the correct token, the asset was not added to the Flow steps, or the `Content Syndication Asset` field value was incorrect from the vendor. 
+1. Confirm that the correct Interesting Moment was Triggered
+    - If no IM triggered, confirm that the `02 Interesting Moments` campaign is active in the program. If it is active, check to make sure that you have all of the assets set-up correctly in the Flow steps. You are likely missing an asset in the flow steps or the format of the `Content Syndication Asset` field was incorrect from the vendor.
+1. If you need to check the email deployment, change the "Filter" view to Email and confirm that the correct email was sent. In most cases, this should be the Welcome Email without a language specified.
 
 ### Steps to Setup Content Syndication in Marketo and SFDC - Campaigns through Integrate DAP - adding a new asset
 If your content syndication program is not running through DAP, please use the instructions [above](/handbook/marketing/marketing-operations/campaigns-and-programs/#steps-to-setup-content-syndication-in-marketo-and-sfdc).
@@ -807,8 +883,7 @@ You must keep the same Asset number for existing assets, otherwise the existing 
 - Click Save.
 - Click and drag the word `Text` into the token area.
 - Under Token Name, name the token `Assetx-Type`. Marketo will add the `my.` and brackets. For example, if you are adding asset 18, name the token `Asset18-Type`.
-- Under Value, enter the asset type. The only available options are `Whitepaper`, `eBook`, `Report`, `Video`, or `General`
-    - If you add a Content Type value other than the above, the record will hit an error when syncing to Salesforce because these are the only currently available picklist items for `Initial Source`
+- Under Value, enter the asset type. The options are `Whitepaper`, `eBook`, `Report`, `Video`, or `General`
 - Click Save.
 - Click and drag `SFDC Campaign` into the token area.
 - Under Token Name, name the token `Assetx-sfdc_campaign`. Marketo will add the `my.` and brackets. For example, if you are adding asset 18, name the token `Asset18-sfdc_campaign`.
@@ -832,11 +907,16 @@ It is critical that any reference to asset number in the Marketo automation belo
      - **Flow**: `Step 2 - Add to List`- Add the Asset number to the asset list. Follow the same convention that is already in the list.
           - `Step 5 - Add to SFDC Campaign` - Click `Add Choice`.
           - To add the new choice, change it to `Content Syndication Asset contains Asset x -`, `Campaign: {{my.Assetx-sfdc_campaign}}.` Replace the x in the token with the asset number. This is the token you added in Step 4. `Status: Downloaded`.
+- `Not added to SFDC`: This isn't a campaign to activate, but this report will help you track issues with leads being added to SFDC.
+    - **Smart List**: In filter 2 - `Member of SFDC Campaign` add the specific SFDC campaigns for this program. Click on green plus sign, then start typing. A list of SFDC campaigns will come up and you can click on them to add them to the list. Click OK.
 
 ### Step 6: Important information for content syndication list uploads
 When you do your list upload, you must be sure that the `Asset [number] -` that corresponds to each asset is included in the `Content Syndication Asset` field so the automation will trigger, using the format `Asset [number] -` ("asset number space -"). The recommendation is to populate the `Content Syndication Asset` field using the format `Asset [number] - Name of asset` (example: `Asset 2 - 2023 Global DevSecOps Report: Security & Compliance`). A complete list of current assets with their asset number can be found [here](https://docs.google.com/spreadsheets/d/1PY2_uO2qg4vszSFOBrWXoHfIlNIt2qmjdr6A6fBEtcg/edit#gid=161086184). This also applies if the responses are set directly from the vendor. They must be set-up in the vendor system with the appropriate asset number.
 
 It is critical that any reference to asset number in the upload or send from the vendor uses the format `Asset [number] -` ("asset number space -"). For example `Asset 1 -` and `Asset 12 -`. This allows the automation to select the proper asset since we are using "contains" to trigger the automation. Without the `(space) -` after the asset number, both Asset 12 and Asset 1 will be recorded as Asset 1.
+
+### Step 7: Test the new asset in your Content Syndication programs
+Follow the instructions in Step 6 above to test the new asset. Focus specifically on the `Add to SFDC Campaign` and `Interesting Moments` to QA a new asset.
 
 ## Integrate DAP Closed Loop Feedback
 

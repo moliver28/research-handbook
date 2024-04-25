@@ -249,13 +249,15 @@ It will make the RMA process much easier in case you need it.
 
 ### Laptop Buy back Policy
 
-If the team member has not completed 1 calendar year at the time of offboarding or has received a laptop refresh within the past year, they have the option to purchase their laptop for current market value from GitLab. If the laptop has been used by the team member for more than one year, they can opt to keep their laptop at no cost.
+If the team member has not completed 1 calendar year at the time of offboarding or has received a laptop refresh within the past year, they have the option to purchase their laptop for current market value from GitLab. If the laptop has been used by the team member for more than one year, they can opt to keep their laptop at no cost, subject to promptly working with the Company during the offboarding process to enable the laptop to be wiped and, when required by applicable legal obligations, imaged for preservation purposes.
 
 If the team member would like to purchase the laptop at the current market value, they will need to send an email to laptops@gitlab.com to start the process. If purchasing, our Manager of IT, or Lead IT Analyst will approve, and we will send the employee an email with the determined value. If the employee decides to move forward with purchasing, our accounting department will reach out with payment information.
 
 Retained laptops must be [wiped](#laptop-wipe).
 
 If the departing team member opts not to retain or [donate](#laptop-donations) their laptop, they can return them to GitLab. See the [returning old/offboarded laptops](#laptop-recyclereturn) section for details.
+
+**If the team member is under an active Legal Hold or possesses material related to an active Company investigation, they must comply with the notice requirements. Failure to comply with an active Legal Hold may expose the team member or the Company to adverse consequences, including civil or criminal penalties and sanctions. Their obligation to follow the procedures outlined in the notice continues until the hold is lifted, even if they depart the Company. If the team member departs the Company, all Company devices and any material they're holding in accordance with any active Legal Hold Notice or active Company investigation should be turned over upon their departure.**
 
 ### Laptop Recycle/Return
 
@@ -336,7 +338,7 @@ GitLab has a large and ever-growing fleet of laptops, which IT Operations is res
 In order to do this and combined with our Zero Trust security policies and various Compliance needs, there must be some measure of intelligence and reporting in place.
 To accomplish this goal we are utilizing Jamf for MacOS devices to obtain only the essential information required. For Linux machines we will be utilizing DriveStrike as a light-touch mechanism.
 
-For more information regarding Jamf, refer to our [Endpoint Management](/handbook/business-technology/end-user-services/onboarding-access-requests/endpoint-management/) handbook page.
+For more information regarding Jamf, refer to our [Endpoint Management](https://internal.gitlab.com/handbook/it/endpoint-tools/) handbook page.
 
 For more information regarding DriveStrike, refer to our [DriveStrike](/handbook/it/guides/drivestrike/) handbook page.
 

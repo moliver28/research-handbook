@@ -36,4 +36,4 @@ In the interim, please visit the following handbook pages:
     - [Security Threat Management Sub-department](/handbook/security/threat-management)
         - [Red Team](/handbook/security/threat-management/red-team)
         - [Security Research](/handbook/security/threat-management/security-research/)
- [Team Member Enablement](/handbook/business-technology/team-member-enablement/) handbook page.
+ [Team Member Enablement](/handbook/business-technology/end-user-services/) handbook page.

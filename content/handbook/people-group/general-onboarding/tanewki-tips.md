@@ -26,7 +26,7 @@ After you sign your offer and complete your background check and references, you
 ### Before you start
 
 1. Sign your offer, and be on the lookout for your :email: Welcome Email from the Candidate Experience Specialist team. You can read about the team on [this handbook page](/handbook/hiring/talent-acquisition-framework/coordinator/).
-    - This email will contain all pertainent information such as how to order your office equipment and most importantly your laptop. The IT team also has a very handy, handbook page [you can review](/handbook/business-technology/team-member-enablement/onboarding-access-requests/#gitlab-laptops).
+    - This email will contain all pertainent information such as how to order your office equipment and most importantly your laptop. The IT team also has a very handy, handbook page [you can review](/handbook/business-technology/end-user-services/onboarding-access-requests/#gitlab-laptops).
     - Please note,when you receive your laptop, make sure to **not** sign into the laptop with your personal Apple ID. You will be asked to create an Apple ID on day one with your GitLab email address.
 1. If you are being employed by one of GitLab's US entities, either GitLab Inc or GitLab Federal LLC, you will need to complete your I9 via LawLogix. You will receive an email from LawLogix. This email will walk you through the process of completing the I9.
 1. If you live in Germany, Belgium, or Japan you will need to be on a lookout from an email from the People Connect team to complete some payroll documents.
@@ -37,7 +37,7 @@ After you sign your offer and complete your background check and references, you
   - South Korea: Global Upside / Safeguard
   - UK: Papaya
 1. If you are hired through a PEO location, the PEO will reach out to you prior to your start date to obtain the necessary documents and start their onboarding process.
-1. The next email you will receive, is a [TaNEWki call]({{< ref "/handbook/people-group/general-onboarding#tanuki-orange" >}}) invite. We hope you can join us! This Zoom call addresses those first day nerves and gives you some time to meet other new team members. You will see this invite sent to you 1-2 weeks before your start date.
+1. The next email you will receive, is a [TaNEWki call](/handbook/people-group/general-onboarding#tanuki-orange) invite. We hope you can join us! This Zoom call addresses those first day nerves and gives you some time to meet other new team members. You will see this invite sent to you 1-2 weeks before your start date.
 1. You may receive an email from Okta (our SAAS application portal) with an invite to register. **Please ignore this email** until you receive your onboarding welcome email on your first day with us. This will ensure that no issues are experienced with your access levels on your first day.
 
 ### First day {.text-warning}
@@ -58,14 +58,14 @@ After you sign your offer and complete your background check and references, you
 
 ## <i class="fab fa-gitlab fa-fw" style="color:rgb(252,109,38); font-size:.85em" aria-hidden="true"></i> Acronym Dictionary
 
-As point 36 on our [communication handbook page](/handbook/communication/#writing-style-guidelines) outlines, we try to avoid using acronyms at GitLab as much as possible however, sometimes we forget. Below you can find common acronyms used here that may help you. If you come across any not in this list during your onboarding, feel empowered to do a merge request to add it below!
+As point 23 on our [communication handbook page](/handbook/communication/#writing-style-guidelines) outlines, we try to avoid using acronyms at GitLab as much as possible however, sometimes we forget. Below you can find common acronyms used here that may help you. If you come across any not in this list during your onboarding, feel empowered to do a merge request to add it below!
 
 **Company Wide Acronyms**
 
 | Acronym| Word/Saying/Title |
 |:---------------|:---------------|
 | AMA | [Ask Me Anything](/handbook/communication/ask-me-anything/) |
-| AR | [Access Request](/handbook/business-technology/team-member-enablement/onboarding-access-requests/access-requests/) |
+| AR | [Access Request](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/) |
 | DRI | Directly Responsible Individual |
 | E-Group | Executive Group |
 | EBA | Executive Business Administrator |
@@ -87,8 +87,8 @@ As point 36 on our [communication handbook page](/handbook/communication/#writin
 
 | Acronym| Word/Saying/Title |
 |:---------------|:---------------|
-| VSD |  [Value Stream Disovery](/handbook/customer-success/solutions-architects/sa-practices/value-stream-discovery) |
-| VSW |  [Value Stream Workshop](/handbook/customer-success/solutions-architects/sa-practices/value-stream-discovery/#value-stream-workshop) |
+| VSD |  [Value Stream Disovery](/handbook/solutions-architects/sa-practices/value-stream-discovery) |
+| VSW |  [Value Stream Workshop](/handbook/solutions-architects/sa-practices/value-stream-discovery/#value-stream-workshop) |
 | L28D |  Short form for "Last 28 days". |
 
 **People Group Related Acronyms**

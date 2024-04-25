@@ -358,9 +358,11 @@ A customer may be blocked because of a license expiring or neglecting to apply a
 1. When the customer confirms, close the emergency ticket.
 1. Alert [`#support_licensing-subscription`](https://gitlab.slack.com/archives/C018C623KBJ) by linking to the ticket for follow-up.
 
-##### Multi-year subscription annual rollover
+##### Multi-year subscriptions
 
-When a customer has a multi-year deal, each anniversary that the subscription rolls over, the customer's namespace can fall back to `Free`. If this occurs, send the customer the following steps.
+- **Note:** Refer to [Handling multi-year subscriptions](/handbook/support/license-and-renewals/workflows/self-managed/handling_multi-years_subscription/) for Self Managed licensing.
+
+Some legacy-type subscriptions are called "multi-year" but are actually multiple, separate subscriptions sold up front to cover a multi-year period.  When a customer has a deal like this, each anniversary of the renewal requires that the next subscription be associated, or else the customer's namespace can fall back to `Free`. If this occurs, send the customer the following steps.
 
 1. Ask the customer to login to the [Customers Portal](https://docs.gitlab.com/ee/subscriptions/customers_portal.html) located at https://customers.gitlab.com/customers/sign_in for subscription management.
 1. Follow these [steps to ensure their GitLab.com account is linked](https://docs.gitlab.com/ee/subscriptions/customers_portal.html#change-the-linked-account).
@@ -419,7 +421,7 @@ If a customer is reporting that behaviour has recently changed, first check [Git
 
 1. Create a `~"type::bug"` issue and have the customer review it.
 1. Escalate the `~"type::bug"` issue
-   - If it's a new bug, or a bug with [S1/S2 severity](/handbook/engineering/quality/issue-triage/#severity) escalate using the [InfraDev Escalation Process](/handbook/engineering/development/processes/Infra-Dev-Escalation/). In most cases we will generate a roll-back patch and apply it to GitLab.com.
+   - If it's a new bug, or a bug with [S1/S2 severity](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity) escalate using the [InfraDev Escalation Process](/handbook/engineering/development/processes/Infra-Dev-Escalation/). In most cases we will generate a roll-back patch and apply it to GitLab.com.
    - If it's a feature flag, work with the who turned it on to [disable it through ChatOps](https://docs.gitlab.com/ee/development/feature_flags/controls.html#disabling-feature-flags). In some cases, you may need to use the [InfraDev Escalation Process](/handbook/engineering/development/processes/Infra-Dev-Escalation/) to raise a developer.
 1. If this is affecting multiple customers, [declare an incident](/handbook/engineering/infrastructure/incident-management/#report-an-incident-via-slack) to engage the incident response team who will update the status page.
 1. Once the original functionality is restored, update the customer.
@@ -505,20 +507,37 @@ You can bulk edit tickets by:
 
 ![ZD Bulk Update View](/images/support/zd-bulk-update.png)
 
-## US Government Support Emergencies
+## US Government On-call
 
-US Government on-call support is provided 7 days a week between the hours of 0500 and 1700 Pacific Time.
+US Government on-call support is provided 7 days a week between the hours of 0500 and 1700 Pacific Time for [severity one](https://about.gitlab.com/support/definitions/#severity-1) issues that arise with premium and ultimate customers who have purchased 12x5 US Gov support. Customers who have opted for the 24x7 ultimate for high and emergency coverage can page at any time.
 
-The current on-call schedule can be viewed in [PagerDuty](https://gitlab.pagerduty.com/schedules#P89ZYHZ)(Internal Link), or in the [Support Team on-call page](https://gitlab-com.gitlab.io/support/team/oncall.html)(GitLab Employees only). The schedule is currently split into two, 6 hour shifts, an AM and a PM shift. The AM shift starts at 0500 Pacific Time and runs until 1100 Pacific Time. The PM shift starts at 1100 Pacific Time and runs until 1700 Pacific Time.
+The current on-call schedule can be viewed in [PagerDuty](https://gitlab.pagerduty.com/schedules#P89ZYHZ)(Internal Link), or in the [Support Team on-call page](https://gitlab-com.gitlab.io/support/team/oncall.html)(GitLab Employees only). The schedule is currently split into three, 8 hour shifts which roughly correlate with the dayshift, evening, and overnight team member hours:
+
+- Dayshift: 05:00 - 13:00 PT
+- Evenings: 13:00 - 21:00 PT
+- Overnight: 21:00 - 05:00 PT
 
 Customers are permitted to submit emergencies via email or via the emergency form in the US Government support portal.
 
 #### Emergencies outside on-call hours
 
-If a customer submits an emergency case outside the [working hours of Government Support](https://about.gitlab.com/support/us-government-support/#hours-of-operation) the following will occur:
+If a non-24x7 eligible customer submits an emergency case outside the [working hours of Government Support](https://about.gitlab.com/support/us-government-support/#hours-of-operation) the following will occur:
 
 - A slack notification will trigger in the #spt_us-government channel alerting the team to an off hours emergency and indicating follow-up is needed at the start of business hours
 - The `Off hours emergency request` trigger will inform the ticket submitter that it is after hours and give them the option to either create an emergency case in Global support or wait for US Government support to follow-up at the next start of business hours.
+
+##### Responding to after hours emergencies
+
+Team members who are working after the 12x5 hours may opt to provide support for customers who are having a production incident at the engineer's own discretion. When addressing these it is important to ensure the following is clear with the customer:
+
+   - They are not entitled to 24x7 support based on their subscription
+   - Emergency support is being provided as a one off exception based on the engineer's availability and future after hours support is not guaranteed
+
+The responding engineer should also add their manager as a follower and indicate in an internal note that after hours support is being provided. This will help ensure the appropriate follow-up occurs with the customer's account team.
+
+#### US Gov Emergencies in Global
+
+US Government customers with 12x5 support packages are permitted to use the global support portal for after hours emergencies if their organization's policies permit interacting and sharing information with non-US citizens. The US Gov support team **cannot confirm or deny** whether a specific case belongs to a user or organization entitled to US Government support. There is no requirement or restriction on who can reply to emergencies filed in the global support portal. If a user asks for a US citizen please remind them they are using the global support portal where US citizenship is not guaranteed and let them know if that is a requirement they should use the US Government Support portal for future communication instead.
 
 ## GitLab Dedicated Emergencies
 

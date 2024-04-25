@@ -3,40 +3,47 @@ title: "Customer Success Management"
 description: "The Customer Success Management (CSM) team focuses on the themes of align, enable, and expand."
 ---
 
-The Customer Success Management (CSM) team focuses on the themes of align, enable, and expand.  We align with customers' desired business outcomes, enable them on their existing use cases, and work with them to expand into additional use cases, ensuring ongoing and ever-improving customer return-on-investment.
+The Customer Success Management (CSM) team is accountable for customer adoption, measurable outcomes, customer satisfaction, and creating true customer advocacy.
 
 Additionally, our team serves as liaisons between the customer and the GitLab ecosystem, streamlining collaboration with Product Management, Engineering, Sales, Professional Services, and others. [CSM handbook](/handbook/customer-success/csm).
 
-## Responsibilities
+The Customer Success Manager(CSM) role at GitLab is expected to serve and operate in the following ways and have product and domain expertise.  The depth of knowledge in each area will progress within the CSM career ladder.
 
-- Partner with our customers in taking what was established in the pre-sales command plan, and turning the customers desired positive business outcomes into actionable objectives
-- Know the GitLab platform, our more common best practices, and use cases in order to guide the customer
-- Understand the customer journey and be able to guide them on future adoption
-- Act as the GitLab liaison for GitLab questions, issues, or escalations. Collaborate with GitLab Support, Product Management (i.e., roadmaps), or other teams as needed
-- Own a book of assigned customers, with a focus on increasing adoption, ensuring retention and growth, and overall customer satisfaction
-- Remain knowledgeable and up-to-date on GitLab releases
+## Consultative/Customer Management Knowledge
 
-## Requirements
+- Ability to analyze and create actionable insights from product usage data
+- Experience guiding customer conversations in order to discover customer goals/objectives
+- Consultative approach to customer discovery to ensure customer renewal and identify expansion opportunities and risk
+- Risk mitigation and escalation management
+- Customer Onboarding: Guiding new customers through the onboarding process to ensure a smooth transition and successful adoption of the product or service
+- Ownership of customer adoption and enablement plan
+- Experience working with technical teams, including decision makers and practitioners
+- Able to manage external and internal stakeholders to agreed timelines and deliverables
 
-- Understanding of Git and typical branching strategies
-- Knowledge of software development lifecycle and development pipeline
-- Understanding of continuous integration, continuous deployment, DevSecOps
-- Prior experience in Customer Success or equivalent history of increasing satisfaction, adoption, and retention
-- Experience partnering with customers to define and achieve business outcomes
-- Familiarity working with customers of sizes relevant to the assigned [segment](/handbook/customer-success/csm/segment/#segments)
-- Exceptional verbal, written, organizational, presentation, and communications skills
-- Detailed oriented and analytical
-- Strong team player but self-starter
-- Project management experience & skills
-- Strong technical, analytic, and problem-solving skills
-- Alignment with our [values](/handbook/values/), and willingness to work in accordance with those values
-- Willingness to travel if needed and comply with the company’s [travel policy](/handbook/travel/)
+## Product and Domain Knowledge
+
+- Up-to-date on recent GitLab releases
+- Hands-on knowledge of GitLab
+- Ability to convey complex technical concepts to demo GitLab Features addressing specific customer requirements
+- Ability to understand and address/navigate complex customer environments (technical construct, integrations, business processes)
+- Identified area of GitLab Product specialization, including knowledge of competitive landscape
+- Experienced in one or more parts of the software development lifecycle (e.g., architecture, development, testing, implementation, operations)
 
 ## Levels
 
-### Associate Customer Success Manager (CSM)
+| Role | Grade |
+| -- | - |
+| [Associate Customer Success Manager](#associate-customer-success-manager) | [Grade 5](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) |
+| [Customer Success Manager](#customer-success-manager-intermediate) | [Grade 6](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) |
+| [Senior Customer Success Manager](#senior-customer-success-manager) | [Grade 7](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades)
+| [Staff Customer Success Manager](#staff-customer-success-manager) | [Grade 9](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades)
+| [Manager, Customer Success Managers](#manager-customer-success-managers) | [Grade 9](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) |
+| [Senior Manager, Customer Success Managers](#senior-manager-customer-success-managers) | [Grade 9](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) |
 
-The Associate CSM reports to the [Manager/Senior Manager, CSM](/job-families/sales/customer-success-management/#manager-of-customer-success-managers)
+
+### Associate Customer Success Manager
+
+The Associate Customer Success Manager (CSM) reports to the [Manager/Senior Manager, CSM](/job-families/sales/customer-success-management/#manager-of-customer-success-managers)
 
 #### Associate CSM Job Grade
 
@@ -54,9 +61,9 @@ The Associate CSM is a job grade [level 5](/handbook/total-rewards/compensation/
 
 - Demonstrated progressive experience in a related function is required with direct customer advocacy and engagement experience in post-sales or professional services functions
 
-### Customer Success Manager (CSM) (Intermediate)
+### Customer Success Manager (Intermediate)
 
-The CSM (Intermediate) reports to the [Manager/Senior Manager, CSM](/job-families/sales/customer-success-management/#manager-of-customer-success-managers).
+The Customer Success Manager (CSM) (Intermediate) reports to the [Manager/Senior Manager, CSM](/job-families/sales/customer-success-management/#manager-of-customer-success-managers).
 
 #### CSM (Intermediate) Job Grade
 
@@ -80,7 +87,7 @@ The CSM (Intermediate) is a job grade [level 6](/handbook/total-rewards/compensa
 - Knowledge of software development lifecycle and development pipeline
 - Understanding of continuous integration, continuous deployment, DevSecOps
 
-### Senior CSM
+### Senior Customer Success Manager
 
 The Senior CSM reports to the [Manager/Senior Manager, CSM](/job-families/sales/customer-success-management/#manager-of-customer-success-managers).
 
@@ -108,11 +115,11 @@ The Senior CSM is a job grade [level 7](/handbook/total-rewards/compensation/com
 - Advanced knowledge of software development lifecycle and development pipeline
 - Advanced project management experience & skills
 
-### Staff CSM
+### Staff Customer Success Manager
 
 Market Justification: The business need for an individual contributor Staff CSM role is to have a team member who is a subject matter expert in customer engagement, success planning, and driving platform adoption. In addition to working with the customers in their book of business, they provide guidance and coaching to other CSMs and develop improvements to our customer engagement model. In the market, there are over 20 organizations that typically have 2-3 Staff CSMs.
 
-The Staff CSM reports to the [Manager/Senior Manager/Director, CSM](/handbook.gitlab.com/job-families/sales/customer-success-management/#manager-csm).
+The Staff Customer Success Manager (CSM) reports to the [Manager/Senior Manager/Director, CSM](/handbook.gitlab.com/job-families/sales/customer-success-management/#manager-csm).
 
 #### Staff CSM Job Grade
 
@@ -155,9 +162,9 @@ The Staff CSM is a job grade [level 9](/handbook/total-rewards/compensation/comp
 - 6 enablement contributions to global CS team per fiscal year
 - 2 Use-case specific or Vertical-specific playbooks created, with global team enabled on them, per year
 
-### Manager, CSM
+### Manager, Customer Success Managers
 
-The Manager, CSM, reports to the [Director of Customer Success Managers](/job-families/sales/customer-success-management/#director-of-customer-success-managers).
+The Manager, Customer Success Managers (CSM), reports to the [Director of Customer Success Managers](/job-families/sales/customer-success-management/#director-of-customer-success-managers).
 
 #### Manager, CSM Job Grade
 
@@ -197,9 +204,9 @@ The Manager, CSM is a job grade [level 9](/handbook/total-rewards/compensation/c
 - Ability to connect technology with measurable business value
 - Strategic thinking about business, products, and technical challenges
 
-### Senior Manager, CSM
+### Senior Manager, Customer Success Managers
 
-The Senior Manager, CSM reports to the [Director of Customer Success Managers](/job-families/sales/customer-success-management/#director-of-customer-success-managers).
+The Senior Manager, Customer Success Managers(CSM) reports to the [Director of Customer Success Managers](/job-families/sales/customer-success-management/#director-of-customer-success-managers).
 
 #### Senior Manager, CSM Job Grade
 
@@ -223,280 +230,20 @@ The Senior Manager, CSM is a job grade [level 9](/handbook/total-rewards/compens
 - Demonstrated progressive experience leading customer success managers, account management or sales teams with team sizes of 5+ people
 - Proven experience leading teams, driving software adoption, and building and scaling customer success management practices
 
-### Director of Customer Success
-
-The Director of Customer Success reports to the [VP of Customer Success](/job-families/sales/vp-of-customer-success/).
-
-#### Director of Customer Success Job Grade
-
-The Director of Customer Success is a job grade [level 10](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
-
-#### Director of Customer Success Responsibilities
-
-- Extends the Senior Manager, CSM responsibilities
-- Set the overall vision and strategic plan for the Account Management organization, focusing on driving product adoption, leading customer outcomes, and experiences, and driving growth through gross renewals and net retention improvements
-- Architect the post-sales customer experience and lifecycle by building a world-class customer success management practice and organization
-- Partner with the Sales, Product, Engineering, Support, and Operations teams to deliver the best possible customer experience
-- Drive customer outcomes, product adoption, and customer experience
-  - Influence future lifetime value through higher product adoption, customer satisfaction, and overall health scores
-  - Increase product adoption and drive new business growth through greater advocacy and referenceability
-- Define and optimize customer lifecycle by driving programs and initiatives to improve engagement approaches based on customer segmentation and leading a culture of continuous improvement
-- Develop company-wide customer success motion integrating processes, content and data to/from stakeholder organizations (e,g., Marketing, Sales, Product/Engineering, etc)
-- Proven ability to develop strategies, translate them into initiatives and track successful delivery
-- Build and lead world-class Customer Success Management team:
-  - Recruit and develop a high performing team
-  - Foster collaboration within the GitLab team and across customer stakeholders (i.e., technical, management and executives)
-  - Lead enablement and operational practices to track and improve the performance of the teams and individuals
-- Work closely with the Sales management and regional directors to align on strategies, renewal forecasting, coverage plans, and account opportunities (i.e., opportunities and risks)
-- Drive account growth goals:
-  - Expand GitLab product and license adoption, setting up expansion opportunities
-  - Influence future lifetime value through higher product adoption, customer satisfaction/advocacy, and referenceability
-- Be an inspirational role model by challenging and maximizing the team strengths and aligning their efforts to the mission, vision, and organizational strategy
-- Address escalated customer issues with speed and urgency, orchestrating resources across the company as appropriate
-- Build a world-class post-sales organization by implementing technology and processes
-- This role is focused on customer success management and is not a technical support-related role
-
-#### Director of Customer Success
-
-- Extends the Manager, CSM requirements
-- Demonstrated progressive experience leading customer success managers, account management or sales teams with team sizes of 30 people+
-- Demonstrated progressive experience leading managers of customer success teams in a SaaS or subscription enterprise software company
-- Demonstrated ability to lead managers and successfully manage global, distributed teams across cultures, lines of business, and geographies
-
-### Senior Director of Customer Success
-
-The Senior Director of Customer Success reports to the [VP of Customer Success](/job-families/sales/vp-of-customer-success/)
-
-#### Senior Director of Customer Success Job Grade
-
-The Director of Customer Success is a job grade [level 11](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
-
-#### Senior Director of Customer Success Responsibilities
-
-- Extends that of the Director of Customer Success responsibilities
-- Define and deliver strategies and plans that enhance and integrate into GitLab's Go-To-Market strategies and plans, including Sales, Marketing, Product, Growth, Operations, Channel/Alliance, and Data Teams
-- Build engagement approaches (e.g., onboarding, success plan management, expansion plays, etc.) based on industry best practices while incorporating GitLab's unique value proposition and values
-- Build and iterate on segmentation strategies based on customer economics, propensity to grow, lifecycle stage, and customer preferences, incorporating digital engagement at all segments
-- Manage and nurture executive relationships with customers, including management of executive-level escalations
-
-#### Senior Director of Customer Success Requirements
-
-- Extends that of the Director of Customer Success requirements
-- Demonstrated progressive experience leading managers of customer success teams in a SaaS or subscription enterprise software company
-
-### Vice President of Customer Success
-
-The Vice President of Customer Success is a job grade [level 12](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
-
-#### Vice President of Customer Success Responsibilities
-
-- Extends the Senior Director of Customer Success responsibilities
-- Provide strategic influence with customers accounts as well internally for programs and initiatives, continuously improving customer journey, segmentation approaches, and digital approaches
-- Lead new developments and improvements across GitLab to improve customer experience, customer-centricity, and growth for GitLab
-- Provide executive sponsorship for strategic accounts
-- Develops a clear strategy and vision for their department, inspiring their team through communication in alignment with GitLab's mission, vision, and values
-- Align and influence the Executive Team and senior leadership on CSM and GTM strategies and tactics
-- Partner with the Sales organization to drive growth and retention and improve efficiency
-- Lead company-wide strategies and initiatives to improve the customer experience and deliver voice-of-customer metrics and reporting across GitLab
-
-#### Vice President of Customer Success Requirements
-
-- Extends the Senior Director of Customer Success requirements
-- Demonstrated experience in cross-functional leadership to influence internal organizations on strategic GTM initiatives
-- Track record of successfully building, growing, and scaling global Customer Success Management teams, delivering to revenue and customer metrics
-- Ability to influence, negotiate and build consensus with the Executive Team and senior leadership
-- Brings experience building, scaling, and developing global teams
-- Serves as an expert in Customer Success Management internally and with customers, partners, and industry communities
-
-##### Vice President of Customer Success Performance Indicators
-
-- Extends the Customer Success KPIs articulated [here](https://handbook.gitlab.com/job-families/sales/customer-success-management/#performance-indicators)
-- Gross and net retention
-- Customer metrics (onboarding, time-to-first value, use case and platform adoption, use case expansion, sentiment measured by NPS, CSAT, or surveys)
 
 ## Specialties
 
-### Customer Success Manager / Strategic, named assignments
+### Public Sector Customer Success Manager (CSM)
 
-- Experience leading a high-touch motion with customers, including strategic account planning, lifecycle management, deep focus on maturity of adoption and leadership in expansion initiatives
-- Possess a deep understanding of creating customer value to deliver scalable customer engagements that help customers derive ongoing value from their investment with GitLab
-- Manage and provide input into iteration upon the customer journey, including onboarding, adoption, retention, and expansion, with an emphasis on defining and demonstrating value programmatically to grow net revenue retention ultimately
-- Take a data-driven approach to driving value across the customer segment, ensuring time and attention is prioritized to ensure the most significant positive impact
-- Proactively identify and prioritize accounts to focus efforts within a defined territory as based on point in lifecycle (e.g., onboarding) perceived risk, potential growth, strategic value, and renewal timeframe
-- Work cross-functionally with multiple teams (CS ops, Content, Programs, Marketing, Product, Sales) to develop thoughtful and innovative approaches to driving success with customers at scale
-- Identify key areas of enablement need across the customer segment and partner closely with the CSM and CSE leaders to create content and webinars to address these needs
-- Analyze industry best practices, trends, and performance metrics to shape customer engagement strategies and accelerate results
+#### Public Sector CSM Responsibilities
 
-### Customer Success Engineer / Success at Scale
+- Extends the corresponding Customer Success Manager level responsibilities, working exclusively with Public Sector customers
 
-- Develop and deliver programs at scale to drive product adoption, expansion, and customer engagement through webinars, digital content, and cohort engagement approaches (eg. workshops, office hours, etc.)
-- Collaborate across a number of other teams to drive effective customer programs (digital editor, CSM team, digital campaign manager, marketing)
-- Understand the nuances of digital relationships and automated engagements and architects positive customer experiences to ensure the customer feels valued while obtaining value from the GitLab platform
-- Utilize automation and digital engagements, isolating some customers for reach-outs based on product usage data insights coupled with the customer's point in their lifecycle
-- Create blanket contact campaigns of monthly or quarterly e-newsletters, data triggered email campaigns, on-demand training and guidance
-- Drive feature adoption through targeted on-going training of customers via webinars and campaigns
-- Leverage engagement and digital metrics to create and improve enablement content in alignment with customer journey
-- Analyze product usage data to determine prioritization of customer reach-outs and activities
-- Create fun and engaging training resources that scale
-- Build engagement playbooks and reach out to customers with a relentless focus on quick solutions and positive outcomes
-- Work with CS and Sales leadership on creating and executing upon scalable save plays for at-risk customers
-- Organize product-centric office hours where customers can troubleshoot with a technical representative
+#### Public Sector CSM Requirements
 
-### Customer Programs
-
-- Engage and assist customers as part of a campaign or program led by Customer Programs team in partnership with CSM/CSE and Sales team
-- Capture customer insights (e.g., common reasons for stalled adoption, contraction and churn) in the SMB segment through data analysis and customer engagement
-- Create solution guides and videos to deliver technical enablement to a large audience across the SMB and Mid-Market segments primarily
-- Curate frequently asked questions (FAQ) and related solution guides based on direct customer engagement, and analysis of customer requests and usage patterns
-- Partner with Customer Programs team to enhance and improve digital adoption journey to preserve or increase net retention for digital customers
-- Partner with our customers to understand industry-wide technical challenges along the customer journey with GitLab
-
-### Public Sector Customer Success Manager
-
-#### Public Sector Customer Success Manager Responsibilities
-
-- Extends the corresponding Customer Success Manager level responsibilities:
-- Work exclusively with Public Sector customers
-
-#### Public Sector Customer Success Manager Requirements
-
-- In addition to the corresponding Customer Success Manager level requirements:
+In addition to the corresponding Customer Success Manager level requirements:
 - TS/SCI Security Clearance if applicable
 - Knowledge of and demonstrated progressive experience with Public Sector customers
-
-### Customer Success Engineer (CSE)
-
-The Customer Success Engineer (CSE) role provides deep subject matter expertise on GitLab technical and product solutions and best practices. CSEs work alongside CSMs to provide customers with technical guidance, go in-depth on use case implementation, and demonstrate the value of GitLab product capabilities.
-
-The Senior CSE reports to the Manager/Senior Manager, CSE.
-
-#### Customer Success Engineer Responsibilities
-
-- Engage with customers, both onsite and remote (mostly remote), in a technical consultancy and advisor role during the post-sales process while providing technical and solution guidance
-- Providing technical, architectural and best practice guidance
-- Drive the achievement of measurable value (business outcomes), leading to product adoption, renewal, and expansion
-- Align with Customer Success Managers (i/a) to provide customer-facing subject matter expertise based on the customer's business objectives
-- Focus on solution-based programs that are customized to fit an individual customer's needs
-- Develop and collaborate on customer workshops, demos, and other enablement
-- Maintain specialty competency in one or more technologies related to GitLab's market focus through activities such as training, certification and creation of working examples for reuse internally and by customers and partners
-- Continuously improve professional skills with a focus on personal mastery and team learning through activities such as training, reading and seeking mentorship from others
-- Contributes to our docs, YouTube channel, and other enablement programs such as the Digital Journey
-
-#### Customer Success Engineer Requirements
-
-- Experience with a GitLab use case (SCM, CI, CD, DevSecOps, Agile Planning) to provide in-depth customer guidance and enablement
-- Proficiency using DevSecOps tools or highly technical tooling in adjacent fields
-- Specialize in GitLab use cases to provide in-depth guidance and enablement to customers of all sizes, including large enterprise organizations
-- Technical experience in development or systems engineering
-- Demonstrated capacity to clearly and concisely communicate about complex technical, architectural, and/or organizational problems and propose thorough iterative solutions
-- Have demonstrated the ability to become a trusted technical advisor to customer and business leaders
-- Exceptional verbal, presentation, and written communication skills
-- Excellent time management and ability to work with several different teams at any given time
-
-### Senior Customer Success Engineer
-
-The Senior CSE reports to the Manager/Senior Manager, CSE.
-
-### Senior Customer Success Engineer Job Grade
-
-The Senior CSE is a job grade [level 7](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
-
-### Senior Customer Success Engineer Responsibilities
-
-- Extends the Customer Success Engineer responsibilities
-- Strategize on the overall objectives and long-range goals of the team
-- Provide mentorship for CSEs to help them grow in their technical knowledge and provide premium customer experience
-- Work cross-departmentally to find solutions to complex scenarios and integration issues
-- Demonstrate leadership in new feature and technology adoption and teaching by providing regular enablement and solution overview sessions and documentation for customers and other GitLab team-members
-- Help drive team expertise and technical thought leadership
-- Maintain deep knowledge of the GitLab platform
-
-### Senior Customer Success Engineer Requirements
-
-- Extends the Customer Success Engineer requirements
-- Ability to translate business requirements into business value, and work with sales and marketing to promote value-driven solutions
-- Expert in GitLab usage and able to train others in its usage
-- Advanced knowledge of software development lifecycle and development pipeline
-- Advanced project management experience & skills
-
-### Staff Customer Success Engineer
-
-Market Justification: The business need for an individual contributor Staff CSE role is to have a team member who is a subject matter expert (SME) with deep subject matter expertise positioned to train on and refine the practice of the CSE function. The Staff CSE collaborates closely with the CSE and CSM leadership in further refining the direction and enablement of the CSE specialty within Customer Success Management. In the market, there are over 20 organizations that typically have 2-3 Staff CSEs.
-
-The Staff CSE reports to the Manager/Senior Manager, CSE.
-
-##### Staff Customer Success Engineer Job Grade
-
-The Staff CSE is a job grade [level 9](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
-
-##### Staff Customer Success Engineer Responsibilities
-
-- Extends the Senior Customer Success Engineer responsibilities
-- Demonstrates seniority in 3 or more [customer use cases](/handbook/use-cases/)
-- Provides subject matter expertise within a defined technical GitLab product area or as a trusted advisor
-- Is proficient with DevOps frameworks (e.g., LeSS, SaFe, etc.) and can communicate customers' goals and capabilities as they relate to customers' adoption roadmaps
-- Overlays with the global book of customers in roadblock areas for strategic customers removing barriers to growth and adoption concerning their area of expertise
-- Periodically leads research and analysis of industry/market trends within customer success, with a focus on Customer Success data and trends
-- Helps ensure GitLab is listening and hearing our customers and can remain responsive to them
-- Increase global CS team knowledge and thought leadership within the realm of their expertise
-- Serves as advisor to Product Team providing feedback to promote customer use cases and assist in product feature prioritization
-
-##### Staff Customer Success Engineer Requirements
-
-- Extends the Senior Customer Success Engineer requirements
-- Experience and a proven track record with the additional responsibilities of a Staff TAM/CSE/CSM
-- Technical / DevOps domain expertise
-- Proven ability to overlay in customer technical risk situations and architect successful solutions
-- Proven ability to consult and be consulted on topics requiring product/technical expertise
-- Excellent moderation and communication skills
-- Extensive experience within a technical or account management area
-
-## Manager, CSE
-
-The Manager, CSE, reports to the [Director of Customer Success Managers](/job-families/sales/customer-success-management/#director-of-customer-success-managers).
-
-### Manager, CSE Job Grade
-
-The Manager, CSE is a [grade 9](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
-
-### Manager, CSE Responsibilities
-
-- Extends the respsonsibilities of [Manager, CSM](/job-families/sales/customer-success-management/#manager-csm) by:
-  - Working with a variety of customers in countries across a whole super-region (Americas, EMEA, APAC)
-  - Foster relationship and collaboration of the whole CSE community on a global level
-  - Oversee the creation and delivery of workshops, webinars and other content scaled for a larger target group
-
-### Manager, CSE Requirements
-
-- Extends the respsonsibilities of [Manager, CSM](/job-families/sales/customer-success-management/#manager-csm) by:
-  - Deeper technical understanding in DevSecOps and ability to coach and mentor team members on that topic
-  - Experience with content creation and delivery at scale
-
-## Senior Manager, CSE
-
-The Senior Manager, CSE reports to the [Director of Customer Success Managers](/job-families/sales/customer-success-management/#director-of-customer-success-managers).
-
-### Senior Manager, CSE Job Grade
-
-The Senior Manager, CSE is a [grade 9](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
-
-### Senior Manager, CSE Responsibilities
-
-- Extends the Manager, CSE responsibilities
-- DRI for one or more initiatives beyond the CSE manager role that includes: customer growth, expansion programs, and processes
-- Action upon identified opportunities for continuous improvement across the customer lifecycle
-- Consistent representation of our values to the customer, our CSE team, and the company as a whole
-- Lead in cross-functional work representing customer success in GitLabs more strategic revenue-focused initiatives
-- Owns and manages more than just the CSE manager purview - defined by looking for and solving larger team or organizational challenges, and owning initiatives that span wider than the CSE manager role
-- Aligned with the objectives of Gitlab and is responsible for ensuring that the CSE team as a whole is contributing to our company objectives
-- Strategic in thinking to solve challenges for the entire CSE team and make improvements that will positively impact all customers
-
-### Senior Manager, CSE Requirements
-
-- Extends the Manager, CSE requirements
-- Demonstrated progressive management experience leading teams in a software company
-- Demonstrated progressive experience leading customer success managers/engineers, Technical Account Managers, account management or sales teams with team sizes of 5+ people
-- Proven experience leading teams, driving software adoption, and building and scaling customer success practices
 
 ## Performance Indicators
 
@@ -505,7 +252,7 @@ The Senior Manager, CSE is a [grade 9](/handbook/total-rewards/compensation/comp
 
 ## Career Ladder
 
-The next steps in the Customer Success job family is to move to a senior job grade.
+Team members in the Customer Success Management job family may progress through the career ladder; in some instances team members may move to other roles in the Sales organization such as Customer Success Engineer, Customer Success Architect or Solutions Architect.  
 
 ## Hiring Process
 
@@ -533,10 +280,6 @@ The panel interview consists of several members of the Customer Success team. It
 
 - Live demonstration based on the guidance provided ahead of the interview by the recruiter
 - General discussion and questions from the panel
-
-### Executive Interview
-
-Conducted by the [Senior Director of Customer Success](/job-families/sales/customer-success-management/#senior-director-of-CSMs), this is a discussion with the candidate as a final assessment interview to evaluate the candidate's suitability for the role. This is a 30 minute interview.
 
 ### Reference and Background Check
 

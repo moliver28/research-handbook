@@ -26,7 +26,7 @@ The recommended and documented way for building the handbook locally is using Do
 1. [Running Hugo](#running-hugo)
 1. [Parameters for Hugo](#parameters-for-hugo)
 1. [Build static files](#build-static-files)
-1. [Running Markdown Lint](#running-markdown-lint)
+1. [Linting content](#linting-content)
 
 ### Clone this repository
 
@@ -64,26 +64,23 @@ cd handbook
 
 Hugo needs to be run to generate the static files from the handbook markdown content.
 
-> **Note**
->
-> Docker containers are the only supported method where all additional dependencies and runtimes are preinstalled.
-
 You can use the Hugo container to start a locally running instance of the handbook, and verify how your changes look.
 
-The following command starts the Hugo server, using the [`hugomods/hugo` container image](https://hugomods.com/docs/docker/#image-tags). The `exts` container image tag is important, as it provides the required SASS/CSS conversion tools.
+The following command starts the Hugo server, using the [`hugomods/hugo` container image](https://hugomods.com/docs/docker/#image-tags).
+The `exts` container image tag is important, as it provides the required SASS/CSS conversion tools.
 
 ```sh
-docker run --rm -v ${PWD}:/src -p 1313 --name gl-hugo-exts hugomods/hugo:exts hugo server
+docker run --rm -v $(pwd):$(pwd) -w $(pwd) --network host hugomods/hugo:exts hugo server
 ```
 
-This will start the Hugo server listening on <http://localhost:1313>.
+This will start the Hugo server listening on `http://localhost:1313`. If that doesn't work, try `http://127.0.0.1:1313`. It may take a couple of minutes to load the first time.
 
 You can also start a new container, and run the commands with Hugo manually.
 
 ```sh
-docker run -ti --rm -v ${PWD}:/src -p 1313 --name gl-hugo-exts hugomods/hugo:exts sh
+docker run --rm -it -v $(pwd):$(pwd) -w $(pwd) --network host hugomods/hugo:exts sh
 
-/src # hugo server
+hugo server
 
 ctrl+d # to quit
 ```
@@ -108,21 +105,37 @@ To render the entire site to disk (and inspect the output in `${PWD}/public`),
 purge the generated files first, and then run Hugo.
 
 ```sh
-rm -rf public/*
+make clean
 
-docker run --rm -v ${PWD}:/src hugomods/hugo:exts hugo
+docker run --rm -v $(pwd):$(pwd) -w $(pwd) hugomods/hugo:exts hugo
 ```
 
-### Running Markdown Lint
+### Linting content
 
-We use Markdownlint in our pipelines with a slightly customized set of rules.
-Before pushing any changes it is recommended to run Markdownlint and fix any
-suggested changes to avoid pipeline failures.
+We use [`markdownlint-cli2`](https://github.com/DavidAnson/markdownlint-cli2) and [Vale](https://vale.sh) to enforce
+rules in handbook content.
 
-To run Markdownlint using Docker use the following command:
+#### Markdownlint
+
+We use `markdownlint-cli2` in our pipelines with a slightly customized set of rules. Before pushing any changes, you
+should run `markdownlint-cli2` and fix any suggested changes to avoid pipeline failures.
+
+To run `markdownlint-cli2` using Docker, run:
 
 ```sh
-docker run -v $(pwd):/workdir davidanson/markdownlint-cli2:next -f content/\*\*/\*.md
+docker run --rm -v $(pwd):$(pwd) -w $(pwd) davidanson/markdownlint-cli2 content/**/*.md
+```
+
+#### Vale
+
+We use Vale to warn when some rules from the
+[Handbook Markdown Guide](https://gitlab.com/gitlab-com/content-sites/docsy-gitlab/-/blob/main/content/docs/markdown-guide.md?ref_type=heads#markdown-style-guide-for-the-handbook).
+are broken. Vale is not run in pipelines.
+
+To run Vale using Docker, run:
+
+```sh
+docker run --rm -v $(pwd):$(pwd) -w $(pwd) jdkato/vale content
 ```
 
 ## Support
@@ -165,3 +178,7 @@ Review the Hugo development documentation to learn more.
 ### CI/CD pipeline
 
 The CI/CD pipeline uses GitLab Pages for Review Apps to preview the changes in the same environment.
+
+#### Reviewer Roulette
+
+The project uses [Reviewer Roulette](https://docs.gitlab.com/ee/development/code_review.html#reviewer-roulette) feature of [`danger-review` CI/CD component](https://gitlab.com/gitlab-org/components/danger-review/-/tree/main).

@@ -5,7 +5,7 @@ description: "The Product Security Engineering team's mission is to create proac
 
 ## Product Security Engineering Mission
 
-As part of the Product Security sub-department, and sibling to the Application Security Team, our mission is to:
+As part of the Product Security department, and sibling to the Application Security sub-department, our mission is to:
 
 - Enhance security along the software development lifecycle by creating ["paved roads"](https://netflixtechblog.com/scaling-appsec-at-netflix-part-2-c9e0f1488bc5)
 - Contribute product-first code that enhances the security of GitLab's software assets
@@ -69,6 +69,15 @@ Like [Single Engineer groups](/handbook/engineering/incubation/), each Product S
 - New projects should follow the ["Creating a new project"](/handbook/engineering/gitlab-repositories/#creating-a-new-project) engineering guidance
 - Unless the effort is AppSec automation, the workflow ends by handing over the feature to a Product team
 
+#### Refinement Cadence
+
+Product Security Engineering team members are responsible for performing refinement on issues that we may potentially take on. We aim to do refinement on a regular basis, which helps to ensure our Milestone Planning process is smooth and efficient.
+
+It is expected that Product Security Engineering team members will do refinement tasks throughout the milestone. It is up to the individual to decide how they want to accomplish this, some ideas include:
+
+- Setting aside a specific amount of time per week on the calendar to perform refinement
+- Refining issues in-between major context switches, for example after submitting a merge request for review but before picking up the next piece of work
+
 #### Step-by-step refinement process
 
 Below is a step-by-step process for team members to walk through when refining backlog issues. We try our best to adhere to [existing GitLab development team standards](https://handbook.gitlab.com/handbook/product-development-flow/), so that the work can be picked up by anyone.
@@ -76,6 +85,7 @@ Below is a step-by-step process for team members to walk through when refining b
 1. Choose an issue to refine
     1. Unrefined issues are labeled `~workflow::validation backlog` (or perhaps have no `~workflow::` label)
     1. You may also consider refining an issue labeled `~ProdSecEng Candidate`
+    1. If possible, timebox refinement to at most 1 hour per issue
 1. Get an understanding of what the issue is trying to accomplish
     1. You may need to ask questions of the person who created the issue or the relevant teams
     1. Ensure there is a clear definition of done for this particular set of work
@@ -110,7 +120,7 @@ Anything larger than 5 should be broken down if possible.
 
 Product Security Engineering should always have at least one AppSec-related issue in flight. This rule's intention is to make sure we achieve our mission of reducing AppSec's manual work burden.
 
-When a Product Security Engineer has capacity for more work, they should take an item from the top of the backlog and assign themselves to it. If they need to stop working on something they should unassign themselves, @ mention the team, and apply the correct workflow label (e.g. `~workflow::blocked`).
+If a Product Security Engineer completes all their work in a Milestone, they should take an item from the top of the backlog and assign themselves to it. If they need to stop working on something they should unassign themselves, @ mention the team, and apply the correct workflow label (e.g. `~workflow::blocked`).
 
 ### Merge Request Reviews
 
@@ -130,12 +140,53 @@ When contributing to a project owned and primarily maintained by Product Securit
 The Product Security Engineering team defaults to using the namespaces of the stakeholder that we're performing the work for:
 
 - For contributions to GitLab assets, we contribute to the relevant repositories where other work is performed
-- For AppSec related work, we use the [AppSec tooling namespace](https://gitlab.com/gitlab-com/gl-security/appsec/tooling) unless there is a compelling reason not to
+- For AppSec related work, we use the [AppSec tooling namespace](https://gitlab.com/gitlab-com/gl-security/product-security/appsec/tooling) unless there is a compelling reason not to
 - For our team's repositories, we use the [Product Security Engineering tooling namespace](https://gitlab.com/gitlab-com/gl-security/product-security-engineering/tooling)
 
-## References
+## Milestone Planning
 
-This new team is still in the formation process. For more context, team members can refer to these internal links:
+The Product Security Engineering team plans its work on a cadence based around [GitLab Product Milestones](https://handbook.gitlab.com/handbook/product/milestones/). This section describes the planning process that we use to determine what work will be completed for each Milestone.
 
-- [Our transition issues in `gitlab-com/gl-security/product-security-engineering/product-security-engineering-team/`](https://gitlab.com/groups/gitlab-com/gl-security/-/issues/?sort=created_date&state=opened&label_name%5B%5D=AppSec%3A%3ATransition&first_page_size=20)
-- [The announcement Google Doc](https://docs.google.com/document/d/19NO6S02fMF3FZWkrptpXEFp6x2g6L9fro4qYUuITOsw/edit)
+### Milestone Planning Issue
+
+For each Milestone, a [Milestone Planning issue](https://gitlab.com/gitlab-com/gl-security/product-security-engineering/product-security-engineering-team/-/issues/?label_name[]=Milestone Planning) is created in the Product Security Engineering team repository. The purpose of this issue is to:
+
+- Identify potential work to perform
+- Identify refinement gaps and determine how to address them
+- Determine what work we're committing to for the upcoming Milestone
+- Set and communicate priority for the work we've decided to take on
+
+This issue is the single source of truth for all planning related discussions and decisions related to the upcoming Milestone.
+
+### Milestone Planning Process
+
+1. An issue will be created using [the Milestone Planning issue template](https://gitlab.com/gitlab-com/gl-security/product-security-engineering/product-security-engineering-team/-/issues/new?issuable_template=milestone_planning)
+    1. The issue will be created immediately after planning is finished for the current Milestone
+    1. Throughout the current Milestone, Product Security Engineering team members can add work to the upcoming Milestone's Parking Lot
+1. The Product Security Engineering manager will be responsible for completing the checklist items in the Planning Checklist section of the Milestone Planning issue
+1. Product Security Engineering team members will add any work being carried over from the previous Milestone into the Milestone Work table
+1. The Product Security Engineering team will add potential work items to the Parking Lot section, with a brief explanation of why it would be good to include in the Milestone
+    1. Team members can add discussion threads to discuss potential work to pull into the Milestone
+    1. Both individual team members and the Product Security Engineering manager can add items to this list
+1. The Product Security Engineering team will work together to add new items to the Milestone Work table
+    1. Each item being added must be refined before it can be formally committed to
+    1. The team member likely to take on the work should review and agree with the Weight, if it wasn't them who refined the issue.
+    1. Once we have refined and committed to the work, the relevant issue needs to be updated with the Milestone and Assignee(s)
+1. The Milestone Planning issue should be finalized at least 3 days before the Milestone Start Date
+    1. The Product Security Manager will use threads in the Milestone Planning issue to work with each Product Security Engineering team member to finalize their workload
+    1. Once finalized, the Planning Issue should be closed and an issue for the next Milestone should be opened
+
+### Milestone Planning responsibilities
+
+Product Security Engineering team members are responsible for:
+
+- Evaluating and communicating their capacity for the Milestone (based on PTO and other factors)
+- Adding work that is being carried over into the Milestone Work table
+- Adding potential work items to the Parking Lot and being involved in discussions around what work we should pull into the Milestone
+- Collaborating with the Product Security Engineering manager to finalize the set of work being committed to for the Milestone
+
+The Product Security Engineering manager is responsible for:
+
+- Creating, updating, and maintaining the Milestone Planning issue
+- Collaborating with Product Security Engineering team members to discuss potential work, identify refinement gaps, and assemble the Milestone Work table
+- Coordinating the finalization of the Milestone Planning issue

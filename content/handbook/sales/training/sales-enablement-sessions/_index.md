@@ -24,12 +24,7 @@ To see what training is coming soon, view the [Field Enablement Spotlight issue 
 
 | DATE   | TOPIC | SPEAKERS |
 |--------|--------|--------|
-| Mar 14 | **No Session - Summit** |  |
-| Mar 21 | Product Marketing Update | Marketing  |
-| Mar 28 | FY25-Q1 Revenue Play: GitLab Dedicated | Marketing  |
-| Apr 4 | FY25-Q1 - Partner Sales Update | Partner Sales Team |
-| Apr 11 | Cloud Licensing Exemptions Update  | Deal Desk Team |
-| Apr 18 | FY25-Q1 Competitive Update | Marketing |
+| Apr 18 | GitLab Duo AI + Competitive Update | Product Marketing |
 | Apr 25 | *No session during the last week of the quarter* | N/A |
 
 
@@ -41,6 +36,9 @@ To see what training is coming soon, view the [Field Enablement Spotlight issue 
 
 | **Date** | **Topic** | **Public or Private** |
 | ------ | ------ | ------ |
+| 2024-04-11 | **[FY25-Q1 - GitLab Cloud Partnerships Update](https://drive.google.com/file/d/1hcoGgS7u_Ea_h93aprWhHezRVoEOxood/view?usp=drive_link)** | Private |
+| 2024-03-27 | **[Success Plan Services](https://drive.google.com/file/d/1R3aA-aOMSwoMYAIG8B-plxoS-QJYi76u/view?usp=drive_link)** | Private  |
+| 2024-03-28 | **[FY25-Q1 Revenue Play: GitLab Dedicated](https://drive.google.com/file/d/1qUhi8UKnCmz7B9ItdjrYo_22IJqMI9I3/view?usp=drive_link)** | Private  |
 | 2024-03-07 | **[Discovering Agile Planning Opportunities](https://drive.google.com/file/d/1CIU6H-nTi3IYuGIET3dWfBV8X-m0w-YS/view?usp=drive_link)** | Private  |
 | 2024-02-29 | **[GitLab University Launch](https://drive.google.com/file/d/1C8fg_QMf-2F-QUOKiEj3MFiZvulape_X/view?usp=drive_link)** | Private |
 | 2024-02-15 | **[FY25 Deal Approval Matrix Changes](https://drive.google.com/file/d/1nNuSV6JwmcJfr1htco65czqtjeuU_jlM/view?usp=drive_link)** | Private  |
@@ -213,7 +211,7 @@ To get a calendar invite to the weekly Field Enablement Spotlight, make sure you
 - SDR Team `sdr@`
 - Marketing team `marketing@`
 
-You can [fill out an access request](/handbook/business-technology/team-member-enablement/onboarding-access-requests/access-requests/) to request access to the email group. These groups are invited to the meeting so that each individual person does not need an invite.
+You can [fill out an access request](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/) to request access to the email group. These groups are invited to the meeting so that each individual person does not need an invite.
 
 ## Training Playlist
 

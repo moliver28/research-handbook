@@ -5,7 +5,7 @@ controlled_document: true
 
 ## Purpose
 
-GitLab has adopted the ISO/IEC 27001:2013, ISO/IEC 27017:2015 and ISO/IEC 27018:2019 standards for our information security management system (ISMS) to provide GitLab team members, customers and community members with a high level of assurance on the robustness of our information security policies, standards and procedures, and the strength of our control environment. The purpose of this document is to define the boundaries and objectives of GitLab's ISMS.
+GitLab has adopted the ISO/IEC 27001:2022, ISO/IEC 27017:2015 and ISO/IEC 27018:2019 standards for our information security management system (ISMS) to provide GitLab team members, customers and community members with a high level of assurance on the robustness of our information security policies, standards and procedures, and the strength of our control environment. The purpose of this document is to define the boundaries and objectives of GitLab's ISMS.
 
 ## Scope
 
@@ -66,7 +66,7 @@ This ISMS governs GitLab security operations. Interested parties include:
 
 ### Leadership
 
-GitLab is committed to information security. The general objective for the ISMS is to protect GitLab's confidential information and assets against new and existing security and privacy risks while maintaining confidentiality, integrity and availability. Objectives for individual security controls are inherited by the in scope security standards and regulations which are: ISO 27001, and SOC 2 Type 2 Security.
+GitLab is committed to information security. The general objective for the ISMS is to protect GitLab's confidential information and assets against new and existing security and privacy risks while maintaining confidentiality, integrity and availability. Objectives for individual security controls are inherited by the in scope security standards and regulations which are: ISO 27001:2022, and SOC 2 Type 2.
 
 The ISMS council, comprised of Security and Privacy (Legal) leadership, shall meet on a minimum of an annual basis to discuss the state of the ISMS and measure the fulfillment of all ISMS objectives. The following topics will be covered:
 
@@ -85,19 +85,19 @@ The ISMS council, comprised of Security and Privacy (Legal) leadership, shall me
 
 GitLab has implemented a formal [Security Operational Risk Management (“StORM”) program]({{< ref "storm-program" >}}) to identify, rank, track, and treat cybersecurity, IT, and privacy operational risks in support of GitLab's organization-wide objectives. The process for selecting in scope information security controls is executed by the Security Compliance team, leveraging technical functionality from the third party GRC application, and overseen by the Security Risk team. Implementation status is captured in GitLab's GRC application as well as in the Statement of Applicability.
 
-The GitLab Security team executes quarterly cascading [Objectives and Key Results (OKRs)]({{< ref "/handbook/company/okrs" >}}) to define our security objectives and a plan for achieving those objectives while ensuring alignment throughout the organization.
+The GitLab Security team executes quarterly cascading [Objectives and Key Results (OKRs)](/handbook/company/okrs) to define our security objectives and a plan for achieving those objectives while ensuring alignment throughout the organization.
 
 ### Support
 
 GitLab has implemented a formal security awareness training program that includes: new hire security awareness training, global annual security awareness training and quarterly targeted phishing exercises. These trainings are administered via a third party portal and include a quiz to test understanding of the security topics presented.
 
-A formal [controlled document procedure]({{< ref "controlled-document-procedure" >}}) is in place to ensure that there is consistency in developing and maintaining controlled documents at GitLab utilizing a hierarchal approach. All controlled documents are available to all GitLab team members and the public via the [GitLab handbook]({{< ref "/" >}}) unless otherwise noted. Updates to controlled documents are managed via [GitLab merge requests](https://docs.gitlab.com/ee/user/project/merge_requests/) which are also accessible to all GitLab team members for the entire workflow. An annual review of controlled documents is required by the ISMS owner or assigned representative.
+A formal [controlled document procedure]({{< ref "controlled-document-procedure" >}}) is in place to ensure that there is consistency in developing and maintaining controlled documents at GitLab utilizing a hierarchal approach. All controlled documents are available to all GitLab team members and the public via the [GitLab handbook](/) unless otherwise noted. Updates to controlled documents are managed via [GitLab merge requests](https://docs.gitlab.com/ee/user/project/merge_requests/) which are also accessible to all GitLab team members for the entire workflow. An annual review of controlled documents is required by the ISMS owner or assigned representative.
 
 GitLab publishes [Job Families](/handbook/hiring/job-families/) to define roles and responsibilities based on level for all team members. This information is publicly available and the foundation for team member hiring and performance reviews. On a minimum of an annual basis, GitLab management executes [talent assessments](/handbook/people-group/talent-assessment/) with team members to ensure competency to Job Family.
 
 ### Operations
 
-The [GitLab team handbook]({{< ref "/" >}}) is the central repository for how we run the company. Everything at GitLab is handbook first, to include development of company policies, standards and procedures. Key controlled documents that support the ISMS include:
+The [GitLab team handbook](/) is the central repository for how we run the company. Everything at GitLab is handbook first, to include development of company policies, standards and procedures. Key controlled documents that support the ISMS include:
 
 - [Data Classification Standard]({{< ref "data-classification-standard" >}})
 - [Internal Acceptable Use Policy](/handbook/people-group/acceptable-use-policy/)
@@ -115,11 +115,11 @@ If using a third party service to outsource or supplement security processes, a 
 GitLab monitors, measures, and improves security controls through various continuous monitoring measures, such as:
 
 - [Continuous control testing/Annual ISMS internal compliance audits]({{< ref "security-control-lifecycle" >}})
-- [External audits (SOC 2 Type 2, SOC 3, customer security assessments)]({{< ref "./security-assurance/security-compliance/certifications" >}})
+- [External audits (SOC 2 Type 2, TISAX, customer security assessments)]({{< ref "./security-assurance/security-compliance/certifications" >}})
 - [Annual security operational risk assessments]({{< ref "storm-program" >}})
 - [Annual third-party penetration testing]({{< ref "penetration-testing-policy" >}})
 - [Ongoing third party scorecard monitoring (BitSight)]({{< ref "independent_security_assurance#third-party-security-ratings" >}})
-- [Infrastructure Vulnerability scanning]({{< ref "./threat-management/vulnerability-management" >}})
+- [Infrastructure Vulnerability scanning]({{< ref "./product-security/vulnerability-management" >}})
 - [Application Vulnerability Scanning]({{< ref "./product-security/application-security/vulnerability-management" >}})
 - [HackerOne bug bounty program]({{< ref "hackerone-process" >}})
 - [Audit log monitoring]({{< ref "audit-logging-policy" >}})

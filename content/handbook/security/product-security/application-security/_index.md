@@ -8,17 +8,17 @@ aliases:
 
 ## Application Security Mission
 
-As part of the Product Security sub-department, the application security team's mission is to support the business and ensure that all GitLab products securely manage customer data. We do this by working closely with both engineering and product teams.
+As part of the Product Security department, the application security team's mission is to support the business and ensure that all GitLab products securely manage customer data. We do this by working closely with both engineering and product teams.
 
 ## Contacting us
 
 Team members can reach the AppSec team by:
 
 - Asking in `#sec-appsec` or mentioning `@appsec-team` on Slack
-- Mentioning `@gitlab-com/gl-security/appsec` on GitLab
+- Mentioning `@gitlab-com/gl-security/product-security/appsec` on GitLab
 - Finding your Stable Counterpart on the [Product sections, stages, groups, and categories](/handbook/product/categories/) page
-- Submit an issue in the [AppSec Team repository](https://gitlab.com/gitlab-com/gl-security/appsec/appsec-team/-/issues)
-- For cross team collaboration improvement opportunities, use [this template for collaboration improvement opportunities](https://gitlab.com/gitlab-com/gl-security/appsec/appsec-team/-/issues/new?issuable_template=cross-team-collaboration-improvement)
+- Submit an issue in the [AppSec Team repository](https://gitlab.com/gitlab-com/gl-security/product-security/appsec/appsec-team/-/issues)
+- For cross team collaboration improvement opportunities, use [this template for collaboration improvement opportunities](https://gitlab.com/gitlab-com/gl-security/product-security/appsec/appsec-team/-/issues/new?issuable_template=cross-team-collaboration-improvement)
 
 ## Application Security Roadmap
 
@@ -30,10 +30,10 @@ Please see the [Application Security Job Family page][6].
 
 ## Useful resources for AppSec engineers
 
-- [The AppSec private group that contains other private subgroups and projects](https://gitlab.com/gitlab-com/gl-security/appsec)
+- [The AppSec private group that contains other private subgroups and projects](https://gitlab.com/gitlab-com/gl-security/product-security/appsec)
 - [The `appsec-lab` group on Staging. This has an Ultimate license.](https://staging.gitlab.com/appsec-lab)
 - [Bug bounty council search](https://gitlab.com/gitlab-com/gl-security/engineering/-/issues?label_name%5B%5D=Bug+Bounty+Council)
-- [Upcoming security release](https://gitlab.com/gitlab-org/gitlab/-/issues?sort=created_date&state=opened&label_name%5B%5D=upcoming+security+release)
+- [Upcoming patch release](https://gitlab.com/gitlab-org/gitlab/-/issues?sort=created_date&state=opened&label_name%5B%5D=upcoming+security+release)
 - [GitLab Project Security dashboard](https://gitlab.com/gitlab-org/gitlab/-/security/dashboard/?project_id=278964&scope=dismissed&page=1&days=90)
 - [Security issue board that tracks ongoing issues (hackerone and others)](https://gitlab.com/groups/gitlab-org/-/boards/1216545?label_name[]=security)
 - [The latest releases](https://gitlab.com/gitlab-org/gitlab/-/tags)
@@ -93,6 +93,10 @@ Learn more about the [GitLab AppSec Inventory]({{< ref "inventory" >}}).
 
 Learn how to identify or remediate security issues using real examples with GitLab's [Reproducible Vulnerabilities][11].
 
+## Reproducible Builds
+
+Learn how GitLab is implementing [Reproducable Builds][13] for our build processes.
+
 ## Application Security Automation and Monitoring
 
 Please see the [Application Security Automation and Monitoring page][12]
@@ -101,9 +105,10 @@ Please see the [Application Security Automation and Monitoring page][12]
 [3]: {{< ref "vulnerability-management" >}}
 [4]: {{< ref "stable-counterparts" >}}
 [5]: {{< ref "./runbooks" >}}
-[6]: {{< ref "/job-families/security/application-security" >}}
+[6]: /job-families/security/application-security
 [8]: https://10az.online.tableau.com/#/site/gitlab/views/appsectest2rawdata/AppSec-ApplicationandContainerVulnerabilityDashboard?:iid=4
 [9]: https://docs.google.com/document/d/1Mba9ZhuVr2qBkvR7AqzNTUFMUTapJqiXkPUqc9Gr8io/edit
-[10]: {{< ref "/handbook/security/root-cause-analysis" >}}
+[10]: /handbook/security/root-cause-analysis
 [11]: {{< ref "reproducible-vulnerabilities" >}}
 [12]: {{< ref "application-security-automation-monitoring" >}}
+[13]: {{< ref "reproducible-builds" >}}

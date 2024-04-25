@@ -497,7 +497,7 @@ Application limits should be enabled by default. If we are considering enabling 
     - Document the limit for customers on the [instance limits](https://gitlab.com/help/administration/instance_limits.md) help page, ensuring the limit for gitlab.com is specified. Include instructions on how the limit can be changed on self-managed instances.
     - If the limit is time based, link to that section from the [Rate limits page](https://docs.gitlab.com/ee/security/rate_limits.html)
 - **Communicate the limits in the release post** - When the limit is rolled out, make sure to document this change in the next release post.
-- **Communicate directly to affected users** - Especially if the limit is going to have a significant impact to users, consider reaching out directly to notify those users of the change, and any available remedies, workarounds, or best practices that may help mitigate that impact. To send out an email to affected users, [work with Support to create an email request](/handbook/support/workflows/internal_requests.html#contact-request).
+- **Communicate directly to affected users** - Especially if the limit is going to have a significant impact to users, consider reaching out directly to notify those users of the change, and any available remedies, workarounds, or best practices that may help mitigate that impact. To send out an email to affected users, [work with Support to create an email request](/handbook/support/workflows/internal_requests/#contact-request).
 
 ### Cross-stage features
 
@@ -1279,9 +1279,9 @@ We recently [conducted a GTM and R&D sensing mechanism survey](https://gitlab.co
 1. Engaging with our community alongside our [Developer Relations team](/handbook/marketing/developer-relations/) and [triaging](https://docs.gitlab.com/ee/development/contributing/issue_workflow.html#issue-triaging) community generated issues and ideas
 1. Reviewing [top up voted issues](#category-strategy)
 1. Engagement directly with [customers](#a-customer-expressed-interest-in-a-feature) and via the [customer](https://gitlab.com/groups/gitlab-org/-/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name%5B%5D=customer) label
-1. [Requesting](/handbook/product/ux/ux-research/#how-to-request-research) and analyzing [results](https://gitlab.com/gitlab-org/uxr_insights) from [UX research](/handbook/product/ux/ux-research/) via the [First Look](https://about.gitlab.com/community/gitlab-first-look/) research panel. Checkout this brief [video tutorial](https://www.youtube.com/watch?v=9U7hhGzRscs&feature=youtu.be)
-1. A summary of previous user interviews can be found under the [User interview project](https://gitlab.com/gitlab-com/user-interviews)
-1. All UX Research is being transcribed in [Dovetail](https://dovetailapp.com/)
+2. [Requesting](/handbook/product/ux/ux-research/#how-to-request-research) and analyzing [results](https://gitlab.com/gitlab-org/uxr_insights) from [UX research](/handbook/product/ux/ux-research/).
+3. A summary of previous user interviews can be found under the [User interview project](https://gitlab.com/gitlab-com/user-interviews)
+4. All UX Research is being transcribed in [Dovetail](https://dovetailapp.com/)
 
 ###### Buyer
 
@@ -1319,7 +1319,7 @@ Many of the sensing mechanisms described are directly relevant to individual pro
 - Regularly reviewing validation track activities ([example](https://about.gitlab.com/direction/ops/#current-validation-track-initiatives))
 - Quarterly cross-section [direction](#section-and-stage-direction) reviews
 - Consuming [competitive and market content review](https://gitlab.com/gitlab-com/Product/-/blob/main/.gitlab/issue_templates/Product-Competitive-Content.md) highlights
-- Speaking directly with users via [PNPS responder outreach](#pnps-responder-outreach)
+- Speaking directly with users via [CSAT responder outreach](#csat-responder-outreach)
 - Reviewing relevant [analyst reports](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/analyst-relations/#accessing-analyst-reports)
 - Meeting with analysts to confirm direction and vision of section and stages
 - Reviewing [Performance Indicators](https://internal.gitlab.com/handbook/company/performance-indicators/product/) for trend shifts and changes
@@ -1473,7 +1473,7 @@ Breaking down a design into pieces that can be released iteratively is going to 
 
 #### Refactors
 
-Continuously improving the software we write is important. If we don't proactively work through [technical debt](/handbook/engineering/workflow/#technical-debt) and [ux debt](/handbook/engineering/workflow/#ux-debt) as we progress, we will end up spending more time and moving slower in the long run. However, it is important to strike the right balance between technical and ux debt and iteratively developing features. Here are some questions to consider:
+Continuously improving the software we write is important. If we don't proactively work through [technical debt](/handbook/engineering/workflow/#technical-debt) and [Deferred UX](/handbook/engineering/workflow/#deferred-ux) as we progress, we will end up spending more time and moving slower in the long run. However, it is important to strike the right balance between technical debt, deferred UX, and iteratively developing features. Here are some questions to consider:
 
 - What is the impact if we do not refactor this code right now?
 - Can we refactor some of it? Is a full re-write necessary?
@@ -1483,7 +1483,7 @@ Continuously improving the software we write is important. If we don't proactive
 
 For large projects, consider separating the announcement from the actual feature launch. By doing so, it can create more freedom to iterate during the customer rollout. For example, you could announce in advance to give customers ample notice, and then roll it out to new customers first, then to existing Free customers, then to existing paid customers. Or you could do the opposite, and roll it out to customers first, before announcing broadly, to ensure the user experience is great before making a marketing splash.
 
-When considering dates for a product announcement or launch that may impact our Field team, consider the [blackout restrictions](/handbook/sales/field-communications/#field-communications-playbook-flowchart) recognized by the Field team to ensure there won't be any major disruption to the business near quarter end.
+When considering dates for a product announcement or launch that may impact our Field team, consider the [blockout restrictions](/handbook/sales/field-communications/#field-communications-playbook-flowchart) recognized by the Field team to ensure there won't be any major disruption to the business near quarter end.
 
 #### Four phase transition
 
@@ -1926,35 +1926,34 @@ feedback.
 This is a mutual collaboration, so we also want to keep them up to date with the
 new features that we release, and help them to adopt all our own features.
 
-### PNPS Responder Outreach
+### CSAT Responder Outreach
 
-Each quarter we reach out to [Paid NPS (PNPS)](/handbook/product/ux/performance-indicators/paid-nps/) responders who opted-in to speak with us. This is a fantastic opportunity to build bridges to users and for product managers to get direct feedback for their specific product area. If a customer has taken the time to share a verbatim with us and offered to have a conversation, they deserve to be followed up with - especially if that customer is a detractor.
+Each quarter we reach out to [Customer Satisfaction (CSAT)](/handbook/product/ux/performance-indicators/csat) survey responders who opted-in to speak with us. This is a fantastic opportunity to build bridges with users and for Product Managers to get direct feedback for their specific product area. If a customer has taken the time to share a verbatim with us and offered to have a conversation, they deserve to be followed up with - especially if that customer is dissatisfied with GitLab.
 
-When we speak to users and customers directly during this workflow, we must be mindful of [Product Legal guidance](/handbook/product/product-safe-guidance/) and the  [SAFE framework](/handbook/legal/safe-framework/, just as we would be with any other documentation or communication we do as product managers.
+When we speak to users and customers directly during this workflow, we must be mindful of [Product Legal guidance](/handbook/product/product-safe-guidance/) and the [SAFE framework](/handbook/legal/safe-framework/), just as we would be with any other documentation or communication we do as Product Managers.
 
 #### Overall process
 
-1. Product leaders go through the list of PNPS responders who have agreed to a followup conversation. They either sign up for outreach or tag in their GMPs and PMs as appropriate.
-1. Those GMPs and PMs then view the sheet and confirm who they want to talk with.
-1. They reach out to users and schedule interviews
-1. They mark which users we've spoken to
-1. They add notes and links to video recordings to the [NPS folder](https://drive.google.com/drive/u/0/folders/1sKFh_GDF_ive1n2BledBF7A9njGcyuDI.) on Google Drive
-1. Any time a user is already signed up for, they will coordinate questions with each other
+1. Product leaders go through the list of CSAT responders who have agreed to a followup conversation. They either sign up for outreach or tag in their Group Product Managers and Product Managers as appropriate.
+1. Those Group Product Managers and Product Managers then view the sheet and confirm who they want to talk with.
+1. They reach out to users and schedule interviews.
+1. They mark which users they interview.
+1. They add notes and video recordings from the interviews to the CSAT column in this [Dovetail project](https://gitlab.dovetailapp.com/projects/36nmGVKvkaT7SGMXtUeHVg/v/70xPTo5RzTRZnCNEVz1fWH).
 
-**Note:** GitLab CSMs will also follow the process above so please be mindful to coordinate with them if they reach out or if they've already signed up for a user. Users should never be contacted by more than one GitLab team member. Users should never be raeched out to more than twice if they do not respond to outreach email.
+**Note:** GitLab Customer Success Managers will also follow the process above so please be mindful to coordinate with them if they reach out or if they've already signed up for a user. Users should never be contacted by more than one GitLab team member. Users should never be contacted more than twice if they do not respond to an outreach email.
 
 #### Instructions for Product leaders
 
-1. Look at the PNPS Followup Users list that will be shared with you in an issue. Identify any users you think a GMP or PM from your group would be interested in speaking to. Assign the specific GMP or PM to reach out to that user by putting their name in the appropriate column. This will also serve as a "hold" on the user and if others are interested they will need to coordinate with this GMP or PM.
-1. If you think another GMP or PM in your group or another would be interested in speaking to the same customer, consider notifying that GMP or PM for the sake of efficiency.
-1. If you're interested in having one of your GMP/PM speak with a user that has already been "claimed" by another GitLab team member, have your GMP/PM reach out to that team member so they can coordinate a joint conversation. **We need to be mindful of our users' time and should limit this outreach to a single conversation rather than successive conversations**.
+1. Look at the CSAT Follow-up Users Google Sheet that will be shared with you in an issue. Identify any users you think a Group Product Manager or Product Manager from your group would be interested in speaking to. Assign the specific Group Product Manager or Product Manager to reach out to that user by putting their name in the appropriate column. This will also serve as a "hold" on the user and if others are interested they will need to coordinate with this Group Product Manager or Product Manager.
+1. If you think another Group Product Manager or Product Manager in your group or another group would be interested in speaking to the same customer, consider notifying that Group Product Manager or Product Manager for the sake of efficiency.
+1. If you're interested in having one of your Group Product Managers or Product Managers speak with a user that has already been "claimed" by another GitLab team member, have your Group Product Manager or Product Manager reach out to that team member so they can coordinate a joint conversation. **We need to be mindful of our users' time and should limit this outreach to a single conversation rather than successive conversations.**
 
-#### Instructions for Group Managers and Product Managers
+#### Instructions for Group Product Managers and Product Managers
 
-1. Your group PM director will have put your name next to users they felt were relevant for you to speak with.
+1. Your Group Product Manager Director will have put your name next to users they felt were relevant for you to speak with.
 1. If you are unable or unwilling to speak with the customer, please speak with your manager so they can find a replacement.
-1. If you see other users that have not been assigned to another PM and you feel may be relevant to speak with, assign that user to yourself.
-1. If you see other users that have been assigned to another PM, reach out to that PM and coordinate a joint conversation. It is very important you do not reach out to users that have been assigned to other PMs as we want to be mindful of our users time and not risk negative sentiment due to over-communication. We are limiting these conversations to one per user for these reasons.
+1. If you see other users that have not been assigned to another Product Manager and you feel may be relevant to speak with, assign that user to yourself.
+1. If you see other users that have been assigned to another Product Manager, reach out to that Product Manager and coordinate a joint conversation. It is very important you do not reach out to users that have been assigned to other Product Managers as we want to be mindful of our users time and not risk negative sentiment due to over-communication. We are limiting these conversations to one per user for these reasons.
 
 #### Process for reaching out to users
 
@@ -1962,15 +1961,15 @@ When we speak to users and customers directly during this workflow, we must be m
 1. You'll need to add two extra questions to the invite form in order to ask for consent to record, example below. Please use these questions as written in the example as they closely mirror the content that has been validated by the UX Research Team.
 1. Draft an email that you'll send to users. Example copy is below. You can re-phrase things as you wish but make sure you still cover the same points as the example.
 1. **BE ON TIME TO YOUR CALL**. Better yet, be 2 minutes early. Be ready to coach people through getting Zoom to work properly. Make sure everyone on the call introduces themselves.
-1. If people have agreed to recording, still ask them once again if it's OK if you record before turning it on. Obviously do not record people that did not give consent.
-1. See our training materials on [facilitating user interviews](/handbook/product/ux/ux-research/facilitating-user-interviews/)
+1. If people have agreed to recording, still ask them once again if it's OK if you record before turning it on. Obviously, do not record people who did not give consent.
+1. See our training materials on [facilitating user interviews](/handbook/product/ux/ux-research/facilitating-user-interviews/).
 
 **Example email copy**:
 
 > Hello,
 > My name is X and I'm the PM for X at GitLab. Thank you for giving us the opportunity to follow up on your response to our recent survey.
 >
-> I would be very interested in speaking further about some of the points you raised in your survey response. Would you be willing to do a 30 minute videoconference call to give us some more detailed feedback on your experience using GitLab? You'd be able to schedule the call at a time convenient to you.
+> I would be very interested in speaking further about some of the points you raised in your survey response. Would you be willing to do a 30 minute Zoom call to give us some more detailed feedback on your experience using GitLab? You'd be able to schedule the call at a time convenient to you.
 >
 > Schedule a time for the call using this link:
 > https://calendly.com/yourname/30min
@@ -1997,13 +1996,12 @@ When we speak to users and customers directly during this workflow, we must be m
 #### After the call
 
 1. If multiple GitLab employees are on the call, it can be beneficial to debrief immediately afterwards.
-1. Collect all notes that were taken and the link to the Zoom recording (if applicable) and add them to our [PNPS Followups folder on Google Drive](https://drive.google.com/drive/folders/1sKFh_GDF_ive1n2BledBF7A9njGcyuDI).
-1. If the user has allowed the recording to be public, change that sharing settings for the video to public in the Zoom web interface. Otherwise, make sure the recording is limited to GitLab users.
+1. Collect all notes that were taken and Zoom recording from the interview and add them to the CSAT column in this [Dovetail project](https://gitlab.dovetailapp.com/projects/36nmGVKvkaT7SGMXtUeHVg/v/70xPTo5RzTRZnCNEVz1fWH).
 1. If you told the user you'd follow up on anything or promised to send them further information, make sure you do so, ideally within two business days.
-1. Go back to the spreadsheet and mark that you spoke to a user in the _Completed_ column.
-1. If you create any epics/issues to address feedback gathered in the calls, add the label `PNPS improvement` and link them to the corresponding quarter [PNPS responder outreach issue](https://gitlab.com/gitlab-com/Product/-/issues/3026)
+1. Go back to the spreadsheet and mark that you spoke to a user in the _Status_ column.
+1. If you create any epics/issues to address feedback gathered in the calls, add the label `CSAT improvement` and link them to the corresponding CSAT responder outreach issue from that quarter.
 
-Note: It's important to tag your PNPS related issues to help tracking/reporting such as the [improvement slides](https://docs.google.com/presentation/d/1ZXEfR1lo5y5tpRi0i5l-OSX3v3wMe6jepjJcZfKyTvw/edit#slide=id.ge2b883c896_6_0) in Product Key Reviews.
+Note: It's important to tag your CSAT related issues to help tracking/reporting such as the [improvement slides](https://docs.google.com/presentation/d/1ZXEfR1lo5y5tpRi0i5l-OSX3v3wMe6jepjJcZfKyTvw/edit#slide=id.ge2b883c896_6_0) in Product Key Reviews.
 
 ### Cost profile and user experience
 
@@ -2027,7 +2025,7 @@ Product Managers should also regularly assess the performance and cost of featur
 There are a few different tools PM's can utilize to understand the operational costs of their features. Some of these are maintained by Infrastructure, based on the operational data of GitLab.com. Others tools, like service ping, can be utilized to better understand the costs of our self-managed users. Ultimately, each product group is responsible for ensuring they have the data needed to understand and optimize costs.
 
 - Useful Dashboards to Visualize Infrastructure Costs:
-- [Access to Billing Console](https://console.cloud.google.com/billing/) ([Access Request](/handbook/business-technology/team-member-enablement/onboarding-access-requests/access-requests/) required)
+- [Access to Billing Console](https://console.cloud.google.com/billing/) ([Access Request](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/) required)
 - [Service ping](https://docs.gitlab.com/ee/development/service_ping/)
 - Your Engineering Manager, #infrafin on Slack, and the broader GitLab team
 
