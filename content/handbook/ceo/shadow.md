@@ -141,7 +141,7 @@ For those with regular commitments, look for shorter weeks or timezone variation
 | 2024-06-03 | 2024-06-07 | [Christopher Wang](https://gitlab.com/cs.wang) - Sr. Manager - Enablement and Strategy (Sales Development) | [Rigerta Demiri](https://gitlab.com/Rigerta) - Senior Data Engineer, Data | REMOTE - PT |
 | 2024-06-10 | 2024-06-14 | OPEN | [Christopher Wang](https://gitlab.com/cs.wang) - Sr. Manager - Enablement and Strategy (Sales Development) | REMOTE - PT |
 | 2024-06-17 | 2024-06-21 | [Camilo Villanueva Santiago](https://gitlab.com/cvillanueva1) - Sr. Enterprise Renewals Manager | OPEN | REMOTE - PT |
-| 2024-06-24 | 2024-06-27 | [Sherrod Patching](https://gitlab.com/spatching) - VP, Customer Success| OPEN - VP DIRECTS ONLY | In Person - East Coast |
+| 2024-06-24 | 2024-06-27 | [Sherrod Patching](https://gitlab.com/spatching) - VP, Customer Success| [Emilio Salvador](@esalvadorp) | In Person - East Coast |
 | 2024-05-27 | 2024-05-31 | [Rigerta Demiri](https://gitlab.com/Rigerta) - Senior Data Engineer, Data | [Djordje Micovic](https://gitlab.com/dmicovic) - Staff Data Analyst, Marketing Analytics | REMOTE - PT |
 | 2024-06-03 | 2024-06-07 | [Christopher Wang](https://gitlab.com/cs.wang) - Sr. Manager - Enablement and Strategy (Sales Development) | [Rigerta Demiri](https://gitlab.com/Rigerta) - Senior Data Engineer, Data | REMOTE - PT |
 | 2024-06-10 | 2024-06-14 |  [Camilo Villanueva Santiago](https://gitlab.com/cvillanueva1) - Sr. Enterprise Renewals Manager | [Christopher Wang](https://gitlab.com/cs.wang) - Sr. Manager - Enablement and Strategy (Sales Development) | REMOTE - PT |
