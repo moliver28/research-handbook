@@ -128,7 +128,7 @@ The Senior Director, Legal Operations will be responsible for supporting GitLab�
 - Demonstrated success hiring, training, managing, developing, and retaining a high functioning team of legal operations professionals
 - Extensive experience in collaborating cross-functionally across the company and with multiple subject matter segments on the Legal & Corporate Affairs team in order to create, implement, and evolve complex business processes and automation of operations to maximize efficiency
 - Highly proficient in sourcing, implementing and managing a myriad of software and legal operations tools and accompanying tech stack, including contract management systems/databases, as well as internal to legal training materials, contract negotiation handbooks, and other tools to ensure consistency and standardization
-- Excellent business judgment and analytical skills, an appetite for intelligent risk and a keen ability to “read the room” in order collaborate, efficiently remove roadblocks and close deals; experience acting as an escalation point 
+- Excellent business judgment and analytical skills, an appetite for intelligent risk and a keen ability to “read the room” in order collaborate, efficiently remove roadblocks and close deals; experience acting as an escalation point
 - Ability to use GitLab
 
 ### Vice President, Legal Operations
