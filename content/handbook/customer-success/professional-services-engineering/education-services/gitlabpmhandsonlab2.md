@@ -1,6 +1,6 @@
 ---
 title: "GitLab Project Management - Hands-On Lab: Create an Organizational Structure in GitLab"
-description: "This Hands-On Guide walks you through the lab exercises used in the GitLab Project Management course."
+description: "This Hands-On Guide walks you through creating groups, projects, and project members in GitLab."
 ---
 
 > Estimated time to complete: 30 minutes

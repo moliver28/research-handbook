@@ -1,6 +1,6 @@
 ---
 title: "GitLab CI/CD - Hands-On Lab: Using Artifacts"
-description: "This Hands-On Guide walks you through the lab exercises in the GitLab CI/CD course."
+description: "This Hands-On Guide walks you through creating and storing job artifacts."
 ---
 
 > Estimate time to complete: 20 - 25 minutes
