@@ -259,19 +259,19 @@ Video Walkthrough from Product:
 * [ ] DRI identified
 * [ ] Roll out plan agreed
 * [ ] External customer communication plan defined
-* [ ] Copy Defined and Agreed with Technical Writer
-* [ ] UX Defined and Agreed with UX Designer
-* [ ] Documentation Requirements captured in an issue
+* [ ] Copy Requirements are hightlighted to the Technical Writer
+* [ ] UX Requirements are highlighted UX Designer
+* [ ] Issue created to track Documentation requirements
 * [ ] Outstanding Questions captured in threads for resolution
 
 ### Roll out Plan
 
 <!--
-If visible to external customers
+If visible to external customers please provide the following information:
     - What communication is required ahead of release?
-      - Internal communication to account teams
-      - Customer communication in release post
-      - Sign off from account teams before release - this should be reserved for features with the potential to be disruptive to users
+      - [ ] Internal communication to account teams
+      - [ ] Customer communication in release post
+      - [ ] Sign off from account teams before release - this should be reserved for features with the potential to be disruptive to users
     - Will this be rolled out to customers in pieces as implemented or available internally first?
 -->
 
@@ -297,7 +297,7 @@ Demo Link - see https://handbook.gitlab.com/handbook/engineering/infrastructure/
 1.
 </details>
 
-/label ~"team::Switchboard" ~"workflow-infra::Triage" 
+/label ~"team::Switchboard" ~"workflow-infra::Triage"
 
 ```
 </details>
