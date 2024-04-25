@@ -133,7 +133,7 @@ For those with regular commitments, look for shorter weeks or timezone variation
 | 2024-04-08 | 2024-04-12 | [Karen Kwentus](https://gitlab.com/kkwentus1) - Sr Solutions Architect | [Jeremy Wagner](https://gitlab.com/jeremywagner) - Sr Solutions Architect | REMOTE - PT - Light Shadow week due to travel |
 | 2024-04-15 | 2024-04-19 | NO SHADOW | NO SHADOW | CEO OOO |
 | 2024-04-22 | 2024-04-26 | Kelsey Turcotte  | [Karen Kwentus](https://gitlab.com/kkwentus1) - Sr Solutions Architect | REMOTE - PT |
-| 2024-04-29 | 2024-05-03 | [Indre Kryzeviciene](https://gitlab.com/ikryzeviciene) - Staff Marketing Campaigns Manager | OPEN  | REMOTE - PT, MON - THURS |
+| 2024-04-29 | 2024-05-03 | [Indre Kryzeviciene](https://gitlab.com/ikryzeviciene) - Staff Marketing Campaigns Manager | [ipedowitz](https://gitlab.com/ipedowitz) - Director, Strategy and Operations (Limited availability Thursday after 12pm PT due to an already scheduled flight)  | REMOTE - PT, MON - THURS |
 | 2024-05-06 | 2024-05-10 | OPEN | [Indre Kryzeviciene](https://gitlab.com/ikryzeviciene) - Staff Marketing Campaigns Manager | REMOTE - PT, MON, FRI |
 | 2024-05-13 | 2024-05-17 | [Djordje Micovic](https://gitlab.com/dmicovic) - Staff Data Analyst, Marketing Analytics | OPEN | REMOTE - PT, MON - TUES |
 | 2024-05-20 | 2024-05-24 | NO SHADOW | NO SHADOW | PRESIDENT'S CLUB |
