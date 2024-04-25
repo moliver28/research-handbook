@@ -16,34 +16,36 @@ description: "Learn more about working with Brian Tabbert"
 
 Hi there! I’m Brian. My last name is Tabbert, pronounced “tab” like the key on your keyboard combined with “bert” as in “Bert and Ernie.” Although my sister and I have always joked that we should follow Stephen Colbert’s lead and pronounce it “tab air,” which is much classier.
 
-I live in Indianapolis, Indiana, USA with my wife and twin daughters, who take up a majority of my free time. Otherwise I am a sports fanatic, particularly basketball, baseball and American football. My #1 passion is Indiana University basketball.
+I live in Indianapolis, Indiana, USA with my wife and twin daughters, who take up a majority of my free time. Otherwise I am a sports fanatic, particularly basketball, baseball and American football. My biggest passion is Indiana University basketball.
 
 
 ### Strengths
 
-I am extremely Concrete Sequential, which means I thrive in situations that contain order, structure and logic.
-I am very analytical and data-driven. Put problems in front of me that deal with numbers and tangible parts.
-I am a Cool Blue. The more detailed you can be in your communication, the more useful I will be to you. Expect me to take time to make sure I have considered all available information and then come back to you with a measured response.
+
+- I am extremely [Concrete Sequential](https://web.cortland.edu/andersmd/learning/gregorc.htm), which means I thrive in situations that contain order, structure and logic.
+- I am very analytical and data-driven. Put problems in front of me that deal with numbers and tangible parts.
+- I am a [Cool Blue](https://blog.insights.com/en-us/blog/the-essential-guide-to-insights-discovery-colour-energies-and-how-to-use-them-at-work). The more detailed you can be in your communication, the more useful I will be to you. Expect me to take time to make sure I have considered all available information and then come back to you with a measured response.
 
 
 ### Weaknesses
 
-As a Concrete Sequential, Abstract Random situations are not my favorite. Expect me to struggle with situations that involve more than one right answer. “Use your imagination” is the worst direction imaginable to me. I will not thrive in open-ended scenarios that lack guidelines or guardrails. 
-As a Cool Blue, I tend to be overly-detailed in my communication. While I personally consider this a strength, it’s not for everybody and can cause things to get bogged down. Call me out on this and tell me to get to the point and keep things high level if the situation calls for it.
-I’m a perfectionist, which means I like to do a complete job and get things right on the first try. This makes it hard for me to iterate and focus on the smallest viable change. Breaking projects down into smaller segments will make me much more efficient.
+
+- As a Concrete Sequential, Abstract Random situations are not my favorite. Expect me to struggle with situations that involve more than one right answer. “Use your imagination” is the worst direction imaginable to me. I will not thrive in open-ended scenarios that lack guidelines or guardrails. 
+- As a Cool Blue, I tend to be overly-detailed in my communication. While I personally consider this a strength, it’s not for everybody and can cause things to get bogged down. Call me out on this and tell me to get to the point and keep things high level if the situation calls for it.
+- I’m a perfectionist, which means I like to do a complete job and get things right on the first try. This makes it hard for me to iterate and focus on the smallest viable change. Breaking projects down into smaller segments will make me much more efficient.
 
 
 ### Assessments
 
-My CliftonStrengths results suggest that I lead with Executing themes, which help me make things happen. 
+My CliftonStrengths results suggest that I lead with **Executing** themes, which help me make things happen. 
 
 My top five individual strengths are:
 
-Consistency - You are keenly aware of the need to treat people the same. You crave stable routines and clear rules and procedures that everyone can follow.
-Analytical - You search for reasons and causes. You have the ability to think about all of the factors that might affect a situation.
-Focus - You can take a direction, follow through and make the corrections necessary to stay on track. You prioritize, then act.
-Discipline - You enjoy routine and structure. Your world is best described by the order you create.
-Competition - You measure your progress against the performance of others. You strive to win first place and revel in contests.
+- **Consistency** - You are keenly aware of the need to treat people the same. You crave stable routines and clear rules and procedures that everyone can follow.
+- **Analytical** - You search for reasons and causes. You have the ability to think about all of the factors that might affect a situation.
+- **Focus** - You can take a direction, follow through and make the corrections necessary to stay on track. You prioritize, then act.
+- **Discipline** - You enjoy routine and structure. Your world is best described by the order you create.
+- **Competition** - You measure your progress against the performance of others. You strive to win first place and revel in contests.
 
 
 ### Leadership Identity
