@@ -36,7 +36,7 @@
 /content/job-families/alliances/ @chrisweber44
 
 ^[business-technology]
-/content/handbook/business-technology/ @cmestel
+/content/handbook/business-technology/ @NabithaRao
 
 ^[ceo-and-company]
 /content/handbook/amas.md @sytses @streas
@@ -257,12 +257,12 @@
 
 ^[finance]
 /content/handbook/finance/ @brobins
-/content/handbook/finance/financial-planning-and-analysis/ @cmestel
-/content/handbook/finance/financial-planning-and-analysis/adaptive-insights.md @cmestel
+/content/handbook/finance/financial-planning-and-analysis/ @james.shen
+/content/handbook/finance/financial-planning-and-analysis/adaptive-insights.md @james.shen
 /content/handbook/finance/financial-planning-and-analysis/sales-finance/ @jlatendresse @kmckern @ofalken
-/content/handbook/finance/financial-planning-and-analysis/sales-finance/gtm-analytics-hub.md @cmestel @jakebielecki @christinelee @alex.cohen @james_harrison
+/content/handbook/finance/financial-planning-and-analysis/sales-finance/gtm-analytics-hub.md @james.shen @jakebielecki @christinelee @alex.cohen @james_harrison
 /content/handbook/finance/growth-and-development/cfo-shadow-program.md @brobins @dtadich
-/content/handbook/finance/procurement/ @cmestel @brobins
+/content/handbook/finance/procurement/ @rendimiller @emannix @brobins
 /content/handbook/finance/timekeeping/ @cgudgenov @simon-mundy
 /content/handbook/internal-audit/ @bjoshi2 @atoomer
 /content/handbook/spending-company-money.md @brobins
@@ -636,7 +636,7 @@
 /content/handbook/business-technology/end-user-services/onboarding-access-requests/ @NabithaRao @ericrubin @mbeee @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/business-technology/end-user-services/onboarding-access-requests/endpoint-management/ @NabithaRao @ericrubin @mbeee @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/business-technology/end-user-services/self-help-troubleshooting/ @NabithaRao @ericrubin @mbeee @gitlab-com/egroup @gitlab-com/content-sites
-/content/handbook/business-technology/gitlab-business-continuity-plan.md @brobins @cmestel @NabithaRao @gitlab-com/egroup @gitlab-com/content-sites
+/content/handbook/business-technology/gitlab-business-continuity-plan.md @brobins @james.shen @NabithaRao @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/engineering/infrastructure/change-management.md @marin @meks @joergheilig @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/engineering/infrastructure/database/disaster-recovery.md @marin @meks @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/engineering/infrastructure/network-security.md @marin @meks @gitlab-com/egroup @gitlab-com/content-sites
