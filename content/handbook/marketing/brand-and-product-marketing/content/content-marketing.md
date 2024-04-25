@@ -172,7 +172,6 @@ Anyone at GitLab can reach out to the content team in the #content channel on Sl
 
 Here are a few other Slack channels to check out if you’d like to learn more about marketing content:
 
-- **`#content-team-lounge`**: Where the content team can hang out. This is a public channel.
 - **`#content`**: A general discussion channel for all things content, including blog posts, case studies, videos, webcasts, newsletter content, interesting articles, etc
 - **`#content-updates`**: A rolling log of new, published content. Once an article, blog post, case study, webinar, video, landing page, etc. is public, add it to this channel with a TL;DR description of the content.
 - **`#marketing`**: The main channel for the entire marketing group.
