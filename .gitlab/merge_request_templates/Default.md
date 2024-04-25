@@ -38,7 +38,7 @@ CHANGEME
 
 /assign me
 
-<!-- Assign reviewer(s), following https://about.gitlab.com/handbook/handbook-usage/#when-to-get-approval. Remove the [HTML comment tags](https://www.w3schools.com/tags/tag_comment.asp) to enable. -->
+<!-- Assign reviewer(s), following https://handbook.gitlab.com/handbook/handbook-usage/#when-to-get-approval. Remove the [HTML comment tags](https://www.w3schools.com/tags/tag_comment.asp) to enable. -->
 
 <!--
 /assign_reviewer @
@@ -51,14 +51,14 @@ CHANGEME
 ---
 
 <!-- DO NOT REMOVE -->
-[transparency]: https://about.gitlab.com/handbook/values/#transparency
+[transparency]: https://handbook.gitlab.com/handbook/values/#transparency
 [mr]: https://docs.gitlab.com/ee/user/project/merge_requests/
-[say-why-not-just-what]: https://about.gitlab.com/handbook/values/#say-why-not-just-what
-[dri]: https://about.gitlab.com/handbook/people-group/directly-responsible-individuals/
-[SAFE]: https://about.gitlab.com/handbook/legal/safe-framework/
-[when-to-get-approval]: https://about.gitlab.com/handbook/handbook-usage/#when-to-get-approval
-[internal-communications]: https://about.gitlab.com/handbook/people-group/employment-branding/people-communications/
+[say-why-not-just-what]: https://handbook.gitlab.com/handbook/values/#say-why-not-just-what
+[dri]: https://handbook.gitlab.com/handbook/people-group/directly-responsible-individuals/
+[SAFE]: https://handbook.gitlab.com/handbook/legal/safe-framework/
+[when-to-get-approval]: https://handbook.gitlab.com/handbook/handbook-usage/#when-to-get-approval
+[internal-communications]: https://handbook.gitlab.com/handbook/people-group/employment-branding/people-communications/
 [mr-buddies-slack]: https://gitlab.slack.com/archives/CLM8K5LF4
 [company-fyi-slack]: https://gitlab.slack.com/archives/C010XFJFTHN
 [whats-happening-at-gitlab-slack]: https://gitlab.slack.com/archives/C0259241C
-[engagement-channels]: https://about.gitlab.com/handbook/people-group/employment-branding/people-communications/#people-communications--engagement-channels
+[engagement-channels]: https://handbook.gitlab.com/handbook/people-group/employment-branding/people-communications/#people-communications--engagement-channels
