@@ -29,10 +29,10 @@ CI Catalog GA Epic: [https://gitlab.com/groups/gitlab-org/-/epics/12153](https:/
   - [Release Process Refinements](https://gitlab.com/groups/gitlab-org/-/epics/12338) for GA 
     - `release-cli` pre-GA [tasks](https://gitlab.com/gitlab-org/gitlab/-/issues/442066) (Complete)
   - [Details page](https://gitlab.com/groups/gitlab-org/-/epics/12336) for GA
-    - [Relative URL breaks CI/CD component catalog project reference](https://gitlab.com/gitlab-org/gitlab/-/issues/450914) (Ready to be merged)
+    - [Relative URL breaks CI/CD component catalog project reference](https://gitlab.com/gitlab-org/gitlab/-/issues/450914) (Complete)
     - [Fix images not rendering on ReadMe tab](https://gitlab.com/gitlab-org/gitlab/-/issues/455516) (In-Dev)
 - Finishing remaining badges work
-  - [Set verification_level on publish and fix enum mismatch](https://gitlab.com/gitlab-org/gitlab/-/issues/455530) (In-Review)
+  - [Set verification_level on publish and fix enum mismatch](https://gitlab.com/gitlab-org/gitlab/-/issues/455530) (Complete)
   - [Allow service object to create `VerifiedNamespace` record](https://gitlab.com/gitlab-org/gitlab/-/issues/451507) (In-Dev)
 
 ### Blockers:
