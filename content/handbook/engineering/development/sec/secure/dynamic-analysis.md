@@ -288,29 +288,15 @@ The reaction rotation engineer should not:
 - Discuss any unresolved and significant impediments
 - General team discussions
 
-### Daily Epic and Issue Work
+### Daily Look Left & Right Before Dev
 
-The team follows the workflow states and activities articulated in GitLab's [Product Development Flow](/handbook/product-development-flow/). It operates on a pull-based methodology souring from the [list of all Dynamic Analysis Group epics](https://gitlab.com/groups/gitlab-org/-/epics?state=opened&page=1&sort=start_date_desc&label_name%5B%5D=group::dynamic+analysis&label_name%5B%5D=Category:DAST) as the backlog of all work for the current and future releases.
+On any day, each team member should look left and right on our [Dynamic Analysis delivery board](https://gitlab.com/groups/gitlab-org/-/boards/5719921?label_name%5B%5D=group%3A%3Adynamic%20analysis) before they start developing any new work from the `workflow::ready for development` column, helping to move one issue forward from both directions (2 total). The team follows the workflow states and activities articulated in GitLab's [Product Development Flow](/handbook/product-development-flow/). Looking left involves grabbing an issue from either the `workflow::refinement` or the `workflow::ready for development` columns, whichever has more items, and completing it. Looking right involves grabbing an issue from either the `workflow::in review` or the `workflow::verification` columns, whichever has more items, and completing it. After both issues have been moved to a new column, the team member can start ready work from the `workflow::ready for development`.
 
-As epics cannot be associated with milestones in the product, the [list of all Dynamic Analysis Group epics](https://gitlab.com/groups/gitlab-org/-/epics?state=opened&page=1&sort=start_date_desc&label_name%5B%5D=group::dynamic+analysis&label_name%5B%5D=Category:DAST) functions as the source of truth for the milestone for any issues not yet created for each epic. Although, at least some issues should exist for each epic associated with a product priority from monthly release planning.
-
-An issue is considered handed off into the development team when it is given the `~workflow::planning breakdown` label, and the team utilizes the following labels as part of its work. Our [Dynamic Analysis delivery board](https://gitlab.com/groups/gitlab-org/-/boards/5719921?label_name%5B%5D=group%3A%3Adynamic%20analysis) contains everything that the group is currently working on.
-
-| State | Expected Outcomes |
-| ----- | ----------------- |
-| `~workflow::planning breakdown` | Issues are optimized for delivery based on [Issue breakdown] principles. |
-| `~workflow::refinement` | Implementation plan added to the issue description. Weights are not required due to the small size of issues. |
-| `~workflow::ready for development` | Buffer queue - issue deemed to be `~Deliverable`, `~Stretch`, or possibly punted to a future iteration. |
-| `~workflow::in dev` | Last MR is up and out of Draft or WIP status. |
-| `~workflow::in review` | Last MR is merged. |
-| `~workflow::verification` | Functionally working changes are available in a production environment. Record demo where possible. |
-| `~workflow::complete` | Code is verified, the work is complete, and the issue is closed. |
-
-Issues worked by this team are backend-centric and are typically in one the above repos, [vendored templates](https://gitlab.com/gitlab-org/gitlab/-/tree/master/lib/gitlab/ci/templates/Security), and GitLab's [Rails monolith](https://gitlab.com/gitlab-org/gitlab). At times, issues can require support from Secure's frontend team if UI changes are required. We will require more notice for initiatives like these.
+The `Look Left & Right Before Dev` strategy ensures that work items aren't getting stuck on our board, that every team member gets a chance to plan, breakdown, and refine issues, and that code reviews and staging/production vefification activities are spread equally across the team. If there is no work to the left, new work can be brought in from our milestone backlog, as defined in our current [Monthly Release Planning](#monthly-release-planning) issue. New work may also be added to the first two columns at any time from sales and support request for help issue, high-priority bugs, and security-related issues.
 
 #### Blueprinting
 
-Timeboxed by the duration of this meeting, the team will attempt to create as many child epics and issues for each of these current release milestone product issues/epics as placeholders for eventual refinement. This is a great time for the team to discuss high-level architectural directions, implementation plans, and needs for accomplishing these priorities throughout the next month. All issues created should receive the following milestone and labels:
+When there are too few or no work items in the `workflow::refinement` or the `workflow::ready for development` columns, check the current [Monthly Release Planning](#monthly-release-planning) issue for "Work to Blueprint" issues. Assign yourself as a DRI, and assist in scheduling the necessary meetings with the team to review and help blueprint this work for the next milestone. Attempt to create as many child epics and issues as placeholders for eventual planning, breakdown, and refinement. This is a great time for the team to discuss high-level architectural directions, implementation plans, and needs for accomplishing these priorities throughout the next month. All blueprint issues created should receive the following milestone and labels:
 
 ```
 /milestone {from mapping}
