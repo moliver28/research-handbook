@@ -76,23 +76,46 @@ The Senior Fullstack Engineer is a [grade 7](/handbook/total-rewards/compensatio
 
 #### Senior Fullstack Engineer Responsibilities
 
-- Extends the Fullstack Engineer (Intermediate) responsibilities.
-- Lead the architecture and engineering of about.gitlab.com.
-- Research and define frameworks, code style guides, and templates to empower everyone to contribute.
-- Work with cross functional partners, as a team leader.
-- Critical decision making, and knowing what will have the greatest business impact when prioritizing.
-- Own CI automation using GitLab to build, test, and deploy.
-- Sharing knowledge and educating on best practices and new technologies.
+- Code and implement high quality technical and engineering work for complex web projects, including troubleshooting and problem solving, communicating with stakeholders and team members, reporting on outcomes.
+- Lead and scope major cross-functional projects; including defining business needs, navigating sometimes conflicting priorities to deliver the best business outcomes and making recommendations on the best course of action.
+- Initiate longer-term initiatives that will impact the efficiency of the team, project architecture and reducing technical debt, including introducing new processes and solutions.
+- Mentor more junior teammates on engineering and web development best practices, complex problem solving and modeling stakeholder engagement.
+- Provide technical and functional knowledge representing Digital Experience and web development as a subject-matter expert with stakeholders across organizations.
 
 #### Senior Fullstack Engineer Requirements
 
-- Extends that of the Fullstack Engineer (Intermediate) requirements.
-- 6+ years experience specializing in fullstack development, website and web applications.
-- Uses research, data, and best practices to create, validate, and present ideas to key
-stakeholders.
-- A track record of being self-motivated, results oriented, and delivering on time.
-- Expert in selecting and applying frameworks/systems to solve complicated technical problems.
-- The ability to communicate complex ideas and solutions to non-technical stakeholders.
+- 8-10 years in a Fullstack engineering role, 3+ years of web development or engineering experience in a B2B or enterprise software marketing organization
+- Advanced technical expertise and proficiency in web architecture
+- Demonstrated capacity to clearly and concisely communicate about technical, architectural, and/or organizational problems and propose solutions
+- Demonstrated ability to solve performance and optimization problems and an orientation to improvement and iteration; modeling a service-focused, solution-oriented mindset
+- Proficiency working in a highly agile, [intensely iterative](https://handbook.gitlab.com/handbook/values/#iteration) software development process
+
+### Staff Fullstack Engineer
+
+The Senior Fullstack Engineer reports to a [Engineering Manager, Digital Experience](/job-families/marketing/fullstack-engineer-marketing/#manager-engineering).
+
+#### Staff Fullstack Engineer Job Grade
+
+The Senior Fullstack Engineer is a [grade 8](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+
+#### Staff Fullstack Engineer Responsibilities
+
+- Code and implement high quality technical and engineering work for complex web projects, including troubleshooting and problem solving, communicating with stakeholders and team members, reporting on outcomes.
+- Lead and scope major cross-functional projects; including defining business needs, navigating sometimes conflicting priorities to deliver the best business outcomes and making recommendations on the best course of action.
+- Initiate longer-term initiatives that will impact the efficiency of the team, the quality of output and reducing technical debt, architectural initiatives and including introducing new processes and solutions.
+- Mentor more junior teammates on engineering and web development best practices, documentation, complex problem solving and modeling stakeholder engagement.
+- Provide technical and functional knowledge representing Digital Experience and web development as a subject-matter expert with stakeholders across organizations.
+
+#### Staff Fullstack Engineer Requirements
+
+- 10+ years in a Fullstack engineering role, 5+ years of web development or engineering experience in a B2B or enterprise software marketing organization
+- Advanced technical expertise and proficiency in software architecture technologies, including ruby on rails, node.js, & APIs.
+- Experience leading cross-functional initiatives and partnering with stakeholders outside of Engineering, including Marketing, Product and leadership teams
+- Demonstrated capacity to clearly and concisely communicate about complex technical, architectural, and/or organizational problems and propose solutions
+- Demonstrated ability to pivot from core engineering and coding work, to stakeholder conversations to understand business requirements and needs
+- Demonstrated ability to coach team members without direct reporting responsibilities
+- Experience with diagnosing and solving performance and optimization problems and an orientation to improvement and iteration; modeling a service-focused, solution-oriented mindset
+- Proficient working in a highly agile, [intensely iterative](https://handbook.gitlab.com/handbook/values/#iteration) software development process
 
 ### Manager, Engineering
 
@@ -104,33 +127,30 @@ The Manager, Engineering is a [grade 8](/handbook/total-rewards/compensation/com
 
 #### Manager, Engineering Responsibilities
 
-- Seek to build out a great team
-- Make your team happy and successful
-- Improve processes to make your team more effective
-- Hold regular 1:1's with all members of your team
-- Plan and execute long term strategies that benefit the team and the Marketing Site
-- Conduct code reviews, and make technical contributions to Marketing Site architecture
-- Get involved in solving bugs and delivering small features
-- Foster technical decision making on the team, and make final decisions when necessary
-- Discern engineering metrics and seek to improve them
+- Lead a high-performing team of engineers to implement and bring GitLab’s web strategy to life through quality, on-time coding and development
+- Code and implement high quality technical and engineering work for complex web projects, including troubleshooting and problem solving, communicating with stakeholders and team members, reporting on outcomes.
+- Lead and scope major cross-functional projects; including defining business needs, navigating sometimes conflicting priorities to deliver the best business outcomes and making recommendations on the best course of action.
+- Initiate longer-term initiatives that will impact the efficiency of the team, the quality of output and reducing technical debt, - including introducing new processes and solutions.
+- Coach team on engineering and web development best practices, complex problem solving and modeling stakeholder engagement.
+- Provide technical and functional knowledge representing Digital Experience and web development as a subject-matter expert with stakeholders across organizations.
 
 #### Manager, Engineering Requirements
 
-- Collaborate effectively with others
-- Ability to achieve consensus amongst stakeholders
-- 5 years or more experience related to the responsibilities listed above.
-- 2 years or more experience in a leadership role with current technical experience
-- You have an expert comprehension of core web and browser concepts (eg. how does JavaScript handle asynchronous code)
-- You have in-depth experience with CSS, HTML, JavaScript, and Modern Web Development
-- You have excellent written and verbal communication skills
-- Our [values](/handbook/values/) of collaboration, results, efficiency, diversity, iteration, and transparency resonate with you
-- Ability to use GitLab
+- 10+ years in a web development engineering role in a B2B or enterprise software marketing organization; 5+ years experience managing a team of engineers
+- Advanced technical expertise and proficiency in web development and related web technologies, including HTML, CSS, and JavaScript
+- Experience leading cross-functional initiatives and partnering with stakeholders outside of Engineering, including Marketing, Product and leadership teams
+- Demonstrated capacity to clearly and concisely communicate about complex technical, architectural, and/or organizational problems and propose solutions
+- Demonstrated ability to coach and lead a team of direct reports, including hiring, development and growth  and driving a culture of high performance
+- Experience with diagnosing and solving  performance and optimization problems and an orientation to improvement and iteration; modeling a service-focused, solution-oriented mindset
+- Experience lading team to work  in a highly agile, [intensely iterative](https://handbook.gitlab.com/handbook/values/#iteration0) software development process
 
 ## Performance Indicators
 
-- [Contributing to the success of Digital Experience's Quarterly Initiatives](/handbook/marketing/digital-experience/#okrs)
-- [Identifying and organizing epics into executable Sprint plans](/handbook/marketing/digital-experience/#iteration-process)
-- [Successfully completing bi-weekly Sprint tasks](/handbook/marketing/digital-experience/#sprint-cycle)
+- Project planning accuracy, project (on-time) delivery, cycle times
+- Lead time on changes
+- Velocity
+- Quality and reliability, # of incidents
+- Time to recover (bugs, errors, code fails)
 
 ## Career Ladder
 
