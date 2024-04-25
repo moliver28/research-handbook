@@ -177,8 +177,8 @@ description: "[insert a short sentence to appear as part of search results]"
 ---
 ```
 
-1. Type in the commit message and click `commit changes`.
-1. Update the merge request template and assign the merge request to the appropriate reviewer.
+7. Type in the commit message and click `commit changes`.
+8. Update the merge request template and assign the merge request to the appropriate reviewer.
 
 ### Helpful tips for updating the handbook
 
