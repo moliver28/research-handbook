@@ -32,8 +32,7 @@ Please reach out to your [assigned Architect](https://docs.google.com/document/d
 For Scoping issues add the label `Scoping::Needs_TA_Assistance` to the related GitLab issue with a clear ask in the comments for them to follow up on. [Scoping Information](/handbook/customer-success/professional-services-engineering/engagement-mgmt/scoping-information/)
 
 ### General Inquiries and Discussions:
-For broader technical questions or about the role of TAs, utilize the #ps-ta-ama channel on Slack.
-Specific discussions related to an ongoing Statement of Work (SOW) should be conducted within the comments of the associated scoping issue to ensure context is passed on during delivery. Conversations in slack have a limited retention and often are unavailble during the delivery. 
+For broader technical questions or about the role of TAs, utilize the #ps-ta-ama channel on Slack. Specific discussions related to an ongoing Statement of Work (SOW) should be conducted within the comments of the associated scoping issue to ensure context is passed on during delivery. Conversations in slack have a limited retention and often are unavailble during the delivery. 
 
 ## Approvals
 
@@ -42,9 +41,9 @@ Any SOWs that have not had a TA involved in the scoping will need the `TA::Needs
 
 TA's will review SOW's within two business days to identify any clarifications needed for Actions, Assumptions and Deliverables. `TA::Approved` label will be added when the scope of work is reviewed by the TA. 
 
-## Estimates
+<!-- ## Estimates
 
-We are working on transitioning the original [Estimate Template](https://docs.google.com/spreadsheets/d/1YKMyflzsA-VPEVobB82zC8-n0hlC-uRBtiNB7Fm-kZg/edit#gid=674039849) to a new [Estimate Template](https://docs.google.com/spreadsheets/d/1WSV_inLaN4tCIJ6jKkZFuHm7KGlfTHQ93LEY44okRIE/edit#gid=854215547). We will continue to add templates based off of the frequency we are engaging in esimates.
+We are working on transitioning the original [Estimate Template](https://docs.google.com/spreadsheets/d/1YKMyflzsA-VPEVobB82zC8-n0hlC-uRBtiNB7Fm-kZg/edit#gid=674039849) to a new [Estimate Template](https://docs.google.com/spreadsheets/d/1WSV_inLaN4tCIJ6jKkZFuHm7KGlfTHQ93LEY44okRIE/edit#gid=854215547). We will continue to add templates based off of the frequency we are engaging in esimates. -->
 
 ### Project Discovery
 
