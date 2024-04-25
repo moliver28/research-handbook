@@ -28,6 +28,8 @@ After having a technical scoping/sizing conversation with your customer, GitLab 
 
 The [Migration Readiness Checklist](https://gitlab.com/gitlab-org/professional-services-automation/tools/migration/congregate/-/blob/master/customer/migration-readiness-checklist.md) explains how the migration are performed by GitLab Professional Services. You can put your own steps together using the Migration Rediness Checklist as an example. It includes technical asks for Access, Communication, User migration planning, Migration Preparation, Wave Planning, Post Migration Checks, Post Migration Considerations and Getting the most out of your investment. This document assumes you are using [Congregate](https://gitlab-org.gitlab.io/professional-services-automation/tools/migration/congregate/), an open source command line interface (CLI) migration tool from GitLab. Congregate is the preferred method used by GitLab Professional Services. 
 
+Communicating clearly [What are a customer's obligations and responsibilities prior, during and after a migration?](https://gitlab.com/gitlab-org/professional-services-automation/tools/migration/congregate/-/blob/master/customer/famq.md#what-are-a-customers-obligations-and-responsibilities-prior-during-and-after-a-migration) and [What level of instance access and permission are needed for migrating?](https://gitlab.com/gitlab-org/professional-services-automation/tools/migration/congregate/-/blob/master/customer/famq.md#what-level-of-instance-access-and-permission-are-needed-for-migrating) with your customer will also insure a smooth migration.
+
 ## From other DevOps platforms to GitLab
 
 To migrate projects from systems other than GitLab, please review the list of [Supported import sources](https://docs.gitlab.com/ee/user/project/import/#supported-import-sources) and [Other Import Sources](https://docs.gitlab.com/ee/user/project/import/#other-import-sources) (anchor link on the same page).
@@ -47,6 +49,8 @@ GitLab can be installed and operated in [offline environments](https://docs.gitl
 - Direct transfer doesn't support this. Project/export import is a workaround and it will likely stay as such. See the GitLab issue titled [Direct transfer - Support for air-gapped solutions](https://gitlab.com/groups/gitlab-org/-/epics/8985) and [Maintain project and group file-based import/export as a workaround for migrations over air-gapped networks and to serve other use cases](https://gitlab.com/gitlab-org/gitlab/-/issues/363406) for nuanced technical details on performing this. 
 
 ## From GitLab self-managed to GitLab SaaS or the other way around
+
+Choosing from the three different options for a customer migration depends on understanding your customer's needs post migration. A full technical page comparing in a table format the different pros and cons of each method is outlined in [Migration features](https://gitlab.com/gitlab-org/professional-services-automation/tools/migration/congregate/-/blob/master/customer/gitlab-migration-features-matrix.md#migration-features). While Congregate supports the most Features to be migrated, migrating to/from GitLab.com with Congregate requires the GitLab Professional Services team due to restricted access to the GitLab.com SaaS (multi-tenatnt) data. 
 
 There are three different options for these migrations.
 
