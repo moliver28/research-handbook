@@ -124,6 +124,7 @@ Switchboard team process to refine issues:
 1. If the issue requires Frontend implementation the `frontend` label should be used
 1. DRI enables issues to be worked on in parallel where possible so that multiple engineers can contribute to a single epic
 1. The default is to keep both frontend and backend implementation for a single piece of functionality on the same issue so that discussions are centralised, implementation is carried out in parallel and frontend and backend engineers are in sync
+1. If the implementation requires modification of an existing API endpoint, or creation of a new API endpoint an agreement on endpoint, params structure and return data structure should be achieved in the issue before any development work is started.
 1. Frontend and backend implementation should be delivered in separate MRs
 1. If the implementation cannot be done in parallel, or there is a likely to be a meaningful delay between backend and frontend implementations, or if the backend can deliver value independently the issue should be split and the relationship clearly identified by linking the issues
 
