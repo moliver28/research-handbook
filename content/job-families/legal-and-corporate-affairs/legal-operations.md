@@ -106,7 +106,7 @@ The Senior Director, Strategy & Operations - Legal & Corporate Affairs is a [gra
 
 #### An overview of this role
 
-The Senior Director, Legal Operations will be responsible for supporting GitLab’s Legal & Corporate Affairs team with a focus on defining and driving initiatives that improve the Legal & Corporate Affairs team’s efficiency and effectiveness. 
+The Senior Director, Legal Operations will be responsible for supporting GitLab’s Legal & Corporate Affairs team with a focus on defining and driving initiatives that improve the Legal & Corporate Affairs team’s efficiency and effectiveness.
 
 #### What you'll do
 
