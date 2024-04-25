@@ -21,10 +21,10 @@ title: "Board of Directors and Corporate Governance"
 
 **Meeting Process**
 
-The Sr EBA to the CFO is the DRI of scheduling the quarterly Audit Committee meeting in conjunction with the Chairperson, Management DRI and their Sr. EBA
+The Sr. EBA to the CFO is the DRI of scheduling the quarterly Audit Committee meeting in conjunction with the Chairperson, Management DRI and their Sr. EBA
 
 1. Timing: 2-3 weeks prior to the formal Board of Directors Meeting
-1. Duration: 110min (Q1-Q3) 140min (Q4)
+1. Duration: 110min (Q1-Q3), 140min (Q4)
 1. Agenda document to include links to all material being reviewed during the meeting
 
 All Audit Committee materials being reviewed during the meeting will be uploaded into Boardvantage 5 business days prior to the Committee meeting by the Corporate Paralegal. Committee members will be notified of such by the Management DRI.
@@ -128,7 +128,7 @@ Board meetings can happen remotely or in-person. We establish the meeting calend
 
 ## Board Meeting Schedule
 
-1. Board of Directors meetings are held quarterly and they are all remote; everyone joins with their own video conference setup from a separate location.
+1. Board of Directors meetings are held quarterly. They can be remote (over zoom) or in-person.
 1. Meetings are scheduled on/around the Thursday 6 weeks after the end of the quarter, assuming availability of the Directors.
 1. The 2024 schedule of Board meetings is as follows:
     - 2024-03-28
@@ -159,11 +159,10 @@ The Staff EBA to the CEO shall ensure that there are separate calendar invites f
 ### Timeline
 
 1. The Staff EBA to the CEO is the DRI for scheduling the Board meetings
-1. The CFO is the DRI for assembling the deck. Four weeks in advance of the Board meeting, the CFO sends the templates for the materials to be created to the E-Group and EBA team.
 1. 7 weeks before the Board meeting, the Lead Independent Director will reach out to the Board via email to discuss agenda topics.
 1. 6 weeks before the Board meeting, the Lead Independent Director, CEO, and CFO will have a meeting to discuss and finalize the agenda. Once finalized, the CFO will share the agenda with E-Group.
+1. The CFO is the DRI for assembling the deck. Four weeks in advance of the Board meeting, the CFO sends the templates for the materials to be created to the E-Group and EBA team.
 1. The CFO sends a reminder to the E-Group 3 weeks in advance of the meeting.
-1. The CoS to the CEO shares the CEO Memo with E-Group for comments or edits 8 days prior to the Board Meeting.
 1. The E-Group has the complete presentation materials ready 10 business days prior to the meeting. All materials are submitted to the CLO and CFO for review within 48 hours of receipt.
 1. Once approved by the CLO and the CFO, the CFO authorizes the Corporate Paralegal to upload the materials into Nasdaq Boardvantage (NBV) and attach them to the corresponding NBV Meeting. All presentations and content should be finalized at this time with no further changes. The Corporate Paralegal is responsible for ensuring parity between the NBV Meeting and calendar invite. The Senior EBA to the CFO is responsible for the sharing settings on all materials. Materials should be shared with the E-Group, the Board (not via the @board alias), Board Observers, and the outside legal firm. Any exceptions must be confirmed by the CLO and relayed to the Corporate Paralegal before shipping. The deadline for the document upload is 2p PT 7 days before the Board meeting.
 1. The Senior EBA to the CFO is responsible for linking all materials in the agendas for each session of the board meeting. Materials should always be linked in the agenda and shared with the appropriate attendees.
@@ -210,12 +209,47 @@ For a more detailed overview of navigating the NBV portal, please click here to 
         - Annual Operating Plan can be a memo or slide deck.
    - The Administration Session for Board Committee readouts by the Committee Chairperson updating the Board as to the Committee’s activities and highlighting the items requiring Board approval, if any.
 1. Questions can be asked throughout the meeting. 30 minutes are reserved at the end of the General Session for Q&A / Discussion.
-1. At the conclusion of the General Session the E-Group, Observers, CoS to the CEO, Staff EBA, CEO Shadows depart the zoom meeting and the full Board shall meet for a Closed Session.
+1. At the conclusion of the General Session the E-Group, Observers, CoS to the CEO, Staff EBA, CEO Shadows depart the meeting and the full Board shall meet for a Closed Session.
 
+### Board Deck
+
+1. The deck should start with a CEO Overview section which includes: list of up to ten [GitLab KPIs]({{< ref "kpis#gitlab-kpis" >}}). These should reflect the team’s prioritizations. The expectation is that these metrics will be on the list for a year or longer. The CEO Overview will also include slides on: prior quarter or fiscal year overview, trends, challenges, opportunities and current fiscal year priorities.
+1. The deck highlights 2 key asks for Board input during the meeting. Each ask should have a few key slides that provide historical context, current status, and plans for the future. We strive to have 2 key asks and at least 20 minutes spent on these topics. The key asks are typically presented during the meeting and may include team members from across the organization to join the meeting.
+1. Slides should convey a high-level overview as opposed to operational updates and will not include embedded links.
+1. Put information on public webpages such as [/strategy]({{< ref "/handbook/company/strategy" >}}) as much as possible.
+1. Sensitive information goes into the Administration deck managed by the CFO.
+1. Font size should be minimum 16pt, footnotes excluded. We want to make sure everything can be read.
+1. Every slide should have a title which provides the key takeaway from that slide.
+
+#### Finance Presentation
+
+The Finance slides are as follows:
+
+1. Review past quarter and YTD: Bookings review (growth rates) / new/growth and by sales zone
+1. Review past quarter and YTD: P&L vs plan with commentary
+1. Review past quarter and YTD: Revenue deep dive
+1. Review past quarter and YTD: Gross Margin deep dive
+1. Review past quarter and YTD: Cash waterfall
+1. Forward looking: Rolling forecast that we will hold company accountable to in next quarter with commentary
+1. Forward looking: Cash projection through end of year
+1. Forward looking: LR plan adjustments with commentary
+1. Forward looking: Balance sheet projection to match the 4Q Forecast
+
+
+### CEO and Function Memos
+
+The CEO and each E-Group member is responsible for submitting a memo to the BoD in advance of the Board meeting. These memos capture each E-Group member's view on:
+
+1. Top 3 Things Working
+1. Top 3 Watchpoints
+1. Items keeping me up at night
+1. Input sought from Board
+
+Functions do not have slides in the deck, but they can choose to put screenshots of slides into the appendix of these memos.
 
 ### Board Dinner
 
-We usually have a Board Dinner on the evening before a Board Meeting. The EBA to the CEO is responsible for coordinating this dinner. Board Members, Local E-Group members, and the CoS to the CEO are all optional attendees. Bios for attendees of the Board Dinner should be sent by the EBA to the CEO 3 business days in advance of the Board Dinner.
+We usually have a Board Dinner on the evening before a Board Meeting. The EBA to the CEO is responsible for coordinating this dinner. Board Members, local E-Group members, and the CoS to the CEO are all optional attendees.
 
 Each quarter, [E-Group]({{< ref "structure#e-group" >}}) can choose to invite an additional team member as a Key Talent Guest. If this is desired in a specific quarter, at least a month before the dinner, the CoS to the CEO will gather nominations and ensure that E-Group has identified an invitee. Criteria for consideration includes:
 
@@ -225,7 +259,7 @@ Each quarter, [E-Group]({{< ref "structure#e-group" >}}) can choose to invite an
 1. Function (should have representation across functions throughout the year)
 1. Diversity (participation from members in [GitLab Team Member Resource Groups]({{< ref "erg-guide" >}})
 
-Once the Key Talent Guest has been identified, it is the relevant E-Group team member's responsibility to ensure that managers of this person are aware of the invite. The EBA to the CEO will then confirm that the guest is able to join. If not, the invite will go to the runner up. Once a Key Talent Guest is confirmed, the EBA to the CEO should enter their name in the [Key Talent Board Dinner Guests](#key-talent-board-dinner-guests).
+Once the Key Talent Guest has been identified, it is the relevant E-Group team member's responsibility to ensure that managers of this person are aware of the invite. The EBA to the CEO will then confirm that the guest is able to join. If not, the invite will go to the runner up. Once a Key Talent Guest is confirmed, the EBA to the CEO should enter their name in the [Key Talent Board Dinner Guests](#key-talent-board-dinner-guests). Bios for key talent attendees of the Board Dinner should be sent by the EBA to the CEO to the Board 3 business days in advance of the Board Dinner.
 
 GitLab will cover this person's travel expenses. A person's location will not be considered in the selection criteria though the person's travel must be allowed under GitLab's [travel policies and guidelines]({{< ref "travel#policy-and-guidelines" >}}).
 
@@ -270,8 +304,6 @@ Board Members may request additional time for a deep dive on a specific topic. T
 
 We will have one Board member per quarter conduct an AMA (Ask Me Anything) session with the GitLab team. AMA’s are 25 minutes and live streamed to GitLab Unfiltered on YouTube. These AMA's are scheduled by the Staff EBA to the CEO.
 
-- [David Hornik's AMA](https://www.youtube.com/watch?v=LwZNbF6_PX0%C2%A0)
-
 ## Board Selection Process
 
 ### Roles and Responsibilities
@@ -288,12 +320,9 @@ We will have one Board member per quarter conduct an AMA (Ask Me Anything) sessi
 
 1. First meeting with the nominating board member;  50-minute meeting.
 1. CEO and Board members: 50-minute meetings.
-1. GitLab CRO, CFO, CLO and other E-Group members as requested.
+1. GitLab CRO, CFO, CLO and other E-Group members, as requested.
 1. Any parties as requested by the candidate.
 
-## Board Renewal Process
-
-Assuming GitLab adopts a three class structure, a Director can belong to Class I, Class II or Class III. Some of our Directors will be in Class 1 and will be up for reelection as early as the first year the company is public, while other Directors will not be up for reelection until 2 or 3 years after the company is public. The decision as to which director is in which class is typically made close to when a company goes public. Various factors in making this determination are taken into consideration; for example, some VC Directors may prefer to leave the Board earlier in the public company lifecycle due to the number of commitments or requirements imposed by their respective funds.
 
 ## Board Onboarding Process
 
@@ -342,7 +371,7 @@ New Director will be be provided with:
 1. Summary of Director and Officer Liability Insurance
 1. Executed Indemnification Agreement
 
-#### Staff EBA DRI
+#### Staff EBA to the CEO DRI
 
 1. Add new Director to our team page and update relevant Handbook pages (stable counterpart page, committee members, etc.)
 1. Update Board distribution list with Board Member and support staff
@@ -363,7 +392,6 @@ New Director will be be provided with:
   - [3 year strategy](/handbook/company/strategy/#three-year-strategy)
   - [Company KPI's](/handbook/company/kpis/)
   - [Quarterly OKRs](/handbook/company/okrs/)
-  - [Mitigating Concerns](https://internal-handbook.gitlab.io/handbook/leadership/mitigating-concerns/)
 1. Finance (CFO) - 80 minutes suggested
   - Financing profile, liquidity, creditworthiness, credit ratings
   - Current issues, Board oversight issues
