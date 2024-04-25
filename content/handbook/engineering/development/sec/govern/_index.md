@@ -99,7 +99,7 @@ Quarterly review update template can be found [here](https://gitlab.com/gitlab-c
 
 ### OKR planning
 
-Our OKRs are a mixture of top down, aligned with Company-wide, Product, or Engineering Division OKRs, and bottom up engineering-led initiatives driven by our team members in Govern. Any team member can propose an OKR for Govern by creating a [proposal issue](https://gitlab.com/gitlab-com/gitlab-OKRs/-/issues/?sort=created_date&state=opened&label_name%5B%5D=Sub-Department%3A%3AGovern&type%5B%5D=issue&search=Govern%20%28proposal%29&first_page_size=100) in our internal OKR project. The issue can be used to collaborate and discuss the proposal. When we are ready to commit, we can create or align to an existing Objective, and add specific key results to track through the quarter.
+Our OKRs are a mixture of top down, aligned with Company-wide, Product, or Engineering Division OKRs, and bottom up engineering-led initiatives driven by our team members in Govern. Any team member can propose an OKR for Govern by creating a [proposal issue](https://gitlab.com/gitlab-com/gitlab-OKRs/-/issues/?sort=created_date&state=opened&or%5Blabel_name%5D%5B%5D=Sub-Department%3A%3AGovern&or%5Blabel_name%5D%5B%5D=devops%3A%3Agovern&search=Govern%20%28proposal%29&first_page_size=100) in our internal OKR project. The issue can be used to collaborate and discuss the proposal. When we are ready to commit, we can create or align to an existing Objective, and add specific key results to track through the quarter.
 
 Labels:
 
