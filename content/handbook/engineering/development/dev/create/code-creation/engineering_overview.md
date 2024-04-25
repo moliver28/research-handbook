@@ -2,9 +2,16 @@
 title: "Create:Code Creation Group engineering overview"
 ---
 
+## Introduction
+
+Welcome to the technical overview of GitLab's Code Suggestions, a feature designed to enhance the coding experience by integrating advanced AI technologies directly within your development environment. This page serves as your guide to understanding the architecture and interactions behind our innovative Code Suggestions feature, which significantly streamlines coding processes through intelligent completions and generative coding capabilities.
+
+At its core, Code Suggestions operates through a sophisticated workflow involving multiple components such as IDE extensions, the Language Server, GitLab Workhorse, and our AI Gateway, all culminating in providing you with real-time, context-aware coding suggestions. From simple code completions that speed up your typing tasks to complex code generations that craft entire code blocks, our system is designed to support a wide array of coding activities and enhance productivity.
+
+Below, we detail each component's role in this ecosystem, describe the flow of data through our system, and explain how different types of coding interactions are handled to provide both quick suggestions and detailed code generation.
+
 ## Code Suggestions Technical Overview
 
-This page outlines different components involved in the Code Suggestion features implementation and provides high level overview of the features implementation.
 
 In most general sense Code Suggestions feature follow sequence as described on a diagaram below
 
