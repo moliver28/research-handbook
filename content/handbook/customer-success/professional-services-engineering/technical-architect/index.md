@@ -20,11 +20,14 @@ Working with Professional Service Pre-Sales to provide:
        - Approve SOW solutions including line item deliverables and corresponding level of effort
 
 ## Engage with an Architect
-- TA's are available for Scoping Calls when an opportunity has been identified and discovery of the techinical challenges and an estimate of days required is unclear for the estimation templates. To inclue a TA in the conversation please use the conventions below. Please try to limit the unclusion of a TA to neccasary calls only.
-  - For calls please tag `@ps-ta` in the `#ps-ta-ama` channel with the time proposed.
+- Technical Architects (TAs) play a crucial role in scoping potential engagements where the technical challenges and the required effort are not clear. TA's can be included in not only estimating and planning but also in positioning the value of GitLab to technical stakeholders, helping to align our solutions with the client’s technical and business goals. To ensure effective and efficient use of TA resources, please follow the guidelines below when including a TA: 
+
+
+TA's are available for Scoping Calls when an opportunity has been identified and discovery of the techinical challenges and an estimate of days required is unclear for the estimation templates. To inclue a TA in the conversation please use the conventions below. Please try to limit the unclusion of a TA to neccasary calls only.
+  - For calls please ask your assigned Architect with at least 2 business days notice. 
   - For Scoping issues add the label `Scoping::Needs_TA_Assistance` to the related GitLab issue with a clear ask in the comments for them to follow up on. [Scoping Information](/handbook/customer-success/professional-services-engineering/engagement-mgmt/scoping-information/)
   - General questions can be asked in `#ps-ta-ama`. Any conversations that are specific to a SOW in progress needs to take place in the comments of the scoping issue. Slack retentions 
-## Aprovals
+## Approvals
 
 # Getting a Review
 Any SOWs that have not had a TA involved in the scoping will need the `TA::Needs-Review` label added to the scoping issue to ensure we are reviewing it from a delivery standpoint. This does not include SKU's or standard migrations scoped with the estimate sheet. If the review is time sensitiveor needs more than 2 days for review please tag the Regional TA Manager for attention.
