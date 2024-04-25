@@ -524,6 +524,10 @@ Learn more about error budgets with these resources:
   - Daily standups [#g_manage_import_and_integrate_daily](https://gitlab.slack.com/archives/C04UYQV7716)
 - Issue boards
   - [Current milestone board](https://gitlab.com/groups/gitlab-org/-/boards/1459244?milestone_title=Upcoming&label_name[]=group%3A%3Aimport%20and%20integrate)
+- Contribution guides
+  - [Principles of importer design](https://docs.gitlab.com/ee/development/import/principles_of_importer_design/)
+  - [Contributing to Direct Transfer](https://docs.gitlab.com/ee/development/bulk_imports/contributing)
+    - [Feedback issue](https://gitlab.com/gitlab-org/gitlab/-/issues/456468)
 - Onboarding videos (GitLab Unfiltered Youtube)
   - [Direct Transfer](https://www.youtube.com/watch?v=vVQ6Ex9fSl8) (formerly known as GitLab Migration)
   - [Introduction to GitHub Importer](https://www.youtube.com/watch?v=TxHopzXop5s)
