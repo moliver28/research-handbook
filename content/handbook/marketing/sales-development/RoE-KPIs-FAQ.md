@@ -222,6 +222,9 @@ Announcement Channels
 | Professional services | everyone | All motions | All segments | 0 | NA |
 
 ### Sales Development Org Compensation Breakdown
+
+
+| **Sales Development Org Compensation Breakdown** |
 | ------------------------------------------------ |
 | **Quota Components Depending on Sales Segment** |
 | [Sales Accepted Opportunities (SAOs)](/https://about.gitlab.com/handbook/marketing/sales-development/#qualification-criteria-and-saos) |
