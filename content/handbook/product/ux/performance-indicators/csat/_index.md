@@ -11,7 +11,7 @@ UX Research determines our Product CSAT score for paid users of GitLab.com, self
 
 ### Current workflow 
 
-#### Sample goals
+#### Sampling goals
 
 UX Research aims for a sample size of 400 total responses with plan type proportions for our sample to be +/- 3% compared to the population proportion. Self-managed users are excluded from this proportion because we've traditionally had difficulty recruiting them for research. Thus, we aim for 80-100 responses from self-managed users, which is based on the number of responses to past System Usability Scale surveys.
 
