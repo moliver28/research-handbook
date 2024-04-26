@@ -31,10 +31,7 @@ In a secondary priority, this helps to [cultivate contributions from the Wider C
 
 ### FYI
 
-For guidelines on how features are marked as Beta or Experimental, along with their legal and support status please refer to one of the following pages:
-
-1. https://docs.gitlab.com/ee/policy/experiment-beta-support.html
-2. https://docs.gitlab.com/ee/development/gitlab_beta_program/features.html
+For guidelines on how features are marked as Beta or Experimental, along with their legal and support status please refer to the following pages: https://docs.gitlab.com/ee/policy/experiment-beta-support.html
 
 ## Program nurturing activities
 
