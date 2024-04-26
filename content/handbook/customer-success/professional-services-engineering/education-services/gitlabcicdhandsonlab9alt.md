@@ -1,6 +1,6 @@
 ---
 title: "GitLab CI/CD - Hands-On Lab: Code Quality Scanning"
-description: "This Hands-On Guide walks you through the lab exercises in the GitLab CI/CD course."
+description: "This Hands-On Guide walks you through using the Code Quality scanner to find and fix a code issue."
 ---
 
 > Estimated time to complete: 15 - 20 minutes
