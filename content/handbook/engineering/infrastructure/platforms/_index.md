@@ -47,7 +47,7 @@ The Director of Product and Director of Infrastructure for SaaS Platforms conduc
 
 ### Slack to GitLab Issue Tracker Integration
 
-In an effort to enhance the tracking and resolution of requests directed to the Infrastructure team, we have implemented a bot that converts Slack messages in [#infrastructure_lounge](https://gitlab.slack.com/archives/CB3LSMEJV) channel into GitLab issues.
+In an effort to enhance the tracking and resolution of requests directed to the Infrastructure team, we are evaluating a bot that converts Slack messages in [#infrastructure_lounge](https://gitlab.slack.com/archives/CB3LSMEJV) channel into GitLab issues.
 
 #### Workflow Overview
 
