@@ -1,9 +1,18 @@
 ---
-title: "CSAT"
+title: "Product CSAT"
 description: "The Customer Satisfaction (CSAT) survey is a performance indicator we use within the Product division to measure the customer satisfaction of our product."
 ---
 
-## Customer Satisfaction (CSAT) survey 
+## Product Customer Satisfaction (CSAT) survey 
+
+### Reasons we chose to use CSAT
+
+* Within the Product division, we have adopted [Customer Satisfaction Score (CSAT)](https://www.qualtrics.com/uk/experience-management/customer/what-is-csat/) and are conducting this survey on a quarterly basis.
+  * We previously surveyed customers using the NPS, which we moved away from starting in FY25 Q1 ([see proposal deck](https://docs.google.com/presentation/d/18FYO0UoUQi__7hPnD0uhVmeJrN16n23OISQnom0eRE8/edit?usp=sharing)).
+* We are using CSAT because it allows us to:
+  * Measure satisfaction directly vs. indirectly.
+  * Connect satisfaction ratings and open ended responses back to changes in our product.
+  * Compare and contrast CSAT survey data against our other company wide metrics (System Usability Scale (SUS)).
 
 ### How CSAT works
 
