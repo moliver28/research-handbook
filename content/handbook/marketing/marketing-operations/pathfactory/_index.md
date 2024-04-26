@@ -621,12 +621,11 @@ PathFactory applies a score to a person based on how much time they spent viewin
 
 ### Bizible
 
-There are 2 external forms in PathFactory with apply Bizible touchpoints using JavaScript. 
+External forms in PathFactory will apply a Bizible touchpoints using JavaScript. 
 
-1. `MOps: Form Submit-Bizible`: Applies a Bizible touchpoint upon form submit within a PathFactory track
-1. `MOps: Bizible-Met Threshold`: Applies a Bizible touchpoint when a visitor to a track has met the engagement threshold
+`MOps: Form Submit-Bizible`: Applies a Bizible touchpoint upon form submit within a PathFactory track
 
-- [Bizible attribution with PathFactory](/handbook/marketing/marketing-operations/bizible/#bizible-attribution-with-pathfactory)
+Learn more about [Bizible attribution with PathFactory](https://handbook.gitlab.com/handbook/marketing/marketing-operations/bizible/#amm-attribution-with-pathfactory)
 
 ## Custom PathFactory Fields
 

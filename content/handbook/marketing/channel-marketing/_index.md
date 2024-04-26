@@ -364,7 +364,7 @@ Responsible for Planning, and MDF allocation of EMEA and APAC Managed Partners. 
 
 # Operational set up of Partner Marketing Campaigns
 
-The Channel and Alliance share the same operations/process in Marketo. They both require [CRM Partner ID](/handbook/marketing/channel-marketing/partner-campaigns/#crm-partner-id) in their [list import](/handbook/marketing/channel-marketing/partner-campaigns/#list-import-for-partner-leads) and [UTM parameter](/handbook/marketing/channel-marketing/partner-campaigns/#utm-parameter-url) (form fills).
+The Channel and Alliance share the same operations/process in Marketo. They both require [CRM Partner ID](/handbook/marketing/channel-marketing/#crm-partner-id) in their [list import](/handbook/marketing/channel-marketing/#list-import-for-partner-leads) and [UTM parameter](/handbook/marketing/channel-marketing/#utm-parameter-url) (form fills).
 
 We have two smart campaigns the filter the CRM Partner IDs by Alliance and Channel Partner lead.
 
@@ -426,15 +426,15 @@ For a running list of Channel Partners and their CRM IDs, which is critical to t
 
 Partners have many different type of campaigns that fit into specific categories. Each campaign has it's own ROE for lead routing and email practices. See the campaign [flow chart](https://www.figma.com/file/vOe7ohMpZfYCGEG3siIpbU/Partner-%2B-GitLab-Campaign-Workflows_2023-08-28_19-18-38?type=whiteboard&t=QvcXdK9p5nlkFL2I-1) to understand how leads are distributed.
 
-- [MDF Campaigns](/handbook/marketing/channel-marketing/partner-campaigns/#mdf-campaigns)
-- [Joint Campaigns](/handbook/marketing/channel-marketing/partner-campaigns/#joint-gitlab-and-partner-campaigns)
+- [MDF Campaigns](/handbook/marketing/channel-marketing/#mdf-campaigns)
+- [Joint Campaigns](/handbook/marketing/channel-marketing/#joint-gitlab-and-partner-campaigns)
      - Events
      - Webinar
-     - [Partner Sponsored Events](/handbook/marketing/channel-marketing/partner-campaigns/#partner-sponsored-events)
-- [Trial Campaigns](/handbook/marketing/channel-marketing/partner-campaigns/#trials-from-partners)
+     - [Partner Sponsored Events](/handbook/marketing/channel-marketing/#partner-sponsored-events)
+- [Trial Campaigns](/handbook/marketing/channel-marketing/#trials-from-partners)
      - SaaS Free Trial
      - Self-Managed Free Trial
-- [Partner Managed Campaigns](/handbook/marketing/channel-marketing/partner-campaigns/#partner-managed-campaigns)
+- [Partner Managed Campaigns](/handbook/marketing/channel-marketing/#partner-managed-campaigns)
      - Impartner Program
      - Partner Campaign
 
@@ -453,7 +453,7 @@ Before starting this steps, note you'll need to have already set up the [Allocad
 **Step 1: Setup Marketo Program**
 1. Clone Marketo Template and update program name: [YYYYMMDD__MDF_000_Partner_Name_Region_Event_Name](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/PG11842A1).
 1. Select the Program Name on the Summary page, this will unlock a description, where you will update description with the links to the SFDC MDF request, Coupa ID and Allocadia ID (if you have it), then `Save`.
-1. Update the Marketo tokens: `{{my.Partner Name}}` with Partner Name and `{{my.CRM Partner ID}}` with [Account ID (18)](/handbook/marketing/channel-marketing/partner-campaigns/#crm-ids-for-channel-and-alliance-partners).
+1. Update the Marketo tokens: `{{my.Partner Name}}` with Partner Name and `{{my.CRM Partner ID}}` with [Account ID (18)](/handbook/marketing/channel-marketing/#crm-ids-for-channel-and-alliance-partners).
 
 **Step 2: Sync Marketo Program to SFDC**
 1. In the Marketo Program Summary page, in `Salesforce Campaign Sync`, click on `Not Set`.
@@ -469,7 +469,7 @@ Before starting this steps, note you'll need to have already set up the [Allocad
 
 The list import issue will be automatically be created via [Allocadia - GitLab issue integration](/handbook/marketing/strategy-performance/allocadia/#how-to-create-a-channel-marketing-epicissues-from-allocadia).
 
-Skip to step 2 of the list import [instructions](/handbook/marketing/channel-marketing/partner-campaigns/#list-import-for-partner-leads) for partner leads.
+Skip to step 2 of the list import [instructions](/handbook/marketing/channel-marketing/#list-import-for-partner-leads) for partner leads.
 
 ### Joint GitLab and Partner Campaigns
 
@@ -484,13 +484,13 @@ First, use the general set up, found in [campaigns and programs page](/handbook/
 All Marketo templates will have 2 tokens added to them that the campaign owner should update, {{My.Partner Name}} and {{My.CRM Partner ID}}.
 
 - Partner Name: Does not need to be official, it will be used on the form consent language and interesting moments, so needs to be customer facing. Example:  `By registering for this GitLab and {{My.Partner Name}} event....`
-- Partner ID: All partner IDs can be [found here](/handbook/marketing/channel-marketing/partner-campaigns/#crm-ids-for-channel-and-alliance-partners).
+- Partner ID: All partner IDs can be [found here](/handbook/marketing/channel-marketing/#crm-ids-for-channel-and-alliance-partners).
 
-**Online Campaign - Lead Capture via Form/Landing Page**
+#### Online Campaign - Lead Capture via Form/Landing Page
 
-These instructions must be completed prior to launch.
+The following instructions is for joint campaign run with one partner, and must be completed prior to launch.
 
-1. Update the Marketo tokens: `{{my.Partner Name}}` with Partner Name and `{{my.CRM Partner ID}}` with [Account ID (18)](/handbook/marketing/channel-marketing/partner-campaigns/#crm-ids-for-channel-and-alliance-partners).
+1. Update the Marketo tokens: `{{my.Partner Name}}` with Partner Name and `{{my.CRM Partner ID}}` with [Account ID (18)](/handbook/marketing/channel-marketing/#crm-ids-for-channel-and-alliance-partners).
 1. Update `Registration Landing Page` to use `FORM 3146: Partner + GitLab Joint Event with Token`
    - To update the page:
        - Right click `Registration Landing Page`, edit draft.
@@ -508,15 +508,17 @@ These instructions must be completed prior to launch.
 1. (no setup needed) Interesting moments will dynamically change if there is a partner involved to reflect that.
 1. (no setup needed) [Traction](/handbook/marketing/marketing-operations/traction-lead-complete/#joint-partner-campaign) picks up from there, and the lead is routed accordingly to either GitLab or the Partner in Vartopia.
 
-The process above will work for an event with **multiple partners** driving to it. Make sure they have their [UTM Paramter URL](/handbook/marketing/channel-marketing/partner-campaigns/#utm-parameter-url) correct when sending traffic to the registration page. You still need to fill out the token, but only one value will be accepted. Please decide ahead of time who the `default` partner is that will receive the leads they did not source.
+##### Running a Joint Campaign with Multiple Partners?
 
-**Offline Campaign - Lead Capture via List Upload**
+The process above will work for an event with **multiple partners** driving to it. Make sure they have their [UTM Parameter URL](/handbook/marketing/channel-marketing/#utm-parameter-url) correct when sending traffic to the registration page. You can use the `Form 2432: Partners` which doesn't require the use of tokens, and provides a generic partner consent messaging that can apply to all partners.
 
-If a form/landing page isn't available to capture registrations, see [List Import for Partner Leads](/handbook/marketing/channel-marketing/partner-campaigns/#list-import-for-partner-leads).
+#### Offline Campaign - Lead Capture via List Upload
+
+If a form/landing page isn't available to capture registrations, see [List Import for Partner Leads](/handbook/marketing/channel-marketing/#list-import-for-partner-leads).
 
 The process above will work for an event with multiple partners driving to it. Make sure they have the partner ID properly appended to each person on the list. You still need to fill out the token, but only one value will be accepted. Please decide ahead of time who the `default` partner is that will receive the leads they did not source.
 
-#### Partner Sponsored Events
+### Partner Sponsored Events
 
 GitLab allows Channel Partners to sponsor our owned events. The leads acquired by the Channel Partner will be shared regardless of their `Lead Status` and `BDR Prospecting Status` and will not be applicable to the recall process despite `Lead Source` = `Owned Event` and not `Partner Qualified Lead`.
 
@@ -544,7 +546,7 @@ GitLab allows Channel Partners to sponsor our owned events. The leads acquired b
 
 #### Self-Managed Free Trial
 
-Partners can host our self-managed trial form. They will have a specific UTM parameter that is captured upon form submit that allows us to pass that lead directly to the partner. Each page must have the UTM `utm_partnerid` in the URL populated, otherwise we cannot pass to the partner. See the [UTM Paramter URL](/handbook/marketing/channel-marketing/partner-campaigns/#utm-parameter-url) section for more on how to set up the URL for partners.
+Partners can host our self-managed trial form. They will have a specific UTM parameter that is captured upon form submit that allows us to pass that lead directly to the partner. Each page must have the UTM `utm_partnerid` in the URL populated, otherwise we cannot pass to the partner. See the [UTM Paramter URL](/handbook/marketing/channel-marketing/#utm-parameter-url) section for more on how to set up the URL for partners.
 
 🖇️ Quick Links:
 - [Lead Routing](/handbook/marketing/marketing-operations/traction-lead-complete/#free-trial-campaign)
@@ -557,7 +559,7 @@ Every partner trial campaign can utilize setup from `Partner - Trial - Self-mana
 
 GitLab allows only one self-managed trial license key per user. In the case, when a lead returns and attempts to fill out the self-managed trial form from Partners, they will be prompt with a rejection email.
 
-As partner leads are [suspended](/handbook/marketing/channel-marketing/partner-campaigns/#email-management) from receiving marketing communications, the `Marketing Suspended` status is temporarily switch to `False` to send the email to the recipient.
+As partner leads are [suspended](/handbook/marketing/channel-marketing/#email-management) from receiving marketing communications, the `Marketing Suspended` status is temporarily switch to `False` to send the email to the recipient.
 
 #### SaaS Free Trial
 
@@ -590,7 +592,7 @@ Note that this type of campaign are not generated by MDF.
 **Step 1: Setup in Marketo**
 
 1. Clone the Marketo program template: [YYYYMMDD__Partner_Name_Event_Name_Region](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/PG16629A1)
-2. Update the Marketo tokens: `{{my.Partner Name}}` with Partner Name and `{{my.CRM Partner ID}}` with [Account ID (18)](/handbook/marketing/channel-marketing/partner-campaigns/#crm-ids-for-channel-and-alliance-partners).
+2. Update the Marketo tokens: `{{my.Partner Name}}` with Partner Name and `{{my.CRM Partner ID}}` with [Account ID (18)](/handbook/marketing/channel-marketing/#crm-ids-for-channel-and-alliance-partners).
 
 **Step 2: Sync to Salesforce Campaign**
 1. In the Marketo Program Summary page, in `Salesforce Campaign Sync`, click on `Not Set`.
@@ -610,7 +612,7 @@ Note that this type of campaign are not generated by MDF.
 
 **Step 4: List Import**
 
-Follow the steps in [List Import for Partner Leads](/handbook/marketing/channel-marketing/partner-campaigns/#list-import-for-partner-leads).
+Follow the steps in [List Import for Partner Leads](/handbook/marketing/channel-marketing/#list-import-for-partner-leads).
 
 # Alliance Marketing Campaigns
 
@@ -642,7 +644,7 @@ GitLab can drive webcasts with Alliance Partners using [On24](/handbook/marketin
 
 **Step 1: Setup in Marketo**
 
- 1. Update the Marketo tokens: `{{my.Partner Name}}` with Partner Name and `{{my.CRM Partner ID}}` with [Account ID (18)](/handbook/marketing/channel-marketing/partner-campaigns/#crm-ids-for-channel-and-alliance-partners).
+ 1. Update the Marketo tokens: `{{my.Partner Name}}` with Partner Name and `{{my.CRM Partner ID}}` with [Account ID (18)](/handbook/marketing/channel-marketing/#crm-ids-for-channel-and-alliance-partners).
  3. The registration landing page must have the following:
     - `FORM 3299: Alliances` with a hidden field that captures  `utm_partnerid`.
     - The **URL must include the utm parameter with the CRM Partner ID** to the landing page to lead to be associated with the Alliance partner.
@@ -674,7 +676,7 @@ If a form isn't available to capture registration, follow these additional steps
 
 **Step 1: Update Tokens in Marketo**
 
-- Update the Marketo tokens: `{{my.Partner Name}}` with Partner Name and `{{my.CRM Partner ID}}` with [Account ID (18)](/handbook/marketing/channel-marketing/partner-campaigns/#crm-ids-for-channel-and-alliance-partners).
+- Update the Marketo tokens: `{{my.Partner Name}}` with Partner Name and `{{my.CRM Partner ID}}` with [Account ID (18)](/handbook/marketing/channel-marketing/#crm-ids-for-channel-and-alliance-partners).
 
 **Step 2: Update SFDC Campaign**
 
