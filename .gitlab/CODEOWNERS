@@ -623,7 +623,7 @@
 /go.mod @gitlab-com/content-sites @gitlab-com/content-sites/handbook-backend
 /go.sum @gitlab-com/content-sites @gitlab-com/content-sites/handbook-backend
 /layouts/ @gitlab-com/content-sites @gitlab-com/content-sites/handbook-backend @gitlab-com/egroup
-/LICENCE @gitlab-com/content-sites @gitlab-com/content-sites/handbook-backend @gitlab-com/egroup
+/LICENSE @gitlab-com/content-sites @gitlab-com/content-sites/handbook-backend @gitlab-com/egroup
 /package-lock.json @gitlab-com/content-sites @gitlab-com/content-sites/handbook-backend
 /package.json @gitlab-com/content-sites @gitlab-com/content-sites/handbook-backend
 /README.md @gitlab-com/content-sites @gitlab-com/content-sites/handbook-backend @gitlab-com/egroup

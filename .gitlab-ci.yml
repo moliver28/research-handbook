@@ -135,6 +135,7 @@ pages:
     - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
     - if: '$CI_PIPELINE_SOURCE == "schedule" && $SCHEDULED_DEPLOY == "true"'
 
+# TODO @dnsmichi: What does this job do?
 deploy s3:
     stage: deploy
     needs:
@@ -213,7 +214,7 @@ hugolint:
     - if: $CI_PIPELINE_SOURCE == 'merge_request_event'
       allow_failure: true
   image:
-    name: registry.gitlab.com/fforster/hugolint:main
+    name: registry.gitlab.com/gitlab-com/content-sites/handbook-tools/hugolint:latest
   script:
     - hugolint linkcheck --format=json $(find content -type f -name '*.md' | grep -v ' ') >linkcheck.json
     - hugolint missinglinks --num 30 $(find content -name '*.md' | grep -v ' ') >missinglinks.txt 2>/dev/null
