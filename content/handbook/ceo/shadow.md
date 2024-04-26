@@ -377,7 +377,7 @@ When attending **external meetings**, notify the CEO in a private Zoom chat mess
 
 In internal meetings, `I think` can be used to signal opportunity for others to present a contrasting opinion.
 
-Also send a private Zoom chat message when the [CEO displays other flawed behavior]({{< ref "ceo#flaws ">}}").
+Also send a private Zoom chat message when the [CEO displays other flawed behavior]({{< ref "ceo#flaws">}}").
 
 #### Share thanks
 
