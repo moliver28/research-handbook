@@ -74,10 +74,10 @@ During Module 1, you will:
 During Module 2, you will:
 
 1. Explore why it is so important to develop your team members
-1. Reflect on how position power shows up in your relationships and leadership 
-1. Align on why coaching is so important, what a foundational coaching model looks like, and key coaching frameworks to utilize 
+1. Reflect on how position power shows up in your relationships and leadership
+1. Align on why coaching is so important, what a foundational coaching model looks like, and key coaching frameworks to utilize
 1. Learn best practices for creating a Culture of Feedback
-1. Revisit the resources at GitLab for support with managing underperformance 
+1. Revisit the resources at GitLab for support with managing underperformance
 
 **Key Links**
 
