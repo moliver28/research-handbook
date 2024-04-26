@@ -91,3 +91,9 @@ If you're assigned this issue to review its refinement, please follow the guidel
 ##### Issue Assignmet
 
 We plan to use [`triage-ops`](https://gitlab.com/gitlab-org/quality/triage-ops) bot to assign issues to engineers for refinement. More information will follow here on the exact process as we configure the bot to do so.
+
+### Observability
+
+#### Runbooks
+
+The process for monitoring, responding to, and mitigating incidents is documented within our [Secret Detection Runbooks](runbooks/) page.
