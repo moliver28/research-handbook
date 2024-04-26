@@ -32,7 +32,14 @@ The pipeline is scheduled to run every hour and scan for any recent voluntary of
 
 ### Scheduled offboarding issue creation
 
-Every 5 minutes, a pipeline scans Workday for any terminations with the last day of work as today (PST). For each row matching this criterion, it will perform the same actions as if a People Connect Team member ran manually initiated the offboarding. (see [Manually initiated offboarding issue creation](#manually-initiated-offboarding-issue-creation) and [Offboarding merge request](#offboarding-merge-request) sections).
+Every 5 minutes, a pipeline scans Workday for any terminations with the last day of work as today (PST).
+
+- Involuntary offboardings will be opened as soon as they are available.
+- Voluntary offboardings will be opened in the respective team members offboarding window for the day. This checks their Slack timezone to find a *local* time to start the offboarding
+  - Monday - Thursday @ 12pm
+  - Friday @ 4pm
+
+For each row matching this criterion, it will perform the same actions as if a People Connect Team member ran manually initiated the offboarding. (see [Manually initiated offboarding issue creation](#manually-initiated-offboarding-issue-creation) and [Offboarding merge request](#offboarding-merge-request) sections).
 
 The manual process is kept as a backup process should the automation fail or for exceptional cases where a team member offboarding cannot be added to the offboarding spreadsheet.
 
