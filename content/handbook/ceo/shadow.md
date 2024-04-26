@@ -141,7 +141,7 @@ For those with regular commitments, look for shorter weeks or timezone variation
 | 2024-06-03 | 2024-06-07 | [Christopher Wang](https://gitlab.com/cs.wang) - Sr. Manager - Enablement and Strategy (Sales Development) | [Rigerta Demiri](https://gitlab.com/Rigerta) - Senior Data Engineer, Data | REMOTE - PT |
 | 2024-06-10 | 2024-06-14 |  [Camilo Villanueva Santiago](https://gitlab.com/cvillanueva1) - Sr. Enterprise Renewals Manager | [Christopher Wang](https://gitlab.com/cs.wang) - Sr. Manager - Enablement and Strategy (Sales Development) | REMOTE - PT |
 | 2024-06-17 | 2024-06-21 | [Stacy Cline](https://gitlab.com/slcline) - Sr Director, ESG | [Camilo Villanueva Santiago](https://gitlab.com/cvillanueva1) - Sr. Enterprise Renewals Manager | REMOTE - PT |
-| 2024-06-24 | 2024-06-27 | [Sherrod Patching](https://gitlab.com/spatching) - VP, Customer Success | [Emilio Salvador](@esalvadorp) | In Person - East Coast |
+| 2024-06-24 | 2024-06-27 | [Sherrod Patching](https://gitlab.com/spatching) - VP, Customer Success | [Emilio Salvador](@esalvadorp) - VP Developer Relations & Community | In Person - East Coast |
 | 2024-07-01 | 2024-07-05 | NO SHADOW | NO SHADOW | CEO OOO |
 | 2024-07-08 | 2024-07-12 | [Sam Wiskow - Senior Product Manager, Delivery & Scalability](https://gitlab.com/swiskow) | [David Tuan](https://gitlab.com/dtuan) - Director, Strategy and Operations | TBD - Possible limited week/travel in EMEA |
 | 2024-07-15 | 2024-07-19 |  [Kristine Setschin](https://gitlab.com/KSetschin) - Sr. Manager Regional Marketing, EMEA | [Sam Wiskow - Senior Product Manager, Delivery & Scalability](https://gitlab.com/swiskow) | REMOTE - PT |
