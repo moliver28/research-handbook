@@ -1,6 +1,6 @@
 ---
 title: "GitLab CI/CD - Hands-On Lab: Understanding the Basics of Pipelines"
-description: "This Hands-On Guide walks you through the lab exercises in the GitLab CI/CD course."
+description: "This Hands-On Guide walks you a live example of a GitLab CI/CD Pipeline"
 ---
 
 > Estimate time to complete: 15 - 20 minutes

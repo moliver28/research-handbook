@@ -1,6 +1,6 @@
 ---
 title: "GitLab Project Management - Hands-On Lab: Use A Merge Request To Review And Merge Code"
-description: "This Hands-On Guide walks you through the lab exercises used in the GitLab Project Management course."
+description: "This Hands-On Guide walks you through creating a merge request and approval rules in GitLab."
 ---
 
 > Estimated time to complete: 45-60 minutes
