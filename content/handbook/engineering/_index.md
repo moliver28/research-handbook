@@ -31,12 +31,18 @@ allows everyone to contribute.
 
 ## Engineering Initiatives
 
-Engineering is the primary advocate for the performance, availability, and security of the GitLab project. Product Management prioritizes 80% of engineering time, so everyone in the engineering function should participate in the Product Management [prioritization process](/handbook/product/product-processes/#how-we-prioritize-work) to ensure that our project stays ahead in these areas.   Engineering prioritizes 20% of time on initiatives that improve the underlying platform and foundational technologies we use.
+Engineering is the primary advocate for the performance, availability, and security of the GitLab project. Product Management prioritizes 60% of engineering time, so everyone in the engineering function should participate in the Product Management [prioritization process](/handbook/product/product-processes/#how-we-prioritize-work) to ensure that our project stays ahead in these areas. Engineering prioritizes 40% of time on initiatives that improve the product, underlying platform and foundational technologies we use.
 
+Work in the 40% time budget should be coordinated and prioritized by the engineering manager of a team. Use the label "Engineering Time" for issues and MRs that are done as part of it so we can follow the work and the results across the engineering division.
+
+- Contributing to broad engineering initiatives and participating in working group-related tasks.
 - Review fixes from our support team. These merge requests are tagged with the `Support Team Contributions` label.  You can [filter on open MRs](https://gitlab.com/gitlab-org/gitlab/-/merge_requests?label_name%5B%5D=Support%20Team%20Contributions).
 - Working on high priority issues as a result of [issue triaging](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/). This is our commitment to the community and we need to include some capacity to review MRs or work on defects raised by the community.
-- Improvements to the performance, stability and scalability of a feature.  Again, the Product team should be involved in the definition of these issues but Engineering may lead here by clearly defining the recommended improvements.
+- Improvements to the performance, stability and scalability of a feature or dependency including underlying infrastructure. Again, the Product team should be involved in the definition of these issues but Engineering may lead here by planning, prioritizing, and coordinating the recommended improvements.
 - Improvements and upgrades to our toolchain in order to boost efficiency.
+- Codebase improvements: Removing technical debt, updating or replacing outdated dependencies, and enhancing logging and monitoring capabilities.
+- Constructing proof-of-concept models for thorough exploration of new technologies, enhancements, and potential new feature development.
+- Work on improvements and feature enhancements to the product, in the sense of internal community contributions, that would increase our internal engineering productivity by focusing on ready-to-go items that are currently assigned a low priority in the backlog.
 
 ### Community Contributions
 
