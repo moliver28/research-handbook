@@ -87,74 +87,55 @@ To help you determine which Aspirations you want to focus on for this JP’s Job
 
 ## Pre-Workshop 2: Investigation Interviews & Interview Synthesis
 
-The goal of this phase is to understand the Main Job by conducting qualitative interviews with representative Job Performers. This will help us understand and fill in the bottom half of the JTBD Canvas: the job steps (Job Map), the Emotional and social Aspects, the Outcomes, and the Job Differentiators.
+The goal of this phase is to understand the Main Job by conducting qualitative interviews with representative Job Performers. This will help us understand and fill in the bottom half of the JTBD Canvas: Job Map, the Emotional and Social aspects, the Outcomes, and the Job Differentiators.
 
 ### Step 1: Conduct Interviews
 
-Recruit 5-10 external participants representing the selected Job Performer of the Main Job you're investigating. It’s recommended to have a moderator and a notetaker, who is in charge of filling out the Job Steps on your JTBD Interview Participant Canvases while the participant and moderator are talking. This will be shown to your participant toward the end of the interview to ensure that we've interpreted what we heard accurately. 
+Recruit 5-10 external participants representing the selected Job Performer of the Main Job you're investigating. If you see a lot of variance in jobs, talk to more participants until patterns start to become evident. 
 
-We recommend booking 60 minute interviews. If you see a lot of variance in jobs, talk to more participants until patterns start to become evident.
+We recommend booking 60 minute interviews and having both a moderator and a notetaker. The notetaker is responsible for filling out the Job Steps on the JTBD Interview Participant Canvases during the interview. The canvas will be shown to your participant toward the end of the interview to ensure that we've interpreted what we heard accurately.
 
-There is an [interview guide](https://www.figma.com/file/Z4lsAOLH1ANN3pstQFYgSk/Jobs-to-be-done----Playbook-Template?type=whiteboard&node-id=78-2318&t=oMR9VPNke7aIfCoU-4) included in the FigJam template. The intention of this guide is not to act as a script to be followed but instead to provide prompts of focus for the interviewer. The goal of the interviews are to enable the Job Performers to tell you how they complete the Main Job, where do they begin, what do they do before that, what do they do next, etc. and why they do the Main Job. To avoid participants referencing technology, you can ask them to think about these steps in terms of what they might have done 30 years ago to get this job done
+The goal of the interview is to answer the following questions:
 
 - What are the [job steps](/handbook/product/ux/jobs-to-be-done/#job-steps-how-does-the-job-performer-get-the-job-done)? 
-- What are their [Desired outcomes](/handbook/product/ux/jobs-to-be-done/#outcomes-how-does-the-job-performer-measure-the-success-of-getting-the-job-done)?
-- What are [Related jobs](/handbook/product/ux/jobs-to-be-done/#related-jobs-what-else-is-the-job-performer-trying-to-get-done)? 
-- What are the [Job Differentiators](/handbook/product/ux/jobs-to-be-done/#circumstances-what-are-the-factors-or-condictions-that-make-a-difference-in-how-the-job-gets-done)?
+- What are their [desired outcomes](/handbook/product/ux/jobs-to-be-done/#outcomes-how-does-the-job-performer-measure-the-success-of-getting-the-job-done)?
+- What are the [related jobs](/handbook/product/ux/jobs-to-be-done/#related-jobs-what-else-is-the-job-performer-trying-to-get-done)? 
+- What are the [job differentiators](/handbook/product/ux/jobs-to-be-done/#circumstances-what-are-the-factors-or-condictions-that-make-a-difference-in-how-the-job-gets-done)?
+
+Helpful prompts can be found in the Figjam template [interview guide](https://www.figma.com/file/Z4lsAOLH1ANN3pstQFYgSk/Jobs-to-be-done----Playbook-Template?type=whiteboard&node-id=78-2318&t=oMR9VPNke7aIfCoU-4).
 
 ### Step 2: Synthesize and Complete the JTBD Canvas
 
-Now that you have completed your interviews, it's time to go through your notes and sythesize it all together to complete your JTBD Canvas. Think of it somewhat like the Venn diagram of your participants. This means that the elements you hear most often or have high confidence in should be included. Meanwhile, outliers, tangents, or uncommon circumstances should be excluded. 
+After interviews are complete, sythesize all the information together to complete your JTBD Canvas. Include elements you hear most often and discard outliers, tangents, or uncommen circumstances. 
 
-It's recommended to continue your collaboartion with your Section's UX Researcher to help speed this process up, as some experience in qualitative [data synthesis](https://handbook.gitlab.com/handbook/product/ux/ux-research/analyzing-research-data/) is helpful.
+When possible, collaborate with your Section's UX Researcher as experience in qualitative [data synthesis](https://handbook.gitlab.com/handbook/product/ux/ux-research/analyzing-research-data/) is helpful.
 
 #### Exercise 1. Complete the Job Map
 
-The process you follow when building your Job Map will depend on how you were able to conduct your interviews. Please select the option below that aligns with the process you were able to follow:
+If possible, it is recommended to have both a moderator and a notetaker during each interview. This will allow you to create a Job Map for each session and get feedback from the participant.
 
-**Job Mapping during interviews**
+1. Start with a blank slate in Figjam and capture every step the participant mentions using a sticky. Try to maintain chronological order and don't worry about other aspects of your JTBD, such as job stages or small jobs. 
+    * **Note:** If you are unable to include a notetaker during your interview sessions, perform this step afterwards by reviewing your notes and videos.
+1. Once all job steps have been discussed, walk through the Job Map with the interviewee for feedback and verification. Make adjustments as needed.
+    * **Note:** If you are not creating the Job Map during the interview with the help of a notetaker, skip this step.
+1. After the interview, rewrite each Job Step to ensure it is functional and follows [guidance for how to write a job step](/handbook/product/ux/jobs-to-be-done/#job-steps-how-does-the-job-performer-get-the-job-done).
 
-It is highly recommended that interviews be conducted in pairs. This allows you to construct and validate the job map while the participant explains their process for getting the job done. This will make synthesis much easier than if you were to build out the job maps while analyzing the interview data. Another benefit to interviewing in pairs is that you can review the map you build with the participant, catching any errors in ordering or steps in the process they may have left out. To achieve a single, synthesized Job Map, we recommend you follow these steps:
+After all interviews:
 
-1. In your FigJam, create a dedicated space away from your assumptive canvas with enough room to capture multiple job maps and away from any job maps from interview prior. 
-2. Starting with a blank slate, capture every step the participant mentions on a sticky. 
-    1. Try to maintain a chronological order. 
-    2. At this point, don't worry about the job stages, small jobs, or even the beginning, middle, or end buckets of the job map. All we care about are the individual steps.
-3. Once the interviewer has completed the job steps phase, share your screen with the participant and walk them through the map you created. This gives them an opportunity to hear and see what they said, adding a level of verification to the process. 
-4. Make adjustments based on the participant's feedback if necessary. 
-5. After each interview: 
-    1. Rewrite each Job Step the participant mentioned, ensuring it is functional, beginning with an action verb, in the first person, doesn't include ANDs or ORs, and is technology/solution agnostic.
-6. After all the interviews are complete: 
-    1. Bring all your job maps near one another to help look for commonalities. 
-    2. Start creating a unified Job map in an open area by adding the category labels **Beginning**, **Middle**, and **End**. These labels will be used to orient the workflow and organize the Job Steps in the order of job completion. 
-    3. Move your sticky notes into the category that aligns most closely with the timing the user would perform this step to get the job done. Ask yourself, does this Job Step happen before this one, does this one happen after, etc? Look for any duplications and combine them as needed.
-    4. Organize your sticky notes into related vertical stacks for each category. Think of these stacks as related steps the Job Performer would get done, moving vertically down the stack (top to bottom), before they can move on to the next stacked step.
-    5. There will be some give-and-take, such as deciding when a vertical stack is completed and when a new one should be created for the following stage.
-7. Finally, add representative Stage names or modes of operation above each Stack, under the Beginning, Middle, and End categories. You can do this as you develop your stacked steps as well as it's likely you'll start to see appropriate Stage names as you progress through the above process. 
-    1. These Stages should represent high-level single-word verbs that describe the step or stage the Job Performer is in during that Job Step.
-
-**Job Mapping after all interviews were completed**
-
-If you do not have job maps pre-constructed by your participants during the interviews, you will need to synthesize all of your data across each interview, building up your Job Map as you go. Bringing it all together into a singular Job Map for your final JTBD Canvas. To achieve a single, synthesized Job Map, we recommend you follow these steps:
-
-1. In your FigJam, begin reviewing your interview notes and videos. Create new sticky notes for every reference you hear about a step the user takes to get the job done. 
-2. When you've gone through every participant, organize your sticky notes to ensure there aren’t any repeated ideas, merging duplicates as you go.
-3. Rewrite each Job Step, ensuring it is functional, beginning with an action verb, in the first person, doesn't include ANDs or ORs, and is technology/solution agnostic.
-4. Now, in an open area of your FigJam, near the Job Step sticky notes you just created, add categories horizontally in an open area labeled **Beginning**, **Middle**, and **End**, which will be used to orient the workflow and organize the Job Steps in the order of job completion. 
-5. Move your sticky notes into the category that aligns most closely with the timing the user would perform this step to get the job done. Ask yourself, does this Job Step happen before this one, does this one happen after, etc?
-    1. Continue to look for any duplications you may have missed and combine them as needed.
-6. Organize your sticky notes into related vertical stacks for each category. Think of these stacks as related steps the Job Performer would get done, moving vertically down the stack (top to bottom), before they can move on to the next stacked step.
-    1. There will be some give-and-take, such as deciding when a vertical stack is completed and when a new one should be created for the following stage.
-7. Finally, add representative Stage names or modes of operation above each Stack, under the Beginning, Middle, and End categories. You can do this as you develop your stacked steps as well as it's likely you'll start to see appropriate Stage names as you progress through the above process. 
-    1. These Stages should represent high-level single-word verbs that describe the step or stage the Job Performer is in during that Job Step.
+1. Look for commonalities among all Job Maps
+1. Create a unified Job Map. Utilize the category labels **Beginning**, **Middle**, and **End**.
+1. Move sticky notes into the category that aligns most closely with the timing the performer would complete each step. Remove duplicates along the way.
+1. Organize sticky notes from each category into vertical stacks. These are related steps the Job Performer would get done, moving vertically down the stack (top to bottom), before moving on to the next stacked step.
+1. Above each vertical stack, add a sticky with stage names or modes of operation. These represent high-level, single-word verbs that describe the collection of steps below it.
 
 #### Exercise 2: Synthesize Outcomes
 
-Continuing with your interview syntheses, move on to gathering together outcome statements from those interviews and then rewriting them into properly formatted Outcome Statements. Parse your notes looking for references to how the Job Performer would measure the success of completing the Main Job. Add a sticky for every potential outcome. Organize them to ensure there aren’t any repeated ideas, merging duplicates as you go. 
+Continuing with your interview syntheses, move on to gathering outcome statements. 
 
-Finally, rewrite each potential outcome converting them into a properly formatted Outcome Statement. An outcome statement represents how your Job Performer might judge the success of a particular job step, (i.e., what the Job Performer needs to accomplish). Check the [handbook section](/handbook/product/ux/jobs-to-be-done/#outcomes-how-does-the-job-performer-measure-the-success-of-getting-the-job-done) for more on how to construct an Outcome Statement.
+1. Parse your notes looking for references to how the Job Performer would measure the success of completing the Main Job. Add a sticky for every potential outcome. Remove duplicates along the way.
+1. Rewrite each Outcome Statement to ensure it follows [guidance for properly formatted outcome statements](handbook/product/ux/jobs-to-be-done/#outcomes-how-does-the-job-performer-measure-the-success-of-getting-the-job-done). 
 
-Note: Your Main Job can have between 50 - 100 Outcome Statements which will be validated through an Outcome Opportunity Score survey which can be done in parrallel with the rest of your JTBD Canvas work.
+**Note:** Your Main Job can have between 50 - 100 Outcome Statements which will be validated through an [Outcome Opportunity Score survey](#outcome-opportunity-scores-survey). This survey can be done in parallel with the rest of your JTBD Canvas work.
 
 #### Exercies 3: Synthesize Emotional and Social Aspects
 
