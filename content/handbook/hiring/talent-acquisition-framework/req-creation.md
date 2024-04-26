@@ -34,16 +34,15 @@ Backfills require a needed approval process prior to moving to the next step of 
 
 In order to open a backfill:
 
-1. Manager of departing team member enters attrition in Workday via the [off-boarding process]({{< ref "/handbook/people-group/offboarding" >}}).
+1. Manager of departing team member enters attrition in Workday via the [off-boarding process](/handbook/people-group/offboarding).
 1. Talent Acquisition Leadership (Dir+) is notified via automated reporting once attrition is entered into the system.
 1. Leadership allocates the role to appropriate recruiter.
-1. Recruiter creates a backfill issue that informs: FP&A, PBP, VP, (+Sales Strategy for Sales roles) via the appropriate backfill template in [department] headcount project.
+1. Recruiter creates a backfill issue that informs: FP&A, PBP, VP via the appropriate backfill template in [department] headcount project. For Sales, add Sales Strategy. For R&D, add the corresponding E-Group member.
 1. Recruiter works through backfill issue with the business and PBP to drive towards backfill approval: role is to be direct backfill, repurposed within a team or organization. Recruiters to ensure documentation in issue for each decision made.
 *For Sales roles only*: Once the backfill issue is created, TA leadership posts in Sales Leadership channel for approval from the VP of the department. Once approval is received, TA leader is to document approval in the backfill issue for future reference. For templates, GitLab team members can utilize [this link](https://docs.google.com/document/d/19LjNhyNhcqmBMHoaGbjPvUfjWQk0wR9w8iowPlgdfkU/edit)
 *For roles being repurposed*: the business leader owns communication to the team to discuss rationale and drive clarity. PBP/Strategy team partners on reallocation decisions.
 1. Once the role is approved/decision has been reached and all has been documented in the issue, the recruiter can create a position in Greenhouse for approval and move to the next step of the process.
 
-For the Product and Engineering backfill or transfer process, see this [handbook page](https://about.gitlab.com/handbook/engineering/hiring/).
 
 ### Create or Review the Job Family (DRI: Hiring Manager)
 
@@ -73,7 +72,7 @@ There are a few options for what to open in Greenhouse.
 - **When should an Evergreen req be used?**
    TA Leadership will open EVG roles at the start of a fiscal year, with a quarterly review cadence, by leveraging the hiring plan and attrition assumptions. Typically, EVG postings will be utilized when there are multiple openings for a set of roles (3 or more) that have very similar technical qualifications and are expected to be hired on a regular basis (for example, Business Development Rep, AMER). These roles usually span multiple teams and hiring managers., but are all interviewed with the same process by the same interviewer 'pool'. `Regular basis` refers to consistent volume over a period of 3+ quarters.
 - **How do I open an evergreen req?**
-   All evergreen reqs need to be approved by TALT (Jake Foster, Ursula Knezevic or Jess Dallmar) prior to opening.
+   All evergreen reqs need to be approved by TALT (Jake Foster or Jess Dallmar) prior to opening.
 
 If you are looking to open a job for pipeline reasons, because a Hiring Manager has requested that you work on a role that will be open in the future but has not been approved, instead of an EVG role use our Greenhouse CRM.
 
@@ -92,9 +91,7 @@ Once you've selected a template to copy, the first screen will ask for **Basic J
 1. Click `Generate IDs` to create a requisition ID. You’ll need this again when you set up your opening(s).
 1. Under `Employment Type`, select your opening type - which unless there is an explicit exception, should be Full-Time. *Contract* refers to a true consultant, who works on short-term projects, and not someone in a country like the Netherlands who requires a one-year contract before indefinite. Talent Acquisition only supports Full Time Employee hiring at this time.
 1. Most positions will not be marked confidential. If you have prior approval from Jess Dallmar, Rich Kahn, and Enablement, you can select `Yes` under `Confidential?`. Selecting `Yes` will ensure that the Enablement team specifically excludes any jobs with this selected from reports. It does *not* change access or permissions, so you will still need to evaluate those to remove anyone who should not see your job.
-1. `Salary` will be input by the Total Rewards Team.
-   - Total Rewards will use `benchmark x level x 0.45` for the low end and `benchmark x level x 0.8` on the high end.
-1. `CO/WA Salary Range` `CA/NY/NJ Salary` and will be input by the Total Rewards Team if the role accepts US applicants, unless the role is state-specific outside of the states listed. Recruiters can use `1-1` as the range as a placeholder when submitting the req for approval. The Recruiter will use the approved ranges from Total Rewards in their job post.
+1. `CA/CO/HI/NY/NJ/WA Salary` and will be input by the Total Rewards Team if the role accepts US applicants, unless the role is state-specific outside of the states listed. Recruiters can use `1-1` as the range as a placeholder when submitting the req for approval. The Recruiter will use the approved ranges from Total Rewards in their job post.
 1. Fill in the `Openings Section`. Your opening ID is your req ID with -1, -2, etc following it. It is not the GHPID.
 1. Enter the `Target Start Date` as listed on the GitLab Hiring Plan
 1. Under `Type` choose if this is a *New Hire*, *Evergreen*, or a *Backfill*. If you select *Backfill*, please enter the name of the teammate you are backfilling on the line below. If you choose *Evergreen*, ensure this is first approved by Jess Dallmar.
@@ -277,19 +274,26 @@ There are set location options in Greenhouse to make this possible. Recruiters c
 
 | Location selection in Greenhouse | Countries where the associated job will post on LinkedIn |
 | -------------------------------- | -------------------------------------------------------- |
-| Remote | United States, Canada, United Kingdom, Netherlands, Ireland, Australia |
-| Remote, Global | United States, Canada, United Kingdom, Netherlands, India, Australia, Ireland |
+| Remote | United States, Canada, United Kingdom, Netherlands, Ireland, Australia, India |
+| Remote, Global | United States, Canada, United Kingdom, Netherlands, Australia, Ireland, India |
 | Remote, Americas | United States, Canada, Mexico, Chile, Costa Rica |
-| Remote, EMEA | United Kingdom, Netherlands, Germany, France, Ireland, South Africa, Belgium |
-| Remote, Europe | United Kingdom, Netherlands, Germany, France, Ireland |
-| Remote, APAC | Australia, New Zealand, South Korea, Singapore, Japan, India, Phillipines |
+| Remote, EMEA | United Kingdom, Netherlands, Germany, Ireland, South Africa, Belgium |
+| Remote, Europe | United Kingdom, Netherlands, Germany, Ireland |
+| Remote, APAC | Australia, New Zealand, South Korea, Singapore, Japan, Phillipines |
 | Remote, Asia | Singapore, Phillipines, South Korea, Japan |
 | Remote, US | United States |
+| Remote, US-Southeast | Georgia, North Carolina, South Carolina, Florida, Virginia |
+| Remote, Canada | Canada |
+| Remote, Chile | Chile |
+| Remote, Costa Rica | Costa Rica |
 | Remote, North America | United States, Canada |
 | Remote, France | France |
+| Remote, India | India |
 | Remote, Japan | Japan |
 | Remote, Germany | Germany |
 | Remote, Netherlands | Netherlands |
+| Remote, New Zealand | New Zealand |
+| Remote, Philippines | Philippines |
 | Remote, Sweden | Sweden |
 | Remote, United Kingdom | United Kingdom |
 | Remote, Australia | Australia |

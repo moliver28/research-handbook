@@ -17,7 +17,7 @@ twitter_creator: "@gitlab"
 
 ![GitLab collaboration illustration](/images/all-remote/gitlab-collaboration.jpg){: .medium.center}
 
-The [GitLab.tv All-Remote Channel](https://www.youtube.com/playlist?list=PLFGfElNsQthY6t1i0UXYr0wFW3DuvWww6) provides guidance and information to business owners, executives and managers on the ways in which they can transition to a remote workforce. Our audience of founders, CROs, CXOs, HR leaders, and managers work in all industries, particularly in tech and enterprise to midsize companies. For additional context, visit the GitLab [All-Remote Marketing Handbook](/handbook/ceo/chief-of-staff-team/workplace/).
+The [GitLab.tv All-Remote Channel](https://www.youtube.com/playlist?list=PLFGfElNsQthY6t1i0UXYr0wFW3DuvWww6) provides guidance and information to business owners, executives and managers on the ways in which they can transition to a remote workforce. Our audience of founders, CROs, CXOs, HR leaders, and managers work in all industries, particularly in tech and enterprise to midsize companies. For additional context, visit the GitLab [All-Remote Marketing Handbook](/handbook/ceo/office-of-the-ceo/workplace/).
 
 Ultimately, the GitLab.tv All-Remote Channel will help enable viewers to create a remote strategy and establish basic remote management processes. They will also find engaging, actionable information that will help them identify the priorities necessary to successfully go remote and get back to a normal flow of business with a hybrid remote or fully remote team.
 
@@ -55,7 +55,7 @@ The [GitLab.tv All-Remote Channel](https://www.youtube.com/playlist?list=PLFGfEl
 
 ![GitLab values illustration](/images/all-remote/gitlab-values-tanukis.jpg){: .medium.center}
 
-To keep the All-Remote Channel focused on its intended [audience](/handbook/ceo/chief-of-staff-team/workplace/#our-audience), please adhere to the following content guidelines and content types. Specifically, we are looking for content that spotlights:
+To keep the All-Remote Channel focused on its intended [audience](/handbook/ceo/office-of-the-ceo/workplace/#our-audience), please adhere to the following content guidelines and content types. Specifically, we are looking for content that spotlights:
 
 1. Remote work, with a focus on management and processes.
 1. Remote culture stories from GitLab team members and external remote advocates.
@@ -90,7 +90,7 @@ Uploading criteria:
 
 ![GitLab journey illustration](/images/all-remote/gitlab-journey-and-navigation.jpg){: .medium.center}
 
-All-remote how-to videos will provide viewers with quick, actionable tips on remote work. When creating a how-to video, remember to keep the video focused on a single action and outcome. The [all-remote audience](/handbook/ceo/chief-of-staff-team/workplace/#our-audience) tends to prefer presentation-style videos, so keep this in mind as you prepare your content. If you find yourself explaining how to do multiple things, consider breaking up the video down into smaller videos, with each video covering one aspect. As a general rule of thumb, try to keep how-to videos to under 10 minutes.
+All-remote how-to videos will provide viewers with quick, actionable tips on remote work. When creating a how-to video, remember to keep the video focused on a single action and outcome. The [all-remote audience](/handbook/ceo/office-of-the-ceo/workplace/#our-audience) tends to prefer presentation-style videos, so keep this in mind as you prepare your content. If you find yourself explaining how to do multiple things, consider breaking up the video down into smaller videos, with each video covering one aspect. As a general rule of thumb, try to keep how-to videos to under 10 minutes.
 
 Uploading criteria:
 
@@ -117,7 +117,7 @@ Video contributions that meet the playbook criteria will be uploaded to the GitL
 
 ## Related links and material
 
-1. [GitLab All-Remote Marketing Handbook](/handbook/ceo/chief-of-staff-team/workplace/)
+1. [GitLab All-Remote Marketing Handbook](/handbook/ceo/office-of-the-ceo/workplace/)
 1. [GitLab Guide to All-Remote](/handbook/company/culture/all-remote/guide/)
 1. [GitLab Remote Playbook](http://learn.gitlab.com/all-remote/remote-playbook)
 

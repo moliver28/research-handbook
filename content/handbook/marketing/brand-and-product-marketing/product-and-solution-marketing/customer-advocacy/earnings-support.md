@@ -28,7 +28,7 @@ These are existing ENT/MM customers who increased their spend/number of licenses
    - Largest deal sizes - $100K ARR or above
    - Globally recognizable brands
    - **GOAL:** Source 3 customers who provide legal permission to mention their business by name and use their logo in earnings statement (if not already received)
-      - Named growth customers, in collaboration with SAE/CSM/CR, will create a customer story that contains 2 - 3 sentences on the business value  that Gitlab provides to them.
+      - Named growth customers, in collaboration with SAE/CSM/CR, will create a customer story that contains 2 - 3 sentences on the business value  that GitLab provides to them.
    - If customers do not agree to be mentioned by name, the SAE/CSM/CR will create an anonymized version of the customer story.
 
 ## Earnings Toolkit

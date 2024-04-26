@@ -36,12 +36,12 @@ description: "The GitLab Field team includes multiple functions: Enterprise Sale
 | **Field Operations Teams and Resources** | **Customer Success Resources** | **Helpful Sales Handbook Tips** | **Sales Resources Outside of the Sales Handbook** |
 |  ------ | ------ | ------ | ------ |
 | [Field Operations](/handbook/sales/field-operations/) | [Customer Success Groups](/handbook/customer-success/#customer-success-groups) | [FAQ from Prospects](/handbook/sales/faq-from-prospects/) |[Resellers Handbook](/handbook/resellers/) |
-| [Sales Operations](/handbook/sales/field-operations/sales-operations/) | [How to Engage a Solutions Architect](/handbook/customer-success/solutions-architects#when-and-how-to-engage-a-solutions-architect) | [Client Use Cases](/handbook/use-cases/) | [Customer Reference Sheet](https://docs.google.com/a/gitlab.com/spreadsheets/d/1Off9pVkc2krT90TyOEevmr4ZtTEmutMj8dLgCnIbhRs/edit?usp=sharing) |
+| [Sales Operations](/handbook/sales/field-operations/sales-operations/) | [How to Engage a Solutions Architect](/handbook/solutions-architects#when-and-how-to-engage-a-solutions-architect) | [Client Use Cases](/handbook/use-cases/) | [Customer Reference Sheet](https://docs.google.com/a/gitlab.com/spreadsheets/d/1Off9pVkc2krT90TyOEevmr4ZtTEmutMj8dLgCnIbhRs/edit?usp=sharing) |
 | [Deal Desk](/handbook/sales/field-operations/sales-operations/deal-desk/) | [Account Planning Template for Large Accounts](https://docs.google.com/presentation/d/1yQ6W7I30I4gW5Vi-TURIz8ZxnmL88uksCl0u9oyRrew/edit?ts=58b89146#slide=id.g1c9fcf1d5b_0_24) | [Dealing with Security Questions From Prospects](/handbook/security/#security-questionnaires-for-customers) | [Customer Reference Case Study Dynamic Board](https://gitlab.com/gitlab-com/marketing/strategic-marketing/customer-reference-content/case-study-content/-/boards/1804878?scope=all&utf8=%E2%9C%93&) |
 | [Field Enablement](/handbook/sales/field-operations/field-enablement/) | [How to Engage a CSM/CSE](/handbook/customer-success/pre-sales-post-sales-transition/) | [How to conduct an executive meeting](https://www.youtube.com/watch?v=PSGMyoEFuMY&feature=youtu.be) | [GitLab Support Handbook](/handbook/support/) |
 | [Sales Strategy](/handbook/sales/field-operations/sales-strategy/) |  | [CEO Preferences when speaking w/ prospects/customers](/handbook/ceo/) | |
 | [Sales Systems](/handbook/sales/field-operations/sales-systems/) |  | [Best Practices for Building Value with Customers](/handbook/sales/build-value-with-customers) |  |
-| [Commissions](/handbook/sales/commissions/) |   | [Understanding How Our Customers Use Gitlab](/handbook/sales/understand-customer-gitlab-use) |  |
+| [Commissions](/handbook/sales/commissions/) |   | [Understanding How Our Customers Use GitLab](/handbook/sales/understand-customer-gitlab-use) |  |
 | [Customer Success Operations](/handbook/customer-success/) |  | [Prospect Engagement Best Practices](/handbook/sales/prospect-engagement-best-practices/)  |  |
 | [Account Ownership Rules of Engagement](/handbook/sales/field-operations/gtm-resources/rules-of-engagement/#account-ownership-rules-of-engagement) |  |  |  |
 | [Parent and Child Accounts](/handbook/sales/sales-term-glossary/#parent-and-child-accounts) |  |  |  |
@@ -58,8 +58,8 @@ description: "The GitLab Field team includes multiple functions: Enterprise Sale
 | [How to Create an Opportunity](/handbook/sales/field-operations/gtm-resources/#how-to-create-an-opportunity) |  | [True Ups](/handbook/sales/sales-term-glossary/#true-up) | [GitLab Competencies & Certification Process](/handbook/competencies/) |
 | [MEDDPPICC Qualification](/handbook/sales/meddppicc/) |  | [Contract Resets](/handbook/sales/field-operations/sales-operations/deal-desk/#contract-reset) | [GitLab Diversity, Inclusion & Belonging](/handbook/company/culture/inclusion/) |
 | [Sales Discovery & Qualification Questions](/handbook/sales/qualification-questions/) | [People Business Partner Alignment for Sales](/handbook/people-group/#people-business-partner-alignment-to-division) |
-| [Gitlab ROI calculator](/handbook/sales/command-of-the-message/metrics/#economic-metrics) |  |  | [Women in Sales Mentorship Pilot Program](/handbook/people-group/women-in-sales-mentorship-pilot-program/) |
-| [Proof of Value](/handbook/customer-success/solutions-architects/tools-and-resources/pov) |  |  | [Women in Sales Project](/handbook/people-group/women-in-sales-mentorship-pilot-program/) |
+| [GitLab ROI calculator](/handbook/sales/command-of-the-message/metrics/#economic-metrics) |  |  | [Women in Sales Mentorship Pilot Program](/handbook/people-group/women-in-sales-mentorship-pilot-program/) |
+| [Proof of Value](/handbook/solutions-architects/tools-and-resources/pov) |  |  | [Women in Sales Project](/handbook/people-group/women-in-sales-mentorship-pilot-program/) |
 | [Creating a Quote](/handbook/sales/field-operations/sales-operations/deal-desk/#zuora-quote-configuration-guide---standard-quotes) |  |  |  |
 | [Quote Approval Matrix](https://docs.google.com/document/d/1-CH-uH_zr0qaVaV1QbmVZ1rF669DsaUeq9w-q1QiKPE/edit?usp=sharing) |  |  |  |
 | [Delivering a Quote via DocuSign](/handbook/sales/field-operations/order-processing/#how-to-send-an-order-form-to-a-customer) |  |  |  |
@@ -67,7 +67,7 @@ description: "The GitLab Field team includes multiple functions: Enterprise Sale
 | ------ | ------ | ------ | ------ |
 | [Marketing](/handbook/marketing/) | [Strategic Marketing Handbook](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/) | [Product Team Handbook](/handbook/product/) |  |
 | [Sales Development Handbook](/handbook/marketing/sales-development/) | [Product Marketing Manager Assignments](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/#which-product-marketing-manager-should-i-contact) | [Engaging Product Management](/handbook/product/how-to-engage/) |  |
-| [Gitlab Value Proposition](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/messaging/#gitlab-value-proposition) | [Customer-Facing Presentations](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/#customer-facing-presentations) | [Asking Questions/Giving Feedback on a Feature](/handbook/product/categories/#devops-stages) | |
+| [GitLab Value Proposition](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/messaging/#gitlab-value-proposition) | [Customer-Facing Presentations](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/#customer-facing-presentations) | [Asking Questions/Giving Feedback on a Feature](/handbook/product/categories/#devops-stages) | |
 | [Lead and Contact Statuses](/handbook/marketing/marketing-operations/#lead-and-contact-statuses) |[Print Collateral](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/#print-collateral) | [Product Categories](/handbook/product/categories/) |  |
 | [Inbound Lead Generation](/handbook/marketing/sales-development/#inbound-lead-generation) | [Sales Collateral Google Drive](https://drive.google.com/open?id=0B-ytP5bMib9TaUZQeDRzcE9idVk) | [Features by Group](/handbook/product/categories/features/) |  |
 | **Finance Process** | **Business Operations Process** | **Legal Process** | |
@@ -75,7 +75,7 @@ description: "The GitLab Field team includes multiple functions: Enterprise Sale
 | [Deal Desk: Assistance with Quotes](/handbook/sales/field-operations/order-processing/#assistance-with-quotes) | [Business Operations Handbook](/handbook/business-technology/) | [Collaborating with Legal - Sales](/handbook/legal/customer-negotiations/) |  |
 | [Deal Desk: Approval Process](/handbook/sales/field-operations/order-processing/#deal-desk-approval-process) | [Data Team Handbook](/handbook/business-technology/data-team/) | [Legal Page](/handbook/legal/) |  |
 | [Sending a Quote to Zuora](/handbook/sales/field-operations/order-processing/#step-8--sending-the-quote-to-zuora) | [Data Quality Process](/handbook/business-technology/data-team/data-quality/) | [Engaging Legal in Deals](/handbook/sales/field-operations/order-processing/#process-for-agreement-terms-negotiations-when-applicable) |  |
-| [How to Initiate a Refund](/handbook/finance/accounting/#7-invoice-cancellations-and-refunds) | [IT Ops Handbook](/handbook/business-technology/team-member-enablement/onboarding-access-requests/) |  |  |
+| [How to Initiate a Refund](/handbook/finance/accounting/#7-invoice-cancellations-and-refunds) | [IT Ops Handbook](/handbook/business-technology/end-user-services/onboarding-access-requests/) |  |  |
 |  | [Access Requests](https://gitlab.com/gitlab-com/team-member-epics/access-requests) |  |  |
 
 ## Who We Are
@@ -142,7 +142,7 @@ The Inside Sales department is part of the GitLab Sales function and partners wi
 
 These teams help accelerate GitLab’s trajectory by connecting our business and customers to companies that can help compliment our product mission and/or drive customer adoption and usage of the GitLab platform. See our [Channel](/handbook/sales/channel/) and [Alliances](/handbook/alliances/) Handbook pages for more details.
 
-#### Sales Development Organization 
+#### Sales Development Organization
 
 Sales Development Representative (SDR) - focused on inbound leads
 
@@ -157,10 +157,10 @@ See the [Sales Development page](/handbook/marketing/sales-development/#sdr-expe
 
 #### Support
 
-This team provides technical support to GitLab.com and Self-Managed GitLab customers. For an overview of support levels based on plan tier, see the [Support Page](/support/). The Support → Customer Success Manager (CSM) escalation process can be found [here](/handbook/customer-success/csm/escalations/).
+This team provides technical support to GitLab.com and Self-Managed GitLab customers. For an overview of support levels based on plan tier, see the [Support Page](https://about.gitlab.com/support/). The Support → Customer Success Manager (CSM) escalation process can be found [here](/handbook/customer-success/csm/escalations/).
 
 During the sales cycle, potential customers who have questions that are not within the scope of Sales can have their queries escalated in different ways depending on the account size:
-   1. For Strategic/Large accounts that will have a dedicated Solutions Architect, [engage the SA](/handbook/customer-success/solutions-architects/#when-and-how-to-engage-a-solutions-architect) so that they can triage and develop the request.
+   1. For Strategic/Large accounts that will have a dedicated Solutions Architect, [engage the SA](/handbook/solutions-architects/#when-and-how-to-engage-a-solutions-architect) so that they can triage and develop the request.
    1. For questions that you think technical staff can answer in less than 10 minutes, please use the #questions Slack channel. For more information, see the [internal support](/handbook/support/internal-support/#should-i-contact-gitlab-support) section of the Support Handbook.
    1. By default, trial licenses do not include support. If you've been contacted by a prospect whose evaluation of GitLab includes evaluating support expertise or SLA performance, as a member of the Sales team you can grant temporary support for their trial license. See the [Internal Support Handbook](/handbook/support/internal-support/#trials-and-prospect-support) for more details.
    1. If your customer contacts you requiring technical support, please immediately direct them to open a ticket through the Support Portal(https://support.gitlab.com/). Please do not open a support ticket on behalf of a customer. More details [here](/handbook/support/internal-support/#requesting-support-for-customers).

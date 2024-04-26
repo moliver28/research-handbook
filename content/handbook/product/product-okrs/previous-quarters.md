@@ -226,7 +226,7 @@ Please share your feedback in [Feedback on Q4 Shared R&D OKR Process](https://gi
 
 **Notes:** 
 
-- The CTO drafts any Engineering organization specific OKRs per the [engineering OKR process](https://about.gitlab.com/handbook/engineering/#engineering-okr-process) 
+- The CTO drafts any Engineering organization specific OKRs per the [engineering OKR process](/handbook/engineering/#engineering-okr-process) 
 - The CProdO and CTO will collaborate such that the total number of Shared R&D, Product team specific, and Engineering team specific objectives do not exceed a total of six across Engineering and Product organizations
 
 #### OKR Collaboration by the Product Team

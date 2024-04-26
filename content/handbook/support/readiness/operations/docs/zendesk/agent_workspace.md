@@ -4,6 +4,8 @@ description: Support Operations documentation page for Zendesk agent workspace
 canonical_path: "/handbook/support/readiness/operations/docs/zendesk/agent_workspace"
 ---
 
+<sup>*Introduced via [support-team-meta#5243](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/5243)*</sup>
+
 ## What is agent workspace?
 
 As per

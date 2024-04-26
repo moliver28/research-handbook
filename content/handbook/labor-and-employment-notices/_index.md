@@ -66,38 +66,43 @@ Since GitLab is an [all remote](/handbook/company/culture/all-remote/) company w
 - [Victims of Domestic Violence Leave Notice](https://www.dir.ca.gov/dlse/Victims_of_Domestic_Violence_Leave_Notice.pdf)
 - [Workers' Compensation Notice - Inc.](https://drive.google.com/file/d/1i8FBqSHL2yrt7VZMKGhDwPT59cVbqsGS/view?usp=sharing)
 - [Employee Polygraph Protection Act](https://www.dol.gov/sites/dolgov/files/WHD/legacy/files/eppabw.pdf)
-- **City of Berkeley*-
-  - [Minimum Wage Poster](https://berkeleyca.gov/sites/default/files/2022-04/English%20-%20MWO-and-Labor-Notice-Multi-year%20FY23.pdf)
+- **City of Berkeley**
+  - [Minimum Wage Poster](https://berkeleyca.gov/sites/default/files/documents/MWO-and-Labor-Notice-Multi-Year-English%20FY24%20%28002%29.pdf)
 - **City of Daly City**
   - [Minimum Wage Poster](https://www.dalycity.org/DocumentCenter/View/6658/2023-Minimum-Wage-Notice)
 - **City of Emeryville**
-  - [Minimum Wage and Paid Sick Leave](https://www.ci.emeryville.ca.us/DocumentCenter/View/14155/MWO-PSL-Workplace-Poster-English)
+  - [Minimum Wage and Paid Sick Leave](https://www.ci.emeryville.ca.us/DocumentCenter/View/15057/2023-Business-Official-Notice-Englishfinal?bidId=)
   - [COVID-19 Paid Sick Leave](https://www.ci.emeryville.ca.us/DocumentCenter/View/13695/2021-COVID-19-Supplemental-Paid-Sick-Leave)
 - **City of Los Angeles**
   - [Fair Chance Initiative for Hiring Ordinance to Applicants and Employees](https://bca.lacity.org/Uploads/fciho/Ban%20the%20Box%20Poster%20-%20Private%20Employers%2C%20as%20of%208.23.18.pdf)
-  - [Minimum Wage and Paid Sick Leave](https://wagesla.lacity.org/sites/g/files/wph1941/files/2022-02/2022-MWO-Poster-EN-11.pdf)
+  - [Minimum Wage and Paid Sick Leave](https://wagesla.lacity.org/sites/g/files/wph1941/files/2023-02/2023-MWO-Poster-EN-11_0.pdf)
 - **Los Angeles County**
   - [Minimum Wage Ordinance](https://file.lacounty.gov/SDSInter/dca/245570_FinalMinimumWageOrdinancePosterEnglishStandardSize8.5x14.pdf)
 - **City of Oakland**
-  - [Minimum Wage/Paid Sick Leave/Service Charge](https://docs.google.com/document/d/1b1l8xivMwDwP72q9SrSr1PUmAyQjHeqhr2WYeiM_Lw0/edit)
+  - [Minimum Wage/Paid Sick Leave/Service Charge](https://cao-94612.s3.us-west-2.amazonaws.com/documents/Measure_FF_English_Poster_Set_2024.pdf)
 - **City of San Diego**
   - [Earned Sick Leave](https://www.sandiego.gov/sites/default/files/esl_notice_english.pdf)
   - [Minimum Wage](https://www.sandiego.gov/sites/default/files/mwo-notice-english-2023_0.pdf)
+  - [Combination Poster](https://www.sandiego.gov/sites/default/files/cal-osha-labor-law-poster.pdf)
 - **City of San Jose**
   - [Minimum Wage Bulletin](https://www.sanjoseca.gov/home/showpublisheddocument/80936/637768050476030000)
   - [Opportunity to Work Notice](https://www.sanjoseca.gov/home/showdocument?id=20073)
 - **City of San Francisco**
   - [Minimum Wage Poster](https://sfgov.org/olse/sites/default/files/minimum%20wage%20poster%202022_2.pdf)
-  - [Paid Sick Leave](https://sfgov.org/olse/sites/default/files/Document/Paid%20Sick%20Leave%20Poster%20-%20Post.pdf)
+  - [Paid Sick Leave](https://sf.gov/sites/default/files/2022-09/Paid%20Sick%20Leave%20Poster.pdf)
   - [Fair Chance Ordinance](https://sfgov.org/olse/sites/default/files/FCO%20poster2020_0.pdf)
   - [Health Care Security Ordinance](https://sfgov.org/olse/sites/default/files/Document/HCSO%20Files/2022%20HCSO%20poster.pdf)
   - [Family Friendly Workplace Ordinance](https://sfgov.org/olse/sites/default/files/FileCenter/Documents/11256-FFWO%20Official%20Notice.pdf)
-  - [Paid Parental Leave Ordinance](https://sfgov.org/olse/sites/default/files/2020%20parental%20leave%20poster%20Print.pdf)
+  - [Paid Parental Leave Ordinance](https://sf.gov/sites/default/files/2022-11/Parental%20Leave%20Poster%202022.pdf)
   - [Salary History Ordinance](https://sfgov.org/olse/sites/default/files/Document/Consideration%20of%20Salary%20History%20Poster%20upload.pdf)
   - [COVID-Related Employment Protections](https://sfgov.org/olse/sites/default/files/CEPO%20Poster%20-%20March%202021.pdf)
   - [Public Health Emergency Leave](https://sfgov.org/olse/sites/default/files/Public%20Health%20Emergency%20Leave%20Poster%207.2022.pdf)
 - **City of Santa Monica**
-  - [Minimum Wage, Paid Sick Leave and Service Charge Law](https://santamonica.gov/media/Minimum_Wage/22-23_Notification_English.pdf)
+  - [Minimum Wage, Paid Sick Leave and Service Charge Law](https://santamonica.gov/media/Minimum_Wage/Notifications/23-24%20Notices/2023-24_Notification_English.pdf)
+- **City of West Hollywood**
+  - [Minimum Wage - English](https://www.weho.org/home/showpublisheddocument/56165/638158711072630000)
+  - [Minimum Wage - Spanish](https://www.weho.org/home/showpublisheddocument/56249/638168015412630000)
+
 
 ### Colorado
 
@@ -109,14 +114,15 @@ Since GitLab is an [all remote](/handbook/company/culture/all-remote/) company w
 - [Notice to Employer of Injury](https://codwc.app.box.com/v/WC50-Injury-Poster)
 - [Notice of Paydays](https://drive.google.com/file/d/1B9NG0eCOvxGD_KE_R9Zxtw58lTi4fkje/view?usp=sharing)
 - [Workers' Compensation Act](https://drive.google.com/file/d/1OkdN7QSD23d5-etB7awiU4C_JjM9KXHM/view?usp=sharing)
-- [Paid Family and Medical Leave Insurance](https://famli.colorado.gov/sites/famli/files/FAMLI%20Break%20Room%20Poster%20Official%20Revised%20V2.pdf)
+- [Paid Family and Medical Leave Insurance](https://famli.colorado.gov/sites/famli/files/documents/Employer-Toolkit-Break-Room-Poster-V3.pdf)
 - [Paid Leave, Whistleblowing, and Personal Protective Equipment](https://cdle.colorado.gov/sites/cdle/files/%5BCLEAN%20June%201%2C%202022%5D%20Poster%2C%20Paid%20Leave%20%26%20Whistleblower.pdf)
 
 ### Connecticut
 
 - [Sexual Harassment is Illegal](https://portal.ct.gov/-/media/CHRO/SexualHarassmentPreventionPosterpdf.pdf)
 - [Paid Sick Leave](https://www.ctdol.state.ct.us/wgwkstnd/NoticeSickLeavePoster2014%20.pdf)
-- [Connecticut Paid Leave notice](https://portal.ct.gov/-/media/DOLUI/NEW-53122-Prototype-of-Employers-Written-Notice-to-Employees-of-Rights-under-CTFMLA-and-CTPL.pdf) and [Paid Leave poster](https://portal.ct.gov/-/media/DDS/Self_Determination/Employee_Rights_Poster.pdf)
+- [Connecticut Paid Sick Leave](https://www.ctdol.state.ct.us/wgwkstnd/NoticeSickLeavePoster2014%20.pdf)
+- [Paid Leave poster](https://portal.ct.gov/-/media/DDS/Self_Determination/Employee_Rights_Poster.pdf)
 - [Discrimination is Illegal](https://portal.ct.gov/-/media/CHRO/DiscriminationFlyerpdf.pdf)
 - [Minimum Wage](https://www.ctdol.state.ct.us/wgwkstnd/DOL-75.pdf)
 - [Worker's Compensation Notice](https://drive.google.com/file/d/1QudFkpV7haIaUzUpIYccD9slAiDrAnHd/view?usp=sharing)
@@ -189,7 +195,7 @@ Since GitLab is an [all remote](/handbook/company/culture/all-remote/) company w
 - **City of Chicago**
   - [Minimum Wage, Paid Sick Leave, Wage Theft and Human Trafficking](https://www.chicago.gov/content/dam/city/depts/bacp/OSL/20220701mwandpslenglishletterfv.pdf)
 - **Cook County**
-  - [Sick Leave](https://www.cookcountyil.gov/sites/g/files/ywwepo161/files/service/model-earned-sick-leave-notice-employees-workplace-poster.pdf)
+  - [Earned Sick Leave Ordinance](https://www.cookcountyil.gov/sites/g/files/ywwepo161/files/service/model-earned-sick-leave-notice-employees-workplace-poster.pdf)
 
 ### Indiana
 
@@ -210,7 +216,7 @@ Since GitLab is an [all remote](/handbook/company/culture/all-remote/) company w
 
 ### Kansas
 
-- [Unemployment Insurance](https://www.dol.ks.gov/documents/20121/56357/Unemployment+Insurance+Poster.pdf/81a04d94-26c5-ba54-16f8-b6b1e9d2932a?t=1612353923740)
+- [Unemployment Insurance](https://www.dol.ks.gov/home/showpublisheddocument/100/638363383565870000)
 - [Kansas Law Provides Equal Opportunity](http://www.khrc.net/pdf/ksemployposter.pdf)
 - [Workers' Compensation Notice - Inc.](https://drive.google.com/file/d/1wfEtSjJ7O_MDx4eIg9-5rebCLkDyrkgL/view?usp=sharing)
 
@@ -247,7 +253,7 @@ Since GitLab is an [all remote](/handbook/company/culture/all-remote/) company w
 - [Workers' Compensation](https://www.maine.gov/wcb/forms/WCB-90_rev_1-1-20.pdf)
 - [Video Display Terminals](https://www.maine.gov/labor/docs/2019/laborlaws/vdtposternov2019.pdf)
 - [Child Labor Laws](https://www.maine.gov/labor/docs/2019/laborlaws/childlabornov2019.pdf)
-- [Regulation of Employment](https://www.maine.gov/labor/docs/2021/posters/regulationofemployment.pdf)
+- [Regulation of Employment](https://www.maine.gov/labor/docs/2023/posters/Regulationofemployment_English.pdf)
 - [Maine Employment Security Law](https://www.maine.gov/labor/docs/2019/laborlaws/MaineEmploymentSecurityLaw_1119.pdf)
 
 ### Maryland
@@ -263,11 +269,12 @@ Since GitLab is an [all remote](/handbook/company/culture/all-remote/) company w
 - [Employment of Minors](http://www.dllr.state.md.us/labor/wages/minorfactsheet.pdf)
 - **Montgomery County**
   - [Minimum Wage and Overtime Law](https://www.dllr.state.md.us/labor/wages/minimumwagelawmont.pdf)
+  - [Earned Sick and Safe Leave](https://www.montgomerycountymd.gov/humanrights/Resources/Files/EarnedSickandSavedLeave_Poster.pdf)
 
 ### Massachusetts
 
 - [Paid Family and Medical Leave](https://www.mass.gov/files/documents/2023/11/20/2024%20pfml%20mandatory%20workplace%20poster%20english.pdf)
-- [Earned Sick Time](https://www.mass.gov/doc/earned-sick-time-notice-of-employee-rights/download)
+- [Earned Sick Time](https://www.mass.gov/doc/earned-sick-time-notice-of-employee-rights-english/download)
 - [Massachusetts Wage and Hours Laws](https://www.mass.gov/doc/massachusetts-wage-hour-laws-poster/download)
 - [Fair Employment Law](https://www.mass.gov/doc/mcad-fair-employment-law-poster/download)
 - [Sexual Harassment](https://www.mass.gov/doc/sexual-harassment-poster/download)
@@ -292,12 +299,16 @@ Since GitLab is an [all remote](/handbook/company/culture/all-remote/) company w
 - [Unemployment Insurance](https://www.uimn.org/assets/109_tcm1068-192562.pdf)
 - [Workers' Compensation Notice - Inc.](https://drive.google.com/file/d/1TiucUJJeuRL_P9KRhGMVEvyXe12Qik5w/view?usp=sharing)
 - [Labor and Employment Rights](http://sicktimeinfo.minneapolismn.gov/uploads/9/6/3/1/96313024/mpls_required_employee_notice_poster.pdf)
+- [Earned Sick and Safe Time](https://drive.google.com/file/d/1fspfrI5g8GmszlaphjEGcH63ILbqMiAL/view?usp=drive_link)
+- [Nursing Mothers, Lactating Employees, and Pregnancy Accommodations Notice](https://www.dli.mn.gov/sites/default/files/pdf/WESA_employee_notice.pdf)
 - **City of Duluth**
   - [Earned Sick and Safe Time](https://duluthmn.gov/media/8332/esst-poster.pdf)
 - **City of Minneapolis**
-  - [Labor and Employment Rights](http://sicktimeinfo.minneapolismn.gov/uploads/9/6/3/1/96313024/mpls_required_employee_notice_poster.pdf)
+  - [Labor and Employment Rights](https://sicktimeinfo.minneapolismn.gov/uploads/9/6/3/1/96313024/2024_mpls_employee_notice_poster.pdf)
 - **City of Saint Paul**
-  - [Earned Sick and Safe Time and Minimum Wage](https://www.stpaul.gov/sites/default/files/2022-09/ESST%20%20Min%20Wage%20Poster%208.25.2022.pdf)
+  - [Earned Sick and Safe Time and Minimum Wage](https://www.stpaul.gov/sites/default/files/2023-08/2023-08-21%20Notice%20to%20Employees%20about%20ESST%20and%20Minimum%20Wage.pdf)
+  **City of Bloomington**
+  - [Earned Sick and Safe Time](https://www.bloomingtonmn.gov/sites/default/files/2023-03/ESSL-poster-en.pdf)
 
 ### Mississippi
 
@@ -339,7 +350,7 @@ Since GitLab is an [all remote](/handbook/company/culture/all-remote/) company w
 - [Aviso de Limitaciones que Afectan La Aplicacion de Pruebas de Deteccion de Mentiras](https://labor.nv.gov/uploadedFiles/labornvgov/content/Employer/Lie%20detector%202019%20-Spanish.pdf)
 - [Domestic Violence Bulletin](https://labor.nv.gov/uploadedFiles/labornvgov/content/Employer/Domestic%20Violence%20Bulletin%20June%202019.pdf)
 - [Boletín de Víctimas de Violencia Doméstica](https://labor.nv.gov/uploadedFiles/labornvgov/content/Employer/Domestic%20Violence%20Bulletin%20ESP%20June%202019.pdf)
-- [SB 312 Paid Leave - English](https://labor.nv.gov/uploadedFiles/labornvgov/content/Employer/SB%20312%20Paid%20Leave%20English.pdf)
+- [SB 312 Paid Leave - English](https://labor.nv.gov/uploadedFiles/labornvgov/content/Employer/SB%20312%20Paid%20Leave%20English%2011.2023(1).pdf)
 - [SB 312 Permiso Remunerado](https://labor.nv.gov/uploadedFiles/labornvgov/content/Employer/SB%20312%20Paid%20Leave%20Spanish.pdf)
 - [Annual Minimum Wage Bulletin](https://labor.nv.gov/uploadedFiles/labornvgov/content/Employer/2022%20Annual%20Bulletin%20-%20Minimum%20Wage%203.11.22(2).pdf)
 - [Boletín Anual Salario Minimo](https://labor.nv.gov/uploadedFiles/labornvgov/content/Employer/2022%20Annual%20Bulletin%20-%20Minimum%20Wage-Spanish%203.11.22(1).pdf)
@@ -372,6 +383,7 @@ Since GitLab is an [all remote](/handbook/company/culture/all-remote/) company w
 ### New Jersey
 
 - [New Jersey Earned Sick Leave](https://www.nj.gov/labor/wageandhour/assets/PDFs/Forms%20and%20Publications/MW-565%20(12-21)%20BLUE%2011x17%20Sick%20Leave%20poster-English.pdf)
+  -Employers benefit year is Jan 1 - Dec 31
 - [Wage and Hour Law Abstract](https://www.nj.gov/labor/wageandhour/assets/PDFs/Employer%20Poster%20Packet/MW-220%20(1-22)%20Wage%20Hour%20Abstract%20Poster.pdf)
 - [Child Labor Law](https://www.nj.gov/labor/wageandhour/assets/PDFs/Employer%20Poster%20Packet/mw-129-1.pdf)
 - [Employer Obligation to Maintain and Report Records](https://www.nj.gov/labor/wageandhour/assets/PDFs/Employer%20Poster%20Packet/MW-400_11x17.pdf)
@@ -396,10 +408,13 @@ Since GitLab is an [all remote](/handbook/company/culture/all-remote/) company w
 - [Human Trafficking Poster](https://www.dws.state.nm.us/Portals/0/DM/Business/Human_Trafficking_Poster.pdf)
 - [Job Safety and Health Poster](https://www.env.nm.gov/occupational_health_safety/wp-content/uploads/sites/12/2021/10/OSHA_Poster.pdf)
 - Notice of Accident or Occupational Disease Disablement
+- [Paid Sick Leave](https://www.dws.state.nm.us/Portals/0/DM/LaborRelations/Paid_Sick_Leave_poster_11x17_size.pdf?ver=2022-03-29-000531-210)
+**Bernalillo County**
+- [Employee Wellness Act](https://www.bernco.gov/planning/wp-content/uploads/sites/58/2022/09/2022-BC-Employee-Wellness-Act-Poster.FINAL.pdf)
 
 ### New York
 
-- [New York Correction Law, Article 23-A](https://dol.ny.gov/system/files/documents/2021/02/correction-law-article-23a.pdf)
+- [New York Correction Law, Article 23-A](https://dol.ny.gov/system/files/documents/2024/02/correction-law-article-23a_0.pdf)
 - [New York State Human Rights Law](https://dhr.ny.gov/system/files/documents/2022/05/poster.pdf)
 - [Equal Pay Provision](https://dol.ny.gov/system/files/documents/2021/03/ls603_equity_provision.pdf)
 - [Minimum Wage](https://dol.ny.gov/system/files/documents/2021/12/ls207.pdf)
@@ -408,12 +423,13 @@ Since GitLab is an [all remote](/handbook/company/culture/all-remote/) company w
 - [Rights of Nursing Mothers to Express Breast Milk in the Work Place](https://dol.ny.gov/system/files/documents/2023/06/p705-policy-on-the-rights-of-employees-to-express-breast-milk-in-the-workplace-single.pdf)
 - [Child Labor Law - permitted working hours](https://dol.ny.gov/system/files/documents/2021/03/ls171.pdf)
 - [Prohibition of Employer Retaliation](https://dol.ny.gov/system/files/documents/2022/02/ls740_1.pdf)
-- [Time Off and Work Hours Notice](https://dol.ny.gov/system/files/documents/2021/02/ls606_guidelines_for_employers-requirements_to_notify_employees_about_time_off_and_work_hours.pdf)
+- [Time Off and Work Hours Notice](https://dol.ny.gov/system/files/documents/2021/03/ls606.pdf)
 - [Time Off to Vote Poster](https://www.elections.ny.gov/NYSBOE/elections/TimeOffToVoteNotice.pdf)
 - [Workers' Compensation Notice - Inc.](https://drive.google.com/file/d/13W9mUkiRUi8msZG2kXemM6fwxLdysNcS/view?usp=sharing)
 - [Workers' Compensation Notice - Federal](https://drive.google.com/file/d/1nYMzCdHjkRQXrwkkY-8C0vmUdRDgLuS9/view?usp=sharing)
 - **City of New York City**
-    - [Paid Sick Leave](https://www.nyc.gov/assets/dca/downloads/pdf/about/PaidSafeSickLeave-MandatoryNotice-English.pdf)
+    - [Safe and Sick Leave](https://www.nyc.gov/assets/dca/downloads/pdf/about/PaidSafeSickLeave-MandatoryNotice-English.pdf)
+    - Employers calendar year is Jan 1 - Dec 31st.
 
 ### North Carolina
 
@@ -444,13 +460,13 @@ Since GitLab is an [all remote](/handbook/company/culture/all-remote/) company w
 
 - [Breaks and Overtime](https://www.oregon.gov/boli/employers/Documents/BOLI_breaks_pay.pdf)
 - [Equal Pay](https://www.oregon.gov/boli/employers/Documents/BOLI_EqualPay.pdf)
-- [Family Leave Act](https://www.oregon.gov/boli/employers/Documents/BOLI_OFLA.pdf)
+- [Family Leave Act](https://www.oregon.gov/boli/employers/Documents/BOLI_Printable_FamilyMedLv.pdf)
 - [Minimum Wage](https://www.oregon.gov/boli/employers/Documents/BOLI_MinWage_2021-2.pdf)
 - [Oregon Occupational Safety and Health Administration](https://osha.oregon.gov/OSHAPubs/1507.pdf)
 - [Protections for Victims of Domestic Violence, Harassment, Sexual Assault and Stalking](https://www.oregon.gov/boli/employers/Documents/BOLI_SHDVP.pdf)
-- [Sick Time](https://www.oregon.gov/boli/employers/Documents/BOLI_SickLeave.pdf)
+- [Sick Time](https://www.oregon.gov/boli/employers/Documents/BOLI_Printable_SickLeave.pdf)
 - [Oregon OSHA's COVID-19 Standard for all Workplaces](https://osha.oregon.gov/OSHAPubs/5504.pdf)
-- [Workplace Accommodations Notice](https://drive.google.com/file/d/1qe-dqjG5ClcglfGFo75bojPXgIAkmAg7/view?usp=sharing)
+- [Workplace Accommodations Notice](https://docs.google.com/document/d/1AC8QVQing7WZGNp3scTeD_LBCX0cAKaQ/edit?usp=drive_link&ouid=108582647308078356493&rtpof=true&sd=true)
 - [Paid Leave Notice Poster](https://d1o0i0v5q5lp8h.cloudfront.net/paidleave/live/assets/resources/Paid-Leave-ModelNotice-Poster-EN.pdf)
 
 ### Pennsylvania
@@ -468,6 +484,8 @@ Since GitLab is an [all remote](/handbook/company/culture/all-remote/) company w
 - **City of Philadelphia**
     - [Promoting Healthy Families and Workplaces](https://www.phila.gov/media/20191218103833/Paid-Sick-Leave-Poster-Translations.pdf)
     - [Fair Chance Hiring Law](https://www.phila.gov/media/20210423160847/Fair-Chance-Hiring-law-poster.pdf)
+    - [Paid or Unpaid Sick Leave](https://www.phila.gov/media/20231023150723/Notice-Poster-for-Employees-Sick-Leave-English.pdf)
+    - [Paid or Unpaid Sick Leave in Various Languagues](https://www.phila.gov/media/20231023150745/Notice-Poster-for-Employees-Sick-Leave-Misc-Languages.pdf)
 - **City of Pittsburgh**
     - [Paid Sick Days Act](https://apps.pittsburghpa.gov/redtail/images/9692_Notice-Paid-Sick-Days-Act_06-2020.pdf)
 
@@ -482,11 +500,12 @@ Since GitLab is an [all remote](/handbook/company/culture/all-remote/) company w
 
 ### Rhode Island
 
-- [Rhode Island Combination Poster](https://drive.google.com/file/d/1bMJb9iqbWtHC5e3hGLeS6Oy6onQy5F_5/view)
+- [Rhode Island Combination Poster](https://drive.google.com/file/d/1nAclob8ZR9WXMI8vCCUeHuAdRMZT6Glz/view?usp=drive_link)
 - [Discrimination is Illegal](https://dlt.ri.gov/sites/g/files/xkgbur571/files/documents/requiredposters/DiscriminationPoster.pdf)
 - [Notice of Right to be Free From Discrimination Because of Pregnancy, Childbirth and Related Conditions](https://dlt.ri.gov/sites/g/files/xkgbur571/files/documents/requiredposters/PregDiscrimNoticeJuly2015.pdf)
 - [Sexual Harassment](https://dlt.ri.gov/sites/g/files/xkgbur571/files/documents/requiredposters/sexharassment.pdf)
 - [Workers' Compensation Notice - Inc.](https://drive.google.com/file/d/1A2ZCzEr_WJaKp0dXS-DbOnbOAfQbtc8v/view?usp=sharing)
+- [Sick and Safe Leave](https://dlt.ri.gov/sites/g/files/xkgbur571/files/documents/pdf/ls/HSFWfactsheet.pdf)
 
 ### South Carolina
 
@@ -542,7 +561,8 @@ Since GitLab is an [all remote](/handbook/company/culture/all-remote/) company w
 - [Minimum Wage](https://labor.vermont.gov/sites/labor/files/doc_library/Minimum%20Wage%20Post%20-%202022_v2.pdf)
 - [Parental and Family Leave](https://labor.vermont.gov/sites/labor/files/doc_library/Parental%20and%20Family%20Leave%20Poster.pdf)
 - [Sexual Harassment Poster](https://drive.google.com/file/d/1cuwlVBW8CbAkt-HIf2XpEneHVHG7sWEk/view?usp=sharing)
-- [Workers Compensation Reinstatement Rights](https://labor.vermont.gov/sites/labor/files/doc_library/Workers%20Compensation%20Reinstatement%20Rights%20Poster.pdf)
+- [Workers Compensation Reinstatement Rights](https://labor.vermont.gov/sites/labor/files/doc_library/Notice%20to%20Employers%20Employers%20Liability%20and%20WC%20Poster%20%5BEnglish%5D.pdf)
+  - GitLab has complied with the provisions of Title 21 of the Vermont Statutes, Annotated §687, by obtaining Workers’ Compensation Insurance coverage through The Hartford.
 - [Employment Protections for Victims of Crime](https://labor.vermont.gov/sites/labor/files/doc_library/Crime%20Victim%20Poster_2022.pdf)
 
 ### Virginia
@@ -559,14 +579,23 @@ Since GitLab is an [all remote](/handbook/company/culture/all-remote/) company w
 ### Washington
 
 - [Paid Family and Medical Leave](https://drive.google.com/file/d/1FnaPyYIGBovgZBiGgPqCZaKiAMeqGhWL/view?usp=drive_link)
-- [Job Safety and Health Law](https://www.lni.wa.gov/forms-publications/f416-081-909.pdf)
-- [Your Rights as a Worker](https://www.lni.wa.gov/forms-publications/F700-074-000.pdf)
-- [Notice to Employees if a Job Injury Occurs](https://www.lni.wa.gov/forms-publications/f242-191-909.pdf)
+- [Job Safety and Health Law](https://lni.wa.gov/forms-publications/F416-081-909.pdf)
+- [Your Rights as a Worker](https://lni.wa.gov/forms-publications/F700-074-000.pdf)
+- [Notice to Employees if a Job Injury Occurs](https://lni.wa.gov/forms-publications/f242-191-909.pdf)
 - [Unemployment notice](https://drive.google.com/file/d/1jaVizNyU7Aew5ykSAP8fQZi4eu4mWivK/view?usp=sharing)
 - **City of Seattle**
-  - [Paid Sick and Safe Time](http://www.seattle.gov/documents/Departments/LaborStandards/OLSFactSheetPSSTRevised31920%282%29.pdf)
+  - [Seattle Labor Standard Ordinances](https://www.seattle.gov/documents/Departments/LaborStandards/2024_OLS_MW_WorkplacePoster_web.pdf)
 - **City of Tacoma**
-  - [Notice to Employees](https://cms.cityoftacoma.org/finance/paid-leave/notices/2018-Paid-Leave-Workplace-Notice-English.pdf)
+  - [Paid Sick Leave](https://cms.cityoftacoma.org/finance/paid-leave/notices/2018-Paid-Leave-Workplace-Notice-English.pdf)
+
+### Washington D.C
+
+- [Accrued Sick and Safe Leave Act of 2008](https://does.dc.gov/sites/default/files/dc/sites/does/page_content/attachments/OWH%20-%20ASSLA%20POSTER-%20Bilingual.pdf)
+- [Paid Family Leave](https://drive.google.com/drive/u/0/folders/1AagHxsGmtMZdda-hSGQ051D6gRHpvJFc)
+- [Minimum Wage](https://does.dc.gov/sites/default/files/dc/sites/does/publication/attachments/Minimum%20Wage%20Poster_2023.pdf)
+- [Living Wages Act](https://does.dc.gov/sites/default/files/dc/sites/does/publication/attachments/2023%20Living%20Wage%20Poster.pdf)
+- [Building Services Act](https://does.dc.gov/sites/default/files/dc/sites/does/publication/attachments/Building%20Services%20Act%20Poster%202020.pdf)
+- [Universal Wage Law](https://does.dc.gov/sites/default/files/dc/sites/does/publication/attachments/2023%20Universal%20Wage%20Law%20Poster.pdf)
 
 ### West Virginia
 
@@ -585,7 +614,7 @@ Since GitLab is an [all remote](/handbook/company/culture/all-remote/) company w
 - [Bone Marrow and Organ Donation Leave Act](https://dwd.wisconsin.gov/dwd/publications/erd/pdf/erd-7983-p.pdf)
 - [Minimum Wage Rates](https://dwd.wisconsin.gov/dwd/publications/erd/pdf/erd-9247-p.pdf)
 - [Notification Required for Cessation of Health Care Benefits](https://dwd.wisconsin.gov/dwd/publications/erd/pdf/erd-11054-p.pdf)
-- [Notice to Employees about Applying for Unemployment Benefits](https://drive.google.com/file/d/1bYkaoUPxGk5P4Da_GZa4w-62PhkVcbNV/view?usp=sharing)
+- [Notice to Employees about Applying for Unemployment Benefits](https://dwd.wisconsin.gov/dwd/publications/ui/ucb-7-p.pdf)
 - [Workers' Compensation Notice - Inc.](https://drive.google.com/file/d/11gTzkSQfn48adQls9mys8_hB52fhTwZU/view?usp=sharing)
 
 ### Wyoming

@@ -1,0 +1,66 @@
+{{- /*  Initialize. */}}
+{{- $dashboard := "" }}
+{{- $chart := "" }}
+{{- $height := 300 }}
+
+{{- $filters := slice }}
+{{- $apiDict := (dict "embed" "v2") }}
+
+{{- /* Get params. */}}
+{{- with .dashboard }}
+  {{- $dashboard = . }}
+  {{ $apiDict = merge $apiDict (dict  "dashboard" . ) }}
+{{- else }}
+  {{- errorf "The %q shortcode requires a dashboard parameter.  This is your GitLab username." .Name}}
+{{- end }}
+
+{{- with .chart }}
+  {{- $chart = . }}
+  {{ $apiDict = merge $apiDict (dict  "chart" . ) }}
+{{- end }}
+
+{{- with .filters }}
+  {{ $apiDict = merge $apiDict (dict  "filters" . ) }}
+{{- end }}
+
+{{- with .visible }}
+  {{ $apiDict = merge $apiDict (dict  "visible" . ) }}
+{{- end }}
+
+{{- with .height }}
+    {{- $height = int . }}
+    {{ $apiDict = merge $apiDict (dict  "height" . ) }}
+{{- end }}
+
+{{- $apidata := $apiDict | jsonify }}
+
+{{- $queryString := "?" }}
+{{- with .chart }}
+  {{- $queryString = printf "%swidget=%s" $queryString . }}
+{{- end }}
+{{- with .filters }}
+  {{- if eq $queryString "?" }}
+    {{- $queryString = printf "%sfilters=%s" $queryString ( . | jsonify ) }}
+  {{- else }}
+    {{- $queryString = printf "%s&filters=%s" $queryString ( . | jsonify ) }}
+  {{- end }}
+{{- end }}
+{{- with .visbile }}
+  {{- if eq $queryString "?" }}
+    {{- $queryString = printf "%visible=%s" $queryString ( . | jsonify ) }}
+  {{- else }}
+    {{- $queryString = printf "%s&visible=%s" $queryString ( . | jsonify ) }}
+  {{- end }}
+{{- end }}
+
+{{- if getenv "PERISCOPE_EMBED_API_KEY" }}
+{{- $api_key := getenv "PERISCOPE_EMBED_API_KEY" }}
+{{- $url := printf "https://app.periscopedata.com/app/gitlab/%s/%s" $dashboard $queryString }}
+<a class="external-link" href="{{ $url }}">Sisense↗</a>
+{{ if $api_key }}
+  {{- $path := printf "/api/embedded_dashboard?%s" (querify "data" $apidata | safeURL) }}
+  {{- $signature := hmac "sha256" $api_key $path }}
+  {{- $url := printf "https://www.periscopedata.com/%s&signature=%s" $path $signature }}
+  <iframe frameborder="0" width="100%" height="100%" style="min-height:{{ $height }}px;" src="{{ $url | safeURL }}" loading="lazy"></iframe>
+{{- end }}
+{{- end }}

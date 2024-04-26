@@ -4,14 +4,6 @@ title: "Functional Analytics Center of Excellence"
 description: "The FACE is a cross-functional group of functional analytics teams that aim to make our teams more efficient by solving and validating shared data questions which results in cohesive measurement approaches across teams."
 ---
 
-
-
-
-
-
-
-<link rel="stylesheet" type="text/css" href="/stylesheets/biztech.css" />
-
 ## Welcome to the FACE of Data Handbook
 
 **The FACE (functional analytics center of excellence) is a cross-functional group of functional analytics teams that aim to make our teams more efficient by solving and validating shared data questions which results in cohesive measurement approaches across teams.**
@@ -32,7 +24,8 @@ The [central data team](/handbook/business-technology/data-team/) serves as the 
 | Customer Success Analytics | Michael Arntz |
 | Digital Experience | Dennis Charukulvanich  |
 | [People Analytics](/handbook/people-group/people-ops-tech-analytics/people-analytics/) | Adrian Perez |
-| Central Data Team | Israel Weeks |
+| [Central Data Team](/handbook/business-technology/data-team/) | Israel Weeks & Jong Lee |
+| [Engineering Analytics](/handbook/engineering/quality/engineering-analytics/) | Cynan de Leon |
 
 ## Objectives of the FACE
 
@@ -49,7 +42,6 @@ The [central data team](/handbook/business-technology/data-team/) serves as the 
 - **Peer Review + Assumptions Approval**: as a part of the quarterly projects, we will establish a code peer review and assumptions approval process that will ensure we will all be enthusiastic adopters of the ultimate output.
 - **Code Repo**: after a project has gone through the peer review and assumptions approval process, we will commit it to a repo that any data person can leverage in their work.
 
-
 ## Examples: what are the types problems the FACE tackles?
 
 - How do free and trial sign-ups convert?
@@ -57,6 +49,39 @@ The [central data team](/handbook/business-technology/data-team/) serves as the 
 - How do we link leads/INQ to Salesforce accounts?
 - How do we identify business emails v. junk account emails?
 
+## Turn and Share Meetings
+
+In line with our [Collaboration](https://handbook.gitlab.com/handbook/values/#collaboration) value, **Turn & Share** sessions are a way for us to share our work with other analysts (or anyone at GitLab who is interested). These sessions began in October of 2023. More details on these sessions are outlined below:
+
+**Overall Goal**: Encourage each of the analytic teams at GitLab to reach out to each other for data resources and ideas on how to solve reporting, statistical, and data science problems of various complexity levels.
+
+**General Guidelines for Discussions**
+1. Work does not need to be completed or in a finished state to be presented.
+2. Slides are not always necessary, unless that is easier for the presenter to share their thoughts.
+3. Active participation during sessions is what we’re striving for. Questions at the time of presentation can be very helpful for all, especially the presenter.
+
+**Note**: Goal is not to solve the problems we have in the meeting, rather to discuss and share ideas and thoughts. For deep discussions, follow-up meetings should be scheduled with interested Team Members.
+
+### Meeting Cadence:
+
+We strive to meet every three weeks, alternating between AMER and APAC time zones to facilitate consistent knowledge sharing and collaboration across functional analysts.
+
+### Sign Up for Presenters:
+
+We will collect sign ups and coordinate meeting schedules & facilitators in this [sheet](https://docs.google.com/spreadsheets/d/1L1oFCzmjUT6HWi1DNOa31WISqVfHOMXp924e__Ao4Pg/edit#gid=1615918759)
+
+### Meeting Documentation:
+
+- **[Agenda](https://docs.google.com/document/d/1H1AI-rwcubZ2UYuf8JGUiMUb7gLoeDXuPQ6Kmfyc2iE/edit#heading=h.2e7gftq6eevx)**
+  - We collect notes, presentations, and Q&A during sessions.
+- **Recordings** Meeting recordings are appended to the agenda post-session.
+
+### Presenting SAFE Data
+
+At times, presentations will contain data that is considered [SAFE](https://handbook.gitlab.com/handbook/legal/safe-framework/#safe). If this is the case it is important to take the following into considerations:
+
+- Is everyone present able to see SAFE data? If the answer is no then it would be best to not share the visuals or create "mock data" that can be used for demonstration purposes.
+- Is this being recorded? If the demo includes SAFE data, then the parts of the demo that include SAFE data should not be recorded. Even if everyone present can view SAFE data, visualized data cannot be recorded as the recordings are shared with a wider audience. It is best to stop the recording before sharing screen with the SAFE data in view or not record at all.
 
 ## Working With Us
 
@@ -64,14 +89,4 @@ The [central data team](/handbook/business-technology/data-team/) serves as the 
 - Open an issue in our [Functional Analytics Center of Excellence](https://gitlab.com/gitlab-data/functional-analytics-center-of-excellence/) project
 - Join our biweekly meetings or monthly project turn and shares: ask in our Slack channel
 - Read our [meeting notes](https://docs.google.com/document/d/1fQ8zO1t4q_YkwatAlfSleFIG5iugQhx3pOiTxqCs4kk/edit?usp=sharing) and watch meeting recordings [access required]
-
-
-## Resources and Projects
-
-- [Source of Truth Fields for Reporting](/handbook/business-technology/data-team/functional-analytics-center-of-excellence/source-of-truth-fields-for-reporting/): WIP reference page for analysts, the output of Q1FY23 FACE quarterly project
-- [Email Domain Classification](/handbook/business-technology/data-team/functional-analytics-center-of-excellence/email-domain-classification/)
-
-
-
-
 

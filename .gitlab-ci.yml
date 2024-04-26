@@ -36,6 +36,7 @@ stages:
 
 include:
   - template: Security/Secret-Detection.gitlab-ci.yml
+  - component: gitlab.com/gitlab-org/components/danger-review/danger-review@~latest
 
 default:
   interruptible: true # All jobs are interruptible by default
@@ -75,14 +76,13 @@ variables:
     if: '$CI_MERGE_REQUEST_IID || $CI_COMMIT_TAG'
 
 .hugo:
-  image: registry.gitlab.com/pages/hugo/hugo_extended:0.120.3
+  image: registry.gitlab.com/pages/hugo/hugo_extended:0.123.7
   stage: deploy
   needs: []
   script:
     - apk update
     - apk upgrade
     - apk add go npm yq curl coreutils
-    - ./scripts/update-counts.sh
     - ./scripts/sync-data.sh
     - npm ci
     - hugo --enableGitInfo
@@ -106,7 +106,7 @@ pages-review:
     name: review/$CI_COMMIT_REF_SLUG
     # There is no predefined CI variable that is formatted quite right
     # neither $CI_PAGES_URL nor $CI_JOB_URL have /-/ directly after the hostname
-    url: https://gitlab-com.gitlab.io/-/content-sites/handbook/-/jobs/$CI_JOB_ID/artifacts/public/index.html
+    url: https://gitlab-com.gitlab.io/-/content-sites/handbook/-/jobs/$CI_JOB_ID/artifacts/public/
     on_stop: stop-pages-review
   variables:
     HUGO_ENVIRONMENT: review
@@ -150,7 +150,10 @@ deploy s3:
       - *assume_role
       - aws s3 sync public/ s3://$S3_BUCKET
     rules:
-      - if: '$CI_COMMIT_REF_NAME == "main"'
+      # Never try to deploy on merge requests.
+      - if: $CI_MERGE_REQUEST_IID
+        when: never
+      - if: '$CI_SERVER_HOST == "gitlab.com" && $CI_PROJECT_NAMESPACE == "gitlab-com/content-sites" && $CI_COMMIT_REF_NAME == $CI_DEFAULT_BRANCH'
         when: on_success
 
 ####################################
@@ -161,14 +164,13 @@ deploy s3:
 
 markdownlint:
   image:
-    name: davidanson/markdownlint-cli2:v0.11.0
+    name: davidanson/markdownlint-cli2:v0.12.1
     entrypoint: ["/bin/sh", "-c"]
   stage: test
   needs: []
   before_script:
     - npm install markdownlint-cli2-formatter-codequality markdownlint-cli2-formatter-pretty
   script:
-    - ./scripts/lint-custom.sh
     - markdownlint-cli2 "content/**/*.md"
   rules:
     - <<: *security-scanning-rules
@@ -180,6 +182,51 @@ markdownlint:
     reports:
       codequality: markdownlint-cli2-codequality.json
 
+handbooklint:
+  image:
+    name: gitlab/glab
+    entrypoint: ["/bin/sh", "-c"]
+  stage: test
+  needs: []
+  before_script:
+    - apk update
+    - apk upgrade
+    - apk add jq sed bash
+  script:
+    - bash ./scripts/handbook-lint.sh
+  rules:
+    - <<: *security-scanning-rules
+  artifacts:
+    when: always
+    expire_in: 1 month
+    paths:
+      - handbook-codequality.json
+    reports:
+      codequality: handbook-codequality.json
+
+hugolint:
+  stage: test
+  needs: []
+  rules:
+    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+      allow_failure: true
+    - if: $CI_PIPELINE_SOURCE == 'merge_request_event'
+      allow_failure: true
+  image:
+    name: registry.gitlab.com/fforster/hugolint:main
+  script:
+    - hugolint linkcheck --format=json $(find content -type f -name '*.md' | grep -v ' ') >linkcheck.json
+    - hugolint missinglinks --num 30 $(find content -name '*.md' | grep -v ' ') >missinglinks.txt 2>/dev/null
+    - head -n 20 missinglinks.txt
+  artifacts:
+    when: always
+    expire_in: 1 month
+    paths:
+      - linkcheck.json
+      - missinglinks.txt
+    reports:
+      codequality: linkcheck.json
+
 ####################################
 ##
 ## NOTIFY STAGE
@@ -187,7 +234,7 @@ markdownlint:
 ####################################
 
 post_comment_on_failure:
-  needs: ["markdownlint"]
+  needs: ["markdownlint", "handbooklint"]
   when: on_failure
   stage: notify
   image:
@@ -195,8 +242,10 @@ post_comment_on_failure:
     entrypoint: ["/bin/sh", "-c"]
   script:
     - apk add yq
+    - getconf ARG_MAX
+    - ./scripts/parse-codequality-report.sh -r ./codequality.json > msg.txt
     - glab auth login -t $MR_UPDATE_TOKEN
-    - glab mr note $CI_MERGE_REQUEST_IID -m "$(./scripts/parse-codequality-report.sh -r ./markdownlint-cli2-codequality.json)"
+    - glab mr note --unique $CI_MERGE_REQUEST_IID -m "$(cat msg.txt)"
   rules:
   - <<: *security-scanning-rules
 

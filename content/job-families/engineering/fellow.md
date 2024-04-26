@@ -2,7 +2,7 @@
 title: Engineering Fellow
 ---
 
-The Engineering Fellow role is the individual contributor [equivalent](/handbook/company/team/structure/#layers) to a VP of Engineering.
+The Engineering Fellow role is the individual contributor [equivalent](/handbook/company/structure/#layers) to a VP of Engineering.
 
 ## Job Grade
 
@@ -22,7 +22,7 @@ The Engineering Fellow is a [grade 12](/handbook/total-rewards/compensation/comp
 - Share expertise across the entire organization.
 - Ship extremely high-impact features and improvements with minimal guidance and support from other members of the organization.
 - Own the Architecture Evolution Workflow, including the Blueprint Review meeting.
-- Manage the [Engineering Fellow Shadow Program](https://about.gitlab.com/handbook/engineering/fellow/shadow/).
+- Manage the [Engineering Fellow Shadow Program](/handbook/engineering/fellow/shadow/).
 - Help Engineering avoid the architecture ["ivory tower"](https://en.wikipedia.org/wiki/Ivory_tower).
 
 ## Specializations

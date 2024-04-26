@@ -1,11 +1,8 @@
 ---
 title: "GitLab France S.A.S. Remote Work Charter"
 description: GitLab France S.A.S. Remote Work Charter - French and English language versions.
+controlled_document: true
 ---
-
-{{% alert title="This is a Controlled Document" color="danger" %}}
-Inline with GitLab's regulatory obligations, changes to [controlled documents]({{< ref "controlled-document-procedure" >}}) must be approved or merged by a code owner. All contributions are welcome and encouraged.
-{{% /alert %}}
 
 ## Français: GITLAB FRANCE S.A.S. CHARTE SUR LE TÉLÉTRAVAIL
 
@@ -139,7 +136,7 @@ Le membre de l’équipe veillera, en particulier, à ne transmettre aucune info
 
 Les frais induits par l'utilisation du domicile d’un collaborateur du télétravail (wifi, chauffage, électricité, etc) seront couverts par l'entreprise conformément aux règles légales applicables au moment de l’engagement de la dépense.
 
-Ceci signifie que vous recevrez montant de 57,20 euros minimum par mois, dans les limites fixées par notre [politique en matière de frais] (https://handbook.gitlab.com/handbook/finance/expenses/), et sous réserve que vos dépenses de télétravail réellement induites mensuellement s’élèvent, au moins, à ce moment.
+Ceci signifie que vous recevrez montant de 57,20 euros minimum par mois, dans les limites fixées par notre [politique en matière de frais](https://handbook.gitlab.com/handbook/finance/expenses/), et sous réserve que vos dépenses de télétravail réellement induites mensuellement s’élèvent, au moins, à ce moment.
 
 Actuellement, ceci est intégré à notre processus général de gestion des frais et des remboursements par le biais de notre outil d'évaluation des frais (Navan).
 
@@ -246,7 +243,7 @@ For each day of remote work, the team member shall work the applicable reference
 
 For remote work days, the working time is counted according to a self-reporting system, the monthly balance of which must be submitted to the manager without request at the end of each month. The Payroll handbook page provides more information in this regard with the [Global Upside - France](/handbook/finance/payroll/#global-upside---france) section.
 
-5.2 *Modalities for work load regulation*
+5.2 *Modalities for workload regulation*
 
 Remote work must not increase the team member's usual workload or jeopardise the proper performance of the work.
 
@@ -278,14 +275,14 @@ The team member undertakes to take note of the instructions for use of the equip
 
 If necessary and at the request of the Company, the team member undertakes to follow the necessary training on the installation, use and maintenance of this equipment and, during the remote work period, that is related to its adaptation.
 
-Finally, the team member undertakes, under penalty of dismissal, to use the equipment provided by the Company in accordance with the [acceptable use policy](/handbook/people-group/acceptable-use-policy/) .
+Finally, the team member undertakes, under penalty of dismissal, to use the equipment provided by the Company in accordance with the [acceptable use policy](/handbook/people-group/acceptable-use-policy/).
 
 The Company undertakes to bear the costs of maintenance, repair and, if necessary, replacement of the equipment.
 All equipment provided by the Company remains its property and as such is exempt from seizure.
 
 The team member undertakes to return the equipment provided by the Company at the end of the employment contract without delay.
 
-#### 7.1 INSURANCES
+#### 7. INSURANCES
 
 If the team member uses their domicile to work remotely, they undertake to inform their insurer of the fact that they are working at their domicile with equipment belonging to the Company and to provide the latter with a "multi-risk" home insurance certificate covering their domicile.
 The Company shall bear the resulting additional insurance costs – if there are any – under the conditions indicated in article 9 of the Charter.
@@ -300,7 +297,7 @@ In particular, the team member will ensure that no information is passed on to t
 
 The expenses incurred by the use of the team member's domicile for remote work purposes (wifi, heating, electricity, etc) will be covered by the Company in accordance with the local regulations applicable at the time of expense.
 
-This means that you shall receive a minimum payment of €57.20 per month, up to the limits set out in our [expenses policy](/handbook/finance/expenses/) and provided that your remote work expenses actually incurred monthly reach, at least, this amount.
+This means that you shall receive a minimum payment of €57.20 per month, up to the limits set out in our [expenses policy](/handbook/finance/expenses/) and provided that your remote work expenses actually incurred monthly reach at least this amount.
 
 Currently, this is incorporated into our general approach to managing expenses and reimbursement via our expensing tool (Navan).
 

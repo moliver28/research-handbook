@@ -16,7 +16,7 @@ GitLab uses Impartner as our primary Partner Relationship Management (PRM) platf
 
 ## MDF Request Form
 
-Channel Partners can complete the request form for MDF directly from the Partner Portal. We can make edits to the form, which is built using  the Module Form Builder (MFB). This dynamic page is editable by Gitlab by anyone with the correct permissions in PRM. 
+Channel Partners can complete the request form for MDF directly from the Partner Portal. We can make edits to the form, which is built using  the Module Form Builder (MFB). This dynamic page is editable by GitLab by anyone with the correct permissions in PRM. 
 
 1. From the PRM, you will want to access the CMS editor using the red pen icon on the top right.
 

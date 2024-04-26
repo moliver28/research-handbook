@@ -29,7 +29,7 @@ These standard vendor  terms and conditions (the “**Agreement**”) is between
 
 1.10 “**GitLab**” means GitLab Inc. and any GitLab Affiliate identified in a Transaction Document.
 
-1.11 “**GitLab Code of Conduct**” means the published document, updated from time to time, found at https://about.gitlab.com/handbook/people-group/code-of-conduct/.
+1.11 “**GitLab Code of Conduct**” means the published document, updated from time to time, found at https://handbook.gitlab.com/handbook/legal/partner-code-of-ethics/.
 
 1.12 “**GitLab Data**” means all GitLab information or data, including without limitation, personal data and data otherwise defined by applicable data privacy laws and regulations used by Vendor in connection with the Agreement.
 

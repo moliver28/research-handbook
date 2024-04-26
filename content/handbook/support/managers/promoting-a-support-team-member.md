@@ -30,7 +30,7 @@ as soon as the documents are ready for review.
       [this Epic](https://gitlab.com/groups/gitlab-com/support/-/epics/188)
 - Add a link to the document into the Support Promotions Projects spreadsheet
 - Complete the document with the Support Engineer
-- Create a public Google Docs view link to the document for everyone at Gitlab
+- Create a public Google Docs view link to the document for everyone at GitLab
   to allow sharing, as this is the document that will be used in the promotion
   calibration and approval process
 - Discuss the promotion candidate with your manager

@@ -10,13 +10,13 @@ description: "Find some tips and lessons learned for delivering a successful Git
 
 
 
-Making the transition from onsite trainer to remote trainer can be a challenge—there's a lot more you need to do to keep people engaged when the distractions of email, slack, browsing, and environment are outside of our direct control. Here are some tips and tricks developed by the GitLab Professional Services team, for presenters facilitating remote training sessions using video conferencing and webinar tools.
+Making the transition from onsite trainer to remote trainer can be a challenge — there's a lot more you need to do to keep people engaged when the distractions of email, slack, browsing, and environment are outside of our direct control. Here are some tips and tricks developed by the GitLab Professional Services team, for presenters facilitating remote training sessions using video conferencing and webinar tools.
 
 ### Tips
 
 #### Tip 1: Turn on video for all participants as appropriate
 
-When you can see participants it keeps them accountable for paying attention, and you’ll be able to observe the non-verbal cues indicating a wane in attention. On the other hand, if you have a large number of participants having everyone's video on at the same time can be distracting -- in that case, you can invite specific participants to turn on their video when they are speaking. Also keep in mind that some participants may not be comfortable with sharing their video -- be sensitive to this and do not make video sharing a requirement.
+When you can see participants it keeps them accountable for paying attention, and you’ll be able to observe the non-verbal cues indicating a wane in attention. On the other hand, if you have a large number of participants, having everyone's video on at the same time can be distracting -- in that case, you can invite specific participants to turn on their video when they are speaking. Also keep in mind that some participants may not be comfortable with sharing their video -- be sensitive to this and do not make video sharing a requirement.
 
 
 #### Tip 2: Take frequent breaks
@@ -33,20 +33,21 @@ At least every 10-15 minutes, ask attendees a question they must respond to. You
 
 #### Tip 5: Encourage attendees to ask questions
 
-At the beginning of the session show attendees how to ask questions using your video conferencing tools, whether that is virtually raising their hand or submitting questions using a Chat or a Q&A tool. Take frequent designated Q&A breaks at least once or twice per 60 minutes of instruction. In terms of the kind of questions you elicit, you may want to get to a point where the audience is not regurgitating the past. Rather, your learners begin to intuit what might be possible, and in that way, they begin to project their intuitions about the concept into the future. This type of engagement by the learners creates positive instructional opportunities, which can can reduce learners' resistance to public speaking and improve observable attentiveness (e.g. smiling, nodding, shaking the head, using reactions, and chatting to everyone with questions).
+At the beginning of the session show attendees how to ask questions using your video conferencing tools, whether that is virtually raising their hand or submitting questions using a Chat or a Q&A tool. Take frequent designated Q&A breaks at least once or twice per 60 minutes of instruction. In terms of the kind of questions you elicit, you may want to get to a point where the audience is not regurgitating the past. Rather, your learners begin to intuit what might be possible, and in that way, they begin to project their intuitions about the concept into the future. This type of engagement by the learners creates positive instructional opportunities, which can reduce learners' resistance to public speaking and improve observable attentiveness (e.g. smiling, nodding, shaking the head, using reactions, and chatting to everyone with questions).
 
 #### Tip 6: Have a team member join as a moderator
 
-A team member can play the role of session manager, managing questions coming in from the chat and being time keeper, reminding you of breaks and Q&A points.
+A team member can play the role of session manager, managing questions coming in from the chat and being timekeeper, reminding you of breaks and Q&A points.
 
-#### Tip 7: Minimize the text on your slides**:
+#### Tip 7: Minimize the text on your slides:
 
-- Avoid using text on your slides and use them as visuals to reinforce your key points.     * Include notes for yourself in the presenter notes area of your slides but use these only as key points -- do not read them out loud verbatim. Your audience will be turned off listening to you read.
+- Avoid using text on your slides and use them as visuals to reinforce your key points.     
+- Include notes for yourself in the presenter notes area of your slides but use these only as key points -- do not read them out loud verbatim. Your audience will be turned off listening to you read.
 - Provide attendees with access to the slides as soon as possible after the session.
 
 #### Tip 8: Build in frequent activities
 
-Include at least one activity for each hour of instruction. If possible adjust the flow of your content so that attendees can jump right into their first activity within the first 20 minutes of your session.
+Include at least one activity for each hour of instruction. If possible, adjust the flow of your content so that attendees can jump right into their first activity within the first 20 minutes of your session.
 
 ### Tricks
 
@@ -54,11 +55,11 @@ Here are some of our go-to techniques to encourage remote engagement and collabo
 
 #### Group note taking
 
-1. Create a shared Agenda/Notes document, for example a Google doc, and include the link to the file for all attendees to access.
-1. Populate the document with an outline of the topics you plan to cover.
-1. Direct attendees to take on group responsibility for taking notes during the session, especially when you are answering questions so that your responses are captured in the file.
-1. Make the file available to attendees after the session for their reference.
-1. If you have a post-session quiz you can include the link in this document.
+- Create a shared Agenda/Notes document, for example a Google doc, and include the link to the file for all attendees to access.
+- Populate the document with an outline of the topics you plan to cover.
+- Direct attendees to take on group responsibility for taking notes during the session, especially when you are answering questions so that your responses are captured in the file.
+- Make the file available to attendees after the session for their reference.
+- If you have a post-session quiz you can include the link in this document.
 
 #### Pinning
 
@@ -73,11 +74,11 @@ If your video conferencing software includes “pinning” capabilities, use the
 
 If your video conferencing software includes “polling” capabilities, use them to increase engagement and interest.
 
-1. Set up polling questions in advance of the session and plan specific points in your session flow to display each question.
-1. Introduce each polling question and ask all attendees to participate in responding.
-1. Give attendees 30-60 seconds to respond, giving them a time check about 10 seconds prior to closing the poll
-1. Display the results of the poll for all attendees to view
-1. Share your thoughts about the poll results and connect the results to the topics you are about to cover.
+- Set up polling questions in advance of the session and plan specific points in your session flow to display each question.
+- Introduce each polling question and ask all attendees to participate in responding.
+- Give attendees 30-60 seconds to respond, giving them a time check about 10 seconds prior to closing the poll
+- Display the results of the poll for all attendees to view
+- Share your thoughts about the poll results and connect the results to the topics you are about to cover.
 
 #### Recording
 
@@ -91,18 +92,18 @@ Be sure to practice ahead of time with pinning your video conferencing Chat or Q
 
 #### Taking and ending breaks
 
-1. When it’s time to take a break, let attendees know what time they need to return.
-1. Add a note into your Q&A or Chat tool to indicate you are on a break and what time attendees should return.
-1. When the break is finished, ask attendees to use the “raise hand” tool to indicate they are back if you aren’t able to see everyone on video.
+- When it’s time to take a break, let attendees know what time they need to return.
+- Add a note into your Q&A or Chat tool to indicate you are on a break and what time attendees should return.
+- When the break is finished, ask attendees to use the “raise hand” tool to indicate they are back if you aren’t able to see everyone on video.
 
 #### Avoid too much of a good thing
 
-1. If your video conferencing platform offers multiple tools for communicating with participants -- for example Chat and Q&A -- consider using just one of these tools instead of both. This will reduce complexity and make it easier for participants to have all communication in one place. Zoom Webinars allows you to restrict Chat to panelist usage so that attendees can only use the Q&A tool for communicating their questions.
-1. Use a mixture of lecture, questions, discussions, demos, and lab activities. Don't rely on just one technique -- participants can become bored when too much time is spent using one method. On the other hand, avoid too much mixing or alternating too frequently between techniques, which can become disjointed or confusing for participants. It's all about finding the right balance for your audience.
+- If your video conferencing platform offers multiple tools for communicating with participants -- for example Chat and Q&A -- consider using just one of these tools instead of both. This will reduce complexity and make it easier for participants to have all communication in one place. Zoom Webinars allows you to restrict Chat to panelist usage so that attendees can only use the Q&A tool for communicating their questions.
+- Use a mixture of lectures, questions, discussions, demos, and lab activities. Don't rely on just one technique -- participants can become bored when too much time is spent using one method. On the other hand, avoid too much mixing or alternating too frequently between techniques, which can become disjointed or confusing for participants. It's all about finding the right balance for your audience.
 
 #### Share the content, not your screen
 
-Adhering to the F-shaped pattern for reading, it makes little sense to share your full screen. This UX rule may affect the way in which presentation content is developed: minimize the amount of right, white space that the leaners need to see. Also, when presenting content, employ the F-shaped rule where the first line is the topic, and the following 2-3 lines are supporting sentences. From a development perspective, presentations with bullets would only include 3-5 topics, with supporting content in the presentation's speaker's notes.  
+Adhering to the F-shaped pattern for reading, it makes little sense to share your full screen. This UX rule may affect the way in which presentation content is developed: minimize the amount of right, white space that the learners need to see. Also, when presenting content, employ the F-shaped rule where the first line is the topic, and the following 2-3 lines are supporting sentences. From a development perspective, presentations with bullets would only include 3-5 topics, with supporting content in the presentation's speaker's notes.  
 
 #### If you're sharing your Terminal window, share your Terminal window
 

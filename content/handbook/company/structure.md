@@ -213,7 +213,7 @@ Members of the management group are expected to demonstrate leadership in the wa
 
 #### Board Members
 
-[Board Members]({{< ref "/job-families/board-of-directors/board_member" >}}) serve on the GitLab board and participate in board meetings and board committees, as well as other responsibilities.
+[Board Members](/job-families/board-of-directors/board_member) serve on the GitLab board and participate in board meetings and board committees, as well as other responsibilities.
 
 ## CEO Skips
 
@@ -233,7 +233,7 @@ As an example, the [Functional Leaders meets after every e-group offsite](/handb
 
 ## Directs-Group
 
-Directs-Group is a group made up of a senior leader from each function. These leaders operate as extensions of E-Group and support key initiatives within a six to nine month rotation. The CoST to the CEO is responsible for organizing and orienting this group in collaboration with the cohorts E-Group Sponsor.
+Directs-Group is a group made up of a senior leader from each function. These leaders operate as extensions of E-Group and support key initiatives within a six to nine month rotation. The Office of the CEO is responsible for organizing and orienting this group in collaboration with the cohorts E-Group Sponsor.
 
 ### Directs-Group Program Objectives
 
@@ -251,7 +251,7 @@ Directs-Group is a group made up of a senior leader from each function. These le
 
 ### Directs-Group Selection Process
 
-1. The CoST to the CEO kicks off the selection process three months in advance of every cohort end date to allow adequate time for Directs-Group identification and onboarding in advance of first E-Group Offsite and appropriate transition from one Directs group to another.
+1. The Office of the CEO kicks off the selection process three months in advance of every cohort end date to allow adequate time for Directs-Group identification and onboarding in advance of first E-Group Offsite and appropriate transition from one Directs group to another.
 1. Each E-Group member identifies first and second choice candidates. E-Group will discuss if TMRG criteria is not met within first choice candidate selections.
 1. Candidates will be identified and notified at least 45 days before the start of the new cohort in which they would serve in the role.
 1. If a candidate declines their nomination, the function leader can nominate a new candidate for consideration.
@@ -259,7 +259,7 @@ Directs-Group is a group made up of a senior leader from each function. These le
 #### Directs-Group Selection Criteria
 
 Each Directs-Group cohort must meet the following criteria:
-1. High growth and high performance team members in good standing
+1. High growth and high performing team members in good standing
 1. Director + who are direct reports to an E-Group member
 1. Folks who consistently demonstrate [CREDIT Values](/handbook/values/)
 1. ⅓ or more of each cohort needs to be comprised of members from [underrepresented groups](/handbook/company/culture/inclusion/#examples-of-select-underrepresented-groups)
@@ -378,7 +378,7 @@ Our groups operate on the principle of [stable counterparts](/handbook/leadershi
 For example, we have a Product Manager, Product Marketing Manager, Engineering Manager, Content Marketer, Backend Developers, Frontend Developers, and Product Designers that are all dedicated to a group called "Package". Collectively, these individuals form the "Package group". The word "Package" appears in their titles as a specialty, and in some cases, their team name.
 
 We distinguish between types of stable counterparts to these Product Groups with:
-- Primary Stable Counterparts - Team members assigned to our Product hierarchy (typically groups) from Product, Development, Product Design and Quality functions which we call the [Quad](https://about.gitlab.com/handbook/engineering/quality/quality-engineering/quad-planning/).
+- Primary Stable Counterparts - Team members assigned to our Product hierarchy (typically groups) from Product, Development, Product Design and Quality functions which we call the [Quad](/handbook/engineering/infrastructure/test-platform/quad-planning/).
 - Complete Stable Counterparts - All team members assigned to product hierarchy from functions outside of the primary functions and defined in our [product categories page](/handbook/product/categories/). For example - we assign stable counterparts from Support, Product Marketing and Customer Success who are all considered part of the complete stable counterparts.
 
 A group has no reporting lines because we [don't want a matrix organization](/handbook/leadership/#no-matrix-organization).
@@ -415,7 +415,7 @@ To get started, feel free to make a copy of the [Team Health Survey Template](ht
 
 ##### Building High Performing Product Groups Learning Session
 
-The [Learning & Development](/handbook/people-group/learning-and-development/) team can facilitate a live learning session with product groups to [enable high performance](/handbook/leadership/build-high-performing-teams/). The [Drexler-Sibbet model](https://www.kaizenko.com/drexler-sibbet-team-performance-model/) is a framework to lead teams through stages towards high performance. During the live learning session, a L&D facilitator will collaborate with a product group to define activities to align team members on what needs to occur to achieve high performance. If interested in scheduling a session, contact `#learninganddevelopment` to learn more.
+The [Learning & Development](/handbook/people-group/learning-and-development/) team can facilitate a live learning session with product groups to [enable high performance](/handbook/leadership/#strategies-to-build-high-performing-teams). The [Drexler-Sibbet model](https://www.kaizenko.com/drexler-sibbet-team-performance-model/) is a framework to lead teams through stages towards high performance. During the live learning session, a L&D facilitator will collaborate with a product group to define activities to align team members on what needs to occur to achieve high performance. If interested in scheduling a session, contact `#learninganddevelopment` to learn more.
 
 #### Setting Product Group for Team Members
 
@@ -439,7 +439,7 @@ Our belief is that we can guarantee a higher rate of success by incubating ideas
 1. There is not enough code for multiple people to work on without running into merge conflicts.
 1. Starting work earlier allows for more time for other people to contribute. We need to have a head start many years ahead of commercialization.
 
-As a matter of process, we require that Single-engineer groups take part in our [Software Demo Process](https://about.gitlab.com/handbook/engineering/#engineering-demo-process) as a way to collaborate asyncronously with stakeholders, get iterative feedback, and maintain at least minimal alignment with the rest of GitLab while keeping their autonomy
+As a matter of process, we require that Single-engineer groups take part in our [Software Demo Process](/handbook/engineering/demos/#single-engineer-groups-demo) as a way to collaborate asyncronously with stakeholders, get iterative feedback, and maintain at least minimal alignment with the rest of GitLab while keeping their autonomy
 
 If the group finds great success, as measured by adoption, and needs to drive deeper category maturity then the next step is to consider forming a multi-person group. Sometimes the category is complete and the group can successfully dissolve. There are other times when the category does not yeild the adoption. We will gather the lessons learned and consider either dissolving the group or investing further based on the learnings.
 
@@ -485,7 +485,7 @@ The [MR](https://gitlab.com/gitlab-com/www-gitlab-com/-/merge_requests/66180) de
 
 ### Working Groups
 
-A [working group]({{< ref "working-groups" >}}) is a specific type of group that assembles for a period of time to accomplish a business goal. Working groups have defined responsibilities and meet regularly. Ideally a working group can disband when the goal is complete to avoid accrued bureaucracy.
+A [working group](/handbook/company/working-groups) is a specific type of group that assembles for a period of time to accomplish a business goal. Working groups have defined responsibilities and meet regularly. Ideally a working group can disband when the goal is complete to avoid accrued bureaucracy.
 
 ### Middle Management
 
@@ -517,7 +517,7 @@ Please add these labels to yourself and assign the merge request to your manager
 An expertise is not listed in a role description, unlike a [specialist](/job-families/specialist/).
 
 For Production Engineers, a listing as "Expert" can also mean that the individual
-is actively [embedded with](https://about.gitlab.com/handbook/engineering/infrastructure/#embedded) another team.
+is actively [embedded with](/handbook/engineering/infrastructure/#embedded) another team.
 Following the period of being embedded, they are experts in the regular sense
 of the word described above.
 
@@ -562,7 +562,7 @@ Some of individual contributors (without any direct reports) have manager in the
 
 ### "Team", "team member", and "community" terminology
 
-The term "team" is reserved for the smallest group. A team is defined as a manager and their reports. "Team" does not refer to a group or [department](https://about.gitlab.com/handbook/engineering/development/).
+The term "team" is reserved for the smallest group. A team is defined as a manager and their reports. "Team" does not refer to a group or [department](/handbook/engineering/development/).
 
 We refer to all the people working for the company as "team members". This is a bit confusing, given that "team" refers to a small group, but we believe "team member" is preferable over all the alternatives we considered:
 

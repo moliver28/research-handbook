@@ -26,17 +26,17 @@ This page explains the main choices available to you. Some guidelines:
 
 Have fun!
 
-## Testing on GitLab.com
-
-The [IT Ops](/handbook/business-technology/team-member-enablement/#gitlab-it-team) team handle provisioning of paid tier test groups on GitLab.com. If you require a group of your own to have a paid tier, please submit an [access request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=GitlabCom_Licensed_Demo_Group_Request). This process will ensure that all entitlements are removed during processes such as staff member offboarding.
 
 
 ## Testing Environment License
 
-To request a license for testing, you will need to create an [internal issue](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=GitLab_Team_Member_License_request).
+If you require a license for testing:
 
-Please keep in mind *you can't generate licenses for customers* only for testing
-purposes.
+ - For a **self-managed instance**, use the [Support Super Form](https://support-super-form-gitlab-com-support-support-op-651f22e90ce6d7.gitlab.io/).
+ - For **GitLab.com**, individual test namespaces with licenses pre-applied have been provisioned as part of your onboarding.
+
+
+Please keep in mind *you can't generate licenses for customers*, only for your own testing purposes.
 
 ### AWS Marketplace Resources
 
@@ -90,8 +90,8 @@ You can also use the [support-resources](https://gitlab.com/gitlab-com/support/s
 Some advantages of using the `support-resources` automation project over Sandbox Cloud are:
 
 1. [Frugal times](https://gitlab.com/gitlab-com/support/support-resources#frugal-resources) - this is a key feature that allows for resources to be turned off (and on) based on a customizable schedule (GCP only charges for uptime). If you're using [GET](https://gitlab.com/gitlab-org/gitlab-environment-toolkit/) to spin up a 10k reference architecture (for example), the cost can be upwards of $250 USD/day. Frugal times lets you halve that by automatically turning it off when you're not online.
-1. Easy provisioning of streamlined complex topologies - with only a few clicks or a couple of commands, one can provision complex Gitlab set-ups (Gitlab installed on GKE, Gitlab+Runner+Elasticsearch stack, etc) on any available version.
-1. Easily troubleshooting customer tickets by replicating their set-up in minutes and easily reproducing their issues. The Gitlab instance can be provisioned as already seeded with Groups, Projects, Issues, MRs, etc. Because they are easy to set-up and, hence disposable, the instances can be shared with customers so they can themselves reproduce or showcase an issue or experiment and collaborate.
+1. Easy provisioning of streamlined complex topologies - with only a few clicks or a couple of commands, one can provision complex GitLab set-ups (GitLab installed on GKE, GitLab+Runner+Elasticsearch stack, etc) on any available version.
+1. Easily troubleshooting customer tickets by replicating their set-up in minutes and easily reproducing their issues. The GitLab instance can be provisioned as already seeded with Groups, Projects, Issues, MRs, etc. Because they are easy to set-up and, hence disposable, the instances can be shared with customers so they can themselves reproduce or showcase an issue or experiment and collaborate.
 1. Easy ramp-up and experimentation for various training modules - running before walking has never been easier. For example for someone taking the HA&Scale-out module, a good first step could be to create a [3K reference arch](https://docs.gitlab.com/ee/administration/reference_architectures/3k_users.html) to poke around and see how everything is set-up, before actually creating their own HA set-up, or maybe just use the 3K as a reference.
 1. Security - Support-resources allows the ports reviewed by our security team and if those were to change, we have a centralized way of imposing and rolling out that change across instances.
 1. Terraform development - while continuously developing the project a few support engineers have become very familiar with `terraform`, `ansible` and general automation guidelines (could include here `gcloud`, `bash` and `chef`). This is becoming more and more important as we are seeing the adoption of [GET](https://gitlab.com/gitlab-org/gitlab-environment-toolkit/).
@@ -105,7 +105,7 @@ There's also a few disadvantages to using the project:
 
 #### GCP GKE Kubernetes Cluster
 
-Please use your [GitLab Sandbox Cloud](/handbook/infrastructure-standards/realms/sandbox/#how-to-get-started) GCP project to create a GCP Kubernetes (GKE) cluster. You can create a GKE cluster manually from the console or you can use the [Support GKE cluster template](https://gitlab.com/gitlab-com/infra-standards/project-templates/support-gke-cluster-template) (for an empty GKE cluster) or  [Support GitLab GKE cluster template](https://gitlab.com/gitlab-com/infra-standards/project-templates/support-gitlab-gke-template) (for a GKE cluster with a Gitlab helm deployment) from your [GitLab Sandbox account(https://gitlabsandbox.cloud/cloud). Click [here](/handbook/infrastructure-standards/realms/sandbox/#how-to-create-a-terraform-environment) for more information on spinning up resources with terraform in the GitLab Sandbox.
+Please use your [GitLab Sandbox Cloud](/handbook/infrastructure-standards/realms/sandbox/#how-to-get-started) GCP project to create a GCP Kubernetes (GKE) cluster. You can create a GKE cluster manually from the console or you can use the [Support GKE cluster template](https://gitlab.com/gitlab-com/infra-standards/project-templates/support-gke-cluster-template) (for an empty GKE cluster) or  [Support GitLab GKE cluster template](https://gitlab.com/gitlab-com/infra-standards/project-templates/support-gitlab-gke-template) (for a GKE cluster with a GitLab helm deployment) from your [GitLab Sandbox account](https://gitlabsandbox.cloud/cloud). Click [here](/handbook/infrastructure-standards/realms/sandbox/#how-to-create-a-terraform-environment) for more information on spinning up resources with terraform in the GitLab Sandbox.
 
 **Note:** If you are using GKE to test GitLab Runners, note that GitLab Runners require the use of [RBAC roles in GCP](https://cloud.google.com/kubernetes-engine/docs/how-to/role-based-access-control). The `support-resources` GCP project  does not allow the user enough permision to create the required roles, but you can do it with your personal [GitLab Sandbox Cloud](/handbook/infrastructure-standards/realms/sandbox/#how-to-get-started) GCP project
 
@@ -305,7 +305,7 @@ If you wish to test resources using a real domain name (instead of an IP address
 
 Test instances are, by default, publicly accessible on the Internet. Often, we need to test specific versions or configurations that may be vulnerable to remote compromise. It is your responsibility to secure your test instances to prevent them from being compromised and used to further attack our cloud environment.
 
-The [GitLab Red Team](https://about.gitlab.com/handbook/engineering/security/threat-management/red-team/) regularly scans GitLab's cloud environments for publicly accessible instances with known vulnerabilities. Instances vulnerable to known RCEs or other exploits detected through automated scans will be shut down without warning.
+The [GitLab Red Team](/handbook/engineering/security/threat-management/red-team/) regularly scans GitLab's cloud environments for publicly accessible instances with known vulnerabilities. Instances vulnerable to known RCEs or other exploits detected through automated scans will be shut down without warning.
 
 ### IP Filtering
 
@@ -329,7 +329,7 @@ For GitLab instances specifically, it's recommended that [LetsEncrypt is manuall
 
 #### Self-Signed Certificates
 
- Implementing TLS on any test instance that includes a login page can be done with a self-signed certificate if desired.  Self-signed certificates are free, suitable for testing environments, and encrypt ingress and egress traffic with the same ciphers as paid certificates.  The down-side is that self-signed certificates are not trusted by any browser or operating system and will therefore warn users of the risks when accessing a site that utilizes a self-signed (untrusted) certificate.  If external parties will be accessing your instance that should rely on your TLS implementation, it's best to include a signed certificate from a legitimate certificate authority.  
+ Implementing TLS on any test instance that includes a login page can be done with a self-signed certificate if desired.  Self-signed certificates are free, suitable for testing environments, and encrypt ingress and egress traffic with the same ciphers as paid certificates.  The down-side is that self-signed certificates are not trusted by any browser or operating system and will therefore warn users of the risks when accessing a site that utilizes a self-signed (untrusted) certificate.  If external parties will be accessing your instance that should rely on your TLS implementation, it's best to include a signed certificate from a legitimate certificate authority.
 
 Self-signed certicificates can be generated with a tool like [mkcert](https://mkcert.dev). Once `mkcert` has been installed, you can this command to generate a certificate file and a key file for `gitlab.example.com`:
 
@@ -485,7 +485,7 @@ Once installed, use `multipass help` to get an idea of what it can do. The gener
    read GL_VERSION
    apt install -y "gitlab-ee=$GL_VERSION-ee.0"
    ```
-  
+
    ***Please note:*** You need to replace the above password entry "your_root_password" with an alphanumeric password which is not a series of words and phrases otherwise you will encounter the error message "Password must not contain commonly used combinations of words and letters”.
 
 

@@ -299,7 +299,7 @@ Yes, for the customer’s overall license count to be accurate during the renewa
 The partner is concerned their customer may not be able to renew their instance before their grace period expires and they lose access. Can a temp license extension be granted to have additional time to process the renewal?
 </summary>
 
-Yes, you can [submit an internal support ticket](https://gitlab-com.gitlab.io/support/internal-requests-form/) to request a temp license to prevent the customer from losing access while the renewal is processed.
+Yes, you can [submit an internal support ticket](https://support-super-form-gitlab-com-support-support-op-651f22e90ce6d7.gitlab.io/) to request a temp license to prevent the customer from losing access while the renewal is processed.
 
 </details>
 
@@ -371,7 +371,7 @@ The partner requested that the purchase confirmation email with license/activati
 </summary>
 
 This can be actioned by either the GitLab Sales Rep or the partner:
-- The GitLab Sales Rep can [submit an internal support ticket](https://gitlab-com.gitlab.io/support/internal-requests-form/) to request that the support team send the purchase confirmation email to the same end user contact.
+- The GitLab Sales Rep can [submit an internal support ticket](https://support-super-form-gitlab-com-support-support-op-651f22e90ce6d7.gitlab.io/) to request that the support team send the purchase confirmation email to the same end user contact.
 - The partner that received the Gitlab invoice (i.e., Distributor for two-tier deal, Reseller for one-tier deal) can [submit a support ticket](https://support.gitlab.com/hc/en-us/requests/new) with the GitLab invoice attached to request the purchase confirmation email be resent to the same end user contact.
 
 </details>
@@ -381,7 +381,7 @@ This can be actioned by either the GitLab Sales Rep or the partner:
 The partner contacted me saying their customer did not receive the purchase confirmation email with license/activation code due to the PO/Quote listing the wrong end user contact. How can we send the purchase confirmation email to a different end user contact?
 </summary>
 
-The partner that received the Gitlab invoice (i.e., Distributor for two-tier deal, Reseller for one-tier deal) needs to [submit a support ticket](https://support.gitlab.com/hc/en-us/requests/new) with the GitLab invoice attached to request the purchase confirmation email be sent to a new end user contact.
+The partner that received the GitLab invoice (i.e., Distributor for two-tier deal, Reseller for one-tier deal) needs to [submit a support ticket](https://support.gitlab.com/hc/en-us/requests/new) with the GitLab invoice attached to request the purchase confirmation email be sent to a new end user contact.
 
 **Important to note**, the GitLab Sales Rep cannot change the end user contact post-sale on behalf of the partner or customer. The request to change the end user contact must either be submitted by the (i) partner that received our invoice as outlined above or (ii) customer contact listed as `Sold To Contact` on our final quote (i.e., the person that received the license).
 
@@ -392,6 +392,20 @@ The partner that received the Gitlab invoice (i.e., Distributor for two-tier dea
 The partner notified us that the customer is unable to use their GitLab Self-Managed activation code as they have an offline or air-gapped environment. How can we provide a legacy or offline license post-sale?
 </summary>
 
-Request approval from your VP via SFDC chatter to provide an offline or legacy license key for a closed-won opportunity. If/when VP approval is granted, [submit an internal support ticket](https://gitlab-com.gitlab.io/support/internal-requests-form/) to request an updated license be issued to the customer.
+Request approval from your VP via SFDC chatter to provide an offline or legacy license key for a closed-won opportunity. If/when VP approval is granted, [submit an internal support ticket](https://support-super-form-gitlab-com-support-support-op-651f22e90ce6d7.gitlab.io/) to request an updated license be issued to the customer.
+
+</details>
+
+<details>
+<summary markdown="span">
+The customer received an error stating they are out of Compute Minutes so their instance has stopped working. How can I quickly resolve this?
+</summary>
+
+The customer must add Compute Minutes via the same procurement path as the original order (i.e., if they purchased the original subscription through a partner, they must purchase the additional minutes through the same partner). Please take the following steps:
+
+1. Initiate the procurement process. For channel deals, GitLab Sales to provide the partner a quote for additional Compute Minutes. For AWS/GCP deals, GitLab Sales to generate a private offer to the customer for additional Compute Minutes
+2. GitLab Sales to submit an internal support ticket to request that the support team add minutes to the customer's instance to get the customer back online while the GitLab procurement cycle is completed. To submit an internal support ticket, use the `Other> Other License & Renewals Related Issue request type`, and provide as much information as possible in the request to help drive quick review and approval (e.g., customer is locked out and required to wait on our procurement cycle since they purchase via partner, needs additional minutes to get back online)
+
+**Important to Note**, The Support Team will not keep track nor remove any compute minutes, therefore GitLab Sales should request a modest amount of minutes to cover the time period necessary while waiting for the sale to process.
 
 </details>

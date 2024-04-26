@@ -13,7 +13,7 @@ When planning, Product Managers plan to GitLab milestones. Here is the process f
 
 ## Product Milestone Creation
 
-**One quarter ahead**, the Product Operations team will create all of the necessary milestones for the next quarter. Our standard practice is to have the Major [release](/releases/) every May, resulting in:
+**One quarter ahead**, the Engineering team, in partnership with the Product team, will create all of the necessary milestones for the next quarter. Our standard practice is to have the Major [release](https://about.gitlab.com/releases/) every May, resulting in:
 
 ```
 XX.0 - May
@@ -42,9 +42,9 @@ To update the milestones in GitLab, Product Operations follows these steps:
 1. Click on `New milestone` in the top right
 1. Title the milestone with the `dot` release that makes sense.
    - Note: We iterate through the `.0` and further for each release with the `.0` release every May.
-1. Set the start date to be the Saturday prior to the previous releases [release date](/releases/)
+1. Set the start date to be the Saturday prior to the previous releases [release date](https://about.gitlab.com/releases/)
 1. Set the end date to be the Friday prior to the third Thursday of the release month
-1. Closing milestones happens in the [Engineering workflow](https://about.gitlab.com/handbook/engineering/workflow/#milestone-cleanup)
+1. Closing milestones happens in the [Engineering workflow](/handbook/engineering/workflow/#milestone-cleanup)
 
 ### Step 2: .com
 
@@ -53,13 +53,13 @@ To update the milestones in GitLab, Product Operations follows these steps:
 1. Click on `New milestone` in the top right
 1. Title the milestone with the `dot` release that matches `.org`.
    - Note: We iterate through the `.0` and further for each release with the `.0` release every May.
-1. Set the start date to be the Saturday prior to the previous releases [release date](/releases/)
+1. Set the start date to be the Saturday prior to the previous releases [release date](https://about.gitlab.com/releases/)
 1. Set the end date to be the Friday prior to the third Thursday of the release month
-1. Closing milestones happens in the [Engineering workflow](https://about.gitlab.com/handbook/engineering/workflow/#milestone-cleanup)
+1. Closing milestones happens in the [Engineering workflow](/handbook/engineering/workflow/#milestone-cleanup)
 
 ## Understanding Releases
 
-The [release definitions](https://about.gitlab.com/handbook/engineering/releases/) are maintained by the Engineering Team and we run the end of each Milestone on the [release date](https://about.gitlab.com/handbook/engineering/releases/).
+The [release definitions](/handbook/engineering/releases/) are maintained by the Engineering Team and we run the end of each Milestone on the [release date](/handbook/engineering/releases/).
 
 ## Product Milestones Usage
 
@@ -69,4 +69,4 @@ The [release definitions](https://about.gitlab.com/handbook/engineering/releases
 
 ## Relevant links
 
-- [Engineering release definitions](https://about.gitlab.com/handbook/engineering/releases/)
+- [Engineering release definitions](/handbook/engineering/releases/)

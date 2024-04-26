@@ -50,8 +50,8 @@ GitLab Contact: [Melissa Ushakov](https://gitlab.com/mushakov)
 
 | Volunteer   | Start  | End |
 |-------------|--------|-----|
-| [Melissa Ushakov](/company/team/#mushakov)      |   February 2021     |   TBD  |
-| [Chad Woolley](/company/team/#cwoolley-gitlab)     |    February 2021     |   TBD  |
+| [Melissa Ushakov](/handbook/company/team/#mushakov)      |   February 2021     |   TBD  |
+| [Chad Woolley](/handbook/company/team/#cwoolley-gitlab)     |    February 2021     |   TBD  |
 
 ### [FreeCodeCamp](https://www.freecodecamp.org/)
 
@@ -63,11 +63,11 @@ GitLab Contact: [Greg Myers](https://gitlab.com/greg)
 
 | Volunteer                                      | Start      | End | Topic                                                                   |
 | ---------------------------------------------- | ---------- | --- | ----------------------------------------------------------------------- |
-| [Wayne Haber](/company/team/#whaber)           | March 2021 | TBD | Technical career advice                                                 |
-| [Greg Myers](/company/team/#greg)              | March 2021 | TBD | HTML/CSS, Project feedback, Technical career advice, Tutorials & Guides |
-| [Gerardo Gutierrez](/company/team/#ggutierrez5) | March 2021 | TBD | HTML/CSS, Python, Español, Javascript                                   |
-| [Daniel Parker](/company/team/#dparker)       | March 2021 | TBD | Javascript, Python, HTML/CSS, Project feedback, Technical career advice |
-| [Imre Farkas](/company/team/#ifarkas)          | March 2021 | TBD | Python, Technical career advice, Tutorials & Guides                     |
+| [Wayne Haber](/handbook/company/team/#whaber)           | March 2021 | TBD | Technical career advice                                                 |
+| [Greg Myers](/handbook/company/team/#greg)              | March 2021 | TBD | HTML/CSS, Project feedback, Technical career advice, Tutorials & Guides |
+| [Gerardo Gutierrez](/handbook/company/team/#ggutierrez5) | March 2021 | TBD | HTML/CSS, Python, Español, Javascript                                   |
+| [Daniel Parker](/handbook/company/team/#dparker)       | March 2021 | TBD | Javascript, Python, HTML/CSS, Project feedback, Technical career advice |
+| [Imre Farkas](/handbook/company/team/#ifarkas)          | March 2021 | TBD | Python, Technical career advice, Tutorials & Guides                     |
 
 Coaches interested in helping others in the freeCodeCamp community are encouraged to join the [freeCodeCamp Forum](https://forum.freecodecamp.org/) to help provide guidance and answer questions.
 
@@ -83,11 +83,11 @@ GitLab Contact: [Roos Takken](https://gitlab.com/rtakken)
 
 | Volunteer                                 | Start        | End   |
 |-------------------------------------------|--------------|-------|
-| [Christina Hupy](/company/team/#c_hupy)   | January 2021 |TBD    |
-| [Daniel Parker](/company/team/#dparker)  | January 2021 |TBD    |
-| [Lindsay Kerr](/company/team/#lkerr)      | January 2021 |TBD    |
-| [Tom Quirk](/company/team/#tomquirk)      | January 2021 |TBD    |
-| [Roos Takken](/company/team/#rtakken)     | January 2021 |TBD    |
+| [Christina Hupy](/handbook/company/team/#c_hupy)   | January 2021 |TBD    |
+| [Daniel Parker](/handbook/company/team/#dparker)  | January 2021 |TBD    |
+| [Lindsay Kerr](/handbook/company/team/#lkerr)      | January 2021 |TBD    |
+| [Tom Quirk](/handbook/company/team/#tomquirk)      | January 2021 |TBD    |
+| [Roos Takken](/handbook/company/team/#rtakken)     | January 2021 |TBD    |
 
 ### Free top-tier GitLab for qualifying partners
 

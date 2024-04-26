@@ -4,7 +4,7 @@ title: "Dev Career Framework: Intermediate Backend Engineer"
 
 ## Dev Intermediate Backend Engineer
 
-{{% include "includes/engineering/dev-be-career-matrix-nav.md" %}}
+{{% include "includes/engineering-careers/dev-be-career-matrix-nav.md" %}}
 
 **Dev Intermediate Backend Engineers at GitLab are expected to exhibit the following competencies:**
 
@@ -16,16 +16,16 @@ title: "Dev Career Framework: Intermediate Backend Engineer"
 
 ### Leadership Competencies
 
-{{% include "includes/engineering/intermediate-leadership-competency.md" %}}
-{{% include "includes/engineering/development-intermediate-leadership-competency.md" %}}
+{{% include "includes/engineering-careers/intermediate-leadership-competency.md" %}}
+{{% include "includes/engineering-careers/development-intermediate-leadership-competency.md" %}}
 - Performs Code Reviews within their domain on a regular cadence
 - Intentionally develops the skills necessary to become an expert on a specific subject
 - Shares knowledge with team members after becoming a domain expert
 
 ### Technical Competencies
 
-{{% include "includes/engineering/intermediate-technical-competency.md" %}}
-{{% include "includes/engineering/development-intermediate-technical-competency.md" %}}
+{{% include "includes/engineering-careers/intermediate-technical-competency.md" %}}
+{{% include "includes/engineering-careers/development-intermediate-technical-competency.md" %}}
 - Proficient or fluent with one or more database languages to design, create and manage databases
 - Proficient or fluent with one or more server side programming languages and their frameworks
 - Able to design and build APIs
@@ -38,5 +38,5 @@ title: "Dev Career Framework: Intermediate Backend Engineer"
 
 ###  Values Alignment
 
-{{% include "includes/engineering/values-competency.md" %}}
-{{% include "includes/engineering/development-intermediate-values-competency.md" %}}
+{{% include "includes/engineering-careers/values-competency.md" %}}
+{{% include "includes/engineering-careers/development-intermediate-values-competency.md" %}}

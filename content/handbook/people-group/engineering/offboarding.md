@@ -7,7 +7,7 @@ The People Group Engineering team aims to reduce as much manual work as possible
 
 ## Offboarding
 
-Note: this section only discusses items in the offboarding where People Engineering was involved. You can read more about offboarding at GitLab on [this handbook page]({{< ref "/handbook/people-group/offboarding" >}})
+Note: this section only discusses items in the offboarding where People Engineering was involved. You can read more about offboarding at GitLab on [this handbook page](/handbook/people-group/offboarding)
 
 ## Timeline Flow
 
@@ -43,7 +43,7 @@ who ran the command and the outgoing team member's Manager.
 
 The job then grabs various details of the outgoing team member, like country of residence, entity through which they are hired, division, department, job title etc. For each of these details, it checks for the existence of a task file in the [`offboarding_tasks` folder](https://gitlab.com/gitlab-com/people-group/people-operations/employment-templates/-/tree/main/.gitlab%2Fissue_templates%2Foffboarding_tasks) of the `employment` project. These tasks files are of the format `country_<country name>.md`, `entity_<entity name>.md`, `division_<division name>.md`, `department_<department name>.md`, etc. If such a file is found, it includes contents of those files also in the offboarding issue.
 
-This issue is added to the [team member's epic]({{< ref "/handbook/people-group/engineering/employment-issues#epics" >}}).
+This issue is added to the [team member's epic](/handbook/people-group/engineering/employment-issues#epics).
 
 ### Offboarding merge request
 

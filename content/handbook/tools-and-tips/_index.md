@@ -25,21 +25,20 @@ And all the permissions, issues, MRs, and relevant stuff within GitLab are relat
 
 - Access the username you want to request via `https://gitlab.com/mary`.
 - Check its activity and projects to see if they are an inactive user [according to the name squatting policy]({{< ref "namesquatting_policy" >}}).
-- If you're a team member, Complete the [current process for requesting a dormant username]({{< ref "internal-support" >}}).
 - There's no guarantee that the username will be available for you.
 
 #### STEP 2: Create a new account with your new username{#change-username-step-2}
 
 - If support replies to you telling that the username is free to use, create a new GitLab.com account with it.
 Use a personal email to register your new account and choose one that has not been used with your old GitLab account.
-- Navigate to your [**Profile Settings** > **Emails**](https://gitlab.com/profile/emails), and add a new email.
+- Navigate to your [**Profile Settings** > **Emails**](https://gitlab.com/-/profile/emails), and add a new email.
 ⭐️ **Trick** ⭐️ If your email at GitLab is `mary@gitlab.com`, add the new email as `mary+something@gitlab.com`: this is a [Gmail trick](https://support.google.com/mail/answer/12096?hl=en)! All your emails sent to this alias will end up in your GitLab email account 😃
-- Navigate to [https://gitlab.com/profile/notifications](https://gitlab.com/profile/notifications) and choose the notifications email: `mary+something@gitlab.com`.
+- Navigate to [https://gitlab.com/-/profile/notifications](https://gitlab.com/-/profile/notifications) and choose the notifications email: `mary+something@gitlab.com`.
 - Open your old account in one browser and the new one in another browser (e.g., Chrome and Firefox, or Chrome and Safari) - log in to both accounts at the same time.
 
 #### STEP 3: Let's have some fun (kidding, this is critical!)
 
-- Navigate to [https://gitlab.com/profile/account](https://gitlab.com/profile/account) in both your accounts.
+- Navigate to [https://gitlab.com/-/profile/account](https://gitlab.com/-/profile/account) in both your accounts.
 - Look for your username.
 This operation has to be done quickly, otherwise you are risking to lose your awesome new username to someone else quicker than you.
 We need to **swap** the usernames between both accounts, so you'll keep all your history, your privileges, issues, and MRs assigned to you, etc.
@@ -92,7 +91,7 @@ It's for topics like parenting where people may want to share knowledge, but the
 
 ### Linking Gravatar photo
 
-Link your GitLab email address to an easily recognizable photo of yourself on GitLab, Slack, and [Gravatar](https://en.gravatar.com/).
+Link your GitLab email address to an easily recognizable photo of yourself on GitLab, Slack, and [Gravatar](https://gravatar.com/).
 It is company policy to use a photo, and not an avatar, a stock photo, or something with sunglasses for any of your GitLab accounts, as we have a lot of GitLab team-members and our brains are comfortable with recognizing people; let's use them.
 
 ***Note**: If you upload your photo to Gravatar associated with your gitlab.com email, then you can simply not set an image in your GitLab and Slack profiles and they will automatically use your Gravatar photo.  If you already uploaded individual photos to your GitLab and Slack profiles, simply removing them will cause your avatar to use the Gravatar photo by default.*
@@ -104,7 +103,7 @@ Mermaid is a tool that allows us to create flowcharts, graphs, diagrams, Gantt c
 A few additional resources that can be helpful when working with Mermaid are:
 
 - The [live mermaid editor](https://mermaid-js.github.io/mermaid-live-editor) to check your work!
-- [GitHub's Mermaid overview](https://mermaid-js.github.io/mermaid/#/)
+- [GitHub's Mermaid overview](https://mermaid.js.org/#/)
 - A [CSS color bank](https://www.rapidtables.com/web/css/css-color.html) to add color to your charts.
 - You can see an example of how to add images to Mermaid charts [here](https://mermaid-js.github.io/mermaid-live-editor/#/edit/eyJjb2RlIjoiZ3JhcGggVERcbiAgQVtDaHJpc3RtYXNdIC0tPnxHZXQgbW9uZXl8IEIoR28gc2hvcHBpbmcpXG4gIEIgLS0-IEN7TGV0IG1lIHRoaW5rfVxuICBDIC0tPnxPbmV8IERbTGFwdG9wXVxuICBDIC0tPnxUd298IEVbaVBob25lXVxuICBDIC0tPnxUaHJlZXwgRltmYTpmYS1jYXIgQ2FyXVxuICBDIC0tPiBHXG4gIEcoXCI8aW1nIHNyYz0naHR0cHM6Ly9pY29uc2NvdXQuY29tL21zLWljb24tMzEweDMxMC5wbmcnOyB3aWR0aD0nMzAnIC8-XCIpIiwibWVybWFpZCI6eyJ0aGVtZSI6ImRlZmF1bHQiLCJzZWN1cml0eUxldmVsIjoibG9vc2UifX0).
 - Examples of Mermaid charts that have been created by GitLab team members:
@@ -129,7 +128,7 @@ This can be done by running `find source/handbook -type f | xargs wc -w` from th
 
 ### Trainee maintainer issue upkeep
 
-Part of the [maintainer training process](https://about.gitlab.com/handbook/engineering/workflow/code-review/#trainee-maintainer) is to keep track of Merge Request that have been reviewed and writing down an assessment on the review in the maintainer training issue.
+Part of the [maintainer training process](/handbook/engineering/workflow/code-review/#trainee-maintainer) is to keep track of Merge Request that have been reviewed and writing down an assessment on the review in the maintainer training issue.
 Manual upkeep of the maintainer training issue can be time consuming. There are tools that others have built to help with this task:
 
 - <https://gitlab.com/nolith/review-tanuki>
@@ -142,15 +141,15 @@ Manual upkeep of the maintainer training issue can be time consuming. There are 
 
 ## handbook Tips
 
-The [https://handbook.gitlab.com]({{< ref "/content/_index.md" >}}) site lives in the [content-sites/handbook](https://gitlab.com/gitlab-com/content-sites/handbook/)
+The [https://handbook.gitlab.com](/_index.html) site lives in the [content-sites/handbook](https://gitlab.com/gitlab-com/content-sites/handbook/)
 repo on GitLab.  The site is mostly a collection of Markdown documents and converted in to HTML by [Hugo](https://gohugo.io/).
 In addition to the handbooks content there is a [theme repo](https://gitlab.com/gitlab-com/content-sites/docsy-gitlab])
-which is shared between the [Handbook]({{< ref "/content/_index.md" >}}) and the [Internal Handbook](https://internal.gitlab.com).
-This holds the [docs]({{< ref "/docs" >}}) and shared content for both sites as well shortcodes and other functional [Hugo](https://gohugo.io/)
+which is shared between the [Handbook](/_index.html) and the [Internal Handbook](https://internal.gitlab.com).
+This holds the [docs](/docs) and shared content for both sites as well shortcodes and other functional [Hugo](https://gohugo.io/)
 for producing the site.
 
 The documentation for the handbook site lives in the [README.md](https://gitlab.com/gitlab-com/content-sites/handbook/-/blob/main/README.md)
-at the root of the repository or in the [/docs]({{< ref "/docs" >}}) section of the Handbook.
+at the root of the repository or in the [/docs](/docs) section of the Handbook.
 
 ### Local development on the handbook
 
@@ -426,7 +425,7 @@ Note: you have to pay for these items yourself.
 ### Wi-fi usage
 
 When using unsecured Wi-Fi, consider a personal VPN.
-We [don't have a corporate VPN]({{< ref "/handbook/security#why-we-dont-have-a-corporate-vpn" >}}) but consider [purchasing]({{< ref "expenses#reimbursements" >}}) a [personal VPN]({{< ref "personal-vpn" >}}) if you travel for GitLab or use unknown networks often.
+We [don't have a corporate VPN](/handbook/security#why-we-dont-have-a-corporate-vpn) but consider [purchasing]({{< ref "expenses#reimbursements" >}}) a [personal VPN]({{< ref "personal-vpn" >}}) if you travel for GitLab or use unknown networks often.
 
 Remember that if your job has restrictions based upon geolocation (for example supporting customers with specific data restrictions and country-based access), a personal VPN may not be the best choice as often the VPN vendor routes traffic through other countries.
 If this restriction applies to you, consider tethering.
@@ -488,7 +487,7 @@ This method is not quite as secure as a hardware token, as typically those devic
 
 ### TOTP
 
-Timed-based One-Time Password is fairly secure. This method involves a rotating value based off of a cryptographic seed that is used to uniquely identify communication between the service and the end user authenticating. The value is (usually) a six digit number that changes every 30 seconds, and during the authentication process after you've successfully entered in your username and password, you are asked to enter in the value. GitLab team members should use [1Password]({{< ref "/handbook/security#two-factor-authentication-and-time-based-one-time-passwords" >}}) to manage TOTP codes.
+Timed-based One-Time Password is fairly secure. This method involves a rotating value based off of a cryptographic seed that is used to uniquely identify communication between the service and the end user authenticating. The value is (usually) a six digit number that changes every 30 seconds, and during the authentication process after you've successfully entered in your username and password, you are asked to enter in the value. GitLab team members should use [1Password](/handbook/security#two-factor-authentication-and-time-based-one-time-passwords) to manage TOTP codes.
 
 #### TOTP Caveats
 
@@ -520,7 +519,7 @@ There may be services that only offer SMS as their 2FA solution, so in those cas
 
 Remember the purpose of 2FA - it is a secondary authentication method, invoked after the primary authentication method has succeeded. You should only acknowledge a 2FA request if you personally have just successfully completed the primary authentication. An unsolicited 2FA request means someone has your password, and is in the process of trying to log in as you. This is why 2FA exists, to help protect your user account from attacks involving your password.
 
-If you experience any such irregularities, please bring it to the attention of the Security Team. For more information, review the handbook regarding [Security Awareness]({{< ref "/handbook/security#security-awareness" >}})
+If you experience any such irregularities, please bring it to the attention of the Security Team. For more information, review the handbook regarding [Security Awareness](/handbook/security#security-awareness)
 
 ## Slack
 
@@ -646,12 +645,12 @@ Please reach out to the People Connect Team in the `#people-connect` Slack chann
 1. Create your calendar invite
 1. Add your Zoom link
 1. Add an agenda or relevant content
-1. Under Add Guests, add `Gitlab Team Meetings` in addition to anyone else you want invited (if you want the entire company invited please use everyone@).
+1. Under Add Guests, add `GitLab Team Meetings` in addition to anyone else you want invited (if you want the entire company invited please use everyone@).
 
    **Note:** This will appear like adding a room, which is expected
    {: .note}
 
-   ![Adding Gitlab Team Meetings](/handbook/tools-and-tips/images/adding-gitlab-team-meetings.png)
+   ![Adding GitLab Team Meetings](/handbook/tools-and-tips/images/adding-gitlab-team-meetings.png)
 
 #### Managing invite responses
 
@@ -692,6 +691,15 @@ When you have accidentally deleted something from the Team Meetings calendar, yo
 - Choose the [Trash](https://calendar.google.com/calendar/r/trash).
 - Make sure you are on the correct calendar, by clicking on the name of the calendar in the left sidebar.
 - Hover over the item you'd like to restore and click the arrow to "Restore".
+
+#### Show declined events
+
+We recommend enabling the 'Show declined events' setting if you are unable to attend a meeting but will still contribute to the agenda or attendance list asynchronously. Use this setting if it's helpful for you to see declined meetings in your calendar view for any other reason.
+
+- Navigate to [Event settings](https://calendar.google.com/calendar/u/0/r/settings)
+- Check the box for 'Show declined events' under 'View options'
+
+![Google Calendar - Show declined events](/handbook/tools-and-tips/images/showdeclinedevents.png)
 
 #### Sharing
 
@@ -742,7 +750,7 @@ Check `Display secondary time zone` and select `(GMT+00:00) Coordinated Universa
 
 ### Google Cloud Platform
 
-See the [Sandbox Cloud page]({{< ref "/handbook/infrastructure-standards/realms/sandbox" >}}) for a listing of cloud resources and how to gain access to them.
+See the [Sandbox Cloud page](/handbook/infrastructure-standards/realms/sandbox) for a listing of cloud resources and how to gain access to them.
 
 ### Google Drive
 
@@ -857,7 +865,7 @@ Set up an [email signature](https://support.google.com/mail/answer/8395) which i
 <span style="font-family: serif;font-size: small;display: block;">John Doe</span>
 <span style="color: #999999;font-family: sans-serif;font-size: small;display: block;">Frontend Engineer | GitLab</span>
 
-<img src="https://about.gitlab.com/images/press/logo/png/gitlab-logo-gray-rgb.png" alt="Gitlab Logo" width="98" height="37">
+<img src="https://about.gitlab.com/images/press/logo/png/gitlab-logo-gray-rgb.png" alt="GitLab Logo" width="98" height="37">
 
 #### Email signature if employed by our German entity
 
@@ -866,7 +874,7 @@ If you are employed by our German entity GitLab GmbH, you will need to include s
 <span style="font-family: serif;font-size: small;display: block;">John Doe</span>
 <span style="color: #999999;font-family: sans-serif;font-size: small;display: block;">Frontend Engineer | GitLab</span>
 
-<img src="https://about.gitlab.com/images/press/logo/png/gitlab-logo-gray-rgb.png" alt="Gitlab Logo" width="98" height="37">
+<img src="https://about.gitlab.com/images/press/logo/png/gitlab-logo-gray-rgb.png" alt="GitLab Logo" width="98" height="37">
 
 <span style="font-family: serif;font-size: small;display: block;">GitLab GmbH  | Sitz: München  | Registergericht: Amtsgericht München, HRB 237630  | Geschäftsführer: James John Gladen und Craig Adam Mestel</span>
 

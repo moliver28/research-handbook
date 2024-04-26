@@ -142,7 +142,7 @@ The CLO or a designee will conduct a periodic review to confirm the adequacy and
 
 ### CERTIFICATION AND ENFORCEMENT
 
-From time to time, Gitlab’s Team Members and Partners may be required to complete training regarding the FCPA and, more broadly, the Anti-Corruption Laws and sign a certification acknowledging commitment to, full understanding of, and compliance with this Anti-Corruption Policy.  The acknowledgment statement shall be included in the personnel file of each Team Member and Partner.  Any Team Member or Partners who violate this Policy or who fail to make or falsify any certification required under this Policy may be subject to disciplinary action, up to and including termination of employment or of the business relationship.
+From time to time, GitLab’s Team Members and Partners may be required to complete training regarding the FCPA and, more broadly, the Anti-Corruption Laws and sign a certification acknowledging commitment to, full understanding of, and compliance with this Anti-Corruption Policy.  The acknowledgment statement shall be included in the personnel file of each Team Member and Partner.  Any Team Member or Partners who violate this Policy or who fail to make or falsify any certification required under this Policy may be subject to disciplinary action, up to and including termination of employment or of the business relationship.
 
 ## TEAM MEMBER CERTIFICATION REGARDING COMPLIANCE WITH ANTI-CORRUPTION POLICY
 

@@ -20,8 +20,8 @@ draft: true
 unlisted: true
 ---
 .blank-header
-  = image_tag "/images/home/icons-pattern-left.svg", class: "image-border image-border-left", alt: "Gitlab hero border pattern left svg"
-  = image_tag "/images/home/icons-pattern-right.svg", class: "image-border image-border-right", alt: "Gitlab hero border pattern right svg"
+  = image_tag "/images/home/icons-pattern-left.svg", class: "image-border image-border-left", alt: "GitLab hero border pattern left svg"
+  = image_tag "/images/home/icons-pattern-right.svg", class: "image-border image-border-right", alt: "GitLab hero border pattern right svg"
   .header-content
     %h1 Universal Remote weekly web show: "Universal Remote: Juggling Video Calls & Sweat Pant Pitfalls"
     %p Watch now on YouTube

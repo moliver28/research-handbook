@@ -8,12 +8,12 @@ canonical_path: "/company/strategy/"
 
 **[Current strategy is in the internal handbook](https://internal.gitlab.com/handbook/company/three-year-strategy/).** The rest of this page desribes the strategy process.
 
-## Three Year Strategy
+## Three Year Outlook
 
 Our strategy is looking 3 years out and [fits into our cadences](/handbook/company/cadence/#strategy). It also maps to and reflects GitLab's [mission](/handbook/company/mission/), [vision](/handbook/company/vision/) and [values](/handbook/values/). It is a living strategy, so we will revisit on a regular basis and [iterate](/handbook/values/#iteration) when there is reason to do so.
 
 Along the road to realizing our mission of **everyone can contribute**, our
-strategic goal is to be the leading complete [DevSecOps Platform](/solutions/devops-platform/). We help our customers build better software faster including developing cloud native applications, building mobile applications, and incorporating machine learning and artificial intelligence into their products and solutions. We believe that our [dual flywheels](#dual-flywheels) (single application + open-core model) will propel us to efficiently be the default choice in the Enterprise market.
+strategic goal is to be the leading complete [DevSecOps Platform](https://about.gitlab.com/solutions/devops-platform/). We help our customers build better software faster including developing cloud native applications, building mobile applications, and incorporating machine learning and artificial intelligence into their products and solutions. We believe that our [dual flywheels](#dual-flywheels) (single application + open-core model) will propel us to efficiently be the default choice in the Enterprise market.
 
 As we execute on our strategy, it is important to use our financial targets as guide rails and mature our internal processes for building a durable business for the long-term.
 
@@ -25,7 +25,7 @@ As we execute on our strategy, it is important to use our financial targets as g
 1. Seed then nurture: [plant seeds and nurture the product to build out depth](#seed-then-nurture).
 1. Speed: ship every change in the next release to maximize responsiveness and learning.
 1. Life balance: we want people to stay with us for a long time, so it is important to [take time off](/handbook/paid-time-off/) and work on life balance; being [all-remote](/handbook/company/culture/#all-remote-work) is a large part of the solution.
-1. Open Source Stewardship: be a good [steward of GitLab](/handbook/company/stewardship/) and [collaborate with the wider community](/community/contribute/) to [improve the product together](https://about.gitlab.com/handbook/engineering/development/performance-indicators/#mr-rate).
+1. Open Source Stewardship: be a good [steward of GitLab](/handbook/company/stewardship/) and [collaborate with the wider community](https://about.gitlab.com/community/contribute/) to [improve the product together](/handbook/engineering/development/performance-indicators/#mr-rate).
 
 ### Seed then nurture
 
@@ -73,21 +73,21 @@ graph BT;
 | Part of flywheel | Key Performance Indicator (KPI) | Department |
 |-----------------|---------------------------------|------------|
 | More Users | [Stage Monthly Active Users](/handbook/product/performance-indicators/) | Product |
-| More Contributions | [Unique Wider Community Contributors per month](https://about.gitlab.com/handbook/engineering/quality/performance-indicators/#unique-wider-community-contributors-per-month) | Developer Relations and Engineering |
-| More Contributions | [MRARR](https://about.gitlab.com/handbook/engineering/quality/performance-indicators/#mrarr) | Developer Relations and Engineering |
+| More Contributions | [Unique Wider Community Contributors per month](/handbook/engineering/quality/performance-indicators/#unique-wider-community-contributors-per-month) | Developer Relations and Engineering |
+| More Contributions | [MRARR](/handbook/engineering/quality/performance-indicators/#mrarr) | Developer Relations and Engineering |
 | More Contributions | [Wider community contributions per release](/handbook/marketing/developer-relations/performance-indicators/#wider-community-merged-mrs-per-release) | Developer Relations and Engineering |
-| More Features | [Merge Requests per release per engineer in product development](https://about.gitlab.com/handbook/engineering/development/performance-indicators/#average-mrs-development-engineers-month) | Engineering and Product Management |
+| More Features | [Merge Requests per release per engineer in product development](/handbook/engineering/development/performance-indicators/#average-mrs-development-engineers-month) | Engineering and Product Management |
 | More Revenue | [IACV](/handbook/sales/#incremental-annual-contract-value-iacv) vs. plan | Sales and Marketing |
 
 
 ### Flywheel with two turbos
 
-GitLab is a [complete DevOps platform](/solutions/devops-platform/), delivered as a [single application](/handbook/product/single-application/), with [contributions from the wider community](/community/contribute/).
+GitLab is a [complete DevOps platform](https://about.gitlab.com/solutions/devops-platform/), delivered as a [single application](/handbook/product/single-application/), with [contributions from the wider community](https://about.gitlab.com/community/contribute/).
 
 Compared to other DevOps platforms, GitLab leverages one or two unique turbos that boost the company:
 
 1. [Advantages of a single application](/handbook/product/single-application/), leading to more [Stages per Organization](/handbook/product/performance-indicators/#stages-per-organization-spo)
-1. [Open Source stewardship](/handbook/company/stewardship/), leading to [Wider community contributions](/community/contribute/)
+1. [Open Source stewardship](/handbook/company/stewardship/), leading to [Wider community contributions](https://about.gitlab.com/community/contribute/)
 
 The advantage of a single application manifests itself if people start using more stages of the application.
 In the graph below this is visualized with [Stages per Organization (SpO), knowing that an organization using an extra stage triples conversion](https://about.gitlab.com/direction/#product-strategy).
@@ -119,7 +119,7 @@ graph TB
 Legend with links to the relevant metrics:
 
 1. [Wider community contributions Turbo](/handbook/marketing/developer-relations/performance-indicators/#wider-community-merged-mrs-per-release)
-1. [R&D Overall MR Rate](https://about.gitlab.com/handbook/engineering/performance-indicators/#rd-overall-mr-rate)
+1. [R&D Overall MR Rate](/handbook/engineering/performance-indicators/#rd-overall-mr-rate)
 1. [Stage maturity](https://about.gitlab.com/direction/maturity/) increase
 1. [MAU](/handbook/product/performance-indicators/) increase
 1. [SpO](/handbook/product/performance-indicators/#stages-per-organization-spo) increase Turbo which is only possible in a [single application with multiple stages](/handbook/product/single-application/)
@@ -129,7 +129,7 @@ Legend with links to the relevant metrics:
 1. [ARR](/handbook/sales/#annual-recurring-revenue-arr) stands for Annual Recurring Revenue and IACV increases it.
 1. R&D spend ratio becomes higher if the growth rate is higher due to the [Hypergrowth Rule](/handbook/finance/financial-planning-and-analysis/hypergrowth-rule/)
 1. R&D investment is the amount of money spend on Product Management and Engineering excluding Support
-1. [Development Department Narrow MR Rate](https://about.gitlab.com/handbook/engineering/development/performance-indicators/#development-department-narrow-mr-rate)
+1. [Development Department Narrow MR Rate](/handbook/engineering/development/performance-indicators/#development-department-narrow-mr-rate)
 
 ## Publicly viewable OKRs and KPIs
 
@@ -149,7 +149,7 @@ Our yearly plans are linked from the [relevant cadence section](/handbook/compan
    1. Market Vision is our shared view of the market over the next ~3 years. Where is the market headed? What factors are influencing the market direction? Where are the points of change, as these will be the points of control?
    1. SWOT stands for Strengths, Weaknesses, Opportunities and Threats.
    1. Positioning strategy will highlight the way we want to position the company over the next three years. This will drive key decisions and tradeoffs we need to make in the strategy.
-1. The second phase of the strategy process is taking the SWOT, positioning strategy and define the GTM, Product and Operations strategy. The output of these three strategies will be the strategic priorities for each, capabilities needed that we have and that we need to develop and the things we will explicitly not do.  In addition we will define 3-5 big bets the company will take - this will fold in under the strategic themes. Once we have these 3 to 5 themes we will synthesize them into a corporate strategy that ensures alignment among GTM, Product and Operations strategy.
+1. The second phase of the strategy process is taking the SWOT, positioning strategy and define the go-to-market (GTM), Product and Operations strategy. The output of these three strategies will be the strategic priorities for each, capabilities needed that we have and that we need to develop and the things we will explicitly not do.  In addition we will define 3-5 big bets the company will take - this will fold in under the strategic themes. Once we have these 3 to 5 themes we will synthesize them into a corporate strategy that ensures alignment among GTM, Product and Operations strategy.
 1. Third phase will be the [Long Range Plan](/handbook/finance/financial-planning-and-analysis/#long-range-outlook-lro) process.
 1. Fourth phase will be defining yearlies and the [annual operating plan](/handbook/finance/financial-planning-and-analysis/#plan).
 

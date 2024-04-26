@@ -1,7 +1,7 @@
 ---
 
 title: "Getting Started With CI/CD for Data Science Pipelines"
-description: "How to Run Data Science Pipelines Using Gitlab CI/CD"
+description: "How to Run Data Science Pipelines Using GitLab CI/CD"
 ---
 
  
@@ -26,7 +26,7 @@ When it comes to training models, there are trade-offs to training on your local
   - Upload model artifacts to your preferred model/package registry
   - Commit changes to the repository that will ***not*** trigger a CI pipeline
 
-- When executing training runs remotely using Gitlab CI/CD, users will be able to:
+- When executing training runs remotely using GitLab CI/CD, users will be able to:
   - Select CPU or GPU compute instance based on the needs of your model
   - Automatically detect and rebuild the training CI image based on changes to the Dockerfile
   - Log experiments in your preferred experiment tracker
@@ -50,7 +50,7 @@ This section covers, in detail, the mechanisms behind how this pipeline is creat
 
 ### Repository Files
 
-Within our public **[Gitlab Data Science CI Example](https://gitlab.com/gitlab-data/data-science-ci-example)** repository are the following:
+Within our public **[GitLab Data Science CI Example](https://gitlab.com/gitlab-data/data-science-ci-example)** repository are the following:
 - **.gitlab-ci.yml**: This is the CI/CD configuration file that define the jobs that define the jobs that should be run in the pipeline
 - **Dockerfile**: Instructions for creating the docker image. Here we are using python 3.9 running on Ubuntu 22.04 with CUDA drivers for GPU  
 - **requirements.txt**: The python packages to install in the docker container
@@ -91,7 +91,7 @@ Let's take a detailed look at the repository (**Code -> Repository**):
 
 # Step-by-Step Instructions
 
-1. [Fork](https://docs.gitlab.com/ee/user/project/repository/forking_workflow.html) the public [Gitlab Data Science CI Example](https://gitlab.com/gitlab-data/data-science-ci-example) repository. Forking will allow you to further customize the code to meet your own needs.
+1. [Fork](https://docs.gitlab.com/ee/user/project/repository/forking_workflow.html) the public [GitLab Data Science CI Example](https://gitlab.com/gitlab-data/data-science-ci-example) repository. Forking will allow you to further customize the code to meet your own needs.
 1. Optional (but recommended) Configurations:
    - Experiment Tracker: This will allow you to log your experiments in the native [Experiment Tracker](https://docs.gitlab.com/ee/user/project/ml/experiment_tracking/) (or MLFlow instance) and log the model artifacts to the [package registry](https://docs.gitlab.com/ee/user/packages/package_registry/).
       - Review the [MLflow Client Compatibility Instructions](https://docs.gitlab.com/ee/user/project/ml/experiment_tracking/mlflow_client.html) to set up the `MLFLOW_TRACKING_URI` and `MLFLOW_TRACKING_TOKEN` CI/CI in your project.
@@ -99,7 +99,7 @@ Let's take a detailed look at the repository (**Code -> Repository**):
           - ***Note***: Enabling group access tokens is a not available for SaaS Free accounts.  If using a Free account, you will need to fork the project into a personal (instead of a group) namespace ![Create Project Token](create_token.png)
       - Create the following new CI Variables (**Settings -> CI/CD -> Variables -> Add New Variable**):
          - `MLFLOW_TRACKING_TOKEN`: For the value, enter the project access token value created above.
-         - `MLFLOW_TRACKING_URI`: For the value, use the Gitlab API MLFlow endpoint as outlined in the MLFlow instructions above. For example, `https://gitlab.com/api/v4/projects/<your_project_id>/ml/mlflow`. Project ID can be found in **Settings -> General**
+         - `MLFLOW_TRACKING_URI`: For the value, use the GitLab API MLFlow endpoint as outlined in the MLFlow instructions above. For example, `https://gitlab.com/api/v4/projects/<your_project_id>/ml/mlflow`. Project ID can be found in **Settings -> General**
          - ***Note:*** Untick the "Protect Variable" flag to enable experiment tracking on unprotected branches
     - Write Model Metrics to Merge Request
        - Create the following new CI Variable (**Settings -> CI/CD -> Variables -> Add New Variable**):
@@ -110,14 +110,14 @@ Let's take a detailed look at the repository (**Code -> Repository**):
 1. Create a new branch (**Code -> Branches -> New Branch**)
      - <img src="new_branch.png" width="500">
 1. First let's make sure the `build-ds-image` will get triggered, which will build the container our model will run in. This job of the pipeline is only activated when changes are detected in **Dockerfile** or **requirements.txt**. So let's make a change:
-     - Edit **Dockerfile**, replacing the maintainer value with your Gitlab handle and commit the change to your branch. ![Edit Dockerfile](edit_dockerfile.png)
+     - Edit **Dockerfile**, replacing the maintainer value with your GitLab handle and commit the change to your branch. ![Edit Dockerfile](edit_dockerfile.png)
 1. If running from a Free account:
      - GPU runners are available at the Premium and Ultimate tiers. If using a Free account, also edit `.gitlab-ci.yml` to switch to a shared CPU runner
      - Change the `train-commit-activated` `tag:` from `saas-linux-medium-amd64-gpu-standard` to `saas-linux-small-amd64`. This can also be used to scale up or down the runner as needed.
      - Under `script`, change `papermill -p is_local_development False -p tree_method 'gpu_hist' $notebookName -` to `papermill -p is_local_development False $notebookName -`. This defaults the notebook to using CPU rather than GPU. ![Edit CI](edit_ci.png)
 1. Edit **config.yaml**
      - Change `n_trials` to a new value between `10` and `20`.
-     - For the commit message enter `train notebooks/training_example.ipynb`. This will tell the Gitlab that you want to execute the training CI pipeline on the **training_example.ipynb** notebook found in the notebooks directory. Commit the change. ![Edit Config](edit_config.png)
+     - For the commit message enter `train notebooks/training_example.ipynb`. This will tell the GitLab that you want to execute the training CI pipeline on the **training_example.ipynb** notebook found in the notebooks directory. Commit the change. ![Edit Config](edit_config.png)
 1. Click "Create merge request". Make sure you are merging into your local fork and click "Create merge request" once again. This should activate the training CI pipeline for the newly created MR.
 1. Click on "Pipelines" and you should see the training pipeline running. Click into the pipeline to see which which stage the pipeline is in.
    - ***Note:*** If you did not set up Write Model Metrics to Merge Request above, then the `cml` job will fail. The pipeline will still pass with warnings ![Pipeline Jobs](pipeline_jobs.png)

@@ -35,7 +35,7 @@ Due to the nature of the information on the runbook, the contents will be `confi
 | DRI                 |   |
 | Schedule at         |   |
 | Meeting URL         |   |
-| Gitlab Issue        |   |
+| GitLab Issue        |   |
 
 Runbook name:
 
@@ -65,7 +65,7 @@ The zoom meeting URL to use.
 
 Link to the GitLab issue created for this request
 
-### Gitlab - Contacts
+### GitLab - Contacts
 
 | Name | Role | Description |
 |-------------|------|-------------|
@@ -125,9 +125,9 @@ In the rollback plan, we provide a link for the steps to revert the actions perf
 | DRI                 |  `@john_doe` |
 | Schedule at         |  `2020-10-10 - 23:30 PST` |
 | Meeting URL         |   example.zoom.com/my/example.meeting|
-| Gitlab Issue        |   `https://gitlab.com/gitlab-com/demo/example/example-project/-/issues/1` |
+| GitLab Issue        |   `https://gitlab.com/gitlab-com/demo/example/example-project/-/issues/1` |
 
-#### Gitlab Contacts
+#### GitLab Contacts
 
 | Name | Role | Description |
 |-------------|------|-------------|

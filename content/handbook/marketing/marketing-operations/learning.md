@@ -4,16 +4,6 @@ title: "Learning Marketing Operations"
 description: "This handbook page is to provide updated marketing operations learning and resources materials."
 ---
 
-
-
-
-
-
-
-
-
-# Learning Marketing Operations
-
 At GitLab, we know how important it is to leverage the right Marketing technologies and tools to support marketing campaigns and generate sales opportunities. The tools can only do so much, it's up to the Marketing Operations and team to drive the strategic direction and adoption to maximize the results and impact.
 
 To do so, we need to embrace continuous learning to stay on top of industry trends and best practices. This handbook page updated quarterly will be your main source of resources for all things Marketing Operations.
@@ -30,24 +20,31 @@ Defined by Gartner, "Marketing Operations is the function of overseeing an organ
 
 ## 🔥 Hot Topics
 
-Last updated: September 2023
+Last updated: December 2023
 
-### Marketing Trends
+### Marketing Trends in 2024
 
--   📝 [Business News Daily - 10 tech trends that will influence your Marketing strategies](https://www.businessnewsdaily.com/8564-future-of-marketing.html)
--   📝 [Gartner - What will Marketing focus on in 2023?](https://www.gartner.com/en/articles/what-will-marketing-focus-on-in-2023)
--  🎥 [Top Insights from the Marketing Keynote from Salesforce Dreamforce 2023](https://www.salesforce.com/plus/experience/dreamforce_2023/series/marketers_at_dreamforce_2023/episode/episode-s1e1)
+- [📝 OpenView - B2B Marketing in 2024: 8 Trends That Are Changing the Game and What They Mean for Your Business](https://openviewpartners.com/blog/b2b-marketing-in-2024/)
+- [📝 Search Engine Trend - 2024 B2B trends: 6 key areas for marketing success](https://searchengineland.com/2024-b2b-trends-marketing-success-435121)
 
-### Personalization
 
--  🎙️ [What does Personalization Actually Mean?](https://open.spotify.com/episode/2YSvgzOF0EAc5GWs5H4IFM)
--  🎥 [Privacy & Personalization: How to Benefit from Consent-Based Marketing](https://www.bigmarker.com/third-door-media/Privacy-Personalization-How-to-Benefit-from-Consent-Based-Marketing)
+### Marketing Technology 
+
+-  [📝 MarTech - 7 steps to make sure you’re getting everything from your marketing software](https://martech.org/7-steps-to-make-sure-youre-getting-everything-from-your-marketing-software/)
+- [📝 A Team - Marketing Technology Trends to Watch in 2024](https://a-team.global/blog/marketing-technology-trends-to-watch-in-2024/)
+
 
 ### AI
 
--   📝 [Three Ways To Measure If Your Marketing Operations Is Ready For AI](https://www.forbes.com/sites/forbestechcouncil/2023/08/01/three-ways-to-measure-if-your-marketing-operations-is-ready-for-ai)
--   📝 [New Research: 60% of Marketers Say Generative AI will Transform Their Role, But Worry About Accuracy]([https://www.salesforce.com/news/stories/generative-ai-for-marketing-research/)
--   📝 [The ethics of AI-powered marketing technology](https://martech.org/the-ethics-of-ai-powered-marketing-technology/)
+- [📝 Marketing Dive - How AI’s legal risks are challenging marketers](https://www.marketingdive.com/news/how-ai-artificial-intelligence-legal-risks-challenging-marketers/652707/)
+- [📝 Gartner - Marketing AI: Forge the Future of Smart Marketing](https://www.gartner.com/en/marketing/topics/ai-in-marketing)
+
+
+### Sales and Marketing Alignment
+
+- [📹 C2 Marketing - How to Improve Funnel Velocity With SLAs](https://www.cs2marketing.com/revenue-growth-architects/how-to-improve-funnel-velocity-with-slas)
+- [📝 Madkudu - Driving Sales And Marketing Alignment](https://www.madkudu.com/marketing-operations-guide/driving-sales-and-marketing-alignment)
+
 
 ## 🏗️ Marketing Operations Fundamentals
 
@@ -84,8 +81,10 @@ Last updated: September 2023
 -   📝 [MarketingOps - 5 Steps to Take Your Junior Marketing Ops Team from Zero to MCE](https://marketingops.com/5-steps-to-take-your-junior-marketing-ops-team-from-zero-to-mce/)
 -   🎙️ [OpsCast - How to continuously learn and grow in Marketing Ops](https://open.spotify.com/episode/5gVVWM5v54DASY7ZuPbPYw?si=7QjfC8KRQwmmwnrt6PsokA) 
 -   📝 [LXA - Five tips to skyrocket your Marketing Ops career](https://www.lxahub.com/stories/5-tips-to-skyrocket-your-career-in-marketing-ops)
+-   📝 [Madkudu - Defining Your Marketing Ops Career Path - Consulting and In-House](https://www.madkudu.com/marketing-operations-guide/defining-your-marketing-ops-career-path)
+-   📝 [GitLab - Marketing Operations Career Path - Job Families](https://handbook.gitlab.com/job-families/marketing/marketing-operations-manager/)
 
 ### Marketo
 
 -   🎥 [Adobe - Advance Your Career: Adobe Marketo Engage Certifications](https://business.adobe.com/summit/2023/sessions/advance-your-career-adobe-marketo-engage-certifica-s203.html)
-- 🎥 [Adobe - What $2 & a Dream Will Get You: Pushing Your Career Forward](https://business.adobe.com/summit/2023/sessions/what-2-a-dream-will-get-you-pushing-your-career-fo-s215.html)
+-   🎥 [Adobe - What $2 & a Dream Will Get You: Pushing Your Career Forward](https://business.adobe.com/summit/2023/sessions/what-2-a-dream-will-get-you-pushing-your-career-fo-s215.html)

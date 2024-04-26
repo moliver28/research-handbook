@@ -14,7 +14,7 @@ RoleName: "Chief Revenue Officer"
 - Help marketing with developing product/content marketing materials (blog
   posts, white papers, product briefs, slide decks) that reflect GitLab's core
   value proposition, competitive advantage and market positioning
-- [Leadership at GitLab](/handbook/company/team/structure/#e-group)
+- [Leadership at GitLab](/handbook/company/structure/#e-group)
 - Ability to use GitLab
 - Ability to travel if needed and comply with the company’s [travel policy](/handbook/travel/)
 

@@ -40,6 +40,10 @@ The content is divided into three key categories of competencies. [LevelUp](http
 
 - [Chorus Playlist](https://chorus.ai/playlists/741604) gives you access to the recordings of the best CSM calls. The recordings are continuously updated, so keep this playlist bookmarked for best practices.
 
+#### CSM Intership
+
+- [CSM Internship for learning](/handbook/customer-success/csm/csm-internship/)
+
 #### Customer Success Management
 
 - [Customer Success Management Fundamentals](https://www.linkedin.com/learning/customer-success-management-fundamentals) (LinkedIn Learning)
@@ -123,7 +127,7 @@ As CSMs have positioned themselves to be more strategic and reach Director, VP, 
 
 #### DevOps
 
-- [Devops Foundations](https://www.linkedin.com/learning/devops-foundations/) (LinkedIn Learning)
+- [DevOps Foundations](https://www.linkedin.com/learning/devops-foundations/) (LinkedIn Learning)
 
 #### Software Development
 
@@ -143,9 +147,9 @@ As CSMs have positioned themselves to be more strategic and reach Director, VP, 
 
 #### Markdown
 
-- [Handbook Markdown Guide](https://about.gitlab.com/handbook/markdown-guide/)
+- [Handbook Markdown Guide](/handbook/markdown-guide/)
 - [GitLab Flavored Markdown (GLFM)](https://docs.gitlab.com/ee/user/markdown.html)
-- [Handbook Style Guide](https://about.gitlab.com/handbook/style-guide/)
+- [Handbook Style Guide](/handbook/style-guide/)
 - [Markdown Tutorial](https://about.gitlab.com/blog/2018/08/17/gitlab-markdown-tutorial/)
 
 #### Docker
@@ -185,7 +189,7 @@ Access codes and recording links can be found in this [internal doc](https://doc
 
 ### LinkedIn Learning
 
-[Handbook details about LinkedIn Learning](/handbook/people-group/learning-and-development/linkedin-learning/).  
+[Handbook details about LinkedIn Learning](/handbook/people-group/learning-and-development/linkedin-learning/).
 
 We also have a list of [Recommended Learning Paths](/handbook/people-group/learning-and-development/linkedin-learning/#recommended-learning-paths).
 

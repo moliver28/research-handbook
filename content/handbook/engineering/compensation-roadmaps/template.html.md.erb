@@ -1,0 +1,80 @@
+---
+
+title: "Engineering Compensation Roadmaps"
+canonical_path: "/handbook/engineering/compensation-roadmaps/"
+suppress_header: true
+---
+
+# <%= compensation_roadmap.name %> Compensation Roadmap
+
+## Link
+
+<a href="<%= compensation_roadmap.role_path %>"><%= compensation_roadmap.role_path %></a>
+
+## Benchmark
+
+## Grades
+
+<table>
+  <tr>
+    <th style="width:25%;">Attribute</th>
+    <th>Grade</th>
+    <th>Comment</th>
+  </tr>
+  <tr>
+    <td>Materials</td>
+    <td style="font-weight:bold; text-align:center;"><%= color_code_grades(compensation_roadmap.grades.materials.grade) %></td>
+    <td><%= compensation_roadmap.grades.materials.comment %></td>
+  </tr>
+  <tr>
+    <td>Talent Acquisition</td>
+    <td style="font-weight:bold; text-align:center;"><%= color_code_grades(compensation_roadmap.grades.recruiting.grade) %></td>
+    <td><%= compensation_roadmap.grades.recruiting.comment %></td>
+  </tr>
+  <tr>
+    <td>Employee Satisfaction</td>
+    <td style="font-weight:bold; text-align:center;"><%= color_code_grades(compensation_roadmap.grades.employee_satisfaction.grade) %></td>
+    <td><%= compensation_roadmap.grades.employee_satisfaction.comment %></td>
+  </tr>
+  <tr>
+    <td>External Comparables</td>
+    <td style="font-weight:bold; text-align:center;"><%= color_code_grades(compensation_roadmap.grades.external_comparables.grade) %></td>
+    <td><%= compensation_roadmap.grades.external_comparables.comment %></td>
+  </tr>
+  <tr>
+    <td>Internal Comparables</td>
+    <td style="font-weight:bold; text-align:center;"><%= color_code_grades(compensation_roadmap.grades.internal_comparables.grade) %></td>
+    <td><%= compensation_roadmap.grades.internal_comparables.comment %></td>
+  </tr>
+  <tr>
+    <td>Bonus</td>
+    <td style="font-weight:bold; text-align:center;"><%= color_code_grades(compensation_roadmap.grades.bonus.grade) %></td>
+    <td><%= compensation_roadmap.grades.bonus.comment %></td>
+  </tr>
+</table>
+
+### Attribute Descriptions
+
+* **Materials** include the title, the job descriptions, and career development artifacts.
+* **Talent Acquisition** is how we are doing against our hiring plan.
+* **Employee Satisfaction** can be based on survey results, comments in 1:1's, etc.
+* **External Comparables** should be based on market data and come from our Total Rewards Analysts .
+* **Internal Comparables** are based on other GitLab role benchmarks that are typically paid at the same rate and should be agreed upon by our Total Rewards Analysts.
+* **Bonus** is based on whether a bonus should be paid, and whether the amount is correct based on market.
+
+### Grading Rubric
+
+* <b><%= color_code_grades("A") %></b> = People are happy, we easily meet our business goals, and we compare favorably to peer companies.
+* <b><%= color_code_grades("B") %></b> = Most people are happy, but we can be always be better.
+* <b><%= color_code_grades("C") %></b> = People are split but we think we know what we need to do but we need to get it approved.
+* <b><%= color_code_grades("D") %></b> = Most people are upset, we're not meeting our business goals, and have ideas but no consensus.
+* <b><%= color_code_grades("F") %></b> = Everyone is upset, we're badly missing our business goals, and we don't know how to fix it.
+
+## Recommendation
+
+As of <b><%= compensation_roadmap.recommendation.date.strftime('%B %e, %Y') %></b> we believe we should advocate for the following:
+<ul>
+<% compensation_roadmap.recommendation.recommendations.each do |recommendation| %>
+  <li><%= recommendation %></li>
+<% end %>
+</ul>

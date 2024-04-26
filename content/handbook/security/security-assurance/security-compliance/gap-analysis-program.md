@@ -32,7 +32,7 @@ graph TD;
   C --> F[Gap Analysis Performed];
   B --> D[Requested Framework Already Evaluated];
   F --> G[Gaps Identified];
-  F --> H[No Gaps, Gitlab Aligns To Standard]
+  F --> H[No Gaps, GitLab Aligns To Standard]
   G --> I[Report Findings To Management & Requestor]
   H --> I
 ```

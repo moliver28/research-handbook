@@ -4,7 +4,7 @@ title: "Incubation Engineering Department Career Framework: Intermediate"
 
 ## Incubation Engineering Department Competencies: Intermediate
 
-{{% include "includes/engineering/career-matrix-nav.md" %}}
+{{% include "includes/engineering-careers/career-matrix-nav.md" %}}
 
 **Intermediates at GitLab are expected to exhibit the following competencies:**
 
@@ -16,12 +16,12 @@ title: "Incubation Engineering Department Career Framework: Intermediate"
 
 ### Intermediate Leadership Competencies
 
-{{% include "includes/engineering/associate-leadership-competency.md" %}}
+{{% include "includes/engineering-careers/associate-leadership-competency.md" %}}
   
 ### Intermediate Technical Competencies
 
-{{% include "includes/engineering/associate-technical-competency.md" %}}
+{{% include "includes/engineering-careers/associate-technical-competency.md" %}}
 
 ### Intermediate Values Alignment
 
-{{% include "includes/engineering/values-competency.md" %}}
+{{% include "includes/engineering-careers/values-competency.md" %}}

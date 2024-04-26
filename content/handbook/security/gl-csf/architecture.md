@@ -41,7 +41,7 @@ free from lengthy discussions, and we don't scatter the actual architecture cont
 
 To get started, create a document with the  relevant views to describe best your architecture using
 the [viewpoints](#views-and-viewpoints) described in the next section. This document can be created
-along with the [readiness review](https://about.gitlab.com/handbook/engineering/infrastructure/production/readiness/) merge
+along with the [readiness review](/handbook/engineering/infrastructure/production/readiness/) merge
 request, or directly in the [GitLab
 docs](https://gitlab.com/gitlab-org/gitlab/-/tree/master/doc/development) if possible.
 

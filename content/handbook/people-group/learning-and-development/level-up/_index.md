@@ -47,7 +47,7 @@ For questions not answered below, reach out in the #learninganddevelopment Slack
 
 **I have a question about how to use the Level Up platform.**
 
-- When you're logged into Level Up, click the drop down menu next to your profile photo and select `Support`. Here, you'll see both general and Gitlab-specific help resources related to using Level Up. See screenshots below.
+- When you're logged into Level Up, click the drop down menu next to your profile photo and select `Support`. Here, you'll see both general and GitLab-specific help resources related to using Level Up. See screenshots below.
 
 ![Adding custom content field in Thought Industries](support.jpg)
 

@@ -1,6 +1,6 @@
 ---
-title: "Legal Operations Job Family"
-description: "Learn more about Legal Operations job family levels, roles and responsibilities."
+title: "Legal Operations"
+description: Legal Operations supports Legal & Corporate Affairs processes with a focus on defining and driving initiatives that improve the team’s efficiency and effectiveness.
 ---
 
 ## Levels
@@ -68,12 +68,6 @@ The Director, Contracts and Legal Operations is a [grade 10](/handbook/total-rew
 - Previous experience in a Global Start-up and remote first environment would be ideal.
 - Ability to use GitLab
 
-#### Director, Contracts and Legal Operations Performance Indicators
-
-- [Negotiation cycle average days per Quarter](/handbook/legal/#negotiation-cycle-average-days-per-quarter--90-days)
-- [Number of Opportunities closed by Contract Manager(s) per Quarter](/handbook/legal/#number-of-opportunities-closed-by-contract-managers-per-quarter--66)
-- [Percentage of contract negotiations per quarter](/handbook/legal/#percentage-of-contract-negotiations-per-quarter-15)
-
 ### Senior Director, Contracts and Legal Operations
 
 The Senior Director, Contracts and Legal Operations reports to the [Chief Legal Officer](/job-families/legal-and-corporate-affairs/chief-legal-officer/).
@@ -102,7 +96,39 @@ The Senior Director, Contracts and Legal Operations is a [grade 11](/handbook/to
 Outstanding interpersonal skills, the ability to interface effectively with business functions across the organization
 - Ability to use GitLab
 
-#### Senior Director, Contracts and Legal Operations Performance Indicators
+### Vice President, Legal Operations
+
+The Vice President, Legal Operations reports to the [Chief Legal Officer](/job-families/legal-and-corporate-affairs/chief-legal-officer/).
+
+#### Vice President, Legal Operations Job Grade
+
+The Vice President, Legal Operations is a [grade 12](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+
+#### Vice President, Legal Operations Responsibilities
+
+- Design, build, and lead a high functioning subject matter specific team within the larger Legal & Corporate Affairs team in alignment with GitLab values
+- Deep understanding of broader GitLab strategy and business context to develop strategy, policy, and controls within subject matter area and ensure that the company operates safely and in accordance with good practice(s) at scale
+- Hiring, managing, training, mentoring and retaining their subject matter specific team to bring an ownership mindset to their role; provide clear actionable work product and further solidify a reputation for exemplifying the GitLab Culture of Compliance and the GitLab values  
+- Engage with E-Group and other executive Team Members to facilitate cross-functional alignment and Legal & Corporate Affairs collaboration in corporate strategy
+- Lead cross functional projects that further the strategy of the Legal & Corporate Affairs team which require significant stakeholder engagement and collaboration
+- Act as primary escalation point for inbound commercial negotiations; GitLab Legal DRI Finance matters and procurement; directly oversee key company contracts and negotiations;
+- GitLab Legal & Corporate Affairs DRI with respect for: GitLab Legal operational matters including budgeting and strategic planning, OKRs, automation and process creation; creation and implementation of inbound contract vehicle(s) to address new, or updated, products and/or services  
+- Manage and implement budget for headcount, training, and technology stack with clear vision for future growth in line with company goals
+- Develop, implement and continually evolve efficient legal operations processes and automation to be embedded within company workflows
+
+#### Vice President, Legal Operations Requirements
+
+- Minimum of 12 years of managing a team, in addition to an extensive background in contracts management and business operations experience, preferably at an enterprise software company
+- Demonstrated success hiring, training, managing, developing and retaining a high functioning team of experienced legal and operational professionals
+- Demonstrated ability to collaborate effectively and influence across a range of stakeholders, including executives. Aligns teams around a common goal
+- Expertise in drafting and negotiating a wide variety of inbound commercial agreements; OSS licensing experience required; familiarity with privacy issues in such inbound contracts
+- Extensive experience in collaborating cross company and cross-subject matter to create, implement and evolve complex business processes and automation of operations to maximize efficiency
+- Highly proficient in managing legal operations tools and an accompanying tech stack, including contract management systems/databases, as well as internal to legal training materials, contract negotiation handbooks and other tools to ensure consistency and standardization
+- Excellent business judgment and analytical, appetite for intelligent risk and keen ability to “read the room” in order collaborate, efficiently remove roadblocks and close deals; experience acting as an escalation point
+- Outstanding interpersonal skills, the ability to interface effectively with business functions across the organization
+- Ability to use GitLab
+
+### Legal Operations and Contracts Performance Indicators
 
 - Increase operational efficiencies for revenue and non-revenue stakeholders using data to  continually iterate and improve:
   - commercial legal request response times;
@@ -116,7 +142,7 @@ Outstanding interpersonal skills, the ability to interface effectively with busi
 
 ## Career Ladder
 
-The next steps for the Director, Contracts and Legal Operations job family are not yet defined at GitLab.
+- The next steps for the Legal Operations job family are not yet defined at GitLab.
 
 ## Hiring Process
 

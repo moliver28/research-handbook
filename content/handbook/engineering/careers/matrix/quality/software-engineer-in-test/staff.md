@@ -5,7 +5,7 @@ description: "These are the expected competencies of a Staff Software Engineer i
 
 ## Quality Department Competencies: Staff
 
-{{% include "includes/engineering/quality-career-nav.md" %}}
+{{% include "includes/engineering-careers/quality-career-nav.md" %}}
 
 **Staff at GitLab are expected to exhibit the following competencies:**
 
@@ -17,15 +17,15 @@ description: "These are the expected competencies of a Staff Software Engineer i
 
 ### Staff Leadership Competencies
 
-{{% include "includes/engineering/staff-leadership-competency.md" %}}
+{{% include "includes/engineering-careers/staff-leadership-competency.md" %}}
   
 ### Staff Technical Competencies
 
-{{% include "includes/engineering/quality-staff-technical-competency.md" %}}
+{{% include "includes/engineering-careers/quality-staff-technical-competency.md" %}}
 
 ### Staff Values Alignment
 
-{{% include "includes/engineering/values-competency.md" %}}
+{{% include "includes/engineering-careers/values-competency.md" %}}
 
 ### Staff Career Matrix Worksheet
 

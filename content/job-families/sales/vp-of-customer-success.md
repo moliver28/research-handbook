@@ -39,7 +39,7 @@ The VP of Customer Success is a [grade 12](/handbook/total-rewards/compensation/
 - Understanding of the balance between internal services, external partners and how to use both effectively to support customers and grow quickly
 - Effective and productive collaborator to drive cross-functional initiatives
 - Empathy, humility and listening skills
-- [Leadership at GitLab](/handbook/company/team/structure/#s-group)
+- [Leadership at GitLab](/handbook/company/structure/#s-group)
 - Ability to use GitLab
 - Ability to travel if needed and comply with the company’s [travel policy](/handbook/travel/)
 

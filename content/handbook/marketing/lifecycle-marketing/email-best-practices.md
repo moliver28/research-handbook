@@ -13,19 +13,16 @@ twitter_creator: "@gitlab"
 
 
 ## Overview
-{: #overview .gitlab-purple}
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
 This page focuses on email best practices and their implementation at GitLab. You'll also find information on important metrics to consider when sending an email and our email templates with image size guidelines.  
 
 ## Email marketing best practices
-{: #best-practices .gitlab-purple}
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
 ** Please see our most up to date email best practices in our guide [here](https://docs.google.com/presentation/d/1j6F-3ZOFtFM9Tjz1srzbqLjSA56sK7lR2LPdKSl57Vo/edit?usp=sharing). ** 
 
 ### Subject line best practices (and preview text)
-{: #best-practices-subject-lines}
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
 * Use subject lines to justify sending the email and connecting to a problem that the reader might have
@@ -47,7 +44,6 @@ This page focuses on email best practices and their implementation at GitLab. Yo
 * The preview text is the first sentence displayed in an email client alongside the subject line (before opening the email), don't ignore it! Some email clients show 90 characters, so there is some flexibility with length
 
 ### Email content best practices
-{: #best-practices-content}
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
 * Email copy should be clear and concise. Brevity is key. Think about conversion, not sharing every detail from the LP
@@ -64,7 +60,6 @@ This page focuses on email best practices and their implementation at GitLab. Yo
 * If linking to the GitLab marketing site, make sure that the URL has a slash at the end of the link. Marketing site pages will not render if there are URL params and there is no trailing slash.
 
 ### Design best practices
-{: #best-practices-design}
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
 *  Consider resposive design
@@ -77,7 +72,6 @@ This page focuses on email best practices and their implementation at GitLab. Yo
 *  In order to accomodate different clients and modes (dark mode, etc) header image requests to the design team must be for transparent images. This means that the image will not look right without a solid background in the email header. We cannot use a non-transparent image because they do not render properly in all clients. 
 
 ### A/B testing best practices
-{: #best-practices-testing}
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
 Add your tests to the [A/B testing tracker here](https://docs.google.com/spreadsheets/d/1-XQjw1A_m5N4NaW6Er2TUlMeWPS-vTPJ2cDE9ddFLpg/edit?usp=sharing)
@@ -92,7 +86,6 @@ Add your tests to the [A/B testing tracker here](https://docs.google.com/spreads
 *  Keep track of the split test learnings so we can learn and innovate!
 
 ### Email KPI's that matters
-{: #email-kpis-that-matters}
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
 To view current benchmarks in Marketo, go to the [Email Insights Tab](https://ab-ee-api.marketo.com/).
@@ -109,20 +102,18 @@ Engagement and Audience Retention: Quality content captures the attention of you
 
 In summary, developing good content within the body of the email is essential for attracting, retaining, and converting your recipients. A well-designed email filled with valuable content can make the difference between the success and failure of your email marketing campaigns.
 
-The **Click-Through Rate (CTR)** percentage in an email marketing campaign for a software and web application company like GitLab can vary, but a good general benchmark is a CTR ranging from 2% to 5%. However, it's important to note that this value can vary significantly depending on various factors, such as the quality of the subscriber list, content relevance, the effectiveness of calls to action (CTA), and proper audience segmentation.
-
-That said, it's important to remember that the ideal CTR can vary from one company to another and largely depends on the specific goals of the campaign. Some campaigns may have a higher CTR if the content is highly relevant, and the audience is highly engaged, while others may have lower CTRs if they are sent to a broader and more diverse list.
-
 
 **Delivery Rate:**
+*GitLab benchmark: 97%*
 
 Our delivery rate should be in the high 90s.  Anything below this number needs to be addressed. A low delivery rate could be indicative of two things: poor list quality or the wrong email service provider.
 
-How is the delivery rate calculated? Number of emails delivered divided by number of emails sent.
+How to calculate delivery rate: Number of emails delivered / number of emails sent.
 
 Example: 950/1000 = 95% Delivery Rate.
 
 **Open Rate:**
+*GitLab benchmark: 23%*
 
 Importance of Subject Lines in Email Marketing:
 
@@ -143,30 +134,45 @@ The KPI most directly impacted by the subject line is the Open Rate. This metric
 For a software and web application company like GitLab, the average open rate percentage may vary, but a good benchmark is between 20% and 30%.
 
 If our open rate is low, consider testing different subject lines or preheaders to see what style works best with our customers.
-How is the open rate calculated? Number of emails opened divided by the number of emails delivered.
+
+How to calculate open rate: Number of emails opened / number of emails delivered
 
 Example: 200/1000 = 20% Open Rate
 
+**Click Rate (CTR)**
+ *GitLab benchmark: 2%*
+
+ The click rate is the measure of how many people who received the email clicked on CTA, image, or links within the body of the email. 
+ 
+ The average click through percentages in email marketing campaigns for software and web application companies like GitLab can vary, but a good general benchmark is a CTR ranging from 2% to 5%. 
+ 
+This value can vary significantly depending on various factors, such as the quality of the subscriber list, content relevance, the effectiveness of calls to action (CTA), and proper audience segmentation.
+
+That said, it's important to remember that the ideal CTR can vary from one company to another and largely depends on the specific goals of the campaign. Some campaigns may have a higher CTR if the content is highly relevant, and the audience is highly engaged, while others may have lower CTRs if they are sent to a broader and more diverse list.
+
+How to calculate click-through rate: Number of clicks / number of emails delivered
+
 **Click To Open Rate:**
+*GitLab Benchmark: 7%*
 
 There are several factors which could go into a low click-to-open rate, such as our email design, our content, our call to action — really any element in the body of our email.
  
 It is a little more challenging to isolate what may be causing a low click-to-open rate, which is why we need to set up some A/B test splits to determine the cause.
  
-How to calculate the Click To Open Rate: Unique Clicks divided by number of emails open.
+How to calculate the Click To Open Rate: Unique Clicks / number of emails open.
 
 Example: 50/200 = 25%
 
 **Opt-Out Rate:**
+*GitLab Benchmark: 0.3%*
 
 Generally a good (low) unsubscribe (or opt-out rate) is below 0.2%. But anything above 1% is a problem. Determining why customers are opting out can be a challenge, so be proactive. Set up a brief survey for people who do opt out asking why.
 
-How is the Opt-out rate calculated? Total Opt-outs divided by the number of emails delivered.
+How to calculate opt-out rate: Total Opt-outs / number of emails delivered.
 
 Example: 5/950 = 0.5% Unsubscribe Rate.
 
 ## Email Templates
-{: #email-templates .gitlab-purple}
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
 #### Please see [this issue](https://gitlab.com/gitlab-com/marketing/demand-generation/campaigns/-/issues/3375) for more details and to see how the email templates look.

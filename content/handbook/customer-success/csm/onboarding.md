@@ -70,13 +70,13 @@ Ideally, the following information has been collected in the presales process an
 1. `What are your business goals?` After they achieve their immediate goal of whatever they want to use GitLab for, what's next for them?
 1. `Are there other stakeholders to involve?` Is there anyone else who would benefit from having business discussions with GitLab? CSMs should always have at least 2 regular contacts they speak with, ideally in line with our [target personas](/handbook/customer-success/csm/engagement/#customer-personas).
 
-In addition to the above questions, make sure to review the [tasklist for the first cadence call](/handbook/customer-success/csm/cadence-calls/#tasklist-for-the-first-cadence-call) to ensure you cover additional important items, such as support and training.
+In addition to the above questions, make sure to review the [tasklist for the first cadence call](/handbook/customer-success/csm/cadence-calls/#tasklist-for-the-first-cadence-call) to ensure you cover additional important items, such as support and training. It's also critical to ensure that customers (especially those that are self-managed) sign up for GitLab security alerts, which they can do by entering their email address in the "Sign up for security notices" section of [this page](https://about.gitlab.com/company/contact/). CSMs can monitor whether or not their customers are signed up for security alerts by looking at the relevant SFDC reports for [contacts](https://gitlab.my.salesforce.com/00O8X000008RTyM) (most customers will fall into this category) and [leads](https://gitlab.my.salesforce.com/00O8X000008RTyg). It is recommended to save versions of those SFDC reports with your preferred filters in your Personal Custom Reports folder in SFDC for efficiency and to avoid accidentally modifying the original reports. You can do this by opening the report,selecting "Save As", renaming the report, and saving it to "My Personal Custom Reports". From there, you can modify the report to include your desired filters. If a customer does not sign up for security alerts in between the kickoff call and the first cadence call, CSMs should revisit this topic in subsequent conversations and emphasize that opting in to these notifications will ensure the customer is aware of any action they may need to take to keep their instance(s) secure.
 
 One of the most important action items coming out of the kickoff call is [establishing the cadence call](/handbook/customer-success/csm/cadence-calls/). The CSM should have the ongoing cadence call schedule determined with the customer by the end of the kickoff call, as well as a plan for the [first cadence call](#1st-cadence-call-future-growth-discussion--checklist).
 
-#### Major Enterprise CSM Journey Spreadsheet
+####  CSM Journey Spreadsheet
 
-It is recommended for Major Enterprise CSMs to use a [Customer Journey Spreadsheet](https://docs.google.com/spreadsheets/d/1H6gGlsCAZoHKy27kPhJfZE8v4039_lI6pW9nif-um-A) (internal only) to identify the customer's entry point and better identify the enablement needed. The spreadsheet aims to cover the multiple onboarding steps we see as CSMs, from the infrastructure build review, to the required migration steps and expansion to DevSecOps. Scale and Growth CSMs are not recommended to create and maintain these spreadsheets.
+CSMs are welcome to use a [Customer Journey Spreadsheet](https://docs.google.com/spreadsheets/d/1H6gGlsCAZoHKy27kPhJfZE8v4039_lI6pW9nif-um-A) (internal only) to identify the customer's entry point and better identify the enablement needed. The spreadsheet aims to cover the multiple onboarding steps we see as CSMs, from the infrastructure build review, to the required migration steps and expansion to DevSecOps. Scale and Growth CSMs are not recommended to create and maintain these spreadsheets.
 
 ### Success plan development (document key attributes)
 
@@ -105,7 +105,7 @@ By accomplishing the following tasks, you'll know you have completed onboarding:
    - [ ] Asks about any additional goals the customer has
    - [ ] Asks about the customer's DevSecOps toolstack
    - [ ] Asks about any additional customer stakeholders
-   - [ ] Advises the customer on how to get [support](/support/)
+   - [ ] Advises the customer on how to get [support](https://about.gitlab.com/support/) as well as how to sign up for security alerts
 - [ ] Complete initial draft of success plan, with the objective being their primary use case with the relevant [Stage Enablement playbook](/handbook/customer-success/playbooks/)
 - [ ] Complete second call (first cadence), where the CSM:
    - [ ] Discusses how they will work with the customer towards their goals, collecting metrics for success, milestones/timelines, and establishing next steps

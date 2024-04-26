@@ -437,19 +437,17 @@ Given the way that our systems are connected and synched, you may see a discrepa
 ## Field Marketing Metrics 
 This section will go into specifics on the workflow for a Field Marketer to check their results.
 
-At the highest level, Field Marketing is responsible for helping to progress MQLs with the rest of the Integrated Marketing team. Those MQLs will ultimately create [Sales Accepted Opportunities](/handbook/sales/field-operations/gtm-resources/#opportunities) by the Sales Development team.  We also track campaign contribution to the sales pipeline as well as velocity of the opportunities that interact with our campaigns. 
+At the highest level, Field Marketing is responsible for helping to progress MQLs and influencing pipeline. Those MQLs will ultimately create [Sales Accepted Opportunities](/handbook/sales/field-operations/gtm-resources/#opportunities) by the Sales Development team. 
 
-Field Marketing also has an 8X spend to pipeline goal. So if the company gives us $1, we need to give $8 in pipeline back. 
+Field Marketing also has an 10X spend to pipeline goal. So if the company gives us $1, we need to give $10 in pipeline back. 
 
 ### The Field Marketing Dashboard
-Our FMM Dashboard lives in the SAFE Intermediate space within the platform and provides an overview on the performance of the Field Marketing programs.
+Our FMM Dashboard lives in the SAFE space within Tableau and provides an overview on the performance of the Field Marketing programs.
 
-- [Field Marketing Dashboard](https://app.periscopedata.com/app/gitlab:safe-intermediate-dashboard/965060/Field-Marketing-Metrics-(V2---WIP))
-- [Regional Campaign Dashboard](https://app.periscopedata.com/app/gitlab:safe-intermediate-dashboard/1111393/Draft:-Regional-Insights-2.0) 
+- [TD Campaigns Dashboard](https://10az.online.tableau.com/#/site/gitlab/views/DraftTDCampaigns-L2RInteractions/CampaignDrillDown)
 
 ### Useful Links
 This section provides links to relevant reports that may live outside of the Field Marketing Dashboard.
-- [Linear Attribution Dashboard](https://app.periscopedata.com/app/gitlab:safe-intermediate-dashboard/965070/WIP:-TD-Attribution)
 - [SAOs accepted by last touch = Field Marketing Campaigns](https://gitlab.my.salesforce.com/00O4M000004FYB0)
 - [Sales Pipeline Report stages 1-3](https://gitlab.my.salesforce.com/00O4M000004aJh9)
 - [Workshop attendance rates](https://gitlab.my.salesforce.com/00O4M000004aXke) - note, if you want to see attendance rates by a different tactic, just modify the report!
@@ -477,23 +475,31 @@ You’ll then want to sort by `Ad Campaign Name (FT)`, which answers the questio
 
 If you did not have a specific SFDC Campaign you were driving to, and you wanted to see the success of your campaign, then you would still refer to the [WW SFDC Field Marketing Digital Report](https://gitlab.my.salesforce.com/00O4M000004aA0V), add in your campaigns UTM there, using the filter `Ad Campaign Name` [contains] and add your UTM.
 
-Please note that whilst you can track leads via SFDC campaigns or UTM reports, pipeline generated should be viewed on [Sisense](https://app.periscopedata.com/app/gitlab:safe-intermediate-dashboard/965070/WIP:-TD-Attribution) only, as SFDCs last touch model is different from our multi touch attribution model.
+Please note that whilst you can track leads via SFDC campaigns or UTM reports, pipeline generated should be viewed in [Tableau](https://10az.online.tableau.com/#/site/gitlab/views/DraftTDCampaigns-L2RInteractions/Overview?:iid=2) only, as SFDCs last touch model is different from our multi touch attribution model.
 
 ## Channel Marketing Reporting 
 We track marketing influence on channel opportunies as well as deal regisiration impact from [Market Development Funds](/handbook/resellers/Channel-Program-Guide/MDF/). 
 
 | Report Name                                    | Platform   | Description                                                                                                                                                                                                                                  | Link                                                                                                                                  |
 | ---------------------------------------------- | ---------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
-| Partner Lead Status                            | Sisense    | This dashboard shows the overview of the leads shared with partners via [Vartopia](/handbook/marketing/marketing-operations/vartopia/). This includes the Share Status by partners, partner leads, campaign and geo. | [🖇️](https://app.periscopedata.com/app/gitlab:safe-intermediate-dashboard/992265/TD-Partner-Lead-Status)                             |
-| Partner Sourced Opportunities                  | Sisense    | This dashboard shows the opportunities generated by Marketing campaigns.                                                                                                                                                                     | [🖇️](https://app.periscopedata.com/app/gitlab:safe-intermediate-dashboard/983640/TD:-Partner-Sourced-Opportunities)                  |
+| Partner Lead Status                            | Tableau   | This dashboard shows the overview of the leads shared with partners via [Vartopia](/handbook/marketing/marketing-operations/vartopia/). This includes the Share Status by partners, partner leads, campaign and geo. | [🖇️](https://10az.online.tableau.com/#/site/gitlab/views/DraftPartnerMarketingv2/PartnerLeadsContacts?:iid=1)                             |
+| Partner Sourced Opportunities                  | Tableau    | This dashboard shows the opportunities generated by Marketing campaigns.                                                                                                                                                                     | [🖇️](https://10az.online.tableau.com/#/site/gitlab/views/DraftPartnerMarketingv2/PartnerSourcedOpps?:iid=1)                  |
 | Focus Partner Tech Capabilities                | Salesforce | This report shows all the focus partner and an overview of their company information.                                                                                                                                                        | [🖇️](https://gitlab.my.salesforce.com/00O8X00000963VI)                                                                               |
-| Partner Marketing Trials Funnel - SaaS         | Sisense    | This dashboard shows an overview of all the SaaS free trial submissions by partners.                                                                                                                                                         | [🖇️](https://app.periscopedata.com/app/gitlab:safe-intermediate-dashboard/1114685/Draft:-New-Partner-Marketing-Trials-Funnel---SaaS) |
-| Partner Marketing Trials Funnel - Self Managed | Sisense    | This dashboard shows an overview of all the Self-Managed free trial submissions by partners.                                                                                                                                                 | [🖇️](https://app.periscopedata.com/app/gitlab:safe-intermediate-dashboard/1060854/Partner-Marketing-Trials-Funnel---Self-Managed)    |
+| Partner Marketing Trials Funnel - SaaS & Self Managed        | Tableau    | This dashboard shows an overview of all the SaaS & Self Managed free trial submissions by partners.                                                                                                                                                         | [🖇️](https://10az.online.tableau.com/#/site/gitlab/views/DraftPartnerMarketingv2/PartnerTrials?:iid=1) |
 | Channel Partner Participation                  | Salesforce | This report captures an overview of [partner program offerings](/handbook/marketing/channel-marketing/#channel-partner-program-participation-overview) that partners are actively enrolled in.                       | [🖇️](https://gitlab.my.salesforce.com/00O8X00000963dq)                                                                               |
-| Partner Recall Records                          | Google Sheets | This report captures the partner leads that have been recalled in the current FY.                                                                                                                                                            | [🖇️](https://docs.google.com/spreadsheets/d/1A8Z_vKazprQJDkniX9kvfYuGXuzVBeG0JBXk51FAnHA/edit#gid=0)                                                                               |
+| Partner Recall Leads  & Contacts                        | Salesforce | This report captures the partner leads that have been recalled in the current FY.                                                                                                                                                            | [🖇️ Leads](https://gitlab.my.salesforce.com/00O8X000008muTH)  [🖇️ Contacts](https://gitlab.my.salesforce.com/00O8X000008muWG)                                                                        |
 | MDF Funds Request with Funds Claim                       | Salesforce | This report captures a list of the current FY Funds Requests received and their respected. claims                                                                                                                                                            | [🖇️](https://gitlab.my.salesforce.com/00OPL0000002ILp)                                                                               |
 | MDF Funds Request with Partner Account                       | Salesforce | This report captures a list of the current FY Funds Requests with Partner Account name filtered by status.                                                                                                                                                            | [🖇️](https://gitlab.my.salesforce.com/00OPL0000002IP3)                                                                               |
+| Instant Marketing Campaigns Asset Report                       | Impartner | This report captures views, downloads, shares and cobrands of our Instant Marketing Campaigns and assets.                                                                                                                                                             | [🖇️](https://prod.impartner.live/en/s/channel-intel/dashboard/65e60883f43d1e0033b33d6e)                                                                               |
 
+
+### Channel Marketing Tableau Dashboard
+[This Tableau Dashboard](https://10az.online.tableau.com/#/site/gitlab/views/DraftPartnerMarketingv2/PartnerSourcedOpps?:iid=1) is the SSOT for Channel Marketing Reporting. 
+
+Under the `Partner Leads & Contacts` tab, there may be campaigns with Partner Share Status = `No Value`. This is the result of two reasons:
+
+1. Distributor do not receive partner leads, so their status will show as `No Value`.
+2. There may be a sync error, and the sync need to be attended. Create a [Marketing Operations issue](https://gitlab.com/gitlab-com/marketing/marketing-operations/-/issues/new) for investigation.
 
 #### SFDC Report Template - Records Passed to Partners
 
@@ -519,7 +525,7 @@ The above reports are Bizible attribution reports at the person level, you will 
 
 ### Contribution to sales pipeline
 
-This can be calculated by heading to the [Marketing Influenced Pipeline dashboard](https://app.periscopedata.com/app/gitlab:safe-intermediate-dashboard/1073948/WIP:-Marketing-Influenced-Pipeline). 
+This can be calculated by heading to the [Marketing Influenced Pipeline dashboard](https://10az.online.tableau.com/#/site/gitlab/views/MarketingInfluencedPipeline/MarketingInfluencedPipelineReview?:iid=2). 
 
 #### How to trouble shoot your ROI questions
 If you have a quick 1 off question on reporting, then please feel free to ask the question in the #fieldmarketing slack channel.

@@ -4,6 +4,8 @@ description: Support Operations workflows and policies page for Gratis Support r
 canonical_path: "/handbook/support/readiness/operations/docs/policies/gratis_support"
 ---
 
+<sup>*Introduced via [support-team-meta#2408](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/2408)*</sup>
+
 This document focuses solely on the workflows and policies for Gratis Support
 requests. If you are looking for a more in-depth description, please review
 the [Support handbook page on requesting gratis support](/handbook/support/gratis-support/).
@@ -127,10 +129,11 @@ With that created, you need to edit some of the organization fields:
 | Expiration Date        | 30 days from setup           |
 
 For `GitLab Plan`, you need to review the opportunity to determine if this is
-a SaaS or Self-Managed opportunity. If you cannot determine it, please ask the
-requester on the issue to clarify that.
+a gitlab.com or Self-Managed opportunity. If you cannot determine it, please ask
+the requester on the issue to clarify that.
 
-If it is SaaS, use `Prospect SaaS`. If it is Self-Managed, use `Prospect SM`.
+If it is gitlab.com, use `Prospect Dotcom`. If it is Self-Managed, use
+`Prospect SM`.
 
 After setting up the organization, you need to add the support contacts from the
 issue to the organization.
@@ -155,10 +158,10 @@ with the following:
 > Please ensure you inform the customer who will be filing tickets (the email
 > given via the form) of the following:
 >
-> - All SaaS related tickets should be submitted via
+> - All gitlab,com related tickets should be submitted via
 >   [this form](https://support.gitlab.com/hc/en-us/requests/new?ticket_form_id=334447&tf_360005241679=saas_prospect_customer)
->   unless it is specifically about SaaS Account related matters
-> - All SaaS Account related matters should be submitted via
+>   unless it is specifically about gitlab,com Account related matters
+> - All gitlab,com Account related matters should be submitted via
 >   [this form](https://support.gitlab.com/hc/en-us/requests/new?ticket_form_id=360000803379&tf_360005241679=saas_prospect_customer)
 > - All Self-Managed related tickets should be submitted via
 >   [this form](https://support.gitlab.com/hc/en-us/requests/new?ticket_form_id=426148&tf_360005182220=sm_prospect_customer)
@@ -253,7 +256,7 @@ append the following):
 > - Starting product: INITIAL_OFFERING
 > - Ending product: ENDING_OFFERING
 > - Self-managed tag(s): SM_TAG
-> - SaaS tag(s): SAAS_TAG
+> - gitlab.com tag(s): DOTCOM_TAG
 >
 > When you see this note in a ticket and you are the first to work that ticket,
 > please remove the unneeded SLA tag and add the needed tag based on the subject
@@ -266,10 +269,10 @@ in this table:
 
 | Term              | Description                                    | Possible values                  |
 |-------------------|------------------------------------------------|----------------------------------|
-| INITIAL_OFFERING  | The product from which they are migrating      | `SM`, `SaaS`                     |
-| ENDING_OFFERING   | The product to which they are migrating        | `SM`, `SaaS`                     |
+| INITIAL_OFFERING  | The product from which they are migrating      | `SM`, `DotCom`                   |
+| ENDING_OFFERING   | The product to which they are migrating        | `SM`, `DotCom`                   |
 | SM_TAG            | The self-managed tag the organization is using | `starter`, `premium`, `ultimate` |
-| SAAS_TAG          | The SaaS tag the organization is using         | `bronze`, `silver`, `gold`       |
+| DOTCOM_TAG        | The gitlab.com tag the organization is using   | `bronze`, `silver`, `gold`       |
 | ISSUE_LINK        | The issue you are working                      |                                  |
 
 The information needed for the above values should be determined from the issue
@@ -717,7 +720,7 @@ Utilize these to comment on a request when a validation check has failed.
 > As such, we will not be able to proceed on this request and will now close
 > the issue.
 >
-> You might want to reach out in #spt_managers to speak to a support manager
+> You might want to reach out in #support_leadership to speak to a support manager
 > bout other options that may be able to be used for this account.
 >
 > /label ~"SupportOps::Blocked"
@@ -735,7 +738,7 @@ Utilize these to comment on a request when a validation check has failed.
 > As such, we will not be able to proceed on this request and will now close
 > the issue.
 >
-> You might want to reach out in #spt_managers to speak to a support manager
+> You might want to reach out in #support_leadership to speak to a support manager
 > bout other options that may be able to be used for this account.
 >
 > /label ~"SupportOps::Blocked"
@@ -753,7 +756,7 @@ Utilize these to comment on a request when a validation check has failed.
 > As such, we will not be able to proceed on this request and will now close
 > the issue.
 >
-> You might want to reach out in #spt_managers to speak to a support manager
+> You might want to reach out in #support_leadership to speak to a support manager
 > bout other options that may be able to be used for this account.
 >
 > /label ~"SupportOps::Blocked"
@@ -820,7 +823,7 @@ Utilize these to comment on a request when a validation check has failed.
 > We are seeing the Gratis Support status for this customer has already expired
 > and cannot be extended at this time.
 >
-> You might want to reach out in #spt_managers to speak to a support manager
+> You might want to reach out in #support_leadership to speak to a support manager
 > bout other options that may be able to be used for this account.
 >
 > /label ~"SupportOps::Blocked"

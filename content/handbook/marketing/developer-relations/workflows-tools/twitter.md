@@ -19,7 +19,7 @@ title: "Twitter response workflow"
 | [@GitLab](https://twitter.com/GitLab) | Zendesk | Respond to mentions and questions |
 
 - The [@GitLabStatus](https://twitter.com/GitLabStatus) account should only be used to give updates on the availability of [GitLab.com](https://gitlab.com) and to follow up on users reporting that [GitLab.com](https://gitlab.com) is unavailable or responding to a previous availability update on [@GitLabStatus](https://twitter.com/GitLabStatus).
-- Only the infrastructure team should be posting updates on [@GitLabStatus](https://twitter.com/GitLabStatus). There is a [defined process](https://about.gitlab.com/handbook/engineering/infrastructure/incident-management/) for this describing who should do this, how and what channels should be alerted.
+- Only the infrastructure team should be posting updates on [@GitLabStatus](https://twitter.com/GitLabStatus). There is a [defined process](/handbook/engineering/infrastructure/incident-management/) for this describing who should do this, how and what channels should be alerted.
 
 ## Workflow
 

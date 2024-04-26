@@ -28,7 +28,7 @@ Know someone who might be a great fit for our team? Please refer them to the job
 - When supporting a customer, any issue, incident or loss is *GitLab's loss*.
   - When a customer experiences trouble or downtime, take action with the same urgency you'd have if GitLab were experiencing downtime.
   - When a customer is losing productivity, take action with the same urgency you'd have if GitLab were losing productivity.
-  - A customer with 2,500 users whose instance is down, gets the same urgency as if GitLab were losing $1,000,000 per day. This treatment is equal regardless of how much they are paying us.
+  - A customer with 2,500 users whose instance is down, gets the same urgency as if GitLab were losing $1,000,000 per day.
 - Escalate early. Visibility across GitLab, up to and including the CEO, is always better earlier rather than later. Ensure all resources needed are on the case for customers early.
 
 Remember, as members of the support team we are the first to interact with someone when they have a problem or question. As such it is up to us to represent the company and make sure we present ourselves properly. Therefore we are expected to:
@@ -43,12 +43,12 @@ Remember, as members of the support team we are the first to interact with someo
 Our goal is to provide guidance that will lead to the best results for our customers as they use GitLab. In that, we will often point to documentation, product functionality, or open bugs/feature requests.
 However, there are times when customers will be best served through one of our commercial offerings.
 
-Support is part of the [Engineering Department](https://about.gitlab.com/handbook/engineering/) and Support Engineers are not commissioned or bonused for upsell for additional services, customer purchases, or lead generation.
+Support is part of the [Engineering Department](/handbook/engineering/) and Support Engineers are not commissioned or bonused for upsell for additional services, customer purchases, or lead generation.
 If you recommend [Professional Services](https://about.gitlab.com/services/) or moving to a different tier or offering you may link to this section in your recommendation to give the customer assurance you're doing so with no mixed motivations.
 
 ### Our role within GitLab
 
-GitLab Support is part of the [Engineering division](https://about.gitlab.com/handbook/engineering/).
+GitLab Support is part of the [Engineering division](/handbook/engineering/).
 While most engineering departments are part of the R&D [cost center](/handbook/finance/financial-planning-and-analysis/#cost--reporting-structure),
 Support is part of the Cost of Sales (or sometimes Cost of Goods Sold (COGS)) cost center.
 
@@ -103,7 +103,7 @@ If you go through the responsibilities for each role in Support you can piece to
 
 - Support Engineers help solve customer problems via tickets, merge requests, and other customer facing activities.
 - Managers help solve Support Engineer problems by removing obstacles, joining in on customer facing activities, and working with support engineers to build systems that work to reduce friction and enable results and efficiency.
-- Senior Managers help resolve and avoid scaling problems by addressing team performance to KPIs, prioritizing initiatives and being responsible for the achievement of global results.
+- Senior Leaders help resolve and avoid scaling problems by addressing team performance to KPIs, prioritizing initiatives and being responsible for the achievement of global results.
 - VP of Support helps resolve and avoid company wide problems, by identifying growth and team design challenges, and reporting on progress to the Executives and Board.
 
 This simple list helps to give an easy way to set expectations and align problem solving in different roles.
@@ -112,7 +112,7 @@ This simple list helps to give an easy way to set expectations and align problem
 
 We use [Key Performance Indicators](/handbook/support/performance-indicators/) (KPIs) to keep track of how well each Engineering Department is doing, including the Support team, as a whole.
 
-The KPI measurements can be found under the `Reporting` tab in Zendesk if you have the appropriate access, but progress on meeting these KPIs is also tracked via the aforementioned KPI link and visually through reports in the [Support KPIs Dashboard](https://app.periscopedata.com/app/gitlab/421422/).
+The KPI measurements can be found under the `Reporting` tab in Zendesk if you have the appropriate access, but progress on meeting these KPIs is also tracked via the aforementioned KPI link.
 
 We review these KPIs weekly in the [Support Week-in-Review](/handbook/support/#support-week-in-review).
 
@@ -121,7 +121,7 @@ We review these KPIs weekly in the [Support Week-in-Review](/handbook/support/#s
 In service of achieving our KPIs and OKRs, there are three key pillars that we must balance to achieve success:
 
 - People: Continue to hire excellent engineers and managers, at the right time, and the right places. Support our existing engineers and work with each team member towards realizing their full potential through professional development and smart tooling.
-- Process: Iterate on existing processes and develop new, simplified processes that enable global scaling
+- Process: Iterate on existing processes and develop new, simplified processes that enable global scaling.
 - Performance: People understand how their contributions help the global team attain our results, with guidance on what these contributions look like in practice.
 
 At various times it's easy to over-optimize on one of the pillars to solve a problem, but considering all three is key to avoiding short-sighted decision making.
@@ -158,46 +158,51 @@ Below we also have some commonly referenced pages:
 
 ---
 
-## FY24 Direction
+## FY25 Direction
 
-GitLab Support's vision is to deliver a consistent, exceptional experience to all customers across the globe. Our [Support Global Groups](/handbook/support/support-global-groups/) will collaborate and act as one team to deliver on that vision by continuing to strengthen and scale the team while delivering the results our customers care about the most.
+GitLab Support’s vision is to deliver a consistent, "delightful" experience to our customers. Our team members will collaborate across all timezones to seamlessly deliver the results our customers care about while continuing to strengthen and scale the team.
 
-The overall direction for Support in FY24 will continue building from the foundations laid in FY23. We will continue to focus on KPI achievement and evolve our approach to support. Following on to the company's overall [strategic objectives](/handbook/company/strategy/), specific areas of focus are:
+The overall direction for Support in FY25 will continue to build from the foundations laid in FY24. We will continue to focus on KPI achievement and evolve and iterate our approach to support, keeping the customer centered in our outcomes. Following on to the company’s overall [strategic objectives](https://handbook.gitlab.com/handbook/company/strategy/), specific areas of focus are:
 
-- [Customer Results](#customer-results)
-- [Strengthening the team](#strengthening-the-team)
-- [Scaling Support](#scaling-support)
+- [Our ability to achieve business aligned results for our customers](#improving-our-ability-to-achieve-results-for-our-customers)
+- [How our team structure supports that ability](#team-structure-and-how-it-supports-our-ability-to-achieve-results)
+- [Maintaining and augmenting the culture of our team](#team-culture-and-how-it-supports-our-ability-to-achieve-results)
+- [Delighting our customers](#delight-our-customers)
 
-While our [publicly visible OKR page](/handbook/company/okrs/) and [Key Performance Indicators](/handbook/support/performance-indicators/#key-performance-indicators) reflect the focus and progress for the current quarter, the following provides more detail on the items included in the themes for the entire FY23.
+While our [publicly visible OKR page](https://handbook.gitlab.com/handbook/company/okrs/) and [Key Performance Indicators](https://handbook.gitlab.com/handbook/support/performance-indicators/#key-performance-indicators) reflect the focus and progress for the current quarter, the following provides more detail on the items included in the themes for the entire FY25.
 
-### Customer Results
+### Improving our ability to achieve results for our customers
 
-The expansion of our customer base, in tandem with the expansion of our Global Support team, continually presents an opportunity to revisit many aspects of our daily work. As some customer segments grow, we have the specific opportunity in FY24 to look for tailored offerings or specialized workflows to meet the needs of those segments. In FY24 we will:
+FY24 was a challenging year in many aspects. As the workload and customer expectations grew, we needed to look at how we could improve efficiency and create a differentiated Support experience. FY25 is a year to focus and align on our customer needs and put our customers at the center of our understanding of their situations, perceptions, and expectations. To that end, we will:
 
-- Focus on reducing variability in KPI achievement
-- Build awareness of GitLab business needs and customer context so those factors can influence our prioritization and actions
-- Deliver a quality support product that increases the value of the GitLab brand
+- Iterate our support model, keeping our customer experience and business vision at the forefront of our decision making.
+- Adopt a prioritization strategy incorporating our customers' business impact and GitLab business need, while building an understanding within the Support team for the why behind it.
+- Examine and shape the macro and micro trends in group performance and individual efficiency.
+- Build a compelling customer digital support experience that will improve the customer journey and reduce toil for our team.
 
-### Strengthening the team
+### Team structure and how it supports our ability to achieve results
 
-The Support Team, Product areas and requirements of our customers continued their trend of growth and complexity in FY23. To support this growth and added complexity, in FY24, there will be a focus on keeping the team oriented toward performance and efficiency. This year, we will:
+In FY23 / FY24 we moved towards dividing the team into globally distributed groups of engineers. In FY25 we’ll build on that foundation and extend towards differentiating support offerings to better align with customer requirements. This year, we will:
 
-- Improve team performance: as individuals, as SGGs and as a global team
-- Improve collaborative workflows with a drive towards efficiency and results
-- Continue hiring a diverse team while maintaining our high team member retention rate
+- Progress enhanced support offerings while partnering more closely with the Customer Success Team to meet our customers' business needs.
+- Improve how we route and address customer tickets to an appropriate expert with a mind for growing individual engineers from just starting their support journey to complete stewardship of the support journey experience.
 
-### Scaling Support
+### Team culture and how it supports our ability to achieve results
 
-The continued growth of the support team provides an opportunity to review how best to deliver results to our customers. This will include both looking towards new support offerings and ensuring our existing offerings contribute towards GitLab value-proposition. As we [strengthen the team](#strengthening-the-team), we also need to look towards a larger scale. In FY24 we will:
+As GitLab grows, Support’s influence within the company as advocates for customers must also grow. We need to continue to strengthen the Values-driven cultural attributes that promote efficient collaboration and results for customers while maintaining GitLab Support as a great place to work. In FY25 we will:
 
-- Refine the delivery of our existing support plan (Premium Support)
-- With eyes focused on [customer results](#customer-results), investigate new / differentiated support offerings
-- Improve cross-functional collaboration
-- Look at areas of process, product and team that have increasing complexity with a critical eye and with the aim to reducing barriers to attainment of results
-- Build awareness of industry and other external trends and focuses that may affect the support experience or our ability to deliver [a quality support product that increases the value of the GitLab brand](#customer-results)
+- Build leaders and influencers within GitLab as advocates for customers.
+- Expand our enablement, training, and education to prepare the current and future generations of Support Engineers to meet the needs of our customers.
+
+### Delight our customers
+
+FY24 was a year of better understanding the needs of our customers. In FY25 we will focus on *delighting* them. We will:
+
+- Pair with our customers and train engineers in setting and exceeding customer expectations.
+- Improve our ways to serve customers and resolve their problems before a ticket is even opened while keeping that context to enrich tickets for Support Engineers if a ticket *is* needed.
+- Improve our understanding of Support Delivery Quality and how we can consistently provide world class service.
 
 ---
-
 {{% include "includes/we-are-also-product-development.md" %}}
 
 ## Dogfooding in Support
@@ -208,7 +213,7 @@ Dogfooding is using a piece of GitLab *for its intended purpose*. For example, o
 
 In other words: Dogfooding is using the product in the way that our customers would use it to the end of discovering and solving pain points that they have. Dogfooding supports [customer results](/handbook/values/#customer-results).
 
-At GitLab Support we use Service Desk to process [Personal Data Requests](https://about.gitlab.com/handbook/gdpr/), but not for our global support because the customer for Service Desk is primarily small teams soliciting [*bug reports, feature requests, or general feedback*](https://docs.gitlab.com/ee/user/project/service_desk/). Through our use of Service Desk in this smaller setting we've been able to influence product direction towards adding features like [internal notes](https://docs.gitlab.com/ee/user/discussions/#add-an-internal-note).
+At GitLab Support we use Service Desk to process [Personal Data Requests](/handbook/gdpr/), but not for our global support because the customer for Service Desk is primarily small teams soliciting [*bug reports, feature requests, or general feedback*](https://docs.gitlab.com/ee/user/project/service_desk/). Through our use of Service Desk in this smaller setting we've been able to influence product direction towards adding features like [internal notes](https://docs.gitlab.com/ee/user/discussions/#add-an-internal-note).
 
 We continually evaluate product features for use-cases within Support and provide feedback and feature requests where blockers exist. Support will always prioritize [customer results](/handbook/values/#customer-results) over any other consideration.
 
@@ -231,7 +236,7 @@ See [Managers/Hazards page](/handbook/support/managers/hazards-and-challenges)
 ## Communications
 
 The GitLab Support Team is part of the wider Engineering function. Be sure to check the
-[communications section in the Engineering handbook](https://about.gitlab.com/handbook/engineering/#communication)
+[communications section in the Engineering handbook](/handbook/engineering/#communication)
 for tips on how to keep yourself informed about engineering announcements and initiatives.
 
 Here are our most important modes of communication:
@@ -335,7 +340,7 @@ The [SGG Slackbot's](https://gitlab.com/gitlab-com/support/support-ops/other-sof
 | [#support_licensing-subscription](https://gitlab.slack.com/archives/C018C623KBJ) | Discuss Licensing & Renewals tickets and customer issues |
 | [#support_ticket-attention-requests](https://gitlab.slack.com/archives/CBVAE1L48) | Discuss escalated tickets with the Support Manager On-Call |
 | [#support_operations](https://gitlab.slack.com/archives/C018ZGZAMPD) | Discuss operational items related to how Support works |
-| [#spt_managers](https://gitlab.slack.com/archives/C01F9S37AKT) | Discuss support team internal matters which require support managers' attention |
+| [#support_leadership](https://gitlab.slack.com/archives/C01F9S37AKT) | Discuss support team internal matters which require support managers' attention |
 | [#spt_hiring](https://gitlab.slack.com/archives/CE9S6JW4S) | Discuss support team hiring-related matters |
 | [#spt_pairing](https://gitlab.slack.com/archives/C03UW0HPBGD) | Used when working together on tickets and issues |
 | [#spt_us-federal](https://gitlab.slack.com/archives/C03RTN3JEJ2) | Discussion about topics pertaining to US Fed Support |
@@ -578,9 +583,9 @@ In these cases, a [project webhook](https://docs.gitlab.com/ee/user/project/inte
 which then sends the information to a Slack workflow.
 
 - `#support_gitlab-com`
-  - CMOC [Gitlab Project](https://gitlab.com/gitlab-com/support/dotcom/cmoc-handover/), [Zap](https://zapier.com/app/zap/100087156), [Slack workflow](https://gitlab.com/gitlab-com/support/toolbox/slack-workflows/-/blob/master/cmoc_handover.slackworkflow)
+  - CMOC [GitLab Project](https://gitlab.com/gitlab-com/support/dotcom/cmoc-handover/), [Zap](https://zapier.com/app/zap/100087156), [Slack workflow](https://gitlab.com/gitlab-com/support/toolbox/slack-workflows/-/blob/master/cmoc_handover.slackworkflow)
 - `#support_licensing-subscription`
-  - L&R related internal requests [Gitlab Project](https://gitlab.com/gitlab-com/support/internal-requests/), [Zap](https://zapier.com/app/zap/98925072), [Slack workflow](https://gitlab.com/gitlab-com/support/toolbox/slack-workflows/-/blob/master/support_licensing_subscription_internal_requests.slackworkflow)
+  - L&R related internal requests [GitLab Project](https://gitlab.com/gitlab-com/support/internal-requests/), [Zap](https://zapier.com/app/zap/98925072), [Slack workflow](https://gitlab.com/gitlab-com/support/toolbox/slack-workflows/-/blob/master/support_licensing_subscription_internal_requests.slackworkflow)
 
 #### Emoji Reaction
 
@@ -612,7 +617,7 @@ Providing information by reacting to a message with a specific emoji.
 After getting promoted, make sure to update your title in:
 
 - our [Support team page](https://gitlab.com/gitlab-com/support/team/-/blob/master/data/support-team.yaml), and the change would be reflected in Zendesk
-- the company team page following the same steps in [Add yourself to the Team Page](https://about.gitlab.com/handbook/git-page-update/#12-add-yourself-to-the-team-page)
+- the company team page following the same steps in [Add yourself to the Team Page](/handbook/editing-handbook/#add-yourself-to-the-team-page)
 
 Consider updating the title on Slack and on Zoom, following the guidelines in [Zoom name format](#zoom-name-format).
 

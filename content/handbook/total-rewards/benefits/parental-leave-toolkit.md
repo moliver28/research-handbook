@@ -105,7 +105,7 @@ Visit the [GitLab Team page](/handbook/company/team/) and search for 'Parental L
 
 ### Adding Parental Leave Reentry Buddy to your GitLab Profile
 
-1. Find your [yml file](https://about.gitlab.com/handbook/git-page-update/#12-add-yourself-to-the-team-page).
+1. Find your [yml file](/handbook/editing-handbook/#add-yourself-to-the-team-page).
 1. Add `Parental Leave Reentry buddy` to the `departments` section in your entry (keeping your existing departments):
 
    ```yaml
@@ -150,11 +150,11 @@ A nice way to celebrate a team member's new addition to their family is by hosti
 - Consider participating in the [**Your 4th Trimester program**]({{< ref "general-and-entity-benefits#return-to-work-resources" >}}), a 90-day coaching program to help parents transition back to work.
 - Read [GitLab's guide to parenting as a remote worker](/handbook/company/culture/all-remote/parenting/)
 - Consider reaching out to a [Parental Leave Reentry Buddy](#parental-leave-reentry-buddies)
-- Watch the video below from [Crucial Conversations]({{< ref "/handbook/leadership/crucial-conversations" >}}) entitled `How Working Moms can Do it All`:
+- Watch the video below from [Crucial Conversations](/handbook/leadership/crucial-conversations) entitled `How Working Moms can Do it All`:
 
 {{< youtube "IRvsi-zsKvM" >}}
 
-- Watch the video below from [Crucial Conversations]({{< ref "/handbook/leadership/crucial-conversations" >}}) entitled `How Working Moms can Ask for Help at Home`
+- Watch the video below from [Crucial Conversations](/handbook/leadership/crucial-conversations) entitled `How Working Moms can Ask for Help at Home`
 
 {{< youtube "6CHPChKAsBE" >}}
 

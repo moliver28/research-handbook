@@ -84,7 +84,7 @@ If you're viewing [Storybook](https://gitlab-org.gitlab.io/gitlab-ui/?path=/stor
 
 ![Include GitLab CSS bundle](include_gitlab_css.png){: .small}
 
-**Note:** Don't be afraid to ask a [GitLab UI maintainer](https://about.gitlab.com/handbook/engineering/projects/#gitlab-ui) for help with setting up your integration test.
+**Note:** Don't be afraid to ask a [GitLab UI maintainer](/handbook/engineering/projects/#gitlab-ui) for help with setting up your integration test.
 
 ### UX showcase video on updating GitLab UI
 

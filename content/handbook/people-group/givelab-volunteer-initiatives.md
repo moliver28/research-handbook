@@ -31,7 +31,7 @@ The first `GitLab Donation Drive` in 2020 started as an internal challenge to Gi
 
 Having identified a talent gap in both the technology and the university system which speaks predominantly to Underrepresented Groups, the [Upstream Diversity Working Group]({{< ref "incentives" >}}) was established.
 
-Geared toward knowledge sharing, the [recently piloted program](https://about.gitlab.com/handbook/engineering/volunteer-coaches-for-urgs/) sees GitLab team members extending their technical skills and time to those in Underrepresented Groups (URGs) with a view to creating `future career opportunities` for them within the technology sector.  The program mobilises GitLab team members to serve as `coaches` in partnership with [Latinitas](https://latinitasmagazine.org/); [FreeCodeCamp](https://www.freecodecamp.org/) and [re:Learn](https://relearn.ng/).
+Geared toward knowledge sharing, the [recently piloted program](/handbook/engineering/volunteer-coaches-for-urgs/) sees GitLab team members extending their technical skills and time to those in Underrepresented Groups (URGs) with a view to creating `future career opportunities` for them within the technology sector.  The program mobilises GitLab team members to serve as `coaches` in partnership with [Latinitas](https://latinitasmagazine.org/); [FreeCodeCamp](https://www.freecodecamp.org/) and [re:Learn](https://relearn.ng/).
 
 ## Trusted Interns
 
@@ -57,4 +57,4 @@ Hack for She, a completely virtual hackathon aimed to find solutions to Women’
 
 ----
 
-Return to the [People Group Handbook]({{< ref "/handbook/people-group" >}}).
+Return to the [People Group Handbook](/handbook/people-group).

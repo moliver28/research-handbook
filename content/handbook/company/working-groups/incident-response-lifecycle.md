@@ -17,16 +17,16 @@ description: "The Incident Response Lifecyle working group is intended to docume
 
 1. Increase [efficiency](/handbook/values/#efficiency) through common incident response, analysis, documentation, ongoing management and reporting methods.
 1. Increase [transparency](/handbook/values/#transparency) through improving visibility and communication of incidents to business and e-group
-1. Support [results](/handbook/values/#results) by building our clients' confidence in Gitlab's ability to quickly resolve and communicate incidents when they occur
+1. Support [results](/handbook/values/#results) by building our clients' confidence in GitLab's ability to quickly resolve and communicate incidents when they occur
 1. Align Incident Management activities and priorities with those of the business
-1. Prepare materials for the creation of training modules for the Engineer Department on the Incident Management Process at Gitlab
+1. Prepare materials for the creation of training modules for the Engineer Department on the Incident Management Process at GitLab
 1. Highlight dogfooding opportunities
 
 ## Exit Criteria
 
 1. Single source of truth documenting incident response management that will be applicable to all areas of Engineering and teams who provide Incident Response
    - Each functional area of Engineering will develop their own Incident management requirements for identifying and reacting to service outages or security threats.
-1. Create a comprehensive knowledge base for Gitlab team members to help them understand how incident response teams implement the IR process
+1. Create a comprehensive knowledge base for GitLab team members to help them understand how incident response teams implement the IR process
 
 ## Outcome
 
@@ -49,11 +49,11 @@ description: "The Incident Response Lifecyle working group is intended to docume
    - [GitLab SIRT On-Call Guide]({{< ref "secops-oncall" >}})
 1. [On-call](/handbook/on-call/)
 1. Reliability
-   - [Incident Management](https://about.gitlab.com/handbook/engineering/infrastructure/incident-management/)
+   - [Incident Management](/handbook/engineering/infrastructure/incident-management/)
 1. Support
-   - [How to Perform CMOC Duties](/handbook/support/workflows/cmoc_workflows.html)
+   - [How to Perform CMOC Duties](/handbook/support/workflows/cmoc_workflows/)
    - [Contacting Customers](/handbook/support/internal-support/#contacting-customers-via-tickets)
-   - [Sending Notices](/handbook/support/workflows/sending_notices.html) (small number of users)
+   - [Sending Notices](/handbook/support/workflows/sending_notices/) (small number of users)
 
 ### Noted issues
 

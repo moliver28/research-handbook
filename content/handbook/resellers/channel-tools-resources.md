@@ -97,7 +97,7 @@ Please submit your request for GitLab-branded items through your Channel Account
 
 ## **GitLab Partner Communications and Resources**
 
-Gitlab uses the Partner Portal, and our News on Demand Platform to communicate with Partners.  Partners will automatically receive the newsletter and other communications when they have access to the portal. Gitlab will deliver communications in the following manner.
+GitLab uses the Partner Portal, and our News on Demand Platform to communicate with Partners.  Partners will automatically receive the newsletter and other communications when they have access to the portal. GitLab will deliver communications in the following manner.
 
 - **Partner Flash Newsletter -** Once in the portal, navigate to the News tab to set preferences. A Partner can elect to receive the newsletter daily, weekly, or bi-weekly and select what content type to receive. Example: Only interested in Marketing content? You can opt out of Technical content.
 

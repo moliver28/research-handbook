@@ -110,7 +110,7 @@ The Manager, Account Based Marketing is a [8](/handbook/total-rewards/compensati
 - Team player with ability to work independently and autonomously
 - Flexibility to adjust to the dynamic nature of a startup
 - Ability to use GitLab
-- [Leadership at GitLab](/handbook/company/team/structure/#management-group)
+- [Leadership at GitLab](/handbook/company/structure/#management-group)
 
 #### Performance Indicators
 

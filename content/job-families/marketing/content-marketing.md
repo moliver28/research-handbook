@@ -1,6 +1,6 @@
 ---
 title: "Content Marketing Roles"
-description: "Learn more about Content Marketing roles at Gitlab including levels, responsibilities and requirements."
+description: "Learn more about Content Marketing roles at GitLab including levels, responsibilities and requirements."
 ---
 
 ## Levels
@@ -208,7 +208,7 @@ The Manager, Content Marketing is a [grade 8](/handbook/total-rewards/compensati
 - Obsessive about content quality not quantity
 - Regular reporting on content and channel performance
 - You share our [values](/handbook/values/), and work in accordance with those values
-- [Leadership at GitLab](/handbook/company/team/structure/#management-group)
+- [Leadership at GitLab](/handbook/company/structure/#management-group)
 - BONUS: A passion and strong understanding of the industry and our mission
 
 ## Career Ladder

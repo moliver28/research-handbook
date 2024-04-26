@@ -122,7 +122,7 @@ to install all the necessary components.
 > - `helm upgrade -i makesiddance --namespace gitlab --set baseDomain=makesiddance.com,baseIP=192.168.1.1,legoEmail=you@gitlab.com,provider=gke gitlab/gitlab-omnibus` (Replacing baseDomain, baseIP with External Address from above, and legoEmail as appropriate.)
 >
 > **Alternate instructions for GitLab EE**
-> - Go to [/free-trial/](/free-trial/) and request a trial license for GitLab EE
+> - Go to [/free-trial/](https://about.gitlab.com/free-trial/) and request a trial license for GitLab EE
 > - Wait for email
 > - Download license to `~/.gitlab-license`
 > - Install helm chart, adding the gitlab and gitlabEELicense options:

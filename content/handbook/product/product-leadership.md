@@ -14,7 +14,7 @@ title: Product Leadership
 
 ## General Product Organizational Structure
 
-The GitLab Product team includes team members at various levels of [Product Management job titles](/handbook/product/product-manager-role/product-CDF-competencies/) across our [organizational levels](/handbook/company/team/structure/#levels) with scope at various points in our [product hierarchy](/handbook/product/categories/#hierarchy). As a result there can be instances where peers across layers don't have the same title. We will always abide by [GitLab's layer structure](/handbook/company/team/structure/#layers).
+The GitLab Product team includes team members at various levels of [Product Management job titles](/handbook/product/product-manager-role/product-CDF-competencies/) across our [organizational levels](/handbook/company/structure/#levels) with scope at various points in our [product hierarchy](/handbook/product/categories/#hierarchy). As a result there can be instances where peers across layers don't have the same title. We will always abide by [GitLab's layer structure](/handbook/company/structure/#layers).
 
 | Level | Job Families | Hierarchy Scopes |
 | ----- | ------------ | ---------------- |
@@ -43,18 +43,18 @@ The [Monthly Kick-Off](https://about.gitlab.com/direction/kickoff/#overview) is 
 | 2023-09-18 | Hillary Benson | [16.5 Release Kick Off Issue](https://gitlab.com/gitlab-com/Product/-/issues/12732) | 
 | 2023-10-16 | Justin Farris | [16.6 Release Kick Off Issue](https://gitlab.com/gitlab-com/Product/-/issues/12796) |
 | 2023-11-16 | Mike Flouton | [16.7 Release Kick Off](https://gitlab.com/gitlab-com/Product/-/issues/12859) |
-| 2023-12-18 | Hillary Benson | To be added |
-| 2024-01-18 | Justin Farris | To be added |
-| 2024-02-19 | Mike Flouton | To be added |
-| 2024-03-18 | Hillary Benson | To be added | 
-| 2024-04-18 | Justin Farris | To be added | 
-| 2024-05-20 | Mike Flouton | To be added | 
-| 2024-06-18 | Hillary Benson | To be added | 
+| 2023-12-18 | Hillary Benson | [16.8 Release Kick Off](https://gitlab.com/gitlab-com/Product/-/issues/12955) |
+| 2024-01-18 | Omar Fernandez | [16.9 Release Kick Off](https://gitlab.com/gitlab-com/Product/-/issues/13036) |
+| 2024-02-16 | Mike Flouton | [16.10 Release Kick Off](https://gitlab.com/gitlab-com/Product/-/issues/13116) |
+| 2024-03-18 | Justin Farris | To be added | [16.11 Release Kick Off](https://gitlab.com/gitlab-com/Product/-/issues/13212)
+| 2024-04-18 | Hillary Benson | To be added | 
+| 2024-05-20 | Steve Evangelista | To be added | 
+| 2024-06-18 | Mike Flouton | To be added | 
 | 2024-07-18 | Justin Farris | To be added | 
-| 2024-08-19 | Mike Flouton | To be added | 
-| 2024-09-18 | Hillary Benson | To be added | 
-| 2024-10-17 | Justin Farris | To be added | 
-| 2024-11-18 | Mike Flouton | To be added | 
+| 2024-08-19 | Hillary Benson | To be added | 
+| 2024-09-18 | Steve Evangelista | To be added | 
+| 2024-10-17 | Mike Flouton | To be added | 
+| 2024-11-18 | Justin Farris | To be added | 
 | 2024-12-18 | Hillary Benson | To be added | 
 
 
@@ -65,7 +65,7 @@ The Product [Key Review](/handbook/key-review/) is hosted by a member of the [Pr
 | Date | Host | Planning Issue |
 | ---- | ---- | -------------- |
 | 2023-11-15 | Mike Flouton | https://gitlab.com/gitlab-com/Product/-/issues/12863 |
-| 2024-XX-XX | Hillary Benson | To be added |
+| 2024-02-21 | Hillary Benson | https://gitlab.com/gitlab-com/Product/-/issues/13121 |
 | 2024-XX-XX | Justin Farris | To be added |
 | 2024-XX-XX | Mike Flouton | To be added |
 | 2024-XX-XX | Hillary Benson | To be added |
@@ -81,7 +81,7 @@ For more details, visit the Group Conversations [handbook page](/handbook/group-
 | ---- | ---- | -------------- |
 | 2023-09-27 | Mike Flouton | https://gitlab.com/gitlab-com/Product/-/issues/12401 | 
 | 2023-12-06 | Hillary Benson | https://gitlab.com/gitlab-com/Product/-/issues/12909 |
-| 2024-XX-XX | Justin Farris | To be added  |
+| 2024-02-28 | Justin Farris | https://gitlab.com/gitlab-com/Product/-/issues/13120 |
 | 2024-XX-XX | Mike Flouton | To be added |
 | 2024-XX-XX | Hillary Benson | To be added |
 | 2024-XX-XX | Justin Farris | To be added |
@@ -131,7 +131,7 @@ are for them, ensuring that there's a productive ongoing dialogue with feedback
 coming in and then features being adopted internally. [Internal customers](/handbook/values/#dogfooding)
 should have at least a monthly check-in, with the internal customer section
 in the category epic kept up to date.
-- Represent their portfolio in day-to-day interaction with [D](/handbook/company/team/structure/#director-group) and [E](/handbook/company/team/structure/#e-group) groups, with
+- Represent their portfolio in day-to-day interaction with [D](/handbook/company/structure/#director-group) and [E](/handbook/company/structure/#e-group) groups, with
 particular responsibility to prioritize inputs from leadership into something
 stable in the short/medium term and actionable by the PMs, to align efforts
 across teams, and to raise visibility of wins by the PM to the broader team
@@ -151,7 +151,7 @@ and always clearly communicated.
 coaching should be provided consistently, clearly, and in an actionable way, with
 the intent of avoiding "surprise problems". In the same vein, following up on
 requests for context, advice, and so on from the PMs is a priority. The
-[socratic method](/handbook/company/team/structure/#management-group) is
+[socratic method](/handbook/company/structure/#management-group) is
 recommended as a great approach that works particularly well with PMs.
 - Prioritize hiring, being sure to include PMs (and EMs/team members) who will work
 with the new person in the process.

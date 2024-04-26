@@ -35,11 +35,11 @@ This is a series of Speakers, Q&As, Talk and Workshops that the Diversity, Inclu
 
 {{< youtube "r2o2im4Gvog" >}}
 
-- **May 19th 2021** Gitlab Fireside chat with Shaun Christie-David - Social Entrepreneur and CEO of Plateitforward
+- **May 19th 2021** GitLab Fireside chat with Shaun Christie-David - Social Entrepreneur and CEO of Plateitforward
 
 {{< youtube "4xhj__1cyG8" >}}
 
-- **April 15th 2021** Gitlab x Kinspace: The importance and power of storytelling in building inclusive and intersectional workplaces**
+- **April 15th 2021** GitLab x Kinspace: The importance and power of storytelling in building inclusive and intersectional workplaces**
 
 [Zoom chat box](https://docs.google.com/document/d/1HPDZn1xx2ilTiyU3vdk0bAQQHYud9FTToeRNefPA_MQ/edit) as a lot of interaction here
 

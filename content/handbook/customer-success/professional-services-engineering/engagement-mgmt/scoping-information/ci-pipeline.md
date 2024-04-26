@@ -49,7 +49,7 @@ Its helpful to understand the level of maturity that the customer is on as it re
 
 ## Specific Approaches
 
-1. **Flash Cut** - Migrate all data from Jenkins to Gitlab CI and update pipeline files at once.
+1. **Flash Cut** - Migrate all data from Jenkins to GitLab CI and update pipeline files at once.
 2. **Net New** - Update all pipeline job definitions to run on the customer GitLab instance using GitLab CI. All job history remains on the legacy system. All historical packages and containers are left on the legacy system and rebuilt on the new GitLab system.
 
 ## Scoping Questions - Jenkins Migration Opportunity

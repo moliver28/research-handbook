@@ -16,11 +16,11 @@ status: active
 
 ## Context
 
-There are currnetly 3+ methods for publishing and listening to events withint the Gitlab product.
+There are currnetly 3+ methods for publishing and listening to events withint the GitLab product.
 There is no single standard for events and there is no standard way of publishing and subscribing to events from other
-Gitlab systems and services.
+GitLab systems and services.
 
-There is a growing need to standardize events and how to publish and consume them for both Gitlab.com and self-managed installs.
+There is a growing need to standardize events and how to publish and consume them for both GitLab.com and self-managed installs.
 
 ## Working Group Goals
 
@@ -29,7 +29,7 @@ This Working Group has the following goals:
  1. Document the current event systems
  1. Document the currently identified use cases for an event stream
  1. Define and socialize an architecture for a standardized event stream and events
-    1. Architecture Blueprint for Event Stream usage within Gitlab and self-managed
+    1. Architecture Blueprint for Event Stream usage within GitLab and self-managed
     1. Define sene and secure defaults. Provide security recommendations and guidelines.
  1. Define a rollout strategy and plan
     1. SaaS rollout strategy for current use cases
@@ -80,7 +80,6 @@ If it is decided that an Event Stream should be implemented, our exit criteria s
 
 | Working Group Role | Person             | Title                                           |
 |--------------------|--------------------|-------------------------------------------------|
-| Executive Sponsor  | Laurence Bierner   | Director, Security Engineering       |
 | Facilitator        | Alex Groleau       | Security Automation Manager                     |
 | Functional Lead    | Juliet Wanjohi     | Security Engineer, Security Automation          |
 | Functional Lead    | Ethan Urie         | Senior Backend Engineer, Security Automation    |

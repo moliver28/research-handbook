@@ -79,10 +79,12 @@ These `noinspection` comments might confuse some non-JetBrains users.
 Therefore, each of these comments should be accompanied by a comment explaining why it
 was needed, with a reference to any supporting information.
 
-If it was needed due to a JetBrains bug or limitation, you can reference the specific entry on the
-[Tracked JetBrains Issues](../tracked-jetbrains-issues) page.
+*If it was needed due to a JetBrains bug or limitation, you can reference the specific entry on the
+[Tracked JetBrains Issues](../tracked-jetbrains-issues) page*. If one doesn't exist yet, you should:
 
-If one doesn't exist yet, you should open an issue against JetBrains and add it to that page.
+1. Open an issue against JetBrains and add it to that page (this is preferred).
+1. Or, if you don't have time to identify or open an issue against JetBrains, leave a `TODO:` link pointing to that page, and
+   indicating that a JetBrains issue should be identified or opened at a later time.
 
 ## Each `noinspection` and explanation should be a one-liner
 

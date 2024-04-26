@@ -54,7 +54,7 @@ The Senior Inside Sales Representative is a [grade 7](/handbook/total-rewards/co
 
 - Extends the Insides Sales Representative Requirements
 - One year of successful account management related to closed sales results with GitLab clients.
-- One year of successful account management at Gitlab with regards to call, deal and other metrics (e.g. managing tasks in SalesForce).
+- One year of successful account management at GitLab with regards to call, deal and other metrics (e.g. managing tasks in SalesForce).
 - Ability and willingness to mentor less experienced team members.
 
 ### Manager, Insides Sales

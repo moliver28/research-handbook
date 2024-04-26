@@ -4,7 +4,7 @@ title: "Support Career Framework: Senior Support Engineer"
 
 ## Senior Support Engineer
  
- {{% include "includes/engineering/support-career-nav.md" %}}
+ {{% include "includes/engineering-careers/support-career-nav.md" %}}
 
 **Senior Support Engineers at GitLab are expected to exhibit the following competencies:**
 
@@ -16,7 +16,7 @@ title: "Support Career Framework: Senior Support Engineer"
 
 ### Leadership Competencies
 
-{{% include "includes/engineering/senior-leadership-competency.md" %}}
+{{% include "includes/engineering-careers/senior-leadership-competency.md" %}}
 - Assists others with difficult issues
 - Engages with other teams to resolve issues
 - Mentors teammates on debugging techniques and GitLab internals
@@ -26,7 +26,7 @@ title: "Support Career Framework: Senior Support Engineer"
 
 ### Technical Competencies
 
-{{% include "includes/engineering/senior-technical-competency.md" %}}
+{{% include "includes/engineering-careers/senior-technical-competency.md" %}}
 - Able and willing to debug and resolve complex problems
 - Notices and escalates emerging issues
 - Becomes involved with issues that are likely to breach
@@ -39,4 +39,4 @@ title: "Support Career Framework: Senior Support Engineer"
 
 ###  Values Alignment
 
-{{% include "includes/engineering/values-competency.md" %}}
+{{% include "includes/engineering-careers/values-competency.md" %}}

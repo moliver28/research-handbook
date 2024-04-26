@@ -1,6 +1,5 @@
 ---
 title: "GitLab Testing Agreement v2"
-description: "Learn more about the GitLab Testing Agreement v2"
 ---
 
 ## GitLab Testing Agreement

@@ -31,7 +31,7 @@ status: active
 ### Exit Criteria
 
 The charter of this working group is to define and implement the next iteration of the
-[Architecture Evolution Workflow](https://about.gitlab.com/handbook/engineering/architecture/workflow/).
+[Architecture Evolution Workflow](/handbook/engineering/architecture/workflow/).
 
 We want to make it easier and more intuitive to use the Workflow, but also to
 improve the process itself, to position team members better for delivering
@@ -44,8 +44,8 @@ great results by using it.
 - Lower the entry barrier for creating a proposal in a blueprint.
 - Establish criteria for when a blueprint should be used.
 - Identify cross-functional touchpoints and consolidate upstream processes like
-  [production readiness](https://about.gitlab.com/handbook/engineering/infrastructure/production/readiness/),
-  [AppSec reviews](/handbook/security/security-engineering/application-security/runbooks/review-process),
+  [production readiness](/handbook/engineering/infrastructure/production/readiness/),
+  [AppSec reviews](/handbook/security/product-security/application-security/runbooks/review-process),
   and [creation of release posts](/handbook/marketing/blog/release-posts/).
 - Develop strategy for incorporating this process and the Engineering roadmap into Product planning
   and prioritization via the [Cross-functional Prioritization][next-prioritization] framework.
@@ -58,7 +58,7 @@ great results by using it.
 - [Architecture Blueprints][blueprints] provide great context and detail, but
   they are completely disconnected from Product prioritization and thus rarely
   picked up into the workstream.
-- [Working Groups](/handbook/company/team/structure/working-groups/) involving technical
+- [Working Groups](/handbook/company/working-groups/) involving technical
   initiatives have a low rate of success. Many *choose* to produce blueprints
   as part of their exit criteria, but blueprints are not standard and do very
   little to ensure the work gets done.
@@ -83,7 +83,7 @@ the working group concludes:
 #### Architecture Kickoff Working Group
 
 The [Architecture Kickoff]({{< ref "architecture-kickoff" >}}) working group
-was primarily concerned with [defining a 3/6/12-month technical roadmap](https://about.gitlab.com/handbook/engineering/architecture/roadmap/).
+was primarily concerned with [defining a 3/6/12-month technical roadmap](/handbook/engineering/architecture/roadmap/).
 This working group picks up by further iterating on the process for maintaining this roadmap over time
 and better facilitating its implementation.
 

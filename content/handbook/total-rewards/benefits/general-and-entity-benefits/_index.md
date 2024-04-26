@@ -25,7 +25,7 @@ For any questions relating to benefits, please reach out to [Total Rewards](/han
 - [GitLab GK (Japan)]({{< ref "gitlab-gk" >}})
 - [GitLab Ireland LTD]({{< ref "gitlab-ireland-ltd" >}})
 - [GitLab Korea LTD]({{< ref "korea-ltd-benefits" >}})
-- [Gitlab France S.A.S.]({{< ref "france-sas" >}})
+- [GitLab France S.A.S.]({{< ref "france-sas" >}})
 - [GitLab Singapore Pte Ltd]({{< ref "singapore-pte-ltd" >}})
 - [Remote Technology (Brazil,Denmark, Spain, Italy, Switzerland, South Africa, Mexico, Hungary, Sweden and Austria)]({{< ref "remote-com" >}})
 - [Papaya Global (UAE, Italy)]({{< ref "papaya-global" >}})
@@ -55,6 +55,20 @@ In the unfortunate event that a GitLab team member passes away, GitLab will prov
   - The team member must have indicated in writing to whom the money should be transferred. To do this you must complete the [Expression of wishes](https://docs.google.com/document/d/19p4IN-msvs4H10teBessfPx-1wu8J7Vs67Es8iVLlL8/edit?usp=sharing) form. To do this, first copy the template to your Google Drive (File -> Make a copy), enter your information, sign electronically. To sign the document, use a free document signing program like [smallpdf](https://smallpdf.com/sign-pdf); or you can print it, sign and digitize. Sign, save as a pdf and upload to your Documents folder in Workday - [here](https://docs.google.com/document/d/19B0lsMu7dMhof1ghPuBxHP23DuDqi2qpWF8pCWyEUN4/edit) is the job aid for quick reference.
   - For part-time GitLab team members, the lump sum is calculated pro-rata, so for example for a team member that works for GitLab 50% of the time, the lump sum would be [$10,000]({{< ref "compensation#exchange-rates" >}}).
 
+## Discount Wellbeing Platform
+
+Starting 2024, GitLab has partnered with HealthKick, a global wellbeing platform providing Team Members discounts across wellbeing, fitness, & overall lifestyle offerings/services.
+- *This program is offered at no cost for team members.
+
+We know that whole-person wellness is important for feeling good. That’s why we are offering all employees access to HealthKick (at no-cost), a personal wellness membership dedicated to helping you feel your best. When you enroll you’ll gain access to an array of 250+ brands, content and expert resources that will help you optimize your well-being. From fitness classes and personalized workout plans to nutrition workshops and mental health resources.
+
+Please review HealthKick's member resources and the self-registration link/instructions to enroll with anytime throughout the year.
+[Gitlab self-registration link](https://www.health-kick.com/companies/1004/registration)
+[HealthKick Overview](https://drive.google.com/file/d/1AitsrkUDA66UV5xZsv5ooqxmr7BpxlLh/view)
+[HealthKick Welcome Packet](https://drive.google.com/file/d/1_vdASrSSzztvEwM7NOx_szEPYMkPBiiA/view?usp=sharing)
+
+If team members have any questions about this service or would like to cancel this service, please reach out to the HealthKick support team via `concierge@health-kick.com`.
+
 ## Financial Wellness
 
 GitLab offers resources related to [Financial Wellness]({{< ref "financial-wellness" >}}) to support team members in their financial journey.
@@ -63,13 +77,13 @@ GitLab offers resources related to [Financial Wellness]({{< ref "financial-welln
 
 GitLab has a "Flexible PTO policy" [time off policy]({{< ref "paid-time-off" >}}) per 25 consecutive calendar days off.
 
-## Growth and Development Benefit
+## Growth and Development Fund
 
 GitLab supports team members who wish to continue their education and growth within their professional career. GitLab team-members are eligible for a reimbursement of up to $10,000 USD per calendar year (January 1st - December 31st) depending on tenure, performance, company need for the learned skill, and available budget. A course/program is considered to be included in the calendar year in which the course/program is paid/reimbursed (which should also be the same calendar year in which it ends). If a course/program ends in December, team members have a grace period until the end of January to claim for Growth & Development reimbursements from the previous calendar year.
 
-Budget estimations for the Growth & Development benefit are based on utilization rates from past years, adjusted for the size of the company. The budget is managed on a company-wide scale, not division-specific. For example, approving reimbursement for a team member in Engineering does not "take away" budget from other engineers. Eligibility is managed on an individual basis. Eligibility for this benefit is part of each GitLab team member's Total Rewards package.
+Budget estimations for the Growth & Development Fund are based on utilization rates from past years, adjusted for the size of the company. The budget is managed on a company-wide scale, not division-specific. For example, approving reimbursement for a team member in Engineering does not "take away" budget from other engineers. Eligibility is managed on an individual basis. Eligibility for this benefit is part of each GitLab team member's Total Rewards package.
 
-The [Growth and Development page]({{< ref "growth-and-development" >}}) covers information on the application process and the different types of expenses you can get reimbursed under this benefit.
+The [Growth and Development page]({{< ref "growth-and-development" >}}) covers information on the application process and the different types of expenses that are eligible for reimbursement.
 
 ## GitLab Summit
 
@@ -77,6 +91,20 @@ GitLab Summit (formerly known as Contribute) is our annual GitLab team event whe
 
 From our first Summit in Serbia to our virtual event in 2020, team members from around the world have built friendships and experienced the values in person.
 For more information and compilations of our past events check out our [previous Contributes](/handbook/company/culture/contribute/previous/).
+
+## Business Travel Emergency Assistance Program
+
+In an emergency, International SOS (ISOS) can provide quick medical, safety, and security assistance and services to team members on business travel around the globe.
+
+Your coverage as a GitLab team member is automatic and is year-round. There are several ways to interact with ISOS, depending on your preference:
+- Team members can download the [ISOS emergency app](https://my.internationalsos.com/LP=8890?_ga=2.54701099.1827787566.1652889843-59998074.1652889840) — it's the best way to get medical, safety, and security assistance abroad. Before traveling, open the App and register using your GitLab email address.
+    - Please use a unique password and not the same as your existing GitLab credentials.
+    - Note that this is not a GitLab application and is managed by ISOS. You can read more about the app [here](https://internationalsos.com/subscriber/assistance-app).
+    - If you have medical, safety, or security questions before or during travel, open the ISOS app and press the Need Assistance button. You will be directed to ISOS's closest emergency alarm center, where a nurse, doctor, safety, or security expert will assist you.
+    - If team members prefer not to download the app, we encourage you to follow this [link](https://www.internationalsos.com/Private/NET_StandardMembershipCards/comprehensive.aspx?CustomerNumber=401GDA935395IT&CompanyID=GitLab%2c+Inc.&ProgramName=Assignee+%26+International+Traveler+Assistance&PhoneNum1=Philadelphia+++%2b1+215+942+8226&PhoneNum2=Sydney+++%2b61+2+9372+2468&PhoneNum3=London+++%2b44+(0)20+8762+8008&PhoneNum4=Singapore+++%2b65+6338+7800&Language=en-US) and print or take a picture of the membership card with the emergency contact details. You can save the number in your phone for easy access.
+    - Note that International SOS is an optional resource for team members and is only one of the ways you can receive care.
+
+If you have questions, reach out in the [#peopleconnect](https://gitlab.enterprise.slack.com/archives/C02360SQQFR) Slack channel.
 
 ## Business Travel Accident Policy
 
@@ -104,13 +132,6 @@ GitLab offers benefits in relation to [obtaining visas and work permits](/handbo
 
 GitLab offers an Employee Assistance Program to all team members via [Modern Health]({{< ref "modern-health" >}}).
 
-## Care Concierge Pilot Program
-
-In light of our [“Family First, Work Second”]({{< ref "values#family-and-friends-first-work-second" >}}) value, we’re looking to launch a new benefit in FY23 to assist team members with family care needs (child, adult and complex care). As part of this implementation, Total Rewards will run a Pilot Program starting in October 2022 and ending in December 2022 to test our platform of choice, [Helpr](https://www.helpr-app.com/parents).
-
-Total Rewards will collaborate with the People Business Partners to select 10 team members to ensure that there is a diversity of participants from different locations, with different care needs, so that we can adequately evaluate the success of the pilot program. Participants will be required to take a survey on their experience with the service.
-
-If you are interested in participating in the Pilot Program or have any questions, please reach out to total-rewards@gitlab.com. Unfortunately, not all team members who request to particpate may be selected due to the limited space in the Pilot Program.
 
 ## Incentives
 
@@ -168,7 +189,7 @@ GitLab plans to continue to iterate on fertility benefits as we evaluate and enh
 
 GitLab's paid Parental Leave is available for any active team member (regardless of gender) who becomes a parent through childbirth or adoption while working at GitLab. This benefit is available to all team members on their first day of work, as long as their child was born or newly adopted during their employment at GitLab.
 
-GitLab team members are encouraged to decide for themselves how much time they'd like to take and how to take it, but the entire 16-week Parental Leave balance must be used prior to the child's first birthday or the first anniversary of the adoption. For many reasons, a team member may require more time off. Any GitLab team member can request additional unpaid leave for up to 4 weeks, and we are happy to address anyone with additional leave requests on a one-on-one basis.
+GitLab team members are encouraged to decide for themselves how much time they'd like to take and how to take it, but the entire 16-week Parental Leave balance must be used prior to the child's first birthday or the first anniversary of the adoption.
 
 The information in this section is specific to GitLab's 16-week paid Parental Leave. Different countries may provide team members with their own statutory Parental Leave (including maternity/paternity) benefits. Please review your country's statutory [Parental Leave](#entity-benefits) benefits for more information on how to apply and tenure requirements (if applicable). If you live in a country where a statutory Parental Leave benefit is available, you will be required to claim statutory Parental Leave pay (if eligible), and GitLab will supplement any gaps. When allowed by law GitLab's 16-week balance is per birth or adoption event per year and runs concurrently with these statutory benefits.
 
@@ -193,7 +214,7 @@ Please submit the dates of your PTO in [Time Off by Deel]({{< ref "paid-time-off
 
 Some team members may feel comfortable sharing their news sooner than other team members. You can share your news with your Manager whenever you feel comfortable, but we recommend communicating your plan to your manager at least 2-3 months before your leave starts for workload planning purposes. In the meantime, familiarize yourself with the steps below and specific leave requirements in your [country]({{< ref "general-and-entity-benefits#entity-benefits" >}}) (if any).
 
-**To initiate your Parental Leave, submit your time off by selecting the `Parental Leave` label in Time Off by Deel no less than 30 days prior to the start of your leave.** We understand that Parental Leave dates may change, so you can edit the dates in Time Off by Deel at a later time if you need to adjust the dates of your Parental Leave. It's important that you submit a tentative date 30 days in advance, but some countries have their own reporting requirements.  Please review your own [country's](#entity-benefits) reporting requirements to ensure you are reporting your leave according to these regulations.
+**30 days prior to the start of your leave** Enter your Parental Leave into Time Off by Deel by selecting the `Parental Leave` label. We understand the Parental Leave dates may change, so you can edit the dates in Time Off by Deel as needed. It's important that you submit the request in Deel, 30 days in advance, but some countries have their own reporting requirements. Please review your own [country's](#entity-benefits) reporting requirements to ensure you are reporting your leave according to these regulations.
 
 We realize that if you are going on adoptive parental leave, a 30 day notice period may not be possible. In these situations, you should notify your manager as soon as possible and enter the dates in Time Off by Deel when you can.
 
@@ -215,7 +236,7 @@ Team member commission payments with less than 6 months of past performance will
 
 Team members with 6 months or more of past performance are paid (parental leave only) based on the 12 prior months of performance with a cap at 100% of plan. For example, if a team member 8 months in role attained 85% of plan, they would be compensated at the same rate while on leave, but a team member 12 months in role will be compensated based on their prior 12 months of performance.
 
-On the day you return from leave and going forward, your commissions will be based on current performance only. The rate of commissions paid during your leave will be confirmed by the sales commissions team and communicated to the team member through the Absence Management team prior to your leave start date. If your country of employment has specific laws regarding the payout of commissions when on leave, those would supersede our policy.
+On the day you return from leave and going forward, your commissions will be based on current performance only. If your country of employment has specific laws regarding the payout of commissions when on leave, those would supersede our policy.
 
 In all cases, target variable pay used for LOA commission payments is 1/12 of annual on-target incentives (OTI) per month on leave.
 
@@ -227,21 +248,19 @@ In all cases, quota relief is calculated based on the per-month quotas set for a
 
 ### Commission Payments on Non-Parental Leave
 
-Effective FY24, team members on leave for 30 days or more will be eligible for Commissions to be paid for the first five weeks of non-parental leave at a 50% guarantee. After five weeks of non-parental leave, the team member would become ineligible for commissions. Any local requirements for commission payments on non-parental leave would supersede this policy.
+Effective Q1 FY25, team members on leave for 30 days or more will be eligible for Commissions to be paid for the first five weeks of non-parental leave. Commissions will be paid based on the 6 prior months of performance with a cap at 100% of plan. After five weeks of non-parental leave, the team member would become ineligible for commissions. Any local requirements for commission payments on non-parental leave would supersede this policy.
+
+For Solution Architects and Sales Management and Customer Success Management, payment will be calculated for individuals using actual team performance while on leave for the first five weeks of non-parental leave. These roles will not be eligible for quota relief during parental leave.
+
+For Sales roles with a utilization attainment, like the [Professional Services Engineer](/handbook/customer-success/professional-services-engineering/#team-metrics), since the utilization attainment is based on delivering above 70% of available billable hours, we apply the baseline attainment linked to utilization attainment. At the end of 90 continuous days of parental or medical leave, a one time payment of the 50% billable utilization attainment will be paid. Utilization payout during parental or medical leave is not based on prior individual performance, since projects identified for billable utilization are based on sales engagements and services attached, and not determined by individual performance.
+
+On the day you return from leave, the utilization payout returns to the established utilization attainment ranges.
 
 #### Quota Relief While On Non-Parental Leave
 
 Additionally, effective Q1 FY24, commissioned roles are eligible to receive quota relief if the team member has been with GitLab for six months or longer prior to the start of the leave. The team member will receive credit and commissions as specified in their existing Participant Schedule that occur ***prior*** to the start of the leave. After 60 continuous days of leave, quota relief will be applied to the team member on leave for the total duration of the leave up to a total of 3 months. The team member would receive an amended Participant Schedule upon return from leave. That amended participant schedule will include a prorated On Target Incentive based off the number of days that a team member is in seat for the fiscal year. For example, if coming back from leave at the beginning of a fiscal year the On Target Incentive will not be prorated. Please review this [reference slide](https://docs.google.com/presentation/d/1pWM8UhJGL7G8w_QzLKM1q2Rqql4OKm7vLD9HSCKfT9g/edit#slide=id.p) for an illustration of the quota relief and calculation process. For more information on quota relief and commissions on leave, please refer to the terms in the [Sales Compensation Plan](/handbook/finance/sales-comp-plan/#sales-compensation-plan).
 
 Sales management has discretion on how to cover a team member's territory while they are on leave. However, if another team member is assigned to cover business for someone on leave, they should be assigned the opportunity in SFDC but not the account. Team members covering opportunities will be compensated on the opportunities that they close in their name. Reassigning accounts may trigger quota changes.
-
-For Solution Architects and Management and Customer Success Managers and Management, payment will be calculated for individuals using actual team performance while on leave. These roles will not be eligible for quota relief during parental leave.
-
-For Sales roles with a utilization attainment, like the [Professional Services Engineer](/handbook/customer-success/professional-services-engineering/#team-metrics), since the utilization attainment is based on delivering above 70% of available billable hours, we apply the baseline attainment linked to utilization attainment, 50%.
-
-At the end of 90 continuous days of parental or medical leave, a one time payment of the 50% billable utilization attainment will be paid. Utilization payout during parental or medical leave is not based on prior individual performance, since projects identified for billable utilization are based on sales engagements and services attached, and not determined by individual performance.
-
-On the day you return from leave, the utilization payout returns to the established utilization attainment ranges.
 
 You are entitled to and need to comply with your local regulations. They override our policy.
 
@@ -271,6 +290,7 @@ You can learn more about parental leave and how to apply in the [Benefits sectio
 - Expecting parents sign up for the program before they start their Parental Leave. (If you decide you would like to participate in this program while on leave that is ok too!)
 - Barbara (from [Your 4th Trimester](https://drive.google.com/file/d/1NOkpt1oBruKunt3IdR6bQuvR0P2ht6Tg/view)) will start working with the team member prior to their leave and 30 days before the end of their Parental Leave
 - To apply for this coaching program, please notify Total Rewards that you would like to participate in the program by sending an email to growth-development@gitlab.com
+- Note the program cost is funded within your [Growth and Development](/handbook/total-rewards/benefits/general-and-entity-benefits/#growth-and-development-benefit) benefit
 
 #### Tips for a smoother transition
 

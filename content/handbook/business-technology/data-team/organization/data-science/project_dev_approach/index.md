@@ -16,7 +16,7 @@ description: "GitLab Data Science Team Approach to Model Development"
 
 # Our Approach
 
-The Data Science Team approach to model development is centered around Gitlab's value of [iteration](/handbook/values/#iteration) and the [CRISP-DM](https://en.wikipedia.org/wiki/Cross-industry_standard_process_for_data_mining) standard. Our process expands on some of the 6 phrase outlined in CRISP-DM in order to best address the needs of our specific business objectives and data infrastructure:
+The Data Science Team approach to model development is centered around GitLab's value of [iteration](/handbook/values/#iteration) and the [CRISP-DM](https://en.wikipedia.org/wiki/Cross-industry_standard_process_for_data_mining) standard. Our process expands on some of the 6 phrase outlined in CRISP-DM in order to best address the needs of our specific business objectives and data infrastructure:
 
 ```mermaid
 graph 
@@ -158,7 +158,7 @@ _**Iterative with 3a & 3c**_
 **Considerations**:
 - Behaviors make for great features. The best predictors about future behavior are often past behaviors.
 - Using historical data is a great way to create "change features". For example, instead of just looking at license utilization from one point in time, you can construct multiple features to see how it has changed over time and capture the magnitude, direction, and acceleration of the feature.
-- Eventually, the Gitlab Data Science team will implement a feature store that will allow to easily creation and retrieval of features to be used for modeling.
+- Eventually, the GitLab Data Science team will implement a feature store that will allow to easily creation and retrieval of features to be used for modeling.
 - Using a standard naming convention for fields ensures that someone else is able to pickup the and understand the code easily. Consider using the suffixes `_cnt, _pct, _amt, _flag` for fields containing counts, percents, currency amounts, and boolean flags, respectively.
 
 **Completion Criteria:**

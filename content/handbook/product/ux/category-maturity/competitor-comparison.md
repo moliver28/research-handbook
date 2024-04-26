@@ -21,15 +21,15 @@ You can conduct a competitor comparison at any time, but it’s strongly recomme
 - Identify industry trends related to your JTBDs/workflows
 - Identify gaps in our own feature offerings
 - Use the comparison findings for planning purposes
-- Address the identified gaps before evaluating for Complete and Loveable maturity
+- Address the identified gaps before evaluating for Competitive and Complete maturity
 
 If you’re not able to conduct a competitor comparison early on, that’s ok; there’s still tremendous value in conducting it during the later stages of Category Maturity Scoring.
 
-Conducting a competitor comparison should be done at least annually if you're at Loveable.  Otherwise, when you intend to make a category shift.
+Conducting a competitor comparison should be done at least annually if you're at Complete  Otherwise, when you intend to make a category shift.
 
 ## Steps to follow
 
-A Product Manager will lead their quad team, in collaboration with a Product Marketing Manager or Technical Marketing Manager, in conducting the competitor comparison. Reason: A Product Manager is best suited for leading the comparison effort, because they have a detailed view into the JTBDs, competitors, and features. The following steps walkthrough the process for a competitor comparison:
+A Product Manager will lead their quad team, in collaboration with a Product Marketing Manager or Developer Advocate, in conducting the competitor comparison. Reason: A Product Manager is best suited for leading the comparison effort, because they have a detailed view into the JTBDs, competitors, and features. The following steps walkthrough the process for a competitor comparison:
 
 - **Step 1 - Choose the competitor(s)**
   - If there are many competitors in the space, it’s advised to focus on the top competitor(s).

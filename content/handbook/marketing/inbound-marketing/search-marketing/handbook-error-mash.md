@@ -46,7 +46,7 @@ The Search Marketing team made a series of videos showing why fixing these error
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/W40ciCKtzpk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-While you're fixing those broken links, consider [making the link text meaningful](https://about.gitlab.com/handbook/markdown-guide/#links) if it isn't already. This helps to improve our site's accessibility for people who use screen readers.
+While you're fixing those broken links, consider [making the link text meaningful](/handbook/markdown-guide/#links) if it isn't already. This helps to improve our site's accessibility for people who use screen readers.
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/1K8irzpGExY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 

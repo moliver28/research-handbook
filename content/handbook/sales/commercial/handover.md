@@ -79,9 +79,9 @@ Once the FO AE has handed over the account via email, they are some keys steps t
 - Expand Director
 - Once the above is done, the account and renewal opportunity will be transferred to the Expand AE and the hand over is considered complete!
 
-[FO - FYE - No Handover - Month](https://gitlab.my.salesforce.com/00O8X000008mcf5)  
+[FO - FYE - No Handover - Month](https://gitlab.my.salesforce.com/00O8X000008mcf5)
 
-[AMER SMB FO Clean Your Room Dash](https://gitlab.my.salesforce.com/01Z8X000001DkoE)  
+[AMER SMB FO Clean Your Room Dash](https://gitlab.my.salesforce.com/01Z8X000001DkoE)
 
 
 #### Web Direct FO to Expand
@@ -115,7 +115,7 @@ GitLab Customers Portal
 
 GitLab [Customers Portal](https://customers.gitlab.com/customers/sign_in) enables you to manage key aspects of your GitLab account self-service. Leverage this portal to [renew your subscription](https://about.gitlab.com/pricing/licensing-faq/#how-do-i-renew-my-subscription), [add seats](https://about.gitlab.com/pricing/licensing-faq/#can-i-add-more-users-to-my-subscription), [change personal or account details](https://docs.gitlab.com/ee/subscriptions/index.html#change-your-personal-details), [update your payment method](https://docs.gitlab.com/ee/subscriptions/customers_portal.html#change-your-payment-method), and accomplish other account-related tasks.
 GitLab Support
-Need technical assistance? Please contact customer support by submitting a case on our [Gitlab Support page](https://support.gitlab.com/hc/en-us).
+Need technical assistance? Please contact customer support by submitting a case on our [GitLab Support page](https://support.gitlab.com/hc/en-us).
 Thank you for being a part of the GitLab community,
 
 -Your GitLab Sales Team

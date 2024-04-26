@@ -111,7 +111,7 @@ The Manager, Digital Experience is a [grade 8](/handbook/total-rewards/compensat
 - Passion for creating visually pleasing and intuitive user experiences.
 - Collaborative team spirit with great communication skills.
 - You share our [values](/handbook/values/), and work in accordance with those values.
-- [Leadership at GitLab](/handbook/company/team/structure/#management-group).
+- [Leadership at GitLab](/handbook/company/structure/#management-group).
 - Ability to use GitLab.
 
 ### Senior Manager, Digital Experience
@@ -141,7 +141,7 @@ The Senior Manager, Digital Experience is a [grade 9](/handbook/total-rewards/co
 
 ### Director, Digital Experience
 
-The Director, Digital Experience reports to the VP, Marketing Strategy and Platforms. The Product Manager (Marketing), Engineering Manager, and Digital Experience Operations Manager report to the Director, Digital Experience.
+The Director, Digital Experience reports to the VP, Integrated Marketing. The Product Manager (Marketing), Engineering Manager, and Digital Experience Operations Manager report to the Director, Digital Experience.
 
 #### Director, Digital Experience Job Grade
 
@@ -149,36 +149,31 @@ The Director, Digital Experience is a [grade 10](/handbook/total-rewards/compens
 
 #### Director, Digital Experience Responsibilities
 
-- Extends the Senior Manager, Digital Experience responsibilities.
-- **Performance tracking:** Define and manage performance indicators for the Digital Experience team by independently managing Marketing Strategy and Platforms KPIs.
-- **Cross-product collaboration:** Actively advocate for Digital Experience throughout the organization by ensuring Digital Experience responsibilities are reflected in the Marketing organization.
-- **Product knowledge:** Help drive cross-functional workflows by having an awareness of what's happening across all Marketing teams through active participation in reviews, showcases, and Group Conversations.
-- **Goal setting:** Independently manage the creation and execution of Digital Experience OKRs with feedback from the Marketing Strategy and Platforms team and Marketing Leadership.
-- **UX evangelism:** Ensure UX is prioritized by working with product leadership to identify opportunities for validation and better cross-functional collaboration.
-- **Design strategy:** Communicate significant Digital Experience design strategy decisions to leadership and the wider company.
-- **People management:** Coach direct reports on how to conduct 1:1s, growth, and feedback conversations with their direct reports.
-- **Skip levels:** Conduct quarterly skip levels with your reports' direct reports.
-- **Vision and direction**: Have an awareness of opportunities, strategy, and visions across Marketing.
-- **Team building:** Hire and retain a world-class team.
+- Lead the global web strategy as a critical marketing channel to drive awareness, education and acquisition in alignment with GitLab business priorities
+- Partner across Marketing (including Product Marketing, SEO, Campaigns, Brand, and Events teams), as well as cross-functionally (Product, IT) and senior leadership to shape the online experience for prospects and customers
+- Own and deliver reporting analysis on performance and business impact, as well as conceiving and executing testing strategies, QA processes and ensuring the delivery of initiatives on time and of the highest quality
+- Accountable for governance of the website and the content management system (CMS), evangelizing best practices including UX design, customer experience and engineering
+- Guide, mentor and lead a team of team leads, engineers and design specialists, in addition to managing our important vendor relationships
 
 #### Director, Digital Experience Requirements
 
-- Extends the Senior Manager, Digital Experience requirements.
-- Relevant experience managing engineers, designers, researchers, data scientists, product managers, and product owners and leading digital experience for a SaaS company.
-- Solid visual awareness with understanding of basic design principles like typography, layout, composition, and color theory.
-- Solid technical understanding of code (HTML, CSS, JS) and frameworks (JAMstack) as well as design systems (Storybook).
-- Proficiency with pre-visualization software (e.g. Figma, Sketch, Adobe Photoshop, Illustrator).
-- Experience defining the high-level strategy (the why) and creating design deliverables (the how) based on research.
-- Passion for creating visually pleasing and intuitive user experiences.
-- Collaborative team spirit with great communication skills.
+- 12-15 years experience leading strategy and execution of web strategy and design for a B2B or enterprise SaaS company, including 5-8 years leading a diverse team of technical professionals
+- Skilled in balancing technical needs and requirements with business objectives and parameters and consulting with stakeholders on shaping and scoping key initiatives
+- Deep technical expertise and practical experience in web development and related web technologies, including HTML, CSS, and JavaScript
+- Experience with major CMS platforms, UI and design, analytics and monitoring tools (e.g. Contentful, Figma, Quantum Metric)
+- Experience in fostering a testing and iterative team environment and orientation;  analyzing and reporting on website performance to a range of audiences, including marketing counterparts and business stakeholders
+- Extensive team management skills, including career development and coaching engineering team leads and people managers
+- Experience partnering cross-functionally across marketing, internal stakeholders, vendors and agency partners
 - You share our [values](/handbook/values/), and work in accordance with those values.
-- [Leadership at GitLab](/handbook/company/team/structure/#director-group)
+- [Leadership at GitLab](/handbook/company/structure/#director-group)
 
 ## Performance Indicators
 
-- [Contributing to the success of Digital Experience's Quarterly Initiatives](/handbook/marketing/digital-experience/#okrs)
-- [Identifying and organizing epics into executable Sprint plans](/handbook/marketing/digital-experience/#iteration-process)
-- [Successfully completing bi-weekly Sprint tasks](/handbook/marketing/digital-experience/#sprint-cycle)
+- Website sessions, engaged sessions by traffic source; user behavior
+- Usability metrics, site design, navigation, personalization and customer experience
+- Site optimization metrics, e.g. Mobile vs. desktop performance for searchability
+- Conversion rates, lead quality
+
 
 ## Career Ladder
 
@@ -186,11 +181,15 @@ The Digital Experience Management job family career ladder is yet to be defined.
 
 ## Hiring Process
 
-- Candidates for this position can expect the hiring process to follow the order below. Please keep in mind that candidates can be declined from the position at any stage of the process. To learn more about someone who may be conducting the interview, find their job title on our team page.
+- Candidates for this position can expect the hiring process to follow the order below. Please keep in mind that candidates can be declined from the position at any stage of the process.
 
-- Selected candidates will be invited to fill out a short questionnaire.
-- Next, candidates will be invited to schedule a screening call with our Global Recruiters
-- Next, qualified candidates will be invited to schedule a first interview with the Hiring Manager
-- Next, qualified candidates will be invited to interview with 2 - 4 team members
+- Qualified candidates will be invited to schedule a screening call with one of our Global Recruiters
+- Candidates will be invited to schedule an interview with the VP, Integrated Marketing
+- Candidates will be invited to schedule an interview with the VP, Product Marketing
+- Candidates will be invited to schedule an interview with the Director, Growth Marketing
+- Candidates will be invited to schedule an interview with the Director, Digital Strategy
+- Candidates will be invited to schedule an interview with the Marketing - Director, People Business Partner
+- Candidates will be invited to schedule an interview with the Chief Marketing Officer
+
 
 Additional details about our process can be found on our [hiring page](/handbook/hiring/).

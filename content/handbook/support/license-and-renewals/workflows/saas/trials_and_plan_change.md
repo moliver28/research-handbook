@@ -5,10 +5,48 @@ description: "How to handle GitLab.com subscription trials and plan changes"
 category: GitLab.com subscriptions & purchases
 ---
 
-## Request for Premium trial
+## Handling GitLab.com trial requests
 
-GitLab.com [only offers the self-service ability to trial the Ultimate subscription](https://gitlab.com/gitlab-org/customers-gitlab-com/issues/409).
-GitLab.com support can assist with trials of other plans. Ask the user to create the GitLab.com Ultimate trial, then change the plan via the CustomersDot admin `GitLab Groups` page.
+
+### GitLab.com customers without a subscription
+
+1. New customers without an existing GitLab.com subscription and namespace can apply for a 30-day GitLab Ultimate subscription by completing the following [form](https://gitlab.com/-/trial_registrations/new?glm_source=about.gitlab.com/&glm_content=default-saas-trial).
+1. GitLab.com users who have an existing namespace but do not have an active GitLab.com subscription can go to the billing section for their group namespace and press the `Start Trial` button. If a trial previously existed on that namespace, the button will not be present. In such situations the user will need to contact GitLab Sales to request a new trial or a trial extension.
+
+### GitLab.com customers with a Premium Subscription
+
+GitLab.com Premium customers who want to trial SaaS Ultimate have two options to do so:
+
+1. Request an Ultimate trial from [GitLab's public trial page](https://about.gitlab.com/free-trial/?hosted=sass). This will require the customer to set up a new namespace to which to apply the trial. No Sales or Support action will be required.
+1. Temporarily upgrade their existing GitLab Premium subscription to a GitLab Ultimate Trial.
+
+- As part of the initiative to enable current SaaS Premium customers to trial SaaS Ultimate on their primary namespace, the first iteration implementation now grants L&R Support the capability to temporarily upgrade an existing Premium subscription to an Ultimate trial subscription. To facilitate this process, the customer's Account Executive must use the following instructions:
+
+   - Go to the [Support Super Form](https://support-super-form-gitlab-com-support-support-op-651f22e90ce6d7.gitlab.io/); you must have a [Zendesk Light Agent account](/handbook/support/internal-support/#requesting-a-zendesk-light-agent-account) to use this form.
+   - Under `What is this request concerning`, select `License and Renewal Related Requests` > `GitLab Support Internal Request for Global Customers`.
+   - In the form that appears, under `What type of GitLab Support Internal Request is this for?`, select `SaaS Trial Related` > `Request an Ultimate trial for a customer using a Premium subscription`.
+   - Fill out the required fields and click Submit request. If you need assistance filling out the form, please ask in the `#support_operations` Slack channel.
+
+Once the form has been submitted, the L&R Support Engineer should follow the workflow outlined in the following [video](https://www.youtube.com/watch?v=wJCrh45Ug2Q), which entails:
+
+- Locating the correct `Customer` record by searching `Customers`.
+- Clicking the (i) info button on the customer record.
+- Going to the `Zuora Subscriptions` tab.
+- Selecting the appropriate namespace and pressing the `Apply Ultimate Trial` button.
+
+#### Subscription seats during trials-over-subscription
+
+When applying an Ultimate trial over a subscription, the customer's licensed subscription seat count still applies. If the customer wishes to increase their seat count during the Ultimate trial, they will have to purchase the seats as usual. If the customer exceeds their seat allowance during the trial, they will be billed for them at their next reconciliation and the seats will still apply after the end of the trial.
+
+#### Namespaces with a prior Ultimate trial
+
+These namespaces are allowed to start an Ultimate trial over Premium subscription, circumventing the normal guardrails preventing a group from taking out more than one trial.
+
+#### Workflow caveats
+
+- For all trials, the renewal start date must align with the end date of the prior subscription term therefore requests for Ultimate trials with the purpose of extending ahead of the renewal date should be denied. It is GitLab policy to align renewal dates with the end of the prior subscription term.
+- GitLab.com Ultimate trials cannot be extended past the 30-day duration.
+- GitLab.com trials are only available for the GitLab Ultimate Subscription plan.
 
 ## Extending trials
 
@@ -23,12 +61,23 @@ If any fields when opening the ticket were filled out incorrectly,  send a publi
    1. The `Namespace:` field contains a valid GitLab namespace and it that holds the active trial. This should not be a Salesforce link or email address.
    1. The `Extend the date to:` field contains a future date. (Trial expires around 23:59 UTC on this date)
    1. The `Trial license plan:` field is filled out
-1. Use the [Update GitLab Subscription form]({{ ref "mechanizer#update-gitlab-subscription" >}}) to process the request.
+1. Use the [Manage GitLab Plan and Trials]({{< ref "mechanizer#manage-gitlab-plan-and-trials" >}}) to process the request.
    1. This should create a new internal request issue documenting the change action. Reference this new issue to the ZD Ticket where the extension was requested.
-   1. If there is an error while taking action, check the internal issue to see what went wrong. Please also locate the [error in sentry](https://sentry.gitlab.net/gitlab/customersgitlabcom/) (see [Searching Sentry](/handbook/support/workflows/500_errors.html#searching-sentry) if needed) and file an issue, or comment on an existing one.
+   1. If there is an error while taking action, check the internal issue to see what went wrong. Please also locate the [error in sentry](https://sentry.gitlab.net/gitlab/customersgitlabcom/) (see [Searching Sentry](/handbook/support/workflows/500_errors/#searching-sentry) if needed) and file an issue, or comment on an existing one.
 1. If namespace needs to be adjusted manually, then raise a new internal issue with details and  `~Console Escalation::Customers` label.
 
 If a customer is requesting a trial extension, please follow [Working with Sales workflow]({{< ref "working_with_sales" >}}) to let Sales team know in case they would like to have a discussion with the customer.
+
+
+### SFDC generated temporary renewal extensions
+
+Account Executives (AEs) can use SalesForce.com (SFDC) to issue a SaaS 21-day Subscription extension to a customer when the renewal opportunity is taking longer than expected to close. When an AE uses this functionality, the subscription is automatically extended without any L&R Support involvement. The [Temporary renewal extensions](/handbook/product/fulfillment-guide/#temporary-renewal-extensions) handbook entry documents this approach.
+
+Please note that the above approach has the following caveats:
+
+1. There are guardrails in place to prevent abuse of this functionality. As a result, only one subscription extension can be generated per renewal event. Therefore, there may be occasions when L&R Support will still be required to generate further subscription extensions. If this occurs then please follow the manual process for [extending an active or expired subscription](#extend-an-existing-active-or-expired-subscription).
+1. Additionally, the subscription has to be a non-trial subscription. If the subscription is set to expire within the next 15 days, please redirect the salesperson to utilize the SFDC feature by employing the `Deviation from SM License Extension Workflow macro` and subsequently close the ticket.
+1. If the subscription expiration is more than 15 days away, advise the salesperson to wait until the expiry is within 15 days before utilizing the SFDC feature. Once within the 15-day window, redirect the salesperson to use the SFDC feature using the `Deviation from SM License Extension Workflow` macro and then close the ticket.
 
 ## Extend an existing active or expired subscription
 
@@ -44,18 +93,7 @@ If a customer is requesting a trial extension, please follow [Working with Sales
 
 **Note**: We cannot extend the trial if the customer hasn't started one on the namespace. The Subscription name field in the ZenDesk Mechanizer app is there for that reason. When there's a Subscription name, the mechanizer will create a new trial for the namespace.
 
-## Applying a trial to a namespace with an active subscription
 
-> [As of 2022-07-01](https://gitlab.com/gitlab-com/support/managers/change-management/-/issues/10), Support won't act on any request for trials on top of plans.
-
-A namespace cannot have a trial and an active subscription run
-concurrently.
-
-A workaround is to advise the customer to create a new group and request a trial
-for it in order to test the  higher plan features. See more in the [Sales FAQ for Trials over Paid Plans on GitLab SaaS](https://docs.google.com/document/d/14oypfuslV75Uqw_JWvJmoxCEtrOQ_At_DIm4sk8KzvM/edit?usp=sharing).
-
-There is an [open feature request #12186](https://gitlab.com/gitlab-org/gitlab/-/issues/12186)
-requesting to implement this functionality in GitLab.
 
 ## Workflow diagram
 
@@ -72,7 +110,7 @@ graph TD;
   G-->H[Note Issue and Close];
   F-->I[No];
   I-->L[Locate Error in Sentry or comment on existing issue];
-  click L "/handbook/support/workflows/500_errors.html#searching-sentry" "Diagnose Errors on GitLab.com"
+  click L "/handbook/support/workflows/500_errors/#searching-sentry" "Diagnose Errors on GitLab.com"
   L-->M[Adjust Namespace Manually];
   M-->N[Apply Status::On Hold, Set Due Date];
 ```
@@ -115,14 +153,6 @@ From CustomerDot you can only change the plan type not the subscription end date
 
 If you get an error, use admin following the instructions in the next section.
 
-### Using GitLab.com Admin
-
-1. Go to the namespace admin page (`/admin/users/username` or `/admin/groups/group_path`).
-1. Click `Edit`.
-1. Change the `Plan` to the appropriate plan (`Ultimate` or `Premium`).
-   - Don't use `Ultimate Trial` or `Premium Trial` in these cases -- these plans are intended for use by automated systems only, and may [cause an error](https://gitlab.com/gitlab-org/customers-gitlab-com/-/issues/3698) on the namespace when set incorrectly.
-1. Add [an admin note]({{ ref "admin_note" >}}).
-1. Click `Save`.
 
 ### How to create an NFR (Not for resale) SaaS License
 

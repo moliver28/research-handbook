@@ -3,12 +3,6 @@
 title: "GitLab tiers"
 ---
 
-
-
-
-
-
-
 ## Overview
 
 | Tier      | Delivery                  | Deployment Type                      |  License           | Fee            |
@@ -25,7 +19,8 @@ title: "GitLab tiers"
 1. Plans: the paid tiers only.
 1. License: open source vs. source-available, for example moving a feature from a source-available tier to an open-source tier.
 1. [Distribution](#history-of-ce-and-ee-distributions): self-managed CE vs. EE, for example you can have a EE distribution but in the Free tier.
-1. Version: the [release of GitLab](/releases/), for example asking what version a user is on.
+1. Version: the [release of GitLab](https://about.gitlab.com/releases/), for example asking what version a user is on.
+1. [Product Category](https://internal.gitlab.com/handbook/sales/deal-desk/product_category/_productcategory/): An internal field that identifies the primary product sold on an opportunity. 
 
 ## Types of Users
 
@@ -46,7 +41,11 @@ In general each of the self-managed tiers match the features in the GitLab SaaS 
 1. We want to know if a user is using self-managed or GitLab SaaS based on a just the tier name to prevent internal and external confusion.
 
 When we need to specify which tier includes a particular feature using only one word (for example on our issue tracker), we reference the self-managed tiers by default because they tend to contain a superset of the GitLab SaaS tier features.
-Where we can, we highlight both the self-managed and the GitLab SaaS tiers (like in [a release post](/releases/2018/02/22/gitlab-10-5-released/#instant-ssl-with-lets-encrypt-for-gitlab)).
+Where we can, we highlight both the self-managed and the GitLab SaaS tiers (like in [a release post](https://about.gitlab.com/releases/2018/02/22/gitlab-10-5-released/#instant-ssl-with-lets-encrypt-for-gitlab)).
+
+## Add on Services
+
+Add on services extend the functionality of the Tier and do not represent a new Tier. These add on services can include, but are not limited to, adding Storage, Compute Minutes, Agile Planning, and AI features to the existing tier the subscription is on. Add-ons can be made available on one, multiple, or all tiers depending upon the tier availability of the add on service being provided.
 
 ## Libre, gratis, and free
 
@@ -56,7 +55,7 @@ Features that are part of GitLab's Free tier refer to open source software that 
 
 ## GitLab SaaS
 
-We call the multi-tenant GitLab SaaS (with the G and L capitalized) since it is unambiguous and common.
+We call the multi-tenant GitLab SaaS, GitLab.com (with the G and L capitalized) since it is unambiguous and common.
 We don't call it GitLab Cloud since most self-managed instances of GitLab are hosted in the cloud as well, and if we introduce single tenant instances it will be even more confusing.
 
 GitLab Dedicated offers a new way to use our enterprise DevSecOps platform as a single-tenant SaaS offering. This offering provides all of the benefits of an enterprise DevSecOps platform, with an added focus on data residency, isolation, and private networking to meet compliance needs.
@@ -69,7 +68,7 @@ GitLab SaaS subscriptions are added to either a personal namespace or a group na
 
 Historically, GitLab was provided as two different software distributions, each with their own separate source code repository and documentation: [Community Edition (CE)](https://gitlab.com/gitlab-org/gitlab-ce/) and [Enterprise Edition (EE)](https://gitlab.com/gitlab-org/gitlab-ce/). As of GitLab version 12.3, released on 2020-09-22, [GitLab moved to a single code base](https://about.gitlab.com/blog/2019/08/23/a-single-codebase-for-gitlab-community-and-enterprise-edition/).
 
-The "CE" and "EE" names referred to the actual software packages that were [downloaded and installed](/install/). Today, the single distribution is referred to as the "Official Linux package".
+The "CE" and "EE" names referred to the actual software packages that were [downloaded and installed](https://about.gitlab.com/install/). Today, the single distribution is referred to as the "Official Linux package".
 
 For a period of time, GitLab pricing tiers also used "CE" and "EE". When the [free, self-managed tier was changed from "CE" to "Free"](https://about.gitlab.com/blog/2018/04/20/gitlab-tiers/), it led to this dynamic:
 
@@ -90,8 +89,8 @@ Community Edition (CE) and Enterprise Edition (EE) refer to software distributio
 Users can be on the EE distribution for free. Distribution doesn't imply if a user is a customer or not.
 
     1. Say "users" when you mean all users - paid and unpaid.
-    1. Say "customers" when you mean paid users.
-    1. Say "Free users" when you mean unpaid users.
+    2. Say "customers" when you mean paid users.
+    3. Say "Free users" when you mean unpaid users.
 
 ❌ Incorrect:  "Let's run a marketing campaign to encourage CE users to upgrade to a paid tier."
 
@@ -102,10 +101,10 @@ Users can be on the EE distribution for free. Distribution doesn't imply if a us
 GitLab has 3 tiers: Free, Premium, and Ultimate. Distribution doesn't imply which tier a user is on.
 
     1. Say the "Free" when you mean the $0 tier.
-    1. Say "Open source" when you mean features in the $0 tier.
-    1. Say "Premium" or "Ultimate" to refer to those tiers.
-    1. Optionally, say "GitLab Free," "GitLab Premium," or "GitLab Ultimate" when you want to refer to a pricing tier.
-    1. Say "commercial tier" when you mean any paid tier.
+    2. Say "Open source" when you mean features in the $0 tier.
+    3. Say "Premium" or "Ultimate" to refer to those tiers.
+    4. Optionally, say "GitLab Free," "GitLab Premium," or "GitLab Ultimate" when you want to refer to a pricing tier.
+    5. Say "commercial tier" when you mean any paid tier.
 
 ❌ Incorrect:  "Let's move this feature to CE."
 
@@ -117,7 +116,7 @@ NOTE: Talking about "open sourcing a feature" is highly preferred to saying we w
 
 ## GitLab trials
 
-We offer a [free trial for self-managed GitLab](/free-trial/#self-managed?glm_source=about.gitlab.com&glm_content=tiers) as well as a [free trial for GitLab SaaS Ultimate](https://gitlab.com/-/trial_registrations/new?glm_source=about.gitlab.com&glm_content=tiers).
+We offer a [free trial for self-managed GitLab](https://about.gitlab.com/free-trial/#self-managed?glm_source=about.gitlab.com&glm_content=tiers) as well as a [free trial for GitLab.com Ultimate](https://gitlab.com/-/trial_registrations/new?glm_source=about.gitlab.com&glm_content=tiers).
 
 ### Why offer a free trial when we already have free tiers?
 

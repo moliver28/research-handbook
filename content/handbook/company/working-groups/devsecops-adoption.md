@@ -1,6 +1,6 @@
 ---
 title: "DevSecOps Adoption"
-description: "A Working Group focused on the Top 12 Cross-Functional initiative of ensuring ultimate customers successfully adopt devsecops within 3 months of purchase"
+description: "A Working Group focused on the Top 12 Cross-Functional initiative of ensuring ultimate customers successfully adopt DevSecOps within 3 months of purchase"
 ---
 
 ## Attributes
@@ -19,7 +19,7 @@ No customers in red on DevSecOps Adoption within 3 months of purchase.
 
 ## Exit Criteria
 
-One fiscal quarter (purchase date) with 90% of devsecops customers adopting within 3 months of purchase
+One fiscal quarter (purchase date) with 90% of DevSecOps customers adopting within 3 months of purchase
 
 -
 

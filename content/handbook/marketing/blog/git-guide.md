@@ -12,7 +12,7 @@ description: "A guide for working with Git, terminal, and the www-gitlab-com rep
 
 ## General Tips
 
-Please note that this guide assumes some knowledge of how to use GitLab, and how to use Git on your local machine. If you're unsure of what something means, you may need to go and review [GitLab 101](/handbook/people-group/learning-and-development/gitlab-101/) or [Editing the handbook](https://about.gitlab.com/handbook/git-page-update/#editing-the-handbook), which explains how to set up your computer to edit the website locally.
+Please note that this guide assumes some knowledge of how to use GitLab, and how to use Git on your local machine. If you're unsure of what something means, you may need to go and review [GitLab 101](/handbook/people-group/learning-and-development/gitlab-101/) or [Editing the handbook](/handbook/editing-handbook/#editing-the-handbook), which explains how to set up your computer to edit the website locally.
 
 ### Make sure your Terminal is up to date
 
@@ -42,7 +42,7 @@ Run `git pull` [enter] on occasion to make sure you have the most recent changes
 
 ### Static Site Editor Developer Tips
 
-There is a handy resource the Static Site Editor group has put together for [Git Tips here](https://about.gitlab.com/handbook/engineering/development/dev/create/ide/developer-cheatsheet/#git-tips).
+There is a handy resource the Static Site Editor group has put together for [Git Tips here](/handbook/engineering/development/dev/create/ide/developer-cheatsheet/#git-tips).
 
 ## Getting Recent Changes From Main
 
@@ -99,5 +99,5 @@ If you're having problems with Git, reach out in the following Slack channels =)
 ### Existing Resources
 
 Here are some existing resources from GitLab for Git.
-- [Developer Cheatsheet, Engineering Handbook](https://about.gitlab.com/handbook/engineering/development/dev/create/ide/developer-cheatsheet/)
+- [Developer Cheatsheet, Engineering Handbook](/handbook/engineering/development/dev/create/ide/developer-cheatsheet/)
 - [Git Cheat Sheet for Press](/images/press/git-cheat-sheet.pdf)

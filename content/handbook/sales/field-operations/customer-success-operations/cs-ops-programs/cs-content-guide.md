@@ -79,7 +79,7 @@ Our email programs go to many different customers, including paid and free, self
 
 ### Style
 
-We use the [Handbook Style Guide](https://about.gitlab.com/handbook/style-guide/) as our base. This covers things like punctuation, capitalization, and branding. For example, whether we use contractions or not, and how to capitalize brand names.
+We use the [Handbook Style Guide](/handbook/style-guide/) as our base. This covers things like punctuation, capitalization, and branding. For example, whether we use contractions or not, and how to capitalize brand names.
 
 We also use the [Pajamas Design System](https://design.gitlab.com/brand/overview) to guide our own brand principles and tone.
 

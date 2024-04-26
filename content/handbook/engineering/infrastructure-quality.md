@@ -13,7 +13,7 @@ We:
 1. Are customer focused. We have an ambitious drive to attain high availability & reliability for SaaS platforms and self-managed customers.
 1. Provide and maintain best practice tools and methodologies that create a platform for engineering teams to do their work productively.
 1. Enable GitLab Engineering & Product teams to run services effectively using our tools, to meet business needs & SLOs.
- 
+
 # Direction
 
 Direction is set within the [Infrastructure](/handbook/engineering/infrastructure/#direction), and the [Quality](/handbook/engineering/quality/#fy23-direction) direction pages. With the ongoing consolidation of the departments, separate direction pages will become obsolete.
@@ -55,7 +55,7 @@ graph TD
     click A "/handbook/engineering/quality"
     click B "/handbook/engineering/quality/engineering-analytics"
     click D "/handbook/engineering/infrastructure/test-platform"
-    click E "/handbook/engineering/quality/engineering-productivity"
+    click E "/handbook/engineering/infrastructure/engineering-productivity"
 ```
 
 # Communication
@@ -68,14 +68,14 @@ In addition to GitLab's [communication guidelines](/handbook/communication) and 
 
 ## Meetings
 
-GitLab is an all-remote, timezone distributed company as such we optimize for asynchronous communication. While some topics benefit from a real-time discussion, we should always evaluate meetings to ensure they are valuable. We follow the [guidance for all-remote meetings](/company/culture/all-remote/meetings/), including starting and ending on time - or earlier.
+GitLab is an all-remote, timezone distributed company as such we optimize for asynchronous communication. While some topics benefit from a real-time discussion, we should always evaluate meetings to ensure they are valuable. We follow the [guidance for all-remote meetings](/handbook/company/culture/all-remote/meetings/), including starting and ending on time - or earlier.
 
 [Infrastructure](https://calendar.google.com/calendar?cid=Z2l0bGFiLmNvbV9vamk2ZGtpMWZyYzhnOHFxOWZldXUxanRkMEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t) and [Quality](https://calendar.google.com/calendar/u/0?cid=Y19qcm92dGttZWVjMWlpMG8zcmY4cThwbWxia0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t) team calendars are shared with the company.
 
 A well prepared meeting:
 
 1. *must* have a Google Doc agenda attached to the invite, organized by date, and with edit rights open to GitLab. This allows participants to prepare before the start of each meeting, and take notes druing the meeting.
-1. *must* [start on time](/company/culture/all-remote/meetings/#3-start-on-time-end-on-time)
+1. *must* [start on time](/handbook/company/culture/all-remote/meetings/#3-start-on-time-end-on-time)
 1. *can* have a read-only, and discussion section. Read-only section does not get verbalized, but the questions around read-only items can be asked in the discussion section
 1. *can* have multiple topics.
 1. *can* be deliberately be scheduled to occur twice to better include all global participants. This is considered to be the *same* meeting, just held at different times.
@@ -92,23 +92,23 @@ The following cross-functional meetings are regularly scheduled:
 |Quality all-hands meeting | Quality Department Bi-Weekly | Quality |Every other Wed/Thur|
 |Quality team demo's and discussion| [Quality Test Architecture & Coffee](https://youtube.com/playlist?list=PL05JrBw4t0KqqL3Vw3_5Uv9cxSOdPNhoY) | Quality |Every other Wed/Thur |
 |Reliability oncall handover meetings, newsletter discussion | [Team Newsletter issues](https://gitlab.com/gitlab-com/gl-infra/reliability-reports/-/issues) | Reliability | Weekly |
-|Anything for Reliability Leadership | Reliability [Ask me Anything](https://handbook.gitlab.com/handbook/communication/ask-me-anything/) | Reliability (anyone is welcome) | Monthly (last Wednesday) |
+|Anything for Reliability Leadership | Reliability [Ask me Anything](/handbook/communication/ask-me-anything/) | Reliability (anyone is welcome) | Monthly (last Wednesday) |
 
 ## OKR
 
-Department level view of [OKR](/company/okrs/) and scoring is on our [Infrastructure & Quality OKR page](/handbook/engineering/infrastructure-quality/okrs/)
+Department level view of [OKR](/handbook/company/okrs/) and scoring is on our [Infrastructure & Quality OKR page](/handbook/engineering/infrastructure-quality/okrs/)
 
 Each sub-department has different guidance on OKR:
 
 - [Reliability](/handbook/engineering/infrastructure/team/reliability/#okrs)
 - [Platforms](/handbook/engineering/infrastructure/platforms/#okr)
 - [Test Platform](/handbook/engineering/infrastructure/test-platform/#okrs)
-- [Engineering Productivity](/handbook/engineering/quality/engineering-productivity/#okrs)
+- [Engineering Productivity](/handbook/engineering/infrastructure/engineering-productivity/#okrs)
 - [Engineering Analytics](/handbook/engineering/quality/engineering-analytics/#okrs)
 
 ## Key Review
 
-[Key Review meetings](/handbook/key-review/) provide the department leadership an opportunity to inform the executive team of our [performance indicator](#performance-indicators/) progress, results on OKRs, and updates on any [Cross-functional Key Initiatives](/company/team/structure/working-groups/#top-cross-functional-initiatives) which we are leading.
+[Key Review meetings](/handbook/key-review/) provide the department leadership an opportunity to inform the executive team of our [performance indicator](#performance-indicators/) progress, results on OKRs, and updates on any [Cross-functional Key Initiatives](/handbook/company/working-groups/#top-cross-functional-initiatives) which we are leading.
 
 Key Review meetings are facilitated and led by the currently responsible VP, with Directors being the backup DRIs.
 

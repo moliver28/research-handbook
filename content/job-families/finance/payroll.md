@@ -322,7 +322,7 @@ The Director, Global Payroll Operations is a [grade 10](/handbook/total-rewards/
 - Knowledge of ADP and Workday preferred
 - Experience working predominantly within Slack highly preferred
 - You share our [values](/handbook/values/), and work in accordance with those values
-- [Leadership](/handbook/company/team/structure/#director-group) at GitLab
+- [Leadership](/handbook/company/structure/#director-group) at GitLab
 - Ability to use GitLab
 
 ## Performance Indicators

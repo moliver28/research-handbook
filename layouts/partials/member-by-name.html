@@ -1,32 +1,8 @@
-<!-- Member by Name -->
-{{- $img := (dict "Width" "40" "Height" "40" "RelPermalink" "https://about.gitlab.com/images/gitlab-logo-extra-whitespace.png")  -}}
-{{- $username := "" -}}
 {{- $name := replaceRE `\s\(.*\)` "" . -}}
 {{- $meta := index (findRE `\s\(.*\)` .) 0 -}}
-{{- $teamDict := partials.IncludeCached "data/team-by-name" . -}}
-{{- $data := index $teamDict $name -}}
-{{- if $data -}}
-{{- $username = $data.gitlab -}}
-{{- with $username -}}
-  {{- with (partial "gitlab/api" (dict
-              "path" "/users"
-              "query" (dict
-                "username" .
-              )
-      ))
-  -}}
-    {{- /* GitLab returns '[]' instead of nothing. */ -}}
-    {{- if gt (len .) 0 -}}
-      {{- $u := index . 0 -}}
-      {{- with $u.avatar_url -}}
-        {{- with resources.GetRemote . -}}
-          {{- $img = .Fill "90x90" -}}
-        {{- end -}}
-      {{- end -}}
-    {{- end -}}
-  {{- end -}}
-{{- end -}}
-<span  style="white-space: nowrap;"><a href="{{ ref page (printf "/handbook/company/team#%s" $username) }}"><img class="avatar" src="{{ $img.RelPermalink }}" width="40" height="40" alt="{{ $data.name }}">{{$data.name}}</a> {{ $meta }}</span>
+{{- $data := index (where site.Data.public.team "name" "eq" $name) 0 }}
+{{- with $data }}
+<span  style="white-space: nowrap;">{{- partial "member/with-team-link" . -}} {{ $meta }}</span>
 {{- else -}}
 <span class="not-found" style="white-space: nowrap;"><img class="avatar" src="https://about.gitlab.com/images/gitlab-logo-extra-whitespace.png" width="40" height="40" alt="{{ $name }}">{{$name}} {{$meta}}</span>
 {{- end -}}

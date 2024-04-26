@@ -49,14 +49,14 @@ The Director, Internal Audit is a [grade 10](/handbook/total-rewards/compensatio
 - [Percentage of controls tested](/handbook/internal-audit/#internal-audit-performance-measures)
 - [Percentage of recommendations implemented](/handbook/internal-audit/#internal-audit-performance-measures)
 - [Percentage of audits completed](/handbook/internal-audit/#internal-audit-performance-measures)
-- [New Hire Location Factor < 0.69](/handbook/business-technology/metrics/#new-hire-location-factor--069)
+- [New Hire Location Factor < 0.69](https://internal.gitlab.com/handbook/it/it-performance-indicators/#new-hire-location-factor--069)
 - Completing tasks and audits timely and efficiently
 - Utilizing Best Practices related to audit findings and recommendations.
 - Approval ratings based on surveys above 80% in the first year, moving to 90% in subsequent years.
 
 ### Career Ladder
 
-The next step in the Internal Audit job family is to move to the [PAO](/job-families/finance/pao-jf/) job family.
+The next step in the Internal Audit job family is to move to the [Internal Audit](/handbook.gitlab.com/job-families/finance/#internal-audit/) job family.
 
 ### Hiring Process
 

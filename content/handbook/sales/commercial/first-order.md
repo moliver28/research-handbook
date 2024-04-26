@@ -78,7 +78,7 @@ This report filters by 6 main categories:
 1. This is part of Two Lane Selling
 1. A paid POC is a year-long GitLab subscription we offer prospects we are in active discussions with so that a small segment of their tech team can get started using GitLab Premium or Ultimate immediately. It is at the forefront of what First Order is about as it encourages a quick adoption to demonstrate GitLab's value sooner and enables the Named team to grow the account.
 1. We would typically recommend a team of 5-20 people get started on the Paid POC
-1. We would typically recommend a team that is embarking on a new project be involved with the Paid POC so that they can start fresh using GItLab for the whole SDLC.
+1. We would typically recommend a team that is embarking on a new project be involved with the Paid POC so that they can start fresh using GitLab for the whole SDLC.
 1. The duration is a minimum of 12 months
 1. A discount can be applied according to the [discount matrix](https://docs.google.com/document/d/1-CH-uH_zr0qaVaV1QbmVZ1rF669DsaUeq9w-q1QiKPE/edit#). Beware that in order for an opportunity to count as a new logo, it needs to be above $1,000 ARR and have a growth potential of more than 50 seats in the future.
 
@@ -181,7 +181,7 @@ The Alliances team can assist with connecting you to the Alliance Partner sales 
 
 1. Get yourself familiar with the [Alliances](https://gitlab-com.gitlab.io/alliances/alliances-internal/) team, what they do and how they can help
 1. Select a list of your top 10 accounts where you know they are using one of our Alliances Partners
-1. Schedule time with the Alliances Manager in your region and bring up that you’d like to be introduced to the Partner representative from the 10 selected accounts. To get in contact with the right Alliances Manager post a new message to the #alliances Slack channel with a brief description of the request. The alliance team member(s) managing the partnership will follow-up with next steps
+1. Schedule time with the Alliances Manager in your region and bring up that you’d like to be introduced to the Partner representative from the 10 selected accounts. To get in contact with the right Alliances Manager post a new message to the #cloud-aws or #cloud-gcp Slack channel with a brief description of the request. The alliance team member(s) managing the partnership will follow-up with next steps
 1. The Alliances Manager is responsible for bringing you in contact with the dedicated customer teams from the Partner (AWS, GCP etc) and set up the meetings
 1. Leverage Alliances help you to break into new accounts where there is already a warm relationship with the Alliances Partner who can help to warm introduce you to the right people in the company
 1. Make sure you understand what the benefit for the Alliances Partner is to introduce you. Always make sure you understand how we can help them and the customer and align your GitLab proposal to this.
@@ -218,5 +218,5 @@ The Alliances team can assist with connecting you to the Alliance Partner sales 
 (Red/Green, close date convention)
 1. What is the most efficient way of prospecting? What tools are being used to find potential clients?
 1. What are good call notes / next steps?
-1. How does Gitlab handle discount requests? What is the guidline?
+1. How does GitLab handle discount requests? What is the guidline?
 

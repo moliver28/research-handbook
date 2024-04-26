@@ -1,0 +1,34 @@
+{{- /*  Initialize. */}}
+{{- $role := "" }}
+
+{{- /* Get params. */}}
+{{- with (.Get 0) }}
+  {{- $role = . }}
+{{- else }}
+  {{- with (.Get "role") }}
+    {{- $role = . }}
+  {{- else }}
+    {{- errorf "The %q shortcode requires a single positional argument for manger-role."}}
+  {{- end }}
+{{- end }}
+
+{{- $members := slice }}
+{{- $members = where site.Data.public.team "role" "like" $role }}
+{{- with (.Get "team") }}
+  {{- $members = where $members "role" "like" . }}
+{{- end }}
+
+<table>
+    <thead>
+        <th>Name</th>
+        <th>Role</th>
+    </thead>
+    <tbody>
+        {{- range $members }}
+          <tr>
+              <td>{{ partial "member/with-team-link" . }}</td>
+              <td>{{ .role | safe.HTML }}</td>
+          </tr>
+        {{- end }}
+    </tbody>
+</table>

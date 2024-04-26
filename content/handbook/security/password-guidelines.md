@@ -4,13 +4,19 @@ title: GitLab Password Guidelines
 <!-- markdownlint-disable MD051 -->
 ## Passwords at GitLab
 
-Passwords are one of the primary mechanisms that protect GitLab information systems and other resources from unauthorized use. GitLab's [password standard]({{< ref "password-standard" >}}) is based, in part, on the recommendations by [NIST 800-63B](https://pages.nist.gov/800-63-3/sp800-63b.html). The password standard sets the requirements for constructing secure passwords and ensuring proper password management. GitLab utlizes 1Password for password management.
+Passwords are one of the primary mechanisms that protect GitLab information systems and other resources from unauthorized use. GitLab's [password standard]({{< ref "password-standard" >}}) is based, in part, on the recommendations by [NIST 800-63B](https://pages.nist.gov/800-63-3/sp800-63b.html).
+The password standard sets the requirements for constructing secure passwords and ensuring proper password management. GitLab utilizes 1Password for password management.
 
 
 ## 1Password
 
 1Password is a password manager that can be used in two different ways - as a standalone application
 (by purchasing a standalone license) or as a hosted service (by subscribing). GitLab uses 1Password for Teams which is a hosted service.
+
+
+**Important:** Any personal Passwords stored in your GitLab vault will be inaccessible upon separation with GitLab. Please use the complimentry 1Passsword Families membership subscription that comes with your business account to store any personal passwords. This account will stay with you even in the event that you stop working with GitLab.
+ For more information on how to redeem your free subscription, please follow the steps outlined in [this article](https://support.1password.com/link-family/).
+
 
 Ideally you memorize one strong password - hence the name - and let 1Password generate and manage strong, unique passwords
 for every site for which you have a login.
@@ -143,6 +149,11 @@ After the Team is added, you should see some notifications about vaults being
 added to 1Password. By default you'll have the **Private** vault, but
 may have access to others.
 
+#### Shared Vault Etiquette
+
+1. In general, 1Password items should be self-documenting. This is especially important for items in team vaults such as those to which a team member gains access once part of the GitLab team or they are granted access via their baseline entitlements issue. Always make sure the `title`, `username`, and `notes` fields are meaningful.
+1. Deleting items is fine as they are kept in the "recently deleted" tab indefinetely. It's also fine to leave them in their respective vault but delete the account on the system associated with the item. In the second case, and in order to prevent confusing team members, edit the title (e.g. `[Deleted on 2024-02-14]`) to reflect the purposeful deletion of the account and explain briefly who and why removed it in the notes.
+
 #### Updating 1Password to support the Teams feature {#1password-update}
 
 *Read this section only if you could not follow the instructions in "Adding
@@ -178,7 +189,7 @@ Click the **Vault Selector** in the upper-left corner of the window:
 
 GitLab team members have access to a **Private** vault by default, which is your *hosted, private* vault that is part of the GitLab 1Password for Teams account. Since the Private vault is part of the
 GitLab Teams account, it should be thought of as company property (like the
-@gitlab.com email account), however the vault *can not* be viewed by anyone
+@gitlab.com email account), however the vault *cannot* be viewed by anyone
 else on the team, including admins. If you choose to store truly personal
 information in the Private vault, it opens up the possibility that you would
 be separated from this information if you offboard. Such truly personal
@@ -188,7 +199,7 @@ added an [individual account](#1password-for-your-private-passwords).
 
 People may request access to other vaults such as shared vaults that their teams/departments have created.
 
-#### Browser extension
+### Browser extension
 
 Go to [Browser extensions](https://agilebits.com/onepassword/extensions) and
 install the extension for whatever browser you're using. You *should not* need a
@@ -209,7 +220,7 @@ the correct vault:
 </div>
 
 
-#### Saving logins
+### Saving logins
 
 When 1Password detects a login form submission, it may ask if you want to save
 the login with a dialog like this:
@@ -221,20 +232,28 @@ the login with a dialog like this:
 If you do want to save it, make sure the appropriate **Vault** is selected
 first.
 
-#### Managing SSH keys
+### Managing SSH keys
 
 Starting with version 8, 1Password can operate as the single source of truth for your SSH keys. This includes generating private keys, storing them securely, filling your public keys in to sites like GitLab.com, and unlocking the keys automatically when performing git operations.
 
 More information is available [in the official documentation](https://developer.1password.com/docs/ssh/).
 
-#### CLI integration
+### CLI integration
+
+During development it is often necessary to use test secrets locally on your development machine.
+Even though these secrets have a limited scope of access, it's still best practice to avoid writing them unencrypted to disk.
+Manually loading them into environment variables or using them for CLI commands directly also risks them being written to disk as part of your shell history.
+For a more secure approach, use 1Password's CLI utility which can help manage local secrets securely.
 
 [1Password CLI integration](https://developer.1password.com/docs/cli) supports secure
 handling of secrets used in command line tools, config files, and scripts executed on your laptop.
 To setup the CLI integration, follow the [getting started guide](https://developer.1password.com/docs/cli/get-started/).
 
 It is recommended to store secrets such as [personal access tokens](https://docs.gitlab.com/ee/user/profile/personal_access_tokens.html)
-in 1Password. Avoid storing secrets in unencrypted files.
+in 1Password. Avoid storing secrets in unencrypted files or using them directly
+on the CLI. Many shells write a command history to disk and where the secret is
+used literally on the command line this will be written to the command history
+unencrypted.
 
 Example for configuring [glab](https://gitlab.com/gitlab-org/cli) with 1Password CLI (requires 1password version 8 or higher):
 
@@ -244,30 +263,44 @@ Example for configuring [glab](https://gitlab.com/gitlab-org/cli) with 1Password
   <img src="../1pass-pat-setup.png" alt="Save login" width="600"/>
 </div>
 
-- Store a secret reference to the access token in an `.env` file:
+- Store a secret reference to the access token in an `.env` file.
+
+The environment variable name goes before the equals sign, and the path to the secret in 1Password goes after.
+You can store multiple variable secret pairs per file when you need to use
+secrets together.
+The paths can be obtained by viewing the credential in th 1Password GUI, clicking the dropdown menu and selecting "Copy Secret Reference".
+
 
 ```sh
 ## format is op://vault-name/item-name/[section-name/]field-name
 echo "GITLAB_TOKEN=op://Private/GitLab/pat/api" > $HOME/.gitlab-pat.env
 ```
 
-- Define an alias in your shell profile to invoke `glab` with the PAT
+- Run processes using the secrets
 
-```sh
-alias glab="op run --env-file=$HOME/.gitlab-pat.env -- glab"
-```
+When running processes which need the secrets, run it under the control of 1Password, so it can pass the variables correctly.
+To do this, prepend `op run --env-file="<path to your env file>" --` to the command you wish to run, and replace any secrets with the relevant variable
 
-- To verify the configuration, run `glab api version`. This should print
-the version of gitlab.com if the configuration succeeded.
+So for example
 
-```sh
+```shell
 glab api version
-{"version":"15.4.0-pre","revision":"3e84f577d51"}
 ```
 
-#### Several accounts and unlocking the app
+would become:
 
-Please refer to [1Password FAQ](https://support.1password.com/faq/#i-have-several-accounts-and-vaults-which-password-do-i-use-to-unlock-1password).
+```shell
+op run --env-file=$HOME/.gitlab-pat.env -- glab api version
+```
+
+Where the process is interactive or has dynamic output (progress bars, etc) you may need to disable masking to make the display work correctly. You can do this by adding `--no-masking`
+
+Manually adding `op run` every time for common tasks is cumbersome, so check out
+the [tools and tips]({{< ref "../tools-and-tips/onepassword-cli" >}}) section for more more user-friendly configurations.
+
+
+### Several accounts and unlocking the app
+
 
 If you are planning to use both the GitLab team account and a separate
 individual account you should first add your separate individual account to the
@@ -278,7 +311,7 @@ If you were using 1Password before joining GitLab, and you receive a prompt
 titled **Migrate To Account**, choose **I'll move later**. There is no harm in
 doing this, and it is easy to move items between vaults.
 
-#### 1Password for your private passwords{#1password-private-use}
+### 1Password for your private passwords{#1password-private-use}
 
 You are encouraged to use 1Password for your private passwords, not related to
 your work at GitLab.
@@ -287,7 +320,7 @@ standalone license or start an individual subscription, or take advantage of the
 [complimentary 1Password for Families feature](https://support.1password.com/link-family/),
 which you can share with up to 5 family members.
 
-#### Two factor authentication and time-based one time passwords
+### Two factor authentication and time-based one time passwords
 
 As stated in the [GitLab Password Standards]({{< ref "password-standard" >}}), the usage of 2FA is mandatory for all GitLab team members. **Users without 2FA enabled that are stale for over 30 days will be blocked/suspended until resolved. This improves the security posture for both the user and GitLab.** If any systems provide an option to use SMS text as a second factor, this is highly discouraged. Phone company security can be easily subverted by attackers allowing them to take over a phone account.
 
@@ -342,7 +375,7 @@ Follow this [guideline](https://gizmodo.com/how-to-easily-switch-your-two-factor
 
 There may be cases where TOTP might be used with a non-GitLab account. If you have any questions and need to speak with the Security Team, you can contact [Security]({{< ref "_index.md#-contacting-the-team" >}})
 
-#### Passkeys
+### Passkeys
 
 1Password has implemented a feature supporting for Passkeys, which are the credentials used in FIDO2/WebAuthn on sites such as [Okta](https://adamhuss-master-patch-a4f4.about.gitlab-review.app/handbook/business-technology/okta/#adding-1password-passkey). This feature can allow passwordless sign in to sites that require username and password. Passkeys can also serve as a type of MFA. Passkeys store a public key in the app and a private key within the 1Password vault.
 
@@ -394,7 +427,7 @@ one of our developers, uses 1Password:
     <img src="../1password-teams-login.png" alt="Teams Login" width="560px"/>
   </div>
 
-#### Traveling with 1Password{#travel-mode}
+### Traveling with 1Password{#travel-mode}
 
 When traveling with a device that has access to the GitLab 1Password vaults, be
 sure to [enable Travel Mode](https://support.1password.com/travel-mode/) in 1Password. Travel Mode removes copies of any
@@ -412,11 +445,11 @@ For more information on Travel Mode and how it works, see the [AgileBits blog].
 [agilebits blog]: https://blog.agilebits.com/2017/05/18/introducing-travel-mode-protect-your-data-when-crossing-borders/
 [macOS app]: https://agilebits.com/downloads
 
-#### Securing Docker Registry User Credentials
+### Securing Docker Registry User Credentials
 
 Docker can store user credentials in an [external credential store](https://docs.docker.com/engine/reference/commandline/login/#credential-stores) as a more secure alternative to storing credentials in the Docker configuration file.
 
-##### Using `osxkeychain` (macOS)
+#### Using `osxkeychain` (macOS)
 
 To configure Docker to use `osxkeychain` for secure credential storage, follow these steps:
 
@@ -437,7 +470,7 @@ To configure Docker to use `osxkeychain` for secure credential storage, follow t
 1. Log in using `docker login registry.gitlab.com`, and enter your email and password (PAT) when prompted.
 1. Validate that the credentials were not saved as base64-encoded text in `~/.docker/config.json`.
 
-##### Using `pass` (Linux)
+#### Using `pass` (Linux)
 
 **Prerequisites**
 

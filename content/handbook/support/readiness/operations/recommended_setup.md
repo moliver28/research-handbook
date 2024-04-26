@@ -23,7 +23,6 @@ you have a better alternative, go for it!
 | Openshot Video editor            | We often make videos for training/documentation/etc. Having a solid video editor handy is useful. Openshot is easy to use and open source.      |
 | rbenv                            | We work with a lot of projects that use a variety of ruby versions. This tool helps you switch between them very quickly.                       |
 | Slack                            | How a good portion of the company communicates                                                                                                  |
-| Support Ops Toolbox              | This contains a lot of useful scripts we use                                                                                                    |
 | Zendesk Global Token             | You are going to be using the Zendesk API a good bit. Having your own admin token will be very useful                                           |
 | Zendesk Global Sandbox Token     | You are going to be using the Zendesk API a good bit. Having your own admin token will be very useful                                           |
 | Zendesk US Federal Token         | You are going to be using the Zendesk API a good bit. Having your own admin token will be very useful                                           |
@@ -283,7 +282,7 @@ export ZD_USERNAME='YOUR_EMAIL_ADDRESS'
 export ZD_TOKEN='ZENDESK_GLOBAL_ADMIN_TOKEN'
 
 # main sandbox
-export ZD_SB_URL='https://gitlab1545832369.zendesk.com/api/v2'
+export ZD_SB_URL='https://gitlab1707170878.zendesk.com/api/v2'
 export ZD_SB_USERNAME='YOUR_EMAIL_ADDRESS'
 export ZD_SB_TOKEN='ZENDESK_GLOBAL_SANDBOX_ADMIN_TOKEN'
 
@@ -307,33 +306,6 @@ it is recommend you generate an API token for yourself on every Zendesk instance
 
 We often make things that interact with gitlab.com. As such, having an API token
 handy for API calls is always useful!
-
-## Support Ops Toolbox
-
-This is optional, but we highly recommend you clone the
-[Support Ops Toolbox](https://gitlab.com/gitlab-com/support/support-ops/support-ops-tools/toolbox)
-onto your work station. The scripts within are often helpful in doing various
-tasks you may have to do.
-
-The recommended commands to use are:
-
-For Bash:
-
-```bash
-mkdir -p ~/bin
-git clone git@gitlab.com:gitlab-com/support/support-ops/support-ops-tools/toolbox.git ~/bin/support-ops-toolbox
-echo 'export PATH="$PATH:$HOME/bin/support-ops-toolbox"' >> ~/.bashrc
-source ~/.bashrc
-```
-
-For Zsh:
-
-```bash
-mkdir -p ~/bin
-git clone git@gitlab.com:gitlab-com/support/support-ops/support-ops-tools/toolbox.git ~/bin/support-ops-toolbox
-echo "path+=('$HOME/bin/support-ops-toolbox')" >> ~/.zshrc
-source ~/.zshrc
-```
 
 ## Slack
 

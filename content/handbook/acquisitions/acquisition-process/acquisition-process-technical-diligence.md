@@ -8,7 +8,7 @@ The technical diligence is part of our [acquisition process](/handbook/acquisiti
 1. Code and architecture diligence - your team will provide access for key engineering contacts at GitLab to code repositories, products, and development/test environments. The early technical diligence conducted before the term sheet is signed will be an abbreviated form of the diligence noted below. We will:
     - Perform a [code review](#code-review-guidance)
     - Analyze the technology stack and how it fits in the GitLab tech stack.  Evaluate efforts and approaches for integration including milestones.
-    - Conduct a [license review](https://docs.gitlab.com/ee/user/application_security/#quick-start) analyzing the licenses of the repositories owned by the target as well as of any open source packages which are in use to see which ones are acceptable per [company policy](https://about.gitlab.com/handbook/engineering/open-source/#acceptable-licenses)
+    - Conduct a [license review](https://docs.gitlab.com/ee/user/application_security/#quick-start) analyzing the licenses of the repositories owned by the target as well as of any open source packages which are in use to see which ones are acceptable per [company policy](/handbook/engineering/open-source/#acceptable-licenses)
     - Conduct a [security review](https://docs.gitlab.com/ee/user/application_security/#quick-start).  Analyze what security vulnerabilities are known to exist in the product(s) and the process for determining this (static/dynamic security scanning, independent penetration testing, etc.).
     - Provide the results of any third-party security testing results.
     - Analyze any commercial software/services that are required for the product(s) to operate.

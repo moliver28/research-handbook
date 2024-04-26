@@ -288,7 +288,7 @@ responsibility, willingness of GitLab team-members to teach new GitLab team-memb
 1. Spend more time learning the technical side of our product.
     - Check out [GitLab University](https://docs.gitlab.com/ee/university/) to learn more about Git and GitLab. We will also be rolling out additional training on Git and GitLab during 2017 see [issue](https://gitlab.com/gitlab-com/peopleops/issues/126).
 1. Refine the hiring process.
-    - We have revamped our [hiring process]({{< ref "/handbook/hiring" >}}) to be more efficient. Our global recruiters are working hard to ensure that every candidate is kept in the loop about where they stand in the hiring process, and managers are not spending too much time in Lever reviewing candidates. If you have any questions please feel fee to reach out on the `#hiring` channel on Slack.
+    - We have revamped our [hiring process](/handbook/hiring) to be more efficient. Our global recruiters are working hard to ensure that every candidate is kept in the loop about where they stand in the hiring process, and managers are not spending too much time in Lever reviewing candidates. If you have any questions please feel fee to reach out on the `#hiring` channel on Slack.
 1. Refine the compensation principles.
     - Please check out our [Global Compensation Framework]({{< ref "compensation" >}}). If you have any questions or concerns about the compensation principles, please let People Ops know!
 1. Focus on differentiating CE from EE.
@@ -298,11 +298,11 @@ responsibility, willingness of GitLab team-members to teach new GitLab team-memb
 1. More face-to-face meetings and ability to meet up with GitLab team-members close by.
     - Please expense travel to visit GitLab team-members as described in [Spending Company Money](https://about.gitlab.com/handbook/spending-company-money).
 1. Adjust the team call format to include more regular functional group updates.
-    - The [team call](/handbook/communication/#team-call) now has weekend updates every two weeks, a separate call for APAC GitLab team-members to give their weekend update, and [functional group updates]({{< ref "/handbook/group-conversations" >}}) are separate events.
+    - The [team call](/handbook/communication/#team-call) now has weekend updates every two weeks, a separate call for APAC GitLab team-members to give their weekend update, and [functional group updates](/handbook/group-conversations) are separate events.
 1. Have more employee agreements instead of contractor agreements.
     - People Ops will be working to establish new entities/payrolls in more countries as we grow. Once this is completed we can transfer contractors to employees.
 1. Hire in departments that need more GitLab team-members.
-    - We understand that there is always a lot to do at GitLab and for some departments this means that we might need to hire more GitLab team-members. If this is the case please communicate this to your manager and/or People Ops. If appropriate People Ops will [open the role]({{< ref "/handbook/hiring#vacancy-creation-process" >}}), and add it to the [jobs page](https://about.gitlab.com/jobs).
+    - We understand that there is always a lot to do at GitLab and for some departments this means that we might need to hire more GitLab team-members. If this is the case please communicate this to your manager and/or People Ops. If appropriate People Ops will [open the role](/handbook/hiring#vacancy-creation-process), and add it to the [jobs page](https://about.gitlab.com/jobs).
 1. Refine onboarding to be less intense/intimidating.
     - Onboarding can be overwhelming and sometimes confusing. To alleviate confusion about what you are doing and why, we created an [Onboarding]({{< ref "general-onboarding" >}}) guide to explain each step. Update: This page has been moved to [Onboarding]({{< ref "general-onboarding" >}}).
 1. Move unlimited vacation to a set amount so GitLab team-members take their full vacation.
@@ -310,9 +310,9 @@ responsibility, willingness of GitLab team-members to teach new GitLab team-memb
 1. Less downtime on GitLab.com.
     - Our Infrastructure team is always looking for new ways to improve the ownership of the things we ship. The team will look to have owners of services or features, and these services working will be the way they prove that they are actually delivering. Infrastructure has also increased uptime to 99.91% in [December 2016](http://stats.pingdom.com/81vpf8jyr1h9/1902794/2016/12).
 1. Casual and social interaction.
-    - We have instituted [Coffee Breaks]({{< ref "/handbook/company/culture/all-remote/tips#coffee-chats" >}}) to promote catching up with GitLab team-members. Also, all GitLab team-members are just a click away on Slack or a call away on the [Random Hangout]({{< ref "communication#random-room" >}}).
+    - We have instituted [Coffee Breaks](/handbook/company/culture/all-remote/tips#coffee-chats) to promote catching up with GitLab team-members. Also, all GitLab team-members are just a click away on Slack or a call away on the [Random Hangout]({{< ref "communication#random-room" >}}).
 1. Revise Lever Notifications.
-    - Sometimes it can be hard to manage Lever notifications. Here are some [guidelines]({{< ref "/handbook/hiring#general-points-about-moving-applicants-through-the-process" >}}) to keep your inbox low.
+    - Sometimes it can be hard to manage Lever notifications. Here are some [guidelines](/handbook/hiring#general-points-about-moving-applicants-through-the-process) to keep your inbox low.
 
 #### What are you wondering about / What we are missing
 
@@ -321,7 +321,7 @@ responsibility, willingness of GitLab team-members to teach new GitLab team-memb
 1. How to improve myself as a professional?
     - Aside from the internal tools at GitLab, you can expense any course or training that falls in line with [Spending Company Money](https://about.gitlab.com/handbook/spending-company-money). Questions? Just ask your manager or People Ops.
 1. How are we using our series B funding?
-    - We have released our [master plan](https://about.gitlab.com/blog/2016/09/13/gitlab-master-plan/) for how we plan on growing as a company as a result of our Series B Funding. Also, check out our [Strategy Page]({{< ref "strategy" >}}).
+    - We have released our [master plan](https://about.gitlab.com/blog/2016/09/13/gitlab-master-plan/) for how we plan on growing as a company as a result of our Series B Funding. Also, check out our [Strategy Page](/handbook/company/strategy).
 1. What are the plans for parental leave?
     - We are currently working on this [issue](https://gitlab.com/gitlab-com/peopleops/issues/88).
 1. What are the mid to long term engineering strategies?
@@ -335,7 +335,7 @@ responsibility, willingness of GitLab team-members to teach new GitLab team-memb
 1. Will GitLab include a 401(k) match for US employees?
     - At this time, GitLab does not have a 401(k) match for US employees.
 1. Improve gender diversity.
-    - Our Global Recruiters are working to ensure that the hiring process promotes [diversity]({{< ref "/handbook/hiring#equal-employment-opportunity" >}}). We have also started a Slack Channel `#diversity_inclusion`. Please feel free to contribute at any time!
+    - Our Global Recruiters are working to ensure that the hiring process promotes [diversity](/handbook/hiring#equal-employment-opportunity). We have also started a Slack Channel `#diversity_inclusion`. Please feel free to contribute at any time!
 1. Manager and 1:1 training.
     - As we grow and develop our internal trainings, we will make sure to educate managers on what should be discussed in 1:1's to ensure that the team member's personal and professional development is the core theme of these conversations.
 1. All meetings recorded by default.
@@ -386,7 +386,7 @@ to focus on quality and testing more"
 1. "Better supervision in the first two months"
     - Always be sure to reach out to your manager if you feel that you need more guidance. Your peers are a Slack message away.
 1. "Maybe a more competitive salary"
-    - From the [handbook]({{< ref "/handbook" >}}): "If you are unhappy with anything (your duties, your colleague, your boss, your salary, your location, your computer) please let your boss, or the CEO, know as soon as you realize it. We want to solve problems while they are small."
+    - From the [handbook](/handbook): "If you are unhappy with anything (your duties, your colleague, your boss, your salary, your location, your computer) please let your boss, or the CEO, know as soon as you realize it. We want to solve problems while they are small."
 1. "A step between review/QA and deployment."
     - Review happens through merge requests, and QA happens as part of the release process. We can't think of anything else at the moment that would not introduce gates that cause delay and inefficiency.
 1. "Off-site meetings during the year and/or team-specific summits, like a hackathon"

@@ -4,8 +4,26 @@ title: "Coaching"
 
 ## Coaching at GitLab
 
-Coaching conversations are fluid, dynamic acts of co-creation where the coach and the coachee are equal partners. Coaching is an important component of our [360 review process](/handbook/people-group/360-feedback/) and for [guidance on feedback](/handbook/people-group/guidance-on-feedback/). Coaching can occur during
-[one-on-one meetings]({{< ref "1-1" >}}) or at any time. It is an important component of [career development](/handbook/leadership/1-1/#career-development-discussion-at-the-1-1), [leading teams]({{< ref "leading-through-adversity" >}}), [building an inclusive culture](/handbook/company/culture/inclusion/building-diversity-and-inclusion/#tips-for-managers), [mentoring](https://about.gitlab.com/handbook/engineering/career-development/mentoring/), and much more.
+At GitLab, we use coaching to:
+
+1. Building meaningful, inclusive connections
+1. Equip team members with skills they need to [deliver results for customers]({{< ref "https://handbook.gitlab.com/handbook/values/#results" >}})
+1. Create space to practice strategies for achieving [high performance](https://internal.gitlab.com/handbook/company/high-performing-teams/)
+
+Coaching conversations are fluid, dynamic acts of co-creation where the coach and the coachee are equal partners. People leaders and individual contributions alike use coaching at GitLab during our [360 review process](/handbook/people-group/360-feedback/), giving and receiving [feedback](/handbook/people-group/guidance-on-feedback/), throughout stages of [career development](/handbook/leadership/1-1/#career-development-discussion-at-the-1-1), and more.
+
+### Why you might need or want a coach
+
+It's a common misconception that coaches are a last resort resource, or only for team members who are on a performance improvement plan. It's also a misconception that coaching is only for senior leaders.
+
+Review examples of why you might want to, or benefit from, meeting with a professional coach. This list is not exhaustive.
+
+1. A people manager is developing their own coaching skill and style to build accountability on their team.
+1. A leader wants to add transparency and efficiency to their quarterly planning process, but isn't sure where to start.
+1. An individual contributor wants to define their personal leadership style and plan for career growth opportunities.
+1. A team member wants to improve their communication style with a focus giving on open and honest feedback.
+1. A team member needs guidance in building a system to prioritize their work based on urgency and results.
+
 
 ## Selecting a coach
 
@@ -24,26 +42,11 @@ graph TD
 
 | Coaching Type | Description |
 | ----- | --------------- |
-| Coaching Right Now | Professional coaching by external coaches is offered for managers and IC's Job Grade 8 and above using the [Growth and Development Benefit](/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development/#types-of-growth-and-development-reimbursements). We work with [Coaching Right Now](/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development/#professional-coaching) as our vendor of choice to pair team members with coaches who have been reviewed by the GitLab L&D team. More information about this program with Coaching Right Now can be found [here](https://docs.google.com/document/d/188H3iuIY9JwE4kmAeoLobNz-e6j-rKie/edit?rtpof=true&sd=true). |
+| Coaching Right Now | Professional coaching by external coaches is offered for managers and IC's Job Grade 8 and above using the [Growth and Development Fund](/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development/#types-of-growth-and-development-reimbursements). We work with [Coaching Right Now](/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development/#professional-coaching) as our vendor of choice to pair team members with coaches who have been reviewed by the GitLab L&D team. More information about this program with Coaching Right Now can be found [here](https://docs.google.com/document/d/188H3iuIY9JwE4kmAeoLobNz-e6j-rKie/edit?rtpof=true&sd=true). |
 | [Modern Health](/handbook/total-rewards/benefits/modern-health/) | Using our Modern Health Employee Assistance Program provides professional coaching to all team members. Coaches on Modern Health specialize in professional/career, mental health, and financial coaching. |
 | Manager Coaching | Your manager can be a coach that steers you towards future goals. Ensure that your Manager can take you on in a coaching capacity. However, coaching can also be a type of interaction you have with your Manager during 1:1 discussions. |
 | Internal Coach | Consider a senior to you in your larger team or someone outside of your team that has inspired you on the specific areas you are working and developing on. Consider searching on [this list of available mentors](/handbook/people-group/learning-and-development/mentor/#find-a-mentor).
 | Alternative Professional Coach | If some reason the coaches offered via Coaching Right Now or Modern Health do not fit your needs, team members with a Job Grade 8+ can seek and get approval for alternate external coaches. |
-
-### Why you might need or want a coach
-
-Coaching is a powerful career growth tool. Individual contributors and people leaders can both benefit from coaching. It's a common misconception that coaches are a last resort resource, or only for team members who are on a performance improvement plan. It's also a misconception that coaching is only for senior leaders.
-
-Review examples of why you might want to, or benefit from, meeting with a professional coach. This list is not exhaustive.
-
-1. A new people manager wants to define and develop their individual leadership style.
-1. An individual contributor has a general idea of their growth goals and wants to refine their goal and stay accountable.
-1. An experienced people manager is developing their communication style and skill to meet the needs of their new team.
-1. A team member is thinking about moving into a new role and wants guidance on the transition.
-1. A team member has a new manager or direct report and is trying to adapt their working style.
-
-![examples of coaching from coaching right now](../why-coaching.png)
-{.shadow.medium.center}
 
 ## How coaches coach
 
@@ -150,7 +153,7 @@ Focus on the other person without judgment. Give your coachee your undivided att
 
 ### Different hats for different conversations
 
-Coaching is just one mode of conversation you might use as a [leader]({{< ref "_index.md" >}}). You may be a team lead running an engineering program. You may be managing [one of our TMRG's](/handbook/company/culture/inclusion/erg-guide/). You may [be a mentor](https://about.gitlab.com/handbook/engineering/career-development/mentoring/) or [an onboarding buddy](/handbook/people-group/general-onboarding/onboarding-buddies/). You are also most likely a direct report of someone else. Think of these roles as wearing `different hats.`
+Coaching is just one mode of conversation you might use as a [leader]({{< ref "_index.md" >}}). You may be a team lead running an engineering program. You may be managing [one of our TMRG's](/handbook/company/culture/inclusion/erg-guide/). You may [be a mentor](/handbook/engineering/career-development/mentoring/) or [an onboarding buddy](/handbook/people-group/general-onboarding/onboarding-buddies/). You are also most likely a direct report of someone else. Think of these roles as wearing `different hats.`
 
 You may wear multiple hats in any given day:
 
@@ -160,7 +163,7 @@ You may wear multiple hats in any given day:
 1. **Coach Hat** - Asking questions and listening deeply to help team members reach solutions.
 
 <figure class="video_container">
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTadK6g9lEwLV8nP9GWPrgcF7sRHxycOuLwlZQm_h05D_FJpC3T9JzGUB7FmZY0UyW-ii4IfP0groBd/embed?start=true&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTadK6g9lEwLV8nP9GWPrgcF7sRHxycOuLwlZQm_h05D_FJpC3T9JzGUB7FmZY0UyW-ii4IfP0groBd/embed?start=true&loop=false&delayms=3000" frameborder="0" width="500" height="769" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 </figure>
 
 ### Trust and Coaching
@@ -174,7 +177,7 @@ Building trust is an important ingredient in coaching and team dynamics. Trust l
 1. **Inattention to Results:** When no one is accountable, team members may naturally tend to put their own needs ahead of the collective goals; for example, career development and recognition.
 
 <figure class="video_container">
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQwmhv3MIUV4065TeQ4N1Lz4xhjROQRTaTW2XNa5qH4k-mq4GNLgRYhi2fr2hjZslZ7V8JBipbvuaBv/embed?start=true&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQwmhv3MIUV4065TeQ4N1Lz4xhjROQRTaTW2XNa5qH4k-mq4GNLgRYhi2fr2hjZslZ7V8JBipbvuaBv/embed?start=true&loop=false&delayms=3000" frameborder="0" width="700" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 </figure>
 
 #### The Trust Equation
@@ -201,7 +204,7 @@ The trust equation has one variable in the denominator (self-orientation) and th
 The neuroscience studies show that recognition has the largest effect on trust when it occurs after a [goal has been met](https://hbr.org/2017/01/the-neuroscience-of-trust). The neuroscience of trust can help team members increase empathy, plan efficiently, and decrease thread and fear responses.
 
 <figure class="video_container">
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSxZWO97gkIShmnZ-Ue7C9tbHVMT9BcuUx643pcGKrV29EQiXnpZ6yzTIZIuCUscwhTsT5ZoR6Gn-ZL/embed?start=true&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSxZWO97gkIShmnZ-Ue7C9tbHVMT9BcuUx643pcGKrV29EQiXnpZ6yzTIZIuCUscwhTsT5ZoR6Gn-ZL/embed?start=true&loop=false&delayms=3000" frameborder="0" width="760" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 </figure>
 
 #### The Return on Trust
@@ -221,6 +224,24 @@ Compared with people at low-trust companies, people at high trust companies repo
 1. [How to build and rebuilt trust - Ted Talk](https://www.ted.com/talks/frances_frei_how_to_build_and_rebuild_trust/)
 1. [New to the Team? Here’s How to Build Trust (Remotely) - Harvard Business Review](https://hbr.org/2021/03/new-to-the-team-heres-how-to-build-trust-remotely)
 
+### Will and skill
+
+Will and Skill is a framework that can be used to coach team members based on their Will and Skill. Will reflects the team member’s motivation and engagement with their work. Skill is a reflection of their ability to do the tasks. Scoring in either category as high or low means a team member will fall into one of four quadrants, each of which can be coached and managed differently.
+
+- [Persinio's Guide to Will and Skill Matrix](https://www.personio.com/hr-lexicon/skill-will-matrix-defined/)
+- [AIHR's Guide to Will and Skill](https://www.aihr.com/blog/skill-will-matrix/)
+- [WhatFix's Blog on Will and Skill](https://whatfix.com/blog/skill-will-matrix/)
+- [MindTool's video on Will and Skill](https://www.youtube.com/watch?v=4DAk7fjai6c)
+- [OMT Global's video on Will and Skill](https://www.youtube.com/watch?v=KkkGt15-qtc)
+
+### Managing your inner fixer
+
+To effectively coach, it is critical to manage your inner fixer – Our inner fixer wants desperately to TELL! The role of coach supports people as they develop new habits, explore new ways of engaging, and figure out what they need to do, to be at their best.  This approach requires more coaching vs telling.  More supporting vs giving directions.
+
+- [The Leader as Coach](https://hbr.org/2019/11/the-leader-as-coach)
+- [Stop Fixing & Start Coaching](https://baird-group.com/stop-fixing-start-coaching/)
+- [In Coaching: Is Asking The Right Questions More Important Than Having All The Answers?](https://www.fourstreamscoaching.com/in-coaching-is-asking-the-right-questions-more-important-than-having-all-the-answers/)
+
 ## GROW Model
 
 The GROW Model is a four-step method for holding coaching conversations with a coachee. You can apply it during coaching sessions to guide the coachee through future-focused discussions.
@@ -234,7 +255,7 @@ The GROW Model is a four-step method for holding coaching conversations with a c
 **W - Way Forward:** Agree on specific actions and timeframe to set accountability for the coachee
 
 <figure class="video_container">
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRyDezAdhbc9k5YOQmkUxCxkroz-yR6dpX1CoevIULZM10DcYLy_hBo3yQGlHPUgzPrAxZmNzR7Qjwj/embed?start=true&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRyDezAdhbc9k5YOQmkUxCxkroz-yR6dpX1CoevIULZM10DcYLy_hBo3yQGlHPUgzPrAxZmNzR7Qjwj/embed?start=true&loop=false&delayms=3000" frameborder="0" width="760" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 </figure>
 
 ## Attributes of a coachee
@@ -297,6 +318,17 @@ The coach might also want to end the conversation with a few statements about wh
 - Identifying underlying limiting beliefs, assumptions, and mindset
 - [Tips for managing conflict]({{< ref "managing-conflict#8-tips-for-managing-conflict" >}})
 
+## Team member relations
+
+When coaching is unsuccessful, GitLab’s Team Member Relations group is available to help you. The first thing a manager should do is reach out to the aligned Team Member Relations Partner to review the situation and collaborate on a plan of action.
+That action will include additional coaching, both verbal and documented.
+
+There are times when a Team Member’s behavior becomes so egregious that it is more than a performance issue, and becomes a true conduct concern. If at any point you suspect a team member has engaged in such behavior TMR should be looped in immediately, regardless of whether or not you consider the Team Member a high performer.
+
+- [TMR Handbook Page](/handbook/people-group/readmes)
+- [LDR 102 Underperformance](https://www.youtube.com/watch?v=nRJHvzXwXBU&t=1s)
+- [Managing Underperformance Handbook Interview](https://www.youtube.com/watch?v=-mLpytnQtlY)
+
 ## Live Learning Session
 
 During Week 2 of our Manager Challenge Pilot, we had a course covering [Building Trust]({{< ref "building-trust" >}}) and [Coaching]({{< ref "." >}}). The [slide deck](https://docs.google.com/presentation/d/1PT8x7lUR0-X-M_H7n_tvYKsC1HRtKTiMy0BtmtPcO4Q/edit?usp=sharing) and [meeting agenda](https://docs.google.com/document/d/1eHhOfgqllzAiGOf6gI98wegaxm5-8eLnZ8Qpq7KOLaY/edit?usp=sharing) follow along with the session.
@@ -323,10 +355,6 @@ In an all-remote organization, coaching is a critical skill for managers to deve
 - Reflects on their leadership style and impact on the team and team situation
 - Seeks new coaching approaches and techniques and exemplifies what it means to continuously develop their skills
 - Delivers effective strategies for dealing with cases of [underperformance]({{< ref "underperformance" >}}) and instills that in other leaders across the organization
-
-### Resources for coaching and providing feedback
-
-There is a [handbook page](/people-group/learning-and-development/manager-coaching-and-leadership-resources/) which collects resources for different approaches, techniques, and styles of coaching and providing feedback.
 
 ### Additional coaching resources
 

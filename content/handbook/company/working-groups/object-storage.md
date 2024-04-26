@@ -162,7 +162,7 @@ scope. As a first iteration, the working group members addressed how
 to reduce code complexity by focussing on technological challenges.
 
 The creation of the [scalability frameworks
-team](https://about.gitlab.com/handbook/engineering/infrastructure/team/scalability/#scalabilityframeworks)
+team](/handbook/engineering/infrastructure/team/scalability/#scalabilityframeworks)
 during this working group execution provided a perfect partner to give
 continuity to this effort.  Epic
 [gitlab-com/gl-infra&733](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/733)

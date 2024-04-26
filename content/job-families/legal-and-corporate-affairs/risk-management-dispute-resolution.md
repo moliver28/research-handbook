@@ -1,8 +1,7 @@
 ---
 title: Risk Management & Dispute Resolution
+description: The Risk Management and Dispute Resolution (RMDR) division of GitLab Legal and Corporate Affairs (LACA) is responsible for informing and guiding GitLab’s risk management strategies as well as managing internal and external investigations, litigation and other dispute resolution.
 ---
-
-The Risk Management and Dispute Resolution (RMDR) division of GitLab Legal and Corporate Affairs (LACA) is responsible for informing and guiding GitLab’s risk management strategies as well as managing internal and external investigations, litigation and other dispute resolution.
 
 ## Senior Director of Legal, Risk Management & Dispute Resolution
 

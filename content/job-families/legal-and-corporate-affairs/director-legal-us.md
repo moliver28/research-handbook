@@ -1,8 +1,7 @@
 ---
 title: Director of Legal
+description: Directors of Legal advise clients across GitLab on legal matters related to their functional area of expertise, as well as lead teams comprised of attorneys and paralegals. 
 ---
-
-The Director(s) of Legal are responsible for advising clients across GitLab on legal matters related to their functional area of expertise.
 
 ## Director, Legal
 

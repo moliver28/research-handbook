@@ -142,7 +142,6 @@ The UX Research Operations Coordinator assigned to your project will select the 
 1. Direct Sourcing via LinkedIn
 1. Docs Site Banner
 1. UserTesting.com - a third party recruitment tool (primarily used by Product Designers to self-serve)
-1. First Look Research Panel
 
 Learn more about these [recruitment methods](/handbook/product/ux/ux-research-coordination/recruitment-methods/).
 
@@ -267,6 +266,6 @@ Keeping things short and sweet increases the completion rate of screeners.
 
 A lot of the conversation above occurred in the recruitment request.
 
-The UX Research Operations Coordinator took great care in creating a segment from our research panel (GitLab First Look). Because the study was about accessibility, a topic about which many people are passionate, this study was a good one to use custom subject lines and email copy. The UX Research Operations Coordinator sent out an email with the subject line `New study - let's talk accessibility`. After two emails, we received over 20 responses.
+The UX Research Operations Coordinator took great care in creating a segment from our research panel. Because the study was about accessibility, a topic about which many people are passionate, this study was a good one to use custom subject lines and email copy. The UX Research Operations Coordinator sent out an email with the subject line `New study - let's talk accessibility`. After two emails, we received over 20 responses.
 
 The UX Research Operations Coordinator highlighted in green the people who said they do accessibility testing in their jobs, and strongly agreed that accessibility compliance is important (4 total). They highlighted in orange people who only fit the latter criterion (9). Altogether, this is a surplus of participants, however, we now have some participants that we can reach out to directly when the next accessibility study is available.

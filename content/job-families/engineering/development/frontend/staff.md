@@ -24,7 +24,7 @@ Frontend Engineers at GitLab work on our product. This includes both the open so
 - Represent GitLab and its values in public communication around broad initiatives, specific projects, and community contributions. Interact with customers and other external stakeholders as a consultant and spokesperson for the work of your team.
 - Provide mentorship for all Engineers on your team to help them grow in their technical responsibilities and remove blockers.
 - Consistently ship large features and improvements with minimal guidance and support from other team members. Collaborate with the team on larger projects.
-- Participate in the [Incident Management on-call rotation](https://about.gitlab.com/handbook/engineering/infrastructure/incident-management/#incident-manager-responsibilities) to help ensure the availability goals for GitLab.com are met, by working with reliability engineers and development team members.
+- Participate in the [Incident Management on-call rotation](/handbook/engineering/infrastructure/incident-management/#incident-manager-responsibilities) to help ensure the availability goals for GitLab.com are met, by working with reliability engineers and development team members.
 
 ## Requirements
 
@@ -60,7 +60,7 @@ Frontend Engineers at GitLab work on our product. This includes both the open so
 - Experience contributing to open source software
 - Domain knowledge relevant to the product stage you are looking to join (e.g. someone with CI/CD experience applying for the Verify & Release team)
 
-A Senior Frontend Engineer may want to pursue the engineering management track at this point. See [Engineering Career Development](https://about.gitlab.com/handbook/engineering/career-development#engineering) for more detail.
+A Senior Frontend Engineer may want to pursue the engineering management track at this point. See [Engineering Career Development](/handbook/engineering/career-development#engineering) for more detail.
 
 **Note:** Staff and above positions at GitLab are more of a role than just a "level". We prefer to bring people in as Senior and let the team elevate them to Staff due to an outstanding work history within GitLab.
 
@@ -77,9 +77,9 @@ The Staff Frontend Engineer is a [grade 8](/handbook/total-rewards/compensation/
 
 ## Performance Indicators
 
-- [Frontend Unit Test Coverage](https://about.gitlab.com/handbook/engineering/development/performance-indicators/#frontend-unit-test-coverage)
-- [Open MR Review Time (OMRT)](https://about.gitlab.com/handbook/engineering/development/performance-indicators/#open-mr-review-time-omrt)
-- [Open MR Age (OMA)](https://about.gitlab.com/handbook/engineering/development/performance-indicators/#open-mr-age-oma)
+- [Frontend Unit Test Coverage](/handbook/engineering/development/performance-indicators/#frontend-unit-test-coverage)
+- [Open MR Review Time (OMRT)](/handbook/engineering/development/performance-indicators/#open-mr-review-time-omrt)
+- [Open MR Age (OMA)](/handbook/engineering/development/performance-indicators/#open-mr-age-oma)
 
 ## Hiring Process
 

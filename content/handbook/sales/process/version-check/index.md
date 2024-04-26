@@ -17,7 +17,7 @@ GitLab Version Check is a suite of UI elements focused on communicating to insta
 admins the status of their current instance's version. The status is communicated
 through various elements depending on how critical the version they are behind is.
 
-## Gitlab Version Check UI Suite
+## GitLab Version Check UI Suite
 
 ### GitLab Version Badge
 
@@ -78,15 +78,7 @@ hidden and set to reappear in 3 days.
 
 ## How does the GitLab Version Check work?
 
-
-
-<div class="panel panel-info">
-**Important**
-{: .panel-heading}
-<div class="panel-body">
 In the past we used to provide the version check to the UI through an API call that you could see in your Network tab.  **This has changed** and is now provided to the UI [through Rails](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/103248).
-</div>
-</div>
 
 The current architecture is a bit complicated due to the nature of the [`ReactiveCaching`](https://docs.gitlab.com/ee/development/reactive_caching.html) mechanism we are using. This cache is powered by [Sidekiq](https://github.com/mperham/sidekiq) and is executed through Background Jobs (`/admin/background_jobs`) with the goal of housing and rehydrating your instance's version status. We have an aggressive caching mechanism due to the nature of this data being fetched from an external endpoint and being needed throughout the GitLab application.
 
@@ -119,24 +111,12 @@ which the request was sent. So it is the URL of the help page or the admin
 area page of the admin's GitLab instance. E.g. if you visit the help page on
 gitlab.com the HTTP referrer is https://gitlab.com/help. Furthermore the
 browser has to send the IP address of the instance combined with the request to
-receive a response. The IP address won't be saved.
+receive a response. None of this information is saved.
 
 ## What is version.gitlab.com?
 
-Version.gitlab.com collects all browser requests mentioned above and adds
-them to a database. It saves the HTTP referrer URL, the current GitLab version,
-the timestamp of the request and information about the browser. As mentioned
-above it does not save IP addresses.
-
-## Why does GitLab save this information?
-
-This information provides better insights into where and how GitLab is
-used and helps us to improve GitLab for everyone, for example by seeing which
-versions are popular and require a backport of a security fix.
-
-## Who has access to this database?
-
-Only the GitLab team has access to version.gitlab.com.
+Version.gitlab.com responds to the requests mentioned above with 
+up-to-date version information. It does not save any of the provided data.
 
 ## Which information can be derived from the HTTP referrer?
 
@@ -148,12 +128,6 @@ can be named anything, for example 'myownGitLab'. Public hostnames or
 IP addresses can contain information about the owner of the host network.
 For example if the HTTP referrer contains 'dev.gitlab.org' it is assumable that
 this instance is owned by GitLab.
-
-## Limitations
-
-Because an HTTP referrer can be easily spoofed and because a local hostname can
-be named anything, it is impossible to be completely sure if any derived
-information is actually valid.
 
 ## Troubleshooting
 

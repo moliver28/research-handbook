@@ -2,7 +2,7 @@
 
 title: GitLab Dedicated Observability and Monitoring (Grafana)
 category: GitLab Dedicated
-description: "Gitlab Dedicated Support - Observability and Monitoring"
+description: "GitLab Dedicated Support - Observability and Monitoring"
 ---
 
 ## Grafana data is primarily for internal use
@@ -32,3 +32,5 @@ The `General / Triage` dashboard is most useful for an emergency as it has the p
 Remember that Grafana is used for visualizing issues and spotting problems. It won't tell us directly what is wrong. You must correlate to [the logs]({{< ref "dedicated_logs" >}}) to find the exact problem.
 
 As an example, the Triage dashboard may show that `webservice` errors are increasing. Use this to correlate an approximate time and [filter]({{< ref "dedicated_logs#fields-and-filters" >}}) out the other logs by the `kubernetes.labels.app` to find the error for just `webservice`.
+
+The `General / Triage` dashboard contains information about **Service Apdex** (application performance index), **Service Error Ratio**, **RPS** (requests per second) and **Saturation** information for each service included in that dashboard. In general, you should notice that increases in the **Service Error Ratio** correspond to decreases in the **Service Apdex**. Read more about [GitLab Dedicated SLAs](/handbook/engineering/infrastructure/team/gitlab-dedicated/slas/).

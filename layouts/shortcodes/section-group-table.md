@@ -16,10 +16,7 @@
 {{- $emData := slice }}
 {{- $femData := slice }}
 
-{{- $stages := partials.IncludeCached "data/stages" . }}
-{{- $teamMembers := partials.IncludeCached "data/team-by-gitlab" . }}
-
-{{- range $stages }}
+{{- range site.Data.public.stages.stages }}
   {{- range .groups }}
     {{- if eq .name $section_group }}
       {{- $be_team_tag := .be_team_tag }}
@@ -29,7 +26,7 @@
       {{- $em := .backend_engineering_manager }}
       {{- $fem := .frontend_engineering_manager }}
       
-      {{- range $k, $v := $teamMembers }}
+      {{- range $k, $v := site.Data.public.team }}
         {{- if in .departments $be_team_tag }}
           {{- if not (eq (lower .name) (lower $em)) }}
             {{- $beTeamDict = merge $beTeamDict (dict (lower .gitlab) . ) }}
@@ -75,66 +72,50 @@
   <tbody>
     <tr>
       <th><abbr title="Product Manager">PM</abbr></th>
-      <td>{{- with (index $pmData 0) }}{{ partial "member" . }}{{- end }}
-      </td>
-      <td>{{ len $pmData }}</td>
+      <td>{{- with (index $pmData 0) }}{{ partial "member/with-team-link" . }}{{- end }}</td>
+      <td>{{- len $pmData }}</td>
     </tr>
     <tr>
       <th><abbr title="User Research">UX</abbr></th>
       <td>{{- if gt (len $uxTeamDict) 0}}
           {{- range $uxTeamDict }}
-            {{ partial "member" . }}
+            {{ partial "member/with-team-link" . }}
           {{- end }}
         {{- end }}</td>
-      <td>{{ len $uxTeamDict }}</td>
+      <td>{{- len $uxTeamDict }}</td>
     </tr>
     <tr>
       <th><abbr title="Engineering Manager">EM</abbr></th>
-      <td>{{- with (index $emData 0) }}{{ partial "member" . }}{{- end }}</td>
-      <td>{{ len $emData }}</td>
+      <td>{{- with (index $emData 0) }}{{ partial "member/with-team-link" . }}{{- end }}</td>
+      <td>{{- len $emData }}</td>
     </tr>
     <tr>
       <th><abbr title="Frontend Engineering Manager">FEM</abbr></th>
-      <td>{{- with (index $femData 0) }}{{ partial "member" . }}{{- end }}</td>
-      <td>{{ len $femData }}</td>
+      <td>{{- with (index $femData 0) }}{{ partial "member/with-team-link" . }}{{- end }}</td>
+      <td>{{- len $femData }}</td>
     </tr>
     <tr>
       <th><abbr title="Frontend">FE</abbr></th>
       <td>{{- if gt (len $feTeamDict) 0}}
             {{- range $feTeamDict }}
-              {{ partial "member" . }}
+              {{ partial "member/with-team-link" . }}
             {{- end }}
           {{- end }}</td>
-      <td>{{ len $feTeamDict }}</td>
+      <td>{{- len $feTeamDict }}</td>
     </tr>
     <tr>
       <th><abbr title="Backend">BE</abbr></th>
       <td>{{- if gt (len $beTeamDict) 0 }}
             {{- range $beTeamDict }}
-              {{ partial "member" . }}
+              {{ partial "member/with-team-link" . }}
             {{- end }}
           {{- end }}</td>
-      <td>{{ len $beTeamDict }}</td>
+      <td>{{- len $beTeamDict }}</td>
     </tr>
     <tr>
       <th>Total</th>
       <td></td>
-      <td>{{ len $foundMemberDict }}</td>
+      <td>{{- len $foundMemberDict }}</td>
     </tr>
   </tbody>
 </table>
-
-<style>
-    img.avatar {
-    width: 30px;
-    height: 30px;
-    max-width: 30px;
-    max-height: 30px;
-    overflow: hidden;
-    margin-right: 10px;
-    border-radius: 50%;
-    border: 1px solid lightgray;
-    aspect-ratio: auto 90 / 90;
-    overflow-clip-margin: content-box;
-    }
-</style>

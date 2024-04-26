@@ -34,9 +34,8 @@ To request access to a group, please see [group access request tutorial](/handbo
 | Name                 | GitLab.com Handle       | Group Role       | Job Title                                       |
 |----------------------|-------------------------|------------------|-------------------------------------------------|
 | Marco Lancini        | `mlancini`              | Owner            | Staff Security Engineer - Infrastructure        |
-| Joe Dubail           | `joe-dub`               | Counterpart      | Manager, Security Engineering - Infrastructure  |
 | Paulo Martins        | `pmartinsgl`            | Counterpart      | Senior Security Engineer - Infrastructure       |
-| Laurence Bierner     | `laurence.bierner`      | Counterpart      | Director, Security Engineering                  |
+| James Ritchey     | `jritchey`      | Counterpart      | Sr. Manager, Product Security                  |
 
 ## Realm labels and tags
 

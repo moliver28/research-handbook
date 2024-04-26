@@ -6,7 +6,7 @@ canonical_path: "/job-families/engineering/incubation/engineer/"
 
 Incubation Engineers are experienced Software Engineers with deep knowledge in a specific domain that are able to work independently to deliver a solution to market.  The goal of an Incubation Engineer is to reach a [Viable](https://about.gitlab.com/direction/maturity/#legend) level of maturity of their respective area within the GitLab project.
 
-Incubation Engineers work within the [Incubation Engineering Department](https://about.gitlab.com/handbook/engineering/incubation/).
+Incubation Engineers work within the [Incubation Engineering Department](/handbook/engineering/incubation/).
 
 ### Responsibilities
 
@@ -15,7 +15,7 @@ Incubation Engineers work within the [Incubation Engineering Department](https:/
 - Interact with community members and help drive initial user adoption
 - Develop strategies for scaling beyond the Incubation phase
 - Craft code that meets our internal standards for style, maintainability, and best practices for a high-scale web environment. Maintain and advocate for these standards through code review.
-- Regularly [demonstrate](https://about.gitlab.com/handbook/engineering/#engineering-demo-process) progress to stake holders
+- Regularly [demonstrate](/handbook/engineering/demos/#single-engineer-groups-demo) progress to stake holders
 - Contribute to documentation and UI design as required
 
 ### Requirements
@@ -79,12 +79,12 @@ The Staff Incubation Engineer is a [grade 8](/handbook/total-rewards/compensatio
 
 Incubation Engineers have the following Performance Indicators
 
-- [SEG Category Maturity](https://about.gitlab.com/handbook/engineering/incubation/performance-indicators/#seg-category-maturity)
-- [Community Engagement](https://about.gitlab.com/handbook/engineering/incubation/performance-indicators/#community-engagement)
+- [SEG Category Maturity](/handbook/engineering/incubation/performance-indicators/#seg-category-maturity)
+- [Community Engagement](/handbook/engineering/incubation/performance-indicators/#community-engagement)
 
 ## Career Ladder
 
-For more details on the engineering career ladders, please review the [engineering career development](https://about.gitlab.com/handbook/engineering/career-development/#roles) handbook page.
+For more details on the engineering career ladders, please review the [engineering career development](/handbook/engineering/careers/#roles) handbook page.
 
 ## Hiring Process
 

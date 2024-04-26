@@ -39,7 +39,7 @@ As soon as we know the date of our next GC, someone (usually the person who will
 
 1. We should all be recording info in the next GC deck as we complete them (daily, weekly, etc). The goal is to not have to go back through our calendars, emails, slack messages, meeting notes, etc right before the GC session to dig up the past. This is harder to do and more likely we will miss items.
 1. Add ***accomplishments/results***, not "what we are doing", "what we are working on", etc
-1. Add your contents onto the slide that is marked for your team (eg. Technical Marketing).
+1. Add your contents onto the slide that is marked for your team (eg. Developer Advocates).
 1. ***SUPER IMPORTANT: Make sure*** that the content you are adding wasn't already identified in a previous GC.
 1. As many items as possible should have links (either to the deliverable itself, the video, the presentation, the pointer to the conference speaker's session, etc). Do your best to link to something relevant.
 1. Be conscious of formatting. When you add content, if you are pasting it in, use "Paste without formatting" (on Mac: command-shift-V) to pick up the formatting and text sizing that is already on the page.

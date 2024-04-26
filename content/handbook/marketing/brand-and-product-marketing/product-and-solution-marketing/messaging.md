@@ -92,4 +92,4 @@ Go to the [Pricing tier page](/handbook/marketing/brand-and-product-marketing/pr
 
 ### GitLab positioning FAQs
 
-Go to the [GitLab positioning FAQ page](https://about.gitlab.com/handbook/positioning-faq/).
+Go to the [GitLab positioning FAQ page](/handbook/positioning-faq/).

@@ -25,7 +25,7 @@ Related Reading:
 - [9 forces shaping the future of IT](https://www.cio.com/article/3206770/it-strategy/9-forces-shaping-the-future-of-it.html?upd=1538513299753)
 - [12 biggest issues IT faces](https://www.cio.com/article/3245772/it-strategy/the-12-biggest-issues-it-faces-today.html)
 - [Survey: Compliance Drives IT Security](https://www.cio.com/article/2447696/compliance/survey--compliance-drives-it-security.html)
-- [Financial Services Regulatory Compliance](/solutions/financial-services-regulatory-compliance/)
+- [Financial Services Regulatory Compliance](https://about.gitlab.com/solutions/financial-services-regulatory-compliance/)
 - [Collaboration key to achieving business goals](https://www.cio.com/article/3170784/collaboration/collaboration-key-to-achieving-business-goals.html)
 
 ### Who cares about what? What pains do they have?
@@ -36,8 +36,8 @@ Related Reading:
 
     Defining key trends and terms:
     - What is digital transformation - Read [Forrester Digital Rewrites the Rules of Business](https://drive.google.com/file/d/16kb47ifUBX5Zp4lAiAbMp7TVo79ba2MY/view) (INTERNAL only)
-    - Why is [cloud native](/topics/cloud-native/) important to digital transformation
-    - Speed [time to market](/solutions/faster-software-delivery/) without impacting [risk](/solutions/dev-sec-ops/)
+    - Why is [cloud native](https://about.gitlab.com/topics/cloud-native/) important to digital transformation
+    - Speed [time to market](https://about.gitlab.com/solutions/faster-software-delivery/) without impacting [risk](https://about.gitlab.com/solutions/dev-sec-ops/)
 
 
         **CIO or VP IT** - Business focus, strategic, long-term, transformation, budget
@@ -49,10 +49,10 @@ Related Reading:
         1. Resources:
               - [GitLab Pitch Deck](https://docs.google.com/presentation/d/1dVPaGc-TnbUQ2IR7TV0w0ujCrCXymKP4vLf6_FDTgVg/)
               - [GitLab home page](https://about.gitlab.com)
-              - [ROI](/calculator/roi/)
-              - [Product page](/stages-devops-lifecycle/)
-              - [Comparison page](/competition/)
-              - [Solutions page](/solutions/), depending upon unique challenges/interests
+              - [ROI](https://about.gitlab.com/calculator/roi/)
+              - [Product page](https://about.gitlab.com/stages-devops-lifecycle/)
+              - [Comparison page](https://about.gitlab.com/why-gitlab/)
+              - [Solutions page](https://about.gitlab.com/solutions/), depending upon unique challenges/interests
 
 
         **CISO and VP Security** - Risk, Security, Compliance, protecting the business
@@ -63,10 +63,10 @@ Related Reading:
               - Better leverage your scarce security resources by putting app sec tools, that are meant for the developer, into the hands of the developer, so they may remediate more, earlier than possible with traditional app sec tools. (Enable TRUE shift-left via single application and single source-of-truth.)
               - Improve visibility while at the same time reducing friction between processes and tools used by dev and app sec teams.
         1. Resources:
-              - [DevSecOps](/solutions/dev-sec-ops/)
-              - [Comparison](/competition/)
+              - [DevSecOps](https://about.gitlab.com/solutions/dev-sec-ops/)
+              - [Comparison](https://about.gitlab.com/why-gitlab/)
               - [Current Security Deck](https://docs.google.com/presentation/d/1z4v6v_lP7BHCP2jfRJ9bK_XoUgQ9XW01X2ZhQcon8bY/edit#slide=id.g2823c3f9ca_0_9) - [Deprecated Security Deck](https://docs.google.com/presentation/d/1lNr9pz7axLlN7uw7Wkwi_FYMuEh4F4QzPaoJLfReGFk/edit#slide=id.g2823c3f9ca_0_9)
-              - [Regulatory Compliance](/solutions/compliance/)
+              - [Regulatory Compliance](https://about.gitlab.com/solutions/compliance/)
 
 
         **CTO** - Technology focused, today and in the future. Focus can vary from company to company.
@@ -79,17 +79,17 @@ Related Reading:
         1. Resources:
             - [GitLab Pitch Deck](https://docs.google.com/presentation/d/1dVPaGc-TnbUQ2IR7TV0w0ujCrCXymKP4vLf6_FDTgVg/)
             - [GitLab home page](https://about.gitlab.com)
-            - [ROI](/calculator/roi/)
-            - [Concurrent DevOps](/topics/devops/ )
-            - [Cloud Transformation](/solutions/cloud-native/)
+            - [ROI](https://about.gitlab.com/calculator/roi/)
+            - [Concurrent DevOps](https://about.gitlab.com/topics/devops/ )
+            - [Cloud Transformation](https://about.gitlab.com/solutions/cloud-native/)
             - Software-defined Infrastructure
             - [Visibility and Velocity](https://about.gitlab.com/blog/2017/06/07/continuous-integration-ticketmaster/)
             - [Geographically distributed teams](/features/gitlab-geo/)
             - [High availability development](https://docs.gitlab.com/ee/administration/reference_architectures/)
-            - [DevSecOps](/solutions/dev-sec-ops/)
-            - [Product page](/stages-devops-lifecycle/)
-            - [Comparison page](/competition/)
-            - [Solutions page](/solutions/), depending upon unique challenges/interests
+            - [DevSecOps](https://about.gitlab.com/solutions/dev-sec-ops/)
+            - [Product page](https://about.gitlab.com/stages-devops-lifecycle/)
+            - [Comparison page](https://about.gitlab.com/why-gitlab/)
+            - [Solutions page](https://about.gitlab.com/solutions/), depending upon unique challenges/interests
 
 
 1. **VP Level**
@@ -97,7 +97,7 @@ Related Reading:
       **VP Apps/Development/Engineering** - Helping to meet business demand for innovation, updates, and capability. This role is typically bonused/compensated on velocity, time to market and alignment with the business.
       1. Value Prop
           - GitLab’s single application that supports the entire DevOps lifecycle is of significant importance.  The DevOps tool chain crisis is real and there is a lot of ‘bubble gum and duct tape’ going on in and around integrating all these point DevOps tools in order to convey the full story of what’s really happening.
-          - Finding new areas across the SDLC to automate is top of mind to this role.  GitLab’s [Auto DevOps](/stages-devops-lifecycle/auto-devops/) will be a competitive differentiator
+          - Finding new areas across the SDLC to automate is top of mind to this role.  GitLab’s [Auto DevOps](https://about.gitlab.com/stages-devops-lifecycle/auto-devops/) will be a competitive differentiator
       1. There are several critical challenges that application development leaders are facing.
          - [Cycle time - how to improve velocity](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/it-groups/build/cycle-time/)
          - [How deliver secure Applications](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/it-groups/build/secure-applications/)
@@ -105,36 +105,36 @@ Related Reading:
       1. Resources:
           - [GitLab Pitch Deck](https://docs.google.com/presentation/d/1dVPaGc-TnbUQ2IR7TV0w0ujCrCXymKP4vLf6_FDTgVg/)
           - [GitLab home page](https://about.gitlab.com)
-          - [ROI](/calculator/roi/)
-          - [Concurrent DevOps](/topics/devops/ )
+          - [ROI](https://about.gitlab.com/calculator/roi/)
+          - [Concurrent DevOps](https://about.gitlab.com/topics/devops/ )
           - Software-defined Infrastructure
           - [Visibility and Velocity](https://about.gitlab.com/blog/2017/06/07/continuous-integration-ticketmaster/)
           - [Geographically distributed teams](/features/gitlab-geo/)
           - [High availability development](https://docs.gitlab.com/ee/administration/reference_architectures/)
-          - [Auto DevOps](/stages-devops-lifecycle/auto-devops/)
+          - [Auto DevOps](https://about.gitlab.com/stages-devops-lifecycle/auto-devops/)
           - [CI/CD](/features/continuous-integration/)
-          - [Product page](/stages-devops-lifecycle/)
-          - [Comparison page](/competition/)
-          - [Solutions page](/solutions/), depending upon unique challenges/interests
+          - [Product page](https://about.gitlab.com/stages-devops-lifecycle/)
+          - [Comparison page](https://about.gitlab.com/why-gitlab/)
+          - [Solutions page](https://about.gitlab.com/solutions/), depending upon unique challenges/interests
 
 
       **VP Ops** - Keeping the business running efficiently.  Uptime, recovery are important.  The role is typically bonused/compensated on uptime and SLAs back to the business.
       1. Value Prop:
-          - GitLab’s single application that supports the entire DevOps lifecycle is going to be important for this role.  Shifting left monitoring, testing and security earlier in the SDLC is valuable to the VP Ops to reduce the risk of downtime in production.  Auto Devops will be of interest here as well.
+          - GitLab’s single application that supports the entire DevOps lifecycle is going to be important for this role.  Shifting left monitoring, testing and security earlier in the SDLC is valuable to the VP Ops to reduce the risk of downtime in production.  Auto DevOps will be of interest here as well.
       1. Resources:
             - [GitLab Pitch Deck](https://docs.google.com/presentation/d/1dVPaGc-TnbUQ2IR7TV0w0ujCrCXymKP4vLf6_FDTgVg/)
             - [GitLab home page](https://about.gitlab.com)
-            - [ROI](/calculator/roi/)
-            - [Concurrent DevOps](/topics/devops/ )
-            - [Auto DevOps](/stages-devops-lifecycle/auto-devops/)
+            - [ROI](https://about.gitlab.com/calculator/roi/)
+            - [Concurrent DevOps](https://about.gitlab.com/topics/devops/ )
+            - [Auto DevOps](https://about.gitlab.com/stages-devops-lifecycle/auto-devops/)
             - [Geographically distributed teams](/features/gitlab-geo/)
             - [High availability development](https://docs.gitlab.com/ee/administration/reference_architectures/)
-            - [DevSecOps](/solutions/dev-sec-ops/)
-            - [Product page](/stages-devops-lifecycle/)
-            - [Comparison page](/competition/)
-            - [Solutions page](/solutions/), depending upon unique challenges/interests
+            - [DevSecOps](https://about.gitlab.com/solutions/dev-sec-ops/)
+            - [Product page](https://about.gitlab.com/stages-devops-lifecycle/)
+            - [Comparison page](https://about.gitlab.com/why-gitlab/)
+            - [Solutions page](https://about.gitlab.com/solutions/), depending upon unique challenges/interests
             - [Security Deck](https://docs.google.com/presentation/d/1lNr9pz7axLlN7uw7Wkwi_FYMuEh4F4QzPaoJLfReGFk/edit#slide=id.g2823c3f9ca_0_9)
-            - [Regulatory Compliance](/solutions/compliance/)
+            - [Regulatory Compliance](https://about.gitlab.com/solutions/compliance/)
 
 
       **VP/Dir DevOps or Enterprise Architect** - VP/Director of DevOps is a fairly new role. Enterprise Architect role is expanding with more and more control.  Leading the execution of the transformation. Ensures the business and technology are in alignment. Focuses on best practices and processes as well as assists with documentation. Evangelist of DevOps best practices.
@@ -146,18 +146,18 @@ Related Reading:
       1. Resources:
             - [GitLab Pitch Deck](https://docs.google.com/presentation/d/1dVPaGc-TnbUQ2IR7TV0w0ujCrCXymKP4vLf6_FDTgVg/)
             - [GitLab home page](https://about.gitlab.com)
-            - [ROI](/calculator/roi/)
+            - [ROI](https://about.gitlab.com/calculator/roi/)
             - [CI/CD](/features/continuous-integration/)
-            - [Concurrent DevOps](/topics/devops/ )
-            - [Cloud Transformation](/solutions/cloud-native/)
+            - [Concurrent DevOps](https://about.gitlab.com/topics/devops/ )
+            - [Cloud Transformation](https://about.gitlab.com/solutions/cloud-native/)
             - [Google Cloud Platform](/partners/technology-partners/google-cloud-platform/)
             - [AWS](/partners/technology-partners/aws/)
             - Software-defined Infrastructure
             - [Geographically distributed teams](/features/gitlab-geo/)
-            - [DevSecOps](/solutions/dev-sec-ops/)
-            - [Product page](/stages-devops-lifecycle/)
-            - [Comparison page](/competition/)
-            - [Solutions page](/solutions/), depending upon unique challenges/interests
+            - [DevSecOps](https://about.gitlab.com/solutions/dev-sec-ops/)
+            - [Product page](https://about.gitlab.com/stages-devops-lifecycle/)
+            - [Comparison page](https://about.gitlab.com/why-gitlab/)
+            - [Solutions page](https://about.gitlab.com/solutions/), depending upon unique challenges/interests
 
 
       **VP Security** - Large enterprises will have this but others go straight to Manager of Security.
@@ -165,7 +165,7 @@ Related Reading:
 
 
       **VP Shared Svcs** - Common services for IT (Project Mgt, Portfolio Mgt, Resource Mgt, perhaps QA, etc) - for enterprises with microservices model
-      1. Value Prop - Project & [Portfolio Mgmt](/solutions/agile-delivery/), Testing (QA)
+      1. Value Prop - Project & [Portfolio Mgmt](https://about.gitlab.com/solutions/agile-delivery/), Testing (QA)
       1. Resources - future vision
 
 

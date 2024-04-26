@@ -10,9 +10,10 @@ Professional Services Engineers are expected to be able to interface not only wi
 
 | Level | Grade |
 | -- | - |
-| [Associate](#associate-professional-services-engineer) | [Grade 5](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) |
-| [Intermediate](#professional-services-engineer) | [Grade 6](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) |
-| [Senior](#senior-professional-services-engineer) | [Grade 7](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) |
+| [Associate Professional Services Engingeer](#associate-professional-services-engineer) | [Grade 5](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) |
+| [Intermediate Professional Services Engingeer](#professional-services-engineer) | [Grade 6](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) |
+| [Senior Professional Services Engingeer](#senior-professional-services-engineer) | [Grade 7](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) |
+| [Senior Manager, Professional Services Engineering](#senior-manager-professional-services-engineering) | [Grade 9](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) |
 
 ## Performance Indicator
 
@@ -142,6 +143,42 @@ documents those opportunities
 - Experience working with a global or otherwise multicultural team
 - Computer science education or equivalent experience
 
+## Senior Manager, Professional Services Engineering
+
+The Senior Manager, Professional Services Engineering reports to the Director, Professional Services.
+
+### Responsibilities
+
+- Work with the Professional Services Director to help establish and manage goals and responsibilities for Professional Services Engineers
+- Identify and own improvements to the processes and tools used to drive engineering in Professional Services
+- Assist in the development of thought leadership, event-specific, and customer-facing presentations
+- Provide leadership and guidance to coach, motivate, and lead services team members to their optimum performance levels and career development
+- Manage resource assignments and staffing levels, working with PS Operations, including recruitment as needed
+- Review and approve formal statements of work, change requests, and proposals
+- Lead delivery of consulting, specifically for the PS Engineers who execute the custom SOWs and SKUs sold to our customers
+- Remain knowledgeable and up-to-date on GitLab product releases and features
+- Own operational metrics and financial goals, as defined by organizational goals, for the PS Engineering team including:
+  - Revenue target
+  - Gross margin
+  - Engineer utilization and overall attainment
+  - CSAT
+  - % of projects on time and on budget
+- Collaborate with peers in Practice Management, Engagement Management, and Operations to implement efficiency improvements for Professional Services
+- Be a trusted advisor to GitLab AEs, SALs, and SAs
+- Deliver updates on key Professional Services engagements and initiatives in the Sales and Professional Services forecast calls
+
+### Requirements
+
+- Demonstrated progressive experience managing, leading and/or delivering professional services or customer success
+- Demonstrated progressive experience with a subscription-based business model, delivering on-premises and SaaS solutions
+- Experience managing technical, cross-functional professional services teams (e.g., consulting, implementation, trainers, project managers) and delivery partners
+- Experienced in and with advanced insight to the GitLab platform
+- Experienced in giving and receiving positive and constructive feedback
+- Adaptive to environmental changes based on project successes and failures
+- Experienced in collaborating with other managers and executing strategies
+- Proven track record in software/technology sales or consulting and management
+- Demonstrated ability to think strategically about business, products, and technical challenges
+
 ## Public Sector
 
 The Responsibilities, Requirements, and Additional Sklls for Public Sector Professional Services Engineers are identical to the commensurate Level and Grade of their non-Public Sector peers. The only additional job requirement is the necessary clearance to work on Government Contracts.
@@ -166,4 +203,4 @@ Additional details about our process can be found on our [hiring page](/handbook
   - To a Technical Architect role
 - The next steps for a Manager, Professional Services would be to move into a Senior Manager within this Job Family or to the [Professional Services Engagement](/job-families/sales/job-professional-services-engagement-manager/) Job Family or the [Director of Professional Services](/job-families/sales/director-of-professional-services) Job Family.
 - The next steps for a Senior Manager, Professional Services would be the [Professional Services Engagement](/job-families/sales/job-professional-services-engagement-manager/) Job Family or the [Director of Professional Services](/job-families/sales/director-of-professional-services) Job Family.
-- [Leadership at GitLab](/handbook/company/team/structure/#director-group)
+- [Leadership at GitLab](/handbook/company/structure/#director-group)

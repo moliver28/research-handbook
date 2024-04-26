@@ -259,7 +259,7 @@ GitLab’s [Corporate Governance Guidelines, Codes, Policies, and other governan
 The Board’s responsibilities include:
 
 - [Risk oversight](https://www.sec.gov/ix?doc=/Archives/edgar/data/0001653482/000162828023018206/gtlb-20230515.htm)
-- Monitoring the performance of the Chief Executive Officer (CEO) and other [Executive](/handbook/company/team/structure/#executives) leaders
+- Monitoring the performance of the Chief Executive Officer (CEO) and other [Executive](/handbook/company/structure/#executives) leaders
 - Giving feedback on the [mission](/handbook/company/mission/#mission), [values](/handbook/company/mission/#values), and [strategy](/handbook/company/mission/#goals)
 - Evaluating if adequate resources are available to achieve our goals and that those resources are used effectively
 - Advocating for GitLab externally
@@ -281,7 +281,7 @@ GitLab acknowledges the importance of our privacy obligations and the requiremen
 
 The [Privacy Team](/handbook/legal/privacy/), which is part of the [Legal and Corporate Affairs Team]({{< ref legal-and-corporate-affairs >}}), provides support and guidance to uphold consistent business processes around the protection of personal data as it relates to GitLab customers, users, team members, and other natural persons. The team serves as advocates to ensure that the data privacy practices of GitLab meet the needs of cross-functional partners and are continually balanced with an ever-changing global data privacy and protection landscape.
 
-GitLab maintains a [Data Classification Standard](https://about.gitlab.com/handbook/engineering/security/data-classification-standard.html) using a color system to denote data classification levels: green, yellow, orange, and red. All customer-generated private data is classified as the most sensitive data in the environment and is automatically labeled as red, demonstrating GitLab’s commitment to data security on behalf of our customers. This classification standard extends to customer application programming interfaces (“APIs”), code, private user profiles, and confidential repos/epics/issues. Red data classification is reserved exclusively for customer-generated data.
+GitLab maintains a [Data Classification Standard](/handbook/engineering/security/data-classification-standard.html) using a color system to denote data classification levels: green, yellow, orange, and red. All customer-generated private data is classified as the most sensitive data in the environment and is automatically labeled as red, demonstrating GitLab’s commitment to data security on behalf of our customers. This classification standard extends to customer application programming interfaces (“APIs”), code, private user profiles, and confidential repos/epics/issues. Red data classification is reserved exclusively for customer-generated data.
 
 **ISO 27017:2015 & ISO 27018:2019 – A Certification in Our Cloud Security and Privacy Standards**
 
@@ -326,7 +326,7 @@ Our FY23 priorities in this area included:
 
 - **Supply Chain Levels for Software Artifacts (“SLSA”) security framework feature (all tiers)**
 
-    SLSA is a security framework that helps security and integrity of software supply chains. By default, [GitLab Runner](https://docs.gitlab.com/runner/) is now capable of generating and producing SLSA-2 compliant attestation metadata for building artifacts.
+    SLSA is a security framework that helps security and integrity of software supply chains. By default, [GitLab Runner](https://docs.gitlab.com/runner/) is now capable of generating and producing SLSA-L1 compliant attestation metadata for building artifacts.
 
 - **Group and subgroup-level scan result capabilities for security policies (Ultimate tier only)**
 
@@ -367,7 +367,7 @@ As with other ethical concerns, team members may confidentially and anonymously 
 
 #### Measuring Results
 
-Disclosing our progress through data aligns with our [transparency]({{ ref "values#transparency" >}}) and [results]({{< ref "values#results" >}}) values. We have a section in our Handbook devoted to [key performance indicators (KPIs)](/handbook/company/kpis/) where we update our progress regularly. Every part of GitLab has KPIs linked to the company [objectives and key results (OKRs)](/handbook/company/okrs/). As we build our ESG strategy, we will continue to add and update relevant ESG KPIs to the Handbook.
+Disclosing our progress through data aligns with our [transparency](https://handbook.gitlab.com/handbook/values/#transparency) and [results](https://handbook.gitlab.com/handbook/values/#results) values. We have a section in our Handbook devoted to [key performance indicators (KPIs)](/handbook/company/kpis/) where we update our progress regularly. Every part of GitLab has KPIs linked to the company [objectives and key results (OKRs)](/handbook/company/okrs/). As we build our ESG strategy, we will continue to add and update relevant ESG KPIs to the Handbook.
 
 - [GRI disclosures](https://about.gitlab.com/documents/GRI_CONTENT_INDEX_FY23.pdf)
 - [SASB disclosures](https://about.gitlab.com/documents/SASB_INDEX_FY23.pdf)

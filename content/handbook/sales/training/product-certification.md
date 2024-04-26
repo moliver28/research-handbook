@@ -17,7 +17,7 @@ description: "Training and certification program to ensure field team members ha
 As part of the [Field Certification Program](/handbook/sales/training/field-certification/), the objective of this program is to ensure field team members have the requisite knowledge to serve as trusted advisors to customers, prospects, and partners by properly positioning the right GitLab solution(s) based on customers’ or prospects’ expressed needs and/or challenges.
 
 Note: This GitLab product training and certification program is different from resources like the ones below that focus on how to *use GitLab* (though we encourage field team members to take these as well)!
-- [GitLab Certifications](/learn/certifications/public/)
+- [GitLab Certifications](https://about.gitlab.com/learn/certifications/public/)
 - [GitLab Technical Certifications](/handbook/customer-success/professional-services-engineering/gitlab-technical-certifications/)
 
 ## Architecture and Approach
@@ -48,7 +48,7 @@ Lightweight role-based product training learning paths (one for Sales roles and 
 
 New team members will earn their GitLab product certification after completing the above learning path and scoring 80% or higher on the appropriate role-based product knowledge assessment.
 
-Because GitLab launches a new release [every month](https://about.gitlab.com/handbook/engineering/releases/), role-based product knowledge learning objectives, assessments, and learning paths will be refreshed on a regular cadence (every six months) by the Use Case Activation, Product Marketing, and Field Enablement teams. Likewise, field team members must be recertified every six months (in early Q1 and again in early Q3). To be recertified, field team members must score 80% or higher on the appropriate role-based product knowledge assessment. If a team member scores less than 80%, they must complete the appropriate role-based product training learning path and will then have a chance to retake the knowledge assessment until they score 80% or higher. GitLab partner certifications will leverage the same training and assessment content (details TBD).
+Because GitLab launches a new release [every month](/handbook/engineering/releases/), role-based product knowledge learning objectives, assessments, and learning paths will be refreshed on a regular cadence (every six months) by the Use Case Activation, Product Marketing, and Field Enablement teams. Likewise, field team members must be recertified every six months (in early Q1 and again in early Q3). To be recertified, field team members must score 80% or higher on the appropriate role-based product knowledge assessment. If a team member scores less than 80%, they must complete the appropriate role-based product training learning path and will then have a chance to retake the knowledge assessment until they score 80% or higher. GitLab partner certifications will leverage the same training and assessment content (details TBD).
 
 Current product knowledge assessments:
 - [Q3FY21 GitLab Product Knowledge Assessment for Sales roles](https://forms.gle/pWvmdo8Sqo9bTaui7)

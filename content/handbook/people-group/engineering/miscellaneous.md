@@ -16,8 +16,11 @@ Once/day we run a pipeline that syncs the the following fields for all team memb
 - `job_title`, person's current job title.
 - `reports_to`, the `slug` reference of the team members manager team page entry.
 - `gitlab` the `customGitLabUsername` value from Workday.
+- `public` whether or not the team member has selected having their information exported or not.
 
 This means that if team members edit that field in the file, this will result in the sync overwriting when it runs again. The reason for this is that we consider Workday as the single source of truth for this data. Thus team members and managers will need to make adjustments in Workday first and this will be automatically propagated in the team page entry.
+
+Team members can edit their export preferences at any time by following [this job aid](https://docs.google.com/document/d/16_G0jQEjV3f08rGZ65g6RHTCSX5IfFalo9ZUdLEqH1s), which will reflect their export preferences the next time the sync runs.
 
 ### Diagram
 
@@ -70,18 +73,17 @@ eg. for Canada Corp, use `@gitlab-com/entities/canada-corp`.
 
 On the first day of each month, we populate a spreadsheet including information for team members who have been at GitLab for more than 3 months. The spreadsheet is used by engineering to plan for on-call availability.
 
-Synced fields are sourced from Workday and the team file.
+Synced fields are sourced from Workday.
 
 - Name
 - Job title
+- Start Date
 - Division
 - Department
-- Subdepartment
 - Role
-- City
-- Country
-- State/province
 - Weekend availability
+- Email
+- Manager
 
 ## Weekly New hires
 

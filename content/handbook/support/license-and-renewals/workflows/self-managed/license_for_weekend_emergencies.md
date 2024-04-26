@@ -1,25 +1,28 @@
 ---
 
-title: Weekend Emergencies - License Request
-description: "Support process for weekend license emergencies"
+title: Weekend Emergencies - Self-Managed License Request
+description: "Support process for Self-managed weekend license emergencies"
 category: GitLab Self-Managed licenses
 ---
 
 ## Overview
 
 There are times when a customer submits an emergency support request for a new
-license to replace their expired one immediately. This is problematic when the
-on-call Support Engineer does not have access to CustomersDot.
+license to replace their expired one immediately. But on-call Support Engineers
+do not usually have access to CustomersDot, and cannot manually generate licenses.
 
-This workflow describes the steps to be followed by anyone in Support,
+This workflow describes steps that can be followed by anyone in Support,
 regardless of whether they have CustomersDot access, to generate a short-term
-temporary Ultimate license to de-escalate a **weekend** emergency.
+temporary Ultimate Trial license to de-escalate a **weekend** emergency.
+
+**NOTE:** This workflow is applicable even if the customer has previously received a
+[Sales-generated temporary extension](/handbook/support/license-and-renewals/workflows/self-managed/trials/#how-to-extend-an-expired-or-soon-to-expire-license).
 
 This workflow does not cover SaaS Subscription Emergencies, see [Customer Emergencies Workflow - SaaS License Emergencies](/handbook/support/workflows/customer_emergencies_workflows#saas-subscription-emergencies).
 
 ## Scope
 
-License requests for a customer with a **paid** plan, where the license's "grace period" (14 days after expiration) ended within the last 3 days from the current emergency's date.
+License requests for a Self-managed customer with a **paid** plan, where the license's "grace period" (14 days after expiration) ended within the last 3 days from the current emergency's date.
 
 ## Out of Scope
 
@@ -38,18 +41,13 @@ License requests for a customer with a **paid** plan, where the license's "grace
     - The license page from Admin Area -> License (in newer versions, may say subscription)
 1. Add the screenshots to the ticket.
 
-### Step 2: Get acknowledgement of trial susbscription exclusions
-
-1. In the ticket, apply the `Trial Subscription - Exclusions Sign Off` macro and send the generated message to the customer.
-1. Do not proceed further until the customer has provided a **written** response confirming they understand the trial subscription exclusions.
-
-### Step 3: Generate the trial license
+### Step 2: Generate the trial license
 
 1. Go to the Mechanizer ZenDesk App, from the ticket in the right side bar.
 1. Enter your username and the user count for the license based on information from the screenshot.
 1. Enter the email address of the person who opened the ticket.
-1. The tool will generate and email to the customer a 5-day trial license for the given user count.
-1. Put a comment in the `#support_licensing-subscription` Slack channel to let the team know that an emergency license was generated with the ticket url.
+1. The tool generates and emails to the customer a `10-day Trial GitLab License` for the given user count.
+1. Post a comment in the `#support_licensing-subscription` Slack channel, with the ticket url, to let the team know that an emergency license was generated.
 
 ### Considerations
 

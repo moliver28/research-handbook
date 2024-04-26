@@ -1,6 +1,6 @@
 ---
 title: "Simplify Groups & Projects Working Group"
-description: "Learn about Gitlab Simplify Groups & Projects Working Group business goals, problems to solve and more."
+description: "Learn about GitLab Simplify Groups & Projects Working Group business goals, problems to solve and more."
 ---
 
 ## Attributes

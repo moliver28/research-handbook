@@ -133,7 +133,7 @@ The Manager of Inbound Marketing reports to the Senior Director of Inbound Marke
 - Define, manage, and implement our overall organic search strategy together with Inbound Marketing team.
 - Create strategies and implement tests for conversion rate optimization (CRO) projects.
 - Lead effort to create standardized marketing reporting and dashboards, presenting performance to the marketing department as well as stakeholders throughout the company.
-- [Leadership at GitLab](/handbook/company/team/structure/#management-group)
+- [Leadership at GitLab](/handbook/company/structure/#management-group)
 
 ### Requirements
 
@@ -161,7 +161,7 @@ The Senior Manager of Inbound Marketing role expands on the Manager of Inbound M
 - Build and implement Inbound Marketing strategy within organization to drive full funnel of customer acquisition, retention, and upsell.
 - Define, manage, and implement our overall organic search strategy together with Inbound Marketing team.
 - Create strategies and implement tests for conversion rate optimization (CRO) projects.
-- [Leadership at GitLab](/handbook/company/team/structure/#management-group)
+- [Leadership at GitLab](/handbook/company/structure/#management-group)
 
 ### Requirements
 
@@ -183,7 +183,7 @@ The Director of Inbound Marketing manages the Content Marketing, Search Marketin
 - Coach their teams to work within the [GitLab communication guidelines](/handbook/communication/) and lead by example.
 - Directly Responsible Individual (DRI) for GitLab's Marketing website and related properties
 - Create standardized marketing reporting and dashboards, presenting performance to the marketing department as well as stakeholders throughout the company.
-- [Director Level Leadership at GitLab](/handbook/company/team/structure/#director-group)
+- [Director Level Leadership at GitLab](/handbook/company/structure/#director-group)
 
 ### Requirements
 
@@ -203,7 +203,7 @@ The Senior Director of Inbound Marketing role expands on the Director of Inbound
 - Establishes quarterly OKRs for ensuring the performance and results of one or more teams
 - Develops and executes department strategy to achieve key OKRs
 - Ambitiously define roles for, grow and hire the teams for what is needed from the business in the short term and needed in the future
-- [Senior Director Level Leadership at GitLab](/handbook/company/team/structure/#senior-director)
+- [Senior Director Level Leadership at GitLab](/handbook/company/structure/#senior-director)
 
 ### Requirements
 

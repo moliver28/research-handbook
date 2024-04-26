@@ -5,10 +5,10 @@ description: "Tips on how to prepare for your interview - Infrastructure"
 
 ## Most common open roles in Infrastructure
 
-- [Backend Engineer]({{< ref "/job-families/engineering/infrastructure/backend-engineer" >}})
-- [Site Reliability Engineer]({{< ref "/job-families/engineering/infrastructure/site-reliability-engineer" >}})
-- [Database Reliability Engineer]({{< ref "/job-families/engineering/infrastructure/database-reliability-engineer" >}})
-- [Engineering Manager]({{< ref "/job-families/engineering/infrastructure/engineering-management" >}})
+- [Backend Engineer](/job-families/engineering/infrastructure/backend-engineer)
+- [Site Reliability Engineer](/job-families/engineering/infrastructure/site-reliability-engineer)
+- [Database Reliability Engineer](/job-families/engineering/infrastructure/database-reliability-engineer)
+- [Engineering Manager](/job-families/engineering/infrastructure/engineering-management)
 
 ## Tips on how to prepare for Infrastructure interviews
 
@@ -20,12 +20,12 @@ When applying for roles at GitLab, make sure to upload the resume that will high
 
 If you choose to, you can learn even more about the infrastructure department and it’s various subdivisions in the handbook. Group pages offer a breakdown on teams Mission, Targets, Team Members and Approach to Work.
 
-[Infrastructure at GitLab](https://about.gitlab.com/handbook/engineering/infrastructure/)
+[Infrastructure at GitLab](/handbook/engineering/infrastructure/)
 
-- [Reliability Engineering](https://about.gitlab.com/handbook/engineering/infrastructure/team/reliability/)
-- [Delivery Group](https://about.gitlab.com/handbook/engineering/infrastructure/team/delivery/): [Orchestration](https://about.gitlab.com/handbook/engineering/infrastructure/team/delivery/#deliveryorchestration) and [System](https://about.gitlab.com/handbook/engineering/infrastructure/team/delivery/#deliverysystem)
-- [Scalability Group](https://about.gitlab.com/handbook/engineering/infrastructure/team/scalability/): [Frameworks](https://about.gitlab.com/handbook/engineering/infrastructure/team/scalability/frameworks.html) and [Projections](https://about.gitlab.com/handbook/engineering/infrastructure/team/scalability/projections.html)
-- [Dedicated Group](https://about.gitlab.com/handbook/engineering/infrastructure/team/gitlab-dedicated/): Environment Automation, US Public Sector Services and Switchboard
+- [Reliability Engineering](/handbook/engineering/infrastructure/team/reliability/)
+- [Delivery Group](/handbook/engineering/infrastructure/team/delivery/): [Orchestration](/handbook/engineering/infrastructure/team/delivery/#deliveryorchestration) and [System](/handbook/engineering/infrastructure/team/delivery/#deliverysystem)
+- [Scalability Group](/handbook/engineering/infrastructure/team/scalability/): [Frameworks](/handbook/engineering/infrastructure/team/scalability/frameworks.html) and [Projections](/handbook/engineering/infrastructure/team/scalability/projections.html)
+- [Dedicated Group](/handbook/engineering/infrastructure/team/gitlab-dedicated/): Environment Automation, US Public Sector Services and Switchboard
 
 A well-written resume or a detailed LinkedIn profile will increase your chances to be selected for this role. Read the requirements carefully and make sure that some of those specific areas are outlined in your resume/LinkedIn profile. In Infrastructure Engineering, we especially pay attention to your experience/knowledge of:
 
@@ -44,9 +44,9 @@ Now it's time to get excited! Here are some links that might help you understand
 - [Values]({{< ref "values" >}})
 - [GitLab Company Culture](/handbook/company/culture/)
 - [Informal Communication in an all-remote environment](/handbook/company/culture/all-remote/informal-communication/)
-- [Incident Management](https://about.gitlab.com/handbook/engineering/infrastructure/incident-management/)
-- [Coding at Scale](https://about.gitlab.com/handbook/engineering/infrastructure/coding-at-scale/)
-- [Infrastructure careers and internships](https://about.gitlab.com/handbook/engineering/infrastructure/career/)
+- [Incident Management](/handbook/engineering/infrastructure/incident-management/)
+- [Coding at Scale](/handbook/engineering/infrastructure/team/scalability/#regarding-coding-at-scale)
+- [Infrastructure careers and internships](/handbook/engineering/infrastructure/career/)
 
 ### **2. 30-Minute Screening call with a Recruiter**
 
@@ -65,11 +65,11 @@ The technical interview will require a GitLab account, if you are not yet famili
 
 While not necessary for the interview, the following links will help you to understand a bit more about the responsibilities of the Infrastructure team:
 
-- [Incident Management](https://about.gitlab.com/handbook/engineering/infrastructure/incident-management/)
-- [Change Management](https://about.gitlab.com/handbook/engineering/infrastructure/change-management/)
-- [Production Architecture](https://about.gitlab.com/handbook/engineering/infrastructure/production/architecture/)
+- [Incident Management](/handbook/engineering/infrastructure/incident-management/)
+- [Change Management](/handbook/engineering/infrastructure/change-management/)
+- [Production Architecture](/handbook/engineering/infrastructure/production/architecture/)
 - [Infrastructure Runbooks](https://gitlab.com/gitlab-com/runbooks)
-- [Production Readiness](https://about.gitlab.com/handbook/engineering/infrastructure/production/readiness/)
+- [Production Readiness](/handbook/engineering/infrastructure/production/readiness/)
 - [Open and closed incidents for GitLab.com](https://gitlab.com/gitlab-com/gl-infra/production/-/issues/?sort=updated_desc&state=all&label_name%5B%5D=incident&first_page_size=20)
 
 To help you understand more about the team you are interviewing with, we share information about your interviewer (including their GitLab profile) ahead of each team interview via Guide.

@@ -5,39 +5,46 @@ title: "Open Source Growth Strategy"
 
 ## Strategy
 
-We will be executing in 4 key areas in support of the company's broader [dual-flywheels](/company/strategy/#dual-flywheels) strategy to attain more contributions. The 4 key areas together are the building blocks of our contributor & contribution 10x acceleration strategy.
+We will be executing in 5 key areas in support of the company's broader [dual-flywheels](/handbook/company/strategy/#dual-flywheels) strategy to attain more contributions. The 5 key areas together are the building blocks of our contributor & contribution 10x acceleration strategy.
 
 ```mermaid
 flowchart LR
   subgraph moreContributions["More Contributions"]
     contributorIncrease["Contributor Increase"]
     contributionIncrease["Contribution Increase"]
+    bothIncrease["Contributor & Contribution Increase"]
     increaseValue("Increase Contribution Value")
-    improveVelocity("Improve Contribution Velocity")
+    improveJourney("Improve Contributor Journey")
+    fosterDiversity("Foster Diversity, Equity, and Inclusion")
     scaleCommunity("Scale the Community")
     expandOutreach("Expand Outreach")
-    scaleCommunity-->improveVelocity
+    scaleCommunity-->improveJourney
     scaleCommunity-->increaseValue
+    scaleCommunity-->fosterDiversity
     expandOutreach-->scaleCommunity
     increaseValue-->contributionIncrease
-    improveVelocity-->contributorIncrease
+    improveJourney-->contributorIncrease
+    fosterDiversity-->bothIncrease
   end
   style moreContributions fill:#FFF, stroke:#9370DB, stroke-dasharray: 5 5
   style contributionIncrease fill:#9370DB,stroke:#9370DB,stroke-width:10px
   style contributorIncrease fill:#9370DB,stroke:#9370DB,stroke-width:10px
-  style improveVelocity color:#6b4fbb, stroke:#9370DB
+  style bothIncrease fill:#9370DB,stroke:#9370DB,stroke-width:10px
+  style improveJourney color:#6b4fbb, stroke:#9370DB
   style increaseValue color:#6b4fbb, stroke:#9370DB
+  style fosterDiversity color:#6b4fbb, stroke:#9370DB
   style expandOutreach color:#6b4fbb, stroke:#9370DB
   style scaleCommunity color:#6b4fbb, stroke:#9370DB
-  click improveVelocity "./#improve-contribution-velocity" _self
+  click improveJourney "./#improve-contributor-journey" _self
   click increaseValue "./#increase-contribution-value" _self
+  click fosterDiversity "./#foster-diversity-equity-and-inclusion" _self
   click expandOutreach "./#expand-outreach" _self
   click scaleCommunity "./#scale-the-community" _self
  ```
 
-### Improve Contribution Velocity
+### Improve Contributor Journey
 
-Provide an outstanding and efficient contributor experience, from onboarding materials to final merge. Improve Contributor Journey, making it easier and more efficient to contribute. Gather feedback from wider community contributors and product teams on contribution friction.
+Provide an outstanding, highly efficient and fast contributor experience, from onboarding to getting a change merged. One of the tactics is to reduce contribution stumbling blocks to make the contributor journey more efficient. These stumbling blocks will be identified through gathering feedback from wider community contributors, product teams and GitLab Team Members on contribution friction.
 
 #### Reduce Open Community MR Age
 
@@ -55,11 +62,11 @@ Provide an outstanding and efficient contributor experience, from onboarding mat
 
 * **Why:** Provide fast and efficient contributor experience via our tooling. Our contributor tooling needs to be optimized for contributor productivity
 * **Epic:** <https://gitlab.com/groups/gitlab-com/quality/-/epics/2>
-* **DRI:** [Engineering Productivity team](/handbook/engineering/quality/engineering-productivity/)
+* **DRI:** [Engineering Productivity team](/handbook/engineering/infrastructure/engineering-productivity/)
 
 #### Product groups focus
 
-* **Why:** Contribution submissions, backlog, and technology stack vary amongst all [product groups](/company/team/structure/#product-groups). Providing a healthy community backlog alignment & establishing a common best practice outreach for all product groups.
+* **Why:** Contribution submissions, backlog, and technology stack vary amongst all [product groups](/handbook/company/structure/#product-groups). Providing a healthy community backlog alignment & establishing a common best practice outreach for all product groups.
 * **Epic:** <https://gitlab.com/groups/gitlab-org/-/epics/9074>
 * **DRI:** [Product Operations](/handbook/product/product-operations/), [Developer Relations team](/handbook/marketing/developer-relations/) & [Contributor Success team](/handbook/marketing/developer-relations/contributor-success/)
 
@@ -96,6 +103,35 @@ Incentivize, attract and retain contributors by providing a compelling value and
 * **Why:** In Open Source Projects, the contributors’ motivation in addition to solving a bug or adding a missing feature is to get experience and build their CV for career advancement.
 * **Epic:** <https://gitlab.com/groups/gitlab-org/-/epics/9077>
 * **DRI:** [Contributor Success team](/handbook/marketing/developer-relations/contributor-success/)
+
+### Foster Diversity, Equity, and Inclusion
+
+Center diversity, equity, and inclusion within our open source community relations and our wider community of contributors. Reach larger audiences of top contributors and offer more equitable opportunities to contribute.
+
+#### Align with open source community DEI initiatives
+
+* **Why:** Aligning with open source communities practicing DEI initiatives will offer GitLab more ideas on reaching new contributors and signal our commitment to DEI to potential contributors.
+* **DRI:** [Developer Relations team](/handbook/marketing/developer-relations/) & [Contributor Success team](/handbook/marketing/developer-relations/contributor-success/)
+
+#### Improve first-time contributor inclusion
+
+* **Why:** Improving the newcomer experience to GitLab includes more contributors at different experience levels. A better first-time experience for a contributor can improve chances of return contributions.
+* **DRI:** [Contributor Success team](/handbook/marketing/developer-relations/contributor-success/)
+
+#### Track internal DEI group participation
+
+* **Why:** By tracking GitLab participation in DEI groups and initiatives, we can increase our team’s awareness on diversity, equity and inclusion best practices. We can also reach more potential contributors at external groups.
+* **DRI:** [Developer Relations team](/handbook/marketing/developer-relations/)
+
+#### Incentivize contributors at qualifying events
+
+* **Why:** Offering incentives for contributors at qualifying events can increase potential first-time contributors from new audiences.
+* **DRI:** [Developer Relations team](/handbook/marketing/developer-relations/) & [Diversity, Inclusion & Belonging team](/handbook/company/culture/inclusion/)
+
+#### Establish contributor resource groups
+
+* **Why:** With resource groups for contributors we can offer mentoring and coaching opportunities for our wider community. This can incentivize more community members and grow our contributors' skillsets.
+* **DRI:** [Developer Relations team](/handbook/marketing/developer-relations/) & [Diversity, Inclusion & Belonging team](/handbook/company/culture/inclusion/)
 
 ### Expand Outreach
 

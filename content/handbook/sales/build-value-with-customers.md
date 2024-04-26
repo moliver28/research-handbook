@@ -47,7 +47,7 @@ Goal for every conversation with a customer:
   - A workshop is a great way to *give value* to our prospect and have a conversation in context about GitLab.  Even if the prospect does not move forward with GitLab, they should always be much better off for having done the workshop. This can be a workshop of any kind as long as a) the key people at the account are learning about the full capability of GitLab in their context and b) they are learning hands-on with the product (not just in slides).  When the customer has the right people in one place and working hands-on to see what's possible, GitLab almost always moves to the next stage of the adoption or growth process with the customer.  The product is an incredible fit, they simply need to see it live and in their context.  A workshop is much more effective than a "trial" opportunity as we can greatly accelerate both the time to value for the customer and the time to understanding GitLab in their own unique environment.
 
 Sales Motion and Sequence:
-1. **Initial conversations:** In an early conversation when a customer is still trying to learn about GitLab, ***agree to a workshop*** with decision maker and involved team members to learn about end-to-end devops in a hands-on workshop to see what would be possible in their environment and exit with a working example to evaluate and better understand DevOps at 5x speed and better security and quality at the same time.
+1. **Initial conversations:** In an early conversation when a customer is still trying to learn about GitLab, ***agree to a workshop*** with decision maker and involved team members to learn about end-to-end DevOps in a hands-on workshop to see what would be possible in their environment and exit with a working example to evaluate and better understand DevOps at 5x speed and better security and quality at the same time.
    1. DELIVER: DevOps Best Practices workshop
    1. Give customer a complete understanding of how their own company could be successful with end-to-end DevOps and GitLab in their own environment
    1. Hands-on setup of GitLab in their own environment => This is now the PoC deployment in place and running
@@ -64,7 +64,7 @@ Sales Motion and Sequence:
    2. Set up shared runners for the customer during the workshop every time.  Ensure this is in place before completing the workshop
    3. Schedule CI training for the broader team at the customer
    - On completion: Expand subscription user base as customer gets broader value from use of CI without having to move up in tier
-1. **Department expansion conversations:** When a customer has great success with GitLab in part of the company but other departments/organizations have not yet adopted: ***agree to a workshop*** with the new organization to save them time.  In a 4 hour workshop, that new organization can have developers, devops managers, integration teams, etc. all emerge with:
+1. **Department expansion conversations:** When a customer has great success with GitLab in part of the company but other departments/organizations have not yet adopted: ***agree to a workshop*** with the new organization to save them time.  In a 4 hour workshop, that new organization can have developers, DevOps managers, integration teams, etc. all emerge with:
    1. A complete understanding of how their own company has been successful with end-to-end DevOps and GitLab in their own environment
    1. A working example to evaluate real development in their own environment
    1. A framework to measure success and report back on their real-world experience

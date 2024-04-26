@@ -1,0 +1,37 @@
+{{- /* Get params. */}}
+{{ $usernames := slice }}
+{{ $members := slice }}
+{{ if .IsNamedParams }}
+  {{- with (.Get "username") }}
+    {{- $usernames = (slice .) }}
+  {{- end }}
+{{- else }}
+  {{if gt (len .Params) 0 }}
+    {{- $usernames = .Params }}
+  {{- else }}
+    {{- errorf "The %q shortcode requires at least single positional argument for members gitlab username."}}
+  {{- end }}
+{{- end }}
+
+{{- range $usernames }}
+  {{ $members = append (where site.Data.public.team "gitlab" "eq" . ) $members }}
+{{- end }}
+
+{{- if gt (len $members) 0 }}
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Role</th>
+    </tr>
+  </thead>
+  <tbody>
+    {{- range $members }}
+    <tr>
+      <td><span  style="white-space: nowrap;">{{partial "member/with-team-link" . }}</span></td>
+      <td>{{ .role | markdownify }}</td>
+    </tr>
+    {{- end }}
+  </tbody>
+</table>
+{{- end -}}

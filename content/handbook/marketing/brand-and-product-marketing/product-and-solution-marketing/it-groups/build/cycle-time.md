@@ -46,20 +46,20 @@ Faster time to market and shorter cycle times are a major challenge that is face
    1. Number of engineer **hours spent on new features versus** the integration and maintenance of toolchain
 
 1. How does GitLab help solve the problem?
-   1. **Integrated project management, SCM and robust automation** enable development teams to rapidly move from issue to code to test.   GitLab’s CI/CD enables teams to rapidly test each of their changes and then move those changes into testing environments using containers and Kubernetes.  
+   1. **Integrated project management, SCM and robust automation** enable development teams to rapidly move from issue to code to test.   GitLab’s CI/CD enables teams to rapidly test each of their changes and then move those changes into testing environments using containers and Kubernetes.
    1. **Integrated collaboration and built-in workflow between teams**
    1. **Single application for the entire SDLC** - no need to integrate 9+ tool categories
 
 1. Why are we better than the competition?
    1. **Only GitLab is a complete DevOps platform, delivered as a single application that enables teams to collaborate, share and deliver software.**
    1. GitLab has 2/3 market share in the self-managed Git market
-   1. GitLab is not only the industry-leading CI solution (per Forrester), but our CI is closely coupled to how the project management, source code management, testing,  
+   1. GitLab is not only the industry-leading CI solution (per Forrester), but our CI is closely coupled to how the project management, source code management, testing,
 
 1. What are the proof points that prove this?
    1. Customer stories/case studies
       1. [Ticketmaster - accelerated to weekly releases](https://about.gitlab.com/blog/2017/06/07/continuous-integration-ticketmaster/)
-      1. [26x faster DevOps cycle at Axway](/customers/axway/)
-      1. [Paessler AG switched from Jenkins to GitLab and ramped up to 4x more releases](/customers/paessler/)
+      1. [26x faster DevOps cycle at Axway](https://about.gitlab.com/customers/axway/)
+      1. [Paessler AG switched from Jenkins to GitLab and ramped up to 4x more releases](https://about.gitlab.com/customers/paessler/)
 
    1. Analyst reports
       1. Forrester has evaluated GitLab as a Leader in Continuous Integration in The Forrester Wave™: Continuous Integration Tools, Q3 2017 report.

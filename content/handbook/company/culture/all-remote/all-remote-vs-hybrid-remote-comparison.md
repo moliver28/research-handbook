@@ -59,7 +59,7 @@ For deeper dives on this topic, read our guides below.
 | Eclectic mix of company-wide [in-person gatherings]({{< ref "./in-person" >}}) (vs. congregating at a standard office) |            Yes             |                                         No |
 | Hearing about watercooler chitchat and perpetual cubical drop-ins from your in-office colleagues |             No             |                                        Yes |
 
-***Learn more through [Life at GitLab]({{< ref "culture#life-at-gitlab" >}}) and our [Out of the Office]({{< ref "./out-of-the-office" >}}) report. If this page resonates with you, visit GitLab's [Career Opportunities](/jobs/).***
+***Learn more through [Life at GitLab]({{< ref "culture#life-at-gitlab" >}}) and our [Out of the Office]({{< ref "./out-of-the-office" >}}) report. If this page resonates with you, visit GitLab's [Career Opportunities](https://about.gitlab.com/jobs/).***
 
 ## Assessing the remote workplace experience
 

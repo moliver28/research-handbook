@@ -47,7 +47,7 @@ If you have questions as you work your way through this checklist please ask the
 
 ## Becoming a GitLab Manager Issue Retrospective
 
-An important task is to create a retrospective thread within the Becoming a GitLab Manager issue, so that the team member can log any questions, comments, proposals and more about their issue. Retrospectives are used in many ways at GitLab, like after a GitLab product [release]({{< ref "communication#release-retrospectives-and-kickoffs" >}}) based on the Product [retrospective workflow](https://about.gitlab.com/handbook/engineering/workflow/#retrospective). For the Becoming a GitLab Manager issue, simply comment in the issue, starting a thread titled **Retro thread** or **Retrospective**. Feel free to please ask any questions in the [#managers](https://gitlab.slack.com/messages/C5Z55R5J5/details/) Slack channel.
+An important task is to create a retrospective thread within the Becoming a GitLab Manager issue, so that the team member can log any questions, comments, proposals and more about their issue. Retrospectives are used in many ways at GitLab, like after a GitLab product [release]({{< ref "communication#release-retrospectives-and-kickoffs" >}}) based on the Product [retrospective workflow](/handbook/engineering/workflow/#retrospective). For the Becoming a GitLab Manager issue, simply comment in the issue, starting a thread titled **Retro thread** or **Retrospective**. Feel free to please ask any questions in the [#managers](https://gitlab.slack.com/messages/C5Z55R5J5/details/) Slack channel.
 
 #### Coaching remote work practices
 
@@ -61,7 +61,7 @@ Take a moment to reflect on where you are in this transition. Then use this [goo
 
 #### Participate in the Elevate program
 
-[Elevate]({{< ref "elevate" >}}) equips new and existing managers with a set of skills to managing all-remote teams. The program covers foundational management practices. One of the key benefits of the program is networking and social learning. You will learn from other managers and build a sense of community across people leaders at GitLab.
+[Elevate]({{< ref "elevate-programs" >}}) equips new and existing managers with a set of skills to managing all-remote teams. The program covers foundational management practices. One of the key benefits of the program is networking and social learning. You will learn from other managers and build a sense of community across people leaders at GitLab.
 
 ### Transitioning to a Manager Video
 

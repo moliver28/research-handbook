@@ -135,14 +135,14 @@ Outreach is able to sync some custom information about these meetings into event
 
 #### Outreach Call Disposition
 
-XDRs need to choose a call disposition after calling a prospect to note the outcome of the call. This outcome will be synced over to SFDC. "CC" is an abreviation for Correct Contact.
+XDRs need to choose a call disposition after calling a prospect to note the outcome of the call. This outcome will be synced over to SFDC. "CC" is an abreviation for Correct Contact. Make sure to always add information gathered into the `Call Notes` box as this will also sync over to SFDC.
 
 | Outreach.io Call Disposition | Notes|
 |---|---|
 | `CC:Answered: Info Gathered: Potential Opp` | Some qualification questions were answered but more follow up is needed before an IQM is set |
 | `CC: Answered: Info Gathered: Not Opp yet` | Some qualification questions were answered but no current use case or not the right time |
 |`CC: Answered: Not Interested` | Have stated on the call they are not interested |
-|`CC: Answered: Personal Use` | They are using Gitlab for personal reasons |
+|`CC: Answered: Personal Use` | They are using GitLab for personal reasons |
 |`CC: Answered: Asked for Call Back` | Caught them at a bad moment and they asked for a call back OR they are still evaluating tool, call back in a few weeks |
 |`CC: Answered: Using Competition` | They are using competition |
 |`Correct Contact: Left Message`| You were able to reach the voicemail for the correct contact and you left a message on their machine or with their Personal Assistant |
@@ -323,7 +323,7 @@ Firstly, we recommend all managers complete this [Outreach University training f
 On these reports please look for the following information to ensure your teams are performing well. You cann filter by your team to deep dive. If you would like a full breakdown on what all the metrics mean- please see [here](https://support.outreach.io/hc/en-us/articles/1260801927169-Outreach-Insights-Metrics-Definitions). 
 
 **Booked meetings vs end of month forecast** - this forcecast is based on your team members activity. Make note of the conversion rates, please find the average for you team and note those who are above average. Also make note of the breakdown of job titles your rep is meeting with- to do this , click on their number of "Prospects Contacted".
-**Response time** - While we have a culture of work when best suits you at Gitlab, there is an expectation to keep response times fast as this can directly influence conversion rates- therefore anything over 8 hours will need to coached. Please note that you can break down response time by job titles but clicking into the hours listed by individual rep. 
+**Response time** - While we have a culture of work when best suits you at GitLab, there is an expectation to keep response times fast as this can directly influence conversion rates- therefore anything over 8 hours will need to coached. Please note that you can break down response time by job titles but clicking into the hours listed by individual rep. 
 **Email Sentiment** - This is a good tool for coaching reps, you can drill down into the objections to coach through responses. You can also highlight postive replies to the wider team. 
 
 ### Activity:

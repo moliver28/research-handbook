@@ -4,8 +4,10 @@ title: "Community Programs Workflows"
 description: "Review various workflows associated with the GitLab for Education, GitLab for Open Source, and GitLab for Startups programs"
 ---
 
+## About
+
 This handbook page describes various workflows associated with [GitLab's community programs](/handbook/marketing/developer-relations/community-programs/), including GitLab for Education, GitLab for Open Source, and GitLab for Startups.
-By maintaining this page, we aim to establish more transparency into our workflows so GitLab team members can integrate with them
+By maintaining this page, we aim to establish more transparency into our workflows so GitLab team members can integrate with them.
 
 ## Automated applications workflow overview
 
@@ -16,13 +18,13 @@ The Community Programs team processes applications to [GitLab's community progra
 
 | Stage | Description |
 | ------ | ------ |
-| 0. [Application](/handbook/marketing/developer-relations/community-programs/automated-community-programs/#application) | Applicant completes an application form and submits it for eligibility verification. |
-| 1. [Verification](/handbook/marketing/developer-relations/community-programs/automated-community-programs/#verification) | SheerID and/or Commuity Programs team verifies applicant's eligibility. |
-| 2. [Booking](/handbook/marketing/developer-relations/community-programs/automated-community-programs/#booking) | Successfully verified applicants receive an email with instructions for activating complimentary GitLab licenses. Applicants receive coupon codes and enter those codes during checkout via a program-specific checkout page in the GitLab Customers Portal. |
-| 3. [Provisioning](/handbook/marketing/developer-relations/community-programs/automated-community-programs/#provisioning) | Subscription licenses are provisioned through the web direct process on the GitLab Customers Portal. |
-| 4. [Compliance](/handbook/marketing/developer-relations/community-programs/automated-community-programs/#compliance) | (Stage handled by Sales-Support and Billing Ops teams. |
-| 5. [Renewal](/handbook/marketing/developer-relations/community-programs/automated-community-programs/#renewal) | Program members receive notifications when their subscriptions are due to expire. They also receive insturctions for renewing those subscriptions. |
-| 6. [Support](/handbook/marketing/developer-relations/community-programs/automated-community-programs/#support) | Both new applicants and renewing members can seek support for issues they encounter during most stages of the application process. |
+| 0. [Application](/handbook/marketing/developer-relations/community-programs/community-programs-workflows/#application) | Applicant completes an application form and submits it for eligibility verification. |
+| 1. [Verification](/handbook/marketing/developer-relations/community-programs/community-programs-workflows/#verification) | SheerID and/or Commuity Programs team verifies applicant's eligibility. |
+| 2. [Booking](/handbook/marketing/developer-relations/community-programs/community-programs-workflows/#booking) | Successfully verified applicants receive an email with instructions for activating complimentary GitLab licenses. Applicants receive coupon codes and enter those codes during checkout via a program-specific checkout page in the GitLab Customers Portal. |
+| 3. [Provisioning](/handbook/marketing/developer-relations/community-programs/community-programs-workflows/#provisioning) | Subscription licenses are provisioned through the web direct process on the GitLab Customers Portal. |
+| 4. [Compliance](/handbook/marketing/developer-relations/community-programs/community-programs-workflows/#compliance) | (Stage handled by Sales-Support and Billing Ops teams. |
+| 5. [Renewal](/handbook/marketing/developer-relations/community-programs/community-programs-workflows/#renewal) | Program members receive notifications when their subscriptions are due to expire. They also receive insturctions for renewing those subscriptions. |
+| 6. [Support](/handbook/marketing/developer-relations/community-programs/community-programs-workflows/#support) | Both new applicants and renewing members can seek support for issues they encounter during most stages of the application process. |
 
 ### Application
 
@@ -31,21 +33,21 @@ SheerID therefore hosts and sends all communications (email and browser notifica
 SheerID also provides [customer service](https://drive.google.com/file/d/13AW0BYt4HNFzGfM6iRuMtpjZ1J8tAXyI/view?usp=sharing) specific to GitLab.
 [MySheerID](https://my.sheerid.com/) is the customer portal for the verification system.
 The portal contains details on each application form, a reporting system, and account settings.
-GitLab team members requiring access to the MySheerID portal can request an account through an [access request](/handbook/business-technology/team-member-enablement/onboarding-access-requests/access-requests/).
-
-The application to GitLab for Startups is a Marketo form.
+GitLab team members requiring access to the MySheerID portal can request an account through an [access request](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/).
 
 We review GitLab's contract with SheerID on an annual basis.
 Costs are based on the total number of verifications across all programs.
+
+The application to GitLab for Startups is [a Marketo form](/handbook/marketing/developer-relations/community-programs/community-programs-workflows/startups-program-workflows).
 
 ### Verification
 
 The verification process differs by program.
 See these handbook pages for more detail:
 
-- [GitLab for Education verification](/handbook/marketing/developer-relations/community-programs/automated-community-programs/edu-program-verification/)
-- [GitLab for Open Source verification](/handbook/marketing/developer-relations/community-programs/automated-community-programs/oss-program-verification/)
-- [GitLab for Startups verification](/handbook/marketing/developer-relations/community-programs/automated-community-programs/startups-program-verification/)
+- [GitLab for Education workflows](/handbook/marketing/developer-relations/community-programs/community-programs-workflows/edu-program-workflows)
+- [GitLab for Open Source workflows](/handbook/marketing/developer-relations/community-programs/community-programs-workflows/oss-program-verification/)
+- [GitLab for Startups workflows](/handbook/marketing/developer-relations/community-programs/community-programs-workflows/startups-program-workflows)
 
 Upon successful verification, applicants receive an email with instructions for obtaining their licenses.
 These instructions include a unique coupon code generated by the fulfillment team at GitLab (via a coupon code generator).
@@ -69,7 +71,8 @@ See GitLab's internal handbook for links to these portals.
 During the checkout process:
 
 * Applicants must enter the unique coupon codes they receive in their verification emails
-* Applicants must accept a program agreement
+* Applicants must accept a program agreement:
+
   * [GitLab for Education Program Agreement](/handbook/legal/education-agreement/)
   * [GitLab for Open Source Agreement](/handbook/legal/opensource-agreement/)
   * GitLab for Startups Agreement is presented directly upon checkout
@@ -143,10 +146,11 @@ To do this, they use the same application forms they used when initially enrolli
 
 The success email will contain a direct link to a program-specific page for each program (Education/Open Source) in the GitLab Customers Portal.
 The program-specific pages are not available directly in the GitLab Customers Portal without the direct link.
-See Community Programs' internal handbook for direct links to these portals.
-Applicants enter their unique coupon codes during the checkout process.
+See [Community Programs' internal handbook](https://internal.gitlab.com/handbook/marketing/developer-relations-and-community/community-programs/) for direct links to these portals.
 
-### Supporting the automated application workflow
+As they did when initially applying for the program, applicants enter their unique coupon codes during the checkout process.
+
+## Supporting the automated application workflow
 
 Each step of the automated application workflow has different set of potential errors and related support workflows.
 
@@ -172,7 +176,7 @@ Below are details related to various Commuity Programs workflows.
 
 Sales team members receiving inbound requests regarding community programs should adhere to the following workflow and direct leads according to the routing table below.
 
-| If the lead is inquiring about | Then take this action|
+| If the lead is inquiring about | Then take this action |
 | ------------------------------ | --------------------- |
 | Whether they qualify for a specific program | Send the relevant [marketing or handbook page](/handbook/marketing/developer-relations/community-programs/#meet-the-programs) detailing the program's requirements |
 | How to apply for program membership | Send the relevant [marketing or application page](/handbook/marketing/developer-relations/community-programs/#meet-the-programs) with instructions and an application form |
@@ -184,12 +188,12 @@ Sales team members receiving inbound requests regarding community programs shoul
 
 ### Edit an address
 
-1. Navigate to the *Account* view in SFDC. Scroll down to the *Address Information*, *Billing Address*.
-  - Note: The *Billing Address* can also be accessed from the *Contact* view.
+1. Navigate to the **Account** view in Salesforce. Scroll down to the *Address Information*, *Billing Address*.
+  - Note: The **Billing Address** can also be accessed from the **Contact** view.
 1. Click the edit button to edit the address. Click *OK* to save the changes.
-  - Note: The address should update for the *Account*, *Contact* and *Opportunity*.
+  - Note: The address should update for the **Account**, **Contact** and **Opportunity**.
 
-### Reassign an SFDC object
+### Reassign a Salesforce object
 
 1. Click *Change* next to the object owner field and select the appropriate owner.
 
@@ -218,10 +222,10 @@ Sales team members receiving inbound requests regarding community programs shoul
 
 ### Chatter the Sales team
 
-Chatter is the primary method of communication between users and groups in SFDC. Chatter can occur at *Account* or *Opportunity* level.
-Chatter notifications for individuals can be found on the individual's home tab in SFDC.
+Chatter is the primary method of communication between users and groups in Salesforce. Chatter can occur at *Account* or *Opportunity* level.
+Chatter notifications for individuals can be found on the individual's home tab in Salesforce.
 - Sales team members (operations and account owners) will chatter Program Managers or individuals when an action is required on a record.
-- When an individual is chattered the message will appear both at the top of the object from which the chatter initiated, i.e. *Account* or *Opportunity* and it will appear in the *Chatter* tab of SFDC.
+- When an individual is chattered the message will appear both at the top of the object from which the chatter initiated, i.e. *Account* or *Opportunity* and it will appear in the *Chatter* tab of Salesforce.
 - In order to chatter someone directly you can type *@{NAME}* in the chatter window and select the name of the person or group you wish to chatter.
 - For most questions related to the EDU-OSS workflow, chatter *@Sales-Support*
 

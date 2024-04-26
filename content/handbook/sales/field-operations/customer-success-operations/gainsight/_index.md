@@ -494,7 +494,7 @@ The Gainsight integration with Snowflake is still new, so we use a Data Designer
 
 ### Explanation of redis, namespace_ids, and snowplow collection
 
-The data team does not use Snowplow as a source for the new Automated Service Ping processes. Instead, they use clones of Gitlab.com postgres and GitLab.com Redis counters.
+The data team does not use Snowplow as a source for the new Automated Service Ping processes. Instead, they use clones of GitLab.com postgres and GitLab.com Redis counters.
 
 Here are the four types of Service Ping we have:
 

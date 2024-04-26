@@ -1,19 +1,23 @@
 ---
-title: "Celebrations and Significant Life Events"
+title: "New Hires, Celebrations and Significant Life Events"
 description: "Review different ways GitLab celebrates its team members."
 ---
+
+## New Hire Swag
+
+As a new hire at GitLab, you will be getting a customized welcome package! On your date of hire you will receive an [email](https://internal.gitlab.com/handbook/people-group/people-operations/people-connect/onboarding_process/#new-hire-swag-email) to claim the package with a redemption code. Then simply enter you shipping information to have your welcome swag shipped directly to you.
 
 ## Celebrations
 
 ### GitLab Anniversary
 
-At GitLab we like to acknowledge and celebrate team member milestones and contributions.  This means that those celebrating their first, third, fifth and tenth hire-date anniversary will receive a token of acknowledgement.
+At GitLab we like to acknowledge and celebrate team member milestones and contributions. This means that those celebrating their first, third, fifth and tenth hire-date anniversary will receive a token of acknowledgement.
 
 Along with this, all celebrants regardless of length of tenure will receive a mention in the **#team-member-updates** channel which allows the greater GitLab community to share in the celebration!
 
 #### Anniversary Gifts
 
-Team members celebrating a GitLab anniversary will have the option to select a custom swag item only available to those celebrating an anniversary. Team members celebrating their one-year anniversary have the option to receive a custom GitLab Tech-Caddy. Those celebrating their three-year anniversary have the option of a branded 3-piece tumbler, pen and notebook set. And the folks celebrating their five-year anniversary have the option of a GitLab branded computer backpack.
+Team members celebrating a GitLab anniversary will have the option to select a custom swag item only available to those celebrating an anniversary. Team members celebrating their one-year anniversary have the option to receive a custom GitLab Tech-Caddy. Those celebrating their three-year anniversary have the option of a branded 3-piece tumbler, pen and notebook set. Folks celebrating their five-year anniversary have the option of a GitLab branded computer backpack. And finally, team members celebrating their tenth-year anniversary have the option of receiving a custom swag package.
 
 No action is required by team members in order to receive these gifts! If you are due an anniversary gift the People Connect team will email you at the beginning of the following month that you are celebrating your anniversary with a specific redemption link and unique code. The People Connect runs a monthly report from Workday looking back to the previous month to identify the eligible team members.
 

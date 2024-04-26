@@ -56,8 +56,8 @@ The Intermediate level in the Engineering Division is a [grade 6](/handbook/tota
 - Solve technical problems of moderate scope and complexity.
 - Craft code that meets our internal standards for style, maintainability, and best practices for a high-scale machine learning environment. Maintain and advocate for these standards through code review.
 - Confidently ship small features and improvements with minimal guidance and support from other team members. Collaborate with the team on larger projects.
-- Participate as a reviewer or [project maintainer](https://about.gitlab.com/handbook/engineering/workflow/code-review/#maintainer) in one or more [engineering projects](https://about.gitlab.com/handbook/engineering/projects/). For more information regarding timelines and exceptions, [see this page](https://about.gitlab.com/handbook/engineering/workflow/code-review/#senior-maintainers).
-- Participate in Tier 2 or Tier 3 weekday and weekend and occasional night [on-call rotations](https://about.gitlab.com/handbook/engineering/development/processes/Infra-Dev-Escalation/process.html) to assist troubleshooting product operations, security operations, and urgent engineering issues.
+- Participate as a reviewer or [project maintainer](/handbook/engineering/workflow/code-review/#maintainer) in one or more [engineering projects](/handbook/engineering/projects/). For more information regarding timelines and exceptions, [see this page](/handbook/engineering/workflow/code-review/#senior-maintainers).
+- Participate in Tier 2 or Tier 3 weekday and weekend and occasional night [on-call rotations](/handbook/engineering/development/processes/Infra-Dev-Escalation/process.html) to assist troubleshooting product operations, security operations, and urgent engineering issues.
 
 #### Requirements
 
@@ -76,7 +76,7 @@ The Intermediate level in the Engineering Division is a [grade 6](/handbook/tota
 - Share [our values](/handbook/values/), and work in accordance with those values
 - Ability to thrive in a fully remote organization
 - Ability to use GitLab
-- Comfort and familiarity with our [code review process](https://about.gitlab.com/handbook/engineering/workflow/code-review/)
+- Comfort and familiarity with our [code review process](/handbook/engineering/workflow/code-review/)
 
 ### Senior Machine Learning Engineer
 
@@ -92,8 +92,8 @@ The Senior level in the Engineering Division is a [grade 7](/handbook/total-rewa
 - Exert influence on the overall objectives and long-range goals of your team.
 - Help to define and improve our internal standards for style, maintainability, and best practices for a high-scale machine learning environment. Maintain and advocate for these standards through code review.
 - Confidently ship moderately sized features and improvements with minimal guidance and support from other team members. Collaborate with the team on larger projects.
-- Improves the [engineering projects](https://about.gitlab.com/handbook/engineering/projects/) at GitLab via [the maintainer program](https://about.gitlab.com/handbook/engineering/workflow/code-review/#how-to-become-a-project-maintainer) at own comfortable pace, while striving to become a [project maintainer](https://about.gitlab.com/handbook/engineering/workflow/code-review/#maintainer).
-- Participate in Tier 2 or Tier 3 weekday and weekend and occasional night [on-call rotations](https://about.gitlab.com/handbook/engineering/development/processes/Infra-Dev-Escalation/process.html) to assist troubleshooting product operations, security operations, and urgent engineering issues.
+- Improves the [engineering projects](/handbook/engineering/projects/) at GitLab via [the maintainer program](/handbook/engineering/workflow/code-review/#how-to-become-a-project-maintainer) at own comfortable pace, while striving to become a [project maintainer](/handbook/engineering/workflow/code-review/#maintainer).
+- Participate in Tier 2 or Tier 3 weekday and weekend and occasional night [on-call rotations](/handbook/engineering/development/processes/Infra-Dev-Escalation/process.html) to assist troubleshooting product operations, security operations, and urgent engineering issues.
 
 #### Senior Requirements
 
@@ -122,8 +122,8 @@ The Staff level in the Engineering Division is a [grade 8](/handbook/total-rewar
 - Represent GitLab and its values in public communication around broad initiatives, specific projects, and community contributions. Interact with customers and other external stakeholders as a consultant and spokesperson for the work of your team.
 - Provide mentorship for all Engineers on your team to help them grow in their technical responsibilities and remove blockers to their autonomy.
 - Confidently ship large features and improvements with minimal guidance and support from other team members. Collaborate with the team on larger projects.
-- Improves the [engineering projects](https://about.gitlab.com/handbook/engineering/projects/) at GitLab via [the maintainer program](https://about.gitlab.com/handbook/engineering/workflow/code-review/#how-to-become-a-project-maintainer) at own comfortable pace, while striving to become a [project maintainer](https://about.gitlab.com/handbook/engineering/workflow/code-review/#maintainer).
-- Participate in Tier 2 or Tier 3 weekday and weekend and occasional night [on-call rotations](https://about.gitlab.com/handbook/engineering/development/processes/Infra-Dev-Escalation/process.html) to assist troubleshooting product operations, security operations, and urgent engineering issues.
+- Improves the [engineering projects](/handbook/engineering/projects/) at GitLab via [the maintainer program](/handbook/engineering/workflow/code-review/#how-to-become-a-project-maintainer) at own comfortable pace, while striving to become a [project maintainer](/handbook/engineering/workflow/code-review/#maintainer).
+- Participate in Tier 2 or Tier 3 weekday and weekend and occasional night [on-call rotations](/handbook/engineering/development/processes/Infra-Dev-Escalation/process.html) to assist troubleshooting product operations, security operations, and urgent engineering issues.
 
 #### Staff Requirements
 
@@ -170,15 +170,15 @@ Standard [Engineering Manager requirements](/job-families/engineering/developmen
 
 Machine Learning Engineers have the following job-family performance indicators.
 
-- [Backend Unit Test Coverage](https://about.gitlab.com/handbook/engineering/development/performance-indicators/#backend-unit-test-coverage)
-- [Open MR Review Time (OMRT)](https://about.gitlab.com/handbook/engineering/development/performance-indicators/#open-mr-review-time-omrt)
-- [Open MR Age (OMA)](https://about.gitlab.com/handbook/engineering/development/performance-indicators/#open-mr-age-oma)
+- [Backend Unit Test Coverage](/handbook/engineering/development/performance-indicators/#backend-unit-test-coverage)
+- [Open MR Review Time (OMRT)](/handbook/engineering/development/performance-indicators/#open-mr-review-time-omrt)
+- [Open MR Age (OMA)](/handbook/engineering/development/performance-indicators/#open-mr-age-oma)
 
 Machine Learrning Managers have the same [engineering manager performance indicators](/job-families/engineering/development/backend/manager/#performance-indicators) as other engineering managers.
 
 ## Career Ladder
 
-For more details on the engineering career ladders, please review the [engineering career development](https://about.gitlab.com/handbook/engineering/career-development/) handbook page.
+For more details on the engineering career ladders, please review the [engineering career development](/handbook/engineering/career-development/) handbook page.
 
 ## Hiring Process
 

@@ -54,18 +54,38 @@ Once the feature is released to users, it’s important to continue to gather qu
 Goals of the Improve Phase:
 
 1. **Understand Qualitative Feedback**: To know how to improve something, it's important to understand the qualitative feedback that we're hearing from users and team members. User interviews, survey verbatims, and customer comments left within GitLab issues can all help inform teams of how well a new feature is being received.
-1. **Measure Quantitative Impact**: Qualitative data is great in helping us understand in detail the [Why, How or What of users’ behaviors](/handbook/product/ux/ux-research/problem-validation-and-methods/#descriptive-and-informative-research-methods). Going a step further and coupling it with quantitative data can help to paint the full picture of what is going on at scale. During implementation, [set up dashboards in Sisense](/handbook/business-technology/data-team/platform/sisensecdt/) to be able to review the performance and engagement of your change.
+1. **Measure Quantitative Impact**: Qualitative data is great in helping us understand in detail the [Why, How or What of users’ behaviors](/handbook/product/ux/ux-research/problem-validation-and-methods/#descriptive-and-informative-research-methods). Going a step further and coupling it with quantitative data can help to paint the full picture of what is going on at scale. During implementation, set up dashboards in Tableau to be able to review the performance and engagement of your change.
 
 Insights from the Improve phase may initiate a new round of Problem Validation or Solution Validation.
 
-### In summary you should do research when…
+### When should research be conducted?
 
 While research tends to be the most useful towards the beginning of the double diamond, it can be beneficial to conduct research at every stage along the way.
 
-There are two helpful questions to ask yourself to determine where you are in the Double Diamond:
+#### Additional considerations: Weighing confidence vs. risk
 
-- **How well do we know the problem and/or user needs?** The *less* we know about the problem or user needs, the *greater* chance we are in the problem validation phase.
-- **How confident are we that the solution we’ve designed is the right one?** The *more* confidence we have that our solution is addressing user needs or a user experience problem, the *greater* chance we are in the solution validation phase.
+When considering the level of confidence you may have on a solution or any foundational research, risk needs to also be taken into account. To help with that, let's walk through how each are defined and pose some questions that should be thought about.
+
+**Confidence** - _how confident you are that your design won't negatively impact the UX?_
+
+Some questions to ask yourself to help gauge your level of confidence:
+
+- Can you demonstrate why you have a high level of confidence? (ex: This could be the result of a Solution Validation study, looking at past related research, etc. Mainly, you'll want to identify some concrete justification vs. a gut feeling. Referring to competitor solutions as a justification can be tempting, yet risky, as it's unclear to what extent competitors conducted research themselves to inform their solution.)
+- Does your design follow the design [guidelines](https://design.gitlab.com/) and [tenets](https://handbook.gitlab.com/handbook/product/ux/product-designer/#product-design-process)? Have you reviewed the [design and UI changes checklist](https://docs.gitlab.com/ee/development/contributing/design.html#checklist)?
+- Have you conducted a [UX Scorecard](/handbook/product/ux/ux-scorecards/)? If so, what was the outcome and what was done as a result of it?
+- Why do you think your design won't result in a negative user experience?
+
+**Risk** - _what would happen if the design negatively impacted the UX?_
+
+Some questions to ask yourself to help weigh risk:
+
+- Is the design or research associated with an experience that's critical to a workflow/JTBD?
+- Is this workflow viewed as a high-traffic workflow/JTBD?
+- What would happen if our users ran into usability issues during the workflow/JTBD? (ex: How severe would that be for them?)
+- If the design went out the door and our users felt it was a negative UX, what's the likelihood the UX would be addressed in a timely manner? (ex: How feasible is it to go back and address the design issues, given the other priorities the team has planned?)
+- How much additional time would it take to run research to increase confidence? (ex: Is that a risk to the project timeline?)
+
+Obtaining answers to the above questions isn't a hard requirement, but more of a best practice when weighing confidence vs. risk in determining if research is needed on a particular topic. Note that this exercise can apply to both Problem Validation and Solution Validation.
 
 ## When you shouldn’t do UX Research
 

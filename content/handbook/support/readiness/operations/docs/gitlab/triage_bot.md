@@ -67,34 +67,7 @@ This is where you specify what to do on the items found. There are many types of
 actions you can use. For more information, see the
 [GitLab Triage repo](https://gitlab.com/gitlab-org/gitlab-triage).
 
-## How Support Ops uses triage bot
-
-At 1200  UTC everyday, we run triage-bot via the
-[Support Ops Project repo](https://gitlab.com/gitlab-com/support/support-ops).
-This utilize the
-[Support Ops triage policies](https://gitlab.com/gitlab-com/support/support-ops/support-ops-project/-/blob/master/.triage-policies.yml)
-to perform various triage actions on issues and merge requests we work out of.
-
-Generally speaking, we have rules for:
-
-- Issues
-  - Find issues missing a category label
-  - Find issues missing a priority label
-  - Find issues missing a progress label
-  - Find issues missing a milestone
-  - Find issues that missed their milestone
-  - Find closed issues with incorrect progress label
-- Merge requests
-  - Find MRs missing a category label
-  - Find MRs missing a priority label
-  - Find MRs missing a progress label
-  - Find MRs missing a milestone
-  - Find MRs that missed their milestone
-  - Find closed MRs with incorrect progress label
-  - Find merged MRs with incorrect progress label
-
 ## Useful links
 
 - [gitlab-triage gem](https://rubygems.org/gems/gitlab-triage)
 - [GitLab Triage repo](https://gitlab.com/gitlab-org/gitlab-triage)
-- [Support Ops triage policies](https://gitlab.com/gitlab-com/support/support-ops/support-ops-project/-/blob/master/.triage-policies.yml)

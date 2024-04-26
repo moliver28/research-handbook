@@ -15,7 +15,7 @@ In addition, read-mostly data in this context is typically a small dataset. We e
 
 #### Example: License data
 
-Let's introduce a canonical example: License data in GitLab. A GitLab instance may have a license attached in order to use Gitlab's enterprise features. This license data is held instance-wide, i.e. there typically only exist a few relevant records. This information is kept in a table `licenses` which is very small.
+Let's introduce a canonical example: License data in GitLab. A GitLab instance may have a license attached in order to use GitLab's enterprise features. This license data is held instance-wide, i.e. there typically only exist a few relevant records. This information is kept in a table `licenses` which is very small.
 
 We consider this read-mostly data, because it follows above outlined characteristics:
 

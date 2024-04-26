@@ -44,12 +44,12 @@ Some companies talk about being a 'Family.' We don't think that is the right per
 
 ### Time based release
 
-We have introduced a new, enhanced version of our software [every month](https://about.gitlab.com/handbook/engineering/releases/) for over nine years. A [time based release](https://about.gitlab.com/releases/) ensures that when a feature is ready, its release will not be held up by another that is not. Aligned with our value of iteration, we try to reduce the scope of each feature so that it fits in a single release.
+We have introduced a new, enhanced version of our software [every month](/handbook/engineering/releases/) for over nine years. A [time based release](https://about.gitlab.com/releases/) ensures that when a feature is ready, its release will not be held up by another that is not. Aligned with our value of iteration, we try to reduce the scope of each feature so that it fits in a single release.
 
 ### Individual innovation
 
-We empower individuals to innovate. For example, we have designated coaches who support contributors from the wider community in getting their contributions to the point where they can be merged by GitLab. We also have an [incubation department](https://about.gitlab.com/handbook/engineering/incubation/) dedicated to quickly turning ideas into viable features and products.
+We empower individuals to innovate. For example, we have designated coaches who support contributors from the wider community in getting their contributions to the point where they can be merged by GitLab. We also have an [incubation department](/handbook/engineering/incubation/) dedicated to quickly turning ideas into viable features and products.
 
 ### Dogfooding
 
-The best way to quickly improve GitLab is to use it ourselves, or [dogfood](https://about.gitlab.com/handbook/engineering/development/principles/) it, so that we have a quick feedback loop. We use our own product even when a feature is in its early stages of development. This helps us to develop empathy with users and better understand what to build next.
+The best way to quickly improve GitLab is to use it ourselves, or [dogfood](/handbook/engineering/development/principles/) it, so that we have a quick feedback loop. We use our own product even when a feature is in its early stages of development. This helps us to develop empathy with users and better understand what to build next.

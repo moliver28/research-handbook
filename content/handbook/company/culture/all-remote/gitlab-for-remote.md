@@ -81,13 +81,13 @@ destination_url: "https://youtu.be/qCDAioq3eis"
         </div>
     </div>
     <div class="col">
-        <img src="https://about.gitlab.com/images/solutions/gitlab-for-remote/issue.png" alt="Gitlab devops loop png">
+        <img src="https://about.gitlab.com/images/solutions/gitlab-for-remote/issue.png" alt="GitLab DevOps loop png">
     </div>
 </div>
 
 <div class="row my-5">
     <div class="col">
-        <img src="https://about.gitlab.com/images/solutions/gitlab-for-remote/board-drag.png" alt="Gitlab devops loop png">
+        <img src="https://about.gitlab.com/images/solutions/gitlab-for-remote/board-drag.png" alt="GitLab DevOps loop png">
     </div>
     <div class="col d-flex align-items-center">
         <div>
@@ -104,13 +104,13 @@ destination_url: "https://youtu.be/qCDAioq3eis"
         </div>
     </div>
     <div class="col">
-        <img src="https://about.gitlab.com/images/solutions/gitlab-for-remote/max.png" alt="Gitlab devops loop png">
+        <img src="https://about.gitlab.com/images/solutions/gitlab-for-remote/max.png" alt="GitLab DevOps loop png">
     </div>
 </div>
 
 <div class="row my-5">
     <div class="col">
-        <img src="https://about.gitlab.com/images/solutions/gitlab-for-remote/diff.png" alt="Gitlab devops loop png">
+        <img src="https://about.gitlab.com/images/solutions/gitlab-for-remote/diff.png" alt="GitLab DevOps loop png">
     </div>
     <div class="col d-flex align-items-center">
         <div>

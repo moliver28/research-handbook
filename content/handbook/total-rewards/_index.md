@@ -38,7 +38,6 @@ title: GitLab's Guide to Total Rewards
 | Raisha Kole | Senior Benefits Program Manager |
 | Sandra Choi | Global Compensation Partner |
 | Franz Rivera | Senior Compensation Analyst |
-| Phillip Kim | Senior Benefits Program Manager |
 
 ## Contact The Team
 

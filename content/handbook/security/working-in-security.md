@@ -24,7 +24,7 @@ Information regarding growth and development benefits available to GitLab team m
 ```mermaid
   graph LR;
   subgraph Merit Based
-    sec:s(Intern, Security Engineering)-->sec:se(Security Engineer);
+    sec:s(Intern, Product Security)-->sec:se(Security Engineer);
     sec:se(Security Engineer)-->sec:sse(Senior Security Engineer);
   end
   subgraph Based on Merit and Company Need
@@ -35,12 +35,12 @@ Information regarding growth and development benefits available to GitLab team m
     sec:sem(Manager, Security)-->sec:sms(Senior Manager, Security)
     sec:sms(Senior Manager, Security)-->sec:ds(Director of Security);
   end
-  click sec:s "{{< ref "/job-families/security/security-engineer#intern" >}}"
-  click sec:se "{{< ref "/job-families/security/security-engineer#intermediate-security-engineer" >}}";
-  click sec:sse "{{< ref "/job-families/security/security-engineer#senior-security-engineer" >}}";
-  click sec:stse "{{< ref "/job-families/security/security-engineer#staff-security-engineer" >}}";
-  click sec:pse "{{< ref "/job-families/security/security-engineer#principal-security-engineer" >}}";
-  click sec:dse "{{< ref "/job-families/security/security-engineer#distinguished-security-engineer" >}}";
+  click sec:s "/job-families/security/security-engineer#intern"
+  click sec:se "/job-families/security/security-engineer#intermediate-security-engineer";
+  click sec:sse "/job-families/security/security-engineer#senior-security-engineer";
+  click sec:stse "/job-families/security/security-engineer#staff-security-engineer";
+  click sec:pse "/job-families/security/security-engineer#principal-security-engineer";
+  click sec:dse "/job-families/security/security-engineer#distinguished-security-engineer";
   click sec:sem "{{< ref "security-leadership#security-leadership-roles-at-gitlab" >}}";
   click sec:sms "{{< ref "security-leadership#senior-manager-security" >}}";
   click sec:ds "{{< ref "security-leadership#security-leadership-roles-at-gitlab" >}}";

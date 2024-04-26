@@ -27,7 +27,7 @@ GitLab is an [all-remote](/handbook/company/culture/all-remote/) company, so the
 
 {: #goal}
 
-The goal of the CMO Shadow Program is to give current and future [leaders](/handbook/company/team/structure/) in the Marketing Team an overview of all aspects of the [company](/handbook/company/).
+The goal of the CMO Shadow Program is to give current and future [leaders](/handbook/company/structure/) in the Marketing Team an overview of all aspects of the [company](/handbook/company/).
 This should enable marketing leadership to better perform [global optimizations](/handbook/values/#global-optimization).
 You'll gain this context through the [meetings you attend](#meetings) and discussions with the CMO regarding any questions that arise during the call, should time be available during the shadow timeframe.
 The program also creates opportunities for the CMO to build relationships with team members across the marketing department and to identify challenges and opportunities earlier.
@@ -66,7 +66,7 @@ The CMO Shadow Program is not a performance evaluation or the next step to a pro
 
 {: #eligibility}
 
-CMO staff will recommend who from their organizations should participate in the program. If you're a team member reading this and intersted in participating, reach out to your CMO staff member.
+CMO staff will recommend who from their organizations should participate in the program. If you're a team member reading this and interested in participating, reach out to your CMO staff member.
 
 ### Rotation schedule
 
@@ -134,12 +134,12 @@ Feel free to schedule a coffee chat with any of the CMO Shadow Alumni. You can r
 ### Tasks
 
 {: #tasks}
-At times you may be asked your opinion on a topic or you may be asked to do work if it is specifically realted to your job.
+At times you may be asked your opinion on a topic or you may be asked to do work if it is specifically related to your job.
 
 ### Meetings
 
 {: #meetings}
-You are welcome to come off mute and join the conversation. Ask questions where you see appropriate. If you're more comfortable to dopping a line in chat, meeting attendees will see the note and often times, voclize your comment and may ask for more insight.
+You are welcome to come off mute and join the conversation. Ask questions where you see appropriate. If you're more comfortable to dropping a line in chat, meeting attendees will see the note and often times, vocalize your comment and may ask for more insight.
 
 ### Taking Notes
 

@@ -407,10 +407,27 @@ Please reach out to your Marketing Ops rep to shut down the landing page, or if 
 1. Check your live landing page to make sure the content displays correctly and the form has been removed.
 
 ## Post LIVE Webcast
-  
+
+### Finalizing the Presentation Deck
+
+**DRI: FMC**  
+
+**Webcasts and Workshops:**    
+- Once the finalized slide deck has been provided to the FMC by `@lfstucker`, the FMC will follow these [instructions](https://support.apple.com/en-jo/guide/preview/prvw11793/mac#:~:text=Delete%20a%20page%20from%20a,or%20choose%20Edit%20%3E%20Delete) to edit the presentation slides, ensuring the account set-up slides have been deleted.
+- The FMC to then follow [these instructions](/handbook/marketing/field-marketing/field-marketing-owned-virtual-events/#uploading-the-presentation-deck) to add the slides as a new piece of content to Pathfactory. Then, the FMC will add the presentation slides to the created Pathfactory track for the workshop.  
+   - **This is needed as soon as slides are final as Pathfactory track is linked to follow up email.**
+
+### Downloading the Recording from Zoom
+
+**DRI: FMC**  
+
+- In the Zoom Webcast account, click `Recordings` on the left side navigation.
+- Find the webcast/workshop you would like to download the recording for, either by searching for the date or entering the webcast ID.
+- Click the `More` button next to the webcast/workshop name and select `Download`.
+
 ### Converting the Webcast to an On-Demand Gated Asset
 
-#### Download Recording to Appropriate Platform
+#### Upload Recording to the Appropriate Platform
 
 **DRI: FMC**  
 
@@ -418,7 +435,8 @@ Please reach out to your Marketing Ops rep to shut down the landing page, or if 
 - **[Vimeo](/handbook/marketing/marketing-operations/vimeo/)**: Submit an [upload request](https://gitlab.com/gitlab-com/marketing/inbound-marketing/global-content/digital-production/-/issues/new?issuable_template=upload-request) to the Digital Production team and specify Vimeo as the requested platform in the issue. Please include title, description and thumbnail (if any). Your webcast will be reveiwed and uploaded to Vimeo and a video link will be provided.
 
 **Workshops:** 
-- FMC to send the recording link to `@lfstucker` once the [recording](/handbook/marketing/field-marketing/field-marketing-owned-virtual-events/#downloading-the-recording) is available in Zoom. `@lfstucker` will then provide the FMC with the time mark for the setup section that must be cut from the recording. The FMC will then follow the below instructions for cutting the recording and uploading to [YouTube Unfiltered](/handbook/marketing/marketing-operations/youtube/#uploading-conversations-to-youtube).      
+
+- FMC to send the recording link to `@lfstucker` once the [recording](https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0067567#h_01F4F8Z2FJCCE6KVBPGHNZEXSC) is available in Zoom. `@lfstucker` will then provide the FMC with the time mark for the setup section that must be cut from the recording. The FMC will then follow the below instructions for cutting the recording and uploading to [YouTube Unfiltered](/handbook/marketing/marketing-operations/youtube/#uploading-conversations-to-youtube). 
 
 #### Editing with YouTube Studio
 
@@ -455,7 +473,7 @@ More options
 **Workshops:**     
 - FMC to have already created a Pathfactory track for the workshop and added the workshop presentation slides from the [webcast prep issue](https://gitlab.com/gitlab-com/marketing/field-marketing/-/blob/master/.gitlab/issue_templates/webcast-prep.md#fmc-tasks-dri-fmc-).
 - Follow the instructions [here](/handbook/marketing/field-marketing/field-marketing-owned-virtual-events/#converting-the-webcast-to-an-on-demand-gated-asset) to upload your content to Vimeo (this is also outlined in the [follow up email issue template](https://gitlab.com/gitlab-com/marketing/field-marketing/-/blob/master/.gitlab/issue_templates/request_email_followup.md)).
-- In Pathfactory, add the Vimeo video link as new content by following the instructions outlined [here](/handbook/marketing/marketing-operations/pathfactory/content-library/#how-to-upload-content). Add this new piece of content to your previously created Pathfactory track.
+- In Pathfactory, add the YouTube video link as new content by following the instructions outlined [here](/handbook/marketing/marketing-operations/pathfactory/content-library/#how-to-upload-content). Add this new piece of content to your previously created Pathfactory track.
 
 #### Marketo - FMC
 
@@ -855,6 +873,8 @@ Note: Cloning a track will pull over all settings from that initial track. All w
 ### During Event 
 **DRI: FMM**
 
+Note: The FMM/DRIs are not to pause the workshop/webcast presentation. Pausing the workshop/webcast will negatively impact the final recording and follow-up email SLA. 
+
 FMM DRIs during the event are not only responsible for day of event coordination (virtually) but are also designated time keepers and hosts of the event.  
 
 For more information about hosting a virtual hands-on workshop, please watch [**this training video**](https://www.youtube.com/watch?v=f7L04-tQpJo&feature=youtu.be).
@@ -905,6 +925,12 @@ For many post-event tasks, you must be logged in to the Field Marketing Zoom Web
 - You will then be signed in to the Zoom Webcast Account
 - Remember to log out of the Zoom Webcast Account when you are done and sign back in to your personal Zoom account
 
+#### Downloading the Recording from Zoom
+
+**DRI: FMC**  
+
+- Please see [this section](/handbook/marketing/field-marketing/field-marketing-owned-virtual-events/#downloading-the-recording-from-zoom) for detailed instructions on how to download a Zoom recording. 
+
 #### Closing out Workshops
 **DRI: FMM**
 
@@ -913,10 +939,6 @@ Now that the event is over, it is important to consolidate all of the informatio
 - The Post Event Survey results
 - The data from Zoom Q&A queue (FMMs to pull this data utilizing the below instructions) 
 - Workshop recordings should be posted to the [shared drive](https://drive.google.com/drive/folders/1dDyuT92zZOodi9mytf6--rq7kseX7EeE) and to the main issue.
-
-#### Finalizing Presentation Deck
-- Send final presentation slides to your FMC for Pathfactory track upload. **This is needed as soon as slides are final as Pathfactory track is linked to follow up email.**
-- Helpful Hint: Once your FMC adds the slides to the Pathfactory track, it's a good idea for you both to go back to your follow up email test (email also available to preview in the Marketo program) and make sure the presentation link button in the email is taking you to the correct Pathfactory track with updated presentation.
 
 #### Pulling attendee report, Q&A report, and recording
 
@@ -929,12 +951,6 @@ Now that the event is over, it is important to consolidate all of the informatio
 - If your event does not pull into the display automatically, enter the webcast ID OR enter the date of the event
 - Select the workshop you would like the Q&A report for
 - Click `Generate CSV Report`
-
-#### Downloading the Recording
-
-- In the webcast account, click Recordings on the left side navigation.
-- Find the workshop you would like to download the recording for either by searching for the date or entering the workshop ID.
-- Click the `More` button next to the workshop name and select `Download`
 
 #### How to Consolidate the Data:
 **DRI: FMM**

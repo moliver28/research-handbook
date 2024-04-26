@@ -115,7 +115,7 @@ To be inclusive of time zones and those who may not prefer these types of social
 
 ### Zoom Background Ice-Breaker
 
-The Zoom feature to upload [any background image]({{< ref "/handbook/tools-and-tips/zoom#virtual-background" >}}) of your choice is a fun tool to use for an ice breaker. Managers can ask their team to come to a meeting with a background of their favorite place to vacation, or a place they hope to visit one day, and much more. It’s a great feature that can add some fun to calls and build unity. Spend the first five minutes of a meeting talking about the Zoom background and giving everyone in the meeting a voice.
+The Zoom feature to upload [any background image](/handbook/tools-and-tips/zoom#virtual-background) of your choice is a fun tool to use for an ice breaker. Managers can ask their team to come to a meeting with a background of their favorite place to vacation, or a place they hope to visit one day, and much more. It’s a great feature that can add some fun to calls and build unity. Spend the first five minutes of a meeting talking about the Zoom background and giving everyone in the meeting a voice.
 
 One of our Managers said this about the Zoom Background Ice-Breaker:
 
@@ -145,6 +145,8 @@ For some great tips on how to make small talk and build connection through commu
 The [Building High Performing Teams model](https://internal.gitlab.com/handbook/company/high-performing-teams/) is one of the most widely used and accepted models for team development. A big component of the model is building trust. To reach high performance, teams need to trust each other and share mutual regard where people are supported and respected. There is a willingness to be forthright, open, and free in working with team members. Review the [high performing teams page](https://internal.gitlab.com/handbook/company/high-performing-teams/) for strategies to build trust.
 
 **How to apply the building higher performing teams model:** Review the strategies to improve [building high performing teams](https://internal.gitlab.com/handbook/company/high-performing-teams/) at GitLab. Managers can conduct an assessment with their teams to see if team members trust one another. Use the resources outlined to facilitate a discussion.
+
+A [curated list of external resources](/handbook/people-group/learning-and-development/manager-development/high-performing-teams/) has also been compiled which may help when adopting this model.
 
 ### Ask for Feedback
 

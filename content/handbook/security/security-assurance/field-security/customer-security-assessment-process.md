@@ -3,11 +3,13 @@ title: "GitLab's Customer Assurance Activities"
 ---
 <link rel="stylesheet" type="text/css" href="/stylesheets/biztech.css" />
 
+If you would like to request security collateral which are under NDA, (such as SOC 2 Type 2, Pentest executive summary, etc.) please visit the [Trust Center](https://trust.gitlab.com/) and click on the request access button at the top right-hand corner.
+
 ## Submit a Request!
 
 
-<a href="https://gitlab.com/gitlab-com/gl-security/security-assurance/field-security-team/customer-assurance-activities/caa-servicedesk/-/issues/new?issuable_template=main_template" class="btn bg-primary text-white btn-lg">Questionnaire or Customer Call Request</a>
-<a href="https://gitlab.com/gitlab-com/gl-security/security-assurance/field-security-team/customer-assurance-activities/caa-servicedesk/-/issues/new?issuable_template=cap_request_template" class="btn bg-primary text-white btn-lg">CAP Request</a>
+<a href="https://gitlab.com/gitlab-com/gl-security/security-assurance/field-security-team/customer-assurance-activities/caa-servicedesk/-/issues/new?issuable_template=main_template" class="btn bg-primary text-white btn-lg">Customer Call Request</a>
+<a href="https://gitlab.com/gitlab-com/gl-security/security-assurance/field-security-team/customer-assurance-activities/caa-servicedesk/-/issues/new?issuable_template=cap_request_template" class="btn bg-primary text-white btn-lg">General Request</a>
 <a href="https://gitlab.com/gitlab-com/gl-security/security-assurance/field-security-team/customer-assurance-activities/caa-servicedesk/-/issues/new?issuable_template=Contract%20Review%20CAA" class="btn bg-primary text-white btn-lg">Contract Review Request</a>
 
 
@@ -19,16 +21,20 @@ It's no surprise that GitLab Customers and Prospects conduct Security due dilige
 
 ### **GitLab Team Members**
 
-We will start all CAA requests (with the exception of Contract Reviews) by sending the Customer Assurance Package to the customer. The CAP will answer many of the customers questions and will enable us to provide the customer with a more efficient and comprehensive experience. Please select the appropriate box for your request below, it will direct you to an issue template on our board.
-Please be sure to complete **all** of the requested information in the template, and please reach out to us in #sec-fieldsecurity with any questions.
+We will start all CAA requests (with the exception of Contract Reviews) by **sharing the Trust Center with the customer**. The Trust Center will answer many of the customer's questions and will enable us to provide the customer with a more efficient and comprehensive experience.
 
 **Please do not assign the issue. Field Security will assign the issue to the appropriate team member. Thank you!**
 
-### For Documentation, Questionnaires, and Customer Calls
+### For Questionnaires
 
-Please use the `Customer Request Box` above and follow the instructions.
+The process will be handled in SafeBase. Customers/prospects who have access to the [Trust Center](https://trust.gitlab.com) can directly upload questionnaires by clicking the *Submit a Questionnaire* link at the top of the Trust Center.
 
-- An email address and name should be included so the CAP can be sent to the customer
+Field Security has certain thresholds when determining when, and to what extent, we will complete custom security review questionnaires from customers. Field Security will consider completing questionnaires as detailed [here](https://internal.gitlab.com/handbook/security/security-assurance/field_security/questionnaire_thresholds) in the Internal Handbook.
+
+### For Customer Calls and General Requests
+
+Please use the `Customer Call Request` or `General Request` buttons above and follow the instructions.
+
 - Be sure to include all requested information to expedite the process.
 - ARR or potential ARR is required
 - Customer calls require a preview of the topics the customer would like to cover to ensure we bring in any required subject matter experts for the call.
@@ -51,9 +57,9 @@ The Field Security Team also maintains the following resources for **GitLab Team
 <a href="https://gitlab.com/gitlab-com/gl-security/security-assurance/field-security-team/field-security/-/issues/new?issuable_template=cap_collateral_request" class="btn bg-primary text-white btn-lg">Collateral Request</a>
 <a href="https://gitlab.com/gitlab-com/gl-security/security-assurance/field-security-team/field-security/-/issues/new?issuable_template=ad_hoc_field_security_request" class="btn bg-primary text-white btn-lg">Ad Hoc Request</a>
 
-### AnswerBase
+### Knowledge Base
 
-For information on how Field Security uses AnswerBase and how it can support your workflows, please visit our [AnswerBase]({{< ref "answerbase" >}}) page.
+For information on how Field Security uses SafeBase and how it can support your workflows, please visit our [Knowledge Base]({{< ref "knowledge_base" >}}) page.
 
 ### Feedback from Field Security
 
@@ -67,18 +73,18 @@ The Field Security Team has the unique privilege of conversing with and receivin
 
 - Search for [General Information about GitLab](https://about.gitlab.com) in our public handbook.
 - Review [GitLab's Product Security Documentation](https://docs.gitlab.com).
-- Review [GitLab's Customer Assurance Package](https://about.gitlab.com/security/cap/) and download publically available security assurance documents. To request our `NDA Required` Customer Assurance Pacakge (that includes our SOC2 report), utilize the `Request by Email` option.
+- Review [GitLab's Trust Center](https://trust.gitlab.com) and download publically available security assurance documents. To request our `NDA Required` documents, such as our SOC2 report, utilize the `Request Access` button in the Trust Center.
 
 ## Self-Attestations
 
-In the spirit of iteration, GitLab is continuously evolving our list of compliance self-attestations. Completed self-attestations are reviewed annually for continued applicability and can be found in our [Customer Assurance Package.](https://about.gitlab.com/security/cap/) Customers can submit suggestions and requests for new self-attestations through their Account Manager. GitLab team members can submit recommendations for future compliance assessments through the [Regulatory Security Compliance Feedback and Field Research epic](https://gitlab.com/groups/gitlab-com/gl-security/-/epics/56).
+In the spirit of iteration, GitLab is continuously evolving our list of compliance self-attestations. Completed self-attestations are reviewed annually for continued applicability and can be found in our [Trust Center.](https://trust.gitlab.com) Customers can submit suggestions and requests for new self-attestations through their Account Manager. GitLab team members can submit recommendations for future compliance assessments through the [Regulatory Security Compliance Feedback and Field Research epic](https://gitlab.com/groups/gitlab-com/gl-security/-/epics/56).
 
 ## Service Level Agreements
 
-- **Security Questionnaires:** 10 Business Day. SA or CSM will utlize AnswerBase and/or other self-service resources prior to requesting Field Security assistance. SA or CSM will ensure everyone on the Field Security team has access to any files or portals.
-- **Contract Reviews:** 5 Business Days. The VP of Security must be engaged in all Contract Reviews.
-- **Customer Calls:** SA or CSM will provide context to the Customer or Prospects questions or concerns prior to the meeting. Field Security will provide a PowerPoint presentation with critical information about GitLab Security and specifics to the Customer or Prospect's request. The VP of Security must be invited to all Customer Meetings.
-- **Security Documents:** 2 Business Days. SA or CSM must provide the name and email address of the recipient.
+- **Security Questionnaires:** 10 Business Day. SA or CSM will utlize the Knowledge Base and/or other self-service resources prior to requesting Field Security assistance. SA or CSM will ensure everyone on the Field Security team has access to any files or portals.
+- **Contract Reviews:** 5 Business Days. Field Security must be engaged in all relevant Contract Reviews.
+- **Customer Calls:** SA or CSM will provide context to the Customer or Prospects questions or concerns prior to the meeting. Field Security will provide a PowerPoint presentation with critical information about GitLab Security and specifics to the Customer or Prospect's request. Field Security must be invited to all relevant Customer Meetings.
+- **Security Documents:** Managed through the Trust Center. Create a General Request for unique enquiries that can't be satisfied through the Trust Center.
 
 ## Exceptions
 

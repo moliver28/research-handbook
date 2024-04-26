@@ -34,7 +34,7 @@ Crucially, under TeamOps every functional department shares its KPIs transparent
 {{% details summary="Examples and resources for transparent measurements" %}}
 **Example:** [Chief Executive Officer OKR and KPIs](/handbook/company/okrs/fy23-q3/)
 
-In Q3-FY23 at GitLab, a CEO OKR was [Improve user and wider-community engagement](/handbook/company/okrs/fy23-q3/). This is the *initiative* to improve a series of KPIs, a subset of which are documented below:
+In Q3-FY23 at GitLab, a company OKR was [Improve user and wider-community engagement](/handbook/company/okrs/fy23-q3/). This is the *initiative* to improve a series of KPIs, a subset of which are documented below:
 
 1. Evolve the resident contributor strategy by conducting 5 customer conversations with current “resident contributors” in seat
 1. Certify 1,000 team members and 10,000 wider-community members in TeamOps
@@ -90,7 +90,7 @@ Even better, definitions of done are prompts for important [team-building commun
 {{% details summary="Examples and resources for definition of done" %}}
 **Example:** TeamOps Course Updates
 
-Every quarter, GitLab's Workplace team adds new features and enhancements to the [free TeamOps course in LevelUp](https://levelup.gitlab.com/learn/course/teamops). Each [project management plan](https://gitlab.com/gitlab-com/ceo-chief-of-staff-team/workplace/teamops-fy24-q1/-/issues/5) includes a Measurement Clarity section outlining a list of completion criteria. This creates a very clear distinction between work that's *In Progress* and *Closed*, and generates a signal to close the issue.
+Every quarter, GitLab's Workplace team adds new features and enhancements to the [free TeamOps course in LevelUp](https://levelup.gitlab.com/learn/course/teamops). Each [project management plan](https://gitlab.com/gitlab-com/office-of-the-ceo/workplace/teamops-fy24-q1/-/issues/5) includes a Measurement Clarity section outlining a list of completion criteria. This creates a very clear distinction between work that's *In Progress* and *Closed*, and generates a signal to close the issue.
 
 **Resource:** [Definition of Done by Leading Agile](https://www.leadingagile.com/2017/02/definition-of-done/) (article)
 {{% /details %}}

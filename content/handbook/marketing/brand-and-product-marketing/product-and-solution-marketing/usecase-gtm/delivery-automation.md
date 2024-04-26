@@ -19,7 +19,7 @@ The page below is intended to align GitLab sales and marketing efforts with a si
 
 ### Who to contact
 
-|     Product Marketing    |    Technical Marketing    |
+|     Product Marketing    |    Developer Advocate    |
 | ------------------------ | ------------------------- |
 | Daniel Hom (@danielhom) / Aathira Nair (@anair5) | Itzik Gan Baruch (@iganbaruch) |
 
@@ -138,7 +138,7 @@ These value statements are used to measure of GitLab Adoption by the customer an
 | Area | Measure | Value |
 | -- | -- | -- |
 | CI Utilization | Depth of CI Adoption as a percentage of licensed seats | - Increase build speeds. Development teams work more efficiently by reducing otherwise manual work.<br> - Catch potential errors sooner rather than later before they intensify.<br> - Maximize development time and improves productivity. Less manual work. <br> - Faster feedback and less risk that changes cause builds to break. <br> - Gives teams more flexibility, making it easier to adopt. <br> - Reduces business risk and protects intellectual property. Instills confidence in end-users. |
-| Container Registry | Container registry enabled  | - Centralize the publication and consumption of container images <br> - Standardize on authentication methods and authorization models throughout your software lifecycle <br> - Eliminate the need to store & rotate credentials for third-party systems (i.e. leverage CI Job Tokens with Gitlab CI to authenticate) <br> - Ensure standardized use of cloud object storage to limit attack surface (eg. avoid leaks through open S3 buckets) <br> - Improve visibility and control over cloud storage utilization on a per-project/per-group basis (i.e. through storage quotas, expiration policies, and usage reporting) |
+| Container Registry | Container registry enabled  | - Centralize the publication and consumption of container images <br> - Standardize on authentication methods and authorization models throughout your software lifecycle <br> - Eliminate the need to store & rotate credentials for third-party systems (i.e. leverage CI Job Tokens with GitLab CI to authenticate) <br> - Ensure standardized use of cloud object storage to limit attack surface (eg. avoid leaks through open S3 buckets) <br> - Improve visibility and control over cloud storage utilization on a per-project/per-group basis (i.e. through storage quotas, expiration policies, and usage reporting) |
 | Templates | The number of instance-wide template repositories that exist in an instance | - Proliferate best-practices approaches through easily reusable pipeline templates <br> - Promote innersourcing and collaboration through the use of templates <br> - Speed time to green pipeline by providing new projects a well defined starting point <br> - Improve compliance with required reporting, or other important pipeline tasks (test coverage, linting, scanning, etc.) |
 | Deployments Utilization | Depth of Deployment adoption as a percentage of licensed seats | - Faster time to value with automation and standardization of testing, review, packaging, release and deployment <br> - Faster mean time to repair with better traceability and deployment options <br> - Cloud native first development along with current deployment targets for more flexibility using a single tool |
 | Deployment Count per User L28D | Deployment Count per User (last 28 days) <br> - Number of deployments within last 28D divided by number of licensed users | - Faster time to value with automation and standardization of testing, review, packaging, release and deployment <br> - Faster mean time to repair with better traceability and deployment options <br> - Cloud native first development along with current deployment targets for more flexibility using a single tool |
@@ -282,11 +282,11 @@ More case studies here -> Filter by Usecase *CI* or *CD* or *SCM* or *GitOps* to
 - [GitOps](https://docs.google.com/presentation/d/1o728pUdk1rrNqWAZpzZVdfZ3gzADvTXSssVzqL-6WB4/edit#slide=id.g8d846209b0_25_172)
 
 ### WebPage, Whitepapers, infographics, blogs
-- [What is GitOps?](/topics/gitops/)
+- [What is GitOps?](https://about.gitlab.com/topics/gitops/)
 - [Infrastructure as Code using GitLab & Ansible](https://about.gitlab.com/blog/2019/07/01/using-ansible-and-gitlab-as-infrastructure-for-code/)
-- [Part 1 of 3: Why collaboration technology is critical for GitOps](/topics/gitops/gitops-gitlab-collaboration/)
-- [Part 2 of 3: How infrastructure teams use GitLab and Terraform for GitOps](/topics/gitops/gitlab-enables-infrastructure-as-code/)
-- [Part 3 of 3: How to deploy to any cloud using GitLab for GitOps](/topics/gitops/gitops-multicloud-deployments-gitlab/)
+- [Part 1 of 3: Why collaboration technology is critical for GitOps](https://about.gitlab.com/topics/gitops/gitops-gitlab-collaboration/)
+- [Part 2 of 3: How infrastructure teams use GitLab and Terraform for GitOps](https://about.gitlab.com/topics/gitops/gitlab-enables-infrastructure-as-code/)
+- [Part 3 of 3: How to deploy to any cloud using GitLab for GitOps](https://about.gitlab.com/topics/gitops/gitops-multicloud-deployments-gitlab/)
 - [GitOps with GitLab: The CI/CD Tunnel](https://about.gitlab.com/blog/2022/01/07/gitops-with-gitlab-using-ci-cd/)
 - [Auto DevOps 101: How we’re making CI/CD easier](https://about.gitlab.com/blog/2019/10/07/auto-devops-explained/)
 - [Progressive Delivery](https://about.gitlab.com/blog/2019/04/19/progressive-delivery-using-review-apps/)

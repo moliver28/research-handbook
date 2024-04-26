@@ -149,8 +149,8 @@ All requirements of previous roles plus:
 
 ## Performance Indicators
 
-- [GitLab.com Availability](https://about.gitlab.com/handbook/engineering/infrastructure-quality/performance-indicators/#gitlabcom-availability)
-- [Infrastructure corrective action SLO](https://about.gitlab.com/handbook/engineering/infrastructure-quality/performance-indicators/#corrective-action-slo)
+- [GitLab.com Availability](/handbook/engineering/infrastructure-quality/performance-indicators/#gitlabcom-availability)
+- [Infrastructure corrective action SLO](/handbook/engineering/infrastructure-quality/performance-indicators/#corrective-action-slo)
 - Project Completion rate
   - Measure by tracking the percentage of projects completed on time and within budget.
 - Stakeholder Satisfaction score

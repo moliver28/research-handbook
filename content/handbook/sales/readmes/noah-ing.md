@@ -24,7 +24,7 @@ title: "Noah Ing's README"
 -->
 
 - It has been a career-long goal for me to work at GitLab ever since using GitLab for the first time
-- Prior to working at Gitlab I worked as a DevOps engineer for 5 years mainly focusing on Cloud Infrastructure using AWS and GCP
+- Prior to working at GitLab I worked as a DevOps engineer for 5 years mainly focusing on Cloud Infrastructure using AWS and GCP
 - This is my first experience being officially part of a sales team, and I love it. I feel it compliments my deep interest in performance arts
 - I have a passionate interest in Hip Hop, Jazz and Funk music. Khruangbin is my favourite band
 - I am born and raised in Toronto, Canada.

@@ -36,7 +36,7 @@ The Senior Manager, Video is a [grade 9](/handbook/total-rewards/compensation/co
 - Ability to think across platforms/mediums and create tailored content across channels that help drive marketing objectives.
 - Ability to translate quantitative data into clear, actionable creative direction and ideas
 - Communicates clearly & effectively, advocates for ideas, and establishes credibility with peers & leaders
-- Progressive experience leading and developing a high performance team
+- Progressive experience leading and developing a high performing team
 - Ability to sell concepts to senior stakeholders via comps, storyboards, and written narratives
 - Utilizes sound critical thinking & problem-solving skills, and comes to the table with solutions
 - Knowledge and experience with branded content, digital distribution platforms, social media, and associated marketing strategies

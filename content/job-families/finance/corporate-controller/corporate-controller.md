@@ -145,7 +145,7 @@ The Vice President, Corporate Controller is a [12](/handbook/total-rewards/compe
 - Direct responsibility for managing accounting operations, monthly/quarterly accounting close and preparation of financial statements.  Will ensure all accounts are reconciled and major variances are disclosed.
 - Drive processes  to optimize and automate accounting operations to drive efficient monthly/quarterly close cycles and improve accuracy and efficiency.
 - Experience with and own our financial systems, including NetSuite, Coupa, Stock Administration, Workiva, FloQuast and Xactly.
-- Owns the existing accounting and reporting standards, procedures and internal controls to drive efficiency and identify areas of improvements. Will be responsible to ensure new standards are implemented and Gitlab is in compliance. Responsible for and directs remediation plans when deficiencies are noted in testing of internal controls.
+- Owns the existing accounting and reporting standards, procedures and internal controls to drive efficiency and identify areas of improvements. Will be responsible to ensure new standards are implemented and GitLab is in compliance. Responsible for and directs remediation plans when deficiencies are noted in testing of internal controls.
 - Partner effectively with other finance team members and non-accounting functions to drive improved controls and process enhancements.
 - Subject matter expert to make decisions, prioritize effectively and meet deadlines while maintaining the highest level of standards for completeness and accuracy.
 - Sets the standard as a leader and coach for increased levels of employee job satisfaction and employee engagement through development and mentoring of the accounting team.

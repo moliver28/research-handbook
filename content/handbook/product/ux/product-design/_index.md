@@ -33,30 +33,6 @@ Each Product Designer is assigned to an area of our product, called Stage Groups
 
 Information about product categories and links to team members and direction pages can be found [here](/handbook/product/categories/).
 
-Some UX teams have documented detailed information about their ways of working and stage groups, and these can be found here:
-- [Dev](https://about.gitlab.com/direction/dev/)
-    - [Create](/handbook/product/ux/stage-group-ux-strategy/create/)
-- CI/CD and [Saas Platforms](https://about.gitlab.com/direction/saas-platforms/)
-    - [CI/CD](/handbook/product/ux/stage-group-ux-strategy/ci-cd/) (`@gitlab-com/gitlab-ux/cicd-ux`)
-- [Sec](https://about.gitlab.com/direction/security/)
-    - [Secure and Govern](https://about.gitlab.com/handbook/engineering/ux/stage-group-ux-strategy/sec/) (`@gitlab-com/gitlab-ux/secure-govern-ux`)
-- Fulfillment and Growth UX
-    - Growth UX team: [How we approach experiments](/handbook/product/ux/ux-resources/experimentation/)
-    - Fulfillment UX team: [How we work](/handbook/product/ux/stage-group-ux-strategy/fulfillment/)
-
-### UX Paper Cuts Team
-
-The UX Paper Cuts team is a small team responsible for identifying and fixing small, but impactful, usability issues in the GitLab product. The term "paper cut" refers to a small, seemingly insignificant problem that can cause annoyance or frustration for users. When considered as a collective, these problems can reduce the overall impression users have of the product.
-
-The UX Paper Cuts team continuously improves the user experience by creating merge requests to address these small issues. By focusing on small details, the team helps create a more polished and user-friendly interface, leading to increased user satisfaction, engagement, and, ultimately, a more successful product.
-
-You can find changes made by UX Paper Cuts by following along in the [GitLab Polish Gallery](https://nicolasdular.gitlab.io/gitlab-polish-gallery/), the internal Slack channel `#ux_paper_cuts_mrs`, or by searching the GitLab label [UX Paper Cuts](https://gitlab.com/dashboard/merge_requests?scope=all&state=all&label_name[]=UX%20Paper%20Cuts).
-
-#### Learn more about UX Paper Cuts
-
-- [Planning epic](https://gitlab.com/groups/gitlab-org/-/epics/10026)
-- [Workflow](/handbook/product/ux/product-designer/#ux-paper-cuts-workflow)
-
 ## Learn about UX and see our work
 
 - [YouTube Playlist for UX Showcases](https://www.youtube.com/playlist?list=PL05JrBw4t0Kq89nFXtkVviaIfYQPptwJz)
@@ -80,14 +56,14 @@ Product Designer Tools
 
 - [UX Scorecard](/handbook/product/ux/ux-scorecards/)
 - [Category Maturity Scorecard](/handbook/product/ux/category-maturity/category-maturity-scorecards/)
-- [UX Issue Triage](https://about.gitlab.com/handbook/engineering/quality/issue-triage/#ux)
+- [UX Issue Triage](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#ux)
 - [Heuristics](/handbook/product/ux/heuristics/)
 - [Competitor Evaluation](https://gitlab.com/gitlab-org/competitor-evaluations) (*GitLab Team Member access only*)
 - [UX Cloud Sandbox](/handbook/product/ux/ux-research/ux-cloud-sandbox/)
 
 Product Design Management
 
-- [Product Design Manager Workflows](/handbook/product/ux/product-design/product-design-manager.html)
+- [Product Design Manager Workflows](/handbook/product/ux/product-design/product-design-manager)
 
 Learning and Development
 
@@ -125,28 +101,20 @@ Going forward, every milestone, we will ask Product Designers and Engineers to v
 
 | Milestone          | Product Designer  | Engineer          |
 | ------------------ | ----------------- | ----------------- |
-| 16.4               |                   |                   |
-| 16.5               |                   |                   |
-| 16.6               |                   |                   |
-| 16.7               |                   |                   |
-| 16.8               | Veethika M         |   Mireya Andres   |
-
+| 16.8               | Veethika Mishra   |   Mireya Andres   |
+| 17.0               |                   |                   |
+| 17.1               |  Veethika Mishra  |   Miguel Rincon   |
+| 17.2               |                   |                   |
+| 17.3               |                   |                   |
 
 {{% details summary="Previous Volunteers" %}}
 | Milestone         | Product Designer  | Engineer          |
 | ----------------- | ----------------- | ----------------- |
-| 16.2 (2023-06-18)                                                         | -                  | -               |
 | [16.1 (2023-05-18)](https://gitlab.com/gitlab-org/gitlab/-/issues/394768) | Veethika M         | Payton Burdette |
-| 16.0 (2023-04-18)                                                         | -                  | -               |
 | [15.11 (2023-03-18)](https://gitlab.com/gitlab-org/gitlab/-/issues/387070)| Annabel Gray       | Phil Hughes     |
-| 15.10 (2023-02-18)                                                        | -                  | -               |
-| 15.9 (2023-01-18)                                                         | -                  | -               |
-| 15.8 (2022-12-18)                                                         | -                  | -               |
-| 15.7 (2022-11-18)                                                         | -                  | -               |
 | [15.6 (2022-10-18)](https://gitlab.com/gitlab-org/gitlab/-/issues/378259) | Matej Latin        | Deepika Guliani |
 | [15.5 (2022-09-18)](https://gitlab.com/gitlab-org/gitlab/-/issues/374580) | Katie Macoy        | Anna Vovchenko  |
 | [15.4 (2022-08-18)](https://gitlab.com/gitlab-org/gitlab/-/issues/370364) | Nadia Sotnikova    | Alex Kalderimis |
-| 15.3 (2022-07-18)                                                         | -                  | -               |
 | [15.2 (2022-06-18)](https://gitlab.com/gitlab-org/gitlab/-/issues/362122) | Emily Bauman       | Jannik Lehmann  |
 | [15.1 (2022-05-18)](https://gitlab.com/gitlab-org/gitlab/-/issues/361641) | Sascha Eggenberger | Robert Hunt     |
 | [15.0 (2022-04-18)](https://gitlab.com/gitlab-org/gitlab/-/issues/356703) | Annabel Gray       | Phil Hughes     |

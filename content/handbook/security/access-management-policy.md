@@ -1,11 +1,7 @@
 ---
-
 title: "Access Management Policy"
+controlled_document: true
 ---
-
-{{% alert title="This is a Controlled Document" color="danger" %}}
-Inline with GitLab's regulatory obligations, changes to [controlled documents]({{< ref "controlled-document-procedure" >}}) must be approved or merged by a code owner. All contributions are welcome and encouraged.
-{{% /alert %}}
 
 ## Purpose
 
@@ -26,7 +22,7 @@ The [Temporary Service Providers>Lifecycle Management project](https://gitlab.co
 
 1. [Vendor Access Request](https://gitlab.com/gitlab-com/temporary-service-providers/lifecycle/-/issues/new?issue%5Bassignee_id%5D=&issue%5Bmilestone_id%5D=)
 
-Usage guidelines for each of the access templates is outlined on the [Team Member enablement's handbook page](/handbook/business-technology/team-member-enablement/onboarding-access-requests/access-requests/).
+Usage guidelines for each of the access templates is outlined on the [Team Member enablement's handbook page](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/).
 
 These templates should be used during the [onboarding process](/handbook/people-group/general-onboarding/) and throughout the employment tenure of a GitLab Team Member. Access required as part of the team member's onboarding should be requested using the [New Access Requests](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=Individual_Bulk_Access_Request) or if applicable, one of the available [Role-based entitlements templates](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/tree/master/.gitlab/issue_templates/role_baseline_access_request_tasks).
 
@@ -41,7 +37,7 @@ These templates should be used during the [onboarding process](/handbook/people-
 
 ## Access Control
 
-- All new access or permissioning change requests that are not part of a team member's [baseline role-based entitlements](/handbook/business-technology/team-member-enablement/onboarding-access-requests/access-requests/baseline-entitlements/) will require a [New Access Request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=Individual_Bulk_Access_Request).
+- All new access or permissioning change requests that are not part of a team member's [baseline role-based entitlements](https://internal.gitlab.com/handbook/it/end-user-services/access-request/baseline-entitlements/) will require a [New Access Request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=Individual_Bulk_Access_Request).
 
 - Shared accounts may not be used for customers.gitlab.com, dev.gitlab.org, Shopify, Stripe, and Zuora in order to comply with PCI-DSS requirements. Currently, GitLab's financial controls prohibit the use of shared accounts within the following applications: NetSuite.
 
@@ -78,7 +74,7 @@ These templates should be used during the [onboarding process](/handbook/people-
 
 - All requests for new service accounts require a New Service Account Request:
 
-  - [Gitlab.com Service Account Request](/handbook/security/access-management-policy.html#requesting-gitlabcom-service-account-for-automation)
+  - [GitLab.com Service Account Request](/handbook/security/access-management-policy.html#requesting-gitlabcom-service-account-for-automation)
   - [GCP Service Account Request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=GCP_Google_Service_Account_Request)
   - [Other System Service Account Request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=New_Service_Account_Request)
 
@@ -90,7 +86,7 @@ These templates should be used during the [onboarding process](/handbook/people-
 
 ### Role Based Access Control (RBAC) Requirements
 
-GitLab has an established RBAC via the formalization and maintainence of [Baseline Role-Based Entitlements](/handbook/business-technology/team-member-enablement/onboarding-access-requests/access-requests/baseline-entitlements/). RBAC is subject to continuous control monitoring by the Security Compliance team to ensure that GitLab meets its regulatory and compliance obligations related to user access to information. Additionally, as noted per the requirements in the role baseline template, changes to permissions on these documents are required to be reviewed and approved by the Director, Senior Leader or Manager of the team that the role belongs to. If an update is proposed by a Manager or above, it should be reviewed by another, more senior manager of the team that the role belongs to.
+GitLab has an established RBAC via the formalization and maintainence of [Baseline Role-Based Entitlements](https://internal.gitlab.com/handbook/it/end-user-services/access-request/baseline-entitlements/). RBAC is subject to continuous control monitoring by the Security Compliance team to ensure that GitLab meets its regulatory and compliance obligations related to user access to information. Additionally, as noted per the requirements in the role baseline template, changes to permissions on these documents are required to be reviewed and approved by the Director, Senior Leader or Manager of the team that the role belongs to. If an update is proposed by a Manager or above, it should be reviewed by another, more senior manager of the team that the role belongs to.
 
 The structure of the baseline role-based entitlements ensures that team members receive the appropriate access privileges when they join GitLab. These templates are based off one of the following:
 - A team member's title (excluding levels, such as Junior, Senior, etc.), as listed in their Workday employment profile
@@ -99,7 +95,7 @@ The structure of the baseline role-based entitlements ensures that team members 
       - [role_security_assurance_engineer_security_risk](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/blob/master/.gitlab/issue_templates/role_baseline_access_request_tasks/department_security/role_security_assurance_engineer_security_risk.md)
       - [role_security_assurance_engineer_compliance](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/blob/master/.gitlab/issue_templates/role_baseline_access_request_tasks/department_security/role_security_assurance_engineer_compliance.md)
 
-Specific instructions for the creation, review, and maintenance of these templates can be found [here](/handbook/business-technology/team-member-enablement/onboarding-access-requests/access-requests/baseline-entitlements/#instructions). These instructions also include details on any nuances that should be considered as part of the creation of the template.
+Specific instructions for the creation, review, and maintenance of these templates can be found [here](https://internal.gitlab.com/handbook/it/end-user-services/access-request/baseline-entitlements/). These instructions also include details on any nuances that should be considered as part of the creation of the template.
 
 ### Access Control Process Exceptions
 

@@ -163,7 +163,7 @@ Image
 - Skill development
 - Mentorship and sponsorship
 
-### Examples of Allyship at Gitlab
+### Examples of Allyship at GitLab
 
 TBC
 
@@ -213,7 +213,7 @@ Once completed you now have a safe group to discuss allyship with, either to get
 
 ## Ally Training
 
-We held a 50 minute [Live Learning]({{< ref "/handbook/people-group/learning-and-development#live-learning" >}}) Ally Training on 2020-01-28. The recording follows along with the [slide deck](https://docs.google.com/presentation/d/18Qyn2mBJu0Loq3x_RT5bL2lnL-3YHvac1sQhmqqZNso/edit?usp=sharing) and [agenda](https://docs.google.com/document/d/1lGPImuahahjDejI5-9cNNCg-NMQJ4GCHO6n0fcntjs8/edit?usp=sharing).
+We held a 50 minute [Live Learning](/handbook/people-group/learning-and-development#live-learning) Ally Training on 2020-01-28. The recording follows along with the [slide deck](https://docs.google.com/presentation/d/18Qyn2mBJu0Loq3x_RT5bL2lnL-3YHvac1sQhmqqZNso/edit?usp=sharing) and [agenda](https://docs.google.com/document/d/1lGPImuahahjDejI5-9cNNCg-NMQJ4GCHO6n0fcntjs8/edit?usp=sharing).
 
 {{< youtube "wwZeFjDc4zE" >}}
 
@@ -240,7 +240,7 @@ There are some essential skills that are required to be an ally, here are a numb
 Allies familiarize themselves with GitLab's general DIB content
 
 - [Diversity, Inclusion & Belonging page]({{< ref "inclusion" >}})
-- [Gender and Sexual Orientation Identity Definitions and FAQ]({{< ref "/handbook/people-group/orientation-identity" >}})
+- [Gender and Sexual Orientation Identity Definitions and FAQ](/handbook/people-group/orientation-identity)
 - [DIB training resources]({{< ref "inclusion#diversity-inclusion--belonging-training-and-learning-opportunities" >}})
 - [Unconscious bias]({{< ref "unconscious-bias" >}})
 

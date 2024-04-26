@@ -1,5 +1,5 @@
 ---
-title: "Abuse on Gitlab.com"
+title: "Abuse on GitLab.com"
 ---
 
 <link rel="stylesheet" type="text/css" href="/stylesheets/biztech.css" />
@@ -37,7 +37,7 @@ title: "Abuse on Gitlab.com"
 
 Making use of GitLab.com services to deliver malicious executables or as attack infrastructure is prohibited under the [GitLab Acceptable Use Policy] [link to be added once AUP has been launched].
 We do however understand that making such technical details available for research purposes can benefit the wider community, and as such it will be allowed as an exception to our <Acceptable Use Policy> if the content meets the following criteria:
-  
+
   – The Group and Project descriptions must clearly describe the purpose and author of the content.
   – Further details about specific project content that can be independently verified by the **GitLab Security** department must be
   present in the project `README.md` file; for example, links to supporting materials such as a blog post describing the project.
@@ -65,7 +65,7 @@ Disruptive activity such as that listed above can be researched freely on your o
   separate accounts are necessary, you can use an alias. This will help us separate testing from other forms of abuse, and help
   inform the decision of blocking an account. Note that this does not provide immunity, and the Rules of engagement must be followed
   at all times.
-  
+
   GitLab reporters with 3 or more valid reports are eligible for a 1-year Ultimate license for up to 5 users. As per the
   [H1 policy](https://gitlab.com/gitlab-com/gl-security/hackerone/configuration/-/blob/master/program-policy.md#gitlab-ultimate-license), reporters will request the license through a comment on one of their issues.
 

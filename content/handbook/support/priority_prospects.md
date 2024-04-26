@@ -13,7 +13,7 @@ As a member of the Sales/CS team, if you have a prospect who wishes to have acce
 
 ## Restrictions on gratis support for prospects
 
-All general policies in [the statement of support](/support/statement-of-support/) apply to prospect support.
+All general policies in [the statement of support](https://about.gitlab.com/support/statement-of-support/) apply to prospect support.
 
 - Only 30 prospects/customers can receive gratis support at any one time. The current reference sheet can be found
   [here](https://docs.google.com/spreadsheets/d/11p3aBj1LTr-ngk1wxoMlae-UvJ3bOTuQHd48so2ZcXU/edit?usp=sharing) (internal link).
@@ -29,7 +29,7 @@ The following support specialties are excluded from gratis support for prospects
 - [upgrade assistance](https://about.gitlab.com/support/scheduling-upgrade-assistance/)
 - migration assistance
 - architecture review
-- [namesquatting requests](/support/workflows/namesquatting_policy)
+- [namesquatting requests](https://about.gitlab.com/support/workflows/namesquatting_policy)
 - for [PoVs](https://about.gitlab.com/customer-success/solutions-architects/tools-and-resources/pov/), support is limited to resolving errors from a setup (and not the setup process itself)
 - All response times are reasonable effort, with an internal SLO of 24 hours.
 

@@ -19,7 +19,7 @@ description: This page is about working with sales.
 
 1. Consider adding the following note in the Chatter message:
 
- > Please note that according to the "Working with Sales workflow" (<https://about.gitlab.com/handbook/support/license-and-renewals/workflows/working_with_sales.html>) we expect a reply from you on this chatter within 24 hours (excluding weekend, Family and Friends Day & global holidays) stating when/if you will contact the customer.
+ > Please note that according to the "Working with Sales workflow" (<https://about.gitlab.com/handbook/support/license-and-renewals/workflows/working_with_sales/>) we expect a reply from you on this chatter within 24 hours (excluding weekend, Family and Friends Day & global holidays) stating when/if you will contact the customer.
 
 1. Share the link to the Chatter message (right-click on timestamp) in an internal note on the ticket.
  - Note that you can only link to the original Chatter message, not to any of its comments.
@@ -43,15 +43,21 @@ description: This page is about working with sales.
   - Account owner says the account is not theirs any more.
   - Account owner says they have no time to help.
 
-##### If the Salesforce `Account Owner` is `POOLED USER [ DO NOT CHATTER ]`
+##### If the Salesforce `Account Owner` is `AMER|EMEA|APAC SMB Sales User`
 
-- Chatter the [**@AMER Pooled AEs**](https://gitlab.my.salesforce.com/_ui/core/chatter/groups/GroupProfilePage?g=0F98X000000oPQS) group in Salesforce.
+- Follow this [process](https://handbook.gitlab.com/handbook/sales/commercial/global_digital_smb/#working-with-the-global-digital-smb-account-team) to create a case, OR
+Chatter the [**@SMB Advocate Team**](https://gitlab.my.salesforce.com/_ui/core/chatter/groups/GroupProfilePage?g=0F98X000000oPQS) group in Salesforce.
+  - Once a case is created, it will be picked up by an SMB Advocate.  Once picked up, the SMB Adovate will drop a note in the Zendesk ticket advising that the request is being actioned.
+  - The case can then be tracked by viewing the `Case Status` field, and `Case Next Steps` field.
+  - Support Cases, and their current status, can be viewed on the SFDC account, or via this [SFDC Report](https://gitlab.my.salesforce.com/00OPL000000toc5).
+
 - If the Support Engineer does not have Salesforce access, post a message in the [**#smb-pooled-ae**](https://gitlab.slack.com/archives/C036C3W83U1) slack channel.
 - In your post, include:
   - details of the request
   - the Zendesk ticket link
+- Note: Chattering the group or creating a slack post, instead of creating a Salesforce case, will result in a delayed response.  Chatters and slack messages can also not be tracked.
 
-##### If the Salesforce `Account Owner` is not a person and is not `POOLED USER [ DO NOT CHATTER ]`
+##### If the Salesforce `Account Owner` is not a person and is not `<@AMER|@EMEA|@APAC> SMB Sales` User
 
 1. Find the person in charge of the [sales segment](/handbook/sales/field-operations/gtm-resources/#segmentation)
   and [sales territory](https://internal.gitlab.com/handbook/sales/sales-operations/#territory-management) and mention them in a Chatter comment. In your post, include:
@@ -61,11 +67,11 @@ description: This page is about working with sales.
 
 - Mention the person's direct manager in a Chatter comment.
   - Suggested message text:
-      > Following the "Working with Sales workflow" (<https://about.gitlab.com/handbook/support/license-and-renewals/workflows/working_with_sales.html>) I'm escalating this, as we haven't heard from <account owner\> within the agreed upon time.
+      > Following the "Working with Sales workflow" (<https://about.gitlab.com/handbook/support/license-and-renewals/workflows/working_with_sales/>) I'm escalating this, as we haven't heard from <account owner\> within the agreed upon time.
       >
 1. From VP level onwards, mention them in a Slack message in `#support_to_sales_escalation` in addition to a Chatter comment.
     - Suggested message text in Chatter:
-      > Following the "Working with Sales workflow" (<https://about.gitlab.com/handbook/support/license-and-renewals/workflows/working_with_sales.html>) I'm escalating this, as we haven't heard from <account owner\> nor <account owner's manager\> within the agreed upon time.
+      > Following the "Working with Sales workflow" (<https://about.gitlab.com/handbook/support/license-and-renewals/workflows/working_with_sales/>) I'm escalating this, as we haven't heard from <account owner\> nor <account owner's manager\> within the agreed upon time.
     - Suggested message text in Slack:
       > Following the "Working with Sales workflow" I'm escalating support ticket <https://gitlab.zendesk.com/agent/tickets/><ticket number\> as we haven't heard from <account owner\> nor <account owner's manager\> within the agreed upon time.
 1. Repeat as necessary every 24 hours and go one step up the reporting line, going all the way up to CEO if necessary.

@@ -52,7 +52,7 @@ Questions will generally be directed to the Host, and they will usually answer t
 Complete this process within 7 days after the Key Review to host a Group Conversation.
 
 1. Add your [presentation](#presentation) in the [Group Conversation Google Drive shared folder](https://drive.google.com/drive/folders/1Om1i9qrn1cZwxl7xRasV2mvrf91oyNOC).
-1. Use [the template in the Group Conversation Agenda Document](https://docs.google.com/document/d/1yBZnT5KCz1iprjpsY2L-aakycji3c9aTT74Yf6O4CQI/edit#heading=h.2s022nex56ox) to create a new section for your Group Conversation. Ensure to:
+1. Use [the template in the Group Conversation Agenda Document](https://docs.google.com/document/d/1yBZnT5KCz1iprjpsY2L-aakycji3c9aTT74Yf6O4CQI/edit#heading=h.2s022nex56ox) ([not public](https://handbook.gitlab.com/handbook/communication/confidentiality-levels/#not-public)) to create a new section for your Group Conversation. Ensure to:
    1. Fill in your group's name, and the date you're posting the announcement.
    1. The host's name as DRI.
    1. Link of the Google Slides presentation (with edit or comment access to everyone at GitLab). See the [presentation section](#presentation) for details.
@@ -70,7 +70,7 @@ Complete this process within 7 days after the Key Review to host a Group Convers
 ```text
 The <team> group conversation is ready!
 
-Please see [the agenda](https://docs.google.com/document/d/1yBZnT5KCz1iprjpsY2L-aakycji3c9aTT74Yf6O4CQI/edit) for links to the slide deck, which includes what we’ve recently completed and what we’re currently working on. Any questions for the team, related to the slides or not, are most welcome. I will be answering them in 3 working days.
+Please see [the agenda](https://docs.google.com/document/d/1yBZnT5KCz1iprjpsY2L-aakycji3c9aTT74Yf6O4CQI/edit) ([not public](https://handbook.gitlab.com/handbook/communication/confidentiality-levels/#not-public)) for links to the slide deck, which includes what we’ve recently completed and what we’re currently working on. Any questions for the team, related to the slides or not, are most welcome. I will be answering them in 3 working days.
 ```
 
 ### Presentation
@@ -130,11 +130,10 @@ If your Group Conversation is optional and you need to move the date, please wor
 | [Finance](/handbook/finance/) | Brian Robins | Yes | Twice per quarter | | EBAs in Finance|
 | [People](/handbook/people-group/) | Wendy Barnes | Yes | Twice per quarter | | EBA to CPO |
 | [Product](/handbook/product/) | [Month PLT Leader Rotation](/handbook/product/product-leadership/#product-group-conversation-leader-rotation) | Yes | Quarterly | | EBAs in Product |
-| [Support](/handbook/support/) | Lyle Kozloff, Lee Matos | Yes | Twice per quarter | @lbot @lyle @vparsons| EBA to Engineering |
-| [Security](/handbook/security/) | Josh Lemos | Yes | Every other month| | EBA to Engineering |
-| [UX](/handbook/product/ux/) | Christie Lenneville | Yes | Every other month | | EBA to Engineering |
-| [Development](https://about.gitlab.com/handbook/engineering/development/) | Christopher Lefelhocz | Yes | Every other month | | EBA to Engineering |
-| [Infrastructure & Quality](https://about.gitlab.com/handbook/engineering/infrastructure-quality/) | Mek Stittri | Yes | Quarterly | | EBA to Engineering |
+| [Support](/handbook/support/) | Johnny Scarborough | Yes | Quarterly | @lbot @lyle @vparsons| EBA to Engineering |
+| [Security](/handbook/security/) | Josh Lemos | Yes | Quarterly| | EBA to Security |
+| [Development](/handbook/engineering/development/) | Tim Zallmann | Yes | Quarterly | | EBA to Engineering |
+| [Infrastructure & Quality](/handbook/engineering/infrastructure-quality/) | Mek Stittri | Yes | Quarterly | | EBA to Engineering |
 | [General](/handbook/ceo/) | Sid Sijbrandij | No | Every other month | | EBA to CEO|
 | [Alliances](/handbook/alliances/) | Nima Badiey | No | Quarterly | | EBA to VP of Alliances |
 | [IT](/handbook/business-technology/it) | Nabitha Rao | Yes | Quarterly | | EBA to VP of Business Technology |
@@ -145,17 +144,44 @@ If your Group Conversation is optional and you need to move the date, please wor
 
 | Expected Posting Date | GC | DRI | Key Review Date? |
 |----|---------|---|--------|
-| Wednesday 2023-10-25 | CRO - RSOE | Jake Bielecki |  |
-| Thursday 2023-10-26 | Data | Amie Bright | October 17 |
-| Tuesday 2023-10-31 | Product| Product Leadership | October 19 |
-| Thursday 2023-11-09 | Infrastructure & Quality | Mek Stittri | October 24 |
-| Tuesday 2023-11-28 | People | Wendy Barnes | November 14 |
-| Tuesday 2023-12-12 | Finance | Brian Robins | November 28th |
 | Wednesday 2024-01-03 | Support | Lyle Kozloff, Lee Matos | December 20 |
-| Thursday 2024-01-4 | Security | Josh Lemos | December 20 |
+| Thursday 2024-01-11 | Security | Josh Lemos | December 20 |
 | Wednesday 2024-01-24 | Infrastructure & Quality | Mek Stittri | January 16 |
 | Wednesday 2024-01-31 | IT | Nabitha Rao | January 23 |
 | Thursday 2024-02-01 | Development | Tim Zallmann | January 24 |
+| Thursday 2024-02-22 | IT | Nabitha Rao | February 14 |
+| Wednesday 2024-02-28 | Product | Product Leadership | - |
+| Monday 2024-03-18 | People | Wendy Barnes | - |
+| Monday 2024-03-18 | Finance | Brian Robins | - |
+| Thursday 2024-03-28 | Support | Johnny Scarborough | March 18 |
+| Wednesday 2024-04-24 | Data | Amie Bright | April 18 |
+| Wednesday 2024-04-24 | Security | Josh Lemos | April 1 |
+| Wednesday 2024-05-01 | Infrastructure & Quality | Mek Stittri | April 25 |
+| Wednesday 2024-05-22 | IT | Nabitha Rao | May 15 |
+| Tuesday 2024-05-28 | Product | Product Leadership | - |
+| Wednesday 2024-06-12 | Finance | Brian Robins | - |
+| Monday 2024-06-17 | People | Wendy Barnes | - |
+| Thursday 2024-06-20 | Support | Johnny Scarborough | June 13 |
+| Monday 2024-07-01 | Security | Josh Lemos | June 17 |
+| Thursday 2024-07-25 | Data | Amie Bright | July 18 |
+| Monday 2024-08-05 | Infrastructure & Quality | Mek Stittri | July 25 |
+| Thursday 2024-08-22 | IT | Nabitha Rao | August 14 |
+| Wednesday 2024-08-28 | Product | Product Leadership | - |
+| Thursday 2024-08-29 | Finance | Brian Robins | - |
+| Thursday 2024-09-12 | People | Wendy Barnes | - |
+| Thursday 2024-09-26 | Support | Johnny Scarborough | September 18 |
+| Monday 2024-09-30 | Security | Josh Lemos | September 19|
+| Thursday 2024-10-24 | Data | Amie Bright | October 17 |
+| Monday 2024-10-28 | Infrastructure & Quality | Mek Stittri | October 16 |
+| Thursday 2024-11-21 | IT | Nabitha Rao | November 14 |
+| Tuesday 2024-11-26 | Finance | Brian Robins | - |
+| Thursday 2024-11-28 | Product | Product Leadership | - |
+| Wednesday 2024-12-11 | People | Wendy Barnes | - |
+| Thursday 2025-01-02 | Support | Johnny Scarborough | December 16 |
+| Monday 2025-01-06 | Security | Josh Lemos | December 18 |
+| Thursday 2025-01-30 | Data | Amie Bright | January 23 |
+| Monday 2025-02-03 | Infrastructure & Quality | Mek Stittri | January 23 |
+
 
 ## Examples of Past Group Conversations
 

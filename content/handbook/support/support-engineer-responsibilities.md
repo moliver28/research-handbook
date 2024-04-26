@@ -6,7 +6,7 @@ description: A detailed listing of the responsibilities of Support Engineers in 
 ## Introduction
 
 1. This page is an extension of the [Support Engineer job family](/job-families/engineering/support-engineer/) page.
-1. This page should reflect the [Support Career Framework](https://about.gitlab.com/handbook/engineering/career-development/matrix/engineering/support/).
+1. This page should reflect the [Support Career Framework](/handbook/engineering/careers/matrix/support/).
 1. The **aim** of this page is to **help you to know what your responsibilities as a
    Support Engineer are**.
 1. **You're not expected to work on all areas every week**. Some of the areas
@@ -316,7 +316,7 @@ There's no goal for this area. You can see how you're doing by using the 'Handbo
 
 ## Keep up-to-date on GitLab and Support
 
-1. Since we ship a **new release [every month](https://about.gitlab.com/handbook/engineering/releases/)**, and as we manage to fit a lot of great new features and fixes into each release, it is sometimes difficult for the Support Team to keep up to date with key changes. In general, it is the responsibility of each Support Team member to read the release blog post, dig deeper where you need to or want to, and keep yourself up to date with new GitLab versions. To facilitate this further, there is a Retrospective every month (it is listed on the GitLab Team Meetings calendar) that you can join.
+1. Since we ship a **new release [every month](/handbook/engineering/releases/)**, and as we manage to fit a lot of great new features and fixes into each release, it is sometimes difficult for the Support Team to keep up to date with key changes. In general, it is the responsibility of each Support Team member to read the release blog post, dig deeper where you need to or want to, and keep yourself up to date with new GitLab versions. To facilitate this further, there is a Retrospective every month (it is listed on the GitLab Team Meetings calendar) that you can join.
 1. We have several [Support Weekly Meetings](/handbook/support/#weekly-meetings) that you are encouraged to attend or watch the recording of.
 1. The [Support Week in Review](/handbook/support/#support-week-in-review) (SWIR) document is intended to contain all the recent announcements and updates each week with which everyone in Support should be familiar. You are **expected** to read or listen to the recording of the document every week. And you're encouraged to contribute to the document as well. *You should consider putting a weekly reminder on your Monday mornings for reading (or listening to) the SWIR.*
 

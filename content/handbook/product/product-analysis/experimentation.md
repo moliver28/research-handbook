@@ -14,7 +14,7 @@ title: Experimentation Design & Analysis
 
 At GitLab, we have a unique approach to experimentation that is built in-house by our incredible development team. The reason we use this approach is to uphold our commitment to our users and customers to protect their privacy. This custom approach leads to some challenges that are not experienced with more commonly used 3rd party experimentation tools. Due to this reality, experimentation at GitLab must be approached with a high level of intentionality and forethought. The purpose of this handbook page is to create some guidelines around experimentation to avoid common errors and to define best practices.
 
-In order to increase our [velocity](https://about.gitlab.com/handbook/engineering/development/growth/#experiment-cadence)
+In order to increase our [velocity](/handbook/marketing/growth/engineering/#experiment-cadence)
 while maintaining our ability to learn from experiments, the GitLab Growth stage (including the
 Product Analysis group) is adopting a new framework for designing and analyzing experiments. This
 framework is adapted from the work of data scientist [Danielle Nelson](https://www.linkedin.com/in/daniellevnelson/).
@@ -46,7 +46,7 @@ Context_keys are used in experiment analysis to determine the unique users/proje
 
 Examples:
 - Assigning context_key to be sticky to a user (1 context key = 1 user), if we’re identifying how many users adopted specific features as a result of an experiment regardless of their namespace or project.
-- Assigning context_key to be sticky to namespaces (1 context key = 1 namespace) , if we’re identifying how many stages were adopted as a result of an experiment regardless of how many users engaged in each stage.  
+- Assigning context_key to be sticky to namespaces (1 context key = 1 namespace) , if we’re identifying how many stages were adopted as a result of an experiment regardless of how many users engaged in each stage.
 - Assigning context_key to be sticky per user, per namespace (1 context key = 1 user per namespace) if we’re identifying how many specific users in a namespace adopted specific features as a result of an experiment. This will prevent users who are part of multiple namespaces to have their feature and/or stage adoption from being counted towards all the namespaces they are a part of.
 
 ### Variant
@@ -156,7 +156,7 @@ There are three different kinds of metrics that can be defined for an experiment
   Examples:
   - If your experiment specifically is looking at the number of trials, you could also place conversions as a secondary metric as the increase in trials would theoretically impact the number of conversions.
   - If your experiment is targeting adoption of a specific stage, you could place Stages per Organization as a secondary metric as the increase in adoption of a stage could lead to additional stages being adopted.
-  
+
 **3. Leading Indicators**
 
   Leading indicators are a directional determinant of the performance of an experiment based on the volume of front-end events between variants
@@ -248,7 +248,7 @@ We will continue to build out a guide on how to select which type of experiment 
 2. Create an issue for the Product Analysis team using the [“Experiment Analysis Request” template](https://gitlab.com/gitlab-data/product-analytics/-/issues/new?issuable_template=Experiment%20Analysis%20Request).
 
 3. Once the experiment has data in staging (before being launched into production) be sure to let the Product Analysis team know so they can check if the data is coming through.
-    You can also use the [Experiment Data Validation](https://app.periscopedata.com/app/gitlab/860363/Experiment-Data-Validation?) dashboard to check your data.
+    You can also use the [Experiment Data Validation](https://10az.online.tableau.com/#/site/gitlab/views/DRAFTPDExperimentEventValidation/GrowthExperimentEventValidationDashboard) dashboard to check your data.
 
 4. Once the experiment results have been analyzed and a variant has been launched, please inform Engineering so that any experiments that are concluded can be paused to maximize data warehouse storage.
 
@@ -282,8 +282,8 @@ We will continue to build out a guide on how to select which type of experiment 
     - In the dashboard, be sure to include a link to the experimentation ticket as well as a short definition of the events so that it is easily understandable by people unfamiliar with the details of the experiment.
     - Be sure to check which events are flowing in, if they are collecting the right context, and call out any anomalies to the data collection.
     - Examples of past experiment analysis:
-        - [Jobs To Be Done Experiment](https://app.periscopedata.com/app/gitlab/867903/WIP-Growth:Adoption-Jobs-To-Be-Done)
-        - [SaaS Trial Onboarding Experiment](https://app.periscopedata.com/app/gitlab/882318/Growth:Conversion-SaaS-Trial-Onboarding)
+        - Jobs To Be Done Experiment
+        - SaaS Trial Onboarding Experiment
 
 Once production data has begun to flow in, be sure to swap your data source to reference production data and NOT staging data. Keep an eye on your metrics as they bake to their full sample size, and call out any discrepancies or unexpected behavior to your Product Manager.
 
@@ -326,7 +326,7 @@ You can find additional experimentation resources throughout the handbook and Gi
 Here are a few pages to check out:
 
 - [How Growth launches experiments](/handbook/product/growth/#how-growth-launches-experiments)
-- [Growth Engineering Guide to running experiments](https://about.gitlab.com/handbook/engineering/development/growth/experimentation/)
+- [Growth Engineering Guide to running experiments](/handbook/marketing/growth/engineering/experimentation/)
 - [GitLab Experiment Guide](https://docs.gitlab.com/ee/development/experiment_guide/)
 - [Experimentation Best Practices](/handbook/business-technology/data-team/experimentation-best-practices/)
 

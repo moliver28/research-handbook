@@ -93,7 +93,7 @@ A variety of product usage statistics are pushed back from Gainsight to Salesfor
 - **Instance**: a customer’s *self-managed* deployment of GitLab
 - **Namespace**: a customer’s *SaaS* deployment of GitLab on gitlab.com
 - **Labeling**: the practice of internally identifying instances as Production, Non-Production, etc. within Gainsight and syncing to Snowflake. See [link](/handbook/customer-success/product-usage-data/using-product-usage-data-in-gainsight/#viewing-all-unknown-self-managed-instances) for more information
-- **Project**: a specific project or folder within a customer’s GitLab instance (e.g., “field operations” project within the Gitlab-com use)
+- **Project**: a specific project or folder within a customer’s GitLab instance (e.g., “field operations” project within the `gitlab-com` use)
 
 ### Why it matters
 
@@ -349,7 +349,7 @@ Examples of new metrics can include:
 
 - Self-managed - They are not opted into Service Ping, or they turned it off.
 - Self-managed - None of their instances are labeled as Production. [Here are instructions](#self-managed) on how to label instances as Production.
-- SaaS - If the correct Namespace isn't showing up in Gainsight, the customer will need to associate their Namespace with their (new) subscription. This tends to happen when customers shift from SM to SaaS, or to net new customers where the customer is responsible for tying the namespace back to their subscription. To check if your customer's namespace is tied to their subscription, go to https://customers.gitlab.com/admin/order and type in the most recent `Subscription Name` (i.e. A-S00012345) found in their Salesforce record. If the `Gl namespace` field is blank, then their subscription is not tied to their namespace. This can be fixed by opening an [Internal Support Ticket](https://gitlab-com.gitlab.io/support/internal-requests-form/) on your customer's behalf, or alternatively, they may reach out to support themselves.
+- SaaS - If the correct Namespace isn't showing up in Gainsight, the customer will need to associate their Namespace with their (new) subscription. This tends to happen when customers shift from SM to SaaS, or to net new customers where the customer is responsible for tying the namespace back to their subscription. To check if your customer's namespace is tied to their subscription, go to https://customers.gitlab.com/admin/order and type in the most recent `Subscription Name` (i.e. A-S00012345) found in their Salesforce record. If the `Gl namespace` field is blank, then their subscription is not tied to their namespace. This can be fixed by opening an [Internal Support Ticket](https://support-super-form-gitlab-com-support-support-op-651f22e90ce6d7.gitlab.io/) on your customer's behalf, or alternatively, they may reach out to support themselves.
 
 #### Why is my customer's Billable Users (OR License Utilization) value `Null`?
 

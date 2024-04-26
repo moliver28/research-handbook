@@ -18,22 +18,22 @@ with fullstack teams (frontend, backend, and fullstack engineers), and/or Engine
 
 - Hire and build a globally-distributed, happy, and successful team
 - Plan and execute long term strategies that benefit your team and the product stage(s)
-- Understand [Engineering KPIs](https://about.gitlab.com/handbook/engineering/performance-indicators/#key-performance-indicators) and seek to improve them
+- Understand [Engineering KPIs](/handbook/engineering/performance-indicators/#key-performance-indicators) and seek to improve them
 - Lead and drive significant results for multiple teams. Examples include, but are not limited to:
-  - Managing 3 or more [engineering teams](https://about.gitlab.com/handbook/engineering/#engineering-departments-sub-departments--teams) with at least three engineering manager direct reports.
-  - Managing two or more [engineering teams](https://about.gitlab.com/handbook/engineering/#engineering-departments-sub-departments--teams) with individual contributor direct reports.
+  - Managing 3 or more [engineering teams](/handbook/engineering/#engineering-departments-sub-departments--teams) with at least three engineering manager direct reports.
+  - Managing two or more [engineering teams](/handbook/engineering/#engineering-departments-sub-departments--teams) with individual contributor direct reports.
   - Leading business critical cross-functional initiatives in addition to managing a team.
 - Conduct managerial interviews for candidates, and train engineering managers to do managerial interviews
 - Generate and implement process improvements, especially cross-team processes
 - Hold regular [1:1s](/handbook/leadership/1-1/) with team members and [skip-level](/handbook/leadership/skip-levels/) 1:1s with indirect reports
 - Provide management mentorship
-- Enable [quad planning team](/handbook/product/product-processes/#pm-em-ux-and-set-quad-dris) [collaboration](/handbook/values/#collaboration) within [product groups](/handbook/company/team/structure/#product-groups)
-- Enable [Product](/handbook/product/performance-indicators/), [Quality](https://about.gitlab.com/handbook/engineering/quality/performance-indicators/), and [UX](/handbook/product/ux/performance-indicators/) performance via solid [stable-counterpart](/handbook/leadership/#stable-counterparts) partnership
+- Enable [quad planning team](/handbook/product/product-processes/#pm-em-ux-and-set-quad-dris) [collaboration](/handbook/values/#collaboration) within [product groups](/handbook/company/structure/#product-groups)
+- Enable [Product](/handbook/product/performance-indicators/), [Quality](/handbook/engineering/quality/performance-indicators/), and [UX](/handbook/product/ux/performance-indicators/) performance via solid [stable-counterpart](/handbook/leadership/#stable-counterparts) partnership
 - Contribute to the sense of psychological safety of multiple teams.
 - Give regular and clear feedback around the [individual's performance](/handbook/leadership/1-1/suggested-agenda-format/)
-- Draft quarterly [OKRs](/handbook/company/okrs/) and [Engineering KPIs](https://about.gitlab.com/handbook/engineering/performance-indicators/#key-performance-indicators)
+- Draft quarterly [OKRs](/handbook/company/okrs/) and [Engineering KPIs](/handbook/engineering/performance-indicators/#key-performance-indicators)
 - Improve product quality, security, and performance
-- Participate in the [Incident Management on-call rotation](https://about.gitlab.com/handbook/engineering/infrastructure/incident-management/#incident-manager-responsibilities) to help ensure the availability goals for GitLab.com are met, by working with reliability engineers and development team members
+- Participate in the [Incident Management on-call rotation](/handbook/engineering/infrastructure/incident-management/#incident-manager-responsibilities) to help ensure the availability goals for GitLab.com are met, by working with reliability engineers and development team members
 
 ## Requirements
 
@@ -76,9 +76,9 @@ The Senior Engineering Manager is a [grade 9](/handbook/total-rewards/compensati
 
 ## Performance Indicators
 
-- [Development Hiring Actual vs. Plan](https://about.gitlab.com/handbook/engineering/development/performance-indicators/#development-hiring-actual-vs-plan)
-- [Team/Group MR Rate](https://about.gitlab.com/handbook/engineering/development/performance-indicators/#development-department-member-mr-rate)
-- [Development Handbook Update Frequency](https://about.gitlab.com/handbook/engineering/development/performance-indicators/#development-handbook-update-frequency)
+- [Development Hiring Actual vs. Plan](/handbook/engineering/development/performance-indicators/#development-hiring-actual-vs-plan)
+- [Team/Group MR Rate](/handbook/engineering/development/performance-indicators/#development-department-member-mr-rate)
+- [Development Handbook Update Frequency](/handbook/engineering/development/performance-indicators/#development-handbook-update-frequency)
 
 ## Career Ladder
 

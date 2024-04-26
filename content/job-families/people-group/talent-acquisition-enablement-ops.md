@@ -96,7 +96,7 @@ The Manager, Global TA Enablement is a [grade 8](/handbook/total-rewards/compens
 - Partner with finance and our PBP team to ensure that the necessary process flows are built for scale
 - Partner with our Data and Analytics team to build a solid reporting suite for the Head of TA, their leadership team and the hiring manager community
 - Provide coaching to improve performance of team members and drive accountability
-- Develop, own and run the Gitlab hiring planning process in collaboration with the various operations teams, finance and the PBP’s
+- Develop, own and run the GitLab hiring planning process in collaboration with the various operations teams, finance and the PBP’s
 - Build trusted partnerships within GitLab and externally to collaborate, drive alignment and stay on top of trends
 - Leverage our candidate facing teams to advocate for our employer brand and deliver a world-class experience
 - Help define and leverage data-focused metrics in order to develop and deliver on the goals
@@ -139,7 +139,7 @@ The Senior Manager, Global TA Enablement is a [grade 9](/handbook/total-rewards/
 - Partner with our Legal team to ensure our practices and processes are in line with employment laws in locations where we operate
 - Provide coaching to improve performance of team members and drive accountability
 - Onboard, mentor, and grow the careers of all team members in the TA Enablement and Candidate Experience teams
-- Develop, own and run the Gitlab hiring planning process in collaboration with the various operations teams, finance and the PBP’s
+- Develop, own and run the GitLab hiring planning process in collaboration with the various operations teams, finance and the PBP’s
 - Build trusted partnerships within GitLab and externally to collaborate, drive alignment and stay on top of trends
 - Leverage our candidate facing teams to advocate for our employer brand and deliver a world-class experience
 - Help define and leverage data-focused metrics in order to develop and deliver on the goals

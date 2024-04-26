@@ -1,5 +1,4 @@
 ---
-aliases: /handbook/legal/privacy/us-state-privacy-disclosure.html
 title: "U.S. State Privacy Rights and Disclosures"
 description: "Privacy Notice applicable for residents of the United States."
 ---
@@ -84,7 +83,7 @@ You are entitled to certain rights as a California resident, which include:
 - You have the right to know whether your Personal Information is sold or shared and to opt-out of the sale of your Personal Information. You may opt-out of interest-based advertising based on your browser by exercising the Do Not Sell or Share My Personal Information link in the footer or header of our sites. You may exercise all other California rights as described in the [Rights and Choices](https://about.gitlab.com/privacy/#what-are-my-rights-and-choices-regarding-personal-data) section of the GitLab Privacy Statement; and
 - You have the right to receive notice of our privacy practices at or before the point where your Personal Information is collected. This US State Privacy Rights and Disclosures as well as our Privacy Statement serve as our Notice of Collection.
 
-You may designate, in writing or through a power of attorney, an authorized agent to make requests on your behalf to exercise your rights under California law. Before accepting such a request from an agent, we will require the agent to provide proof you have authorized them to act on your behalf, and we may need you to verify your identity directly with us. To provide or delete specific pieces of Personal Information we will need to verify your identity to the degree of certainty required by law. We will verify your request by using one of the methods set forth [here](https://about.gitlab.com/handbook/gdpr/).
+You may designate, in writing or through a power of attorney, an authorized agent to make requests on your behalf to exercise your rights under California law. Before accepting such a request from an agent, we will require the agent to provide proof you have authorized them to act on your behalf, and we may need you to verify your identity directly with us. To provide or delete specific pieces of Personal Information we will need to verify your identity to the degree of certainty required by law. We will verify your request by using one of the methods set forth [here](/handbook/gdpr/).
 {{% /details %}}
 
 {{% details summary="Virginia" %}}
@@ -115,7 +114,7 @@ We may share each of the categories of Personal Data listed in our Privacy State
 
 ### How to Exercise Virginia Privacy Rights
 
-To make an access, correction, deletion or portability request, use the [Personal Data Request Form](https://about.gitlab.com/handbook/gdpr/). You may designate in writing or through a power of attorney, an authorized agent to make requests on your behalf to exercise your rights under VCDPA. Before accepting such a request from an agent, we will require the agent to provide proof you have authorized them to act on your behalf, and we may need you to verify your identity directly with us. To provide or delete specific pieces of Personal Data we will need to verify your identity to the degree of certainty required by law. We will verify your request by using one of the methods set for [here](https://about.gitlab.com/handbook/gdpr/). We do not sell your Personal Data, as the term "sale" is defined under the VCDPA.
+To make an access, correction, deletion or portability request, use the [Personal Data Request Form](/handbook/gdpr/). You may designate in writing or through a power of attorney, an authorized agent to make requests on your behalf to exercise your rights under VCDPA. Before accepting such a request from an agent, we will require the agent to provide proof you have authorized them to act on your behalf, and we may need you to verify your identity directly with us. To provide or delete specific pieces of Personal Data we will need to verify your identity to the degree of certainty required by law. We will verify your request by using one of the methods set for [here](/handbook/gdpr/). We do not sell your Personal Data, as the term "sale" is defined under the VCDPA.
 
 ### Personal Data processed for Targeted Advertising
 

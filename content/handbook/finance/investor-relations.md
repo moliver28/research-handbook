@@ -7,7 +7,7 @@ The page you are on now the handbook that describes internal processes around in
 
 ## Quarterly Earnings Process:
 
-As a public company we share financial results publicly after the close of each fiscal quarter or fiscal year. For Q2-FY23, this happened six weeks after the close of the quarter, on September 7, 2022 at 1:30pm PST. The key deliverables for each earnings cycle are:
+As a public company we share financial results publicly after the close of each fiscal quarter or fiscal year. The key deliverables for each earnings cycle are:
 
 - Earnings press release summarizing business & financial results, providing guidance
 - Earnings call with prepared remarks by CEO and CFO followed by Q&A with sellside analysts
@@ -83,3 +83,7 @@ The timeline for each quarter is as follows. A detailed calendar with DRIs and p
 ## Trading Window
 
 We anticipate that our quarterly trading window will open the third trading day after the announcement of our quarterly results and that it will close again immediately prior to the last four weeks of the fiscal quarter, as indicated by an announcement made by the CLO. However, it is important to note that any quarterly trading window may be cut short if the CLO determines that material nonpublic information exists in such a fashion that it would make trades by directors, employees, and consultants inappropriate.
+
+## Investor Meetings
+
+We conduct investor relations meetings and attend investor conferences in the time period between our earnings release and close of business the Friday 2 weeks before the next quarter ends.

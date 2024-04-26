@@ -132,7 +132,7 @@ The Manager, Recruiting Operations is a [grade 8](/handbook/total-rewards/compen
 - Partner with finance and our PBP team to ensure that the necessary process flows are built for scale
 - Partner with our Data and Analytics team to build a solid reporting suite for the Head of TA, their leadership team and the hiring manager community
 - Provide coaching to improve performance of team members and drive accountability
-- Develop, own and run the Gitlab hiring planning process in collaboration with the various operations teams, finance and the PBP’s
+- Develop, own and run the GitLab hiring planning process in collaboration with the various operations teams, finance and the PBP’s
 - Build trusted partnerships within GitLab and externally to collaborate, drive alignment and stay on top of trends
 - Leverage our candidate facing teams to advocate for our employer brand and deliver a world-class experience
 - Help define and leverage data-focused metrics in order to develop and deliver on the goals
@@ -172,7 +172,7 @@ The Senior Manager, Recruiting Operations is a [grade 9](/handbook/total-rewards
 - Partner with our Legal team to ensure our practices and processes are in line with employment laws in locations where we operate
 - Provide coaching to improve performance of team members and drive accountability
 - Onboard, mentor, and grow the careers of all team members in the TA Enablement and Candidate Experience teams
-- Develop, own and run the Gitlab hiring planning process in collaboration with the various operations teams, finance and the PBP’s
+- Develop, own and run the GitLab hiring planning process in collaboration with the various operations teams, finance and the PBP’s
 - Build trusted partnerships within GitLab and externally to collaborate, drive alignment and stay on top of trends
 - Leverage our candidate facing teams to advocate for our employer brand and deliver a world-class experience
 - Help define and leverage data-focused metrics in order to develop and deliver on the goals
@@ -209,8 +209,8 @@ The Director Talent Brand is a [grade 10](/handbook/total-rewards/compensation/c
 #### Director of Talent Brand & Talent Acquisition Enablement Responsibilities
 
 - Establish a 3-year global talent branding/marketing strategy and position talent brand as a
-core priority for Global Talent Acquisition and the recruiting community at Gitlab.
-- Overall responsibility for continuing and building upon the Gitlab global talent brand to
+core priority for Global Talent Acquisition and the recruiting community at GitLab.
+- Overall responsibility for continuing and building upon the GitLab global talent brand to
 position us as an employer of choice across all functions
 - Establish the talent value proposition; partnering internally to ensure a consistent experience
 throughout the employee lifecycle
@@ -256,8 +256,8 @@ The Senior Director Talent Brand is a [grade 11](/handbook/total-rewards/compens
 
 #### Senior Director of Talent Brand & Talent Acquisition Enablement Responsibilities
 
-- Establish a 3-year global talent branding/marketing & enablement strategy and position talent brand & enablement as a core priority for Global Talent Acquisition and the recruiting community at Gitlab.
-- Overall responsibility for continuing and building upon the Gitlab global talent brand to position us as an employer of choice across all functions
+- Establish a 3-year global talent branding/marketing & enablement strategy and position talent brand & enablement as a core priority for Global Talent Acquisition and the recruiting community at GitLab.
+- Overall responsibility for continuing and building upon the GitLab global talent brand to position us as an employer of choice across all functions
 - Establish the talent value proposition; partnering internally to ensure a consistent experience throughout the employee lifecycle
 - Manage and own external vendors and award-body relationships. Ensuring that we are well positioned and intentional about the work with our external partners is a key part of this role (Glassdoor, Builtin, LinkedIN, GPTW, Forbes, Fortune etc)
 - Establish a recruiter talent brand “toolkit”

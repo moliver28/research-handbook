@@ -37,7 +37,7 @@ The Partner Integration Engineer is a [grade 6](/handbook/total-rewards/compensa
 - Contribute to the development of assets and knowledge tools for developer.gitlab.com portal.
 - Influence a positive outcome in partner relationships and technical projects.
 - Partner with appropriate stakeholders to make ongoing program and project decisions, leverage insights from the team, and make recommendations and/or decisions when issues arise.
-- Work with partners and customers to apply modern software development methodologies such as Agile and DevOps on GitLab’s modern devops platform.
+- Work with partners and customers to apply modern software development methodologies such as Agile and DevOps on GitLab’s modern DevOps platform.
 
 #### Partner Integration Engineer Requirements
 

@@ -80,7 +80,7 @@ work, this portion of the plan continues to pay part or all of the pension contr
 **Voluntary Pension Plan Summary:**
 
 - Extra Pension: Team members can make additional voluntary contributions to have extra funds to purchase a retirement pension and a partner's pension that pays benefits upon their death after retirement.
-- Extra Death Benefits: Team members with a partner have the option of insuring an extra partner's pension upon their death prior to the retirement date. The following [doc](https://drive.google.com/file/d/1NGD1MNEqYI-acKECh7xNR73su_c-xesK/view?usp=sharing) outlines additional information on how the voluntary ANW-gap pension works.
+- Extra Death Benefits: Team members with a partner have the option of insuring an extra partner's pension upon their death prior to the retirement date. The following [2024 doc](https://docs.google.com/document/d/1vHUp7koRsOMVZk87uMGIpU8QJ0NhRE7x/edit) outlines additional information on how the voluntary ANW-gap pension works.
 
 **Individual value transfer:**
 
@@ -118,7 +118,7 @@ Eligible team members may apply for the 30% Tax Ruling. More information can be 
 
 GitLab uses HR Savvy to assist with the administration of [the bike to work/tax saver commuter scheme](https://business.gov.nl/running-your-business/environmental-impact/making-your-business-sustainable/buy-or-lease-a-company-bicycle/).
 
-Cycle to work will have a maximum expenditure of 1200 EUR for a bike. The team members can avail this benefit every 2 years. This duration will be calculated based on the start date of the previously availed bike scheme benefit.
+Effective 15-02-2024, The Cycle to work plan's maximum purchase limit will increase to 2000 EUR for a bike. The team members can avail this benefit every 2 years. This duration will be calculated based on the start date of the previously availed bike scheme benefit.
 
 *Bike Applications:*
 
@@ -127,11 +127,11 @@ Cycle to work will have a maximum expenditure of 1200 EUR for a bike. The team m
 1. HR Savvy will purchase the bike on behalf of GitLab and send the invoice to Payroll.
 1. Payroll will reduce the team member's gross salary by the cost of the bike as per the addendum.
 
-If a team member would want to purchase a bike more expensive than the 1200 EUR maximum the process is as follows:
+If a team member would want to purchase a bike more expensive than the 2000 EUR maximum the process is as follows:
 
 - HRSavvy will invoice the seller for the entirety of the bike.
-- The difference between the cost of the bike and 1200 EUR will be deducted from the team member's net salary.
-- This means the team member will only have a tax benefit over the first 1200 euro.
+- The difference between the cost of the bike and 2000 EUR will be deducted from the team member's net salary.
+- This means the team member will only have a tax benefit over the first 2000 euro.
 
 ## GitLab B.V. Netherlands Leave Policy
 

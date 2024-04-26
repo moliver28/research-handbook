@@ -111,15 +111,15 @@ If the project requirements exceed the current capacity of the available resourc
     - Sr. Channel Solutions Mgr confirms that consultants have completed the [PSE Certificaton](https://levelup.gitlab.com/learn/learning-path/gitlab-certified-services-engineer-professional-learning-path) (at minimum the Migration & PM certs)
 
 1. Partner Onboarding
-    - Partner principals requests consultants to register on [Gitlab's Partner Portal](https://partners.gitlab.com).
+    - Partner principals requests consultants to register on [GitLab's Partner Portal](https://partners.gitlab.com).
         - GitLab Learn (Thought Industries)
             - [Migration](https://gitlab.edcast.com/pathways/gitlab-migration-services-engineer-pathway)
             - [Implementation](https://gitlab.edcast.com/pathways/gitlab-implementation-engineer-specialist-pathway)
             - Training
                 - [GitLab Certified Security Speialist](https://gitlab.edcast.com/pathways/gitlab-certified-security-specialist-pathway-for-gitlab-part)
-                - [Gitlab Certified CI/CD Specialist](https://gitlab.edcast.com/pathways/gitlab-certified-ci-cd-specialist-pathway-for-gitlab-partner)
-                - [Gitlab Certified Associate Pathway](https://gitlab.edcast.com/pathways/gitlab-certified-associate-pathway-for-gitlab-partners)
-                - [Gitlab Certfied Project Management Specialist](https://gitlab.edcast.com/pathways/gitlab-certified-project-management-specialist-pathway-for-g-this)
+                - [GitLab Certified CI/CD Specialist](https://gitlab.edcast.com/pathways/gitlab-certified-ci-cd-specialist-pathway-for-gitlab-partner)
+                - [GitLab Certified Associate Pathway](https://gitlab.edcast.com/pathways/gitlab-certified-associate-pathway-for-gitlab-partners)
+                - [GitLab Certfied Project Management Specialist](https://gitlab.edcast.com/pathways/gitlab-certified-project-management-specialist-pathway-for-g-this)
         - PSE Consultant Onboarding
             - Project Coordinator to schedule 30-45 min technical deep-dive with a Senior PSE to ensure consultant right match for project.
             - Interview results captured in partner tracking sheet

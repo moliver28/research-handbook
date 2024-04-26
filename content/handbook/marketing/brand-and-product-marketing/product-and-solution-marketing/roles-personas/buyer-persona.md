@@ -67,7 +67,7 @@ See the [Enterprise IT Roles page](/handbook/marketing/brand-and-product-marketi
 
 ![techexectristan](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/images/techexectristan.png)
 
-- **Job To Be Done:**  
+- **Job To Be Done:**
    - Lead the technology vision, strategy, innovation, and execution for the organization
 
 - **Summary:**
@@ -88,14 +88,14 @@ See the [Enterprise IT Roles page](/handbook/marketing/brand-and-product-marketi
 - **Reports to:**
    - CEO / Board
 
-- **Job Responsibilities:**  
+- **Job Responsibilities:**
    - Develop goals and strategies to ensure the IT department runs smoothly and effectively
    - Direct and establish IT-related projects
    - Monitor technology sector changes to discover ways the company can improve and develop
    - Supervise company networks and computer systems to ensure optimal performance
    - Plan and direct implementation of new IT systems
 
-- **Job is Measured by:**  
+- **Job is Measured by:**
    - Results / Speed (time to market)
 
 - **Goals & Objectives:**
@@ -110,19 +110,19 @@ See the [Enterprise IT Roles page](/handbook/marketing/brand-and-product-marketi
 - **Biggest Challenges:**
    - Siloed teams and workflows
    - The need to increase the speed of development
-   - Scaling efficiencies and new ways of working across multiple projects and environments  
+   - Scaling efficiencies and new ways of working across multiple projects and environments
    - Slow digital transformation initiatives
    - Current processes that do not scale
    - Hiring and training staff with relevant skill sets (skills gap)
    - Retention of people who do not want to work on uninteresting platforms
    - High cost of downtime
 
-- **Sources for Tech Purchasing Decisions:**  
+- **Sources for Tech Purchasing Decisions:**
    - Primary: Events & Meetups / Conference presos / Case studies / Webinars
    - Secondary: Announcements & Press releases / Websites / Blog posts / Email updates & Newsletters / Whitepapers
    - Tertiary: Podcasts
    - Internal Influencers: Data Consultants / Marketing / C-Suite / Engineering Team / Tech Leads / Developers / Peer Tech Execs
-  
+
 - **Purchasing Roles:**
 1. Influencer
 1. Decision-maker (relies on users/influencers for renewal decisions)
@@ -141,7 +141,7 @@ See the [Enterprise IT Roles page](/handbook/marketing/brand-and-product-marketi
 
 ![appdevavery](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/images/appdevavery.png)
 
-- **Job To Be Done:**  
+- **Job To Be Done:**
    - Drive application and product development activities
 
 - **Summary:**
@@ -161,17 +161,17 @@ See the [Enterprise IT Roles page](/handbook/marketing/brand-and-product-marketi
    - Application Development Executive (VP, etc) / Application Development Director / Application Development Manager / Product Development / Application Developer / Software Developer / Software Engineer
 
 - **Reports to:**
-   - Director or VP App Development  
+   - Director or VP App Development
 
-- **Job Responsibilities:**  
-   - Drive application and product development activities  
-   - Lead a team of full-stack developers  
+- **Job Responsibilities:**
+   - Drive application and product development activities
+   - Lead a team of full-stack developers
    - Manage the iteration cycle, ensure capacity, and participate in both high-level and detailed design for new product capabilities and improvements
    - Collaborate with architects and developers on specifications, designs, standards, code reviews, and test capabilities
    - Scale efficiencies and new ways of working across multiple projects and environments
    - Establish practices, processes, and platforms, working horizontally across Digital to govern and operationalize new technologies to enable their broad adoption
 
-- **Job is Measured by:**  
+- **Job is Measured by:**
    - Productivity / Speed
 
 - **Goals & Objectives:**
@@ -189,15 +189,15 @@ See the [Enterprise IT Roles page](/handbook/marketing/brand-and-product-marketi
 - **Biggest Challenges:**
    - The need to increase speed of development
    - Siloed teams and workflows
-   - Transition to DevOps is challenging for certain legacy workloads and environments  
+   - Transition to DevOps is challenging for certain legacy workloads and environments
    - Context switching between point solutions
 
-- **Sources for Tech Purchasing Decisions:**  
+- **Sources for Tech Purchasing Decisions:**
    - Primary: Analyst reports / Conference presos / Tech videos & demos / Webinars / eBooks
    - Secondary: Video stories from similar orgs / Events & Meetups (Developer Relations outreach) / Podcasts / Infographics / Websites
    - Tertiary: Social Media / Emails & Newsletters
    - Internal Influencers: Senior team members / Architects and Developer Advocates / Execs in Engineering and PLM Orgs / CTO / Head of DevOps /
-  
+
 - **Purchasing Role:**
 1. Influencer
 1. Likely an Initiator / Identifier of Need and Researcher
@@ -215,7 +215,7 @@ See the [Enterprise IT Roles page](/handbook/marketing/brand-and-product-marketi
 
 ![infosecshiloh](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/images/infosecshiloh.png)
 
-- **Job To Be Done:**  
+- **Job To Be Done:**
    - Secure and protect the organization against cyber risks
 
 - **Summary:**
@@ -224,7 +224,7 @@ See the [Enterprise IT Roles page](/handbook/marketing/brand-and-product-marketi
    - My biggest challenges are dealing with team silos and workflows and the lack of a strong security culture with the risk that entails
 
 - **My Messaging:**
-   - Gitlab offers one of the broadest breadths of security tools in the industry
+   - GitLab offers one of the broadest breadths of security tools in the industry
    - GitLab helps create a secure DevSecOps framework for the entire organization
    - By enabling Dev to find some security issues, GitLab enables InfoSec to focus on higher priorities
    - GitLab helps organizations extract more value from existing security tools
@@ -235,15 +235,15 @@ See the [Enterprise IT Roles page](/handbook/marketing/brand-and-product-marketi
 - **Reports to:**
    - CTO, CIO, CISO, or SVP of Engineering
 
-- **Job Responsibilities:**  
+- **Job Responsibilities:**
    - Drive application and product development activities
    - Monitor ongoing operations and actively hunt for and detect adversaries
    - Build and maintain a security-aware culture
    - Drive adoption and optimization of cyber tool sets for a streamlined user experience – implement appropriate controls while identifying opportunity for automation across the stack
    - Support migration to the public cloud, partnering with technology to implement modern security standards, specifically related to app development and delivery
 
-- **Job is Measured by:**  
-   - Number of Incidents / Time to Respond & Mitigate  
+- **Job is Measured by:**
+   - Number of Incidents / Time to Respond & Mitigate
 
 - **Goals & Objectives:**
    - Create and own a confidence-inspiring long-term security vision and strategy
@@ -257,7 +257,7 @@ See the [Enterprise IT Roles page](/handbook/marketing/brand-and-product-marketi
 
 - **Biggest Challenges:**  -
    - Silo’d teams and workflows
-   - Lack of a strong security culture and the risk that entails  
+   - Lack of a strong security culture and the risk that entails
    - The disjointed developer experience
    - Tool and process sprawl
    - Securing the software supply chain
@@ -265,12 +265,12 @@ See the [Enterprise IT Roles page](/handbook/marketing/brand-and-product-marketi
    - Lack of security culture prioritization (poor password hygiene leading to credential stuffing)
    - Securing the hybrid workforce with zero-trust
 
-- **Content Sources for Tech Purchasing Decisions:**  
+- **Content Sources for Tech Purchasing Decisions:**
    - Primary: Analyst reports / Conference presos / Research reports / Technical videos & demos / Webinars
    - Secondary: Blog posts / eBooks / Video stories from similar organizations / Infographics / Social Media /
    - Tertiary: Podcasts
    - Internal Influencers: C-Suite / Network Administrator / Directors, VPs and senior engineers & analysts / Evaluators / security management teams / CISO / IT SME / User Testing
-  
+
 - **Purchasing Role:**
 1. Influencer
 1. Researcher
@@ -288,7 +288,7 @@ See the [Enterprise IT Roles page](/handbook/marketing/brand-and-product-marketi
 
 ![platformperry](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/images/platformperry.png)
 
-- **Job To Be Done:**  
+- **Job To Be Done:**
    - Drive digital transformation, cloud migration / IT modernization, and DevSecOps transformation efforts
 
 - **Summary:**
@@ -310,14 +310,14 @@ scaling efficiencies and new ways of working across multiple projects and enviro
 - **Reports to:**
    - CIO or VP, Platform / Infrastructure
 
-- **Job Responsibilities:**  
+- **Job Responsibilities:**
    - Drive digital transformation, cloud migration/ IT moderniation, and DevSecOps transformation efforts
-   - Design and coordinate implementation of automated solutions to replace or enhance manual processes  
+   - Design and coordinate implementation of automated solutions to replace or enhance manual processes
    - Collect requirements, researches, and analyzes alternatives, and make recommendations for IT infrastructure solutions
    - Ensure that new IT infrastructure solutions are designed and deployed to meet functional, security and technical requirements
 
-- **Job is Measured by:**  
-   - Efficiency / Speed  
+- **Job is Measured by:**
+   - Efficiency / Speed
 
 - **Goals & Objectives:**
    - Break down artificial barriers between development and operations teams
@@ -338,16 +338,16 @@ scaling efficiencies and new ways of working across multiple projects and enviro
 
 - **Biggest Challenges:**
    - Transition to DevOps is challenging for certain legacy workloads and environments
-   - Silo’d teams and workflows  
+   - Silo’d teams and workflows
    - Scaling efficiencies and new ways of working across multiple projects and environments
-  
-- **Content Sources for Tech Purchasing Decisions:**  
+
+- **Content Sources for Tech Purchasing Decisions:**
    - Primary: Technical videos & demos / Conference presos / Analyst reports /B log posts / Case Studies
    - Secondary: Peer review sites / eBooks / Websites / Events & Meetups / Podcasts
    - Tertiary: Social media / Infographics
    - Internal Influencers: User & Quality Testing / PMs / Solutions & Tech Architects / Platform
 Engineers / C-Suite / Heads of Engineering & Data Science / DevOps Engineers / Innovation Team / IT Director / Head of Development & Sr. Developers / Peers / Partner companies
-  
+
 - **Purchasing Role:**
 1. Influencer
 1. Probably a researcher
@@ -366,7 +366,7 @@ Engineers / C-Suite / Heads of Engineering & Data Science / DevOps Engineers / I
 
 ![compliancecooper](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/images/compliancecooper.png)
 
-- **Job To Be Done:**  
+- **Job To Be Done:**
    - Maintain the company's legal and ethical integrity
 
 - **Summary:**
@@ -385,14 +385,14 @@ Engineers / C-Suite / Heads of Engineering & Data Science / DevOps Engineers / I
 - **Reports to:**
    - CEO / COO / CFO / CLO / Head of Compliance
 
-- **Job Responsibilities:**  
+- **Job Responsibilities:**
    - Policy planning, enforcement, and addressing compliance issues as they arise
    - Create and review regulatory compliance documentation
    - Coordinate creation, review, and implementation of policies and procedures resulting from new laws and regulations
    - Apply and interpret audit and compliance requirements for various departments
 
-- **Job is Measured by:**  
-   - Efficiency / Incidents that do NOT happen  
+- **Job is Measured by:**
+   - Efficiency / Incidents that do NOT happen
 
 - **Goals & Objectives:**
    - Assess and understand all risks (including risk of failing to meet regulatory compliance obligations) and then develop policies, procedures, and internal controls to keep risk at tolerable levels
@@ -406,13 +406,13 @@ Engineers / C-Suite / Heads of Engineering & Data Science / DevOps Engineers / I
    - Tool and process sprawl
    - Anything manual / lack of automation
    - Silo’d teams and workflows
-  
-- **Sources for Tech Purchasing Decisions:**  
+
+- **Sources for Tech Purchasing Decisions:**
    - Primary: Announcements & Press releases /Conference presos / Analyst reports / Case studies / Events & Meetups
    - Secondary: Email updates & newsletters / References & testimonials from customers / Blog posts / Peer review sites / Webinars
    - Tertiary: Social media / Podcasts
    - Internal Influencers: Tech management / C-Suite / Peers
-  
+
 - **Purchasing Role:**
 1. Decision-maker
 1. Influencer
@@ -429,7 +429,7 @@ Engineers / C-Suite / Heads of Engineering & Data Science / DevOps Engineers / I
 
 ![releaserory](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/images/releaserory.png)
 
-- **Job To Be Done:**  
+- **Job To Be Done:**
    - Ensure delivery milestones are met on time and with quality
 
  - **Summary:**
@@ -441,20 +441,20 @@ Engineers / C-Suite / Heads of Engineering & Data Science / DevOps Engineers / I
    - A single platform reduces tool sprawl and requires few integrations reducting associated maintenance
    - Establish success delivery porcesses by setting up prodcedural guidelines
    - Ease communication between different teams to build partnerships and develop solutions
-  
+
 - **Potential Titles:**
    - Manager/Director: Release and Change Management / Test, QA / Engagement / Scrum Master
-  
+
 - **Reports to:**
    - Head of Delivery
 
-- **Job Responsibilities:**  
+- **Job Responsibilities:**
    - Coordinates and manages the entire SDLC
    - Ensures teams can work together well to complete projects
    - Identifies functional requirements for each department to ensure the completion of SW development
    - Ensure the team delivers the project on time and according to cusotmer specifications
 
-- **Job is Measured by:**  
+- **Job is Measured by:**
    - Meeting Delivery Milestones (Velocity) / Quality
 
 - **Goals & Objectives:**
@@ -469,10 +469,10 @@ Engineers / C-Suite / Heads of Engineering & Data Science / DevOps Engineers / I
 
 - **Biggest Challenges:**
    - Tool and process sprawl
-   - My job restricts tooling choices (and I don’t like the tools I am allowed to use)  
+   - My job restricts tooling choices (and I don’t like the tools I am allowed to use)
    - Volume of required integrations (and associated maintenance)
 
-- **Sources for Tech Purchasing Decisions:**  
+- **Sources for Tech Purchasing Decisions:**
    - Primary: Announcements & Press releases / Blog posts / Analyst reports / Technical videos & demos / Social media
    - Secondary: eBooks / Case studies / Conference presos
    - Internal Influencers: Infrastructure Team
@@ -493,10 +493,10 @@ Engineers / C-Suite / Heads of Engineering & Data Science / DevOps Engineers / I
 
 ![pmpayton](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/images/pmpayton.png)
 
-- **Job To Be Done:**  
+- **Job To Be Done:**
    - Plan, govern, and oversee the delivery of new capabilities
 
- - **Summary:**  
+ - **Summary:**
    - I’m really motivated by being more effective and efficient
    - I’m both an Influencer and Decision-maker
    - My biggest challenges are that the transition to DevSecOps is challenging for certain legacy workloads and environments, the need to increase the speed of development, and the disjointed developer experience
@@ -513,7 +513,7 @@ Engineers / C-Suite / Heads of Engineering & Data Science / DevOps Engineers / I
 - **Reports to:**
    - Director of Program Mgmt.
 
-- **Job Responsibilities:**  
+- **Job Responsibilities:**
    - Daily program management throughout the program life cycle
    - Define the program governance (controls)
    - Plan the overall program and monitoring the progress
@@ -523,8 +523,8 @@ Engineers / C-Suite / Heads of Engineering & Data Science / DevOps Engineers / I
    - Manage and utilizing resources across projects
    - Manage stakeholder comms
 
-- **Job is Measured by:**  
-   - Productivity / Efficiency / ROI / Profit Margin / Timeliness  
+- **Job is Measured by:**
+   - Productivity / Efficiency / ROI / Profit Margin / Timeliness
 
 - **Goals & Objectives:**
    - Increase productivity
@@ -538,14 +538,14 @@ Engineers / C-Suite / Heads of Engineering & Data Science / DevOps Engineers / I
 
 - **Biggest Challenges:**
    - Transition to DevSecOps is challenging for certain legacy workloads and environments
-   - The need to increase the speed of development  
+   - The need to increase the speed of development
    - The disjointed developer experience
 
-- **Sources for Tech Purchasing Decisions:**  
+- **Sources for Tech Purchasing Decisions:**
    - Primary: Announcements & Press releases / Analyst reports / Blog posts / Conference presos / Video stories from similar organizations
    - Secondary: eBooks / Websites / Whitepapers
    - Tertiary: (Minimally) Webinars / Podcasts
-   - Internal Influencers: DevSecps Consultants / Developers / System Administrators / DBAs / PMO / Security / Product Management
+   - Internal Influencers: DevSecOps Consultants / Developers / System Administrators / DBAs / PMO / Security / Product Management
 
 - **Purchasing Role:**
 1. Influencer
@@ -562,7 +562,7 @@ Engineers / C-Suite / Heads of Engineering & Data Science / DevOps Engineers / I
 
 ![backofficeblake](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/images/backofficeblake.png)
 
-- **Job To Be Done:**  
+- **Job To Be Done:**
    - Manage, coordinate, and facilitate operational, (and often cross-functional) non-development related business activities
 
 - **Summary:**
@@ -583,13 +583,13 @@ Engineers / C-Suite / Heads of Engineering & Data Science / DevOps Engineers / I
    - Lower overall costs and see up to a 400% ROI
 
 - **Potential Titles:**
-   - CFO, VP Finance / Chief Legal Officer / COO / CMO, VP Mktg / CHRO, VP HR / Head of Procurement  
+   - CFO, VP Finance / Chief Legal Officer / COO / CMO, VP Mktg / CHRO, VP HR / Head of Procurement
 
 - **Reports to:**
    - CEO / President
 
-- **Job Responsibilities:**  
-  
+- **Job Responsibilities:**
+
    - Managing the procurement approval process
    - LegalOps
    - Everything as Code (Marketing / Training / etc.)
@@ -597,7 +597,7 @@ Engineers / C-Suite / Heads of Engineering & Data Science / DevOps Engineers / I
    - Project Management
    - Anything that requires SSOT functionality
 
-- **Job is Measured by:**  
+- **Job is Measured by:**
    - Efficiency / Productivity / (KPIs vary by Division)
 
 - **Goals & Objectives:**
@@ -610,18 +610,18 @@ Engineers / C-Suite / Heads of Engineering & Data Science / DevOps Engineers / I
 
 - **Biggest Challenges:**  -
    - Tool and process sprawl
-   - Anything manual / lack of automation  
+   - Anything manual / lack of automation
    - The need to increase the speed of development
    - Siloed teams and workflows
    - Scaling efficiencies and new ways of working across multiple projects and environments
    - Not being able to find/hire/retain the right skill sets
 
-- **Sources for Tech purchasing Decisions:**  
+- **Sources for Tech purchasing Decisions:**
    - Primary: Analyst reports / Case studies / Blog posts / References & testimonials from customers
 / Websites /Email updates / newsletters
    - Secondary: Announcements & Press releases / Peer review sites / Conference presos
    - Internal Influencers: Internal team / C-level / Software development lead
-  
+
 - **Purchasing Role:**
 1. Influencer
 1. Decision-maker

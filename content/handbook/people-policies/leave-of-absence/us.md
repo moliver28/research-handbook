@@ -5,7 +5,7 @@ description: "GitLab's United States Leave of Absence policies."
 
 These GitLab and US-specific leave policies are intended to provide team members time away from work to care for themselves as they recover from a serious health condition, care for a family member recovering from a serious health condition, or to bond with a newborn or a newly placed child for adoption.
 
-This page is designed to educate our team members about the different US-specific leave types available, how a team member can expect to be paid, and if their job is protected. These leave programs are coordinated and run concurrently with FMLA (Family Medical Leave Act), and other State leave programs team members are eligible for.
+This page is designed to educate our team members about the different US-specific leave types available, how a team member can expect to be paid, and if their job is protected. These leave programs are coordinated and run concurrently with the [Family Medical Leave Act](https://www.dol.gov/sites/dolgov/files/WHD/legacy/files/fmlaen.pdf) or (FMLA), and other State leave programs team members are eligible for.
 
 Taking time away can be confusing, so your Absence Managment team is here and available to help before, during, or after your leave. If you have any questions related to your time away after reviewing this page, please contact leaves@domain to discuss or request a 1:1 with the Absence Management team.
 
@@ -19,7 +19,6 @@ Below are the GitLab and US-specific leave policies available to US team members
 | Family Medical Leave Act<br>(FMLA) | I am having surgery<br>My family member* is seriously injured<br>I have recurring appointments for follow up care (chemotherapy, prenatal exams, etc)<br>I am bonding with my newborn or newly placed adopted child<br>I am caring for a family member seriously injured while on active duty | 1 year of service, AND<br>1250hrs worked in the <br>year immediately prior<br>to the start of leave |
 | California Family Rights Act (CFRA) | I am having surgery<br>My family member** is seriously injured<br>I have recurring appointments for follow up care (chemotherapy, etc)<br>I am bonding with my newborn, newly placed adopted or foster care child<br>I am caring for a family member seriously injured while on active duty | 1 year of service, AND<br>1250hrs worked in the <br>year immediately prior<br>to the start of leave |
 | Military Leave (USERRA) | I am being deployed<br>I am a reservist reporting for extended training (5 days or more) | Provided written or <br>verbal notice prior to<br>leave (if able) |
-| Unpaid Personal Leave | My situation doesn't really fit into any of the other leave program definitions | Fully performing in role<br><br>Manager approval |
 
 *FMLA Eligible Family Members: Spouse, Son, Daughter, Parent.
 
@@ -34,7 +33,6 @@ Below are the GitLab and US-specific leave policies available to US team members
 | [Family Medical Leave Act<br>(FMLA - Care for a Family Member)](#the-family-medical-leave-act-fmla) | Up to 12 weeks | Yes* |
 | [California Family Rights Act (CFRA)](https://www.edd.ca.gov/disability/faqs-fmla-cfra.htm) | Up to 12 weeks** | Yes |
 | Military Leave (USERRA) | Cumulative 5 years | Yes, up to 5 years* |
-| Unpaid Personal Leave | Up to 30 days<br>Requests in excess of 30 days require functional VP and group People Business Partner approval | No |
 
 *Except in certain circumstances
 
@@ -46,8 +44,9 @@ Below are the GitLab and US-specific leave policies available to US team members
 | [Family Medical Leave Act<br>(FMLA - Own Condition)](#payroll-processing-during-fmla) | 66.67% (STD) + 33.3% paid by GitLab per week<br>After 12 weeks:  <br>     66.67% (LTD) per month |
 | [Family Medical Leave Act<br>(FMLA - Care for a Family Member)](#the-family-medical-leave-act-fmla) | 100% for up to 25 working days
 | California Family Rights Act<br>(CFRA) | First 8 weeks:  60% (SDI/PFL) + 6.66% (STD) + 33.3% paid by GitLab<br>8-12 weeks:  60% (SDI - if applicable) + 6.66% (STD) + 33.3% paid by GitLab<br>After 12 weeks:  66.67% LTD paid by Cigna monthly (if eligible) |
-| [Military Leave (USERRA)](#us-military-leave) | First 25 days:  paid 100% by Gitlab<br>After 25 days:  Unpaid |
-| Unpaid Personal Leave | Unpaid |
+| [Military Leave (USERRA)](#us-military-leave) | First 25 days:  paid 100% by GitLab<br>After 25 days:  Unpaid |
+
+*If leave is taken continuously
 
 If you live in a state where disability or paid family leave benefits are available, GitLab will offset your pay minus these benefits. Please refer to GitLab's [Parental Leave]({{< ref "inc-benefits-us#parental-leave" >}}) policy for more information.
 
@@ -198,6 +197,10 @@ Paid Family Leave may also be available for use in situations when you or your m
 
 Eligible employees may take up to 12 weeks of leave. This leave can be taken either all at once or intermittently, but must be taken in full-day increments. You may take the maximum time-off benefit in any given 52-week period.
 
+- Paid Family Leave can be taken by employees who are eligible for time off under the provisions of FMLA. PFL will run concurrently with designated FMLA leave and GitLab's 16 weeks Parental Leave, when the reason for leave qualifies under PFL, FMLA, and GitLab's Parental Leave policy. Eligible employees must apply for both PFL and FMLA.
+- Generally, you may not receive short-term disability and Paid Family Leave benefits at the same time. You may not take more than 26 combined weeks of short-term disability and Paid Family Leave in a 52-week period.
+- If you are unable to work and qualify for workers’ compensation benefits, you may not use Paid Family Leave benefits at the same time as you are receiving workers’ compensation benefits. If you are working and receiving reduced earnings, you may be eligible for Paid Family Leave.
+
 **Pay**
 
 Paid Family Leave benefits provide 67% of your average weekly wage, capped at the same percentage of the New York State Average Weekly Wage. Visit PaidFamilyLeave.ny.gov for information on this year’s maximum weekly benefit, as well as a calculator to estimate your own benefits.
@@ -247,11 +250,11 @@ A family member includes:  Spouse, Domestic Partner, child and stepchild, Parent
 
 **Paid Family Leave Process and Contacts**
 
-At GitLab, requests for Paid Family Leave forms and forms submissions should be directed to the Absence Management Team (leaves@domain).  Our Paid Family Leave carrier is Cigna as a subsidiary of NYLife.
+At GitLab, requests for Paid Family Leave forms and forms submissions should be directed to the Absence Management Team (leaves@domain).  Our Paid Family Leave carrier is NYLife.
 
 **Disputes**
 
-If your Paid Family Leave claim is denied, the insurance carrier will provide you with information about how to request arbitration. A neutral arbitrator will decide claim-related disputes. Contact Cigna a subsidiary of NYLife.
+If your Paid Family Leave claim is denied, the insurance carrier (NYLife) will provide you with information about how to request arbitration. A neutral arbitrator will decide claim-related disputes.
 
 **Discrimination Complaints**
 

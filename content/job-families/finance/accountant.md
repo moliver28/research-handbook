@@ -95,7 +95,7 @@ The Manager, Accounting is a [grade 8](/handbook/total-rewards/compensation/comp
 - Detail-oriented, self-directed and able to effectively complete tasks with minimal supervision
 - Proficiency with GitLab
 - You share our [values](/handbook/values/), and work in accordance with those values.
-- [Leadership at GitLab](/handbook/company/team/structure/#management-group)
+- [Leadership at GitLab](/handbook/company/structure/#management-group)
 - Ability to use GitLab
 
 ## Senior Manager, Accounting

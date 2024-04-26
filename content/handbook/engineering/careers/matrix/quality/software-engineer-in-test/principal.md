@@ -5,7 +5,7 @@ description: "These are the expected competencies of a Principal Software Engine
 
 ## Quality Department Competencies: Principal
 
-{{% include "includes/engineering/quality-career-nav.md" %}}
+{{% include "includes/engineering-careers/quality-career-nav.md" %}}
 
 **Principal at GitLab are expected to exhibit the following competencies:**
 
@@ -17,15 +17,15 @@ description: "These are the expected competencies of a Principal Software Engine
 
 ### Principal Leadership Competencies
 
-{{% include "includes/engineering/principal-leadership-competency.md" %}}
+{{% include "includes/engineering-careers/principal-leadership-competency.md" %}}
   
 ### Principal Technical Competencies
 
-{{% include "includes/engineering/quality-principal-technical-competency.md" %}}
+{{% include "includes/engineering-careers/quality-principal-technical-competency.md" %}}
 
 ### Principal Values Alignment
 
-{{% include "includes/engineering/values-competency.md" %}}
+{{% include "includes/engineering-careers/values-competency.md" %}}
 
 ### Principal Career Matrix Worksheet
 

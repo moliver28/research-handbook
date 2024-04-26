@@ -11,7 +11,7 @@ title: "Auxiliary Solution Resource: Continuous Delivery"
 
 #### Who to contact
 
-| Product Marketing | Technical Marketing |
+| Product Marketing | Developer Advocate |
 | ---- | --- |
 | Daniel Hom (@danielhom) | Cesar Saavedra ( @csaavedra1 ) |
 
@@ -19,15 +19,15 @@ title: "Auxiliary Solution Resource: Continuous Delivery"
 
 ## Continuous Delivery
 
-> “Deployment is manual”  
-> “Functional tests are manual”  
-> “Time consuming or lack of rollback on performance degradation or production errors”  
-> “Hard to maintain environment configurations and hard to operate”  
-> “No consistency in deployment process”  
-> “Manual / hard coded configurations”  
-> “No standardized software artifact”  
-> “No release management in place”  
-> “Too dependent on other teams to get any release done”  
+> “Deployment is manual”
+> “Functional tests are manual”
+> “Time consuming or lack of rollback on performance degradation or production errors”
+> “Hard to maintain environment configurations and hard to operate”
+> “No consistency in deployment process”
+> “Manual / hard coded configurations”
+> “No standardized software artifact”
+> “No release management in place”
+> “Too dependent on other teams to get any release done”
 
 If these are the typical problems you face, Continuous Delivery is for you.
 
@@ -364,7 +364,7 @@ Premium  is ideal for scaling organizations for multi team usage, enabling organ
 ### Ultimate
 
 **Why choose GitLab Ultimate for CD?**
-[Ultimate](/pricing/ultimate/) is ideal for projects with executive visibility while managing priorities, security, risk, and compliance.
+[Ultimate](https://about.gitlab.com/pricing/ultimate/) is ideal for projects with executive visibility while managing priorities, security, risk, and compliance.
 
 **Key features with Ultimate:**
 - [Compliance dashboard](https://docs.gitlab.com/ee/user/compliance/compliance_dashboard) - high level view of project compliance status and merge request approvers

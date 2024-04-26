@@ -1,8 +1,9 @@
 ---
 title: Legal Intern
+description: Legal Interns work in GitLab Legal & Corporate Affairs on matters relating to employment, privacy and product, corporate affairs, and/or contracts.
 ---
 
-Legal Interns at GitLab may work within GitLab Legal, on matters relating to employment, privacy and product, corporate affairs, and/or contracts. This internship is open to law students, with a preference to those candidates who will have completed their 2L year by the time the internship starts, as an opportunity to further their professional legal experience and learn what a legal career in-house at an enterprise software company may entail. We desire to create an inclusive program that will provide a fair and equal opportunity for all qualifying candidates.
+This internship is open to law students, with a preference to those candidates who will have completed their 2L year by the time the internship starts, as an opportunity to further their professional legal experience and learn what a legal career in-house at an enterprise software company may entail. We desire to create an inclusive program that will provide a fair and equal opportunity for all qualifying candidates.
 
 ## Candidate Qualifying Criteria
 

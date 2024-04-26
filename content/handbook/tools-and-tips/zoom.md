@@ -148,6 +148,17 @@ Follow these steps to set it up:
 1. Tick the box for `Enable Global Shortcut` to `Mute/Unmute My Audio`
 1. You can map it to any keyboard shortcut such as `F1` (Cmd 1)
 
+### Recording Zoom meetings in HD
+
+1. Navigate to your [Zoom profile settings](https://gitlab.zoom.us/profile/setting).
+1. Click on the `Meeting` tab in the top menu.
+1. Click on the `In Meeting (Advanced)` side tab.
+1. Scroll down to the `Meeting-HD Video Quality` section and press the toggle.
+1. Select the `Full HD (1080P)` radio button.
+1. Press the `Save` button.
+
+Your settings will now be updated to record zoom meetings in full HD.
+
 ### Enabling the "Waiting Room" for your Personal Meeting Room
 
 It's recommended you enable the [Waiting Room](https://support.zoom.us/hc/en-us/articles/115000332726-Waiting-Room) feature for your personal meeting room to prevent others from joining (in the event of back-to-back meetings, for example).
@@ -193,7 +204,7 @@ Now all meetings that use your Personal Meeting ID (PMI) will require you to "ad
 
 ### Enable authenticated-only meeting attendees
 
-As an added security measure, you can restrict the meeting by requiring any attendee to be authenticated to Zoom with a Gitlab zoom account.
+As an added security measure, you can restrict the meeting by requiring any attendee to be authenticated to Zoom with a GitLab zoom account.
 This is meant to ensure only people who have logged in to Zoom can attend the meeting.
 This is not recommended for meetings with attendees that are not GitLab team members such as customers or someone interviewing for GitLab employment.
 It should be noted that this needs to be set up before the meeting, not during the meeting.
@@ -204,7 +215,7 @@ Here is a quick video tutorial how to do this:
 
 **Steps for a new meeting:**
 
-1. During the meeting creation, in the Security section there is an option in the Zoom client that says: "Only authenticated users can join: Gitlab Internal Only" or select the "Sign in to Zoom" option so users with any Zoom account can join. Click the check box next to this option.
+1. During the meeting creation, in the Security section there is an option in the Zoom client that says: "Only authenticated users can join: GitLab Internal Only" or select the "Sign in to Zoom" option so users with any Zoom account can join. Click the check box next to this option.
 1. If you are in Zoom via the browser, the option is still in the Security section but is labeled: "Require authentication to join".
 1. Proceed as normal with your meeting creation, and click Save.
 1. This process only works in the Zoom client or from the gitlab.zoom.us website. If you're scheduling it within Google calendar, schedule as normal and edit the meeting following the steps in the next section for an existing meeting.

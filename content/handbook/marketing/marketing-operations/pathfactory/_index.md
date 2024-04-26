@@ -53,7 +53,7 @@ PathFactory is not a single source of truth (SSoT) for all GitLab content, but r
 
 ## Access
 
-The Marketing Operations team is responsible for managing access requests & provisioning the appropriate level of access for each role/function. PathFactory is not provisioned as a baseline entitlement. If you or your team require access, please open a [`Single Person Access Request` issue](/handbook/business-technology/team-member-enablement/onboarding-access-requests/access-requests/) and provide business reason why access is needed. For certain permissions or roles, you may be required to go through training before access is provisioned.
+The Marketing Operations team is responsible for managing access requests & provisioning the appropriate level of access for each role/function. PathFactory is not provisioned as a baseline entitlement. If you or your team require access, please open a [`Single Person Access Request` issue](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/) and provide business reason why access is needed. For certain permissions or roles, you may be required to go through training before access is provisioned.
 
 ### User Roles
 
@@ -79,7 +79,7 @@ For more info on the capabilities of each role, [see the knowledge base article]
 | Field Marketing | `Author` (select users), `Viewer` (select users) | Upload content from virtual workshops, clone existing workshop tracks for use in follow-up emails, view content performance |
 | Account-Based Marketing | `Author` | Add content, create and edit content tracks for use in campaigns |
 | Customer Reference Programs | `Author` | Upload new case studies and customer content |
-| Developer Evangelism | `Author` | Upload new technical content |
+| Developer Adbo | `Author` | Upload new technical content |
 | Sales Development Representative (SDR) | `Sales user` (PathFactory for Sales only) | PathFactory for Sales (SFDC) |
 | All Remote | `Author` | Upload new all remote content, create and edit content tracks for use in all-remote campaigns |
 | Partner Marketing | `Author` (select users) | View content library, create and clone content tracks for partners, reporting |

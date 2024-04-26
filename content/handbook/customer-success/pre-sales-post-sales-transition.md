@@ -28,17 +28,16 @@ If a customer will be on Dedicated, the account team should notify the CSM Manag
 
 ## Transition Quick Summary
 
-| | Commercial | Enterprise |
-| ---  | ---   | ---   |
-| **Who** coordinates the CSM introduction? | Account Executive | Solutions Architect |
-| **When** does the introduction happen? | `Closed Won` | `3-Technical Evaluation` or `4-Proposal` |
-| **Why** does the introduction happen at this stage? | Since assignments are multifaceted, a CSM/CSM manager typically needs to make the assignment. This is triggered automatically on `Closed Won`, however prior to that the account team can [request a CSM via an issue](https://gitlab.com/gitlab-com/customer-success/tam-triage-boards/commercial/-/issues/new) . | Introduce the CSM when business value discussions are still being had within the account, allowing them to build relationships with the key strategic decision-makers and help the customer visualize their implementation journey. This sets the CSM up for continued engagement at the right level within the account. |
-| **How** does the introduction get scheduled? | SA/AE will send an introduction email to the customer team or schedule a "Welcome to GitLab" call. | SA will schedule a "Welcome to GitLab" call with the customer team, after having synced internally with the full [account team](/handbook/customer-success/account-team/) (inc. CSM) |
-| **Where** can the CSM access account information? | - Custom Pitch Deck <br> - Command Plan  <br> - POV (when applicable) <br> - Customer Strategy/Value Plan | - Customer Meeting Notes Doc <br> - Command Plan <br> - Account Plan <br> - Customer Strategy/Value Plan|
+| ---  |  ---   |
+| **Who** coordinates the CSM introduction? | Solutions Architect |
+| **When** does the introduction happen? | `3-Technical Evaluation` or `4-Proposal` |
+| **Why** does the introduction happen at this stage? | Introduce the CSM when business value discussions are still being had within the account, allowing them to build relationships with the key strategic decision-makers and help the customer visualize their implementation journey. This sets the CSM up for continued engagement at the right level within the account. |
+| **How** does the introduction get scheduled? | SA will schedule a "Welcome to GitLab" call with the customer team, after having synced internally with the full [account team](/handbook/customer-success/account-team/) (inc. CSM) |
+| **Where** can the CSM access account information? | - Customer Meeting Notes Doc <br> - Command Plan <br> - Account Plan <br> - Customer Strategy/Value Plan|
 
-## Enterprise CSM Transition Process
+## CSM Transition Process
 
-In enterprise deals we want to introduce the CSM to the customer while they are still a prospect nearing the end of [stage](/handbook/sales/field-operations/gtm-resources/) `3-Technical Evaluation` or when transitioning to `4-Proposal`.
+We want to introduce the CSM to the customer while they are still a prospect nearing the end of [stage](/handbook/sales/field-operations/gtm-resources/) `3-Technical Evaluation` or when transitioning to `4-Proposal`.
 
 ### Why do we begin the transition prior to the sale?
 
@@ -128,42 +127,9 @@ During customer onboarding, the SA may choose to stay engaged with the customer 
 
 Once the account is fully transitioned to post-sales, the SA may be invited by the CSM to [re-engage under certain circumstances](#re-engaging-the-saeae-and-sa).
 
-## Commercial CSM Transition Process
-
-A successful transition happens when a customer does not have to repeat themselves in regards to their technical environment and goals they have in mind with leveraging GitLab.
-
-In commercial deals the CSM ought to be introduced at time of assignment which occurs after the deal moves to `Closed Won`.  For opportunities where the CSM assignment is known or there has been an in-depth technical evaluation, it is encouraged to engage the CSM team earlier in the sales life cycle so that the technical requirements can be seamlessly brought over from the pre-sales and into the post-sales technical motions.
-
-The collective account team (AE / SA (when assigned) / CSM) should organize an internal sync to properly handover any technical details of the customer. The goal of this meeting is to give the CSM enough context to engage with the customer without them having to re-hash their current state and near-term desired state with GitLab.
-
-<!-- NOTE: Is there an Internal Account Team Meeting expected in commercial handover? -->
-
-### CSM introduction to the customer
-
-At the conclusion of the pre-sales engagement, the Account Executive should set up an introduction to the CSM, provide the customer an overview of the CSM role, position the CSM as the primary success manager to help the customer achieve their positive business outcomes as identified in the Command Plan.
-
-The AE/SA will need to ensure that Command Plan and Pitch Deck (R7) are complete before scheduling an internal transition meeting to brief the CSM. AE/SA will then introduce the CSM via email.
-
-From this initial introduction, the CSM should schedule the kickoff meeting with the customer to go into more detail about the customer's objectives and the CSM program. Please [review the details for the CSM kickoff call](/handbook/customer-success/csm/onboarding/#kickoff-call) to learn more about how to conduct this meeting.
-
-### Shifting responsibility from AE & SA to CSM
-
-Once the account is in post-sales, the CSM takes primary responsibility for guidance & best practices conversations, customer enablement, and product usage. Most responsibilities of the AE & SA will transition to the CSM at this point.
-
-During customer onboarding, the SA may choose to stay engaged with the customer to help facilitate a seamless introduction and address any ongoing activities from the Customer Strategy Plan. This should be done in such a way as to allow the CSM to take over those activities, so all conversations with the customer on these items should include the CSM.
-
-Once the account is fully transitioned to post-sales, the SA may be invited by the CSM for the following activities:
-
-- POV for an additional business unit or a license tier upgrade
-- Professional Services scoping and discovery for a [Statement of Work](/handbook/customer-success/professional-services-engineering/working-with/#custom-services-sow-creation-and-approval)
-- Support of Lunch & Learns, GitLab Days, and on-site evangelism opportunities
-- Executive Business Reviews (EBRs)
-
-The SA may also be involved, as needed and at the discretion of the SA & their manager, to support customer enablement, EBR delivery, product demo, or other customer-facing activities for which the CSM may ask for assistance.
-
 ## Re-Engaging the SAE/AE and SA
 
-Common to both Enterprise and Commercial activity, there are instances where the CSM will need to reengage the SAE/AE and SA. Here are a few examples of customer requests the CSM can listen for in order to reengage them:
+There are instances where the CSM will need to reengage the SAE/AE and SA. Here are a few examples of customer requests the CSM can listen for in order to reengage them:
 
   - Development of expansion plans with the SAE and CSM leading to tier upgrades
   - A POV, product evaluation, RFP, or security begins for a "new" single team or an enterprise-wide tier upgrade not for renewal purposes

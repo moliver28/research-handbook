@@ -55,7 +55,7 @@ If you find that you need to make adjustments to the group/subgroup structure, y
 
 There are several reasons you might wish to generate sample data within your group or projects. These projects are empty by default, and testing user behavior on an empty project is not very accurate or realistic. It can be time consuming and tedious to handcraft an entire project’s worth of sample data, so we’ve created a few options to populate your projects with sample data through Ruby scripts.
 
-**Note:** Not every type of data can be generated, especially in more complex setups. To get an idea of what is and isn’t possible, check the [Gitlab Ruby gem documentation](https://www.rubydoc.info/gems/gitlab/Gitlab/Client).
+**Note:** Not every type of data can be generated, especially in more complex setups. To get an idea of what is and isn’t possible, check the [GitLab Ruby gem documentation](https://www.rubydoc.info/gems/gitlab/Gitlab/Client).
 
 For questions or troubleshooting, reach out to @leducmills on Slack.
 
@@ -145,6 +145,10 @@ Don't:
 
 ## FAQ
 
-**Q: How how do you change the user password in the UX sandbox so that you can use a different password for each participant in a usability study?**
+**Q: How do you change the user password in the UX sandbox so that you can use a different password for each participant in a usability study?**
 
 A: Follow the steps on how to change the passwords on user profiles outlined in this [video](https://youtu.be/yul5yDoEAKE)
+
+**Q: Is it possible to use the UX sandbox for unmoderated usability tests? If so, how?**
+
+A: Yes! Once you have a sample project and a test account with the correct permissions set up, you can use UserTesting to run each test 1 by 1. Make sure to include login credentials for users and the link to the UX sandbox environment. Once the test is complete, make any updates necessary for the test project, update the password for the test user, and finally, update the login credentials in the test script. Continue following those steps until you reach the target number of participants for your study.

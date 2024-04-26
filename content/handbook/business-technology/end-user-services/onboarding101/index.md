@@ -1,6 +1,6 @@
 ---
 
-title: "Gitlab IT 101"
+title: "GitLab IT 101"
 ---
 
 
@@ -9,9 +9,9 @@ title: "Gitlab IT 101"
 
 
 
-## Welcome To Gitlab!
+## Welcome To GitLab!
 
-Congratulations on joining Gitlab! This page is dedicated to the IT onboarding experience, here at Gitlab we use many applications and the latest hardware to enable you to complete your work to the best of your ability! While it may seen a little bit overwhelming at the start the Team member enablement team is here to make the process as easy as possible!
+Congratulations on joining GitLab! This page is dedicated to the IT onboarding experience, here at GitLab we use many applications and the latest hardware to enable you to complete your work to the best of your ability! While it may seen a little bit overwhelming at the start the Team member enablement team is here to make the process as easy as possible!
 
 ## Getting Started
 
@@ -34,7 +34,7 @@ Tip: After setup, if you don’t see the Wi-Fi status icon in the menu bar, you 
 
 #### Apple ID
 
-- We recommend creating a new Apple ID for Gitlab to keep your personal and work data separate. You can also reimburse apps using an Apple ID created with your Gitlab account. Your Apple ID consists of an email address and a password. It’s the account you use for everything you do with Apple—including using the App Store, Apple TV app, Apple Book Store, iCloud, Messages, and more.
+- Please create a new Apple ID for GitLab using your @gitLab.com email address to keep your personal and work data separate. You can also reimburse apps using an Apple ID created with your GitLab account. Your Apple ID consists of an email address and a password. It’s the account you use for everything you do with Apple—including using the App Store, Apple TV app, Apple Book Store, iCloud, Messages, and more.
 
 #### Initial Setup Part 2
 
@@ -42,7 +42,7 @@ Tip: After setup, if you don’t see the Wi-Fi status icon in the menu bar, you 
 
 - **Enable Siri and “Hey Siri”**: You can turn on Siri and “Hey Siri” (so you can speak your Siri requests) during setup. To enable “Hey Siri,” speak several Siri commands when prompted. To learn how to turn on Siri and “Hey Siri” later and for information about using Siri on your Mac, see Siri on your Mac.
 
-- **Store files in iCloud**: With iCloud, you can store all of your content—documents, movies, music, photos, and more—in the cloud, and access it anywhere you go. Be sure to sign in with the same Apple ID on all your devices. To set this option later, open System Preferences and sign in with your Apple ID if you haven’t already. Click Apple ID, click iCloud in the sidebar, then select the features you want to use. To find out more, see Access your iCloud content on your Mac.
+- **Store files in iCloud**: iCloud has the ability to store desktop and documents in iCloud. As our Cloud Storage option is Google Drive, please make sure this feature is disabled. Anything of importance for work should be stored in Google Drive, a GitLab Issue, or the Handbook based on the type and [data classification](https://handbook.gitlab.com/handbook/security/data-classification-standard/) of the information. 
 
 - **Choose an appearance**: Select Light, Dark, or Auto for your desktop appearance. If you want to change the choice you make during setup, open System Preferences, click General, then select an appearance option. You can also set other preferences here.
 
@@ -72,7 +72,7 @@ Check out [this detailed page](/handbook/tools-and-tips/linux/) on setting up yo
 
 ### Endpoint Management
 
-MacBook: You are required to install Jamf on your MacBook for security and compliance reasons. Please check [this guide](/handbook/business-technology/end-user-services/onboarding-access-requests/endpoint-management/jamf/#enrolling-in-jamf) for assistance!
+MacBook: You are required to install Jamf on your MacBook for security and compliance reasons. Please check [this guide](https://internal.gitlab.com/handbook/it/endpoint-tools/jamf/#enrolling-in-jamf) for assistance!
 
 Linux: Currently we do not have an endpoint management tool for Linux. However we do have [a tool](/handbook/business-technology/end-user-services/onboarding-access-requests/#fleet-intelligence--remote-lockwipe) that we use to wipe and lock them if needed.
 

@@ -234,7 +234,7 @@ The Director, Global People Operations is a [Grade 10](/handbook/total-rewards/c
 - Business insight and high EQ to successfully collaborate with executives and business partners at all levels.
 
 - You share our [values](/handbook/values/), and work in accordance with those values.
-- [Leadership at GitLab](/handbook/company/team/structure/#director-group)
+- [Leadership at GitLab](/handbook/company/structure/#director-group)
 - Ability to use GitLab
 
 ## Senior Director, Global People Operations
@@ -273,7 +273,7 @@ The Director, Global People Operations is a [Grade 11](/handbook/total-rewards/c
 - Business insight and high EQ to successfully collaborate with executives and business partners at all levels.
 
 - You share our [values](/handbook/values/), and work in accordance with those values.
-- [Leadership at GitLab](/handbook/company/team/structure/#director-group)
+- [Leadership at GitLab](/handbook/company/structure/#director-group)
 - Ability to use GitLab
 
 ### Hiring Process

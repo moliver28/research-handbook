@@ -3,42 +3,11 @@ title: "Sales Development Organization Roles"
 summary: " "
 ---
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/eHzmPIL-TB0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <br>
 
-## Levels
+## Sales Development Job Levels
 
-### Business Development Associate (BDA)
-
-The Business Development Associate (BDA) reports to the Enterprise BDR Manager and is focused on sourcing and support.
-
-#### Business Development Associate Job Grade
-
-The Business Development Associate is a [grade 5](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
-
-#### Business Development Associate Responsibilities
-
-- Building target lists of account and leads based on lead flow and need within specific territories
-- Create sequences based on Field Marketing requests
-- Work leads from Field Marketing virtual events
-- Support SDRs by researching accounts from targeted lists
-- Support vacant territories as needed
-- Build up to SDR activity metrics as leads become available
-- Learn SDR Process and structure, specifically the SDR tech stack
-- Prepare to move into SDR Role
-- Complete Tanuki tech 100 level
-
-#### Business Development Associate Requirements
-
-- Relevant work place experience
-- Ability to demonstrate transferable skill set
-- Willingness to be coached and trained
-- Determination, curiosity, and creative problem solving
-- If in EMEA, fluency in spoken and written German or French or other European languages will be an advantage
-- If in LATAM, fluency in Portuguese and Spanish is required
-- Willingness to work towards requirement and responsibilities of SDR (Intermediate)
-- Ability to use GitLab
 
 ### Sales Development Representative (SDR)
 
@@ -154,7 +123,7 @@ The Business Development Representative Team Lead reports to the SDR/BDR Manager
 
 #### Business Development Representative Team Lead Job Grade
 
-The Business Development Representative Team Lead is a [grade 6](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+The Business Development Representative Team Lead is a [grade 5](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
 #### Business Development Representative Team Lead Responsibilities
 
@@ -235,7 +204,7 @@ BDR (Expand) focuses on existing customers and their subsidiaries.
 
 SDRs and BDRs become eligible for promotion after 12 months in role and based on performance attainment.
 Promotions are also subject to business need and require a formal application and interview process, and are not considered a given promotion.
-Within the Sales development organization, the career path is the following: Business Development Associate to Sales Development Representative to Business Development Representative.
+Within the Sales development organization, the career path is the following: Sales Development Representative to Business Development Representative.
 Typically after BDR, our team members interview for roles such as : Manager, Sales Development, Inside Sales Representative, and Account Executive, SMB.
 GitLab is one of the fastest growing companies and there are a lot of less conventional career paths. While we strongly encourage our team members to pursue the job opportunities that are right for them, it is important to understand that those paths may take longer to materialize.
 

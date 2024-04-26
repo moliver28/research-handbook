@@ -9,7 +9,7 @@ Maximize GitLab's long-term valuation by enabling eGroup and FP&A to plan, prior
 
 ## Our objectives
 
-1. Facilitate aligned cross-functional execution of GitLab's [strategy]({{< ref "strategy" >}})
+1. Facilitate aligned cross-functional execution of GitLab's [strategy](/handbook/company/strategy)
 1. Bring predictability and operational rigor to GitLab
 1. Ensure financial and operational goals of GitLab are defined, documented and achieved
 1. Evangelize awareness of strategy and each departments role in achieving it
@@ -41,7 +41,7 @@ FP&A comprises five different sub-teams to support our FP&A goals:
 
 - [Finance Issue Tracker](https://gitlab.com/gitlab-com/finance/issues)
 - [Analytics Issue Tracker](https://gitlab.com/gitlab-data/analytics) for all data, dashboard, or reporting requests
-- [FP&A Job Ladder]({{< ref "/job-families/finance/finance-planning-and-analysis" >}})
+- [FP&A Job Ladder](/job-families/finance/finance-planning-and-analysis)
 - [Adaptive Insights]({{< ref "./adaptive-insights" >}})
 
 ### Key Slack Channels
@@ -353,6 +353,7 @@ Financial Planning & Analysis (FP&A) team is the owner of SSOT for GitLab’s **
 - Hiring Plan is maintained by the Finance Business Partners (FBPs) and shared with Talent Acquisition (TA) team and Business Partners (BPs)
 - Finance owns the Hiring Plan to ensure there is only one Headcount Forecast and Hiring Plan for the business
 - Hiring Plan increases our predictability as a company and streamlines the hiring process
+- Based on historical time to start data, new requisitions released via RLOA in a quarter can be expected to start in the following quarter at the earliest
 - For questions specific to TA’s process and REQ creation, please refer to [TA’s section of the handbook](/handbook/hiring/talent-acquisition-framework/req-creation/)
 
 ### Position ID (PID)
@@ -510,7 +511,7 @@ FP&A team is the owner and maintainer of SSOT for GitLab’s Hiring Plan
 
 The FP&A team and Talent Acquisition Managers collaborate to ensure understanding and implementation of the most up-to-date view of forecasted headcount-related expenses. This interlock enables GitLab to respond quickly and make live decisions through a weekly P&L forecast and the [rolling list of asks (RLOA) process](/handbook/finance/financial-planning-and-analysis/#rolling-list-of-asks-rloa). This process also ensures alignment and accuracy of headcount forecasts when FP&A locks its annual plan and monthly rolling forecasts. This process also tracks company metrics against Wall Street expectations related to non-GAAP operating income and non-GAAP earnings per share. Please see the [Headcount Metrics and Processes page](https://gitlab.com/-/ide/project/gitlab-com/www-gitlab-com/tree/master/-/sites/handbook/source/handbook/finance/financial-planning-and-analysis/headcount-metrics-and-processes/) for definitions and key metrics.
 
-#### Headocunt Live Dashboards
+#### Headcount Live Dashboards
 
 The Hiring Plan data is divided into four headcount forecast templates, one for each cost center with Cost of Goods Sold allocated among Sales and R&D. The data and analysis from the four templates roll into the Summary file. The four templates can be found in the [Headcount Live Summary Dashboard](https://docs.google.com/spreadsheets/d/1LmMiPMeBu2jW6APZ1SDNOk1OgLN6pyB01TrEVza40us/edit#gid=1019520422).
 
@@ -553,7 +554,7 @@ A manual on how to update and maintain Adaptive integration can be found [here](
 
 Adaptive Quarterly Roadmap
 - The current Adaptive roadmap can be found [here](https://docs.google.com/spreadsheets/d/1vfJHmKmLJo2vSkOnN_pKh7cXh--IdE5CiQIy6X2JQKc/edit#gid=0)
-- We expect to transition roadmap and requests into Gitlab issues by Q2-FY23.
+- We expect to transition roadmap and requests into GitLab issues by Q2-FY23.
 - Corporate FP&A will host Adaptive intake sessions with the larger FP&A team to intake, align and prioritize current and future projects.
 
 ## Rolling List of Asks (RLOA)
@@ -596,19 +597,20 @@ Adaptive Quarterly Roadmap
 
    *Note: WD is defined as Working Days, which are Mondays through Fridays, excluding Federal holidays.*
 
-### Q3-FY24 RLOA Timeline
+### Q2-FY25 RLOA Timeline
 
-- **Through early August 2023,** FP&A maintains alignment with business needs.
+- **Through early May 2024,** FP&A maintains alignment with business needs.
     - FBPs, **with the functional leader(s),** maintain a RLOA file of key incremental investments from the business
     - FBPs, **with the functional leader(s),** prioritize the RLOA and develop a recommendation following the below timeline
-- **2023-07-31:** Corporate FP&A kicks off RLOA and shares detailed daily calendar with FBPs
-- **2023-08-04 noon Pacific:** RLOA asks submitted via finance business partners
-- **2023-08-14 to 15:** Forecast pencils down
-    - Corporate FP&A and VP of Finance review Forecast and RLOA submissions to determine funding by 2023-08-14 EOD
-    - Corporate FP&A provide Prelim Forecast vs. Final Forecast view to FBPs
-    - FP&A does lap with TA to review RLOA asks to determine recruiting feasibility
-    - Final Forecast Lock (pre-tax) on 2023-08-15 used for earnings call
-- **2023-08-17:** CFO review RLOA proposal based on Forecast vs. Street Consensus performance
-- **2023-08-21:** At eGroup Meeting, CFO shares proposal for formal approval and inclusion into investor guidance
-    - Corporate FP&A updates this section of the Handbook page with the timeline for the next RLOA cycle
-    - After formal approvals, business, FP&A, and TA collaborate to execute on RLOA approved asks
+- **2024-04-30:** Corporate FP&A kicks off RLOA and shares detailed daily calendar with FBPs
+- **Week of 2024-05-06 noon Pacific:** RLOA asks submitted via finance business partners
+- **Week of 2024-05-13:** Forecast pencils down
+   - Corporate FP&A and VP of Finance review Forecast and RLOA submissions to determine funding
+   - Corporate FP&A provide Prelim Forecast vs. Final Forecast view to FBPs
+   - FP&A does lap with TA to review RLOA asks to determine recruiting feasibility
+   - Final Forecast Lock (pre-tax) on 2024-05-15 used for earnings call
+- **Week of 2024-05-13:** CFO review RLOA proposal based on Forecast vs. Street Consensus performance
+- **Week of 2024-05-20:** At eGroup Meeting, CFO shares proposal for formal approval and inclusion into investor guidance
+   - Corporate FP&A updates this section of the Handbook page with the timeline for the next RLOA cycle
+   - After formal approvals, business, FP&A, and TA collaborate to execute on RLOA approved asks
+

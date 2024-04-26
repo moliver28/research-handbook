@@ -137,6 +137,12 @@ If an account was deleted by an admin, try searching with these filters:
 
 Observe the results. There should be only one result if the account that was filtered for was deleted within the specified timeframe.
 
+If you suspect an account was deleted by the cron job that deletes [unconfirmed accounts](https://docs.gitlab.com/ee/user/gitlab_com/#email-confirmation), try searching with these filters:
+
+1. Change to the `pubsub-sidekiq-inf-gprd*` index.
+1. Add a positive filter on `json.meta.user` for the username of the user. (Alternatively, you can use `json.args.keyword` and use the User ID of the user if you have that).
+1. Add a positive filter on `json.class` for `DeleteUserWorker`.
+
 #### Disable Two Factor Authentication
 
 - [Quick link to search](https://log.gprd.gitlab.net/goto/5598ea40-a651-11ed-9f43-e3784d7fe3ca)
@@ -192,11 +198,18 @@ In the `pubsub-rails-inf-gprd-*` log:
 
 1. Set the date range to a value that you believe will contain the result. Set it to `Last 7 days` if you're unsure.
 1. Add a positive filter on `json.path` for:
-  - `/api/scim/v2/groups/<group name>` when looking at the SCIM requests for a whole group. This path can also be found in the group's SAML settings.
-  - `/api/scim/v2/groups/<group name>/Users/<user's SCIM identifier>` when looking at the SCIM requests for a particular user.
+   - `/api/scim/v2/groups/<group name>` when looking at the SCIM requests for a whole group. This path can also be found in the group's SAML settings.
+   - `/api/scim/v2/groups/<group name>/Users/<user's SCIM identifier>` when looking at the SCIM requests for a particular user.
 1. Add a positive filter on `json.methhod` for `POST` or `PATCH` (first time provisioning or update/de-provisioning respectivley).
-
 1. Check `json.params.value` for information.
+
+In cases where the SCIM provisioned account is deleted:
+
+1. Follow the above steps and get the `correlation_id` from the provisioning record with `POST` as `json.method`.
+1. Go to the [Correlation Dashboard](#correlation-dashboard) and search for the relevant `correlation_id`.
+1. In the results, look for records in the `Correlation Dashboard - Web` section, and an entry with `elasticsearch` as `json.subcomponent`. In that entry, find the `user_id` in `json.tracked_items_encoded` in the format of `[[numbers,"User <user_id> user_<user_id>"]]`.
+
+To investigate if the user was deleted due to an unconfirmed email, follow the [Deleted User](#deleted-user) procedure.
 
 #### Searching for Deleted Container Registry tags
 
@@ -218,11 +231,9 @@ Kibana is not typically used to locate `5XX` errors, but there are times where t
 1. Obtain the full URL the user was visiting when the error occurred.
 1. [Log in to Kibana](https://log.gitlab.net/app/kibana#).
 1. Select the correct time filter (top right) - e.g last 30 minutes, 24 hours, or 7 days.
-1. Use the search field to narrow down the results. For example you can search the `gitlab-ee` project for any mention of `error` using the following query:
-
-```plaintext
-"gitlab-ee" AND "error"
-```
+1. In the search field, type `json.path : "the_path_after_gitlab.com_from_the_URL"`
+1. Choose relevant fields from the sidebar. For a `500` error, you want to filter for `json.status` and choose `is`, then enter `500`.
+1. Continue to use relevant fields from the list on the sidebar to narrow down the search.
 
 It's recommended to apply a **Negative Filter** to the `gitlab_error.log` and `gitlab_access.log` log files. These two generate a large amount of noise and may not be relevant to your search.
 
@@ -363,8 +374,25 @@ In case you have the namespace details, get the **Namespace ID** then go to `htt
 
 #### Check user actions on a repository
 
-When looking at the `pubsub-rails-inf-gprd-*` index, you can determine if a user has recently cloned, pushed, or downloaded a repository. You can filter by `json.username`, `json.path` (the repository), and `json.action` to find specific events:
+When looking at the `pubsub-rails-inf-gprd-*` index, you can determine if a user has recently cloned/pushed (with HTTPS), or downloaded a repository. You can filter by `json.username`, `json.path` (the repository), and `json.action` to find specific events:
 
 - [`action: git_upload_pack`](https://log.gprd.gitlab.net/app/r/s/dLqA1) is when someone performs a clone of a repository.
 - [`action: git_receive_pack`](https://log.gprd.gitlab.net/app/r/s/lRA1L) is when someone push's a repository.
 - [`action: archive`](https://log.gprd.gitlab.net/app/r/s/Lxx9w) is when someone downloads a repository via the `Download source code` button in the UI.
+
+To search for `git` activity over SSH, you can instead look in the `pubsub-shell-inf-gprd-*` index for specific events (note the minus signs instead of underscores):
+
+- [`command: git-upload-pack`](https://log.gprd.gitlab.net/app/r/s/B0qHS) is when someone performs a clone over SSH.
+- [`command: git-receive-pack`](https://log.gprd.gitlab.net/app/r/s/p3J0W) is when someone performs a push over SSH.
+
+You can use the links in the lists above and fill in the `json.path` or `json.gl_project_path` for the project of interest.
+
+#### Webhook related events
+
+[Webhook events](https://docs.gitlab.com/ee/user/project/integrations/webhooks.html) for GitLab.com can be located in Kibana, including identifying when a group or project has gone over [enforced rate limits](https://docs.gitlab.com/ee/user/gitlab_com/index.html#webhooks). Rate limiting varies depending on the subscription plan *and* number of seats in the subscription.
+
+Here are some suggestions:
+
+- Use `pubsub-sidekiq-inf-gprd` (Sidekiq) with the filters `json.class: "WebHookWorker"` and `json.meta.project : "path/to/project"` to identify webhook events.
+- Use `pubsub-rails-inf-gprd-*` (Rails) with the filters `json.message : "Webhook rate limit exceeded"` and `json.meta.project : "path/to/project"` to identify webhooks that failed to send due to rate limiting.
+  - You can filter between Group and Project hooks by using `json.meta.related_class : "GroupHook"` or `json.meta.related_class : "ProjectHook"`.

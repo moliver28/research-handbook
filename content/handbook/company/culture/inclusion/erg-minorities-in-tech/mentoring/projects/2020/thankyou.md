@@ -12,7 +12,7 @@ If you have not completed all of the surveys, please continue to do so, we would
 
 ### Engineering
 
-- [Sharing GitLab's organization practices outside of Gitlab](https://docs.google.com/presentation/d/1LSqV8Aet9mm7ynIyuvTvFKIq5V7JHkXPBT9l39ghGas/edit?usp=sharing)
+- [Sharing GitLab's organization practices outside of GitLab](https://docs.google.com/presentation/d/1LSqV8Aet9mm7ynIyuvTvFKIq5V7JHkXPBT9l39ghGas/edit?usp=sharing)
 - [Cleaning up stale bugs](https://docs.google.com/presentation/d/1UkxRCexgxNKKDZmbL6Hm--cT1h4t_Otq3TtxwjruCXA/edit?usp=sharing)
 - [A knowledge base and framework for engineering manages to share ideas](https://docs.google.com/presentation/d/19O49Y6C0itw-JMLUGrDPLaS9BeHv-Codp60MBCbPhVI/edit?usp=sharing)
 

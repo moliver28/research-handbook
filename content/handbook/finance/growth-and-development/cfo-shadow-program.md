@@ -4,9 +4,9 @@ title: CFO Shadow Program
 
 ## Overview
 
-The CFO Shadow Program is an immersive 1 or 2 week assignment where team members can apply to shadow the CFO. The [70:20:10 model for learning]({{< ref "/handbook/people-group/learning-and-development#70-20-10-model-for-learning-and-development" >}}) shows us that most adults gain ~90% of their knowledge through experiential learning. While formal "classroom" style training plays an important role in teaching new concepts, real life experiences are critical to helping adults develop and retain new skills. The CFO Shadow program is a unique growth opportunity for team members who are looking to experience a "day in the life" of a CFO of a publicly traded company, gain greater cross-functional insight, and develop their general business and Finance acumen.
+The CFO Shadow Program is an immersive 1 or 2 week assignment where team members can apply to shadow the CFO. The [70:20:10 model for learning](/handbook/people-group/learning-and-development#70-20-10-model-for-learning-and-development) shows us that most adults gain ~90% of their knowledge through experiential learning. While formal "classroom" style training plays an important role in teaching new concepts, real life experiences are critical to helping adults develop and retain new skills. The CFO Shadow program is a unique growth opportunity for team members who are looking to experience a "day in the life" of a CFO of a publicly traded company, gain greater cross-functional insight, and develop their general business and Finance acumen.
 
-In the spirit of [boring solutions]({{< ref "values#boring-solutions" >}}), the CFO Shadow program mirrors the original [CEO Shadow program]({{< ref "/handbook/ceo/shadow#overview" >}}) in many ways, with some customizations.
+In the spirit of [boring solutions]({{< ref "values#boring-solutions" >}}), the CFO Shadow program mirrors the original [CEO Shadow program](/handbook/ceo/shadow#overview) in many ways, with some customizations.
 
 ## What to Expect
 
@@ -14,9 +14,9 @@ The CFO Shadow program consists of a 1 or 2 week rotation, depending on the CFO'
 
 ## Eligibility
 
-In the first iteration of the CFO shadow program, the program is open to Finance Division team members. We aim to open the program to the greater GitLab team in FY25 and to incorporate any learnings from our early Shadows.
+The CFO shadow program is now open to all team members.
 
-To benefit the most from the types of meetings that the CFO attends, it's recommended that the participants have a general understanding of Finance, Business, Economics, and/or Accounting principles.  CFO Shadows must be in good performance standing in their current role.
+To benefit the most from the types of meetings that the CFO attends, it's recommended that the participants have a general understanding of Finance, Business, Economics, and/or Accounting principles. CFO Shadows must be in good performance standing in their current role.
 
 ## How to Apply
 
@@ -34,7 +34,7 @@ Participating in the shadow program is a privilege where you will be exposed to 
 
  We currently track onboarding and offboarding in the [cfo-shadow](https://gitlab.com/gitlab-com/Finance-Division/cfo-shadow) project.  For questions, reach out to the [Sr EBA to the CFO]({{< ref "eba#e-group-member-ebas" >}}) in the `#cfo-shadow` channel
 
- At this time, we do not have a "See One, Teach One" [rotational rhythm]({{< ref "/handbook/ceo/shadow#rotation-rhythm" >}}) in place, but as a CFO shadow you should be prepared to be a buddy to the following quarter's shadow as described in the onboarding issue.
+ At this time, we do not have a "See One, Teach One" [rotational rhythm](/handbook/ceo/shadow#rotation-rhythm) in place, but as a CFO shadow you should be prepared to be a buddy to the following quarter's shadow as described in the onboarding issue.
 
 ### Consider adding goals
 
@@ -44,7 +44,7 @@ Develop goals for your time as a CFO Shadow and add them to your onboarding issu
 
 It's important that you represent yourself correctly when joining meetings, both internally and externally. You can introduce yourself by stating your name, your normal title, and then by stating that you are in the CFO Shadow Program. The stated purpose should be to give participants an overview of the finance function at GitLab. You will update your Zoom name to "CFO-Shadow" to provide clarity for why you are joining calls.
 
-It will be helpful to read more about introductions related to the [CEO Shadow Program here]({{< ref "/handbook/ceo/shadow#ceo-shadow-introductions" >}})
+It will be helpful to read more about introductions related to the [CEO Shadow Program here](/handbook/ceo/shadow#ceo-shadow-introductions)
 
 ### Review the CFO's calendar
 
@@ -61,7 +61,7 @@ There will be short-term administrative tasks that you'll be asked to perform as
 ## Meetings
 
 1. The CFO's Senior Executive Business Administrator will add you to all meetings that you can attend. There will be some meetings and events the shadows do not attend. Do not feel obligated to attend every meeting — all meetings are considered optional.
-1. As a reminder, you should have your title updated within your last name on zoom. During the Shadow rotation update your title to "CFO Shadow". [Here]({{< ref "/handbook/tools-and-tips/zoom#adding-your-title-to-your-name" >}}) is the how to update your title as part of your last name to ensure it shows up on zoom.
+1. As a reminder, you should have your title updated within your last name on zoom. During the Shadow rotation update your title to "CFO Shadow". [Here](/handbook/tools-and-tips/zoom#adding-your-title-to-your-name) is the how to update your title as part of your last name to ensure it shows up on zoom.
 1. Because candidate interviews are marked as "private" (busy) for confidentiality reasons, the Sr EBA will invite the shadows to those events directly. As a result, you will get an email from Greenhouse asking for candidate feedback, which is not necessary.
 1. Meetings with those outside of GitLab may not be on Zoom. Prior to the call, check the CFO's calendar and load any other conferencing programs that may be needed. It may be necessary to dial in via phone for audio-conferences. If you have any problems confirming the link, reach out to the `#cfo-shadow` slack channel.
 
@@ -120,9 +120,10 @@ Finance team members have a high workload and may not be able to complete a full
 
 | Start Date | End Date |Shadow Name |
 |----|---------|--------|
-| Tuesday 2023-12-19 | Wednesday 2023-12-21| |
-| Tuesday 2024-01-16 | Thursday 2024-01-18| |
-| Tuesday 2024-01-23 | Thursday 2024-01-25 | |
-| Tuesday 2024-02-06 | Thursday 2024-02-08 | |
-| Tuesday 2024-02-20 | Thursday 2024-02-25 | |
-| Tuesday 2024-02-06 | Thursday 2024-02-08 | |
+| Tuesday 2024-04-02 | Thursday 2024-04-04 | Jerome Ng |
+| Tuesday 2024-04-09 | Thursday 2024-04-11 | Rakhi Reddy |
+| Monday 2024-04-15 | Wednesday 2024-04-17 | |
+| Tuesday 2024-04-23 | Thursday 2024-04-25 | |
+| Monday 2024-04-29 | Wednesday 2024-05-01 | |
+| Tuesday 2024-05-14 | Thursday 2024-05-16 | Afroditi Milidou|
+

@@ -55,9 +55,27 @@ By default, the `TurnOnCloudLicensing__c` flag in SFDC will be set to `Yes` on e
 
 The Pre-Sale Exemption process is intended to be the **only means** of opt out, and should be used for all customers. However, there may be times where the account manager missed the opt-out during the sale, and the customer has now incorrectly received a Cloud License activation code they cannot use.
 
-If a customer requires a Legacy License or an Offline License **post-sale**, the sales account manager must obtain Sales VP approval for a Cloud Licensing exemption. When approval is obtained and documented in SFDC, the account manager must then [open an Internal Request with Support](https://gitlab-com.gitlab.io/support/internal-requests-form/) > `Self Managed License Related` > `Cloud Licensing Exemption`. Full instructions for the account manager [can be found in Highspot](https://gitlab.highspot.com/items/629a82af9092e7ac989947ca?lfrm=srp.0) (visible to Sales team only).
+If a customer requires a Legacy License or an Offline License **post-sale**, the sales account manager must obtain Sales VP approval for a Cloud Licensing exemption. When approval is obtained and documented in SFDC **for each opportunity**, the account manager must then open a [Support Internal Request](https://support-super-form-gitlab-com-support-support-op-651f22e90ce6d7.gitlab.io/) **for each opportunity**. On the form, select either `GitLab Support Internal Request for Global customers` or `GitLab Support Internal Request for US Federal customers` and then `Self-Managed License Related (for paid customers only)` > `Cloud Licensing exemption`. Full instructions for the account manager [can be found in Highspot](https://gitlab.highspot.com/items/629a82af9092e7ac989947ca?lfrm=srp.0) (visible to Sales team only).
 
-If the customer's subscription or trial/temp license has expired, and they require access during the approval process, the account manager must [open an Internal Request with Support](https://gitlab-com.gitlab.io/support/internal-requests-form/) > `Self Managed` > `Extend an (almost) expired subscription`. The support engineer should [provide the customer with a trial license](/handbook/support/license-and-renewals/workflows/self-managed/trials/) until post-sales opt-out approval is received and handled in the related Internal Request.
+If the customer's subscription or trial/temp license has expired, and they require access during the approval process, the account manager must [open an Internal Request with Support](https://support-super-form-gitlab-com-support-support-op-651f22e90ce6d7.gitlab.io/). Use either the **GitLab Support Internal Requests for Global customers** or **GitLab Support Internal Requests for Federal customers** request option and then select **Extend an (almost) expired subscription** in the **Self Managed** section. The support engineer should [provide the customer with a trial license](/handbook/support/license-and-renewals/workflows/self-managed/trials/) until post-sales opt-out approval is received and handled in the related Internal Request.
+
+
+### Consequences of Cloud License Cancellation
+
+#### Self-Managed
+
+When a **cloud license activated subscription** is canceled on **GitLab version 16.9 or newer**, the cancelation immediately synchronizes with the customer's instance, causing it to be put into read-only mode. To allow the use in the instance of free features, the customer will need to manually remove the canceled license via the [UI](https://docs.gitlab.com/ee/administration/license_file.html#remove-a-license), [License API](https://docs.gitlab.com/ee/api/license.html#delete-a-license) or [console](https://docs.gitlab.com/ee/administration/license_file.html#remove-licenses).
+
+This functionality aligns with its intended design, but lacks a safeguard against unintended disruptions, particularly during contract resets. In such cases, canceling one subscription to switch to another under revised terms leads to temporary loss of paid features until the new activation code is uploaded. To mitigate this risk, it's advised that the new subscription be set up and activated before canceling the original one.
+
+**NOTE:** There is an ongoing discussion in this [issue](https://gitlab.com/gitlab-org/fulfillment/meta/-/issues/1818) about possibly preventing automatic license cancellation in these scenarios to avoid service interruptions.
+
+#### GitLab.com
+
+Similar to Self-Managed, canceling a subscription on gitlab.com will downgrade it to the free tier. However, when it comes to contract resets and billing entity changes, customers on GitLab.com will not be reverted to the free tier. Account Executives can use the [contract reset process](https://handbook.gitlab.com/handbook/sales/field-operations/sales-operations/deal-desk/#contract-reset), which includes transferring a customer's namespaces to the new subscription before performing the contract reset, effectively eliminating any potential disruptions.
+
+
+
 
 #### How to process a Cloud Licensing exemption internal request
 
@@ -132,7 +150,7 @@ Refer to the alternative methods below for guidance on different cases.
 Knowing whether to provide an Offline or Legacy License will depend on the customer's specific scenario and what they request, but the following may be helpful:
 
 - Offline licenses are preferred by GitLab over Legacy Licenses as they allow the customer to more easily provide usage data. These work best for customers who cannot use a Cloud License because their instance is air-gapped or not connected to the internet. However, in order to use an Offline Cloud License, the customer must be on 15.0 or higher.
-- Legacy licenses can be sent when a customer is unwilling or unable to upgrade to Gitlab version 14.1 or higher, or is concerned about sharing Subscription Data.
+- Legacy licenses can be sent when a customer is unwilling or unable to upgrade to GitLab version 14.1 or higher, or is concerned about sharing Subscription Data.
 
 #### 2. Are reseller purchases considered the same as sales-assisted? If a customer purchased after 2022-07-07 and needs a Legacy License, should we send them to their Account Manager to go through the exemption process, or do we treat them the same as web-direct and give them a Legacy License file, no questions asked?
 

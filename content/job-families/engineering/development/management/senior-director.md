@@ -35,10 +35,10 @@ The  Senior Director, Development is a [grade 11](/handbook/total-rewards/compen
 
 ## Performance Indicators
 
-- [Hiring Actual vs. Plan](https://about.gitlab.com/handbook/engineering/performance-indicators/#engineering-hiring-actual-vs-plan)
-- [Team/Group MR Rate](https://about.gitlab.com/handbook/engineering/development/performance-indicators/#mr-rate)
-- [Team/Group Review To Merge Time (RTMT)](https://about.gitlab.com/handbook/engineering/development/performance-indicators/#review-to-merge-time-rtmt)
-- [Handbook Update Frequency](https://about.gitlab.com/handbook/engineering/development/performance-indicators/#handbook-update-frequency)
+- [Hiring Actual vs. Plan](/handbook/engineering/performance-indicators/#engineering-hiring-actual-vs-plan)
+- [Team/Group MR Rate](/handbook/engineering/development/performance-indicators/#mr-rate)
+- [Team/Group Review To Merge Time (RTMT)](/handbook/engineering/development/performance-indicators/#review-to-merge-time-rtmt)
+- [Handbook Update Frequency](/handbook/engineering/development/performance-indicators/#handbook-update-frequency)
 
 ## Hiring Process
 

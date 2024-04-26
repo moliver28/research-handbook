@@ -1,13 +1,7 @@
 ---
-
+controlled_document: true
 title: "Access Requests (AR) FAQs"
 ---
-
-
-
-
-
-
 
 ## Need help?
 
@@ -28,7 +22,7 @@ title: "Access Requests (AR) FAQs"
 
 1. Choose a template based on your needs: most people use the [Bulk](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=Bulk_Access_Request) or [Single Person](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=Individual_Bulk_Access_Request) template.
 1. Do not open an Access Request for anything that is part of a baseline entitlement unless it got missed during onboarding.
-    1. [All team members baseline entitlements](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/baseline-entitlements/#baseline-entitlements-all-gitlab-team-members)
+    1. [All team members baseline entitlements](https://internal.gitlab.com/handbook/it/end-user-services/access-request/baseline-entitlements/#baseline-entitlements-all-gitlab-team-members)
     1. [Role-based baseline entitlements](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/tree/master/.gitlab/issue_templates/role_baseline_access_request_tasks)
 1. You must have the label `AR-Approval::Manager Approved` on the issue **unless** the person is:
     1. an internal team member being added to a Google Workspace email alias or group

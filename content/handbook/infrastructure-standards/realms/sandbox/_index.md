@@ -95,11 +95,11 @@ Self-service creation and IAM management is not available yet for end users in H
 
 ##### Product Related
 
-For any staging or production(-esque) infrastructure services that are customer facing, contain [Red or Orange data](/handbook/security/data-classification-standard.html#data-classification-levels), related to the GitLab product or GitLab.com SaaS, or Engineering sponsored services, please contact the [Reliability Engineering](https://about.gitlab.com/handbook/engineering/infrastructure/team/reliability/) team for guidance on next steps in the `#infrastructure_lounge` Slack channel.
+For any staging or production(-esque) infrastructure services that are customer facing, contain [Red or Orange data](/handbook/security/data-classification-standard.html#data-classification-levels), related to the GitLab product or GitLab.com SaaS, or Engineering sponsored services, please contact the [Reliability Engineering](/handbook/engineering/infrastructure/team/reliability/) team for guidance on next steps in the `#infrastructure_lounge` Slack channel.
 
 Most environments are typically created in the [config-mgmt project](https://gitlab.com/gitlab-com/gl-infra/config-mgmt) using the [Create a new environment](https://gitlab.com/gitlab-com/gl-infra/config-mgmt/#creating-a-new-environment) instructions.
 
-You can learn more about GitLab.com SaaS on the [Production Architecture](https://about.gitlab.com/handbook/engineering/infrastructure/production/architecture/) handbook page.
+You can learn more about GitLab.com SaaS on the [Production Architecture](/handbook/engineering/infrastructure/production/architecture/) handbook page.
 
 Any projects with [yellow or green](/handbook/security/data-classification-standard.html#data-classification-levels) data usually are better suited for self management using [Group Projects](#groupteam-aws-account-or-gcp-project-non-production) using [Infrastructure Standards](/handbook/infrastructure-standards) guidelines.
 
@@ -109,7 +109,7 @@ For any infrastructure services related to business operations and our tech stac
 
 New SaaS applications should go through the [Procurement Process](/handbook/finance/procurement/) and are managed by the respective department's [system owners](/handbook/business-technology/#cross-department-system-owners).
 
-Self-hosted application infrastructure is determined on a case-by-case basis and is architected in collaboration with [IT Infrastructure](/handbook/business-technology/it/engineering/infrastructure/), [Security Architecture](/handbook/security/architecture/), [Infrastructure Security](/handbook/security/security-engineering/infrastructure-security/), [Application Security](/handbook/security/security-engineering/application-security/), and [3rd Party Risk](/handbook/security/security-assurance/security-risk/third-party-risk-management.html). Please tag `@jeffersonmartin` in an issue for preliminary guidance on new services. If you do not have an issue yet, please create one in the [IT Infrastructure issue tracker](https://gitlab.com/gitlab-com/business-technology/engineering/infrastructure/issue-tracker/-/issues).
+Self-hosted application infrastructure is determined on a case-by-case basis and is architected in collaboration with [IT Infrastructure](/handbook/business-technology/it/engineering/infrastructure/), [Security Architecture](/handbook/security/architecture/), [Infrastructure Security](/handbook/security/product-security/infrastructure-security/), [Application Security](/handbook/security/product-security/application-security/), and [3rd Party Risk](/handbook/security/security-assurance/security-risk/third-party-risk-management.html). Please tag `@jeffersonmartin` in an issue for preliminary guidance on new services. If you do not have an issue yet, please create one in the [IT Infrastructure issue tracker](https://gitlab.com/gitlab-com/business-technology/engineering/infrastructure/issue-tracker/-/issues).
 
 #### Accessing your AWS Account
 
@@ -133,7 +133,7 @@ Self-hosted application infrastructure is determined on a case-by-case basis and
 
 ## Domain Names
 
-See the [Domain Names and DNS Records](/handbook/it/guides/domains-dns) IT guide handbook page for more details.
+See the [Domain Names and DNS Records](https://internal.gitlab.com/handbook/it/it-self-service/it-guides/domains-dns/) IT guide internal handbook page for more details.
 
 ## Terraform Environments
 
@@ -166,6 +166,26 @@ In the [HackyStack v1.11 (November 2021) release](https://gitlab.com/gitlab-com/
 
 1. Sign into [https://gitops.gitlabsandbox.cloud](https://gitops.gitlabsandbox.cloud) using your generated credentials on [https://gitlabsandbox.cloud](https://gitlabsandbox.cloud). Keep in mind that this is `{firstInitial}{lastName}-{hash}` and not your normal GitLab username.
 1. Navigate to the project for the Terraform environment that you just created. You can quickly access the project from the link on the Cloud Account page on [https://gitlabsandbox.cloud](https://gitlabsandbox.cloud).
+1. On your local computer navigate to your .ssh folder and generate a ssh key
+
+ ```shell
+ssh-keygen -t rsa -b 4096 -C <name_of_project>
+ ```
+
+1. Navigate to terraform/main.tf on this project and copy and paste your public key. See the example below
+
+ ```shell
+# -----------------------------------------------------------------------------
+# Add your Terraform modules and/or resources below this line
+# -----------------------------------------------------------------------------
+
+locals {
+  ssh_key               = "<RSA public key here>"
+  normalized_env_prefix = "sr-${var.env_prefix}"
+  tags                  = ["sr-firewall-rule", "${local.normalized_env_prefix}-firewall-rule"]
+}
+```
+
 1. Run a new CI pipeline. After the `Plan` job completes, trigger the `Deploy` job. (Notice how you haven’t had to do any configuration).
 1. Watch the `terraform apply` outputs as your new environment is spun up with a sample Ubuntu virtual machine for testing with. You can add additional Terraform resources as you see fit (see below).
 1. Navigate to the GCP console using the link on [https://gitlabsandbox.cloud](https://gitlabsandbox.cloud) to view the deployed VM. Feel free to connect to the VM via SSH using the `gcloud` command or Cloud Shell.

@@ -47,7 +47,7 @@ Exit criteria for this working group has been completed, however monthly follow 
 
 ## Maintainership Process
 
-The maintainership process is described [on this page](https://about.gitlab.com/handbook/engineering/workflow/code-review/#maintainer).
+The maintainership process is described [on this page](/handbook/engineering/workflow/code-review/#maintainer).
 
 ### Exit Criteria (100% completed)
 
@@ -61,11 +61,9 @@ The maintainership process is described [on this page](https://about.gitlab.com/
 
 ### Data and dashboards
 
-- [Reviewer/Maintainer availability and capacity](https://about.gitlab.com/handbook/engineering/workflow/code-review/#maintainerreviewer-availability) - Shows the maintainer/reviewer availability rate over time and incoming/forecasted review requests
-- [Maintainer WG dashboard](https://app.periscopedata.com/app/gitlab/1020829/Maintainer-WG) - A sandbox dashboard for metrics related to the working group
-- [Maintainers and Trainees](https://about.gitlab.com/handbook/engineering/development/performance-indicators/#maintainers-and-trainees)
-- [Maintainership Demand](https://about.gitlab.com/handbook/engineering/workflow/code-review/#maintainer-demand)
-- [Maintainer Approval Velocity](https://app.periscopedata.com/app/gitlab/1036023/Maintainer-Approval-Velocity)
+- [Reviewer/Maintainer availability and capacity](/handbook/engineering/workflow/code-review/#maintainerreviewer-availability) - Shows the maintainer/reviewer availability rate over time and incoming/forecasted review requests
+- [Maintainers and Trainees](/handbook/engineering/development/performance-indicators/#maintainers-and-trainees)
+- [Maintainership Demand](/handbook/engineering/workflow/code-review/#maintainer-demand)
 
 ### Roles and Responsibilities
 
@@ -221,4 +219,4 @@ Here are a few different categorizations of changes that can help you decide whi
 
 For changes concerning a specific project, try to notify the group that owns the project in addition to specific channels for that project. For example, workhorse changes should be communicated to `#workhorse` and `#g_create_source_code` as the owners of that project.
 
-The [product category page](/handbook/product/categories/) and the [projects page](https://about.gitlab.com/handbook/engineering/projects) may be helpful for determining which groups and stages own specific projects. If it is not apparent, another way to determine ownership include filtering the project members by direct membership and asking the owners or maintainers directly who owns the project.
+The [product category page](/handbook/product/categories/) and the [projects page](/handbook/engineering/projects) may be helpful for determining which groups and stages own specific projects. If it is not apparent, another way to determine ownership include filtering the project members by direct membership and asking the owners or maintainers directly who owns the project.

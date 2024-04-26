@@ -52,12 +52,12 @@ GitLab is the DevOps Platform, made possible by contributions from the community
 * [GitLab's strategy & open core model](/handbook/company/stewardship/#how-open-source-benefits-from-open-core)
 * Dual flywheel strategy and the value of community
   * [Dual Flywheel strategy](/handbook/company/strategy/#dual-flywheels)
-  * [MRARR](https://about.gitlab.com/handbook/engineering/quality/performance-indicators/#mrarr)
-  * [Percent of MRs from Community](https://about.gitlab.com/handbook/engineering/quality/performance-indicators/#percent-of-mrs-from-community)
-  * [Unique Wider Community Contributors Per Month](https://about.gitlab.com/handbook/engineering/quality/performance-indicators/#unique-wider-community-contributors-per-month)
-  * [Percent of Feature Community Contributions](https://about.gitlab.com/handbook/engineering/quality/performance-indicators/#percent-of-feature-community-contribution-mrs)
+  * [MRARR](/handbook/engineering/quality/performance-indicators/#mrarr)
+  * [Percent of MRs from Community](/handbook/engineering/quality/performance-indicators/#percent-of-mrs-from-community)
+  * [Unique Wider Community Contributors Per Month](/handbook/engineering/quality/performance-indicators/#unique-wider-community-contributors-per-month)
+  * [Percent of Feature Community Contributions](/handbook/engineering/quality/performance-indicators/#percent-of-feature-community-contribution-mrs)
   * [Wider Community merged MRs per release](/handbook/marketing/developer-relations/performance-indicators/#wider-community-merged-mrs-per-release)
-  * [Developer Evangelism Monthly Impressions](/handbook/marketing/developer-relations/performance-indicators/#developer-evangelism-monthly-impressions)
+  * [Developer Advocate Monthly Impressions](/handbook/marketing/developer-relations/performance-indicators/#developer-advocacy-monthly-impressions)
 
 ### GitLab's community programs
 
@@ -68,7 +68,7 @@ Ensuring everyone can contribute requires a concious effort to ensure the commun
 #### Community Programs
 * Free community programs:
   * [OSS](/handbook/marketing/developer-relations/community-programs/opensource-program/)
-  * [Developer Evangslism](/handbook/marketing/developer-relations/developer-evangelism/)
+  * [Developer Evangslism](/handbook/marketing/developer-relations/developer-advocacy/)
   * [Education Program](/handbook/marketing/developer-relations/community-programs/education-program/)
   * [StartUps Program](/handbook/marketing/developer-relations/community-programs/startups-program/)
 * Meetups and evangelism
@@ -84,7 +84,7 @@ Ensuring everyone can contribute requires a concious effort to ensure the commun
 
 ### Open source community best practices
 
-Building an inclusive and transparent community is a top-most priority for the Community Team and we live by our GitLab values, which includes Diversity/Inclusion & Transparency. Below, we maintain a living list of community best practices for the GitLab Community and from other communities. 
+Building an inclusive and transparent community is a top-most priority for the Community Team and we live by our GitLab values, which includes Diversity/Inclusion & Transparency. Below, we maintain a living list of community best practices for the GitLab Community and from other communities.
 
 * [Fostering DIB in our community](/handbook/values/#diversity-inclusion)
 * [Transparency and openness](/handbook/values/#transparency)
@@ -102,6 +102,6 @@ The community team has always partenered with internal and external teams to emp
 
 * How to collaborate with the Developer Relations team
   * [Project management](/handbook/marketing/developer-relations/project-management/)
-  * [Community Response](/handbook/marketing/developer-relations/developer-evangelism/community-response/)
+  * [Community Response](/handbook/marketing/developer-relations/developer-advocacy/community-response/)
 * Get started contributing to GitLab
   * [Developer Portal](https://developer.gitlab.com/)

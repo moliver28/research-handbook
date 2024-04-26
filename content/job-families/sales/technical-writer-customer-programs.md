@@ -2,7 +2,7 @@
 title: "Technical Writer, Customer Programs"
 ---
 
-The Technical Writer, Customer Programs is a part of the [Customer Success Manager](/job-families/sales/customer-success-management/) team, and focuses on creating the content to enable our customer digital journey, while also contributing to Gitlab docs and blog posts to ensure the ‘how-to’ learnings shared across our team are memorialized for our customer to benefit.
+The Technical Writer, Customer Programs is a part of the [Customer Success Manager](/job-families/sales/customer-success-management/) team, and focuses on creating the content to enable our customer digital journey, while also contributing to GitLab docs and blog posts to ensure the ‘how-to’ learnings shared across our team are memorialized for our customer to benefit.
 
 ## Levels
 

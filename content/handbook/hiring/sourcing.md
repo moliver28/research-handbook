@@ -141,6 +141,7 @@ In accordance with our [values](/handbook/company/culture/inclusion/#values) of 
 
 Our strategy to building representative teams is rooted in our top of funnel strategy. At a high level, our approach and expectations for recruiters and sourcers is as follows:
 1. At the beginning of every role, recruiters are responsible to build a DIB first approach to their sourcing strategy. We believe healthy pipelines show a balance between source types (applications, referrals, passive talent and internal talent) in order for our hiring teams to have an adequate view of the talent market before making their hiring decision.
+- As a best practice, Recruiters will focus on screening internal candidates, referrals, and sourced candidates for the first 5 business days a req is open.
 1. Recruiters run targeted searches leveraging some of our internal resources and sourcing tools (ex: LinkedIn Recruiter, SeekOut, our our CRM)
 1. For each candidate that is sourced in step 2 utilizing a DIB sourcing strategy (ie: leveraging HCBUs in a boolean string, utilizing GraceHopper resume books, etc), apply the appropriate tag.
 
@@ -192,6 +193,10 @@ Simply add all your filters as described above in the LinkedIn Recruiter sourcin
 **Bonus Greenhouse sourcing tip**
 
 You can download several profiles in bulk in an XLS file and you can run your searches in the spreadsheet. For this, click on the blue “Export” button on the top of your search results in the “All candidates” section of a search result tab.
+
+#### Greenhouse CRM
+
+In today’s talent market, a CRM enables us to efficiently and quickly engage with talent that opted into learning and potentially growing at GitLab. Learn more about how to use our Greenhouse CRM [here](https://docs.google.com/document/d/16DzE9bsgeflGiRMntncdhMTc6CpHjE5hlQqOnLBQpwo/edit).
 
 #### DIB Enablement
 
@@ -262,7 +267,7 @@ the candidate and add them to Greenhouse. You can check the Talent Acquisition a
 If you want to reach out to a sourced candidate directly, you should discuss your communication strategy with your
 recruiting partner beforehand in order to avoid duplication and/or poor candidate experience.
 
-Take a look at the [Content library - life at GitLab]({{< ref "/handbook/people-group/employment-branding/content-library" >}}) for the latest team member count, employer awards, blog posts, and more facts about working at GitLab. These resources are meant to help guide your outreach to potential candidates.
+Take a look at the [Content library - life at GitLab](/handbook/people-group/employment-branding/content-library) for the latest team member count, employer awards, blog posts, and more facts about working at GitLab. These resources are meant to help guide your outreach to potential candidates.
 
 **Upgrading Your LinkedIn Account to Hiring Manager**
 

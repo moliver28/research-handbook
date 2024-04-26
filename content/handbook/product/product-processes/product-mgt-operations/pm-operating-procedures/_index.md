@@ -111,9 +111,9 @@ the product is developed with [directly responsible individuals](/handbook/peopl
 
 At GitLab, we develop our product for self-managed as well as SaaS-hosted customers. We realize that while we have DRIs there are many stakeholders who who must have input, including Engineering, Quality, UX, Product, Security, and Infrastructure. For example, the Security team often has the deeper context of what it takes to run a secure SaaS system. Similarly, the Infrastructure team has insights into what we should build into the product to reduce toil and enable efficient, reliable, performant, and scalable systems.
 
-We call this the [Product Group](/handbook/company/team/structure/#product-groups) model. It is an extension of the classic quad concept at the leadership level and is currently comprised of Development, Quality, User Experience, Infrastructure, Product, and Security.
+We call this the [Product Group](/handbook/company/structure/#product-groups) model. It is an extension of the classic quad concept at the leadership level and is currently comprised of Development, Quality, User Experience, Infrastructure, Product, and Security.
 
-The Product Group can be used to facilitate a [global optimization](/handbook/values/#global-optimization), including product-wide [technical debt](https://about.gitlab.com/handbook/engineering/workflow/#technical-debt).
+The Product Group can be used to facilitate a [global optimization](/handbook/values/#global-optimization), including product-wide [technical debt](/handbook/engineering/workflow/#technical-debt).
 
 ### Working with Product Management across the company
 
@@ -172,18 +172,17 @@ It's important to keep [`features.yml`](https://gitlab.com/gitlab-com/www-gitlab
 
 **External**
 
-- [Pricing](/pricing/)
-- [Features](/features/)
-- [Why GitLab Premium?](/pricing/premium/)
-- [Why GitLab Ultimate?](/pricing/ultimate)
-- [Feature Comparison](/pricing/feature-comparison/)
-- [DevOps Lifecycle](/stages-devops-lifecycle/)
-- [DevOps Tools Landscape](/competition/)
-- [DevOps Tools Comparisons](/competition/circleci/)
+- [Pricing](https://about.gitlab.com/pricing/)
+- [Features](https://about.gitlab.com/features/)
+- [Why GitLab Premium?](https://about.gitlab.com/pricing/premium/)
+- [Why GitLab Ultimate?](https://about.gitlab.com/pricing/ultimate)
+- [Feature Comparison](https://about.gitlab.com/pricing/feature-comparison/)
+- [DevOps Lifecycle](https://about.gitlab.com/stages-devops-lifecycle/)
+- [DevOps Tools Landscape](https://about.gitlab.com/why-gitlab/)
 
 **Internal**
 
-- [SaaS vs. Self-managed](/features/)
+- [SaaS vs. Self-managed](https://about.gitlab.com/features/)
 - [Features by tier](/features/by-paid-tier/)
 
 ### Working with User Experience (UX)
@@ -206,9 +205,9 @@ As a team, there may be cases where a proposal exceeds the expected time to mark
 
 As DRIs, it is important to consider the input from other team members and to know when to trust in their experience and judgment. It is advised to use an [opportunity canvas lite](/handbook/product/product-processes/#opportunity-canvas-lite). The PM is expected to compile the canvas lite with inputs from the Product Designer and/or Engineering Manager. The PM then makes a decision after weighing input from the product designer and engineering, as appropriate. The PM should then share the decision, articulating the costs of waiting, and shipping earlier with less polish, as well as why no smaller iteration exists as part of this decision.
 
-In the event that a decision is made to build something that is less polished, has a lesser user experience, or otherwise doesn't live up to our standards of where we want this UI to end up the team should generate follow-up [UX Debt](/handbook/product/ux/performance-indicators/#ux-debt) issues to be addressed in the next upcoming milestone(s).
+In the event that a decision is made to build something that is less polished, has a lesser user experience, or otherwise doesn't live up to our standards of where we want this UI to end up the team should generate follow-up [Deferred UX](/handbook/product/ux/performance-indicators/#deferred-ux) issues to be addressed in the next upcoming milestone(s).
 
-If a quad member remains concerned and in strong disagreement with the decision made by the PM DRI, the quad member should exercise our [disagree, commit, and disagree value](/handbook/values/#disagree-commit-and-disagree], by initiating an [escalation](/handbook/leadership/#effective-escalations) to bring in management layers above into the decision.
+If a quad member remains concerned and in strong disagreement with the decision made by the PM DRI, the quad member should exercise our [disagree, commit, and disagree value](/handbook/values/#disagree-commit-and-disagree), by initiating an [escalation](/handbook/leadership/#effective-escalations) to bring in management layers above into the decision.
 
 Results are the most important aspect to consider for the business and our users. If there is a perceived risk to potentially harm the business financially, reduce customer satisfaction or value, or lead to legal trouble, teammates are empowered to seek an alternative perspective for the product decision. Within the Product Division, we recommend escalating first to the management layer immediately above where the disagreement is happening for input and further escalating to PLT and ultimately the Chief Product Officer.
 
@@ -221,7 +220,7 @@ Product Designer assignments are listed in the team.yml file. Unfortunately, we 
 If there isn't a designer listed for a group, then that team is expected to be self-sufficient in taking responsibility for the design needs of their product area. Product Design does not have the capacity to review complex proposed design solutions or provide design solutions for unsupported groups.
 
 If you have questions or need support you can do so in the following ways:
-- PMs who need to create designs can request access to Figma by creating an Access Request issue.
+- PMs who need to create designs can request access to Figma by creating an [Access Request issue](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new). **Note:** We cannot grant an Editor seat by requesting an upgrade within Figma. An access request issue is required.
 - Review and follow the [Pajamas guidelines](https://design.gitlab.com/).
 - If you have a small design question, or the Pajamas guidance is not clear, reach out via the `#ux` or `#ux_coworking` Slack channel.
 - If you have a Community Contribution MR that needs a design review, follow the process for [MR Reviews for Groups without a Designer](/handbook/product/ux/product-designer/mr-reviews/#what-if-a-team-doesnt-have-a-designer).
@@ -238,7 +237,7 @@ which must include delivering on our greater company strategy of [dual flywheels
 part of the product direction.
 To support contributions product managers may consider the following guidelines:
 
-1. Aim to review and respond to community contributions within 4 working days- see [review response SLO](https://about.gitlab.com/handbook/engineering/workflow/code-review/#review-response-slo).
+1. Aim to review and respond to community contributions within 4 working days- see [review response SLO](/handbook/engineering/workflow/code-review/#review-response-slo).
    Contributions for well-defined `~direction` or `%Backlog` issues will be prioritised.
 1. For contributions that impact user experience, following the [contribution guidelines](https://about.gitlab.com/community/contribute/),
    the Product Designer for the group should review the MR and provide feedback on the MR.

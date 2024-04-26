@@ -17,7 +17,7 @@ Travelers are expected to choose lodging that meets the traveler's schedule and 
 **Domestic or International Lodging**
 Departments will reimburse travelers for actual expenses up to 100% of the lodging rate for the destination city, as referenced on the [US Government General Services Administration (GSA) website](http://www.gsa.gov/portal/category/21287) for domestic lodging and the [U.S. Department of State website](http://aoprals.state.gov/web920/per_diem.asp) for international lodging.
 
-GitLab recognizes there could be some situations where a lodging rate falls outside of GitLab's guidelines. The traveler must obtain pre-approval from the appropriate authorized approver through a [NexTravel](https://www.nextravel.com) account.  Out of policy lodging must be booked and approved through NexTravel. If the traveler does not obtain prior approval, the department may limit the reimbursement to the GSA per diem rate.
+GitLab recognizes there could be some situations where a lodging rate falls outside of GitLab's guidelines. The traveler must obtain pre-approval from the appropriate authorized approver through a [NexTravel](https://www.travelperk.com/) account.  Out of policy lodging must be booked and approved through NexTravel. If the traveler does not obtain prior approval, the department may limit the reimbursement to the GSA per diem rate.
 
 ### Meals and Incidental Expenses (M&IE)
 
@@ -50,8 +50,8 @@ Rates can be found on the [U.S. Department of State M&IE Rates web page](http://
 
 Planning flights far in advance can help you get cheaper fares when booking. For example, you can set alerts when there is a significant drop in price for your travel destination.
 
-- [Google Flights](https://www.google.com/flights/) - Great for comparing flights
-- [Kayak](https://www.kayak.com) - Great for comparing car rentals
+- [Google Flights](https://www.google.com/travel/flights/) - Great for comparing flights
+- [Kayak](https://www.kayak.com/) - Great for comparing car rentals
 
 ### Other Travel Recommendations and Policies
 

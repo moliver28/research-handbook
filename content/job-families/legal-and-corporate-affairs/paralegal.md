@@ -1,5 +1,6 @@
 ---
 title: Paralegal
+description: Paralegal team members are responsible for supporting clients across GitLab on legal matters related to their functional area of expertise.
 ---
 
 ## Levels

@@ -35,7 +35,7 @@ This page provides an overview of the Product Division OKR workflow. All departm
      - CProdO shares proposed Product OKRs with Product Leadership Team
      - Product Leadership team provides their feedback or any alternate OKRs in the drafting issue
 - **2 weeks** prior to the start to quarter:
-     - Product EBAs create Product Division OKRs in GitLab and mention `@gl-product-pm` (section, stage, and group product leads) to finalize KR drafts with their respective [Product Quad](https://about.gitlab.com/handbook/engineering/quality/quality-engineering/quad-planning/)
+     - Product EBAs create Product Division OKRs in GitLab and mention `@gl-product-pm` (section, stage, and group product leads) to finalize KR drafts with their respective [Product Quad](/handbook/engineering/infrastructure/test-platform/quad-planning/)
      - Product leads must have at least 2 weeks to review CProdO OKRs, propose changes, and plan any additional OKRs that cascade up to CProdO OKRs. 
      - Product leads from each section, stage, and group review Product Division OKRs and provide feedback directly in GitLab on changes that may be needed. 
      - Product leads plan and propose their respective section, stage and section OKRs following the guidance on [how to write OKRs](/handbook/product/product-okrs/#how-to-write-okrs). 
@@ -134,7 +134,7 @@ Product Objectives and Key Results are drafted and entered into GitLab by PLT as
 ## Additional Resources
 
 - [What Matters](https://www.whatmatters.com/)
-- [How to use GitLab to track OKRs](https://handbook.gitlab.com/handbook/company/okrs/#how-to-use-gitlab-for-okrs).
+- [How to use GitLab to track OKRs](/handbook/company/okrs/#how-to-use-gitlab-for-okrs).
 
 ## Timeline and process for previous quarters
 

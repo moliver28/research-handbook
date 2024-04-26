@@ -8,7 +8,7 @@ title: Advantages of a single application
 
 ## Single application
 
-GitLab is a [complete DevOps platform](/solutions/devops-platform/), delivered as a single application that does everything from project planning and source code management to CI/CD, monitoring, and security. The advantages of a single application are listed in the following paragraphs.
+GitLab is a [complete DevOps platform](https://about.gitlab.com/solutions/devops-platform/), delivered as a single application that does everything from project planning and source code management to CI/CD, monitoring, and security. The advantages of a single application are listed in the following paragraphs.
 
 By delivering a single application we shorten cycle times, increase productivity,
 and thus create value for our customers.
@@ -99,7 +99,7 @@ offering plugins for the following reasons:
 
 1. We think a single application provides a better user experience than a modular approach, as detailed by [this article from Stratechery](https://stratechery.com/2013/clayton-christensen-got-wrong/).
 1. The open source nature of GitLab ensures that we can combine great open source products.
-1. Everyone can contribute to create a feature set that is [more complete than other tools](/competition/). We'll focus on making all the parts work well together to create a better user experience.
+1. Everyone can contribute to create a feature set that is [more complete than other tools](https://about.gitlab.com/why-gitlab/). We'll focus on making all the parts work well together to create a better user experience.
 1. Because GitLab is open source, the enhancements can become [part of
 the codebase instead](https://docs.gitlab.com/ee/user/project/integrations/overview.html) of being external. This ensures the automated tests for all
 functionality are continually run, ensuring that additions keep working. This is in contrast to externally maintained plugins that might not be updated.
@@ -243,7 +243,7 @@ hidden costs.
 
 #### Overt cost
 
-The overt cost of paying for [licensing and support of multiple tools](/calculator/roi/) is
+The overt cost of paying for [licensing and support of multiple tools](https://about.gitlab.com/calculator/roi/) is
 higher than a single application. A single application can charge less because its fixed costs are distributed
 across the functionality, whereas separate vendors each need to pay those costs themselves for each of their solutions.
 

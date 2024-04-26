@@ -4,6 +4,7 @@ description: Support Operations documentation page for the Support team page
 canonical_path: "/handbook/support/readiness/operations/docs/gitlab/support_team_page"
 ---
 
+<sup>*Introduced via [support-team-meta#2159](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/2159)*</sup>
 
 ## What is the Support Team Page
 
@@ -355,23 +356,6 @@ an artifact (but only for the master branch). GitLab Pages will then use this
 
 ## Change management
 
-As the support team changes are unique in deployment, please see
-[Support team page change management](/handbook/support/readiness/operations/docs/change_management#support-team-page-change-management)
-for more information.
-
-#### Labels to use
-
-For all issues and MRs involving support team page changes, the label
-`Support-Ops-Category::GitLab Projects` should be used.
-
-#### Change criticality
-
-All issues/MRs related to any of the non-data files of support team page will be
-classified as either
-[criticality 2](/handbook/support/readiness/operations/docs/change_criticalities#criticality-1)
-or
-[criticality 3](/handbook/support/readiness/operations/docs/change_criticalities#criticality-2)
-
-All issues/MRs related to the data files of support team page will be
-classified as
-[criticality 4](/handbook/support/readiness/operations/docs/change_criticalities#criticality-4)
+Any merge requests made to the corresponding repos produce changes in real time.
+As such, these are "on demand" style changes and all "scheduling" should occur
+via the parent issue of the changes themselves.

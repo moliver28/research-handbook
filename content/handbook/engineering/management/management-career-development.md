@@ -21,7 +21,7 @@ here are some important considerations for the Engineering team:
 - **Assess together.** Once you know where your Developer wants to go with their
   careers, it's time to assess their strengths and weaknesses for the position.
   This is best done by reviewing the [responsibilities and
-  requirements](https://handbook.gitlab.com/job-families/engineering/backend-engineer/) of the job they're
+  requirements](/job-families/engineering/backend-engineer/) of the job they're
   interested in. If you both assess it separately, you can compare and contrast
   your results.
 - **Create a behavior-based plan.** Once you understand the Developer's

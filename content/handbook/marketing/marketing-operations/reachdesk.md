@@ -7,14 +7,6 @@ description: "Reachdesk is a direct mail provider that we use for sales and mark
 <link rel="stylesheet" type="text/css" href="/stylesheets/biztech.css" />
 
 
-
-
-
-
-
-
-
-
 # About Reachdesk
 Reachdesk is a global giting plaform used to land and accelerate deals to fuel pipeline progression using personalized gifts.
 Contact: Customer Success Manager - Aoife Sweeney - aoife@reachdesk.com

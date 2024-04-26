@@ -68,14 +68,14 @@ Attendance is optional - if you are unable to attend an AMA at its scheduled tim
 1. Not everything has to be a question. If you have a comment, bias to putting it into the Google Doc so that those who weren't able to attend the meeting live can see what you had to say (and any responses that arose from it).
 1. Thanking and recognizing people is very important.
 1. It's okay to add a question to the end of the queue in the Google Doc as the conversation is taking place.
-1. You can contribute taking notes to transcribe the answers during the conversation. Thanks!
+1. You can contribute by taking notes to transcribe the answers during the conversation. Thanks!
 1. Make sure there are at least 10 empty items in the list (that just contain a space) for people to add new questions.
 
 ## For Moderators
 
-The `EBA` team are responsible for moderating the following calls on a rotational basis:
+The `EBA` team is responsible for moderating the following calls on a rotational basis:
 
-- AMAs (If requested with sufficient notice as per the instructions in the [request an AMA section](#request-an-ama).
+- AMAs (If requested with sufficient notice as per the instructions in the [request an AMA section](#request-an-ama)).
 - CEO 101 (Introductions and Livestream)
 
 The teams will assist with moderating calls where the audience is applicable to all GitLab team members. In the event that a separate meeting needs to be scheduled on the team calendar with only a specified invitee list, the host or the EBA for the host's organization will be responsible for moderating the call.

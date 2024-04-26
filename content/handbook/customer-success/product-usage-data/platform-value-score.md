@@ -18,7 +18,7 @@ A customer’s score is the level of use cases adopted to a green health level a
 
 ### How we use Platform Adoption Scores
 
-Customer Success conversations: - First and foremost, we want our customers to be successful. We believe that most of their goals will align with the value that using Gitlab as a platform can provide. As such, our CSMs use the scores as an input into how they prioritize their time with customers as well as to inform the conversations that they’re having.
+Customer Success conversations: - First and foremost, we want our customers to be successful. We believe that most of their goals will align with the value that using GitLab as a platform can provide. As such, our CSMs use the scores as an input into how they prioritize their time with customers as well as to inform the conversations that they’re having.
 Internal Key Performance Indicator: - Internally we aggregate the Platform Adoption Scores by reporting on the % of our ARR that falls within certain levels of Platform Adoption (i.e. 0, 1, 2, and 3+ Use Cases adopted).
 Sales Feedback Loop: Sellers need to know how their customers are using GitLab, and how they can assist customers realize more value and provide recommendations.
 Product Feedback Loop: These metrics are shared with Product to better understand the adoption of GitLab across all customers.

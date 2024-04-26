@@ -161,8 +161,8 @@ Due to increases in intent, profile fit and engagement, a 6QA occurs when an acc
 
 6QA status is true when 1 AND 2 are met:
 
-1. `Account Profile Fit` for Gitlab is equal to Moderate or Strong.
-2. `Account In-Market Stage` for Gitlab is equal to Decision or Purchase.
+1. `Account Profile Fit` for GitLab is equal to Moderate or Strong.
+2. `Account In-Market Stage` for GitLab is equal to Decision or Purchase.
 
 **6sense Account Buying Stage Definitions**
 - **Target** - The buyer may not realize a problem exists, but may fit within the seller’s TAM.

@@ -4,7 +4,7 @@ description: GitLab's Employment Solutions.
 ---
 
 This page contains an overview of how we have scaled team members Globally.
-The DRI for all Employment Solutions is the [Employment Solutions Partner]({{< ref "/job-families/people-group/employment-solutions" >}}). Any changes to any contracts should be requested to the Employment Solutions Partner and will require approval from our Director of Tax & our Director of Legal, Employment.
+The DRI for all Employment Solutions is the [Employment Solutions Partner](/job-families/people-group/global-workforce-strategy). Any changes to any contracts should be requested to the Employment Solutions Partner and will require approval from our Director of Tax & our Director of Legal, Employment.
 
 ## Country Hiring Guidelines
 
@@ -51,41 +51,41 @@ More information related to payroll processes can be found on the [Payroll handb
 
 ### GitLab Entities and Branches
 
-Note: In countries with a star (*) hiring is limited to only certain roles, more detail can be found in our internal [compensation calculator](https://comp-calculator.gitlab.net/users/sign_in) under Country Hiring Status.
+Note: In countries with a star (*) hiring is limited to only certain roles, more detail can be found in our internal compensation calculator under [Country Hiring Status](https://comp-calculator.gitlab.net/hiring_status/index), found in the top right menu.
 
 
-| Country                       | Team Member Type(s)               | Entity                                                 | Pay Frequency | Paid By             | Workday Profile (Y/N) |
-|-------------------------------|-----------------------------------|--------------------------------------------------------|---------------|---------------------|------------------------|
-| Australia                     | Employee                          | GitLab PTY Ltd                                         |            12 | GitLab Payroll Dept | Y                      |
-| Belgium *                     | Employee                          | GitLab BV                                              |         13.92 | GitLab Payroll Dept | Y                      |
-| Canada                        | Employee                          | GitLab Canada Corp                                     |            26 | GitLab Payroll Dept | Y                      |
-| Finland *                     | Employee                          | GitLab BV                                              |            12 | GitLab Payroll Dept | Y                      |
-| France *                      | Employee                          | GitLab France S.A.S.                                   |            12 | GitLab Payroll Dept | Y                      |
-| Germany                       | Employee                          | GitLab GmbH                                            |            12 | GitLab Payroll Dept | Y                      |
-| Ireland                       | Employee                          | GitLab Ireland Ltd                                     |            12 | GitLab Payroll Dept | Y                      |
-| Japan                         | Employee                          | GitLab GK                                              |            12 | GitLab Payroll Dept | Y                      |
-| South Korea                   | Employee                          | GitLab Korea Limited                                   |            12 | GitLab Payroll Dept | Y                      |
-| Netherlands                   | Employee                          | GitLab BV                                              |         12.96 | GitLab Payroll Dept | Y                      |
-| New Zealand *                 | Employee                          | GitLab PTY Ltd NZ (Branch of GitLab PTY Ltd Australia) |            12 | GitLab Payroll Dept | Y                      |
-| Singapore                     | Employee                          | GitLab Singapore PTE. LTD                              |            12 | GitLab Payroll Dept | Y                      |
-| United Kingdom   (England, Scotland, Wales, Northern Ireland)             | Employee                          | GitLab UK Ltd                                          |            12 | GitLab Payroll Dept | Y                      |
-| United States                 | Employee                          | GitLab Inc                                             |            24 | GitLab Payroll Dept | Y                      |
-| United States (Public Sector) | Employee                          | GitLab Federal LLC                                     |            24 | GitLab Payroll Dept | Y |
+| Country                                                     | Team Member Type(s) | Entity                                                 | Pay Frequency | Paid By             | Workday Profile (Y/N) |
+|-------------------------------------------------------------|---------------------|--------------------------------------------------------|---------------|---------------------|-----------------------|
+| Australia                                                   | Employee            | GitLab PTY Ltd                                         |            12 | GitLab Payroll Dept | Y                     |
+| Belgium *                                                   | Employee            | GitLab BV                                              |         13.92 | GitLab Payroll Dept | Y                     |
+| Canada                                                      | Employee            | GitLab Canada Corp                                     |            26 | GitLab Payroll Dept | Y                     |
+| Finland *                                                   | Employee            | GitLab BV                                              |            12 | GitLab Payroll Dept | Y                     |
+| France *                                                    | Employee            | GitLab France S.A.S.                                   |            12 | GitLab Payroll Dept | Y                     |
+| Germany                                                     | Employee            | GitLab GmbH                                            |            12 | GitLab Payroll Dept | Y                     |
+| Ireland                                                     | Employee            | GitLab Ireland Ltd                                     |            12 | GitLab Payroll Dept | Y                     |
+| Israel *                                                     | Employee            | Oxeye Security Ltd.                                     |            12 | GitLab Payroll Dept | Y                     |
+| Japan                                                       | Employee            | GitLab GK                                              |            12 | GitLab Payroll Dept | Y                     |
+| Netherlands                                                 | Employee            | GitLab BV                                              |         12.96 | GitLab Payroll Dept | Y                     |
+| New Zealand *                                               | Employee            | GitLab PTY Ltd NZ (Branch of GitLab PTY Ltd Australia) |            12 | GitLab Payroll Dept | Y                     |
+| Singapore                                                   | Employee            | GitLab Singapore PTE. LTD                              |            12 | GitLab Payroll Dept | Y                     |
+| South Korea                                                 | Employee            | GitLab Korea Limited                                   |            12 | GitLab Payroll Dept | Y                     |
+| Spain *                                                     | Employee            | GitLab Iberia S.L.                                     |            12 | GitLab Payroll Dept | Y                     |
+| United Kingdom (England, Scotland, Wales, Northern Ireland) | Employee            | GitLab UK Ltd                                          |            12 | GitLab Payroll Dept | Y                     |
+| United States                                               | Employee            | GitLab Inc                                             |            24 | GitLab Payroll Dept | Y                     |
+| United States (Public Sector)                               | Employee            | GitLab Federal LLC                                     |            24 | GitLab Payroll Dept | Y                     |
 
 ### PEO (Professional Employer Organization/ Employer of Record and not a GitLab entity or Branch)
 
-This table reflects the countries in which we utilize PEO's, These countries are open for hiring:
+This table reflects the countries in which we utilize PEO's. These countries are open for hiring but there may be times where we pause, close or are unable to hire in a given location due to the limitations or requirements of a particular role, or as a result of key projects or business needs. Our Talent Acquisition team can help answer any questions applicants may have about location once the recruiting process has begun:
 
 Note: In countries with a star (*) hiring is limited to only certain roles, more detail can be found in our internal [compensation calculator](https://comp-calculator.gitlab.net/users/sign_in) under Country Hiring Status.
 
 |     Country    |  Agreement Type(s) | Hiring Partner | Entity to Invoice (for AP only) | Pay Frequency | Paid By | Currency paid in | Workday Profile (Y/N) | Scalable PEO (Y/N) | Open for hiring (Y/N) |
 |:--------------:|:------------------:|:--------------:|:-------------------------------:|:-------------:|:-------:|:----------------:|:---------------------:|:------------------:|:---------------------:|
 |    Austria *   | Employed via a PEO |   Remote.com   |           GitLab IT BV          |       12      |   PEO   |        EUR       |           Y           |          Y         |           Y           |
-|    Brazil *    | Employed via a PEO |   Remote.com   |           GitLab IT BV          |       12      |   PEO   |        BRL       |           Y           |          Y         |           Y           |
 |     Chile *    | Employed via a PEO |  Global Upside |           GitLab IT BV          |       12      |   PEO   |        CLP       |           Y           |          Y         |           Y           |
 |  Costa Rica *  | Employed via a PEO |  Global Upside |           GitLab IT BV          |       12      |   PEO   |        USD       |           Y           |          Y         |           Y           |
 |     India *    | Employed via a PEO |  Global Upside |           GitLab IT BV          |       12      |   PEO   |        INR       |           Y           |          Y         |           Y           |
-|     Italy *    | Employed via a PEO |   Remote.com   |           GitLab IT BV          |       14      |   PEO   |        EUR       |           Y           |          Y         |           Y           |
 |     Kenya *    | Employed via a PEO |  Global Upside |           GitLab IT BV          |       12      |   PEO   |        KES       |           Y           |          Y         |           Y           |
 |    Latvia *    | Employed via a PEO |  Global Upside |           GitLab IT BV          |       12      |   PEO   |        EUR       |           Y           |          Y         |           Y           |
 |  Luxembourg *  | Employed via a PEO |   Remote.com   |           GitLab IT BV          |       12      |   PEO   |        EUR       |           Y           |          Y         |           Y           |
@@ -94,7 +94,6 @@ Note: In countries with a star (*) hiring is limited to only certain roles, more
 | South Africa * | Employed via a PEO |   Remote.com   |           GitLab IT BV          |       12      |   PEO   |        ZAR       |           Y           |          Y         |           Y           |
 |  Switzerland * | Employed via a PEO |   Remote.com   |           GitLab IT BV          |       12      |   PEO   |        CHF       |           Y           |          Y         |           Y           |
 |    Sweden *    | Employed via a PEO |   Remote.com   |           GitLab IT BV          |       12      |   PEO   |        SEK       |           Y           |          Y         |           Y           |
-|      UAE *     | Employed via a PEO |  Papaya Global |           GitLab IT BV          |       12      |   PEO   |        AED       |           Y           |          Y         |           Y           |
 
 
 This table reflects the countries in which we have utilize PEO's but are currently NOT open for hiring:
@@ -115,6 +114,9 @@ This table reflects the countries in which we have utilize PEO's but are current
 | Hungary        | Employed via a PEO   | Remote.com     | GitLab IT BV                    |            12 | PEO     | HUF              | Y                     | Y                  | N                     |
 | Spain *        | Employed via a PEO   | Remote.com     | GitLab IT BV                    |            12 | PEO     | EUR              | Y                     | Y                  | N                     |
 | Denmark *      | Employed via a PEO   | Remote.com     | GitLab IT BV                    |            12 | PEO     | DKK              | Y                     | Y                  | N                     |
+|    Brazil *    |  Employed via a PEO  |   Remote.com   |           GitLab IT BV          |       12      |   PEO   |        BRL       |           Y           |          Y         |           N           |
+|      UAE *     |  Employed via a PEO  |  Papaya Global |           GitLab IT BV          |       12      |   PEO   |        AED       |           Y           |          Y         |           N           |
+|     Italy *    |  Employed via a PEO  |   Remote.com   |           GitLab IT BV          |       14      |   PEO   |        EUR       |           Y           |          Y         |           N           |
 
 Contact information for our PEO representatives is found in the `Entity & PEO Contacts` note in the PeopleOps vault in 1Password. If a team member, manager or PBP has a question relating to a PEO, their process, or any related procedure for a PEO-employed team member, please reach out to the Employment Solutions Partner (@hdevlin) who will liaise and find a solution with the PEO's support.
 
@@ -162,7 +164,7 @@ Each year a spreadsheet with the project details and hours logged against the wo
 
 ## Engineering internships
 
-Engineering is currently hiring interns. The [engineering internships handbook page](https://about.gitlab.com/handbook/engineering/internships/) has more information on this.
+Engineering is currently hiring interns. The [engineering internships handbook page](/handbook/engineering/internships/) has more information on this.
 
 Interships require a fixed term contract during the internship, which is not possible in all countries.
 

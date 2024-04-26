@@ -36,10 +36,10 @@ and deck (internal):
 </figure>
 
 Covering these releases:
-- 2021-10-22 [GitLab 14.4 released with Scheduled DAST scans and Integrated error tracking](/releases/2021/10/22/gitlab-14-4-released/)
-- 2021-09-22 [GitLab 14.3 releases Project Security Policies & Next Gen SAST](/releases/2021/09/22/gitlab-14-3-released/)
-- 2021-08-22 [GitLab 14.2 released with the Build Cloud for macOS beta and Markdown preview](/releases/2021/08/22/gitlab-14-2-released/)
-- 2021-07-22 [GitLab 14.1 released with Helm Chart Registry and Escalation Policies](/releases/2021/07/22/gitlab-14-1-released/)
+- 2021-10-22 [GitLab 14.4 released with Scheduled DAST scans and Integrated error tracking](https://about.gitlab.com/releases/2021/10/22/gitlab-14-4-released/)
+- 2021-09-22 [GitLab 14.3 releases Project Security Policies & Next Gen SAST](https://about.gitlab.com/releases/2021/09/22/gitlab-14-3-released/)
+- 2021-08-22 [GitLab 14.2 released with the Build Cloud for macOS beta and Markdown preview](https://about.gitlab.com/releases/2021/08/22/gitlab-14-2-released/)
+- 2021-07-22 [GitLab 14.1 released with Helm Chart Registry and Escalation Policies](https://about.gitlab.com/releases/2021/07/22/gitlab-14-1-released/)
 
 ### Commit Virtual 2021: Product sessions
 
@@ -63,11 +63,11 @@ Product Keynote: [Innovating Together on the Next Generation of DevOps](https://
 
 ### Recent releases
 
-For a list of all release posts including patch releases, see [this blog category, 'releases'](/releases/categories/releases/).
+For a list of all release posts including patch releases, see [this blog category, 'releases'](https://about.gitlab.com/releases/categories/releases/).
 
 Find future releases, with their most important features flagged, on [Product's upcoming releases page](/upcoming-releases/). You can also see [upcoming features for paid product tiers, listed by tier](https://about.gitlab.com/direction/paid_tiers/).
 
-Information about the release currently running on GitLab SaaS is at [the GitLab SaaS release page](/releases/gitlab-com/).
+Information about the release currently running on GitLab SaaS is at [the GitLab SaaS release page](https://about.gitlab.com/releases/gitlab-com/).
 
 ## Past updates
 
@@ -86,22 +86,22 @@ We focused on GitLab 14 but covered all versions since SKO, with [this presentat
 </figure>
 
 Covering these releases:
-- 2021-06-22 [GitLab 14.0 released with a celebration of GitLab 14](/releases/2021/06/22/gitlab-14-0-released/)
-- 2021-05-22 [GitLab 13.12 released with On-Demand DAST and Deployment Frequency Chart](/releases/2021/05/22/gitlab-13-12-released/)
-- 2021-04-22 [GitLab 13.11 released with Kubernetes Agent and Pipeline Compliance](/releases/2021/04/22/gitlab-13-11-released/)
-- 2021-03-22 [GitLab 13.10 released with Admin Enhancements and Vulnerability Management](/releases/2021/03/22/gitlab-13-10-released/)
-- 2021-02-22 [GitLab 13.9 released with a Security Alert Dashboard and Maintenance Mode](/releases/2021/02/22/gitlab-13-9-released/)
-- 2021-01-22 [GitLab 13.8 released with a Pipeline Editor and DORA metrics](/releases/2021/01/22/gitlab-13-8-released/)
+- 2021-06-22 [GitLab 14.0 released with a celebration of GitLab 14](https://about.gitlab.com/releases/2021/06/22/gitlab-14-0-released/)
+- 2021-05-22 [GitLab 13.12 released with On-Demand DAST and Deployment Frequency Chart](https://about.gitlab.com/releases/2021/05/22/gitlab-13-12-released/)
+- 2021-04-22 [GitLab 13.11 released with Kubernetes Agent and Pipeline Compliance](https://about.gitlab.com/releases/2021/04/22/gitlab-13-11-released/)
+- 2021-03-22 [GitLab 13.10 released with Admin Enhancements and Vulnerability Management](https://about.gitlab.com/releases/2021/03/22/gitlab-13-10-released/)
+- 2021-02-22 [GitLab 13.9 released with a Security Alert Dashboard and Maintenance Mode](https://about.gitlab.com/releases/2021/02/22/gitlab-13-9-released/)
+- 2021-01-22 [GitLab 13.8 released with a Pipeline Editor and DORA metrics](https://about.gitlab.com/releases/2021/01/22/gitlab-13-8-released/)
 
 ### 13.4–13.7 SKO Product Keynote
 
 The [SKO Product Keynote video](https://gitlab.edcast.com/insights/keynote-product) and [the deck presented](https://docs.google.com/presentation/d/1NunKRuZBnDcZi0k_N5-NQBvdy5X5ZaV4a1Qf7w126qs/edit?usp=sharing) in 2021-02 are GitLab-internal only.
 
 There was a focus on these releases, along with more from fiscal 21 and a look ahead:
-- 2020-12-22 [GitLab 13.7 released with merge request reviewers and automatic rollback upon failure](/releases/2020/12/22/gitlab-13-7-released/)
-- 2020-11-22 [GitLab 13.6 released with Auto Deploy to EC2 and Usage Trends Dashboard](/releases/2020/11/22/gitlab-13-6-released/)
-- 2020-10-22 [GitLab 13.5 released with Mobile App Sec, Group Wikis, and more!](/releases/2020/10/22/gitlab-13-5-released/)
-- 2020-09-22 [GitLab 13.4 released with Vault for CI variables and Kubernetes Agent](/releases/2020/09/22/gitlab-13-4-released/)
+- 2020-12-22 [GitLab 13.7 released with merge request reviewers and automatic rollback upon failure](https://about.gitlab.com/releases/2020/12/22/gitlab-13-7-released/)
+- 2020-11-22 [GitLab 13.6 released with Auto Deploy to EC2 and Usage Trends Dashboard](https://about.gitlab.com/releases/2020/11/22/gitlab-13-6-released/)
+- 2020-10-22 [GitLab 13.5 released with Mobile App Sec, Group Wikis, and more!](https://about.gitlab.com/releases/2020/10/22/gitlab-13-5-released/)
+- 2020-09-22 [GitLab 13.4 released with Vault for CI variables and Kubernetes Agent](https://about.gitlab.com/releases/2020/09/22/gitlab-13-4-released/)
 
 ### 13.0–13.3 Sales enablement
 
@@ -118,10 +118,10 @@ The content was updated with more information on use of the GitLab Value Framewo
 </figure>
 
 Covering these releases:
-- 2020-08-22 [GitLab 13.3 released with coverage-guided fuzz testing and a build matrix for CI/CD](/releases/2020/08/22/gitlab-13-3-released/)
-- 2020-07-22 [GitLab 13.2 released with Planning Iterations and Load Performance Testing](/releases/2020/07/22/gitlab-13-2-released/)
-- 2020-06-22 [GitLab 13.1 released with Alert Management and Code Quality Enhancements](/releases/2020/06/22/gitlab-13-1-released/)
-- 2020-05-22 [GitLab 13.0 released with Gitaly Clusters, Epic Hierarchy on Roadmaps, and Auto Deploy to ECS](/releases/2020/05/22/gitlab-13-0-released/)
+- 2020-08-22 [GitLab 13.3 released with coverage-guided fuzz testing and a build matrix for CI/CD](https://about.gitlab.com/releases/2020/08/22/gitlab-13-3-released/)
+- 2020-07-22 [GitLab 13.2 released with Planning Iterations and Load Performance Testing](https://about.gitlab.com/releases/2020/07/22/gitlab-13-2-released/)
+- 2020-06-22 [GitLab 13.1 released with Alert Management and Code Quality Enhancements](https://about.gitlab.com/releases/2020/06/22/gitlab-13-1-released/)
+- 2020-05-22 [GitLab 13.0 released with Gitaly Clusters, Epic Hierarchy on Roadmaps, and Auto Deploy to ECS](https://about.gitlab.com/releases/2020/05/22/gitlab-13-0-released/)
 
 ### 12.9–13.0 Sales enablement
 
@@ -138,13 +138,13 @@ With this presentation:
 </figure>
 
 Covering these releases:
-- 2020-05-22 [GitLab 13.0 released with Gitaly Clusters, Epic Hierarchy on Roadmaps, and Auto Deploy to ECS](/releases/2020/05/22/gitlab-13-0-released/)
-- 2020-04-22 [GitLab 12.10 released with Requirements Management and Autoscaling CI on AWS Fargate](/releases/2020/04/22/gitlab-12-10-released/)
-- 2020-03-22 [GitLab 12.9 released with Vault App, Code Quality Reports and Group Deploy Tokens](/releases/2020/03/22/gitlab-12-9-released/)
+- 2020-05-22 [GitLab 13.0 released with Gitaly Clusters, Epic Hierarchy on Roadmaps, and Auto Deploy to ECS](https://about.gitlab.com/releases/2020/05/22/gitlab-13-0-released/)
+- 2020-04-22 [GitLab 12.10 released with Requirements Management and Autoscaling CI on AWS Fargate](https://about.gitlab.com/releases/2020/04/22/gitlab-12-10-released/)
+- 2020-03-22 [GitLab 12.9 released with Vault App, Code Quality Reports and Group Deploy Tokens](https://about.gitlab.com/releases/2020/03/22/gitlab-12-9-released/)
 
 ### 13.0 Launch
 
-GitLab 13.0 was launched on 2020-05-22 with [this release blog post](/releases/2020/05/22/gitlab-13-0-released/). The major release launch featured this video of Scott Williamson, then CPO, sharing 13.0 highlights and insight into key drivers of our product strategy:
+GitLab 13.0 was launched on 2020-05-22 with [this release blog post](https://about.gitlab.com/releases/2020/05/22/gitlab-13-0-released/). The major release launch featured this video of Scott Williamson, then CPO, sharing 13.0 highlights and insight into key drivers of our product strategy:
 
 <figure class="video_container">
 <iframe width="1198" height="674" src="https://www.youtube.com/embed/dStIhTP1ckg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -172,12 +172,12 @@ With this presentation:
 
 And in [these meeting notes](https://docs.google.com/document/d/1q35EN6PkbhM7uoHGDHdmWK7RyhLa3JPlPDvJdmaaxlw/edit?usp=sharing), covering these six releases:
 
-- 2020-02-22 [GitLab 12.8 released with Log Explorer, NuGet, and Compliance](/releases/2020/02/22/gitlab-12-8-released/)
-- 2020-01-22 [GitLab 12.7 released with Parent-Child Pipelines and Windows Shared Runners Beta](/releases/2020/01/22/gitlab-12-7-released/)
-- 2019-12-22 [GitLab 12.6 released with Security Scorecard and Release Evidence](/releases/2019/12/22/gitlab-12-6-released/)
-- 2019-11-22 [GitLab 12.5 released with EKS Cluster Creation & Environments Dashboard](/releases/2019/11/22/gitlab-12-5-released/)
-- 2019-10-22 [GitLab 12.4 released with improved Merge Request Dependencies and Audit API](/releases/2019/10/22/gitlab-12-4-released/)
-- 2019-09-22 [GitLab 12.3 released with Web Application Firewall and Productivity Analytics](/releases/2019/09/22/gitlab-12-3-released/)
+- 2020-02-22 [GitLab 12.8 released with Log Explorer, NuGet, and Compliance](https://about.gitlab.com/releases/2020/02/22/gitlab-12-8-released/)
+- 2020-01-22 [GitLab 12.7 released with Parent-Child Pipelines and Windows Shared Runners Beta](https://about.gitlab.com/releases/2020/01/22/gitlab-12-7-released/)
+- 2019-12-22 [GitLab 12.6 released with Security Scorecard and Release Evidence](https://about.gitlab.com/releases/2019/12/22/gitlab-12-6-released/)
+- 2019-11-22 [GitLab 12.5 released with EKS Cluster Creation & Environments Dashboard](https://about.gitlab.com/releases/2019/11/22/gitlab-12-5-released/)
+- 2019-10-22 [GitLab 12.4 released with improved Merge Request Dependencies and Audit API](https://about.gitlab.com/releases/2019/10/22/gitlab-12-4-released/)
+- 2019-09-22 [GitLab 12.3 released with Web Application Firewall and Productivity Analytics](https://about.gitlab.com/releases/2019/09/22/gitlab-12-3-released/)
 
 ### 12.0–12.2 Sales enablement
 
@@ -186,19 +186,19 @@ Our first-ever quarterly, sales-focused product release update covered 12.0–12
 In addition to product highlights, the session called out new business value and selling opportunities in Ultimate or Premium, along with what to expect in GitLab 12.3–12.5.
 
 Releases covered:
-- 2019-08-22 [GitLab 12.2 released with Directed Acyclic Graphs for Pipelines and Design Management](/releases/2019/08/22/gitlab-12-2-released/)
-- 2019-07-22 [GitLab 12.1 released with Parallel Merge Trains and Merge Requests for Confidential Issues](/releases/2019/07/22/gitlab-12-1-released/)
-- 2019-06-22 [GitLab 12.0 released with Visual Reviews and Dependency List](/releases/2019/06/22/gitlab-12-0-released/)
+- 2019-08-22 [GitLab 12.2 released with Directed Acyclic Graphs for Pipelines and Design Management](https://about.gitlab.com/releases/2019/08/22/gitlab-12-2-released/)
+- 2019-07-22 [GitLab 12.1 released with Parallel Merge Trains and Merge Requests for Confidential Issues](https://about.gitlab.com/releases/2019/07/22/gitlab-12-1-released/)
+- 2019-06-22 [GitLab 12.0 released with Visual Reviews and Dependency List](https://about.gitlab.com/releases/2019/06/22/gitlab-12-0-released/)
 
 ### 12.0 Launch
 
 The GitLab 12.0 launch included a livestreamed program: [11.0 to 12.0: How we got to DevSecOps in a single application](https://www.youtube.com/watch?v=ZopqBQQOK20), and in that, an Ask Me Anything featuring GitLab CEO Sid Sijbrandij.
 
 > GitLab 12.0 marks a key step in our journey to create an inclusive approach to DevSecOps, empowering 'everyone to contribute'.
->  
+>
 > We believe everyone can contribute, and we’ve enabled cross-team collaboration, faster delivery of great code, and bringing together Dev, Ops, and Security.
 
-Read more in the 12.0 release blog post: [GitLab 12.0 released with Visual Reviews and Dependency List](/releases/2019/06/22/gitlab-12-0-released/).
+Read more in the 12.0 release blog post: [GitLab 12.0 released with Visual Reviews and Dependency List](https://about.gitlab.com/releases/2019/06/22/gitlab-12-0-released/).
 
 ### Version 11 Year in Review
 
@@ -210,21 +210,21 @@ GitLab's Version 11 year in review provided an overview of what we released, 11.
 
 ### 11.0 Launch
 
-The theme of our 11.0 launch was [Auto DevOps](/stages-devops-lifecycle/auto-devops/) (as it had been for 10.0):
+The theme of our 11.0 launch was [Auto DevOps](https://about.gitlab.com/stages-devops-lifecycle/auto-devops/) (as it had been for 10.0):
 
-> Beyond making it easy to host and collaborate on public and private repositories, GitLab also simplifies the rest of the process by offering the whole delivery toolchain, built in. And now, it's not only built in, it's automated. Simply commit your code and Auto DevOps can do the rest. Auto DevOps is a pre-built, fully featured CI/CD pipeline that automates the entire delivery process.  
+> Beyond making it easy to host and collaborate on public and private repositories, GitLab also simplifies the rest of the process by offering the whole delivery toolchain, built in. And now, it's not only built in, it's automated. Simply commit your code and Auto DevOps can do the rest. Auto DevOps is a pre-built, fully featured CI/CD pipeline that automates the entire delivery process.
 
-Read more in the 11.0 release blog post: [GitLab 11.0 released with Auto DevOps and License Management](/releases/2018/06/22/gitlab-11-0-released/).
+Read more in the 11.0 release blog post: [GitLab 11.0 released with Auto DevOps and License Management](https://about.gitlab.com/releases/2018/06/22/gitlab-11-0-released/).
 
 ### 10.0 Launch
 
-The theme of our 10.0 launch was [Auto DevOps](/stages-devops-lifecycle/auto-devops/):
+The theme of our 10.0 launch was [Auto DevOps](https://about.gitlab.com/stages-devops-lifecycle/auto-devops/):
 
 > From the formulation of an idea to executing and monitoring it in production, DevOps establishes a culture and environment where developing, testing, and releasing software can happen quickly, frequently, and more reliably.
 >
 > GitLab 10.0 delivers a hands-free DevOps environment with the introduction of Auto DevOps, allowing your team to easily configure and adopt modern development practices in your workflow.
 
-Read more in the 10.0 release blog post: [GitLab 10.0 released with Auto DevOps and Group Issue Boards](/releases/2017/09/22/gitlab-10-0-released/).
+Read more in the 10.0 release blog post: [GitLab 10.0 released with Auto DevOps and Group Issue Boards](https://about.gitlab.com/releases/2017/09/22/gitlab-10-0-released/).
 
 ## Planned updates
 

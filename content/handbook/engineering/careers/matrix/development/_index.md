@@ -4,7 +4,7 @@ title: Development Department Career Framework
 
 ## Development Department Career Framework
 
-{{% include "includes/engineering/career-matrix-nav.md" %}}
+{{% include "includes/engineering-careers/career-matrix-nav.md" %}}
 
 These are the expected competencies of team members at GitLab by Job Title and job grade.
 

@@ -310,7 +310,7 @@ GitLab job grades aid in mapping a role for internal equity with respect to cash
 | 8        | Manager          | Staff <br> Senior Product Manager <br> Consultant |
 | 7            |                  | Senior <br> Product Manager                       |
 | 6            |                  | Intermediate              |
-| 5            |                  | Junior                    |
+| 5            |                  | Junior  <br> Associate        |
 | 4            |                  | Intern                    |
 
 Dual career tracks can be added to each job family (regardless of division) when supported by data. Each individual contributor level above senior (grade 7) will have links to market examples of that level in the relevant section of the job family.
@@ -325,10 +325,10 @@ Dual career tracks can be added to each job family (regardless of division) when
 | 11    | Senior Director |                                    |
 | 10    |    Director          |                                 |
 | 9        | Manager (Sales) <br> Senior Manager (Sales)        |                                   |
-| 8        | Manager (Demand Generation)                |    Alliance Business Development Manager <br> Enterprise  |
+| 8        | Manager (SDR/BDR)   <br> Associate Manager (Sales)             |    Alliance Business Development Manager <br> Enterprise  |
 | 7            |                 | Mid Market                      |
-| 6            |                 | SMB/SDR Lead & Acceleration                             |
-| 5            |                 | Analyst/ SDR  |
+| 6            |                 | SMB                            |
+| 5            |                 | SDR/BDR  |
 
 ##### Customer Success:
 

@@ -23,7 +23,7 @@ graph TD
 
 We are only able to process Account Deletion and Data Access requests if they are submitted through the official [Personal Data Request form](https://support.gitlab.io/account-deletion/). If a request is received via any other method, we will close it and direct the user to open a request through the form.
 
-When a user submits a request through the form, an issue is [automatically created]({{< ref "/content/handbook/support/readiness/operations/docs/gitlab/account_deletions.md" >}}) in the [Personal Account Requests Service Desk](https://gitlab.com/gitlab-com/gdpr-request/-/issues/service_desk), *even for invalid requests*. Comments made in the issue will be emailed to the user. You will communicate with the user through the issue on the progress of their request.
+When a user submits a request through the form, an issue is [automatically created](/handbook/support/readiness/operations/docs/gitlab/account_deletions.md) in the [Personal Account Requests Service Desk](https://gitlab.com/gitlab-com/gdpr-request/-/issues/service_desk), *even for invalid requests*. Comments made in the issue will be emailed to the user. You will communicate with the user through the issue on the progress of their request.
 
 The purpose of this stage is to instruct you on how to close out invalid requests.
 
@@ -31,7 +31,7 @@ The purpose of this stage is to instruct you on how to close out invalid request
 
 When a request is received through Zendesk as a support ticket, do one the following:
 
-- If the ticket is regarding an **Account Deletion** request, apply the [Support::SaaS::Account Deletion Instructions - GitLab.com](https://gitlab.com/search?search=360027176693&nav_source=navbar&project_id=17008590&group_id=15990755&search_code=true&repository_ref=master) macro, and mark the ticket as solved.
+- If the ticket is regarding an **Account Deletion** request, apply the [Support::SaaS::Gitlab.com::Account Deletion Instructions - GitLab.com](https://gitlab.com/gitlab-com/support/zendesk-global/macros/-/blob/master/active/Support/SaaS/GitLab.com/Account%20Deletion%20Instructions-%20GitLab.com.md?ref_type=heads) macro, and mark the ticket as solved.
 
 - If the ticket is regarding a **Data Access** request, apply the [General::Personal Data Access Request Instructions](https://gitlab.com/search?search=6147154241180&nav_source=navbar&project_id=17008590&group_id=15990755&search_code=true&repository_ref=master) macro, and mark the ticket as solved.
 
@@ -68,7 +68,7 @@ If a user has submitted multiple requests via the form, apply the `/duplicate` q
 
  <p>It looks like you have submitted multiple requests for the same purpose. </p>
 
- <p>I'm closing this issue in favour of #123, and we will continue processing your request on the other issue.</p>
+ <p>I'm closing this issue in favor of #123, and we will continue processing your request on the other issue.</p>
 
  <p>Regards,</p>
 </details>
@@ -98,7 +98,7 @@ Currently, only **GitLab.com Account Deletion** or **Full Deletion** requests ar
 
 #### **GitLab.com Account Deletion and Full Deletion**
 
-This workflow applies to both **GitLab.com Account Deletion** and **Full Deletion** requests. When a request is submitted for either of these types, the following form entries are verified using [built-in automated checks]({{< ref "/content/handbook/support/readiness/operations/docs/gitlab/account_deletions.md" >}}):
+This workflow applies to both **GitLab.com Account Deletion** and **Full Deletion** requests. When a request is submitted for either of these types, the following form entries are verified using [built-in automated checks](/handbook/support/readiness/operations/docs/gitlab/account_deletions.md):
 
 - Username (must exist)
 - Email address (must exist)
@@ -136,7 +136,7 @@ If the user fails to respond within 7 calendar days, close it using the followin
 
   <p>Regards,</p>
 
-  /label ~"Account Verification Failed" ~"deletion request::denied"
+  `/label ~"Account Verification Failed" ~"deletion request::denied"`
 </details>
 
 ##### **Step 1.5:** Blocked or Banned Accounts
@@ -184,7 +184,7 @@ If the user fails the challenge questions, apply the `Account Verification Faile
 
   <p>Regards,</p>
 
-  /label ~"Account Verification Failed" ~"deletion request::denied"
+  `/label ~"Account Verification Failed" ~"deletion request::denied"`
 </details>
 
 ###### Verification Failed - Sole Owner Exception
@@ -416,3 +416,11 @@ Use this workflow for general question submissions.
 1. If the question is something Support can answer, respond to the user's inquiry.
 1. If needed, engage a Support Manager or the Privacy team for guidance and messaging. You can visit the [#privacy-team_help](https://gitlab.slack.com/archives/C04357HVCJD) Slack channel to ask for help.
 1. Close the issue once the users question(s) have been answered.
+
+### Escalating to the Privacy Team
+
+While processing a request, certain scenarios may arise that necessitate the escalation of the request to the Privacy team. The most common of these scenarios can be found in the [Privacy Escalation Meta Issue](https://gitlab.com/gitlab-com/gdpr-request/-/blob/master/.gitlab/issue_templates/Privacy%20Escalation%20Meta%20Issue.md) template. If a request needs to be escalated to the Privacy team, do the following:
+
+1. Create a new related issue using the [Privacy Escalation Meta Issue](https://gitlab.com/gitlab-com/gdpr-request/-/blob/master/.gitlab/issue_templates/Privacy%20Escalation%20Meta%20Issue.md) template.
+
+If you're ever unsure if a particular scenario requires escalating, reach out to the Privacy team via the `#privacy-team_help` Slack channel.

@@ -37,10 +37,10 @@ The Director, Sales Development is a [grade 10](/handbook/total-rewards/compensa
 - Ability to attract, retain, and motivate exceptional SDRs and SDR managers.
 - Have a general understanding of Git, GitLab, and modern development practices.
 - A broad knowledge of the application development ecosystem.
-- Awareness of industry trends in enterprise digital transformation, devops, and continuous integration.
+- Awareness of industry trends in enterprise digital transformation, DevOps, and continuous integration.
 - Excellent written and spoken English.
 - Able to articulate the GitLab mission, values, and vision.
-- [GitLab Director](/handbook/company/team/structure/#director-group)
+- [GitLab Director](/handbook/company/structure/#director-group)
 - Ability to use GitLab
 
 ### Director, Global Business Development
@@ -75,10 +75,10 @@ The Director, Global Business Development is a [grade 10](/handbook/total-reward
 - Ability to attract, retain, and motivate exceptional BDRs and Business Development managers.
 - Have a general understanding of Git, GitLab, and modern development practices.
 - A broad knowledge of the application development ecosystem.
-- Awareness of industry trends in enterprise digital transformation, devops, and continuous integration.
+- Awareness of industry trends in enterprise digital transformation, DevOps, and continuous integration.
 - Excellent written and spoken English.
 - Able to articulate the GitLab mission, values, and vision.
-- [GitLab Director](/handbook/company/team/structure/#director-group)
+- [GitLab Director](/handbook/company/structure/#director-group)
 - Ability to use GitLab.
 
 ### Area Vice President, Sales Development

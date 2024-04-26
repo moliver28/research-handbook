@@ -7,7 +7,17 @@ title: Recognition in Engineering
 Quarterly, CTO Leadership will recognize Engineering team members who have excelled in a given quarter. Recognition includes:
 
 - an invitation to the [Engineering Quarterly Achievers Chat](#engineering-quarterly-achievers-chat)
-- participation in the [Engineering Quarterly Achiever's Recognition Dinner](#engineering-quarterly-achievers-recognition-dinner) - an expensed meal for yourself, friends and family to celebrate your work
+- participation in the [Engineering Quarterly Achiever's Recognition Dinner](#engineering-quarterly-achievers-recognition-dinner) - an expensed meal for yourself, friends and family to celebrate your work, the meal must occur before the last day of the quarter following the announcement.
+Winners each quarter have until the last day of the quarter to submit for reimbursement.
+Winners may submit their receipt for the meal for reimbursement via Navan. 
+Please see the instructions below. 
+
+In Navan, click Add Transaction Select Upload receipt (or select Type in details) 
+Under Expense Type field, please select “Team events & meals”
+Under Classification, please select “FY24 Team Building”
+Under Description field, please include this link: https://about.gitlab.com/handbook/engineering/recognition/#engineering-quarterly-achievers-recognition-dinner 
+Click Submit (or Save & close if you need to come back to add more information).
+
 
 ### Engineering Quarterly Achiever's Chat
 
@@ -20,9 +30,9 @@ The Quarterly Achiever's Chat recognizes Engineering team members who have excel
 
 Key features of this call include:
 
-- 50-minute call
+- 30-minute call
 - Held within first two months of new quarter
-- CEO and CTO attendance required
+- CEO, CFO, CTO and/or CProdO attendance required
 - Not recorded
 
 ### Engineering Quarterly Achiever's Recognition Dinner
@@ -33,7 +43,7 @@ The $250.00 USD is reimbursable for a meal only, other items do not qualify.
 
 ### Categories
 
-In total, 13 team members from across the Engineering organization will be recognized. The categories by segment for FY24-Q4 include:
+In total, 14 team members from across the Engineering organization will be recognized. The categories by segment for FY24-Q4 include:
 
 #### Engineering Efficiency
 
@@ -41,6 +51,7 @@ In total, 13 team members from across the Engineering organization will be recog
 1. **Cost Savings Award** - awarded to individuals who significantly contribute towards reducing costs
 1. **Software Efficiency Award** - awarded to individuals who implement an abstraction, pattern, or library that makes future development efforts much more efficient
 1. **Proactive Avoidance Award** - awarded to individuals who raise concerns about things *before* they become disastrous incidents
+1. **Security Improvement Award** - awarded to individuals who implement security features or defense in depth pattern to provide a more secure DevSecOps enviornment for everyone
 
 #### Engineering Excellence
 
@@ -63,17 +74,51 @@ Categories are reevaluated by CTO leadership and changed as necessary.
 
 Considerations include:
 
-1. The team member operates within Gitlab and in their particular area of achievement in concordance with [GitLab Values](https://handbook.gitlab.com/handbook/values/)
+1. The team member operates within GitLab and in their particular area of achievement in concordance with [GitLab Values](/handbook/values/)
 1. The team member has not won a Quarterly Achiever award within the current fiscal year
 
-### Engineering Quarterly Achievers Process and Timeline
+### Engineering Quarterly Achievers Timeline
 
-1. 4 Weeks prior to quarter start, a call for nominations goes out in the Engineering Week in Review and `#cto` channel
+1. 2 Weeks prior to quarter start, a call for nominations goes out in the Engineering Week in Review, and Slack. See [Communicating](#communicating) for the list of channels.
 1. Engineering Quarterly Achievers finalized within the first week of the new quarter by CTO leadership
 1. Engineering Quarterly Achievers announced and recognized in the first Engineering All-Hands of the quarter
 1. Engineering Quarterly Achievers Chat held within the quarter
 1. CEO, CTO, and CPO to congratulate and inquire about key learnings from achievers on call
 1. CEO, CTO, and CPO to pull out 2-3 of the most impactful key learnings and share with the larger team in a Slack post (either `#ceo` or `#cto`) after the call
+
+### Engineering Quarterly Achievers Process
+
+#### Accepting Nominations
+
+1. Create a copy of the `Engineering Quarterly Achievers Nomination Form - Template` in the [`Awards [Quarterly]` folder](https://drive.google.com/drive/search?q=type:folder%20%22achievers%20quarterly%22) on Drive. If you do not have access, ask the CTO's EBA for access.
+1.  Make sure to add any new categories.
+1. In the "Responses" tab, click "Link to Sheets" to collect responses in a Google Sheet rather than in the form itself.
+1. In the "Responsess" tab, toggle "Accepting responses" on, and toggle it off when nominations close.
+
+##### Communicating
+
+1. Create a Field Operations - Enablement issue ([example](https://gitlab.com/gitlab-com/sales-team/field-operations/enablement/-/issues/2394)) to get permission to post in `#field-fyi` for the "Contribution to Sales or Renewal" Award.
+   - Consider posting a pre-filled link that selects that specific award.
+1. In the Engineering Week in Review, add a note that nominations are open with a link to the form.
+1. Make a Slack post in `#engineering-fyi`. Cross-post in `#cto`, and `#eng-managers`.
+1. Consider posting reminders 1 week, and 1 day before due date.
+
+#### Selecting Winners
+
+1. Pull the raw data from the nominations sheet and put it in a copy of `Engineering Quarterly Achievers Nominees Selection - TEMPLATE`. It's easier to collaborate on a Google Doc than a Google Sheet.
+   - You can consider using `process-quarterly-achievers.rb` to process the data.
+1. Make a copy of the `Engineering Quarterly Achievers All Hands Deck - TEMPLATE`
+1. Follow the instructions in the template:
+   - Choose DRIs for each area
+   - Empower them to make decisions
+   - Direct them to update the deck with names, photos and speaker notes that highlight the nomination.
+
+#### Announce Winners
+
+In the next All-Hands, announce winners! Wooo! You're done until next quarter.
+
+
+
 
 #### Engineering Quarterly Achievers Nominations
 

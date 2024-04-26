@@ -4,7 +4,7 @@ title: "Core Platform Career Framework"
 
 ## Core Platform Career Framework
 
-{{% include "includes/engineering/enablement-career-nav.md" %}}
+{{% include "includes/engineering-careers/enablement-career-nav.md" %}}
 
 These are the expected competencies of the Core Platform Sub Department team members at GitLab by Job Title.
 

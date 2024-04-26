@@ -71,11 +71,11 @@ As an introduction, below are a few items that will help with using the platform
   </tr>
 </table>
  
-Currently, Gitlab, uses Ringlead's Cleanse capabilities, specifically Deduplication, while the enrichment is done through [Zoominfo](/handbook/marketing/marketing-operations/zoominfo/), our SSOT when it comes to lead/contact enrichment. 
+Currently, GitLab, uses Ringlead's Cleanse capabilities, specifically Deduplication, while the enrichment is done through [Zoominfo](/handbook/marketing/marketing-operations/zoominfo/), our SSOT when it comes to lead/contact enrichment. 
 
 ### Set Up & Access
 
-Currently, Sales & Marketing Operations have access to Ringlead. To request access [please follow the access request process](/handbook/business-technology/team-member-enablement/onboarding-access-requests/access-requests/) as outlined in the business operations handbook.
+Currently, Sales & Marketing Operations have access to Ringlead. To request access [please follow the access request process](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/) as outlined in the business operations handbook.
 
 ### Ways to access Ringlead & Help
 

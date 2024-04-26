@@ -95,7 +95,7 @@ Note: This does not preclude other stages beyond create to complete the exit cri
 
 ## Cross-functional prioritization process
 
-The process is [documented](https://about.gitlab.com/handbook/engineering/cross-functional-prioritization/) in the handbook.
+The process is [documented](/handbook/engineering/cross-functional-prioritization/) in the handbook.
 
 ## Multi-modal communication
 

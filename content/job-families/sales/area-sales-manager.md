@@ -43,7 +43,7 @@ Ensure the successful rollout and adoption of GitLab products through strong acc
 - Strong relationship building and negotiation skills
 - Strong presentation skills; Executive level communication skills (both written and verbal) and the ability to mentor others
 - You share our values, and work in accordance with those values.
-- [Leadership at GitLab](/handbook/company/team/structure/#management-group)
+- [Leadership at GitLab](/handbook/company/structure/#management-group)
 - Ability to use GitLab
 - Ability to travel if needed and comply with the company’s [travel policy](/handbook/travel/)
 
@@ -77,7 +77,7 @@ The Area Sales Manager (Intermediate) is a [grade 9](/handbook/total-rewards/com
 - Strong relationship building and negotiation skills
 - Strong presentation skills; Executive level communication skills (both written and verbal) and the ability to mentor others
 - You share our values, and work in accordance with those values.
-- [Leadership at GitLab](/handbook/company/team/structure/#management-group)
+- [Leadership at GitLab](/handbook/company/structure/#management-group)
 - Ability to use GitLab
 - Ability to travel if needed and comply with the company’s [travel policy](/handbook/travel/)
 
@@ -116,7 +116,7 @@ The Senior Area Sales Manager is a [grade 9](/handbook/total-rewards/compensatio
 - Experience with coaching and developing Sales reps and managers
 - Ability to travel as needed
 - You share our values, and work in accordance with those values.
-- [Leadership at GitLab](/handbook/company/team/structure/#management-group)
+- [Leadership at GitLab](/handbook/company/structure/#management-group)
 - Ability to use GitLab
 
 ## Specialties

@@ -91,89 +91,93 @@ The Deal Desk Analyst is a [grade 6](/handbook/total-rewards/compensation/compen
   - Efficiency in resolving issues
   - Transparency in addressing ongoing problems, SLAs, and field expectations
 
-#### Deal Desk Analyst (Alliances) Job Grade
 
-The Deal Desk Analyst (Alliances) is a [grade 6](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
-#### Deal Desk Analyst (Alliances) Responsibilities
 
-- Extends that of Deal Desk Analyst, while placing emphasis on Alliances deals.
-- Collaborates with impacted parties to identify acceptable options to facilitate Alliance deal closure
-- Manages and facilitates the Private Offer process in various Alliance marketplace portals, such as AWS and GCP
-- Maintains and enforces agreed upon departmental review and approval SLAs
-- Assists to interpret contractual language and escalate to ensure deals comply with revenue recognition and operational policies
-- Monitors the Sales Support Slack channel to provide assistance and advice on complex Alliance deal questions and advanced Quote to Cash related matters
-- Monitors the Sales Support Case queue, acts as primary contact for any Alliance deal-related questions or requests, while consistently maintaining case SLAs and handling complex and/or non-standard requests.
-- Partners with Sales Operations, Channel Operations and Sales Systems teams to facilitate process and system improvements
-- Partners with Channel Operations and Order Management to implement new Alliances marketplaces and continually create efficiency in existing Alliance deal processes
-- Delivers relevant training to new and existing Sales reps on Deal Desk, Order Booking, and overall QTC best practices
-- Represents Sales Operations / Deal Desk in QBRs and other regional Sales team meetings
-- Personal Growth / Projects
-    - Focus on Quote to Cash process automation and improvement, improving day to day tasks for Sales / Deal Desk
 
-#### Deal Desk Analyst (Alliances) Requirements
 
-- Requires additional specialized knowledge of Alliances processes.
-- Demonstrated success in the Enterprise SaaS/B2B Industry - Deal Desk, Order Management, Finance Operations, Sales Operations or Pricing experience preferred
-- Demonstrated success partnering with GTM Teams and other cross functional departments
-- Experience in Direct and Channel Sales model
-- Experience in Alliance Marketplace transactions (AWS, GCP, IBM, RedHat, etc.) strongly preferred
-- Strong understanding of software revenue recognition and order process principles required
-- Highly organized, customer-focused, innovative and strong attention to details
-- Strong business acumen, strong reporting and analytics, troubleshooting, problem-solving, and project management skills
-- Excellent communicator, self-aware, transparent, professional, and open to feedback
-- Ability to multitask and prioritize at times of high volume, schedule flexibility during End of Month, End or Quarter
-- Strong quantitative skills and highly proficient in gSuite, Salesforce.com, Zuora or similar CPQ tools
-- Interest in GitLab, and open source software, ability to use GitLab
-- You share our values, and work in accordance with those values
+## Deal Strategist
 
-### Senior Deal Desk Analyst
+The Deal Strategist reports to the Manager, Deal Desk.
 
-The Senior Deal Desk Analyst reports to the Manager, Deal Desk.
+#### Deal Strategist Job Grade
 
-#### Senior Deal Desk Analyst Job Grade
+The Deal Strategist is a Grade 7
 
-The Senior Deal Desk Analyst is a [grade 7](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+#### Deal Strategist Responsibilities
 
-#### Senior Deal Desk Analyst Responsibilities
+- Trusted advisor & go-to resource for assigned sales region on deal structure, quoting, and order form creatio n; advises on alternate contract options to drive deal closure
+- Primary point of contact for all questions related to deal structure, opportunity booking, subscription mgt and license delivery
+- Monitors the Sales Support slack channel & SFDC Sales Support case queue to respond to questions
+- Supports assigned sales region through the quote to cash process
+- Manages issues through GitLab and Handbook updates
+- Resolves booking errors for assigned region through Debooks/Rebooks; Refunds; Internal corrections
+- Partners with cross-functional teams (Billing, Channel, Revenue) to support the Quote to Cash process
+- Understands the license fulfillment process and provides guidance to the field for customers to apply licenses to GitLab instance
+- Responsible for reviewing opportunities to result in accurate booking metrics (Net ARR, ARR Basis, Amount, Recurring Amount) & 1:1 relationship between Zuora Invoice & SFDC Opportunity is accurate
+- Maintains subscription data, partnering with Sales Operations to ensure a 1:1 relationship between subscription and renewal opportunity
+- Collaborates with impacted parties to identify solutions for common QTC errors
+- Support overflow with the Deal Desk Analyst
+- Participate in sales region forecast calls, QBRs, & EoQ Daily Standups
 
-- Extends that of the Deal Desk Analyst responsibilities
-- Acts as key advisor for the Field Sales and Deal Desk teams
-- Manages complex deals from concept to booking, including deal structure, quoting, pricing, and partnering with the Order Management team to ensure the deal is correctly booked.
-- Maintains and enforces agreed upon departmental review and approval SLAs
-- Assists to interpret contractual language and escalate to ensure deals comply with revenue recognition and operational policies
-- Oversees the Sales Support Slack channel to provide assistance and advice on complex deal questions and advanced Quote to Cash related matters
-- Oversees the Sales Support Case queue, consistently maintaining case SLAs and handling complex and/or non-standard requests.
-- Partners with Sales Operations and Sales Systems teams to facilitate process and system improvements, sales enablement and other special projects related to Quote to Cash
-- Delivers relevant training to new and existing Sales reps on Deal Desk, Order Booking, and overall QTC best practices
-- Responsible for training and onboarding new Deal Desk Hires
-- Represents Sales Operations / Deal Desk in QBRs and other regional Sales team meetings
-- Leads regular trainings, AMAs, office hours, and other Deal Desk enablement functions
-- Personal Growth / Projects
-  - Focus on Quote to Cash process automation and improvement, broader Field Operations projects, and working with cross functional teams at GitLab
+#### Deal Strategist Requirements
 
-#### Senior Deal Desk Analyst Requirements
+- Experience in SaaS and B2B industry - Order Processing, Deal Desk, Finance & Sales Operations
+- Experience with Enterprise level deal structure
+- Understanding of various Route to Market sales models
+- Understanding of pricing & packaging with an ability to propose deal structuring
+- Understanding of booking and revenue recognition rules
+- Understanding of Legal terms that may have an impact on contract structuring
+- Ability to manage conversations with sales to drive compliant opportunities for booking
+- Detail oriented; organized; customer focused mindset
+- Understanding of weekly, monthly and quarterly period close process
+- Ability to prioritize workload to align with sales expectations
+- Basic knowledge and understanding of a CPQ tool
+- Proficiency in SFDC & gSuite
+- Interest in GitLab and open source software; ability to use GitLab"
 
-- Proven success in the Enterprise SaaS/B2B Industry - Deal Desk experience required
-- Proven success partnering with GTM Teams and other cross functional departments
-- Proven success in Direct and Channel Sales models
-- Strong understanding of software revenue recognition and order process principles required
-- Highly organized, customer-focused, innovative and strong attention to details
-- Strong business acumen, strong reporting and analytics, troubleshooting, problem-solving, and project management skills
-- Excellent communicator, self-aware, transparent, professional, and open to feedback
-- Ability to multitask and prioritize at times of high volume, schedule flexibility during End of Month, End or Quarter
-- Strong quantitative skills and highly proficient in gSuite, Salesforce.com, Zuora or similar CPQ tools
-- Interest in GitLab, and open source software, ability to use GitLab
-- You share our values, and work in accordance with those values
+## Senior Deal Strategist
 
-#### Senior Deal Desk Analyst Performance Indicators
+The Senior Deal Strategist reports to the Manager, Deal Desk.
 
-- Sales Support Case SLA
-- Sales Support Slack SLA
-- Field Satisfaction
-  - Responsiveness to cases
-  - Efficiency in resolving issues
-  - Transparency in addressing ongoing problems, SLAs, and field expectations
+#### Senior Deal Strategist Job Grade
+
+The Senior Deal Strategist is a Grade 8
+
+#### Senior Deal Strategist Responsibilities
+
+- Trusted advisor & go-to resource for assigned sales region on deal structure, quoting, and order form creation; advises on alternate contract options to drive deal closure
+- SME in Deal Desk activities, which impact bookings and complex deal structure
+- Primary point of contact for all questions related to opportunity booking, subscription mgt and license delivery
+- Montiors the Sales Support slack channel & SFDC Sales Support case queue to respond to questions
+- Supports assigned sales region through the quote to cash process
+- Manages issues through GitLab and Handbook updates
+- Resolves booking errors for assigned region through Debooks/Rebooks; Refunds; Internal corrections
+- Partners with cross-functional teams (Billing, Channel, Revenue) to support the Quote to Cash process
+- Understands the license fulfillment process and provides guidance to the field for customers to apply licenses to GitLab instance
+- Responsible for reviewing opportunities to result in accurate booking metrics (Net ARR, ARR Basis, Amount, Recurring Amount) & 1:1 relationship between Zuora Invoice & SFDC Opportunity is accurate
+- Maintains subscription data, partnering with Sales Operations to ensure a 1:1 relationship between subscription and renewal opportunity
+- Collaborates with impacted parties to identify solutions for common QTC errors
+- Conduct weekly, monthly and quarterly reconciliations & support in an audit
+- Serve as mentor to other team members, assisting with day-to-day process questions; review output; collaborate on complex deals
+- Engage directly with clients as necessary through both written and verbal communications, helping to resolve Q2C issues
+- Participate in sales region forecast calls, QBRs & Lead EoQ Daily Standups
+
+#### Senior Deal Strategist Requirements
+
+- Experience in SaaS and B2B industry - Order Processing, Deal Desk, Finance & Sales Operations
+- Experience leading Enterprise level deal structure conversations
+- Strong Understanding of pricing & packaging with an ability to propose deal structuring
+- Understanding of various Route to Market sales models
+- Strong Understanding of booking and revenue recognition rules
+- Strong Understanding of Legal terms that may have an impact on contract structuring
+- Ability to manage conversations with sales to drive compliant opportunities for booking
+- Detail oriented; organized; customer focused mindset
+- Understanding of weekly, monthly and quarterly period close process
+- Ability to prioritize workload to align with sales expectations
+- Basic knowledge and understanding of a CPQ tool
+- Proficiency in SFDC & gSuite
+- Interest in GitLab and open source software; ability to use GitLab
 
 ## Manager, Deal Desk
 

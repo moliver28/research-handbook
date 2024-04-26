@@ -1,7 +1,10 @@
-{{- $sections := partials.IncludeCached "data/sections" page }}
-{{- $categories := partials.IncludeCached "data/categories" page }}
-{{- $stages := partials.IncludeCached "data/stages" page }}
-{{- $features := partials.IncludeCached "data/features" page }}
+{{ $sections := site.Data.public.sections }}
+{{- $categories := dict }}
+{{- range $k, $v := site.Data.public.categories }}
+  {{- $categories = merge $categories (dict $k $v) }}
+{{ end }}
+{{ $stages := site.Data.public.stages.stages }}
+{{ $features := site.Data.public.features }}
 {{- range $section_key, $section_data := $sections }}
 {{- $section_name := $section_data.name }}
 
@@ -9,10 +12,12 @@
 
 {{ partial "categories/section-heading.html" $section_data }}
 
+{{ partial "categories/section-stages-graph.md" (dict "section_key" $section_key "section_name" $section_name )}}
+
 {{- range $key, $data := $stages }}
 {{- if eq $section_key $data.section }}
 
-#### {{ $key }} stage
+#### {{ $data.display_name }} stage
 
 {{ partial "categories/section-heading.html" $data }}
 
@@ -55,7 +60,7 @@
         <a href="{{.}}">Documentation Page</a><br>
         {{- end -}}
         {{- with .direction -}}
-        <a href="{{.}}">Direction Page</a><br>
+        <a href="https://about.gitlab.com{{.}}">Direction Page</a><br>
         {{- end -}}
         </td>
     </tr>
@@ -69,18 +74,3 @@
 {{- end }}
 {{- end }}
 {{- end }}
-
-<style>
-    img.avatar {
-    width: 30px;
-    height: 30px;
-    max-width: 30px;
-    max-height: 30px;
-    overflow: hidden;
-    margin-right: 10px;
-    border-radius: 50%;
-    border: 1px solid lightgray;
-    aspect-ratio: auto 90 / 90;
-    overflow-clip-margin: content-box;
-    }
-</style>

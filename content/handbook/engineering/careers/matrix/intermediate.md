@@ -14,12 +14,12 @@ title: "Engineering Career Framework: Intermediate"
 
 ### Intermediate Leadership Competencies
 
-{{% include "includes/engineering/intermediate-leadership-competency.md" %}}
+{{% include "includes/engineering-careers/intermediate-leadership-competency.md" %}}
   
 ### Intermediate Technical Competencies
 
-{{% include "includes/engineering/intermediate-technical-competency.md" %}}
+{{% include "includes/engineering-careers/intermediate-technical-competency.md" %}}
 
 ### Intermediate Values Alignment
 
-{{% include "includes/engineering/values-competency.md" %}}
+{{% include "includes/engineering-careers/values-competency.md" %}}

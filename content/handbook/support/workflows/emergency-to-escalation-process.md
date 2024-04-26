@@ -40,7 +40,7 @@ Here are a few things to keep in mind:
 - Post updates in the Slack channel as you get them.
 - If calls are running past 3 hour mark, consider a break, re-defining the problem, and re-starting the meeting at an agreed-upon time.
 - During an escalation, we are leading -- we set clarity as to when the next touch-point will happen. The customer shouldn't have to create another emergency ticket to get back in touch with us.
-- Once we are in an Escalated state, we have full access to development via [Dev Escalations](https://about.gitlab.com/handbook/engineering/development/processes/Infra-Dev-Escalation/process.html).
+- Once we are in an Escalated state, we have full access to development via [Dev Escalations](/handbook/engineering/development/processes/Infra-Dev-Escalation/process.html).
 
 ## Closing an Account Escalation
 

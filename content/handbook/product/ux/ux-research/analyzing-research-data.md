@@ -22,7 +22,7 @@ Capturing these insights while the session is fresh in your minds makes the over
 **Synthesizing user interview data**
 Affinity diagramming is one way of finding themes in a collection of ideas, quotes, or observations. This method helps you draw out insights from qualitative data quickly and collaboratively. This is traditionally done in person with sticky notes on a large blank wall or whiteboard. At GitLab, we use a tool called [Figjam](https://www.figma.com/figjam/online-whiteboard/) to recreate this experience remotely.
 
-We use Dovetail to capture notes from each participant session and to store the insights which result from synthesizing the data. As you record data from research sessions, please remove any [personal identifiable information](/handbook/support/workflows/pii_removal_requests.html#overview) or PII (such as first and last names). Additionally, Dovetail has the option of allowing you to highlight and tag your notes within the platform.
+We use Dovetail to capture notes from each participant session and to store the insights which result from synthesizing the data. As you record data from research sessions, please remove any [personal identifiable information](/handbook/support/workflows/pii_removal_requests/#overview) or PII (such as first and last names). Additionally, Dovetail has the option of allowing you to highlight and tag your notes within the platform.
 
 Aside from Dovetail, Figjam is a helpful tool when you are just learning how to synthesize and analyze your data.
 
@@ -56,4 +56,4 @@ Once you're happy with your groupings, distill your findings into [actionable or
 
 ### Using Dovetail in research synthesis
 
-Dovetail is a powerful tool available to Gitlab Team Members which allows you to [upload research data and tag to help distill insights](/handbook/product/ux/dovetail/#the-ux-research-teams-guide-to-documenting-insights-in-dovetail). Gitlab Team Members can create their own custom tags or follow the UX Research Team's set of Gitlab Global Tags or Gitlab Section Tags. More information on the Global Tags and helpful tips on creating custom tags can be found on our [Documenting Research Insights in Dovetail](/handbook/product/ux/dovetail/#tagging-data-in-dovetail) handbook page.
+Dovetail is a powerful tool available to GitLab Team Members which allows you to [upload research data and tag to help distill insights](/handbook/product/ux/dovetail/#the-ux-research-teams-guide-to-documenting-insights-in-dovetail). GitLab Team Members can create their own custom tags or follow the UX Research Team's set of GitLab Global Tags or GitLab Section Tags. More information on the Global Tags and helpful tips on creating custom tags can be found on our [Documenting Research Insights in Dovetail](/handbook/product/ux/dovetail/#tagging-data-in-dovetail) handbook page.

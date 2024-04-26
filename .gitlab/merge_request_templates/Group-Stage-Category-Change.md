@@ -33,7 +33,7 @@ The following people need to be on the merge request so they stay informed:
 - [ ] Create an issue in the triage-ops project to update GitLab Bot automation:
   - [for Category change](https://gitlab.com/gitlab-org/quality/triage-ops/-/issues/new?issuable_template=category-label-change)
   - [for Stage or Group change](https://gitlab.com/gitlab-org/quality/triage-ops/-/issues/new?issuable_template=stage-or-group-label-change)
-  - If label migration is required, please follow the [self-serve instructions](https://about.gitlab.com/handbook/engineering/quality/engineering-productivity/workflow-automation#one-off-label-migrations) to get started on a one-off label migration MR.
+  - If label migration is required, please follow the [self-serve instructions](https://handbook.gitlab.com/handbook/engineering/infrastructure/engineering-productivity/workflow-automation#one-off-label-migrations) to get started on a one-off label migration MR.
 - [ ] Mention the [product group Technical Writer](https://about.gitlab.com/handbook/product/ux/technical-writing/#designated-technical-writers) to update the [documentation metadata](https://docs.gitlab.com/ee/development/documentation/#stage-and-group-metadata)
 - [ ] Share MR in #product, #development, and relevant #s_, #g_, and #f_ slack channels
 

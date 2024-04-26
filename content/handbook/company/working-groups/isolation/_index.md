@@ -1,6 +1,6 @@
 ---
 title: "Isolation Working Group"
-description: "Gitlab's Isolation Working Group develop plans that limits disruption to customers when unexpected events occur. Learn more here!"
+description: "GitLab's Isolation Working Group develop plans that limits disruption to customers when unexpected events occur. Learn more here!"
 ---
 
 ## Attributes

@@ -5,7 +5,7 @@ description: "These are the expected competencies of a Staff Backend Engineer, E
 
 ## Staff Backend Engineer, Engineering Productivity
 
-{{% include "includes/engineering/ep-career-nav.md" %}}
+{{% include "includes/engineering-careers/ep-career-nav.md" %}}
 
 **Staff Backend Engineers, Engineering Productivity at GitLab are expected to exhibit the following competencies:**
 
@@ -17,20 +17,20 @@ description: "These are the expected competencies of a Staff Backend Engineer, E
 
 ### Staff Leadership Competencies
 
-{{% include "includes/engineering/staff-leadership-competency.md" %}}
-  
+{{% include "includes/engineering-careers/staff-leadership-competency.md" %}}
+
 ### Staff Technical Competencies
 
-{{% include "includes/engineering/staff-technical-competency.md" %}}
+{{% include "includes/engineering-careers/staff-technical-competency.md" %}}
 
 ##### Engineering Productivity
 
-This table refers to the responsibility terms that are defined on the [team page](/handbook/engineering/quality/engineering-productivity/index.html#areas-of-responsibility).
+This table refers to the responsibility terms that are defined on the [team page](/handbook/engineering/infrastructure/engineering-productivity/index.html#areas-of-responsibility).
 
 | Responsibility | Description |
 | --- | --- |
 | See it and find it | Identify and implement changes to shorten developer feedback loops and implement improvements for product stages within a section |
-| Do it for internal team | Implement productivity improvements with quantifiable benefits for Gitlab product stages within a section |
+| Do it for internal team | Implement productivity improvements with quantifiable benefits for GitLab product stages within a section |
 | Dogfood use | Dogfood existing product features to improve the GitLab engineering workflows. Represent the Quality department as internal customer for at least one product group. |
 | Engineering support | Implement KPI corrective actions and preventative measures. Identify areas for new department performance indicators. |
 | Engineering workflow | Lead collaboration and implementation with product and engineering stakeholders to improve automation in support of product and engineering workflows |
@@ -39,4 +39,4 @@ This table refers to the responsibility terms that are defined on the [team page
 
 ### Staff Values Alignment
 
-{{% include "includes/engineering/values-competency.md" %}}
+{{% include "includes/engineering-careers/values-competency.md" %}}

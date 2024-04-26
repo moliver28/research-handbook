@@ -21,7 +21,7 @@ For example, here are a couple of commonly made mis-steps while conducting exper
     2. 5 peeking sessions increase the p-value by a factor of 3.2;
 2. Simpson’s Paradox: This can occur when we change the test group allocations in a disproportionate manner mid-test-flight. The latent segments in the test groups change their proportions when we change allocation percentages, inserting error into the results. More formally, [Simpson’s Paradox](https://plato.stanford.edu/entries/paradox-simpson/) is a statistical phenomenon where an association between two variables in a population emerges, disappears or reverses when the population is divided into subpopulations.  
 
-To ensure we can maximize the value from our experimentation practices and reduce inaccuracy of decisions at GitLab, we recommend  following best practices across all experiments at GitLab. This document outlines the best practices to adopt at Gitlab.
+To ensure we can maximize the value from our experimentation practices and reduce inaccuracy of decisions at GitLab, we recommend  following best practices across all experiments at GitLab. This document outlines the best practices to adopt at GitLab.
 
 
 ## Experimentation Planning
@@ -204,7 +204,7 @@ Before launching an experiment:
     - Ex: In a comparable company, we leveraged data from 2 dozen past examples to understand the relationship between increased notification type and notification disablement.
     - Ex. In a comparable company, using metadata from ~50 past results, we understood the session lift by increasing the volume of different email types.
     - Ex: In a comparable company, we leveraged ~8 past analyses to understand the incremental value of additional cross merchandising spots.
-    - Growth team already documents [experiments results](/handbook/marketing/growth/) in a centralized handbook page. We should adopt this practice across Gitlab in a centralized page.
+    - Growth team already documents [experiments results](/handbook/marketing/growth/) in a centralized handbook page. We should adopt this practice across GitLab in a centralized page.
 
 
 ## Experimentation Governance:
@@ -227,7 +227,7 @@ Based on initial feedback and observations on current experiment platform capabi
 - **Standardize sample size requirement with power calculations: (Priority H)**
     - Short term: Define a standard sample size calculator using an alpha of (5% or 10%), one/two tail, and power of 80%
 - **Ensure result dashboard incorporate significance and confidence level (Priority H)**
-    - Short term: Incorporate significance calculation and confidence interval directly into Sisense Experiment analysis framework using Z test formulas or Python functions.
+    - Short term: Incorporate significance calculation and confidence interval directly into Tableau Experiment analysis framework using Z test formulas or Python functions.
 - **Ability to split test results by dimensions with adjusted P-value threshold: (Priority M)**
     - Long-term: Explore alternative tools or data tracking to enable unrestricted metric/funnel/dimension evaluation for Experiments and split analysis by dimensions and filters.  
 - **Solve for Sample size problems (Priority H)**
@@ -251,13 +251,11 @@ Based on initial feedback and observations on current experiment platform capabi
 ## Tools Created for Analytics Use:
 
 - [Sample size calculator using power and varying confidence level](https://docs.google.com/spreadsheets/d/1KP_rDB3e6pJuOJwA59HcAUVpWUuzoPveaJiTH_PSviM/edit?usp=sharing)
-- [WIP: Built-in significance testing in Sisense experimentation dashboard (Proof of Concept)](https://app.periscopedata.com/app/gitlab/881004/WIP-Charan-sample-dashboard)
 
 
 ## References:
 
 - [Growth Experiments page:](/handbook/marketing/growth/)<span style="text-decoration:underline;"> </span>Growth is already documenting experiment results in a centralized page.  
-- [Growth experiment dashboard](https://app.periscopedata.com/app/gitlab/860363/Experiment-Data-Validation) (By Dave) helps the team to quickly validate experiment data accuracy post launch.
 - [7 Step A/B testing process](https://blog.optimizely.com/2016/08/10/7-step-ab-testing-process/) Need to invest time on planning, Design and QA
 - [A/B testing for a low traffic website](https://blog.optimizely.com/2016/05/17/ab-testing-for-low-traffic-websites/)
 - [Importance of test planning](https://optinmonster.com/ab-testing-best-practices/)

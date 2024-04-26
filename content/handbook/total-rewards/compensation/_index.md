@@ -96,7 +96,7 @@ We have a market-based approach to compensation because:
 
 1. It allows for us to adapt to market changes, thus remaining competitive for local talent
 1. Role, location, and level benchmarks keep compensation bands consistent. Market-based benchmarks also help with keeping it fair and consistent rather than expecting our team members to negotiate their pay.
-1. Prevents wage compression which is when new employees negotiate and get higher wages than those being paid to current team members.
+1. Prevents wage compression which occurs when new employees negotiate and get higher wages than those being paid to current team members.
 1. As long as budget permits, we do what’s right for the market even if it means paying a team member higher than their “expected” pay.
 
 ## Compensation Group
@@ -207,40 +207,21 @@ When the interim/acting period ends, the following process should be followed to
 
 ### Paid in your local currency
 
-The compensation calculator is updated using the December 1 and June 1 point in time exchange rates according to Google Finance rates. We are using the point in time exchange rate due to significant lag when utilizing an average exchange rate.
+The compensation calculator is updated using the November 1 point in time exchange rates according to Google Finance rates. We are using the point in time exchange rate due to significant lag when utilizing an average exchange rate.
 
-The updates to the handbook, compensation calculator, and Workday for the December 1 rates will be made between December and January with an effective date of February 1. The updates to the handbook, compensation calculator, and Workday for the June 1 rates will be made between June and July with an effective date of August 1.
+The updates to the handbook, compensation calculator, and Workday for the November 1 rates will be made between December and January with an effective date of February 1.
 
 Adjustments to existing team members' compensation who are paid in local currency are made **only during** the applicable [compensation review cycle]({{< ref "compensation-review-cycle" >}}).  We only adjust compensation during the review cycle since being paid in local currency means that your local purchasing power does not change.
 
-Team members contracted through CXC or IT BV may have the option to choose to be paid in USD or EUR when there is volatility in their local currency. This change can only be made once during your employment and only if CXC and payroll can support it.  USD and/or EUR payment options are not available in all countries.
-
-## Exchange Rates for Bonus Processing
+#### Exchange Rates for Bonus Processing
 
 All [one-time bonuses]({{< ref "incentives" >}}) including Discretionary, Referral, and Working Group Bonuses where the intended value is awarded in USD will be converted to local currency using the set exchange rates above. This is a reversion of the prior policy put in place to use monthly rates with the reversion going into effect as of September 1, 2023. In the future, when we are able to put an efficient process in place for maintaining more up-to-date conversion rates in Workday, we will further revise this policy to use more current rates.
 
 ### Not paid in your local currency
 
-There are a number of reasons why team members may not be paid in local currency. For example, GitLab's bank might not support the currency or there may be a strong economic reason for the team member to choose a different currency. The currencies that GitLab can pay in are published on the [contracts](/handbook/people-group/contracts-probation-periods/) page.
+Team members contracted through CXC or IT BV may have the option to choose to be paid in USD or EUR when there is volatility in their local currency. This change can only be made once during your employment and only if CXC and payroll can support it. USD and/or EUR payment options are not available in all countries. This change will be made according to the conversion from local currency to USD or EUR at the time of the update. All future salary adjustments will be made based on the new salary regardless of fluctuations to local currency in order to provide a stable experience to team members who opt into this.
 
-1. The Total Rewards team will analyze the difference in exchange rates from December to June (or vice versa) and their effect on local purchasing power using the following process:
-    - The exchange rate between the team member's local currency and chosen currency will be compared for both the current and previous conversion effective date.
-    - The percent change is calculated between the two rates: `(New Rate - Previous Rate)/Previous Rate`.
-1. Criteria for review, the team member:
-    - Is not paid in local currency.
-    - Has been at GitLab for greater than six months.
-    - Has not opted out.
-1. Only changes greater than +/- 5% will be processed in each review.
-    - Changes must stay within band of the compensation calculator.
-1. The Total Rewards team will work with People Connect to confirm by [job change letter](/handbook/people-group/contracts-probation-periods/#job-change-letter) any *increases or decreases* to compensation as a result of this review.
-1. Any significant increases or decreases will be reviewed on a case-by-case basis before any changes are made.
-1. Team members may also [opt out](https://docs.google.com/document/d/1GMxFFMKL8ssEi8gPJzpc1xizSJHxrR2n0R5HSZn-G-g/edit?usp=sharing) of the reviews.
-    - If an opt out agreement is signed, the team members will be excluded from any future Exchange Rate reviews. GitLab retains the right to revisit the opt-out status in the future.
-1. Additionally, if a team member is impacted outside of this review period they should reach out to total-rewards@domain.
-
-Example: A team member's local currency is the Russian Ruble (RUB) and they are paid in US Dollars (USD). They have not previously opted out and have been employed for greater than 6 months. If the exchange rate effective 2023-06-01 is 0.013 and for 2023-12-01, the exchange rate increases to 0.014, then this would result in a percent increase of 7.69%. The team member would have the option to either accept this increase to their salary or opt out of all salary fluctuations based on this review during their time at GitLab.  Any changes to salaries based on this review will be made during the Annual Compensation Review cycle.
-
-*Due to the current economic climate, we will not be applying negative salary fluctuations based on the 2022-12-01 local purchasing power review for those not paid in their local currency. We will continue to monitor the economic situation and review the impact to the team as well as global currency volatility before reconciling missed reviews and reinstating the full process.*
+Please reach out to People Connect in order to understand if you are eligible to update your currency to USD or EUR and to initiate this process.
 
 ## Hourly Employees
 
@@ -255,7 +236,7 @@ Sales and Sales Development roles at GitLab that are subject to quota and paid c
 - Enterprise Sales
 - Sales Development
 
-These roles are still [benchmarked using market data]({{< ref "compensation-calculator#sf-benchmark" >}})and are assigned to a pay differential zone based on their [location factor]({{< ref "compensation-calculator#location-factor" >}}) according to the following table:
+These roles are still [benchmarked using market data]({{< ref "compensation-calculator#sf-benchmark" >}}) and are assigned to a pay differential zone based on their [location factor]({{< ref "compensation-calculator#location-factor" >}}) according to the following table:
 
 | Zone | Location Factor Range | Zone Differential |
 | ---- | --------------------- | ----------------- |
@@ -315,7 +296,8 @@ Directors and above are eligible for the Company Bonus Plan.
 **Payout:**
 
 - The bonus will be paid out semi-annually.
-- The first semi-annual payment will be funded up to a maximum of 80% of Company Plan performance against targets. Any full plan year adjustments will be made as part of the final bonus payout.
+- The first semi-annual payment will be funded up to a maximum of 80% of target bonus amount for the period of February through July. Any full plan year adjustments will be made as part of the final bonus payout.
+     - Example: A director who has been eligible for the bonus plan from February 1 has an annual target of 30,000 USD. Their target bonus amount for the first half of the fiscal year, February through July, is 15,000 USD. Therefore, they will receive 80% of 15,000 USD or 12,000 USD for their first semi-annual payment.
 - The final bonus payout will be based on actual performance against plan less amount paid at the semi-annual payout.
 - If the first semi-annual bonus is achieved but Company performance falls below the annual threshold the second half bonus will not be achieved but the first half bonus will not be rescinded or otherwise payable back to the Company.
 

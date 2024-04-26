@@ -1,9 +1,0 @@
-{{- $usShowcase := dict }}
-{{- with resources.GetRemote "https://gitlab.com/gitlab-com/www-gitlab-com/-/raw/master/data/ux_showcase.yml" }}
-  {{- with .Err}}
-    <h2>Unable to fetch performance indicator Data</h2>
-  {{- else }}
-    {{- $usShowcase = . | transform.Unmarshal }}
-  {{- end }}
-{{- end }}
-{{- return $usShowcase }}

@@ -21,7 +21,7 @@ GitLab helps our customers **Secure and Govern** all of the phases of the SDLC C
     - Complete change log for auditing
     - Two-factor authentication (2FA) for added access control
     - Automated security scanning during verification
-Check out the [compliance page](/solutions/compliance/) for a more thorough view.
+Check out the [compliance page](https://about.gitlab.com/solutions/compliance/) for a more thorough view.
 
 2. **Application Security Testing** is a capability or feature of GitLab, used in the Verify phase. It includes SAST and DAST, container scanning and dependency scanning. GitLab also includes license compliance in our software composition analysis.
 

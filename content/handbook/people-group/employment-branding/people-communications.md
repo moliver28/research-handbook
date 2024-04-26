@@ -31,11 +31,20 @@ GitLab team members can better understand how communication and engagement work 
 
 ## Working with People Communications & Engagement
 
-Given the amount of information we need to communicate with GitLab team members around the world it's important that we have a structured approach to communication & engagement.
+Given the amount of information we need to communicate with GitLab team members around the world it's important that we have a structured approach to communication & engagement so team members are provided a full view of things happening across GitLab.
 
-It's equally important that we provide team members with a well-rounded view of things happening across GitLab.
+There are several different ways our People Communications & Engagement team can support cross-functional projects depending on the need. These include:
 
-In preparing key messages to be shared with all team members, we ask all departments to follow the process below:
+| Type of involvement | What this type of involvement entails | How People Comms & Engagement can support |
+| ------------- | --------------------------------- | --------------------------------- |
+| Review of communications | The most basic level of support provided is a review of planned communications, typical lead time is 48 hours | This means reviewing a single message or series of messages for tone and format, alignment with communication principles, cascade of information, and appropriate channel use |
+| Collaborative communications planning | This is a partnered approach on the creation of a message or a communications plan anticipated to impact a significant amount of team members or have a high impact to a select amount of team members, typical lead time is 1-2 weeks depending on bandwidth | For projects with a defined DRI outside of the People Communications & Engagement team, we will often work together on a collaborative comms plan by reviewing and editing copy, reccomending channels, cascade of information, and communications best practices |
+| Accountable for communications | For project with change management complexity or a large communications component, we look to establish a comms DRI to be accountable for communications, typical lead time is 3+ weeks to understand the project and advise | This means writing communications, getting neccesary stakeholder input, aligning to our typical template for leadership review, plus everything we would typically do for a review of communications |
+| DRI for communication-based projects | Often times an entire project may sit with People Comms & Engagement (i.e. a large cultural shift like a Value change, changes to a major policy) | In these cases someone from the People Communications & Engagement team leads a cross-functional project team to deliver a defined piece of work |
+
+Depending on the level of support needed for a given project, the person assigned to that work from the People Communications & Engagement team can advise on process, standard templates and practices used, and suggest best practices for communicating at GitLab.
+
+If asking for communications to lead communications when preparing key messages to be shared with all team members, we ask all departments to follow the process below:
 
 1. Share the need for communications support by completing a [request for internal communications support template](https://docs.google.com/document/d/1whzG0NxWfUyKDWdIwwojiDy_2xy5W-JIjV34BJm7nek/edit?usp=sharing) as completely as possible and share the need with a member of our People Communications & Engagement team.
     - These requests can be shared on Slack using the **#internal-communications-requests** channel, or if confidentiality is a concern, please connect directly with:
@@ -182,11 +191,12 @@ We have a runbook for internal announcements that could lead to heated conversat
       1. Any AMAs or other designated plans for discussion or follow up communications
    1. Who is required to sign-off on the message and plan
    1. The desired timeline for sign-off
-1. The DRI will share the draft communication with the Executive Sponsor and any other key senior stakeholders. If there are any questions around what can [SAFEly](https://handbook.gitlab.com/handbook/legal/safe-framework/) be shared, the CLO or another legal representative should be included in the review.
+1. The DRI will share the draft communication with the Executive Sponsor and any other key senior stakeholders. If there are any questions around what can [SAFEly](/handbook/legal/safe-framework/) be shared, the CLO or another legal representative should be included in the review.
 1. Both legal and corporate comms should review planned communications of this nature as well with the appropriate stakeholders from each team identified in the comms plan.
 1. Once the Executive Sponsors and Key Stakeholders are in agreement on the comms and plan, it should be shared with all of E-Group in #e-group-confidential or in the E-Group Weekly as a discussion item. Plan feedback should be incorporated.
 1. If applicable, once the plan has gone through E-Group review, it should be shared with the [B.V. Netherlands Works Council](https://internal.gitlab.com/handbook/legal-and-corporate-affairs/legal-and-compliance/netherlands/#works-council-rights) and any other councils that have review rights. When possible, this should be done at least two weeks before a planned announcement to allow adequate time for review and feedback.
 1. When possible, share with managers in advance (1-2 days before a broader announcement) and ask for their support in following up with their teams. We should be clear on how we expect them to support (answer questions, cascade info, [manager mention](/communication/#scaling-merge-requests-through-manager-mention-mrs-formerly-consolidated-mrs), etc.)
+    1. When sharing announcements with the manager community, MR's may be staged in document form to allow for changes and clarification prior to sharing the MR with the broader team member community.
 1. If the post includes a merge request (MR), we should ensure that we are following MR best practice before we post.
     1. If discussion is happening in an issue, we can ask for [manager mentions](/communication/#scaling-merge-requests-through-manager-mention-mrs-formerly-consolidated-mrs).
     1. MRs should not already be merged. Team members should be invited to share feedback on a change and be clear on the intended merge timeline.

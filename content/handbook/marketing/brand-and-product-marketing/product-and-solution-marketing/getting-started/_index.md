@@ -14,7 +14,7 @@ title: "Product and Solution Marketing On-Boarding and Other How-to's"
 
 ## Product and Solution Marketing General On-Boarding
 - [Getting Started 101 - No Tissues with Issues](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/getting-started/101/)
-- [Getting Started 102 - Working at local speed](https://about.gitlab.com/handbook/git-page-update/)
+- [Getting Started 102 - Working at local speed](/handbook/editing-handbook/)
 - [Getting Started 103 - Maintaining common slides across decks](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/getting-started/103/)
 - [Getting Started 104 - Epic Templates - Repeatable sets of issues](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/getting-started/104/)
 - [Getting Started 105 - Label Hygiene - Keeping your issues squeaky clean](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/getting-started/105/)

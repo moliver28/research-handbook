@@ -1,21 +1,12 @@
 ---
-
+controlled_document: true
 title: "Endpoint Detection and Response at GitLab"
 description: "Endpoint Detection and Response: EDR, endpoint security, anti-virus, macOS, Windows, Linux, endpoint management"
 ---
 
-
-
-
-
-
-
-
-# Endpoint Detection & Response Technology
-
 ## Overview
 
-With an increased number of high profile breaches in the media today it is important we carefully consider the risk and external threats GitLab faces.  Due to our service and the companies that use us, it is credible that we are or will soon become a high profile target for adversaries looking to exploit GitLab or a GitLab customer. Endpoint detection and response (EDR) technology helps further strengthen endpoint security protecting not only GitLab, but each of our Team Members as well. All macOS, Windows and Linux devices used by GitLab Team Members for the purposes of fulfilling the responsibilities of their role as a GitLab Team Member are required have the SentinelOne EDR agent installed and functioning. The use of a Windows endpoint requires a specific business reason and an approved exception as the [use of a Windows endpoint is prohibited](/handbook/business-technology/team-member-enablement/onboarding-access-requests/#laptop-configurations).
+With an increased number of high profile breaches in the media today it is important we carefully consider the risk and external threats GitLab faces.  Due to our service and the companies that use us, it is credible that we are or will soon become a high profile target for adversaries looking to exploit GitLab or a GitLab customer. Endpoint detection and response (EDR) technology helps further strengthen endpoint security protecting not only GitLab, but each of our Team Members as well. All macOS, Windows and Linux devices used by GitLab Team Members for the purposes of fulfilling the responsibilities of their role as a GitLab Team Member are required have the SentinelOne EDR agent installed and functioning. The use of a Windows endpoint requires a specific business reason and an approved exception as the [use of a Windows endpoint is prohibited](/handbook/business-technology/end-user-services/onboarding-access-requests/#laptop-configurations).
 
 ### What is Endpoint Detection and Response (EDR)?
 

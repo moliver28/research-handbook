@@ -7,8 +7,6 @@ UX research operations coordinators have several resources to recruit from. Lear
 
 ### Recruitment methods
 
-1. **GitLab First Look:** is a [group of people](/handbook/product/ux/ux-research-coordination/first-look-ux-research-panel) who have opted in to take part in UX research studies from GitLab. This panel is a good fit for studies that are aimed at GitLab users who are Software Developers and related roles.
-    - Allow up to 2 weeks for request to be filled. It will likely take 3-4 emails to generate the total number of participants needed.
 1. **Respondent.io:** is a participant recruitment service that is a good choice for studies aimed at software professionals who may or may not be GitLab users. This has been a good source to find security professionals and some other harder-to-reach participants. Respondent is also a great choice for when you need users quickly.
     - Respondent.io is one of the fastest options depending on criteria and typically participants start qualyfing within a few hours.
 1. **UserTesting.com:** is an [unmoderated usability testing platform](/handbook/product/ux/ux-research/unmoderated-testing/). We can use their panel to recruit users for usability tests through their platform.
@@ -17,11 +15,11 @@ UX research operations coordinators have several resources to recruit from. Lear
     - Allow 1-2 weeks for these requests to go live.
 1. **Direct Sourcing:** We can utilize LinkedIn to approach and source potential participants. Anyone at GitLab is able to request a [LinkedIn Recruiter license](/handbook/hiring/sourcing/#upgrading-your-linkedin-account). This [Unfiltered video](https://youtu.be/rc2IX1e2sQ8) and [slide deck](https://docs.google.com/presentation/d/1LI9qXLRQSnikPiHztDQBapGrDn5Nimsf-K8g1r3j9Do/edit#slide=id.g29a70c6c35_0_68) provide an overview on how to use LinkedIn Recruiter to source participants for your study. Please note that your LinkedIn Recruiter seat is likely limited to sending only 200 InMails your first week. If you go over this amount, your account will be disabled for a week. After the first week, you can send up to 1000 InMails a day. If you go over this limit, your account will be disabled for a day.
     - Allow 2 weeks minimum as this is the most time consuming recruitment method.
-1. **Docs site banner:** We can occasionally use a banner on the [Docs site](https://docs.gitlab.com/) to promote larger surveys. It is a lightweight way to quickly fulfill surveys that otherwise would be restricted to First Look. There are some biases that should be considered when sampling by this method.
+1. **Docs site banner:** We can occasionally use a banner on the [Docs site](https://docs.gitlab.com/) to promote larger surveys. There are some biases that should be considered when sampling by this method.
     - The docs team can choose not to allow your request. Typically it takes 1 week to get this up and running.
 1. **Marketo:** The majority of recruitment requests will be fielded through Marketo when looking for SaaS and Self-Managed users. Marketo is a tool primarily used by the Marketing Operations team to send emails out to our customer base. By using Marketo we are ensuring compliance in our outreach to participants and allowing a single source of opt-out from our communications.
     - Allow 2 weeks for responses to come in. You will likely need 3-4 email sends to reach your target number of responses.
-1. **Data Warehouse:** Occasionally we may need to use the DataWarehouse for requests that are unsuccessful with FirstLook or Marketo. There are only SaaS users in the DataWarehouse and there's no access to Self-Managed users.
+2. **Data Warehouse:** Occasionally we may need to use the DataWarehouse for requests that are unsuccessful with Marketo. There are only SaaS users in the DataWarehouse and there's no access to Self-Managed users.
     - It will take a few days to generate the list of users based on workload if a query doesn't already exist for your target audience. Once the query is created, allow 2 weeks and multiple email sends to fill the request.
 
 ### GDPR and CAN-SPAM requirements

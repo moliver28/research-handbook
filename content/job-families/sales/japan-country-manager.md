@@ -27,7 +27,7 @@ The Country Manager is a [grade 11](/handbook/total-rewards/compensation/compens
 ## Requirements
 
 - Fluent in Japanese and English
-- Demonstrated progressive progressive sales leadership and operations experience within the software / open source /  devops industry. Strong experience with Salesforce.com, and building trackable, repeatable sales processes.
+- Demonstrated progressive progressive sales leadership and operations experience within the software / open source / DevOps industry. Strong experience with Salesforce.com, and building trackable, repeatable sales processes.
 - Experience building and managing sales teams in Japan; proven record of recruiting and enabling top talent.
 - Experience selling to Fortune 500; willing to “roll up the sleeves” and sell.
 - Experience working closely with Japanese reseller partners.

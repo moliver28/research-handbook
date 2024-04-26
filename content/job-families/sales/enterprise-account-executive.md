@@ -22,7 +22,7 @@ The Associate Strategic Account Executive is a [grade 8](/handbook/total-rewards
 
 ### Responsibilities
 
-- Support Gitlab’s large prospects and customers within a geographic territory
+- Support GitLab’s large prospects and customers within a geographic territory
 - Expand current customer base and land net new accounts
 - Generate new customers through different lead sources and bring those opportunities to a successful close
 - Generate qualified leads and develop new customers in conjunction with our strategic partners
@@ -221,19 +221,52 @@ As with all roles in the Sales Department the Strategic Account Executive partic
 ### Hiring Process
 
 Candidates for this position can expect the hiring process to follow the order below. Please keep in mind that candidates can be declined from the position at any stage of the process. To learn more about someone who may be conducting the interview, find their job title on our [team page](/handbook/company/team/).
-As part of the application, candidates will need to answer the following questions
+As part of this application, candidates can expect the following stages with focus areas on the [GitLab Values](/handbook/values/) and [Field Functional Competencies](/handbook/sales/training/field-functional-competencies/).
 
-- What would differentiate you and make you a great account executive for GitLab?
-- What is your knowledge of the space that GitLab is in? (i.e. Industry Trends)
-- How do you see the developer tools changing over the coming years from a sales perspective? (i.e. Competitive Positioning, Customer Needs, etc)
+### Stages
 
-Selected candidates will be invited to schedule a screening call with our Global Recruiters
-Next, candidates will be invited to schedule a first interview with an Area Sales Managers or Regional Sales Director
-Candidates will then be invited to schedule a second interview with Regional Sales Director (in a different region)
-Candidates may be invited to schedule a third interview with our VP, Enterprise Sales
-Successful candidates will subsequently be made an offer via email
+#### 1. Initial Screen - Recruiter
 
-Additional details about our process can be found on our hiring page.
+- Candidates are invited to schedule an interview with the Recruiter.
+- Areas of focus (as defined in GitLab Handbook):
+    - Results
+    - Collaboration
+
+#### 2. Initial Interview - Hiring Manager
+
+- Candidates are invited to schedule an interview with the Hiring Manager.
+- Areas of focus (as defined in GitLab Handbook):
+    - Results
+    - Operational Excellence - Account Planning & Management
+    - Customer Focus - Effective Communication
+    - Operational Excellence - Growth Mindset
+    - Operational Excellence - Process Discipline
+    - Iteration
+
+#### 3. Mock Presentation - Panel
+
+- Candidates are invited to schedule a presentation with 3 interviewers from the team.
+- Areas of focus (as defined in GitLab Handbook):
+    - Solutions Focus - Consultative approach
+    - Solutions Focus - DevOps & Technical Leadership
+    - Solutions Focus - Building Trust
+    - Customer Focus - Facilitating
+    - Customer Focus - Understanding Customer’s Needs
+    - Efficiency
+
+#### 4. Final Interview - Senior Leadership
+
+- Candidates are invited to schedule an interview with senior leadership.
+- Areas of focus (as defined in GitLab Handbook):
+    - Operational Excellence - Resource Orchestration
+    - Collaboration
+    - Operational Excellence - Growth Mindset
+    - Customer Focus - Customer Business Acumen
+    - Solutions Focus - Leading with Vision
+    - Transparency
+    - Diversity inclusion and belonging
+
+
 
 ### Compensation
 

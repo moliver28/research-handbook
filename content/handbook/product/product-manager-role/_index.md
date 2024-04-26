@@ -17,9 +17,9 @@ On this page, you'll find an overview as well as links to helpful resources for 
 
 ## Product Organizational Structure
 
-The GitLab Product team includes team members at various levels of [Product Management job titles](/job-families/product/product-manager/) and [Product Management - Leadership job titles](/job-families/product/product-management-leadership/). They map across our [organizational levels](/handbook/company/team/structure/#levels) with scope at various points in our [product hierarchy](/handbook/product/categories/#hierarchy) outlined in the table below.
+The GitLab Product team includes team members at various levels of [Product Management job titles](/job-families/product/product-manager/) and [Product Management - Leadership job titles](/job-families/product/product-management-leadership/). They map across our [organizational levels](/handbook/company/structure/#levels) with scope at various points in our [product hierarchy](/handbook/product/categories/#hierarchy) outlined in the table below.
 
-* The product org abides by [GitLab's layer structure](/handbook/company/team/structure/#layers). Sometimes, there can be instances where peers across layers don't have the same title.
+* The product org abides by [GitLab's layer structure](/handbook/company/structure/#layers). Sometimes, there can be instances where peers across layers don't have the same title.
 
 | Level | Job Titles| Hierarchy Scopes |
 | ----- | ------------ | ---------------- |
@@ -46,7 +46,7 @@ The first thing to do is to familiarize yourself with the following handbook pag
 * [Product Manager Responsibilities](/handbook/product/product-manager-responsibilities/)
 * [Product Manager Career Development Framework](/handbook/product/product-manager-role/product-CDF-competencies/)
 * [Product Development Flow](/handbook/product-development-flow/)
-* [Product Development Timeline](https://about.gitlab.com/handbook/engineering/workflow/#product-development-timeline)
+* [Product Development Timeline](/handbook/engineering/workflow/#product-development-timeline)
 * [Product Management Learning & Development](/handbook/product/product-manager-role/learning-and-development/)
 * [GitLab Values](/handbook/values/)
 
@@ -100,7 +100,7 @@ _[Source File](https://docs.google.com/spreadsheets/d/19gAgPJVdXfBpXiFOlT1WqZLJB
 
 **4th of the Month:**
 
-Draft of the issues that will be included in the [next release](https://about.gitlab.com/handbook/engineering/releases/).
+Draft of the issues that will be included in the [next release](/handbook/engineering/releases/).
 Start capacity and technical discussions with engineering/UX.
 
 **12th of the Month:**
@@ -112,7 +112,7 @@ Kickoff document is updated with relevant items to be included.
 
 Group Kickoffs calls recorded and uploaded by the end of the day.
 
-Also see [Product Development Timeline](https://about.gitlab.com/handbook/engineering/workflow/#product-development-timeline).
+Also see [Product Development Timeline](/handbook/engineering/workflow/#product-development-timeline).
 
 ### Scope of responsibilities
 
@@ -126,21 +126,11 @@ projects:
 - version.gitlab.com
 - license.gitlab.com
 
-This includes the entire stack and all its facets. The product team needs to weigh and prioritize not only bugs, features, regressions, and performance, but also architectural changes and other aspects required for ensuring GitLab's excellence. Product managers are the [DRIs](/handbook/people-group/directly-responsible-individuals/) for overall work prioritization but work collaboratively with their EM, UX, and QEM stable counterparts to ensure the right priorities from each [work type](https://about.gitlab.com/handbook/engineering/metrics/#work-type-classification) are considered as [each has a different DRI](/handbook/product/product-processes#prioritization-for-feature-maintenance-and-bugs).
+This includes the entire stack and all its facets. The product team needs to weigh and prioritize not only bugs, features, regressions, and performance, but also architectural changes and other aspects required for ensuring GitLab's excellence. Product managers are the [DRIs](/handbook/people-group/directly-responsible-individuals/) for overall work prioritization but work collaboratively with their EM, UX, and QEM stable counterparts to ensure the right priorities from each [work type](/handbook/engineering/metrics/#work-type-classification) are considered as [each has a different DRI](/handbook/product/product-processes#prioritization-for-feature-maintenance-and-bugs).
 
 ## Learning and Development for Product Management
 
 We have a library dedicated to collecting and highlighting the best resources to support the growth and success of product managers in doing their job at GitLab as well as beyond, to achieve their long term career goals. We encourage product managers to work with their managers to identify areas for improvement, and leverage the [learning and development for product management](./learning-and-development/) resources accordingly.
-
-## Evaluating External Roles
-As members of a prolific, product-focused company, GitLab Product Managers are frequently approached with job offers at other companies. Below is a list of criteria to consider when evaluating those roles:
-- **Culture:** Consider some of the tangible benefits of culture such as productivity, autonomy, transparency, and remote flexibility.
-- **Product System:** Consider how well the company ships today, what the PM process is and how much autonomy Product Managers are given to do their primary role.
-- **Role:** Consider the degree of challenge, scope and learning curve of the role, not just the title.
-- **Company Trajectory:** Consider the rate at which the company is growing and how much additional market there is for it to capture. This can impact career growth  related to wealth generation over multi-year periods.
-- **Market:** Consider the degree to which you'll be exposed to many different markets as opposed to being focused on one specific market.
-- **GTM Motions:** Consider the type of GTM motion and how that will impact your available and priority sensing mechanisms.
-- **Additional Resources:** [Seven tips for picking your next job](https://theskip.substack.com/p/seven-tips-for-picking-your-first), [Product Salaries](https://www.levels.fyi/company/Google/salaries/Product-Manager/)
 
 ## Product Manager Onboarding
 

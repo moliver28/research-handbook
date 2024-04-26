@@ -1,6 +1,5 @@
 ---
 title: Security at GitLab
-description: "Security at GitLab"
 ---
 
 
@@ -49,7 +48,7 @@ To reflect this, we have structured the Security Division around four key tenets
   <tr>
     <th class="text-center">
         <i class="fas fa-bullseye i-bt"></i>
-        <h5><a href="{{< ref "./security-engineering" >}}">Security Engineering</a></h5>
+        <h5><a href="{{< ref "./product-security" >}}">Product Security</a></h5>
     </th>
     <th class="text-center">
         <i class="fas fa-shield-alt i-bt"></i>
@@ -67,24 +66,23 @@ To reflect this, we have structured the Security Division around four key tenets
   <tr>
       <td>
         <ul>
-            <li><a href="{{< ref "./security-engineering/application-security" >}}">Application Security</a></li>
-            <li><a href="{{< ref "./security-engineering/infrastructure-security" >}}">Infrastructure Security</a></li>
-            <li><a href="{{< ref "./security-engineering/security-logging" >}}">Security Logging</a></li>
-            <li><a href="{{< ref "./security-engineering/automation" >}}">Security Automation</a></li>
-            <li>External Security Communications</li>
+            <li><a href="{{< ref "./product-security/application-security" >}}">Application Security</a></li>
+            <li><a href="{{< ref "./product-security/infrastructure-security" >}}">Infrastructure Security</a></li>
+            <li><a href="{{< ref "./product-security/security-research" >}}">Security Research</a></li>
+            <li><a href="{{< ref "./product-security/vulnerability-management" >}}">Security Threat & Vulnerability Management</a></li>
         </ul>
       </td>
       <td>
         <ul>
             <li><a href="{{< ref "./security-operations/sirt" >}}">Security Incident Response Team (SIRT)</a></li>
             <li><a href="{{< ref "./security-operations/trustandsafety" >}}">Trust and Safety</a></li>
+            <li><a href="{{< ref "./security-operations/security-logging" >}}">Security Logging</a></li>
         </ul>
       </td>
       <td>
         <ul>
+            <li><a href="{{< ref "./threat-management/identity" >}}">Identity Engineering, Infra, and Ops</a></li>
             <li><a href="{{< ref "./threat-management/red-team" >}}">Red Team</a></li>
-            <li><a href="{{< ref "./threat-management/security-research" >}}">Security Research</a></li>
-            <li><a href="{{< ref "./threat-management/vulnerability-management" >}}">Security Threat & Vulnerability Management</a></li>
         </ul>
       </td>
       <td>
@@ -99,12 +97,11 @@ To reflect this, we have structured the Security Division around four key tenets
   </tr>
 </table>
 
-#### Secure the Product - The Security Engineering Department
+#### Secure the Product - The Product Security Department
 
-The [Security Engineering Department]({{< ref "security-engineering" >}}) is primarily focused on Securing the Product. This reflects the Security Division's current efforts to be involved in the Application development and Release cycle for Security Releases, Security Research, our HackerOne bug bounty program, Security Automation, External Security Communications, and Vulnerability Management.
+The [Product Security Department]({{< ref "product-security" >}}) is primarily focused on Securing the Product. This reflects the Security Division's current efforts to be involved in the Application development and Release cycle for Security Releases, Infrastructure Security, and our HackerOne bug bounty program.
 
 The term “Product” is interpreted broadly and includes the GitLab application itself and all other integrations and code that is developed internally to support the GitLab application for the multi-tenant SaaS. Our responsibility is to ensure all aspects of GitLab that are exposed to customers or that host customer data are held to the highest security standards, and to be proactive and responsive to ensure world-class security in anything GitLab offers.
-
 
 #### Protect the Company - The Security Operations Department
 
@@ -120,8 +117,6 @@ These functions have the responsibility of shoring up and maintaining the securi
 
 The [Security Assurance Department]({{< ref "security-assurance" >}}) is comprised of the teams noted above. They target Customer Assurance projects among their responsibilities. This reflects the need for us to provide resources to our customers to assure them of the security and safety of GitLab as an application to use within their organisation and as a enterprise-level SaaS. This also involves providing appropriate support, services and resources to customers so that they trust GitLab as a Secure Company, as a Secure Product, and Secure SaaS
 
-
-
 #### Other groups and individuals
 
 ##### Security Program Management
@@ -136,13 +131,6 @@ Security Program Management is responsible for complete overview and driving sec
 - Assist in Gathering & Prioritizing Program Risks, Requirements, & Alignment to Influence Remediation
 - Drive & Define Acceptance Criteria, Value Proposition, Milestones to Visualize and Communicate Program Effectiveness
 - Develop Repeatable, Scalable, Efficient, Effective, Processes & Procedures
-
-##### Security Architecture
-
-Security Architecture plans, designs, tests, implements, and maintains the security strategy and solutions across the entire GitLab ecosystem.
-
-- [Security Architecture]({{< ref "./architecture" >}})
-- [Security Architecture Review process]({{< ref "./architecture/review" >}})
 
 ### Product development
 
@@ -175,21 +163,26 @@ Additionally if a GitLab team member experiences a personal emergency the People
 Many teams follow a convention of having a GitLab group `team-name-team` with a primary project used for issue tracking underneath `team-name` or similar.
 - [@gitlab-com/gl-security](https://gitlab.com/gitlab-com/gl-security/) is used for @'mentioning the entire Security Division
 - [@gitlab-com/gl-security/security-managers](https://gitlab.com/gitlab-com/gl-security/security-managers) is used for @'mentioning all managers in the Security Division
-- [Security Department Meta](https://gitlab.com/gitlab-com/gl-security/security-department-meta/) is for Security Division initiatives, `~meta` and backend tasks, and catch all for anything not covered by other projects
+- [Security Division Meta](https://gitlab.com/gitlab-com/gl-security/security-department-meta/) is for Security Division initiatives, `~meta` and backend tasks, and catch all for anything not covered by other projects
 - [Security Assurance (@gitlab-com/gl-security/security-assurance)](https://gitlab.com/gitlab-com/gl-security/security-assurance)
     - [@gitlab-com/gl-security/security-assurance/sec-compliance](https://gitlab.com/gitlab-com/gl-security/compliance)
     - [@gitlab-com/gl-security/security-assurance/field-security-team](https://gitlab.com/gitlab-com/gl-security/security-assurance/field-security-team)
     - [@gitlab-com/gl-security/security-assurance/security-risk-team](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-risk-team)
     - [@gitlab-com/gl-security/security-assurance/governance](https://gitlab.com/gitlab-com/gl-security/security-assurance/governance)
-- [Security Engineering (@gitlab-com/gl-security/engineering-and-research)](https://gitlab.com/gitlab-com/gl-security/engineering-and-research/engineering-and-research-meta)
-    - [gitlab-com/gl-security/engineering-and-research-meta](https://gitlab.com/gitlab-com/gl-security/engineering-and-research-meta) For department wide management and planning issues.
-    - [gitlab-com/gl-security/engineering-and-research/automation-team/automation](https://gitlab.com/gitlab-com/gl-security/engineering-and-research/automation-team/automation)
-    - [@gitlab-com/gl-security/appsec](https://gitlab.com/gitlab-com/gl-security/appsec) is the primary group for @'mentioning the Application Security team.
-    - [@gitlab-com/gl-security/automation](https://gitlab.com/gitlab-com/gl-security/engineering-and-research/automation) is the primary group for @'mentioning the Security Automation team.
+- [Product Security (@gitlab-com/gl-security/product-security)](https://gitlab.com/gitlab-com/gl-security/product-security/)
+    - [Product Security Meta](https://gitlab.com/gitlab-com/gl-security/product-security/product-security-meta) For department wide management and planning issues.
+    - [@gitlab-com/gl-security/product-security/appsec](https://gitlab.com/gitlab-com/gl-security/product-security/appsec) is the primary group for @'mentioning the Application Security team.
 - [Security Operations (@gitlab-com/gl-security/security-operations)](https://gitlab.com/gitlab-com/gl-security/security-operations) Security Operations Department
     - [@gitlab-com/gl-security/security-operations/sirt](https://gitlab.com/gitlab-com/gl-security/security-operations/sirt) is the primary group for @'mentioning the Security Incident Response Team (SIRT).
         - [SIRT (private)](https://gitlab.com/gitlab-com/gl-security/security-operations/sirt/operations) for SIRT issues.
     - [@gitlab-com/gl-security/security-operations/trust-and-safety](https://gitlab.com/gitlab-com/gl-security/security-operations/trust-and-safety) is the primary group for @'mentioning the Trust & Safety team.
+- Security Threat Management
+    - Identity and Access Management
+        - [@gitlab-com/gl-security/identity/infra](https://gitlab.com/gitlab-com/gl-security/identity/infra)
+        - [@gitlab-com/gl-security/identity/ops](https://gitlab.com/gitlab-com/gl-security/identity/ops)
+    - [@gitlab-com/gl-security/threatmanagement/redteam](https://gitlab.com/gitlab-com/gl-security/threatmanagement/redteam)
+    - [@gitlab-com/gl-security/security-research](https://gitlab.com/gitlab-com/gl-security/security-research)
+    - [@gitlab-com/gl-security/threatmanagement/vulnerability-management](https://gitlab.com/gitlab-com/gl-security/threatmanagement/vulnerability-management)
 
 
 #### Slack Channels
@@ -199,7 +192,7 @@ Many teams follow a convention of having a GitLab group `team-name-team` with a 
 reporting when unsure of where to go.
 - [#abuse](https://gitlab.slack.com/archives/abuse) - Used for reporting suspected abusive activity/content (*GitLab Internal*) as well as general discussions regarding anti-abuse efforts. Use `@trust-and-safety` in the channel to alert the team to anything urgent.
 - `#security-department-standup` - Private channel for daily standups.
-- `#incident-management` and [other infrastructure department channels](https://about.gitlab.com/handbook/engineering/infrastructure/#common-links)
+- `#incident-management` and [other infrastructure department channels](/handbook/engineering/infrastructure/#common-links)
 - `#security-alert-manual` - New reports for the Security Division from various intake sources, including ZenDesk and new HackerOne reports.
 - `#hackerone-feed` - Feed of most activity from our HackerOne program.
 - Other `#security-alert-*` and `#abuse*` - Multiple channels for different notifications
@@ -209,6 +202,7 @@ handled by the Security Division.
 - Use the **@field-security** mention in any Slack channel to tag the members of the Field Security team.
 - Use the **@appsec-team** mention in any Slack channel to tag the members of the Application Security team.
 - Use the **@trust-and-safety** mention in any Slack channel to tag the members of the Trust & Safety team.
+- Use the **@security-identity** mention in any Slack channel (or `#security-identity-ops`) to tag members of the Identity team.
 
 #### Ransomware
 
@@ -230,29 +224,11 @@ The following best practices will help ensure tokens are handled appropriately a
 1. Personal Access Tokens will be highly discouraged within the GitLab production environment, and disallowed/disabled wherever possible. Existing tokens shall remain, but additional issuance will not be permissible/possible.
 1. If you believe a personal access token has been leaked, revoke it immediately (if possible) and [contact the security team](/handbook/security/security-operations/sirt/engaging-security-on-call.html) using the `/security` Slack command.
 
-
-### Security Releases
-
-GitLab releases patches for vulnerabilities in dedicated security releases. There are two types of security releases: a monthly, scheduled security release, and ad-hoc security releases for critical vulnerabilities. For more information, you can visit our [security FAQ](https://about.gitlab.com/security/faq/). You can see all of our regular and security release blog posts [here](https://about.gitlab.com/releases/categories/releases/). In addition, the issues detailing each vulnerability are made public on our [issue tracker](https://gitlab.com/gitlab-org/gitlab/issues?label_name%5B%5D=security&scope=all&state=opened) 30 days after the release in which they were patched.
-
-#### Timing of the monthly security release
-
-Our team targets release of the scheduled, monthly security release around the 28th, or 6-10 days after the [monthly feature release](https://about.gitlab.com/handbook/engineering/releases/) and communicates the release via [blog](https://about.gitlab.com/releases/categories/releases/) and email notification to subscribers of our [security notices](/handbook/company/contact/).
-
 #### Receive notification of security releases
 
 - To receive security release blog notifications delivered to your inbox, visit our [contact us](/handbook/company/contact/) page.
 - To receive release notifications via RSS, subscribe to our [security release RSS feed](https://about.gitlab.com/security-releases.xml) or our [RSS feed for all releases](https://about.gitlab.com/all-releases.xml).
-
-#### Security release related documentation
-
-- Further definition, process and checklists for security releases are described
-in the
-[release/docs](https://gitlab.com/gitlab-org/release/docs/blob/master/general/security/process.md)
-project.
-- The policies for backporting changes follow [Security Releases](https://docs.gitlab.com/ee/policy/maintenance.html#security-releases)
-for GitLab EE.
-- For critical security releases, refer to [Critical Security Releases](https://gitlab.com/gitlab-org/release/docs/blob/master/general/security/process.md#critical-security-releases) in `release/docs`.
+- For additional information regarding security releases, please visit the Delivery Team's [security releases](https://about.gitlab.com/handbook/engineering/releases/security-releases/) page.
 
 ### <i class="fas fa-book" style="color:rgb(110,73,203)" aria-hidden="true"></i> Resources
 
@@ -270,6 +246,10 @@ security issues.
 - [security-tools (mostly private)](https://gitlab.com/gitlab-com/security-tools/) contains some
 operational tools used by the security teams. Contents and/or configurations
 require that most of these projects remain private.
+
+#### Calendar
+
+We welcome GitLab team members to join meetings that are on our shared [Security Calendar](https://calendar.google.com/calendar?cid=c_iou94moo2dfleqh610khmis27g%40group.calendar.google.com).
 
 #### Other Frequently Used GitLab.com Projects
 
@@ -293,103 +273,14 @@ When opening issues, please follow the [Creating New Security Issues]({{% ref "e
 - For GitLab.com, we have developed a [Google Cloud Platform (GCP) Security Guidelines Policy](https://docs.google.com/document/d/1BBTWC5OpIqrva7DqH4nkjYUmNZ3UFbc6erqV89P_N-o/edit?usp=sharing) document, which outlines recommended best practices, and is enforced through
 our security automation initiatives.
 - GitLab Security Tanuki for use on security release blogs, social media and security related swag as appropriate:
-    - [Web-RGB](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/tree/master/design/gitlab-brand-files/gitlab-logo-files/gitlab-security-logo/web-rgb)
-    - [Print-CMYK](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/tree/master/design/gitlab-brand-files/gitlab-logo-files/gitlab-security-logo/print-cmyk)
-    - and one [exclusively for stickers](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/blob/master/design/gitlab-brand-files/gitlab-logo-files/gitlab-security-logo/print-cmyk/pdf/sticker/gitlab-security-icon-diecut-sticker-3x2_78in.pdf).
+    - [Web-RGB](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/tree/master/design/_deprecated/gitlab-brand-assets/gitlab-logo-files/gitlab-security-logo/web-rgb)
+    - [Print-CMYK](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/tree/master/design/_deprecated/gitlab-brand-assets/gitlab-logo-files/gitlab-security-logo/print-cmyk)
+    - and one [exclusively for stickers](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/blob/master/design/_deprecated/gitlab-brand-assets/gitlab-logo-files/gitlab-security-logo/print-cmyk/pdf/sticker/gitlab-security-icon-diecut-sticker-3x2_78in.pdf).
 - [Security READMEs](/handbook/security/readmes/)
 - [Working in Security](/handbook/security/working-in-security.md)
 - [Contributing to GitLab the product as a Security team member]({{< ref "contributing-to-gitlab-the-product" >}})
+- [Threat Modeling]({{< ref "./product-security/application-security/threat-modeling" >}})
 
 #### AI in Security Learning Group
 
 This group is setup to help interested Security team members get up to speed with AI technologies and how to secure them. For more information, see the [AI in Security Learning Group page]({{< ref "learning-group-ai" >}}).
-
-### Issue Triage
-
-The Security team needs to be able to communicate the priorities of security related issues to the Product, Development, and Infrastructure teams. Here's how the team can set priorities internally for subsequent communication (inspired in part by how the [support team does this]({{< ref "working-with-issues" >}})).
-
-
-
-
-
-
-
-### Internal Application Security Reviews
-
-For systems built (or significantly modified) by Departments that house customer and other sensitive data, the Security Team should perform applicable application security reviews to ensure the systems are hardened. Security reviews aim to help reduce vulnerabilities and to create a more secure product.
-
-#### When to request a security review?
-
-This short questionnaire below should help you in quickly deciding if you should engage the [application security team](https://gitlab.com/gitlab-com/gl-security/appsec):
-
-If the change is doing one or more of the following:
-
-1. Processing, storing, or transferring any kind of [RED or ORANGE data]({{< ref "data-classification-standard" >}})
-1. If your changes have a goal which requires a **cryptographic function** such as: confidentiality, integrity, authentication, or non-repudiation, it *should* be reviewed by the [application security team](https://gitlab.com/gitlab-com/gl-security/appsec).
-1. Deployment of a customer facing application into a new environment
-1. Changes to an existing security control
-1. Modification of any pipeline security checks or scans
-1. A new authentication mechanism
-1. Adding code that touches the authentication model, tokens or sessions
-1. Dealing with user supplied data
-1. Touching cryptography functions, see the [GitLab Cryptography Standard]({{< ref "cryptographic-standard" >}}) for more details
-1. Touching the permission model
-1. Implement new security controls (i.e. new library for a specific protection, HTTP header, ...)
-1. Exposing a new API endpoint, or modifying an existing one
-1. Introducing new database queries
-1. Using regex to :
-  - validate user supplied data
-  - make decisions related to authorisation and authentication
-1. A new feature that can manipulate or display sensitive data (i.e PII), see our [Data Classification Standard]({{< ref "data-classification-standard" >}}) for more details
-1. Persisting sensitive data such as tokens, crypto keys, credentials, PII in temp storages/files/DB, manipulating or displaying sensitive data (i.e PII), see our [Data Classification Standard]({{< ref "data-classification-standard" >}}) for more details
-
-You should engage `@gitlab-com/gl-security/appsec`.
-
-#### How to request a security review?
-
-There are two ways to request a security review depending on how significant the changes are. It is divided between individual merge requests and larger scale initiatives.
-
-##### Individual merge requests or issues
-
-Loop in the application security team by `/cc @gitlab-com/gl-security/appsec` in your merge request or issue.
-
-These reviews are intended to be faster, more lightweight, and have a lower barrier of entry.
-
-##### Larger scale initiatives
-
-To get started, create an issue in the [internal application security reviews repository](https://gitlab.com/gitlab-com/gl-security/appsec/appsec-reviews/issues) using the [Appsec Review template](https://gitlab.com/gitlab-com/gl-security/appsec/appsec-reviews/-/issues/new?issueable_tempalte=AppSec%20Review). The complete process can be found at [here](/handbook/security/security-engineering/application-security/appsec-reviews.html).
-
-Some use cases of this are for epics, milestones, reviewing for a common security weakness in the entire codebase, or larger features.
-
-#### Is security approval required to progress?
-
-No, code changes do *not* require security approval to progress. Non-blocking reviews enables the freedom for our code to [keep shipping]({{< ref "ceo#how-do-we-keep-shipping" >}}) fast, and it closer aligns with our values of [iteration and efficiency]({{< ref "values#iteration" >}}). They operate more as guardrails instead of a gate.
-
-#### What should I provide when requesting a security review?
-
-To help speed up a review, it's recommended to provide any or all of the following:
-
-- The background and context of the changes being made.
-- Any documentation or diagrams which help provide a clear understanding its purpose and use cases.
-- The type of data it's processing or storing.
-- The security requirements for the data.
-- Your security concerns and a worst case scenario that could happen.
-- A test environment.
-
-#### What does the security process look like?
-
-The current process for larger scale internal application security reviews be found [here]({{< ref "appsec-reviews" >}})
-
-#### My changes have been reviewed by security, so is my project now secure?
-
-Security reviews are not proof or certification that the code changes are secure. They are best effort, and additional vulnerabilities may exist after a review.
-
-It's important to note here that application security reviews are not a one-and-done, but can be ongoing as the application under review evolves.
-
-#### Using third party libraries ?
-
-If you are using third party libraries make sure that:
-
-1. You use the latest stable and available version
-1. Your team has the ability to support and upgrade this library as security patches are published
-1. The maintainer has a security policy

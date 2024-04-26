@@ -1,0 +1,34 @@
+{{- /*  Initialize. */}}
+{{- $filters := slice }}
+{{- $data := dict }}
+
+{{- /* Get params. */}}
+{{- with (.Get "dashboard") }}
+  {{- $data = merge $data (dict "dashboard" .) }}
+{{- else }}
+  {{- errorf "The %q shortcode requires a dashboard parameter." }}
+{{- end }}
+
+{{- with (.Get "chart") }}
+  {{- $data = merge $data (dict "chart" .) }}
+{{- end }}
+
+{{- with (.Get "height") }}
+    {{- $data = merge $data (dict "height" (int .)) }}
+{{- end }}
+
+{{- with (.Get "visible") }}
+    {{- $data = merge $data (dict "visible" (strings.Split . ",")) }}
+{{- end }}
+
+{{- $knownValues := slice "dashboard" "chart" "height" "visible" }}
+{{- range $k, $v := .Params }}
+    {{- if not (in $knownValues $k) }}
+        {{$filters = append (dict "name" $k "value" (lower $v)) $filters }}
+    {{- end }}
+{{- end }}
+{{- if gt (len $filters) 0 }}
+    {{- $data = merge $data (dict "filters" $filters) }}
+{{- end }}
+
+{{ partial "sisense-with-filter" $data }}

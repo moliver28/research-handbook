@@ -17,95 +17,78 @@ As per
 > default group for each team member. All new team members you create will be
 > added to the default group.
 
-## How do we maintain them?
-
-We currently maintain all groups via Zendesk itself.
-
-## Current Zendesk Global groups
-
-- [Accounts Receivable](https://gitlab.zendesk.com/groups/360008238400)
-- [Billing](https://gitlab.zendesk.com/groups/360003910679)
-- [China Comms](https://gitlab.zendesk.com/groups/360007080959)
-- [General](https://gitlab.zendesk.com/groups/360002757414)
-- [SGG: Baobab](https://gitlab.zendesk.com/groups/4725956857884)
-- [SGG: Ginkgo](https://gitlab.zendesk.com/groups/4427347212434)
-- [SGG: Kapook](https://gitlab.zendesk.com/groups/4725931534108)
-- [SGG: Maple](https://gitlab.zendesk.com/groups/4427347399698)
-- [SGG: Pine](https://gitlab.zendesk.com/groups/4427366542482)
-- [Support AMER](https://gitlab.zendesk.com/groups/360002038460?location=admin_center&route=groups)
-- [Support APAC](https://gitlab.zendesk.com/groups/360002038360?location=admin_center&route=groups)
-- [Support EMEA](https://gitlab.zendesk.com/groups/360001979440?location=admin_center&route=groups)
-- [Support Focus: Authentication and Authorization](https://gitlab.zendesk.com/groups/360008238420)
-- [Support Focus: CMOC](https://gitlab.zendesk.com/groups/360008266039)
-- [Support Focus: L&R](https://gitlab.zendesk.com/groups/360008266119)
-- [Support Focus: Secure](https://gitlab.zendesk.com/groups/360008266179)
-- [Support Managers](https://gitlab.zendesk.com/groups/360004358239)
-- [Support Ops](https://gitlab.zendesk.com/groups/360004215280)
-
-## Current Zendesk US Federal groups
-
-- [General](https://gitlab-federal-support.zendesk.com/groups/360016402951)
-- [Security](https://gitlab-federal-support.zendesk.com/groups/360016399052)
-- [Support](https://gitlab-federal-support.zendesk.com/groups/360004818031)
-- [Support Managers](https://gitlab-federal-support.zendesk.com/groups/360016399072)
-- [Support Operations](https://gitlab-federal-support.zendesk.com/groups/360016399032)
-
-## Creating a group in Zendesk
-
-To create a group in Zendesk, you first need to go to the Admin Center
-([Zendesk Global](https://gitlab.zendesk.com/admin/) /
-[Zendesk US Federal](https://gitlab-federal-support.zendesk.com/admin/)). From
-there, you need to go to the Groups page (People > Team > Groups).
-
-From there, click the blue `Create group` button at the top-right of the page.
-When making a group, you will:
-
-1. Enter the name of the group
-1. Enter a description of the group
-1. Ensure `Make this group private` is **not** checked
-1. Ensure `Set as default group` is **not** checked
-1. Check the box next to any agents who should be in this group
-
-After doing so, click the blue `Create group` button at the bottom-right of the
-page.
-
-## Editing a group in Zendesk
-
-To edit a group in Zendesk, you first need to go to the Admin Center
-([Zendesk Global](https://gitlab.zendesk.com/admin/) /
-[Zendesk US Federal](https://gitlab-federal-support.zendesk.com/admin/)). From
-there, you need to go to the Groups page (People > Team > Groups).
-
-From there, locate the group in question and click the `edit` link to the
-far-right (on the same line as the group's name). From here, you can make the
-needed edits and click the blue `Save` button at the bottom-right of the page.
-
-## Deleting a group in Zendesk
-
-To delete a group in Zendesk, you first need to go to the Admin Center
-([Zendesk Global](https://gitlab.zendesk.com/admin/) /
-[Zendesk US Federal](https://gitlab-federal-support.zendesk.com/admin/)). From
-there, you need to go to the Groups page (People > Team > Groups).
-
-From there, locate the group in question and click the `edit` link to the
-far-right (on the same line as the group's name). From here, you can click the
-`Delete` button at the bottom-right of the page.
-
 ## Change management
 
-As the group changes are unique in deployment, please see
-[Zendesk group change management](/handbook/support/readiness/operations/docs/change_management#zendesk-group-change-management)
-for more information.
+Keep in mind, all change management should be stemming from an issue, first and
+foremost.
 
-#### Labels to use
+We manage group membership via Zendesk itself (on user profiles), so the only
+management of groups itself comes down to creation and deletion.
 
-For all issues and MRs involving groups, the label
-`Support-Ops-Category::Orgs and Users` should be used.
+#### Creating a group
 
-#### Change criticality
+You will start by creating the group itself in Zendesk. To do this, open up the
+admin page of your corresponding Zendesk instance
+([Global](https://gitlab.zendesk.com/admin) or
+[US Government](https://gitlab-federal-support.zendesk.com/admin)) clicking
+`People` on the left-hand side, and then click `Groups`. On this page, click the
+blue `Add group` button at the top-right of the page.
 
-Due to the nature and impact adding/editing/deleting Zendesk groups can impose
-on agents, all issues/MRs related to Zendesk groups will be classified as either
-[criticality 2](/handbook/support/readiness/operations/docs/change_criticalities#criticality-2)
-or
-[criticality 3](/handbook/support/readiness/operations/docs/change_criticalities#criticality-3)
+You will then enter the group's name and description. Do not fill out anything
+else (including members). After doing so, click the blue `Save` button at the
+bottom-right of the page.
+
+After doing so, you will need to get the ID value for it (if you click it, you
+can see it in the URL).
+
+From here, create the merge request in the sync repo project.
+
+#### Deleting a group
+
+To delete a group, you need to purge it from multiple locations:
+
+- Sync repo project
+- Zendesk itself
+
+The first can be done via merge requests, but the last one has to be done in the
+the Zendesk instance itself. To do this, open up the admin page of your
+corresponding Zendesk instance ([Global](https://gitlab.zendesk.com/admin) or
+[US Government](https://gitlab-federal-support.zendesk.com/admin)) `People` on
+the left-hand side, and then click `Groups`. On this page you will locate the
+group in question, click the three vertical dots at the right-hand side of the
+group, and click `Delete`. This will cause a pop-up modal to appear asking you
+to confirm the action. Click red `Delete` button to do so.
+
+## Troubleshooting
+
+#### Pipeline error "Blank ID"
+
+This means the script detected a YAML file within `data` that has an `id` value
+of blank (or nil). You will need to locate the file mentioned in the error and
+correct that.
+
+#### Pipeline error "Blank name"
+
+This means the script detected a YAML file within `data` that has an `name`
+value of blank (or nil). You will need to locate the file mentioned in the error
+and correct that.
+
+#### Pipeline error "GitLab errors"
+
+This is a generic error message that will detail some error that occurred when
+trying to either create or update the tag used on the source project. The exact
+steps to fix this will vary based on the nature of the error itself. You will
+need to review the error and determine the next steps from there.
+
+If you are unsure how to proceed, it is best to seek assistance from the wider
+team.
+
+## Source Projects
+
+#### Zendesk Global
+
+- [Sync repo project](https://gitlab.com/gitlab-support-readiness/zendesk-global/groups)
+
+#### Zendesk US Government
+
+- [Sync repo project](https://gitlab.com/gitlab-support-readiness/zendesk-us-government/groups)

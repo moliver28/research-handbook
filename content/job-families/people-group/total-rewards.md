@@ -21,7 +21,7 @@ The [Total Rewards](/handbook/total-rewards/) department strategically aligns th
 |-----------------------------------------------------|-------|
 | [Compensation Coordinator](#compensation-coordinator) | 5 |
 | [Compensation Analyst](#compensation-analyst) | 6 |  
-| [Senior Compensation Analyst](#senior-compensation-analyst) <br> [Senior Compensation Program Manager](#senior-compensation-program-manager) | 7
+| [Senior Compensation Analyst](#senior-compensation-analyst) <br> [Compensation Program Manager](#compensation-program-manager) | 7
 | [Manager, Compensation](#manager-benefits) <br> [Compensation Partner](#compensation-partner) | 8 |  
 
 **Leadership:**
@@ -51,40 +51,19 @@ The [Total Rewards](/handbook/total-rewards/) department strategically aligns th
 
 ### Benefits Coordinator
 
+The responsibilities for a Benefits Coordinator will be added at the time of a business need for this role.
+
 #### Job Grade
 
 The Benefits Coordinator is a [grade 5](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
-#### Responsibilities
-
-- Process and submit payment for all entity benefits billing (US residency is a requirement to process US benefits) in collaboration with Accounts Payable.
-- Global Billing for PEOs ensuring timely payment of invoices and department breakdowns of cost to Accounts Payable.
-- Coordination with Benefits broker on new enrollments for team member benefits.
-- Audit all benefits invoices to ensure accuracy.
-- Onboarding and offboarding of team member benefits from relevant systems
-- Collaborate with the People group on Total Rewards policies, processes, and procedures following the GitLab workflow, with the goal always being to make things easier from the perspective of the team members.
-- Assist the People Connect group with all benefits related escalated inquires.
-- Update Total Rewards documentation as directed.
-- Keep it efficient and DRY.
-
 ### Benefits Analyst
+
+The responsibilities for a Benefits Analyst will be added at the time of a business need for this role.
 
 #### Job Grade
 
 The Benefits Analyst is a [grade 6](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
-
-### Responsibilities
-
-- Participate in benefits surveys.
-- Parental Leave Administration. HRIS data entry and coordination with payroll on all parental leaves.
-- Growth & Development Benefit. Responsible for all administration of the growth and development benefit in collaboration with Finance, Payroll, and GitLab Management.
-- Collaborate with the Total Rewards team on policies, processes, and procedures following the GitLab workflow, with the goal always being to make things easier from the perspective of the team members.
-- Update Total Rewards documentation as appropriate.
-- Collect GitLab internal data to track trends in functional areas.
-- Collect external market data to support benefits roadmaps.
-- Total Rewards Statement Management to be able to report the three pillars of total rewards at the end of each compensation review cycle ensuring the ability to report benefits usage throughout the year.
-- Assist the Senior Benefits Program Manager with training employees on various topics.
-- Keep it efficient and DRY.
 
 ### Senior Benefits Analyst
 
@@ -183,11 +162,11 @@ The Senior Compensation Analyst is a [grade 7](/handbook/total-rewards/compensat
 - Effectively communicate any upcoming total rewards processes or policy changes.
 - Keep it efficient and DRY.
 
-### Senior Compensation Program Manager
+### Compensation Program Manager
 
 #### Job Grade
 
-The Senior Compensation Program Manager is a [grade 7](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+The Compensation Program Manager is a [grade 7](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
 #### Responsibilities
 

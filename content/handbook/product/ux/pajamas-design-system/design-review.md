@@ -35,7 +35,7 @@ Maintainers are GitLab designers who:
 
 Every project has at least one maintainer, but most have multiple, and some projects (like `gitlab-ui` and `design.gitlab.com`) have separate maintainers for design and frontend. As with reviewers, design maintainers can be found on the list of [GitLab Engineering Projects][eng-projects].
 
-Read more about what makes great maintainers in the [Engineering Review Workflow](https://about.gitlab.com/handbook/engineering/workflow/code-review/#maintainer).
+Read more about what makes great maintainers in the [Engineering Review Workflow](/handbook/engineering/workflow/code-review/#maintainer).
 
 ### Maintainer types
 
@@ -46,7 +46,7 @@ Design maintainers are divided into types of maintainership. This helps maintain
 | `design.gitlab.com` |  `Figma` (Pajamas UI Kit): reviews file organization, object properties, interaction design, accessibility, visual design, and technical feasibility.<br>`UX` (Pajamas website): reviews content meaning, terminology, and structure across all sections of the website. |
 | `gitlab-svgs` | `Figma` (Pajamas UI Kit): reviews icon and illustration file organization, object properties, and visual design. |
 
-If you are interested in becoming a Maintainer of UI (`.scss`) for the `gitlab` or `gitlab-ui` projects, please follow the [Engineering Review Workflow](https://about.gitlab.com/handbook/engineering/workflow/code-review/).
+If you are interested in becoming a Maintainer of UI (`.scss`) for the `gitlab` or `gitlab-ui` projects, please follow the [Engineering Review Workflow](/handbook/engineering/workflow/code-review/).
 
 ### How to become a maintainer
 
@@ -60,7 +60,7 @@ Three key aspects of that process:
 
 #### Trainee maintainer
 
-**We're not able to support more trainees at the moment. We can only accommodate trainee's once we have a [Support Maintainer](https://about.gitlab.com/handbook/engineering/projects/#design.gitlab.com) available and there is a need for additional maintainers. If you have an interest in becoming a maintainer, we encourage you to talk with your manager!**
+**We're not able to support more trainees at the moment. We can only accommodate trainee's once we have a [Support Maintainer](/handbook/engineering/projects/#design.gitlab.com) available and there is a need for additional maintainers. If you have an interest in becoming a maintainer, we encourage you to talk with your manager!**
 
 **Note: While maintainers are responsible for certain projects, becoming one is not required for career progression and this should not be the primary reason for becoming a trainee.**
 
@@ -77,15 +77,13 @@ The traineeship is a long commitment, usually several months, and takes away tim
 There are two aspects that play a big part in the duration of the traineeship: the number of hours that are dedicated to it and the number of available MRs for the trainee. When these two aspects oppose each other, the traineeship can take longer than expected:
 
 1. **Many hours, few MRs**: To increase the number of MRs, the trainee can always make their own contributions. Reviewing MRs from others is not the only way to become a maintainer. The trainee must be creative and try to work on “maintainer-level” MRs as much as possible.
-1. **Few hours, many MRs**: Trying to review or contribute many MRs in few hours can have a negative effect on quality. The trainee should focus on quality because that is what is evaluated. They should also follow our [review-response Service-level Objective (SLO)](https://about.gitlab.com/handbook/engineering/workflow/code-review/#review-response-slo). If the trainee wants to speed up the traineeship, they should talk with their manager to find ways to balance their workload and free up more time for this program.
+1. **Few hours, many MRs**: Trying to review or contribute many MRs in few hours can have a negative effect on quality. The trainee should focus on quality because that is what is evaluated. They should also follow our [review-response Service-level Objective (SLO)](/handbook/engineering/workflow/code-review/#review-response-slo). If the trainee wants to speed up the traineeship, they should talk with their manager to find ways to balance their workload and free up more time for this program.
 
 To help track progress, we encourage trainees to make the traineeship one of their personal OKRs.
 
 ### Maintainer ratios
 
-See the [Pajamas maintainer ratio dashboard](https://app.periscopedata.com/app/gitlab/658466/Pajamas-Design-System).
-
-{{% sisense dashboard="658466" height="475" %}}
+See the [Pajamas maintainer ratio dashboard (internal)](https://10az.online.tableau.com/t/gitlab/views/UXPajamasMaintainers/PajamasDesignSystem?:origin=card_share_link&:embed=n).
 
 ##### Current trainee maintainers
 

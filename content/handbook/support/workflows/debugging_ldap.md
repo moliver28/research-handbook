@@ -161,7 +161,7 @@ This is used to force an instant sync of LDAP for testing purposes.
 1. Edit `vi /opt/gitlab/embedded/service/gitlab-rails/lib/gitlab/ldap/group_sync.rb`
 1. Comment out the exclusive lease section *(lines may differ in releases)* - [View code](https://gitlab.com/gitlab-org/gitlab-ee/blob/5c8b211c7b8746ec6d5697e495ddb68f2ac08dd7/lib/gitlab/ldap/group_sync.rb#L70-73)
 1. Run a reconfigure `sudo gitlab-ctl reconfigure` **This will restart GitLab**
-1. Launch GitLab rails console `gitlab-rails console`
+1. Launch GitLab Rails console `gitlab-rails console`
 1. Execute `Gitlab::LDAP::GroupSync.execute`
 1. LDAP sync will now run
 1. **Revert changes to the `group_sync.rb` file when finished**

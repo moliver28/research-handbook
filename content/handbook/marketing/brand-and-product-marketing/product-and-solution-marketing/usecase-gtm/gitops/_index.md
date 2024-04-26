@@ -11,7 +11,7 @@ title: "Auxiliary Solution Resource: GitOps"
 
 #### Who to contact
 
-| Product Marketing | Technical Marketing |
+| Product Marketing | Developer Advocate |
 | ---- | --- |
 | Daniel Hom (@danielhom) | @csaavedra1 |
 
@@ -32,7 +32,7 @@ GitOps == IaC + MRs + CI/CD
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/JtZfnrwOOAw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
-[GitOps](/topics/gitops/) involves managing your IT infrastructure using practices well-known in software development such as version control, code review, and CI/CD pipelines. For example, infrastructure teams that practice GitOps use configuration files stored as code. Similar to how application source code generates the same application binaries every time it's built, GitOps configuration generates the same infrastructure environment every time it is deployed.
+[GitOps](https://about.gitlab.com/topics/gitops/) involves managing your IT infrastructure using practices well-known in software development such as version control, code review, and CI/CD pipelines. For example, infrastructure teams that practice GitOps use configuration files stored as code. Similar to how application source code generates the same application binaries every time it's built, GitOps configuration generates the same infrastructure environment every time it is deployed.
 
 
 
@@ -44,7 +44,7 @@ As with any emerging technology term, "GitOps" isn't strictly defined the same w
 
 While many tools and methodologies promise faster deployment and seamless management between code and infrastructure, GitOps differs by focusing on a developer-centric experience. Infrastructure management through GitOps happens in the same version control system as the application development, enabling teams to collaborate more in a central location while benefiting from all the built-in features of Git.
 
-GitOps is a prescriptive workflow for using [Infrastructure as Code](/topics/gitops/infrastructure-as-code/). GitOps with GitLab helps you manage physical, virtual and cloud native infrastructures (including Kubernetes and serverless technologies) using tight integration with industry-leading infrastructure automation tools like Terraform, AWS Cloud Formation, Ansible, Chef, Puppet, and the like.
+GitOps is a prescriptive workflow for using [Infrastructure as Code](https://about.gitlab.com/topics/gitops/infrastructure-as-code/). GitOps with GitLab helps you manage physical, virtual and cloud native infrastructures (including Kubernetes and serverless technologies) using tight integration with industry-leading infrastructure automation tools like Terraform, AWS Cloud Formation, Ansible, Chef, Puppet, and the like.
 
 ### Benefits of GitOps
 
@@ -211,9 +211,9 @@ A collection of short demonstrations that show GitLab's GitOps capabilities.
 
 The message house for the use case provides a structure to describe and discuss the value and differentiators for the use case.
 
-Current messaging can be found in the [market viewpoint](#the-market-viewpoint) section for this page and on the topic page which answers [What is GitOps?](/topics/gitops/) along with some additional notes here:
+Current messaging can be found in the [market viewpoint](#the-market-viewpoint) section for this page and on the topic page which answers [What is GitOps?](https://about.gitlab.com/topics/gitops/) along with some additional notes here:
 
-"Infrastructure Platform" is a great phrase to use in connection with GitOps and GitLab. We need to be careful with its use so we don't portray ourselves as something we aren't. In the past we've been called out for claiming to have capabilities similar to Chef, Ansible, and Terraform, when we don't house the capabilities within GitLab, but instead seek to integrate with those tools. If we keep it clear that we provide infra platform capabilities via integrations then we have some strong messaging that connects with I&O buyers. See an [example use on the topic page](/topics/gitops/#why-gitlab)
+"Infrastructure Platform" is a great phrase to use in connection with GitOps and GitLab. We need to be careful with its use so we don't portray ourselves as something we aren't. In the past we've been called out for claiming to have capabilities similar to Chef, Ansible, and Terraform, when we don't house the capabilities within GitLab, but instead seek to integrate with those tools. If we keep it clear that we provide infra platform capabilities via integrations then we have some strong messaging that connects with I&O buyers. See an [example use on the topic page](https://about.gitlab.com/topics/gitops/#why-gitlab)
 
 ### Discovery Questions
 
@@ -346,11 +346,11 @@ GitLab is not a replacement for existing Infrastructure Automation tools, but ra
 - GitOps Industry Talk - What is GitOps? Why is it important? How can you get started? - [slide deck](https://docs.google.com/presentation/d/18cuZjvkMT8uv241dqJZMdaWOyvZiwBOzFvRZ4HaP1iE/edit), [video](https://www.youtube.com/watch?v=JtZfnrwOOAw)
 
 ### WebPage, Whitepapers, infographics, blogs
-- [What is GitOps?](/topics/gitops/)
+- [What is GitOps?](https://about.gitlab.com/topics/gitops/)
 - [Infrastructure as Code using GitLab & Ansible](https://about.gitlab.com/blog/2019/07/01/using-ansible-and-gitlab-as-infrastructure-for-code/)
-- [Part 1 of 3: Why collaboration technology is critical for GitOps](/topics/gitops/gitops-gitlab-collaboration/)
-- [Part 2 of 3: How infrastructure teams use GitLab and Terraform for GitOps](/topics/gitops/gitlab-enables-infrastructure-as-code/)
-- [Part 3 of 3: How to deploy to any cloud using GitLab for GitOps](/topics/gitops/gitops-multicloud-deployments-gitlab/)
+- [Part 1 of 3: Why collaboration technology is critical for GitOps](https://about.gitlab.com/topics/gitops/gitops-gitlab-collaboration/)
+- [Part 2 of 3: How infrastructure teams use GitLab and Terraform for GitOps](https://about.gitlab.com/topics/gitops/gitlab-enables-infrastructure-as-code/)
+- [Part 3 of 3: How to deploy to any cloud using GitLab for GitOps](https://about.gitlab.com/topics/gitops/gitops-multicloud-deployments-gitlab/)
 
 ### Videos (including basic demo videos)
 - [What is GitOps? Why is it important? How can you get started?](https://www.youtube.com/watch?v=JtZfnrwOOAw)

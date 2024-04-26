@@ -8,11 +8,4 @@
   {{- errorf "The %q shortcode requires a single positional argument."}}
 {{- end }}
 
-{{- $coaches := slice }}
-{{- $teamMembers := partials.IncludeCached "data/team-by-name" page }}
-{{- range $teamMembers }}
-  {{- if in .departments $department  }}
-    {{- $coaches = append . $coaches }}
-  {{- end }}
-{{- end }}
-{{ len $coaches }}
+{{ len (where site.Data.public.team "departments" "intersect" (slice $department)) }}

@@ -5,13 +5,6 @@ title: "Brand Resources"
 
 
 
-
-
-
-
-# Brand Resources
-
-
 ## Overview
 
 Welcome to the Brand Resources page. This is your one-stop shop for the most updated brand-related assets, including logos, slide templates, social media graphics, and more.
@@ -33,9 +26,9 @@ GitLab's official brand guidelines can be found at **[design.gitlab.com](https:/
 ### Templates
 
 *Slide decks and templates*
-- [The DevSecOps story deck](https://docs.google.com/presentation/d/1PoHWLt4B69zpqnqoiAmQC5fdUkyI1wCes6E1B40gxWE/edit?usp=sharing) - also found in Highspot
-- [GitLab AI story deck](https://docs.google.com/presentation/d/1EPIRwjol1H6fzZ8d5Iq86S6Hox3gH67SeQn2-UVOmps/edit?usp=sharing) - also found in Highspot
-- [GitLab Slide Template](https://docs.google.com/presentation/d/1XhGp21FKlIBiJMI9OpvwyneF6fkrQeOQjFxDJF678Ys/edit#slide=id.g1e546bbceaf_0_817)
+- [The DevSecOps story deck](https://docs.google.com/presentation/d/1PoHWLt4B69zpqnqoiAmQC5fdUkyI1wCes6E1B40gxWE/edit?usp=sharing) - also found in [Highspot](https://gitlab.highspot.com/items/637c654085763ccc861bd095)
+- [GitLab AI story deck](https://docs.google.com/presentation/d/1EPIRwjol1H6fzZ8d5Iq86S6Hox3gH67SeQn2-UVOmps/edit?usp=sharing) - also found in [Highspot](https://gitlab.highspot.com/items/64595fd04d7a2c51bf9e2223?lfrm=srp.0)
+- [GitLab Slide Template](https://docs.google.com/presentation/d/1nBdqDlzuwBbYKpg4ZkHDTKKVNa_WDBds75LCb8C7eeg/edit#slide=id.g1d8d828ce6f_2_95) - also found in [Highspot](https://gitlab.highspot.com/items/650461a504701b188c124951#kn8ghcc5at) (Please scroll down to the Templates section on Highspot)
 
 *Email templates*
 - [General templates for email assets](https://www.canva.com/folder/FAFTVmFzaI0) (Access to GitLab's [Canva Enterprise](/handbook/marketing/brand-and-product-marketing/brand/brand-activation/brand-standards/#gitlab-enterprise-access)  account required)
@@ -76,6 +69,8 @@ GitLab's official brand guidelines can be found at **[design.gitlab.com](https:/
 
 - [Photo library](https://drive.google.com/drive/folders/1VHErs-KSNX1FIIVgXJR3OmIzwU7M4E1M?usp=sharing)
 - [Adobe stock](https://stock.adobe.com/)
+- [Unsplash](https://unsplash.com/) *Proper [credit](https://handbook.gitlab.com/handbook/legal/ip-public-materials-guidelines/#visual-content-including-videos-gifs-photographs-illustrations-graphics-and-artwork) must be given
+- [Disability NI Stock Photos](https://disabilityin.org/resource/corporate-disability-stock-photography/) *Proper [credit](https://handbook.gitlab.com/handbook/legal/ip-public-materials-guidelines/#visual-content-including-videos-gifs-photographs-illustrations-graphics-and-artwork) must be given
 
 ### Motion and video
 

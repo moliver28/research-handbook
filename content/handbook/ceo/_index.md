@@ -65,7 +65,7 @@ Sid is easy to talk to on any subject. He is good at drawing people out and chal
 1. Sid is GitLab's product visionary.
 1. He’s the anchor of all-remote.
 1. Sid is the source of our [transparency value]({{< ref "values#transparency" >}}).
-1. Sid is also the driving force for our iteration value. For example, he holds [Iteration Office Hours](#iteration-office-hours).
+1. Sid is also the driving force for our iteration value. For example, he may hold [Iteration Office Hours](#iteration-office-hours).
 1. Sid really values 1:1 preparation.
 1. Sid believes in “strong opinions, weakly held.” He doesn’t always seem like it, but he will change his mind quickly if you present him with compelling new information and a data driven perspective.
 1. Sid loves naming things, and strongly believes in the power of clear language. Learn and use (and add to) our terminology e.g. `It’s not a “best practice”, it’s a “boring solution”`. The [product categories](/handbook/product/categories/) page is a good example. Sid advocates for using [MECEFU terms]({{< ref "communication#mecefu-terms" >}}) to keep communication efficient.
@@ -191,7 +191,7 @@ As part of my role, I participate in a variety of meetings both internal and ext
 ### Weekly Meetings
 
 1. [1-1s](/handbook/leadership/1-1/) with my direct reports and [EBA]({{< ref eba >}}). 25-50 minutes.
-1. [E-Group](/handbook/company/team/structure/#e-group) Call. 120 minutes.
+1. [E-Group](/handbook/company/structure/#e-group) Call. 120 minutes.
 1. If there are open positions Talent Acquisition Syncs on key Executive hires. 25 minutes.
 1. Topical conversations on top cross-functional initiatives or other areas of importance to the CEO. 25 minutes.
 1. Candidate Interviews. 50 minutes.
@@ -203,10 +203,9 @@ As part of my role, I participate in a variety of meetings both internal and ext
 1. [1-1](/handbook/leadership/1-1/) with CEO Coach. 80 minutes.
 1. Industry Analyst Meetings. 25-50 minute meetings.
 1. [Coffee Chats](/handbook/company/culture/all-remote/informal-communication/#coffee-chats). 25 minutes.
-1. [Retrospective](https://about.gitlab.com/handbook/engineering/workflow/#retrospective). 25 minutes.
+1. [Retrospective](/handbook/engineering/workflow/#retrospective). 25 minutes.
 1. [Monthly Release Kick-off](https://about.gitlab.com/releases/). 25 minutes.
 1. [CEO 101](https://about.gitlab.com/culture/gitlab-101/). 50 minutes.
-1. [Iteration Office Hours](#iteration-office-hours). 25 minutes.
 1. Customer meetings or on-site visits. 25-90 minutes.
 1. Executive AMA's (Ask Me Anything). 25 minutes.
 1. Investor Relations meetings at the request of the CFO and/or VP, Investor Relations. Range from 25 minutes to 1+ days.
@@ -308,7 +307,7 @@ Please ensure:
 1. We let the sales team know we would love to set up meetings and schedule these with my EBA at least a week before the conference.
 1. There is same timezone EBA coverage during the conference.
 
-If I am asked to keynote a conference, it is up to the [executive](/handbook/company/team/structure/#executives) of the function asking me to attend to decide.
+If I am asked to keynote a conference, it is up to the [executive](/handbook/company/structure/#executives) of the function asking me to attend to decide.
 For example, if the request is coming from marketing, the CMO decides; if the request is coming from Finance, the CFO decides.
 Please follow the process outlined under [meeting request requirements]({{ ref "eba#meeting-request-requirements" >}}) and work with my EBA who will shepherd the decision about whether or not I will attend.
 
@@ -412,7 +411,7 @@ As the company keeps growing my use of the handbook is also changing.
 
 ## Iteration Office Hours
 
-These monthly office hours are an opportunity for GitLab team members to discuss how to take a more iterative approach to a specific activity or to highlight how a more iterative approach helped drive results.
+These office hours are an opportunity for GitLab team members to discuss how to take a more iterative approach to a specific activity or to highlight how a more iterative approach helped drive results.
 Iteration is one of the hardest things to learn about working at GitLab and these office hours are a great opportunity for me to help coach folks who are interested in better understanding it.
 We learned iteration at YC, where we took our plan for the next 3 months and compressed it into 2 weeks.
 Give yourself a really tight deadline and see what you can do.

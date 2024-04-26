@@ -33,86 +33,179 @@ Currently, Zendesk views have some limitations:
   [archived tickets](https://support.zendesk.com/hc/en-us/articles/203657756-About-ticket-archiving)
   (i.e. Closed tickets after 120 days.)
 
-## How do we maintain them?
 
-Instead of managing Zendesk views via Zendesk itself, we instead use GitLab
-projects to maintain them. This allows us to have version-controlled views.
+## Change management
 
-You can find our Zendesk view projects via:
+Keep in mind, all change management should be stemming from an issue, first and
+foremost.
 
-- [Zendesk Global](https://gitlab.com/gitlab-com/support/support-ops/zendesk-global/views)
-- [Zendesk US Federal](https://gitlab.com/gitlab-com/support/support-ops/zendesk-us-federal/views)
+#### Creating a new view with managed content
 
-## Moving tickets between views
+When your new view is going to be using managed content, you will first need to
+get the managed content file in the Support managed content project. Remember to
+use the correct filenames for all of this to prevent
+[Pipeline error “No managed content file”](#pipeline-error-no-managed-content-file)
+in the sync repo project later on.
 
-The criteria for most views is centered around the form the ticket is using. But
-there are some scenarios where the tags on a ticket can cause it to show in
-multiple areas.
+Only after that has been done should you proceed to the next steps, which will
+match the steps detailed in
+[Creating a new view without managed content](#creating-a-new-view-without-managed-content)
+exactly.
 
-As such, it is best to reach out to Support Operations for guidance.
+#### Creating a new view without managed content
 
-## Creating a view via Zendesk
+This is a bit simpler than creating one with managed content. You will start by
+creating a placeholder view within Zendesk itself (as you will need the ID for
+the sync repo). To do this, open up the admin page of your corresponding Zendesk
+instance ([Global](https://gitlab.zendesk.com/admin) or
+[US Government](https://gitlab-federal-support.zendesk.com/admin)), click
+`Workspaces` on the left-hand side, and then click `Views`. On this page, you
+will want to click `Add view`. This will bring up the new view page.
 
-To create a view in Zendesk, you first need to go to the Admin Center
-([Zendesk Global](https://gitlab.zendesk.com/admin/) /
-[Zendesk US Federal](https://gitlab-federal-support.zendesk.com/admin/)). From
-there, you need to go to the Views page (Workspaces > Agent tools > Views).
+On this page, you will do the following:
 
-After doing so, you will then click the `Add view` button on the top-right side
-of the page. This will then load up the new view page.
+- Set the name to "Placeholder for ISSUE_LINK" (replacing `ISSUE_LINK` with the
+  link to the issue you are working out of).
+- Set grouping to group by the ticket form in ascending order
+- Set sorting to sort by the ticket ID in ascending order
+- Remove all columns except for ticket ID
+- Ensure the restrictions allow anyone to access it
 
-From here, you will:
+After doing so, click the blue `Save` button. You will then locate the
+placeholder view you just created and get the ID value from it (if you click it,
+you can see it in the URL).
 
-1. the name of the view
-1. a description of the view (normally a request link)
-1. who has access to the view
-   - `Any agent` means it is globally shared
-   - `Agents in a specific group` means it is shared only to those in specific
-     groups
-   - `Only you` means you are making a personal view
-1. the conditions of the view
-   - It is recommend to use the `Preview` feature to be sure the tickets it pulls
-     are the ones you intended for it to pull.
-1. which columns to show in the view (and in what order from left to right)
-1. what grouping to use (and which order for the grouping)
-   - **Note**: grouping order is based on the group item's Zendesk ID
-1. what sorting to use (and which order for the sorting)
-1. **Note**: sorting order is based on the group item's Zendesk ID
+From here, create the merge request in the sync repo project. Keep in mind you
+are likely to need to adjust **many** view files due to positioning.
 
-With all of that entered, click the blue `Save` button at the bottom-right of
-the page to create the view.
+#### Updating an existing view
 
-## Editing a view via Zendesk
+Updating an existing view is considerably easier than creating a new one. Simply
+change change the code in the source project and it will occur via the sync
+repo.
 
-To edit a view, you will first go to the Admin Center
-([Zendesk Global](https://gitlab.zendesk.com/admin/) /
-[Zendesk US Federal](https://gitlab-federal-support.zendesk.com/admin/)). rom
-there, you need to go to the Views page (Workspaces > Agent tools > Views).
+The one caveat you need to consider is when you are changing a view to allow for
+managed content (or to disable it using managed content).
 
-Once on the view list page, locate the view in the list (if looking to edit a
-personal view, you will need to change the filter on the right side below the
-`Add view` button to `Personal views`) and click on the title. This will bring
-up the view editor page (which is essentially the same as the view creation
-page).
+If you are adding managed content for the view, see
+[Creating a new view with managed content](#creating-a-new-view-with-managed-content)
+as that process will detail setting up the connection.
 
-Once you are done making your edits, click the blue `Save` button at the
-bottom-right of the page to save the changes.
+If you are removing managed content for the view, you will simply change the
+view file in the source sync repo project via your merge request. After that has
+been merged, you will want to comment on the original issue asking the requester
+to remove the file from the corresponding Support managed content project.
 
-## Deactivating a view via Zendesk
+#### Deactivating a view
 
-There are actually two ways to deactivate a view in the Zendesk UI. The
-quicker way is to go to the views page, locate the view in question, hover
-over it, and click the three vertical dots on the right-hand side. This will
-bring up a sub-menu, which contains the option to `Deactivate`. Click that
-option and the view will be deactivated.
+To deactivate a view, you will simply change the view file in the source sync
+repo project via your merge request. Ensure you merge request does the
+following:
 
-The alternative way to deactivate a view in the Zendesk UI is from within
-the view editor page. At the bottom right, ensure the dropdown says
-`Deactivate` and then click the blue `Submit` button.
+- Moves the file from the `data/active` folder to the `data/inactive` folder
+- Sets `active: true` to `active: false` in the file.
+- Set grouping to group by the ticket form in ascending order
+- Set sorting to sort by the ticket ID in ascending order
+- Remove all columns except for ticket ID
+- Ensure the restrictions allow anyone to access it
 
-**Note**: Deactivating a view does not change its position. This value is
-retained in the backend. Re-enabling the view will have it take the same
-position it was in while previously active.
+#### Deleting a deactivated view
+
+**NOTE** We avoid doing this unless a view has been deactivated for a full year.
+After that point it can be deleted completely. Do also note that this will
+result in a complete change to `positions` and can cause the need for subsequent
+merge requests to the sync repo project.
+
+To delete a view, you need to purge it from multiple locations:
+
+- Sync repo project
+- Support managed content project
+- Zendesk itself
+
+The first two can be done via merge requests, but the last one has to be done in
+the Zendesk instance itself. To do this, open up the admin page of your
+corresponding Zendesk instance ([Global](https://gitlab.zendesk.com/admin) or
+[US Government](https://gitlab-federal-support.zendesk.com/admin)), click
+`Workspaces` on the left-hand side, and then click `Views`. On this page, you
+will want to `Inactive` tab. You will then locate the view to delete, hover over
+it, click the three vertical dots at the right-hand side, and then click
+`Delete view` This will cause a pop-up modal to appear asking you to confirm the
+action. Click blue `Delete view` button to do so.
+
+## Troubleshooting
+
+#### Pipeline error "No managed content file"
+
+This happens when we have said a managed content file should exist, but the git
+submodule does not contain one. This is commonly caused by:
+
+- The file does not actually exist. If this is the case, you need to assist in
+  getting it created in the Support managed content project
+- Filename mismatches. This all works very specifically using naming
+  conventions. If there is something even *slightly* off, your pipelines will
+  encounter issues. The scripts are looking for a file that has the **exact**
+  same name as the views's `title`. So if your VIEW has a title of `Do a Thing`,
+  the corresponding Support managed content project should have a file with the
+  same name (`active/Do a Thing.yaml`). You will need to assist in correcting
+  that on the Support managed content project first, and then rebase your merge
+  request after that is done.
+- You created the merge request in the source project before the file was added
+  to the Support managed content project. To rectify this, get the Support
+  managed content project MR completed and merged first. Once that has been
+  done, you can rebase your MR by making a comment of `/rebase`. After it
+  performs the rebase, your MR's CI/CD pipeline should pass.
+
+#### Pipeline error "Blank ID"
+
+This means the script detected a YAML file within `data/active` or
+`data/inactive` that has an `id` value of blank (or nil). You will need to
+locate the file mentioned in the error and correct that.
+
+#### Pipeline error "Blank position"
+
+This means the script detected a YAML file within `data/active` or
+`data/inactive` that has an `position` value of blank (or nil). You will need to
+locate the file mentioned in the error and correct that.
+
+#### Pipeline error "Blank title"
+
+This means the script detected a YAML file within `data/active` or
+`data/inactive` that has an `title` value of blank (or nil). You will need to
+locate the file mentioned in the error and correct that.
+
+#### Pipeline error "Inactive trigger in active folder"
+
+This means the script detected a YAML file within `data/active` that has an
+`active` value of `false`. You will need to locate the file mentioned in the
+error and correct that.
+
+#### Pipeline error "Active trigger in inactive folder"
+
+This means the script detected a YAML file within `data/inactive` that has an
+`active` value of anything other than `false`. You will need to locate the file
+mentioned in the error and correct that.
+
+#### Pipeline error "GitLab errors"
+
+This is a generic error message that will detail some error that occurred when
+trying to either create or update the tag used on the source project. The exact
+steps to fix this will vary based on the nature of the error itself. You will
+need to review the error and determine the next steps from there.
+
+If you are unsure how to proceed, it is best to seek assistance from the wider
+team.
+
+## Source Projects
+
+#### Zendesk Global
+
+- [Support managed content project](https://gitlab.com/gitlab-com/support/zendesk-global/views)
+- [Sync repo project](https://gitlab.com/gitlab-support-readiness/zendesk-global/views)
+
+#### Zendesk US Government
+
+- [Support managed content project](https://gitlab.com/gitlab-com/support/zendesk-us-government/views)
+- [Sync repo project](https://gitlab.com/gitlab-support-readiness/zendesk-us-government/views)
 
 ## Positioning
 
@@ -123,26 +216,6 @@ consider positioning.
 By default, new views gain a position of `N+1`, where `N` is the highest
 position value of all views currently in Zendesk (both active and inactive).
 This is desired and we should *rarely* need to change this.
-
-To edit positions in the Zendesk UI, go to the views page. From there,
-click the three horizontal dots at the top-right of the page (on the same line
-as the search bar). That will bring up a sub-menu with the option
-`Reorder page`. Clicking that will then allow you to drag and drop the list of
-views into the order you desire. After making the changes, click the blue `Save`
-button at the top right of the page.
-
-**Note**: Both active and inactive views have an integer positional value. While
-this does not matter in the UI, it will matter in the repo sync we utilize.
-
-Because only 12 non-personal views can be shown to any one agent, positioning is
-very important for views. You can make hundreds of them, but they won't all show
-(and if no one can see the view, it isn't very useful). As such, you need
-consider the following when creating/editing views:
-
-- what views are the most important for agents.
-- which views absolutely need to show based on the agent workflows.
-- what kind of groups can agents be in, and how that might conflict with the
-  views that show
 
 ## View standards
 
@@ -162,28 +235,3 @@ an example, if you wanted a view to only run when the form is `Support Ops`, it
 is better to simply put a condition of "Form is Support Ops" than adding
 exclusions for *every* other form. This can take time and practice to learn, so
 when in doubt, pair with the rest of the Support Ops team!
-
-## Change management
-
-As these are maintained via sync repositories, our standard change management
-process applies to all Zendesk views. See
-[standard change management](/handbook/support/readiness/operations/docs/change_management#standard-change-management)
-for more information.
-
-#### Labels to use
-
-For all issues and MRs involving views, the label `Support-Ops-Category::Views`
-should be used.
-
-#### Change criticality
-
-Due to the nature and impact adding/editing/deleting Zendesk views can impose on
-agents, all issues/MRs related to Zendesk views will be classified as either
-[criticality 2](/handbook/support/readiness/operations/docs/change_criticalities#criticality-1)
-or
-[criticality 3](/handbook/support/readiness/operations/docs/change_criticalities#criticality-2)
-
-The exception to this would be simple changes with very little impact, such as:
-
-- Changing the column order
-- Adding a new column

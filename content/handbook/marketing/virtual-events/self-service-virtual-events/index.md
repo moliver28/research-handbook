@@ -10,149 +10,13 @@ twitter_creator: "@gitlab"
 
 
 
-
 ## Overview
 {: #overview .gitlab-purple}
-This section focuses on best practices and logistical set up for self-service virtual events with or without promotion. Review the self-service virtual event promotion guide for help promoting your own event.
+The self-service virtual event type has been deprecated and is no longer in use.
 
-To provide feedback on the Self-service virtual events process please kindly fill out [this survey](https://forms.gle/AuVt9XmZpGs8MwnS7). Everyone can contribute, so feel free to also open an MR to suggest improvements to this page.
+If you would like to host a webcast, please work with either Marketing Campaigns or Field Marketing to determine the right set-up and tracking for your event.
 
-[Project Planning](/handbook/marketing/virtual-events/self-service-virtual-events/#project-planning)
-- [Epic Code for Self-Service](/handbook/marketing/virtual-events/self-service-virtual-events/#epic-code-for-self-service)
-- [Epic Code for Self-Service with Promotion](/handbook/marketing/virtual-events/self-service-virtual-events/#epic-code-for-self-service-with-promotion)
-
-[Best Practices](/handbook/marketing/virtual-events/self-service-virtual-events/#best-practices)
-
-[Self-Service Virtual Event Promotion Guide](/handbook/marketing/virtual-events/self-service-virtual-events/#self-service-virtual-event-promotion-guide)
-- [Write Copy](/handbook/marketing/virtual-events/self-service-virtual-events/#how-to-write-copy-for-your-self-service-virtual-event)
-- [Image Design](/handbook/marketing/virtual-events/self-service-virtual-events/#how-to-make-images-for-your-self-service-virtual-event)
-- [Getting word out](/handbook/marketing/virtual-events/self-service-virtual-events/#getting-the-word-out---launching-your-self-service-virtual-event-promotion)
-
-[Logistical Set up](/handbook/marketing/virtual-events/self-service-virtual-events/#logistical-set-up)
-- [Add to Calendar](/handbook/marketing/virtual-events/self-service-virtual-events/#adding-your-self-service-virtual-event-into-the-calendar)
-- [Zoom pre-event](/handbook/marketing/virtual-events/self-service-virtual-events/#setting-up-the-event-in-zoom)
-- [Zoom reschedule](/handbook/marketing/virtual-events/self-service-virtual-events/#rescheduling-self-service-virtual-events-with-or-without-promotion)
-- [Zoom cancellation](/handbook/marketing/virtual-events/self-service-virtual-events/#cancelling-for-self-service-virtual-events-with-or-without-promotion)
-- [Zoom during event](/handbook/marketing/virtual-events/self-service-virtual-events/#setting-up-the-event-in-zoom)
-- [Zoom post-event](/handbook/marketing/virtual-events/self-service-virtual-events/#post-event)
-- [Marketo Set up with Landing Page](/handbook/marketing/virtual-events/self-service-virtual-events/#marketo-set-up-with-landing-page)
-
-[Results](/handbook/marketing/virtual-events/self-service-virtual-events/#results)
-- [Responses by month](/handbook/marketing/virtual-events/self-service-virtual-events/#responses-by-month)
-
-## Project Planning
-{: #project-planning .gitlab-purple}
-
-Once you have an idea and abstract for a self-service virtual event with or without promotion:
-
-1.  Create an Epic within the [Marketing project](https://gitlab.com/groups/gitlab-com/marketing/-/epics) and give it a title using the following naming convention: `Virtual Event - Event Title - [3-letter Month] [Date], [Year]`. Once created, edit the epic and paste one of the below snippets (based on whether Marketing is supporting promotion) to the description.
-2.  Follow the steps outlined in the epic and create the remaining issues and add to the epic
-3.  Review the best practices and step-by-step instructions for creating your virtual event 
-
-### Epic Code for Self-Service:
-{: #epic-code-no-promotion}
-
-```
-<--- Name this epic using the following format, then delete this line: Virtual Event - Event Title - [3-letter Month] [Date], [Year] --->
-
-* **[Best practices for setting up your own virtual event](/handbook/marketing/virtual-events/self-service-virtual-events/#best-practices)**
-* **[Best practices for promoting your own virtual event](/handbook/marketing/virtual-events/#self-service-virtual-event-promotion-guide)**
-* **[Step-by-step instructions](/handbook/marketing/virtual-events/self-service-virtual-events/#logistical-set-up)**
-
-## :notepad_spiral: Key Details 
-* **Project Owner:** 
-* **Coordinator:** 
-* **Type:** Self-service
-* **Event Date:**  [MM-DD-YYYY] (this is the date the event goes live)
-* **Campaign Tag:** 
-* **Sales Segment (choose primary):** `Large, Mid-Market, or SMB`
-* **Sales Region (choose one):** `AMER, EMEA, APAC`
-* **Sales Territory (optional, if specific):** 
-* **Goal:** `Please be specific on the metric this is meant to impact.`
-* [ ] [main salesforce program]()
-* [ ] [main marketo campaign]()
-* [ ] Campaign UTM - Project owner to fill in (Format: campaign tag - change to all lowercase, no spaces, hyphens, underscores, or special characters)
-
-## Manage presenters and create calendar event (DRI: Requestor)
-* [ ] Secure date/time/presenters and add event to [Self-service virtual event calendar](https://calendar.google.com/calendar?cid=Z2l0bGFiLmNvbV9uMnNibXZmMjlqczBzM3BiM2ozaHRwa3FmZ0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t). Instructions on how to add to the calendar can be found [here](/handbook/marketing/virtual-events/self-service-virtual-events/#adding-your-self-service-virtual-event-into-the-calendar).
-* [ ] Block presenters calendars (starting 30 minutes prior to start) by sending them an invite with the zoom links from your personal Gcal
-* [ ] Schedule dry run (optional)
-
-## Create Zoom meeting for the event and add to /events (DRI: Requestor)
-* [ ] Make sure your zoom account settings are customized accordingly for the event
-* [ ] Add title, description, event details
-* [ ] [Add GDPR language to description](/handbook/marketing/virtual-events/index.html#gdpr-and-privacy-compliance)
-* [ ] (Optional: Only if you want to track registration) Update registration required
-* [ ] Update Meeting options as necessary (join before host, mute participants upon entry, enable waiting room, etc.)
-* [ ] Add alternate hosts as needed to support your event
-* [ ] (Optional: Only if you enabled registration tracking) Once event is created, customize the registration form to include complete contact info
-* [ ] Once event is created, scroll to the bottom and click email settings, then edit your confirmation email messaging
-* [ ] Once event is created, add your event to about.gitlab.com/events by following the [handbook instructions](/handbook/marketing/events/#how-to-add-events-to-aboutgitlabcomevents)
-
-## Issue creation for tracking
-* [ ] [Program Tracking](https://gitlab.com/gitlab-com/marketing/demand-generation/campaigns/-/issues/new?issuable_template=request-program-tracking)
-* [ ] [List clean and upload issue](https://gitlab.com/gitlab-com/marketing/marketing-operations/issues/new?issuable_template=event-clean-upload-list)
-
-Add the team label to indicate the team running the event (Example: Corporate Marketing) 
-
-/label ~"mktg-status::wip" ~"Self-Serve"
-```
-
-#### Epic Code for Self-Service with Promotion:
-{: #epic-code-with-promotion}
-```
-<--- Name this epic using the following format, then delete this line: Virtual Event - Event Title - [3-letter Month] [Date], [Year] --->
-
-## [Copy for emails >>]() - [template](https://docs.google.com/document/d/1j43mf7Lsq2AXoNwiygGAr_laiFzmokNCfMHi7KNLjuA/edit)
-
-* **[Best practices for setting up your event](/handbook/marketing/virtual-events/self-service-virtual-events/#best-practices)**
-* **[Step-by-step instructions](/handbook/marketing/virtual-events/self-service-virtual-events/#logistical-set-up)**
-
-## :notepad_spiral: Key Details 
-* **Project Owner:** 
-* **Coordinator:** 
-* **Type:** Self-service with promotion
-* **Event Date:**  [MM-DD-YYYY] (this is the date the event goes live)
-* **Campaign Tag:** 
-* **Sales Segment (choose primary):** `Large, Mid-Market, or SMB`
-* **Sales Region (choose one):** `AMER, EMEA, APAC`
-* **Sales Territory (optional, if specific):** 
-* **Goal:** `Please be specific on the metric this is meant to impact.`
-* [ ] [main salesforce program]()
-* [ ] [main marketo campaign]()
-* [ ] Campaign UTM - Project owner to fill in (Format: campaign tag - change to all lowercase, no spaces, hyphens, underscores, or special characters) 
-
-## Manage presenters and create calendar event (DRI: Requestor)
-* [ ] Secure date/time/presenters and add event to [Self-service virtual event calendar](https://calendar.google.com/calendar?cid=Z2l0bGFiLmNvbV9uMnNibXZmMjlqczBzM3BiM2ozaHRwa3FmZ0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t). Instructions on how to add to the calendar can be found [here](/handbook/marketing/virtual-events/self-service-virtual-events/#adding-your-self-service-virtual-event-into-the-calendar).
-* [ ] Block presenters calendars (starting 30 minutes prior to start) by sending them an invite with the zoom links from your personal Gcal
-* [ ] Schedule dry run (optional)
-
-## Create Zoom meeting for the event and add to /events (DRI: Requestor)
-* [ ] Make sure your zoom account settings are customized accordingly for the event
-* [ ] Add title, description, and event details
-* [ ] [Add GDPR language to description](/handbook/marketing/virtual-events/index.html#gdpr-and-privacy-compliance)
-* [ ] (Optional: Only if you want to track registration) Update registration required
-* [ ] Update Meeting options as necessary (join before host, mute participants upon entry, enable waiting room, etc.)
-* [ ] Add alternate hosts as needed to support your event
-* [ ] (Optional: Only if you enabled registration tracking) Once event is created, customize the registration form to include complete contact info
-* [ ] Once event is created, scroll to the bottom and click email settings, then edit your confirmation email messaging
-* [ ] Once event is created, add your event to about.gitlab.com/events by following the [handbook instructions](/handbook/marketing/events/#how-to-add-events-to-aboutgitlabcomevents)
-
-## Issue creation (`See DRIs and assignments below`)
-* [ ] [Program Tracking](https://gitlab.com/gitlab-com/marketing/demand-generation/campaigns/-/issues/new?issuable_template=request-program-tracking)
-* [ ] [Write copy issue](https://gitlab.com/gitlab-com/marketing/field-marketing/-/issues/new?issuable_template=write-copy)
-* [ ] [Email invitations issue created](https://gitlab.com/gitlab-com/marketing/demand-generation/campaigns/-/issues/new?issuable_template=request-email-invitation)
-* [ ] [Follow up email issue](https://gitlab.com/gitlab-com/marketing/demand-generation/campaigns/-/issues/new?issuable_template=request-email-followup)
-* [ ] [List clean and upload issue](https://gitlab.com/gitlab-com/marketing/marketing-operations/issues/new?issuable_template=event-clean-upload-list)
-* [ ] [Add to nurture issue](https://gitlab.com/gitlab-com/marketing/demand-generation/campaigns/-/issues/new?issuable_template=request-add-nurture)
-* [ ] [Organic social issue created](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/issues/new?issuable_template=social-gtm-organic) (*optional*) - Auto-assignments listed in template
-
-NOTE: We do not send Marketo reminder emails for self-service events since the Zoom registration is not integrated and the registered attendees are not pulled into Marketo until your lead list is uploaded after the event.
-
-Add the team label to indicate the team running the event (Example: Corporate Marketing) 
-
-/label ~"mktg-status::wip" ~"Self-Serve"
-```
+Although this event type is no officially available, the details below do provide helpful information related to running an event using Zoom and are provided as a quick reference guide.
 
 ## Best Practices
 {: #best-practices .gitlab-purple}
@@ -211,10 +75,7 @@ Review GitLab's general [virtual events best practices](/handbook/marketing/virt
 
 ### Self-service virtual event promotion guide
 
-**If you have not yet identified if a self-service virtual event is the correct event type of event for you, visit the [Virtual Events Decision Tree](/handbook/marketing/virtual-events/#gitlab-virtual-events-decision-tree)
-to determine which type is right for your event.**
-
-Self-service events are organized for quick turnarounds and additional support or guidance from the team is not necessary. Using personal channels to self-promote your event comes with many benefits: it’s an authentic way for you to build your personal audience, reach people beyond GitLab’s corporate channels, and boosts your credibility online. This page outlines everything that you'll need to promote your own virtual event. `This checklist should take less than 2 hours`. 
+Using personal channels to self-promote your event comes with many benefits: it’s an authentic way for you to build your personal audience, reach people beyond GitLab’s corporate channels, and boosts your credibility online. This page outlines everything that you'll need to promote your own virtual event. `This checklist should take less than 2 hours`. 
 
 Please consider reviewing and applying our [GitLab Team Member Social Media Guidelines](/handbook/marketing/team-member-social-media-policy/) prior to promoting your own event. Specifically, review our [GitLab Voice information](/handbook/marketing/team-member-social-media-policy/#gitlab-voice).
 
@@ -308,21 +169,6 @@ Take the same copy you wrote in step 1 and remix it for future posts.
 
 ### Logistical Set up
 
-#### Adding your self-service virtual event into the calendar
-
-This self-service virtual events calendar will be used to log all planned and scheduled self-service virtual events hosted by GitLab team members using their personal zoom accounts. **The purpose of this calendar is to provide visibility and help individuals minimize topic overlap with other GitLab virtual events happening around the same time and to provide executive visibility into all self-service events GitLab team members are hosting.**
-
-**DRI adding to self-service virtual event calendar: Individual hosting the virtual event.**
-
-##### Planned self-service virtual events:
-
-As soon as you create the epic for your self-service virtual event, add your event to the self-service virtual event calendar by creating an event on the day you plan to host it. Make sure to also include the link to the epic in the calendar description.
-
-For self-service events that still in planning, use the following naming convention `[Hold Self-service] Event title` (e.g: `[Hold Self-service] How to use GitLab for project planning`) and create it as an all-day event (no time slot selected).
-
-##### Confirmed self-service virtual events 
-
-Once the date/time of the event has been confirmed, go to your calendar event and remove `Hold` from the event title to `[Self-service] Event title` (e.g: `[Self-service] How to use GitLab for project planning`). *Note: In the spirit of efficiency, please be sure to add all presenters (GitLab team members and external speakers), the epic or issue (if you have one) and your Zoom invite info to the calendar invite so you're not having to create multiple calendar invites.*
 
 #### Setting up the event in Zoom
 
@@ -419,25 +265,6 @@ Make sure these settings are enabled in your personal zoom account settings as n
 6. Enter your poll question.
 7. Specify if the answer will be a `Single choice` or `Multiple Choice` (allows for participant to select more than one answer).
 8. `Save`.
-
-### Marketo set up with landing page
-This set up is for when you are hosting a self-service webcast, but using a Marketo landing page to capture registrants.
-1. Create your zoom event following the directions above - do not configure email reminders.
-1. Clone this Marketo program [YYYYMMDD_SelfServiceTopic_Region(with Promotion)](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/ME8760D4)
-1. Update necessary tokens
-    1. Update `{{my.meeting password}}` and `{{my.meeting URL}}` with the Zoom meeting credentials. These will send in the confirmation email and the reminder email. 
-1. Turn on `01a Registration flow` and start promoting your landing page!
-1. After the event, you will still need to create a list upload issue for attendees/no-shows.
-
-**ABM ONLY Note**: Invitation emails are set to be batched in groupings, you will be using a smart campaign to do this vs a email batch program. You'll find these smart campaigns under the `invitiation` folder.
-
-### Rescheduling Self-Service Virtual Events with or without Promotion
-
-For the most up-to-date rescheduling instructions, please visit [this handbook page](/handbook/marketing/field-marketing/#rescheduling-or-canceling-events). 
-
-### Cancelling for Self-Service Virtual Events with or without Promotion
-
-For the most up-to-date cancellation instructions, please visit [this handbook page](/handbook/marketing/field-marketing/#rescheduling-or-canceling-events). 
 
 #### During the event
 

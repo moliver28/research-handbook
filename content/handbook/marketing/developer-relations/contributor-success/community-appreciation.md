@@ -51,7 +51,7 @@ The following process can be used either
 
 That's it! Contributor Success team members will be in touch with the person nominated on how to get the swag!
 
-The form is reviewed each month by Contributor Success, and you can check the status of each nomination in [column K](https://docs.google.com/spreadsheets/d/1WvZwL48Y5URNOr6KI26Lr4xgwlDQeOQJ8PK4dK9IaDA/edit?usp=drive_web&ouid=109629804026010673224) of the form's spreadsheet (only for GitLab Team members).
+The form is reviewed weekly, and at a minimum each month, by Contributor Success, and you can check the status of each nomination in [column K](https://docs.google.com/spreadsheets/d/1WvZwL48Y5URNOr6KI26Lr4xgwlDQeOQJ8PK4dK9IaDA/edit?usp=drive_web&ouid=109629804026010673224) of the form's spreadsheet (only for GitLab Team members).
 
 ## Form Processing by Developer Relations Team
 

@@ -19,19 +19,18 @@ This TMRG is focused on 4 key areas of impact. We call them our pillars. Review 
 | ----- | ----- | ----- |
 | Awareness and Education | Increase awareness of the experience of TMRG memebers at GitLab and educate allies. | |
 | Professional Development | Increase access to opportunity for career and professional growth of TMRG members | [Women at GitLab Mentorship Program]({{< ref "./mentorship-program" >}}) |
-| Recruiting and Retention | Increase the successful recruitment and retention of women at GitLab | Participate in [candidate TMRG calls]({{< ref "/handbook/hiring/talent-acquisition-framework/coordinator#speaking-with-tmrg-team-members-in-the-hiring-process" >}}) by joining the [#candidate_tmrg-call Slack channel](https://app.slack.com/client/T02592416/C03JEQPSN3V/thread/C012GP5CGCR-1655385119.184549) |
+| Recruiting and Retention | Increase the successful recruitment and retention of women at GitLab | Participate in [candidate TMRG calls](/handbook/hiring/talent-acquisition-framework/coordinator#speaking-with-tmrg-team-members-in-the-hiring-process) by joining the [#candidate_tmrg-call Slack channel](https://app.slack.com/client/T02592416/C03JEQPSN3V/thread/C012GP5CGCR-1655385119.184549) |
 | Business Influence | Start and contribute to discusses that influence GitLab the business. | Surface burnout data to People Leadership |
 
 ## Leads
 
 - [Kyla Gradin Dahl](/handbook/company/team/#kyla) Lead
-- [Samantha Lee](/handbook/company/team/#slee24) Co-Lead
 - [Winnie Chan](/handbook/company/team/#wyychan) Co-Lead
+- [Gosia Ksionek](/handbook/company/team/#mksionek) Co-Lead
 
 ## Executive Sponsors
 
 - [Robin Schulman](/handbook/company/team/#rschulman) - Chief Legal Officer and Corporate Secretary
-- [Michael McBride](/handbook/company/team/#mmcb) - Chief Revenue Officer
 
 ## How to Join
 
@@ -94,43 +93,11 @@ If you have a resource you'd like to include, please open a merge request and co
 | [WISE: Women in Sales Everywhere Memberships](https://womeninsaleseverywhere.com/) | In calendar year 2022, GitLab has allocated 15 licenses for women in the Sales organization to acceses memberships with [WISE](https://womeninsaleseverywhere.com/) including mentorship, events, and training. Reach out to TMRG leads if you are interested in a membership |
 | [GitLab Internship for Learning]({{< ref "internship-for-learning" >}}) | If your manager has coverage, you can spend a percentage of your time working (through an 'internship') with another team |
 | [Growth and Development benefit]({{< ref "general-and-entity-benefits#growth-and-development-benefit" >}}) | This benefit is available for GitLab team members and can be used to cover professional development costs associated with external resources |
-| [CEO Shadow Program]({{< ref "/handbook/ceo/shadow" >}})| The goal of the CEO Shadow Program is to give current and future directors and senior leaders at GitLab an overview of all aspects of the company |
+| [CEO Shadow Program](/handbook/ceo/shadow)| The goal of the CEO Shadow Program is to give current and future directors and senior leaders at GitLab an overview of all aspects of the company |
 | [Women in the Workplace Study Webinar](https://www.hracuity.com/webinar/leaninstudy-2020?utm_campaign=Content%20%7C%20Webinar%20%7C%20LeanIn&utm_medium=email&_hsmi=98577248&_hsenc=p2ANqtz-8kbiJWLM1fyvHgX1E15FQtDxjVDla2B4C3p2G7wSvpUQMJizBBdpFhEpmhEdG7PeYR-ekzWWPWhWK9EfpXoZwk5m6dWQ&utm_content=98577248&utm_source=hs_email) | A webinar from Lean In discussing the unique impact that COVID-19 has had on women of different races and ethnicities, working mothers, women in senior leadership and women with disabilities |
 | [The Harvard Gazette - Women less inclined to self-promote than men, even for a job](https://news.harvard.edu/gazette/story/2020/02/men-better-than-women-at-self-promotion-on-job-leading-to-inequities/) | Study finds female workers’ deep discomfort over touting skills, experience adds to gender gap in promotions, pay |
-| [People Connect Shadow Program]({{< ref "people-connect-shadow-program" >}})| The program allows for anyone to get an understanding of the People Connect responsibilities and allows for collaboration and iteration. |
 | [Stanford Continuing Studies Department](https://continuingstudies.stanford.edu/) | Standford offers many continuing education programs in multiple diciplines including leadership, writing, and professional/personal development |
 
-### LinkedIn Learning Pathways
-
-Review two learning pathways built by the Professional Member Development subcommittee shared in FY21 Q1 and Q2 as[LinkedIn Learning cohorts]({{< ref "linkedin-learning#linkedin-learning-cohorts" >}}). You can access these courses and complete them on your own time using GitLab Learn.
-
-1. [GitLab Women in Leadership Course](https://gitlab.edcast.com/pathways/women-in-leadership)
-1. [Mastering Self-Motivation and Self-Advocacy Course](https://gitlab.edcast.com/pathways/mastering-self-motivation-and-self-aadvocacy)
-
-**FY22 Q1 LinkedIn Learning Cohort Discussion**
-
-{{< youtube "PX7w1D1-nmQ" >}}
-
-### Suggested LinkedIn Learning Courses
-
-GitLab team members can obtain a [LinkedIn Learning license]({{< ref "linkedin-learning" >}}) that includes access to more than 8,000 courses. The following courses have been selected by members of the women's TMRG as courses that members might benefit from in both their career or personal development.
-
-If you've completed a LinkedIn Learning course that you found beneficial, please add it to this resource!
-
-1. [Women in Leadership Learning Path](https://www.linkedin.com/learning/paths/women-in-leadership-3?u=2255073)
-1. [Leadership Strategies for Women](https://www.linkedin.com/learning/leadership-strategies-for-women/women-lead-differently?u=2255073)
-1. [Become a Courageous Female Leader](https://www.linkedin.com/learning/become-a-courageous-female-leader/joan-kuhl-s-courageous-leadership-course?u=2255073)
-1. [Problem Solving Skills](https://www.linkedin.com/learning/paths/develop-critical-thinking-decision-making-and-problem-solving-skills?u=2255073)
-1. [Engage Meaningfully in Allyship and Anti-Racism](https://www.linkedin.com/learning/paths/how-to-engage-meaningfully-in-allyship-and-anti-racism?u=2255073)
-1. [Communication Tips](https://www.linkedin.com/learning/communication-tips/welcome-to-the-series?u=2255073)
-1. [Customer Service Foundation](https://www.linkedin.com/learning/customer-service-foundations-2)
-1. [Develop Your Customer Services Skills Path](https://www.linkedin.com/learning/paths/develop-your-customer-service-skills)
-1. [Life Mastery - Achieving happiness and success](https://www.linkedin.com/learning/life-mastery-achieving-happiness-and-success/welcome?u=2255073)
-1. [Mindful Working](https://www.linkedin.com/learning/mindful-working-11-ways-to-improve-how-you-work/introduction?u=2255073)
-1. [Creativity for All](https://www.linkedin.com/learning/creativity-for-all-weekly/what-is-creative-cross-training?u=2255073)
-1. [Leading Yourself](https://www.linkedin.com/learning/leading-yourself-2017/welcome?u=2255073)
-1. [Mastering Self-Motivation](https://www.linkedin.com/learning/mastering-self-motivation/self-motivation-your-driving-force?u=2255073)
-1. [Being Your Own Fierce Self-Advocate](https://www.linkedin.com/learning/being-your-own-fierce-self-advocate/standing-up-for-yourself-every-day?u=2255073)
 
 ### Book Suggestions
 

@@ -29,9 +29,9 @@ title: "End User Services"
 
 #### Baseline & Role-Based Entitlements
 
-- For information about baseline entitlements and role-based access, please refer to the [baseline entitlements handbook page](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/baseline-entitlements/).
+- For information about baseline entitlements and role-based access, please refer to the [baseline entitlements handbook page](https://internal.gitlab.com/handbook/it/end-user-services/access-request/baseline-entitlements/).
 
-- For information on how to create a Role-Based Entitlement, please refer to the [instructions on how to create role-based entitlements](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/baseline-entitlements/#how-do-i-create-a-role-based-entitlement-template).
+- For information on how to create a Role-Based Entitlement, please refer to the [instructions on how to create role-based entitlements](https://internal.gitlab.com/handbook/it/end-user-services/access-request/baseline-entitlements/#how-do-i-create-a-role-based-entitlement-template).
 
 #### Automated Group Membership Reports for Managers
 
@@ -47,7 +47,7 @@ To read more about Okta, please visit the [**Okta**](/handbook/business-technolo
 
 #### Jamf (Endpoint Management)
 
-To read more about our Jamf deployment please visit the [**Endpoint Management**](/handbook/business-technology/end-user-services/onboarding-access-requests/endpoint-management/) page of the handbook
+To read more about our Jamf deployment please visit the [**Endpoint Management**](https://internal.gitlab.com/handbook/it/endpoint-tools/) page of the handbook
 
 #### Laptop Delivery Metrics
 
@@ -57,17 +57,17 @@ To view laptop delivery metrics and statistic please visit the [Laptop Metrics H
 
 Please visit the GitLab Onboarding and machine management [handbook page](/handbook/business-technology/end-user-services/onboarding-access-requests/)
 
-#### Gitlab Laptop Offboarding
+#### GitLab Laptop Offboarding
 
-Please visit the Gitlab Laptop Offboarding page for information pertaining to this process at Gitlab [handbook page](/handbook/business-technology/end-user-services/gitlab-laptop-offboarding/)
+Please visit the GitLab Laptop Offboarding page for information pertaining to this process at GitLab [handbook page](/handbook/business-technology/end-user-services/gitlab-laptop-offboarding/)
 
 #### Self-help and troubleshooting
 
 Experiencing some issues with your machine, access to systems, 2FA or other IT related issues? Please visit our [self-help and troubleshooting handbook page](/handbook/business-technology/end-user-services/self-help-troubleshooting/)
 
-#### Gitlab IT 101
+#### GitLab IT 101
 
-New to Gitlab and looking for some IT tips and tricks? This is the spot for you, we have created a comprehensive guide for using the IT systems, apps and hardware [in this handbook page](/handbook/business-technology/end-user-services/onboarding101/)
+New to GitLab and looking for some IT tips and tricks? This is the spot for you, we have created a comprehensive guide for using the IT systems, apps and hardware [in this handbook page](/handbook/business-technology/end-user-services/onboarding101/)
 
 #### Offboarding
 

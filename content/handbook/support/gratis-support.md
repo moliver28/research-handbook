@@ -7,6 +7,8 @@ description: Details on how to request gratis support for customers and prospect
 
 GitLab Premium and Ultimate subscriptions include Customer Support. Free or expired users, and prospects, are not typically entitled to contact Customer Support with technical questions. Under certain circumstances, Sales or Customer Success team members may wish to request a period of free support for a prospect or customer. This page describes the process for them to make such requests.
 
+> **Important Note:** Gratis support requests are not for one-off technical problems, and they are not requests for help with a single ticket. They are meant for high-value situations where ongoing support may be needed over 30 days. See below for full descriptions of the intended valid scenarios.
+
 ## Restrictions on gratis support
 
 1. Only **30** Gratis Support items may exist at any one time. The current reference sheet containing who is receiving gratis support [can be found here](https://docs.google.com/spreadsheets/d/11p3aBj1LTr-ngk1wxoMlae-UvJ3bOTuQHd48so2ZcXU/). The sheet can only be updated by Support Operations.
@@ -63,7 +65,7 @@ Use this when you have already obtained gratis support (following one of the abo
 
 ### a support leadership approved situation not covered by the above
 
-Use this **only** when you have already negotiated a specific situation with Customer Support leadership team, and already have approval to make the request for gratis support. To discuss such a situation, post in `#spt_managers`.
+Use this **only** when you have already negotiated a specific situation with Customer Support leadership team, and already have approval to make the request for gratis support. To discuss such a situation, post in `#support_leadership`.
 
 ## Further Reading
 

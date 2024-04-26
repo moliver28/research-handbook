@@ -1,5 +1,4 @@
-{{ $stages := partials.IncludeCached "data/stages" page }}
-
+<!-- To edit the content, see: https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/stages.yml -->
 <table>
   <thead>
     <tr>
@@ -8,7 +7,7 @@
     </tr>
   </thead>
   <tbody>
-  {{ range $stages }}
+  {{ range site.Data.public.stages.stages }}
     {{ $.Scratch.Set "display_name" .display_name }}
     {{ range .groups }}
       {{ if .support }}
@@ -16,10 +15,14 @@
           <td>{{ $.Scratch.Get "display_name" }} : {{ .name }}</td>
           <td>{{- if reflect.IsSlice .support }}
                 {{- range .support}}
-                  <div class="mb-2">{{ partial "member-by-name" . }}</div>
+                  {{- with (index (where site.Data.public.team "name" "eq" .) 0) }}
+                  <div class="mb-2">{{ partial "member/with-team-link" . }}</div>
+                  {{- end }}
                 {{- end }}
               {{- else }}
-                {{ partial "member-by-name" .support }}
+                {{- with (index (where site.Data.public.team "name" "eq" .support) 0) }}
+                  {{ partial "member/with-team-link" . }}
+                {{- end }}
               {{- end }}
           </td>
         </tr>

@@ -25,7 +25,7 @@ Team members have multiple options to participate in mentorship at GitLab.
 
 ### Results
 
-In FY23 Q1, mentees in current organized mentorship programs reported the affect their mentorship had business and personal results. 17% of mentees completed the survey.
+In FY23 Q1, 17% of mentees in current organized mentorship programs completed a survey and reported the effects of the mentorship on business and personal results.
 
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSQo5yL0DOCgaAQWwXaIYHfb20pGIxlkzkxBB_xgU-rEsNkNa4U1NxevaCIQRZrgExrSQecEng50Kmy/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
@@ -35,7 +35,7 @@ In FY23 Q1, mentees in current organized mentorship programs reported the affect
 
 1. Be encouraged to prioritize, and be held accountable for, your [career development]({{< ref "career-development" >}})
 1. Learn new skills related to your current role, your future career goals, or an area that you're passionate about
-1. Set and reach clearly outlined [goals]({{< ref "okrs" >}}).
+1. Set and reach clearly outlined [goals](/handbook/company/okrs).
 
 ### Benefits for the mentor
 
@@ -71,6 +71,8 @@ The following team members are available as mentors. Schedule a [coffee chat](/h
 
 The `Expertise` column comes from the team member .yaml entry and might not include all subjects they can help you with.
 
+{{< mentors >}}
+
 ## Become a mentor
 
 1. Indicate your mentorship availability on the GitLab team page by setting the `mentor` status to `true`. This will appear on the team page with a line that reads `Available as a mentor`. [Example MR](https://gitlab.com/gitlab-com/www-gitlab-com/-/merge_requests/75890)
@@ -82,7 +84,7 @@ Learn more about organized mentorship programs for team members:
 1. [Company-Wide](company-program)
 1. [Minorities in Tech](/handbook/company/culture/inclusion/erg-minorities-in-tech/mentoring/)
 1. [Women at GitLab](/handbook/company/culture/inclusion/tmrg-gitlab-women/mentorship-program/)
-1. [Aspiring Managers](https://about.gitlab.com/handbook/engineering/development/dev/training/ic-to-manager/#aspiring-manager-mentorship-pilot-program)
+1. [Aspiring Managers](/handbook/engineering/development/dev/training/ic-to-manager/#aspiring-manager-mentorship-pilot-program)
 1. [Finance Team](/handbook/finance/) is running a [mentorship program](/handbook/finance/growth-and-development/mentorship).
 
 ## Resources
@@ -91,7 +93,7 @@ Resources below are designed to guide mentor/mentee relationships in both synchr
 
 ### Mentor and Mentee training
 
-Take the LinkedIn Learning training called [How to be a Good Mentor and Mentee](https://levelup.gitlab.com/access/saml/login/internal-team-members?returnTo=https://levelup.gitlab.com/learn/course/how-to-be-a-good-mentee-and-mentor). It covers strategies for finding a mentor, setting clear expectations, and achieving goals through mentorship. Content from this training has been adapted in the following [Google Slides presentation](https://docs.google.com/presentation/d/1QPx9ZGa051Jhwwfb78cKW1LD0uVTUdKxRdElBk4Ku9I/edit?usp=sharing) for learners who prefer to read the material at their own pace.
+Enjoy the following [Google Slides presentation](https://docs.google.com/presentation/d/1QPx9ZGa051Jhwwfb78cKW1LD0uVTUdKxRdElBk4Ku9I/edit?usp=sharing) on finding a mentor, setting clear expectations, and achieving goals through mentorship.
 
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vS3cZJcCIv_s44OfN9QLjje2wRqS7EwnrK3HCS_ZeT-ZGwk58hPq17L-c_DvCdvu0jxjR3r6yY8xY79/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
@@ -216,8 +218,8 @@ These resources are meant to provide both mentors and mentees with additional pe
 
 {{< youtube "u4kTlK5mUHc" >}}
 
-1. The [Engineering department](https://about.gitlab.com/handbook/engineering/) outlines [strategies for mentors and mentees](https://about.gitlab.com/handbook/engineering/career-development/mentoring/) with suggestions on how to host meetings and set and evaluate goals.
-1. The [Support team]({{< ref "/handbook/support" >}}) has outlined expectations and examples on [Mentorship in Support Engineering]({{< ref "/handbook/support/engineering/mentorship" >}}).
+1. The [Engineering department](/handbook/engineering/) outlines [strategies for mentors and mentees](/handbook/engineering/career-development/mentoring/) with suggestions on how to host meetings and set and evaluate goals.
+1. The [Support team](/handbook/support) has outlined expectations and examples on [Mentorship in Support Engineering](/handbook/support/engineering/mentorship).
 1. [Career growth resources at GitLab]({{< ref "career-development" >}})
 1. [Harvard Business Review: What efficient mentorship looks like](https://hbr.org/2020/08/what-efficient-mentorship-looks-like)
 1. [Harvard Business Review: What great mentorship looks like in a hybrid workplace](https://hbr.org/2021/05/what-great-mentorship-looks-like-in-a-hybrid-workplace)
@@ -238,7 +240,7 @@ Is this your first mentorship at GitLab? Maybe it's your first time as a mentor.
 
 ## How to organize an all-remote mentorship program
 
-Consider the following practices and lessons learned by the GitLab team when organizing your own all-remote mentorship program. [Open a Merge Request]({{< ref "/handbook/handbook-usage" >}}) to contribute your own learning to list!
+Consider the following practices and lessons learned by the GitLab team when organizing your own all-remote mentorship program. [Open a Merge Request](/handbook/handbook-usage) to contribute your own learning to list!
 
 1. Share call for applications across multiple channels and do direct outreach to great mentors for the best engagement. Lean on People Business Partners for suggestions of team members who would make great mentors and mentees.
 1. In applications, ask for role, location, and mentorship focus area, along with ideal goals. Use multiple choice questions to easily sort and pair responses.

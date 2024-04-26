@@ -15,9 +15,9 @@ As stated above, there are three collection services GitLab uses to generate Pro
 
 ### Service Ping (formerly known as Usage Ping)
 
-*Purpose*: GitLab collects Service Ping Metrics to collaborate with our customers to accelerate value attribution, achieve return-on-investment (ROI) goals, and accomplish business outcomes with the Software.  Service Ping Metrics are composed of aggregate count Metrics related to an entire instance or namespace, as well as true/false Metrics regarding the enablement of certain settings or features. Aggregate counts are tallied in an “all-time” format and a “28-day” format.  Please see our Service Ping FAQ [here](/handbook/customer-success/csm/service-ping-faq/).
+*Purpose*: GitLab collects Service Ping Metrics to collaborate with our customers to accelerate value attribution, achieve return-on-investment (ROI) goals, and accomplish business outcomes with the Software.  Service Ping Metrics are composed of aggregate count Metrics related to an entire instance or namespace, as well as true/false Metrics regarding the enablement of certain settings or features. Aggregate counts are tallied in an “all-time” format and a “28-day” format.  Please see our Service Ping FAQ [here](https://handbook.gitlab.com/handbook/customer-success/csm/service-ping-faq/).
 
-*Applicable Software*: Service Ping Metrics are collected in the Self-Managed and SaaS versions of the Software.  While the term “Service Ping” relates largely to the technology that collects the applicable Metrics from individual Self-Managed installations, for the sake of ease this term is also applied to the software used to collect SaaS equivalent Metrics that we achieve with Self-Managed instances.  For more information on the SaaS variants of Service Ping, please see this section on [Service Ping Use Cases](/handbook/business-technology/data-team/data-catalog/saas-service-ping-automation/#service-ping-use-cases). For more information on how Service Ping operates exclusive to Self-Manage instances, please see our [Service Ping Guide](https://docs.gitlab.com/ee/development/service_ping/).
+*Applicable Software*: Service Ping Metrics are collected in the Self-Managed and SaaS versions of the Software.  Generally, “Service Ping” is the name of the technology that collects the applicable Metrics from individual Self-Managed installations.  Since GitLab.com is essentially a GitLab-hosted multi-tenant version of a Self-Managed instance, a version of Service Ping has been implemented for SaaS and provides SaaS equivalent Metrics to what we achieve with Self-Managed instances. For more information on how Service Ping operates exclusive to Self-Manage instances, please see our [Service Ping Guide](https://docs.gitlab.com/ee/development/service_ping/).
 
 *Configuration*: Self-Managed Service Ping payloads contain instance-level Metrics for each individual Self-Managed installation. SaaS Service Ping Metrics relate to both the entire GitLab.com instance as well as every GitLab.com namespace.
 
@@ -29,7 +29,7 @@ The first exception is in the collection of hostname and IP address for Self-Man
 
 *Cadence*: Service Ping collected via Self-Managed payloads and SaaS namespaces are automatically collected on a weekly basis.
 
-*Ownership*: Service Ping is owned by the [GitLab Analytics Instrumentation Group](https://about.gitlab.com/handbook/engineering/development/analytics/analytics-instrumentation/).
+*Ownership*: Service Ping is owned by the [GitLab Analytics Instrumentation Group](https://handbook.gitlab.com/handbook/engineering/development/analytics/analytics-instrumentation/).
 
 *Types of Data*: Service Ping Metrics have been broken down into the four categories of Metrics listed below:
 
@@ -53,18 +53,18 @@ The first exception is in the collection of hostname and IP address for Self-Man
 
 - **Operational Data**
     - <ins>Free Self-Managed instances (CE or EE Distribution)</ins>: Operational Data is not collected since the purpose of these Metrics are to assist customers with optimal use of the Software.
-    - <ins>Paid Self-Managed instances (EE Distribution)</ins>: Operational Data is intended to be required and configuration is connected to your paid license. If you wish to opt-out you can speak with a GitLab sales representative or [contact support](https://support.gitlab.com/hc/en-us/requests/new).  If your instance is on an [Offline License](/handbook/support/license-and-renewals/workflows/self-managed/cloud-licensing.html#1-which-license-type-should-i-provide-for-an-approved-opt-out), then GitLab will not automatically collect Operational Data for as long as the instance remains disconnected from the Internet.
+    - <ins>Paid Self-Managed instances (EE Distribution)</ins>: Operational Data is intended to be required and configuration is connected to your paid license. If you wish to opt-out you can speak with a GitLab sales representative or [contact support](https://support.gitlab.com/hc/en-us/requests/new).  If your instance is on an [Offline License](https://handbook.gitlab.com/handbook/support/license-and-renewals/workflows/self-managed/cloud-licensing/#cloud-licensing-exemptions), then GitLab will not automatically collect Operational Data for as long as the instance remains disconnected from the Internet.
     - <ins>Free and Paid SaaS users</ins>: Do-Not-Track (“DNT”) signals may prevent the collection of certain Operational Data Metrics that relate to browser level aggregate totals, such as the number of times a button was clicked by a user with DNT signals enabled.  However, please note that DNT signals depend on how the event is triggered and thus may not be recognized in all situations.  Further, DNT signals will not prevent the collection of downstream non-synchronous Metrics. For  example, if a user with DNT enabled signals clicks a button to start a CI job, this button click will not be tracked. But if the same user pushes new code to a repository, thereby inciting an automated run of the same job, this run will be counted since it occurred non-synchronously from the user’s direct action. Any other interactions that happen outside of the browser, such as a direct call to GitLab’s API, may also be included in the Metrics.
 - **Optional Data**:
     - <ins>Free and Paid Self-Managed instances (CE or EE distribution)</ins>: These Metrics are collected by default. Optional Data can be disabled by through an in-app admin setting or through modifying the configuration file.  Please [visit our documentation](https://docs.gitlab.com/ee/administration/settings/usage_statistics.html#enable-or-disable-usage-statistics) to learn more.
     - <ins>Free and Paid SaaS users</ins>: Similar to Operational Data, DNT signals may prevent the collection of certain Optional Data Metrics that relate to browser level aggregate totals. However, please note that DNT signals depend on how the event is triggered and thus may not be recognized in all situations.
 - **Subscription Data**:
     - <ins>Free Self-Managed instances (CE or EE distribution)</ins>: These Metrics are collected by default.  Subscription Data can be disabled by through an in-app admin setting or through modifying the configuration file.  Please [visit our documentation](https://docs.gitlab.com/ee/administration/settings/usage_statistics.html#enable-or-disable-usage-statistics) to learn more.
-    - <ins>Paid Self-Managed instances (EE distribution)</ins>: Subscription Data cannot be disabled.  Its collection is described in our  Subscription Agreement.  However, if your instance is on an [Offline License](/handbook/support/license-and-renewals/workflows/self-managed/cloud-licensing.html#1-which-license-type-should-i-provide-for-an-approved-opt-out), then GitLab will not automatically collect Subscription Data for as long as the instance remains disconnected from the Internet.  Further, if your instance is on a [Legacy License](/handbook/support/license-and-renewals/workflows/self-managed/cloud-licensing.html#support-faq), then Subscription Data may not be automatically collected.
+    - <ins>Paid Self-Managed instances (EE distribution)</ins>: Subscription Data cannot be disabled.  Its collection is described in our  Subscription Agreement.  However, if your instance is on an [Offline License](https://docs.gitlab.com/ee/subscriptions/self_managed/#export-your-license-usage), then GitLab will not automatically collect Subscription Data for as long as the instance remains disconnected from the Internet.  Further, if your instance is on a [Legacy License](https://handbook.gitlab.com/handbook/support/license-and-renewals/workflows/self-managed/cloud-licensing/#1-which-license-type-should-i-provide-for-an-approved-opt-out), then Subscription Data may not be automatically collected.
     - <ins>Free and Paid SaaS users</ins>: You cannot opt-out of Subscription Data for any of our SaaS offerings.
 - **Standard Data**:
     - <ins>Free Self-Managed instances (CE or EE distribution)</ins>: These Metrics are collected by default.  Standard Data can be disabled through an in-app admin setting or through modifying the configuration file.  Please [visit our documentation](https://docs.gitlab.com/ee/administration/settings/usage_statistics.html#enable-or-disable-usage-statistics) to learn more.
-    - <ins>Paid Self-Managed instances (EE distribution)</ins>: Standard Data cannot be disabled.  However, if your instance is on an [Offline License](/handbook/support/license-and-renewals/workflows/self-managed/cloud-licensing.html#1-which-license-type-should-i-provide-for-an-approved-opt-out), then GitLab will not automatically collect Standard Data for as long as the instance remains disconnected from the Internet.
+    - <ins>Paid Self-Managed instances (EE distribution)</ins>: Standard Data cannot be disabled.  However, if your instance is on an [Offline License](https://docs.gitlab.com/ee/subscriptions/self_managed/#export-your-license-usage), then GitLab will not automatically collect Standard Data for as long as the instance remains disconnected from the Internet.
     - <ins>Free and Paid SaaS users</ins>: You cannot opt-out of Standard Data for any of our SaaS offerings.
 
 ### Snowplow
@@ -79,9 +79,9 @@ The first exception is in the collection of hostname and IP address for Self-Man
 
 *Data Sharing*: Snowplow Metrics are not shared with independent third-parties.  All systems and software used in the collection and transfer of Snowplow Metrics are GitLab-controlled systems.
 
-*Cadence*: Snowplow Metrics are collected from Gitlab.com and sent to the data warehouse contemporaneously.
+*Cadence*: Snowplow Metrics are collected from GitLab.com and sent to the data warehouse contemporaneously.
 
-*Ownership*: Snowplow is owned by the [GitLab Analytics Instrumentation Group](https://about.gitlab.com/handbook/engineering/development/analytics/analytics-instrumentation/).
+*Ownership*: Snowplow is owned by the [GitLab Analytics Instrumentation Group](https://handbook.gitlab.com/handbook/engineering/development/analytics/analytics-instrumentation/).
 
 *Types of Metrics*: Snowplow Metrics are composed of all the pseudonymized user interaction Metrics found [here](https://metrics.gitlab.com/snowplow/), as well as Project_ID, Namespace_ID, and the country and region of the user’s location.
 
@@ -93,7 +93,7 @@ The first exception is in the collection of hostname and IP address for Self-Man
 
 *Applicable Software*: License Sync Metrics are collected from paid Self-Managed (EE Distribution) instances.    License Sync does not collect Metrics from free Self-Managed (CE or EE Distribution).  For SaaS versions of the software, the GitLab Fulfillment Team uses the Subscription Data collected by Service Ping to facilitate the reconciliation review described in the preceding paragraph. Please read our [GitLab SaaS subscriptions](https://docs.gitlab.com/ee/subscriptions/gitlab_com/) and [Self-managed subscriptions](https://docs.gitlab.com/ee/subscriptions/self_managed/) pages for more information.
 
-*Configuration*: License Sync collects Metrics from paid Self-Managed instances to activate [Cloud Licensing](https://about.gitlab.com/pricing/licensing-faq/cloud-licensing/).  Further, License Sync ingests these Metrics for Self-Managed customers and sends it to our [Customer Portal](/handbook/sales/field-operations/customersdot-access-and-use/) for the aforementioned license management and reconciliations.  Then the Metrics are sent to our data warehouse.
+*Configuration*: License Sync collects Metrics from paid Self-Managed instances to activate [Cloud Licensing](https://about.gitlab.com/pricing/licensing-faq/cloud-licensing/).  Further, License Sync ingests these Metrics for Self-Managed customers and sends it to our [Customer Portal](https://docs.gitlab.com/ee/subscriptions/customers_portal.html) for the aforementioned license management and reconciliations.  Then the Metrics are sent to our data warehouse.
 
 *Personal Data Collected*: The only personal data collected by License Sync is the name, email address, and company of the individual listed on the paid Self-Managed license.  These personal data elements are encrypted within the license key.  Please read [here](https://docs.gitlab.com/ee/subscriptions/self_managed/#subscription-data) for more details.
 
@@ -105,7 +105,7 @@ The first exception is in the collection of hostname and IP address for Self-Man
 
 *Types of Data*: The Metrics collected include name, email and company of the individual listed on the paid Self-Managed license, as well as those Metrics listed [here](https://docs.gitlab.com/ee/subscriptions/self_managed/#subscription-data).
 
-*Opting-Out*:  By default, all paid Self-Managed subscriptions on 14.1 or higher with an internet connection will have Subscription Data collected via License Sync.  If a customer wishes to opt-out of License Sync, they should consult with Gitlab Sales to obtain a Legacy or Offline License. For paid SaaS subscriptions, you cannot opt-out of Subscription Data collected via Service Ping.
+*Opting-Out*:  By default, all paid Self-Managed subscriptions on 14.1 or higher with an internet connection will have Subscription Data collected via License Sync.  If a customer wishes to opt-out of License Sync, they should consult with GitLab Sales to obtain a Legacy or Offline License. For paid SaaS subscriptions, you cannot opt-out of Subscription Data collected via Service Ping.
 
 ## Usage Data for AI-Powered Features
 

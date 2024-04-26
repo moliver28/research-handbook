@@ -5,9 +5,9 @@ description: "Merge request buddies at GitLab"
 
 Merge Request buddies are available to help other team members who need help with merge requests that will update the GitLab handbook or website. Whether you are learning how to use the GitLab Web IDE, make updates to the handbook and website locally, or need answers to other Git and GitLab questions, Merge Request buddies are here to help.
 
-For [more serious problems]({{< ref "/handbook/about/on-call#when-to-escalate-an-issue" >}}), especially ones that are time sensitive or prohibiting access to important information, there is an [escalation process](/handbook/about/on-call/) to reach out to team members who are on-call to help resolve the problem.
+For [more serious problems](/handbook/about/on-call#when-to-escalate-an-issue), especially ones that are time sensitive or prohibiting access to important information, there is an [escalation process](/handbook/about/on-call/) to reach out to team members who are on-call to help resolve the problem.
 
-Note: This role should not be confused with [Merge Request Coach]({{< ref "/job-families/expert/merge-request-coach" >}}). The main goal of a Merge Request Coach is to help
+Note: This role should not be confused with [Merge Request Coach](/job-families/expert/merge-request-coach). The main goal of a Merge Request Coach is to help
 [merge requests from the community](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests?label_name[]=Community%20contribution)
 get merged into GitLab.
 
@@ -19,7 +19,7 @@ Visit the [GitLab Team page](/handbook/company/team/) and search for 'Merge Requ
 
 If you're comfortable using Git and GitLab and want to help team members troubleshoot problems and accelerate their learning, please follow these steps to indicate your availability as a `Merge Request Buddy`:
 
-1. Find your [yml file](https://about.gitlab.com/handbook/git-page-update/#12-add-yourself-to-the-team-page).
+1. Find your [yml file](/handbook/editing-handbook/#add-yourself-to-the-team-page).
 1. Add `Merge Request Buddy` to the `departments` section in your entry (keeping your existing departments):
 
    ```yaml

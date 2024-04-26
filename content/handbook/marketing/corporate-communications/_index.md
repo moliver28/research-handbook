@@ -41,7 +41,7 @@ The GitLab Corporate Communications team is responsibility for the following act
 - We are invested in one another’s growth and development
 - We are committed to producing high quality work, being stewards of the GitLab values and sharing our expertise
 - We get stuff done!
-  - We are in a highly visible role, managing high stakes opportunities that impact the GitLab brand. While there are "glass balls" vs "rubber balls," most of the opportunities we oversee are "glass" and will break if dropped. 
+  - We are in a highly visible role, managing high stakes opportunities that impact the GitLab brand. While there are "glass balls" vs "rubber balls," most of the opportunities we oversee are "glass" and will break if dropped.
 
 ## Objectives and Goals
 
@@ -118,7 +118,7 @@ Spokespeople are SMEs, seasoned in their role (minimum 6 months at the company) 
 - Watch [Social Media 101](/handbook/marketing/corporate-communications/resources-trainings/#social-media-trainings) course
 - Manager approval
 - Good company standing
-- Bonus: [speakers bureau member](/speakers/)
+- Bonus: [speakers bureau member](https://about.gitlab.com/speakers/)
 - Exception: Referred by existing spokesperson due to subject matter expertise and it’s an immediate need
 
 Watching the above training courses are very important to ensure we are consistent with company narratives and messaging and key points are effectively delivered publicly.
@@ -139,11 +139,11 @@ In the event that a media member, editor, or publisher offers a draft or preview
 
 #### Invited to Speak
 
-If you are asked to speak on behalf of GitLab at an event, on a webinar or at a Meetup (and you are not already a member of the [GitLab speakers bureau](/speakers/)), please reach out to the Corporate Communications and Developer Evangelist teams to ensure that the opportunity aligns with GitLab objectives and key narratives. Inquiries should be initiated in the `#external-comms` Slack channel before you accept the speaking invitation. Please allow 5 business days for evaluation. Opening an issue under Corporate Marketing to further collaborate on the opportunity may be requested.
+If you are asked to speak on behalf of GitLab at an event, on a webinar or at a Meetup (and you are not already a member of the [GitLab speakers bureau](https://about.gitlab.com/speakers/)), please reach out to the Corporate Communications and Developer Advocacy teams to ensure that the opportunity aligns with GitLab objectives and key narratives. Inquiries should be initiated in the `#external-comms` Slack channel before you accept the speaking invitation. Please allow 5 business days for evaluation. Opening an issue under Corporate Marketing to further collaborate on the opportunity may be requested.
 
 #### Submitting to Speak
 
-If you are planning to submit an event CFP or request to participate as a speaker for a webinar or Meetup (and you are not already a member of the [GitLab speakers bureau](/speakers/)), please ensure the opportunity aligns with GitLab objectives and key narratives. If you are unsure, please reach out to the Corporate Communications and Developer Evangelist teams. If accepted to speak, please take the training “Best practices for public speaking,” notify the Corporate Communications and Developer Evangelist teams via the `#cfp` Slack channel w/link to the accompanying issue and ensure the teams have 7-10 business days to review your final presentations.
+If you are planning to submit an event CFP or request to participate as a speaker for a webinar or Meetup (and you are not already a member of the [GitLab speakers bureau](https://about.gitlab.com/speakers/)), please ensure the opportunity aligns with GitLab objectives and key narratives. If you are unsure, please reach out to the Corporate Communications and Developer Advocacy teams. If accepted to speak, please take the training “Best practices for public speaking,” notify the Corporate Communications and Developer Advocacy teams via the `#cfp` Slack channel w/link to the accompanying issue and ensure the teams have 7-10 business days to review your final presentations.
 
 #### E-Group External Communications Request
 
@@ -159,9 +159,9 @@ For ways to amplify your speaking opportunity, check out the “[How to make you
 
 We know GitLab team members are multi-faceted and there may be opportunities to speak publicly that don’t overlap with your role at GitLab. In these cases, it is okay to do that assuming the opportunity will not be in conflict with GitLab’s [Code of Business Conduct & Ethics](/handbook/legal/gitlab-code-of-business-conduct-and-ethics/).
 
-In these instances, it’s necessary to keep your role at GitLab and affiliation with the company separate from the presentation. Additionally, you should not use GitLab branding, resources, or time allocated to your work at GitLab to prepare or deliver your presentation. Please add “these views are my own” to your comments, presentation, or social media. 
+In these instances, it’s necessary to keep your role at GitLab and affiliation with the company separate from the presentation. Additionally, you should not use GitLab branding, resources, or time allocated to your work at GitLab to prepare or deliver your presentation. Please add “these views are my own” to your comments, presentation, or social media.
 
-If you’re considering a speaking opportunity that could be perceived as being associated with GitLab even if it is not, please share the opportunity with your manager and #external-comms for review before accepting it to avoid any potential conflicts.  
+If you’re considering a speaking opportunity that could be perceived as being associated with GitLab even if it is not, please share the opportunity with your manager and #external-comms for review before accepting it to avoid any potential conflicts.
 
 
 #### Event Booth Staffing
@@ -210,7 +210,7 @@ GitLab's Corporate Communications and Product Marketing teams are the [DRI](/han
 
 Some media outlets (including [these ~14,000 newspapers and magazines](https://hubtitlesearch.nlamediaaccess.com/TitleList/NLA%20Title%20List.xlsx)) require GitLab to hold a license to share (and do the various other things noted below with) extracts, quotes or headlines of print and online articles - both internally (eg. via slack, email or in confidential GitLab issues) and externally (eg. on GitLab's social media channels). The sharing of bare hyperlinks to articles (without extracts, quotes or headlines) does not require a license.
 
-A license may be required to do any of the following with extracts, quotes or headlines of print and online articles: 
+A license may be required to do any of the following with extracts, quotes or headlines of print and online articles:
 - photocopying, faxing, scanning, emailing or copying;
 - saving on an internal or external intranet or shared drive;
 - printing, photocopying, emailing or distributing material received from a media monitoring organisation or PR agency;
@@ -259,25 +259,25 @@ Please submit a request via an `announcement` [issue template in the Corporate M
 
 If your request for an external announcement meets the Level 1 criteria, please open an issue using the `press-release-template` [issue template](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/blob/master/.gitlab/issue_templates/press-release-template.md). The issue template will prompt you to fill in logistics details, such as timing, and answer the following questions:
 
-- What are we announcing? 
-- What is the ideal headline that you want to see? 
-- Who is the target audience for this news? Why does this news matter to that audience and to the broader industry? 
-- Why is this announcement important to the business? Are there key business objectives that this announcement will support? 
-- How will this announcement impact customers, the marketplace, competition and investors? 
-- What are the top three key messages we want to convey in order of priority? 
-- What research data (e.g. statistics or research reports) could support the key messages or otherwise add news hooks to the release? 
-- What key point(s) would you like to make in the executive quote and who should be quoted? 
+- What are we announcing?
+- What is the ideal headline that you want to see?
+- Who is the target audience for this news? Why does this news matter to that audience and to the broader industry?
+- Why is this announcement important to the business? Are there key business objectives that this announcement will support?
+- How will this announcement impact customers, the marketplace, competition and investors?
+- What are the top three key messages we want to convey in order of priority?
+- What research data (e.g. statistics or research reports) could support the key messages or otherwise add news hooks to the release?
+- What key point(s) would you like to make in the executive quote and who should be quoted?
 
 ### Partner Requests for External Communications Support
 
-Any use of GitLab’s name, brand, or logo requires prior email approval by GitLab according to the process outlined below. 
+Any use of GitLab’s name, brand, or logo requires prior email approval by GitLab according to the process outlined below.
 - **Partner-led Blog Posts:** GitLab is proud of its collaborative partner program, and we encourage partners to showcase their solutions, capabilities and customer success stories through partner-led blogs. Please send all blog posts including GitLab to the GitLab Corporate Communications team at press@gitlab.com for review and approval.
 - **Press Release Criteria and Approval Process:** Partners seeking to issue a press release that includes mention of their partnership with GitLab must meet the criteria outlined below (and in the [GitLab Partner Portal](https://partners.gitlab.com/English/?ReturnUrl=%2fEnglish%2fPartner%2fhome.aspx)).
     - Partner public relations participation criteria:
       - A signed partner contract
       - Minimum 10 joint customers
       - New partners: please reach out to your account representative for guidance.
-    - Please note: GitLab requires up to 6 weeks of lead time to support external communications requests. 
+    - Please note: GitLab requires up to 6 weeks of lead time to support external communications requests.
     - Please email your account representative for guidance on the approvals required and copy the GitLab Corporate Communications team at press@gitlab.com.
     - GitLab account representatives: Any requests for public relations support requires approval from your executive sponsor, Patty Cheung. Please reach out via #external-comms in Slack if you have questions about this.
 
@@ -302,7 +302,7 @@ In some cases, it may be more appropriate and [efficient](/handbook/values/#bori
 
 - Soliciting feedback (e.g. gathering community input on a proposal)
 - Explaining upcoming or ongoing changes to GitLab (**not** breaking changes, changes which require users to take action, or otherwise sensitive)
-- Sharing updates on a live, ongoing incident (this would be owned by the [Communications Manager on Call](https://about.gitlab.com/handbook/engineering/infrastructure/incident-management/#communications-manager-on-call-cmoc-responsibilities))
+- Sharing updates on a live, ongoing incident (this would be owned by the [Communications Manager on Call](/handbook/engineering/infrastructure/incident-management/#communications-manager-on-call-cmoc-responsibilities))
 
 Using a public issue has a few advantages:
 
@@ -354,16 +354,16 @@ This answers the following questions.
 ## Submitting for an Award
 
 ### Flagging an Award for Consideration
-If you would like to propose an award for consideration by the Corporate Communications team, please start by creating an issue, using the `pr-award-submissions` [issue template](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/issues/new#pr-award-submissions). The template will prompt you to provide a few key pieces of information, including deadlines, fees, and a brief description of the award. 
+If you would like to propose an award for consideration by the Corporate Communications team, please start by creating an issue, using the `pr-award-submissions` [issue template](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/issues/new#pr-award-submissions). The template will prompt you to provide a few key pieces of information, including deadlines, fees, and a brief description of the award.
 
-Please flag awards as soon as possible – ideally, six weeks ahead of the deadline. This helps the PR team create and stick to a timeline, and allows for the necessary stakeholder and legal reviews. 
+Please flag awards as soon as possible – ideally, six weeks ahead of the deadline. This helps the PR team create and stick to a timeline, and allows for the necessary stakeholder and legal reviews.
 
 ### Amplifying Award Wins
-As a standard practice, we don’t issue press releases for award wins. However, there are many ways to spread the word about your recognition, both within GitLab and externally. 
+As a standard practice, we don’t issue press releases for award wins. However, there are many ways to spread the word about your recognition, both within GitLab and externally.
 
 The publication that arranges the award will typically conduct its own promotion cycle. The accolade will be shared on its website, social media platforms, and in some cases, will be presented as part of a virtual or in-person event. In addition to the publication's promotion, other recommended mediums for promotion include submitting a [blog post request](/handbook/marketing/blog/#communication) and sharing the accolade via [GitLab's social media channels](/handbook/marketing/integrated-marketing/digital-strategy/social-marketing/).
 
-Internally, we share the recognition in our `#whats-happening-at-gitlab` channel with links to GitLab social posts, as well as posts for our team members to share on their own social media accounts. We also share award wins in our monthly newsletter. 
+Internally, we share the recognition in our `#whats-happening-at-gitlab` channel with links to GitLab social posts, as well as posts for our team members to share on their own social media accounts. We also share award wins in our monthly newsletter.
 
 ## Create and Submit Contributed Content
 

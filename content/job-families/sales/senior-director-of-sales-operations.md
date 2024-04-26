@@ -28,7 +28,7 @@ RoleName: "Senior Director of Sales Operations"
 - SaaS and B2B experience preferred
 - Interest in GitLab, and open source software
 - You share our values, and work in accordance with those values.
-- [Leadership at GitLab](/handbook/company/team/structure/#management-group)
+- [Leadership at GitLab](/handbook/company/structure/#management-group)
 - Ability to use GitLab
 
 {{% job-families/sales/performance %}}
@@ -60,7 +60,7 @@ RoleName: "Senior Director of Sales Operations"
 - SaaS and B2B experience preferred
 - Interest in GitLab, and open source software
 - You share our values, and work in accordance with those values.
-- [Leadership at GitLab](/handbook/company/team/structure/#management-group)
+- [Leadership at GitLab](/handbook/company/structure/#management-group)
 
 ## Director
 
@@ -89,4 +89,4 @@ Your mission is to organize data and generate deep customer insight in order to 
 - Interest in GitLab, and open source software
 - Unquestionable ethics, integrity and business judgment; you share our values, and work in accordance with those values
 - You share our [values](/handbook/values/), and work in accordance with those values.
-- [Leadership at GitLab](/handbook/company/team/structure/#director-group)
+- [Leadership at GitLab](/handbook/company/structure/#director-group)

@@ -3,7 +3,7 @@ title: "Self-Paced External Trainings"
 description: "Details of third-party training providers utilised by various GitLab departments"
 ---
 
-As well as [LinkedIn Learning]({{< ref "linkedin-learning" >}}), teams around GitLab utilize other training providers for accessing role specific training courses and learning materials. This handbook page lists the different providers used, including details on access and licensing.
+Teams around GitLab utilize other training providers for accessing role specific training courses and learning materials. This handbook page lists the different providers used, including details on access and licensing.
 
 ## O'Reilly Learning
 
@@ -13,9 +13,9 @@ The O’Reilly Learning library, contains thousands of books, videos and live le
 
 The Customer Success and Development departments each have a number of licenses available for team-members. If you would like access to O'Reilly, please check Okta for the O'Reilly App.
 
-#### Customer Sucess
+#### Customer Success
 
-- If the O'Reilly App isn't listed on Okta, please open an Access Request using instructions on this [handbook page](/handbook/business-technology/team-member-enablement/onboarding-access-requests/access-requests/)
+- If the O'Reilly App isn't listed on Okta, please open an Access Request using instructions on this [handbook page](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/).
 - If you are unable to log in from the Okta O'Reilly App, please contact [#it_help](https://gitlab.slack.com/archives/CK4EQH50E) with the AR number you created using the link above.
 
 #### Development
@@ -24,7 +24,7 @@ The Customer Success and Development departments each have a number of licenses 
 
 #### Other
 
-If you aren't in Customer Success or Development but would still like access to an O'Reilly licenses, you can utilize the [Growth and Development benefit]({{< ref "/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development" >}}) to purchase a license. (Manager approval required)
+If you aren't in Customer Success or Development but would still like access to an O'Reilly licenses, you can utilize the [Growth and Development benefit](/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development) to purchase a license (Manager approval required).
 
 ### Accessing O'Reilly content
 
@@ -96,7 +96,7 @@ Due to limited licenses, we ask that team members use one license at a time from
 1. Update the [license usage sheet](https://docs.google.com/spreadsheets/d/1gHwWy7TKAXem24NVCUmq94sICp_yCocDaf_onUZ3BPg/edit#gid=0) with team member's `first name`, `last name`, `email`, `department`, and `link to their Access Request`.
 1. Communicate the following template to each new user. Include the unique access code associated with their name from the licenage usage sheet.
 
-> You're access to the Linux Foundation has been approved! Please follow these [instructions](#learning-portal-access) to set up your account using your `@gitlab` email address. Your unique and case sensitive access code is `XXXX`. You only need this code for your initial login. Please reach out in the #learninganddevelopment Slack channel with any questions.
+> Your access to the Linux Foundation has been approved! Please follow these [instructions](#learning-portal-access) to set up your account using your gitlab email address. Your unique and case sensitive access code is `XXXX`. You only need this code for your initial login. Let me know if you have any questions.
 
 #### License Audit + Reallocation Steps
 
@@ -119,3 +119,11 @@ For those interested in pursuing a certification, exam vouchers are available up
 Any current GitLab team member can gain access to the learning platform by filling out [this form](https://inthecloud.withgoogle.com/partner-training/request-training-resources.html). Required information includes your first and last name, your gitlab email address, a phone number, and your location. While it asks you to identify areas of interest, this is optional, and you are not limited to just the area of interest you've indicated.
 
 Once you've submitted the form, you will receive a welcome email from partner-training@google.com within 1-3 business days with instructions for how to access the learning platform. Once you gain access, all the learning content is available to you, and you can engage as much or as little as suits your individual learning goals and level of interest.
+
+## LinkedIn Learning
+
+From January 2021 - January 2024, GitLab had a 1000 license agreement with LinkedIn Learning. Due to the licenses being under-utilized, we decided to end this agreement so that we can explore other more cost-effective and impactful solutions for off the shelf content and self-paced trainings. However, for those team members who would like to continue to use a LinkedIn Learning license to access their training content, they can purchase one using the [Growth and Development Fund.](https://handbook.gitlab.com/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development/).
+
+Also, there are a number of LinkedIn Learning courses that are free for anyone to access, even if they do not have a paid license. You can review the full list of courses in the [Unlocked LinkedIn Learning course list.](https://docs.google.com/spreadsheets/d/1vafTEKxtm0TSF3maK1xdLPIA7OkYVPsQZH9CtC8tVmw/edit#gid=0)
+
+

@@ -11,6 +11,20 @@ This page includes information about UX Resources to help you do your job. It is
 - [UX Researcher workflows](/handbook/product/ux/ux-research/)
 - [Technical Writing workflows](/handbook/product/ux/technical-writing/workflow/)
 
+## UX Department Google Calendar
+
+We use the shared [UX Department Google Calendar](https://calendar.google.com/calendar/embed?src=gitlab.com_9psh26fha3e4mvhlrefusb619k%40group.calendar.google.com) (link is only available to GitLab employees) to advertise upcoming meetings and events. Anyone in the UX Department can add events to this calendar but only managers can make changes to events and manage sharing. These invites are only viewable by GitLab employees.
+
+To add the UX Department Calendar to your list of calendars:
+
+1. Go to your [calendar](https://calendar.google.com/)
+1. Scroll the left sidebar down to `Other calendars`
+1. Press on `+`
+1. Select `Subscribe to calendar`
+1. Enter in the search field `gitlab.com_9psh26fha3e4mvhlrefusb619k@group.calendar.google.com` and then press enter on your keyboard
+
+NOTE: Please do NOT remove any meetings from this calendar or any other shared calendars, as it removes the event from everyone’s calendar.
+
 ## Design resources
 
 The following resources are intended primarily to help Product Designers.
@@ -97,12 +111,6 @@ The UX Research project contains all research undertaken by GitLab's UX research
 Once each quarter, we run a [System Usability Scale (SUS)](/handbook/product/ux/performance-indicators/system-usability-scale) survey to measure user perception of the GitLab product. We send the survey to members of the wider GitLab community, with the goal of asking for a response from any individual no more than once per year.
 
 - [SUS results by quarter](/handbook/product/ux/performance-indicators/#perception-of-system-usability)
-
-### GitLab First Look
-
-At GitLab, we want everyone to be able to contribute. To that end we created First Look where we accept applicants to participate in various studies and testing.
-
-- [GitLab First Look](/handbook/product/ux/ux-research-coordination/first-look-ux-research-panel)
 
 ## UX performance indicators
 

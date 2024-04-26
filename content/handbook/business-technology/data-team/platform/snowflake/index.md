@@ -38,6 +38,15 @@ Login to Snowflake from Okta.
 
 The [Snowflake Quick Tour of the Web Interface](https://docs.snowflake.com/en/user-guide/snowflake-manager.html) provides comprehensive documentation for the UI.
 
+
+## Snowflake account configuration
+
+### ABORT_DETACHED_QUERY
+
+[ABORT_DETACHED_QUERY](https://docs.snowflake.com/en/sql-reference/parameters#abort-detached-query) parameter is set on account level to `True`. 
+
+We often have cases where the connectivity was lost and the query keeps trying to run and still does not complete. It is meaningless for the query to keep running in these cases and adds no value. There is a grace period of 5 mins. If the connectivity isn’t fixed in 5 mins now, it stops the execution after the 5 mins so the warehouses won’t be running unnecessarily. 
+
 ## Snowflake SNS integration for snowflake snowpipe and task for failure
 
 Snowpipe can push error notifications to a cloud messaging service when it encounters errors while loading data i.e. through snowpipe or on failure of snowflake task. The notifications describe the errors encountered in each file, enabling further analysis of the data in the files for snowpipe. Task error notifications trigger a notification describing the errors encountered when a task executes SQL code. The notifications describe any errors encountered during task execution.

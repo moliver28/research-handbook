@@ -18,6 +18,5 @@ The Security Threat Management sub-department’s mission is to support the busi
 ### Teams
 
 The Security Threat Management sub-department includes the following teams. Learn more about each by visiting their Handbook pages.
-- [Security Research]({{< ref "security-research" >}}) specialists conduct internal testing and research against GitLab assets, against FOSS that is critical to GitLab products and operations, and against vendor products being considered for purchase and integration with GitLab.
+- [Security Identity Engineering](/handbook/security/threat-management/identity) leads the technical strategy and automation implementation of next-generation identity and access management (IAM), role-based access control (RBAC), and administrative access controls for internal GitLab systems, cloud infrastructure, and tech stack applications.
 - [Security Red Team]({{< ref "red-team" >}}) conducts real word adversarial exercises and collaborates with our defensive and detection teams.
-- [Security Threat & Vulnerability Management]({{< ref "vulnerability-management" >}}) focuses on ensuring that vulnerabilities are identified and mitigated in an easy but consistent manner. This team covers our infrastructure, code base and other pieces of GitLab’s infrastructure.

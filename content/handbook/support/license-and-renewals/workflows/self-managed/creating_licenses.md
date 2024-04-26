@@ -40,11 +40,11 @@ To re-issue a license:
    **Note:** Changing the `Customer` causes the inputs for name, email and company to be overriden on creation with the selected customer's information. This is a bug that will be addressed in <https://gitlab.com/gitlab-org/customers-gitlab-com/-/issues/3566>.
 1. In the `Notes` field, describe why you're issuing this license and add a link
    to the Zendesk ticket or GitLab issue for the request if applicable.
-      - If working on a Gitlab issue, add the label `Manually Generate Trial License` (for trials) or `Manually Generate License`.
+      - If working on a GitLab issue, add the label `Manually Generate Trial License` (for trials) or `Manually Generate License`.
 1. Click `Save`.
 
 The license should be emailed out immediately. Please note that a license should always be sent to the end user.
-Do not email the license to a Gitlab team member or a reseller.
+Do not email the license to a GitLab team member or a reseller.
 **Note:** If you want to send the license to a different email address use [this handbook page](/handbook/support/license-and-renewals/workflows/self-managed/sending_license_to_different_email) instead.
 
 When an existing license isn't available to duplicate, use the [create new license section](#create-a-new-license).
@@ -68,7 +68,7 @@ To create a new license, click `Add new License` then follow the process listed 
 1. Fill in other fields.
 1. In the `Notes` field, describe why you're issuing this license and add a link
    to the Zendesk ticket or GitLab issue for the request if applicable.
-      - If working on a Gitlab issue, add the label `Manually Generate Trial License` (for trials) or `Manually Generate License`.
+      - If working on a GitLab issue, add the label `Manually Generate Trial License` (for trials) or `Manually Generate License`.
 1. Click `Save`.
 
 ##### Required fields
@@ -106,7 +106,7 @@ When creating an Offline License, the following has to be present beforehand:
 1. Fill in other fields.
 1. In the `Notes` field, describe why you're issuing this license and add a link
    to the Zendesk ticket or GitLab issue for the request if applicable.
-      - If working on a Gitlab issue, add the label `Manually Generate Trial License` (for trials) or `Manually Generate License`.
+      - If working on a GitLab issue, add the label `Manually Generate Trial License` (for trials) or `Manually Generate License`.
 1. Click `Save`.
 
 ##### Required fields

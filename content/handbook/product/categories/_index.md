@@ -11,16 +11,16 @@ community. This makes it more efficient for everyone to contribute or to get
 a question answered. Therefore, the following interfaces are based on the
 product categories defined on this page:
 
-- [Home page](/)
-- [Product page](/stages-devops-lifecycle/)
-- [Product Features](/features/)
-- [Pricing page](/pricing/)
-- [DevOps Lifecycle](/stages-devops-lifecycle/)
-- [DevOps Tools](/competition/)
+- [Home page](https://about.gitlab.com/)
+- [Product page](https://about.gitlab.com/stages-devops-lifecycle/)
+- [Product Features](https://about.gitlab.com/features/)
+- [Pricing page](https://about.gitlab.com/pricing/)
+- [DevOps Lifecycle](https://about.gitlab.com/stages-devops-lifecycle/)
+- [DevOps Tools](https://about.gitlab.com/why-gitlab/)
 - [Product Direction](https://about.gitlab.com/direction/)
 - [Stage visions](https://about.gitlab.com/direction/#devops-stages)
 - [Documentation](https://docs.gitlab.com/)
-- [Engineering](https://about.gitlab.com/handbook/engineering/) Engineering Manager/Developer/Designer titles, their expertise, and department, and team names.
+- [Engineering](/handbook/engineering/) Engineering Manager/Developer/Designer titles, their expertise, and department, and team names.
 - [Product manager](/handbook/product/) responsibilities which are detailed on this page
 - [Our pitch deck](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/#company-pitch-deck), the slides that we use to describe the company
 - [Strategic marketing](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/) specializations
@@ -36,7 +36,7 @@ We then add the **value stages** that we talk about in marketing. These include 
 These stages have groups that rally around the same users, GitLab integrators, GitLab itself, and GitLab administrators, respectively.
 Stages are maintained in [`data/stages.yml`](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/data/stages.yml).
 Each stage has a corresponding [`devops::<stage>` label](https://docs.gitlab.com/ee/development/labels/index.html#stage-labels) under the `gitlab-org` group.
-1. **Group**: A stage has one or more [groups](/handbook/company/team/structure/#product-groups).
+1. **Group**: A stage has one or more [groups](/handbook/company/structure/#product-groups).
 Groups are maintained in [`data/stages.yml`](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/data/stages.yml).
 Each group has a corresponding [`group::<group>` label](https://docs.gitlab.com/ee/development/labels/index.html#group-labels) under the `gitlab-org` group.
 1. **Categories**: A group has one or more categories. Categories are high-level
@@ -62,7 +62,7 @@ Notes:
 
 - Groups may have scope as large as all categories in a stage, or as small as a single category within a stage, but most will form part of a stage and have a few categories in them.
 - Stage, group, category, and feature labels are used by the automated triage
-operation ["Stage and group labels inference from category labels"](https://about.gitlab.com/handbook/engineering/quality/triage-operations/).
+operation ["Stage and group labels inference from category labels"](/handbook/engineering/infrastructure/engineering-productivity/triage-operations/).
 - We don't move categories based on capacity. We put the categories in the stages where they logically fit, from a customer perspective. If something is important and the right group doesn't have capacity for it, we adjust the hiring plan for that group, or do [global optimizations](/handbook/values/#global-optimization) to get there faster.
 - We don't have silos. If one group needs something in a category that is owned by another group, go ahead and contribute it.
 - This hierarchy includes both paid and unpaid features.
@@ -125,7 +125,7 @@ As a result, it is considered an anti-pattern to how we've organized for categor
 of concern for available capacity.
 
 When designing the hierarchy, the number of sections should be kept small
-and only grow as the company needs to re-organize for [span-of-control](/handbook/company/team/structure/#management-group)
+and only grow as the company needs to re-organize for [span-of-control](/handbook/company/structure/#management-group)
 reasons. i.e. each section corresponds to a Director of Engineering and a
 Director of Product, so it's an expensive add. For stages, the DevOps loop
 stages should not be changed at all, as they're determined from an [external](https://en.wikipedia.org/wiki/DevOps_toolchain)
@@ -147,7 +147,7 @@ captured as different groups. Groups are also a non-marketing construct, so we
 expand the number of groups as needed for organizational purposes. Each group
 usually corresponds to a backend engineering manager and a product manager, so
 it's also an expensive add and we don't create groups just for a cleaner
-hierarchy; it has to be justified from a [span-of-control](/handbook/company/team/structure/#management-group)
+hierarchy; it has to be justified from a [span-of-control](/handbook/company/structure/#management-group)
 perspective or limits to what one product manager can handle.
 
 ### Category Statuses
@@ -163,7 +163,7 @@ Typically, product direction pages will transparently state the investment statu
 
 ## Changes
 
-The impact of changes to sections, stages and groups is felt [across the company](/handbook/company/team/structure/#product-groups).
+The impact of changes to sections, stages and groups is felt [across the company](/handbook/company/structure/#product-groups).
 
 All new category creation needs to be specifically approved via our Opportunity Canvas review process. This is to avoid scope creep and breadth at the expense of depth and user experience.
 
@@ -198,7 +198,7 @@ After approval and prior to merging, ping the Engineering Manager for Quality En
 - Rename a group, stage or section
 - Delete a group, stage or section
 
-This is to ensure that [GitLab Bot auto-labeling](https://about.gitlab.com/handbook/engineering/quality/triage-operations/#auto-labelling-of-issues-and-merge-requests) can be updated prior to the change, which can be [disruptive if missed](https://gitlab.com/gitlab-org/quality/triage-ops/-/issues/467#note_337325686).
+This is to ensure that [GitLab Bot auto-labeling](/handbook/engineering/infrastructure/engineering-productivity/triage-operations/#auto-labelling-of-issues-and-merge-requests) can be updated prior to the change, which can be [disruptive if missed](https://gitlab.com/gitlab-org/quality/triage-ops/-/issues/467#note_337325686).
 
 Upon approval, tag the group Technical Writer in the merge request to ensure [documentation metadata](https://docs.gitlab.com/ee/development/documentation/#stage-and-group-metadata) is updated after the category change is merged.
 
@@ -236,6 +236,7 @@ When changing the name of a group, make sure to go through the following steps:
 - Share MR in #product, #development, #g_engineering_analytics and relevant #s_, #g_, and #f_ Slack channels
 - Review direction pages, groups, projects, epics, issues, templates and documentation to ensure the name change is applied consistently.
 - Rename Slack channels to reflect the new group name
+- Update the event and metric definitions belonging to the group by following [this guide](https://docs.gitlab.com/ee/development/internal_analytics/metrics/metrics_lifecycle.html#group-name-changes)
 
 ### Changing category name
 
@@ -301,7 +302,7 @@ Maybe we should make our features easier to search to replace the section below.
 - quick actions
 - email notifications
 - to-do list
-- Real-time features (excluding [real-time collaboration](https://about.gitlab.com/handbook/engineering/development/incubation/real-time-collaboration/))
+- Real-time features (excluding [real-time collaboration](/handbook/engineering/development/incubation/real-time-collaboration/))
 
 ### Other functionality in [Create](/handbook/product/categories/#create-stage) stage
 
@@ -328,17 +329,17 @@ Maybe we should make our features easier to search to replace the section below.
 
 ### Other functionality in [Manage](/handbook/product/categories/#manage-stage) stage
 
-### Other functionality in [Engineering Productivity](https://about.gitlab.com/handbook/engineering/quality/engineering-productivity/)
-- [GDK](https://about.gitlab.com/handbook/engineering/quality/engineering-productivity/gdk/)
+### Other functionality in [Engineering Productivity](/handbook/engineering/infrastructure/engineering-productivity/)
+- [GDK](/handbook/engineering/infrastructure/engineering-productivity/gdk/)
 
-### Other functionality in [Quality Engineering](https://about.gitlab.com/handbook/engineering/quality/quality-engineering/)
+### Other functionality in [Test Platform](/handbook/engineering/infrastructure/test-platform/)
 - [Reference Architectures](https://docs.gitlab.com/ee/administration/reference_architectures/)
 - [GitLab Environment Toolkit (GET)](https://gitlab.com/gitlab-org/gitlab-environment-toolkit)
 - [GitLab Performance Tool (GPT)](https://gitlab.com/gitlab-org/quality/performance)
 - [Performance Test Data](https://gitlab.com/gitlab-org/quality/performance-data)
 - [Zero Downtime Testing Tool](https://gitlab.com/gitlab-org/quality/zero-downtime-testing-tool)
 
-Internal Customers: [Gitaly](#gitalycluster-group), [Core Platform section](#core-platform-section), [SaaS Platforms section](#saas-platforms-section), [Infrastructure Department](https://about.gitlab.com/handbook/engineering/infrastructure/), [Support Department](/handbook/support/), [Customer Success](/handbook/customer-success/)
+Internal Customers: [Gitaly](#gitalycluster-group), [Core Platform section](#core-platform-section), [SaaS Platforms section](#saas-platforms-section), [Infrastructure Department](/handbook/engineering/infrastructure/), [Support Department](/handbook/support/), [Customer Success](/handbook/customer-success/)
 
 ### Other functionality in [Analytics](/handbook/product/categories/#analytics-stage)
 
@@ -378,6 +379,8 @@ Whatever the source of the functionality, rather than thinking of these componen
 
 It does not mean, however, that a single group should necessarily be solely responsible for all of these activities. Multiple groups could end up collaborating in execution. This coordination however requires a careful triage of the shared responsibility issues in the issue tracker where a single [DRI](/handbook/people-group/directly-responsible-individuals/) coordinates these activities.
 
-For more information please review [this section in the quality department handbook](https://about.gitlab.com/handbook/engineering/quality/issue-triage/#shared-responsibility-issues) to learn more about a decentralized approach to triaging these types of issues.
+For more information please review [this section in the quality department handbook](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#shared-responsibility-issues) to learn more about a decentralized approach to triaging these types of issues.
+
+### Categories A-Z
 
 {{< categories-index >}}

@@ -35,7 +35,7 @@ UX Showcases are scheduled every two weeks. They are 60 minutes long to allow up
     - Gaps are left throughout the schedule for additional presenters.
 - Anyone can sign up to share in a UX Showcase. Coordinate with the host to claim an available spot.
 - Each person who shares is expected to fill out the agenda (attached to the meeting invite) for that week prior to presenting.
-- It is the responsibility of the host to know when they are scheduled to host and the responsibility of the presenter to know when they are scheduled to present. To help, a slack reminder has been set up in the #ux channel to review the showcase schedule.
+- It is the responsibility of the host to know when they are scheduled to host and the responsibility of the presenter to know when they are scheduled to present. To help, a slack reminder has been set up in the `#ux` channel to review the showcase schedule.
 
 If a Product Designer can't present on the assigned date, it's their responsibility to make a trade. To make a trade:
 - announce in Slack (`#ux` channel) and during the UX Weekly call that you'd like to trade
@@ -44,7 +44,7 @@ If a Product Designer can't present on the assigned date, it's their responsibil
 
 {{% include "includes/ux-showcase-schedule.md" %}}
 
-<a href="https://gitlab.com/-/ide/project/gitlab-com/www-gitlab-com/edit/master/-/sites/handbook/source/includes/ux-showcase/_schedule.md" class="btn btn-primary">Update schedule</a>
+<a href="https://gitlab.com/-/ide/project/gitlab-com/content-sites/handbook/edit/main/-/assets/includes/ux-showcase-schedule.md" class="btn btn-primary">Update schedule</a>
 
 ## Sharing your work
 
@@ -88,6 +88,7 @@ Preparation time should be minimal, as you'll present the work you've done thus 
 - Introduce yourself and provide [context](#preparation) for your presentation.
 - [Make the participant experience an enjoyable one](/handbook/tools-and-tips/zoom/#make-the-participant-experience-an-enjoyable-one): avoid moving around too fast (for example, when showing a Figma prototype), or back and forth between views because you forgot to say one thing at the previous one.
 - [When sharing your screen](/handbook/tools-and-tips/zoom/#how-to-share-a-presentation-in-zoom), consider going fullscreen so that the audience can see the details of your presentation.
+    - Useful Figma keyboard shortcuts on Mac: Show/hide UI `⌘ + \` and Show/hide sidebars `⌘ + .`
 - Make sure the minimum font size of text in your presentation is large enough so that it can easily be read by everyone.
 - [Provide links](/handbook/tools-and-tips/zoom/#provide-links-rather-than-sharing-while-you-present-or-edit) in the agenda doc that are relevant to your story, such as, issues, epics, Figma files, Figjam boards, and recordings.
 - When sharing directly from Figma files and issues, consider preparing an outline of the things you want to cover beforehand, filling in a few details of points you want to mention. Use this as a guide while you present your showcase to make it more linear & easy to follow for the audience.

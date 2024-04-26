@@ -6,12 +6,12 @@ canonical_path: "/company/mission/"
 
 ## Mission
 
-It is GitLab's mission to make it so that **everyone can contribute**.
+It is GitLab's mission to **enable everyone to contribute to and co-create the software that powers our world**.
 
-There are three ways you can contribute:
+There are three ways you can contribute and co-create:
 
 1. [Everyone can contribute with GitLab](/handbook/company/mission/#contribute-with-gitlab)
-1. [Everyone can contribute to GitLab, the application](/handbook/company/mission/#contribute-to-gitlab-application)
+1. [Everyone can contribute to and co-create with GitLab, the application](/handbook/company/mission/#contribute-to-gitlab-application)
 1. [Everyone can contribute to GitLab, the company](/handbook/company/mission/#contribute-to-gitlab-company)
 
 ### Everyone can contribute with GitLab{#contribute-with-gitlab}
@@ -24,10 +24,12 @@ To ensure that **everyone can contribute with GitLab** we allow anyone to create
 - Without setup: You can make something without installing or configuring for hours with our web IDE and Auto DevSecOps.
 - With confidence: Reduce the risk of a flawed proposal with review apps, CI/CD, code quality, security scans, performance testing, and monitoring.
 
-### Everyone can contribute to GitLab, the application{#contribute-to-gitlab-application}
+### Everyone can contribute to and co-create with GitLab, the application{#contribute-to-gitlab-application}
 
-We actively welcome contributors to ensure that **everyone can contribute to GitLab, the application**. When **everyone can contribute**, users become contributors and we greatly
-increase the rate of innovation to benefit customers and users. We think that it is logical that our collaboration tools are a collaborative
+We actively welcome contributors to **enable everyone to contribute to and co-create with GitLab, the application**. When **everyone can contribute and co-create**, users become contributors and we greatly
+increase the rate of innovation to benefit customers and users. There is also an open dialogue between GitLab and our customers, partners, and the community so that we can also better identify what they need. That way we can not only build a solution for them, but bring that solution to the world.
+
+We think that it is logical that our collaboration tools are a collaborative
 work themselves. More than [3,000 people from the wider community](http://contributors.gitlab.com/) have contributed to GitLab to make that a reality.
 
 We do this by having quality code, tests, documentation, popular frameworks,
@@ -41,7 +43,7 @@ a public issue tracker. We ship a new version every month so contributions
 and feedback are visible fast. To contribute to open source software, people
 must be empowered to learn programming.
 That is why we sponsor initiatives such as Rails Girls.
-There are a few significant, but often overlooked, nuances of the **everyone can contribute to GitLab, the application** mantra:
+There are a few significant, but often overlooked, nuances of the **enabling everyone to contribute to GitLab, the application** mantra:
 
 - While collaboration is a core value of GitLab, over collaborating tends to involve team members unnecessarily, leading to consensus-based decision making, and ultimately slowing the pace of improvement in the GitLab application. Consider [doing it yourself](/handbook/values/#collaboration), creating a merge request, and facilitating a discussion on the solution.
 - For valuable features in line with our product philosophy, that do not yet exist within the application, don't worry about UX having a world class design before shipping. While we must be good stewards of maintaining a quality product, we also believe in rapid iteration to add polish and depth after an [MVC](/handbook/product/product-principles/#the-minimal-viable-change-mvc) is created.
@@ -55,7 +57,7 @@ A group discussion reiterating the importance of everyone being able to contribu
 
 ### Everyone can contribute to GitLab, the company{#contribute-to-gitlab-company}
 
-To ensure that **everyone can contribute to GitLab, the company** we have open business processes.
+To **enable everyone to contribute to GitLab, the company** we have open business processes.
 This allows all team members to suggest improvements to our
 handbook. We hire remotely so everyone with an internet connection can come
 work for us and be judged on results, not presence in an office. We offer
@@ -76,7 +78,7 @@ Our Mission is on a 30 year [cadence](/handbook/company/cadence/#30-years).
 
 [Our purpose](/handbook/company/purpose/) is to help people **increase their lifetime earnings** through training, access to opportunities, and the DevSecOps platform.
 
-Our mission is the way we realize [our purpose](/handbook/company/purpose/). By making it so **everyone can contribute**, we increase access for people to be creators. With more contributors and more creators, we increase both the volume and velocity of innovation. More innovation drives economic progress that [benefits consumers, businesses, and the economy as a whole](https://www.ecb.europa.eu/ecb/educational/explainers/tell-me-more/html/growth.en.html). As a result, innovation both directly and indirectly increases the total volume of available opportunities and average value of each individual opportunity.
+Our mission is the way we realize [our purpose](/handbook/company/purpose/). By **enabling everyone to contribute to and co-create the software that powers our world**, we increase access for people to be creators. With more contributors and more creators, we increase both the volume and velocity of innovation. More innovation drives economic progress that [benefits consumers, businesses, and the economy as a whole](https://www.ecb.europa.eu/ecb/educational/explainers/tell-me-more/html/growth.en.html). As a result, innovation both directly and indirectly increases the total volume of available opportunities and average value of each individual opportunity.
 
 Access to a broader set of more valuable opportunities ultimately **increases people's lifetime earnings**.
 
@@ -100,13 +102,13 @@ We firmly adhere to laws including trade compliance laws -- see the [GitLab Code
 
 This policy is in alignment with our mission, contributor and employee code-of-conduct and company values. Here are some links that may give you some background at how we arrived at this customer acceptance policy:
 
-- Our mission is "everyone can contribute." This mission is in alignment with our open source roots and the [MIT license](https://en.wikipedia.org/wiki/MIT_License) our open source software is subject to. The MIT License is a free software license that allows users the freedom to run the program as they wish, for any purpose.
+- Our mission is to “enable everyone to contribute to and co-create the software that powers our world.” This mission is in alignment with our open source roots and the [MIT license](https://en.wikipedia.org/wiki/MIT_License) our open source software is subject to. The MIT License is a free software license that allows users the freedom to run the program as they wish, for any purpose.
 - GitLab has a [contributor code of conduct](https://about.gitlab.com/community/contribute/code-of-conduct/) for *how* to contribute to GitLab, but there are no restrictions on *who* can contribute to GitLab. We desire that everyone can contribute, as long as they abide by the code of conduct.
 - GitLab has a set of values for how GitLab team members strive to conduct themselves. We don’t expect all companies to value collaboration, results, efficiency, diversity, inclusion and transparency in the same way we do. As an open company, “everyone can contribute” is our default and [transparency](/handbook/values/#transparency) is our check and balance. Transparency means our handbook, issues, merge requests and product roadmap are online for everyone to see and contribute to.
-- Related topic: At GitLab, we want to avoid an environment where people feel alienated for their religious or political opinions. Therefore, we encourage GitLab team members to refrain from taking positions on specific [religious or political issues](/handbook/values/#religion-and-politics-at-work) in public company forums (such as on the GitLab Contribute stage or Slack channels) because it is easy to alienate people that may have a minority opinion. It is acceptable to bring up these topics in social contexts such as coffee chats and real-life meetups with other coworkers, but always be aware of cultural sensitivities, exercise your best judgement, and make sure you stay within the boundaries of our [Code of Business Conduct & Ethics](https://ir.gitlab.com/static-files/7d8c7eb3-cb17-4d68-a607-1b7a1fa1c95d). We always encourage [discussion and iteration](/handbook/values/#anyone-and-anything-can-be-questioned) on any company policy, including this one.
+- Related topic: At GitLab, we want to avoid an environment where people feel alienated for their religious or political opinions. Therefore, we encourage GitLab team members to refrain from taking positions on specific [religious or political issues](/handbook/values/#religion-and-politics-at-work) in public company forums (such as on the GitLab Contribute stage or Slack channels) because it is easy to alienate people that may have a minority opinion. It is acceptable to bring up these topics in social contexts such as coffee chats and real-life meetups with other coworkers, but always be aware of cultural sensitivities, exercise your best judgment, and make sure you stay within the boundaries of our [Code of Business Conduct & Ethics](https://ir.gitlab.com/static-files/7d8c7eb3-cb17-4d68-a607-1b7a1fa1c95d). We always encourage [discussion and iteration](/handbook/values/#anyone-and-anything-can-be-questioned) on any company policy, including this one.
 
 ## Mitigating Concerns
 
-We acknowledge the concerns to achieving our goals. We document them in our [Mitigating Concerns page](https://internal-handbook.gitlab.io/handbook/leadership/mitigating-concerns/).
+We acknowledge the concerns to achieving our goals. We document them in our [Mitigating Concerns page](https://internal.gitlab.com/handbook/leadership/mitigating-concerns/).
 
 {{% include "includes/take-gitlab-for-a-spin.md" %}}

@@ -42,21 +42,21 @@ Read more about the topic area from the links below:
 
 ### Related GitLab Documentation
 
-- [MLOps Single-Engineer Group](https://about.gitlab.com/handbook/engineering/incubation/mlops/)
-- [MLOps Primer](https://about.gitlab.com/handbook/engineering/incubation/mlops/)
+- [MLOps Single-Engineer Group](/handbook/engineering/incubation/mlops/)
+- [MLOps Primer](/handbook/engineering/incubation/mlops/)
 - [MLOps Exploration](https://gitlab.com/groups/gitlab-org/incubation-engineering/mlops/-/epics/1)
-- [Product Stage Direction - ModelOps](https://about.gitlab.com/handbook/engineering/development/modelops)
+- [Product Stage Direction - ModelOps](/handbook/engineering/development/modelops)
 - [Draft Group Direction - MLOps](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/source/direction/modelops/mlops/index.html.md.erb)
 - [Group Direction - AI Model Validation](https://about.gitlab.com/direction/ai-powered/ai_model_validation/)
-- [AI Model Validation Group](https://about.gitlab.com/handbook/engineering/development/data-science/ai-assisted/)
+- [AI Model Validation Group](/handbook/engineering/development/data-science/ai-assisted/)
 
 ### Related GitLab projects
 
 - [Spamcheck](https://gitlab.com/gitlab-org/spamcheck)
     - [Architecture Diagram](https://gitlab.com/gitlab-org/spamcheck#architecture-diagram)
 - [Tanuki-Stan](https://gitlab.com/gitlab-org/ml-ops/tanuki-stan)
-- [UnReview](https://about.gitlab.com/handbook/engineering/development/data-science/ai-assisted/projects/unreview/)
-    - [Architecture Diagram](https://about.gitlab.com/handbook/engineering/development/data-science/appliedml/projects/unreview/#architecture)
+- [UnReview](/handbook/engineering/development/data-science/ai-assisted/projects/unreview/)
+    - [Architecture Diagram](/handbook/engineering/development/data-science/appliedml/projects/unreview/#architecture)
 
 ### Related ML Slack channels
 
@@ -82,7 +82,6 @@ The charter of this working group is to bridge the gap between different teams t
 
 | Working Group Role    | Person                | Title                                           |
 |-----------------------|-----------------------|-------------------------------------------------|
-| Executive Sponsor     | Laurence Bierner      | Director, Security Engineering       |
 | Facilitator           | Alex Groleau          | Security Automation Manager |
 | Functional Lead                | Roger Ostrander       | Senior Security Engineer, Trust & Safety        |
 | Functional Lead                | Alexander Chueshev         | Senior Backend Engineer, AI Framework |

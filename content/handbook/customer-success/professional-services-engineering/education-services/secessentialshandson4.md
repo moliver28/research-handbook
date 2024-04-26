@@ -1,13 +1,9 @@
 ---
-title: "GitLab Security Essentials - Hands-On Lab"
+title: "GitLab Security Essentials - Hands-On Lab: Enable and Configure License Compliance"
 description: "This Hands-On Guide walks you through the lab exercises used in the GitLab Security Essentials course."
 ---
 
-# Lab 4: Enable and Configure License Compliance
-
 > Estimated time to complete: 15 minutes
-
-> **You are viewing the latest Version 16.x instructions.** You are using v16 if your group URL is `https://gitlab.com/gitlab-learn-labs/...`. If your group URL starts with `https://ilt.gitlabtraining.cloud` or `https://spt.gitlabtraining.cloud`, please use the [Version 15.x instructions](https://gitlab.com/gitlab-com/content-sites/handbook/-/blob/d14ee71aeac2054c72ce96e8b35ba2511f86a7ca/content/handbook/customer-success/professional-services-engineering/education-services/secessentialshandson4.md).
 
 ## Objectives
 
@@ -23,7 +19,14 @@ The License Compliance report will generate a list of all of the licenses detect
 
     > If you closed the tab or lost the link, open a browser tab and start typing `https://gitlab.com/gitlab-learn-labs` in your URL and the group should appear in your history.
 
-1. Before beginning this lab and all later labs, you should disable any jobs and scanners that you enabled in previous labs to speed up pipeline runtime. You should have already completed this at the end of Lab 3.
+1. Before beginning this lab, you should ensure that the dependency scanning template is enabled in your CI/CD pipeline. To verify this, check your `.gitlab-ci.yml` file. Under `include`, you should see the template `Security/Dependency-Scanning.gitlab-ci.yml`:
+
+    ```yml
+    include:
+    - template: Security/Dependency-Scanning.gitlab-ci.yml
+    ```
+
+    > License scanning is completed by the dependency scanner. This template is required to generate and view license compliance reports in your project.
 
 ## Task A. License Compliance Scans
 
@@ -39,7 +42,7 @@ The License Compliance report will generate a list of all of the licenses detect
 
 1. Click the **New policy** button.
 
-1. Click **Scan result policy > Select policy**.
+1. Click **Merge request approval policy > Select policy**.
 
 1. Input any name (ex. `ScanApprovedPolicy`) and description for the policy.
 
@@ -57,7 +60,7 @@ The License Compliance report will generate a list of all of the licenses detect
 
 1. In the **Actions** section, require 1 approval from an Individual user. Click your username as the approval user.
 
-1. Click **Configure with a merge request**. Leave the **Override project approval settings** checkbox selected.
+1. Leave the **Override project approval settings** checkboxes selected and click **Configure with a merge request**.
 
 1. In the resulting merge request, click the **Merge** button.
 
@@ -73,7 +76,7 @@ The License Compliance report will generate a list of all of the licenses detect
 
 1. Create a new branch named `add-dnspython-dependency`
 
-1. Add a new dependency to the `add-dnspython-dependency` branch **(not the `main` branch!)** by pasting `dnspython==2.1.0` as a new line at the end of `requirements.txt`. Commit the change.
+1. Add a new dependency to the `add-dnspython-dependency` branch **(not the `main` branch!)** by pasting `dnspython==2.1.0` as a new line at the end of `requirements.txt`. 
 
 1. Click the **Create merge request** button.
 

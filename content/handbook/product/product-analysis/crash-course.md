@@ -21,8 +21,6 @@ If this page serves it's purpose, Product Analysts should be able to visit this 
 
 - [Internal handbook performance indicators (PIs)](https://internal.gitlab.com/handbook/company/performance-indicators/) - This internal handbook page is a great place to understand the PIs for each Stage / Group to understand what results each team is trying to acheive.
 
-- [Sisense Usage Insights](https://app.periscopedata.com/app/gitlab/1013112/Sisense-Usage-Insights) is a Dashboard that provides a high level analysis of most commonly used Sisesnse Dashboards, Data Sources, and Snippets.
-
 - [Product categories handbook page](/handbook/product/categories/) contains a huge amount of helpful information and defines sections, stages, groups, and categories.
 
 - Need to quickly learn how a certain Stage/Group feature works? [GitLab Docs](https://docs.gitlab.com/)
@@ -33,9 +31,10 @@ If this page serves it's purpose, Product Analysts should be able to visit this 
 
 - [Definitive guides to data subject areas](/handbook/business-technology/data-team/data-catalog/#definitive-guides) managed by the Data team.
 
-- [Centralized SMAU/GMAU Dashboard](https://app.periscopedata.com/app/gitlab/758607/Centralized-SMAU-GMAU-Dashboard) contains CMAU, SMAU, and GMAU charts for each section, stage, and group.
+- [Centralized Metrics](https://10az.online.tableau.com/#/site/gitlab/workbooks/2069845/views): Key reporting dashboard for GitLab product usage metrics.
 
-- The [Technical Marketing handbook page](/handbook/marketing/developer-relations/technical-marketing/) contains links to product demos, webinars and release videos.  
+
+- The [Technical Marketing handbook page](/handbook/marketing/developer-relations/technical-marketing/) contains links to product demos, webinars and release videos.
 
 - GitLab's Fiscal Year runs from February 1 to January 31. [Here](/handbook/finance/#fiscal-year) is a link to GitLab's Fiscal Quarter to Month map.
 
@@ -54,24 +53,9 @@ This Stage helps teams manage their software delivery lifecycle with metrics and
 
 **Top dashboards referenced by this team**
 
-- [Centralized SMAU/GMAU](https://app.periscopedata.com/app/gitlab/758607/Centralized-SMAU-GMAU-Dashboard)  Overall SMAU/GMAU dashboard primarily utilized by the Import Group
-
-- [Manage Stage Sisense Topics Page](https://app.periscopedata.com/app/gitlab/topic/Manage-Stage/ab937816bcd24c9291ceb7b6c5e30c49)  Overall Manage stage pinned dashboards for easy access
-
-- [Manage : Compliance](https://app.periscopedata.com/app/gitlab/663045/Manage:-Compliance-Dashboard)  Dashboard frequently used by the Compliance Group
-
-- [Manage : Optimize Feature Usage](https://app.periscopedata.com/app/gitlab/779829/Manage:Optimize-Feature-Usage)  Dashboard frequently used by the Optimize Group
+- [Centralized Metrics](https://10az.online.tableau.com/#/site/gitlab/workbooks/2069845/views): Key reporting dashboard for GitLab product usage metrics.
 
 
-**Important data documentation**
-
-``` sql
-
-SELECT * 
-FROM table
-WHERE field = stage_name
-;
-```
 
 **Helpful video resources**
 
@@ -103,7 +87,7 @@ This link breaks down the performance indicators for each Manage Group clearly a
 
 [Manage Direction Page](https://about.gitlab.com/direction/manage/)
 
-[Main Manage Stage Page](https://about.gitlab.com/handbook/engineering/development/dev/manage/)
+[Main Manage Stage Page](/handbook/engineering/development/dev/manage/)
 
 **Slack channels**
 
@@ -123,25 +107,19 @@ Enable teams to effectively plan and execute work in a single application. This 
 
 **Top dashboards referenced by this team**
 
-- [Plan xMAU (monthly)](https://app.periscopedata.com/app/gitlab/775807/Plan-xMAU-(monthly))  Overall Plan Stage xMAU dashboard
+- [Centralized Metrics](https://10az.online.tableau.com/#/site/gitlab/workbooks/2069845/views): Key reporting dashboard for GitLab product usage metrics.
 
-- [Centralized SMAU/GMAU](https://app.periscopedata.com/app/gitlab/758607/Centralized-SMAU-GMAU-Dashboard)  Most Group PMs on Plan utilize the Centralized SMAU/GMAU dashboard
+- [Plan stage .com events](https://10az.online.tableau.com/#/site/gitlab/workbooks/2325883/views)  Analyses dealing with Snowplow events tables
 
-- [Plan stage .com events](https://app.periscopedata.com/app/gitlab/654183/Plan-stage-.com-events)  Analyses dealing with Snowplow events tables
+- [Fulfillment:Platform PIs Dashboard](https://10az.online.tableau.com/#/site/gitlab/workbooks/2131145/views)
 
-- [Say Do Ratios](https://app.periscopedata.com/app/gitlab/658030/Say-Do-Ratios)  Primarily engineering analytics utilized for Plan Stage decision making
+- [Growth Section Analytics Hub](https://10az.online.tableau.com/#/site/gitlab/workbooks/2058563/views)
 
-- [Plan stage capacity planning](https://app.periscopedata.com/app/gitlab/587512/Plan-stage-capacity-planning)  Primarily engineering analytics utilized for Plan Stage decision making
+- [Code Suggestions](https://10az.online.tableau.com/#/site/gitlab/workbooks/2260169/views)
 
-**Important data documentation**
+- [Verify Performance Indicator Hub](https://10az.online.tableau.com/#/site/gitlab/views/VerifyPerformanceIndicatorDashboard/VerifyPerformanceIndicatorHub)
 
-``` sql
 
-SELECT * 
-FROM table
-WHERE field = stage_name
-;
-```
 
 **Helpful video resources**
 
@@ -186,25 +164,15 @@ Create provides tools that support the beginning of the DevOps Life Cycle. Sourc
 
 **Top dashboards referenced by this team**
 
-- [Create - Code Review Topics page](https://app.periscopedata.com/app/gitlab/topic/Create---Code-Review/abb4786159ef4aa7abad4da4c21b0871)  Create : Code Review group specific pinned dashboards for easy access
 
-- [Code Review MAU Metrics](https://app.periscopedata.com/app/gitlab/786738/Code-Review-MAU-Metrics)  Used frequently by Create : Code Review Group
+- [Centralized Metrics](https://10az.online.tableau.com/#/site/gitlab/workbooks/2069845/views): Key reporting dashboard for GitLab product usage metrics.
 
-- [Editor Extension Category MAU Metrics](https://app.periscopedata.com/app/gitlab/825329/Editor-Extension-Category-MAU-Metrics)  Used frequently by Create : Code Review Group
 
 - [Performance indicators internal handbook page](https://internal.gitlab.com/handbook/company/performance-indicators/product/dev-section/)  The Create : Gitaly Group primarily uses the Performance Indicators Internal Handbook Page to guide decisions
 
-- [Handbook page containing engineering analytics dashboards](https://about.gitlab.com/handbook/engineering/development/dev/create/engineering-managers/dashboards/)  Used by Create Stage Engineering Managers
+- [Handbook page containing engineering analytics dashboards](/handbook/engineering/development/dev/create/engineering-managers/dashboards/)  Used by Create Stage Engineering Managers
 
-**Important data documentation**
 
-``` sql
-
-SELECT * 
-FROM table
-WHERE field = stage_name
-;
-```
 
 **Helpful video resources**
 
@@ -216,7 +184,7 @@ Must be logged into GitLab Unfiltered account
 
 **Product roadmap link**
 
-[Link to product direction / vision](https://about.gitlab.com/handbook/engineering/development/dev/create/#vision)
+[Link to product direction / vision](/handbook/engineering/development/dev/create/#vision)
 
 Resource to understand the goals for this team
 
@@ -228,7 +196,7 @@ Resource to understand the Performance Indicators for the Dev Section - Page can
 
 **Key handbook pages**
 
-[Primary Create Stage handbook page](https://about.gitlab.com/handbook/engineering/development/dev/create/)
+[Primary Create Stage handbook page](/handbook/engineering/development/dev/create/)
 
 Contains helpful information about how Create operates and current team members
 
@@ -244,7 +212,7 @@ Contains helpful information about how Create operates and current team members
 
 </details>
 
-### Ops Section
+### CI Section
 
 #### Verify Stage
 
@@ -254,25 +222,18 @@ Verify provides teams with tools that help facilitate continuous integration. Th
 
 **Top dashboards referenced by this team**
 
-- [Centralized SMAU / GMAU Dashboard](https://app.periscopedata.com/app/gitlab/758607/Centralized-SMAU-GMAU-Dashboard) This dashboard is a central place for all stages where their SMAU and GMAU metrics are housed for a high-level overview.
+- [Centralized Metrics](https://10az.online.tableau.com/#/site/gitlab/workbooks/2069845/views): Key reporting dashboard for GitLab product usage metrics.
 
-- [Ops Section Dashboard](https://app.periscopedata.com/app/gitlab/781120/Ops-Section-Dashboard) This is the central dashboard for all performance indicator metrics related to the Ops section.
 
-- [GitLab Runner SaaS Performance Indicator Metrics](https://app.periscopedata.com/app/gitlab/800667/GitLab-Runner-SaaS-performance-indicator-metrics)
+- [Verify Performance Indicator Dashboard](https://10az.online.tableau.com/#/site/gitlab/views/VerifyPerformanceIndicatorDashboard/VerifyGitLab_comPerformanceIndicators)
 
-- [Actions per Month Verify Stage Dashboard](https://app.periscopedata.com/app/gitlab/538594/Actions-Per-Month-Verify-Stage-Dashboard)
+- [Error Budget Dashboard](https://10az.online.tableau.com/#/site/gitlab/workbooks/2270342/views)
 
-- [Error Budget Dashboard](https://app.periscopedata.com/app/gitlab/892433/Error-Budget-Dashboard---Stage-Verify)
+**Important data documentation** 
 
-**Important data documentation**
+There are a few models that are exclusive to the Verify stage that you can reference as a SSOT: 
 
-```sql
-SELECT * 
-FROM table
-WHERE field = stage_name
-;
-```
-
+- `wk_gitlab_dotcom_monthly_ci_compute_minutes` is a model you can use to identify the number of runners, pipelines, and CI Build Minutes used on a per project, per namespace level. 
 **Helpful video resources**
 
 [Tanuki Tech: Verify and Secure](https://youtu.be/TgRamhC3ujg)
@@ -293,7 +254,7 @@ An internal handbook page that lists all performance indicators under the Operat
 
 **Key handbook pages**
 
-[Verify Stage Product Page](https://about.gitlab.com/handbook/engineering/development/ops/verify/)
+[Verify Stage Product Page](/handbook/engineering/development/ops/verify/)
 
 A central hub for all pages related to the Verify stage
 
@@ -328,34 +289,15 @@ The Package team works on the package and container registries, as well as the D
 
 **Top dashboards referenced by this team**
 
-- [Package GitLab.com Stage Activity](https://app.periscopedata.com/app/gitlab/527857/Package-GitLab.com-Stage-Activity-Dashboard)
+- [Package Performance Indicator Hub](https://10az.online.tableau.com/#/site/gitlab/workbooks/2284774/views)
 
 Primarily time series analyses for Package features on GitLab.com
 
-- [Package: User Adoption and Growth](https://app.periscopedata.com/app/gitlab/805350/Package:-User-Adoption-and-Growth)
-
-Primarily time series analyses including both SaaS and SM usage of Package features
-
-- [Package customer adoption](https://app.periscopedata.com/app/gitlab/877343/Package-customer-adoption)
-
-Customer specific data tables regarding specific Package feature usage
-
-- [Package: Costs](https://app.periscopedata.com/app/gitlab/1011032/Package:-Costs)
-
-Dashboard analyzing GCP costs associated with Package features.
-
-- [Package:-UI-Data](https://app.periscopedata.com/app/gitlab/1033908/Package:-UI-Data)
-
-Dashboard measuring user interaction with the GitLab.com user interface.
+- [Centralized Metrics](https://10az.online.tableau.com/#/site/gitlab/workbooks/2069845/views): Key reporting dashboard for GitLab product usage metrics.
 
 **Important data documentation**
+- `wk_gitlab_dotcom_package_events` is a model you can use for all Snowplow events related to Package. This includes but is not limited to, package actions for all available Package types on GitLab.com
 
-``` sql
-
-SELECT * 
-FROM table
-;
-```
 
 
 **Helpful video resources**
@@ -364,25 +306,25 @@ FROM table
 
 General and feature specific user interviews for the Package team
 
-[Demos and Speedruns](https://about.gitlab.com/handbook/engineering/development/ops/package/#demos--speedruns)
+[Demos and Speedruns](/handbook/engineering/development/ops/package/#demos--speedruns)
 
 Package Handbook section with feature and roadmap demos
 
 **Product roadmap link**
 
-[Link to product roadmap](https://about.gitlab.com/handbook/engineering/development/ops/package/#roadmap)
+[Link to product roadmap](/handbook/engineering/development/ops/package/#roadmap)
 
 Resource to understand the long-term goals for this team
 
 **OKRs**
 
-[Link to OKRs handbook page](https://about.gitlab.com/handbook/engineering/development/ops/package/#okrs)
+[Link to OKRs handbook page](/handbook/engineering/development/ops/package/#okrs)
 
 Resource to understand the current OKRs for this team
 
 **Key documentation**
 
-[Main Package Team Handbook Page](https://about.gitlab.com/handbook/engineering/development/ops/package)
+[Main Package Team Handbook Page](/handbook/engineering/development/ops/package)
 
 It can be helpful to search for specific topics on the Package team's main page
 
@@ -398,38 +340,31 @@ GitLab Docs are awesome!
 
 [Handbook page to find Package team members to collaborate with](/handbook/product/categories/#package-stage)
 
-[List of Package team members and their stable counterparts to contact if needed](https://about.gitlab.com/handbook/engineering/development/ops/package/#team-members)
+[List of Package team members and their stable counterparts to contact if needed](/handbook/engineering/development/ops/package/#team-members)
 
 </details>
 
-#### Release Stage
+### CD Section
 
-GitLab's integrated CD solution allows users to ship code with zero-touch, be it on one or one thousand servers.
+#### Deploy Stage
+
+The Deploy team covers the deployment and release functionality of GitLab
 
 <details markdown="1"><summary>Click to expand</summary>
 
 **Top dashboards referenced by this team**
 
-- [Release Stage Dashboard](https://app.periscopedata.com/app/gitlab/777879/Release-Stage-Dashboard) Primary point of reference for the Release Stage team.
+- [Centralized Metrics](https://10az.online.tableau.com/#/site/gitlab/workbooks/2069845/views): Key reporting dashboard for GitLab product usage metrics.
+
+- [Deploy Performance Indicator Dashboard](https://10az.online.tableau.com/#/site/gitlab/workbooks/2280622/views): Primarily time series analyses for Deploy features on GitLab.com
 
 
-**Important data documentation**
 
-``` sql
 
-SELECT * 
-FROM table
-WHERE field = stage_name
-;
-```
-
-**Helpful video resources**
-
-[List of YouTube Playlists maintained by Release](https://about.gitlab.com/handbook/engineering/development/ops/release/#youtube-playlists)
 
 **Product roadmap link**
 
-[Product Direction - Release](https://about.gitlab.com/direction/release/#whats-next-and-why)
+[Product Direction - Delivery](https://about.gitlab.com/direction/delivery/)
 Resource to understand the long-term goals for this team
 
 **Performance indicators**
@@ -440,128 +375,24 @@ Resource to understand the Performance Indicators for the Ops Section - Page can
 
 **Key handbook pages**
 
-[Release Primary Handbook Page](https://about.gitlab.com/handbook/engineering/development/ops/release/)
+[Deploy Primary Handbook Page](/handbook/engineering/development/ops/deploy/)
 
 **Slack channels**
 
-**#s_release**
+**#cd-section**
 
+**#g_environments**
 
-**Team members**
-
-[Handbook page to find Create team members to collaborate with](/handbook/product/categories/#configure-stage)
-
-
-</details>
-
-#### Configure Stage
-
-Enabling users to configure applications and infrastructure. Auto DevOps, Kubernetes Management and ChatOps.
-
-<details markdown="1"><summary>Click to expand</summary>
-
-**Top dashboards referenced by this team**
-
-- [Configure team business metrics](https://app.periscopedata.com/app/gitlab/511813/Configure-team-business-metrics) Central point of entry for the Configure Stage team to evaluate metrics.
-
-- [Configure Stage Topic Board](https://app.periscopedata.com/app/gitlab/topic/Configure-Stage/ab515335d8494519ad4971740a62171a) Contains all of the most commonly used dashbaords by the Configure team.
-
-
-**Important data documentation**
-
-``` sql
-
-SELECT * 
-FROM table
-WHERE field = stage_name
-;
-```
-
-**Helpful video resources**
-
-[GitLab <> Kubernetes Agent Overview](https://vimeo.com/677950027)
-
-[AutoDevops Overview Demo](https://www.brighttalk.com/webcast/17523/524896) You'll need to register for brighttalk with your work email to access this resource.
-
-**Product roadmap link**
-
-[Product Direction - Configure](https://about.gitlab.com/direction/delivery/#opportunities)
-Resource to understand the long-term goals for this team
-
-**Performance indicators**
-
-[Link to performance indicators](https://internal.gitlab.com/handbook/company/performance-indicators/product/ops-section/)
-Resource to understand the Performance Indicators for the Ops Section - Page can be searched by Stage and Group
-
-**Key handbook pages**
-
-[Primary handbook page for Configure](https://about.gitlab.com/handbook/engineering/development/ops/configure/)
-
-**Slack channels**
-
-**#s_configure**
+**#s_deploy**
 
 **Team members**
 
-[Handbook page to find Create team members to collaborate with](https://about.gitlab.com/handbook/engineering/development/ops/configure/#team-members)
+[Handbook page to find Create team members to collaborate with](/handbook/engineering/development/ops/deploy/environments/)
 
-
-</details>
-
-#### Monitor Stage
-
-Helps reduce the severity and frequency of incidents. Incident management and error tracking.
-
-<details markdown="1"><summary>Click to expand</summary>
-
-**Top dashboards referenced by this team**
-
-- [Centralized SMAU/GMAU Dashboard](https://app.periscopedata.com/app/gitlab/758607/Centralized-SMAU-GMAU-Dashboard)
-
-- [Error Budget Dashboard - Stage Monitor](https://app.periscopedata.com/app/gitlab/892457/Error-Budget-Dashboard---Stage-Monitor)
-
-
-**Important data documentation**
-
-``` sql
-
-SELECT * 
-FROM table
-WHERE field = stage_name
-;
-```
-
-**Helpful video resources**
-
-Demos and overview videos for Monitor will be added here as they become available.
-
-**Product roadmap link**
-
-[Product Direction - Monitor](https://about.gitlab.com/direction/monitor/)
-Resource to understand the long-term goals for this team
-
-**Performance indicators**
-
-[Link to performance indicators](https://internal.gitlab.com/handbook/company/performance-indicators/product/ops-section/)
-
-Resource to understand the Performance Indicators for the Ops Section - Page can be searched by Stage and Group
-
-**Key handbook pages**
-
-[Blog post on Incident Management](https://about.gitlab.com/blog/2021/11/30/gitlab-incident-management/)
-
-**Slack channels**
-
-**#s_monitor**
-
-**Team members**
-
-[Handbook page to find Monitor team members to collaborate with](/handbook/product/categories/#monitor-stage)
 
 </details>
 
 ### Sec Section
-
 
 #### Secure Stage
 
@@ -572,28 +403,15 @@ Static Application Security Testing (SAST), Dynamic Application Security Testing
 
 **Top dashboards referenced by this team**
 
-- [Dynamic Analysis Metrics](https://app.periscopedata.com/app/gitlab/703762/WIP:-Dynamic-Analysis-metrics) Secure:Dynamic Analysis Group
+- [Dynamic Analysis Metrics](https://10az.online.tableau.com/#/site/gitlab/views/PDSecDynamicAnalysisMetrics/DynamicAnalysisDashboard) Secure:Dynamic Analysis Group
 
 Some seemingly duplicate charts in Dynamic Analysis Metrics are used by the team to compare totals from different data sets.
 
-- [Threat Management Metrics](https://app.periscopedata.com/app/gitlab/737412/Threat-Management-Metrics---Matt's-Playground) Govern:Threat Insights Group
+- [Threat Management Metrics](https://10az.online.tableau.com/#/site/gitlab/workbooks/2238072/views) Govern:Threat Insights Group
 
-- [Secure & Govern GMAU/SMAU Metrics](https://app.periscopedata.com/app/gitlab/707777/Secure-&-Protect-GMAU-SMAU-Metrics)
-This dashboard shows various MAU metrics for Secure and Govern.
-
-- [Secure SCA - PI - Software Composition Analysis](https://app.periscopedata.com/app/gitlab/749790/Secure-SCA---PI---Software-Composition-Analysis---Schwartz) Secure:Composition Analysis Group
+- [Centralized Metrics](https://10az.online.tableau.com/#/site/gitlab/workbooks/2069845/views): Key reporting dashboard for GitLab product usage metrics.
 
 
-
-**Important data documentation**
-
-``` sql
-
-SELECT * 
-FROM table
-WHERE field = stage_name
-;
-```
 
 **Helpful video resources**
 
@@ -603,14 +421,13 @@ WHERE field = stage_name
 
 [Secure product direction page - 1 year plan](https://about.gitlab.com/direction/secure/#1-year-plan)
 
-
 **Performance indicators**
 
-[Performance indicators linked in Secure handbook page](https://about.gitlab.com/handbook/engineering/development/sec/#performance-indicators)
+[Performance indicators linked in Secure handbook page](/handbook/engineering/development/sec/#performance-indicators)
 
 **Key handbook pages**
 
-[Secure stage primary handbook page](https://about.gitlab.com/handbook/engineering/development/sec/secure/)
+[Secure stage primary handbook page](/handbook/engineering/development/sec/secure/)
 
 **Slack channels**
 
@@ -620,7 +437,7 @@ WHERE field = stage_name
 
 [Product categories page section to find Secure team members to collaborate with](/handbook/product/categories/#secure-stage)
 
-[Secure Handbook page section to find Secure engineering team members to collaborate with](https://about.gitlab.com/handbook/engineering/development/sec/secure/#team-members)
+[Secure Handbook page section to find Secure engineering team members to collaborate with](/handbook/engineering/development/sec/secure/#team-members)
 
 
 </details>
@@ -634,18 +451,12 @@ Manage security vulnerabilities, policies, and compliance across your organizati
 
 **Top dashboards referenced by this team**
 
-- [Security Policies Metrics](https://app.periscopedata.com/app/gitlab/694854/Container-Security-Metrics) Govern:Security Policies Group
+- [Centralized Metrics](https://10az.online.tableau.com/#/site/gitlab/workbooks/2069845/views): Key reporting dashboard for GitLab product usage metrics.
+
+- [PD: Sec: Govern Metrics](https://10az.online.tableau.com/#/site/gitlab/workbooks/2200383/views)
 
 
-**Important data documentation**
 
-``` sql
-
-SELECT * 
-FROM table
-WHERE field = stage_name
-;
-```
 
 **Helpful video resources**
 
@@ -664,7 +475,7 @@ WHERE field = stage_name
 
 **Key handbook pages**
 
-[Govern stage primary handbook page](https://about.gitlab.com/handbook/engineering/development/sec/govern/)
+[Govern stage primary handbook page](/handbook/engineering/development/sec/govern/)
 
 **Slack channels**
 
@@ -674,11 +485,11 @@ WHERE field = stage_name
 
 [Handbook page to find Govern team members to collaborate with](/handbook/product/categories/#govern-stage)
 
-[Govern Handbook page section to find Govern engineering team members to collaborate with](https://about.gitlab.com/handbook/engineering/development/sec/govern/#sub-department-development-people-leaders)
+[Govern Handbook page section to find Govern engineering team members to collaborate with](/handbook/engineering/development/sec/govern/#sub-department-development-people-leaders)
 
 </details>
 
-### Enablement Section
+### Core Platforms Section
 
 
 #### Systems Stage (Distribution, Gitaly, Geo Groups)
@@ -690,12 +501,11 @@ Supports enterprise-grade operational experience of GitLab products from streaml
 
 **Top dashboards referenced by this team**
 
-- All dashboards commonly referenced by this team that will be transitioned to Tableau in CY2023 can be found in this [Enablement Tableau Transition Epic](https://gitlab.com/groups/gitlab-data/-/epics/820).
-
+- All Tableau Dashboards are organized in Collections, specifically [Core & SaaS Platforms General Collection](https://10az.online.tableau.com/#/site/gitlab/collections/78d30546-2f24-4a4a-8378-c88711f479c4?:origin=card_share_link) and [Core & SaaS Platforms SAFE Collection](https://10az.online.tableau.com/#/site/gitlab/collections/1c106c47-64b3-4cbf-b95d-c75fe2a0e9b4?:origin=card_share_link)
 
 **Important data documentation**
 
-There are no Enablement metrics currently collected in our Postgres Replica data for Gitlab.com
+There are no Enablement metrics currently collected in our Postgres Replica data for GitLab.com
 
 The following tables can be used for Service Ping metric reporting.
 
@@ -729,7 +539,7 @@ Includes Stage and Group level details
 
 **Key handbook pages**
 
-[Overall Enablement Section Handbook page for Engineering](https://about.gitlab.com/handbook/engineering/development/enablement/)
+[Overall Enablement Section Handbook page for Engineering](/handbook/engineering/development/enablement/)
 
 **Slack channels**
 
@@ -746,7 +556,7 @@ Includes Stage and Group level details
 
 OR
 
-[All team members section of engineering page](https://about.gitlab.com/handbook/engineering/development/enablement/#all-team-members)
+[All team members section of engineering page](/handbook/engineering/development/enablement/#all-team-members)
 
 </details>
 
@@ -758,12 +568,12 @@ Supports enterprise-grade operational experience of GitLab products from streaml
 
 **Top dashboards referenced by this team**
 
-- All dashboards commonly referenced by this team that will be transitioned to Tableau in CY2023 can be found in this [Enablement Tableau Transition Epic](https://gitlab.com/groups/gitlab-data/-/epics/820).
+- All Tableau Dashboards are organized in Collections, specifically [Core & SaaS Platforms General Collection](https://10az.online.tableau.com/#/site/gitlab/collections/78d30546-2f24-4a4a-8378-c88711f479c4?:origin=card_share_link) and [Core & SaaS Platforms SAFE Collection](https://10az.online.tableau.com/#/site/gitlab/collections/1c106c47-64b3-4cbf-b95d-c75fe2a0e9b4?:origin=card_share_link)
 
 
 **Important data documentation**
 
-There are no Enablement metrics currently collected in our Postgres Replica data for Gitlab.com
+There are no Enablement metrics currently collected in our Postgres Replica data for GitLab.com
 
 The following tables can be used for Service Ping metric reporting.
 
@@ -797,7 +607,7 @@ Includes Stage and Group level details
 
 **Key handbook pages**
 
-[Overall Enablement Section Handbook page for Engineering](https://about.gitlab.com/handbook/engineering/development/enablement/)
+[Overall Enablement Section Handbook page for Engineering](/handbook/engineering/development/enablement/)
 
 **Slack channels**
 
@@ -816,7 +626,7 @@ Includes Stage and Group level details
 
 OR
 
-[All team members section of engineering page](https://about.gitlab.com/handbook/engineering/development/enablement/#all-team-members)
+[All team members section of engineering page](/handbook/engineering/development/enablement/#all-team-members)
 
 </details>
 
@@ -835,15 +645,15 @@ Growth owns the free and trial registration and new user onboarding experiences.
 
 **Top dashboards referenced by this team**
 
-- All dashboards commonly referenced by this team that will be transitioned to Tableau in CY2023 can be found in this [Growth Tableau Transition Epic](https://gitlab.com/groups/gitlab-data/-/epics/729).
+- - All Tableau Dashboards are organized in Collections, specifically [Growth General Collection](https://10az.online.tableau.com/#/site/gitlab/collections/9fce437d-d001-412a-a4c4-a327aeb882ff?:origin=card_share_link) and [Growth SAFE Collection](https://10az.online.tableau.com/#/site/gitlab/collections/8740c9bc-6d9d-4e3e-af5a-11b48f48e925?:origin=card_share_link)
 
 - [Growth Section Product Data Insights Hub in Tableau](https://10az.online.tableau.com/t/gitlab/views/GrowthSectionProductDataInsightsHub/GrowthSectionProductDataInsightsHub)
 
-- [Filterable Growth Experiment Analysis Dashboard](https://app.periscopedata.com/app/gitlab/1121391/Filterable-Growth-Experiment-Analysis)
+- [Filterable Growth Experiment Analysis Dashboard](https://10az.online.tableau.com/#/site/gitlab/views/USETHISFINALGLEX/GLEXExperimentAnalysisDashboard?:iid=1)
 
-- [Growth Experiment Event Validation](https://app.periscopedata.com/app/gitlab/1120337/Growth-Experiment-Event-Validation)
+- [Growth Experiment Event Validation](https://10az.online.tableau.com/#/site/gitlab/workbooks/2241316/views)
 
-- [Snowplow Event Exploration L30D](https://app.periscopedata.com/app/gitlab/539181/Snowplow-Event-Exploration---last-30-days) - commonly sent to engineers for event validation.
+- [Snowplow Event Exploration L30D](https://10az.online.tableau.com/#/site/gitlab/views/SnowplowEventExplorationLast30Days/SnowplowEventExplorationLast30D) - commonly sent to engineers for event validation.
 
 
 **Important data documentation**
@@ -870,7 +680,7 @@ Growth owns the free and trial registration and new user onboarding experiences.
 
 **Key handbook pages**
 
-[Overall Growth Section Handbook page for Engineering](https://about.gitlab.com/handbook/engineering/development/growth/)
+[Overall Growth Section Handbook page for Engineering](/handbook/marketing/growth/engineering/)
 
 [Growth Direction Page](/handbook/marketing/growth/)
 
@@ -881,6 +691,6 @@ Growth owns the free and trial registration and new user onboarding experiences.
 
 **Team members**
 
-[All team members section of engineering page](https://about.gitlab.com/handbook/engineering/development/growth/#all-team-members)
+[All team members section of engineering page](/handbook/marketing/growth/engineering/#all-team-members)
 
 </details>

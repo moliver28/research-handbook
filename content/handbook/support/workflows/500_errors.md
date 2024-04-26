@@ -85,7 +85,7 @@ Once results have been found in either Kibana or Sentry, do the following.
 1. Search the [GitLab issue tracker](https://gitlab.com/gitlab-org/gitlab) for any duplicate or related issue.
 1. Confirm if the issue is known or unknown and proceed accordingly: [Issue is known](#issue-is-known) or [Issue is unknown](#issue-is-unknown).
 
-In a Priority 1/Severity 1 situation, consider a [dev escalation](https://about.gitlab.com/handbook/engineering/development/processes/Infra-Dev-Escalation/process.html).
+In a Priority 1/Severity 1 situation, consider a [dev escalation](/handbook/engineering/development/processes/Infra-Dev-Escalation/process.html).
 
 #### Responding to the user
 

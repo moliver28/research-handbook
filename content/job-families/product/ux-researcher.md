@@ -54,21 +54,21 @@ The UX Researcher (Intermediate) is a [grade 6](/handbook/total-rewards/compensa
 
 - Advocate for and socialize actionable insights independently and in a clear and compelling way.
 
-- Conduct impactful research that informs decisions within stage groups.
-
 - With the help of your manager, create high-quality deliverables that tell compelling stories integrated with research findings. This is typically accomplished through reports, presentations, video recordings, etc.
 
 - Know your stage groups: understand the technology, experiences, and features of your assigned stage groups. Maintain a thorough knowledge of the direction and vision for your assigned stage groups.
 
 - Know GitLab users in your stage groups: develop a deep empathic understanding of your users, learn about their needs, and identify gaps.
 
+- Show an understanding of your stakeholders by familiarising yourself with their objectives, processes, and obstacles. Apply this knowledge in stakeholder engagement and collaboration, e.g. on planning and prioritisation.
+
 - With the help of your manager and product leadership, effectively prioritize your research efforts across stage groups. Align with Product teams while considering impact, the goals of your stage groups, the broader product direction, and company objectives.
+
+- Demonstrate research impact across **your assigned stage group(s)** through your research efforts
 
 - Respond to solution validation user research inquiries that are escalated by Product Design.
 
 - Guide Product Managers and Product Designers to conduct research with a high degree of rigor. Help them follow defined research processes (for example, handbook procedures, opening and closing issues for research studies, documenting actionable insights, etc).
-
-- Demonstrate, explain, and teach others how to apply a range of research methods, understanding the balance and trade offs between scrappy research and rigor.
 
 - Learn from and be mentored by other UX Researchers.
 
@@ -92,8 +92,6 @@ The Intermediate responsibilities, plus the responsibilities below:
 
 - Drive a company-wide research-based program: design or improve upon a methodology (if needed), collect and report out findings.
 
-- Conduct impactful research that informs decisions across stage groups **and adjacent stage groups**.
-
 - Create high-quality deliverables that tell compelling stories integrated with research findings. This is typically accomplished through reports, presentations, video recordings, etc.
 
 - Know your stage groups: understand the technology, experiences, and features of your assigned **and adjacent stage groups**. Maintain a thorough knowledge of the direction and vision for your assigned stages **and stage groups**.
@@ -104,7 +102,9 @@ The Intermediate responsibilities, plus the responsibilities below:
 
 - Make connections between disparate research initiatives. This can be done by: identifying existing research that supplements a new initiative, looking for commonalities in findings to surface larger "macro" insights, through data triangulation, and/or by combining similar research efforts.
 
-- Lead and mentor other Researchers on methods, communication, and successful collaboration/working models.
+- **Consistently** demonstrate research impact across **your assigned stage group(s)** through your research efforts
+
+- Lead and mentor other Researchers on methods, communication, successful collaboration/working models, and support the mentee's personal and professional growth by collaborating with them on projects, sharing expertise, providing guidance, while offering constructive feedback.
 
 ### Staff
 
@@ -126,11 +126,11 @@ The Senior responsibilities, plus the responsibilities below:
 
 - Know GitLab: understand the technology, experiences, and features of the GitLab product. Demonstrate that knowledge by being able to ramp up and conduct research on any portion of the product.
 
-- Know GitLab users: develop a deep empathic understanding of GitLab users in various contexts, learn about their needs, and identify gaps. Demonstrate that knowledge through your research insights and recommendations.
+- Know GitLab users: develop a deep empathic understanding of GitLab users in various contexts, learn about their needs, and identify gaps. Demonstrate that knowledge through your research insights and recommendations. **Emphasis on your assigned section(s)**.
 
 - Practice flexibility by leading and partnering with a variety of teams and disciplines with the goal of delivering research insights.
 
-- Conduct impactful research that informs decisions **across our product lifecycle**.
+- **Consistently** demonstrate research impact across **your assigned section(s)** through your research efforts.
 
 - **Set the quality standard for the UX Research team** through expert delivery of high-quality artifacts that tell compelling stories integrated with research findings.
 
@@ -141,8 +141,6 @@ The Senior responsibilities, plus the responsibilities below:
 - Actively contribute to the UX Research team culture by iterating on existing processes and documentation. Contribute to peer reviews **and create new educational documentation/resources**.
 
 - Actively seek out difficult impediments to our efficiency as a team (process, tooling, etc). Propose and implement solutions that will enable the entire team to work more efficiently and enhance the quality of research practices and deliverables across the team.
-
-- Elevate the UX research skills of Product Designers, Product Managers, and other UX Researchers by providing clear, concise guidance on research methodology.
 
 - Mentor other Researchers by inviting them to participate in your research projects.
 
@@ -160,11 +158,15 @@ The Principal UX Researcher is a [grade 9](/handbook/total-rewards/compensation/
 
 The Staff responsibilities, plus the responsibilities below:
 
+- Influence stakeholders to act upon research insights and recommendations
+
 - Proactively and consistently make connections between disparate research initiatives. This can be done by: identifying existing research that supplements a new initiative, looking for commonalities in findings to surface larger "macro" insights, through data triangulation, and/or combining similar research efforts. **Set the standard on how this effectively accomplished for the UX Research team.**
 
 - Know GitLab users: develop a deep empathic understanding of GitLab users in various contexts, learn about their needs, and identify gaps. Demonstrate that knowledge through your research insights and recommendations. **Emphasis on GitLab users who use multiple sections.**
 
-- Effectively prioritize your overall research efforts. Align with **section Directors, VPs, and C-level executives** while considering impact, type of research, the goals of stage groups, the broader product direction, and company objectives.
+- **Consistently** demonstrate research impact across **multiple sections and teams** through your research efforts
+
+- Effectively prioritize your overall research efforts **by establishing an informed research strategy**. Align **and collaborate** with **section Directors, and VPs** while considering impact, type of research, the goals of stage groups, the broader product direction, and company objectives.
 
 ## Hiring Process
 
@@ -174,23 +176,56 @@ Candidates for this position can expect the hiring process to follow the order b
 
 - The next step will be a 45-min meeting to cover some scenario-based questions where will look to understand how you handle common situations that UX Researchers find.
 
-- After that, we'll invite you to record a case study walkthrough video. The recording is expected to be **20-minutes in duration** and returned **within ten days** of the screening call. In addition to the details below, [this discussion on our GitLab Unfiltered YouTube playlist](https://youtu.be/VU2BKjGoer4) provides an overview of what we're looking for.
+- After that, we'll invite you to record a case study walkthrough video. The recording is expected to be **20-minutes in duration** and returned **within ten days** of your screening call and scenario-based interview being completed.
+
+<figure class="video_container">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/TPMAjrCxJik?si=M-Ww_p4Y_KkpyQMj" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</figure>
+
+<details>
+<summary>Video transcript</summary>
+
+Hello, I'm Karen Li, the UX Research Manager at GitLab. Thank you for showing interest in working with us.
+
+Our hiring process consists of multiple steps. This helps us best learn about you. And it's a great opportunity for you to learn about us, too.
+
+You can read all about the details of each steps on this page. But there are just a few things I'd like to highlight about the video task, which may be new to some candidates:
+
+1. Firstly, the video task is probably the best (if not only) opportunity to dive really deep into how you approach research challenges, so choose your case study wisely. It could be foundational, strategic, or problem validation that's complex in nature, anything you are proud of.
+1. Secondly, the interviewers will also have access to notes from your previous interview steps. This means you can keep the self introduction to under 1 minute, and allow sufficient time to share the details of the research challenge, your thinking process, and your crafts and skills.
+1. And finally, make sure to read all sections below, before constructing your video. We have listed a set of topics that we are interested in below. Anything else you'd like to share is welcome, too. Just make sure to keep the length of the video to 20 minutes.
+
+Once again, thank you for showing your interest, and all the best with your job application.
+
+</details>
+<br>
 
 > ### Why we ask for a pre-recorded presentation
 >
-> 1. It helps create a shared understanding of your work between you and our interviewers ahead of the first interview.
+> 1. It helps create a shared understanding of your work between you and our interviewers ahead of the first team interview.
 > 1. It allows us to ask more informed questions about your experience and work during the interview process.
 > 1. Generally, we [avoid using meetings as a means to present](/handbook/communication/#common-meeting-problems). Instead, we record presentations, upload to our Unfiltered Youtube channel, and use a meeting as a Q&A. This interview exercise provides you with an opportunity to experience this style of work.
 >
 > ### Presentation Topics
 >
-> 1. An introduction: who you are, where you're based, your background, and why you're a UX Researcher.
-> 1. An overview of one *or* two research studies. We want to understand: why you chose to present this case study, the size, discipline make-up, and structure of the team you were a part of; the goals of the project; how you approached research; what you personally did on the project, how you synthesized research data to inform product and design decisions; the final output of your research; the challenges you faced throughout the project; and the meaningful business impact that the research resulted in.
+> [This short discussion on our GitLab Unfiltered YouTube playlist](https://youtu.be/VU2BKjGoer4) provides an overview of the topics we'd love to see covered.
+> 1. A short introduction: who you are, where you're based, your background, and why you're a UX Researcher.
+> 1. An overview of one *or* two research studies. We want to understand:
+>    - What the research questions are *or* the problems the research aims to address;
+>    - Why you chose to present this case study;
+>    - The size and the structure of the team (e.g. how many Project Managerss, UX Designers, Developers, UX Researchers);
+>    - What your role was, meaning what you personally did or did not do on the project;
+>    - How and why you took the approach you did to field the research (and why not other approaches);
+>    - How you synthesized the research data to inform product and design decisions;
+>    - The final output of your research;
+>    - The challenges you faced throughout the project and how you overcame them;
+>    - Any high-level findings that you can share while respecting any confidentiality rules in place;
+>    - The meaningful business and cultural impact that the research resulted in.
 >
 > ### What we're looking for
 >
-> - A recording that is up to 20 minutes in duration and returned to us within ten days of your screening call being completed.
-> - Ideally, one case study you present should be relevant to the work you'd expect do at GitLab. This could be because the case study involved research into the [persona(s)](/handbook/product/personas/#user-personas) you'd study at GitLab, the case study related to the DevOps or Developer tooling industry, the case study relates to the [Stage](/handbook/product/categories/#devops-stages) you're interviewing for, is a case study that went across multiple methods, or was a case study that would be considered complex in nature. Note that at GitLab, UX Researchers at any level are working on [problem validation](https://about.gitlab.com/handbook/engineering/ux/ux-research-training/problem-validation-and-methods/), [foundational](/handbook/product/ux/ux-research/foundational-research/) or [strategic](/handbook/product/ux/ux-research/strategic-research-at-gitlab/) research projects, while Product Designers conduct solution validation. We'd like to see a case study that is of problem validation, foundational, or strategic nature.
+> - A recording that is up to 20 minutes in duration and returned to us within ten days of your scenario-based interview being completed.
+> - Ideally, one case study you present should be relevant to the work you'd expect do at GitLab. This could be because the case study involved research into the [persona(s)](/handbook/product/personas/#user-personas) you'd study at GitLab, the case study related to the DevOps or Developer tooling industry, the case study relates to the [Stage](/handbook/product/categories/#devops-stages) you're interviewing for, is a case study that went across multiple methods, or was a case study that would be considered complex in nature. Note that at GitLab, UX Researchers at any level are working on [problem validation](/handbook/engineering/ux/ux-research-training/problem-validation-and-methods/), [foundational](/handbook/product/ux/ux-research/foundational-research/) or [strategic](/handbook/product/ux/ux-research/strategic-research-at-gitlab/) research projects, while Product Designers conduct solution validation. We'd like to see a case study that is of problem validation, foundational, or strategic nature.
 > - You share the recording using either a [unlisted Youtube link](https://support.google.com/youtube/answer/157177?co=GENIE.Platform%3DDesktop&hl=en), a [Google Drive link](https://support.google.com/drive/answer/2494822?co=GENIE.Platform%3DDesktop&hl=en), or a [Loom link](https://www.loom.com/).
 > - Your presentation to address each of the topics listed above.
 >

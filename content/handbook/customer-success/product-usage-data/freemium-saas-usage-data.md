@@ -67,7 +67,7 @@ You can view this on the Salesforce Account page, or create a Salesforce report 
 | Namespace details | Plan | Tells if the namespace is in Trial or Free plan |
 | Namespace details | Duplicate Note | Tells if the namespace is displayed in other accounts as well or just in this account |
 | Owner details | SFDC_ID | If the owner is already a salesforce lead or contact, it shows the person salesforce id |
-| Owner details | User Name | Their username for Gitlab product |
+| Owner details | User Name | Their username for GitLab product |
 | Metric | Num of billable users | The number of users in the namespace that could be billed for |
 | Metric | Num of active users | The number of billable users in the namespace who have logged in and used 1+ stages in the last 3 months |
 | Metric | Num of stages | Measures the number of stages being used in the namespace in the last 3 months (e.g., Create, Verify, and Package would be "3") |

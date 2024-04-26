@@ -15,7 +15,7 @@ twitter_image: '/images/tweets/research-panel.png'
 
 _[The original and internal-to-GitLab proof points Google Doc is online, here](https://docs.google.com/document/d/1Tuhg6LO0e6R-KP7Vfwb8cggHDiBzkC26pBl0lyLS7UY/edit) while some parts of this handbook page are being approved for publication.*
 
-Proof points with third-party validation are a key resource, whether from [customers](#customer-references-and-case-studies), [analysts](/handbook/sales/command-of-the-message/proof-points/#analyst-reports-and-studies), [industry awards](/handbook/sales/command-of-the-message/proof-points/#industry-awards), or [peer reviews](/handbook/sales/command-of-the-message/proof-points/#peer-reviews), and they are augmented here with [Gitlab's own industry research](/handbook/sales/command-of-the-message/proof-points/#gitlab-reports-and-studies).
+Proof points with third-party validation are a key resource, whether from [customers](#customer-references-and-case-studies), [analysts](/handbook/sales/command-of-the-message/proof-points/#analyst-reports-and-studies), [industry awards](/handbook/sales/command-of-the-message/proof-points/#industry-awards), or [peer reviews](/handbook/sales/command-of-the-message/proof-points/#peer-reviews), and they are augmented here with [GitLab's own industry research](/handbook/sales/command-of-the-message/proof-points/#gitlab-reports-and-studies).
 
 Articulating value is a critical sales skill in achieving [Command of the Message](/handbook/sales/command-of-the-message/).
 
@@ -25,7 +25,7 @@ Articulating value is a critical sales skill in achieving [Command of the Messag
 
 #### Enterprise
 
-<big>[Goldman Sachs](/customers/goldman-sachs/)</big><br>
+<big>[Goldman Sachs](https://about.gitlab.com/customers/goldman-sachs/)</big><br>
 **Problem:** Needed to increase developer efficiency and software quality<br>
 **Solution:** GitLab Premium (CI/CD, VC&C)<br>
 **Result:** Improved from 1 build every two weeks to over a 1000/day, or releasing 6 times per day per developer, and an average cycle time from branch to merge is now 30 minutes; simplified workflow and simplified administration<br>
@@ -36,7 +36,7 @@ Articulating value is a critical sales skill in achieving [Command of the Messag
 
 ----
 
-<big>[Sopra Steria](/customers/sopra_steria/)</big><br>
+<big>[Sopra Steria](https://about.gitlab.com/customers/sopra_steria/)</big><br>
 **Problem:** Needed a solution to empower developers and accelerate software efficiency<br>
 **Solution:** GitLab Premium (CI/CD, SCM)<br>
 **Result:** One solution for over 10,000 Users, 6 minutes for a software build, Zero Developer time for CI/CD<br>
@@ -47,7 +47,7 @@ Articulating value is a critical sales skill in achieving [Command of the Messag
 
 ----
 
-<big>[NVIDIA](/customers/nvidia/)</big><br>
+<big>[NVIDIA](https://about.gitlab.com/customers/nvidia/)</big><br>
 **Problem:** Dispersed development groups faced mirroring issues in time management and security<br>
 **Solution:** GitLab Premium (CI/CD, SCM)<br>
 **Result:** Zero downtime, 51% user growth in 1 year and 99% uptime resulting in increased efficiency<br>
@@ -58,7 +58,7 @@ Articulating value is a critical sales skill in achieving [Command of the Messag
 
 ----
 
-<big>[Cook County Assessor's Office](/customers/cook-county/)</big><br>
+<big>[Cook County Assessor's Office](https://about.gitlab.com/customers/cook-county/)</big><br>
 **Problem:** Cook County needed a data management platform for secure and accurate property assessments<br>
 **Solution:** GitLab Premium<br>
 **Result:** Over 1.8 million properties assessed with an estimated market value of $270 billion. There are 31 repositories, with over 1,400 commits<br>
@@ -90,7 +90,7 @@ Articulating value is a critical sales skill in achieving [Command of the Messag
 
 ----
 
-<big>[Hemmersbach](/customers/hemmersbach/)</big><br>
+<big>[Hemmersbach](https://about.gitlab.com/customers/hemmersbach/)</big><br>
 **Problem:** Multiple tools and communication inefficiencies slowed application delivery<br>
 **Solution:** GitLab Ultimate (Agile, CI, CD, VC&C)<br>
 **Result:** Increased build speed by 59x, 14.4% improvement in cycle time<br>
@@ -100,7 +100,7 @@ Articulating value is a critical sales skill in achieving [Command of the Messag
 
 ----
 
-<big>[European Space Agency](/customers/european-space-agency/)</big><br>
+<big>[European Space Agency](https://about.gitlab.com/customers/european-space-agency/)</big><br>
 **Problem:** Geographic separation led to software deployment that used to take weeks<br>
 **Solution:** GitLab Free (VC&C, CI)<br>
 **Result:** Toolchain simplified and blooming culture of collaboration; code deployed in minutes when it used to take weeks<br>
@@ -119,7 +119,7 @@ Articulating value is a critical sales skill in achieving [Command of the Messag
 
 ----
 
-<big>[CERN](/customers/cern/)</big><br>
+<big>[CERN](https://about.gitlab.com/customers/cern/)</big><br>
 **Problem:** Lack of large scale collaboration and visibility<br>
 **Solution:** GitLab Free (CI)<br>
 **Result:** Over 12,000 users collaborate on GitLab, running 120,000 CI jobs each month<br>
@@ -151,7 +151,7 @@ Articulating value is a critical sales skill in achieving [Command of the Messag
 
 ----
 
-<big>[Fanatics](/customers/fanatics/)</big><br>
+<big>[Fanatics](https://about.gitlab.com/customers/fanatics/)</big><br>
 **Problem:** CI pipelines took up so much bandwidth, impacted ability to deliver new tools and features; spent inordinate amount of time on CI maintenance<br>
 **Solution:** GitLab Premium (CI)<br>
 **Result:** GitLab provided the stable CI that Fanatics was looking for, enabling the cloud team to focus on innovation instead of simply fighting fires<br>
@@ -174,7 +174,7 @@ Articulating value is a critical sales skill in achieving [Command of the Messag
 
 #### Mid-Market
 
-<big>[Alteryx](/customers/alteryx/)</big><br>
+<big>[Alteryx](https://about.gitlab.com/customers/alteryx/)</big><br>
 **Problem:** Legacy developer tools slowed software delivery frequency<br>
 **Solution:** GitLab Ultimate(CI, CD, Security, SCM)<br>
 **Result:** Software builds now 30 minutes from over 3 hours, able to release 9 times a day<br>
@@ -185,7 +185,7 @@ Articulating value is a critical sales skill in achieving [Command of the Messag
 
 ----
 
-<big>[KnowBe4](/customers/knowbe4/)</big><br>
+<big>[KnowBe4](https://about.gitlab.com/customers/knowbe4/)</big><br>
 **Problem:** KnowBe4 was looking for a tool to keep code in-house and that offered the capabilities of several tools in one<br>
 **Solution:** GitLab Ultimate (CI, CD, Security, SCM) and AWS<br>
 **Result:** Over 5 times more production deploys daily and over 20 times more development environments deploy per day for any given application<br>
@@ -207,7 +207,7 @@ Articulating value is a critical sales skill in achieving [Command of the Messag
 
 ----
 
-<big>[EAB](/customers/EAB/)</big><br>
+<big>[EAB](https://about.gitlab.com/customers/EAB/)</big><br>
 **Problem:** Slow builds, expensive both in cost and maintenance due to multiple tools<br>
 **Solution:** GitLab Premium (VC&C, CI)<br>
 **Result:** Build time reduced from 6 hours to 20 minutes, reduced toolchain complexity, and lightweight maintenance<br>
@@ -216,7 +216,7 @@ Articulating value is a critical sales skill in achieving [Command of the Messag
 
 ----
 
-<big>[Worldline](/customers/worldline/)</big><br>
+<big>[Worldline](https://about.gitlab.com/customers/worldline/)</big><br>
 **Problem:** Long cycle times and hard to collaborate between developers<br>
 **Solution:** GitLab Community Edition (VC&C, CI)<br>
 **Result:** From 2 weeks to set up a new project to just minutes, 120x increase in code reviews<br>
@@ -226,7 +226,7 @@ Articulating value is a critical sales skill in achieving [Command of the Messag
 
 ----
 
-<big>[Paessler AG](/customers/paessler/)</big><br>
+<big>[Paessler AG](https://about.gitlab.com/customers/paessler/)</big><br>
 **Problem:** Unstable and fragile developer tools resulted in slow QA cycles and infrequent releases<br>
 **Solution:** GitLab Premium (VC&C, CI, CD)<br>
 **Result:** 120x faster QA, 4x more frequent releases<br>
@@ -237,7 +237,7 @@ Articulating value is a critical sales skill in achieving [Command of the Messag
 
 ----
 
-<big>[Extra Hop Networks](/customers/extra-hop-networks/)</big><br>
+<big>[Extra Hop Networks](https://about.gitlab.com/customers/extra-hop-networks/)</big><br>
 **Problem:** Legacy developer tools prevented collaboration and faster delivery<br>
 **Solution:** GitLab<br>
 **Result:** Unified developers on a common platform, reduced the total number of tools, and eased the transition to CI/CD<br>
@@ -246,7 +246,7 @@ Articulating value is a critical sales skill in achieving [Command of the Messag
 
 ----
 
-<big>[BI Worldwide](/customers/bi_worldwide/)</big><br>
+<big>[BI Worldwide](https://about.gitlab.com/customers/bi_worldwide/)</big><br>
 **Problem:** Legacy systems and a lack of security lead to deployment cycles of 18 months<br>
 **Solution:** GitLab Ultimate<br>
 **Result:** Daily releases and increased collaboration in single tool<br>
@@ -257,7 +257,7 @@ Articulating value is a critical sales skill in achieving [Command of the Messag
 
 ----
 
-<big>[Hotjar](/customers/hotjar/)</big><br>
+<big>[Hotjar](https://about.gitlab.com/customers/hotjar/)</big><br>
 **Problem:** Hotjar, a growing all-remote company, was looking for an enhanced CI/CD tool to replace Jenkins<br>
 **Solution:** GitLab Premium<br>
 **Result:** Daily deploys increased from 2 to 15, 30% decrease in time to build GitLab CI vs Jenkins, and 50% deployment time saved<br>
@@ -267,7 +267,7 @@ Articulating value is a critical sales skill in achieving [Command of the Messag
 
 ----
 
-<big>[Remote](/customers/remote/)</big><br>
+<big>[Remote](https://about.gitlab.com/customers/remote/)</big><br>
 **Problem:** Remote wanted to get up and running quickly without spending time and money on a multi-toolchain<br>
 **Solution:** GitLab Premium<br>
 **Result:** 100% of deadline met, 100% focus on product and 3795 code pushed in a 3 month period<br>
@@ -277,7 +277,7 @@ Articulating value is a critical sales skill in achieving [Command of the Messag
 
 ----
 
-<big>[Chorus](/customers/chorus/)</big><br>
+<big>[Chorus](https://about.gitlab.com/customers/chorus/)</big><br>
 **Problem:** As Chorus.ai was getting established, they wanted to create an efficient build process<br>
 **Solution:** GitLab Ultimate (SCM, CI, DevSecOps)<br>
 **Result:** 6 week production cycles reduced to 1 week, over 100 builds per day. During a recent audit for SOC2 compliance, the auditors said that Chorus had the fastest auditing process they have seen and most of that is due to the capabilities of GitLab<br>
@@ -287,7 +287,7 @@ Articulating value is a critical sales skill in achieving [Command of the Messag
 
 ----
 
-<big>[Jasper Solutions](/customers/jasper-solutions/)</big><br>
+<big>[Jasper Solutions](https://about.gitlab.com/customers/jasper-solutions/)</big><br>
 **Problem:** Jasper Solutions needed a platform that offers security, code management, and consistent pipelines in order to create its dynamic tactical edge “DevSecOps in a box<br>
 **Solution:** GitLab Ultimate (SCM, CI, CD)<br>
 **Result:** 30% reduction in cycle time, 25% increase in deployment frequency and 90-95% of projects are on time and on budget<br>
@@ -297,7 +297,7 @@ Articulating value is a critical sales skill in achieving [Command of the Messag
 
 ----
 
-<big>[SVA](/customers/sva/)</big><br>
+<big>[SVA](https://about.gitlab.com/customers/sva/)</big><br>
 **Problem:** SVA was looking for a platform to improve central code management and workflow CI<br>
 **Solution:** GitLab CE<br>
 **Result:** SVA has over 500 active GitLab users, 110 groups and over 1571 projects<br>
@@ -308,7 +308,7 @@ Articulating value is a critical sales skill in achieving [Command of the Messag
 
 ----
 
-<big>[Glympse](/customers/glympse/)</big><br>
+<big>[Glympse](https://about.gitlab.com/customers/glympse/)</big><br>
 **Problem:** Slow software development and delivery due to expensive and complex developer tool stack<br>
 **Solution:** GitLab Ultimate (Security, Agile, CI, CD, VC&C)<br>
 **Result:** Teams over 2x more efficient, completing 50 days of work in 21 days; 8x faster deploys, from 4 hours to under 30 min; built-in security scanning making audit process easier<br>
@@ -320,7 +320,7 @@ Articulating value is a critical sales skill in achieving [Command of the Messag
 
 ----
 
-<big>[ANWB](/customers/anwb/)</big><br>
+<big>[ANWB](https://about.gitlab.com/customers/anwb/)</big><br>
 **Problem:** Complex and fragile developer tools hindered productivity<br>
 **Solution:** GitLab Premium (VC&C, CI, CD)<br>
 **Result:** Regular deploys, collaboration, and stable and reliable CI/CD pipelines<br>
@@ -329,7 +329,7 @@ Articulating value is a critical sales skill in achieving [Command of the Messag
 
 ----
 
-<big>[OW2](/customers/ow2/)</big><br>
+<big>[OW2](https://about.gitlab.com/customers/ow2/)</big><br>
 **Problem:** Enabling global open source collaboration<br>
 **Solution:** GitLab<br>
 **Result:** Easier to use platform that improves productivity<br>
@@ -338,7 +338,7 @@ Articulating value is a critical sales skill in achieving [Command of the Messag
 
 ----
 
-<big>[Trek10](/customers/trek10/)</big><br>
+<big>[Trek10](https://about.gitlab.com/customers/trek10/)</big><br>
 **Problem:** Hard to collaborate across silos and with customers on cloud projects<br>
 **Solution:** GitLab Free (CI)<br>
 **Result:** GitLab and its integrated CI helps seamlessly and securely manage deployments across many AWS accounts<br>
@@ -478,7 +478,7 @@ GitLab customers were interviewed and related data was collected independently b
 
 #### 2019
 
-<big>[Forrester: Manage Your Toolchain Before it Manages You](/resources/whitepaper-forrester-manage-your-toolchain/)</big><br>
+<big>[Forrester: Manage Your Toolchain Before it Manages You](https://about.gitlab.com/resources/whitepaper-forrester-manage-your-toolchain/)</big><br>
 *Multiple tools and toolchains create visibility, security, and productivity challenges for development and operations teams. “Out-of-the-box” toolchain solutions are seen as a solution, increasing security, revenue, and quality.*<br>
 **Value Drivers:** Efficiency, Speed, Risk<br>
 **Differentiators:** Visibility<br>

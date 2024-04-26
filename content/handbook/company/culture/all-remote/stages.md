@@ -178,7 +178,7 @@ However, this does come with disadvantages. These may include loneliness, challe
 
 ## 10. Strictly remote
 
-Taken to its extreme, a strictly remote company would never meet in person and never permit synchronous meetings. This seems impractical, and we are not yet aware of a company that adheres to this. If you are aware of any such company, please [create a merge request](https://about.gitlab.com/handbook/git-page-update#13-edit-the-handbook) and assign to `@dmurph` to evaluate.
+Taken to its extreme, a strictly remote company would never meet in person and never permit synchronous meetings. This seems impractical, and we are not yet aware of a company that adheres to this. If you are aware of any such company, please [create a merge request](https://docs.gitlab.com/ee/user/project/merge_requests/creating_merge_requests.html) and assign to `@dmurph` to evaluate.
 
 ## GitLab Remote Foundations Badge
 

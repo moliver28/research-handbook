@@ -1,10 +1,7 @@
 ---
 title: "GitLab Audit Logging Policy"
+controlled_document: true
 ---
-
-{{% alert title="This is a Controlled Document" color="danger" %}}
-Inline with GitLab's regulatory obligations, changes to [controlled documents]({{< ref "controlled-document-procedure" >}}) must be approved or merged by a code owner. All contributions are welcome and encouraged.
-{{% /alert %}}
 
 ## Purpose
 
@@ -41,5 +38,5 @@ Exceptions to this policy will be tracked as per the [Information Security Polic
 
 - Parent Policy: [Information Security Policy]({{< ref "_index.md" >}})
 - [What is considered production](https://gitlab.com/gitlab-com/gl-security/security-assurance/sec-compliance/compliance/-/blob/master/production_definition.md)
-- [Production Architecture](https://about.gitlab.com/handbook/engineering/infrastructure/production/architecture/)
+- [Production Architecture](/handbook/engineering/infrastructure/production/architecture/)
 - Configuration Management

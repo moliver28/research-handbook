@@ -27,7 +27,7 @@ Sales or other areas of the company. This is a keystone process that requires cr
 This is a non-comprehensive list of topics to be discussed.
 
 - [What is the single source of truth for knowing which customers are escalated?](https://gitlab.com/gitlab-com/customer-success/tam/-/issues/619)
-- How can we make account escalations easier to declare? (see: [Declaring an Incident](https://about.gitlab.com/handbook/engineering/infrastructure/incident-management/#declaring-an-incident))
+- How can we make account escalations easier to declare? (see: [Declaring an Incident](/handbook/engineering/infrastructure/incident-management/#declaring-an-incident))
 - How can we better prepare CS and Support ICs to work within escalations
 - Reduce the ambiguity in roles between CS and Support
 
@@ -48,4 +48,4 @@ This is a non-comprehensive list of topics to be discussed.
 | Member                  | @christiaanconover | Christiaan Conover | Director of Customer Success Management (AMER) |
 | Member                  | @manuel.kraft | Manuel Kraft | Customer Success Manager (EMEA) |
 | Member                  | @ricardoamarilla  | Ricardo Amarilla | Customer Success Manager (LATAM) |
-| Member                  | @afappiano  | Anthony Fappiano | Engineering Manager, [Reliability](https://about.gitlab.com/handbook/engineering/infrastructure/team/reliability/) |
+| Member                  | @afappiano  | Anthony Fappiano | Engineering Manager, [Reliability](/handbook/engineering/infrastructure/team/reliability/) |

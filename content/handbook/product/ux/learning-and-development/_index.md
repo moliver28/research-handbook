@@ -10,6 +10,12 @@ The resources in this page are meant to support product designers, researchers, 
 
 Most of the resources here are free but any content requiring payment [can be reimbursed following the GitLab reimbursement policies](/handbook/spending-company-money/).
 
+## Growth and Development
+
+GitLab provides team members with the [growth and development benefit](/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development/) to access external resources to develop their career. To take advantage of this benefit, review the company handbook page and follow the process.
+
+Managers should add approved growth and development programs to the [department spreadsheet tracker](https://docs.google.com/spreadsheets/d/1hLm_XEX3Vux1Co_dMY5A74io8oqXArDAX6MonlBOYNg/edit#gid=1233213154) in order to track departmental budget.
+
 ## Mentoring and coaching
 
 ### College-level course involvement
@@ -93,7 +99,7 @@ Most of the resources here are free but any content requiring payment [can be re
 
 ### Handbook
 
-- [Minimum Viable Experiment](https://about.gitlab.com/handbook/engineering/development/growth/experimentation/#minimum-viable-experiment-mve)
+- [Minimum Viable Experiment](/handbook/marketing/growth/engineering/experimentation/#minimum-viable-experiment-mve)
 - [How Growth launches experiments](/handbook/product/growth/#how-growth-launches-experiments)
 - [Growth Experiments Knowledge Base](/handbook/marketing/growth/)
 

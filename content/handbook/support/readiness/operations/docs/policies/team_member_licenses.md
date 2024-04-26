@@ -4,17 +4,36 @@ description: Support Operations policies page for team member licenses
 canonical_path: "/handbook/support/readiness/operations/docs/policies/team_member_licenses"
 ---
 
+<sup>*Introduced via [support-team-meta#3335](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/3335)*</sup>
+
 ## The process
 
 The process for these is:
 
-1. The GitLab team member files an access request (AR) using the
-   [GitLab Team Member License request template](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=GitLab_Team_Member_License_request).
-1. GitLab team member pings Support Ops.
-1. Support Operations logs into the staging
+1. The GitLab team member submits a request via the
+   [Support Super Form](https://support-super-form-gitlab-com-support-support-op-651f22e90ce6d7.gitlab.io/).
+1. If valid, an issue is filed in
+   [support-ops-project](https://gitlab.com/gitlab-com/support/support-ops/support-ops-project).
+1. Support Operations logs into the
    [staging cDot app](https://customers.staging.gitlab.com/admin/license/new_license)
-   and generates the license using the parameters in the AR.
-1. Support Operations updates the AR and closes it out.
+   and confirms there is not an already existing license.
+1. Support Operations generates the license using the parameters in the issue.
+1. Support Operations updates the issue and closes it out.
+
+#### Checking for an existing license
+
+1. Login to the
+   [staging cDot app](https://customers.staging.gitlab.com/admins/sign_in) via
+   Okta.
+1. Click the [Licenses](https://customers.staging.gitlab.com/admin/license) link
+   on the left-hand side of the page.
+1. Type the email address in the search box and click `Refresh`.
+1. Review the results to see if an existing license (that is not expired) exists
+   can still be utilized.
+1. If one does exist, please ask for clarification why a new license is needed
+   when an existing one can be used still.
+1. Review the clarification given and make a decision if a new license is
+   warranted.
 
 #### Creating a license
 
@@ -38,19 +57,19 @@ the requester changes that.
    | Field                   | Value                              |
    |-------------------------|------------------------------------|
    | License Type            | Legacy License                     |
-   | Name                    | GitLab team member's full name     |
+   | Name                    | value from the issue               |
    | Company                 | `GitLab - Team Member License`     |
-   | Email                   | GitLab team member's company email |
+   | Email                   | value from the issue               |
    | Zuora subscription ID   | leave this blank                   |
    | Zuora subscription name | leave this blank                   |
-   | Users count             | value from the AR                  |
-   | Previous users count    | 0 or value from the AR             |
-   | Trueup count            | 0 or value from the AR             |
-   | Plan code               | value from the AR                  |
+   | Users count             | value from the issue               |
+   | Previous users count    | 0 or value from the issue          |
+   | Trueup count            | 0 or value from the issue          |
+   | Plan code               | value from the issue               |
    | Trial                   | leave unchecked                    |
    | Start date              | today's date                       |
-   | End date                | value from the AR                  |
-   | Notes                   | the AR link                        |
+   | End date                | value from the issue               |
+   | Notes                   | the issue link                     |
 
 #### Updating the issue
 

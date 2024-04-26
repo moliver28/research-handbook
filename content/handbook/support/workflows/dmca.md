@@ -33,4 +33,4 @@ Recommended template of requirements when submitting a DMCA request to <dmca@git
 
 ## GitLab.com
 
-Read more about [DMCA Policy](https://about.gitlab.com/handbook/dmca/)
+Read more about [DMCA Policy](/handbook/legal/dmca/)

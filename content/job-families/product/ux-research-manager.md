@@ -16,7 +16,9 @@ The Manager, UX Research is a [grade 8](/handbook/total-rewards/compensation/com
 
 #### Responsibilities
 
-- Build and manage a high performing UX Research team.
+- Manage a high performing UX Research team.
+- Manage the Research Operations Coordinator by supervising all activities necessary to ensure Research Operations provides efficient support for the UX Research team, and secure compliance
+- Formulate Research Operations strategy to continously improve Research Operations performance
 - Create an open and collaborative culture based on trust in the UX Research team.
 - Set clear expectations and goals for UX Researchers while holding them accountable for success.
 - Provide clear, actionable feedback and support to develop and grow UX Researchers.
@@ -32,7 +34,9 @@ The Manager, UX Research is a [grade 8](/handbook/total-rewards/compensation/com
 - Build relationships with other managers across disciplines, and act as a liaison with teams throughout the wider organization that have ongoing research needs.
 - Actively seek out difficult impediments to our efficiency as a team (process, tooling, etc), and propose and implement solutions that will enable the entire team to work more efficiently.
 - Exert significant influence on the overall objectives and long-range goals of the UX Research team.
+- Facilitate the schedule and content on what the team presents within meetings and events where UX research and/or Research Operations insights are presented out.
 - Actively contribute to the UX Research team culture, processes, and documentation.
+- Demonstrate UX Research team mission and lead by example. Regularly evaluate how the team acts upon our mission and make changes accordingly.
 
 #### Requirements
 
@@ -45,7 +49,7 @@ The Manager, UX Research is a [grade 8](/handbook/total-rewards/compensation/com
 - Evangelize research. Share user insights within the broader organization and externally in creative ways to increase empathy.
 - Able to use GitLab to plan/manage work and update the company handbook.
 - You share our [values](/handbook/values/), and work in accordance with those values.
-- [Leadership at GitLab](/handbook/company/team/structure/#management-group)
+- [Leadership at GitLab](/handbook/company/structure/#management-group)
 
 **NOTE:** In the compensation calculator below, fill in "Manager" in the `Level` field for this role.
 
@@ -97,7 +101,8 @@ The Senior Manager, UX Research is a [grade 9](/handbook/total-rewards/compensat
 #### Responsibilities
 
 - Create an open and collaborative culture based on trust in the UX Research team.
-- Develop an overarching UX research strategy for GitLab, and work with the UX Research team and cross-functional partners to execute that strategy.
+- Manage the Research Operations Coordinator by supervising all activities necessary to ensure Research Operations provides efficient support for the UX Research team, and secure compliance
+- **Set Research Operations vision that supports the UX Research vision**, and formulate Research Operations strategy to continously improve ReOps performance.
 - Facilitate the creation and execution of UX Research OKRs in collabration with the UX Research team and UX Leadership.
 - Define and manage performance indicators for the UX Research team by actively contributing to the UX Research KPIs on the UX KPIs page in the handbook.
 - Coach UX Research Managers on how to conduct 1:1s, growth, and feedback conversations with their direct reports.
@@ -105,6 +110,8 @@ The Senior Manager, UX Research is a [grade 9](/handbook/total-rewards/compensat
 - Actively advocate for UX Research throughout the company, so that the company is aware of what UX Research does, how they do it, and what insights they have delivered.
 - Support UX Research Managers' career development by ensuring: 1) they each have a Career Development Plan in place, 2) there are frequent check-ins on the plan, and 3) when applicable, special projects are being matched to support one's Career Development Plan.
 - Align the way that UX Researchers work with how their cross-functional partners in Product Managment, Product Design, and Engineering prioritize, track, and manage work.
+- **Facilitate the creation and execution of UX Research team mission**, lead by example to deliver our mission. **Regularly evaluate** how our team culture matches our mission and adjust accordingly.
+- Facilitate the schedule and content on what the team presents within meetings and events where UX research and/or Research Operations insights are presented out.
 - Stay informed of industry best practices, and help the team to evolve our research practice accordingly.
 
 #### Requirements
@@ -119,7 +126,7 @@ The Senior Manager, UX Research is a [grade 9](/handbook/total-rewards/compensat
 - Able to use GitLab to plan/manage work and update the company handbook.
 - Ideally, has experience leading a remote UX research team that conducts research fully remote, too.
 - You share our [values](/handbook/values/), and work in accordance with those values.
-- [Leadership at GitLab](/handbook/company/team/structure/#management-group)
+- [Leadership at GitLab](/handbook/company/structure/#management-group)
 
 **NOTE:** In the compensation calculator below, fill in "Senior Manager" in the `Level` field for this role.
 
@@ -142,22 +149,19 @@ The Director, UX Research is a [grade 10](/handbook/total-rewards/compensation/c
 #### Responsibilities
 
 - Create an open and collaborative culture based on trust in the UX Research team.
-- Set an ambitious vision for UX Research that other companies use as a benchmark for their own research initiatives.
 - Align UX Research to business goals and company revenue and clearly communicate the resulting impact.
-- Develop an overarching UX research strategy for GitLab, and work with the UX Research team and cross-functional partners to execute that strategy.
 - Mentor UX Research Managers in their career growth, including making sure they each have an [Individual Growth Plan](/handbook/people-group/learning-and-development/career-development/#internal-resources).
-- Help scale UX Research by defining a plan to provide research training for Product Managers and Product Designers, and coordinate the UX Research team to create and maintain training materials.
+- Help scale UX research by providing research training for Product Managers and Product Designers within GitLab to enable the company to conduct UX research at scale. This also involves keeping a pulse on the needs of the business and team members in order to provide the appropriate training needs.
 - Actively advocate for UX Research throughout the company, so that the company is aware of what UX Research does, how they do it, and what insights they have delivered.
 - Stay informed of industry best practices, and help the team to evolve our research practice accordingly.
 - Identify ways to more efficiently and effectively conduct remote user research, and share those learnings with the wider community.
-- Work with Product Operations to ensure UXR consideration in the [Product Development Flow](/handbook/product-development-flow/).
 - Define and manage [Performance Indicators](/handbook/product/ux/performance-indicators/) for the UX Research team.
 - Independently create and manage [OKRs](/handbook/company/okrs/) for the UX Research team.
 - Align the way that UX Researchers work with how their cross-functional partners in Product Managment, Product Design, and Engineering prioritize, track, and manage work.
 - Conduct regular [1:1 meetings](/handbook/leadership/1-1/) with their direct reports and quarterly [skip-level meetings](/handbook/leadership/skip-levels/) with the reports of their direct reports.
 - Provide clear and direct feedback to the people they manage, their own manager, and cross-functional partners when needed.
-- Hire and retain a world-class team of UX Researchers.
 - Manage the UX Research budget with oversight from UX leadership.
+- **Build and manage** a high performing UX Research team.
 
 #### Requirements
 
@@ -172,7 +176,7 @@ The Director, UX Research is a [grade 10](/handbook/total-rewards/compensation/c
 - Able to use GitLab to plan/manage work and update the company handbook.
 - Ideally, has experience leading a remote UX research team that conducts research fully remote, too.
 - You share our [values](/handbook/values/), and work in accordance with those values.
-- [Leadership at GitLab](/handbook/company/team/structure/#management-group)
+- [Leadership at GitLab](/handbook/company/structure/#management-group)
 
 **NOTE:** In the compensation calculator below, fill in "Director" in the `Level` field for this role.
 

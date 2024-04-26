@@ -35,20 +35,20 @@ Team members in Belgium should keep a basic first aid kit in their home, as per 
 
 ## Belgium Holiday Schedule
 
-Pursuant to article 13 of the law on paid public holidays, employers are obliged to inform employees of observance holidays granted in lieu of public holidays which fall on a Sunday or another day of inactivity. Below is the 2023 Holiday and Observance schedule for Team Members in Belgium:
+Pursuant to article 13 of the law on paid public holidays, employers are obliged to inform employees of observance holidays granted in lieu of public holidays which fall on a Sunday or another day of inactivity. Below is the 2024 Holiday and Observance schedule for Team Members in Belgium:
 
 | Date                     | Holiday | Replacement Day |
 |--------------------------|:---:|:----:|
-| Sunday January 1st         | New Year's Day  | Monday January 2, 2023 |
-| Monday April 10th     | Easter Monday  |  |
-| Monday May 1st | Labour Day  |  |
-| Thursday May 18th   | Ascension Day  |  |
-| Monday May 29th        | Whit Monday   |  |
-| Friday July 21st     | National Holiday  |  |
-| Tuesday August 15th | Assumption Day  |  |
-| Wednesday November 1st  | All Saints Day   | |
-| Saturday November 11th    | Armistice  | Friday November 10th |
-| Monday December 25th     | Christmas  |  |
+| Monday January 1st         | New Year's Day  | |
+| Monday April 1st     | Easter Monday  |  |
+| Wednesday May 1st | Labour Day  |  |
+| Thursday May 9th   | Ascension Day  |  |
+| Monday May 20th        | Whit Monday   |  |
+| Sunday July 21st     | National Holiday  | Monday July 22nd |
+| Thursday August 15th | Assumption Day  |  |
+| Friday November 1st  | All Saints Day   | |
+| Monday November 11th    | Armistice  | |
+| Wednesday December 25th     | Christmas  |  |
 
 ## GitLab B.V. Belgium Leave Policy
 
@@ -72,8 +72,9 @@ Pursuant to article 13 of the law on paid public holidays, employers are obliged
     - For team members who have been with GitLab for six months and completed a probationary period:
       - Both prenatal and postnatal leave run concurrently with [GitLab Parental Leave](/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave).
       - GitLab will supplement statutory maternity leave payments so that the team member continues to receive 100% of their salary for up to 16 weeks.
-  - Paternity Leave: every team member is entitled to twenty days (fifteen days if birth has taken place before 1 January 2023) of leave following the birth of a child, to be used at the team member's discretion within four months following the date of child birth. This leave will run concurrently with [GitLab's 16-week Parental Leave policy](/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave), and team members will be entitled to 100% of their salary for up to 16 weeks (minus any statutory entitlements)
-    - To process a paternity leave, GitLab will notify the payroll provider who will conversely update the pay code and notify the social office.
+  - Paternity / Co-Parent Leave: every team member is entitled to twenty days (fifteen days if birth has taken place before 1 January 2023) of leave following the birth of a child, to be used at the team member's discretion within four months following the date of child birth. This leave will run concurrently with [GitLab's 16-week Parental Leave policy](/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave), and team members will be entitled to 100% of their salary for up to 16 weeks (minus any statutory entitlements).
+    - After the initial 3 days of leave, team members are eligible for payment through the mutual insurance fund for the next 12 days. The amount paid by the fund will be 82% of capped daily gross salary at €  139.97 (leave from 1 January 2022).  GitLab will 'top up' the remainder (minus these funds) up to 100% of the team member's regular wages.
+    - To process this leave request, GitLab will notify the payroll provider who will conversely update the pay code and notify the social office.
   - Team members should submit their request for Parental leave three months before the start of leave by selecting the `Parental Leave` label in Time Off by Deel.
 - Statutory Vacation Leave
   - Full-time team members are entitled to 20 statutory vacation days per year. If a team member leaves GitLab, the company will prepare a vacation certificate with the number of unused vacation days in the current year and early vacation pay for the vacation days that were already accrued for the following year. The employee can then hand over these documents to their next employer to determine vacation entitlements. Similarly, GitLab requires the vacation certificate from new team members' previous employer to ensure vacation pay is properly calculated and added to June payroll.

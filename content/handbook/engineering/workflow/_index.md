@@ -21,7 +21,7 @@ the following should be true:
 
 - Something broke and there is no acceptable work around. Examples of this include:
   - A feature broke and is categorized as `~severity::1` or `~severity::2`.
-  [See severity labels](/handbook/engineering/quality/issue-triage/#severity)
+  [See severity labels](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity)
   - [Master broken](#broken-master)
   - There are failing migrations
 - There are no dependencies on the change. For example, a database
@@ -63,14 +63,16 @@ There are two phases for fixing a broken `master` incident which have a target S
 | [Triage](#triage-broken-master) | 4 hours from the initial broken `master` incident creation until assignment | group labelled on the incident |
 | [Resolution](#resolution-of-broken-master) | 4 hours from assignment to DRI until incident is resolved | Merge request author or team of merge request author or dev on-call engineer |
 
-Note: if an incident occurs when no triage DRI is expected to be online, the SLO is allowed to be missed. The next available group member should ensure all incidents that have missed their SLAs are triaged. For an incident that becomes a blocker for MRs and deployments, the team member being impacted should refer to the [broken `master` escalation](#broken-master-escalation) steps to request help from the current [engineer on-call](https://about.gitlab.com/handbook/engineering/infrastructure/incident-management/#who-is-the-current-eoc).
+Note: Untriaged incidents are negatively impacting master pipeline stability and development velocity. Any untriaged incident will be automatically escalated to dev-on-call within 30 minutes of inactivity, following a Slack reminder to the attributed channel, to ensure the triage SLO is met. Before escalation, if an incident becomes a blocker for MRs and deployments, the team member being impacted should refer to the [broken `master` escalation](#broken-master-escalation) steps to request help from the current [engineer on-call](/handbook/engineering/infrastructure/incident-management/#who-is-the-current-eoc) as early as needed.
 
 
 Additional details about the phases are listed below.
 
 ### Broken `master` escalation
 
-If a broken `master` is blocking your team (such as creating a security release) then you should:
+As mentioned above, broken `master` incidents are automatically escalated unless it is triaged by a triage DRI within 30 minutes.
+
+If a broken `master` is blocking your team before auto-escalation (such as creating a security release) then you should:
 
 1. See if there is a non-resolved [broken `master` incident](https://gitlab.com/gitlab-org/quality/engineering-productivity/master-broken-incidents/-/issues) with a DRI assigned and check discussions there.
 1. Check discussions on the failure notification in the triage DRI's group Slack channel to see if anyone is investigating the incident you are looking at. See [Triage broken master](#triage-broken-master) for information on who the triage DRI is.
@@ -87,9 +89,9 @@ If a broken `master` is blocking your team (such as creating a security release)
 
 #### Attribution
 
-If a failed test can be traced to a group through its `feature_category` metadata, the broken `master` incident associated with that test will be automatically labeled with this group as the triage DRI through [this line of code](https://gitlab.com/gitlab-org/quality/triage-ops/-/blob/5ad6a19bd1b37a304fbd02701a002f4dd83e1fcf/triage/triage/pipeline_failure/incident_creator.rb#L23). In addition, Slack notifications will be posted to the group's Slack channel to notify them about ongoing incidents. The triage DRI is responsible for monitoring, identifying, and communicating the incident. The [Engineering Productivity team](/handbook/engineering/quality/engineering-productivity/) is the backup triage DRI if the failure cannot be traced to a group, or if the current triage DRI requires assistance.
+If a failed test can be traced to a group through its `feature_category` metadata, the broken `master` incident associated with that test will be automatically labeled with this group as the triage DRI through [this line of code](https://gitlab.com/gitlab-org/quality/triage-ops/-/blob/5ad6a19bd1b37a304fbd02701a002f4dd83e1fcf/triage/triage/pipeline_failure/incident_creator.rb#L23). In addition, Slack notifications will be posted to the group's Slack channel to notify them about ongoing incidents. The triage DRI is responsible for monitoring, identifying, and communicating the incident. The [Engineering Productivity team](/handbook/engineering/infrastructure/engineering-productivity/) is the backup triage DRI if the failure cannot be traced to a group, or if the current triage DRI requires assistance.
 
-For now, all broken master incidents are also reported in the `#master-broken` channel, in addition to the triage DRI's group channel. In the future, we may consider removing alerts in the `#master-broken` channel if a triage DRI group is identified to ensure this workflow is scalable.
+When an incident is attributed to a group, a notification will be sent to the triage DRI's group channel. When an incident cannot be attributed, it will be posted in the `#master-broken` channel seeking attention from Engineering Productivity team.
 
 #### Triage DRI Responsibilities
 
@@ -113,12 +115,12 @@ For now, all broken master incidents are also reported in the `#master-broken` c
    - If this incident is **due to non-flaky reasons**, communicate in `#development`, `#backend`, and `#frontend` using the Slack Workflow.
       - Click the "lightning bolt" shortcut icon in the `#master-broken` channel and select `Broadcast Master Broken`, then click `Continue the broadcast`.
       - [Create a revert MR directly](#reverting-a-merge-request) to save some time in case we need to revert down the line.
-        - If you are reverting an MR that performs a database migration, you need to follow the [Deployment blockers process](https://about.gitlab.com/handbook/engineering/deployments-and-releases/deployments/#deployment-blockers) to prevent the migration from proceeding to deploy and running on staging and production.
+        - If you are reverting an MR that performs a database migration, you need to follow the [Deployment blockers process](/handbook/engineering/deployments-and-releases/deployments/#deployment-blockers) to prevent the migration from proceeding to deploy and running on staging and production.
         - If the migration is executed in any environments, communicate to the release managers in `#releases` channel and discuss whether it's appropriate to create another migration to roll back the first migration or turn the migration into a no-op by following [Disabling a data migration steps](https://docs.gitlab.com/ee/development/database/deleting_migrations.html#how-to-disable-a-data-migration).
-   - If you identified that `master` fails **for a flaky reason**, and it cannot be reliably reproduced (i.e. running the failing spec locally or retry the failing job):
+   - If you identified that `master` fails **for a flaky reason**, and it cannot be reliably reproduced (i.e. running the failing spec locally or retrying the failing job):
       - [Quarantine](https://docs.gitlab.com/ee/development/testing_guide/flaky_tests.html#quarantined-tests) the failing test to restore pipeline stability within 30 minutes if the flakiness is continuously causing master pipeline incidents.
       - Alternatively, if the failure does not seem disruptive, and you have a fix that you are confident with, submit the fix MR with the ~"master:broken" label to ensure your pipeline is expedited.
-      - If a flaky test issue already exists, add a comment in it with a link to the failed broken master incident and/or failed job.
+      - If a flaky test issue already exists, add a comment in it with a link to the failed broken master incident and/or failed job. We have automation in place to create test failure issues automatically. The issue is named after the spec path, which can be a search keyword.
       - If a flaky test issue doesn't exist, create an issue from the `New issue` button in top-right of the failing job page (that will automatically add a link to the job in the issue), and apply the `Broken Master - Flaky` description template.
       - Add the appropriate labels to the main incident:
 
@@ -169,8 +171,6 @@ For now, all broken master incidents are also reported in the `#master-broken` c
       /label ~"master-broken::job-timeout"
       /label ~"master-broken::undetermined"
       ```
-
-    - When the master-broken is resolved, close the incident.
 1. (Optional) Pre-resolution
    - If the triage DRI believes that there's an easy resolution by either:
       - Reverting a particular merge request.
@@ -179,6 +179,13 @@ For now, all broken master incidents are also reported in the `#master-broken` c
      The triage DRI can create a merge request, assign to any available maintainer, and ping the resolution DRI with a `@username FYI` message.
      Additionally, a message can be posted in `#backend_maintainers` or `#frontend_maintainers` to get a maintainer take a look at the fix ASAP.
    - If the failures occur only in `test-on-gdk` jobs, it's possible to stop those jobs from being added to new pipelines while the cause is being fixed. See the [runbook](https://gitlab.com/gitlab-org/quality/runbooks/-/tree/main/test-on-gdk#disable-the-e2etest-on-gdk-pipeline) for details.
+
+#### Pro-tips for Triage DRI
+1. For an initial assessment of what might have contributed to the failure, we can try the experimental AI-assisted [root cause analysis](https://docs.gitlab.com/ee/user/ai_features.html#root-cause-analysis) feature by clicking the "Root cause analysis" button on the failed job page.
+2. To confirm flakiness, you can use the `@gitlab-bot retry_job <job_id>` or the `@gitlab-bot retry_pipeline <pipeline_id>` command to retry the failed job(s), even if you are not a project maintainer.
+  - **Note**, The `retry_job` command can fail for the following reasons:
+    - Retrying the same job twice with the `retry_job` command will result in a failure message because each failed job can only be retried once.
+    - If there is no response to either of the `retry` commands, you are likely invoking them in non-supported projects. If you'd like to request for the commands to be added to your project, please [make an issue](https://gitlab.com/gitlab-org/quality/triage-ops/-/issues/new) and inform `#g_engineering_productivity`. You are encouraged to self-serve the MR following [this example](https://gitlab.com/gitlab-org/quality/triage-ops/-/merge_requests/2536) and submit it for review for maximum efficiency.
 
 ### Resolution of broken master
 
@@ -209,7 +216,8 @@ If a DRI has not acknowledged or signaled working on a fix, any developer can ta
 1. When `master` build was failing and the underlying problem was quarantined /
    reverted / temporary workaround created but the root cause still needs to be
    discovered, the investigation should continue directly in the incident.
-1. Create an [issue](https://gitlab.com/gitlab-org/quality/team-tasks/issues/new) for the [Engineering Productivity team](/handbook/engineering/quality/engineering-productivity/) describing how the broken `master` incident could have been prevented in the Merge Request pipeline.
+1. Create an [issue](https://gitlab.com/gitlab-org/quality/team-tasks/issues/new) for the [Engineering Productivity team](/handbook/engineering/infrastructure/engineering-productivity/) describing how the broken `master` incident could have been prevented in the Merge Request pipeline.
+1. When resolution steps are completed, close the incident.
 
 #### Responsibilities of authors and maintainers
 
@@ -299,7 +307,7 @@ Next, merge the merge request:
 
 ### Broken `master` mirrors
 
-[`#master-broken-mirrors`](https://gitlab.slack.com/archives/C01PK38VAN8) was created to remove duplicative notifications from the `#master-broken` channel which provides a space for [Release Managers](https://about.gitlab.com/community/release-managers/) and the [Engineering Productivity team](/handbook/engineering/quality/engineering-productivity/) to monitor failures for the following projects:
+[`#master-broken-mirrors`](https://gitlab.slack.com/archives/C01PK38VAN8) was created to remove duplicative notifications from the `#master-broken` channel which provides a space for [Release Managers](https://about.gitlab.com/community/release-managers/) and the [Engineering Productivity team](/handbook/engineering/infrastructure/engineering-productivity/) to monitor failures for the following projects:
 
 - <https://gitlab.com/gitlab-org/security/gitlab>
 - <https://dev.gitlab.org/gitlab/gitlab-ee>
@@ -309,7 +317,7 @@ The `#master-broken-mirrors` channel is to be used to identify unique failures f
 ### Broken JiHu validation pipelines
 
 We run JiHu validation pipelines in some of the merge requests, and it can be
-broken at times. When this happens, check [What to do when the validation pipeline failed](../../ceo/chief-of-staff-team/jihu-support/jihu-validation-pipelines.html#what-to-do-when-the-validation-pipeline-failed) for more details.
+broken at times. When this happens, check [What to do when the validation pipeline failed](../../ceo/office-of-the-ceo/jihu-support/jihu-validation-pipelines.html#what-to-do-when-the-validation-pipeline-failed) for more details.
 
 ## Security Issues
 
@@ -394,7 +402,7 @@ Workflow labels are described in our [Development Documentation][development-doc
 
 ## Working in Teams
 
-For larger issues or issues that contain many different moving parts, you'll be likely working in a team. This team will typically consist of a [backend engineer](https://handbook.gitlab.com/job-families/engineering/backend-engineer/), a [frontend engineer](https://handbook.gitlab.com/job-families/engineering/development/frontend/), a [Product Designer](https://handbook.gitlab.com/job-families/product/product-designer/) and a [product manager](https://handbook.gitlab.com/job-families/product/product-manager/).
+For larger issues or issues that contain many different moving parts, you'll be likely working in a team. This team will typically consist of a [backend engineer](/job-families/engineering/backend-engineer/), a [frontend engineer](/job-families/engineering/development/frontend/), a [Product Designer](/job-families/product/product-designer/) and a [product manager](/job-families/product/product-manager/).
 
 1. Teams have a shared responsibility to ship the issue in the planned release.
     1. If the team suspects that they might not be able to ship something in time, the team should escalate / inform others as soon as possible. A good start is informing your manager.
@@ -484,22 +492,24 @@ Make sure the appropriate labels (such as `customer`) are applied so every issue
 
 ## Product Development Timeline
 
-[![](gitlab-release-timelines.png)](https://gitlab.com/gitlab-org/gitlab-foss/-/snippets/1731455)
+[![](/handbook/engineering/workflow/gitlab-release-timelines.png)](https://gitlab.com/gitlab-org/gitlab/-/snippets/3670861)
 
 Teams (Product, UX, Development, Quality) continually work on issues according to their respective workflows.
 There is no specified process whereby a particular person should be working on a set of issues in a given time period.
 However, there are specific deadlines that should inform team workflows and prioritization.
 
-The [release date](/handbook/engineering/releases/) is always the third Thursday of the release month, and the code cut-off is always the Friday of the previous week.
-The next milestone begins the Saturday after code cut-off.
+With the monthly [release date](/handbook/engineering/releases/) being the third Thursday of the release month, the **code cut-off** is the Friday prior.
+
+The **next milestone begins** the Saturday after code cut-off.
+
 All other important dates for a milestone are relative to the release date:
 
 - **Monday, 19 days before the milestone begins**:
   - Draft of the issues that will be included in the next release (released next month).
   - Start capacity and technical discussions with engineering/UX.
   - Assess error budgets to determine feature/reliability balance.
-  - Development engineering manager provides product manager with prioritization input for `~type::maintenance` issues per [cross-functional prioritization](https://about.gitlab.com/handbook/product/product-processes/#cross-functional-prioritization)
-  - [Quality](https://about.gitlab.com/handbook/product/product-processes/#cross-functional-prioritization) provides product manager with prioritization input for `~type::bug` issues per [cross-functional prioritization](https://about.gitlab.com/handbook/product/product-processes/#cross-functional-prioritization)
+  - Development engineering manager provides product manager with prioritization input for `~type::maintenance` issues per [cross-functional prioritization](/handbook/product/product-processes/#cross-functional-prioritization)
+  - [Quality](/handbook/product/product-processes/#cross-functional-prioritization) provides product manager with prioritization input for `~type::bug` issues per [cross-functional prioritization](/handbook/product/product-processes/#cross-functional-prioritization)
 - **Monday, 12 days before the milestone begins**:
   - Product manager, taking into consideration prioritization input from development EM, Quality, and UX to create a plan of issues for the upcoming milestone.
   - Release scope is finalized. In-scope issues marked with milestone `%x.y`; label `~deliverable` applied.
@@ -532,14 +542,10 @@ All other important dates for a milestone are relative to the release date:
 - **Friday immediately after release day**:
   - The patch release process for the milestone starts. This includes regular and security patch releases.
   - All of the milestone's unfinished issues and merge requests are automatically moved to the next milestone, with the exception of `~security` issues.
-- **The first Monday after the release date**:
-  - Moderator opens the [Retrospective planning and execution issue](#retrospective).
-- **From the first Monday after the release day to the Wednesday of the next week (~9 days)**:
-  - Assignees of [Group Retrospective issues](#retrospective) summarize the discussion, ensure corrective actions are taken and a DRI is assigned to each. Actions related to participation in [section-based Retrospective Summaries](#retrospective-summary-experiment-in-fy22-q4) are taken.
 - **On or around the Wednesday immediately following the release day**:
-  - [Product plans](/handbook/product/product-processes/#managing-your-product-direction) are to update to reflecting previous and current releases, including category epics and direction pages.
+  - [Product plans](/handbook/product/product-processes/#managing-your-product-direction) are updated to reflect previous and current releases, including category epics and direction pages.
 - **On or around the second Monday following the release day**:
-  - Non-critical security patches are [released](../security/index.html#security-releases).
+  - Non-critical security patches are [released](https://about.gitlab.com/handbook/engineering/releases/security-releases/).
 
 Refer to [release post content reviews](/handbook/marketing/blog/release-posts/#content-reviews) for additional deadlines.
 
@@ -550,165 +556,7 @@ See [auto deploy transition](https://gitlab.com/gitlab-org/release/docs/blob/21c
 
 At the beginning of each release, we have a kickoff meeting, publicly livestreamed to YouTube. In the call, the Product Development team (PMs, Product Designers, and Engineers) communicate with the rest of the organization which issues are in scope for the upcoming release. The call is structured by [product area](/handbook/product/categories/#devops-stages) with each PM leading their part of the call.
 
-The notes are available in a publicly-accessible [Google doc](https://docs.google.com/document/d/1ElPkZ90A8ey_iOkTvUs_ByMlwKK6NAB2VOK5835wYK0/edit?usp=sharing). Refer to the doc for details on viewing the livestream.
-
-## Retrospective
-
-The purpose of our retrospective is to help each Product Group, and the entire [R&D cost center](/handbook/finance/financial-planning-and-analysis/#by-cost-center---where-departments-report) at GitLab learn and improve as much as possible from every monthly release.
-
-Each retrospective consist of three parts:
-
-- [Group Retrospectives](/handbook/engineering/management/group-retrospectives/): retrospectives held by individual [Product Groups](/company/team/structure/#product-groups)
-- [Retrospective Summary](/handbook/engineering/workflow/#retrospective-summary): a short pre-recorded video which summarizes the learnings across all group retrospectives
-- [Retrospective Discussion](/handbook/engineering/workflow/#retrospective-discussion): a 25 minute live discussion diving into retrospective discussion topics
-
-**Timeline**
-
-- **Wednesday, 11 days after the milestone begins**: GitLab Bot opens [Group Retrospective](/handbook/engineering/management/group-retrospectives/) issue for the current milestone.
-- **Wednesday, the day before the release date**: Group Retrospectives should be held.
-- **The first Monday after the release date**: Moderator opens the Retrospective planning and execution issue and communicates a reminder in R&D quad slack channels.
-- **From the first Monday after the release day to the Wednesday of the next week (~9 days)**: Participants complete the Retrospective planning and execution issue, add their notes to the [retro doc](https://docs.google.com/document/d/1nEkM_7Dj4bT21GJy0Ut3By76FZqCfLBmFQNVThmW2TY/edit#), and suggest and vote on discussion topics.
-- **Thursday, 14 days after the release date**: Moderator records the Retrospective Summary video and announces the video and discussion topics.
-- **Monday, 18 days after the release date**: Retrospective Discussion is held.
-   - OR, the 2nd working day after if this is a holiday.
-
-**Moderator**
-
-The moderator of each retrospective is responsible for:
-
-- Coordinating the Retrospective planning and execution issue.
-- Presenting the Retrospective Summary.
-- Hosting the Retrospective Discussion.
-
-The job of a moderator is to remain objective and is focused on guiding conversations forward. The moderator for each retrospective is assigned by the VP Development in each milestone.
-
-**Retrospective planning and execution issue**
-
-For each monthly release, a Retrospective planning and execution issue ([example](https://gitlab.com/gitlab-com/www-gitlab-com/-/issues/8418)) is opened by the moderator to help us coordinate this work.
-
-Create the Retrospective planning and execution issue by selecting the 'product-development-retro' issue template in the ['www-gitlab-com' project](https://gitlab.com/gitlab-com/www-gitlab-com/-/issues/new#).
-
-Title the issue *<MILESTONE VERSION #> Team Retrospectives*.
-
-Set the due date to 2 days before the Retrospective Discussion to encourage team members to contribute prior to recording of the Retrospective Summary video.
-
-**Retro doc**
-
-The [retro doc](https://docs.google.com/document/d/1nEkM_7Dj4bT21GJy0Ut3By76FZqCfLBmFQNVThmW2TY/edit) is a Google Doc we use to collaborate on for our Retrospective Summary and Retrospective Discussion.
-
-### Group Retrospectives
-
-At the end of every release, each team should host their own retrospective. For details on how this is done, see [Group Retrospectives](/handbook/engineering/management/group-retrospectives/).
-
-### Retrospective Summary
-
-Note - we are currently conducting an experiment with [section-based Retrospective Summaries](#retrospective-summary-experiment-in-fy22-q4). During such time we will not be conducting an R&D-wide Retrospective Summary.
-
-The Retrospective Summary is a short pre-recorded video which summarizes the learnings across all [Group Retrospectives](/handbook/engineering/management/group-retrospectives/) ([example video](https://www.youtube.com/watch?v=XdENBhVOSiw&feature=youtu.be), [example presentation](https://docs.google.com/presentation/d/1kH9TwUAXbslM1cac938hS4Y-3mEBojQlwHw_Mm44kDE/edit?usp=sharing)).
-
-Once all Group Retrospectives are completed, each team inputs their learnings into a single publicly-accessible [retro doc](https://docs.google.com/document/d/1ElPkZ90A8ey_iOkTvUs_ByMlwKK6NAB2VOK5835wYK0/edit?usp=sharing). The  moderator then pre-records a video of the highlights. This video is then announced in the Retrospective planning and execution issue along with the #whats-happening-at-gitlab slack channel. In line with our value of [transparency](/handbook/values/#transparency), we also post this video to our public [GitLab Unfiltered channel](https://www.youtube.com/c/GitLabUnfiltered/videos).
-
-**Steps for participants**
-1. Please host your Group Retrospective following the guidelines outlined in the [handbook](/handbook/engineering/management/group-retrospectives/).
-1. After the Group Retrospective is complete, please choose a subset some of your most interesting learnings to share company-wide in the [retro doc](https://docs.google.com/document/d/1nEkM_7Dj4bT21GJy0Ut3By76FZqCfLBmFQNVThmW2TY/edit).  Please try to group by these by our [CREDIT values](/handbook/values/).
-1. In the retro doc, if there is a learning that you would like to explicitly highlight, please add the text **highlight** at the beginning of the text. The moderator will highlight this along with other learnings listed in the retro doc when they create the pre-recorded video.
-1. If there are improvement tasks for your team from the previous retrospective, please provide an update on them in the retro doc. They will be verbalized during the Retrospective Discussion.
-1. If there are improvement tasks for your team in the current retrospective, please add them in the [retro doc](https://docs.google.com/document/d/1nEkM_7Dj4bT21GJy0Ut3By76FZqCfLBmFQNVThmW2TY/edit). They will be verbalized during the Retrospective Discussion.
-1. Add a checkbox in the table of the Retrospective planning and execution issue when your Group Retrospective is complete and when the retro doc is updated.
-
-**Steps for the moderator**
-1. Please read through the Group Retrospective learnings in the [retro doc](https://docs.google.com/document/d/1nEkM_7Dj4bT21GJy0Ut3By76FZqCfLBmFQNVThmW2TY/edit).
-1. Add the learnings into a slide deck and identify the highlights you would like to cover.
-1. Record a video presentation summarizing the highlights.
-1. Upload this video to our public [GitLab Unfiltered channel](https://www.youtube.com/c/GitLabUnfiltered/videos).
-1. Announce the video and discussion topics in Retrospective planning and execution issue, the #whats-happening-at-gitlab slack channel, and the retro doc.
-
-### Retrospective Discussion
-
-The Retrospective Discussion is a 25 minute live discussion among participants where we deep dive into discussion topics from our Group Retrospectives ([example](https://www.youtube.com/watch?v=WP9E7RbNSPw)). In line with our value of [transparency](/handbook/values/#transparency), we livestream this meeting to YouTube and monitor chat for questions from viewers. Please check the [retro doc](https://docs.google.com/document/d/1nEkM_7Dj4bT21GJy0Ut3By76FZqCfLBmFQNVThmW2TY/edit?usp=sharing) for details on joining the livestream.
-
-**Discussion Topics**
-
-For each retrospective discussion, we aim to host an interactive discussion covering two discussion topics. We limit this to two topics due to the length of the meeting.
-
-The discussion topics stem from our Group Retrospective learnings and should be applicable to the majority of participants.
-
-Discussion topics are suggested by participants by commenting on the Retrospective planning and execution issue. Participants can vote on these topics by adding a :thumbsup: reaction. The two topics with the most :thumbsup: votes will be used as the discussion topics. If there are not enough votes or if the discussion topics are not relevant to the majority of participants, the moderator can choose other discussion topics.
-
-**Meeting Agenda**
-
-- Improvement tasks from the previous release (5 minutes)
-- Discussion topics (14 minutes, 2 topics at 7 minutes each)
-- Improvement tasks from the current release (5 minutes)
-- Wrap up (1 minute)
-
-**Steps for participants**
-
-1. Suggest discussion topics by commenting on to the Retrospective planning and execution issue.
-1. Vote on discussion topics by adding a :thumbsup: reaction. Voting closes on the **Wednesday, 13 days after the release date**.
-1. Once discussion topics are announced on the **Thursday, 14 days after the release date**, begin adding your comments to the [retro doc](https://docs.google.com/document/d/1nEkM_7Dj4bT21GJy0Ut3By76FZqCfLBmFQNVThmW2TY/edit).
-1. During the Retrospective Discussion, be prepared to verbalize any improvement tasks or commentary on the discussion topics. If you can't make the meeting and there is an item for you to verbalize, please ask someone else on your team to attend to do so.
-
-**Steps for the moderator**
-
-1. In the Retrospective planning and execution issue, create a thread asking participants to suggest and vote on topics.
-1. Voting ends at the close of business on the **Wednesday, 13 days after the release date**. Take note of which discussion topics have the most votes at this time. If there are not enough votes or if you deem the discussion topics as not relevant to the majority of participants, please choose other discussion topics.
-1. Announce the discussion topics alongside of the Retrospective Summary video in the Retrospective planning and execution issue, the #whats-happening-at-gitlab slack channel, and the [retro doc](https://docs.google.com/document/d/1nEkM_7Dj4bT21GJy0Ut3By76FZqCfLBmFQNVThmW2TY/edit)
-1. Ensure the Retrospective Discussion calendar invite is sent to participants by coordinating with the VP Development.
-1. Host the Retrospective Discussion and press livestream to YouTube.
-1. After the Retrospective Discussion, close the Retrospective planning and execution issue.
-
-### Utilizing Internal Notes in Retrospective Issues
-
-Monthly retrospectives are usually performed in a confidential issue made public upon close. Content of these issues while public aligns with [GitLab SAFE Framework](https://about.gitlab.com/handbook/legal/safe-framework/).
-
-Where unSAFE information must be discussed in a retrospective, [Internal Notes](https://docs.gitlab.com/ee/user/discussions/#add-an-internal-note) should be utilized in order to adhere to SAFE Guidelines. Internal notes remain confidential to participants of the retrospective even after the issue is made public, including Guest users of the parent group.
-
-Examples of information that should remain Confidential per SAFE guidelines are any company confidential information that is not public, or any data that reveals information not generally known or not available externally which may be considered sensitive information. Specific examples of information that should be carefully submitted to the retrospective include impact on revenue, information relating to the security of the platform, or specific customer data.
-
-### Triaging retrospective improvements
-
-At the end of each retrospective the [Engineering Productivity team](/handbook/engineering/quality/#engineering-productivity-structure) is responsible for triaging improvement items identified from the retrospective.
-This is needed for a single owner to be aware of the bigger picture technical debt and backstage work. The actual work can be assigned out to other teams or engineers to execute.
-
-### Retrospective Summary Moderators for FY22
-
-The Moderator for the Retrospective Summary is chosen on a quarterly basis.  For FY22 we have selected 4 moderators from across Engineering and Product.  The moderators are:
-
-- Q1: [Sam Goldstein](/company/team/#sgoldstein)
-- Q2: [Tanya Pazitny](/company/team/#tpazitny)
-- Q3: [Kenny Johnston](/company/team/#kencjohnston)
-- Q4: [Section Based Retro Experiment](/handbook/engineering/workflow/#retrospective-summary-experiment-in-fy22-q4)
-
-## Retrospective Summary Experiment in FY22 Q4
-
-During FY22 Q4 (the 14.4, 14.5, 14.6 Retrospectives) we will conduct an experiment where we perform retrospective summaries at the Section level instead of an R&D-wide retrospective summary. Section level leaders in Product and Development are the DRIs for retrofitting the current retrospective summary process for their section and documenting their process for doing so.
-
-### Experiment Hypothesis
-
-As GitLab has grown, there have become too many layers between a group retrospective and the company-wide retrospective. Performing retrospective summaries at the Section level will increase our rate of learning and encourage broader collaboration between stable counterparts across the R&D organization.
-
-### Experiment Success Measurements
-
-We'll consider this experiment a success if:
-- All team member cumulative engagement, as measured by issue and agenda doc comments, in all section Retrospective Summary discussions is higher than the current baseline (14.1,14.2,14.3)
-- Stable counterpart engagement, as measured by issue and agenda doc comments, in section Retrospective Summary discussions include team members from an average of more than 4 functions (Security, UX, Quality)
-- The effort to prepare and perform a retrospective summary is deemed by DRIs to be < 4 hours per month
-
-### Experiment Section DRIs
-
-While leaders are available in the [categories page](/handbook/product/categories/) (and subject to change) - we explicitly call out the DRIs for each section in this experiment.
-
-- Dev - Tim Zallman and David Desanto
-- Sec - Todd Stadelhofer and Hillary Benson
-- Ops - Sam Goldstein and Kenny Johnston
-- Enablement - Chun Du and Josh Lambert
-- Growth - Wayne Haber and Hila Qu
-- Fulfillment - Wayne Haber and Justin Farris
-- AI Assisted and Anti-Abuse - Wayne Haber and Taylor McCaslin
-
-### Conducting a Section Retrospective
-Discretion is provided to Section leaders on how to conduct a section retrospective discussion. A good starting point would be to follow the current [handbook](#retrospective-summary) and [issue template](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/.gitlab/issue_templates/product-development-retro.md) recommendations for our R&D wide retrospective. Consider creating section versions of the [issue template](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/.gitlab/issue_templates/product-development-retro.md) and [discussion doc](https://docs.google.com/document/d/1ElPkZ90A8ey_iOkTvUs_ByMlwKK6NAB2VOK5835wYK0/edit?usp=sharing).
+The [Product Kickoff page](https://about.gitlab.com/direction/kickoff/) is updated each month, which follows the content on the livestream.
 
 ## Milestone Cleanup
 
@@ -747,10 +595,9 @@ These actions will be applied to open issues:
 
 Milestones are closed when the Delivery team no longer needs to create a backport release for a specific milestone.
 
-## Kickoff and Retrospective Public Stream Instructions
+## Kickoff Public Stream Instructions
 
-Both the monthly kickoff and retrospective meetings are publicly streamed to the [GitLab Unfiltered YouTube Channel](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A?view_as=subscriber). The [EBA](https://handbook.gitlab.com/job-families/people-group/executive-business-administrator/) for Engineering is the [moderator](/handbook/group-conversations/#moderator) and responsible for initiating the Public Stream or designating another moderator if EBA is unable to attend.
-
+The monthly kickoff meeting is publicly streamed to the [GitLab Unfiltered YouTube Channel](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A?view_as=subscriber). The [EBA](/job-families/people-group/executive-business-administrator/) for Engineering is the [moderator](/handbook/group-conversations/#moderator) and responsible for initiating the Public Stream or designating another moderator if EBA is unable to attend.
 
 ## Use Group Labels and Group Milestones
 
@@ -764,19 +611,19 @@ To help with prioritization and decision-making process here, we recommend think
 
 > You wouldn't pay off your $50k student loan before first paying off your $5k credit card and it's because of the high interest rate. The best debt to pay off first is one that has the highest loan payment to recurring payment reduction ratio, i.e. the one that reduces your overall debt payments the most, and that is usually the loan with the highest interest rate.
 
-Technical debt is prioritized like [other technical decisions](/handbook/engineering/development/principles/#prioritizing-technical-decisions) in [product groups](/company/team/structure/#product-groups) by [product management](/handbook/product/product-processes/#how-we-prioritize-work).
+Technical debt is prioritized like [other technical decisions](/handbook/engineering/development/principles/#prioritizing-technical-decisions) in [product groups](/handbook/company/structure/#product-groups) by [product management](/handbook/product/product-processes/#how-we-prioritize-work).
 
-For technical debt which might span, or fall in gaps between groups they should be brought up for a [globally optimzed](/handbook/values/#global-optimization) prioritization in [retrospectives](/handbook/engineering/management/group-retrospectives/) or directly with the appropriate member of the [Product Leadership team](/handbook/product/product-leadership/). Additional avenues for addressing technical debt outside of product groups are [Rapid Action issues](/handbook/engineering/development/#rapid-action-issue) and [working groups](/company/team/structure/working-groups/).
+For technical debt which might span, or fall in gaps between groups they should be brought up for a [globally optimzed](/handbook/values/#global-optimization) prioritization in [retrospectives](/handbook/engineering/management/group-retrospectives/) or directly with the appropriate member of the [Product Leadership team](/handbook/product/product-leadership/). Additional avenues for addressing technical debt outside of product groups are [Rapid Action issues](/handbook/engineering/development/#rapid-action-issue) and [working groups](/handbook/company/working-groups/).
 
-## UX debt
+## Deferred UX
 
-Sometimes there is an intentional decision to deviate from the agreed-upon [MVC](/handbook/product/product-principles/#the-minimal-viable-change-mvc), which sacrifices the user experience. When this occurs, the Product Designer creates a follow-up issue and labels it `UX debt` to address the UX gap in subsequent releases.
+Sometimes there is an intentional decision to deviate from the agreed-upon [MVC](/handbook/product/product-principles/#the-minimal-viable-change-mvc), which sacrifices the user experience. When this occurs, the Product Designer creates a follow-up issue and labels it `Deferred UX` to address the UX gap in subsequent releases.
 
-For the same reasons as technical debt, we don't want UX debt to grow faster than our code base.
+For the same reasons as technical debt, we don't want Deferred UX to grow faster than our code base.
 
-These issues are prioritized like [other technical decisions](/handbook/engineering/development/principles/#prioritizing-technical-decisions) in [product groups](/company/team/structure/#product-groups) by [product management](/handbook/product/product-processes/#how-we-prioritize-work). You can see the number of UX debt issues on the [UX Debt dashboard](https://app.periscopedata.com/app/gitlab/641753/UX-Debt).
+These issues are prioritized like [other technical decisions](/handbook/engineering/development/principles/#prioritizing-technical-decisions) in [product groups](/handbook/company/structure/#product-groups) by [product management](/handbook/product/product-processes/#how-we-prioritize-work).
 
-As with [technical debt](#technical-debt), UX debt should be brought up for [globally optimized](/handbook/values/#global-optimization) prioritization in [retrospectives](/handbook/engineering/management/group-retrospectives/) or directly with the appropriate member of the [Product Leadership team](/handbook/product/product-leadership/).
+As with [technical debt](#technical-debt), Deferred UX should be brought up for [globally optimized](/handbook/values/#global-optimization) prioritization in [retrospectives](/handbook/engineering/management/group-retrospectives/) or directly with the appropriate member of the [Product Leadership team](/handbook/product/product-leadership/).
 
 ## UI polish
 
@@ -797,17 +644,17 @@ UI polish issues are visual improvements to the existing user interface, touchin
 
 ## Monitor Merge Request Trends
 
-Open merge requests sometimes become idle (not updated by a human in more than a month). Once a month, engineering managers will receive an [`Merge requests requiring attention triage issue`](/handbook/engineering/quality/triage-operations/#group-level-merge-requests-that-may-need-attention) that includes all (non-WIP/Draft) MRs for their group and use it to determine if any action should be taken (such as nudging the author/reviewer/maintainer). This assists in getting merge requests merged in a reasonable amount of time which we track with the [Open MR Review Time (OMRT)](/handbook/engineering/development/performance-indicators/#open-mr-review-time-omrt) and [Open MR Age (OMA)](/handbook/engineering/development/performance-indicators/#open-mr-age-oma) performance indicators.
+Open merge requests sometimes become idle (not updated by a human in more than a month). Once a month, engineering managers will receive an [`Merge requests requiring attention triage issue`](/handbook/engineering/infrastructure/engineering-productivity/triage-operations/#group-level-merge-requests-that-may-need-attention) that includes all (non-WIP/Draft) MRs for their group and use it to determine if any action should be taken (such as nudging the author/reviewer/maintainer). This assists in getting merge requests merged in a reasonable amount of time which we track with the [Open MR Review Time (OMRT)](/handbook/engineering/development/performance-indicators/#open-mr-review-time-omrt) and [Open MR Age (OMA)](/handbook/engineering/development/performance-indicators/#open-mr-age-oma) performance indicators.
 
-Open merge requests may also have other properties that indicate that the engineering manager should research them and potentially take action to improve efficiency. One key property is the number of threads, which, when high, may indicate a need to update the plan for the MR or that a synchronous discussion should be considered. Another property is the number of pipelines, which, when high, may indicate a need to revisit the plan for the MR. These metrics are not yet included in an automatically created a triage issue. However, they are available in a [Sisense dashboard](https://app.periscopedata.com/app/gitlab/663398/Merge-requests-that-may-warrant-attention). Engineering managers are encouraged to check this dashboard for their group periodically (once or twice a month) in the interim.
+Open merge requests may also have other properties that indicate that the engineering manager should research them and potentially take action to improve efficiency. One key property is the number of threads, which, when high, may indicate a need to update the plan for the MR or that a synchronous discussion should be considered. Another property is the number of pipelines, which, when high, may indicate a need to revisit the plan for the MR. These metrics are not yet included in an automatically created a triage issue.
 
 ## Security is everyone's responsibility
 
-[Security](/security/) is our top priority. Our Security Team is raising the bar on security every day to protect users' data and make GitLab a safe place for everyone to contribute. There are many lines of code, and Security Teams need to scale. That means shifting security left in the [Software Development LifeCycle (SDLC)](/stages-devops-lifecycle/). Each team has an [Application Security Stable Counterpart](/handbook/security/security-engineering/application-security/stable-counterparts.html) who can help you, and you can find more secure development help in the `#sec-appsec` Slack channel.
+[Security](/security/) is our top priority. Our Security Team is raising the bar on security every day to protect users' data and make GitLab a safe place for everyone to contribute. There are many lines of code, and Security Teams need to scale. That means shifting security left in the [Software Development LifeCycle (SDLC)](https://about.gitlab.com/stages-devops-lifecycle/). Each team has an [Application Security Stable Counterpart](/handbook/security/product-security/application-security/stable-counterparts.html) who can help you, and you can find more secure development help in the `#sec-appsec` Slack channel.
 
-Being able to start the security review process earlier in the software development lifecycle means we will catch vulnerabilities earlier, and mitigate identified vulnerabilities before the code is merged. You should know when and how to proactively [seek an Application Security Review](/handbook/security/security-engineering/application-security/appsec-reviews.html). You should also be familiar with our [Secure Coding Guidelines](https://docs.gitlab.com/ee/development/secure_coding_guidelines.html).
+Being able to start the security review process earlier in the software development lifecycle means we will catch vulnerabilities earlier, and mitigate identified vulnerabilities before the code is merged. You should know when and how to proactively [seek an Application Security Review](/handbook/security/product-security/application-security/appsec-reviews.html). You should also be familiar with our [Secure Coding Guidelines](https://docs.gitlab.com/ee/development/secure_coding_guidelines.html).
 
-We are fixing the obvious security issues before every merge, and therefore, scaling the security review process. Our workflow includes a check and validation by the reviewers of every merge request, thereby enabling developers to act on identified vulnerabilities before merging. As part of that process, developers are also encouraged to reach out to the Security Team to discuss the issue at that stage, rather than later on, when mitigating vulnerabilities becomes more expensive. After all, security is everyone's job. See also our [Security Paradigm](/direction/secure/#security-paradigm)
+We are fixing the obvious security issues before every merge, and therefore, scaling the security review process. Our workflow includes a check and validation by the reviewers of every merge request, thereby enabling developers to act on identified vulnerabilities before merging. As part of that process, developers are also encouraged to reach out to the Security Team to discuss the issue at that stage, rather than later on, when mitigating vulnerabilities becomes more expensive. After all, security is everyone's job. See also our [Security Paradigm](https://about.gitlab.com/direction/secure/#security-paradigm)
 
 ## Rapid Engineering Response
 
@@ -857,7 +704,7 @@ The [Performance Refinement issue board](https://gitlab.com/groups/gitlab-org/-/
 
 1. To participate in the bi-weekly refinement, ask your engineering director to forward the invite of the *Performance Refinement* meeting which is at 15:00 UTC every other Thursday. Here is the [meeting agenda](https://docs.google.com/document/d/1icG6yrW2oebXz8iXvgfM5JjtMqpsDBCn1v3_VO2ghS0/edit#).
 1. To nominate issues to the board:
-   1. Assign [a performance severity](/handbook/engineering/quality/issue-triage/#severity) on the issue to help asses the priority assignment for the refinement session.
+   1. Assign [a performance severity](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity) on the issue to help asses the priority assignment for the refinement session.
    1. Ensure that the issue clearly explains the problem, the (potential) impact on GitLab.com's availability, and ideally, clearly defines a proposed solution to the problem.
    1. Use the label `bug::performance`.
 1. For the issues under the **Open** column:
@@ -880,7 +727,7 @@ The [infradev issue board](https://gitlab.com/groups/gitlab-org/-/boards/1193197
 #### Infrastructure
 
 1. Nominate issues by adding `Infradev` label.
-1. Assess [Severity](/handbook/engineering/quality/issue-triage/#severity-slos) and `Priority` and apply the corresponding label as appropriate.
+1. Assess [Severity](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity-slos) and `Priority` and apply the corresponding label as appropriate.
 1. Provide [as much information as possible](#a-guide-to-creating-effective-infradev-issues) to assist development engineering troubleshooting.
 
 #### Development
@@ -904,7 +751,7 @@ The [infradev issue board](https://gitlab.com/groups/gitlab-org/-/boards/1193197
 Issues are nominated to the board through the inclusion of the label `infradev` and will appear on the [infradev board](https://gitlab.com/groups/gitlab-org/-/boards/1193197?label_name[]=infradev).
 
 1. Review issues in the Open column. Look for issues within your Stage/Group/Category, but also for those which lack a clear assignment or where the assignment may need correction.
-1. Review the [severity](/handbook/engineering/quality/issue-triage/#severity) on the issue to validate appropriate prioritization.
+1. Review the [severity](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity) on the issue to validate appropriate prioritization.
 1. Ensure that the issue clearly explains the problem, the (potential) impact on GitLab.com's availability, and ideally, clearly defines a proposed solution to the problem.
 1. Assign a Development Manager and a Product Manager to any issue where the `Milestone` or the label `workflow::ready for development` is missing.
    1. Development Manager and Product Manager collaborate on the assigned issue(s) for prioritization and planning.
@@ -915,7 +762,7 @@ Issues with `~infradev ~severity::1 ~priority::1 ~production request` labels app
 
 `~infradev` issues requiring a ~"breaking change" should not exist.  If a current `~infradev` issue requires a breaking change then it should split into two issues.  The first issue should be the immediate `~infradev` work that can be done under current SLOs.  The second issue should be  ~"breaking change" work that needs to be completed at the next major release in accordance with [handbook guidance](/handbook/product/gitlab-the-product/#breaking-changes-deprecations-and-removing-features). Agreement from development DRI as well as the infrastructure DRI should be documented on the issue.
 
-Infradev issues are also shown in the monthly [Error Budget Report](https://about.gitlab.com/handbook/engineering/error-budgets/#budget-reporting).
+Infradev issues are also shown in the monthly [Error Budget Report](/handbook/engineering/error-budgets/#budget-reporting).
 
 ### A Guide to Creating Effective Infradev Issues
 
@@ -936,7 +783,7 @@ Triage of infradev Issues is desired to occur asynchronously. These points below
    1. **Always include a permalink to the source of the screenshot so that others can investigate further**.
 1. **Provide a clear, unambiguous, self-contained solution to the problem**. Do not add the `infradev` label to architectural problems, vague solutions, or requests to investigate an unknown root-cause.
 1. **Ensure scope is limited**. Each issue should be able to be owned by a single stage group team and should not need to be broken down further. Single task solutions are best.
-1. **Ensure a realistic severity is applied**: review the [availability severity label guidelines](/handbook/engineering/quality/issue-triage/#availability) and ensure that applied severity matches. Always ensure all issues have a severity, even if you are unsure.
+1. **Ensure a realistic severity is applied**: review the [availability severity label guidelines](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#availability) and ensure that applied severity matches. Always ensure all issues have a severity, even if you are unsure.
 1. **If possible, include ownership labels** for more effective triage. The [product categories](/handbook/product/categories/) can help determine the appropriate stage group to assign the issue to.
 1. **Cross-reference links to Production Incidents, PagerDuty Alerts, Slack Alerts and Slack Discussions**. To help ensure that the team performing the triage have all the available data.
    1. By adding "Related" links on the infradev issue, the [Infradev Status Report](https://gitlab.com/gitlab-org/infradev-reports/-/issues) will display a count of the number of production incidents related to each infradev issue, for easier and clearer prioritization.

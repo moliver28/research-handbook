@@ -186,7 +186,7 @@ For high severity bugs found in the lead up to the [monthly release](/handbook/e
 [release-tools]: https://gitlab.com/gitlab-org/release-tools
 [release/tasks]: https://gitlab.com/gitlab-org/release/tasks/
 [labels of importance]: #labels-of-importance
-[severity]: /handbook/engineering/quality/issue-triage/#severity
+[severity]: /handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity
 [#releases]: https://gitlab.slack.com/archives/C0XM5UU6B
 [Deployment blockers]: /handbook/engineering/deployments-and-releases/deployments/#deployment-blockers
 [post-deploy migrations]: https://docs.gitlab.com/ee/development/database/post_deployment_migrations.html

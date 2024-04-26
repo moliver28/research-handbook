@@ -22,7 +22,7 @@ The two approaches are `Ad-Hoc` and `Trusted Data`. `Ad-hoc` development is done
 | When To Use | **Prototyping / Directional / Urgent Analysis** | **Mission Critical Analysis / Operational Analysis**  |
 | Manual adding data | optional | N/A |
 | Creating own data structures | optional |  N/A |
-| Visualization using [SiSense](/handbook/business-technology/data-team/platform/sisensecdt) | optional | **required** |
+| Visualization using [Tableau](https://handbook.gitlab.com/handbook/business-technology/data-team/platform/tableau/) | optional | **required** |
 | Built Using the [Enterprise Dimensional Model](/handbook/business-technology/data-team/platform/edw) | optional | optional |
 | Built Using Data from the `COMMON` or `SPECIFIC` schemas | optional | **required** |
 | Registered in the [Data Catalog](/handbook/business-technology/data-team/data-catalog/) | N/A | **required** |

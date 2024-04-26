@@ -16,7 +16,7 @@ This is currently a global threshold per service, but stage groups will soon hav
 
 **Error Rate**: The rate of operations that had errors.
 
-[The developer documentation](https://docs.gitlab.com/ee/development/stage_group_dashboards.html#check-where-budget-is-being-spent) contains detailed steps
+[The developer documentation](https://docs.gitlab.com/ee/development/stage_group_observability/#check-where-budget-is-being-spent) contains detailed steps
 for how to check where budget is being spent.
 
 ## SLI, SLO, SLA?
@@ -57,9 +57,7 @@ Because of size constraints we can't store the exact duration for a request in t
 use a histogram with buckets of `[-Inf, 0.1, 0.25, 0.5, 1.0, 2.5, 5.0, +Inf]` which are [defined in the metrics catalog](https://gitlab.com/gitlab-org/gitlab/-/blob/master/lib/gitlab/metrics/web_transaction.rb#L9).
 When a request takes 0.6s, it would increment the buckets for which it was faster. So `[+Inf, 5.0, 2.5, 1.0]` would be incremented.
 
-We also store if the request was faster or slower than the request duration threshold for that endpoint. Currently, all endpoints
-use the same duration threshold, but in a future iteration each endpoint will be able to specify it's own threshold to use in this
-calculation.
+We also store if the request was faster or slower than the request duration threshold for that endpoint. This is done using [Application SLIs](https://docs.gitlab.com/ee/development/application_slis/). This allows us to customize SLIs based on the importance to users. For example, the [urgency for the `rails_request`](https://docs.gitlab.com/ee/development/application_slis/rails_request.html#adjusting-request-urgency) SLI can be customized to reflect how a user experiences the endpoint.
 
 ## Metric information
 

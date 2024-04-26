@@ -1,7 +1,7 @@
 ---
 
-title: "Brand Design Handbook"
-description: "GitLab Brand Design Handbook: "
+title: "Brand Creative Handbook"
+description: "GitLab Brand Creative Handbook: "
 twitter_image: '/images/tweets/handbook-marketing.png'
 ---
 
@@ -13,9 +13,8 @@ twitter_image: '/images/tweets/handbook-marketing.png'
 
 
 
-# <i class="fas fa-bullhorn fa-fw color-orange font-awesome"></i> Welcome to the GitLab Brand Design Handbook
+# <i class="fas fa-bullhorn fa-fw color-orange font-awesome"></i> Welcome to the GitLab Brand Creative Handbook
 
-{: .no_toc}
 
 We develop our brand visual identity design to ensure it stays relevant in the market and reflects the benefits and quality of our product. We are the creative partners for GitLab marketing. We create, conceptualize, and design high quality brand experiences.
 
@@ -39,45 +38,98 @@ The GitLab Brand Design team will elevate the brand beyond the logo and visuals 
 
 Create simple, effective, and intentional brand experiences by solving complex problems; defining the what, why, and how, resulting in a message that's easy to understand.
 
-### Requesting Support
+## Requesting Support
 
-Please fill out one of these Issue Templates to request support. Please note, if these are not filled out we won't have the proper information for us to support your request.
+Please fill out one of these issue templates to request support. Please note, if these are not filled out we won't have the proper information for us to support your request.
 
-#### Brand & Marketing Design Issue Templates
+### Brand & Marketing Design Issue Templates
 
-  - [Requesting a new design](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/issues/new?issuable_template=request-design-general)
-    - Use this template to request a new design of a single asset
-    - Do NOT use this template for complicated campaign design support
-    - Do NOT use this template for brand reviews
-  - [Requesting a Brand Refresh](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/issues/new?issuable_template=request-rebrand)
-    - Use this template to request re-branding design support (multiple or single asset)
-    - What has changed with our branding?
-        1. [Logomark](https://design.gitlab.com/brand-logo/logomark) and [Core Logo](https://design.gitlab.com/brand-logo/core-logo) the rules around how to use it properly
-        2. [Font and typography guidelines](https://design.gitlab.com/brand-design/typography)
-        3. [Colors and color usage](https://design.gitlab.com/brand-design/color)
-        4. [Marketing icons and illustration style](https://design.gitlab.com/brand-design/marketing-illustrations)
-        5. Added [photography guidelines](https://design.gitlab.com/brand-design/photography) for our brand
-        6. Small adjustments to [Tone of voice](https://design.gitlab.com/brand/overview) and [co-branding guidelines](https://design.gitlab.com/brand-logo/branded-lockups)
-    - Do NOT use this template for complicated campaign design support
-    - Do NOT use this template for brand reviews
-  - [Requesting Brand review](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/issues/new?issuable_template=request-brand-review)
-    - Use this template to request a brand or design review
-    - Do NOT use this template for requesting new assets or designs
-  - [Requesting design concepting for integrated campaigns](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/issues/new?issuable_template=request-design-concepting-integrated-campaign)
-    - Use this template to request design concepting for an integrated campaign
-    - You may also use this template for a single-group campaign, but the ROI but be sufficient to utilize the resources
-    - You must also complete a [Design Requirements Issue](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/issues/new?issuable_template=requirements-design-integrated-campaign) for final files to be delivered.
-    - Design concepting will be completed before the design requirements file is picked up.
-  - [Design requirements](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/issues/new?issuable_template=requirements-design-integrated-campaign)
-    - Use this template for capturing all the design requirements for an integrated campaign
-    - Use this issue along with a [Design Concepting Issue](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/issues/new?issuable_template=request-design-concepting-integrated-campaign)
+
+   1. ##### [Brand Review Request](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-design/-/issues/new?issuable_template=brand-review-request)
+      Need a brand review? Please use this template to request a brand or design review of multiple or single assets. 
+      - _For brand review only - do NOT use this template for requesting new assets or designs_.
+      - _Do NOT use any of the below issues for brand review_.
+
+
+   2. ##### [Content Design Request](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-design/-/issues/new?issuable_template=content-design-request)
+      Please use this issue request template for net new creative or refreshes needed for the following asset types:  
+         - eBook / Solution Briefs
+         - Infographic / Diagrams
+         - One-Pager / Two-Pager
+         - Quarterly Update of Executive Candidate Info Packet
+         - Surveys
+         - Whitepaper
+         - Other but within the same category of assets 
+
+
+   3. ##### [Event Asset Request](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-design/-/issues/new?issuable_template=event-asset-request)
+      Please use this issue template when requesting net new or refreshing any of the following event-related assets: 
+         - Event Booth
+         - Event Signage
+         - Event Social Posts
+         - Event Swag + Giveaways
+
+
+   4. ##### [Illustration + Iconography Requests](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-design/-/issues/new?issuable_template=illustration-and-iconography-request)
+      Please use this issue template for any illustration and iconography needs.
+
+   5. ##### [Presentation Request](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-design/-/issues/new?issuable_template=presentation-request)
+      Please use this issue request template for updating existing presentation decks or when requesting design for net new decks. 
+
+   6. ##### [Social Media Request](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-design/-/issues/new?issuable_template=social-media-request)
+      Please use this issue template for net new or refreshing organic and/or paid social requests.
+
+   7. ##### [Swag Request](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-design/-/issues/new?issuable_template=swag-request)
+      This issue request is for general branded swag for the store or TMRG programs. Please use the Event Asset Request, listed above, for event-related swag.
+
+   8. ##### [General Design Request](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-design/-/issues/new?issuable_template=general-design-request)
+      Does your design request not fall within one of the above categories? Please use this issue template to request a new design of multiple or a single asset.
+      - _Do NOT use this template for brand reviews._
+
+
+##### **Not sure if you need a brand refresh?** Here's what has changed with our branding:
+
+   1. [Logomark](https://design.gitlab.com/brand-logo/logomark) and [Core Logo](https://design.gitlab.com/brand-logo/core-logo) the rules around how to use it properly
+
+   2. [Font and typography guidelines](https://design.gitlab.com/brand-design/typography)
+
+   3. [Colors and color usage](https://design.gitlab.com/brand-design/color)
+      
+   4. [Marketing icons and illustration style](https://design.gitlab.com/brand-design/marketing-illustrations)
+
+   5. Added [photography guidelines](https://design.gitlab.com/brand-design/photography) for our brand
+
+   6. Small adjustments to [Tone of voice](https://design.gitlab.com/brand/overview) and [co-branding guidelines](https://design.gitlab.com/brand-logo/branded-lockups)
+
+
+
+##### **Request Instructions and Tips:** 
+
+   - When submitting your request, please title the request “CREATIVE REQUEST: [Descriptive name]”
+   - Please complete the issue form to the best of your ability. The more information our team can receive upfront, the quicker we can get started on your request.
+   - **Please note, all requests need a minimum of a two-week turnaround.**
+   - **If the deadline for your request is under a two-week window,** please ping our Senior Creative Operations Manager via Slack and include a link to your request, the deadline date, and why this is a quick-turn ask.  
+   - When inputting your project deadline, **please be mindful of time zone differences**. For example, if you're operating a day ahead of our Brand Design Team (PT / GMT-8 time zone) and need deliverables completed by Tuesday, Feb 20, please select Monday, Feb 19 as your deadline to accommodate for the time difference.
+   - If you have any questions, comments, or concerns regarding your creative request, please reach out to our Senior Creative Operations Manager.
+
+### Brand Video Issue Templates
+
+   1. ##### [New Brand Video Request](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-video/-/issues/new?issuable_template=new-video-request)
+      Please use this issue when requesting a net new video.
+
+   2. ##### [Upload Video Request](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-video/-/issues/new?issuable_template=upload-request)
+      Please us this issue template when requesting to have a video uploaded to Vimeo, YouTube, or another similar platform. 
+
+   3. ##### [Video Edit Request](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-video/-/issues/new?issuable_template=video-editing-request)
+      Please use this issue when requesting an update to an existing video or edits to video footage such as adding lower thirds, bumpers or slides to a zoom recording. 
 
 #### Contacting the team
 
 The best way to get in contact with the Brand design team is to fill out one of the above issue templates with your request, or to:
-- Use the @gl-design tag in GitLab issues and epics for visibility
-- @-mention individuals from the team in GitLab issues and epics
-- Ask your question in the #marketing-design Slack channel
+- Use the @gl-design tag in GitLab issues and epics for visibility.
+- @-mention individuals from the team in GitLab issues and epics.
+- Ask your question in the #marketing-design Slack channel.
+- For video specific questions or assistance, please reach out in the #brand_video Slack channel.
 
 #### Team logo requests
 
@@ -151,7 +203,7 @@ Artwork that draws inspiration from or is based on GitLab’s intellectual prope
    - If your Fanart incorporates any other GitLab IP (e.g., screenshots, likenesses, or imagery taken directly from GitLab materials), reach out to #brand for review.  
 - Do not imply that the Fanart is official GitLab content. For example:
    - Do not use Fanart in any GitLab materials, such as slide decks, printed collateral, or swag.
-   - Don’t use or distribute Fanart to Gitlab customers, or at events that you attend on GitLab’s behalf.
+   - Don’t use or distribute Fanart to GitLab customers, or at events that you attend on GitLab’s behalf.
 - Do not sell or otherwise use Fanart for commercial purposes. For example:
    - Do not sell Fanart stickers or T-shirts.
    - Don’t use Fanart to advertise any businesses, services, or products.
@@ -177,7 +229,7 @@ Canva enables team members to self-service their design needs and create on-bran
 
 ### GitLab Enterprise access
 
-If you regularly create designs in Canva, we ask that you work in the `GitLab Enterprise` Canva Pro account instead of using a free or personal account. To gain access, please submit an [access request](/handbook/business-technology/team-member-enablement/onboarding-access-requests/access-requests/) issue. Once this is completed, someone from the Brand Design team will grant you access.
+If you regularly create designs in Canva, we ask that you work in the `GitLab Enterprise` Canva Pro account instead of using a free or personal account. To gain access, please submit an [access request](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/) issue. Once this is completed, someone from the Brand Design team will grant you access.
 
 We have a limited number of seats available, so we encourage teams to consolidate the number of people on their team who need access. *Note: Shared logins are prohibited*.
 

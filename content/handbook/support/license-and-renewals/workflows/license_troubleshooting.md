@@ -13,11 +13,11 @@ Refer to this page when a user has questions/issues related to transactions, lic
 
 ## License Vs Subscription Explained
 
-For self managed, a license is an artefact that customers need to upload to their instance to have access to the paid features in their subscription. This doesn't exist and is not needed for Gitlab.com subscriptions.
+For self managed, a license is an artefact that customers need to upload to their instance to have access to the paid features in their subscription. This doesn't exist and is not needed for GitLab.com subscriptions.
 
-For GitLab.com, there is no artefact to be uploaded but the subscription (seen in the CustomersDot) has to be linked to their namespace (on GitLab.com). If the portal and Gitlab.com don't have the link, then, GitLab.com won't know that a subscription exists.
+For GitLab.com, there is no artefact to be uploaded but the subscription (seen in the CustomersDot) has to be linked to their namespace (on GitLab.com). If the portal and GitLab.com don't have the link, then, GitLab.com won't know that a subscription exists.
 
-Also, subscription is an umbrella term for the base product purchased: for instance, if `subscription` is a fruit, then `Premium` or `Ultimate`(self-managed / Gitlab.com) would be types of fruits that can be purchased.
+Also, subscription is an umbrella term for the base product purchased: for instance, if `subscription` is a fruit, then `Premium` or `Ultimate`(self-managed / GitLab.com) would be types of fruits that can be purchased.
 
 ## Transactions
 

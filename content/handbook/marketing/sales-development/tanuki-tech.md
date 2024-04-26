@@ -1,10 +1,9 @@
 ---
 
-title: "Tanuki Tech"
+title: Tanuki Tech
+description: Tanuki Tech (short for Tanuki Instutite of Technology) is the world class sales/technology bootcamp that we are provide for the sales development organization. Use this page to walk through the courses and examinations that you'll be expected to complete as part of your tenure in our organisation.
+
 ---
-
-
-
 
 ## Tanuki Tech
 
@@ -46,6 +45,11 @@ TT102: The People of Technology
 
 TT103: Introduction to Cold Calls
 > Teaches cold call best practices and what it means to make a cold call here. As part of this class we do two mock calls: one for a director of engineering (target buyer) and one for an application architect (technical influencer).
+>
+> 3 credit hours
+
+TT104: Sales Development Processes
+> This two-part course covers tooling and process for new team members. The curriculum covers Salesforce, Outreach, data tools, and best practices.
 >
 > 3 credit hours
 
@@ -133,7 +137,7 @@ TT305: AWS and Google Alliances (deprecated)
 >
 > 3 credit hours
 
-TT310: Demoing GitLab (deprecated)
+TT310: Demoing GitLab
 > In this class, we will practice demoing GitLab. After taking this class, you will be able to perform brief customer demos to gather customer interest and explain product value.
 >
 > 5 credit hours
@@ -195,10 +199,10 @@ To qualify for promotions, sales development team members are required to keep u
 
 | Tenure         | SDR         | BDR         |
 | -------------- | ----------- | ----------- |
-| First quarter  | TT100, TT101, TT102, TT103, TT110, onboarding checklist, inbound, sales quick starts | TT100, TT101, TT102, TT103, TT110, onboarding checklist, outbound, sales quick starts |
+| First quarter  | TT100, TT101, TT102, TT103, TT104, TT110, onboarding checklist, inbound, sales quick starts | TT100, TT101, TT102, TT103, TT110, onboarding checklist, outbound, sales quick starts |
 | Second quarter | TT120, TTT201, T210, TT211, TT251 | TT120, TT201, TT210, TT211, TT251 |
 | Third quarter  | TT200, TT220, TT252, TT300 | TT200, TT220, TT252, TT300 |
-| Fourth quarter | TT301, TT330 | TT301, TT330 |
+| Fourth quarter | TT301, TT310, TT330 | TT301, TT330 |
 
 To see your current progress, see [here](https://docs.google.com/spreadsheets/d/1P7QvZ09F8OT7LJTeMRYbu6_Oxjw9UdouaJ5Oeo8SU8k/edit?usp=sharing).
 

@@ -158,7 +158,7 @@ Digital CS Program Managers focuse on enabling the onboarding-only and digital c
 - Architect content flows through Gainsight Journey Orchestrator and iterate in short cycles based on user feedback
 - Develop, deliver, and measure the success of adoption campaigns, collaborating with regional CSM leaders
 - Iterate on content flows based on increasingly available product analytics data, continuing to improve the customer experience and the effectiveness of the digital enablement
-- Collaborate cross-functionally to ensure the customer programs work synergistically with other customer touch-points from other Gitlab teams like Growth and Marketing
+- Collaborate cross-functionally to ensure the customer programs work synergistically with other customer touch-points from other GitLab teams like Growth and Marketing
 - Demonstrated progressive hands-on experience with Gainsight Journey Orchestrator or relevant digital marketing platform
 - Demonstrated progressive digital or content marketing experience and understanding of relevant metrics and KPIs (i.e., click-through, engagement, etc.)
 

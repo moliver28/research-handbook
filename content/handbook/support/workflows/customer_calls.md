@@ -79,7 +79,7 @@ At GitLab Support we use two operating principles to help us interpret the somet
 1. **[Customer Results](/handbook/values/#customer-results)**: *Our focus is to improve the results that customers achieve*
 1. **[Freedom and Responsibility over Rigidity](/handbook/values/#freedom-and-responsibility-over-rigidity)**: *we give people the responsibility to make a decision and hold them accountable for that*
 
-Our customer-facing [Statement of Support section on video calls](/support/#phone-and-video-call-support) supports this:
+Our customer-facing [Statement of Support section on video calls](https://about.gitlab.com/support/#phone-and-video-call-support) supports this:
 
 > At times it may be useful and important to conduct a call, video call, or screensharing session with you to improve the progress of a ticket...the support engineer... will determine:
 >

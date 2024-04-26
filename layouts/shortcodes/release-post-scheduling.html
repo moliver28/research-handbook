@@ -1,73 +1,87 @@
-{{ $page := .}}
-{{- $teamDict := dict }}
-{{- $dataURL := printf "https://about.gitlab.com/company/team/team.yml" }}
-{{- with resources.GetRemote $dataURL (dict "mediaType" "application/yaml")}}
-  {{- with .Err}}
-	<h2>Unable to fetch Team Member Data File</h2>
-  {{- else }}
-	  {{- $data := .Content | transform.Unmarshal }}
-	  {{- $team := sort $data "name" }}
-	  {{- range $team }}
-	  	{{- $teamDict = merge $teamDict (dict (lower .gitlab) . ) }}
-	  {{- end }}
-  {{ end }}
-{{- end }}
-
-{{ $dataURL := printf "https://gitlab.com/gitlab-com/www-gitlab-com/-/raw/master/data/release_post_managers.yml"}}
-{{ with resources.GetRemote $dataURL }}
-  {{ with .Err}}
-	<h2>Unable to fetch performance indicator Data</h2>
-  {{ else }}
-	  {{ $data := . | transform.Unmarshal }}
-	  <table style="display: table; width: 50%;">
-		  <thead>
-			  <tr>
-				  <th>Version</th>
-				  <th>Release date</th>
-				  <th>Manager</th>
-				  <th>Messaging</th>
-				  <th>Structural check</th>
-				  <th>Technical Advisor</th>
-				  <th>Social</th>
-			  </tr>
-		  </thead>
-		  <tbody>
-			  {{ range $data.releases }}
-			  <tr>
-				  <td>{{ .version }}</td>
-				  <td>{{ .date }}</td>
-				  <td>
-					  {{ with (index $teamDict (lower .manager)) }}
-					  	<a href="{{ref $page "/handbook/company/team" }}#{{.gitlab}}">{{ .name }}</a>
-					  {{ end }}
-				  </td>
-				  <td>
-					  {{ with (index $teamDict (lower .messaging)) }}
-						<a href="{{ref $page "/handbook/company/team" }}#{{.gitlab}}">{{ .name }}</a>
-					  {{ end }}
-				  </td>
-				  <td>
-					  {{ with (index $teamDict (lower .structural_check)) }}
-						  <a href="{{ref $page "/handbook/company/team" }}#{{.gitlab}}">{{ .name }}</a>
-					  {{ end }}
-				  </td>
-				  <td>
-					  {{ with (index $teamDict (lower .technical_advisor)) }}
-						<a href="{{ref $page "/handbook/company/team" }}#{{.gitlab}}">{{ .name }}</a>
-					  {{ end }}
-				  </td>
-				  <td>
-					  {{ with (index $teamDict (lower .social)) }}
-					  	<a href="{{ref $page "/handbook/company/team" }}#{{.gitlab}}">{{ .name }}</a>
-					  {{ else }}
-					  	{{ if eq .social "--"}}
-					  	<a href="https://gitlab.slack.com/archives/C3TRESYPJ" title="Ping @social on Slack" target="slack">@social on Slack</a>
-						  {{ end }}
-					  {{ end }}
-					  {{ if not (eq .social "tbd") }}{{ (index $teamDict (lower .social)).name }}{{end}}</td>
-			  </tr>
-			  {{ end }}
-		  </tbody>
-	  </table>
-  {{ end }}
-{{ end }}
+<table style="display: table; width: 100%;">
+      <thead>
+          <tr>
+              <th>Version</th>
+              <th>Release date</th>
+              <th>Manager</th>
+              <th>Messaging</th>
+              <th>Structural check</th>
+              <th>Technical Advisor</th>
+              <th>Social</th>
+          </tr>
+      </thead>
+      <tbody>
+          {{- range site.Data.public.release_post_managers.releases }}
+          <tr>
+              <td>{{ .version }}</td>
+              <td>{{ .date }}</td>
+              <td>
+                  {{- with .manager }}
+                  {{- with (index (where site.Data.public.team "gitlab" "eq" .) 0) }}
+                      {{- partial "member/with-team-link" . }}
+                  {{- else }}
+                      {{- if not (eq . "tbd") }}
+                      <a href="https://gitlab.com/{{ . }}">
+                      <img class="avatar" src="https://about.gitlab.com/images/gitlab-logo-extra-whitespace.png" width="90" height="90" alt="{{ . }}">@{{.}}
+                    </a>
+                    {{- end }}
+                  {{- end }}
+              {{- end }}
+              </td>
+              <td>
+                  {{- with .messaging }}
+                  {{- with (index (where site.Data.public.team "gitlab" "eq" .) 0) }}
+                        {{- partial "member/with-team-link" . }}
+                    {{- else }}
+                        {{- if not (eq . "tbd") }}
+                        <a href="https://gitlab.com/{{ . }}">
+                        <img class="avatar" src="https://about.gitlab.com/images/gitlab-logo-extra-whitespace.png" width="90" height="90" alt="{{ . }}">@{{.}}
+                      </a>
+                      {{- end }}
+                    {{- end }}
+                    {{- end }}
+              </td>
+              <td>
+                  {{ with .structural_check }}
+                  {{- with (index (where site.Data.public.team "gitlab" "eq" .) 0) }}
+                      {{- partial "member/with-team-link" . }}
+                  {{- else }}
+                      {{- if not (eq . "tbd") }}
+                      <a href="https://gitlab.com/{{ . }}">
+                      <img class="avatar" src="https://about.gitlab.com/images/gitlab-logo-extra-whitespace.png" width="90" height="90" alt="{{ . }}">@{{.}}
+                    </a>
+                    {{- end }}
+                  {{- end }}
+                  {{- end }}
+              </td>
+              <td>
+                {{- with .technical_advisor }}
+                  {{- with (index (where site.Data.public.team "gitlab" "eq" .) 0) }}
+                        {{- partial "member/with-team-link" . }}
+                    {{- else }}
+                        {{- if not (eq . "tbd") }}
+                        <a href="https://gitlab.com/{{ . }}">
+                        <img class="avatar" src="https://about.gitlab.com/images/gitlab-logo-extra-whitespace.png" width="90" height="90" alt="{{ . }}">@{{.}}
+                      </a>
+                      {{- end }}
+                    {{- end }}
+                {{- end }}
+              </td>
+              <td>
+                  {{- with .social }}
+                  {{- with (index (where site.Data.public.team "gitlab" "eq" .) 0) }}
+                      {{- partial "member/with-team-link" . }}
+                  {{- else }}
+                      {{- if eq . "--"}}
+                      <a href="https://gitlab.slack.com/archives/C3TRESYPJ" title="Ping @social on Slack" target="slack"><img src="/images/slack-mark.png" style="padding:4px" alt="Slack Logo" class="avatar" height="40" width="40"> @social on Slack</a>
+                    {{- else if not (eq . "tbd") }}
+                      <a href="https://gitlab.com/{{ . }}">
+                      <img class="avatar" src="https://about.gitlab.com/images/gitlab-logo-extra-whitespace.png" width="90" height="90" alt="{{ . }}">@{{.}}
+                    </a>
+                    {{- end }}
+                  {{- end }}
+                {{- end }}
+          </tr>
+          {{- end }}
+      </tbody>
+  </table>

@@ -1,5 +1,5 @@
 ---
-title: Frequently Asked Questions
+title: FAQs
 description: Some frequently asked questions
 canonical_path: "/handbook/support/readiness/operations/faqs/"
 ---

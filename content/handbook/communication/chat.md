@@ -23,7 +23,7 @@ The alphabetically sorted starter list below spotlights a few of GitLab's many S
 | `#company-fyi`                       | Official company announcements, restricted permission levels to ensure high-signal; all GitLab team members are automatically added to this channel.                                                      |
 | `#whats-happening-at-gitlab`         | Open to all team members for unofficial updates which are important and/or useful to **most or all** of GitLab, including reminders, events, project updates, etc.; all GitLab team members are automatically added to this channel. |
 | `#diversity_inclusion_and_belonging` | Stay up to date on GitLab’s latest [Diversity, Inclusion and Belonging](/handbook/company/culture/inclusion/) initiatives and share feedback and thoughts about how we can make our environment even more inclusive.                          |
-| `#expense-reporting-inquiries`       | For questions pertaining to [expenses](/handbook/spending-company-money/) (e.g. Expensify).                                                                                                                                          |
+| `#expense-reporting-inquiries`       | For questions pertaining to [expenses](/handbook/spending-company-money/) (e.g. Navan).                                                                                                                                          |
 | `#git-help`                          | Specific questions about using Git in the terminal.                                                                                                                                                                                  |
 | `#is-this-known`                     | Get help in finding existing issues for existing problems.                                                                                                                                                                           |
 | `#it_help`                           | Create a Help Request in this channel should you have any IT general questions or trouble with setup (e.g. 2FA, accounts, etc.).                                                                                                     |                                                                             |
@@ -44,7 +44,7 @@ The alphabetically sorted starter list below spotlights a few of GitLab's many S
 There are a lot of general channels, just to name a few:
 
 - **[`#questions`](https://gitlab.slack.com/archives/questions)**: Ask all of GitLab for help with any question you have... and then go document it after you find the answer :)
-- **[`#thanks`](https://gitlab.slack.com/archives/thanks)**: Where GitLab team-members can [say thanks](/handbook/communication/#say-thanks) to those GitLab team-members who did a great job, helped a customer, or helped you!
+- **[`#thanks`](https://gitlab.slack.com/archives/thanks)**: Where GitLab team-members can [say thanks](/handbook/communication/#say-thanks) to those GitLab team-members who did a great job, helped a customer, or helped you! Also where managers recoginze discretionary bonuses for their teams.
 - **[`#office-today`](https://gitlab.slack.com/archives/office-today)**: GitLab is an [all-remote](/handbook/company/culture/all-remote/) organization. Where’s your office today?
 - **[`#remote`](https://gitlab.slack.com/archives/travel)**: To share news, thoughts, feedback and anything else pertaining to remote work! Learn more about [GitLab's approach to remote work](/handbook/company/culture/all-remote/)
 - **[`#travel`](https://gitlab.slack.com/archives/travel)**: A place to discuss all things [travel](/handbook/company/culture/all-remote/people/#travelers)
@@ -85,7 +85,7 @@ To raise an issue with a specific team, please use below most commonly used chan
 
 These channels (prefixed with a `a_`) are for team members to collaborate and communicate regarding the account for a customer organization. Depending on the customer, they are sometimes internal, marked as private or we shared with the customer by connecting to customer's own Slack workspace. In order to clearly differentiate between these shared and internal channels, we recommend using `a_XYZ-internal` and `a_XYZ-external` naming conventions to be explicitly clear (as the shared symbol can be easily missed in Slack).
 
-To request a new channel or to make changes to existing channels, please use the [access request process](/handbook/business-technology/team-member-enablement/onboarding-access-requests/access-requests/#slack-google-groups-1password-vaults-or-groups-access-requests).
+To request a new channel or to make changes to existing channels, please use the [access request process](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/#slack-google-groups-1password-vaults-or-groups-access-requests).
 
 Commercial (Mid-Market and SMB) accounts have specific guidelines around having Slack channels with customers.
 
@@ -100,13 +100,13 @@ These channels are for teams and GitLab team-members interested in a specific fe
 
 #### Group Channels (g_)
 
-Group channels (prefixed with a `g_`) correspond to a [DevOps Stage group](/handbook/product/categories/#hierarchy) and other [engineering departments and teams](https://about.gitlab.com/handbook/engineering/#engineering-departments--teams).
+Group channels (prefixed with a `g_`) correspond to a [DevOps Stage group](/handbook/product/categories/#hierarchy) and other [engineering departments and teams](/handbook/engineering/#engineering-departments--teams).
 
 **Example**
 
 - **[`#g_create`](https://gitlab.slack.com/archives/g_create)**: Channel for the [Create](/handbook/product/categories/#create-stage) development group.
 - **[`#g_create_source-code`](https://gitlab.slack.com/archives/g_create_source-code)**: Channel for the [Source Code](/handbook/product/categories/#source-code-group) development group.
-- **[`#g_geo`](https://gitlab.slack.com/archives/g_geo)**: Dedicated to the [Geo group](https://about.gitlab.com/handbook/engineering/development/enablement/systems/geo/).
+- **[`#g_geo`](https://gitlab.slack.com/archives/g_geo)**: Dedicated to the [Geo group](/handbook/engineering/development/enablement/systems/geo/).
 
 #### Location Channels (loc_)
 
@@ -158,7 +158,7 @@ If there's a channel not listed below, please add in alphabetical order with an 
 | [`#loc_india`](https://app.slack.com/client/T02592416/CDKF2QND7) | Indians at GitLab |
 | [`#loc_indianapolis`](https://app.slack.com/client/T02592416/C01071LFT3J) | Local Indiana/Indianapolis GitLab team members |
 | [`#loc_ireland`](https://app.slack.com/client/T02592416/CFN507G9H) |  |
-| [`#loc_israel`](https://app.slack.com/client/T02592416/CLTSE8L91) | Sync Locally for Gitlab team members in Israel |
+| [`#loc_israel`](https://app.slack.com/client/T02592416/CLTSE8L91) | Sync Locally for GitLab team members in Israel |
 | [`#loc_italy`](https://app.slack.com/client/T02592416/CCL55MRH6) |  |
 | [`#loc_japan`](https://app.slack.com/client/T02592416/CSWKAJ8HF) |  |
 | [`#loc_kansas-city`](https://app.slack.com/client/T02592416/CHWJVF61W) | Channel for KC GitLabbers |
@@ -199,7 +199,7 @@ If there's a channel not listed below, please add in alphabetical order with an 
 | [`#loc_rdu`](https://app.slack.com/client/T02592416/CGCCE7ZAR) | For those who live or visit the Raleigh Durham area in North Carolina, U.S.A. |
 | [`#loc_romania`](https://app.slack.com/client/T02592416/CMTAGFMTR) | 🇷🇴  |
 | [`#loc_russia`](https://app.slack.com/client/T02592416/CM8C6FXPC) |  |
-| [`#loc_sacramento_reno`](https://app.slack.com/client/T02592416/CH4MFKWQ7) | Visiting Sacramento, Roseville, Folsom, Elk Grove, Rocklin, Reno or even Tahoe? For Gitlab team members based in the area and anyone who is visiting |
+| [`#loc_sacramento_reno`](https://app.slack.com/client/T02592416/CH4MFKWQ7) | Visiting Sacramento, Roseville, Folsom, Elk Grove, Rocklin, Reno or even Tahoe? For GitLab team members based in the area and anyone who is visiting |
 | [`#loc_sanantonio`](https://app.slack.com/client/T02592416/CPPEK0E4X) | Channel for San Antonio GitLab Team Members |
 | [`#loc_sask`](https://app.slack.com/client/T02592416/CR2QGNAMS) | Saskatchewan (Canada) folks. |
 | [`#loc_sc`](https://app.slack.com/client/T02592416/C01BCDZV2QY) | For GitLab team members living in South Carolina. |
@@ -229,7 +229,7 @@ If there's a channel not listed below, please add in alphabetical order with an 
 | [`#loc-costa-rica`](https://app.slack.com/client/T02592416/C01TG4VLFDK) |  |
 | [`#loc-dublin`](https://app.slack.com/client/T02592416/CBK3B7EGM) | Connection with the Dublin team |
 | [`#loc-latam`](https://app.slack.com/client/T02592416/CTA13962D) | For all team members from Latam , rest of the world welcome as well |
-| [`#loc-midwest-u-s`](https://app.slack.com/client/T02592416/CC0BVGJTT) | To connect with Gitlab team members in the Midwest region of the U.S. |
+| [`#loc-midwest-u-s`](https://app.slack.com/client/T02592416/CC0BVGJTT) | To connect with GitLab team members in the Midwest region of the U.S. |
 | [`#loc-utah`](https://app.slack.com/client/T02592416/C1F6XRA77) |  |
 | [`#loc-west-lafayette`](https://app.slack.com/client/T02592416/CQ8HG9NNA) | West Lafayette, IN GitLab team members |
 | [`#locnewyork`](https://app.slack.com/client/T02592416/CPLALPZ1Q) |  |
@@ -258,7 +258,7 @@ Sub-department channels (prefixed with `sd_`) correspond to sub-departments with
 
 **Example**
 
-- **[`#sd_dev_engineering`](https://gitlab.slack.com/archives/sd_dev_engineering)**: For the [Engineering Dev sub-department](https://about.gitlab.com/handbook/engineering/development/dev/).
+- **[`#sd_dev_engineering`](https://gitlab.slack.com/archives/sd_dev_engineering)**: For the [Engineering Dev sub-department](/handbook/engineering/development/dev/).
 
 #### Social Groups
 
@@ -283,3 +283,7 @@ In addition to weekly company group calls that bring us together, GitLab has Soc
 - **[`#mental_health_aware`](https://gitlab.slack.com/archives/mental_health_aware)**: Mental health is [super important](/handbook/company/culture/all-remote/mental-health/) and we realize that. This is a place to discuss concerns you might be having or find someone to talk to if you're feeling alone. We aim to be supportive and available for all who need it.
 - **[`#music`](https://gitlab.slack.com/archives/music)**: Share your current playlist or any interesting music you come across.
 - **[`#postcrossing`](https://gitlab.slack.com/archives/C2L1HK6TV)**: Send team members postcards from your home cities, towns and villages from around the world.
+
+## Security & Compliance
+
+On a quarterly basis, all users will be logged out of Slack and will need to re-authenticate on all of their devices via Okta.

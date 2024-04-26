@@ -8,9 +8,7 @@
   {{- errorf "The %q shortcode requires a single positional argument."}}
 {{- end }}
 
-
-{{- $techStack := partials.IncludeCached "data/tech-stack-by-title" page }}
-{{- with (index $techStack $title) }}
+{{- with (index site.Data.public.teach_stack $title) }}
 - **Description:** {{ .description }}
 {{- with .provisioner }}
 - **Provisioner:** {{ . }}

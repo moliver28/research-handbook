@@ -13,7 +13,6 @@ twitter_creator: '@gitlab'
 
 
 ## Overview
-{: #overview .gitlab-purple}
 <!-- DO NOT CHANGE THIS ANCHOR -->
 The Marketing Operations team provides the Integrated Marketing team with advice around execution strategy and systems set-up. In addition, this function currently supports the Field Marketing and Events teams by creating email marketing and landing page set-up, as well as other tasks in Marketo. 
 
@@ -25,7 +24,6 @@ Field Marketing issue templates (used by both Field Marketing and Corporate Even
 Additional labels that can be used on issues to [track the status of the issue](/handbook/marketing/marketing-operations/#labeling) can be found in on the Marketing Operations page.
 
 ### Team Members
-{: #team}
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
 | Name | Title | Details 
@@ -34,7 +32,6 @@ Additional labels that can be used on issues to [track the status of the issue](
 | Jenny Tiemann | Senior Marketing Operations Manager | Issue triage, process questions, Back-up execution |
 
 ### Process documentation shortcuts
-{: #shortcuts .gitlab-purple}
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
 - [Sales Nominated Invitations](/handbook/marketing/lifecycle-marketing/email-processes-requests/#sales-nominated)
@@ -42,13 +39,10 @@ Additional labels that can be used on issues to [track the status of the issue](
 - [Workshop Landing Page and Marketo Setup](/handbook/marketing/field-marketing/field-marketing-owned-virtual-events/#virtual-workshop-logistical-set-up)
 
 ## Project Management 
-{: #project-management}
 <!-- DO NOT CHANGE THIS ANCHOR -->
 In an effort to avoid manually adding the issues we are working on, Field Marketing will be utilizing labels and boards to manage the work we are working on with MktgOps. All commentary should be done via comments directly within the GitLab issues.
 
 ### Shortcut list views
-{: #list-views-fmm}
-
 <!-- DO NOT CHANGE THIS ANCHOR -->
 - [Issue Board](https://gitlab.com/groups/gitlab-com/marketing/-/boards/5563453?label_name[]=MktgOps-Support)
 - [FM Triage Board](https://gitlab.com/gitlab-com/marketing/field-marketing/-/boards/5623394?label_name%5B%5D=MktgOps-Support)
@@ -58,18 +52,21 @@ In an effort to avoid manually adding the issues we are working on, Field Market
 #### MktgOps
 Please note there is a 5 business day SLA with MktgOps, so please plan ahead accordingly. The SLA begins on the day after the issue is put into `~MktgOps::00: Triage`. For example, if the issue goes to triage on Tuesday, day 1 is Wednesday, day 5 is the following Tuesday. Day 5 is the earliest deployment/live date available. Please allow for US holidays and Family & Friends days as well. Using the same example, if day 4 is a US holiday, this will push day 5 to Wednesday. 
 
+Anything outside of the standard set-up does not fall under the 5 business day SLA. The most common example of this is the creation of custom forms. For more information about when custom forms are required and the timeline for this work, visit the [Marketo HB page](https://handbook.gitlab.com/handbook/marketing/marketing-operations/marketo/#forms).
+
+If you are planning a program that requires anything outside of the standard set-up, bring MOps in early during your planning process. We can help guide you on the best way to use our available technology to reach your goals and keep your program timeline on track.
+
 #### Field Marketing
 Please see Field Marketing SLAs pertaining to this process [here](/handbook/marketing/field-marketing/#slas).
 
 ### Triage Steps
-{: #triage}
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
 1. **Field Marketing / Corporate Events**: Marketo asset issues are created (in Field Marketing, the FMC will create the issues during the [plan to WIP process](/handbook/marketing/field-marketing/#process-for-issues-moving-from-plan-to-wip)). When opening issues via the appropriate templates, the `~MktgOps::07: Blocked` and the `~MktgOps-Support` labels will automatically be associated with the issues. This allows for the issues to be opened in advance and to be available while copy is being finalized.
 1. **Field Marketing / Corporate Events**: If the copy references analyst reports, the FMM must open the [Analyst Citation Review issue](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/product-marketing/-/issues/new?issuable_template=AR-CitationReview) and associate it to the MOps email request. You do not need to complete the entire issue, but you must link the email issue and the copy doc with your proposed copy. To expedite email approval, you can use the content found [here](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/product-marketing/-/issues/7130#previously-approved-email-copy-still-requires-reapproval) as it is most likely to be approved quickly. We do not have previously approved landing page copy.
 1. **Field Marketing / Corporate Events**: FMM/FMC/Event Manager will submit the reviewed and final issue/copy to that team's Triage Manager by tagging the Triage Manager and moving the issue's label from `~MktgOps::07: Blocked` to `~MktgOps::Events/FM Copy Review`.
     - At this time, all details must be provided and final (including copy reviewed by relevant stakeholders, and all hyperlinks double-checked and confirmed).
-    - The requested send date is the due date of the issue. If the requested send date is less than 5 Business Days from the date it is passed to Mktg Ops, the date of the issue may be scheduled 5 business days out to abide by SLAs. This is at the discretion of Mktg Ops based on other work in progress and upcoming.
+    - The requested send date is the due date of the issue. If the requested send date is less than 5 Business Days from the date it is passed to Mktg Ops, the date of the issue may be scheduled 5 business days out to abide by SLAs. This is at the discretion of Mktg Ops based on other work in progress and upcoming. Please note that we do not send invites or follow-up emails on Thursdays.
 1. **Field Marketing / Corporate Events**: The Triage Manager for the relevant team will review the incoming issues for completed details. When details are confirmed and final, they will move to `~MktgOps::00: Triage`.
     - If Mktg Ops triage manager finds that all details are not included in the issue, then they will add the label `~MktgOps::07: Blocked` and will also comment to the requesting team member what is missing. Once the team member addresses the missing pieces, they then add the `~MktgOps::00: Triage` label again to start the review process over.
 1. **MktgOps**: Assign the issue to the appropriate DRI and assign a milestone for the work. For email invitations and email follow-ups, add `~Lifecycle 01 Needs Copy Review" label to signal to Lifecycle team the email copy is ready for review.
@@ -87,8 +84,6 @@ Please see Field Marketing SLAs pertaining to this process [here](/handbook/mark
 1. **MktgOps** Once a report is complete please add a link to the main issue into the Planning & Recap Spreeedsheet section.
 
 ### Responsibilities of email requesters
-{: #requester-responsibilities}
-
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
 - Issue (email) requesters are responsible for submitting **all details**, including **final approved copy**, reviewed by all stakeholders, PRIOR to moving the issue to triage.
@@ -96,7 +91,6 @@ Please see Field Marketing SLAs pertaining to this process [here](/handbook/mark
 - Issue (email) requesters are responsible for **FINAL QA** (including spelling, grammar, readability, and checking that all links direct to the proper URLs and contain proper tracking parameters). Refer to the [QA checklist](/handbook/marketing/lifecycle-marketing/email-processes-requests/#qa-checklist-requestor).
 
 ### Review Process
-{: #review-process}
 
 <!-- DO NOT CHANGE THIS ANCHOR -->
 Unless otherwise stated, only **ONE** of the people listed as "Reviewer/Approver" and a Lifecycle Marketing Manager need to approve in order for the email to be set.
@@ -110,7 +104,7 @@ Detailed email QA instructions can be found on the email and nurture handbook pa
 Note that if questions arise, ask in the `#mktgops` Slack channel. 
 
 ### Email Send Times
-{: #email-send-times}
+Due to nurture protocols, we do not send non-operational emails (invites, follow-ups) on Thursdays.
 
 If the Field Marketer/Event Manager does not provide a specific time, then emails will send at the following times:
 
@@ -121,8 +115,6 @@ If the Field Marketer/Event Manager does not provide a specific time, then email
 Should a requested send time be missed, MktgOps can schedule the email within 8 hours of the original ask, or the following day if other email sends will reduce the list size of the email. If the send time must go beyond 24 hours of the original send time, MktgOps will discuss options with the FMM in the issue.
 
 ### Technical set-up - email
-{: #technical-tips-email}
-
 * Specialized email headers (not the standard header used in templates) - Typically used for large events such as Commit or DevSecOps World Tour. 
      - The images will be requested either by Lifecycle Marketing or the event DRI
      - Image dimensions can be found on the [email marketing page](/handbook/marketing/lifecycle-marketing/email-best-practices/#email-templates). 
@@ -138,4 +130,4 @@ Should a requested send time be missed, MktgOps can schedule the email within 8 
 * Prior to sending to the business owner review, the email creator must complete all steps in the [Technical email QA checklist](/handbook/marketing/lifecycle-marketing/email-processes-requests/#qa-checklist-technical)     
 
 ### Technical set-up - landing pages
-{: #technical-tips-landingpages}
+

@@ -1,6 +1,5 @@
 ---
-title: "GitLab for Education Program Agreement"
-description: "This agreement ..."
+title: GitLab for Education Program Agreement
 ---
 
 ## Education Program Agreement

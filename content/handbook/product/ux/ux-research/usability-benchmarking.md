@@ -122,7 +122,7 @@ The following metrics and definitions are the core of how GitLab performs benchm
 | **CES** (Customer Effort Score) | Qualitative measure of perceived effort (1-7, 1 = extreme effort, 7 = effortless) | Measured per task, reported as average | At the end of the task, ask the participant, "On a scale of 1-7 where, 1 is extremely difficult and 7 is extremely easy, how easy was it for you to complete this task?"| Avg. CES for task 13 = 5.9 |
 | **Error Type Count**  | Number of the different type of errors or mistakes made during task completion | Measured per task, reported as average or mean | Errors need to be defined alongside the 'happy' or optimal path the user should take  | 2.6 avg. errors for task X|
 | **Error Rate** | The number of different types of errors observed over the number of steps in the task | Per task | Take the number of observed types of errors and divide by the number of steps or actions in that task. | Task A has 5 steps. There are 10 participants in the study. Our total steps (denominator) is therefore 50. The numerator is the observed errors across all participants for task A. Suppose there are 20 errors recorded for task A. Error rate is thus 20/50, or 40% |
-| **Severity**  |  Judged severity of the problem   |   Per task, overall   |  See [this handbook page](https://about.gitlab.com/handbook/engineering/quality/issue-triage/) for details | Critical |
+| **Severity**  |  Judged severity of the problem   |   Per task, overall   |  See [this handbook page](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/) for details | Critical |
 | **Grade**     |   A cumulative letter grade portraying the usability of the task overall      |       per task, overall          |    see 'Per task grade calculation section below'         | C |
 | **UMUX lite** |  Canonically, UMUX lite is a 2-question survey that measures perceived usefulness and usability of a system or product. For benchmarking at GitLab, we tend to use it to measure usability against the specific JTBD in our study. |  Collected once per JTBD at end of session.  |    1 question, on a 7-point Likert scale from strongly disagree to strongly agree.    | On a scale of 1-7, where 1 is strongly disagree and 7 is strongly agree, how much to do agree with the statement, "This system helps me perform (insert description of JTBD here)" |
 
@@ -150,7 +150,7 @@ For per-workflow overall grade calculation:
 
 #### Severity calculation
 
-In each session, you will record (per task) the severity number that most closely represents that user's experience as defined on [this handbook page](https://about.gitlab.com/handbook/engineering/quality/issue-triage/). This methodology is similar to the widely-known [Nielsen/Norman system](https://www.nngroup.com/articles/how-to-rate-the-severity-of-usability-problems/), but inverse (where low numbers in our system are of greater severity).
+In each session, you will record (per task) the severity number that most closely represents that user's experience as defined on [this handbook page](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/). This methodology is similar to the widely-known [Nielsen/Norman system](https://www.nngroup.com/articles/how-to-rate-the-severity-of-usability-problems/), but inverse (where low numbers in our system are of greater severity).
 
 For each incomplete task, rate the severity as 1. For a very painful completion, rate the severity as 2. For a mildly painful completion, rate the severity as 3 (and so on). If the user doesn't encounter any usability issues, rate the severity as 5.
 
@@ -271,9 +271,9 @@ A: This is variable based on need and how quickly the recommendations from a pre
 
 A: Yes. Benchmarking is far too heavy-handed to perform for solution validation of upcoming features, and while you *could* perform benchmarking on a previous release, the results you gather may already be invalid when you collect them. Given the time commitment, this is **highly discouraged**.
 
-**Q: What Gitlab environment should the usability benchmarking be tested on?**
+**Q: What GitLab environment should the usability benchmarking be tested on?**
 
-A: The UX Researcher on the project can set up a cloud instance of Gitlab and create sample data in a project by following the instructions on the [UX Cloud Sandbox](/handbook/product/ux/ux-research/ux-cloud-sandbox/) page. Make sure there is enough sample data to complete all tasks in the benchmarking study when you run your pilot study. You can also ask for help on the #ux-cloud-sandbox Slack channel.
+A: The UX Researcher on the project can set up a cloud instance of GitLab and create sample data in a project by following the instructions on the [UX Cloud Sandbox](/handbook/product/ux/ux-research/ux-cloud-sandbox/) page. Make sure there is enough sample data to complete all tasks in the benchmarking study when you run your pilot study. You can also ask for help on the #ux-cloud-sandbox Slack channel.
 
 **Q: How complex/realistic does my testing environment need to be?**
 

@@ -1,10 +1,7 @@
 ---
 title: "GCF Security Control Lifecycle"
+controlled_document: true
 ---
-
-{{% alert title="This is a Controlled Document" color="danger" %}}
-Inline with GitLab's regulatory obligations, changes to [controlled documents]({{< ref "controlled-document-procedure" >}}) must be approved or merged by a code owner. All contributions are welcome and encouraged.
-{{% /alert %}}
 
 ## Process Overview
 
@@ -84,7 +81,7 @@ Exceptions to this procedure will be tracked as per the [Information Security Po
 
 ## References
 
-- [Information Security Policies]({{< ref "/handbook/security/controlled-document-procedure" >}})
+- [Information Security Policies](/handbook/security/controlled-document-procedure)
 - [Controlled Document Procedure]({{< ref "controlled-document-procedure" >}})
 
 <a href="{{< ref "../security-compliance" >}}" class="btn bg-primary text-white btn-lg">Return to the Security Compliance</a>

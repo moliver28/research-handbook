@@ -17,8 +17,7 @@ categories:
 - [Request changes to your Calendly](#request-changes-to-your-calendly)
 - [Propose a change](#propose-a-change)
 - [Get something fixed](#get-something-fixed)
-- [Make changes to Zendesk Global macros](#make-changes-to-zendesk-global-macros)
-- [Make changes to Zendesk US Government macros](#make-changes-to-zendesk-us-government-macros)
+- [Make changes to Zendesk Global or Zendesk US Government macros](#make-changes-to-zendesk-global-or-zendesk-us-government-macros)
 - [Support Team page requests](#support-team-page-requests)
 - [Everything else](#everything-else)
 
@@ -106,37 +105,15 @@ Once the issue is created, Support Operations will work the issue. They may
 create new issues or move the original request as needed. As these tend to be
 timely in nature, make sure you are available to work with Support Operations.
 
-### Make changes to Zendesk Global macros
+### Make changes to Zendesk Global or Zendesk US Government macros
 
-If you want to create, edit, or deactivate a macro in Zendesk Global, you can do
-one of two options:
+Macros are [deployed immediately](https://handbook.gitlab.com/handbook/support/readiness/operations/docs/change_management/#zendesk-macros-change-management). For information on macros, please see [Zendesk Global Macros](https://handbook.gitlab.com/handbook/support/readiness/operations/docs/zendesk/macros/).
 
-- Create a merge request doing the modifications in the
-  [macros project](https://gitlab.com/gitlab-com/support/support-ops/zendesk-global/macros)
-  - NOTE: If creating a new macro, leave the `id` field blank. The pipeline
-    will fail, but Support readiness will rectify that.
-- Create an issue in the
-  [macros project issue tracker](https://gitlab.com/gitlab-com/support/support-ops/zendesk-global/macros/-/issues/new)
+If you want to edit the wording of a macro, make an MR to the repo (Zendesk Global or Zendesk US Government).
+If you want to make non-wording changes (renaming it, add/removing options, etc.), use the [Support Super Form](https://support-super-form-gitlab-com-support-support-op-651f22e90ce6d7.gitlab.io) ‘Edit a Zendesk macro’ option.
+If you want to create a new macro, use the [Support Super Form](https://support-super-form-gitlab-com-support-support-op-651f22e90ce6d7.gitlab.io) ‘Create a Zendesk macro’ option.
+To discuss a macro (but not actually action on anything), use a support-team-meta issue.
 
-If making an issue, Support Readiness will assist you in getting a merge request
-created. If making a merge request, it will be reviewed by the appropriate
-CODEOWNERS.
-
-### Make changes to Zendesk US Government macros
-
-If you want to create, edit, or deactivate a macro in Zendesk US Government,
-you can do one of two options:
-
-- Create a merge request doing the modifications in the
-  [macros project](https://gitlab.com/gitlab-com/support/support-ops/zendesk-us-federal/macros)
-  - NOTE: If creating a new macro, leave the `id` field blank. The pipeline
-    will fail, but Support readiness will rectify that.
-- Create an issue in the
-  [macros project issue tracker](https://gitlab.com/gitlab-com/support/support-ops/zendesk-us-federal/macros/-/issues/new)
-
-If making an issue, Support Readiness will assist you in getting a merge request
-created. If making a merge request, it will be reviewed by the appropriate
-CODEOWNERS.
 
 ### Support Team page requests
 
@@ -214,8 +191,8 @@ graph TD;
 
 ### Helpful links
 
-- [Support Ops team page]({{< ref "/handbook/support/readiness" >}})
-- [Support Ops documentation]({{< ref "/handbook/support/readiness/operations/docs" >}})
+- [Support Ops team page](/handbook/support/readiness)
+- [Support Ops documentation](/handbook/support/readiness/operations/docs)
 - [support_operations Slack channel](https://gitlab.slack.com/archives/C018ZGZAMPD)
 - [calendly issue tracker](https://gitlab.com/gitlab-com/support/support-ops/other-software/calendly/-/issues/new)
 - [support-team-meta issue tracker](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/new)

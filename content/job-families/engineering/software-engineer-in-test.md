@@ -58,7 +58,28 @@ The Software Engineer in Test is a [grade 6](/handbook/total-rewards/compensatio
 
 #### Responsibilities
 
-The Software Engineer in Test responsibilities have been documented under [Intermediate Technical Competencies](https://about.gitlab.com/handbook/engineering/career-development/matrix/engineering/quality/software-engineer-in-test/intermediate/#quality) in our Career development page.
+- Quad Planning & Test Coverage
+  - Perform [quad planning](https://about.gitlab.com/handbook/engineering/infrastructure/test-platform/quad-planning/) and improve test coverage in collaboration with other Software Engineers in Test
+  - Help create test strategy and implement test automation for new and existing features.
+  - Identifies gaps in functional test automation, document missing coverage, and add new test automation to improve coverage.
+- Test Stability & Triage
+  - Participate in test pipeline on-call rotation and ensure that pipeline failures are triaged, addressed and communicated in a timely manner.
+  - Help unquarantine flaky tests.
+  - Work with the counterpart group to address test failures due to bugs in code.
+- Test Tooling
+  - Contribute to test stability in production and non-production environments.
+  - Contribute to new test framework tooling and provide feedback to new approaches proposed by the team.
+  - Improve deploy processes, deployment scripts, and build pipelines in collaboration with other Software Engineers in Test.
+- Test Environments
+  - Grow your knowledge of GitLab provisioning and setup tools. Examples include Omnibus, the Orchestrator, Terraform, Ansible, Kubernetes, Helm Charts, GCP, or AWS.
+- Task Management & OKRs
+  - Owns tasks within an OKR.
+  - Regularly manage project schedules ensuring objectives are aligned with team/department goals.
+  - Exercises judgment and independently identifies the next steps.
+- Knowledge Sharing
+  - Clearly document process and knowledge in collaboration with other team members.
+- Domain specific expertise
+  - Demonstrate domain specific responsibilities within their assigned product group
 
 ### Senior
 
@@ -70,7 +91,41 @@ The Senior Software Engineer in Test is a [grade 7](/handbook/total-rewards/comp
 
 #### Responsibilities
 
-The Senior Software Engineer in Test responsibilities have been documented under [Senior Technical Competencies](https://about.gitlab.com/handbook/engineering/career-development/matrix/engineering/quality/software-engineer-in-test/senior/#quality-1) in our Career development page.
+- Quad Planning & Test Coverage
+  - Lead [Quad planning](https://about.gitlab.com/handbook/engineering/infrastructure/test-platform/quad-planning/) efforts and optimize test coverage.
+  - Create test strategy and implement test automation for new features.
+  - Provide risk analysis and input on test strategy.
+  - Identify and communicate must-have test coverage for critical functionality.
+  - Refine tests at all levels to ensure efficient coverage and effective deduplication.
+  - Steer the team to optimal test coverage by identifying gaps in functional and non-functional test automation, documenting missing coverage, and adding new test automation to improve coverage.
+- Test Stability & Triage
+  - Lead triage and test pipeline stabilization activities.
+  - Participate in test pipeline on-call rotation and ensure that pipeline failures are triaged, addressed and communicated in a timely manner.
+  - Take ownership of unquarantining flaky tests.
+  - Work with Infrastructure and the counterpart group to address test failures related to test environments or bugs in code.
+  - Identify and implement improvements to the process to make it more efficient.
+- Test Tooling
+  - Lead test stability resolution efforts for tests in production and non-production environments.
+  - Lead and implement new test infrastructure tooling.
+  - Optimize test pipelines to reduce feedback cycle.
+  - Take initiative to recommend new approaches and processes that will improve our quality, productivity, and velocity.
+  - Create and refine deploy processes, deployment scripts, and build pipelines.
+- Test Environments
+  - Grow your knowledge of GitLab provisioning and setup tools. Examples include Omnibus, the Orchestrator, Terraform, Ansible, Kubernetes, Helm Charts, GCP, or AWS.
+  - Maintain or set up new GitLab test environments for your stable counterpart group in collaboration with other Software Engineers in Test.
+- Task Management & OKRs
+  - Owns KRs within team OKRs.
+  - Establish due dates and approach for completing assignments; demonstrates project management skills as part of a larger team.
+  - Exercises judgment and independently identifies the next steps.
+  - Works closely with counterparts to anticipate, understand, and plan for upcoming work and roadblocks.
+  - Contributes to progress of working group exit criteria.
+- Knowledge Sharing
+  - Clearly document, review, and broadly share our process and knowledge. This could be across mediums (recorded videos, written artifacts) and may include activities like:
+    - Contributing to external content like GitLab blogs on interesting problems solved.
+    - Recording demos and walk-throughs.
+    - Mentoring other engineers.
+- Domain specific expertise
+  - Demonstrate domain specific responsibilities within their assigned product group.
 
 ### Staff
 
@@ -82,7 +137,43 @@ The Staff Software Engineer in Test is a [grade 8](/handbook/total-rewards/compe
 
 #### Responsibilities
 
-The Staff Software Engineer in Test responsibilities have been documented under [Staff Technical Competencies](https://about.gitlab.com/handbook/engineering/career-development/matrix/engineering/quality/software-engineer-in-test/staff/#quality) in our Career development page.
+- Test Strategy (Quad Planning) & Test Coverage
+  - Own [quad planning](https://about.gitlab.com/handbook/engineering/infrastructure/test-platform/quad-planning/) efforts and proactively optimize test coverage.
+  - Coach other SETs and fellow counterpart team members on effective testing strategies and implementation of test automation for new features.
+  - Proactively manage the competing priorities and potential collisions of concurrent projects to reduce risk, increase test coverage, and leverage efficiency gains in overlapping testing activities.
+  - Identify and design potential new testing practices/tools/frameworks, demonstrate their value, and implement in collaboration with other Software Engineers in Test.
+  - Provide risk analysis and input on test strategy, refine tests at all levels to ensure efficient coverage and effective deduplication, and steer the team to optimal test coverage.
+- Test Stability & Triage
+  - Proactively manage triage and test pipeline stabilization activities.
+  - Participate in test pipeline on-call rotation and ensure that pipeline failures are triaged, addressed and communicated in a timely manner.
+  - Take ownership of unquarantining flaky tests. Help debug failures to unblock the current on-call engineers.
+  - Work with Infrastructure and the counterpart stage to address test failures related to test environments or bugs in code.
+  - Proactively identify and implement improvements to our process and test architecture to improve stability and reduce flakiness.
+- Test Tooling
+  - Lead test automation infrastructure implementation across multiple product areas in collaboration with stage group, functional area counterparts and Quality Department team members.
+  - Work across departments to identify, plan, and execute improvements/refinements.
+  - Keep up-to-date on industry developments and conduct spikes/Proofs-of-Concept on potential improvements or new tooling.
+- Test Environments
+  - Setup and maintain new GitLab test environments for your stable counterpart group.
+  - Leverage provisioning technologies (e.g. Omnibus, the Orchestrator, Terraform, Ansible, Kubernetes, Helm Charts, GCP, or AWS) and work with infrastructure and distribution teams as needed.
+- Task Management & OKRs
+  - Work on complex department initiatives that have an impact on the company's bottom line.
+  - Defines and delivers OKR that aligns with Company and Department initiatives.
+  - Define and independently manages multiple projects within the department.
+  - Able to create new methods for obtaining results.
+  - Analyze engineering metrics and make suggestions to improve engineering processes and velocity.
+  - Contributes to [Working Groups](https://about.gitlab.com/company/team/structure/working-groups/#whats-a-working-group) as a Quality lead.
+- Knowledge Sharing
+  - Clearly document, review, and broadly share our process and knowledge. This could be across mediums (recorded videos, written artifacts) and may include activities like:
+    - Participating in customer calls and taking part in Engineering outreach.
+    - Hosting AMAs or office hours.
+    - Speaking at conferences or meet-ups.
+  - And must include activities like:
+    - Mentoring Intermediate and Senior SETs.
+    - Recording demos and walkthroughs.
+    - Regularly authoring and reviewing new content from the department to the company blog and handbook.
+- Domain specific expertise
+  - Demonstrate domain specific responsibilities within their assigned product stage.
 
 ## Career Ladder
 
@@ -92,10 +183,10 @@ The next step for both individual contributors and managers of people is to move
 
 Software Engineers in Test have the following job-family performance indicators.
 
-- [Average CE/EE master end-to-end test suite execution duration per month](https://about.gitlab.com/handbook/engineering/quality/performance-indicators/#average-ce-ee-master-end-to-end-test-suite-execution-duration-per-month)
-- [Ratio of quarantine vs total end-to-end tests in master per month](https://about.gitlab.com/handbook/engineering/quality/performance-indicators/#ratio-of-quarantine-vs-total-end-to-end-tests-in-master-per-month)
-- [Successful vs failed CE/EE master pipelines per month](https://about.gitlab.com/handbook/engineering/quality/performance-indicators/#successful-vs-failed-ce-ee-master-pipelines-per-month)
-- [New issue first triage SLO](https://about.gitlab.com/handbook/engineering/quality/performance-indicators/#new-issue-first-triage-slo)
+- [Average CE/EE master end-to-end test suite execution duration per month](/handbook/engineering/quality/performance-indicators/#average-ce-ee-master-end-to-end-test-suite-execution-duration-per-month)
+- [Ratio of quarantine vs total end-to-end tests in master per month](/handbook/engineering/quality/performance-indicators/#ratio-of-quarantine-vs-total-end-to-end-tests-in-master-per-month)
+- [Successful vs failed CE/EE master pipelines per month](/handbook/engineering/quality/performance-indicators/#successful-vs-failed-ce-ee-master-pipelines-per-month)
+- [New issue first triage SLO](/handbook/engineering/quality/performance-indicators/#new-issue-first-triage-slo)
 
 ## Hiring Process
 

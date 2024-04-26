@@ -1,31 +1,11 @@
 ---
-
 title: "Business Continuity Plan"
+controlled_document: true
 ---
-
-
-
-
-
-
-
-
-
-<div class="panel panel-gitlab-orange">
-**This is a Controlled Document**
-{: .panel-heading}
-<div class="panel-body">
-
-Inline with GitLab's regulatory obligations, changes to [controlled documents](/handbook/security/controlled-document-procedure.html) must be approved or merged by a code owner. All contributions are welcome and encouraged.
-
-</div>
-</div>
 
 ## Purpose
 
 Business Continuity Plan is the process involved in creating a system of prevention and recovery from potential threats to GitLab. The plan ensures that personnel and assets are protected and are able to function quickly in the event of a disaster.
-
-
 
 ## Scope
 
@@ -64,7 +44,7 @@ The Recovery Time Objective (RTO) is the duration of time a service level or bus
 
 For a business continuity plan to be effective, it needs to be triggered as soon as possible; too early or late can reduce its efficacy. Key decision points to consider when a BCP has to be triggered or invoked are given below:
 
-- When an incident turns into an event like a disaster, breach, or something which classifies as a [Severity 1](/handbook/security/#severity-and-priority-labels-on-security-issues)
+- When an incident turns into an event like a disaster, breach, or something which classifies as a [Severity 1](/handbook/security/engaging-with-security/#severity-and-priority-labels-on-security-issues)
 - When the estimated time of resolution for a potential breach is greater than the normal estimated time for regular [security incidents](/handbook/security/security-operations/sirt/sec-incident-response.html)
 - When the recovery of an incident is uncertain, a decision must be made to invoke the business continuity plan if the disruption cannot be resolved within the specified [incident recovery timelines](/handbook/security/security-operations/sirt/sec-incident-response.html)
 - When resolution of an incident with critical customers, depending on their service-level agreements is delayed, then the BC plan must be triggered
@@ -180,13 +160,13 @@ Some testing scenarios that can be performed, are given below:
     - Data is mission-critical and losing it can have many serious consequences, such as significantly impacting sales and logistics applications.
     - The goal is to regain access to that data as soon as possible. Restoring backup is the solution. However, who’s responsible for that? What’s the communication plan in this case? What are the priorities? Who needs to be contacted right away? Are there any vendors involved? These and many other questions will be answered during this test.
 
-2. Data Recovery Testing
+1. Data Recovery Testing
 
     - This testing scenario, is used to make sure that the backup and recovery  systems work as intended. To prove that, run a test that involves losing a bulk of data, and then try to recover it.
     - Some of the elements to be evaluated include the RTO, and whether the team met its objectives.
     - Also make note of, if there were any damage to the files during recovery? Was the backup stored in the cloud, recovered successfully and on time.
 
-3. Emergency Communication
+1. Emergency Communication
 
     - Being able to communicate during a disaster or an emergency is crucial. Yet, the most disruptive events can leave with no traditional means of staying in contact.
     - For these scenarios, the BC plan needs to outline the actions to be taken. An alternate mode of communication should be tested for its reliability and efficiency, for a company like GitLab which has team members all around the globe.

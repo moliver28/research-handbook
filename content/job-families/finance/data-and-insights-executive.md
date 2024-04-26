@@ -2,11 +2,11 @@
 title: "Data and Insights Executive"
 ---
 
-The Data, Analytics and Data Science job family is an executive Job Family that is responsible for providing data driven insights, data science products to the business to improve decision making and drive business results. The executive leads a centralized analytics and data science function that works on cross-functional initiatives such as top 12 initiatives or Go-to-market problems that can be solved with data science. The initial focus of this team will be solely on Go-to-market problems and the intersection between product and go-to-market.
+The Data job family comprises executive-level roles dedicated to delivering a resilient data platform infrastructure, data-driven insights, data governance, data quality, and innovative data science products to empower informed decision-making and drive business success. These executives lead data teams focused on collaborating on cross-functional initiatives like top-priority projects or Go-to-Market challenges that thrive on data-driven solutions.
 
-## Data and Insights Executive
+Their mandate includes driving company results by cultivating trusted, reliable, and innovative data products, Single Sources of Truth (SSOTs), and insights wherever and whenever needed. They strive to minimize the time from question to insight to action, enabling team members to work more efficiently by implementing streamlined processes, developing SSOTs, and facilitating self-service analytics.
 
-The Data, Analytics and Data Science job family is an executive Job Family that is responsible for providing data driven insights, data science products to the business to improve decision making and drive business results. The executive leads a centralized analytics and data science function that works on cross-functional initiatives such as top 12 initiatives or Go-to-market problems that can be solved with data science. The initial focus of this team will be solely on Go-to-market problems and the intersection between product and go-to-market.
+Moreover, they focus on building and maintaining secure, efficient, and reliable data systems, ensuring data integrity, consistency, accuracy, and security through established policies and processes. Transforming raw data into clean, structured, and usable formats for data decision-making is a key priority, utilizing advanced analytics and machine learning techniques to gain insights into customer behavior and company performance. Additionally, they prioritize data governance and data quality initiatives to ensure that data across the organization meets the highest standards of reliability and accuracy.
 
 ## Director, Data and Insights
 
@@ -78,6 +78,41 @@ The Director, data platform is a [grade 10](/handbook/total-rewards/compensation
 1. Share and work in accordance with our values.
 1. Must be able to work in alignment with Americas timezones.
 1. Ability to use GitLab.
+
+## Director, Data Governance and Quality
+
+The Director, Data Governance and Quality is responsible for implementing and maintaining robust data governance frameworks and ensuring the highest standards of data quality across the organization. They work closely with cross-functional teams to develop and enforce data policies, procedures, and standards, as well as establish metrics and processes for monitoring and improving data quality.
+
+### Job Grade
+
+The Director, Data Governance and Quality is a [grade 10](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+
+### Responsibilities
+
+1. Develop and implement data governance policies, procedures, and standards to ensure the accuracy, consistency, and integrity of data across the organization.
+1. Collaborate with cross-functional teams to define data ownership, stewardship, and accountability roles and responsibilities.
+1. Establish data quality metrics, thresholds, and processes to monitor and measure data quality, and develop strategies for continuous improvement.
+1. Conduct data quality assessments and audits to identify issues, root causes, and areas for improvement, and implement corrective actions as needed.
+1. Work with IT teams to implement data quality tools and solutions, and provide training and support to users on data governance and quality best practices.
+1. Develop and maintain data dictionaries, metadata repositories, and data lineage documentation to support data governance and compliance efforts.
+1. Ensure compliance with data privacy regulations and policies, such as GDPR and CCPA, and collaborate with legal and compliance teams to address data privacy risks and issues.
+1. Stay up-to-date on industry trends and best practices in data governance, quality management, and data privacy, and recommend and implement enhancements to the data governance framework as needed.
+
+### Requirements
+
+1. Postgraduate work or equivalent experience (Masters or PhD) in a quantitative field such as math, physics, computer science, statistics etc.
+1. Minimum of 7 years experience in a senior leadership position managing data governance and quality teams.
+1. Experience with a high growth company using on-premise tools and on-demand (SaaS) transactional systems.
+1. Strong understanding of data governance principles, practices, and frameworks, such as DAMA-DMBOK or COBIT.
+1. Experience developing and implementing data governance policies, procedures, and standards and the ability to translate and implement this in a Data-Ops/ML-Ops environment.
+1. Proficiency in data quality assessment methodologies and tools, and experience conducting data quality audits and assessments.
+1. Familiarity with data privacy regulations and compliance requirements, such as GDPR, CCPA, and HIPAA.
+1. Excellent analytical, problem-solving, and communication skills, with the ability to collaborate effectively with cross-functional teams.
+1. Experience working with data management tools and technologies, such as data governance platforms, metadata management tools, and data quality tools in a modern data tech stack environment.
+1. Strong attention to detail and ability to prioritize and manage multiple tasks and projects simultaneously.
+1. Experience working with multiple executive level business stakeholders.
+1. Share and work in accordance with our values.
+1. Must be able to work in alignment with Americas timezones.
 
 ## Senior Director, Data and Insights
 

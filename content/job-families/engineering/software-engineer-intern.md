@@ -2,9 +2,9 @@
 title: "Software Engineering Intern"
 ---
 
-Software Engineering Interns will work on the Gitlab Product, like all engineers who work on the product.
+Software Engineering Interns will work on the GitLab Product, like all engineers who work on the product.
 This may include both the open source version of GitLab, the enterprise editions, and the GitLab.com service.
-You will work in either a Frontend or Backend team on a mature stage product at Gitlab.
+You will work in either a Frontend or Backend team on a mature stage product at GitLab.
 
 ## Requirements
 

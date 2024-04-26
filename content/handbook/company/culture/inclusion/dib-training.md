@@ -1,6 +1,6 @@
 ---
 title: Diversity Inclusion And Belonging Certification & Training
-description: "This page provides all the modules that needs to be completed to achieve the Diversity, Inclusion & Belonging Certification at Gitlab"
+description: "This page provides all the modules that needs to be completed to achieve the Diversity, Inclusion & Belonging Certification at GitLab"
 ---
 
 {{% alert title="Note" color="primary" %}}

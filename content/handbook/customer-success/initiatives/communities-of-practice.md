@@ -66,8 +66,8 @@ Potential key performance indicators include:
 | [Advanced Pipelines](https://gitlab.com/gitlab-com/customer-success/communities-of-practice/advanced-pipeline-community-of-practice)                  | [@juliebyrne](https://gitlab.com/juliebyrne) |
 | [Agile Architecture](https://gitlab.com/gitlab-com/customer-success/communities-of-practice/agile-architecture-cop)   | [Darwin Sanoy](https://gitlab.com/darwinjs), [Brian Wald](https://gitlab.com/brianwald) |
 | [AWS](https://gitlab.com/gitlab-com/customer-success/communities-of-practice/aws-community-of-practice)                  | [Darwin Sanoy](https://gitlab.com/darwinjs) |
-| [Google Cloud](https://gitlab.com/gitlab-com/customer-success/communities-of-practice/google-cloud-community-of-practice) | [Regnard Raquedan](https://gitlab.com/rraquedan) |
-| [Modern Applications](https://gitlab.com/gitlab-com/customer-success/communities-of-practice/modern-applications)                 | [@reshmikrishna](https://gitlab.com/reshmikrishna) |
+| Defending against GitHub]| [Regnard Raquedan](https://gitlab.com/rraquedan) |
+| [Modern Applications](https://gitlab.com/gitlab-com/customer-success/communities-of-practice/modern-applications)                 | [@reshmikrishna](https://gitlab.com/reshmikrishna) (inactive) |
 | [OpenShift](https://gitlab.com/gitlab-com/customer-success/communities-of-practice/redhat-openshift-community-of-practice)                  | TBD |
 | [Trusted Advisor Skill Development](https://gitlab.com/gitlab-com/customer-success/communities-of-practice/trusted-advisor-skill-development)   | Lead: [Bart Zhang (@bzhang7)](https://gitlab.com/bzhang7), Co-Leads: [Chester Nwachukwu (@cnwachukwu)](https://gitlab.com/cnwachukwu), [Darwin Sanoy (@DarwinJS)](https://gitlab.com/darwinjs) |
 

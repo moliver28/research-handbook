@@ -78,7 +78,7 @@ Elon notes in the interview:
 This principle aligns well with a few of GitLab's core values, such as:
 
 - [Iteration](/handbook/values/#iteration)
-- [Velocity over predictabitlity](https://about.gitlab.com/handbook/engineering/development/principles/#velocity-over-predictability)
+- [Velocity over predictabitlity](/handbook/engineering/development/principles/#velocity-over-predictability)
 
 ### Automate
 

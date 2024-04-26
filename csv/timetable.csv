@@ -6,7 +6,7 @@ status,section,anchor,totalpages,markdown,erb,start,finish
 :white_check_mark:,Infrastructure Standards,infrastructure-standards,21,21,0,2023-06-06,2023-06-09
 :white_check_mark:,IT Self Service,it-self-service,12,12,0,2023-06-27,2023-06-30
 :white_check_mark:,Support,support,212,208,4,2023-07-31,2023-08-14
-:white_check_mark:,CEO and CoST,ceo-and-cost,14,12,2,2023-08-15,2023-08-18
+:white_check_mark:,CEO and Office of the CEO,ceo-and-office-of-the-ceo,14,12,2,2023-08-15,2023-08-18
 :white_check_mark:,Company,company,161,137,5,2023-08-30,2023-09-01
 :white_check_mark:,Security,security,153,149,3,2023-09-05,2023-09-08
 :white_check_mark:,People Group,people-group,211,192,18,2023-09-18,2023-09-28
@@ -16,5 +16,6 @@ status,section,anchor,totalpages,markdown,erb,start,finish
 :white_check_mark:,Sales,sales,468,420,44,2023-11-06,2023-11-09
 :white_check_mark:,Marketing,marketing,415,385,28,2023-11-13,2023-11-16
 :white_check_mark:,Legal,legal,67,67,0,2023-11-20,2023-11-21
-:book:,Engineering,engineering,810,257,553,2023-11-28,2023-12-05
+:white_check_mark:,Engineering,engineering,810,257,553,2023-11-28,2023-12-05
+:white_check_mark:,Remaining Content,,810,257,553,2023-12-22,2023-12-22
 :book:,Team,team,3,0,1,TBC,TBC

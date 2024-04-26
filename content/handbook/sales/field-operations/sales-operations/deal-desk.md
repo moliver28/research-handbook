@@ -33,7 +33,7 @@ The Deal Desk team's mission is to streamline the opportunity management process
     - [Security Questionnaire Process](/handbook/security/#process)
     - [Troubleshooting: True Ups, Licenses + EULAS](
 https://about.gitlab.com/handbook/business-technology/enterprise-applications/quote-to-cash/troubleshooting/)
-    - [Licensing FAQ](/pricing/licensing-faq/)
+    - [Licensing FAQ](https://about.gitlab.com/pricing/licensing-faq/)
     - [Legal Authorization Matrix](/handbook/finance/authorization-matrix/)
     - [Trade Compliance (Export/Import)](/handbook/sales/field-operations/order-processing/#trade-compliance-export--import-and-visual-compliance-tool-in-salesforce)
 
@@ -68,7 +68,7 @@ For Alliances & Private Offer Creation, this process is supported by one team me
 
 During holidays, or when team members are on PTO, individuals located in different regions may step in to support and ensure appropriate coverage. This is reserved for End of Month/End of Quarter, or other times when the team is short-staffed.
 
-Support will be provided based on the following business hours in the respective region. If a complex case or non standard deal request is submitted after 4:00PM (Local Time) the case will be prioritized the following business day.  
+Support will be provided based on the following business hours in the respective region. If a complex case or non standard deal request is submitted after 4:00PM (Local Time) the case will be prioritized the following business day.
 
 |     Region    | Standard Support Hours |
 |:-------------:|------------------------|
@@ -98,7 +98,7 @@ As of 2022-02-01, the Deal Desk team is structured as follows:
   - Deal Desk Specialist (AMER)
   - Deal Desk Specialist (AMER)
   - Deal Desk Specialist (AMER)
-  
+
 
 **EMEA/APAC TEAM:**
 - Manager, Deal Desk (EMEA/APAC)
@@ -135,7 +135,7 @@ In case of a specific opportunity or quote related question please use SF Chatte
 
 ##### Slack Announcements
 
-Desk Desk process updates and announcements will be communicated via #field-fyi, #sales and #sales-support Slack channels.  
+Desk Desk process updates and announcements will be communicated via #field-fyi, #sales and #sales-support Slack channels.
 
 #### Deal Desk Office Hours
 
@@ -712,9 +712,9 @@ To learn more about the SuperSonics Billing and Subscription Management experien
 ##### Creating a Professional Services Quote for Standard Services
 
 - Standard services are those for which a SKU exists in Zuora CPQ.
-- Standard services can be added to any New Business, Add-On, or Renewal quote alongside subscription product SKUs. (i.e. If you are selling a 12 month SaaS Ultimate deal, you can add a separate SKU on the same quote to sell the Rapid Results offering.)
+- Standard services can be added to any New Business, Add-On, or Renewal quote alongside subscription product SKUs. (i.e. If you are selling a 12 month SaaS Ultimate deal, you can add a separate SKU on the same quote to sell instructor led training offering(s).)
 - For Standard Services, a signed Order Form is sufficient to book the deal. (Note, some customers may also require issuance of a PO)
-- More information on [Professional Services SKUs](/handbook/customer-success/professional-services-engineering/#professional-services-skus)
+- More information on [Professional Services SKUs](https://about.gitlab.com/services/catalog)
 
 ##### Before submitting a Scoped/Custom Professional Services Opportunity for Closure:
 
@@ -728,9 +728,12 @@ To learn more about the SuperSonics Billing and Subscription Management experien
 - Scoped/Custom Services must always be quoted on a standalone opportunity, separately from any subscription products SKUs. (i.e.; You may NOT sell a 12 month SaaS Ultimate SKU on the same quote/ opportunity as Scoped/Custom Services).
 - Create a New Business Opportunity and select “Professional Services Only” under “Opportunity Record Type.”
 - Create a new subscription quote under the Professional Services opportunity by following the steps above under “new Subscription Quote.”
-  - **If the SOW contains purely Professional Services**, select the "GitLab Service Package" SKU. Update the price to reflect the total price on the SOW.
-  - **If the SOW contains purely Education Services**, select the "Custom PS Education Services" SKU. Update the price to reflect the total price on the SOW.
-  - **If the SOW contains a mixture of Professional Services and Education Services**, two separate quotes should be created under the same opportunity. **Note, for this use case ONLY, a Professional Services Engagement Manager will create the quotes on behalf of the SAE/AE.** Create one quote using the GitLab Service Package SKU, and another quote using the Custom PS Education Services SKU. Do not include the individual Education SKU's; instead use this 'umbrella' SKU, and sum the total amount of Education. On each quote, update the price of the applicable SKU to reflect the applicable price for each category from the SOW. Together, the totals of both quotes should add up to the total price on the SOW. **Note: Once this second quote is added, it is likley to overwrite the "Professional Services Value" field against the opportunity. Please ensure that this field continues to reflect the sum of both quotes, in line with the overall SOW.**
+  - **If the SOW contains purely Professional Services**, select the "GitLab Service Package" SKU. Update the price to reflect the total price on the SOW. **DISREGARD DISCOUNT APPROVALS**. 
+  - **If the SOW contains purely Education Services**, select the matching training and/or certification SKUs. Update the price to reflect the total price on the SOW. If you cannot find a match, use the `Custom PS Education Services` SKU. 
+  - **If the SOW contains a mixture of Professional Services and Education Services**, two separate quotes should be created under the same opportunity. 
+      - Create one quote using the `GitLab Service Package` SKU and reflect the Time and Materials value from the SOW.
+      - Create a second quote using the matching training/certification SKU(s). 
+      - The sum of the values from these two quotes should equal to the total price on the SOW. **Note: Once this second quote is added, it is likley to overwrite the "Professional Services Value" field against the opportunity. Please ensure that this field continues to reflect the sum of both quotes, in line with the overall SOW.**
     - To determine which portion of the SOW is for Professional Services vs. Education Services, note the following: Education and Services are split out on the SOW in separate sections. The Education portion would display standard SKU names such as "CI/CD Training" and "Admin Training" and will contain a total cost for the full Education portion. The Services portion would be custom, but would often denote "Time and Materials" or "PS Hours" and will contain a total cost for the full Services Portion.
 
 
@@ -741,7 +744,7 @@ To learn more about the SuperSonics Billing and Subscription Management experien
 
 - Ensure that a supporting Quote object has been created with the amount matching the SOW amount (as per above)
 - Please note that the following items must be attached to the opportunity before it can be Closed Won:
-    - SOW signed by **both the customer and GitLab's PAO or CFO**
+    - SOW signed by **both the customer and GitLab's VP, Revenue Accounting**
     - Cost Estimate (COGS) spreadsheet (Link provided by the PS team)
     - A supporting Purchase Order (PO), or email from the Customer stating that a PO is not required for invoicing
 
@@ -783,8 +786,13 @@ Contract Resets are used to perform an "Early Renewal" - i.e. start a new 12 mon
 - Click Next and update the products and fees per the steps above.
 - **IMPORTANT:** Next, tag `@Sales-Support` in Chatter on the Renewal Opportunity to create a credit opportunity and quote to cancel the existing subscription, which in this scenario is being replaced with the new subscription. Deal Desk will then manually generate a Contract Reset Opp and Order Form to add the credit line into the order form once the quote has been fully approved.
 
-### **Note: The customer's subscription is suddenly downgraded to free, greatly impacting their ability to use GitLab.com.**
-- To help mitigate the impact, the customer may [change the linked namespace](https://docs.gitlab.com/ee/subscriptions/gitlab_com/#change-the-linked-namespace) or contact support. For a demo see, [Linking GitLab Subscription to the Namespace](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/4770#note_1194437643)
+For GitLab.com subscriptions, Deal Desk will follow the below steps to ensure the customer is not downgraded to free when their initial subscription is cancelled. These are outlined in more detail in [this presentation](https://docs.google.com/presentation/d/1fv_QMzPJ4Al5AaPBNd-IW5dCwuac56ShrzcpjUO_S60/edit?usp=sharing).
+- From the Account, click on the relevant Subscription record for the existing subscription under "Subscription Products and Charges".
+- Copy the `GitLab Namespace Id` and `GitLab Namespace Name` data into these same fields on the New subscription quote.
+- Once ready, ensure the New subscription quote is submitted to Zuora _prior_ to the Cancellation quote.
+
+
+If any issues with this process occur, the customer may [change the linked namespace](https://docs.gitlab.com/ee/subscriptions/gitlab_com/#change-the-linked-namespace) or contact support. For a demo see, [Linking GitLab Subscription to the Namespace](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/4770#note_1194437643)
 - Deal Desk will attach a PDF of the consolidated quote to the opportunity
 - Sales team will send the order form to the customer for signature
 - Upload the signed order form to the renewal opp and to the credit opp as well and submit both opps for approval

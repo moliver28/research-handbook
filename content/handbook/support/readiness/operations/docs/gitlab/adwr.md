@@ -4,6 +4,8 @@ description: Support Operations documentation page for account deletion weekly r
 canonical_path: "/handbook/support/readiness/operations/docs/gitlab/adwr"
 ---
 
+<sup>*Introduced via [support-team-meta#3190](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/3190)*</sup>
+
 ## What is the ADWR
 
 ADWR (Account Deletion Weekly Report) is a project within gitlab.com that
@@ -51,18 +53,6 @@ Currently, ADWR runs every Sunday at 0000 UTC.
 
 ## Change management
 
-As these are maintained via sync repositories, our standard change management
-process applies to all ADWR changes. See
-[standard change management](/handbook/support/readiness/operations/docs/change_management#standard-change-management)
-for more information.
-
-#### Labels to use
-
-For all issues and MRs involving ADWR, the label
-`Support-Ops-Category::GitLab Projects` should be used.
-
-#### Change criticality
-
-As this is an internal tool with no direct impact, all issues/MRs related to
-ADWR will be classified as
-[criticality 4](/handbook/support/readiness/operations/docs/change_criticalities#criticality-4)
+Any merge requests made to the corresponding repos produce changes in real time.
+As such, these are "on demand" style changes and all "scheduling" should occur
+via the parent issue of the changes themselves.

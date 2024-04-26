@@ -40,7 +40,7 @@ Value-driven Marketing Team
 
 How we work as one team aligns with the [GitLab Values](/handbook/values/).
 
-**Results** - The team measures success together along the customer journey. Each quarter, we align CMO OKRs based on company goals set in the CEO OKRs. This helps us stay aligned with company-level goals while also understanding if what we are doing quarter over quarter is moving the needle on our marquee metrics along the customer journey. Being data-driven as a team is essential for team success.
+**Results** - The team measures success together along the customer journey. Each quarter, we align CMO OKRs based on company goals set in the company OKRs. This helps us stay aligned with company-level goals while also understanding if what we are doing quarter over quarter is moving the needle on our marquee metrics along the customer journey. Being data-driven as a team is essential for team success.
 
 **Iteration** - Like the rest of the company, we aspire to be agile and experimental where possible.  In every area possible, we roll out campaigns, brand updates, messaging, etc. in small iterations, measure the success, and take next steps accordingly.
 
@@ -132,7 +132,7 @@ Speaking on behalf of GitLab at a conference, to media or on a podcast as a GitL
 ### Blog post editing
 
 - Product release posts: [Product team][Product handbook]
-- Technical community posts/tutorials: [Developer Evangelism] and [Technical Marketing] teams, and Blog editorial team
+- Technical community posts/tutorials: [Developer Advocate] and Blog editorial team
 - CEO statements/updates: [CMO][CMO handbook]
 - All other blog posts: [Blog editorial team][Content]
 
@@ -156,7 +156,7 @@ Newsletter requests should be submitted no less than 5 business days before the 
 
 The community newsletter is managed by the [Developer Relations] team, dedicated to sharing relevant developer content, highlighting contribution opportunities, and updating community members on upcoming events. We aim to keep our contributors involved and connected with the wider community. This newsletter will not be used to drive or generate leads.
 
-To submit to the newsletter, please follow the [handbook instructions](/handbook/marketing/developer-relations/developer-evangelism/community-newsletter/#submissions).
+To submit to the newsletter, please follow the [handbook instructions](/handbook/marketing/developer-relations/developer-advocacy/community-newsletter/#submissions).
 
 ### Sponsorship
 
@@ -181,7 +181,7 @@ We use Slack internally as a communication tool. The Marketing channels are as f
 - `cmo-staff`: (Private) CMO's private staff discussion room
 - `#content`: Questions about blog posts, webcasts, the newsletter or other [marketing content][Content]? This is the place to ask.
 - `#developer-relations`: A channel for the [developer relations](/handbook/marketing/developer-relations/) team to collaborate.
-- `#dev-evangelism-and-technical-marketing`: Discuss the latest tech in DevSecOps and Cloud-Native with the [Developer Evangelism](/handbook/marketing/developer-relations/developer-evangelism/) and [Technical Marketing](/handbook/marketing/developer-relations/technical-marketing/) teams. You can request speakers and ask for technical content collaboration and guidance.
+- `#dev-advocacy-team`: Discuss the latest tech in DevSecOps and Cloud-Native with the [Developer Advocate](/handbook/marketing/developer-relations/developer-advocacy/) tea. You can request speakers and ask for technical content collaboration and guidance.
 - `#digital-experience-team`: Channel for connecting with the [website development and design teams][Digital experience]
 - `#digital-marketing`: Channel for all advertising, website analytic and general digital programs.
 - `#external-comms`: To collaborate with our external PR (public relations) agency, discuss GitLab media mentions, and evaluate speaking/podcasting/commentary opportunities.
@@ -200,7 +200,7 @@ We use Slack internally as a communication tool. The Marketing channels are as f
 
 Automated channels with feeds from different sources:
 
-- `#developer-evangelism-updates`: [Zapier workflows](/handbook/marketing/developer-relations/workflows-tools/zapier/) automatically post GitLab blog posts, Developer Relations social shares, competitive insights, Common Room updates, etc. 
+- `#developer-advocacy-updates`: [Zapier workflows](/handbook/marketing/developer-relations/workflows-tools/zapier/) automatically post GitLab blog posts, Developer Relations social shares, competitive insights, Common Room updates, etc.
 - `hn-mentions`: Hacker News post feed, automated with [Zapier](/handbook/marketing/developer-relations/workflows-tools/zapier/) and maintained by the Developer Relations team.
 - `social_media_posts`: Automated social media post feed.
 
@@ -322,7 +322,7 @@ Handbook Links
 {.h4}
 
 - [Contributor Success]
-- [Developer Evangelism] and [Technical Marketing]
+- [Developer Advocacy]
 - [Community Programs]
   - [Education Program]
   - [Open Source Program]
@@ -345,28 +345,15 @@ Handbook Links
 <a id="marketing-calendar"></a>
 <!-- DO NOT CHANGE ANCHOR -->
 
-FY24 All-Marketing SSoT Calendar
+FY25 All-Marketing SSoT Calendar
 {.h3}
 
-<a id="fy24-calendar"></a>
+<a id="fy25-calendar"></a>
 <!-- DO NOT CHANGE ANCHOR -->
 
-The marketing team utilizes a [single all-marketing calendar](https://docs.google.com/spreadsheets/d/1fyrC4O1e13QTRNmYR3H5rMZIoIJcPk93vltOCx0ubjk/edit#gid=571560493) where everyone can contribute, and we can answer key questions (using pre-set filter views) related to upcoming marketing plans.
+The marketing team utilizes a [single all-marketing calendar](https://internal.gitlab.com/handbook/marketing/#fy25-ssot-marketing-calendar) where everyone can contribute, and we can answer key questions (using pre-set filter views) related to upcoming marketing plans. Note: this calendar links to our internal handbook page.
 
 Please do not filter the entire doc. Instead, you may use pre-set filter views (click down arrow selector next to the filter icon on the bookmark bar) to see activities grouped by GTM Motion, segment, region, team, language, and more.
-
-Below are some pre-set filter examples:
-- [Primary GTM - Automated Software Delivery](https://docs.google.com/spreadsheets/d/1fyrC4O1e13QTRNmYR3H5rMZIoIJcPk93vltOCx0ubjk/edit#gid=571560493&fvid=719487391)
-- [Primary GTM - Security & Compliance](https://docs.google.com/spreadsheets/d/1fyrC4O1e13QTRNmYR3H5rMZIoIJcPk93vltOCx0ubjk/edit#gid=571560493&fvid=1234877160)
-- [Region - AMER](https://docs.google.com/spreadsheets/d/1fyrC4O1e13QTRNmYR3H5rMZIoIJcPk93vltOCx0ubjk/edit#gid=571560493&fvid=1972984682)
-- [Region - EMEA](https://docs.google.com/spreadsheets/d/1fyrC4O1e13QTRNmYR3H5rMZIoIJcPk93vltOCx0ubjk/edit#gid=571560493&fvid=1909928129)
-- [Region - APAC](https://docs.google.com/spreadsheets/d/1fyrC4O1e13QTRNmYR3H5rMZIoIJcPk93vltOCx0ubjk/edit#gid=571560493&fvid=1885172265)
-- [Segment - Enterprise](https://docs.google.com/spreadsheets/d/1fyrC4O1e13QTRNmYR3H5rMZIoIJcPk93vltOCx0ubjk/edit#gid=571560493&fvid=1095061873)
-- [Segment - MidMarket](https://docs.google.com/spreadsheets/d/1fyrC4O1e13QTRNmYR3H5rMZIoIJcPk93vltOCx0ubjk/edit#gid=571560493&fvid=1477092448)
-- [Segment - SMB](https://docs.google.com/spreadsheets/d/1fyrC4O1e13QTRNmYR3H5rMZIoIJcPk93vltOCx0ubjk/edit#gid=571560493&fvid=2052862089)
-- [Language - German](https://docs.google.com/spreadsheets/d/1fyrC4O1e13QTRNmYR3H5rMZIoIJcPk93vltOCx0ubjk/edit#gid=571560493&fvid=2039449224)
-- [Language - Japanese](https://docs.google.com/spreadsheets/d/1fyrC4O1e13QTRNmYR3H5rMZIoIJcPk93vltOCx0ubjk/edit#gid=571560493&fvid=690481258)
-- [Language - French](https://docs.google.com/spreadsheets/d/1fyrC4O1e13QTRNmYR3H5rMZIoIJcPk93vltOCx0ubjk/edit#gid=571560493&fvid=1557867798)
 
 *If there are other views you would find helpful, please feel free to duplicate an existing filter view, and include some sort of categorization (i.e. team, segment, etc.). You can do this by going to a similar filter view, and clicking on the top right gear icon, then selecting `Duplicate`.*
 
@@ -412,8 +399,7 @@ This front page of the Marketing Handbook is intended to serve as the external f
 [Education Program]: /handbook/marketing/developer-relations/community-programs/education-program/
 [Open Source Program]: /handbook/marketing/developer-relations/community-programs/opensource-program/
 [Startup Program]: /handbook/marketing/developer-relations/community-programs/startups-program/
-[Developer Evangelism]: /handbook/marketing/developer-relations/developer-evangelism/
-[Technical Marketing]: /handbook/marketing/developer-relations/technical-marketing/
+[Developer Advocacy]: /handbook/marketing/developer-relations/developer-advocacy/
 [Inbound Marketing]: /handbook/marketing/inbound-marketing/
 [Field Marketing]: /handbook/marketing/field-marketing/
 [Account Based Marketing]: /handbook/marketing/account-based-marketing/
@@ -444,5 +430,5 @@ This front page of the Marketing Handbook is intended to serve as the external f
 [Growth]: /handbook/marketing/growth/
 
 [Product Handbook]: /handbook/product
-[Technical writing]: /handbook/product/ux/technical-writing/ 
+[Technical writing]: /handbook/product/ux/technical-writing/
 

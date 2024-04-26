@@ -14,7 +14,7 @@ The communicated Talent Acquisition Process Framework specifically focuses on ap
 - **[Hiring Manager]({{< ref "./hiring-manager" >}}):** The Hiring Manager is the individual who is hiring for the particular REQ. In most situations, the person hired into this REQ will report into this individual.
 - **Hiring Team:** The Hiring Team is a group of people the Hiring Manager asks to be involved in the interview process. The Hiring Team will assess candidates for a given req based on what is defined in the [REQ Kick-off Issue](https://gitlab.com//gl-talent-acquisition/req-intake/-/issues) and the [Hiring Repo](https://gitlab.com/gitlab-com/people-group/hiring-processes/-/tree/master).
 - **Recruiter:** The Recruiter is the main point of contact for the Hiring Manager, Hiring Team, and all candidates associated with the REQ. The Recruiter will directly source for prospects as well as partner with their Sourcer and Candidate Experience Specialist throught the process. For more information on what role a Recruiter may play, please visit the Recruiter Job Family.
-- **[Candidate Experience Specialist (CES)]({{< ref "./coordinator" >}}):** The CES partners with the Recruiter and Sourcer on all scheduling, background check, references and offer needs. For more information on what role a CES may play, please visit the [CES Job Family]({{< ref "/job-families/people-group/candidate-experience" >}}).
+- **[Candidate Experience Specialist (CES)]({{< ref "./coordinator" >}}):** The CES partners with the Recruiter and Sourcer on all scheduling, background check, references and offer needs. For more information on what role a CES may play, please visit the [CES Job Family](/job-families/people-group/candidate-experience).
 
 ### **Step 1: Identify hiring need**
 
@@ -113,12 +113,10 @@ During the screening stage, it is important we capture the following information
 1. **Salary expectations**
      - Instructions: This information is captured in the Screening call Scorecard as a *Private Note*.
 If at any time during the interview process a candidate is declined due to compensation, you must add compensation information to the profile as this is used for reporting purposes. To do so, navigate to the `Private` tab in the candidate's profile > Navigate to the `Other Details` section > Fill out the `Currency` and `Compensation Expectations` fields.
-1. **Are you eligible to work where you are located?**
-     - Instructions: This information is captured in the Screening call Scorecard.
+1. **It is the Recruiter's obligation to check the candidates right to work in the country they are applying to before going further in the process**
+     - Instructions: This information is captured in the Screening call Scorecard.If a candidate requires any form of visa sponsorship, the Recruiter will let the candidate know that we are not able to move forward in the process per our [Visa policy](https://handbook.gitlab.com/handbook/people-group/visas/).
 1. **Are you subject to any employment agreements and/or post-employment restrictions with your current employer or a past employer?**
      - Instructions: This information is captured in the Screening call Scorecard.
-1. **R&D Talent Acquisition Only: Values Screening**
-     - Instructions: Asks the questions for the 3 values identified in the screening call > Navigate to the `Details` tab in the candidate's profile > Navigate to the `Additional Details` section > Select Yes or No on Did the candidate pass the values screening?
 
 #### Assessment
 
@@ -133,6 +131,7 @@ If at any time during the interview process a candidate is declined due to compe
   - If applicable, Round 2B: 25 minute interview with a Hiring Team member
   - If applicable, Round 3: 50 minute Executive Interview
 - The Recruiter should confirm focus areas have been assigned to the interview team. This should have been taken care of in the [REQ kick-off Issue](https://gitlab.com/gl-talent acquisition/req-intake/-/issues)
+- Interviewing is only available to full time GitLab team members. Under no circumstances should a contractor or outside third party be invited to interview a candidate or to shadow an interview.
 - The candidate should be provided clear expectations of the process, location of interviewers, timeline to hire, etc.
 - When Team Interviews have completed, follow up with the hiring manager on next steps. Depending on the level of the role and outcome of interviews, next steps may include additional interviews including an executive interview or moving to reference checks.
 
@@ -140,7 +139,7 @@ If at any time during the interview process a candidate is declined due to compe
 
 1. Inform the candidate they will need to go through a full interview process for each role and outline the time commitment that may entail (for example, if a candidate is in process for 2 roles they may need to make time for 10+ interviews).
 1. There is no limit on the amount of roles a candidate can apply to but due to recruiter capacity we will only process 3 applications at a time, and will ask the candidate to choose the 3 that are highest priority.
-1. We want to avoid a situation where we have competing offers from multiple teams within Gitlab. In order to prevent this, there will be an added step after the final interview stage where the recruiter discusses with the candidate which role they’re most interested in. Only one offer will be sent to the candidate after the final interviews.
+1. We want to avoid a situation where we have competing offers from multiple teams within GitLab. In order to prevent this, there will be an added step after the final interview stage where the recruiter discusses with the candidate which role they’re most interested in. Only one offer will be sent to the candidate after the final interviews.
 
 ### **Step 6: References**
 
@@ -150,7 +149,7 @@ If you would like the Hiring Manager to receive an email when the form has been 
 
 During this time, you will also submit your offer for approvals.
 
-If the candidate for the position is internal, you should wait until you've presented an offer to merge the applicants' profiles. Please visit the [Candidate Hygiene Instructions]({{< ref "/handbook/hiring#interview-stages" >}}) for details.
+If the candidate for the position is internal, you should wait until you've presented an offer to merge the applicants' profiles. Please visit the [Candidate Hygiene Instructions](/handbook/hiring#interview-stages) for details.
 
 If there are any special circumstances regarding a known relocation for the candidate, this information should be included in the Compensation Details. Details should include originating location and salary, as well as the new location and new salary details to ensure it is communicated as part of the approval.
 

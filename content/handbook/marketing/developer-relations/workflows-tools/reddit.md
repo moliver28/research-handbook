@@ -19,8 +19,8 @@ There are 3 post flairs in the GitLab subreddit - general question, support, and
 
 General Questions:
 * This can include questions about GitLab as a product, comparing GitLab to competitors, hiring, developer education, and questions about remote work at GitLab.
-* Use the [involving experts workflow](/handbook/marketing/developer-relations/developer-evangelism/community-response/) to engage experts in answering relevant questions.
-* Share [devops tools] pages in conversations comparing GitLab to other tools.
+* Use the [involving experts workflow](/handbook/marketing/developer-relations/developer-advocacy/community-response/) to engage experts in answering relevant questions.
+* Share [DevOps tools] pages in conversations comparing GitLab to other tools.
 * NOTE: Engagement in these conversations should be focused on providing facts, not opinions. Consider sharing DevOps tools in threads where users are looking for a tool to provide a solution to their problem.
 
 Support:

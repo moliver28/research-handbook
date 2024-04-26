@@ -2,11 +2,8 @@
 title: "Security Incident Response Guide"
 description: " "
 weight: 20
+controlled_document: true
 ---
-
-{{% alert title="This is a Controlled Document" color="danger" %}}
-Inline with GitLab's regulatory obligations, changes to [controlled documents]({{< ref "controlled-document-procedure" >}}) must be approved or merged by a code owner. All contributions are welcome and encouraged.
-{{% /alert %}}
 
 ## Purpose
 
@@ -20,11 +17,11 @@ Information about SIRT responsibilities and incident ownership is available in t
 
 Security incident investigations are initiated when a security event has been detected on [GitLab.com](https://www.gitlab.com) or as part of the GitLab company. These investigations are handled with the same level of urgency and priority regardless of whether it's a single user or multiple projects.
 
-Incident indicators can be reported to SIRT either internally, by a GitLab team member, or [externally]({{< ref "/handbook/security#external-contact-information" >}}). It is the Security team's responsibility to determine when to investigate dependent on the identification and verification of a security incident.
+Incident indicators can be reported to SIRT either internally, by a GitLab team member, or [externally](/handbook/security#external-contact-information). It is the Security team's responsibility to determine when to investigate dependent on the identification and verification of a security incident.
 
 The GitLab Security team identifies security incidents as any violation, or threat of violation, of GitLab security, acceptable use or other relevant policies.
 
-SIRT will follow processes in the [Material Breach Determination internal handbook page](https://internal.gitlab.com/handbook/security/security_operations/sirt/operations/incident_response/material_breach_determination/) for any security incidents that individually, or in aggregate may be a material breach, including 3rd party breaches that may have a material impact to GitLab. Incidents that have the potential to be material will be treated as MNPI.
+SIRT will follow processes in the [Material Breach Determination internal handbook page](https://internal.gitlab.com/handbook/security/security_operations/sirt/operations/incident_response/material_breach_guidance/material_breach_determination/) for any security incidents that individually, or in aggregate may be a material breach, including 3rd party breaches that may have a material impact to GitLab. Incidents that have the potential to be material will be treated as MNPI.
 
 ## Roles & Responsibilities
 
@@ -41,7 +38,7 @@ SIRT will follow processes in the [Material Breach Determination internal handbo
 1. Detection
     - The SIRT, other internal, or external entity identifies a Security or Privacy Event that may be the result of a potential exploitation of a Security Vulnerability or Weakness, or that may the result of an innocent error
     - One of our Security detection controls identifies event outside of the established security baseline
-    - A security issue is [escalated into an incident](https://about.gitlab.com/handbook/engineering/infrastructure/incident-management/#reporting-an-incident) as a preventative measure
+    - A security issue is [escalated into an incident](/handbook/engineering/infrastructure/incident-management/#reporting-an-incident) as a preventative measure
 1. Analysis
     - SIRT determines whether the reported security or privacy event is in actuality security or a privacy event
     - SIRT determines the incident severity and priority based on the following [incident classification]({{< ref "severity-matrix" >}}) methodology
@@ -130,7 +127,7 @@ The first step in this process is to identify impacted resources and determine a
 
 It's important to remember the containment phase is typically a stop-gap measure to limit damage and not to produce a long term fix for the underlying problem. Additionally the impact of the mitigation on the service must be weighed against the severity of the incident.
 
-When triaging `priority::1/severity::1` incidents there may be times that SIRT or Infrastructure are unable to mitigate an issue, or identify the full impact of a potential mitigation. In these cases the [Development Escalation Process](https://about.gitlab.com/handbook/engineering/development/processes/Infra-Dev-Escalation/process.html) can be used to engage with the development team on-call. It is important that this process is followed [as documented](https://about.gitlab.com/handbook/engineering/development/processes/Infra-Dev-Escalation/process.html#process-outline) and only for `priority::1/severity::1` issues.
+When triaging `priority::1/severity::1` incidents there may be times that SIRT or Infrastructure are unable to mitigate an issue, or identify the full impact of a potential mitigation. In these cases the [Development Escalation Process](/handbook/engineering/development/processes/Infra-Dev-Escalation/process.html) can be used to engage with the development team on-call. It is important that this process is followed [as documented](/handbook/engineering/development/processes/Infra-Dev-Escalation/process.html#process-outline) and only for `priority::1/severity::1` issues.
 
 ### Remediation and Recovery
 
@@ -250,11 +247,11 @@ We currently track several labels specific to phishing-related incidents:
 
 ## Exceptions
 
-Exceptions to this procedure will be tracked as per the [Information Security Policy Exception Management Process]({{< ref "/handbook/security#information-security-policy-exception-management-process" >}}).
+Exceptions to this procedure will be tracked as per the [Information Security Policy Exception Management Process](/handbook/security#information-security-policy-exception-management-process).
 
 ## References
 
-- Parent Policy: [Information Security Policy]({{< ref "/handbook/security" >}})
+- Parent Policy: [Information Security Policy](/handbook/security)
 - [Security Communications Runbooks](https://gitlab.com/gitlab-com/gl-security/runbooks/-/tree/master/communications) (internal)
 - [Incident Communications Plan]({{< ref "security-incident-communication-plan" >}})
 - [Marketing Emergency Response process](/handbook/marketing/emergency-response/)

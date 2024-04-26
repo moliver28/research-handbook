@@ -4,7 +4,7 @@ title: "Root Cause Analysis for Critical Vulnerabilities"
 
 ## What is an RCA?
 
-Root Cause Analysis (RCA) is a process to ultimately identify the root problem of an issue so that we may prevent it from occurring again. You can learn more about [RCAs here](https://about.gitlab.com/handbook/engineering/root-cause-analysis/).
+Root Cause Analysis (RCA) is a process to ultimately identify the root problem of an issue so that we may prevent it from occurring again. You can learn more about [RCAs here](/handbook/engineering/root-cause-analysis/).
 
 To do this a DRI and all relevant other stakeholders from Security and the affected teams (as determined by the DRI) systematically work through a set of questions and discussion topics, as defined in our [RCA Template](https://gitlab.com/gitlab-com/gl-security/rcas/-/blob/main/.gitlab/issue_templates/RCA.md).
 
@@ -44,7 +44,7 @@ The DRI for an RCA should aim to meet these timeframes:
 
 The RCA is considered complete when the tasks in the RCA issue are marked as completed and the issue is closed. This means that the root cause of the vulnerability is well understood and we have a path forward to reduce the likelihood of a similar vulnerability happening again. For example this can be a [custom SAST rule](https://docs.gitlab.com/ee/user/application_security/sast/#customize-rulesets), new security enhancement addressing the vulnerability class holistically, secure coding training, threat model, more secure application settings, etc.).
 
-Issues for corrective actions can be labeled with `~"corrective action"` and [an SLO will apply depending on the severity](https://about.gitlab.com/handbook/engineering/quality/issue-triage/#severity-slos).
+Issues for corrective actions can be labeled with `~"corrective action"` and [an SLO will apply depending on the severity](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity-slos).
 
 ## Where can I find past RCAs?
 

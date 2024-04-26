@@ -1,15 +1,17 @@
 ---
 title: "Contract Manager"
+description: Contract Managers are responsible for faciliating the contracting process for sales, procurement and non-sales engagements. Contract Managers partner with internal stakeholders while negotiating terms and conditions through closure.
 ---
+
+## Contract Manager
+
+The Contract Manager is responsible for managing the contracting process for sales, procurement and non-sales engagements. At the direction of leadership, Contract Managers will review, negotiate, and manage all contracts, as well as oversee the overall contracting process.
+
 ## Job Grades
 
 The Contract Manager is a [grade 6](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
 Read more about GitLab [Job Grades](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
-
-## Contract Manager
-
-The Contract Manager is responsible for managing the contracting process for sales, procurement and non-sales engagements. At the direction of the Director of Contracts & Legal Operations, the Contract Manager will review, negotiate, and manage all contracts, as well as oversee the overall contracting process.
 
 ### Responsibilities
 

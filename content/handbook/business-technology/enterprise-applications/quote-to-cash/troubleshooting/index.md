@@ -19,7 +19,7 @@ Make sure to save these credentials as distinct from your regular GitLab credent
     - to get a login to the version application, [open an access request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=Individual_Bulk_Access_Request) and remove all systems in the list except for the row for `GitLab DEV` which you will use to OAuth into the application.
 Make sure to save these credentials as distinct from your regular GitLab credentials.
 - [Kyla's Quote Creation Videos](https://drive.google.com/drive/u/0/folders/1CAXWx2SSXbIIW5bmPv4Lahlv_VPYdJce)
-- [Support: Common Licensing, Transaction and Billing Troubleshooting](/handbook/support/license-and-renewals/workflows/license_troubleshooting.html)
+- [Support: Common Licensing, Transaction and Billing Troubleshooting](/handbook/support/license-and-renewals/workflows/license_troubleshooting/)
 - [Sales Enablement Renewal Doc](https://docs.google.com/document/d/15WKHS-LxE4c4BbZ4eNREwwH_n_DhX_Q2yzT0OYTNjh0/edit)
 - How to create a quote
     - [new subscription quote](/handbook/sales/field-operations/sales-operations/deal-desk/#new-subscription-quote)
@@ -34,8 +34,8 @@ Make sure to save these credentials as distinct from your regular GitLab credent
 - Resources for Prospects who are trialing and need direction
     - [Get started with GitLab](https://docs.gitlab.com/ee/intro/)
     - [GitLab epics](https://docs.gitlab.com/ee/user/group/epics/)
-- [Instructions on how to renew self-managed](/pricing/licensing-faq/#how-do-i-renew-my-subscription)
-- [Customer Facing: Licensing, Renewing, and Subscription FAQ](/pricing/licensing-faq/)
+- [Instructions on how to renew self-managed](https://about.gitlab.com/pricing/licensing-faq/#how-do-i-renew-my-subscription)
+- [Customer Facing: Licensing, Renewing, and Subscription FAQ](https://about.gitlab.com/pricing/licensing-faq/)
 - [Subscription Setup and Management (user facing)](https://docs.gitlab.com/ee/subscriptions/)
 
 ## True-Ups, Adding Seats, Users
@@ -214,7 +214,7 @@ The Terms are accepted upon installing the license into the Self-managed instanc
 ##### What is the difference between Terms (EULA/T&Cs/TOS) and a License?
 
 - A *EULA (End User License Agreement)* or *T&Cs (Terms and Conditions)* are the legal agreements for the terms of use and privacy policy that customers and users must agree to before using our software.
-    You can read through them on our [company website.](/terms/)
+    You can read through them on our [company website.](https://about.gitlab.com/terms/)
 
 - A *license* is a string of characters that is tied to the customer's subscription or trial that has a start and end date.
     Without applying the license, the self managed software won't work as expected.

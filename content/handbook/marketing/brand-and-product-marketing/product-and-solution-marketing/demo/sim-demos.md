@@ -50,7 +50,7 @@ Both the legacy click-through demos and the new sim demos are available from the
 - Open the demo executable
 - If you have macOS Catalina - follow the steps in the next section, then come back here and continue
 - Click Present Demo
-- If you need help with the sim demo, contact TMM either by Slack channel #dev-evangelism-and-technical-marketing or by opening a [Product and Solution Marketing Request issue](https://gitlab.com/gitlab-com/marketing/product-marketing/issues/new?issuable_template=A-SM-Support-Request).
+- If you need help with the sim demo, contact TMM either by Slack channel #dev-advocacy-team or by opening a [Product and Solution Marketing Request issue](https://gitlab.com/gitlab-com/marketing/product-marketing/issues/new?issuable_template=A-SM-Support-Request).
 
 #### MacOS Catalina
 
@@ -63,7 +63,7 @@ Both the legacy click-through demos and the new sim demos are available from the
 
 ### Who can create sim demos
 
-Everyone can download [DemoEasel](https://www.demoeasel.com/download) and record and edit demos, you don't need a license to create and edit demos. However, in order to generate demo packages, a license is required. The Technical marketing team purchased licenses and the team will be happy to generate packages for you. The priority will be for customer facing demos, which can be reused by other team members.
+Everyone can download [DemoEasel](https://www.demoeasel.com/download) and record and edit demos, you don't need a license to create and edit demos. However, in order to generate demo packages, a license is required. The Developer Advocacy team purchased licenses and the team will be happy to generate packages for you. The priority will be for customer facing demos, which can be reused by other team members.
 
 ### Define the use case
 
@@ -132,11 +132,11 @@ For more info, read the **Getting Started.html**  in your DemoEasel folder.
 ### Package and Share
 
 There are two types of packages we use at GitLab: **browser**(HTML5) and **simulation** (Windows/macOS executables).
-The Technical Marketing produces and upload **browser** demo packages to the [demo page in handbook](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/demo/#click-throughs) so employees and customers can learn the product and use cases. As it supports iOS, we also use the **browser** type to demo GitLab in demo booths in events.
+The Developer Advocacy team produces and upload **browser** demo packages to the [demo page in handbook](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/demo/#click-throughs) so employees and customers can learn the product and use cases. As it supports iOS, we also use the **browser** type to demo GitLab in demo booths in events.
 
 For customer facing demos or keynotes, it is recommended to use the **simulation** version as it has better performance and actually gives the audience a more live-like demon experience. However, for transparency, when we present a simulation demo, we always announce at the beginning that this is a product simulation, not a live demo.
 
-While everyone can contribute and create sim demos, due to license restrictions, and for keeping consistency of the messages, and ensuring consistent high quality and look and feel, the Technical Marketing team will review the demos, provide feedback, and then generate the final demo packages for you.
+While everyone can contribute and create sim demos, due to license restrictions, and for keeping consistency of the messages, and ensuring consistent high quality and look and feel, the Developer Advocacy team will review the demos, provide feedback, and then generate the final demo packages for you.
 
 To request the team to review and generate demo packages
 1. Once you created and completed the demo editing, notes and optimization, Go to ‘*Demos*’ folder under your DemoEasel installation folder and locate a folder with the name of your demo (this folder contains

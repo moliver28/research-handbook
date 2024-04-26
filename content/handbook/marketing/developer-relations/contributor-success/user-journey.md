@@ -6,6 +6,7 @@ description: "Code Contributor User Journey"
 ## Journey Map
 
 <div style="overflow-x: scroll;">
+
 ```mermaid
 %%{init: {"flowchart": { "useMaxWidth": false } }}%%
 flowchart TB
@@ -130,7 +131,8 @@ flowchart TB
         id9_sg8 --> id9_sg9
 
     end
- subgraph id1["Ask Questions"]
+
+    subgraph id1["Ask Questions"]
         id1_box1("Discord")
         %% id1_box2("FAQs")
         id1_box3("GitLab Forum")
@@ -139,6 +141,7 @@ flowchart TB
         %% click id1_box2 "https://docs.gitlab.com/ee/development/fe_guide/frontend_faq.html"
         click id1_box3 "https://forum.gitlab.com/"
     end
+
     subgraph id2["Engagements"]
         id2_box1("Co-working Days")
         id2_box2("Office hours")
@@ -151,9 +154,10 @@ flowchart TB
         click id2_box5 "https://about.gitlab.com/community/hackathon/"
 
     end
-    subgraph id3["Learn about Gitlab"]
+
+    subgraph id3["Learn about GitLab"]
         id3_box1("Tutorials")
-        id3_box2("Gitlab Handbook")
+        id3_box2("GitLab Handbook")
 
         click id3_box1 "https://docs.gitlab.com/ee/tutorials/"
         click id3_box2 "https://about.gitlab.com/handbook/"

@@ -7,12 +7,13 @@ description: >-
 
 ## On-call in GitLab Support
 
-There are four on-call rotations in Support:
+There are five on-call rotations in Support:
 
 - [CMOC](/handbook/support/workflows/cmoc_workflows) - in which Support Engineers drive public communication in the incident management process during GitLab.com operational emergencies.
 - [Customer Emergencies](/handbook/support/workflows/customer_emergencies_workflows)- in which Support Engineers respond to and coordinate the resolution of emergency reports from Self-managed and GitLab.com customers
 - [US Federal Emergencies](/handbook/support/workflows/customer_emergencies_workflows#us-federal-on-call) - which is similar to Customer Emergencies, but has different hours and a US Citizen requirement to participate in
 - [Support Manager On-call](/handbook/support/workflows/support_manager-on-call) - in which Support Manager are an escalation point for issues raised by Support Engineers and GitLab team members and missed PagerDuty notifications
+- [Support Operations On-call](/handbook/support/workflows/support_operations-on-call) - in which Support Readiness team members who focus on our Operations are available to be paged if there's an operational emergency
 
 For customers that have [Priority Support](https://about.gitlab.com/support/#priority-support), the Support Engineering Team is on-call in these capacities and available to assist with emergencies. What constitutes an emergency is defined in our [definitions of support impact](https://about.gitlab.com/support/definitions/#definitions-of-support-impact).
 
@@ -30,9 +31,15 @@ You should not be chained to your desk, but you should be equipped to acknowledg
 
 Be proactive in communicating your availability. Sometimes you can't be *immediately* available for every minute of your on-call shift. If you expect to be unavailable for a short period of time, send an FYI in Slack.
 
+### Prepare ahead of your shift
+
+Before your scheduled on-call shift begins, check [the Customer Events calendar](https://calendar.google.com/calendar/u/0/embed?src=c_8d5a8e9b8c3fc74901bad1799b18e8eafc9e499f7805f9c82f79f9d1e1f9ac4b@group.calendar.google.com) for any customer activities to be aware of that may coincide with your shift. Familiarize yourself with the details of those events in case the customer ends up paging out for help.
+
+**Note:** the Customer Events calendar is also linked at the top of the [#support_self-managed](https://gitlab.enterprise.slack.com/archives/C4Y5DRKLK) Slack channel for quick reference.
+
 ### Communicate
 
-**Involve relevant stakeholders**: whether it's the e-group, a CSM, subject matter experts or Support leadership, customer and operational emergencies should be known. See your rotation specific workflow for more detailed notes.
+**Involve relevant stakeholders**: whether it's the e-group, a CSM, an [ASE (Assigned Support Engineer)](../assigned-support-engineer/emergencies.md), subject matter experts or Support leadership, customer and operational emergencies should be known. See your rotation specific workflow for more detailed notes.
 
 **Note:** You may sometimes be required to contact GitLab users on behalf of another GitLab team (such as the SIRT team). Please follow the [Sending Notices workflow](/handbook/support/workflows/sending_notices) to action these requests.
 
@@ -77,21 +84,22 @@ There are several ways to view current and future schedules:
 1. In Google Calendar, [subscribe to your on-call schedule](https://support.pagerduty.com/docs/schedules-in-apps#section-export-only-your-on-call-shifts)
 1. In the `#spt-gg-forest` slack channel, you can see who is on-call for the different schedules today
 
-#### Changes to PagerDuty rotations or schedules
+#### Scheduling PagerDuty rotations
 
-Changes to PagerDuty schedules will happen once a quarter with additions and removals handled via the [Support PagerDuty Worksheet](https://docs.google.com/spreadsheets/d/1FdUzVXCZleopfteC2QxW7LJwyylGWGl9hwXHMPkRHbQ/edit?usp=sharing). Permissions on the  Worksheet will be limited to Support Management and the Support Operations team.
+PagerDuty schedules for Support should be filled in by DRIs (readiness, support managers, etc.) directly on the [Support PagerDuty Worksheet](https://docs.google.com/spreadsheets/d/1FdUzVXCZleopfteC2QxW7LJwyylGWGl9hwXHMPkRHbQ/edit?usp=sharing).
+The Readiness Team uses this sheet's contents to populate the following quarter's PagerDuty schedules during the first week of the final month of the quarter (Jan., Apr., Jul., Oct.). On the first Monday of the second month of a quarter the Readiness Team will post in the Slack [#support_leadership channel](https://gitlab.enterprise.slack.com/archives/C01F9S37AKT) a reminder  to the DRIs of the upcoming implementation due date.
 
-The Support Operations team will unlock the Support PagerDuty Worksheet at the start of the second month of the quarter. At this time, they will notify the Support Managers and ask them to review and submit changes as necessary. During the final month of the quarter, the Support Operations team will once again lock the Worksheet and implement the changes to go live at the beginning of the next quarter.
+Once the Readiness Team has implemented the next quarter's schedule they remove the scheduled rows from the sheet and PagerDuty becomes the SSOT for the next quarter. For dates that exceed the next quarter, the spreadsheet is the SSOT.
 
-When requesting changes to the Shadow schedules, please [create a new Issue](https://gitlab.com/gitlab-com/support/support-ops/other-software/pagerduty/-/issues/new?_gl=1*os6d81*_ga*MjA5ODYxOTMxMi4xNjU1MjIyMDgw*_ga_ENFH3X7M5Y*MTY4NDUxMzAyOS41MzIuMS4xNjg0NTE2MTg0LjAuMC4w) using the appropriate Issue Template.
+##### Availability
 
-##### Additions
+DRIs are free to use the spreadsheet to create the schedule in advance for up to one year from the current quarter. The schedule is **not** automatically populated and must be completely filled in for each quarter. If, at the time of Readiness implementation, there are blank spaces in one of the schedules, then the most relevant regional support director will be responsible for that shift until they find coverage and make an override in PagerDuty.
 
-When adding someone to the schedule the manager will need to manually add the email address of the user they want added to the rotation.
+##### Schedule Changes
 
-##### Removals
+To make changes to the PagerDuty schedule, create a support team meta issue to discuss the changes with the affected participants. Once you decide on what changes to make, mention the support operations team in the issue to request that they implement those changes.
 
-When removing a user from a schedule the manager will need to delete the email address of the user they are removing, leaving the cell blank.
+More details can be found in the Operations Team [Pagerduty change management documentation](https://handbook.gitlab.com/handbook/support/readiness/operations/docs/pagerduty/change_management/).
 
 #### Your first on-call shift
 
@@ -195,7 +203,7 @@ To see who the current manager on-call is you can:
     - [Support Manager - APAC](https://gitlab.pagerduty.com/schedules/PWBXTYX)
     - [Support Manager - EMEA](https://gitlab.pagerduty.com/schedules/PXQ2ZAZ)
 - In the `#spt-gg-forest` slack channel, the regional bot message lists who is on-call for the different schedules today
-- Ask in `#spt_managers` (where you may or may not be referred to the above steps!)
+- Ask in `#support_leadership` (where you may or may not be referred to the above steps!)
 
 ### Paging the next on-call engineer
 
@@ -205,9 +213,9 @@ To see who the current manager on-call is you can:
 
 ### Paging the on-call manager
 
-- First, try pinging the on-call manager by name in Slack.
+- First, try pinging the on-call manager by tagging `@support-manager-oncall` in Slack.
 - If it's important and urgent or a weekend, you can:
-    - Use the `/pd-support-manager` command to page the on-call manager
+    - Tag the Support Manager On-Call by name in Slack to page the on-call manager
     - Manually create a new incident from the [Support Managers Service](https://gitlab.pagerduty.com/services/PTFI8XR)
 
 ## Mobile phone service and data reimbursement
@@ -285,7 +293,7 @@ Note that some teams in GitLab are using Zapier with a paid plan, but Support En
 1. Zapier will now look for emails with that label and should find the test email we triggered earlier
 1. Choose the test email and "Continue with selected record" to start setting up the action
 1. For the Action, use the `Slack` app with the `Set Status` event
-1. Continue until you can specifiy the input for the status:
+1. Continue until you can specify the input for the status:
    - `Status Text` – you'll likely want to specify your rotation name here
    - `Status Emoji` – you'll likely want to use `:pagerduty:` here
    - `Expiration Time` – you'll want to use the duration of your shift here so the status is automatically cleared when your shift is done

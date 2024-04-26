@@ -1,5 +1,5 @@
 ---
-title: "Gitlab France S.A.S."
+title: "GitLab France S.A.S."
 description: "GitLab France S.A.S. benefits specific to France-based team members."
 ---
 
@@ -37,7 +37,7 @@ Eligible France Team Members will receive an Holiday Bonus annually. The Holiday
 The bonus is 1% of Total Gross Compensation that was paid through the prior 12 month period (June 1st to May 31st). Variable compensation such as bonus, commission, and overtime are included in the total compensation calculation.
 The Holiday Bonus is taxable, and subject to social charges and income tax. Team Members must be employed in the month of June to receive the annual bonus.
 
-## Gitlab France S.A.S. Parental Leave
+## GitLab France S.A.S. Parental Leave
 
 ### Statutory Parental Leave
 
@@ -48,11 +48,12 @@ The Holiday Bonus is taxable, and subject to social charges and income tax. Team
 - 34 weeks maternity leave for twins (12 weeks before and 22 weeks after birth)
 - 46 weeks maternity leave in case of triplets or more (24 weeks before and 22 weeks after birth)
 
-**Paternity Leave:** Team members are entitled to 28 days of paternity leave and 35 days in case of multiple births (twins, triplets, etc.). This consists of the following:
+**Paternity Leave:** Team members are entitled to 28 days of paternity leave and 35 days in case of multiple births (twins, triplets, etc.). Team members are eligible for paternity and childcare leave after the birth of your child or that of your spouse, common-law partner or PACS partner.
 
-- Three days of mandatory leave to begin, at the team member's choice, on the date of birth or the first working day following the date of birth.
-- Four days mandatory leave immediately following the initial 3-day birth leave.
-- A final period of 21 days. The team member may choose to split this period into two parts of at least five days.
+- This consists of the following:
+    - Three days of mandatory leave to begin, at the team member's choice, on the date of birth or the first working day following the date of birth.
+    - Four days mandatory leave immediately following the initial 3-day birth leave.
+    - A final period of 21 days. The team member may choose to split this period into two parts of at least five days.
 
 #### Maternity Leave Payment
 
@@ -66,7 +67,7 @@ The Holiday Bonus is taxable, and subject to social charges and income tax. Team
 
 To initiate your parental leave, submit your time off by selecting the `Parental Leave` category in Time Off by Deel at least 30 days before your leave starts. Please familiarize yourself with [GitLab's Parental Leave policy]({{< ref "general-and-entity-benefits#parental-leave" >}}).
 
-## Gitlab France S.A.S. Paid Time Off (Vacation)
+## GitLab France S.A.S. Paid Time Off (Vacation)
 
 - GitLab France S.A.S. team members can review [statutory requirements for paid time off in relation to vacation](/handbook/paid-time-off/#gitlab-sas-france).
 - Team members must always submit their leave via the [Mihi Platform](https://2.mihi.info/Account/Login?ReturnUrl=%2F) **as well as** [Time Off by Deel](/handbook/paid-time-off/#time-off-by-deel) in Slack.

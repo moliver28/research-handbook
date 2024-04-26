@@ -31,7 +31,7 @@ People Success Experience
 - You'll bring a deep understanding of recruiting tactics, metrics, and capacity planning.
 - You've helped develop career paths, promotion reviews, and compensation cycles in previous roles.
 - You're familiar with the issues that public companies face.
-- You'll embody the approach we expect from Executive Group [leadership at GitLab](/handbook/company/team/structure/#e-group)
+- You'll embody the approach we expect from Executive Group [leadership at GitLab](/handbook/company/structure/#e-group)
 - You can learn how to use GitLab
 - You'll bring some international HR or People Ops experience.
 

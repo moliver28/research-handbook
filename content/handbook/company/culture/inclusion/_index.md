@@ -14,8 +14,8 @@ And diversity in our leadership [supports innovation](https://www.bcg.com/en-us/
 
 ## GitLab's Diversity Inclusion and Belonging Mission
 
-- **Mission**: At GitLab, we believe everyone can contribute.  This informs our approach to DIB.  We are building a scalable strategy based on **A**ction, **D**oing Good in the communities we serve, holding ourselves **A**ccountable and creating equitable **P**olicies in a **T**ransparent environment.  Just as DIB is a journey, our acronym, **A.D.A.P.T.** mirrors the agility required throughout that journey.
-- **Action** - There is intentionality in how we hire and retain our team members as well as engage with our customers and the open source community.
+- **Mission**: At GitLab, we believe everyone can contribute and the Diversity Inclusion and Belonging Team are building scalable strategies based on our acronym, A.D.A.P.T. which stands for **A**ction, **D**oing Good in the communities we serve, holding ourselves **A**ccountable and creating equitable **P**olicies in a **T**ransparent environment.  We are focused on helping to build high performing, customer centric teams by expanding, establishing, embedding our DIB  (https://handbook.gitlab.com/handbook/values/#diversity-inclusion). Just as DIB is a journey, our acronym, **A.D.A.P.T.** mirrors the agility required throughout that journey.
+- **Action** - There is intentionality in how we hire, progress and retain our team members as well as engage with our customers and the open source community.
 - **Do Good** - By providing avenues and opportunities for GitLab & team members to meaningfully contribute to our community and society.
 - **Accountable** - We have a Responsibility to commit and Answerable for the outcome.
 - **Policies**  - By building scalable ways to govern our work, actionable processes which inform our program development/execution.
@@ -129,7 +129,7 @@ Candidates are not limited by geography and we [champion this approach]({{< ref 
 
 By having no offices and allowing each GitLab team member to work and live where they are most comfortable, GitLab offers a uniquely inclusive culture.
 
-- All-remote means that you [will not sacrifice career advancement]({{< ref "/handbook/people-group/learning-and-development" >}}) by working outside of the office, as even GitLab executives are fully remote.
+- All-remote means that you [will not sacrifice career advancement](/handbook/people-group/learning-and-development) by working outside of the office, as even GitLab executives are fully remote.
 - All-remote creates a workplace where caregivers, individuals with physical disabilities, etc. are not disadvantaged for being unable to regularly commute into an office.
 - GitLab's approach to [Spending Company Money](/handbook/spending-company-money/) enables all team members to create a work environment uniquely tailored for them.
 - All-remote enables those who must relocate frequently for family and personal reasons to take their career with them.
@@ -183,7 +183,7 @@ The workshops are kept to a max of 15 team members to generate more comfort and 
 
 #### Facilitators
 
-Currently, we have four GitLab team members who are certified to facilitate the #IamRemarkable workshop:
+Currently, we have three GitLab team members who are certified to facilitate the #IamRemarkable workshop:
 
 1. Giuliana Lucchesi
 1. Terri Chu
@@ -263,9 +263,9 @@ We have created several TMRGs and welcome interest in creating new ones. Would y
 
 GitLab welcomes military veterans from around the world, as well as military spouses, to learn more about [life at GitLab]({{< ref "culture#life-at-gitlab" >}}) and to apply for [vacancies](https://about.gitlab.com/jobs/). We recognize the values gained from military experience, and we foster an [inclusive atmosphere]({{< ref "building-culture" >}}) to thrive in when returning to civilian life.
 
-Our [all-remote culture]({{< ref "all-remote" >}}) provides an ideal work environment for military veterans and spouses. By empowering team members to live and work where they are most comfortable, veterans and spouses can work in a safe, nurturing environment that they [choose and design]({{< ref "/handbook/company/culture/all-remote/workspace" >}}).
+Our [all-remote culture]({{< ref "all-remote" >}}) provides an ideal work environment for military veterans and spouses. By empowering team members to live and work where they are most comfortable, veterans and spouses can work in a safe, nurturing environment that they [choose and design](/handbook/company/culture/all-remote/workspace).
 
-We encourage military veterans and spouses to [read testimonials]({{< ref "/handbook/company/culture/all-remote/people#military-spouses-and-families" >}}) from GitLab team members to understand the benefits of all-remote when [joining the workforce]({{< ref "/handbook/company/culture/all-remote/getting-started" >}}) following military service. We are committed to our [Military Leave]({{< ref "/handbook/people-policies/leave-of-absence#military-leave" >}}) policy.
+We encourage military veterans and spouses to [read testimonials](/handbook/company/culture/all-remote/people#military-spouses-and-families) from GitLab team members to understand the benefits of all-remote when [joining the workforce](/handbook/company/culture/all-remote/getting-started) following military service. We are committed to our [Military Leave](/handbook/people-policies/leave-of-absence#military-leave) policy.
 
 *GitLab is actively [iterating]({{< ref "values#iteration" >}}) within Diversity, Inclusion & Belonging and Talent Acquisition to ensure that additional underrepresented groups are pursued, embraced, and positioned for success.*
 
@@ -279,9 +279,9 @@ The options of this field are:
 - No, I do not have a disability
 - Prefer Not to Answer
 
-If you are unsure how to answer, please review our [Individual with Disabilities Policy]({{< ref "/handbook/people-policies/inc-usa#individuals-with-disabilities-policy" >}}).
+If you are unsure how to answer, please review our [Individual with Disabilities Policy](/handbook/people-policies/inc-usa#individuals-with-disabilities-policy).
 
-At GitLab, we are proud to make reasonable accommodations to the known disability of a team member. Please review the [reasonable accommodation]({{< ref "/handbook/people-policies/inc-usa#reasonable-accommodation" >}}) handbook section if you need a reasonable accommodation due to your disability. Find more information on GitLab Inc's [Individuals with Disabilities]({{< ref "/handbook/people-policies/inc-usa#individuals-with-disabilities-policy" >}}) policy.
+At GitLab, we are proud to make reasonable accommodations to the known disability of a team member. Please review the [reasonable accommodation](/handbook/people-policies/inc-usa#reasonable-accommodation) handbook section if you need a reasonable accommodation due to your disability. Find more information on GitLab Inc's [Individuals with Disabilities](/handbook/people-policies/inc-usa#individuals-with-disabilities-policy) policy.
 
 #### Related Disability Legislation
 
@@ -307,11 +307,11 @@ The options of this field are:
 
 Above this field, we have a section titled `Veteran Status` that we ask our US-based team members to review and also complete during the onboarding process, if it applies to them and if they so wish. The reason we ask is because it is a legal requirement in the United States for us to request and document this information. We encourage our US-based GitLab team members to self-disclose their Veteran Status in our HRIS without any fear of judgment or negative consequences, but it is always optional. Again, all veteran status data is completely confidential, and only requested for mandatory reporting purposes.
 
-If you are a team member on a GitLab Inc or Federal contract and a disabled veteran you may request a “reasonable accommodation.” A reasonable accommodation is one that allows you to perform your job, and must be provided by GitLab unless doing so would cause GitLab significant difficulty or expense. A reasonable accommodation does not change essential job functions. GitLab can choose the type of reasonable accommodation that will be made available; however, the accommodation must be effective. More information on how to request a reasonable accommodation is available [here](https://www.dol.gov/ofccp/posters/ReasonableAccommodationPocketCard/index.htm). Please review the [reasonable accommodation]({{< ref "/handbook/people-policies/inc-usa#reasonable-accommodation" >}}) handbook section if you would like an accommodation due to your veteran status.
+If you are a team member on a GitLab Inc or Federal contract and a disabled veteran you may request a “reasonable accommodation.” A reasonable accommodation is one that allows you to perform your job, and must be provided by GitLab unless doing so would cause GitLab significant difficulty or expense. A reasonable accommodation does not change essential job functions. GitLab can choose the type of reasonable accommodation that will be made available; however, the accommodation must be effective. More information on how to request a reasonable accommodation is available [here](https://www.dol.gov/ofccp/posters/ReasonableAccommodationPocketCard/index.htm). Please review the [reasonable accommodation](/handbook/people-policies/inc-usa#reasonable-accommodation) handbook section if you would like an accommodation due to your veteran status.
 
 ### Diversity, Inclusion & Belonging Training and Learning Opportunities
 
-- [Gitlab's Diversity, Inclusion & Belonging Certification on Gitlab LevelUp](https://levelup.gitlab.com/learn/course/dib-training-certification/gitlab-dib-certification-training/welcome-to-gitlab-dib-certification-training?client=internal-team-members)
+- [GitLab's Diversity, Inclusion & Belonging Certification on GitLab LevelUp](https://levelup.gitlab.com/learn/course/dib-training-certification/gitlab-dib-certification-training/welcome-to-gitlab-dib-certification-training?client=internal-team-members)
 - [Live Inclusion training](https://www.youtube.com/watch?v=gsQ2OsmgqVM&feature=youtu.be)
 - [Live Ally training](https://www.youtube.com/watch?v=wwZeFjDc4zE&feature=youtu.be)
 - Understanding [unconscious bias]({{< ref "unconscious-bias" >}})
@@ -363,15 +363,13 @@ We encourage collaboration with global organizations and programs that support u
 GitLab also provides additional support through the [GitLab Diversity Sponsorship program](https://about.gitlab.com/community/sponsorship/).
 We offer funds to help support the event financially, and if the event is in a city we have a GitLab team member, we get hands-on by offering to coach and/or give a talk whenever possible.
 
-Community members from all backgrounds are encouraged to join our [First Look](https://about.gitlab.com/community/gitlab-first-look/) UX research participant panel. Feedback from our community is what makes GitLab lovable and anyone is [able to sign up](https://gitlab.fra1.qualtrics.com/jfe/form/SV_51J9D8skLbWqdil?Source=d&i) to our research program for invites to usability tests, user interviews, surveys, and more.
-
 We encourage organizers of events that are supported through our [GitLab Diversity Sponsorship program](https://about.gitlab.com/community/sponsorship/) to share [this sign up link](https://gitlab.fra1.qualtrics.com/jfe/form/SV_51J9D8skLbWqdil?Source=d&i) with attendees. Everyone can contribute.
 
 
 ## Definitions
 
 - [Gender and Sexual Orientation Identity Definitions and FAQ](/handbook/people-group/orientation-identity/)
-- [Leadership](/handbook/company/team/structure/#organizational-chart) is defined as director and above.
+- [Leadership](/handbook/company/structure/#organizational-chart) is defined as director and above.
 - [Geographically](/handbook/company/culture/inclusion/identity-data/) is defined as those countries we use in our identity data.
 - Women is the term GitLab uses instead of "Female". "Female/Male" are gender terms often designated at birth. "Woman/Man" are gender terms based on self-identification. At GitLab, we define women based on how team members self-identify their gender in Workday.
 - **Privilege** is an unearned advantage given by society to some people but not all. In the USA figures were released in 2009 that on average women were paid $0.78 for every $1 a man makes. These figures have improved but there is still a gender imbalance.
@@ -386,7 +384,7 @@ We encourage organizers of events that are supported through our [GitLab Diversi
 - **Ethnicity**: Can be more broadly defined as “large groups of people classed according to common racial, national, tribal, religious, linguistic, or cultural origin or background.”
     - For example people who are Black/African Descent can have a variety of ethnicities such as African,  African American, Afro-Caribbean, Afro-Latinx etc. Whilst physical characteristics can be similar there could be cultural differences.
 - **Underrepresented Group** This can be defined as a group whose percentage of the population in a given group is lower than their percentage of the population of country, community, organization or otherwise.
-    - An example of this at Gitlab is: Women within Senior Leadership is still low compared to Men within Senior Leadership. Which meant that Gitlab created the goal of 50% of all senior leadership should be women by December 2021 to address the imbalance within this underrepresented group.
+    - An example of this at GitLab is: Women within Senior Leadership is still low compared to Men within Senior Leadership. Which meant that GitLab created the goal of 50% of all senior leadership should be women by December 2021 to address the imbalance within this underrepresented group.
 - **TMRG (Team Member Resource Group)** - In other organizations, a TMRG can be an ERG (Employee Resource Group). TMRGs are voluntary, team member-led groups focused on fostering diversity, inclusion and belonging within GitLab. These groups help team members build stronger internal and external connections; offer social, educational, and outreach activities; create development opportunities for future leaders; and increase engagement among team members.
 - **Ally** - A diversity, inclusion and belonging "ally" is someone who is willing to take action in support of another person, in order to remove barriers that impede that person from contributing their skills and talents in the workplace or community.
 - **Allyship** - Is the state of being an ally, supporting or being a member of  groups or associations of the people you are an ally too. An example of this is someone who does not identify as part of the [LGBTQI+](https://socialprotection-humanrights.org/key-issues/disadvantaged-and-vulnerable-groups/lgbtqi/) community being a part of the TMRG and supporting the endeavors.
@@ -400,4 +398,4 @@ It's not about being warm and fuzzy and sharing your feelings. It's about being 
 When measuring diversity-focused performance indicators, we focus on top-of-funnel metrics, like pipeline, because they're [leading indicators](https://www.leadingagile.com/2018/02/leading-lagging-indicators/) which are better measures of where we are heading.
 It also helps reduce risk that we hire to the performance indicator, instead of hiring the best candidate.
 
-Like all performance indicators, our [Diversity Performance Indicators]({{< ref "/handbook/people-group/people-success-performance-indicators#key-performance-indicators" >}}) are on the [People Success Performance Indicator Page]({{< ref "/handbook/people-group/people-success-performance-indicators" >}}).
+Like all performance indicators, our [Diversity Performance Indicators](/handbook/people-group/people-success-performance-indicators#key-performance-indicators) are on the [People Success Performance Indicator Page](/handbook/people-group/people-success-performance-indicators).

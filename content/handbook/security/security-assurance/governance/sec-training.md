@@ -1,11 +1,8 @@
 ---
 title: "Security Awareness Training Standard"
 description: "Security Training Standard"
+controlled_document: true
 ---
-
-{{% alert title="This is a Controlled Document" color="danger" %}}
-Inline with GitLab's regulatory obligations, changes to [controlled documents]({{< ref "controlled-document-procedure" >}}) must be approved or merged by a code owner. All contributions are welcome and encouraged.
-{{% /alert %}}
 
 ## Purpose
 
@@ -65,11 +62,11 @@ As our Security Training Program matures, additional trainings will be identifie
 
 ## Exceptions
 
-Exceptions to this procedure will be tracked as per the [Information Security Policy Exception Management Process]({{< ref "/handbook/security#information-security-policy-exception-management-process" >}}).
+Exceptions to this procedure will be tracked as per the [Information Security Policy Exception Management Process](/handbook/security#information-security-policy-exception-management-process).
 
 ## References
 
-- Parent Policy: [Information Security Policy]({{< ref "/handbook/security" >}})
+- Parent Policy: [Information Security Policy](/handbook/security)
 - [Security Awareness Training Program]({{< ref "sec-awareness-training" >}})
 - [Phishing Program]({{< ref "phishing" >}})
 - [Data Classification Standard]({{< ref "data-classification-standard" >}})

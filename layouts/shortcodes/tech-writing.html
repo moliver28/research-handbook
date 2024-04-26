@@ -1,61 +1,43 @@
-{{ $stages := partials.IncludeCached "data/stages" page }}
-{{ $stages = sort $stages "section" }}
+<!-- To edit the content, see: https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/stages.yml -->
 <table>
-	<thead>
-		<tr>
-			<th>Section</th>
-			<th>Stage</th>
-			<th>Group</th>
-			<th>Assigned technical writer</th>
-		</tr>
-	</thead>
-	<tbody>
-		{{- range $stages }}
-		{{- $section := .section }}
-		{{- $display_name := .display_name}}
-		{{- range .groups }}
-		<tr>
-			<td><a href="{{ ref page (printf "/handbook/product/categories#%s-section" $section) }}">{{ $section }}</a></td>
-			<td><a href="{{ ref page (printf "/handbook/product/categories#%s-stage" (lower $display_name)) }}">{{ $display_name }}</a></td>
-			<td><a href="{{ ref page (printf "/handbook/product/categories#%s-group" (anchorize .name)) }}">{{ .name }}</a></td>
-			<td>
-				{{- with .tech_writer -}}
-					{{- if reflect.IsSlice . -}}
-						{{- range . -}}
-							{{- if hasPrefix . "#" -}}
-								<img src="/images/slack-mark.png" style="padding:4px" alt="Slack Logo" class="avatar" height="40" width="40"> {{ . }}
-							{{- else -}}
-								{{- partial "member-by-name" . }}<br>
-							{{- end -}}
-						{{- end -}}
-					{{- else -}}
-						{{- if hasPrefix . "#" }}
-							<img src="/images/slack-mark.png" style="padding:4px" alt="Slack Logo" class="avatar" height="40" width="40"> {{ . }}
-						{{- else }}
-							{{- partial "member-by-name" . }}
-						{{- end }}
-					{{- end }}
-				{{- end }}
-			</td>
-		</tr>
-		{{- end }}
-		{{- end }}
-	</tbody>
+    <thead>
+        <tr>
+            <th>Section</th>
+            <th>Stage</th>
+            <th>Group</th>
+            <th>Assigned technical writer</th>
+        </tr>
+    </thead>
+    <tbody>
+        {{- $sorted_stages := (sort site.Data.public.stages.stages "display_name") }}
+        {{- range $section_key, $section := site.Data.public.sections }}
+        {{- range $stage := (where $sorted_stages "section" "eq" $section_key) }}
+        {{- $stage_key := anchorize $stage.display_name }}
+        {{- range $group_key, $group := .groups }}
+        <tr>
+            <td><a href="{{ ref page (printf "/handbook/product/categories#%s-section" $section_key) }}">{{ $section.name }}</a></td>
+            <td><a href="{{ ref page (printf "/handbook/product/categories#%s-stage" $stage_key) }}">{{ $stage.display_name }}</a></td>
+            <td><a href="{{ ref page (printf "/handbook/product/categories#%s-group" $group_key) }}">{{ $group.name }}</a></td>
+            <td>
+                {{- with .tech_writer -}}
+                    {{- range (slice | append .) -}}
+                        {{- if hasPrefix . "#" -}}
+                            <img src="/images/slack-mark.png" style="padding:4px" alt="Slack Logo" class="avatar" height="40" width="40"> {{ . }}
+                        {{- else -}}
+                            <div class="mb-2">
+                            {{- with (index (where site.Data.public.team "name" "eq" .) 0) }}
+                            {{- partial "member/with-team-link" . }}<br>
+                            {{- else }}
+                            <span class="not-found" style="white-space: nowrap;"><img class="avatar" src="https://about.gitlab.com/images/gitlab-logo-extra-whitespace.png" width="40" height="40" alt="{{ . }}">{{.}}</span><br>
+                            {{- end }}
+                            </div>
+                        {{- end -}}
+                    {{- end -}}
+                {{- end }}
+            </td>
+        </tr>
+        {{- end }}
+        {{- end }}
+        {{- end }}
+    </tbody>
 </table>
-
-<style>
-	img.avatar {
-	width: 30px;
-	height: 30px;
-	max-width: 30px;
-	max-height: 30px;
-	overflow: hidden;
-	margin-right: 10px;
-	border-radius: 50%;
-	border: 1px solid lightgray;
-	aspect-ratio: auto 90 / 90;
-	overflow-clip-margin: content-box;
-	margin-top: 3px;
-	margin-bottom: 3px
-	}
-</style>

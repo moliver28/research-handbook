@@ -1,6 +1,8 @@
 ---
 title: Candidate Handbook Page
 description: "This page outlines what hiring looks like at GitLab. We share the latest information about our processes and practices to ensure you have the information you need to feel confident during the interview process."
+aliases:
+- /handbook/hiring/candidate/faq/
 ---
 
 The GitLab Candidate Handbook is a space for recent applicants and candidates progressing through the interview process. We encourage every prospective job seeker to spend time learning more about the work we do, our culture & values, and what to expect during our hiring process.
@@ -117,7 +119,7 @@ Feel free to send an email to your Recruiter to get a status update on where you
 {{% /details %}}
 
 {{% details summary="Can I have the hiring team’s email addresses so I can send them a note?" %}}
-Yes. You can email your Recruiter or ces@gitlab.com to request your interviewer's email address.
+If you'd like to send a note to the hiring team, please send it to your Recruiter and they will forward it on.
 {{% /details %}}
 
 {{% details summary="Can I interview for multiple roles at the same time?" %}}
@@ -125,7 +127,7 @@ In the event that you are interested in more than one opening, there is no limit
 
 1. You will have to complete a full interview process for each role you apply to, so be mindful of the time commitment for each application you submit.
 1. Due to capacity, the recruiting team will only process 3 of your applications at a time based on which ones you decide to prioritize. Any other applications outside of the 3 will be processed after the prioritized roles's interviews are completed.
-1. In the effort to be as transparent as possible and avoid sending multiple competing Gitlab offers, there will be an added step to the process after your final interview where you will discuss with your recruiter which role you’re interested in before any official offer documents can be sent.
+1. In the effort to be as transparent as possible and avoid sending multiple competing GitLab offers, there will be an added step to the process after your final interview where you will discuss with your recruiter which role you’re interested in before any official offer documents can be sent.
 1. If you already have interviewed with us, you can apply for a different role again, but please take note that there may be a cooldown period of 6 months or more if it's a similar role, depending on the reason for not moving forward which is communicated by the recruiter.
 
 Example of dual Interview process outline
@@ -146,7 +148,13 @@ Example of dual Interview process outline
 {{% /details %}}
 
 {{% details summary="I've been rejected, when can I reapply?" %}}
-If your application is rejected because you are insufficiently qualified for the role, you are welcome to reapply to the same position once 6 months have passed. If you gain the skills, experience, or knowledge we outlined in our [feedback to you]({{< ref "interviewing#rejecting-candidates" >}}), you are welcome to reapply at any time.
+If your application is rejected because you are insufficiently qualified for the role, you are welcome to reapply to the same position once 6 months have passed. If you gain the skills, experience, or knowledge we outlined in our [feedback to you](/handbook/hiring/interviewing/#rejecting-candidates), you are welcome to reapply at any time.
+{{% /details %}}
+
+{{% details summary="I already passed the technical interview, will I need to repeat that stage if I reapply?" %}}
+
+If you are reapplying to a role in R&D and have already completed interviews following a technical interview, your technical feedback also remains valid for up to 6 months as long as you are applying to the same job family. The recruitment team will aim to run a reduced interview process in this scenario, however, if you are reapplying outside of the 6 month window or applying to a different job family, you will be required to restart the interview process with us again.
+
 {{% /details %}}
 
 ### Inclusive interviewing
@@ -186,7 +194,7 @@ At GitLab, we hire people from all over the world and all walks of life. Diversi
 
 {{% details summary="Take a look at the countries where we currently hire below." %}}
 
-Please refer to a specific job listing to see if the position is hiring in the country where you are located. You check our [handbook]({{< ref "/handbook/people-group/employment-solutions#country-hiring-guidelines" >}}) for more in-depth information
+Please refer to a specific job listing to see if the position is hiring in the country where you are located. You check our [handbook](/handbook/people-group/employment-solutions#country-hiring-guidelines) for more in-depth information
 
 | Country                                                        | Employed through an Entity or PEO  |
 | -------------------------------------------------------------- | ---------------------------------- |
@@ -233,7 +241,7 @@ Our [mission]({{< ref "mission" >}}) makes it clear that we believe in a world w
 - [Life at GitLab](https://about.gitlab.com/jobs/)
 - [How We're Changing the Look of DevOps and Remote Work, One Iteration at a Time](https://builtin.com/brand-studio/gitlab-changing-look-devops-remote-work?utm_source=linkedin&utm_medium=social_media&utm_campaign=gitlab)
 - [GitLab's guide to starting a new remote role](/handbook/company/culture/all-remote/getting-started/)
-- [Life at GitLab Content Library]({{< ref "/handbook/people-group/employment-branding/content-library" >}})
+- [Life at GitLab Content Library](/handbook/people-group/employment-branding/content-library)
 {{% /details %}}
 
 ### What our team members are saying

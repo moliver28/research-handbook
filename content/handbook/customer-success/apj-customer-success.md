@@ -36,7 +36,7 @@ The WW ["Customer Success Vision Page"](/handbook/customer-success/vision/) prov
 Currently the local APJ CS team has Solutions Architects & Customer Success Managers in the team. The team reports to the Manager, Solutions Architects and the Manager, Customer Success Manager respectively.
 
 - [Manager, Solutions Architects](/job-families/sales/solutions-architect/#manager-solutions-architects) responsibilities
-- [Solutions Architect](/handbook/customer-success/solutions-architects/) responsibilities
+- [Solutions Architect](/handbook/solutions-architects/) responsibilities
 - [Manager, Customer Success Manager](/job-families/sales/customer-success-management/#manager-csm) responsibilities
 - [Customer Success Manager](/handbook/customer-success/csm/) responsibilities
 
@@ -128,7 +128,7 @@ The meeting is scheduled regularly and on a weekly basis. The meeting is hosted 
 
 ## Bi-Weekly GitLab New Release meeting (all APJ CS team members)
 
-**Objective of the meeting: Since GitLab Product is releasing new software [every month](https://about.gitlab.com/handbook/engineering/releases/), the APJ Customer Success team uses the opportunity to demonstrate main new GitLab functions and features to the entire team.**
+**Objective of the meeting: Since GitLab Product is releasing new software [every month](/handbook/engineering/releases/), the APJ Customer Success team uses the opportunity to demonstrate main new GitLab functions and features to the entire team.**
 
 The APJ Customer Success team meets bi-weekly to attend this hands-on technical session. Each week we demonstrate 2-3 main topics from the past GitLab releases. The format is casual and mostly tailored towards the usage within the GitLab platform, a customer value discussion of the topic and exchange of customers who could benefit of the new functions.
 

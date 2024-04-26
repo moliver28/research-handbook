@@ -2,7 +2,7 @@
 
 title: GitLab Dedicated Overview
 category: GitLab Dedicated
-description: "Gitlab Dedicated Support overview."
+description: "GitLab Dedicated Support overview."
 ---
 
 ### Overview
@@ -35,6 +35,10 @@ reproduction purposes. This instance can be accessed at the following URLs:
 - Grafana: https://grafana.dedicatedtestsandbox.gitlab-private.org/
 
 To receive an invite, ask Armin, Brie, Matthew or Wei-Meng.
+
+When running a test on the GitLab Support Dedicated instance, please communicate about it on the Slack channel [#spt_pod_dedicated](https://gitlab.enterprise.slack.com/archives/C058LM1RL3V).
+As we are all sharing the same test instance, and if your test may impact the whole instance, post a message at the beginning of a test with an estimate duration.
+Upon test completion, please use the emoji `:done:` to show you reverted the changes and the test is completed.
 
 The Switchboard console can be accessed at https://console.gitlab-private.org/tenants/40.
 Follow [these instructions](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/switchboard/-/tree/main#process-to-provision-new-users-pre-production-environment)
@@ -102,14 +106,14 @@ When any changes are required besides those listed below, raise an issue in the 
   - The IAM principal must be an [IAM role principal](https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_elements_principal.html#principal-roles) or [IAM user principal](https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_elements_principal.html#principal-users).
   - The IAM user principal has the following format: `arn:aws:iam::<Customer_AWS_Account_ID>:user/user-name`. The IAM role principal has the following format: `arn:aws:iam::<Customer_AWS_Account_ID>:role/role-name`. Keep the format of these two in mind to avoid prolonging the ticket if an unexpected format is provided.
 1. Open a new [PrivateLink Request issue](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/issues/new?issuable_template=private_link_request) and confirm that the `support::request-for-help` label is added.
-1. Add the IAM principal to the issue. The Enviroment Automation team will provide a **Service Endpoint Name**.
+1. Add the IAM principal to the issue. The Environment Automation team will provide a **Service Endpoint Name**.
 1. The customer will follow the steps in [our documentation](https://docs.gitlab.com/ee/administration/dedicated/#inbound-private-link).
 
 #### Outbound (Reverse) PrivateLink Request
 
 1. Open a new [PrivateLink Request issue](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/issues/new?issuable_template=private_link_request) and confirm that the `support::request-for-help` label is added.
   - As a comment in the issue, request two **Availability Zone IDs (AZ IDs)** that can be used by the customer.
-1. Provide the IAM role Principal to the customer. It has the following format: `arn:aws:iam::<AWS_Account_ID>:role/reverse_private_link@<tenant_id>`. Read the instructions in issue created for information on how to find the `<AWS_Account_ID>` and `<tenant_id>`.
+1. Provide the IAM role Principal to the customer. It has the following format: `arn:aws:iam::<AWS_Account_ID>:role/reverse_private_link@<tenant_id>`. You will find this information in the `Reverse Private Link IAM Principal` row of the `Tenant Details` section in Switchboard. Alternatively, read the instructions in the issue created for information on how to find the `<AWS_Account_ID>` and `<tenant_id>`.
 1. Provide the two **AZ IDs** from the issue to the customer. An example AZ ID is: `use-az1` or `usw-az4`. Note: *These are not AWS Zone IDs.*
   - Provide the two AZ IDs early in the ticket to avoid prolonging the ticket. The AZ IDs must be in the same region as the customer's tenant instance. The customer can then make the decision of which specific zones that can be used. AZ IDs are shared between different zones in a region but cannot be used outside of the region. For example, AZ IDs in `us-west-1*` cannot be used in `us-west-2*`. Some of the zones in each reach share AZ IDs with other zones in the same region but you must work with the customer to find the overlap.
 1. Ask the customer to provide the [required information](https://docs.gitlab.com/ee/administration/dedicated/#outbound-private-link). In this case, it's a **Service Endpoint Name**, a list of **AZ IDs** they will be using (should match provided AZ IDs), and **Domain Name** (with one of two options).
@@ -117,6 +121,8 @@ When any changes are required besides those listed below, raise an issue in the 
 1. Fill in the issue with the information provided by the customer and follow next steps in the issue.
 
 #### IP Allowlist Request
+
+In most cases, customers should use **Switchboard** to update the IP allowlist for their GitLab Dedicated instance. If this is not possible:
 
 1. Ask the customer to provided the [required information](https://docs.gitlab.com/ee/administration/dedicated/#ip-allowlist) in the ticket. In this case, it's a comma-separated list of IP addresses.
 1. Open a [Request for Help issue](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/issues/new?issuable_template=request_for_help) and confirm that the `support::request-for-help`) in the GitLab Dedicated issue tracker.
@@ -139,13 +145,39 @@ When any changes are required besides those listed below, raise an issue in the 
 
 In cases where Customer Support needs to interact with GitLab Dedicated engineers to gather information or similarly debug a problem at tenant's request (when Grafana or OpenSearch does not suffice), raise an issue in the [GitLab Dedicated issue tracker](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/issues) using [the `Request for Help` template](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/issues/new?issuable_template=request_for_help).
 
-### Escalating an Emergency issue
+During the course of the investigation, you may realize that you need to escalate a Request for Help (RFH) issue to another team. You should follow the existing process to [formally request help from another group in the GitLab Development Team](https://handbook.gitlab.com/handbook/support/workflows/how-to-get-help/#how-to-formally-request-help-from-the-gitlab-development-team). When doing this:
 
-The same [definitions and exceptions](/handbook/support/workflows/customer_emergencies_workflows#determine-if-the-situation-qualifies-as-an-emergency) apply.
+- Summarize the investigation thus far and make sure the ask for the team you are escalating to is clear
+- Apply the `~workflow-infra::Escalated` label to the RFH issue in the GitLab Dedicated issue tracker
+
+### Handling GitLab Dedicated emergencies
+
+GitLab Dedicated customer emergencies follow the same [definitions and exceptions](/handbook/support/workflows/customer_emergencies_workflows#determine-if-the-situation-qualifies-as-an-emergency)
+as regular customer emergencies.
+
+If the customer is reporting an availability or performance issue:
+
+1. Check the [GitLab Dedicated incident management tracker](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/incident-management/-/issues/?type%5B%5D=incident)
+   for relevant open incidents.
+1. If there is an open incident:
+   - Inform the customer that the GitLab Dedicated infrastructure team is actively investigating.
+   - Get in touch with the Dedicated SRE on-call and determine if the customer needs to be involved
+     with troubleshooting.
+   - Assist the customer and the Dedicated SRE as necessary.
+1. If there isn't an open incident, [escalate the emergency](#escalating-an-emergency-issue).
+
+#### Escalating an Emergency issue
+
 If involving the Dedicated team becomes necessary:
 
 1. Note initial findings in [a `new-incident` issue](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/incident-management/-/issues/new?issuable_template=new-incident).
 1. Follow the [Dedicated on-call runbook](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/blob/main/runbooks/on-call.md#escalating-to-an-on-call-person).
+
+#### Engaging the GitLab Dedicated CMOC
+
+If the nature of the emergency reaches the point where we only need to provide async status updates
+to the customer, consider engaging the [GitLab Dedicated Communications Manager on Call](/handbook/support/workflows/dedicated_cmoc)
+to take over.
 
 ### Troubleshooting tips
 

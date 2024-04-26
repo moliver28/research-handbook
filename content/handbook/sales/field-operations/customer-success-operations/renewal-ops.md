@@ -48,6 +48,7 @@ Below is a breakdown of the 4-part [Renewal Operations Strategy](https://docs.go
 | ------ | ------ |
 | [John Budreski](https://gitlab.com/jbudreski ) | [Manager, Renewal Operations](/job-families/sales/renewal-operations-analyst/#manager-renewal-operations-requirements) |
 | [Heather Kacmarski](https://gitlab.com/hkacmarski) | [Renewal Operations Analyst](/job-families/sales/renewal-operations-analyst/) |
+| [Laura Simmons](https://gitlab.com/simmons-laura) | [Renewal Operations Analyst](/job-families/sales/renewal-operations-analyst/) |
 
 ## Get in Touch
 

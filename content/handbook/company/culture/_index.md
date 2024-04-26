@@ -11,7 +11,8 @@ twitter_creator: "@gitlab"
 
 Please see our [company page]({{< ref "company" >}}) for more general information about GitLab. You can see how our team has grown at the [GitLab Contribute page.](https://about.gitlab.com/events/gitlab-contribute/)
 
-{{< youtube "GKMUs7WXm-E" >}}
+<!-- blank line -->
+<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/848558836?h=2fc8efce78&autoplay=1" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 
 ## Life at GitLab
 
@@ -54,7 +55,7 @@ As our company and the industry continue to grow, you'll have the freedom to cha
 
 > At GitLab, we're figuring out a lot of things you have to do to be all-remote, and we're trying to share those lessons. That's anything from working [handbook-first]({{< ref "handbook-usage#why-handbook-first" >}}) to [communication styles]({{< ref "./all-remote/effective-communication" >}}) and being intentional about [informal communication]({{< ref "./all-remote/informal-communication" >}}).
 >
-> If you Google "*GitLab all-remote*", you'll find tons of tips. And those are based not just on what we say, but what we *do*. We have a public [handbook]({{< ref "/handbook" >}}) of over 3000 pages with all our internal processes. You can check out what we really do to make this work.
+> If you Google "*GitLab all-remote*", you'll find tons of tips. And those are based not just on what we say, but what we *do*. We have a public [handbook](/handbook) of over 3000 pages with all our internal processes. You can check out what we really do to make this work.
 >
 > I think it's going to be the future. In the future, companies who make digital products are going to be much more all-remote. And we want to [enable that trend]({{< ref "remote-vision" >}}). We think it's great for [team members]({{< ref "./all-remote/people" >}}).
 
@@ -78,7 +79,7 @@ Learn more about [all-remote work]({{< ref "all-remote" >}}) at GitLab and decid
 Culture at GitLab is composed of three things.
 
 1. [GitLab Values]({{< ref "values" >}})
-1. Camaraderie (mutual trust and friendship). This is created and maintained by [informal communication](.{{< ref "./all-remote/informal-communication" >}}/. We also build trust by [effectively collaborating]({{< ref "values#dont-let-each-other-fail" >}}) with others.
+1. Camaraderie (mutual trust and friendship). This is created and maintained by [informal communication]({{< ref "./all-remote/informal-communication" >}}). We also build trust by [effectively collaborating]({{< ref "values#dont-let-each-other-fail" >}}) with others.
 1. Work style (how we work). This is defined and articulated in our [communication guide]({{< ref "communication" >}}) and [handbook usage guide]({{< ref "handbook-usage" >}}).
 
 In other organizations, culture may be defined through the *personality of the group*. This includes people who have traits in common and people who you enjoy spending time with. Note that this is not something that should matter when [evaluating people for work]({{< ref "#culture-fit-is-a-bad-excuse" >}}), and this is not what we mean with Culture at GitLab.

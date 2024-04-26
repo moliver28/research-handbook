@@ -19,7 +19,6 @@ description: "Most of the content in the product handbook talks about _how_ we d
 ## Product Team Functions
 
 - [Product Management](/handbook/product/#product-management)
-- [Product Monetization](/handbook/product/product-monetization)
 - [Product Management Procedures](/handbook/product/product-processes/product-mgt-operations/pm-operating-procedures/)
 - [Product Management Operations](/handbook/product/product-processes/product-mgt-operations/)
 - [User Experience](/handbook/product/ux/)
@@ -81,7 +80,7 @@ To learn how the GitLab product and our Teams are organized review our Product C
 
 Learn about GitLab as a product, including what does it mean to be a single application, our subscription tiers and pricing model, and the basics of permissions in the platform.
 
-### [**Product Manager Responsibilities**](/handbook/product/product-manager-responsibilities)
+### [**Product Manager Responsibilities**](https://handbook.gitlab.com/job-families/product/product-manager)
 
 Understand the roles and responsibilities of product managers.
 
@@ -108,7 +107,7 @@ Learn about our Product Leadership Team and learn about them via their personal 
 - [**Learning and Development for Product Management**](/handbook/product/product-manager-role/learning-and-development/)
 - [**Product Budgeting Process**](/handbook/product-development-budgeting/)
 - [**Product Development Flow**](/handbook/product-development-flow/)
-- [**Product Development Timeline**](https://about.gitlab.com/handbook/engineering/workflow/#product-development-timeline)
+- [**Product Development Timeline**](/handbook/engineering/workflow/#product-development-timeline)
 - [**Analytics Instrumentation Guide**](/handbook/product/analytics-instrumentation-guide/)
 - [**Product Management CDF and competencies**](/handbook/product/product-manager-role/product-CDF-competencies/)
 - [**Product Manager Onboarding**](/handbook/product/product-manager-role/#product-manager-onboarding)

@@ -8,7 +8,7 @@ Security vulnerabilities in GitLab and its dependencies are to be addressed foll
 
 At GitLab, we have two types of security releases:
 
-1. Planned: A planned security release to publish all available vulnerability fixes to [the current, and previous two GitLab versions](https://docs.gitlab.com/ee/policy/maintenance.html). Planned security releases normally take place after the [monthly release](https://about.gitlab.com/releases/).
+1. Planned: A planned security release to publish all available vulnerability fixes to [the current, and previous two GitLab versions](https://docs.gitlab.com/ee/policy/maintenance.html). Planned security releases normally take place around the [monthly release](https://about.gitlab.com/releases/).
 1. Unplanned critical: An unplanned, immediate patch and mitigation is required.
 
 Security releases are prepared in parallel with regular GitLab.com deployments so that continuous deployment is not blocked. In this way we can apply security fixes to GitLab.com instances before the public release.
@@ -21,7 +21,7 @@ If you're a GitLab engineer looking to include a fix in a security release, plea
 
 ### Planned security release process
 
-One security release is scheduled each month, usually in the week following the monthly release. In line with our current [maintenance policy](https://docs.gitlab.com/ee/policy/maintenance.html).
+Security releases are scheduled twice a month on the second and fourth Wednesdays, around the monthly release week. These are best-effort dates and they might be subject to change.
 
 The planned security release includes all security fixes ready at the time of release preparation. Security fixes are worked on in the mirrored GitLab security repositories to avoid revealing vulnerabilities before the release.
 
@@ -43,11 +43,12 @@ Release Managers coordinate the release steps to make sure that all prepared fix
 
 ## Unplanned critical security release process
 
-Unplanned critical security releases are used to immediately patch and mitigate a high-severity issue. Following our [maintenance policy](https://docs.gitlab.com/ee/policy/maintenance.html), the vulnerability will be fixed in all supported versions following [Security Remediation SLAs].
+If planned security releases don't meet the [Security Remediation SLAs], unplanned critical security releases are used to immediately patch and
+mitigate a high-severity vulnerability. Following our [maintenance policy](https://docs.gitlab.com/ee/policy/maintenance.html), the vulnerability will be
+fixed in all supported versions following [Security Remediation SLAs].
 
-The AppSec team is responsible for assessing the vulnerability and working with development to decide on the best approach to resolve it.
-
-In some cases, this will involve a fix in the next Planned security release or a different mitigation. If an Unplanned critical security release is needed the AppSec engineer will work with Release Managers to agree on a timeline for the release.
+The AppSec team is responsible for assessing the vulnerability and working with development to decide on the best approach to resolve it. If an unplanned critical
+security release is needed the AppSec engineer will work with Release Managers to agree on a timeline for the release.
 
 ![Unplanned critical security release overview](unplanned-critical-security-release.png)
 
@@ -96,12 +97,12 @@ If a security vulnerability introduced a non-vulnerability bug, in most cases, t
 
 If a security vulnerability introduced a high severity non-vulnerability bug, engage with AppSec and release managers to coordinate next steps.
 
-For more information, see [revert a security merge request] runbook.
+For more information, see [How to Mitigate Bugs Introduced by Security Merge Request] runbook.
 
 [security release backports]: https://gitlab.com/gitlab-org/release/docs/-/blob/master/general/security/developer.md#backports
 [GitLab Security]: https://gitlab.com/gitlab-org/security/
 [Security Releases How to video]: https://www.youtube.com/watch?v=ixtUDxM3nWA
 [Security Release process as Developer]: https://gitlab.com/gitlab-org/release/docs/-/blob/master/general/security/developer.md
 [security implementation issue]: https://gitlab.com/gitlab-org/release/docs/-/blob/master/general/security/process.md#terminology
-[revert a security merge request]: https://gitlab.com/gitlab-org/release/docs/-/blob/master/general/security/runbooks/revert-security-merge-request.md
+[How to Mitigate Bugs Introduced by Security Merge Request]: https://gitlab.com/gitlab-org/release/docs/-/blob/master/general/security/bugs_introduced_by_security_merge_request.md
 [Security Remediation SLAs]: https://handbook.gitlab.com/handbook/security/threat-management/vulnerability-management/#remediation-slas

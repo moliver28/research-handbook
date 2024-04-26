@@ -16,7 +16,7 @@ Free is targeted at individual contributor developers. It is a complete DevOps s
 
 Premium is targeted at Director level buyers and is for teams. The pricing themes for Premium are Faster code reviews, Advanced CI/CD, Enterprise agile planning, Release controls and Self managed reliability. Premium helps teams iterate faster and innovate together.
 
-Ultimate is targeted at Executive level buyers and is for organizations. The pricing themes for Ultimate are Advanced security testing, Security risk mitigation, Compliance, Portfolio management, and [Value stream management](/solutions/value-stream-management/). Ultimate helps organizations deliver better software faster with enterprise ready planning, security and compliance.
+Ultimate is targeted at Executive level buyers and is for organizations. The pricing themes for Ultimate are Advanced security testing, Security risk mitigation, Compliance, Portfolio management, and [Value stream management](https://about.gitlab.com/solutions/value-stream-management/). Ultimate helps organizations deliver better software faster with enterprise ready planning, security and compliance.
 
 ## How to make pricing tier decisions
 
@@ -55,7 +55,7 @@ instance.
 - Work with GitLab.com Premium / Ultimate subscriptions. This means there has to be
 some way of toggling or using the feature at a namespace level.
 - Have documentation.
-- Be featured on [products](/stages-devops-lifecycle/) and [DevOps tools](/competition/) at launch.
+- Be featured on [products](https://about.gitlab.com/stages-devops-lifecycle/) and [DevOps tools](https://about.gitlab.com/why-gitlab/) at launch.
 
 Should product managers have any questions when making tier decisions, they should collaborate with their manager, [product leadership](/handbook/product/product-leadership/), or the CEO for clarification. The most up to date reference for pricing DRIs can be found in the [feature tier or pricing change template](https://gitlab.com/gitlab-com/Product/-/blob/main/.gitlab/issue_templates/Feature-Tier-Or-Pricing-Change.md).
 

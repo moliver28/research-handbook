@@ -24,7 +24,7 @@ The program will have four phases:
 
 ## Phase 2: Participant training
 
-- Participants will be asked to review the [Mentoring Handbook](https://about.gitlab.com/handbook/engineering/career-development/mentoring/) page prior to the start of the program
+- Participants will be asked to review the [Mentoring Handbook](/handbook/engineering/career-development/mentoring/) page prior to the start of the program
 
 ## Phase 3: Program launch
 

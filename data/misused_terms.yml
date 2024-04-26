@@ -188,7 +188,7 @@
   - "[Usage ping](https://docs.gitlab.com/ee/administration/settings/usage_statistics.html#usage-ping) is high-level data of how GitLab is being used in a license"
   - "[Snowplow](https://about.gitlab.com/handbook/business-technology/data-team/platform/snowplow/) is a dynamic site for web event analytics"
   - "[Google Analytics](/handbook/tools-and-tips/#google-analytics) is a static site for receiving data from `about.gitlab.com` and `docs.gitlab.com`"
-  - "Database events is using the database records of Gitlab.com to look at how people are using the application."
+  - "Database events is using the database records of GitLab.com to look at how people are using the application."
   - "Product Usage Data is [data collected](https://about.gitlab.com/handbook/product/analytics-instrumentation-guide/#collection-framework) on the customer's account to be used within GTM tools such as Salesforce, Marketo, or Gainsight to improve retention and expansion"
   reason: Avoid this word since it has the connotation of third-party analytics. It also is too broad so use something more specific.
   exclude_from_exports: false
@@ -480,4 +480,13 @@
   use_instead:
   - Personal Data
   reason: PII is not the term used in most privacy laws and by definition PII is more narrow that what is legislated under global privacy laws. Personal Data is described in [in the Privacy Handbook](https://about.gitlab.com/handbook/legal/privacy/#privacy-terms) and [the GitLab Data Classification Levels](https://about.gitlab.com/handbook/security/data-classification-standard.html).
+  exclude_from_exports: false
+
+- avoid:
+  - GitLab SaaS
+  - SaaS (when referring to GitLab.com or Dedicated)
+  use_instead:
+  - GitLab.com or .com
+  - GitLab Dedicated or Dedicated
+  reason: Both GitLab.com and GitLab Dedicated are delivered as SaaS applications, which as a group we refer to SaaS.
   exclude_from_exports: false

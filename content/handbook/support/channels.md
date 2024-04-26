@@ -32,7 +32,7 @@ Refer to [working with Security](/handbook/support/workflows/working_with_securi
 
 When in doubt, please involve the security team. This is really important to reduce the likelihood of a 0-day disclosure.
 
-Issues created from ZenDesk tickets must follow the [security issue triage](/handbook/security/#issue-triage) process.
+Issues created from ZenDesk tickets must follow the [security issue triage](https://about.gitlab.com/handbook/engineering/releases/security-releases/) process.
 
 Reports that are PGP-encrypted will be handled by the [Security Team](/handbook/security/#external-contact-information).
 

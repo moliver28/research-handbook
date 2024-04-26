@@ -21,7 +21,7 @@ The Production Database in the EDW is used for reporting and analysis by Data Co
 
 1. `WORKSPACE_`: This schema follows the [Ad-Hoc Data Development](/handbook/business-technology/data-team/data-development/#ad-hoc-data-development) process. This schema is where data modelers can experiment and prototype data solutions. The `WORKSPACE_` schema can also be used as a waypoint for models that need an EDM solution in the `COMMON_` schema. The `WORKSPACE_` should be selected for this and not the `SPECIFIC_` schema.
 
-1. `LEGACY_`: This schema is where data from our old modeling paradigm lives and is in the process of being deprecated by `2024-03-31`. The [Legacy Structure](/handbook/business-technology/data-team/platform/dbt-guide/#model-structure) is defined in the dbt guide.
+1. `LEGACY_`: This schema is where data from our old modeling paradigm lives and is in the process of being deprecated by `2025-01-31`. The [Legacy Structure](/handbook/business-technology/data-team/platform/dbt-guide/#model-structure) is defined in the dbt guide.
 
 ## Enterprise Dimensional Model (COMMON Schema)
 
@@ -224,7 +224,7 @@ It is critical to be intentional when organizing a self-service data environment
 - When building dimensions, we prefer to not use other dimensions to build derived dimensions. This can create spaghetti code lineages that are hard to follow and make sense of from an organizational perspective. If a dimension needs to reference another table, we prefer to use Common_Prep or Source tables. There is one edge case where we do this which is when we have a dimension with sensitive data in a restricted sensitive schema and we want to expose a sanitized version of the dimension to users for analysis. In this case, we can create a type of derived dimension where the sanitized dimension could be built off the sensitive version of the dimension. With more robust Snowflake masking policies and more robust data access controls in the BI Tool, we may be able to avoid creating dimensions in this way in the future.
 - Both facts and dimensions should be tested using [Trusted Data Framework (TDF)](/handbook/business-technology/data-team/platform/dbt-guide/#trusted-data-framework) tests.
     - For dimensions, we can test for the existence of the `MD5('-1')` (missing) dimension_id, and total row counts.
-    - For facts, we can test to ensure the number of records/rows is not expanded due to incorrect granularity joins, and can add a golden data test to pull the dimension attribute from the dimension table for the related fact record and compare to the expected value on the golden data record.
+    - For facts, we can test to ensure the number of records/rows is not expanded due to incorrect granularity joins.
 - fct_and dim_ models should be materialized as tables to improve query performance.
 - Before implementing the current dimensional modeling structure, we used a [different data modeling approach](/handbook/business-technology/data-team/platform/dbt-guide/#model-structure). This structure still exists in our Legacy schema, while some of it has been migrated to the newer methodology. Look at the [Use This Not That](https://docs.google.com/spreadsheets/d/1yr-J4ztkyl9vmJ6Euj58gczDLTIss7xIher5SV-1VDY/edit?usp=sharing) mapping to determine which new Kimball model replaces the legacy model.
 

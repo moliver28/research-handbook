@@ -25,7 +25,7 @@ There is an existing onboarding process for GitLab engineering. Digital Experien
 Make sure you still feel comfortable with day 5 of the general onboarding steps for git workflow
 #### 2. [Engineering Department specific tasks](https://gitlab.com/gitlab-com/people-group/people-operations/employment-templates/-/blob/main/.gitlab/issue_templates/onboarding_tasks/department_development.md)
 Complete the Engineering Division/For Development Department specific tasks
-#### 3.[Snowplow](https://about.gitlab.com/handbook/engineering/development/analytics/analytics-instrumentation/#snowplow-onboarding-template)
+#### 3.[Snowplow](/handbook/engineering/development/analytics/analytics-instrumentation/#snowplow-onboarding-template)
 Complete the Snowplow onboarding tasks
 #### 4. [GDK]() 
   1. You can get started with the GitLab Rails using the GDK [here](https://gitlab.com/gitlab-org/gitlab-development-kit)

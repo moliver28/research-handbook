@@ -49,7 +49,7 @@ As a Manager, Support Engineering, you will be:
 - improving the customer experience in measurable and repeatable ways.
 - participating in escalation on-call rotation (limited to regional working hours during the week and weekend).
 
-For more details, see our [Support Manager Responsibilities page](/handbook/support/managers/manager-responsibilities.html).
+For more details, see our [Support Manager Responsibilities page](/handbook/support/managers/manager-responsibilities/).
 
 #### Projects you might work on
 
@@ -280,4 +280,4 @@ Additional details about our process can be found on our [hiring page](/handbook
 
 ## Career Ladder
 
-For more details on the engineering career ladders, please review the [engineering career development](https://about.gitlab.com/handbook/engineering/career-development/#roles) handbook page.
+For more details on the engineering career ladders, please review the [engineering career development](/handbook/engineering/careers/#roles) handbook page.

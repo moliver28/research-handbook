@@ -10,7 +10,7 @@ Categorizing people based on social and other characteristics is a powerful  sur
 
 Biases help the brain create shortcuts for the decision-making process and detect threats. Our unconscious biases are based on our own experiences and they help us detect patterns and find in-groups, a basic survival mechanism below our conscious radar. If unconscious bias goes unchecked, it can lead to fixed general views of how people should act or behave, and/or negative out-spoken attitude towards a person or group.
 
-Everyone has unconscious biases, the goal is to bring them to our consciousness and navigate them. In order to provide a more inclusive and empathetic work environment.
+Everyone has unconscious biases, the goal is to bring them to our consciousness and navigate them, in order to provide a more inclusive and empathetic work environment.
 
 ## How do I recognize it?
 
@@ -53,6 +53,7 @@ Though it has some [criticisms](https://qz.com/1144504/the-world-is-relying-on-a
 1. Understand we all have biases
 1. Determine what your biases are
 1. When you see it block it
+1. Maintain your awareness
 1. Be ok with having an opinion different from the group
 1. Be wary of first impressions
 1. Do research on stereotypes
@@ -61,7 +62,7 @@ Though it has some [criticisms](https://qz.com/1144504/the-world-is-relying-on-a
 
 ## Strategies for Managing Unconscious Bias in Practice
 
-The [SPACE2 Model of Inclusion](https://cultureplusconsulting.com/2018/10/17/six-proven-strategies-for-managing-unconscious-bias/) - Six evidence based techniques for managing bias in oneself and others:
+The [SPACE2 Model of Inclusion](https://drive.google.com/file/d/1TZ_bkpjtUjzZGipjEfjgPhtMXBKjd194/view) - Six evidence based techniques for managing bias in oneself and others:
 
 - Slowing Down
 - Perspective Taking
@@ -73,6 +74,7 @@ The [SPACE2 Model of Inclusion](https://cultureplusconsulting.com/2018/10/17/six
 ## Practical ways to reduce or avoid the impact of bias
 
 - As an application reviewer or interviewer, if you find yourself biased positively or negatively, excuse yourself and ask someone else to review or interview that applicant. Being positively or negatively biased towards one candidate is unfair to all candidates.
+- Data driven decision making. Rely on pre-defined measurable data points to reduce unconscious bias influences
 
 ## Recognizing Bias Training
 

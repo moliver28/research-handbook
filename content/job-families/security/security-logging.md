@@ -121,7 +121,7 @@ The Staff Infrastructure Security Engineer is a [grade 8](/handbook/total-reward
   sec:stse(Staff Infrastructure Security Engineer)-->sec:dse(Principal Infrastructure Security Engineer);
   sec:sse(Senior Infrastructure Security Engineer)-->sec:sem(Infrastructure Security Manager);
   sec:sem(Infrastructure Security Manager)-->sec:sesm(Infrastructure Security Senior Manager);
-  sec:sesm(Infrastructure Security Senior Manager)-->sec:ds(Director of Security Engineering);
+  sec:sesm(Infrastructure Security Senior Manager)-->sec:ds(Director of Product Security);
 ```
 
 ## Hiring Process

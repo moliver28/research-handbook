@@ -15,7 +15,7 @@ of GitLab's [product hierarchy](/handbook/product/categories/#hierarchy)
 - [Product Leadership](/handbook/product/product-leadership/)
 - [Product Development Workflow](/handbook/product-development-flow/)
 - [Product Management Career Development Framework](/handbook/product/product-manager-role/product-CDF-competencies/)
-- [Engineering Workflow](https://about.gitlab.com/handbook/engineering/workflow/)
+- [Engineering Workflow](/handbook/engineering/workflow/)
 
 ## Responsibilities
 
@@ -36,7 +36,7 @@ of GitLab's [product hierarchy](/handbook/product/categories/#hierarchy)
 - Technical background or clear understanding of developer products; familiarity with Git, Continuous Integration, Containers, Kubernetes, and Project Management software a plus
 - You are living wherever you want and are excited about the [all remote](/handbook/company/culture/all-remote/) lifestyle
 - You share our [values](/handbook/values/), and work in accordance with those values
-- [Leadership at GitLab](/handbook/company/team/structure/#director-group)
+- [Leadership at GitLab](/handbook/company/structure/#director-group)
 
 ## Levels
 
@@ -56,7 +56,7 @@ The Group Manager, Product is a [grade 9](/handbook/total-rewards/compensation/c
 - Coach Product Managers through their [responsibilities](/job-families/product/product-manager/#responsibilities)
 - Ensure PMs receive regular [CDF](/handbook/product/product-manager-role/product-CDF-competencies/) feedback and, if desired, Career Coaching
 - Ensure that Product Managers participate in [Validation](/handbook/product-development-flow/#validation-track) and [Build](/handbook/product-development-flow/#build-track) track activities while following our product principles so that our Product Performance indicators are met
-- Enable product managers to make the most effective decisions when [prioritizing R&D investment](/handbook/product/product-processes/#how-we-prioritize-work) in their [product groups](/handbook/company/team/structure/#product-groups) so that our upcoming releases contain relevant enhancements for our customers, users, prospects and us.
+- Enable product managers to make the most effective decisions when [prioritizing R&D investment](/handbook/product/product-processes/#how-we-prioritize-work) in their [product groups](/handbook/company/structure/#product-groups) so that our upcoming releases contain relevant enhancements for our customers, users, prospects and us.
 - Convene a set of stable counterparts for your assigned [Product Hierarchy](/handbook/product/categories/#hierarchy) and Use Cases to ensure R&D and GTM [KPIs](/handbook/company/kpis/) are met
 - Join customer and partner visits that spawn ideas for new features
 - Ensure PMs develop an understanding of the market for their categories, including ensuring that the [DevOps tools](https://about.gitlab.com/competition/) and category directions relevant to their markets are up to date
@@ -65,7 +65,7 @@ The Group Manager, Product is a [grade 9](/handbook/total-rewards/compensation/c
 - Understand deeply and synthesize the market, competition, and upcoming solutions in the space their team is responsible for.
 - Review release post announcements to ensure they focus on user problems and [jobs-to-be-done](/handbook/product/ux/jobs-to-be-done/)
 - Own driving connections between the groups their PMs drive to ensure a single-application user experience.
-- Demonstrate leadership as [expected of Managers across GitLab](/handbook/company/team/structure/#management-group).
+- Demonstrate leadership as [expected of Managers across GitLab](/handbook/company/structure/#management-group).
 - Find opportunities where teams need to collaborate with each other and help them make those decisions that are optimal for the company even if they maybe sub-optimal in the short term for particular groups.
 
 *Please note: If the Group Manager has less than 4 direct reports or is a first-time manager, some individual contributor responsibilities may be expected to be maintained.*
@@ -82,7 +82,7 @@ The next step in the Group Manager, Product is to move to [Director of Product](
 
 ##### Verify
 
-Are responsible for managing the team of product managers covering the [Verify stage groups](/handbook/product/categories/#verify-stage). Leading the [Verify direction](https://about.gitlab.com/direction/ops/#verify) is a high impact position. Works with your team to ensure our [industry-leading CI](https://about.gitlab.com/analysts/forrester-cloudci19/) continues to be a [critical entry-point](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/ci/) to our single devops platform. Work cross functionally as an expert and invest in your team of high caliber product managers to make sure our [R&D investment in Verify](https://internal-handbook.gitlab.io/handbook/product/investment/) is as effective as possible in fulfilling our [mission to enable everyone to contribute](/handbook/company/mission/#mission).
+Are responsible for managing the team of product managers covering the [Verify stage groups](/handbook/product/categories/#verify-stage). Leading the [Verify direction](https://about.gitlab.com/direction/ops/#verify) is a high impact position. Works with your team to ensure our [industry-leading CI](https://about.gitlab.com/analysts/forrester-cloudci19/) continues to be a [critical entry-point](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/ci/) to our single DevOps platform. Work cross functionally as an expert and invest in your team of high caliber product managers to make sure our [R&D investment in Verify](https://internal-handbook.gitlab.io/handbook/product/investment/) is as effective as possible in fulfilling our [mission to enable everyone to contribute](/handbook/company/mission/#mission).
 
 ###### Verify - Runner
 
@@ -170,7 +170,7 @@ The Director, Product Management is a [grade 10](/handbook/total-rewards/compens
 - Perform [product walk-throughs](/handbook/product/product-processes/#walk-through) regularly to highlight opportunities for improved workflows that span groups, stages and section.
 - Exemplify, coach others on, and contribute to [GitLab values](/handbook/values/)
 - Drive cross-functional, high impact business workstreams outside of the direct area of ownership
-- Demonstrate leadership as [expected of Directors across GitLab](/handbook/company/team/structure/#director-group)
+- Demonstrate leadership as [expected of Directors across GitLab](/handbook/company/structure/#director-group)
 - Contribute strategic improvements to how the [Product Leadership Team](/handbook/product/product-leadership/#product-leadership-team-structure) operates and shape the priorities of the Product Management function
 
 #### Director of Product Management - Requirements

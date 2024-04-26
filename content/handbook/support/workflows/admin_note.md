@@ -50,22 +50,22 @@ There are two methods a team member can use to look up admin notes for a particu
 #### Sample Notes
 
 Disabling 2FA:
-`2023-01-16 | 2FA removed | user requested | https://gitlab.zendesk.com/agent/tickets/123`
+`2024-01-16 | 2FA removed | user requested | https://gitlab.zendesk.com/agent/tickets/123`
 
 Email Address Change/Removal:
-`2023-01-16 | Primary Email Change - No Access | User Requested | https://gitlab.zendesk.com/agent/tickets/123`
+`2024-01-16 | Primary Email Change - No Access | User Requested | https://gitlab.zendesk.com/agent/tickets/123`
 
 DMCA Request:
-`2023-01-16 | DMCA Violation | Abuse | https://gitlab.zendesk.com/agent/tickets/123`
+`2024-01-16 | DMCA Violation | Abuse | https://gitlab.zendesk.com/agent/tickets/123`
 
 Abuse Case:
-`2023-01-16 | Flagged for terms violation |  Abuse Case | https://gitlab.zendesk.com/agent/tickets/123`
+`2024-01-16 | Flagged for terms violation |  Abuse Case | https://gitlab.zendesk.com/agent/tickets/123`
 
 User Blocked:
-`2023-01-16 | User blocked by infra | https://gitlab.com/gitlab-com/support/internal-requests/issues/441`
+`2024-01-16 | User blocked by infra | https://gitlab.com/gitlab-com/support/internal-requests/issues/441`
 
 Name Squatting Rename:
-`2023-01-16 | Name Squatting Request | https://gitlab.zendesk.com/agent/tickets/123`
+`2024-01-16 | Name Squatting Request | https://gitlab.zendesk.com/agent/tickets/123`
 
 Compute minutes reset:
-`2023-01-16 | Compute minutes reset | Bug | https://gitlab.zendesk.com/agent/tickets/123`
+`2024-01-16 | Compute minutes reset | Bug | https://gitlab.zendesk.com/agent/tickets/123`

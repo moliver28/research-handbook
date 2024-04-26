@@ -22,22 +22,23 @@ Want to make this into a template to share with others in your organization? [Cr
 
 ## Day 1
 
-- Watch the [Intro to GitLab](https://www.youtube.com/watch?v=8_NLheTVr2g&list=PL05JrBw4t0Kpczt4pRtyF147Uvn2bGGvq&index=11) webinar - 1 hour.
-- Complete the [GitLab 101 Certification](https://gitlab.edcast.com/pathways/copy-of-gitlab-certification-welcome) - 2-3 hours. This course can be completed lesson by lesson.
+- Watch the [Intro to GitLab](https://www.youtube.com/watch?v=E1tKfOPKMA8) webinar - 1 hour.
+- Complete the [GitLab with Git Essentials Certification](https://university.gitlab.com/courses/gitlab-with-git-essentials-s2). This course can be completed lesson by lesson.
 
 ## Day 2
 
-- Complete the [GitLab 201 Certification](https://gitlab.edcast.com/pathways/ECL-44010cf6-7a9c-4b9b-b684-fa08508a3252) - 1-2 hours. This course can be complete lesson by lesson.
+- Check out [Getting Started with GitLab](https://university.gitlab.com/pages/getting-started) where you'll find a variety of comprehensive learning paths.
 
 ## Day 3
 
-- Watch the [Intro GitLab CI/CD](https://www.youtube.com/watch?v=CRhzbw2TnaM&list=PL05JrBw4t0Kpczt4pRtyF147Uvn2bGGvq&index=10) webinar - 1 hour.
+- Watch the [Intro GitLab CI/CD](https://www.youtube.com/watch?v=bE2YXhAVBeE) webinar - 1 hour.
 - Read about [CI/CD concepts](https://docs.gitlab.com/ee/ci/introduction/index.html#continuous-integration).
 - Browse through some [GitLab CI/CD Examples](https://docs.gitlab.com/ee/ci/examples/). We recommend bookmarking this page so you can refer back to it, as there is a lot of information available.
+- Review [CI/CD resources](https://university.gitlab.com/pages/ci-cd-content) - including the GitLab CI Fundamentals learning path.
 
 ## Day 4
 
-- Watch the [Advanced CI/CD](https://www.youtube.com/watch?v=4gWaG3Nkl4s&list=PL05JrBw4t0Kpczt4pRtyF147Uvn2bGGvq&index=9) webinar - 1 hour.
+- Watch the [Advanced CI/CD](https://www.youtube.com/watch?v=9VTGW1pCTC8) webinar - 1 hour.
 - Work through the [CI/CD Quick Start](https://docs.gitlab.com/ee/ci/quick_start/).
 - Bookmark the [CI/CD Keywords documentation](https://docs.gitlab.com/ee/ci/yaml/) for a list of all the configuration options for your `.gitlab-ci.yml` file.
 
@@ -51,21 +52,18 @@ Want to make this into a template to share with others in your organization? [Cr
 
 Once you're done with the steps above, take a look at:
 
-- [GitLab Learn](https://about.gitlab.com/learn/) and explore other trainings and resources.
+- [GitLab University](https://university.gitlab.com/) and explore other trainings and resources.
 - [Learn GitLab with tutorials](https://docs.gitlab.com/ee/tutorials/) for a variety of video and tutorials on a range of topics.
 
 ## Stay up to date with new features
 
-GitLab releases a new version [every month](https://about.gitlab.com/handbook/engineering/releases/). Stay up to date on new features and capabilities by reading the [release posts](https://about.gitlab.com/releases/categories/releases/) on our blog.
+GitLab releases a new version [every month](/handbook/engineering/releases/). Stay up to date on new features and capabilities by reading the [release posts](https://about.gitlab.com/releases/categories/releases/) on our blog.
 
 ## Want to learn more?
 
-Consider the following GitLab certificate courses:
+Consider the following [GitLab certificate courses](https://university.gitlab.com/pages/certifications):
 
-- [GitLab Certified Associate](https://about.gitlab.com/services/education/gitlab-certified-associate/) (Required for the DevOps Professional Certification)
-- [GitLab Certified InnerSourcing Specialist](https://about.gitlab.com/services/education/gitlab-innersourcing-specialist/)
-- [GitLab Certified CI/CD Specialist](https://about.gitlab.com/services/education/gitlab-cicd-associate/) (Required for the DevOps Professional Certification)
-- [GitLab Certified Project Management Specialist](https://about.gitlab.com/services/education/gitlab-project-management-associate/) (Required for the DevOps Professional Certification)
-- [GitLab Certified Security Specialist](https://about.gitlab.com/services/education/gitlab-security-specialist/) (Required for the DevOps Professional Certification)
-- [GitLab Certified DevOps Professional](https://about.gitlab.com/services/education/gitlab-certified-devops-pro/)
-
+- [GitLab Certified Git Associate](https://university.gitlab.com/courses/gitlab-with-git-essentials-certification-exam)
+- [GitLab Certified Project Management Associate](https://university.gitlab.com/courses/gitlab-project-management-certification-exam)
+- [GitLab Certified CI/CD Associate](https://university.gitlab.com/courses/gitlab-ci-cd-certification-exam)
+- [GitLab Certified Security Specialist](https://university.gitlab.com/courses/gitlab-security-essentials-certification-exam)

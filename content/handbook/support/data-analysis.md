@@ -35,7 +35,7 @@ content on this page.
 
 ### How is this related to the Engineering Analytics Team?
 
-The [Engineering Analytics Team](https://about.gitlab.com/handbook/engineering/quality/engineering-analytics/)
+The [Engineering Analytics Team](/handbook/engineering/quality/engineering-analytics/)
 formally works on data analysis for the Engineering Division, including Customer
 Support.
 
@@ -54,7 +54,7 @@ engineer availability and workload.
 - DRI: Wei-Meng Lee ([@weimeng](https://gitlab.com/weimeng))
 
 The support time segments are based on each region's business hours as defined
-in [Preferred Region for Support](/support/#effect-on-support-hours-if-a-preferred-region-for-support-is-chosen)
+in [Preferred Region for Support](https://about.gitlab.com/support/#effect-on-support-hours-if-a-preferred-region-for-support-is-chosen)
 and were chosen to maximise overlap between region's segments, and to align with
 periods of high customer messages received per hour.
 

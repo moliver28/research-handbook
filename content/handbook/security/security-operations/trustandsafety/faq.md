@@ -13,7 +13,7 @@ Below is a list of Frequently Asked Questions.
 {{% details summary="What do I do if my account has been blocked?" %}}
 1. ![Account_blocked](../images/Account_blocked.png)
 1. You can open an Account Reinstatement request with [GitLab Support](https://support.gitlab.com/hc/en-us/requests/new)
-   - Select `Gitlab.com (SaaS) user accounts and login issues` and complete the form.
+   - Select `GitLab.com (SaaS) user accounts and login issues` and complete the form.
 1. Wait for feedback from the support team.
 {{% /details %}}
 

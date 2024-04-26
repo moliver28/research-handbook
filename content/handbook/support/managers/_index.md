@@ -91,7 +91,7 @@ If the metrics are at or below the following floors for 2 sustained weeks, manag
 1. Combined SSAT (L&R, GitLab SM and GitLab SaaS) at or below 93%
 1. Combined NRT (L&R, GitLab SM and GitLab Saas) at or below 83%
 
-This action is unique to Support and is somewhere in-between a [Rapid Action issue](https://about.gitlab.com/handbook/engineering/development/#rapid-action-issue) and a [Working Group](/handbook/company/team/structure/working-groups/).
+This action is unique to Support and is somewhere in-between a [Rapid Action issue](/handbook/engineering/development/#rapid-action-issue) and a [Working Group](/handbook/company/working-groups/).
 
 The purpose of the group will be unique to each situation that triggers it, but generally the members will:
 
@@ -114,7 +114,7 @@ All Support Engineering Managers have at least 1 [OKR](/handbook/company/okrs/#w
 
 1. [KPIs](/handbook/support/performance-indicators/)
 1. Team Growth (Hiring and Development)
-1. [OKRs](https://about.gitlab.com/handbook/engineering/#engineering-okr-process)
+1. [OKRs](/handbook/engineering/#engineering-okr-process)
 
 Having a project that is time bound to a quarter is completely acceptable as an OKR, and adjusting an OKR during the quarter (especially in light of other priorities) is also acceptable.
 
@@ -122,4 +122,4 @@ New managers will establish their own OKR after they have been in their role for
 
 ## Support Engineering Manager READMEs
 
-Support Engineering Manager READMEs are found in [Engineering Manager READMEs](https://about.gitlab.com/handbook/engineering/readmes/).
+Support Engineering Manager READMEs are found in [Engineering Manager READMEs](/handbook/engineering/readmes/).

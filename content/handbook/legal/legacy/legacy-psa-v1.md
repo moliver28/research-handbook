@@ -1,6 +1,5 @@
 ---
 title: "Legacy v1: GitLab Professional Services Agreement"
-description: "Learn more about GitLab Professional Services Agreement."
 ---
 
 ## GitLab Professional Services Agreement

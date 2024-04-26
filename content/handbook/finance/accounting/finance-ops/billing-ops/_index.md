@@ -10,7 +10,7 @@ Welcome to the Billing Ops Handbook
 
 The Billing Operations Team is part of the Revenue Operations organization. Our Billing Team is responsible for the billing functions of our global account portfolio.
 
-**The Gitlab Billing Team comprises three regional teams:**
+**The GitLab Billing Team comprises three regional teams:**
 
 - Americas - West Region
 - Americas - East Region
@@ -38,7 +38,7 @@ Please see the internal [Wiki](https://gitlab.com/gitlab-com/Finance-Division/fi
 - [How to create an opportunity/build a quote?](/handbook/sales/field-operations/sales-operations/deal-desk/)
 - [Order requirements](/handbook/sales/field-operations/order-processing/)
 - [Contacting the Legal team](/handbook/sales/field-operations/order-processing/#process-for-agreement-terms-negotiations-when-applicable-and-contacting-legal)
-- [Questions about licenses and plans]({{< ref "/handbook/support/internal-support#common-internal-requests---sales-team--customer-success-managers--accounts-receivable" >}})
+- [Questions about licenses and plans](/handbook/support/internal-support#common-internal-requests---sales-team--customer-success-managers--accounts-receivable)
 - [Zuora Billing Tech Stack Guide]({{< ref "zuora-billing" >}})
 
 ## Communicating with Billing
@@ -122,7 +122,7 @@ See also: [Zendesk](/handbook/marketing/developer-relations/workflows-tools/zend
 1. Click "Manage Purchases"
 1. Click "Download License"
 
-> If you still can’t access your license, please create a support issue [here]({{< ref "/handbook/support/internal-support#regarding-licensing-and-subscriptions" >}}).
+> If you still can’t access your license, please create a support issue [here](/handbook/support/internal-support#regarding-licensing-and-subscriptions).
 
 </details>
 
@@ -241,7 +241,7 @@ Where does GitLab currently charge tax on sales?
 
 Internal Resource: [VAT & Sales Tax Information & Resources](https://gitlab.com/gitlab-com/Finance-Division/finance/-/wikis/VAT%20&%20Sales%20Tax%20Information%20&%20Resources)
 
-See also: [The GitLab Tax Team]({{< ref "/handbook/tax" >}})
+See also: [The GitLab Tax Team](/handbook/tax)
 
 </details>
 

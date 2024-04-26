@@ -72,7 +72,7 @@ description: "Core curriculum for GitLab's Sales & Customer Success onboarding"
    - Please share your thoughts on the question below. This is a classroom discussion board, let's crowdsource some knowledge! Why is it important to understand different buyer personas as a salesperson?
 - **Customer Success Stories & Proof Points (Material - Handbook - 10 Minutes)**
    - References are an age old tenet of sales pros! Your prospective clients will definitely be impressed by the positive business outcomes of our customers. Check out our [customer case studies](https://about.gitlab.com/customers/) and [proof points](/handbook/sales/command-of-the-message/proof-points/) on GitLab value.
-- **Marketing Materials Repository (Material - Gitlab.com - 10 Minutes)**
+- **Marketing Materials Repository (Material - GitLab.com - 10 Minutes)**
    - Check out the GitLab [marketing materials repository](https://docs.google.com/spreadsheets/d/1NK_0Lr0gA0kstkzHwtWx8m4n-UwOWWpK3Dbn4SjLu8I/edit?usp=sharing) to see all of our best and most relevant sales collateral. Please be careful to only view or download these files, and feel free to send copies to your clients to help them understand GitLab value. If you would like to share one of these assests on social media please be careful to only use the gated links to content.
 
 </details>
@@ -132,7 +132,7 @@ description: "Core curriculum for GitLab's Sales & Customer Success onboarding"
 - **Solutions Architects (Material - Handbook - 15 minutes)**
    - GitLab's Solutions Architects (SAs) are trusted advisors to GitLab prospects and customers during the presales motion, demonstrating how the GitLab application and GitLab Professional Services address common and unique business requirements.
    - Read the [Solutions Architect Role Description](/job-families/sales/solutions-architect/)
-   - Read about the [Proof of Value Deliverable](/handbook/customer-success/solutions-architects/tools-and-resources/pov)
+   - Read about the [Proof of Value Deliverable](/handbook/solutions-architects/tools-and-resources/pov)
 - **Customer Success Managers (Material, - Handbook - 15 minutes)**
    - GitLab's Customer Success Managers serve as trusted advisors to GitLab's customers. This section outlines to CSM role and their key deliverables: Health Checks, Sucess Plans, and Executive Business Reviews.
    - Read the [CSM Handbook](/handbook/customer-success/csm/#what-is-a-customer-success-manager-csm)
@@ -222,6 +222,8 @@ Please take a moment to answer the questions in this short [quiz.](https://docs.
    - Check out the [slide deck](https://drive.google.com/open?id=1UCRF6PC6al8XxT8E_4rDKkQjkW6WGPA6gybWeuRIg7A&authuser=0) on creating a great profile that will look good to your prospects and clients!
 - **Salesforce - Booking Orders (Material - Handbook - 10 Minutes)**
    - [Learn how to create](/handbook/sales/field-operations/order-processing/) Accounts, Contacts, Opportunities, and [Quotes](/handbook/sales/field-operations/sales-operations/deal-desk/#zuora-quote-configuration-guide---standard-quotes) in Salesforce.
+- **Lead Scoring - Filtering Prospects in Salesforce (FOR SALES ONLY - Material - Level Up Video Course - 20 minutes)**
+   - [Lead Scoring - How Does It Work?](https://university.gitlab.com/access/saml/login/internal-team-members?returnTo=https://university.gitlab.com/learn/course/lead-scoring-training) Learn the fundamentals of lead scoring and how to use lead score classifications
 - **Reference Edge (Material - Video - 10 Minutes)**
    - Reference Edge Software will help reps to easily see what available references are the best fit for their current opportunity. Check out the [video](/handbook/sales/training/#functional-and-technical-skills--processes), and [Powerpoint](https://docs.google.com/presentation/d/18odHX0PTzifRJaeAr-yxa9jdg1_nw4RYDiBqAkYFAyM/edit?usp=sharing) on this new tool.
 

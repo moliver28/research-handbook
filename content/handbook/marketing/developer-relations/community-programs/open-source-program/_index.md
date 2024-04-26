@@ -8,25 +8,25 @@ GitLab's open source program is part of the [Developer Relations team](/handbook
 
 * [**GitLab for Open Source Program**](/handbook/marketing/developer-relations/community-programs/open-source-program/#gitlab-for-open-source-program), through which qualifying open source projects receive benefits like features of GitLab Ultimate with 50,000 compute minutes for free.
 * [**GitLab Open Source Partners**](/handbook/marketing/developer-relations/community-programs/open-source-program/#gitlab-open-source-partners), a partnership program designed for large or prominent open source projects and organizations.
-* [**Consortium Memberships**](/handbook/marketing/developer-relations/community-programs/opensource-program/#consortium-memberships-and-sponsorships), which allow us to extend GitLab's leadership in key open source initiatives, enhance GitLab's brand, and/or improve engineering alignment
+* [**Consortium Memberships**](/handbook/marketing/developer-relations/community-programs/open-source-program/#consortium-memberships-and-sponsorships), which allow us to extend GitLab's leadership in key open source initiatives, enhance GitLab's brand, and/or improve engineering alignment
 
 ## How to reach us
 
-* DRI: [@bbehr](https://gitlab.com/bbehr)
+* DRI: [Alex Karsten](https://gitlab.com/akarsten1)
 * Slack channel: `#community-programs`
 * Email: `opensource@gitlab.com`
 
 ## What we're working on
 
-We manage program support requests in a dedicated internal project with its own [issue queue](https://gitlab.com/gitlab-com/marketing/developer-relations/open-source-program/open-source-program-support/-/issues) and [tracking board](https://gitlab.com/gitlab-com/marketing/developer-relations/open-source-program/open-source-program-support/-/boards/5749258).
+We manage **program support requests** in a dedicated internal project with its own [issue queue](https://gitlab.com/gitlab-com/marketing/developer-relations/open-source-program/open-source-program-support/-/issues) and [tracking board](https://gitlab.com/gitlab-com/marketing/developer-relations/open-source-program/open-source-program-support/-/boards/5749258).
 
-We manage editorial work with open source partners in the [partner editorial queue](https://gitlab.com/gitlab-com/marketing/developer-relations/open-source-program/gitlab-open-source-partners/publications-and-presentations/-/boards/5105228).
+We manage **program editorial work** with in the [open source partner  editorial queue](https://gitlab.com/gitlab-com/marketing/developer-relations/open-source-program/gitlab-open-source-partners/publications-and-presentations/-/boards/5105228).
 We track this work as part of the Developer Relations [team roadmap](https://go.gitlab.com/community-relations-team-roadmap).
 See the [Developer Relations project management page](/handbook/marketing/developer-relations/project-management/) for more detail.
 
 ## GitLab for Open Source Program
 
-By empowering open source projects with our most advanced features, the [GitLab for Open Source Program](/solutions/open-source/) supports GitLab's mission to make the world a place where anyone can contribute.
+By empowering open source projects with our most advanced features, the [GitLab for Open Source Program](https://about.gitlab.com/solutions/open-source/) supports GitLab's mission to make the world a place where anyone can contribute.
 We help make GitLab the best place for open source projects to grow and thrive.
 
 Send questions about the GitLab for Open Source Program to `opensource@gitlab.com`.
@@ -51,9 +51,21 @@ To qualify for the program, every project in an applicant's namespace must carry
 
 We make the following exceptions to our eligibility criteria:
 
-* **Private Project Exceptions:** In some cases, we allow program members to host a small number of private projects if those projects contain sensitive data. Members should send an email to `opensource@gitlab.com` in order to discuss this exemption. Program members must obtain written permission from the GitLab Open Source Program team in order to use their licenses outside of program requirements.
-* **Federal Exception Policy:** Unfortunately, we are not able to accept all open source projects that are affiliated with the US Federal government. Projects that are affiliated must work with a Sales representative to see if they qualify.
-* **Strategic Qualification Exceptions:** We may make strategic exceptions to our program requirements. A GitLab Sales team member must make this request on behalf of an open source project. To request an execption, [create an issue in the GitLab for Open Source Program project](https://gitlab.com/gitlab-com/marketing/community-relations/open-source-program/gitlab-for-open-source/-/issues/new?issuable_template=program-qualification-exception-request) using the `program-qualification-exception-request` template. Account Executives and their managers must approve the exception request. Customer Success Managers (CSMs) associated with the account should also be notified of the exception request.
+**Federal Exception Policy**
+Unfortunately, we are not able to accept all open source projects that are affiliated with the US Federal government.
+Projects that are affiliated must work with a Sales representative to see if they qualify.
+
+**Private Project Exceptions**
+In some cases, we allow program members to host a small number of private projects if those projects contain sensitive data.
+Members should send an email to `opensource@gitlab.com` in order to discuss this exemption.
+Program members must obtain written permission from the GitLab Open Source Program team in order to use their licenses outside of program requirements.
+
+**Strategic Qualification Exceptions**
+We may make strategic exceptions to our program requirements.
+A GitLab Sales team member must make this request on behalf of an open source project.
+To request an execption, [create an issue in the GitLab for Open Source Program project](https://gitlab.com/gitlab-com/marketing/developer-relations/open-source-program/gitlab-for-open-source/-/issues/new?issuable_template=program-qualification-exception-request) using the `program-qualification-exception-request` template.
+Account Executives and their managers must approve the exception request.
+Customer Success Managers (CSMs) associated with the account should also be notified of the exception request.
 
 #### What are the terms of the GitLab for Open Source Program?
 
@@ -63,7 +75,7 @@ Upon acceptance to the GitLab for Open Source Program, all program members are s
 
 Applicants should submit the form on the [GitLab for Open Source Program page](https://about.gitlab.com/solutions/open-source/join/).
 
-As part of the application process, applicants must provide screenshots to confirm their eligibility.
+As part of the application process, applicants must provide screenshots of their GitLab projects to confirm eligibility.
 They should submit screenshots of:
 
 * The project's license overview
@@ -74,11 +86,14 @@ For more specific instructions on obtaining and submitting required screenshots,
 
 #### How are GitLab for Open Source Program applications processed?
 
-Gitlab uses SheerID, a trusted partner, to verify that applicants meet the GitLab for Open Source Program requirements.
+The GitLab for Open Source team processes applications according to the [Community Programs application workflow](/handbook/marketing/developer-relations/community-programs/community-programs-workflows/#automated-applications-workflow-overview).
+For additional information on program-specific workflows, see the [Open Source Program Workflows](/handbook/marketing/developer-relations/community-programs/community-programs-workflows/oss-program-workflows/) page.
+
+GitLab uses SheerID, a trusted partner, to verify that applicants meet the GitLab for Open Source Program requirements.
 In most cases, applicants receive a decision on their application within three to five business days of submission.
 During periods of high submission volume, processing an application requires up to ten business days.
+Note that applications will not be processed during U.S. holidays; responses may be delayed during those periods.
 When verified, applicants receive a verification email containing specific instructions for activating their subscriptions.
-The GitLab for Open Source team processes applications according to the [Community Programs application workflow](/handbook/marketing/developer-relations/community-programs/community-programs-workflows/#automated-applications-workflow-overview).
 
 Some users may need to input a VAT number when completing their program applications.
 GitLab for Open Source Program members can simply input `N/A` into the VAT field during registration.
@@ -92,7 +107,6 @@ If they don't renew, [their accounts will be downgraded](https://about.gitlab.co
 Subscriptions granted under the GitLab for Open Source Program **do not auto-renew**.
 
 We recommend that applicants begin the renewal process at least one month in advance of their renewal dates to ensure sufficient processing time.
-Note that applications will not be processed during U.S. holidays; responses may be delayed during those periods.
 
 #### How does someone renew their membership in the GitLab for Open Soure Program?
 
@@ -125,7 +139,7 @@ When seeking to edit the GitLab for Open Source application page, find the appro
 #### Managing the program support queue
 
 Members of the [Community Programs team](/handbook/marketing/developer-relations/community-programs/) use GitLab Service Desk to manage program members' support requests.
-Because these requests often contain sensitive data and personally identifying information, we file them as issues in [a private project](https://gitlab.com/gitlab-com/marketing/developer-relations/open-source-program/open-source-program-support). 
+Because these requests often contain sensitive data and personally identifying information, we file them as issues in [a private project](https://gitlab.com/gitlab-com/marketing/developer-relations/open-source-program/open-source-program-support).
 
 * When a new request arrives, Service Desk will label the issue as `OS Program Support::Intake`.
 * When the ticket is under active review and remediation with a team member, that team member should assign it to themselves and add the `OS Program Support::Open` label.
@@ -139,7 +153,7 @@ View the current status of all open program support issues on [a private project
 The [GitLab Open Source Partners](https://about.gitlab.com/solutions/open-source/partners/) program exists to build relationships with prominent open source projects using GitLab as a critical component of their infrastructure.
 By building these relationships, GitLab hopes to strengthen the open source ecosystem.
 
-Open source partners receive [specific benefits](/handbook/marketing/developer-relations/community-programs/opensource-program/#what-are-the-benefits-of-being-a-member-of-the-gitlab-open-source-partners-program) by joining the program.
+Open source partners receive specific benefits by joining the program.
 GitLab benefits from these partnerships when open source partners provide valuable feedback and data on their use of GitLab, even contribute to GitLab's open core.
 All parties jointly benefit when they're able to collaborate on community outreach, co-marketing, joint announcements, and special initiatives.
 
@@ -166,11 +180,12 @@ Members of the GitLab Open Source Partners program agree to:
 
 #### Who qualifies for the GitLab Open Source Partners program?
 
-While most partners are also members of the GitLab for Open Source Program, not all are (as some partners are commercial open source entities and therefore ineligible for the program). Most partners use GitLab Ultimate (either SaaS or self-managed); however, some prefer using the fully open source [Community Edition](https://about.gitlab.com/install/ce-or-ee/) because of their strong commitment to using only open source tools.
+While most partners are also members of the GitLab for Open Source Program, not all are (as some partners are commercial open source entities and therefore ineligible for the program).
+Most partners use GitLab Ultimate (either SaaS or self-managed); however, some prefer using the fully open source [Community Edition](https://about.gitlab.com/install/ce-or-ee/) because of their strong commitment to using only open source tools.
 
-Membership in GitLab Open Source Partners program is largely by invitation. Members of the open source program team extend invitations to longtime members of the GitLab for Open Source Program, projects using GitLab in interesting and innovative ways from which others can learn, or projects with large communities and brand recognition already using GitLab for everyday operations.
-
-Additionally, GitLab team members can nominate open source projects or organizations to become partners. To do so, they can simply open an issue in the [Open Source Partners Program project](https://gitlab.com/gitlab-com/marketing/developer-relations/open-source-program/gitlab-open-source-partners) and use the `open-source-partner-nomination` issue template.
+Membership in GitLab Open Source Partners program is largely by invitation.
+GitLab team members can nominate projects as partners by opening an issue in the `Open Source Partners Program` [project](https://gitlab.com/gitlab-com/marketing/developer-relations/open-source-program/open-source-partners-program) and applying the [appropriate issue template](https://gitlab.com/gitlab-com/marketing/developer-relations/open-source-program/open-source-partners-program/-/blob/master/.gitlab/issue_templates/open-source-partner-nomination.md)
+Members of the open source program team extend invitations to longtime members of the GitLab for Open Source Program, projects using GitLab in interesting and innovative ways from which others can learn, or projects with large communities and brand recognition already using GitLab for everyday operations.
 
 The GitLab Open Source Partners Program project contains sensitive data and personally identifying information about program members.
 It is therefore [accessible only to GitLab team members](/handbook/legal/safe-framework/#safe).
@@ -186,12 +201,12 @@ Work on the GitLab Open Source Partners program occurs in two primary locations:
 
 #### Welcoming new partners
 
-We maintain [email templates](https://gitlab.com/gitlab-com/marketing/community-relations/open-source-program/open-source-partners-program/-/tree/master/templates) to help us interact with prospective and current partners.
-When an organization has joined the GitLab Open Source Partners program, we send a comprehensive [program guide](https://gitlab.com/gitlab-com/marketing/community-relations/open-source-program/gitlab-open-source-partners/community-resources/-/blob/main/program-guide/gitlab-open-source-partners-program-guide.pdf) and complete a [partner onboarding issue](https://gitlab.com/gitlab-com/marketing/community-relations/open-source-program/open-source-partners-program/-/blob/master/.gitlab/issue_templates/open-source-partner-onboarding.md).
+We maintain [email templates](https://gitlab.com/gitlab-com/marketing/developer-relations/open-source-program/open-source-partners-program/-/tree/master/templates) to help us interact with prospective and current partners.
+When an organization has joined the GitLab Open Source Partners program, we send a comprehensive [program guide](https://gitlab.com/gitlab-com/marketing/developer-relations/open-source-program/gitlab-open-source-partners/community-resources/-/blob/main/program-guide/gitlab-open-source-partners-program-guide.pdf) and complete a [partner onboarding issue](https://gitlab.com/gitlab-com/marketing/developer-relations/open-source-program/open-source-partners-program/-/blob/master/.gitlab/issue_templates/open-source-partner-onboarding.md).
 
 ### Collecting and managing partner contact details
 
-We maintain a confidential, non-public [register of our partners' contact details](https://gitlab.com/gitlab-com/marketing/community-relations/open-source-program/open-source-partners-program/-/tree/master/current-partners) so we can remain connected to them.
+We maintain a confidential, non-public [register of our partners' contact details](https://gitlab.com/gitlab-com/marketing/developer-relations/open-source-program/open-source-partners-program/-/tree/master/current-partners) so we can remain connected to them.
 
 When partners join the program, we instruct them to submit key community contact information to the private partner service desk at `ospartners@gitlab.com`.
 The Open Source Program Manager responds to these requests and updates internal documentation.
@@ -217,9 +232,9 @@ Partners should use this template to format their requests:
 ```
 Subject: Open Source Partner (Application/Renewal)
 Subscription Term: 36
-Number of seats you are requesting: 
-The license type to be issued (Self-Managed or SaaS): 
-List any change of ownership to the account: 
+Number of seats you are requesting:
+The license type to be issued (Self-Managed or SaaS):
+List any change of ownership to the account:
 (If account ownership details change, please send the new account holder's name, email address, and contact's mailing address)
 ```
 
@@ -231,16 +246,16 @@ After that:
 
 #### Tracking partner issues
 
-Gitlab's open source partners requesting support track most of their issues publicly.
-They do this via issue trackers located in the [GitLab Open Source Partners](https://gitlab.com/gitlab-com/marketing/community-relations/open-source-program/gitlab-open-source-partners) group—most commonly the [Community Support](https://gitlab.com/gitlab-com/marketing/community-relations/open-source-program/gitlab-open-source-partners/community-support/-/issues) project.
+GitLab's open source partners requesting support track most of their issues publicly.
+They do this via issue trackers located in the [GitLab Open Source Partners](https://gitlab.com/gitlab-com/marketing/developer-relations/open-source-program/gitlab-open-source-partners) group—most commonly the [Community Support](https://gitlab.com/gitlab-com/marketing/developer-relations/open-source-program/gitlab-open-source-partners/community-support/-/issues) project.
 Here, fellow open source partners partners and GitLab team members can collaborate on supporting GitLab's open source partners.
 
-Partners may wish to open issues related to their work migrating infrastructure from legacy infrastructure to GitLab (for instance, note examples from [KDE](https://gitlab.com/gitlab-com/marketing/community-relations/open-source-program/gitlab-open-source-partners/community-support/-/issues/7), [Drupal](https://gitlab.com/gitlab-com/marketing/community-relations/open-source-program/gitlab-open-source-partners/community-support/-/issues/4), and [Freedesktop.org](https://gitlab.com/gitlab-com/marketing/community-relations/open-source-program/gitlab-open-source-partners/community-support/-/issues/9)).
+Partners may wish to open issues related to their work migrating infrastructure from legacy infrastructure to GitLab (for instance, note examples from [KDE](https://gitlab.com/gitlab-com/marketing/developer-relations/open-source-program/gitlab-open-source-partners/community-support/-/issues/7), [Drupal](https://gitlab.com/gitlab-com/marketing/developer-relations/open-source-program/gitlab-open-source-partners/community-support/-/issues/4), and [Freedesktop.org](https://gitlab.com/gitlab-com/marketing/developer-relations/open-source-program/gitlab-open-source-partners/community-support/-/issues/9)).
 To create migration-focused issues, partners can use the `open-source-partner-migration` issue template.
 
 Occasionally, partners must open support issues that contain sensitive details about their projects.
 To do this, they email the partner service desk at `osspartners@gitlab.com`.
-We then track these issues on the (private) [GitLab Open Source Partners Support board](https://gitlab.com/gitlab-com/marketing/community-relations/open-source-program/open-source-partners-program/-/boards/2150795).
+We then track these issues on the (private) [GitLab Open Source Partners Support board](https://gitlab.com/gitlab-com/marketing/developer-relations/open-source-program/open-source-partners-program/-/boards/2150795).
 
 #### Sharing partner stories
 
@@ -251,7 +266,7 @@ We do this in many ways, including:
 
 * posts on the GitLab blog
 * case studies for GitLab.com
-* webcasts and webniars for GitLab's video channels
+* webcasts and webinars for GitLab's video channels
 * event showcases and presentations
 
 We tag partner-related stories with the `open-source` tag on [the GitLab Blog](https://about.gitlab.com/blog/categories/open-source/).
@@ -260,17 +275,17 @@ We often connect with partners when we feel we can help them share stories relat
 
 * Their plans to migrate infrastructure to GitLab
 * Their success at migrating infrastructure to GitLab
-* Their innovative use of GitLab to build something notatble or solve a tehnical/social challenge for their project and community
+* Their innovative use of GitLab to build something notable or solve a technical/social challenge for their project and community
 * Their resolution of critical technical challenges that align with themes central to other GitLab marketing campaigns (e.g., CI/CD, security, or project management)
 
 We track the status of this work with the [GitLab Open Source Partners Editorial Queue](https://gitlab.com/gitlab-com/marketing/developer-relations/open-source-program/gitlab-open-source-partners/publications-and-presentations/-/boards/5105228).
 
 #### Adding a new logo to the Open Source Partners program page
 
-Members of the GitLab Open Source Partners program are listed on the [partner program landing page](/solutions/open-source/partners). Follow these instructions to add a new logo to the roster.
+Members of the GitLab Open Source Partners program are listed on the [partner program landing page](https://about.gitlab.com/solutions/open-source/partners/). Follow these instructions to add a new logo to the roster.
 
 1. Retrieve the partner logo in the highest resolution available.
-1. Resize the logo so it conforms to something roughly the size of a 72 px cube, then save it in `PNG` format. Use a file naming convention that looks like `partner-logo.file-name.png`.
+1. Resize the logo so it conforms to something roughly the size of a 72px cube, then save it in `PNG` format. Use a file naming convention that looks like `partner-logo.file-name.png`.
 1. Load the `partners.yml` [file](https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/-/blob/main/content/solutions/open-source/partners.yml) and open it in an editor.
 1. Add the logo URL, image alt text, and partner landing page in accordance with the yaml convention in the file.
 1. Locate the `/static/nuxt-images/open-source` folder in the GitLab codebase.
@@ -295,11 +310,11 @@ Participating in consortia enhances GitLab's brand—and helps align GitLab's en
 
 #### How does GitLab participate in consortium activities?
 
-While select consortium memberships fall within the purview (and budget) of GitLab's open source program, the [Developer Evangelism team](/handbook/marketing/developer-relations/developer-evangelism/) focuses on consortium marketing, working to integrate GitLab's overall community message and technical perspective into the most appropriate and effective industry conversations.
+While select consortium memberships fall within the purview (and budget) of GitLab's open source program, the [Developer Advocacy team](/handbook/marketing/developer-relations/developer-advocacy/) focuses on consortium marketing, working to integrate GitLab's overall community message and technical perspective into the most appropriate and effective industry conversations.
 
 #### How can I recommend GitLab get involved in a consortium?
 
-You can open an issue in the [Consortium Memberships project](https://gitlab.com/gitlab-com/marketing/community-relations/opensource-program/consortium-memberships). When you do, please use the `membership-evaluation` template to structure your issue.
+You can open an issue in the [Consortium Memberships project](https://gitlab.com/gitlab-com/marketing/developer-relations/open-source-program/consortium-memberships). When you do, please use the `membership-evaluation` template to structure your issue.
 Open source program team members will evaluate your application using the following criteria.
 When we review the application, we'll assess it with these considerations in mind:
 
@@ -331,14 +346,14 @@ Note that because this project contains sensitive data and personally identifyin
 
 #### Elections for Board of Directors opportunities
 
-Some of the consortia in which we participate allow members to run for their respective Boards of Directors. 
+Some of the consortia in which we participate allow members to run for their respective Boards of Directors.
 Anyone interested in becoming more involved in any of the consortia GitLab supports should visit the `Consortium Memberships` [project](https://gitlab.com/gitlab-com/marketing/community-relations/opensource-program/consortium-memberships) and open an issue.
 
 Review the information below if you're thinking of seeking nomination for (or election to) consortium positions.
 
-**Internal nominations** \
+**Internal nominations**
 The Developer Relations team tracks consortium board elections closely.
-In the event that an election opportunity arises, the team will create a confidential issue in the `Consortium Memberships` [project](https://gitlab.com/gitlab-com/marketing/community-relations/opensource-program/consortium-memberships) to discuss it.
+In the event that an election opportunity arises, the team will create a confidential issue in the `Consortium Memberships` [project](https://gitlab.com/gitlab-com/marketing/developer-relations/open-source-program/consortium-memberships) to discuss it.
 The team will determine which GitLab team member(s) could serve effectively in the elected position.
 Their considerations prioritize the following criteria:
 
@@ -349,23 +364,24 @@ Their considerations prioritize the following criteria:
 The team will connect individually with the top candidate it feels would best suit the role given the above requirements, then ask that individual about their willingness and availability to serve.
 Candidates should consider the required time investment and their capacity for attending board meetings and representing GitLab at consortium events.
 Should the candidate wish to serve, the team will confirm the selection with the marketing organization leadership, then work with the nominee to prepare all requisite paperwork and craft a nomination statement.
-The team maintains a list of [candidacy statements](https://gitlab.com/gitlab-com/marketing/community-relations/open-source-program/consortium-memberships/-/blob/master/resources/sample-election-candidate-statements.md) for reference and aid in this process.
-Should the candidate defer due to time or other constraints, the team will connect with the next person on the priority list given the above criteria. 
+The team maintains a list of [candidacy statements](https://gitlab.com/gitlab-com/marketing/developer-relations/open-source-program/consortium-memberships/-/blob/master/resources/sample-election-candidate-statements.md) for reference and aid in this process.
+Should the candidate defer due to time or other constraints, the team will connect with the next person on the priority list given the above criteria.
 
-**Campaigning** \
+**Campaigning**
 Once GitLab candidates are nominated, the Developer Relations team can help them campaign for their positions.
 We'll make other GitLab team members aware of the election and equip them to assist your campaign, too (e.g., by announcing the campaign on the `#whats-happening-at-gitlab` Slack channel).
 
-**Promoting** \
+**Promoting**
 The social media team is able to promote elections notification news.
 They simply need a place to point people, preferably an updated webpage that lists the board of directors or a social media post from the organization that mentions the election results.
 
 #### Event sponsorships
-GitLab's open source program maintains a small budget for sponsorship of events that allow GitLab to engage with open source communities.
+
+GitLab's Developer Relations team maintains a small budget for sponsorship of events that allow GitLab to engage with open source communities.
 We typically allocate this budget for local and regional community-driven events that GitLab's corporate events and field marketing teams have not already agreed to sponsor and staff.
 We prefer to sponsor events at which multiple open source projects and communities are present.
 
-The open source program team tracks event partication in the [Open Source Marketing project on GitLab](https://gitlab.com/gitlab-com/marketing/developer-relations/open-source-program/open-source-marketing).
+The open source program team tracks event participation in the [Open Source Marketing project on GitLab](https://gitlab.com/gitlab-com/marketing/developer-relations/open-source-program/open-source-marketing).
 To suggest an open source event sponsorship, open an issue in this project and use the `event` issue template to file your request.
 
 Event organizers and consortium leads working with GitLab will find GitLab's brand-related assets (such as logo files, press release boilerplate, and trademark information) in [GitLab's press kit](https://about.gitlab.com/press/press-kit/).
@@ -376,19 +392,41 @@ Our team measures the success of our work in the following ways.
 
 ### Program enrollment
 
-The GitLab for Open Source Program can only succeed when it serves a growing and satisfied body of members. We therefore track program enrollment closely using the [Open Source Program dashboard](https://app.periscopedata.com/app/gitlab:safe-intermediate-dashboard/986208/Open-Source-Program) on Sisense.
-The dashboard reports the number of unique licenses we've issued as part of the program, the number of unique projects enrolled in the program, our annual renewal rate, and more.
+The GitLab for Open Source Program team monitors the health and vitality of the program by tracking overall program membership and members' annual renewal rates. We do this via the follwing Tableau dashboard:
 
-This dashboard pulls data from Salesforce. GitLab team members with access to Salesforce can view [a custom report](https://gitlab.my.salesforce.com/00O8X000008mhmV) for more detail on program accounts.
+* [Community Dashboard](https://10az.online.tableau.com/#/site/gitlab/views/CommunityDash/CommunityDashboard)
+
+The dashboard reports the `Number of Licenses` the program is currently administering, the number of `Unique Accounts` associated with the program, and the `Institution Rewnewed` rate.
+
+GitLab team members with SAFE access to Tableau can view this reports for additional details.
+
+### Program member GitLab utilization
+
+The GitLab for Open Source Program furnishes insights about the ways open source projects and communities use GitLab's various features and functions.
+We therefore track members' overal utilization of GitLab where possible.
+We do this via Salesforce according to the following reports:
+
+* [Open Source Program Utilization](https://gitlab.my.salesforce.com/00OPL0000009ihl)
+* [Open Source Program Seats](https://gitlab.my.salesforce.com/00O8X000008mhmV)
+
+GitLab team members with access to Salesforce and Gainsight can view these reports for additional details.
+
+### Support ticket volume and response
+
+The GitLab for Open Source Program team manages program support tickets in a [dedicated private GitLab project](https://gitlab.com/gitlab-com/marketing/developer-relations/open-source-program/open-source-program-support) with corresponding Service Desk. Because the team is dedicated to providing quick, helpful service to program members, we measure both the volume of tickets we receive quarterly and the average time required to respond to those tickets. We do this via the following Tableau dashboard:
+
+* [Community Programs Support Tickets Dashboard](https://10az.online.tableau.com/#/site/gitlab/views/OpenSourceSupportTickets/CommunityProgramsSupportTicketsDashboard?:iid=2)
+
+GitLab team members with access to Tableau can view this reports for additional details.
 
 ### Impact on Hacker News
 
 We also track (and, when necessary, participate in) Hacker News discussions related to both our open source programs and partners.
 Examples include:
 
-- 2023-12-08: [Arch Linux bugtracker migration to Gitlab completed](https://news.ycombinator.com/item?id=38568076)
-- 2022-06-14: [Gitlab Now the Main Development Platform for Wine](https://news.ycombinator.com/item?id=31737807)
-- 2020-10-28: [Wikimedia is moving to Gitlab](https://news.ycombinator.com/item?id=24919569)
+- 2023-12-08: [Arch Linux bugtracker migration to GitLab completed](https://news.ycombinator.com/item?id=38568076)
+- 2022-06-14: [GitLab Now the Main Development Platform for Wine](https://news.ycombinator.com/item?id=31737807)
+- 2020-10-28: [Wikimedia is moving to GitLab](https://news.ycombinator.com/item?id=24919569)
 - 2020-06-29: [The KDE community is moving to GitLab](https://news.ycombinator.com/item?id=23679360)
 - 2018-05-31: [Gnome has moved to GitLab](https://news.ycombinator.com/item?id=17198610)
 - 2019-09-30: [KDE is adopting GitLab](https://news.ycombinator.com/item?id=21112632)

@@ -45,61 +45,13 @@ file. As an example, [here is an issue](https://gitlab.com/gitlab-data/analytics
 
 #### GitLab Implementation
 
-The original design document to move our Snowplow infrastructure from a 3rd-party hosting service to 1st-part is documented in the [Infrastructure design library](https://about.gitlab.com/handbook/engineering/infrastructure/library/snowplow/). This was written before the build was started and contains many of the assumptions and design decisions.
+The original design document to move our Snowplow infrastructure from a 3rd-party hosting service to 1st-part is documented in the [Infrastructure design library](/handbook/engineering/infrastructure/library/snowplow/). This was written before the build was started and contains many of the assumptions and design decisions.
 
 Snowplow is built with Terraform on AWS documented in the [gitlab-com-infrastructure project](https://ops.gitlab.net/gitlab-com/gitlab-com-infrastructure/blob/master/environments/aws-snowplow/README.md).
 
 For a detailed walk-through of our setup, watch [this GitLab Unfiltered internal video](https://www.youtube.com/watch?v=fK9aw3bHFBg&feature=youtu.be).
 
-``` mermaid
-graph TD
-
-  subgraph "Snowplow Trackers"
-    Snowplow_JS
-    Snowplow_Ruby
-  end
-
-  subgraph "Snowplow Collector Endpoint"
-    Snowplow_JS --> snowplow.trx.gitlab.net
-    Snowplow_Ruby --> snowplow.trx.gitlab.net
-  end
-
-  snowplow.trx.gitlab.net --> Load_Balancer
-  Load_Balancer --> Snowplow_Collector
-  subgraph "Auto Scaling Group"
-    Snowplow_Collector
-  end
-  subgraph "Auto Scaling Group"
-    Snowplow_Enricher
-  end
-  Snowplow_Collector -- Kinesis_snowplow_raw_good --> Snowplow_Enricher
-  Snowplow_Collector -- Kinesis_snowplow_raw_bad -- Kinesis_Firehose_SnowPlowRawBad -- lambda --> Snowplow
-  Snowplow_Enricher -- Kinesis_snowplow_enriched_good -- Kinesis_Firehose_SnowPlowEnrichedGood -- lambda --> Snowplow
-  Snowplow_Enricher -- Kinesis_snowplow_enriched_bad -- Kinesis_Firehose_SnowPlowEnrichedBad -- lambda --> Snowplow
-
-  subgraph "AWS S3"
-    Snowplow(Snowplow Bucket)
-  end
-
-  subgraph "Snowflake Data Warehouse "
-    Snowplow(Snowplow Bucket) -- Snowpipe --> SnowplowRaw
-    subgraph "Prod DB "
-      Legacy[Legacy Schema ]
-    end
-    subgraph "Prep DB"
-      SnowplowDate -- dbt --> Legacy[Legacy Schema ]
-    end
-    subgraph "Raw DB"
-      SnowplowRaw[Snowplow Source View ] -- dbt --> SnowplowDate[Snowplow Date Partitioned ]
-      SnowplowRaw -- dbt snapshots  --> SnowplowRaw
-      SnowplowRaw -- Snowplow Event Sample  --> SnowplowRaw
-    end
-  end
-
-  subgraph "Sisense "
-    Legacy-- Queries --> Sisense_data(Sisense )
-  end
-```
+![Lucid_chart](https://lucid.app/publicSegments/view/22c5f9f5-2b40-4474-95af-b8116edea6be/image.png)
 
 ##### S3
 
@@ -343,3 +295,7 @@ Backfills are done via Airflow. The [`dbt_snowplow_backfill` DAG](https://gitlab
 #### Do Not Track
 
 Our snowplow tracking configuration and particular implementations respect the [Do Not Track (DNT) headers](https://en.wikipedia.org/wiki/Do_Not_Track) whenever it's present on a user's browser.
+
+#### Duo data redaction
+
+We only keep Duo free form feedback for 60 days in snowflake. This is managed by the [duo_data_redaction DAG](https://gitlab.com/gitlab-data/analytics/-/blob/master/dags/general/duo_data_redaction.py), which runs daily, removing contents of the `extendedFeedback` attribute in the `contexts` column for all feedback response Snowplow events in `RAW` and `PREP`. This timeline allows for our full-refresh process to complete, updating all downstream data, within 90 days for compliance.  

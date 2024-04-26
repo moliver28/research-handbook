@@ -29,7 +29,7 @@ In addition to the areas of focus and core competencies listed above, the Engine
 
 ## OKRs
 
-Every quarter, the team commits to [Objectives and Key Results (OKRs)](/company/okrs/). The below shows current and previous quarter OKRs, it updates as the quarter progresses. Starting February 2023, Engineering Analytics uses GitLab to track progress towards quarterly OKRs.
+Every quarter, the team commits to [Objectives and Key Results (OKRs)](/handbook/company/okrs/). The below shows current and previous quarter OKRs, it updates as the quarter progresses. Starting February 2023, Engineering Analytics uses GitLab to track progress towards quarterly OKRs.
 
 Here is an [overview](https://gitlab.com/gitlab-com/gitlab-OKRs/-/issues/?sort=created_date&state=opened&type%5B%5D=objective&label_name%5B%5D=Engineering%20Analytics&first_page_size=100) of our current OKRs.
 
@@ -53,7 +53,7 @@ graph TD
     click A "/handbook/engineering/quality"
     click B "/handbook/engineering/quality/engineering-analytics"
     click D "/handbook/engineering/infrastructure/test-platform"
-    click E "/handbook/engineering/quality/engineering-productivity"
+    click E "/handbook/engineering/infrastructure/engineering-productivity"
     click P "/handbook/engineering/infrastructure/platforms/"
     click R "/handbook/engineering/infrastructure/reliability/"
 
@@ -70,13 +70,13 @@ Please open a new issue in [our team project](https://gitlab.com/gitlab-com/qual
 
 ## Key Reviews
 
-Key Reviews are meetings a department has with other GitLab team members to discuss any progress or updates related to KPIs & OKRs with the rest of the organization. More information can be found on the [Key Review Handbook Page](https://about.gitlab.com/handbook/key-review/)
+Key Reviews are meetings a department has with other GitLab team members to discuss any progress or updates related to KPIs & OKRs with the rest of the organization. More information can be found on the [Key Review Handbook Page](/handbook/key-review/)
 
-In Engineering our key reviews are handbook driven. Each department's KPIs are defined in www-gitlab-com repo under data/performance-indicators, & metrics are in handbook with URL structure like engineering/department/performance-indicators. For example, Infrastructure's [full URL](https://about.gitlab.com/handbook/engineering/infrastructure/performance-indicators) is https://about.gitlab.com/handbook/engineering/infrastructure/performance-indicators.
+In Engineering our key reviews are handbook driven. Each department's KPIs are defined in www-gitlab-com repo under data/performance-indicators, & metrics are in handbook with URL structure like engineering/department/performance-indicators. For example, Infrastructure's [full URL](/handbook/engineering/infrastructure/performance-indicators) is https://about.gitlab.com/handbook/engineering/infrastructure/performance-indicators.
 
 ### Performance Indicator DRI
 
-The Performance Indicator [DRI](https://about.gitlab.com/handbook/people-group/directly-responsible-individuals/) is an optional attribute in the PI page `.yml` file that specifies an individual as the DRI for a particular KPI/PI.
+The Performance Indicator [DRI](/handbook/people-group/directly-responsible-individuals/) is an optional attribute in the PI page `.yml` file that specifies an individual as the DRI for a particular KPI/PI.
 
 The DRI is responsible for updating the health & health reasons for the metric. In cases where the health is at problem or attention level, the actions being taken to fix the metric should be specified. The DRI is also responsible for verifying the data & if needed talking with an analyst to make sure the metric is ready for the key review.
 
@@ -105,20 +105,20 @@ While this team operates as a single team reporting to one manager, we emphasize
 
 ### Counterpart Assignments
 
-The team structure will leverage [stable counterpart](https://about.gitlab.com/handbook/leadership/#stable-counterparts) assignees to ensure proper allocation and attention needed to service all Engineering Departments and Leaders and still promote cross-functional collaboration and ownership of an area.
+The team structure will leverage [stable counterpart](/handbook/leadership/#stable-counterparts) assignees to ensure proper allocation and attention needed to service all Engineering Departments and Leaders and still promote cross-functional collaboration and ownership of an area.
 
 We assign the stable counterpart by Engineering Division’s sub-departments. This is identified by the Engineering Department name assigned to an Engineering Analyst.
 
 | Eng Department | Analyst                                                             | PI Page                                                                                              |
 |----------------|---------------------------------------------------------------------|------------------------------------------------------------------------------------------------------|
-| Engineering    | Engineering Analytics Team                                          | [Eng PI Page](https://about.gitlab.com/handbook/engineering/performance-indicators)             |
-| Development    | [Lily](https://gitlab.com/lmai1), [Dani](https://gitlab.com/ddeng1) | [Dev PI Page](https://about.gitlab.com/handbook/engineering/development/performance-indicators) |
-| Infrastructure | [Clément](https://gitlab.com/clem.lr)                               | [Infra PI Page](https://about.gitlab.com/handbook/engineering/infrastructure/performance-indicators) |
-| Quality        | [Raul](https://gitlab.com/raulrendon)                               | [Quality PI Page](https://about.gitlab.com/handbook/engineering/quality/performance-indicators)      |
-| Security       | [Dani](https://gitlab.com/ddeng1)                                   | [Security PI Page](https://about.gitlab.com/handbook/security/performance-indicators)                |
-| Support        | [Lily](https://gitlab.com/lmai1)                                    | [Support PI Page](https://about.gitlab.com/handbook/support/performance-indicators)                  |
-| Finance        | [Clément](https://gitlab.com/clem.lr)                               | [Finance PI Page](https://about.gitlab.com/handbook/finance/finance-team-performance-indicators/)              |
-| Incubation     | [Lily](https://gitlab.com/lmai1)                                    | [Incubation Page](https://about.gitlab.com/handbook/engineering/development/incubation/performance-indicators/)  |
+| Engineering    | Engineering Analytics Team                                          | [Eng PI Page](/handbook/engineering/performance-indicators)             |
+| Development    | [Lily](https://gitlab.com/lmai1), [Dani](https://gitlab.com/ddeng1) | [Dev PI Page](/handbook/engineering/development/performance-indicators) |
+| Infrastructure | [Clément](https://gitlab.com/clem.lr)                               | [Infra PI Page](/handbook/engineering/infrastructure/performance-indicators) |
+| Quality        | [Raul](https://gitlab.com/raulrendon)                               | [Quality PI Page](/handbook/engineering/quality/performance-indicators)      |
+| Security       | [Dani](https://gitlab.com/ddeng1)                                   | [Security PI Page](/handbook/security/performance-indicators)                |
+| Support        | [Lily](https://gitlab.com/lmai1)                                    | [Support PI Page](/handbook/support/performance-indicators)                  |
+| Finance        | [Clément](https://gitlab.com/clem.lr)                               | [Finance PI Page](/handbook/finance/finance-team-performance-indicators/)              |
+| Incubation     | [Lily](https://gitlab.com/lmai1)                                    | [Incubation Page](/handbook/engineering/development/incubation/performance-indicators/)  |
 
 Engineering analysts assigned to one area are experts in that area and may not have the knowledge depth in other areas. As such contributing cross-domain expertise will only be limited to Sisense charting and not beyond this data layer.
 
@@ -196,7 +196,7 @@ Please reach out to us by opening an issue on the [Engineering Analytics board](
 
 #### Creating an Issue
 
-To ensure that the issue gets visibility by our team, when creating an issue on the [Engineering Analytics board](https://gitlab.com/gitlab-org/quality/engineering-analytics/team-tasks/-/boards/2650515?group_by=epic), please add the `~"Engineering Metrics"` label in addition to one of the below labels and ping the [analyst](https://about.gitlab.com/handbook/engineering/quality/engineering-analytics/#counterpart-assignments) assigned to that department.
+To ensure that the issue gets visibility by our team, when creating an issue on the [Engineering Analytics board](https://gitlab.com/gitlab-org/quality/engineering-analytics/team-tasks/-/boards/2650515?group_by=epic), please add the `~"Engineering Metrics"` label in addition to one of the below labels and ping the [analyst](/handbook/engineering/quality/engineering-analytics/#counterpart-assignments) assigned to that department.
 
 - `~"Eng Metrics::Eng Division"`
 - `~"Eng Metrics::Development Department"`
@@ -221,4 +221,5 @@ To ensure that the issue gets visibility by our team, when creating an issue on 
 
 The handbook is essential to working remote successfully, to keeping up our transparency, and to recruiting successfully. Our processes are constantly evolving and we need a way to make sure the handbook is being updated at a regular cadence. This is measured by Merge Requests that update the handbook contents related to the performance indicator pages, our team page, and engineering metrics pages.
 
-{{< sisense dashboard="902602" chart="12625524" >}}
+{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/HandbookMRRate/EAhandbookMRrate" >}}
+{{< /tableau >}}

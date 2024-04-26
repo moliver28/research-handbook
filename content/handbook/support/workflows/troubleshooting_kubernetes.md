@@ -54,13 +54,13 @@ Use the `tar` linux utility to extract the data into a folder
 tar -zxvf kubesos-<timestamp>.tar.gz
 ```
 
-## Troubleshoot a Gitlab installation
+## Troubleshoot a GitLab installation
 
 There are two main areas to check when troubleshooting a cloud native application like GitLab:
 
 - **Cluster setup**: We will assume that the cluster is correctly setup as per our [recommendation](https://docs.gitlab.com/charts/installation/cloud/) and enough resources have been allocated to the nodes. We will look at a few commands that would be helpful in confirming this.
 
-- **Application Failures**: This will be our primary area of focus and we will be trying to identify why Gitlab is not working or not behaving correctly.
+- **Application Failures**: This will be our primary area of focus and we will be trying to identify why GitLab is not working or not behaving correctly.
 
 ## Cluster setup
 
@@ -80,7 +80,7 @@ kubectl cluster-info dump
 
 To delve deeper into troubleshooting the cluster have a look at [Troubleshoot Clusters](https://kubernetes.io/docs/tasks/debug-application-cluster/debug-cluster/#looking-at-logs) which gives you insights as to the logs that you would look into.
 
-### Gitlab Requirements
+### GitLab Requirements
 
 In order to deploy GitLab on Kubernetes, ensure the setup meets the [documented requirements](https://docs.gitlab.com/charts/installation/tools.html#prerequisites).
 

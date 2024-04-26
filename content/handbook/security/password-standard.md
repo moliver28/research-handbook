@@ -1,10 +1,7 @@
 ---
 title: GitLab Password Standards
+controlled_document: true
 ---
-
-{{% alert title="This is a Controlled Document" color="danger" %}}
-Inline with GitLab's regulatory obligations, changes to [controlled documents]({{< ref "controlled-document-procedure" >}}) must be approved or merged by a code owner. All contributions are welcome and encouraged.
-{{% /alert %}}
 
 ## Purpose
 
@@ -70,7 +67,7 @@ All GitLab team members are required to use [Two Factor Authentication](https://
 - [WebAuthn](https://en.wikipedia.org/wiki/WebAuthn). FIDO2/WebAuthn uses a hardware token to authenticate you. It is one of the most secure methods, assuming the hardware token itself is physically secured.
 - [Push Authentication](https://en.wikipedia.org/wiki/Authenticator#Mobile_Push). For Push Authentication to work, the authentication service and a complementary mobile app typically use RSA keys and OOB (out-of-band) communications to perform the secondary authentication. From a pure cryptographic perspective, this is *slightly* less secure than WebAuthn as WebAuthn uses secure hardware storage.
 - [TOTP](https://en.wikipedia.org/wiki/Time-based_One-time_Password_algorithm). TOTP (Time-based One Time Password) is a popular method for a second factor. While not as secure as WebAuthn, Push as TOTP could be [phished](https://en.wikipedia.org/wiki/Phishing) (although the attack window would be extremely short). It is still a very secure method of authentication. As 1Password is used by GitLab team members, this could be used for TOTP after proper configuration ([1Password guidelines]({{< ref "password-guidelines#1password-guidelines" >}})).
-- [SMS](https://en.wikipedia.org/wiki/SMS). SMS (Short Message Service) is a method of using text messaging to provide out-of-band (OOB) authentication. As the messages can be spoofed or intercepted more easily than other methods, SMS is highly discouraged for 2FA. As of this writing, the Security Department is unaware of GitLab assets or third party applications that team members are using that *only* support SMS 2FA. If you need to use something that only offers SMS as a second factor for GitLab, contact the [Security Department](https://about.gitlab.com/handbook/engineering/security/#slack-channels).
+- [SMS](https://en.wikipedia.org/wiki/SMS). SMS (Short Message Service) is a method of using text messaging to provide out-of-band (OOB) authentication. As the messages can be spoofed or intercepted more easily than other methods, SMS is highly discouraged for 2FA. As of this writing, the Security Department is unaware of GitLab assets or third party applications that team members are using that *only* support SMS 2FA. If you need to use something that only offers SMS as a second factor for GitLab, contact the [Security Department](/handbook/engineering/security/#slack-channels).
 
 For a better understanding of how 2FA fits into GitLab, refer to the [Accounts and Passwords]({{< ref "password-guidelines" >}}) section, which includes pointers to setting up passwords, acquiring FIDO2 tokens, and links to further resources. Refer to the Tools and Tips page for more detailed information regarding [FIDO2/WebAuthn](/handbook/tools-and-tips/#fido2--webauthn) and [other 2FA methods](/handbook/tools-and-tips/#other-2fa-methods).
 

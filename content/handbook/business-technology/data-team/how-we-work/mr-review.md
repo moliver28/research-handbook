@@ -56,7 +56,7 @@ Requirements that should be taken into consideration to become a code owner:
 ### Maintainer
 
 A maintainer in any of the data team projects is not synonymous with any job title.
-Here, the data team takes from the precedent set forward by the engineering division on [the responsibilities of a maintainer](https://about.gitlab.com/handbook/engineering/workflow/code-review/#maintainer).
+Here, the data team takes from the precedent set forward by the engineering division on [the responsibilities of a maintainer](/handbook/engineering/workflow/code-review/#maintainer).
 Every data team project has at least one maintainer, but most have multiple, and some projects (like Analytics) have separate maintainers for dbt and orchestration.
 
 The responsibility of a Maintainer is to ensure that

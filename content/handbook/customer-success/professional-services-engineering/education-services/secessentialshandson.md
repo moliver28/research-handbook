@@ -1,5 +1,5 @@
 ---
-title: "GitLab Security Essentials - Hands-On Lab"
+title: "GitLab Security Essentials - Hands-On Lab Overview"
 description: "This Hands-On Guide walks you through the lab exercises used in the GitLab Security Essentials course."
 ---
 
@@ -7,15 +7,14 @@ description: "This Hands-On Guide walks you through the lab exercises used in th
 
 ## Lab Guides
 
-> **We are transitioning to the latest version of this course.** You are using v16 if your group URL is `https://gitlab.com/gitlab-learn-labs/...`. If your group URL starts with `https://ilt.gitlabtraining.cloud` or `https://spt.gitlabtraining.cloud`, please use the v15 instructions.
 
-| Lab Guide | Version 15 | Version 16 |
-|-----------|------------|------------|
-| Lab 1: Configure SAST, Secret Detection, and DAST | [v15 Lab Guide](https://gitlab.com/gitlab-com/content-sites/handbook/-/blob/d14ee71aeac2054c72ce96e8b35ba2511f86a7ca/content/handbook/customer-success/professional-services-engineering/education-services/secessentialshandson1.md) | [v16 Lab Guide](/handbook/customer-success/professional-services-engineering/education-services/secessentialshandson1) |
-| Lab 2: Enable and Configure Dependency Scanning | [v15 Lab Guide](https://gitlab.com/gitlab-com/content-sites/handbook/-/blob/d14ee71aeac2054c72ce96e8b35ba2511f86a7ca/content/handbook/customer-success/professional-services-engineering/education-services/secessentialshandson2.md) | [v16 Lab Guide](/handbook/customer-success/professional-services-engineering/education-services/secessentialshandson2) |
-| Lab 3: Enable and Configure Container Scanning | [v15 Lab Guide](https://gitlab.com/gitlab-com/content-sites/handbook/-/blob/d14ee71aeac2054c72ce96e8b35ba2511f86a7ca/content/handbook/customer-success/professional-services-engineering/education-services/secessentialshandson3.md) | [v16 Lab Guide](/handbook/customer-success/professional-services-engineering/education-services/secessentialshandson3) |
-| Lab 4: Enable and Configure License Compliance | [v15 Lab Guide](https://gitlab.com/gitlab-com/content-sites/handbook/-/blob/d14ee71aeac2054c72ce96e8b35ba2511f86a7ca/content/handbook/customer-success/professional-services-engineering/education-services/secessentialshandson4.md) | [v16 Lab Guide](/handbook/customer-success/professional-services-engineering/education-services/secessentialshandson4) |
-| Lab 5: Enable and Configure Coverage-Guided Fuzz Testing | [v15 Lab Guide](https://gitlab.com/gitlab-com/content-sites/handbook/-/blob/d14ee71aeac2054c72ce96e8b35ba2511f86a7ca/content/handbook/customer-success/professional-services-engineering/education-services/secessentialshandson5.md) | [v16 Lab Guide](/handbook/customer-success/professional-services-engineering/education-services/secessentialshandson5) |
+| Lab Name | Lab Link |
+|-----------|------------|
+| Configure SAST, Secret Detection, and DAST | [Lab Link](/handbook/customer-success/professional-services-engineering/education-services/secessentialshandson1) |
+| Enable and Configure Dependency Scanning | [Lab Link](/handbook/customer-success/professional-services-engineering/education-services/secessentialshandson2) |
+| Enable and Configure Container Scanning | [Lab Link](/handbook/customer-success/professional-services-engineering/education-services/secessentialshandson3) |
+| Enable and Configure License Compliance | [Lab Link](/handbook/customer-success/professional-services-engineering/education-services/secessentialshandson4) |
+| Enable and Configure Coverage-Guided Fuzz Testing | [Lab Link](/handbook/customer-success/professional-services-engineering/education-services/secessentialshandson5) |
 
 ## Quick Links
 

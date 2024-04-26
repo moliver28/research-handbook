@@ -187,7 +187,7 @@ The Manager, Social Media is a [grade 8](/handbook/total-rewards/compensation/co
 - Oversee all social media initiatives
 - Collaborate with various teams on campaign strategy, position, and messaging
 - Perform regular gap analysis to identify areas of success, improvement, and opportunity
-- Hire and manage a world-class team of social media managers and [follow GitLab's existing people manager responsibilities](/handbook/company/team/structure/#management-group)
+- Hire and manage a world-class team of social media managers and [follow GitLab's existing people manager responsibilities](/handbook/company/structure/#management-group)
 
 #### Requirements
 

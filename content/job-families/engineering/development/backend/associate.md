@@ -14,7 +14,7 @@ Backend Engineers at GitLab work on our product. This includes both the open sou
 - Advocate for improvements to product quality, security, and performance
 - Solve technical problems of moderate scope and complexity.
 - Craft code that meets our internal standards for style, maintainability, and best practices for a high-scale web environment. Maintain and advocate for these standards through code review.
-- Conduct [Code Review](https://about.gitlab.com/handbook/engineering/workflow/code-review/) within our [Code Review Guidelines](https://docs.gitlab.com/ee/development/code_review.html) and ensure community contributions receive a swift response.
+- Conduct [Code Review](/handbook/engineering/workflow/code-review/) within our [Code Review Guidelines](https://docs.gitlab.com/ee/development/code_review.html) and ensure community contributions receive a swift response.
 - Represent GitLab and its values in public communication around specific projects and community contributions.
 - Confidently ship small features and improvements with minimal guidance and support from other team members. Collaborate with the team on larger projects.
 

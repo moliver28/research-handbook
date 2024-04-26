@@ -26,7 +26,7 @@ an ongoing basis.
      -->
 
 *If you're missing from this list (and want to be on it) please let the Support
-Managers know in `#spt_managers`.*
+Managers know in `#support_leadership`.*
 
 | Section          | Group               | Group Contact       | Support Liaison            | Frequency                         |
 |:----------------:|:-------------------:|:-------------------:|:--------------------------:|:---------------------------------:|
@@ -43,7 +43,7 @@ Managers know in `#spt_managers`.*
 | Sales            | Sales               | TBD                 | Mike Dunninger / Tine Sørensen            | TBD |
 | Security         | Security Operations | Jan Urbanc          | Brie Carranza              | N/A |
 
-If you're on the Support Team and have something you'd like to surface, or would like to attend one of these meetings, feel free to post in `#spt_managers`.
+If you're on the Support Team and have something you'd like to surface, or would like to attend one of these meetings, feel free to post in `#support_leadership`.
 
 ## Detailed Descriptions of Specific Support Liaison Roles
 
@@ -71,5 +71,5 @@ involved in finding solutions.
 Familiarity with open source concepts, licenses, and communities is recommended.
 
 If you're on the Support Team and would like to be an Open Source Support
-Liaison, post in `#spt_managers` and reach out to GitLab's Open Source Program
+Liaison, post in `#support_leadership` and reach out to GitLab's Open Source Program
 Manager (`@bbehr`).

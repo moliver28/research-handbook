@@ -158,7 +158,7 @@ Due to equal weighting and Gainsight's defined scoring ranges, two (2) of the th
 
 *"How many use cases has a customer adopted?"*
 
-In Gainsight, scorecards track customer adoption of Gitlab use cases.
+In Gainsight, scorecards track customer adoption of GitLab use cases.
 
 A green score signifies that a customer is adopting that specific use case. On the Customer Health Dashboard, in the Use Case Adoption Count chart, we count the number of green scores for each customer to visualize the count of customers adopting null, 1,2, 3 and 4 use cases.
 

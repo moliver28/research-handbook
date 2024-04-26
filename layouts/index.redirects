@@ -38,29 +38,7 @@
 {{- end -}}
 {{ printf "" }}
 
-# Handbook doesn't use .html style page locations so repoint these
-/*.html /:splat/ 301
-
-# All other manually created redirects
-# Finance migration redirects - created: 2023-10-30 - remove 2023-10-29
-/handbook/finance/accounting/finance-ops/Revenue-Accounting/ /handbook/finance/accounting/finance-ops/revenue-accounting/
-/handbook/finance/accounting/finance-ops/Revenue-Accounting/tech-stack-guide-zuora-revenue/ /handbook/finance/accounting/finance-ops/revenue-accounting/tech-stack-guide-zuora-revenue/
-
-# People-group migration redirects - created: 2023-10-02 - remove 2023-10-01
-/handbook/people-group/workday/tech-stack-guide-workday/ /handbook/people-group/tech-stack-guide-workday/
-/handbook/people-group/workday/workday-guide/ /handbook/people-group/workday-guide/
-/handbook/hiring/candidate/faq/ /handbook/hiring/candidate-faq/
-/handbook/hiring/candidate/faq/recruitment-privacy-policy/ /handbook/hiring/candidate-faq/recruitment-privacy-policy/
-
-# Ssecurity migration Redirects - Created: 2023-09-08 - Remove: 2024-09-07
-/handbook/security/threat_modeling/ /handbook/security/threat-modeling/
-
-# Support migration Redirects - Created: 2023-08-09 - Remove: 2024-08-08
-handbook/support/workflows/license_subscription_workflows/ /handbook/support/license-and-renewals/workflows/
-/handbook/support/workflows/macros/ /handbook/support/readiness/operations/docs/zendesk/macros/
-/handbook/support/workflows/unbabel_translation_in_zendesk/ /handbook/support/readiness/operations/#unbabel-for-zendesk-support
-
-# Files with Underscores in their Name
+# Files with Underscores in their Name - remove 2024-12-01
 /handbook/security/External_Security_Communications_Procedure.html /handbook/security/external-security-communications-procedure/
 /handbook/security/gitlab_projects_baseline_requirements.html /handbook/security/gitlab_projects_baseline_requirements/
 /handbook/security/gitlab_security_resource_center.html /handbook/security/gitlab_security_resource_center/
@@ -70,108 +48,58 @@ handbook/support/workflows/license_subscription_workflows/ /handbook/support/lic
 /handbook/security/security-assurance/governance_and_field_security_team_charter.html /handbook/security/security-assurance/governance_and_field_security_team_charter/
 /handbook/security/security-assurance/production_readiness_compliance_assessment.html /handbook/security/security-assurance/production-readiness-compliance-assessment/
 /handbook/security/security-assurance/security-risk/sox_cuec_mapping_procedure.html /handbook/security/security-assurance/security-risk/sox_cuec_mapping_procedure/
-/handbook/security/threat_modeling/howto.html /handbook/security/threat-modeling/howto/
-/handbook/security/transparency_by_default.html /handbook/security/transparency-by-default/
-/handbook/support/license-and-renewals/workflows/lr_request_automation.html /handbook/support/license-and-renewals/workflows/lr_request_automation/
-/handbook/support/license-and-renewals/workflows/billing_contact_change_payments.html /handbook/support/license-and-renewals/workflows/billing_contact_change_payments/
-/handbook/support/license-and-renewals/workflows/communicating_lnr_workflow_changes.html /handbook/support/license-and-renewals/workflows/communicating_lnr_workflow_changes/
-/handbook/support/license-and-renewals/workflows/customersdot/associating_purchases.html /handbook/support/license-and-renewals/workflows/customersdot/associating_purchases/
-/handbook/support/license-and-renewals/workflows/customersdot/customer_console.html /handbook/support/license-and-renewals/workflows/customersdot/customer_console/
-/handbook/support/license-and-renewals/workflows/customersdot/customerdot_account.html /handbook/support/license-and-renewals/workflows/customersdot/customerdot_account/
-/handbook/support/license-and-renewals/workflows/customersdot/troubleshoot_errors_while_making_purchases.html /handbook/support/license-and-renewals/workflows/customersdot/troubleshoot_errors_while_making_purchases/
-/handbook/support/license-and-renewals/workflows/working_internal_requests.html /handbook/support/license-and-renewals/workflows/working_internal_requests/
-/handbook/support/license-and-renewals/workflows/managing_product_issues.html /handbook/support/license-and-renewals/workflows/managing_product_issues/
-/handbook/support/license-and-renewals/workflows/merge_or_split_subscription.html /handbook/support/license-and-renewals/workflows/merge_or_split_subscription/
-/handbook/support/license-and-renewals/workflows/quarterly_subscription_reconciliations.html /handbook/support/license-and-renewals/workflows/quarterly_subscription_reconciliations/
-/handbook/support/license-and-renewals/workflows/self-managed/aws_marketplace_license.html /handbook/support/license-and-renewals/workflows/self-managed/aws_marketplace_license/
-/handbook/support/license-and-renewals/workflows/self-managed/creating_licenses.html /handbook/support/license-and-renewals/workflows/self-managed/creating_licenses/
-/handbook/support/license-and-renewals/workflows/self-managed/license_delivery.html /handbook/support/license-and-renewals/workflows/self-managed/license_delivery/
-/handbook/support/license-and-renewals/workflows/self-managed/gcp_marketplace_license.html /handbook/support/license-and-renewals/workflows/self-managed/gcp_marketplace_license/
-/handbook/support/license-and-renewals/workflows/self-managed/generating_hackerone_reporter_licenses.html /handbook/support/license-and-renewals/workflows/self-managed/generating_hackerone_reporter_licenses/
-/handbook/support/license-and-renewals/workflows/self-managed/generating_nfr_licenses.html /handbook/support/license-and-renewals/workflows/self-managed/generating_nfr_licenses/
-/handbook/support/license-and-renewals/workflows/self-managed/handling_flagged_provisioning_failures.html /handbook/support/license-and-renewals/workflows/self-managed/handling_flagged_provisioning_failures/
-/handbook/support/license-and-renewals/workflows/self-managed/handling_multi-years_subscription.html /handbook/support/license-and-renewals/workflows/self-managed/handling_multi-years_subscription/
-/handbook/support/license-and-renewals/workflows/self-managed/opt-out_service-usage-data.html /handbook/support/license-and-renewals/workflows/self-managed/opt-out_service-usage-data/
-/handbook/support/license-and-renewals/workflows/self-managed/sending_license_to_different_email.html /handbook/support/license-and-renewals/workflows/self-managed/sending_license_to_different_email/
-/handbook/support/license-and-renewals/workflows/self-managed/troubleshoot_license_upload_issues.html /handbook/support/license-and-renewals/workflows/self-managed/troubleshoot_license_upload_issues/
-/handbook/support/license-and-renewals/workflows/self-managed/troubleshoot_cloud_licensing.html /handbook/support/license-and-renewals/workflows/self-managed/troubleshoot_cloud_licensing/
-/handbook/support/license-and-renewals/workflows/self-managed/troubleshoot_license_purchase_issues.html /handbook/support/license-and-renewals/workflows/self-managed/troubleshoot_license_purchase_issues/
-/handbook/support/license-and-renewals/workflows/self-managed/license_for_weekend_emergencies.html /handbook/support/license-and-renewals/workflows/self-managed/license_for_weekend_emergencies/
-/handbook/support/license-and-renewals/workflows/saas/associate_subscription_and_namespace.html /handbook/support/license-and-renewals/workflows/saas/associate_subscription_and_namespace/
-/handbook/support/license-and-renewals/workflows/saas/compute_minutes.html /handbook/support/license-and-renewals/workflows/saas/compute_minutes/
-/handbook/support/license-and-renewals/workflows/saas/trials_and_plan_change.html /handbook/support/license-and-renewals/workflows/saas/trials_and_plan_change/
-/handbook/support/license-and-renewals/workflows/license_troubleshooting.html /handbook/support/license-and-renewals/workflows/license_troubleshooting/
-/handbook/support/license-and-renewals/workflows/downgrades_cancellation_refunds.html /handbook/support/license-and-renewals/workflows/downgrades_cancellation_refunds/
-/handbook/support/license-and-renewals/workflows/troubleshoot_purchases_on_gitlab.html /handbook/support/license-and-renewals/workflows/troubleshoot_purchases_on_gitlab/
-/handbook/support/license-and-renewals/workflows/updating_customer_organization_name.html /handbook/support/license-and-renewals/workflows/updating_customer_organization_name/
-/handbook/support/license-and-renewals/workflows/managers_working_with_extensions.html /handbook/support/license-and-renewals/workflows/managers_working_with_extensions/
-/handbook/support/license-and-renewals/workflows/working_with_reseller_related_requests.html /handbook/support/license-and-renewals/workflows/working_with_reseller_related_requests/
-/handbook/support/license-and-renewals/workflows/working_with_sales.html /handbook/support/license-and-renewals/workflows/working_with_sales/
-/handbook/support/providing_excellent_customer_service.html /handbook/support/providing_excellent_customer_service/
-/handbook/support/training/onboarding_hybrid_path_checkpoints.html /handbook/support/training/onboarding_hybrid_path_checkpoints/
-/handbook/support/training/onboarding_buddy.html /handbook/support/training/onboarding_buddy/
-/handbook/support/training/transition_training_module_gitlab_learn.html /handbook/support/training/transition_training_module_gitlab_learn/
-/handbook/support/workflows/escalations-support_manager.html /handbook/support/workflows/escalations-support_manager/
-/handbook/support/workflows/personal_data_access_account_deletion.html /handbook/support/workflows/personal_data_access_account_deletion/
-/handbook/support/workflows/account_deletion_access_request_workflows.html /handbook/support/workflows/account_deletion_access_request_workflows/
-/handbook/support/workflows/account_verification.html /handbook/support/workflows/account_verification/
-/handbook/support/workflows/ai_features.html /handbook/support/workflows/ai_features/
-/handbook/support/workflows/confirmation_emails.html /handbook/support/workflows/confirmation_emails/
-/handbook/support/workflows/verify_pages_domain.html /handbook/support/workflows/verify_pages_domain/
-/handbook/support/workflows/customer_calls.html /handbook/support/workflows/customer_calls/
-/handbook/support/workflows/debugging_ldap.html /handbook/support/workflows/debugging_ldap/
-/handbook/support/workflows/500_errors.html /handbook/support/workflows/500_errors/
-/handbook/support/workflows/emergency_exception_workflow.html /handbook/support/workflows/emergency_exception_workflow/
-/handbook/support/workflows/saas_feature_flags.html /handbook/support/workflows/saas_feature_flags/
-/handbook/support/workflows/sla_and_views.html /handbook/support/workflows/sla_and_views/
-/handbook/support/workflows/feedbacks_and_complaints.html /handbook/support/workflows/feedbacks_and_complaints/
-/handbook/support/workflows/fieldnote_issues.html /handbook/support/workflows/fieldnote_issues/
-/handbook/support/workflows/dedicated_logs.html /handbook/support/workflows/dedicated_logs/
-/handbook/support/workflows/dedicated_instance_health.html /handbook/support/workflows/dedicated_instance_health/
-/handbook/support/workflows/dedicated_switchboard.html /handbook/support/workflows/dedicated_switchboard/
-/handbook/support/workflows/gpt_quick_start.html /handbook/support/workflows/gpt_quick_start/
-/handbook/support/workflows/gitlab-com_customizations.html /handbook/support/workflows/gitlab-com_customizations/
-/handbook/support/workflows/gitlab-com_overview.html /handbook/support/workflows/gitlab-com_overview/
-/handbook/support/workflows/google_cloud_credit_troubleshooting.html /handbook/support/workflows/google_cloud_credit_troubleshooting/
-/handbook/support/workflows/residency_doc_request.html /handbook/support/workflows/residency_doc_request/
-/handbook/support/workflows/handling_upgrade_renewal_requests.html /handbook/support/workflows/handling_upgrade_renewal_requests/
-/handbook/support/workflows/increase_compute_minutes_trial.html /handbook/support/workflows/increase_compute_minutes_trial/
-/handbook/support/workflows/handling_sales_info_requests.html /handbook/support/workflows/handling_sales_info_requests/
-/handbook/support/workflows/support_manager-on-call.html /handbook/support/workflows/support_manager-on-call/
-/handbook/support/workflows/handling_offer_migration_tickets.html /handbook/support/workflows/handling_offer_migration_tickets/
-/handbook/support/workflows/cmoc_workflows.html /handbook/support/workflows/cmoc_workflows/
-/handbook/support/workflows/customer_emergencies_workflows.html /handbook/support/workflows/customer_emergencies_workflows/
-/handbook/support/workflows/writing_workflows.html /handbook/support/workflows/writing_workflows/
-/handbook/support/workflows/investigate_blocked_pipeline.html /handbook/support/workflows/investigate_blocked_pipeline/
-/handbook/support/workflows/investigate_commits.html /handbook/support/workflows/investigate_commits/
-/handbook/support/workflows/log_requests.html /handbook/support/workflows/log_requests/
-/handbook/support/workflows/looking_up_customer_account_details.html /handbook/support/workflows/looking_up_customer_account_details/
-/handbook/support/workflows/looking_up_customer_technical_details.html /handbook/support/workflows/looking_up_customer_technical_details/
-/handbook/support/workflows/account_changes.html /handbook/support/workflows/account_changes/
-/handbook/support/workflows/marking_tickets_as_spam.html /handbook/support/workflows/marking_tickets_as_spam/
-/handbook/support/workflows/namesquatting_policy.html /handbook/support/workflows/namesquatting_policy/
-/handbook/support/workflows/patching_an_instance.html /handbook/support/workflows/patching_an_instance/
-/handbook/support/workflows/pii_removal_requests.html /handbook/support/workflows/pii_removal_requests/
-/handbook/support/workflows/printing_ticket_thread_without_internal_notes.html /handbook/support/workflows/printing_ticket_thread_without_internal_notes/
-/handbook/support/workflows/data_processing_addendums.html /handbook/support/workflows/data_processing_addendums/
-/handbook/support/workflows/importing_projects.html /handbook/support/workflows/importing_projects/
-/handbook/support/workflows/rbl_delisting.html /handbook/support/workflows/rbl_delisting/
-/handbook/support/workflows/remove_validation.html /handbook/support/workflows/remove_validation/
-/handbook/support/workflows/restore_requests.html /handbook/support/workflows/restore_requests/
-/handbook/support/workflows/saas_sm_cheatsheet.html /handbook/support/workflows/saas_sm_cheatsheet/
-/handbook/support/workflows/sending_notices.html /handbook/support/workflows/sending_notices/
-/handbook/support/workflows/service_desk_troubleshooting.html /handbook/support/workflows/service_desk_troubleshooting/
-/handbook/support/workflows/internal_requests.html /handbook/support/workflows/internal_requests/
-/handbook/support/workflows/setting_ticket_priority.html /handbook/support/workflows/setting_ticket_priority/
-/handbook/support/workflows/sidekiq_support.html /handbook/support/workflows/sidekiq_support/
-/handbook/support/workflows/knowledge_areas.html /handbook/support/workflows/knowledge_areas/
-/handbook/support/workflows/large_files.html /handbook/support/workflows/large_files/
-/handbook/support/workflows/team/performance_review.html /handbook/support/workflows/team/performance_review/
-/handbook/support/workflows/team/technical_interview.html /handbook/support/workflows/team/technical_interview/
-/handbook/support/workflows/team/weekly_team_call.html /handbook/support/workflows/team/weekly_team_call/
-/handbook/support/workflows/test_env.html /handbook/support/workflows/test_env/
-/handbook/support/workflows/ticketing_style_guide.html /handbook/support/workflows/ticketing_style_guide/
-/handbook/support/workflows/tracking_incidents.html /handbook/support/workflows/tracking_incidents/
-/handbook/support/workflows/ticket_triage.html /handbook/support/workflows/ticket_triage/
-/handbook/support/workflows/troubleshooting_kubernetes.html /handbook/support/workflows/troubleshooting_kubernetes/
-/handbook/support/workflows/admin_note.html /handbook/support/workflows/admin_note/
+/handbook/legal/privacy/us-state-privacy-disclosure/ https://about.gitlab.com/privacy/us-state-privacy-rights-and-disclosures/
+
+# Solutions Architecture Handbook Moved - remove 2025-06-01
+/handbook/customer-success/solutions-architects/sa-practices/strategic-solution-selling/ /handbook/solutions-architects/sa-practices/strategic-solution-selling/
+/handbook/customer-success/solutions-architects/sa-practices/technical-close-plan/ /handbook/solutions-architects/sa-practices/technical-close-plan/
+/handbook/customer-success/solutions-architects/sa-practices/recognizing-cognitive-bias/ /handbook/solutions-architects/sa-practices/recognizing-cognitive-bias/
+/handbook/customer-success/solutions-architects/sa-practices/subject-matter-experts/ /handbook/solutions-architects/sa-practices/subject-matter-experts/
+/handbook/customer-success/solutions-architects/sa-practices/sa-office-hours/ /handbook/solutions-architects/sa-practices/sa-office-hours/
+/handbook/customer-success/solutions-architects/sa-practices/business-value-consulting/ /handbook/solutions-architects/sa-practices/business-value-consulting/
+/handbook/customer-success/solutions-architects/sa-practices/day-in-the-life/ /handbook/solutions-architects/sa-practices/day-in-the-life/
+/handbook/customer-success/solutions-architects/sa-practices/ride-alongs/ /handbook/solutions-architects/sa-practices/ride-alongs/
+/handbook/customer-success/solutions-architects/sa-practices/monthly-release-quiz/ /handbook/solutions-architects/sa-practices/monthly-release-quiz/
+/handbook/customer-success/solutions-architects/sa-practices/technical-opportunity-plan/ /handbook/solutions-architects/sa-practices/technical-opportunity-plan/
+/handbook/customer-success/solutions-architects/sa-practices/gitlab-dedicated-prospects/ /handbook/solutions-architects/sa-practices/gitlab-dedicated-prospects/
+/handbook/customer-success/solutions-architects/sa-practices/effective-objection-handling-practice/ /handbook/solutions-architects/sa-practices/effective-objection-handling-practice/
+/handbook/customer-success/solutions-architects/sa-practices/sa-retrospective-feedback/ /handbook/solutions-architects/sa-practices/sa-retrospective-feedback/
+/handbook/customer-success/solutions-architects/sa-practices/value-stream-discovery/ /handbook/solutions-architects/sa-practices/value-stream-discovery/
+/handbook/customer-success/solutions-architects/sa-practices/selling-professional-services/ /handbook/solutions-architects/sa-practices/selling-professional-services/
+/handbook/customer-success/solutions-architects/sa-practices/communities-of-practice/integration-technologies/ /handbook/solutions-architects/sa-practices/communities-of-practice/integration-technologies/
+/handbook/customer-success/solutions-architects/sa-practices/communities-of-practice/ /handbook/solutions-architects/sa-practices/communities-of-practice/
+/handbook/customer-success/solutions-architects/sa-practices/ /handbook/solutions-architects/sa-practices/
+/handbook/customer-success/solutions-architects/sa-practices/deliberate-practice/ /handbook/solutions-architects/deliberate-practice/
+/handbook/customer-success/solutions-architects/tools-and-resources/pov/platform/ /handbook/solutions-architects/tools-and-resources/pov/platform/
+/handbook/customer-success/solutions-architects/tools-and-resources/pov/devsecops/ /handbook/solutions-architects/tools-and-resources/pov/devsecops/
+/handbook/customer-success/solutions-architects/tools-and-resources/pov/compliance/ /handbook/solutions-architects/tools-and-resources/pov/compliance/
+/handbook/customer-success/solutions-architects/tools-and-resources/pov/ /handbook/solutions-architects/tools-and-resources/pov/
+/handbook/customer-success/solutions-architects/tools-and-resources/pov/ai/ /handbook/solutions-architects/tools-and-resources/pov/ai/
+/handbook/customer-success/solutions-architects/tools-and-resources/pov/automation/ /handbook/solutions-architects/tools-and-resources/pov/automation/
+/handbook/customer-success/solutions-architects/tools-and-resources/rfp/ /handbook/solutions-architects/tools-and-resources/rfp/
+/handbook/customer-success/solutions-architects/tools-and-resources/trial-guidelines/ /handbook/solutions-architects/tools-and-resources/trial-guidelines/
+/handbook/customer-success/solutions-architects/tools-and-resources/workshop/ /handbook/solutions-architects/tools-and-resources/workshop/
+/handbook/customer-success/solutions-architects/tools-and-resources/ /handbook/solutions-architects/tools-and-resources/
+/handbook/customer-success/solutions-architects/sa-career-development/ /handbook/solutions-architects/sa-career-development/
+/handbook/customer-success/solutions-architects/sa-manager/sa-offsites/ /handbook/solutions-architects/sa-manager/sa-offsites/
+/handbook/customer-success/solutions-architects/sa-manager/ /handbook/solutions-architects/sa-manager/
+/handbook/customer-success/solutions-architects/processes/account-planning/ /handbook/solutions-architects/processes/account-planning/
+/handbook/customer-success/solutions-architects/processes/activity-capture/activity-desc/ /handbook/solutions-architects/processes/activity-capture/activity-desc/
+/handbook/customer-success/solutions-architects/processes/activity-capture/ /handbook/solutions-architects/processes/activity-capture/
+/handbook/customer-success/solutions-architects/processes/alliance/ /handbook/solutions-architects/processes/alliance/
+/handbook/customer-success/solutions-architects/processes/commercial/ /handbook/solutions-architects/processes/commercial/
+/handbook/customer-success/solutions-architects/processes/technical-discovery/ /handbook/solutions-architects/processes/technical-discovery/
+/handbook/customer-success/solutions-architects/processes/collaboration-project/ /handbook/solutions-architects/processes/collaboration-project/
+/handbook/customer-success/solutions-architects/processes/ /handbook/solutions-architects/processes/
+/handbook/customer-success/solutions-architects/processes/channel/ /handbook/solutions-architects/processes/channel/
+/handbook/customer-success/solutions-architects/sa-onboarding/ /handbook/solutions-architects/sa-onboarding/
+/handbook/customer-success/solutions-architects/demonstrations/ /handbook/solutions-architects/demonstrations/
+/handbook/customer-success/solutions-architects/sa-documentation/ /handbook/solutions-architects/sa-documentation/
+/handbook/customer-success/solutions-architects/sa-content/ /handbook/solutions-architects/sa-content/
+/handbook/customer-success/solutions-architects/sales-plays/ /handbook/solutions-architects/sales-plays/
+/handbook/customer-success/solutions-architects/strategic-field-org/ /handbook/solutions-architects/strategic-field-org/
+/handbook/customer-success/solutions-architects/demo-architect/ /handbook/solutions-architects/demo-architect/
+/handbook/customer-success/solutions-architects/ /handbook/solutions-architects/
+
+# Handbook doesn't use .html style page locations so repoint these
+/*.html /:splat/ 301

@@ -1,6 +1,5 @@
 ---
 title: "LEGACY: GitLab Subscription Agreement V4"
-description: "Learn more about the Legacy GitLab Subscription Agreement V4"
 ---
 
 ## Subscription Agreement

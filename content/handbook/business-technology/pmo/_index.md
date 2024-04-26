@@ -1,35 +1,32 @@
 ---
-
+layout: handbook-page-toc
 title: "IT Program Management Office"
 ---
 
-
-
 <link rel="stylesheet" type="text/css" href="/stylesheets/biztech.css" />
 
+## On this page
+{:.no_toc .hidden-md .hidden-lg}
 
-
-
-
-
+- TOC
+{:toc .hidden-md .hidden-lg}
 
 # <i id="biz-tech-icons" class="fas fa-map-marked-alt fa-fw"></i> Quick Links
 
 - [Governance and IT Program Management](/handbook/business-technology/pmo/pmo-governance/)
-
 # <i class="fas fa-users" id="biz-tech-icons"></i> IT PMO Team
 
-We are a global team of five, focused on building and managing world-class information technology systems and business processes. To learn more about our individual job functions, visit the [Program Management, Business Technology family page](/job-families/finance/program-management-bt/).
+We are a global team of five, focused on building and managing world-class information technology systems and business processes. To learn more about our individual job functions, visit the [Program Management, Business Technology family page](https://handbook.gitlab.com/job-families/finance/program-management-bt/).
 
 **Barbara Roncato - Manager, IT Program Management**  
 GitLab handle: [@broncato](https://gitlab.com/broncato)  
-Slack handle: `@barbara`
+Slack handle: `@barbara`   
 Location and Timezone: Portugal, WEST/GMT+1  
 LinkedIn Profile: [/roncatobarbara](https://www.linkedin.com/in/roncatobarbara/)
 
 **Caroline Swanson - Senior IT Program Manager**  
 GitLab handle: [@caroline.swanson](https://gitlab.com/caroline.swanson)  
-Slack handle: `@Caroline Swanson`
+Slack handle: `@Caroline Swanson`   
 Location and Timezone: USA, MDT/MST  
 LinkedIn Profile: [/caroline-smoke-swanson-pmp-a869b685](https://www.linkedin.com/in/caroline-smoke-swanson-pmp-a869b685/)
 
@@ -41,7 +38,7 @@ LinkedIn Profile: [/kayoko-cooper-a1063522](https://www.linkedin.com/in/kayoko-c
 
 **Kristina Koceban - Senior Business Systems Analyst**  
 GitLab handle: [@kkoceban](https://gitlab.com/kkoceban)  
-Slack handle: `@Kristina`
+Slack handle: `@Kristina`   
 Location and Timezone: Ireland, WEST/GMT+1  
 LinkedIn Profile: [/kristinakoceban](https://www.linkedin.com/in/kristinakoceban/)
 
@@ -75,7 +72,7 @@ The IT portfolio planning & prioritization process has 6 steps:
 
 ### IT Portfolio of Projects
 
-The inventory of all committed and planned projects for the quarter in IT Operations and Enterprise Applications. The [IT Portfolio: Quarterly Commits](https://docs.google.com/spreadsheets/d/1ojnTFGB2iYJz9kNPYdoLc4PeyDqAN60gu9cQBrKpHJQ/edit?pli=1#gid=1316376797) is available for internal team members to track IT planned initiatives. All projects on the IT Portfolio have a Team & Corporate Stack Ranke to align with the overall [global optimization](/handbook/values/#global-optimization).
+The inventory of all committed and planned projects for the quarter in IT Operations and Enterprise Applications. The [IT Portfolio: Quarterly Commits](https://docs.google.com/spreadsheets/d/1ojnTFGB2iYJz9kNPYdoLc4PeyDqAN60gu9cQBrKpHJQ/edit?pli=1#gid=1316376797) is available for internal team members to track IT planned initiatives. All projects on the IT Portfolio have a Team & Corporate Stack Ranke to align with the overall [global optimization](https://about.gitlab.com/handbook/values/#global-optimization). 
 
 ### IT Project Prioritization
 
@@ -107,7 +104,7 @@ Consists in identifying the project's:
 
 ### Alignment & OKRs
 
-All projects added to the [IT Portfolio: Quarterly Commits](https://docs.google.com/spreadsheets/d/1ojnTFGB2iYJz9kNPYdoLc4PeyDqAN60gu9cQBrKpHJQ/edit?pli=1#gid=955721517) are part of the Business Technology [OKRs](/handbook/company/okrs/) for:
+All projects added to the [IT Portfolio: Quarterly Commits](https://docs.google.com/spreadsheets/d/1ojnTFGB2iYJz9kNPYdoLc4PeyDqAN60gu9cQBrKpHJQ/edit?pli=1#gid=955721517) are part of the Business Technology [OKRs](https://about.gitlab.com/company/okrs/) for: 
 - Awareness
 - Accountability
 - Value Generation
@@ -115,14 +112,14 @@ All projects added to the [IT Portfolio: Quarterly Commits](https://docs.google.
 ## Release Management
 
 The release management plan helps the IT team:
-- Set an agreed upon standard
-- Operationalize
-- Keep consistency & predictability
+- Set an agreed upon standard 
+- Operationalize 
+- Keep consistency & predictability 
 - Communicate changes regularly and transparently
 
 ### Release Calendar
 
-![it-pmo](/handbook/business-technology/pmo/calendar.png)
+![it-pmo](/handbook/business-technology/pmo/calendar2024.png)
 
 # <i class="fas fa-bullhorn" id="biz-tech-icons"></i> How We Work
 
@@ -134,12 +131,22 @@ Visit the [Governance and IT Program Management](/handbook/business-technology/p
 - Engaging appropriate stakeholders in line with our value of collaboration.
 - Maintaining proper documentation for compliance, consistent with our transparency value.
 
+## IT PMO Intake Process
+
+Every week, the IT PMO Management team review the [IT-Intake-PMO](https://gitlab.com/groups/gitlab-com/-/boards/5982959?label_name[]=it-intake-pmo) board, with only a single outcome for the issues listed under the _Open_ list:
+
+- The issue is related to an ongoing project from the [IT Portfolio of Projects](/handbook/business-technology/pmo/#it-portfolio-of-projects) and it will be picked up by the IT Program Manager that is assigned to the project.
+   - IT PMO will add the appropriated [team label](/handbook/business-technology/pmo/#labels) and work with the business requestor to get all necessary information so the issue can be placed into the appropriated [EntApps Milestone]().
+- The issue **is not** related to an ongoing project from the [IT Portfolio of Projects](/handbook/business-technology/pmo/#it-portfolio-of-projects) and so it will be placed in the backlog in the [IT Prioritization tracker](/handbook/business-technology/pmo/#it-project-prioritization). The IT Prioritization tracker is reviewed during the [IT Portfolio Review (monthly) meeting](/handbook/business-technology/pmo/#it-portfolio-review-meetings-lead-to-cash-cro-and-ga)
+   - The _it-pmo-backlog_ label will be added.
+
 ## Project Epics & Issues
 
 When assigned to a project, the IT PMO team is responsible for creating and maintaining the project [Epic](https://docs.gitlab.com/ee/user/group/epics/index.html). A single parent Epic is created together with (up to) 5 [child Epics](https://docs.gitlab.com/ee/user/group/epics/manage_epics.html#multi-level-child-epics), each representing a distinct phase of the System Development Lifecycle (SDLC). [Issues](https://docs.gitlab.com/ee/user/project/issues/) are used as a means to collaborate on ideas, troubleshoot problems, and strategize for their tasks. By using issues, teams can share and discuss proposals internally or involve external collaborators in the process.
 
+
 To maintain uniformity across all PMO-led projects, the team follows the same [Epic templates](https://gitlab.com/gitlab-com/business-technology/enterprise-apps/intake/-/issues/394).
-{: .alert .alert-warning}
+
 
 ### System Development Lifecycle (SDLC)
 
@@ -148,39 +155,30 @@ The System Development Lifecycle outlines a structured set of activities conduct
 ![it-pmo](/handbook/business-technology/pmo/sdlc.png)
 
 #### Intake
-
 The intake process starts with the completion of a business requirements document. It is the bridge between business stakeholders defining what is to be worked on and the development group that will build it.
 
 #### Define
-
 During Define, the project team articulates the business problem and definition of done. This phase covers uses cases, technology impacted and requirements. The ultimate goal of Define is not to figure out everything but to document the process and what is impacted. Finally, before beginning the design, we request approval sign-off from key stakeholders to ensure business requirements are accurate and all-inclusive.
 
 #### Design
-
-This phase creates the roadmap of how things will work in the future. The project team work with the business to design a future state process and refine the requirements to build it. This phase should iron out all the details and questions from above.
+This phase creates the roadmap of how things will work in the future. The project team work with the business to design a future state process and refine the requirements to build it. This phase should iron out all the details and questions from above. 
 
 #### Build
-
 In the Build phase, the project team collaborates with other stakeholders to develop solutions that meet the business requirements but also that are scalable and aligned with best-practices.
 
 #### Test
-
 During the test phase, the project team collaborates with other stakeholders to develop test scripts and facilitates the user acceptance testing (UAT) process.
 
 #### Deploy
-
 The project team owns developing a deployment plan and collaborating with other implementation teams to ensure completeness. This involves launch plans, user enablement, and go-live communications.
 
 #### Hypercare
-
 Hypercare is the period that immediately follows the deployment / launch of a new process in Production where an elevated level of support is available to ensure the seamless adoption of a new system.
 
 #### Maintenance
-
 The maintenance phase occurs once the new process is fully operational to ensure it continues to function as it was designed to, and repairs or upgrades are performed as needed.
 
 ### Roadmap
-
 In order to track the progress of each program efficiently, all Epics are assigned a Start and End dates, and the [GitLab Roadmap](https://docs.gitlab.com/ee/user/group/roadmap/index.html) is used as a timeline.
 
 ### Issue Boards
@@ -210,7 +208,7 @@ To better organize and manage their work, the IT teams have different label cate
 
 ## Compliance Documentation
 
-The IT PMO team supports project stakeholders in gathering all the essential information required for SOX (Sarbanes-Oxley Act) and compliance purposes throughout the project's lifecycle. We have developed multiple templates following the [guidelines](/handbook/business-technology/pmo/pmo-governance/#clear-documentation-for-compliance) provided by the [IT Compliance team](/handbook/business-technology/it-compliance/). These templates aid in creating comprehensive and well-structured documentation, facilitating the gathering of essential information.
+The IT PMO team supports project stakeholders in gathering all the essential information required for SOX (Sarbanes-Oxley Act) and compliance purposes throughout the project's lifecycle. We have developed multiple templates following the [guidelines](/handbook/business-technology/pmo/pmo-governance/#clear-documentation-for-compliance) provided by the [IT Compliance team](https://about.gitlab.com/handbook/business-technology/it-compliance/). These templates aid in creating comprehensive and well-structured documentation, facilitating the gathering of essential information.
 
 The IT PMO team collaborates with project stakeholders to create these documents and ensures that all necessary approvals are captured within them.
 
@@ -223,33 +221,35 @@ The IT PMO team takes the lead in initiating discussions regarding enablement an
 There are several activities that take place to prepare for new OKRs / commits and report on the current ones:
 - **Project List & Priorities from Business**: The IT PMO team reaches out to Business stakeholders to get a list of projects and priorities for the upcoming quarter.
 - **Update OKR(s) progress**: The IT PMO works with IT Leadership to update the OKR(s) progress in gitlab.com.
-- **IT Corporate - Quarter Commits (First Pass)**: The IT Leadership team creates the first draft of the upcoming OKRs.
 - **IT PMO & Leadership - Upcoming Quarter Priorities Review**: The IT PMO team reviews the business projects and priorities with IT Leadership to add initiatives to the upcoming commits tracker.
-- **Quarter Commits - Corporate Rank**: The IT Leadership team adds a corporate rank to each upcoming quarter commit.
-- **Cross Functional Meeting - Quarter Commits Review**: IT PMO team hosts the `IT Portfolio: Quarter Planning` meeting to review the list of projects and priorities for the upcoming quarter with the Business stakeholders.
+- **Quarter Commits - Corporate Rank**: The IT Leadership works with the business leaders to rank the initiatives in order of priority for the company.
+
+- **Cross Functional Meeting - Quarter Commits Review**: IT PMO team hosts the `IT Portfolio: Quarter Planning` meetings to review the list of projects and priorities for the upcoming quarter with the Business stakeholders.
 - **IT PMO - Quarter Commits (Adjustments)**: The IT PMO team makes all the necessary adjustments to the upcoming quarter commits following the meeting with the Business stakeholders.
 - **IT Leadership - Quarter Commits (Adjustments)**: The IT Leadership team makes all the necessary adjustments to the upcoming quarter commits following the updates from the Corporate stakeholders.
-- **IT Leadership - Quarter Commits (Final Pass)**: The IT Leadership team finalizes the upcoming quarter commits.
-- **IT Corporate - Quarter Commits (Final Pass)**: The IT Leadership team finalizes the CFO upcoming quarter commits.
 - **Upcoming Quarter Commits Shared with the Business**: The IT PMO team shares the upcoming quarter commits with the Business stakeholders.
 - **Finalize Upcoming Quarter OKR(s)**: Upcoming quarter commits are completed.
 - **IT All Hands Quarterly Meeting**: The IT Leadership hosts the Quarterly IT All Hands.
 
-#### FY24 Q3 Calendar
-
-![it-pmo](/handbook/business-technology/pmo/it-pmo-fy24-q3.png)
-
-#### FY24 Q4 Calendar
-
-![it-pmo](/handbook/business-technology/pmo/it-pmo-fy24-q4-v2.png)
-
 #### FY25 Q1 Calendar
 
-![it-pmo](/handbook/business-technology/pmo/it-pmo-fy25-q1-v2.png)
+![it-pmo](/handbook/business-technology/pmo/it-pmo-fy25-q1.png)
+
+#### FY25 Q2 Calendar
+
+![it-pmo](/handbook/business-technology/pmo/it-pmo-fy25-q2.png)
+
+#### FY25 Q3 Calendar
+
+![it-pmo](/handbook/business-technology/pmo/it-pmo-fy25-q3.png)
+
+#### FY25 Q4 Calendar
+
+![it-pmo](/handbook/business-technology/pmo/it-pmo-fy25-q4.png)
 
 ## Weekly Roll Up Reporting
 
-The IT Integrations team designed the Rolly Bot, a tool aimed at automating the generation and distribution of weekly status updates. With this tool, the IT PMO Team can deliver consistent updates on ongoing projects. A new roll-up is produced every Monday.
+The IT Integrations team designed the Rolly Bot, a tool aimed at automating the generation and distribution of weekly status updates. With this tool, the IT PMO Team can deliver consistent updates on ongoing projects. A [new roll-up](https://gitlab.com/gitlab-com/business-technology/program-management-office/it-projects-reporting/-/issues) is produced every Monday.
 
 ## Definitions and terms used across the IT department
 
@@ -272,50 +272,42 @@ The IT Integrations team designed the Rolly Bot, a tool aimed at automating the 
 
 The main difference between a project and a change request in ITIL lies in their scope, nature, and the processes they follow. Projects are temporary, comprehensive efforts aimed at achieving specific goals, while change requests are smaller, routine or ad-hoc requests to modify existing IT services or configurations.
 
+
 # <i class="fas fa-file-alt" id="biz-tech-icons"></i> Meetings
 
 ## Meetings Protocol
 
-The team follows [GitLab meeting practices and standards](/handbook/company/culture/all-remote/meetings/).
+The team follows [GitLab meeting practices and standards](https://about.gitlab.com/company/culture/all-remote/meetings/).
 
 - Every meeting has an agenda.
 - All agendas are stored in the PMO Team Meetings [shared drive](https://drive.google.com/drive/folders/1nKgH2Q9PztXE388dbhUHxSh1Vy2V_vLz).
 - The IT PMO team lead all meetings related to projects.
 
-## No-Meetings Fridays
-
-While we can't promise we'll never have meetings on Fridays, the IT PMO team has adopted [No Meetings Fridays](/handbook/communication/).
-
 ## IT Governance
 
 ### IT Leadership Meeting
-
 - **Purpose**: Every week the IT Leadership team has a dedicated time to sync up and discuss current activities (urgent and important) that impacts the whole team.
    - **Frequency**: Weekly, on Thursdays
       - The time of this meeting may vary to accommodate the different timezones of the IT / Business Technology team members.
    - **Participants**: VP, IT (host), IT PMO, Enterprise Applications Leadership, IT Operations Leadership.
 
 ### IT Management Team Meetings
-
 - **Purpose**: Every week each IT functional team has a dedicated time to sync up and discuss current activities (urgent and important) that impacts the whole team.
    - **Frequency**: Weekly
       - The time of this meeting may vary to accommodate the different timezones of the IT / Business Technology team members.
    - **Participants**: IT Functional Teams.
 
 ### OKR Review
-
 - **Purpose**: Every month the IT Leadership team has a dedicated time to sync up and discuss current activities (urgent and important) that impacts the whole team.
    - **Frequency**: Monthly
    - **Participants**: VP, IT (host), IT PMO, Enterprise Applications Leadership, IT Operations Leadership.
 
 ### IT Key Review
-
 - **Purpose**: Key review meetings allow a functional group to stay updated on and discuss essential success measurements, such as: OKRs, KPIs, how the team is trending toward achieving goals, blocked tasks, new assignments, workstream changes, etc.
    - **Frequency**: Quarterly
-   - **Participants**: VP, IT (host), all GitLab.
+   - **Participants**: VP, IT (host), all GitLab. 
 
 ### IT All Hands
-
 - **Purpose**: Share company updates, stay connected, and receive feedback.
    - **Frequency**: Quarterly (on the first week of the new quarter)
    - **Participants**: VP, IT (host), all IT cross functional teams.
@@ -323,31 +315,26 @@ While we can't promise we'll never have meetings on Fridays, the IT PMO team has
 ## Stakeholder Management Meetings
 
 ### Project Status Meetings
-
 - **Purpose**: For each project led by the IT PMO team, a Project Status Meeting is organized to review the project's current state, address ongoing tasks, and discuss any blockers.
    - **Frequency**: Weekly or every 2 weeks
    - **Participants**: IT PMO (host), Business DRI(s), Project Subject Matter Experts (SMEs)
 
 ### IT Portfolio Review Meetings (Lead to Cash, CRO and G&A)
-
 - **Purpose**: During these meetings the IT PMO team discuss roadmap & timelines, shifts in priorities and alignment to goals.
    - **Frequency**: Monthly (on the third week of each month)
    - **Participants**: IT PMO (host), Business DRI(s).
 
 ### IT Portfolio: Quarter Planning (Lead to Cash, CRO and G&A)
-
 - **Purpose**: Discuss roadmap & timelines, shifts in priorities, alignment to goals. This is a strategic meeting to ensure that teams are aligned with their key business partners and have clarity on our shared roadmap.
    - **Frequency**: Quarterly (on the third week of the month before quarter end)
    - **Participants**: IT PMO (host), Business & IT Leadership.
 
-### IT SteerCo
-
+### IT SteerCo 
 - **Purpose**: Provide advice, ensure delivery of IT project outputs and the achievement of IT project outcomes.
    - **Frequency**: Quarterly
    - **Participants**: VP, IT (host), Business & IT Leadership.
 
 ### Budget Planning
-
 - **Purpose**: Discuss the company's budget and make adjustments as needed.
    - **Frequency**: Annual
    - **Participants**: Business & IT Leadership.
@@ -367,5 +354,3 @@ The IT PMO team primarily uses the below groups and projects on GitLab:
 
 
 {::options parse_block_html="false" /}
-
-

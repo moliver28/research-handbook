@@ -5,7 +5,7 @@ description: "GitLab.com Trust & Safety Team Overview"
 
 <link rel="stylesheet" type="text/css" href="/stylesheets/biztech.css" />
 
-The Trust and Safety team is a sub department of the Security Team at GitLab that forms part of the [Security Operations]({{< ref "/handbook/security/security-operations" >}}) subdepartment in [Security]({{< ref "/handbook/security" >}}) at GitLab Inc and are tasked with the mitigation of [Abuse on gitlab.com]({{< ref "abuse-on-gitlab-com" >}}).
+The Trust and Safety team is a sub department of the Security Team at GitLab that forms part of the [Security Operations](/handbook/security/security-operations) subdepartment in [Security](/handbook/security) at GitLab Inc and are tasked with the mitigation of [Abuse on gitlab.com]({{< ref "abuse-on-gitlab-com" >}}).
 
 ## Mission
 
@@ -21,12 +21,12 @@ We want to make our corner of the internet a little safer, but also be the best 
 
 ## Our Responsibilities
 
-- Detect user generated [Abuse on gitLab.com]({{< ref "abuse-on-gitlab-com" >}})
+- Detect user generated [Abuse on GitLab.com]({{< ref "abuse-on-gitlab-com" >}})
 - Review reported accounts for abusive activity on GitLab.com.
 - Remove user generated content on GitLab.com that violate of our [Terms of Service](https://about.gitlab.com/terms/).
 - Mitigating malicious user generated activity on GitLab.com.
 - Review Account Reinstatement requests.
-- Review [DMCA](https://about.gitlab.com/handbook/dmca/) (Digital Millennium Copyright Act) and Trademark Infringement notices.
+- Review [DMCA](/handbook/dmca/) (Digital Millennium Copyright Act) and Trademark Infringement notices.
 - Reporting malicious activity impacting GitLab.com to the relevant service providers.
 
 ### <i class="fas fa-users" id="biz-tech-icons"></i> The Team
@@ -41,27 +41,23 @@ We want to make our corner of the internet a little safer, but also be the best 
 <tbody>
 <tr>
 <td>Joanna Rubi</td>
-<td><a href="{{< ref "/job-families/security/trust-and-safety" >}}">Security Engineer, Trust & Safety</a></td>
+<td><a href="/job-families/security/trust-and-safety">Security Engineer, Trust & Safety</a></td>
 </tr>
 <tr>
 <td>Shawn Sichak</td>
-<td><a href="{{< ref "/job-families/security/trust-and-safety" >}}">Security Engineer, Trust & Safety</a></td>
+<td><a href="/job-families/security/trust-and-safety">Security Engineer, Trust & Safety</a></td>
 </tr>
 <tr>
 <td>Westley van den Berg</td>
-<td><a href="{{< ref "/job-families/security/trust-and-safety" >}}">Security Analyst, Trust & Safety</a></td>
-</tr>
-<tr>
-<td>Aaron Lindby</td>
-<td><a href="{{< ref "/job-families/security/trust-and-safety" >}}">Security Analyst, Trust & Safety</a></td>
+<td><a href="/job-families/security/trust-and-safety">Security Analyst, Trust & Safety</a></td>
 </tr>
 <tr>
 <td>Ruby Nealon</td>
-<td><a href="{{< ref "/job-families/security/trust-and-safety" >}}">Security Engineer, Trust & Safety</a></td>
+<td><a href="/job-families/security/trust-and-safety">Security Engineer, Trust & Safety</a></td>
 </tr>
 <tr>
 <td>Charl de Wit</td>
-<td><a href="{{< ref "/job-families/security/trust-and-safety" >}}">Security Manager, Trust & Safety</a></td>
+<td><a href="/job-families/security/trust-and-safety">Security Manager, Trust & Safety</a></td>
 </tr>
 </tbody>
 </table>
@@ -70,8 +66,8 @@ We want to make our corner of the internet a little safer, but also be the best 
 
 ### Reporting Abuse
 
-- To report **abusive** activity, see our [Abuse on Gitlab.com page]({{< ref "abuse-on-gitlab-com" >}}).
-- Copyright and Trademark infringements, see our [Intellectual Property on Gitlab.com page]({{< ref "intellectual-property-on-gitlab-com" >}}).
+- To report **abusive** activity, see our [Abuse on GitLab.com page]({{< ref "abuse-on-gitlab-com" >}}).
+- Copyright and Trademark infringements, see our [Intellectual Property on GitLab.com page]({{< ref "intellectual-property-on-gitlab-com" >}}).
 - Frequently Asked Questions, see our [FAQ page]({{< ref "./faq" >}}).
 
 ### Working with GitLab Trust and Safety Team
@@ -82,7 +78,7 @@ We want to make our corner of the internet a little safer, but also be the best 
 
 Feature proposals can be submitted for the following:
 
-- [Gitlab.com](https://gitlab.com/gitlab-com),
+- [GitLab.com](https://gitlab.com/gitlab-com),
 - GitLab [CE](https://about.gitlab.com/install/?version=ce) and;
 - GitLab [EE](https://about.gitlab.com/install/);
 
@@ -92,7 +88,7 @@ You can tag `@gitlab-com/gl-security/security-operations/trust-and-safety` and `
 
 - Slack: `#abuse` channel using the team Slack handle: `@trust-and-safety`
 - Non-urgent queries should be created in our [Operations Tracker](https://gitlab.com/gitlab-com/gl-security/security-operations/trust-and-safety/operations) or tag us (`@gitlab-com/gl-security/security-operations/trust-and-safety`) in the issue and notify us in the `#abuse` slack channel.
-- For `URGENT` issues that require the immediate attention of the Trust and Safety team you can page the Trust and Safety On-call by completing the [Create New Incident](https://gitlab.pagerduty.com/incidents/create?service_id=POH00VP) form in PagerDuty.
+- For `URGENT` issues that require the immediate attention of the Trust and Safety team, use the `/security` Slack slash command, the command triggers the `Trust and Safety Escalation Workflow` and requests that you file an incident using a form. The form asks questions about the incident, which will help the Trust and Safety Team automatically determine severity and priority. Depending on which labels get assigned, the Trust and Safety on-call will be paged.
   - `URGENT` Trust and Safety issues are defined as instances of user generated abuse :
       - *that is or has a high probability of resulting in service degradation or outages of `GitLab.com` and/or its features.*
       - *on `GitLab.com` that has the potential of causing significant legal, financial or reputational damage or liability to the company.*

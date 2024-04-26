@@ -1,10 +1,7 @@
 ---
 title: "Access Review Procedure"
+controlled_document: true
 ---
-
-{{% alert title="This is a Controlled Document" color="danger" %}}
-Inline with GitLab's regulatory obligations, changes to [controlled documents]({{< ref "controlled-document-procedure" >}}) must be approved or merged by a code owner. All contributions are welcome and encouraged.
-{{% /alert %}}
 
 ## Purpose
 
@@ -161,12 +158,12 @@ The following fields are the most comprehensive to assist in performing a thorou
 
 ## Exceptions
 
-Exceptions to this procedure will be tracked as per the [Information Security Policy Exception Management Process]({{< ref "/handbook/security#information-security-policy-exception-management-process" >}}).
+Exceptions to this procedure will be tracked as per the [Information Security Policy Exception Management Process](/handbook/security#information-security-policy-exception-management-process).
 
 ## <i class="fas fa-book" style="color:rgb(110,73,203)" aria-hidden="true"></i> References
 
 - [Identification & Authentication Security Controls]({{< ref "sec-controls" >}})
-- [Access Requests handbook page](/handbook/business-technology/team-member-enablement/onboarding-access-requests/access-requests/)
+- [Access Requests handbook page](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/)
 - [Access Management Policy]({{< ref "access-management-policy" >}})
 
 <a href="{{< ref "security-assurance" >}}" class="btn bg-primary text-white btn-lg">Return to the Field Security Homepage</a>

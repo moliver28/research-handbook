@@ -1,0 +1,38 @@
+<!-- To edit the content, see: https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/stages.yml -->
+{{- $manager := "" }}
+{{- $counterparts := slice }}
+
+{{- with (.Get "manager") }}
+    {{- $manager = . }}
+{{- end }}
+{{- with (.Get "manager-role") }}
+    {{- $member := where site.Data.public.team "role" "like" . }}
+    {{- $manager = (index $member 0).slug }}
+{{- end }}
+
+{{- with (.Get "role") }}
+    {{ $members := where (where (where site.Data.public.team "role" "like" .) "reports_to" "ne" $manager) "slug" "ne" $manager }}
+    {{ $counterparts = append $members $counterparts }}
+{{- end }}
+
+{{- with (.Get "other-manager-roles") }}
+    {{- $members := where site.Data.public.team "role" "like" . }}
+    {{- range $members }}
+        {{ $counterparts = where $counterparts "reports_to" "ne" .slug }}
+    {{- end }}
+{{- end }}
+
+<table>
+    <thead>
+        <th>Name</th>
+        <th>Role</th>
+    </thead>
+    <tbody>
+        {{- range $counterparts }}
+          <tr>
+              <td>{{ partial "member/with-team-link" . }}</td>
+              <td>{{ .role | safe.HTML }}</td>
+          </tr>
+          {{- end }}
+    </tbody>
+</table>

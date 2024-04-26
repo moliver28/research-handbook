@@ -137,7 +137,7 @@ The program DRI should establish a clear escalation process so that if a program
 
 There should be a clear program timeline with sprints defined so that we can deliver the program in smaller increments. There should be clarity around key requirement deadlines, delivery milestones, testing timelines so that everyone is clear. The program timeline should consider company holidays, enablement time and consider adding additional time for complex requirements (if needed).
 
-The IT PMO team uses the [Gitlab Roadmap](https://docs.gitlab.com/ee/user/group/roadmap/#roadmap) feature to track the progress of each program.
+The IT PMO team uses the [GitLab Roadmap](https://docs.gitlab.com/ee/user/group/roadmap/#roadmap) feature to track the progress of each program.
 {: .alert .alert-warning}
 
 ### Clear documentation for data model
@@ -156,7 +156,7 @@ The relevant controls that need to be documented in these programs are these thr
    - Process for making changes.
    - Even if owned by the vendor after request, can we request changes? Do we need to test/approve?<br>
    - In many cases we should have a process to document those changes internally and test even if the change is ultimately implemented by the vendor.  We should always review the SOC 1 or 2 report to understand our responsibilities.
-   - While the work to execute the control can be assigned to the vendor, the ultimate responsibility for effective execution of the control lies with Gitlab. (i.e. if the vendor executes the control on behalf of Gitlab inadequately, Gitlab may still be required to report the deficiency of the SOX control)
+   - While the work to execute the control can be assigned to the vendor, the ultimate responsibility for effective execution of the control lies with GitLab. (i.e. if the vendor executes the control on behalf of GitLab inadequately, GitLab may still be required to report the deficiency of the SOX control)
 
 
 #### Program Development / Implementation of the system (1 time controls)

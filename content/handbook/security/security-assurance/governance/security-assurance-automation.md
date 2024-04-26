@@ -51,7 +51,7 @@ The Security Assurance Automation team is continuously engineering new automated
 
 #### Dashboarding
 
-[Sisense Dashboarding](https://app.periscopedata.com/app/gitlab/1092210/ZenGRC_Observations) - Custom dashboards using our analytic tool that integrates with data sources across GitLab.
+[Tableau Dashboarding](https://10az.online.tableau.com/#/site/gitlab/views/DRAFTZenGRCObservations/ZenGRCObservationsDashboard) - Custom dashboards using our analytic tool that integrates with data sources across GitLab.
 
 [Insight Dashboarding](https://docs.gitlab.com/ee/user/group/insights/index.html#configure-your-insights) - Custom issue analytic dashboards native to GitLab.
 
@@ -84,7 +84,7 @@ As a result of the planning stage, we determine the feasibility of a particular 
 
 During the analysis stage, we continue to gather details to support accepted projects. Projects are broken down into individual components to support an agile approach to development. Those individual components are represented as child issues under the project Epic or associated tasks/issues for smaller bodies of work.
 
-Each issue to be worked in a given iteration is assigned a weight. The total weight of the Epic allows us to gauge the level of effort required to accomplish a particular project as well as plan for each bi-weekly iteration so we maintain a consistent velocity. Similar to [Security Automation](content/handbook/security/security-engineering/automation.md), we assign time weights to issues according to the [Fibonacci sequence](https://en.wikipedia.org/wiki/Fibonacci_sequence) since the complexity of a problem does not increase linearly, but rather exponentially.
+Each issue to be worked in a given iteration is assigned a weight. The total weight of the Epic allows us to gauge the level of effort required to accomplish a particular project as well as plan for each bi-weekly iteration so we maintain a consistent velocity. We assign time weights to issues according to the [Fibonacci sequence](https://en.wikipedia.org/wiki/Fibonacci_sequence) since the complexity of a problem does not increase linearly, but rather exponentially.
 
 | Weight | Level of Effort |
 | -------- | ---------- |
@@ -112,7 +112,7 @@ Security Assurance Automation Engineers run tests on their code to identify bugs
 
 During this stage, code is moved from the Sec Auto Dev pipeline into the Sec Auto Live pipeline. If an automation request requires web hosting or a server, the automation will live in the Sec Auto Live private GCP instance.
 
-Once the code is ready for final review, a team member from Security Assurance or Security Automation will review the code and merge the branch. The project is moved to a "Done" state when the solution is operating in an automated private pipeline.
+Once the code is ready for final review, a team member from Security Assurance will review the code and merge the branch. The project is moved to a "Done" state when the solution is operating in an automated private pipeline.
 
 ### Maintenance
 
@@ -166,3 +166,10 @@ Potential ratings can and should change (hopefully for the better) through techn
 Once current level is assessed - add the scoped label `ControlAutomationPotentialLevel::Level-X` to the epic/issue.
 
  *Note: When assessing potential, try to be realistic but ambitious. If you're rating potential as a 6 because you think that if the entire platform a process is currently operated in were to change, the process could reach a level 6 but otherwise the potential level is a level 3, that may not be an appropriate rating. On the other hand, if you think a potential level is a 6 if the team that operates the control were to moderately adapt their processes, that may be an appropriate rating.*
+
+## <i class="fas fa-id-card" style="color:rgb(110,73,203)" aria-hidden="true"></i> Contact the Team
+
+[Donovan Felton](/handbook/company/team/#dfelton), @dfelton, Security Assurance Engineer, Automation
+
+- [Automation design, development, and implementation]({{< ref "security-assurance-automation" >}})
+- [GRC application administration]({{< ref "security-assurance#core-tools-and-systems-1" >}})

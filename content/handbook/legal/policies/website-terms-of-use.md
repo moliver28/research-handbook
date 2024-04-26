@@ -1,6 +1,5 @@
 ---
 title: "GitLab Website Terms of Use"
-description: "These terms ..."
 ---
 
 Last updated: 28 April 2022
@@ -9,7 +8,7 @@ Last updated: 28 April 2022
 
 **PLEASE READ THIS AGREEMENT CAREFULLY BEFORE ACCESSING OR USING THE WEBSITE. BY ACCESSING OR USING ANY PART OF THE WEBSITE, YOU AGREE TO BE BOUND BY THE TERMS AND CONDITIONS OF THIS AGREEMENT. IF YOU DO NOT AGREE TO THE TERMS AND CONDITIONS OF THIS AGREEMENT, THEN YOU MAY NOT ACCESS THE WEBSITE. THE WEBSITE IS AVAILABLE ONLY TO INDIVIDUALS WHO ARE AT LEAST 13 YEARS OLD.**
 
-These Website Terms of Use (the “Agreement”) govern all use of the GitLab.com website, or other website(s) owned and operated by GitLab (the “Website”). The Website is offered subject to your acceptance, without modification, to the terms and conditions contained herein as updated subject to this Agreement. For the avoidance of doubt, this Agreement does not control or govern your use of the GitLab products and services. Please visit the [GitLab Terms Page](/terms/) to see the applicable agreement(s) related to your use of GitLab products and services.
+These Website Terms of Use (the “Agreement”) govern all use of the GitLab.com website, or other website(s) owned and operated by GitLab (the “Website”). The Website is offered subject to your acceptance, without modification, to the terms and conditions contained herein as updated subject to this Agreement. For the avoidance of doubt, this Agreement does not control or govern your use of the GitLab products and services. Please visit the [GitLab Terms Page](https://about.gitlab.com/terms/) to see the applicable agreement(s) related to your use of GitLab products and services.
 
 ### 1. Website Eligibility.
 
@@ -39,7 +38,7 @@ These Website Terms of Use (the “Agreement”) govern all use of the GitLab.co
 
 ### 4. DMCA and Privacy Policies
 
-**4.1.** As GitLab asks others to respect its intellectual property rights, it respects the intellectual property rights of others. If you believe that Content located on or linked to the Website violates your copyright, you are encouraged to notify GitLab in accordance with our [DMCA policy](https://about.gitlab.com/handbook/dmca/).
+**4.1.** As GitLab asks others to respect its intellectual property rights, it respects the intellectual property rights of others. If you believe that Content located on or linked to the Website violates your copyright, you are encouraged to notify GitLab in accordance with our [DMCA policy](/handbook/dmca/).
 
 **4.2.** Your use of the Website  is subject to the [GitLab Privacy Policy](https://about.gitlab.com/privacy/), which is incorporated herein by reference.
 

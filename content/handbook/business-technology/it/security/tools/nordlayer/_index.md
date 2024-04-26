@@ -11,4 +11,4 @@ description: "What is NordLayer?"
 
 
 
-This page has moved to [/handbook/it/guides/nordlayer](/handbook/it/guides/nordlayer).
+This page has moved to the [internal handbook](https://internal.gitlab.com/handbook/it/it-self-service/it-guides/nordlayer/).

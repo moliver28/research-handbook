@@ -19,9 +19,9 @@ The questions and techniques described on this page will provide you with some w
 
 Asking open-ended questions is the most effective way to get clarity from the customer about what they are trying to do, what their priorities are at the moment, and their plans for the future. Calling back to your Command of Message trainig, don't forget about TED. This acronym  provides a basic framework of open-ended questions to ask during customer calls.
 
-*T* Tell me about...  
-*E* Explain for me...  
-*D* Describe for me...  
+*T* Tell me about...
+*E* Explain for me...
+*D* Describe for me...
 
 ## “Where do we go from here?”
 
@@ -127,7 +127,7 @@ We also want to ask about Stage Adoption metrics so that we can tie their GitLab
   - Do you look for known vulnerabilities in your external dependencies?
 - **Release**
   - Are you using GitLab to deploy your applications?
-  - Do you use GitLab pages to create, manage and deploy static sites?
+  - Do you use GitLab Pages to create, manage and deploy static sites?
   - Are you making use of review apps to get a full production like environment in every merge request?
   - How do you currently manage your releases? (i.e. versioning, release notes, etc.)
 - **Configure**

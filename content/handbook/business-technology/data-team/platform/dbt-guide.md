@@ -16,8 +16,8 @@ description: "data build tool (dbt) Guide"
 
 ## Quick Links
 
-[Primary Project](https://gitlab.com/gitlab-data/analytics/){:.btn .btn-purple-inv}
-[dbt docs](https://dbt.gitlabdata.com/){:.btn .btn-purple-inv}
+- [Primary Project](https://gitlab.com/gitlab-data/analytics/)
+- [dbt docs](https://dbt.gitlabdata.com/)
 
 ## What and why
 
@@ -51,7 +51,7 @@ A full list of packages available are on the [dbt Hub site](https://hub.getdbt.c
 
 If you're interested in using dbt, the [dbt documentation has a great tutorial](https://tutorial.getdbt.com/tutorial/setting-up/) on getting setup to work on data from a fictional business called Jaffle Shop.
 
-If you wish to use dbt and contribute to the data team project, you'll need to gain access to our Snowflake instance, which can be done via an [access request](/handbook/business-technology/team-member-enablement/onboarding-access-requests/access-requests/).
+If you wish to use dbt and contribute to the data team project, you'll need to gain access to our Snowflake instance, which can be done via an [access request](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/).
 
 ### Configuration
 
@@ -144,22 +144,37 @@ We use virtual environments for local dbt development because it ensures that ea
 
 #### Cloning models locally
 
-The following commands enable zero copy cloning using DBT selections syntax to clone entire lineages. This is far faster and more cost-effective than running the models using DBT but do not run any DBT validations. As such, all dbt users are encourage to use these commands to set up your environment.
-- Ensure you have dbt setup and are able to run models
-- These local commands run using the SnowFlake user configured in `/.dbt/profiles.yml`, and will skip any table which your user does not have permissions to.  
-- These commands run using the same logic as the dbt CI pipelines, using the DBT_MODELS as a variable to select a given lineage.
-- You need to be in the `/analytics` directory to run these commands.
-- Because the `make` commands for local cloning are not part of the virtual environment, the suggested workflow is to run local clone operations in a separate terminal window from the terminal window that's running your dbt virtual environment.
-- If you encounter an error as below:
+This command enables zero copy cloning using DBT selections syntax to clone entire lineages. This is far faster and more cost-effective than running the models using DBT but do not run any DBT validations. As such, all dbt users are encouraged to use this command to set up your environment.
 
+**Prerequisites:**
+
+- Ensure you have dbt setup and are able to run models
+- These local commands run using the SnowFlake user configured in `/.dbt/profiles.yml`, and will skip any table which your user does not have permissions to.
+- These commands run using the same logic as the dbt CI pipelines, using the `DBT_MODELS` as a variable to select a given lineage.
+- You need to be in the `/analytics` directory to run these commands.
+
+**Usage:**
+
+To use the new `clone-dbt-select-local-user-noscript` command, you have to specify a `DBT_MODELS` variable. For example, to clone only the `dim_subscription` model, you would execute the following command:
+```
+make DBT_MODELS="dim_subscription" clone-dbt-select-local-user-noscript
+```
+This will clone the DBT model from the `prod` branch into your local user database (i.e., `{user_name}_PROD`). You can use dbt selectors: @, +, etc to select the entire lineage that you want to copy over your local database.
+
+**Tips:**
+
+- If you encounter an error as below:
 ```
 Compilation Error
   dbt found 7 package(s) specified in packages.yml, but only 0 package(s) installed in dbt_packages. Run "dbt deps" to install package dependencies.
 ```
+  - Run `make dbt-deps` from the root of the analytics folder and retry the command.
 
-  - Run `make dbt-deps` from the root of the analytics folder and retry the command.  
+**Transition Note:**
 
-##### Cloning into local user DB
+We are actively transitioning to the new `clone-dbt-select-local-user-noscript` command. The old `clone-dbt-select-local-user` command will still be available for a limited time, but we encourage you to start using the new command as soon as possible.
+
+##### Cloning into local user DB (python scripts - pre-`dbt clone`)
 
 - This clones the given DBT model lineage into the active branch DB (ie. `{user_name}_PROD`)
   - `make DBT_MODELS="<dbt_selector>" clone-dbt-select-local-user`
@@ -865,7 +880,7 @@ This configuration can be done using the `generate_warehouse_name` macro within 
 
 ### Sample Data in Development
 
-To streamline local development on local models, a way to sample, or use a subset of the data, is made available to the developers. This tool will allow developers the option of using sample data, or full data depending on what the situation calls for, allowing them to iterate quickly on the structure of models using sample data and then switch to full data when validation is needed. Using this in conjunction with local cloning of tables should improve the developer cycle time.  
+To streamline local development on local models, a way to sample, or use a subset of the data, is made available to the developers. This tool will allow developers the option of using sample data, or full data depending on what the situation calls for, allowing them to iterate quickly on the structure of models using sample data and then switch to full data when validation is needed. Using this in conjunction with local cloning of tables should improve the developer cycle time.
 
 When selecting the tool to use, the developer should consider speed gained from the tool and the consequence of leaving the sampling in the code. A Random Sample is easy to add to the code, but if left in the code base, it puts the quality of the production data at risk, whereas a Sample Table will take longer to set up, but has no risk to the production data.
 
@@ -906,7 +921,7 @@ Workflow steps:
       - name: dim_date
         clause: "{{ sample_table(3) }}"
 
-    # Or 
+    # Or
 
     samples:
       - name: dim_date
@@ -926,7 +941,7 @@ Workflow steps:
   - Override the `local_data` variable to be `full-data` as part of the dbt execution
 
     ```
-    dbt run -s dim_date --vars 'local_data: full_data'    
+    dbt run -s dim_date --vars 'local_data: full_data'
     ```
 
 - Remove sample configuration
@@ -989,14 +1004,13 @@ We implement 12 categories of Trusted Data Framework (TDF) monitors and tests (m
 1. [Schema tests](/handbook/business-technology/data-team/platform/dbt-guide/#schema-tests) to validate the integrity of a schema
 1. [Column Value tests](/handbook/business-technology/data-team/platform/dbt-guide/#column-value-tests) to determine if the data value in a column matches pre-defined thresholds or literals
 1. [Rowcount tests](/handbook/business-technology/data-team/platform/dbt-guide/#rowcount-tests) to determine if the number of rows in a table over a pre-defined period of time match pre-defined thresholds or literals
-1. [Golden Data tests](/handbook/business-technology/data-team/platform/dbt-guide/#golden-data-tests) to determine if pre-defined high-value data exists in a table
 1. [Custom SQL tests](/handbook/business-technology/data-team/platform/dbt-guide/#custom-sql) any valid SQL that doesn't conform to the above categories
 
 Our tests are stored in 2 primary places - either in a YAML file within our [main project](https://gitlab.com/gitlab-data/analytics) or within our [Data Tests](https://gitlab.com/gitlab-data/data-tests) project.
 
 Schema and Column Value tests will usually be in the main project. These will be in `schema.yml` and `sources.yml` files in the same directory as the models they represent.
 
-Rowcount, Golden Data, and any other custom SQL tests will always be in the [Data Tests](https://gitlab.com/gitlab-data/data-tests) project. This is a private project for internal GitLab use only.
+Rowcount, and any other custom SQL tests will always be in the [Data Tests](https://gitlab.com/gitlab-data/data-tests) project. This is a private project for internal GitLab use only.
 
 ##### Tagging
 
@@ -1152,51 +1166,6 @@ Purpose: We have a fast-growing business and should always have at least 50 and 
 
 ```
 
-#### Golden Data Tests
-
-Some data is so important it should always exist in your data warehouse and should never change: your top customer's record, the 2019 total global users count, the KPI result when you passed 1,000,000 subscriptions. Some of these cases can be solved by a developing new database capabilities, but this can be complicated and may not always match your existing data processing workflow. In addition, bugs can be accidentally added to data transforms or someone can accidentally run a bad UPDATE versus a critical production table. The Golden Data test is a specialized type of Column Value test that validates the existence of a known data literal and helps catch these problems when they occur.
-
-Golden Data tests are implemented using CSVs. To preserve privacy and to enable users to encode any data they need to, we store the Golden Data CSVs in the [Data Tests](https://gitlab.com/gitlab-data/data-tests/-/tree/main/) project under the `/data` folder.  These files are imported into our production runs as a [dbt package](https://docs.getdbt.com/docs/building-a-dbt-project/package-management/) and uploaded in the `prep.tdf` schema.
-
-Users can create a test that uses the Golden Data Macros to run the comparison.
-
-##### Golden Data Test Examples
-
-Purpose: ACME is our most important customer. This test validates ACME is always in our DIM_ACCOUNT table. This is controlled by the [`model_golden_data_comparison`](https://dbt.gitlabdata.com/#!/macro/macro.gitlab_snowflake.model_golden_data_comparison) macro.
-
-```csv
--- dim_account_golden_data
-account_name, account_status, account_currency, is_deleted, crm_id
-ACME, Active, USD, FALSE, 0016100001BrzkTQZY
-```
-
-```sql
-{{ config({
-    "tags": ["tdf","dim_account"]
-    })
-}}
-
-{{ model_golden_data_comparison('dim_account') }}
-```
-
-Similarly, if this same data exists in a source table in the RAW database, the format would be as shown below. This is controlled by the [`source_golden_data_comparison`](https://dbt.gitlabdata.com/#!/macro/macro.gitlab_snowflake.source_golden_data_comparison) macro.
-
-
-```csv
--- sfdc_account_raw_golden_data
-name, status, currency, deleted, id
-ACME, Active, USD, FALSE, 0016100001BrzkTQZY
-```
-
-```sql
-{{ config({
-    "tags": ["tdf","sfdc"]
-    })
-}}
-
-{{ source_golden_records_comparison('sfdc','account') }}
-```
-
 #### Custom SQL
 
 You may have a test in mind that doesn't fit into any of the above categories. You can also write arbitrary SQL as a test. The key point to keep in mind is that the test is *passing* if no rows are returned. If any rows are returned from the query, then the test would fail.
@@ -1271,17 +1240,6 @@ To run the `zuora_revenue_revenue_contract_line_source` rowcount tests, we can u
 
 > :warning:  Please note, whenever you make changes to the underlying tests in the data-tests project, you need to push those changes to the remote and re-run steps 3-5,  to start a dbt container with the latest changes from your branch.
 
-
-#### Trusted Data Operations Dashboard
-
-The Trusted Data Operations Dashboard is used to quickly evaluate the health of the Data Warehouse. The most important data is presented in a simple business-friendly way with clear color-coded content for test PASS or FAIL status.
-
-<iframe class="dashboard-embed" src="https://app.periscopedata.com/shared/09d9881e-f5ac-474c-b5a3-cc21b2b96d33??embed=true" height="700"> </iframe>
-
-#### Trusted Data Health Dashboard
-
-Trusted data health dashboard gives business partners a high level overview of health status if the data in the Snowflake Data-warehouse could be trusted or not. This is defined based on criteria such as if quality checks are met, date until data is refreshed and if the data is up to date. Health Status in the dashboard is presented separately for Data extraction (RAW data layer) and Data transformation (Prod data layer) with a  PASS, FAIL, WARNING status and color coded accordingly to give business partners better insights into status of the data.
-
 ##### Data extraction (RAW data layer)
 
 Data extraction is loading data from the source system to Snowflake data warehouse in the RAW data layer.
@@ -1289,8 +1247,6 @@ Data extraction is loading data from the source system to Snowflake data warehou
 ##### Data transformation (Prod data layer)
 
 Data transformation is downstream transformation via dbt for Dimensions, Facts, Marts and reports models.
-
-<iframe class="dashboard-embed" src="https://app.periscopedata.com/app/gitlab/891891/WIP-TD:-Trusted-Data-Health-Dashboard" height="700"> </iframe>
 
 ### Snapshots
 
@@ -1343,7 +1299,7 @@ The following is an example of how we implement a snapshot:
 
 #### Snapshot Model Types
 
-While the DBT Snapshot tables are built directly over sources to capture changed records, tables are built over the snapshots to be used for analysis.  
+While the DBT Snapshot tables are built directly over sources to capture changed records, tables are built over the snapshots to be used for analysis.
 1. A DBT Snapshot model captures changed records for a single table.
    - The single table being snapshotted may be a Source table or a table already being used for analysis.
    - A Snapshot table is defined with {% snapshot table_name %} in the configuration section of the model.
@@ -1359,7 +1315,7 @@ The `strategy` to determine when a new snaphot record is written can be configur
 
 The `record version` is determined by the `dbt_valid_from` and `dbt_valid_to` columns.  These TIMESTAMP columns are created automatically by DBT and utilized by the snapshot model to determine the timeframe of each snapshotted row.
  - When a new snapshot record is written, `dbt_valid_from` has the current date time and.  `dbt_valid_to` is NULL to show this is the most recent snapshot row.
- - `dbt_valid_to` in the previous version of the record is updated with the same current date time as the new record.  
+ - `dbt_valid_to` in the previous version of the record is updated with the same current date time as the new record.
 
 DBT Snapshots, by default, are loaded incrementally. Records that have changed are picked up each time the snapshot operation runs.
 
@@ -1373,7 +1329,7 @@ DBT Snapshots, by default, are loaded incrementally. Records that have changed a
 
 **Snapshot Model Type Features**
 
-The different types of snapshots are determined by basic features used when building models with snapshot data.  
+The different types of snapshots are determined by basic features used when building models with snapshot data.
 
 Some basic features of Snapshot models are:
 - `DBT Snapshot` - The DBT Snapshot model is built in RAW over a single table and is not available for analysis
@@ -1382,7 +1338,7 @@ Some basic features of Snapshot models are:
 - `History Rebuild` - Model built over one or more Snapshot models using the same logic used to build out the SCD Dimension.  The history in these models can be rebuilt if the columns or logic changes.
 
 **Snapshot Model Type Examples:**
-- Snapshot Methods used for ARR Data can be found [HERE](/handbook/business-technology/data-team/data-catalog/finance-arr/)  
+- Snapshot Methods used for ARR Data can be found [HERE](/handbook/business-technology/data-team/data-catalog/finance-arr/)
 - Here are examples of snapshot models with the variation of features that help determine the type:
 
 | DBT Snapshot | Over Snapshot | Spined Dates | History ReBuild | Example                          |
@@ -1413,9 +1369,9 @@ Sometimes the data team receives requests to delete personal data from the Snowf
 
 There are 2 flavours:
 1. The GDPR deletion request applies to all GitLab sources, and therefore all tables in the data warehouse need to be checked and updated. [Macro](https://dbt.gitlabdata.com/#!/macro/macro.gitlab_snowflake.gdpr_delete). Use this macro if the issue that requesting a GDPR deletion states `Deletion Request (Full)` (in either the title or issue description).
-2. The GDPR deletion request applies to only GitLab.com related sources and therefore only Gitlab.com related tables in the data warehouse need to be checked and updated. [Macro](https://dbt.gitlabdata.com/#!/macro/macro.gitlab_snowflake.gdpr_delete_gitlab_dotcom). Use this macro only if the issue that requesting a GDPR deletion states `Deletion Request (GitLab.com Only` (in either the title or issue description).
+2. The GDPR deletion request applies to only GitLab.com related sources and therefore only GitLab.com related tables in the data warehouse need to be checked and updated. [Macro](https://dbt.gitlabdata.com/#!/macro/macro.gitlab_snowflake.gdpr_delete_gitlab_dotcom). Use this macro only if the issue that requesting a GDPR deletion states `Deletion Request (GitLab.com Only` (in either the title or issue description).
 
-Specific to the second flavour, check when creating a new snapshot model or rename an existing snapshot model, if the `dbt` macro covers the models involved. Check if the filtering in the macro applies to the applicable snapshot tables in case of a GDPR deletions request for Gitlab.com only related sources.
+Specific to the second flavour, check when creating a new snapshot model or rename an existing snapshot model, if the `dbt` macro covers the models involved. Check if the filtering in the macro applies to the applicable snapshot tables in case of a GDPR deletions request for GitLab.com only related sources.
 
 #### Make snapshots table available in prod database
 
@@ -1455,63 +1411,8 @@ If you are using date spining to generate record for each day, consider material
 
 ### Testing Downstream Impact
 
-As a way to manually test the downstream impact of the changes made to dbt models the `sisense_check.py` is included within the transform dbt project.  This script will check the [Periscope](https://gitlab.com/gitlab-data/periscope/-/tree/periscope/master) and [Sisense Safe](https://gitlab.com/gitlab-data/sisense-safe/-/tree/periscope/master) repositories for views, snippets, dashboards, and charts that reference any of a provided list of dbt models.  With the output of the this script individual views, snippets, and charts can be manually evaluated for column level impact.
+To manually review the downstream impacts a change to a model may have use the asset and filed level lineage in [Monte Carlo](https://getmontecarlo.com/).
 
-To provide a list of models to check use the [`dbt list`](https://docs.getdbt.com/reference/commands/list) command with relevant conditions to output the desired set of models and export the list of a file named `to_check.txt`.
-
-```
-dbt list -m sfdc_account_source+ netsuite_transaction_lines_source+ --exclude date_details dim_date > to_check.txt
-```
-
-The script assumes that the Periscope and the Sisense Safe repositories are checked out in the same parent directory as the analytics repository.  If the repository is not checked out the script will not return any results, additionally if the repository is not up to date the results may be incomplete.   The script will check for nested references, a table is references in a snippet that is then referenced in a chart, adding the nested references to the output of the check.  However, the script will only check for direct database references in the following schemas:
-- legacy
-- boneyard
-- common*
-- restricted_safe*
-- workspace*
-
-
-Running the script will produce a JSON, `sisense_elements.json` file as an output that will contain the name of all of the views, snippets, dashboards, and charts that reference and of the models provided to check.
-
-```json
-"mart_arr": {
-        "periscope-snippets": [
-            "base_pricing_customer_overview.sql",
-            "mrarr_base.sql",
-            "nf_ptb_account_features.sql"
-        ],
-        "periscope-dashboards": {
-            "Investor Relations": [
-                "Licensed users -- Saas/self-managed",
-                "Total ARPU Breakdown",
-                "Customer (Parent Customer) Count by ARR Buckets"
-            ]
-        },
-        "sisense-safe-dashboards": {
-            "TD: ARR per Licensed User (ARPU)": [
-                "Customer ARR by Product, Sales Segment, Account Owner Team",
-                "Total ARPU Breakdown",
-                "ARPU: Self-Managed by Customer Segment",
-                "ARPU: Other by Customer Segment",
-                "ARPU: Total"
-            ],
-        }
-}
-```
-
-Views and snippets included in the output will be surrounded by square brackets `[]` and listed at the same level of the output as the models checked.
-
-```json
-    "[nf_ptb_account_features]": {
-        "sisense-safe-dashboards": {
-            "NF - WIP Sandbox": [
-                "ARR per Periods - Extra data",
-                "SMB - ARR per Periods - Extra data",
-                "Current Period - PTB For Prediction"
-            ]
-        }
-    }
-```
 
 ### Dropping DBT Models
 
@@ -1520,7 +1421,7 @@ Here is an [Example MR](https://gitlab.com/gitlab-data/analytics/-/merge_request
 
 ## Model Performance
 
-Performance should be balanced between model execution times, which directly affect Snowflake Credit spend, and developer time, which impacts how long a developer is waiting during development, troubleshooting, and bug fixes. Generally, model execution should strike a balance between running as fast as possible and with as little cost as possible. This can be a difficult balance as some of the methods to improve run time also increase the cost, however there are methods and techniques that can be used to achieve both improved run time and decreased cost. As the number and complexity of models grow, general model run time performance criteria is needed. The overall performance goals for the data warehouse are that:  
+Performance should be balanced between model execution times, which directly affect Snowflake Credit spend, and developer time, which impacts how long a developer is waiting during development, troubleshooting, and bug fixes. Generally, model execution should strike a balance between running as fast as possible and with as little cost as possible. This can be a difficult balance as some of the methods to improve run time also increase the cost, however there are methods and techniques that can be used to achieve both improved run time and decreased cost. As the number and complexity of models grow, general model run time performance criteria is needed. The overall performance goals for the data warehouse are that:
 
 - All models should individually execute in less than 60 minutes.
 - All models should be run on the smallest warehouse allowable
@@ -1628,7 +1529,7 @@ Using the [model_build_performance](https://gitlab.com/gitlab-data/runbooks/-/bl
 #### Check model Run Time
 
 If the model run time is less than `L` then the effort needed to improve the model is not likely to yield significant returns at this time and the model can be left as it is.
-  
+
 #### Check the Model Efficiency
 
 A Model Efficiency worse than Acceptable, represents significant spillage thus reducing the performance because of the Remote and Local disk reads.

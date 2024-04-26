@@ -1,13 +1,10 @@
 ---
-title: "GitLab Security Essentials - Hands-On Lab"
+title: "GitLab Security Essentials - Hands-On Lab: Enable and Configure Dependency Scanning"
 description: "This Hands-On Guide walks you through the lab exercises used in the GitLab Security Essentials course."
 ---
 
-# Lab 2: Enable and Configure Dependency Scanning
 
 > Estimated time to complete: 15 to 30 minutes
-
-> **You are viewing the latest Version 16.x instructions.** You are using v16 if your group URL is `https://gitlab.com/gitlab-learn-labs/...`. If your group URL starts with `https://ilt.gitlabtraining.cloud` or `https://spt.gitlabtraining.cloud`, please use the [Version 15.x instructions](https://gitlab.com/gitlab-com/content-sites/handbook/-/blob/d14ee71aeac2054c72ce96e8b35ba2511f86a7ca/content/handbook/customer-success/professional-services-engineering/education-services/secessentialshandson2.md).
 
 ## Objectives
 
@@ -23,30 +20,50 @@ Before beginning this lab and all later labs, you should disable any scanners th
 
     > If you closed the tab or lost the link, open a browser tab and start typing `https://gitlab.com/gitlab-learn-labs` in your URL and the group should appear in your history.
 
-2. To disable a scanner, add a hash before the template that enables it in `.gitlab-ci.yml`. For example, to disable the scanners configured in Lab 1, make these edits to your existing `.gitlab-ci.yml`.
+2. To disable a scanner, add a hash before the template that enables it in `.gitlab-ci.yml`. For example, the DAST scanner takes some time to run, so, to disable the DAST scanner configured in Lab 1, make these edits to your existing `.gitlab-ci.yml`.
 
     ```yml
+    stages:
+    - test
+    #- dast
+
     include:
-    # - template: Security/SAST.gitlab-ci.yml
-    # - template: Security/Secret-Detection.gitlab-ci.yml
-    # - template: DAST.gitlab-ci.yml
+    - template: Security/SAST.gitlab-ci.yml
+    - template: Security/Secret-Detection.gitlab-ci.yml
+    #- template: DAST.gitlab-ci.yml
+
+    variables:
+      SAST_EXCLUDED_PATHS: venv/
+      #DAST_WEBSITE: https://example.com
+
+    secret_detection:
+      variables:
+        SECRET_DETECTION_EXCLUDED_PATHS: tests/
     ```
 
     > It is also possible to disable these features by setting CI variables on the project, such as `DAST_DISABLE=true` and `SECRET_DETECTION_DISABLE=true`. Learn more in the <a target="_blank" href="https://docs.gitlab.com/ee/topics/autodevops/cicd_variables.html#job-disabling-variables">documentation</a>.
 
-3. When you disable any scanners that use templates, you'll also need to comment out or remove any job definitions that you overrode while configuring the disabled scanners. For example, since you overrode the `secret_detection` job that was defined by the Secret Detection template, you need to comment out the overriding job definition:
+    > It is important to leave at least one job active in your `.gitlab-ci.yml` file. If there are no jobs defined in the pipeline, it will fail to run.
 
-    ```yml
-    #secret_detection:
-    # variables:
-    #   SECRET_DETECTION_EXCLUDED_PATHS: tests/
-    ```
+## Turn Off Auto DevOps
+
+> Before proceeding with this section, to avoid any conflicts between our CI/CD configuration and Auto DevOps, you should confirm that Auto DevOps is disabled in your project.
+
+1. In the left sidebar, navigate to **Settings > CI/CD**.
+
+1. Click on the **Expand** button next to Auto DevOps.
+
+1. Ensure that **Default to Auto DevOps pipeline** is unchecked.
+
+1. Click the **Save changes** button.
+
+1. In the left sidebar, navigate to **Code > Repository** to return to your code.
 
 ## Task A. Add Project Dependencies
 
 > Python-based projects often use pip for package management. With pip, developers will often provide a list of dependencies in a file called `requirements.txt`.
 
-> Although this example uses Python with the pip package manager, GitLab supports various other package managers. For a full list of supported languages and package managers, see the <a target="_blank" href="https://docs.gitlab.com/ee/user/application_security/dependency_scanning/#supported-languages-and-package-managers"></a>.
+> Although this example uses Python with the pip package manager, GitLab supports various other package managers. For a full list of supported languages and package managers, click [here](https://docs.gitlab.com/ee/user/application_security/dependency_scanning/#supported-languages-and-package-managers).
 
 1. In your `Security Labs` project, navigate to **Code > Repository**.
 
@@ -101,8 +118,9 @@ Before beginning this lab and all later labs, you should disable any scanners th
 
     > For a full list of variables available for dependency scanning, see the <a target="_blank" href="https://docs.gitlab.com/ee/user/application_security/dependency_scanning/#available-cicd-variables">documentation</a>.
 
-1. Commit this change to the **main** branch, using `Change log level for Python dependency scanner` as a
-commit message. This commit triggers a pipeline run using your new Dependency Scanning configuration.
+1. Commit this change to the **main** branch, using `Change log level for Python dependency scanner` as a commit message. Click **Commit changes**. 
+
+    > This commit triggers a pipeline run using your new Dependency Scanning configuration.
 
 1. Navigate to **Build > Pipelines** and wait for the most recent pipeline to finish. If you want to watch its progress, go to the pipeline’s details page and click on the job the **gemnasium-python-dependency_scanning** pill button to see the console output for the job. Remember that Dependency Scanning can take a few minutes to run.
 

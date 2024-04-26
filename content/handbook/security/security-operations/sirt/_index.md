@@ -45,12 +45,12 @@ Ensure maximum operational uptime of mission critical infrastructure and informa
     - Incident response support and coordination
     - Incident response resolution
     - Detection and response engineering
-1. Proactive - Services designed to improve the infrastructure  and security  processes of Gitlab before any incident occurs or is detected. The main goals are to avoid incidents and to reduce the impact and scope when they do occur.
+1. Proactive - Services designed to improve the infrastructure  and security  processes of GitLab before any incident occurs or is detected. The main goals are to avoid incidents and to reduce the impact and scope when they do occur.
     - Cyber Threat Analysis of vulnerability warnings and security advisories
     - Monitor Adversaries' activities and related trends to help identify future threats
     - Configuration and maintenance of security tools, applications, and infrastructure
     - Detection and response engineering
-1. Administrative - Services design to assist with requests from Gitlab's Legal and HR Departments.
+1. Administrative - Services design to assist with requests from GitLab's Legal and HR Departments.
 
 ## <i class="fas fa-bullseye" id="biz-tech-icons"></i> Engaging SIRT
 

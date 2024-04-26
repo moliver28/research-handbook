@@ -12,7 +12,7 @@ For more information about various uses of Jira Please check out the [Get starte
 
 ### How to Set Up Jira Server
 
-1. You need to create an instance from the [Support-resources](https://gitlab.com/gitlab-com/support/support-resources/). Ensure nothing is using port 443. We will set up Jira to use HTTPS for Gitlab integration.
+1. You need to create an instance from the [Support-resources](https://gitlab.com/gitlab-com/support/support-resources/). Ensure nothing is using port 443. We will set up Jira to use HTTPS for GitLab integration.
 
 #### Prerequisite software
 

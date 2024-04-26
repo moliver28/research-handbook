@@ -22,7 +22,7 @@ While any team can contribute features to any stage, it is recommended to loop i
 
 Below is a guide to help other product groups understand how to work on these areas and quickly locate the best parties who may assist on the subject matter.
 
-This section is modeled after the engineering handbook version of [ownership of shared services and components](https://about.gitlab.com/handbook/engineering/development/#ownership-of-shared-services-and-components).
+This section is modeled after the engineering handbook version of [ownership of shared services and components](/handbook/engineering/development/#ownership-of-shared-services-and-components).
 
 ### Existing Cross-Stage Capabilities
 - [Merge Requests](https://docs.gitlab.com/ee/user/project/merge_requests/) - also see [collaboration process](/handbook/product/cross-stage-features/merge-requests) 

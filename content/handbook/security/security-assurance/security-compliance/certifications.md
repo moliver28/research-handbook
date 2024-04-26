@@ -35,6 +35,7 @@ Are you looking for security certifications/attestations for GitLab Dedicated? P
    - This standard establishes guidelines for information security controls applicable to the provision and use of cloud services.
 - [ISO/IEC 27018:2019](https://www.iso.org/standard/76559.html) Certification
    - This standard establishes commonly accepted control objectives, controls and guidelines for implementing measures to protect Personally Identifiable Information (PII).
+- [Trusted Information Security Assessment Exchange (TISAX)](https://enx.com/en-us/tisax/) AL2 certification for Information with High Protection and High Availability requirements.
 - [ISO/IEC 20243-1:2018](https://www.iso.org/standard/74399.html) Self Assessment
    - This is a set of guidelines, requirements, and recommendations that address specific threats to the integrity of hardware and software COTS ICT products throughout the product life cycle. Scoped to GitLab.com and GitLab self managed.
 - [PCI DSS SAQ-A](https://www.pcisecuritystandards.org/pci_security/completing_self_assessment) Self-Assessment
@@ -43,23 +44,30 @@ Are you looking for security certifications/attestations for GitLab Dedicated? P
    - Based off the Cloud Controls Matrix and the CSA Code of Conduct for GDPR Compliance.
 - [CSA Trusted Cloud Provider](https://cloudsecurityalliance.org/artifacts/trusted-cloud-provider-faq/)
 - [Standardized Information Gathering Questionnaire](https://sharedassessments.org/sig/) Self-Assessment
-- [Annual Third Party Penetration Test]({{< ref "/handbook/security/penetration-testing-policy" >}})
+- [Annual Third Party Penetration Test](/handbook/security/penetration-testing-policy)
 
 ### Planned (Roadmap)
 
 The following security certifications and attestations are currently on our roadmap for consideration and have not yet been formally committed or contracted:
 
-Year(s): FY24
-
-- [SOC 2 Type 2 Report](https://www.aicpa.org/interestareas/frc/assuranceadvisoryservices/aicpasoc2report.html)
-- [ISO/IEC 27001:2013](https://www.iso.org/isoiec-27001-information-security.html) Certification: Surveillance audit
-- [Software Bill of Materials (SBOM)](https://www.whitehouse.gov/briefing-room/presidential-actions/2021/05/12/executive-order-on-improving-the-nations-cybersecurity/)
-- [PCI Attestation of Compliance](https://www.pcisecuritystandards.org/)
-- [Cloud Security Alliance (CSA) Star Level 2](https://cloudsecurityalliance.org/star/)
-
 Year(s): FY25
 
+- [SOC 2 Type 2 Report](https://www.aicpa.org/interestareas/frc/assuranceadvisoryservices/aicpasoc2report.html)
+- [ISO/IEC 27001:2022](https://www.iso.org/isoiec-27001-information-security.html) Certification
+- [Trusted Information Security Assessment Exchange (TISAX)](https://enx.com/en-us/tisax/) AL2 certification for Information with High Protection and High Availability requirements (roll forward)
+- [PCI Attestation of Compliance](https://www.pcisecuritystandards.org/)
+
+Year(s): FY26
+
+- [SOC 2 Type 2 Report](https://www.aicpa.org/interestareas/frc/assuranceadvisoryservices/aicpasoc2report.html)
 - [ISO/IEC 27001:2022](https://www.iso.org/isoiec-27001-information-security.html) Certification: Recertification
+- [Trusted Information Security Assessment Exchange (TISAX)](https://enx.com/en-us/tisax/) AL2 certification for Information with High Protection and High Availability requirements (roll forward)
+
+Under Consideration:
+
+- [Software Bill of Materials (SBOM)](https://www.whitehouse.gov/briefing-room/presidential-actions/2021/05/12/executive-order-on-improving-the-nations-cybersecurity/)
+- [Cloud Security Alliance (CSA) Star Level 2](https://cloudsecurityalliance.org/star/)
+- [SOC 2 Type 2 Report](https://www.aicpa.org/interestareas/frc/assuranceadvisoryservices/aicpasoc2report.html) + Privacy Criteria
 
 ## Requesting Evidence of Certifications or Attestations
 

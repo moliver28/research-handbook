@@ -271,10 +271,10 @@ The key to identifying more GitLab Premium and GitLab Ultimate opportunities is 
 - Review the battle card and discovery questions [here](https://about.gitlab.com/competition/github/)
 
 ### Competing/Selling Against Microsoft Azure DevOps
-- Review the battle card and discovery questions [here](/competition/azure/)
+- Review the battle card and discovery questions [here](https://about.gitlab.com/blog/2020/07/09/integrating-azure-devops-scm-and-gitlab/)
 
 ### Competing/Selling against BitBucket
-- Review the battle card and discovery questions [here](/competition/bitbucket/)
+- Review the battle card and discovery questions [here](https://about.gitlab.com/blog/2016/01/27/comparing-terms-gitlab-github-bitbucket/)
 
 ### Customer is Using Jira
 - How would you describe the current implementation of Jira within your organization?

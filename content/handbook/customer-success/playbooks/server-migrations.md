@@ -93,7 +93,5 @@ There are a number of teams and tools that can assist the CSM and the customer i
 - [GitLab Performance Tool](https://gitlab.com/gitlab-org/quality/performance) - This is the best tool for testing the performance of the new server and is what our Quality team uses for testing our own reference architectures.
 - [GitLab Smoke Tests](https://gitlab.com/gitlab-com/support/toolbox/gitlab-smoke-tests) - This test uses GitLab CI to quickly test if GitLab features are working as intended.
 - [GitLab Support](https://gitlab.com/gitlab-com/support/support-team-meta) - If a customer with Premium support has break-fix issues during their migration, our Support team can help.
-- [Reference Architecture Group](https://about.gitlab.com/handbook/engineering/quality/quality-engineering/self-managed-excellence/#reference-architectures) - An internal group led by the Quality team that built and maintains GitLab's reference architectures. They can help analyze GitLab Performance Tool results and provide consultation and recommendations on the use of our reference architectures.
+- [Reference Architecture Group](/handbook/engineering/quality/quality-engineering/self-managed-excellence/#reference-architectures) - An internal group led by the Quality team that built and maintains GitLab's reference architectures. They can help analyze GitLab Performance Tool results and provide consultation and recommendations on the use of our reference architectures.
 - GitLab Geo - This team is best reached via our internal Slack in **#g_geo**.
-
-engineering/quality/quality-engineering/self-managed-excellence/index.html#reference-architectures

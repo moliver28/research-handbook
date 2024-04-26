@@ -14,69 +14,184 @@ As per
 > when a ticket has been opened. Another can be created to then notify the
 > customer when the ticket is solved.
 
-## How do we maintain them?
+## Change management
 
-Instead of managing Zendesk triggers via Zendesk itself, we instead use GitLab
-projects to maintain them. This allows us to have version-controlled triggers.
+Keep in mind, all change management should be stemming from an issue, first and
+foremost.
 
-You can find our Zendesk trigger projects via:
+#### Creating a new trigger with managed content
 
-- [Zendesk Global](https://gitlab.com/gitlab-com/support/support-ops/zendesk-global/triggers)
-- [Zendesk US Federal](https://gitlab.com/gitlab-com/support/support-ops/zendesk-us-federal/triggers)
+When your new trigger is going to be using managed content, you will first
+need to get the managed content file in the Support managed content project.
+Remember to use the correct filenames for all of this to prevent
+[Pipeline error “No managed content file”](#pipeline-error-no-managed-content-file)
+in the sync repo project later on.
 
-## Creating a trigger via Zendesk
+Only after that has been done should you proceed to the next steps, which will
+match the steps detailed in
+[Creating a new trigger without managed content](#creating-a-new-trigger-without-managed-content)
+exactly.
 
-To create a trigger in Zendesk, you first need to go to the Admin Center
-([Zendesk Global](https://gitlab.zendesk.com/admin/) /
-[Zendesk US Federal](https://gitlab-federal-support.zendesk.com/admin/)). From
-there, you need to go to the Triggers page (Objects and rules > Business rules >
-Triggers).
+#### Creating a new trigger without managed content
 
-After doing so, you will then click the `Add trigger` button on the top-right
-side of the page. This will then load up the new trigger page.
+This is a bit simpler than creating one with managed content. You will start by
+creating a placeholder trigger within Zendesk itself (as you will need the ID
+for the sync repo). To do this, open up the admin page of your corresponding
+Zendesk instance ([Global](https://gitlab.zendesk.com/admin) or
+[US Government](https://gitlab-federal-support.zendesk.com/admin)), click
+`Objects and rules` on the left-hand side, and then click `Triggers`. On this
+page, you will want to click `Add trigger`. This will bring up the new trigger
+page.
 
-From here, you will:
+On this page, you will do the following:
 
-1. enter a title for the trigger.
-1. select a category for the trigger.
-1. enter the conditions that **all** must be met to activate this trigger.
-1. enter the conditions of which **any** of them can activate this trigger (in
-   conjunction with the **all** conditions).
-1. enter the actions for the trigger to perform
+- Set the name to "Placeholder for ISSUE_LINK" (replacing `ISSUE_LINK` with the
+  link to the issue you are working out of).
+- Select the category you plan on the trigger being in
+- Set an `all` conditons of:
+  - `Brand` `is not` `GitLab`
+- Set an action of:
+  - `Brand` `GitLab`
 
-After doing this, you will then click the blue `Create trigger` button.
+After doing so, click the blue `Create` button. You will then locate the
+placeholder trigger you just created and get the ID value from it (if you click
+it, you can see it in the URL).
 
-**Note**: By default, the trigger's position will be set to the bottom of the
-select category. To adjust this, see [Positioning](#positioning).
+From here, create the merge request in the sync repo project. Keep in mind you
+are likely to need to adjust **many** trigger files due to positioning.
 
-## Editing a trigger via Zendesk
+#### Updating an existing trigger
 
-Editing a Zendesk trigger is very similar to
-[creating one](#creating-a-trigger-via-zendesk). You will follow the same
-steps to get to the triggers page. Instead of clicking the `Add trigger`
-button, you will instead locate the trigger to edit in the list and click on
-the title (if your trigger is currently inactive, you will need to click the
-dropdown under `Status` and select `Inactive`).
+Updating an existing trigger is considerably easier than creating a new one.
+Simply change change the code in the source project and it will occur via the
+sync repo.
 
-Doing so will bring up the trigger editor page. From here, you can tweak the
-various aspects of the trigger. Once you have the edits in place, ensure the
-dropdown at the bottom right says `Update` and click the blue `Submit` button.
+The one caveat you need to consider is when you are changing a trigger to allow
+for managed content (or to disable it using managed content).
 
-## Deactivating a trigger via Zendesk
+If you are adding managed content for the automation, see
+[Creating a new trigger with managed content](creating-a-new-trigger-with-managed-content)
+as that process will detail setting up the connection.
 
-There are actually two ways to deactivate a trigger in the Zendesk UI. The
-quicker way is to go to the triggers page, locate the trigger in question, hover
-over it, and click the three vertical dots on the right-hand side. This will
-bring up a sub-menu, which contains the option to `Deactivate`. Click that
-option and the trigger will be deactivated.
+If you are removing managed content for the trigger, you will simply change the
+the trigger file in the source sync repo project via your merge request. After
+that has been merged, you will want to comment on the original issue asking the
+requester to remove the file from the corresponding Support managed content
+project.
 
-The alternative way to deactivate a trigger in the Zendesk UI is from within
-the trigger editor page. At the bottom right, ensure the drop-down says
-`Deactivate` and then click the blue `Submit` button.
+#### Deactivating a trigger
 
-**Note**: Deactivating a trigger does not change its position. This value is
-retained in the backend. Re-enabling the trigger will have it take the same
-position it was in while previously active.
+To deactivate a trigger, you will simply change the trigger file in the source
+sync repo project via your merge request. Ensure you merge request does the
+following:
+
+- Moves the file from the `data/active` folder to the `data/inactive` folder
+- Sets `active: true` to `active: false` in the file.
+- Set an `all` conditons of:
+  - `Brand` `is not` `GitLab`
+- Set an action of:
+  - `Brand` `GitLab`
+
+#### Deleting a deactivated trigger
+
+**NOTE** We avoid doing this unless a trigger has been deactivated for a full
+year. After that point it can be deleted completely. Do also note that this
+will result in a complete change to `positions` and can cause the need for
+subsequent merge requests to the sync repo project.
+
+To delete a trigger, you need to purge it from multiple locations:
+
+- Sync repo project
+- Support managed content project
+- Zendesk itself
+
+The first two can be done via merge requests, but the last one has to be done in
+the Zendesk instance itself. To do this, open up the admin page of your
+corresponding Zendesk instance ([Global](https://gitlab.zendesk.com/admin) or
+[US Government](https://gitlab-federal-support.zendesk.com/admin)), click
+`Objects and rules` on the left-hand side, and then click `Triggers`. On this
+page, you will want to click the `Status` dropdown and select `Inactive`. You
+will then locate the trigger to delete, hover over it, click the three vertical
+dots at the right-hand side, and then click `Delete` This will cause a pop-up
+modal to appear asking you to confirm the action. Click red `Delete trigger`
+button to do so.
+
+## Troubleshooting
+
+#### Pipeline error "No managed content file"
+
+This happens when we have said a managed content file should exist, but the git
+submodule does not contain one. This is commonly caused by:
+
+- The file does not actually exist. If this is the case, you need to assist in
+  getting it created in the Support managed content project
+- Filename mismatches. This all works very specifically using naming
+  conventions. If there is something even *slightly* off, your pipelines will
+  encounter issues. The scripts are looking for a file that has the **exact**
+  same name as the triggers's `title` and be within a corresponding folder using
+  the same name as the trigger's category. So if your trigger has a title of
+  `Do a Thing` and it is within the category `Assignee`, the corresponding
+  Support managed content project should have a file with the same name in the
+  corresponding category folder (`Assignee/Do a Thing.md`). You will need to
+  assist in correcting that on the Support managed content project first, and
+  then rebase your merge request after that is done.
+- You created the merge request in the source project before the file was added
+  to the Support managed content project. To rectify this, get the Support
+  managed content project MR completed and merged first. Once that has been
+  done, you can rebase your MR by making a comment of `/rebase`. After it
+  performs the rebase, your MR's CI/CD pipeline should pass.
+
+#### Pipeline error "Blank ID"
+
+This means the script detected a YAML file within `data/active` or
+`data/inactive` that has an `id` value of blank (or nil). You will need to
+locate the file mentioned in the error and correct that.
+
+#### Pipeline error "Blank position"
+
+This means the script detected a YAML file within `data/active` or
+`data/inactive` that has an `position` value of blank (or nil). You will need to
+locate the file mentioned in the error and correct that.
+
+#### Pipeline error "Blank title"
+
+This means the script detected a YAML file within `data/active` or
+`data/inactive` that has an `title` value of blank (or nil). You will need to
+locate the file mentioned in the error and correct that.
+
+#### Pipeline error "Inactive trigger in active folder"
+
+This means the script detected a YAML file within `data/active` that has an
+`active` value of `false`. You will need to locate the file mentioned in the
+error and correct that.
+
+#### Pipeline error "Active trigger in inactive folder"
+
+This means the script detected a YAML file within `data/inactive` that has an
+`active` value of anything other than `false`. You will need to locate the file
+mentioned in the error and correct that.
+
+#### Pipeline error "GitLab errors"
+
+This is a generic error message that will detail some error that occurred when
+trying to either create or update the tag used on the source project. The exact
+steps to fix this will vary based on the nature of the error itself. You will
+need to review the error and determine the next steps from there.
+
+If you are unsure how to proceed, it is best to seek assistance from the wider
+team.
+
+## Source Projects
+
+#### Zendesk Global
+
+- [Support managed content project](https://gitlab.com/gitlab-com/support/zendesk-global/triggers)
+- [Sync repo project](https://gitlab.com/gitlab-support-readiness/zendesk-global/triggers)
+
+#### Zendesk US Government
+
+- [Support managed content project](https://gitlab.com/gitlab-com/support/zendesk-us-government/triggers)
+- [Sync repo project](https://gitlab.com/gitlab-support-readiness/zendesk-us-government/triggers)
 
 ## Positioning
 
@@ -128,23 +243,3 @@ succinct. As an example, if you wanted a trigger to only run when the form is
 `Support Ops`, it is better to simply put a condition of "Form is Support Ops"
 than adding exclusions for *every* other form. This can take time and practice
 to learn, so when in doubt, pair with the rest of the Support Ops team!
-
-## Change management
-
-As these are maintained via sync repositories, our standard change management
-process applies to all Zendesk triggers. See
-[standard change management](/handbook/support/readiness/operations/docs/change_management#standard-change-management)
-for more information.
-
-#### Labels to use
-
-For all issues and MRs involving triggers, the label
-`Support-Ops-Category::Triggers` should be used.
-
-#### Change criticality
-
-Due to the nature and impact adding/editing/deleting Zendesk triggers imposes,
-all issues/MRs related to Zendesk triggers will be classified as either
-[criticality 1](/handbook/support/readiness/operations/docs/change_criticalities#criticality-1)
-or
-[criticality 2](/handbook/support/readiness/operations/docs/change_criticalities#criticality-2)

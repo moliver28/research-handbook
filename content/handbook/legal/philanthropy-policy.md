@@ -1,6 +1,6 @@
 ---
 title: "GitLab Inc. Philanthropy Policy"
-description: "View Gitlab's Philanthropy Policy"
+description: "View GitLab's Philanthropy Policy"
 ---
 
 ## GitLab Inc. Philanthropy Policy

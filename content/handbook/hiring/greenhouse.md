@@ -6,7 +6,7 @@ description: "Greenhouse is GitLab's ATS (Applicant Tracking System). All Hiring
 
 ### How to join Greenhouse
 
-[Greenhouse](https://www.greenhouse.io) is GitLab's ATS (Applicant Tracking System). All Hiring Managers and Interviewers will use Greenhouse to review resumes, provide feedback, communicate with candidates, and more.
+[Greenhouse](https://www.greenhouse.com/) is GitLab's ATS (Applicant Tracking System). All Hiring Managers and Interviewers will use Greenhouse to review resumes, provide feedback, communicate with candidates, and more.
 
 You can log into Greenhouse in your Okta homepage. All GitLab team-members are granted *Basic* access, which will allow you to track *Referral* submissions, interview candidates (if assigned to a requisition), and share requisition postings on social media. Until your access is changed by an Admin, you will only have access to the Greenhouse [dashboard](https://app2.greenhouse.io/dashboard).
 

@@ -1,11 +1,8 @@
 ---
 title: Anti-Retaliation Policy
 description: "GitLab's Anti-Retaliation Policy to establish guidance for reporting ethics or compliance concerns or other inappropriate behavior while providing protection against retaliation for reporting in good faith."
+controlled_document: true
 ---
-
-{{% alert title="This is a Controlled Document" color="danger" %}}
-Inline with GitLab's regulatory obligations, changes to [controlled documents]({{< ref "controlled-document-procedure" >}}) must be approved or merged by a code owner. All contributions are welcome and encouraged.
-{{% /alert %}}
 
 GITLAB INC.
 {.h1}

@@ -10,7 +10,7 @@ GitLab receives vulnerability reports by various pathways, including:
 - Reports or questions that come in from customers through Zendesk.
 - Issues opened on the public issue trackers. The security team can not review
 all new issues and relies on everyone in the company to identify and label
-issues as `~bug::vulnerability` and @-mention `@gitlab-com/gl-security/appsec` on issues.
+issues as `~bug::vulnerability` and @-mention `@gitlab-com/gl-security/product-security/appsec` on issues.
 - Issues reported by automated security scanning tools
 
 For **any** reported vulnerability:
@@ -19,6 +19,7 @@ For **any** reported vulnerability:
 is verified. If the vulnerability was reported via a public issue, make the issue confidential.
 If triage is delayed due to team availability, the delay should be communicated.
 - Add `~security` and `~bug::vulnerability` labels to the issue.  Add the appropriate group label if known.
+- Add the `~Weakness::CWE-XXX` label, where the `XXX` is the weakness related [CWE](https://cwe.mitre.org/data/index.html) ID.
 - An initial determination should be made as to severity and impact. Never **dismiss** a security report outright. Instead, follow up with the reporter, asking clarifying questions.
 - For next steps, see the process as it is detailed below for HackerOne reports, and adhere to the guidelines there for vulnerabilities reported in other ways as well in terms of frequency of communication and so forth.
 - Remember to prepare patches, blog posts, email templates, etc. [following the security release process](https://gitlab.com/gitlab-org/release/docs/-/blob/master/general/security/developer.md) or in other non-public ways even if there is a reason to believe that the vulnerability is already out in the public domain (e.g. the original report was made in a public issue that was later made confidential).
@@ -105,7 +106,7 @@ https://handbook.gitlab.com/handbook/security/
 
 ## Creating New Security Issues
 
-Use [the Vulnerability Disclosure issue template](https://gitlab.com/gitlab-org/gitlab/-/issues/new?issuable_template=Vulnerability%20Disclosure) to report a new security vulnerability, or use our [HackerOne bug bounty program](https://hackerone.com/gitlab).
+Use [the Vulnerability Disclosure issue template](https://gitlab.com/gitlab-org/gitlab/-/issues/new?issuable_template=Vulnerability%20Disclosure) to report a new security vulnerability, or use our [HackerOne bug bounty program](https://hackerone.com/gitlab). Please note that we are only able to pay out bounties for eligible vulnerabilities through the HackerOne platform.
 
 New security issue should follow these guidelines when being created on `GitLab.com`:
 
@@ -117,8 +118,8 @@ Consider adding the `/confidential` quick action to a project issue template.
 - Add any additional labels you know apply. Additional labels will be applied
 by the security team and other engineering personnel, but it will help with
 the triage process:
-    - [`~"type::bug"`, `~"type::maintenance"`, or `~"type::feature"` if appropriate]({{< ref "./security-engineering/application-security/vulnerability-management#vulnerability-vs-feature-vs-bug" >}})
-    - Team or devops lifecycle labels
+    - [`~"type::bug"`, `~"type::maintenance"`, or `~"type::feature"` if appropriate]({{< ref "./product-security/application-security/vulnerability-management#vulnerability-vs-feature-vs-bug" >}})
+    - Team or DevOps lifecycle labels
     - `~customer` if issue is a result of a customer report
     - `~internal customer` should be added by team members when the issue
     impacts GitLab operations.
@@ -135,20 +136,20 @@ issue. If necessary, a sanitized issue may need to be created with more
 general discussion and examples appropriate for public disclosure prior to
 release.
 
-For review by the Application Security team, @ mention `@gitlab-com/gl-security/appsec`.
+For review by the Application Security team, @ mention `@gitlab-com/gl-security/product-security/appsec`.
 
 For more *immediate* attention, refer to [Engaging security on-call]({{< ref "engaging-security-on-call" >}}).
 
 ### Severity and Priority Labels on `~security` Issues
 
 Severity and priority labels are set by an application security engineer at the time of triage
-if and only if the issue is [determined to be a vulnerability]({{< ref "./security-engineering/application-security/vulnerability-management#vulnerability-vs-feature-vs-bug" >}}).
+if and only if the issue is [determined to be a vulnerability]({{< ref "./product-security/application-security/vulnerability-management#vulnerability-vs-feature-vs-bug" >}}).
 To identify such issues, the engineer will add the `~bug::vulnerability` label.
-Severity label is determined by CVSS score, using the [GitLab CVSS calculator](https://gitlab-com.gitlab.io/gl-security/appsec/cvss-calculator/).
+Severity label is determined by CVSS score, using the [GitLab CVSS calculator](https://gitlab-com.gitlab.io/gl-security/product-security/appsec/cvss-calculator/).
 If another team member feels that the chosen `~severity` / `~priority` labels
 need to be reconsidered, they are encouraged to begin a discussion on the relevant issue.
 
-The presence of the `~bug::vulnerability` label modifies the standard [severity labels](https://about.gitlab.com/handbook/engineering/quality/issue-triage/#severity)(`~severity::1`, `~severity::2`, `~severity::3`, `~severity::4`)
+The presence of the `~bug::vulnerability` label modifies the standard [severity labels](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity)(`~severity::1`, `~severity::2`, `~severity::3`, `~severity::4`)
 by additionally taking into account
 likelihood as described below, as well as any
 other mitigating or exacerbating factors. The priority of addressing
@@ -163,10 +164,10 @@ a external
 metric that may be evaluated by users as an indication of GitLab's commitment
 to protecting our users and customers. It is also an important measurement that
 security researchers use when choosing to engage with the security team, either
-directly or through our [HackerOne Bug Bounty Program]({{< ref "./security-engineering/application-security/runbooks/hackerone-process." >}}").
+directly or through our [HackerOne Bug Bounty Program]({{< ref "./product-security/application-security/runbooks/hackerone-process.md" >}}").
 
 Vulnerabilities must be mitigated and remediated according to specific timelines.
-The timelines are specified in the [Vulnerability Management handbook]({{< ref "./threat-management/vulnerability-management/#remediation-slas" >}}) (a [controlled document]({{< ref "./controlled-document-procedure" >}})).
+The timelines are specified in the [Vulnerability Management handbook]({{< ref "./product-security/vulnerability-management/#remediation-slas" >}}) (a [controlled document]({{< ref "./controlled-document-procedure" >}})).
 
 If a better understanding of an issue leads us to discover the severity has changed, recalculate the time to remediate from the date the issue was opened. If that date is in the past, the issue must be remediated on or before the next security release.
 
@@ -176,7 +177,7 @@ For `~security` issues with the `~bug::vulnerability` label and a severity of `~
 which is the target date of when fixes should be ready for release.
 This due date should account for the `Time to remediate` times above, as well as
 monthly security releases on the 28th of each month. For example, suppose today is October 1st, and
-a new `severity::2` `~security` issue is opened. It must be addressed in a security release [within 30 days]({{< ref "./threat-management/vulnerability-management#remediation-slas" >}}),
+a new `severity::2` `~security` issue is opened. It must be addressed in a security release [within 30 days]({{< ref "./product-security/vulnerability-management#remediation-slas" >}}),
 which is October 31st. So therefore, it must catch the October 28th security release.
 Furthermore, the [Security Release Process deadlines](https://gitlab.com/gitlab-org/release/docs/blob/master/general/security/process.md#release-deadlines)
 say that all merge requests associated with the fix must be ready 48 hours before the due date of the security release, which would be October 26th. So the due date in this example must be October 26th.
@@ -250,7 +251,7 @@ field, severity label, and priority label on the issue should not be changed
 by PMs, as these labels are intended to provide accurate metrics on
 `~security` issues, and are assigned by the security team. Any blockers,
 technical or organizational, that prevents `~security` issues from being
-addressed as [our top priority](https://about.gitlab.com/handbook/engineering/workflow/#security-is-everyones-responsibility)
+addressed as [our top priority](/handbook/engineering/workflow/#security-is-everyones-responsibility)
 should be escalated up the appropriate management chains.
 
 **Note that issues are not scheduled for a particular release unless the team leads add them to a release milestone *and* they are assigned to a developer.**

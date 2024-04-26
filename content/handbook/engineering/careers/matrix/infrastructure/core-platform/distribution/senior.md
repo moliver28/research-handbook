@@ -4,7 +4,7 @@ title: "Core Platform Career Framework: Senior Distribution Engineer"
 
 ## Core Platform Senior Distribution Engineer
 
-{{% include "includes/engineering/distribution-career-nav.md" %}}
+{{% include "includes/engineering-careers/distribution-career-nav.md" %}}
 
 **Core Platform Senior Distribution Engineers at GitLab are expected to exhibit the following competencies:**
 
@@ -18,7 +18,7 @@ title: "Core Platform Career Framework: Senior Distribution Engineer"
 
 ### Leadership Competencies
 
-{{% include "includes/engineering/senior-leadership-competency.md" %}}
+{{% include "includes/engineering-careers/senior-leadership-competency.md" %}}
 
 {{$ include "includes/engineering/development-senior-leadership-competency.md" %}}
 
@@ -34,9 +34,9 @@ title: "Core Platform Career Framework: Senior Distribution Engineer"
 
 ### Technical Competencies
 
-{{% include "includes/engineering/senior-technical-competency.md" %}}
+{{% include "includes/engineering-careers/senior-technical-competency.md" %}}
 
-{{% include "includes/engineering/development-senior-technical-competency.md" %}}
+{{% include "includes/engineering-careers/development-senior-technical-competency.md" %}}
 
 ##### Distribution
 
@@ -48,9 +48,9 @@ title: "Core Platform Career Framework: Senior Distribution Engineer"
 
 ###  Values Alignment
 
-{{% include "includes/engineering/values-competency.md" %}}
+{{% include "includes/engineering-careers/values-competency.md" %}}
 
-{{% include "includes/engineering/development-senior-values-competency.md" %}}
+{{% include "includes/engineering-careers/development-senior-values-competency.md" %}}
 
 ### Intermediate Competencies
 

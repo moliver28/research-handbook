@@ -3,12 +3,6 @@
 title: Monitoring of GitLab.com
 ---
 
-
-
-
-
-
-
 ## GitLab.com Service Availability
 
 Service Availability is the percentage of time during which the platform is in an available state. Other states are _degraded_ and _outage_.
@@ -59,7 +53,11 @@ More details on definitions of outage, and degradation are on the [incident-mana
 
 | **Year Month** | **Availability** | **Comments** |
 | ---- | ----------- | ---- |
-| 2023 November | TBD|  |
+| 2024 March | 100% | |
+| 2024 February | 99.86% | |
+| 2024 January | 100% | |
+| 2023 December | 99.99% |  |
+| 2023 November | 99.99% |  |
 | 2023 October | 99.89 | Oct 30 [Sev 1](https://gitlab.com/gitlab-com/gl-infra/production/-/issues/17054) |
 | 2023 September | 99.98% |  |
 | 2023 August | 100% |  |
@@ -121,7 +119,7 @@ These videos provide examples of how to quickly identify failures, defects, and 
 
 ### Pingdom Statistics
 
-We use our apdex based measurements to report official availability (see above). However, we also have some public pingdom tests for a representative view of overall performance of GitLab.com. These are availably at [https://stats.pingdom.com](http://stats.pingdom.com/81vpf8jyr1h9). Specifically, this has the availability and latency of reaching
+We use our apdex based measurements to report official availability (see above). However, we also have some public pingdom tests for a representative view of overall performance of GitLab.com. These are available at [https://stats.pingdom.com](http://stats.pingdom.com/81vpf8jyr1h9). Specifically, this has the availability and latency of reaching
    - a [GitLab.com issue](). For reference, it is the [first gitlab-ce issue](https://gitlab.com/gitlab-org/gitlab-ce/issues/1).
    - [GitLab.com](https://gitlab.com/) "plain and simple" called the [GitLab public check](http://stats.pingdom.com/81vpf8jyr1h9/4932705/history).
 
@@ -156,7 +154,7 @@ To learn how to set up a new graph or dashboard using Grafana, take a look at th
 - [YouTube video showing how to set up a dashboard](https://www.youtube.com/watch?v=sKNZMtoSHN4&index=7&list=PLDGkOdUX1Ujo3wHw9-z5Vo12YLqXRjzg2)
 - The [Grafana repo](https://gitlab.com/gitlab-org/grafana-dashboards) where we keep an archive of InfluxDB dashboards created in Grafana. Use these to see details in the file structure, but note that the repo is truly an archive (nothing populates _from_ it) and can be out of date.
 
-Need access to add a dashboard? Ask any team lead within the [infrastructure team](/company/team/?department=infrastructure-department).
+Need access to add a dashboard? Ask any team lead within the [infrastructure team](/handbook/company/team/?department=infrastructure-department).
 
 #### Dashboards for stage groups
 
@@ -255,7 +253,7 @@ Error tracking service.
 - [Diagnose Errors on GitLab.com - Searching Sentry][sentry_500]
 
 [sentry_doc]: https://docs.gitlab.com/ee/operations/error_tracking.html
-[sentry_500]: /handbook/support/workflows/500_errors.html#searching-sentry
+[sentry_500]: /handbook/support/workflows/500_errors/#searching-sentry
 [demo]: https://youtu.be/o02t3V3vHMs
 
 #### Setting sentry alerts for your group

@@ -7,7 +7,7 @@ description: "The hb page outlines baseline configurations that should be setup 
 
 The purpose of this page is to outline a minimum set of requirements that should be adhered to when configuring projects at GitLab that ultimately impact the code which makes up the GitLab product and/or which impact the build, release or deployment of GitLab. The end goal being that no changes that ultimately impact the GitLab codebase can be made without review. This page can also help users of GitLab by offering some possible configurations for securing projects they deem critical.
 
-Given GitLab's [commitment to dogfooding](https://about.gitlab.com/handbook/engineering/development/principles/#dogfooding) and keeping in mind GitLab's [Efficiency Value]({{< ref "values#efficiency" >}}) it is important to understand that these baseline project configurations are not required on *all* projects, only those projects which impact the GitLab codebase (directly or indirectly) or are otherwise deemed critical for another communicated reason (note in these instances the rationale of the "why" behind the need for these baseline configurations should be able to be clearly communicated).
+Given GitLab's [commitment to dogfooding](/handbook/engineering/development/principles/#dogfooding) and keeping in mind GitLab's [Efficiency Value]({{< ref "values#efficiency" >}}) it is important to understand that these baseline project configurations are not required on *all* projects, only those projects which impact the GitLab codebase (directly or indirectly) or are otherwise deemed critical for another communicated reason (note in these instances the rationale of the "why" behind the need for these baseline configurations should be able to be clearly communicated).
 
 That said, it is encouraged for team members to keep these baseline configurations in mind when creating or working in projects as they are designed to improve the security and quality of contributions made in GitLab projects.
 
@@ -46,7 +46,7 @@ See [Note on usage of Code Owners]({{< ref "gitlab_projects_baseline_requirement
 
 ## MR Approval Rule Configurations
 
-MRs should be reviewed following GitLab's [Code Review Guidelines](https://about.gitlab.com/handbook/engineering/workflow/code-review/). To ensure MRs are not merged with unreviewed commits, [MR Approval Rules](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/settings.html#approval-settings) should be enabled in one of the two below methods.
+MRs should be reviewed following GitLab's [Code Review Guidelines](/handbook/engineering/workflow/code-review/). To ensure MRs are not merged with unreviewed commits, [MR Approval Rules](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/settings.html#approval-settings) should be enabled in one of the two below methods.
 
 ### Example 1 of MR Approval Rules configured WITHOUT Code Owners
 
@@ -74,6 +74,6 @@ Please note that projects that meet the criteria for requiring these baseline co
 
 ## References
 
-- [GitLab Repositories](https://about.gitlab.com/handbook/engineering/gitlab-repositories/#creating-a-new-project) (for guidance on creating a new project)
+- [GitLab Repositories](/handbook/engineering/gitlab-repositories/#creating-a-new-project) (for guidance on creating a new project)
 - [Change Management Policy]({{< ref "change-management-policy" >}})
 - [GCF Security Control Lifecycle]({{< ref "security-control-lifecycle" >}})

@@ -9,7 +9,7 @@ status: active
 | Property        | Value                                                                                                                                             |
 |:----------------|:--------------------------------------------------------------------------------------------------------------------------------------------------|
 | Date Created    | 2022-02-07                                                                                                                                        |
-| Target End Date | TBD                                                                                                                                               |
+| End Date        | 2023-11-17                                                                                                                                               |
 | Slack           | [#wg_api_vision](https://gitlab.slack.com/archives/C030DMJE0SZ) (only accessible from within the company)                                         |
 | Google Doc      | [Working Group Agenda](https://docs.google.com/document/d/1o4Tq84Lt5VnxrVZmhlP0u4qiErzC1MtVfivnIc6_29E) (only accessible from within the company) |
 | Issue Board     | [Issue Board](https://gitlab.com/groups/gitlab-org/-/boards/3929903)                                                |

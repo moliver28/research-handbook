@@ -17,7 +17,7 @@ The page below is intended to align GitLab's sales and marketing efforts with a 
 
 #### Who to contact
 
-| Product Marketing | Technical Marketing |
+| Product Marketing | Developer Advocate |
 | ---- | --- |
 | Saumya Upadhyaya (@supadhyaya) | [William Galindez Arias](https://gitlab.com/warias) |
 
@@ -145,7 +145,7 @@ One common set of pain points solved by the DevOps Platform involves the ineffic
 
 The greater cost of operational inefficiencies is business agility.
 
-- Visibility and metrics: If an organization cannot understand an optimize the flow of work through the Software Delivery Lifecycle, it lacks sufficient data to inform business decisions involving the creation and delivery of software products. The SDLC becomes a black box and a fulfillment blocker, rather than an agent of transformation and an input to planning for business success.  
+- Visibility and metrics: If an organization cannot understand an optimize the flow of work through the Software Delivery Lifecycle, it lacks sufficient data to inform business decisions involving the creation and delivery of software products. The SDLC becomes a black box and a fulfillment blocker, rather than an agent of transformation and an input to planning for business success.
 - Poor responsiveness: When a business must turn on a time to capitalize on an opportunity or respond top a competitive threat, a cumbersome toolchain or lack of automation can bog down implementation of that pivot to the point where it arrives too late.
 
 ## Key differentiators
@@ -154,7 +154,7 @@ The greater cost of operational inefficiencies is business agility.
 |-----------------|-------------|---------------|
 | **A Complete DevOps Platform delivered as a single Application** | A single application eliminates complex integrations, data chokepoints, and toolchain maintenance, resulting in greater productivity. | [DevOps Platform with GitLab](https://www.youtube.com/watch?v=2aJnWkzAwks) |
 | **End-to-End Visibility** | GitLab's common data model enables enables end-to-end visibility and traceability throughout the DevOps lifecycle, correlating and aggregating data automatically. | [Deliver More Value and Fewer Headaches with an End-to-End DevOps Platform](https://youtu.be/wChaqniv3HI) |
-| **Your software, deployed your way** | GitLab is infrastructure agnostic (supporting GCP, AWS, Azure, OpenShift, VMware, On Prem, Bare Metal, and more), offering a consistent workflow experience - irrespective of the environment. | [Install GitLab: Supported Platforms](/install/) |
+| **Your software, deployed your way** | GitLab is infrastructure agnostic (supporting GCP, AWS, Azure, OpenShift, VMware, On Prem, Bare Metal, and more), offering a consistent workflow experience - irrespective of the environment. | [Install GitLab: Supported Platforms](https://about.gitlab.com/install/) |
 
 ## Required capabilities
 
@@ -175,7 +175,7 @@ The DevOps Platform is more than a collection of features and capabilties—it p
 
 ### Premium
 
-Generally, the more of the GitLab application in use, the greater the value of the Platform story, because there are more people in more roles contributing and accessing more data in one place. In addition to the benefits listed on the [Why Premium page](/pricing/premium/), there are a number of standout benefits in Premium vs. Free.
+Generally, the more of the GitLab application in use, the greater the value of the Platform story, because there are more people in more roles contributing and accessing more data in one place. In addition to the benefits listed on the [Why Premium page](https://about.gitlab.com/pricing/premium/), there are a number of standout benefits in Premium vs. Free.
 
 - **Substantially greater visibility** Advanced Search, Roadmaps, Contribution Analytics, burnup and burndown charts, and other visualizations make it far easier to achieve end-to-end visibility for a variety of needs.
 - **Broader persona support** Features such as Epics, scoped labels, issue weights, and multiple issue assignees make Premium much more attractive as an enterprise-ready planning system, which, in turn, activates new personas such as Product Owners and Program Managers. Likewise, Auditor users and Audit Events extend the system to auditors.
@@ -188,9 +188,9 @@ Ultimate supports the broadest possible range of personas, extending to Portfoli
 
 ### Quotes and Reviews
 
-- "Gitlab is really a full automated service covering all the stages of the project life cycle" [Ahmed K., G2](https://www.g2.com/products/gitlab/reviews/gitlab-review-4479054)
+- "GitLab is really a full automated service covering all the stages of the project life cycle" [Ahmed K., G2](https://www.g2.com/products/gitlab/reviews/gitlab-review-4479054)
 - "Best Code Collaboration Platform For Software Engineering Teams" [Sujay K., G2](https://www.g2.com/products/gitlab/reviews/gitlab-review-4608699)
-- "Gitlab : A professional collaboration tool" [Alay S., G2](https://www.g2.com/products/gitlab/reviews/gitlab-review-4449460)
+- "GitLab : A professional collaboration tool" [Alay S., G2](https://www.g2.com/products/gitlab/reviews/gitlab-review-4449460)
 
 ### Analyst Research
 
@@ -205,17 +205,17 @@ In their [Market Guide for DevOps Value Stream Delivery Platforms](https://page.
 GitLab believes this indicates that the market for a DevOps platform delivered as a single application will grow much faster than the DevOps market as a whole.
 
 ### Case Studies
-- [BI Worldwide](/customers/bi_worldwide/) removed technology barriers to focus on building microservices.
+- [BI Worldwide](https://about.gitlab.com/customers/bi_worldwide/) removed technology barriers to focus on building microservices.
 > One tool for SCM+CI/CD was a big initial win. Now wrapping security scans into that tool as well has already increased our visibility into security vulnerabilities. The integrated Docker registry has also been very helpful for us. Issue/Product management features let everyone operate in the same space regardless of role.
 >
 > Adam Dehnel, Product Architect, BI Worldwide
 
-- [Glympse](/customers/glympse/) consolidated ~20 tools consolidated into GitLab and remediated security issues faster than any other company in their Security Auditor's experience
+- [Glympse](https://about.gitlab.com/customers/glympse/) consolidated ~20 tools consolidated into GitLab and remediated security issues faster than any other company in their Security Auditor's experience
 >Development can move much faster when engineers can stay on one page and click buttons to release auditable changes to production and have easy rollbacks; everything is much more streamlined. Within one sprint, just 2 weeks, Glympse was able to implement security jobs across all of their repositories using GitLab’s CI templates and their pre-existing Docker-based deployment scripts.
 >
 >Zaq Wiedmann, Lead Software Engineer, Glympse
 
-- [Goldman Sachs](/customers/goldman-sachs/) improves from bi-monthly builds to over a thousand per day
+- [Goldman Sachs](https://about.gitlab.com/customers/goldman-sachs/) improves from bi-monthly builds to over a thousand per day
 > GitLab has allowed us to dramatically increase the velocity of development in our Engineering Division. We believe GitLab’s dedication to helping enterprises rapidly and effectively bring software to market will help other companies achieve the same sort of efficiencies we have seen inside Goldman Sachs. We now see some teams running and merging 1000+ CI feature branch builds a day!
 >
 > Andrew Knight, Managing Director, Goldman Sachs
@@ -224,7 +224,7 @@ GitLab believes this indicates that the market for a DevOps platform delivered a
 
 Amongst the many competitors in the DevOps space, few provide the scope to call themselves a platform, and none have been architected fromt he ground up as a single application.
 
-When viewed through the lens of "the most comprehensive suite of end-to-end functionality provided in a single solution," the nearest competitor is Microsoft's [Azure DevOps]. Microsoft continues to build toward the same vision with [GitHub](/competition/github/), as well.
+When viewed through the lens of "the most comprehensive suite of end-to-end functionality provided in a single solution," the nearest competitor is Microsoft's [Azure DevOps]. Microsoft continues to build toward the same vision with [GitHub](https://about.gitlab.com/competition/github/), as well.
 
 ### Industry Analyst Relations (IAR) plan
 

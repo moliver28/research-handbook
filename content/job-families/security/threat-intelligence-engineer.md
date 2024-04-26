@@ -51,7 +51,7 @@ The Senior Threat Intelligence Engineer is a [grade 7](/handbook/total-rewards/c
 
 ***
 
-A Senior Security Engineer may want to pursue the security engineering management track at this point. See [Engineering Career Development](https://about.gitlab.com/handbook/engineering/career-development/) for more detail.
+A Senior Security Engineer may want to pursue the security engineering management track at this point. See [Engineering Career Development](/handbook/engineering/career-development/) for more detail.
 
 ***
 
@@ -91,4 +91,4 @@ See more details about our hiring process on the [hiring handbook](/handbook/hir
 
 ## Career Ladder
 
-For more details on the engineering career ladders, please review the [engineering career development](https://about.gitlab.com/handbook/engineering/career-development/#roles) handbook page.
+For more details on the engineering career ladders, please review the [engineering career development](/handbook/engineering/careers/#roles) handbook page.

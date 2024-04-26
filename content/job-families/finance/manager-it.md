@@ -25,7 +25,7 @@ The Manager, IT is a [grade 8](/handbook/total-rewards/compensation/compensation
 - Strong written and verbal communication skills
 - Share and work in accordance with our values
 - Must be able to work in alignment with Americas timezones
-- [Leadership at GitLab](/handbook/company/team/structure/#management-group)
+- [Leadership at GitLab](/handbook/company/structure/#management-group)
 - Ability to use GitLab
 
 ## Specialties
@@ -117,11 +117,11 @@ Familiarity with data management policies and regulations (GDPR, SOX, PCI)
 
 ## Performance Indicators
 
-- [New Hire Location Factor < 0.69](/handbook/business-technology/metrics/#new-hire-location-factor--069)
-- [% of team who self-classify as diverse](/handbook/business-technology/metrics/#percent--of-team-who-self-classify-as-diverse)
-- [Discretionary bonus per employee per month > 0.1](/handbook/business-technology/metrics/#discretionary-bonus-per-employee-per-month--01)
-- [Average Delivery Time of Laptop Machines < 21 days](/handbook/business-technology/metrics/#average-delivery-time-of-laptop-machines--21-days)
-- [Customer Satisfaction Survey (CSAT)](/handbook/business-technology/metrics/#customer-satisfaction-survey-csat)
+- [New Hire Location Factor < 0.69](https://internal.gitlab.com/handbook/it/it-performance-indicators/#new-hire-location-factor--069)
+- [% of team who self-classify as diverse](https://internal.gitlab.com/handbook/it/it-performance-indicators/#percent--of-team-who-self-classify-as-diverse)
+- [Discretionary bonus per employee per month > 0.1](https://internal.gitlab.com/handbook/it/it-performance-indicators/#discretionary-bonus-per-employee-per-month--01)
+- [Average Delivery Time of Laptop Machines < 21 days](https://internal.gitlab.com/handbook/it/it-performance-indicators/#average-delivery-time-of-laptop-machines--21-days)
+- [Customer Satisfaction Survey (CSAT)](https://internal.gitlab.com/handbook/it/it-performance-indicators/#customer-satisfaction-survey-csat)
 
 ## Career Ladder
 

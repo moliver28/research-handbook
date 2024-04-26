@@ -20,7 +20,8 @@ description: "Tableau at GitLab"
 - [Tableau Status Page](https://trust.tableau.com)
 - [Internal Slack channel](https://app.slack.com/client/T02592416/C03RMCEHVCP)
 - [External Slack channel](https://app.slack.com/client/T02592416/C031QE95QJU)
-- [Gitlab Tableau Developer Guide](/handbook/business-technology/data-team/platform/tableau/tableau-developer-guide/)
+- [GitLab Tableau Developer Guide](/handbook/business-technology/data-team/platform/tableau/tableau-developer-guide/)
+- [GitLab Tableau Administration Guide](/handbook/business-technology/data-team/platform/tableau/tableau-admin-guide/)
 - [Reporting Data Catalog](/handbook/business-technology/data-team/platform/tableau/reporting-data-catalog/)
 - [Handbook Embedding Demonstration](/handbook/business-technology/data-team/platform/tableau/embed-demo/)
 
@@ -115,78 +116,75 @@ The top-level folders in our Tableau Project, and their corresponding levels of 
 <summary><b>Project Architecture</b></summary>
 
 1. **Resources**
-    1. **Workbook Templates**
-    1. **Data Sources**
+    1. **General**
+        1. **Admin Insights**
+            1. Admin Insights Starter
+        2. **Templates**
+            1. Workbook Template
+        3. Data Source Name
+    1. **SAFE**
+        1. Data Source Name
 1. **Development** (Sandbox Environment)
     1. **Customer Success**
+        1. **General**
+            1. Data Source Name
+            2. Workbook Name
         1. **SAFE**
-            1. Workbook Name
+            1. Data Source Name
+            2. Workbook Name
         1. Workbook Name
-    2. **Sales**
-    3. **Marketing**
+    2. **Data Team**
+    3. **Engineering**
     4. **Finance**
-    5. **Data Team**
-    6. etc.
+    5. **Go To Market**
+    6. **Marketing**
+    7. **People**
+    8. **Product**
+    9. **Sales**
+    10. **Security**
 1. **Ad-hoc** (Maps to our [Ad-Hoc Data Development Process](/handbook/business-technology/data-team/data-development/#ad-hoc-data-development))
     1. **Customer Success**
+        1. **General**
+            1. Data Source Name
+            2. Workbook Name
         1. **SAFE**
-            1. CS: Workbook Name
-        1. CS: Workbook Name
-        1. **Data Sources**
-            1. CS: Data Source Name
-            1. CS: Virtual Connection Name
-1. **Production** (Maps to our [Trusted Data Development Process](/handbook/business-technology/data-team/data-development/#trusted-data-development)
-    1. **Go To Market**
-        1. **SAFE**
-            1. GTM: Workbook Name
-        1. GTM: Workbook Name
-        1. **Data Sources**
-            1. GTM: Data Source Name
-            1. GTM: Virtual Connection Name
-    1. **Team Member**
-        1. **SAFE**
-            1. Team Member: Workbook Name
-        1. Team Member: Workbook Name
-        1. **Data Sources**
-            1. Team Member: Data Source Name
-            1. Team Member: Virtual Connection Name
-    1. **Customer Success**
-        1. **SAFE**
-            1. CS: Workbook Name
-        1. CS: Workbook Name
-        1. **Data Sources**
-            1. CS: Data Source Name
-            1. CS: Virtual Connection Name
-    2. **Sales**
-    3. **Marketing**
+            1. Data Source Name
+            2. Workbook Name
+    2. **Data Team**
+    3. **Engineering**
     4. **Finance**
-    5. **Data Team**
-    6. etc.
+    5. **Go To Market**
+    6. **Marketing**
+    7. **People**
+    8. **Product**
+    9. **Sales**
+    10. **Security**
+1. **Production** (Maps to our [Trusted Data Development Process](/handbook/business-technology/data-team/data-development/#trusted-data-development)
+    1. **Customer Success**
+        1. **General**
+            1. Data Source Name
+            2. Workbook Name
+        1. **SAFE**
+            1. Data Source Name
+            2. Workbook Name
+    2. **Data Team**
+    3. **Engineering**
+    4. **Finance**
+    5. **Go To Market**
+    6. **Marketing**
+    7. **People**
+    8. **Product**
+    9. **Sales**
+    10. **Security**
 
 </details>
 
 ### BIOps Roles and Responsibilities
 
-Please see the [project-permission-structure](/handbook/business-technology/data-team/platform/tableau/#project-permission-structure) section for details on the permissions for the below BIOps roles.
-
-| **Department:Team, Business Motion** | **Team Member Name** | **Tableau Online Role**  | **GitLab Tableau Project Role** |
--------------------------------------- | -------------------- | ------------------------ | --------------------------------|
-| Data: BI Platform             | `@ttnguyen28`, `@iweeks`, `@pempey`, `@nmcavinue`, `@snalamaru` | Top Level Project Leader | Maintainer |
-| Data                          | `@ttnguyen28`, `@iweeks`, `@pempey`, `@nmcavinue`               | Sub-Project Leader       | Code Owner |
-| Customer Success              | `@bbutterfield`, `@marntz`                                      | Sub-Project Leader       | Code Owner |
-| Marketing                     | `@degan`                                      | Sub-Project Leader       | Code Owner |
-| People                        | `@aperez349`, `@mccormack514`                                   | Sub-Project Leader       | Code Owner |
-| Product                       | `@cbraza`, `@dpeterson1`                                        | Sub-Project Leader       | Code Owner |
-| Engineering                   | `@cdeleon_gitlab`, `@gitlab-org/quality/engineering-analytics`  | Sub-Project Leader       | Code Owner |
-| Sales                         | `@leework`                                                      | Sub-Project Leader       | Code Owner |
-| Finance: GTM Finance          | `@alixtucker`, `@nbernardo`, `@vagrawalg`                       | Sub-Project Leader       | Code Owner |
-| Finance: Corporate Finance    | `@james.shen`, `@vagrawalg`                                     | Sub-Project Leader       | Code Owner |
-| Security                      | `TBD`                                                           | Sub-Project Leader       | Code Owner |
-| Go To Market                  | `@leework`, `@christinelee`, `@alixtucker`, `@nbernardo`, `@nmcavinue`, `@vagrawalg` | Sub-Project Leader | Code Owner |
-| Team Member                   | `@aperez349`, `@james.shen`, `@vagrawalg`, `@nmcavinue`         | Sub-Project Leader       | Code Owner |
+Please see the [project-permission-structure](/handbook/business-technology/data-team/platform/tableau/#project-permission-structure) section for details on the permissions for the BIOps roles. 
 
 1. **Top Level Project Leader / Maintainer Responsibilities:** The Top Level Project leaders come from the BI Platform Team. These leaders are responsible for publishing content in the Sub-Projects that role up to the Top Level Projects and are responsible for maintaining the GitLab Tableau Project. This role does not specifically include Tableau Online Site Administration responsibilities although several Top Level Project Leaders are also [Tableau Online Site Admins](/handbook/business-technology/data-team/platform/tableau/#tableau-online-admins).
-2. **Sub-Project Leader / Code Owner Responsibilities:** The Sub-Project Leaders come from functional departments and teams. These leaders are responsible for reviewing and approving content for publishing in their department's folder and in cross-functional Sub-Project folders like the Go To Market folder as Code Owners.
+2. **Sub-Project Leader / Code Owner Responsibilities:** The Sub-Project Leaders come from functional departments and teams. These leaders are responsible for reviewing and approving content for publishing in their department's folder and in cross-functional Sub-Project folders like the Go To Market folder as Code Owners. The [CODEOWNERS file](https://gitlab.com/gitlab-data/tableau/-/blob/main/CODEOWNERS?ref_type=heads) in the Tableau project is the source of truth for sub-project leads who are able to review and approve MRs to publish dashboards to Production. 
 
 ### BIOPs Workflows
 
@@ -307,32 +305,41 @@ User Groups are the only prescribed method we use for setting permissions across
 
 Limited access user groups will allow business teams to manage accessibility to their published content based on rules that they've identified. Request for the creation of a limited access user group can be made through the All Requests template in [Issues](https://gitlab.com/gitlab-data/tableau/-/issues/?sort=created_date&state=opened&first_page_size=100) section of the Tableau project and requires the approval of that department's [sub-project lead](/handbook/business-technology/data-team/platform/tableau/#biops-roles-and-responsibilities).
 
-- General SAFE Access
+#### List of User Groups
+
+Each section below below corresponds to a limited access user group and the designated owner. Please note: To gain access to an user group, the designated owner will need to give approval in the AR.
+
+##### **General SAFE Access**
+
   - This group allows viewing of and development with data that contains material non-pulic information that should be kept [SAFE](/handbook/legal/safe-framework/).  Team members must be on the [Designated Insiders](/handbook/legal/publiccompanyresources/#sts=Designated%20Insiders) list to be added to this group.
   - To gain [access to SAFE data](/handbook/business-technology/data-team/platform/safe-data/) and be part of the SAFE Access group please submit an AR like this [example](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/24284), which requires manager and VP approval.
 
-- ASM EMEA Commercial Restricted Access
+##### **ASM AMER Commercial Restricted Access**
+  - This project allows access to the ASM AMER Commercial sub project. It is restricted because the data contains sensitive information about sales rep activity, bookings, and segmentation.
+  - Please work with Keith Gliksman @keith.gliksman for access approval.
+
+##### **ASM EMEA Commercial Restricted Access**
   - This project allows access to the ASM EMEA Commercial sub project. It is restricted because the data contains sensitive information about sales rep activity, bookings, and segmentation.
   - Please work with Keith Gliksman @keith.gliksman for access approval.
 
-- ASM Restricted Access
+##### **ASM Restricted Access**
   - Please work with the GTM Planning & Ops team and/or Alex Cohen @alex.cohen for access approval.
 
-- Internal Audit Restricted Access
+##### **Internal Audit Restricted Access**
   - Please work with the Internal Audit team and/or Harinakshi Poojary @hpoojary for access approval.
 
-- People Restricted Access
+##### **People Restricted Access**
   - Please work with the People Analytics team and/or Adrian Perez @aperez349 for access approval.
 
-- RSA SAFE Access
+##### **RSA SAFE Access**
   - This group is for the Revenue Strategy and Analytics team and is restricted because analysis performed are confidential planning efforts that may impact people roles. Team members must be on the Designated Insiders list to be added to this group.
   - Please work with the Sales Strategy team and/or Olga Falkenhof @ofalken for access approval.
 
-- Sales Development SAFE Access
+##### **Sales Development SAFE Access**
   - Team members must be on the Designated Insiders list to be added to this group.
   - Please work with Keith Gliksman @keith.gliksman for access approval.
 
-- Self-Service SAFE Access
+##### **Self-Service SAFE Access**
   - Team members must be on the Designated Insiders list to be added to this group.
   - Please work with the Self-Service team and/or Max Fleisher @mfleisher for access approval.
 
@@ -516,15 +523,6 @@ permission_templates:
 
 <summary><b>Tableau Licenses</b></summary>
 
-GitLab currently has 220 user licenses available. These licenses can be reassigned and more will be acquired for a broad rollout starting Q2 of FY24.
-- 90 Creators: Full editor capabilities, including Data Modeling, Data Prep and Data Visualizations.
-- 10 Explorers: Ability to edit Data Visualizations.
-- 120 Viewers: for Data Consumers, which includes the ability to filtering the data and the use of [Ask Data](https://www.tableau.com/about/blog/2021/6/tableau-release-ask-data-explain-data-viewers-collections) natural language querying.
-
-GitLab also has 60 eLearning credits available for Creators. These cannot be reassigned.
-
-Licences will be revoked if not used for 90 days.
-
 **Tracking License Usage**
 
 - [Assigned Licenses](https://10az.online.tableau.com/#/site/gitlab/users) (Admins only)
@@ -532,7 +530,7 @@ Licences will be revoked if not used for 90 days.
 - [Actions by Users](https://10az.online.tableau.com/#/site/gitlab/analysis/ActionsbyAllUsers)
 - [eLearning Usage](https://dashboard.skilljar.com/analytics/) (Admins only)
 
-Unused licenses will be reclaimed by the data team.
+Unused licenses will be reclaimed by the Data Team.
 
 </details>
 
@@ -542,19 +540,7 @@ Unused licenses will be reclaimed by the data team.
 
 Users can request access by creating an issue in the [access requests project](https://gitlab.com/gitlab-com/team-member-epics/access-requests) documenting the level of access required and assigning it to a designated [Tableau Online admin](/handbook/business-technology/data-team/platform/tableau/#tableau-online-admins) after acquiring manager approval. To make a request, please navigate to the **Choose a template** dropdown menu and select the **Tableau_Request** template to get your AR started.
 
-All users will be given access to their Division's sub-project by default. For access to another team's space please submit your request in a [Tableau Project issue](https://gitlab.com/gitlab-data/tableau/-/issues) via the **All Requests** template and tag the designated Lead Approver(s) for that team from below for approval in your issue:
-
-| **Team / Department** | **Approver(s) / Project Leader** |
-| ------- |------- |
-| Customer Success  | `@jdbeaumont`, `@aileenlu` |
-| Data & Business Insights  | `@ttnguyen28` |
-| Marketing         | `@jahye1` |
-| People            | `@aperez349`, `@mccormack514` |
-| Product           | `@cbraza` |
-| Sales             | `@aileenlu` |
-| Finance: GTM Finance  | `@nbernardo` |
-| Finance: Corporate Finance | `@james.shen` |
-| Security          | `TBD` |
+All users will be given access to their Division's sub-project by default. For access to another team's space please submit your request in a [Tableau Project issue](https://gitlab.com/gitlab-data/tableau/-/issues) via the **All Requests** template and tag the designated Lead Approver(s) for that team from the [BIOps Roles and Responsibilities](https://handbook.gitlab.com/handbook/business-technology/data-team/platform/tableau/#biops-roles-and-responsibilities) section for approval in your issue.
 
 Tableau Desktop users will also need a Yubikey set up in Okta to access content published in Tableau Online. Due to our new security method that only accepts Biometric or Yubikey for authentication, please request a Yubikey via the [Yubibot](/handbook/it/guides/yubikey/) to ensure that logging into Tableau will be secure and smooth. Currently biometrics are not supported yet in Tableau Desktop.
 
@@ -565,15 +551,8 @@ Once approved, the BI Platform team will then add the user to the `okta-tableau-
 Creators with an active license to Tableau Online is encouraged to use Tableau Desktop for development. Locally developed Data Sources or Workbooks can later be published to Tableau Online. All Creators will be assigned access to Tableau Online and Desktop. The BI Platform team will assign Dekstop keys from the [Licenses](https://customer-portal.tableau.com/s/my-keys) section of the [Tableau Customer Portal](https://customer-portal.tableau.com/s/). Those assigned a Desktop key can follow email instructions from Tableau to set up their client.
 
 One can download Tableau Desktop using the links below, or follow the link from the [Home Page](https://10az.online.tableau.com/#/site/gitlab/home) of Tableau Online.
-- [Tableau Desktop Download](https://www.tableau.com/products/desktop)
-- [Tableau Prep Builder Download](https://www.tableau.com/products/prep)
-
-Any user can download the desktop tools and start a 14-day free trial without limitation. After the 14 days they will need to activate Tableau Desktop and/or Tableau Prep Builder clients:
-1. Download and install the software listed above by signing up for a free trial
-1. Open your Tableau Desktop and/or Tableau Prep Builder
-1. Search for Data > Tableau Server
-1. Quick Connect: Tableau Online
-1. Log in to Okta using a Yubikey - if Okta isn't set up for your account, login using your Tableau login & MFA. Note: only users with active licenses will be able to complete this step, and this will only work when using a Yubikey, not when using fingerprints to authenticate to Okta.
+- [Tableau Desktop Releases Download](https://www.tableau.com/support/releases)
+- [Tableau Prep Builder Releases Download](https://www.tableau.com/support/releases/prep)
 
 ### Tableau Desktop vs. Tableau Cloud
 
@@ -591,30 +570,19 @@ Fore more details on features offered by each version please see this Tableau ar
 
 #### Data Source Access: Tableau Online
 
+Please refer to this [Connecting to Data in Tableau Guide](https://docs.google.com/document/d/17DdnVs_KrCw7ic5eJRj7D0i5x5WjfNtYRLGAozdjzSo/edit) for more details.
+
 <details markdown=1>
 
 <summary><b>Snowflake</b></summary>
 
-- Service Account
-    - The Data Team has access to the credentials of the Tableau and Tableau restricted service accounts. The respective Snowflake roles to use for those accounts are `REPORTER` and `RESTRICTED_SAFE`.
-- Virtual Connections
-    - Virtual Connections to PROD tables in Snowflake are stored in either the `Data Team - Connections` or `Data Team - SAFE Connections` project folders in Tableau Online and accessible to all users during the pilot.
-        1. Home/Explore > New Workbook
-        2. Connect to Data > On This Site > Content Type: Virtual Connections
-        3. Select your table and press `Connect`.
-- Oauth
-    1. Home/Explore > New Workbook
-    2. Connectors > Snowflake
-        1. Fill in the following:
-            - Server: `gitlab.snowflakecomputing.com`
-            - Role: Leave blank in development. This will help with publishing and troubleshooting and will use your default role in Snowflake. Ensure that your default role in Snowflake is not set to PUBLIC to prevent log-in errors. You can find your default role in Snowflake in the switch role menu. For Production releases: RESTRICTED_SAFE.
-            - Authentication: `Sign in using OAuth`
-        2. Click on `Sign in`
-        3. Click on `Sign Sign On`
-        4. Log in to Okta
-        5. Click `Allow`
-            - Note: If you use Oauth to connect, use the `Embed password for data source` option when publishing so others can also access it.
-            - Note: The Snowflake Oauth token for Tableau Online expires in 90 days. You'll need to reauthenticate after 90 days to keep working with the data.
+In order to use the Snowflake connector, you must have a Snowflake account assigned by the Data Platform team. Please open an AR ([example](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/24785)), if you do not already have access.
+
+<summary><b>Data Sources published in Tableau Cloud</b></summary>
+
+1. Personal Space > New > Workbook
+2. Connect to Data > On This Site
+3. Pick a published data source
 
 </details>
 
@@ -622,8 +590,9 @@ Fore more details on features offered by each version please see this Tableau ar
 
 <summary><b>Flat files (formats: xls/xlsx, csv, tsv, kml, geojson, topojson, json)</b></summary>
 
-1. Home/Explore > New > Workbook
-2. Files > Drag and drop a file / Upload from computer
+1. Personal Space > New > Workbook
+2. Connect to Data > Files
+2. Drag and drop a file / Upload from computer
 
 </details>
 
@@ -631,9 +600,9 @@ Fore more details on features offered by each version please see this Tableau ar
 
 <summary><b>Google Sheets</b></summary>
 
-1. Home/Explore > New Workbook
-2. Connectors > Google Drive
-3. Sign in with Google
+1. Personal Space > New > Workbook
+2. Connect to Data > Connectors > Google Drive
+3. Sign in with your Google Account
 4. Check all the boxes
 5. Click `Allow`
 6. Double click on the Google Sheet you want to use
@@ -642,35 +611,16 @@ Fore more details on features offered by each version please see this Tableau ar
 
 #### Data Source Access: Tableau Desktop or Tableau Prep Builder
 
-*Important:* In order to connect Tableau Desktop to Tableau Online, you need to set up a [Yubikey]({{ ref "okta/#i-want-to-add-touch-id--face-id--face-authentication--yubikey-to-okta" }}) in Okta. Fingerprints will not work. Please see the [Tableau Online Access](/handbook/business-technology/data-team/platform/tableau/#tableau-online-access) section above for more details on how to order a Yubikey.
+*Important:* In order to connect Tableau Desktop to Tableau Cloud, you need to set up a [Yubikey]({{ ref "okta/#i-want-to-add-touch-id--face-id--face-authentication--yubikey-to-okta" }}) in Okta. Fingerprints will not work. Please see the [Tableau Online Access](/handbook/business-technology/data-team/platform/tableau/#tableau-online-access) section above for more details on how to order a Yubikey.
 
 <details markdown=1>
 
-<summary><b>Snowflake</b></summary>
-
-1. Connect > To a Server > Snowflake
-1. Fill in the following:
-    - Server: `gitlab.snowflakecomputing.com`
-    - Role: For Production releases: RESTRICTED_SAFE. For ad-hoc or development you can use your Snowflake username (you can find it in Snowflake in the top right section of your screen)
-    - Authentication: `Sign in using OAuth`
-1. Click on `Sign in`
-1. It should open a browser tab. Click on `Sign Sign On`
-1. Log in to Okta
-1. Click `Allow`
-1. Your browser tab should display the following message: `Tableau created this window to authenticate. It is now safe to close it.`
-1. Close your browser tab and continue in Tableau Desktop
-    - Note: The Snowflake Oauth token for Tableau Desktop expires in a day. You'll need to reauthenticate every day to keep working with the data.
-
-</details>
-
-<details markdown=1>
-
-<summary><b>Data Sources published in Tableau Online</b></summary>
+<summary><b>Data Sources published in Tableau Cloud</b></summary>
 
 1. Connect > Search for Data > Tableau Server
 1. Quick Connect > Tableau Online
 1. Log in to Okta - if Okta isn't set up for your account, login using your Tableau login & MFA
-1. Pick a published data source or virtual connection
+1. Pick a published data source
 
 </details>
 
@@ -678,8 +628,8 @@ Fore more details on features offered by each version please see this Tableau ar
 
 <summary><b>Flat files (formats: xls/xlsx, csv, tsv, kml, geojson, topojson, json)</b></summary>
 
-1. Home/Explore > New > Workbook
-1. Files > Drag and drop a file / Upload from computer
+1. Connect > To a File
+1. Select a data file format
 
 </details>
 
@@ -687,9 +637,8 @@ Fore more details on features offered by each version please see this Tableau ar
 
 <summary><b>Google Sheets</b></summary>
 
-1. Home/Explore > New Workbook
-1. Connectors > Google Drive
-1. Sign in with Google
+1. Connect > To a Server > Google Drive
+1. Sign in with your Google account
 1. Check all the boxes
 1. Click `Allow`
 1. Click on the Google Sheet you want to use
@@ -705,7 +654,7 @@ GitLab team members who realize the full potential of analytical insights can do
 
 <summary><b>Official Training Resources</b></summary>
 
-- [Free Training](https://www.tableau.com/learn/training/20222)
+- [Free Training](https://www.tableau.com/learn/training)
 - [Training Portal](https://elearning.tableau.com/)
     - eLearning from Tableau is available for users with the Creator or Explorer license type
     - Request Access Code from Data Team. The BI Platform team will share the Access Code via email.

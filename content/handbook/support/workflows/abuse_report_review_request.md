@@ -18,7 +18,7 @@ This workflow is to request a review of an Abuse Report.  All blocked accounts s
     - If the request does not have links to the specific commit, audit event, user action etc, request more information using the [Need_More_Information](https://gitlab.com/gitlab-com/gl-security/security-operations/trust-and-safety/operations/-/tree/master/Blurbs/Need_More_Information) blurb.
     - If the user has provided enough information, then complete the `Abuse_Report_Review_Request` as per the instructions.
 1. For all other cases where no abuse report exists, including Zendesk, Twitter or slack - Complete [General_Request](https://gitlab.com/gitlab-com/gl-security/security-operations/trust-and-safety/operations/-/issues) issue in the Security Operations Tracker. A member of the team will review the request within 24 hours. If the request is urgent, please reach out in the #abuse Slack channel.
-1. Send the [`Support::SaaS::Blocked Accounts::Escalated-TrustAndSafety`](https://gitlab.com/search?utf8=%E2%9C%93&group_id=2573624&project_id=17008590&scope=&search_code=true&snippets=false&repository_ref=master&nav_source=navbar&search=id%3A+360073013540) macro for the initial response to the user.
+1. Send the [`Support::SaaS::Gitlab.com::Blocked Accounts::Escalated-TrustAndSafety`](https://gitlab.com/gitlab-com/support/zendesk-global/macros/-/blob/master/active/Support/SaaS/GitLab.com/Blocked%20Accounts/Escalated-TrustAndSafety.md?ref_type=heads) macro for the initial response to the user.
 
 ## NOTE
 
@@ -32,7 +32,7 @@ This workflow is to request a review of an Abuse Report.  All blocked accounts s
 
 1. They are verified to belong to the group/project they are requesting information about.
    - In some instances we can provide limited information to non project members who reported legitimate abusive activity.
-   - The content or information regarding the reported activity/content is still available on Gitlab.com.
+   - The content or information regarding the reported activity/content is still available on GitLab.com.
 
 ### An Abuse Report review request **cannot** be submitted when
 

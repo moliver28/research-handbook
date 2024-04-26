@@ -4,26 +4,12 @@ description: Support Operations documentation page for Zendesk agents
 canonical_path: "/handbook/support/readiness/operations/docs/zendesk/agents"
 ---
 
-## Zendesk Global user fields
+## User fields
 
-| Name                                                                                              | ID            | Type      | Field Key       |
-|---------------------------------------------------------------------------------------------------|---------------|-----------|-----------------|
-| [GitLab User ID](https://gitlab.zendesk.com/admin/people/configuration/user_fields/360000106219)  | 360000106219  | Numeric   | gitlab_user_id  |
-| [GitLab username](https://gitlab.zendesk.com/admin/people/configuration/user_fields/360000106179) | 360000106179  | Text      | gitlab_username |
-| [Manager Tag](https://gitlab.zendesk.com/admin/people/configuration/user_fields/5051734877596)    | 5051734877596 | Text      | manager_tag     |
-| [Not Available](https://gitlab.zendesk.com/admin/people/configuration/user_fields/5051748442140)  | 5051748442140 | Checkbox  | not_available   |
-| [User Region](https://gitlab.zendesk.com/admin/people/configuration/user_fields/4417373033234)    | 4417373033234 | Drop-down | user_region     |
+For information about user fields, please refer to
+[User Fields](./user-fields.md).
 
-## Zendesk US Federal user fields
-
-| Name                                                                                                              | ID            | Type      | Field Key       |
-|-------------------------------------------------------------------------------------------------------------------|---------------|-----------|-----------------|
-| [GitLab User ID](https://gitlab-federal-support.zendesk.com/admin/people/configuration/user_fields/360001583892)  | 360001583892  | Numeric   | gitlab_user_id  |
-| [GitLab username](https://gitlab-federal-support.zendesk.com/admin/people/configuration/user_fields/360001592971) | 360001592971  | Text      | gitlab_username |
-| [Manager Tag](https://gitlab-federal-support.zendesk.com/admin/people/configuration/user_fields/6884606867988)    | 6884606867988 | Text      | manager_tag     |
-| [Not Available](https://gitlab-federal-support.zendesk.com/admin/people/configuration/user_fields/6884591898260)  | 6884591898260 | Checkbox  | not_available   |
-
-## Provisioning
+## Agent Provisioning
 
 #### For Zendesk US Federal
 
@@ -167,55 +153,16 @@ agents's page in Zendesk and do the following:
 - Unassign any active tickets (less than Closed) from that agent (assign them to
   their manager)
 - Remove any of the agent's tags from Tags section
+- Clear out any user fields on the profile
 - Demote the agent's role to that of end-user
 - Suspend the end-user
 - After doing so, do the following on the issue requesting the deprovisioning
   - Check the corresponding boxes on the request issue
-  - Add the label `SupportOps::Completed`
-  - Add your time spent on the issue
   - Unsubscribe from the issue (optional)
 
 ## Assigning an app via Okta
 
-**Note** This is not normally needed unless something went wrong with the
-automated provisioning process.
+As of current, we manage assigning the application via google groups.
 
-To assign an app to a user in Okta, you first need to go to the
-[Okta admin dashboard](https://gitlab-admin.okta.com/admin/dashboard). From
-there, click on `Applications` on the left-hand side of the page, then select
-the `Applications` option that appears below it. This will take you to the
-[applications page](https://gitlab-admin.okta.com/admin/apps/active).
-
-From this page, click the application you are needing to assign (which should be
-[Zendesk Global](https://gitlab-admin.okta.com/admin/app/zendesk/instance/0oa7db6n2mJ6XP0oL356/#tab-assignments)
-or
-[Zendesk US Federal](https://gitlab-admin.okta.com/admin/app/zendesk/instance/0oa17cyes3JepgPZg357/#tab-assignments)
-for the sake of this documentation page).
-
-After doing so, click the blue `Assign` button, then select the
-`Assign to People` option. You will search (by email) for the person in
-question. After locating them, click the blue `Assign` link to the right of the
-row of that person.
-
-On the pop-up that appears, simply click the blue `Save and Go Back` button to
-complete the assignment.
-
-## Change management
-
-As the agents changes are unique in deployment, please see
-[Zendesk agents change management](/handbook/support/readiness/operations/docs/change_management#zendesk-agents-change-management)
-for more information.
-
-#### Labels to use
-
-For all issues and MRs involving agents that are not related to provisioning and
-deprovisioning, the label `Support-Ops-Category::Orgs and Users` should be used.
-
-For ones relating to provisioning and deprovisioning, see the above sections.
-
-#### Change criticality
-
-Due to wildly varying nature and impact adding/editing/deleting Zendesk
-agents can impose, all issues/MRs related to Zendesk organizations need to have
-their criticality
-[manually determined](/handbook/support/readiness/operations/docs/change_criticalities#determining-criticality)
+- [Zendesk Global](https://groups.google.com/a/gitlab.com/g/okta-zendeskglobal-users)
+- [Zendesk US Government](https://groups.google.com/a/gitlab.com/g/okta-zendeskfederal-users)

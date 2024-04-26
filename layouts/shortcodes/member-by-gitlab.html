@@ -6,4 +6,4 @@
 {{- else }}
   {{- errorf "The %q shortcode requires a single positional argument."}}
 {{- end }}
-{{partial "member-by-gitlab" $gitlab }}
+{{- partial "member-by-gitlab" $gitlab -}}

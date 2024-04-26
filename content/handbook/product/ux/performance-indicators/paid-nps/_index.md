@@ -1,6 +1,6 @@
 ---
-title: "Paid NPS"
-description: "The Paid NPS (Paid Net Promoter Score) is a performance indicator we use to measure the customer satisfaction of our product."
+title: "Paid NPS (Deprecated)"
+description: "The Paid NPS (Paid Net Promoter Score) was a survey metric previously used by the Product Division to measure customer satisfaction. This survey has been deprecated as of FY24 Q4 and replaced by the Customer Satisfaction (CSAT) survey."
 ---
 
 ## Paid NPS survey (PNPS)
@@ -51,7 +51,7 @@ An example with fake numbers:
 - wave 2 percentage for Ultimate: (73% - 65%) + 73% = 81%
 In this example the sample is under the population, hence the next wave percentage is higher than the population to try and make that up. 
 3. Waves should be ~5000 users. Mark the desired number of users out of that 5000 that fit your percentages for each plan type with the name of the wave you are sending.
-4. Paste all the user IDs for that wave into a new sheet, following the [process for uploading user IDs into Qualtrics](https://about.gitlab.com/handbook/engineering/ux/qualtrics/#distributing-your-survey-to-gitlabcom-users).
+4. Paste all the user IDs for that wave into a new sheet, following the [process for uploading user IDs into Qualtrics](/handbook/engineering/ux/qualtrics/#distributing-your-survey-to-gitlabcom-users).
 5. Once the mailing list has been created in Qualtrics double-check that no @gitlab.com email addresses were included, and create a new email distribution for the SaaS PNPS survey in Qualtrics using the `PNPS Survey Distribution - Current Survey Template`. **Make sure to edit the advanced survey options to set the link expiration to the last day of the quarter**. 
 6. Typically emails are scheduled to go out Monday - Friday early in the morning US time (8 - 9am Eastern Time) with the goal of maximizing visibility and responses, but this is far from scientific and open to change. Qualtrics supports scheduling email ahead of time.
 
@@ -61,7 +61,7 @@ Once all email waves have been sent, add the user IDs that were used this quarte
 
 We give PNPS survey respondents the option to indicate whether they would be open to a follow-up interview when filling in the survey. As part of the analysis, a list of users that agreed to the follow-up is generated. 
 
-After the quarterly analysis is shared out, UX Research initiates outreach to PNPS responders who opted into contact via this [automated issue](https://gitlab.com/gitlab-com/Product/-/blob/main/.gitlab/issue_templates/ProdOps-PNPS-Responder-Outreach.md). The detailed PNPS responder outreach workflow can be seen [here](https://about.gitlab.com/handbook/product/product-processes/#pnps-responder-outreach).
+After the quarterly analysis is shared out, UX Research initiates outreach to PNPS responders who opted into contact via this [automated issue](https://gitlab.com/gitlab-com/Product/-/blob/main/.gitlab/issue_templates/ProdOps-PNPS-Responder-Outreach.md). The detailed PNPS responder outreach workflow can be seen [here](/handbook/product/product-processes/#pnps-responder-outreach).
 
 ### Displaying the data
 
@@ -89,6 +89,7 @@ For past reports, we have gotten requests to answer additional questions about t
 
 #### FY24
 
+- [Q4 FY24](https://docs.google.com/presentation/d/16Pp-0luW72Yi2GnDvzVLqxwSKlUo5zjqzvLDXpZDaas/edit#slide=id.g2313fc6cf8e_0_0)
 - [Q3 FY24](https://docs.google.com/presentation/d/1-ku4U2NUZAQrSCSeH2mvZVaTkKajFa012uFSlLMKgvw/edit#slide=id.g2313fc6cf8e_0_0)
 - [Q2 FY24](https://docs.google.com/presentation/d/1zAYvC2tehCsbTQ3WrED6q2jbg84-nv4NTj93VE0Eh6o/edit#slide=id.g2313fc6cf8e_0_0)
 - [Q1 FY24](https://docs.google.com/presentation/d/1s3uVhZSdo5An0z3utSgrLdCiFLO-2H59WDyqSbhvGkM/edit#slide=id.g59bfc474c5_2_145)

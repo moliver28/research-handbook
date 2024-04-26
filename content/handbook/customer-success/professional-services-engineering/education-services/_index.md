@@ -39,7 +39,7 @@ The GitLab Professional Education Services team currently provides the following
 
 ### Related Project and Issues
 
-- [Professional Education Services Project Issues List](https://gitlab.com/gitlab-com/sales-team/professional-services/education-services/issues)
+- [Professional Education Services Project Issues List](https://gitlab.com/gitlab-com/customer-success/professional-services-group/education-services/-/issues)
 - EdCast LXP/Marketplace User Instructions
 - [Thought Industries LMS Tech Stack Guide](/handbook/customer-success/professional-services-engineering/education-services/lms/)
 
@@ -77,7 +77,7 @@ Note that participation in this program is limited and requires GitLab program t
       <h3>Service Offerings</h3>
       </td>
       <td>
-      TSP can provide [GitLab Education Services](https://about.gitlab.com/services/education) by purchasing GitLab student kits and then delivering instructor-led training courses in GitLab LevelUp.
+TSP can provide [GitLab Education Services](https://about.gitlab.com/services/education) by purchasing GitLab student kits and then delivering instructor-led training courses in GitLab LevelUp.
       </td>
   </tr>
   <tr>

@@ -22,7 +22,6 @@ For GitLab Team Members only
 
 | I'm looking for...                           | ...this report or dashboard will help.                                                    |
 |----------------------------------------------|----------------------------------------------------------------------------------------|
-| Overall Brand Social Performance             | [Sisense Brand Social Performance Dashboard ](https://app.periscopedata.com/app/gitlab/621921/Organic-Social-Media-Metrics-(for-GitLab-Brand-Channels))                                            |
 | Sheet to enter raw performance data          | [Raw metrics sheetload for Sisense](https://docs.google.com/spreadsheets/d/1Lc3uLs7gpoYYu10cLlzqzxWCFISja1Df-FSvY_xBQU4/edit#gid=0) (available to social and data team only) |
 | Ad equivalency dashboard for all social data | [Social Ad Equivalency Dashboard by objective and campaign](https://docs.google.com/spreadsheets/d/1sZwoUwnk5BXHrmRkAPkipgtMJZ8_stS-hMagTujym0k/edit?usp=sharing)                              |
 
@@ -53,7 +52,7 @@ The number of times during a reporting period that users engaged with our posts 
 
 ## Where does our data come from? 
 
-Our brand social team uses Sprout Social as our social media management software to schedule, engage, and report social media efforts. The majority of this data is already available natively across channels but is not curated or collated well for our purposes. **Our single source of truth for all organic brand social data is Sprout Social, however, for our wider team, Sisense acts as our data warehouse and visualizer.**
+Our brand social team uses Sprout Social as our social media management software to schedule, engage, and report social media efforts. The majority of this data is already available natively across channels but is not curated or collated well for our purposes. **Our single source of truth for all organic brand social data is Sprout Social.**
 
 [Learn how we pull data from Sprout, add it to a sheetload, and get it into Sisense with this video](https://youtu.be/gol6eKcmIew?t=83) (available to team members logged into our GitLab Unfiltered YouTube account only).
 
@@ -96,25 +95,21 @@ These epics can act as a living warehouse in GitLab to pull data from quarterly 
 ### Monthly Reporting 
 
 
-The social team will pull data for overall brand performance and select topics/campaigns before the end of the second week of the month following the reporting month (e.g., January data will be available before mid-February). [The Sisense dashboard](https://app.periscopedata.com/app/gitlab/621921/Organic-Social-Media-Metrics-(for-GitLab-Brand-Channels)) takes approximately 24-hours to refresh after raw data is added to our sheetload.
+The social team will pull data for overall brand performance and select topics/campaigns before the end of the second week of the month following the reporting month (e.g., January data will be available before mid-February).
 
 We will also add the necessary data to our [Ad Equivalency dashboard](https://docs.google.com/spreadsheets/d/1sZwoUwnk5BXHrmRkAPkipgtMJZ8_stS-hMagTujym0k/edit?usp=sharing) in Google Sheets. 
 
 Workflow is as follows: 
 1. Open [Sprout reports](https://app.sproutsocial.com/reports/home) and configure for the month you're reporting for
-1. Open [Sisense intake sheet](https://docs.google.com/spreadsheets/d/1Lc3uLs7gpoYYu10cLlzqzxWCFISja1Df-FSvY_xBQU4/edit#gid=0) in a separate window - either work side-by-side or use a second monitor.
-1. Highlight all of the sections from the previous month in the [Sisense intake sheet](https://docs.google.com/spreadsheets/d/1Lc3uLs7gpoYYu10cLlzqzxWCFISja1Df-FSvY_xBQU4/edit#gid=0). Copy these sections, then paste the entire series just below the last available dataset. You can now delete the `month` and the `value` sections, so that these can be updated to the month you're reporting for.
-1. Pull data from Sprout. The best location of each data point is noted in the `source_details` section of the [Sisense intake sheet](https://docs.google.com/spreadsheets/d/1Lc3uLs7gpoYYu10cLlzqzxWCFISja1Df-FSvY_xBQU4/edit#gid=0)
-1. With the general brand numbers completed, you can move to the topics we report for each month. Head to the `Topic Template` tab of the [Sisense intake sheet](https://docs.google.com/spreadsheets/d/1Lc3uLs7gpoYYu10cLlzqzxWCFISja1Df-FSvY_xBQU4/edit#gid=0). Highlight all data from column c rightward and copy. 
-1. Paste this blank data template into the `Campaign and Topic Reporting` tab of the [Sisense intake sheet](https://docs.google.com/spreadsheets/d/1Lc3uLs7gpoYYu10cLlzqzxWCFISja1Df-FSvY_xBQU4/edit#gid=0), from column c rightward. This will act as the intake for one of the topics/campaigns we report on. Select one of the `Topic/Sprout Tag` items to use and complete all of the data by heading to the [Tag Performance Report in Sprout](https://app.sproutsocial.com/reports/tag_performance) and selecting the appropriate tag.
+1. Open [Sheetload intake sheet](https://docs.google.com/spreadsheets/d/1Lc3uLs7gpoYYu10cLlzqzxWCFISja1Df-FSvY_xBQU4/edit#gid=0) in a separate window - either work side-by-side or use a second monitor.
+1. Highlight all of the sections from the previous month in the [Sheetload intake sheet](https://docs.google.com/spreadsheets/d/1Lc3uLs7gpoYYu10cLlzqzxWCFISja1Df-FSvY_xBQU4/edit#gid=0). Copy these sections, then paste the entire series just below the last available dataset. You can now delete the `month` and the `value` sections, so that these can be updated to the month you're reporting for.
+1. Pull data from Sprout. The best location of each data point is noted in the `source_details` section of the [Sheetload intake sheet](https://docs.google.com/spreadsheets/d/1Lc3uLs7gpoYYu10cLlzqzxWCFISja1Df-FSvY_xBQU4/edit#gid=0)
+1. With the general brand numbers completed, you can move to the topics we report for each month. Head to the `Topic Template` tab of the [Sheetload intake sheet](https://docs.google.com/spreadsheets/d/1Lc3uLs7gpoYYu10cLlzqzxWCFISja1Df-FSvY_xBQU4/edit#gid=0). Highlight all data from column c rightward and copy. 
+1. Paste this blank data template into the `Campaign and Topic Reporting` tab of the [Sheetload intake sheet](https://docs.google.com/spreadsheets/d/1Lc3uLs7gpoYYu10cLlzqzxWCFISja1Df-FSvY_xBQU4/edit#gid=0), from column c rightward. This will act as the intake for one of the topics/campaigns we report on. Select one of the `Topic/Sprout Tag` items to use and complete all of the data by heading to the [Tag Performance Report in Sprout](https://app.sproutsocial.com/reports/tag_performance) and selecting the appropriate tag.
 1. Redo step # 6 for each of the reporting campaigns/topics. Currently 3: `Campaign: All Remote Brand`, `Tag: Press Coverage`, `Tag: Blog Shares`
 
-Sisense will update all data in approximately 24 hours.
 
 ### Quarterly Reporting
-
-
-We'll be able to review the full quarter of [overall brand performance in Sisense](https://app.periscopedata.com/app/gitlab/621921/Organic-Social-Media-Metrics-(for-GitLab-Brand-Channels)) following the refresh with the third month of data added, typically before the end of the second week of the new quarter.
 
 When the social team adds the third month of data from a quarter to the [ad equivalency dashboard](https://docs.google.com/spreadsheets/d/1sZwoUwnk5BXHrmRkAPkipgtMJZ8_stS-hMagTujym0k/edit?usp=sharing), we'll include the average CPC and CPM by social channel, closing the metrics for the quarter. Note, ad value performance won't be available until after the quarter closes.
 

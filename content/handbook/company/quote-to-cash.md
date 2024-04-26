@@ -14,31 +14,63 @@ An efficient Quote-to-Cash system makes purchasing, activating, and managing Git
 - Improves `customer satisfaction`, and also `streamlines our go-to-market (GTM) processes` and accelerates `revenue growth` for the company.
 - Ensures `consistency` between the data for some of the most critical business objects/entities across all the Source Systems.
 - `Master Data Objects` for all core business critical objects will have same definitions and data across all the systems.
-- Proper `alignment/sync` exists between all the data source systems - Zuora, CustomerDot, SFDC and Gitlab.com along with 1:1 mapping between Zuora Billing Object Model and CustomersDot.
-- Improves `data quality` and ensures a `single lineage` for understanding the paid namespace conversion journey, the first paid subscription for a given namespace, free/trial to paid conversion analysis etc..
+- Proper `alignment/sync` exists between all the data source systems - Zuora, CustomerDot, SFDC and GitLab.com along with 1:1 mapping between Zuora Billing Object Model and CustomersDot.
+- Improves `data quality` and ensures a `single lineage` for understanding the paid namespace conversion journey, the first paid subscription for a given namespace, free/trial to paid conversion analysis etc.
 
-## Q2C System Teams
+## Teams
 
 Quote-to-Cash system projects and initiatives often require close collaboration across functions and teams. The teams most often involved include: [Enterprise Applications](/handbook/business-technology/enterprise-applications/), [Billing Ops](/handbook/finance/accounting/finance-ops/billing-ops/), [Fulfillment](https://about.gitlab.com/direction/fulfillment/), [Field Operations](/handbook/sales/field-operations/), [Support](/handbook/support/readiness/operations/), and [Data](/handbook/business-technology/data-team/).
 
-## Q2C System Architecture
+## Systems
 
-The Fulfillment Team is re-architecting our Quote 2 Cash Systems, in particular CustomersDot, in a way that promotes more reliability, sustainability, and flexibility. This handbook page serves as the SSOT for the Q2C systems with links back to functional department pages and artifacts.
+The Q2C systems consists of several systems including Salesforce, Zuora (CPQ, 360, Billing, Revenue), CustomersDot, and NetSuite.
 
-**Cross-Functional SSOT Architecture Plans:**
+### Salesforce
 
-1. Fulfillment SSOT Plan: [data_architecture](/handbook/company/quote-to-cash/#billing-account-master-data-object)
-1. Central Data Team SSOT Plan: [data_architecture](/handbook/company/quote-to-cash/#data-architecture-plan)
-1. Sales Systems SSOT Plan: To be added
-1. Enterprise Apps SSOT Plan: To be added
+- Salesforce is used as our CRM tool for managing customer Leads, Contacts, Accounts, Opportunities and Quotes.
+- Salesforce is owned by the [Enterprise Applications](/handbook/business-technology/enterprise-applications/) team at GitLab, and implements changes from the process owners.
+- The [Quoting process](/handbook/sales/field-operations/order-processing/#quote-configuration) itself is owned by the [Deal Desk team](/handbook/sales/field-operations/sales-operations/deal-desk/).
 
-Zuora serves as the source of truth for `Zuora Account` and `Zuora Contact` data once a Subscription is purchased. Prior to a purchase, a user can register for CDot which creates a `CustomersDot User` record that isn't associated with an `CustomersDot BillingAccount` (because it doesn't exist yet).  Once purchased, the `CustomersDot BillingAccount` record is created along with the related `CustomersDot BillingAccountMembership`.
+### Zuora CPQ
 
-Given that `CustomersDot User`/`Zuora Contact` and `CustomersDot BillingAccount`/`Zuora Account` information can be edited by users directly in CDot or directly in Zuora (or indirectly via SFDC), we need to be mindful of syncing this data between CDot and Zuora.  In particular, if we can't use Zuora callouts to keep the `CustomersDot BillingAccount` and `CustomersDot User` records in sync, we will explore [Zuora Custom Events](https://knowledgecenter.zuora.com/Central_Platform/Events_and_Notifications/A_Z_Custom_Events).
+- Zuora CPQ is our Configure, Price, Quote tool used for Sales Assisted deals
+- Zuora CPQ is a managed package in Salesforce that has been extended for Quote Approvals by [Enterprise Applications](/handbook/business-technology/enterprise-applications/)
+- The [Quote Approval process](/handbook/sales/field-operations/order-processing/#standard-quote-approval) itself is owned by the [Deal Desk team](/handbook/sales/field-operations/sales-operations/deal-desk/).
 
-A `CustomersDot User` record in CDot is tied to one email address.  This email address can be associated with multiple `Zuora Account`s, and therefore have multiple `Zuora Contact`s.  Each of these `Zuora Contact`s could be modified independently.  For instance, a billing admin may choose to change the address for Contact A for the billing entity in the US, but not choose to change the address for Contact B (associated with the same email address) for the billing entity in Europe.  For this reason, contact metadata could eventually be stored on the `CustomersDot BillingAccountMembership` model, but we are choosing to keep this lightweight to begin with to reduce scope.  We will start by fetching this data from Zuora.
+### Zuora 360
 
-### Equivalent Data Objects Across Q2C Systems
+- Zuora 360 is a stock connector between Zuora and Salesforce, is transfers Zuora subscription information to Salesforce.
+- Zuora 360 the job is owned by [Enterprise Applications](/handbook/business-technology/enterprise-applications/), the extension of Zuora Subscription data in Salesforce for Add-ons and Renewals deal is also owned by [Enterprise Applications](/handbook/business-technology/enterprise-applications/).
+- The [Add-On](/handbook/sales/field-operations/sales-operations/deal-desk/#amend-subscription-quote) and [Renewal](/handbook/sales/field-operations/sales-operations/deal-desk/#renew-subscription-quote) processes are owned by the [Deal Desk team](/handbook/sales/field-operations/sales-operations/deal-desk/).
+
+### Zuora Billing
+
+- Zuora is used as our billing and revenue tool for managing customer subscriptions, payments and invoicing.
+- Zuora is owned by the [Enterprise Applications](/handbook/business-technology/enterprise-applications/) team at GitLab.
+- The Billing process itself is owned by the [Billing Operations](/handbook/finance/accounting/finance-ops/billing-ops/) team
+
+### Zuora Revenue
+
+- Zuora Revenue is our automated revenue recognition application that meets current and future U.S. GAAP, including the new ASC 606 and IFRS 15 revenue standards.
+
+### CustomersDot (Customers Portal)
+
+- CustomersDot is used when the customer logs in to manage their subscriptions
+- GitLab engineers created CustomersDot and it is owned by the [Fulfillment team](/handbook/engineering/development/fulfillment/)
+- CustomersDot integrates with Zuora to enable self-service purchasing and subscription management
+
+### NetSuite
+
+- NetSuite is the company Enterprise Resource Planning (ERP) system, which is primarily managed by the Finance team.
+- The platform allows enhanced dimensional reporting as well as multi-currency and multi-entity reporting. This is where the General Ledger resides and all financial activity is ultimately recorded, which is critical to reporting the financial health of the company.
+
+## Architecture
+
+![ltc-landscape](/handbook/company/ltc-landscape.png)
+
+## Data Objects
+
+### Equivalent Data Objects
 
 This table shows the equivalent data objects across systems:
 
@@ -47,7 +79,7 @@ This table shows the equivalent data objects across systems:
 | Organization     | BillingAccount   | Account      | BillingAccount      |
 | User             | User             | Contact      | Contact             |
 | -                | Order            | Order        | Opportunity & primary quote |
-| -                | Subscription     | Subscription | TBD Quote Amendment |
+| -                | Subscription     | Subscription | Subscription |
 | License          | License          | -            | -                   |
 | -                | Cloud Activation | -            | -                   |
 
@@ -261,26 +293,41 @@ First, we focussed on improving the data architecture alignment between Zuora Bi
 
 The `Customer` model in CDot has known design flaws as it represents a combination of both a Contact (individual user) and an Account (organization).  Research for this epic can be found in [this Spike issue](https://gitlab.com/gitlab-org/customers-gitlab-com/-/issues/1874).
 
-#### Fulfillment data architecture plan
+## Projects
 
-##### CustomersDot BillingAccount management
+THe following are architecture projects undertaken by Quote to Cash teams to better align systems.
 
-[CustomersDot BillingAccount management](https://gitlab.com/groups/gitlab-org/-/epics/8331)
+### Fulfillment data architecture plan
 
-- [BillingAccount: Introduce a BillingAccount and BillingMembership object](https://gitlab.com/groups/gitlab-org/-/epics/8950)
-  - [Sisense Dashboard](https://app.periscopedata.com/app/gitlab/1081849/WIP---Fulfillment:Platform---Align-CustomersDot-BillingAccounts-and-Users-to-Zuora-objects)
-- [BillingAccount: Update CDot navigation to display new data structure to customers](https://gitlab.com/gitlab-org/customers-gitlab-com/-/issues/4973) - Link to be updated
-- [BillingAccount: Multiple CDot customers can manage one BillingAccount](https://gitlab.com/groups/gitlab-org/-/epics/8951)
-- [BillingAccount: CDot customers can manage BillTo and SoldTo contacts](https://gitlab.com/groups/gitlab-org/-/epics/9831)
-- [BillingAccount: One CDot customer can manage multiple BillingAccounts](https://gitlab.com/groups/gitlab-org/-/epics/8986)
-- [BillingAccount: Clean up legacy data objects](https://gitlab.com/groups/gitlab-org/-/epics/8949)
+The Fulfillment Team is re-architecting our Quote 2 Cash Systems, in particular CustomersDot, in a way that promotes more reliability, sustainability, and flexibility. This handbook page serves as the SSOT for the Q2C systems with links back to functional department pages and artifacts.
 
-##### Background
+1. Fulfillment SSOT Plan: [data_architecture](/handbook/company/quote-to-cash/#billing-account-master-data-object)
+1. Central Data Team SSOT Plan: [data_architecture](/handbook/company/quote-to-cash/#data-architecture-plan)
+1. Sales Systems SSOT Plan: To be added
+1. Enterprise Apps SSOT Plan: [data_architecture](/handbook/company/quote-to-cash/#billing-account-master-data-object)
+
+Zuora serves as the source of truth for `Zuora Account` and `Zuora Contact` data once a Subscription is purchased. Prior to a purchase, a user can register for CDot which creates a `CustomersDot User` record that isn't associated with an `CustomersDot BillingAccount` (because it doesn't exist yet).  Once purchased, the `CustomersDot BillingAccount` record is created along with the related `CustomersDot BillingAccountMembership`.
+
+Given that `CustomersDot User`/`Zuora Contact` and `CustomersDot BillingAccount`/`Zuora Account` information can be edited by users directly in CDot or directly in Zuora (or indirectly via SFDC), we need to be mindful of syncing this data between CDot and Zuora.  In particular, if we can't use Zuora callouts to keep the `CustomersDot BillingAccount` and `CustomersDot User` records in sync, we will explore [Zuora Custom Events](https://knowledgecenter.zuora.com/Central_Platform/Events_and_Notifications/A_Z_Custom_Events).
+
+A `CustomersDot User` record in CDot is tied to one email address.  This email address can be associated with multiple `Zuora Account`s, and therefore have multiple `Zuora Contact`s.  Each of these `Zuora Contact`s could be modified independently.  For instance, a billing admin may choose to change the address for Contact A for the billing entity in the US, but not choose to change the address for Contact B (associated with the same email address) for the billing entity in Europe.  For this reason, contact metadata could eventually be stored on the `CustomersDot BillingAccountMembership` model, but we are choosing to keep this lightweight to begin with to reduce scope. We will start by fetching this data from Zuora.
+
+#### CustomersDot BillingAccount management
+
+[Introduce CustomersDot BillingAccount](https://gitlab.com/groups/gitlab-org/-/epics/8331)
+
+- [Improve Bill To / Sold To Contact Management in CustomersDot Admin](https://gitlab.com/groups/gitlab-org/-/epics/9831) - Completed
+- [Iteration 1A: Align CustomersDot BillingAccounts and Users to Zuora objects](https://gitlab.com/groups/gitlab-org/-/epics/8950) - Completed
+- [Iteration 1B: A single CustomersDot BillingAccount can have multiple CustomersDot Users](https://gitlab.com/groups/gitlab-org/-/epics/8951) - 90% Complete
+- [Iteration 1C : A single CustomersDot User can have multiple BillingAccounts](https://gitlab.com/groups/gitlab-org/-/epics/8986) - Not Started
+- [Iteration 1D: Clean up legacy data objects](https://gitlab.com/groups/gitlab-org/-/epics/8949) - Not Started
+
+
+#### Background
 
 In this epic, the focus is on improving the data architecture of CustomersDot to better align with Zuora Billing Accounts. The `Customer` model in CDot has known design flaws as it represents a combination of both a Zuora Contact (individual user) and a Zuora Account (organization).
 
-
-##### Problem
+#### Problem
 
 Currently CustomersDot (CDot) has a data object for `Customer` (e.g. `customers` DB table) which serves a few different functions:
 
@@ -288,10 +335,9 @@ Currently CustomersDot (CDot) has a data object for `Customer` (e.g. `customers`
 - Contact information related to a physical person within a Company with metadata like first and last name, email, mailing address, etc.
 - Company information that is associated with a Zuora Account with company name.
 
-It is important to note that a Zuora Account maps to a company/customer account which can have many users or contacts. It should not map to one user in particular.  In the current architecture, a `zuora_account_id` can be shared with more than one Customer but this isn't ideal.  We need to have an architecture that accurately reflects the data structure from Zuora and our business model.  In CustomersDot, we need to have a data architecture that accurately reflects [Zuora's Billing Objects Model](https://knowledgecenter.zuora.com/BB_Introducing_Z_Business/A_Zuora_Billing_business_object_model)).
+It is important to note that a Zuora Account maps to a company/customer account which can have many users or contacts. It should not map to one user in particular.  In the current architecture, a `zuora_account_id` can be shared with more than one Customer but this isn't ideal.  We need to have an architecture that accurately reflects the data structure from Zuora and our business model.  In CustomersDot, we need to have a data architecture that accurately reflects [Zuora's Billing Objects Model](https://knowledgecenter.zuora.com/BB_Introducing_Z_Business/A_Zuora_Billing_business_object_model).
 
-
-##### Examples of issues this could benefit
+#### Examples of issues this could benefit
 
 1. [CDot Issue #3626](https://gitlab.com/gitlab-org/customers-gitlab-com/-/issues/3626)
 1. [GL Issue #332236](https://gitlab.com/gitlab-org/gitlab/-/issues/332236)
@@ -301,7 +347,7 @@ It is important to note that a Zuora Account maps to a company/customer account 
 1. [GL Issue #338546](https://gitlab.com/gitlab-org/gitlab/-/issues/338546)
 
 
-##### Plan
+#### Plan
 
 We recommend adding a few new models to the CustomersDot data architecture to better reflect the Zuora data structure.
 
@@ -318,7 +364,7 @@ With this data structure, CDot should consider the data structure of `CustomersD
 
 Currently, CDot creates a `CustomersDot User` record for the SoldTo contact associated with the Subscription Account.  In this epic, we could also create a `CustomersDot User` record for the BillTo contact as well for the same Subscription Account, but this isn't a requirement.  This will effectively allow both types of contacts to login to CDot and manage the Account's subscriptions.
 
-##### Why do we need the ability to associate a CustomersDot User with many CustomersDot BillingAccounts?
+#### Why do we need the ability to associate a CustomersDot User with many CustomersDot BillingAccounts?
 
 We considered only allowing a `CustomersDot User` to be associated with a single `CustomersDot BillingAccount`, however, we determined that we should build a many-to-many mapping capability because:
 
@@ -329,7 +375,7 @@ Enabling this will bring parity between CustomersDot and Zuora.
 
 Update: CDot has added `BillingAccount`, `BillingAccountMembership` and `BillingAccountContact` models to align with Zuora Billing models.
 
-##### Source of Truth
+#### Source of Truth
 
 Zuora serves as the source of truth for `Zuora Account` and `Zuora Contact` data once a Subscription is purchased. Prior to a purchase, a user can register for CDot which creates a `CustomersDot User` record that isn't associated with an `CustomersDot BillingAccount` (because it doesn't exist yet).  Once purchased, the `CustomersDot BillingAccount` record is created along with the related `CustomersDot BillingAccountMembership`.
 
@@ -351,14 +397,16 @@ Overall, this will lead to a more secure environment for our customers in CDot a
 - [CDot SSO: Migrate more CDot customers to use the GitLab SSO for login](https://gitlab.com/groups/gitlab-org/-/epics/9155)
 
 
-#### Align CustomersDot Orders to Zuora subscriptions and trials
+#### Align CustomersDot Orders with Zuora Orders
 
-[Align CustomersDot Orders to Zuora subscriptions and trials](https://gitlab.com/groups/gitlab-org/-/epics/9748)
+This work focuses on breaking apart the `CustomersDot Order` table and moving towards a data structure that is more representative of the `Zuora Subscriptions` table.
 
-- [Update Zuora Subscription API integration to more accurately determine subsription state](https://gitlab.com/groups/gitlab-org/-/epics/8402)
-- Further iterations - TBD
+See the [Architecture Blueprint](https://docs.gitlab.com/ee/architecture/blueprints/cdot_orders/) for full details.
 
-This iteration focuses on breaking apart the `CustomersDot Order` table to more accurately reflect its representation of `Zuora Subscriptions + Trials`. In the future, we could explore moving the reference for GitLab Namespace from being stored on the Subscription (and Order) to a `Zuora Account`. See [this LucidChart](https://lucid.app/lucidchart/3eb534e8-35b3-47a4-a284-bc6d8984c82e/edit?invitationId=inv_761317ee-84f0-46a3-8b12-3c3a19aecdae&page=xv78vQuQCGfz#) for more details.
+[Align CustomersDot Orders to Zuora objects](https://gitlab.com/groups/gitlab-org/-/epics/9748)
+- [Phase 1: Implement Zuora Cache Models](https://gitlab.com/groups/gitlab-org/-/epics/11751)
+- [Phase 2: Utilize Zuora Cache Models](https://gitlab.com/groups/gitlab-org/-/epics/11752)
+- [Phase 3: Replace CDot Order with Subscription](https://gitlab.com/groups/gitlab-org/-/epics/11753)
 
 ### Snowflake Data Warehouse and dbt (data build tool)
 
@@ -383,18 +431,6 @@ The Fulfillment Team is re-architecting our Quote 2 Cash Systems, in particular 
 
 The Q2C Re-Architecture will be implemented in various phases with a clear communication to the audience and other cross-functional teams on the Expected Outcomes and Deliverables from each phase.
 
-#### Phase 1
-
-Design & develop Master Data Objects for Billing Accounts, Orders & Ramps to support Quote to Cash Re-Architecture - [Epic](https://gitlab.com/groups/gitlab-data/-/epics/870)
-- Design & Implementation of Master Data Object for Billing Accounts
-- Design & Implmentation of Master Data Object for Orders(inclduing Ramps)
-
-#### Phase 2
-
-Design & develop Master Data Objects for Customers, Contacts/Users & Leads to support Quote to Cash Re-Architecture - [Epic](https://gitlab.com/groups/gitlab-data/-/epics/871)
-- Design & implementation of Master Data Object for Customers/Users/Contacts
-- Design & Implementation of Master Data Object for Leads
-
 ### Conformed Dimensions
 
 `Conformed dimensions` allow facts and measures to be categorized and described in the same way across multiple facts and/or data marts, ensuring consistent reporting across the enterprise.
@@ -410,45 +446,12 @@ The below `Master Data objects` for core business entities will be created that 
 - Lead
 - License
 
+The Master Data Objects development work in Snowflake/dbt is tracked in these two Epics: [Billing Account, Orders, Ramps](https://gitlab.com/groups/gitlab-data/-/epics/870) and [Customers, Contacts/Users, Leads](https://gitlab.com/groups/gitlab-data/-/epics/871).
+
 Below is the Entity Relationship Diagram for the Re-architected data model in Snowflake. The Target State tab shows how the business entities we extract from the CustomersDot, Zuora, Salesforce, and GitLab.com source systems connect with each other.
 
 <div style="width: 640px; height: 480px; margin: 10px; position: relative;"><iframe allowfullscreen frameborder="0" style="width:640px; height:480px" src="https://lucid.app/documents/embedded/c8f1520c-e59b-4551-a9db-bfce88bb84dc" id="0GkOGAjoD_O."></iframe></div>
 
-#### ERDs (Entity Relationship Diagrams) for Business Process Modeling
-
-These ERDs illustrate how we model data from the Quote to Cash Systems in the Snowflake Enterprise Dimensional Model.
-
-<details markdown=1>
-
-<summary><b>Sales Funnel Dimensional Model ERD (Built using Salesforce data)</b></summary>
-
-<div style="width: 640px; height: 480px; margin: 10px; position: relative;"><iframe allowfullscreen frameborder="0" style="width:640px; height:480px" src="https://lucid.app/documents/embeddedchart/b09f9e0a-e695-4cba-882d-981a93216293" id="7Da6Neo1dhab"></iframe></div>
-
-</details>
-
-<details markdown=1>
-
-<summary><b>Service Ping Dimensional Model ERD (Built with CustomerDot, Version App, Zuora, and Salesforce Data)</b></summary>
-
-<div style="width: 640px; height: 480px; margin: 10px; position: relative;"><iframe allowfullscreen frameborder="0" style="width:640px; height:480px" src="https://lucid.app/documents/embedded/3a42e56a-028e-45d7-b2ca-5ef489bafd32" id="Z1Mr2IgZz268"></iframe></div>
-
-</details>
-
-<details markdown=1>
-
-<summary><b>Common Subscription Dimensional Model ERD (Built using Salesforce and Zuora Data)</b></summary>
-
-<div style="width: 640px; height: 480px; margin: 10px; position: relative;"><iframe allowfullscreen frameborder="0" style="width:640px; height:480px" src="https://lucid.app/documents/embedded/7becf6b4-98d8-4e49-8467-764a3296622d" id="T3MrtOiP96Ov"></iframe></div>
-
-</details>
-
-<details markdown=1>
-
-<summary><b>ARR (Annual Recurring Revenue) Dimensional Model ERD (Built using Salesforce and Zuora Data)</b></summary>
-
-<div style="width: 640px; height: 480px; margin: 10px; position: relative;"><iframe allowfullscreen frameborder="0" style="width:640px; height:480px" src="https://lucid.app/documents/embedded/998dbbae-f04e-4310-9d85-0c360a40a018" id="f5MrUO8fEC1Y"></iframe></div>
-
-</details>
 
 #### Conformed Dimension Design for Core Business Objects
 
@@ -475,17 +478,3 @@ These ERDs illustrate how we model data from the Quote to Cash Systems in the Sn
 <div style="width: 640px; height: 480px; margin: 10px; position: relative;"><iframe allowfullscreen frameborder="0" style="width:640px; height:480px" src="https://lucid.app/documents/embedded/0e46bd1c-0d15-40d4-8755-d2b45bcc4346" id="L6t5L7s2wK5-"></iframe></div>
 
 </details>
-
-
-#### dbt Data Lineage Diagrams and Data Dictionaries
-
-[Quote to Cash Data Lineage Diagrams](/handbook/business-technology/data-team/data-catalog/#dbt-data-lineage-diagrams) illustrate how the data from critical Quote to Cash source tables flow through the Snowflake data models.
-
-[Quote to Cash Data Dictionaries](/handbook/business-technology/data-team/data-catalog/#dbt-data-dictionaries) provide definitions for the Quote to Cash fields used in the Snowflake Enterprise Dimensional Data Model.
-
-#### Business Insights and Analysis
-
-Our Data Catalog provides access to Analytics Hubs, Data Guides, ERDs, and Analytics projects relating to the Quote to Cash business processes.
-
-- [Lead to Cash Data Catalog](/handbook/business-technology/data-team/data-catalog/#lead-to-cash-catalog)
-- [Product Release to Adoption Data Catalog](/handbook/business-technology/data-team/data-catalog/#product-release-to-adoption-catalog)

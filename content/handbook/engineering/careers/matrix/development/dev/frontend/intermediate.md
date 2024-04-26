@@ -4,7 +4,7 @@ title: "Dev Career Framework: Intermediate Frontend Engineer"
 
 ## Dev Intermediate Frontend Engineer
 
-{{% include "includes/engineering/dev-fe-career-matrix-nav.md" %}}
+{{% include "includes/engineering-careers/dev-fe-career-matrix-nav.md" %}}
 
 **Dev Intermediate Frontend Engineers at GitLab are expected to exhibit the following competencies:**
 
@@ -16,13 +16,13 @@ title: "Dev Career Framework: Intermediate Frontend Engineer"
 
 ### Leadership Competencies
 
-{{% include "includes/engineering/intermediate-leadership-competency.md" %}}
-{{% include "includes/engineering/development-intermediate-leadership-competency.md" %}}
+{{% include "includes/engineering-careers/intermediate-leadership-competency.md" %}}
+{{% include "includes/engineering-careers/development-intermediate-leadership-competency.md" %}}
 
 ### Technical Competencies
 
-{{% include "includes/engineering/intermediate-technical-competency.md" %}}
-{{% include "includes/engineering/development-intermediate-technical-competency.md" %}}
+{{% include "includes/engineering-careers/intermediate-technical-competency.md" %}}
+{{% include "includes/engineering-careers/development-intermediate-technical-competency.md" %}}
 - Working knowledge of GitLab's default frontend frameworks
 - Able to construct applications using components
 - Identifying and building re-usable abstract components
@@ -36,5 +36,5 @@ title: "Dev Career Framework: Intermediate Frontend Engineer"
 
 ###  Values Alignment
 
-{{% include "includes/engineering/values-competency.md" %}}
-{{% include "includes/engineering/development-intermediate-values-competency.md" %}}
+{{% include "includes/engineering-careers/values-competency.md" %}}
+{{% include "includes/engineering-careers/development-intermediate-values-competency.md" %}}

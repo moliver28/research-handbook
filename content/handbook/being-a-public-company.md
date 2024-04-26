@@ -70,7 +70,7 @@ In situations where we are using the standard communications channels that other
 
 1. Iteration is a [core value of GitLab](/handbook/values/#iteration).
 1. We want to maintain the same velocity of iterating as a public company that we have as a private company.
-1. Iteration is a key factor in shipping new [releases](https://about.gitlab.com/releases/) [every month](https://about.gitlab.com/handbook/engineering/releases/).
+1. Iteration is a key factor in shipping new [releases](https://about.gitlab.com/releases/) [every month](/handbook/engineering/releases/).
 
 ## Disclaimer
 

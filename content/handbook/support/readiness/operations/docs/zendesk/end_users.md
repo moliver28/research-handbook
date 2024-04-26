@@ -122,7 +122,7 @@ tickets that are not yet closed (for example, the ticket they've made the
 deletion request in), you will need to close them via the API before you
 will be able to delete their user profile. For further guidance on how
 to do this, please see our API documentation on
-[how to change the status of a ticket to closed](https://handbook.gitlab.com/handbook/support/readiness/operations/docs/zendesk/api/#change-status-to-closed).
+[how to change the status of a ticket to closed](/handbook/support/readiness/operations/docs/zendesk/api/#change-status-to-closed).
 
 #### Requested via account deletion issue
 

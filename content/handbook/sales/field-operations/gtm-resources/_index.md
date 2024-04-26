@@ -217,18 +217,18 @@ GitLab recognizes the grouping of companies that are related based on their prim
     - This is the account level of classification of industry
     - A list of GitLab's Industry values can be found [HERE](https://gitlab.my.salesforce.com/_ui/common/config/field/StandardFieldAttributes/d?id=Industry&type=Account)
 1. **Sub-Industry**
-    - Sub-Industry is a more granular/detailed classification of Industry.  
+    - Sub-Industry is a more granular/detailed classification of Industry.
     - A list of GitLab's Sub-Industry values can be found [HERE](https://gitlab.my.salesforce.com/00N6100000HIhad).  This list aligns with the industries used by DemandBase
 
-  
+
 The Industry and Sub-Industry of each account is determined by a combination of 3rd party data and manual overrides. The information is stored in the `Industry` and `Sub-Industry` fields on the Account object in SalesForce and inherit data in the following priority:
 
-1. Admin Manual Override  
+1. Admin Manual Override
 1. Zoominfo mapping to `Industry` and `Sub-Industry`
 
 **Industry & Sub-Industry Enrichment Cadence**
 
-The Industry and Sub-Industry data on an Account is enriched and updated automatically on a daily cadence.  
+The Industry and Sub-Industry data on an Account is enriched and updated automatically on a daily cadence.
 
 
 ### Account Ranking for Enterprise Sales
@@ -298,7 +298,7 @@ Initial response to form submission is the responsibility of the Account Owner (
 
 #### Trial Requests
 
-Trials can be requested through [web form](/free-trial/) or within product UI for both self-managed or SaaS.
+Trials can be requested through [web form](https://about.gitlab.com/free-trial/) or within product UI for both self-managed or SaaS.
 Default trial length is thirty (30) days, but can be manually extended by the GitLab team for both the SaaS and self-managed products. Trial extensions for the SaaS product use the [`plan_change_request` issue](https://gitlab.com/gitlab-com/support/internal-requests/issues/new?issuable_template=plan_change_request) template found in the `dotcom` Group, `internal-requests` project.
 Extending self-managed trials requires access to the internal `Licensing App`.
 
@@ -315,14 +315,23 @@ Rest of the World
 
 #### Lead and Contact Record Ownership
 
-Contact Ownership follows the rules as laid out below:
+Contact Ownership follows the rules as laid out below. Contact ownership cannot be updated as it is maintained by an [automated process in Salesforce](https://handbook.gitlab.com/handbook/sales/field-operations/sales-systems/gtm-technical-documentation/#contact-ownership) which means that the ownership will revert in the nightly run.
 - Large Accounts
-   - BDR (If present otherwise AE)
-- MM & SMB Accounts
-   - Customer Accounts
-      - AE
+   - BDR (If present, otherwise AE)
+   - If AE, should own all contact follow up then the BDR Prospecting Status needs to be in Restricted.
+- MM Accounts (Sales Segment = MM)
+   - Customer Accounts and BDR Prospecting Status not equal to Actively Working
+      - AE, (Actively Working, BDR)
    - Non-Customer Accounts
       - BDR (If present otherwise AE)
+- SMB Accounts (Sales Segment = SMB)
+    - AE 
+
+AE’s should use the following views to manage their contacts:
+
+- [My MQLs](https://gitlab.my.salesforce.com/003?fcf=00B4M000004oZF7&rolodexIndex=-1&page=1)(showcases any contacts in your name that are in MQL status. You should move these to accepted when you’re working them. Other statuses can be used to showcase you’ve seen the MQL and dispositioned accordingly. These should not stay in MQL status)
+- [My Contacts w/ new LIM](https://gitlab.my.salesforce.com/003?fcf=00B4M000004taHN&rolodexIndex=-1&page=1)( showcases contacts in other statuses -not MQL - with a new Last Interesting Moment)
+- [My Contacts in Qualifying](https://gitlab.my.salesforce.com/003?fcf=00B4M000004oZFC&rolodexIndex=-1&page=1)(showcases contacts who have been in sequence and then engaged, should help with follow up)
 
 When an BDR is assigned to an Account to support and assist with outreach, the BDR will be added in the `BDR Assigned` lookup field to the account in Salesforce.
 This field then populates down to the related Contact records.
@@ -334,7 +343,7 @@ The owner of the record in SFDC **does not** need to match the owner in Outreach
 #### Record Ownership and Record Visibility
 
 In order to meet compliance standards our SFDC instance uses a private model.
-This private model allows for some records to be visible by all Gitlab team members who use Salesforce, while other records may not be visible to them.
+This private model allows for some records to be visible by all GitLab team members who use Salesforce, while other records may not be visible to them.
 Currently this is in place as it pertains to records owned by the Public Sector team.
 All salesforce records (leads, contacts, accounts, opportunities etc.) owned by the Public Sector team are only visibility to other members of the public sector team and a group of supporting staff who have been reviewed and permitted to view the these records.
 All other records (owned by non-public sector team members) maintain their standard visibility levels.
@@ -555,6 +564,9 @@ The following fields have been obtained:
 - Current DevOps or software development lifecycle tools (from conversation or credible data source)
 - Expected entry point use case (e.g. SCM or CI)
 - Potential seats of the first opportunity (if this is a new account or buying group)
+
+**Timing**
+After the initial qualifying meeting with the account leader/executive, there must be a tangible next step agreed upon with the prospect.
 
 ***Before the IQM with the account leader/executive, the BDR will also aim to gather:***
 
@@ -875,7 +887,8 @@ To help move sales through the sales process, [here](https://docs.google.com/doc
 - What to Complete in This Stage:
     - For BDR/SDR sourced opportunities, the opportunity meets [Sales Accepted Opportunity criteria](/handbook/sales/field-operations/gtm-resources/#opportunities).
     - The BDR/SDR has scheduled a call via Google Calendar, sent invites, created an event on the account object, named the event: GitLab Introductory Meeting - {{Account Name}}
-    - Once it is confirmed that the opportunity meets our Sales Accepted Opportunity criteria, the SAE or AE should move the opportunity to the next stage and the `Amount` field must be populated with estimated pipeline. The date the opportunity moves from this to the next stage in the sales cycle will populate the `Sales Accepted Date` field on the opportunity record.
+    - The opportunity will populate the Stage 1 XDR Net ARR field with an estimate of the Net ARR value of this opportunity based on a per-Geo/Segment/deal type average and median.
+    - Once it is confirmed that the opportunity meets our Sales Accepted Opportunity criteria, the SAE or AE should move the opportunity to the next stage and the `Amount` field must be populated with estimated pipeline. This will then populate the Stage 1 Net ARR field which will demonstrate Net ARR value of this opportunity as it crosses into Stage 1. The date the opportunity moves from this to the next stage in the sales cycle will populate the `Sales Accepted Date` field on the opportunity record.
     - If the details on the opportunity do not meet our Sales Accepted Opportunity criteria, the SAE or AE should move the opportunity to an `9-Unqualified` stage (this is the only time an opportunity can move into `9-Unqualified` stage)
     - All Opps that are sales assisted must first enter this stage before they can be moved further in the pipeline. If they do not enter this stage at some point you will encounter a validation rule error.
     - For renewal opportunities, `0-Pending Acceptance` is only to be used if the renewal is not being actively worked by the Account Executive/Strategic Account Executive.
@@ -898,6 +911,7 @@ To help move sales through the sales process, [here](https://docs.google.com/doc
     - Complete a Demo (Optional)
     - Schedule a Technical Evaluation Call
     - Confirm and collect new [MEDDPPICC](/handbook/sales/meddppicc/) information.
+    - Make adjustments to expected opp amount as this will impact the field Stage 3 Net ARR which popluates the Net ARR value of this opportunity as it crosses into Stage 3.
 
 **3-Technical Evaluation**: Confirming technical requirements. A proof-of-concept (POC) might occur at this stage. This is also the stage to confirm information before a proposal is delivered.
 
@@ -919,7 +933,7 @@ To help move sales through the sales process, [here](https://docs.google.com/doc
 
 - What to Complete in This Stage:
     - Agreement on business terms
-    - All proposals should include the standard GitLab [Terms](/terms/#subscription/)
+    - All proposals should include the standard GitLab [Terms](https://about.gitlab.com/terms/#subscription/)
     - Determine if customer will be referenceable when the opportunity closes. If the answer is:
         - "Yes" update the `Referenceable Customer` section on the Account object with appropriate reference information
         - "No" the discussion of being a reference can be revisited at a later date
@@ -1033,81 +1047,7 @@ Changes by Legal will automatically update the Account, although updates may tak
 (iii) If the Account requires immediate attention (i.e., to close a deal), open a Chatter message in the Account and message “@legal”. Upon receipt of a request, the Legal team can review and update in Visual Compliance.
 Please understand that if Legal finds a problem, the flag and the account will remain locked down.
 
-## Executive Sponsorship Program
 
-### Objectives
-
-Through the Executive Sponsor Program, we seek to:
-1. Provide executive oversight to ensure GitLab delivers customer's desired outcomes with a positive experience for our strategic accounts
-1. Improve GitLab executive and senior leader understanding and empathy for customer needs and challenges
-1. Deepen our relationship and influence with key strategic accounts
-1. Provide deeper insights and learnings from our customers to improve our product, engagement approaches, and customer experiences for all customers
-
-### Responsibilities
-
-#### Executive Sponsor
-
-The executive sponsor should:
-- Clearly understand the customer's and GitLab's desired outcomes and goals and actively support the achievement of both. He/she should feel accountability to drive these results.
-- Be responsible for maintaining direct relationships and communications with individual(s) at the account and participating in remote and in-person meetings. Travel should be expected to meet customers in their office or at a conference or GitLab event (e.g., dinner, Commit).
-- Provide strategic and executive guidance, collaboration, and communication with customer contacts.
-- Act as an advocate for the customer driving actions in support of the customer and account team as well as sharing customer stories and requirements.
-- Be responsive to account team and customer communications. He/she should communicate the discussion, agreements, decisions, and/or action items within 24 hours if the account team was not involved in the meeting.
-  - The executive sponsor should maintain ongoing contact with their respective customer counterpoint at least once a quarter, including formal (e.g., EBR, meeting) and informal approaches (e.g., check-in or update emails/texts or video chats).
-- If there is a 1:1 meeting, the executive sponsor should send a follow-up email within 24 hours with:
-  - Thank you / appreciation of the customer's time and feedback
-  - Action items and/or next steps (when applicable)
-  - When possible, project the next follow-up interaction
-
-Example Sponsor Activities
-
-- Actively participate in [Executive business reviews](/handbook/customer-success/csm/ebr/).
-- Participate and contribute to account meetings and social events, including visting a customer for dinner or lunch.
-- Check-in/status emails to note progress and open lines of communication and feedback.
-- Build personal relationships with customer executive(s), understanding their personal needs and goals.
-- Informal communications like ad hoc phone calls and emails.
-
-#### Account Team
-
-- The SAE or AE should select an executive sponsor considering customer needs and expectations, ability to connect personally, experience, and ability to drive the right impact.
-- SAE or AE should take the lead on providing executive sponsor briefing using the [Briefing Template](https://docs.google.com/document/d/1No6Hzv2UoeFi6Bl8qtVUYYy2hDA7ChwoVENboh8wuVs/edit#). The Customer Success Manager should actively be contributing to these documents and preparation. Alternate account documentation like an account plan can be used as an alternate to the briefing doc.
-- The account team should proactively plan consistent engagement between the executive sponsor and customer contact(s), including:
-  - Progress on delivering to outcomes, progress, and customer successes and wins
-  - Updates on any notable issues (past or present), concerns, and/or key customer requirements
-  - Inclusion into key customer meetings like Executive Business Reviews
-- Brief the executive sponsor before formal meetings, key updates, and upcoming milestones. This enables the executive sponsor to set expectations for future updates or engagements.
-
-#### Executive Sponsor Program Leads
-
-- Facilitate the executive sponsor program ensuring the program is being actively managed by the respective account teams.
-- Identify and lead improvements to the program's effectiveness and efficiency and depth of engagement with program accounts.
-- In partnership with the respective account team, manage the e-group account reviews at least once per quarter.
-
-### Process
-
-#### Sponsor Assignments
-
-1. The executive sponsor must be a [vice president](/handbook/company/team/structure/#vp) or [executive level](/handbook/company/team/structure/#executives).
-1. The executive sponsor assignment is a long-term engagement (i.e., multiple quarters, years+).
-1. The account can be a prospect or customer account.
-1. The sponsor should reflect both the needs of the customer and GitLab.
-1. Executive sponsor requests should be approved by the regional sales Vice President and approved by the requested executive sponsor. This does not include a request for a VP or egroup member to support a meeting or discussion (i.e., short term ask).
-1. Sponsored accounts typically represent deep product utilization, large or strategic opportunity, and/or a broad vision for success and engagement with GitLab.
-1. Once approved, Sales Operations will update the "Executive Sponsor" field.
-1. Executive Sponsored Accounts are [listed in Salesforce](https://gitlab.my.salesforce.com/00O8X0000096MF9).
-
-#### E-group Reviews
-
-1. At least one account will be reviewed in the egroup meeting at least once per quarter.
-1. The objective of the review is to:
-   - Partner with the account team to support the customer's needs and the Account Plan goals.
-   - Provide guidance and suggestions and drive appropriate actions to support the account team.
-1. The review is neither an account or opportunity inspection nor an account team performance review.
-
-#### Additional Notes
-
-1. Even though most accounts will not have an assigned exec sponsor, the executive team is available to support and engage all customers as needed.
-1. Executive sponsors should engage with accounts *with and without* active opportunities.
 
 ## Types of Accounts
 

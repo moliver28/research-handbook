@@ -1,20 +1,21 @@
 ---
 title: Environmental & Social Governance (ESG)
+description: The ESG Team creates and maintains GitLab’s Corporate Sustainability strategy and programs. This includes ESG disclosures and public ESG reporting, identifying and prioritizing key issues to advance GitLab’s social and environmental goals, and creating partnerships with non-profit organizations that support GitLab’s values and mission.
 ---
 
-## ESG Manager
+## ESG Manager - Environmental Sustainability and Reporting
 
 ### ESG Manager Job Grade
 
 The ESG Manager is a [grade 8](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
-### ESG Manager
+### ESG Manager - Environmental Sustainability and Reporting
 
 The ESG Manager reports to the Senior Director, ESG, and is responsible for contributing to GitLab’s sustainability programs, policies, and initiatives.
 
 The ideal candidate has deep expertise in environment, social, and governance programs and disclosures. This individual can inspire and influence cross-functional teams and has a strong desire to make a positive impact.
 
-### ESG Manager Responsibilities
+### ESG Manager - Environmental Sustainability and Reporting Responsibilities
 
 - Participate in the development of the company’s ESG strategy and implements the strategy
 - Contribute to the development and publication of ESG reports including collecting data, material metrics, and consolidating information requests
@@ -24,11 +25,50 @@ The ideal candidate has deep expertise in environment, social, and governance pr
 - Conduct benchmarking, follow trends, and provide best practices for ESG disclosures while identifying gaps and presenting solutions
 - Develop and maintain tools and mechanisms to evaluate, track and report on progress against company ESG goals
 
-### ESG Manager Requirements
+### ESG Manager - Environmental Sustainability and Reporting Requirements
 
 - 3+ years’ experience in non-financial reporting, corporate social responsibility, ESG disciplines or sustainability
 - Knowledge of key reporting frameworks including GRI, SASB, CDP, and TCFD
 - Experience in managing ESG issues and disclosures, preferably in the tech industry
+- Excellent written and oral communication skills
+- Excellent organizational skills as well as creativity and resourcefulness
+- Ability to work in a deadline-oriented environment
+- Attention to detail and ability to prioritize
+- Superior research and analytical skills
+- Outstanding cross-functional partnership skills, with a confirmed ability to identify, initiate and lead efforts with both internal and external teams
+- Embrace GitLab Values of [Collaboration](/handbook/values/#collaboration), [Results](/handbook/values/#results), [Efficiency](/handbook/values/#efficiency), [Diversity, Inclusion & Belonging](/handbook/values/#diversity-inclusion), [Iteration](/handbook/values/#iteration), and [Transparency](/handbook/values/#transparency)
+
+## ESG Manager - Volunteerism and Social Impact
+
+### ESG Manager Job Grade
+
+The ESG Manager is a [grade 8](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+
+### ESG Manager - Volunteerism and Social Impact
+
+The ESG Manager - Volunteerism and Social Impact reports to the Senior Director, ESG, and is responsible for contributing to GitLab’s sustainability programs, policies, and initiatives with a focus on volunteerism, team member engagement, and social impact.
+
+The ideal candidate has deep expertise in building and managing social impact programs including, global team member volunteer programs and in-kind donation programs. This individual can inspire and influence cross-functional teams and has a strong desire to make a positive impact.
+
+### ESG Manager - Volunteerism and Social Impact Responsibilities
+
+- Participate in the development of the company’s ESG programs, including creating the first formal global volunteer program
+- Manage the GitLab for Nonprofits in-kind donation program including; internal communication of the program, external communication with applicants, and management of GitLab’s verification partner, TechSoup
+- Create and manage relationships with nonprofit organizations
+- Work with internal teams to ensure give-back components are included for in-person events
+- Organize quarterly virtual volunteer opportunities for team members
+- Partner with team member resource groups (TMRGs) to support volunteerism with diverse organizations
+- Partner with internal and external communications teams to effectively share program updates and progress
+- Develop and maintain tools and mechanisms to evaluate, track and report on progress against company ESG goals
+- Contribute to the development and publication of the annual ESG report
+- Conduct benchmarking, follow trends, and provide best practices for social impact and team member volunteering
+
+### ESG Manager - Volunteerism and Social Impact Requirements
+
+- 3+ years’ experience in corporate social responsibility, social impact, employee engagement, or related field
+- Experience in creating global team member volunteer programs
+- Proven track record effectively communicating and recruiting global team members for virtual volunteerism
+- Experience in managing in-kind donation programs
 - Excellent written and oral communication skills
 - Excellent organizational skills as well as creativity and resourcefulness
 - Ability to work in a deadline-oriented environment

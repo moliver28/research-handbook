@@ -69,7 +69,7 @@ Shipping applications at high speed must not introduce new security risks or vul
    1. **Single SDLC application embeds security testing into developer’s natural workflow** with understandable results reported to the developer with remediation advice and line-of-code detail enabling them to remove the vulnerability before their code is merged with other code. (note: for CISO, this results in far fewer vulns for security team to manage.)
    1. **Security Dashboard** helps security focus better on exceptions where dev needs help to prioritize/resolve.
 1. Why are we better than the competition?
-   1. **Single app for the SDLC application to avoid stitching together** and maintaining a devops toolchain that must integrate with multiple security tools (efficiency for both dev and app sec teams) - no integration to support/maintain, cost, skill sets.
+   1. **Single app for the SDLC application to avoid stitching together** and maintaining a DevOps toolchain that must integrate with multiple security tools (efficiency for both dev and app sec teams) - no integration to support/maintain, cost, skill sets.
    1. **SAST, DAST, Container scanning, dependency scanning and license mgmt ALL done IN the MR pipeline for EVERY code commit**, presented to the developer. No other app sec tool can perform a DAST scan before the code is committed. (The closest capability would be IAST which is a separate tool purchase.)
 1. What are the proof points that prove this?
    1. **Analyst reports** - Forrester SCA New Tech rpt, hoping for a mention in Gartner AppSec MQ (Feb) and inclusion in the Hype Cycle (May?)
@@ -78,17 +78,17 @@ Shipping applications at high speed must not introduce new security risks or vul
    1. Technical benchmark vs Fortify (WIP with NAIC) - coming soon.
 1. Related content
    1. Early funnel/Awareness/interest
-      1. DevOps page: [DevSecOps Solution page](/solutions/dev-sec-ops/)  
-      1. [Security deck](https://docs.google.com/presentation/d/1z4v6v_lP7BHCP2jfRJ9bK_XoUgQ9XW01X2ZhQcon8bY/edit#slide=id.g2823c3f9ca_0_9)  
-      1. Blog - [What our summit in South Africa taught me about cybersecurity](https://about.gitlab.com/blog/2018/09/11/what-south-africa-taught-me-about-cybersecurity/)  
+      1. DevOps page: [DevSecOps Solution page](https://about.gitlab.com/solutions/dev-sec-ops/)
+      1. [Security deck](https://docs.google.com/presentation/d/1z4v6v_lP7BHCP2jfRJ9bK_XoUgQ9XW01X2ZhQcon8bY/edit#slide=id.g2823c3f9ca_0_9)
+      1. Blog - [What our summit in South Africa taught me about cybersecurity](https://about.gitlab.com/blog/2018/09/11/what-south-africa-taught-me-about-cybersecurity/)
       1. Blog - Container security challenges (coming soon)
-      1. [Compliance landing page](/solutions/compliance/)  
-      1. [Financial Services industry](/solutions/financial-services-regulatory-compliance/)
-      1. [Security 101 webinar](https://youtu.be/VVzSToclmuk?t=2m33s)  
+      1. [Compliance landing page](https://about.gitlab.com/solutions/compliance/)
+      1. [Financial Services industry](https://about.gitlab.com/solutions/financial-services-regulatory-compliance/)
+      1. [Security 101 webinar](https://youtu.be/VVzSToclmuk?t=2m33s)
    1. Middle funnel/Interest/POC
-      1. [Video interview with Alex](https://www.youtube.com/watch?v=k4vEJnGYy84)  
-      1. **Whitepaper: Seismic shift…**  
-      1. [Ungated](/resources/downloads/gitlab-seismic-shift-in-application-security-whitepaper.pdf)( internal use)
-      1. [Gated](/resources/whitepaper-seismic-shift-application-security/)
+      1. [Video interview with Alex](https://www.youtube.com/watch?v=k4vEJnGYy84)
+      1. **Whitepaper: Seismic shift…**
+      1. [Ungated](https://about.gitlab.com/resources/downloads/gitlab-seismic-shift-in-application-security-whitepaper.pdf)( internal use)
+      1. [Gated](https://about.gitlab.com/resources/whitepaper-seismic-shift-application-security/)
       1. Blog - [How can teams secure applications at DevOps speed? Security Dashboards are here to help.](https://about.gitlab.com/blog/2018/09/14/inside-gitlab-security-dashboards/)
-      1. [Comparisons](/competition/)
+      1. [Comparisons](https://about.gitlab.com/why-gitlab/)

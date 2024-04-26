@@ -36,7 +36,7 @@ The VP of Commerical Sales is a [grade 12](/handbook/total-rewards/compensation/
 - Excellent time management and written/verbal communication skills.
 - Ability to travel globally as needed
 - You share our values, and work in accordance with those values.
-- [Leadership at GitLab](/handbook/company/team/structure/#s-group)
+- [Leadership at GitLab](/handbook/company/structure/#s-group)
 - Ability to use GitLab
 - Ability to travel if needed and comply with the company’s [travel policy](/handbook/travel/)
 

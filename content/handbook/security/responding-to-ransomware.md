@@ -8,16 +8,16 @@ Ransomware is a persistent threat to many organizations, including GitLab.  In t
 
 - Engage the SIRT team as soon as a ransomware attack is detected
 - The SIRT team will then follow the [incident response guide]({{< ref "sec-incident-response" >}}) and [incident communication plan]({{< ref "security-incident-communication-plan" >}}) and reference the [relevant run book](https://gitlab.com/gitlab-com/gl-security/runbooks/-/blob/master/sirt/infrastructure/ransomware-attack.md).
-- Responders should leverage GitLab's established [rapid engineering response](https://about.gitlab.com/handbook/engineering/workflow/#rapid-engineering-response) plan during the mitigation phase.
+- Responders should leverage GitLab's established [rapid engineering response](/handbook/engineering/workflow/#rapid-engineering-response) plan during the mitigation phase.
 - The Business Continuity & Disaster Recovery Controls handbook page should be referenced for relevant information.
 
 ***Relevant Teams:***
 
 Depending on the impacted resources, the following teams should be engaged and made aware of the issue created for the rapid engineering response.  Note that this is not a comprehensive list depending on impacted assets.
 
-- [Database: Disaster Recovery Team](https://about.gitlab.com/handbook/engineering/infrastructure/database/disaster_recovery.html) - responsible for disaster recovery strategy for the PostgreSQL database.
-- [Infrastructure Team](https://about.gitlab.com/handbook/engineering/infrastructure/#teams) - availability, reliability, performance, and scalability of GitLab SaaS software
-- [Infrastructure Security Team](/handbook/security/security-engineering/infrastructure-security/) - infrastructure teams stable counterpart focused on cloud infrastructure security, best practices, and vulnerability management
+- [Database: Disaster Recovery Team](/handbook/engineering/infrastructure/database/disaster_recovery.html) - responsible for disaster recovery strategy for the PostgreSQL database.
+- [Infrastructure Team](/handbook/engineering/infrastructure/#teams) - availability, reliability, performance, and scalability of GitLab SaaS software
+- [Infrastructure Security Team](/handbook/security/product-security/infrastructure-security/) - infrastructure teams stable counterpart focused on cloud infrastructure security, best practices, and vulnerability management
 - [Business Technology Engineering](/handbook/business-technology/engineering/) - endpoint and systems access management
 - [Support Team](https://about.gitlab.com/support/) - responding to customer or employee inquiries regarding system outages
 - [Legal & Corporate Affairs](/handbook/legal/)

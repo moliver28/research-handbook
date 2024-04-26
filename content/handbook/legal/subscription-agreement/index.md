@@ -1,6 +1,5 @@
 ---
 title: "GitLab Subscription Agreement"
-description: "Learn more about the GitLab Subscription Agreement"
 ---
 
 ## Subscription Agreement

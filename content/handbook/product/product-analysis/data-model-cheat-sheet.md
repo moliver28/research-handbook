@@ -92,19 +92,19 @@ These categories are grouped by data source and subject area.
 </details>
 
 
-### Gitlab.com
+### GitLab.com
 
 GitLab.com (SaaS) is a single installation reporting a single ping within our Service Ping framework. In order to access more granular data by product tier, plan type, namespace, or user, we utilize the [GitLab.com Postgres database](/handbook/business-technology/data-team/programs/data-for-product-managers/#gitlabcom-postgres-database). This data source replicates any service ping events that create a [backend table](https://gitlab.com/gitlab-org/gitlab/-/tree/master/db/docs).
 
 #### FAQs
 
-> Why don't all events for all Stages and Groups show up in our Gitlab.com data?
+> Why don't all events for all Stages and Groups show up in our GitLab.com data?
 - This is due to limitations in replicating Service Ping counters using the gitlab.com db Postgres replica
 
-> Is it possible to associate user level behavior in our Gitlab.com data to our Snowplow events?
-- No. Our snowplow user identifiers are anonymized, while our Gitlab.com user identifiers are not. However, it is possible to join Snowplow and Gitlab.com data at the namespace (group/project) level.
+> Is it possible to associate user level behavior in our GitLab.com data to our Snowplow events?
+- No. Our snowplow user identifiers are anonymized, while our GitLab.com user identifiers are not. However, it is possible to join Snowplow and GitLab.com data at the namespace (group/project) level.
 
-> I've heard there are some reliability issues with our Gitlab.com data. How can I stay up to date on outages or known problems?
+> I've heard there are some reliability issues with our GitLab.com data. How can I stay up to date on outages or known problems?
 - [This Issue](https://gitlab.com/gitlab-data/analytics/-/issues/12921) documents all known problems with the GitLab.com replica.
 
 #### Documentation
@@ -112,7 +112,7 @@ GitLab.com (SaaS) is a single installation reporting a single ping within our Se
 
 <details markdown="1"><summary>Click to expand</summary>
 
-- [Data Guide for Product Managers documentation on Gitlab.com postgres replica data](/handbook/business-technology/data-team/programs/data-for-product-managers/#gitlabcom-postgres-database)
+- [Data Guide for Product Managers documentation on GitLab.com postgres replica data](/handbook/business-technology/data-team/programs/data-for-product-managers/#gitlabcom-postgres-database)
 
 - [DB docs](https://gitlab.com/gitlab-org/gitlab/-/tree/master/db/docs) document which service ping metrics are replicated in a database. Click in to the .yml files for each table to access table specific descriptions.
 
@@ -144,13 +144,13 @@ GitLab.com (SaaS) is a single installation reporting a single ping within our Se
 
 <details markdown="1"><summary>Click to expand</summary>
 
-- Gitlab.com data sources are not exhaustive of all of the actions users can take within GitLab's SaaS offering.
+- GitLab.com data sources are not exhaustive of all of the actions users can take within GitLab's SaaS offering.
 
 </details>
 
 ### Snowplow
 
-Snowplow is an open source event tracking tool that is used at GitLab to track Gitlab.com front-end events like page views, CTA clicks, link clicks, etc. This data source does not collect identifiable user data to protect our user's privacy. Our Snowplow data source is how we implement and track experiments at Gitlab.
+Snowplow is an open source event tracking tool that is used at GitLab to track GitLab.com front-end events like page views, CTA clicks, link clicks, etc. This data source does not collect identifiable user data to protect our user's privacy. Our Snowplow data source is how we implement and track experiments at GitLab.
 
 #### FAQs
 
@@ -158,7 +158,7 @@ Snowplow is an open source event tracking tool that is used at GitLab to track G
 - In order to show up in the [metrics dictionary](https://metrics.gitlab.com/snowplow), every event needs a [.yml file](https://gitlab.com/gitlab-org/gitlab/-/tree/master/config/events). This will not happen automatically and should be created by the engineer that implements snowplow tracking.
 
 > Why is the value for `gsc_namespace_id` null for some proportion of snowplow events?
-- Engineers need to enable tracking for `gsc_namespace_id` when implementing new events. If tracking for `gsc_namespace_id` is already enabled and nulls are still occurring, the events may be triggered in a location within Gitlab.com that is not specific to any one namespace like the ToDos page.
+- Engineers need to enable tracking for `gsc_namespace_id` when implementing new events. If tracking for `gsc_namespace_id` is already enabled and nulls are still occurring, the events may be triggered in a location within GitLab.com that is not specific to any one namespace like the ToDos page.
 
 > What is the correct logic to identify events triggered in production environments?
 - Apply the following logic `WHERE app_id IN ('gitlab','gitlab_customers')`
@@ -253,12 +253,12 @@ This category of data models includes GitLab.com (SaaS) [namespaces](https://doc
 
 | Schema | Table Name | Data Grain | Description | Notes |
 | --- | --- | --- | --- | --- |
-| common | [dim_namespace](https://dbt.gitlabdata.com/#!/model/model.gitlab_snowflake.dim_namespace) | `dim_namespace_id` | Dimension table that contains all Gitlab.com namespaces and namespace attributes including plan. |  |
+| common | [dim_namespace](https://dbt.gitlabdata.com/#!/model/model.gitlab_snowflake.dim_namespace) | `dim_namespace_id` | Dimension table that contains all GitLab.com namespaces and namespace attributes including plan. |  |
 | common | [dim_namespace_hist](https://dbt.gitlabdata.com/#!/model/model.gitlab_snowflake.dim_namespace_hist) | `namespace_snapshot_id`, `dim_namespace_id`, `valid_from`, `valid_to` | Historical snapshot of `common.dim_namespace` model. |  |
-| common | [dim_user](https://dbt.gitlabdata.com/#!/model/model.gitlab_snowflake.dim_user) | `dim_user_id` | Dimension table that contains all Gitlab.com Users. |  |
+| common | [dim_user](https://dbt.gitlabdata.com/#!/model/model.gitlab_snowflake.dim_user) | `dim_user_id` | Dimension table that contains all GitLab.com Users. |  |
 | common | [dim_user_hist](https://dbt.gitlabdata.com/#!/model/model.gitlab_snowflake.dim_user_hist) | `dim_user_snapshot_hist_id`, `dim_user_id`, `valid_from`, `valid_to` | Historical snapshot of `common.dim_user` model. |  |
 | legacy | [gitlab_dotcom_memberships](https://dbt.gitlabdata.com/#!/model/model.gitlab_snowflake.gitlab_dotcom_memberships) | `membership_source_id`, `user_id` | This model unions together all of the other models that represent a user having (full or partial) access to a namespace, AKA "membership". | Includes both direct and indirect membership types. |
-| legacy | [gitlab_dotcom_members](https://dbt.gitlabdata.com/#!/model/model.gitlab_snowflake.gitlab_dotcom_members) | `member_id`, `user_id` | Base model for Gitlab.com members. | Only includes direct membership links. Used for invite related fields. |
+| legacy | [gitlab_dotcom_members](https://dbt.gitlabdata.com/#!/model/model.gitlab_snowflake.gitlab_dotcom_members) | `member_id`, `user_id` | Base model for GitLab.com members. | Only includes direct membership links. Used for invite related fields. |
 
 </details>
 

@@ -64,4 +64,4 @@ skip level meetings:
 
 - [Skip Levels](https://www.manager-tools.com/2006/04/skip-levels) podcasts on Manager-Tools
 - [The Art of the Skip Level Meeting](https://www.linkedin.com/pulse/art-skip-level-meeting-scott-boulton%2C-chrp-5948801065834024960/)
-- [Skip Level Meetings](https://about.gitlab.com/handbook/engineering/development/dev/create/engineers/skip-level/)
+- [Skip Level Meetings](/handbook/engineering/development/dev/create/engineers/skip-level/)

@@ -43,7 +43,7 @@ Product usage statistics inform three different scores. They each have a distinc
 | ----- | ----- | ----- | ----- | ----- |
 | **Customer Health Score**        | To enable the team in understanding the relative health of customers, identify risks, manage renewal likelihood, and identify expansion opportunities and why | Internal GitLab Teams                   | Account Health is an aggregation of key metrics for a multi-perspective view of the customer. For detail, see [Account Health Predictor](/handbook/customer-success/customer-health-scoring/#account-health-predictor) above |                                                              |
 | **Value Stream Management** | This customer-facing dashboard hosts [value stream analytics](https://docs.gitlab.com/ee/user/group/value_stream_analytics/index.html) metrics including DORA4 | GitLab customers | DORA 4 metricsm month-over-month usage metrics | |
-| **Platform Adoption Score**         | Each customer will have a single Platform Adoption Score used to understand the level of use cases being utilized and value the customer is currently receiving from Gitlab application | Internal GitLab Teams                   | 3–7 product usage metrics per Use Case, using Red/Yellow/Green scoring. The metrics will roll up into a score for each Use Case, and the Use Case scores will roll up to the Platform Adoption Score | [Platform Adoption Scoring](/handbook/customer-success/product-usage-data/platform-value-score/) |
+| **Platform Adoption Score**         | Each customer will have a single Platform Adoption Score used to understand the level of use cases being utilized and value the customer is currently receiving from GitLab application | Internal GitLab Teams                   | 3–7 product usage metrics per Use Case, using Red/Yellow/Green scoring. The metrics will roll up into a score for each Use Case, and the Use Case scores will roll up to the Platform Adoption Score | [Platform Adoption Scoring](/handbook/customer-success/product-usage-data/platform-value-score/) |
 | **Use Case Adoption Scorecards** | Each customer will have a scorecard per use case (SCM, CI, CD...) to highlight their adoption progress to celebrate wins and identify areas for improvement | Internal GitLab Teams **and** customers | 3–7 product usage metrics per Use Case, using Red/Yellow/Green scoring. These are then used to create a deck highlighting the level per use case adoption | [Use Case Adoption Scoring](/handbook/customer-success/product-usage-data/maturity-scoring/) |
 | **DevOps Score**                 | For the customer to understand their DevOps status compared to top-performing instances (self-managed only) | GitLab customers                        | 10 metrics across Use Cases, displayed as a % of users who have utilized a feature in the past month, compared to how top-performing instances utilized that feature (self-managed only - [GitLab features](https://about.gitlab.com/features/)) | [Handbook Link](https://about.gitlab.com/blog/2021/12/15/devops-adoption/#devops-score) |
 | **DevOps Adoption**              | DevOps Adoption shows you how groups in your organization adopt and use the most essential features of GitLab. | GitLab customers                        | Specific metrics across Dev, Sec, and Ops to show a customer's overall adoption. requires configuration (group and project level for SaaS, whereas instance for self-managed - [GitLab features](https://about.gitlab.com/features/)) | [Docs Link](https://docs.gitlab.com/ee/user/group/devops_adoption/) |
@@ -264,16 +264,6 @@ The following graph (Early Warning Segmentation Framework) is used to provide a 
 
 The first approach was a calculation of multiple metrics to create a “black box” approach. This was neither helpful to the end user (CSMs, SAs, sales reps), it was not easy to understand the calculation, the Gainsight logic was inadequate, and was not action-oriented to know *which* aspects of the use case were great and which needed improvement.
 
-### Next iteration
-
-The next iteration is a model where each use case incorporates X number of metrics and each metric is valued from 0-1.0. Then, the individual scores can then be summed to an aggregated score for that use case. Below is an *example* of what *could* be done for transparently measuring health.
-<br>
-![CI Health Scoring](images/ci-health-scoring.jpeg)
-<br>
-
-Example: CI has ten individual features with one metric per feature and each metric is equally weighted at 10. Each metric can score between 0-10 with some being zero, some being 5, and others being 10. The aggregate score would be 65 out of 100. The CSM could then evaluate each metric to see which features are being adopted and which ones need improvement.
-
-While the product usage health will be summarized, a separate health view will allow users to view each individual component. This allows users to quickly skim overall health and, when applicable, to look into the details to see which features are not being utilized.
 
 ## PROVE Components
 
@@ -377,3 +367,4 @@ Indicators from Seat Reduction or Downtier above plus:
 - [Strict Cloud Licensing](https://internal.gitlab.com/handbook/product/fulfillment/cloudlicensing/strictcloudlicensing/) (internal handbook)
 - [Service Ping Metrics list](https://metrics.gitlab.com/) (subscription, operational, and optional)
 - [Operational Service Data](https://internal.gitlab.com/handbook/product/fulfillment/archive/operational-service-data/#register) (internal handbook)
+- [Operationalized Usage Metrics in Gainsight/Tableau](https://docs.google.com/spreadsheets/d/1EhSXqx6YXcpqHg2TpS0ZN5Rk_d2hhrTPrW5FTbmuZjw/edit#gid=0) (Metric Dictionary)

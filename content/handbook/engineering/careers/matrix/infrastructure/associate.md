@@ -3,7 +3,7 @@ title: "Associate - Infrastructure Department Career Framework"
 description: "The expected team member competencies in the Infrastructure department at GitLab for the Associate job level."
 ---
 
-{{% include "includes/engineering/career-matrix-nav.md" %}}
+{{% include "includes/engineering-careers/career-matrix-nav.md" %}}
 
 ## Associate
 
@@ -39,12 +39,12 @@ Associate-level engineers in Infrastructure are primarily focused on completing 
 
 ### Associate Leadership Competencies
 
-{{% include "includes/engineering/associate-leadership-competency.md" %}}
+{{% include "includes/engineering-careers/associate-leadership-competency.md" %}}
   
 ### Associate Technical Competencies
 
-{{% include "includes/engineering/associate-technical-competency.md" %}}
+{{% include "includes/engineering-careers/associate-technical-competency.md" %}}
 
 ### Associate Values Alignment
 
-{{% include "includes/engineering/values-competency.md" %}}
+{{% include "includes/engineering-careers/values-competency.md" %}}

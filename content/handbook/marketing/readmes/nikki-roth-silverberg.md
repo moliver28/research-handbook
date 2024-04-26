@@ -23,8 +23,8 @@ Please feel free to contribute to this page by opening a merge request.
 - I live with my husband, AJ, and our dog Piper. We are very excited to be expecting our first child in March 2024 🐣!
 - Outside of work, I love adventuring outdoors including hiking and camping in the summers and snowboarding in the winter. I am an avid rock climber, although mostly in the gym. I also love cooking and baking (and eating), music (live and on vinyl), and have recently become a bit of a bookworm. My guilty pleasures are 90 Day Fiance and true crime. 
 - I'm a massive sports fan. I love the Philadelphia Eagles, Phillies, and Sixers (not an avid hockey watcher). I'm also a fan of and nerd for all things NBA and basketball in general 🤓.  
-- I currently work on the [Marketing Operations team](https://handbook.gitlab.com/handbook/marketing/marketing-operations/) as a [Staff Marketing Operations Manager](https://handbook.gitlab.com/job-families/marketing/marketing-operations-manager/#staff-marketing-operations-manager) at GitLab.
-- I'm currently working on earning my Master of Business Administration (MBA) degree thanks to GitLab's [Growth and Development Benefit](https://handbook.gitlab.com/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development/)
+- I currently work on the [Marketing Operations team](/handbook/marketing/marketing-operations/) as a [Staff Marketing Operations Manager](/job-families/marketing/marketing-operations-manager/#staff-marketing-operations-manager) at GitLab.
+- I'm currently working on earning my Master of Business Administration (MBA) degree thanks to GitLab's [Growth and Development Benefit](/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development/)
 - In early 2023, I was diagnosed with ADHD. It's been an interesting journey to unpack this diagnosis as an adult but ultimately has been a powerful opportunity for self-discovery and development. 
 
 ## My Values at Work

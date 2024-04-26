@@ -1,4 +1,4 @@
-{{- $currency := partials.IncludeCached "data/currency-conversions" . }}
+{{- $currency := site.Data.public.currency_conversions }}
 <p>Point in time rate as {{ $currency.updated_at }}</p>
 
 <table style="display: table; width: 50%;">

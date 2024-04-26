@@ -3,7 +3,7 @@ title: "Staff - Infrastructure Department Career Framework"
 description: "The expected team member competencies in the Infrastructure department at GitLab for the Staff job level."
 ---
 
-{{% include "includes/engineering/career-matrix-nav.md" %}}
+{{% include "includes/engineering-careers/career-matrix-nav.md" %}}
 
 ## Staff
 
@@ -45,18 +45,18 @@ Staff-level engineers in infrastructure significantly drive the department's res
 1. Builds and maintains relationships with teams across the department and beyond to identify potential future opportunities and to keep current work unblocked.
 1. Proactively shares relevant information with their own team, EM, PM, and other engineers to help share context and build a shared understanding of how their team fits into GitLab as a whole.
 1. Owns the technical interview process and works closely with the hiring manager to make sure that current and known future technical needs are being met by hiring processes. Takes responsibility for documenting and training interviewers to make sure every candidate receives a standardized, positive interview experience.
-1. Champions the [GitLab misson](https://about.gitlab.com/company/mission/) by enabling and encouraging others to contribute to the Infrastructure code base.
+1. Champions the [GitLab misson](/handbook/company/mission/) by enabling and encouraging others to contribute to the Infrastructure code base.
 
 ## Engineering alignment
 
 ### Staff Leadership Competencies
 
-{{% include "includes/engineering/staff-leadership-competency.md" %}}
+{{% include "includes/engineering-careers/staff-leadership-competency.md" %}}
   
 ### Staff Technical Competencies
 
-{{% include "includes/engineering/staff-technical-competency.md" %}}
+{{% include "includes/engineering-careers/staff-technical-competency.md" %}}
 
 ### Staff Values Alignment
 
-{{% include "includes/engineering/values-competency.md" %}}
+{{% include "includes/engineering-careers/values-competency.md" %}}

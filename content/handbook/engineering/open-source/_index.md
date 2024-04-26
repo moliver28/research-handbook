@@ -25,7 +25,7 @@ As an open source project, we want to stay healthy and be open for growth, but a
 our community. In order to achieve that, we've [outlined a strategy](growth-strategy.html) that is a collaboration between multiple departments.
 
 ## General notes
-- [GitLab Code of Business Conduct and Ethics](https://about.gitlab.com/handbook/legal/gitlab-code-of-business-conduct-and-ethics/)
+- [GitLab Code of Business Conduct and Ethics](/handbook/legal/gitlab-code-of-business-conduct-and-ethics/)
 - [PIAA](/handbook/people-group/contracts-probation-periods/#piaa-proprietary-information-and-assignment-agreement) 
 
 ## Creating an open source project
@@ -38,7 +38,7 @@ See [Creating a new project](../gitlab-repositories/#creating-a-new-project) for
 
 If you're contributing to an open source project on behalf of GitLab, you may be required to enter into a CLA. 
 * In accordance with the [Authorization Matrix Policy](/handbook/finance/authorization-matrix/#authorization-matrix-policy), Legal approval is required in order for you to enter into a CLA on behalf of GitLab. 
-* Visit the [Legal & Corporate Affairs Product handbook](https://about.gitlab.com/handbook/legal/product/#contributor-license-agreements) for further information on this process.
+* Visit the [Legal & Corporate Affairs Product handbook](/handbook/legal/product/#contributor-license-agreements) for further information on this process.
 
 ### Contributing to a project on GitHub
 
@@ -75,4 +75,4 @@ If you decide to create a fork, make sure you open an issue that:
 
 ## GPL Cooperation Commitment
 
-Visit the [Legal & Corporate Affairs Product handbook](https://about.gitlab.com/handbook/legal/product/#gpl-cooperation-commitment) for further information on this.
+Visit the [Legal & Corporate Affairs Product handbook](/handbook/legal/product/#gpl-cooperation-commitment) for further information on this.

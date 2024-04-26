@@ -20,7 +20,7 @@ Secondment is the assignment of a member of one organisation to another organisa
 
 In 2022, GitLab started a pilot program to have engineers from outside GitLab join us on a temporary basis to work alongside team members on various projects.
 
-This program complements our values of transparency and [supports our goal of increasing our](https://about.gitlab.com/handbook/engineering/open-source/growth-strategy.html) community contributors. 
+This program complements our values of transparency and [supports our goal of increasing our](/handbook/engineering/open-source/growth-strategy.html) community contributors. 
 
 **The Benefits:**
 
@@ -42,7 +42,7 @@ Currently, this program is still in a pilot phase but the general steps are as f
 
 #### How is this different from an internship?
 
-An internship is typically for [early career professionals](https://about.gitlab.com/handbook/engineering/internships/#duration-and-timing) where GitLab is the employer of record with an objective that the professional can move into a full-time role. On the other hand, secondments are for slightly more experienced professionals that are already employed at a company but seeking an external learning opportunity.  
+An internship is typically for [early career professionals](/handbook/engineering/internships/#duration-and-timing) where GitLab is the employer of record with an objective that the professional can move into a full-time role. On the other hand, secondments are for slightly more experienced professionals that are already employed at a company but seeking an external learning opportunity.  
 
 #### How long is a secondment?
 
@@ -50,7 +50,7 @@ In order to make the most of the secondment, the secondment should be a minimum 
 
 #### Are the contributions open source and can we as company ABC get recognition and other GitLab benefits?
 
-Yes, all contributions from the seconded employee will be seen as `community contributions`. When successful, the entire organization could qualify for the [Leading Organization](https://about.gitlab.com/handbook/engineering/workflow/code-review/#leading-organizations) status, leveling up the entire organization and gaining access to exclusive GitLab benefits. 
+Yes, all contributions from the seconded employee will be seen as `community contributions`. When successful, the entire organization could qualify for the [Leading Organization](/handbook/engineering/workflow/code-review/#leading-organizations) status, leveling up the entire organization and gaining access to exclusive GitLab benefits. 
 
 #### Who manages the secondee?
 

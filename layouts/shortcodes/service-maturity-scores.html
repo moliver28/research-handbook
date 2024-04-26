@@ -1,0 +1,16 @@
+<table>
+    <thead>
+        <tr>
+            <th>Service</th>
+            <th>Level</th>
+        </tr>
+    </thead>
+    <tbody>
+        {{- range $k, $v := site.Data.public.service_maturity }}
+        <tr>
+            <td><a href="#{{ $k }}">{{ $k }}</a></td>
+            <td>{{ $v.level }}</td>
+        </tr>
+        {{- end }}
+    </tbody>
+</table>

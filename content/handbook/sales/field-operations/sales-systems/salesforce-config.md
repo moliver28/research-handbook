@@ -1,7 +1,7 @@
 ---
 
 title: "Salesforce Config"
-description: "The purpose of this page is to document configuration of our instance of Salesforce at Gitlab. This will serve as the go-to place to check in regards to questions on our general Salesforce configuration."
+description: "The purpose of this page is to document configuration of our instance of Salesforce at GitLab. This will serve as the go-to place to check in regards to questions on our general Salesforce configuration."
 ---
 
 
@@ -16,7 +16,13 @@ The purpose of this page is to document configuration of our SFDC org. This will
 
 ### Salesforce Provisioning
 
-For roles that should automatically receive Salesforce access your account and permissions will be automatically created by Okta. For anyone else who needs Salesforce access for their job responsibilities, please open an [Access Request](/handbook/business-technology/team-member-enablement/onboarding-access-requests/access-requests/).
+For roles that should automatically receive Salesforce access your account and permissions will be automatically created by Okta. For anyone else who needs Salesforce access for their job responsibilities, please open an [Access Request](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/).
+
+### Salesforce De-Provisioning
+
+- User Off-Boarding - Users will be automatically deactivated by OKTA based on off-boarding issues. If OKTA is not able to deactivate users, a systems issue will be created to unblock the dependency and system team members will manually deactivate the users.
+- Salesforce Licence Harvesting - User Management Team will run a monthly user report for last login > 60 Days. Based on the inactivity, users list will be provided to OKTA Team to de-activating users. Related AR issue will be created and the deactivated users will be communicated through `Salesforce Licence Harvesting` Slack Channel.
+- Service Account(s) - Service Account user will be manually de-activated by Systems Team and OKTA will not be able to de-provision integration user(s).
 
 ### Salesforce Installed Packages
 

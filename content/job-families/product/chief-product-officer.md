@@ -47,7 +47,7 @@ need to make sure that the company is building, shipping and supporting the righ
 - Able to define minimum viable changes.
 - You are living wherever you want and are excited about the [all remote](/handbook/company/culture/all-remote/) lifestyle
 
-- [Leadership at GitLab](/handbook/company/team/structure/#e-group)
+- [Leadership at GitLab](/handbook/company/structure/#e-group)
 - Ability to use GitLab
 
 ## Performance Indicators
@@ -57,7 +57,7 @@ need to make sure that the company is building, shipping and supporting the righ
 ## Links
 
 - [Product Handbook](/handbook/product/)
-- [Engineering Workflow](https://about.gitlab.com/handbook/engineering/workflow/)
+- [Engineering Workflow](/handbook/engineering/workflow/)
 
 ## Hiring Process
 

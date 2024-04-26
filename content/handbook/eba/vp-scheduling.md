@@ -7,21 +7,30 @@ When scheduling for VPs or Directors at GitLab, please check the scheduling pref
 
 ## Scheduling for Pattie Egan, VP of People Operations, Technology, and Analytics
 
-- Please schedule all meetings through the People Function's Sr. EBA, Stephanie Kusmirek
+- Please schedule all meetings through the People Function's EBA, Julia Nishioki
 - Keep meetings to 25 or 50 minutes unless otherwise specified
 - Direct Report 1:1's occur weekly
 - Skip level 1:1's occur every other month
-- Calendar color coding: Confirmed meetings- Dark green, Manager meetings- light green, Important meetings NOT to be moved are in red, Personal meetings- Flamingo (Pink)
+- Calendar color coding: Confirmed meetings- Dark green, Manager meetings- light green, Important meetings NOT to be moved are in red, Personal meetings- Blue
 - Do not schedule over DNB: Focus Time blocks without consulting the EBA of the People Group.
 - Scheduling should ideally be kept between 9:00 am and 5:00 pm PT
 
 ## Scheduling for Rob Allen, VP, Talent Acquisition
 
-- Please schedule all meetings through the People Function's Sr. EBA, Stephanie Kusmirek
+- Please schedule all meetings through the People Function's EBA, Julia Nishioki
 - Keep meetings to 25 or 50 minutes unless otherwise specified
 - Direct Report 1:1's occur weekly
 - Skip level 1:1's occur every other month
-- Calendar color coding: Confirmed meetings- Dark green, Manager meetings- light green, Important meetings NOT to be moved are in red, Personal meetings- Flamingo (Pink)
+- Calendar color coding: Confirmed meetings- Dark green, Manager meetings- light green, Important meetings NOT to be moved are in red, Personal meetings- Orange
+- Do not schedule over DNB: Focus Time blocks without consulting the EBA of the People Group.
+- Scheduling should ideally be kept between 8:00 am and 4:00 pm PT
+
+## Scheduling for Sherida McMullan VP, Diversity, Inclusion and Belonging
+
+- Please schedule all meetings through the People Function's EBA, Julia Nishioki
+- Keep meetings to 25 or 50 minutes unless otherwise specified
+- Direct Report 1:1's occur weekly
+- Calendar color coding: Confirmed meetings- Dark green, Manager meetings- light green, Important meetings NOT to be moved are in red, Personal meetings- Brown or Purple
 - Do not schedule over DNB: Focus Time blocks without consulting the EBA of the People Group.
 - Scheduling should ideally be kept between 8:00 am and 4:00 pm PT
 
@@ -64,3 +73,20 @@ When scheduling for VPs or Directors at GitLab, please check the scheduling pref
   - Duration: 25 mins, 50 mins, etc.
   - Subject of the meeting
   - Provide context: include agenda to be covered, share google doc if available, include a link to any relevant issues, slides, etc.
+
+## Scheduling for Product Leadership
+
+**Mike Flouton, VP of Product Management - Justin Farris, Sr Director of Product Management - Hillary Benson, Sr Director of Product Management - Steve Evangelista, Sr Director of Product Management**
+
+- Please reach out to Jennifer Garcia (EBA) to schedule or reschedule any meetings for Mike, Justin, Hillary and Steve
+- Don't schedule over DNB and Work Block's without reaching out to Jennifer (EBA)
+- For internal and external (with those outside of GitLab) meeting requesting please contact EBA in #eba-team, including the following in your slack:
+  - Must have/optional attendees
+  - Urgency/ Desired timeframe: in the next two days, in the next week or two, etc
+  - Duration: 25 mins, 50 mins, etc.
+  - Subject of the meeting
+  - Provide context: include agenda to be covered, share google doc if available, include a link to any relevant issues, slides, etc.
+  - For customer meetings please create an issue request using [this template](https://gitlab.com/gitlab-com/Product/-/blob/main/.gitlab/issue_templates/product-leader-customer-meeting-request-template.md) and tag Jennifer Garcia (Product EBA) for review and availability
+- If you add any meetings to calendar directly, tick the box “Attendees can modify” so EBA can change if necessary
+
+

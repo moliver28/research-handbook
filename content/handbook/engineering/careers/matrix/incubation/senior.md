@@ -4,7 +4,7 @@ title: "Incubation Engineering Department Career Framework: Senior"
 
 ## Incubation Engineering Department Competencies: Senior
 
-{{% include "includes/engineering/career-matrix-nav.md" %}}
+{{% include "includes/engineering-careers/career-matrix-nav.md" %}}
 
 **Seniors at GitLab are expected to exhibit the following competencies:**
 
@@ -15,12 +15,12 @@ title: "Incubation Engineering Department Career Framework: Senior"
 
 ### Senior Leadership Competencies
 
-{{% include "includes/engineering/senior-leadership-competency.md" %}}
+{{% include "includes/engineering-careers/senior-leadership-competency.md" %}}
   
 ### Senior Technical Competencies
 
-{{% include "includes/engineering/senior-technical-competency.md" %}}
+{{% include "includes/engineering-careers/senior-technical-competency.md" %}}
 
 ### Senior Values Alignment
 
-{{% include "includes/engineering/values-competency.md" %}}
+{{% include "includes/engineering-careers/values-competency.md" %}}

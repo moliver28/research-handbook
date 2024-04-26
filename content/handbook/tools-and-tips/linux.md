@@ -14,7 +14,7 @@ The following is a guide to go over the basics of what is recommended for instal
 
 ## Basic Setup
 
-Outside of the basics listed [here](/handbook/business-technology/it/security/system-configuration/#laptop-or-desktop-system-configuration) for all laptop and desktop systems, there are a few additional steps required for Linux. Currently, the recommended laptop for Linux is Dell running Ubuntu, which is discussed in detail [here](/handbook/business-technology/team-member-enablement/onboarding-access-requests/#laptop-configurations). These instructions assume that setup, so for alternate choices in hardware or Linux distribution it is recommended you use this as a general guideline but adapt as needed.
+Outside of the basics listed [here](/handbook/business-technology/it/security/system-configuration/#laptop-or-desktop-system-configuration) for all laptop and desktop systems, there are a few additional steps required for Linux. Currently, the recommended laptop for Linux is Dell running Ubuntu, which is discussed in detail [here](/handbook/business-technology/end-user-services/onboarding-access-requests/#laptop-configurations). These instructions assume that setup, so for alternate choices in hardware or Linux distribution it is recommended you use this as a general guideline but adapt as needed.
 
 Dell maintains its own Ubuntu distribution. While not needed to use Linux on Dell, it does seem to offer direct support for various chipsets and hardware components. This means that for a stock Ubuntu (or other distribution) install, generic choices are often made by the installer, and if you wish to take advantage of drivers that better support the hardware, you may have to install and configure drivers for certain components. The Dell Ubuntu distribution removes that burden.
 
@@ -186,10 +186,10 @@ This has reported to work with latest versions of the Nvidia drivers (as of Dec 
 ## Production engineering
 
 - As a Production Engineer, we'll need some common tooling
-  - [AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/awscli-install-linux.html)
+  - [AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-getting-started.html)
   - [Azure CLI](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli)
-  - [Docker](https://docs.docker.com/install/)
-  - [Vagrant](https://www.vagrantup.com/downloads.html)
+  - [Docker](https://docs.docker.com/get-docker/)
+  - [Vagrant](https://developer.hashicorp.com/vagrant/install)
   - [VirtualBox](https://www.virtualbox.org/wiki/Linux_Downloads)
   - [gcloud CLI](https://cloud.google.com/sdk/docs/#install_the_latest_cloud_tools_version_cloudsdk_current_version)
 - Other important packages:
@@ -255,7 +255,7 @@ auth    [success=1 default=ignore]      pam_unix.so nullok_secure
 
   Note that `max-tries` is the number of fingerprint scans you can attempt until prompted for a password instead, and `timeout` is how long you have to scan your fingerprint before the authorization times out. You can configure these to your requirements.
 
-- Enable fingerprint authorization on the login screen (`sddm`) by editing the `etc/pan.d/addm` file and adding the following lines **at the top of the file**.
+- Enable fingerprint authorization on the login screen (`sddm`) by editing the `/etc/pam.d/sddm` file and adding the following lines **at the top of the file**.
 
 ``` shell
 auth        sufficient        pam_unix.so try_first_pass likeauth nullok

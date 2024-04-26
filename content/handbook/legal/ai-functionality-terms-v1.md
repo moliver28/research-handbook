@@ -1,6 +1,5 @@
 ---
 title: "AI Functionality Terms V1"
-description: "Learn about GitLab's AI Functionality Terms effective 2023-08-14 until 2023-10-31"
 ---
 
 (Additional Terms)

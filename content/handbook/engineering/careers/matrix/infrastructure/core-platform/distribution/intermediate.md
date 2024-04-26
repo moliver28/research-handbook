@@ -4,7 +4,7 @@ title: "Core Platform Career Framework: Intermediate Distribution Engineer"
 
 ## Core Platform Intermediate Distribution Engineer
 
-{{% include "includes/engineering/distribution-career-nav.md" %}}
+{{% include "includes/engineering-careers/distribution-career-nav.md" %}}
 
 **Core Platform Intermediate Distribution Engineers at GitLab are expected to exhibit the following competencies:**
 
@@ -17,7 +17,7 @@ title: "Core Platform Career Framework: Intermediate Distribution Engineer"
 
 ### Leadership Competencies
 
-{{% include "includes/engineering/intermediate-leadership-competency.md" %}}
+{{% include "includes/engineering-careers/intermediate-leadership-competency.md" %}}
 
 {{$ include "includes/engineering/development-intermediate-leadership-competency.md" %}}
 
@@ -31,9 +31,9 @@ title: "Core Platform Career Framework: Intermediate Distribution Engineer"
 
 ### Technical Competencies
 
-{{% include "includes/engineering/intermediate-technical-competency.md" %}}
+{{% include "includes/engineering-careers/intermediate-technical-competency.md" %}}
 
-{{% include "includes/engineering/development-intermediate-technical-competency.md" %}}
+{{% include "includes/engineering-careers/development-intermediate-technical-competency.md" %}}
 
 ##### Distribution
 
@@ -46,6 +46,6 @@ title: "Core Platform Career Framework: Intermediate Distribution Engineer"
 
 ###  Values Alignment
 
-{{% include "includes/engineering/values-competency.md" %}}
+{{% include "includes/engineering-careers/values-competency.md" %}}
 
-{{% include "includes/engineering/development-intermediate-values-competency.md" %}}
+{{% include "includes/engineering-careers/development-intermediate-values-competency.md" %}}

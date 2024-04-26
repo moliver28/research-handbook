@@ -29,7 +29,7 @@ Victor Lopez, Senior Production Engineer, is the August 2017 Top Team Member emb
 
 Nomination reasons for how Victor demonstrated Results:
 
-- Work on GitLab logging infrastructure. Having a solid logging platform enables us to use Gitlab.com's runtime data to make decisions around benchmarking, performance analysis, debugging, root cause analyses, support, and more.
+- Work on GitLab logging infrastructure. Having a solid logging platform enables us to use GitLab.com's runtime data to make decisions around benchmarking, performance analysis, debugging, root cause analyses, support, and more.
 - Victor has enthusiastically picked up this task and is successfully wrangling our logging infrastructure back into shape.
 
 ### September 2017 Top Team Member

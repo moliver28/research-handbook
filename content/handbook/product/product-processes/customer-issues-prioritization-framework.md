@@ -11,7 +11,7 @@ title: "Customer Issues Prioritization Framework"
 
 ## Context 
 
-The Customer Prioritization Framework was developed by the [Issue Prioritization Framework Working Group](/handbook/company/team/structure/working-groups/issue-prioritization-framework/) as a way to improve the efficiency of the feedback loops among Sales, Customer Success, and Product. It provides a comprehensive system to categorize and measure customer, and prospective customer, demand for capabilities within GitLab. This page covers how the first iteration of the model works and how to interact with and interpret, the [not public, internal-only](/handbook/communication/confidentiality-levels/#not-public) dashboards that it powers.
+The Customer Prioritization Framework was developed by the [Issue Prioritization Framework Working Group](/handbook/company/working-groups/issue-prioritization-framework/) as a way to improve the efficiency of the feedback loops among Sales, Customer Success, and Product. It provides a comprehensive system to categorize and measure customer, and prospective customer, demand for capabilities within GitLab. This page covers how the first iteration of the model works and how to interact with and interpret, the [not public, internal-only](/handbook/communication/confidentiality-levels/#not-public) dashboards that it powers.
 
 The outcomes the framework is aimed at providing:
 
@@ -57,7 +57,7 @@ The outcomes the framework is aimed at providing:
 
 ## Quickstart
 
-1. To view a list of requested issues by customer, stage, CSM, or category, visit the [Customer Requested Issues (Product) dashboard](https://app.periscopedata.com/app/gitlab:safe-intermediate-dashboard/970771/User-Request-Issue-Prioritization---Product) or [Customer Requested Issues (CSM) dashboard](https://app.periscopedata.com/app/gitlab:safe-intermediate-dashboard/970772/User-Request-Issue-Prioritization---CSM-Customer-View) and apply the relevant filters.
+1. To view a list of requested issues by customer, stage, CSM, or category, visit the [Customer Requested Issues (Product) dashboard](https://10az.online.tableau.com/#/site/gitlab/workbooks/2015827/views) and apply the relevant filters.
 1. To add a customer or opportunity to an open issue or epic, follow the process outlined below in ["Customer Links"](/handbook/product/product-processes/customer-issues-prioritization-framework/#customer-links).
 1. Optionally, watch the [walk-through (10m 20s)](https://www.youtube.com/watch?v=ZUxIxp_Pv5k&list=PL05JrBw4t0KrKoeXjf5Bdtapu9Cl3T7gI&index=17&pp=sAQB).
 
@@ -175,7 +175,7 @@ Retention urgency is a function of a customer's [overall health as defined in Ga
 | Yellow        | 1.5              | 2                | 2.5             |
 | Red           | 2                | 3                | 4               |
 
-Growth urgency is a function of an opportunity close date and win probability. The value ranges were determined based on the [observed distribution of probabilities and close dates](https://app.periscopedata.com/app/gitlab:safe-dashboard/951007/User-Request-Issue-Prioritization---Product?widget=13433543&udv=1494607) across all open opportunities. 
+Growth urgency is a function of an opportunity close date and win probability. The value ranges were determined based on the observed distribution of probabilities and close dates across all open opportunities. 
 
 | Opportunity Probability (%) | Close Date > 6 mo. | Close Date = 3-6 mo. | Close Date = 0-3 mo. |
 |---------------|------------------|------------------|-----------------|
@@ -208,7 +208,7 @@ Please refer to [this spreadsheet for a practical example](https://docs.google.c
 
 ### Product user requested issue prioritization 
 
-[View dashboard in Sisense](https://app.periscopedata.com/app/gitlab:safe-intermediate-dashboard/970771/User-Request-Issue-Prioritization---Product)
+[View dashboard in Tableau](https://10az.online.tableau.com/#/site/gitlab/workbooks/2015827/views)
 
 Column definitions:
 
@@ -245,7 +245,7 @@ Filters:
 
 ### CSM user requested issue prioritization 
 
-[View dashboard in Sisense](https://app.periscopedata.com/app/gitlab:safe-intermediate-dashboard/970772/User-Request-Issue-Prioritization---CSM-Customer-View)
+[View dashboard in Tableau](https://10az.online.tableau.com/#/site/gitlab/workbooks/2015827/views)
 
 Column definitions:
 
@@ -279,7 +279,7 @@ Filters:
 
 ## Resources 
 
-- [Issue Prioritization Framework Working Group](/handbook/company/team/structure/working-groups/issue-prioritization-framework/)
+- [Issue Prioritization Framework Working Group](/handbook/company/working-groups/issue-prioritization-framework/)
 - Slack channel: `#wg_issue_prioritization`
 - [Top-level epic](https://gitlab.com/groups/gitlab-com/-/epics/928)
 - [Unfiltered (private) playlist](https://www.youtube.com/playlist?list=PL05JrBw4t0KrKoeXjf5Bdtapu9Cl3T7gI)

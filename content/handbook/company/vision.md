@@ -9,11 +9,11 @@ Our vision captures what we want to deliver to customers in the next 10 years.
 
 Today, we have a [DevSecOps Platform](https://about.gitlab.com/platform/). This DevSecOps Platform shift is part of a larger trend: teams of all types are realizing that breaking down silos has compounding effects on productivity and collaboration. We see it with data and operations teams creating DataOps; we see it with machine learning and ops teams creating MLOps. As more companies (and more teams within a company) rely on our platform, we are positioned to become the **AllOps platform** — a single application for all R&D. This platform will offer significant and differentiated value to customers:
 
-1. Platform efficiencies from a [DevSecOps platform](https://about.gitlab.com/direction/#devsecops-stages): This is [our main focus for the next 3 years]({{< ref "strategy" >}}), because teams use us as a [DevSecOps Platform](https://about.gitlab.com/platform/) today. This includes using AI to enhance workflows.
+1. Platform efficiencies from a [DevSecOps platform](https://about.gitlab.com/direction/#devsecops-stages): This is [our main focus for the next 3 years](/handbook/company/strategy), because teams use us as a [DevSecOps Platform](https://about.gitlab.com/platform/) today. This includes using AI to enhance workflows.
 1. Competitive advantages through [ModelOps](https://about.gitlab.com/direction/modelops/): Every company will need to become an AI company to stay competitive. This includes building, training, deploying, and rolling back AI models alongside the apps that consume them. Currently, DataRobot and Weights & Biases are the competitive solutions. We have begun iterating on this with an [MLFlow integration](https://docs.gitlab.com/ee/user/project/integrations/mlflow_client.html) and a Model Registry.
 1. Improved customer and internal coordination through [ServiceDesk](https://docs.gitlab.com/ee/user/project/service_desk.html): GitLab customers need the ability to triage application incidents directly where their applications are built and deployed, so that they can tie incident resolution to the development backlog and track incident closure. Currently, [ZenDesk](https://www.zendesk.com/) and [JIRA Service Desk](https://www.atlassian.com/software/jira/service-management/features/service-desk) are the competitive solutions.
 
-For the next few years, the majority of our focus is on providing a rich and comprehensive DevSecOps platform to our customers. This is detailed in our [company strategy]({{< ref "strategy" >}}).
+For the next few years, the majority of our focus is on providing a rich and comprehensive DevSecOps platform to our customers. This is detailed in our [company strategy](/handbook/company/strategy).
 
 ## Analysts
 
@@ -23,7 +23,7 @@ Gartner calls the combination of DevOps/MLOps/DataOps/AIOps [xOps](https://www.g
 
 Our [Mission]({{< ref "mission" >}}) is on a 30-year cadence. It is the inspiration for this company vision, which is on a [10-year cadence]({{< ref "cadence#vision" >}}).
 
-The vision here is reflected in our [company strategy]({{< ref "strategy" >}}), which is on a 3-year cadence. You can find additional product vision details on our [direction page](https://about.gitlab.com/direction/#vision).
+The vision here is reflected in our [company strategy](/handbook/company/strategy), which is on a 3-year cadence. You can find additional product vision details on our [direction page](https://about.gitlab.com/direction/#vision).
 
 ## Monitoring an evolving market
 

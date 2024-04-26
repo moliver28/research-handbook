@@ -143,7 +143,7 @@ Depending on the customers use cases; please select the appropriate questions be
 - [ ] How has detecting security bugs earlier impacted the SDLC?
 - [ ] How has GitLab helped support audits and compliance etc?
 - [ ] How has shifting security earlier in the delivery lifecycle impacted your speed to deliver?
-- [ ] Which are you using for the following scan types? (Gitlab or 3rd party) Note where GitLab replaced an incumbent third party scanner.
+- [ ] Which are you using for the following scan types? (GitLab or 3rd party) Note where GitLab replaced an incumbent third party scanner.
      - [ ] SAST
      - [ ] DAST (in pipeline or ondemand?)
      - [ ] Dependency scanning

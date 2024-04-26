@@ -45,7 +45,7 @@ What qualifies as "R&D" will differ in nuance between territories and the tax ag
 * Was the outcome a piece of novel technology?
 * Was it difficult for "a qualified professional in the field" to replicate?
 
-GitLab's standard process for [product development](https://about.gitlab.com/handbook/product-development-flow/) meets the criteria in most cases. As a result, it is typically *not* necessary to compile a list of R&D projects worked on.  Instead you can use a summary of Release notes as the list of R&D projects, and set team member allocations based on their participation in GitLab's standard process for [product development](https://about.gitlab.com/handbook/product-development-flow/).
+GitLab's standard process for [product development](/handbook/product-development-flow/) meets the criteria in most cases. As a result, it is typically *not* necessary to compile a list of R&D projects worked on.  Instead you can use a summary of Release notes as the list of R&D projects, and set team member allocations based on their participation in GitLab's standard process for [product development](/handbook/product-development-flow/).
 
 An issue can be opened using the script in the [R&D Tax Credit Automation](https://gitlab.com/gitlab-org/ci-cd/r-and-d-tax-credit-automation/) project, which will be populated with the features released during that tax year. This can then be used as a basis for drafting the report. 
 

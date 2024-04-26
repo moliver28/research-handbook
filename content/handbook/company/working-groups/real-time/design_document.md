@@ -85,7 +85,7 @@ This diagram shows the current steps involved in establishing an open WebSocket 
 
 ### Prototype model / Testing plan
 
-The feature is currently available for internal team-members to demo on the dev.gitlab.org instance. This is a [single-instance deployment of CE](https://about.gitlab.com/handbook/engineering/infrastructure/core-platform/systems/distribution/maintenance/dev-gitlab-org.html#devgitlaborg).
+The feature is currently available for internal team-members to demo on the dev.gitlab.org instance. This is a [single-instance deployment of CE](/handbook/engineering/infrastructure/core-platform/systems/distribution/maintenance/dev-gitlab-org.html#devgitlaborg).
 
 [Performance testing Action Cable with Puma](https://gitlab.com/gitlab-org/quality/performance/-/issues/256) determined no impact on resource usage but only tested while idle. In the absence of simulated workloads, the recommendation was to [roll the feature out gradually](https://gitlab.com/gitlab-org/quality/performance/-/issues/256#note_444323391).
 

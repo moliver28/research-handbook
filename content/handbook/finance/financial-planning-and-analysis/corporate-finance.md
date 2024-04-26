@@ -13,7 +13,7 @@ Welcome to the Corporate FP&A team page!
 ### Accounting Partnership
 
 - The FP&A team and Accounting collaborate to set deadlines as part of our monthly and quarterly close process. This enables a timely close and delivery of key information to  EVPs/department heads around variance, forecast, and/or guidance. For the monthly FP&A close timeline, refer [here]({{< ref "_index.md#monthly-fpa-close-timeline" >}})
-- We collaborate in Gitlab issues to align on the close timeline each quarter. An example of this is the Q1-FY23 Close Timeline found [here](https://gitlab.com/gitlab-com/Finance-Division/accounting-team/accounting-project/-/issues/371).
+- We collaborate in GitLab issues to align on the close timeline each quarter. An example of this is the Q1-FY23 Close Timeline found [here](https://gitlab.com/gitlab-com/Finance-Division/accounting-team/accounting-project/-/issues/371).
 - Every two weeks on Thursday, Accounting & FP&A have a sync to connect on close dates. Further, this is a meeting to discuss open items, questions, and process improvements.
 - During close, Accounting leads daily close meetings where the status of close and any open items are provided. Summaries are shared at Slack channel [#month-end-close-and-gl-team](https://gitlab.slack.com/archives/C02JHRNENE7).
 - FBPs obtain a report with open invoices/POs from the Accounting team which is updated daily. The FBPs drive obtaining the required approvals and invoices from their respective business partners. Specific questions on entries are shared directly in the [#fpa-ap-gl-collaboration](https://gitlab.slack.com/archives/C017VQ3G7V4) Slack channel to increase transparency between FP&A and AP/GL teams.

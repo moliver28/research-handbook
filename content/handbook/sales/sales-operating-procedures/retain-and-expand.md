@@ -19,14 +19,14 @@ Once the account is won it is time for the AE/SAE/CSM/PSE to work together to en
 - Customer Account Management
 - Customer Account Expansion
 
-In the retention and expansion phase, the roles and responsibilities of the CSM/PSE/AE/SAE run parallel and it is very important that all roles work together to help the customer be successful. Retention and expansion is typically the purview of the CSM regarding most project management and technical aspects of customer success, but it’s important for the AE/SAE to conduct ongoing sales engagement activities with the account in order to provide dependable touch points for customer support. This Standard Operating Procedure (SOP) will layout the steps, tasks, and deliverables necessary by all parties below related to account management.  
+In the retention and expansion phase, the roles and responsibilities of the CSM/PSE/AE/SAE run parallel and it is very important that all roles work together to help the customer be successful. Retention and expansion is typically the purview of the CSM regarding most project management and technical aspects of customer success, but it’s important for the AE/SAE to conduct ongoing sales engagement activities with the account in order to provide dependable touch points for customer support. This Standard Operating Procedure (SOP) will layout the steps, tasks, and deliverables necessary by all parties below related to account management.
 
 - Strategic Account Executive ([Enterprise](/job-families/sales/enterprise-account-executive/)) or Account Executive ([SMB](/handbook/sales/commercial/#smb-account-executives) or [Mid Market](/handbook/sales/commercial/#mid-market-account-executive))
 - [Customer Success Manager](/handbook/customer-success/csm/#what-is-a-customer-success-manager-csm)
-- [Solutions Architect](/handbook/customer-success/solutions-architects/)
+- [Solutions Architect](/handbook/solutions-architects/)
 - [Professional Services](/handbook/customer-success/professional-services-engineering/)
 
-## 1.Customer Onboarding  
+## 1.Customer Onboarding
 
 **[Customer onboarding](/handbook/customer-success/csm/onboarding/)** is a term typically used to describe the process users go through, from the start of their journey to become a customer and beyond. Within GitLab, customer onboarding encompases an the SAE/AE conducting an official introduction and account management transition to CSM and PSE to customer stakeholders via a Welcome Call.  Additionally, the CSM will begin to re-validate an understanding of the customer's use case, technology stack. The tasks that need to be accomplished are below:
 
@@ -50,7 +50,7 @@ In the retention and expansion phase, the roles and responsibilities of the CSM/
 
 There are two types of success plans in Gainsight. The first is the **ROI Success Plan** described above. The second type is the **Stage Adoption Success Plan**. This success plan is an internal document allowing the CSM to track progress and goals on driving stage adoption within an account.
 
-The **Return on Investment (ROI) Success Plan** is a customer facing interactive map created by a CSM to align the purchase (or renewal!) reasons to customer outcomes, develop joint accountabilities, measure progress and evolve as customers’ needs change. Put another way, it’s the way the customer can see and know that they’re attaining significantly more value than the cost of a product or service. Success Planning focuses on helping customers achieve their desired objectives and recognizes that the purchase transaction is just the beginning of the customer's journey with GitLab. This includes outlining a vision to customers that combines the Gitlab road map with the customer road map.
+The **Return on Investment (ROI) Success Plan** is a customer facing interactive map created by a CSM to align the purchase (or renewal!) reasons to customer outcomes, develop joint accountabilities, measure progress and evolve as customers’ needs change. Put another way, it’s the way the customer can see and know that they’re attaining significantly more value than the cost of a product or service. Success Planning focuses on helping customers achieve their desired objectives and recognizes that the purchase transaction is just the beginning of the customer's journey with GitLab. This includes outlining a vision to customers that combines the GitLab road map with the customer road map.
 
 - CSM responsibilities include a full use-case, stakeholder, technology stack, and opportunity discovery with the account customer.  The information gathered for the customer’s success plan is housed in **[GainSight](/handbook/customer-success/csm/gainsight/)**, which is embedded as an additional link within Salesforce.
 - CSM coordinates and educates customer and positions them for GitLab Certification with GitLab 101.

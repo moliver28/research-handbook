@@ -1,7 +1,7 @@
 ---
 
 title: "Sales Systems"
-description: "This page in an overview of all things related to the Sales Systems team at Gitlab. It includes an overview of who we are, how we work, how to work with us as well as references to key sales systems technical documentation and system configuration."
+description: "This page in an overview of all things related to the Sales Systems team at GitLab. It includes an overview of who we are, how we work, how to work with us as well as references to key sales systems technical documentation and system configuration."
 ---
 
 
@@ -29,7 +29,7 @@ Below is a list of the different technical skill sets found on the Sales System 
 - [License Usage App Documentation](/handbook/sales/field-operations/sales-systems/license-usage-app/)
 - [Salesforce Configuration Documentation](/handbook/sales/field-operations/sales-systems/salesforce-config/)
 - [Lead Source Master Data Set](/handbook/marketing/marketing-operations/#initial-source)
-- [Salesforce Dataloader Install/Uninstall/Upgrade Instructions](dataloader-installation.html)
+- [Salesforce Dataloader Install/Uninstall/Upgrade Instructions](dataloader-installation/)
 
 ## Working with us
 - [Sales System Agile Board](https://gitlab.com/groups/gitlab-com/-/boards/1117318?label_name[]=SalesSystems)
@@ -37,10 +37,10 @@ Below is a list of the different technical skill sets found on the Sales System 
 - [Salesforce.com APEX repository](https://gitlab.com/gitlab-com/sales-team/field-operations/salesforce-src)
 
 ## How We Work
-- The Sales Systems team works in two week sprints/iterations which are tracked as Milestones at the `GitLab.com` level. This aligns the Sale Systems team with how many of our business partners operate but also takes advantage of one of the solutions that [Gitlab provides](https://about.gitlab.com/solutions/agile-delivery/)
-- The Systems team strives to emulate the principles below in planning and executing on our milestones as we believe it most effectively aligns our team with [Gitlab's Values](/handbook/values/#credit)
-   - ["Start less, finish more"](https://about.gitlab.com/handbook/engineering/development/ops/verify/pipeline-security/#starting-new-work)
-   - ["Reduce Issue Churn"](https://about.gitlab.com/handbook/engineering/development/ops/verify/runner/#goals)
+- The Sales Systems team works in two week sprints/iterations which are tracked as Milestones at the `GitLab.com` level. This aligns the Sale Systems team with how many of our business partners operate but also takes advantage of one of the solutions that [GitLab provides](https://about.gitlab.com/solutions/agile-delivery/)
+- The Systems team strives to emulate the principles below in planning and executing on our milestones as we believe it most effectively aligns our team with [GitLab's Values](/handbook/values/#credit)
+   - ["Start less, finish more"](/handbook/engineering/development/ops/verify/pipeline-security/#starting-new-work)
+   - ["Reduce Issue Churn"](/handbook/engineering/development/ops/verify/runner/#goals)
 
 ### Steps to getting help from Sales Systems
 
@@ -80,23 +80,25 @@ Below is a list of the different technical skill sets found on the Sales System 
 
 | Team / Lane                 | Main Approver                                                | Backup Approver                                                 |
 |-----------------------------|--------------------------------------------------------------|-----------------------------------------------------------------|
-| QTC                         | Jesse Rabbits - Director, Quote to Cash                      | James Harrison - Senior Director, Sales Operations              |
-| Territory Management        | Melia Vilain - Senior Manager, Sales Strategy                | Jake Bielecki - VP, Sales Strategy & Analytics                  |
-| Channel Operations          | TBD | TBD                            |
-| Customer Success Operations | TBD | TBD                             |
-| Sales Operations            | Katrina Gavalas - Director, Sales Operations                 | James Harrison - Senior Director, Sales Operations              |
-| Marketing Operations        | Amy Waller - Senior Manager, Marketing Operations            | Christine Lee - Senior Director, Marketing Strategy & Platforms |
-| Sales Dev Operations        | Ramona Elliott - Director, Sales Development Operations      | Jean-Baptiste Larramendy - VP, Sales Development                |
-| Sales Compensation          | Lisa Puzar - Senior Manager, Sales Commissions               | James Harrison - Senior Director, Sales Operations              |
-| Legal                       | Rob Nalen - VP, Legal Operations                             | Robin Schulman - Chief Legal Officer                            |
+| Quote To Cash               | Director, Quote to Cash                     | Senior Director, Sales Operations                |
+| Territory Management        | Director, Sales Operations                  | Senior Director, Sales Operations                |
+| Partner Operations          | Sales Operations                            | Sales Operations                                 |
+| Customer Success Operations | Senior Director, CS Strategy & Operations   | VP of Field Operations                           |
+| Sales Operations            | Director, Sales Operations                  | Senior Director, Sales Operations                |
+| Deal Desk                   | Sr. Director, Deal Desk                     | Senior Director, Sales Operations                |
+| Professional Services       | Director, Professional Services             | VP of Professional Services & Education          |
+| Marketing Operations        | Director, Marketing Operations              | Senior Director, Marketing Strategy & Platforms  |
+| Sales Dev Operations        | Director, Sales Development Operations      | VP, Sales Development                            |
+| Sales Compensation          | Director, Sales Commissions                 | Senior Director, Sales Operations                |
+| Legal                       | Legal Compliance and Ethics                 | Senior Director, Legal, Corporate and Compliance |
+| Sales Systems               | Senior Manager, Sales Systems               | Senior Director, Enterprise Applications         |
+| Fulfillment                 | Director of Product, Fulfillment            | VP, Product Management                           |
 
 #### [Systems Owner] Systems Owner Sign-off :- Salesforce CRM System Owners should provide the signoff. The signoff matrix is an below,
 
-| Main Approver               |Backup Approver (if Jack Brennan or Sheela Viswanathan are unavailable)                                               | Backup Approver (if Jack Brennan or Sheela Viswanathan and Al Champagne are unavailable)                                                |
+| Main Approver               |Backup Approver (if Sheela Viswanathan is unavailable)                                               | Backup Approver (if Sheela Viswanathan and Al Champagne are unavailable)                                                |
 |-----------------------------|--------------------------------------------------------------|-----------------------------------------------------------------|
-| Jack Brennan - Senior Director, Sales Systems
-or
-Sheela Viswanathan - Senior Manager, Sales Systems  |Al Champagne - Senior Director, Enterprise Applications | Nabitha Rao - VP, IT  |
+| Sheela Viswanathan - Senior Manager, Sales Systems  |Al Champagne - Senior Director, Enterprise Applications | Nabitha Rao - VP, IT  |
 
 #### [Systems DRI] Add the correct `SalesSystems::Deployed - #` GitLab Label :- Once the issue has been deployed, the issue should be tagged with one of the following deploy label following the [SDLC - Software Development Life Cycle](/handbook/sales/field-operations/sales-systems/#salesforcecom-change-management-processes-and-sdlc-software-development-life-cycle) by the sales systems team member assigned to the issue.
 
@@ -182,7 +184,7 @@ Before a Milestone is closed perform the following steps:
 
 Please seek explicite and documented approval from the Senior Director of Sales Systems for any of the non-standard situations:
 
-1. A deploy during a designated black out period.
+1. A deploy during a designated block out period.
 1. The need to self deploy a non-invasive change.
 1. The need to create a non-invasive formula field in production for time sensitive triage of a critical issue.
 
@@ -198,7 +200,7 @@ Any changes related to the following fields must have direct approval from the S
 
 1. All changes that will impact Quoting (ex. creating quotes, creating validation rules, generating quote PDFs, Quote Templates, Approval Module updates) will require approval from Deal Desk and Channel Ops before being pushed to production. The goal is to prevent changes from being pushed to production that could delay the quoting process or create a bottleneck in the quote to cash lifecycle.
 1. Approval should be secured in the comments section of the related issue from the Designated Approver outlined below.
-1. Additionally, if a change is proposed that could materially impact the quoting experience for Sales teams and **is not listed below**, please request review from Sr. Manager, Deal Desk in the comments section of the issue.  
+1. Additionally, if a change is proposed that could materially impact the quoting experience for Sales teams and **is not listed below**, please request review from Sr. Manager, Deal Desk in the comments section of the issue.
 
 |                                                                Change                                                               |                Designated Appover               |                    Back Up Approver                   |
 |:-----------------------------------------------------------------------------------------------------------------------------------:|:-----------------------------------------------:|:-----------------------------------------------------:|
@@ -272,16 +274,17 @@ Persuant with GitLab's [best practices for password security](/handbook/security
 |Create and turn on |Marketing Operations|Marketing Operations|Marketing Sandbox/Staging| Must create fields for `Marketo Sync` (Boolean) on Leads and Contacts in staging before reconnecting. This box should be unchecked, but editable by Mops profile and added to page layout for Mops. Mops will need to request Marketo support to set up custom sync before reconnecting. |
 |Re-authenticate Marketo Sync (Systems Tasks)|Sales Systems|Sales Systems|Staging|[Configure connected Oauth App](https://experienceleague.adobe.com/docs/marketo/using/product-docs/crm-sync/salesforce-sync/log-in-using-oauth-2-0.html?lang=en), provide consumer secret, key and new OrgID to Mops.
 |Re-authenticate Marketo Sync (Mops Tasks)|Marketing Operations|Marketing Operations|Marketo Sandbox| Create support ticket to re-map. Once re-map is completed, connect by updating [OAuth information](https://experienceleague.adobe.com/docs/marketo/using/product-docs/crm-sync/salesforce-sync/log-in-using-oauth-2-0.html?lang=en). Then, click `Login with salesforce` > use custom domain > `gitlab--staging` and login with Marketo Integration details in 1pw vault. Systems may need to provide verification code sent to admin email. Confirm mappings and sync.|
-| Setup new DKIM key and add to gitlab.com DNS|Sales Systems|Sales Systems|STAGING| Setup a new DKIM key following the [instructions here](https://help.salesforce.com/s/articleView?id=sf.emailadmin_setup_dkim_key.htm&type=5).  Once the key has been published, provide the CNAME and Alternate CNAME values to the Gitlab IT team to add to the DNS for gitlab.com.  Once this is done, confirm an email can be sent to an external email address from a Case using the 'Send an Email' feature, and the email is delivered without issue.|
+| Setup new DKIM key and add to gitlab.com DNS|Sales Systems|Sales Systems|STAGING| Setup a new DKIM key following the [instructions here](https://help.salesforce.com/s/articleView?id=sf.emailadmin_setup_dkim_key.htm&type=5).  Once the key has been published, provide the CNAME and Alternate CNAME values to the GitLab IT team to add to the DNS for gitlab.com.  Once this is done, confirm an email can be sent to an external email address from a Case using the 'Send an Email' feature, and the email is delivered without issue.|
 
 ##### Refresh cadence
 
 Sandboxes which are managed as part of our team's SDLC process will follow a regular refresh schedule, as detailed below.
 
-|Sandbox name|Sandbox type|Used for|Refresh cadence|Last refresh date|Next refresh issue|
-|-----|-----|-----|-----|-----|-----|
-|[STAGING](https://gitlab--staging.sandbox.my.salesforce.com/)|Full|Pre-production org.  Used for UAT of Systems issues prior to release to production.  Also used for troubleshooting.|As needed, up to once per month, minimum once per quarter| 11/11/2022 |To be provided|
-|[SANDBOX](https://gitlab--sandbox.sandbox.my.salesforce.com/)|Partial|Developer integration and testing org. |As needed, up to once per month, minimum once per quarter|6/18/2021 3:14 PM|To be provided|
+|Sandbox name|Classic URL|Sandbox type|Used for|Refresh cadence|Last refresh date|Next refresh issue|Zuora Billing Sandbox|Zuora Billing Sandbox Tenant ID|
+|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+|[Developer](https://gitlab--developer.sandbox.my.salesforce.com/?ec=302&startURL=%2Fvisualforce%2Fsession%3Furl%3Dhttps%253A%252F%252Fgitlab--developer.sandbox.lightning.force.com%252Flightning%252Fsetup%252FManageUsers%252Fpage%253Faddress%253D%25252F005PL0000000MuzYAE%25253Fnoredirect%25253D1%252526isUserEntityOverride%25253D1%252526retURL%25253D%2525252Fsetup%2525252Fhome)|https://gitlab--developer.sandbox.my.salesforce.com/home/home.jsp?source=lex|Partial|Developer integration and testing org. |As needed, up to once per month, minimum once per quarter|2/14/2024|TBD|Developer Sandbox (i.e. "Dev Sandbox")|10002574|
+|[STAGING](https://gitlab--staging.sandbox.my.salesforce.com/?ec=302&startURL=%2Fvisualforce%2Fsession%3Furl%3Dhttps%253A%252F%252Fgitlab--staging.sandbox.lightning.force.com%252Flightning%252Fpage%252Fhome)|https://gitlab--staging.sandbox.my.salesforce.com/home/home.jsp?source=lex|Full|Used for UAT of Systems . Also used for troubleshooting.|As needed, up to once per month, minimum once per quarter|11/11/2022 |TBD|Central Sandbox 1 (i.e. "Staging Sandbox")|10000796|
+|[LIGHTNING](https://gitlab--lightning.sandbox.my.salesforce.com/?ec=302&startURL=%2Fvisualforce%2Fsession%3Furl%3Dhttps%253A%252F%252Fgitlab--lightning.sandbox.lightning.force.com%252Flightning%252Fpage%252Fhome)|https://gitlab--lightning.sandbox.my.salesforce.com/home/home.jsp?source=lex|Full|Pre-production org. Used for UAT of Systems issues prior to release to production. Also used for troubleshooting.|As needed, up to once per month, minimum once per quarter|03/26/2024|TBD|Central Sandbox 2|10000719|
 
 ### Data, Data Uploads & Permissions
 
@@ -341,7 +344,7 @@ Sandboxes which are managed as part of our team's SDLC process will follow a reg
 6. When you feel your iteration is complete run `git status` to make sure the changed files are the ones you expected.
 7. Add in the files you wish to commit with `git add [filename]` or `git add *` if you want to add all changed files.
 8. Commit your changes with a relevant message: `git commit -m "Fixing Apex CPU Errors"`.
-9. Using the link provided by GitLab, open a merge request, [make it a `Draft:`](https://about.gitlab.com/handbook/git-page-update/#marking-a-merge-request-as-draft), and assign it to the Architect on the project.
+9. Using the link provided by GitLab, open a merge request, [make it a `Draft:`](/handbook/editing-handbook/#marking-a-merge-request-as-draft), and assign it to the Architect on the project.
 10. Comment on the related issue with an @ to the project's Architect for review, providing a link to the merge request. (this automatically links the merge request to the issue)
 11. The Architect (or assigned delegate) will assign the story a Change Management level, based on the scope of the change as defined [here](/handbook/business-technology/change-management/#change-request-types).
 12. You will then need to document that the appropriate approvals (as defined in the [Approval Matrix](/handbook/sales/field-operations/sales-systems/#approval-matrix) section below) have been completed in the issue.
@@ -435,7 +438,7 @@ The uninstall process is the same regardless of whether a package is managed or 
 9. For all fields that are still eligible to be deprecated log into your sandbox and attempt to delete them one by one. Record any connection between any fields and any field updates, workflow rules, validation rules etc. (Reports, Report Types etc can be ignored in this step)
 10. Investigate any connections found in the previous steps and if the field can still be deleted.
 11. For all fields that cannot be deleted
-   - Link the investigation issue to the investigated field by pasting the Gitlab Issue Link in the fields description.
+   - Link the investigation issue to the investigated field by pasting the GitLab Issue Link in the fields description.
    - Assign someone as an owner of the field in Salesforce
 12. For all fields that can be deleted
    - List them out on a final comment on the issue
@@ -456,7 +459,7 @@ We have begun the journey of further leveraging our own GitLab tool by creating 
 
 Our own pipeline is based on the great work done by @mayanktahil and @francispotter: [the SFDC CI/CD templates](https://gitlab.com/sfdx/sfdx-project-template).  If you are interested in more information about this project and want to see it in action, check out [Salesforce Development with GitLab](https://www.youtube.com/watch?v=Z1JSIFLdIB4) and [Accelerate DevOps with GitLab and Salesforce](https://www.youtube.com/watch?v=tylPp9QlLu4)
 
-With this comes some change, as we are now more stricly enforcing [compliance controls](/handbook/security/security-assurance/security-compliance/guidance/compliance.html) by limiting manual changes into the STAGING org.  
+With this comes some change, as we are now more stricly enforcing [compliance controls](/handbook/security/security-assurance/security-compliance/guidance/compliance.html) by limiting manual changes into the STAGING org.
 
 Effective 2/16/2022, the following methods are the only approved way to deploy to STAGING.
 
@@ -468,14 +471,14 @@ Effective 2/16/2022, the following methods are the only approved way to deploy t
 
 Our own version of this CI/CD template can be found [here](https://gitlab.com/gitlab-com/sales-team/field-operations/salesforce-src/-/blob/master/.gitlab-ci.yml).  It is a simplified version, to allow us to [iterate](/handbook/values/#iteration).
 
-This template removes the capabilities to use [Scratch Orgs](https://developer.salesforce.com/docs/atlas.en-us.234.0.sfdx_dev.meta/sfdx_dev/sfdx_dev_scratch_orgs.htm) in favor of using an [Org-based deployment model](https://trailhead.salesforce.com/content/learn/modules/org-development-model).  The model used by this CI/CD file has a single environment configured, denoted as 'STAGING'.  The deployment script also limits deployments only to ApexClasses, ApexTriggers, ApexPage, and ApexComponents stored in the root source directory.  
+This template removes the capabilities to use [Scratch Orgs](https://developer.salesforce.com/docs/atlas.en-us.234.0.sfdx_dev.meta/sfdx_dev/sfdx_dev_scratch_orgs.htm) in favor of using an [Org-based deployment model](https://trailhead.salesforce.com/content/learn/modules/org-development-model).  The model used by this CI/CD file has a single environment configured, denoted as 'STAGING'.  The deployment script also limits deployments only to ApexClasses, ApexTriggers, ApexPage, and ApexComponents stored in the root source directory.
 
 The pipeline performs the following action:
 
 - Whenever a commit is made to a branch related to a Merge Request, install the SFDX CLI on a runner and execute the sfdx force:source:deploy method to perform a validation deployment against STAGING.
-- This validation deployment will compile all ApexClass, ApexTrigger, ApexComponent, and ApexPage objects found in the new commit source branch.  
+- This validation deployment will compile all ApexClass, ApexTrigger, ApexComponent, and ApexPage objects found in the new commit source branch.
 - If the compile succeeds, all unit tests in the SANDBOX org will be executed to confirm all unit tests are passing.
-- If the compile or unit tests fails, the pipeline will spit out the errors as individual line items in the output of the job.  
+- If the compile or unit tests fails, the pipeline will spit out the errors as individual line items in the output of the job.
     - The MR will then be blocked from merging.
 - If the compile succeeds and unit tests pass, the MR will be cleared for merging after code review is complete.
     - The pipeline will also allow for the user to trigger a deployment of the source code to the STAGING environment.
@@ -493,7 +496,7 @@ The pipeline performs the following action:
 
 We are beginning to explore using [Sandbox Source Tracking](https://developer.salesforce.com/blogs/2021/01/learn-moar-with-spring-21-sandbox-source-tracking), a feature Salesforce released last year to enable easy export of configuration changes from a developer environment into source control.
 
-This tool will enable our admins to track complex changes to their developer orgs and easily check these into source control.  
+This tool will enable our admins to track complex changes to their developer orgs and easily check these into source control.
 
 Once we do so, we can expand our pipeline to include these objects in our pipeline in STAGING.  This will allow us to validate administrative changes such as field renames, picklist value changes, validation rules, workflow, or flows, and deploy them quickly to STAGING.  As this removes the manual step for admins to build change sets from their environments into STAGING, it will save them time to focus on other things.
 

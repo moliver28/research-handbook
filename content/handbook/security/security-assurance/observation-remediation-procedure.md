@@ -1,10 +1,7 @@
 ---
 title: "Observation Remediation Procedure"
+controlled_document: true
 ---
-
-{{% alert title="This is a Controlled Document" color="danger" %}}
-Inline with GitLab's regulatory obligations, changes to [controlled documents]({{< ref "controlled-document-procedure" >}}) must be approved or merged by a code owner. All contributions are welcome and encouraged.
-{{% /alert %}}
 
 ## Purpose
 
@@ -98,7 +95,7 @@ OFI's do not have defined remediation SLA's as they are process improvements or 
 - Observations will **always** impact control effectiveness ratings
 - OFIs will **never** impact control effectiveness ratings
 
-## Criteria for Upgrading Observations (i.e. tier 3 information system level risks) to Security Operational Risks (tier 2)
+### Criteria for Upgrading Observations (i.e. tier 3 information system level risks) to Security Operational Risks (tier 2)
 
 The observation program is a key input to the [StORM program]({{< ref "storm-program" >}}), which manages tier 2 security operational risks. When the following criteria is met, it is an indicator that a larger risk exists and is upgraded to a tier 2 operational risk and therefore included in the StORM program. This criteria is as follows:
 
@@ -149,12 +146,25 @@ Detailed write up:
 1. When the Security Risk team is tagged, someone on that team will determine if there is a risk represented for the observation meeting the criteria.
     1. If there is an existing risk, they will map the observation to the risk and leave a comment in the GitLab issues for transparency.
     1. If there is not an existing risk, they will open a new risk following the [StORM Risk Intake runbook](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-risk-team/storm/-/blob/master/runbooks/storm-risk-intake-gl.md?ref_type=heads) (internal only).
-1. An entity level control, the observation will be entirely managed by the StORM program at the tier 2 risk level, represented by the `upgraded::storm-managed` label.
+1. An entity level control, the observation will be entirely managed by the StORM program at the tier 2 risk level, represented by the `Upgraded::StORM-Managed` label.
 1. If the Observation is not an entity level control, Security Compliance will work with Security Risk for collaborative remediation with the remediation owner(s).
 
-#### Collaborative remediation
+#### Collaborative Remediation
 
 Security Compliance and Security Risk should look for opportunities to remediate via aggregated/common controls. In the event that observations can be remediated via a common control or implementation, activities can be tracked by the Security Risk team. For example, if we have systems that are not meeting password requirements and remediation across multiple systems involves integrating with Okta, this roll-out can be tracked by Security Risk. If remediation is system-specific, remediation activities can be tracked by Security Compliance. Remediation testing will be completed by which ever team is tracking remediation activities using the [Security Compliance remediation runbook](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-compliance-commercial-and-dedicated/observation-management/-/blob/master/runbooks/2_Remediation%20and%20Closeout.md).
+
+### Status Labels
+
+Defined below are status labels that will aide in the process of managing remediation of observations.
+
+| Label| Definition|
+|--|--|
+|`Blocked:: Awaiting Remediation Owner Input`| This flags indicates the observation manager is waiting for response from the remediation owner. |
+|`Blocked:: Awaiting Observation Manager Input`| This flags the issue for the observation manager on the SecAssurance team|
+|`Blocked:: New tool implementation in progress` |This flags the issue for pending completion of the new tool|
+|`Upgraded::StORM-Managed` | This label will be leverage when the observation has been upgraded to a tier 2 risk and will be managed in the StORM program|
+|`Upgraded::StORM-Shared` | This label will be leverage when the observation has been upgraded to a tier 2 risk and remediation is shared by the Security Risk and Security Compliance team|
+
 
 ## Exceptions
 

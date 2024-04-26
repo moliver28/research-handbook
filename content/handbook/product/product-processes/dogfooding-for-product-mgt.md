@@ -12,7 +12,7 @@ title: Dogfooding for Product Managers
 ### Dogfood everything
 
 The best way to understand how GitLab works is to **use it for as much of your job as possible**.
-Avoid [dogfooding antipatterns](https://about.gitlab.com/handbook/engineering/development/principles/#dogfooding-antipatterns)
+Avoid [dogfooding antipatterns](/handbook/engineering/development/principles/#dogfooding-antipatterns)
 and try to find ways to leverage GitLab (instead of an external tool) whenever
 possible. _For example:_ try to use Issues instead of documents or spreadsheets
 and try to capture conversation in comments instead of Slack threads.

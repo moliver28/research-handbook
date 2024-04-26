@@ -35,9 +35,11 @@ Journeys are a powerful feature that enable us to create complex, multi-step cus
 
 **List of journeys implemented:**
 
-| Journey Name          | Link                                                                                    |
+| Journey Name   (Folder)       | Link                                                                                    |
 | --------------------- | --------------------------------------------------------------------------------------- |
-| SaaS Trial Onboarding | [Link](https://app.iterable.com/workflows/361081/edit?mode=beta&workflowType=Published) |
+| SaaS Trial Onboarding + Post  | [Link](https://app.iterable.com/workflows/361081/edit?mode=beta&workflowType=Published) |
+| Free User + Invited Onboarding| [link](https://app.iterable.com/workflows?folderId=68331&page=1)|
+
 
 ## API Custom Events
 

@@ -1,5 +1,5 @@
 ---
-title: Searching in Zendesk
+title: Searching
 description: Support Operations documentation page for searching in Zendesk
 canonical_path: "/handbook/support/readiness/operations/docs/zendesk/searching"
 ---
@@ -88,18 +88,23 @@ To search by a custom organization field, you use the format:
 
 The common organization field API names are:
 
-- `salesforce_id` - The 18 character SFDC ID
-- `sfdc_short_id` - The 15 character SFDC ID
-- `support_level` - The support level of the organization
-- `account_type` - The type of organization
-- `org_region` - The region of the organization
-- `aar` - The ARR of the organization (numeric)
+| Field                       | What it is for                                   | Zendesk Instance |
+|-----------------------------|--------------------------------------------------|------------------|
+| `account_owner`             | The AM for the org                               | Both             |
+| `aar`                       | The ARR of the org                               | Global           |
+| `arr`                       | The ARR of the org                               | US Government    |
+| `assigned_se`               | The user ID of the ASE for the org               | Global           |
+| `technical_account_manager` | The CSM for the org                              | Both             |
+| `dedicated_sgg`             | The Dedicated SGG for the org                    | Global           |
+| `support_level`             | The highest support level of the org             | Both             |
+| `health_score`              | The Gainsight health score for the org           | Both             |
+| `seats_decimal`             | The highest number of licenses seats for the org | Global           |
+| `number_of_seats`           | The highest number of licenses seats for the org | US Government    |
+| `salesforce_id`             | The 18 character SFDC ID for the org             | Both             |
+| `sfdc_short_id`             | The 15 character SFDC ID for the org             | Both             |
+| `solutions_architect`       | The SA for the org                               | US Government    |
 
-A few examples:
-
-Searching for open partners:
-
-`account_type:open_partner`
+An example:
 
 Searching for organizations with ARR less than 1000:
 
@@ -131,11 +136,12 @@ are text-based.
 
 To search by a custom user field, you use the format:
 
-`custom_field_{id}:value``
+`custom_field_{id}:value`
 
 where `{id}` is the ticket field ID. This one can be less intuitive as it
-requires knowing the ticket field ID. The best resource for this would be the
-ticket field sync repos (see [useful links](#useful-links) down below).
+requires knowing the ticket field ID. The best resource for this would be to
+talk to the Support Operations team for assistance in locating the ticket
+field's ID value.
 
 You can search for the negation of this by putting a minus in front of any that
 are text-based.
@@ -157,7 +163,7 @@ The possible values are:
 You can search for the negation of this by putting a minus in front of any that
 are text-based.
 
-## Advanced searching examples
+## Examples
 
 #### Example 1
 
@@ -178,6 +184,46 @@ Task:
 - the SaaS Account problem type is Namesquatting
 
 `-status:new -status:solved -status:closed assignee:Jason custom_field_360011793260:namesquatting_requests`
+
+#### Example 3
+
+Task:
+
+- locate an organization in Zendesk based off the Salesforce ID
+
+Salesforce accounts actually have two forms of their IDs, the standard 18
+character value and the shortened 15 character value. Zendesk organizations have
+_both_ values within them, so you can use either to locate the account:
+
+- Based off the 18 character ID value:
+  `salesforce_id:ABCDEFGH0123456789`
+- Based off the 15 character ID value:
+  `sfdc_short_id:ABCDEFGH0123456`
+
+You can also make use of the wildcard search by using an asterisk. So if you
+have the 15 character value, you could do this as well:
+
+`salesforce_id:ABCDEFGH0123456*`
+
+#### Example 4
+
+Task:
+
+- locate an L&R IR ticket based off the Salesforce ID of the account
+
+As detailed in [Example 3](#example-3), there are two values one could have for
+a given Salesforce account. With L&R IRs, there is a custom field you can use to
+locate the Salesforce account it was filed for, but knowing if which of the two
+was used can be difficult. As such, it is best to use the 15 character value
+with a wildcard search. If you only have the 18 character value, drop the last 3
+characters from the ID (so if it was `ABCDEFGH0123456789`, drop the last 3 to
+make it `ABCDEFGH0123456`). With that, you would do one of the following
+searches (depending on which Zendesk instance you are looking in):
+
+- Zendesk Global:
+  `custom_field_6978327875612:ABCDEFGH0123456*`
+- Zendesk US Government:
+  `custom_field_11717220820372:ABCDEFGH0123456*`
 
 ## Useful links
 

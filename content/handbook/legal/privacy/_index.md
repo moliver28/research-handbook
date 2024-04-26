@@ -147,7 +147,7 @@ graph TD
 
 ```
 
-*For Third-Party Risk Acceptance, any Moderate/High risk requires Director and/or above approval*
+*For Third-Party Risk Acceptance, any Moderate/High risk requires VP and/or above approval*
 
 
 ## Internal Privacy Review

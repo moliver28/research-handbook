@@ -4,125 +4,100 @@ description: Support Operations documentation page for Pagerduty change manageme
 canonical_path: "/handbook/support/readiness/operations/docs/pagerduty/change_management"
 ---
 
+<sup>*Introduced via [support-team-meta#4077](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/4077)*</sup>
+
 ## Schedule changes
 
 **Note** This only applies for the non-shadow schedules. For changing shadow
 schedules, please see [shadow schedule changes](#shadow-schedule-changes).
 
-#### Create an issue
+The process for this can be broken down into 3 sections:
 
-At the start of each quarter, you should start by making an issue in our
-[Pagerduty project](https://gitlab.com/gitlab-com/support/support-ops/other-software/pagerduty)
-using the
-[issue template](https://gitlab.com/gitlab-com/support/support-ops/other-software/pagerduty/-/issues/new?issuable_template=Quaterly%20schedule%20changes)
-to do so.
+1. [Notify DRIs about the upcoming implementation](#notify-dris-about-the-upcoming-implementation)
+1. [Implement the changes](#implement-the-changes)
+1. [Rotate the spreadsheet](#rotate-the-spreadsheet)
 
-Fill out all the required areas of the issue based on the template. Make sure
-to assign the issue to all the DRIs from the operations team that will be
-working it.
+#### Notify DRIs about the upcoming implementation
 
-The milestone should be the one relating to the first deployment of the new
-quarter. So if the new quarter starts 2023-11-01, you'd want to use the
-milestone `Support Ops Deployment: 2023-11-01`.
+On the first Monday of the second month of a given quarter, we notify the DRIs
+about the upcoming implementation. This is done automatically via Slack
+workflows, but for reference, the timing and messaging used is as follows:
 
-#### Prepare the spreadsheet
+<details>
+<summary>0800 UTC - EMEA</summary>
 
-At the start of the quarter, you will need to clean up the sheet from the
-previous quarter and then prepare it for the current quarter.
-
-To start, you should first generate the new rows you will be needing. To do
-this, highlight a group of cells for the schedule (all the columns) consisting
-of at least 3 rows, click on the blue circle at the bottom-right of the
-highlighted cells, and then drag your mouse down a good number of rows. This
-will auto-generate it for you. You can then remove any extra rows at the bottom
-you do not need for the following quarter.
-
-With that done, you need to clean out the dropdowns you just created. Highlight
-then and hit the `DEL` key on your keyboard to do so (do **not** hit the
-backspace key, as it will completely remove the dropdown itself).
-
-After doing so, you need to use either Pagerduty or the previous quarter's
-values to determine the values for all the blank dropdowns. Your aim is to show
-what the various schedules will look like for the next quarter
-*without any changes*.
-
-After that is done, highlight the previous quarters cells, right click, and
-hover over `Delete cells`, and click on `Delete cells and shift up`.
-
-You will do this for every schedule on every sheet.
-
-After doing all this, make sure to update the issue you are working out of by
-checking the box for `Prepare the spreadsheet` and adding the time spent doing
-all this.
-
-#### Unlock the sheet for edits
-
-At the start of the second month of the quarter, you will be asking those
-approved to make changes to the dropdowns. For this to occur, you need to unlock
-the dropdowns for the approved users.
-
-To do this, go to a sheet you need to unlock, click `Data` at the top menu of
-the page, and select `Protect sheets & ranges`. This will bring up all the
-protections currently in place.
-
-Locate the one for dropdowns, click on it, and then click `Change permissions`.
-Doing so will bring up a modal displaying our custom protections.
-
-For unlocking it, you need to ensure the following boxes are checked:
-
-- Kate Grechishkina <khrechyshkina@gitlab.com>
-- support-managers <support-managers@gitlab.com>
-
-After checking the boxes by those entries, click the green `Done` button.
-
-You will need to do this for all locked sheets (the ones with a lock symbol by
-their name on the tabs at the bottom of the page).
-
-#### Request edits
-
-At the start of the second month of the quarter, you are ready to perform
-perhaps the simplest step: you need to let managers know you are ready for them
-to submit edits.
-
-On your issue, ping managers with the following message:
-
-> Greetings @gitlab-com/support/managers !
+> Greetings @support-managers-emea @Kate Grechishkina !
 >
-> We are now opening the \[Support Pagerduty Worksheet](<https://docs.google.com/spreadsheets/d/1FdUzVXCZleopfteC2QxW7LJwyylGWGl9hwXHMPkRHbQ/edit?usp=sharing>) for edits for the next quarter!
+> This is your quarterly reminder that Support Readiness will be implementing
+> next quarter's Pagerduty oncall schedules in about a month. As such, please
+> remember to fill out the
+> [Pagerduty spreadsheet](https://docs.google.com/spreadsheets/d/1FdUzVXCZleopfteC2QxW7LJwyylGWGl9hwXHMPkRHbQ/edit?usp=sharing)
+> before the first of next month!
 >
-> Please review the spreadsheet and add any edits you wish to see occur for next quarter. The due date for this is YYYY-MM-01
+> The schedules you need to ensure are updated are
+> [CEOC](https://gitlab.pagerduty.com/schedules#P9SV029),
+> [CMOC](https://gitlab.pagerduty.com/schedules#P59382D),
+> [Managers](https://gitlab.pagerduty.com/schedules#PXQ2ZAZ), and
+> [SSAT](https://gitlab.pagerduty.com/schedules#P9UIIDY)
+>
+> Please remember any BLANK values at the time of implementation will be
+> assigned to the Support Director for your region.
 
-Replacing `YYYY-MM` with the year and month of the last month of the quarter.
+</details>
+<details>
+<summary>1400 UTC - AMER</summary>
 
-After doing all this, make sure to update the issue you are working out of by
-checking the box for `Request edits` and adding the time spent doing all this.
+> Greetings @support_managers_amer !
+>
+> This is your quarterly reminder that Support Readiness will be implementing
+> next quarter's Pagerduty oncall schedules in about a month. As such, please
+> remember to fill out the
+> [Pagerduty spreadsheet](https://docs.google.com/spreadsheets/d/1FdUzVXCZleopfteC2QxW7LJwyylGWGl9hwXHMPkRHbQ/edit?usp=sharing)
+> before the first of next month!
+>
+> The schedules you need to ensure are updated are
+> [Global CEOC 1](https://gitlab.pagerduty.com/schedules#PBLAHV7),
+> [Global CEOC 2](https://gitlab.pagerduty.com/schedules#P9FKYZC),
+> [Global CEOC 3](https://gitlab.pagerduty.com/schedules#PP28N7L),
+> [US Gov CEOC 1](https://gitlab.pagerduty.com/schedules#P89ZYHZ),
+> [US Gov CEOC 2](https://gitlab.pagerduty.com/schedules#P89ZYHZ),
+> [US Gov CEOC 3](https://gitlab.pagerduty.com/schedules#P89ZYHZ),
+> [CMOC](https://gitlab.pagerduty.com/schedules#PG0SHU2),
+> [Managers](https://gitlab.pagerduty.com/schedules#PTI56V1), and
+> [SSAT](https://gitlab.pagerduty.com/schedules#P9UIIDY)
+>
+> Please remember any BLANK values at the time of implementation will be
+> assigned to the Support Director for your region.
 
-#### Lock in the edits
+</details>
+<details>
+<summary>2130 UTC - APAC</summary>
 
-At the start of the third month of the quarter, you will need to lock the sheets
-back down.
+> Greetings @support-managers-apac !
+>
+> This is your quarterly reminder that Support Readiness will be implementing
+> next quarter's Pagerduty oncall schedules in about a month. As such, please
+> remember to fill out the
+> [Pagerduty spreadsheet](https://docs.google.com/spreadsheets/d/1FdUzVXCZleopfteC2QxW7LJwyylGWGl9hwXHMPkRHbQ/edit?usp=sharing)
+> before the first of next month!
+>
+> The schedules you need to ensure are updated are
+> [CEOC 1](https://gitlab.pagerduty.com/schedules#PQB9Q6K),
+> [CEOC 2](https://gitlab.pagerduty.com/schedules#PKPXM8K),
+> [CMOC 1](https://gitlab.pagerduty.com/schedules#PGUP5OB),
+> [CMOC 2](https://gitlab.pagerduty.com/schedules#PMPKHZN),
+> [Managers](https://gitlab.pagerduty.com/schedules#PWBXTYX), and
+> [SSAT](https://gitlab.pagerduty.com/schedules#P9UIIDY)
+>
+> Please remember any BLANK values at the time of implementation will be
+> assigned to the Support Director for your region.
 
-To do this, go to a sheet you need to unlock, click `Data` at the top menu of
-the page, and select `Protect sheets & ranges`. This will bring up all the
-protections currently in place.
-
-Locate the one for dropdowns, click on it, and then click `Change permissions`.
-Doing so will bring up a modal displaying our custom protections.
-
-For locking it, you need to ensure the following boxes are not checked:
-
-- Kate Grechishkina <khrechyshkina@gitlab.com>
-- support-managers <support-managers@gitlab.com>
-
-After un-checking the boxes by those entries, click the green `Done` button.
-
-You will need to do this for all locked sheets (the ones with a lock symbol by
-their name on the tabs at the bottom of the page).
+</details>
 
 #### Implement the changes
 
-During the final month of the quarter, your objective is to setup all the
-schedules we use to align with the requested changes in the
+During the first week of the final month of the quarter, you need to setup all
+the schedules we use to align with the requested changes in the
 [Support Pagerduty Worksheet](https://docs.google.com/spreadsheets/d/1FdUzVXCZleopfteC2QxW7LJwyylGWGl9hwXHMPkRHbQ/edit?usp=sharing).
 
 To do this, there is a script located in our
@@ -133,7 +108,9 @@ called
 To utilize this, you will need to download a CSV of each of the locked sheets.
 To do that, you will go to the sheet in question, click `File` at the top menu,
 hover over `Download`, and then click `Comma Separate Values (.csv)`. Doing so
-will download that specific sheet to your computer.
+will download that specific sheet to your computer. Keep in mind the CSV file
+that is downloaded has the *entire spreadsheet* within it, so you **will** need
+to modify the file to remove any entries beyond the following quarter.
 
 You will then navigate to the location of the
 [Pagerduty project](https://gitlab.com/gitlab-com/support/support-ops/other-software/pagerduty)
@@ -171,7 +148,7 @@ Bundle complete! 5 Gemfile dependencies, 23 gems now installed.
 Use `bundle info [gemname]` to see where a bundled gem is installed.
 ```
 
-After doing so, you should verify you have the two needed environment variables
+After doing so, you should verify you have the five needed environment variables
 set in your local environment (see the project's
 [README](https://gitlab.com/gitlab-com/support/support-ops/other-software/pagerduty/-/tree/master#variables-needed)
 for more details).
@@ -179,7 +156,8 @@ for more details).
 After that has been done, you will run the script with the needed parameters to
 create all the overrides needed for the next quarter (again, see the project's
 [README](https://gitlab.com/gitlab-com/support/support-ops/other-software/pagerduty/-/tree/master#definitions-for-running-the-script)
-for more details).
+for more details). You can also run the commands `./handle_pd_changes HELP` and
+`./handle_pd_changes DEFINE` to see more information on running the script.
 
 The output should show you if each override was created correctly. If you see a
 status of 201, it was successful. If you see anything else, it did not succeed
@@ -197,42 +175,43 @@ Status 201 for 2024-01-31T16:00:00Z to 2024-01-31T22:00:00Z
 After you have run that script, go into Pagerduty and check the corresponding
 schedule for accuracy.
 
-Once you have done this for all schedules, check off the corresponding boxes on
-the issue you are working out of (and add the time spent).
+#### Rotate the spreadsheet
 
-#### Announce the implementation
+After you have [implemented the changes](#implement-the-changes) into Pagerduty,
+the final thing you need to do is rotate the spreadsheet. How you do this is
+really up to you, but the general recommended way is to do the following:
 
-The final step is to announce the implementation and close out the issue. You
-will first make a comment to ping the managers
-
-> Greetings @gitlab-com/support/managers !
->
-> We have now implemented the changes requested from the \[Support Pagerduty Worksheet](<https://docs.google.com/spreadsheets/d/1FdUzVXCZleopfteC2QxW7LJwyylGWGl9hwXHMPkRHbQ/edit?usp=sharing>) into Pagerduty.
->
-> Please help communicate this to your reports and remind them to check the schedules for their oncall periods next quarter.
-
-You will then add the time spent for this last bit, add the tag
-`SupportOps::Completed`, and close out the issue (ensuring you check off the
-corresponding boxes on the issue you are working out of).
+- Select the following quarter's entries on the spreadsheet and hit the `DEL`
+  key on your keyboard *twice* (this ensures it fully deletes everything)
+- Copy all the remaining entries and paste them from the 2nd line of the file
+  (the one right after the headers).
+- Navigate to the bottom of what you just copied, select the remaining entries,
+  and hit the `DEL` key on your keyboard *twice* (this ensures it fully deletes
+  everything)
+- Select the last 5 rows on the spreadsheet, click the dot at the bottom-right
+  of your selection (holding the mouse button down), and drag it down however
+  many rows you need to add (if you are unsure, go down about 93 rows, as that
+  should cover all the days). Doing this will automatically fill out the needed
+  information for you.
 
 ## Shadow schedule changes
 
-As these do not have an impact on our production schedules, we can implement
-these when requested. These will stem from issues within the
-[Pagerduty project](https://gitlab.com/gitlab-com/support/support-ops/other-software/pagerduty).
-
-Implement the changes and let the requester know they are in place. If others
-are already using the shadow rotation, make sure to mention it to them as well.
+These are now fully automated via the Support Super form. As such, you should
+never need to make modifications to them.
 
 ## Escalation policy changes
 
-This can be a very destructive action. As such, only an Operations manager or
-Support Readiness Director should make these changes.
+This can be a very destructive action. Due to the complexity involved, we do not
+have a fully documented process for this at this time.
+
+As such, please only have @jcolyer or @dtragjasi work these at this time.
 
 ## Service changes
 
-This can be a very destructive action. As such, only an Operations manager or
-Support Readiness Director should make these changes.
+This can be a very destructive action. Due to the complexity involved, we do not
+have a fully documented process for this at this time.
+
+As such, please only have @jcolyer or @dtragjasi work these at this time.
 
 ## Spreadsheet setup
 
@@ -247,7 +226,9 @@ Each dropdown's content is determined based on the pool of possible people that
 could be used. This is done via a range on the People sheet.
 
 Never make edits directly to the dropdown values. If you need to add or remove
-someone from the possible options, please do so on the People sheet.
+someone from the possible options, please do so on the People sheet. This is
+usually done by provisioners during onboarding, offboarding, and team member
+transfers.
 
 #### We have many protections in place
 
@@ -257,18 +238,11 @@ are not meant to be edited:
 | Name of protection                    | Sheet              | Definition                                      |
 |---------------------------------------|--------------------|-------------------------------------------------|
 | AMER - Customer Emergencies headers   | AMER - Emergencies | Whole sheet except F2:F1000, M2:M1000, T2:T1000 |
-| AMER - Customer Emergencies dropdowns | AMER - Emergencies | 2:1000                                          |
 | AMER - CMOC headers                   | AMER - CMOC        | Whole sheet except F2:F1000                     |
-| AMER - CMOC dropdowns                 | AMER - CMOC        | 2:1000                                          |
 | US Federal headers                    | US Federal         | Whole sheet except F2:F1000, M2:M1000, T2:T1000 |
-| US Federal dropdowns                  | US Federal         | 2:1000                                          |
 | APAC - Customer Emergencies headers   | APAC - Emergencies | Whole sheet except F2:F1000, M2:M1000           |
-| APAC - Customer Emergencies dropdowns | APAC - Emergencies | 2:1000                                          |
 | APAC - CMOC headers                   | APAC - CMOC        | Whole sheet except F2:F1000, M2:M1000           |
-| APAC - CMOC dropdowns                 | APAC - CMOC        | 2:1000                                          |
 | EMEA headers                          | EMEA               | Whole sheet except F2:F1000, M2:M1000           |
-| EMEA dropdowns                        | EMEA               | 2:1000                                          |
 | Managers headers                      | Managers           | Whole sheet except F2:F1000, M2:M1000, T2:T1000 |
-| Managers dropdowns                    | Managers           | 2:1000                                          |
 | SSAT headers                          | SSAT               | Whole sheet except F2:F1000                     |
-| SSAT dropdowns                        | SSAT               | 2:1000                                          |
+| Available persons                     | People             | Whole sheet                                     |

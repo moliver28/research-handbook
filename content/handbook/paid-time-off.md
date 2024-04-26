@@ -14,8 +14,7 @@ Taking time off is not a selfish behavior. Not only is time away from work align
 
 It is important to take time off to recharge batteries and refresh the mind so you can come back to GitLab with renewed energy and be prepared to do your best work ever!
 
-This page is written with a focus on vacation. The below recommendations on communicating your time off apply to time off for all reasons where possible and avoid concerns of health, safety, or job abandonment.
-If taking time off for medical needs or sick time, whether physical or mental, please follow our [Sick Time Policy](#sick-time-reporting-procedures---all-team-members).
+This page is written with a focus on vacation. The below recommendations on communicating your time off apply to time off for all reasons where possible and avoid concerns of health, safety, or job abandonment. GitLab offers a Flexible PTO Policy, but team members are not allowed to substitute PTO for sick time. If taking time off for medical needs or sick time, whether physical or mental, please follow our [Sick Time Policy](/handbook/paid-time-off/#sick-time---taking-and-reporting).
 
 If you are taking Parental Leave, please see our [Parental Leave Policy](/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave).
 
@@ -51,7 +50,7 @@ Time off by Deel should not be used if working but working asynchronously. Inste
 1. For some countries, GitLab is required to pay out unused statutory vacation balances at the end of the team members employment. To prevent any discrepancies, make sure you select the correct category for your time off (e.g. vacation).
 1. Not taking time off is viewed as a weakness and people shouldn't boast about it. It is viewed as a lack of humility about your role, not fostering collaboration in training others in your job, and not being able to document and explain your work. You are doing the company a disservice by being a single point of failure. The company must be able to go for long periods without you. We don't want to lose you permanently by you burning yourself out by not taking regular time off.
 1. Working hours are flexible. We encourage you to read the [#whats-happening-at-gitlab](https://gitlab.slack.com/archives/general) Slack channel on your return to catch up on the announcements made while you were on your time off.
-1. You don't need to worry about taking time off to go to the gym, [take a nap](https://m.signalvnoise.com/sleep-deprivation-is-not-a-badge-of-honor-f24fbff47a75), go grocery shopping, do household chores, help someone, take care of a loved one, etc. If you have urgent tasks, but something comes up or takes longer than expected, just ensure the rest of the team **knows** and someone can pick up the tasks (assuming you're able to communicate).
+1. You don't need to worry about taking time off to go to the gym, take a nap, go grocery shopping, do household chores, help someone, take care of a loved one, etc. If you have urgent tasks, but something comes up or takes longer than expected, just ensure the rest of the team **knows** and someone can pick up the tasks (assuming you're able to communicate).
 1. GitLab encourages team members to volunteer within their community to take care of others. Consider taking time in support of causes that matter to you and support your personal commitment to GitLab's values such as diversity, inclusion and belonging.
 1. GitLab also encourages you to use your leave for jury duty, bereavement leave, or other needs. You are not expected to work during this time off, but we recommend following the guidance under [Communicating Your Time Off](#communicating-your-time-off) when these situations arise.
 1. GitLab also encourages you to take time off to vote, volunteer at the polls or volunteer in your community.
@@ -63,10 +62,10 @@ Time off by Deel should not be used if working but working asynchronously. Inste
 
 ### Holidays
 
-1. We encourage all team members to take time off for holidays observed in their country. No one is expected to attend calls on days they are not working or out of the office for an official public holiday. As a company that prides itself on a [family & friends first](/handbook/values/#family-and-friends-first-work-second) approach, it’s a general guideline that if public schools or government offices in your area are closed for a particular national or regional holiday, that it’s recognized for GitLab team members in that location to take that time off as a public holiday as well. For a general listing of official holidays by country, follow these steps:
-    1. Go to the [timeanddate.com site](https://www.timeanddate.com/holidays/)
+1. We encourage all team members to take time off for public holidays observed in their country. No one is expected to attend calls on days they are not working or out of the office for an official public holiday. As a company that prides itself on a [family & friends first](/handbook/values/#family-and-friends-first-work-second) approach, it’s a general guideline that if public schools or government offices in your area are closed for a particular national or regional holiday, that it’s recognized for GitLab team members in that location to take that time off as a public holiday as well. For a general listing of public holidays by country, follow these steps:
+    1. Go to the [timeanddate.com](https://www.timeanddate.com/holidays/)
     1. Select your country of residence
-    1. Change the dropdown from 'All holidays and national observances' to 'Official holidays'
+    1. Change the dropdown from 'All holidays and national observances' to 'Public Holidays'
 
 We recognize this list may not encompass all state or local public holidays, but please follow the guidance above--if public schools or government offices in your location are closed--then please enter your time off as a public holiday in Time Off by Deel.  For any questions related to holidays or how to categorize time off please reach out to `leaves@gitlab.com`.
 
@@ -111,7 +110,7 @@ Communicate broadly when you will be away so other people can manage time effici
         - > Hello team, I am out of the office for the next several days. Please double check the pending tasks on our team's Google Doc for any upcoming deadlines.
 1. Please see the [On-Call](/handbook/on-call/) page for information on how to handle scheduled leave for someone from the On-Call team.
 1. If you are a people manager, please complete the following:
-    - BambooHR: submit a job information request to move direct reports to the interim manager if you will be out of office for more than 25 calendar days.
+    - Workday: set up a [delegate](https://docs.google.com/document/d/1BDME_47-mif1ZihO5Id-wejbjAU_-PLIr1dJ46z1F_c/edit) in Workday to be able to approve transactions on your behalf while you are away
     - Navan Expense: delegate expense approval to your back-up team member by following these steps:
         - Navan Expense
         - Settings
@@ -317,6 +316,10 @@ Before assigning a `#channel` to a role, please ask for permission to do so in t
 Especially in large channels and during popular vacation times, PTO's role reminders could create a lot of noise, so some teams may recommend against them until there is an option to allow turning off the PTO notifications.
 
 #### Bulk Add holidays
+
+{{% alert title="Note" color="primary" %}}
+It is worth considering the impact to your role/team before bulk adding regional holidays to your time off by Deel app. Many functions of GitLab necessitate coverage on holidays and if your team is region-centric you may want to opt to take alternative days off instead of the official regional holiday in order to provide coverage for others who are observing.
+{{% /alert %}}
 
 You can bulk add holidays based on your region and then modify them manually if needed. Any Public Holidays added to Time Off by Deel in your dashboard will not auto-set an OOO event for you, you will still need to create an OOO event if observing that holiday. To add a Public Holiday, follow the below instructions.
 

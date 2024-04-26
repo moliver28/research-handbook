@@ -19,9 +19,31 @@ For a summary of the Medical plan details please refer to slides 8 - 26 of the [
 
 Please also view the [Singapore Benefits Aug 2022 Webinar](https://drive.google.com/file/d/1YPBgHMjZxjq82mYdMfsHYRmIvwcnZPU7/view?usp=sharing) for addtional information
 
-### SingLife Claims Connect App
+### MySingLife Portal and SingLife App
+
+Login to the MySingLife portal or the SingLife App to:
+- Submit your claims and view your claims history
+- Find a clinic near you
+- Access your policy details and benefit entitllments on the go
+- Update your personal details
+- Explore useful articles on topics on health and more
+
+**How to register**
+
+Step 1 : Go to https://mysinglife.singlife.com/account/login to register and setup for MySinglife Portal account. This step can be skipped for existing MySinglife Portal user.
+
+Step 2 : Download the Singlife App from Google Play or Apple App Store, and login using MySinglife Portal’s email address and password.
+
+You are now able to access the claim features in the portal and the mobile app. You can only register your account via the portal, not the app.
+
+See these guides for information on navigating the [MySingLife Portal](https://drive.google.com/file/d/19xQUauxOwcsu89jx8xgtqeCbYuJ0gefD/view?usp=sharing) and the [SingLife App](https://drive.google.com/file/d/1EqnOm90tVDP7cKElDqfB5GOXO1MYBJ8d/view?usp=sharing)
+
+Effective March 31, 2024, the current Claims system, ClaimsConnect will no longer be available. Please find an [FAQ](https://drive.google.com/file/d/1VG7FKEwIS6FtLZVGHAdDNeboh68y0rNB/view?usp=sharing) on the details surrounding the transition from ClaimsConnect to the MySingLife Portal.
+
+**ClaimsConnect Instructions - no longer valid after March 31, 2024**
 
 Team Members can submit claims through the SingLife ClaimsConnect app. [See instructions](https://drive.google.com/file/d/1hMnxb1yurTpP9dNbpXvC2tyvfEnFny6F/view?usp=sharing) on how to use the app and submit claims. For more details, please refer to slides 34-37 of the [Singapore Benefits Deck](https://drive.google.com/file/d/1GxTHZ4jXcUSzkk76UqsT5hZqlJPO3cMJ/view?usp=sharing)
+
 
 
 For assistance with the ClaimsConnect App, AvivaOnline IT Helpdesk Contact Information:
@@ -64,6 +86,26 @@ When adding a new dependent to the plan, please include the following informatio
 - NRIC Number
 - Gender
 - Nationality
+
+## Annual Health Screening
+
+Effective November 20, 2023, GitLab offers all Singapore Team Members an annual Health Screening through Fullerton Health.
+
+Team Members can book an Executive Health Screening at one of Fullerton Health’s locations throughout Singapore. The cost of the screening will be invoiced directly to GitLab.  The benefit renews in the Calendar Year.
+
+Team Members can add Optional Tests and Screenings at their own cost. For additional details on the locations, what is included in the screenings, as well as information on how to book your appointment, please see the [Fullerton Health Guide](https://drive.google.com/file/d/1O7lgEE-lbo2I1lkekc39TDKBDpAV9FXG/view?usp=sharing).
+
+You can sign up for the benefit and book an appointment via the [Fullerton Health Website](https://bookappt.fullertonhealth.com/#/login). Click on “Sign Up”, fill out your information, and search for “GITLAB SINGAPORE PTE LTD” under the Company drop down.
+
+Note: Since GitLab pays for the benefit directly, this benefit is not considered CPF payable
+
+Contact Details for Fullerton Health:
+Email ehs@fullertonhealth.com
++65 6333 3636 (Option 3)
+
+### Administration of Health Screening
+
+Fullerton Health will send the invoice directly to total-rewards@gitlab.com team for payment. The Total Rewards team will review and forward to Accounts Payable to process the invoice. These invoices will come through on an ad-hoc basis. As with all discretionary benefit offerings, GitLab may modify or remove this benefit at its discretion.
 
 ## Pension
 

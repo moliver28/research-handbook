@@ -4,7 +4,7 @@ title: "Data Science Handbook"
 description: "GitLab Data Science Team Handbook"
 ---
 
- 
+
 
 
 
@@ -16,7 +16,7 @@ description: "GitLab Data Science Team Handbook"
 **PURPOSE: This page is focused on the operations of GitLab's internal *Data Science Team*. For information about GitLab's Product Data Science Capabilities, please visit [GitLab ModelOps](https://about.gitlab.com/direction/modelops/)**
 {: .alert .alert-success}
 
-`Last Updated At: 2023-07-13`
+`Last Updated At: 2023-12-22`
 
 # The Internal Data Science Team at GitLab
 
@@ -103,12 +103,17 @@ graph BT;
    id4-->id1
 ```
 
+## How to request Data Science project? 
+
+To request a new Data Science project, please fill out the [Opportunity Canvas](https://gitlab.com/gitlab-data/analytics/-/issues/new). In the description choose `[New Request] Create Opportunity Canvas`. The `Problem Statement` and `Stakeholders` sections should be completed. You can tag a data science team member with whom you discussed the project with or share an issue in #bt-data-science slack channel. During the quarterly planning process, requests will be reviewed and priortisied accordingly by the Data Leadership Forum.
+
+
 ## Work Streams
 
 | Work Stream | Internally Known As | Maturity | Objective | Last Update | Next Update |
 | ----- | -----| -----| ----- | ----- | ----- |
 | Revenue Expansion | [Propensity to Expand](https://gitlab.com/gitlab-data/data-science-projects/propensity-to-expand) (PtE)  | Optimized | Determine which paid accounts are likely to increase in ARR via seat expansion or up-tier to Ultimate | FY23-Q4 | FY24-Q2 |
-| Loss Prevention | [Propensity to Contract](https://gitlab.com/gitlab-data/data-science-projects/propensity-to-contract-and-churn) (PtC) | Optimized  | Determine which paid accounts are likely to decrease in ARR via seat expansion or down-tier to Premium  | FY24-Q1 | FY24-Q2 |
+| Loss Prevention | [Propensity to Contract](https://gitlab.com/gitlab-data/data-science-projects/propensity-to-contract-and-churn) (PtC) | Optimized  | Determine which paid accounts are likely to decrease in ARR via seat expansion or down-tier to Premium  | FY24-Q3 | FY24-Q4 |
 | Conversion  | [Propensity to Purchase](https://gitlab.com/gitlab-data/data-science-projects/propensity-to-purchase) (PtP)  | Viable  | Identify which non-paid users (free and trials accounts) are likely to become paid accounts  | FY24-Q1 | FY24-Q2 |
 | Product Research  | [Namespace Segmentation](https://gitlab.com/gitlab-data/data-science-projects/namespace-segmentation)  | Optimized | Define groups for paid and free SaaS namespaces based on its product usage  |  FY23-Q3 | TBD |
 | Lead Funnel Generation | Prospect/Lead Scoring  | Planned | Identify leads and prospects most likely to convert to closed won opportunities | | FY24-Q2 |
@@ -145,8 +150,8 @@ Maturity of data science projects is similar to the [GitLab product maturity mod
    - [Exec Summary](https://docs.google.com/presentation/d/1Aaf2HzFYrYDPgrZKDHxS9gzep4LHGMlwF5SxYs-her0/edit#slide=id.gf528ae95ed_0_0)
    - [Sales GTM](https://docs.google.com/presentation/d/1F_XSJrhemIbaffhvwx0byQ1mUvdo4X1ZcGsBa7VgVnU/edit#slide=id.g123a13deda8_0_405)
 - Dashboards (internal only):
-   - [PtE Inspector](https://app.periscopedata.com/app/gitlab:safe-dashboard/951374/PtE-Inspector)
-   - [PtE Results Dashboard](https://app.periscopedata.com/app/gitlab:safe-dashboard/1054667/PtE-Performance-Results)
+   - [PtE Inspector](https://10az.online.tableau.com/#/site/gitlab/workbooks/2344783)
+   - [PtE Results Dashboard](https://10az.online.tableau.com/#/site/gitlab/workbooks/2146809)
 - Data sources: Product usage: SaaS & Self-Managed - paid tiers; Product stage usage: SaaS & Self-Managed - paid tiers; Salesforce (account, opportunities, events, tasks); Zuora (billing); Bizible (marketing); Firmographics; ZenDesk (help tickets); prior expansion type (product change, seat licenses), amount, and time lapse; account health scores
    - Future sources: Buyer personas attached to opportunities
 
@@ -169,9 +174,9 @@ Maturity of data science projects is similar to the [GitLab product maturity mod
    - [Sales Leadership Readout - PtC for Sep 2022 - Mar 2023](https://docs.google.com/presentation/d/1waIKnjnL6lA1UKH-Fc2BYdOw6gtjiBKkmlyl6F8YFEw/edit#slide=id.g218452df868_0_1099)
    - [Churn Forecasting - July 2023](https://docs.google.com/presentation/d/1hiukpYHzopsTWH0CWnS_2uah9G2TLq_JOMojQz4mZao/edit#slide=id.g25880664535_2_278)
 - Dashboards (internal only):
-   - [PtC Inspector](https://app.periscopedata.com/app/gitlab:safe-dashboard/971581/PtC-Inspector)
-   - [PtC Results Dashboard](https://app.periscopedata.com/app/gitlab:safe-dashboard/1055609/PtC-Performance-Results)
-   - [Health of Ultimate Accounts Dashboard](https://app.periscopedata.com/app/gitlab:safe-dashboard/1098020/Health-of-Ultimate-Accounts)
+   - [PtC Inspector](https://10az.online.tableau.com/t/gitlab/views/PtCInspector/About)
+   - [PtC Results Dashboard](https://10az.online.tableau.com/#/site/gitlab/workbooks/2163169)
+   - [Health of Ultimate Accounts Dashboard](https://10az.online.tableau.com/#/site/gitlab/workbooks/2272458)
 - Data sources:  Product usage: SaaS & Self-Managed - paid tiers; Product stage usage: SaaS & Self-Managed - paid tiers; Salesforce (account, opportunities, events, tasks); Zuora (billing); Bizible (marketing); ZenDesk (help tickets); Firmographics, account health fields; security score
    - Future sources: # of answered emails, ratio sent/answered emails, sales activity (Gainsight)
 
@@ -185,8 +190,6 @@ Maturity of data science projects is similar to the [GitLab product maturity mod
 - Read-outs (internal only):
    - [SaaS Trials Model Readout](https://docs.google.com/presentation/d/1EyS9Wq6F0qlQwt5sj7x8VnSSGD1vIy3AcSpMGddZdbk/edit?usp=sharing)
    - [SaaS Free Namespaces Readout](https://docs.google.com/presentation/d/1UNfthItOOfT3L4v5PkZh4z4hVPKdCcn8aQg_raVflxg/edit#slide=id.g12e25a29994_0_0)
-- Dashboards (internal only):  
-   - [SaaS Trials Results Dashboard](https://app.periscopedata.com/app/gitlab:safe-dashboard/1056823/PtPT-Performance-Results)
 - Data sources: Product usage: SaaS Only - free tiers; Product stage usage and adoption: SaaS Only - Free Tiers; Registration; Namespace metadata; User-level
    - Future sources: Self-managed usage data
 
@@ -199,8 +202,12 @@ Maturity of data science projects is similar to the [GitLab product maturity mod
 - Repositories (internal only): [Namespace Segmentation](https://gitlab.com/gitlab-data/data-science-projects/namespace-segmentation)
 - Read-outs (internal only):  
    - [Namespace Segmentation Deck](https://docs.google.com/presentation/d/1Pmm0g1mUquBR6P_aguGkOiGBVqO1ZtDzIyRrbR-r9jA/edit#slide=id.g29a70c6c35_0_68)
-- Dashboards (internal only):
-   - [Namespace Segmentation Dashboard](https://app.periscopedata.com/app/gitlab:safe-dashboard/1081864/Namespace-Segmentation-(Paid-only))
+- Data sources: Product usage: SaaS & Self Managed - free and paid tiers; Product stage usage: SaaS & Self Managed - free and paid tiers; Salesforce (account); Zuora (billing); Bizible (marketing)
+   - Future sources: # of consecutive days of product/stage usage
+
+### Project Structure
+
+The Data Science Team follows [Cross-Industry standard process for data mining (CRISP-DM)](https://en.wikipedia.org/wiki/Cross-industry_standard_process_for_data_mining)
 - Data sources: Product usage: SaaS & Self Managed - free and paid tiers; Product stage usage: SaaS & Self Managed - free and paid tiers; Salesforce (account); Zuora (billing); Bizible (marketing)
    - Future sources: # of consecutive days of product/stage usage
 
@@ -243,25 +250,36 @@ The [Data Science Team approach to model development](/handbook/business-technol
 Our current platform consists of:
 - the [Enterprise Data Warehouse](/handbook/business-technology/data-team/platform/) for storing raw and normalized source data as well as final model output for consumption by downstream consumers
 - [JupyterLab](/handbook/business-technology/data-team/platform/jupyter-guide/) for model training, tuning, and selection
-- [GitLab](https://gitlab.com/) for collaboration, project versioning, and score code management, [experiment tracking](https://about.gitlab.com/handbook/engineering/development/incubation/mlops/ml_experiment_tracking.html), and [CI/CD](https://docs.gitlab.com/ee/ci/)
-- [Airflow](/handbook/business-technology/data-team/platform/infrastructure/#airflow) for automation and orchestration
-- Monte Carlo for drift detection
+- [GitLab](https://gitlab.com/) for collaboration, project versioning, and score code management, [experiment tracking](/handbook/engineering/development/incubation/mlops/ml_experiment_tracking.html), and [CI/CD](https://docs.gitlab.com/ee/ci/)
+-[GitLab CI](https://handbook.gitlab.com/handbook/business-technology/data-team/platform/ci-for-ds-pipelines/#our-approach-to-using-cicd-for-data-science) for automation and orchestration
+- [Monte Carlo](https://getmontecarlo.com/) for drift detection
 - Tableau Server for model monitoring and on-going performance evaluation
+- [Feast](https://docs.feast.dev/) as a an open-source Feature Store for Machine Learning models
+
+
+### Feast: Feature Store Implementation
+
+We are using Feast as an open-source Feature Store for our machine learning models.
+Configuration can be found on the Feast project repository, updating the feature store is done via GitLab CI/CD and the web UI is published in a VM on GCP.
+
+You can find more details on this implementation on the [Feast - Feature Store Implementation](https://internal.gitlab.com/handbook/enterprise-data/platform/data-science/) Internal handbook section.
+
+
 
 ### CI/CD Pipelines for Data Science
 
-We are in the process of fully moving over the training and scoring of our machine learning models to the native Gitlab CI/CD capabilities. Please see [Getting Started With CI/CD for Data Science Pipelines](/handbook/business-technology/data-team/platform/ci-for-ds-pipelines/) for the most up-to-date information and instructions.
+We are in the process of fully moving over the training and scoring of our machine learning models to the native GitLab CI/CD capabilities. Please see [Getting Started With CI/CD for Data Science Pipelines](/handbook/business-technology/data-team/platform/ci-for-ds-pipelines/) for the most up-to-date information and instructions.
 
 ### Current State Data Flows
 
 ```mermaid
 graph 
     A[Enterprise Data Warehouse: Raw and Normalized Data Sources]
-    B[JupyterLab & Gitlab CI/CD: Model Training, Tuning, and Selection]
-    C(Gitlab CI/CD & Pipeline Schedules: Batch scoring with Papermill)
+    B[JupyterLab & GitLab CI/CD: Model Training, Tuning, and Selection]
+    C(GitLab CI/CD & Pipeline Schedules: Batch scoring with Papermill)
     F[Enterprise Data Warehouse: Model Output for Consumption]
     D[Salesforce/Marketo: CRM Use Cases]
-    E[Sisense/Monte Carlo: Model Monitoring and Reporting]
+    E[Tableau/Monte Carlo: Model Monitoring and Reporting]
     G[GitLab: Source Code Management]
     H[Experiment tracking]
     A --> |ODBC| B
@@ -280,7 +298,7 @@ graph
 ### Data Science Tools at GitLab
 
 - **[Pre-configured JuypterLab Image](https://gitlab.com/gitlab-data/data-science)**: The data science team uses JupyterLab pre-configured with common python modules (pandas, numpy, etc.), native Snowflake connectivity, and git support. Working from a common framework allows us to create models and derive insights faster. This setup is freely available for anyone to use. Check out our [Jupyter Guide](/handbook/business-technology/data-team/platform/jupyter-guide/) for additional information.
-- **[Gitlab Data Science Tools for Python](https://gitlab.com/gitlab-data/gitlabds/)**: Functions to help automate common data prep (dummy coding, outlier detection, variable reduction, etc.) and modeling tasks (i.e. evaluating model performance). Install directly via [pypi](https://pypi.org/project/gitlabds/) (`pip install gitlabds`), or use as part of the above JupyterLab image.
+- **[GitLab Data Science Tools for Python](https://gitlab.com/gitlab-data/gitlabds/)**: Functions to help automate common data prep (dummy coding, outlier detection, variable reduction, etc.) and modeling tasks (i.e. evaluating model performance). Install directly via [pypi](https://pypi.org/project/gitlabds/) (`pip install gitlabds`), or use as part of the above JupyterLab image.
 - **[Modeling Templates](https://gitlab.com/gitlab-data/data-science/-/tree/main/templates)**: The data science team has created modeling templates to allow you to easily start building predictive models without writing python code from scratch. To enable these templates, follow the instructions on the [Jupyter Guide](/handbook/business-technology/data-team/platform/jupyter-guide/#enabling-jupyter-templates).
 
 ## Useful Data Science & Machine Learning Resources

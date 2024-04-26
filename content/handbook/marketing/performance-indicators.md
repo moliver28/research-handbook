@@ -10,7 +10,7 @@ In Q4, we will be working through deprecating many (but not all) of the marketin
 
 [Here is a link](https://docs.google.com/presentation/d/1_c9KutjGaIL9iUtnYAuF82D7pl2yL2RTUhkN_0N7FIE/edit?usp=sharing) to a GitLab confidential Marketing Key Review deck as an example of how these KPIs will be tracked monthly.
 
-{{< performance-indicators "marketing" >}}
+{{% performance-indicators "marketing" %}}
 
 ## Performance Indicators
 

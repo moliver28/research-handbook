@@ -22,10 +22,10 @@ GitLab Project: [Verify](https://gitlab.com/gitlab-org/verify-stage)
 
 Verify teams:
 
-- [Verify:Pipeline Execution](https://about.gitlab.com/handbook/engineering/development/ops/verify/pipeline-execution/)
-- [Verify:Pipeline Authoring](https://about.gitlab.com/handbook/engineering/development/ops/verify/pipeline-authoring/)
-- [Verify:Runner](https://about.gitlab.com/handbook/engineering/development/ops/verify/runner/)
-- [Verify:Pipeline Security](https://about.gitlab.com/handbook/engineering/development/ops/verify/pipeline-security/)
+- [Verify:Pipeline Execution](/handbook/engineering/development/ops/verify/pipeline-execution/)
+- [Verify:Pipeline Authoring](/handbook/engineering/development/ops/verify/pipeline-authoring/)
+- [Verify:Runner](/handbook/engineering/development/ops/verify/runner/)
+- [Verify:Pipeline Security](/handbook/engineering/development/ops/verify/pipeline-security/)
 
 ### What do y'all do?
 
@@ -45,7 +45,7 @@ The noted DRI still owns decision-making and is still responsible for notifying/
 | ------ | ------ |------ |------ |------ |------ |
 | Runner Core |runner|Development of features for the core runner code base for use by self-managed customers on various compute platforms and architectures (runner binary, docker images)|Runner PM - Darren Eastman|Runner EM - Nicole Williams|N/A|
 | Runners Fleet |RAILS|Development of features for the configuration, use and administration of runners in the GitLab UI.|Runner PM - Darren Eastman|Runner EM - Nicole Williams|tbd|
-| Runner SaaS |autoscaler|SaaS Runners (Linux, Windows, macOS) and internal GitLab runner fleet|Runner PM - Gabriel Engel|Runner EM - Nicole Williams| Infrastructure Mgr. - David Smith|
+| Runner SaaS |autoscaler|SaaS Runners (Linux, Windows, macOS) and internal GitLab Runner fleet|Runner PM - Gabriel Engel|Runner EM - Nicole Williams| Infrastructure Mgr. - David Smith|
 |Compute Minutes Management for SaaS runners|RAILS|Changes to compute minutes configuration for customers on GitLab SaaS in the scope of SaaS runners.|SaaS runners PM Gabriel Engel|Runner EM - Nicole Williams|N/A|
 |CI Pipeline Execution and Performance|RAILS|Features and capabilities for running or triggering a pipeline in the GitLab UI.|CI PM |CI EM - Cheryl Li|N/A|
 |CI/CD Queueing GitLab SaaS and Self-Managed|RAILS|CI jobs queueing architecture.| Pipeline Execution PM |Lead engineers: Kamil Trzciński , Grzegorz Bizon, Stan Hu|
@@ -119,6 +119,6 @@ More details to come
 We want to encourage and support our open source community as nuch as possible. We have two measures of success:
 
 1. Merged MRs from the community in the [Verify Stage](https://gitlab.com/groups/gitlab-org/-/merge_requests?scope=all&utf8=%E2%9C%93&state=merged&label_name[]=devops%3A%3Averify&label_name[]=Community%20contribution)
-1. [MRARR](https://about.gitlab.com/handbook/engineering/quality/performance-indicators/#mrarr)
+1. [MRARR](/handbook/engineering/quality/performance-indicators/#mrarr)
 
 Our process for enabling merge requests from the community can be found on the [Verify Team Page]().

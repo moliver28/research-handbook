@@ -9,7 +9,7 @@ status: active
 | Property            | Value             |
 |---------------------|-------------------|
 | Date Created        | 2022-06-29 |
-| End Date            | [Launch date of General Availability](https://about.gitlab.com/direction/saas-platforms/dedicated/#phase-9-general-availability) |
+| End Date            | 2023-06-15 |
 | Slack               | [#f_gitlab_dedicated](https://gitlab.slack.com/archives/C01S0QNSYJ2) for GitLab Dedicated questions (only accessible from within the company) |
 | Slack               | [#wg_dedicated_cross_functional](https://gitlab.slack.com/archives/C046P7F0N2J) for working group items (only accessible from within the company) |
 | Google Doc          | [Working Group Agenda](https://docs.google.com/document/d/1vuKnUwJYrSKAqu0kYtR503LQbuYM_VSD4_z90MR_cQU/edit) (only accessible from within the company) |
@@ -20,9 +20,9 @@ status: active
 - [GitLab Dedicated external webpage](https://about.gitlab.com/dedicated/)
 - [Product Category Direction](https://about.gitlab.com/direction/saas-platforms/dedicated/#limited-availability-roadmap)
     - [Limited Availability Roadmap](https://about.gitlab.com/direction/saas-platforms/dedicated/#limited-availability-roadmap)
-- [Engineering Team](https://about.gitlab.com/handbook/engineering/infrastructure/team/gitlab-dedicated/)
-    - [Project Management](https://about.gitlab.com/handbook/engineering/infrastructure/team/gitlab-dedicated/#project-management)
-- [Internal Handbook](https://about.gitlab.com/handbook/engineering/infrastructure/team/gitlab-dedicated/)
+- [Engineering Team](/handbook/engineering/infrastructure/team/gitlab-dedicated/)
+    - [Project Management](/handbook/engineering/infrastructure/team/gitlab-dedicated/#project-management)
+- [Internal Handbook](/handbook/engineering/infrastructure/team/gitlab-dedicated/)
 - [Top-Level Initiative Epic](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/479)(only accessible from within the company)
 - [Limited Availability Epic - main project epic](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/484)  (only accessible from within the company)
 - [Cross-Functional Limited Availability Requirements](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/866) (only accessible from within the company)
@@ -41,14 +41,14 @@ The exit criteria for GitLab Dedicated Top Cross-Functional Initiative are the s
 
 ### How We Work
 
-The GitLab Dedicated Initiative Working Group follows the [same processes as the GitLab Dedicated Engineering team](https://about.gitlab.com/handbook/engineering/infrastructure/team/gitlab-dedicated/#how-we-work) from the Dedicated Engineering team page. This includes:
-- [Epic management](https://about.gitlab.com/handbook/engineering/infrastructure/team/gitlab-dedicated/#epic-hierarchy)
-- [Status updates](https://about.gitlab.com/handbook/engineering/infrastructure/team/gitlab-dedicated/#status-updates)
-- [Labels and usage](https://about.gitlab.com/handbook/engineering/infrastructure/team/gitlab-dedicated/#labels)
+The GitLab Dedicated Initiative Working Group follows the [same processes as the GitLab Dedicated Engineering team](/handbook/engineering/infrastructure/team/gitlab-dedicated/#how-we-work) from the Dedicated Engineering team page. This includes:
+- [Epic management](/handbook/engineering/infrastructure/team/gitlab-dedicated/#epic-hierarchy)
+- [Status updates](/handbook/engineering/infrastructure/team/gitlab-dedicated/#status-updates)
+- [Labels and usage](/handbook/engineering/infrastructure/team/gitlab-dedicated/#labels)
 
 ### Epic Management
 
-See [epic management and hierarchy on Dedicated Team Page](https://about.gitlab.com/handbook/engineering/infrastructure/team/gitlab-dedicated/#epic-hierarchy).
+See [epic management and hierarchy on Dedicated Team Page](/handbook/engineering/infrastructure/team/gitlab-dedicated/#epic-hierarchy).
 
 The [Cross-Functional LA Requirements epic](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/866) is a child epic of the GitLab Dedicated [Top Level epic](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/479). This cross-functional epic is comprised of function-specific child epics managed by the DRI for that functional area. These functional child epics have sub-epics and/or issues representing groups of related tasks that are delivered in a specific phase from [Limited Availability Roadmap](https://about.gitlab.com/direction/saas-platforms/dedicated/#limited-availability-roadmap).
 
@@ -74,9 +74,9 @@ Milestones for functional work from the [Cross-Functional LA Requirements epic](
 
 ## Status Updates
 
-The GitLab Dedicated Initiative Working Group follows the [status update process](https://about.gitlab.com/handbook/engineering/infrastructure/team/gitlab-dedicated/#status-updates) from Dedicated Engineering team page. The status updates that Functional DRIs make in their respective Functional Epics will incorporated in the [status update cadence](https://about.gitlab.com/handbook/engineering/infrastructure/team/gitlab-dedicated/#status-updates) and used to update the status of the [Cross-Functional epic](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/866) and the [Top-Level Initiative Epic](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/479).
+The GitLab Dedicated Initiative Working Group follows the [status update process](/handbook/engineering/infrastructure/team/gitlab-dedicated/#status-updates) from Dedicated Engineering team page. The status updates that Functional DRIs make in their respective Functional Epics will incorporated in the [status update cadence](/handbook/engineering/infrastructure/team/gitlab-dedicated/#status-updates) and used to update the status of the [Cross-Functional epic](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/866) and the [Top-Level Initiative Epic](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/479).
 
-In addition to the [status process from Dedicated team page](https://about.gitlab.com/handbook/engineering/infrastructure/team/gitlab-dedicated/#status-updates), the Dedicated initiative has additional status update requirements as a [Top Cross-Functional initiative](/top-cross-functional-initiatives/) that the Initiative DRI is responsible for:
+In addition to the [status process from Dedicated team page](/handbook/engineering/infrastructure/team/gitlab-dedicated/#status-updates), the Dedicated initiative has additional status update requirements as a [Top Cross-Functional initiative](/top-cross-functional-initiatives/) that the Initiative DRI is responsible for:
 
 - Key Reviews
 - Top Initiative Quarterly Meeting
@@ -99,7 +99,7 @@ In addition to the [status process from Dedicated team page](https://about.gitla
 
 1. **Exec Sponsor**: David DeSanto - Chief Product Officer
 1. **Initiative DRI**: Ryan Wedmore - Director, Strategy & Operations
-    - [Working Group DRI responsibilities](/handbook/company/team/structure/working-groups/#required-roles) and [Cross Functional Initiative DRI responsibilities](/handbook/company/top-cross-functional-initiatives/#cross-functional-initiative-dris)
+    - [Working Group DRI responsibilities](/handbook/company/working-groups/#required-roles) and [Cross Functional Initiative DRI responsibilities](/handbook/company/top-cross-functional-initiatives/#cross-functional-initiative-dris)
     - DRI for cross-functional initiative strategy, collaboration, and work streams
 1. **Engineering DRI**: Marin Jankovski - Director of Infrastructure, Platforms
     - Overall DRI for Engineering, Infrastructure, and Engineering Strategy
@@ -124,13 +124,13 @@ Below are the functional areas involved in this Cross-Functional Initiative as w
 | Member                                  | Josh Lambert       | Director of Product, Enablement                  |
 | Member                                  | Jake Bielecki      | VP, Sales Strategy & Analytics                   |
 
-Functional DRIs are also mentioned at the top of the description of their function's child epics in the [Cross-Functional LA Requirements epic](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/866) per [epic structure](https://about.gitlab.com/handbook/engineering/infrastructure/team/gitlab-dedicated/#epic-structure).
+Functional DRIs are also mentioned at the top of the description of their function's child epics in the [Cross-Functional LA Requirements epic](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/866) per [epic structure](/handbook/engineering/infrastructure/team/gitlab-dedicated/#epic-structure).
 
 ### Function DRI Responsibilities
 
-Please see [Functional Lead on Working Group page]({{< ref "working-groups#required-roles" >}}).
+Please see [Functional Lead on Working Group page](/handbook/company/working-groups#required-roles).
 
-Functional DRIs are responsible for maintaining their function's epics by following process mentioned in [Epic Owner Responsibilities](https://about.gitlab.com/handbook/engineering/infrastructure/team/gitlab-dedicated/#epic-owner-responsibilities) and [Epic Structure](https://about.gitlab.com/handbook/engineering/infrastructure/team/gitlab-dedicated/#epic-structure).
+Functional DRIs are responsible for maintaining their function's epics by following process mentioned in [Epic Owner Responsibilities](/handbook/engineering/infrastructure/team/gitlab-dedicated/#epic-owner-responsibilities) and [Epic Structure](/handbook/engineering/infrastructure/team/gitlab-dedicated/#epic-structure).
 
 ### Dedicated Team DRIs
 

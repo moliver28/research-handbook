@@ -13,7 +13,7 @@ description: "Integrated Marketing at GitLab"
 
 
 # Integrated Marketing
-{: #overview .gitlab-purple}
+
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
 ### Team Mission Statement 
@@ -41,22 +41,19 @@ We are tightly connected and operate as one respectful, supportive and collabora
 We are innovative, strategic, and data-driven, delivering a cohesive high quality marketing motion that aligns across our joint stakeholder goals.
 
 ## Teams (what we do)
-{: #teams .gitlab-purple}
+
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
-### Regional Marketing
+## Digital Experience 
+ [Digital Experience](/handbook/marketing/digital-experience/): Responsible for creating customer-centric approach to educating prospects on how GitLab enables them to deliver software faster and more securely on the marketing site. 
 
-#### Field Marketing
-
-[Field Marketing](/handbook/marketing/field-marketing/): Be the feet on the street, creating local and regional experiences, learning and evangelism in close partnership with Sales.
-
-#### Channel Marketing 
-
-[Channel](/handbook/marketing/channel-marketing/): Exponentially grow GitLab’s reach through the ecosystem to build awareness and generate demand. 
-
-### Corporate Events
+## Corporate Events
 
 [Corporate Events](/handbook/marketing/integrated-marketing/corporate-events/): Create experiences through 1st and 3rd party events to bring awareness to the GitLab story and build our presence with key audiences.
+
+## Digital Strategy
+
+[Digital Strategy](/handbook/marketing/integrated-marketing/digital-strategy/): Leverage paid and owned media tactics to foster awareness, generate leads and reach audiences where they engage. 
 
 ### Account Based Marketing (ABM)
 
@@ -70,27 +67,29 @@ We are innovative, strategic, and data-driven, delivering a cohesive high qualit
 
 [Lifecycle Marketing](/handbook/marketing/lifecycle-marketing/): Engage, nurture and convert customers across the customer journey. 
 
-### Digital Strategy
+## Regional Marketing
 
-[Digital Strategy](/handbook/marketing/integrated-marketing/digital-strategy/): Leverage paid and owned media tactics to foster awareness, generate leads and reach audiences where they engage. 
+#### Field Marketing
 
-#### Social Marketing
+[Field Marketing](/handbook/marketing/field-marketing/): Be the feet on the street, creating local and regional experiences, learning and evangelism in close partnership with Sales.
 
-[Social Marketing](/handbook/marketing/integrated-marketing/digital-strategy/social-marketing/): The social marketing team is responsible for the stewardship of the GitLab brand social channels. 
+#### Channel Marketing 
+
+[Channel](/handbook/marketing/channel-marketing/): Exponentially grow GitLab’s reach through the ecosystem to build awareness and generate demand. 
 
 ## OKRs/Goal/Plan (how we impact)
 
 Integrated Marketing OKRs cascade from CMO OKRs
 
-[FY24 IM strategy](https://docs.google.com/presentation/d/1vzIYexQ2rnU-wglyC7uaLcQ1v3zLzxSCn6pianJxw2E/edit#slide=id.g1ae252b3905_0_0) 
+[FY25 IM strategy](https://docs.google.com/presentation/d/1Fo1NfRZip39-PoMbMQE5_y6r-YW9gm5KF-HX4rZxBjA/edit#slide=id.g26666ea2657_0_0) 
 
 ## How to Communicate with integrated Marketing
-{: #communication .gitlab-purple}
+
 <!-- DO NOT CHANGE THIS ANCHOR -->
 You can find us on Slack in the [#marketing_integratedmarketing](https://gitlab.slack.com/archives/C03HJQW0DLZ) channel.
 
 ## Cadence of meetings within Integrated Marketing
-{: #meetings .gitlab-purple}
+
 <!-- DO NOT CHANGE THIS ANCHOR --> 
 We value our asynch value and believe that people truly need time to think and process. The Integrated Marketing team, like all GitLab team members, should feel empowered to decline meetings based on the agenda topics. 
 
@@ -105,11 +104,11 @@ Each month, Integrated Marketing meets with regional Sales Leadership to discuss
 [See this doc for details on consistently pulling metrics for Monthly Regional Readouts (GitLab Internal)](https://docs.google.com/document/d/1PcsPa8zRSY3A0sIocWBuukfC8LoUus-yUZoWc6ZYNck/edit#)
 
 ## Cross-functional team processes
-{: #team-processes .gitlab-purple}
+
 <!-- DO NOT CHANGE THIS ANCHOR --> 
 
 ### Publisher Programs
-{: #publisher-programs .gitlab-purple}
+
 <!-- DO NOT CHANGE THIS ANCHOR -->  
 Due to the fact that teams outside of the digital marketing team are only allowed to run three paid social campaigns a month, we would not want to use one of our three slots for the month to run a publisher program with a publication that we already have relationship with. This is for two reasons: 1. To work with our 3rd party ad agency, there is 12-15% fee that is based off the ad spend of the publisher engagement to accommodate their services and reporting 2. because we do not want to take the place of a paid social campaign. Should we go down the route of wanting to work with a publisher, then the team member should collaborate by tagging the Campaign Manager & Digital team manager who you normally work with in the campaign issue. By tagging this team in your issue, the Campaign Manager & Digital team member will be able to ensure the publisher engagement does not conflict with existing activities running.
 

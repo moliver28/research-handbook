@@ -9,7 +9,7 @@ category: GitLab.com
 
 **NOTE:** If you are a GitLab team member who wants to file an internal request, please see the [Support Internal Requests handbook page](/handbook/support/internal-support/).
 
-**NOTE:** For internal requests relating to licenses and subscriptions, please refer to the [relevant license and subscription workflow](/handbook/support/license-and-renewals/workflows/), or [CustomersDot console workflow](/handbook/support/license-and-renewals/workflows/customersdot/customer_console.html).
+**NOTE:** For internal requests relating to licenses and subscriptions, please refer to the [relevant license and subscription workflow](/handbook/support/license-and-renewals/workflows/), or [CustomersDot console workflow](/handbook/support/license-and-renewals/workflows/customersdot/customer_console/).
 
 ## Overview
 
@@ -30,7 +30,7 @@ You may want to consider subscribing to [Platform::SaaS](https://gitlab.com/gitl
 
 By subscribing to the labels, you'll receive notifications on when a request is created. You should try to work them into your regular workflow, ensuring that you are assigning it to yourself like a customer ticket if you decide to take it.
 
-If you are interested in servicing internal requests that require console access, consider speaking with your manager about completing the [Gitlab.com Console module](https://gitlab.com/gitlab-com/support/support-training/-/blob/main/.gitlab/issue_templates/GitLab-com%20Console.md).
+If you are interested in servicing internal requests that require console access, consider speaking with your manager about completing the [GitLab.com Console module](https://gitlab.com/gitlab-com/support/support-training/-/blob/main/.gitlab/issue_templates/GitLab-com%20Console.md).
 
 ## General Workflow
 
@@ -84,7 +84,7 @@ At times, users require an increase to the size limit of their repository as a w
 1. If a request is a workaround to a bug issue:
     - Use current size + small buffer (2-5 GB) for the exception size.
     - Set a due date for reverting, up to 1 week from current date.
-    - If a longer exception time is required, add the `Manager Approval::Required` label, and post in the `#spt_managers` channel to request approval.
+    - If a longer exception time is required, add the `Manager Approval::Required` label, and post in the `#support_leadership` channel to request approval.
     - Make sure to comment on (or create) a bug issue to help future users and prevent further tickets.
 1. Apply the `Status::On Hold` label and set the due date to when it should be reverted.
 1. Using your GitLab.com admin account navigate to the project in question while appending **/edit** to the URL. For example, if the project in question is located at **<https://gitlab.com/group/subgroup/project/>** you would navigate to **<https://gitlab.com/group/subgroup/project/edit>**.

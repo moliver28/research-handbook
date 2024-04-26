@@ -1,0 +1,131 @@
+teams:
+- name: create-source-code-be
+  url: /handbook/engineering/development/dev/create/source-code-be/
+  manager_slug: michellegill
+  slack_channel: g_create_source_code
+  engagement_policy: # Link to doc that talks about engagement
+                     # and escalation policy
+  oncall_schedule:   # Link to pagerduty oncall schedule
+- name: distribution
+  url: /handbook/engineering/infrastructure/core-platform/systems/distribution/
+  manager_slug: marin
+  slack_channel: distribution
+  engagement_policy: # Link to doc that talks about engagement
+                     # and escalation policy
+  oncall_schedule:   # Link to pagerduty oncall schedule
+- name: geo
+  url: /handbook/engineering/infrastructure/core-platform/systems/geo/
+  manager_slug: geo-mgr
+  slack_channel: g_geo
+  engagement_policy: # Link to doc that talks about engagement
+                     # and escalation policy
+  oncall_schedule:   # Link to pagerduty oncall schedule
+- name: gitaly
+  url: /handbook/engineering/dev-backend/gitaly/
+  manager_slug: eng-manager-gitaly
+  slack_channel: g_gitaly
+  engagement_policy: # Link to doc that talks about engagement
+                     # and escalation policy
+  oncall_schedule:   # Link to pagerduty oncall schedule
+- name: manage
+  url: /handbook/engineering/dev-backend/manage/
+  manager_slug: ruben-d
+  slack_channel: g_manage
+  engagement_policy: # Link to doc that talks about engagement
+                     # and escalation policy
+  oncall_schedule:   # Link to pagerduty oncall schedule
+- name: plan-project-management-be
+  url: /handbook/engineering/development/dev/plan-project-management/
+  manager_slug: sean-m
+  slack_channel: g_plan
+  engagement_policy: # Link to doc that talks about engagement
+                     # and escalation policy
+  oncall_schedule:   # Link to pagerduty oncall schedule
+
+tiers:
+- name: sv
+- name: lb
+- name: stor
+- name: db
+
+services:
+- name: api
+  tier: sv
+  teams:
+    - create
+    - distribution
+    - geo
+    - gitaly
+    - manage
+    - plan
+  label: Service:API
+  business:
+    requirement:       # Business requirement of the service (text or paragraph)
+    customers:         # List of customers
+    business_value:    # Text/paragraph containing info on what
+                       # business value it brings
+    SLA:
+      availability:    # Availability SLA promised to customers
+      response_time:   # Response time for inquiries or issues
+                       # relating this service
+  technical:
+    project:           # GitLab project link
+    criticality:       3
+                       # If this service goes down, what criticality
+                       # of impact is this? (1, 2, 3...etc)
+    slx:               # Link to SLX document (SLOs, SLIs)
+    documents:
+      design:          # Link to the design doc
+      architecture:    # Link to the architecture doc
+      service:         # This is the README.md of the service unless
+                       # a separate doc exists
+      security:        # Link to security related document, if available,
+                       # that talks about how the service ensures security
+                       # (encryption, rotation...etc)
+    dependencies:
+      - service:       # Existing service name from the catalog that
+                       # it directly depends on
+    configurations:    # A service might have one or more configs
+      - config_name:   # Config file name
+        location:      # Location of the config file
+    chef_roles:        # List of Chef roles for this service
+    scalability:
+      bound:           # cpu or memory or network or...
+      scalable:        # horizontal or vertical
+    security:
+      security_reviewed: # If security team reviewed the service (yes or no or n/a)
+      data_classification: # What level of data does this service handle?
+      security_incidents:  # Link to (past/present) security incidents
+    logging:
+      - name: Rails
+        permalink: https://log.gprd.gitlab.net/goto/0238ddb1480bb4bd19c09f0467b6e684
+      - name: Workhorse
+        permalink: https://log.gprd.gitlab.net/goto/eb99f28c17cfcdfd30969a1c85e209dc
+      - name: Unicorn
+        permalink: https://log.gprd.gitlab.net/goto/c8f89b2415788b46978fcd2910b4afec
+      - name: nginx
+        permalink: https://log.gprd.gitlab.net/goto/0d1c84486d6fb28a785f1c21473e5611
+      - name: Unstructured Rails
+        permalink: https://console.cloud.google.com/logs/viewer?project=gitlab-production&interval=PT1H&resource=gce_instance&advancedFilter=jsonPayload.hostname%3A%22api%22%0Alabels.tag%3D%22unstructured.production%22&customFacets=labels.%22compute.googleapis.com%2Fresource_name%22
+      - name: system
+        permalink: https://log.gprd.gitlab.net/goto/2b9679dab019791136cb8ae1535fb781
+  infrastructure:
+    provider:          # azure, do, aws, gcp
+    architecture:      # Link to infra architecture diagram for this service
+    provisioning:      # terraform
+    accesses:
+      - account_name:  # User or system account that has access to the service
+                       # components in the infra provider
+        access_type:   # Level of access
+        reviewed:      # Is it reviewed and approved?
+  operations:
+    maintenance:       # Link to maintenance procedures document
+    runbooks:          # Link to runbooks for this service
+    playbooks:         # Link to playbooks for this service
+    error_budget:      # Link to error budget document for this service
+  observability:
+    monitors:
+      primary_grafana_dashboard: "OktWokpik/workhorse-overview?var-type=api"
+      sentry_slug: "gitlab/gitlabcom/?query=program%3A%22rails%22"
+    alert_label:       type=api
+                       # The `type=` alert label for the service

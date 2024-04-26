@@ -1,6 +1,6 @@
 ---
 title: "Leaders at Contribute"
-description: "Company leaders who attend Gitlab Contribute should take the opportunity to engage with GitLab team-members across the organization."
+description: "Company leaders who attend GitLab Contribute should take the opportunity to engage with GitLab team-members across the organization."
 ---
 
 {{< youtube "39chczWRKws?start=1756" >}}
@@ -9,7 +9,7 @@ description: "Company leaders who attend Gitlab Contribute should take the oppor
 For the context of this video, please see the [project challenges in the Greece recap](https://about.gitlab.com/blog/2017/10/25/gitlab-summit-greece-recap/#summit-challenges)
 </small>
 
-[Company leaders]({{< ref "/handbook/leadership" >}}) who attend Gitlab Contribute should take the opportunity to engage with GitLab team-members across the organization and should be mindful of silos and favoritism as they observe team dynamics.
+[Company leaders](/handbook/leadership) who attend GitLab Contribute should take the opportunity to engage with GitLab team-members across the organization and should be mindful of silos and favoritism as they observe team dynamics.
 
 ### Be conscious
 

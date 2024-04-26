@@ -4,7 +4,7 @@ title: "Dev Career Framework"
 
 ## Dev Career Framework
 
-{{% include "includes/engineering/dev-career-matrix-nav.md" %}}
+{{% include "includes/engineering-careers/dev-career-matrix-nav.md" %}}
 
 These are the expected competencies of the Dev Sub Department team members at GitLab by Job Title.
  

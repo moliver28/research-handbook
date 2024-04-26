@@ -16,7 +16,7 @@ description: "This page outlines our usage statistics and SFDC instance informat
 
 Using [GitLab Version Check](/handbook/sales/process/version-check/), GitLab usage data is pushed into Salesforce for both CE, EE and EE trial users.
 Once in Salesforce application, you will see a tab called "Usage Statistics".
-Using the drop down view, you can select CE, EE trails or EE to see all usage data sent to Gitlab.
+Using the drop down view, you can select CE, EE trails or EE to see all usage data sent to GitLab.
 Since version check is pulling the host name, the lead will be recorded as the host name.  Once you have identified the correct company name, please update the company name.
 Example: change gitlab.boeing.com to Boeing as the company name.
 

@@ -28,7 +28,7 @@ GitLab has switched to an outbound-only talent acquisition model in an effort to
 - Create a list of 25 GitLab team members who want to volunteer as GitLab coaches ✅
 - Find 10 vendors to reach out to (based on our parameters: locality diverse/contributing to enlarging tech talent pool upstream etc.). And narrow down to 3 vendors to collaborate with ✅
 - Establish a collaboration with 3 vendors and matching at least 15 GitLab coaches to the curriculum ✏️
-Matching efforts will continue [here](https://about.gitlab.com/handbook/engineering/volunteer-coaches-for-urgs/)
+Matching efforts will continue [here](/handbook/engineering/volunteer-coaches-for-urgs/)
 - Align and contribute to our existing outreach programs, example: [GitLab for Startups](https://about.gitlab.com/solutions/startups/) and [GitLab Open Source](https://about.gitlab.com/solutions/open-source/) and make a proposal for an initiative that contributes to our knowledge sharing goal. For example free licenses for high school students interested in tech/ people switching careers. ✅
 
 ### Infrastructure => 100%

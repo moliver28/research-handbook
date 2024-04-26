@@ -33,7 +33,7 @@ description: "Library of technical content created by the Technical Marketing te
 [Configure GitLab CI/CD with the Pipeline editor](https://www.brighttalk.com/webcast/17523/528544?utm_source=brighttalk-portal&utm_medium=web&utm_campaign=channel-page&utm_content=recorded) - Feb 16 2022 (28 mins)
 
 [GitLab CI Overview](https://www.brighttalk.com/channel/17523/#:~:text=GitLab%20CI%20Overview%20Demo%20and%20Live%20Q%26A) - Feb 09 2022 (25 mins)
-[Configure Gitlab CI/CD with the Pipeline Editor](https://www.brighttalk.com/webcast/17523/524762?utm_source=brighttalk-portal&utm_medium=web&utm_campaign=channel-page&utm_content=recorded) - Jan 19 2022 (25 mins)
+[Configure GitLab CI/CD with the Pipeline Editor](https://www.brighttalk.com/webcast/17523/524762?utm_source=brighttalk-portal&utm_medium=web&utm_campaign=channel-page&utm_content=recorded) - Jan 19 2022 (25 mins)
 
 [Introduction to Continuous Delivery](https://www.brighttalk.com/webcast/17523/525591?utm_source=brighttalk-portal&utm_medium=web&utm_campaign=channel-page&utm_content=recorded) - Jan 12 2022 (25 mins)
 
@@ -108,14 +108,14 @@ In praise of developer experimentation - (Planned Q2)
 
 [How Comet can streamline machine learning on The GitLab DevOps Platform](https://about.gitlab.com/blog/2021/11/08/machine-learning-on-the-gitlab-devops-platform/) - Nov 8, 2021 
 
-[Create and Deploy Custom Actions Containers to Rasa X using Gitlab DevOps Platform](https://about.gitlab.com/blog/2021/04/06/custom-actions-rasa-gitlab-devops/) - Apr 6, 2021 
+[Create and Deploy Custom Actions Containers to Rasa X using GitLab DevOps Platform](https://about.gitlab.com/blog/2021/04/06/custom-actions-rasa-gitlab-devops/) - Apr 6, 2021 
 
 [Version control and collaborating for product development management](https://about.gitlab.com/blog/2020/10/02/product-development-management/) - 
 Oct 2, 2020 
 
 [Distributed Version Control & Collaboration](https://about.gitlab.com/blog/2020/10/02/distributed-version-control/) - Oct 2, 2020 
 
-[Using Gitlab APIs: Real Use Case Scenario](https://about.gitlab.com/blog/2020/01/22/gitlab-apis-ci/) - Jan 22, 2020 )
+[Using GitLab APIs: Real Use Case Scenario](https://about.gitlab.com/blog/2020/01/22/gitlab-apis-ci/) - Jan 22, 2020 )
 
 
 #### Author - [Fernando Diaz](/handbook/company/team/#fjdiaz)
@@ -157,7 +157,7 @@ GitLab Technical Marketing Demo Resources - (Planned Q2)
 
 [GitLab and Jira integration: the final steps](https://about.gitlab.com/blog/2021/05/24/gitlab-and-jira-integration-the-final-steps/) - May 24, 2021 
 
-[How to achieve a Gitlab Jira integration](https://about.gitlab.com/blog/2021/04/12/gitlab-jira-integration-selfmanaged/) - Apr 12, 2021 
+[How to achieve a GitLab Jira integration](https://about.gitlab.com/blog/2021/04/12/gitlab-jira-integration-selfmanaged/) - Apr 12, 2021 
 
 [How to integrate GitLab.com with Jira Cloud](https://about.gitlab.com/blog/2021/03/25/integrating-gitlab-com-with-atlassian-jira-cloud/) - Mar 25, 2021 
 
@@ -450,7 +450,7 @@ GitLab 14.7
 
 #### GitLab 13.5 and Previous
 
-Available by searching GitLab's [YouTube Channel](https://www.youtube.com/c/Gitlab/playlists)
+Available by searching GitLab's [YouTube Channel](https://www.youtube.com/c/gitlab/playlists)
 
 ### Technical Papers
 

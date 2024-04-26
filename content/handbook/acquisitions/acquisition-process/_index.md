@@ -56,9 +56,10 @@ The process is comprised of five key stages:
 ### Early Diligence
 
 1. Select [code name](#acquisitions-are-confidential) to use instead of target company name. Update Slack channel: `#project-code_name`.
+   1. Corporate Development Deal Process Manager to create a dedicated Project for cross-functional collaboration and issue tracking. Make a copy and rename the [New Project Diligence Template](https://gitlab.com/GL-corp-dev/Project-Diligence-Template/test-template) to get started.  
 1. [Form the acquisition team](#acquisition-team) and add the entire team to the channel and documents.
 +1. Confirm internal acquisition champion - every acquisition needs a lead champion; someone who is advocating for the acquisition, helping drive the acquisition rationale and a successful integration process. For most acquisitions that fit our [approach](/handbook/acquisitions/), the champion will be a Product Section lead, at the Director+ level, accompanied by an engineering champion from the GitLab's Engineering team, at the Director+ level, respectively. For other acquisitions, champions may come from other internal functions.
-1. Create a dedicated technical diligence Slack channel `#project code_name-technical-diligence`. This channel will be the main channel for communication on technical topics with GitLab's development team.
+1. Create a dedicated technical diligence Slack channel `#p-code_name-technical-diligence`. This channel will be the main channel for communication on technical topics with GitLab's development team.
 1. Preliminary diligence - below is a list of documents to share with GitLab:
     1. Financials:
         1. Cap table
@@ -98,7 +99,7 @@ The process is comprised of five key stages:
             - Results of security reviews the entity has performed over it's current vendors
 1. Early technical diligence:
     1. In case the target company has open source components, the respective Dir. Engineering (dependent on GitLab stage) will start an early code review to determine: code quality, development practices, contributions, license compliance and more. That should be turned around within 2-3 business days.
-        1. The Corporate Development deal lead will create a new document (`Project [code-name] - Technical Diligence`) for the Technical Call meeting notes, separate from the main acquisition document. Future diligence findings, and all other technical diligence related note-taking of meetings (external and internal), which are engineering-centric should be recorded in this Technical Diligence document, a separate and internal Google Doc from the main acquisition document. The Technical Diligence document will be bookmarked to the Slack channel topic of `#code_name-technical-diligence`
+        1. The Corporate Development Deal Process Manager will create a new document (`Project [code-name] - Technical Diligence`) for the Technical Call meeting notes, separate from the main acquisition document. Future diligence findings, and all other technical diligence related note-taking of meetings (external and internal), which are engineering-centric should be recorded in this Technical Diligence document, a separate and internal Google Doc from the main acquisition document. The Technical Diligence document will be bookmarked to the Slack channel topic of `#p-code_name-technical-diligence`
 
     1. Technical call: a hands-on product and code screen-share session (2 hours) in which the technical lead, as assigned by the respective Engineering champion, together with the respective Product champion will lead a screen-share session aimed at a hands-on validation of the product functionalities and an overview of the code. The objectives and agenda for the call are:
         1. Objectives:
@@ -112,12 +113,14 @@ The process is comprised of five key stages:
             1. Review the code repositories and practices
             1. Start discussing the technical aspects of a potential path for the integration
         1. Internal notes of the call should be recorded in the Technical Evaluation Google Doc
-    1. Founder technical interviews - founders will go through two rounds of interviews to assess technical and cultural alignment.
-1. Resume review - Review of all employee resumes
-    1. Set your own LinkedIn profile to [private mode viewing](https://www.linkedin.com/help/linkedin/answer/a564182/private-mode-viewers-of-profiles?lang=en) when reviewing target employee profiles. Private mode viewing will prevent target employees from being alerted to GitLab's examination of their LinkedIn profiles.
-1. Compensation review to identify any gaps and possible flags led by the HR Business Partner
-1. Optional interviews for the key technical employees - to increase the success rate of the deal post-Term Sheet, we recommend conducting interviews for the key technical employees identified before signing the Term Sheet. This will greatly reduce the likelihood of personnel gaps becoming a blocker during the Confirmatory Due Diligence stage. The interviews will include a technical interview and a manager interview as detailed in the Confirmatory Due Diligence stage below. The Corporate Development deal lead will engage with People Operations to coordinate interviews and follow the [talent acquisition process framework for acquisitions](/handbook/hiring/talent-acquisition-framework/acquisitions/)
-    1. The key technical employees are those identified as critical to the success of the acquisition, the proposed integration plan and the future of the team at GitLab post integration.
+1. Early People-Ops review
+    1. The Corporate Development Deal Process Manager will create a new Slack channel topic of `#p-code_name-people` and include the People-ops Champion (VP of People-Ops) and a Talent Acquisition Lead. The People-ops Champion may request that the Corporate Development Champion and Process Manager bring in designated People-ops team-members as needed.  
+        1. Resume review - Review of all employee resumes
+            1. Set your own LinkedIn profile to [private mode viewing](https://www.linkedin.com/help/linkedin/answer/a564182/private-mode-viewers-of-profiles?lang=en) when reviewing target employee profiles. Private mode viewing will prevent target employees from being alerted to GitLab's examination of their LinkedIn profiles.
+        1. Compensation review - to identify any gaps and possible flags led by the HR Business Partner
+        1. Founder technical interviews - founders will go through two rounds of interviews to assess technical and cultural alignment.
+        1. Optional interviews for the key technical employees - to increase the success rate of the deal post-Term Sheet, we recommend conducting interviews for the key technical employees identified before signing the Term Sheet. This will greatly reduce the likelihood of personnel gaps becoming a blocker during the Confirmatory Due Diligence stage. The interviews will include a technical interview and a manager interview as detailed in the Confirmatory Due Diligence stage below. The Corporate Development Deal Process Manager will engage with People Operations to coordinate interviews and follow the [talent acquisition process framework for acquisitions](/handbook/hiring/talent-acquisition-framework/acquisitions/)
+            1. The key technical employees are those identified as critical to the success of the acquisition, the proposed integration plan and the future of the team at GitLab post integration.
 1. An Application Security Review performed by GitLab's Application Security Team
     1. Identifies application vulnerabilities that need to be considered by GitLab by applying a threat modeling approach to conduct the review
 1. Integration - a key component of post-transaction integration is the product integration strategy: prior to closing of the transaction, the GitLab product and engineering acquisition champions will formalize the integration strategy with a focus on feature sets/functionalities:
@@ -163,7 +166,8 @@ The process is comprised of five key stages:
     1. Key employees who were interviewed during the Early Diligence stage may go through further interview rounds as determined by the GitLab team to qualify for a role at GitLab
     1. All employees must identify an open vacancy at GitLab which they think best matches their professional profile. This will be shared in a spreadsheet gathered by the target's CEO.
 1. The acquisition lead will create an engagement debrief and lessons learned document and share it with the team for on-demand capturing of insights.
-1. Complete [Technical diligence](acquisition-process-technical-diligence/)
+1. Document who is read-in on the project and work with GitLab Legal to circulate a Read-in Acknowledgement form to sign and return.
+1. Complete [Technical diligence](https://internal.gitlab.com/handbook/corporate-development/acquisition-process-technical-diligence/)
 1. Complete financial diligence
 1. Legal diligence - Once both the technical and the financial diligence have been completed and signed off by the Engineering champion and Finance acquisition team member, respectively, the acquisition lead will contact legal to start the legal diligence. Legal will tag the relevant owners for each of the diligence tasks in the (template diligence table (see Corp Dev shared drive - GitLab internal-only) in the main acquisition doc.
 1. The progress of the diligence will be synced on a regular stand-up call with the acquisition team
@@ -204,7 +208,8 @@ The integration process is outlined in our [acquisition integration page](/handb
 
 The primary acquisition team is designed as a compact unit, and will consist of the following GitLab functional team members:
 
-1. Corporate Development Champion - acquisition lead
+1. Corporate Development Champion - VP of Corporate Development
+    1. Corp. Dev. Manager
 1. Product Champion - [Product Section Leader](/handbook/product/product-leadership/#general-product-organizational-structure) (reporting to the Chief Product Officer)
    1. Product Manager
 1. Engineering Champion - Dir. Engineering
@@ -269,7 +274,6 @@ Each quarter the Corporate Development team defines a set of [three categories](
 Although we have our quarterly focus areas, we are open to discussing and potentially pursuing an opportunity outside of those focus areas. For us to look into an opportunity outside of our quarterly focus areas, it needs to satisfy one, or more, of the following criteria:
 1. Present an outsized revenue potential
 1. Serve as a strategic move (market dynamics etc.)
-1. Fit our [soft-landing framework](/handbook/acquisitions/#acquisition-approach)
 
 Every opportunity we explore is constantly evaluated against our prioritization as well as our bandwidth (including active engagements).
 

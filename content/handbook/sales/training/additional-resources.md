@@ -400,13 +400,13 @@ The introductory email sets the tone for the relationship. Before you reach out,
 
 {: #art}
 
-High-value questions bring value to the conversation and creates a learning experience for you and your prospect/client.  
+High-value questions bring value to the conversation and creates a learning experience for you and your prospect/client.
 
 High-value questions are open-ended instead of closed-ended.
 
-If your question can be answered with a simple "yes" or "no", that is a closed-ended question.   Questions that begin with "Did", "Are", "Would" and "Is" are closed-ended.  
+If your question can be answered with a simple "yes" or "no", that is a closed-ended question.   Questions that begin with "Did", "Are", "Would" and "Is" are closed-ended.
 
-To turn a closed-ended question to an open-ended question, start with "How", "If", "What", "Why", "Who".  The result of an open-ended question is you gather more insight from the prospect/client and they become more involved in the process as well.  
+To turn a closed-ended question to an open-ended question, start with "How", "If", "What", "Why", "Who".  The result of an open-ended question is you gather more insight from the prospect/client and they become more involved in the process as well.
 
 Here are some open-ended, high-value questions that reps can ask their prospects:
 
@@ -624,7 +624,7 @@ Solutions:
 
 If there’s anything I’ve learned from listening to thousands of sales calls, it’s this: despite all the tools intended to help sales reps engage with prospects -- email, lead and account scoring, content, social media alerts, and many more -- calls are still where relationships are forged or lost forever.
 
-To put it simply, every other sales activity is leading up to one thing: a phone call. Not surprisingly, reps that have the best phone skills are almost always the most successful. In my experience, here are the five sales call techniques that the best reps put into practice with every prospect.  
+To put it simply, every other sales activity is leading up to one thing: a phone call. Not surprisingly, reps that have the best phone skills are almost always the most successful. In my experience, here are the five sales call techniques that the best reps put into practice with every prospect.
 
 #### 1. Show Maximum Respect
 
@@ -671,7 +671,7 @@ This question is crucial. If this is the first time they’ve ever bought someth
     - Prospects don’t buy for rational reasons -- they buy for emotional reasons. Your product is a rational means to an end, but that end is usually influenced by emotion. Your prospect has an image of the future in their head, and your product is what can help them get there. Getting a prospect talking about that future helps them understand why they should invest time and money in your solution.
 
 3. What changes will result from this plan?
-    - This is an impact question.  What is the impact of them using this product successfully? What fundamental changes will need to be made to their business?  
+    - This is an impact question.  What is the impact of them using this product successfully? What fundamental changes will need to be made to their business?
 
 4. If you don’t know the answers to these questions, do you know who to ask to find out?
     - This is crucial as it brings in additional "champions" to the discussion.
@@ -723,7 +723,7 @@ These HOW questions are broken down into categories
 Aja Frost wrote an insightful article on [25 Phrases That Signal a Prospect Is Ready to Buy](http://blog.hubspot.com/sales/phrases-signal-prospect-is-ready-to-buy?utm_campaign=Sales+Blog+-+Manual+Emails&utm_source=hs_email&utm_medium=email&utm_content=36014993#sm.00000thjdio2kmcx3y923dyo5fe5u)
 
 As Aja points out, salespeople get happy ears and interpret the buyers response and interest as something not true and inaccurate.  The key is to understand is your buyer in the consideration phase or the buying phase.  This article
-calls out buying phrases that are committal.  Which phrases are you hearing?  Vague, abstract, no-committal.  If so, then your buyer is in the consideration stage and not buying.  Or is your buyer asking you or making very specific references to their interest in purchasing?  
+calls out buying phrases that are committal.  Which phrases are you hearing?  Vague, abstract, no-committal.  If so, then your buyer is in the consideration stage and not buying.  Or is your buyer asking you or making very specific references to their interest in purchasing?
 
 Quiz: Which phrase is a signal that the prospect is ready to buy?
   1. “That seems like it could be helpful.” or
@@ -753,12 +753,12 @@ Even the best negotiators fall victim to one of these mistakes from time to time
 
 1. Target accounts have at least one of the following:
      - The company's core business model relies on software. Using Salesforce Navigator these companies are in the gaming, internet, ecommerce and software industries.
-     - At least 20% of the company’s staff are software developers or other types of devops practitioners. Use Salesforce Navigator's advanced features to see this.
+     - At least 20% of the company’s staff are software developers or other types of DevOps practitioners. Use Salesforce Navigator's advanced features to see this.
      - Companies with more than 100 software developers. Use Salesforce Navigator's advanced features to see this.
 
 2. Great target accounts have all three of the aforementioned characteristics or at least one of the aforementioned characteristics and  at least one of the following:
      - The company’s headcount growth has been greater than 10%. This is best seen in the Insights tab of the company's LinkedIn page.
-     - The company is hiring devops practitioners. This is best seen in the jobs tab of the company's LinkedIn page.
+     - The company is hiring DevOps practitioners. This is best seen in the jobs tab of the company's LinkedIn page.
      - The company's technology stack lends itself to what GitLab has to offer.
 
 3. The best target accounts have at least 3 bullet points from the first two buckets, with at least one bullet point in the second bucket along with one of the following:

@@ -1,5 +1,6 @@
 ---
 title: "Technical Writer"
+description: "At GitLab, our team of technical writers is responsible for ensuring that the documentation for all of our products is clear, correct, comprehensive, and easy to use."
 ---
 
 At GitLab, our [team of technical writers](/handbook/product/ux/technical-writing/) is responsible for ensuring that the [documentation](https://docs.gitlab.com/) for all of our products is clear, correct, comprehensive, and easy to use. We are looking for great writers with strong technical proficiencies to help our users succeed with our [rapidly evolving suite of DevOps tools](https://about.gitlab.com/releases/).
@@ -10,7 +11,7 @@ At GitLab, our [team of technical writers](/handbook/product/ux/technical-writin
 - Dive in on special projects, planning and authoring new content, and helping to develop new docs site features and processes.
 - Collaborate with others across the organization to craft new and improved content. You’ll be at the leading edge of DevOps while contributing to one of the [world’s largest open-source projects](https://about.gitlab.com/blog/2017/07/06/gitlab-top-30-highest-velocity-open-source/) and engaging with our wider community.
 
-## Requirements
+## Requirements (all levels)
 
 - You have:
   - Experience working with a docs as code workflow.
@@ -26,6 +27,7 @@ At GitLab, our [team of technical writers](/handbook/product/ux/technical-writin
   - Highly organized and able to triage and prioritize numerous issues and projects.
   - Able to succeed in a remote, globally distributed work environment.
 - You share our [values](/handbook/values/), and work in accordance with those values.
+- You demonstrate our [remote work competencies](/handbook/competencies/#remote-work-competencies), and model respectful and professional [communication](/handbook/communication/#effective-communication-competency).
 - You have experience with workflows and tooling used by engineering, operations, and product teams.
 
 ## Levels
@@ -46,7 +48,7 @@ The Technical Writer (Intermediate) is a [grade 6](/handbook/total-rewards/compe
 - **User interface**: Create or improve user interface text, such as field labels or error messages, with a focus on your assigned groups.
 - **Reviews**: Provide effective reviews for content created by others mainly within your assigned groups, based on relevant style guides.
 - **Product knowledge**: Understand the technology and features of the development groups to which you’re assigned.
-- **Process**: Contribute [Handbook](https://about.gitlab.com/handbook/) changes that help the organization evolve the culture and best practices.
+- **Process**: Contribute changes that help the organization evolve the culture and best practices.
 - **Communication**: Communicate effectively and professionally with other team members.
 - **Leadership**: Act as the Technical Writing lead for assigned groups.
 
@@ -68,7 +70,7 @@ Extends the Technical Writer (Intermediate) responsibilities in complexity and s
 - **User interface**: Actively create or improve user interface text, such as field labels or error messages, with a focus on your assigned stage.
 - **Reviews**: Provide effective and efficient reviews for content created by others across your assigned stage, based on relevant style guides.
 - **Product knowledge**: Deeply understand the technology and features of the development groups to which you’re assigned, and have a general understanding of your assigned stage.
-- **Process**: Contribute [Handbook](https://about.gitlab.com/handbook/) changes that help the organization evolve the culture and best practices.
+- **Process**: Contribute changes that help the organization evolve the culture and best practices.
 - **Communication**: Communicate effectively and professionally with other team members.
 - **Leadership**: Act as the Technical Writing lead for assigned groups and stages.
 - **Recruiting**: Be available to interview potential technical writing candidates.
@@ -86,17 +88,22 @@ The Staff Technical Writer is a [grade 8](/handbook/total-rewards/compensation/c
 
 Extends the Senior Technical Writer responsibilities in complexity and scope.
 
-- **Content**: Efficiently create, merge, and maintain product documentation within groups as needed, or across product groups. Guide improvements to merge requests. Suggest and balance priorities.
-- **Structure**: Actively implement content topic types in both new and previously created content to make product documentation easier to scan.
+Progression beyond a Senior role is not guaranteed by length of time in the role. A need for the Staff role must be justified and the candidate must have some level of demonstrated ability to thrive in the role to be considered for the new position.
+
+These next level opportunities are not guaranteed to be available and should not be viewed as career limiting. Senior Technical Writer is a critical role within GitLab. It is an accomplishment to thrive at the Senior level and should be celebrated as such.
+
+- **Content**: Efficiently create, merge, and maintain product documentation within groups as needed, or across product groups and stages. Guide improvements to documentation and merge requests. Suggest and balance priorities.
+- **Structure**: Actively develop and implement content topic types in both new and previously created content to make product documentation easier to scan and comprehend.
 - **Organization**: Ensure that product documentation pages are well organized across stages by using good naming and logical groupings.
 - **User interface**: Create model examples of user interface text, including field labels or error messages, with a cross-stage focus. Actively improve style guide and [Pajamas](/handbook/product/ux/pajamas-design-system/) content related to user interface text.
 - **Reviews**: Model review practices that improve the quality of contributions over time. Support and guide team members to improve reviews in their groups and stages.
-- **Product knowledge**: Understand the technology and features of both the development stage to which you’re assigned and the end-to-end GitLab product to help improve the information architecture of the docs site.
-- **Process**: Actively contribute [Handbook](https://about.gitlab.com/handbook/) changes that help the organization evolve the culture and best practices.
-- **Communication**: Communicate effectively and professionally with other team members, and be a model for collaboration.
-- **Leadership**: Identify and lead cross-stage projects that improve the deliverables or processes of the Technical Writing team.
+- **Product knowledge**: Understand the technology and features of both the development stages to which you’re assigned and the end-to-end GitLab product to help improve the documentation, information architecture, and docs site.
+- **Process**: Actively contribute documentation workflow changes that help the team evolve the culture and best practices.
+- **Cross-stage collaboration**: Drive collaboration across stages by helping technical writers and managers identify dependencies and areas for cross-departmental work.
+- **Communication**: Communicate effectively and professionally in all areas, and be a model for effective collaboration.
+- **Leadership**: Identify and lead cross-stage projects that improve the deliverables or processes of the Technical Writing team. Model professionalism in all areas. Be an effective thought partner with management to help make technical or project decisions for the team. Be a team leader in a particular segment of responsibility that the team requires: AI, technology, process, content, UX writing, statistics and metrics, and others.
 - **Recruiting**: Be available to interview potential technical writing candidates.
-- **Mentoring**: Mentor other technical writers and team members about suggesting and balancing priorities, industry best practices, and other process knowledge.
+- **Mentoring**: Mentor other technical writers and team members around suggesting and balancing priorities, industry best practices, and other process knowledge.
 
 ### Principal Technical Writer
 
@@ -116,7 +123,7 @@ Extends the Staff Technical Writer responsibilities in complexity and scope.
 - **User interface**: Provide expert guidance on user interface text. Actively improve style guide and [Pajamas](/handbook/product/ux/pajamas-design-system/) content.
 - **Reviews**: Foster effective review practices for team and community contributions to GitLab documentation and user interface changes.
 - **Product knowledge**: Deeply understand the technology and features of the development stage to which you’re assigned, and have a general understanding of the end-to-end GitLab product to help improve the information architecture of the docs site.
-- **Process**: Actively contribute [Handbook](https://about.gitlab.com/handbook/) changes that help the organization evolve the culture and best practices, and lead efforts to encourage other team members regarding contributions.
+- **Process**: Actively contribute changes that help the organization evolve the culture and best practices, and lead efforts to encourage other team members regarding contributions.
 - **Communication**: Communicate effectively and professionally across all product groups and stages, and be a model for collaboration with community contributors.
 - **Leadership**: Identify and lead cross-GitLab department projects that improve the deliverables or processes of the Technical Writing team.
 - **Recruiting**: Be available to interview potential technical writing candidates.

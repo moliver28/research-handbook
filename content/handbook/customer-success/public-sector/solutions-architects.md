@@ -85,7 +85,7 @@ A: The GitLab Server Operator (the ability to run a GitLab instance on openShift
 
 **Q: What features currently do not work when running GitLab with OpenShift?**
 
-A: SAST, DAST, AutoDevops. These are on the roadmap with no designated date as of yet.
+A: SAST, DAST, AutoDevOps. These are on the roadmap with no designated date as of yet.
 
 **Q: What OpenShift versions will the integration work with?**
 

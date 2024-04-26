@@ -4,7 +4,7 @@ title: Managing Conflict
 
 ## Managing conflict
 
-In this section we will review the definition of conflict, the different causes of conflict, review different methods for addressing conflict, steps in the conflict process and some do's and dont's of workplace conflict. Conflict in the workplace is inevitable when you have team members of various backgrounds and different work styles all working towards the same goals and [OKRs]({{< ref "okrs" >}}) (Objectives and Key Results). Conflict should never just be avoided, conflict should be managed and resolved. The first step is for the team members that experience conflict to work to address the situation to work towards a resolution. If a resolution is not possible, the manager should then work with the team members and their assigned [People Business Partner](/handbook/people-group/) to help foster a resolution.
+In this section we will review the definition of conflict, the different causes of conflict, review different methods for addressing conflict, steps in the conflict process and some do's and dont's of workplace conflict. Conflict in the workplace is inevitable when you have team members of various backgrounds and different work styles all working towards the same goals and [OKRs](/handbook/company/okrs) (Objectives and Key Results). Conflict should never just be avoided, conflict should be managed and resolved. The first step is for the team members that experience conflict to work to address the situation to work towards a resolution. If a resolution is not possible, the manager should then work with the team members and their assigned [People Business Partner](/handbook/people-group/) to help foster a resolution.
 
 ## What is conflict?
 

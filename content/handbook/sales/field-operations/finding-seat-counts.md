@@ -1,6 +1,6 @@
 ---
 
-title: Growth Resources 
+title: Growth Resources
 ---
 
 
@@ -16,9 +16,9 @@ title: Growth Resources
 Seat expansion is at the heart of our revenue growth. This has a strong impact on IACV and both Net and Gross Retention. There are various ways to determine the seat counts for a subscription:
 
 
-#### Gitlab.com
+#### GitLab.com
 
-The best way to view Seat Counts for a Gitlab.com customer is to access the Customers Portal admin section.
+The best way to view Seat Counts for a GitLab.com customer is to access the Customers Portal admin section.
 
 1. Go to [https://customers.gitlab.com/admins/sign_in](https://customers.gitlab.com/admins/sign_in)
 1. Sign in with Okta

@@ -21,6 +21,8 @@ Below are the cadences we have at GitLab:
 
 Items on this page are grouped into a cadence based on the underlying period of time that the item pertains to, not based on when the item is updated. For example, our [strategy](/handbook/company/strategy/#three-year-strategy) looks three years out but is reviewed [annually by E-Group](/handbook/company/offsite/#offsite-topic-calendar) and may be updated more frequently if the need arises.
 
+A overview of key company dates for FY25 can be found [here](https://docs.google.com/spreadsheets/d/11n44QyIVLD2rZwOnjLHlN1CvfmsVfFdyDfCK8qCLGM4/edit?usp=sharing)
+
 ### Cadence Examples
 
 How elements of our cadence fit together over time:
@@ -43,11 +45,23 @@ Below is one example of how the cadence items in [cadence flow](#cadence-flow) f
 
 1. One part of our [mission](/handbook/company/mission) is everyone can [contribute to GitLab, the application](/handbook/company/mission/#contribute-to-gitlab-application). By making innovation more accessible, we increase **user contributions to the product**, which creates results for a larger audience, which, in turn, allows more users to contribute to our product. This virtuous cycle drives a high rate of innovation for our product and allows more people to innovate and contribute.
 1. One component necessary to achieve our [AllOps vision](/handbook/company/vision/) is improving [GitLab ServiceDesk](https://docs.gitlab.com/ee/user/project/service_desk/), which helps connect external parties to the software development process, allowing more people to contribute. ServiceDesk is needed to provide a complete **Value Stream Delivery overview**, which should help more people manage the flow of innovation from [idea to customers](https://about.gitlab.com/solutions/value-stream-management/#:~:text=new%20innovation%20from-,idea%20to%20customers,-.), which should lead to more teams and companies relying on GitLab as their AllOps solution.
-1. One pillar of our [three year strategy](/handbook/company/strategy/#three-year-strategy) is [Customer Results](/handbook/company/strategy/#1-customer-results), which includes **Proving Value** with items like [Value Stream Analytics](/stages-devops-lifecycle/value-stream-analytics) to help a broader user base [like managers and executives](https://about.gitlab.com/direction/plan/value_stream_management/#who-are-we-focusing-on) deliver value and innovation. Proving value to a broader user base moves us closer to providing a complete Value Stream Delivery overview, creating progress towards our AllOps vision.
-1. One of [our FY24 Yearlies](/handbook/company/yearlies/) is to `increase NetARR from Ultimate up-tiers` which we'll accomplish in part by providing more value to business users with features like [**Value Stream Dashboards for Executives**](https://gitlab.com/groups/gitlab-org/-/epics/9317). These features help extend [Value Stream Management](/solutions/value-stream-management/) and, by extension, create progress for our Customer Results strategic pillar.
+1. One pillar of our [three year strategy](/handbook/company/strategy/#three-year-strategy) is [Customer Results](/handbook/company/strategy/#1-customer-results), which includes **Proving Value** with items like [Value Stream Analytics](https://about.gitlab.com/stages-devops-lifecycle/value-stream-analytics) to help a broader user base [like managers and executives](https://about.gitlab.com/direction/plan/value_stream_management/#who-are-we-focusing-on) deliver value and innovation. Proving value to a broader user base moves us closer to providing a complete Value Stream Delivery overview, creating progress towards our AllOps vision.
+1. One of [our FY24 Yearlies](/handbook/company/yearlies/) is to `increase NetARR from Ultimate up-tiers` which we'll accomplish in part by providing more value to business users with features like [**Value Stream Dashboards for Executives**](https://gitlab.com/groups/gitlab-org/-/epics/9317). These features help extend [Value Stream Management](https://about.gitlab.com/solutions/value-stream-management/) and, by extension, create progress for our Customer Results strategic pillar.
 1. One [FY24Q1 CEO objective](/handbook/company/okrs/fy24-q1/) is to `increase adoption through customer results to increase operating income` with a sub-key result of launching **Value Stream Dashboards** MVC 1 Beta in FY24-Q1.
 
 Successfully achieving our KR of a beta value stream means progress against our Yearly value stream dashboard goal, strategic goal of extending value stream management to more users, vision of an AllOps solution, and mission of everyone contributing. While the KR is a single building block, our successful completion within the quarter leads to progress against our longer term goals.
+
+## Update cadence
+
+We have a cadence for reviewing our elements. Specifically, each element is reviewed at the cadence of the element that is the next level down. For example, we revisit our 3 year strategy every year. This maps to when we do annual Yearlies. And, we revisit our Yearlies every quarter. This is the timeframe for creating OKRs.
+
+These reviews ensure that elements reflect current priorities and do not get stale. While we have set review times, we don't need to wait for an update cycle to capture changes that we have decided to make.
+
+1. [30 year Mission](/handbook/company/mission): reviewed every 10 years
+1. [10 year Vision](/handbook/company/vision): reviewed every 3 years
+1. [3 year Strategy](/handbook/company/strategy/): reviewed every year
+1. [Annual Yearlies](/handbook/company/yearlies/): reviewed every quarter. Review usually happens during the [E-Group Offsite](/handbook/company/offsite/)
+1. [Quarterly OKRs](/handbook/company/okrs): reviewed every month
 
 ## 30 years
 
@@ -70,7 +84,7 @@ Successfully achieving our KR of a beta value stream means progress against our 
 1. [3-year product direction strategy](https://about.gitlab.com/direction/#3-year-strategy)
 1. [Long range outlook](/handbook/finance/financial-planning-and-analysis/#long-range-outlook-lro)
 1. [Restricted stock unit vesting](/handbook/stock-options/#vesting) after cliff of six months is passed
-1. Average retention of team members is around 3 years, with reduced [turnover](/handbook/people-group/people-group-metrics/#team-member-turnover) (<16%). See [actual reports](/handbook/people-group/people-group-metrics/#reporting)
+1. Average retention of team members is around 3 years
 
 
 ## Year
@@ -80,7 +94,6 @@ Successfully achieving our KR of a beta value stream means progress against our 
 1. [4 quarter rolling forecast](/handbook/finance/financial-planning-and-analysis/#quarterly-forecast-rolling-four-quarters)
 1. Most of [Direction](https://about.gitlab.com/direction/)
 1. [Fiscal Year Product Investment Themes](https://about.gitlab.com/direction/#fiscal-year-product-investment-themes)
-1. [Top Cross-Functional Initiatives](/handbook/company/top-cross-functional-initiatives/)
 
 ## Quarter
 
@@ -89,32 +102,22 @@ Successfully achieving our KR of a beta value stream means progress against our 
 1. Sales targets (in [Clari](/handbook/business-technology/tech-stack/#clari))
 1. [E-group offsite](/handbook/company/offsite/)
 1. [GitLab Assembly](/handbook/company/gitlab-all-company-meetings/)
-1. [Quarterly Kickoff](/handbook/ceo/chief-of-staff-team/#quarterly-kickoff)
+1. [Quarterly Kickoff](/handbook/ceo/office-of-the-ceo/#quarterly-kickoff)
 1. [Earnings activities](/handbook/finance/investor-relations/)
+1. [Key Reviews](/handbook/key-review/)
+1. [Group Conversations](/handbook/group-conversations/)
 
 ## Month
 
-1. [Key Reviews](/handbook/key-review/)
-1. [Release](/releases/)
+1. [Release](https://about.gitlab.com/releases/)
 1. [Retrospective](/handbook/communication/#kickoffs)
 1. [Most KPIs](/handbook/company/kpis/)
+1. [Monthly touchpoint meetings](/handbook/company/offsite/#monthly-touch-point-meetings)
 
 ## Week
 
 1. [1-1 cadence with reports](/handbook/leadership/1-1/)
 1. [E-Group Weekly](/handbook/e-group-weekly/)
-
-## Cadence Updates
-
-We have a cadence for reviewing our elements. Specifically, each element is reviewed at the cadence of the element that is the next level down. For example, we revisit our 3 year strategy every year. This maps to when we do annual Yearlies. And, we revisit our Yearlies every quarter. This is the timeframe for creating OKRs.
-
-These reviews ensure that elements reflect current priorities and do not get stale. While we have set review times, we don't need to wait for an update cycle to capture changes that we have decided to make.
-
-1. [30 year Mission](/handbook/company/mission): reviewed every 10 years
-1. [10 year Vision](/handbook/company/vision): reviewed every 3 years
-1. [3 year Strategy](/handbook/company/strategy/): reviewed every year
-1. [Annual Yearlies](/handbook/company/yearlies/): reviewed every quarter. Review usually happens during the [E-Group Offsite](/handbook/company/offsite/)
-1. [Quarterly OKRs](/handbook/company/okrs): reviewed every month
 
 ## Gantt Chart
 

@@ -49,7 +49,7 @@ To execute effective collaboration, come to an agreement on the following with y
 
 ### Cross-stage design collaboration frameworks
 
-The collaboration methods can be flexible. You can collaborate like [design pairs](how-we-work/#https://about.gitlab.com/handbook/product/ux/pair-designing). Or use formal frameworks to help designers work together, consider using those, especially when there are more than two designers. [Design Pod](/handbook/teamops/everyone-contributes/directly-responsible-individual-dri/design-pod) is a framework that has clearly defined roles and responsibilities and is tasked with achieving a high-impact business goal. If the design collaboration is more aimed at exploitation without a clear business goal, consider using a Design Jam instead.
+The collaboration methods can be flexible. You can collaborate like [design pairs](how-we-work/#https://about.gitlab.com/handbook/product/ux/pair-designing). Or use formal frameworks to help designers work together, consider using those, especially when there are more than two designers. [Design Pod](/handbook/product/ux/how-we-work/cross-stage-design-collaboration/design-pod) is a framework that has clearly defined roles and responsibilities and is tasked with achieving a high-impact business goal. If the design collaboration is more aimed at exploitation without a clear business goal, consider using a Design Jam instead.
 
 ### Tips for cross-stage collaboration
 

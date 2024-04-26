@@ -21,10 +21,10 @@ When creating a new project, please follow these steps:
    * [`gitlab-com`](https://gitlab.com/gitlab-com) for anything strictly company related.
 
    To avoid complications with context and permissions inheritance, creating projects directly under these root namespaces (e.g. `gitlab-org/NEW_PROJECT`) is discouraged. Only Maintainers can create projects there when necessary, but should also avoid doing so for the reason mentioned before.
-   If you don't have the permissions to create a project there, you can create an [Access Request issue](/handbook/business-technology/team-member-enablement/onboarding-access-requests/access-requests/#individual-or-bulk-access-request) and ping one of the Maintainers ([gitlab-org](https://gitlab.com/groups/gitlab-org/-/group_members?sort=access_level_desc), and [gitlab-com](https://gitlab.com/groups/gitlab-com/-/group_members?sort=access_level_desc)) for approval.
+   If you don't have the permissions to create a project there, you can create an [Access Request issue](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/#individual-or-bulk-access-request) and ping one of the Maintainers ([gitlab-org](https://gitlab.com/groups/gitlab-org/-/group_members?sort=access_level_desc), and [gitlab-com](https://gitlab.com/groups/gitlab-com/-/group_members?sort=access_level_desc)) for approval.
 1. Configure the project repository to use `main` as the name of the default branch.
 1. [Add the project to the list of GitLab projects in `projects.yml`](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/doc/projects.md).
-1. Help [AppSec](/handbook/security/security-engineering/application-security/) [categorizing your new project]({{ ref "/handbook/security/security-engineering/application-security/inventory/#how-to-categorize-projects" }}).
+1. Help [AppSec](/handbook/security/product-security/application-security/) [categorize your new project](/handbook/security/product-security/application-security/inventory.md#how-to-categorize-projects).
 1. Add a license to the repository. Contact #legal as to which license to add. A sample license is here: [`gitlab-org/gitlab` MIT License](https://gitlab.com/gitlab-org/gitlab/blob/master/LICENSE), but contact legal before using it.
 1. Add a section titled "Developer Certificate of Origin and License" to `CONTRIBUTING.md` in the repository. It is easiest to simply copy-paste the [`gitlab-org/gitaly` DCO + License section](https://gitlab.com/gitlab-org/gitaly/-/blob/master/CONTRIBUTING.md#developer-certificate-of-origin-license) verbatim.1. Add any further relevant details to the Contribution Guide. See [Contribution Example](https://gitlab.com/gitlab-org/gitlab/blob/master/CONTRIBUTING.md).
 1. Add a link to `CONTRIBUTING.md` from the project's `README.md`.
@@ -38,11 +38,11 @@ When creating a new project, please follow these steps:
     - [Merge only when all threads are resolved](https://docs.gitlab.com/ee/user/discussions/index.html#only-allow-merge-requests-to-be-merged-if-all-threads-are-resolved).
 1. When possible, projects should have the following [Pipeline settings enabled](https://docs.gitlab.com/ee/ci/pipelines/settings.html):
     - [Auto-cancel pending pipelines](https://docs.gitlab.com/ee/ci/pipelines/settings.html#auto-cancel-pending-pipelines).
-1. Projects should have the minimum [Baseline Configurations setup for MR Approval Rules and Protected Branch Settings](/handbook/security/gitlab_projects_baseline_requirements.html)
+1. Projects should have the minimum [Baseline Configurations setup for MR Approval Rules and Protected Branch Settings](/handbook/security/gitlab_projects_baseline_requirements/)
 1. Projects should have [`Users can request access` setting disabled](https://docs.gitlab.com/ee/user/project/members/index.html#prevent-users-from-requesting-access-to-a-project) to discourage granting accidental external access.
 1. If needed, make sure to [set up a default CI/CD configuration](#cicd-configuration).
 1. If your project contains code that is distributed with GitLab or is executed in production, set up [security jobs](https://gitlab.com/help/user/application_security/security_dashboard/index#gitlab-security-dashboard) for your project and add your project to the AppSec team's [triage rotation](/handbook/security/index.html#triage-rotation). The AppSec will triage security findings from the Security Dashboard and create issues for vulnerabilities.
-1. If the project is part of work that is shipped to customers, add it to [projects_part_of_product.csv](https://gitlab.com/gitlab-data/analytics/blob/master/transform%2Fsnowflake-dbt%2Fdata%2Fprojects_part_of_product.csv) by opening an MR to that file or following the [process outlined by Engineering Productivity](https://about.gitlab.com/handbook/engineering/metrics/#updating-the-list-of-projects).
+1. If the project is part of work that is shipped to customers, add it to [projects_part_of_product.csv](https://gitlab.com/gitlab-data/analytics/blob/master/transform%2Fsnowflake-dbt%2Fdata%2Fprojects_part_of_product.csv) by opening an MR to that file or following the [process outlined by Engineering Productivity](/handbook/engineering/metrics/#updating-the-list-of-projects).
 1. If the repository is public, set up a [security mirror](https://gitlab.com/gitlab-org/release/docs/blob/master/general/security/mirrors.md).
    This is necessary to address security vulnerabilities without disclosing them before they are fixed.
 
@@ -98,4 +98,4 @@ If a job requires the usage of Windows, SaaS runners on Windows should be used. 
 
 ### Publishing a Project
 
-To publish a project to a package repository, please follow [these directions](https://about.gitlab.com/handbook/developer-onboarding/#ruby-gems).
+To publish a project to a package repository, please follow [these directions](/handbook/developer-onboarding/#ruby-gems).

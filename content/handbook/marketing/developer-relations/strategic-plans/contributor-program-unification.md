@@ -136,7 +136,7 @@ Note: The points, levels & status can still change.
 | Level 2 | 25 Contribution Points | Achievement on profile, Swag | 
 | Level 3 | 75 Contribution Points | Achievement on profile, Swag | 
 | Level 4 | 75+ Contribution Points | Achievement on profile, Tier 3 swag coupon, 1 GitLab Ultimate License for personal use |
-| Leading <sub>Scores can be combined within an organization, Formerly known as Leading Organization</sub> | 30 Contribution Points in the last 3 months, Evaluated per quarter | Achievement on profile, wag, 4 day SLO time to get a review/feedback on authored MRs |
+| Leading <sub>Scores can be combined within an organization, Formerly known as Leading Organization</sub> | 30 Contribution Points in the last 3 months, Evaluated per quarter | Achievement on profile, Swag, 4 day SLO time to get a review/feedback on authored MRs |
 | Core | after approval, Individual basis only, 120 Contribution Points, Election process | Achievement on profile, Swag, 1 GitLab Ultimate License for personal use, Slack Access (Requires an NDA to be signed), Developer Permission for GitLab projects |
 
 | Contributor Achievements | Requirements | Benefits & Rewards |

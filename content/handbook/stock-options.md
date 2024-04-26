@@ -14,7 +14,7 @@ Two things must happen for your stock options or RSUs to be meaningful,  for exa
 1. You must meet the vesting schedule of the stock options (i.e. we have a 1 year cliff and 3 years of monthly vesting).
 1. RSUs are granted quarterly, with a six month cliff vest for new team members and quarterly thereafter up to 4 years.  Refresh grants vest quarterly over 4 years.
 
-If a team member leaves GitLab, they have 90 days post termination to exercise their vested options.  RSUs are forfeited upon termination.
+If a team member leaves GitLab, they have 90 days post termination to exercise their vested options. Unvested RSUs and options are forfeited upon the date of the team member's exit from the company.
 
 ## Equity Incentive Plans
 
@@ -52,6 +52,8 @@ Taxation of Ordinary Income - RSU - More Detail
 
 (You should always consult with your own tax advisor concerning how holding periods, capital gains and losses, and your personal circumstances may affect your taxes, and before taking any action that may have tax consequences.  Your actual taxes paid will vary depending on your personal circumstances. )
 
+Please note that all tax withholding is based on tax rates provided by Baker McKenzie - You can find our current Tax Matrix [here](https://drive.google.com/file/d/13deasDMvCiXcInQOFvORM6cKNazim7pz/view?usp=drive_link)
+
 ## Employee Stock Purchase Plan (“ESPP”)
 
 ### What is an ESPP?
@@ -75,16 +77,22 @@ In September 2021, the Company’s board of directors and its stockholders appro
    - PTY Ltd (Australia/New Zealand)
    - Ireland Ltd (Ireland) - as of 2023-06-01
    - BV (Finland)  - as of 2023-06-01
-1. Changing Contribution Amounts
+
+### Changing Contribution Amounts
+
    - Contribution increases and decreases are limited during Offering and Purchase Periods
    - Increases: Team members may not increase their contributions after the Offering Period begins.
    - Decreases: Team Members  may decrease their contribution rates once during any Offering Period.
-1. Stop Contributions
+
+### Stop Contributions
+
    - Team members may reduce their contribution to 0% during an offering period.
    - Any prior contributions will be used to purchase shares on the scheduled purchase date.
    - At the end of the offering period, the team member will be automatically withdrawn from the offering period effective as of the day after the purchase date following the date of the request.
    - Team members would need to re-enroll as a new participant in the next open enrollment window and begin a new Offering Period  if they wish to participate in the future.
-1. Withdrawals
+
+### Withdrawals
+
    - Team members may withdraw from the ESPP at any time and receive a refund of their withheld contributions. The refunds are processed through Payroll.
    - Team members who withdraw would need to re-enroll in order to participate in future Offering Periods.
 
@@ -136,7 +144,7 @@ Note: All equity grants are subject to approval by the Board of Directors and no
 
 ## Annual Refresh Grant Program Eligibility
 
-Team members may be eligible to participate in the annual refresh grant cycle review if they have completed six months of service with the company. However, participation will be based upon individual team member talent assessments (including if a team member is currently in good standing) and [key talent criteria]({{< ref "/handbook/people-group/talent-assessment#key-talent-criteria" >}}). Therefore, not all team members will receive a refresh grant in the annual review cycle. Leaders will have discretion on the size of the refresh grant based on talent assessments and equity budget as allocated to each E-group member’s division. All proposed grants will be reviewed by the People team for pay equality. All proposed equity grants are subject to review and approval by the GitLab Board of Directors.
+Team members may be eligible to participate in the annual refresh grant cycle review if they have completed six months of service with the company. However, participation will be based upon individual team member talent assessments (including if a team member is currently in good standing) and [key talent criteria](/handbook/people-group/talent-assessment#key-talent-criteria). Therefore, not all team members will receive a refresh grant in the annual review cycle. Leaders will have discretion on the size of the refresh grant based on talent assessments and equity budget as allocated to each E-group member’s division. All proposed grants will be reviewed by the People team for pay equality. All proposed equity grants are subject to review and approval by the GitLab Board of Directors.
 
 ## Option Vesting
 
@@ -159,14 +167,19 @@ Per our [SAFE framework](/handbook/legal/safe-framework/), we do not add specifi
 
 While the company has the right to repurchase the unvested shares upon your termination of services, the company is not obligated to do so. Accordingly you could lose some or all of the investment you made. Because we are a young company there are lots of risks, so be aware and informed of the risks.
 
-You may exercise and hold your options even outside of an Open Window. To do so, email stockadmin@gitlab.com and they will enable you to do so in your E-TRADE account. Team members will have 5 trading days to execute their exercise. Please seek advice from your financial advisor or tax advisor prior processing your exercise.
+You may exercise and hold your options even outside of an open trading window. If you are a Designated Insider, please email stockadmin@gitlab.com and they will enable you to do so in your E-TRADE account. Team members will have 5 trading days to execute their exercise. Please seek advice from your financial advisor or tax advisor prior processing your exercise.
 
-## E-TRADE: Exercising your Shares in an Open Window
+## E-TRADE: Exercising your Shares in an Open Trading Window
 
 For trading in an open trading window, please find the following instructions for specifics on exercise and trading options.
 
 - [GitLab Stock Plan Non-US](https://drive.google.com/file/d/1pBZsudczsgSv_xxPEJlMc1wA0TumDm97/view)
 - [GitLab Stock Plan RSUs & Stock Options](https://drive.google.com/file/d/16Hby-UdCKA-BJDHvZQ9bpbU5cEQlzeUE/view)
+
+## Purchasing GTLB Stock
+
+If you would like to purchase GTLB shares, this must be done through your E*TRADE retail account during an open trading window. We would ask that you send us a message at stockadmin@gitlab.com as we will need to get consent from you to track your GTLB retail shares.
+
 
 ## Questions about your stock plan or retail account:
 
@@ -195,7 +208,7 @@ With the implementation of WorkDay, interfaces to ETrade provide for electronic 
 
 ### Taxes
 
-Tax law is complex and you should consult a tax attorney or other tax advisor who is familiar with startup stock options before making any decisions. Please go to the [tax team's stock options]({{< ref "/handbook/tax/stock-options" >}}) page for more information on taxation of stock options.
+Tax law is complex and you should consult a tax attorney or other tax advisor who is familiar with startup stock options before making any decisions. Please go to the [tax team's stock options](https://internal.gitlab.com/handbook/tax/stock-options/) page for more information on taxation of stock options.
 
 ### US employees with Incentive Stock Options (ISOs)
 

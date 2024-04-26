@@ -20,9 +20,8 @@ Cadence calls are an important aspect of CSM engagement to continue to understan
 
 ## Frequency
 
-- **Enterprise**: Cadence calls should be weekly during onboarding and otherwise at least biweekly for P1 customers and monthly for P2 customers, considering specific customer needs and stage in customer lifecycle.
-- **Commercial**: Cadence calls should be weekly during onboarding and at least once quarter otherwise, considering specific customer needs and stage in customer lifecycle.
-- **Scale**: Cadence calls are not scheduled on an ongoing basis for Scale CSE customers. Calls with customers are offered programmatically based on the key points defined in the [Scale CSE customer lifecycle](/handbook/customer-success/csm/segment/scale/#customer-lifecycle).
+- **CSMs**: Cadence calls should be weekly during onboarding and otherwise at least biweekly, considering specific customer needs and stage in customer lifecycle.
+- **Scale CSEs**: Cadence calls are not scheduled on an ongoing basis for Scale CSE customers. Calls with customers are offered programmatically based on the key points defined in the [Scale CSE customer lifecycle](/handbook/customer-success/csm/segment/scale/#customer-lifecycle).
 
 Cadence calls should be [captured in Gainsight](/handbook/customer-success/csm/gainsight/timeline/#how-to-log-activities-in-timeline), which [drives the Engagement scorecard metric](/handbook/customer-success/csm/health-score-triage/#gainsight-scorecard-attributes-and-calculations).
 
@@ -63,8 +62,11 @@ The following items are to be covered/completed in your initial cadence call/kic
   - Existing Customers: Discuss other [enablement sessions](/handbook/customer-success/csm/workshops/) in-line with their desired use cases and potential expansion opportunities (it can be helpful to start discussing future sessions/topics right after one is delivered and it's fresh in their mind)
   - Scale Customers: Share the [landing page for upcoming webinars](/handbook/customer-success/csm/segment/scale/webinar-calendar/), and encourage them to sign up for the Intro to GitLab and the Intro to CI/CD webinars at a minimum
 - Share our [support offerings](https://about.gitlab.com/support/)
+- If the customer is on a self-managed subscription:
+  - Strongly advise that they sign-up for security alerts, which they can do by entering their email address in the "Sign up for security notices" section of [this page](https://about.gitlab.com/company/contact/)
+  - Share the [Communication Preference Center link](https://about.gitlab.com/company/preference-center/) so that customers can manage the emails they get from GitLab
 - If the customer is on a SaaS subscription:
-  - Share [Status](https://status.gitlab.com/) and [Communications Preferences](/handbook/company/preference-center/) pages with customer
+  - Share [Status](https://status.gitlab.com/) and [Communications Preferences](/handbook/company/preference-center/) pages with customer and advise that they opt-in to security alerts
   - Subscribe the GitLab Admin to Status page updates
 - Set up recurring cadence calls (CSM-managed only)
 
@@ -79,6 +81,7 @@ Prior to the call, review the following items:
 - Renewal date to be aware of upcoming renewal
 - License utilization - if it is lower and the customer is in the second half of their annual contract, discuss the trends around this and expected behavior; if it is above or close to their purchased amount, ensure they are aware and loop in your SAE/AE
 - Use case scoring, identifying areas where the customer is not green - discuss one or two on the call and include the value of adoption these areas and suggest enablement opportunities
+- Has the customer signed up for security alerts? It's critical to ensure that customers (especially those that are self-managed) sign up for GitLab security alerts, which they can do by entering their email address in the "Sign up for security notices" section of [this page](https://about.gitlab.com/company/contact/). CSMs can monitor whether or not their customers are signed up for security alerts by looking at the relevant SFDC reports for [contacts](https://gitlab.my.salesforce.com/00O8X000008RTyM) (most customers will fall into this category) and [leads](https://gitlab.my.salesforce.com/00O8X000008RTyg). It is recommended to save versions of those SFDC reports with your preferred filters in your Personal Custom Reports folder in SFDC for efficiency and to avoid accidentally modifying the original reports. You can do this by opening the report,selecting "Save As", renaming the report, and saving it to "My Personal Custom Reports". From there, you can modify the report to include your desired filters. If a customer does not sign up for security alerts in between the kickoff call and the first cadence call, CSMs should revisit this topic in subsequent conversations and emphasize that opting in to these notifications will ensure the customer is aware of any action they may need to take to keep their instance(s) secure.
 
 With every customer call, always be sure to have an agenda prepared and share it with the customer in advance. Here is [a template](https://docs.google.com/document/d/1sAt4dFCnPm0vupfFEpZT9dCFLfhgdfCdcj0nOjCM9SI/edit) that some CSMs use to prepare agendas for customer meetings.
 
@@ -158,7 +161,7 @@ At the end of each customer call any changes to customer health should be reflec
 ### Best Practices for Note-Taking
 
 - Write down your *agenda* (including questions you want to ask) in advance. This way you can quickly add your notes for the specific context.
-- If you're comfortable in writing in [Markdown format](https://about.gitlab.com/handbook/markdown-guide/), use it to quickly structure your notes in real time.
+- If you're comfortable in writing in [Markdown format](/handbook/markdown-guide/), use it to quickly structure your notes in real time.
 - Allow yourself time directly after the call to clean up your notes. Avoid scheduling back-to-back meetings.
 - Practice slowing down call conversations. Stopping the dialog for a few seconds to say “let me write that down” tells the customer what they said is important to you.
 - Ask your SAE/AE/SA to take notes with you. After the meeting combine and add detail.
@@ -190,11 +193,12 @@ These are suggestions that can be used at any time on customer calls.
 - Discuss if their users have any feedback, pain points, or blockers
 - Ask if there is anything the CSM can assist on towards resolution (feature requests, support tickets, etc.)
 - Ask about any gaps in or outdated information in Gainsight (watch an [8 minute video](https://youtu.be/yk95b6u26So) for recommendations!)
-- If self-managed, review their current version, planned upgrades, and if they need [Upgrade Assistance](/support/scheduling-upgrade-assistance/#how-do-i-schedule-upgrade-assistance)
+- If self-managed, review their current version, planned upgrades, and if they need [Upgrade Assistance](https://about.gitlab.com/support/scheduling-upgrade-assistance/#how-do-i-schedule-upgrade-assistance)
 - If self-managed, review if there are any planned, upcoming, or ongoing deployment changes (e.g. Geo, HA, etc.) and ensure they are familiar with support
 - If self-managed, discuss their backup/recovery plans and if they have recently tested restoring from a backup
 - If self-managed, discuss if they have [signups enabled](https://docs.gitlab.com/ee/administration/settings/sign_up_restrictions.html)
 - If self-managed, raise the importance of GitLab Security patches and use it as an additional argument to enable usage/service ping reports of GitLab
+- If self-managed, emphasize the importance of opting-in to security alerts
 - If using a collaboration project, the CSM can configure a scheduled job to create agenda issues on a monthly frequency. Instructions for that are in each collaboration project's [instructions file](https://gitlab.com/gitlab-com/account-management/templates/customer-collaboration-project-template/-/blob/master/PLEASE-READ-THESE-INSTRUCTIONS.md).
 
 ### Ephemeral Suggestions

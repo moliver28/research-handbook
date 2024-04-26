@@ -181,6 +181,34 @@ In addition, Managers can create an Engagement Survey Action Issue that links to
 - [Legal & Corporate Affairs](https://gitlab.com/groups/gitlab-com/-/epics/2223)
 - [CISO](https://gitlab.com/groups/gitlab-com/-/epics/2196)
 
+### Summit Pulse Surveys Overview
+
+The goal of the Summit is to build trust through social connections. This trust should lead to higher individual and team motivation, leading to higher productivity and retention. Higher trust between individuals and teams fuels collaboration and leads to stronger results.
+
+To best determine how effective we are at achieving the goal of Summit is to gauge team member perceptions before and after the event.
+
+#### We ran two surveys:
+
+- Pre-Summit: January 9, 2024 to January 19, 2024
+- Post-Summit: March 15, 2024 to April 5, 2024
+
+This will helped us gain valuable insights into any shifts in sentiments among team members, allowing us to assess the true impact of the summit, satisfaction and engagement.
+This is an abbreviated version of our engagement survey, and it also includes a few Summit related questions.
+
+### Survey Confidentiality
+
+In an effort to ensure team member confidentiality is upheld, only managers with >5 respondents will be able to view quantitative results - this is carried across to demographic filtering in teams with population sizes which exceed the minimum too. The survey is wholly administered by Culture Amp on a secure external website and the survey data will not be stored on any local computer. If you’d like to know more, check out CultureAmp’s [FAQ](https://support.cultureamp.com/en/articles/7048327-engagement-attributed-survey-guide-for-participants) guide.
+
+### Survey Results
+
+Team members can access Summit Pulse Survey results [here](https://docs.google.com/presentation/d/1OPOwu9JZxq4CoAiUAOMPZ-yXH99TPMPXObfzVMIWlto/edit#slide=id.g1d24c3e4ddd_5_252)
+
+
+
+
+<details>
+  <summary markdown="span">Previous Years</summary>
+
 ### FY'23 Pulse Engagement Survey
 
 #### FY'23 Pulse Engagement Survey Timeline
@@ -286,6 +314,7 @@ GitLab was rated up to 3% higher than the industry benchmark i.e. New Tech (1,00
 | I believe action will take place as a result of this survey| 64% |
 
 GitLab scored 4% higher than the industry benchmark i.e. New Tech +1,000 2022 for the lowest scoring question surrounding positive actions, 9% higher than the benchmark regarding compensation and 2% higher regarding actions taken from the survey.
+
 
 ### FY'22 Pulse Engagement Survey
 
@@ -449,7 +478,7 @@ All links should be added by 2022-01-21 aligned with our [timeline]({{< ref "eng
 **Resource Allocation**
 
 1. Increased headcount from 1267 team members in December 2020 to 1574 team members in December 2021.
-1. Our average [promotion rate]({{< ref "people-group-metrics#promotion-rate" >}}) in 2021 is 16.77%, which is higher than the average market promotion rate
+1. Our average promotion rate in 2021 is 16.77%, which is higher than the average market promotion rate
 
 #### Questions and Support
 
@@ -465,7 +494,7 @@ Bar those who joined on or after 2020-11-01 the survey was extended to all GitLa
 
 #### Benchmarking and Reporting
 
-The FY21 survey was benchmarked against New Tech 1,000+ 2020 in addition to being reviewed against the preceding years results. Preliminary reports were released on 2021-01-08 painting a broad overview afterwhich individual divisional reviews will take place in collaboration with the [People Business Partners (PBPs)]({{< ref "/job-families/people-group/people-business-partner" >}}) and respective Group Leaders.
+The FY21 survey was benchmarked against New Tech 1,000+ 2020 in addition to being reviewed against the preceding years results. Preliminary reports were released on 2021-01-08 painting a broad overview afterwhich individual divisional reviews will take place in collaboration with the [People Business Partners (PBPs)](/job-families/people-group/people-business-partner) and respective Group Leaders.
 
 #### Company Results (Overall)
 
@@ -524,7 +553,7 @@ Bar those who joined on or after 2019-10-01 the survey was extended to all GitLa
 
 #### Benchmarking and Reporting
 
-The FY20 survey was benchmarked against New Tech Size >500 2019 in addition to being reviewed against the preceding years results. Preliminary reports were released in the week of 2019-11-07 painting a broad overview afterwhich individual divisional reviews will take place in collaboration with the [People Business Partners (PBPs)]({{< ref "/job-families/people-group/people-business-partner" >}}) and respective Group Leaders.
+The FY20 survey was benchmarked against New Tech Size >500 2019 in addition to being reviewed against the preceding years results. Preliminary reports were released in the week of 2019-11-07 painting a broad overview afterwhich individual divisional reviews will take place in collaboration with the [People Business Partners (PBPs)](/job-families/people-group/people-business-partner) and respective Group Leaders.
 
 #### Company Results (Overall)
 
@@ -578,7 +607,7 @@ Bar those who joined on or after 2018-08-17 the survey was extended to all GitLa
 
 #### Benchmarking and Reporting
 
-The FY19 survey was benchmarked against 2018 New Tech Size - Large Companies (500+). Preliminary reports were released in the week of 2018-11-06 painting a broad overview afterwhich individual divisional reviews will take place in collaboration with the [People Business Partners (PBPs)]({{< ref "/job-families/people-group/people-business-partner" >}}) and respective Group Leaders.
+The FY19 survey was benchmarked against 2018 New Tech Size - Large Companies (500+). Preliminary reports were released in the week of 2018-11-06 painting a broad overview afterwhich individual divisional reviews will take place in collaboration with the [People Business Partners (PBPs)](/job-families/people-group/people-business-partner) and respective Group Leaders.
 
 #### Company Results (Overall)
 
@@ -640,3 +669,5 @@ GitLab scored 12% below the industry benchmark i.e. 2018 New Tech Size - Large C
 1. Select Import Data
 
 You have now updated a demographic in CultureAmp!
+
+<details>

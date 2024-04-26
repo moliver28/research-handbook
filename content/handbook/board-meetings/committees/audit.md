@@ -5,7 +5,7 @@ title: "Audit Committee"
 ## Audit Committee Composition
 
 - **Chairperson:** Karen Blasing
-- **Members:** Sunny Bedi, Mark Porter
+- **Members:** Sunny Bedi
 - **Management DRI:** Chief Financial Officer
 
 ## Audit Committee Charter
@@ -103,18 +103,18 @@ The below amended Audit Committee `Earnings` and `Compliance and Special Topics`
 | 1 |New Accounting Pronouncements                         |Annual |  X  |    |     |     |     |
 | 2 |International Reporting                               |Annual |  X  |    |     |     |     |
 | 3 |Treasury                                              |Annual |  X  |    |  X  |     |     |
-| 4 |Special Topics                                  |Quarterly |  X   |  X  |   X  |  X  |     |
-| 5 |Summary of tax returns filed YTD)                     |Annual |     |    |     |  X   |    |
+| 4 |APA and other special projects updates                |Quarterly |  X   |  X  |   X  |  X  |     |
+| 5 |Summary of tax returns filed YTD                      |Annual |     |    |     |  X   |    |
 | 6 |Stat Audit Update                                     |Annual |     |    |  X  |     |     |
 | 7 |Audit Committee Calendar Review                       |Annual |     |    |     |  X  |     |
-| 8 |Organization Overviews - Accounting, Finance, Tax, FP&A, Investor Relations                                             |Semi Annual |     | X  |     |  X  |     |
-| 9 |Insurance Coverage Update                          |As needed |     |     | X  |     |  X  |
+| 8 |Organization Overviews - Accounting, Finance, Tax, FP&A, Investor Relations      |Semi Annual |     | X  |     |  X  |     |
+| 9 |Insurance Coverage Update                          |As needed |     |     |    |     |  X  |
 |10 |Stock Transactions                                 |As needed |     |    |     |     |  X  |
 |11 |Tax Audits and Assessments/Closing Agreements      |As needed |     |    |     |     |  X  |
 |12 |Attrition                                          |As needed |     |    |     |     |  X  |
 |13 |Investment Program and Health Check              |Semi Annual |     | X  |     |  X  |     |
 |14 |Close Process Assessment & SEC                   |Semi Annual |     | X  |     |  X  |     |
-|15 |Other Topics                                         |As needed |     |    |     |     |  X  |
+|15 |Other Topics                                       |As needed |     |    |     |     |  X  |
 
 
 
@@ -122,18 +122,19 @@ The below amended Audit Committee `Earnings` and `Compliance and Special Topics`
 
 |#|Topics                                 | Frequency | FY Q1 | FY Q2 | FY Q3 | FY Q4 |As needed|
 |:---:|:-------------------------------------------------------------- | :---: | :---: | :---: | :---: | :---: |:---:  |
-| 1 |Code of Conduct, Related Party Transactions and other policy reviews   |As needed |     |     |     |     |  X  |
+| 1 |Code of Conduct, Related Party Transactions and other policy reviews   |Annua; |   X  |     |     |     |  X  |
 | 2 |Committee Annual Assessment                |Annual |  X  |     |     |     |  X  |
 | 3 |Related Party Transactions              |As needed |     |     |     |     |  X  |
 | 4 |Litigation                              |As needed |     |     |     |     |  X  |
 | 5 |Review of Audit Committee Charter          |Annual |  X  |     |     |     |  X  |
 | 6 |Organization Overview                      |Annual |     |  X  |     |     |  X  |
-| 7 |Privacy, Product, IP & Trade Compliance  |Annual |     |  X  |     |     |    |
-| 8 |Employment |Annual |     |  X  |     |     |    |
-| 9 |Corporate  |Annual |     |  X  |     |     |    |
-| 10 |Commercial  |Annual |     |  X  |     |     |    |
-|11 |Approval of Minutes                     |Quarterly |  X  |  X  |  X  |  X  |     |
-|12 |Other Topics                                         |As needed |     |    |     |     |  X  |
+| 7 |Privacy, Product & IP                      |Annual |     |  X  |     |     |    |
+| 8 |Employment                                 |Annual |     |  X  |     |     |    |
+| 9 |Corporate & Compliance                     |Annual |     |  X  |     |     |    |
+ 10 |Risk Management & Dispute Resolution       |Annual |     |  X  |     |     |    |
+| 11 |Commercial                                |Annual |     |  X  |     |     |    |
+|12 |Approval of Minutes                      |Quarterly |  X  |  X  |  X  |  X  |     |
+|13 |Other Topics                                         |As needed |     |    |     |     |  X  |
 
 
 #### System
@@ -159,7 +160,7 @@ The below amended Audit Committee `Earnings` and `Compliance and Special Topics`
 |#|Topics                                 | Frequency | FY Q1 | FY Q2 | FY Q3 | FY Q4 |As needed|
 |:---:|:-------------------------------------------------------------- | :---: | :---: | :---: | :---: | :---: |:---:  |
 | 1 | Security Operational Risk Assessment Results         |Annual |      |  X  |     |     |     |
-| 2 | Security Update                                 |Semi Annual |      |  X  |     |  X  |     |
+| 2 | Security Update                                 |Quarterly |   X   |  X  |   X  |  X  |     |
 | 3 | Organization Overview                                |Annual |      |     |     |  X  |     |
 | 4 |Other Topics                                         |As needed |     |    |     |     |  X  |
 
@@ -185,7 +186,7 @@ The below amended Audit Committee `Earnings` and `Compliance and Special Topics`
 
 |#|Topics                                 | Frequency | FY Q1 | FY Q2 | FY Q3 | FY Q4 |As needed|
 |:---:|:-------------------------------------------------------------- | :---: | :---: | :---: | :---: | :---: |:---:  |
-| 1 | Global Audit Plan and Fees/Appoint External Auditor   |Annual |     |     |     |  X  |     |
+| 1 | Global Audit Plan and Fees/Appoint External Auditor   |Annual |     |  X   |     |    |     |
 | 2 | Annual Assessment of Audit Firm, Engagement Team and Lead Audit Partner  |Annual |     |     |  X   |     |     |
 | 3 | Independence Review                        |Annual |     |     |     |  X   |     |
 | 4 | Quarterly and Annual Audit Results and required communications, as applicable  |Quarterly |  X   |  X   |  X   |   X  |    |

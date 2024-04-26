@@ -1,6 +1,5 @@
 ---
-title: "GitLab for Open Source Program Agreement"
-description: "This agreement ..."
+title: GitLab for Open Source Program Agreement
 ---
 
 ## **Open Source Program Agreement**

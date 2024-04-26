@@ -98,10 +98,10 @@ If there is no data currently being recorded for your customer in version.gitlab
 Using data from version.gitlab.com and the [Metrics Dictionary](https://docs.gitlab.com/ee/development/internal_analytics/metrics/metrics_dictionary.html) you can determine if the customer is doing the following:
 
 - Using one of more of our security testing tools (SAST, DAST, Container Scanning, Dependency Scanning) with continuous growth over 3 months
-- SAST jobs (counts.sast_jobs)  
+- SAST jobs (counts.sast_jobs)
 - DAST jobs (counts.dast_jobs)
 - Dependency scanning jobs (counts.dependency_scanning_jobs)
-- License management jobs (counts.license_management_jobs)  
+- License management jobs (counts.license_management_jobs)
 - Secret detection jobs (counts.secret_detection_jobs)
 - Container scanning jobs - counts.container_scanning_jobs
 
@@ -124,7 +124,7 @@ Usage Discovery Questions:
 Usage Discovery Questions:
 
 1. Are you using GitLab to deploy your applications?
-1. Do you use GitLab pages to create, manage and deploy static sites?
+1. Do you use GitLab Pages to create, manage and deploy static sites?
 1. Are you making use of review apps to get a full production like environment in every merge request?
 1. How do you currently manage your releases? (i.e. versioning, release notes, etc.)
 

@@ -84,7 +84,7 @@ information, and process to follow.
 
 ## Management Roles
 
-The convention at GitLab is to display [Manager](/company/team/structure/#manager) roles as:
+The convention at GitLab is to display [Manager](/handbook/company/structure/#manager) roles as:
 
 - `Manager, Brand Growth Manager` in the Marketing Division
 - `Manager, IT` in the Finance Division
@@ -109,7 +109,7 @@ different types of manager roles (such as `Support`), and the potential for one 
 Where:
 
 - Acting or Interim roles are [temporary management positions](/handbook/engineering/career-development/#temporary-management-positions).
-- `Senior` manager roles are introduced when needed, usually related to management [span of control](/company/team/structure/#management-group) in the relevant department.
+- `Senior` manager roles are introduced when needed, usually related to management [span of control](/handbook/company/structure/#management-group) in the relevant department.
 - Some departments have domain specific role names as well as, or instead of, `Engineering Manager`. Be specific when identifying which manager under Engineering is responsible for certain tasks in order to avoid confusion over the term "EM". For example:
     - `Support Operations Manager` for Support.
 - Specialty - which is maintained in Workday and [sync'ed to the handbook](/handbook/people-group/engineering/miscellaneous/#team-page-entry-specialty-field) - should generally follow these guidelines:

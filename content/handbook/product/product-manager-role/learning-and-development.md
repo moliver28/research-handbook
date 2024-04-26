@@ -218,7 +218,7 @@ This content is divided into five key competencies for Product Managers.
 
 ##### Quick reads and videos
 
-- [Gitlab Jobs to be Done (JTBD) Overview](/handbook/product/ux/jobs-to-be-done/)
+- [GitLab Jobs to be Done (JTBD) Overview](/handbook/product/ux/jobs-to-be-done/)
 - [Clayton Christensen - Understanding the Job](https://www.youtube.com/watch?v=sfGtw2C95Ms) (5 min video)
 - [Know Your Customers’ “Jobs to Be Done”](https://hbr.org/2016/09/know-your-customers-jobs-to-be-done)
 
@@ -461,7 +461,7 @@ _Please contribute your favorite resources here_
 - [Benefits of OKRs](https://www.whatmatters.com/faqs/benefits-of-okrs/)
 - [Getting Started with OKRs](https://learn.ally.io/path/employee/getting-started-with-okrs)
 - [Writing Basic OKRs](https://learn.ally.io/writing-basic-okrs)
-- [Gitlab - How to write OKRs](/handbook/product/product-okrs/#how-to-write-okrs)
+- [GitLab - How to write OKRs](/handbook/product/product-okrs/#how-to-write-okrs)
 - [Ally for OKRs - Overview for Product](https://www.youtube.com/watch?v=hP9yk_PSj2k&feature=youtu.be) (10 min video)
 
 ##### Deeper dive

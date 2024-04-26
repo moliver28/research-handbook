@@ -26,7 +26,7 @@ We currently maintain all groups via Zendesk itself.
   - CC blacklist: <noreply@google.com>
   - CC email subject: `[{{ticket.account}}] Update: {{ticket.title}}`
   - CC email text:
-    > You are registered as a CC on this support request ({{ticket.url}}). Reply
+    > You are registered as a CC on this support request ({{ticket.link}}). Reply
     > to this email to add a comment to the request.
     >
     > {{ticket.comments_formatted}}
@@ -138,8 +138,8 @@ for more information.
 #### Creating tickets for outbound requests
 
 **Warning** This often requires the ability to *create users* in Zendesk, which
-is only available on specific roles. That access is *very* risky and should only
-be used as documented in this section.
+is only available on specific roles i.e. CMOCs. That access is *very* risky and
+should only be used as documented in this section.
 
 **Note** This only applies to Zendesk Global at this time.
 

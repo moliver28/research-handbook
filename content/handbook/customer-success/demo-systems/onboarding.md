@@ -328,7 +328,7 @@ You only need to do this if you find yourself running out of shared runner minut
 
     > If that doesn't succeed, please reference [docker's documentation](https://docs.docker.com/engine/install/ubuntu/).
 
-7. Install Gitlab Runner.
+7. Install GitLab Runner.
 
     ```
     # Add the GitLab repository

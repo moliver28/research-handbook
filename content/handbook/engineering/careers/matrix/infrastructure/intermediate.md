@@ -3,7 +3,7 @@ title: "Intermediate - Infrastructure Department Career Framework"
 description: "The expected team member competencies in the Infrastructure department at GitLab for the Intermediate job level."
 ---
 
-{{% include "includes/engineering/career-matrix-nav.md" %}}
+{{% include "includes/engineering-careers/career-matrix-nav.md" %}}
 
 ## Intermediate
 
@@ -27,7 +27,7 @@ Intermediate-level engineers in Infrastructure are primarily focused on completi
 
 1. Proactively reaches out to team members or their manager when they need help.
 1. Is an effective Manager of One, setting up workflows and workspace to enable effective work.
-1. Independently provides well-reasoned design options, and works with team members to assess and select the best option. Advocates for [dogfooding](https://about.gitlab.com/handbook/engineering/infrastructure/#dogfooding) whenever possible.
+1. Independently provides well-reasoned design options, and works with team members to assess and select the best option. Advocates for [dogfooding](/handbook/engineering/infrastructure/#dogfooding) whenever possible.
 1. Regularly makes decisions and takes action to improve the team and self.
 1. Knows how to find and use the GitLab team tools for various production interactions without necessarily knowing the inner workings of those tools.
 1. Demonstrates awareness of key aspects of their projects (e.g. impact, communication of the change, required collaboration with other stakeholders, and similar). Works with team members to effectively plan and estimate timelines.
@@ -44,12 +44,12 @@ Intermediate-level engineers in Infrastructure are primarily focused on completi
 
 ### Intermediate Leadership Competencies
 
-{{% include "includes/engineering/intermediate-leadership-competency.md" %}}
+{{% include "includes/engineering-careers/intermediate-leadership-competency.md" %}}
   
 ### Intermediate Technical Competencies
 
-{{% include "includes/engineering/intermediate-technical-competency.md" %}}
+{{% include "includes/engineering-careers/intermediate-technical-competency.md" %}}
 
 ### Intermediate Values Alignment
 
-{{% include "includes/engineering/values-competency.md" %}}
+{{% include "includes/engineering-careers/values-competency.md" %}}

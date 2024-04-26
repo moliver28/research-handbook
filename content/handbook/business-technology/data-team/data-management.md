@@ -1,26 +1,8 @@
 ---
-
 title: "Data Team Data Management Page"
 description: "The Data Management Page covers the content around managing, securing, and governing the Enterprise Data Platform and related activities."
+controlled_document: true
 ---
-
-
-
-
-
-
-
-
-
-<div class="panel panel-gitlab-orange">
-**This is a Controlled Document**
-{: .panel-heading}
-<div class="panel-body">
-
-Inline with GitLab's regulatory obligations, changes to [controlled documents](/handbook/security/controlled-document-procedure.html) must be approved or merged by a code owner. All contributions are welcome and encouraged.
-
-</div>
-</div>
 
 ## Purpose
 
@@ -41,20 +23,6 @@ The Enterprise Data Platform captures, processes, and stores [data collected fro
 | Data Management (Code Owners) | Responsible for approving significant changes and exceptions to this procedure |
 
 ## Standard
-
-### Sisense
-
-We deploy a Role-Based Data Access Scheme in Sisense:
-
-- [User Access is managed with Okta](/handbook/business-technology/data-team/platform/sisensecdt/#accessing-sisense)
-- Data Access is managed with [Roles](/handbook/business-technology/data-team/platform/sisensecdt/#user-roles) and [Spaces](/handbook/business-technology/data-team/platform/sisensecdt/#spaces)
-- Each user is assigned a Sisense Role and this enables Data Access to dashboards and reports
-- The Sisense scheme interacts with the Snowflake Data Access schema to ensure a user does not have a "back door" into data from either system
-
-Additional controls include:
-
-- [Unused Dashboards Are Archived](/handbook/business-technology/data-team/platform/sisensecdt/#auto-archival-of-unused-dashboards)
-- [System Access is managed with an API Key](/handbook/business-technology/data-team/platform/sisensecdt/#sisense-api-key)
 
 ### Snowflake
 
@@ -115,7 +83,7 @@ In the Data Platform at GitLab we have multiple categories. Its good to highligh
 
 A **Quarterly Audit** is performed to validate system security, such as ensuring the right people have correct data access configuration and data pipelines are running correctly.
 
-The process is supported by the [Quarterly Data Health and Security issue template](https://gitlab.com/gitlab-data/analytics/-/blob/master/.gitlab/issue_templates/Platform%3A%20Quarterly%20Data%20Health%20and%20Security%20Audit.md). The label `~"Quarterly Data Health and Security Audit"` is used for all issues and merge requests related to the Quarterly audit.  
+The process is supported by the [Quarterly Data Health and Security issue template](https://gitlab.com/gitlab-data/analytics/-/blob/master/.gitlab/issue_templates/Platform%3A%20Quarterly%20Data%20Health%20and%20Security%20Audit.md). The label `~"Quarterly Data Health and Security Audit"` is used for all issues and merge requests related to the Quarterly audit.
 
 Here is a sample checklist of activities:
 
@@ -135,19 +103,8 @@ Here is a sample checklist of activities:
           - The Airflow account is the only user and no downstream models depend on it.
      - A review of tables flagged for removal will be done by the analytics community before being dropped. This will allow for any tables wrongly flagged to be kept.
 
-#### Sisense
-
-- Deactivate off-boarded employees from Sisense.
-     - All Sisense accounts from GitLab team members that are off-boarded, should be deactivated from the day they are off-boarded. This activity checks for any active accounts for off-boarded GitLab team members. Subsequently any active account will be deactivated. To compare off-boarded employees with the actual users, 2 sources needs to be combined. This is done to extract the list of users from Sisense and load this via sheetload into Snowflake. The queries and details for this process are in the [template](https://gitlab.com/gitlab-data/analytics/-/blob/master/.gitlab/issue_templates/Platform%3A%20Quarterly%20Data%20Health%20and%20Security%20Audit.md).
-- Deactivate any account, that has not logged-in within the past 90 days from the moment of performing an audit, from Sisense.
-     - Any Sisense account that hasn't logged-in for more than 90 days will be deactivated. If a GitLab team member wants to have access provisioned back again, a regular AR needs to be created. After manager approval the account will be activated.
-- Deprovision `SAFE Dashboard` Space access after 90 days not logged-in within the past 90 days from the moment of performing an audit.
-     - Any GitLab Team Member with access to the `SAFE Dashboard` Space that hasn't logged-in for more than 90 days will be deprovisioned from the `SAFE Dashboard` Space. If a GitLab team member wants to have access provisioned back again, a new AR needs to be created and all approvals need to be obtained again.
-- Check and set all refresh schedules for `Skip if unused`. This setting is contributional to make efficient use of our resources. All dashboards in all spaces should have this option set to true.
-
 #### Trusted Data
 
-- Review all Golden Record TD tests and make sure they're passing.
 - Review Data Siren to confirm known existence of RED data.
 - Generate a report of Business logic changes to the TD: Sales Funnel dashboard in the quarter. Business logic such as adding new dimensions, new facts, new marts, changing joins, adding new calculated fields.
 
@@ -155,6 +112,15 @@ Here is a sample checklist of activities:
 
 - Remove log files older than 90 days.
      - Following [this runbook](https://gitlab.com/gitlab-data/runbooks/-/blob/main/airflow_infrastructure/archival_pvc_volume/delete_pvc_volume.md) remove old Airflow logfiles to reduce PVC. If we run out of disk space Airflow stops working.
+
+#### Monte Carlo
+
+- Deactivate off-boarded employees from Monte Carlo
+     - All Monte Carlo accounts from GitLab team members that are off-boarded, should be deactivated from the day they are off-boarded. This activity checks for any active accounts for off-boarded GitLab team members. Subsequently any active account will be deactivated.
+- Deactivate any account, that has not logged-in within the past 90 days from the moment of performing an audit, from Monte Carlo.
+     - Any named user Monte Carlo account that hasn't logged for more than 90 days will be deactivated. If a GitLab team member wants to have access provisioned back again, a regular AR needs to be created. After manager approval the account will be activated if there there are licenses available
+     
+Note: The 90 days are subject to change. At this moment we have set a 90 days threshold because Monte Carlo is less frequently used by some team members (not needed as frequent as i.e. Snowflake or Tableau). We may change this in the future
 
 ## Exceptions
 

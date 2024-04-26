@@ -16,7 +16,7 @@ description: "The GitLab Merge Request Report Widgets Working Group aim is to as
 | Pajamas documentation | [Region: Merge request reports](https://design.gitlab.com/regions/merge-request-reports) |
 | Design specs | [Pajamas UI Kit](https://www.figma.com/file/qEddyqCrI7kPSBjGmwkZzQ/Component-library?node-id=38193%3A30482) |
 | Associated OKRs | [product#2872](https://gitlab.com/gitlab-com/Product/-/issues/2872) |
-| DRIs for each Widget | [DRI list](https://about.gitlab.com/handbook/engineering/development/dev/create/code-review/report-widgets-dri-list.html) |
+| DRIs for each Widget | [DRI list](/handbook/engineering/development/dev/create/code-review/report-widgets-dri-list.html) |
 
 ## Charter
 
@@ -55,7 +55,7 @@ The main target of the working group is not to implement everything themselves b
 
 #### Documentation outcomes
 
-- [DRI List (Eng. and UX)](https://about.gitlab.com/handbook/engineering/development/dev/create/code-review/report-widgets-dri-list.html)
+- [DRI List (Eng. and UX)](/handbook/engineering/development/dev/create/code-review/report-widgets-dri-list.html)
 - [Component technical documentation](https://docs.gitlab.com/ee/development/fe_guide/merge_request_widget_extensions.html)
 - [Contributing further and extending](/handbook/product/cross-stage-features/merge-requests/)
 

@@ -41,10 +41,6 @@ There are times when you will play the role of UX Research Operations Coordinato
 
 ### Step 3 - Choose the best recruiting channel from these options:
 
-- **[First Look (Qualtrics)](/handbook/product/ux/qualtrics/#distributing-a-survey-to-gitlab-first-look):**
-   - Contains GitLab users, mostly our Developer persona, although some more exotic job titles are also found there.
-   - Can be used to identify respondents for surveys.
-   - For other studies, feel free to “pre-screen” in First Look by performing an advanced search to see how many of the screener criteria are available.
 - **[Data warehouse contacts](/handbook/product/ux/ux-research/recruiting-participants/#finding-gitlabcom-users-in-the-data-warehouse)**
    - Requires editor access & SQL knowledge
    - Contains GitLab SaaS user information.
@@ -52,7 +48,6 @@ There are times when you will play the role of UX Research Operations Coordinato
    - Pull contacts of GitLab SaaS users and then follow the usual process in Qualtrics.
 - **Respondent.io:**
   - Great for quick turnarounds, or when participants don’t necessarily need to be GitLab users.
-  - Good for job titles that aren’t as prevalent in First Look
   - How to use it:
     - Log into Respondent and build and launch the campaign, using the screener from the person conducting the research.
     - Take care to double check your criteria and set the correct questions to “disqualify” participants. For example, you can specify that you only want Jira users by setting 'Jira' as a 'must select' response in the relevant question. This will automatically disqualify anyone who chooses another response. This saves you time by reducing the volume of screener responses you need to comb through. It also helps non-researchers easily see who is qualified to take part in the study.
@@ -60,19 +55,15 @@ There are times when you will play the role of UX Research Operations Coordinato
    - Good for unmoderated usability tests
    - We can leverage their panel to recruit technical users
 - **Using Team members to socialize requests:**
-   - Good for a supplement when using First Look for large number of responses to surveys
    - How to use it:
      - Post in Slack channels like #ux, #product, and #whats_happening_at_gitlab . Include a concise call to action, due date, and share the link that you want people to post.
 - **[Direct outreach](https://www.youtube.com/watch?v=rc2IX1e2sQ8&feature=youtu.be) on LinkedIn:**
-   - Good for job titles that aren’t prevalent in First Look or for people who use specific tools.
-      - Example: people need 10 years of experience with Jenkins on their profile.
    - How to use it:
       - You can search for the criteria you are looking for and use inMail credits to invite them.
       - If you do not have a Recruiter License, you will need to open an access request.
    - Watch this [video](https://youtu.be/rc2IX1e2sQ8) for how to get started
 - **Marketing newsletter:**
    - ***Note: Reserve this for critical studies, like the SUS.***
-   - Good for a supplement when using First Look for large number of responses to surveys
    - The newsletter is sent on the 10th and 25th of each month.
    - How to use it:
      - Submit a request for the survey to be included in the newsletter. Here is an example [issue](https://gitlab.com/gitlab-com/marketing/digital-marketing-programs/-/issues/4087).

@@ -169,7 +169,7 @@ On the day before time off:
 Area Sales Managers have additional steps to consider before leaving for time off:
 - [ ] Set expectations on coverage for 1:1s and team meetings
 - [ ] Updating quote approval routing in SFDC to the person covering for you. Navigate to you name dropdown - My Settings - Personal - Approver Settings.  Search for the person covering next to Delegated Approver, confirm and select Save
-- [ ] In Expensify, set Vacation Delegate in Settings - Account Details
+- [ ] In Navan, set Vacation Delegate in Settings - Account Details
 - [ ] Submit forecast
   - [ ] If planned time off exceeds the 25 consecutive days as outlined in the guide, request temporary ASM coverage for forecasting in Clari by submitting a request in the [Sales Operations](https://gitlab.com/gitlab-com/sales-team/field-operations/sales-operations/-/issues) project.
 
@@ -195,7 +195,7 @@ New team members should familiarize themselves with [The Required 7](/handbook/s
 1. Building your (consider changing the deck) [custom deck](https://docs.google.com/presentation/d/1duy8kjEvNiRx8fnCvc6ZnxWwXTM_71phbG3k9rgmU4Q/edit?usp=sharing) for any opp amount over $5k SMB $10k MM **Amount** (n.b. amount, not Net ARR) that:
     - Calculates the ROI of using GitLab vs. next best option (this might be vs. do nothing)
     - Provides the 2 options for the customer going forward - normally both with GitLab (example: Ult or Prem)
-    - Demonstrates a customised vision for the customer: “what if you used all of GitLab to do Devops in a single app?”
+    - Demonstrates a customised vision for the customer: “what if you used all of GitLab to do DevOps in a single app?”
     - Capture the full response, in the customers’ words to that vision and the reasons why they think it is possible, or not possible. This capture can be done in the speaker notes so your customer can validate and then copied into an activity after the call.
     - [video here](https://youtu.be/9Yq23PijO3c), and be sure to check out [this video](https://youtu.be/QDoXhDvkDYY) on creating an effective ROI slide deck and [this supporting deck](https://docs.google.com/presentation/d/1otCJF4kaaozhp0qWD3VgGQ73WgX1ZNP_IKnu3Qt_slI/edit?usp=sharing)
 1. Capturing key information:
@@ -380,7 +380,7 @@ Designating each opportunity that has a shot to close at the end of each fiscal 
 Hit the forecast we commit to and build better sales skills for our AEs and better coaching skills for our ASMs.
     - Ideal skills that need to be built are:
         - Understanding the concepts and execution around knowing the ideal timeline the customer wants to close.
-        - Identifying pain and having customers understand both the negative impacts of not switching to GitLab as well as the realized positive business outcomes by switching to Gitlab.
+        - Identifying pain and having customers understand both the negative impacts of not switching to GitLab as well as the realized positive business outcomes by switching to GitLab.
         - Building a time-bound mutual success plan with the customer based on the severity or the ability for the customer to devote resources to a project.
 
 ### Red / Green Lookback Process
@@ -778,7 +778,7 @@ The program will run for a total of **8** weeks;  each week focusing on a new to
 
 - Time Committment: A total of ~40 hours of dedicated time during the quarter between synchronous meetings and asynchronous work.
 
-The GitLab Commercial departnment expects all Team members to uphold the highest standards of moral and ethical behavior in harmony with GitLab’s CREDIT values. Engaging or promoting activities that are inconsistent with GitLab’s values is not acceptable. It is expected that Team members who are enrolled will uphold both stated and inferred values of working at Gitlab. Items include but are not limited to:
+The GitLab Commercial department expects all Team members to uphold the highest standards of moral and ethical behavior in harmony with GitLab’s CREDIT values. Engaging or promoting activities that are inconsistent with GitLab’s values is not acceptable. It is expected that Team members who are enrolled will uphold both stated and inferred values of working at GitLab. Items include but are not limited to:
 - Good collaboration with other team members
 - Assuming positive intent
 - Continuing to deliver results in the team member’s current position

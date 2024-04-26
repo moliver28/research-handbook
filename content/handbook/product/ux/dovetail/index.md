@@ -53,21 +53,21 @@ A bit like [affinity mapping](https://en.wikipedia.org/wiki/Affinity_diagram), t
 
 #### Enable Global Tags in your Project
 
-As a way to keep Gitlab's research more consistent, we encourage everyone to utilize Gitlab's global tags available in Dovetail, which are maintained by the UX Research Team. When research is performed in a consistent manner, it makes gathering insights across stages or over long periods of time much easier. To help move towards that goal of consistent research, try to incorporate global tags and follow our tagging best practices when synthesizing qualitative research. A good goal to have is 50% of tags in your project coming from the global tags.
+As a way to keep GitLab's research more consistent, we encourage everyone to utilize GitLab's global tags available in Dovetail, which are maintained by the UX Research Team. When research is performed in a consistent manner, it makes gathering insights across stages or over long periods of time much easier. To help move towards that goal of consistent research, try to incorporate global tags and follow our tagging best practices when synthesizing qualitative research. A good goal to have is 50% of tags in your project coming from the global tags.
 
 There are two sets of tags available for your projects. You may use either set whenever you want, as well as your own custom tags, but be aware you will have to enable the tags for **each project**. When summarizing your research, first look at the global tags, and then the section tags when appropriate, and lastly create your own tags. The differences between the two sets of tags is shown below:
 
-- [Gitlab Global Tags](https://gitlab.dovetailapp.com/settings/tags/1imTtBuMIPQSxT46mHjDeX) which contain tags that can be used across all stage groups for a wide range of projects, but particularly useful for solution validation. Try to look at these tags first.
-- [Gitlab Section Tags](https://gitlab.dovetailapp.com/settings/tags/79TyjJnDkNehFnB4h9DfTp) which contain tags organized by [section](/handbook/product/categories/#devops-stages), which can be used for more feature specific, feature-related work.
+- [GitLab Global Tags](https://gitlab.dovetailapp.com/settings/tags/1imTtBuMIPQSxT46mHjDeX) which contain tags that can be used across all stage groups for a wide range of projects, but particularly useful for solution validation. Try to look at these tags first.
+- [GitLab Section Tags](https://gitlab.dovetailapp.com/settings/tags/79TyjJnDkNehFnB4h9DfTp) which contain tags organized by [section](/handbook/product/categories/#devops-stages), which can be used for more feature specific, feature-related work.
 
 This [video](https://www.youtube.com/watch?v=Cmh4yNu8fxE) contains a walkthrough of the steps below to enable a global tag on your project:
 
 1. Open the project you are working on
 1. Click on the `plus` icon next to `Tags`
 1. Choose `Use an existing board`
-1. Under the `Workspace` tab, select `Gitlab Global Tags` and `Link to project`
-1. You will now see `Gitlab Global Tags` appear as a board under `Tags`
-1. Repeat steps 3-5 to enable `Gitlab Section Tags`
+1. Under the `Workspace` tab, select `GitLab Global Tags` and `Link to project`
+1. You will now see `GitLab Global Tags` appear as a board under `Tags`
+1. Repeat steps 3-5 to enable `GitLab Section Tags`
 1. Repeat this process for each project you are working on
 
 ##### How to use Global Tags with your notes
@@ -82,7 +82,7 @@ Tags are organized into categories, so you may want to familiarize yourself with
 
 Global tags can be used as a way to supplement manual tagging by providing standardization and structure. They are not meant to be the only source of tags used in your project. Due to the uniqueness of each research project, there may often be times when creating a new tag is more helpful than using one of the global tags.
 
-**Example:** When conducting a user interview, try to identify the users' feelings towards a particular experience. There may be a number of times when you will want to use tags from the Gitlab Global Tags such as `feature request` & `frustrated` when talking about an experience. Those insights may not be specific enough for your research, so creating additional tags like `wants a drop-down for options` can also be used.
+**Example:** When conducting a user interview, try to identify the users' feelings towards a particular experience. There may be a number of times when you will want to use tags from the GitLab Global Tags such as `feature request` & `frustrated` when talking about an experience. Those insights may not be specific enough for your research, so creating additional tags like `wants a drop-down for options` can also be used.
 
 ***A good goal to set for your project is to have 50% of your tags come from global tags.***
 
@@ -90,9 +90,9 @@ If you are unsure about whether to create your own tag or use an existing global
 
 ##### What tags are available?
 
-Gitlab team members may view the [Global Dovetail Tags](https://docs.google.com/spreadsheets/d/1N3ALqllthLveuH6jof2pv0HrJUm5k7k5HSjGeh1fgdM/edit?usp=sharing) Google Sheet that is maintained by the UX Research team.
+GitLab team members may view the [Global Dovetail Tags](https://docs.google.com/spreadsheets/d/1N3ALqllthLveuH6jof2pv0HrJUm5k7k5HSjGeh1fgdM/edit?usp=sharing) Google Sheet that is maintained by the UX Research team.
 
-Gitlab Global Tags are organized into six categories:
+GitLab Global Tags are organized into six categories:
 
 | Category      | Details       |  Example         |
 | ------------- | ------------- | ---------------- |

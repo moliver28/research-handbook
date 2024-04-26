@@ -1,10 +1,12 @@
-module gitlab.com/internal-handbook/internal-handbook.gitlab.io
+module gitlab.com/gitlab-com/content-sites/handbook
 
 go 1.19
 
+// 2024-02-23 @dnsmichi require 0.8.0 because of URL anchor regression in 0.9.0
+// Remove when fixed in https://gitlab.com/gitlab-com/content-sites/handbook/-/issues/194
+require github.com/google/docsy v0.9.1
+
 require (
-	github.com/google/docsy v0.7.2 // indirect
 	github.com/google/docsy/dependencies v0.7.2 // indirect
-	github.com/hairyhenderson/go-codeowners v0.3.1-0.20230710165731-859d0d06aff1 // indirect
-	gitlab.com/gitlab-com/content-sites/docsy-gitlab v0.3.4 // indirect
+	gitlab.com/gitlab-com/content-sites/docsy-gitlab v0.3.14 // indirect
 )

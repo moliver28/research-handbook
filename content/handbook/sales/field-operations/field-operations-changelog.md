@@ -1,6 +1,6 @@
 ---
 aliases: /handbook/sales/field-operations/changelog
-title: "Field Operations Changelog"
+title: "RSOE Changelog"
 description: "A running log of Field Operations changes (Sales Ops, CS Ops, Channel Ops & Deal Desk) organized by quarter and further by bi-weekly releases."
 ---
 
@@ -10,11 +10,40 @@ description: "A running log of Field Operations changes (Sales Ops, CS Ops, Chan
 
 
 
-The Field Operations Changelog keeps a running log of Field Ops changes related to Sales Ops, CS Ops, Channel Ops & Deal Desk. The log is organized by fiscal year/quarter and sub-organized by the bi-weekly Field Ops release milestone/epic. It was started in Q3-FY22 and is organized by newest updates at the top. Any entries that were included in a Field Ops Release are **bolded**.
+The Revenue Strategy, Operations & Enablement (RSOE) Changelog keeps a running log of changes related to RSOE functions. The log is organized by fiscal year/quarter and sub-organized by the bi-weekly RSOE release milestone/epic. It was started in Q3-FY22 and is organized by newest updates at the top. 
 
-To learn more about Field Ops releases, see the [Field Ops Release Schedule handbook page](/handbook/sales/field-operations/release-schedule/).
+To learn more about Field Ops releases, see the [RSOE Release Schedule handbook page](/handbook/sales/field-operations/release-schedule/).
+
+## Q1-FY25
+
+### 2024-04-01 Release ([epic](https://gitlab.com/groups/gitlab-com/sales-team/field-operations/-/epics/489))
+
+**[Update to Closed Lost/Downgrade Reason Fields](https://gitlab.com/gitlab-com/sales-team/field-operations/systems/-/issues/4697)**
+
+**[Updated Sales Stage Definitions](https://gitlab.com/gitlab-com/sales-team/field-operations/enablement/-/issues/2362)**
+
+### 2024-03-18 Release ([epic](https://gitlab.com/groups/gitlab-com/sales-team/field-operations/-/epics/53))
+
+**[Clari Pipeline Gen Tab Updates](https://internal.gitlab.com/handbook/sales/sales-tools/sales-forecasting/#sales-forecasting)**
+
+### 2024-02-26 Release ([epic](https://gitlab.com/groups/gitlab-com/sales-team/field-operations/-/epics/478))
+
+**[Account Cleanup Deadline](https://internal.gitlab.com/handbook/sales/go-to-market/rules-of-engagement/#accounts-eligible-for-immediate-transfer)**
+
+**[Naming Convention Guidelines - GitLab Duo Pro](https://handbook.gitlab.com/handbook/sales/field-operations/gtm-resources/#opportunity-naming-convention)**
+
+**[Clari Forecasting - Net ARR + PS Summary Tab](https://internal.gitlab.com/handbook/sales/sales-tools/sales-forecasting/#sales-forecasting)**
 
 ## Q4-FY24
+
+### 2023-12-18 Release ([epic](https://gitlab.com/groups/gitlab-com/sales-team/field-operations/-/epics/427))
+
+**[Clari Feature Updates](https://clari.my.site.com/customer/s/article/Deal-Risk-Momentum-Indicators)**
+
+**[Customer Reminders to Link SaaS Subscriptions](https://gitlab.com/gitlab-org/customers-gitlab-com/-/issues/6283)**
+
+**[Ultimate trials for SaaS Premium Customers](https://internal.gitlab.com/handbook/product/fulfillment/saas-ultimate-trials/)**
+
 
 ### 2023-12-04 Release ([epic](https://gitlab.com/groups/gitlab-com/sales-team/field-operations/-/epics/424))
 

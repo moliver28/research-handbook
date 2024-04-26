@@ -6,7 +6,7 @@ weight: -10
 
 ## Purpose
 
-For [executives](/handbook/company/team/structure/#executives) to connect on a weekly basis in order to:
+For [executives](/handbook/company/structure/#executives) to connect on a weekly basis in order to:
 
 1. Get timely input from E-Group
 1. Align on key initiatives
@@ -21,7 +21,7 @@ weeks and may occasionally be rescheduled for another day due to calendar confli
 
 ## Attendees
 
-1. [Executives](/handbook/company/team/structure/#executives)
+1. [Executives](/handbook/company/structure/#executives)
 1. [Chief of Staff to the CEO](/job-families/chief-executive-officer/chief-of-staff/); when not possible, the [Director, Strategy and Operations](/job-families/chief-executive-officer/strategy-and-operations/)
 1. [CEO Shadows](/handbook/ceo/shadow/)
 1. [Executive Business Admin](/handbook/eba/#executive-business-administrator-team) to the CEO (optional)
@@ -59,4 +59,4 @@ The agenda for each E-Group Weekly has a single section for each meeting. Each a
 1. TODO: may not require significant discussion time, but there is an ask for all or a subset of E-Group team members
 1. DISCUSS: cover in this meeting
 
-The CoST to the CEO will order agenda topics. FYIs and TODOs will usually appear at the start of a meeting.
+The Office of the CEO will order agenda topics. FYIs and TODOs will usually appear at the start of a meeting.

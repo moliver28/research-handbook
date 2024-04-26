@@ -85,7 +85,7 @@ AEs/SAEs/ASMs/ISRs and their associated managers fall under Sales.
 
 Members of the sales organization and sales development, should receive access to ZoomInfo as part of their role entitlement request. If the team member did not receive access or if access had been removed and you would like it back you will need to open an access request.
 
-Specifically, for a Marketing related role (SDRs/BDRs) please open an (individual access request - AR for short)[https://about.gitlab.com/handbook/business-technology/team-member-enablement/onboarding-access-requests/access-requests/] and tag your manager for approval and Rob Rosu (Mops), while for a Field Sales related role (AEs/SAEs/ASMs/ISRs) open an AR and tag your manager for approval and Briann Vandre (Data Intelligence). 
+Specifically, for a Marketing related role (SDRs/BDRs) please open an (individual access request - AR for short)[/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/] and tag your manager for approval and Rob Rosu (Mops), while for a Field Sales related role (AEs/SAEs/ASMs/ISRs) open an AR and tag your manager for approval and Briann Vandre (Data Intelligence).
 
 If you are experiencing issues with ZoomInfo, your first point of contact is ZoomInfo. You can reach them via email at: helpmenow@zoominfo.com.
 
@@ -174,3 +174,35 @@ Marketo/ZoomInfo webhook is triggered, on form-fill, when the person record fill
 1. Filled out Contact Us form. 
 
 Enrich is mostly set to enrich the ZoomInfo fields. The ZoomInfo ([ZI]) fields, will have their values overwritten with the most up to date information. The other standard fileds like `Employees Bucket` or other Marketo standard fields like (First Name, Last Name, Job Title) are getting enriched only if the information is missing. 
+
+### Is your Google Chrome stalling?
+
+This may be related to the Zoominfo Google Chrome extension. To troubleshoot the issue that you are encountering, we recommend following the steps outlined below:
+
+1. Remove & reinstall the extension:
+   - [Click here to find the extension in the Chrome store](https://app.forethought.ai/redirect/v2?destination=https%3A%2F%2Fchrome.google.com%2Fwebstore%2Fdetail%2Fzoominfo-reachout-b2b-con%2Ffofjcndophjadilglgimelemjkjblgpf%3Fhl%3Den-US&tracking_token=DxzK1zOdmUHVEiYQxvkjLVG1TtSLBShpOeRFe-cFY8RDNz3tY-gBNtMtkSSy5G-KIAEXTgLO5Esba7yh6-TKslzG2ko_j_q2_5qmxntCv0jIW0iIyb40qIufYGLdW43n8o2-bojTMbTmmrpa8CQe5E4BnVTNwych5SPOC5FC1oGI_wz5kzi6z-h8VLSZqHzs-gTi_MAMGg2R8QfebtRQZpRgImLVM2Fm4LoI1cHnvXkxQ16MJ5YBu5Musbp5_3GlYOa3FbvMeWHf5D_SBzdKag%3D%3D)
+
+1. Ensure your Chrome browser is up to date:
+
+   - Select the three dots in the top right-hand corner of your Chrome browser > choose "Settings". From the Settings page, select "About Chrome" in the bottom left of the page
+
+   - You will see at the top of the page if Google Chrome is up to date or updating
+
+   - Allow time for the browser to update if necessary and re-launch your browser when prompted
+
+1. Allow all cookies in your browser settings:
+
+    - Select the three dots in the top right-hand corner of your Chrome browser > choose "Settings"
+    - From the Settings page, select "Privacy and Security" > then "Third-party cookies" > then "Allow third-party cookies"
+
+
+1. Clear your browser’s cache and cookies for all time:
+    - Click the three dots in the top right corner of your Chrome browser > click "More Tools" > then “Clear Browsing Data”
+    - In the pop-up window, select the "Advanced" tab > then Time Range of “All Time”
+    - Select the following two checkboxes called “Cookies and other site data” AND “Cached images and files”
+    - Click “Clear data”
+
+1. Lastly, log back into the ZoomInfo platform first, and then log into the Extension
+
+
+

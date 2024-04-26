@@ -69,7 +69,7 @@ To assess newly acquired/developed systems that enable security controls OR are/
 
 ### 1. System identification
 
-Our goal is to identify systems that enable security controls (e.g., access management system) OR systems that are (or may be) subject to regulatory (e.g., SOX) or compliance requirements (SOC2) as early as possible via our [Third Party Risk Management (TPRM) Program]({{< ref "third-party-risk-management" >}}). As we engage with third parties for new systems, we assess the use of the system and whether or not it meets the criteria described above. Existing systems can also be ingested into the Security Compliance Intake process. Examples of these could include systems whose functionality has expanded to support security controls or instances where our understanding of a security control has improved resulting in the identification of a previously uncredited supporting system.
+Our goal is to identify systems that enable security controls (e.g., access management system) OR systems that are (or may be) subject to regulatory (e.g., SOX) or compliance requirements (SOC2) as early as possible. As we develop new features/systems and engage with third parties for services, we assess the use of the system and whether or not it meets the criteria described above. Existing systems can also be ingested into the Security Compliance Intake process. Examples of these could include systems whose functionality has expanded to support security controls or instances where our understanding of a security control has improved resulting in the identification of a previously uncredited supporting system.
 
 If the system meets the criteria, we open up a new [Security Compliance Intake Issue](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-compliance-commercial-and-dedicated/security-compliance-intake/-/issues/new?issue[title]=System%20Intake:%20%5BSystem%20Name%20FY2%23%20Q%23%5D&issuable_template=intakeform).
 
@@ -79,9 +79,9 @@ If the system meets the criteria, we open up a new [Security Compliance Intake I
 
 - System overview
 - Implemented security controls or impacted regulatory or compliance program
-- Link to TPRM review and results
-- Link to most recent [Business Impact Analysis]({{< ref "business-impact-analysis" >}}) and [Critical System Tier]({{< ref "critical-systems#critical-systems-tiering-methodolgy" >}}) (CST)
-- Control owner details
+- Link to TPRM reviews or Production Readiness reviews
+- [Critical System Tier]({{< ref "critical-systems#critical-systems-tiering-methodolgy" >}}) (CST)
+- Key Contact Details
 - Deployment model and implementation status
 - Data classification
 - Regulatory scope (supported by Security Compliance and [Internal Audit](/handbook/internal-audit/))
@@ -128,6 +128,7 @@ Note: In some instances, GitLab has created custom controls for the GCF which ex
 |     AC-19(5)     |     Access Control for Mobile Devices - Full Device or Container-based Encryption          |     To be completed.     |
 |     AC-21     |     Information Sharing          |     Develop, document, and disseminate information classification and sharing guidance for users.     |
 |     AC-22     |     Publicly Accessible Content          |     Implement a process to remove nonpublic information and to review and approve content prior to opening such content to the public.     |
+
 {{% /details %}}
 
 {{% details summary="Awareness & Training (AT)" %}}
@@ -142,6 +143,7 @@ This control family helps to ensure users of information systems are adequately 
 |     AT-2(2)     |     Literacy Training and Awareness - Insider Threat          |     To be completed.     |
 |     AT-3     |     Role-based Training          |     Provide role-based security and privacy training to appropriate team members and incorporate lessons learned from internal or external security incidents or breaches where appropriate.     |
 |     AT-4     |     Training Records          |     Document and monitor security and privacy training activities and retain associated training records.     |
+
 {{% /details %}}
 
 {{% details summary="Audit and Accountability (AU)" %}}
@@ -157,6 +159,7 @@ This control family provides guidance on procedures for event logging and auditi
 |     AU-6(4)     |     Audit Record Review, Analysis, and Reporting - Central Review and Analysis          |     To be completed.     |
 |     AU-6(5)     |     Audit Record Review, Analysis, and Reporting - Integrated Analysis of Audit Records          |     To be completed.     |
 |     AU-11     |     Audit Record Retention v2          |     Retaining audit records for organization-defined time period consistent with records retention policy to provide support for after-the-fact investigations of incidents and to meet regulatory and organizational information retention requirements.     |
+
 {{% /details %}}
 
 {{% details summary="Assessment, Authorization, and Monitoring (CA)" %}}
@@ -178,6 +181,7 @@ This control family focuses on the continuous monitoring and improvement of secu
 |     CA-8     |     Penetration Testing          |     Specialized testing to identify vulnerabilities that could be exploited by adversaries.     |
 |     CA-8(1)     |     Penetration Testing - Independent Penetration Testing Agent or Team          |     To be completed.     |
 |     CA-9     |     Internal System Connections          |     Connections between organizational systems and separate constituent system components.     |
+
 {{% /details %}}
 
 {{% details summary="Configuration Management (CM)" %}}
@@ -202,6 +206,7 @@ This control family focuses on the configuration of software and devices on the 
 |     CM-10(1)     |     Software Usage Restrictions - Open-source Software          |     To be completed.     |
 |     CM-11     |     User-installed Software          |     Established policies governing the permitted and prohibited actions regarding software installation by users.     |
 |     CM-11(2)     |     User-installed Software - Software Installation with Privileged Status          |     To be completed.     |
+
 {{% /details %}}
 
 {{% details summary="Contingency Planning (CP)" %}}
@@ -222,6 +227,7 @@ This control family prepares organizations for system failures and breaches. Con
 |     CP-9(1)     |     System Backup - Testing for Reliability and Integrity          |     To be completed.     |
 |     CP-9(6)     |     System Backup - Redundant Secondary System          |     To be completed.     |
 |     CP-10     |     System Recovery and Reconstitution v2          |     The execution of contingency plan activities for recovery and reconstitution of the system to a known state within an organziation-defined time period consist with recovery time and recovery point objectives after a disruption, compromise, or failure.     |
+
 {{% /details %}}
 
 {{% details summary="Identification and Authentication (IA)" %}}
@@ -237,6 +243,7 @@ This control family controls the reliable identification of users and devices. D
 |     IA-5     |     Authenticator Management v2          |     To manage system authenticators.     |
 |     IA-5(1)     |     Authenticator Management - Password-based Authentication          |     To be completed.     |
 |     IA-5(6)     |     Authenticator Management - Protection of Authenticators          |     To be completed.     |
+
 {{% /details %}}
 
 {{% details summary="Incident Response (IR)" %}}
@@ -256,6 +263,7 @@ This control family controls all aspects of responding to a serious incident. Th
 |     IR-9(2)     |     Information Spillage Response - Training          |     To be completed.     |
 |     IR-9(3)     |     Information Spillage Response - Post-spill Operations          |     To be completed.     |
 |     IR-9(4)     |     Information Spillage Response - Exposure to Unauthorized Personnel          |     To be completed.     |
+
 {{% /details %}}
 
 {{% details summary="Maintenance (MA)" %}}
@@ -266,6 +274,7 @@ This control family deals with all elements of system maintenance, including sof
 | Control | Title | Description |
 |---------|-------------|---------------|
 |     MA-1     |     Policy and Procedures          |     Establishment of maintenance policy and procedures that address the controls in the MA family implemented within systems and organizations.     |
+
 {{% /details %}}
 
 {{% details summary="Media Protection (MP)" %}}
@@ -284,6 +293,7 @@ This control family covers the use, storage and safe destruction of media and fi
 |     MP-6(2)     |     Media Sanitization - Equipment Testing          |     To be completed.     |
 |     MP-6(8)     |     Media Sanitization - Remote Purging or Wiping of Information          |     To be completed.     |
 |     MP-7     |     Media Use          |     To restrict or prohibit the use of organization-defined types of system media on organization-defined systems or system components and prohibit the use of portable storage devices in organizational systems when such devices have no identifiable owner.     |
+
 {{% /details %}}
 
 {{% details summary="Physical and Environmental Protection (PE)" %}}
@@ -309,7 +319,8 @@ This control family covers privacy and system security plans (SSPs), including s
 |     PL-4(1)     |     Rules of Behavior - Social Media and External Site/application Usage Restrictions          |     To be completed.     |
 |     PL-8     |     Security and Privacy Architectures          |     To be consistent with the organization-wide security and privacy architectures, which are integral to and developed as part of the enterprise architecture.     |
 |     PL-10     |     Baseline Selection          |     Predefined sets of controls specifically assembled to address the protection needs of a group, organization, or community of interest.     |
- {{% /details %}}
+
+{{% /details %}}
 
 {{% details summary="Program Management (PM)" %}}
 > [<i class="fa-solid fa-file-lines"></i> Program Management (PM)]({{< ref "../security-compliance" >}})
@@ -341,7 +352,8 @@ This control family covers all elements of the management of an information syst
 |     PM-28     |     Risk Framing          |     To identify the assumptions, constraints, risk tolerance, priorities, and trade-offs when conducted at the organization level and in consultation with stakeholders throughout the organization including mission, business, and system owners.     |
 |     PM-29     |     Risk Management Program Leadership Roles          |     Senior accountable official for risk management leads the risk executive (function) in organization-wide risk management activities.     |
 |     PM-30     |     Supply Chain Risk Management Strategy          |     To develop an organization-wide strategy for managing supply chain risks associated with the development, acquisition, maintenance, and disposal of systems, system components, and system services.     |
- {{% /details %}}
+
+{{% /details %}}
 
 {{% details summary="Personnel Security (PS)" %}}
 > [<i class="fa-solid fa-file-lines"></i> Personnel Security (PS)]({{< ref "../security-compliance" >}})
@@ -362,6 +374,7 @@ This control family covers different policies and procedures around the manageme
 |     PS-7     |     External Personnel Security          |     To establish personnel security requirements, including security roles and responsibilities for external providers.     |
 |     PS-8     |     Personnel Sanctions          |     To employ a formal sanctions process for individuals failing to comply with established information security and privacy policies and procedures.     |
 |     PS-9     |     Position Descriptions          |     To establish specification of security and privacy roles in individual organizational position descriptions to facilitate clarity in understanding the security or privacy responsibilities associated with the roles and the role-based security and privacy training requirements for the roles.     |
+
 {{% /details %}}
 
 {{% details summary="Personally Identifiable Information (PII) Processing and Transparency (PT)" %}}
@@ -374,6 +387,7 @@ This control family helps to safeguard sensitive data, focusing on consent and p
 |     PT-1     |     Policy and Procedures          |     Establishment of personally identifiable information processing and transparency policy and procedures that address the controls in the PT family implemented within systems and organizations.     |
 |     PT-3     |     Personally Identifiable Information Processing Purposes          |     To identify and document the purpose for processing providing organizations with a basis for understanding why personally identifiable information may be processed.     |
 |     PT-9     |     Physical Copies          |     To restrict, control, and track the creation and destruction of physical documents containing personally identifiable information.     |
+
 {{% /details %}}
 
 {{% details summary="Risk Assessment (RA)" %}}
@@ -391,6 +405,7 @@ This control family focuses on the assessment of system vulnerabilities and rele
 |     RA-7(1)     |     Risk Response - Insurance Considerations          |     To be completed.     |
 |     RA-8     |     Privacy Impact Assessments          |     An analysis of how personally identifiable information is handled to ensure that handling conforms to applicable privacy requirements, determine the privacy risks associated with an information system or activity, and evaluate ways to mitigate privacy risks.     |
 |     RA-9     |     Criticality Analysis          |     To identify critical system components and functions by performing a criticality analysis.     |
+
 {{% /details %}}
 
 
@@ -418,6 +433,7 @@ This control family includes the allocation of resources and the creation of sys
 |     SA-9(5)     |     External System Services - Processing, Storage, and Service Location          |     To be completed.     |
 |     SA-15     |     Development Process, Standards, and Tools          |     Establish a development process that supports GitLab's change management program and addresses GitLab's security and privacy requirements.     |
 |     SA-21     |     Developer Screening          |     Establish and implement access controls and screening criteria for external developers performing work on acquired systems and services.     |
+
 {{% /details %}}
 
 {{% details summary="System and Communications Protection (SC)" %}}
@@ -441,6 +457,7 @@ This control family covers the protection of system boundaries and the safe mana
 |     SC-18(2)     |     Mobile Code - Acquisition, Development, and Use          |     To be completed.     |
 |     SC-28     |     Protection of Information at Rest v2          |     To protect the confidentiality and/or integrity of information at rest.     |
 |     SC-28(3)     |     Protection of Information at Rest - Cryptographic Keys          |     To be completed.     |
+
 {{% /details %}}
 
 {{% details summary="System and Information Integrity (SI)" %}}
@@ -462,6 +479,7 @@ This control family focuses on maintaining the integrity of the information syst
 |     SI-13     |     Predictable Failure Prevention          |     To determine mean time to failure (MTTF) to address potential failures of system components that provide security capabilities.     |
 |     SI-18     |     Personally Identifiable Information Quality Operations          |     To confirm the accuracy and relevance of personally identifiable information throughout the information life cycle.     |
 |     SI-18(4)     |     Personally Identifiable Information Quality Operations - Individual Requests          |     To be completed.     |
+
 {{% /details %}}
 
 {{% details summary="Supply Chain Risk Management (SR)" %}}
@@ -489,6 +507,7 @@ This control family covers policies and procedures to counter risks in the suppl
 |     SR-9     |     Tamper Resistance and Detection          |     To implement a tamper protection program for the system, system component, or system service.     |
 |     SR-9(1)     |     Tamper Resistance and Detection - Multiple Stages of System Development Life Cycle          |     To be completed.     |
 |     SR-12     |     Component Disposal          |     To dispose of organization-defined data, documentation, tools, or system components.     |
+
 {{% /details %}}
 
 ## References

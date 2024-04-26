@@ -25,13 +25,12 @@ At GitLab, we believe everyone can contribute. Because nearly anyone with an int
 <iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23B39DDB&amp;ctz=America%2FLos_Angeles&amp;src=Z2l0bGFiLmNvbV9uMnNibXZmMjlqczBzM3BiM2ozaHRwa3FmZ0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t&amp;src=Z2l0bGFiLmNvbV8xcXZlNmc4MWRwOTFyOWhldnRrZmQ5cjA5OEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&amp;src=Z2l0bGFiLmNvbV8xOGVqOHN0NmlxajZpYXB1NTNrajUzNHBsa0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t&amp;color=%23039BE5&amp;color=%239E69AF&amp;color=%23009688&amp;title=All%20GitLab%20Virtual%20Events&amp;showCalendars=1" style="border:solid 1px #777" width="1000" height="600" frameborder="0" scrolling="no"></iframe>
 </figure>
 
-We have 4 separate Google calendars to manage different types and platforms of virtual events in GitLab:
+We have 3 separate Google calendars to manage different types and platforms of virtual events in GitLab:
 * [GitLab-Hosted On24 Webcasts/Workshops](https://calendar.google.com/calendar?cid=Z2l0bGFiLmNvbV8xcXZlNmc4MWRwOTFyOWhldnRrZmQ5cjA5OEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t)
 * [GitLab-Hosted Zoom Webcasts/Workshops](https://calendar.google.com/calendar?cid=Z2l0bGFiLmNvbV8xcXZlNmc4MWRwOTFyOWhldnRrZmQ5cjA5OEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t)
-* [Self-service](https://calendar.google.com/calendar?cid=Z2l0bGFiLmNvbV9uMnNibXZmMjlqczBzM3BiM2ozaHRwa3FmZ0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t)
 * [External/Sponsored Virtual Events](https://calendar.google.com/calendar?cid=Z2l0bGFiLmNvbV8xOGVqOHN0NmlxajZpYXB1NTNrajUzNHBsa0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t)
 
-All 4 calendars are consolidated into a single GitLab virtual events calendar view (above - calendars are not public because they contain secure login for presenters). **The purpose of the consolidated view is to help event organizer(s) minimize topic overlap with other GitLab virtual events happening around the same time and to provide executive visibility into ALL virtual events that GitLab is running/participating in.**
+All 3 calendars are consolidated into a single GitLab virtual events calendar view (above - calendars are not public because they contain secure login for presenters). **The purpose of the consolidated view is to help event organizer(s) minimize topic overlap with other GitLab virtual events happening around the same time and to provide executive visibility into ALL virtual events that GitLab is running/participating in.**
 
 #### Glossary of calendar event naming convention:
 {: #calendar-glossary}
@@ -39,8 +38,6 @@ All 4 calendars are consolidated into a single GitLab virtual events calendar vi
 * `[Hold WC Hosted] Webcast title` - GitLab hosted webcast still in planning
 * `[WC Hosted] Webcast title` - Confirmed GitLab hosted webcast
 * `[DR WC Hosted] Webcast title` - Dry run for GitLab hosted webcast
-* `[Hold self-service] Event title` - Self-service virtual event still in planning
-* `[Self-service] Event title` - Confirmed self-service virtual event 
 * `[Hold WC sponsored] Webcast title` - Sponsored webcast still in planning
 * `[WC sponsored] Webcast title` - Confirmed sponsored webcast
 * `[Hold VC sponsored] Conference title` - Sponsored virtual conference still in planning
@@ -86,21 +83,12 @@ We have developed a [decision tree on FigJam](https://www.figma.com/file/Imb5xNn
 ## Virtual event types
 {: #types .gitlab-purple}
 
-### Self-service
-{: #self-service}
-This is a light weight virtual event that can be hosted on GitLabber's personal zoom. This is recommended for smaller virtual events (200 attendees max) and **allows you to break the audience into smaller groups during the event**. Attendees are able to be interactive in this event type, having the option to share both audio/video if allowed by the host.
-
-We can track registration, but there is **NO Marketo integration and NO Marketo landing page**, requiring manual list upload to Marketo post event by MOps. For this virtual event type, no Campaigns Team program support pre/post event will be required.
-
-[Self-service handbook](/handbook/marketing/virtual-events/self-service-virtual-events/)
-
-This is the same format as a self-service event, except **Campaigns Team** will support 1-2 invitations and follow-up email. 
-
 ### Webcast
 {: #webcast}
 This is a GitLab-hosted virtual event with `Webcast` type configuration, which **requires registration** to enable Marketo sync. There are two tech platforms used for webcasts (based on the audience/goal):
 * On24 (Campaigns Team): goal is net new customer acquisition, aligned to campaign motions to drive MQLs in target accounts and broader prospect database. Requires registration on On24.
 * Zoom (Field Marketing): goal is to increase conversion/velocity of MQLs to SAO, and/or SAO to Closed Won, aligned to campaign motions. Capped registration at 1000 attendee, requires registration on Marketo landing page.
+* We had a virtual event type called self-service events. This type has been deprecated, but you can run them as a webcast by working with either Marketing Campaigns or Field Marketing.
 
 [Webcast handbook](/handbook/marketing/virtual-events/webcasts/)
 
@@ -129,31 +117,25 @@ Note: these events are not included in the above decision tree as they are not G
 ### GitLab-hosted Virtual events details by type
 {: #detail-by-type}
 
-|                           |  Self-service |  Self-service w/ promotion   | Webcast | Virtual Conference  |
-|---------------------------|---------|----------------|------------------|----------|
-| Attendee Size             | 1-100              | 1-100                 | 201-1000 | 500+
-| SLA                       |  5 BD              | 21 BD                 | 45 BD   |45 BD+  |
-| Type                      |  Meeting           | Meeting               | Webcast |Conference  |
-| Tracking                  |  No                | No                    | Yes     | Yes  |
-| LP/Registration           |  Optional<br>(Zoom) | Optional<br>(Zoom)    | Yes     | Yes  |
-| Mktg<br>Promotion         |  No                | Yes                   | Yes     | Yes  |
-| Mktg<br>Moderate          |  No                | No                    | Yes     | Yes |
-| Mktg <br>Followup         |  No                | Yes                   | Yes     | Yes  |
-| Breakout<br>Rooms         |  Yes               | Yes                   | No      | Yes  |
-| Polls/Q&A                 |  Yes*/No           | Yes*/No               | Yes/Yes | Yes |
-| Confirmation/<br>Reminder |  Yes/No*           | Yes/No*               | Yes/Yes | Yes  |
+|                           |  Webcast | Virtual Conference  |
+|---------------------------|------------------|----------|
+| Attendee Size             | 201-1000 | 500+
+| SLA                       |  45 BD   |45 BD+  |
+| Type                      |  Webcast |Conference  |
+| Tracking                  | Yes     | Yes  |
+| LP/Registration           |  Yes     | Yes  |
+| Mktg<br>Promotion         |  Yes     | Yes  |
+| Mktg<br>Moderate          | Yes     | Yes |
+| Mktg <br>Followup         |  Yes     | Yes  |
+| Breakout<br>Rooms         | No      | Yes  |
+| Polls/Q&A                 | Yes/Yes | Yes |
+| Confirmation/<br>Reminder  | Yes/Yes | Yes  |
 
 **FAQ & Notes:**
 * Breakout rooms CANNOT be selected by attendees. Only the host can add attendees to rooms. Within each breakout room, Co-hosts can record when given permission by the host.
-* For self-service type events, the requestor is responsible for the zoom setup, live moderation, recording and upload (GitLab Unfiltered - Unlisted). Self-service w/ promotion events follow the same requestor responsibilities, with the addition of providing MPM with email and follow-up copy. 
-* Review the features to compare [Zoom capabilities]() between meeting type and webcast type
 
 ## How to go live?
 {: #going-live}
-
-### Self-service virtual events 
-{: #go-live-self-service}
-In the spirit of efficiency, we encourage team members to host self-service events when they have interesting content to share with the GitLab community. See the project planning and best practices for producing self-service events in the [self-service virtual events execution page](/handbook/marketing/virtual-events/self-service-virtual-events/) to get started. 
 
 ### Webcasts 
 {: #go-live-webcast}
@@ -161,19 +143,6 @@ Currently, only the Campaigns Team team can run GitLab hosted virtual event with
 
 ## How to promote your virtual event?
 {: #promotion}
-
-### Self-service
-{: #promotion-self-service-no-promo}
-**If you have not yet identified if a self-service virtual event is the correct event type of event for you, please scroll to the top of this page to find out.**
-
-Please see the self-service virtual [event promotion guide](/handbook/marketing/virtual-events/self-service-virtual-events/) for best practice instructions on how to promote.
-
-### Self-service with promotion
-{: #promotion-self-service}
-Below are Marketing promotion options for self-service virtual event, including requirements and DRI to contact to get the promotions started. Issue links are included in the [epic code template](/handbook/marketing/virtual-events/self-service-virtual-events/#epic-code-with-promotion) for self-service with promotion. The requestor will create the relevant promotion issues for the event and assign to DRI. 
-
-* **Organic Social Post:** 1 post, requires 5 BD turnaround, DRI = Social team
-* **Targeted email blast:** 1-2 sends, requires 5 BD turnaround, DRI = MPM
 
 ### Webcasts
 {: #promotion-webcast}
@@ -191,7 +160,7 @@ Below is a summary of the promotion plan for webcasts. MPMs will be responsible 
 #### Zoom capabilities
 {: #zoom-capabilities}
 
-When scheduling a self-service event, this table can help guide you towards the right event type to select based on the features you would like to use during the event. GitLab hosted virtual events will need to fit into either: Zoom Webcast type or Zoom Meeting type.
+When scheduling an event, this table can help guide you towards the right event type to select based on the features you would like to use during the event. GitLab hosted virtual events will need to fit into either: Zoom Webcast type or Zoom Meeting type.
  
 |                                       | Zoom Webcast                | Zoom Meeting                                  |
 |---------------------------------------|-----------------------------|-----------------------------------------------|

@@ -32,7 +32,7 @@ Mitigate future incidents by empowering developers to efficiently work on test c
 1. [Set up load testing environment for PE](https://gitlab.com/gitlab-org/quality/team-tasks/-/issues/832) `=> 100%`
 1. Address critical test gaps with new smoke tests for Package group `=> 100%`
 1. Update our process, documentation, on-boarding, and culture going forward. `=> 100%`
-  - Create risk map for [PE](https://about.gitlab.com/handbook/engineering/development/ops/verify/pipeline-execution/risk-map/), [Runner](https://about.gitlab.com/handbook/engineering/development/ops/verify/runner/risk-map/), and [Package](https://gitlab-org.gitlab.io/ci-cd/package-stage/risk-mapping/) `=> 100%`
+  - Create risk map for [PE](/handbook/engineering/development/ops/verify/pipeline-execution/risk-map/), [Runner](/handbook/engineering/development/ops/verify/runner/risk-map/), and [Package](https://gitlab-org.gitlab.io/ci-cd/package-stage/risk-mapping/) `=> 100%`
   - [Create generalized risk mapping framework](https://gitlab.com/gitlab-com/www-gitlab-com/-/merge_requests/83300) `=> 100%`
   - Create 3 end-to-end overview videos for training `=> 100%`
   - Train 1 maintainer each for Package, Runner, PE on end-to-end testing `=> 100%`

@@ -12,7 +12,7 @@ description: "MVC for a Data Quality Program at GitLab"
 
 ## Overview
 
-In an effort to improve data quality at GitLab, the Central Data Team is creating a MVC for a data quality program. The detection rules on the [TD: Product Data Quality Scorecard](https://app.periscopedata.com/app/gitlab/887191/TD:-Product-Data-Quality-Scorecard---Overview-V1.0) are in scope for the MVC. The approach is to develop a program that the Data Community can use to improve data quality while we wait for a new Data Quality Manager to be hired. This handbook page will document the MVC and provide team members with guidance on how they can contribute to improved data quality at GitLab.
+In an effort to improve data quality at GitLab, the Central Data Team is creating a MVC for a data quality program. The approach is to develop a program that the Data Community can use to improve data quality while we wait for a new Data Quality Manager to be hired. This handbook page will document the MVC and provide team members with guidance on how they can contribute to improved data quality at GitLab.
 
 ## Data Quality Runbook
 
@@ -22,7 +22,7 @@ In an effort to improve data quality at GitLab, the Central Data Team is creatin
 
 **New Data Quality Issue Runbook**
 
-1. All data quality issues relating to the detection rules on the [TD: Product Data Quality Scorecard](https://app.periscopedata.com/app/gitlab/887191/TD:-Product-Data-Quality-Scorecard---Overview-V1.0) should be opened and triaged in the [Data Quality Project](https://gitlab.com/gitlab-org/data-quality). Issues in scope that are opened in the Data Team project can be moved to the Data Quality project.
+1. All data quality issues that are detected should be opened and triaged in the [Data Quality Project](https://gitlab.com/gitlab-org/data-quality). Issues in scope that are opened in the Data Team project can be moved to the Data Quality project.
 
 1. The triager should apply the following labels to help determine next steps on the issue:
     1. DQ: Waypoint: Select Waypoint where the root cause of the data quality problem needs to be investigated and/or resolved. Choices are source system owner, data platform team, analytics engineering, or data consumer.
@@ -31,7 +31,7 @@ In an effort to improve data quality at GitLab, the Central Data Team is creatin
 
 1. The DRI of the epic can validate that the newly linked issues are related.
 
-1. If there is no epic opened that addresses the problem, then the issue requires further validation to determine if a governance plan is needed. Only issues related to the [TD: Product Data Quality Scorecard](https://app.periscopedata.com/app/gitlab/887191/TD:-Product-Data-Quality-Scorecard---Overview-V1.0) are in scope now. If the issue relates to one of the detection rules, then the triager can refer the issue to the R&D Data Fusion Team manager for next steps. If the issue does not relate to one of the detection rules, then the triager should follow the business as usual triage process.  
+1. If there is no epic opened that addresses the problem, then the issue requires further validation to determine if a governance plan is needed. If the issue relates to one of the detection rules [in a Data Quality Scorecard Detection framework, which is coming in the future], then the triager can refer the issue to the R&D Data Fusion Team manager for next steps. If the issue does not relate to one of the detection rules, then the triager should follow the business as usual triage process.  
 
 **Governance Plan Runbook**
 
@@ -101,7 +101,7 @@ Solving data quality problems requires a cross-functional team working collabora
 
 <summary><b>6. Define Quality Standards and Monitoring</b></summary>
 
-Quality standards relating to the issues defined in the problem statement should be identified. For example, for mapping SaaS Namespaces to subscriptions, should the quality standard be 95% or 100% coverage, or somewhere inbetween? A Sisense or Tableau chart should be developed to provide the data detection rule results to monitor the quality standard. Also, a business impact detection chart should be provided to illustrate the impact to the business for not meeting the quality standard.
+Quality standards relating to the issues defined in the problem statement should be identified. For example, for mapping SaaS Namespaces to subscriptions, should the quality standard be 95% or 100% coverage, or somewhere inbetween? A Tableau chart should be developed to provide the data detection rule results to monitor the quality standard. Also, a business impact detection chart should be provided to illustrate the impact to the business for not meeting the quality standard.
 
 </details>
 
@@ -155,7 +155,7 @@ There have been a number of issues raised to the CS Ops team related to customer
 **SaaS subscription are not assigned to a namespace/group in Zuora for several potential reasons** (in descending order of frequency):
 
 1. **Multi-year ramped subscriptions (old)**, where each ramp segment is created as a separate subscription in Zuora. It's likely the customer loses access when the previous ramp subscription segment expires.
-1. **Subscriptions with Entity other than US**. This may mean that a subscription was created as a renewal on a different Zuora account, and none of the previous data transferred. It's likely the customer doesn't have access. [Related dashboard?](https://app.periscopedata.com/app/gitlab:safe-dashboard/1062859/Change-of-Entity---Orders)
+1. **Subscriptions with Entity other than US**. This may mean that a subscription was created as a renewal on a different Zuora account, and none of the previous data transferred. It's likely the customer doesn't have access.
 1. **Subscriptions are created by a Human in Zuora**. Namespace assignment doesn't automatically transfer to the new subscription. This might be a subset of `#2`.
 1. **Order in CustomersDot has NamespaceId assigned, but not the related Zuora Subscription**. Customer does have access in this case. [Issue](https://gitlab.com/gitlab-org/customers-gitlab-com/-/issues/5171).
 1. **Subscription was purchased via a Reseller**. Support has to help with namespace assignment, because customer has no access to CDot to do it themselves. It's likely the customer doesn't have access.
@@ -186,13 +186,11 @@ There have been a number of issues raised to the CS Ops team related to customer
 
 <summary><b>6. Quality Standards and Monitoring</b></summary>
 
-**Monitoring**
 
-Product Data Detection Rule 7: [SaaS Subscriptions Not Mapped to Namespaces](https://app.periscopedata.com/app/gitlab/887191/TD:-Product-Data-Quality-Scorecard---Overview-V1.0?widget=12143403&udv=0)
 
 **Quality Standards**
 
-The SaaS section of this [Instances w/out Subscriptions](https://app.periscopedata.com/app/gitlab:safe-dashboard/1056238/WIP-@bbutterfield-Instances-w-out-Subscriptions) dashboard provides the following metrics:
+A SaaS section of a data quality dashboard for Instances w/out Subscriptionsshould provide the following metrics:
 
 1. Percent of Paying SaaS Subscriptions Missing Namespace ID
 1. Number of paying SaaS Subscriptions Missing Namespace ID
@@ -300,13 +298,9 @@ IF the **percentage of records passed < threshold limit** then the Status of Det
 
  - **Trend Analysis Chart** indicates the change in Pass/Fail percentage of each of the Data Quality Detection Rules over the period of a week.
 
-Kindly note that double clicking on the data points from the **Trend Analysis Chart** will navigate/drill-down to [TD: Product Data Quality Detailed Dashboard V1.0](https://app.periscopedata.com/app/gitlab/868646/TD:-Product-Data-Quality-Detailed-Dashboard-V1.0) that provides detailed information about the data rows and aggregated counts along with the Total ARR impacted for each of the Detection Rules.
-
  - **Summarized Counts for each day** shows the Total number of processed rows for each of the Data Quality Detection Rule along with the Number of rows that Satisfy(pass) the rule/condition and that also do not satisfy(fail) the rule/condition for each day that is tracked by the Rule Run date.
 
-The data on both the Dashboards - [TD: Product Data Quality Scorecard - Overview V1.0](https://app.periscopedata.com/app/gitlab/887191/TD:-Product-Data-Quality-Scorecard---Overview-V1.0) and [TD: Product Data Quality Detailed Dashboard V1.0](https://app.periscopedata.com/app/gitlab/868646/TD:-Product-Data-Quality-Detailed-Dashboard-V1.0) gets refreshed on a daily basis.
-
-### [Data Pipeline Health Dashboard](https://app.periscopedata.com/app/gitlab/715938/Data-Pipeline-Health-Dashboard])
+### Data Pipeline Health Dashboard
 
 See [issue (internal link)](https://gitlab.com/gitlab-data/analytics/-/issues/4808)
 
@@ -314,10 +308,9 @@ The first iteration has added with a focus on:
 
 - SQL statements to test the daily record insert and update velocity of key tables (rowcount tests)
 - SQL statements to test the aggregate totals of key fields of key tables  (column value tests)
-- SQL statements to test the existence of key records of key tables  (golden record tests)
 - A wireframe Dashboard to visualize these results in a simple manner
 
-### [Product Usage Metrics Coverage Dashboard](https://app.periscopedata.com/app/gitlab/921541/WIP:-Product-Usage-Metrics-Coverage])
+### Product Usage Metrics Coverage Dashboard
 
 This dashboard captures the percentage of data availability for Product Usage Metrics, based on our [Metrics Dictionary](https://metrics.gitlab.com) and [Metrics to Snowflake Mapping](https://docs.google.com/spreadsheets/d/1EhSXqx6YXcpqHg2TpS0ZN5Rk_d2hhrTPrW5FTbmuZjw/edit#gid=0), which includes:
 
@@ -334,13 +327,6 @@ This dashboard captures the percentage of data availability for Product Usage Me
 - Refresh runs on a weekly cadence
 
 ### Quick Links
-
-<div class="flex-row" markdown="0" style="height:80px">
-  <a href="https://app.periscopedata.com/app/gitlab/887191/TD:-Product-Data-Quality-Scorecard---Overview-V1.0" class="btn btn-purple" style="width:33%;height:100%;margin:5px;float:left;display:flex;justify-content:center;align-items:center;">TD: Product Data Quality Scorecard - Overview V1.0</a>
-  <a href="https://app.periscopedata.com/app/gitlab/868646/TD:-Product-Data-Quality-Detailed-Dashboard-V1.0" class="btn btn-purple" style="width:33%;height:100%;margin:5px;float:left;display:flex;justify-content:center;align-items:center;">TD: Product Data Quality Detailed Dashboard V1.0</a>
-  <a href="https://app.periscopedata.com/app/gitlab:safe-dashboard/924978/ML-Draft:-Paying-Account---Service-Data-Inspector" class="btn btn-purple" style="width:33%;height:100%;margin:5px;float:left;display:flex;justify-content:center;align-items:center;">Service Data Inspector Dashboard</a>
-</div>
-<br><br>
 
 The Data Quality Detection Rules that have currently been identified for Product usage data are:
 
@@ -388,3 +374,6 @@ We use dbt for all transformations in the warehouse. [We require tests on all ne
 | Issue | Impacted Data Source | Impact | Impact Window |
 | --- | --- | --- | --- |
 | [Snowplow endpoint certificate expired for a day](https://gitlab.com/gitlab-org/gitlab/-/issues/416991) | Snowplow | No Snowplow events recorded for most of one day | `2023-07-04` |
+| [Redis/RedisHLL events don't get triggered](https://gitlab.com/gitlab-org/gitlab/-/issues/442875) | Automated GitLab.com Service Ping | GitLab.com customers will underreport values for Redis metrics at the instance level | `2024-02-15` to `2024-03-05` for 7d metrics; `2024-02-15` to `2024-03-26` for 28d metrics |
+| [Missing Service Pings for version <= 12.0](https://gitlab.com/gitlab-org/gitlab/-/issues/443639) | SM Service Ping | Installations on v12.0 or less were not sending Service Pings | `2024-02-12` to `insert date` |
+| [Service Pings not mapped to country Feb 2023 - June 2023](https://gitlab.com/gitlab-data/analytics/-/issues/15980) | SM Service Ping | Service pings from `2023-02-21` to `2023-06-21` have a null `dim_location_country_id` | `2023-02-21` to `2023-06-21` |

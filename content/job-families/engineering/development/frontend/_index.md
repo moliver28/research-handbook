@@ -37,7 +37,7 @@ requirements and responsibilities:
 - Share [our values][values], and work in accordance with those values
 - Ability to thrive in a fully remote organization
 - Ability to use GitLab
-- Comfort and familiarity with our [code review process](https://about.gitlab.com/handbook/engineering/workflow/code-review/)
+- Comfort and familiarity with our [code review process](/handbook/engineering/workflow/code-review/)
 
 #### Nice to have
 
@@ -70,9 +70,9 @@ requirements and responsibilities:
 
 Frontend Engineers have the following job-family performance indicators.
 
-- [Frontend Unit Test Coverage](https://about.gitlab.com/handbook/engineering/development/performance-indicators/#frontend-unit-test-coverage)
-- [Open MR Review Time (OMRT)](https://about.gitlab.com/handbook/engineering/development/performance-indicators/#open-mr-review-time-omrt)
-- [Open MR Age (OMA)](https://about.gitlab.com/handbook/engineering/development/performance-indicators/#open-mr-age-oma)
+- [Frontend Unit Test Coverage](/handbook/engineering/development/performance-indicators/#frontend-unit-test-coverage)
+- [Open MR Review Time (OMRT)](/handbook/engineering/development/performance-indicators/#open-mr-review-time-omrt)
+- [Open MR Age (OMA)](/handbook/engineering/development/performance-indicators/#open-mr-age-oma)
 
 ## Job Grades
 
@@ -82,7 +82,7 @@ Read more about GitLab [Job Grades](/handbook/total-rewards/compensation/compens
 
 ### Intern Frontend Engineer
 
-Intern Frontend Engineers, while sharing the same requirements and responsibilities outlined above, typically join with less or alternate experience than typical Frontend Engineers. More information on intern hiring and the intern program can be found [here](https://about.gitlab.com/handbook/engineering/career-development/#internships-in-engineering).
+Intern Frontend Engineers, while sharing the same requirements and responsibilities outlined above, typically join with less or alternate experience than typical Frontend Engineers. More information on intern hiring and the intern program can be found [here](/handbook/engineering/career-development/#internships-in-engineering).
 
 ### Associate Frontend Engineer
 
@@ -106,11 +106,11 @@ The Senior Frontend Engineer role extends the [Frontend Engineer](#requirements)
 - Represent GitLab and its values in public communication around broader initiatives, specific projects, and community contributions.
 - Provide mentorship for Junior and Intermediate Engineers in your section to help them grow in their technical responsibilities and remove blockers.
 - Consistently ship moderately sized features and improvements with minimal guidance and support from other team members. Collaborate with the team on larger projects.
-- Improves the [engineering projects](https://about.gitlab.com/handbook/engineering/projects/) at GitLab via [the maintainer program](https://about.gitlab.com/handbook/engineering/workflow/code-review/#how-to-become-a-project-maintainer). For more information regarding timelines and exceptions, [see this page](https://about.gitlab.com/handbook/engineering/workflow/code-review/#maintainer).
+- Improves the [engineering projects](/handbook/engineering/projects/) at GitLab via [the maintainer program](/handbook/engineering/workflow/code-review/#how-to-become-a-project-maintainer). For more information regarding timelines and exceptions, [see this page](/handbook/engineering/workflow/code-review/#maintainer).
 
 ---
 
-A Senior Frontend Engineer may want to pursue the engineering management track at this point. See [Engineering Career Development](https://about.gitlab.com/handbook/engineering/career-development#engineering) for more detail.
+A Senior Frontend Engineer may want to pursue the engineering management track at this point. See [Engineering Career Development](/handbook/engineering/career-development#engineering) for more detail.
 
 **Note:** Staff and above positions at GitLab are more of a role than just a "level". We prefer to bring people in as Senior and let the team elevate them to Staff due to an outstanding work history within GitLab.
 
@@ -131,7 +131,7 @@ The Staff Frontend Engineer role extends the [Senior Frontend Engineer](#senior-
 - Represent GitLab and its values in public communication around broad initiatives, specific projects, and community contributions. Interact with customers and other external stakeholders as a consultant and spokesperson for the work of your team.
 - Provide mentorship for all Engineers on your team to help them grow in their technical responsibilities and remove blockers.
 - Consistently ship large features and improvements with minimal guidance and support from other team members. Collaborate with the team on larger projects.
-- Participate in the [Incident Management on-call rotation](https://about.gitlab.com/handbook/engineering/infrastructure/incident-management/#incident-manager-responsibilities) to help ensure the availability goals for GitLab.com are met, by working with reliability engineers and development team members.
+- Participate in the [Incident Management on-call rotation](/handbook/engineering/infrastructure/incident-management/#incident-manager-responsibilities) to help ensure the availability goals for GitLab.com are met, by working with reliability engineers and development team members.
 
 ## Hiring Process
 
@@ -230,8 +230,8 @@ The Global Search team uses Elasticsearch to develop search features that users 
 
 ## Relevant links
 
-- [Engineering Handbook](https://about.gitlab.com/handbook/engineering/)
-- [Engineering Workflow](https://about.gitlab.com/handbook/engineering/workflow/)
+- [Engineering Handbook](/handbook/engineering/)
+- [Engineering Workflow](/handbook/engineering/workflow/)
 
 ## What it’s like to work here at GitLab
 
@@ -243,4 +243,4 @@ Also, every nine months or so, we’ll invite you to our [Contribute](https://ab
 
 ## Career Ladder
 
-For more details on the engineering career ladders, please review the [engineering career development](https://about.gitlab.com/handbook/engineering/career-development/#roles) handbook page.
+For more details on the engineering career ladders, please review the [engineering career development](/handbook/engineering/careers/#roles) handbook page.

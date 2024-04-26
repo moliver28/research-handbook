@@ -7,7 +7,7 @@ canonical_path: "/handbook/support/readiness/operations/docs/change_criticalitie
 ## Overview
 
 Mirroring
-[infrastructure's change management criticalities](https://about.gitlab.com/handbook/engineering/infrastructure/change-management/#change-criticalities)
+[infrastructure's change management criticalities](/handbook/engineering/infrastructure/change-management/#change-criticalities)
 Support Ops defines changes on a C1 - C4 scale that helps determine appropriate
 planning horizons.
 

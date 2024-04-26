@@ -8,7 +8,7 @@ title: Learning & Development
 
 ### Purpose
 
-*Why we exist:* L&D is here to guide team members on their career journey. We strive to foster a culture of learning and development so that GitLab remains a great place to work. When our team members can do their jobs, our customers are happy as a result. This makes everyone at Gitlab happy!
+*Why we exist:* GitLab Talent Development (commonly referred to as "Learning & Development") exists to enhance team member performance, expand capabilities, and further develop skills that make GitLab team members the top talent in the industry. We strive to foster a culture of continous growth so that GitLab remains a great place to work. Positive impact on team member experience leads to a positive impact on results, which leads to a positive impact on GitLab customers.
 
 ### Vision
 
@@ -26,8 +26,8 @@ title: Learning & Development
 
 *Performance indicators*
 
-1. Reduce voluntary attrition by 5% each year by measuring [exit survey data]({{< ref "/handbook/people-group/offboarding#exit-survey" >}}) related to career development
-1. Secure a 5% increase in the Growth & Development category of the [annual engagement survey]({{< ref "/handbook/people-group/engagement" >}})
+1. Reduce voluntary attrition by 5% each year by measuring [exit survey data](/handbook/people-group/offboarding#exit-survey) related to career development
+1. Secure a 5% increase in the Growth & Development category of the [annual engagement survey](/handbook/people-group/engagement)
 1. Increased access to career mobility: internal transfers, [promotions]({{< ref "promotions-transfers" >}}), job shadows, intern for learning, and professional development
 1. Clear evidence of best in class remote learning & development (i.e. [Brandon Hall Awards](https://excellenceawards.brandonhall.com/), Industry Speaking Events, Thought Leadership articles, etc.)
 
@@ -38,6 +38,14 @@ title: Learning & Development
 1. **Diverse approaches to learning.** We apply a blended learning model to find solutions to various individual needs.
 1. **Community.** L&D offerings available to the public so that everyone can contribute.
 
+## Learning & Development Team
+
+We are a small team, but we've got a big role to play at GitLab!
+
+- [Learning and Development Director](/job-families/people-group/learning-development#learning--development-manager): [Tre Ely]({{/handbook.gitlab.com/handbook/company/team/#tely2}})
+- [Senior Learning and Development Program Manager](/job-families/people-group/learning-development#intermediate-learning--development-program-manager): [Samantha Lee](/handbook/company/team/#slee24)
+- [Learning and Development Program Manager](/job-families/people-group/learning-development#intermediate-learning--development-program-manager): [Jamie Allen](/handbook/company/team/#jallen16)
+
 ## Team Member Resources
 
 The Learning & Development team has a number of resources to help team members learn new skills. Click the button(s) below to learn more about each one:
@@ -45,7 +53,7 @@ The Learning & Development team has a number of resources to help team members l
 <div class="flex-row" markdown="0">
   <div>
     <a href="{{< ref "manager-development" >}}" class="btn btn-primary" style="width:200px;margin:5px;">Transitioning to a Manager Role</a>
-    <a href="{{< ref "/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development" >}}" class="btn btn-primary" style="width:200px;margin:5px;">Growth & Development Benefit</a>
+    <a href="/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development" class="btn btn-primary" style="width:200px;margin:5px;">Growth & Development Benefit</a>
     <a href="{{< ref "career-development" >}}" class="btn btn-primary" style="width:200px;margin:5px;">Career Development & Mobility</a>
   </div>
 </div>
@@ -61,7 +69,6 @@ The Learning & Development team has a number of resources to help team members l
 <div class="flex-row" markdown="0">
   <div>
     <a href="{{< ref "level-up" >}}" class="btn btn-primary" style="width:200px;margin:5px;">Level Up</a>
-    <a href="{{< ref "linkedin-learning" >}}" class="btn btn-primary" style="width:200px;margin:5px;">LinkedIn Learning</a>
     <a href="{{< ref "compliance-courses" >}}" class="btn btn-primary" style="width:200px;margin:5px;">Compliance Courses</a>
   </div>
 </div>
@@ -78,7 +85,7 @@ The Learning & Development team has a number of resources to help team members l
   <div>
     <a href="https://about.gitlab.com/handbook/sales/field-manager-development" class="btn btn-primary" style="width:200px;margin:5px;">Field Manager Development</a>
     <a href="{{< ref "speakers" >}}" class="btn btn-primary" style="width:200px;margin:5px;">Learning Speaker Series</a>
-    <a href="{{< ref "elevate" >}}" class="btn btn-primary" style="width:200px;margin:5px;">Elevate Manager Training</a>
+    <a href="{{< ref "elevate-programs" >}}" class="btn btn-primary" style="width:200px;margin:5px;">Elevate Manager Training</a>
   </div>
 </div>
 
@@ -92,22 +99,9 @@ Multiple teams across the company contribute to learning and development of our 
 1. People Operations: Measuring imapct of learning and development on team member engagement
 1. Select Department Subject Matter Experts: Legal, Compliance, and other specific courses
 
-## GitLab Learning Strategy & Roadmap
 
-<figure class="video_container">
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vS60qIAFhoF3saPi4642GBzYl8lP_DvOCNJc998r0oskitOkhadAHLHlRQxNg976H_LOrdg30HJ5eEG/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-</figure>
 
-**Learn more about our [FY23 Roadmap](https://docs.google.com/presentation/d/1ExMwnZA1zUphJdrdTKMLEFE7hmXh54Wt7JgQqhsemlk/edit#slide=id.g123a13deda8_0_405)**.
 
-## Learning & Development Team
-
-We are a small team, but we've got a big role to play at GitLab!
-
-- [Learning and Development Director]({{< ref "/job-families/people-group/learning-development#learning--development-manager" >}}): TBD
-- [Senior Learning and Development Program Manager]({{< ref "/job-families/people-group/learning-development#intermediate-learning--development-program-manager" >}}): [Samantha Lee](/handbook/company/team/#slee24)
-- [Learning and Development Program Manager]({{< ref "/job-families/people-group/learning-development#intermediate-learning--development-program-manager" >}}): [Jamie Allen](/handbook/company/team/#jallen16)
-- [Learning and Development Program Manager]({{< ref "/job-families/people-group/learning-development#intermediate-learning--development-program-manager" >}}): [Kalyani Yerraguntla](/handbook/company/team/#kyerraguntla)
 
 ## Contact Us
 
@@ -138,7 +132,7 @@ All material in the handbook is considered training and we build [handbook first
 | Meeting Type | Cadence/Time | Description |
 | ------ | ------ | ------ |
 | 1:1 | Weekly meeting/40-45 minutes | <br> - 1:1 meeting between direct report and manager of L&D team. <br> - Topics covered include: task management, career development, performance management, blockers, project updates, brainstorming, coaching, etc. <br> - During the meeting, if their is an item that requires broader team collaboration it will be added to the bi-weekly team meeting. |
-| L&D Team Meeting | Weekly meeting/40 minutes | <br> - Strategic items that have been brought up during 1:1 meetings that impact the team as a whole. <br> - The meetings will cover items that are strategic in nature that require discussion, brainstorming, collaboration, and synthesis with the team |
+| L&D Team Meeting | Weekly meeting/25 minutes | <br> - Strategic items that have been brought up during 1:1 meetings that impact the team as a whole. <br> - The meetings will cover items that are strategic in nature that require discussion, brainstorming, collaboration, and synthesis with the team |
 | L&D Quarterly Strategic Meeting | Quarterly/90 minutes to 2 hours | <br> - Review what was acheived in the quarter, what wasn't, and lessons learned <br> - Team members will present plans on what they are focused on for the next quarter <br> - Review team morale, team dynamics, learner satisfaction, long term impact, and alignment with Peope Group goals. |
 
 ### L&D team sprints
@@ -183,7 +177,6 @@ The L&D team freqently uses the following tools for creating and communicating l
 | ----- | -------- |
 | [Powtoon](https://www.powtoon.com/) | Video Creation |
 | [LucidChart](https://www.lucidchart.com/) | Interactive Diagrams |
-| [Loom](https://www.loom.com/home) | Screen recordings |
 | [Canva](https://www.canva.com/) | Image and infographic creation |
 | [Articulate/Rise 360](https://articulate.com/) | Course Authoring |
 | [Genial.ly](https://app.genial.ly/dashboard) | Create Interactive Images |

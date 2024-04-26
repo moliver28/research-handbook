@@ -15,13 +15,13 @@ This workflow covers how a user can provide account verification. While the work
 
 ### User Account Verification
 
-As of Aug 16, 2023, Gitlab.com now requires that users without 2FA enabled verify their email address when a login attempt meets certain high-risk criteria. Review the [blog post](https://about.gitlab.com/blog/2023/08/08/gitlab-account-security/) announcing this change. If a user contacts support with questions, use the `Support::SaaS::Abuse::Email Address Verification` macro.
+As of Aug 16, 2023, GitLab.com now requires that users without 2FA enabled verify their email address when a login attempt meets certain high-risk criteria. Review the [blog post](https://about.gitlab.com/blog/2023/08/08/gitlab-account-security/) announcing this change. If a user contacts support with questions, use the [`Support::SaaS::Gitlab.com::Abuse::Email Address Verification`](https://gitlab.com/gitlab-com/support/zendesk-global/macros/-/blob/master/active/Support/SaaS/GitLab.com/Abuse/Email%20Address%20Verification.md?ref_type=heads) macro.
 
 If the user has questions about the email, phone, or credit card verification GitLab is requiring, please refer to the [Internal Handbook for the workflow](https://internal.gitlab.com/handbook/support/#phone-number-verification-issues) to follow.
 
 ### GitLab Team Members
 
-If the user is a GitLab team member, have them [contact IT Ops]({{< ref "/content/handbook/business-technology/end-user-services/_index.md" >}}).
+If the user is a GitLab team member, have them [contact IT Ops](/handbook/business-technology/end-user-services/_index.md).
 
 ## 2FA removal within GitLab
 
@@ -56,12 +56,12 @@ Do not allow the customer to bring up unrelated topics.
 
 Ensure that the ticket form, category, subcategory, and topic are accurate.
 
-Most SaaS Account categories have [automations]({{< ref "/content/handbook/support/readiness/operations/docs/zendesk/automations.md" >}}) or [triggers]({{< ref "/content/handbook/support/readiness/operations/docs/zendesk/triggers.md" >}}), including 2FA removal.
+Most SaaS Account categories have [automations](/handbook/support/readiness/operations/docs/zendesk/automations.md) or [triggers](/handbook/support/readiness/operations/docs/zendesk/triggers.md), including 2FA removal.
 
 ### Step 1: Checking user eligibility (2FA requests only)
 
 Whether a user should receive the challenges are determined by the ticket metadata.
-Only use the [`Support::SaaS::2FA::2FA Challenges` macro](https://gitlab.com/gitlab-com/support/support-ops/zendesk-global/macros/-/blob/master/macros/active/Support/SaaS/2FA/2FA%20Challenges.yaml) to repeat the challenges (such as if the user responded but did not answer them).
+Only use the [`Support::SaaS::Gitlab.com::2FA::2FA Challenges` macro](https://gitlab.com/gitlab-com/support/zendesk-global/macros/-/blob/master/active/Support/SaaS/GitLab.com/2FA/2FA%20Challenges.md?ref_type=heads) to repeat the challenges (such as if the user responded but did not answer them).
 
 #### Conditions for SaaS users
 
@@ -94,7 +94,7 @@ See the [Enterprise User section]({{< ref "gitlab-com_overview.md#enterprise-use
 
 #### Conditions when account is used to access Customers Portal
 
-[Customers Portal](https://customers.gitlab.com) requires all customers to access through a [Linked Gitlab Account](https://docs.gitlab.com/ee/subscriptions/customers_portal.html#link-a-gitlabcom-account).
+[Customers Portal](https://customers.gitlab.com) requires all customers to access through a [Linked GitLab Account](https://docs.gitlab.com/ee/subscriptions/customers_portal.html#link-a-gitlabcom-account).
 
 The user is eligible and 2FA can be reset when **one** of following conditions are met:
 
@@ -105,14 +105,14 @@ If an invoice can not be provided, suggest [sign in with legacy email/password](
 
 ### Step 2: Sending Challenges
 
-If you need a basis for a response where you send the challenges, or in a 2FA ticket, if the user has not answered the challenges, use the [`Support::SaaS::2FA::2FA Challenges` macro](https://gitlab.com/search?utf8=%E2%9C%93&group_id=2573624&project_id=17008590&scope=&search_code=true&snippets=false&repository_ref=master&nav_source=navbar&search=id%3A+103721068).
+If you need a basis for a response where you send the challenges, or in a 2FA ticket, if the user has not answered the challenges, use the [`Support::SaaS::Gitlab.com::2FA::2FA Challenges` macro](https://gitlab.com/gitlab-com/support/zendesk-global/macros/-/blob/master/active/Support/SaaS/GitLab.com/2FA/2FA%20Challenges.md?ref_type=heads).
 
 ### Step 3: Evaluating Challenge Answers
 
 > **Note**: In case the user sends back very minimal information and it's clear it's not sufficient or the answers are vague, reply asking for more information immediately after their response. You can provide some additional guidance, such as "please provide the exact date and time of the commit, not just an approximate one".
 
-1. To verify the challenge answers, use [chatops]({{< ref "chatops.md" >}}), the [Zendesk GitLab User Lookup App]({{< ref "/handbook/support/readiness/operations/docs/zendesk/apps.md#gitlab-super-app" >}}) or, for those who have admin access, check at `https://gitlab.com/admin/users/USERNAME`.
-1. Use the [ZenDesk GitLab Super App's 2FA Helper]({{< ref "/handbook/support/readiness/operations/docs/zendesk/apps.md#gitlab-super-app" >}}) to determine the [risk factor](https://internal.gitlab.com/handbook/support/#risk-factors-for-account-ownership-verification) (GitLab internal) based on the user's answers. Data classification criteria and any notes are in the [Internal Handbook - Data Classification table](https://internal.gitlab.com/handbook/support/#data-classification) (GitLab internal), which is considered the source of truth. If you need to leave a comment manually (instead of through the app), use the [`Support::SaaS::2FA::2FA Internal Note` macro](https://gitlab.com/search?utf8=%E2%9C%93&group_id=2573624&project_id=17008590&scope=&search_code=true&snippets=false&repository_ref=master&nav_source=navbar&search=id%3A+360043856894) to put an internal note on the ticket.
+1. To verify the challenge answers, use [chatops]({{< ref "chatops.md" >}}), the Zendesk GitLab User Lookup App or, for those who have admin access, check at `https://gitlab.com/admin/users/USERNAME`.
+1. Use the ZenDesk GitLab Super App's 2FA Helper to determine the [risk factor](https://internal.gitlab.com/handbook/support/#risk-factors-for-account-ownership-verification) (GitLab internal) based on the user's answers. Data classification criteria and any notes are in the [Internal Handbook - Data Classification table](https://internal.gitlab.com/handbook/support/#data-classification) (GitLab internal), which is considered the source of truth. If you need to leave a comment manually (instead of through the app), use the [`Support::SaaS::Gitlab.com::2FA::2FA Internal Note` macro](https://gitlab.com/gitlab-com/support/zendesk-global/macros/-/blob/master/active/Support/SaaS/GitLab.com/2FA/2FA%20Internal%20Note.md?ref_type=heads) to put an internal note on the ticket.
    - [Specific conditions are required to be considered for 2FA resets](#step-1-checking-user-eligibility-2fa-requests-only).
    - Challenge answers must be evaluated against a paid namespace if the user is a member of any paid namespace. If the user is not a member of a paid namespace, refer to [Conditions for 2FA Reset Consideration](#conditions-when-account-is-used-to-access-customers-portal) for further guidance.
    - If a group owner is answering on an [enterprise user's]({{< ref "gitlab-com_overview.md#enterprise-users" >}}) behalf, see the [Account verification matrix](#account-verification-matrix) for which account to evaluate the answers against. Even if the Enterprise user is not a current member of the paid namespace, the data classifcation is RED.
@@ -122,7 +122,7 @@ If you need a basis for a response where you send the challenges, or in a 2FA ti
 
 #### Authenticating an Owner Vouch
 
-In a paid namespace: If the user elects to have an Owner vouch for their request, apply the macro `Support::SaaS::2FA::2FA ask owner vouch`. This will direct the requestor to have an Owner (top-level) create a Snippet with a Support-provided string. Once they have replied verifying they have done so:
+In a paid namespace: If the user elects to have an Owner vouch for their request, apply the macro [`Support::SaaS::Gitlab.com::2FA::2FA ask owner vouch`](https://gitlab.com/gitlab-com/support/zendesk-global/macros/-/blob/master/active/Support/SaaS/GitLab.com/2FA/2FA%20Ask%20owner%20vouch.md?ref_type=heads). This will direct the requestor to have an Owner (top-level) create a Snippet with a Support-provided string. Once they have replied verifying they have done so:
 
 1. Use your Admin or Auditor account to browse to the Snippet provided (e.g. `https://gitlab.com/-/snippets/2057341`)
    - Verify the text of the Snippet matches the string you specified
@@ -172,19 +172,19 @@ This section is typically done by the peer reviewer. If needed, the peer reviewe
 1. For disabling 2FA: If you agree with the decision, sign into your admin account and locate the username in the users table or by going to `https://gitlab.com/admin/users/usernamegoeshere`
       1. Under the account tab, click `Edit`, add an [Admin Note]({{< ref "admin_note" >}}), and save.
       1. On the account tab, click on `Disable 2FA`.
-      1. Use the `Support::SaaS::2FA::2FA Removal Verification - Successful` [macro](https://gitlab.com/search?utf8=%E2%9C%93&group_id=2573624&project_id=17008590&scope=&search_code=true&snippets=false&repository_ref=master&nav_source=navbar&search=id%3A+103772548).
+      1. Use the `Support::SaaS::Gitlab.com2FA::2FA Removal Verification - Successful` [macro](https://gitlab.com/gitlab-com/support/zendesk-global/macros/-/blob/master/active/Support/SaaS/GitLab.com/2FA/2FA%20Removal%20Verification%20-%20Successful.md?ref_type=heads).
 
 ### Step 4b: User Fails to Prove Account Ownership
 
 > **Note**: Do *not* provide hints to answers, or let the user know which challenges they got right or wrong. That is how social engineering works!
 
 1. If the user is unable to pass the risk factor but we have not provided all the applicable challenges, you may offer further challenges. This is true for all users, including owners.
-   - Most commonly, an `Owner in the top level namespace` (with a valid subscription) vouch is requested. Use the `Support::SaaS::2FA::2FA ask owner vouch` [macro](https://gitlab.com/search?utf8=%E2%9C%93&group_id=2573624&project_id=17008590&scope=&search_code=true&snippets=false&repository_ref=master&nav_source=navbar&search=id%3A+360052221199). See the [Verifying an Owner Vouch section](#authenticating-an-owner-vouch) for more information. The originating email of this request should match a verified email of the Owner's account. If the user is an Owner, vouch must be from a different Owner.
+   - Most commonly, an `Owner in the top level namespace` (with a valid subscription) vouch is requested. Use the `Support::SaaS::Gitlab.com::2FA::2FA ask owner vouch` [macro](https://gitlab.com/gitlab-com/support/zendesk-global/macros/-/blob/master/active/Support/SaaS/GitLab.com/2FA/2FA%20Ask%20owner%20vouch.md?ref_type=heads). See the [Verifying an Owner Vouch section](#authenticating-an-owner-vouch) for more information. The originating email of this request should match a verified email of the Owner's account. If the user is an Owner, vouch must be from a different Owner.
    - For large organizations, please check the Zendesk organization notes to see if they're using the [large customers](#large-customers) workflow before offering the owner vouch challenge.
-   - Some challenges can be answered with the help of their colleagues. Use the `Support::SaaS::2FA::2FA Removal Verification - GitLab.com - Failed - Ask colleagues for help` [macro](https://gitlab.com/search?group_id=15990755&project_id=17008590&repository_ref=&scope=blobs&search=360089726039&snippets=false) to let them know which challenges they can try to work with their colleagues to answer.
+   - Some challenges can be answered with the help of their colleagues. Use the `Support::SaaS::Gitlab.com::2FA::2FA Removal Verification - GitLab.com - Failed - Ask colleagues for help` [macro](https://gitlab.com/gitlab-com/support/zendesk-global/macros/-/blob/master/active/Support/SaaS/GitLab.com/2FA/2FA%20Removal%20Verification%20-%20GitLab.com%20-%20Failed%20-%20Ask%20colleagues%20for%20help.md?ref_type=heads) to let them know which challenges they can try to work with their colleagues to answer.
    - When we receive a subsequent response, go back to [evaluating the challenges](#step-3-evaluating-challenge-answers) to see if they now pass.
 1. If the user is unable to pass the available challenges:
-   1. Inform them that without verification we will not be able to take any action on the account. For 2FA, use the `Support::SaaS::2FA::2FA Removal Verification - GitLab.com - Failed - Final Response` [macro](https://gitlab.com/search?utf8=%E2%9C%93&group_id=2573624&project_id=17008590&scope=&search_code=true&snippets=false&repository_ref=master&nav_source=navbar&search=id%3A+103790308).
+   1. Inform them that without verification we will not be able to take any action on the account. For 2FA, use the `Support::SaaS::Gitlab.com::2FA::2FA Removal Verification - GitLab.com - Failed - Final Response` [macro](https://gitlab.com/gitlab-com/support/zendesk-global/macros/-/blob/master/active/Support/SaaS/GitLab.com/2FA/2FA%20Removal%20Verification%20-%20GitLab.com%20-%20Failed%20-%20Final%20Response.md?ref_type=heads).
    1. Mark the ticket as "Solved".
 
 ## Large Customers
@@ -207,26 +207,25 @@ The steps to follow depend on whether or not the customer has a shared Slack cha
      <details>
       <summary markdown="span">2FA Verification Template</summary>
 
-       <p>A user in your organization is requesting to have [GitLab two-factor authentication](https://docs.gitlab.com/ee/user/profile/account/two_factor_authentication.html) removed from their account. Please review and complete the highlighted sections below.</p>
+       A user in your organization is requesting to have [GitLab two-factor authentication](https://docs.gitlab.com/ee/user/profile/account/two_factor_authentication.html) removed from their account. Please review and complete the highlighted sections below.
 
-       <p>## Support Engineer Instructions
-       <p>- [ ] Ping the customer's organization owners in CUSTOMER_SLACK_CHANNEL using the [Notify Customer - Slack](/handbook/support/workflows/account_verification#2-contact-through-slack) template. For this organization the owners are SLACK_USERNAME, SLACK_USERNAME, and SLACK_USERNAME.
-       <p>- [ ] Fill out the `Request Details` section below.
+      **Support Engineer Instructions**
+       - Ping the customer's organization owners in CUSTOMER_SLACK_CHANNEL using the [Notify Customer - Slack](/handbook/support/workflows/account_verification#2-contact-through-slack) template. For this organization the owners are SLACK_USERNAME, SLACK_USERNAME, and SLACK_USERNAME.
+       - Fill out the `Request Details` section below.
 
-       <p>## {+Request Details+}
-       <p>- {+User Requesting Reset: USERS_GITLAB_USERNAME+}
-       <p>- {+Support Ticket: TICKET_NUMBER+}
+      **Request Details**
+       - User Requesting Reset: USERS_GITLAB_USERNAME
+       - Support Ticket: TICKET_NUMBER
 
-       <p>## {+Customer Instructions+}
-       <p>- [ ] {+Review the request and get in contact with the user requesting the reset to verify its authenticity.+}
-       <p>- [ ] {+Comment on this issue indicating your approval.+}
-       <p>- [ ] {+Unassign yourself and any others from this issue.+}
-       <p>- [ ] {+Assign to the Support Engineer who opened this issue.+}
+      **Customer Instructions**
+       - Review the request and get in contact with the user requesting the reset to verify its authenticity.
+       - Comment on this issue indicating your approval.
+       - Unassign yourself and any others from this issue.
+       - Assign to the Support Engineer who opened this issue.
 
-       <p>/assign GITLAB_USERNAME GITLAB_USERNAME GITLAB_USERNAME
-       <p>/label ~"2FA Reset" ~"Awaiting confirmation"
+       /assign GITLAB_USERNAME GITLAB_USERNAME GITLAB_USERNAME, /label ~"2FA Reset" ~"Awaiting confirmation"
 
-1. Open a [Support Operations issue](https://gitlab.com/gitlab-com/support/support-ops/zendesk-global/organizations/-/issues/new) to request that three pieces of information be added to a customer's Zendesk organization:
+1. Open a [Support Operations issue](https://gitlab.com/gitlab-com/support/zendesk-global/organizations/-/issues/new) to request that three pieces of information be added to a customer's Zendesk organization:
    1. A link to the `2FA Verification.md` file you created in the previous step, such as `2FA owner vouch: /path/to/2FA Verification.md/` in the notes.
    1. A link to the customer's account management project in the notes.
    1. The `skip_2fa_automation` tag so that users requesting this won't get the autoresponder.
@@ -241,25 +240,24 @@ The steps to follow depend on whether or not the customer has a shared Slack cha
      <details>
       <summary markdown="span">2FA Verification Template</summary>
 
-       <p>A user in your organization is requesting to have [GitLab two-factor authentication](https://docs.gitlab.com/ee/user/profile/account/two_factor_authentication.html) removed from their account. Please review and complete the highlighted sections below.</p>
+       A user in your organization is requesting to have [GitLab two-factor authentication](https://docs.gitlab.com/ee/user/profile/account/two_factor_authentication.html) removed from their account. Please review and complete the highlighted sections below.
 
-       <p>## Support Engineer Instructions
-       <p>- [ ] Fill out the `Request Details` section below.
+       **Support Engineer Instructions**
+       - Fill out the `Request Details` section below.
 
-       <p>## {+Request Details+}
-       <p>- {+User Requesting Reset: USERS_GITLAB_USERNAME+}
-       <p>- {+Support Ticket: TICKET_NUMBER+}
+       **Request Details**
+       - User Requesting Reset: USERS_GITLAB_USERNAME
+       -Support Ticket: TICKET_NUMBER
 
-       <p>## {+Customer Instructions+}
-       <p>- [ ] {+Review the request and get in contact with the user requesting the reset to verify its authenticity.+}</p>
-       <p>- [ ] {+Comment on this issue indicating your approval.+}
-       <p>- [ ] {+Unassign yourself and any others from this issue.+}
-       <p>- [ ] {+Assign to the Support Engineer who opened this issue.+}
+       **Customer Instructions***
+       - Review the request and get in contact with the user requesting the reset to verify its authenticity.
+       - Comment on this issue indicating your approval.
+       - Unassign yourself and any others from this issue.
+       - Assign to the Support Engineer who opened this issue.
 
-       <p>/assign GITLAB_USERNAME GITLAB_USERNAME GITLAB_USERNAME
-       <p>/label ~"2FA Reset" ~"Awaiting confirmation"
+       /assign GITLAB_USERNAME GITLAB_USERNAME GITLAB_USERNAME, /label ~"2FA Reset" ~"Awaiting confirmation"
 
-1. Open a [Support Operations issue](https://gitlab.com/gitlab-com/support/support-ops/zendesk-global/organizations/-/issues/new) to request that two pieces of information be added to the notes section of the customer's Zendesk organization:
+1. Open a [Support Operations issue](https://gitlab.com/gitlab-com/support/zendesk-global/organizations/-/issues/new) to request that two pieces of information be added to the notes section of the customer's Zendesk organization:
    1. A link to the `2FA Verification.md` file you created in the previous step, such as `2FA owner vouch: /path/to/2FA Verification.md/`.
    1. A link to the customer's account management project.
 

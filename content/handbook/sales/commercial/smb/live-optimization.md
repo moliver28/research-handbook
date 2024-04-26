@@ -42,7 +42,7 @@ The Live Optimization session should be viewed by the customer as a Post Sales a
     1. After closed-won: When the AE got a clear understanding of the customer’s objectives and milestones and their clear interest in increasing GitLab adoption rapidly.
 1. During the Live Optimization session, the customer will commit to walk the GitLab team through their existing environment setup via a ‘screen share’.
 1. When customers are interested in learning more about general best practices for an optimal usage of the platform, not related to a specific business goal, challenge or future Ultimate upsell, they are encouraged to make use of:
-    1. The monthly [Onboarding Cohort session](/handbook/customer-success/csm/segment/scale/scale-operating-rhythm/#scale-onboarding-cohorts), a serie of webinars on how to get started with Gitlab for project management, CI/CD, deployments and more.
+    1. The monthly [Onboarding Cohort session](/handbook/customer-success/csm/segment/scale/scale-operating-rhythm/#scale-onboarding-cohorts), a serie of webinars on how to get started with GitLab for project management, CI/CD, deployments and more.
     1. Ad Hock webinars organised by the CSM team on specific topics such as Advanced CI/CD, Security & Compliance, AI in DevSecOps and much more. The schedule and links to registration can be found in the [CSM webinar calendar handbook page](/handbook/customer-success/csm/segment/scale/webinar-calendar/).
     1. Self-paced [Learning Courses](https://levelup.gitlab.com/catalog?labels=%5B%22Subject%22%2C%22Type%22%5D&values=%5B%22GitLab%20Product%20Training%22%2C%22Course%22%5D) and [Certifications](https://levelup.gitlab.com/pages/certifications/)
 

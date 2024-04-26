@@ -120,7 +120,7 @@ Similar to taking notes in a cadence call, it is useful to add to your running n
 ### Best Practices for Note-Taking & Planning
 
 - Write down your *agenda* (including questions you want to ask). This way you can quickly add your notes for the specific context.
-- If you're comfortable writing in [Markdown format](https://about.gitlab.com/handbook/markdown-guide/), use it to quickly structure your notes in real time.
+- If you're comfortable writing in [Markdown format](/handbook/markdown-guide/), use it to quickly structure your notes in real time.
 - Allow yourself time directly after the call to clean up your notes. Avoid scheduling back-to-back meetings.
 - Practice slowing down call conversations. Stopping the dialog for a few seconds to say “let me write that down” tells the customer what they said is important to you.
 - Ask your SAE/AE/SA to take notes with you. After the meeting combine and add detail.

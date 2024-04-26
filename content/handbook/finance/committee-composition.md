@@ -36,7 +36,7 @@ The Internal Audit shall submit a written report documenting its quarterly concl
 
 Committee related matters will be  managed through confidential GitLab issues or GitLab private Slack channel #disclosure-comm where all Committee members have access to the information, discussion, conclusions, and action plans.
 
-The Committee shall meet at the discretion of the chair, but not less than once per quarter. This will coincide with public filings of Gitlab Inc. Any of the chairs may call a meeting by providing a minimum of 24 hours advance notice of the time of the meeting to all Committee members.
+The Committee shall meet at the discretion of the chair, but not less than once per quarter. This will coincide with public filings of GitLab Inc. Any of the chairs may call a meeting by providing a minimum of 24 hours advance notice of the time of the meeting to all Committee members.
 
 ## Disclosure Committee Meeting Calendar
 

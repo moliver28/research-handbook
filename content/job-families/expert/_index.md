@@ -4,4 +4,4 @@ cascade:
   type: job-families
 ---
 
-See [Team Structure](/handbook/company/team/structure/#expert).
+See [Team Structure](/handbook/company/structure/#expert).

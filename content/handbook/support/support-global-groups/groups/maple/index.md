@@ -51,6 +51,12 @@ We aim for not having any unassigned tickets and at least no > 5 days NRT breach
 - Offer pairing with SEs with the longest breached tickets or leave some tips in internal comments.
 - Remember to reach out to the team for help with tricky ones.
 
+### PTO
+
+Maple follows the [general guidelines](https://handbook.gitlab.com/handbook/support/support-time-off/#choosing-and-recording-time-off) laid out in the handbook for taking time off. In addition to following those guidelines, consider making a post in `#spt_gg_maple` several days before your planned PTO that includes a list of your active tickets that will require either a complete handover to another engineer or an infrequent check up while you're away.
+
+For extended PTO (five days or longer), consider sharing your plans with the team in one of the daily Maple standup threads in `#spt_gg_maple`. This allows the team to plan accordingly or make any adjustments.
+
 ### Communication in Slack
 
 - Preferably, start the day by letting the team know how your day looks like.

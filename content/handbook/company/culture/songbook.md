@@ -258,8 +258,8 @@ Don’t you know its going to be complex
 
 Verse 3…TBD
 
-Don’t you know with Gitlab, its alright
-Don’t you know with Gitlab, its on time
+Don’t you know with GitLab, its alright
+Don’t you know with GitLab, its on time
 Don’t you know it going to be, its alright…
 Don’t you know its going to be, on time…
 Repeat and fade out

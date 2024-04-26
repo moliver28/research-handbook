@@ -4,7 +4,7 @@ title: Design Pods
 
 ## What is a Design Pod
 
-A Design Pod is a design team comprised of two or more Product Designers and other relevant counterparts from various Stage Groups. It has defined roles and responsibilities and is tasked with achieving a high-impact business goal that will specifically affect the user experience of the product across Stage Group workflows. Members will come together to tackle a singular design problem following [GitLab’s output design principles](https://design.gitlab.com/get-started/principles) and [Product Designer Workflow processes](https://about.gitlab.com/handbook/engineering/ux/product-designer/#product-design-process). Once this goal is achieved the Design Pod will disband allowing the Stage Group DRI to drive the project to completion.
+A Design Pod is a design team comprised of two or more Product Designers and other relevant counterparts from various Stage Groups. It has defined roles and responsibilities and is tasked with achieving a high-impact business goal that will specifically affect the user experience of the product across Stage Group workflows. Members will come together to tackle a singular design problem following [GitLab’s output design principles](https://design.gitlab.com/get-started/principles) and [Product Designer Workflow processes](/handbook/engineering/ux/product-designer/#product-design-process). Once this goal is achieved the Design Pod will disband allowing the Stage Group DRI to drive the project to completion.
 
 ## Roles and Responsibilities (all roles are required)
 

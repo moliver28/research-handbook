@@ -67,7 +67,7 @@ Pay special attention to the [**coffee chats**](/handbook/company/culture/all-re
 |  2. [GitLab Slack tips](/handbook/communication/#slack)  |  tbd |
 |  3. [Markdown 101](/handbook/product/ux/technical-writing/) | [Recording](https://www.youtube.com/watch?v=Ix416lAYRSg)  |
 |  4. [GitLab project management](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/getting-started/101/index.html) | [Recording](https://drive.google.com/open?id=1CSUvzrPhWtP7082e0iTCfjVsPU8U6WTR)  |
-|  5. [Working Remotely to update the website with Git](https://about.gitlab.com/handbook/git-page-update/) | [Recording](https://drive.google.com/open?id=1lPxAJsq9k4GN_d3H4zCGVzlNcDKVgqrm)  |
+|  5. [Working Remotely to update the website with Git](/handbook/editing-handbook/) | [Recording](https://drive.google.com/open?id=1lPxAJsq9k4GN_d3H4zCGVzlNcDKVgqrm)  |
 
 ### **Messaging and Go-To-Market (GTM)**
 

@@ -6,14 +6,14 @@ status: active
 
 ## Attributes
 
-| Property          | Value                                                                                                                                     |
-| ----------------- | ----------------------------------------------------------------------------------------------------------------------------------------- |
-| Date Created      | 2023-02-10                                                                                                                                |
-| Target End Date   | 2023-10-31                                                                                                                                |
-| Slack             | #wg_vue3_migration (only accessible from within the company)                                                                              |
-| Google Doc        | [Agenda](https://docs.google.com/document/d/1Ad8mbz5HzMsBI2sR6DgQ34afOn1L1OJy5m_RrrpXaqE/edit) (only accessible from within the company) |
-| Epic              | [Link](https://gitlab.com/groups/gitlab-org/-/epics/6252)                                                                                 |
-| Overview & Status | See [Exit Criteria Progress](#exit-criteria-progress)                                                                                     |
+| Property          | Value                                                                                                                                |
+| ----------------- | ------------------------------------------------------------------------------------------------------------------------------------ |
+| Date Created      | 2023-02-10                                                                                                                           |
+| Target End Date   | 2025-12-31                                                                                                                           |
+| Slack             | #wg_vue3_migration (only accessible from within the company)                                                                         |
+| Google Doc        | [Agenda](https://docs.google.com/document/d/1Ad8mbz5HzMsBI2sR6DgQ34afOn1L1OJy5m_RrrpXaqE) (only accessible from within the company)  |
+| Epic              | [gitlab-org/&2652](https://gitlab.com/groups/gitlab-org/-/epics/6252)                                                                |
+| Overview & Status | See [Exit Criteria](#exit-criteria)                                                                                                  |
 
 ### Context
 
@@ -25,7 +25,7 @@ Additionally, current GitLab codebase relies on subset of libraries which were n
 
 We want to ensure that we are not creating additional security risks for our users by using an unmaintained version of a framework. At the same time increasing developer productivity by using new features of the latest version of the framework. Also an upgrade to Vue.js 3 hopefully will result in performance gains through out the application of 20-30% and most probably even more for heavy frontend applications like Code Review for example.
 
-### Exit Criteria
+### Goals
 
 This Working Group has the following goals:
 
@@ -42,31 +42,31 @@ This Working Group has the following goals:
    1. Create deprecation strategy for patterns and solutions which are not compatible with Vue.js 3 to rest of the teams
 1. Develop and implement a communication plan for the outcomes of the working group.
 
-#### Exit Criteria Progress
+#### Exit Criteria
 
-| Criteria                                                                                      | Start Date | Completed Date | Progress | DRI     |
-| --------------------------------------------------------------------------------------------- | ---------- | -------------- | -------- | ------- |
-| Use Vue.js 3 for running test suites                                                          |            |                | 0%       | `@you?` |
-| Vue.js 3 upgrade tasks and testing for all groups available                                   |            |                | 0%       | `@you?` |
-| Vue.js 3 upgrade tasks and testing by all groups completed.                                   |            |                | 0%       | `@you?` |
-| [Use @vue/compat for Vue-related projects](https://gitlab.com/groups/gitlab-org/-/epics/9013) |            |                | 0%       | `@you?` |
-| Drop Vue.js 2 support                                                                         |            |                | 0%       | `@you?` |
+| Criteria                                                                                                  | Start Date | Completion Date | Progress | DRI                                        |
+| --------------------------------------------------------------------------------------------------------- | ---------- | --------------- | -------- | ------------------------------------------ |
+| [Get Bootstrap Vue running with Vue Compat mode 2](https://gitlab.com/groups/gitlab-org/-/epics/12385)    | 2021-06-21 | 2022-10-25      | 100%     | [@xanf](https://gitlab.com/xanf)           |
+| [Get GitLab UI running with Vue Compat mode 2](https://gitlab.com/groups/gitlab-org/-/epics/12386)        | 2021-06-21 | 2024-04-30      | 70%      | [@markrian](https://gitlab.com/markrian)   |
+| [Get main GitLab repo vue-router working with Vue Compat mode](https://gitlab.com/groups/gitlab-org/-/epics/10046) | 2023-05-18 | 2024-05-31      | 50%       | TBD                                        |
+| [Use Vue.js 3 for running test suites on main repo](https://gitlab.com/groups/gitlab-org/-/epics/9862)    | 2023-05-18 | 2024-05-31      | 30%      | [@xanf](https://gitlab.com/xanf)           |
+| [Get CustomersDot running with Vue Compat mode 2](https://gitlab.com/groups/gitlab-org/-/epics/12388)     | 2024-02-01 | 2024-04-30      | 0%       | [@vitallium](https://gitlab.com/vitallium) |                                    |
+| [Switch Vue Compat from mode 2 to mode 3](https://gitlab.com/groups/gitlab-org/-/epics/12389)             | 2024-05-31 | 2024-10-31      | 0%       | TBD                                        |
+| [Switch to using Vue 3 proper](https://gitlab.com/groups/gitlab-org/-/epics/12390)                        | 2024-10-31 | 2025-12-01      | 0%       | TBD                                        |
 
 ### Roles and Responsibilities
 
-| Working Group Role | Person                | Title                                                             |
-| ------------------ | --------------------- | ----------------------------------------------------------------- |
-| Executive Sponsor  | Tim Zallmann          | Senior Director of Engineering                                    |
-| Facilitator        | Sam Beckham           | Engineering Manager, Manage:Foundations                                |
-| Functional Lead    | Illya Klymov          | Senior Frontend Engineer, Govern:Compliance                          |
-| Functional Lead    | Natalia Tepluhina     | Principal Engineer, Plan                                          |
-| Functional Lead    | Stanislav Lashmanov   | Senior Frontend Engineer, Create: Code Review                     |
-| Functional Lead    | Andrew Fontaine       | Senior Frontend Engineer, Release                                 |
-| Member             | Mark Florian          | Staff Frontend Engineer, Manage:Foundations                       |
-| Member             | Laura Meckley         | Frontend Engineer, Fulfillment::Billing & Subscription Mgmt       |
-| Member             | Andrei Zubov          | Frontend Engineer, Release                                        |
-| Member             | Artur Fedorov         | Senior Frontend Engineer, Govern:Security Policies                                  |
-| Member             | Frédéric Caplette     | Senior Frontend Engineer, Verify:Pipeline Authoring               |
-| Member             | Eduardo Sanz Garcia   | Senior Frontend Engineer, Govern:Authentication                   |
-| Member             | Ross Byrne            | Fullstack Engineer, Growth:Acquisition                            |
-| Member             | Samantha Ming         | Senior Frontend Engineer, Govern:Threat Insights                            |
+| Working Group Role | Person              | Title                                               |
+| ------------------ | ------------------- | --------------------------------------------------- |
+| Executive Sponsor  | Tim Zallmann        | Senior Director of Engineering                      |
+| Facilitator        | Sam Beckham         | Engineering Manager, Manage:Foundations             |
+| Functional Lead    | Illya Klymov        | Senior Frontend Engineer, Govern:Compliance         |
+| Functional Lead    | Natalia Tepluhina   | Principal Engineer, Plan                            |
+| Functional Lead    | Stanislav Lashmanov | Senior Frontend Engineer, Create: Code Review       |
+| Functional Lead    | Andrew Fontaine     | Senior Frontend Engineer, Deploy:Environments       |
+| Member             | Mark Florian        | Staff Frontend Engineer, Manage:Foundations         |
+| Member             | Andrei Zubov        | Frontend Engineer, Deploy:Environments              |
+| Member             | Artur Fedorov       | Senior Frontend Engineer, Govern:Security Policies  |
+| Member             | Frédéric Caplette   | Senior Frontend Engineer, Verify:Pipeline Authoring |
+| Member             | Vitaly Slobodin     | Staff Frontend Engineer, Fulfillment                |
+| Member             | Marina Mosti        | Senior Frontend Engineer, Switchboard               |

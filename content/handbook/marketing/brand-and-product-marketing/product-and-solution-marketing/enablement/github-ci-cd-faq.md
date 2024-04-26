@@ -19,7 +19,7 @@ Mark Pundsack
 
 ### Q: What is covered in today’s announcement?
 
-A: With [GitLab CI/CD for GitHub](/solutions/github/), enterprises working with multiple different types of code repositories can now standardize on GitLab CI/CD for seamless consistency across both their GitHub and GitLab code repositories. Open source projects that host their code on GitHub can take advantage of CI/CD on GitLab SaaS, where GitLab offers top tier features for free to open source projects.
+A: With [GitLab CI/CD for GitHub](https://about.gitlab.com/solutions/github/), enterprises working with multiple different types of code repositories can now standardize on GitLab CI/CD for seamless consistency across both their GitHub and GitLab code repositories. Open source projects that host their code on GitHub can take advantage of CI/CD on GitLab SaaS, where GitLab offers top tier features for free to open source projects.
 
 ### Q: What is the headline of the press release?
 
@@ -41,9 +41,9 @@ A: Yes, there are more details in the 10.6 release post [link to blog post]
 
 ### Q: Is there a landing page for the feature?
 
-A: Yes, [https://about.gitlab.com/solutions/github/](/solutions/github/) [will go live 2018-03-22]
+A: Yes, [https://about.gitlab.com/solutions/github/](https://about.gitlab.com/solutions/github/) [will go live 2018-03-22]
 
-[https://about.gitlab.com/solutions/github/](/solutions/github/) will also redirect to the longer URL and can be used in social, emails, etc.
+[https://about.gitlab.com/solutions/github/](https://about.gitlab.com/solutions/github/) will also redirect to the longer URL and can be used in social, emails, etc.
 
 
 
@@ -69,14 +69,14 @@ A: The ability to easily set up GitLab CI/CD on GitHub is the main feature enabl
 
 ### Q: What opportunity is GitLab addressing with GitLab CI/CD for GitHub?
 
-A: Several  
+A: Several
 
 #### Enterprise opportunity
 
 With large enterprises we have 2 opportunities:
 
-1. New starting point for GitLab adoption. Many enterprises adopt GitLab gradually over time starting with SCM. The GitHub Integration provides another starting point for enterprises to begin adopting GitLab by using CI/CD first.  
-2. Standardize on GitLab CI/CD with disparate SCM solutions. [How many GitLab users do they need if they are using GitHub for SCM](https://docs.google.com/document/d/1LrIDEmUNrb5lx8Xu9g2NnmcqSpnZGixHLo6raUVBJUo/edit#heading=h.kvatwhat61se)?  
+1. New starting point for GitLab adoption. Many enterprises adopt GitLab gradually over time starting with SCM. The GitHub Integration provides another starting point for enterprises to begin adopting GitLab by using CI/CD first.
+2. Standardize on GitLab CI/CD with disparate SCM solutions. [How many GitLab users do they need if they are using GitHub for SCM](https://docs.google.com/document/d/1LrIDEmUNrb5lx8Xu9g2NnmcqSpnZGixHLo6raUVBJUo/edit#heading=h.kvatwhat61se)?
 
 #### Open Source Projects opportunity
 

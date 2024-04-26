@@ -15,6 +15,6 @@ While there is flexibility in how groups approach this process, the recommended 
 1. **Perform a [Competitor Comparison](/handbook/product/ux/category-maturity/competitor-comparison/) to document how we and our top competitor address the JTBD.**
     - The goal at this step is to use our own industry expertise, both in product-market fit and usability, to identify existing product gaps that we believe we should address. The Product Manager leads their entire stage group team plus their Marketing counterpart in running this analysis.
 1. **Determine where in the maturity cycle the gaps should be addressed.**
-    - For example, what do we need to address to get to Complete? What can we save for Lovable? We can document the path to the next maturity level in Epics and associated issues.
+    - For example, what do we need to address to get to Competitive What can we save for Complete? We can document the path to the next maturity level in Epics and associated issues.
 1. **Conduct the [Category Maturity Scorecard process](/handbook/product/ux/category-maturity/category-maturity-scorecards/)**
     - When we think we’ve reached the next maturity level, we perform rigorous user research with users to validate whether we were right.

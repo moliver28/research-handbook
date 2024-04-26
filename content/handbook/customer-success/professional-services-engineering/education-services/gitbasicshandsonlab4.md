@@ -1,25 +1,55 @@
 ---
-title: "GitLab with Git Basics Hands-On Guide: Lab 4"
-description: "This Hands-On Guide walks you through the lab exercises used in the GitLab with Git Basics course."
+title: "GitLab with Git Essentials - Hands-on Lab: Build a .gitlab-ci.yml file"
+description: "This Hands-On Guide walks you through the lab exercises used in the GitLab with Git Essentials course."
 ---
 
-# GitLab with Git Basics Hands-on Guide: Lab 4
+> Estimated time to complete: 30 minutes
 
+## Objectives
 
-## LAB 4: BUILD A `.gitlab-ci.yml` FILE
+CI/CD standards for Continuous Integration and Continuous Deployment. In other words, it is a continuous method of software development, where you continuously build, test, deploy, and monitor iterative code changes.
 
-### A. Create a new project and add a CI/CD configuration file
+This iterative process helps reduce the chance that you develop new code based on buggy or failed previous versions. GitLab CI/CD can catch bugs early in the development cycle, and help ensure that all the code deployed to production complies with your established code standards.
 
-1. Navigate to your group, select **New project**, and select **Create blank project**.
-1. Name your project `CI Test`
-1. Make sure the **Visibility Level** is set to **Private**.
+To use GitLab CI/CD, you start with a .gitlab-ci.yml file at the root of your project which contains the configuration for your CI/CD pipeline. This file follows the YAML format and has its own special syntax. To learn more, see the [documentation](https://docs.gitlab.com/ee/ci/). **It is recommended to bookmark this page for future reference.**
+
+## Task A. Create a new project and add a CI/CD configuration file
+
+1. Navigate to your **My Test Group**, click on the **New project** button, and click the **Create blank project** tile.
+
+1. In the title, type in `CI Test`.
+
+1. Set the **Visibility Level** of the project to **Private**.
+
 1. Enable the **Initialize repository with a README** checkbox.
-1. Select **Create project** and wait for GitLab to redirect you to the new project’s main page.
-1. Find the **+** dropdown a few lines below the project’s title. Create a new file by selecting **(+) > This directory > New file**
-1. In the **File name** dialog box enter `.gitlab-ci.yml`
-1. If it’s not already selected, select **.gitlab-ci.yml** in the next dropdown to the right, which selects a file template.
+
+1. Leave **Enable Static Application Security Testing (SAST)** unchecked.
+
+1. Click the **Create project** button and wait for GitLab to redirect you to the new project’s main page.
+
+1. Create a new file by clicking **(+) > This directory > New file**
+
+1. In the **Filename** dialog box enter `.gitlab-ci.yml`
+
 1. In the **Apply a template** dropdown, select **General > Bash**. This populates your file with the contents of a minimal `.gitlab-ci.yml` file.
-1. In the editor, delete all lines above the `build1:` line and below the `- echo "For example run a test suite"` line. This will leave you with two sections of code, which define the **build1** and **test1** jobs.
+
+1. In the editor, delete all lines above the `build1:` line and below the `- echo "For example run a test suite"` line. This will leave you with two sections of code, which define the **build1** and **test1** jobs. Your `.gitlab-ci.yml` file should look like this:
+
+    ```yaml
+    build1:
+      stage: build
+      script:
+        - echo "Do your build here"
+
+    test1:
+      stage: test
+      script:
+        - echo "Do a test here"
+        - echo "For example run a test suite"
+    ```
+
+    > To learn more about jobs, see the [documentation](https://docs.gitlab.com/ee/ci/jobs/).
+
 1. Define **build** and **test** stages by adding these 3 lines at the top of the file. The `stages` keyword must be flush left and the stage names must be indented by 2 spaces.
 
     ```yaml
@@ -28,16 +58,47 @@ description: "This Hands-On Guide walks you through the lab exercises used in th
       - test
     ```
 
-1. Leave the default values for the **Commit message** and **Target Branch** fields, and select **Commit changes**.
+    > Use stages to define stages that contain groups of jobs. Use stage in a job to configure the job to run in a specific stage. See the [documentation](https://docs.gitlab.com/ee/ci/yaml/index.html#stages) to learn more.
 
-### B. Inspect the CI/CD pipeline
+1. Your current `.gitlab-ci.yml` file should look like this:
 
-1. GitLab started running a CI/CD pipeline as soon as you committed `.gitlab-ci.yml` to your project’s repository. To see the project’s pipelines, go to the left-hand navigation pane and select **CI/CD > Pipelines**.
-1. Only 1 pipeline has run so far, so your table of pipelines has only 1 row. See the details of that pipeline by selecting the **passed** label at the left of the pipeline’s row.
-1. Inspect the pipeline graph. Each column represents a stage. In the **Build** stage, there’s a widget representing the **build1** job. In the **Test** column there’s a widget representing the **test1** job. Select the **build1** widget to see the job’s output in a web terminal.
-1. Go back and do the same for the **test1** widget.
+    ```yaml
+    stages:
+      - build
+      - test
 
+    build1:
+      stage: build
+      script:
+        - echo "Do your build here"
+
+    test1:
+      stage: test
+      script:
+        - echo "Do a test here"
+        - echo "For example run a test suite"
+    ```
+
+3. Leave the default values for the **Commit message** and **Target Branch** fields, and click the **Commit changes** button.
+
+## Task B. Inspect the CI/CD pipeline
+
+> Pipelines are the top-level component of continuous integration, delivery, and deployment. Pipelines comprise of **Jobs**, which define what to do, and **Stages**, which define when to run the jobs. For example, a stage can be defined for all the operations that build a project, and a job of this stage could be to compile the code. To learn more, click [here](https://docs.gitlab.com/ee/ci/pipelines/).
+
+1. GitLab started running a CI/CD pipeline as soon as you committed `.gitlab-ci.yml` to your project’s repository. To see the project’s pipelines, navigate to **Build > Pipelines**.
+
+1. Only 1 pipeline has run so far, so your table of pipelines has only 1 row. See the details of that pipeline by clicking the **status** label at the left of the pipeline’s row.
+
+    > Note: The status label should show either **Running** or **Passed**
+
+1. Inspect the pipeline graph. Each column represents a stage. In the **Build** stage, there’s a widget representing the **build1** job. In the **Test** column there’s a widget representing the **test1** job. Click on the **build1** widget to see the job’s output in a web terminal. For example, look for the message `Do your build here` in the output.
+
+1. Return to the pipeline graph by clicking on the back button on your web browser. Click on the **test1** widget to see the job's output in a web terminal. For example, look for the message `Do a test here` in the output.
+
+## Lab Guide Complete
+
+You have completed this lab exercise. You can view the other [lab guides for this course](/handbook/customer-success/professional-services-engineering/education-services/gitbasicshandson).
 
 ## Suggestions?
 
-If you’d like to suggest changes to the *GitLab with Git Basics Hands-on Guide*, please submit them via merge request.
+If you’d like to suggest changes to the lab, please submit them via merge request.

@@ -5,14 +5,17 @@ weight: -10
 
 ## Purpose
 
-A forum for members of [E-Group](/handbook/company/team/structure/#executives), department leaders nomimated by their E-Group leader, and [VP-Directs](/handbook/company/structure/#vp-directs-group) to discuss the key metrics of a department in order to:
+At most companies, this would be a quarterly meeting for senior function leaders to present priorities, progress, and risk mitigations to the CEO. We allow some additional stakeholders to attend to invite a broader range of perspectives, give visibility to peers across functions, and create broader accountability.
 
-1. Make it much easier to stay up-to-date for everyone.
-1. Be accountable to the rest of the company.
-1. Understand month-to-month variances.
-1. Understand performance against the plan, forecast and operating model.
-1. Ensure there is tight connection between OKRs and KPIs.
-1. Ensure that progress against OKRs is understood.
+Members of [E-Group](/handbook/company/structure/#executives) and department leaders nominated by their E-Group leader are optional attendees.
+
+These meetings are designed to ensure that the CEO and function are aligned on:
+
+1. Month-to-month variances.
+1. Performance against the plan, forecast and operating model.
+1. Connection between OKRs and KPIs.
+1. Progress against Yearlies and OKRs.
+1. Accountability to the rest of the company.
 
 ## Key Metrics
 
@@ -36,7 +39,7 @@ A Key Review does not need to be scheduled if everything is on track and awarene
 ## Invitees
 
 Required invites are the CEO, the CFO, and the function head.
-Optional attendees are all other members of [the e-group](/handbook/company/team/structure/#e-group), [VP-Directs](/handbook/company/structure/#vp-directs-group), the Chief of Staff to the CEO, and other folks as designated by their E-Group member.
+Optional attendees are all other members of [the e-group](/handbook/company/structure/#e-group), [VP-Directs](/handbook/company/structure/#vp-directs-group), the Chief of Staff to the CEO, and other folks as designated by their E-Group member.
 
 Key Review Meetings may contain MNPI. As materials are limited access, participation is limited.
 
@@ -44,7 +47,7 @@ If the Key Review meeting will not contain MNPI, it can be livestreamed to GitLa
 
 Functions that have these quarterly meetings are:
 
-1. Sales (Chris Weber - function DRI), mid-month 1
+1. Sales & Customer Success (Chris Weber - function DRI), mid-month 1
 1. Marketing (Ashley Kramer - function DRI), mid-month 1
 1. Product (David DeSanto - function DRI), mid-month 1
 1. People Group (Wendy Barnes - function DRI), mid-month 1
@@ -55,7 +58,7 @@ Functions that have these quarterly meetings are:
 1. Business Technology (Nabitha Rao - function DRI), beginning of month 3
 1. Data (Amie Bright - function DRI), mid-month 3
 1. Development (Christopher Lefelhocz - function DRI), month 3
-1. Infrastructure & Quality (Mek Stittri - function DRI), month 3
+1. Infrastructure (Mek Stittri - function DRI), month 3
 
 Function DRIs are expected to review the invite list in advance of each Key Review. If cross-functional topics are being discussed, they are encouraged to invite folks who should be involved in the conversation. If there are MNPI concerns, they may choose to link to a separate agenda for this part of the discussion.
 
@@ -150,7 +153,7 @@ To create these slides, you will need *Editor* access in Sisense.
 ### Performance Indicator Pages
 
 Many functions or departments now have Performance Indicator pages that allow one to move top-to-bottom in the handbook to see both KPIs and PIs.
-Here is an example of the VP of Development presenting the [Development Department's KPIs and PIs](https://about.gitlab.com/handbook/engineering/development/performance-indicators/) in advance of their monthly Key Review.
+Here is an example of the VP of Development presenting the [Development Department's KPIs and PIs](/handbook/engineering/development/performance-indicators/) in advance of their monthly Key Review.
 
 {{< youtube "8C9oniGinYM" >}}
 

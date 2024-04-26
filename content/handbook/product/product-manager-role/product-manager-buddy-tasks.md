@@ -9,7 +9,7 @@ draft: true
     - Pages from the onboarding buddy handbook page
     - Product Specific Pages
         - [Validation Track](/handbook/product-development-flow/#validation-track)
-	    - [Product Development Timeline](https://about.gitlab.com/handbook/engineering/workflow/#product-development-timeline)
+	    - [Product Development Timeline](/handbook/engineering/workflow/#product-development-timeline)
 	    - [Getting Access to Data as a PM](/handbook/business-technology/data-team/programs/data-for-product-managers/)
 	    - [Managing your Product Direction](/handbook/product/product-processes/#managing-your-product-direction)
 	    - [How to work as a PM](/handbook/product/product-processes/#how-to-work-as-a-pm)
@@ -49,7 +49,7 @@ draft: true
 	- Slack - Adding keywords to your [Slack alerts](https://slack.com/help/articles/4412437167251-Get-notified-about-topics-you-care-about) like your category name, competitor names, etc. is a good way to stay on top of issues bubbling up, potential customers, etc. in channels you are joined.
 	- Analyst Reports - You can inquire about access to reports from analysts in the #analyst-relations channel.
 1. [ ] - The flow of a milestone
-    - [Rough timeline of the flow](https://about.gitlab.com/handbook/engineering/workflow/#product-development-timeline)
+    - [Rough timeline of the flow](/handbook/engineering/workflow/#product-development-timeline)
     - [Planning](/handbook/product/product-processes/#planning-issue-for-milestone)
 	    - Each milestone there is a kickoff issue created and assigned to PMs. Link your planning issue in that and once recorded your kickoff call.
     - Kickoff call
@@ -60,7 +60,7 @@ draft: true
     - [Release posts](/handbook/product/product-processes/#writing-release-blog-posts)
 	    - Important deadlines are having them in review by Technical Writing and PMM two weeks prior to the release and merged 7 days prior to the release.
     - Moving issues that do not finish in the milestone
-	    - This is an [https://about.gitlab.com/handbook/engineering/quality/triage-operations/#milestone-reschedule] to move issues that do not finish in amilestone but it's good to review issues that were not closed in a milestone as it does not move confidential issues.
+	    - This is an [https://about.gitlab.com/handbook/engineering/infrastructure/engineering-productivity/triage-operations/#milestone-reschedule] to move issues that do not finish in amilestone but it's good to review issues that were not closed in a milestone as it does not move confidential issues.
     - Retrospectives
     - [Direction updates](/handbook/product/product-processes/#managing-your-product-direction)
 	    - There is no wrong time to update your direction pages when something has changed. The cadence of a release is a great time to schedule it to ensure it is happening regularly though.

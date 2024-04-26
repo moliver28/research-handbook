@@ -85,9 +85,6 @@ The Senior Anti-Abuse Analyst is responsible for leading and implementing the va
 
 See [Security Compliance](/job-families/security/security-compliance/)
 
-### Security External Communications
-
-See [Security External Communications](/job-families/security/external-security-communications/)
 
 ### Security Operations
 
@@ -129,10 +126,7 @@ Candidates for this position can expect the hiring process to follow the order b
 As always, the interviews and screening call will be conducted via a video call.
 See more details about our hiring process on the [hiring handbook](/handbook/hiring/).
 
-## External Communications
-
-- [HackerOne Outreach and Engagement](/handbook/security/performance-indicators/#hackerone-outreach-and-engagement)
 
 ## Career Ladder
 
-For more details on the engineering career ladders, please review the [engineering career development](https://about.gitlab.com/handbook/engineering/career-development/#roles) handbook page.
+For more details on the engineering career ladders, please review the [engineering career development](/handbook/engineering/careers/#roles) handbook page.

@@ -39,10 +39,10 @@ We strive to be thought leaders in each respective community.
 
 ## Meet the programs
 
-| Community Program | Handbook Page | Marketing Page | Application Page | Program Owner | Email Address|
-| ----------------- | ------------- | -------------- | ---------------- | ------------- |-----------|
-| GitLab for Education | [Handbook](/handbook/marketing/developer-relations/community-programs/education-program/) | [Marketing page](https://about.gitlab.com/solutions/education/) | [Application page](https://about.gitlab.com/solutions/education/join/) | [Alexander Karsten](https://gitlab.com/akarsten1) | `education@gitlab.com` |
-| GitLab for Open Source | [Handbook](/handbook/marketing/developer-relations/community-programs/open-source-program/) | [Marketing page](https://about.gitlab.com/solutions/open-source/) | [Application page](https://about.gitlab.com/solutions/open-source/join/) | [Bryan Behrenshausen](https://gitlab.com/bbehr) | `opensource@gitlab.com` |
-| GitLab for Startups | [Handbook](/handbook/marketing/developer-relations/community-programs/startups-program/) | [Marketing page](https://about.gitlab.com/solutions/startups/join/) | [Application page](https://about.gitlab.com/solutions/startups/join/)| [Alexander Karsten](https://gitlab.com/akarsten1) | `startups@gitlab.com` |
+| Community Program      | Handbook Page                                                                               | Marketing Page | Application Page | Program Owner                                     | Email Address|
+|------------------------|---------------------------------------------------------------------------------------------| -------------- | ---------------- |---------------------------------------------------|-----------|
+| GitLab for Education   | [Handbook](/handbook/marketing/developer-relations/community-programs/education-program/)   | [Marketing page](https://about.gitlab.com/solutions/education/) | [Application page](https://about.gitlab.com/solutions/education/join/) | [Alexander Karsten](https://gitlab.com/akarsten1) | `education@gitlab.com` |
+| GitLab for Open Source | [Handbook](/handbook/marketing/developer-relations/community-programs/open-source-program/) | [Marketing page](https://about.gitlab.com/solutions/open-source/) | [Application page](https://about.gitlab.com/solutions/open-source/join/) | [Alexander Karsten](https://gitlab.com/akarsten1) | `opensource@gitlab.com` |
+| GitLab for Startups    | [Handbook](/handbook/marketing/developer-relations/community-programs/startups-program/)    | [Marketing page](https://about.gitlab.com/solutions/startups/join/) | [Application page](https://about.gitlab.com/solutions/startups/join/)| [Alexander Karsten](https://gitlab.com/akarsten1) | `startups@gitlab.com` |
 
 Please see the GitLab [Environment, Social, and Governance (ESG)](/handbook/legal/ESG/) handbook page for information about the GitLab for Non-Profits Program.

@@ -16,9 +16,9 @@ title: "Developing your GitLab Practice"
 
 ### **Intro**
 
-We’re only just getting going at capturing our mutual piece of the $40bn DevSecOps platform[^1] market and one of the keys to success is a focus on customer success. One of our programmatic goals is to make it as simple as possible for you to develop a GitLab practice that meets and supports customers and prospects at all phases of their customer journey.
+We’re only just getting going at capturing our mutual piece of the $40bn DevSecOps platform[^1] market, and one of the keys to success is a focus on customer success. One of our programmatic goals is to make it as simple as possible for you to develop a GitLab practice that meets and supports customers and prospects at all phases of their customer journey.
 
-To those ends, we’ve mapped out our Partner Capabilities Journey that aligns types of capabilities with the customer journey and we’ve layered on three levels of maturity (Walk, Run, & Fly) for each of those types of capabilities. Please check back periodically as we will continue to mature that journey as new best practices or enablement paths or tools are made available.
+To that end, we’ve mapped out our Partner Capabilities Journey that aligns types of capabilities with the customer journey, and we’ve layered on three levels of maturity (Walk, Run, and Fly) for each of those capabilities. Please check back periodically as we will continue to mature that journey as new best practices, enablement paths, or tools are available.
 
 
 ### **Partner Capabilities Journey**
@@ -61,4 +61,4 @@ To those ends, we’ve mapped out our Partner Capabilities Journey that aligns t
 
 ### **Training and Accreditation Program and Requirements**
 
-GitLab has developed core training, accreditation and certification for sales, solution architects (pre-sales engineers), and post sales engineers and consultants. The GitLab Partner Enablement Program is designed to provide our partners with similar training as GitLab employees themselves. For details on available training resources visit the [Channel Training, Certifications and Enablement](/handbook/resellers/training/) page.
+GitLab has developed core training, accreditation, and certification for sales, solution architects (pre-sales engineers), and post-sales engineers and consultants. The GitLab Partner Enablement Program strives to provide our partners with training similar to that of GitLab employees. For details on available training resources visit the [Channel Training, Certifications and Enablement](/handbook/resellers/training/) page.

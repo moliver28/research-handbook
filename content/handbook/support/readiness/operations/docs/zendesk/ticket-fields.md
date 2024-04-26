@@ -13,6 +13,151 @@ metadata. Typically, there are two types of ticket fields:
 - System ticket fields - ones pre-built into Zendesk
 - Custom ticket fields - ones built by us into Zendesk
 
+## Change management
+
+Keep in mind, all change management should be stemming from an issue, first and
+foremost.
+
+**NOTE** Ticket fields can be *very* difficult to manage. The smallest changes
+to them can result in *very* complex changes being required in the backend. If
+you are not fully comfortable with all the areas of Zendesk, you might want to
+pair with a Fullstack Engineer.
+
+#### Creating a new ticket field
+
+**NOTE** Whenever possible, you should aim to create the ticket field *first* in
+the sync repo and then make any edits to ticket forms as needed in a separate
+merge request. This helps alleviate some of the complexity involved in managing
+ticket forms and fields.
+
+You will start by creating a placeholder ticket field within Zendesk itself (as
+you will need the ID for the sync repo). To do this, open up the admin page of
+your corresponding Zendesk instance ([Global](https://gitlab.zendesk.com/admin)
+or [US Government](https://gitlab-federal-support.zendesk.com/admin)), click
+`Objects and rules` on the left-hand side, and then click `Fields`. On this page
+page, you will want to click `Add field`. This will bring up the new ticket
+field page.
+
+On this page, you will do the following:
+
+- Select the type of field you are creating
+- Set the title to "Placeholder for ISSUE_LINK" (replacing `ISSUE_LINK` with the
+  link to the issue you are working out of).
+- Enter a description of "ISSUE_LINK" (replacing `ISSUE_LINK` with the link to
+  the issue you are working out of).
+- Ensure "Permissions" is set to `Agents can edit`
+- Set any other data to *match* what the desired end-result will be
+
+After doing so, click the blue `Save` button. You will then locate the
+placeholder ticket field you just created and get the ID value for it (if you
+the Display name, you can see it in the URL).
+
+From here, create the merge request in the sync repo project.
+
+#### Updating an existing ticket field
+
+Updating an existing ticket form is considerably easier than creating a new one.
+Simply change change the code in the source project and it will occur via the
+sync repo.
+
+The one caveat is when you are adding new `custom_field_options`, as you will
+not have the ID of this. As such, you will *have* to make the change in Zendesk
+*first* to obtain that value via the API. As such, if you are doing this, it
+needs to be made clear the changes for it will happen *instantly* in production.
+
+#### Deactivating a ticket field
+
+**NOTE** In theory, this is a simple task. In practice, this is a *very*
+wide-reaching change. Often this will require subsequent changes to other areas
+in Zendesk, such as Automations, Triggers, Macros, Theme, etc. You should aim to
+ensure you have removed all references to a ticket field from all other items
+before deactivating it.
+
+To deactivate a ticket field, you will simply change the ticket field file in
+the source sync repo project via your merge request. Ensure you merge request
+does the following:
+
+- Moves the file from the `data/fields/active` folder to the
+  `data/fields/inactive` folder
+- Sets `active: true` to `active: false` in the file.
+
+#### Deleting a deactivated ticket field
+
+**NOTE** We avoid doing this unless a ticket field has been deactivated for a
+full year. After that point it can be deleted completely.
+
+To delete a ticket field, you need to purge it from multiple locations:
+
+- Sync repo project
+- Zendesk itself
+
+The first can be done via merge requests, but the last one has to be done in the
+the Zendesk instance itself. To do this, open up the admin page of your
+corresponding Zendesk instance ([Global](https://gitlab.zendesk.com/admin) or
+[US Government](https://gitlab-federal-support.zendesk.com/admin))
+`Objects and rules` on the left-hand side, and then click `Fields`. On this page
+you will want to click the `Filter` button. On the panel that appears on the
+right-hand side, uncheck the box next to `Active` and check the box next to
+`Inactive`. After doing so, click the blue `Apply filters` button.
+
+You will then locate the ticket field you are deleting and click on the Display
+name (to open the ticket field editor). You will then click the `Actions` button
+at the top-right of the page and click `Delete`. This will cause a pop-up modal
+to appear asking you to confirm the action. Click the red `Delete` button to do
+so.
+
+## Troubleshooting
+
+#### Pipeline error "Blank ID"
+
+This means the script detected a YAML file within `data/fields/active` or
+`data/fields/inactive` that has an `id` value of blank (or nil). You will need to
+locate the file mentioned in the error and correct that.
+
+#### Pipeline error "Blank position"
+
+This means the script detected a YAML file within `data/fields/active` or
+`data/fields/inactive` that has an `position` value of blank (or nil). You will
+need to locate the file mentioned in the error and correct that.
+
+#### Pipeline error "Blank title"
+
+This means the script detected a YAML file within `data/fields/active` or
+`data/fields/inactive` that has an `title` value of blank (or nil). You will
+need to locate the file mentioned in the error and correct that.
+
+#### Pipeline error "Inactive field in active folder"
+
+This means the script detected a YAML file within `data/fields/active` that has
+an `active` value of `false`. You will need to locate the file mentioned in the
+error and correct that.
+
+#### Pipeline error "Active field in inactive folder"
+
+This means the script detected a YAML file within `data/fields/inactive` that
+has an `active` value of anything other than `false`. You will need to locate
+the file mentioned in the error and correct that.
+
+#### Pipeline error "GitLab errors"
+
+This is a generic error message that will detail some error that occurred when
+trying to either create or update the tag used on the source project. The exact
+steps to fix this will vary based on the nature of the error itself. You will
+need to review the error and determine the next steps from there.
+
+If you are unsure how to proceed, it is best to seek assistance from the wider
+team.
+
+## Source Projects
+
+#### Zendesk Global
+
+- [Support managed content project](https://gitlab.com/gitlab-com/support/zendesk-global/tickets/forms-and-fields)
+
+#### Zendesk US Government
+
+- [Support managed content project](https://gitlab.com/gitlab-com/support/zendesk-us-government/tickets/forms-and-fields)
+
 ## Types of ticket fields
 
 There are several types of ticket fields, however the only ones we use are as
@@ -57,61 +202,6 @@ see are:
   checkbox ticket field type)
 - Field validation - the regex formula to use for the ticket field
 
-## Creating a ticket field via Zendesk
-
-To create a ticket field in Zendesk, you first need to go to the Admin Center
-([Zendesk Global](https://gitlab.zendesk.com/admin/) /
-[Zendesk US Federal](https://gitlab-federal-support.zendesk.com/admin/)). From
-there, you need to go to the Ticket fields page (Objects and rules > Tickets >
-Fields).
-
-From there, click the `Add field` button at the top-right of the page.
-
-You will then give your ticket field a title by clicking on `New field` at the
-top of the page (keep in mind the title shown to agents is determined from the
-title you enter). After doing that, you will then select the field type.
-
-Next, you will enter the permission information. This will vary depending on
-what you want the ticket field to look and act like.
-
-You will then enter any options specific to the ticket field itself.
-
-Finally, click the blue `Save` button in the bottom right-hand side of the page.
-
-## Editing a ticket field via Zendesk
-
-To edit a ticket field in Zendesk, you first need to go to the Admin Center
-([Zendesk Global](https://gitlab.zendesk.com/admin/) /
-[Zendesk US Federal](https://gitlab-federal-support.zendesk.com/admin/)). From
-there, you need to go to the Ticket fields page (Objects and rules > Tickets >
-Fields).
-
-From there, locate the ticket field in question among the list of all ticket
-fields. After doing so, click on the name of the ticket field. Note that if you
-are working on an inactive ticket field, you will need to click the `Filter`
-button (below the search bar) to change the default filter.
-
-From here, you can tweak the settings of the ticket field.
-
-One you are done editing, click the blue `Save` button in the bottom right-hand
-side of the page.
-
-## Deactivating a ticket field via Zendesk
-
-To deactivate a ticket field in Zendesk, you first need to go to the Admin
-Center
-([Zendesk Global](https://gitlab.zendesk.com/admin/) /
-[Zendesk US Federal](https://gitlab-federal-support.zendesk.com/admin/)). From
-there, you need to go to the Ticket fields page (Objects and rules > Tickets >
-Fields).
-
-From here, there are two ways to deactivate the ticket field:
-
-- Hover over the field and click the three vertical dots on the right side of
-the field item, then click on Deactivate in the pop-up menu.
-- Click on the ticket field title, click on the three vertical dots on the top
-right-hand side, then click Deactivate.
-
 ## Ticket field standards
 
 To ensure all ticket fields we utilize are both consistent in nature and
@@ -149,24 +239,3 @@ would want the tags used to reflect that as well as the option they represent.
 
 We do this to ensure the tags do not collide with one another and so we can get
 very specific information via data queries.
-
-## Change management
-
-As these are maintained via sync repositories, our standard change management
-process applies to all Zendesk ticket fields. See
-[standard change management](/handbook/support/readiness/operations/docs/change_management#standard-change-management)
-for more information.
-
-#### Labels to use
-
-For all issues and MRs involving ticket fields, the label
-`Support-Ops-Category::Forms` should be used.
-
-#### Change criticality
-
-Due to the nature and impact adding/editing/deleting Zendesk ticket fields
-imposes, all issues/MRs related to Zendesk ticket forms will be classified as
-either
-[criticality 1](/handbook/support/readiness/operations/docs/change_criticalities#criticality-1)
-or
-[criticality 2](/handbook/support/readiness/operations/docs/change_criticalities#criticality-2)

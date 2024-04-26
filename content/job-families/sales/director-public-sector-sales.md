@@ -38,7 +38,7 @@ The Director, Public Sector Sales is a [grade 10](/handbook/total-rewards/compen
 - Exceptional knowledge of Federal infrastructure and agencies
 - Have history of working with and driving revenue within NSF, DOE Labs, DoD and Intel
 - A security clearance is a plus
-- [Leadership at GitLab](/handbook/company/team/structure/#director-group)
+- [Leadership at GitLab](/handbook/company/structure/#director-group)
 - Ability to use GitLab
 - Ability to travel if needed and comply with the company’s [travel policy](/handbook/travel/#travel-guidance-covid-19). Federal, LLC team members need to also comply with the applicable vaccination policies.
 

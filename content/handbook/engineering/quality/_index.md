@@ -4,26 +4,6 @@ description: >-
   The Quality Department in Engineering Division
 ---
 
-## Child Pages
-
-[Issue triage](/handbook/engineering/quality/issue-triage/)
-{.h4}
-
-[Wider Community Merge Request triage](/handbook/engineering/quality/merge-request-triage/)
-{.h4}
-
-[Project Management](/handbook/engineering/quality/project-management/)
-{.h4}
-
-[Roadmap](/handbook/engineering/quality/roadmap/)
-{.h4}
-
-[Triage Operations](/handbook/engineering/quality/triage-operations/)
-{.h4}
-
-[Test Platform Sub-department](/handbook/engineering/infrastructure/test-platform/)
-{.h4}
-
 ## Mission
 
 GitLab's Quality is everyone's responsibility. The Quality Department ensures that everyone is aware of what the Quality of the product is, empirically.
@@ -50,7 +30,7 @@ In addition, we empower our teams to ship world class enterprise software at sca
 
 ## FY23 Direction
 
-In FY23 we will be focused on contributor success & customer results while delivering impact to the company's bottomline via alignment to [top cross-functional initiatives](/company/team/structure/working-groups/#top-cross-functional-initiatives). Key directional highlights; be more customer centric in our work, execute on 10x contributor strategy jointly with Marketing, provide timely operational analytics insights & improve team member engagement. In FY23 we anticipate a large increase of cross-functional activity within the company. Fostering an open-collaborative environment is more important than ever for us to deliver results.
+In FY23 we will be focused on contributor success & customer results while delivering impact to the company's bottomline via alignment to [top cross-functional initiatives](/handbook/company/working-groups/#top-cross-functional-initiatives). Key directional highlights; be more customer centric in our work, execute on 10x contributor strategy jointly with Marketing, provide timely operational analytics insights & improve team member engagement. In FY23 we anticipate a large increase of cross-functional activity within the company. Fostering an open-collaborative environment is more important than ever for us to deliver results.
 
 ### Customer Centric Quality
 
@@ -104,7 +84,7 @@ In FY23 we will be focused on contributor success & customer results while deliv
 
 ## OKRs
 
-Objectives and Key Results (OKRs) help align our department towards what really matters. These happen quarterly and are based on [company OKRs](/company/okrs/). We check in on the status of our progress routinely throughout the quarter to determine whether we are on track or need to pivot in order to accomplish or change these goals. At the end of the quarter, we do a [final scoring](/company/okrs/#scoring-okrs) which includes a [retrospective](/handbook/engineering/#okr-retrospection) on how the quarter went according to these OKRs.
+Objectives and Key Results (OKRs) help align our department towards what really matters. These happen quarterly and are based on [company OKRs](/handbook/company/okrs/). We check in on the status of our progress routinely throughout the quarter to determine whether we are on track or need to pivot in order to accomplish or change these goals. At the end of the quarter, we do a [final scoring](/handbook/company/okrs/#scoring-okrs) which includes a [retrospective](/handbook/engineering/#okr-retrospection) on how the quarter went according to these OKRs.
 
 Infrastructure & Quality OKRs are captured [here](/handbook/engineering/infrastructure-quality/okrs/).
 
@@ -168,15 +148,15 @@ This board is used by the Engineering Analytics team to:
 - Summarize status and progress on work related to Engineering's KPIs and metrics.
 - Distinguish between planned projects for the current quarter and ad-hoc requests received by the Engineering Analytics team.
 
-The work effort on Engineering Division and Departments' KPIs/RPIs is owned by the [Engineering Analytics team](https://about.gitlab.com/handbook/engineering/quality/engineering-analytics/). This group maintains the [Engineering Metrics](/handbook/engineering/metrics/) page.
+The work effort on Engineering Division and Departments' KPIs/RPIs is owned by the [Engineering Analytics team](/handbook/engineering/quality/engineering-analytics/). This group maintains the [Engineering Metrics](/handbook/engineering/metrics/) page.
 
 ### DRIs
 
 The [Engineering Analytics](https://gitlab.com/gitlab-org/quality/engineering-analytics/team-tasks/-/boards/2650515?group_by=epic) board is structured by the analytics needs within each Engineering Department. At the beginning of each quarter, the team declares and prioritizes projects related to long-standing analytics needs for one or more Engineering Departments. In addition, the team also takes on ad-hoc requests ranging from maintenance of existing KPIs and dashboards to consultation on new metrics and data related to Engineering operations.
 
-The ownership of the work columns follows the [stable counterpart assignment](https://about.gitlab.com/handbook/engineering/quality/engineering-analytics/#counterpart-assignments) of the Engineering Analytics team to each Engineering Department.
+The ownership of the work columns follows the [stable counterpart assignment](/handbook/engineering/quality/engineering-analytics/#counterpart-assignments) of the Engineering Analytics team to each Engineering Department.
 
-In order to engage with the team, please refer to the [Engineering Analytics team's handbook page](https://about.gitlab.com/handbook/engineering/quality/engineering-analytics/#how-to-engage-with-us) for the appropriate Slack channels and projects for creating issues for our team.
+In order to engage with the team, please refer to the [Engineering Analytics team's handbook page](/handbook/engineering/quality/engineering-analytics/#how-to-engage-with-us) for the appropriate Slack channels and projects for creating issues for our team.
 
 #### DRI Responsibilities
 
@@ -193,7 +173,7 @@ In order to engage with the team, please refer to the [Engineering Analytics tea
 - The [Director of Engineering Analytics](https://gitlab.com/cdeleon_gitlab) is the DRI for triage, prioritization, and assignment.
     - If work can be done without the need of new data warehouse capabilities, the DRI will schedule and assign the work within Engineering.
     - If new Data warehouse capabilities are needed from the Data team, a linked issue will be created on the [Data team's Engineering](https://gitlab.com/groups/gitlab-data/-/boards/1496166?label_name%5B%5D=Engineering) board.
-        - Requests for support from the Data Team will be reviewed during Data Triage or by [requesting an expedition](https://about.gitlab.com/handbook/business-technology/data-team/how-we-work/#request-to-expedite-responses)
+        - Requests for support from the Data Team will be reviewed during Data Triage or by [requesting an expedition](/handbook/business-technology/data-team/how-we-work/#request-to-expedite-responses)
 - Every KPI issue is either assigned to the backlog or given a due date. The Engineering team will propose first a due date, which the Results DRI will confirm if possible or the provide the next possible date.
     - Discussions to take place in [#eng-data-kpi](https://gitlab.slack.com/archives/C0166JCH85U) as needed.
 - Every new KPI/RPI should follow our [standardized format](/handbook/engineering/performance-indicators/#guidelines).
@@ -222,7 +202,7 @@ The cut-line also serves as a healthy discussion between engineers and their man
 
 - [Dev & Analytics QE Team](https://gitlab.com/groups/gitlab-org/-/boards/425899)
 - [Ops QE Team](https://gitlab.com/groups/gitlab-org/-/boards/978348)
-- [Enablement QE Team](https://gitlab.com/groups/gitlab-org/-/boards/978354)
+- [Self Managed Platform Team](https://gitlab.com/groups/gitlab-org/-/boards/978354)
 - [Fulfillment QE Team](https://gitlab.com/groups/gitlab-org/-/boards/1512645)
 - [Sec & Data Science QE Team](https://gitlab.com/groups/gitlab-org/-/boards/1524991)
 - [Engineering Productivity Team](https://gitlab.com/groups/gitlab-org/-/boards/978615)
@@ -255,12 +235,12 @@ Below mentioned are few venues of collaboration with [Development](/handbook/eng
 
 ### Bug Refinement
 
-To mitigate high priority issues like [performance bugs](/handbook/engineering/quality/issue-triage/#severity) and [transient bugs](/handbook/engineering/quality/issue-triage/#transient-bugs), Quality Engineering will triage and refine those issues for Product Management and Development via a bi-weekly Bug Refinement process.
+To mitigate high priority issues like [performance bugs](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity) and [transient bugs](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#transient-bugs), Quality Engineering will triage and refine those issues for Product Management and Development via a bi-weekly Bug Refinement process.
 
 #### Goals
 
 - To make the performance of various aspects of our application empirical with tests, environments, and metrics.
-- To minimise the [transient bugs](/handbook/engineering/quality/issue-triage/#transient-bugs) seen in our application, thereby improving usability.
+- To minimise the [transient bugs](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#transient-bugs) seen in our application, thereby improving usability.
 
 #### Identifying Issues
 
@@ -286,7 +266,7 @@ Quality Engineering will do the following in order to identify the issues to be 
 Quality Engineering will track productivity, metric and process automation improvement work items
 in the [Development-Quality](https://gitlab.com/groups/gitlab-org/-/boards/1262515) board to service the [Development](/handbook/engineering/development/) department.
 Requirements and requests are to be created with the label `~dev-quality`. The head of both departments will review and refine the board on an on-going basis.
-Issues will be assigned and worked on by an Engineer in the [Engineering Productivity team](engineering-productivity) team and [communicated broadly](/handbook/engineering/quality/triage-operations/#communicate-early-and-broadly-about-expected-automation-impact) when each work item is completed.
+Issues will be assigned and worked on by an Engineer in the [Engineering Productivity team](engineering-productivity) team and [communicated broadly](/handbook/engineering/infrastructure/engineering-productivity/triage-operations/#communicate-early-and-broadly-about-expected-automation-impact) when each work item is completed.
 
 ### Release process overview
 
@@ -315,7 +295,7 @@ If additional input is needed from the Quality team, the DRI for this is the Dir
 | Quality Department Bi-Weekly | Department management team | `@meks` | Every 2 weeks | Review meeting |
 | Quality Department Social Call | All team members | All team members | Every 2 weeks | Meet and Greet |
 | Quality Hiring Bi-Weekly | All QEMs, Directors, and VP | `TBD` | Every 2 weeks | Review meeting |
-| Ops section stakeholder review | `TBD` | `@dcroft` <br>`@zeffmorgan` | Every 4 weeks | Review meeting |
+| Ops section stakeholder review | `TBD` | `@dcroft` | Every 4 weeks | Review meeting |
 | Enablement Sync with AppSec | `@vincywilson` | `TBD` | Monthly | Review meeting |
 
 ## Quality Engineering initiatives
@@ -323,9 +303,9 @@ If additional input is needed from the Quality team, the DRI for this is the Dir
 ### Triage Efficiency
 
 Due to the volume of issues, one team cannot handle the triage process.
-We have invented [Triage Reports](/handbook/engineering/quality/triage-operations/#triage-reports) to scale the triage process within Engineering horizontally.
+We have invented [Triage Reports](/handbook/engineering/infrastructure/engineering-productivity/triage-operations/#triage-reports) to scale the triage process within Engineering horizontally.
 
-More on our [Triage Operations](/handbook/engineering/quality/triage-operations/)
+More on our [Triage Operations](/handbook/engineering/infrastructure/engineering-productivity/triage-operations/)
 
 ### Test Automation Framework
 
@@ -399,45 +379,15 @@ instance. We use the Tool every day to monitor for potential performance degrada
 by GitLab customers to directly test their on-premise instances. More information is available on our
 [Performance and Scalability](/handbook/engineering/quality/performance-and-scalability/) page.
 
-### MRARR
-
-The Quality department is the DRI for [MRARR](/handbook/engineering/performance-indicators/#mrarr) tooling and tracking. MRARR is an important part of the [Open Core 3 year strategy](/company/strategy/#2-build-on-our-open-core-strength) to increase contributions from the Wider community.
-
 ### Demo and Test Data
 
 Whether automatically generating production-like data, test data, or [data to be used for a demo](https://gitlab.com/gitlab-learn-labs/webinars/project-management/gitlab-project-management-data-import); the Data Seeder can be used to generate this data.
 
 See the [GitLab Data Seeder](/handbook/engineering/quality/gitlab-data-seeder) documentation for more information.
 
-#### Customer contributor tracking
-
-Customer contributors are currently tracked in [a Google Sheet](https://docs.google.com/spreadsheets/d/1yIASbQOS2TcHIFmSW_e3xTiQzgkYSLSgiujFJ7Dg834/edit#gid=447581669) that is imported to Sisense every day. Data has been sourced from Bitergia and reviewing previous Wider community contributions.
-
-#### Customer contributor additions
-
-Additions have been identified through the following means and added to the source above once confirmed by a Manager in the Quality Department.
-
-1. Indication from a member of the Sales team
-1. Contributor is linked to a Salesforce contact
-1. Confirmation with other public sources
-    - Identifying the organization, commit email or other public user information on the merge request.
-    - Validating that contributor is associated with a customer organization by using other public sources such as LinkedIn.
-    - Verify the organization is a paying customer of GitLab in using Salesforce.com to open the Account and look at the CARR fields.
-
-After verifying a contributor is associated with a customer, these steps are how to add a new contributor to the tracking [sheet](https://docs.google.com/spreadsheets/d/1yIASbQOS2TcHIFmSW_e3xTiQzgkYSLSgiujFJ7Dg834/edit#gid=447581669)
-
-1. Check if the customer organization is already defined in the spreadsheet by the Salesforce Account ID. If not, add a new row with the following information:
-    - Salesforce Account name for the Contributor Organization (a)
-    - Full 18 character Salesforce Account ID for the SFDC Account ID column (c). This can be retrieved from converting the 15 character ID with a gem like `salesforce_id_formatter`
-1. Add the Contributor's GitLab.com username to the Contributor Usernames column (b). **The format of this column is a JSON array. Please use double quoted strings and commas after each username.**
-
-#### Diagnostic dashboard
-
-The [MRARR Diagnostics](https://app.periscopedata.com/app/gitlab/790656/) dashboard contains some helpful supplemental charts to understand changes in MRARR and untracked contributors.
-
 ## Other related pages
 
-- [Issue Triage Policies](/handbook/engineering/quality/issue-triage/)
+- [Issue Triage Policies](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/)
 - [Performance of GitLab](/handbook/engineering/performance/)
 - [Monitoring of GitLab.com](/handbook/engineering/monitoring/)
 - [Production Readiness Guide](https://gitlab.com/gitlab-com/infrastructure/blob/master/.gitlab/issue_templates/production_readiness.md)

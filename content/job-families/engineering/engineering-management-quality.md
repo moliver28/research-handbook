@@ -46,7 +46,7 @@ The Manager, Quality Engineering is a [grade 8](/handbook/total-rewards/compensa
 - Ability to be successful managing at a remote-only company.
 - Humble, servant leader.
 - You share our [values](/handbook/values/), and work in accordance with those values.
-- [Leadership at GitLab](/handbook/company/team/structure/#management-group)
+- [Leadership at GitLab](/handbook/company/structure/#management-group)
 - Ability to use GitLab.
 
 ### Nice-to-have Requirements
@@ -205,11 +205,11 @@ industry standard libraries (test tooling, orchestration, performance, and etc) 
 
 Quality Engineering Management has the following job-family performance indicators.
 
-- [Hiring actual vs plan](https://about.gitlab.com/handbook/engineering/quality/performance-indicators/#hiring-actual-vs-plan)
-- [Diversity](https://about.gitlab.com/handbook/engineering/quality/performance-indicators/#diversity)
-- [Handbook update frequency](https://about.gitlab.com/handbook/engineering/quality/performance-indicators/#handbook-update-frequency)
-- [Team member retention](https://about.gitlab.com/handbook/engineering/quality/performance-indicators/#team-member-retention)
+- [Hiring actual vs plan](/handbook/engineering/quality/performance-indicators/#hiring-actual-vs-plan)
+- [Diversity](/handbook/engineering/quality/performance-indicators/#diversity)
+- [Handbook update frequency](/handbook/engineering/quality/performance-indicators/#handbook-update-frequency)
+- [Team member retention](/handbook/engineering/quality/performance-indicators/#team-member-retention)
 
 ## Career Ladder
 
-For more details on the engineering career ladders, please review the [engineering career development](https://about.gitlab.com/handbook/engineering/career-development/#roles) handbook page.
+For more details on the engineering career ladders, please review the [engineering career development](/handbook/engineering/careers/#roles) handbook page.

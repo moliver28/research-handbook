@@ -18,7 +18,7 @@ This guide serves as a toolkit for fostering a supportive work culture where tea
 
 #### Resource
 
-🏁 Modern Health provides an interactive walkthrough centered on burnout prevention and designed for people managers. [Preventing Burnout in Team Members](https://my.joinmodernhealth.com/program/preventing-burnout-in-team-members) (10 min) is included for all GitLab team members. If this is your first time using GitLab’s Modern Health benefit, you can follow guidance for [team member registration](https://handbook.gitlab.com/handbook/total-rewards/benefits/modern-health/#team-member--family-registration).
+🏁 Modern Health provides an interactive walkthrough centered on burnout prevention and designed for people managers. [Preventing Burnout in Team Members](https://my.joinmodernhealth.com/program/preventing-burnout-in-team-members) (10 min) is included for all GitLab team members. If this is your first time using GitLab’s Modern Health benefit, you can follow guidance for [team member registration](/handbook/total-rewards/benefits/modern-health/#team-member--family-registration).
 - Reflect: What are other ways “burnout” might show up beyond "fatigue"?
 
 
@@ -37,7 +37,7 @@ Here are some  team member considerations inspired by GitLab’s culture, values
 
 #### Resource
 
-🦊 GitLab Handbook: “[Recognizing Burnout](https://handbook.gitlab.com/handbook/paid-time-off/#recognizing-burnout)” (5 min)
+🦊 GitLab Handbook: “[Recognizing Burnout](/handbook/paid-time-off/#recognizing-burnout)” (5 min)
 
 ### Addressing Burnout
 
@@ -55,7 +55,7 @@ Here are some  team member considerations inspired by GitLab’s culture, values
 
 #### Resource to share with team members:
 
-[Combating burnout, isolation, and anxiety in the remote workplace](https://handbook.gitlab.com/handbook/company/culture/all-remote/mental-health/)
+[Combating burnout, isolation, and anxiety in the remote workplace](/handbook/company/culture/all-remote/mental-health/)
 Burnout Index: [Yerbo’s Risk Check](https://methods.yerbo.co/burnout-index/)
 
 ----
@@ -70,8 +70,8 @@ Below, you can access all the referenced in this guide:
 | Reference | Notes |
 | :------ | :------ |
 |[GitLab team members share how to recognize burnout (and how to prevent it)](https://about.gitlab.com/blog/2018/03/08/preventing-burnout/)        |Audience: All team members        |
-|[Recognizing Burnout](https://handbook.gitlab.com/handbook/paid-time-off/#recognizing-burnout)        |Audience: All team members        |
-|[Combating burnout, isolation, and anxiety in the remote workplace](https://handbook.gitlab.com/handbook/company/culture/all-remote/mental-health/)        |Audience: All team members        |
+|[Recognizing Burnout](/handbook/paid-time-off/#recognizing-burnout)        |Audience: All team members        |
+|[Combating burnout, isolation, and anxiety in the remote workplace](/handbook/company/culture/all-remote/mental-health/)        |Audience: All team members        |
 |[Yerbo’s Risk Check](https://methods.yerbo.co/burnout-index/)        |Managers can share this with their teams. It’s recommended that managers go through this for themselves as well.        |
 |[Mental_Health_Aware](https://gitlab.enterprise.slack.com/archives/C834CM4HW)        |Audience: All team members        |
 
@@ -79,4 +79,4 @@ Below, you can access all the referenced in this guide:
 
 LinkedIn Learning Course: [How to Beat Burnout, Exhaustion, and Stress](https://levelup.gitlab.com/learn/course/avoiding-burnout/main/how-to-beat-burnout-exhaustion-and-stress?client=internal-team-members)
 
-[Modern Health](https://handbook.gitlab.com/handbook/total-rewards/benefits/modern-health/#mental-wellness-services): Burnout at work can also be influenced by a multitude of experiences happening inside and outside of work. EAP offers benefits the serve a variety of needs.
+[Modern Health](/handbook/total-rewards/benefits/modern-health/#mental-wellness-services): Burnout at work can also be influenced by a multitude of experiences happening inside and outside of work. EAP offers benefits the serve a variety of needs.

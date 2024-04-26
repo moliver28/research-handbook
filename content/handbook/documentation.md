@@ -65,7 +65,7 @@ For more information, see the [Documentation section of our Development document
 
 - The [Documentation Guidelines](https://docs.gitlab.com/ee/development/documentation/):
   - [Workflow](https://docs.gitlab.com/ee/development/documentation/workflow.html)
-  - [Page structure and template](https://docs.gitlab.com/ee/development/documentation/structure.html)
+  - [Page structure and template](https://docs.gitlab.com/ee/development/documentation/topic_types/index.html)
   - [Style Guide](https://docs.gitlab.com/ee/development/documentation/styleguide/)
   - [Site architecture](https://docs.gitlab.com/ee/development/documentation/site_architecture/index.html)
 - The [Documentation Markdown Guide](/docs/markdown-guide/)
@@ -76,5 +76,5 @@ repositories and builds docs.gitlab.com
 ## The Technical Writing team
 
 For more information about the team and how we continually improve
-the GitLab documentation, see [Technical Writing](https://about.gitlab.com/product/ux/technical-writing/)
+the GitLab documentation, see [Technical Writing](/handbook/product/ux/technical-writing)
 in the Product section of the handbook.

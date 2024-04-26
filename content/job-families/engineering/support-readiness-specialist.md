@@ -78,7 +78,7 @@ coworkers, easier. Current and past Support Readiness Specialists in Operations 
 - Developed
   [tooling to generate weekly account deletion reports](/handbook/support/support-ops/documentation/adwr.html).
 - Leaned into
-  [dogfooding](https://about.gitlab.com/handbook/engineering/development/principles/#dogfooding) by
+  [dogfooding](/handbook/engineering/development/principles/#dogfooding) by
   having various aspects of Zendesk
   [version controlled via GitLab.com](/handbook/support/support-ops/documentation/sync_repos.html).
 - ...and even more!
@@ -182,13 +182,13 @@ Generally they meet the following criteria. They:
 
 A Senior Support Readiness Specialist may be interested in exploring Support
 Readiness Management as an alternative at this point. See
-[Engineering Career Development](https://about.gitlab.com/handbook/engineering/career-development/)
+[Engineering Career Development](/handbook/engineering/career-development/)
 for more details.
 
 ### Career Ladder
 
 For more details on the engineering career ladders, please review the
-[engineering career development](https://about.gitlab.com/handbook/engineering/career-development/#roles)
+[engineering career development](/handbook/engineering/careers/#roles)
 handbook page.
 
 ### How you'll be measured

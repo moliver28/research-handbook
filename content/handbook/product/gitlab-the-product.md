@@ -64,40 +64,6 @@ them, as that introduces other issues).
 
 For more guidance on feature tiers and pricing, visit [tiering guidance for features](/handbook/product/tiering-guidance-for-features/)
 
-
-### Experiment, Beta, GA
-
-<!-- any changes made to this section should be reflected in https://about.gitlab.com/support/statement-of-support/#alpha--beta-features and https://docs.gitlab.com/ee/policy/experiment-beta-support.html -->
-
-There are cases where we need to test features before we are confident that we'll be able to scale, support, and maintain the features in their current form for every designed use case. There are also scenarios where a feature is not complete enough to be considered an [MVC](/handbook/product/product-principles/#the-minimal-viable-change-mvc). In these cases, we have the option to release features as Experiment, Beta, or Limited Availability, and users can opt-in and test the new experience. Features might not be fully documented or supported in the Experiment or Beta phases.
-
-Please note that some features may not be aligned to these recommendations if they were developed before the recommendations were in place or if the group determined an alternative implementation approach was needed.
-
-It's never acceptable to make changes that:
-  - risk damage or exfiltration of existing production data accessed by our users
-  - destabilize other parts of the application
-  - introduces friction into high MAU areas.
-
-- Experiment: This phase is used to gather feedback from a small group of users, typically internal teams or a select group of customers, on a feature or concept that is in the early stages of development. An Experiment phase can be a useful way to gather feedback on early concepts and have the flexibility to make breaking changes based on feedback. This designation also helps set customer expectations that this feature is not ready for production use. See [this page](https://docs.gitlab.com/ee/policy/experiment-beta-support.html#experiment) for additional details.
-- Beta: This phase allows for a larger group of users to test the feature in more realistic environments, and provides the opportunity to identify any remaining issues before the feature is fully released. This designation also helps set customer expectations that this feature is not ready for production use. It is possible to use progressive deployment strategies to manage the volume of customers who have access to the feature in this phase. See [this page](https://docs.gitlab.com/ee/policy/experiment-beta-support.html#beta) for additional details.
-- Limited Availability: This phase can be used when a feature is production-ready for a select group of customers, but not for the general user base as is the case in General Availability. This is used specifically for GitLab Dedicated, and should not be used for standard user facing features.
-
-Please refer to [Support for Experiment, Beta, and Generally Available Features](https://docs.gitlab.com/ee/policy/experiment-beta-support.html) for a detailed list of the characteristics of Experiment, Beta, and GA features, including when feature flags should be used.
-
-#### Experiment, Beta and Limited Availability Exit Criteria
-
-To ensure the phases before General Availability are as short as possible each phase of Experiment, Beta and LA should include exit criteria. This encourages rapid iteration and reduces [cycle time](/handbook/values/#reduce-cycle-time). Exit criteria may include but are not be limited to:
-
-* Time - Define an end date at which point the feature will be General Availability.
-* Feedback - Define the minimum number of customers that have been onboarded and interviewed.
-    * Consider also setting a time bound when using user feedback as an exit criteria for leaving a phases. If a given time period elapses and we can not solicit feedback from enough users, it is better to ship what we have and iterate on it as a GA at that point rather than maintain a pre-GA state.
-* Limited Feature Completion - Determine if there is functionality that should be completed before moving to General Availability.
-    * Be wary of including "just one more" feature. Iteration will be easier and more effective with more feedback from more users so getting to General Availability is preferred.
-* System Performance metrics - Determine the criteria that the platform has shown before being ready for General Availability. Examples include response times and successfully handling a number of requests per second.
-* Success criteria - Not all features may reach GA. It is OK to pivot if early feedback indicates that a different direction would provide more value or a better user experience. If open questions must be answered to decide if the feature is worth putting in the product, list and answer those.
-
-For the exit criteria of **AI features**, in addition to the above, see the [UX maturity requirements](/handbook/product/ai/ux-maturity/).
-
 ### Deprecations, removals, and breaking changes
 
 #### Breaking changes
@@ -202,7 +168,7 @@ Naming new features or [renaming existing features](https://docs.gitlab.com/ee/d
 - It should not overlap with any other existing concepts in GitLab.
 - It should have as few words as possible (so people won't use a shortened name).
 - If you remove words from the name, it is still unique (helps to give it as few words as possible).
-- We should also give products descriptive, not distinctive, names, and use prepositions when referring to third-party products and services in names. See our [Product Principles] (https://about.gitlab.com/handbook/product/product-principles/#product-and-feature-naming-guidelines) for more information.
+- We should also give products descriptive, not distinctive, names, and use prepositions when referring to third-party products and services in names. See our [Product Principles](/handbook/product/product-principles/#product-and-feature-naming-guidelines) for more information.
 
 #### Process
 
@@ -266,7 +232,7 @@ All the above can be achieved by iteratively improving existing roles.
 
 You can now find our [security paradigm](https://about.gitlab.com/direction/secure/#security-paradigm) on the [Secure Strategy](https://about.gitlab.com/direction/secure/) page.
 
-Also see our [Secure Team engineering handbook](https://about.gitlab.com/handbook/engineering/development/sec/secure/).
+Also see our [Secure Team engineering handbook](/handbook/engineering/development/sec/secure/).
 
 ### Statistics and performance data
 
@@ -302,7 +268,7 @@ pages to add to performance debt. When they ship, they should be fast.
 
 You must account for all cases, from someone with a single object, to thousands of objects.
 
-Read the handbook page relating to [performance of GitLab.com](https://about.gitlab.com/handbook/engineering/performance), and note the Speed Index target shown there
+Read the handbook page relating to [performance of GitLab.com](/handbook/engineering/performance), and note the Speed Index target shown there
 (read it thoroughly if you need a detailed overview of performance). Then:
 
 - Make sure that new pages and interactions meet the Speed Index target.
@@ -312,10 +278,10 @@ or changes.
 prioritizing work on their performance, or changes that would lead to improved page load speeds
 (such as pagination, showing less data, etc).
 - Any page that takes more than 4 seconds to load (speed index) should be considered too slow.
-- Use the [availability & performance priority labels](https://about.gitlab.com/handbook/engineering/performance/#availability-performance-labels)
+- Use the [availability & performance priority labels](/handbook/engineering/performance/#availability-performance-labels)
 to communicate and prioritize issues relating to performance.
 
-You must prioritize improvements according to their impact (per the [availability & performance priority labels](https://about.gitlab.com/handbook/engineering/performance/#availability-performance-labels)).
+You must prioritize improvements according to their impact (per the [availability & performance priority labels](/handbook/engineering/performance/#availability-performance-labels)).
 Pages that are visited often should be prioritized over pages that rarely have any visitors.
 However, if page load time approaches 4 seconds or more, they are considered no longer
 usable and should be fixed at the earliest opportunity.

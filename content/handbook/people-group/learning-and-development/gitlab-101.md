@@ -3,30 +3,12 @@
 title: GitLab 101
 ---
 
-Welcome to the GitLab 101 page! Here you will find our 101 course on how to use GitLab.
-
-#### GitLab Team Members
-
-Please visit Level Up and create an account to complete [GitLab 101](https://levelup.gitlab.com/access/saml/login/internal-team-members?returnTo=https://levelup.gitlab.com/learn/course/gitlab101) and earn the GitLab 101 Badge!
-
-Team members can also complete the [GitLab Team Members Certification](https://levelup.gitlab.com/access/saml/login/internal-team-members?returnTo=https://levelup.gitlab.com/learn/course/gitlab-team-members-certification). All of the information contained on this handbook page can be found in the GitLab Team Members Certification on Level Up.
-
-#### Community Members
-
-Please visit Level Up and create an account to complete [GitLab 101](https://levelup.gitlab.com/courses/gitlab101).
+Welcome to the GitLab 101 page! Here you will find some basic info on how to use GitLab.
 
 ### Who can benefit from this 101 training?
 
 Everyone at GitLab needs to know how to use GitLab and be technical to some level. This training is geared toward GitLab team members who are in non-engineering roles (i.e. talent acquisition, peopleops, marketing, finance, etc) and/or have not used a DevOps tool like GitLab before. This can also be helpful for non-engineering people outside of GitLab wanting to learn how to use GitLab for personal projects.
 
-### What do you need to get started?
-
-To get started with the GitLab 101 you will need:
-
-- to have your GitLab Account set up
-- your Laptop
-- WiFi
-- 2-3 hours (this course can be completed either in one sitting or lesson by lesson)
 
 ## Objectives
 
@@ -76,7 +58,7 @@ This will make more sense once you understand all of the terminology.
    1. **Example:** If someone says to do something locally that means to open the terminal on your computer to make a change.
 1. Markdown
    1. **Definition:** a lightweight markup language with plain-text-formatting syntax. Its design allows it to be converted to many output formats, but the original tool by the same name only supports HTML.
-   1. **Example:** Take a look at our [GitLab Markdown Guide]({{< ref "/docs/markdown-guide" >}})
+   1. **Example:** Take a look at our [GitLab Markdown Guide](/docs/markdown-guide)
 1. Milestones
    1. **Definition:** are a way to track issues and merge requests created to achieve a broader goal in a certain period of time. They allow you to organize issues and merge requests into a cohesive group, with an optional start date and an optional due date.
    1. **More information on:** [milestones](https://docs.gitlab.com/ee/user/project/milestones/)
@@ -85,7 +67,7 @@ This will make more sense once you understand all of the terminology.
    1. **Example:** This is a [Merge Request](https://gitlab.com/gitlab-com/www-gitlab-com/-/merge_requests/40563#0c7def9794ef444dbc7eb560126846353b630886).
 1. Open Source
    1. **Definition:** denotes software for which the original source code is made freely available and may be redistributed and modified.
-   1. **Example:** Our GitLab [handbook]({{< ref "/handbook" >}}) is open source because anyone can make changes and contribute to it.
+   1. **Example:** Our GitLab [handbook](/handbook) is open source because anyone can make changes and contribute to it.
 1. Project
    1. **Definition:** used for hosting your codebase, as an issue tracker, collaborate on code, and continuously build, test, and deploy your app with built-in GitLab CI/CD.
    1. **Example:** This is a [project](https://gitlab.com/gitlab-com/people-group/gitlab-tool-training).
@@ -111,7 +93,7 @@ All of these terms will be used at GitLab, but the most common ones are:
 
 ### Practice Your Knowledge
 
-Before taking the quiz, practice your knowledge on technical terminology with these [flashcards](https://www.cram.com/flashcards/technical-terminology-12355727).
+Practice your knowledge on technical terminology with these [flashcards](https://www.cram.com/flashcards/technical-terminology-12355727).
 
 To use the flashcards, click on the link above. You can review the flashcards in a variety of different ways. You can use them like normal (virtual) index card flashcards with the vocab word on the front and click on the index card to reveal the definition on the back. You can also use the other flashcard functions like Memorize and Test.
 
@@ -211,7 +193,7 @@ As you learned in the technical terminology portion, a GitLab Merge Request (MR)
 
 ### How to create a GitLab Merge Request (i.e. How to make an update to the handbook)
 
-Follow the instructions to [Edit the Handbook](https://about.gitlab.com/handbook/git-page-update/#13-edit-the-handbook) which include creating a merge request to commit an edit.
+Follow the instructions to [Edit the Handbook](/handbook/editing-handbook/) which include creating a merge request to commit an edit.
 
 #### Video: How to create a GitLab Merge Request (~20 minutes)
 
@@ -228,9 +210,3 @@ You can search for a GitLab Merge Request in the same way as you search for a Gi
 1. Soft Wrap - when you are editing your MR, you can either select soft wrap or no wrap. If you select "soft wrap" you will be able to see all of the text in one screen. If you select "no wrap" (which is the default) you will have to scroll to the right if the text on the line is wider than the page.
 1. Squash Commits - when obtaining a merge request, there is an option to enable or disable [“Squash commits when merge request is accepted”](https://docs.gitlab.com/ee/user/project/merge_requests/squash_and_merge.html). If enabled, it combines all your merge request’s commits into one and retain a clean history.
 1. Delete Branch - when creating or editing your merge request, you can also select the [“Delete source branch when merge request accepted”](https://docs.gitlab.com/ee/user/project/merge_requests/#delete-the-source-branch-on-merge-by-default) option.
-
-To complete GitLab 101, you will have to pass (with at least an 80%) all three Lessons including: Technical Terminology, GitLab Issues, and GitLab Merge Requests.
-
-## Feedback
-
-We are always trying to improve. Please let us know what you thought of this GitLab 101 course by filling out the feedback section which appears when completing the course.

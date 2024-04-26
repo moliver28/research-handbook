@@ -15,11 +15,11 @@ View the [CSM Handbook homepage](/handbook/customer-success/csm/) for additional
 
 ## Objective
 
-Define the process for how the CSM interacts with the systems and processes designed to provide customers with technical support.  
+Define the process for how the CSM interacts with the systems and processes designed to provide customers with technical support.
 
 ## Establishing Customers in Support Systems
 
-During the onboarding process, the CSM will ensure that customers are correctly established in the support system. GitLab manages support requests through a system called [Zendesk](/handbook/support/workflows/zendesk-instances.html). GitLab has [integrated the GitLab instance of Salesforce with Zendesk](/handbook/support/workflows/zendesk_organizations_and_users_overview.html) to facilitate the establishment of users in Zendesk. The integration synchronizes account-level data so that the Zendesk ticket has accurate information on the customers’ purchase of products that include support.
+During the onboarding process, the CSM will ensure that customers are correctly established in the support system. GitLab manages support requests through a system called [Zendesk](/handbook/support/workflows/zendesk-instances.html). GitLab has [integrated the GitLab instance of Salesforce with Zendesk](/handbook/support/workflows/zendesk_organizations_and_users_overview/) to facilitate the establishment of users in Zendesk. The integration synchronizes account-level data so that the Zendesk ticket has accurate information on the customers’ purchase of products that include support.
 
 Though automation exists, the CSM must still ensure customers take additional steps to fully establish their personnel in Zendesk. Specifically, the CSM must work with the customer to establish specific Zendesk users under the Zendesk Account so that tickets submitted by the customer’s personnel are guided by the GitLab support team’s [Service Level Agreements (SLAs)](https://about.gitlab.com/support/#gitlab-support-service-levels).
 
@@ -34,7 +34,7 @@ Users who aren't associated with their organization will not be able to access G
 
 ## Support Ticket Best Practice
 
-GitLab offers [a variety of support options](/support/) for all customers and users on both paid and free tiers. The CSM should continually review customer tickets and then educate customers on support best practices. In particular, the CSM should ensure that customers are submitting tickets that meet best practices. Please address the below items with customers for when they [open a support ticket](https://support.gitlab.com/hc/en-us):
+GitLab offers [a variety of support options](https://about.gitlab.com/support/) for all customers and users on both paid and free tiers. The CSM should continually review customer tickets and then educate customers on support best practices. In particular, the CSM should ensure that customers are submitting tickets that meet best practices. Please address the below items with customers for when they [open a support ticket](https://support.gitlab.com/hc/en-us):
 
 1. Provide as much detail as possible during the first submission of the ticket
 1. Summary of issue (when did it start, how frequently, impact on organization, etc.)
@@ -52,7 +52,7 @@ GitLab offers [a variety of support options](/support/) for all customers and us
 
 For each customer / org in Zendesk managed by a CSM, we can get a link to the collaboration project included, which then can point to the customers architecture details within existing tickets. This link helps our support team to access customer information from the [Customer Collaboration Project](/handbook/customer-success/csm/customer-collaboration-project/) without looking up the URL manually each time.
 
-To enable this [linking from ZD to the corresponding collaboration project](/handbook/support/workflows/looking_up_customer_technical_details.html#architecture-diagram-and-customer-success-project) and make the life of the GitLab support team easier, you need to review the [Customer Collaboration Project](/handbook/customer-success/csm/customer-collaboration-project/) ID set in Zendesk (visible on the left side).
+To enable this [linking from ZD to the corresponding collaboration project](/handbook/support/workflows/looking_up_customer_technical_details/#architecture-diagram-and-customer-success-project) and make the life of the GitLab support team easier, you need to review the [Customer Collaboration Project](/handbook/customer-success/csm/customer-collaboration-project/) ID set in Zendesk (visible on the left side).
 
 If the [Customer Collaboration Project](/handbook/customer-success/csm/customer-collaboration-project/) id is not correct, you can open a new issue with our support ops team [here](https://gitlab.com/gitlab-com/support/support-ops/zendesk-global/organizations/-/issues/new) and let it get changed by using the following information in your request:
 
@@ -63,7 +63,7 @@ If the [Customer Collaboration Project](/handbook/customer-success/csm/customer-
 
 **The AM ID should therefore be**: 17735787 and finally point to https://gitlab.com/<collaboration_project_url>
 
-**Ref. of handbook**: https://about.gitlab.com/handbook/support/workflows/looking_up_customer_technical_details.html#architecture-diagram-and-customer-success-project
+**Ref. of handbook**: https://about.gitlab.com/handbook/support/workflows/looking_up_customer_technical_details/#architecture-diagram-and-customer-success-project
 
 ---
 

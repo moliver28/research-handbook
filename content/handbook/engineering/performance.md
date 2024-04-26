@@ -9,7 +9,7 @@ title: "Performance"
 
 
 
-## Performance Facets 
+## Performance Facets
 
 We categorize performance into 3 facets
 1. [Backend](#backend-performance)
@@ -18,9 +18,9 @@ We categorize performance into 3 facets
 
 ### Backend performance
 
-Backend performance is scoped to response time of API, Controllers and command line interfaces (e.g. git). 
+Backend performance is scoped to response time of API, Controllers and command line interfaces (e.g. git).
 
-**DRI**: [Christopher Lefelhocz](https://gitlab.com/clefelhocz1), VP of Development. 
+**DRI**: [Christopher Lefelhocz](https://gitlab.com/clefelhocz1), VP of Development.
 
 Performance Indicators:
 - [Memory Utilization (backlog)](https://gitlab.com/gitlab-com/www-gitlab-com/-/issues/8841)
@@ -38,7 +38,7 @@ Performance Indicators:
 
 Infrastructure performance is scoped to the performance of GitLab SaaS Infrastructure.
 
-**DRI**: [Steve Loyd](https://gitlab.com/sloyd), VP of Infrastructure. 
+**DRI**: [Steve Loyd](https://gitlab.com/sloyd), VP of Infrastructure.
 
 Performance Indicators:
 - [GitLab.com known application scaling bottlenecks](/handbook/engineering/infrastructure/performance-indicators/#gitlabcom-known-application-scaling-bottlenecks)
@@ -469,7 +469,7 @@ To go a little deeper and measure performance of the application & infrastructur
 
 ### Availability
 
-This section has been moved to [Availability severity](/handbook/engineering/quality/issue-triage#availability).
+This section has been moved to [Availability severity](/handbook/engineering/infrastructure/engineering-productivity/issue-triage#availability).
 
 ### Performance
 

@@ -13,7 +13,6 @@ twitter_creator: "@gitlab"
 
 
 ## Overview
-{: #overview .gitlab-purple}
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
 This page focuses on emails and nurture programs, owned and managed by Lifecycle Marketing, Marketing Campaigns, and Marketing Operations. We are focused on progressing leads throughout their funnel and have programs encompassing prospects (aimed at progressing Unknown > Inquiry > MQL > SAO) and product user journeys (free > trial >paid campaigns).  We leverage "always on", logic-based, trigger-based, and persona-driven nurture engines.
@@ -39,7 +38,6 @@ Please visit our other pages for more information on [email best practices](/han
     - [see this epic for holding location of projects to be prioritized](https://gitlab.com/groups/gitlab-com/marketing/-/epics/1040)
 
 ### Quick Links
-{: #quick-links}
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
 - [Combine nurture epic](https://gitlab.com/groups/gitlab-com/marketing/-/epics/3979)
@@ -48,15 +46,12 @@ Please visit our other pages for more information on [email best practices](/han
 - [FY24 Trial Nurture epic](https://gitlab.com/groups/gitlab-com/marketing/-/epics/3559)
 - [All nurtures: CTA & UTM documentation](https://docs.google.com/spreadsheets/d/1ra3jTCzYSZIE5nL_PsbDBSl9Bab9_Amr_sjLOJ-W1Ik/edit#gid=711539408)
 ## Email Nurture Programs
-{: #nurture-programs .gitlab-purple}
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
 ### Intelligent Email Nurture
-{: #intelligent-email-nurture}
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
 #### Quick Links
-{: #intellient-email-nurture-quick-links}
 <!-- DO NOT CHANGE THIS ANCHOR -->
 * [Overview Deck](https://docs.google.com/presentation/d/1N_VM8xHGiQ95PXt09xyuQAa9px0VGEGyJd0KtGdXjzg/edit#slide=id.g106e2c5ac6b_0_0)
 - [Combine nurture epic](https://gitlab.com/groups/gitlab-com/marketing/-/epics/3979)
@@ -66,7 +61,6 @@ Please visit our other pages for more information on [email best practices](/han
 * [CTA & UTM documentation of existing nurture](https://docs.google.com/spreadsheets/d/1ra3jTCzYSZIE5nL_PsbDBSl9Bab9_Amr_sjLOJ-W1Ik/edit#gid=711539408)
 
 #### Labels for Intelligent Nurture Progress
-{: #intelligent-nurture-labels}
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
 We created several GitLab labels for a better organization of each asset that we are adding to the intelligent nurture.
@@ -81,33 +75,31 @@ Below we explain the labels created and what each one is for:
    - **PLEASE NOTE: the requester indicates the desired streams in the description of the issue, but the Lifecycle Marketing team makes the final decision on which streams are relevant. Please reference [the stream alignment rules](/handbook/marketing/lifecycle-marketing/email-processes-requests/#nurture-stream-offer-alignment) for what content type is relevant for each stream.**
 
 ### Intelligent Email Nurture Stream Schedule
-{: #intelligent-nurture-stream-schedule}
 <!-- DO NOT CHANGE THIS ANCHOR -->
 The following shows the day of the week and cadence of the different streams in the Intelligent Nurture:
 
-* AMER:  Thursday, 9:00 AM PT
-* EMEA: Tuesday, 1:00 AM PT
-* APAC: Tuesday, 6:30 PM PT
-* LATAM: Tuesday, 9:00 AM PT. 
+* AMER:  Thursday, 8:30 AM PT
+* EMEA: Thursday, 1:00 AM PT
+* APAC: Wednesday (Thursday APAC time), 6:30 PM PT
+* LATAM: Thursday, 8:30 AM PT. 
 * Localized
-   - Spanish: Inactive
-   - French: Tuesday, 1:00AM PT
-   - German: Inactive
-   - Japanese: Tuesday, 5:00PM PT
-   - Korean: Tuesday, 5:00PM PT
-   - Portuguese: Inactive
+   - Spanish: Inactive - leads rerouted to English nurtures
+   - French: Thursday, 1:00AM PT
+   - German: Inactive - relaunching end of Jan 2024
+   - Japanese: Wednesday (Thursday JP time), 5:00PM PT
+   - Korean: Wednesday (Thursday JP time), 5:00PM PT
+   - Portuguese: Inactive - leads rerouted to English nurtures
 * PubSec
-   - PubSec Default: Wednesday, 7:00AM PT 
-   - Civilian (CIV): Wednesday, 7:00AM PT
-   - Department of Defense (DoD): Wednesday, 7:00 AM PT
-   - Federal Systems Integrators (FSI): Wednesday, 7:00AM PT
-   - National Security Group (NSG): Wednesday, 7:00AM PT
-   - SLED: Wednesday, 7:00AM PT 
+   - PubSec Default: Thursday, 7:00AM PT 
+   - Civilian (CIV): Thursday, 7:00AM PT
+   - Department of Defense (DoD): Thursday, 7:00 AM PT
+   - Federal Systems Integrators (FSI): Thursday, 7:00AM PT
+   - National Security Group (NSG): Thursday, 7:00AM PT
+   - SLED: Thursday, 7:00AM PT 
 * Non-Demand Generation Nurture
-   - All Remote: Tuesday, 6:00AM PDT (not actively being maintained)
+   - All Remote: Thursday, 6:00AM PDT (not actively being maintained)
 
 ### Intelligent Nurture Processes
-{: #intelligent-nurture-processes}
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
 Our Intelligent Nurture processes have moved to our [email processes handbook page](/handbook/marketing/lifecycle-marketing/emails-processes-requests#intelligent-nurture-processes).
@@ -129,7 +121,6 @@ To be updated and documented upon revamp of nurture engine and database nurturin
 --->
 
 ### Marketo Email Journey
-{: #email-journey}
 <!-- DO NOT CHANGE THIS ANCHOR -->
 What happens to Marketo when a contact is a member of a program equal to True.
 Marketo within the engagement programs will try to send the number 1 email of the stream. If the contact does not comply with the requirements, Marketo will try to send the mail number 2 and so on until only 2 things happen: 1 – that the mail is sent or 2 – that no mail is sent from the stream and the contact becomes exhausted.
@@ -144,7 +135,6 @@ Which would lead us to the next solution. Once the contacts fall into exhausted 
 
 
 ## Intelligent Nurture Reporting Process 
-{: #intelligent-nurture-metrics}
 <!-- DO NOT CHANGE THIS ANCHOR -->
 Intelligent Nurture Reporting Process
 
@@ -191,7 +181,6 @@ To be able to extract a complete report of email metrics, you just must click on
 Also, in case of not having access to Marketo to download the report you can go to the following folder where the reports of each nurture are uploaded on a monthly basis. [Intelligent Nurture KPI](https://drive.google.com/drive/folders/1bpopmeEE9DDA0g50pw6Pr_PO_FPsS9-d?usp=sharing)
 
 #### Trial nurture
-{: #nurture-trial}
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
 * **Goal:** Educate trialers about key features to use during 30 day period.
@@ -202,7 +191,6 @@ Also, in case of not having access to Marketo to download the report you can go 
 * [Email copy doc](https://docs.google.com/document/d/1Pz0RxtBUsJgkrbeHDN9Oh8xSsh2054C0-VPfn0Nf-kw/edit?usp=sharing)
 
 ##### Setup for Trial Nurture
-{: #setup-trial-nurture}
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
 Self Managed owners go through the [Marketo Program](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/NP8569A1)
@@ -215,7 +203,6 @@ UTMs: ?utm_source=Iterable&utm_medium=email&utm_campaign=trial-nurture
 
 
 #### Free User Onboarding Email Campaigns
-{: #in-product-emails .gitlab-purple}
 <!-- DO NOT CHANGE THIS ANCHOR -->
 **Sent through Iterable**  
 We recenlty moved what was formerly known as "In-product emails" from Mailgun to our newer Iterable system. This will allow greater flexibility and iteration. 

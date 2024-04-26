@@ -23,17 +23,17 @@ Here are the individuals who work as part of one of the Analytics Section groups
 The section is covered by groups from teams across two primary departments, Engineering and Product. Teams and team members from those departments have their own handbook pages linked below.
 
 - Engineering
-   - [Development](https://about.gitlab.com/handbook/engineering/development/)
-      - [Analytics Instrumentation](https://about.gitlab.com/handbook/engineering/development/analytics/analytics-instrumentation/)
+   - [Development](/handbook/engineering/development/)
+      - [Analytics Instrumentation](/handbook/engineering/development/analytics/analytics-instrumentation/)
       - Product Analytics
    - [UX](/handbook/product/ux/#team-structure)
-   - [Quality](https://about.gitlab.com/handbook/engineering/quality/#quality-engineering-structure)
+   - [Quality](/handbook/engineering/quality/#quality-engineering-structure)
 - Product
    - TBD
 
 ## Investment Allocation
 
-The [product groups](/handbook/company/team/structure/#product-groups) within the Analytics Section are outlined in the [product categories page](/handbook/product/categories/#analytics-section).
+The [product groups](/handbook/company/structure/#product-groups) within the Analytics Section are outlined in the [product categories page](/handbook/product/categories/#analytics-section).
 
 The product department determines our [investment](https://internal.gitlab.com/handbook/product/investment/) within the section by allocating headcount for development team members to product groups. While doing so we adhere to the following principles:
 

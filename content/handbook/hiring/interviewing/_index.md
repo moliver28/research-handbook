@@ -1,15 +1,15 @@
 ---
 title: "Interviewer Prep Requirements"
-description: "Learn more about the tools required to prepare you for interviewing at Gitlab"
+description: "Learn more about the tools required to prepare you for interviewing at GitLab"
 ---
 
-As an interviewer, you play a significant part in creating a seamless, candidate-centered experience for all applicants here at Gitlab. Keeping an up-to-date calendar and setting up your specific interviewer preferences is essential to help reduce interview cancellations or declines and the need for rescheduling. This page will provide links and examples on how to adjust your calendar and interviewer preferences as well. We urge you to visit this Handbook page for a deeper understanding of how Gitlab candidates are moved through the interview process. DRI: Candidate Experience Team
+As an interviewer, you play a significant part in creating a seamless, candidate-centered experience for all applicants here at GitLab. Keeping an up-to-date calendar and setting up your specific interviewer preferences is essential to help reduce interview cancellations or declines and the need for rescheduling. This page will provide links and examples on how to adjust your calendar and interviewer preferences as well. We urge you to visit this Handbook page for a deeper understanding of how GitLab candidates are moved through the interview process. DRI: Candidate Experience Team
 
 To provide you with the knowledge and skills necessary to conduct effective and equitable interviews and to make informed hiring decisions, please visit this [handbook page]({{< ref "conducting-a-gitlab-interview" >}}).
 
 ## Inclusive Interviewing
 
-At Gitlab we strive to ensure our hiring teams are well versed in every aspect of diversity, inclusion, and cultural competence. A positive and comfortable candidate experience needs to be our priority. As an interviewer at Gitlab, we urge you to be committed to creating a welcoming and inclusive environment for all candidates.
+At GitLab we strive to ensure our hiring teams are well versed in every aspect of diversity, inclusion, and cultural competence. A positive and comfortable candidate experience needs to be our priority. As an interviewer at GitLab, we urge you to be committed to creating a welcoming and inclusive environment for all candidates.
 
 We do not ask for the candidate's pronouns in the application form. This information is "sensitive information" according to GDPR and other applicable privacy acts. We encourage our interviewers to utilize Zoom's Pronoun feature and you're welcome to disclose your pronouns in any way you feel comfortable doing so.
 
@@ -74,7 +74,7 @@ In Preferences, interviewers also have the ability to set daily and weekly Inter
 
 ## Guide
 
-Guide is the Interview Confirmation tool CES uses to send candidates their interview schedule. Guide provides candidates information about what their interview journey looks like, their interviewers, and Gitlab! You have the ability as an interviewer to update your Guide profile which can include a photo, bio and more about your role here at GitLab.
+Guide is the Interview Confirmation tool CES uses to send candidates their interview schedule. Guide provides candidates information about what their interview journey looks like, their interviewers, and GitLab! You have the ability as an interviewer to update your Guide profile which can include a photo, bio and more about your role here at GitLab.
 
 **Logging into Guide**
 

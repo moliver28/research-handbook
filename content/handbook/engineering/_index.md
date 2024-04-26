@@ -34,7 +34,7 @@ allows everyone to contribute.
 Engineering is the primary advocate for the performance, availability, and security of the GitLab project. Product Management prioritizes 80% of engineering time, so everyone in the engineering function should participate in the Product Management [prioritization process](/handbook/product/product-processes/#how-we-prioritize-work) to ensure that our project stays ahead in these areas.   Engineering prioritizes 20% of time on initiatives that improve the underlying platform and foundational technologies we use.
 
 - Review fixes from our support team. These merge requests are tagged with the `Support Team Contributions` label.  You can [filter on open MRs](https://gitlab.com/gitlab-org/gitlab/-/merge_requests?label_name%5B%5D=Support%20Team%20Contributions).
-- Working on high priority issues as a result of [issue triaging](/handbook/engineering/quality/issue-triage/). This is our commitment to the community and we need to include some capacity to review MRs or work on defects raised by the community.
+- Working on high priority issues as a result of [issue triaging](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/). This is our commitment to the community and we need to include some capacity to review MRs or work on defects raised by the community.
 - Improvements to the performance, stability and scalability of a feature.  Again, the Product team should be involved in the definition of these issues but Engineering may lead here by clearly defining the recommended improvements.
 - Improvements and upgrades to our toolchain in order to boost efficiency.
 
@@ -92,16 +92,16 @@ There are four departments within the Engineering Division:
 
 ### Workflows
 
-- [Developer onboarding](https://about.gitlab.com/handbook/developer-onboarding/)
+- [Developer onboarding](/handbook/developer-onboarding/)
 - [Engineering Demo Process](/handbook/engineering/demos/)
 - [Engineering Workflow](/handbook/engineering/workflow/)
     - [Code Review](/handbook/engineering/workflow/code-review/)
     - [Security Issues](/handbook/engineering/workflow/#security-issues)
     - [Architecture Design](/handbook/engineering/architecture/workflow/)
 - [GitLab Repositories](/handbook/engineering/gitlab-repositories/)
-- [Issue Triage Policies](/handbook/engineering/quality/issue-triage/)
+- [Issue Triage Policies](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/)
 - [Contributing to Go projects](https://docs.gitlab.com/ee/development/go_guide/index.html)
-- [Wider Community Merge Request Triage Policies](/handbook/engineering/quality/merge-request-triage/)
+- [Wider Community Merge Request Triage Policies](/handbook/engineering/infrastructure/engineering-productivity/merge-request-triage/)
 - [Root Cause Analysis](/handbook/engineering/root-cause-analysis/)
 - [Critical Security Releases](https://gitlab.com/gitlab-org/release/docs/blob/master/general/security/process.md#critical-security-releases)
 - [Incident Management](/handbook/engineering/infrastructure/incident-management/)
@@ -117,7 +117,8 @@ There are four departments within the Engineering Division:
 ### People Management
 
 - [Engineering Compensation Roadmaps](/handbook/engineering/compensation-roadmaps/)
-- [Engineering Career Development](/handbook/engineering/career-development/)
+- [Engineering Career Development](/handbook/engineering/careers/)
+- [Engineering Career Mobility Principles](/handbook/engineering/careers/#mobility-principles)
 - [Engineering Internship](/handbook/engineering/internships/)
 - [Engineering Secondments](/handbook/engineering/secondments/)
 - [Engineering Management](/handbook/engineering/management/)
@@ -141,7 +142,7 @@ To maintain high availability, Engineering runs a weekly SaaS Availability stand
 
 Each week the Infrastructure team reports on incidents and key metrics. Updating these items at the top of the
 [Engineering Allocation Meeting Agenda](https://docs.google.com/document/d/1Zk3qgbn8iDyJRq0i5C5LPBgEopY6o1tpYEKfdNfA9Bg/edit#heading=h.5t67v3au7sd4)
-is the responsibility of the Engineering Manager for the [General Squad](https://about.gitlab.com/handbook/engineering/infrastructure/team/reliability/#general-squad) in Reliability.
+is the responsibility of the Engineering Manager for the [General Squad](/handbook/engineering/infrastructure/team/reliability/#general-squad) in Reliability.
 
 1. Incident Review
    - Include any [S1 incidents](https://gitlab.com/gitlab-com/gl-infra/production/-/issues/?sort=created_date&state=all&label_name%5B%5D=incident&label_name%5B%5D=severity%3A%3A1&first_page_size=100) that have occurred since the previous meeting.
@@ -149,8 +150,7 @@ is the responsibility of the Engineering Manager for the [General Squad](https:/
 1. SaaS Metrics Review
    1. Include screenshots of the following graphs in the [agenda](https://docs.google.com/document/d/164hNObllaLWosG110-A0UouYlcaqOxbPpHATFD38_Gw/edit#heading=h.59wtcja0o8t7).
      - [Alert Volume Review](https://nonprod-log.gitlab.net/app/dashboards#/view/cca06cf0-cd56-11ec-b3a6-472d0398dd6e?_g=(filters:!(('$state':(store:globalState),meta:(alias:!n,disabled:!f,index:b35d9ca0-6c67-11eb-968b-c18082d502f4,key:type,negate:!f,params:(query:pagerduty),type:phrase),query:(match_phrase:(type:pagerduty))),('$state':(store:globalState),meta:(alias:!n,disabled:!f,index:b35d9ca0-6c67-11eb-968b-c18082d502f4,key:status,negate:!f,params:(query:acknowledged),type:phrase),query:(match_phrase:(status:acknowledged)))),refreshInterval:(pause:!t,value:0),time:(from:now-2M,to:now-1h)))
-     - [Incidents by Severity](https://app.periscopedata.com/app/gitlab/793517/Infrastructure-Incident-Data?widget=12314258&udv=0)
-     - [Corrective Actions](https://app.periscopedata.com/app/gitlab/1135629/Corrective-Actions---Infrastructure)
+     - [Corrective Actions](https://10az.online.tableau.com/t/gitlab/views/DraftInfrastructureEmbeddedDashboard/CAOverviewDashboard)
 
 #### Development Items
 

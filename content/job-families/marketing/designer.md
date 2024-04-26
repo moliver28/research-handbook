@@ -58,6 +58,6 @@ The next step in the Design job family is not yet defined at GitLab.
 
 ## Relevant links
 
-- [Engineering Handbook](https://about.gitlab.com/handbook/engineering/)
-- [Engineering Workflow](https://about.gitlab.com/handbook/engineering/workflow/)
+- [Engineering Handbook](/handbook/engineering/)
+- [Engineering Workflow](/handbook/engineering/workflow/)
 - [Product Handbook](/handbook/product/)

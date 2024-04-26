@@ -16,7 +16,7 @@ status: active
 
 ### Charter
 
-This working group will co-ordinate the organization of the effort to develop a frontend observability framework for Gitlab and establish guidelines for its usage. There is currently no method to instrument the frontend for the purposes of monitoring performance, especially across a range of devices and content. Error monitoring is possible but is mostly unused. This group will explore, define, and coordinate the development of system to make this instrumentation possible and document recommendations for use.
+This working group will co-ordinate the organization of the effort to develop a frontend observability framework for GitLab and establish guidelines for its usage. There is currently no method to instrument the frontend for the purposes of monitoring performance, especially across a range of devices and content. Error monitoring is possible but is mostly unused. This group will explore, define, and coordinate the development of system to make this instrumentation possible and document recommendations for use.
 
 ### Scope and Definitions
 

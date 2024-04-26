@@ -7,31 +7,33 @@ description: Using the customer console for internal requests is only for specia
 
 ## Overview
 
-Using the customer console for internal requests is only for specials cases where the existing tools won't allow us to complete the task at hand.
+This workflow is for frequently used functions that are pre-loaded via the [Customers Console and Functions project](https://gitlab.com/gitlab-com/support/toolbox/console-training-wheels).
 
-Console access requires a completed [Access Request](https://gitlab.com/gitlab-com/access-requests/issues/new?issuable_template=Single%20Person%20Access%20Request) as outlined in the [Customers Console training](https://gitlab.com/gitlab-com/support/support-training/-/blob/main/.gitlab/issue_templates/Customers%20Console.md) and its completion.
+Using the customer console for internal requests is only for special cases in which the existing tools won't allow us to complete the task at hand.
 
-The scope of what's outlined in this workflow is for frequently used functions which are pre-loaded via [Customers Console and Functions project](https://gitlab.com/gitlab-com/support/toolbox/console-training-wheels).
+Console access is through [Teleport](https://goteleport.com/docs/connect-your-client/introduction/), and requires membership in the relevant Okta groups [documented on the CustomersDot project](https://gitlab.com/gitlab-org/customers-gitlab-com/-/blob/main/doc/setup/teleport.md#group-membership).  You can file an [access Request](https://handbook.gitlab.com/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/#individual-or-bulk-access-request) to gain membership.
 
-## Using the support console
+Refer to the [CustomersDot documentation page about Teleport](https://gitlab.com/gitlab-org/customers-gitlab-com/-/blob/main/doc/setup/teleport.md#using-teleport-for-db-rails-access) for a full overview of installing and using Teleport to access the production or staging rails console.
 
-After logging into the CustomersDot server, enter the command:
+#### Production
 
-```sh
-support_console
-```
+All requests to *production* require approval of the SRE(s) on shift, and you can view your request(s) in `#infrastructure-lounge` in slack.
 
-This will open the rails console and automatically load the functions available to use.
+**Note** The production system will automatically invoke the support console wrapper script upon login
 
-Most functions rely on the namespace (i.e. GitLab.com Group name or username), always make sure to have it handy before starting any work from the console.
+1. You will initiate the request via Teleport using `tsh login`.
+   - Your command shell will hang until approval is given, but you can close the terminal or kill the process at any time, and then resume it using the `--request-id` option:
+     - *e.g.* `tsh login --request-id=xxx ...`
+   - The ID is shown in your shell, and is also available in `#infrastructure-lounge` or the slack DM from Teleport-app
+1. Afer the request is approved, you will then use Teleport to SSH into the system with `tsh ssh`
+1. Requests generally remain approved for 8-12 hours.  You can resume that session anytime, again using `--request-id`
 
-Consider creating a [Shell alias](/handbook/tools-and-tips/#shell-aliases) such as the below:
+#### Staging
 
-```sh
-alias cdot-console="ssh -t <YOUR_USERNAME>@customersdot-prod 'support_console'"
-```
+- No approval is necessary for staging, and access is granted immediately
+- Accessing is the same as it is for production, except your `tsh login` will be approved immediately, and you can move on to `tsh ssh`
+- The wrapper script *is not* invoked upon login
 
-- If needed, review the [Production SSH Config settings here](https://gitlab.com/gitlab-org/customers-gitlab-com/-/blob/main/doc/setup/production.md) for more information on configuring your local SSH settings to access the console.
 
 ## Scope
 
@@ -258,7 +260,7 @@ irb(main):421:0> find_namespace('test')
 
 ### update_gitlab_plan
 
-> *Note*: This can be deprecated when this is available in the UI which will require [showing expired trials (customers #1173)](https://gitlab.com/gitlab-org/customers-gitlab-com/-/issues/1173), [ability to extend (customers #1643)](https://gitlab.com/gitlab-org/customers-gitlab-com/-/issues/1643), and for [the Gitlab account to be tied to customers portal to show GitLab Groups after a trial is initiated (customers #973)](https://gitlab.com/gitlab-org/customers-gitlab-com/-/issues/973).
+> *Note*: This can be deprecated when this is available in the UI which will require [showing expired trials (customers #1173)](https://gitlab.com/gitlab-org/customers-gitlab-com/-/issues/1173), [ability to extend (customers #1643)](https://gitlab.com/gitlab-org/customers-gitlab-com/-/issues/1643), and for [the GitLab account to be tied to customers portal to show GitLab Groups after a trial is initiated (customers #973)](https://gitlab.com/gitlab-org/customers-gitlab-com/-/issues/973).
 
 Use cases for this function:
 
@@ -341,7 +343,7 @@ Force a .com group to be associated with a given subscription. This is typically
 | Name | Required | Details |
 | ------ | ------ | ------ |
 | `:subscription_name` | *Yes* | The subscription name to be re-associated|
-| `:namespace_path` | *Yes* | The [unique Gitlab namespace](https://docs.gitlab.com/ee/user/group/#namespaces) *`path`*|
+| `:namespace_path` | *Yes* | The [unique GitLab namespace](https://docs.gitlab.com/ee/user/group/#namespaces) *`path`*|
 
 #### Sample
 
@@ -388,6 +390,24 @@ Completely unlink a GitLab.com account from a CustomersDot account. **Note:** Us
 irb(main):021:0> unlink_customer(0000000)
 => {:success=>true}
 ```
+
+### Identify multiple CustomersDot accounts linked to a GitLab account
+
+#### Parameters
+
+| Name | Required | Details |
+| ------ | ------ | ------ |
+| `:uid` | *Yes* |GitLab.com UID which may have been linked to multiple cdot accounts
+
+#### Sample
+
+````ruby
+*** PRODUCTION *** production> Customer.where(uid: 0000000)
+=> [#<Customer 000000, first_name: "Jane", last_name: "Doe", created_at: "2021-12-21 16:29:53.324183000 +0000", updated_at: "2023-01-17 00:56:56.311661000 +0000", email: "jdoe@examplecorp.net", provider: "gitlab", uid: "0000000", country: "USA", state: "GA", city: "Columbus", zip_code: "12345", vat_code: nil, company: "ExampleCorp", salesforce_account_id: "000001230043203, skip_email_confirmation: false>,
+#<Customer 100009, first_name: "Bob", last_name: "Doe", created_at: "2022-11-12", email: "bdoe@examplecorp.net", provider: "gitlab", uid: "0001235", country: "USA", state: "GA", city: "Columbus", zip_code: "12345", vat_code: nil, company: "ExampleCorp", salesforce_account_id: "00000123006988343, skip_email_confirmation: false>]
+``````
+
+`unlink_customer` can be used to remove additional customers portal accounts identified as linked to the one uid.
 
 ### associate_full_user_count_with_group
 

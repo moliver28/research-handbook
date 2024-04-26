@@ -165,10 +165,6 @@ It’s natural to try and slice survey response data by every facet imaginable t
 
 We deploy SUS on a regular basis, but that doesn’t mean we should expect to see improvements reflected in the score immediately. Once we ship a product change, people first have to experience it in sufficient numbers such that our survey reaches enough of them. This can take different amounts of time depending on the usage of a given feature and is effectively impossible to estimate. We also have no way of knowing what the effect of single product change will be on a user. Something that is a major pain for a large number of users may be a minor annoyance for the person we survey. We shouldn’t expect single enhancements to drive increases in the SUS, but rather, that sustained enhancements over time will lead to improvements to our overall usability, which in turn should increase our SUS score over the long term.
 
-## SUS Database
-
-Every quarter, we collect dozens of data points in our SUS survey, including the individual SUS scores, participants' verbatims, and more. If you want to find past data, you can use the [SUS Database](/handbook/product/ux/sus-database/) handbook page to find our database in Sisense (internal users only).
-
 ## Frequently Asked Questions
 
 **Q: Can we calculate a SUS score for a particular stage or feature?**
@@ -186,7 +182,3 @@ A: There isn’t a single answer to this question, as sample size depends on how
 **Q: How can I find open issues that relate to SUS?**
 
 A: Issues that relate to SUS will have one of the labels indicated in the [How we use labels](/handbook/product/ux/#ux-labels) section of the UX Department Handbook. If you see an issue that relates to usability problems that fall in line with recent SUS findings, feel free to add one of the labels to it. When in doubt, reach out to your manager or ask in the `#ux` Slack channel.
-
-**Q: Does our SUS Database keep all of the past SUS surveys?**
-
-A: The SUS Database stores our SUS surveys going back to our FY21Q4 Survey, but surveys from FY20Q1 to FY21Q3 are not stored. This is because prior to FY21Q4, our collection process was different, and the format of the results do not match our SUS Database structure. If you would like to see surveys from FY20Q1 to FY21Q3, you can message the `#ux_research` Slack channel.

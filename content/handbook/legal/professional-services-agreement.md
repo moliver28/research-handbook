@@ -1,6 +1,5 @@
 ---
 title: "GitLab Professional Services Agreement"
-description: "Learn more about GitLab Professional Services Agreement."
 ---
 
 This Professional Services Agreement, including any exhibits, schedules, appendices and addenda (collectively, the “Agreement”) is between GitLab Inc. with offices at 268 Bush Street, Suite 350, San Francisco, CA 94104, or a different GitLab Affiliate listed as “GitLab” on an Order Form, (in each case, “GitLab”), and the individual or entity signing any SOW, or any Order Form, that references this Agreement (“Customer”). This Agreement is entered into (the “Effective Date”) on the earlier of (a) GitLab’s acceptance of an Order Form referencing this Agreement, or (b) GitLab and Customer executing an SOW referencing this Agreement.
@@ -31,7 +30,7 @@ Individual Not Authorized to Sign on Behalf of Company. IF THE INDIVIDUAL ACCEPT
 
 “Professional Services” means the GitLab services offerings including, without limitation, implementation, configuration, consulting, or training services to be provided to Customer under any applicable SOW or Order Form.
 
-“SOW” means a written statement of work executed by Gitlab and Customer describing Professional Services to be provided hereunder setting forth the time and materials-based objectives (unless otherwise stated as a fixed-fee) including, without limitation, project-specific activities and estimated level of effort.  An SOW may be entered into, or incorporated within an Order Form, by and between Customer and GitLab, any GitLab Affiliate, or an Authorized Partner.
+“SOW” means a written statement of work executed by GitLab and Customer describing Professional Services to be provided hereunder setting forth the time and materials-based objectives (unless otherwise stated as a fixed-fee) including, without limitation, project-specific activities and estimated level of effort.  An SOW may be entered into, or incorporated within an Order Form, by and between Customer and GitLab, any GitLab Affiliate, or an Authorized Partner.
 
 “Subscription Agreement” means the separate agreement available here: https://about.gitlab.com/terms/ as between GitLab and Customer governing the parties’ rights and obligations with respect to the Subscription Products.
 
@@ -135,7 +134,7 @@ Individual Not Authorized to Sign on Behalf of Company. IF THE INDIVIDUAL ACCEPT
 
 13.6 No failure or delay by either party in exercising any right under this Agreement will constitute a waiver of that right.  All waivers and modifications must be in a writing signed or otherwise agreed to by each party, except as otherwise provided herein.
 
-13.7 The relationship of Gitlab and Customer is that of independent contractors.  There is no relationship of agency, partnership, joint venture, or employment is created as a result of this Agreement and neither party has any authority of any kind to bind the other in any respect whatsoever.
+13.7 The relationship of GitLab and Customer is that of independent contractors.  There is no relationship of agency, partnership, joint venture, or employment is created as a result of this Agreement and neither party has any authority of any kind to bind the other in any respect whatsoever.
 
 13.8 In any action or proceeding to enforce rights under this Agreement, the prevailing party will be entitled to recover costs and reasonable attorneys’ fees.
 

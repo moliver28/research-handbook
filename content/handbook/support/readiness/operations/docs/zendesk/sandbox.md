@@ -18,7 +18,7 @@ vetted.
 
 You can locate the sandboxes via:
 
-- [Global](https://gitlab1545832369.zendesk.com/agent/)
+- [Global](https://gitlab1707170878.zendesk.com/agent/)
 - [US Federal](https://gitlabfederalsupport1585318082.zendesk.com/agent)
 
 ## How to access the Zendesk Sandbox

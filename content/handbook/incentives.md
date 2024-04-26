@@ -12,7 +12,7 @@ The following incentives are available for GitLab team members. Also see our sep
 ### Discretionary Bonuses for Individuals
 
 1. Every now and then, individual GitLab team members really shine as they live our values.  We especially like to celebrate the special moments that exemplify the behavior we want to see in all GitLab team members.
-1. We recognize this through the `#thanks` channel, and sometimes also through a discretionary bonus.
+1. We recognize this through the `#thanks` channel, and sometimes also through a discretionary bonus which is also celebrated in `#thanks`.
 1. [Any GitLab team member can recommend a discretionary bonus for another GitLab team member to the GitLab team member's manager using the Nominator Bot]({{< ref "incentives" >}}) for a $1,000 at [the exchange rate](/handbook/total-rewards/compensation/#exchange-rates). The exception is that direct reports cannot nominate their manager or anyone in their management chain for a discretionary bonus.
 1. Only [GitLab team members](/handbook/people-group/employment-solutions/#team-member-types-at-gitlab) are eligible to receive a discretionary bonus / working group bonus or nominate other GitLab team members. Hence, `Temporary Contractors` (Not included in GitLab Team Member Types) are not eligible to receive or nominate discretionary bonus / working group bonus. Any such nominations for the temporary contractors will not be approved by the People Connect team.
 1. We are fixing this amount at $1,000 thoughtfully and purposefully. We want the focus to be on the value and the behavior, not on the perceived monetary impact to GitLab. This is about recognition.
@@ -23,6 +23,7 @@ The following incentives are available for GitLab team members. Also see our sep
    Should a nominated team member leave GitLab, they will not receive a discretionary bonus.
    It's at the discretion of the manager if they still want to publicly recognize the team member's behavior for the nomination.
 1. Only individuals in good standing with the company are eligible for discretionary bonuses (I.E. not currently undergoing [underperformance remediation]({{< ref "underperformance" >}})). If a team member receives a discretionary bonus nomination during a period of underperformance remediation, managers should wait until the underperformance remediation period concludes successfully before determining whether to admit the discretionary bonus request.
+1. Any bonus that sits idle for 90 days will be automatically canceled. At GitLab, only 90 days of Slack is retained and therefore any history of this request has also been deleted for the approver.
 
 ### Valid and Invalid criteria for discretionary bonuses
 
@@ -68,7 +69,7 @@ You can read more about the process in [our handbook](#nominator-bot-process)
 
 > to do more or better than would usually be expected of you
 
-What do we normally expect of a GitLab team member? Read their job family responsibilities to determine if their work is part of the normal job expectations. As an example, a senior Frontend developer is expected to [solve technical problems of high scope and complexity.]({{< ref "/job-families/engineering/development/frontend#senior-frontend-engineer" >}}). Going above and beyond involves taking on work that is outside the scope of their job responsibility listing, and executing it to a high level.
+What do we normally expect of a GitLab team member? Read their job family responsibilities to determine if their work is part of the normal job expectations. As an example, a senior Frontend developer is expected to [solve technical problems of high scope and complexity.](/job-families/engineering/development/frontend#senior-frontend-engineer). Going above and beyond involves taking on work that is outside the scope of their job responsibility listing, and executing it to a high level.
 
 Some tips for knowing if someone is going above and beyond:
 
@@ -112,7 +113,7 @@ If you received the same nomination twice (for the same person and the same reas
 1. The Nominator bot will send you a Slack DM asking to approve or reject the nomination.
 1. When you decide to approve, all you need to do is click the approve button. The bot will take care of the next steps (sending it to the second level manager and the People Connect team).
 1. When you decide to reject, click the reject button. The nomination will be updated as `rejected_by_manager`. The bot will ask you to reach out to the nominator as to make sure they understand why the nomination was not approved.
-1. When everyone else has approved, the bot will reach out to you so you can share this with the team member, in the `[#thanks](https://gitlab.slack.com/archives/C038E3Q6L)` Slack channel, and make sure the team member's direct peers can easily see it:
+1. When everyone else has approved, the bot will reach out to you so you can share this with the team member, in the [#thanks](https://gitlab.slack.com/archives/C038E3Q6L) Slack channel, and make sure the team member's direct peers can easily see it:
      - For example, cross-post to the team member's group channel
      - For Support, add it to the [Support Week in Review](/handbook/support/#support-week-in-review) as a "Team Member Update" item
 
@@ -303,8 +304,6 @@ Please note if the team member has a hire date effective **before 2023-11-20**, 
 
 For information regarding the program details and team member eligibility and understanding, please visit our [guide in the Hiring section of GitLab's handbook](/handbook/hiring/referral-process/).
 
-If a team member has been referred, the People Connect team will review team members' self-identification data in Workday including Gender, Ethnicity and Veteran status to determine if the team member qualifies as belonging to a select underrepresented group.
-
 ### Exceptions
 
 - no bonus for hiring people who report to you directly or are in your direct reporting chain,
@@ -312,7 +311,7 @@ If a team member has been referred, the People Connect team will review team mem
 - no bonus for referring a Boomerang Team Member (returning team member),
 - no bonus if the referring Team Member is a part of the Talent Acquisition team - they are not eligible given the nature of their position is to engage candidates.
 - no bonus if there's a perceived conflict of interest.
-- no bonus for VP level [grade 12](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) or the [Executive Group](/handbook/company/team/structure/#executives).
+- no bonus for VP level [grade 12](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) or the [Executive Group](/handbook/company/structure/#executives).
 - no bonus if the referral is an intern. You will be paid a referral bonus if the referral(intern) is converted to a full-time, intermediate-level team member.
 - no bonus for a referring team member will be applicable if the team members employment is terminated prior to the referral bonus payout date. You need to be an active team member.
 - In the event that more than one GitLab employee refers the same team member for the same role the People Ops team will ask the new team member to confirm who they were referred by (who should get the credit). If they mention two or more people then the bonus will be split between them.
@@ -347,7 +346,7 @@ In FY24, each E-Group member has been allocated a budget (can be for a specific 
 Start your quarter off by getting to know someone new at GitLab, or meeting someone in person for the first time! During the first month of every quarter in Feb, May, and August we invite team members to use a Get Together Grant to meet up with a team member either in person or virtually. In the fourth quarter, we will have a [holiday grant](/handbook/finance/expenses/#-year-end-holiday-party-budget) that will be coordinated by your E-group leader.  To take part in the grant, check out the following details:
 
 1. Each team member can expense up to $50 USD each quarter on a meal, activity, and/or ground transportation to spend time with a GitLab team member in-person. Or, up to $25 USD each quarter for a virtual Get Together on a remote activity, remote coffees or remote meals (yes, this means you can have a real coffee for your remote coffee chat).
-1. To use the grant, get together with a team member and expense up to $50 USD for in-person meet-ups or $25 USD for virtual meet-ups in Expensify by selecting the Get Together Grant category in the dropdown the first month of every quarter (Feb, May, Aug) and writing whether your get together was live or virtual in the line items. The expense report must be submitted within 1 month of the Get Together.
+1. To use the grant, get together with a team member and expense up to $50 USD for in-person meet-ups or $25 USD for virtual meet-ups in Navan by selecting the Get Together Grant category in the dropdown the first month of every quarter (Feb, May, Aug) and writing whether your get together was live or virtual in the line items. The expense report must be submitted within 1 month of the Get Together.
 *Please note, Get Together expenses that are submitted outside of these months will not be approved and any amount over the allotted $50 USD per person for in-person and $25 USD per person for remote get togethers will not be approved. Limit one Get Together Grant per person the first month of each quarter.*
 1. Team members can plan, pay for, and expense a Get Together in an eligible month (Feb, May, Aug, and Nov) for an activity or expense that allows them to get together with another team member later in that quarter.
 1. Once you participate in a Get Together with another team member, share your experience and a few pictures for a chance to be featured in social by submitting [this form](https://forms.gle/Z3CLPFAQGcAbwzN26).

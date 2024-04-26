@@ -3,7 +3,7 @@
 title: "CSM Strategies for Mitigating Risk In Customer Accounts"
 description: "CSM Strategies for Mitigating Risk In Customer Accounts"
 ---
- 
+
 
 
 
@@ -53,7 +53,7 @@ Based on the identified type of risk, the CSM can use some of the following ques
 ### ROI (the customer doesn't feel they're getting value)
 
    - Not a priority / Lack of leadership support
-      - `What are your devops priorities? How can we align with those?`
+      - `What are your DevOps priorities? How can we align with those?`
    - Lack of a plan
       - `How can we help you adopt greater use and derive greater value from GitLab?`
    - `Where do you feel you're getting the most value out of GitLab right now?`

@@ -9,61 +9,37 @@ title: "Enterprise Applications Integrations"
 
 
 
-
-
-
-
-## Enterprise Applications Integrations
-
-#### Quick links
-
-1. [Integrations Work tracker](https://gitlab.com/gitlab-com/business-technology/enterprise-apps/integrations/integrations-work/-/issues){:target="_blank"}
-1. [Automation-Integration Inventory](https://docs.google.com/spreadsheets/d/1mGeG2ClY8GHz2RZUpu-5FN0wUPCaw1o2bWEGtS0qLXE/edit?usp=sharing)
-1. [Workato Playbook](./workato-playbook){:target="_blank"}
-1. [Change Management](./change-management){:target="_blank"}
-1. [Integrations Wiki](./wiki){:target="_blank"}
-
-#### Quick Reference: Integration Docs
-
-- [GreenHouse to Workday](./wiki/integrations-list/greehouse-workday/)
-- [Rolly Automation](./wiki/integrations-list/rolly-updates-automation/)
-- [Zuora Billing <> NetSuite](./wiki/integrations-list/zuora-billing-netsuite/)
-- [Workday > Navex Gloabl](./wiki/integrations-list/workday-navex-gloabl/)
-
-
-## How we work
-
-To learn about our processes please visit the [How We Work](./how-we-work) page
-
 ## Who are we?
 
-### Dennis  - Senior Integrations Engineer
+### Dennis Griffin - Senior Integrations Engineer
 
-GitLab handle: [@dgriffin4](https://gitlab.com/dgriffin4){:target="_blank"}
+- GitLab handle: [@dgriffin4](https://gitlab.com/dgriffin4)
 
-Slack handle: [@dgriffin4](https://gitlab.slack.com/team/U052E2AGY3F){:target="_blank"}
-
-Job Family: [Integrations Engineer](/job-families/finance/integrations-engineer/#senior-integrations-engineer){:target="_blank"}
 
 ### Karuna Singh - Integrations Engineer
 
-GitLab handle: [@Karuna16](https://gitlab.com/Karuna16){:target="_blank"}
+- GitLab handle: [@Karuna16](https://gitlab.com/Karuna16)
 
-Slack handle: [@Karuna Singh](https://gitlab.slack.com/team/U01GEHXQZEK){:target="_blank"}
 
-Job Family: [Integrations Engineer](/job-families/finance/integrations-engineer/#integrations-engineer){:target="_blank"}
+### Jeff Dunnett - Senior Integrations Engineer
 
-### Durgesh Thakkar - Senior Manager, Integrations Engineering
+- GitLab handle: [@jdunnett](https://gitlab.com/jdunnett)
 
-GitLab handle: [@dthakkargit](https://gitlab.com/dthakkargit){:target="_blank"}
 
-Slack handle: [@dthakkargit](https://gitlab.slack.com/team/U053SBVN3EX){:target="_blank"}
+### Santhosh Baranidharan - Senior Business Analyst
 
-Job Family: [Integrations Engineer](/job-families/finance/integrations-engineer/#integrations-engineer){:target="_blank"}
+- GitLab handle: [@sbaranidharan](https://gitlab.com/sbaranidharan)
+
+
+### Durgesh Thakkar - Senior Manager, Architecture and Integration Engineering
+
+- GitLab handle: [@dthakkargit](https://gitlab.com/dthakkargit)
+
+
 
 ### Contacting us
 
-Slack: `#bt-integrations`
+Slack: `#automation-team`
 
 ## What do we do?
 
@@ -73,6 +49,13 @@ We are the team that designs, builds and maintains the complex ecosystem of inte
 ### Workato - Integration Platform
 
 Workato is low code - no code integrtaion platform in which we can create automations, integrations and APIs for all the integration needs. For more please visit the platform [page](https://www.workato.com/)
+
+
+### Integration, Automation & Architecture Projects
+
+[Projects](https://docs.google.com/presentation/d/1R19SJtEEulZyU-3j1clK6sloyTg1ZdP1EgARmqqfVuE)
+- [Integration and Architecture Details](https://docs.google.com/spreadsheets/d/1mGeG2ClY8GHz2RZUpu-5FN0wUPCaw1o2bWEGtS0qLXE)
+- [RPA Automation Details](https://docs.google.com/spreadsheets/d/1kwFLeAi_5Ts6Q7rQhMVo2nUo9yI7CkwYS0iakpp5LmQ)
 
 ### Capabilities & Offerings
 
@@ -118,6 +101,4 @@ The Workato integrations platform provides out of the box solutions for common a
 
 We are set up to handle [Red, Orange and Yellow data](/handbook/security/data-classification-standard.html#data-classification-levels) so that you don't need to worry about that when we're building out your integrations.
 
-## Why do we do it?
 
-As GitLab grows, we have increasingly complex needs for real time data flow and workflow automation across the business. We also need to meet higher standards of security and auditing to satisfy external compliance drivers. This all calls for a more robust, repeatable methodology for building both simple and complex software. To do this we follow a strict set of engineering and platform standards and conventions which provide us a batteries included approach to developing new capabilities so that we can stay agile when working with GitLab's rapidly growing team and needs.

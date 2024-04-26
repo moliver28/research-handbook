@@ -19,7 +19,7 @@ The page below is intended to align GitLab sales and marketing efforts with a si
 
 #### Who to contact
 
-|     Product Marketing    |    Technical Marketing    |
+|     Product Marketing    |    Developer Advocate    |
 | ------------------------ | ------------------------- |
 | Brian Mason ( @BrianMason )  | Fernando Diaz ( @fjdiaz ) |
 
@@ -143,8 +143,8 @@ Because developers see compliance concerns in the MR pipeline alongside security
 ## Competitive Comparison
 
 See how we compare against other DevOps approaches
-  
-1. Role-based access control (RBAC) for separation of duties. Competitive products's roles are broader and when a person changes roles, his/her permissions must be changed manually. Why is this important? If someone has access to push to prod and is demoted or moves to another group, you'd want the permissions to change automatically to avoid insider threats.  
+
+1. Role-based access control (RBAC) for separation of duties. Competitive products's roles are broader and when a person changes roles, his/her permissions must be changed manually. Why is this important? If someone has access to push to prod and is demoted or moves to another group, you'd want the permissions to change automatically to avoid insider threats.
 1. Our workflows include compliance within MR approvals. No manual checks that impact velocity. (In essence, we shift left compliance also.)
 1. [External status checks](https://docs.gitlab.com/ee/user/project/merge_requests/status_checks.html) is an important feature for regulated industries. Changes are approved and must be pushed to production within a given timeframe. Delays can cause the approval process to start over.
 1. With GitLab we have projects and groups where projects inherit policies from the group. Competitors cannot structure policies as flexibly as GitLab, an important feature for enterprise users. Examples include group level runners.
@@ -305,7 +305,7 @@ Many great opportunities will not entirely fit this ideal profile. An ideal cust
 
 ### Customer Case Studies
 
-**[Glympse](/customers/glympse/)**
+**[Glympse](https://about.gitlab.com/customers/glympse/)**
 - **Problem** A complex developer tech stack with over 20 distinct tools that was hard to maintain and manage. Teams spent several hours a week keeping tools running rather than shipping innovation to their app.
 - **Solution:** GitLab Ultimate (SCM, CI, DevSecOps)
 - **Results: ~20 tools consolidated into GitLab and remediated security issues faster than any other company in their Security Auditor's experience.
@@ -325,7 +325,7 @@ Many great opportunities will not entirely fit this ideal profile. An ideal cust
 
 ### Software compliance assets
 
-- Blog: [How a devops platform can help against supply chain attacks](https://about.gitlab.com/blog/2021/04/28/devops-platform-supply-chain-attacks/)
+- Blog: [How a DevOps platform can help against supply chain attacks](https://about.gitlab.com/blog/2021/04/28/devops-platform-supply-chain-attacks/)
 - Blog: [Compliance made easy with GitLab](https://about.gitlab.com/blog/2020/07/02/compliance-made-easy/)
 - Blog: [Three things you might not know about GitLab security](https://about.gitlab.com/blog/2021/11/23/three-things-you-might-not-know-about-gitlab-security/)
 - Article: [CI, the new frontier for security pros](https://thenewstack.io/continuous-integration-the-new-frontier-for-security-pros/)

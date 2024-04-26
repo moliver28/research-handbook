@@ -92,7 +92,7 @@ As a Support Operations Manager you will:
 ### Career Ladder
 
 For more details on the engineering career ladders, please review the
-[engineering career development](https://about.gitlab.com/handbook/engineering/career-development/#roles)
+[engineering career development](/handbook/engineering/careers/#roles)
 handbook page.
 
 ### How you'll be measured

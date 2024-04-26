@@ -18,11 +18,8 @@ Additional benefits to GitLab:
 
 ## Acquisition approach
 
-We are looking for companies interested in helping deliver on our [vision](https://about.gitlab.com/direction/#vision) to create a single application for the entire DevOps lifecycle.
+We are looking for companies interested in helping deliver on our [vision](https://about.gitlab.com/direction/#vision) to create a single application for the entire DevOps lifecycle. We value strong teams and technology and are looking for a combination of both that will help us accelerate our roadmap. We're looking for acquisitions which can either present a strategic value-add or create potential for significant revenue upside.
 
-We value strong teams and technology and are looking for a combination of both that will help us accelerate our roadmap. We're pursuing two types of acquisitions:
-1. Growth stage: For companies with proven traction and growth we follow our [acquisition process](/handbook/acquisitions/acquisition-process/), designed to identify the mutual potential and create a joint-vision to deliver on post-acquisition. We're looking for acquisitions which can either present a strategic value-add or create potential for significant revenue upside.
-1. Soft-landing: for mature start-ups with limited business success or very early stage start-ups we've created an accelerated process (described below) for exits with a total deal consideration of less than $1M.
 
 ## Acquisition target profile
 
@@ -37,14 +34,9 @@ according to our [category maturity](https://about.gitlab.com/direction/maturity
 {{< sdlc >}}
 
 - Willing to [reimplement products into GitLab](/handbook/product/single-application/) in Ruby and Go
-- Willing to sunset old customers within 90 days or less, with an option to transition to GitLab. GitLab follows an [open-core model](/install/ce-or-ee/)
+- Willing to sunset old customers within 90 days or less, with an option to transition to GitLab. GitLab follows an [open-core model](https://about.gitlab.com/install/ce-or-ee/)
 - Aligned to ship on the first month and iterate quickly
 - Strong founders looking to join GitLab
-
-### Additional criteria specific to soft-landing acquisitions
-- Built a great product but is missing distribution
-- Located in a country without [GitLab hiring restrictions](/handbook/people-group/employment-solutions/#country-hiring-guidelines) with a particular focus on EMEA
-- Team size under 10 people
 
 
 ## Considering joining forces with GitLab
@@ -57,24 +49,12 @@ according to our [category maturity](https://about.gitlab.com/direction/maturity
 1. Leverage the unique data and user-experience GitLab has as [complete DevOps platform](/handbook/product/single-application/) to act as a force-multiplier in helping you build the vision for your product area
 1. Focus on building great technology at scale to reach millions of users and some of the largest enterprise companies. We can ensure what you made will be used by more than 100,000 organizations and millions of users.
 1. Quick transaction - We move fast and aim to close the deal in 2-4 months, if you are able to drive a fast process with us
-1. We take care of people who won't work at GitLab - Every employee will have a soft landing. We will either make them an offer or we will pay up to 3 months or until they find a new job.
 1. Upside - Financial outcome if GitLab is successful (GitLab stock)
 1. Your team is in good company - GitLab is a unique place to work at with a leading product and a fascinating culture
 
 ## What we offer
 
-Growth stage acquisitions will receive a compensation offer specific to that engagement which will be evaluated as part of our [acquisition process](/handbook/acquisitions/acquisition-process/) as we learn more about you and your technology.
-
-For soft-landing acquisitions we offer the following:
-1. The **total purchase price** of an acquisition will be **up to $1M** (all cash), comprised of:
-    1. Retention bonuses - We believe talent follows leadership they trust. GitLab will offer cash retention bonuses for founders, and engineers, to help in the transition and is conditional on employee interviews and offer acceptance:
-    1. Each founder with more than 10% ownership of the company will receive up to $250,000 paid as follows: 20% at closing, 40% on the first anniversary of the closing and 40% on the second anniversary of the closing
-    1. Each engineer will receive up to $60,000 paid as follows: 20% at closing, 40% on the first anniversary of the closing and 40% on the second anniversary of the closing.
-    1. Assets payout - Where relevant, an all-cash payout for the assets in the deal may be included. GitLab stock will not be offered for the assets in the deal.
-1. Attractive equity for founders - triple our normal [stock option grants](/handbook/stock-options/) for founders
-1. Normal cash and [stock option grants](/handbook/stock-options/) for non-founders
-1. Cash bonus on achieving milestones for customer transition to paid GitLab agreements, where relevant
-
+Acquisitions receive a compensation offer specific to that engagement, which will be evaluated as part of our [acquisition process](/handbook/acquisitions/acquisition-process/) as we learn more about your company and your technology.
 
 ## What happens to your current company?
 
@@ -99,7 +79,6 @@ I don’t see anything GitLab could have done differently to make this acquisiti
 ## Starting an acquisition discussion with GitLab
 
 If you are interested in starting acquisition discussions with GitLab, please send an email to [Corporate Development](mailto:acquisitions@gitlab.com) to connect and start the process.
-<iframe src="https://www.youtube.com/embed/hcAaD3ujlqc" height="315" width="560"></iframe>
 
 ## Acquisition process
 

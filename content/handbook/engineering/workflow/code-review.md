@@ -17,9 +17,9 @@ Every reviewer at GitLab must strive for our [reviewer values](/handbook/enginee
 
 All GitLab engineers can, and are encouraged to, perform a code review on merge requests of colleagues and community contributors. If you want to review merge requests, you can wait until someone assigns you one, but you are also more than welcome to browse the list of open merge requests and leave any feedback or questions you may have.
 
-You can find someone to review your merge requests by looking on the [team page](/company/team/), or on the list of [GitLab Engineering Projects](/handbook/engineering/projects/), both of which are fed by YAML files under `data/team_members/person/*`.
+You can find someone to review your merge requests by looking on the [team page](/handbook/company/team/), or on the list of [GitLab Engineering Projects](/handbook/engineering/projects/), both of which are fed by YAML files under `data/team_members/person/*`.
 
-You can also help community contributors get their merge requests ready, by becoming a [Merge Request Coach](https://handbook.gitlab.com/job-families/expert/merge-request-coach/).
+You can also help community contributors get their merge requests ready, by becoming a [Merge Request Coach](/job-families/expert/merge-request-coach/).
 
 Note that while all engineers can review all merge requests, the ability to *accept* merge requests is restricted to maintainers.
 
@@ -35,7 +35,7 @@ Becoming a reviewer/maintainer means you are taking on a broader responsibility 
 
 To protect and ensure the quality of the codebase and the product as a whole, people become maintainers only once they have convincingly demonstrated that their reviewing skills are at a comparable level to those of existing maintainers.
 
-As with regular reviewers, maintainers can be found on the [team page](/company/team/), or on the list of [GitLab Engineering Projects](/handbook/engineering/projects/).
+As with regular reviewers, maintainers can be found on the [team page](/handbook/company/team/), or on the list of [GitLab Engineering Projects](/handbook/engineering/projects/).
 
 ### Senior+ Maintainers
 
@@ -109,19 +109,28 @@ Interested reviewers for the projects below should complete the listed tasks in 
 Tips:
 
 - If you'd like a dashboard limited to just reviews where you applied the `~"database::reviewed"` label,
-  reach out to the database group manager to get one. ([Example](https://app.periscopedata.com/app/gitlab/1150689/Database-Reviewers-and-Maintainers?widget=16991435&udv=0))
+  reach out to the database group manager to get one. 
 
-#### Project maintainer process for [`gitlab-cicd-templates`](https://gitlab.com/gitlab-org/gitlab/-/tree/master/lib/gitlab/ci/templates)
+#### Project maintainer process for [`gitlab-components`](https://gitlab.com/components)
 
-- Read over our [Development Guide for GitLab CI/CD Templates](https://docs.gitlab.com/ee/development/cicd/templates.html).
+- Review our [documentation and best practices for creating CI/CD components](https://docs.gitlab.com/ee/ci/components/).
+- Familiarize with our [documentation on GitLab-maintained components](https://docs.gitlab.com/ee/development/cicd/components/).
+- Develop one or more components to familiarize yourself with the development process.
+- Create a merge request and assign the merge request to your manager for you to be added as a CI/CD components maintainer. Be sure to cite references for the CI/CD components you have developed. (See [MR example](https://gitlab.com/gitlab-com/www-gitlab-com/-/merge_requests/132498))
+- Ping the existing maintainers (`@gitlab-org/maintainers/ci-components`) in the MR for review and feedback.
+- Have at least 2 approvals from existing maintainers in order to merge the MR.
+
+Upon approval, the maintainer who merges the MR will:
+- Add the newly approved maintainer to the CI components maintainer group (`@gitlab-org/maintainers/ci-components`).
+- Announce in [`#ci_components_maintainers`](https://gitlab.slack.com/archives/C06AQBJETRR) and post an update in the _Engineering Week-in-Review document_
 
 #### Project maintainer process for [`design.gitlab.com`](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com) or [`gitlab-svgs`](https://gitlab.com/gitlab-org/gitlab-svgs)
 
--  Understand [how to become a maintainer](https://about.gitlab.com/handbook/engineering/ux/pajamas-design-system/design-review/#maintainer).
+-  Understand [how to become a maintainer](/handbook/engineering/ux/pajamas-design-system/design-review/#maintainer).
 - All designers are maintainers of [`gitlab-design`](https://gitlab.com/gitlab-org/gitlab-design) project. If you are interested in becoming a Maintainer of UI (`.scss`) for `gitlab`, and `gitlab-ui` projects, please follow the [Engineering Review Workflow](/handbook/engineering/workflow/code-review).
 - It is up to you to ensure that you are getting enough MRs to review, and of varied types. You could also seek out more reviews from your team, for example by asking for reviews on the `#ux` and `#pajamas-design-system` Slack channels. If you are not receiving enough MRs to advance in your training, be proactive and work on your own improvements to Pajamas. This will demonstrate overall understanding of the product, as well as quality contributions, and help propel your progress. Maintainers are available to help guide you.
 - Your reviews should aim to cover maintainer responsibilities as well as reviewer responsibilities. Design Maintainers should be focused on MRs that have an impact on usability, iterate on existing user experience, and/or include usage of design guidelines, standards, and patterns. Your approval means you think it is ready to merge.
-- As maintainer, you must keep [relying on others](https://about.gitlab.com/handbook/values/#its-impossible-to-know-everything) for the expertise they have that you don't. In the MR description, highlight the efforts that showcase your results at a maintainer-level, what skills you want to continue working on, and add a link to this issue. ([Example](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/merge_requests/2395)).
+- As maintainer, you must keep [relying on others](/handbook/values/#its-impossible-to-know-everything) for the expertise they have that you don't. In the MR description, highlight the efforts that showcase your results at a maintainer-level, what skills you want to continue working on, and add a link to this issue. ([Example](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/merge_requests/2395)).
 
 #### Project maintainer process for [`gitlab-quality`](https://gitlab.com/gitlab-org/gitlab/-/tree/master/qa)
 
@@ -133,7 +142,7 @@ Tips:
   - [`GitLab CustomersDot (/qa)`](https://gitlab.com/gitlab-org/customers-gitlab-com/-/tree/staging/qa/)
   - [`GitLab Environment Toolkit (GET)`](https://gitlab.com/gitlab-org/gitlab-environment-toolkit)
   - [`GitLab Performance Tool (GPT)`](https://gitlab.com/gitlab-org/quality/performance)
-- The requirements for each project is different, please make sure to read the [maintainer section in the Quality handbook](https://about.gitlab.com/handbook/engineering/quality/project-management/#reviewers-and-maintainers).
+- The requirements for each project is different, please make sure to read the [maintainer section in the Quality handbook](/handbook/engineering/infrastructure/engineering-productivity/project-management/#reviewers-and-maintainers).
 
 #### Project maintainer process for [`gitlab-secure-analyzers`](https://gitlab.com/gitlab-org/security-products/analyzers)
 
@@ -169,7 +178,7 @@ Tips:
 
 #### Project maintainer process for [`gitlab-chart`](https://gitlab.com/gitlab-org/charts/gitlab)
 
-- Familiarize yourself with [Distribution's merge request workflow](https://about.gitlab.com/handbook/engineering/infrastructure/core-platform/systems/distribution/merge_requests.html#workflow)
+- Familiarize yourself with [Distribution's merge request workflow](/handbook/engineering/infrastructure/core-platform/systems/distribution/merge_requests.html#workflow)
 - Familiarize yourself with the [architecture](https://docs.gitlab.com/charts/architecture/index.html) and [style guide](https://docs.gitlab.com/charts/development/style_guide.html) of the GitLab Helm chart.
 - Understand the relation between the [GitLab Operator and the GitLab Helm chart](https://docs.gitlab.com/operator/developer/charts_dependency.html).
 - Contribute to issues and review merge requests.
@@ -177,7 +186,7 @@ Tips:
 
 #### Project maintainer process for [`gitlab-operator`](https://gitlab.com/gitlab-org/cloud-native/gitlab-operator)
 
-- Familiarize yourself with [Distribution's merge request workflow](https://about.gitlab.com/handbook/engineering/infrastructure/core-platform/systems/distribution/merge_requests.html#workflow)
+- Familiarize yourself with [Distribution's merge request workflow](/handbook/engineering/infrastructure/core-platform/systems/distribution/merge_requests.html#workflow)
 - Familiarize youself with [GitLab Go standards and style guidelines](https://docs.gitlab.com/ee/development/go_guide).
 - Understand how [custom resources and controllers](https://kubernetes.io/docs/concepts/extend-kubernetes/api-extension/custom-resources/) work.
 - Familiarize yourself with the following libraries and tools:
@@ -277,7 +286,7 @@ fast tracked.
 
 Projects may adopt these guidelines for maintainership to help grow maintainers in projects where there are not enough maintainers.
 
-- All team members should consult the [engineering development roles](https://handbook.gitlab.com/job-families/engineering/development/) and become a reviewer or maintainer.
+- All team members should consult the [engineering development roles](/job-families/engineering/development/) and become a reviewer or maintainer.
 - Add a project specific maintainer process under [How to become a project maintainer](#how-to-become-a-project-maintainer). A [lightweight template](#maintainer-process-template) is provided.
 - Enable Danger Review using [`simple_roulette`](https://gitlab.com/gitlab-org/ruby/gems/gitlab-dangerfiles/-/tree/master#simple_roulette) within the project to identify MR reviewers.
 - Reduce the number of Merge Request reviews required to be considered a maintainer.
@@ -315,19 +324,19 @@ Use this lightweight template as a starting point for defining your project's ma
 - Create a merge request and indicate your role as a `project-name: trainee_maintainer` in your [team member entry](https://gitlab.com/gitlab-com/www-gitlab-com/-/tree/master/data/team_members/person). Assign MR to your manager for merge.
 - *Optional:* Perform simulated reviews on practice MRs if available.
 - *Optional:* Peer review MRs.
-- *Optional:* Reach out to an existing maintainer to [help you become](https://about.gitlab.com/handbook/engineering/workflow/code-review/#reviewer-mentorship-program) a maintainer.
+- *Optional:* Reach out to an existing maintainer to [help you become](/handbook/engineering/workflow/code-review/#reviewer-mentorship-program) a maintainer.
 
 ### Maintainer ratios
 
-We aim to keep the engineer : maintainer ratio under 6, for both frontend and backend. We track this in the [Engineer : Maintainer Ratio dashboard][dashboard]:
+We aim to keep the engineer : maintainer ratio under 6, for both frontend and backend. We track this in the Engineer : Maintainer Ratio dashboard:
 
-{{< sisense dashboard="475647" >}}
+https://10az.online.tableau.com/t/gitlab/views/DraftEngineerMaintainerRatio/EngineerMaintainerRatio_1
 
 ### Maintainer Demand
 
-We can gauge demand by looking at the [Maintainership Demand dashboard](https://app.periscopedata.com/app/gitlab/1055628/Maintainership-Demand?widget=15440601&udv=1762708), which can be filtered by month, project and technology:
+We can gauge demand by looking at the Maintainership Demand dashboard, which can be filtered by month, project and technology:
 
-{{< sisense dashboard="1055628" >}}
+https://10az.online.tableau.com/#/site/gitlab/views/MaintainershipDemand/MaintainershipDemand?:iid=1 
 
 #### About this dashboard
 
@@ -374,14 +383,14 @@ To add a custom target to an area using the `maintainer_custom_targets` Sisense 
 
 ### Maintainer/Reviewer Availability
 
-We aim to have enough reviewers and maintainers across timezones to ensure that there are people available to review MRs in a timely manner while keeping review load at a reasonable level. We track this in the [Reviewer/Maintainer Availability and Capacity dashboard](https://app.periscopedata.com/app/gitlab/1028635/Reviewer-Maintainer-Availability-and-Capacity):
+We aim to have enough reviewers and maintainers across timezones to ensure that there are people available to review MRs in a timely manner while keeping review load at a reasonable level. We track this in the [Reviewer/Maintainer Availability and Capacity dashboard](https://10az.online.tableau.com/#/site/gitlab/views/ReviewermaintainerAvailabilityandCapacity/Reviewermaintaineravailabilityandcapacity?:iid=1):
 
-{{< sisense dashboard="1028635" >}}
+https://10az.online.tableau.com/#/site/gitlab/workbooks/2286852/views 
 
 ## Leading Organizations
 
 All wider community members, and their organizations, [can
-contribute](/company/mission/#contribute-with-gitlab). We strongly believe that contributing to
+contribute](/handbook/company/mission/#contribute-with-gitlab). We strongly believe that contributing to
 open source, and particularly to GitLab is a competitive advantage for organizations and their members, and want to
 reward those organizations for doing so. GitLab highly encourages, celebrates & rewards those that contribute in
 [frequent and atomic iterations](/handbook/values/#iteration). When an organization or individual without affiliations
@@ -400,7 +409,7 @@ entitled to the ```Leading Organization``` status, will receive the label ```Lea
 
 > Leading Organization = 20 merged Merge Requests or more within the last 3 completed months.
 
-Eligible merge requests include contributions to the [GitLab product](https://about.gitlab.com/handbook/engineering/metrics/#projects-that-are-part-of-the-product) and documentation. Contributions to the [www-gitlab-com](https://gitlab.com/gitlab-com/www-gitlab-com) repository (e.g. the GitLab handbook) are not currently included or entitled to a review response SLO.
+Eligible merge requests include contributions to the [GitLab product](/handbook/engineering/metrics/#projects-that-are-part-of-the-product) and documentation. Contributions to the [www-gitlab-com](https://gitlab.com/gitlab-com/www-gitlab-com) repository (e.g. the GitLab handbook) are not currently included or entitled to a review response SLO.
 
 ## Domain Experts
 
@@ -494,7 +503,7 @@ on these other statuses, please refer to the [code review](https://docs.gitlab.c
 page in the developer documentation.
 
 Of course, if you are out of office and have
-[communicated](https://about.gitlab.com/handbook/paid-time-off/#communicating-your-time-off)
+[communicated](/handbook/paid-time-off/#communicating-your-time-off)
 this through your GitLab.com Status, authors are expected to realize this and
 find a different reviewer themselves.
 
@@ -509,8 +518,8 @@ When you are assigned to review an MR and you are not able to get to it within t
 As the author of an MR you should reassign to another reviewer or maintainer if the `Review-response` SLO has not been met and you have been unable to contact the assignee.
 
 [1:1 meetings]: /handbook/leadership/1-1/
-[dashboard]: https://app.periscopedata.com/app/gitlab/475647/Engineer-:-Maintainer-Ratio
-[ratio]: https://app.periscopedata.com/app/gitlab/655064/Merge-Requests:-MR-Count-and-Ratio-by-FE-BE-DB
+[dashboard]: https://10az.online.tableau.com/t/gitlab/views/DraftEngineerMaintainerRatio/EngineerMaintainerRatio_1
+[ratio]: https://10az.online.tableau.com/t/gitlab/views/DraftEngineerMaintainerRatio/Maintainers
 
 ## Code Owner approvals
 
@@ -523,5 +532,5 @@ CODEOWNERS @gitlab-org/development-leaders @gitlab-org/tw-leadership
 ```
 
 There are two ways to update the Code Owner(s) of the `CODEOWNERS` file:
-1. Update the membership of a group that already has the ability to approve CODEOWNERS changes via the [standard access request process](https://about.gitlab.com/handbook/business-technology/team-member-enablement/onboarding-access-requests/access-requests/).
+1. Update the membership of a group that already has the ability to approve CODEOWNERS changes via the [standard access request process](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/).
 1. Open a merge request to update the relevant lines. An existing Code Owner will have to approve the merge request. You are also encouraged to ping a security compliance team member for visibility.

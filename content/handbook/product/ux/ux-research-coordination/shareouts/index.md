@@ -3,21 +3,6 @@ title: "Getting the word out about research insights"
 description: "Getting the word out about research insights"
 ---
 
-The GitLab R&D department conducts a substantial amount of research, and it is challenging to drive awareness of all research initiatives for which we need participation from internal users and members of the wider GitLab community. To drive awareness, we need to seize opportunities to promote [GitLab First Look](https://about.gitlab.com/community/gitlab-first-look/) wherever possible. For example:
-
-- Add a link to the bottom of slides or to the text blurb at the end of a survey promoted on docs.gitlab.com.
-- Work with the GitLab social team to ensure there are scheduled posts from the brand social accounts every month or so.
-- Add a link to First Look to every research blog post.
-- Order First Look cards (from GitLab's Shopify account) for team members going to in person events.
-
-UX Research Operations Coordinators should set aside time to interact with users on social. It's recommended to post any new UX blog posts and search `gitlab ux` at least once per week.
-
-When appropriate, link to GitLab First Look (and [grab an image](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/tree/master/design/social-media/ads-share-images/gitlab-first-look/png) to upload) in responses to comments about GitLab's UX. This is important for raising awareness of the research program, growing the panel, and performing research with users who may have had negative experiences with GitLab.
-
-Some sample responses:
-
-- (To a positive comment) `Thank you so much! Would you consider joining our research program if you haven't already? You can specify which areas of the product you're interested in: https://about.gitlab.com/community/gitlab-first-look/`
-- (To a negative comment) `I'm so sorry to hear you've had a negative experience! Would you consider giving feedback through our research program? You can specify exactly which parts of the product you're interested in: https://about.gitlab.com/community/gitlab-first-look/`
 
 ## Leveraging Slack
 

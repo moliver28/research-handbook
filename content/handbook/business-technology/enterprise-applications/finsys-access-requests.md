@@ -13,14 +13,14 @@ description: Finance Systems Access Requests
 
 Many finance systems that are provisioned are also considered a SOX system and are subject to the [SOX Program.](/handbook/internal-audit/sarbanes-oxley/)
 
-The finance systems admin team goes through additional procedures when handling [Access Requests.](/handbook/business-technology/team-member-enablement/onboarding-access-requests/access-requests/#access-requests-ars)  
+The finance systems admin team goes through additional procedures when handling [Access Requests.](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/#access-requests-ars)
 
 This applies to the following systems:
 
 - Adaptive Insights
 - Avalara
 - Coupa
-- Expensify
+- Navan
 - NetSuite
 - Stripe
 - Zuora Billing
@@ -28,12 +28,12 @@ This applies to the following systems:
 
 ### Additional Procedures
 
-On top of the [GitLab Access Request](/handbook/business-technology/team-member-enablement/onboarding-access-requests/access-requests/#individual-or-bulk-access-request) process, the team will perform the following:
+On top of the [GitLab Access Request](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/#individual-or-bulk-access-request) process, the team will perform the following:
 
 - Ensure/Clarify access being requested is specific to the system being requested.
     - Example: Instead of `Needs read only access to Netsuite`, the team will clarify with the requester that they are asking for the `Custom Auditor (read only)` role in Netsuite.
     - See matrix [here](/handbook/business-technology/enterprise-applications/finsys-access-requests/#-system-specific-access-request-requirements) for System specific requirements.
-- Seek Business Owner’s approval of the exact role and/or permission being requested, according to who is listed in the [Tech Stack.](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/tech_stack.yml) This includes [baseline entitlement(s).](/handbook/business-technology/team-member-enablement/onboarding-access-requests/access-requests/baseline-entitlements/)
+- Seek Business Owner’s approval of the exact role and/or permission being requested, according to who is listed in the [Tech Stack.](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/tech_stack.yml) This includes [baseline entitlement(s).](https://internal.gitlab.com/handbook/it/end-user-services/access-request/baseline-entitlements/)
 - Once approved, the team will provision the user in the system and add to the corresponding Okta Google group (if necessary).
 - Once provisioned, the team will take a screenshot of the user record in the system with a timestamp and attach it to the issue and then close.
 
@@ -69,7 +69,7 @@ On top of the [GitLab Access Request](/handbook/business-technology/team-member-
 |                   | - Read-only company access                     |                   |
 |                   | - No access                    |                   |
 | Coupa | | Note: Requestors/buyers will always only get ***Custom User*** role. Elevated access requires Procurement approval.|
-| Expensify | AR should explicitly state the **Exact** role they are requesting access to **AND** which policies. | There are a lot of policies within Expensify. Typically the only ARs the team will get are for Expensify Admins. Team members are automatically provisioned.|
+| Navan | AR should explicitly state the **Exact** role they are requesting access to **AND** which policies. | There are a lot of policies within Navan. Typically the only ARs the team will get are for Navan Admins. Team members are automatically provisioned.|
 |           | |Since most of the ARs are for finance system admins, they will usually need access to all the policies in which case the team does not have to list out all the policies in the AR.|
 | NetSuite |AR should explicitly state the **Exact** NetSuite role that they are requesting before the Business Owner approves the AR. ||
 |Stripe | AR should explicitly state the **Exact** role they are requesting access to **AND** which Stripe Accounts:| Roles are not customizable.|  

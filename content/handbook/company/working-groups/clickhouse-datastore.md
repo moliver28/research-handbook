@@ -1,7 +1,6 @@
 ---
 title: "ClickHouse Working Group"
 description: "Learn more about the ClickHouse Datastore Working Group attributes, goals, roles and responsibilities."
-status: active
 ---
 
 ## Attributes
@@ -9,7 +8,7 @@ status: active
 | Property        | Value           |
 |-----------------|-----------------|
 | Date Created    | 2022-12-01 |
-| Target End Date | 2023-12-31 |
+| End Date | 2024-04-25 |
 | Slack           | #f_clickhouse (only accessible from within the company) |
 | Google Doc      | [Agenda](https://docs.google.com/document/d/1ZZ7fE7s18Yxww9wp0-lO7mFxJmwop3pWvqINCQPNubA/edit#) (only accessible from within the company) |
 | Epic            | [Link](https://gitlab.com/groups/gitlab-com/-/epics/2070) |
@@ -25,6 +24,22 @@ In FY23-Q2 the Monitor:Observability team developed and shipped a [ClickHouse da
 
 We want ensure teams can efficiently leverage the ClickHouse data platform when developing new features and that we can maintain and support this functionality effectively for SaaS and self-managed customers.
 
+### WG Exit
+
+In April 2024 the ClickHouse Working Group was closed out.  The group made major progress introducing ClickHouse to GitLab’s architecture to support GitLab’s analytics and monitoring features.
+
+* Enabled usage of ClickHouse Cloud with GitLab, including security and legal approval for storing customer RED data and production readiness reviews.
+* Consolidated our multiple ClickHouse hosting setups into ClickHouse Cloud, reducing operational load for our teams and improving reliability.
+* Released multiple features that would not have been possible without ClickHouse’s capabilities.
+* Fixed features such as Contributor Analytics which were no longer performant on GitLab.com.
+* Developed documentation and tooling for using ClickHouse in GitLab’s development process.
+
+Due to the overlap with the recently created [Product Usage Data Architecture Working Group](https://internal.gitlab.com/handbook/company/internal-working-groups/product-usage-data-architecture/), the decision was made to wind down the ClickHouse group, and roll those concerns into that group’s work defining the architecture for analytical features.
+
+
+
+
+
 ### Exit Criteria
 
 This Working Group has the following goals:
@@ -38,10 +53,10 @@ This Working Group has the following goals:
 1. Develop a Rollout Strategy and Plan (e.g. feature flags, would customers ever want to disable/remove it, etc.).
     1. SaaS rollout strategy for identified use cases.
     1. Lay the groundwork to add ClickHouse to [our reference architectures](https://docs.gitlab.com/ee/administration/reference_architectures) through self-managed support.
-        - Packaging ClickHouse for our self-managed installations.
-        - Research and understand the component costs and maintenance requirements of running a ClickHouse instance.
-        - Determine the scale and deployment targets where adding ClickHouse makes sense.
-        - Consider an abstraction layer to interacting with ClickHouse or alternatives.
+        * Packaging ClickHouse for our self-managed installations.
+        * Research and understand the component costs and maintenance requirements of running a ClickHouse instance.
+        * Determine the scale and deployment targets where adding ClickHouse makes sense.
+        * Consider an abstraction layer to interacting with ClickHouse or alternatives.
 1. Develop and implement a communication plan for the outcomes of the working group.
 
 #### Exit Criteria Progress
@@ -53,11 +68,12 @@ This Working Group has the following goals:
 | [Develop a ClickHouse rollout strategy and plan](https://gitlab.com/groups/gitlab-com/-/epics/2077) | 2023-01-05 | | 60% | Sam Goldstein |
 | [Develop Recommendation for ClickHouse Ownership Model](https://gitlab.com/groups/gitlab-com/-/epics/2094) | | | 0% | |
 | [Develop and implement a communication plan for the working group](https://gitlab.com/groups/gitlab-com/-/epics/2078) | 2023-01-18 | | 0% | Nicole Williams |
+| [Complete production readiness through to GA](https://gitlab.com/groups/gitlab-com/-/epics/2316) | 2023-08-04 | | 50% | Nathan Rosandich |
 
 ### Current and Planned Use Cases
 
-- [Current status of ClickHouse and GitLab’s implementation](https://gitlab.com/gitlab-com/ops-sub-department/ops-engineering-management/-/issues/205)
-- [ClickHouse Use Cases](https://gitlab.com/gitlab-org/gitlab/-/issues/384184)
+* [Current status of ClickHouse and GitLab’s implementation](https://gitlab.com/gitlab-com/ops-sub-department/ops-engineering-management/-/issues/205)
+* [ClickHouse Use Cases](https://gitlab.com/gitlab-org/gitlab/-/issues/384184)
 
 ### Roles and Responsibilities
 
@@ -67,6 +83,7 @@ This Working Group has the following goals:
 | Facilitator DRI | Sam Goldstein | Director of Engineering, Ops |
 | Co-Facilitator | Nick Nguyen | Senior Engineering Manager, Data Stores |
 | Co-Facilitator | Nicole Williams | Senior Engineering Manager, Monitor & Runner |
+| Co-Facilitator | Nathan Rosandich | Engineering Manager, Govern:Compliance |
 | Functional Lead - Analytics | Mikołaj Wawrzyniak | Staff Backend Engineer, Analytics:Analytics Instrumentation |
 | Functional Lead - Optimize | Adam Hegyi | Staff Backend Engineer, Plan:Optimize |
 | Functional Lead - ModelOps | Mon Ray| Engineering Manager, ModelOps |
@@ -83,7 +100,6 @@ This Working Group has the following goals:
 | Member | Alex Ives | Engineering Manager, Database (PostgreSQL) |
 | Member | Brandon Labuschagne | Engineering Manager, Plam:Optimize |
 | Member | Dylan Griffith | Principal Engineer, Data Stores |
-| Member | Nathan Rosandich | Engineering Manager, Govern:Compliance |
 | Member | João Pereira | Staff Backend Engineer, Package:Container Registry |
 | Member | Haim Snir | Senior Product Manager, Plan:Optimize |
 | Member | Lucas Charles | Staff Backend Engineer, Secure::Static Analysis |

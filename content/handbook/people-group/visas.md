@@ -13,7 +13,7 @@ For assistance with any employment or relocation visa please reach out to the Pe
 
 ## Expensing
 
-You can expense:
+You can expense (for approved GitLab/company events):
 
 - Cost of the VISA
 - Cost of pictures for the VISA
@@ -24,6 +24,7 @@ You can expense:
 You can *not* expense relocation costs.
 
 Please note, that GitLab is only able to cover the costs of one VISA attempt. If your VISA request is rejected, team members are free to re-submit at their discretion and any additional costs will be need to be covered by the team member.
+Please refer to the [Global Travel and Expense Policy Handbook Page](https://handbook.gitlab.com/handbook/finance/expenses/#visaspermitscovid-tests) for more information regarding the reimbursement.
 
 ### Arranging a visa for travel
 
@@ -105,7 +106,7 @@ If a team member wishes to immigrate and relocate to the Netherlands, they will 
 1. When using the [compensation calculator]({{< ref "calculator" >}}) you must meet the Dutch salary requirement for [highly skilled migrants for 3 more years](https://ind.nl/en/Pages/required-amounts-income-requirement.aspx#Application_for_residence_permit_highly_skilled_migrant_and_European_Blue_Card)
     - Note, that the Dutch government has a higher requirement for team members aged 30 and above. The age related wage requirement does not increase when reaching 30 if you already have an approved migrant visa (with the same employer).
     - The following pay elements are not included in the salary criterion and can't be used to meet the mimimum salary requirement: Vacation allowance; the value of payment made in kind; Uncertain, non-regular pay elements (for example overtime allowances, variable boni and payments from funds).
-    - *Note: This calculation should be based on what GitLab*would*pay the team member in the Netherlands in accordance with the compensation calculator,*not*based on the team member's current salary.*
+    - *Note: This calculation should be based on what GitLab **would** pay the team member in the Netherlands in accordance with the compensation calculator, **not** based on the team member's current salary.*
 1. You have been a team member at GitLab for one year.
 1. You are not on a Performance Improvement Plan (PIP).
 
@@ -244,7 +245,7 @@ Everyone that meets the following requirements can request to immigrate and relo
 
 1. When using the [compensation calculator]({{< ref "calculator" >}}) you must meet the salary requirement for [Requirements to receive a Blue Card](https://www.make-it-in-germany.com/en/visa-residence/types/eu-blue-card)
 - The following pay elements are not included in the salary criterion and can't be used to meet the minimum salary requirement: The value of payment made in kind; Uncertain, non-regular pay elements (for example overtime allowances, variable bonus and payments from funds).
-- *Note: This calculation should be based on what GitLab*would*pay the team member in Germany in accordance with the compensation calculator,*not*based on the team member's current salary.*
+- *Note: This calculation should be based on what GitLab **would** pay the team member in Germany in accordance with the compensation calculator, **not** based on the team member's current salary.*
 1. You have been a team member at GitLab for one year.
 1. You are not on a Performance Improvement Plan (PIP).
 

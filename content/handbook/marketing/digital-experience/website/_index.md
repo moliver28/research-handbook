@@ -6,17 +6,7 @@ description: >-
   Team and anyone can contribute.
 ---
 
-
-
-
-
-
-
-GitLab's Marketing Site (about.gitlab.com) is led by the [Digital Experience Team](/handbook/marketing/digital-experience) and anyone can contribute.
-
-The [DRI](/handbook/people-group/directly-responsible-individuals/) for the Marketing Site is [Michael Preuss](https://gitlab.com/mpreuss22), and internal GitLab team members can drop questions in Slack at #digital-experience-team
-
-The Digital Experience team is migrating GitLab's Marketing Site to the [Buyer Experience Repository](/handbook/marketing/digital-experience/buyer-experience-repository).
+GitLab's Marketing Site (about.gitlab.com) is led by the [Digital Experience Team](/handbook/marketing/digital-experience) and anyone can contribute. Internal GitLab team members can drop questions in Slack at #digital-experience-team
 
 ## Objectives
 
@@ -42,7 +32,7 @@ The GitLab marketing site, or simply the "GitLab Website" refers to all of the c
 - The GitLab.com product: `gitlab.com`
 - The Handbook: `about.gitlab.com/handbook`
 
-See [Where should content go?](https://about.gitlab.com/handbook/git-page-update/#where-should-content-go) to learn which web property is the most appropriate place to put different types of content. To learn what section of the website different content belongs see [definitions](#definitions).
+See [Where should content go?](/handbook/editing-handbook/#where-should-content-go) to learn which web property is the most appropriate place to put different types of content. To learn what section of the website different content belongs see [definitions](#definitions).
 
 Known Issue: There is an [ongoing issue](https://gitlab.com/gitlab-com/Product/-/issues/1869) to further clarify the DRI(s) for various parts of the www-gitlab-com repo and project, and this is a [Q2 FY22 OKR for Inbound Marketing](https://gitlab.com/groups/gitlab-com/marketing/inbound-marketing/-/epics/332#note_602431848)
 
@@ -97,8 +87,8 @@ Examples of other companies who have solutions pages:
 
 The product section of our website has pages that describe what GitLab does and the value provided. The functionality of GitLab is ordered in a hierarchy with 4 levels: Stage, Categories, Capabilities, and Features. You can find details on the [Product Categories Handbook](/handbook/product/categories/)
 
-- Stages relevant to users are listed on the [product overview page](/stages-devops-lifecycle/) with details about the stage on the [stages page](https://gitlab.com/gitlab-com/www-gitlab-com/issues/2428).
-- Categories relevant to users are listed on the [product overview page](/stages-devops-lifecycle/).
+- Stages relevant to users are listed on the [product overview page](https://about.gitlab.com/stages-devops-lifecycle/) with details about the stage on the [stages page](https://gitlab.com/gitlab-com/www-gitlab-com/issues/2428).
+- Categories relevant to users are listed on the [product overview page](https://about.gitlab.com/stages-devops-lifecycle/).
 - Capabilities are listed on the category page they belong to. Capabilities may also have their own landing page.
 - Features are listed in many places on the website: on the features page, the capabilities page they belong to, the pricing page, comparison pages, and the ROI calculator.
 
@@ -110,7 +100,7 @@ Examples of companies who have product/features pages:
 
 ### Compare sections
 
-There are two comparison sections on our website, `/compare/` and [DevOps tools](/competition/).
+There are two comparison sections on our website, `/compare/` and [DevOps tools](https://about.gitlab.com/why-gitlab/).
 
 The DevOps tools section provides an in-depth, feature by feature comparison of GitLab and our competitors. Pages in the DevOps tools section are maintained by the Competitive Intelligence team, which is part of the [Product and Solution Marketing](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/) team.
 
@@ -181,20 +171,16 @@ The page title and URL should include keywords visitors might use to discover th
 
 If you are an engineer, be sure to check out our [developer docs in Buyer Experience](https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/-/tree/main/docs?ref_type=heads).
 
-Pages are built in the code under [/pages/](https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/-/tree/main/pages?ref_type=heads), and they fetch content from Contentful. Documentation coming soon. 
-
+Pages are built in the code under [/pages/](https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/-/tree/main/pages?ref_type=heads), and they fetch content from Contentful. Documentation coming soon.
 
 #### As a Non-engineer
 
 To create a new page, work with the Digital Experience team by creating an issue in the [Buyer Experience repo](https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/-/issues/new#)
 
-
-
 ### Updating an existing page
 
-1. To edit the existing content of a page, check out our Contentful CMS documentation. 
-1. To add a visual component or section to a page, please fill out an [issue](https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/-/issues/new#) for the Digital Experience team. 
-
+1. To edit the existing content of a page, check out our Contentful CMS documentation.
+1. To add a visual component or section to a page, please fill out an [issue](https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/-/issues/new#) for the Digital Experience team.
 
 ### Optimize images
 
@@ -203,15 +189,26 @@ When adding an image to a webpage, be sure that you optimize the image first.
 1. Select the image you'd like to add to a page and save a copy to your computer.
 1. Add your local copy to [ImageOptim](https://imageoptim.com/howto.html) and optimize the image for the web.
 
-
-
 ### Working with Stages, Groups, and Categories
 
 [Categories and stages](/handbook/product/categories/) are defined in the product handbook. Stages are stored in [`data/stages.yml`](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/data/stages.yml) and categories are stored in [`data/categories.yml`](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/data/categories.yml) as the single source of truth for engineering and marketing.
 
-These two files power various parts of the website including the [homepage](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/sites/uncategorized/source/includes/home/sdlc.html.haml), [product pages](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/source/product/index.html.haml), and [product categories handbook](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/source/includes/product/_categories.erb).
+These two files power various parts of the website:
 
-They are also used by the automated triage operation ["Stage and group labels inference from category labels"](https://about.gitlab.com/handbook/engineering/quality/triage-operations/).
+- [homepage](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/sites/uncategorized/source/includes/home/sdlc.html.haml)
+- [product pages](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/source/product/index.html.haml)
+- [product categories handbook](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/source/includes/product/_categories.erb)
+- [feature page](https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/-/blob/main/pages/features/index.vue)
+- [platform page](https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/-/blob/main/pages/platform.vue)
+
+Note: The [categories table](https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/-/blob/main/components/common/categories-table.vue) on the [platform page](https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/-/blob/main/pages/platform.vue) is populated by [`data/categories.yml`](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/data/categories.yml) for each feature which has the `marketing` key set to True. When clicking on a feature in the table, you are redirected in the following orders:
+
+1. `marketing_page` key: Points to the appropriate marketing or solution page
+2. `feature_page` key: Points to the appropriate section of the [feature page](https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/-/blob/main/pages/features/index.vue)
+3. `documentation` key: Points to the appropriate documentation for the feature
+4. `direction` key (planned maturity only): Points to the appropriate direction page
+
+They are also used by the automated triage operation ["Stage and group labels inference from category labels"](/handbook/engineering/infrastructure/engineering-productivity/triage-operations/).
 
 #### Stage attributes
 
@@ -293,7 +290,7 @@ This attribute allows to override that.
 For instance, the `gitlab-org` label for the `Kanban Boards`
 category is [`Category:Issue Boards`](https://gitlab.com/groups/gitlab-org/-/labels?utf8=%E2%9C%93&subscribed=&search=Category%3AIssue+Boards).
 - `feature_labels`: A list of all the feature labels that are associated with this category.
-This list is used in the automated triage operation ["Stage and group labels inference from category labels"](https://about.gitlab.com/handbook/engineering/quality/triage-operations/).
+This list is used in the automated triage operation ["Stage and group labels inference from category labels"](/handbook/engineering/infrastructure/engineering-productivity/triage-operations/).
 - `marketing_page` (optional): the path of marketing page for the category. If you include a `body` section, then a marketing page will be auto-generated at `/product/${lowercase-category-name}`
 - `documentation` (optional): the URL of the docs page for the category, required if the category maturity is minimal or above.
 - `direction` (required): the URL of the category direction page. Optionally could be the URL of an issue, epic, or issue label search query if a direction page has not yet been created.
@@ -306,7 +303,7 @@ This list is used in the automated triage operation ["Stage and group labels inf
 - `lovable`: an ISO date for when the category will/did move from complete to loveable on the [maturity handbook page](https://about.gitlab.com/direction/maturity/).
 - `maturity`: the current maturity of the category on the [maturity handbook page](https://about.gitlab.com/direction/maturity/). Valid values are `planned`, `minimal` (available), `viable`, `complete`, and `lovable`. Provided `marketing = true`, a value of `planned` will cause the category to appear in the "coming soon" section of the homepage, while other values will cause it to appear in the "Since 20XX GitLab added" section.
 - `marketing`: A value of `true` will cause this category to appear on our marketing pages, in addition to our [handbook](/handbook/product/categories/). For the home page, a `maturity` state is also required. [Internationalizaion](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/data/categories.yml) is a good example of a category the engineering team works on, but is not a "customer-facing category" that appears on marketing pages.
-- `body`: content added in markdown will be [auto-generated](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/config.rb#L133) and turned into a page at `/product/<category>/`. Features and missing features sections are automatically added to the generated category pages based on what category a feature belongs to in `features.yml`. c.f. [Project Management](/solutions/agile-delivery/) (and auto-generated page from the [`body` section in `categories.yml`](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/data/categories.yml#L148)) with [Continuous Integration](/features/continuous-integration/) (a [custom page](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/source/features/continuous-integration/index.html.haml).)
+- `body`: content added in markdown will be [auto-generated](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/config.rb#L133) and turned into a page at `/product/<category>/`. Features and missing features sections are automatically added to the generated category pages based on what category a feature belongs to in `features.yml`. c.f. [Project Management](https://about.gitlab.com/solutions/agile-delivery/) (and auto-generated page from the [`body` section in `categories.yml`](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/data/categories.yml#L148)) with [Continuous Integration](/features/continuous-integration/) (a [custom page](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/source/features/continuous-integration/index.html.haml).)
 - `opportunity`: values can be `Core`, `Adjacent`, `Distant` - is this category considered part of our existing `Core` DevOps platform, a directly `Adjacent` set of capabilities or a `Distant` vision for future breadth.
 - `differentiation`: values can be `Winning`,`Compelling`,`Minimal` - is this category sufficiently differentiated from competitors to be considered capable of consistently `winning`, providing an `compelling` additive component to our single platform value or adding only `minimal` differentiated value.
 - `ux_scorecard_score`: value should be a letter score, following the [grading rubric](/handbook/product/ux/ux-scorecards/#grading-rubric)
@@ -351,7 +348,7 @@ Any change to a Stage or Group, or a significant change to a Category, is a majo
 
 Due to their impact, executive approval for major changes is required in addition to the PMs, PMMs, and EMs responsible. Follow the approval process defined on the [categories page](/handbook/product/categories/#changes).
 
-After merging, changes to feature categories will trickle down into [error budgets](https://about.gitlab.com/handbook/engineering/error-budgets#how-to-change-error-budget-attribution) at the start of next month when the [Scalability group](https://about.gitlab.com/handbook/engineering/infrastructure/team/scalability) gets an automated issue [like this one](https://gitlab.com/gitlab-com/gl-infra/scalability/-/issues/2040). Someone from the [Projections team](https://about.gitlab.com/handbook/engineering/infrastructure/team/scalability/projections.html) will change the ownership in the application, and update error budgets accordingly. As a product manager, nothing more needs to be done. The Projections team might reach out on the original merge request for clarification if needed.
+After merging, changes to feature categories will trickle down into [error budgets](/handbook/engineering/error-budgets#how-to-change-error-budget-attribution) at the start of next month when the [Scalability group](/handbook/engineering/infrastructure/team/scalability) gets an automated issue [like this one](https://gitlab.com/gitlab-com/gl-infra/scalability/-/issues/2040). Someone from the [Projections team](/handbook/engineering/infrastructure/team/scalability/projections.html) will change the ownership in the application, and update error budgets accordingly. As a product manager, nothing more needs to be done. The Projections team might reach out on the original merge request for clarification if needed.
 
 **Minor changes**
 
@@ -369,7 +366,7 @@ To update the responsible person for a role, follow these steps:
 
 Here's an [example Merge Request](https://gitlab.com/gitlab-com/www-gitlab-com/merge_requests/22765).
 
-If the person is not yet listed on the [team page](/handbook/company/team/), please follow [these instructions](https://about.gitlab.com/handbook/git-page-update/#12-add-yourself-to-the-team-page) to add them.
+If the person is not yet listed on the [team page](/handbook/company/team/), please follow [these instructions](/handbook/editing-handbook/#add-yourself-to-the-team-page) to add them.
 
 ### Adding features to webpages
 
@@ -377,10 +374,10 @@ All features and capabilities are listed in a single yaml file
 ([`features.yml`](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/data/features.yml)) under the `features` section.
 It is the single source of truth for multiple pages across the website including:
 
-- [Product pages](/stages-devops-lifecycle/) e.g. [code review](/stages-devops-lifecycle/create/)
-- [Pricing](/pricing/)
-- [Features](/features/)
-- [Solutions](/solutions/)
+- [Product pages](https://about.gitlab.com/stages-devops-lifecycle/) e.g. [code review](https://about.gitlab.com/stages-devops-lifecycle/create/)
+- [Pricing](https://about.gitlab.com/pricing/)
+- [Features](https://about.gitlab.com/features/)
+- [Solutions](https://about.gitlab.com/solutions/)
 - [Platform](/platform/)
 
 To add a new feature, add a feature block to under the `features:` section of the page. Add the following attributes:
@@ -394,15 +391,15 @@ To add a new feature, add a feature block to under the `features:` section of th
 - **tier**: `true` or `false` is this feature or capability available in this tier? `gitlab_core`, `gitlab_starter`, `gitlab_premium`, `gitlab_ultimate`. Note - it's assumed that any feature in a lower tier is also available in the higher tiers. For example a feature listed as in Core is also considered present in Starter, Premium and Ultimate.
 - **self_managed**: `true`, `false` or `not_applicable`, defaults to `true`. Is this feature or capability available for self-managed users? Use `not_applicable` for features that do not apply to a self-managed service, for example the operational characteristics of our SaaS services.
 - **dedicated**: `true`, `false` or `not_applicable`, defaults to `true`. Is this feature or capability available for GitLab Dedicated? Use `not_applicable` for features that do not apply to a SaaS service, such as the operational details of the service itself, like `Fault-tolerant PostgreSQL`.
-- **gitlab_com**: `true`, `false` or `not_applicable`, defaults to `true`. Is this feature or capability available on GitLab.com? Because GitLab.com tiers map 1:1 to self-managed tiers setting this will automatically assign the GitLab.com tier. E.g. `gitlab_core: true` + `gitlab_com: true` == `GitLab.com Free`. Adding a tiers fields is what powers the tier badges on product pages and comparison pages, as well as powers the tier [feature comparison of the pricing page](/pricing/feature-comparison/). Use `not_applicable` for features that do not apply to GitLab.com, such as the operational details of the service itself, like `Fault-tolerant PostgreSQL`.
-- **gitlab_com_parity**: For features which are currently not available on GitLab.com, but still applicable, this field should used to provide a rationale or path towards parity. Supports markdown, links to issues are encouraged. Content shows up on the [GitLab.com missing features list](/features/).
+- **gitlab_com**: `true`, `false` or `not_applicable`, defaults to `true`. Is this feature or capability available on GitLab.com? Because GitLab.com tiers map 1:1 to self-managed tiers setting this will automatically assign the GitLab.com tier. E.g. `gitlab_core: true` + `gitlab_com: true` == `GitLab.com Free`. Adding a tiers fields is what powers the tier badges on product pages and comparison pages, as well as powers the tier [feature comparison of the pricing page](https://about.gitlab.com/pricing/feature-comparison/). Use `not_applicable` for features that do not apply to GitLab.com, such as the operational details of the service itself, like `Fault-tolerant PostgreSQL`.
+- **gitlab_com_parity**: For features which are currently not available on GitLab.com, but still applicable, this field should used to provide a rationale or path towards parity. Supports markdown, links to issues are encouraged. Content shows up on the [GitLab.com missing features list](https://about.gitlab.com/features/).
 - **toolname**<a name="feature_status_defs"></a>: any tool from the `devops_tools:` section such as `jira:`, `circle_ci:`, `blackduck:`, etc. that does or does not have this feature. Holds a value of either `true` or `false` or `partially` or is blank (indicating subfields with details should exist).
     - `true` or `false` or `partially`: Examples of `partially` are if a DevOps tool has some but not all of the feature described, or if they have the feature, but only through a plugin. If using `partially` it is highly recommended to instead add `details` as to what partially actually means (see next)
     - <blank>:<a name="feature_status_details"></a> Means that the feature for this particular toolname have a sub-section with details:
         - `valid`: Same as `true` or `false` or `paritally` above
         - `details`: A short statement about the details that need to be shared. For example: "supports 11 languages", or "only supported through 3rd party plug-ins"
-- **pricing_page**: `true` or `false`: This currently has no impact on the primary [pricing page](/pricing/), which is driven off themes. This does still apply to the ([self-managed comparison](/pricing/feature-comparison/) and [GitLab.com comparison](/pricing/feature-comparison/)) pages.
-- **pricing_theme**: Use this option to mark this feature as part of a [pricing theme](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/pricing_themes.yml). The value is a string, which should match the desired string. Features that align to Themes are shown on our [pricing page](/pricing/).
+- **pricing_page**: `true` or `false`: This currently has no impact on the primary [pricing page](https://about.gitlab.com/pricing/), which is driven off themes. This does still apply to the ([self-managed comparison](https://about.gitlab.com/pricing/feature-comparison/) and [GitLab.com comparison](https://about.gitlab.com/pricing/feature-comparison/)) pages.
+- **pricing_theme**: Use this option to mark this feature as part of a [pricing theme](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/pricing_themes.yml). The value is a string, which should match the desired string. Features that align to Themes are shown on our [pricing page](https://about.gitlab.com/pricing/).
 
 For example:
 
@@ -450,7 +447,7 @@ Copy and paste this template:
 
 ### Updating content on GitLab Learn
 
-The underlying data shown on the [GitLab Learn](/learn/) page is available in [https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/-/blob/main/content/learn/index.yml](https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/-/blob/main/content/learn/index.yml)
+The underlying data shown on the [GitLab Learn](https://about.gitlab.com/learn/) page is available in [https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/-/blob/main/content/learn/index.yml](https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/-/blob/main/content/learn/index.yml)
 
 To update the course content data:
 1. Open an MR to the [learn.yml](https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/-/blob/main/content/learn/index.yml) file. Follow the existing syntax in the file. For ease of adding a new course, we recommend copying an existing entry and updating the values based on the new course being added, populating every field.
@@ -469,8 +466,8 @@ Important guidelines to keep in mind:
 The Digital Experience team is implementing [Contentful CMS](https://www.contentful.com/) for the marketing website. It offers a more user-friendly way of editing the marketing site.
 
 - Team members will need to fill out an [Access Request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/) to gain access to Contentful.
-- Some content will only be available to certain teams, based on roles and permissions. 
-- New pages and new components will need an [issue](https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/-/issues/new#) with the Digital Experience team to work with design and engineering. 
+- Some content will only be available to certain teams, based on roles and permissions.
+- New pages and new components will need an [issue](https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/-/issues/new#) with the Digital Experience team to work with design and engineering.
 
 Read the [Contentful handbook page](/handbook/marketing/digital-experience/contentful-cms/) for up to date directions and status of the system.
 

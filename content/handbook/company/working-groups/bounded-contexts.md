@@ -9,8 +9,8 @@ description: "Identify backend bounded contexts composing the GitLab Rails monol
 |-----------------|-----------------|
 | Date Created    | 2023-11-28 |
 | Target End Date | 2024-03-31 |
-| Slack           | #wg_bounded_contexts (only accessible from within the company) |
-| Google Doc      | TBD (only accessible from within the company) |
+| Slack           | [#wg_bounded_contexts](https://gitlab.enterprise.slack.com/archives/C069VRRN70S) (only accessible from within the company) |
+| Google Doc      | [Agenda doc](https://docs.google.com/document/d/1Ss2lvZHm1ID5CTVQJS3ivM7Nc1FgLaPCBCSm2RDawKI/edit) (only accessible from within the company) |
 
 ### Summary
 
@@ -114,3 +114,24 @@ For stages still missing participants we will seek support from Engineering lead
 | Member                | Chad Woolley          | Senior Backend Engineer, Create::IDE (Remote Development) |
 | Member                | Thong Kuah            | Principal Engineer, Data Stores  |
 | Member                | Lucas Charles         | Principal Engineer, Secure & Govern |
+| Member                | Furkan Ayhan          | Senior Backend Engineer, Verify:Pipeline Authoring |
+| Member                | Smriti Garg           | Senior Backend Engineer, Govern:Authentication |
+| Member                | Aboobacker MK         | Senior Backend Engineer, Govern:Authentication |
+| Member                | Sean Carroll          | Engineering Manager, Create:Source Code |
+| Member                | Ahmed Hemdan          | Senior Backend Engineer, Secure:Static Analysis |
+| Member                | Ethan Urie            | Staff Backend Engineer, Secure:Secret Detection |
+| Member                | Gabriel Mazetto       | Senior Backend Engineer, Systems:Geo |
+| Member                | Vitali Tatarintev     | Senior Backend Engineer, Create:Code Creation |
+| Member                | Sashi Kumar Kumaresan | Staff Backend Engineer, Govern:Security Policies |
+| Member                | Vasilii Iakliushin    | Staff Backend Engineer, Create::Source Code |
+| Member                | Remy Coutable         | Principal Engineer, Quality |
+| Member                | Eduardo Bonet         | Staff Incubation Engineer, MLOps |
+| Member                | Vij Hawoldar          | Senior Backend Engineer, Fulfillment::Utilization |
+| Member                | Suraj Tripathi        | Senior Backend Engineer, Fulfillment::Utilization |
+| Member                | Kassio Borges         | Staff Backend Engineer, Plan::Knowledge |
+| Member                | Aakriti Gupta         | Senior Backend Engineer, Systems:Geo |
+| Member                | Peter Leitzen         | Staff Backend Engineer, Engineering Productivity |
+| Member                | Abhinaba Ghosh        | Engineering Manager, Test & Tools Infrastructure |
+| Member                | Mohamed Hamda         | Backend Engineer, Fulfillment::Provision |
+| Member                | Andrei Zubov          | Senior Frontend Engineer, Environments |
+| Member                | Fabien Catteau        | Staff Backend Engineer, Secure::Composition Analysis |

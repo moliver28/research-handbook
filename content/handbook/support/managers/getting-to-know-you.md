@@ -49,12 +49,12 @@ specific details about how to work with your team member.
 1. In the calendar invitation, include a link to the new file. Invite the team
     member to fill it out in advance OR to wait for the meeting at which time
     you will take notes in the doc while they tell their story.
-1. Use your [Support Engineering Manager Readme](https://about.gitlab.com/handbook/engineering/readmes/)
+1. Use your [Support Engineering Manager Readme](/handbook/engineering/readmes/)
     1. If your Readme covers your whole story, meaning it answers pretty much
         all the questions in the template, then ask your team member to read it
         in advance.
     1. Here's an example of one such complete
-        [Readme](https://about.gitlab.com/handbook/engineering/readmes/mike-dunninger/)
+        [Readme](/handbook/engineering/readmes/mike-dunninger/)
 1. Conduct the Meeting!
     1. Build trust by being vulnerable - tell your story first. If your Readme
         tells the whole story, you can just ask your team member for any

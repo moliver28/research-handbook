@@ -34,6 +34,9 @@ Below is a full list of our UX Research team handbook content:
      - [Survey question scales](/handbook/product/ux/ux-research/surveys/survey-question-scales/)
      - [Sample sizes for surveys](/handbook/product/ux/ux-research/surveys/sample-sizes-for-surveys/)
      - [Piloting your survey](/handbook/product/ux/ux-research/surveys/piloting-your-survey/)
+     - [Qualtrics Tips and Tricks](/handbook/product/ux/ux-research/surveys/qualtrics/)
+     - [How to identify low quality data when designing and reviewing your survey](/handbook/product/ux/ux-research/surveys/how-to-identify-low-quality-data-when-designing-and-reviewing-your-survey)
+- [Jobs to be Done](/handbook/product/ux/jobs-to-be-done/)
 - [Longitudinal studies](/handbook/product/ux/ux-research/longitudinal-studies/)
 - [Diary studies](/handbook/product/ux/ux-research/diary-studies/)
 - [Mental modeling studies](/handbook/product/ux/ux-research/mental-modeling)
@@ -74,6 +77,7 @@ Below is a full list of our UX Research team handbook content:
 - [Analyzing survey verbatim](/handbook/product/ux/ux-research/analyzing-survey-verbatim/)
 - [Research insights](/handbook/product/ux/ux-research/research-insights/)
 - [Documenting research insights in Dovetail](/handbook/product/ux/dovetail/)
+- [Product Analytics for UX Research](/handbook/product/ux/ux-research/product-analytics-for-ux-research/)
 
 ### Templates
 
@@ -94,7 +98,6 @@ Below is a full list of our UX Research team handbook content:
 ### UX Research training
 
 - [Interview Carousel - Becoming a better interviewer 15 minutes at a time](/handbook/product/ux/ux-research/interview-carousel/)
-- [Qualtrics tips and tricks](/handbook/product/ux/qualtrics/)
 - [UX Research shadowing](/handbook/product/ux/ux-research/research-shadowing/)
 - [When to conduct UX Research training (internal LevelUp course)](https://levelup.gitlab.com/learn/course/when-to-conduct-ux-research)
 
@@ -117,7 +120,6 @@ Below is a full list of our UX Research team handbook content:
 - [Research participation gratuities](/handbook/product/ux/ux-research-coordination/incentives)
 - [Getting the word out about research insights](/handbook/product/ux/ux-research-coordination/shareouts)
 - [ReOps procurement best practices](/handbook/product/ux/ux-research-coordination/reops-procurement)
-- [First Look UX Research panel](/handbook/product/ux/ux-research-coordination/first-look-ux-research-panel/)
 - [Finding SaaS users](/handbook/product/ux/ux-research/finding-saas-users/)
 - [UX research recruiting email tips](/handbook/product/ux/ux-research/recruiting-participants/recruiting-email-tips/)
 
@@ -125,8 +127,7 @@ Below is a full list of our UX Research team handbook content:
 
 - [System Usability Scale](/handbook/product/ux/performance-indicators/system-usability-scale/)
      - [System Usability Scale responder outreach](/handbook/product/ux/performance-indicators/system-usability-scale/sus-outreach/)
-     - [System Usability Scale database](/handbook/product/ux/sus-database/)
-- [Paid Net Promoter Score](/handbook/product/ux/performance-indicators/paid-nps/)
+- [Paid NPS (Deprecated)](/handbook/product/ux/performance-indicators/paid-nps/)
 - [Assessing Category Maturity](/handbook/product/ux/category-maturity/)
     - [Category Maturity Scorecards](/handbook/product/ux/category-maturity/category-maturity-scorecards/)
     - [Category Maturity - Competitor Comparison](/handbook/product/ux/category-maturity/competitor-comparison/)

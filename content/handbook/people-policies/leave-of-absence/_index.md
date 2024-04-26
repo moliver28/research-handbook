@@ -22,7 +22,7 @@ This page is designed to educate our team members about the different GitLab-spe
 - [GitLab GK (Japan)](/handbook/total-rewards/benefits/general-and-entity-benefits/gitlab-gk/)
 - [GitLab Ireland LTD](/handbook/total-rewards/benefits/general-and-entity-benefits/gitlab-ireland-ltd/)
 - [GitLab Korea LTD](/handbook/total-rewards/benefits/general-and-entity-benefits/korea-ltd-benefits/)
-- [Gitlab France S.A.S.](/handbook/total-rewards/benefits/general-and-entity-benefits/france-sas/)
+- [GitLab France S.A.S.](/handbook/total-rewards/benefits/general-and-entity-benefits/france-sas/)
 - [GitLab Singapore Pte Ltd](/handbook/total-rewards/benefits/general-and-entity-benefits/singapore-pte-ltd/)
 - [Remote Technology (South Africa, Mexico, Hungary and Austria)](/handbook/total-rewards/benefits/general-and-entity-benefits/remote-com/)
 - Safeguard (Spain, Italy, Brazil and Switzerland)

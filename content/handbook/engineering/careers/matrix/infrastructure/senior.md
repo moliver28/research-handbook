@@ -3,7 +3,7 @@ title: "Senior - Infrastructure Department Career Framework"
 description: "The expected team member competencies in the Infrastructure department at GitLab for the Senior job level."
 ---
 
-{{% include "includes/engineering/career-matrix-nav.md" %}}
+{{% include "includes/engineering-careers/career-matrix-nav.md" %}}
 
 ## Senior
 
@@ -32,7 +32,7 @@ Senior-level engineers in infrastructure are significantly contributing to their
 1. Effective as a project DRI; sets up and maintains the project epic and issues for visibility and takes care to assess and communicate impact, timelines, and dependencies.
 1. Works with their manager to identify and effectively collaborate with the stakeholders who will be impacted or interested in their work.
 1. Understands the team's current and upcoming challenges, and works with their manager to prioritize projects and tech-debt to meet team goals.
-1. Writes technical proposals comparing existing and desired state, defining a path to pragmatic and feasible solutions to team problems. Recognizes the pros and cons of the proposal and looks to adopt [boring solutions](https://handbook.gitlab.com/handbook/values/#boring-solutions) wherever possible.
+1. Writes technical proposals comparing existing and desired state, defining a path to pragmatic and feasible solutions to team problems. Recognizes the pros and cons of the proposal and looks to adopt [boring solutions](/handbook/values/#boring-solutions) wherever possible.
 1. Actively works to understand GitLab tools and features and looks to create dogfooding opportunities for the team.
 
 ## Team building
@@ -42,18 +42,18 @@ Senior-level engineers in infrastructure are significantly contributing to their
 1. Plays an integral role in team hiring through leading interviews, training others, and iterating on the hiring process to improve the candidate experience. Works closely with the hiring manager to understand the role requirements and support the hiring effort.
 1. Recognizes and actively works to track and reduce interruptions affecting team throughput.
 1. Acts as a multiplier for others through mentoring and pairing, as well as by leading effective projects that allow others to contribute.
-1. Is aware of what a [high-performing team](https://about.gitlab.com/handbook/leadership/build-high-performing-teams/#what-makes-a-high-performing-team-at-gitlab) is and works with their manager to identify and initiate improvements.
+1. Is aware of what a [high-performing team](/handbook/leadership/#strategies-to-build-high-performing-teams) is and works with their manager to identify and initiate improvements.
 
 ## Engineering alignment
 
 ### Senior Leadership Competencies
 
-{{% include "includes/engineering/senior-leadership-competency.md" %}}
+{{% include "includes/engineering-careers/senior-leadership-competency.md" %}}
   
 ### Senior Technical Competencies
 
-{{% include "includes/engineering/senior-technical-competency.md" %}}
+{{% include "includes/engineering-careers/senior-technical-competency.md" %}}
 
 ### Senior Values Alignment
 
-{{% include "includes/engineering/values-competency.md" %}}
+{{% include "includes/engineering-careers/values-competency.md" %}}

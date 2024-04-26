@@ -21,7 +21,7 @@ Customer Success Managers will typically manage customer engagements via a GitLa
 
 1. Somewhere between step 3 and step 7 of the customer journey sequence, a Solutions Architect should create a project for the customer in GitLab and include a Professional Services Engineer and Customer Success Manager who are best aligned with the customer account. This typically only applies to Enterprise accounts.
 2. After the Customer Success Manager has been aligned with the account, they will assign themselves to the “Customer Success Manager” field within Salesforce.
-3. The Customer Success Manager confirms that a new customer project has been created based on the [Enterprise](https://gitlab.com/gitlab-com/account-management/customer-collaboration-project-template) or the [Commercial](https://gitlab.com/gitlab-com/account-management/commercial/templates/new-customer-project/) Customer Success Plan Template. If it hasn't, they need to create it and work with the Account Executive and/or Solutions Architect to complete it. This *should* have been done prior to Customer Success Management involvement for all Enterprise accounts. For Commercial accounts, the CSM will create the project once they receive the account and determine it is beneficial to have a customer project.
+3. The Customer Success Manager confirms that a new customer project has been created based on the [Enterprise](https://gitlab.com/gitlab-com/account-management/customer-collaboration-project-template) or the [Commercial](https://gitlab.com/gitlab-com/account-management/commercial/templates/new-customer-project/) Customer Success Plan Template. If it hasn't, they need to create it and work with the Account Executive and/or Solutions Architect to complete it. This may have been done by the SA prior to CSM involvement, but if not the CSM needs to create one.
 4. Follow the steps in the PLEASE-READ-THESE-INSTRUCTIONS.md file.
 
 ### Start a customer upgrade engagement
@@ -35,7 +35,7 @@ Customer Success Managers will typically manage customer engagements via a GitLa
 
 During the pre-sales process for Enterprise accounts, a Solutions Architect owns the project with assistance from the Account Executive and should include the Professional Services Engineer if there is one assigned. A Customer Success Manager is involved but only for visibility. Until the account becomes a paying customer the project remains in pre-sales. Once the customer has paid, the Account Executive will set up the "Welcome to GitLab" call along with the key GitLab employees (SAE, SA, PSE and Customer Success Manager) and the customer. There is a preloaded issue for this in the project template.
 
-For Commercial accounts, the Account Executive owns the pre-sales process and [engages a Solutions Architect](/handbook/customer-success/solutions-architects/#commercial-engagement-model) as needed. Once the account becomes a paying customer, the Customer Success Manager will create a customer project if it will be useful to their relationship with the customer, and the Account Executive will schedule a "Welcome to GitLab" call with the customer and the Customer Success Manager.
+For Commercial accounts, the Account Executive owns the pre-sales process and [engages a Solutions Architect](/handbook/solutions-architects/#commercial-engagement-model) as needed. Once the account becomes a paying customer, the Customer Success Manager will create a customer project if it will be useful to their relationship with the customer, and the Account Executive will schedule a "Welcome to GitLab" call with the customer and the Customer Success Manager.
 
 The "Welcome to GitLab" call will introduce the customer to the Customer Success Manager and begin the handover process. The Customer Success Manager will then lead the rest of the call and own the customer project. If the project was created in the pre-sales project under the [`pre-sales account-management` group](https://gitlab.com/gitlab-com/account-management/pre-sales), then it is moved to a post-sales project under [`account-management` group](https://gitlab.com/gitlab-com/account-management).
 
@@ -117,8 +117,6 @@ Customer personas are attributed to individual contacts in Gainsight when viewin
 
 ## Customer Prioritization
 
-GitLab uses a customer prioritization model and [associated metrics](/handbook/customer-success/csm/segment/) based on their customer segment (Enterprise, Commercial, Scale) to focus the CSM's efforts where they will have maximum value and impact.
-
 On the Gainsight Attributes section, the CSM can set the priority level per customer with levels 1 or 2, with 1 being the highest. A new CSM-assigned customer coming on to GitLab will default to Pr1 until their onboarding enablement is complete. Pr3 is solely for unmanaged child accounts, and Pr4 is only for our digital customers and not for the CSM-assigned segment, with the exception of the Public Sector that is trialing a CSM-assigned digital customer. Priority definitions vary by CSM segment.
 
 ![Post-Sales Customer Segmentation](./img/segmentation.jpg "Post-Sales Customer Segmentation")
@@ -132,161 +130,9 @@ Why do we use a prioritization system?
 
 The `CSM Portfolio` Dashboard is used to help highlight and review each client, including their priority level.
 
-### Enterprise Accounts
-
-Please see the [Enterprise CSM handbook page](/handbook/customer-success/csm/segment/enterprise/#account-prioritization) for prioritization guidelines.
-
-#### Major
-
-Priority definitions are as follows:
-1. **Priority 1**:
-    1. [CSM-led onboarding](/handbook/customer-success/csm/onboarding/)
-    1. Biweekly check-in call
-    1. Yearly [EBR](/handbook/customer-success/csm/ebr/) (as minimum)
-    1. Active [Account Growth Plan](/handbook/customer-success/csm/account-growth/)
-    1. 1 active Stage Enablement playbook on customer's current use case
-    1. 1 active [Stage Expansion](/handbook/customer-success/csm/stage-enablement-and-expansion/) playbook into new stage
-    1. 2 [CSM led workshops](/handbook/customer-success/csm/workshops/) per year
-1. **Priority 2**:
-    1. [CSM-led onboarding](/handbook/customer-success/csm/onboarding/)
-    1. Monthly check-in call
-    1. Yearly [EBR](/handbook/customer-success/csm/ebr/) (as minimum)
-    1. Renewal touch point no less than 3 months prior to renewal
-    1. Customer attends 2 [Scale Webinars](/handbook/customer-success/csm/segment/scale/webinar-calendar/) per year
-1. Priority 3: Non-managed child accounts only
-
-CSM-assigned customers are segmented into two priority tiers: `Priority 1 (P1)` and `Priority 2 (P2)`. We use a series of "yes/no" parameters to evaluate a customer's prioritization, based on the key aspects of a CSM's responsibilities and value to the customer. There may be rare use of a `Priority 3 (P3)` tier, wherein an account is a child account that is not actively managed outside of its parent account but is still within the Major segment.
-
-Each CSM should aim to have roughly one third (1/3) of their book of business listed as `Priority 1`, and the rest as `Priority 2`.
-
-##### Parameters
-
-The following parameters are considered when determining customer prioritization:
-
-| Parameter                                                                     | Yes                                                                                                 | No                                                                                                               |
-|-------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------|
-| **Open tier upgrade in the next 3 months**                                                         | Upgrade opportunity is open in Salesforce and actively being discussed with the customer            | No open opportunity in Salesforce, and/or no active upgrade discussion with the customer                         |
-| **Contraction or Churn risk**                                    | Account in Triage process                                    | No contraction or churn risk identified                                      |
-| **Onboarding**                                    | Within first 60 days of onboarding                                    | Not in onboarding phase                                      |
-| **ARR limit**                                    | [Within ARR limits for P1](https://internal.gitlab.com/handbook/customer-success/csm/)                                    | Not within ARR limits for P1 phase                                      |
-
-##### Prioritization model
-
-Using the defined parameters and guidance on how to know whether they are applicable, we can use the following flowchart to evaluate priority:
-
-<!-->
-Online Mermaid editor: https://mermaid-js.github.io/mermaid-live-editor
-<-->
-```mermaid
-graph TD
-  uptier[Open tier upgrade in the next 3 months]-- Yes -->p1;
-  uptier-- No -->churnrisk;
-  churnrisk[At risk of contraction or churn]-- Yes -->p1;
-  churnrisk-- No -->onboarding;
-  onboarding[First 60 days of onboarding]-- Yes -->p1;
-  onboarding-- No -->ARR;
-  ARR[Within P1 ARR limits]-- Yes -->p1;
-  ARR-- No -->p1exception;
-  p1exception["P1 exception*"]-- Yes -->p1;
-  p1exception-- No -->p2;
-  p1((Priority 1));
-  p1-.->p2exception;
-  p2exception["P2 exception*"]-- Yes -->p2;
-  p2{{Priority 2}};
-```
-
-A [working spreadsheet](https://docs.google.com/spreadsheets/d/12n3EvB_KpJJp_cz_bfKIhMWoQkjZcLlzggc7xN6De6k/edit#gid=438918120) was created to help determine customer priority.
-
-** Please see [priority exceptions](#priority-exceptions) for details.*
-
-##### New customer onboarding
-
-When a [new customer is in onboarding](/handbook/customer-success/csm/onboarding/), they are automatically `Priority 1`. This is a key lifecycle event for a customer, which warrants high engagement from the CSM. Once onboarding is complete, the customer's prioritization should be reassessed.
-
-#### Keeping prioritization updated
-
-Since the parameters used to evaluate customer prioritization will change over time, each account's priority should be reviewed and updated **quarterly**, coinciding with [QBRs](/handbook/sales/qbrs/).
-
-#### Priority exceptions
-
-There are occasions that warrant a customer to be prioritized differently than the model indicates. In cases where the CSM and/or SAE believes this is true, an exception may be made.
-
-Examples of when an exception may be appropriate include:
-
-- A large, strategic customer with no [LAM](/handbook/sales/sales-term-glossary/)
-- A customer with large [LAM](/handbook/sales/sales-term-glossary/) but no clear & active growth path
-- A customer with [risk](/handbook/customer-success/csm/health-score-triage/) (which is not factored into the prioritization model) which requires higher engagement to address and mitigate the risk)
-
-In order to make an exception, the CSM or SAE should discuss the details with the members of the [account team](/handbook/customer-success/account-team/#enterprise) and their respective managers. Exceptions will be addressed to the regional Sales Management team and documented in Gainsight.
-
-### Commercial Accounts
-
-The Commercial segment aims to have no more than 20-30% of a CSM's book of business to be Priority 1 at any given time.
-
- In line with the Commercial team's goals of having a programmatic approach to grow a large customer base and aligning on and building success goals with each customer through usage reporting and strategic touchpoints, we prioritize customers based on use case adoption.
-
-- **0 or 1 use cases adopted**: Customers who have 0 or 1 use cases adopted (aka with green health score) should all be Priority 1. Our primary focus should be getting them to have at least 2 green use cases, in line with their desired business outcomes and reasons for purchase. This typically includes all onboarding customers as they begin to adopt the platform.
-- **2 use cases adopted**: Customers who have 2 use cases adopted are prioritized on a case-by-case basis depending on the CSM's sentiment and which use cases have been adopted. For example, if an Ultimate customer has green SCM and CI but red DevSecOps, they should still be a Priority 1 until DevSecOps is adopted.
-- **3 or more use cases adopted**: Customers who have 3 or more use cases adopted should be Priority 2. There is of course flexibility if a customer has extenuating circumstances, but this should be discussed with the CSM's manager to determine how much time the CSM should devote to the account.
-- **Regardless of use cases adopted**: any Ultimate customer with red DevSecOps health score should be a Priority 1. Any exceptions need to be approved by the CSM's manager.
-
-For any customers that do not have usage reporting available, the CSM should regularly ask the customer discovery questions about their usage to determine how well-adopted they are and where they may be gaps, as well as request a copy of the payload in order to get a snapshot in time of their adoption. The CSM should review any customers who do not have usage reporting or provide a payload with their manager to appropriately prioritize them.
-
-Priority 1 customers will continue to have monthly cadence calls, with the exception of newly onboarding customers, who should have weekly syncs for their first 30 days. Priority 2 customers will continue to have quarterly cadence calls.
-
-#### Risk Prioritization
-
-There are a few most-common types of risk we see: red DevSecOps adoption, low license utilization, low PTC score, and non-engagement.
-
-The following two cases qualify a customer to be both red health and Priority 1 immediately:
-
-1. **Red DevSecOps adoption**: If an account has low [DevSecOps adoption](/handbook/customer-success/product-usage-data/use-case-adoption/#devsecops) on Ultimate
-2. **Red license utilization**: If an account has low license utilization (less than 60%)
-
-The following two cases require further consideration and/or triage before automatically qualifying them for red health and P1:
-
-1. **Low PTC score**: If an account has a 1 or 2 PTC score, this is an important indicator that we need to do discovery with the customer on potential risk as soon as possible. We receive PTC scores 6 months prior to renewal, so we need to act on it quickly and ask the soft renewal question. If the answer is not a clear "yes, we will renew flat or more", then the customer qualifies for red/P1.
-2. **Non-engagement**: If an account is new to GitLab and does not respond to our introduction or engage within 1 month of purchase, this qualifies them to be red/P1. If an account was previously engaged but doesn't show up to calls anymore, the CSM should send an email immediately after they miss a call, and if we don't hear back from the customer within 1 week, they then qualify for red/P1.
-    - The CSM should attempt to reach out 2-3 times with the contacts they have available. If they are not successful, the Sales team should own the outreach going forward, whether that is the SAE, AE, or ISR. CS and Sales leadership can also be requested to reach out to the customer, if provided context and an email template.
-
-#### Onboarding Prioritization
-
-We [onboard](/handbook/customer-success/csm/onboarding/) customers that are both entirely new to GitLab, as well as customers that have been customers for a while but are new to having a CSM.
-
-1. **New customers**: If an account is brand new to GitLab, the CSM should meet with them weekly for their first month to get them up to speed quickly. Their initial implementation and adoption of GitLab is crucial to their long-term success, and we want to ensure they have the support they need to onboard quickly.
-2. **Existing customers**: If an account is not new to GitLab and only new to a CSM, the CSM should set them at P1 until they have their kickoff call. After that, the CSM should change them to P2 and set up a quarterly cadence, but provide the option for the customer to have an additional sync point within the first month. The CSM should also review the customer's renewal date, usage data, and PTC score, which could keep them in P1 and increase meeting frequency in order to mitigate any potential risk.
-
-#### Expansion Prioritization
-
-Much of customer growth is a natural byproduct of our day-to-day engagement with customers, ensuring they are adopting and getting the resources they need. However, we do have large upsell opportunities as well that benefit from additional attention.
-
-The CSM has the autonomy to review potential growth opportunities in their customer base and determine if the account would benefit from being classified as P1 with additional attention and sync calls.
-
-If the growth opportunity is an uptier from Premium to Ultimate, [the SAE/AE and SA](/handbook/customer-success/#overlap-between-solution-architects-and-customer-success-managers) should be leading this engagement, as it's a pre-sales motion, but the CSM should be involved throughout the process, keeping up to date on requirements, feedback, etc. to ensure that when a customer does upgrade, there is a seamless transition from planning to implementation.
-
-#### Prioritization Differences
-
-The primary difference between Priority 1 and Priority 2 customers is the frequency of synchronous engagement:
-- **Priority 1:**
-   - Weekly cadence calls for at-risk and newly onboarding customers (for first 30 days)
-   - Monthly cadence calls for customers with expansion opportunities
-- **Priority 2:**
-   - Quarterly cadence calls
-
-Priority 1 customers will also have more focus on having EBRs to ensure alignment on use case adoption and future expansion.
-
-#### Prioritizing Tasks
-
-Even with the prioritization model, all customers require attention, which can be difficult to handle with a larger book of business.
-
-Below is some guidance to help CSMs scale their workload:
-
-- Ramped CSMs are expected to give [3 workshops per quarter](/handbook/customer-success/csm/segment/mid-touch/#expand-and-renew-1); reduce the number of workshops that are for a single customer, and plan to do a single workshop where you invite several of your customers who could benefit. In this way, we are able to help drive adoption across our customer base more efficiently, and still keep the sessions small and interactive as only your customers are invited. We can also use cadence calls to dive into questions individual customers may have afterwards, allowing for a more personalized experience, without devoting the workshop to them. Setting up a quarterly (or other cadence) frequently of regularly giving particular workshop topics is one way to make planning for this simpler and ensure you continue to provide value to customers.
-- Our guidance for at-risk customers is to create a [triage issue](/handbook/customer-success/csm/health-score-triage/#gitlab-account-triage-project), but this isn't always a good use of time. Territory CSMs are not required to open triage issues for every at-risk account. They should opened an issue if the risk is due to 1. product blockers 2. PS concerns 3. ongoing negative support experience 4. license & pricing conerns, or 5. sustained non-engagement where we need help from Sales.
-
-### Scale Accounts
-
-The Scale Account prioritization model will be defined in FY23Q1.
+Different geos and teams may have different approaches to prioritization, for example:
+- All AMER CSM customers are Priority 1.
+- Scale CSE account prioritization model is TBA.
 
 ## Email Templates
 

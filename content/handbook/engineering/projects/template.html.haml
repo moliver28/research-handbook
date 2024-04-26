@@ -1,0 +1,29 @@
+---
+layout: handbook-page-toc
+title: "Engineering Projects"
+---
+
+:markdown
+  ## On this page
+  {:.no_toc .hidden-md .hidden-lg}
+
+  - TOC
+  {:toc .hidden-md .hidden-lg}
+
+  ## Projects
+
+=  partial 'table', locals: { projects: team.projects }
+
+%hr
+
+- team.projects.each do |project|
+  = partial 'project', locals: { project: project }
+
+%hr
+
+:markdown
+  ## Finding a reviewer
+
+  In addition to the lists on this page, the [GitLab review workload dashboard](https://gitlab-org.gitlab.io/gitlab-roulette/) provides an interface to find available reviewers and maintainers.
+  
+  This page is populated automatically as documented in [`projects.md`](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/doc/projects.md). 

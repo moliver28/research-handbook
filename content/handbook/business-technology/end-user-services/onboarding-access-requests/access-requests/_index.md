@@ -1,15 +1,7 @@
 ---
-
+controlled_document: true
 title: "Access Requests (AR)"
 ---
-
-
-
-
-
-
-
-# Access Requests (ARs)
 
 Access Requests are owned by the IT team, while onboarding, offboarding and internal transition requests are owned by the People Connect Team.
 
@@ -18,8 +10,8 @@ If you have any access requests related questions, please reach out to #it_help 
 ## Access requests related pages
 
 - [Frequently asked questions](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/frequently-asked-questions/)
-- [Baseline Entitlements](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/baseline-entitlements/)
-- [Temporary service providers access requests and onboarding](/handbook/business-technology/end-user-services/onboarding-access-requests/temporary-service-providers/)
+- [Baseline Entitlements](https://internal.gitlab.com/handbook/it/end-user-services/access-request/baseline-entitlements/)
+- [Temporary service providers access requests and onboarding](https://internal.gitlab.com/handbook/it/end-user-services/access-request/temporary-service-providers/)
 
 ## Need help?
 

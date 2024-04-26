@@ -64,7 +64,7 @@ Customers tend to have tools and systems with which they need to establish integ
 
 #### Advisory Services
 
-Advisory services can be helpful to customers who have questions on how to best leverage GitLab to meet their company's ambitious goals related to devops or digital transformation.
+Advisory services can be helpful to customers who have questions on how to best leverage GitLab to meet their company's ambitious goals related to DevOps or digital transformation.
 Advisory Services typically follow a 3-step approach:
 - A Discovery Session to align with the customer to better understand their goals or challenges, aswell as the current tooling and process.
 - Asynchronous investigation to develop and iterate on a candidate solution.

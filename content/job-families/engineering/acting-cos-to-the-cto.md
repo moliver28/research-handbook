@@ -17,8 +17,8 @@ This role will help enable communication, collaboration, strategy execution, and
 - Manage, track, and moderate OKRs for Engineering to ensure CTO Staff remain on track, and know their attention points throughout the quarter.
 - Lead the retrospection of the previous quarter OKRs in the first month of your term.
 - Drive future special projects, such as past examples like
-  - The [Volunteer Coaching Program for URGs](https://about.gitlab.com/handbook/engineering/volunteer-coaches-for-urgs/)
-  - The vendor selection and implementation of the [Ally OKR system](https://about.gitlab.com/handbook/engineering/#allyio-for-okrs)
+  - The [Volunteer Coaching Program for URGs](/handbook/engineering/volunteer-coaches-for-urgs/)
+  - The vendor selection and implementation of the [Ally OKR system](/handbook/engineering/#allyio-for-okrs)
 
 #### Communication
 
@@ -32,7 +32,7 @@ This role will help enable communication, collaboration, strategy execution, and
 #### Collaboration
 
 - Act as a sounding board to the CTO for new ideas and initiatives.
-- Maintain and foster a close partnership, collaborating effectively with the CEO’s Chief of Staff Team on strategic initiatives.
+- Maintain and foster a close partnership, collaborating effectively with the Office of the CEO on strategic initiatives.
 - Consult and partner with People Business partners on strategic People-related initiatives, challenges, and goals.
 - Create a structure for the CTO to improve visibility and accountability with their direct reports.
 

@@ -92,4 +92,4 @@ graph LR
 
 ### Key Reports / Dashboards
 
-[People Analytics Hub](https://app.periscopedata.com/app/gitlab/1052689/Product-Analytics-Hub) - This is a location on Sisense that groups all the dashboards that exist around People Data.
+[People Analytics Tableau Dashboards](https://handbook.gitlab.com/handbook/people-group/people-ops-tech-analytics/people-analytics/people-tableau/) - This is a location on the handbook that lists key dashboards that exist around People Data.

@@ -2,7 +2,7 @@
 title: "External Consultant Orientation & Access Deprovisioning"
 ---
 
-GitLab will from time-to-time bring in the expertise of External Consultants to work on a specific task for a pre-defined period. Depending on the nature of this engagement and the tasks at hand, the aforementioned External Consultant(s) may require access to certain GitLab systems and information which may include Slack, Customer Data, and [Infrastructure Environments](https://about.gitlab.com/handbook/engineering/infrastructure/environments/).
+GitLab will from time-to-time bring in the expertise of External Consultants to work on a specific task for a pre-defined period. Depending on the nature of this engagement and the tasks at hand, the aforementioned External Consultant(s) may require access to certain GitLab systems and information which may include Slack, Customer Data, and [Infrastructure Environments](/handbook/engineering/infrastructure/environments/).
 
 ## Consultant Orientation
 

@@ -13,6 +13,10 @@ For a full breakdown of plan descriptions please review the following [Company P
 
 To find out which hospitals and treatment centers are covered on your plan, please refer to the directories of approved facilities which are available at `Vhi.ie/downloads` or contact VHI directly via the Corporate Advice Line: `056 777 5800`.
 
+### Dependent Eligiblity
+
+Dependents eligible for the GitLab Medical subsidy are Spouse or Domestic Partner, and Children.
+
 **Does Lifetime Community Rating (LCR) Apply?**
 
 From 1st of May 2015, if you are 35 or over when you first take out private health insurance, you will pay an additional amount of 2% for each year that you are aged 35 and over. Please contact VHI if you think this may apply.
@@ -46,7 +50,7 @@ The team member needs to provide documentation (a prescription) from the opticia
 
 If you are enrolled in the VHI Medical plan, please submit any eligible claims through the plan first, any out of pocket cost not covered by the plan can be reimbursed up to the max amount in accordance to the Vision policy
 
-Please submit your receipts via expensify and prescription to Total Rewards.
+Please submit your receipts via navan and prescription to Total Rewards.
 
 ## Pension
 
@@ -126,7 +130,7 @@ From 1 January 2023, team members in Ireland are entitled to 3 days of paid sick
 - 2025: 7 days
 - 2026: 10 days
 
-Ireland's statutory sick leave policy is separate from GitLab's [Sick Time policy]({{< ref "paid-time-off#sick-time---taking-and-reporting" >}}) but when allowed by law will run concurrently with this leave policy.  If a team member needs more time away, GitLab's Sick Time policy will take precedence.
+Ireland's statutory sick leave policy offers a floor level of protection and does not interfere with existing, more favorable, sick pay schemes such as GitLab's [Sick Time policy]({{< ref "paid-time-off#sick-time---taking-and-reporting" >}}). When allowed by law, GitLab's Sick Leave policy will run concurrently with this leave policy.
 
 #### Statutory Sick Leave Pay Calculations
 
@@ -161,6 +165,12 @@ Team Members may also be eligible for Ireland's [Illness Benefit](https://www.ci
 **Adoptive Leave:** All team members who qualify as [“qualifying adopters”](https://www.citizensinformation.ie/en/employment/employment_rights_and_conditions/leave_and_holidays/adoptive_leave.html) are entitled to a minimum of 24 consecutive weeks of ordinary Adoptive Leave beginning on the first day of the placement of the child, and up to 16 weeks of additional unpaid Adoptive Leave, beginning immediately after the end of the 24 weeks of ordinary Adoptive Leave. If you wish to take additional unpaid Adoptive Leave, please notify the Absence Management team at `leaves@domain.com` at least 4 weeks before the ordinary Adoptive Leave is due to end.
 
 **Paternity Leave:** All team members who qualify as [“relevant parents”](https://www.citizensinformation.ie/en/employment/employment_rights_and_conditions/leave_and_holidays/paternity_leave.html) can take up to 2 consecutive weeks of Paternity Leave, taken within the first 6 months following the birth/adoption.
+
+Relevant parents can take paternity leave. These are:
+
+    - The father of the child
+    - The partner (spouse, civil partner or cohabitant) of the mother of the child
+    - The parent of a donor-conceived child
 
 **Parent’s Leave:** All team members who qualify as [“relevant parents”](https://www.citizensinformation.ie/en/employment/employment_rights_and_conditions/leave_and_holidays/parents_leave.html) can take up to 7 weeks of Parent's Leave during the first 2 years of their child's life, or within 2 years of the adoption event. Leave may be taken in one continuous period, or in several periods of not less than one week.
 

@@ -31,7 +31,7 @@ Instead of mirroring, JiHu will be able to contribute to the Community Edition a
 
 As an independent company, JiHu will manage its own technologies and infrastructure. JiHu’s SaaS service (GitLab.cn) and GitLab Inc.’s SaaS service (GitLab.com) will share no common infrastructure, networking connectivity, systems, services, data, or resources.
 
-![How the two repositories work](/images/faq/two-repositories.png){: .center}
+![How the two repositories work](/images/faq/two-repositories.png)
 
 **Q. Will JiHu contribute code back to GitLab? How will GitLab Inc. protect the code base from potential malicious intent?**
 

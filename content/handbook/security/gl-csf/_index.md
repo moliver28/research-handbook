@@ -3,7 +3,7 @@ title: "GitLab Continuous Security Framework"
 description: "The GitLab Continuous Security Framework workflow"
 ---
 
-## Gitlab Continuous Security Framework
+## GitLab Continuous Security Framework
 
 *Disclaimer: This page is part of a
 [POC](https://gitlab.com/groups/gitlab-com/gl-security/-/epics/169) and should not be used without
@@ -14,7 +14,7 @@ please comment in this
 Security is often being involved late in the life cycle of feature development. To prevent this,
 security is bundled into the [Software Development Lifecycle](https://about.gitlab.com/stages-devops-lifecycle/), in every
 stage of the workflow. Eventually, features are meant to reach production, but have to pass the
-[production readiness review](https://about.gitlab.com/handbook/engineering/infrastructure/production/readiness/) gate
+[production readiness review](/handbook/engineering/infrastructure/production/readiness/) gate
 first. In order to facilitate this process, the framework supports the engineering team all along
 the life cycle of the feature, to facilitate the creation of the required documentation and other
 artifacts.
@@ -40,7 +40,7 @@ and more precisely for changes in:
 
 1. The [GitLab Architecture](https://docs.gitlab.com/ee/development/architecture.html)
 1. The [GitLab.com
-   infrastructure](https://about.gitlab.com/handbook/engineering/infrastructure/production/architecture/)
+   infrastructure](/handbook/engineering/infrastructure/production/architecture/)
 1. The [classification](/handbook/security/data-classification-standard.html) of
    the data being managed (stored, transferred, or updated)
 
@@ -107,20 +107,20 @@ system helps to get started with the Threat Modeling activity.
 
 #### Threat Modeling
 
-Create or update a corresponding [Threat Model]({{< ref "../threat-modeling" >}}).
+Create or update a corresponding [Threat Model]({{< ref "../product-security/application-security/threat-modeling" >}}).
 
 #### OSS Ecosystem Testing
 
 In case the proposed architectural change introduces new Open Source Software components to our
 infrastructure or our product inform the Security Research Team
 (`@gitlab-com/gl-security/security-research`) for potential inclusion of the dependency into the
-[OSS Ecosystem Testing]({{< ref "../threat-management/security-research#gitlab-ecosystem-security-testing" >}})
+[OSS Ecosystem Testing]({{< ref "../product-security/security-research#gitlab-ecosystem-security-testing" >}})
 efforts.
 
 ## Additional resources and references
 
 
 [Security Assurance]: {{< ref "security-assurance" >}}
-[Security Architects]:{{< ref "../architecture" >}}
-[InfraSec]: {{< ref "../security-engineering/infrastructure-security" >}}
-[AppSec]: {{< ref "../security-engineering/application-security" >}}
+[Security Architects]:{{< ref "../product-security/architecture" >}}
+[InfraSec]: {{< ref "../product-security/infrastructure-security" >}}
+[AppSec]: {{< ref "../product-security/application-security" >}}

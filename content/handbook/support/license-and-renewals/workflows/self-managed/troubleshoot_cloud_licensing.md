@@ -109,7 +109,7 @@ In most circumstances, if system `curl` is working, then there won't be a need t
 
 For example, if the customer server is making use of custom certificate authorities (CA), such as when SSL packet inspection is employed, they will need to add that root CA certificate to `/etc/gitlab/trusted-certs` on the server, then [reconfigure GitLab](https://docs.gitlab.com/ee/administration/restart_gitlab.html#omnibus-gitlab-reconfigure).
 
-- Refer to our documentation on [how SSL works in GitLab](https://docs.gitlab.com/omnibus/settings/ssl/#details-on-how-gitlab-and-ssl-work) and [troubleshooting SSL in Gitlab](https://docs.gitlab.com/omnibus/settings/ssl/ssl_troubleshooting.html) for more in-depth information.  In particular, relying on the packaged version of `openssl` to check and verify SSL connectivity:
+- Refer to our documentation on [how SSL works in GitLab](https://docs.gitlab.com/omnibus/settings/ssl/#details-on-how-gitlab-and-ssl-work) and [troubleshooting SSL in GitLab](https://docs.gitlab.com/omnibus/settings/ssl/ssl_troubleshooting.html) for more in-depth information.  In particular, relying on the packaged version of `openssl` to check and verify SSL connectivity:
 
 ```sh
 echo | /opt/gitlab/embedded/bin/openssl s_client -connect customers.gitlab.com:443

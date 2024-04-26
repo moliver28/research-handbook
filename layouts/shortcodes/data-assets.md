@@ -1,5 +1,4 @@
-{{ $dataStages := partials.IncludeCached "data/data-assets" . }}
-{{ range $dataStages }}
+{{ range site.Data.public.data_assets }}
 ### {{ .title }}
 
 {{ .description | markdownify }}

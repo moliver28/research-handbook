@@ -1,7 +1,6 @@
 ---
 
 title: "Agile Planning Terms"
-description: "Learn more about GitLab's Agile Planning Terms"
 ---
 
 (Additional Terms)

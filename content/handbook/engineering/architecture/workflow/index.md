@@ -3,8 +3,6 @@
 title: "Architecture Design Workflow"
 ---
 
-# Architecture Design Workflow
-
 As engineers at GitLab, we lead the **evolution** of software, constantly
 working to find the right balance between proactive work, reactive work, and
 innovation. We strive to determine what work is important and what work is not,
@@ -300,7 +298,7 @@ It is usually good to assign DRIs from three different areas of the organization
 
 These people will be responsible for the implementation phase of the design document.
 
-DRIs can decide to start a [Working Group](/company/team/structure/working-groups/)
+DRIs can decide to start a [Working Group](/handbook/company/working-groups/)
 to add an additional structure to the efforts related to the change. Key
 considerations in deciding to form a Working Group are the size, complexity,
 and organizational impact of the change.

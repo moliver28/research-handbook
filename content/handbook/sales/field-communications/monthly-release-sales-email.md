@@ -23,7 +23,7 @@ The quick format includes:
 
 ### Process
 
-1. Product Marketing creates a pitch template on the release date [every month](https://about.gitlab.com/handbook/engineering/releases/) and houses the template in the `Company Pitch (Email) Templates Spot` in Highspot.
+1. Product Marketing creates a pitch template on the release date [every month](/handbook/engineering/releases/) and houses the template in the `Company Pitch (Email) Templates Spot` in Highspot.
 1. Product Marketing uploads the latest release blog post to the `Customer Outreach` spot in Highspot and then adds that piece of content to the pitch template along with the [releases page](https://gitlab.highspot.com/items/64be9d6dc960ff31cd9041c6).
 1. Product Marketing adds the pitch template and the latest release blog post to the [GitLab Releases Overview page](https://gitlab.highspot.com/items/624626054e2472aa8611b5bf) in the coordinating sections.
 1. Product Marketing notifies Field Communications in the release post highlights issue with a link to the pitch template once the steps above are complete.

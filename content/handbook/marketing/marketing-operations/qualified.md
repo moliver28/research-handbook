@@ -20,13 +20,9 @@ BDRs (outbound reps) will be routed conversations from visitors associated with 
 
 Experiences are what the site visitor sees when they are browsing the site. It appears as a chat box in the bottom right corner of the web page. Visitors can choose to engage with the experience to help then navigate the site, book a meeting with a sales development rep or choose "Just Browsing" and close the experience. 
 
-We currently have experiences the following experiences built:
-- Existing customers
-- Outreach clickthroughs
-- Pricing page
-- Solutions pages
-- Home page
-- Default (catch-all)
+Have questions about the experiences on the website? Please reach out to us in the #mktgops Slack channel.
+
+To request a new experience please use [this issue template](https://gitlab.com/gitlab-com/marketing/marketing-operations/-/issues/new#) in the Marketing Operations project.
 
 ### Routing
 
@@ -42,7 +38,7 @@ If you feel you have been routed a conversation or visitor in error please post 
 
 ### Signals
 
-More information in Signals to come. The Salesforce app will be installed shortly.
+Signals data is a collection of custom fields added to the Account object, reports, and dashboard components in Salesforce to showcase Signals data for your organization. The Signals Account 360 is a robust account profile that presents an account’s engagement with your campaigns and their likely purchase intent over time. Sales reps and executives alike can view the Signals Account 360 to identify which accounts and opportunities are most likely to close.
 
 ### Integrations
 
@@ -80,6 +76,22 @@ The Rep Performance Dashboard helps you understand the metrics that mean the mos
 - Visitor sessions that waited for a chat and had a successful conversation with a rep
 - Visitor sessions that waited for a chat and had no conversation
 - Total rep availability 
+
+### Other Qualified Features
+
+#### Smart Forms
+
+Using smart forms with Qualified allows your existing lead capture form to qualify leads on-the-fly and route your most qualified visitors to your sales reps in real-time. 
+
+Traditional lead forms often come with the expectation that visitors coming to your website will have to wait hours or days to talk to your sales team. Smart forms allow you to alert your reps in real-time to those hot prospects on your site ready to talk with sales, or book a meeting with your sales team for a later time.
+
+To request a new smart form please use [this issue template](https://gitlab.com/gitlab-com/marketing/marketing-operations/-/issues/new#) in the Marketing Operations project.
+
+#### Smart Buttons
+
+The Smart Button changes CTAs from a static one-size-fits-all form to a bespoke buying experience. When visitors meet your ideal customer profile, trigger a real-time sales conversation with your sales team to open the door to a dynamic two-way conversation. This gets buyer questions answered in real-time and helps your sales teams instantly capture more pipeline.
+
+To request a new smart button please use [this issue template](https://gitlab.com/gitlab-com/marketing/marketing-operations/-/issues/new#) in the Marketing Operations project.
 
 ### Resources
 

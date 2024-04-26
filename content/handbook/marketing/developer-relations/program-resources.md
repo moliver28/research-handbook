@@ -15,7 +15,7 @@ The team uses a set of contact e-mails, generally one per program, with addition
 
 Program e-mails:
 
-1. [opensource@gitlab.com](https://groups.google.com/a/gitlab.com/forum/#!forum/opensource): GitLab for Open Souce Program, CrowdIn notifications
+1. [opensource@gitlab.com](https://groups.google.com/a/gitlab.com/forum/#!forum/opensource): GitLab for Open Source Program, CrowdIn notifications
 1. [education@gitlab.com](https://groups.google.com/a/gitlab.com/forum/#!forum/education): GitLab for Education Program
 1. [evangelists@gitlab.com](https://groups.google.com/a/gitlab.com/forum/#!forum/evangelists): Evangelist Program. **Not currently connected to Zendesk**
 1. [contributors@gitlab.com](https://groups.google.com/a/gitlab.com/forum/#!forum/contributors): Code Contributor Program. **Not currently connected to Zendesk**
@@ -24,7 +24,7 @@ Program e-mails:
 
 Specialized e-mails:
 
-1. [conduct@gitlab.com](https://groups.google.com/a/gitlab.com/forum/#!forum/conduct): contact for questions or reports related to the [GitLab Community Code of Conduct](/community/contribute/code-of-conduct/)
+1. [conduct@gitlab.com](https://groups.google.com/a/gitlab.com/forum/#!forum/conduct): contact for questions or reports related to the [GitLab Community Code of Conduct](https://about.gitlab.com/community/contribute/code-of-conduct/)
 1. [merch@gitlab.com](https://groups.google.com/a/gitlab.com/forum/#!forum/merch): merchandise notifications
 
 Contact e-mails are implemented as Google groups, part of our [Google Workspace](/handbook/business-technology/tech-stack/#google-workspace) (formerly G Suite). Their visibility is set to private: users (senders) outside of the Developer Relations team can send e-mails to contact the team, but they cannot see the Google group's content or subscribe to the group.
@@ -50,12 +50,12 @@ Each e-mail's inbox is also connected to Zendesk for visibility and to enable co
 - A Developer Relations Program Manager is the DRI for email outreach campaigns to program members.
 - All emails sent to program members must follow the below process.
 
-1. File an [Marketing Operations issue](https://gitlab.com/gitlab-com/marketing/marketing-operations/-/issues/new?issuable_template=dma_list) to create a list of all known program members in existing databases. Given constraints in database segementation, this list must be generated from leads that have been converted and contacts directly associated with institutions, communities or companies that have already signed-up for one of our existing programs including the [GitLab for Education Program](https://about.gitlab.com/solutions/education/), [GitLab for Open Source Program](https://about.gitlab.com/solutions/open-source/) or [GitLab for Startups program](https://about.gitlab.com/solutions/startups/).
+1. File an [Marketing Operations issue](https://gitlab.com/gitlab-com/marketing/marketing-operations/-/issues/new?issuable_template=dma_list) to create a list of all known program members in existing databases. Given constraints in database segmentation, this list must be generated from leads that have been converted and contacts directly associated with institutions, communities or companies that have already signed-up for one of our existing programs including the [GitLab for Education Program](https://about.gitlab.com/solutions/education/), [GitLab for Open Source Program](https://about.gitlab.com/solutions/open-source/) or [GitLab for Startups program](https://about.gitlab.com/solutions/startups/).
 1. File a [one-time email request](https://gitlab.com/gitlab-com/marketing/demand-generation/campaigns/-/issues/new?issuable_template=email-request) issue to send the initial program email to the above list. The initial program email must be sent by a campaign manager to ensure that the email is properly staged and follows existing protocols.
 1. Once the list is generated and initial program email is sent, the Developer Relations DRI for outreach emails will receive access to Marketo and permission to send email campaigns to the above specified list. The Developer Relations DRI will use the initial email as a template to stage and send all future outreach emails.
 
 The following protocols must be follow:
-1. Developer Relations program outreach emails will only be sent by the DRI using the intitial program email as a template.
+1. Developer Relations program outreach emails will only be sent by the DRI using the initial program email as a template.
 1. Developer Relations program outreach emails will only be sent at a maximum frequency of once a month.
 1. Developer Relations program outreach emails will only contain content relevant **directly** the Developer Relations Program. Content can include: call to action to engage, announcements regarding program requirements or terms, or newsletter type content.
 

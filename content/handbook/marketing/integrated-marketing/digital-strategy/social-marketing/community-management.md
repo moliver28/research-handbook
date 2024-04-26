@@ -14,19 +14,19 @@ twitter_creator: 'gitlab'
 
 
 ## Community Management is a team effort
-In order to communicate and respond to our community effectively, management of responses and conversations is a shared effort between Social Media, [Developer Relations](/handbook/marketing/developer-relations/), [Developer Evangelists](/handbook/marketing/developer-relations/developer-evangelism), various experts, and our Support Teams. The two key teams in our processes are the Social and Developer Relations teams. Both act as either the final point of contact or the responsible party to forward messages to the other teams.
+In order to communicate and respond to our community effectively, management of responses and conversations is a shared effort between Social Media, [Developer Relations](/handbook/marketing/developer-relations/), [Developer Advocates](/handbook/marketing/developer-relations/developer-advocacy), various experts, and our Support Teams. The two key teams in our processes are the Social and Developer Relations teams. Both act as either the final point of contact or the responsible party to forward messages to the other teams.
 
 ## Engaging with team member social Posts
 _non-executive, non-evangelist, non-brand personality team members_
 
-GitLab brand channels provide additional impressions/view, comments, and clicks when engaging with team member social posts. It will be more common for the brand social profile to like or comment on a team member post, because this does not interfere with the editorial calendar, while still provding an amplification. We also leave a small amount of space to retweet/quote retweet users (including Team Members) on Twitter, as this is appropriate for the channel and still aids in our editorial efforts. Shares on Facebook or LinkedIn are highly unlikely, due to the low volume of appropriate content available to be calendared on these channels. 
+GitLab brand channels provide additional impressions/view, comments, and clicks when engaging with team member social posts. It will be more common for the brand social profile to like or comment on a team member post, because this does not interfere with the editorial calendar, while still provding an amplification. We also leave a small amount of space to retweet/quote retweet users (including Team Members) on Twitter, as this is appropriate for the channel and still aids in our editorial efforts. Shares on Facebook or LinkedIn are highly unlikely, due to the low volume of appropriate content available to be calendared on these channels.
 
-Team member social posts that would considered for likes or comments from the brand channel include: 
+Team member social posts that would considered for likes or comments from the brand channel include:
 - sharing GitLab content that would also be covered by brand channel posts (blogs, event registrations, etc.)
 - mentioning GitLab in a conversation with another user
 - sharing security or patch releases
 
-Team member social posts that would be considered for retweeting or sharing include: 
+Team member social posts that would be considered for retweeting or sharing include:
 - promoting a region-wide (EMEA, APAC, etc) event that is or is not currently led by corporate events
 - when the author shares their own content (writer of a blog, speaker at an event, etc.)
 - breaking changes that were not otherwise covered with brand channel posts
@@ -36,7 +36,7 @@ Team member social posts that would be considered for retweeting or sharing incl
 It is important to note that team member social posts are considered the same pool of content as the greater community. Who's post gets shared is a subjective response from the social team and does not have a specific or repeatable formula, due to the nature of every day social media activity.
 
 ##### Communicating team member posts to the social team
-While our team will see every post where the brand handle is tagged, the volume creates a delay. Consider sharing the link to your post in the #social_media_action channel for the brand team to engage. 
+While our team will see every post where the brand handle is tagged, the volume creates a delay. Consider sharing the link to your post in the #social_media_action channel for the brand team to engage.
 
 Also, consider sharing the link to your post in #content_updates or #social_media_posts for additional awareness, increasing the possibility for other team members to engage with your post.
 
@@ -89,16 +89,16 @@ This chart defines who owns what channels, sources, and how often they are revie
 
 ## Community Management on Instagram
 
-It is worth calling out platform specifics for [Instagram](https://www.instagram.com/gitlab) in [our handbook](/handbook/marketing/integrated-marketing/digital-strategy/social-marketing/#instagram-) because the channel does not operate like any other Brand Social Channel. Since Instagram is a visual first platform, we take an editorial approach that prioritizes brand awareness, and 1:1 conversation. This is GitLab's opportunity to share real team member stories, and express our values. 
+It is worth calling out platform specifics for [Instagram](https://www.instagram.com/gitlab) in [our handbook](/handbook/marketing/integrated-marketing/digital-strategy/social-marketing/#instagram-) because the channel does not operate like any other Brand Social Channel. Since Instagram is a visual first platform, we take an editorial approach that prioritizes brand awareness, and 1:1 conversation. This is GitLab's opportunity to share real team member stories, and express our values.
 
 One of the challenges we face as an all-remote organization on Instagram, is that we typically have lower quality images. We have to depend on team members and their cell phone photos. So our approach to each post is to be authentic. Don't filter the image. These are photos of real offices or experiences, and portray actual team members.
 
 <details>
  <summary markdown='span'>
-   Sizes & Ratios 
+   Sizes & Ratios
  </summary>
- 
-When posting to the Instagram feed, you can tap the expand/zoom feature at the bottom left of your photo. This will allow your photo to appear in a 1.91:1 ratio or 1080x608 pixels. If there are no sizing issues, then the photo can remain in a 1:1 ratio or 1080x1080 pixels. 
+
+When posting to the Instagram feed, you can tap the expand/zoom feature at the bottom left of your photo. This will allow your photo to appear in a 1.91:1 ratio or 1080x608 pixels. If there are no sizing issues, then the photo can remain in a 1:1 ratio or 1080x1080 pixels.
 
 When posting multiple photos to your feed post, think about which image will receive most engagement. That image should display first. Hint: team members and their pets or families engage really well!
 </details>
@@ -107,40 +107,40 @@ When posting multiple photos to your feed post, think about which image will rec
  <summary markdown='span'>
   Caption
  </summary>
- 
-We choose to use long form captions on our Instagram page because it allows us to provide our community an authentic story. Make sure to always give credit when do. This can be simply done by adding - Name, Title at the end. 
+
+We choose to use long form captions on our Instagram page because it allows us to provide our community an authentic story. Make sure to always give credit when do. This can be simply done by adding - Name, Title at the end.
 </details>
 
 <details>
  <summary markdown='span'>
   Post consistently
  </summary>
- 
-Instagram is an unrealistic channel for GitLab to post every single day on. That is why we develop themes to live by during a given period. For each campaign launched, you should post once a week. 
 
-Always post at THE optimal time. Because we don't post multiple times a day on Instagram, you have the opportunity to schedule each week at the 5 start stime that Sprout Social recommends. This will guarentte that your post is published at the peak time and with the most eyes on it. 
+Instagram is an unrealistic channel for GitLab to post every single day on. That is why we develop themes to live by during a given period. For each campaign launched, you should post once a week.
+
+Always post at THE optimal time. Because we don't post multiple times a day on Instagram, you have the opportunity to schedule each week at the 5 start stime that Sprout Social recommends. This will guarentte that your post is published at the peak time and with the most eyes on it.
 </details>
 
 <details>
  <summary markdown='span'>
   Use hashtags
  </summary>
- 
-We noticed that posts with a group of hashtags increased the reach of each feed post. So by using hashtags, your post will be discovered through the Explore Page. Each theme or campaign you run, should start with hashtag research. Once you've determined your tags they should be added at the end of every single caption. Don't forget to add a space between the caption and the tags. Otherwise they will be visually distracting. 
+
+We noticed that posts with a group of hashtags increased the reach of each feed post. So by using hashtags, your post will be discovered through the Explore Page. Each theme or campaign you run, should start with hashtag research. Once you've determined your tags they should be added at the end of every single caption. Don't forget to add a space between the caption and the tags. Otherwise they will be visually distracting.
 </details>
 
 <details>
  <summary markdown='span'>
   Respond and engage
  </summary>
- 
-Make sure to always respond or engage with your community each chance you get. The GitLab Brand Instagram provides a unique opportunity to foster 1:1 conversation or interaction. Because we don't post every day- it is likely there are only a few comments. That's why you should like or comment on every single one that isn't an automated bot. Remember to have fun and be relatable in these moments. Even a simple "thanks + an emoji!" can go a long way. 
+
+Make sure to always respond or engage with your community each chance you get. The GitLab Brand Instagram provides a unique opportunity to foster 1:1 conversation or interaction. Because we don't post every day- it is likely there are only a few comments. That's why you should like or comment on every single one that isn't an automated bot. Remember to have fun and be relatable in these moments. Even a simple "thanks + an emoji!" can go a long way.
 </details>
 
 <details>
  <summary markdown='span'>
   Strategically Post Stories
  </summary>
- 
+
 Because we only post weekly, a great way to increase accounts reached, content interactions, and followers is to post a Story related to the feed post you shared recently. After new interactions slow down, post an Instagram story that repackages the content for our audience. If you are sharing a quote, you can [use this template](https://www.canva.com/design/DAEhlR0eLXc/-ILYwspj8NRtfN_-O1yT5g/view?utm_content=DAEhlR0eLXc&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton&mode=preview).
 </details>

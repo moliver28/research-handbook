@@ -35,10 +35,12 @@ The Data Team strives to spend the majority of its time developing and operating
 | Rank | Priority | Description| Target Allocation | Prioritization Method |
 | --- | --- | --- | --- | --- |
 | 1  | Production Operations | Activities required to maintain efficient and reliable data services, including triage, bug fixes, and patching to meet established [Service Level Objectives](/handbook/business-technology/data-team/platform/#slos-service-level-objectives-by-data-source). | 10-20% (may fluctuate depending on incident frequency and complexity) | As needed
-| 2  | Data Team OKRs | The Data Team identifies strategic-level OKRs in collaboration with partner teams each quarter. | 60-75% | Prioritized through the monthly [Data Leadership Forum](/handbook/business-technology/data-team/how-we-work/#data-leadership-forum) and committed to during our [quarterly planning process](/handbook/business-technology/data-team/how-we-work/planning/) |
-| 3  | Other | Other tactical work that is requested on an ad-hoc basis throughout the quarter | 15-25% | Prioritized on an ongoing basis and committed to during our [iteration planning process](/handbook/business-technology/data-team/how-we-work/#quarterly-and-iteration-planning)|
+| 2  | Data Team OKRs | The Data Team identifies strategic-level OKRs in collaboration with partner teams each quarter. | 50-65% | Prioritized through the monthly [Data Leadership Forum](/handbook/business-technology/data-team/how-we-work/#data-leadership-forum) and committed to during our [quarterly planning process](/handbook/business-technology/data-team/how-we-work/planning/) |
+| 3  | Other | Other tactical work that is requested on an ad-hoc basis throughout the quarter | 15-25% | Prioritized on an ongoing basis and committed to during our [iteration planning process](/handbook/business-technology/data-team/how-we-work/#quarterly-and-iteration-planning). Other work that has a weight of 8 issue points or higher and is important or urgent may necessitate discussion at the Data Leadership Forum for key result prioritization and scheduling. |
 
 We use [scoped labels in GitLab](/handbook/business-technology/data-team/how-we-work/#issue-labeling) to track our issues across these priorities.
+
+In addition to the above priorities focused on operating and developing the Enterprise Data Platform and related systems, the Enterprise Data Team spends 5 to 10% of our time each quarter on learning and experimentation. This time is used to learn new skills, experiment with new technologies, and improve the data program. These learning and experimentation issues are prioritized between the team member and their manager while considering Individual Growth Plans and ways to improve the data program.
 
 ### Project Intake
 
@@ -108,43 +110,17 @@ The calculator below is based on the following [Value Calculator](https://docs.g
 
 Our planning process is called the [Planning Drumbeat](/handbook/business-technology/data-team/how-we-work/planning) and it encompasses Quarterly Planning and [Iteration Planning](/handbook/business-technology/data-team/how-we-work/planning/#iteration-planning). The Planning Drumbeat is one of the most important activities the Data Team performs because it helps us align our work with the broader company, while remaining agile enough to manage shifting business priorities.
 
-#### Weekly Roll Up Reporting
+#### Quarterly KR Status Reporting
 
-Business Technology developed [Rolly Bot](/handbook/business-technology/how-we-work/rolly/) to automate the creation and dissemination of weekly status updates. By using their tool, the Data Team is able to send out regular updates about their OKRs via email and Slack with minimal time commitments from team members. One roll up is generated for the Data Fusion team and a second is created for the Data Platform team. 
-
-We use GitLab's [DRI Handbook Page](/handbook/people-group/directly-responsible-individuals/#dri-consulted-informed-dci) to define the roles and responsibilities for each key result. The DRI (Responsible and Accountable Team Member that completes the Key Result), Consulted (Primary Business Stakeholder for Data Activation), and Informed (Secondary Business Stakeholder for Data activation) should be added to the Epic description.
+Beginning in FY25-Q1, the Data Team is using the [GitLab Objectives and Key Results project](https://gitlab.com/gitlab-com/gitlab-OKRs) to manage quarterly commitments. 
 
 Process:
-1. Create Epics for tracking KRs related to our Quarterly Objectives
-2. Add the appropriate Label to each epic
-    - Data Platform Team: `Data-Platform-weekly-rollup`
-    - Data Fusion Team: `Data-Fusion-weekly-rollup`
-    - Data Science Team: `Data-Science-weekly-rollup`
-    - Data Collaboration Team: `Data-Collaboration-weekly-rollup`
-3. Add the following text in each Epic description, filling in the details for each KR: 
-    ```
-    <!-- Status Start -->
-    1. **DRI:** [Team member(s) tags responsible for completing the KR]
-    1. **Consulted:** [Primary Business stakeholder(s) tags so they receive the weekly roll up email]
-    1. **Informed:** [Secondary Business stakeholder(s) tags so they receive the weekly roll up email]
-    1. **Next Release Date:** [Date of Release]
-    1. **Status:** [Red, Yellow, Green]
-    1. **Stage:** [Triage, Validation, Scheduling, Scheduled, Development, Review, Completed, Blocked]
-    1. **Achieved:** [Bulleted list of what has been completed]
-    1. **Features Included in Next Release:** [Bulleted list of what is scheduled to be completed in the next release]
-    1. **Blockers:**  [Details of any blockers (technical, business, other)]
-    1. **Overall Estimated Size:**  [T-Shirt Size Estimate]
-    1. **Business Impact Statement:** [Short summary of business impact]
-    <!-- Status End -->
-    ```
-4. During iteration planning, the DRI will be responsible for updating the above details for the KR in the Epic. The best practice is to write the update for the entire iteration.
-5. At the end of the quarter, the roll up labels will be removed from the KR Epics and added to the new quarter's KR Epics.
-
-**Note:** The release date will often be the next iteration based on our iteration planning process, but it could be sooner or later than that, depending on the specific KR.
-
-Current limits:
-1. Only Epics can be added to the weekly roll up (i.e. not Issues)
-1. Only 20 Epics can be added to the weekly roll up
+1. Create KRs in the project for each of the committed Key Results.
+2. In the KR description, add a link to the corresponding Epic from the GitLab Data Team project where the development work is being tracked. 
+3. Throughout the quarter, the DRI for the workstream should make the following updates (at a minimum, these updates should be added at the end of each month in the quarter for the KRs that have the `Division::` scoped label applied to them; some teams may choose to make updates more frequently): 
+    - Add a comment outlining what work has been completed, and what work is remaining to complete the KR.
+    - Update the % complete field on the KR.
+    - Update the Health Status field to indicate whether the KR is `On Track`, `Needs Attention`, or `At Risk`.
 
 ##### Introducing a new data source
 <!-- Amie to check with Dennis on this -->

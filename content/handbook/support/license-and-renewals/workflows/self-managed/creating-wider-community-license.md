@@ -8,11 +8,11 @@ category: GitLab Self-Managed licenses
 
 ## Overview
 
-GitLab allows community contributors to contribute to GitLab Enterprise Edition. Wider community members should follow the [process described here](/handbook/marketing/developer-relations/contributor-success/community-contributors-workflows.html#contributing-to-the-gitlab-enterprise-edition-ee), this page is targeted at GitLab team members. After trialling for 30 days, an EE license for 90 days can be generated if requested by a Contributor Success team member using [the internal request form](https://gitlab-com.gitlab.io/support/internal-requests-form/). Subsequent requests can be processed as necessary.
+GitLab allows community contributors to contribute to GitLab Enterprise Edition. Wider community members should follow the [process described here](/handbook/marketing/developer-relations/contributor-success/community-contributors-workflows.html#contributing-to-the-gitlab-enterprise-edition-ee), this page is targeted at GitLab team members. After trialling for 30 days, an EE license for 90 days can be generated if requested by a Contributor Success team member using [the internal request form](https://support-super-form-gitlab-com-support-support-op-651f22e90ce6d7.gitlab.io/). Use the **GitLab Support Internal Requests for Global customers** request option, and **Wider Community License** for the internal request type. Subsequent requests can be processed as necessary.
 
 ## Actioning
 
-An internal request will be received [similar to this example](https://gitlab.zendesk.com/agent/tickets/293087), which should contain the required information to generate a license. Follow the [procedure to create a new license](/handbook/support/license-and-renewals/workflows/self-managed/creating_licenses.html#create-a-new-license), ensuring the following:
+An internal request will be received [similar to this example](https://gitlab.zendesk.com/agent/tickets/293087), which should contain the required information to generate a license. Follow the [procedure to create a new license](/handbook/support/license-and-renewals/workflows/self-managed/creating_licenses/#create-a-new-license), ensuring the following:
 
 - Plan: `Ultimate`, unless specified otherwise.
 - Trial: `Yes` (is ticked)

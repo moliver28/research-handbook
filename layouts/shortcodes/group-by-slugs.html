@@ -1,0 +1,22 @@
+{{- /*  Initialize. */}}
+{{- $members := slice }}
+{{- $memberslugs := slice }}
+
+{{- range .Params }}
+  {{- $members = append (where site.Data.public.team "slug" "eq" .) $members }}
+{{- end }}
+
+<table>
+    <thead>
+        <th>Name</th>
+        <th>Role</th>
+    </thead>
+    <tbody>
+        {{- range $members }}
+          <tr>
+              <td><span style="white-space: nowrap;">{{ partial "member/with-team-link" . }}</span></td>
+              <td>{{ .role | safe.HTML }}</td>
+          </tr>
+        {{- end }}
+    </tbody>
+</table>

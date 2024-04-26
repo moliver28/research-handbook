@@ -33,16 +33,26 @@ It's important to note that these results rely on a steady gratitude practice ov
 
 The Quarterly MVP (most valuable person) program recognizes Field team members who have excelled in a given quarter – not only in revenue-generating activities like closing big deals, but also in exhibiting great behaviors and setting a positive example for other team members.
 
-The program recognizes one MVP per region/team (6 total) and one "United Win" (cross-functional account team) each quarter.
+The program recognizes one MVP per region/team (7 total) and one "United Win" (cross-functional account team) each quarter.
 
-1. AMER MVP
-1. EMEA MVP
-1. APAC + Japan MVP
-1. Customer Success (CSM, SA, ProServ) MVP
+1. Global Enterprise Champion
+   1. Eligible teams: ENT AMER, PubSec, EMEA and APJ
+1. Global Commercial & SMB Champion
+   1. Eligible teams: COMM (MM) AMER, EMEA and APJ + Global Digital SMB
+1. Customer Results Champion (Post-Sales)
+   1. Eligible teams: CSM + Renewals and ProServ
+1. Technical Sales Superstar
+   1. Eligible teams: Solution Architects and Field CTOs
 1. Partner MVP
+   1. Eligible teams: Internal partner team
 1. RSOE (Revenue Strategy, Operations & Enablement) MVP
+   1. Eligible teams: Internal RSOE team
+1. Cross-Functional MVP
+   1. Eligible teams: Any team outside of the Sales division (ex. Product, Marketing, Legal, Finance, etc.)
 
 MVPs and the United Win account team are recognized by the CRO on the WW Field Org Call and they can enjoy a recognition dinner to celebrate their accomplishments with family and friends. Note: Field Communications work with the United Win account team to identify key cross-functional players in the win that should qualify for the recognition dinner.
+
+Team members can only win the MVP title once in a fiscal year. We reserve one of the six MVP seats at President's Club for this program, meaning CRO LT will select one Quarterly MVP from the pool of all Quarterly MVPs in a fiscal year to fill a Club seat each year. 
 
 ### Selection Criteria
 
@@ -78,7 +88,7 @@ The United Win is identified by the CRO leadership team. The "United Win" recogn
 
 ### Quarterly MVP Recognition Dinner
 
-As part of this initiative, Quarterly MVPs and core members of the United Win account team are able to expense a meal up to $250.00 USD within the same quarter they were selected in. For example, if a team member is selected as a Quarterly MVP in November, they must expense their meal before the end of Q4 (the last day in January). Please submit your meal expense in Navan and in the description field link to this section of the handbook for approval.
+As part of this initiative, Quarterly MVPs are able to expense a meal up to $250.00 USD within the same quarter they were selected in. For example, if a team member is selected as a Quarterly MVP in November, they must expense their meal before the end of Q4 (the last day in January). Please submit your meal expense in Navan and in the description field link to this section of the handbook for approval.
 
 The $250.00 USD is reimbursable for a meal only, other items do not qualify.
 

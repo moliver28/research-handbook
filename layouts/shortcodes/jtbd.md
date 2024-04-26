@@ -6,8 +6,8 @@
 {{- else }}
   {{- errorf "The %q shortcode requires a single positional argument."}}
 {{- end }}
-{{- $jtbd := partials.IncludeCached "data/jobs-to-be-done" page -}}
-{{- range $jtbd }}
+
+{{- range site.Data.public.jobs_to_be_done }}
 {{- if and (not .parent) (eq .group $stageKey) }}
 {{- $slug := .slug }}
 
@@ -26,7 +26,7 @@
         </tr>
     </thead>
     <tbody>
-        {{- range $jtbd -}}
+        {{- range site.Data.public.jobs_to_be_done -}}
         {{- if eq .parent $slug }}
         <tr>
             <td>{{ .micro_job }}</td>
@@ -39,8 +39,6 @@
         {{- end }}
     </tbody>
 </table>
-
-
 
 {{ end }}
 

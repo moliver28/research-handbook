@@ -110,7 +110,7 @@ The stakeholders in the Error Budget process are:
 
 1. Stage teams (Product department and the supporting Engineering teams represented on the [product categories page][categories])
 1. Infrastructure teams (Teams represented on the [infrastructure team page][infra teams])
-1. [VP of Infrastructure and Infrastructure Leadership](https://about.gitlab.com/handbook/engineering/infrastructure/#mstaff)
+1. [VP of Infrastructure and Infrastructure Leadership](/handbook/engineering/infrastructure/#mstaff)
 1. VP of Development and VP of Product
 
 
@@ -178,9 +178,9 @@ This gives us the percentage of operations that completed successfully and is co
 (1 - stage group availability) * (28 * 24 * 60)
 ```
 
-Apdex and Error Rates are explained in more detail on [the handbook page](https://about.gitlab.com/handbook/engineering/monitoring/#gitlabcom-service-level-availability).
+Apdex and Error Rates are explained in more detail on [the handbook page](/handbook/engineering/monitoring/#gitlabcom-service-level-availability).
 
-Error Budget Spend information is available on the [Error Budgets Overview Dashboard](https://app.periscopedata.com/app/gitlab/891029/Error-Budgets-Overview) in Sisense.
+Error Budget Spend information is available on the [Error Budgets Overview Dashboard](https://10az.online.tableau.com/#/site/gitlab/views/Draft-ErrorBudgetDashboard/ErrorBudgetOverviewDashboard) in Tableau.
 
 ### System-wide incidents
 
@@ -218,14 +218,14 @@ The same applies when a group is renamed or a stage moves: if a group rename was
 Stage groups who have a traffic share of >0.01% in a given month should abide by this contract to balance feature development with reliability development.
 The traffic share for a stage group is visible on the monthly Error Budget Report.
 
-Error Budgets should be reviewed monthly as part of the [Product Development Timeline](https://about.gitlab.com/handbook/engineering/workflow/#product-development-timeline).
+Error Budgets should be reviewed monthly as part of the [Product Development Timeline](/handbook/engineering/workflow/#product-development-timeline).
 
 The balance between feature development and reliability development for a feature category should be as follows:
 
 |**Monthly Spend (28 days)**               |**Action**|
 |------------------------------  |----------|
 | <= 20 minutes                   | Understand your spend - no further action required. |
-| > 20 minutes                   | Commitment to [reliability/availability improvements](https://about.gitlab.com/handbook/product/product-processes/#prioritization), feature development is secondary. |
+| > 20 minutes                   | Commitment to [reliability/availability improvements](/handbook/product/product-processes/#prioritization), feature development is secondary. |
 
 Feature categories with monthly spend above the allocated budget for three consecutive months may have additional feature development restrictions put in place.
 
@@ -235,10 +235,10 @@ Our current contract is 99.95% availability and a 20 minute monthly error budget
 
 |**Stage Group**   | **Monthly Spend (28 days)** | **Business Reason** | **Review Date**|
 |------------------|---------------------|---------------------|---------------------|
-| Enablement:Global Search | 99.85% | Budget is being consumed primarily by [basic search for MR's and projects](https://gitlab.com/gitlab-org/search-team/team-tasks/-/issues/120#note_1288194956), which utilize Postgres. These are well-known problematic searches across the platform. Solving them will likely require using Elasticsearch, which requires a [business decision](https://gitlab.com/gitlab-com/Product/-/issues/3701) (internal only). | 2024-01-25 |
-| Enablement:Tenant Scale | 99.85% | To allow the group to focus on long-term scalability work as well as coordinate changes requiring introduction in the next API version. Described in [this MR](https://gitlab.com/gitlab-com/www-gitlab-com/-/merge_requests/108039) | 2023-12-31 (or if total traffic share exceeds 5%) |
-| Deploy:Environments | 99.9% | [To safely account for a disproportion in traffic in the feature flag endpoint that skews the budget](https://gitlab.com/gitlab-org/gitlab/-/issues/415063#note_1457186576), by using an custom error budget we can keep the correct urgency while accurately represnt the situation for the other services. | 2023-12-06 |
-| Create:Code Creation | 99.89% | This new feature is not yet released as GA and we are quickly iterating on various LLMs which have hard-to-predict response times. This exception gives us time to focus on releasing the features and then revisiting the error budgets | 2024-01-31 |
+| Enablement:Tenant Scale | 99.80% | To allow the group to focus on long-term scalability work as well as coordinate changes requiring introduction in the next API version. Described in [this MR](https://gitlab.com/gitlab-com/www-gitlab-com/-/merge_requests/108039) | 2024-06-30 (or if total traffic share exceeds 5%) |
+| Deploy:Environments | 99.9% | [To safely account for a disproportion in traffic in the feature flag endpoint that skews the budget](https://gitlab.com/gitlab-org/gitlab/-/issues/415063#note_1457186576), by using an custom error budget we can keep the correct urgency while accurately represnt the situation for the other services. | 2024-06-06 |
+| Create:Code Creation | 99.89% | [A bug was introduced while tuning some SLI thresholds](https://gitlab.com/gitlab-org/gitlab/-/issues/425095#note_1833203928) for AI Gateway leading to all apdex measurements for these SLIs were wrongly counted as failed measurements in March 2024. | 2024-04-30 |
+| Plan:Product Planning | 99.89% | Due to an issue checking permissions for participants in a comment in an Epic, the check can be computationally heavy with some endpoints taking over 10 seconds to respond. [The team is currently working on optmizing it](https://gitlab.com/gitlab-org/gitlab/-/issues/454045). | 2024-05-30 |
 
 **Exceptions**
 
@@ -291,10 +291,10 @@ Improvement` and the `group::` label so they can be tracked in reports.
 
 | Role | K/PI | Target | Current Tracking Status |
 | --- | --- | --- | --- |
-| Product Management | [Maintaining the Spend of the Error Budget](https://app.periscopedata.com/app/gitlab/891029/Error-Budgets-Overview) | 20 minutes over 28 days (equivalent to 99.95% availability) | Complete - In Sisense |
+| Product Management | [Maintaining the Spend of the Error Budget](https://10az.online.tableau.com/#/site/gitlab/views/Draft-ErrorBudgetDashboard/ErrorBudgetOverviewDashboard) | 20 minutes over 28 days (equivalent to 99.95% availability) | Complete - In Sisense |
 | Infrastructure | [Setting the Error Budget Minutes and Availability Target](/handbook/engineering/infrastructure/performance-indicators/#gitlabcom-availability) | 99.95% (20 minutes over 28 days Error Budget) | Complete - In Grafana |
 
-- For groups with [engineering allocations](https://about.gitlab.com/handbook/engineering/#engineering-allocation), the responsibility to maintain the spend of error budget is with the development team instead of the product management team.
+- For groups with [engineering allocations](/handbook/engineering/#engineering-allocation), the responsibility to maintain the spend of error budget is with the development team instead of the product management team.
 
 ## Current State and Future Intent
 
@@ -303,7 +303,7 @@ Improvement` and the `group::` label so they can be tracked in reports.
 1. Error budgets exist for each feature category and incorporate a standard apdex threshold and error rate.
 1. Error budgets are published for stage groups and stages through Grafana and Sisense Dashboards.
 1. Contributing factors are explorable through links available on the Grafana Dashboards.
-1. Error budgets are included in the [Product Prioritization process](https://about.gitlab.com/handbook/engineering/workflow/#product-development-timeline).
+1. Error budgets are included in the [Product Prioritization process](/handbook/engineering/workflow/#product-development-timeline).
 
 ### Roadmap
 
@@ -357,7 +357,7 @@ explorable with Sentry](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/39
 [architecture]: /handbook/engineering/architecture/workflow/
 [categories]: /handbook/product/categories/
 [infra teams]: /handbook/engineering/infrastructure/team/
-[severity]: /handbook/engineering/quality/issue-triage/#availability
+[severity]: /handbook/engineering/infrastructure/engineering-productivity/issue-triage/#availability
 [okr]: /handbook/engineering/#engineering-okr-process
 [eng comms]: /handbook/engineering/#keeping-yourself-informed
 [SLA dashboard]: https://dashboards.gitlab.net/d/general-slas/general-slas?orgId=1&from=now-30d&to=now

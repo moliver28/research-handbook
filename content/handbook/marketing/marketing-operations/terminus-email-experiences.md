@@ -79,6 +79,7 @@ Terminus Email Experiences appends campaign banners to Outreach signatures every
 
 **Please note:** The campaigns you will see or not see depend on which employee group you are a part of and the settings of those particular campaigns. If a campaign has not been set up as an `Alternate` campaign, you will not see it in this view. Likewise, if you are part of a specific employee group or you are targeting an account or prospect that is part of a `Targeted` or `Sender` based campaign, your default banner would likely fall under those respective settings. **This extension applies to emails sent from Gmail only.**
 
+
 #### PathFactory
 
 Each campaign banner only points to one link. With PathFactory, you can use one link while providing additional content for the receipient to consume.
@@ -108,7 +109,6 @@ The demand generation and account-based marketing teams are primarily responsibl
 1. Follow the [normal procedure](#create-a-campaign) for creating a campaign.
 1. Once you are at the step for adding a link to your banner, select the URL dropdown and choose `PathFactory Experience`.
 1. From the pop-up window, select or search for your PathFactory track. Your PathFactory track should be fully QA'd and finalized before using in a Terminus campaign. 
-
 ### Notifications
 
 Select the type and frequency of system notifications from Terminus Email Experiences. Daily emails are sent every morning. Weekly emails are sent every Monday morning.

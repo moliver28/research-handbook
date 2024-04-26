@@ -64,12 +64,11 @@ This fundamental course is designed for pre-sales technical professionals such a
 
 ## <span class="colour" style="color: rgb(252, 109, 38);">Certifications for  Technical  Professionals</span>
 
-### <span class="colour" style="color: rgb(56, 13, 117);">GitLab Partner Technical Engineer (PTE)</span>
+### <span class="colour" style="color: rgb(56, 13, 117);">GitLab Professional Services Engineer (PSE)</span>
 
-GitLab Partner Technical Engineer (PTE) accreditation is a technical deep dive to help partners validate their ability to deliver implementation, migration, and consulting services to customers. This accreditation consists of six modules. Upon completion learners will possess the skills needed to deploy the GitLab Platform, migrate data to GitLab, and provide workflow advisory services for customers.
+GitLab Professional Services Engineer (PSE) accreditation is a technical deep dive to help partners validate their ability to deliver implementation, migration, and consulting services to customers. This accreditation consists of six modules. Upon completion learners will possess the skills needed to deploy the GitLab Platform, migrate data to GitLab, and provide workflow advisory services for customers.
 
-
-The Partner Technical Engineer learning pathway consists of 6 courses: Git Essentials, Project Management, CI/CD, Security, Implementation, and migration. There is a final exam at the end of the learning pathway, upon passing learners will be awarded the GitLab Partner Technical Engineer Accreditation.
+The Professional Services Engineer learning pathway consists of 6 courses: Git Essentials, Project Management, CI/CD, Security, Implementation, and migration. There is a final exam at the end of the learning pathway, upon passing learners will be awarded the GitLab Professional Services Engineer Accreditation.
 
 This learning pathway takes approximately 6 hours to complete.
 

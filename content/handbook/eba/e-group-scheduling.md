@@ -17,21 +17,23 @@ Before scheduling with an E-Group member, please be sure to reach out to their p
 
 ## Scheduling for Brian Robins, Chief Financial Officer
 
-- Daily office hours are 9am-5pm ET, please Do Not Book meetings outside of working hours unless arranged with Sr. EBA, Darci Tadich.
+- All meeting requests should go through the CFO’s Sr. EBA, Darci Tadich.
+- Daily office hours are 9am-5pm ET, with meetings scheduled between 11a and 5p ET. Please do not book meetings outside of working hours unless arranged with the Sr. EBA.
+- All meeting requests should include an agenda and any relevant reference material. Ensure that all participants on the invite have access to the agenda and materials. If the Sr. EBA does not have access to the agenda to confirm access, it is the responsibility of the meeting/agenda owner to ensure proper access is shared in advance of the meeting.
+- It should be made a priority for agendas to be populated 24 hours in advance. If that is not possible, at a minimum they should be populated by EOD prior to meeting. The CFO reviews all materials for the day during the hours of 7-9a ET in order to prepare for the day.
 - Do not schedule over DNB (Do Not Book).
-- Prefers “appropriate length” conversations, so short meetings are okay on the calendar. If a topic only needs 10 mins, book 10 mins instead of 30, etc.
-- Schedule two 30 minute blocks a day for work time - title “DNB / workflow”. This is time for email follow-up and general work time. If the time has to move to accommodate another meeting ensure another time is found and that daily workflow is still achieved.
+- Prefers “appropriate length” conversations, so short meetings are okay on the calendar. If a topic only needs 10 mins, book 10 mins instead of 25, etc.
+- Schedule two 30 minute blocks a day for work time - title “DNB”. This is time for email/Slack follow-up and general work time. If the time has to move to accommodate another meeting, ensure another time is found and that daily workflow is still achieved.
 - Schedule one 60 minute block a day for for lunch - title “DNB / lunch”. This is time for a lunch break, follow-up and general work time. If the time has to move to accommodate another meeting ensure another time is found and that daily lunch break is still achieved.
-- If you add any meetings to calendar directly, tick the box “Attendees can modify” so EBA can change if necessary.
-- Please do not @ Brian for scheduling questions or requests in Slack, please reach out his Sr. EBA.
-- Please do cc: @ Brian and his Sr. EBA with last minue scheduling changes in Slack.
-- All meeting requests should include an agenda or some sort of reference material.
-- During Zoom meetings please do not post information or questions in the chat, add it to the meeting doc or in slack.
-- Priority to candidate interviews, E-Group, GitLab BoD, Investor Relations and 1:1's.
-- When in-person meetings are being requested, please check with the CFO prior to scheduling the meeting.
-- For interviews: CES should tag Sr. EBA on Greenhouse to review times submitted by the candidate, or to provide times for the VP.
-- EBA to add reminders at 1 month, 2 weeks, 1 week and 2 days on the calendar for the following events: OKR How to Achieve, Group Conversations and Board of Director meetings.
-- A calendar key is available for viewing in the CFO's daily schedule.
+- If you add any meetings to the calendar directly, tick the box “Attendees can modify” so the Sr. EBA can change if necessary.
+- Please do not @ Brian for scheduling questions or requests in Slack, please reach out to his Sr. EBA.
+- Please do cc: @ Brian and his Sr. EBA with last minute scheduling changes in Slack.
+- During Zoom meetings please do not post information or questions in the chat, add it to the meeting doc or in Slack.
+- Priority to candidate interviews, E-Group, GitLab BoD, Investor Relations and 1:1’s.
+- When in-person meetings are being requested, please check with the CFO’s Sr. EBA prior to scheduling the meeting.
+- For candidate interviews: CES should tag the Sr. EBA in #eba-team-interview-requests to review times submitted by the candidate, or to provide alternate times for the CFO.
+- A calendar key is available for viewing in the CFO’s daily schedule.
+
 
 ## Scheduling for Stella Treas, Chief of Staff to the CEO
 

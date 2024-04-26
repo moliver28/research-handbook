@@ -1,0 +1,36 @@
+{{- $stages := partials.IncludeCached "data/stages" page }}
+{{- $team := partials.IncludeCached "data/team" page }}
+
+{{- $stageGroups := dict }}
+{{- range $stages }}
+    {{ $stageName := .display_name }}
+    {{- with .groups }}
+        {{- range . }}
+            {{- if .infra_reliability_team_tag }}
+                {{- $members := where $team "departments" "intersect" (slice .infra_reliability_team_tag) }}
+                {{- $stageGroups = merge $stageGroups (dict (printf "%s:%s" $stageName .name) (dict "group" .name "team" $members)) }}
+            {{- end }}
+        {{- end }}
+    {{- end }}
+{{- end }}
+
+<table>
+    <thead>
+        <tr>
+            <th>Stage Group</th>
+            <th>Reliability:Practices Team Members</th>
+        </tr>
+    </thead>
+    <tbody>
+        {{- range $k, $t := $stageGroups }}
+        <tr>
+            <td><a href="/handbook/product/categories#{{$t.group | anchorize}}-group">{{$k}}</a></td>
+            <td>
+                {{- range $t.team }}
+                {{ partial "member/with-team-link" . }}<br>
+                {{- end }}
+            </td>
+        </tr>
+        {{- end }}
+    </tbody>
+</table>
