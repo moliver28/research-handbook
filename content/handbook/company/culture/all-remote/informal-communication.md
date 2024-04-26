@@ -37,7 +37,11 @@ It's helpful to be transparent about your communication preferences so managers 
 
 ## Formally design informal communications
 
-{{% tweet user="sytses" id="1250946875143815168" %}}
+<!-- TODO: Replace with screenshots. -->
+
+> Sid Sijbrandij on [Twitter/X](https://twitter.com/sytses/status/1270721630537277442)
+>
+> When working remote it is important to formalize informal communication. Explicitly plan time to create, build, and maintain social connections and trust. In our handbook we list 15 methods https://about.gitlab.com/company/culture/all-remote/informal-communication/ which I'll summarize in this thread.
 
 ### Organize informal communication
 
@@ -77,7 +81,9 @@ Empowering people to fill their social quota *outside* of work, in local neighbo
 
 ## Create opportunity for chance meetings
 
-{{% tweet user="sytses" id="1270721630537277442" %}}
+> Sid Sijbrandij on [Twitter/X](https://twitter.com/sytses/status/1264341436138270720)
+>
+> Below is a thread about the future of remote work after the COVID-19 pandemic is over. I predict that remote will go through a trough of sorrow due to hybrid not working out, and most companies will return to being office based. But many all remote companies will see success.
 
 In colocated settings, unplanned encounters can lead to interesting ideas or hypotheses, which can sprout innovation. In remote settings, leadership should create opportunities for these "chance meetings" to still occur.
 
