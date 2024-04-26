@@ -62,6 +62,37 @@ important to those working within Zendesk:
 
 </details>
 <details>
+<summary>Organization Tags</summary>
+
+| Tag                            | What it means |
+|--------------------------------|---------------|
+| `greatly_expired`              | The organization is slated to be removed due to data rentention policies |
+| `not_in_sfdc`                  | The organization is not being controlled by the ZD-SFDC sync |
+| `partner_customer`             | The organization has purchased from an OEM partner |
+| `restricted_account`           | The SFDC account is classified as restricted and cannot receive support |
+| `sub_community_other`          | The organization has a community subscription which had an undetectable type |
+| `sub_consumption_ai`           | The organization has an AI subscription |
+| `sub_consumption_cicd_minutes` | The organization has a CI/CD minutes purchase |
+| `sub_consumption_eap`          | The organization has an Agile Planning addon |
+| `sub_consumption_storage`      | The organization has a storage purchase |
+| `sub_dotcom_bronze`            | The organization has a gitlab.com Bronze subscription |
+| `sub_dotcom_premium`           | The organization has a gitlab.com Premium subscription |
+| `sub_dotcom_ultimate`          | The organization has a gitlab.com Ultimate subscription |
+| `sub_edu`                      | The organization has an EDU community subscription |
+| `sub_gitlab_dedicated`         | The organization has a GitLab Dedicated subscription |
+| `sub_oss`                      | The organization has an OSS subscription |
+| `sub_other`                    | The organization has a subscription but the type could not be determined |
+| `sub_proserv`                  | The organization has a Proserv subscription |
+| `sub_sm_premium`               | The organization has a Self-Managed Premium subscription |
+| `sub_sm_starter`               | The organization has a Self-Managed Starter subscription |
+| `sub_sm_ultimate`              | The organization has a Self-Managed Ultimate subscription |
+| `sub_ss_ase`                   | The organization has an Assigned Support Engineer addon |
+| `sub_usgov_12x5`               | The organization has a US Government 12x5 subscription |
+| `sub_usgov_24x7`               | The organization has a US Government 24x7 subscription |
+
+
+</details>
+<details>
 <summary>Categorization tags</summary>
 
 | Tag                                                        | What it means                                                                             |
@@ -738,6 +769,36 @@ So an example:
 | `open_partner`        | Signifies the ticket is from an account labeled as Open Partner |
 | `select_partner`      | Signifies the ticket is from an account labeled as Select Partner |
 | `alliance_partner`    | Signifies the ticket is from an account labeled as Alliance Partner |
+
+</details>
+<details>
+<summary>Organization Tags</summary>
+
+| Tag                            | What it means |
+|--------------------------------|---------------|
+| `greatly_expired`              | The organization is slated to be removed due to data rentention policies |
+| `not_in_sfdc`                  | The organization is not being controlled by the ZD-SFDC sync |
+| `restricted_account`           | The SFDC account is classified as restricted and cannot receive support |
+| `sub_community_other`          | The organization has a community subscription which had an undetectable type |
+| `sub_consumption_ai`           | The organization has an AI subscription |
+| `sub_consumption_cicd_minutes` | The organization has a CI/CD minutes purchase |
+| `sub_consumption_eap`          | The organization has an Agile Planning addon |
+| `sub_consumption_storage`      | The organization has a storage purchase |
+| `sub_dotcom_bronze`            | The organization has a gitlab.com Bronze subscription |
+| `sub_dotcom_premium`           | The organization has a gitlab.com Premium subscription |
+| `sub_dotcom_ultimate`          | The organization has a gitlab.com Ultimate subscription |
+| `sub_edu`                      | The organization has an EDU community subscription |
+| `sub_gitlab_dedicated`         | The organization has a GitLab Dedicated subscription |
+| `sub_oss`                      | The organization has an OSS subscription |
+| `sub_other`                    | The organization has a subscription but the type could not be determined |
+| `sub_proserv`                  | The organization has a Proserv subscription |
+| `sub_sm_premium`               | The organization has a Self-Managed Premium subscription |
+| `sub_sm_starter`               | The organization has a Self-Managed Starter subscription |
+| `sub_sm_ultimate`              | The organization has a Self-Managed Ultimate subscription |
+| `sub_ss_ase`                   | The organization has an Assigned Support Engineer addon |
+| `sub_usgov_12x5`               | The organization has a US Government 12x5 subscription |
+| `sub_usgov_24x7`               | The organization has a US Government 24x7 subscription |
+
 
 </details>
 <details>
