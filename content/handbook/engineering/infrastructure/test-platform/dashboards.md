@@ -17,7 +17,8 @@ description: "This handbook page serves as a central repository for all our Test
 |                         | [Test Infra Availability (E2E Test)](https://dashboards.gitlab.net/d/ci-runners-incident-runner-manager/ci-runners3a-incident-support3a-runner-manager?orgId=1&var-PROMETHEUS_DS=PA258B30F88C30650&var-environment=gprd&var-stage=main&var-type=qa-runners&var-shard=All&var-runner_manager=All&var-project_jobs_running=All&var-runner_job_failure_reason=All&from=1713952860000&to=1713963719999&viewPanel=11) | Dashboard indicating the current availability of E2E test infrastructure. |                  |
 | Test Contribution       | [Developer Contribution To E2E Tests](https://10az.online.tableau.com/#/site/gitlab/views/TestPlatformDeveloperContributionDashboard/TestPlatformDeveloperContributionDashboard?:iid=2) | Tracking developer engagement and contributions to E2E tests. | [Test Engineering team](test-engineering-team)  |
 | Performance Testing     | [TBD](#)                             | Real-time and historical performance testing results.         | [Self-Managed Platform team](self-managed-platform-team)   |
-| Bug Tracking            | [TBD](#)                             | Dynamic tracking of bugs with status updates and trends.      | [Test Engineering team](test-engineering-team)          |
+| Bug Tracking            | [Customer Bugs](https://10az.online.tableau.com/#/site/gitlab/views/OpenBugAgeOBA/CustomerBugsDashboard?:iid=1) | Dynamic tracking of Customer bugs            | [Test Engineering team](test-engineering-team) |
+|                         | [Bug Prioritization](https://10az.online.tableau.com/#/site/gitlab/views/OpenBugAgeOBA/BugPrioritizationDashboard?:iid=1) | Bug prioritization based on burndown trends | [Test Engineering team](test-engineering-team) |
 
 
 ## Contributing to the Dashboards
