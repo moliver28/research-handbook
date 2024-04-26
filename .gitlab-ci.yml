@@ -35,7 +35,7 @@ stages:
   - export AWS_SESSION_TOKEN="${STS[2]}"
 
 include:
-  - template: Security/Secret-Detection.gitlab-ci.yml
+  - component: gitlab.com/components/secret-detection/secret-detection@~latest
   - component: gitlab.com/gitlab-org/components/danger-review/danger-review@~latest
 
 default:
@@ -106,6 +106,7 @@ pages-review:
     name: review/$CI_COMMIT_REF_SLUG
     # There is no predefined CI variable that is formatted quite right
     # neither $CI_PAGES_URL nor $CI_JOB_URL have /-/ directly after the hostname
+    # TODO @dnsmichi improve and make review apps work https://gitlab.com/groups/gitlab-com/content-sites/-/epics/11 
     url: https://gitlab-com.gitlab.io/-/content-sites/handbook/-/jobs/$CI_JOB_ID/artifacts/public/
     on_stop: stop-pages-review
   variables:
@@ -129,12 +130,17 @@ stop-pages-review:
 
 pages:
   extends: [.hugo]
+  environment:
+    # tracking DORA deployment frequency
+    name: production
+    deployment_tier: production
   rules:
     # Only run the deploy on the default branch. If you want to deploy from Merge Request branches,
     # you can use Review Apps: https://docs.gitlab.com/ee/ci/review_apps
     - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
     - if: '$CI_PIPELINE_SOURCE == "schedule" && $SCHEDULED_DEPLOY == "true"'
 
+# TODO @dnsmichi: What does this job do?
 deploy s3:
     stage: deploy
     needs:
@@ -213,7 +219,7 @@ hugolint:
     - if: $CI_PIPELINE_SOURCE == 'merge_request_event'
       allow_failure: true
   image:
-    name: registry.gitlab.com/fforster/hugolint:main
+    name: registry.gitlab.com/gitlab-com/content-sites/handbook-tools/hugolint:latest
   script:
     - hugolint linkcheck --format=json $(find content -type f -name '*.md' | grep -v ' ') >linkcheck.json
     - hugolint missinglinks --num 30 $(find content -name '*.md' | grep -v ' ') >missinglinks.txt 2>/dev/null
