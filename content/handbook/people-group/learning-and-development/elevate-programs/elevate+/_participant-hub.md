@@ -14,8 +14,8 @@ Navigate to frequently used links for Elevate+ below:
 
 <div class="flex-row" markdown="0">
   <div>
-    <a href= "https://gitlab.com/gitlab-people-elevate/elevate-plus-round-1/-/boards">Intersession Work - Cohorts 1, 2, and 3</a>
-    <a href= "https://gitlab.com/gitlab-people-elevate/elevate-plus-round-2/-/boards">Intersession Work - Cohorts 4, 5, and 6</a>
+    <a href= "https://gitlab.com/gitlab-people-elevate/elevate-plus-round-1/-/boards" class="btn btn-primary" style="width:200px;margin:5px;">Intersession Work - Cohorts 1, 2, and 3</a>
+    <a href= "https://gitlab.com/gitlab-people-elevate/elevate-plus-round-2/-/boards" class="btn btn-primary" style="width:200px;margin:5px;">Intersession Work - Cohorts 4, 5, and 6</a>
     <a href= "https://handbook.gitlab.com/handbook/people-group/learning-and-development/elevate-programs/elevate+/" class="btn btn-primary" style="width:200px;margin:5px;">Elevate+ Overview Handbook Page</a>
   </div>
 </div>
@@ -69,9 +69,15 @@ During Module 1, you will:
 1. [Module 1 Feedback Form](https://docs.google.com/forms/d/e/1FAIpQLScug6g0ZA03-qTzVLYpJ6gjxg39WAl6x9bOaqg9A1yR8qzgnw/viewform?usp=sf_link)
 
 
-## Module 2:
+## Module 2: Leading to Empower
 
-*More information to be added soon.*
+During Module 2, you will:
+
+1. Explore why it is so important to develop your team members
+1. Reflect on how position power shows up in your relationships and leadership 
+1. Align on why coaching is so important, what a foundational coaching model looks like, and key coaching frameworks to utilize 
+1. Learn best practices for creating a Culture of Feedback
+1. Revisit the resources at GitLab for support with managing underperformance 
 
 **Key Links**
 
