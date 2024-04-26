@@ -63,7 +63,7 @@ In this lab we will use GitLab to create a project, an issue, and a merge reques
 
 1. In the merge request description, note the text: **Closes #1**. This description ensures that merging the merge request will also automatically close the issue it is associated with.
 
-   > Note: Your description may show a different number beside the `#` character. This number will match the issue number that the merge request was opened from.
+   > Your description may show a different number beside the `#` character. This number will match the issue number that the merge request was opened from.
 
 1. Leave all the merge request fields at their default values.
 
@@ -105,7 +105,7 @@ After creating the merge request, you now have 3 linked items that all relate on
 
 1. You should see notification box that says `Success! Your changes have been committed` in the bottom right corner of the screen. Click the **Go to project** option from the notification box in the bottom right corner.
 
-   > Note: If this dialog box disappears, you can get back to the project by clicking the GitLab icon on the bottom left of the screen. When you click this button a dialog will appear in the middle of the screen with various options. Click `Go to Second Project project on GitLab`.
+   > If this dialog box disappears, you can get back to the project by clicking the GitLab icon on the bottom left of the screen. When you click this button a dialog will appear in the middle of the screen with various options. Click `Go to Second Project project on GitLab`.
 
 1. From the project landing page, click **Code > Merge requests**. Click the name of your merge request.
 
@@ -120,7 +120,7 @@ the screen to expand the pane). Ensure the merge request is assigned to yourself
 
 1. In the comment field, type `This is a comment` and click **Start a review**.
 
-   > Note: When you start a review, your comments will only be visible to you until you submit the review.
+   > When you start a review, your comments will only be visible to you until you submit the review.
 
 1. You’d normally add more comments to your review before submitting them all at once, but for this lab just click the **Finish review** button.
 
