@@ -26,7 +26,7 @@ Blogs fall into the following categories:
 
 Partner, alliance, and customer contributor guidelines can be found [here](https://docs.google.com/document/d/10Xb4qnZNedhPzNNRTByH7fgvNzlo5Bc5Rz1TiuHtPxE/edit?usp=sharing).
 
-## How to suggest a blog idea - NEW PROCESS
+## How to suggest a blog idea - NEW PROCESS {#how-to-suggest-a-blog-post}
 
 Please create an issue using the [blog submission template](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/content-strategy-and-ops/blog/-/issues/new?issuable_template=blog-post-submission).
 
