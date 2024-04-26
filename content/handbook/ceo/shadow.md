@@ -129,13 +129,9 @@ For those with regular commitments, look for shorter weeks or timezone variation
 
 | Start date | End date | See one | Teach one | Schedule Notes |
 | ---------- | -------- | ------- | --------- | -------------- |
-| 2024-04-01 | 2024-04-05 | [Jeremy Wagner](https://gitlab.com/jeremywagner) - Sr Solutions Architect | [Miracle Banks](https://gitlab.com/miraclebanks) - Full Stack Engineer | REMOTE - PT |
-| 2024-04-08 | 2024-04-12 | [Karen Kwentus](https://gitlab.com/kkwentus1) - Sr Solutions Architect | [Jeremy Wagner](https://gitlab.com/jeremywagner) - Sr Solutions Architect | REMOTE - PT - Light Shadow week due to travel |
-| 2024-04-15 | 2024-04-19 | NO SHADOW | NO SHADOW | CEO OOO |
-| 2024-04-22 | 2024-04-26 | Kelsey Turcotte  | [Karen Kwentus](https://gitlab.com/kkwentus1) - Sr Solutions Architect | REMOTE - PT |
 | 2024-04-29 | 2024-05-03 | [Indre Kryzeviciene](https://gitlab.com/ikryzeviciene) - Staff Marketing Campaigns Manager | [Ian Pedowitz](https://gitlab.com/ipedowitz) - Director, Strategy and Operations (Limited availability Thursday after 12pm PT due to an already scheduled flight)  | REMOTE - PT, MON - THURS |
-| 2024-05-06 | 2024-05-10 | OPEN | [Indre Kryzeviciene](https://gitlab.com/ikryzeviciene) - Staff Marketing Campaigns Manager | REMOTE - PT, MON, FRI |
-| 2024-05-13 | 2024-05-17 | [Djordje Micovic](https://gitlab.com/dmicovic) - Staff Data Analyst, Marketing Analytics | OPEN | REMOTE - PT, MON - TUES |
+| 2024-05-06 | 2024-05-10 | Karen Murphy - Chief Editorial Officer, Sijbrandij Family Office | [Indre Kryzeviciene](https://gitlab.com/ikryzeviciene) - Staff Marketing Campaigns Manager | REMOTE - PT, MON, FRI |
+| 2024-05-13 | 2024-05-17 | [Djordje Micovic](https://gitlab.com/dmicovic) - Staff Data Analyst, Marketing Analytics | Karen Murphy - Chief Editorial Officer, Sijbrandij Family Office | REMOTE - PT, MON - TUES |
 | 2024-05-20 | 2024-05-24 | NO SHADOW | NO SHADOW | PRESIDENT'S CLUB |
 | 2024-05-27 | 2024-05-31 | [Rigerta Demiri](https://gitlab.com/Rigerta) - Senior Data Engineer, Data | [Djordje Micovic](https://gitlab.com/dmicovic) - Staff Data Analyst, Marketing Analytics | REMOTE - PT |
 | 2024-06-03 | 2024-06-07 | [Christopher Wang](https://gitlab.com/cs.wang) - Sr. Manager - Enablement and Strategy (Sales Development) | [Rigerta Demiri](https://gitlab.com/Rigerta) - Senior Data Engineer, Data | REMOTE - PT |
@@ -143,10 +139,24 @@ For those with regular commitments, look for shorter weeks or timezone variation
 | 2024-06-17 | 2024-06-21 | [Stacy Cline](https://gitlab.com/slcline) - Sr Director, ESG | [Camilo Villanueva Santiago](https://gitlab.com/cvillanueva1) - Sr. Enterprise Renewals Manager | REMOTE - PT |
 | 2024-06-24 | 2024-06-27 | [Sherrod Patching](https://gitlab.com/spatching) - VP, Customer Success | [Emilio Salvador](@esalvadorp) - VP Developer Relations & Community | In Person - East Coast |
 | 2024-07-01 | 2024-07-05 | NO SHADOW | NO SHADOW | CEO OOO |
-| 2024-07-08 | 2024-07-12 | [Sam Wiskow - Senior Product Manager, Delivery & Scalability](https://gitlab.com/swiskow) | [David Tuan](https://gitlab.com/dtuan) - Director, Strategy and Operations | TBD - Possible limited week/travel in EMEA |
+| 2024-07-08 | 2024-07-12 | [Sam Wiskow - Senior Product Manager, Delivery & Scalability](https://gitlab.com/swiskow) | [David Tuan](https://gitlab.com/dtuan) - Director, Strategy and Operations | limited week/travel in EMEA |
 | 2024-07-15 | 2024-07-19 |  [Kristine Setschin](https://gitlab.com/KSetschin) - Sr. Manager Regional Marketing, EMEA | [Sam Wiskow - Senior Product Manager, Delivery & Scalability](https://gitlab.com/swiskow) | REMOTE - PT |
 | 2024-07-22 | 2024-07-26 |  [Lesley Razzaghian](https://gitlab.com/lesley-r) - Backend Engineer | [Kristine Setschin](https://gitlab.com/KSetschin) - Sr. Manager Regional Marketing, EMEA | REMOTE - PT |
-| 2024-07-29 | 2024-08-02 |  OPEN | [Lesley Razzaghian](https://gitlab.com/lesley-r) - Backend Engineer | REMOTE - PT |
+| 2024-07-29 | 2024-08-02 |  Ivan French - CEO, Sijbrandij Foundation | [Lesley Razzaghian](https://gitlab.com/lesley-r) - Backend Engineer | REMOTE - PT |
+| 2024-07-29 | 2024-08-02 |  OPEN | Ivan French - CEO, Sijbrandij Foundation | REMOTE - PT |
+| 2024-08-05 | 2024-08-09 |  OPEN | OPEN | REMOTE - CT - limited week due to MS conference |
+| 2024-08-12 | 2024-08-16 |  OPEN | OPEN | REMOTE - PT |
+| 2024-08-19 | 2024-08-23 |  OPEN | OPEN | REMOTE - PT - limited week (M-W)|
+| 2024-08-26 | 2024-08-30 |  OPEN | OPEN | REMOTE - PT |
+| 2024-09-02 | 2024-09-06 |  OPEN | OPEN | REMOTE - PT |
+| 2024-09-09 | 2024-09-13 |  OPEN | OPEN | REMOTE - PT - limited week due to conference / f&f day |
+| 2024-09-16 | 2024-09-20 |  OPEN | OPEN | REMOTE - PT |
+| 2024-09-23 | 2024-09-27 |  VP-DIRECTS ONLY | VP-DIRECTS ONLY  | In person - San Francisco |
+| 2024-09-30 | 2024-10-04 |  OPEN | OPEN | REMOTE - PT |
+| 2024-10-07 | 2024-10-11 |  OPEN | OPEN | REMOTE - PT |
+| 2024-10-14 | 2024-10-18 |  OPEN | OPEN | REMOTE - PT - very limited week due to multiple conferences |
+| 2024-10-21 | 2024-10-25 |  OPEN | OPEN | REMOTE - PT |
+| 2024-10-28 | 2024-11-01 |  OPEN | OPEN | REMOTE - PT |
 
 If you have questions regarding the planned rotation schedule, please ping the [EBA to the CEO]({{< ref "eba#executive-business-administrator-team" >}}) and [Chief of Staff to the CEO]({{< ref chief-of-staff >}}) in the `#ceo-shadow` Slack channel. The CoS and EBA to the CEO manage the rotation schedule. Please do not add new dates to the schedule when adding in your rotation. The CEO's schedule is subject to constant change and your rotation may need to be rescheduled.
 
@@ -824,5 +834,8 @@ CEO Shadow Program alumni are welcome to join the `#ceo-shadow-alumni` Slack cha
 | 2024-02-26 | 2024-03-08 | [Viktor Nagy](https://gitlab.com/nagyv-gitlab) | Senior Product Manager, Deploy:Environments | |
 | 2024-03-04 | 2024-03-22 |  [Aleesha Dawson](https://gitlab.com/adawson-gitlab) | Senior Customer Success Manager | |
 | 2024-03-25 | 2024-03-29 | [Bartek Marnane](https://gitlab.com/bmarnane) | VP, Incubation Engineering | |
-| 2024-03-25 | 2024-03-29 | [Mek Stittri](https://gitlab.com/meks) - VP of Infrastructure & Quality | |
+| 2024-03-25 | 2024-03-29 | [Mek Stittri](https://gitlab.com/meks) | VP of Infrastructure & Quality | |
 | 2024-03-18 | 2024-04-05 | [Miracle Banks](https://gitlab.com/miraclebanks) | Full Stack Engineer | |
+| 2024-04-01 | 2024-04-12 | [Jeremy Wagner](https://gitlab.com/jeremywagner) | Sr Solutions Architect | |
+| 2024-04-08 | 2024-04-26 | [Karen Kwentus](https://gitlab.com/kkwentus1) | Sr Solutions Architect | |
+| 2024-04-22 | 2024-04-26 | Kelsey Turcotte  | VP, Investor Relations | REMOTE - PT |
