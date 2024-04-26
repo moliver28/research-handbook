@@ -108,7 +108,7 @@ Helpful prompts can be found in the Figjam template [interview guide](https://ww
 
 After interviews are complete, sythesize all the information together to complete your JTBD Canvas. Include elements you hear most often and discard outliers, tangents, or uncommen circumstances. 
 
-When possible, collaborate with your Section's UX Researcher as experience in qualitative [data synthesis](https://handbook.gitlab.com/handbook/product/ux/ux-research/analyzing-research-data/) is helpful.
+When possible, collaborate with your Section's UX Researcher as experience in qualitative [data synthesis](/handbook/product/ux/ux-research/analyzing-research-data/) is helpful.
 
 #### Exercise 1. Complete the Job Map
 
