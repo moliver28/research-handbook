@@ -364,7 +364,7 @@ In situations when someone asks others to vocalize their question, shadows are i
 
 Shadows should notify GitLab meeting participants if their [name and job title](/handbook/tools-and-tips/zoom.md#adding-your-title-to-your-name) are not mentioned on Zoom.
 
-If a GitLab team member is sharing their screen before introductions have occurred, shadows should remind GitLab presenters that GitLab does not [recommend sharing screens during zoom meetings](/handbook/tools-and-tips/zoom.md#sharing-your-screen-in-zoom) and to please wait until after introductions have been completed to allow participants to see each other clearly during introductions. This is especially important during external calls when participants are meeting each other for the first time.
+If a GitLab team member is sharing their screen before introductions have occurred, shadows should remind GitLab presenters that GitLab does not [recommend sharing screens during zoom meetings](/handbook/tools-and-tips/zoom/#sharing-your-screen-in-zoom) and to please wait until after introductions have been completed to allow participants to see each other clearly during introductions. This is especially important during external calls when participants are meeting each other for the first time.
 
 If you notice that someone does not have their picture set in Google when a Google document is being actively worked on, [let them know how to set one](https://myaccount.google.com/personal-info) so their picture will show up in the document rather than their first initial. That makes it easier for everyone to find where they are in the document, especially when they are speaking. Let them know that this is 100% optional.
 
@@ -377,7 +377,7 @@ When attending **external meetings**, notify the CEO in a private Zoom chat mess
 
 In internal meetings, `I think` can be used to signal opportunity for others to present a contrasting opinion.
 
-Also send a private Zoom chat message when the [CEO displays other flawed behavior]({{< ref "ceo#flaws ">}}").
+Also send a private Zoom chat message when the [CEO displays other flawed behavior]({{< ref "ceo#flaws">}}").
 
 #### Share thanks
 
