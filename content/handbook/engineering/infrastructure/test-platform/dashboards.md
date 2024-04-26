@@ -1,11 +1,9 @@
 ---
 title: "Test Platform Dashboards"
-description: "This handbook page serves as a central repository for all our test platform dashboard details"
+description: "This handbook page serves as a central repository for all our Test Platform dashboard details"
 ---
 
-
-
-> In pursuit of a resilient, efficient, and fortified platform, our Test Platform sub-department provides instrumental support through the creation and maintenance of an array of dashboards. These critical tools capture detailed test health acros the environments, flag performance anomalies, and contribute to rigorous test infrastructure. 
+> In pursuit of a resilient, efficient, and fortified platform, our Test Platform sub-department provides instrumental support through the creation and maintenance of an array of dashboards. These critical tools capture detailed test health across the environments, flag performance anomalies, and contribute to rigorous test infrastructure. 
 
 ## Dashboards
 
@@ -24,4 +22,4 @@ description: "This handbook page serves as a central repository for all our test
 
 ## Contributing to the Dashboards
 
-For any queries or suggestions regarding the dashboard, please reach out to the respective DRI or submit an issue in our tracking system.
+If you have any questions or suggestions about the dashboard, please contact the respective DRI or submit an issue in our [tracking system](https://gitlab.com/gitlab-org/quality/quality-engineering/team-tasks/-/issues/new).
