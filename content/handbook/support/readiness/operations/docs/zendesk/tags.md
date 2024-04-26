@@ -643,6 +643,41 @@ important to those working within Zendesk:
 
 </details>
 <details>
+<summary>Resolution Code Tags</summary>
+
+| Tag                             | What it means |
+|---------------------------------|---------------|
+| `support_rc_bug`                 | The Support form resolution code for the ticket is "Product bug" |
+| `support_rc_incident`            | The Support form resolution code for the ticket is "Incident" |
+| `support_rc_bad_docs`            | The Support form resolution code for the ticket is "Insufficient Documentation" |
+| `support_rc_performance`         | The Support form resolution code for the ticket is "Capacity / Performance" |
+| `support_rc_feature_request`     | The Support form resolution code for the ticket is "Feature request" |
+| `support_rc_edu_or_config`       | The Support form resolution code for the ticket is "User education / Configuration change" |
+| `support_rc_oos`                 | The Support form resolution code for the ticket is "Unsupported / 3rd party" |
+| `support_rc_dupe`                | The Support form resolution code for the ticket is "Duplicate" |
+| `support_rc_no_response`         | The Support form resolution code for the ticket is "No response" |
+| `support_rc_none`                | The Support form resolution code for the ticket is "No resolution code entered" |
+| `support_rc_other`               | The Support form resolution code for the ticket is "Other" |
+| `saas_account_rc_bug`            | The SaaS Account form resolution code for the ticket is "Product bug" |
+| `saas_account_rc_2fa`            | The SaaS Account form resolution code for the ticket is "2FA" |
+| `saas_account_rc_account_access` | The SaaS Account form resolution code for the ticket is "Account Access" |
+| `saas_account_rc_namesquatting`  | The SaaS Account form resolution code for the ticket is "Namesquatting" |
+| `saas_account_rc_edu_or_config`  | The SaaS Account form resolution code for the ticket is "User education / Configuration change" |
+| `saas_account_rc_dupe`           | The SaaS Account form resolution code for the ticket is "Duplicate" |
+| `saas_account_rc_no_response`    | The SaaS Account form resolution code for the ticket is "No response" |
+| `saas_account_rc_none`           | The SaaS Account form resolution code for the ticket is "No resolution code entered" |
+| `saas_account_rc_other`          | The SaaS Account form resolution code for the ticket is "Other" |
+| `lnr_rc_bug`                     | The L&R form resolution code for the ticket is "Product bug" |
+| `lnr_rc_license_resent`          | The L&R form resolution code for the ticket is "License resent" |
+| `lnr_rc_portal_Access`           | The L&R form resolution code for the ticket is "Portal access" |
+| `lnr_rc_edu_or_config`           | The L&R form resolution code for the ticket is "User education / Configuration change" |
+| `lnr_rc_dupe`                    | The L&R form resolution code for the ticket is "Duplicate" |
+| `lnr_rc_no_response`             | The L&R form resolution code for the ticket is "No response" |
+| `lnr_rc_none`                    | The L&R form resolution code for the ticket is "No resolution code entered" |
+| `lnr_rc_other`                   | The L&R form resolution code for the ticket is "Other" |
+
+</details>
+<details>
 <summary>Other Notable Tags</summary>
 
 | Tag                              | What it means |
