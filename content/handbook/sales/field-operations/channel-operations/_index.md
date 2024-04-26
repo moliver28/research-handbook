@@ -405,7 +405,7 @@ The Partner Sourced Deal Registration program rewards partners for bringing net-
 
 Refer to the following sections for step-by-step instructions on how to process each registration type: [Resale](/handbook/sales/field-operations/channel-operations/#partner-sourced-deal-registration-resale-opportunities), [MSP](/handbook/sales/field-operations/channel-operations/#partner-sourced-deal-registration-msp-opportunities), and [Referral](/handbook/sales/field-operations/channel-operations/#partner-sourced-deal-registration-referral-opportunities).
 
-GitLab’s Partner Managers, Sales Reps, and Area Sales Managers collaborate to review and action Partner Sourced Deal Registration submissions. Refer to the [Partner Sourced Deal Registration: How it Works](/handbook/sales/field-operations/channel-operations/#partner-sourced-deal-registration-how-it-works) section for details on the review and approval process.
+GitLab’s Partner Territory Managers, Sales Reps, and Area Sales Managers collaborate to review and action Partner Sourced Deal Registration submissions. Refer to the [Partner Sourced Deal Registration: How it Works](/handbook/sales/field-operations/channel-operations/#partner-sourced-deal-registration-how-it-works) section for details on the review and approval process.
 
 **The SLA for GitLab to communicate with partners on a Partner Sourced Deal Registration is two business days. There must be contact with the registering partner within two business days, whether it be initial outreach to discuss the registration, a request for more information, approval, or rejection.**
 
@@ -430,13 +430,13 @@ The Managed Services team reviews the registration after it is submitted by the 
 
 The Partner Manager on the registration is automatically assigned as the `Account Owner` of the Partner Account in SFDC. GitLab’s Managed Services team will reassign the registration to the correct Partner Manager as part of their review in cases where adjustment is required to align the appropriate Partner Manager based on customer account territory or ownership. The Managed Services team has a 2 hour SLA to action registrations within their working hours of 8am to 6pm ET, Monday through Friday.
 
-**GitLab Partner Manager**
+**GitLab Partner Territory Manager**
 
-The Partner Manager receives an email notification to review the Partner Sourced Deal Registration once the Managed Services Team has actioned the registration and submitted it for approval (`DR-Status` = “Pending Sales Review”). Partner Managers can also view registrations in their list view within the SFDC Registration tab. The Partner Manager is responsible for reviewing the registration and communicating with the applicable GitLab Sales Rep and ASM during this process. The Partner Manager must either approve, reject, or return the registration for additional information after completing their review. If they approve, it will automatically be sent to the appropriate ASM for final review.
+The Partner Territory Manager receives an email notification to review the Partner Sourced Deal Registration once the Managed Services Team has actioned the registration and submitted it for approval (`DR-Status` = “Pending Sales Review”). Partner Territory Managers can also view registrations in their list view within the SFDC Registration tab. The Partner Territory Manager is responsible for reviewing the registration and communicating with the applicable GitLab Sales Rep and ASM during this process. The Partner Territory Manager must either approve, reject, or return the registration for additional information after completing their review. If they approve, it will automatically be sent to the appropriate ASM for final review.
 
 **GitLab Area Sales Manager (ASM)**
 
-The GitLab ASM for the opportunity is responsible for final review of any Partner Sourced Deal Registration approved by a Partner Manager, and must either approve, reject, or return the registration for additional information. The ASM receives an email notification to review the registration only if/when the Partner Manager approves (`DR-Status` = “Pending ASM Review”). ASMs can also view registrations in their list view within the SFDC Registration tab.
+The GitLab ASM for the opportunity is responsible for final review of any Partner Sourced Deal Registration approved by a Partner Territory Manager, and must either approve, reject, or return the registration for additional information. The ASM receives an email notification to review the registration only if/when the Partner Territory Manager approves (`DR-Status` = “Pending ASM Review”). ASMs can also view registrations in their list view within the SFDC Registration tab.
 
 ****Alliance and GSI Partners**
 
@@ -456,13 +456,13 @@ The steps below outline how a Partner Sourced Deal Registration is submitted on 
   - Only one partner can earn a Partner Sourced discount per opportunity. Partners will generally receive the Co-Sell discount rate if they do not have an approved Partner Sourced Deal Registration.
 - **Approval Criteria**
   - Partner Sourced Deal Registration approval is based on who sourced that particular opportunity. If the partner brought us the deal, then the registration should be approved. For clarity, it is not about first touch with the customer, but the actual creation/conversion of an opportunity.
-  - The GitLab Partner Manager should communicate and align with the GitLab Sales Rep and ASM prior to approving or rejecting the Deal Registration.
-  - The GitLab ASM should communicate and align with the GitLab Partner Manager and Sales Rep prior to approving or rejecting the Deal Registration.
+  - The GitLab Partner Territory Manager checks Salesforce to see if the GitLab account team is already actively working on the opportunity. If no opportunity is found and the informmation provided withinn the Deal Registration is robust, the Partner Territory Manager should approve the Deal Registration. 
+  - The GitLab ASM reviews the Deal Registration approved by the Partner Territory Manager. He/she will then approve, reject or ask for additional information about the Deal Registration.
 - **GitLab SLAs**
   - The SLA for GitLab to communicate with partners on a Partner Sourced Deal Registration is two business days. There must be contact with the registering partner within two business days, whether it be initial outreach to discuss the registration, a request for more information, approval, or rejection.
-  - The GitLab ASM has one business day to either approve or reject the Registration, which begins when the Registration hits their queue for approval. The ASM *must* communicate with the GitLab Partner Manager if their approval is anticipated to push beyond the one business day SLA.
+  - The GitLab ASM has one business day to either approve or reject the Registration, which begins when the Registration hits their queue for approval. The ASM *must* communicate with the GitLab Partner Territory Manager if their approval is anticipated to push beyond the one business day SLA.
 - **Identify and Notify Backup Approvers**
-  - GitLab Partner Managers and ASMs should *always* identify a backup approver prior to being out of office. This ensures approval requests can be actioned in your absence, and is crucial to meeting our SLAs (see **GitLab SLAs** above).
+  - GitLab Partner Territory Managers and ASMs should *always* identify a backup approver prior to being out of office. This ensures approval requests can be actioned in your absence, and is crucial to meeting our SLAs (see **GitLab SLAs** above).
   - Partner Managers
     - Communicate that you will be out of office to your backup approver. The backup approver should monitor the `Pending Deal Reg's by PM` component of their [Partner Forecast Dashboard](/handbook/sales/field-operations/channel-operations/#partner-forecast-salesforce-dashboards) to identify and action Deal Registrations in Pending Sales Review for the Partner Manager they are covering.
     - If you find an ASM is out of office while communicating with the Sales Rep and ASM during your approval process (see **Approval Criteria** above), align with their backup approver. If you approve the Deal Registration, chatter the backup approver to request their final approval on the record, as aligned to your discussion.
