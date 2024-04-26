@@ -1,6 +1,6 @@
 ---
 title: "GitLab Security Essentials - Hands-On Lab: Enable and Configure License Compliance"
-description: "This Hands-On Guide walks you through the lab exercises used in the GitLab Security Essentials course."
+description: "This Hands-On Guide walks you through enabling and using License Compliance in a GitLab project."
 ---
 
 > Estimated time to complete: 15 minutes

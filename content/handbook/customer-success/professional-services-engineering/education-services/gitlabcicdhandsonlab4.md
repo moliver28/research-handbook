@@ -1,6 +1,6 @@
 ---
 title: "GitLab CI/CD - Hands-On Lab: Display Pipeline Info"
-description: "This Hands-On Guide walks you through the lab exercises in the GitLab CI/CD course."
+description: "This Hands-On Guide walks you through the variables used inside a GitLab Runner"
 ---
 
 > Estimate time to complete: 15 - 20 minutes

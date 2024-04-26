@@ -1,6 +1,6 @@
 ---
 title: "GitLab Security Essentials - Hands-On Lab: Configure SAST, Secret Detection, and DAST"
-description: "This Hands-On Guide walks you through the lab exercises used in the GitLab Security Essentials course."
+description: "This Hands-On Guide walks you through using SAST, Secret Detection, and DAST scans in a GitLab project."
 ---
 
 > Estimated time to complete: 45 to 60 minutes
@@ -23,7 +23,7 @@ Please take time to understand any code that you are asked to copy and paste in 
 
 1. Select **Provision Training Environment**.
 
-> Note: The login details for accessing the environment are slightly different between self-paced training and instructor-led training. Please follow the instructions that suit your needs. 
+> The login details for accessing the environment are slightly different between self-paced training and instructor-led training. Please follow the instructions that suit your needs. 
 
 ### Self-Paced Training:
 
@@ -308,7 +308,7 @@ Please take time to understand any code that you are asked to copy and paste in 
 
 5. You have already learned how to commit your changes to a new branch and create a merge request. Commit your changes to the `add_secret_detection` target branch. The commit message can be left at default or updated to `Add Secret Detection to .gitlab-ci.yml`. For single commit branches, the commit message is used as the merge request title.
 
-    > Note: If you look at the security report on this merge request, you will notice that no vulnerabilities have been detected. This occurs because the secrets in `main.py` already exist in the main branch. The scan that occurs in the merge request will only show vulnerabilities that are newly introduced in the merge request. To see existing vulnerabilities, you will need to look at the project level vulnerability report covered in the next section.
+    > If you look at the security report on this merge request, you will notice that no vulnerabilities have been detected. This occurs because the secrets in `main.py` already exist in the main branch. The scan that occurs in the merge request will only show vulnerabilities that are newly introduced in the merge request. To see existing vulnerabilities, you will need to look at the project level vulnerability report covered in the next section.
 
 6. Click the `Merge` button on your merge request after the pipeline passes.
 

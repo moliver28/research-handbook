@@ -1,6 +1,6 @@
 ---
 title: "GitLab Project Management - Hands-On Lab: Create And Manage A Scrum Board"
-description: "This Hands-On Guide walks you through the lab exercises used in the GitLab Project Management course."
+description: "This Hands-On Guide walks you through creating and managing a Scrum board via an issue board."
 ---
 
 > Estimated time to complete: 30 minutes
@@ -52,13 +52,13 @@ In this lab you'll configure a Scrum board and populate it with the same issues 
 
 1. Select `2` as the number of iterations in the **Upcoming Iterations** section.
 
-   > Note: For the purposes of this lab, we will not worry about rollover, so there is no need to mark it.
+   > For the purposes of this lab, we will not worry about rollover, so there is no need to mark it.
 
 1. Click **Create cadence**.
 
 ## Task D. Add some issues to the next sprint
 
-> Note: This step simulates the "sprint planning" ceremony, where your team decides which issues it will work on in the upcoming sprint.
+> This step simulates the "sprint planning" ceremony, where your team decides which issues it will work on in the upcoming sprint.
 
 1. Navigate to the **Awesome Software** project.
 
@@ -90,7 +90,7 @@ In this lab you'll configure a Scrum board and populate it with the same issues 
 
 1. Click **Create board**.
 
-   > Note:  We will now create three new lists for the board: a list with a **Status::Sprint Backlog** label, a list with a **Status::WIP** label, and a list with a **Status::QA** label.
+   >  We will now create three new lists for the board: a list with a **Status::Sprint Backlog** label, a list with a **Status::WIP** label, and a list with a **Status::QA** label.
 
 1. In the top right corner, click **Create list**.
 
@@ -116,7 +116,7 @@ In this lab you'll configure a Scrum board and populate it with the same issues 
 
 1. Refresh the browser page to force the 3 new lists to appear in the same order that you created them.
 
-   > Note: At this point, you have a complete board set up, but it is still recommended that you practice using this board as you would in production. For example, practice dragging and dropping your issues across different lists as their at-risk status increases or decreases. Or, simulate completing some issues by dragging them into the **Closed** list. Make sure to click on the issues themselves to confirm they are closed.
+   > At this point, you have a complete board set up, but it is still recommended that you practice using this board as you would in production. For example, practice dragging and dropping your issues across different lists as their at-risk status increases or decreases. Or, simulate completing some issues by dragging them into the **Closed** list. Make sure to click on the issues themselves to confirm they are closed.
 
 ## Task F. View your sprint progress
 

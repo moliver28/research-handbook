@@ -1,6 +1,6 @@
 ---
 title: "GitLab CI/CD - Hands-On Lab: Job Policy Patterns"
-description: "This Hands-On Guide walks you through the lab exercises in the GitLab CI/CD course."
+description: "This Hands-On Guide walks you through working with CI/CD jobs with the rules keyword."
 ---
 
 
@@ -139,7 +139,7 @@ Job Policy patterns allow the pipeline to control when and if jobs run using the
 
 1. Click the widgets to see what environment the pipeline is deploying the code to. In the left sidebar, click **Operate > Environments** to see the environments that have been created. 
 
-    > Note: You will see that `deploy staging` is the only one of the three jobs that executed, based on the rules that were defined for each job.
+    > You will see that `deploy staging` is the only one of the three jobs that executed, based on the rules that were defined for each job.
 
 1. **Optional:** Experiment with triggering pipelines using different branches and tags. Can you get different pipeline runs to execute the **deploy release**, **deploy review**, and **deploy staging** jobs?
 
@@ -151,7 +151,7 @@ Job Policy patterns allow the pipeline to control when and if jobs run using the
 
 1. Review the rules specified in the deploy review's `rules` section. It will only run when A) The branch name (represented by `$CI_COMMIT_REF_NAME`) is not equal to `main`, and B) there is no tag on the branch (represented by `$CI_COMMIT_TAG`). 
 
-    > Note: a variable used with an if keyword on its own is checking if said variable has any value associated with it. If it has any value, regardless of what that value is, the statement is true. This includes values that would be considered false in other programming languages, such as `False`. If there is no value, the statement is false. A variable with whitespace as its value is considered false as well.
+    > A variable used with an if keyword on its own is checking if said variable has any value associated with it. If it has any value, regardless of what that value is, the statement is true. This includes values that would be considered false in other programming languages, such as `False`. If there is no value, the statement is false. A variable with whitespace as its value is considered false as well.
 
 1. Create a new branch by clicking on `Code > Branches`.
 

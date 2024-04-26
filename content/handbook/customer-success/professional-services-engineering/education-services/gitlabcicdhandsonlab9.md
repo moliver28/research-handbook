@@ -1,6 +1,6 @@
 ---
 title: "GitLab CI/CD - Hands-On Lab: Security Scanning"
-description: "This Hands-On Guide walks you through the lab exercises in the GitLab CI/CD course."
+description: "This Hands-On Guide walks you through using SAST to find and fix a security vulnerability in your code."
 ---
 
 > Estimate time to complete: 15 - 20 minutes
@@ -35,7 +35,7 @@ description: "This Hands-On Guide walks you through the lab exercises in the Git
 
 1. Click **Commit changes**.
 
-    > Note: This file has a command injection vulnerability, which can lead to security breaches. We are going to use the SAST Scanner to detect issues in our code.
+    > This file has a command injection vulnerability, which can lead to security breaches. We are going to use the SAST Scanner to detect issues in our code.
 
 ### Task B. Creating and Running a SAST Scan
 
@@ -54,7 +54,7 @@ description: "This Hands-On Guide walks you through the lab exercises in the Git
 
 1. Navigate to the pipeline that was started by this change and click the `semgrep-sast` job to ensure that it's running. 
 
-    > Note: It might take a minute or two for the `Build` stage to complete first.
+    > It might take a minute or two for the `Build` stage to complete first.
 
 1. To view the results of the SAST scan, click **Secure > Vulnerability Report** in the left-hand navigation pane. In the **Tool** drop-down list, select **SAST**. Click on any vulnerabilities to learn more about them.
 
@@ -89,7 +89,7 @@ description: "This Hands-On Guide walks you through the lab exercises in the Git
 
 1. In the commit field, type `Fix changes as suggested by SAST scan`, leave the **Target Branch** set to `main`, and click **Commit changes**
 
-    > Note: The SAST scan will need to run again in order to update the changes.
+    > The SAST scan will need to run again in order to update the changes.
 
 1. Once the pipeline has finished running, click **Secure > Vulnerability Report** in the left-handed navigation pane. In the **Tool** drop-down list, select **SAST**. Review to see if the security issues have been remediated.
 

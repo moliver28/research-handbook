@@ -141,7 +141,7 @@ You can learn more at GitLab's [remote team solutions page](./gitlab-for-remote)
 
 A hybrid call is one that has a mix of participants in the same physical room, together with others who are remote. Hybrid calls should be avoided, as it's better to have everyone on a level playing field for communication and discussion.
 
-If a hybrid call must happen, however, everyone should use their own equipment (camera, headset, screen) even if they are physically sitting in the same room. This ensures that everyone is on the same playing field in terms of call experience. If possible, it's best to separate briefly for the call and find your own workspace, creating a 100% remote call. This helps avoid audio problems from delays and feedback. Learn more about why hybrid (partially remote) calls are horrible in the [Communication section of GitLab's Handbook](communication#hybrid-calls-are-horrible).
+If a hybrid call must happen, however, everyone should use their own equipment (camera, headset, screen) even if they are physically sitting in the same room. This ensures that everyone is on the same playing field in terms of call experience. If possible, it's best to separate briefly for the call and find your own workspace, creating a 100% remote call. This helps avoid audio problems from delays and feedback. Learn more about why hybrid (partially remote) calls are horrible in the [Communication section of GitLab's Handbook](communication#hybrid-calls-are-annoying).
 
 ### 8. Meetings are about the work, not the background
 

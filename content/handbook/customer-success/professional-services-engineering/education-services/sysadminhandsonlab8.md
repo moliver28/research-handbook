@@ -1,6 +1,6 @@
 ---
 title: "GitLab System Administration - Hands-on Lab: Troubleshoot GitLab"
-description: "This hands-on lab guide is designed to walk you through the lab exercises used in the GitLab System Administration course."
+description: "TThis Hands-On Guide walks you through troubleshooting GitLab services NGINX, Puma, and Gitaly."
 ---
 
 > Estimated time to complete: 30 minutes
