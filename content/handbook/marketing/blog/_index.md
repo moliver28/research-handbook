@@ -26,7 +26,7 @@ Blogs fall into the following categories:
 
 Partner, alliance, and customer contributor guidelines can be found [here](https://docs.google.com/document/d/10Xb4qnZNedhPzNNRTByH7fgvNzlo5Bc5Rz1TiuHtPxE/edit?usp=sharing).
 
-## How to suggest a blog idea - NEW PROCESS
+## How to suggest a blog idea - NEW PROCESS {#how-to-suggest-a-blog-post}
 
 Please create an issue using the [blog submission template](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/content-strategy-and-ops/blog/-/issues/new?issuable_template=blog-post-submission).
 
@@ -304,6 +304,34 @@ Animated GIFs are very useful to illustrate short dynamic processes, which might
 There are a few ways to create animated GIFs, one of them is using [Giphy Capture], a light-weight app for Mac.
 
 Avoid GIFs with a huge file size, they will be difficult to load for users with bad internet connection. In those cases, you can either cut the GIFs in smaller pieces, or record a video, or use a sequential image.
+
+#### Creating `Author` entries in the CMS
+
+Here's a set of recommendations when creating an `Author` entry in the CMS.
+
+##### `Name` field
+
+This is a required field.
+
+1. Author's name should be a combination of first and last name only, including composed names. Please avoid adding a job description (use the `Role` field for this task) or alpha-numeric combinations into this field. 
+1. No double authors (eg. `/authors/<author1>-<author2>`). We can add multiple single authors to blog posts. We should create individual authors and then add them all to other content types as a one-to-many relationship.
+1. Same as above, no multiple authors for a single blog post (eg. `/authors/<author1>-<author2>-<author3>-and-<author4>`).
+
+##### `Role` field
+
+Current working position or job description
+
+##### `Bio` field
+
+Biography
+
+##### `GitLab handle` field
+
+It corresponds to Author's GitLab username in lowercase format. This field has to be unique. 
+
+##### `Social media handles` fields
+
+Optional fields for social media handles
 
 ## Localizing blog posts in Contentful
 

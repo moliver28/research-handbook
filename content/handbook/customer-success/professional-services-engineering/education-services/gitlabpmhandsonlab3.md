@@ -54,7 +54,7 @@ To help you organize your work, GitLab provides epics, iterations, and milestone
     - *To-Do: add contributing team member information*
     ```
 
-    > Note: There is no need to change any other options for the epic, but it is still important to understand the options.
+    > There is no need to change any other options for the epic, but it is still important to understand the options.
 
 1. There are additional options that you can configure or leave at their default setting.
 
@@ -92,11 +92,11 @@ To help you organize your work, GitLab provides epics, iterations, and milestone
 
 1. You will now designate the **Investment Tracking** epic as a child of the **Retirement Planning** epic. In the **Child issues and epics** tab, select the **Add** drop-down menu, and click **Add an existing epic**.
 
-> Note: You can also use this menu to create a child epic from scratch.
+    > You can also use this menu to create a child epic from scratch.
 
 1. Type `&` in the field provided, and select **Investment Tracking** from the list of epics.
 
-> Note: The `&` symbol lets you refer to epics by their unique epic ID rather than their name. This is useful for when you have a large number of epics with similar names.
+    > The `&` symbol lets you refer to epics by their unique epic ID rather than their name. This is useful for when you have a large number of epics with similar names.
 
 1. Click **Add** to link **Investment Tracking** as a child epic to the **Retirement Planning** parent epic.
 
@@ -116,7 +116,7 @@ To help you organize your work, GitLab provides epics, iterations, and milestone
 
 1. In the **End Date** section, use the calender to enter 2 days from today's date as the milestone end date.
 
-    > Note: While a description is not necessary, it is recommended to type in a description to help clarify what the milestone is intended to be used for.
+    > While a description is not necessary, it is recommended to type in a description to help clarify what the milestone is intended to be used for.
 
 1. Click **Create milestone**.
 
@@ -138,7 +138,7 @@ You will later assign tasks to the epics and milestones you created, allowing yo
 
 ## Task E. Schedule iterations as team sprints
 
-> Iterations are mutually exclusive timeboxes intended to track team velocity, while milestones can represent larger, overlapping product goals. You can read more about iterations in the [documentation](https://docs.gitlab.com/ee/user/group/iterations/).
+    > Iterations are mutually exclusive timeboxes intended to track team velocity, while milestones can represent larger, overlapping product goals. You can read more about iterations in the [documentation](https://docs.gitlab.com/ee/user/group/iterations/).
 
 1. In your subgroup structure, navigate to **Awesome Inc > Software**.
 
@@ -158,7 +158,7 @@ You will later assign tasks to the epics and milestones you created, allowing yo
 
 1. Ensure the **Enable roll over** checkbox is selected.
 
-    > Note: At the end of the current iteration, all open issues are added to the next iteration when **Enable roll over** is selected.
+    > At the end of the current iteration, all open issues are added to the next iteration when **Enable roll over** is selected.
 
 1. Select **Create cadence**.
 
@@ -190,7 +190,7 @@ You will later assign individual tasks to iterations (sprints).
 
 1. Click **Create Page**. You should see a new Wiki page with the content you created.
 
-> Note: If you'd like, edit the **Family Budget Calculator Documentation** page to add additional content or create additional wiki pages.
+> If you'd like, edit the **Family Budget Calculator Documentation** page to add additional content or create additional wiki pages.
 
 ## Suggestions?
 

@@ -33,7 +33,7 @@ In other words, Auto DevOps is an alternative to writing and using your own `.gi
 
 1. For **Deployment strategy**, click **Automatic deployment to staging, manual deployment to production**.
 
-    > Note: For your own projects, you may choose to use a different deployment strategy. To learn more about each strategy, click the **blue question mark** beside each option.
+    > For your own projects, you may choose to use a different deployment strategy. To learn more about each strategy, click the **blue question mark** beside each option.
 
 1. Click the **Save changes** button.
 
@@ -89,7 +89,7 @@ In other words, Auto DevOps is an alternative to writing and using your own `.gi
 
 1. Click the **Mark as draft** checkbox to set the merge request to draft.
 
-    > Note: If you type `DRAFT:` at the front of the title, the **Mark as draft** checkbox will check automatically.
+    > If you type `DRAFT:` at the front of the title, the **Mark as draft** checkbox will check automatically.
 
 1. Assign the merge request to yourself by clicking on the `Assign to me` option next to **Assignees**.
 

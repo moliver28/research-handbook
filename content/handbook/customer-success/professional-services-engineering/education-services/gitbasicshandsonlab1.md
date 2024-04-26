@@ -1,7 +1,5 @@
----
 title: "GitLab with Git Essentials - Hands-On Lab: Create a project and issue"
 description: "This Hands-On Guide walks you through creating projects, issues, labels, as well as using quick actions."
----
 
 > Estimated time to complete: 30 minutes
 

@@ -4,7 +4,10 @@ title: "Pre-receive secret detection performance testing"
 
 ### When to use this runbook?
 
-Use this runbook for running GPT tests, deploying a new version of GitLab to GET, and for setting up a new GET environment.
+Use this runbook for:
+* [Running GPT tests](#running-gpt-tests) - for running tests and comparing with previous benchmarks
+* [Deploying a new version of GitLab to GET](#re-deploying-a-new-build) - for updating a GET instance, most likely to test out changes related to pre-receive secret detection
+* [Setting up a new GET environment](#setting-up-a-get) - for testing different reference architectures
 
 ### Prerequisites
 
@@ -37,11 +40,12 @@ Running the tests:
 * To run all the tests: `ACCESS_TOKEN=glpat-REDACTED SD_PUSH_CHECK_ENABLED=true ./bin/run-k6 --environment gcp-2k.json --options 60s_40rps.json`
 
 #### Running automated tests (via Docker)
-* Get the glpat token from 1password by searching for Static Analysis in the Engineering Vault
+* Get the glpat token (ACCESS_TOKEN) from 1password by searching for Static Analysis in the Engineering Vault
 * GPT tests can be ran from any directory that contains an `environments` directory
 * Open a local terminal and `git clone https://gitlab.com/gitlab-org/quality/performance.git`
 * Create `environments` directory at the root
 * Copy the gcp-2k.json file from [this MR](https://gitlab.com/gitlab-org/secure/pocs/gitlab-environment-toolkit-configs/-/merge_requests/4) to that `environments` directory
+* Rename the gcp-2k.json file as necassary, as well as changing the `name` and `url` values
 * To run just the `git_secret_detection.js` test (as an example): `docker run -it -e ACCESS_TOKEN=glpat-REDACTED -v $PWD:/config gitlab/gitlab-performance-tool SD_PUSH_CHECK_ENABLED=true SD_FILES_PER_COMMIT=4 GPT_DEBUG=true SD_FILE_SIZES="10kb" GPT_SKIP_RETRY=true --environment gcp-2k.json --options 60s_40rps.json --tests git_secret_detection.js`
 * To run all the tests: `docker run -it -e ACCESS_TOKEN=glpat-REDACTED -v $PWD:/config gitlab/gitlab-performance-tool --environment gcp-2k.json --options 60s_40rps.json`
 
@@ -49,8 +53,69 @@ Running the tests:
 
 A GCP environment has been set up under [The Static Analysis GCP Project: dev-sast-prereceive-8a4574ec](https://console.cloud.google.com/welcome?project=dev-sast-prereceive-8a4574ec) with GET using a 2k reference architecture with a prefix of `gcp-2k`.
 
-Instructions for setting up another GET environment will be added in the
-future.
+#### Bootstrapping a new environment
+
+Note: The following steps are written from the perspective of setting up
+another 2k reference architecture. If you need to set up something like
+a 25k reference architecture, you may need to change things that are not
+covered in this guide. Alternate reference architectures can be [found
+here](https://gitlab.com/gitlab-org/quality/gitlab-environment-toolkit-configs/quality/-/tree/main/configs/reference_architectures?ref_type=heads).
+
+One time steps:
+* Clone the [GET repo](https://gitlab.com/gitlab-org/gitlab-environment-toolkit) and `cd` into it
+* Copy bootstrap.sh from [this MR](https://gitlab.com/gitlab-org/secure/pocs/gitlab-environment-toolkit-configs/-/merge_requests/4) to the root and update it as necessary
+* You may need to make it executable: `chmod +x bootstrap.sh`
+
+Note, `bootstrap.sh` has steps that only need to be ran once, as well as
+steps that need to be ran for setting up a new $GCP_ENV_PREFIX, and they
+still need to be separated.
+
+Steps to add a new $GCP_ENV_PREFIX:
+* Use [Provisioning the environment with Terraform](https://gitlab.com/gitlab-org/gitlab-environment-toolkit/-/blob/main/docs/environment_provision.md) as guide for setting up Terraform, ignoring the AWS steps as we are using GCP
+* Make sure you are within your cloned [GET repo](https://gitlab.com/gitlab-org/gitlab-environment-toolkit)
+* Update the variables in bootstrap.sh as necessary
+* Run `./bootstrap.sh`
+* Note the ip address at the end
+* Run `mkdir -p terraform/environments/$GCP_ENV_PREFIX/files/gitlab_configs``
+* Copy over environment.tf, main.tf, and variables.tf from [this MR](https://gitlab.com/gitlab-org/secure/pocs/gitlab-environment-toolkit-configs/-/merge_requests/4) into the corresponding directory
+* Update those *.tf files as necessary
+* From that MR, copy `environments/gcp-2k/files/gitlab_configs/gitlab_rails.rb.j2` to `environments/$GCP_ENV_PREFIX/files/gitlab_configs`
+* Cd to /terraform/environments/$GCP_ENV_PREFIX
+* Run `terraform init`
+* Run `terraform apply`
+* Small celebration
+* Use [Configuring the environment with Ansible](https://gitlab.com/gitlab-org/gitlab-environment-toolkit/-/blob/main/docs/environment_configure.md) as guide for setting up Ansible, ignoring the AWS steps as we are using GCP
+* Cd to the root directory of the [GET repo](https://gitlab.com/gitlab-org/gitlab-environment-toolkit)
+* Run `mkdir -p ansible/environments/$GCP_ENV_PREFIX/files/gitlab_tasks`
+* Run `mkdir -p ansible/environments/$GCP_ENV_PREFIX/inventory`
+* Copy over vars.yml, and gcp_2k.gcp.yml from [this MR](https://gitlab.com/gitlab-org/secure/pocs/gitlab-environment-toolkit-configs/-/merge_requests/4) into that `/inventory` directory
+* Rename gcp_2k.gcp.yml and update both *.yml files as necessary
+* Copy over `monitor.yml` to `ansible/environments/$GCP_ENV_PREFIX/files/gitlab_tasks`
+* Nothing needs to change in `monitor.yml`, but be sure `grafana_password` is set in `vars.yml`
+* Acquire a new Ultimate license [following this process](https://handbook.gitlab.com/handbook/support/readiness/operations/docs/policies/team_member_licenses/)
+* Upload that license file to `/environments/$GCP_ENV_PREFIX/files`
+* From the root directory, follow the steps in [Installing Ansible with a Virtual Environment](https://gitlab.com/gitlab-org/gitlab-environment-toolkit/-/blob/main/docs/environment_configure.md#installing-ansible-with-a-virtual-environment)
+* Cd to the `ansible` directory
+* Run `ansible-playbook -i environments/$GCP_ENV_PREFIX/inventory playbooks/all.yml`
+* After logging in to the instance, if the Ultimate license doesn't apply, you may have to manually upload the license
+* Make the instance a "Dedicated instance" by logging in to the rails console and running:
+```ruby
+a = ApplicationSetting.first
+a.gitlab_dedicated_instance = true
+a.save!
+```
+
+#### Setting up an existing environment ($GCP_ENV_PREFIX)
+
+* Clone the [GET repo](https://gitlab.com/gitlab-org/gitlab-environment-toolkit), if it doesn't already exist, and `cd` into it
+* Run `mkdir terraform/environments/$GCP_ENV_PREFIX`
+* Run `mkdir -p ansible/environments/$GCP_ENV_PREFIX/files/gitlab_tasks`
+* Navigate to https://gitlab.com/gitlab-org/secure/pocs/gitlab-environment-toolkit-configs (pending merge of [this MR](https://gitlab.com/gitlab-org/secure/pocs/gitlab-environment-toolkit-configs/-/merge_requests/4))
+* Copy the `configs/$GCP_ENV_PREFIX/terraform/*.tf` files into the `terraform/environments/$GCP_ENV_PREFIX` diretory
+* Copy the `configs/$GCP_ENV_PREFIX/ansible/*.yml` files into the `ansible/environments/$GCP_ENV_PREFIX` diretory
+* From the root directory, follow the steps in [Installing Ansible with a Virtual Environment](https://gitlab.com/gitlab-org/gitlab-environment-toolkit/-/blob/main/docs/environment_configure.md#installing-ansible-with-a-virtual-environment)
+* Cd to the `ansible` directory
+* Run `ansible-playbook -i environments/$GCP_ENV_PREFIX/inventory playbooks/all.yml`
 
 #### Populating data
 
@@ -85,9 +150,13 @@ docker run -it \
 ```
 
 ### Re-deploying a new build
+
 * There are prerequisite steps that will be covered in the `Setting up a GET` section in the future
+* Navigate to your cloned [GET repo](https://gitlab.com/gitlab-org/gitlab-environment-toolkit) and `cd` into it
+* If not already activated for your terminal, run `. ./get-python-env/bin/activate`
 * cd into the `ansible` directory of your cloned GET repo
-* As we are currently deploying the latest GitLab release, we no longer need to update the `gitlab_deb_download_url`
+* Check `ansible/environments/$GCP_ENV_PREFIX/inventory/vars.yml` to see which of the 3 methods of deployment we are
+targeting, and if anything needs to be changed before deploying
 * Redeploy with the same ansible command from the setup steps: `ansible-playbook -i environments/$GCP_ENV_PREFIX/inventory playbooks/all.yml`
 
 ### Monitoring
