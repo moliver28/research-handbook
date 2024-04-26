@@ -135,7 +135,7 @@ Switchboard team process to refine issues:
 
 #### Picking up work / What to work on next
 
-1. ~"workflow-infra::Ready" column on the [issue board](https://gitlab.com/groups/gitlab-com/gl-infra/gitlab-dedicated/-/boards/4498935?label_name[]=team%3A%3ASwitchboard)
+1. ~"workflow-infra::Ready" column on the [issue board](https://gitlab.com/groups/gitlab-com/gl-infra/gitlab-dedicated/-/boards)
    1. Pick an issue from the ~"workflow-infra::Ready" column on the [issue board](https://gitlab.com/groups/gitlab-com/gl-infra/gitlab-dedicated/-/boards/4498935?label_name[]=team%3A%3ASwitchboard)
    1. Assign the issue to yourself and set to ~"workflow-infra::In Progress"
    1. Update the issue description with an `Implementation Plan` where relevant
@@ -193,6 +193,23 @@ As the Switchboard team is currently small, we use an 'Approve and Merge' approa
 1. If the merge request contains the required approvals, the reviewer will trigger a pipeline and set auto-merge.
    * If the reviewer does not have merge permission, they should seek out a maintainer for merging.
 
+##### Additional UI Review Process
+In addition to the above when a change is being proposed to the UI the following extra steps should be followed:
+
+**UI changes visible to internal GitLab users:**
+1. MR author cc’s PM & UX Designer on the MR but they are not reviewers or blockers of the merge
+1. If they have any suggestions they can be dealt with on the MR or on a later MR at the MR author’s discretion
+1. Eventually the PM & UX Designer will be reviewers on the internally visible UI updates but our process is not there yet nor is their capacity
+1. If you require help or guidance with the UX or copy please ask **before** implementation begins on the issue
+
+**UI changes visible to external customers:**
+1. Figure out any outstanding questions on the issue, including copy changes, so that we can avoid ambiguity at the MR stage
+1. The PM and Designer will deal with these requests as a top priority
+1. Add the PM as reviewer on the MR. This review will be blocking the MR and the PM will deal with this a high priority
+1. If there is new copy add the Technical Writer as a reviewer and this will be blocking (copy should ideally be agreed on the issue)
+1. Cc the UX Designer on the MR and when they ready to be core reviewer this will be communicated to the team
+
+ **Note:** If significant discussion ends up being needed for a UI change (internal or customer facing) after the MR has been opened, that discussion should be moved back to the issue to resolve and the MR marked as blocked. These discussions will be high priority to resolve and the issue should be assigned to the PM and Designer until progress on the MR can resume.
 Notes:
 - It is our intention to move towards a typical 'reviewers and maintainers' approach which would require two reviews as soon as we have the team members to support this.
 - Merge requests should be approved based on the [approval guidelines](#approval_guidelines).
