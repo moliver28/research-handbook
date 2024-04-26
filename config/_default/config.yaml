@@ -58,7 +58,11 @@ params:
       - name: "Repository"
         url: "https://gitlab.com/gitlab-com/content-sites/handbook"
         icon: "fa-solid fa-code-branch"
-        desc: "Contribute on GitLab"
+        desc: "GitLab project"
+      - name: "Editing"
+        url: "/docs/development"
+        icon: "fa-solid fa-edit"
+        desc: "Contribute to the handbook"
     developer: []
 
 staticDir:
