@@ -52,7 +52,7 @@ The epic for the project must have the following items:
 In this stage, projects are rough ideas that are formed into proposals for discussion. They are developed into full projects that are then ready to be picked up by the team. We keep track of these projects in our roadmaps. 
 
 - [Roadmap for Practices](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/1202)
-- [Roadmap for Observability](xxx)
+- [Roadmap for Observability](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/1295)
 
 A Roadmap epic has three sections: Now, Next and Later. These list out what the team is working on, what they will do next, and what they might address at a later date. 
 
