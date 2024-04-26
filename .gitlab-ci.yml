@@ -35,7 +35,7 @@ stages:
   - export AWS_SESSION_TOKEN="${STS[2]}"
 
 include:
-  - template: Security/Secret-Detection.gitlab-ci.yml
+  - component: gitlab.com/components/secret-detection/secret-detection@~latest
   - component: gitlab.com/gitlab-org/components/danger-review/danger-review@~latest
 
 default:
@@ -106,6 +106,7 @@ pages-review:
     name: review/$CI_COMMIT_REF_SLUG
     # There is no predefined CI variable that is formatted quite right
     # neither $CI_PAGES_URL nor $CI_JOB_URL have /-/ directly after the hostname
+    # TODO @dnsmichi improve and make review apps work https://gitlab.com/groups/gitlab-com/content-sites/-/epics/11 
     url: https://gitlab-com.gitlab.io/-/content-sites/handbook/-/jobs/$CI_JOB_ID/artifacts/public/
     on_stop: stop-pages-review
   variables:
@@ -129,6 +130,10 @@ stop-pages-review:
 
 pages:
   extends: [.hugo]
+  environment:
+    # tracking DORA deployment frequency
+    name: production
+    deployment_tier: production
   rules:
     # Only run the deploy on the default branch. If you want to deploy from Merge Request branches,
     # you can use Review Apps: https://docs.gitlab.com/ee/ci/review_apps
