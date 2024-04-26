@@ -2,6 +2,8 @@
 title: "Pre-receive secret detection monitoring"
 ---
 
+> _NOTE: This is still an **early draft**, more information will be added as the dashboard is created soon._
+
 ### When to use this runbook?
 
 This runbook is intended to be used when monitoring the [pre-receive secret detection](https://docs.gitlab.com/ee/user/application_security/secret_detection/pre_receive.html) feature to identify and mitigate any reliability issues or performance regressions that may occur when it is enabled on Gitlab.com. The runbook can also be used to understand more about relevant dashboards and how to improve them:
