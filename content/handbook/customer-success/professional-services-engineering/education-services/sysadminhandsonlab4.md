@@ -1,6 +1,6 @@
 ---
 title: "GitLab System Administration - Hands-on Lab: Backup and Restore GitLab"
-description: "This Hands-On Guide walks you through backing up a GitLab instance on a virtual machine, and restoring tthe GitLab instance to a previous state."
+description: "This Hands-On Guide walks you through backing up a GitLab instance on a virtual machine, and restoring the GitLab instance to a previous state."
 ---
 
 > Estimated time to complete: 30 minutes
