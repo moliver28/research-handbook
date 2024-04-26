@@ -134,7 +134,7 @@ After all interviews:
 Continuing with your interview syntheses, move on to gathering outcome statements. 
 
 1. Parse your notes looking for references to how the Job Performer would measure the success of completing the Main Job. Add a sticky for every potential outcome. Remove duplicates along the way.
-1. Rewrite each Outcome Statement to ensure it follows [guidance for properly formatted outcome statements](handbook/product/ux/jobs-to-be-done/#outcomes-how-does-the-job-performer-measure-the-success-of-getting-the-job-done). 
+1. Rewrite each Outcome Statement to ensure it follows [guidance for properly formatted outcome statements](/handbook/product/ux/jobs-to-be-done/#outcomes-how-does-the-job-performer-measure-the-success-of-getting-the-job-done). 
 
 **Note:** Your Main Job can have between 50 - 100 Outcome Statements which will be validated through an [Outcome Opportunity Score survey](#outcome-opportunity-scores-survey). This survey can be done in parallel with the rest of your JTBD Canvas work.
 
