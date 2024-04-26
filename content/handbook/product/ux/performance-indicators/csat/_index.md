@@ -76,7 +76,7 @@ UX Research creates and communicates the [CSAT reports](/handbook/product/ux/per
 There are two internal dashboards in Tableau meant for presenting CSAT results:
 
 - [CSAT Scores](https://10az.online.tableau.com/#/site/gitlab/views/DRAFT-UXKPIs/WIPDRAFTCSATScores?:iid=7): This dashboard shows the number and percentage of responses between those who are satisfied with GitLab the product (ratings of `satisfied` and `very satisfied`) and those who are not (ratings of `neutral`, `dissatisfied`, and `very dissatisfied`).
-- [CSAT Line Chart](https://10az.online.tableau.com/#/site/gitlab/views/DRAFT-UXKPIs/WIPDRAFTCSATLineChart?:iid=7): This dashboard
+- [CSAT Line Chart](https://10az.online.tableau.com/#/site/gitlab/views/DRAFT-UXKPIs/WIPDRAFTCSATLineChart?:iid=7): This dashboard shows the CSAT score on a quarterly basis in order to track our score over time.
 
 These dashboards can also be found in the [UX Department Performance Indicators page](https://handbook.gitlab.com/handbook/product/ux/performance-indicators/#regular-performance-indicators).
 
