@@ -252,7 +252,7 @@ If your shift has **not** ended yet and you want to coordinate with the *upcomin
 
 ### Engaging the On-call Manager
 
-In some situations, you may need to engage the [Support Manager On-all](/handbook/support/workflows/support_manager-on-call) for assistance.
+In some situations, you may need to engage the [Support Manager On-call](/handbook/support/workflows/support_manager-on-call) for assistance.
 
 You can ping the current Support Manager On-call in Slack by tagging `@support-manager-oncall`.
 
