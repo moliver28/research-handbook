@@ -61,6 +61,10 @@ For sales assisted trials, only we can override the credit card validation requi
 
 Sales team members will typically open this on behalf of their prospects in order to extend an active trial. You can follow the [L&R Workflow for Extending Trials](/handbook/support/license-and-renewals/workflows/saas/trials_and_plan_change#extending-trials).
 
+## Solution Architect Team's Request for Help from Support
+
+Solution Architects would open this in the pre-sales cycle when they are facing a specific issue that needs support attention. Potential customer is not involved. 
+
 ## Inactive Namespace Request
 
 GitLab Team Members can no longer submit inactive namespace / namesquatting requests for their own use. See: [support-team-meta#5170](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/5170)
