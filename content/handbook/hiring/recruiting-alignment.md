@@ -22,8 +22,7 @@ description: "This page is an overview of the search team alignment and the tale
 | G&A/Marketing (Corporate Communications, Data, Legal, People, Product Marketing) | Jenna VanZutphen  | Fernando Khubeir |
 | G&A/Marketing (Accounting, Integrated Marketing, Internal Audit, Marketing Ops, Tax) | Aiste Juozaponyte  | Fernando Khubeir |
 | Engineering, Development | Matt Angell | Alice Crosbie |
-| Engineering, Development | Sara Currie, Chuz Ugorji | Jazmin Armstrong |
-| Engineering, Development | Heather Tarver | Teranay Dixon |
+| Engineering, Development | Sara Currie, Chux Ugorji | Jazmin Armstrong |
 | Engineering, Development | Joe Guiler, Heather Tarver, Seema Anand | Teranay Dixon |
 | Engineering, Infrastucture   | Maxx Snow | Teranay Dixon  |
 | Engineering, Infrastucture   | Michelle A. Kemp, Aziz Quadri | Alice Crosbie  |
