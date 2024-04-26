@@ -19,13 +19,13 @@ GitLab Duo extends beyond just code generation. GitLab Duo can support you throu
 
 1. Remove all previous yaml and add the following code. Your `.gitlab-ci.yml` should look as follows:
 
-```
-stages:
-  - test
+    ```
+    stages:
+      - test
 
-include:
-  - template: Security/SAST.gitlab-ci.yml
-```
+    include:
+      - template: Security/SAST.gitlab-ci.yml
+    ```
 
 1. Input any Commit message, set the branch to **main**, then select **Commit changes**
 
@@ -37,36 +37,36 @@ include:
 
 1. Replace all of your code with the following code:
 
-```
-package main
+    ```
+    package main
 
-import (
-  "net/http"
-  "fmt"
-)
+    import (
+      "net/http"
+      "fmt"
+    )
 
-func randomGitlab(w http.ResponseWriter, r *http.Request) {
-  words := []string{"git", "lab", "repo", "commit", "branch"}
-  word := words[rand.Intn(len(words))]
-  
-  fmt.Fprintf(w, word) 
-}
+    func randomGitlab(w http.ResponseWriter, r *http.Request) {
+      words := []string{"git", "lab", "repo", "commit", "branch"}
+      word := words[rand.Intn(len(words))]
+      
+      fmt.Fprintf(w, word) 
+    }
 
-func main() {
-  http.HandleFunc("/random", randomGitlab)
-  http.ListenAndServe(":8080", nil)
-}
-```
+    func main() {
+      http.HandleFunc("/random", randomGitlab)
+      http.ListenAndServe(":8080", nil)
+    }
+    ```
 
 1. Leave the Commit message as default, set the Target Branch to main, and select **Commit changes**
 
 1. Once the pipeline completes, navigate to **Secure > Vulnerability Report** in the left sidebar
 
-> You will see a single vulnerability, `Slowloris` displayed in your report.
+    > You will see a single vulnerability, `Slowloris` displayed in your report.
 
 1. Select the vulnerability description
 
-> This will navigate you to the vulnerability overview page
+    > This will navigate you to the vulnerability overview page
 
 1. Scroll to the bottom of the page and select **Explain vulnerability**
 

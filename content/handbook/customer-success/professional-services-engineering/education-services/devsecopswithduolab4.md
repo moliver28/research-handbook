@@ -17,11 +17,11 @@ GitLab Duo extends beyond just code generation. GitLab Duo can support you throu
 
 1. Select the `main.go` file.
 
-1. Above the `main` function, type the following comment:
+1. Between the `main` function and `import` block, type the following comment:
 
-```
-// write a function called random_gitlab that pulls a random word from a list and returns it as a string.
-```
+    ```
+    // write a function called random_gitlab that pulls a random word from a list and returns it as a string.
+    ```
 
 1. Press enter and note the small Tanuki icon that appears in the code margin. Wait until code appears. Once you see code, press Tab.
 
@@ -29,54 +29,54 @@ GitLab Duo extends beyond just code generation. GitLab Duo can support you throu
 
 1. After doing this, your code should look similar to this:
 
-```
-package main
+    ```
+    package main
 
-import (
-    "github.com/common-nighthawk/go-figure"
-)
+    import (
+        "github.com/common-nighthawk/go-figure"
+    )
 
-// write a function called random_gitlab that pulls a random word from a list and returns it as a string
+    // write a function called random_gitlab that pulls a random word from a list and returns it as a string
 
-var words = []string{"gitlab", "repository", "commit", "branch", "merge", "issue", "pipeline"}
+    var words = []string{"gitlab", "repository", "commit", "branch", "merge", "issue", "pipeline"}
 
-func random_gitlab() string {
-    return words[rand.Intn(len(words))]
-}
+    func random_gitlab() string {
+        return words[rand.Intn(len(words))]
+    }
 
-func main() {
-    myFigure := figure.NewFigure(random_gitlab(), "", true)
-    myFigure.Print()
-}
-```
+    func main() {
+        myFigure := figure.NewFigure(random_gitlab(), "", true)
+        myFigure.Print()
+    }
+    ```
 
-> Note: By nature, the prompt we entered will generate different code for most users, since we asked for random words from a list. If you see different words in the `words :=` definition, that is ok.
+    > Note: By nature, the prompt we entered will generate different code for most users, since we asked for random words from a list. If you see different words in the `words :=` definition, that is ok.
 
-1. The function added by GitLab Duo requires the `math/rand` package. Below the `import "fmt"` line, start typing `import`. Note the Tanuki icon showing code generation in progress
+1. The function added by GitLab Duo requires the `math/rand` package. Below the `go-figure` import, start typing `math`. Note the Tanuki icon showing code generation in progress
 
 1. Once you see `math/rand` appear, press Tab. Your code should now look similar to this:
 
-```
-package main
+    ```
+    package main
 
-import (
-    "github.com/common-nighthawk/go-figure"
-	"math/rand"
-)
+    import (
+        "github.com/common-nighthawk/go-figure"
+        "math/rand"
+    )
 
-// write a function called random_gitlab that pulls a random word from a list and returns it as a string
+    // write a function called random_gitlab that pulls a random word from a list and returns it as a string
 
-var words = []string{"gitlab", "repository", "commit", "branch", "merge", "issue", "pipeline"}
+    var words = []string{"gitlab", "repository", "commit", "branch", "merge", "issue", "pipeline"}
 
-func random_gitlab() string {
-    return words[rand.Intn(len(words))]
-}
+    func random_gitlab() string {
+        return words[rand.Intn(len(words))]
+    }
 
-func main() {
-    myFigure := figure.NewFigure(random_gitlab(), "", true)
-    myFigure.Print()
-}
-```
+    func main() {
+        myFigure := figure.NewFigure(random_gitlab(), "", true)
+        myFigure.Print()
+    }
+    ```
 
 ## Task B. Generating Code Tests
 
@@ -88,43 +88,43 @@ func main() {
 
 1. Type the prompt `/tests`. You will receive some tests similar to below:
 
-```
-func TestRandomGitlab(t *testing.T) {
+    ```
+    func TestRandomGitlab(t *testing.T) {
 
-    // Test that it returns one of the words in the slice
-    word := random_gitlab()
-    words := []string{"hello", "world", "random", "gitlab"}
-    contains := false
-    for _, w := range words {
-        if w == word {
-            contains = true
-            break
+        // Test that it returns one of the words in the slice
+        word := random_gitlab()
+        words := []string{"hello", "world", "random", "gitlab"}
+        contains := false
+        for _, w := range words {
+            if w == word {
+                contains = true
+                break
+            }
+        }
+        if !contains {
+            t.Errorf("returned word %s not in expected list", word)
+        }
+
+        // Test that it returns different words if called multiple times
+        word1 := random_gitlab()
+        word2 := random_gitlab()
+        if word1 == word2 {
+            t.Error("returned same word twice in a row") 
         }
     }
-    if !contains {
-        t.Errorf("returned word %s not in expected list", word)
-    }
+    ```
 
-    // Test that it returns different words if called multiple times
-    word1 := random_gitlab()
-    word2 := random_gitlab()
-    if word1 == word2 {
-        t.Error("returned same word twice in a row") 
-    }
-}
-```
-
-> As always, feel free to use `/explain` to understand what this code is doing.
+    > As always, feel free to use `/explain` to understand what this code is doing.
 
 1. To add the tests to your project, create a new file named `gitlabrandom_test.go`.
 
 1. At the top of the file include the following:
 
-```go
-package main
+    ```go
+    package main
 
-import "testing"
-```
+    import "testing"
+    ```
 
 1. Paste the generated tests.
 
@@ -138,31 +138,32 @@ import "testing"
 
 1. In the `stages` section, add a new stage called `test`.
 
-1. Under the `main app` job create a new job called `test` 
+1. Under the `build app` job create a new job called `test` 
 
 1. Add the `go test` command to run the tests. Your `.gitlab-ci.yml` file will look like the following: 
 
-```yml
-stages:
-  - build
-  - test
+    ```yml
+    stages:
+    - build
+    - test
 
-default:
-  image: golang:latest
+    default:
+    image: golang:latest
 
-build app:
-  stage: build
-  script: 
-    - go get github.com/common-nighthawk/go-figure
-    - go run main.go
+    build app:
+    stage: build
+    script: 
+        - go get github.com/common-nighthawk/go-figure
+        - go run main.go
 
-test:
-  stage: test
-  script:
-    - go get github.com/common-nighthawk/go-figure
-    - go test ./...
-```
-You should now have a pipeline that passed the tests. If a job failed, feel free to use Root Cause Analysis to troubleshoot any errors.
+    test:
+    stage: test
+    script:
+        - go get github.com/common-nighthawk/go-figure
+        - go test ./...
+    ```
+    
+    You should now have a pipeline that passed the tests. If a job failed, feel free to use Root Cause Analysis to troubleshoot any errors.
 
 ## Lab Guide Complete
 
