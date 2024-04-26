@@ -1,6 +1,6 @@
 ---
 title: "GitLab CI/CD - Hands-On Lab: Defining Stages, Jobs, and Runners"
-description: "This Hands-On Guide walks you through the lab exercises in the GitLab CI/CD course."
+description: "This Hands-On Guide walks you through creating a .gitlab-ci.yml file, and a GitLab Runner."
 ---
 
 > Estimate time to complete: 15 - 20 minutes

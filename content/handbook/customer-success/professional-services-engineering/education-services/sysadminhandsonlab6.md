@@ -1,6 +1,6 @@
 ---
 title: "GitLab System Administration - Hands-on Lab: Manage GitLab Logs"
-description: "This hands-on lab guide is designed to walk you through the lab exercises used in the GitLab System Administration course."
+description: This Hands-On Guide walks you through managing GitLab logs on a virtual machine."
 ---
 
 > Estimated time to complete: 30 minutes

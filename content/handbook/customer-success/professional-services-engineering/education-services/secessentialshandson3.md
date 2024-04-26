@@ -1,6 +1,6 @@
 ---
 title: "GitLab Security Essentials - Hands-On Lab: Enable and Configure Container Scanning"
-description: "This Hands-On Guide walks you through the lab exercises used in the GitLab Security Essentials course."
+description: "This Hands-On Guide walks you through enabling and using Container Scanning in a GitLab project."
 ---
 
 
