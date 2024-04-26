@@ -136,7 +136,8 @@ If your Qualifying Life Event requires documentation the steps below will follow
 
 </details>
 
- ## Group Medical Coverage
+## Group Medical Coverage
+
 GitLab offers plans from Cigna, as well as additional Kaiser options for residents of California. Hawaii residents are offered Kaiser options for medical plan enrollment. For those who actively waive medical coverage, GitLab offers a medical allowance.
 
 If you do not enroll in a plan within your benefits election period, you will automatically be enrolled in the High Deductible Health Plan (HDHP), with no HSA.
