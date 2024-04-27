@@ -1219,7 +1219,7 @@ This video will walk you through the process of making an announcement:
    1. Avoid announcements like "Feature A is deprecated and will be removed. Wait until the replacement feature is released, and switch to it at that time."
       If the entry is not actionable, delay the deprecation or change announcement until there is an action available for users to address the change.
 1. Assign reviewers as recommended in the template.
-1. Set the `breaking_change` value to `true` and add the `~"breaking change"` label to the MR. If the deprecation or planned change will not cause a breaking change (rare, but possible), use `false` and do not add the label.
+1. Set the `breaking_change` value to `true` and add the {{< label name="breaking change" color="#ff0000" >}} label to the MR. If the deprecation or planned change will not cause a breaking change (rare, but possible), use `false` and do not add the label.
 1. Assign the MR to the technical writer [assigned to the stage](/handbook/product/ux/technical-writing/#designated-technical-writers).
 
 ##### Reviewing and merging the announcement

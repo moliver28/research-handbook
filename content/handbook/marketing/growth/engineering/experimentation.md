@@ -35,7 +35,7 @@ The duration of each experiment will vary depending on how long it takes for exp
 
 #### Overview
 
-1. Create an [Experiment idea](https://gitlab.com/gitlab-org/gitlab/-/issues/new?issuable_template=Experiment%20Idea) issue to define the scope of the experiment (label added: `~"experiment idea"`, optionally add: `~"growth experiment"`)
+1. Create an [Experiment idea](https://gitlab.com/gitlab-org/gitlab/-/issues/new?issuable_template=Experiment%20Idea) issue to define the scope of the experiment (label added: {{< label name="experiment idea" color="#F0AD4E" light="true" >}}, optionally add: {{< label name="growth experiment" color="#D9534F" >}})
 - Anybody who has an idea of something to try as an experiment can create this issue
 - They provide information about which portion of the product they'd like to experiment with, their experimentation idea (i.e. their hypothesis), and what a successful outcome might look like
 - At this extremely early stage, the most critical thing is that we get the idea jotted down with enough context and detail that it is understood by others on the team and can be carried forward by the Project Manager
@@ -52,7 +52,7 @@ The duration of each experiment will vary depending on how long it takes for exp
 - We choose reviewers and domain experts from relevant groups where possible to ensure different groups are familiar with the changes we are introducing
 - When our product managers make the call, we initiate experiment and feature flag cleanup, either adding the experiment feature to the product or reverting
 1. Engineering & PM collaborate on getting the experiment activated according to the defined rollout plan
-    - PM or Engineering update the [experiment rollout](#experiment-rollout-issue) issue, setting the experiment scoped label to `~"experiment::active"` when the experiment is live
+    - PM or Engineering update the [experiment rollout](#experiment-rollout-issue) issue, setting the experiment scoped label to {{< label name="experiment::active" color="#AD8D43" >}} when the experiment is live
     - PM or Engineering notify interested parties (their team, data team, support, CSMs, etc.) by at-mentioning them in a comment on the [experiment rollout](#experiment-rollout-issue) issue, and on the `#production` Slack channel
 1. PM monitors the experiment via data sent to Sisense, adjusting the rollout strategy in the [experiment rollout](#experiment-rollout-issue) issue as necessary
 1. PM compares recorded data to the experiment's criteria for measuring success
@@ -66,7 +66,7 @@ See also the [Growth RADCIE and DRIs](/handbook/product/growth/#growth-radcie-an
 
 A backlog of experiments are tracked on the [Experiment backlog](https://gitlab.com/groups/gitlab-org/-/boards/2028884?&label_name[]=growth%20experiment) board.
 
-To track the status of an Experiment, Experiment tracking issues using the `~"experiment-rollout"` and scoped `experiment::` labels are tracked on experiment rollout boards across the following groups:
+To track the status of an Experiment, Experiment tracking issues using the {{< label name="experiment-rollout" color="#FFECDB" light="true" >}} and scoped `experiment::` labels are tracked on experiment rollout boards across the following groups:
 
 | gitlab-org | gitlab-com | all groups |
 | ------ | ------ | ------ | ------ |
@@ -82,7 +82,7 @@ To track the status of an Experiment, Experiment tracking issues using the `~"ex
 
 ##### Experiment Definition Issue
 
-This issue acts as the starting point for defining an experiment, including an overview of the experiment, the hypothesis, and some idea of how success will be measured. The [Experiment idea] issue template can be used for this (label added: `~"experiment idea"`, optionally add: `~"growth experiment"`).
+This issue acts as the starting point for defining an experiment, including an overview of the experiment, the hypothesis, and some idea of how success will be measured. The [Experiment idea] issue template can be used for this (label added: {{< label name="experiment idea" color="#F0AD4E" light="true" >}}, optionally add: {{< label name="growth experiment" color="#D9534F" >}}).
 
 ##### Experiment Definition Standards
 
@@ -104,18 +104,18 @@ This issue is used to track the experiment progress once deployed. It is similar
 
 The `experiment::` scoped labels are:
 
-* `~"experiment::pending"` - The experiment is waiting to be deployed
-* `~"experiment::active"` - The experiment is active (live)
-* `~"experiment::blocked"` - The experiment is currently blocked
-* `~"experiment::validated"` - The experiment has been validated (the success criteria was clearly met)
-* `~"experiment::invalidated"` - The experiment has been invalidated (the success criteria was clearly unmet)
-* `~"experiment::inconclusive"` - The experiment was inconclusive (the success criteria was not clearly met nor clearly unmet)
+* {{< label name="experiment::pending" color="#AD8D43" >}} - The experiment is waiting to be deployed
+* {{< label name="experiment::active" color="#AD8D43" >}} - The experiment is active (live)
+* {{< label name="experiment::blocked" color="#AD8D43" >}} - The experiment is currently blocked
+* {{< label name="experiment::validated" color="#AD8D43" >}} - The experiment has been validated (the success criteria was clearly met)
+* {{< label name="experiment::invalidated" color="#AD8D43" >}} - The experiment has been invalidated (the success criteria was clearly unmet)
+* {{< label name="experiment::inconclusive" color="#AD8D43" >}} - The experiment was inconclusive (the success criteria was not clearly met nor clearly unmet)
 
 #### Experiment Cleanup Issue
 
 This issue is used to clean up an experiment after an experiment has been completed. It is created within the project where the cleanup work will be done (e.g. the `gitlab-org/gitlab` project).
 The cleanup work may include completely removing the experiment
-(in the case of `~"experiment::invalidated"` and `~"experiment::inconclusive"`) or refactoring the experiment feature for the long run (in the case of `~"experiment::validated"`).
+(in the case of {{< label name="experiment::invalidated" color="#AD8D43" >}} and {{< label name="experiment::inconclusive" color="#AD8D43" >}}) or refactoring the experiment feature for the long run (in the case of {{< label name="experiment::validated" color="#AD8D43" >}}).
 The cleanup issue should be linked to the experiment rollout issue as a reference to ensure the experiment is concluded prior to cleanup.
 
 The [Experiment Successful Cleanup](https://gitlab.com/gitlab-org/gitlab/-/issues/new?issuable_template=Experiment%20Successful%20Cleanup) issue template can be used for the `gitlab-org/gitlab` project.

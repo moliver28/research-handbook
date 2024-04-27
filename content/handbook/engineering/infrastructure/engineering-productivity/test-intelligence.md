@@ -50,11 +50,11 @@ Most of the pipeline rules for the [GitLab project](https://gitlab.com/gitlab-or
 
 Developers can add labels to run jobs in addition to the ones selected by the pipeline rules. Those labels start with `pipeline:` and multiple can be applied. A few examples that people commonly use:
 
-- `~"pipeline:run-all-rspec"`
-- `~"pipeline:run-all-jest"`
-- `~"pipeline:run-as-if-foss"`
-- `~"pipeline:run-as-if-jh"`
-- `~"pipeline:run-praefect-with-db"`
-- `~"pipeline:run-single-db"`
+- {{< label name="pipeline:run-all-rspec" color="#cc338b" >}}
+- {{< label name="pipeline:run-all-jest" color="#cc338b" >}}
+- {{< label name="pipeline:run-as-if-foss" color="#cc338b" >}}
+- {{< label name="pipeline:run-as-if-jh" color="#cc338b" >}}
+- {{< label name="pipeline:run-praefect-with-db" color="#cc338b" >}}
+- {{< label name="pipeline:run-single-db" color="#cc338b" >}}
 
 See [docs](https://docs.gitlab.com/ee/development/pipelines/) for when to use these pipeline labels.

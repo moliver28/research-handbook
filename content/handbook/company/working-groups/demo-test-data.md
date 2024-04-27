@@ -74,4 +74,4 @@ For a complete list, see the [Data Seeder Issue Tracker](https://gitlab.com/gitl
 
 ## Feedback
 
-For any questions, issues, or feedback, please reach out to [`#data-seeder`](https://gitlab.slack.com/archives/C055Y333MM1), create an issue with the label `~"data seeder"`, or add a comment to [the feedback issue](https://gitlab.com/gitlab-org/gitlab/-/issues/414671).
+For any questions, issues, or feedback, please reach out to [`#data-seeder`](https://gitlab.slack.com/archives/C055Y333MM1), create an issue with the label {{< label name="data seeder" color="#8fbc8f" light="true" >}}, or add a comment to [the feedback issue](https://gitlab.com/gitlab-org/gitlab/-/issues/414671).

@@ -20,7 +20,7 @@ These guidelines ensure consistency for Engineering automation using approved se
 
 ### Merge request automation guidelines
 
-Automation that opens a merge request in projects under `gitlab-org` shall apply the `~"automation:bot-authored"` label for clearer measurements for bot authored MRs that may cause an impact to Engineering PIs.
+Automation that opens a merge request in projects under `gitlab-org` shall apply the {{< label name="automation:bot-authored" color="#FFECDB" light="true" >}} label for clearer measurements for bot authored MRs that may cause an impact to Engineering PIs.
 
 ## Access token best practices
 

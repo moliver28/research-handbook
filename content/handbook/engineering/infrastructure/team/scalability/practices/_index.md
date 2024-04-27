@@ -61,7 +61,7 @@ Our work is collaborative across teams and we mainly operate from the [scalabili
 
 #### Labels
 
-All issues pertaining to our team have the `~"team::Scalability-Practices"` label.
+All issues pertaining to our team have the {{< label name="team::Scalability-Practices" color="#9400d3" >}} label.
 
 All issues that are within scope of current work have a `~board::build` or `~board::planning` label.
 All issues require either a Service label or the team-tasks, discussion, or capacity planning labels.

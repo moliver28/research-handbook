@@ -43,7 +43,7 @@ When you are creating merge requests (in the gitlab-org group) for code or for d
 members.
 
 Additionally, if the code change is specifically to improve the team's efficiency
-(such as changes to admin for faster support), then add the `~"Support Efficiency"` label.
+(such as changes to admin for faster support), then add the {{< label name="Support Efficiency" color="#5cb85c" >}} label.
 
 We also recommend using weight labels (frontend, backend, docs) to track the effort required for MRs.
 While you can look at how others have labelled their MRs, the most important thing is that you are consistent in applying the labels to your own MRs

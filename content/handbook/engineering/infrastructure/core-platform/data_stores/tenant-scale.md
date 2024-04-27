@@ -18,7 +18,7 @@ See also the [direction page](https://about.gitlab.com/direction/enablement/tena
 
 To get in touch with us, it's best to create an issue in the relevant
 project (typically [GitLab](https://gitlab.com/gitlab-org/gitlab)) and add the
-`~"group::tenant scale"` label, along with any other appropriate labels.
+{{< label name="group::tenant scale" color="#a8d695" light="true" >}} label, along with any other appropriate labels.
 
 For urgent items, feel free to use the Slack channel (internal): [#g_tenant-scale](https://gitlab.slack.com/archives/g_tenant-scale).
 

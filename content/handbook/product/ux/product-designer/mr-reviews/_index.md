@@ -75,7 +75,7 @@ In general, follow the [Code Review guidelines](https://docs.gitlab.com/ee/devel
    - How you can test the changes.
    - Link(s) to the related issue(s).
    - *Before* and *After* screenshots/videos (if appropriate).
-- Some MRs with the `~"UX"` label may not have a design DRI or proposed designs associated with the change. In these cases, it is important to get as much context as you can about the change. If you are unsure how the changes impact other areas of the product, consider bringing in other designers and your design manager to help evaluate the impact of the proposal.
+- Some MRs with the {{< label name="UX" color="#D10069" >}} label may not have a design DRI or proposed designs associated with the change. In these cases, it is important to get as much context as you can about the change. If you are unsure how the changes impact other areas of the product, consider bringing in other designers and your design manager to help evaluate the impact of the proposal.
 
 ### Preview the MR
 

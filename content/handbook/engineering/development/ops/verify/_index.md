@@ -153,8 +153,8 @@ By considering MR Rate as a measure of throughput, product management is focused
 Since April 2023, code changes to Verify code require approval from a Verify maintainer since Continuous Integration platform overall is a critical GitLab feature.
 In order to [track quality of the approval process](https://gitlab.com/gitlab-org/gitlab/-/issues/411559)
 we ask Verify maintainers to apply one of the following labels to a merge request changing Verify code:
-- `~"verify-review::impacted"` for merge requests where the maintainer was able to identify near miss bugs, inefficiencies and tech debt.
-- `~"verify-review::not impacted"` for merge requests where the change was trivial
+- {{< label name="verify-review::impacted" color="#ed9121" >}} for merge requests where the maintainer was able to identify near miss bugs, inefficiencies and tech debt.
+- {{< label name="verify-review::not impacted" color="#ed9121" >}} for merge requests where the change was trivial
 or no issues were found by the Verify maintainer.
 
 ## Stable Counterparts

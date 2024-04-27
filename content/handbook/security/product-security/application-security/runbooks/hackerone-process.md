@@ -51,7 +51,7 @@ following guidelines as necessary:
 - When a report contains externally-hosted static content for reproduction (for example some HTML file triggering a CSRF or a vulnerability exploiting a `postMessage` issue), follow the instructions in [this project](https://gitlab.com/gitlab-com/gl-security/product-security/appsec/vuln-repro-static-pages) to re-host it internally
 - Potential, non-bounty outcomes:
     - Report is out-of-scope. If actionable, issues may still be created.
-    - Report is a `~"type::feature"` as defined above and would not need to be
+    - Report is a {{< label name="type::feature" color="#009966" >}} as defined above and would not need to be
     made confidential or scheduled for remediation. An issue can be created, or
     requested that the reporter creates one if desired, but the report can be
     closed as "Informative".

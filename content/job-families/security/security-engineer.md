@@ -198,7 +198,7 @@ Initiatives are selected with the following criteria:
 - (Preferably) Within Team Member’s Domain: To increase the team member’s ability to succeed and ability to control influence and outcome, the chosen work should fall within the team member’s domain of work.  The team member does not need to be at an expert level as growth and development in skillset is not only encouraged, but intended.
 - Solves a Problem:  The initiative should be designed to produce an outcome that remediates or mitigates a security concern.
 
-All staff+ initiatives are tracked as epics with the `~"Staff+ Initiative"` label in both of our top-level namespaces with corresponding epic boards for global transparency and tracking:
+All staff+ initiatives are tracked as epics with the {{< label name="Staff+ Initiative" color="#0000ff" >}} label in both of our top-level namespaces with corresponding epic boards for global transparency and tracking:
 
 - [**gitlab-com** Staff+ Initiatives Epic Board](https://gitlab.com/groups/gitlab-com/-/epic_boards/29521?label_name%5B%5D=Staff%2B%20Initiative) for intra-department staff+ initiatives
 - [**gitlab-org** Staff+ Initiatives Epic Board](https://gitlab.com/groups/gitlab-org/-/epic_boards/29522?label_name%5B%5D=Staff%2B%20Initiative) for product-focused staff+ initiatives
