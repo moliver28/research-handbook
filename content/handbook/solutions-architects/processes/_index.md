@@ -64,7 +64,7 @@ Customer Success Planning core goal is to identify and state:
 1. The Account Team and the customer will agree on the cadence for reviewing and updating the Success Plan during and after the sales cycle
 1. The Customer Success Plan will be reviewed with the CSM team when the account moves into Post-Sales
 
-Please read the [Customer Success Plan page](/handbook/solutions-architects/sa-practices/customer-success-plan/) for more details on the Mutual Customer Success plan process.
+Please read the [Customer Success Plan page](/handbook/solutions-architects/sa-practices/customer-success-plan/) for more details on the Mutual Customer Success Plan process.
 
 ## Positioning Professional Services
 
