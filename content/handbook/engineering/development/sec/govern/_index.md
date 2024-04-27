@@ -126,10 +126,11 @@ Because we have a wide range of domains to cover, it requires a lot of different
 | SQL (PostgreSQL)  | _Various_            |
 | Docker/Kubernetes | Threat Detection     |
 
+## Everyone can contribute
 
+At GitLab our goal is that [everyone can contribute](https://handbook.gitlab.com/handbook/company/mission/#contribute-to-gitlab-application). This applies to GitLab team members and the wider community through community contributions. We welcome contributions to any and all features, but recognize that first time contributors may prefer to start with smaller features. To support this we maintain a list of `quick wins` that may be more suitable for first time contributors, and contributors new to the domains in Govern.
 
-
-
+- [Quick wins](https://gitlab.com/dashboard/issues?sort=updated_desc&state=opened&label_name[]=quick+win&label_name[]=devops::govern)
 
 
 ### PTO
