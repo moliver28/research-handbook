@@ -342,6 +342,6 @@ We are continuously gathering country specific references to review regulation a
 
 ## Further Guidance (Country-Specific)
 
-- [UK: Acas (advisory service for employees and employers)](https://www.acas.org.uk/index.aspx?articleid=1864)
-- [The Netherlands: Inspectorate SZW](https://www.inspectieszw.nl/)
+- [UK: Acas (advisory service for employees and employers)](https://www.acas.org.uk/discrimination-and-bullying)
+- [The Netherlands: Inspectorate SZW](https://www.nlarbeidsinspectie.nl/)
 - [Belgium: Unia: For equality, against discrimination](https://www.unia.be/en)
