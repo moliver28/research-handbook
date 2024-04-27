@@ -51,7 +51,6 @@ Customer Success Planning core goal is to identify and state:
 - Perceived gaps and deficiencies in current capabilities
 
 
-
 ### The Mutual Customer Success Planning process:
 
 1. The Solutions Architect starts with a [Technical Close Plan](/handbook/solutions-architects/sa-practices/technical-close-plan/) during customer technical discovery (Stage 3 - Technical Evaluation) to understand the customer business outcomes and will remain the DRI
