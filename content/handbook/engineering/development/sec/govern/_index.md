@@ -113,25 +113,6 @@ Each Objective and Key Result should have an assignee who is DRI for providing s
 
 OKRs can be changed or closed during the quarter if they are completed, or as our goals change. This ensures we are focusing on areas that are revelant to our current and future priorities.
 
-## Skills
-
-Because we have a wide range of domains to cover, it requires a lot of different expertise and skills:
-
-| Technology skills | Areas of interest    |
-|-------------------|----------------------|
-| Ruby on Rails     | Backend development  |
-| Go                | Backend development  |
-| Vue, Vuex         | Frontend development |
-| GraphQL           | _Various_            |
-| SQL (PostgreSQL)  | _Various_            |
-| Docker/Kubernetes | Threat Detection     |
-
-
-
-
-
-
-
 ### PTO
 
 To support our teams, and commitments made to internal and external customers, team members in Govern are encouraged to create a PTO issue before going on leave lasting a week or longer.
@@ -154,6 +135,25 @@ Keep in mind that, while we strongly recommend following this process when takin
 Team members should contact any Govern Engineering Manager by mentioning in `#sd_govern_engineering` or `#govern-development-people-leaders` if they need management support for a problem that arises, such as a production incident or feature change lock, when their direct manager is not available. The Govern manager can provide guidance and coordination to ensure that the team member receives the appropriate help.
 
 Some people management tasks, including [Workday](/handbook/people-group/workday-guide) and [Navan Expense](/handbook/business-technology/enterprise-applications/guides/navan-expense-guide), may require for escalation or delegation.
+
+## Skills
+
+Because we have a wide range of domains to cover, it requires a lot of different expertise and skills:
+
+| Technology skills | Areas of interest    |
+|-------------------|----------------------|
+| Ruby on Rails     | Backend development  |
+| Go                | Backend development  |
+| Vue, Vuex         | Frontend development |
+| GraphQL           | _Various_            |
+| SQL (PostgreSQL)  | _Various_            |
+| Docker/Kubernetes | Threat Detection     |
+
+## Everyone can contribute
+
+At GitLab our goal is that [everyone can contribute](https://handbook.gitlab.com/handbook/company/mission/#contribute-to-gitlab-application). This applies to GitLab team members and the wider community through community contributions. We welcome contributions to any and all features, but recognize that first time contributors may prefer to start with smaller features. To support this we maintain a list of `quick wins` that may be more suitable for first time contributors, and contributors new to the domains in Govern.
+
+- [Quick wins](https://gitlab.com/dashboard/issues?sort=updated_desc&state=opened&label_name[]=quick+win&label_name[]=devops::govern)
 
 
 ## Metrics
