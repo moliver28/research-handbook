@@ -114,7 +114,7 @@ Let's describe in more detail the Day on the Life of an SA, as you progress thro
      - Next Steps:
        - Current and Desired Workflow Discussion
        - Can also do a brief "Drive by" Demo, which is a shr=ort 5 minute demo to faciliate more discovery
- 
+
    - **Meeting 2 -Scope** - Scope the Workflows to Achieve Desired Outcomes [Why Now?]
       - Present **"2. What We have Heard"** so far
       - Continue any Discovery on any Tool Chain per Stage/ Processes etc. that would form the foundation of a **"5. Current and Proposed Workflow Diagrams"**
