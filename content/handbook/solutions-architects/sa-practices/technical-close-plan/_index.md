@@ -29,7 +29,8 @@ SA Managers have discretion for additional opportunities to be included or exclu
 
 A Technical Close Plan is primarily focused on opportunity rigor by capturing customer business outcomes and a plan to meet their needs, whereas a Customer Success Plan is primarily focused on successful customer adoption of GitLab after successfully evaluating GitLab against their needs.
 
-As both are customer-centric, the Technical Close Plan can and should feed into a Customer Success Plan. See [Converting to a Customer Success Plan](#converting-to-a-customer-success-plan) for more information.
+As both are customer-centric, the Technical Close Plan can and should feed into a Customer Success Plan. See [Converting to a Customer Success Plan](https://handbook.gitlab.com/handbook/solutions-architects/sa-practices/customer-success-plan/#how-does-this-differ-from-a-technical-close-plan) for more information.
+
 
 ![Sales Process](sales-process.png)
 
@@ -113,11 +114,3 @@ If there are several opportunities relevant to the plan, each can point to the s
 ## Regular Review
 
 Since the Technical Close Plan is used to progress a technical evaluation, the scope and definition could be fluid. It's important to regularly review the plan during 1:1s, account plans, and opportunity consults.
-
-## Converting to a Customer Success Plan
-
-In many instances, the Technical Close Plan can be used as-is for a Customer Success Plan, where the only real difference is the timing.
-
-In other cases, there may be additional adoption information to capture, like other known tools, migration plan, adoption plan, adoption risks, etc.
-
-There also may be parts of the original Technical Close Plan that are no longer relevant to share with the customer, like internal relationship notes, sales or GitLab terminology, or mitigated risks.
