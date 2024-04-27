@@ -297,9 +297,9 @@ For testing LDAP integrations with a self-managed GitLab instance, you may consi
 
 ### DNS for test instances
 
-See the handbook for IT policies about [Domain Names and DNS Records](/handbook/it/guides/domains-dns/).
+See the handbook for IT policies about [Domain Names and DNS Records](/handbook/it/it-self-service/it-guides/domains-dns/).
 
-If you wish to test resources using a real domain name (instead of an IP address, e.g. for testing TLS certificates), you can purchase a domain name of your choice (without GitLab trademarks) that is paid for by GitLab through your Sandbox Cloud AWS account or GCP project. Instructions and guidelines can be found [here](/handbook/it/guides/domains-dns/#non-trademark-domain-names).
+If you wish to test resources using a real domain name (instead of an IP address, e.g. for testing TLS certificates), you can purchase a domain name of your choice (without GitLab trademarks) that is paid for by GitLab through your Sandbox Cloud AWS account or GCP project. Instructions and guidelines can be found [here](/handbook/it/it-self-service/it-guides/domains-dns/#non-trademark-domain-names).
 
 ## Securing Cloud Testing Environments
 
