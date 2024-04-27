@@ -288,8 +288,8 @@ The Respond team uses labels for issue tracking and to organize issue boards.  M
   - `~Category:Product Analytics`
 - **Milestone**: optional. While technically not a label, if the issue is being worked on immediately, add the current milestone.  If you know when the issue needs to be scheduled (such as follow-up work), add the future milestone that it should be scheduled in.  Otherwise, leave it empty.
 - **Issue Type**: required.
-  - `~"type::feature"`: [Feature Issues](/handbook/product/product-processes/#feature-issues)
-  - `~"type::bug"`: [Bug Issues](/handbook/product/product-processes/#bug-issues)
+  - {{< label name="type::feature" color="#009966" >}}: [Feature Issues](/handbook/product/product-processes/#feature-issues)
+  - {{< label name="type::bug" color="#cc0000" >}}: [Bug Issues](/handbook/product/product-processes/#bug-issues)
   - `~technical debt` : [Technical Debt](/handbook/engineering/workflow/#technical-debt)
 - **Workflow**: required.
   - `workflow::refinement`: Issues that need further input from team members in order for it to be `workflow::ready for development`.

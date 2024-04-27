@@ -2169,7 +2169,7 @@ Mentioning the people in the body of the issue will trigger the notification mec
 chosen by the people who are mentioned - therefore there is no need to notify
 people in another channel after the issue has been created (Slack, email).
 
-GitLab product issues will often have one of the three [type labels](https://docs.gitlab.com/ee/development/labels/index.html#type-labels) `~"type::bug"`, `~"type::feature"`, or `~"type::maintenance"`. Features can be further clarified as:
+GitLab product issues will often have one of the three [type labels](https://docs.gitlab.com/ee/development/labels/index.html#type-labels) {{< label name="type::bug" color="#cc0000" >}}, {{< label name="type::feature" color="#009966" >}}, or {{< label name="type::maintenance" color="#330066" >}}. Features can be further clarified as:
 
 - `~feature::addition` - Refers to the first MVC that gives GitLab users a foundation of new capabilities that were previously unavailable. For example, these issues together helped create the first MVC for our Reviewer feature:
     - [Create a Reviewers sidebar widget](https://gitlab.com/gitlab-org/gitlab/-/issues/237921)
@@ -2192,9 +2192,9 @@ Feature issues identify work to support the implementation of a feature and/or r
 - If there is doubt about whether you could expect something to be there or work, it's a missing feature.
 - We iterate to deliver features, so we often don't have functionality that people expect. For this reason, 'people could reasonably expect this functionality' does not make it a bug.
 - Whether the code results in user facing updates or not, if it is part of building the feature it should be labelled as such.
-- Performance improvements and user interface enhancements improve the experience for end users and should be labelled as `~"type::feature"`.
-- API additions including both REST and GraphQL should also be labelled as `~"type::feature"`.
-- If people care about a missing feature and the solution is clear, the issue should be marked as `~"Seeking community contributions"`.
+- Performance improvements and user interface enhancements improve the experience for end users and should be labelled as {{< label name="type::feature" color="#009966" >}}.
+- API additions including both REST and GraphQL should also be labelled as {{< label name="type::feature" color="#009966" >}}.
+- If people care about a missing feature and the solution is clear, the issue should be marked as {{< label name="Seeking community contributions" color="#00b140" >}}.
 
 ##### Bug issues
 
@@ -2204,7 +2204,7 @@ Bug issues report undesirable or incorrect behavior, such as:
 - Inaccurate presentation or data.
 - Part of GitLab not working according to the documentation or a universal expectation.
 - Functionality inadvertently being broken, or changed from how it is supposed to work. This is also a [regression](https://gitlab.com/gitlab-org/gitlab/-/blob/master/doc/development/contributing/issue_workflow.md#regression-issues).
-- A [security issue that is determined to be a vulnerability](/handbook/security/engaging-with-security/#severity-and-priority-labels-on-security-issues) should be labelled as `~"type::bug"` and `~"bug::vulnerability"`.
+- A [security issue that is determined to be a vulnerability](/handbook/security/engaging-with-security/#severity-and-priority-labels-on-security-issues) should be labelled as {{< label name="type::bug" color="#cc0000" >}} and {{< label name="bug::vulnerability" color="#CC0000" >}}.
 - Loss of data while using the product as intended or as documented. [Data corruption/loss is one basis](https://gitlab.com/gitlab-org/gitlab/-/blob/master/doc/development/contributing/issue_workflow.md#severity-labels) for classifying a bug as `severity::1`.
 
 #### Issue state

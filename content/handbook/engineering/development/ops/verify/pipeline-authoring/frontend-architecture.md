@@ -36,7 +36,7 @@ If you aren't sure if you need to do this, do it anyways! At worst you have spen
 
 ### I'm Convinced! What Should This Look Like?
 
-Add the label `~"Needs Architecture"` to the feature issue, then link it to a new issue with a description containing:
+Add the label {{< label name="Needs Architecture" color="#44AD8E" >}} to the feature issue, then link it to a new issue with a description containing:
 
 - a description of the problem this work is intended to solve
 - the goals for this work

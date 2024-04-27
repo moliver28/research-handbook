@@ -10,7 +10,7 @@ ___
 
 ## What do I do if I accidentally opened a security MR in public ?
 
-Check if the related confidential security issue has the label `~"security-fix-in-public"`. This label means that the security issue is [already accepted]({{< ref "../vulnerability-management#fixing-in-public" >}}) to be to be addressed in public, so it is ok to have this MR in public. If this is not the case then [Engage the Security Engineer On-Call]({{< ref "engaging-security-on-call#engage-the-security-engineer-on-call" >}}) to delete the MR and branch.
+Check if the related confidential security issue has the label {{< label name="security-fix-in-public" color="#D9534F" >}}. This label means that the security issue is [already accepted]({{< ref "../vulnerability-management#fixing-in-public" >}}) to be to be addressed in public, so it is ok to have this MR in public. If this is not the case then [Engage the Security Engineer On-Call]({{< ref "engaging-security-on-call#engage-the-security-engineer-on-call" >}}) to delete the MR and branch.
 
 ## Who can I contact if my Stable Counterpart is out of office?
 

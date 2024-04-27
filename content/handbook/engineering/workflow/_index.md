@@ -565,7 +565,7 @@ Engineering Managers are responsible for capacity planning and scheduling for th
 To ensure hygiene across Engineering, we run scheduled pipelines to move
 unfinished work (open issues and merge requests) with the expired milestone to
 the next milestone, and label `~"missed:x.y"` for the expired milestone.
-Additionally, label `~"missed-deliverable"` whenever `~"Deliverable"` is
+Additionally, label {{< label name="missed-deliverable" color="#CC0000" >}} whenever {{< label name="Deliverable" color="#428BCA" >}} is
 presented.
 
 This is currently implemented as part of our [automated triage operations](https://gitlab.com/gitlab-org/quality/triage-ops/blob/master/policies/move-milestone-forward.yml). Additionally, issues with the `~Deliverable` label which have a milestone beyond current +1, will have the `~Deliverable` label removed.
@@ -590,7 +590,7 @@ The milestone cleanup will happen the day before the release date.
 These actions will be applied to open issues:
 - Open issues and merge requests will be moved to the next milestone, and
   labelled with `~"missed:x.y"`.
-- `~"missed-deliverable"` will also be added whenever `~"Deliverable"`
+- {{< label name="missed-deliverable" color="#CC0000" >}} will also be added whenever {{< label name="Deliverable" color="#428BCA" >}}
     is presented.
 
 Milestones are closed when the Delivery team no longer needs to create a backport release for a specific milestone.

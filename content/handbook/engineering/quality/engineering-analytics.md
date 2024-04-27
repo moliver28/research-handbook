@@ -185,10 +185,10 @@ Work is prioritized using table below. Work type is stacked ranked within each p
 
 | Priority | Work | Remark |
 | -------- | ---- | ---- |
-| `~"priority::1"` | Urgent Key Review requests <br> [Free User Efficiency Rapid Action](https://gitlab.com/groups/gitlab-com-top-initiatives/free-saas-user-efficiency/-/epics/7) <br> Passedthrough OKRs <br> Hiring & Onboarding | |
-| `~"priority::2"` | Non passthrough OKRs <br> Walk-up request from Engineering | We have capacity to take this on, OKRs will be prioritized first. |
-| `~"priority::3"` | New Data Sources <br> Walk-up request outside of Engineering | We do not have capacity to take this on at the moment |
-| `~"priority::4"` | Nice to have Improvements |  We do not have capacity to take this on at the moment |
+| {{< label name="priority::1" color="#cc0000" >}} | Urgent Key Review requests <br> [Free User Efficiency Rapid Action](https://gitlab.com/groups/gitlab-com-top-initiatives/free-saas-user-efficiency/-/epics/7) <br> Passedthrough OKRs <br> Hiring & Onboarding | |
+| {{< label name="priority::2" color="#ff8800" light="true" >}} | Non passthrough OKRs <br> Walk-up request from Engineering | We have capacity to take this on, OKRs will be prioritized first. |
+| {{< label name="priority::3" color="#fff600" light="true" >}} | New Data Sources <br> Walk-up request outside of Engineering | We do not have capacity to take this on at the moment |
+| {{< label name="priority::4" color="#008000" >}} | Nice to have Improvements |  We do not have capacity to take this on at the moment |
 
 ### How to Engage with Us
 

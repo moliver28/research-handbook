@@ -215,8 +215,8 @@ requires immediate scheduling of bug fixes or development effort.
 
 ### Process
 
-- The issue priority is set to `~"priority::1"` regardless of severity
-- The label `~"critical-customer-escalation"` is applied to the issue
+- The issue priority is set to {{< label name="priority::1" color="#cc0000" >}} regardless of severity
+- The label {{< label name="critical-customer-escalation" color="#ff0000" >}} is applied to the issue
 - The issue is scheduled within 1 business day
   - For issues of type features, approval from the Product DRI is needed.
 - The DRI or their delegate provides daily process updates in the escalated customer slack channel

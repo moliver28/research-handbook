@@ -118,7 +118,7 @@ Consider adding the `/confidential` quick action to a project issue template.
 - Add any additional labels you know apply. Additional labels will be applied
 by the security team and other engineering personnel, but it will help with
 the triage process:
-    - [`~"type::bug"`, `~"type::maintenance"`, or `~"type::feature"` if appropriate]({{< ref "./product-security/application-security/vulnerability-management#vulnerability-vs-feature-vs-bug" >}})
+    - [{{< label name="type::bug" color="#cc0000" >}}, {{< label name="type::maintenance" color="#330066" >}}, or {{< label name="type::feature" color="#009966" >}} if appropriate]({{< ref "./product-security/application-security/vulnerability-management#vulnerability-vs-feature-vs-bug" >}})
     - Team or DevOps lifecycle labels
     - `~customer` if issue is a result of a customer report
     - `~internal customer` should be added by team members when the issue
@@ -217,7 +217,7 @@ The issue description should have a `How to reproduce` section to ensure clear r
 
 ### Non-vulnerability `~security` issues
 
-Issues labelled with the `security` but without `~type::bug + ~bug::vulnerability` labels are **not** considered vulnerabilities, but rather security enhancements, defense-in-depth mechanisms, or other security-adjacent bugs. For example, issues labeled `~"type::feature"` or `~"type::maintenance"`. This means the security team does not set the `~severity` and `~priority` labels or follow the vulnerability triage process as these issues will be triaged by [product](/handbook/product/) or other appropriate team owning the component.
+Issues labelled with the `security` but without `~type::bug + ~bug::vulnerability` labels are **not** considered vulnerabilities, but rather security enhancements, defense-in-depth mechanisms, or other security-adjacent bugs. For example, issues labeled {{< label name="type::feature" color="#009966" >}} or {{< label name="type::maintenance" color="#330066" >}}. This means the security team does not set the `~severity` and `~priority` labels or follow the vulnerability triage process as these issues will be triaged by [product](/handbook/product/) or other appropriate team owning the component.
 
 Implementation of security feature issues should be done publicly in line with our [Transparency]({{< ref "values#transparency" >}}) value, i.e. not following the [security developer workflow](https://gitlab.com/gitlab-org/release/docs/-/blob/master/general/security/developer.md).
 
@@ -232,7 +232,7 @@ support of GitLab.com.
 
 ### ~"securitybot::ignore"
 
-Some `~security` issues are neither vulnerabilities nor security enhancements and yet are labeled `~security`. An example of this would be a non-security `~"type::bug"` in the login mechanism. Such an issue will be labeled `~security` because it is security-sensitive but it isn't a vulnerability and it isn't a `~"type::feature"` either. In those cases the `~"securitybot::ignore"` label is applied so that the bot doesn't trigger the normal vulnerability workflow and notifications as those issues aren't subject to the "time to remediation" requirements mentioned above.
+Some `~security` issues are neither vulnerabilities nor security enhancements and yet are labeled `~security`. An example of this would be a non-security {{< label name="type::bug" color="#cc0000" >}} in the login mechanism. Such an issue will be labeled `~security` because it is security-sensitive but it isn't a vulnerability and it isn't a {{< label name="type::feature" color="#009966" >}} either. In those cases the {{< label name="securitybot::ignore" color="#abcdef" light="true" >}} label is applied so that the bot doesn't trigger the normal vulnerability workflow and notifications as those issues aren't subject to the "time to remediation" requirements mentioned above.
 
 ### Transferring from Security to Engineering
 

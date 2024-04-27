@@ -64,7 +64,7 @@ Community Contributors can ask for additional help from GitLab team members.
 
 #### Authoring
 
-Because the documentation is an essential part of the product, if a `~"type::feature"`
+Because the documentation is an essential part of the product, if a {{< label name="type::feature" color="#009966" >}}
 issue also contains the `~documentation` label, you must ship the new or
 updated documentation with the code of the feature.
 
@@ -157,7 +157,7 @@ Technical Writers are responsible for:
 
 The Technical Writer:
 
-- Reviews their group's `~"type::feature"` issues that are part of the next milestone
+- Reviews their group's {{< label name="type::feature" color="#009966" >}} issues that are part of the next milestone
   to get a sense of the scope of content likely to be authored.
 - Recommends the `~documentation` label on issues from that list which don't
   have it but should, or inquires with the PM to determine if documentation is
