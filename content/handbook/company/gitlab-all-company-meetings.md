@@ -85,7 +85,7 @@ The Quarterly Kickoff is an [Office of the CEO](/handbook/ceo/office-of-the-ceo/
 
 #### Schedule for remaining FY25 and FY26 Quarterly Kickoffs {#schedule}
 
-1. FY25-Q2: Review/Record weeks of 2024-04-29 and 2025-05-06. Share the video on 2025-05-09. AMA week of 2025-05-13.
+1. FY25-Q2: Review/Record weeks of 2024-04-29 (non-OKR content) and 2025-05-06 (OKR content). Share the video on 2025-05-09. AMA week of 2025-05-13.
 1. FY25-Q3: Review/Record 2024-08-05 and 2024-08-07. Share the video on 2024-08-12. AMA on 2024-08-14.
 1. FY25-Q4: Review/Record 2024-11-04 and 2024-11-06. Share the video on 2024-11-11. AMA on 2024-11-13.
 1. FY26-Q1: Review/Record 2025-02-03 and 2025-02-05. Share the video on 2025-02-10. AMA on 2025-02-12.
