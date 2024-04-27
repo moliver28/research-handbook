@@ -23,7 +23,7 @@ Once a new branch is created, only commits that pass the CI tests are eligible f
 
 Automated tasks in the [release-tools] project are setup to drive the next steps:
 
-- Twice every hour, a task runs to cherry-pick merge requests labeled with `~"Pick into auto-deploy"` (See [Labels of importance]).
+- Twice every hour, a task runs to cherry-pick merge requests labeled with {{< label name="Pick into auto-deploy" color="#00C8CA" light="true" >}} (See [Labels of importance]).
 - Twice every hour, a task searches for the latest "green build" in the auto-deploy branch.
   - If it finds a commit that has not been previously deployed, it will start the process of creating a new package.
   - If the commit has already been deployed, the task will not take any actions.
@@ -117,7 +117,7 @@ Release Managers may decide, with input from the [EOC](/handbook/engineering/inf
 ### GitLab.com pick label
 
 For code that needs to be deployed to GitLab.com with higher priority than the
-regular cadence, we have `~"Pick into auto-deploy"` label. Note that branches are regularly created throughout the day, inclusion in a scheduled deployment does not require this label.
+regular cadence, we have {{< label name="Pick into auto-deploy" color="#00C8CA" light="true" >}} label. Note that branches are regularly created throughout the day, inclusion in a scheduled deployment does not require this label.
 
 The automated systems that create a new GitLab.com release will look for this label
 specifically, and any merge request with this label and a severity::1/severity::2 severity label will be automatically cherry-picked

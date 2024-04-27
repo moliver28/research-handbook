@@ -106,7 +106,7 @@ As an outcome, the meeting could produce a list of issues, with an estimated mil
 
 Most planning is done asynchronously. Some tools and processes are observed to make this more efficient.
 
-Since issues can only have one milestone attached, the `~"Next Up"` label is used to mark items for the upcoming milestone, regardless of whether they already have a milestone or not. PM and EM should remove this label from any issues prior to the start of planning, then add it to prospective issues and any expected to slip the current milestone during the planning process.
+Since issues can only have one milestone attached, the {{< label name="Next Up" color="#428BCA" >}} label is used to mark items for the upcoming milestone, regardless of whether they already have a milestone or not. PM and EM should remove this label from any issues prior to the start of planning, then add it to prospective issues and any expected to slip the current milestone during the planning process.
 
 Using this label, it's possible to easily analyze the upcoming milestone. The [Planning Board] mimics the Build Board but is scoped to this label instead of the current milestone. Use it to:
 
@@ -114,7 +114,7 @@ Using this label, it's possible to easily analyze the upcoming milestone. The [P
 - Plan capacity by totalling weight values for each list.
 - Understand blocking relationships that may be resolvable before the milestone starts.
 
-When the new milestone starts, the milestone can be added all issues with the `~"Next Up"` label in a bulk action, and the label itself removed.
+When the new milestone starts, the milestone can be added all issues with the {{< label name="Next Up" color="#428BCA" >}} label in a bulk action, and the label itself removed.
 
 [Planning Board]: https://gitlab.com/groups/gitlab-org/-/boards/7109724
 

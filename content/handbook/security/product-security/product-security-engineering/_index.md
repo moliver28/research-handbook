@@ -42,7 +42,7 @@ Depending on the nature of the work it is added either to:
 
 When we take on work:
 
-1. Add the `~"team::Product Security Engineering"` label
+1. Add the {{< label name="team::Product Security Engineering" color="#7d6b37" >}} label
 1. For internal issues: ensure it meets the criteria defined in [Automation Request template](https://gitlab.com/gitlab-com/gl-security/product-security-engineering/product-security-engineering-team/-/blob/main/.gitlab/issue_templates/automation_request.md) for automation work, or
 1. For product issues:
     1. Identify the relevant PM/EM are based on `group::` labels. If there are no `group::` labels, make a best effort to figure out what group it would be relevant to.
@@ -53,7 +53,7 @@ When we take on work:
 
 If at any point during the refinement process it is determined that something is not work the Product Security Engineering team will take on, a member of the Product Security Engineering team will:
 
-- Remove the `~"team::Product Security Engineering"` or `~ProdSecEng Candidate` label
+- Remove the {{< label name="team::Product Security Engineering" color="#7d6b37" >}} or `~ProdSecEng Candidate` label
 - Make a comment explaining the reasoning as to why the Product Security Engineering team has decided not to commit to this work
 - Make a best-effort to `@-mention` the appropriate Engineering Manager, Product Manager, or teams and apply the relevant group labels
 - Consider applying the `~Seeking community contributions` label, if the issue is public and a potential fit for a community contribution

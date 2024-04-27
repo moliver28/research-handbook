@@ -192,7 +192,7 @@ The cut-line also serves as a healthy discussion between engineers and their man
 - Items under the cut-line are not being actively worked on.
 - Engineers should self-update content in their column, in addition to being aware of their overall assignments before coming to their 1:1s
 - Managers should be aware of their overall team assignments. Please review your boards and refine them frequently according to the department goals and business needs.
-- Highlight blockers and tasks that are under in weight. Consider adjusting the weights to communicate the challenges/roadblocks broadly. Use `~"workflow::blocked"` to indicate a blocked issue.
+- Highlight blockers and tasks that are under in weight. Consider adjusting the weights to communicate the challenges/roadblocks broadly. Use {{< label name="workflow::blocked" color="#428BCA" >}} to indicate a blocked issue.
 - Weight adjustments are a healthy discussion. Sometimes an issue maybe overweight or underweight, this calibration should be an continuous process. Nothing is perfect, we take learnings as feedback to future improvements.
 - We aim to have roughly 15 weights assigned to any person at a given time to ensure that engineers are not overloaded and prevent burnout. The number may change due to on-boarding period and etc.
 

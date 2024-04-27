@@ -46,9 +46,9 @@ Product Manager: [@susie.bee](https://gitlab.com/susie.bee)
 
 Issues owned by the Custom Models group should have these labels, as appropriate:
 
-- `~"group::custom models"`
-- `~"devops::ai-powered"`
-- `~"section::dev"`
+- {{< label name="group::custom models" color="#8fbc8f" light="true" >}}
+- {{< label name="devops::ai-powered" color="#e44d2a" >}}
+- {{< label name="section::dev" color="#F0AD4E" light="true" >}}
 - `~"category::model personalization"`
 - `~"category::self-hosted model deployment"`
 

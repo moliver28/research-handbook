@@ -103,7 +103,7 @@ We can then report on our progress towards that goal regularly and clearly demon
 
 ### Corrective Actions and Security issues
 
-We also work on corrective actions and security issues labeled as `~"corrective action"` or `~"security"`.
+We also work on corrective actions and security issues labeled as {{< label name="corrective action" color="#428BCA" >}} or {{< label name="security" color="#d9534f" >}}.
 For these issues, `severity::*` labels are set to meet specific SLOs.
 
 - For security issue see the [Time to resolve table by severity](/handbook/security/#severity-and-priority-labels-on-security-issues)

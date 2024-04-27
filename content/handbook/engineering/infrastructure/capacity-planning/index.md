@@ -144,7 +144,7 @@ Each issue has saturation labels, indicating which thresholds it exceeds and how
 #### Other labels
 
 1. `tamland:keep-open` - Used to prevent Tamland from closing the issue automatically. This can be useful to validate the effect of changes we made for a longer period of time until we are confident about the effects.
-1. Any issue concerning resource saturation or capacity planning in any tracker should have the `~"GitLab.com Resource Saturation"` label applied.
+1. Any issue concerning resource saturation or capacity planning in any tracker should have the {{< label name="GitLab.com Resource Saturation" color="#CC0033" >}} label applied.
 
 #### Prioritization Framework
 

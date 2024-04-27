@@ -16,7 +16,7 @@ This page covers processes and information specific to the Import and Integrate 
 
 To get in touch with the Import and Integrate group, it's best to create an
 issue in the relevant project (typically [GitLab](https://gitlab.com/gitlab-org/gitlab)) and add the
-`~"group::import and integrate"` label, along with any other [appropriate labels](#issue-labels). Then,
+{{< label name="group::import and integrate" color="#a8d695" light="true" >}} label, along with any other [appropriate labels](#issue-labels). Then,
 feel free to ping the relevant Product Manager and/or Engineering Manager.
 
 For more urgent items, feel free to use the Slack Channel (internal): [#g_manage_import_and_integrate](https://gitlab.slack.com/archives/g_manage_import_and_integrate).
@@ -104,26 +104,26 @@ To maintain good label hygiene, please apply the correct labels when creating or
 All issues should have:
 
 - All of our section, stage and group labels:
-    - `~"section::core platform"`
-    - `~"devops::manage"`
-    - `~"group::import and integrate"`
+    - {{< label name="section::core platform" color="#f0ad4e" light="true" >}}
+    - {{< label name="devops::manage" color="#E44D2A" >}}
+    - {{< label name="group::import and integrate" color="#a8d695" light="true" >}}
 - One or more of the category labels:
-    - `~"Category:API"`
-    - `~"Category:Importers"`
-    - `~"Category:Integrations"`
-    - `~"Category:Internationalization"`
-    - `~"Category:Webhooks"`
+    - {{< label name="Category:API" color="#428BCA" >}}
+    - {{< label name="Category:Importers" color="#428BCA" >}}
+    - {{< label name="Category:Integrations" color="#428BCA" >}}
+    - {{< label name="Category:Internationalization" color="#428BCA" >}}
+    - {{< label name="Category:Webhooks" color="#428bca" >}}
 - A [type label](/handbook/engineering/metrics/#work-type-classification)
 - A [workflow label](/handbook/engineering/workflow/#updating-workflow-labels-throughout-development)
-- `~"backend"` or `~"frontend"` if appropriate
+- {{< label name="backend" color="#D10069" >}} or {{< label name="frontend" color="#3cb371" >}} if appropriate
 
-For issues related to importers, also apply an `Importer:` label. For example: `~"Importer:GitHub"` or `~"Importer:Direct Transfer"`.
+For issues related to importers, also apply an `Importer:` label. For example: {{< label name="Importer:GitHub" color="#cc338b" >}} or {{< label name="Importer:Direct Transfer" color="#cc338b" >}}.
 
-For issues related to integrations, also apply a scoped `Integration::` label. For example: `~"Integration::Slack"` or `~"Integration::Jira"`.
+For issues related to integrations, also apply a scoped `Integration::` label. For example: {{< label name="Integration::Slack" color="#69D100" light="true" >}} or {{< label name="Integration::Jira" color="#69D100" light="true" >}}.
 
-For issues related to our APIs, also apply either `~"api"` for REST or `~"GraphQL"` for GraphQL.
+For issues related to our APIs, also apply either {{< label name="api" color="#428bca" >}} for REST or {{< label name="GraphQL" color="#428BCA" >}} for GraphQL.
 
-Once you have completed an issue and closed it make sure to add `~"workflow::complete"`.
+Once you have completed an issue and closed it make sure to add {{< label name="workflow::complete" color="#428BCA" >}}.
 
 Team members might find it helpful to use a comment template to help apply labels correctly. See [an example here](https://gitlab.com/gitlab-org/manage/import-and-integrate/discussions/-/issues/76#note_1718035490).
 

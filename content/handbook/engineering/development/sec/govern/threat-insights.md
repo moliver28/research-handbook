@@ -46,7 +46,7 @@ Threat Insights is a large group, and to reduce planning overhead, engineering i
 
 Both teams have Backend and Frontend engineers, and as such work on any part of our codebase. However, Team Navy primarily focuses on features that affect the user interface, while Team Tangerine concentrates on data management.
 
-We use the scoped labels `~"Threat Insights::Navy"` `~"Threat Insights::Tangerine"` to designate work for each team. Navy engineers report to {{< member-by-gitlab "nmccorrison" >}} and Tangerine engineers report to {{< member-by-gitlab "sming-gitlab" >}}.
+We use the scoped labels {{< label name="Threat Insights::Navy" color="#202A44" >}} {{< label name="Threat Insights::Tangerine" color="#F28500" >}} to designate work for each team. Navy engineers report to {{< member-by-gitlab "nmccorrison" >}} and Tangerine engineers report to {{< member-by-gitlab "sming-gitlab" >}}.
 
 
 ### Metrics
