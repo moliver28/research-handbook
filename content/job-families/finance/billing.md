@@ -11,7 +11,7 @@ The Billing Operations Team at GitLab form part of the Revenue Accounting Group 
 
 The Billing Operations Intern reports to the Manager, Billing or above.
 
-The Billing Operations Associate is a [grade 4](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades)
+The Billing Operations Intern is a [grade 4](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades)
 
 #### Billing Operations Intern Responsibilities
 
