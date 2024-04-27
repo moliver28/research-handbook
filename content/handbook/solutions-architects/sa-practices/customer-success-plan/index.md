@@ -38,7 +38,7 @@ As a follow on to the [Technical Close Plan process](https://handbook.gitlab.com
 
 ## When to Create a Mutual Customer Success Plan
  
-A Mutual Customer Success Plan should be initiated once the opportunity is in Stage-4, Proposal and has completed Stage-3 Technical Evaluation, with a technical win.
+A Mutual Customer Success Plan should be initiated once the opportunity has completed Stage-3 Technical Evaluation, with a technical win.  This is when an SA begins to prescibe what woukld a phased adption and customer adoptuon journey looks like, in collaboration wih the customer.
 
 
 ### Which Opportunities Should Have a Mutual Customer Success Plan?
@@ -46,7 +46,7 @@ A Mutual Customer Success Plan should be initiated once the opportunity is in St
  1. All opportunities with an [SA Validated Tech Evaluation](/handbook/solutions-architects/processes/activity-capture/#sa-specific-opportunity-fields)
 2.  First Order opportunities for accounts with [LAM](/handbook/sales/field-operations/sales-systems/gtm-technical-documentation/#landed-addressable-market-lam) over $2M  in Proposal stage (Stage-4) and beyond.
 3. All New or Growth Opportunities over $300k net ARR, in Proposal stage (Stage-4) and beyond. *(The SA is the DRI, which is handed over to the CSM)*
-4.  All existing customers with upcoming Renewals, over $300k in ARR basis.  *(The CSM is the DRI, to create a Mutual Customer Success Plan.  In these cases the SA can create a Technical Close Plan to capture necessary context if one did not exist, or add to the CSM's Mutual CSP.)*
+4.  All existing customers with upcoming Renewals, over $300k in ARR basis.  *(The CSM is the DRI, to create a Mutual Customer Success Plan.  In these cases the SA may optionally create a Technical Close Plan to capture necessary context if one did not exist, or add to the CSM's Mutual Customer Success Plan as needed.)*
 
 SA Managers have discretion for additional opportunities to be included or excluded
 
