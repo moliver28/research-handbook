@@ -180,11 +180,11 @@ As we have a lot of involvement with our stable counterparts and reliability tea
 ### Prioritization labeling
 
 To indicate priority of issues during an iteration we may use labels `~"Runner::P1" ~"Runner::P2" ~"Runner::P3"`.
-At a minimum we will always identify our top priorities using `~"Runner::P1"`.
+At a minimum we will always identify our top priorities using {{< label name="Runner::P1" color="#CC0000" >}}.
 
-1. `~"Runner::P1"` means "elevated priority". We aim to deliver all or most of these issues.
-1. `~"Runner::P2"` means "normal priority".
-1. `~"Runner::P3"` means "reduced priority".
+1. {{< label name="Runner::P1" color="#CC0000" >}} means "elevated priority". We aim to deliver all or most of these issues.
+1. {{< label name="Runner::P2" color="#F0AD4E" light="true" >}} means "normal priority".
+1. {{< label name="Runner::P3" color="#fcf403" light="true" >}} means "reduced priority".
 1. `~"Runner::P*"` labels can and should differ from `~priority:*` labels.
     [`~priority:*`](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#priority) labels imply the timeline for when issues will be addressed.
     While `~"Runner::P*"` indicate priority for the scheduled iteration.
@@ -199,7 +199,7 @@ Sometimes we need to increase our confidence that the proposed solution meets th
 
 Following the design and validation phases, the problem should already be broken down into the quickest change possible to improve the user's outcome and be ready for a more detailed review by engineering before moving to the [build track](/handbook/product-development-flow/#build-track).
 
-Once the PM intends to prioritize the issue for the next milestone, the `~"workflow::planning breakdown"` label is applied and the EM will assign a developer to further break down and apply weights to that work so that the issue can be `~"workflow::ready for development"`.
+Once the PM intends to prioritize the issue for the next milestone, the {{< label name="workflow::planning breakdown" color="#428BCA" >}} label is applied and the EM will assign a developer to further break down and apply weights to that work so that the issue can be {{< label name="workflow::ready for development" color="#428BCA" >}}.
 
 ### Release
 

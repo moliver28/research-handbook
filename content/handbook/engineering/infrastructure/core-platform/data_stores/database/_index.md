@@ -39,7 +39,7 @@ Whenever possible, we prefer to communicate asynchronously using issues, merge r
 
 ## Work
 
-We follow the GitLab [engineering workflow](/handbook/engineering/workflow/) guidelines.  To bring an issue to our attention please create an issue in the relevant project.  Add the `~"group::database"` label along with any other relevant labels.  If it is an urgent issue, please reach out to the Product Manager or Engineering Manager listed in the [Stable Counterparts](/handbook/engineering/infrastructure/core-platform/data_stores/database/) section above.
+We follow the GitLab [engineering workflow](/handbook/engineering/workflow/) guidelines.  To bring an issue to our attention please create an issue in the relevant project.  Add the {{< label name="group::database" color="#A8D695" light="true" >}} label along with any other relevant labels.  If it is an urgent issue, please reach out to the Product Manager or Engineering Manager listed in the [Stable Counterparts](/handbook/engineering/infrastructure/core-platform/data_stores/database/) section above.
 
 ### What we do
 

@@ -8,7 +8,7 @@ get merged into GitLab.
 
 ## Responsibilities
 
-- Triage merge requests labeled [`~"Community contribution"`](https://gitlab.com/groups/gitlab-org/-/merge_requests?scope=all&state=opened&label_name[]=Community%20contribution) according to the [Wider Community Merge Request Triage policy](/handbook/engineering/infrastructure/engineering-productivity/merge-request-triage).
+- Triage merge requests labeled [{{< label name="Community contribution" color="#a8d695" light="true" >}}](https://gitlab.com/groups/gitlab-org/-/merge_requests?scope=all&state=opened&label_name[]=Community%20contribution) according to the [Wider Community Merge Request Triage policy](/handbook/engineering/infrastructure/engineering-productivity/merge-request-triage).
 - Close merge requests that we don't want, with a clear explanation on the
   reasons why, so that people don't feel discouraged but incentivized that they can make a difference next time.
 - Help contributors to get their merge requests to meet the

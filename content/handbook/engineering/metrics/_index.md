@@ -88,31 +88,31 @@ We use the following type labels to classify our Issues and Merge Requests.
 
 The 3 types (Bug, Feature & Maintenance) is key to our report to industry analysts. It is important for GitLab to communicate effort spent into a format that is easily understandable widely in the industry. We provide this [metric](https://app.periscopedata.com/app/gitlab/976817/Merge-Request-Types) to our leadership reporting and improve the accuracy with subtypes categorization. The 3 top level types can be applied without having to apply a sub-category type.
 
-1. `~"type::bug"`: Defects in shipped code and fixes for those defects. Read more about [features vs bugs](/handbook/product/product-processes/#issues).
-   - `~"bug::performance"`: Performance defects or response time degradation
-   - `~"bug::availability"`: Defects related to GitLab SaaS availability. See [the definition](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#availability) for more guidance.
-   - `~"bug::vulnerability"`: Defects related to Security Vulnerabilities
-   - `~"bug::mobile"`: Defects encountered on Mobile Devices
-   - `~"bug::functional"`: Functional defects resulting from feature changes
-   - `~"bug::ux"`: Unexpected and unintended behavior that is detrimental to the user experience.
-   - `~"bug::transient"`: Defects that are transient.
-   - _Note:_ **New** documentation or **new** feature flags that relate to `~"type::bug"` are considered `~"type::bug"`.
-1. `~"type::feature"`: Effort to deliver new features, feature changes & improvements. Read more about [features vs bugs](/handbook/product/product-processes/#issues).
-   - `~"feature::addition"`: The first MVC that gives GitLab users a foundation of new capabilities that were previously unavailable. Includes [good user value, usability, and tests](https://about.gitlab.com/blog/2021/12/01/dont-confuse-these-twelve-shortcuts-with-iteration/). For example, these issues together helped create the first MVC for our Reviewer feature: [Create a Reviewers sidebar widget](https://gitlab.com/gitlab-org/gitlab/-/issues/237921), [Show which reviewers have commented on an MR](https://gitlab.com/gitlab-org/gitlab/-/issues/10294), [Add reviewers to MR form](https://gitlab.com/gitlab-org/gitlab/-/issues/216054), [Increase MR counter on navbar when user is designated as reviewer](https://gitlab.com/gitlab-org/gitlab/-/issues/255102)
-   - `~"feature::enhancement"`: Subsequent user-facing improvements that refine the initial MVC by adding additional capabilities that make it more useful. Includes [good user value, usability, and tests](https://about.gitlab.com/blog/2021/12/01/dont-confuse-these-twelve-shortcuts-with-iteration/). For example, these issues enhance the existing Reviewer feature: [Show MRs where user is designated as a Reviewer on the MR list page](https://gitlab.com/gitlab-org/gitlab/-/issues/237922), [Display which approval rules match a given reviewer](https://gitlab.com/gitlab-org/gitlab/-/issues/233736), [Add Reviewers quick action](https://gitlab.com/gitlab-org/gitlab/-/issues/241244)
-   - `~"feature::consolidation"`: Merging a feature into an existing feature for simplification. For example, [Workspace project: (Consolidate Groups and Projects)](https://gitlab.com/groups/gitlab-org/-/epics/6473) and [Combine Top Navigation Menu](https://gitlab.com/groups/gitlab-org/-/epics/5645) are good examples of such work.
-   - _Note:_ **New** documentation or **new** feature flags that relate to `~"type::feature"` are considered `~"type::feature"`.
-1. `~"type::maintenance"`: Upkeeping efforts & catch-up corrective improvements that are not Features nor Bugs. This includes removing or altering feature flags, removing whole features, merge requests that only include new specs or tests, documentation updates/changes (not including new documentation), restructuring for long-term maintainability, stability, reducing technical debt, improving the contributor experience, or upgrading dependencies and packages. For example: [Refactoring the CI YAML config parser](https://gitlab.com/gitlab-org/gitlab-foss/-/issues/15060), [Updating software versions in our tech stack](https://gitlab.com/gitlab-org/ci-cd/codequality/-/issues/22), [Recalculating UUIDs for vulnerabilities using UUIDv5](https://gitlab.com/gitlab-org/gitlab/-/issues/212322)
-   - `~"maintenance::refactor"`: Simplifying or restructuring existing code or documentation
-   - `~"maintenance::removal"`: Deprecation and removal of a functionality when it's no longer needed.
-   - `~"maintenance::dependency"`: Dependency updates and their version upgrades
-   - `~"maintenance::scalability"`: Modification to improve the scalability of GitLab that is not a user facing change or performance improvement. For example changing a column from INT to BIGINT.
-   - `~"maintenance::usability"`: General improvements to product usability that are unrelated to feature prioritization. For example, [UI component](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/80903) and [UI text](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/80457) updates for consistency with Pajamas and [usability improvements](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/79888).
-   - `~"maintenance::test-gap"`: Test coverage improvements that were not included in feature prioritization.
-   - `~"maintenance::pipelines"`: Pipeline related changes.
-   - `~"maintenance::workflow"`: Improvements of the engineering tooling like Danger, RuboCop, linters, issue templates, etc.
-   - `~"maintenance::performance"`: Non-defect performance improvements such as load time for a specific page or component, or run time for a specific process.
-   - `~"maintenance::release"`: Release management related changes.
+1. {{< label name="type::bug" color="#cc0000" >}}: Defects in shipped code and fixes for those defects. Read more about [features vs bugs](/handbook/product/product-processes/#issues).
+   - {{< label name="bug::performance" color="#CC0000" >}}: Performance defects or response time degradation
+   - {{< label name="bug::availability" color="#CC0000" >}}: Defects related to GitLab SaaS availability. See [the definition](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#availability) for more guidance.
+   - {{< label name="bug::vulnerability" color="#CC0000" >}}: Defects related to Security Vulnerabilities
+   - {{< label name="bug::mobile" color="#CC0000" >}}: Defects encountered on Mobile Devices
+   - {{< label name="bug::functional" color="#CC0000" >}}: Functional defects resulting from feature changes
+   - {{< label name="bug::ux" color="#9400d3" >}}: Unexpected and unintended behavior that is detrimental to the user experience.
+   - {{< label name="bug::transient" color="#CC0000" >}}: Defects that are transient.
+   - _Note:_ **New** documentation or **new** feature flags that relate to {{< label name="type::bug" color="#cc0000" >}} are considered {{< label name="type::bug" color="#cc0000" >}}.
+1. {{< label name="type::feature" color="#009966" >}}: Effort to deliver new features, feature changes & improvements. Read more about [features vs bugs](/handbook/product/product-processes/#issues).
+   - {{< label name="feature::addition" color="#F0AD4E" light="true" >}}: The first MVC that gives GitLab users a foundation of new capabilities that were previously unavailable. Includes [good user value, usability, and tests](https://about.gitlab.com/blog/2021/12/01/dont-confuse-these-twelve-shortcuts-with-iteration/). For example, these issues together helped create the first MVC for our Reviewer feature: [Create a Reviewers sidebar widget](https://gitlab.com/gitlab-org/gitlab/-/issues/237921), [Show which reviewers have commented on an MR](https://gitlab.com/gitlab-org/gitlab/-/issues/10294), [Add reviewers to MR form](https://gitlab.com/gitlab-org/gitlab/-/issues/216054), [Increase MR counter on navbar when user is designated as reviewer](https://gitlab.com/gitlab-org/gitlab/-/issues/255102)
+   - {{< label name="feature::enhancement" color="#F0AD4E" light="true" >}}: Subsequent user-facing improvements that refine the initial MVC by adding additional capabilities that make it more useful. Includes [good user value, usability, and tests](https://about.gitlab.com/blog/2021/12/01/dont-confuse-these-twelve-shortcuts-with-iteration/). For example, these issues enhance the existing Reviewer feature: [Show MRs where user is designated as a Reviewer on the MR list page](https://gitlab.com/gitlab-org/gitlab/-/issues/237922), [Display which approval rules match a given reviewer](https://gitlab.com/gitlab-org/gitlab/-/issues/233736), [Add Reviewers quick action](https://gitlab.com/gitlab-org/gitlab/-/issues/241244)
+   - {{< label name="feature::consolidation" color="#F0AD4E" light="true" >}}: Merging a feature into an existing feature for simplification. For example, [Workspace project: (Consolidate Groups and Projects)](https://gitlab.com/groups/gitlab-org/-/epics/6473) and [Combine Top Navigation Menu](https://gitlab.com/groups/gitlab-org/-/epics/5645) are good examples of such work.
+   - _Note:_ **New** documentation or **new** feature flags that relate to {{< label name="type::feature" color="#009966" >}} are considered {{< label name="type::feature" color="#009966" >}}.
+1. {{< label name="type::maintenance" color="#330066" >}}: Upkeeping efforts & catch-up corrective improvements that are not Features nor Bugs. This includes removing or altering feature flags, removing whole features, merge requests that only include new specs or tests, documentation updates/changes (not including new documentation), restructuring for long-term maintainability, stability, reducing technical debt, improving the contributor experience, or upgrading dependencies and packages. For example: [Refactoring the CI YAML config parser](https://gitlab.com/gitlab-org/gitlab-foss/-/issues/15060), [Updating software versions in our tech stack](https://gitlab.com/gitlab-org/ci-cd/codequality/-/issues/22), [Recalculating UUIDs for vulnerabilities using UUIDv5](https://gitlab.com/gitlab-org/gitlab/-/issues/212322)
+   - {{< label name="maintenance::refactor" color="#7f8c8d" >}}: Simplifying or restructuring existing code or documentation
+   - {{< label name="maintenance::removal" color="#7f8c8d" >}}: Deprecation and removal of a functionality when it's no longer needed.
+   - {{< label name="maintenance::dependency" color="#7f8c8d" >}}: Dependency updates and their version upgrades
+   - {{< label name="maintenance::scalability" color="#330066" >}}: Modification to improve the scalability of GitLab that is not a user facing change or performance improvement. For example changing a column from INT to BIGINT.
+   - {{< label name="maintenance::usability" color="#7f8c8d" >}}: General improvements to product usability that are unrelated to feature prioritization. For example, [UI component](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/80903) and [UI text](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/80457) updates for consistency with Pajamas and [usability improvements](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/79888).
+   - {{< label name="maintenance::test-gap" color="#7f8c8d" >}}: Test coverage improvements that were not included in feature prioritization.
+   - {{< label name="maintenance::pipelines" color="#7f8c8d" >}}: Pipeline related changes.
+   - {{< label name="maintenance::workflow" color="#7f8c8d" >}}: Improvements of the engineering tooling like Danger, RuboCop, linters, issue templates, etc.
+   - {{< label name="maintenance::performance" color="#7f8c8d" >}}: Non-defect performance improvements such as load time for a specific page or component, or run time for a specific process.
+   - {{< label name="maintenance::release" color="#7f8c8d" >}}: Release management related changes.
 
 
 If these labels are missing, it will be tracked in the `undefined` bucket instead.
@@ -129,35 +129,35 @@ As of %16.7, with certain [internal projects](https://gitlab.com/gitlab-com/Prod
 Large efforts will occasionally undergo a spike to identify & research technical approaches to complete the work. Spike efforts shall be classified with the following guidelines:
 
 1. Classifying the spike based on type of work that the spike will result in. For example:
-   - A spike to enhance a feature should be classified as `~"feature::enhancement"` and `~"type::feature"`
-   - A spike to update dependencies, upgrade versions of underlying libraries should be classified as `~"maintenance::dependency"` and `~"type::maintenance"`
+   - A spike to enhance a feature should be classified as {{< label name="feature::enhancement" color="#F0AD4E" light="true" >}} and {{< label name="type::feature" color="#009966" >}}
+   - A spike to update dependencies, upgrade versions of underlying libraries should be classified as {{< label name="maintenance::dependency" color="#7f8c8d" >}} and {{< label name="type::maintenance" color="#330066" >}}
 1. If the spike will result in multiple types of work, choose the type that is of the majority of the resulting work (e.g. more than half).
 
 ### Additional guidance
 
 #### `~"Community contribution"`
 
-`~"Community contribution"` was intended to track community contributions as a top-level type, but it's now only a facet label and a merge request should always get a proper type label set in addition.
+{{< label name="Community contribution" color="#a8d695" light="true" >}} was intended to track community contributions as a top-level type, but it's now only a facet label and a merge request should always get a proper type label set in addition.
 
-Community contributions are welcome in all areas of GitLab, so any type label can be set on `~"Community contribution"` merge requests.
+Community contributions are welcome in all areas of GitLab, so any type label can be set on {{< label name="Community contribution" color="#a8d695" light="true" >}} merge requests.
 
 #### `~"security"`
 
-`~"security"` was intended to track security-related merge requests as a top-level type, but it's now only a facet label and a merge request should always get a proper type label set in addition.
+{{< label name="security" color="#d9534f" >}} was intended to track security-related merge requests as a top-level type, but it's now only a facet label and a merge request should always get a proper type label set in addition.
 
-This guidance may be helpful if you are wondering the go-forward type label based on your use case for applying `~"security"`:
+This guidance may be helpful if you are wondering the go-forward type label based on your use case for applying {{< label name="security" color="#d9534f" >}}:
 
-- `~"type::feature"` for new security features that aren't fixing an existing vulnerability
-- `~"type::bug"` for any other security changes
+- {{< label name="type::feature" color="#009966" >}} for new security features that aren't fixing an existing vulnerability
+- {{< label name="type::bug" color="#cc0000" >}} for any other security changes
 
 #### `~"documentation"`
 
-`~"documentation"` was intended to track documentation-only merge requests as a top-level type, but it's now only a facet label and a merge request should always get a proper type label set in addition.
+{{< label name="documentation" color="#D10069" >}} was intended to track documentation-only merge requests as a top-level type, but it's now only a facet label and a merge request should always get a proper type label set in addition.
 
-This guidance may be helpful if you are wondering the go-forward type label based on your use case for applying `~"documentation"`:
+This guidance may be helpful if you are wondering the go-forward type label based on your use case for applying {{< label name="documentation" color="#D10069" >}}:
 
-- `~"type::feature"` for new feature documentation (this type would usually be already set on merge requests that introduce a new feature)
-- `~"type::maintenance"` for any other documentation changes
+- {{< label name="type::feature" color="#009966" >}} for new feature documentation (this type would usually be already set on merge requests that introduce a new feature)
+- {{< label name="type::maintenance" color="#330066" >}} for any other documentation changes
 
 #### `~"backstage"`
 
@@ -165,14 +165,14 @@ This guidance may be helpful if you are wondering the go-forward type label base
 
 This guidance may be helpful if you are wondering the go-forward type label based on your use case for applying `~"backstage"`:
 
-- `~"type::maintenance"`
-  - for industry standard and refactoring changes such as: `~"technical debt"`, `~"railsx.y"`, `~"Architecture Decision"`, non-`~"security"` `~"dependency update"`
+- {{< label name="type::maintenance" color="#330066" >}}
+  - for industry standard and refactoring changes such as: `~"technical debt"`, `~"railsx.y"`, `~"Architecture Decision"`, non-{{< label name="security" color="#d9534f" >}} `~"dependency update"`
   - for addition or updates to specs for existing GitLab features
-- `~"type::feature"`
-  - and `~"feature::addition"` for all changes related to the release of a new feature
-  - and `~"feature::enhancement"` for user-facing improvements that refine the initial MVC to make it more useful and usable.
-- `~"maintenance::workflow"` for changes to engineering workflows such as `~"Danger bot"`, `~"static analysis"`, release tooling, Docs tooling changes
-- `~"maintenance::pipelines"` for changes to project pipeline configurations
+- {{< label name="type::feature" color="#009966" >}}
+  - and {{< label name="feature::addition" color="#F0AD4E" light="true" >}} for all changes related to the release of a new feature
+  - and {{< label name="feature::enhancement" color="#F0AD4E" light="true" >}} for user-facing improvements that refine the initial MVC to make it more useful and usable.
+- {{< label name="maintenance::workflow" color="#7f8c8d" >}} for changes to engineering workflows such as {{< label name="Danger bot" color="#FF0000" >}}, `~"static analysis"`, release tooling, Docs tooling changes
+- {{< label name="maintenance::pipelines" color="#7f8c8d" >}} for changes to project pipeline configurations
 
 ### Stage and Group labels
 

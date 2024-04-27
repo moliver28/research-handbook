@@ -40,7 +40,7 @@ We hope it's a good entry point to learn more about who we are and what we do.
 
 ### Communication
 
-To get in touch with the Foundations team, it's best to create an issue in the relevant project (typically [GitLab], [Pajamas] or [GitLab UI]) and add the `~"group::foundations"` label, along with any other appropriate labels.
+To get in touch with the Foundations team, it's best to create an issue in the relevant project (typically [GitLab], [Pajamas] or [GitLab UI]) and add the {{< label name="group::foundations" color="#A8D695" light="true" >}} label, along with any other appropriate labels.
 Then, ping the relevant Product Manager and/or Engineering Manager (see [team members](#team-members)).
 
 For more urgent items or if you are unsure who to ask, ping `@gitlab-org/manage/foundations` or use [#g_manage_foundations] on Slack (internal only).

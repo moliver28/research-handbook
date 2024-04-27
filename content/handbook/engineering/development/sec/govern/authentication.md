@@ -147,7 +147,7 @@ When estimating development work, please add the appropriate weight to the issue
 
 We do not provide estimates greater than 8. If an issue is bigger, we will split the issue or reduce its scope.
 
-If the issue has weight 5 or less, the Engineer adding an estimate should also put the `~"workflow::ready for development"` label on it.
+If the issue has weight 5 or less, the Engineer adding an estimate should also put the {{< label name="workflow::ready for development" color="#428BCA" >}} label on it.
 
 If the issue has weight more than 5 (or 5 but it seems it might be split into multiple issues) the Engineer will suggest how to split it. If the Engineer is clear about the splitting they should proactively split the issue themself, put estimations on the child issues and leave a comment on the parent one. If it results to multiple issues, creating an epic should be considered.
 

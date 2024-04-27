@@ -670,7 +670,7 @@ There are [related issue links] on the incident template that should be used to 
 
 ### Alert Silences
 
-If an [alert silence](https://gitlab.com/gitlab-com/runbooks/-/blob/master/docs/monitoring/alerts_manual.md#silencing) is created for an active incident, the incident should be resolved with the `~"alertmanager-silence"` label and the appropriate root cause label if it is known.
+If an [alert silence](https://gitlab.com/gitlab-com/runbooks/-/blob/master/docs/monitoring/alerts_manual.md#silencing) is created for an active incident, the incident should be resolved with the {{< label name="alertmanager-silence" color="#428BCA" >}} label and the appropriate root cause label if it is known.
 There should also be a linked ~infradev issue for the long term solution or an investigation issue created using the [related issue links] on the incident template.
 
 ### Incident Board

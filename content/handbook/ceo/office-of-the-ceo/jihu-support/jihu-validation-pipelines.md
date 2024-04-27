@@ -20,7 +20,7 @@ To revisit this policy, checkout: [Disallow as-if-jh pipeline to fail](https://g
 
 We run the validation pipelines when we detected that the changes is more
 likely to break JiHu's pipeline. The detection is automated and we can also
-apply label `~"pipeline:run-as-if-jh"` to force it if not detected.
+apply label {{< label name="pipeline:run-as-if-jh" color="#cc338b" >}} to force it if not detected.
 
 Job `start-as-if-jh` will trigger a cross project downstream pipeline in the
 [GitLab JH validation](https://gitlab.com/gitlab-org-sandbox/gitlab-jh-validation) project.
@@ -34,8 +34,8 @@ validation pipeline, checkout:
 In the case when the validation pipeline failed, follow this workflow:
 
 - Check if the failure is known by searching for existing issues or merge requests:
-  - [Issues labeled with `~"JiHu Broken Pipeline"`](https://gitlab.com/gitlab-org/gitlab/-/issues/?label_name%5B%5D=JiHu%20Broken%20Pipeline)
-  - [Merge requests labeled with `~"JiHu Broken Pipeline"`](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/?label_name%5B%5D=JiHu%20Broken%20Pipeline)
+  - [Issues labeled with {{< label name="JiHu Broken Pipeline" color="#ff0000" >}}](https://gitlab.com/gitlab-org/gitlab/-/issues/?label_name%5B%5D=JiHu%20Broken%20Pipeline)
+  - [Merge requests labeled with {{< label name="JiHu Broken Pipeline" color="#ff0000" >}}](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/?label_name%5B%5D=JiHu%20Broken%20Pipeline)
   - [JiHu's issues labeled with `~"main-jh broken"`](https://jihulab.com/gitlab-cn/gitlab/-/issues/?label_name%5B%5D=main-jh%20broken)
   - [JiHu's merge requests labeled with `~"main-jh broken"`](https://jihulab.com/gitlab-cn/gitlab/-/merge_requests?label_name%5B%5D=main-jh%20broken)
 - Check if [JiHu's pipelines](https://jihulab.com/gitlab-cn/gitlab/-/pipelines?ref=main-jh) are broken
@@ -46,5 +46,5 @@ or merge request, and move on.
 If nothing can be found, follow this workflow:
 
 - Create an issue and notify JiHu for the potential breakage. You can contact [@chaomao](https://gitlab.com/chaomao)
-- Add `~"JiHu impacted"` label to the merge request so we can track this.
+- Add {{< label name="JiHu impacted" color="#ed9121" >}} label to the merge request so we can track this.
 - (Bonus) Investigate the failure and follow up accordingly. This can be telling JiHu why and how the failure can happen, or what they need to do or what they need to change. To better support them, figuring out a way so they can more easily follow up is encouraged.

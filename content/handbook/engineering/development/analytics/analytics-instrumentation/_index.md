@@ -33,8 +33,8 @@ _(DRI: The team/individual detecting the issue)_
 
 1. Create an issue and fill all necessary information using the [Analytics Instrumentation Incident Template](https://gitlab.com/gitlab-org/gitlab/-/issues/new?issuable_template=Analytics+Instrumentation+Incident).
 1. Add appropriate label using the below guideline
-    - `~"Analytics Instrumentation::Incident-High Severity"` for impending loss of data for many metrics or moderate to severe loss in business critical metrics that have a performance_indicator_type value.
-    - `~"Analytics Instrumentation::Incident-Medium Severity"` for data delay.
+    - {{< label name="Analytics Instrumentation::Incident-High Severity" color="#dc143c" >}} for impending loss of data for many metrics or moderate to severe loss in business critical metrics that have a performance_indicator_type value.
+    - {{< label name="Analytics Instrumentation::Incident-Medium Severity" color="#ed9121" >}} for data delay.
     - For cases when there is minimal impact on data and manual steps or correction is needed, please raise a bug rather than an incident.
 1. Assign the issue to [Analytics Instrumentation Group PM and EM](/handbook/engineering/development/analytics/analytics-instrumentation/#team-members).
 1. Post in the [#g_analyze_analytics_instrumentation](https://gitlab.slack.com/archives/CL3A7GFPF) slack channel and tag [Analytics Instrumentation Group PM and EM](/handbook/engineering/development/analytics/analytics-instrumentation/#team-members).
@@ -124,22 +124,22 @@ Our team use the following workflow stages defined in the [Product Development F
 
 | Label | Usage |
 | -- | -- |
-| `~"workflow::validation backlog"` | Applied by the Product Manager for incoming issues that have not been refined or prioritized. |
-| `~"workflow::problem validation"` | Applied by the Product Manager for issues where the PM is developing a thorough understanding of the problem |
-| `~"workflow::design"` | Applied by the Product Manager or Designer (or Analytics Instrumentation Engineer) to ideate and propose solutions. The proposed solutions should be reviewed by engineering to ensure technical feasibility. |
-| `~"workflow::solution validation"` | Applied by the Product Manager or Designer (or Analytics Instrumentation Engineer) to validate a proposed solution through user interviews or usability testing. |
+| {{< label name="workflow::validation backlog" color="#428BCA" >}} | Applied by the Product Manager for incoming issues that have not been refined or prioritized. |
+| {{< label name="workflow::problem validation" color="#428BCA" >}} | Applied by the Product Manager for issues where the PM is developing a thorough understanding of the problem |
+| {{< label name="workflow::design" color="#428BCA" >}} | Applied by the Product Manager or Designer (or Analytics Instrumentation Engineer) to ideate and propose solutions. The proposed solutions should be reviewed by engineering to ensure technical feasibility. |
+| {{< label name="workflow::solution validation" color="#428BCA" >}} | Applied by the Product Manager or Designer (or Analytics Instrumentation Engineer) to validate a proposed solution through user interviews or usability testing. |
 
 #### Build stage
 
 | Label | Usage |
 | -- | -- | -- |
-| `~"workflow::planning breakdown"` | Applied by the Product Manager for Engineers to begin breaking down issues and [adding estimates](#estimation). |
-| `~"workflow::ready for development"` |  Applied by either Engineering or Product Manager after an issue has been broken down and scheduled for development. |
-| `~"workflow::in dev"` | Applied by the Engineer after work (including documentation) has begun on the issue. An MR is typically linked to the issue at some point throughout this stage. |
-| `~"workflow::in review"` | Applied by the Engineer indicating that all MRs required to close an issue are in review. |
-| `~"workflow::verification"` | Applied by the Engineer after the MRs in the issue have been merged, this label is applied signaling the issue needs to be verified in staging or production. |
-| `~"workflow::complete"` | Applied by the Engineer after all MRs have merged and the issue has been verified. At this step, the issue should also be closed. |
-| `~"workflow::blocked"` | Applied by any team member if at any time during development the issue is blocked. For example: technical issue, open question to PM or PD, cross-group dependency. |
+| {{< label name="workflow::planning breakdown" color="#428BCA" >}} | Applied by the Product Manager for Engineers to begin breaking down issues and [adding estimates](#estimation). |
+| {{< label name="workflow::ready for development" color="#428BCA" >}} |  Applied by either Engineering or Product Manager after an issue has been broken down and scheduled for development. |
+| {{< label name="workflow::in dev" color="#428BCA" >}} | Applied by the Engineer after work (including documentation) has begun on the issue. An MR is typically linked to the issue at some point throughout this stage. |
+| {{< label name="workflow::in review" color="#428BCA" >}} | Applied by the Engineer indicating that all MRs required to close an issue are in review. |
+| {{< label name="workflow::verification" color="#428BCA" >}} | Applied by the Engineer after the MRs in the issue have been merged, this label is applied signaling the issue needs to be verified in staging or production. |
+| {{< label name="workflow::complete" color="#428BCA" >}} | Applied by the Engineer after all MRs have merged and the issue has been verified. At this step, the issue should also be closed. |
+| {{< label name="workflow::blocked" color="#428BCA" >}} | Applied by any team member if at any time during development the issue is blocked. For example: technical issue, open question to PM or PD, cross-group dependency. |
 
 
 ### Epic roadmap
@@ -390,7 +390,7 @@ MR labels should mirror issue labels (which is automatically done when created f
 **Required labels**
 - Section: `~section::analytics`
 - Group: `~group::analytics instrumentation`
-- [Type:](/handbook/engineering/metrics/#work-type-classification) `~"type::bug"`, `~"type::feature"`, `~"type::tooling"`, `~"type::maintenance"`
+- [Type:](/handbook/engineering/metrics/#work-type-classification) {{< label name="type::bug" color="#cc0000" >}}, {{< label name="type::feature" color="#009966" >}}, `~"type::tooling"`, {{< label name="type::maintenance" color="#330066" >}}
 
 ### Milestones
 

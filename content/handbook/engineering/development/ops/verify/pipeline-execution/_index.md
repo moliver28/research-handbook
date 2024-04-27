@@ -342,9 +342,9 @@ Our planning timeline follows the [GitLab Product Development timeline](/handboo
   - The EM and/PM will ensure that the WIP limit is set appropriately on the `workflow::ready for development` column based on the average closed weight of past milestones.
 
 - By Wednesday, 15 days before the release day:
-  - The SET/QEM submits a list of `~"type::bug"` issues for the upcoming milestone on the planning issue. The weight for these issues + any `Verify::P1, type::bug` issues should total approximately 40% of the WIP limit for the `~"workflow::ready for development"` column.
-  - The EM submits the list of `~"type::maintenance"` issues for the upcoming milestone on the planning issue. The weight for these issues + any `Verify::P1, type::maintenance` issues should total approximately 40% of the WIP limit for the `~"workflow::ready for development"` column.
-  - The PM will provide the list of `~"type::feature"` issues for the upcoming milestone. The weight for these issues + any `Verify::P1, type::feature` issues should total approximately 20% of the WIP limit for the `~"workflow::ready for development"` column.
+  - The SET/QEM submits a list of {{< label name="type::bug" color="#cc0000" >}} issues for the upcoming milestone on the planning issue. The weight for these issues + any `Verify::P1, type::bug` issues should total approximately 40% of the WIP limit for the {{< label name="workflow::ready for development" color="#428BCA" >}} column.
+  - The EM submits the list of {{< label name="type::maintenance" color="#330066" >}} issues for the upcoming milestone on the planning issue. The weight for these issues + any `Verify::P1, type::maintenance` issues should total approximately 40% of the WIP limit for the {{< label name="workflow::ready for development" color="#428BCA" >}} column.
+  - The PM will provide the list of {{< label name="type::feature" color="#009966" >}} issues for the upcoming milestone. The weight for these issues + any `Verify::P1, type::feature` issues should total approximately 20% of the WIP limit for the {{< label name="workflow::ready for development" color="#428BCA" >}} column.
 
 - By the Monday the week the milestone ends:
   - Planning issue is finalized and PM will tag manager, SET/QEM, Product Design, engineers, and EM for review and feedback.

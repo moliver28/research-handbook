@@ -26,8 +26,8 @@ When weighting, think about knowns and complexity related to recently completed 
 | When | Activity | DRI |
 | --- | --- | --- |
 | Weekly | Assign `~priority::1`, `~priority::2` issues to a milestone | Engineering Productivity Engineering Manager |
-| Weekly | Weight issues identified with `~"needs weight"` | Engineering Productivity Backend Engineer |
-| Weekly | Prioritize all `~"Engineering Productivity"` issues | Engineering Productivity Engineering Manager |
+| Weekly | Weight issues identified with {{< label name="needs weight" color="#a295d6" >}} | Engineering Productivity Backend Engineer |
+| Weekly | Prioritize all {{< label name="Engineering Productivity" color="#D10069" >}} issues | Engineering Productivity Engineering Manager |
 | 2 weeks prior to milestone start | Milestone planned work is identified and scheduled | Engineering Productivity Engineering Manager |
 | 2 weeks prior to milestone start | Provide feedback on planned work | Engineering Productivity team |
 | 1 week prior to milestone start | Transition any work that is not in progress for current milestone to upcoming milestone | Engineering Productivity Engineering Manager |

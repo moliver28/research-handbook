@@ -16,11 +16,11 @@ The Expansion Team at GitLab focuses on running experiments to increase the expa
 
 ## Communication
 
-- [Public Issue Board](https://gitlab.com/gitlab-org/growth/product/-/issues/new?issue%5Bassignee_id%5D=&issue%5Bmilestone_id%5D=); to propose an experiment for the `~"group::expansion"` team, create a new issue label it with `~"devops::growth"` `~"group::expansion"`
+- [Public Issue Board](https://gitlab.com/gitlab-org/growth/product/-/issues/new?issue%5Bassignee_id%5D=&issue%5Bmilestone_id%5D=); to propose an experiment for the {{< label name="group::expansion" color="#6699cc" >}} team, create a new issue label it with {{< label name="devops::growth" color="#E44D2A" >}} {{< label name="group::expansion" color="#6699cc" >}}
 
 ## How We Work
 
-As part of the wider Growth stage we track and work on issues with the label combination of `~"devops::growth"` `~"group::expansion"`.
+As part of the wider Growth stage we track and work on issues with the label combination of {{< label name="devops::growth" color="#E44D2A" >}} {{< label name="group::expansion" color="#6699cc" >}}.
 
 ### Product Development Flow
 

@@ -76,7 +76,7 @@ The following members of other functional teams are our stable counterparts:
 
 In general, we use the standard GitLab [engineering workflow]. To get in touch
 with the Create:Source Code FE team, it's best to create an issue in the relevant project
-(typically [GitLab]) and add the `~"group::source code"` and `~frontend` labels, along with any other
+(typically [GitLab]) and add the {{< label name="group::source code" color="#A8D695" light="true" >}} and `~frontend` labels, along with any other
 appropriate labels (`~devops::create`, `~section::dev`). Then, feel free to ping the relevant Product Manager and/or
 Engineering Manager as listed above.
 
