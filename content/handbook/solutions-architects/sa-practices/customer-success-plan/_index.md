@@ -42,7 +42,7 @@ As a follow on to the [Technical Close Plan process](https://handbook.gitlab.com
 
 ## When to Create a Mutual Customer Success Plan
 
-A Mutual Customer Success Plan should be initiated once the opportunity has completed Stage-3 Technical Evaluation, with a technical win.  This is when an SA begins to prescibe what woukld a phased adption and customer adoptuon journey looks like, in collaboration wih the customer.
+A Mutual Customer Success Plan should be initiated once the opportunity has completed Stage-3 Technical Evaluation, with a technical win.  This is when an SA begins to prescribe what a phased adoption and customer adoption journey would look like, in collaboration with the customer.
 
 
 ### Which Opportunities Should Have a Mutual Customer Success Plan?
@@ -52,8 +52,11 @@ A Mutual Customer Success Plan should be initiated once the opportunity has comp
 3. All New or Growth Opportunities over $300k net ARR, in Proposal stage (Stage-4) and beyond. *(The SA is the DRI, which is handed over to the CSM)*
 4. All existing customers with upcoming Renewals, over $300k in ARR basis.  *(The CSM is the DRI, to create a Mutual Customer Success Plan.  In these cases the SA may optionally create a Technical Close Plan to capture necessary context if one did not exist, or add to the CSM's Mutual Customer Success Plan as needed.)*
 
-SA Managers have discretion for additional opportunities to be included or excluded
+SA Managers have discretion for additional opportunities to be included or excluded.
 
+Once an opportunity has been identified using the criteria above, as requiring a Customer Success Plan, the Solutions Architect should initiate it at the end of Stage-3 Technical Evaluation, and place the URL in the Customer Success Plan field, in the opportunity, in Sales Force.
+
+See how to [initiate a Customer Success Plan from a Technical Close Plan below](/handbook/solutions-architects/sa-practices/customer-success-plan/#how-to-build-a-technical-close-plan-and-transition-to-a-customer-success-plan).
 
 ## How Does This Differ From a Technical Close Plan
 
