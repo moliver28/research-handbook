@@ -1,9 +1,7 @@
 ---
-title: "Product CSAT"
+title: "Product Customer Satisfaction (CSAT) Survey"
 description: "The Customer Satisfaction (CSAT) survey is a performance indicator we use within the Product division to measure the customer satisfaction of our product."
 ---
-
-## Product Customer Satisfaction (CSAT) survey 
 
 ### Reasons we chose to use CSAT
 
