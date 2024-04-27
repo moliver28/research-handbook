@@ -114,8 +114,8 @@ Let's describe in more detail the Day on the Life of an SA, as you progress thro
      - Next Steps:
        - Current and Desired Workflow Discussion
        - Can also do a brief "Drive by" Demo, which is a shr=ort 5 minute demo to faciliate more discovery
-	   
-    - **Meeting 2 -Scope** - Scope the Workflows to Achieve Desired Outcomes [Why Now?]
+ 
+   - **Meeting 2 -Scope** - Scope the Workflows to Achieve Desired Outcomes [Why Now?]
       - Present **"2. What We have Heard"** so far
       - Continue any Discovery on any Tool Chain per Stage/ Processes etc. that would form the foundation of a **"5. Current and Proposed Workflow Diagrams"**
       - Ask about all **"6. Applications & Use Cases/ Risks & Mitigations"** if all desired Use Cases are not accomplished.
@@ -129,7 +129,7 @@ Let's describe in more detail the Day on the Life of an SA, as you progress thro
         - Present Current and Desired Workflow Diagrams
         - Optional (Propose Workshop or Demo).
 
-    - **Meeting 3 -Scope** - Qualify the Value [Why GitLab?]
+   - **Meeting 3 -Scope** - Qualify the Value [Why GitLab?]
       - For Meeting Prep, work with your Account Executive, to shore up **"2. What We have Heard"** so far.
       - Start to develop your **"8. Technical Evaluation Plan &  Activities"**, that is, what exactly will be done to achieve a Technical Win and Decision.
       - During the third meeting Present an updated **"2. What We have Heard"** so far
@@ -140,7 +140,7 @@ Let's describe in more detail the Day on the Life of an SA, as you progress thro
       - Next Steps:
         - SA and AE to propose the next steps for Business and Technical Validation: Workshop/ Demo/ POV/ Value Stream Workshop/ Business Value Assessment
 
-    - **Meeting 4 -  Business & Technical Validation Activities** - Validate the Business and Technical Value
+   - **Meeting 4 -  Business & Technical Validation Activities** - Validate the Business and Technical Value
       - For Meeting Prep, work with your Account Executive, review the **"8. Technical Close Plan Activities"** on what will be done to achieve a Technical Win and Decision.
       - Conduct your [Technical Evaluation Plan and Activities](https://docs.google.com/presentation/d/1GnUqWluULPz_rJmwK2mno3KbzYcu1kM11tXTAZXivkg/edit#slide=id.g12b319f6181_0_0) as was decided between GitLab and the customer, e.g. Workshop, POV, Demo, Reverse Demo, Day in the Life
       - Update **"7.Activities Planned/ Completed"** in the Technical Close Plan
@@ -159,7 +159,7 @@ Let's describe in more detail the Day on the Life of an SA, as you progress thro
      - **"6. Applications & Use Cases/ Risks & Mitigations"**
      - **"7.Activities Planned/ Completed"**
      - **"9. Value Outcome Map/ Metrics"**
-    - **VERY IMPORTANT: Update the Customer Success Plan URL in the opportunity in Sales Force.**
+   - **VERY IMPORTANT: Update the Customer Success Plan URL in the opportunity in Sales Force.**
 
 3. **Meeting 5 -Proposal** - **(Stage-4:Proposal and beyond )** - Proposal and Recommendations to Achieve Customer's Outcome
    - Prep with your AE on a Proposal/ Champions Deck that includes the following from the Technical Close Plan
