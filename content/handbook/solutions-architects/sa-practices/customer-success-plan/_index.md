@@ -7,6 +7,7 @@ description: A Customer Success Plan is a customer-facing and mutually agreed ro
 ---
 
 # What is the Mutual Customer Success Plan
+
  The [**Mutual Customer Success Plan Template**](https://docs.google.com/presentation/d/1VCzXDiwJAwLu9e_JKTWCFkKbbviUWbtRySyTs75Uldc/edit#slide=id.g2a9229693f5_0_5) is a merging of the [Pre Sales Customer Success Plan](https://docs.google.com/presentation/d/1npyhUebp68YkccLlJP5R_6gmtQjfELpB1mBGWfroVmY/edit#slide=id.g24cd733349c_7_898) and the [Post Sales CSM Customer Success Plan template](https://docs.google.com/presentation/d/1T-Y2WJ-mRqGey7b1YQMTKE3tVbBTnyY3a9HzaOpxPQ4/edit#slide=id.g27c03c31d08_1_500).  It contains the following:
 
 - Customer Background
@@ -22,6 +23,7 @@ description: A Customer Success Plan is a customer-facing and mutually agreed ro
 Please use the  [**Mutual Customer Success Plan Template**](https://docs.google.com/presentation/d/1VCzXDiwJAwLu9e_JKTWCFkKbbviUWbtRySyTs75Uldc/edit#slide=id.g2a9229693f5_0_5) for all Strategic and Enterprise opporttunities.
 
 Please use the [**Commercial Customer Success Plan Template**](https://docs.google.com/presentation/d/18D2cGJKH5_qIPBwcoy24ORfiBNqw_sKr9VGnOxeqwOc/edit#slide=id.g24cd733349c_7_898) for all High Velocity or Commercial opportunities.
+
 
 ## Why Use a Mutual Customer Success Plan (CSP)
 
@@ -82,6 +84,7 @@ Here is a quick reference on what content elements are in a Technical Close Plan
 |15.|Architecture Notes:Producer (Deployment, Configuration, Integration); Consumer (Onboarding, Management,Monitoring)|||X||
 
 ### At a High Level What is the Customer Success Plan Process
+
 The Customer Success Plan process is outlined [here](https://handbook.gitlab.com/handbook/solutions-architects/processes/#customer-success-plan).
 
 Please pay attention to the responsibility of the SA to update the opportunity in Sales Force with the Customer Success Plan URL as appropriate.
@@ -158,8 +161,6 @@ Let's describe in more detail the Day on the Life of an SA, as you progress thro
 	 - _**"9. Value Outcome Map/ Metrics"**_
    - **VERY IMPORTANT: Update the Customer Success Plan URL in the opportunity in Sales Force.**
 
-
-
 3. **Meeting 5 -Proposal** - _**(Stage-4:Proposal and beyond )**_ - Proposal and Recommendations to Achieve Customer's Outcome
    - Prep with your AE on a Proposal/ Champions Deck that includes the following from the Technical Close Plan
      - _**"2. What We have Heard"**_
@@ -194,10 +195,10 @@ Let's describe in more detail the Day on the Life of an SA, as you progress thro
 |6.|PS SOWs and RunBook|||Attached|X|
 
 ### The CSM and the Customer Success Plan
+
 [Click here to learn more about the CSM's responsibity with respect to Customer Success Plans](https://handbook.gitlab.com/handbook/customer-success/csm/success-plans/).
 
 
 ## Resources
 
 This [Google Drive Folder](https://drive.google.com/drive/folders/1Bl6I8XCzjhJsr2qIxKPvFpgxYrQFwR9U) contains the [Mutual Customer Success Plan](https://docs.google.com/presentation/d/1VCzXDiwJAwLu9e_JKTWCFkKbbviUWbtRySyTs75Uldc/edit#slide=id.g2a9229693f5_0_5) starting template, an [instructional walkthrough](https://drive.google.com/file/d/1-siKID2qN_HN3X2CirGSAirAsFcUsJ_t/view), and example Customer Success Plans for [Ultimate](https://docs.google.com/presentation/d/16qs1aWshwzMViPN7esP9yvRt4KyJBAfTHxuW1x4NOcs/edit#slide=id.g2a63ef65412_0_150) and [Dedicated](https://docs.google.com/presentation/d/1n-YodJE6ZGOJ1LTT53Vk6PwwOlBf0h-XvVAVotTonf8/edit#slide=id.g24cd733349c_7_898)  as a reference.
-
