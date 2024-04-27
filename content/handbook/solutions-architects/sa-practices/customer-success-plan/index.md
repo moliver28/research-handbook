@@ -6,7 +6,7 @@ description: A Customer Success Plan is a customer-facing and mutually agreed ro
 
 ---
 
- ## What is the Mutual Customer Success Plan
+## What is the Mutual Customer Success Plan 
  The [**Mutual Customer Success Plan Template**](https://docs.google.com/presentation/d/1VCzXDiwJAwLu9e_JKTWCFkKbbviUWbtRySyTs75Uldc/edit#slide=id.g2a9229693f5_0_5) is a merging of the [Pre Sales Customer Success Plan](https://docs.google.com/presentation/d/1npyhUebp68YkccLlJP5R_6gmtQjfELpB1mBGWfroVmY/edit#slide=id.g24cd733349c_7_898) and the [Post Sales CSM Customer Success Plan template](https://docs.google.com/presentation/d/1T-Y2WJ-mRqGey7b1YQMTKE3tVbBTnyY3a9HzaOpxPQ4/edit#slide=id.g27c03c31d08_1_500).  It contains the following:
 
 - Customer Background
@@ -23,9 +23,9 @@ Please use the  [**Mutual Customer Success Plan Template**](https://docs.google.
 
 Please use the [**Commercial Customer Success Plan Template**](https://docs.google.com/presentation/d/18D2cGJKH5_qIPBwcoy24ORfiBNqw_sKr9VGnOxeqwOc/edit#slide=id.g24cd733349c_7_898) for all High Velocity or Commercial opportunities.
 
-## Why Use a Mutual Customer Success Plan (CSP)
+## Why Use a Mutual Customer Success Plan (CSP) 
 
-### Primary Objectives
+### Primary Objectives 
 
 As a follow on to the [Technical Close Plan process](https://handbook.gitlab.com/handbook/solutions-architects/sa-practices/technical-close-plan/), the Technical Close Plan can be converted into, or utilized as a Mutual Customer Success Plan, with these aims:
 
@@ -38,12 +38,12 @@ As a follow on to the [Technical Close Plan process](https://handbook.gitlab.com
 4.  For the **Go To Market Team**:  When a GitLab executive sponsor or anyone in the GTM or customer support needs to be engaged, the Mutual CSP acts as a source of truth to provide context between the customer's and Gitlab's interactions.
   
 
-## When to Create a Mutual Customer Success Plan
+## When to Create a Mutual Customer Success Plan 
  
 A Mutual Customer Success Plan should be initiated once the opportunity has completed Stage-3 Technical Evaluation, with a technical win.  This is when an SA begins to prescibe what woukld a phased adption and customer adoptuon journey looks like, in collaboration wih the customer.
 
 
-### Which Opportunities Should Have a Mutual Customer Success Plan?
+### Which Opportunities Should Have a Mutual Customer Success Plan? 
 
 1. All opportunities with an [SA Validated Tech Evaluation](/handbook/solutions-architects/processes/activity-capture/#sa-specific-opportunity-fields)
 2.  First Order opportunities for accounts with [LAM](/handbook/sales/field-operations/sales-systems/gtm-technical-documentation/#landed-addressable-market-lam) over $2M  in Proposal stage (Stage-4) and beyond.
@@ -52,8 +52,8 @@ A Mutual Customer Success Plan should be initiated once the opportunity has comp
 
 SA Managers have discretion for additional opportunities to be included or excluded
 
-  
-## How Does This Differ From a Technical Close Plan
+
+## How Does This Differ From a Technical Close Plan 
 
 In many instances, the Technical Close Plan can be used as-is for a Customer Success Plan, where the only real difference is the timing.
 
@@ -63,7 +63,7 @@ There also may be parts of the original Technical Close Plan that are no longer 
 
 Here is a quick reference on what content elements are in a Technical Close Plan vs. a Customer Success Plan:
 
-|| **Content Element** | **Technical Close Plan** |**Champion’s Deck/ Proposal**|**Mutual Customer Success Plan**|**Kick Off Call/ Onboarding EBR**|
+||**Content Element**|**Technical Close Plan**|**Champion’s Deck/ Proposal**|**Mutual Customer Success Plan**|**Kick Off Call/ Onboarding EBR**|
 |--|--|--|--|--|--|
 |1.|Company Background|X||X||
 |2.|What Have We Heard||X|X||
@@ -81,28 +81,31 @@ Here is a quick reference on what content elements are in a Technical Close Plan
 |14.|Enablement Plan|||X||
 |15.|Architecture Notes:Producer (Deployment, Configuration, Integration); Consumer (Onboarding, Management,Monitoring)|||X||
 
-### At a High Level What is the Customer Success Plan Process
+### At a High Level What is the Customer Success Plan Process 
 The Customer Success Plan process is outlined [here](https://handbook.gitlab.com/handbook/solutions-architects/processes/#customer-success-plan).
 
 Please pay attention to the responsibility of the SA to update the opportunity in Sales Force with the Customer Success Plan URL as appropriate.
 
 
-### How To Build a Technical Close Plan and Transition to a Customer Success Plan
+### How To Build a Technical Close Plan and Transition to a Customer Success Plan 
 
 Let's describe in more detail the Day on the Life of an SA, as you progress through a opportunity and how do you build a Technical Close Plan and transition to a Customer Success Plan.
 
 1. **Technical Close Plan** _**(Stage-1:Discovery to Stage-3:Technical Validation )**_
     - **Meeting 1 -Discovery** - Discover the Desired ~~Challenge~~ Outcome [Why Change?]
-        -  Research and confirm ***1. Company Background***
-        - Understand who are the ***3. Key Stakeholders***: 1.) Executive Decision Maker/ Economic Buyer, 2.) Technical Champion/Coach/ Buyer, 3.) Process or Operational Owner, and get introductions
-        - Ask about the _**4. Business Outcomes/ Strategic Initiatives**_
+        -  Research and confirm _**"1. Company Background"**_
+        - Understand who are the _**"3. Key Stakeholders"**_: 
+		   1. Executive Decision Maker/ Economic Buyer, 
+		   2. Technical Champion/Coach/ Buyer, 
+		   3. Process or Operational Owner, and get introductions
+        - Ask about the _**"4. Business Outcomes/ Strategic Initiatives"**_
         - Start Discovery on any Tool Chain per Stage/ Processes etc.
         - Whiteboard or Present very high level GitLab value
         - After Meeting create a Technical Close Plan with 
-            - _**1. Company Background**_
-            - _**2. What We have Heard**_
-            - _**3. Key Stakeholders**_
-            - _**4. Business Outcomes/ Strategic Initiatives**_
+            - _**"1. Company Background"**_
+            - _**"2. What We have Heard"**_
+            - _**"3. Key Stakeholders"**_
+            - _**"4. Business Outcomes/ Strategic Initiatives"**_
         - **VERY IMPORTANT: Update the Technical Close Plan URL in the opportunity in Sales Force.**
         - If you don't have any of the above information, because most of the time was spent answering the customer's technical questions, schedule another discovery meeting to gather the info.
         - Next Steps:
@@ -110,77 +113,78 @@ Let's describe in more detail the Day on the Life of an SA, as you progress thro
             - Can also do a brief "Drive by" Demo, which is a shr=ort 5 minute demo to faciliate more discovery
 		    
     - **Meeting 2 -Scope** - Scope the Workflows to Achieve Desired Outcomes [Why Now?]
-        - Present _**2. What We have Heard**_ so far 
-        - Continue any Discovery on any Tool Chain per Stage/ Processes etc. that would form the foundation of a _**5. Current and Proposed Workflow Diagrams**_
-		- Ask about all _**6. Applications & Use Cases/ Risks & Mitigations**_ if all desired Use Cases are not accomplished. 
+        - Present _**"2. What We have Heard"**_ so far 
+        - Continue any Discovery on any Tool Chain per Stage/ Processes etc. that would form the foundation of a _**"5. Current and Proposed Workflow Diagrams"**_
+		- Ask about all _**"6. Applications & Use Cases/ Risks & Mitigations"**_ if all desired Use Cases are not accomplished. 
 		- Present or Whiteboard GitLab Use cases and Value
 		- After Meeting update the  Technical Close Plan with
-		    - _**2. What We have Heard**_
-			- -**5. Current and Proposed Workflow Diagrams**_
-			- _**6. Applications & Use Cases/ Risks & Mitigations**_
-			- Start a _**8. Technical Evaluation Plan & Activities**_ on what will be done to achieve a Technical Win and Decision.
+		    - _**"2. What We have Heard"**_
+			- _**"5. Current and Proposed Workflow Diagrams"**_
+			- _**"6. Applications & Use Cases/ Risks & Mitigations"**_
+			- Start a _**"8. Technical Evaluation Plan & Activities"**_ on what will be done to achieve a Technical Win and Decision.
 		- Next Steps:
 		    - Present Current and Desired Workflow Diagrams
 			- Optional (Propose Workshop or Demo).
 			    
     - **Meeting 3 -Scope** - Qualify the Value [Why GitLab?]
-	    - For Meeting Prep, work with your Account Executive, to shore up _**2. What We have Heard**_ so far, and Start to develop _**8. Technical Evaluation Plan &  Activities**_, that is, what exactly will be done to achieve a Technical Win and Decision.
-		- During the third meeting Present _**2. What We have Heard**_ so far 
-		- Present the _**5. Current and Proposed Workflow Diagrams**_ and solicit feedback and discussion.
-		- Present the _**6. Applications & Use Cases/ Risks & Mitigations**_ and solicit feedback and discussion. 
+	    - For Meeting Prep, work with your Account Executive, to shore up _**"2. What We have Heard"**_ so far.
+		- Start to develop your _**"8. Technical Evaluation Plan &  Activities"**_, that is, what exactly will be done to achieve a Technical Win and Decision.
+		- During the third meeting Present an updated _**"2. What We have Heard"**_ so far 
+		- Present the _**"5. Current and Proposed Workflow Diagrams"**_ and solicit feedback and discussion.
+		- Present the _**"6. Applications & Use Cases/ Risks & Mitigations"**_ and solicit feedback and discussion. 
 		- Make sure the customer understands our value in meeting their outcomes and processes.
-		- Determine how a Technical Decision would be made and document in  _**8. Technical Evaluation Plan & Activities**_. Get agreement from Customer on the path to making a Technical Decision.
+		- Determine how a Technical Decision would be made and document in  _**"8. Technical Evaluation Plan & Activities"**_. Get agreement from Customer on the path to making a Technical Decision.
 		- Next Steps:
 		   - SA and AE to propose the next steps for Business and Technical Validation: Workshop/ Demo/ POV/ Value Stream Workshop/ Business Value Assessment    
 			    
     - **Meeting 4 -  Business & Technical Validation Activities** - Validate the Business and Technical Value
-	    - For Meeting Prep, work with your Account Executive, review the _**8. Technical Close Plan Activities**_ on what will be done to achieve a Technical Win and Decision.
+	    - For Meeting Prep, work with your Account Executive, review the _**"8. Technical Close Plan Activities"**_ on what will be done to achieve a Technical Win and Decision.
 		- Conduct your [Technical Evaluation Plan and Activities](https://docs.google.com/presentation/d/1GnUqWluULPz_rJmwK2mno3KbzYcu1kM11tXTAZXivkg/edit#slide=id.g12b319f6181_0_0) as was decided between GitLab and the customer, e.g. Workshop, POV, Demo, Reverse Demo, Day in the Life
-		- Update _**7.Activities Planned/ Completed**_ in the Technical Close Plan
-		- After the Technical Win, create a _**9. Value Outcome Map/ Metrics**_, that traces the Customer's Outcomes to be achieved, with their Strategic Initiatives, mapped to GitLab's capability and what value will it bring.  This would be used in the proposal.
+		- Update _**"7.Activities Planned/ Completed"**_ in the Technical Close Plan
+		- After the Technical Win, create a _**"9. Value Outcome Map/ Metrics"**_, that traces the Customer's Outcomes to be achieved, with their Strategic Initiatives, mapped to GitLab's capability and what value will it bring.  This would be used in the proposal.
 		- Next Steps:
 		   - After securing Technical Win, work with AE on a Proposal
 		   - Initiate the Customer Success Plan (see below)
 		    
 2. **Mutual Customer Success Plan** _**(Stage-3:Completed )**_
 	- Once Technical Validation is completed, initiate and complete. the [Mutual Customer Success plan](vhttps://docs.google.com/presentation/d/1VCzXDiwJAwLu9e_JKTWCFkKbbviUWbtRySyTs75Uldc/edit#slide=id.g2a9229693f5_0_5) with the Following elements from the Technical Close Plan
-	    - _**1. Company Background**_
-		- _**2. What We have Heard**_
-		- _**3. Key Stakeholders**_
-		- _**4. Business Outcomes/ Strategic Initiatives**_
-		- _**5. Current and Proposed Workflow Diagrams**_
-		- _**6. Applications & Use Cases/ Risks & Mitigations**_
-		- _**7.Activities Planned/ Completed**_
-		- _**9. Value Outcome Map/ Metrics**_
+	    - _**"1. Company Background"**_
+		- _**"2. What We have Heard"**_
+		- _**"3. Key Stakeholders"**_
+		- _**"4. Business Outcomes/ Strategic Initiatives"**_
+		- _**"5. Current and Proposed Workflow Diagrams"**_
+		- _**"6. Applications & Use Cases/ Risks & Mitigations"**_
+		- _**"7.Activities Planned/ Completed"**_
+		- _**"9. Value Outcome Map/ Metrics"**_
 	- **VERY IMPORTANT: Update the Customer Success Plan URL in the opportunity in Sales Force.**
 
 
 		    
-3. **Meeting 5 -Proposal** - _**(Stage-4:Proposal and beyond )**_ Proposal and Recommendations to Achieve Customer's Outcome
+3. **Meeting 5 -Proposal** - _**(Stage-4:Proposal and beyond )**_ - Proposal and Recommendations to Achieve Customer's Outcome
     - Prep with your AE on a Proposal/ Champions Deck that includes the following from the Technical Close Plan
-	    - _**2. What We have Heard**_
-		- _**4. Business Outcomes/ Strategic Initiatives**_
-		- _**5. Current and Proposed Workflow Diagrams**_
-		- _**9. Value Outcome Map/ Metrics**_
+	    - _**"2. What We have Heard"**_
+		- _**"4. Business Outcomes/ Strategic Initiatives"**_
+		- _**"5. Current and Proposed Workflow Diagrams"**_
+		- _**"9. Value Outcome Map/ Metrics"**_
 	- After Proposal Presentation, continue to update and complete the [Mutual Customer Success plan](vhttps://docs.google.com/presentation/d/1VCzXDiwJAwLu9e_JKTWCFkKbbviUWbtRySyTs75Uldc/edit#slide=id.g2a9229693f5_0_5) 
 	- **VERY IMPORTANT: Update the Customer Success Plan URL in the opportunity in Sales Force.**
 	- Next Steps:
 		- While Negotiation occurs, As the SA, set up meetings with the customer and with the CSM to add the following to the Mutual Customer Success Plan:
-		    - _**11. Users/ What was bought/ recommended**_
-			- _**12. Phased Success Plan and Adoption Journey**_
-			- _**13. Outcomes, Objectives & Activities - Bus/Technical Milestones (3/6/12 month)**_
-			- _**15. Architecture Notes:Producer (Deployment, Configuration, Integration); Consumer (Onboarding, Management,Monitoring)**_
+		    - _**"11. Users/ What was bought/ recommended"**_
+			- _**"12. Phased Success Plan and Adoption Journey"**_
+			- _**"13. Outcomes, Objectives & Activities - Bus/Technical Milestones (3/6/12 month)"**_
+			- _**"15. Architecture Notes:Producer (Deployment, Configuration, Integration); Consumer (Onboarding, Management,Monitoring)"**_
   
-4. **Mutual Customer Success Plan handoff to CSM/ Or AE and SA maintain after close** 
+4. **Mutual Customer Success Plan handoff to CSM for over 300k/ Or AE and SA maintain after close** 
     - The CSM would take the Success Plan started by the SA and add or update the following:
-	    - _**13. Outcomes, Objectives & Activities - Bus/Technical Milestones (3/6/12 month)**_
-		- _**14. Enablement Plan**_
-	- The CSM for Renewal opportunities with ARR basis over 300k may also start a Mutual CSP from _**13. Outcomes, Objectives & Activities - Bus/Technical Milestones (3/6/12 month)**_.  
+	    - _**"13. Outcomes, Objectives & Activities - Bus/Technical Milestones (3/6/12 month)"**_
+		- _**"14. Enablement Plan"**_
+	- The CSM for Renewal opportunities with ARR basis over 300k may also start a Mutual CSP from _**"13. Outcomes, Objectives & Activities - Bus/Technical Milestones (3/6/12 month)"**_.  
 	- In those cases, CSM is the one responsible to **update the Customer Success Plan URL in the Renewal opportunity in Sales Force.**
 	- The SA may optionally create a Technical Close Plan after the fact  to add all he remaining context, to understand why was GitLab bought previously and what was the customer's expectation of value from Gitlab.
 	- In addition the CSM, when conducting cadences with the Customer, is expected record the following in the Mutual Customer Success Plan:
      
-|| **Content Element** | **Technical Close Plan** |**Champion’s Deck/ Proposal**|**Mutual Success Plan**|**Kick Off Call/ Onboarding EBR**|
+||**Content Element**|**Technical Close Plan**|**Champion’s Deck/ Proposal**|**Mutual Success Plan**|**Kick Off Call/ Onboarding EBR**|
 |--|--|--|--|--|--|
 |1.|Utilization per Features/ Capabilities|||Update Utilization upon Cadence|X|
 |2.|Use Case Adoption in Prod|||Update Use Case Adoption upon Cadence|X|
@@ -189,11 +193,11 @@ Let's describe in more detail the Day on the Life of an SA, as you progress thro
 |5.|Outcome/ Metric Updates**|||Update Metrics/ Customer upon Cadence|X|
 |6.|PS SOWs and RunBook|||Attached|X|
 
-### The CSM and the Customer Success Plan
+### The CSM and the Customer Success Plan 
 [Click here to learn more about the CSM's responsibity with respect to Customer Success Plans](https://handbook.gitlab.com/handbook/customer-success/csm/success-plans/).
 
 
-## Resources
+## Resources 
 
 This [Google Drive Folder](https://drive.google.com/drive/folders/1Bl6I8XCzjhJsr2qIxKPvFpgxYrQFwR9U) contains the [Mutual Customer Success Plan](https://docs.google.com/presentation/d/1VCzXDiwJAwLu9e_JKTWCFkKbbviUWbtRySyTs75Uldc/edit#slide=id.g2a9229693f5_0_5) starting template, an [instructional walkthrough](https://drive.google.com/file/d/1-siKID2qN_HN3X2CirGSAirAsFcUsJ_t/view), and example Customer Success Plans for [Ultimate](https://docs.google.com/presentation/d/16qs1aWshwzMViPN7esP9yvRt4KyJBAfTHxuW1x4NOcs/edit#slide=id.g2a63ef65412_0_150) and [Dedicated](https://docs.google.com/presentation/d/1n-YodJE6ZGOJ1LTT53Vk6PwwOlBf0h-XvVAVotTonf8/edit#slide=id.g24cd733349c_7_898)  as a reference.
 
