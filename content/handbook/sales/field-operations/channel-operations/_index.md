@@ -1059,4 +1059,4 @@ The executed compensation letter should be the approved and legal source of trut
 
 [Sales Commissions Internal Handbook](https://internal.gitlab.com/handbook/sales/sales-commission/?redirected-from=internal-handbook.gitlab.io)
 
-[FY24 Partner Comp Exception Process](https://docs.google.com/document/d/1sUVZDDua5JB1omVUbqBkxA1NAhSed66sjzfIBaVIkGg/edit?usp=sharing)
+[FY25 Partner Comp Exception Process](https://internal.gitlab.com/handbook/sales/sales-commission/#request-for-splits-additional-credits-new-logo-exception-lam-dev-count-override-or-churn-exception)

@@ -149,6 +149,7 @@ Any type of inbound request that requires follow up.
 | ------------- | ---------- | ------- |
 | No Action | default starting position for all records |  |
 | Requested Support | Took a handraise action to request support from the GitLab team ||
+| Waitlisted | Submitted a request to purchase a future SKU  ||
 | Requested Contact | Filled out Contact, Professional Services, Demo or Pricing Request | Yes |
 
 #### Operational

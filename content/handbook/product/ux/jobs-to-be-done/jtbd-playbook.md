@@ -108,11 +108,11 @@ Now that you have completed your interviews, it's time to go through your notes 
 
 It's recommended to continue your collaboartion with your Section's UX Researcher to help speed this process up, as some experience in qualitative [data synthesis](https://handbook.gitlab.com/handbook/product/ux/ux-research/analyzing-research-data/) is helpful.
 
-**Complete the Job Map**
+#### Exercise 1. Complete the Job Map
 
 The process you follow when building your Job Map will depend on how you were able to conduct your interviews. Please select the option below that aligns with the process you were able to follow:
 
-#### Job Mapping during interviews
+**Job Mapping during interviews**
 
 It is highly recommended that interviews be conducted in pairs. This allows you to construct and validate the job map while the participant explains their process for getting the job done. This will make synthesis much easier than if you were to build out the job maps while analyzing the interview data. Another benefit to interviewing in pairs is that you can review the map you build with the participant, catching any errors in ordering or steps in the process they may have left out. To achieve a single, synthesized Job Map, we recommend you follow these steps:
 
@@ -133,7 +133,7 @@ It is highly recommended that interviews be conducted in pairs. This allows you 
 7. Finally, add representative Stage names or modes of operation above each Stack, under the Beginning, Middle, and End categories. You can do this as you develop your stacked steps as well as it's likely you'll start to see appropriate Stage names as you progress through the above process. 
     1. These Stages should represent high-level single-word verbs that describe the step or stage the Job Performer is in during that Job Step.
 
-#### Job Mapping after all interviews were completed
+**Job Mapping after all interviews were completed**
 
 If you do not have job maps pre-constructed by your participants during the interviews, you will need to synthesize all of your data across each interview, building up your Job Map as you go. Bringing it all together into a singular Job Map for your final JTBD Canvas. To achieve a single, synthesized Job Map, we recommend you follow these steps:
 
@@ -148,7 +148,7 @@ If you do not have job maps pre-constructed by your participants during the inte
 7. Finally, add representative Stage names or modes of operation above each Stack, under the Beginning, Middle, and End categories. You can do this as you develop your stacked steps as well as it's likely you'll start to see appropriate Stage names as you progress through the above process. 
     1. These Stages should represent high-level single-word verbs that describe the step or stage the Job Performer is in during that Job Step.
 
-### Step 3: Synthesize Outcomes
+#### Exercise 2: Synthesize Outcomes
 
 Continuing with your interview syntheses, move on to gathering together outcome statements from those interviews and then rewriting them into properly formatted Outcome Statements. Parse your notes looking for references to how the Job Performer would measure the success of completing the Main Job. Add a sticky for every potential outcome. Organize them to ensure there aren’t any repeated ideas, merging duplicates as you go. 
 
@@ -156,21 +156,21 @@ Finally, rewrite each potential outcome converting them into a properly formatte
 
 Note: Your Main Job can have between 50 - 100 Outcome Statements which will be validated through an Outcome Opportunity Score survey which can be done in parrallel with the rest of your JTBD Canvas work.
 
-### Step 4: Synthesize Emotional and Social Aspects
+#### Exercies 3: Synthesize Emotional and Social Aspects
 
-#### Emotional Aspects
+**Emotional Aspects**
 
 Now you will gather together all of the Emotional Aspect Statements from your interviews and then rewrite them into properly formatted Emotional Aspect Statements. Parse your notes looking for references to emotion-like statements that are referencing how the Job Performer _feels_ while doing the Main Job. Add a sticky for every potential emotion you find. Organize them to ensure there aren’t any repeated ideas, merging duplicates as you go. 
 
 Finally, rewrite each potential Emotion Aspect Statement converting them into properly formatted Emotion Statements. Check the [handbook section](/handbook/product/ux/jobs-to-be-done/#emotional-and-social-aspects-how-does-the-job-performer-feel-while-doing-the-job-how-do-they-want-to-be-perceived-while-doing-the-job) for more on how to construct an Emotional Aspect Statement.
 
-#### Social Aspects
+**Social Aspects**
 
 Next you will gather together all of the Social Aspect Statements from your interviews and then rewrite them into properly formatted Social Aspect Statements. Parse your notes looking for references to social-like statements that are referencing how the Job Performer _wants to be perceived_ while doing the Main Job. Add a sticky for every potential social/perception you find. Organize them to ensure there aren’t any repeated ideas, merging duplicates as you go. 
 
 Finally, rewrite each potential social statement converting them into properly formatted Social Statements. Check the [handbook section](/handbook/product/ux/jobs-to-be-done/#emotional-and-social-aspects-how-does-the-job-performer-feel-while-doing-the-job-how-do-they-want-to-be-perceived-while-doing-the-job) for more on how to construct an Emotional Aspect Statement.
 
-### Step 5: Synthesize Job Differentiators
+#### Exercise 4: Synthesize Job Differentiators
 
 Now for the final step before your second and last workshop. Gather together all of the Job Differentiators from your interviews and then rewrite them into properly formatted Job Differentiators. Parse you notes looking for references to differentiator-like statements that are referencing any key factors that _make a difference_ on how the Job Performer will get the Main Job done. Look for specific factors that make a difference. Add a sticky for every potential job differentiator you find. Organize them to ensure there aren’t any repeated ideas, merging duplicates as you go. 
 
@@ -178,11 +178,11 @@ Finally, rewrite each potential Job Differentiators converting them into properl
 
 ## Workshop 2: Map and Prioritize
 
-**Select Important Job Step(s), Emotional & Social Aspects, and Job Differentiators**
+### Step 1. Select Important Job Step(s), Emotional & Social Aspects, and Job Differentiators
 
 Once again you will need to gather your counterparts together in a sync workshop that should take about an hour of sync time to complete. Again, at a minimum, this team should be comprised of the Product Design DRI and Product Manager. Engineering counterparts are a great addition to round out the perspectives and points of view and your Section's UX Researcher would be a great addition as well. You'll gather together on a Zoom call, focusing on the FigJam JTBD Canvas you have been working on.
 
-### Exercise 1: Review Job Map Select a Job Step(s) [set timer for 15 minutes]
+#### Exercise 1: Review Job Map Select a Job Step(s) [set timer for 15 minutes]
 
 Share the Job Map with your team, read through it to ensure everyone understands the steps necessary to get the Main Job done and to confirm that it’s been accurately arranged and phrased. Make any adjustments as necessary, but be sure you’re referencing the interview data and not going off of gut instinct. Don’t forget, the interviews were performed for a reason.
 
@@ -198,7 +198,7 @@ To help you determine which areas of the Job Map are the most important areas to
 - Select and highlight, circle, or outline the top voted Job Step that you are going to innovate on.
 - Copy your Job Map over to your canvas on the right, including the voted on and circled top voted items.
 
-### Exercise 2: Select Emotional Aspect Statements [set timer for 5 minutes]
+#### Exercise 2: Select Emotional Aspect Statements [set timer for 5 minutes]
 
 Share the Emotional Aspect stickies with your team, have everyone read through and understand them.
 
@@ -212,11 +212,11 @@ To help you determine which Emotional Aspect statements are the most important a
 - Arrange the voted on stickies in a pyramid with the top voted stickies at the top and lowest at the bottom.
 - Discuss the top voted upon items and confirm that the team agrees/aligns on the top voted Emotional Aspect Statements and move them to the appropriate space on the JTBD Canvas.
 
-### Exercise 3: Select Social Aspect Statements [set timer for 10 minutes]
+#### Exercise 3: Select Social Aspect Statements [set timer for 10 minutes]
 
 Repeat the same process you just performed for the Emotional Aspect Statements for the Social Aspect Statements. Move the top voted Social Aspect Statements to the appropriate space on the JTBD Canvas.
 
-### Exercise 4: Select Job Differentiator Statements [set timer for 5 minutes]
+#### Exercise 4: Select Job Differentiator Statements [set timer for 5 minutes]
 
 Repeat the same process you just performed for the Emotional and Social Aspect Statements for the Job Differentiator Statements. Move the top voted Job Differentiator Statements to the appropriate space on the JTBD Canvas.
 
@@ -267,11 +267,11 @@ Now that you have a completed JTBD Canvas you can use it to create Job Stories. 
 
 To learn more about what Job Stories are, how to write them, and how you can use them to generate design solutions check the [handbook section](/handbook/product/ux/jobs-to-be-done/#job-stories).
 
-## The Job Story Fomula
+### The Job Story Fomula
 
-When I ___________ [am at this Job Step] + [under these conditions-Job Differentiators],
+When I ___________ [am at this **Job Step**] + [under these conditions-**Job Differentiators**],
 I want ____________ [this New Ability, customer imperative or demand the JP has on the solution],
-So I can __________ [reach these Outcomes] + [and have these Emotional/Social Aspects].
+So I can __________ [reach these **Outcomes**] + [and have these **Emotional/Social Aspects**].
 
 <!-- Figure out how to incorporate this into UX Theme workshop
 
