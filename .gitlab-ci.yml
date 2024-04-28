@@ -104,9 +104,11 @@ pages:
     # tracking DORA deployment frequency
     name: $ENVIRONMENT
     deployment_tier: production
+    url: $URL
   variables:
     PAGES_PREFIX: ""
     ENVIRONMENT: production
+    URL: https://handbook.gitlab.com/
   pages:
     path_prefix: "$PAGES_PREFIX"
   rules:
@@ -118,6 +120,7 @@ pages:
       variables:
         PAGES_PREFIX: 'mr$CI_MERGE_REQUEST_IID'
         ENVIRONMENT: development
+        URL: "${CI_PAGES_URL}/${PAGES_PREFIX}"
 
 # TODO @dnsmichi: What does this job do?
 deploy s3:
