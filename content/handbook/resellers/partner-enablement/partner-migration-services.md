@@ -11,7 +11,7 @@ title: "Channel Partner Migration Services"
 <link rel="stylesheet" type="text/css" href="/stylesheets/biztech.css" />
 
 
-GitLab encourages our GitLab Partners to engage in and lead technical services such as migrating to GitLab. This page provides an overview of different data sources that can be transferred to various GitLab destinations. For deeper technical understanding, engineers should enroll and learn from the GitLab University [GitLab Certified Migration Services Specialist Learning Path.](https://university.gitlab.com/learning-paths/gitlab-certified-migration-services-specialist-learning-path)
+GitLab encourages our GitLab Partners to engage in and lead technical services such as migrating to GitLab. This page overviews different data sources that can be transferred to various GitLab destinations. For deeper technical understanding, engineers should enroll and learn from the GitLab University [GitLab Certified Migration Services Specialist Learning Path.](https://university.gitlab.com/learning-paths/gitlab-certified-migration-services-specialist-learning-path)
  
 See [Import and Migrate Groups and Projects](https://docs.gitlab.com/ee/user/project/import/) for a short technical overview of available paths to importing or migrating to GitLab.
  
@@ -26,7 +26,7 @@ GitLab Partners who are successful at performing customer-facing migrations ofte
  
 After having a technical scoping/sizing conversation with your customer, GitLab Partners find our [GitLab Channel Service Packages](https://partners.gitlab.com/prm/English/c/Channel_Service_Packages) helpful. These contain templated Data Sheets, Statements of Work (SOWs), and Project Plans. GitLab Partners are welcome to take and use these GitLab Channel Service Packages as templates for your customer work. Rebranding and rewording towards your unique technical service offering is encouraged. The table also outlines the GitLab expectations for the certifications held by our partners under the `Aligned Partner Certification` column.
 
-The [Migration Readiness Checklist](https://gitlab.com/gitlab-org/professional-services-automation/tools/migration/congregate/-/blob/master/customer/migration-readiness-checklist.md), provided by GitLab Professional Services, provides a helpful example for you to use. It includes technical asks for Access, Communication, User migration planning, Migration Preparation, Wave Planning, Post Migration Checks, Post Migration Considerations, and Getting the most out of your investment. This document assumes usage of [Congregate](https://gitlab-org.gitlab.io/professional-services-automation/tools/migration/congregate/), an open-source command line interface (CLI) migration tool from GitLab. Congregate is the preferred method used by GitLab Professional Services. 
+The [Migration Readiness Checklist](https://gitlab.com/gitlab-org/professional-services-automation/tools/migration/congregate/-/blob/master/customer/migration-readiness-checklist.md), provided by GitLab Professional Services, provides a helpful example for you to use. It includes technical asks for Access, Communication, User migration planning, Migration Preparation, Wave Planning, Post Migration Checks, Post Migration Considerations, and Getting the most out of your investment. This document assumes the usage of [Congregate](https://gitlab-org.gitlab.io/professional-services-automation/tools/migration/congregate/), an open-source command line interface (CLI) migration tool from GitLab. Congregate is the preferred method used by GitLab Professional Services. 
 
 Communicating clearly [What are a customer's obligations and responsibilities prior to, during, and after a migration?](https://gitlab.com/gitlab-org/professional-services-automation/tools/migration/congregate/-/blob/master/customer/famq.md#what-are-a-customers-obligations-and-responsibilities-prior-during-and-after-a-migration) and [What level of instance access and permission are needed for migrating?](https://gitlab.com/gitlab-org/professional-services-automation/tools/migration/congregate/-/blob/master/customer/famq.md#what-level-of-instance-access-and-permission-are-needed-for-migrating) with your customer will also ensure a smooth migration.
 
@@ -92,7 +92,7 @@ Important to note about Congregate:
 
 ## GitLab Professional Migration Services
 
-The GitLab Professional Services team has a [full-service catalog of offerings available](https://about.gitlab.com/services/catalog/) for direct customers to utilize. Partners may review the offerings for inspiration towards delivering similar Professional (consultative) Service offerings.
+The GitLab Professional Services team has a [full-service catalog of offerings available](https://about.gitlab.com/services/catalog/) for direct customers. Partners may review the offerings for inspiration towards delivering similar Professional (consultative) Service offerings.
 
 The [GitLab Professional Services Migration Package](https://drive.google.com/file/d/1SK4iEg3XKx2nBWNo7xDlBbjLfOe1cFhB/view) is one popular offering.
 
