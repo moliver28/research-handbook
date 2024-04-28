@@ -129,7 +129,7 @@ For those with regular commitments, look for shorter weeks or timezone variation
 
 | Start date | End date | See one | Teach one | Schedule Notes |
 | ---------- | -------- | ------- | --------- | -------------- |
-| 2024-04-29 | 2024-05-03 | [Indre Kryzeviciene](https://gitlab.com/ikryzeviciene) - Staff Marketing Campaigns Manager | [Ian Pedowitz](https://gitlab.com/ipedowitz) - Director, Strategy and Operations (Limited availability Thursday after 12pm PT due to an already scheduled flight)  | REMOTE - PT, MON - THURS |
+| 2024-04-29 | 2024-05-03 | [Indre Kryzeviciene](https://gitlab.com/ikryzeviciene) - Staff Marketing Campaigns Manager | [Ian Pedowitz](https://gitlab.com/ipedowitz) - Director, Strategy and Operations (Limited availability Thursday 8am PT - 12am PT due to an existing flight)  | REMOTE - PT, MON - THURS |
 | 2024-05-06 | 2024-05-10 | Karen Murphy - Chief Editorial Officer, Sijbrandij Family Office | [Indre Kryzeviciene](https://gitlab.com/ikryzeviciene) - Staff Marketing Campaigns Manager | REMOTE - PT, MON, FRI |
 | 2024-05-13 | 2024-05-17 | [Djordje Micovic](https://gitlab.com/dmicovic) - Staff Data Analyst, Marketing Analytics | Karen Murphy - Chief Editorial Officer, Sijbrandij Family Office | REMOTE - PT, MON - TUES |
 | 2024-05-20 | 2024-05-24 | NO SHADOW | NO SHADOW | PRESIDENT'S CLUB |
