@@ -102,10 +102,11 @@ pages:
   extends: [.hugo]
   environment:
     # tracking DORA deployment frequency
-    name: production
-    deployment_tier: production
+    name: $ENVIRONMENT
+    deployment_tier: $ENVIRONMENT
   variables:
     PAGES_PREFIX: ""
+    ENVIRONMENT: production
   pages:
     path_prefix: "$PAGES_PREFIX"
   rules:
@@ -116,6 +117,7 @@ pages:
     - if: $CI_MERGE_REQUEST_IID
       variables:
         PAGES_PREFIX: 'mr$CI_MERGE_REQUEST_IID'
+        ENVIRONMENT: development
 
 # TODO @dnsmichi: What does this job do?
 deploy s3:
