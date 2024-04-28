@@ -3,8 +3,6 @@ title: "Product Customer Satisfaction (CSAT) Survey"
 description: "The Customer Satisfaction (CSAT) survey is a performance indicator we use within the Product division to measure the customer satisfaction of our product."
 ---
 
-### Reasons we chose to use CSAT
-
 * Within the Product division, we have adopted [Customer Satisfaction Score (CSAT)](https://www.qualtrics.com/uk/experience-management/customer/what-is-csat/) and are conducting this survey on a quarterly basis.
   * We previously surveyed customers using the NPS, which we moved away from starting in FY25 Q1 ([see proposal deck](https://docs.google.com/presentation/d/18FYO0UoUQi__7hPnD0uhVmeJrN16n23OISQnom0eRE8/edit?usp=sharing)).
 * We are using CSAT because it allows us to:
@@ -12,9 +10,9 @@ description: "The Customer Satisfaction (CSAT) survey is a performance indicator
   * Connect satisfaction ratings and open ended responses back to changes in our product.
   * Compare and contrast CSAT survey data against our other company wide metrics (System Usability Scale (SUS)).
 
-### How CSAT works
+### How the Product CSAT survey is run
 
-UX Research determines our Product CSAT score for paid users of GitLab.com, self-managed GitLab, and GitLab Dedicated on a quarterly basis through a survey launched through Qualtrics. A [CSAT template issue](https://gitlab.com/gitlab-org/ux-research/-/blob/master/.gitlab/issue_templates/CSAT%20Survey.md) is created by the UX Research DRI at the beginning of each quarter. The issue template contains background information, research goals, and processes on conducting the survey from start to finish. Data is collected over a period of four weeks starting in the beginning of a quarter and the survey stays open until we have met our [data collection goals](/handbook/product/ux/performance-indicators/csat/sampling-goals). The next two weeks after data collection are used to clean, analyze, and report on the survey responses. All documents created are stored in an [internal only Google Drive within UX Research](https://drive.google.com/drive/u/0/folders/1ia-SJujFRWgOpnBGUdLE6gAWE8ldf0DM).
+UX Research determines our Product CSAT score for paid users of GitLab.com, self-managed GitLab, and GitLab Dedicated on a quarterly basis through a survey launched through Qualtrics. A [CSAT template issue](https://gitlab.com/gitlab-org/ux-research/-/blob/master/.gitlab/issue_templates/CSAT%20Survey.md) is created by the UX Research DRI at the beginning of each quarter. The issue template contains background information, research goals, and processes on conducting the survey from start to finish. Data is collected over a period of four weeks starting in the beginning of a quarter and the survey stays open until we have met our [data collection goals](/handbook/product/ux/performance-indicators/csat/#sampling-goals). The next two weeks after data collection are used to clean, analyze, and report on the survey responses. All documents created are stored in an [internal only Google Drive within UX Research](https://drive.google.com/drive/u/0/folders/1ia-SJujFRWgOpnBGUdLE6gAWE8ldf0DM).
 
 ### Current workflow 
 
