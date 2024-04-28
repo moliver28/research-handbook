@@ -103,7 +103,7 @@ pages:
   environment:
     # tracking DORA deployment frequency
     name: $ENVIRONMENT
-    deployment_tier: $ENVIRONMENT
+    deployment_tier: production
   variables:
     PAGES_PREFIX: ""
     ENVIRONMENT: production
