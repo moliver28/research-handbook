@@ -4,7 +4,7 @@ aliases:
 - /handbook/company/culture/contribute/
 ---
 
-Over the years, GitLab has hosted team member events as both GitLab Contribute and GitLab Summit.
+Over the years, GitLab has hosted GitLab Summits, global team member events. During past times, they events have sometimes between called Contributes.
 
 Summit is an all-company team member gathering to foster collaboration, alignment, and motivation. We'll meet face-to-face, welcome new team members, reconnect with old friends, and reinforce our business through our core values, all while having fun in the process!
 
