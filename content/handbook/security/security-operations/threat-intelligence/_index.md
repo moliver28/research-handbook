@@ -17,6 +17,8 @@ This starts with proactively identifying and assessing threats and risks most re
 
 Our team will develop and maintain relationships with industry peers, keeping a pulse on trends and helping to secure the industry as a whole.
 
+When a new threat makes headlines, we'll already have answers. We'll know if GitLab is at risk, how well we can detect and prevent an attack, and what we're doing to prepare for one.
+
 By executing on this mission, we will:
 
 - Foster a culture of threat awareness and intelligence sharing across the organization.
