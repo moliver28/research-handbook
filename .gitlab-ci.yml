@@ -86,7 +86,7 @@ variables:
     - ./scripts/sync-data.sh
     - npm ci
     - hugo --enableGitInfo
-    - find "public" -type f -name '*.html' -exec sed -i -e "s/content-sites\/handbook\/mr5388\/content-sites\/handbook\/mr5388/content-sites\/handbook\/mr5388/g" {} +
+    - find "public" -type f -name '*.html' -exec sed -i -e "s/content-sites\/handbook\/${PAGES_PREFIX}\/content-sites\/handbook\/${PAGES_PREFIX}/content-sites\/handbook\/${PAGES_PREFIX}/g" {} +
   rules:
     - if: $CI_COMMIT_REF_NAME != $CI_DEFAULT_BRANCH
   artifacts:
@@ -105,11 +105,11 @@ pages:
     # tracking DORA deployment frequency
     name: $ENVIRONMENT
     deployment_tier: production
-    url: $URL
+    url: $HUGO_BASEURL
   variables:
     PAGES_PREFIX: ""
     ENVIRONMENT: production
-    URL: https://handbook.gitlab.com/
+    HUGO_BASEURL: https://handbook.gitlab.com/
   pages:
     path_prefix: "$PAGES_PREFIX"
   rules:
@@ -121,7 +121,7 @@ pages:
       variables:
         PAGES_PREFIX: 'mr$CI_MERGE_REQUEST_IID'
         ENVIRONMENT: development
-        URL: "${CI_PAGES_URL}/${PAGES_PREFIX}"
+        HUGO_BASEURL: "${CI_PAGES_URL}/${PAGES_PREFIX}"
 
 # TODO @dnsmichi: What does this job do?
 deploy s3:
