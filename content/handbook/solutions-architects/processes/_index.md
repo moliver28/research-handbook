@@ -60,6 +60,15 @@ Customer Success Planning core goal is to identify and state:
 1. The Account Team and the customer will agree on the cadence for reviewing and updating the Success Plan during and after the sales cycle
 1. The Customer Success Plan will be reviewed with the CSM team when the account moves into Post-Sales
 
+To summarize, there are three additional fields in the Customer Success Plan section, on the Opportunity level in SFDC, that should be maintained through the process:
+
+![Customer Success Plan Opportunity Fields](Customer-Success-Plan-SFDC.png)
+
+1. Customer Success Plan: field for the URL to the plan
+1. CSM Ready: Check if the plan is/can be handed over to the CSM
+1. Customer Accepted: Check if the customer accepted the plan
+
+
 Please read the [Customer Success Plan page](/handbook/solutions-architects/sa-practices/customer-success-plan/) for more details on the Mutual Customer Success Plan process.
 
 ## Positioning Professional Services
