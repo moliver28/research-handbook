@@ -5,6 +5,10 @@ description: "Over the years, GitLab has hosted team member events as both GitLa
 canonical_path: "/company/culture/contribute/previous/"
 ---
 
+### Summit in Las Vegas, Nevada, USA
+
+In March 2024, over 1800 team members gathered in Las Vegas. GitLab team members were joined by a number of guest speakers, and board members. https://about.gitlab.com/events/summit-las-vegas/
+
 ### Virtual Contribute
 
 In April 2020, we pivoted to a Virtual Contribute after canceling the Prague Contribute due to Covid-19. GitLab team members and investors joined from around the world to enjoy keynotes, workshops, and speed coffee chatting.
