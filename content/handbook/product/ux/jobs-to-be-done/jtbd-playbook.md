@@ -1,10 +1,10 @@
 ---
 title: How we do JTBD research at GitLab (A Playbook)
 description: >-
-  GitLab follows a series of steps and exercises to discover and develop job canvases from basic assumptions all the way to validated and ranked outcomes and opportunities.
+  GitLab follows a series of steps and exercises to discover and develop job canvases from basic assumptions all the way to validated and ranked Outcomes and opportunities.
 ---
 
-How we conduct JTBD research at GitLab follows a process closely mirroring the [JTBD Playbook by Jim Kalbach](https://www.amazon.com/Jobs-Be-Done-Playbook-Organization/dp/1933820683). The playbook takes teams from basic assumptions all the way to a list of ranked outcomes that your customers care about the most. Going through this process can be hugely beneficial for a team. These handbook pages and the resources they link to provide you with a solid foundation of JTBD knowledge and a self-serve way to conduct JTBD research collaboratively with your counterparts. However, if you have access to a UX Researcher or someone knowledgeable in JTBD practice, it's a good idea to have that person as the DRI to help drive this effort for your team.
+How we conduct JTBD research at GitLab follows a process closely mirroring the [JTBD Playbook by Jim Kalbach](https://www.amazon.com/Jobs-Be-Done-Playbook-Organization/dp/1933820683). The playbook takes teams from basic assumptions all the way to a list of ranked Outcomes that your customers care about the most. Going through this process can be hugely beneficial for a team. These handbook pages and the resources they link to provide you with a solid foundation of JTBD knowledge and a self-serve way to conduct JTBD research collaboratively with your counterparts. However, if you have access to a UX Researcher or someone knowledgeable in JTBD practice, it's a good idea to have that person as the DRI to help drive this effort for your team.
 
 Use this playbook to complete your JTBD canvases. For more information on each part of the canvas, refer to [anatomy of a JTBD canvas](/handbook/product/ux/jobs-to-be-done/#anatomy-of-a-jtbd-canvas).  
 
@@ -74,7 +74,7 @@ To help you determine which Main Job you want to focus on for this Job Performer
 
 Finally, this will be the last exercise for this workshop to consider what does our Job Performer aspire to become after completing this Main Job. 
 
-One last time, in an open area of the FigJam, consider: What are all of the aspirations our selected Job Performer is wanting to become after achieving our Main Job? What are they dreaming about becoming when they achieve or complete the Main Job? List the all of the aspirations you can think of on individual sticky notes. Continue to ask Why to ensure you’re at the highest, aspirational level.
+One last time, in an open area of the FigJam, consider: What are all of the Aspirations our selected Job Performer is wanting to become after achieving our Main Job? What are they dreaming about becoming when they achieve or complete the Main Job? List the all of the Aspirations you can think of on individual sticky notes. Continue to ask Why to ensure you’re at the highest, aspirational level.
 
 **Select an Aspiration via Note & Vote [set timer for 5 minutes]**
 
@@ -83,7 +83,7 @@ To help you determine which Aspirations you want to focus on for this JP’s Job
 - Provide each workshopper with some "Target" stickers from FigJam's sticker set.
     - If < 3 participants: Each participant gets 6 stickers to vote with. You can vote on the same item.
     - If > 3 participants: Each participant gets 3 sticker to vote with.
-- Select the top 3 voted Aspirations and move them to the JTBD Canvas’s Aspirations ssection leaving the unselected aspirations behind for consideraton later, if necessary.
+- Select the top 3 voted Aspirations and move them to the JTBD Canvas’s Aspirations ssection leaving the unselected Aspirations behind for consideraton later, if necessary.
 
 ## Pre-Workshop 2: Investigation Interviews & Interview Synthesis
 
@@ -97,8 +97,8 @@ We recommend booking 60 minute interviews and having both a moderator and a note
 
 The goal of the interview is to answer the following questions:
 
-- What are the [job steps](/handbook/product/ux/jobs-to-be-done/#job-steps-how-does-the-job-performer-get-the-job-done)? 
-- What are their [desired Outcomes](/handbook/product/ux/jobs-to-be-done/#outcomes-how-does-the-job-performer-measure-the-success-of-getting-the-job-done)?
+- What are the [Job Steps](/handbook/product/ux/jobs-to-be-done/#job-steps-how-does-the-job-performer-get-the-job-done)? 
+- What are their [desired Outcomes](/handbook/product/ux/jobs-to-be-done/#Outcomes-how-does-the-job-performer-measure-the-success-of-getting-the-job-done)?
 - What are the [Related Jobs](/handbook/product/ux/jobs-to-be-done/#related-jobs-what-else-is-the-job-performer-trying-to-get-done)? 
 - What are the [Job Differentiators](/handbook/product/ux/jobs-to-be-done/#circumstances-what-are-the-factors-or-condictions-that-make-a-difference-in-how-the-job-gets-done)?
 
@@ -116,9 +116,9 @@ If possible, it is recommended to have both a moderator and a notetaker during e
 
 1. Start with a blank slate in Figjam and capture every step the participant mentions using a sticky. Try to maintain chronological order and don't worry about other aspects of your JTBD, such as job stages or small jobs. 
     * **Note:** If you are unable to include a notetaker during your interview sessions, perform this step afterwards by reviewing your notes and videos.
-1. Once all job steps have been discussed, walk through the Job Map with the interviewee for feedback and verification. Make adjustments as needed.
+1. Once all Job Steps have been discussed, walk through the Job Map with the interviewee for feedback and verification. Make adjustments as needed.
     * **Note:** If you are not creating the Job Map during the interview with the help of a notetaker, skip this step.
-1. After the interview, rewrite each Job Step to ensure it is functional and follows [guidance for how to write a job step](/handbook/product/ux/jobs-to-be-done/#job-steps-how-does-the-job-performer-get-the-job-done).
+1. After the interview, rewrite each Job Step to ensure it is functional and follows [guidance for how to write a Job Step](/handbook/product/ux/jobs-to-be-done/#job-steps-how-does-the-job-performer-get-the-job-done).
 
 After all interviews:
 
@@ -132,10 +132,10 @@ After all interviews:
 
 Continuing with your interview syntheses, move on to gathering Outcome Statements. 
 
-1. Parse your notes looking for references to how the Job Performer would measure the success of completing the Main Job. Add a sticky for every potential outcome. Remove duplicates along the way.
-1. Rewrite each Outcome Statement to ensure it follows [guidance for properly formatted outcome statements](/handbook/product/ux/jobs-to-be-done/#outcomes-how-does-the-job-performer-measure-the-success-of-getting-the-job-done). 
+1. Parse your notes looking for references to how the Job Performer would measure the success of completing the Main Job. Add a sticky for every potential Outcome. Remove duplicates along the way.
+1. Rewrite each Outcome Statement to ensure it follows [guidance for properly formatted Outcome statements](/handbook/product/ux/jobs-to-be-done/#Outcomes-how-does-the-job-performer-measure-the-success-of-getting-the-job-done). 
 
-**Note:** Your Main Job can have between 50 - 100 Outcome Statements which will be validated through an [Outcome Opportunity Score survey](#outcome-opportunity-scores-survey). This survey can be done in parallel with the rest of your JTBD Canvas work.
+**Note:** Your Main Job can have between 50 - 100 Outcome Statements which will be validated through an [Outcome Opportunity Score survey](#Outcome-opportunity-scores-survey). This survey can be done in parallel with the rest of your JTBD Canvas work.
 
 #### Exercies 3: Synthesize Emotional and Social Aspects
 
@@ -143,17 +143,17 @@ Continuing with your interview syntheses, move on to gathering Outcome Statement
 
 Now you will gather together all of the Emotional Aspect Statements from your interviews and then rewrite them into properly formatted Emotional Aspect Statements. Parse your notes looking for references to emotion-like statements that are referencing how the Job Performer _feels_ while doing the Main Job. Add a sticky for every potential emotion you find. Organize them to ensure there aren’t any repeated ideas, merging duplicates as you go. 
 
-Finally, rewrite each potential Emotion Aspect Statement converting them into properly formatted Emotion Statements. Check the [handbook section](/handbook/product/ux/jobs-to-be-done/#emotional-and-social-aspects-how-does-the-job-performer-feel-while-doing-the-job-how-do-they-want-to-be-perceived-while-doing-the-job) for more on how to construct an Emotional Aspect Statement.
+Finally, rewrite each potential Emotion Aspect Statement converting them into properly formatted Emotion Statements. Check the [handbook section](/handbook/product/ux/jobs-to-be-done/#Emotional-and-Social-aspects-how-does-the-job-performer-feel-while-doing-the-job-how-do-they-want-to-be-perceived-while-doing-the-job) for more on how to construct an Emotional Aspect Statement.
 
 **Social Aspects**
 
-Next you will gather together all of the Social Aspect Statements from your interviews and then rewrite them into properly formatted Social Aspect Statements. Parse your notes looking for references to social-like statements that are referencing how the Job Performer _wants to be perceived_ while doing the Main Job. Add a sticky for every potential social/perception you find. Organize them to ensure there aren’t any repeated ideas, merging duplicates as you go. 
+Next you will gather together all of the Social Aspect Statements from your interviews and then rewrite them into properly formatted Social Aspect Statements. Parse your notes looking for references to Social-like statements that are referencing how the Job Performer _wants to be perceived_ while doing the Main Job. Add a sticky for every potential Social/perception you find. Organize them to ensure there aren’t any repeated ideas, merging duplicates as you go. 
 
-Finally, rewrite each potential social statement converting them into properly formatted Social Statements. Check the [handbook section](/handbook/product/ux/jobs-to-be-done/#emotional-and-social-aspects-how-does-the-job-performer-feel-while-doing-the-job-how-do-they-want-to-be-perceived-while-doing-the-job) for more on how to construct an Emotional Aspect Statement.
+Finally, rewrite each potential Social statement converting them into properly formatted Social Statements. Check the [handbook section](/handbook/product/ux/jobs-to-be-done/#Emotional-and-Social-aspects-how-does-the-job-performer-feel-while-doing-the-job-how-do-they-want-to-be-perceived-while-doing-the-job) for more on how to construct an Emotional Aspect Statement.
 
 #### Exercise 4: Synthesize Job Differentiators
 
-Now for the final step before your second and last workshop. Gather together all of the Job Differentiators from your interviews and then rewrite them into properly formatted Job Differentiators. Parse you notes looking for references to differentiator-like statements that are referencing any key factors that _make a difference_ on how the Job Performer will get the Main Job done. Look for specific factors that make a difference. Add a sticky for every potential job differentiator you find. Organize them to ensure there aren’t any repeated ideas, merging duplicates as you go. 
+Now for the final step before your second and last workshop. Gather together all of the Job Differentiators from your interviews and then rewrite them into properly formatted Job Differentiators. Parse you notes looking for references to differentiator-like statements that are referencing any key factors that _make a difference_ on how the Job Performer will get the Main Job done. Look for specific factors that make a difference. Add a sticky for every potential Job Differentiator you find. Organize them to ensure there aren’t any repeated ideas, merging duplicates as you go. 
 
 Finally, rewrite each potential Job Differentiators converting them into properly formatted Job Differentiators. Check the [handbook section](/handbook/product/ux/jobs-to-be-done/#job-differentiators-what-are-the-factors-or-conditions-that-make-a-difference-in-how-the-job-gets-done) for more on how to construct an Emotional Aspect Statement.
 
@@ -211,8 +211,8 @@ To do this you need to construct an Outcome Opportunity Score survey. It is reco
 
 This survey asks two questions about each of your Outcome Statements: 
 
-1. How _important_ is this (outcome) to you?
-2. How well is this (outcome) currently being _satisfied_?
+1. How _important_ is this (Outcome) to you?
+2. How well is this (Outcome) currently being _satisfied_?
 
 It's important that your survey participants are reprensetitive of your Job Perfomer so you’ll want to be careful to screen out any participants who don’t perform the Main Job you’re researching. Try to get close to 50 qualified responses to ensure a reasonable amount of confidence in your scoring.
 
@@ -229,11 +229,11 @@ Using the scores for importance and satisfaction, we can calculate an opportunit
 1. The importance score minus the satisfaction score is your ‘satisfaction gap’.
 2. Add the satisfaction gap to your original importance score to get the final opportunity score.
 
-[This spreadsheet template](https://docs.google.com/spreadsheets/d/109GZqTYPpOLpHLj-gwV_ldMFwIKa9MaaLPyLJ4kdoQs/edit?usp=sharing) offers a step by step guide to exporting data from a Qualtrics survey and generating a ranked list of outcome statements with opportunity scores.
+[This spreadsheet template](https://docs.google.com/spreadsheets/d/109GZqTYPpOLpHLj-gwV_ldMFwIKa9MaaLPyLJ4kdoQs/edit?usp=sharing) offers a step by step guide to exporting data from a Qualtrics survey and generating a ranked list of Outcome statements with opportunity scores.
 
 [Opportunity scores](https://medium.com/uxr-microsoft/what-is-the-opportunity-score-and-how-to-obtain-it-bb81fcbf79b7) run from 0-20. Generally, anything above a 10 is worth looking at closely, and anything over 15 is a critical opportunity that needs to be addressed as soon as possible. 
 
-If all the scores on your survey are less than 10, that’s great - but remember, any score above a zero indicates some room for improvement, so it’s still wise to look at your top scores. Conversely, if you have dozens of outcome statements above a 10, prioritize those with the highest scores. 
+If all the scores on your survey are less than 10, that’s great - but remember, any score above a zero indicates some room for improvement, so it’s still wise to look at your top scores. Conversely, if you have dozens of Outcome statements above a 10, prioritize those with the highest scores. 
 
 | Opportunity Score | Severity | 
 | ----- | ----------- | 
@@ -258,20 +258,20 @@ So I can __________ [reach these **Outcomes**] + [and have these **Emotional/Soc
 
 ### Align on Ranked Outcomes: Workshop
 
-Here’s where the magic happens. If you have the ranked outcomes by opportunity score from your survey, you have a list of the areas that will be most impactful to your users’ experience of your product. Now is the time to meet with your stakeholders and discuss the top ranked outcomes. Our [FigJam template](https://www.figma.com/file/Z4lsAOLH1ANN3pstQFYgSk/Jobs-to-be-done----Playbook-Template?type=whiteboard&node-id=0%3A1&t=qrubQYZLbPWYJjN3-1) has a workshop template and guide you can use to help address each outcome statement.
+Here’s where the magic happens. If you have the ranked Outcomes by opportunity score from your survey, you have a list of the areas that will be most impactful to your users’ experience of your product. Now is the time to meet with your stakeholders and discuss the top ranked Outcomes. Our [FigJam template](https://www.figma.com/file/Z4lsAOLH1ANN3pstQFYgSk/Jobs-to-be-done----Playbook-Template?type=whiteboard&node-id=0%3A1&t=qrubQYZLbPWYJjN3-1) has a workshop template and guide you can use to help address each Outcome statement.
 
 A few things to think about during the workshop:
 
-- Are the outcomes already being addressed with current and planned work? If not, should they be incorporated into future planning?
-- Where in the product is each outcome done? Are there specific pages, controls, or parts of the UI that we can focus on?
-- Who owns each outcome? Are there other teams that ‘own’ some of the areas of opportunity? Who can you speak with to see if they are working on this outcome already?
-- What can be done to achieve the stated outcome? Think of some potential solutions.
+- Are the Outcomes already being addressed with current and planned work? If not, should they be incorporated into future planning?
+- Where in the product is each Outcome done? Are there specific pages, controls, or parts of the UI that we can focus on?
+- Who owns each Outcome? Are there other teams that ‘own’ some of the areas of opportunity? Who can you speak with to see if they are working on this Outcome already?
+- What can be done to achieve the stated Outcome? Think of some potential solutions.
 
 The result of the workshop should be that the team understands the top opportunities for that Main Job and Job Performer, and has discussed ways to address them. 
 
 You and your team now have a list of the most important areas to focus on - a list that you can share with other teams and stakeholders (even customers!) to help bring clarity and confidence to your product roadmap. 
 
-The list of opportunities will remain relevant for a long time (until you release changes to your product that address the opportunities), because they aren’t based on particular features or solutions, but larger outcomes that users want to achieve. Re-survey your Job Performers about certain outcome statements after your team has made some changes, in order to see if the opportunity score has decreased (meaning you’ve made positive progress to fulfilling the desired outcome).
+The list of opportunities will remain relevant for a long time (until you release changes to your product that address the opportunities), because they aren’t based on particular features or solutions, but larger Outcomes that users want to achieve. Re-survey your Job Performers about certain Outcome statements after your team has made some changes, in order to see if the opportunity score has decreased (meaning you’ve made positive progress to fulfilling the desired Outcome).
 
 --> 
 
