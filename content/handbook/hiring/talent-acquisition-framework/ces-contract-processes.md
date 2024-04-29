@@ -311,9 +311,9 @@ If they have been hired in Greenhouse and exported to BambooHR and Workday, the 
 
 **Enablement steps:**
 1. Make a note on the Approvals tab and tag each job approver who approved the job last. Note the date approved and let them know that no action is needed, that you are not adding additional headcount, and that you will be reapproving on their behalf as they have already approved.
-1. Open a draft opening through the Approvals tab with "TEMP" in all empty mandatory fields. 
-1. Approve on behalf of Total Rewards (job approval step 1). 
-1. Mark the candidate unhired on their candidate profile. 
+1. Open a draft opening through the Approvals tab with "TEMP" in all empty mandatory fields.
+1. Approve on behalf of Total Rewards (job approval step 1).
+1. Mark the candidate unhired on their candidate profile.
 1. Remove the temporary opening on the approvals page. This will happen in two steps: first, you'll need to close the opening (using the same process you used to open it), save, and then go back in again to delete the record of the opening. There is a bug in Greenhouse that impacts pop-ups during this stage, so you may need to resize your browser if you're not seeing confirmation messages.
 1. Approve the final approvals on behalf of those who originally approved.
 1. Inform any involved parties of the unhiring status who will be taking next steps.
