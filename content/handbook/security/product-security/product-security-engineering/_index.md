@@ -141,7 +141,7 @@ The Product Security Engineering team defaults to using the namespaces of the st
 
 - For contributions to GitLab assets, we contribute to the relevant repositories where other work is performed
 - For AppSec related work, we use the [AppSec tooling namespace](https://gitlab.com/gitlab-com/gl-security/product-security/appsec/tooling) unless there is a compelling reason not to
-- For our team's repositories, we use the [Product Security Engineering tooling namespace](https://gitlab.com/gitlab-com/gl-security/product-security-engineering/tooling)
+- For our team's repositories, we use the [Product Security Engineering tooling namespace](https://gitlab.com/gitlab-com/gl-security/product-security/product-security-engineering/tooling)
 
 ## Milestone Planning
 
