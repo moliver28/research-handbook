@@ -126,6 +126,12 @@ To understand the specific challenges faced by the UX Department, we hold an asy
 
 {{% ux-showcase %}}
 
+## UX Talent Assessment
+
+In UX, we utilize [performance factor worksheets](https://drive.google.com/drive/folders/1KgmIt7Umm0XH2-74jMBpOl67Yko1t2uK) as a way to facilitate talent assessment and growth conversations. This speadsheets includes tabs for a mid-year and year-end review, as well as a tab to list Achievement, Strengths, and Opportunities throughout the year.
+
+It is strongly encouraged for each team member to have their own worksheet created at the start of the fiscal year so that it can be used as a tool throughout the entire year.
+
 ## Meet some of our team members
 
 - [Valerie Karnes](https://gitlab.com/vkarnes/readme) - Director of Product Design
