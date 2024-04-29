@@ -24,9 +24,9 @@ To see what training is coming soon, view the [Field Enablement Spotlight issue 
 
 | DATE   | TOPIC | SPEAKERS |
 |--------|--------|--------|
-| May 2  | Partner e-Marketplace | Partner Team  |
+| May 2  | New GitLab <> Google Cloud Integrations | Partner Team  |
 | May 9 | New CSE Workflow Overview | CS Team  |
-| May 16 | TBD |  |
+| May 16 | GitLab Ultimate vs. GitHub Advanced Security Comparison | Competitive Intelligence |
 | May 23 | Analyst Relations Update | AR Team  |
 | May 30 | TBD |  |
 | Jun 6 | TBD |  |
