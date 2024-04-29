@@ -142,7 +142,7 @@ The Manager, Engineering is a [grade 8](/handbook/total-rewards/compensation/com
 - Demonstrated capacity to clearly and concisely communicate about complex technical, architectural, and/or organizational problems and propose solutions
 - Demonstrated ability to coach and lead a team of direct reports, including hiring, development and growth  and driving a culture of high performance
 - Experience with diagnosing and solving  performance and optimization problems and an orientation to improvement and iteration; modeling a service-focused, solution-oriented mindset
-- Experience lading team to work  in a highly agile, [intensely iterative](https://handbook.gitlab.com/handbook/values/#iteration0) software development process
+- Experience leading team to work  in a highly agile, [intensely iterative](https://handbook.gitlab.com/handbook/values/#iteration0) software development process
 
 ## Performance Indicators
 
