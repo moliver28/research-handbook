@@ -80,12 +80,34 @@ During Module 2, you will:
 ### Resources
 
 <details>
-<summary>Prepare to discuss how you lead to empower:</summary>
+<summary>Position Power</summary>
 
 - [Short LinkedIn Article: Positional vs. Position Power](https://www.linkedin.com/pulse/positional-vs-personal-power-aditi-agrawal/)
--
 
 </details>
+
+<details>
+<summary>As leaders, we all wear many different hats:</summary>
+
+- Mentor, SME, decision-maker, coach, collaborator, director of work, role model, steward, planner, expert… and the list goes on… 
+- Multiple hats can emerge for each of us in one day - even in one conversation 
+- Our goal as leaders of leaders is to be clear about the hat we put on in conversations with our teams, and intentional about using a hat that’s appropriate for the moment 
+
+</details>
+
+<details>
+<summary>Modeling a Culture of Feedback</summary>
+
+As leaders with expanded scope, there are a number of required skills and behaviors in order to model a culture of feedback:
+- Solicits and is open to feedback for one’s self
+- Providing ongoing feedback that is frequent, actionable and done in real-time
+- Creates a welcoming environment that enables team members to value open discussions and debates, where they continually learn from one another
+- Knows the mechanics of giving feedback and the value of giving feedback
+- Recognizes that frequent, actionable feedback helps reduce turnover, raise performance levels and increase employee engagement
+- Provides both positive and constructive comments
+
+</details>
+
 
 **Key Links**
 
