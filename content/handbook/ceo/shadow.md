@@ -436,7 +436,7 @@ CEO Shadows label the handbook MRs they create with the `ceo-shadow` label. You 
 
 #### Drafting a tweet storm
 
-A tweet storm is a series of Twitter posts usually made as replies in a single thread on a topic. CEO Shadows may be asked to draft the tweets in relation to a public livestreamed video recording or some other media content.
+A tweet storm is a series of X/Twitter posts usually made as replies in a single thread on a topic. CEO Shadows may be asked to draft the tweets in relation to a public livestreamed video recording or some other media content.
 
 1. Create a Google Doc with a title using the format "202X-XX-XX Tweet storm for Topic".
 1. At the top of the document, include the full title of the media and a link to it.
@@ -454,7 +454,7 @@ A tweet storm is a series of Twitter posts usually made as replies in a single t
 
 Tweet storm examples:
 
-1. 2021-06-02: Server runtimes and development environments: [Twitter thread](https://twitter.com/sytses/status/1400134840754733059), [Source (internal)](https://docs.google.com/document/d/1eXGoPr6iXBUgOBr9fgDjQkk-vGdT_edCSTNUIK6UVrc/edit)
+1. 2021-06-02: Server runtimes and development environments: [X/Twitter thread](https://twitter.com/sytses/status/1400134840754733059), [Source (internal)](https://docs.google.com/document/d/1eXGoPr6iXBUgOBr9fgDjQkk-vGdT_edCSTNUIK6UVrc/edit)
 
 ## Meetings & Events
 
@@ -542,7 +542,7 @@ Personal meetings will be marked as "busy" on the calendar. Shadows do not atten
 
 #### Earnings Mock Call Webinars
 
-Mock Call webinars for earnings prep differ from other meetings on the CEO calendar. There there is a specific panelist link for the CEO, and a participants link for shadows to use for observation. Do not join the mock call using the link in the CEO's calendar. The link to register as a participant will be shared with the shadows in #ceo-shadow-private typically by the day prior. If you do not see the registration link posted, please reach out to the [EBAs]({{< ref "eba#executive-business-administrator-team" >}}) and [Chief of Staff to the CEO]({{< ref chief-of-staff >}}) on Slack.
+Mock Call webinars for earnings prep differ from other meetings on the CEO calendar. There is a specific panelist link for the CEO, and a participants link for shadows to use for observation. Do not join the mock call using the link in the CEO's calendar. The link to register as a participant will be shared with the shadows in #ceo-shadow-private typically by the day prior. If you do not see the registration link posted, please reach out to the [EBAs]({{< ref "eba#executive-business-administrator-team" >}}) and [Chief of Staff to the CEO]({{< ref chief-of-staff >}}) on Slack.
 
 #### Earnings Call
 
@@ -628,11 +628,11 @@ This can be seen on the CEO's [GitLab activity log](https://gitlab.com/users/syt
 ![GitLab Activity Log](https://about.gitlab.com/images/ceoshadow/gitlabactivitylog.png)
 See what issues and MRs Sid is interacting with
 
-### On Twitter
+### On X/Twitter
 
-Check out [Sid's Twitter account](https://twitter.com/sytses).
+Check out [Sid's X/Twitter account](https://twitter.com/sytses).
 
-![Twitter notification](/images/ceoshadow/twitternotification.png)
+![X/Twitter notification](https://about.gitlab.com/images/ceoshadow/twitternotification.png)
 Sign up for Twitter notifications (Twitter account required) to follow his everyday engagements.
 
 ## Travel & Expenses
@@ -649,7 +649,7 @@ If you're traveling for the CEO Shadow Program, depending on your hotel accommod
 
 #### Lodging
 
-Lodging during the CEO Shadow Program is provided by the company. Executive Admin to the CEO books the accommodation based on availability and cost. You can express your preference (hotel or AirBnB) via email to the Executive Admin to the CEO in question. However, the final decision is made by the Executive Admin based on the distance from the CEO and costs. Executive Admin will provide the accommodation details no earlier than 1 month and no later than 2 weeks before the scheduled rotation.
+Lodging during the CEO Shadow Program is provided by the company. Executive Admin to the CEO books the accommodation based on availability and cost. You can express your preference (hotel or Airbnb) via email to the Executive Admin to the CEO in question. However, the final decision is made by the Executive Admin based on the distance from the CEO and costs. Executive Admin will provide the accommodation details no earlier than 1 month and no later than 2 weeks before the scheduled rotation.
 
 Accommodation is provided only for the active shadowing period, it is not provided during the shadow program pause (cases when the CEO is unavailable).
 In case you are coming from a timezone that is more than 6 hours difference with Pacific Time, it is possible to book the weekend before the first shadow work day to adjust to the new timezone.
@@ -659,7 +659,7 @@ If your CEO Shadow rotation is two consecutive weeks, it is expected you will be
 #### Airfare
 
 Airfare can be booked according to our [travel policy](/handbook/travel/) or [spending company money](/handbook/spending-company-money/) policy.
-In case your shadow rotation includes time without shadowing, it is possible to expense airfare to fly home and back within the continental USA. If you are from outside of the USA, it is also possible to expense airfare during the time without shadowing because of the possible high cost of lodging in San Francisco if you chose to stay at a different location.
+In case your shadow rotation includes time without shadowing, it is possible to expense airfare to fly home and back within the continental USA. If you are from outside of the USA, it is also possible to expense airfare during the time without shadowing because of the possible high cost of lodging in San Francisco if you choose to stay at a different location.
 
 #### Meals
 
@@ -674,11 +674,6 @@ When traveling with the CEO, keep the following in mind:
 1. Keep the EBA to the CEO and onsite EBA updated regularly and promptly on estimated arrival time in `#ceo-shadow` Slack channel to ensure the schedule is on time.
 1. If travel plans change, please update the EBA(s) in Slack immediately so cancellations to prior transportation can be made promptly to not incur fees.
 1. When returning to San Francisco, if on a different airline, be sure to arrive before the CEO and communicate a meetup location if traveling back together.
-
-### Travel Guidance: COVID-19
-
-Our top priority is the health and safety of our team members, please refer to the current [travel policy](/handbook/travel/#travel-guidance-covid-19).
-The CEO Shadow Program is classified as non-essential travel and travel is generally not required. If you prefer not to travel, sign up for a remote rotation.
 
 ## Considerations for other companies starting CEO Shadow Programs
 
