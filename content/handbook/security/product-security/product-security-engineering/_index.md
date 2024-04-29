@@ -140,22 +140,13 @@ When contributing to a project owned and primarily maintained by Product Securit
 The Product Security Engineering team defaults to using the namespaces of the stakeholder that we're performing the work for:
 
 - For contributions to GitLab assets, we contribute to the relevant repositories where other work is performed
-<<<<<<< content/handbook/security/product-security/product-security-engineering/_index.md
-- For AppSec related work, we use the [AppSec tooling namespace](https://gitlab.com/gitlab-com/gl-security/appsec/tooling) unless there is a compelling reason not to
-- For our team's repositories, we use the [Product Security Engineering tooling namespace](https://gitlab.com/gitlab-com/gl-security/product-security/product-security-engineering/tooling)
-=======
 - For AppSec related work, we use the [AppSec tooling namespace](https://gitlab.com/gitlab-com/gl-security/product-security/appsec/tooling) unless there is a compelling reason not to
 - For our team's repositories, we use the [Product Security Engineering tooling namespace](https://gitlab.com/gitlab-com/gl-security/product-security-engineering/tooling)
->>>>>>> content/handbook/security/product-security/product-security-engineering/_index.md
 
 ## Milestone Planning
 
 The Product Security Engineering team plans its work on a cadence based around [GitLab Product Milestones](https://handbook.gitlab.com/handbook/product/milestones/). This section describes the planning process that we use to determine what work will be completed for each Milestone.
 
-<<<<<<< content/handbook/security/product-security/product-security-engineering/_index.md
-- [Our transition issues in `gitlab-com/gl-security/product-security/product-security-engineering/product-security-engineering-team/`](https://gitlab.com/groups/gitlab-com/gl-security/-/issues/?sort=created_date&state=opened&label_name%5B%5D=AppSec%3A%3ATransition&first_page_size=20)
-- [The announcement Google Doc](https://docs.google.com/document/d/19NO6S02fMF3FZWkrptpXEFp6x2g6L9fro4qYUuITOsw/edit)
-=======
 ### Milestone Planning Issue
 
 For each Milestone, a [Milestone Planning issue](https://gitlab.com/gitlab-com/gl-security/product-security/product-security-engineering/product-security-engineering-team/-/issues/?label_name[]=Milestone Planning) is created in the Product Security Engineering team repository. The purpose of this issue is to:
@@ -199,4 +190,3 @@ The Product Security Engineering manager is responsible for:
 - Creating, updating, and maintaining the Milestone Planning issue
 - Collaborating with Product Security Engineering team members to discuss potential work, identify refinement gaps, and assemble the Milestone Work table
 - Coordinating the finalization of the Milestone Planning issue
->>>>>>> content/handbook/security/product-security/product-security-engineering/_index.md
