@@ -4,14 +4,7 @@ title: "GitLab Release Posts"
 description: "Guidelines to create and update release posts"
 ---
 
-
-
-
-
-
-
 ## Introduction
-
 
 Release posts are [blog posts](https://about.gitlab.com/releases/categories/releases/) that announce changes to the GitLab application. This includes our regular cadence of monthly releases which happen [every month](/handbook/engineering/releases/), and patch/security releases whenever necessary.
 
@@ -358,13 +351,9 @@ When writing your content blocks, be sure to reference [Writing release blog pos
 
 PM contributors are encouraged to use discretion if wanting to add new content blocks after the final merge deadline of the Thursday, 1 week before release, and especially after final content assembly happens at 8 AM PST (3 PM UTC). But if highly impactful features are released that can not wait till the next blog post, PMs should reach out and coordinate with the Release Post Manager. It is up to the discretion of the Release Post Manager to work with the PM to add more content blocks up until the Wednesday, day before release.
 
-#### Experiment or Beta
+Please make sure your feature maturity aligns with the [experiment, beta, and general availability guidelines](/handbook/product/gitlab-the-product/#experiment-beta-ga).
 
-If your feature release will not be generally available upon initial release, please review the [experiment, beta, and general availability guidelines](/handbook/product/gitlab-the-product/#experiment-beta-ga).
-
-To include an experiment or beta feature in the release post, use the [beta template](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/release_posts/unreleased/samples/beta_feature.yml) to create a release post item in the `unreleased` directory. Beta and experiment features are displayed in their own section of the release post.
-
-### Primary vs. secondary
+#### Primary vs. secondary
 
 When creating your content for a Release Post item you'll need to determine if it's a `primary` or `secondary` feature. Do this in collaboration with your PMM counterpart and reference this guidance if you're unsure:
 
@@ -375,8 +364,12 @@ A feature should be `primary` if the feature:
 - Has high demand from customers or the wider community (measured by discussion or upvotes on an epic/issue)
 - Feature ties into a current Marketing narrative or campaign
 - All `primary` features should have a corresponding entry in `features.yml` as well as a photo or video in the release post item block.
-- Beta features may be included as primary, secondary items, or as an extra, but must clearly reflect the `Beta` status.
-- Experimental features are not to be included in release posts.
+- Beta features may be included as primary, or secondary items, but must clearly reflect the `Beta` status.
+- Experimental features are not to be included as primary or secondary items to the release posts.
+
+#### Experimental Features
+
+To include an experimental feature in the release post, use the [experiment template](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/release_posts/unreleased/samples/experiment_feature.yml), when creating a release post item in the `unreleased` directory. Experiment features are displayed in their own section of the release post.
 
 ### Reviews
 
