@@ -7,7 +7,9 @@ canonical_path: "/company/culture/contribute/previous/"
 
 ### Summit in Las Vegas, Nevada, USA
 
-In March 2024, over 1800 team members gathered in Las Vegas. GitLab team members were joined by a number of guest speakers, and board members. https://about.gitlab.com/events/summit-las-vegas/
+In March 2024, over 1800 team members gathered in Las Vegas. GitLab team members were joined by a number of guest speakers, and board members.
+
+<small>In March 2024, the team had grown to 2132!</small>*
 
 ### Virtual Contribute
 
