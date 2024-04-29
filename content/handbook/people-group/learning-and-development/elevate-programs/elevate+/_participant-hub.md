@@ -89,9 +89,9 @@ During Module 2, you will:
 <details>
 <summary>As leaders, we all wear many different hats:</summary>
 
-- Mentor, SME, decision-maker, coach, collaborator, director of work, role model, steward, planner, expert… and the list goes on… 
-- Multiple hats can emerge for each of us in one day - even in one conversation 
-- Our goal as leaders of leaders is to be clear about the hat we put on in conversations with our teams, and intentional about using a hat that’s appropriate for the moment 
+- Mentor, SME, decision-maker, coach, collaborator, director of work, role model, steward, planner, expert… and the list goes on…
+- Multiple hats can emerge for each of us in one day - even in one conversation
+- Our goal as leaders of leaders is to be clear about the hat we put on in conversations with our teams, and intentional about using a hat that’s appropriate for the moment
 
 </details>
 
