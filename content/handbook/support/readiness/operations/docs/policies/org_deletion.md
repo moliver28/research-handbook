@@ -11,7 +11,7 @@ can better understand the automation/scripting aspect of all this:
 
 - [ZD-SFDC sync for Zendesk Global](https://gitlab.com/gitlab-support-readiness/zendesk-global/zendesk-salesforce-sync)
 - [ZD-SFDC sync for Zendesk US Government](https://gitlab.com/gitlab-support-readiness/zendesk-us-government/zendesk-salesforce-sync)
-- Organization Deletion for Zendesk Global
+- [Organization Deletion for Zendesk Global](https://gitlab.com/gitlab-support-readiness/zendesk-global/organizations/deletion)
 - [Organization Deletion for Zendesk US Government](https://gitlab.com/gitlab-support-readiness/zendesk-us-government/organizations/deletion)
 
 ## Criteria for deletion
