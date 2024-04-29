@@ -64,8 +64,8 @@ To summarize, there are three additional fields in the Customer Success Plan sec
 
 ![Customer Success Plan Opportunity Fields](Customer-Success-Plan-SFDC.png)
 
-1. Customer Success Plan: field for the URL to the plan 
-1. CSM Ready: Check if the plan is/can be handed over to the CSM 
+1. Customer Success Plan: field for the URL to the plan
+1. CSM Ready: Check if the plan is/can be handed over to the CSM
 1. Customer Accepted: Check if the customer accepted the plan
 
 
