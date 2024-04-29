@@ -335,7 +335,7 @@ The company will cover all work-related travel expenses. This includes lodging a
 - Co-working spaces need to be a professionally managed space. Leasing of apartments or private properties is prohibited.
 - Coworking space is not reimbursable while on personal travel.
 - Up to 5 One-off Days in a calendar month related to co-working space do not require Manager or Finance approval.
-- If more than 5 days are booked in the month, then Manager and Finance approval (via email to expenses@gitlab.com ) is required and needs to be obtained prior to submission of expenses.
+- If more than 5 days are booked in the month (either through more then 5 day passes or a single monththy membership), then Manager and Finance approval (via email to expenses@gitlab.com ) is required and needs to be obtained prior to submission of expenses.
 - Copy of approved email must be submitted with first month submission.
 - No contracts are allowed to be under the GitLab name and it must be under the Team Members name.
 - The co-working space must be submitted monthly in the month it pertains to with full receipts to be provided.
