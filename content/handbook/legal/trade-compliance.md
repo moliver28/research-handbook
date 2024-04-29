@@ -18,7 +18,6 @@ GitLab provides this information, which is subject to change without notice, to 
 
 ## Resources
 
-- [OFAC Sanctions Programs and Country Information](https://home.treasury.gov/policy-issues/
-financial-sanctions/sanctions-programs-and-country-information)
+- [OFAC Sanctions Programs and Country Information](https://ofac.treasury.gov/sanctions-programs-and-country-information)
 - [Commerce Control List](https://www.bis.doc.gov/index.php/regulations/commerce-control-list-ccl)
 - [15 CFR 740.17 Encryption Commodities, Software, and Technology "ENC"](https://www.ecfr.gov/current/title-15/subtitle-B/chapter-VII/subchapter-C/part-740/section-740.17)
