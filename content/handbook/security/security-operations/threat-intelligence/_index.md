@@ -35,6 +35,10 @@ description: GitLab Security Threat Intelligence Team Overview
 
 ...
 
+## <i class="fas fa-chart-simple" id="biz-tech-icons"></i> How We Measure Success
+
+...
+
 ## <i class="fas fa-bullseye" id="biz-tech-icons"></i> Engaging Threat Intelligence
 
 ...
