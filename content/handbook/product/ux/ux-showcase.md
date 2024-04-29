@@ -1,18 +1,19 @@
 ---
 title: UX Showcase
 description: >-
-  The UX Showcase is a recurring meeting that allows each stage group to walk
-  through various research findings and design solutions.
+  The UX Showcase is a recurring meeting that allows each stage group to share their UX work.
 ---
 
 ## About UX Showcase
 
-The UX Showcase is a recurring meeting that allows each stage group to walk through various research findings and design solutions. All showcases are recorded and made available on [GitLab Unfiltered](https://www.youtube.com/playlist?list=PL05JrBw4t0Kq89nFXtkVviaIfYQPptwJz) for Product, UX, Engineering, and Leadership to watch at their convenience.
+The UX Showcase is a recurring meeting that allows each stage group to share their UX work.
+This includes past, current, or future work, and covers Product Design, UX Research, and Technical Writing.
+All showcases are recorded and made available on [GitLab Unfiltered](https://www.youtube.com/playlist?list=PL05JrBw4t0Kq89nFXtkVviaIfYQPptwJz) for Product, UX, Engineering, and Leadership to watch at their convenience.
 
 ### Purpose
 
 - Increase awareness of the value delivered through UX by highlighting business and customer value
-- Increase visibility into UX research, design opportunities, and solutions
+- Increase visibility into findings, opportunities, solutions
 - Increase exposure of stage group UX activities to the broader organization
 - Increase synchronous discussion immediately following the topic shared or asynchronously after the UX Showcase
 
@@ -50,9 +51,22 @@ If a Product Designer can't present on the assigned date, it's their responsibil
 
 You have up to 15 minutes to share some of your work. If you need more time to present a complex topic, ask the host about having less people present at that showcase.
 
-You should come prepared with sufficient artifacts to tell a story. Use your best judgment to determine what will most effectively convey the story: a few slides, a process diagram, a journey map, a series of mockups, a prototype, and so on.
+Preparation for a UX Showcase should be minimal.
+You should come prepared with just enough to tell a story and ellicit feedback from the audience.
+Successful UX Showcases share these aspects:
 
-Preparation for a UX Showcase should be minimal. Ideally, you should present your topic without creating dedicated slides or assets. The UX Showcase is all about sharing your work in progress, not fancy storytelling. See more [helpful tips](#helpful-tips-for-presenters)
+- **Informal**:
+    Avoid creating dedicated slides or assets, but use your best judgment to determine what's most effective: a prototype, a series of mockups, a process diagram, a journey map, a few slides, or something else.
+    The UX Showcase is all about sharing your work informally, not fancy storytelling.
+- **Just enough sophistication**:
+    Help us strive for a [low level of shame](/handbook/values/#low-level-of-shame) and share your work with as little sophistication as possible.
+    While some topics gain from a more sophisticated presentation, this sophistication raises the perception of quality and puts unnecessary pressure on other presenters.
+- **Relatable**:
+    Structure your story with the audience in mind, to elicit feedback from them, and highlight potential overlaps.
+    This makes it easier for the audience to relate, find value, and engage.
+    For example, intentionally pinpoint overlaps or add questions for the audience.
+
+See [helpful tips](#helpful-tips-for-those-sharing).
 
 Examples of minimal UX Showcase presentations:
 
@@ -63,10 +77,8 @@ Examples of minimal UX Showcase presentations:
 
 ### Preparation
 
-Preparation time should be minimal, as you'll present the work you've done thus far.
-
-- Prior to the UX Showcase, communicate your specific topic in the meeting agenda.
-- If this is an APAC showcase and there is no host yet, consider [hosting](/handbook/product/ux/ux-showcase/#hosting).
+- Prior to the UX Showcase, add your specific topic to the meeting agenda.
+- If this is an APAC showcase and there is no host yet, consider [hosting](#hosting).
 - Provide context for the problem you were trying to solve:
     - The scope of the problem
     - Why was it important to solve?
@@ -75,7 +87,7 @@ Preparation time should be minimal, as you'll present the work you've done thus 
 - State the desired goals of the work:
     - What is the desired business and customer outcome?
     - Ideally, describe the [JTDB](https://jtbd.info/replacing-the-user-story-with-the-job-story-af7cdee10c27)
-        - When, [users' context]. I want to [user's goal]. So I can [users's desired outcome].
+        - When, [user's context]. I want to [user's goal]. So I can [user's desired outcome].
     - What were the constraints?
     - How did you iterate toward an MVC?
 - Walk your audience through the solution iterations:
@@ -88,9 +100,9 @@ Preparation time should be minimal, as you'll present the work you've done thus 
 - Introduce yourself and provide [context](#preparation) for your presentation.
 - [Make the participant experience an enjoyable one](/handbook/tools-and-tips/zoom/#make-the-participant-experience-an-enjoyable-one): avoid moving around too fast (for example, when showing a Figma prototype), or back and forth between views because you forgot to say one thing at the previous one.
 - [When sharing your screen](/handbook/tools-and-tips/zoom/#how-to-share-a-presentation-in-zoom), consider going fullscreen so that the audience can see the details of your presentation.
-    - Useful Figma keyboard shortcuts on Mac: Show/hide UI `⌘ + \` and Show/hide sidebars `⌘ + .`
+    - Useful Figma keyboard shortcut on macOS to show/hide UI: `⌘\` or `⌘.`.
 - Make sure the minimum font size of text in your presentation is large enough so that it can easily be read by everyone.
-- [Provide links](/handbook/tools-and-tips/zoom/#provide-links-rather-than-sharing-while-you-present-or-edit) in the agenda doc that are relevant to your story, such as, issues, epics, Figma files, Figjam boards, and recordings.
+- [Provide links](/handbook/tools-and-tips/zoom/#provide-links-rather-than-sharing-while-you-present-or-edit) in the agenda doc that are relevant to your story, such as, issues, epics, Figma files, FigJam boards, and recordings.
 - When sharing directly from Figma files and issues, consider preparing an outline of the things you want to cover beforehand, filling in a few details of points you want to mention. Use this as a guide while you present your showcase to make it more linear & easy to follow for the audience.
 - Is your internet connection limited? Stop the Zoom camera feed or try [these tips](https://www.canr.msu.edu/od/educational-technology/tips-zoom-slow-connection).
 - Ask people to share their questions after a section of your shared work.
@@ -120,14 +132,14 @@ Otherwise,
 1. Set the visibility to Public
     * NOTE: If the video content contains items that are un[SAFE](/handbook/legal/safe-framework/) mark the video as Private.
 1. Share the YouTube links in `#ux` and `#product` Slack channels with a brief description of each presentation
-    - Add the same update to the Engineering FYI document. The document is available in the description of our internal ["engineering-fyi" Slack channel](https://gitlab.slack.com/archives/CJWA4E9UG).
+    - Add the same update to the Engineering Week-In-Review document. The document is available in the description of our internal [`engineering-fyi` Slack channel](https://gitlab.slack.com/archives/CJWA4E9UG).
 
 #### Helpful tips
 
 - If you cannot find the videos in your Zoom account, reach out to the calendar event owner, as it probably uploaded to their account.
 - In iMovie, you can upload a video straight to YouTube, as long as it's under 15 minutes long. But you still have to go to YouTube to select the playlist.
-- You can pick a better thumbnail and edit other settings after uploading by going to the [Uploads page](https://studio.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A/videos/upload) and selecting your video
-- [More info about using YouTube](/handbook/marketing/marketing-operations/youtube/)
+- You can pick a better thumbnail and edit other settings after uploading by going to the [Uploads page](https://studio.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A/videos/upload) and selecting your video.
+- [More about using YouTube](/handbook/marketing/marketing-operations/youtube/).
 
 ### Updating the schedule
 
