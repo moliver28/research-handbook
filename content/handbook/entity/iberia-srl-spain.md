@@ -22,7 +22,7 @@ In line with GitLab's regulatory obligations, changes to [controlled documents](
 </div>
 </div>
 
-This Handbook is for team members employed by GitLab Iberia s.r.l and includes (we hope!), all the information you might want or need. If there's anything we don't have here, that you think should be included, please feel free to make a suggestion.
+Bienvenido! This Handbook is for team members employed by GitLab Iberia s.r.l and includes (we hope!), all the information you might want or need. If there's anything we don't have here, that you think should be included, please feel free to make a suggestion.
 
 ### Scope
 
@@ -82,7 +82,7 @@ Overtime, if appropriate, _must be expressly and previously authorized in writin
 
 ## Payroll Details
 
-[Payroll information will be added once confirmed]
+Payroll information will be added in duwe course - please hold tight!
 
 ## Spain-Specific Team Member Benefits
 
