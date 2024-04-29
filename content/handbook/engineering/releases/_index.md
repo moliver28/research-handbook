@@ -96,8 +96,9 @@ The metrics used to display this information are updated automatically throughou
 
 ## Patch releases overview
 
-The [patch release policy] allows bug fixes to be backported to the current stable released version of GitLab. Patches that are outside of
-our [maintenance policy] for bug fixes must be requested and agreed upon by the release managers and the requester (see
+The [patch release policy] allows bug fixes to be backported to the current stable released version of GitLab, and security fixes to be backported to the current, and previous two GitLab Versions.
+
+Patches that are outside of our [maintenance policy] for bug fixes must be requested and agreed upon by the release managers and the requester (see
 [backporting to versions outside the maintenance policy] for details).
 
 ### Patch release cadence
@@ -109,6 +110,8 @@ Patch releases are scheduled twice a month on the second and fourth Wednesdays, 
 Patches fix regressions in the current self-managed release.
 
 If you're a GitLab engineer looking to include a bug fix in a release, please follow the steps on the [patch release runbook for GitLab engineers].
+
+If you're a GitLab engineer looking to include a fix in a security release, please follow the steps on the [security release runbook for GitLab engineers](https://gitlab.com/gitlab-org/release/docs/-/blob/master/general/security/process.md#guides-by-role).
 
 Overview of the steps involved with creating a patch release:
 
