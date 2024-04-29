@@ -75,4 +75,4 @@ All GitLab.com Duo Pro trials can be located using this query: https://customers
 1. Search using the customer's [Namespace ID](https://docs.gitlab.com/ee/user/group/#get-the-group-id).
 1. Locate an order that has plan `saas-gitlab-duo-pro-trial-plan-id`.
 1. If you have GitLab.com Admin access, verify the GitLab group has Duo Pro by [checking the Usage Quotas page](https://docs.gitlab.com/ee/subscriptions/subscription-add-ons.html#for-gitlabcom).
-   - **NOTE**: Always check the **start and end date** of the Duo Pro
+   - **NOTE**: Always check the **start and end date** of the Duo Pro.
