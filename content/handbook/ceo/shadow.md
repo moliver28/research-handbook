@@ -675,11 +675,6 @@ When traveling with the CEO, keep the following in mind:
 1. If travel plans change, please update the EBA(s) in Slack immediately so cancellations to prior transportation can be made promptly to not incur fees.
 1. When returning to San Francisco, if on a different airline, be sure to arrive before the CEO and communicate a meetup location if traveling back together.
 
-### Travel Guidance: COVID-19
-
-Our top priority is the health and safety of our team members, please refer to the current [travel policy](/handbook/travel/#travel-guidance-covid-19).
-The CEO Shadow Program is classified as non-essential travel and travel is generally not required. If you prefer not to travel, sign up for a remote rotation.
-
 ## Considerations for other companies starting CEO Shadow Programs
 
 GitLab co-founder and CEO Sid Sijbrandij [answered questions in a YouTube livestream](https://youtu.be/ExG8_bnIAMI) from Sam Altman, as the two discussed considerations for implementing a CEO Shadow Program in other organizations. Key takeaways are documented below.
