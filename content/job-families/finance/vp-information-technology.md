@@ -1,15 +1,15 @@
 ---
-title: "VP, Information Technology"
+title: "VP, IT Enterprise Applications"
 ---
 
 ## Job Grade
 
-The VP, IT is a [grade 12](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+The VP, IT Enterprise Application is a [grade 12](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
 ## Responsibilities
 
 1. Build, hire, develop and manage a strong information technology team that lives GitLab’s values.
-1. Deliver business results in the areas of IT Operations, IT Security and compliance, Enterprise business systems, business process, and system integration
+1. Deliver business results in the areas of Enterprise business systems, business process, and system integration
 1. Lead IT strategic and operational planning to achieve business goals including managing a roadmap that will support rapid growth.
 1. Prioritize and coordinate project teams for IT initiatives company wide collaborating with a diverse set of stakeholders across Product, Engineering, Sales, Marketing, Security, People Ops, Finance and Legal.
 1. Develop the roadmap to optimize the business processes of Quote to Cash, Record to Report, Hire to Retire and Procure to Pay with the goal of driving more revenue or increasing operational efficiency.
@@ -36,8 +36,8 @@ The VP, IT is a [grade 12](/handbook/total-rewards/compensation/compensation-cal
 ## Performance Indicators
 
 - IT Program based impact to revenue or efficiency
-- SLA achievement for IT Support Issue Resolution
-- IT Team member satisfaction score
+- SLA achievement for Support Issue Resolution
+- Team member satisfaction score
 
 ## Hiring Process
 
