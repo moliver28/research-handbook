@@ -37,13 +37,13 @@ Get help in your cohort Slack channel. Find links to each channel below:
 
 ## Live Session Best Practices
 
-The goal of this program is to create a shared leadership development experience for all GitLab leaders,  and to ensure that each participant has the skills and capabilities they need to be an exceptional leader at GitLab. Elevate+ objectives are rooted in GitLab values, leadership competencies, and mission. 
+The goal of this program is to create a shared leadership development experience for all GitLab leaders,  and to ensure that each participant has the skills and capabilities they need to be an exceptional leader at GitLab. Elevate+ objectives are rooted in GitLab values, leadership competencies, and mission.
 
 Making the most out of Elevate+:
 
 - 📸Keep your camera on
 - 🧑‍💻While we understand that multitasking is a way of working at GitLab, we notice that those who are fully - present contribute the most, and get the most from this program
-- 🙋Be brave, ask questions, and share your perspectives 
+- 🙋Be brave, ask questions, and share your perspectives
 - 💬Use this session guide and our synchronous GitLab shared space to learn from each other
 - 🤔Stay curious and open to learning
 - 💃Have fun!
@@ -83,7 +83,7 @@ During Module 2, you will:
 <summary>Prepare to discuss how you lead to empower:</summary>
 
 - [Short LinkedIn Article: Positional vs. Position Power](https://www.linkedin.com/pulse/positional-vs-personal-power-aditi-agrawal/)
-- 
+-
 
 </details>
 
@@ -95,7 +95,7 @@ During Module 2, you will:
 
 In Module 3, create a shared understanding around the importance for your team members to understand how they each contribute to driving results for customers by:
 
-1. Learning from each other about GitLab's core business, revenue streams, and customer profiles 
+1. Learning from each other about GitLab's core business, revenue streams, and customer profiles
 2. Identifing how each of your teams contribute to GitLab's success and and beating our competition
 3. Providing tools, language, and resources for you to lead a conversation with your team members
 
