@@ -1,6 +1,6 @@
 ---
-title: GitLab Iberia srl (Spain) Benefits and Information 
-description: "Entitity Information for GitLab Iberia S.R.L. Spain Team Members"
+title: "GitLab Iberia s.r.l. (Spain) Information and Benefits"
+description: "Entitity Information for GitLab Iberia s.r.l. Spain Team Members"
 controlled_document: true
 ---
 
@@ -22,7 +22,7 @@ These standards apply to all GitLab team members hired through GitLab Iberia s.r
 
 ## Employment Contracts
 
-GitLab’s Team Member contract templates, including for Spain, [will be listed here in due course](https://internal.gitlab.com/handbook/people-group/people-operations/people-connect/employment_contracts/#spain) _for reference only_, viewable by *anyone in GitLab* (they are internal only). The DRI for all GitLab Team Member contracts is the People Connect Team. Any changes to any contracts should be requested through People Connect and will require approval from our Senior Director of Legal, Employment.
+GitLab’s Team Member contract templates, including for Spain, [will be listed here in due course](https://internal.gitlab.com/handbook/people-group/people-operations/people-connect/employment_contracts/#spain) (for reference only), viewable by **anyone in GitLab** (internal only). The DRI for all GitLab Team Member contracts is the People Connect Team. Any changes to any contracts should be requested through People Connect and will require approval from our Senior Director of Legal, Employment.
 
 Contract copies are lodged with the Spanish Labour Inspectorate by the payroll provider (Papaya) as required. Contact nonuspayroll@gitlab.com if you have any queries.
 
@@ -74,16 +74,16 @@ Payroll information will be added in duwe course - please hold tight!
 
 For Spain based team members, GitLab provides 100% paid membership of medical insurance with AXA VIP  (network+Reimbursement). Family members can be added to the insurance and GitLab will pay 50% of the cost to include them. If you would like to add your family member to the plan, please fill out the attached form.
 
-You can view the [2024 plan premiums here.](https://docs.google.com/document/d/1ZzQQgDr-11Zw8FHzozPyn6kalo1Y5J0-Fd1uRDXXn9E/edit) 
+You can view the [2024 plan premiums here](https://docs.google.com/document/d/1ZzQQgDr-11Zw8FHzozPyn6kalo1Y5J0-Fd1uRDXXn9E/edit).
 
-Further information can also be found in the [AXA VIP Summary ](https://drive.google.com/file/d/13GpHxj6s4UHwPygdWiqSLbzhw8ppFplr/view?usp=sharing).
+Further information can also be found in the [AXA VIP Summary](https://drive.google.com/file/d/13GpHxj6s4UHwPygdWiqSLbzhw8ppFplr/view?usp=sharing).
 
 Temporary Medical Allowance: To make up for the transition period and pivot in our proposal, the TR team will be offering a monthly gross allowance of 140 Euros until December 31, 2024. After this period the allowance will cease. This will apply to any team member that started on the entity prior to July 1, 2023.
 
 <details markdown="1">
 <summary>Taxability of Medical Plans</summary>
 
-Please note that Group Medical plan premiums are tax exempt up to €500 per year/per individual (employee and dependents). Any excess on premium must be reported as benefit in kind and subject to withholding tax. 
+Please note that Group Medical plan premiums are tax exempt up to €500 per year/per individual (employee and dependents). Any excess on premium must be reported as benefit in kind and subject to withholding tax.
 
 </details>
 
@@ -101,7 +101,8 @@ No waiting periods except for the following procedures:
 
 12 months: 
 - Urinary incontinence´s rehabilitation
-- Telemedicine Program: Children's Cognitive Telerehabilitation (Guttmann)
+- Telemedicine Program: Children's Cognitive
+- Telerehabilitation (Guttmann)
 24 months: 
 - BRCA Plus Determination
 - Prophylactic mastectomy/oophorectomy
@@ -110,13 +111,13 @@ No waiting periods except for the following procedures:
 60 months:
 - Bariatric surgery
 
-No medical questionnaire required (pre existing illness will be accepted, except serious illness). 
+No medical questionnaire required (pre existing illness will be accepted, except serious illness).
 
 **Life Event Enrollment**
 
 Other than during enrollment, Team Members can add dependents during certain life events such as birth or marriage, with an effective date of the life event. Please fill out the [Life Event Form](https://docs.google.com/forms/d/e/1FAIpQLSd8YRqlEqfvlZgqUFm2fZ8A6JC5hKrm2JlZKInkUl_nQD3nww/viewform?usp=sf_link) to enroll your dependent.  
 
-The Team Member portion of the dependent cost will be deducted from their paycheck on a monthly basis. The Benefit in Kind amount will be reported on a monthly basis and team members will be taxed on the value of the benefit. 
+The Team Member portion of the dependent cost will be deducted from their paycheck on a monthly basis. The Benefit in Kind amount will be reported on a monthly basis and team members will be taxed on the value of the benefit.
 
 </details>
 
@@ -124,10 +125,10 @@ The Team Member portion of the dependent cost will be deducted from their payche
 
 Life Insurance provides peace of mind for you and your loved ones in the event of your untimely death, helping to relieve financial concern during a time of grief. GitLab offers Life Insurance via Generali.
 
-Team Members are automatically enrolled into the benefit with an insured lump sum of 200% Gross Base Salary. This includes cover for the following: 
-- Death by any cause, 
-- Accidental Death (additional lump sum), 
-- Total and Permanent Disability for the own occupation by any cause, 
+Team Members are automatically enrolled into the benefit with an insured lump sum of 200% Gross Base Salary. This includes cover for the following:
+- Death by any cause,
+- Accidental Death (additional lump sum),
+- Total and Permanent Disability for the own occupation by any cause,
 - Accidental Total and Permanent Disability for the own occupation (additional lump sum to TPD)
 
 The Free cover Limit is 500,000 EUR. 
@@ -135,7 +136,7 @@ The Free cover Limit is 500,000 EUR.
 <details markdown="1">
 <summary>Taxability of Life and Disability Insurance Plans</summary>
 
- Group Life insurance premiums are benefit in kind and taxable on the employee's income tax. The premiums are subject to withholding tax. 
+ Group Life insurance premiums are benefit in kind and taxable on the employee's income tax. The premiums are subject to withholding tax.
 
 </details>
 
@@ -150,7 +151,7 @@ Children of the insured in equal shares or their descendants in case of death
 Parents of the insured in equal shares
 Legal heirs of the Insured
 
-To Update your Beneficiary please fill out the [beneficiary designation form](https://drive.google.com/drive/folders/14KdAmwiUK9hwqRQsRA6RvG5D0I815ZhS) and send to Fernanda.dallagnese@wtwco.com and total-rewards@gitlab.com along with a copy of the National Identity Card of the employee 
+To Update your Beneficiary please fill out the [beneficiary designation form](https://drive.google.com/drive/folders/14KdAmwiUK9hwqRQsRA6RvG5D0I815ZhS) and send to Fernanda.dallagnese@wtwco.com and total-rewards@gitlab.com along with a copy of the National Identity Card of the employee.
 
 </details>
 
