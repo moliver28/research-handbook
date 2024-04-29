@@ -1,0 +1,4 @@
+# these options enable directly browsing CI job artifacts
+canonifyURLs: false
+relativeURLs: true
+uglyURLs: true
