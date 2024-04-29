@@ -82,7 +82,7 @@ variables:
   script:
     - apk update
     - apk upgrade
-    - apk add go npm yq curl coreutils
+    - apk add go npm yq curl coreutils sed
     - ./scripts/sync-data.sh
     - npm ci
     - hugo --enableGitInfo
