@@ -4,7 +4,6 @@ title: "Support Career Framework: Customer Support Representative"
 
 ## Customer Support Representative
 
- {{% include "includes/engineering-careers/support-career-nav.md" %}}
  
 **Customer Support Representatives at GitLab are expected to exhibit the following competencies:**
  
