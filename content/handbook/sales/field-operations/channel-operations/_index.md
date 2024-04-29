@@ -195,7 +195,7 @@ GitLab is building out a global Authorized Distributor network similar to many o
 - Open Partners located in regions/countries with active Authorized GitLab Distributors must purchase GitLab via those distributors
 - Select Partners may choose to transact directly with GitLab (excluding certain regions) or via the region's authorized distributor(s)
 - In NORTH AMERICA, Partners transact with [Climb Solutions](https://www.climbcs.com/) via `sales@climbcs.com` and `sales@climbcs.ca` in the US and Canada, respectively
-- In EMEA: Partners transact with Amazic via `gitlab@amazic.com`
+- In EMEA: Partners transact with [Amazic](https://distribution.amazic.com/) via `gitlab@amazic.com`
   - In META (Middle East, Turkey, and Africa): Partners may also choose to transact with [Mindware](https://www.mindware.net/contact-us) via `sales@mindware.net`
 - In APAC (several countries):  Partners transact with [Tech Data/TD Synnex](https://www.techdata.com/apac/en/partner-with-us/become-a-partner.html) via `GitLab.APJ@techdata.com`
   - In India: Partners may also choose to transact with Redington via `gitlab@redington.co.in`
