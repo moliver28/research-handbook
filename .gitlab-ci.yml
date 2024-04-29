@@ -100,6 +100,36 @@ variables:
 #
 ###################################
 
+pages-review:
+  extends: [.hugo]
+  rules:
+    - if: $CI_MERGE_REQUEST_IID
+  environment:
+    name: review/$CI_COMMIT_REF_SLUG
+    # There is no predefined CI variable that is formatted quite right
+    # neither $CI_PAGES_URL nor $CI_JOB_URL have /-/ directly after the hostname
+    # TODO @dnsmichi improve and make review apps work https://gitlab.com/groups/gitlab-com/content-sites/-/epics/11
+    url: https://gitlab-com.gitlab.io/-/content-sites/handbook/-/jobs/$CI_JOB_ID/artifacts/public/
+    on_stop: stop-pages-review
+  variables:
+    HUGO_ENVIRONMENT: review
+    RUN_TYPE: MR
+
+stop-pages-review:
+  image: busybox
+  stage: cleanup
+  script:
+    - echo "stop review app"
+  environment:
+    name: review/$CI_COMMIT_REF_SLUG
+    action: stop
+  rules:
+    - if: $CI_MERGE_REQUEST_IID
+      when: manual
+      allow_failure: true
+  variables:
+    GIT_STRATEGY: none
+
 pages:
   extends: [.hugo]
   environment:
@@ -151,6 +181,13 @@ deploy s3:
 ## TEST STAGE
 ##
 ####################################
+
+modules:tidy:
+  stage: test
+  script:
+    - hugo mod tidy
+    - echo "If this job failed, please run `git checkout go.mod go.sum`"
+    - git diff --exit-code go.mod go.sum
 
 markdownlint:
   image:
