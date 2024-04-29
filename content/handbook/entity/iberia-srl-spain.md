@@ -90,7 +90,7 @@ Please note that Group Medical plan premiums are tax exempt up to €500 per yea
 <details markdown="1">
 <summary>Medical Plan Enrollment and Life Event Enrollment</summary>
 
-Team Members must enroll in to the plan upon hire. 
+Team Members must enroll in to the plan upon hire.
 The Total Rewards team will share your enrollment details with our brokers at WTW within the first week of their start date. Team Members can expect their AXA welcome package via email within 3 weeks of their start date.
 
 New Hires can add Family members by filling out the Survey Link included in their onboarding document.
@@ -99,11 +99,11 @@ Please note you will have 25 days to enroll your family with effective date as t
 
 No waiting periods except for the following procedures:
 
-12 months: 
+12 months:
 - Urinary incontinence´s rehabilitation
 - Telemedicine Program: Children's Cognitive
 - Telerehabilitation (Guttmann)
-24 months: 
+24 months:
 - BRCA Plus Determination
 - Prophylactic mastectomy/oophorectomy
 - Musculoskeletal physiotherapy in case of cerebrovascular accident
@@ -131,7 +131,7 @@ Team Members are automatically enrolled into the benefit with an insured lump su
 - Total and Permanent Disability for the own occupation by any cause,
 - Accidental Total and Permanent Disability for the own occupation (additional lump sum to TPD)
 
-The Free cover Limit is 500,000 EUR. 
+The Free cover Limit is 500,000 EUR.
 
 <details markdown="1">
 <summary>Taxability of Life and Disability Insurance Plans</summary>
