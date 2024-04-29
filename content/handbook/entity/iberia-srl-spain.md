@@ -1,26 +1,10 @@
 ---
-layout: handbook-page-toc
-title: WIP Handbook for Spain 
-description: WIP Handbook for Spain
+title: GitLab Iberia srl (Spain) Benefits and Information 
+description: "Entitity Information for GitLab Iberia S.R.L. Spain Team Members"
+controlled_document: true
 ---
 
-## On this page
-{:.no_toc .hidden-md .hidden-lg}
-
-- TOC
-{:toc .hidden-md .hidden-lg}
-
-{::options parse_block_html="true" /}
-
-<div class="panel panel-gitlab-orange">
-**This is a Controlled Document**
-{: .panel-heading}
-<div class="panel-body">
-
 In line with GitLab's regulatory obligations, changes to [controlled documents](https://about.gitlab.com/handbook/security/controlled-document-procedure.html) must be approved or merged by a code owner. All contributions are welcome and encouraged.
-
-</div>
-</div>
 
 Bienvenido! This Handbook is for team members employed by GitLab Iberia s.r.l and includes (we hope!), all the information you might want or need. If there's anything we don't have here, that you think should be included, please feel free to make a suggestion.
 
@@ -48,7 +32,7 @@ The XVIII Convenio colectivo estatal de empresas de consultoría, tecnologías d
 
 ### Professional Groups under the Applicable CBA
 
-Team members ought to be classified under a professional group and level (by area of activity) as required by the CBA. The CBA sets minimum salary levels per area and group and it also sets the required trial/probation period length (if applicable). 
+Team members ought to be classified under a professional group and level (by area of activity) as required by the CBA. The CBA sets minimum salary levels per area and group and it also sets the required trial/probation period length (if applicable).
 
 ## Employment Policies
 
@@ -86,7 +70,7 @@ Payroll information will be added in duwe course - please hold tight!
 
 ## Spain-Specific Team Member Benefits
 
-### Medical Plans 
+### Medical Plans
 
 For Spain based team members, GitLab provides 100% paid membership of medical insurance with AXA VIP  (network+Reimbursement). Family members can be added to the insurance and GitLab will pay 50% of the cost to include them. If you would like to add your family member to the plan, please fill out the attached form.
 
@@ -94,34 +78,29 @@ You can view the [2024 plan premiums here.](https://docs.google.com/document/d/1
 
 Further information can also be found in the [AXA VIP Summary ](https://drive.google.com/file/d/13GpHxj6s4UHwPygdWiqSLbzhw8ppFplr/view?usp=sharing).
 
-Temporary Medical Allowance: To make up for the transition period and pivot in our proposal, the TR team will be offering a monthly gross allowance of 140 Euros until December 31, 2024. After this period the allowance will cease. This will apply to any team member that started on the entity prior to July 1, 2023. 
-
-</details>
+Temporary Medical Allowance: To make up for the transition period and pivot in our proposal, the TR team will be offering a monthly gross allowance of 140 Euros until December 31, 2024. After this period the allowance will cease. This will apply to any team member that started on the entity prior to July 1, 2023.
 
 <details markdown="1">
-
 <summary>Taxability of Medical Plans</summary>
-
 
 Please note that Group Medical plan premiums are tax exempt up to €500 per year/per individual (employee and dependents). Any excess on premium must be reported as benefit in kind and subject to withholding tax. 
 
 </details>
 
 <details markdown="1">
-
 <summary>Medical Plan Enrollment and Life Event Enrollment</summary>
 
 Team Members must enroll in to the plan upon hire. 
 The Total Rewards team will share your enrollment details with our brokers at WTW within the first week of their start date. Team Members can expect their AXA welcome package via email within 3 weeks of their start date.
 
-New Hires can add Family members by filling out the Survey Link included in their onboarding document. 
+New Hires can add Family members by filling out the Survey Link included in their onboarding document.
 
 Please note you will have 25 days to enroll your family with effective date as the same as the employee enrollment date to access the same medical insurance conditions as the employee, which are:
 
 No waiting periods except for the following procedures:
 
 12 months: 
-- Urinary incontinence´s rehabilitation, 
+- Urinary incontinence´s rehabilitation
 - Telemedicine Program: Children's Cognitive Telerehabilitation (Guttmann)
 24 months: 
 - BRCA Plus Determination
@@ -141,7 +120,6 @@ The Team Member portion of the dependent cost will be deducted from their payche
 
 </details>
 
-
 ### Life and Disability Insurance
 
 Life Insurance provides peace of mind for you and your loved ones in the event of your untimely death, helping to relieve financial concern during a time of grief. GitLab offers Life Insurance via Generali.
@@ -154,10 +132,7 @@ Team Members are automatically enrolled into the benefit with an insured lump su
 
 The Free cover Limit is 500,000 EUR. 
 
-</details>
-
 <details markdown="1">
-
 <summary>Taxability of Life and Disability Insurance Plans</summary>
 
  Group Life insurance premiums are benefit in kind and taxable on the employee's income tax. The premiums are subject to withholding tax. 
@@ -165,7 +140,6 @@ The Free cover Limit is 500,000 EUR.
 </details>
 
 <details markdown="1">
-
 <summary>Beneficiary Assignment</summary>
 
 In case of Disability: The beneficiary is the insured herself/himself.
@@ -183,16 +157,13 @@ To Update your Beneficiary please fill out the [beneficiary designation form](ht
 
 ### Administrative Details for Benefits Team
 
-</details>
-
 <details markdown="1">
-
 <summary>Joiners, Leavers, and Payroll Details</summary>
 
 Total Rewards Team will notify WTW whenever there is new hire, leaver, or salary change
-When a change in the life or medical premiums occur WTW will send total-rewards@gitlab.com and nonuspayroll@gitlab.com the updated report during the last week of the prior month (for example the June pay period will be sent the last week of May). Please note that the premiums are not prorated for the month. 
+When a change in the life or medical premiums occur WTW will send total-rewards@gitlab.com and nonuspayroll@gitlab.com the updated report during the last week of the prior month (for example the June pay period will be sent the last week of May). Please note that the premiums are not prorated for the month.
 
-Team Members are on leave whose salary is paid directly via the Spanish government, will remain on the medical and life insurance plans during leave. Any deductions missed while on leave will be deducted once the team member comes back from leave. 
+Team Members are on leave whose salary is paid directly via the Spanish government, will remain on the medical and life insurance plans during leave. Any deductions missed while on leave will be deducted once the team member comes back from leave.
 
 </details>
 
@@ -214,7 +185,7 @@ All full-time workers are legally entitled to 23 working days of paid holiday (P
 
 ### Sick Leave
 
-Team members are entitled to paid sick leave from the fourth day up to 365 days (extendable by an additional 180 days) if they have provided medical certification.  **Team Members must submit sick leave confirmation reports, if any, within three days after they are signed off work by a doctor.  All reports or medical notes can be sent to the Absence Management Team (leaves@gitlab).** 
+Team members are entitled to paid sick leave from the fourth day up to 365 days (extendable by an additional 180 days) if they have provided medical certification.  **Team Members must submit sick leave confirmation reports, if any, within three days after they are signed off work by a doctor.  All reports or medical notes can be sent to the Absence Management Team (leaves@gitlab).**
 
 If an occupational accident is involved, sick leave (including the first three days) is paid by the Safety Service of the Mutual Insurance Company for six months (extendable by another six months).
 
@@ -223,6 +194,7 @@ If an occupational accident is involved, sick leave (including the first three d
 Team members must first notify their manager of their need for sick leave and then enter all sick time into Time Off by Deel by selecting the `Out Sick` label.  Then, team members must contact the Absence Management Team and provide a medical certificate in order to take sick leave and claim sick pay.
 
 ### Sick Pay
+
 If a team member has made at least 180 days of social security contributions throughout the previous five years, and has a sickness or injury lasting more than 20 days, they may be declared temporarily disabled by the National Social Security Institute. In that case, the contract of employment is suspended with the position reserved (i.e. without mutual obligations of work and payment) during the period of disability, and the team member is entitled to a partial wage replacement benefits.
 
 Sick Pay is calculated as follows:
@@ -293,14 +265,14 @@ This money comes from the Spanish government, not his employer, though employers
 
 ### Applying for Parental Leave in Spain
 
-To initiate your parental leave, submit your time off by selecting the `Parental Leave` label in Time Off by Deel at least 30 days before your leave starts. 
+To initiate your parental leave, submit your time off by selecting the `Parental Leave` label in Time Off by Deel at least 30 days before your leave starts.
 
 ### Breastfeeding leave
 
 Parents can take an additional breastfeeding leave after parental leave. This breastfeeding leave can be enjoyed in two ways:
 
-- take one hour off during the day, until the child is nine months old (it can either be one hour, or half an hour at the beginning and at the end of the working day)
-- take 15 consecutive days after the parental leave
+- Take one hour off during the day, until the child is nine months old (it can either be one hour, or half an hour at the beginning and at the end of the working day)
+- Take 15 consecutive days after the parental leave
 
 The breastfeeding leave is considered as working time, meaning that the team member doesn't receive anything from Social Security and is paid by the company at 100%.
 
@@ -323,3 +295,4 @@ What's next in Spain? Any planned policy additions will be put on a roadmap here
 ## Transparency/Version control
 
 If/when country specific policies are added or updated, and where it is possible, previous versions of those policies will remain accessible internally and will be linked from current versions.
+
