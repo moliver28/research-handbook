@@ -11,7 +11,17 @@ Help GitLab make informed, intelligence-driven decisions that keep our company a
 
 ### Our Mission Statement
 
-...
+We will provide timely, relevant, and actionable intelligence that integrates into our security operations and broader business decision-making.
+
+This starts with proactively identifying and assessing threats and risks most relevant to our customers, our product, and our organization. We will deliver this information in clear and concise formats, adding context and recommending immediate actions to protect against emerging threats.
+
+Our team will develop and maintain relationships with industry peers, keeping a pulse on trends and helping to secure the industry as a whole.
+
+By executing on this mission, we will:
+
+- Foster a culture of threat awareness and intelligence sharing across the organization.
+- Build and maintain the trust and confidence of our customers and team members.
+- Help meet the broader objectives of our security organization by adapting rapidly to changes in the threat landscape.
 
 ## <i class="fas fa-users" id="biz-tech-icons"></i> The Team
 
