@@ -14,7 +14,7 @@ Working remotely comes with its own sustainability challenges and opportunities.
 
 We know that part of doing responsible business means minimizing our environmental footprint. That’s why we’re committed to analyzing and publishing our emissions along with any steps we’re taking to reduce our footprint in our annual [ESG report](https://handbook.gitlab.com/handbook/esg/#gitlab-fiscal-year-2023-fy23-esg-report).
 
-We are a global team, and we know there are sustainability initiatives and offerings specific to where you live. Many of you have developed sustainable practices at home, and we would love to know more about them! Please [contribute here](https://gitlab.com/gitlab-com/content-sites/handbook/-/issues/224) and help us crowdsource ideas for other team members in your area! Please share any feedback or questions in the issue or in slack #ESG.
+We are a global team, and we know there are sustainability initiatives and offerings specific to where you live. Many of you have developed sustainable practices at home, and we would love to know more about them! Please [contribute here](https://gitlab.com/gitlab-com/legal-and-compliance/-/issues/2072) and help us crowdsource ideas for other team members in your area! Please share any feedback or questions in the issue or in slack #ESG.
 
 ## Electronics
 
