@@ -479,7 +479,8 @@ To be eligible for the NFR Program, Partners must:
 
 ##### Add-ons to NFR Subscriptions
 
-Duo Pro is not yet available on NFR subscriptions; however we can provide a 30-day Duo-Pro trial. Please work with your Partner Account Manager and Solutions Architect to get this setup.
+- If you would like to purchase any add-on to your NFR license (CI minutes, Storage, Duo Pro, etc), please reach out to your Partner Account Manager for assistance in placing the order. If partners attempt to purchase NFR add-ons through their customer portal, their subscription will be downgraded to free. If you have been downgraded to free already, please contact [GitLab Support](https://about.gitlab.com/support/) for assistance.
+- Duo Pro is not yet available on NFR subscriptions; however we can provide a 30-day Duo-Pro trial. Please work with your Partner Account Manager and Solutions Architect to get this setup.
 
 #### Technical Support
 
