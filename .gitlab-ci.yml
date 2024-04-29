@@ -86,6 +86,7 @@ variables:
     - ./scripts/sync-data.sh
     - npm ci
     - hugo --enableGitInfo
+    - find "public" -type f -name '*.html' -exec sed -i '' -e "s/content-sites\/handbook\/mr5388\/content-sites\/handbook\/mr5388/content-sites\/handbook\/mr5388/g" {} +
   rules:
     - if: $CI_COMMIT_REF_NAME != $CI_DEFAULT_BRANCH
   artifacts:
