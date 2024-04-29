@@ -428,7 +428,8 @@ Since GitLab is an [all remote](/handbook/company/culture/all-remote/) company w
 - [Workers' Compensation Notice - Inc.](https://drive.google.com/file/d/13W9mUkiRUi8msZG2kXemM6fwxLdysNcS/view?usp=sharing)
 - [Workers' Compensation Notice - Federal](https://drive.google.com/file/d/1nYMzCdHjkRQXrwkkY-8C0vmUdRDgLuS9/view?usp=sharing)
 - **City of New York City**
-    - [Safe and Sick Leave](https://www.nyc.gov/assets/dca/downloads/pdf/about/PaidSafeSickLeave-MandatoryNotice-English.pdf)
+    - [Workers' Bill of Rights](https://www.nyc.gov/site/dca/workers/workersrights/know-your-worker-rights.page)
+    - [Safe and Sick Leave](https://www.nyc.gov/site/dca/workers/workersrights/paid-sick-leave-law-for-workers.page) and Notice(https://www.nyc.gov/assets/dca/downloads/pdf/about/PaidSafeSickLeave-MandatoryNotice-English.pdf)
     - Employers calendar year is Jan 1 - Dec 31st.
 
 ### North Carolina
