@@ -81,12 +81,11 @@ Eastern Timezone (UTC−5)
 Working hours: 9am - 6pm Eastern
 
 1. The DEX team is spread across North American time zones. Regular working hours span from 6am - 5:30pm Pacific (Convert to local timezone [here](https://www.timeanddate.com/worldclock/converter.html)).
-2. If you experience any issues related to our CMS that require immediate attention, please post in [#digital-experience-team](https://gitlab.enterprise.slack.com/archives/CN8AVSFEY)
-    1. Please tag the following people:
-        2. [Lauren Barker](https://gitlab.enterprise.slack.com/archives/D0168EQ62EP)
-        3. [Nathan Dubord](https://gitlab.enterprise.slack.com/archives/D021YDB4FM4)
-        4. [Megan Filo](https://gitlab.enterprise.slack.com/archives/D02SNEUHZ3L)
-        5. [Laura Duggan](https://gitlab.enterprise.slack.com/archives/D01H18BBUTW)
+2. If you experience any issues related to our CMS that require immediate attention, please post in [#digital-experience-team](https://gitlab.enterprise.slack.com/archives/CN8AVSFEY) and tag the following people:
+    1. [Lauren Barker](https://gitlab.enterprise.slack.com/archives/D0168EQ62EP)
+    2. [Nathan Dubord](https://gitlab.enterprise.slack.com/archives/D021YDB4FM4)
+    3. [Megan Filo](https://gitlab.enterprise.slack.com/archives/D02SNEUHZ3L)
+    4. [Laura Duggan](https://gitlab.enterprise.slack.com/archives/D01H18BBUTW)
 3. You can expect a response within minutes.
 4. All marketing site incidents related issues will be an immediate priority.
 
@@ -106,7 +105,7 @@ Working hours: 9am - 6pm Eastern
     2. Central Timezone (UTC−6):
         1. [Megan Filo](https://gitlab.enterprise.slack.com/archives/D02SNEUHZ3L)
     3. Pacific Timezone (UTC−8):
-        2. [Lauren Barker](https://gitlab.enterprise.slack.com/archives/D0168EQ62EP)
+        1. [Lauren Barker](https://gitlab.enterprise.slack.com/archives/D0168EQ62EP)
 3. If the issue occurs outside of our working hours, please post in our Slack channel at #digital-experience-team
     1. GitLab team members who may be able to assist via Slack include:
         1. [Hanif Smith-Watson](https://gitlab.enterprise.slack.com/team/U014T1XSKT6) (UK, UTC +0)
