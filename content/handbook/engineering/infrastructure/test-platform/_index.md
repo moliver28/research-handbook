@@ -118,6 +118,7 @@ To order to ensure platform is reliable, scalable, and secure, Test Platform sub
 - Continuous Integration Automated Test Pass Rate.
 - Different Performance Testing matrices like Average latency/ wait time, Average load time, requests per second, etc.
 
+Find relevant dashboards [here](dashboards).
 
 ### AI-powered Innovations
 
