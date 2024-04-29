@@ -58,7 +58,7 @@ Once an opportunity has been identified using the criteria above, as requiring a
 
 Then the SA ensures that the releavnt fields in the Customer Success Plan section, on the Opportunity level in SFDC, is maintained throughout the process:
 
-![Customer Success Plan Opportunity Fields](content/handbook/solutions-architects/processes/Customer-Success-Plan-SFDC.png)
+![Customer Success Plan Opportunity Fields](/handbook/solutions-architects/processes/Customer-Success-Plan-SFDC.png)
 
 1. Customer Success Plan: field for the URL to the plan
 1. CSM Ready: Check if the plan is/can be handed over to the CSM
