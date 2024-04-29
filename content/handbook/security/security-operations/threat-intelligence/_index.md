@@ -13,11 +13,11 @@ Help GitLab make informed, intelligence-driven decisions that keep our company a
 
 We will provide timely, relevant, and actionable intelligence that integrates into our security operations and broader business decision-making.
 
+When a new threat makes headlines, we'll already have answers. We'll know if GitLab is at risk, how well we can detect and prevent an attack, and what we're doing to prepare for one.
+
 This starts with proactively identifying and assessing threats and risks most relevant to our customers, our product, and our organization. We will deliver this information in clear and concise formats, adding context and recommending immediate actions to protect against emerging threats.
 
 Our team will develop and maintain relationships with industry peers, keeping a pulse on trends and helping to secure the industry as a whole.
-
-When a new threat makes headlines, we'll already have answers. We'll know if GitLab is at risk, how well we can detect and prevent an attack, and what we're doing to prepare for one.
 
 By executing on this mission, we will:
 
