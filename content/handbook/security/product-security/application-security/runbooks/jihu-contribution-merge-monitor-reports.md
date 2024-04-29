@@ -3,13 +3,13 @@
 title: "JiHu Contribution Merge Monitor Reports"
 ---
 
-The [Merge Monitor tool](https://gitlab.com/gitlab-com/gl-security/appsec/tooling/release-certification-tools#merge-request-monitor) looks in public GitLab repositories that JiHu contributes to for merge requests that:
+The [Merge Monitor tool](https://gitlab.com/gitlab-com/gl-security/product-security/appsec/tooling/release-certification-tools#merge-request-monitor) looks in public GitLab repositories that JiHu contributes to for merge requests that:
 
 - Were merged
 - Were labeled as a JiHu Contribution
 - Were **not** labeled with the label that AppSec team members need to apply after [conducting security reviews of JiHu contributions]({{< ref "jihu-security-review-process" >}})
 
-Any findings will be included in reports that are created as [issues in the jihu_merge_request_monitor_reports repository](https://gitlab.com/gitlab-com/gl-security/appsec/jihu_merge_request_monitor_reports/-/issues). The Federal AppSec team is pinged on each report that is created and the expectation is that they will review each finding.
+Any findings will be included in reports that are created as [issues in the jihu_merge_request_monitor_reports repository](https://gitlab.com/gitlab-com/gl-security/product-security/appsec/jihu_merge_request_monitor_reports/-/issues). The Federal AppSec team is pinged on each report that is created and the expectation is that they will review each finding.
 
 The Merge Monitor runs via scheduled pipeline. It de-duplicates any findings by checking for open Merge Monitor Report issues for [related merge requests](https://docs.gitlab.com/ee/user/project/issues/crosslinking_issues.html#from-merge-requests) and filtering out any findings that are already known.
 
@@ -37,4 +37,4 @@ In the event that you find a vulnerability or other security concern in a findin
 
 ## Monitor Limitations
 
-Since the Merge Monitor uses a [Project Access Token](https://docs.gitlab.com/ee/user/project/settings/project_access_tokens.html) in the [jihu_merge_request_monitor_reports](https://gitlab.com/gitlab-com/gl-security/appsec/jihu_merge_request_monitor_reports), it can only be used to find merge requests in public repositories that the JiHu team contributes to. Some repositories require manual review as mentioned in the [certification process documentation]({{< ref "release-certification#certification-process" >}}) and are not covered by this tool. Contributions to these repositories are reviewed as part of the regular monthly release certification process.
+Since the Merge Monitor uses a [Project Access Token](https://docs.gitlab.com/ee/user/project/settings/project_access_tokens.html) in the [jihu_merge_request_monitor_reports](https://gitlab.com/gitlab-com/gl-security/product-security/appsec/jihu_merge_request_monitor_reports), it can only be used to find merge requests in public repositories that the JiHu team contributes to. Some repositories require manual review as mentioned in the [certification process documentation]({{< ref "release-certification#certification-process" >}}) and are not covered by this tool. Contributions to these repositories are reviewed as part of the regular monthly release certification process.

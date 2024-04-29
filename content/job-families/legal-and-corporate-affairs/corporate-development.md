@@ -131,7 +131,7 @@ Collaboration:
 
 ## Coporate Development
 
-### Director, Corporate Development
+### Director of Corporate Development
 
 As a Director, Corporate Development, you will be responsible for sourcing,
 negotiating, and closing [acquisitions](/handbook/acquisitions/).
@@ -143,14 +143,16 @@ The Director, Corporate Development is a [grade 10](/handbook/total-rewards/comp
 #### Responsibilities
 
 - Own end-to-end deal management
-  - Validate target fit for terms, product roadmap, and other criteria
-  - Develop acquisition rationale and compose the Business Case for acquisitions
-  - Collaborate with Product Section lead/s to formulate a strategic plan for growth through acquisitions
-  - Negotiate terms of the deal
+  - Validate target fit for terms, product roadmap, as well as additional criteria and advocate for it with clarity to the business impact
+  - Drive the development of the acquisition rationale and the Business Case for acquisitions
+  - Develop the deal structure and engage in negotiations
   - Prepare all acquisition related documents such as Non-Disclosure Agreements, Letters of Intent, and Purchase Agreements with our legal team and legal counsel
-  - Integrate the acquisition into the company
-- Provide project management leadership over the pre-LOI validation and due diligence stages of the acquisition process with cross-functional teams, including communication of diligence findings
-- Establish collaborative, effective, and trusting relationships with key internal functions including Product, Engineering, Legal, Finance, and Marketing to ensure the execution of an efficient acquisition process
+  - Lead the post-acquisition integration workflow and drive to success
+- Build a strategic growth plan through collaboration with Product stage lead/s and partner with cross-functional management in executing against our strategy
+- Provide expert project management leadership over the pre-LOI validation and due diligence stages of the acquisition process with cross-functional teams, including communication of diligence findings
+- Serve as point of contact with a range of counterparties, including tech company executives, venture capital, entrepreneurs, investment bankers, lawyers and other stakeholders.
+- Identify strategic opportunities and be able to articulate how they would be impactful to our product positioning and commercial strategy
+- Build and maintain strong relationships with potential targets, investors, and advisors that will drive pipeline opportunities
 - Ensure a proper level of strategic, operational, and organizational alignment.
 
 #### Requirements
@@ -160,7 +162,7 @@ The Director, Corporate Development is a [grade 10](/handbook/total-rewards/comp
 - Experience structuring various types of deal terms
 - Skilled in corporate valuation, risk management, financial modeling, negotiation, and integration
 - Ability to manage multiple priorities and projects cross-functionally with strong organizational skills
-- Exemplary verbal and written communication and presentation skills.
+- Excellent verbal and written communication and presentation skills.
 - Demonstrated analytical and data led decision-making
 - Self-starter and team player with ability to achieve or exceed their objectives while working in concert with others
 - You are living wherever you want and are excited about the [all remote](/handbook/company/culture/all-remote/) lifestyle
@@ -171,6 +173,7 @@ The Director, Corporate Development is a [grade 10](/handbook/total-rewards/comp
 - [Acquisition velocity](/handbook/product/performance-indicators/)
 - [Acquisition success](/handbook/product/performance-indicators/)
 - [Qualified acquisition targets](/handbook/product/performance-indicators/)
+
 
 ### Senior Director of Corporate Development
 
@@ -183,33 +186,66 @@ The Senior Director of Corporate Development is a [grade 11](/handbook/total-rew
 
 #### Responsibilities
 
-- Grow and manage the corporate development team
-- Determine corporate development's scope and priority categories/areas, quarterly and annually
 - Own end-to-end deal management
-  - Create a target list of potential acquisitions
-  - Validate fit for terms, product roadmap, and other criteria
-  - Value the companies in a financial model
-  - Negotiate terms of the deal
+  - Validate target fit for terms, product roadmap, as well as additional criteria and advocate for it with clarity to the business impact
+  - Drive the development of the acquisition rationale and the Business Case for acquisitions
+  - Develop the deal structure and engage in negotiations
   - Prepare all acquisition related documents such as Non-Disclosure Agreements, Letters of Intent, and Purchase Agreements with our legal team and legal counsel
-  - Integrate the acquisition into the company
-- Provide project management leadership over the pre-term sheet validation and due diligence stages of the acquisition process with cross-functional teams, including communication of diligence findings
-- Collaborate with cross-functional leadership to build collaborative, effective, and trusting relationships
-- Iterate on the acquisition process and empower department-level functions across Product, Engineering, Legal, People, Finance-Accounting and Marketing to create specific acquisition sub-processes
-- Lead engagement and communication with GitLab board's M&A committee
+  - Lead the post-acquisition integration workflow and drive to success
+- Build a strategic growth plan through collaboration with Product stage lead/s and partner with cross-functional management in executing against our strategy
+- Provide expert project management leadership over the pre-LOI validation and due diligence stages of the acquisition process with cross-functional teams, including communication of diligence findings
+- Serve as point of contact with a range of counterparties, including tech company executives, venture capital, entrepreneurs, investment bankers, lawyers and other stakeholders.
+- Identify strategic opportunities and be able to articulate how they would be impactful to our product positioning and commercial strategy
+- Build and maintain strong relationships with potential targets, investors, and advisors that will drive pipeline opportunities
 - Ensure a proper level of strategic, operational, and organizational alignment.
-- Lead out-of-scope engagement and initiatives
 
 #### Requirements
 
-- Experience growing and managing an acquisitions team
-- 10 years of relevant work experience in acquisitions
+- Over 8 years of relevant work experience in acquisitions
 - Relationship builder with the ability to establish a dialogue with leadership team members of potential acquisition targets.
 - Experience structuring various types of deal terms
 - Strong negotiation abilities
 - Ability to manage multiple priorities and projects cross-functionally with strong organizational skills
-- Exemplary verbal and written communication and presentation skills.
+- Excellent verbal and written communication and presentation skills.
 - Demonstrated analytical and data led decision-making
 - Self-starter and team player with ability to achieve or exceed their objectives while working in concert with others
+- You are living wherever you want and are excited about the [all remote](/handbook/company/culture/all-remote/) lifestyle
+- You share our [values](/handbook/values/), and work in accordance with those values
+
+### VP of Corporate Development
+
+As the VP of Corporate Development, you will be responsible for
+leading the team to source, negotiate, close and integrate [acquisitions](https://about.gitlab.com/handbook/acquisitions/) successfully at GitLab through influence into the company's strategy.
+
+#### Job Grade
+
+The VP of Corporate Development is a [grade 12](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+
+#### Responsibilities
+
+- Build and lead a high-performing Corporate Development team and mentor team members through the entire deal process
+- Develop GitLab's corporate development strategy, for acquisitions and key initiatives, and establish executive alignment
+- Determine Corporate Development's scope and priority focus areas through collaboration with executive and senior leadership, driving impact to [GitLab's vision](https://about.gitlab.com/company/vision/)
+- Oversee deal flow management end-to-end from sourcing to deal execution
+- Provide leadership and guidance in developing the business case, integration strategy planning and due diligence stages of the acquisition process with cross-functional teams
+- Lead deal terms negotiations on behalf of the company, guiding deal structure creation and negotiation strategy
+- Own the post-acquisition integration efforts, navigate the integration team and support cross-functional interactions
+- Engage with divisional leadership to empower and develop the supportive Corporate Development processes at GitLab
+- Manage the engagement and communication with GitLab BOD M&A committee
+- Build and maintain leadership-level relationships with qualified VCs, bankers, advisors and targets
+- Lead the research into new markets, identify key trends, translate data into actionable insights to drive impact to company strategy and excution plans
+- Lead out-of-scope engagements and initiatives
+
+#### Requirements
+
+- 10 years of experience in a leadership position in corporate development and business development
+- Expert level of understanding of the DevSecOps space, competitor and partner ecosystem as well as it's applicability to GitLab
+- Deep familiarity with the Enteprise Software and SaaS market categories
+- Excellent, executive-level, relationship skills with the ability to establish a dialogue with both internal key stakeholders and senior leadership as well as external parties ranging from investors to target management teams
+- Mission orientation and action-driven ability to repeatedly focus on doing what's right for the business
+- Strong, demonstrated, negotiation abilities on various business opportunities
+- Exemplary verbal and written communication and presentation skills
+- Methodical, data-empowered, commercial decision-making abilities with a demonstrated product-strategy focus
 - You are living wherever you want and are excited about the [all remote](/handbook/company/culture/all-remote/) lifestyle
 - You share our [values](/handbook/values/), and work in accordance with those values
 
@@ -219,9 +255,6 @@ The Senior Director of Corporate Development is a [grade 11](/handbook/total-rew
 - [Acquisition success](/handbook/product/performance-indicators/)
 - [Qualified acquisition targets](/handbook/product/performance-indicators/)
 
-## Career Ladder
-
-The next step in the Corporate Development job family is to move to a VP role in Corporate Development which is not yet defined at GitLab.
 
 ## Hiring Process
 

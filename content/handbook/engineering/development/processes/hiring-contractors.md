@@ -74,7 +74,7 @@ Once the Coupa requisition is approved, the vendor/contractor will be able to in
 ## Onboarding
 With the contracting out of the way, you will want to onboard the new contractor into the project or into your team. This can look very different from one contractor to another depending on the nature of the work, the team and the project.
 
-Generally speaking, you should know that contractors are referred to as Temporary Service Providers. And there is specific documentation in the handbook about their [life cycle](/handbook/business-technology/team-member-enablement/onboarding-access-requests/temporary-service-providers/), how to create access requests for them and how to onboard and offboard them.
+Generally speaking, you should know that contractors are referred to as Temporary Service Providers. And there is specific documentation in the handbook about their [life cycle](/handbook/business-technology/end-user-services/onboarding-access-requests/temporary-service-providers/), how to create access requests for them and how to onboard and offboard them.
 
 
 As a general guideline you would want them to:

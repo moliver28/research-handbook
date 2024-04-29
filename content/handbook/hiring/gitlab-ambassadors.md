@@ -141,7 +141,7 @@ Feel free to make this your own and personalize it based on the specific message
 
 > Hi, {NAME}, thank you for your interest in GitLab! It's an exciting time to be part of our team.
 >
-> The best way to share your information with our talent acquisition team is to apply to a relevant role on our [careers page](https://about.gitlab.com/jobs/). I'd also encourage you to take a look through our [company handbook](https://handbook.gitlab.com/handbook/) and our [Life at GitLab Content Library]({{< ref "/handbook/people-group/employment-branding/content-library" >}}) to learn a bit more about our culture.
+> The best way to share your information with our talent acquisition team is to apply to a relevant role on our [careers page](https://about.gitlab.com/jobs/). I'd also encourage you to take a look through our [company handbook](https://handbook.gitlab.com/handbook/) and our [Life at GitLab Content Library](/handbook/people-group/employment-branding/content-library) to learn a bit more about our culture.
 >
 > GitLab is an incredibly unique place to work.
 >

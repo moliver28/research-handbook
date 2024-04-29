@@ -171,9 +171,9 @@ All the requirements of a Business Systems Analyst at previous levels, plus:
 
 ## Performance Indicators (PI)
 
-- [Evaluating System or Process Efficiency](/handbook/business-technology/metrics/#evaluating-system-or-process-efficiency)
-- [Average Issues](/handbook/business-technology/metrics/#average-issues)
-- [Average Merge Requests](/handbook/business-technology/metrics/#average-merge-request)
+- [Evaluating System or Process Efficiency](https://internal.gitlab.com/handbook/it/it-performance-indicators/#evaluating-system-or-process-efficiency)
+- [Average Issues](https://internal.gitlab.com/handbook/it/it-performance-indicators/#average-issues)
+- [Average Merge Requests](https://internal.gitlab.com/handbook/it/it-performance-indicators/#average-merge-request)
 
 ## Hiring Process
 

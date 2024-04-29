@@ -37,7 +37,7 @@ For example, managers at GitLab can:
 
 ### Application of Individual KPIs
 
-A topic covered in High Output Management is for managers to choose [Key Performance Indicators]({{< ref "kpis" >}}) to help their team achieve results. Managers are responsible for ensuring their teams have KPIs linked to the company [OKRs]({{< ref "/handbook/company/okrs" >}}). Managers can also create both team and individual KPIs to measure what gets done. If people leaders set a goal around a desired outcome for their people, the chances of that outcome occurring can be higher; simply because you have committed to managing and measuring direct report progress towards it.
+A topic covered in High Output Management is for managers to choose [Key Performance Indicators]({{< ref "kpis" >}}) to help their team achieve results. Managers are responsible for ensuring their teams have KPIs linked to the company [OKRs](/handbook/company/okrs). Managers can also create both team and individual KPIs to measure what gets done. If people leaders set a goal around a desired outcome for their people, the chances of that outcome occurring can be higher; simply because you have committed to managing and measuring direct report progress towards it.
 
 When you set goals and KPIs with direct reports, make sure they align with your team’s overall strategy and KPIs, which aligns with the organization's overall strategy.
 

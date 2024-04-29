@@ -86,7 +86,7 @@ A core problem with synchronous communication is the perception of deadlines. Wh
 
 [Sahil Lavingia](https://twitter.com/shl), founder/CEO at [Gumroad](https://gumroad.com/), shares powerful benefits his company realized in going fully asynchronous.
 
-{{< tweet user="shl" id="1222545212477599751" >}}
+From [their X (Twitter) thread](https://twitter.com/shl/status/1222545212477599751):
 
 > All communication is thoughtful. Because nothing is urgent (unless the site is down), comments are made after mindful processing and never in real-time. There's no drama.
 >
@@ -118,7 +118,7 @@ Synchronous organizations often make decisions in a series of meetings, document
 
 As companies scale, people will come and go. By utilizing asynchronous communication, an organization is able to retain knowledge throughout these natural cycles.
 
-For example, the [Git blame history](https://gitlab.com/gitlab-com/www-gitlab-com/blame/master/source/handbook/values/index.html.md) of GitLab's [Values]({{< ref "values" >}}) page shows a complete list of who made what change, and what the context was for each of them. This insight is invaluable, as some contributors no longer work at GitLab. Those seeking information can [find it asynchronously]({{< ref "./self-service" >}}) without bothering anyone else, nor do they have to wait for anyone else to wake up or come online.
+For example, the [Git blame history](https://gitlab.com/gitlab-com/content-sites/handbook/blob/main/content/handbook/values/_index.md?blame=1) of GitLab's [Values]({{< ref "values" >}}) page shows a complete list of who made what change, and what the context was for each of them. This insight is invaluable, as some contributors no longer work at GitLab. Those seeking information can [find it asynchronously]({{< ref "./self-service" >}}) without bothering anyone else, nor do they have to wait for anyone else to wake up or come online.
 
 ## Guide to asynchronous communication
 
@@ -149,7 +149,7 @@ The investment of time and strategy is worth it: communicating well asynchronous
 
 The importance of [strong documentation]({{< ref "./handbook-first" >}}) for async communication truly can't be overstated. No matter how intentional you are in communication, there's always something that will be left out, misunderstood, or needed to move forward. If someone has a follow-up question, they may need to wait hours or days for a response. Alternatively, they can look up the answer in the company handbook.
 
-GitLab has a [handbook-first]({{< ref "handbook-usage#why-handbook-first" >}}) approach to all communication. Our goal is to ensure that our handbook is always up to date and that it is a powerful resource to make our team massively more efficient. The [GitLab handbook]({{< ref "/handbook" >}}) would be over 2,000 pages if printed, and it is available to read for any visitor who wants to know how we work.
+GitLab has a [handbook-first]({{< ref "handbook-usage#why-handbook-first" >}}) approach to all communication. Our goal is to ensure that our handbook is always up to date and that it is a powerful resource to make our team massively more efficient. The [GitLab handbook](/handbook) would be over 2,000 pages if printed, and it is available to read for any visitor who wants to know how we work.
 
 While you may not choose to have this level of transparency, be aware that [transparent information-sharing]({{< ref "values#transparency" >}}) within your organization is crucial to asynchronous work. Every team member should be empowered to do their work at any time, whether or not their teammates are online and available.
 
@@ -195,7 +195,7 @@ Async works well when managing multiple projects, although it does require disci
 
 {{< youtube "_okcPC9YucA" >}}
 
-*GitLab CEO Sid and the [Learning and Development]({{< ref "/handbook/people-group/learning-and-development" >}}) team provide more context on our bias towards asynchronous communication and the importance of our iteration value.*
+*GitLab CEO Sid and the [Learning and Development](/handbook/people-group/learning-and-development) team provide more context on our bias towards asynchronous communication and the importance of our iteration value.*
 
 > There is a reason we are really good at async, and that is because we make things [smaller]({{< ref "values#move-fast-by-shipping-the-minimal-viable-change" >}}). Through iteration, you don't have to coordinate with a ton of people. By taking smaller steps through iteration, we can ship faster. The only way this is possible is through asynchronous communication. — *Sid Sijbrandij, GitLab CEO and co-founder*
 
@@ -420,7 +420,7 @@ However, as a team scales and more coverage is added in time zones in between, i
 
 ### Interviewing external candidates
 
-All of GitLab's [interview processes]({{< ref "/handbook/hiring/interviewing" >}}) involve some form of synchronous communication. Some of our teams utilize [asynchronous practices during the interview process](https://www.youtube.com/watch?v=jSbCt8b_4ug), however, this is not a standard approach across every interview process.
+All of GitLab's [interview processes](/handbook/hiring/interviewing) involve some form of synchronous communication. Some of our teams utilize [asynchronous practices during the interview process](https://www.youtube.com/watch?v=jSbCt8b_4ug), however, this is not a standard approach across every interview process.
 
 ## Working async outside of your company
 
@@ -502,7 +502,7 @@ If the team decides to go ahead with a meeting you can’t make, consider assign
 
 Asynchronous working is a feature set that supports and streamlines the variety of communication approaches, emphasizing comprehension and consideration, rather than prescribing a one-size-fits-all approach.
 
-Teams should embrace a [self-service mentality]({{< ref "./self-service" >}}), [single source of truth (SSoT)]({{< ref "values#single-source-of-truth" >}}) to fully understand the capabilities of asynchronous workflows, how GitLab (the product) [facilitates asynchronous communication](https://about.gitlab.com/blog/2019/08/02/gitlab-for-the-non-technical/), and how to leverage [existing tools]({{< ref "/handbook/tools-and-tips" >}}) (e.g. Google Docs) in an asynchronous manner.
+Teams should embrace a [self-service mentality]({{< ref "./self-service" >}}), [single source of truth (SSoT)]({{< ref "values#single-source-of-truth" >}}) to fully understand the capabilities of asynchronous workflows, how GitLab (the product) [facilitates asynchronous communication](https://about.gitlab.com/blog/2019/08/02/gitlab-for-the-non-technical/), and how to leverage [existing tools](/handbook/tools-and-tips) (e.g. Google Docs) in an asynchronous manner.
 
 GitLab team members may question meetings, suggesting an asynchronous alternative (e.g. discussing in a GitLab epic, issue, or merge request) to cover the topic of the meeting.
 

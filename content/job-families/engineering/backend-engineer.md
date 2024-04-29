@@ -217,7 +217,7 @@ The Backend Engineering Manager role is a [grade 8](/handbook/total-rewards/comp
 
 ## Career Ladder
 
-For more details on the engineering career ladders, please review the [engineering career development](/handbook/engineering/career-development/#roles) handbook page.
+For more details on the engineering career ladders, please review the [engineering career development](/handbook/engineering/careers/#roles) handbook page.
 
 ## Hiring Process
 

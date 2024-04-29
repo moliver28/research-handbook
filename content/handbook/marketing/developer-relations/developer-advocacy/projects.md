@@ -21,13 +21,22 @@ All projects are organized in sub-groups on the top level. No projects are allow
 | [playground](https://gitlab.com/gitlab-da/playground) | all | Test projects, simple demo cases, code snippets, etc. without support |
 | [use-cases](https://gitlab.com/gitlab-da/use-cases) | all | Use cases for specific topics for product demos, talks, thought leadership, research |
 | [use-cases/ai](https://gitlab.com/gitlab-da/use-cases/ai) | all | [GitLab Duo workflows, coffee chats, learning AI, use cases](https://about.gitlab.com/gitlab-duo/) |
+| [https://gitlab.com/gitlab-da/use-cases/ai/ai-research](https://gitlab.com/gitlab-da/use-cases/ai/ai-research) | @dnsmichi | AI research with local LLMs (Ollama), RAG, AI agents, etc. |
+| [use-cases/ai/ai-workflows](https://gitlab.com/gitlab-da/use-cases/ai/ai-workflows) | @dnsmichi | [GitLab Duo](https://about.gitlab.com/gitlab-duo/) prompts and challenges with exercise source code, linked from the [documentation](https://docs.gitlab.com/ee/user/gitlab_duo_examples.html) |
+| [use-cases/ai/gitlab-duo-coffee-chat](https://gitlab.com/gitlab-da/use-cases/ai/gitlab-duo-coffee-chat) | @dnsmichi | [GitLab Duo coffee chats](#gitlab-duo-coffee-chat) |
+| [use-cases/ai/learn-with-ai](https://gitlab.com/gitlab-da/use-cases/ai/learn-with-ai) | @dnsmichi @sugaroverflow | Learning a programming language with GitLab Duo (AI), [blog series](https://about.gitlab.com/blog/categories/ai-ml/) |
+| [use-cases/ai/learn-test-ai](https://gitlab.com/gitlab-da/use-cases/ai/test-ai) | all | Test playground for AI and GitLab Duo |
 | [use-cases/cicd-components-catalog](https://gitlab.com/gitlab-da/use-cases/cicd-components-catalog) |  @iganbaruch | GitLab CI/CD Components Catalog use cases |
+| [use-cases/code-experiments](https://gitlab.com/gitlab-da/use-cases/code-experiments) |  @warias @csaavedra1  | Code experiments with automation and quality assessments |
+| [use-cases/coverage-reports](https://gitlab.com/gitlab-da/use-cases/coverage-reports) | all | Code coverage reports examples |
+| [use-cases/devsecops-platform](https://gitlab.com/gitlab-da/use-cases/devsecops-platform) | @warias | End-to-end DevSecOps platform demo environment |
 | [use-cases/efficiency](https://gitlab.com/gitlab-da/use-cases/efficiency) | @dnsmichi | Efficiency use cases (CI/CD, container images, workflows, CLI, etc.) |
 | [use-cases/gitlab-api](https://gitlab.com/gitlab-da/use-cases/gitlab-api) | @dnsmichi | GitLab API use cases with libraries and scripts |
 | [use-cases/observability](https://gitlab.com/gitlab-da/use-cases/observability) | @dnsmichi | Observability uses cases and research (OpenTelemetry, eBPF, etc.) |
 | [use-cases/remote-development](https://gitlab.com/gitlab-da/use-cases/remote-development) | @dnsmichi @iganbaruch | Remote development environments and Web IDE use cases |
+| [use-cases/scientific-research](https://gitlab.com/gitlab-da/use-cases/scientific-research) | @abuango | Scientific research projects and integrations |
 | [workshops](https://gitlab.com/gitlab-da/workshops) | all | Workshop groups and projects provided by the team |
-| [projects](https://gitlab.com/gitlab-da/projects) | @abuango | Production projects maintained by the team |
+| [projects](https://gitlab.com/gitlab-da/projects) | @abuango | Production projects maintained by the team. For blog projects and demos, use the specific `use-cases` groups. |
 | [tutorials](https://gitlab.com/gitlab-da/tutorials) | all |
 | [tutorials/security-and-governance](https://gitlab.com/gitlab-da/tutorials/security-and-governance) | @fjdiaz | This group contains different projects as well as documentation around GitLab's security and governance tools. |
 | [unmaintained](https://gitlab.com/gitlab-da/unmaintained) | - | Projects, tutorials, use cases that are not maintained anymore but kept public for transparency |
@@ -120,7 +129,11 @@ Assigned resources:
 
 ## Product Adoption Initiatives
 
-### GitLab Duo Coffee Chat
+### GitLab Duo Adoption
+
+[FY25 Developer Relations epic](https://gitlab.com/groups/gitlab-com/marketing/developer-relations/-/epics/475) (internal).
+
+#### GitLab Duo Coffee Chat
 
 Live learning session with AI-powered workflows throughout the DevSecOps lifecycle, with the help of GitLab Duo. We discuss, explore, research, learn, debug, create product feedback and feature ideas, and discover new features and workflows.
 
@@ -134,7 +147,11 @@ Goal: The coffee chats helps our customers learn how to use GitLab Duo and adopt
 
 Maintainer: [Michael Friedrich, @dnsmichi](https://about.gitlab.com/handbook/company/team/#dnsmichi)
 
-### CI/CD Components Catalog
+### CI/CD Adoption
+
+[FY25 Developer Relations epic](https://gitlab.com/groups/gitlab-com/marketing/developer-relations/-/epics/466) (internal) 
+
+#### CI/CD Components Catalog
 
 Collaborate with product and engineering to help seed the CI/CD component catalog through CI/CD template migration for [GitLab-maintained components](https://gitlab.com/components). Help maintain and review contributions from community competition and hackathons. Repurpose the learnings into content and story-telling ([content epic](https://gitlab.com/groups/gitlab-com/marketing/developer-relations/-/epics/399)).
 

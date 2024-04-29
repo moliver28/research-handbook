@@ -128,7 +128,7 @@ Functional DRIs are also mentioned at the top of the description of their functi
 
 ### Function DRI Responsibilities
 
-Please see [Functional Lead on Working Group page]({{< ref "/handbook/company/working-groups#required-roles" >}}).
+Please see [Functional Lead on Working Group page](/handbook/company/working-groups#required-roles).
 
 Functional DRIs are responsible for maintaining their function's epics by following process mentioned in [Epic Owner Responsibilities](/handbook/engineering/infrastructure/team/gitlab-dedicated/#epic-owner-responsibilities) and [Epic Structure](/handbook/engineering/infrastructure/team/gitlab-dedicated/#epic-structure).
 

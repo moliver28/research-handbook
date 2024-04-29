@@ -1,11 +1,9 @@
 ---
 title: "GitLab CI/CD - Hands-On Lab: Code Quality Scanning"
-description: "This Hands-On Guide walks you through the lab exercises in the GitLab CI/CD course."
+description: "This Hands-On Guide walks you through using the Code Quality scanner to find and fix a code issue."
 ---
 
 > Estimated time to complete: 15 - 20 minutes
-
-> **We are transitioning to the latest version of this course.** If your group URL starts with `https://spt.gitlabtraining.cloud`, please use the [Version 15.x instructions](https://gitlab.com/gitlab-com/content-sites/handbook/-/blob/d14ee71aeac2054c72ce96e8b35ba2511f86a7ca/content/handbook/customer-success/professional-services-engineering/education-services/gitlabcicdhandsonlab9alt.md).
 
 ## Objectives
 
@@ -59,7 +57,7 @@ description: "This Hands-On Guide walks you through the lab exercises in the Git
     # TODO: should we refactor this file?
     ```
 
-  > Note: This code starts by defining a single stage named `test`. Next, a single job is defined named `test-job`, which runs as a part of the `test` stage. The `include` section enables code quality scanning by including the code quality template. Finally, the `TODO` command is added as an example of code that is flagged as a code quality problem.
+  > This code starts by defining a single stage named `test`. Next, a single job is defined named `test-job`, which runs as a part of the `test` stage. The `include` section enables code quality scanning by including the code quality template. Finally, the `TODO` command is added as an example of code that is flagged as a code quality problem.
 
 1. In the **Commit message** field, type `Add CI/CD configuration file that includes code quality scanning`.
 

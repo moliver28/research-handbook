@@ -17,7 +17,7 @@ Perhaps more than any other functional department, people operations — referre
 1. [Remote onboarding]({{< ref "../onboarding" >}})
 1. [Building culture]({{< ref "../building-culture" >}})
 1. [Hiring]({{< ref "../hiring" >}})
-1. [Compensation and Total Rewards]({{< ref "/handbook/total-rewards" >}})
+1. [Compensation and Total Rewards](/handbook/total-rewards)
 1. [Remote internships]({{< ref "../internship" >}})
 
 ## Major strategic considerations

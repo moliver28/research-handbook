@@ -1,5 +1,6 @@
 ---
 title: "Technical Writer"
+description: "At GitLab, our team of technical writers is responsible for ensuring that the documentation for all of our products is clear, correct, comprehensive, and easy to use."
 ---
 
 At GitLab, our [team of technical writers](/handbook/product/ux/technical-writing/) is responsible for ensuring that the [documentation](https://docs.gitlab.com/) for all of our products is clear, correct, comprehensive, and easy to use. We are looking for great writers with strong technical proficiencies to help our users succeed with our [rapidly evolving suite of DevOps tools](https://about.gitlab.com/releases/).
@@ -10,7 +11,7 @@ At GitLab, our [team of technical writers](/handbook/product/ux/technical-writin
 - Dive in on special projects, planning and authoring new content, and helping to develop new docs site features and processes.
 - Collaborate with others across the organization to craft new and improved content. You’ll be at the leading edge of DevOps while contributing to one of the [world’s largest open-source projects](https://about.gitlab.com/blog/2017/07/06/gitlab-top-30-highest-velocity-open-source/) and engaging with our wider community.
 
-## Requirements
+## Requirements (all levels)
 
 - You have:
   - Experience working with a docs as code workflow.
@@ -26,6 +27,7 @@ At GitLab, our [team of technical writers](/handbook/product/ux/technical-writin
   - Highly organized and able to triage and prioritize numerous issues and projects.
   - Able to succeed in a remote, globally distributed work environment.
 - You share our [values](/handbook/values/), and work in accordance with those values.
+- You demonstrate our [remote work competencies](/handbook/competencies/#remote-work-competencies), and model respectful and professional [communication](/handbook/communication/#effective-communication-competency).
 - You have experience with workflows and tooling used by engineering, operations, and product teams.
 
 ## Levels

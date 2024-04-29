@@ -11,13 +11,14 @@ The Regional Sales Director is a [grade 10](/handbook/total-rewards/compensation
 
 ## Responsibilities
 
-- Drives, manages and executes the business and revenue of a sales team; develops
+- Drives, manages and executes the business and revenue of a sales team
 - Analyzes regional market dynamics in an effort to maximize existing successes and to create new sales growth opportunities
 - Educates team on significant industry factors including competitive products, regulations, trends, customer needs, and pricing
 - Prepares forecasts, territory/industry management, and growth plans
 - Establishes and reports on metrics to measure team performance; correct deficiencies where necessary
 - Ensures that the regional sales plan is aligned with and supports the corporate revenue goal
-- Recruits, hires and trains staff members; fosters a successful and positive team environment
+- Recruits, hires and trains staff members; fosters a successful and positive team environment; develops and coaches Sales leaders
+- Typically manages Area Sales Managers and/or manages a global Sales team
 
 ## Requirements
 

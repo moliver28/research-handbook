@@ -26,12 +26,12 @@ aliases:
 ### Team Workflow
 
 - [<i class="far fa-clipboard"></i> Team Workflow](/handbook/marketing/developer-relations/developer-advocacy/workflow/)
-- [<i class="far fa-chart-line"></i> Metrics / Reports](/handbook/marketing/developer-relations/developer-advocacy/metrics/)
 - [<i class="far fa-edit"></i> CFP Issue Template](https://gitlab.com/gitlab-com/marketing/developer-relations/developer-advocacy/developer-advocacy-meta/-/issues/new?issuable_template=cfp)
 - [<i class="far fa-clipboard"></i> Team General Issue Board](https://gitlab.com/groups/gitlab-com/-/boards/1565342?&label_name[]=developer-advocacy)
 - [<i class="far fa-clipboard"></i> Team Activity Type Issue Board](https://gitlab.com/groups/gitlab-com/-/boards/3811304?label_name[]=developer-advocacy)
 - [<i class="far fa-clipboard"></i> CFP Issue Board](https://gitlab.com/groups/gitlab-com/-/boards/1616902?label_name[]=CFP)
 - [<i class="far fa-calendar-alt"></i> Team Calendar](/handbook/marketing/developer-relations/developer-advocacy/calendar)
+- [<i class="far fa-chart-line"></i> Content Effectiveness](/handbook/marketing/developer-relations/content-effectiveness/)
 
 ### Team Resources
 
@@ -206,15 +206,15 @@ Our team maintains many projects to help show off technical concepts, engage wit
 We actively contribute to OSS projects and share our technical expertise. You can learn more about our ideas and visions in our [OSS contributions](/handbook/marketing/developer-relations/developer-advocacy/oss-contributions/) handbook page.
 
 
-### Metrics Collection and Analysis
+### Content Effectiveness
 
-Measuring what we do is very important to understand our impact and how we are able to reach our OKRs. A key metric is the Developer Advocates' cumulative Twitter impressions. [Learn more](/handbook/marketing/developer-relations/developer-advocacy/metrics/) about the our tools, data collection and how to access the data sources for integrations.
+Measuring what we do is very important to understand our impact, re-assess content strategies, and reach our OKR goals. Learn more in [Developer Relations Content Effectiveness](/handbook/marketing/developer-relations/content-effectiveness/).
 
 ## <i class="fa fa-code-branch" aria-hidden="true"></i> How we work
 
 ### Find us on Slack
 
-GitLab team members can also reach us at any time on the [#developer-advocacy-and-technical-marketing](https://app.slack.com/client/T02592416/CMELFQS4B) Slack channel where we share updates, ideas, and thoughts with each other and the wider team.
+GitLab team members can also reach us at any time on the [#dev-advocacy-team](https://app.slack.com/client/T02592416/CMELFQS4B) Slack channel where we share updates, ideas, and thoughts with each other and the wider team.
 
 We use [developer-advocacy-updates](https://gitlab.slack.com/archives/C04R2RME4F7) for content shares and other updates that don't warrant generating noise in the larger channel. Many updates are automated using [Zapier workflows](/handbook/marketing/developer-relations/workflows-tools/zapier/)
 

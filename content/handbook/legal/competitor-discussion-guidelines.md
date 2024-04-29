@@ -7,7 +7,7 @@ description: "Guidelines applicable to discussion of competitor product features
 
 These Guidelines apply to all discussion of competitor product features and sharing of screenshots of competitor products in public issues and other public-facing forums, whether initiated, or shared, by team members or members of the GitLab community.
 
-These Guidelines do not apply to discussions and sharing of screenshots in confidential issues, or on platforms only accessible to GitLab team members like [MURAL]({{< ref "/handbook/product/ux/ux-resources#tools" >}}).
+These Guidelines do not apply to discussions and sharing of screenshots in confidential issues, or on platforms only accessible to GitLab team members like [MURAL](/handbook/product/ux/ux-resources#tools).
 
 "**Screenshots**" when used in these Guidelines means screenshots and screen recordings, wherever obtained, including those taken from publicly-available sources like YouTube videos and competitor or third-party websites, and directly from competitor products themselves.
 

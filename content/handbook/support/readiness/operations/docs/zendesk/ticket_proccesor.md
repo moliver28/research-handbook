@@ -4,18 +4,18 @@ description: Support Operations documentation page for our Zendesk Global ticket
 canonical_path: "/handbook/support/readiness/operations/docs/zendesk/ticket_processor"
 ---
 
-**Note**: This only runs on Zendesk Global at this time.
-
 ## How is it triggered
 
 The methodlogy we use is to have a Zendesk trigger fire based on the needed
 criteria, with one of the actions being to notify an active webhook. Said active
-webhook is set to trigger the CI/CD pipeline of the
-[project](https://gitlab.com/gitlab-support-readiness/zendesk-global/tickets/processor)
-(technically on the project mirrored to ops.gitlab.net) to run the script based
-on the variables passed to it from the Zendesk trigger.
+webhook is set to trigger the CI/CD pipeline of the project (either for
+[Zendesk Global](https://gitlab.com/gitlab-support-readiness/zendesk-global/tickets/processor)
+or
+[Zendesk US Government](https://gitlab.com/gitlab-support-readiness/zendesk-us-government/tickets/processor)
+depending on the instance the trigger first from)  to run the script based on
+the variables passed to it from the Zendesk trigger.
 
-## What it does
+## What it does on Zendesk Global
 
 Currently, the ticket processor actions on the following:
 
@@ -27,6 +27,7 @@ Currently, the ticket processor actions on the following:
 - [Add internal comments on Zendesk tickets based on the organization](#add-internal-comments-on-zendesk-tickets-based-on-the-organization)
 - [Add tags on Zendesk tickets when a STAR is made on them](#add-tags-on-zendesk-tickets-when-a-star-is-made-on-them)
 - [Add ticket weighting values to Zendesk tickets](#add-ticket-weighting-values-to-zendesk-tickets)
+- [Automatically redact attachments on closed tickets](#automatically-redact-attachments-on-closed-tickets)
 
 #### Autowork account blocked requests
 
@@ -170,6 +171,34 @@ This adds the ticket tag `star_submitted` onto the ticket.
 This determines the ticket's "weight" based on specific criteria. The criteria
 currently used can be seen within the
 [ticket processor's code](https://gitlab.com/gitlab-support-readiness/zendesk-global/tickets/processor)
+
+#### Automatically redact attachments on closed tickets
+
+This sends the ticket's ID to the processor, where it then scrapes all comments
+on the ticket. While scraping them, it looks for the following:
+
+- Attachment files on the comment
+- Inline file usage on the comment
+
+It then fully redacts all that it has found, replacing it with an empty
+`redacted.txt` file.
+
+## What it does on Zendesk US Government
+
+Currently, the ticket processor actions on the following:
+
+- [Automatically redact attachments on closed tickets](#automatically-redact-attachments-on-closed-tickets-1)
+
+#### Automatically redact attachments on closed tickets
+
+This sends the ticket's ID to the processor, where it then scrapes all comments
+on the ticket. While scraping them, it looks for the following:
+
+- Attachment files on the comment
+- Inline file usage on the comment
+
+It then fully redacts all that it has found, replacing it with an empty
+`redacted.txt` file.
 
 ## Change management
 

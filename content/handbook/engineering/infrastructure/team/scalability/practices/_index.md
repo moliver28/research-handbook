@@ -29,7 +29,10 @@ The following people are members of the Scalability:Practices team:
 
 - [Runway](https://about.gitlab.com/direction/saas-platforms/scalability/runway/): Internal Platform as a Service for GitLab, enabling teams to deploy and run their services quickly and safely.
 - [Production Readiness Review](/handbook/engineering/infrastructure/production/readiness/): A process that helps identify the reliability needs of a service, feature, or significant change to infrastructure for GitLab.com
-- [Specific Counterparts Arrangements](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/1203): Enabling specific stage group counterparts to self-serve on SRE support
+- [Specific Counterparts Arrangements](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/1203): Enabling specific stage group counterparts to self-serve on SRE support. Currently we are Infrastructure counterparts for the Stage groups
+   - [Fulfillment Platform Group / CustomerDot](https://handbook.gitlab.com/handbook/product/categories/#fulfillment-platform-group) - [Linked Issue](https://gitlab.com/gitlab-com/gl-infra/scalability/-/issues/2739)
+   - [Runner Group](https://handbook.gitlab.com/handbook/product/categories/#runner-group) - [Linked Issue](https://gitlab.com/gitlab-com/gl-infra/scalability/-/issues/2740)
+   - [Product Analytics Group](https://handbook.gitlab.com/handbook/product/categories/#product-analytics-group) - [Linked Issue](https://gitlab.com/gitlab-com/gl-infra/scalability/-/issues/2824)
 - Redis
 - Sidekiq
 - Participation in SRE on-call rotation
@@ -80,3 +83,9 @@ The specific Scalability::Practices boards are:
 1. [Scalability:Practices Planning Board](https://gitlab.com/gitlab-com/gl-infra/scalability/-/boards/7363861)
 1. [Runway Build Board](https://gitlab.com/gitlab-com/gl-infra/platform/runway/team/-/boards/5666826)
 1. [Runway Planning Board](https://gitlab.com/gitlab-com/gl-infra/platform/runway/team/-/boards/7292844)
+
+### Counterpart Arrangements
+
+The [specific counterparts arrangements](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/1203) can request for SRE support through the following steps:
+  -  Create an issue using the [counterpart issue template](https://gitlab.com/gitlab-com/gl-infra/scalability/-/blob/master/.gitlab/issue_templates/Counterpart%20Arrangement.md) in the [Scalability tracker](https://gitlab.com/gitlab-com/gl-infra/scalability/-/issues). The title of the issue should be a descriptive goal of the engagement.
+  - Follow the checklist in the template. 

@@ -62,7 +62,7 @@ Though it has some [criticisms](https://qz.com/1144504/the-world-is-relying-on-a
 
 ## Strategies for Managing Unconscious Bias in Practice
 
-The [SPACE2 Model of Inclusion](https://cultureplusconsulting.com/2018/10/17/six-proven-strategies-for-managing-unconscious-bias/) - Six evidence based techniques for managing bias in oneself and others:
+The [SPACE2 Model of Inclusion](https://drive.google.com/file/d/1TZ_bkpjtUjzZGipjEfjgPhtMXBKjd194/view) - Six evidence based techniques for managing bias in oneself and others:
 
 - Slowing Down
 - Perspective Taking

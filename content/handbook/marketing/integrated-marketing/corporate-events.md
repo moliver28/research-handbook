@@ -40,9 +40,12 @@ twitter_creator: gitlab
 
 ## Meet the Corporate Events Team and How to Reach Us
 
-* Michelle Lee - Corporate Events Manager - `@eelellehcimebi`
-* Suli Stuelpnagel - Corporate Events Content Manager -`@sstuelp`
-* Amanda Shen - Corporate Events Coordinator - `@amandawshen`
+* Kate Demarest - Director, Corporate Events - `@kdemarest`
+* Kelley Stowe - Senior Global Events Manager - `@kagarrett`
+* Kelly Walker - Senior Partner Program Manager, Exec Engagement `@kmwalker`
+* Marina Conrad - Senior Corporate Events Manager - `@marinaconrad`
+* Amanda Shen - Corporate Events Manager - `@amandawshen`* 
+* Suli King - Corporate Events Content Manager -`@sstuelp`
 
 ### Current Slack Corporate Event Channels
 
@@ -60,17 +63,12 @@ twitter_creator: gitlab
    </td>
   </tr>
   <tr>
-   <td><strong>#commit-on-the-road</strong>
+   <td><strong>#devsecops-world-tour</strong>
    </td>
-   <td>General Commit On the Road planning questions and open to all team members to ask any questions
+   <td>General DevSecOps World Tour planning questions and open to all team members to ask any questions
    </td>
   </tr>
   <tr>
-   <td><strong>#gitlab-16-launch-virtual-event</strong>
-   </td>
-   <td>General GitLab 16 planning questions and open to all team members to ask questions
-   </td>
-  </tr>
 </table>
 
 
@@ -78,11 +76,9 @@ twitter_creator: gitlab
 
 General Questions: [events at gitlab dot com](mailto:events@gitlab.com)
 
-Contribute-related Questions: [contribute at gitlab dot com](mailto:contribute@gitlab.com)
+Summit-related Questions: [summit at gitlab dot com](mailto:summit@gitlab.com)
 
-Commit-related Questions: [commit at gitlab dot com](mailto:commit@gitlab.com)
-
-Commit Sponsorship Questions: [sponsorcommit at gitlab dot com](mailto:sponsorcommit@gitlab.com)
+DevSecOps World Tour-related Questions: [events at gitlab dot com](mailto:events@gitlab.com)
 
 
 ## How We Evaluate and Build Potential Events
@@ -144,9 +140,8 @@ Suggested events will be subject to a valuation calculation - will it meet or ex
 ### Third party sponsored events speaking session & CFP process
 
 **Corporate Events speaking session & CFP process references:**
-* [Corporate Events FY 24 Sponsored Events Speaking Session + CFP Tracker](https://docs.google.com/spreadsheets/d/1zX5gP_YI0wbn6791Ho6Qmvensy_dZEGaN7l1KpgIy4k/edit?usp=sharing)
-* [FY24 Sponsored Events & Epics](https://gitlab.com/groups/gitlab-com/marketing/-/epics/3526)
-* [FY24 Dev Evangelism Event Strategy](https://gitlab.com/groups/gitlab-com/marketing/-/epics/3538?_gl=1*1jqjp5x*_ga*MTM3Mzg1MjIwNS4xNjU1MjE1MTQy*_ga_ENFH3X7M5Y*MTY3NTcxNDEzNC4xNzkuMC4xNjc1NzE0MTM0LjAuMC4w)
+* [FY25 Sponsored Events & Epics](https://gitlab.com/groups/gitlab-com/marketing/-/epics/4775)
+* [FY25 Dev Evangelism Event Strategy](https://gitlab.com/groups/gitlab-com/marketing/developer-relations/-/epics/326/)
 * [Developer Advocate CFPs](/handbook/marketing/developer-relations/developer-advocacy/cfps/)
 * [Developer Advocate CFP Workflow](/handbook/marketing/developer-relations/developer-advocacy/workflow/#cfp-workflow)
 
@@ -154,21 +149,19 @@ Suggested events will be subject to a valuation calculation - will it meet or ex
 
 **Goal:** ensure that GitLab’s presence is widely recognized at all sponsored events.
 
-Each fiscal year the Corporate Events Content Manager (ECM) will created a Sponsored Events Speaking Session + CFP Tracker that keeps track of whether our sponsorship includes a speaking session and if not ensuring that, if possible, our Developer Advocate team is submitting to present in the event's CFP. This tracker will be linked in the [FY24 Sponsored Events & Epics](https://gitlab.com/groups/gitlab-com/marketing/-/epics/3526).
-
 #### If our sponsorship **does include** speaking session
 
 If our sponsorship does include a speaking session, the sponsored events manager will create an issue with all pertinent information provided by the event. They will tag the ECM and all pertinent parties that will assist in choosing a session topic into the issue.
 
-Once a session topic is chosen, the sponsored events manager will hand off to the ECM and they will ensure that that all deadlines are met and content is submitted per the events requirements, content is approved by legal if needed, social cards and social copy is made and provided to speakers, and calendar hold is sent to the speakers so they know where they are going on the day of their session.
+Once a session topic is chosen, the sponsored events manager will hand off to the ECM and content creation lead. The ECM will ensure that that all deadlines are met and content is submitted per the events requirements, content is approved by legal if needed, social cards and social copy is made and provided to speakers, and calendar hold is sent to the speakers so they know where they are going on the day of their session.
 
 #### If our sponsorship **does not include** speaking session
 
-If our sponsorship does not include a speaking session, the ECM will ensure that our Developer Advocate team has it on their radar via the [FY24 Dev Evangelism Event Strategy](https://gitlab.com/groups/gitlab-com/marketing/-/epics/3538?_gl=1*1jqjp5x*_ga*MTM3Mzg1MjIwNS4xNjU1MjE1MTQy*_ga_ENFH3X7M5Y*MTY3NTcxNDEzNC4xNzkuMC4xNjc1NzE0MTM0LjAuMC4w) to submit during the event’s open CFP.
+If our sponsorship does not include a speaking session, the ECM will ensure that our Developer Advocate team has it on their radar via the [FY24 Dev Evangelism Event Strategy](https://gitlab.com/groups/gitlab-com/marketing/developer-relations/-/epics/326/) to submit during the event’s open CFP.
 
 If a session is chosen by an event for a CFP that was submitted, the sponsored events manager will create an issue with all pertinent information provided by the event. They will tag the ECM and all pertinent parties that will assist in creating the presentation into the issue. The sponsored events manager will hand off to the ECM and they will ensure that that all deadlines are met and content is submitted per the events requirements, content is approved by legal if needed, social cards and social copy is made and provided to speakers, and calendar hold is sent to the speakers so they know where they are going on the day of their session.
 
-If the event we are sponsoring is not on the Developer Advocate team's radar to submit the CFP the ECM will start the conversation with the DE team via a comment on the [strategy issue](https://gitlab.com/groups/gitlab-com/marketing/-/epics/3538?_gl=1*1jqjp5x*_ga*MTM3Mzg1MjIwNS4xNjU1MjE1MTQy*_ga_ENFH3X7M5Y*MTY3NTcxNDEzNC4xNzkuMC4xNjc1NzE0MTM0LjAuMC4w).
+If the event we are sponsoring is not on the Developer Advocate team's radar to submit the CFP the ECM will start the conversation with the DE team via a comment on the [strategy issue](https://gitlab.com/groups/gitlab-com/marketing/developer-relations/-/epics/326/).
 
 ### Tiering of 3rd party conferences
 
@@ -232,11 +225,34 @@ TBD	Speakers - dependent on numbers of CFP accepted
 
 These are estimated numbers that the Corporate Events team uses to account for budget and passes. Numbers may vary based on expected number of attendees at the show and how many days the conference is. We understand there are serveral business use cases where team members can travel and attend these same conferences to meet with partners, customers, and prospects. However, if the staff member is not staffing the booth or there for other purposes, the Corporate Events team is unable to cover the team member's travel and pass.
 
-## GitLab Commit On the Road
+## Lightning Talks at GitLab Booth for Third party events
 
-* Commit On the Road - [Planning Epic](https://gitlab.com/groups/gitlab-com/marketing/-/epics/3618)
-* GitLab Commit On the Road, GitLab’s user conference, is an event that connects you to the ideas, technologies, and people that are driving DevSecOps transformation and is for the technology champions responsible for building, operating and securing applications.
-* This event will be a one day event with a single track featuring GitLab team members, customers, and partners. This roadshow will start in Q2 across 10+ cities.
+### DRI's
+
+* Overall Content DRI: Senior Management in Product Marketing or otherwise assigned by senior management, could be vary based on event
+    * Partner Lightning Talk DRI: Kelley Walker `@kmwalker`
+    * GitLab Lightning Talk DRI: Senior Management in Product Marketing, could be vary based on event
+* Corporate Events Lightning Talk Content Manager DRI: Suli King `@sstuelp`
+    * Ensures that the team is on track to identify lightning talks, finalize lightning talk schedule, and that lightning talk content deadlines are being hit.
+* Brand Compliance DRI: Adam Mittner or otherwise assigned by Adam Mittner `@amittner` 
+
+### Process
+
+1. Corporate Events Content Manager to identify and communicate the number of lightning talk slots available and deadlines.
+2. The Overall Content DRI will then start the process of identifying the key messaging that we would like portrayed throughout the lightning talks at the booth. They will work with the Partner Lightning Talk DRI and GitLab lightning talk DRI to communicate overall messaging and identify content that we would like to be given at our booth. Once the messaging, lightning talks, and speakers are identified and confirmed, they will fill in the lightning talk schedule in the Sponsored Event’s Main Tracker. All lightning talks must be approved by the Overall Content DRI. 
+3. Once content is confirmed and the lightning talk schedule is finalized, content creation can begin. The Corporate Events Content Manager will create an issue for each lightning talk.
+    * For each GitLab lightning talk the Corporate Events Content Manager will provide a GitLab branded slide template for each session. For Partner lightning talks, the partner can create their lightning talk on their own company’s branded template. 
+    * [Issue template for GitLab Lightning Talks](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/issues/new?issuable_template=event-lightningtalk-gitlab-speaker)
+    * [Issue template for Partner Lightning Talks](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/issues/new?issuable_template=event-lightningtalk-partner-speaker)
+4. Once GitLab content is created, it will then go through the review process which will entail: Overall Content DRI Review, Brand Compliance DRI Review, and Legal Review (only if necessary). Reviewers will leave feedback as comments in the slide presentation to be addressed. 
+5. Once Parter content is created, it will then go through the review process which will entail: Overall Content DRI Review. Reviewers will leave feedback as comments in the slide presentation to be addressed. 
+6. Once the content has gone through the review process and all reviewer comments have been addressed the content will then be deemed final. 
+
+
+## GitLab DevSecOps World Tour
+
+* DevSecOps World Tour - Planning Epic _coming soon_
+* GitLab DevSecOps World Tour, GitLab’s user conference, is an event that connects you to the ideas, technologies, and people that are driving DevSecOps transformation and is for the technology champions responsible for building, operating and securing applications.
 
 ### Event Execution
 
@@ -296,9 +312,9 @@ For both GitLab-owned and external events, speakers and content DRIs should buil
    </td>
   </tr>
   <tr>
-   <td><strong>GitLab Commit </strong>
+   <td><strong>DevSecOps World Tour</strong>
    </td>
-   <td>For all Commit Event related
+   <td>For all DevSecOps World Tour events
    </td>
   </tr>
 </table>

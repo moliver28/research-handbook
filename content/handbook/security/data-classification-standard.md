@@ -106,7 +106,7 @@ Data that is publicly shareable, and does not expose GitLab or its customers to 
 
 Examples include:
 
-- [GitLab handbook]({{< ref "/" >}})
+- [GitLab handbook](/)
      - Including most GitLab runbooks/work instructions/manuals/policies/procedures
 - Public announcements
 - [Public product information](https://docs.gitlab.com/ee/)

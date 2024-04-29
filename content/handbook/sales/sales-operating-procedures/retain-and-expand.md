@@ -23,7 +23,7 @@ In the retention and expansion phase, the roles and responsibilities of the CSM/
 
 - Strategic Account Executive ([Enterprise](/job-families/sales/enterprise-account-executive/)) or Account Executive ([SMB](/handbook/sales/commercial/#smb-account-executives) or [Mid Market](/handbook/sales/commercial/#mid-market-account-executive))
 - [Customer Success Manager](/handbook/customer-success/csm/#what-is-a-customer-success-manager-csm)
-- [Solutions Architect](/handbook/customer-success/solutions-architects/)
+- [Solutions Architect](/handbook/solutions-architects/)
 - [Professional Services](/handbook/customer-success/professional-services-engineering/)
 
 ## 1.Customer Onboarding

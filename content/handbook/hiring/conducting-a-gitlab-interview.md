@@ -4,7 +4,7 @@ description: "Helpful information about how to prepare and conduct interviews fo
 ---
 ## **Overview**
 
-Interviewing can be challenging for both parties involved. In under an hour, a decision must be made about the potential collaboration. This page aims to provide clear guidelines to ease the interview process for everyone.
+Interviewing can be challenging for both parties involved. In a relatively short space of time, a decision must be made about the potential collaboration. This page aims to provide clear guidelines to ease the interview process for everyone.
 
 ## Interviewer Training Requirements
 
@@ -71,6 +71,7 @@ It’s important to allocate the right amount of time for each part of the inter
   - Work with the hiring team to set up the interview plan in Greenhouse ahead of the interview to ensure all the areas you want to cover are in the scorecard.
   - Try to cover the prepared topics, but keep the conversation smooth - it is ok to skip around.
   - Redirect the conversation as needed - you are in charge of keeping the conversation focused and timely.
+- Consider adding the question to the meeting chat after verbalising. This helps avoid communication issues and be more inclusive.
 - There is an unbalanced power relationship during the interview, and interviewers should be mindful of this fact. The interviewer is in a powerful position: they provide input that could decide if the candidate will move forward or not. Be as friendly and approachable as you can. This has the added value of getting people comfortable (over time) and allows you to get much better data.
 - Interview for soft skills. Pick some behavioral questions to get data on what the candidate has done before and how their behavior aligns with the [company values](https://handbook.gitlab.com/handbook/values/). You will be asked to evaluate how the candidate’s values align with our own in your feedback form, and asking behavioral questions is the best way to assess this.
 - If a candidate discloses outside project(s) or activity(ies), please notify the Recruiter.
@@ -173,6 +174,11 @@ The scoring definitions for GitLab’s Engineering Division are defined differen
   - Extends No
   - The candidate demonstrated clear opposition to either our Collaboration, Diversity, or Results values
   - The candidate demonstrated unwillingness to learn our Efficiency, Iteration, or Transparency values
+
+  **Scorecards for Shadow Interviewers**
+
+   If you are shadowing an interview, part of this process should be taking notes and writing feedback in addition to the interviewer. Take notes using the scorecard just like you would if you were leading, but do not submit the scorecard because you are still considered to be in training during this period. As an interview training best practice, we recommend that a debrief meeting occur between the interviewer and shadow trainee after the interview to compare feedback notes (ideally in a sync meeting).
+   Only one official scorecard should be submitted by the main interviewer. Even if you receive multiple prompts and reminders from Greenhouse as a shadow interviewer, please ignore.
 
 More info on [engineering hiring practices](https://about.gitlab.com/handbook/engineering/#hiring-practices).
 

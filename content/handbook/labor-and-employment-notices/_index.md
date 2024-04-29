@@ -414,7 +414,7 @@ Since GitLab is an [all remote](/handbook/company/culture/all-remote/) company w
 
 ### New York
 
-- [New York Correction Law, Article 23-A](https://dol.ny.gov/system/files/documents/2021/02/correction-law-article-23a.pdf)
+- [New York Correction Law, Article 23-A](https://dol.ny.gov/system/files/documents/2024/02/correction-law-article-23a_0.pdf)
 - [New York State Human Rights Law](https://dhr.ny.gov/system/files/documents/2022/05/poster.pdf)
 - [Equal Pay Provision](https://dol.ny.gov/system/files/documents/2021/03/ls603_equity_provision.pdf)
 - [Minimum Wage](https://dol.ny.gov/system/files/documents/2021/12/ls207.pdf)

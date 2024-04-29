@@ -10,6 +10,8 @@ Support can access GitLab Dedicated tenant logs through our [OpenSearch](https:/
 
 When working on a GitLab Dedicated ticket, prioritize asking for information that will help identify applicable log entries. It is best to start collecting this information as early in the ticket as possible. The specific kinds of information will vary depending on the problem you are trying to solve but username, project path, project ID, exact date and time with time zone, [correlation ID](https://docs.gitlab.com/ee/administration/logs/tracing_correlation_id.html) and outgoing IP address are all good examples.
 
+The logs in OpenSearch will all be presented in the UTC time zone, regardless of the customer's time zone.
+
 ## Identifying tenants
 
 Each customer has a dedicated set of credentials needed for examining logs in OpenSearch. The credentials and the URL for that customer's OpenSearch instance are stored in the `GitLab Dedicated - Support` [1Password vault](/handbook/security/#vaults). Each customer is noted by a customer number in the vault, so you must refer to the `<tenant name>` to identify the proper credentials to use for a customer. This is used as part of the accessible URL, such as: `opensearch.<tenant name>.gitlab-dedicated.com`.
@@ -23,7 +25,7 @@ Once in the tenant's OpenSearch site:
 1. Choose "Discover" at the sidebar under OpenSearch Dashboards
 1. On the next screen, you should see logs. Make sure that index `gitlab-*` is selected.
 
-It is recommended to start with the `gitlab-*` index because it has a timestamp field. It shows a useful skyline graph and allows for time-filtering. The `git*` index is less useful as it does not have a timestamp field defined/used.
+It is recommended to start with the `gitlab-*` index because it has a timestamp field. It shows a useful skyline graph and allows for time-filtering. The `git*` index is less useful as it does not have a timestamp field defined/used. If you are unable to see the logs, try clearing cookies, local storage, and all session data for the site and repeat the steps above.
 
 Logs are retained for 7 days in OpenSearch; retention is longer in S3, but these are not accessible to Support.  Copy and paste relevant log entries or screenshots of frequently occurring errors into an internal note in the ticket or a [field note]({{< ref "fieldnote_issues" >}}) in order to preserve them beyond the retention period.
 

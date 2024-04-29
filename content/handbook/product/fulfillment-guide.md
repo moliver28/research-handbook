@@ -26,7 +26,7 @@ description: "The Fulfillment Sub-department is responsible for the infrastructu
 | [Licensing FAQ](https://about.gitlab.com/pricing/licensing-faq/) | Common questions around purchasing, licensing, billing, contacting sales, and more |
 | [Finance and Legal Authorization Matrix](/handbook/finance/authorization-matrix/) | |
 | [Trade Compliance](/handbook/legal/trade-compliance/) | |
-| [Billing, invoice and payment requests](/handbook/support/license-and-renewals/workflows/billing_contact_change_payments.html) | Zuora contact change, Zuora entity change and effects on SM/SaaS subscriptions, cancellations, downgrades, refunds, invoices, payments, credit card removals, renewal reversals, split payment requests |
+| [Billing, invoice and payment requests](/handbook/support/license-and-renewals/workflows/billing_contact_change_payments/) | Zuora contact change, Zuora entity change and effects on SM/SaaS subscriptions, cancellations, downgrades, refunds, invoices, payments, credit card removals, renewal reversals, split payment requests |
 | [Troubleshooting: True Ups, licenses + EULAs](/handbook/business-technology/enterprise-applications/quote-to-cash/troubleshooting/) | |
 | [Quote-to-Cash systems documentation (EntApps)](/handbook/business-technology/enterprise-applications/quote-to-cash/) | Overview of systems, EntApps Architecture, Process Flow Diagrams, Entity Relationship Diagrams |
 | [Quote-to-Cash process](/handbook/business-technology/enterprise-applications/quote-to-cash/#quote-to-cash-introduction) | EntApps documentation including systems and process diagrams. |
@@ -78,7 +78,7 @@ Not all Fulfillment features are available at the time for all types of customer
 | **What type of enforcement scenario is this applicable?** | Project storage enforcement.  | Project storage enforcement. |
 | **Is this live and being shown to customers today (as of Apr 20 2023)?** | Yes | Yes |
 | **When will we stop showing these notifications?** | When we roll out `Group Namespace Storage Enforcement` for the `Free` and then later `Paid` tiers | When we roll out `Group Namespace Storage Enforcement` for the `Free` and then later `Paid` tiers  |
-| **Who is seeing this?** | [All members](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/114960/diffs#a9df026a7fe481b045321b58a363ebfa963e284f_104_107) of the impacted group/project.  | Anyone using the CLI.  |
+| **Who is seeing this?** | [All members](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/114960/diffs#a9df026a7fe481b045321b58a363ebfa963e284f_104_107) of the impacted [project](https://gitlab.com/gitlab-org/gitlab/-/issues/451888#note_1881224243).  | Anyone using the CLI.  |
 | **When are we showing this?** | Customers who have used `75%+` of their allotted storage, will receive warning messages. When a customer has gone above their allotted storage amount `100%+` (> 100%, not >=),, they will receive a notification that their project is in a read-only state. | Customers who have used `95%-100%` of their of their [allotted storage](https://gitlab.com/fulfillment-group/utilization-group/team-project/-/issues/52#note_1378071499), will receive warning messages. When a customer has gone above their allotted storage amount `100%+` (> 100%, not >=),, they will receive a notification that their MR has been rejected.  |
 | **How is this notification controlled?** | We first check if we're enforcing via `automatic_purchased_storage_allocation` application setting ([code](https://gitlab.com/gitlab-org/gitlab/-/blob/e9c674c8/ee/app/models/namespaces/storage/root_excess_size.rb#L42)) and then we check if the criteria is met. The Application Setting used to determine the limit is `repository_size_limit` ([code](https://gitlab.com/gitlab-org/gitlab/-/blob/e9c674c8/ee/app/models/ee/namespace.rb#L251)). Currently the [limit is `10 GB`](https://docs.gitlab.com/ee/user/usage_quotas#project-storage-limit) and can only be set to the whole GitLab instance. | Same. See [issue](https://gitlab.com/fulfillment-group/utilization-group/team-project/-/issues/52#note_1388515713) |
 | **Links** | See [issue](https://gitlab.com/gitlab-org/gitlab/-/issues/371674) and [MR](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/112079) <br><br> [Screenshots](https://gitlab.com/gitlab-org/fulfillment-meta/-/issues/1099#banner-notification) | See [MR](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/112079) <br><br> [Screenshots](https://gitlab.com/gitlab-org/fulfillment-meta/-/issues/1099#cli)  |
@@ -118,12 +118,9 @@ Please keep in mind:
 
 ## Temporary renewal extensions
 
-*Last updated on 2024-02-23.*
+*Last updated on 2024-03-22.*
 
-| Use Case | Status |
-|---|---|
-| Temporary extensions for **Self-Managed** renewals | Available for eligible renewal opportunities |
-| Temporary extensions for **SaaS** renewals | Available for eligible renewal opportunities  |
+Temporary extensions for **Self-Managed** & **SaaS** renewals are now generally available for eligible renewal opportunities
 
 In the event that a renewal process takes longer then intended (e.g. customer takes longer than average to sign renewal deal), customers run into a problem when their license expires at the subscription term end and they lose complete access to their GitLab instance (Self-managed or SaaS).
 
@@ -134,9 +131,11 @@ Additional context about this feature can be found [here](https://gitlab.com/gro
 Please share your feedback about this feature in [this issue](https://gitlab.com/gitlab-org/fulfillment/meta/-/issues/1728).
 
 
-### Creating an extension
+### Creating an extension (from SDFC)
 
-Please watch [this video](https://www.youtube.com/watch?v=ENRtOQ0DbkM) for an overview of creating an extension. The process is also described below.
+Please watch SM demo [SM demo video](https://www.youtube.com/watch?v=ENRtOQ0DbkM) or [Gitlab.com/Saas video](https://drive.google.com/file/d/1HGGf8IH5fRt4ftB0pKZfHpb7owECItjX/view) for an overview of creating an extension.
+
+The process of creating the temporary renewal extension from SDFC is also described below
 
 1. Go to the SFDC Renewal Opportunity that needs additional processing time.
 1. Click on `Request Temporary Extension` button.
@@ -599,7 +598,7 @@ Currently a customer can only have one billing account membership.
 
 #### Add a new billing account membership
 
-Adding a new billing account membership between a customer and a billing account results in the customer becoming a [subscription management contact](/handbook/support/license-and-renewals/workflows/customersdot/associating_purchases.html#add-subscription-management-contact-workflow).
+Adding a new billing account membership between a customer and a billing account results in the customer becoming a [subscription management contact](/handbook/support/license-and-renewals/workflows/customersdot/associating_purchases/#add-subscription-management-contact-workflow).
 
 1. Navigate to the `Billing account memberships` section.
 1. Select the `+ Add new` action.

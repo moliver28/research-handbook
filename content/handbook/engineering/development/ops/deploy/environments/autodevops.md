@@ -48,7 +48,7 @@ or
 `gitlab-qa Test::Instance::Image EE -- qa/specs/features/browser_ui/7_configure/auto_devops/create_project_with_auto_devops_spec.rb --tag orchestrated --tag kubernetes` to run [orchestrated](https://gitlab.com/gitlab-org/gitlab-qa/-/blob/master/docs/what_tests_can_be_run.md#orchestrated-tests).
 
 To run the `auto_devops_templates_spec.rb` tests, it is easiest to execute the tests against the [staging](https://staging.gitlab.com/) environment by following [these instructions](https://gitlab.com/gitlab-org/gitlab-qa/-/blob/master/docs/what_tests_can_be_run.md#testinstancestaging) for setting up your environment variables.
-NOTE: You will need access to the "QA Vault" in 1password. If you require access, you can fill out an individual access request from [here](/handbook/business-technology/team-member-enablement/onboarding-access-requests/access-requests/#individual-or-bulk-access-request)
+NOTE: You will need access to the "QA Vault" in 1password. If you require access, you can fill out an individual access request from [here](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/#individual-or-bulk-access-request)
 
 Example: `gitlab-qa Test::Instance::Staging -- qa/specs/features/browser_ui/7_configure/auto_devops/auto_devops_templates_spec.rb` to run [orchestrated](https://gitlab.com/gitlab-org/gitlab-qa/-/blob/master/docs/what_tests_can_be_run.md#orchestrated-tests) (append `--tag quarantine` to run quarantined tests)
 

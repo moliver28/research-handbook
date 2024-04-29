@@ -38,7 +38,7 @@ Here are some best practices when making a screener from scratch:
  - When writing up a screener draft, use brackets for internal notes, so the researcher and other stakeholders can indicate whether an answer should terminate/reject a respondent. Brackets can also be used to indicate when a question should be skipped.
  - If you need to use advanced logic to display questions and/or route respondents down a certain path based on their previous answers, Qualtrics is a great tool.
 
-Final drafts of screeners at GitLab are created in [Qualtrics](/handbook/product/ux/qualtrics/). If you don’t have access to Qualtrics, [request it](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/). If you are using a [different recruiting method](/handbook/product/ux/ux-research-coordination/recruitment-methods) or an unmoderated study platform (such as [UserTesting.com](https://www.usertesting.com/)), you will create the screener in those platforms.
+Final drafts of screeners at GitLab are created in [Qualtrics](/handbook/product/ux/ux-research/surveys/qualtrics/). If you don’t have access to Qualtrics, [request it](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/). If you are using a [different recruiting method](/handbook/product/ux/ux-research-coordination/recruitment-methods) or an unmoderated study platform (such as [UserTesting.com](https://www.usertesting.com/)), you will create the screener in those platforms.
 
 ### Screener tips
 

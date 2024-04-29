@@ -83,9 +83,9 @@ True-ups are conversations that often come to the table with customers during re
 
 - [True Up Policy](/handbook/company/pricing/#true-up-pricing)
 - [How To Find True Ups](https://about.gitlab.com/pricing/licensing-faq/#what-does-users-over-license-mean)
-- [Licensing and Subscription Troubleshooting](/handbook/support/license-and-renewals/workflows/license_troubleshooting.html#licensing)
+- [Licensing and Subscription Troubleshooting](/handbook/support/license-and-renewals/workflows/license_troubleshooting/#licensing)
 
-Additionally, [quarterly subscription reconciliations](/handbook/support/license-and-renewals/workflows/quarterly_subscription_reconciliations.html) should also be understood related to customer billing.
+Additionally, [quarterly subscription reconciliations](/handbook/support/license-and-renewals/workflows/quarterly_subscription_reconciliations/) should also be understood related to customer billing.
 
 ### Account Planning Lifecycle
 

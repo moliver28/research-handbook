@@ -35,7 +35,7 @@ The following people are permanent members of teams that belong to the Core Plat
 
 ### Distribution:Build
 
-{{< team-by-manager-slug manager="david-mountney" team="Build" >}}
+{{< team-by-manager-slug manager="sissiyao" team="Build" >}}
 
 ### Distribution:Deploy
 
@@ -88,19 +88,19 @@ In order to embody GitLab [CREDIT values](/handbook/values/#credit), we take tea
 3. Highlights & Accomplishments
 4. Announcements & topics of interest to those reading the report
 
-We use issues to communicate status asynchronously. The reporting issues reside in [Core Platform Status Update](https://gitlab.com/gitlab-org/enablement-section/enablement-status-update) project. There are two types of report issues - issues for each group, stage, and Director; summary issues for each week and month for quick access. The creation of these issues is automated by scripts and a cron job in the same project. The summary issues are also updated regularly by the same cron job to pull the latest together.
+We use issues to communicate status asynchronously. The reporting issues reside in [Core Platform Status Update](https://gitlab.com/gitlab-org/core-platform-section/status-update) project. There are two types of report issues - issues for each group, stage, and Director; summary issues for each week and month for quick access. The creation of these issues is automated by scripts and a cron job in the same project. The summary issues are also updated regularly by the same cron job to pull the latest together.
 
 #### To make a weekly async update
 
 Engineering managers are encouraged to make as many updates as needed throughout the week.
 
-1. Open the weekly issue for your team, for example [Database](https://gitlab.com/gitlab-org/enablement-section/enablement-status-update/-/issues/50).
-2. Edit the issue description and apply the issue template [group-weekly-status](https://gitlab.com/gitlab-org/enablement-section/enablement-status-update/-/blob/main/.gitlab/issue_templates/group-weekly-status.md).
+1. Open the weekly issue for your team, for example [Database](https://gitlab.com/gitlab-org/core-platform-section/status-update/-/issues/50).
+2. Edit the issue description and apply the issue template [group-weekly-status](https://gitlab.com/gitlab-org/core-platform-section/status-update/-/blob/main/.gitlab/issue_templates/group-weekly-status.md).
 3. Fill in the content in the issue description.
 
 #### To review Core Platform weekly async updates
 
-1. All issues with the `~Core Platform::Weekly-Update` label are summarized in weekly and monthly issues, for example [W23 Core Platform Sub-Dept Status Summary (2022-06-12 - 2022-06-18)](https://gitlab.com/gitlab-org/enablement-section/enablement-status-update/-/issues/13), [M6 Enablement Sub-Dept Status Summary (Jun 2022)](https://gitlab.com/gitlab-org/enablement-section/enablement-status-update/-/issues/6).
+1. All issues with the `~Core Platform::Weekly-Update` label are summarized in weekly and monthly issues, for example [W23 Core Platform Sub-Dept Status Summary (2022-06-12 - 2022-06-18)](https://gitlab.com/gitlab-org/core-platform-section/status-update/-/issues/13), [M6 Enablement Sub-Dept Status Summary (Jun 2022)](https://gitlab.com/gitlab-org/core-platform-section/status-update/-/issues/6).
 2. You are encouraged to comment and ask questions in weekly async update issues.  This provides useful feedback to the author and opportunities to collaborate.
 
 #### Benefits of reporting and reviewing status async vs. synchronously in meetings
@@ -116,24 +116,18 @@ Engineering managers are encouraged to make as many updates as needed throughout
 
 The nature of the work primarily done by most Core Platform groups calls for backend heavy roadmaps and backlogs. This means that frontend (FE) development work can be "stop-and-go" and typically does not warrant the need for a full-time FE developer assigned to those groups. However, when work does come up it can be overwhelming for the group in question, or they may not have the necessary FE development skills to complete the task.
 
-To address this need, the enablement sub-department has established a cross-group frontend development process. The objective is to have **extra** frontend engineering capacity readily available to help all enablement groups with frontend development work overload while avoiding going through formal [borrow requests](/handbook/product/product-processes/#borrow) and their process overhead. This also has the added benefit of having some level of technical oversight that supports a consistent frontend architecture across groups.
+To address this need, the Core Platform sub-department has established a cross-group frontend development process. The objective is to have **extra** frontend engineering capacity readily available to help all Core Platform groups with frontend development work overload while avoiding going through formal [borrow requests](/handbook/product/product-processes/#borrow) and their process overhead. This also has the added benefit of having some level of technical oversight that supports a consistent frontend architecture across groups.
 
-The process itself consists of managing a unified enablement frontend roadmap and backlog. The DRI of this process is the Engineering Manager of Geo (@juan-silva). While the frontend engineers' primary focus is still their own groups' roadmap, they can be made available for this backlog based on demand, availability, and overall priority assessment upon agreements between respective groups' PMs and EMs coordinated by the DRI.
+List of frontend collaborations:
 
-The roadmap is depicted in the table below. This roadmap is reviewed regularly on a monthly cadence during one of the Core Platform staff meetings. Additionally, ad-hoc planning sessions can be scheduled on request by other Core Platform EMs, when more prioritization is needed to balance the needs of different group stakeholders.
-
-| Group | Roadmap Item | Milestones | Links | Notes
+| Engineer | Group | Roadmap Item | Milestones | Notes
 | ------ | ------ | ------ | ------ | ------ |
-| Global Search | GitLab Chat | 16.0 | [MVC Epic](https://gitlab.com/groups/gitlab-org/-/epics/10220)
-| Tenant Scale | Migrate user tabs to Vue | 16.1 | [Epic](https://gitlab.com/groups/gitlab-org/-/epics/9056)
+| Zack Cuddy | Global Search | [GitLab Chat](https://gitlab.com/groups/gitlab-org/-/epics/10220) | 16.0 | |
+| Zack Cuddy | Tenant Scale | [Migrate user tabs to Vue](https://gitlab.com/groups/gitlab-org/-/epics/9056) | 16.1 | |
+| Zack Cuddy | Tenant Scale | [Organization MVC](https://gitlab.com/groups/gitlab-org/-/epics/10649) | 16.2 - 16.10 | Part-time |
+| Zack Cuddy | Tenant Scale | [Organization MVC](https://gitlab.com/groups/gitlab-org/-/epics/10649) | 16.11 - Present | Full-time |
 
-
-Effort is based on T-shirt sizes as follows:
-Small = Up to 1 week, Medium = 2-6 weeks, Large = 2-3 months, XL = more than 3 months
-
-As the frontend roadmap items above are broken down into specific Epics and Issues, they are added to each individual group's backlog using that group’s own labels. Additionally, those issues must be labelled with `Core Platform-FE`.
-
-New issues must initially be labeled `workflow::planning breakdown` where they can be assessed from a technical perspective and estimated accordingly. From there, issues are expected to follow the workflow steps outlined in the [Core Platform Frontend Backlog](https://gitlab.com/groups/gitlab-org/-/boards/5604213) board. Geo's FE Engineer is the DRI for updating the board regularly as development progresses.
+The frontend roadmap items above are broken down into specific epics and issues, and they can also be labelled with `Core Platform-FE` tracked in the [Core Platform Frontend Backlog](https://gitlab.com/groups/gitlab-org/-/boards/5604213) board.
 
 ### Increasing Efficiency through Documenting Decisions
 Documenting development decisions is another way to increase efficiency.  These decisions can be either in an issue explicitly stating that we will not work on this issue, the product category page for your group or a more formal decision log in your group's section of the handbook.  Whatever your chosen desitination, each group should try to maintain a [single source of truth](/handbook/values/#single-source-of-truth) for the decisions.  A recent example (without mentioning specific product name) had a development team researching an open source product to accelerate development time only to find out later that this research had been previously completed and the product was eliminated from consideration.  If this decision had been discoverable via documentation or issue it would have saved precious development time.
@@ -202,3 +196,21 @@ The Core Platform teams leverage the following software or SaaS services to deli
 | packagecloud.io | [https://packagecloud.io/](https://packagecloud.io/) | Annual | March 30th | Distribution | Existing vendor, [last renewal issue](https://gitlab.com/gitlab-com/Finance-Division/procurement-team/procurement/-/issues/485), [last renewal PO](https://gitlab.coupahost.com/requisition_headers/618)  |
 | dependencies.io | [https://www.dropseed.io/](https://www.dropseed.io/ ) | Annual | November 1st | Distribution | Existing vendor, [last renewal issue](https://gitlab.com/gitlab-org/distribution/team-tasks/-/issues/514) |
 | postgres.ai     | [https://postgres.ai/](https://postgres.ai/)     | Annual  | May 28th          | Database     | Existing vendor, [last renewal issue](https://gitlab.com/gitlab-com/Finance-Division/procurement-team/procurement/-/issues/676) |
+
+## Internal Opportunities Pilot
+
+At GitLab, we encourage team members to explore their interests in other domains and generally support moves between teams. This helps with team member retention and career development. It can also help the receiving team gain valuable exposure to other parts of the product. However, we don't have a well-defined process to connect interested team members with available opportunities. For example, sometimes we execute borrow requests where specific engineers are requested for assignment and there is no opportunity for other engineers to express interest. We can encourage engineers interested in a move to look at job postings. But there could be other opportunities for temporary assignments or exchanges if we had an overview of interest across the organization.
+
+We are piloting a process within Core Platform to help team members interested in exploring different teams. This process is applicable to temporary assignments, i.e. [Rapid Actions](/handbook/product/product-processes/#rapid-action), [Borrows](/handbook/product/product-processes/#borrow), [Internship](/handbook/people-group/learning-and-development/internship-for-learning/) and mutual interests of a temporary exchange between 2 individuals. Other assignment changes such as [Realignment](/handbook/people-group/promotions-transfers/#realignment-process) and new job openings are out of scope.
+1. A team member can express their interest in other domains either to their direct manager or skip-level manager. If there is already a job opening in their area of interest, we can encourage them to apply following the [internal hiring process](/handbook/hiring/talent-acquisition-framework/internal-hiring-process/).
+2. In the Core Platform staff meeting agenda, managers will highlight team members who have expressed interest. Their names will be kept confidential, but we will provide details about what areas they are interested in.
+3. If other managers have a potential opportunity for a given team member, they can connect with the team member's manager or skip-level manager. An opportunity may be a temporary opening such as a borrow request or another team member who may be interested in an exchange. Ultimately, any proposed moves are detailed in an issue with clear terms and reviewed and agreed by the following stakeholders:
+   1. Giving team's Product Manager and Engineering Manager
+   1. Receiving team's Product Manager and Engineering Manager if they are part of Core Platform
+   2. Director of Product Management and Director of Engineering
+
+The following conditions are followed when initiating the process:
+1. The applying candidate's last performance rating was `Performing` and there is no ongoing performance concerns at the time of application.
+2. The length of duration is what is defined by the Rapid Action and Borrow requests. For Internship, it is typically [6 weeks to 3 months](/handbook/people-group/learning-and-development/internship-for-learning/#:~:text=How%20long%20does%20an%20internship%20of%20this%20nature%20last%3F).
+3. At any time, the maximum concurrent temporary assignments cannot exceed 2 individuals for the roles within Core Platform. Note that there is no limit to roles for Rapid Actions and Borrows of company priority initiatives.
+4. Other specific requirements of each temporary arrangement, for example a condition of Internship says 'If your manager has coverage, you can spend a percentage of your time working (through an ‘Internship’) with another team.'

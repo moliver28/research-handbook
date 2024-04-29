@@ -83,9 +83,9 @@ Learn how to identify the most valuable challenges and leverage the GitLab DevSe
     - “Effective GitLab Demos.” (40:16)  More resources and helpful hints are provided.  [Register for the Webinar](https://content.gitlab.com/viewer/63bddf02edadd0b1346a73db)!
   - [GitLab Partner Demos](https://gitlab.com/gitlab-partner-demos) (Project Catalog)
     - Public group containing demo projects developed by the GitLab Partner SA team for use with and by our partners
-  - [GitLab POV Handbook Page](/handbook/customer-success/solutions-architects/tools-and-resources/pov/)
+  - [GitLab POV Handbook Page](/handbook/solutions-architects/tools-and-resources/pov/)
     - This handbook page is a great resource and link aggregation point for resources to conduct POVs
-  - [The GitLab Demo Page](/handbook/customer-success/solutions-architects/demonstrations/) (Handbook)
+  - [The GitLab Demo Page](/handbook/solutions-architects/demonstrations/) (Handbook)
     - Good reference material for general purpose demos the same way GitLab SA's do it.
   - [Ultimate GitOps Workshop](https://guided-explorations.gitlab.io/workshops/gitlab-for-eks/) (Workshop Guide)
     - Leverage GitLab K8s agent to deploy to EKS.

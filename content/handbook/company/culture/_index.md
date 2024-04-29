@@ -55,7 +55,7 @@ As our company and the industry continue to grow, you'll have the freedom to cha
 
 > At GitLab, we're figuring out a lot of things you have to do to be all-remote, and we're trying to share those lessons. That's anything from working [handbook-first]({{< ref "handbook-usage#why-handbook-first" >}}) to [communication styles]({{< ref "./all-remote/effective-communication" >}}) and being intentional about [informal communication]({{< ref "./all-remote/informal-communication" >}}).
 >
-> If you Google "*GitLab all-remote*", you'll find tons of tips. And those are based not just on what we say, but what we *do*. We have a public [handbook]({{< ref "/handbook" >}}) of over 3000 pages with all our internal processes. You can check out what we really do to make this work.
+> If you Google "*GitLab all-remote*", you'll find tons of tips. And those are based not just on what we say, but what we *do*. We have a public [handbook](/handbook) of over 3000 pages with all our internal processes. You can check out what we really do to make this work.
 >
 > I think it's going to be the future. In the future, companies who make digital products are going to be much more all-remote. And we want to [enable that trend]({{< ref "remote-vision" >}}). We think it's great for [team members]({{< ref "./all-remote/people" >}}).
 

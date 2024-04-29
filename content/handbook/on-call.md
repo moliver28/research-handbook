@@ -22,7 +22,7 @@ If you're a GitLab team member looking for help with a security problem, please 
 - Provide support to the release managers in the release process.
 - As noted in the [main handbook]({{< ref "paid-time-off" >}}), after being on-call, make sure that you take time off. Being available for issues and outages can be taxing, even if you had no pages.  Resting after your on-call shift is critical for preventing burnout. Be sure to inform your team of the time you plan to take for time off.
   - Team members in Australia should review the [Australia time in lieu policy]({{< ref "pty-benefits-australia" >}}).
-- During on-call duties, it is the team member's responsibility to act in compliance with local rules and regulations. If ever in doubt, please reach out to your manager and/or [aligned People Business Partner]({{< ref "/handbook/people-group#people-business-partner-alignment-to-division" >}}).
+- During on-call duties, it is the team member's responsibility to act in compliance with local rules and regulations. If ever in doubt, please reach out to your manager and/or [aligned People Business Partner](/handbook/people-group#people-business-partner-alignment-to-division).
 
 ## Customer Emergency On-Call Rotation
 
@@ -33,7 +33,7 @@ If you're a GitLab team member looking for help with a security problem, please 
 - You can view the [schedule](https://gitlab.pagerduty.com/schedules#PIQ317K) and the [escalation policy](https://gitlab.pagerduty.com/escalation_policies#PKV6GCH) on PagerDuty. You can also opt to [subscribe to your on-call schedule](https://support.pagerduty.com/docs/schedules-in-apps#section-export-only-your-on-call-shifts), which is updated daily.
 - After each shift, *if* there was an alert / incident, the on call person will send a hand off email to the next on call explaining what happened and what's ongoing, pointing at the right issues with the progress.
 - If you need to reach the current on-call engineer and they're not accessible on Slack (e.g. it's a weekend, or the end of a shift), you can [manually trigger a PagerDuty incident](https://support.pagerduty.com/docs/incidents#trigger-an-incident) to get their attention, selecting **Customer Support** as the Impacted Service and assigning it to the relevant Support Engineer.
-- See the [GitLab Support On-Call Guide]({{< ref "/handbook/support/on-call" >}}) for a more
+- See the [GitLab Support On-Call Guide](/handbook/support/on-call) for a more
   comprehensive guide to handling customer emergencies.
 
 ## GitLab.com Reliability On-Call Rotation

@@ -1,6 +1,8 @@
 ---
 title: "Recruitment Privacy Policy"
 description: "This Recruitment Privacy Policy describes GitLab Inc. and its affiliates (GitLab) practices for collecting, storing, and processing your personal data as part of the recruitment process."
+aliases:
+- /handbook/hiring/candidate/faq/recruitment-privacy-policy/
 ---
 
 This Recruitment Privacy Policy describes GitLab Inc. and its affiliates ("GitLab") practices for collecting, storing, and processing your personal data as part of the recruitment process.

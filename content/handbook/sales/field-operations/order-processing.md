@@ -668,7 +668,7 @@ If an opportunity meets the criteria listed above, but does not meet the Minimum
 4. After being notified, the Revenue team will review the case, and will calculate the amount of the ARR allocation. The Revenue team will then add it to the ARR Allocations Tracker.
 5. After calculating the ARR allocation, the Revenue team will communicate the impact in Chatter. This ARR allocation will be communicated wtihin 3-5 days of the initial notification to the Revenue Team.
 6. When the ARR allocation is communicated in Chatter, Deal Desk will adjust the Net ARR and Booked ARR of the opportunity in accordance with the ARR allocation provided by the Revenue Team.
-7. Please note: L&R Support do not have the ability to waive True-Ups, further information on L&R Support responsibilities regarding True-Ups can be found in the [working with sales support handbook page](/handbook/support/license-and-renewals/workflows/working_with_sales.html#support-responsibilities-regarding-true-up-waiver-requests)
+7. Please note: L&R Support do not have the ability to waive True-Ups, further information on L&R Support responsibilities regarding True-Ups can be found in the [working with sales support handbook page](/handbook/support/license-and-renewals/workflows/working_with_sales/#support-responsibilities-regarding-true-up-waiver-requests)
 
 ### How to Request Quote Approval via Chatter
 

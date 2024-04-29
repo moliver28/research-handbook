@@ -51,7 +51,7 @@ The Product Designer is a [grade 6](http://about.gitlab.com/handbook/total-rewar
 - **Design system:** Actively contribute to the [Pajamas Design System][pajamas] by keeping design components available and up to date in design and prototyping tools, and ensuring that components fit together visually and functionally.
 - **UI copy:** Collaborate closely with a technical writer on microcopy and documentation suggestions.
 - **Design reviews:** Participate in [Design Reviews](http://about.gitlab.com/handbook/product/ux/product-designer/#design-reviews), giving and receiving feedback in an appropriate way.
-- **UX debt:** Understand UX debt and make recommendations for its resolution with the help from a senior or staff product designer or your product design manager.
+- **Deferred UX:** Understand Deferred UX and make recommendations for its resolution with the help from a senior or staff product designer or your product design manager.
 - **Recruiting:** Evaluate case studies during the product designer candidate interview process and interview product manager candidates.
 
 #### Requirements
@@ -77,7 +77,7 @@ Everything in the Product Designer role, plus:
 - **Design system:** Actively contribute to the [Pajamas Design System][pajamas], help determine whether components are single-use or multi-use, and provide recommendations to designers regarding new component requests.
 - **UI copy:** Collaborate early and often with a technical writer on microcopy to ensure user experiences are efficient. Help improve docs and incorporate documentation within the UI as needed to assist users in moving through their workflows.
 - **Design reviews:** Participate in [Design Reviews](http://about.gitlab.com/handbook/product/ux/product-designer/#design-reviews), and model best practices for giving and receiving feedback.
-- **UX debt:** Help reduce the creation of additional UX debt with [MVCs](http://about.gitlab.com/handbook/product/product-principles/#the-minimal-viable-change-mvc) and advocate within your group the importance of releasing value to users. Identify and influence the prioritization to fix UX debt when it occurs.
+- **Deferred UX:** Help reduce the creation of additional deferred UX with [MVCs](http://about.gitlab.com/handbook/product/product-principles/#the-minimal-viable-change-mvc) and advocate within your group the importance of releasing value to users. Identify and influence the prioritization to fix deferred UX when it occurs.
 - **Public presence:** Help promote GitLab publicly by writing blog articles, giving talks, publishing videos to GitLab Unfiltered, or responding on social media, where appropriate.
 - **Cross-stage collaboration:** Support your product design manager and product manager in identifying dependencies between groups and stages and advocating for cross-stage collaboration when needed.
 - **Mentoring:** Mentor other members of the UX department, both inside and outside of your group(s) on how to approach design problems, solicit feedback, and drive for impactful outcomes.
@@ -102,7 +102,7 @@ Everything in the Senior Product Designer role, plus:
 - **Communication:** Set an example for how to effectively communicate across groups and stages by frequently participating in asynchronous collaboration in issues and merge requests.
 - **Iteration:** Understand long-term goals in your group and help other product designers break down designs into actionable steps.
 - **Design reviews:** Participate in [Design Reviews](http://about.gitlab.com/handbook/product/ux/product-designer/#design-reviews) across the subdepartment, and model best practices for giving and receiving feedback.
-- **UX debt:** Help the product teams of the group you support to prioritize and [close UX debt](http://about.gitlab.com/handbook/product/ux/performance-indicators/#ux-debt).
+- **Deferred UX:** Help the product teams of the group you support to prioritize and [close Deferred UX](http://about.gitlab.com/handbook/product/ux/performance-indicators/#deferred-ux).
 - **Thought leadership:** Teach and socialize decision-making frameworks to the GitLab community, so that designers can solve problems more efficiently on their own.
 - **Recruiting:** Conduct independent portfolio reviews of qualified design candidates to help identify top talent in the candidate pool.
 - **Cross-stage collaboration:** Drive cross-stage collaboration by helping designers to identify dependencies and areas for cross-department work.
@@ -132,7 +132,7 @@ Everything in the Staff Product Designer role, plus:
 - **Communication:** Guide conversations to remove blockers and encourage collaboration across teams.
 - **Iteration:** Create 6-month visions and plans for your stage to deliver value to customers and the organization.
 - **Design reviews:** Participate in [Design Reviews](http://about.gitlab.com/handbook/product/ux/product-designer/#design-reviews) across the subdepartment to ensure high-quality output, and model best practices for giving and receiving feedback.
-- **UX debt:** Help the stage you support to prioritize and close UX debt.
+- **Deferred UX:** Help the stage you support to prioritize and close Deferred UX.
 - **Thought leadership:** Interface with product design managers and senior management, and enable staff designers to engage on UX department-level aspects of larger (stage or section-wide) initiatives.
 - **Recruiting:** Conduct portfolio reviews with staff product designers of qualified design candidates, and help retain a world-class team of product designers and product design managers.
 - **Cross-stage collaboration:** Collaborate and make proposals across several teams, and help team members make informed decisions in alignment with your stages’ strategic plans.
@@ -174,7 +174,7 @@ Everything in the various levels of product designer roles, plus:
 - [Ratio of proactive vs reactive UX work](http://about.gitlab.com/handbook/product/ux/performance-indicators/#ratio-of-proactive-vs-reactive-ux-work)
 - [Beautifying our UI](http://about.gitlab.com/handbook/product/ux/performance-indicators/#ui-beautification)
 - [Ratio of breadth vs depth work](http://about.gitlab.com/handbook/product/ux/performance-indicators/#ratio-of-breadth-vs-depth-work)
-- [UX debt](http://about.gitlab.com/handbook/product/ux/performance-indicators/#ux-debt)
+- [Deferred UX](http://about.gitlab.com/handbook/product/ux/performance-indicators/#deferred-ux)
 - [Pajamas component migrations](http://about.gitlab.com/handbook/product/ux/performance-indicators/#pajamas-component-migrations)
 
 ## Relevant links

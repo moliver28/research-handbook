@@ -179,8 +179,8 @@ A candidate who has talked to a lot of people inside GitLab said that, compared 
 ##### Don't let each other fail
 
 Keep an eye out for others who may be struggling or stuck.
-If you see someone who needs help, reach out and assist, or connect them with someone else who can provide expertise or assistance.
-We succeed and shine together!
+If you see someone who needs help, reach out and assist. This might involve offering to [pair program](https://about.gitlab.com/blog/2019/08/20/agile-pairing-sessions/) or setting up a sync brainstorming session. The goal is to connect them with someone else who can provide expertise or assistance.
+We are a team, so we succeed and shine together by supporting each other!
 
 ##### People are not their work
 
@@ -1212,7 +1212,7 @@ Most companies have a list of values. In companies without strong values, folks 
 
 ## How to scale the business while preserving GitLab values?
 
-*For certain business decisions or projects (such as [compensation](/handbook/total-rewards/compensation/) and [end-point management](/handbook/business-technology/team-member-enablement/onboarding-access-requests/endpoint-management/) ), GitLab team members may have a lot of opinions and interest,
+*For certain business decisions or projects (such as [compensation](/handbook/total-rewards/compensation/) and [end-point management](https://internal.gitlab.com/handbook/it/endpoint-tools/) ), GitLab team members may have a lot of opinions and interest,
 and they want to provide their feedback and comments.
 On the other hand,  it might be challenging for the project DRI to digest and respond to all these inputs.
 What should you do in this scenario?*
@@ -1375,7 +1375,7 @@ Values make and clarify choices. A well-chosen value has a defensible opposite. 
 
 ## What is not a value
 
-- [All-remote](/handbook/company/culture/all-remote/) isn't a value. It is something we do because it helps to [practice our values](/handbook/company/culture/all-remote/values/) of transparency, efficiency, results, and diversity, inclusion & belonging.
+- [All-remote](/handbook/company/culture/all-remote/) isn't a value. It is something we do because it helps to [practice our values](/handbook/company/culture/all-remote/remote-values/) of transparency, efficiency, results, and diversity, inclusion & belonging.
 
 ## Questions from new team members
 

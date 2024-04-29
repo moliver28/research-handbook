@@ -71,15 +71,7 @@ Apply one of the following templates:
   - Slack: `@infra-foundations`
   - GitLab: `@gitlab-org/production-engineering/foundations`
 
-### Triaging requests
-
-We triage requests during our weekly team syncs if they are not triaged ahead of time.
-
-  - We use [weights](#issue-weighting) to estimate the size of incoming issues. This helps not only in our planning efforts, it also helps to track our historical velocity.
-  - We review the assigned priority label and assign one if a priority label is missing.
-  - If the issue is deemed to be not actionable with the provided information, we will ask the issue creator for the required information. If we do not get any response within a 2 week timeframe, the issue will be closed with a note to the creator.
-  - Some issues are assessed to be no longer relevant, or the benefit is so outweighed by the cost of implementation that it is not worth doing. In those cases, we apply the label ~"workflow-infra::Cancelled" and close the issue with a note to the creator explaining our reasoning.
-  - Any triaged issues that are ready for work are brought to the weekly team syncs for discussion and assignment unless they are marked urgent (P1 or P2), in which case we will raise them immediately to the team via Slack.
+We rotate triage duties weekly between team members as part of our [interrupt rotation](#interrupt-rotation). 
 
 ### Priority Levels for Requests
 
@@ -121,19 +113,7 @@ For more context, see the related [discussion issue](https://gitlab.com/gitlab-c
 
 ## Team Members
 
-<!-- Uncomment and remove the manual table below -->
-<!-- when permanent manager has been set for the team -->
-<!-- {{< team-by-manager-slug "sabrams" >}} -->
-
-| Name | Role |
-| ---- | ---- |
-| [Steve Abrams](https://handbook.gitlab.com/handbook/company/team/#steve-abrams) | [Acting Engineering Manager](https://handbook.gitlab.com/job-families/engineering/infrastructure/engineering-management/#manager-engineering-scalability) |
-| [Marcel Chacon](https://handbook.gitlab.com/handbook/company/team/#mchacon3) | [Senior Site Reliability Engineer](https://handbook.gitlab.com/job-families/engineering/infrastructure/site-reliability-engineer/) |
-| [Pierre Guinoiseau](https://handbook.gitlab.com/handbook/company/team/#pguinoiseau) | [Senior Site Reliability Engineer](https://handbook.gitlab.com/job-families/engineering/infrastructure/site-reliability-engineer/) |
-| [Milad Irannejad](https://handbook.gitlab.com/handbook/company/team/#miladx) | [Senior Site Reliability Engineer](https://handbook.gitlab.com/job-families/engineering/infrastructure/site-reliability-engineer/) |
-| [Jack Stephenson](https://handbook.gitlab.com/handbook/company/team/#jcstephenson) | [Senior Site Reliability Engineer](https://handbook.gitlab.com/job-families/engineering/infrastructure/site-reliability-engineer/) |
-| [Sarah Walker](https://handbook.gitlab.com/handbook/company/team/#swalker) | [Site Reliability Engineer](https://handbook.gitlab.com/job-families/engineering/infrastructure/site-reliability-engineer/) |
-| [Adeline Yeung](https://handbook.gitlab.com/handbook/company/team/#ayeung) | [Site Reliability Engineer](https://handbook.gitlab.com/job-families/engineering/infrastructure/site-reliability-engineer/) |
+{{< team-by-manager-slug "steve-abrams" >}}
 
 ## Key Technical Skills
 
@@ -183,6 +163,30 @@ We have Geekbot automated checkins on Mondays and Fridays in the [#g_infra_found
 
 We use priority labels to prioritize our work. OKR work is updated to `priority::2` when it is ready to be worked on. As such it is given higher priority than most other work. This means that external requests will be worked in based on their own priority and impact, where only P1 and P2 issues will regularly interrupt OKR work.
 
+### Interrupt Rotation
+
+The goal of the team member on interrupt rotation is to purposely plan to have interrupt work for a week so that the rest of the team can have less interrupt work. The [schedule is available in pager duty](https://gitlab.pagerduty.com/schedules#P7Y8O0E).
+
+If a team member is unavailable for more than 2 days of the week they are on triage, they should seek to trade weeks or find coverage for the days they are out.
+
+The team member on rotation is responsible for:
+
+- Checking the [Production Engineering issue tracker](https://gitlab.com/gitlab-com/gl-infra/production-engineering/-/issues/?sort=created_date&state=opened&first_page_size=20) throughout the week and ensuring new issues related to Foundations:
+  - Have the correct labels (team, priority, workflow, any other applicable category labels)
+  - Have a [weight](#issue-weighting).
+  - Are assigned to an [appropriate epic](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics?state=opened&page=1&sort=start_date_desc&label_name[]=team::Foundations) if applicable.
+- Asking issue authors for more information when needed to understand the scope of work.
+- Raising any `priority::1` or `priority::2` issues and ensuring they have a DRI and are being actively worked on.
+- Completing any issues that come up that can be completed during the week. Weight 5 issues can be considered depending on the priority.
+   - Anything weight 8 or larger (more than 1 week of work) should be made clear that it will need to be scheduled around other work.
+- Responding to alerts in [`#g_infra_foundations_alerts`](https://gitlab.enterprise.slack.com/archives/C04Q7RQC7FF).
+- Working on Renovate MRs posted in [`#g_infra_foundations_notifications`](https://gitlab.enterprise.slack.com/archives/C04RZC5TPPD).
+   - Patch updates with passing pipelines should be merged.
+   - Minor updates should have their changelogs be reviewed before merging.
+   - Major updates should be looked at closely to understand breaking changes before considering merging.
+- Responding to Terraform drifts related to Foundations services posted in [`#infra-terraform-alerts`](https://gitlab.enterprise.slack.com/archives/C06PZQCRUJH).
+- Respond to any Access Requests that need Foundations provisioning.
+
 ### Project Management
 
 The Foundations team top level Epic can be found [here](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/1175)
@@ -205,7 +209,7 @@ In addition to the format described in the [platforms project management page](/
 
 \`\`\`
 /epic [current epic]
-/labels ~"devops::Platforms" ~"team::Foundations" ~"workflow-infra::Triage" ~"Reliability::P2" 
+/labels ~"group::Production Engineering" ~"Sub-Department::SaaS Platforms" ~"team::Foundations" ~"workflow-infra::Triage" ~"Reliability::P2" 
 \`\`\`
 
 ## References
@@ -239,17 +243,17 @@ Open planned work for our team is located in the [Production Engineering](https:
 - Include the following Labels (update the priority as needed):
 
    ```
-   /labels ~"devops::Platforms" ~"group::Production Engineering ~"team::Foundations" ~"workflow-infra::Triage" ~"Reliability::P4"
+   /labels ~"group::Production Engineering" ~"Sub-Department::SaaS Platforms" ~"team::Foundations" ~"workflow-infra::Triage" ~"Reliability::P4"
    ```
 
 - If there is a service label that is applicable, also apply that.
 
 ##### Issue weighting
 
-We use t-shirt sizing for weights:
+We dogfood the [weight feature](https://docs.gitlab.com/ee/user/project/issues/issue_weight.html) in issues. We use a modified Fibonacci sequence (the numbers match roughly with the number of days) and align our weights to t-shirt sizes to make them easy to talk about:
 
-- ~"T-shirt size::XS" or weight 1 - A few hours of work. Consider if the work should just be completed now depending on competing priorities.
-- ~"T-shirt size::S" or weight 2 - A day or two of work.
-- ~"T-shirt size::M" or weight 3 - Up to a week of work.
-- ~"T-shirt size::L" or weight 4 - Over a week of work. This issue should likely be broken down into smaller pieces.
-- ~"T-shirt size::XL" or weight 5 - Several weeks or more of work. This issue will need to be broken down into smaller pieces or promoted to an epic.
+- Fib 1 (XS) - A few hours of work. Consider if the work should just be completed now depending on competing priorities.
+- Fib 2 (S) - A day or two of work.
+- Fib 5 (M) - Up to a week of work.
+- Fib 8 (L) - Over a week of work. This issue should likely be broken down into smaller pieces.
+- Fib 13 (XL) - Several weeks or more of work. This issue will need to be broken down into smaller pieces or promoted to an epic.

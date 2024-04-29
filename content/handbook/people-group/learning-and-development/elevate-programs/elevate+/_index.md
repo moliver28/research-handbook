@@ -10,6 +10,8 @@ Through small group cohorts and interactive workshops, Elevate+ is designed to e
 
 Elevate+ will create a shared leadership development experience across the organization so that every leader has a solid capability to lead in alignment with our GitLab values. This program will focus on the leadership behaviors required to build high performing teams that deliver results for customers.
 
+<div style="padding:75% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/936433544?h=4499172070&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="gitlab___elevate+___final (1080p)"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+
 In Elevate+, participants will:
 
 1. Understand and practice behaviors and frameworks anchored in GitLab’s values and leadership competencies
@@ -34,12 +36,12 @@ Are you an active participant in Elevate+? Click here to navigate to the Particp
 
 Elevate+ is organized into 5 learning modules. Read more about the skills covered in each module below:
 
-![visual displaying the content in each elevate+ module](/content/handbook/people-group/learning-and-development/elevate-programs/elevateplus.png)
+![visual displaying the content in each elevate+ module](/handbook/people-group/learning-and-development/elevate-programs/images/elevateplus.png)
 
 
 ## Time Committment
 
-![visual displaying the elevate+ round 1 timeline](/content/handbook/people-group/learning-and-development/elevate-programs/elevateplustimeline.png)
+![visual displaying the elevate+ round 1 timeline](/handbook/people-group/learning-and-development/elevate-programs/images/elevateplustimeline.png)
 
 Elevate+ runs for a total of 6 months and is organized into 5 learning modules. In each module, participants spend approx. 4 hours in the following learning activities:
 
@@ -83,16 +85,20 @@ There is no async makeup option for Cohort Workshops.
 
 ## Measuring Success
 
-How we’ll measure program impact:
+We're using the Elevate+ 360, delivered via Culture Amp, to both measure success of the program and give participants persnalized feedback on their leadership styles.
 
-**Self-Assessment:** Participants will complete a self-assessment, reflecting upon your current abilities and confidence as a leader of leaders. After the program, participants will re-take the assessment so you can see how they’ve grown.
+**Self-Assessment:** Participants will complete a self-assessment, reflecting upon their current abilities and confidence as a leader of leaders. After the program, participants will re-take the assessment to demonstrate growth.
 
 **Stakeholder Assessment:** Identified stakeholders will receive an (anonymous!) survey to gather feedback both for participants to identify areas they want to focus on during the next 6 months as well as overall program feedback. Stakeholders will be surveyed again 6 months after the program to measure collective leadership growth of the Elevate+ participants. This is a fantastic opportunity to collect and take action on feedback from those you work closely with.
 
-Who sees assessment results?
+Particiapnts will nominated 2-3 stakeholders for the assessment. Their manager and direct reports will also be sent the assessment.
+
+Who sees the assessment results?
 
 1. The Elevate program team will look at cumulative results, vs individual results.
 1. Stakeholder results will be shared with you directly for use in the program.
+
+Results from the self and stakeholder assessments will be used throughout the program, during workshop sessions and intersession work, to inform and personalize the material for each participant.
 
 ## Frequently Asked Questions
 
@@ -128,11 +134,28 @@ Yes! Upon successful completion of the program, including attendance to all requ
 
 ### How often will this program run?
 
-Our goal is to enroll all elidigible managers into Elevate+ during FY25.
+Our goal is to enroll all eligible managers into Elevate+ during FY25.
 
 ### Is there opportunity to participate in the program if I am an aspiring manager?
 
 Due to our priority to certify people leaders, participation by aspiring managers is not currently an option. We’ve put together a Level Up course available to all GitLab Team Members, to share the self-paced training content for each Elevate (please note, there is not yet an async option for Elevate+). You can check it out here: [Elevate Learning Materials](https://levelup.gitlab.com/access/saml/login/internal-team-members?returnTo=https://levelup.gitlab.com/learn/learning-path/elevate-learning-materials)
+
+### I was asked to fill out the Stakeholder Assessment - what does this mean?
+
+The Elevate+ [stakeholder assessment](https://handbook.gitlab.com/handbook/people-group/learning-and-development/elevate-programs/elevate+/#measuring-success) is delivered via Culture Amp and helps Elevate+ participants integrate real time feedback into their leadership growth.
+
+Being nominated to take this assessment means that an Elevate+ participant greatly values your feedback and is interested to learn your perspective about their leadership style. Participants will view their self assessment results alongside feedback from stakehodlers, then use this data to guide goals they set during Elevate+.
+
+The stakeholder assessment is sent to participants direct reports, manager, and co-workers they have nominated. If you recieve a stakeholder assessment, we ask that you please take ~15 minutes to complete.
+
+Important things to note:
+
+1. Participants will not see names associated with feedback shared in Culture Amp. Feedback will be categorized based on who shares it: `Manager`, `Direct Reports`, and `Co-Workers`.
+1. You might be nominated by mulitiple Elevate+ participants to take the assessment. Please consider taking it for each person that's nominated you. You'll recieve a separate Culture Amp message and assessment link for each assessment.
+1. Participants of current Elevate+ rounds might have also been nominated to take the assessment for their colleagues. This is expected - thanks for taking time to assess your fellow Elevate+ members!
+1. The People Analytics team will have access the the entire survey data set, including names, and will use this to pull aggregate themes from across all Elevate+ participants.
+1. If you're nominated to give feedback to someone that you feel you can't give adequate feedback to, based on your level of collaboration with them, please simply ignore the message from Culture Amp and any reminders.
+
 
 
 

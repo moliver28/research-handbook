@@ -60,7 +60,7 @@ In order to make the most of the internship, it's expected for the intern to do 
    1. [Professional Services offerings](https://about.gitlab.com/services/)
 1. Learn about Git & GitLab
    1. [GitLab 101 course](/handbook/people-group/learning-and-development/gitlab-101/)
-   . [GitLab 201 course](/handbook/people-group/learning-and-development/gitlab-201/)
+   1. [GitLab 201 course](/handbook/people-group/learning-and-development/gitlab-201/)
    1. [What is Version Control](https://docs.google.com/presentation/d/16sX7hUrCZyOFbpvnrAFrg6tVO5_yT98IgdAqOmXwBho/edit#slide=id.g72f2e4906_2_29)
    1. [Git-ing started with Git](https://www.youtube.com/watch?v=Ce5nz5n41z4)
    1. [Start using Git on the command line](https://docs.gitlab.com/ee/gitlab-basics/start-using-git.html)

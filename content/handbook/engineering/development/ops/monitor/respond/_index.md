@@ -22,7 +22,7 @@ You can follow along with the team's accomplishments by reading the [latest week
 
 ## Stable counterparts
 
-{{< stable-counterparts role="Monitor|Observability" >}}
+{{< stable-counterparts role="" >}}
 
 ## Communication
 

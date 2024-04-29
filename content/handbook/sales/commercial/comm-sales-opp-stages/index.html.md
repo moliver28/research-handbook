@@ -120,7 +120,7 @@ It is important to note that Sales Development opportunities could come from inb
 - Provide [proof points](/handbook/sales/command-of-the-message/proof-points/), [case studies](https://gitlab.com/gitlab-com/marketing/strategic-marketing/customer-reference-content/case-study-content/-/boards/1804878?scope=all&utf8=%E2%9C%93), and [competitive info](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/competitive-intelligence/#competitive-intelligence-at-gitlab) (defensible differentiators)
 - Create a [GitLab maturity/adoption](/handbook/product/product-principles/#multi-feature-usage-adoption-journey) roadmap with customer
 - [Multi-thread](/handbook/sales/playbook/discovery/#lack-of-multi-threading) across the customer org
-- Create an SA engagement request using the **SA Request button** on the Salesforce Opportunity. Read more about engaging SAs in the [Commercial SA Engagement Model Handbook Page](/handbook/customer-success/solutions-architects/processes/commercial/).
+- Create an SA engagement request using the **SA Request button** on the Salesforce Opportunity. Read more about engaging SAs in the [Commercial SA Engagement Model Handbook Page](/handbook/solutions-architects/processes/commercial/).
 - [Custom deck](/handbook/sales/commercial/#opportunity-specific-slide-deck) is shared with GitLab internal team members to ensure the SA that picks up the opportunity has immediate access to the custom deck
 - Meeting set with SA to create a shared agenda/strategy/outcome for the technical evaluation
 - SA/Account team create pre-engagement discovery/demo questions  based off of reviewed information

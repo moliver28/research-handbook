@@ -175,6 +175,8 @@ The Data Team primarily uses these groups and projects on GitLab:
 - [GitLab Data](https://gitlab.com/gitlab-data) is the main group for the GitLab Data Team.
 - [GitLab Data Team](https://gitlab.com/gitlab-data/analytics) is the primary project for the GitLab Data Team.
 
+Though many of our GitLab projects are [internal only](/handbook/communication/confidentiality-levels/#internal), the rest are still [public by default](https://handbook.gitlab.com/handbook/values/#public-by-default).
+
 You can tag the Data Team in GitLab using:
 
 - @gitlab-data  - this notifies the entire Data Team

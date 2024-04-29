@@ -151,15 +151,17 @@ No, not at this time.
 
 | Week of | Shadow(s) | Role |
 | ------ | ------ | ----- |
-| Mar 4 | Available | |
-| Mar 11 | Available though not a preferred week for shadows | |
-| Mar 18 | Available | |
 | Mar 25 | Available | |
-| Apr 1 | Available though not a preferred week for shadows | |
-| Apr 8 | Available |
+| Apr 1 | Available | |
+| Apr 8 | Available for GitLab team members shadows in EMEA |
 | Apr 15 | Available |
 | Apr 22 | Available |
 | Apr 29 | Available |
+| May 6 | Available |
+| May 13 | Available |
+| May 20 | Available |
+| May 27 | Available |
+
 
 ## Shadow Alumni
 

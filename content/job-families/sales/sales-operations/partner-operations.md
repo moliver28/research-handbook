@@ -134,34 +134,37 @@ Be the point of escalation for sales and partner leadership on partner related i
 - Interest in GitLab, and open source software
 - Shares GitLab’s [values](/handbook.gitlab.com/handbook/values/) and works in accordance with those values
 
-### Partner Experience Manager
+### Partner Operations Manager
 
-The Partner Experience Manager reports to the Director, Partner Operations
+The Partner Operations Manager reports to the Director, Partner Operations
 
-#### Partner Experience Manager Job Grade
+#### Partner Operations Manager Job Grade
 
-The Partner Experience Manager is a [grade 8](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+The Partner Operations Manager is a [grade 8](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
-#### Partner Experience Manager Responsibilities
+#### Partner Operations Manager Responsibilities
 
-- Own and drive long-term strategic projects across the global partner business
-- Contribute to cross-functional company projects as the voice of the partner and partner teams
-- Help to build and maintain roadmap for partner operations initiatives
-- Work with enablement team on training and enablement plans for project rollouts
-- Collaborate with Partner Leaders, Partner Programs, Partner Marketing and Revenue Operations on requests and help to build out requirements
-- Help assess level of effort on projects and assist in determining priorities and resource coverage
-- Assist with partner portal updates and initiatives while working closely with the partner operations team
+- Own and drive long-term and high impact strategic projects across the global partner business including project identification and scoping, stakeholder alignment and management, build, rollout, and execution
+- Contribute to cross-functional company projects as the voice of our partners and partner teams
+- Assess existing partner processes, identify opportunities to redesign for efficiency and scalability, and successfully drive projects to deliver these improvements
+- Engage with Product, Marketing, Finance, and Enablement teams on GitLab revenue plays and special projects to ensure partner requirements are included in initial scoping and design to drive successful partner outcomes
+- Help build and operationalize our automated partner order processes as a key team member on our partner marketplace initiatives (Hyperscaler, Distributor, and Reseller marketplaces)
+- Drive partner portal enhancements and initiatives in collaboration with the Partner Programs and Specialist teams
+- Assist in designing, maintaining, and delivering on the roadmap for partner operations initiatives
+- Build and deliver ad hoc reporting to support projects and company OKRs
 
-#### Partner Experience Manager Requirements
+#### Partner Operations Manager Requirements
 
-- Demonstrated progressive relevant experience and understanding of partner operations and partner programs
-- Strong communication and documentation skills
-- Experience in project planning and execution
-- Experience working directly with sales/partner sales teams and partners
+- Demonstrated progressive experience and understanding of partner operations and programs
 - Excellent problem solving, project management, interpersonal, and organizational skills
-- Strong analytical ability and ability to prioritize multiple projects
+- Proven ability to work cross-functionally to lead and contribute to projects
+- Experience working directly with sales/partner sales teams and partners
+- Strong analytical ability and able to prioritize multiple projects
+- Proven ability to thrive as a self-starter in a fluid, fast-paced environment
+- Excellent written/verbal communication
 - Deep SFDC and partner management system (e.g., Partner Portal) expertise and knowledge of QTC process, tools, and automation
 - Alliance and Channel Partner experience preferred
+- Hyperscaler and Channel Marketplace experience preferred
 - Interest in using GitLab
 - Shares GitLab’s [values](/handbook.gitlab.com/handbook/values/) and works in accordance with those values
 
@@ -179,7 +182,6 @@ The Senior Manager, Global Partner Specialists is a [grade 9](/handbook/total-re
 - Develop, document, launch, and enable teams on new processes that support our long-term partner sales and services strategy in FY25 and beyond
 - Drive operationalization of short-term partner GTM initiatives and pilots from idea to execution including building, launching, iterating, and expanding upon success globally with efficient and scalable processes
 - Measure the ROI of new partner GTM initiatives and leverage it to effectively communicate positive business outcomes and drive further investment
-- Engage with Product, Marketing, Finance, and Enablement teams on GitLab revenue plays and special projects to ensure partner requirements are included in the initial scoping and design to drive successful partner outcomes
 
 #### Senior Manager, Global Partner Specialists Requirements
 

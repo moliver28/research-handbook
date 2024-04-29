@@ -232,6 +232,17 @@ See the [Support Engineering Guide to Escalations](/handbook/support/internal-su
 
 Engineering support will usually come via Support Engineering, however it's worth noting that under some conditions [Engineering / Product may prioritize bug fixes and feature requests](/handbook/engineering/#critical-customer-escalations) related to an escalation.
 
+## Product's role in Escalations
+
+At times Product may be needed to support an escalation. This could be due to uncovering a flaw or issue or surfacing feedback to help influence prioritization or workarounds to address the escalations. In most cases CSM and Support will work directly with a PM responsible for the area. 
+
+Occasionally, customers will require a product leader to act as a stable counterpart to support an escalation. This will ensure customers don't need to understand how we're organized, or need to get bounced around between PMs during an escalation. To achieve this we will follow this process:
+
+1. CSMs will evaluate each account that reaches a high or critical escalated state, and determine if a Product member is needed. 
+1. From there, if the escalation reaches a High state a Group Product Manager or Product Director will be assigned. If it reaches a critical state a PLT member will be assigned.
+1. During the escalation the GMP+ Product leader will stick with the customer and escalation and operate as a stable counterpart. They will bring in additional PMs as needed to help address the concerns, but will remain engaged in Slack, and on calls with the customer to be a consistent face and representative of the Product division. 
+1. Individual PMs may roll in and out of the escalation but the assigned GMP+ product counterpart will remain attached until the escalation is resolved.  
+
 ## Related Links
 
 - [Support Engineering Page](/handbook/support/) and [Support Engineering Escalation Procedures](/handbook/support/workflows/working-with-issues.html)

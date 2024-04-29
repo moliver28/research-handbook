@@ -50,11 +50,11 @@ These KPIs are determined by a combination of their stand alone importance to th
 1. [Net Retention](/handbook/customer-success/vision/#retention-and-reasons-for-churn) (lagging)
 1. [Gross Retention](/handbook/customer-success/vision/#retention-and-reasons-for-churn) (lagging)
 1. [12 Month Team Member Voluntary Retention](/handbook/people-group/people-success-performance-indicators/#team-member-voluntary-retention-rolling-12-months) (lagging)
-1. [Unique Wider Community Contributors per Month](/handbook/engineering/quality/performance-indicators/#unique-wider-community-contributors-per-month) (lagging)
+1. [Unique Wider Community Contributors per Month](/handbook/marketing/developer-relations/performance-indicators/#unique-wider-community-contributors-per-month) (lagging)
 
-## CoST to the CEO KPIs
+## Office of the CEO KPIs
 
-{{< kpi "Chief of Staff Team" >}}
+{{< kpi "Office of the CEO" >}}
 
 ## Sales KPIs
 
@@ -101,10 +101,6 @@ GitLab team members can access and update all Product performance indicators wit
 ### Infrastructure Department KPIs
 
 {{< kpi "Infrastructure Department" >}}
-
-### Quality Department KPIs
-
-{{< kpi "Quality Department" >}}
 
 ### UX Department KPIs
 

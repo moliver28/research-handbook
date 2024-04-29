@@ -32,8 +32,6 @@ We are allowed to issue trial licenses because they:
 **Note:** Unlike [SaaS](/handbook/support/license-and-renewals/workflows/saas/trials_and_plan_change#extending-trials), a Self-managed extension does **not** require a pre-existing Trial license. Instead, start with the current almost-expired license, or most-recent expired license.
 
 
-**Note:** The [Temporary renewal extensions functionality](/handbook/product/fulfillment-guide/#temporary-renewal-extensions), intended to be used by the Sales Team, is currently in **BETA status**, and only a few individuals have access to try it.  Please do not use the `Deviation from SM License Extension Workflow` macro at this time, and instead skip immediately ahead to step 3.  The functionality is tentatively scheduled for general availability in the first half of January 2024
-
 1. Open the expired or soon to expire license.
 1. Confirm that:
     1. The license is a non-trial license and:
@@ -75,14 +73,10 @@ If you're on call and you need a license generated, but don't have access to the
 
 ### SFDC generated trial license extensions
 
-**Note:** The [Temporary renewal extensions functionality](/handbook/product/fulfillment-guide/#temporary-renewal-extensions), intended to be used by the Sales Team, is currently in **BETA status**, and only a few individuals have access to try it.  Please do not use the `Deviation from SM License Extension Workflow` macro at this time, and instead skip immediately ahead to step 3.  The functionality is tentatively scheduled for general availability in the first half of January 2024
-
-Account Executives (AEs) can use SalesForce.com (SFDC) to issue a self-managed 21-day license extension to a customer when the renewal opportunity is taking longer than expected to close. When an AE uses this functionality, the license code is automatically generated and sent to the customer without any L&R Support involvement. The [Temporary renewal extensions](/handbook/product/fulfillment-guide/#temporary-renewal-extensions) handbook entry documents this approach. Note that there are guardrails in place to prevent abuse of this ability, and that as a result only one license extension can be generated per renewal event. Therefore on occasions L&R Support will still be required to generate further license extensions.
+Account Executives (AEs) can now use SalesForce.com (SFDC) to issue a self-managed 21-day license extension to a customer when the renewal opportunity is taking longer than expected to close. When an AE uses this functionality, the license code is automatically generated and sent to the customer without any L&R Support involvement. The [Temporary renewal extensions](/handbook/product/fulfillment-guide/#temporary-renewal-extensions) handbook entry documents this approach. Note that there are guardrails in place to prevent abuse of this ability, and that as a result only one license extension can be generated per renewal event. Therefore on occasions L&R Support will still be required to generate further license extensions.
 
 
 #### Sales AE requests for a manual temporary extension
-
-**Note:** The [Temporary renewal extensions functionality](/handbook/product/fulfillment-guide/#temporary-renewal-extensions), intended to be used by the Sales Team, is currently in **BETA status**, and only a few individuals have access to try it.  Please do not use the `Deviation from SM License Extension Workflow` macro at this time, and instead skip immediately ahead to step 3.  The functionality is tentatively scheduled for general availability in the first half of January 2024
 
 An AE is expected to use the [SFDC process](#sfdc-generated-trial-license-extensions) first when a customer requires a self-managed license extension.  However, if an extension has elapsed then an AE can use the [Internal Request Form](https://support-super-form-gitlab-com-support-support-op-651f22e90ce6d7.gitlab.io/) to request a license extension directly from L&R support. Use the **GitLab Support Internal Requests for Global customers** request option, and **Extend an (almost) expired subscription** for the internal request type. There are some caveats to this process which are listed below:
 

@@ -55,7 +55,7 @@ A slack application used to request, track, approve and analyze time off.
 
 ### Workday
 
-[Workday](/handbook/people-group/workday/tech-stack-guide-workday/) is GitLab's current central HRIS.
+[Workday](/handbook/people-group/tech-stack-guide-workday/) is GitLab's current central HRIS.
 
 ### CultureAmp
 
