@@ -106,7 +106,7 @@ pages-review:
     name: review/$CI_COMMIT_REF_SLUG
     # There is no predefined CI variable that is formatted quite right
     # neither $CI_PAGES_URL nor $CI_JOB_URL have /-/ directly after the hostname
-    # TODO @dnsmichi improve and make review apps work https://gitlab.com/groups/gitlab-com/content-sites/-/epics/11 
+    # TODO @dnsmichi improve and make review apps work https://gitlab.com/groups/gitlab-com/content-sites/-/epics/11
     url: https://gitlab-com.gitlab.io/-/content-sites/handbook/-/jobs/$CI_JOB_ID/artifacts/public/
     on_stop: stop-pages-review
   variables:
@@ -167,6 +167,16 @@ deploy s3:
 ## TEST STAGE
 ##
 ####################################
+
+modules:tidy:
+  extends: [ .hugo ]
+  stage: test
+  rules:
+    - if: $CI_MERGE_REQUEST_IID
+  script:
+    - hugo mod tidy
+    - echo "If this job failed, please commit changes to the go.mod and go.sum files"
+    - git diff --exit-code go.mod go.sum
 
 markdownlint:
   image:
