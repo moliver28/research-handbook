@@ -204,4 +204,6 @@ Note that IP addresses may be blocked if they are identified as being from a [cu
 
 ## Applying for an exception (Deprecated)
 
+If a customer has concerns about being rate limited, work with them as much as possible to lower their traffic from a single IP address.
+
 Foundations team is no longer accepting new IP allowlist requests. Please add requests to [this issue](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/6033).
