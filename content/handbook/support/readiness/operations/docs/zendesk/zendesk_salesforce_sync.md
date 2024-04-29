@@ -104,10 +104,10 @@ for them based off the information of the subscriptions (gathered earlier).
 Once that is done, the scripts then remove all "greatly expired" organizations
 from Zendesk Global in accordance with our data retention policy.
 
-## Zendesk US Federal organizations sync
+## Zendesk US Government organizations sync
 
 **Note** This set of scripts also handles the
-[Zendesk US Federal users sync](#zendesk-us-federal-users-sync). We have
+[Zendesk US Government users sync](#zendesk-us-government-users-sync). We have
 separated it into its own section for ease of readability.
 
 This first gathers the data from Salesforce. This is done via the following SOQL
@@ -154,22 +154,20 @@ WHERE
 This data is then processed by the script to verify the account's subscriptions
 (both Customer and Zuora).
 
-From here, it then gathers all the organization data from Zendesk US Federal.
-This does very little actual processing of the data, short of ignoring tags that
-aren't related to the sync itself.
+From here, it then gathers all the organization data from Zendesk US Government.
 
 The scripts then compares the data from Salesforce and the data from Zendesk
-US Federal. From this comparison, it locates Zendesk US Federal organizations
-that need to be updated and ones that need to be created.
+US Government. From this comparison, it locates Zendesk US Government
+organizations that need to be updated and ones that need to be created.
 
-The scripts will then begin syncing this information to Zendesk US Federal,
+The scripts will then begin syncing this information to Zendesk US Government,
 updating organizations that need updating and creating the ones that need
 creation.
 
-## Zendesk US Federal users sync
+## Zendesk US Government users sync
 
 **Note** This set of scripts also handles the
-[Zendesk US Federal organizations sync](#zendesk-us-federal-organizations-sync).
+[Zendesk US Government organizations sync](#zendesk-us-government-organizations-sync).
 We have separated it into its own section for ease of readability.
 
 This first gathers the data from Salesforce. This is done via the following SOQL
@@ -209,18 +207,16 @@ WHERE
 This data is then processed to remove any contacts with duplicate emails or
 missing data.
 
-From here, it then gathers all the user data from Zendesk US Federal. This does
-very little actual processing of the data, short of ignoring tags that aren't
-related to the sync itself.
+From here, it then gathers all the user data from Zendesk US Government.
 
 The scripts then compare the data from Salesforce and the data from Zendesk US
-Federal. From this comparison, it locates Zendesk US Federal users that need to
-be updated and ones that need to be created. It will use the organization data
-from the
-[Zendesk US Federal organizations sync](#zendesk-us-federal-organizations-sync)
+Government. From this comparison, it locates Zendesk US Government users that
+need to be updated and ones that need to be created. It will use the
+organization data from the
+[Zendesk US Government organizations sync](#zendesk-us-government-organizations-sync)
 to determine the organization ID.
 
-The scripts will then begin syncing this information to Zendesk US Federal,
+The scripts will then begin syncing this information to Zendesk US Government,
 updating users that need updating and creating the ones that need creation.
 
 ## Zendesk Salesforce cases sync
