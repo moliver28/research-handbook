@@ -35,11 +35,7 @@ A Customer Success Plan is a customer-facing and mutually agreed roadmap for ach
 
 Note: While the Customer Success organization also has a [Customer Success Plan](/handbook/customer-success/csm/success-plans/), with the [following template](https://docs.google.com/presentation/d/1T-Y2WJ-mRqGey7b1YQMTKE3tVbBTnyY3a9HzaOpxPQ4/edit#slide=id.g27c03c31d08_1_500) for post-sales, with the intent of it being used as a customer facing document, so that updates can be made on post-sales initiatives and milestones, the Solutions Architect's [Customer Success Plan process](/handbook/solutions-architects/sa-practices/customer-success-plan/), intends to provide all the necessary context, and to capture the Customer's Voice, requirements and outcomes, in collaboration with the Customer during pre-sales, to ensure a smooth transition to Customer Success.  This is the previous [pre-sales standard template](https://docs.google.com/presentation/d/1npyhUebp68YkccLlJP5R_6gmtQjfELpB1mBGWfroVmY/edit#slide=id.g1f06a8a4d73_0_501).
 
-In order to ensure that the Customer Success Plan continues to be a living document, focused on the customer outcomes, as the customer adopts and gleans vaue from GitLab's DevSecops Platform, rather than a notion of pre and post sales, the [Mutual Customer Success Plan](https://docs.google.com/presentation/d/1VCzXDiwJAwLu9e_JKTWCFkKbbviUWbtRySyTs75Uldc/edit#slide=id.g2a9229693f5_0_5) was developed between the SA and CSM orgs.
-
-So whenever the term Mutual Customer Success Plan is used, it represents just one living document, capturing the entire content and outcome of a customer's journey with GitLab.  It is used interchangeably with Customer Success Plan.
-
-Therefore the Mutual Customer Success Plan is intended to be dynamic and should therefore be regularly reviewed on an agreed-upon cadence.
+In order to ensure that the Customer Success Plan continues to be a living document the [Mutual Customer Success Plan](https://docs.google.com/presentation/d/1VCzXDiwJAwLu9e_JKTWCFkKbbviUWbtRySyTs75Uldc/edit#slide=id.g2a9229693f5_0_5) was jointly developed by the SA and CSM orgs. The Mutual Customer Success Plan represents a living document, capturing the entire content and outcome of a customer's journey with GitLab. It is used interchangeably with Customer Success Plan. The Mutual Customer Success Plan is intended to be dynamic and should therefore be regularly reviewed on an agreed-upon cadence.
 
 Customer Success Planning core goal is to identify and state:
 - Business outcomes
