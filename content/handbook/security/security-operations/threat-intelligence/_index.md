@@ -7,7 +7,7 @@ Empowering GitLab with actionable insights to keep our organization and customer
 
 ## <i class="fas fa-rocket" id="biz-tech-icons"></i> Our Vision
 
-...
+Help GitLab make informed, intelligence-driven decisions that keep our company and customers secure, while setting a new standard for transparency and collaboration across the industry.
 
 ### Our Mission Statement
 
