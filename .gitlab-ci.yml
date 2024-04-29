@@ -186,7 +186,7 @@ modules:tidy:
   stage: test
   script:
     - hugo mod tidy
-    - echo "If this job failed, please run `git checkout go.mod go.sum`"
+    - echo "If this job failed, please commit changes to the go.mod and go.sum files"
     - git diff --exit-code go.mod go.sum
 
 markdownlint:
