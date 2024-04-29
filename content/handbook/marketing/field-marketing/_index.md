@@ -400,7 +400,6 @@ Please plan your timelines accordingly based on the below SLAs. Keep in mind the
 - **Contract Requests:** 3 business days
 - **Plan to WIP Requests** - 5 business days
 - **Copy to FMCs for Review** - 24 hours
-- **Triage Request to Triage Manager** - 24 hours
 - **Marketing Operations Requests** - [5 business days](/handbook/marketing/marketing-operations/campaign-operations/#slas) (not including the day the triage request is sent)
 
 ## Items required by FMM to request moving an issue from Plan to WIP
