@@ -84,7 +84,7 @@ The “Maximum Users” count in the instance refers to this running list of act
 Communicate to customer
 
 >>>
-- Navigate to the [CustomersDot](http://customers.gitlab.com/admin) and sign in or [reset the password](https://customers.gitlab.com/customers/password/new) if required
+- Navigate to the [CustomersDot](https://customers.gitlab.com) and sign in using your GitLab.com account or [request a one-time sign-in link](https://docs.gitlab.com/ee/subscriptions/customers_portal.html#sign-in-to-customers-portal)
 - Go to `Manage Purchases`
 - Locate the subscription you wish to add more users to and click the button `Add more seats`
 - Enter the additional amount of users you wish to have (i.e. you have 50 but want to have 60, so you have to enter 10)
