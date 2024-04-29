@@ -83,12 +83,17 @@ The Quarterly Kickoff is an [Office of the CEO](/handbook/ceo/office-of-the-ceo/
 1. Fourth week of the last month of the current quarter - ensure time is scheduled for the chosen date for the CEO to send the comms
 1. Second full week of the new quarter - ping the CEO to send the comms on the correct day. Attend the AMA which follows.
 
-#### Schedule for remaining FY24 and first FY25 Quarterly Kickoffs
+#### Schedule for remaining FY25 and FY26 Quarterly Kickoffs {#schedule}
 
-1. FY24-Q2: Review/Record 2023-05-08 and 2023-05-10. Share the video on 2023-05-15. AMA on 2023-05-17
-1. FY24-Q3: Review/Record 2023-08-07 and 2023-08-09. Share the video on 2023-08-14. AMA on 2023-08-16
-1. FY24-Q4: Review/Record 2023-11-06 and 2023-11-08. Share the video on 2023-11-13. AMA on 2023-11-15
-1. FY25-Q1: Review/Record 2024-02-05 and 2024-02-07. Share the video on 2024-02-12. AMA on 2024-02-14
+**Note:** This schedule is subject to change based on the CEO's availability
+
+1. FY25-Q2: Review/Record weeks of 2024-04-29 (non-OKR content) and 2025-05-06 (OKR content). Share the video on 2025-05-09. AMA week of 2025-05-13.
+1. FY25-Q3: Review/Record 2024-08-05 and 2024-08-07. Share the video on 2024-08-12. AMA on 2024-08-14.
+1. FY25-Q4: Review/Record 2024-11-04 and 2024-11-06. Share the video on 2024-11-11. AMA on 2024-11-13.
+1. FY26-Q1: Review/Record 2025-02-03 and 2025-02-05. Share the video on 2025-02-10. AMA on 2025-02-12.
+1. FY26-Q2: Review/Record 2025-05-03 and 2025-05-05. Share the video on 2025-05-12. AMA on 2025-05-14.
+1. FY26-Q3: Review/Record 2025-08-04 and 2025-08-06. Share the video on 2025-08-11. AMA on 2025-08-13.
+1. FY26-Q4: Review/Record 2025-11-03 and 2025-11-05. Share the video on 2025-11-10. AMA on 2025-11-12.
 
 ### How to prepare the Slides
 
