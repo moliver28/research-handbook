@@ -27,14 +27,6 @@ I live in Indianapolis, Indiana, USA with my wife and twin daughters, who take u
 - I am a [Cool Blue](https://blog.insights.com/en-us/blog/the-essential-guide-to-insights-discovery-colour-energies-and-how-to-use-them-at-work). The more detailed you can be in your communication, the more useful I will be to you. Expect me to take time to make sure I have considered all available information and then come back to you with a measured response.
 
 
-### Weaknesses
-
-
-- As a Concrete Sequential, Abstract Random situations are not my favorite. Expect me to struggle with situations that involve more than one right answer. “Use your imagination” is the worst direction imaginable to me. I will not thrive in open-ended scenarios that lack guidelines or guardrails. 
-- As a Cool Blue, I tend to be overly-detailed in my communication. While I personally consider this a strength, it’s not for everybody and can cause things to get bogged down. Call me out on this and tell me to get to the point and keep things high level if the situation calls for it.
-- I’m a perfectionist, which means I like to do a complete job and get things right on the first try. This makes it hard for me to iterate and focus on the smallest viable change. Breaking projects down into smaller segments will make me much more efficient.
-
-
 ### Assessments
 
 My CliftonStrengths results suggest that I lead with **Executing** themes, which help me make things happen. 
