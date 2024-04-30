@@ -144,7 +144,7 @@ The following is a recommendation on how to advance an oppotunity, meeting by me
          - Start a **"8. Technical Evaluation Plan & Activities"** on what will be done to achieve a Technical Win and Decision.
      - *Next Steps:*
        - Present Current and Desired Workflow Diagrams
-      - Optional (Propose Workshop or Demo).
+       - Optional (Propose Workshop or Demo).
 
    - **Meeting 3 -Scope** - Qualify the Value [Why GitLab?]
      - *Meeting Prep*
@@ -165,7 +165,7 @@ The following is a recommendation on how to advance an oppotunity, meeting by me
      - *During the Technical Evaluation*
        - Conduct your [Technical Evaluation Plan and Activities](https://docs.google.com/presentation/d/1GnUqWluULPz_rJmwK2mno3KbzYcu1kM11tXTAZXivkg/edit#slide=id.g12b319f6181_0_0) as was decided between GitLab and the customer, e.g. Workshop, POV, Demo, Reverse Demo, Day in the Life
        - Work towards the Technica  win (may require more than 1 meeting)
-     - _During and After the Technical Win_
+     - *During and After the Technical Win*
        - Update **"7.Activities Planned/ Completed"** in the Technical Close Plan
        - After the Technical Win, create a **"9. Value Outcome Map/ Metrics"**.
        - The Outcome Map traces the Customer's Outcomes to be achieved, with their Strategic Initiatives, mapped to GitLab's capability and what value will it bring.  This would be used in the proposal.
@@ -193,7 +193,7 @@ The following is a recommendation on how to advance an oppotunity, meeting by me
      - **"9. Value Outcome Map/ Metrics"**
    - After Proposal Presentation, continue to update and complete the [Mutual Customer Success plan](vhttps://docs.google.com/presentation/d/1VCzXDiwJAwLu9e_JKTWCFkKbbviUWbtRySyTs75Uldc/edit#slide=id.g2a9229693f5_0_5)
    - **VERY IMPORTANT: Update the Customer Success Plan URL in the opportunity in Sales Force.**
-   - _Next Steps:_
+   - *Next Steps:*
      - While Negotiation occurs, As the SA, set up meetings with the customer and with the CSM to add the following to the Mutual Customer Success Plan:
        - **"11. Users/ What was bought/ recommended"**
        - **"12. Phased Success Plan and Adoption Journey"**
