@@ -28,10 +28,11 @@ This role is outlined [here](https://handbook.gitlab.com/handbook/engineering/ic
 
 | Start Date | End Date | Estimated End Date | Epic(s) / Issue(s)     | Tech Lead  |
 |------------|----------|--------------------|-------------------------|------------|
-| YYYY-MM-DD | YYYY-MM-DD | YYYY-MM-DD       | Epic/Issue Name 1      | Tech Lead 1 |
-| YYYY-MM-DD | YYYY-MM-DD | YYYY-MM-DD       | Epic/Issue Name 2      | Tech Lead 2 |
-| YYYY-MM-DD | YYYY-MM-DD | YYYY-MM-DD       | Epic/Issue Name 3      | Tech Lead 3 |
-| YYYY-MM-DD | YYYY-MM-DD | YYYY-MM-DD       | Epic/Issue Name 4      | Tech Lead 4 |
+| 2024-05-01 | TBD      | TBD                | [Web IDE Category](https://gitlab.com/groups/gitlab-org/-/epics/170)| [Paul Slaughter](https://gitlab.com/pslaughter) |
+| 2024-05-01 | TBD      | TBD                | [Workspaces Category](https://gitlab.com/groups/gitlab-org/-/epics/170)| [Chad Woolley](https://gitlab.com/cwoolley-gitlab) |
+| 2024-04-29 | TBD      | TBD                | [Cells 1.0](https://gitlab.com/gitlab-org/gitlab/-/issues/434976)| [Vishal Tak](https://gitlab.com/vtak) |
+| 2024-02-21 | TBD      | TBD                | [VS Code Upgrade process](https://gitlab.com/groups/gitlab-org/-/epics/12951)| [Enrique Alcántara](https://gitlab.com/ealcantara) |
+| 2024-01-13 | TBD      | TBD                | [Workspaces Agent Authorization](https://gitlab.com/groups/gitlab-org/-/epics/12193) | [Hunar Khanna](https://gitlab.com/hkhanna2) |
 
  
 ### Editor Extension Tech Leads
