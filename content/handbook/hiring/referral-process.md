@@ -17,7 +17,12 @@ For process instructions regarding referrals, please visit the [Referral Operati
 
 **Referral** - someone you have worked with in the past, or have developed a close personal relationship. This person should align with our values and the requirements of the role, someone you would choose to work with again if the opportunity arises.
 
-**Endorsement** - Endorsements are not referrals, they are treated as a recommendation or you advocating for someone. Examples include someone you know applies and they then ask you to refer them. This is not a referral as you didn't proactively encourage them to apply. Another example could be you've heard good things about someone, but haven't directly worked with them
+**Endorsement** - Endorsements are not referrals, they are treated as a recommendation or you advocating for someone. Examples include someone you know applies and they then ask you to refer them. This is not a referral as you didn't proactively encourage them to apply. Another example could be you've heard good things about someone, but haven't directly worked with them. To endorse the candidate, you can contact their assigned recruiter (via Slack or email) after they've applied directly. You should include:
+- The candidate's full name.
+- The role.
+- Please provide a comprehensive description of how you know the candidate and why they are aligned with the role with GitLab.   
+   
+Ensure you inform the person that you are endorsing them and that they allow you to do so.
 
 **Sourcing** - Proactively sourcing candidates and adding them to Greenhouse. These candidates are not referrals as you cannot personally vouch for their work or alignment to our values.
 
