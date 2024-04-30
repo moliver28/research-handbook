@@ -1,9 +1,6 @@
 ---
 title: Threat Intelligence Team
-description: GitLab Security Threat Intelligence Team Overview
 ---
-
-Empowering GitLab with actionable insights to keep our organization and customers secure.
 
 ## <i class="fas fa-rocket" id="biz-tech-icons"></i> Our Vision
 
