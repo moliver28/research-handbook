@@ -149,10 +149,12 @@ If they want to pause, put the ticket on-hold. Otherwise:
       sessions - to make up for not taking new tickets of your own.
 1. Follow the [OOO Ticket Management](/handbook/support/workflows/ooo-ticket-management)
    process to arrange for others to take care of your tickets in your absence.
-1. Update your [GitLab status](https://docs.gitlab.com/ee/user/profile/index.html#set-your-current-status) to ensure you're not auto-assigned to GDPR requests:
+1. To ensure you're not auto-assigned to GDPR requests:
 
-   - The status text should contain one of the following strings: 'OOO', 'PTO', 'Parental Leave', or 'Family and Friends'
-   - And the emoji should be one of the following: `:palm_tree:`, `:beach:`, `:beach_umbrella:`, `:beach_with_umbrella:`, `:ferris_wheel:`, `:thermometer:`, `:face_with_thermometer:`, `:red_circle:`, `:bulb:`, `:sun_with_face:`.
+   - Update the corresponding `yaml` file for yourself here: https://gitlab.com/gitlab-com/support/team/-/tree/master/data/agents?ref_type=heads
+   - Change `works_account_deletion: true` to `works_account_deletion: false`
+   - Assign the MR to your manager.
+   - Make sure to undo this change when you return from OOO. 
 
 ## How Support Handles Family and Friends Days
 
