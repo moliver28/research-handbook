@@ -154,7 +154,7 @@ If they want to pause, put the ticket on-hold. Otherwise:
    - Update the corresponding `yaml` file for yourself here: https://gitlab.com/gitlab-com/support/team/-/tree/master/data/agents?ref_type=heads
    - Change `works_account_deletion: true` to `works_account_deletion: false`
    - Assign the MR to your manager.
-   - Make sure to undo this change when you return from OOO. 
+   - Make sure to undo this change when you return from OOO.
 
 ## How Support Handles Family and Friends Days
 
