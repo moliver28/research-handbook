@@ -53,7 +53,7 @@
 /handbook/legal/privacy/us-state-privacy-disclosure/ https://about.gitlab.com/privacy/us-state-privacy-rights-and-disclosures/
 
 # Solutions Architecture Handbook Moved - remove 2025-06-01
-/handbook/customer-success/solutions-architects/* /handbook/solutions-architects/*
+/handbook/customer-success/solutions-architects/* /handbook/solutions-architects/:splat
 /handbook/customer-success/solutions-architects/ /handbook/solutions-architects/
 
 # Handbook doesn't use .html style page locations so repoint these
