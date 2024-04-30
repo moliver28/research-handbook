@@ -9,7 +9,7 @@ Patch releases act in accordance of the [GitLab Maintenance Policy]:
 * Backport bug fixes to the current stable released version of GitLab.
 * Backport security fixes to the current, and previous two GitLab Versions.
 
-Patches that are outside of our [maintenance policy] must be requested and agreed upon by the release managers and the requester (see [backporting to versions outside the maintenance policy] for details).
+Patches that are outside of our maintenance policy must be requested and agreed upon by the release managers and the requester (see [backporting to versions outside the maintenance policy] for details).
 
 Patch releases are prepared in parallel with regular GitLab.com deployments so that continuous deployment is not blocked. In this way we can apply security fixes to GitLab.com instances before the public release.
 
