@@ -31,23 +31,54 @@ By executing on this mission, we will:
 
 ## <i class="fas fa-stream" id="biz-tech-icons"></i> Services We Provide
 
-### Threat Intelligence Flash Reports
+### Flash Reports
 
 Flash Reports are delivered on an ad-hoc basis, in response to a rapidly emerging threat. They focus on a single topic - generally a specific threat actor, campaign, or vulnerability.
 
 These reports help GitLab make quick decisions to protect our customers and our organization.
 
-### Scheduled Threat Briefings
+Flash Reports are always actionable and are leveraged for activities like:
 
-...
+- Rapid iterations to security controls and detection capabilities
+- Threat hunting
+- Security communications
+- Purple Team Flash Operations
 
-### Threat Actor and Campaign Tracking
+Flash Reports use [this template](https://gitlab.com/gitlab-com/gl-security/security-operations/threat-intelligence-public/resources/threat-intelligence-templates/-/blob/main/.gitlab/issue_templates/flash_report.md?ref_type=heads).
 
-...
+### Threat Briefings
 
-### Requests for Information
+Threat Briefings offer regular, high-level updates on the evolving threat landscape. They highlight the most relevant trends, actors, and campaigns that could affect GitLab in coming weeks or months.
 
-...
+These reports help team members stay informed, vigilant, and prepared.
+
+Threat Briefings will specify whether or not action is required and will always answer the following questions:
+
+- How is this relevant to GitLab?
+- How well is GitLab prepared to deal with this threat today?
+- What steps is GitLab taking to better handle this threat?
+
+Threat Briefings use [this template](https://gitlab.com/gitlab-com/gl-security/security-operations/threat-intelligence-public/resources/threat-intelligence-templates/-/blob/main/.gitlab/issue_templates/threat_briefing.md?ref_type=heads).
+
+### Threat Actor Tracking
+
+This is an ongoing effort, where we closely monitor the threat actors that pose the greatest risk to GitLab. By continuously monitoring their activities, tactics, and techniques, we develop a better understanding of their motivations and capabilities.
+
+This intelligence helps us anticipate their next move and proactively strengthen our defenses. It also helps us attribute early indicators to these groups, giving us a heads up they are actively targeting us.
+
+Threat Actor Tracking is done inside our Threat Intelligence Platform (TIP).
+
+### Requests For Information
+
+We're here to help you analyze threats and make intelligence-informed decisions. GitLab team members can [open an issue in our tracker using the RFI template](https://gitlab.com/gitlab-com/gl-security/security-operations/threat-intelligence/threat-intelligence-issue-tracker/-/issues/new).
+
+Some examples where an RFI can provide value:
+
+- Investigating active security incidents
+- Decisions on product security features and functionality
+- Third-party vendor and product evaluations
+
+Requests for Information use [this template](https://gitlab.com/gitlab-com/gl-security/security-operations/threat-intelligence-public/resources/threat-intelligence-templates/-/blob/main/.gitlab/issue_templates/rfi.md?ref_type=heads).
 
 ## <i class="fas fa-chart-simple" id="biz-tech-icons"></i> How We Measure Success
 
