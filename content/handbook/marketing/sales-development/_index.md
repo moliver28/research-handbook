@@ -34,7 +34,18 @@ Our Inbound-focused SDRs are known for their swift response times, ensuring glob
 
 Our Outbound-focused BDRs excel in strategic account planning, research, and delivering targeted and creative messaging. They work closely with Sales Account Executives (SAEs), Account Executives (AEs), and Sales Leadership. The BDR team also acts as a talent incubator for our broader Sales Teams.
 
-## How we typically help
+## The Sales Dev Index
+
+Please follow the table below to quickly find the most relevant place for what you're looking for. 
+
+| Page | What you'll find|
+| --------- | ---------- |
+| [How-Tos Page](https://handbook.gitlab.com/handbook/marketing/sales-development/how-tos/) | Quick information on finding your leads and accounts, actioning your inbound/outbound pipeline, creating SAOs, and any other main process that you'll work with on your day-to-day. | 
+| [RoE, FAQ and KPIs Page](https://handbook.gitlab.com/handbook/marketing/sales-development/roe-kpis-faq/) | Answers to the most common questions around career progression, rules of engagement, general expectations from the role, opportunity credit and compensation. |
+| [Tanuki Tech Page](https://handbook.gitlab.com/handbook/marketing/sales-development/tanuki-tech/) | Anything related to your ongoing enablement as part of the Sales Dev team. |
+| [The Sales Dev Vault](https://handbook.gitlab.com/handbook/marketing/sales-development/sales-development-vault/) | Information and knowledge that can help to improve your skills. Includes managerial-level processes, manager or team member onboarding, and tool walkthroughs. | 
+
+## How we typically help the teams we work with
 
 | What is your role and ask? | How will the Sales Dev Org help |
 | ------ | ----- |
@@ -105,7 +116,6 @@ Our Outbound-focused BDRs excel in strategic account planning, research, and del
 | [Global Sales Dev Results Dashboard](https://gitlab.my.salesforce.com/01ZPL000000cNmn) | A more granular dashboard that breaks down attainment further. | 
 | [Last Q's attainment Dashboard](https://gitlab.my.salesforce.com/01ZPL000000uZKr) | A bird's-eye view of last Quarter's attainment per region. | 
 | [6Sense 6QA Automation Dashboard](https://gitlab.my.salesforce.com/01ZPL000000kAPN) | This dashboard visualizes all the accounts that were automatically imported to SFDC via our 6Sense Automation. | 
-
 
 ## The pages we frequently use
 
