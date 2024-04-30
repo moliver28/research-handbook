@@ -8,7 +8,7 @@ This page describes the processes used to release packages to self-managed users
 
 **Monthly self-managed release**
 
-GitLab version (XX.YY.0) [is published every month][process-monthly-release]. From this monthly release, [patch][process-patch-release], [non-critical][process-security-release-non-critical], and [critical][process-security-release-critical] security releases are created as needed.
+GitLab version (XX.YY.0) [is published every month][process-monthly-release]. From this monthly release, [planned][process-planned-patch-release], and [unplanned critical][process-unplanned-critical-patch-release] patch releases are created as needed.
 
 Our [maintenance policy] describes in detail the cadence of our major, minor and patch releases for self-managed users. The major release yearly cadence was defined [after an all stakeholder discussion](https://gitlab.com/gitlab-com/Product/issues/50).
 
@@ -37,7 +37,7 @@ The end-to-end process consists on the following stages:
     the current commit running on GitLab.com. Pending GitLab.com availability, a different commit might be choosen, this means that the availability and
     stability of GitLab.com deployments will determine the cutoff date for inclusion in the release. This commit is announced in multiple Slack engineering channels, including
     [#releases], [#development], [#backend] and [#frontend].
-1. **Release candidate** - A test release candidate (RC) is created, along with a stable branch for the targeted [semver] version. The release candidate package is built,
+1 **Release candidate** - A test release candidate (RC) is created, along with a stable branch for the targeted [semver] version. The release candidate package is built,
     tested and deployed to the [pre environment]. A successful outcome indicates this package can be used as the final version. At this point [release managers] will
     announce the final commit to be included in the release.
 1. **Tag** - Release managers tag the final version of the release based on the release candidate. The release is built and deployed to the [Release environment].
@@ -109,9 +109,9 @@ Patch releases are scheduled twice a month on the second and fourth Wednesdays, 
 
 Patches fix regressions in the current self-managed release and vulnerabilities in the current and previous two GitLab versions.
 
-If you're a GitLab engineer looking to include a bug fix in a patch release, please follow the steps on the [patch release runbook for GitLab engineers].
-
-If you're a GitLab engineer looking to include a security fix in a patch release, please follow the steps on the [security runbook for GitLab engineers].
+If you're a GitLab engineer looking: 
+- To include a bug fix in a patch release, please follow the steps on the [patch release runbook for GitLab engineers].
+- To include a security fix in a patch release, please follow the steps on the [security runbook for GitLab engineers].
 
 Overview of the steps involved with creating a patch release:
 
@@ -311,3 +311,4 @@ If you need any additional help please ask the Release Managers in the [#release
 [release managers]: https://about.gitlab.com/community/release-managers/
 [Release environment]: https://about.gitlab.com/handbook/engineering/infrastructure/environments/#release
 [security runbook for GitLab engineers]: https://gitlab.com/gitlab-org/release/docs/-/blob/master/general/security/process.md#guides-by-role
+[patch release section]: /handbook/engineering/releases/patch_releases

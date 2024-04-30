@@ -15,7 +15,7 @@ Patch releases are prepared in parallel with regular GitLab.com deployments so t
 
 If you're a GitLab engineer looking to:
 
-* Include a security fix in a patch release, please follow the steps on the [security release runbook for GitLab engineers].
+* Include a security fix in a patch release, please follow the steps on the [security runbook for GitLab engineers].
 * Include a bug fix in a patch release, please follow the steps on the [patch release runbook for GitLab engineers].
 
 ## Patch release process
@@ -78,7 +78,7 @@ A patch release has the following phases:
   - **Step 6a**: Patch release blog post is published
   - **Step 6b**: Default branches, stable branches, and tags are synced from Security to Canonical to return to our default state of working in the open.
 
-## Unplanned critical patch release process
+### Unplanned critical patch release process
 
 Unplanned critical patch releases are used to immediately patch and
 mitigate a high-severity vulnerability in order to meet the [Security Remediation SLAs]
@@ -156,4 +156,5 @@ For more information, see [How to Mitigate Bugs Introduced by Security Merge Req
 [security implementation issue]: https://gitlab.com/gitlab-org/release/docs/-/blob/master/general/security/process.md#terminology
 [Security process as Developer]: https://gitlab.com/gitlab-org/release/docs/-/blob/master/general/security/developer.md
 [Security Remediation SLAs]: https://handbook.gitlab.com/handbook/security/threat-management/vulnerability-management/#remediation-slas
+[security runbook for GitLab engineers]: https://gitlab.com/gitlab-org/release/docs/-/blob/master/general/security/process.md#guides-by-role
 [Security repository]: https://gitlab.com/gitlab-org/security/
