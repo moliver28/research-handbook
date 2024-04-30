@@ -68,38 +68,41 @@ to do this, you will need to:
 
 #### For light agents on Zendesk Global
 
-To obtain a Light Agent in Zendesk Global, the requester must send an email to
-`gitlablightagent.2lba7m@zapiermail.com`. After doing so, they will receive an
-automated reply with the result of your request. It must be sent via a GitLab
-Google / Gmail account. Any other address will be declined. The Subject and
-Body fields of the email can be empty in the email itself, as they have no
-bearing on the process for this.
+Requests for light agent provisioning on Zendesk Global is mostly automated
+currently. The person wanting the access starts by sending an email to the
+`contact-project+gitlab-com-support-support-ops-zendesk-global-light-agent-provi-46606987-issue-@incoming.gitlab.com`
+email address. This is the service desk email address for the
+[Light Agent Provisioning](https://gitlab.com/gitlab-com/support/support-ops/zendesk-global/light-agent-provisioning)
+project, so sending an email there results in an issue being created within that
+project's issue tracker.
 
-Once set up, the requester will need to wait up to 24 hours for the account to
-be assigned the Zendesk Global app in Okta. Once the Zendesk Global app is
-assigned, the requester should be able to log in. If that doesn't work correctly
-for the requester, they should reach out via the in slack via
-[#support-operations](https://gitlab.slack.com/archives/C018ZGZAMPD).
-In most cases, people who don't get access within the 24 hours already had an
-issue occur on the Okta side.
+Upon issue creation, a project webhook triggers a CI/CD pipeline to run the
+scripts within that project (on ops.gitlab.net). Using the payload that is sent
+with the trigger, it performs the following checks:
 
-##### How does this work
+- Is the `service_desk_reply_to` value linked to a valid gitlab.com account?
+- Does the email end with '@gitlab.com'?
+- If there is a user in Zendesk for that email, are they already an agent?
 
-When the email is sent to Zapier, it will first validate the email address used.
-If it is a gitlab.com email address, it will then locate the user in Zendesk
-Global.
+If any of the checks fail, the issue is updated with a rejection message
+(stating the reason). If they all pass, the user in Zendesk is then created (if
+it doesn't exist) or updated (if it does exist).
 
-If the user is found, it will ensure they are marked as ana gent with the role
-of Light agent.
+After doing so, the issue is updated with a success message, pinging the DRI
+within Support Readiness to notify them of the next steps.
 
-If the user is not found, it will create the user and then ensure they are
-marked as and gent with the role of Light agent.
+The DRI will then add the email address that requested the change to the 
+[okta-zendeskglobal-users](https://groups.google.com/a/gitlab.com/g/okta-zendeskglobal-users/members)
+Google group. After doing so, the DRI will update the issue confirming the
+requester has been added to the Google group (and they will close the issue).
+
+Adding the requester as a member of the Google group should trigger Okta to
+assign the application to the requester's profile.
 
 #### By special request
 
 Any special request issues to provision on either Zendesk instance not related
-to role based entitlements need to be assigned to a Support Operations Manager
-and handled by them.
+to role based entitlements need to be assigned to the provisioning DRI.
 
 ## Special setups
 
@@ -164,5 +167,5 @@ agents's page in Zendesk and do the following:
 
 As of current, we manage assigning the application via google groups.
 
-- [Zendesk Global](https://groups.google.com/a/gitlab.com/g/okta-zendeskglobal-users)
-- [Zendesk US Government](https://groups.google.com/a/gitlab.com/g/okta-zendeskfederal-users)
+- [Zendesk Global](https://groups.google.com/a/gitlab.com/g/okta-zendeskglobal-users/members)
+- [Zendesk US Government](https://groups.google.com/a/gitlab.com/g/okta-zendeskfederal-users/members)
