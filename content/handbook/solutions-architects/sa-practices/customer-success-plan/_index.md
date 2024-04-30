@@ -109,7 +109,7 @@ The following is a recommendation on how to advance an oppotunity, meeting by me
 
 1. **Technical Close Plan** **(Stage-1:Discovery to Stage-3:Technical Validation)**
    - **Meeting 1 -Discovery** - Discover the Desired ~~Challenge~~ Outcome [Why Change?]
-     - _During the Meeting_
+     - *During the Meeting*
        - Research and confirm **"1. Company Background"**
        - Understand who are the **"3. Key Stakeholders"**:
          1. Executive Decision Maker/ Economic Buyer,
@@ -118,7 +118,7 @@ The following is a recommendation on how to advance an oppotunity, meeting by me
        - Ask about the **"4. Business Outcomes/ Strategic Initiatives"**
        - Start Discovery on any Tool Chain per Stage/ Processes etc.
        - Whiteboard or Present very high level GitLab value
-     - _After the Meeting_
+     - *After the Meeting*
        - Create a Technical Close Plan with the following content from your first Meeting
          - **"1. Company Background"**
          - **"2. What We have Heard"**
@@ -126,50 +126,50 @@ The following is a recommendation on how to advance an oppotunity, meeting by me
          - **"4. Business Outcomes/ Strategic Initiatives"**
        - **VERY IMPORTANT: Update the Technical Close Plan URL in the opportunity in Sales Force.**
        - If you don't have any of the above information, because most of the time was spent answering the customer's technical questions, schedule another discovery meeting to gather the info.
-     - _Next Steps:_
+     - *Next Steps:*
        - Current and Desired Workflow Discussion
        - Can also do a brief "Drive by" Demo, which is a short 5 minute demo to faciliate more discovery
 
    - **Meeting 2 -Scope** - Scope the Workflows to Achieve Desired Outcomes [Why Now?]
-     - _During the Meeting_
+     - *During the Meeting*
        - Present **"2. What We have Heard"** so far
        - Continue any Discovery on any Tool Chain per Stage/ Processes etc. that would form the foundation of a **"5. Current and Proposed Workflow Diagrams"**
        - Ask about all **"6. Applications & Use Cases/ Risks & Mitigations"** if all desired Use Cases are not accomplished.
        - Present or Whiteboard GitLab Use cases and Value
-      - _After Meeting_
-        - Update the  Technical Close Plan with
-          - **"2. What We have Heard"**
-          - **"5. Current and Proposed Workflow Diagrams"**
-          - **"6. Applications & Use Cases/ Risks & Mitigations"**
-          - Start a **"8. Technical Evaluation Plan & Activities"** on what will be done to achieve a Technical Win and Decision.
-      - _Next Steps:_
-        - Present Current and Desired Workflow Diagrams
-        - Optional (Propose Workshop or Demo).
+     - *After Meeting*
+       - Update the  Technical Close Plan with
+         - **"2. What We have Heard"**
+         - **"5. Current and Proposed Workflow Diagrams"**
+         - **"6. Applications & Use Cases/ Risks & Mitigations"**
+         - Start a **"8. Technical Evaluation Plan & Activities"** on what will be done to achieve a Technical Win and Decision.
+     - *Next Steps:*
+       - Present Current and Desired Workflow Diagrams
+      - Optional (Propose Workshop or Demo).
 
    - **Meeting 3 -Scope** - Qualify the Value [Why GitLab?]
-     - _Meeting Prep_
+     - *Meeting Prep*
        - For Meeting Prep, work with your Account Executive, to shore up **"2. What We have Heard"** so far.
        - Start to develop your **"8. Technical Evaluation Plan &  Activities"**, that is, what exactly will be done to achieve a Technical Win and Decision.
-     - _During the Meeting_  
+     - *During the Meeting*  
        - During the third meeting Present an updated **"2. What We have Heard"** so far
        - Present the **"5. Current and Proposed Workflow Diagrams"** and solicit feedback and discussion.
        - Present the **"6. Applications & Use Cases/ Risks & Mitigations"** and solicit feedback and discussion.
        - Make sure the customer understands our value in meeting their outcomes and processes.
        - Determine how a Technical Decision would be made and document in  **"8. Technical Evaluation Plan & Activities"**. Get agreement from Customer on the path to making a Technical Decision.
-     - _Next Steps:_
+     - *Next Steps:*
         - SA and AE to propose the next steps for Business and Technical Validation: Workshop/ Demo/ POV/ Value Stream Workshop/ Business Value Assessment
 
    - **Meeting 4 -  Business & Technical Validation Activities** - Validate the Business and Technical Value
-     - _Meeting Prep_
+     - *Meeting Prep*
        - For Meeting Prep, work with your Account Executive, to review your **"8. Technical Close Plan Activities"** on what will be done to achieve a Technical Win and Decision.
-     - _During the Technical Evaluation_
+     - *During the Technical Evaluation*
        - Conduct your [Technical Evaluation Plan and Activities](https://docs.google.com/presentation/d/1GnUqWluULPz_rJmwK2mno3KbzYcu1kM11tXTAZXivkg/edit#slide=id.g12b319f6181_0_0) as was decided between GitLab and the customer, e.g. Workshop, POV, Demo, Reverse Demo, Day in the Life
        - Work towards the Technica  win (may require more than 1 meeting)
      - _During and After the Technical Win_
        - Update **"7.Activities Planned/ Completed"** in the Technical Close Plan
        - After the Technical Win, create a **"9. Value Outcome Map/ Metrics"**.
        - The Outcome Map traces the Customer's Outcomes to be achieved, with their Strategic Initiatives, mapped to GitLab's capability and what value will it bring.  This would be used in the proposal.
-     - _Next Steps:_
+     - *Next Steps:*
         - After securing Technical Win, work with AE on a Proposal
         - Initiate the Customer Success Plan (see below)
 
