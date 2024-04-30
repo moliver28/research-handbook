@@ -79,7 +79,7 @@ In general, follow the [Code Review guidelines](https://docs.gitlab.com/ee/devel
 
 ### Preview the MR
 
-Always review the MR in a live environment, so that you can experience the changes as our users will and review them thoroughly. To choose the most appropriate method to preview the MR and get started, see [Review, test, and contribute](/handbook/product/ux/product-designer/mr-reviews/preview-mr). If you get stuck, don't struggle on your own, check our [help section](/handbook/product/ux/product-designer/mr-reviews/preview-mr/#help).
+If applicable, review the MR in a live environment, so that you can experience the changes as our users will and review them thoroughly. Determine if a live preview is necessary based on the nature of the changes. To choose the most appropriate method to preview the MR and get started, see [Review, test, and contribute](/handbook/product/ux/product-designer/mr-reviews/preview-mr). If you get stuck, don't struggle on your own, check our [help section](/handbook/product/ux/product-designer/mr-reviews/preview-mr/#help).
 
 #### Specific review requirements
 
