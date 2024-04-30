@@ -68,7 +68,7 @@ If a customer expresses interest by simply mentioning an issue number or e.g. "a
 
 The Product Manager is responsible for figuring all of this out, but being one step ahead of them will speed things up.
 
-If a customer is a member of our Product [Customer Advisory Board](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/customer-advocacy/CAB/), the CSM should add two labels: `~CAB Takeaway` and `~CAB Takeaway Qx FY20xx` to the issue.
+If a customer is a member of our Product [Customer Advisory Board](/handbook/product/product-advisory-board/), the CSM should add two labels: `~CAB Takeaway` and `~CAB Takeaway Qx FY20xx` to the issue.
 
 It is highly recommended to use the feedback template below to make this easier.
 
@@ -80,9 +80,9 @@ You can copy/paste this to make sure you don't miss anything or [create a commen
 <!-- Select the appropriate subscription and product text below and remove the others (note: do not add them as labels)>
 <!-- Click on ~customer priority:: below to select an appropriate label 1 through 10 with 10 being the highest>
 
-The following ~customer is interested in this capability 
+The following ~customer is interested in this capability
 
-- Subscription: ~"GitLab Ultimate" OR ~"GitLab Premium" OR ~"GitLab Free" 
+- Subscription: ~"GitLab Ultimate" OR ~"GitLab Premium" OR ~"GitLab Free"
 - Product: ~"self-managed" OR ~"gitlab.com" OR ~"GitLab Dedicated"
 - Link to request:
 - Priority: ~customer priority::

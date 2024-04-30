@@ -21,7 +21,7 @@ title: "Market Strategy and Insights"
 
 **How We Do It**
 - [**Customer Reference Program**](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/customer-advocacy/)
-  - [Customer Advisory Board](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/customer-advocacy/CAB/)
+  - [Customer Advisory Board](/handbook/product/product-advisory-board/)
   - [Customer Case Studies](https://about.gitlab.com/customers/)
   - [Peer Review Site Management](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/customer-advocacy/peer-reviews/) (Gartner Peer Insights, G2, Trust Radius, etc.)
   - [Customer Insight Portraits](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/customer-advocacy/customer-insight/)
