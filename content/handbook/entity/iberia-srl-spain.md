@@ -4,7 +4,6 @@ description: "Entitity Information for GitLab Iberia s.r.l. Spain Team Members"
 controlled_document: true
 ---
 
-In line with GitLab's regulatory obligations, changes to [controlled documents](https://about.gitlab.com/handbook/security/controlled-document-procedure.html) must be approved or merged by a code owner. All contributions are welcome and encouraged.
 
 Bienvenido! This Handbook is for team members employed by GitLab Iberia s.r.l and includes (we hope!), all the information you might want or need. If there's anything we don't have here, that you think should be included, please feel free to make a suggestion.
 
@@ -170,7 +169,7 @@ Team Members are on leave whose salary is paid directly via the Spanish governme
 
 ### Spain-Specific Expenses
 
-Team members will receive the monthly remote working allowance established under the CBA, which will be paid monthly, processed by payroll and will be listed on your payslip as 'PLUS TELETRABAJO'.
+Team members will receive the monthly remote working allowance established under the CBA, which will be paid monthly, processed by payroll and will be listed on your payslip as **PLUS TELETRABAJO**.
 
 Any additional expenses will be reimbursed under the [GitLab Global Travel and Expense Policy](https://handbook.gitlab.com/handbook/finance/expenses/), up to any limits set by GitLab.
 
