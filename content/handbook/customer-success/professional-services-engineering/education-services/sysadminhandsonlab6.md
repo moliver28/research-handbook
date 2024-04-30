@@ -46,7 +46,7 @@ sudo grep -n -E 'log_level|logging_level' /etc/gitlab/gitlab.rb
 3. Change the minimum log level for `nginx`. Replace "1731" with the appropriate line number from the `grep` output in the previous step.
 
 ```bash
-sudo sed -i '1731s/warn/error/' /etc/gitlab/gitlab.rb
+sudo sed -i '1731s/\"error\"/\"warn\"/' /etc/gitlab/gitlab.rb
 sudo sed -i '1731s/# //' /etc/gitlab/gitlab.rb
 ```
 
